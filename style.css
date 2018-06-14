@@ -2,14 +2,19 @@ html {
     background-color: #091626; 
 }
 
-#logo, img{
+#logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 600px;
     height: 50%;
-    max-width: 1280px;
-    min-width: 280px;
+}
+
+#linkedin{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25px;
 }
 
 .centered-content-logo {
@@ -24,6 +29,14 @@ html {
     margin: 0;
     position: absolute;
     top: calc(40% + 190px);
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.centered-content-linkedin {
+    margin: 0;
+    position: absolute;
+    top: calc(40% + 245px);
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
@@ -61,6 +74,10 @@ html {
     background: #ffffff;
     color: #000000;
     cursor: pointer;
+}
+
+.inverted {
+	filter: invert(100%);
 }
 
 a {

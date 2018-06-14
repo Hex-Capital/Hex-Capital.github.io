@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
   <link rel="stylesheet" type="text/css" href="style.css">
-  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=0.8">
   <title>Hex Capital</title>
 </head>
 
@@ -12,29 +12,19 @@
   <div id="wrapper" align="center">
 
     <div class="img_wrapper">
-      <div class="centered-content-logo"><img id="logo" src="logo.jpg" alt="Hex Capital" onload="document.querySelector('body').style.opacity=1"></div>  <!--  onload="document.querySelector('.img_wrapper').style.opacity=1" -->
+      <div class="centered-content-logo"><img id="logo" src="logo.jpg" alt="Hex Capital" onload="imgLoaded()"></div>
     </div>
       <div class="centered-content-button text button highlightonfocus"><a href="mailto:info@hex-capital.com">info@hex-capital.com</a></div> 
       <!-- <div class="centered-content-linkedin inverted"><a href="https://www.linkedin.com/company/hex-capital/"><img id="linkedin" class="social-media" src="linkedin.png" alt="LinkedIn"></a></div>  -->
-      <div class="centered-content-twitter inverted"><a href="https://twitter.com/Hex_Capital"><img id="linkedin" class="social-media" src="twitter.png" alt="Twitter"></a></div>
+      <div class="centered-content-twitter inverted"><a href="https://twitter.com/Hex_Capital"><img id="twitter" class="social-media" src="twitter.png" alt="Twitter"></a></div>
       
     </div>
 
     <script>
-        window.onload = load;
-        function load() {
-            var canvas = document.getElementById("logo");
-            var context = canvas.getContext("2d");
-            context.fillRect(0, 0, 640, 400);
-            var image = new Image();
-            image.src = "logo.jpg";
-            image.onload = function() {
-              context.drawImage(image, 50, 50);
-            }
+        function imgLoaded() {
+            document.querySelector('#logo').src = 'logo.jpg';
+            document.querySelector('body').style.opacity = 1;
         }
-        /*
-        alert("hi2");
-          */
     </script>
 
 </body>

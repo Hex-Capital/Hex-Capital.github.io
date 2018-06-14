@@ -14,7 +14,18 @@ html {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 25px;
+}
+
+.social-media {
+    width: 25px;    
+}
+
+.social-media:hover {
+    -webkit-transition: width 75ms ease-out;
+    -moz-transition: width 75ms ease-out;
+    -o-transition: width 75ms ease-out;
+    transition: width 75ms ease-out;
+    width: 28px;
 }
 
 .centered-content-logo {
@@ -63,14 +74,11 @@ html {
     padding-left: 1.24em;
 }
 
-.highlightonfocus {
+.highlightonfocus:hover {
     -webkit-transition: background-color 200ms ease-out;
     -moz-transition: background-color 200ms ease-out;
-    -o-transition: background-color 200mss ease-out;
+    -o-transition: background-color 200ms ease-out;
     transition: background-color 200ms ease-out;
-}
-
-.highlightonfocus:hover {
     background: #ffffff;
     color: #000000;
     cursor: pointer;

@@ -1,12 +1,67 @@
-.centered-content {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
+html {
+    background-color: #091626; 
 }
 
+#logo, img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 50%;
+    max-width: 1280px;
+    min-width: 280px;
+}
+
+.centered-content-logo {
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.centered-content-button {
+    margin: 0;
+    position: absolute;
+    top: calc(40% + 190px);
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.text {
+    color: #ffffff;
+	font-family: Futura, "Trebuchet MS", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    text-transform: lowercase;
+    letter-spacing: .2em;
+}
+
+.button {
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #fff;
+    display: block;
+    padding-top: 1em;
+    padding-right: 1.24em;
+    padding-bottom: 1em;
+    padding-left: 1.24em;
+}
+
+.highlightonfocus {
+    -webkit-transition: background-color 200ms ease-out;
+    -moz-transition: background-color 200ms ease-out;
+    -o-transition: background-color 200mss ease-out;
+    transition: background-color 200ms ease-out;
+}
+
+.highlightonfocus:hover {
+    background: #ffffff;
+    color: #000000;
+    cursor: pointer;
+}
 
 @media only screen and (max-width: 500px) {
     body {

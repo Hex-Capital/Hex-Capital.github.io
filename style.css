@@ -2,6 +2,24 @@ html {
     background-color: #091626; 
 }
 
+body {
+    opacity: 0;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -ms-transition: opacity 500ms;
+    transition: opacity 500ms;
+}
+
+/*
+.img_wrapper img{
+    opacity: 0;
+    -webkit-transition: opacity 1150ms;
+    -moz-transition: opacity 1150ms;
+    -ms-transition: opacity 1150ms;
+    transition: opacity 1150ms;
+}
+*/
+
 #logo {
     display: block;
     margin-left: auto;

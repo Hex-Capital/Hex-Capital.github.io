@@ -52,6 +52,14 @@ html {
     margin-right: -50%;
     transform: translate(-50%, -50%);
 }
+.centered-content-twitter {
+    margin: 0;
+    position: absolute;
+    top: calc(40% + 245px);
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
 
 .text {
     color: #ffffff;

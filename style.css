@@ -10,6 +10,14 @@ body {
     transition: opacity 500ms;
 }
 
+.wf-loading body{
+    visibility:visible !important;
+}
+    
+.wf-loading img,.wf-loading p, .wf-loading a, .wf-loading h1, .wf-loading h2, .wf-loading h3, .wf-loading h4, .wf-loading h5, .wf-loading h6 {
+    visibility: visible !important;
+}
+
 /*
 .img_wrapper img{
     opacity: 0;

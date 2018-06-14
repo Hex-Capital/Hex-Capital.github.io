@@ -84,6 +84,20 @@ body {
     margin-right: -50%;
     transform: translate(-50%, -50%);
 }
+.centered-content-footer {
+    color:#ffffff;
+	font-family: Futura, "Trebuchet MS", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px;
+    letter-spacing: .15em;
+    margin: 0;
+    position: absolute;
+    top: calc(100% - 14px);
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
 
 .text {
     color: #ffffff;

@@ -4,10 +4,10 @@ html {
 
 body {
     opacity: 0;
-    -webkit-transition: opacity 1000ms;
-    -moz-transition: opacity 1000ms;
-    -ms-transition: opacity 1000ms;
-    transition: opacity 1000ms;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -ms-transition: opacity 500ms;
+    transition: opacity 500ms;
 }
 
 /*

@@ -1,9 +1,10 @@
 html {
+    overflow-x: hidden;
     background-color: #091626; 
 }
 
 body {
-    overflow: hidden;
+    overflow-x: hidden;
     opacity: 0;
     -webkit-transition: opacity 500ms;
     -moz-transition: opacity 500ms;

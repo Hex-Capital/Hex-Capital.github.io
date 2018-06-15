@@ -3,6 +3,7 @@ html {
 }
 
 body {
+    overflow: hidden;
     opacity: 0;
     -webkit-transition: opacity 500ms;
     -moz-transition: opacity 500ms;

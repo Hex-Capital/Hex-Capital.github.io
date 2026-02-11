@@ -1,116 +1,101 @@
+/* === Base === */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 html {
-    overflow-x: hidden;
-    background-color: #091626; 
+    background-color: #091626;
+    scroll-behavior: smooth;
 }
 
 body {
-    overflow-x: hidden;
     opacity: 0;
-    -webkit-transition: opacity 500ms;
-    -moz-transition: opacity 500ms;
-    -ms-transition: opacity 500ms;
     transition: opacity 500ms;
+    color: #ffffff;
+    font-family: Futura, "Trebuchet MS", sans-serif;
+    overflow-x: hidden;
 }
 
-.wf-loading body{
-    visibility:visible !important;
-}
-    
-.wf-loading img,.wf-loading p, .wf-loading a, .wf-loading h1, .wf-loading h2, .wf-loading h3, .wf-loading h4, .wf-loading h5, .wf-loading h6 {
-    visibility: visible !important;
+/* === Constellation Canvas === */
+#constellation-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    pointer-events: none;
 }
 
-/*
-.img_wrapper img{
-    opacity: 0;
-    -webkit-transition: opacity 1150ms;
-    -moz-transition: opacity 1150ms;
-    -ms-transition: opacity 1150ms;
-    transition: opacity 1150ms;
+/* === Hero Section === */
+#hero {
+    position: relative;
+    z-index: 1;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
 }
-*/
 
 #logo {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 600px;
+    max-width: 90vw;
 }
 
-#linkedin{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.hero-email {
+    margin-top: 50px;
 }
 
-#twitter{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.hero-social {
+    margin-top: 20px;
 }
 
-.social-media {
-    width: 25px;    
-}
-
-.social-media:hover {
-    -webkit-transition: width 75ms ease-out;
-    -moz-transition: width 75ms ease-out;
-    -o-transition: width 75ms ease-out;
-    transition: width 75ms ease-out;
-    width: 28px;
-}
-
-.centered-content-logo {
-    margin: 0;
+/* === Scroll Indicator === */
+.scroll-indicator {
     position: absolute;
-    top: 40%;
+    bottom: 40px;
     left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.5;
+    transition: opacity 300ms;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
 }
-.centered-content-button {
-    margin: 0;
-    position: absolute;
-    top: calc(40% + 190px);
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
+
+.scroll-indicator:hover {
+    opacity: 0.9;
 }
-.centered-content-linkedin {
-    margin: 0;
-    position: absolute;
-    top: calc(40% + 245px);
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-}
-.centered-content-twitter {
-    margin: 0;
-    position: absolute;
-    top: calc(40% + 245px);
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-}
-.centered-content-footer {
-    color:#ffffff;
-	font-family: Futura, "Trebuchet MS", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+
+.scroll-indicator span {
     font-size: 10px;
-    letter-spacing: .15em;
-    margin: 0;
-    position: absolute;
-    top: calc(100% - 14px);
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
 }
 
+.scroll-indicator svg {
+    animation: bounce 2s ease infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(6px); }
+    60% { transform: translateY(3px); }
+}
+
+/* === Preserved Styles === */
 .text {
     color: #ffffff;
-	font-family: Futura, "Trebuchet MS", sans-serif;
+    font-family: Futura, "Trebuchet MS", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 14px;
@@ -122,17 +107,11 @@ body {
     cursor: pointer;
     background-color: transparent;
     border: 2px solid #fff;
-    display: block;
-    padding-top: 1em;
-    padding-right: 1.24em;
-    padding-bottom: 1em;
-    padding-left: 1.24em;
+    display: inline-block;
+    padding: 1em 1.24em;
 }
 
 .highlightonfocus:hover {
-    -webkit-transition: background-color 200ms ease-out;
-    -moz-transition: background-color 200ms ease-out;
-    -o-transition: background-color 200ms ease-out;
     transition: background-color 200ms ease-out;
     background: #ffffff;
     color: #000000;
@@ -140,10 +119,195 @@ body {
 }
 
 .inverted {
-	filter: invert(100%);
+    filter: invert(100%);
+}
+
+.social-media {
+    width: 25px;
+}
+
+.social-media:hover {
+    transition: width 75ms ease-out;
+    width: 28px;
 }
 
 a {
-    color: inherit; /* blue colors for links too */
-    text-decoration: inherit; /* no underline */
+    color: inherit;
+    text-decoration: inherit;
+}
+
+/* === Portfolio Section === */
+#portfolio {
+    position: relative;
+    z-index: 1;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 40px 100px;
+}
+
+.portfolio-heading {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    opacity: 0.7;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+}
+
+.portfolio-card {
+    position: relative;
+    background: transparent;
+    border: none;
+    border-radius: 10px;
+    padding: 30px 16px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    transition: opacity 300ms;
+}
+
+.portfolio-card:hover {
+    opacity: 0.8;
+}
+
+.card-logo-wrap {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 14px;
+}
+
+.card-logo-wrap img {
+    max-height: 80px;
+    max-width: 100%;
+    object-fit: contain;
+    filter: brightness(0) invert(1);
+    opacity: 0.85;
+    transition: opacity 300ms;
+}
+
+.portfolio-card:hover .card-logo-wrap img {
+    opacity: 1;
+}
+
+.card-name {
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    opacity: 0.85;
+}
+
+.card-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(9, 22, 38, 0.95);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    opacity: 0;
+    transition: opacity 300ms;
+    pointer-events: none;
+    border-radius: 10px;
+}
+
+.portfolio-card:hover .card-overlay {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.card-overlay .overlay-name {
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.card-overlay .overlay-desc {
+    font-size: 12px;
+    line-height: 1.6;
+    opacity: 0.7;
+    letter-spacing: 0.03em;
+}
+
+/* === Footer === */
+#site-footer {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 30px 20px 40px;
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    opacity: 0.5;
+}
+
+/* === Responsive: Tablet (<=1024px) === */
+@media (max-width: 1024px) {
+    .portfolio-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #portfolio {
+        padding: 60px 24px 80px;
+    }
+}
+
+/* === Responsive: Mobile (<=600px) === */
+@media (max-width: 600px) {
+    .portfolio-grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 16px;
+    }
+
+    #portfolio {
+        padding: 50px 16px 60px;
+    }
+
+    .portfolio-card {
+        padding: 20px 12px 16px;
+    }
+
+    .card-logo-wrap {
+        height: 60px;
+        margin-bottom: 10px;
+    }
+
+    /* Show overlay content inline on mobile */
+    .card-overlay {
+        position: static;
+        opacity: 1;
+        pointer-events: auto;
+        background: transparent;
+        padding: 10px 4px 0;
+        border-radius: 0;
+    }
+
+    .card-overlay .overlay-name {
+        display: none; /* already shown as .card-name */
+    }
+
+    .scroll-indicator {
+        bottom: 24px;
+    }
+
+    #logo {
+        width: 300px;
+    }
+
+    .hero-email {
+        margin-top: 30px;
+    }
 }

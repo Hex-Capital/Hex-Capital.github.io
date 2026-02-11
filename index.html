@@ -1,43 +1,161 @@
 <!doctype html>
-
 <html lang="en">
 <head>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=0.8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hex Capital</title>
-
-  <script>
-
-      function sleep_s(secs) {
-          secs = (+new Date) + secs * 1000;
-          while ((+new Date) < secs);
-      }
-
-      function imgLoaded() {
-          document.querySelector('body').style.opacity = 1;
-          //sleep_s(1)
-          //document.body.style.zoom = "100%"; 
-          //window.scrollTo(2, 2);
-          //window.scrollTo(200, 200);
-          //var store = document.querySelector('#logo');
-          //document.querySelector('#logo') = store;
-
-      }
-  </script>
-
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  
-  <div id="wrapper" align="center">
 
-      <div class="centered-content-logo"><img id="logo" src="logo.jpg" alt="Hex Capital" onload="imgLoaded()"></div> <!-- onload="imgLoaded()" -->
-      <div class="centered-content-button text button highlightonfocus"><a href="mailto:info@hex-capital.com">info@hex-capital.com</a></div> 
-      <!-- <div class="centered-content-linkedin inverted"><a href="https://www.linkedin.com/company/hex-capital/"><img id="linkedin" class="social-media" src="linkedin.png" alt="LinkedIn"></a></div>  -->
-      <div class="centered-content-twitter inverted"><a href="https://twitter.com/Hex_Capital"><img id="twitter" class="social-media" src="twitter.png" alt="Twitter"></a></div>
-      <div class="centered-content-footer">447 Sutter Street, Ste #405 PMB #310, San Francisco, CA 94108</div>
-      
+  <canvas id="constellation-canvas"></canvas>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <img id="logo" src="logo.png" alt="Hex Capital">
+
+    <div class="hero-email text button highlightonfocus">
+      <a href="mailto:info@hex-capital.com">info@hex-capital.com</a>
     </div>
 
+    <div class="hero-social inverted">
+      <a href="https://twitter.com/Hex_Capital">
+        <img class="social-media" src="twitter.png" alt="Twitter">
+      </a>
+    </div>
+
+    <a href="#portfolio" class="scroll-indicator">
+      <span>Portfolio</span>
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="white" stroke-width="1.5">
+        <polyline points="4,7 10,13 16,7"></polyline>
+      </svg>
+    </a>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio">
+    <h2 class="portfolio-heading">Portfolio</h2>
+    <div class="portfolio-grid">
+
+      <div class="portfolio-card">
+        <div class="card-logo-wrap">
+          <img src="logos/databricks.png" alt="Databricks">
+        </div>
+        <div class="card-name">Databricks</div>
+        <div class="card-overlay">
+          <div class="overlay-name">Databricks</div>
+          <div class="overlay-desc">Unified analytics and AI platform built on the data lakehouse architecture.</div>
+        </div>
+      </div>
+
+      <div class="portfolio-card">
+        <div class="card-logo-wrap">
+          <img src="logos/gamma.svg" alt="Gamma">
+        </div>
+        <div class="card-name">Gamma</div>
+        <div class="card-overlay">
+          <div class="overlay-name">Gamma</div>
+          <div class="overlay-desc">AI-powered tool for creating beautiful presentations, documents, and webpages.</div>
+        </div>
+      </div>
+
+      <div class="portfolio-card">
+        <div class="card-logo-wrap">
+          <img src="logos/maven.png" alt="Maven">
+        </div>
+        <div class="card-name">Maven</div>
+        <div class="card-overlay">
+          <div class="overlay-name">Maven</div>
+          <div class="overlay-desc">Social platform reimagining how communities learn and connect online.</div>
+        </div>
+      </div>
+
+      <div class="portfolio-card">
+        <div class="card-logo-wrap">
+          <img src="logos/hotplate.svg" alt="Hotplate">
+        </div>
+        <div class="card-name">Hotplate</div>
+        <div class="card-overlay">
+          <div class="overlay-name">Hotplate</div>
+          <div class="overlay-desc">Commerce platform enabling creators and small businesses to sell directly to fans.</div>
+        </div>
+      </div>
+
+      <div class="portfolio-card">
+        <div class="card-logo-wrap">
+          <img src="logos/forge-automation.png" alt="Forge Automation">
+        </div>
+        <div class="card-name">Forge Automation</div>
+        <div class="card-overlay">
+          <div class="overlay-name">Forge Automation</div>
+          <div class="overlay-desc">Industrial automation platform streamlining manufacturing workflows.</div>
+        </div>
+      </div>
+
+      <div class="portfolio-card">
+        <div class="card-logo-wrap">
+          <img src="logos/moonshine.png" alt="Moonshine">
+        </div>
+        <div class="card-name">Moonshine</div>
+        <div class="card-overlay">
+          <div class="overlay-name">Moonshine</div>
+          <div class="overlay-desc">Next-generation AI infrastructure powering intelligent applications.</div>
+        </div>
+      </div>
+
+      <div class="portfolio-card">
+        <div class="card-logo-wrap">
+          <img src="logos/pave-robotics.png" alt="Pave Robotics">
+        </div>
+        <div class="card-name">Pave Robotics</div>
+        <div class="card-overlay">
+          <div class="overlay-name">Pave Robotics</div>
+          <div class="overlay-desc">Autonomous robotics solutions for construction and infrastructure.</div>
+        </div>
+      </div>
+
+      <div class="portfolio-card">
+        <div class="card-logo-wrap">
+          <img src="logos/f4-industries.svg" alt="F4 Industries">
+        </div>
+        <div class="card-name">F4 Industries</div>
+        <div class="card-overlay">
+          <div class="overlay-name">F4 Industries</div>
+          <div class="overlay-desc">Advanced industrial technology for next-generation manufacturing.</div>
+        </div>
+      </div>
+
+      <div class="portfolio-card">
+        <div class="card-logo-wrap">
+          <img src="logos/allus-ai.svg" alt="Allus AI">
+        </div>
+        <div class="card-name">Allus AI</div>
+        <div class="card-overlay">
+          <div class="overlay-name">Allus AI</div>
+          <div class="overlay-desc">AI-driven solutions transforming enterprise workflows and decision-making.</div>
+        </div>
+      </div>
+
+      <div class="portfolio-card">
+        <div class="card-logo-wrap">
+          <img src="logos/sellraze.svg" alt="SellRaze">
+        </div>
+        <div class="card-name">SellRaze</div>
+        <div class="card-overlay">
+          <div class="overlay-name">SellRaze</div>
+          <div class="overlay-desc">AI-powered tool simplifying cross-platform e-commerce listing and selling.</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="site-footer">
+    447 Sutter Street, Ste #405 PMB #310, San Francisco, CA 94108
+  </footer>
+
+  <script src="constellation.js"></script>
 </body>
-</html> 
+</html>

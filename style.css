@@ -325,8 +325,8 @@ a {
         width: 300px;
     }
 
-    .hero-contact {
-        flex-direction: column;
-        gap: 15px;
+    .hero-contact .hero-email {
+        font-size: 12px;
+        padding: 0.8em 1em;
     }
 }

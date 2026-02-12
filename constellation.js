@@ -317,7 +317,14 @@
     rafId = requestAnimationFrame(animate);
   }
 
-  function onResize() { resize(); createParticles(); }
+  var lastWidth = 0;
+  function onResize() {
+    var newWidth = window.innerWidth;
+    if (newWidth === lastWidth) return;
+    lastWidth = newWidth;
+    resize();
+    createParticles();
+  }
   function onMouseMove(e) { mouse.x = e.clientX; mouse.y = e.clientY; }
   function onScroll() { scrollY = window.scrollY || window.pageYOffset || 0; }
 
@@ -326,6 +333,7 @@
   window.addEventListener('scroll', onScroll, { passive: true });
 
   function init() {
+    lastWidth = window.innerWidth;
     resize(); createParticles();
     scrollY = window.scrollY || window.pageYOffset || 0;
     spawnWave();

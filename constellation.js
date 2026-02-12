@@ -47,7 +47,8 @@
 
   function resize() {
     var dpr = window.devicePixelRatio || 1;
-    width = window.innerWidth; height = window.innerHeight;
+    width = window.innerWidth;
+    height = isTouch ? window.screen.height : window.innerHeight;
     canvas.width = width * dpr; canvas.height = height * dpr;
     canvas.style.width = width + 'px'; canvas.style.height = height + 'px';
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);

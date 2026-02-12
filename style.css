@@ -325,4 +325,8 @@ a {
         width: 300px;
     }
 
+    .hero-contact {
+        flex-direction: column;
+        gap: 15px;
+    }
 }

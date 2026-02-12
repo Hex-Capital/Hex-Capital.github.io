@@ -27,8 +27,9 @@
   var FG_CONNECT_DIST = 140;
   var MOUSE_REPEL = 90;
   var MOUSE_CONNECT = 180;
-  var BG_PARALLAX = 0.12;
-  var FG_PARALLAX = 0.28;
+  var isTouch = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+  var BG_PARALLAX = isTouch ? 0 : 0.12;
+  var FG_PARALLAX = isTouch ? 0 : 0.28;
 
   var PULSE_INTERVAL = 55;
   var pulseTimer = 0;

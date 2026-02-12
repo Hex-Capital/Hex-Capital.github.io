@@ -34,7 +34,8 @@ body {
 #hero {
     position: relative;
     z-index: 1;
-    min-height: 100vh;
+    min-height: 100vh;           /* fallback for old browsers */
+    min-height: 100dvh;          /* modern: fits visible viewport */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -319,7 +320,7 @@ a {
     }
 
     .scroll-indicator {
-        bottom: 80px;
+        bottom: 40px;
     }
 
     #logo {

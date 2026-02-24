@@ -33,7 +33,7 @@
 
   var PULSE_INTERVAL = 55;
   var pulseTimer = 0;
-  var STAR_INTERVAL = 360;
+  var STAR_INTERVAL = 720;
   var STAR_ILLUMINATE_DIST = 120;
   var starTimer = 0;
   var WAVE_INTERVAL = 140;
@@ -94,7 +94,7 @@
     shootingStars.push({
       x: startX, y: startY, vx: Math.cos(angle) * speed, vy: Math.sin(angle) * speed,
       trail: [], life: 1.0, maxTrail: 18 + Math.floor(Math.random() * 12),
-      brightness: 0.7 + Math.random() * 0.3
+      brightness: 0.315 + Math.random() * 0.135
     });
   }
 

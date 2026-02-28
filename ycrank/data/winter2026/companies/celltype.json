@@ -1,0 +1,75 @@
+{
+  "slug": "celltype",
+  "name": "CellType",
+  "oneLiner": "The agentic drug company. We simulate human biology.",
+  "metadata": {
+    "website": "https://www.celltype.com",
+    "yc_page": "https://www.ycombinator.com/companies/celltype",
+    "batch": "Winter 2026",
+    "industry": "Healthcare / Healthcare -> Drug Discovery and Delivery",
+    "team_size": "2",
+    "location": "New York, NY, USA",
+    "tags": "AI-powered Drug Discovery, Artificial Intelligence, Machine Learning, Biotech, Therapeutics"
+  },
+  "tags": [
+    "AI-powered Drug Discovery",
+    "Artificial Intelligence",
+    "Machine Learning",
+    "Biotech",
+    "Therapeutics"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 72,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 72,
+      "tier": "Invest"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 42,
+    "EG": 45,
+    "NR": 72,
+    "PG": 57,
+    "PT": 46,
+    "SL": 47,
+    "VK": 72
+  },
+  "consolidatedAvg": 54.43,
+  "consolidatedRank": 10,
+  "paths": {
+    "memo": "winter2026/memos/celltype.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/celltype.md",
+      "elad-gil": "winter2026/evals/elad-gil/celltype.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/celltype.md",
+      "paul-graham": "winter2026/evals/paul-graham/celltype.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/celltype.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/celltype.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/celltype.md"
+    }
+  }
+}

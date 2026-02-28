@@ -1,0 +1,75 @@
+{
+  "slug": "samora-ai",
+  "name": "Samora AI",
+  "oneLiner": "Multilingual voice agents with safe human escalation when needed",
+  "metadata": {
+    "website": "https://samora.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/samora-ai",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B",
+    "team_size": "8",
+    "location": "San Francisco, CA, USA",
+    "tags": "B2B, AI, Conversational AI",
+    "yc_partner": "Tyler Bosmeny",
+    "emails": "[first]@samora.ai format (RocketReach via search snippet); no specific addresses confirmed on company website"
+  },
+  "tags": [
+    "B2B",
+    "AI",
+    "Conversational AI"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 72,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 60,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 43,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 72,
+    "EG": 40,
+    "NR": 54,
+    "PG": 60,
+    "PT": 35,
+    "SL": 35,
+    "VK": 43
+  },
+  "consolidatedAvg": 48.43,
+  "consolidatedRank": 29,
+  "paths": {
+    "memo": "winter2026/memos/samora-ai.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/samora-ai.md",
+      "elad-gil": "winter2026/evals/elad-gil/samora-ai.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/samora-ai.md",
+      "paul-graham": "winter2026/evals/paul-graham/samora-ai.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/samora-ai.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/samora-ai.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/samora-ai.md"
+    }
+  }
+}

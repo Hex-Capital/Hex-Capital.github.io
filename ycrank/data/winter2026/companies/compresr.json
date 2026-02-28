@@ -1,0 +1,74 @@
+{
+  "slug": "compresr",
+  "name": "Compresr",
+  "oneLiner": "LLM-native context compression",
+  "metadata": {
+    "website": "https://compresr.ai",
+    "yc_page": "https://www.ycombinator.com/companies/compresr",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Developer Tools, B2B, Enterprise Software"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "B2B",
+    "Enterprise Software"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 25,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 25,
+      "tier": "Strong Pass"
+    },
+    "vinod-khosla": {
+      "score": 35,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 25,
+    "EG": 34,
+    "NR": 40,
+    "PG": 37,
+    "PT": 28,
+    "SL": 25,
+    "VK": 35
+  },
+  "consolidatedAvg": 32,
+  "consolidatedRank": 150,
+  "paths": {
+    "memo": "winter2026/memos/compresr.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/compresr.md",
+      "elad-gil": "winter2026/evals/elad-gil/compresr.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/compresr.md",
+      "paul-graham": "winter2026/evals/paul-graham/compresr.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/compresr.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/compresr.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/compresr.md"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "origin-bio",
+  "name": "Origin",
+  "oneLiner": "AI for safer cell & gene therapies",
+  "metadata": {
+    "website": "https://origin.bio/",
+    "yc_page": "https://www.ycombinator.com/companies/origin-bio",
+    "batch": "Winter 2026",
+    "industry": "Healthcare / Healthcare -> Drug Discovery and Delivery",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "AI-powered Drug Discovery, Gene Therapy, Cell Therapy, Biotech"
+  },
+  "tags": [
+    "AI-powered Drug Discovery",
+    "Gene Therapy",
+    "Cell Therapy",
+    "Biotech"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 56,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 38,
+    "EG": 45,
+    "NR": 47,
+    "PG": 42,
+    "PT": 34,
+    "SL": 34,
+    "VK": 56
+  },
+  "consolidatedAvg": 42.29,
+  "consolidatedRank": 61,
+  "paths": {
+    "memo": "winter2026/memos/origin-bio.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/origin-bio.md",
+      "elad-gil": "winter2026/evals/elad-gil/origin-bio.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/origin-bio.md",
+      "paul-graham": "winter2026/evals/paul-graham/origin-bio.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/origin-bio.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/origin-bio.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/origin-bio.md"
+    }
+  }
+}

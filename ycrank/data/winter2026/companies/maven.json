@@ -1,0 +1,77 @@
+{
+  "slug": "maven",
+  "name": "Maven",
+  "oneLiner": "Payments for Voice Agents",
+  "metadata": {
+    "website": "https://trymaven.com",
+    "yc_page": "https://www.ycombinator.com/companies/maven",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Developer Tools, Fintech, SaaS, Infrastructure, Conversational AI",
+    "yc_partner": "Ankit Gupta",
+    "emails": "founders@trymaven.com (company website)"
+  },
+  "tags": [
+    "Developer Tools",
+    "Fintech",
+    "SaaS",
+    "Infrastructure",
+    "Conversational AI"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 35,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 31,
+    "EG": 40,
+    "NR": 42,
+    "PG": 42,
+    "PT": 29,
+    "SL": 29,
+    "VK": 35
+  },
+  "consolidatedAvg": 35.43,
+  "consolidatedRank": 121,
+  "paths": {
+    "memo": "winter2026/memos/maven.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/maven.md",
+      "elad-gil": "winter2026/evals/elad-gil/maven.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/maven.md",
+      "paul-graham": "winter2026/evals/paul-graham/maven.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/maven.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/maven.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/maven.md"
+    }
+  }
+}

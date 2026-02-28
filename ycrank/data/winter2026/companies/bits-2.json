@@ -1,0 +1,72 @@
+{
+  "slug": "bits-2",
+  "name": "Bits",
+  "oneLiner": "Fast and Safe OpenClaw on the cloud",
+  "metadata": {
+    "website": "https://usebits.com",
+    "yc_page": "https://www.ycombinator.com/companies/bits-2",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "AIOps, Deep Learning"
+  },
+  "tags": [
+    "AIOps",
+    "Deep Learning"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 25,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 22,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 22,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 27,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 25,
+    "EG": 30,
+    "NR": 30,
+    "PG": 37,
+    "PT": 22,
+    "SL": 22,
+    "VK": 27
+  },
+  "consolidatedAvg": 27.57,
+  "consolidatedRank": 172,
+  "paths": {
+    "memo": "winter2026/memos/bits-2.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/bits-2.md",
+      "elad-gil": "winter2026/evals/elad-gil/bits-2.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/bits-2.md",
+      "paul-graham": "winter2026/evals/paul-graham/bits-2.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/bits-2.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/bits-2.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/bits-2.md"
+    }
+  }
+}

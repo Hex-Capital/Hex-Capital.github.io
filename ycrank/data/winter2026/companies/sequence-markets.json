@@ -1,0 +1,73 @@
+{
+  "slug": "sequence-markets",
+  "name": "Sequence Markets",
+  "oneLiner": "Smarter and faster trade execution for digital assets",
+  "metadata": {
+    "website": "https://sequencemkts.com/",
+    "yc_page": "https://www.ycombinator.com/companies/sequence-markets",
+    "batch": "Winter 2026",
+    "industry": "Fintech / Fintech",
+    "team_size": "5",
+    "location": "New York, NY, USA",
+    "tags": "Fintech, AI, Cryptocurrency"
+  },
+  "tags": [
+    "Fintech",
+    "AI",
+    "Cryptocurrency"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 25,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 27,
+      "tier": "Strong Pass"
+    },
+    "vinod-khosla": {
+      "score": 34,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 27,
+    "EG": 40,
+    "NR": 44,
+    "PG": 31,
+    "PT": 25,
+    "SL": 27,
+    "VK": 34
+  },
+  "consolidatedAvg": 32.57,
+  "consolidatedRank": 147,
+  "paths": {
+    "memo": "winter2026/memos/sequence-markets.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/sequence-markets.md",
+      "elad-gil": "winter2026/evals/elad-gil/sequence-markets.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/sequence-markets.md",
+      "paul-graham": "winter2026/evals/paul-graham/sequence-markets.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/sequence-markets.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/sequence-markets.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/sequence-markets.md"
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "voltair",
+  "name": "Voltair",
+  "oneLiner": "Self Charging Drones",
+  "metadata": {
+    "website": "https://voltairlabs.com/",
+    "yc_page": "https://www.ycombinator.com/companies/voltair",
+    "batch": "Winter 2026",
+    "industry": "Industrials / Industrials -> Drones",
+    "team_size": "5",
+    "location": "San Francisco, CA, USA",
+    "tags": "Drones, Energy, Infrastructure"
+  },
+  "tags": [
+    "Drones",
+    "Energy",
+    "Infrastructure"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 64,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 63,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 65,
+      "tier": "Invest"
+    },
+    "vinod-khosla": {
+      "score": 66,
+      "tier": "Invest"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 56,
+    "EG": 54,
+    "NR": 64,
+    "PG": 63,
+    "PT": 59,
+    "SL": 65,
+    "VK": 66
+  },
+  "consolidatedAvg": 61,
+  "consolidatedRank": 3,
+  "paths": {
+    "memo": "winter2026/memos/voltair.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/voltair.md",
+      "elad-gil": "winter2026/evals/elad-gil/voltair.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/voltair.md",
+      "paul-graham": "winter2026/evals/paul-graham/voltair.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/voltair.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/voltair.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/voltair.md"
+    }
+  }
+}

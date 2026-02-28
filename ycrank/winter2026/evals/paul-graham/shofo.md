@@ -1,0 +1,28 @@
+﻿# Shofo -- Paul Graham Evaluation
+
+The first thing I notice about Shofo is the analogy: "Common Crawl for Video." It's a clean phrase. But Common Crawl works because the web is fundamentally open. You can crawl it because nobody owns it. Short-form video on TikTok, Instagram, and LinkedIn is fundamentally closed. These platforms spend enormous resources preventing exactly what Shofo is doing. The analogy breaks at the load-bearing point -- the data access layer. This matters because Shofo's entire value proposition is the index. If the index depends on scraping platforms that can unilaterally shut you down, the company's core asset sits on a revocable foundation. That's not a moat. That's a lease that can be terminated without notice.
+
+Now, there is genuine schlep here, and I don't want to dismiss it. Building a comprehensive video index, maintaining labeling pipelines, dealing with the messy reality of video segmentation and annotation -- most smart engineers would unconsciously avoid all of that. The schlep is real. But I distinguish between schlep that deters competitors and schlep that threatens the company itself. When the Collisons walked into banks to build Stripe, the pain of dealing with banks became the moat -- once you're through, nobody else wants to repeat the process. Shofo's schlep has a different character. The legal exposure from scraping copyrighted content, the platform dependency, the unresolved IP questions around using creators' videos for commercial AI training -- this isn't pain that builds a wall behind you. It's pain that might collapse the floor beneath you. Several ongoing lawsuits against AI companies over training data usage suggest this isn't hypothetical.
+
+How did the founders find this problem? They built Correkt, an AI search engine that reached 40,000 users. It's plausible that while building a system that indexed and processed diverse content types, they discovered firsthand how terrible the video data pipeline is for AI training. That would be an organic discovery -- the best kind. But the dossier doesn't confirm this narrative, and the pivot from consumer AI search to B2B video data infrastructure is a substantial shift in both product and market. I can construct the organic story, but I can't verify it. The absence of any founder explaining "we kept hitting this wall while building Correkt" is notable. When the origin is truly organic, founders can't stop talking about the specific moment they discovered the problem.
+
+The strongest bull case centers on timing and market structure. Meta's investment in Scale AI genuinely disrupted the dominant player's neutrality. Google and OpenAI now have legitimate reasons to seek alternatives for their training data needs. Video training data demand is accelerating at 32% CAGR. The team proved they can ship product -- building Correkt to 40k users as undergraduates shows real initiative, and Misra dropping out of UCSB demonstrates commitment. If Shofo has actually built the comprehensive index they claim, and if the legal landscape stabilizes in their favor, and if they can land even one or two major AI lab contracts through YC's network, the business could work. But count those "ifs" -- that's close to three miracles (legal clarity, index durability, enterprise sales), and I've written about what happens when a startup needs more than one.
+
+The team itself is young and energetic but raises a structural question. Four co-founders at pre-seed with titles of CEO, CTO, Head of AI, and COO. Who needs a COO when you're four people? That title allocation suggests the founders are thinking about organizational hierarchy before they have product-market fit. I'd rather see four hackers with no titles arguing about code than a neat org chart. The GitHub footprint is thin -- one visible repo across the entire team. They clearly built things (Correkt works), but the absence of public technical output makes it hard to evaluate the hacker instinct I look for. Braga's NLP research background is relevant, but research credentials and building instinct are different things.
+
+I keep coming back to the customer concentration problem. "AI labs" is not a market segment -- it's a list of maybe fifteen organizations. Selling bespoke video datasets to OpenAI, Google DeepMind, and Anthropic means you need enterprise sales capabilities that a team of recent college students hasn't demonstrated. And these buyers have the engineering resources to build their own video pipelines if they decide Shofo's approach has value. You're simultaneously pitching to and competing with the most capable engineering organizations on earth. That's a position where being small is a disadvantage, not an advantage.
+
+This is a pass for me. The team is capable and the market timing has genuine tailwinds, but the idea feels constructed from market opportunity rather than personal necessity. The legal foundation is fragile in a way that could be existential. And the competitive dynamics favor well-resourced incumbents who could replicate the approach without the platform risk. Smart founders in a real market, but not the kind of bet where organic conviction and durable schlep give me confidence in the long game.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Organic Problem Discovery and Schlep Willingness | 10/30 |
+| Relentlessly Resourceful Founders | 12/25 |
+| Evidence of Wanting: Demonstrated User Pull | 4/20 |
+| Technical Hacker Founders Who Build | 7/15 |
+| Growth Trajectory and Default Alive Economics | 4/10 |
+| **Total** | **37/100** |
+
+**Total Score: 37/100** (Pass)

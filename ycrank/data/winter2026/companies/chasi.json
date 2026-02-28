@@ -1,0 +1,74 @@
+{
+  "slug": "chasi",
+  "name": "Chasi",
+  "oneLiner": "AI Revenue Engine for the Equipment Industry",
+  "metadata": {
+    "website": "https://chasi.co/",
+    "yc_page": "https://www.ycombinator.com/companies/chasi",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "New York, NY, USA",
+    "tags": "SaaS, Industrial",
+    "yc_partner": "Gustaf Alstromer",
+    "emails": "founders@chasi.co (YC page)"
+  },
+  "tags": [
+    "SaaS",
+    "Industrial"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 60,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 38,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 47,
+    "EG": 50,
+    "NR": 51,
+    "PG": 60,
+    "PT": 35,
+    "SL": 33,
+    "VK": 38
+  },
+  "consolidatedAvg": 44.86,
+  "consolidatedRank": 45,
+  "paths": {
+    "memo": "winter2026/memos/chasi.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/chasi.md",
+      "elad-gil": "winter2026/evals/elad-gil/chasi.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/chasi.md",
+      "paul-graham": "winter2026/evals/paul-graham/chasi.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/chasi.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/chasi.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/chasi.md"
+    }
+  }
+}

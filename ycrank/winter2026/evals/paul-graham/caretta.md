@@ -1,0 +1,26 @@
+﻿# Caretta -- Paul Graham Evaluation
+
+The first thing I notice about Caretta is the pivot. They launched as VoysAI in April 2025 -- recruitment screening and sales call practice -- then pivoted to real-time sales call intelligence within six to eight months. Pivots aren't inherently bad. Justin.tv pivoted to Twitch, and that worked spectacularly. But the Justin.tv pivot happened because the founders noticed their users were doing something unexpected with the platform -- it was an organic discovery within their own product. The VoysAI-to-Caretta pivot looks different. It looks like three CS students from TU Delft who decided to build something in the "AI for sales" space, tried one angle, it didn't catch, and shifted to a different angle in the same space. That's not pivoting toward a signal. That's searching for a market.
+
+The question I always start with is: how did the founders find this problem? And here, the evidence suggests they didn't find it -- they selected it. None of the three founders has any identified experience in B2B sales, revenue operations, or sales enablement. They're computer science graduates building tools for salespeople. When I look at the best companies that sell to a specific domain, the founders lived inside that domain before they started building. Tony Xu delivered food before building DoorDash. The Collisons processed payments as developers before building Stripe. These founders appear to have picked "sales calls" the way smart people pick startup ideas from a brainstorming session -- by identifying a large market with a plausible technology angle. Real-time AI for sales calls isn't an idea that grew from their own lives. It's an idea that grew from noticing that Gong is post-call and LLMs are now fast enough to be real-time.
+
+The competitive landscape compounds this concern. This is not a problem hiding in plain sight because of schlep blindness. This is a problem that Gong ($584M raised), Cresta ($282M raised), Balto ($52M raised), and Salesken ($41M raised) are all attacking from various angles. When I wrote about schlep blindness, the key insight was that certain problems remain unsolved because the work involved is so tedious that smart people unconsciously avoid even thinking about them. But "AI assistant for sales calls" is approximately the opposite of that -- it's the kind of idea that every team of smart engineers with access to GPT-4 gravitates toward. The fact that multiple well-funded companies already do real-time call guidance (Balto has $22M ARR doing exactly this for contact centers) means the insight here isn't "nobody thought of this" -- it's "we'll execute it slightly differently." That's a much weaker starting position.
+
+The bull case would require believing that Caretta's specific approach -- ingesting organizational knowledge and surfacing it during live calls, with a Slack-native post-call workflow -- creates enough differentiation to win against incumbents who already own customer relationships. It would also require believing that the per-customer knowledge flywheel creates meaningful switching costs over time. This is plausible in theory. If a sales team spends twelve months training Caretta on their objection library, competitive positioning, and product details, switching to Gong's real-time feature means rebuilding all of that. And if the product is genuinely good enough that reps close more deals with it, word spreads fast in sales organizations. But this bull case depends entirely on whether the founders can sell to sales leaders without having been sales leaders themselves -- and whether they can build a product for a workflow they've never personally experienced. That's a hard gap to close through technical ability alone.
+
+The founders are genuinely technical, which I weight heavily. Omar Elamin scaled a Discord bot to 30,000 users, and the team has CS degrees from a solid program. They can build things. But the GitHub evidence is thin -- their public repo is a FastAPI wrapper around NVIDIA's Parakeet model, which is commodity assembly rather than proprietary engineering. The core technical components of this product (speech-to-text, RAG, real-time LLM inference) are available to every team with an API key. When the technology itself isn't the moat, the moat has to come from domain understanding and product decisions -- exactly where these founders are least equipped.
+
+I'd pass on this one. The idea didn't emerge from organic experience, the market is crowded with well-funded players, and the founders are solving the part of the problem they're equipped for (the engineering) while the part that will actually determine success (deep sales domain expertise, enterprise credibility, understanding of how reps actually work) sits outside their background. Smart founders in a reasonable space, but this feels generated rather than discovered.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Organic Problem Discovery and Schlep Willingness | 6/30 |
+| Relentlessly Resourceful Founders | 10/25 |
+| Evidence of Wanting: Demonstrated User Pull | 5/20 |
+| Technical Hacker Founders Who Build | 8/15 |
+| Growth Trajectory and Default Alive Economics | 4/10 |
+| **Total** | **33/100** |
+
+**Total Score: 33/100** (Pass)

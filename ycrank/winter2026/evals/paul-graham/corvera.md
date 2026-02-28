@@ -1,0 +1,28 @@
+﻿# Corvera -- Paul Graham Evaluation
+
+Christopher Kong ran a CPG brand for six years. Not as an advisor or an investor watching from the sidelines -- he was the CEO of Better Nature, building nationwide retail distribution with Tesco, Asda, Ocado, and Whole Foods. Every day he processed sales orders, tracked inventory across warehouses, forecasted demand, and scrambled to avoid stockouts. Then he left to build the tool he wished he'd had. That's the most organic problem discovery I could ask for. He didn't read a McKinsey report about CPG inefficiency and decide to start a company. He lived inside the problem until he couldn't take it anymore.
+
+The schlep here is genuine. CPG operations is the kind of work that makes smart engineers look away. Parsing retailer order emails and PDFs that all use different formats. Matching against product catalogs. Routing fulfillment across multiple warehouses. Generating purchase orders and invoices. None of this is intellectually glamorous. A talented hacker given a blank canvas would build developer tools or a consumer app before they'd voluntarily wade into the mess of retail supply chain paperwork. That's exactly the kind of unconscious avoidance that creates opportunities -- the problem has been hiding in plain sight because the schlep repels the people most capable of solving it. Kong saw it because he was standing inside it.
+
+But I have concerns about the team assembly. The co-founders appear to have been recruited specifically for this venture -- Kong from Oxford/Better Nature, Breeuwer from Google/Wharton, Collins from Princeton/Rosemark. No shared prior employer, no evidence of a pre-existing relationship. I've seen this pattern fail repeatedly: competent strangers who come together around an idea rather than founders who come together because they already trust each other. Breeuwer's Google AI background is strong -- building multi-agent workflow automation for Google Pixel is directly relevant -- and Collins brings Princeton CS and product experience. Individually impressive. But co-founder relationships need to predate the startup, and nothing in the evidence suggests that here.
+
+The bull case is worth taking seriously. If the product actually works -- if these agents can reliably process orders, forecast demand, and manage inventory autonomously -- the switching costs become enormous. Once a brand's entire operational workflow runs through Corvera, ripping it out would be like performing surgery on a running engine. Fifteen design partners at pre-seed is a meaningful signal that CPG brands recognize the pain. And the competitive landscape is fragmented: Settle does finance, Cin7 does inventory, Firstshift does forecasting, but nobody bundles autonomous end-to-end operations. Kong is building the full-stack play because he experienced the full-stack pain. If he converts even half those design partners to paid customers and demonstrates reliable autonomous execution, this could become the default operating system for mid-market CPG brands. The data flywheel from cross-brand demand patterns would make the product better for each new customer, which is the kind of compounding advantage that produces category winners.
+
+What keeps me from higher conviction is the category framing. "Agentic OS" puts this in the blast radius of every AI startup claiming to automate enterprise workflows. The underlying capabilities -- LLM document parsing, time-series forecasting, workflow orchestration -- are increasingly commodity. Cin7 has existing CPG customers and $35-75M in revenue; adding AI agent capabilities to an existing product is a lot easier than building the entire operational platform from scratch. The moat here has to be integration depth and vertical specialization, not the AI itself. Kong understands CPG workflows in his bones, which matters. But I'm not convinced the structural barriers are as durable as, say, dealing with banks and regulatory compliance was for payment processing. Operational complexity can be replicated by a sufficiently motivated incumbent in a way that regulatory relationships cannot.
+
+The fifteen design partners and fifty-brand pipeline are encouraging but thin as evidence of genuine demand. No revenue is disclosed. The named logos are mostly small UK CPG brands, likely from Kong's personal network. Pipeline interest from your own industry contacts is a necessary first step but it doesn't pass the test of "would these users suffer real economic harm if the product disappeared?" Not yet. The UK-to-US transition adds another variable -- different retailers, different fulfillment networks, different order formats. The company is listed in San Francisco for YC but the customer base appears fundamentally British.
+
+I find myself at a genuine fork. The organic discovery is in the top quartile of what I see at pre-seed -- Kong's founder-problem fit is as strong as Drew Houston forgetting his USB drive. But the assembled co-founder team, the absence of revenue, and the commoditization risk in a category where "AI agent for X" is the most common pitch of 2025-2026 collectively hold me back. This is a real problem with an authentic founder who lived inside it. It's just not yet clear that the solution has the structural durability to win.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Organic Problem Discovery and Schlep Willingness | 22/30 |
+| Relentlessly Resourceful Founders | 14/25 |
+| Evidence of Wanting: Demonstrated User Pull | 10/20 |
+| Technical Hacker Founders Who Build | 10/15 |
+| Growth Trajectory and Default Alive Economics | 4/10 |
+| **Total** | **60/100** |
+
+**Total Score: 60/100** (Neutral)

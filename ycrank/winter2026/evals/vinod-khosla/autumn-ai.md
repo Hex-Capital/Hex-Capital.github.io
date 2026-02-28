@@ -1,0 +1,26 @@
+﻿# Autumn AI -- Vinod Khosla Evaluation
+
+"Stalk your prospects at scale." I read that tagline and my evaluation is nearly complete before I finish the dossier. This is a company whose own framing tells you the consequence of success: sales reps find prospects slightly faster. If Autumn AI achieves everything it sets out to do -- dominates real-time signal detection, displaces manual LinkedIn monitoring, undercuts 6sense on price -- the world has gained a marginally more efficient sales workflow. Nobody's food system changes. No trillion-dollar infrastructure gets replaced. No physical reality is altered. The ambition is calibrated to a feature, not a transformation. I have spent forty years telling founders that they are too talented to work on problems this small, and Autumn AI is the archetype of what I mean.
+
+The competitive landscape makes this worse, not better. Clay has $204 million in funding and expects $100 million in revenue. 6sense has raised $526 million at a $5.2 billion valuation. Common Room has $105 million. Unify has $59 million. These are not slow incumbents waiting to be disrupted -- they are well-capitalized, fast-moving platforms that already incorporate signal detection as part of broader GTM stacks. The dossier itself states the quiet part: "The barrier to entry for building a basic signal monitor is low." When your own competitive analysis acknowledges low barriers to entry, you have not identified a technology moat -- you have identified a feature that four well-funded companies can replicate in a product sprint. Autumn AI is not Juniper challenging Cisco with a fundamentally different architecture. It is a lightweight alternative in a market where the incumbents are already innovating on the same axis.
+
+The bull case deserves honest consideration. Clay started narrow and grew to a $3.1 billion valuation. The sales intelligence market is $4.5 billion heading toward $10 billion. LLMs have genuinely unlocked the ability to parse unstructured public signals -- social posts, GitHub commits, blog entries -- at a cost and quality threshold that did not exist two years ago. If Autumn AI's first-party public signal approach proves genuinely superior to the cooperative third-party intent data that 6sense and Bombora sell, and if the founders can build a proprietary signal-scoring layer that improves with usage, there is a path to a real business. Vishnu's experience building sourcing technology at Sierra Ventures maps directly to this problem space. But even in the best case, this path leads to a successful SaaS company in a crowded category -- not to an outcome that reshapes how industries operate. The consequence of maximum success is Clay, not OpenAI. And Clay required $204 million in capital to get to where it is.
+
+On the founders: Vishnu and Shiv are clearly capable. Columbia CS, NeurIPS publication, SandboxAQ residency, an ISEF grand award -- these are strong credentials for twenty-two-year-olds. But capability is not the same as contrarian courage. Building a cheaper version of 6sense for mid-market teams is the opposite of attempting something the consensus considers impossible. Nobody is telling them this cannot work. The experts are not dismissing it -- they are building it themselves. When Cisco's CTO told me TCP/IP routing would never happen in public telecom networks, that was the signal I needed. When established GTM vendors validate signal-based selling as a category, that tells me the outsider advantage has evaporated. The founders are insiders building an insider tool -- Vishnu literally built sourcing technology at a VC firm. That is domain expertise executing a known playbook, not outsider naivety attempting what veterans declared impossible.
+
+The timing question compounds the problem. The "why now" -- LLMs enabling automated signal parsing -- is real, but it is symmetrically available to every competitor. When a technology enabler benefits incumbents and startups equally, it is not a timing advantage; it is a rising tide. Common Room and others popularized "signal-based selling" in 2024-2025. Autumn AI is arriving after the category is consensus, not before it. Compare this to our OpenAI investment in 2019, when AI was laughable and the rate of change in model capability was visible only if you tracked it deliberately. There is no equivalent hidden trajectory here -- everyone in GTM already knows signal-based selling matters.
+
+Two Columbia CS students with ML research backgrounds constitute a homogeneous team for what is fundamentally a go-to-market product. Building a sales intelligence tool without a sales or go-to-market co-founder means the team's composition does not address the venture's most obvious risk: distribution in a market dominated by companies with enterprise sales machines. The team has technical depth but no structural diversity mapped to the company's actual challenges.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Consequence Magnitude If Successful | 4/30 |
+| Founder Learning Rate and Contrarian Courage | 6/25 |
+| Technology Disruption Potential vs. Incumbent Systems | 4/20 |
+| Rate of Change and Timing Trajectory | 6/15 |
+| Gene Pool Engineering and Team Construction | 4/10 |
+| **Total** | **24/100** |
+
+**Total Score: 24/100** (Pass)

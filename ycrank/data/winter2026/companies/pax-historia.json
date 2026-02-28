@@ -1,0 +1,74 @@
+{
+  "slug": "pax-historia",
+  "name": "Pax Historia",
+  "oneLiner": "The first AI-powered grand strategy platform",
+  "metadata": {
+    "website": "https://www.paxhistoria.co",
+    "yc_page": "https://www.ycombinator.com/companies/pax-historia",
+    "batch": "Winter 2026",
+    "industry": "Consumer / Consumer -> Gaming",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Marketplace, Consumer, Gaming"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Marketplace",
+    "Consumer",
+    "Gaming"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 48,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 40,
+    "EG": 50,
+    "NR": 53,
+    "PG": 57,
+    "PT": 41,
+    "SL": 37,
+    "VK": 48
+  },
+  "consolidatedAvg": 46.57,
+  "consolidatedRank": 37,
+  "paths": {
+    "memo": "winter2026/memos/pax-historia.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/pax-historia.md",
+      "elad-gil": "winter2026/evals/elad-gil/pax-historia.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/pax-historia.md",
+      "paul-graham": "winter2026/evals/paul-graham/pax-historia.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/pax-historia.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/pax-historia.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/pax-historia.md"
+    }
+  }
+}

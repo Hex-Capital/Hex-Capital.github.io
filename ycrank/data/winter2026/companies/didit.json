@@ -1,0 +1,73 @@
+{
+  "slug": "didit",
+  "name": "Didit",
+  "oneLiner": "All-in-one identity platform for fast human verification.",
+  "metadata": {
+    "website": "https://didit.me/",
+    "yc_page": "https://www.ycombinator.com/companies/didit",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "12",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, SaaS, Identity"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "SaaS",
+    "Identity"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 70,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 39,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 47,
+    "EG": 53,
+    "NR": 41,
+    "PG": 70,
+    "PT": 28,
+    "SL": 37,
+    "VK": 39
+  },
+  "consolidatedAvg": 45,
+  "consolidatedRank": 44,
+  "paths": {
+    "memo": "winter2026/memos/didit.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/didit.md",
+      "elad-gil": "winter2026/evals/elad-gil/didit.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/didit.md",
+      "paul-graham": "winter2026/evals/paul-graham/didit.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/didit.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/didit.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/didit.md"
+    }
+  }
+}

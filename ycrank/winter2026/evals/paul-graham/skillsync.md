@@ -1,0 +1,26 @@
+﻿# Skillsync -- Paul Graham Evaluation
+
+The first thing I notice about Skillsync is a structural irony in their "why now." The inferred thesis is that LLMs have made code-level skill extraction feasible at scale -- what was technically impossible two years ago is now buildable. That's true. But it creates the inverse of schlep blindness. When the reason nobody built something is that the technology didn't exist, and then the technology suddenly exists for everyone simultaneously, you don't get the structural protection that comes from painful work nobody wants to do. Stripe succeeded partly because banks, fraud systems, and regulatory compliance are a schlep that persists regardless of technology improvements. Skillsync's schlep -- parsing repos, understanding code semantics, mapping contributions to skill taxonomies -- is real work, but it's precisely the kind of work that gets easier every quarter as code LLMs improve. The barrier that kept competitors out is dissolving on the same timeline that makes Skillsync possible. And the entity best positioned to do this already owns both GitHub and LinkedIn.
+
+That said, the origin of this idea passes my organic test cleanly. These founders didn't sit down and brainstorm "what's hot in recruiting?" They spent two-plus years at Juspay building Hyperswitch, an open-source Rust payments switch that grew to 20K+ stars with hundreds of contributors. If you're managing a large open-source community, you live with the problem of figuring out who actually has the skills you need -- who wrote meaningful code versus who fixed typos in README files. The gap between what a contributor's GitHub profile shows and what they actually built is something these founders experienced daily. That's how good startup ideas emerge: not from market research, but from noticing a broken thing in your own workflow.
+
+The positioning shift gives me pause, though. In June 2025, their Product Hunt launch described the product as "Discover hidden talent in your codebase" -- an internal analytics tool. By the time they entered YC, it became "Find anyone in open source" -- an external recruiting tool. These are different products for different buyers with different sales motions. Internal codebase analytics sells to engineering managers who want to understand their own team. External recruiting sells to recruiters sourcing candidates. The pivot may have been smart, but it suggests the founders' original organic insight -- understanding contributors within their own community -- didn't immediately translate into something people wanted to pay for. The current recruiting positioning is actually further from their lived experience than where they started.
+
+The bull case is worth taking seriously. Nishant Joshi is a genuine technical hacker -- 100+ public repos, a Rust REPL framework with 271 stars, core contributor to a project with 40K+ stars. He's not a resume engineer; he's someone who builds things. The problem they're solving is real: companies hiring for systems, robotics, and infrastructure roles genuinely struggle because the best candidates in those domains are invisible to LinkedIn-based sourcing. If Skillsync builds a sufficiently deep and accurate skill taxonomy before incumbents react, the data compound effect could create defensibility. And the $499/month per-seat pricing is well-calibrated for recruiter budgets -- not so cheap it signals "toy," not so expensive it requires enterprise procurement cycles. There's a version of this that works.
+
+But the evidence for user pull is essentially zero. A Product Hunt launch with 3 upvotes is worse than no launch at all -- it means they tried to generate interest and the response was silence. No user counts, no revenue metrics, no organic sharing signals, no waitlist numbers. At pre-seed I don't demand much, but I want something -- even a single recruiter saying "I found an engineer through Skillsync that I couldn't have found any other way." The absence of any such signal, combined with the positioning shift, makes me worry this is still a solution looking for its precise problem. The founders know the open-source ecosystem well, but "knowing the ecosystem" and "having recruiters pull the product out of your hands" are different things.
+
+The two-person team and co-founder relationship are positives. Both founders worked together at Juspay on the same project, which is exactly the kind of pre-existing relationship that survives startup stress. And two people building means low burn and high focus. But I don't see evidence yet of the relentlessly resourceful quality that separates startups that survive from those that don't. No stories of creative obstacles overcome, no signs of doing things that don't scale in user acquisition. They built a product and put up a pricing page. That's building, not yet the kind of intense, ground-level user engagement that makes early-stage companies work.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Organic Problem Discovery and Schlep Willingness | 19/30 |
+| Relentlessly Resourceful Founders | 11/25 |
+| Evidence of Wanting: Demonstrated User Pull | 5/20 |
+| Technical Hacker Founders Who Build | 11/15 |
+| Growth Trajectory and Default Alive Economics | 5/10 |
+| **Total** | **51/100** |
+
+**Total Score: 51/100** (Neutral)

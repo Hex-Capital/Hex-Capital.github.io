@@ -1,0 +1,74 @@
+{
+  "slug": "cumulus-labs",
+  "name": "Cumulus Labs",
+  "oneLiner": "Serverless GPU Cloud — with managed inference stack",
+  "metadata": {
+    "website": "https://cumuluslabs.io",
+    "yc_page": "https://www.ycombinator.com/companies/cumulus-labs",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "AIOps, B2B, Cloud Computing, Infrastructure"
+  },
+  "tags": [
+    "AIOps",
+    "B2B",
+    "Cloud Computing",
+    "Infrastructure"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 24,
+      "tier": "Strong Pass"
+    },
+    "vinod-khosla": {
+      "score": 35,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 32,
+    "EG": 35,
+    "NR": 47,
+    "PG": 50,
+    "PT": 27,
+    "SL": 24,
+    "VK": 35
+  },
+  "consolidatedAvg": 35.71,
+  "consolidatedRank": 116,
+  "paths": {
+    "memo": "winter2026/memos/cumulus-labs.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/cumulus-labs.md",
+      "elad-gil": "winter2026/evals/elad-gil/cumulus-labs.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/cumulus-labs.md",
+      "paul-graham": "winter2026/evals/paul-graham/cumulus-labs.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/cumulus-labs.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/cumulus-labs.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/cumulus-labs.md"
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "constellation-space",
+  "name": "Constellation Space",
+  "oneLiner": "AI for space mission assurance.",
+  "metadata": {
+    "website": "https://constellationspace.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/constellation-space",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Analytics",
+    "team_size": "4",
+    "location": "Seattle, WA (YC page)",
+    "tags": "Space Exploration, Satellites, Enterprise Software, Infrastructure, AI",
+    "yc_partner": "Jared Friedman (YC page)",
+    "emails": "hello@constellation-io.com (company website and YC page)"
+  },
+  "tags": [
+    "Space Exploration",
+    "Satellites",
+    "Enterprise Software",
+    "Infrastructure",
+    "AI"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 62,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 45,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 42,
+    "EG": 48,
+    "NR": 62,
+    "PG": 59,
+    "PT": 45,
+    "SL": 39,
+    "VK": 45
+  },
+  "consolidatedAvg": 48.57,
+  "consolidatedRank": 26,
+  "paths": {
+    "memo": "winter2026/memos/constellation-space.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/constellation-space.md",
+      "elad-gil": "winter2026/evals/elad-gil/constellation-space.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/constellation-space.md",
+      "paul-graham": "winter2026/evals/paul-graham/constellation-space.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/constellation-space.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/constellation-space.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/constellation-space.md"
+    }
+  }
+}

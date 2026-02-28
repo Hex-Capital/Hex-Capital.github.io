@@ -1,0 +1,26 @@
+﻿# Kyten Technologies -- Vinod Khosla Evaluation
+
+The most interesting thing about Kyten is what it reveals about the difference between a good business and a transformational one. Two SpaceX engineers who put 6,000 battery packs into orbit notice that the legacy defense supply chain takes 6-12 months to deliver custom packs, and a new regulation is about to force every US drone and satellite manufacturer to source domestically. They have the skills, the timing, and the regulatory tailwind. Everything about this screams "high probability of success." And that's precisely what concerns me.
+
+Let me start where I always start: if Kyten succeeds completely -- captures a dominant share of domestic aerospace battery pack manufacturing -- what changes? US defense OEMs get their battery packs in three weeks instead of six months. That's a genuine improvement. It's also a logistics improvement, not an industry transformation. Nobody's rethinking the architecture of energy storage. No trillion-dollar incumbent system becomes obsolete. The aerospace supply chain gets a faster, compliant vendor. The consequence of maximum success is a profitable defense contractor, perhaps a $500M-$1B business. That's a fine outcome for the founders. It's not the kind of outcome I write checks for.
+
+Compare this to what excites me in the physical world. When I backed Commonwealth Fusion Systems, the consequence of success was limitless clean energy -- making fossil fuel power generation structurally obsolete. When I backed Rocket Lab, Peter Beck was creating an entirely new capability: affordable small satellite launch that simply didn't exist. Kyten isn't creating a new capability. Battery pack integration exists. EaglePicher has been doing it since before any of us were born. Custom Power has been doing it since 1965. CRG Defense does it today with NDAA compliance. Kyten does it faster. Speed is valuable, but "faster" is an incremental improvement masquerading as disruption. The automated software-defined manufacturing systems are process IP -- clever engineering, not a technology that makes the current approach uneconomic.
+
+The strongest case for Kyten is the timing, and I want to be honest about how strong it is. NDAA Section 842 creates a hard deadline -- January 2028 -- after which the DoD cannot procure batteries from foreign entities of concern. The FCC Covered List is already effective as of December 2025. These aren't speculative tailwinds; they're legislative mandates with specific dates. Every US drone manufacturer that previously sourced packs from Chinese suppliers is now scrambling. Kyten's founders, with their SpaceX pedigree and demonstrated ability to build and test battery packs at high volume, are positioned in exactly the right place at exactly the right time. If I were evaluating this as a private equity opportunity -- bet on regulatory capture and operational execution -- I'd be interested. The regulatory window creates a two-to-three-year land grab where qualified domestic suppliers can lock in long-term defense contracts with enormous switching costs. That's real.
+
+But here's what I keep coming back to: McBride and Maddox are deep insiders executing an insider's playbook. They spent six to seven years at SpaceX, they know the manufacturing process, they know the customers, they know the qualification standards. Nobody is calling them crazy. No incumbent is dismissing their approach. Defense primes will welcome another qualified vendor -- that's the opposite of the signal I look for. When Cisco's CTO told me Juniper would never succeed, when the food industry laughed at plant-based meat, when most VCs said AI was a research project -- those were buy signals. When an entire industry says "yes, we need exactly this" -- that's a competent business, not a disruption. The founders have reduced their probability of failure to the point where the consequences of success are, well, a good defense contracting business. They're too smart and too talented to spend their careers making battery packs 10x faster when they could be rethinking what aerospace energy storage looks like entirely.
+
+One additional concern: Kyten is a pack integrator, not a cell manufacturer. They sit downstream of the actual technology innovation in batteries -- silicon anodes, solid state, lithium-sulfur. Their value proposition depends on sourcing cells from third parties, which means their differentiation is assembly speed and qualification expertise, not proprietary technology. That's a service business with engineering depth, not a technology company with a defensible moat. If Amprius or another cell manufacturer decides to offer pack integration, or if EaglePicher accelerates its development cycles under new ownership, Kyten's speed advantage could erode. Process speed advantages compress over time; technology advantages can compound.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Consequence Magnitude If Successful | 12/30 |
+| Founder Learning Rate and Contrarian Courage | 10/25 |
+| Technology Disruption Potential vs. Incumbent Systems | 7/20 |
+| Rate of Change and Timing Trajectory | 11/15 |
+| Gene Pool Engineering and Team Construction | 5/10 |
+| **Total** | **45/100** |
+
+**Total Score: 45/100** (Neutral)

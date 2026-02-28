@@ -1,0 +1,24 @@
+﻿# RamAIn -- Sam Lessin Evaluation
+
+RamAIn is the textbook example of what I mean when I say "AI is a bad startup investment." Two smart IIT Delhi undergrads building a computer-use agent that pre-trains on specific interfaces to automate enterprise workflows. The demo probably looks great. The technical approach -- bypassing the slow screenshot-VLM-decision loop by baking interface knowledge into the agent -- is clever engineering. And none of that matters, because the structural logic of this business is broken at the foundation. Anthropic ships computer use as an API. OpenAI launched Operator. Google is in the game. Simular has $26.5M and DeepMind alumni with a Microsoft distribution partnership. Browser Use has $17M and 50,000 GitHub stars. When I ask my first question -- "Is this a sane person with an insane idea?" -- the answer is no. These are sane people with the sanest idea in Silicon Valley right now. Everyone thinks AI agents automating computer work is the future. That's the problem. If every VC in the Valley is nodding along, the non-consensus premium is gone and you're buying narrative at market price.
+
+Run my "cherry on top" test: would this business exist if AI didn't exist? Obviously not. The entire value proposition IS the AI. Strip away the model, and there's nothing -- no physical operations, no regulatory position, no installed hardware, no community, no proprietary data set that took years to accumulate. Compare this to Craftwork, where the painting crews and operational logistics exist independent of any software layer, and AI just makes dispatch and scheduling better. RamAIn is the inverse: a tech company with no paint. The moat they claim -- pre-training agents on specific UIs to create a library of "UI policies" -- is an implementation detail, not a structural advantage. Any team with $20M and access to the same foundation models can replicate interface-specific training. Simular is already doing something functionally equivalent with their neuro-symbolic approach, and they have a ten-to-one capital advantage.
+
+The founders deserve credit where it's due. Vansh Ramani has legitimate ML research credentials -- an ICLR 2025 publication, work at CMU's ML department, and a nearest-neighbor search contribution that got merged into Meta's FAISS library. That's real. Shourya Vir Jain bootstrapped a previous company to revenue, which at least signals operational instinct over pure fundraising optimization. They met at IIT Delhi, which is a genuine shared-context founding relationship, not a speed-dating co-founder match. If these two were applying their talents to a structurally defensible problem -- something with physical-world complexity that software amplifies but can't replace -- I'd be significantly more interested.
+
+The bull case would require believing that pre-training on specific enterprise interfaces creates a genuinely compounding data moat that better-funded competitors cannot replicate. If RamAIn embeds deeply enough in, say, healthcare legacy systems -- those bizarre insurance portals and pharmacy management tools that haven't been updated since 2008 -- the accumulated interface knowledge could theoretically create switching costs. Enterprise customers in regulated verticals are sticky. If the pre-training approach delivers measurably better reliability than generic CUA approaches (current benchmarks top out at 45% success rates, which is nowhere near enterprise-grade), and if RamAIn gets to production reliability first in even one vertical, there's a wedge. The RPA market is legitimately enormous. But this bull case requires winning a speed race against teams with ten times the capital, while Anthropic and OpenAI iterate on the underlying capability from above. It's not impossible, but it's a bet on execution against structural headwinds, and I don't invest in execution stories in commoditizing markets.
+
+This company sits squarely in the category I've been publicly warning about for two years. It's a software tool whose moat depends on a specific AI capability remaining difficult -- but the entire trajectory of AI is to make these capabilities commoditized and cheap. The moment Anthropic or OpenAI adds interface-specific pre-training to their API (which they will, because it's an obvious improvement), RamAIn's differentiation evaporates. I'd rather fund an ugly, operationally complex business that uses AI as a cherry on top than a beautiful AI-native product that has no business underneath the model. Pass.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| "Sane Person, Insane Idea" Calibration | 10/30 |
+| AI-Resistant Structural Moat | 4/25 |
+| New Primitive or Protocol Position | 5/20 |
+| Narrative Magnitude and Infinity Optionality | 7/15 |
+| Real Revenue or Asset Cushion | 2/10 |
+| **Total** | **28/100** |
+
+**Total Score: 28/100** (Pass)

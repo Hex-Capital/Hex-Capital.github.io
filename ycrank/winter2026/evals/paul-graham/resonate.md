@@ -1,0 +1,24 @@
+﻿# Resonate -- Paul Graham Evaluation
+
+The first thing I notice is that this idea has no schlep. Voice message transcription, filler word removal, emotion detection -- these are API calls. You wire up Whisper, add some audio processing, put a nice UI on top. There's no regulatory labyrinth to navigate, no banking relationships to establish, no logistics to manage on the ground. Stripe worked because payment processing involved years of painful work with banks, compliance teams, and fraud systems that thousands of programmers unconsciously avoided. The question I always ask is: why hasn't someone done this already? With Resonate, the answer isn't "because it's too painful" -- it's "because WhatsApp can add this as a feature update on a Tuesday afternoon." And in fact they already started: WhatsApp shipped voice message transcription in late 2024. When the incumbents aren't avoiding your problem because of schlep but are actively absorbing it into their product, you're building a feature, not a company.
+
+The origin story is missing entirely. How did Sam and Lily find this problem? The dossier frames it with market statistics -- "61% of messaging users send voice messages, a 49% increase since 2020." That's a slide from a pitch deck, not a founder who couldn't stop thinking about something broken in their own life. Drew Houston didn't cite USB drive market penetration data. He kept forgetting his USB drive. There's no equivalent moment here. Worse, the prior product name "ChitChat" and the company's own statement about having "many more products in the works" tells me the founders are searching. They're generating ideas rather than being consumed by one. When someone is genuinely obsessed with a problem, they don't have bandwidth for multiple product lines at pre-seed with two people.
+
+The bull case deserves honest consideration. Voice messaging is genuinely growing. The incumbent experience is mediocre -- listening to a rambling two-minute voice note linearly is painful. If Resonate's sharing feature works (recipients view interactive transcripts without installing the app), there's a theoretical viral loop. Sam Kaplan is a real engineer -- Harvard CS, scaled engineering at Brex from 80 to 1,000 people, builds AI side projects. That's not nothing. And Lily Zhao's comment about being "30 days from going broke when YC gave their offer" suggests real skin in the game. They knew each other from high school, so the co-founder relationship has depth. If voice messaging becomes the dominant communication mode for a generation, and if incumbents move slowly enough, there's a version of this that matters. But that's too many ifs. The company needs users to switch messaging platforms (near-impossible network effect problem), needs incumbents to not ship faster (unlikely given their AI investments), and needs the commodity technology stack to somehow become defensible. That's at least three miracles.
+
+Sam Kaplan can build. I believe that. His background -- engineering management at a company that went from $1.3B to $12B, personal AI projects, coding since middle school -- marks him as someone who makes things. The app exists, it shipped in December, it's on version 1.1.9. But the GitHub profile shows 16 total stars across 22 repos, and the App Store shows 7 ratings. A working product with no visible users after two months isn't proof of building ability -- it's proof that building is necessary but insufficient. The hard problem here isn't technical. It's distribution. Consumer messaging apps live or die on network effects, and network effects work against new entrants with brutal efficiency. This is why my portfolio tilts toward developer tools and infrastructure: the buyer is the user, you sell on individual value, and you don't need your customer's friends to also adopt. Resonate is fighting the hardest distribution battle in consumer software with a feature set that commodity APIs make replicable.
+
+The consumer messaging category is where startups go to be crushed by incumbents. The exceptions -- WhatsApp itself, Telegram, Signal -- succeeded either through timing (WhatsApp launched before smartphones had good native messaging), privacy differentiation (Signal), or government-adjacent distribution (Telegram in certain markets). "Better AI features on voice messages" is not the kind of wedge that creates a new messaging platform. It's the kind of feature that gets absorbed. I'm passing.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Organic Problem Discovery and Schlep Willingness | 5/30 |
+| Relentlessly Resourceful Founders | 11/25 |
+| Evidence of Wanting: Demonstrated User Pull | 4/20 |
+| Technical Hacker Founders Who Build | 10/15 |
+| Growth Trajectory and Default Alive Economics | 3/10 |
+| **Total** | **33/100** |
+
+**Total Score: 33/100** (Pass)

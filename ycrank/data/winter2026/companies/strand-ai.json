@@ -1,0 +1,73 @@
+{
+  "slug": "strand-ai",
+  "name": "Strand AI",
+  "oneLiner": "Curated multimodal datasets for biology AI",
+  "metadata": {
+    "website": "https://strandai.com",
+    "yc_page": "https://www.ycombinator.com/companies/strand-ai",
+    "batch": "Winter 2026",
+    "industry": "Healthcare / Healthcare -> Drug Discovery and Delivery",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Generative AI, Biotech"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Generative AI",
+    "Biotech"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 41,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 31,
+    "EG": 32,
+    "NR": 41,
+    "PG": 42,
+    "PT": 27,
+    "SL": 27,
+    "VK": 41
+  },
+  "consolidatedAvg": 34.43,
+  "consolidatedRank": 128,
+  "paths": {
+    "memo": "winter2026/memos/strand-ai.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/strand-ai.md",
+      "elad-gil": "winter2026/evals/elad-gil/strand-ai.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/strand-ai.md",
+      "paul-graham": "winter2026/evals/paul-graham/strand-ai.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/strand-ai.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/strand-ai.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/strand-ai.md"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "oximy",
+  "name": "Oximy",
+  "oneLiner": "The system of record for enterprise AI usage.",
+  "metadata": {
+    "website": "https://oximy.com",
+    "yc_page": "https://www.ycombinator.com/companies/oximy",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "5",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Security, Enterprise Software",
+    "yc_partner": "Jared Friedman",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Security",
+    "Enterprise Software"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 34,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 36,
+    "EG": 39,
+    "NR": 39,
+    "PG": 38,
+    "PT": 28,
+    "SL": 26,
+    "VK": 34
+  },
+  "consolidatedAvg": 34.29,
+  "consolidatedRank": 129,
+  "paths": {
+    "memo": "winter2026/memos/oximy.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/oximy.md",
+      "elad-gil": "winter2026/evals/elad-gil/oximy.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/oximy.md",
+      "paul-graham": "winter2026/evals/paul-graham/oximy.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/oximy.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/oximy.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/oximy.md"
+    }
+  }
+}

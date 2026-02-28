@@ -1,0 +1,75 @@
+{
+  "slug": "protent",
+  "name": "Protent",
+  "oneLiner": "Protent turns passive surveillance into proactive intelligence.",
+  "metadata": {
+    "website": "https://protent.ai",
+    "yc_page": "https://www.ycombinator.com/companies/protent",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Security",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Hardware, Machine Learning, SaaS, Security, Monitoring"
+  },
+  "tags": [
+    "Hardware",
+    "Machine Learning",
+    "SaaS",
+    "Security",
+    "Monitoring"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 38,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 34,
+    "EG": 37,
+    "NR": 48,
+    "PG": 44,
+    "PT": 35,
+    "SL": 34,
+    "VK": 38
+  },
+  "consolidatedAvg": 38.57,
+  "consolidatedRank": 87,
+  "paths": {
+    "memo": "winter2026/memos/protent.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/protent.md",
+      "elad-gil": "winter2026/evals/elad-gil/protent.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/protent.md",
+      "paul-graham": "winter2026/evals/paul-graham/protent.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/protent.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/protent.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/protent.md"
+    }
+  }
+}

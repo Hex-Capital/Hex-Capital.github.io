@@ -1,0 +1,72 @@
+{
+  "slug": "sparkles",
+  "name": "Sparkles",
+  "oneLiner": "Make everyone on your team an engineer",
+  "metadata": {
+    "website": "https://sparkles.dev",
+    "yc_page": "https://www.ycombinator.com/companies/sparkles",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "1",
+    "location": "San Francisco, CA, USA",
+    "tags": "Developer Tools, Productivity"
+  },
+  "tags": [
+    "Developer Tools",
+    "Productivity"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 24,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 22,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 28,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 27,
+    "EG": 36,
+    "NR": 31,
+    "PG": 40,
+    "PT": 24,
+    "SL": 22,
+    "VK": 28
+  },
+  "consolidatedAvg": 29.71,
+  "consolidatedRank": 165,
+  "paths": {
+    "memo": "winter2026/memos/sparkles.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/sparkles.md",
+      "elad-gil": "winter2026/evals/elad-gil/sparkles.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/sparkles.md",
+      "paul-graham": "winter2026/evals/paul-graham/sparkles.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/sparkles.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/sparkles.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/sparkles.md"
+    }
+  }
+}

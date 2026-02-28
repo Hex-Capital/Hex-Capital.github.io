@@ -1,0 +1,26 @@
+﻿# Grade -- Paul Graham Evaluation
+
+The thing I notice first about Grade is the origin story. Lotanna Ezeike didn't read a TechCrunch article about the creator economy and decide to build a payments company. He founded XPO -- a creator fintech that raised over a million dollars. Then he built Creator Check, a screening tool for brands working with creators. James Heaney was CTO of Creator Check. These two have been operating inside the creator economy for years, building tools for the exact companies that now need Grade. The payment problem wasn't identified through market research. It was the thing that kept showing up while they were doing something else -- the broken plumbing they kept tripping over while building the house. That's how the best startup ideas emerge. Not from brainstorming, but from proximity.
+
+The schlep here is real and underappreciated. Paying 400 creators across 190 countries involves W-9 forms, W-8BEN documentation, jurisdiction-specific tax compliance, performance tracking reconciliation, multi-currency payouts, and the mind-numbing process of matching campaign metrics to compensation rules. This is the kind of work that makes smart engineers say "there must be a better way" and then go build something else. Tipalti processes $75 billion in annualized volume across every industry -- they are not going to build deep performance-tracking logic for creator payouts. Lumanu raised $20 million but focuses on agencies and financing. Stir raised $20 million but does creator-to-creator splits. Nobody is purpose-built for the specific workflow of a brand saying "pay this creator $X per thousand views across these campaigns in these twelve countries." The structural dynamics remind me of what made Stripe work -- payments infrastructure was obviously broken, many companies existed in adjacent spaces, but the specific schlep of the problem kept everyone from building the right thing.
+
+James Heaney is the kind of technical co-founder that makes me pay attention. He built Pray Screen to $40K MRR within two months and 250K downloads. He sold a cryptography startup at 22. He built FindMyVax during COVID that served 55,000 Canadians, and a campus social app that captured 20% of Ryerson's student body. This isn't someone who talks about building -- he ships products fast, repeatedly, across different domains. The fact that he and Lotanna worked together at Creator Check before starting Grade is important too. They didn't meet at a co-founder matching event. Their working relationship predates the company, which is exactly what you want.
+
+The traction is the part that moves this from "interesting" to "compelling" at pre-seed. $380K in payouts in the last 30 days with 120% month-over-month growth means real money is flowing through this platform for real businesses. They list customers by name -- Valid with $30M+ in ad spend, Astra AI with 2.1 million users. These aren't test accounts. When companies route hundreds of thousands of dollars through your platform, they've made a genuine commitment. At a standard fintech take rate, even a conservative one, that payout volume implies the company is already generating revenue, though they haven't disclosed figures. Two people processing this volume is lean in the way I like -- it means the product is doing the work, not a services team.
+
+The strongest argument against investing is competitive encirclement. Lumanu, Stir, MONET, and eventually Tipalti all occupy adjacent territory with ten to a hundred times more capital. If performance-based creator payments become obviously valuable, any of them could build similar features. The "Grade" name is also genuinely bad for discovery -- try searching for it and you'll find grading software and review platforms. But here's the thing: vertical beats horizontal in the early innings, every time. Tipalti serving 5,000 companies across all industries will not out-execute a two-person team obsessed with one workflow. And the compliance data Grade accumulates -- tax documentation, payment histories, creator records across 190 countries -- creates switching costs that compound with every transaction. The name is fixable. The head start in vertical depth is not.
+
+What would make this a truly great investment is if the shift from flat-fee influencer sponsorships to performance-based compensation accelerates, which every signal suggests it will. When the dominant payment model for an entire industry changes, the company that builds native infrastructure for the new model has a structural advantage that lasts for years. Grade is positioned at exactly that transition. The founders found this problem by living in the creator economy, built the product themselves, and have real money flowing through it at pre-seed. That's the combination I look for.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Organic Problem Discovery and Schlep Willingness | 24/30 |
+| Relentlessly Resourceful Founders | 19/25 |
+| Evidence of Wanting: Demonstrated User Pull | 15/20 |
+| Technical Hacker Founders Who Build | 12/15 |
+| Growth Trajectory and Default Alive Economics | 7/10 |
+| **Total** | **77/100** |
+
+**Total Score: 77/100** (Invest)

@@ -1,0 +1,30 @@
+{
+  "slug": "mango-medical-inc",
+  "name": "Mango Medical",
+  "oneLiner": "We simulate orthopedic surgeries based on CT scans",
+  "metadata": {
+    "website": "https://mangomedical.io",
+    "yc_page": "https://www.ycombinator.com/companies/mango-medical-inc",
+    "batch": "Winter 2026",
+    "industry": "Healthcare / Healthcare IT",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Robotic Surgery, Healthcare IT, AI",
+    "yc_partner": "Tyler Bosmeny",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Robotic Surgery",
+    "Healthcare IT",
+    "AI"
+  ],
+  "slideImage": null,
+  "evalScores": {},
+  "consolidatedScores": {},
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
+  "paths": {
+    "memo": "winter2026/memos/mango-medical-inc.md",
+    "evals": {}
+  }
+}

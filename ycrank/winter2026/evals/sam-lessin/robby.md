@@ -1,0 +1,24 @@
+﻿# Robby -- Sam Lessin Evaluation
+
+Netic has raised $43 million at a $450 million valuation with 1,700% revenue growth in under a year. Housecall Pro shipped "Coach AI" in fall 2025. ServiceTitan just IPO'd with an $8.45 billion market cap and the war chest to build or buy anything adjacent to its core workflow. When I look at Robby, the first thing I see is not the company -- it's the competitive terrain telling me this idea has already been priced in by the market. "AI-powered revenue optimization for home services" is not an insane idea. It's a consensus idea with multiple well-capitalized players already executing on it. That's the structural problem before I even get to the founders.
+
+The founding team is credentialed -- Harvard MBAs, founding engineer at Cloud Health Systems, Uber and Ironclad experience, Bain consulting on PE-backed home services. These are sane people. But they're sane people with a sane idea, and that pairing produces the worst risk-reward ratio in my framework. The domain immersion is real and I respect it -- riding along with dozens of technicians, shadowing office positions, pursuing EPA 608 certification. That's genuine operator instinct. But domain immersion doesn't create structural advantage when the problem you're solving is legible to every incumbent and competitor in the space. The pivot history is also telling: they went from customs imports AI to home services AI. That's founders searching for a vertical to attach AI capabilities to, not founders who stumbled onto a structural insight about how an industry works. The AI is the product, not the cherry on top.
+
+Here's my core objection, and it's the same one I've been making publicly since 2024: strip away the AI layer and ask what business remains. Without LLM-generated talking points and automated lead scoring, Robby is a data enrichment tool for HVAC contractors. That's a feature, not a company. ServiceTitan could ship this as a tab in their existing platform. Housecall Pro literally already is shipping it. The "proprietary data loop from technician visits" is the same compounding-data moat story that every AI SaaS startup tells -- and it almost never materializes into genuine lock-in because the data isn't structurally unique. Customer visit histories and equipment records aren't trade secrets; they're operational byproducts that any competitor with platform access can accumulate. The platform dependency on ServiceTitan makes this worse, not better -- Robby is building an application on someone else's infrastructure, which means the infrastructure owner can restrict access or replicate functionality at will.
+
+The bull case deserves articulation. If Robby can demonstrate that its recommendations generate measurably and consistently superior revenue-per-visit relative to anything Netic, Housecall Pro, or ServiceTitan's own tools produce, contractor switching costs become real -- not from software lock-in but from ROI dependency. "6 figures in additional revenue opportunities every week" and "$40k closed in the first hour" are striking testimonials. Nine named paying customers at pre-seed is genuinely impressive traction. If those economics hold and compound, and if the team can build integrations deep enough that ripping out Robby means losing the revenue uplift, there's a path to becoming the revenue layer that sits on top of every FSM platform. The home services TAM is $657 billion and the industry is operationally complex enough that generic AI tools won't immediately replicate field-specific recommendations. But this bull case requires Robby to win a footrace against a $450 million competitor (Netic), an $8.45 billion incumbent (ServiceTitan), and every other AI-enabled FSM platform simultaneously -- while dependent on those same platforms for data access. I don't fund footraces.
+
+This company occupies almost every slot in my anti-pattern checklist. The entire value proposition depends on AI capabilities that are improving rapidly for everyone. The business model is almost certainly SaaS subscription. It's an application layer on someone else's protocol. The market is hot and the pitch would lead with TAM if I were seeing the deck. The founders are smart and hardworking, and the early traction is better than most pre-seed companies -- but structural positioning matters more than execution speed when the structure is working against you. I'd rather fund the HVAC company itself with a tech layer than the tech layer selling to HVAC companies.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| "Sane Person, Insane Idea" Calibration | 10/30 |
+| AI-Resistant Structural Moat | 5/25 |
+| New Primitive or Protocol Position | 4/20 |
+| Narrative Magnitude and Infinity Optionality | 6/15 |
+| Real Revenue or Asset Cushion | 6/10 |
+| **Total** | **31/100** |
+
+**Total Score: 31/100** (Pass)

@@ -1,0 +1,73 @@
+{
+  "slug": "spotpay",
+  "name": "SpotPay",
+  "oneLiner": "Cross-border Personal Finance on Stablecoins",
+  "metadata": {
+    "website": "https://www.spotpay.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/spotpay",
+    "batch": "Winter 2026",
+    "industry": "Fintech / Consumer Finance",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Fintech",
+    "yc_partner": "Tyler Bosmeny",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Fintech"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 44,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 46,
+    "EG": 41,
+    "NR": 38,
+    "PG": 51,
+    "PT": 28,
+    "SL": 29,
+    "VK": 44
+  },
+  "consolidatedAvg": 39.57,
+  "consolidatedRank": 81,
+  "paths": {
+    "memo": "winter2026/memos/spotpay.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/spotpay.md",
+      "elad-gil": "winter2026/evals/elad-gil/spotpay.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/spotpay.md",
+      "paul-graham": "winter2026/evals/paul-graham/spotpay.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/spotpay.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/spotpay.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/spotpay.md"
+    }
+  }
+}

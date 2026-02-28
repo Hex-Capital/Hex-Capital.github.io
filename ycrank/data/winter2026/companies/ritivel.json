@@ -1,0 +1,77 @@
+{
+  "slug": "ritivel",
+  "name": "Ritivel",
+  "oneLiner": "AI-native platform for regulatory document submission",
+  "metadata": {
+    "website": "https://www.ritivel.com",
+    "yc_page": "https://www.ycombinator.com/companies/ritivel",
+    "batch": "Winter 2026",
+    "industry": "Healthcare / Healthcare IT",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Generative AI, Compliance, Enterprise Software, Regtech, Biotechnology",
+    "yc_partner": "Gustaf Alstromer",
+    "emails": "pavan@ritivel.com, founders@ritivel.com (YC page)"
+  },
+  "tags": [
+    "Generative AI",
+    "Compliance",
+    "Enterprise Software",
+    "Regtech",
+    "Biotechnology"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 23,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 37,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 33,
+    "EG": 37,
+    "NR": 40,
+    "PG": 40,
+    "PT": 26,
+    "SL": 23,
+    "VK": 37
+  },
+  "consolidatedAvg": 33.71,
+  "consolidatedRank": 138,
+  "paths": {
+    "memo": "winter2026/memos/ritivel.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/ritivel.md",
+      "elad-gil": "winter2026/evals/elad-gil/ritivel.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/ritivel.md",
+      "paul-graham": "winter2026/evals/paul-graham/ritivel.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/ritivel.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/ritivel.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/ritivel.md"
+    }
+  }
+}

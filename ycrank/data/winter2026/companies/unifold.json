@@ -1,0 +1,74 @@
+{
+  "slug": "unifold",
+  "name": "Unifold",
+  "oneLiner": "Multi-chain deposit and payment infrastructure",
+  "metadata": {
+    "website": "https://unifold.io",
+    "yc_page": "https://www.ycombinator.com/companies/unifold",
+    "batch": "Winter 2026",
+    "industry": "Fintech / Fintech -> Payments",
+    "team_size": "3",
+    "location": "New York, NY, USA",
+    "tags": "Fintech, Crypto / Web3, Payments, Cryptocurrency"
+  },
+  "tags": [
+    "Fintech",
+    "Crypto / Web3",
+    "Payments",
+    "Cryptocurrency"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 38,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 35,
+    "EG": 45,
+    "NR": 55,
+    "PG": 56,
+    "PT": 29,
+    "SL": 39,
+    "VK": 38
+  },
+  "consolidatedAvg": 42.43,
+  "consolidatedRank": 59,
+  "paths": {
+    "memo": "winter2026/memos/unifold.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/unifold.md",
+      "elad-gil": "winter2026/evals/elad-gil/unifold.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/unifold.md",
+      "paul-graham": "winter2026/evals/paul-graham/unifold.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/unifold.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/unifold.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/unifold.md"
+    }
+  }
+}

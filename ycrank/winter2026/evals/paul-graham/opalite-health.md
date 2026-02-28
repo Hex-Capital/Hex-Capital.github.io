@@ -1,0 +1,26 @@
+﻿# Opalite Health -- Paul Graham Evaluation
+
+The origin story here is the strongest signal. Cathleen Kuo didn't read a market report about limited English proficiency in healthcare. She grew up inside the problem — the child of immigrants who couldn't communicate with their own doctors. Then she became a physician and experienced the identical problem from the opposite side of the exam table. That's not one organic discovery; it's two, converging in the same person. When I think about how the best startup ideas emerge, this is the pattern: you don't go looking for the problem, the problem finds you, and it finds you so thoroughly that you can't see the world without seeing it. Kuo has been seeing this problem from both perspectives for her entire life.
+
+The schlep here is real. Healthcare is the regulatory equivalent of walking through wet concrete. HIPAA compliance, SOC 2 Type II certification, Epic EHR integration, clinical validation at academic medical centers, hospital procurement cycles that stretch six to twelve months, and the genuinely untested question of AI medical liability — this is the kind of painful, unglamorous work that causes most AI teams to stay in consumer apps or build yet another chatbot. The fact that a three-person pre-seed startup has already achieved SOC 2 Type II certification and claims clinical validation with Johns Hopkins and Stanford physicians tells me something about the team's willingness to wade through the muck. That combination — interpretation plus automated clinical documentation — is also a product insight that only a physician-founder would have. A pure technologist builds a translator. Kuo knows that documentation is the other massive time sink in patient encounters with LEP patients, so she built both into the same workflow. That's domain knowledge expressing itself in product architecture.
+
+What gives me pause is that the schlep blindness advantage is eroding. No Barrier raised $2.7M in seed funding and is already deployed at 100+ sites. Diya Health has partnerships with Philips and Interpreters Unlimited. When I wrote about schlep blindness, the key insight was that hard problems have structurally less competition because everyone's unconscious steers them away. But when three or four funded teams are attacking the same schlep simultaneously, that structural protection weakens. The core speech-to-speech technology is built on foundation models that are becoming commodity infrastructure. Opalite's 150+ languages versus No Barrier's 40+ is a gap today, but language coverage is a solvable engineering problem, not a durable moat.
+
+The traction evidence is thin in a way that concerns me. The YC page claims daily usage across 10+ states, but the iOS app — version 3.3, released February 2026 — has zero ratings or reviews. If providers were genuinely using this product daily and it was saving them time and reducing errors, I'd expect to see at least a handful of organic reviews. The large enterprise rollout planned "within the next two months" is a future promise, not a present reality. No revenue figures are public. The app is listed as free. I don't see the user pull signals I look for — users who found it organically, who would be upset if it disappeared, who tell colleagues about it without prompting. There might be real usage happening behind hospital firewalls that doesn't show up in app store metrics, but absence of evidence is still absence.
+
+The CTO is solid. Alex Mehregan shipped production AI features at Apple — Siri, Apple Intelligence, macOS Sonoma — which means he has built real systems under the constraints of one of the most demanding engineering organizations in the world. He also founded and scaled a previous startup through Berkeley SkyDeck. He can build the product. That matters. But I notice neither founder has public GitHub repos, and the team is three people with the third unnamed. The technical foundation seems competent rather than extraordinary.
+
+The strongest bull case is that Kuo's dual identity creates an authentically rare founder-market fit, the interpretation-plus-documentation workflow is a defensible product moat that competitors will struggle to replicate without their own physician-founders, and healthcare's brutal procurement cycles mean that whoever gets embedded in Epic workflows first will be hard to rip out. If the clinical validation data holds up and the enterprise rollout materializes, this could compound quickly in a market where hospitals are spending $1-2M annually on interpretation services. The problem is real, the timing is right (post-COVID telehealth adoption, improving LLM quality), and the regulatory schlep does create genuine barriers even if it's not keeping everyone out. But the gap between "strong founder-market fit" and "company that wins this market" requires evidence of user pull I don't yet see.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Organic Problem Discovery and Schlep Willingness | 23/30 |
+| Relentlessly Resourceful Founders | 14/25 |
+| Evidence of Wanting: Demonstrated User Pull | 9/20 |
+| Technical Hacker Founders Who Build | 11/15 |
+| Growth Trajectory and Default Alive Economics | 4/10 |
+| **Total** | **61/100** |
+
+**Total Score: 61/100** (Neutral)

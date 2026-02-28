@@ -1,0 +1,76 @@
+{
+  "slug": "shofo",
+  "name": "Shofo",
+  "oneLiner": "Common Crawl for Video",
+  "metadata": {
+    "website": "https://shofo.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/shofo",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Video, Data Labeling, Big Data",
+    "yc_partner": "Jared Friedman",
+    "emails": "founders@shofo.ai (company website)"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Video",
+    "Data Labeling",
+    "Big Data"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 39,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 33,
+    "EG": 41,
+    "NR": 39,
+    "PG": 37,
+    "PT": 28,
+    "SL": 29,
+    "VK": 39
+  },
+  "consolidatedAvg": 35.14,
+  "consolidatedRank": 124,
+  "paths": {
+    "memo": "winter2026/memos/shofo.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/shofo.md",
+      "elad-gil": "winter2026/evals/elad-gil/shofo.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/shofo.md",
+      "paul-graham": "winter2026/evals/paul-graham/shofo.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/shofo.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/shofo.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/shofo.md"
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "slug": "fenrock-ai-yc-w26",
+  "name": "Fenrock AI (YC W26)",
+  "oneLiner": "The most powerful AI agents for Financial Crime Compliance",
+  "metadata": {
+    "website": "https://fenrock.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/fenrock-ai-yc-w26",
+    "batch": "Winter 2026",
+    "industry": "Fintech / Fintech",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Fintech, Compliance, AI",
+    "yc_partner": "Jon Xu",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Fintech",
+    "Compliance",
+    "AI"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 41,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 33,
+    "EG": 42,
+    "NR": 36,
+    "PG": 29,
+    "PT": 26,
+    "SL": 29,
+    "VK": 41
+  },
+  "consolidatedAvg": 33.71,
+  "consolidatedRank": 137,
+  "paths": {
+    "memo": "winter2026/memos/fenrock-ai-yc-w26.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/fenrock-ai-yc-w26.md",
+      "elad-gil": "winter2026/evals/elad-gil/fenrock-ai-yc-w26.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/fenrock-ai-yc-w26.md",
+      "paul-graham": "winter2026/evals/paul-graham/fenrock-ai-yc-w26.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/fenrock-ai-yc-w26.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/fenrock-ai-yc-w26.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/fenrock-ai-yc-w26.md"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "rev1",
+  "name": "REV1",
+  "oneLiner": "Shortening hardware design cycles by automating post-CAD work",
+  "metadata": {
+    "website": "https://rev1.so",
+    "yc_page": "https://www.ycombinator.com/companies/rev1",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Hard Tech, Hardware, Design, Manufacturing, Enterprise Software"
+  },
+  "tags": [
+    "Hard Tech",
+    "Hardware",
+    "Design",
+    "Manufacturing",
+    "Enterprise Software"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 35,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 36,
+    "EG": 41,
+    "NR": 41,
+    "PG": 59,
+    "PT": 32,
+    "SL": 26,
+    "VK": 35
+  },
+  "consolidatedAvg": 38.57,
+  "consolidatedRank": 88,
+  "paths": {
+    "memo": "winter2026/memos/rev1.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/rev1.md",
+      "elad-gil": "winter2026/evals/elad-gil/rev1.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/rev1.md",
+      "paul-graham": "winter2026/evals/paul-graham/rev1.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/rev1.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/rev1.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/rev1.md"
+    }
+  }
+}

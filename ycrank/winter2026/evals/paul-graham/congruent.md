@@ -1,0 +1,26 @@
+﻿# Congruent -- Paul Graham Evaluation
+
+The most interesting thing about Congruent is the structural schlep blindness in its market. Continental, Bosch, and Denso have spent decades building competitive advantage around one thing: proprietary algorithms that turn raw radar signals into clean processed point clouds. Their entire business model, their engineering organizations, their customer relationships -- all of it is built around the assumption that the radar manufacturer does the signal processing and hands the customer a tidy output. Now the industry is shifting toward end-to-end neural networks that need raw sensor data, and these incumbents face an impossible choice: expose raw data and destroy the very IP that differentiates them, or ignore the shift and hope it doesn't happen. This is the same structural trap that made Stripe possible. Banks couldn't make payments easy because complexity was their moat. Radar incumbents can't expose raw data because processing is theirs.
+
+How did Barthes and Carnahan find this problem? They were inside it. Both spent years at Zendar, a radar startup that raised $58.7M building software-defined radar for traditional ADAS perception stacks -- exactly the approach that end-to-end architectures are now making obsolete. Barthes wrote perception software there. Carnahan managed research engineering. They watched from inside a radar company as Tesla's FSD v12 replaced 300,000 lines of modular perception code with a single neural network, and they understood what that meant for every radar supplier shipping processed point clouds. This wasn't an idea generated from reading about autonomous vehicles. This was two people who built radar the old way recognizing that the old way is dying, and knowing exactly what the new way requires. The organic test passes cleanly.
+
+The schlep is real and two-sided. You need to build custom radar hardware that exposes raw data -- that's a hardware engineering challenge with automotive qualification cycles measured in years. And you need to build a generative world-model simulator that produces synthetic raw radar data for training -- that's a cutting-edge ML challenge requiring expertise in diffusion models and sensor physics. Most teams could attempt one side or the other. The pairing is what creates the barrier. They've assembled the right team for it: Barthes brings radar perception and startup CTO experience from Safehub, Carnahan brings computational modeling and radar research, and their founding ML scientist Scope Crafts has published research specifically on diffusion-based generative models. This isn't the typical hacker team I back, but for a deep-tech radar-plus-simulator product, these three are precisely the right builders.
+
+What gives me pause is the number of things that need to go right. End-to-end architectures need to become the industry standard, not just Tesla's approach. Radar needs to remain a required sensor modality even as camera-only approaches advance. Automotive OEMs need to actually procure from a pre-seed startup rather than waiting for a Tier-1 to eventually build something similar. Any one of these individually is probable. All three together starts to feel like the multiple-miracles problem. The automotive qualification timeline of 2-5 years compounds this -- a startup burning cash for years before meaningful revenue is the opposite of default alive.
+
+The strongest bull case is that Tesla already proved end-to-end works, every major OEM is racing to follow, and radar's physics advantage in adverse weather makes it essentially mandatory for safety certification. If all that holds, then Congruent is building the picks and shovels for an industry transition that will touch billions of dollars in radar procurement, and they're the only team attacking the specific interface between raw radar data and end-to-end training. The incumbents genuinely cannot respond without organizational self-harm. In that scenario, Congruent could be to end-to-end radar what Stripe was to online payments -- the obvious solution to an obvious problem that nobody else was structurally positioned to build. That's a compelling vision.
+
+But I have zero evidence of user pull. No customers, no LOIs, no waitlist, no prototype deployments. For a hardware-plus-software product at pre-seed, this isn't damning -- you can't have users before you have hardware. Still, I'd want to see at least one AV developer saying "we need this and we'd pay for it." The organic discovery is strong, the schlep is genuine, the team is domain-right. What's missing is any external signal that the market is pulling this product toward it rather than the founders pushing a thesis into the market. At this stage I'd watch closely but the multiple-miracles risk and the absence of any demand signal keep me from writing a check.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Organic Problem Discovery and Schlep Willingness | 24/30 |
+| Relentlessly Resourceful Founders | 13/25 |
+| Evidence of Wanting: Demonstrated User Pull | 6/20 |
+| Technical Hacker Founders Who Build | 10/15 |
+| Growth Trajectory and Default Alive Economics | 4/10 |
+| **Total** | **57/100** |
+
+**Total Score: 57/100** (Neutral)

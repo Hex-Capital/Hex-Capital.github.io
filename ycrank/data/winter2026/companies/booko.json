@@ -1,0 +1,76 @@
+{
+  "slug": "booko",
+  "name": "Booko",
+  "oneLiner": "Dynamic pricing for businesses that sell time slots",
+  "metadata": {
+    "website": "https://bookoapp.com",
+    "yc_page": "https://www.ycombinator.com/companies/booko",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Machine Learning, SaaS, B2B, Analytics",
+    "yc_partner": "Harshita Arora",
+    "emails": "arjun@bookoapp.com, will@bookoapp.com, founders@bookoapp.com (YC page and company DPA)"
+  },
+  "tags": [
+    "Machine Learning",
+    "SaaS",
+    "B2B",
+    "Analytics"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 24,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 24,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 27,
+      "tier": "Strong Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 27,
+    "EG": 32,
+    "NR": 42,
+    "PG": 39,
+    "PT": 24,
+    "SL": 24,
+    "VK": 27
+  },
+  "consolidatedAvg": 30.71,
+  "consolidatedRank": 161,
+  "paths": {
+    "memo": "winter2026/memos/booko.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/booko.md",
+      "elad-gil": "winter2026/evals/elad-gil/booko.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/booko.md",
+      "paul-graham": "winter2026/evals/paul-graham/booko.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/booko.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/booko.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/booko.md"
+    }
+  }
+}

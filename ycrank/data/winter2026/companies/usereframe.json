@@ -1,0 +1,75 @@
+{
+  "slug": "usereframe",
+  "name": "Reframe",
+  "oneLiner": "AI agents to automate hardware procurement",
+  "metadata": {
+    "website": "http://usereframe.ai",
+    "yc_page": "https://www.ycombinator.com/companies/usereframe",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Marketing",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Manufacturing, Supply Chain",
+    "yc_partner": "Brad Flora",
+    "emails": "No public data found (demo booking link: cal.com/bryan-zin/reframe-demo per YC page)"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Manufacturing",
+    "Supply Chain"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 39,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 34,
+    "EG": 42,
+    "NR": 44,
+    "PG": 48,
+    "PT": 28,
+    "SL": 27,
+    "VK": 39
+  },
+  "consolidatedAvg": 37.43,
+  "consolidatedRank": 98,
+  "paths": {
+    "memo": "winter2026/memos/usereframe.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/usereframe.md",
+      "elad-gil": "winter2026/evals/elad-gil/usereframe.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/usereframe.md",
+      "paul-graham": "winter2026/evals/paul-graham/usereframe.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/usereframe.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/usereframe.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/usereframe.md"
+    }
+  }
+}

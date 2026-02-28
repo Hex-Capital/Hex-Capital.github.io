@@ -1,0 +1,76 @@
+{
+  "slug": "scout-out",
+  "name": "Scout Out",
+  "oneLiner": "AI generated proposals for residential construction projects",
+  "metadata": {
+    "website": "https://scoutout.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/scout-out",
+    "batch": "Winter 2026",
+    "industry": "Real Estate and Construction / Real Estate and Construction",
+    "team_size": "1",
+    "location": "San Francisco, CA, USA",
+    "tags": "Real Estate, Construction, Proptech, AI",
+    "yc_partner": "Tyler Bosmeny",
+    "emails": "nolan@scoutout.ai (company website)"
+  },
+  "tags": [
+    "Real Estate",
+    "Construction",
+    "Proptech",
+    "AI"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 37,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 48,
+    "EG": 48,
+    "NR": 50,
+    "PG": 59,
+    "PT": 30,
+    "SL": 37,
+    "VK": 37
+  },
+  "consolidatedAvg": 44.14,
+  "consolidatedRank": 47,
+  "paths": {
+    "memo": "winter2026/memos/scout-out.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/scout-out.md",
+      "elad-gil": "winter2026/evals/elad-gil/scout-out.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/scout-out.md",
+      "paul-graham": "winter2026/evals/paul-graham/scout-out.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/scout-out.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/scout-out.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/scout-out.md"
+    }
+  }
+}

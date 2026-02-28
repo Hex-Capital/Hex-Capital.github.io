@@ -1,0 +1,73 @@
+{
+  "slug": "crosslayer-labs",
+  "name": "Crosslayer Labs",
+  "oneLiner": "Protect, monitor and defend your Internet presence",
+  "metadata": {
+    "website": "https://www.crosslayerlabs.com/",
+    "yc_page": "https://www.ycombinator.com/companies/crosslayer-labs",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Security",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "SaaS, B2B, Cybersecurity"
+  },
+  "tags": [
+    "SaaS",
+    "B2B",
+    "Cybersecurity"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 62,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 73,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 61,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 48,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 44,
+    "EG": 62,
+    "NR": 73,
+    "PG": 61,
+    "PT": 48,
+    "SL": 45,
+    "VK": 48
+  },
+  "consolidatedAvg": 54.43,
+  "consolidatedRank": 11,
+  "paths": {
+    "memo": "winter2026/memos/crosslayer-labs.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/crosslayer-labs.md",
+      "elad-gil": "winter2026/evals/elad-gil/crosslayer-labs.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/crosslayer-labs.md",
+      "paul-graham": "winter2026/evals/paul-graham/crosslayer-labs.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/crosslayer-labs.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/crosslayer-labs.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/crosslayer-labs.md"
+    }
+  }
+}

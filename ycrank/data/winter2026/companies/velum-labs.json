@@ -1,0 +1,74 @@
+{
+  "slug": "velum-labs",
+  "name": "Velum Labs",
+  "oneLiner": "Firewall that controls access to information across AI and humans",
+  "metadata": {
+    "website": "https://www.velum-labs.com/",
+    "yc_page": "https://www.ycombinator.com/companies/velum-labs",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Machine Learning, Security, Open Source, Privacy"
+  },
+  "tags": [
+    "Machine Learning",
+    "Security",
+    "Open Source",
+    "Privacy"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 25,
+      "tier": "Strong Pass"
+    },
+    "vinod-khosla": {
+      "score": 39,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 28,
+    "EG": 37,
+    "NR": 44,
+    "PG": 38,
+    "PT": 28,
+    "SL": 25,
+    "VK": 39
+  },
+  "consolidatedAvg": 34.14,
+  "consolidatedRank": 133,
+  "paths": {
+    "memo": "winter2026/memos/velum-labs.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/velum-labs.md",
+      "elad-gil": "winter2026/evals/elad-gil/velum-labs.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/velum-labs.md",
+      "paul-graham": "winter2026/evals/paul-graham/velum-labs.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/velum-labs.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/velum-labs.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/velum-labs.md"
+    }
+  }
+}

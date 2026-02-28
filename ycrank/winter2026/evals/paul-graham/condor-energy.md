@@ -1,0 +1,26 @@
+﻿# Condor Energy -- Paul Graham Evaluation
+
+The most interesting thing about Condor Energy is what the competitive landscape reveals. Look at the companies operating in adjacent spaces: Voltus helps energy producers monetize flexibility. Pexapark serves renewable energy sellers. Granular Energy tracks certificates for utilities. Every well-funded player in this space builds for the supply side -- the generators, the traders, the utilities. Nobody builds for the buyer. That pattern is textbook schlep blindness. The buy side means dealing with CFOs and procurement teams at industrial companies, navigating different regulatory regimes across markets, integrating fragmented consumption data with financial hedging models. It's boring, complex, unglamorous work. The kind of problem that smart founders unconsciously filter out because the sell side sounds cooler and moves faster.
+
+The schlep here is real. European power markets alone are a regulatory maze, and the US fragments across ISOs with different rules, tariff structures, and procurement norms. Building an integrated platform that handles consumption tracking, PPA management, hedging analytics, and capex screening across these markets requires deep domain knowledge that can't be faked. This is the part of the thesis that works: the problem has been hiding behind complexity that deters most founders.
+
+Where my conviction weakens is the origin story. Jean and Clément worked on hydropower plants. Florian traded power. They're genuine industry insiders, and that matters. But they weren't the customers. They observed the pain of large electricity buyers from the supply side, then conducted 200+ structured interviews to validate the opportunity. That's thorough market research, not organic discovery. Drew Houston forgot his USB drive. The Airbnb founders couldn't make rent. The strongest founder-problem connections are personal and almost involuntary -- the founder can't stop thinking about the problem because they live inside it every day. Here, the founders lived adjacent to the problem. They could see it clearly, but they weren't suffering from it themselves. The 200 interviews are the tell: if you've been living with a problem, you don't need to interview 200 people to confirm it exists.
+
+The team composition is thoughtful -- combining energy infrastructure experience with quantitative trading background maps well to a product that bridges operational management and financial hedging. But I can't find a single GitHub repo among the three founders. There's a CTO, and the product exists (the website shows a working demo), so someone built it. But when I evaluate whether these are hacker-founders who build, the evidence is thin. At Stripe, the Collisons wrote the code. At Dropbox, Houston built the prototype himself. At Reddit, Huffman and Ohanian built the site. The pattern I look for is founders whose hands are on the keyboard, and I can't confirm that here.
+
+The strongest bull case is timing. The 2022-2023 European energy crisis shocked C&I buyers into awareness that electricity procurement requires active management, not annual contract renewals. The AI-driven data center buildout is creating a new class of extremely large, technically sophisticated electricity buyers who need exactly this kind of tool. And Florian's background as a power trader means the hedging and risk management features aren't generic "AI-powered" marketing -- they're built by someone who actually understands these instruments. If Condor can land two or three marquee data center operators and demonstrate the 20% savings claim, the switching costs and data accumulation could create a genuine moat. The unnamed "leading data center operator" they're live with could be the seed of something significant. Enterprise SaaS with this kind of domain specificity can compound quietly while everyone else chases flashier markets.
+
+But that's a lot of "ifs." The enterprise sales cycle for companies spending over €1M on electricity is measured in months, not weeks, and a three-person team selling simultaneously in France and the US faces a brutal resource constraint. No revenue is disclosed. No growth metrics. The "AI-powered" positioning, while backed by genuine domain expertise, sits in a category where every energy software company now claims AI. And the individual components -- dashboards, forecasting, hedging analytics -- are not technically unique. The integrated workflow is the differentiator, but that's an execution advantage, not a structural one. What I keep returning to is that this feels more like a competent team that identified a good market opportunity through professional experience than founders who stumbled into a problem they couldn't walk away from. The former can build a solid business. The latter builds Stripe.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Organic Problem Discovery and Schlep Willingness | 18/30 |
+| Relentlessly Resourceful Founders | 12/25 |
+| Evidence of Wanting: Demonstrated User Pull | 9/20 |
+| Technical Hacker Founders Who Build | 6/15 |
+| Growth Trajectory and Default Alive Economics | 4/10 |
+| **Total** | **49/100** |
+
+**Total Score: 49/100** (Neutral)

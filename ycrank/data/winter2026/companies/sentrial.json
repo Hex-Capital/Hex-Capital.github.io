@@ -1,0 +1,74 @@
+{
+  "slug": "sentrial",
+  "name": "Sentrial",
+  "oneLiner": "Production Monitoring for AI Products",
+  "metadata": {
+    "website": "https://sentrial.com/",
+    "yc_page": "https://www.ycombinator.com/companies/sentrial",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "AIOps, Artificial Intelligence, Developer Tools, B2B"
+  },
+  "tags": [
+    "AIOps",
+    "Artificial Intelligence",
+    "Developer Tools",
+    "B2B"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 22,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 24,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 20,
+      "tier": "Strong Pass"
+    },
+    "vinod-khosla": {
+      "score": 30,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 22,
+    "EG": 29,
+    "NR": 38,
+    "PG": 33,
+    "PT": 24,
+    "SL": 20,
+    "VK": 30
+  },
+  "consolidatedAvg": 28,
+  "consolidatedRank": 171,
+  "paths": {
+    "memo": "winter2026/memos/sentrial.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/sentrial.md",
+      "elad-gil": "winter2026/evals/elad-gil/sentrial.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/sentrial.md",
+      "paul-graham": "winter2026/evals/paul-graham/sentrial.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/sentrial.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/sentrial.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/sentrial.md"
+    }
+  }
+}

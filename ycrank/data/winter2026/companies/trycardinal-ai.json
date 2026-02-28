@@ -1,0 +1,73 @@
+{
+  "slug": "trycardinal-ai",
+  "name": "Cardinal",
+  "oneLiner": "AI Platform for Precision Outbound",
+  "metadata": {
+    "website": "https://trycardinal.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/trycardinal-ai",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B",
+    "team_size": "2 (YC Leafpress page via WebFetch)",
+    "location": "San Francisco (job posting, YC Leafpress page via WebFetch)",
+    "tags": "AI",
+    "yc_partner": "Gustaf Alstromer (YC page via WebFetch)",
+    "emails": "team@trycardinal.ai (YC document intelligence launch post via WebFetch)"
+  },
+  "tags": [
+    "AI"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 64,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 32,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 33,
+    "EG": 35,
+    "NR": 41,
+    "PG": 64,
+    "PT": 30,
+    "SL": 29,
+    "VK": 32
+  },
+  "consolidatedAvg": 37.71,
+  "consolidatedRank": 95,
+  "paths": {
+    "memo": "winter2026/memos/trycardinal-ai.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/trycardinal-ai.md",
+      "elad-gil": "winter2026/evals/elad-gil/trycardinal-ai.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/trycardinal-ai.md",
+      "paul-graham": "winter2026/evals/paul-graham/trycardinal-ai.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/trycardinal-ai.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/trycardinal-ai.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/trycardinal-ai.md"
+    }
+  }
+}

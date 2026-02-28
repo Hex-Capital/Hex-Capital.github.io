@@ -1,0 +1,26 @@
+﻿# REV1 -- Elad Gil Evaluation
+
+The first thing I notice here is DraftAid. A YC W24 company with the identical value proposition -- AI-generated 2D manufacturing drawings from 3D CAD -- launched roughly two years earlier, already has paid pilots valued at $150K, and integrates with five major CAD platforms. When I wrote about "market-ending moves," the dynamic I described was a leader accumulating compounding distribution advantages that make late entrants structurally disadvantaged. DraftAid hasn't made a market-ending move yet -- $500K raised and a small team doesn't constitute dominance -- but the burden of proof shifts to REV1: what is fundamentally different about their approach? The dossier says REV1's "specific differentiator vs. these alternatives is not publicly detailed." That's a significant gap. Google entered search with ten competitors, but PageRank was a fundamentally different technical approach. I need to see REV1's equivalent.
+
+The "why now" question is where this bet weakens for me. Automated drawing generation from 3D CAD became viable when AI models crossed the accuracy threshold for interpreting complex geometry and generating GD&T annotations -- but that threshold was crossed in 2023, which is when DraftAid started building. SolidWorks shipped Auto-Generate Drawings beta in 2025; Siemens NX includes automated 2D drawing creation. The structural moment is real, but it's already been recognized and acted upon by startups and incumbents alike. REV1 isn't building ahead of a capability curve the way Harvey built legal AI before GPT-4 existed. They're entering after the market has been validated, which means they're competing on execution rather than timing -- and execution alone, without a structural wedge, is a much harder way to win.
+
+The underlying market does fit a pattern I'm drawn to. Engineering drawings are the definition of "too boring" -- tedious, universally required, mission-critical documentation that every manufactured part demands. The mecheng who commented "universally terrible drawing software" on Liu's LinkedIn post captures a real pain point. In theory, this is the same archetype as Gusto (payroll) or PagerDuty (alerting): a workflow everyone hates but no one has automated because it seemed too narrow or too hard. I take that pattern seriously. But the key difference is that PagerDuty and Gusto were building in markets where no credible startup competitor existed yet. Here, REV1 faces a direct competitor that's already demonstrated customer willingness to pay in the exact same segment.
+
+The bull case requires believing two things: first, that the GD&T accuracy problem is hard enough that DraftAid hasn't solved it well, creating an opening for a team with deeper manufacturing domain expertise. Alex Rivero's hands-on experience designing motor test equipment at Tesla and working on iPhone 17 at Apple means he's personally created hundreds of these drawings under production conditions -- that's real domain knowledge that could translate into better product decisions around tolerancing accuracy and manufacturing-readiness. Second, that the market is large enough to support multiple winners -- if $23.75B in global CAD software is even 5% addressable by drawing automation tools, that's over $1B, sufficient for two or three scaled companies. Both of these could be true. But "could be true" isn't the same as evidence, and the dossier gives me no signal that REV1 has identified a technical approach DraftAid hasn't.
+
+The product-to-distribution trajectory is my other concern. A tool that automates 2D drawing generation is a feature, not a platform. The theoretical path to platform expansion -- BOM generation, tolerance analysis, design-for-manufacturing checks -- exists, but there's no evidence the founders have articulated it. Worse, this feature sits naturally inside the CAD platform itself. SolidWorks and Siemens building native versions isn't just a competitive threat, it's a structural signal that drawing automation may be absorbed into existing platforms rather than spawning independent companies. The best standalone engineering tools create customer relationships that incumbents can't replicate; I don't yet see why REV1's customer relationship would be stickier than a native CAD feature improving over two product cycles.
+
+The founders are credible for this specific problem. Rivero brings the domain depth -- seven CNC machine prototypes, Tesla motor design, Apple mechanical engineering -- and Liu brings the software infrastructure chops, having solo-built Tesla's global Supercharger planning platform. That's a well-matched team for an engineering automation product. But strong founders in a market with a direct funded competitor and closing incumbents need a differentiated wedge I can point to. Without it, this is a competent team entering a recognized market late, which puts it outside my preferred pattern.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Non-Obvious Market at Structural Inflection | 12/35 |
+| Product-to-Distribution Trajectory | 9/25 |
+| Single-Miracle Operational Clarity | 8/15 |
+| Founder Execution Velocity | 8/15 |
+| Technology Cycle Positioning | 4/10 |
+| **Total** | **41/100** |
+
+**Total Score: 41/100** (Pass)

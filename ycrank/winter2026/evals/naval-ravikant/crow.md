@@ -1,0 +1,24 @@
+﻿# Crow -- Naval Ravikant Evaluation
+
+The first thing I see is consensus. "Every SaaS product needs an AI copilot" is the 2026 equivalent of "every company needs a mobile app" in 2012. When I hear that the founding insight came from "100+ conversations with app builders" who all said the same thing -- they want an AI copilot but don't have time to build one -- that's not a secret. That's a survey confirming what every product manager at every SaaS company already knows. Command AI figured this out years ago with $23.8M in funding. Intercom built Fin. Kapa.ai raised a seed round. The market has spoken, the opportunity is visible, and the pricing already reflects optimism. I explicitly avoid hot-market consensus deals, and "embeddable AI agent for SaaS" in early 2026 is about as hot and consensus as it gets.
+
+The specific knowledge question is where this falls apart for me. Aryan and Jai are Berkeley CS graduates with intern-level experience at AI companies -- Typeface, OpenAI, Amazon Ads, Qualcomm, a couple YC startups. These are good credentials for getting hired at a Series B company. They are not the kind of non-transferable knowledge that makes a founder irreplaceable. Neither founder spent years running a SaaS product and desperately needing a copilot layer. Neither built agent infrastructure at scale. Their understanding of the problem space appears to come from customer discovery interviews, not from lived obsession. A hundred conversations with app builders is useful market research, but any competent team could conduct those same conversations and arrive at the same product spec. When I backed Evan Williams, he had a decade of specific knowledge about how humans communicate publicly. When I backed Amjad Masad at Replit, he'd been building coding tools since he was a teenager. Where's the equivalent depth here?
+
+The leverage architecture looks appealing on paper -- one SDK integration enables AI copilot capabilities across an entire product's user base, which is multiplicative in theory. But Crow sits at the application layer, not the infrastructure layer. My portfolio is dominated by picks-and-shovels plays: AngelList was funding infrastructure, Alchemy was the blockchain developer platform, Stack Overflow was the developer knowledge graph. Crow is building on top of commodity foundation models with no proprietary intelligence layer. When OpenAI or Anthropic improves their models, every competitor in this space gets the same uplift simultaneously. There's no compounding technology here -- no knowledge graph that gets richer with use, no protocol that becomes a standard, no compute advantage that widens over time. The dossier's own defensibility section confirms this: "No defensibility signals found in public sources." The moat hypothesis -- workflow library, switching costs, data flywheel -- is entirely speculative.
+
+The strongest bull case would be that this becomes the Stripe of AI copilots: developer experience so clean that it becomes the default integration, and network effects emerge from a shared workflow library across thousands of products. The 1,091 weekly npm downloads suggest some organic developer pull, and having two technical co-founders with AI company experience means they can iterate fast. If LLM-powered copilots become as standard as search bars, the first company to nail the developer experience could own the category. But Stripe succeeded because payments infrastructure was genuinely hard -- regulatory complexity, banking relationships, fraud detection created compounding moats. Crow's core capability -- connecting an LLM to APIs and executing actions -- is built on publicly available technologies that any competent engineering team can replicate. The barrier is execution speed, not proprietary knowledge, and Command AI has a multi-year head start on that exact execution.
+
+Two technical co-founders who met on their first day at Berkeley, both with AI startup experience -- I don't see integrity red flags, and the genuine friendship is a positive signal for durability. They pass my "technologist on the founding team" requirement twice over. But passing a filter is not the same as clearing the bar. I need founders whose specific knowledge creates an unfair advantage, building leverage that didn't previously exist, at a time when smart people think they're wrong. Here I see capable engineers building a reasonable product in a crowded category at peak consensus timing. That's a pass.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Specific Knowledge and Founder-Problem Authenticity | 8/30 |
+| Leverage Architecture and Scalability of the Model | 13/25 |
+| Contrarian Positioning and Non-Consensus Timing | 5/20 |
+| Founder Integrity and Long-Term Orientation | 8/15 |
+| Technical Compounding and Defensibility Over Time | 4/10 |
+| **Total** | **38/100** |
+
+**Total Score: 38/100** (Pass)

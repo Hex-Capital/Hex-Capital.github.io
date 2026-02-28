@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "cyan-banister",
+    "fullName": "Cyan Banister",
+    "fund": "Long Journey Ventures",
+    "abbr": "CB"
+  },
+  {
+    "slug": "elad-gil",
+    "fullName": "Elad Gil",
+    "fund": "Color Genomics co-founder, angel/seed investor",
+    "abbr": "EG"
+  },
+  {
+    "slug": "naval-ravikant",
+    "fullName": "Naval Ravikant",
+    "fund": "AngelList founder",
+    "abbr": "NR"
+  },
+  {
+    "slug": "paul-graham",
+    "fullName": "Paul Graham",
+    "fund": "Y Combinator co-founder",
+    "abbr": "PG"
+  },
+  {
+    "slug": "peter-thiel",
+    "fullName": "Peter Thiel",
+    "fund": "Founders Fund",
+    "abbr": "PT"
+  },
+  {
+    "slug": "sam-lessin",
+    "fullName": "Sam Lessin",
+    "fund": "Slow Ventures",
+    "abbr": "SL"
+  },
+  {
+    "slug": "vinod-khosla",
+    "fullName": "Vinod Khosla",
+    "fund": "Khosla Ventures",
+    "abbr": "VK"
+  }
+]

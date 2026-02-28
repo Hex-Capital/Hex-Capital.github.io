@@ -1,0 +1,24 @@
+﻿# sitefire -- Cyan Banister Evaluation
+
+The first thing I notice about sitefire is that it's operating in one of the hottest, most consensus categories in early-stage tech right now. Generative Engine Optimization already has a $29 million-funded competitor in Peec AI with over 1,300 brands and $4M+ in ARR. Otterly.AI has 20,000 users. Multiple other startups are stacking up. When I look at a space where every investor in town can see the opportunity, where the category already has a name and acronym and market sizing reports, my instinct pulls me away rather than toward it. The most promising companies are not popular and they are difficult to assess — and GEO in 2026 is neither of those things. Everyone can see that AI is reshaping search. The insight that brands need to optimize for AI-generated answers is not non-consensus — it's already being funded at scale.
+
+When I sit with the founders' stories, I'm looking for the biographical thread that makes these two people the inevitable solvers of this particular problem. Jochen has a PhD from TUM, was valedictorian of Germany's top finance program, did reinforcement learning research at Stanford. Vincent started his first company at 18, worked across robotics and healthcare startups, went through CDTM. These are accomplished, technically capable people. But their backgrounds are in energy systems, optimization research, and robotics — not in marketing, content strategy, or SEO. They co-founded an energy company together before pivoting to AI marketing. I don't hear a survival story that explains why these two people woke up burning to solve the problem of how BMW shows up in ChatGPT answers. When a founder pivots from energy to a hot AI category without a personal thread connecting them to the new domain, that pattern triggers one of my clearest red flags — chasing a market rather than solving a problem that's been eating at them for years.
+
+The bull case here deserves honest engagement. Having BMW, Xtrackers, and DWS as named enterprise clients at pre-seed is legitimately impressive — most two-person teams cannot land marquee European enterprise logos that quickly. Their German network through TUM is clearly working. The product differentiation of closing the loop from analytics to content generation and CMS delivery is real and more complete than what pure monitoring competitors offer. If they can maintain content quality high enough for enterprise brands to publish under their own names, that's a meaningful workflow integration that creates switching costs. And the founders' ML research backgrounds are genuinely relevant to understanding how language models select and cite sources — this is one area where their technical depth maps directly to the problem. If the GEO market grows as projected and sitefire captures even a modest share through superior product integration, this could be a solid venture-scale outcome.
+
+But solid venture outcomes in consensus markets aren't what I invest my own money to find. When I think about the companies that defined my portfolio — when I backed SpaceX and people thought private rocketry was lunacy, or when I found Flock Safety through Garrett Langley's phone tethered to hotel WiFi — those companies were making invisible systems visible for people who lacked access. Sitefire does the opposite: it helps Europe's largest brands maintain their visibility in a new channel. BMW does not lack access or economic power. There's no transparency-for-the-powerless angle here, no poverty alleviation mechanism, no economic opportunity being created for people who don't already have it. The company sits squarely in the enterprise marketing optimization space, which is a fine business category but doesn't create the kind of real-world impact that gets me to write a check.
+
+The one dimension where sitefire genuinely earns my respect is co-founder alignment. Jochen and Vincent attended TUM together, co-founded pulse Energy together, and then chose to start a second company together. That prior working relationship — having already navigated the stresses of building something together and deciding to do it again — is exactly the kind of tested partnership I look for after watching HQ Trivia implode from co-founder conflict. They've already been through their first crucible together. That matters. But it's not enough to overcome the absence of biographical stake, the consensus nature of the market, and the lack of economic access mission that together form the core of how I invest.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Biographical Grit and Personal Stake | 10/30 |
+| Anti-Consensus Conviction and Weird Factor | 5/25 |
+| Economic Access and Real-World Impact | 4/20 |
+| Navigating Complexity in Hard Spaces | 4/15 |
+| Co-Founder Alignment and Team Resilience | 7/10 |
+| **Total** | **30/100** |
+
+**Total Score: 30/100** (Pass)

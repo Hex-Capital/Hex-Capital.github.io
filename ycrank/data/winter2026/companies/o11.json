@@ -1,0 +1,75 @@
+{
+  "slug": "o11",
+  "name": "o11",
+  "oneLiner": "The Most Integrated M365 AI Suite",
+  "metadata": {
+    "website": "https://o11.ai",
+    "yc_page": "https://www.ycombinator.com/companies/o11",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Finance and Accounting",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Fintech, SaaS, Finance, B2B"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Fintech",
+    "SaaS",
+    "Finance",
+    "B2B"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 21,
+      "tier": "Strong Pass"
+    },
+    "vinod-khosla": {
+      "score": 34,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 27,
+    "EG": 34,
+    "NR": 40,
+    "PG": 41,
+    "PT": 27,
+    "SL": 21,
+    "VK": 34
+  },
+  "consolidatedAvg": 32,
+  "consolidatedRank": 153,
+  "paths": {
+    "memo": "winter2026/memos/o11.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/o11.md",
+      "elad-gil": "winter2026/evals/elad-gil/o11.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/o11.md",
+      "paul-graham": "winter2026/evals/paul-graham/o11.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/o11.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/o11.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/o11.md"
+    }
+  }
+}

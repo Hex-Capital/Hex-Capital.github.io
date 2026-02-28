@@ -1,0 +1,76 @@
+{
+  "slug": "moda",
+  "name": "Moda",
+  "oneLiner": "The monitoring & analytics layer your AI agents need.",
+  "metadata": {
+    "website": "https://usemoda.ai",
+    "yc_page": "https://www.ycombinator.com/companies/moda",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, SaaS, Analytics, Infrastructure",
+    "yc_partner": "Ankit Gupta",
+    "emails": "pranav.bedi@uwaterloo.ca (GitHub profile); no official business email found on website or YC page"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "SaaS",
+    "Analytics",
+    "Infrastructure"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 24,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 26,
+      "tier": "Strong Pass"
+    },
+    "vinod-khosla": {
+      "score": 35,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 32,
+    "EG": 40,
+    "NR": 43,
+    "PG": 50,
+    "PT": 24,
+    "SL": 26,
+    "VK": 35
+  },
+  "consolidatedAvg": 35.71,
+  "consolidatedRank": 117,
+  "paths": {
+    "memo": "winter2026/memos/moda.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/moda.md",
+      "elad-gil": "winter2026/evals/elad-gil/moda.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/moda.md",
+      "paul-graham": "winter2026/evals/paul-graham/moda.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/moda.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/moda.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/moda.md"
+    }
+  }
+}

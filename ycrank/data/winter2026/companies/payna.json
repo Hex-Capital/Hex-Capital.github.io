@@ -1,0 +1,72 @@
+{
+  "slug": "payna",
+  "name": "Payna",
+  "oneLiner": "Crypto/fintech compliance simplified.",
+  "metadata": {
+    "website": "https://paena.co/",
+    "yc_page": "https://www.ycombinator.com/companies/payna",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Finance and Accounting",
+    "team_size": "0",
+    "location": "San Francisco, CA (web3.career job posting)",
+    "tags": "Finance, B2B"
+  },
+  "tags": [
+    "Finance",
+    "B2B"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 46,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 47,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 49,
+    "EG": 33,
+    "NR": 46,
+    "PG": 37,
+    "PT": 29,
+    "SL": 43,
+    "VK": 47
+  },
+  "consolidatedAvg": 40.57,
+  "consolidatedRank": 73,
+  "paths": {
+    "memo": "winter2026/memos/payna.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/payna.md",
+      "elad-gil": "winter2026/evals/elad-gil/payna.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/payna.md",
+      "paul-graham": "winter2026/evals/paul-graham/payna.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/payna.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/payna.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/payna.md"
+    }
+  }
+}

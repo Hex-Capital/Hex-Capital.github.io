@@ -1,0 +1,75 @@
+{
+  "slug": "10x-science",
+  "name": "10x Science",
+  "oneLiner": "The AI-native platform for next-generation protein characterization.",
+  "metadata": {
+    "website": "https://10xscience.com",
+    "yc_page": "https://www.ycombinator.com/companies/10x-science",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "SaaS, B2B, Biotech, Enterprise Software, AI"
+  },
+  "tags": [
+    "SaaS",
+    "B2B",
+    "Biotech",
+    "Enterprise Software",
+    "AI"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 68,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 50,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 44,
+    "EG": 59,
+    "NR": 68,
+    "PG": 56,
+    "PT": 48,
+    "SL": 40,
+    "VK": 50
+  },
+  "consolidatedAvg": 52.14,
+  "consolidatedRank": 15,
+  "paths": {
+    "memo": "winter2026/memos/10x-science.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/10x-science.md",
+      "elad-gil": "winter2026/evals/elad-gil/10x-science.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/10x-science.md",
+      "paul-graham": "winter2026/evals/paul-graham/10x-science.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/10x-science.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/10x-science.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/10x-science.md"
+    }
+  }
+}

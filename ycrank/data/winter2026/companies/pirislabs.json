@@ -1,0 +1,75 @@
+{
+  "slug": "pirislabs",
+  "name": "Piris Labs",
+  "oneLiner": "Inference at Light Speed",
+  "metadata": {
+    "website": "https://pirislabs.io/",
+    "yc_page": "https://www.ycombinator.com/companies/pirislabs",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Hard Tech, B2B, Cloud Computing, AI, Networks"
+  },
+  "tags": [
+    "Hard Tech",
+    "B2B",
+    "Cloud Computing",
+    "AI",
+    "Networks"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 63,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 40,
+    "EG": 33,
+    "NR": 59,
+    "PG": 37,
+    "PT": 41,
+    "SL": 46,
+    "VK": 63
+  },
+  "consolidatedAvg": 45.57,
+  "consolidatedRank": 42,
+  "paths": {
+    "memo": "winter2026/memos/pirislabs.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/pirislabs.md",
+      "elad-gil": "winter2026/evals/elad-gil/pirislabs.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/pirislabs.md",
+      "paul-graham": "winter2026/evals/paul-graham/pirislabs.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/pirislabs.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/pirislabs.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/pirislabs.md"
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "sitefire",
+  "name": "sitefire",
+  "oneLiner": "Marketing suite for the agentic web",
+  "metadata": {
+    "website": "https://sitefire.ai",
+    "yc_page": "https://www.ycombinator.com/companies/sitefire",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Marketing",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Generative AI, Marketing, Search"
+  },
+  "tags": [
+    "Generative AI",
+    "Marketing",
+    "Search"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 35,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 30,
+    "EG": 38,
+    "NR": 37,
+    "PG": 41,
+    "PT": 28,
+    "SL": 26,
+    "VK": 35
+  },
+  "consolidatedAvg": 33.57,
+  "consolidatedRank": 140,
+  "paths": {
+    "memo": "winter2026/memos/sitefire.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/sitefire.md",
+      "elad-gil": "winter2026/evals/elad-gil/sitefire.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/sitefire.md",
+      "paul-graham": "winter2026/evals/paul-graham/sitefire.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/sitefire.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/sitefire.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/sitefire.md"
+    }
+  }
+}

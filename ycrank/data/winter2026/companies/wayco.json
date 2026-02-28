@@ -1,0 +1,75 @@
+{
+  "slug": "wayco",
+  "name": "Wayco",
+  "oneLiner": "AI operator for legal case referrals",
+  "metadata": {
+    "website": "https://wayco.ai",
+    "yc_page": "https://www.ycombinator.com/companies/wayco",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Legal",
+    "team_size": "1",
+    "location": "New York (website also notes \"Built in Tajikistan + New York\")",
+    "tags": "Marketplace, LegalTech, Call Center",
+    "yc_partner": "Jared Friedman",
+    "emails": "iqbol@wayco.ai (LinkedIn profile via search snippet)"
+  },
+  "tags": [
+    "Marketplace",
+    "LegalTech",
+    "Call Center"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 42,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 52,
+    "EG": 45,
+    "NR": 39,
+    "PG": 39,
+    "PT": 36,
+    "SL": 39,
+    "VK": 42
+  },
+  "consolidatedAvg": 41.71,
+  "consolidatedRank": 65,
+  "paths": {
+    "memo": "winter2026/memos/wayco.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/wayco.md",
+      "elad-gil": "winter2026/evals/elad-gil/wayco.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/wayco.md",
+      "paul-graham": "winter2026/evals/paul-graham/wayco.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/wayco.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/wayco.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/wayco.md"
+    }
+  }
+}

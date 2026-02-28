@@ -1,0 +1,71 @@
+{
+  "slug": "doomersion",
+  "name": "Doomersion",
+  "oneLiner": "Doomscroll to learn languages",
+  "metadata": {
+    "website": "https://doomersion.com/",
+    "yc_page": "https://www.ycombinator.com/companies/doomersion",
+    "batch": "Winter 2026",
+    "industry": "Consumer / Consumer",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA; Remote",
+    "tags": "Education"
+  },
+  "tags": [
+    "Education"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 34,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 38,
+    "EG": 31,
+    "NR": 44,
+    "PG": 51,
+    "PT": 26,
+    "SL": 27,
+    "VK": 34
+  },
+  "consolidatedAvg": 35.86,
+  "consolidatedRank": 112,
+  "paths": {
+    "memo": "winter2026/memos/doomersion.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/doomersion.md",
+      "elad-gil": "winter2026/evals/elad-gil/doomersion.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/doomersion.md",
+      "paul-graham": "winter2026/evals/paul-graham/doomersion.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/doomersion.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/doomersion.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/doomersion.md"
+    }
+  }
+}

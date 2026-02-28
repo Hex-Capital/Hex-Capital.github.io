@@ -1,0 +1,73 @@
+{
+  "slug": "catchback-cards",
+  "name": "CatchBack Cards",
+  "oneLiner": "a platform for maximizing the thrill of collecting trading cards",
+  "metadata": {
+    "website": "https://catchbackcards.com",
+    "yc_page": "https://www.ycombinator.com/companies/catchback-cards",
+    "batch": "Winter 2026",
+    "industry": "Consumer / Consumer -> Gaming",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Crypto / Web3, Consumer, NFT"
+  },
+  "tags": [
+    "Crypto / Web3",
+    "Consumer",
+    "NFT"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 34,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 34,
+    "EG": 37,
+    "NR": 37,
+    "PG": 53,
+    "PT": 27,
+    "SL": 37,
+    "VK": 34
+  },
+  "consolidatedAvg": 37,
+  "consolidatedRank": 100,
+  "paths": {
+    "memo": "winter2026/memos/catchback-cards.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/catchback-cards.md",
+      "elad-gil": "winter2026/evals/elad-gil/catchback-cards.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/catchback-cards.md",
+      "paul-graham": "winter2026/evals/paul-graham/catchback-cards.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/catchback-cards.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/catchback-cards.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/catchback-cards.md"
+    }
+  }
+}

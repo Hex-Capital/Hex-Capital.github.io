@@ -1,0 +1,75 @@
+{
+  "slug": "runanywhere",
+  "name": "RunAnywhere",
+  "oneLiner": "The default way of running On-Device AI at Scale",
+  "metadata": {
+    "website": "https://www.runanywhere.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/runanywhere",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "2",
+    "location": "No public data found (Tracxn lists Bengaluru, India; via search snippet)",
+    "tags": "Artificial Intelligence, Developer Tools, IoT, Open Source, Enterprise"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "IoT",
+    "Open Source",
+    "Enterprise"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 34,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 32,
+    "EG": 50,
+    "NR": 41,
+    "PG": 48,
+    "PT": 28,
+    "SL": 31,
+    "VK": 34
+  },
+  "consolidatedAvg": 37.71,
+  "consolidatedRank": 94,
+  "paths": {
+    "memo": "winter2026/memos/runanywhere.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/runanywhere.md",
+      "elad-gil": "winter2026/evals/elad-gil/runanywhere.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/runanywhere.md",
+      "paul-graham": "winter2026/evals/paul-graham/runanywhere.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/runanywhere.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/runanywhere.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/runanywhere.md"
+    }
+  }
+}

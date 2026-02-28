@@ -1,0 +1,72 @@
+{
+  "slug": "general-legal",
+  "name": "General Legal",
+  "oneLiner": "The AI native law firm for growth stage companies",
+  "metadata": {
+    "website": "https://general.legal",
+    "yc_page": "https://www.ycombinator.com/companies/general-legal",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Legal",
+    "team_size": "3",
+    "location": "No public data found",
+    "tags": "Legal, LegalTech"
+  },
+  "tags": [
+    "Legal",
+    "LegalTech"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 70,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 42,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 45,
+    "EG": 55,
+    "NR": 57,
+    "PG": 70,
+    "PT": 37,
+    "SL": 35,
+    "VK": 42
+  },
+  "consolidatedAvg": 48.71,
+  "consolidatedRank": 25,
+  "paths": {
+    "memo": "winter2026/memos/general-legal.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/general-legal.md",
+      "elad-gil": "winter2026/evals/elad-gil/general-legal.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/general-legal.md",
+      "paul-graham": "winter2026/evals/paul-graham/general-legal.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/general-legal.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/general-legal.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/general-legal.md"
+    }
+  }
+}

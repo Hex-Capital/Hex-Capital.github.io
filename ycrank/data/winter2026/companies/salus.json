@@ -1,0 +1,75 @@
+{
+  "slug": "salus",
+  "name": "Salus",
+  "oneLiner": "Guardrails to validate your agent's actions before they execute",
+  "metadata": {
+    "website": "https://www.usesalus.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/salus",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Developer Tools, B2B, API, Infrastructure, AI"
+  },
+  "tags": [
+    "Developer Tools",
+    "B2B",
+    "API",
+    "Infrastructure",
+    "AI"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 38,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 27,
+    "EG": 39,
+    "NR": 42,
+    "PG": 37,
+    "PT": 26,
+    "SL": 29,
+    "VK": 38
+  },
+  "consolidatedAvg": 34,
+  "consolidatedRank": 136,
+  "paths": {
+    "memo": "winter2026/memos/salus.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/salus.md",
+      "elad-gil": "winter2026/evals/elad-gil/salus.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/salus.md",
+      "paul-graham": "winter2026/evals/paul-graham/salus.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/salus.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/salus.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/salus.md"
+    }
+  }
+}

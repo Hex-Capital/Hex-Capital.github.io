@@ -1,0 +1,24 @@
+﻿# FullSeam -- Cyan Banister Evaluation
+
+Here's what I keep coming back to with FullSeam: this is a team that everybody should want to back, building in a category that I have no business investing in. "AI agents for accounting" is possibly the most consensus idea in enterprise software right now. Bill.com has already shipped its own AI Agents product. Tipalti just raised $200 million specifically earmarked for AI capabilities. Every accelerator demo day has some version of this pitch. When I say the most promising companies are not popular and are difficult to assess, FullSeam is the precise inverse -- it's extremely popular and extremely easy to assess. The category is so well-understood that incumbents with billions in revenue are already competing in it. That's not where I find my best investments. The weirdness has been arbitraged away before the company even launched.
+
+Now, the team itself -- I want to be honest about this because the co-founder story is genuinely compelling. Tom, Geoff, and Aaron built TaxProper together out of UIUC, went through YC in S19, grew it to process over a billion dollars a year in property tax payments, sold it to Opendoor, stayed together through the acquisition, and then came back to build again. That trajectory tells me they can ship real financial software, handle enterprise complexity, and survive the emotional crucible of building and selling a company without blowing apart. After what I saw happen with HQ Trivia -- a product that had everything going for it except co-founder alignment -- I never take team resilience for granted. These three have been tested in ways that most founding teams at this stage haven't. That matters.
+
+But when I ask myself the question I always ask -- tell me your story, not the business, how did you get here? -- what I hear is a team of accomplished professionals who noticed an operational pain point at their previous company and decided to build a solution for it. Tom is a Rhodes Scholar who advised the Mayor of Chicago. Geoff is a former State Farm actuary. Aaron has a Stanford MBA. These are impressive credentials, but they're establishment credentials. There's no survival narrative connecting these founders to this specific problem in a way that would keep them in the fight when the first two years get brutal and Tipalti is outspending them a hundred to one on AI features. The biographical connection is professional, not personal -- they experienced AR/AP friction at TaxProper, and that's valid, but it's a different kind of fuel than the founders I tend to back, the ones who are solving something that life forced them to understand at a bone-deep level.
+
+The bull case I want to genuinely engage with: the cross-platform agent approach is a structurally interesting insight. Bill.com can't easily build an agent that automates across Bill.com, Stripe, QuickBooks, and NetSuite simultaneously, because that would undermine the platform lock-in that generates its payment processing revenue. FullSeam is positioned in a gap that incumbents are incentivized not to fill, which is a real moat -- the kind of structural dynamic I respect. If the team can execute on reliable cross-tool automation before the LLM capability floor rises high enough that every accounting platform just builds this natively, there's a meaningful window. And the switching costs compound over time as companies configure GL mappings, approval workflows, and vendor templates. For an investor whose framework centers on market size, execution capability, and structural competitive advantage, this is probably a 65-75 score. But that's not my framework.
+
+What I don't see here is what I uniquely look for: a company making invisible systems visible, creating economic access for people who currently lack it, or operating in a space so stigmatized or misunderstood that other investors won't touch it. FullSeam automates existing, well-understood financial workflows for mid-market companies. It makes things faster, not more transparent. Compare this to Carta, which revealed cap table information that was deliberately obscured, or Affirm, which exposed the hidden costs of consumer credit. FullSeam is an efficiency tool, and efficiency tools are valuable, but they don't give me that jolt of intuitive energy -- the feeling that this company could restructure how the world works for people who currently get a raw deal. I'm passing, with genuine respect for what this team has built before and will likely build again.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Biographical Grit and Personal Stake | 12/30 |
+| Anti-Consensus Conviction and Weird Factor | 5/25 |
+| Economic Access and Real-World Impact | 6/20 |
+| Navigating Complexity in Hard Spaces | 7/15 |
+| Co-Founder Alignment and Team Resilience | 9/10 |
+| **Total** | **39/100** |
+
+**Total Score: 39/100** (Pass)

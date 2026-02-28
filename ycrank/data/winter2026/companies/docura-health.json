@@ -1,0 +1,73 @@
+{
+  "slug": "docura-health",
+  "name": "Docura Health",
+  "oneLiner": "AI-Native Medico-Legal Firm",
+  "metadata": {
+    "website": "https://docurahealth.com",
+    "yc_page": "https://www.ycombinator.com/companies/docura-health",
+    "batch": "Winter 2026",
+    "industry": "Healthcare / Healthcare",
+    "team_size": "1",
+    "location": "San Francisco, CA, USA",
+    "tags": "Health Tech, Legal, Insurance"
+  },
+  "tags": [
+    "Health Tech",
+    "Legal",
+    "Insurance"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 22,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 26,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 30,
+    "EG": 37,
+    "NR": 35,
+    "PG": 43,
+    "PT": 31,
+    "SL": 22,
+    "VK": 26
+  },
+  "consolidatedAvg": 32,
+  "consolidatedRank": 152,
+  "paths": {
+    "memo": "winter2026/memos/docura-health.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/docura-health.md",
+      "elad-gil": "winter2026/evals/elad-gil/docura-health.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/docura-health.md",
+      "paul-graham": "winter2026/evals/paul-graham/docura-health.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/docura-health.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/docura-health.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/docura-health.md"
+    }
+  }
+}

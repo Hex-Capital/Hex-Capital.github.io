@@ -1,0 +1,73 @@
+{
+  "slug": "travo",
+  "name": "Travo",
+  "oneLiner": "We use AI to collect and analyze real estate data",
+  "metadata": {
+    "website": "https://www.travoai.com/",
+    "yc_page": "https://www.ycombinator.com/companies/travo",
+    "batch": "Winter 2026",
+    "industry": "Real Estate and Construction / Real Estate and Construction",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Real Estate, AI"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Real Estate",
+    "AI"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 31,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 31,
+    "EG": 37,
+    "NR": 34,
+    "PG": 39,
+    "PT": 31,
+    "SL": 30,
+    "VK": 31
+  },
+  "consolidatedAvg": 33.29,
+  "consolidatedRank": 144,
+  "paths": {
+    "memo": "winter2026/memos/travo.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/travo.md",
+      "elad-gil": "winter2026/evals/elad-gil/travo.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/travo.md",
+      "paul-graham": "winter2026/evals/paul-graham/travo.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/travo.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/travo.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/travo.md"
+    }
+  }
+}

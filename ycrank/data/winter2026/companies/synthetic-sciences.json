@@ -1,0 +1,75 @@
+{
+  "slug": "synthetic-sciences",
+  "name": "Synthetic Sciences",
+  "oneLiner": "AI co-scientists that run research end-to-end",
+  "metadata": {
+    "website": "https://syntheticsciences.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/synthetic-sciences",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "2",
+    "location": "San Francisco (dnyuz.com, Feb 2026)",
+    "tags": "Developer Tools, Reinforcement Learning, Workflow Automation",
+    "yc_partner": "Gustaf Alstromer",
+    "emails": "team@syntheticsciences.ai (company website)"
+  },
+  "tags": [
+    "Developer Tools",
+    "Reinforcement Learning",
+    "Workflow Automation"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 46,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 36,
+    "EG": 41,
+    "NR": 50,
+    "PG": 49,
+    "PT": 31,
+    "SL": 30,
+    "VK": 46
+  },
+  "consolidatedAvg": 40.43,
+  "consolidatedRank": 74,
+  "paths": {
+    "memo": "winter2026/memos/synthetic-sciences.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/synthetic-sciences.md",
+      "elad-gil": "winter2026/evals/elad-gil/synthetic-sciences.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/synthetic-sciences.md",
+      "paul-graham": "winter2026/evals/paul-graham/synthetic-sciences.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/synthetic-sciences.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/synthetic-sciences.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/synthetic-sciences.md"
+    }
+  }
+}

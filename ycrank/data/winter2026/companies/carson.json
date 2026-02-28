@@ -1,0 +1,75 @@
+{
+  "slug": "carson",
+  "name": "Carson",
+  "oneLiner": "more capable than Cowork, more secure than OpenClaw",
+  "metadata": {
+    "website": "https://usecarson.com",
+    "yc_page": "https://www.ycombinator.com/companies/carson",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "Productivity, Security, Enterprise, AI, AI Assistant"
+  },
+  "tags": [
+    "Productivity",
+    "Security",
+    "Enterprise",
+    "AI",
+    "AI Assistant"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 23,
+      "tier": "Strong Pass"
+    },
+    "vinod-khosla": {
+      "score": 35,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 29,
+    "EG": 37,
+    "NR": 37,
+    "PG": 41,
+    "PT": 29,
+    "SL": 23,
+    "VK": 35
+  },
+  "consolidatedAvg": 33,
+  "consolidatedRank": 145,
+  "paths": {
+    "memo": "winter2026/memos/carson.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/carson.md",
+      "elad-gil": "winter2026/evals/elad-gil/carson.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/carson.md",
+      "paul-graham": "winter2026/evals/paul-graham/carson.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/carson.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/carson.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/carson.md"
+    }
+  }
+}

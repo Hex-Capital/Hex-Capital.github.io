@@ -1,0 +1,75 @@
+{
+  "slug": "veriad",
+  "name": "Veriad",
+  "oneLiner": "AI compliance officers",
+  "metadata": {
+    "website": "https://veriad.com",
+    "yc_page": "https://www.ycombinator.com/companies/veriad",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "B2B, Compliance, Marketing",
+    "yc_partner": "Jon Xu",
+    "emails": "rohan@veriad.ai, anton@veriad.ai (YC page and company website)"
+  },
+  "tags": [
+    "B2B",
+    "Compliance",
+    "Marketing"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 32,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 32,
+    "EG": 43,
+    "NR": 40,
+    "PG": 47,
+    "PT": 30,
+    "SL": 26,
+    "VK": 32
+  },
+  "consolidatedAvg": 35.71,
+  "consolidatedRank": 119,
+  "paths": {
+    "memo": "winter2026/memos/veriad.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/veriad.md",
+      "elad-gil": "winter2026/evals/elad-gil/veriad.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/veriad.md",
+      "paul-graham": "winter2026/evals/paul-graham/veriad.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/veriad.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/veriad.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/veriad.md"
+    }
+  }
+}

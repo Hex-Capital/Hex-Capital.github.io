@@ -1,0 +1,74 @@
+{
+  "slug": "octapulse",
+  "name": "OctaPulse",
+  "oneLiner": "Robotics and computer vision to automate fish farming from hatchery?",
+  "metadata": {
+    "website": "https://www.tryoctapulse.com/",
+    "yc_page": "https://www.ycombinator.com/companies/octapulse",
+    "batch": "Winter 2026",
+    "industry": "Industrials / Industrials -> Climate",
+    "team_size": "2",
+    "location": "Pittsburgh, PA (PitchBook, 2025 via search snippet)",
+    "tags": "Robotics, Computer Vision, Food Tech, Maritime"
+  },
+  "tags": [
+    "Robotics",
+    "Computer Vision",
+    "Food Tech",
+    "Maritime"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 42,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 39,
+    "EG": 50,
+    "NR": 39,
+    "PG": 55,
+    "PT": 34,
+    "SL": 36,
+    "VK": 42
+  },
+  "consolidatedAvg": 42.14,
+  "consolidatedRank": 62,
+  "paths": {
+    "memo": "winter2026/memos/octapulse.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/octapulse.md",
+      "elad-gil": "winter2026/evals/elad-gil/octapulse.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/octapulse.md",
+      "paul-graham": "winter2026/evals/paul-graham/octapulse.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/octapulse.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/octapulse.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/octapulse.md"
+    }
+  }
+}

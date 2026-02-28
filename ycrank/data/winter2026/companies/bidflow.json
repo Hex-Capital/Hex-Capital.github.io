@@ -1,0 +1,74 @@
+{
+  "slug": "bidflow",
+  "name": "Bidflow",
+  "oneLiner": "AI Copilot for Electrical Estimating",
+  "metadata": {
+    "website": "https://usebidflow.com",
+    "yc_page": "https://www.ycombinator.com/companies/bidflow",
+    "batch": "Winter 2026",
+    "industry": "Real Estate and Construction / Construction",
+    "team_size": "2",
+    "location": "New York, NY, USA",
+    "tags": "SaaS, Construction, Infrastructure, AI Assistant"
+  },
+  "tags": [
+    "SaaS",
+    "Construction",
+    "Infrastructure",
+    "AI Assistant"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 41,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 50,
+    "EG": 51,
+    "NR": 40,
+    "PG": 52,
+    "PT": 37,
+    "SL": 32,
+    "VK": 41
+  },
+  "consolidatedAvg": 43.29,
+  "consolidatedRank": 52,
+  "paths": {
+    "memo": "winter2026/memos/bidflow.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/bidflow.md",
+      "elad-gil": "winter2026/evals/elad-gil/bidflow.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/bidflow.md",
+      "paul-graham": "winter2026/evals/paul-graham/bidflow.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/bidflow.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/bidflow.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/bidflow.md"
+    }
+  }
+}

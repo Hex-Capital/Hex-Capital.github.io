@@ -1,0 +1,26 @@
+﻿# Burt -- Paul Graham Evaluation
+
+The first thing I notice about Burt is that it can't decide what it is. The YC page says "help teams train and deploy models specialized for their domain." The website says "AI automation built for logistics." These are fundamentally different businesses. One is a horizontal picks-and-shovels play for ML teams. The other is a vertical SaaS product for logistics operators. A company that presents two different identities to two different audiences is almost always a company that hasn't found the problem yet. They built a capability -- fine-tuning small models -- and are shopping it around looking for where it sticks. This is the solution-in-search-of-a-problem pattern, which is the inverse of how the best startups work.
+
+When I ask my first question -- "how did the founders find this problem?" -- I don't see an answer. Bobby Zhong built coding agents at Replo. That gives him real hands-on LLM experience, which is worth something. But there's no story about him personally drowning in inference costs at scale, no moment where fine-tuning was the obvious solution to a problem he couldn't escape. And there's certainly no story connecting him to logistics back-office work. The logistics pivot especially concerns me. If Bobby had spent years watching freight brokers manually re-key invoice data and thought "I can't stand this anymore," that would be organic. Instead it reads like they tried the horizontal platform, found it crowded, and picked a vertical that seemed promising. That's market analysis, not lived experience.
+
+The competitive landscape is the other thing that should worry anyone looking at this. Fine-tuning is not a schlep-blind problem. It's the opposite -- it's a problem that hundreds of well-funded engineers find intellectually exciting. Together AI has raised $534 million. Fireworks AI has raised $327 million. Lamini has $25 million. Unsloth makes it free. And Predibase, which was the most direct comparable -- a standalone fine-tuning platform -- got acquired by Rubrik for roughly $100 million after raising $28 million. That acquisition is a signal. It suggests the standalone fine-tuning business gets absorbed into larger platforms rather than surviving independently. When the most successful version of your category is a $100 million acquisition after $28 million raised, the ceiling for a two-person pre-seed team is structurally constrained.
+
+The strongest bull case for Burt is that the logistics pivot is actually the right move, and the founders are early enough to commit fully. Logistics genuinely has schlep -- BOLs, rate confirmations, invoices, the whole ugly paper trail that nobody wants to digitize. If Bobby and Kurt went deep into a single logistics company's back-office, understood every document type, and built models that eliminated manual data entry with genuine accuracy, that could be a real business. The "~3x faster than Gemini with better accuracy" claim in the case study, if it holds, demonstrates that specialized small models can outperform general-purpose ones for specific workflows -- and that's a real technical insight with economic value. A two-person team doing founder-led sales through Cal.com is at least the right motion for this stage. The question is whether these specific founders have the domain conviction to commit to logistics for the next five years, or whether they'll pivot again when the next vertical looks shinier.
+
+Bobby is a real builder -- 29 GitHub repos, founding engineer at a YC company, hands-on with Python and TypeScript. That counts for something. But the CTO is a ghost. No LinkedIn, no GitHub, no public footprint at all for someone named Kurt Sharma at Burt. For a company whose entire value proposition is technical excellence in model fine-tuning, having a CTO with zero visible technical presence is uncomfortable. If Kurt is actually "Kartavya Sharma" from Replo, at least they were colleagues, which is better than co-founders who met last month. But the lack of any public signal makes it impossible to assess whether the CTO can actually build what this company is selling.
+
+I keep coming back to the origin. The best companies I've funded started because the founders couldn't stop working on the problem. Drew Houston kept forgetting his USB drive. The Collisons couldn't believe how hard it was to accept payments online. The Airbnb founders literally needed their rent money. With Burt, I see smart young engineers who noticed that fine-tuning is a thing and decided to start a company around it. That's not a fatal flaw -- people pivot into great companies sometimes. But it means I'm betting purely on founder potential in a brutally competitive market with no organic edge, no schlep advantage, and no evidence of genuine user pull beyond one unnamed case study. That's not a bet I'd make with my own money at this stage.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Organic Problem Discovery and Schlep Willingness | 6/30 |
+| Relentlessly Resourceful Founders | 11/25 |
+| Evidence of Wanting: Demonstrated User Pull | 6/20 |
+| Technical Hacker Founders Who Build | 8/15 |
+| Growth Trajectory and Default Alive Economics | 4/10 |
+| **Total** | **35/100** |
+
+**Total Score: 35/100** (Pass)

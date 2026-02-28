@@ -1,0 +1,74 @@
+{
+  "slug": "autositu",
+  "name": "AutoSitu",
+  "oneLiner": "AI-native workspace for municipal development review",
+  "metadata": {
+    "website": "https://autositu.com/",
+    "yc_page": "https://www.ycombinator.com/companies/autositu",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Legal",
+    "team_size": "2",
+    "location": "No public data found",
+    "tags": "Generative AI, GovTech, Real Estate, LegalTech"
+  },
+  "tags": [
+    "Generative AI",
+    "GovTech",
+    "Real Estate",
+    "LegalTech"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 68,
+      "tier": "Invest"
+    },
+    "naval-ravikant": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 64,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 42,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 46,
+    "EG": 68,
+    "NR": 52,
+    "PG": 64,
+    "PT": 41,
+    "SL": 38,
+    "VK": 42
+  },
+  "consolidatedAvg": 50.14,
+  "consolidatedRank": 18,
+  "paths": {
+    "memo": "winter2026/memos/autositu.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/autositu.md",
+      "elad-gil": "winter2026/evals/elad-gil/autositu.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/autositu.md",
+      "paul-graham": "winter2026/evals/paul-graham/autositu.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/autositu.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/autositu.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/autositu.md"
+    }
+  }
+}

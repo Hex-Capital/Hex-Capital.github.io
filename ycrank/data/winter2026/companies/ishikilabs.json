@@ -1,0 +1,30 @@
+{
+  "slug": "ishikilabs",
+  "name": "Fern (Formerly Ishiki Labs)",
+  "oneLiner": "Realtime AI starting with sales",
+  "metadata": {
+    "website": "https://www.ishikilabs.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/ishikilabs",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "No public data found",
+    "tags": "Deep Learning, Generative AI, AI",
+    "yc_partner": "Gustaf Alstromer",
+    "emails": "team@ishikilabs.ai (YC company page)"
+  },
+  "tags": [
+    "Deep Learning",
+    "Generative AI",
+    "AI"
+  ],
+  "slideImage": null,
+  "evalScores": {},
+  "consolidatedScores": {},
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
+  "paths": {
+    "memo": "winter2026/memos/ishikilabs.md",
+    "evals": {}
+  }
+}

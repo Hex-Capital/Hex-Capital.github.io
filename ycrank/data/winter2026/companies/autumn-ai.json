@@ -1,0 +1,74 @@
+{
+  "slug": "autumn-ai",
+  "name": "Autumn AI",
+  "oneLiner": "Stalk your prospects at scale.",
+  "metadata": {
+    "website": "https://autumnai.com",
+    "yc_page": "https://www.ycombinator.com/companies/autumn-ai",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Sales, Search, AI Assistant"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Sales",
+    "Search",
+    "AI Assistant"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 25,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 24,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 24,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 28,
+    "EG": 32,
+    "NR": 34,
+    "PG": 44,
+    "PT": 25,
+    "SL": 24,
+    "VK": 24
+  },
+  "consolidatedAvg": 30.14,
+  "consolidatedRank": 164,
+  "paths": {
+    "memo": "winter2026/memos/autumn-ai.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/autumn-ai.md",
+      "elad-gil": "winter2026/evals/elad-gil/autumn-ai.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/autumn-ai.md",
+      "paul-graham": "winter2026/evals/paul-graham/autumn-ai.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/autumn-ai.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/autumn-ai.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/autumn-ai.md"
+    }
+  }
+}

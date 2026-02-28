@@ -1,0 +1,77 @@
+{
+  "slug": "grazemate",
+  "name": "GrazeMate",
+  "oneLiner": "Robot Cowboys that Herd Cattle with AI Drones",
+  "metadata": {
+    "website": "https://grazemate.com",
+    "yc_page": "https://www.ycombinator.com/companies/grazemate",
+    "batch": "Winter 2026",
+    "industry": "Industrials / Industrials -> Agriculture",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "Livestock Health, Reinforcement Learning, Robotics, Drones, Sustainable Agriculture",
+    "yc_partner": "Tyler Bosmeny",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Livestock Health",
+    "Reinforcement Learning",
+    "Robotics",
+    "Drones",
+    "Sustainable Agriculture"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 68,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 60,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 67,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 72,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 65,
+      "tier": "Invest"
+    },
+    "vinod-khosla": {
+      "score": 65,
+      "tier": "Invest"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 68,
+    "EG": 60,
+    "NR": 67,
+    "PG": 72,
+    "PT": 54,
+    "SL": 65,
+    "VK": 65
+  },
+  "consolidatedAvg": 64.43,
+  "consolidatedRank": 2,
+  "paths": {
+    "memo": "winter2026/memos/grazemate.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/grazemate.md",
+      "elad-gil": "winter2026/evals/elad-gil/grazemate.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/grazemate.md",
+      "paul-graham": "winter2026/evals/paul-graham/grazemate.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/grazemate.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/grazemate.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/grazemate.md"
+    }
+  }
+}

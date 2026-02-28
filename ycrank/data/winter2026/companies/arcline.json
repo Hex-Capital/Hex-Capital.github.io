@@ -1,0 +1,68 @@
+{
+  "slug": "arcline",
+  "name": "Arcline",
+  "oneLiner": "Startup legal work handled by elite lawyers & same-day turnaround",
+  "metadata": {
+    "website": "https://www.arcline-ai.com/",
+    "yc_page": "https://www.ycombinator.com/companies/arcline",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Legal",
+    "team_size": "5",
+    "location": "Oslo, Norway and Silicon Valley (Shifter.no)"
+  },
+  "tags": [],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 38,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 44,
+    "EG": 43,
+    "NR": 50,
+    "PG": 58,
+    "PT": 34,
+    "SL": 36,
+    "VK": 38
+  },
+  "consolidatedAvg": 43.29,
+  "consolidatedRank": 51,
+  "paths": {
+    "memo": "winter2026/memos/arcline.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/arcline.md",
+      "elad-gil": "winter2026/evals/elad-gil/arcline.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/arcline.md",
+      "paul-graham": "winter2026/evals/paul-graham/arcline.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/arcline.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/arcline.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/arcline.md"
+    }
+  }
+}

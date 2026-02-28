@@ -1,0 +1,26 @@
+﻿# Bits -- Paul Graham Evaluation
+
+Six managed OpenClaw hosting companies launched within weeks of each other. That single fact tells you almost everything you need to know. When six different teams independently identify the same opportunity at the same moment, you're not looking at schlep blindness -- you're looking at the opposite. This is an idea so obvious that nobody unconsciously filtered it out. The OpenClaw GitHub repo hit 214,000 stars and within days, multiple teams thought "we should host this for people." That's not how Stripe happened. Payments were broken for a decade before the Collisons walked into the banks. The problem Bits is solving was invisible to no one for approximately zero weeks.
+
+The origin question is where this falls apart for me. How did Robbie and Bailey find this problem? They worked together at Console, an AI agent startup that raised $22M. So they have domain adjacency -- they've built agent infrastructure before. But managed OpenClaw hosting isn't a problem they've been living with for years. It's a problem that literally didn't exist until late January 2026. When I look at the strongest YC companies, the founders can point to years of accumulated frustration that led them to their idea. Drew Houston forgot his USB drive hundreds of times before building Dropbox. The Collisons processed payments as developers for years before building Stripe. Bits is a reaction to a trending open-source project, not an organic discovery. The idea could have been conceived by anyone who checked GitHub Trending that week -- and evidently, it was.
+
+The schlep here is thin. What does managed OpenClaw hosting actually require? Docker configuration, API key management, security hardening, integration wiring. A competent DevOps engineer can build this in a weekend. The proof is the market itself: LobsterTank offers it for $2/month using Firecracker microVMs. Clowdbot charges fifty cents per launch. When your competitor can profitably offer the product for two dollars, the underlying complexity isn't high enough to constitute a moat. Compare that to the years of banking relationships, fraud systems, and PCI compliance that kept competitors away from Stripe. The absence of schlep means the absence of a structural barrier, which means this becomes a race on execution in a commodity market. Commodity markets are exactly where startups lose to incumbents -- DigitalOcean, Hostinger, and OVHcloud already offer one-click OpenClaw deploys.
+
+The strongest bull case goes something like this: OpenClaw becomes the dominant personal AI agent, billions of people want one, and the market is so large that even a modest share of managed hosting makes Bits huge. The creator joining OpenAI creates a stability vacuum, and users flock to trusted managed providers. Bits, with YC backing and a "batteries-included" security story, wins the trust game. If that's the world, maybe this is like being the best WordPress hosting company in 2005 -- WP Engine eventually became a billion-dollar business. But WordPress hosting took a decade to consolidate, operated in a market where the underlying product was mature and stable, and WP Engine won through years of enterprise sales execution. The OpenClaw ecosystem is weeks old, the project just lost its creator to OpenAI, and the platform risk is existential. If OpenAI incorporates OpenClaw's capabilities natively, the need for third-party hosting evaporates overnight.
+
+I want to be fair to the founders. Bailey Wickham's GitHub shows genuine systems chops -- 102 repos including a Rust DNS client, a C container implementation, and a Go fuzzer. That's a real hacker. Robbie Thompson has the quantitative depth from Jane Street and the startup experience from Console. They worked together before, which matters -- I've seen too many teams with co-founders who met at a "find a co-founder" event. These two actually built things together. If they were attacking a problem with real schlep -- something in AI agent security infrastructure, or agent-to-agent coordination protocols, or compliance tooling for autonomous agents -- I'd be more interested. The team is better than the idea. But a good team on a commodity idea still produces a commodity outcome. The problem needs to be as strong as the founders, and this one isn't.
+
+The platform dependency compounds everything. Bits is entirely built on OpenClaw, an MIT-licensed project that just transferred to a foundation after its creator left for OpenAI. This is the kind of dependency that can kill a company overnight. Not because the project will disappear -- it won't -- but because any change in direction, licensing, or capability set directly controls Bits's product roadmap. And if OpenAI decides to offer hosted OpenClaw as a feature, Bits is competing with the company that employs the project's creator. That's not a bet I want to make with my own money.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Organic Problem Discovery and Schlep Willingness | 6/30 |
+| Relentlessly Resourceful Founders | 11/25 |
+| Evidence of Wanting: Demonstrated User Pull | 5/20 |
+| Technical Hacker Founders Who Build | 11/15 |
+| Growth Trajectory and Default Alive Economics | 4/10 |
+| **Total** | **37/100** |
+
+**Total Score: 37/100** (Pass)

@@ -1,0 +1,75 @@
+{
+  "slug": "tepali",
+  "name": "Tepali",
+  "oneLiner": "AI-native operating system for medspas",
+  "metadata": {
+    "website": "https://tepali.com",
+    "yc_page": "https://www.ycombinator.com/companies/tepali",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "No public data found",
+    "tags": "Artificial Intelligence, Fintech, SaaS, B2B, Healthcare"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Fintech",
+    "SaaS",
+    "B2B",
+    "Healthcare"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 23,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 21,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 27,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 26,
+    "EG": 35,
+    "NR": 32,
+    "PG": 38,
+    "PT": 23,
+    "SL": 21,
+    "VK": 27
+  },
+  "consolidatedAvg": 28.86,
+  "consolidatedRank": 170,
+  "paths": {
+    "memo": "winter2026/memos/tepali.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/tepali.md",
+      "elad-gil": "winter2026/evals/elad-gil/tepali.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/tepali.md",
+      "paul-graham": "winter2026/evals/paul-graham/tepali.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/tepali.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/tepali.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/tepali.md"
+    }
+  }
+}

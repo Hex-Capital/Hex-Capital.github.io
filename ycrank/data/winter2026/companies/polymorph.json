@@ -1,0 +1,77 @@
+{
+  "slug": "polymorph",
+  "name": "Polymorph",
+  "oneLiner": "Personalized notifs & attribution for consumer and self-serve apps",
+  "metadata": {
+    "website": "https://usepolymorph.com/",
+    "yc_page": "https://www.ycombinator.com/companies/polymorph",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B",
+    "team_size": "3",
+    "location": "No public data found",
+    "tags": "SaaS, B2B, Analytics, Marketing, AI",
+    "yc_partner": "Brad Flora",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "SaaS",
+    "B2B",
+    "Analytics",
+    "Marketing",
+    "AI"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 30,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 28,
+    "EG": 30,
+    "NR": 43,
+    "PG": 39,
+    "PT": 30,
+    "SL": 27,
+    "VK": 30
+  },
+  "consolidatedAvg": 32.43,
+  "consolidatedRank": 148,
+  "paths": {
+    "memo": "winter2026/memos/polymorph.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/polymorph.md",
+      "elad-gil": "winter2026/evals/elad-gil/polymorph.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/polymorph.md",
+      "paul-graham": "winter2026/evals/paul-graham/polymorph.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/polymorph.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/polymorph.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/polymorph.md"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "fullseam",
+  "name": "FullSeam",
+  "oneLiner": "FullSeam is an AI employee for finance and accounting teams.",
+  "metadata": {
+    "website": "https://fullseam.com",
+    "yc_page": "https://www.ycombinator.com/companies/fullseam",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Finance and Accounting",
+    "team_size": "3",
+    "location": "No public data found",
+    "tags": "Artificial Intelligence, FinOps, Fintech, SaaS"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "FinOps",
+    "Fintech",
+    "SaaS"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 38,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 39,
+    "EG": 51,
+    "NR": 48,
+    "PG": 56,
+    "PT": 36,
+    "SL": 29,
+    "VK": 38
+  },
+  "consolidatedAvg": 42.43,
+  "consolidatedRank": 58,
+  "paths": {
+    "memo": "winter2026/memos/fullseam.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/fullseam.md",
+      "elad-gil": "winter2026/evals/elad-gil/fullseam.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/fullseam.md",
+      "paul-graham": "winter2026/evals/paul-graham/fullseam.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/fullseam.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/fullseam.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/fullseam.md"
+    }
+  }
+}

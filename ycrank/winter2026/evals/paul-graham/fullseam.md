@@ -1,0 +1,28 @@
+﻿# FullSeam -- Paul Graham Evaluation
+
+The most interesting thing about FullSeam is the tension between the founders and the framing. The founders are exactly who you'd want attacking this problem: three people who ran TaxProper together through its entire lifecycle — from founding to processing over a billion dollars a year in property tax payments to getting acquired by Opendoor. They discovered the AR/AP pain firsthand while running their own accounting department. The framing, however — "AI employee for finance and accounting" — is indistinguishable from what you'd hear from fifty other startups pitching at any demo day this year. When the organic backstory is strong but the positioning is consensus, you have to figure out which signal is real.
+
+The organic discovery here is genuine. These founders didn't read a McKinsey report about the AR/AP automation market and decide to build an AI agent. They ran a financial operations company that serviced 115,000+ properties and watched their own accounting team drown in manual invoice matching, vendor follow-ups, and GL categorization. That's the kind of problem that grows out of lived experience, not a brainstorming session. The schlep is also real — integrating across QuickBooks, Stripe, Xero, NetSuite, Salesforce, and half a dozen other platforms, then handling the ugly edge cases of partial payments, invoice splits, and vendor-specific quirks. That kind of multi-system plumbing work is the exact type of tedious complexity most founders instinctively avoid. But here's where my framework gets complicated: this is not schlep blindness. Everyone can see this problem. Bill.com is a $1.5 billion revenue company. Tipalti just raised $200 million specifically for AI capabilities. Bill.com has already launched its own "AI Agents." The problem isn't hiding in plain sight — it's standing in the spotlight with a dozen well-funded companies pointing at it.
+
+What I keep weighing is the repeat founder signal. All three co-founders went through TaxProper together — building, raising from Khosla, scaling to billions in payment volume, navigating the Opendoor acquisition, and then deciding to start again. Teams that have been through a full cycle together and choose to come back are a different species than first-time founders. They know what the hard parts actually are. They're not doing this for the credential or the fundraise — they already have those. When founders who could be comfortably employed at Opendoor choose to go back to YC for a second batch, the motivation is usually earnest. That's worth something real.
+
+The strongest case for FullSeam is structural. The incumbents — Bill.com, Tipalti, Intuit — are platforms. Their business models depend on transactions flowing through their systems. An AI agent that sits on top of all these platforms and automates the human workflow across them is something the incumbents can't easily build without undermining their own lock-in. Bill.com doesn't want to make it easy for customers to treat its platform as interchangeable with Xero or NetSuite. FullSeam's cross-platform agent layer is architecturally adversarial to the incumbents' moats, and that's actually a clever positioning — even if the "AI employee" language doesn't convey it well. The question is whether the team can execute fast enough to establish this position before one of the incumbents decides the cannibalization risk is worth it.
+
+What concerns me is the absence of a hacker on this team. Dowling studied political science and history at Illinois, then policy at Oxford as a Rhodes Scholar. Segal's background is statistics and actuarial work. Coppa has an MBA from Stanford. None of them have public GitHub repos. They built TaxProper successfully, so they clearly know how to ship software — but there's a difference between managing engineers who build and being the person who stays up until 3am because the code isn't right yet. For an AI agent product that needs to handle the messy reality of financial document parsing, LLM orchestration, and multi-API integration, the technical hacker signal matters. This feels like a team that will hire well rather than build obsessively, and at pre-seed, that's a gap. It's not fatal — TaxProper proved they can build real financial software — but it's the dimension where my conviction drops.
+
+On traction, there are two named customer testimonials from CEOs of real companies (Deferred and Belfry Software), which at pre-seed is a legitimate signal. But there's no revenue data, no user metrics, no growth numbers — just the testimonials and a YC Launch post. That's thin. The product clearly exists and is being used, but I can't evaluate pull from website quotes alone.
+
+I'd take this meeting and probably write a small check. The organic discovery is real, the team has completed a full cycle together, and the cross-platform agent positioning has a structural logic that most "AI for X" companies lack. But I'd want to see a technical co-founder or a very strong first engineer, and I'd want to understand their growth rate before committing with any size. This is a competent team in a real market with genuine domain experience — but it's also a consensus category where incumbents are moving fast and the technical founding signal is weaker than I'd like.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Organic Problem Discovery and Schlep Willingness | 20/30 |
+| Relentlessly Resourceful Founders | 17/25 |
+| Evidence of Wanting: Demonstrated User Pull | 9/20 |
+| Technical Hacker Founders Who Build | 5/15 |
+| Growth Trajectory and Default Alive Economics | 5/10 |
+| **Total** | **56/100** |
+
+**Total Score: 56/100** (Neutral)

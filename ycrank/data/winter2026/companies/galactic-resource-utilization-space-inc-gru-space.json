@@ -1,0 +1,74 @@
+{
+  "slug": "galactic-resource-utilization-space-inc-gru-space",
+  "name": "Galactic Resource Utilization Space, Inc. (GRU Space)",
+  "oneLiner": "Building the First Hotel on the Moon",
+  "metadata": {
+    "website": "https://gru.space",
+    "yc_page": "https://www.ycombinator.com/companies/galactic-resource-utilization-space-inc-gru-space",
+    "batch": "Winter 2026",
+    "industry": "Industrials / Industrials -> Aviation and Space",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Space Exploration, Construction, Travel, Aerospace"
+  },
+  "tags": [
+    "Space Exploration",
+    "Construction",
+    "Travel",
+    "Aerospace"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 23,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 63,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 63,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 49,
+    "EG": 23,
+    "NR": 51,
+    "PG": 44,
+    "PT": 53,
+    "SL": 63,
+    "VK": 63
+  },
+  "consolidatedAvg": 49.43,
+  "consolidatedRank": 22,
+  "paths": {
+    "memo": "winter2026/memos/galactic-resource-utilization-space-inc-gru-space.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/galactic-resource-utilization-space-inc-gru-space.md",
+      "elad-gil": "winter2026/evals/elad-gil/galactic-resource-utilization-space-inc-gru-space.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/galactic-resource-utilization-space-inc-gru-space.md",
+      "paul-graham": "winter2026/evals/paul-graham/galactic-resource-utilization-space-inc-gru-space.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/galactic-resource-utilization-space-inc-gru-space.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/galactic-resource-utilization-space-inc-gru-space.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/galactic-resource-utilization-space-inc-gru-space.md"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+﻿# Docura Health -- Sam Lessin Evaluation
+
+This is an AI company where AI is the entire business. Remove the language model layer and there is nothing left — no physical operations, no proprietary data flywheel, no protocol other companies build on, no existing revenue stream that AI merely improves. My "cherry on top" test exists precisely for this category: would Docura Health be a viable business if AI didn't exist? The answer is unambiguously no. That makes it a feature, not a company. And features get absorbed — by incumbents with distribution, by competitors with more capital, or by the next model release that makes the underlying capability trivially accessible to anyone with a medical record PDF and a prompt.
+
+The sane-person-insane-idea calibration is inverted here. Akhil Sachdev has a solid CS background from Berkeley and relevant technical chops — his GitHub shows OCR and ML document processing projects, which are genuinely applicable to medical record extraction. That's "sane" in the software engineering sense. But the idea — using AI to automate medical documentation — is the opposite of insane. It's one of the most consensus applications of large language models imaginable. Supio has raised $91 million doing adjacent work. Wisedocs is running at $14.4 million in revenue. DigitalOwl got acquired by Datavant for enterprise distribution. Stream Claims raised $6.8 million from Spark Capital and is also YC-backed. When five-plus companies are already well-capitalized in your space, you're not pursuing a non-consensus idea — you're late to a consensus one. The specific physician-facing angle is a modest positioning differentiator, not a structural insight that reframes the market. Any of these competitors could build a physician-facing module with a fraction of their existing resources.
+
+Where my framework gets most uncomfortable is the founder-market fit dimension. Building compliant medical-legal reports requires navigating HIPAA regulations, AMA Guides impairment rating methodologies (5th and 6th Edition), state-specific workers' compensation law, and the specific evidentiary standards that make these reports admissible in legal proceedings. Sachdev has no medical credentials, no legal experience, and no apparent background in workers' compensation or insurance. His prior venture Siff AI lasted eight months before being discontinued. A solo founder without domain expertise tackling a regulatory-heavy, compliance-intensive vertical where errors carry legal liability for physician users — that's not the kind of "insane" I'm looking for. It's the kind that makes me worry about the gap between demo and deployment.
+
+The strongest bull case would go something like this: the medico-legal assessment niche is specific enough that Google and OpenAI won't build for it directly, the physician side of the workflow is genuinely underserved compared to the lawyer and insurer sides that competitors target, and if Docura Health locks in even a few hundred QME/IME physicians with report libraries and workflow habits, switching costs become real. The AMA impairment rating engine requires genuine domain encoding that isn't trivially prompt-engineered. In this scenario, Docura becomes the vertical standard for a narrow but economically significant workflow, and the YC claims about users doubling case volume suggest real productivity gains. If I believed the founder could recruit a physician co-founder and navigate the compliance landscape while outrunning Supio's $91 million war chest, I could construct a path to a meaningful outcome. But that's a lot of "ifs" stacked on top of a structural position I'm fundamentally skeptical of — a software-only business where software is the moat, which is exactly the category I believe AI is destroying faster than it's creating.
+
+There is no new primitive being created here. Docura Health is an application sitting on top of existing LLM infrastructure, processing documents in a format defined by someone else (AMA Guides), for a workflow defined by someone else (workers' compensation regulatory framework). Nothing compounds. No ecosystem forms around this tool. Other companies don't get better when Docura succeeds. The narrative ceiling is visible: it's a productivity tool for a specific category of physician assessment. That's a real market with real revenue potential, but it's not an infinity story — it's a nice niche SaaS business in a world where I think niche SaaS businesses are getting structurally less defensible by the quarter.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| "Sane Person, Insane Idea" Calibration | 6/30 |
+| AI-Resistant Structural Moat | 4/25 |
+| New Primitive or Protocol Position | 4/20 |
+| Narrative Magnitude and Infinity Optionality | 5/15 |
+| Real Revenue or Asset Cushion | 3/10 |
+| **Total** | **22/100** |
+
+**Total Score: 22/100** (Pass)

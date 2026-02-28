@@ -1,0 +1,24 @@
+﻿# Crow -- Sam Lessin Evaluation
+
+Crow is the company I would sketch on a whiteboard if someone asked me to illustrate exactly what I mean when I say AI is a bad startup investment. An embeddable AI copilot that connects to a product's APIs and lets users control things through chat -- built entirely on third-party LLMs, competing with a YC alum (Command AI) that has $23.8M in the bank and a multi-year head start. The dossier's own tags tell the story: "Artificial Intelligence, Generative AI, Chatbot, Enterprise, AI Assistant." That's five ways of saying "pure software layer on top of someone else's AI." I ask my standard question -- would this business be good if AI didn't exist? -- and the answer isn't just "no," it's "this business wouldn't exist at all." That's not cherry on top. That's the cherry IS the sundae, and the cherry is made of borrowed ingredients.
+
+The sane-person-insane-idea calibration is inverted here. Aryan and Jai are credible enough for their stage -- Berkeley EECS and CS, Jai rotated through OpenAI and Typeface, Aryan worked at a YC S23 company. They're sane. But the idea isn't insane -- it's one of the most obvious plays in the current AI landscape. "Every SaaS product needs an AI copilot" is something you hear at every conference, read in every VC deck, and see in every incumbent's product roadmap. Intercom built Fin. Salesforce has Einstein Copilot. Command AI raised a serious round years ago for this exact thesis. When I backed Solana at five cents per token during crypto winter, or Venmo when mobile payments seemed like a toy, those were ideas that provoked genuine confusion or dismissal from the market. "Embed an AI copilot into SaaS products" provokes head-nodding agreement from literally everyone. That's a consensus opportunity with consensus economics, and the returns will be priced accordingly -- or more likely, the category will be absorbed by platforms with distribution before a startup can establish meaningful market position.
+
+The structural moat question is where this falls apart completely. The dossier is admirably honest: "No defensibility signals found in public sources." The inferred moats -- data flywheel, switching costs, workflow library -- are the same moats every SaaS company claims and that I've been arguing for two years are dissolving. Crow's core technology is an LLM calling APIs on behalf of users. That is a feature, not a platform. As foundation models get more capable -- and they will, rapidly -- the abstraction layer Crow provides becomes thinner and less necessary. GPT-5 or Claude's next model will be better at understanding APIs and executing multi-step workflows natively. The middleware shrinks as the models grow. This is the precise dynamic I describe when I say software moats are evaporating: the thing that makes Crow possible today is the same force that will make Crow unnecessary tomorrow.
+
+The bull case I'd need to believe: Crow becomes the Stripe of AI copilots -- a horizontal standard that every product embeds, creating compounding switching costs as hundreds of apps depend on Crow's infrastructure layer. If they could establish themselves as a genuine protocol-level primitive for human-AI interaction within applications, the Airtable exception from my framework might apply -- something that looks like SaaS but functions as infrastructure others build on. The 1,091 weekly npm downloads suggest some developer interest, and the multiple integration paths (script tag, React SDK, Cursor one-click, MCP servers) show thoughtful developer GTM. If model capabilities plateau and the integration complexity of wiring AI into diverse products remains high, Crow's execution speed and deployment simplicity could matter. But this requires believing that the hard part of adding AI copilots to products is permanent -- that it won't get dramatically easier as tooling matures. I don't believe that. The hard part is getting easier every quarter.
+
+I keep coming back to Birchbox -- a company where narrative magnitude existed without structural defensibility, producing the worst venture outcome: too successful to die quickly, too fragile to compound. Crow's market is real, the timing is plausible, and the founders seem capable. But capable founders in a commoditizing layer with a well-funded incumbent ahead of them and platform companies converging from above is a structural setup I've learned to avoid. I'd rather back someone running a plumbing dispatch operation with a tech layer than a tech layer helping other tech layers add more tech layers. Pass.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| "Sane Person, Insane Idea" Calibration | 6/30 |
+| AI-Resistant Structural Moat | 3/25 |
+| New Primitive or Protocol Position | 4/20 |
+| Narrative Magnitude and Infinity Optionality | 6/15 |
+| Real Revenue or Asset Cushion | 2/10 |
+| **Total** | **21/100** |
+
+**Total Score: 21/100** (Strong Pass)

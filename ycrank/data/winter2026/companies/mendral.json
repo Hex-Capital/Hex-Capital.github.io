@@ -1,0 +1,75 @@
+{
+  "slug": "mendral",
+  "name": "Mendral",
+  "oneLiner": "AI DevOps Engineer",
+  "metadata": {
+    "website": "https://mendral.com/",
+    "yc_page": "https://www.ycombinator.com/companies/mendral",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Developer Tools, DevOps",
+    "yc_partner": "Ankit Gupta",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "DevOps"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 62,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 64,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 72,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 39,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 33,
+    "EG": 62,
+    "NR": 64,
+    "PG": 72,
+    "PT": 41,
+    "SL": 34,
+    "VK": 39
+  },
+  "consolidatedAvg": 49.29,
+  "consolidatedRank": 23,
+  "paths": {
+    "memo": "winter2026/memos/mendral.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/mendral.md",
+      "elad-gil": "winter2026/evals/elad-gil/mendral.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/mendral.md",
+      "paul-graham": "winter2026/evals/paul-graham/mendral.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/mendral.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/mendral.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/mendral.md"
+    }
+  }
+}

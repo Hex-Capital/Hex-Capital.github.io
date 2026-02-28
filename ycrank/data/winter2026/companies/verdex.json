@@ -1,0 +1,72 @@
+{
+  "slug": "verdex",
+  "name": "Verdex",
+  "oneLiner": "Helping insurers settle claims without leaving their desks.",
+  "metadata": {
+    "website": "https://www.verdexai.com/",
+    "yc_page": "https://www.ycombinator.com/companies/verdex",
+    "batch": "Winter 2026",
+    "industry": "Industrials / Industrials -> Agriculture",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Agriculture, AI"
+  },
+  "tags": [
+    "Agriculture",
+    "AI"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 37,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 40,
+    "EG": 43,
+    "NR": 42,
+    "PG": 46,
+    "PT": 34,
+    "SL": 38,
+    "VK": 37
+  },
+  "consolidatedAvg": 40,
+  "consolidatedRank": 77,
+  "paths": {
+    "memo": "winter2026/memos/verdex.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/verdex.md",
+      "elad-gil": "winter2026/evals/elad-gil/verdex.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/verdex.md",
+      "paul-graham": "winter2026/evals/paul-graham/verdex.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/verdex.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/verdex.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/verdex.md"
+    }
+  }
+}

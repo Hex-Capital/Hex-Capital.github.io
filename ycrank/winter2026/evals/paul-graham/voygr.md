@@ -1,0 +1,26 @@
+﻿# VOYGR -- Paul Graham Evaluation
+
+The most striking thing about VOYGR is Vlad Baskakov's resume line: Product Strategy Principal for Google Maps API. He didn't read about the limitations of place data in a blog post. He lived inside the machine that produces it. He saw exactly where Google's Maps API fails developers, and more importantly, he understands *why* Google can't fix it -- because Google optimizes Maps for its own advertising ecosystem, not for third-party AI agents that need ground truth about whether a restaurant is actually open. That's a genuinely organic origin story. When the person who shaped the product strategy for the dominant incumbent leaves to build the alternative, they're not guessing about the problem. They've been staring at it for years.
+
+But organic discovery alone doesn't make an investment. The second question I always ask is about schlep -- is this problem ugly and tedious enough that most people unconsciously avoid it? Here the answer is more complicated. The schlep in continuously validating millions of POIs against web sources is real operational drudgery. Crawling, parsing, cross-referencing, maintaining freshness at scale -- it's genuinely unglamorous work. But it's not the kind of schlep that creates structural protection. Stripe's schlep was dealing with banks, compliance, and fraud -- complexity that gets *harder* as you scale, which is why it deters competitors permanently. VOYGR's schlep is data infrastructure -- complexity that gets *easier* with more money and engineers. Foursquare has $448M in funding. Placer.ai has $278M and $100M ARR. Google has everything. The schlep here doesn't scare well-funded competitors away; it just requires capital they already have.
+
+The "AI agents need place data" framing worries me slightly. It's accurate -- agents that book restaurants or route deliveries genuinely need better place data than static APIs provide. But when I see a company framing itself around AI agents in Winter 2026, I apply the hot-category test. Is this a problem the founders would have tackled regardless of whether "AI agents" became the phrase of the year? Given Vlad's Google Maps background, I think the answer is probably yes -- the POI data quality problem predates the AI agent hype. But the packaging feels designed to catch the current wave, and I've noted that the most impressive companies I've seen recently are not working on AI. The underlying insight about Google's misaligned incentives is strong. The AI agent wrapper is fashion.
+
+On the team: Yarik Markov has ~20 years of engineering across Apple AIML, Google, and Meta, with academic publications -- clearly a real technical founder. But I notice neither founder has public GitHub repos, which is unusual for people building a developer tools API. The team composition is business CEO (Harvard MBA, McKinsey) plus engineering CTO, which is a standard corporate playbook, not the hacker-founder pattern where the people in the room are the ones writing the code at 3 AM. I don't see the "animal" signal. These are accomplished professionals from elite institutions making a calculated career move into startups. That can work -- but it's not the profile that excites me most.
+
+The bull case deserves real engagement. If you believe AI agents will become the primary interface for real-world transactions -- booking, ordering, navigating -- then whoever owns the canonical "place truth" layer becomes infrastructure. Google's March 2025 pricing changes are creating genuine developer friction. Vlad knows exactly which enterprise customers are unhappy and why. If VOYGR can sign 5-10 serious enterprise customers before Google or Foursquare pivot their AI agent story, they could establish the data flywheel that makes accuracy compound. The timing window is real: Google is large enough that its Maps-Gemini integration will take years to optimize for third-party developers, and incumbents like Foursquare are oriented toward foot traffic analytics, not agent-consumable validation. A focused, fast-moving startup could own this niche before anyone else takes it seriously. That's the scenario where this becomes a very good company.
+
+But I keep coming back to the moat question. "Several customers already running VOYGR to continuously validate places data accuracy at scale" is encouraging but unquantified -- no names, no revenue, no retention data. The web-enrichment layer is technically replicable by any company with crawling infrastructure. And this is the kind of B2B API business where a single Google product update could compress the entire value proposition overnight. Vlad knows Google's weaknesses better than almost anyone, but he also knows how quickly Google can move when it decides a market matters. I'd want to see evidence that customers are genuinely dependent on VOYGR -- that removing it would break their workflows -- before I'd feel confident about durability.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Organic Problem Discovery and Schlep Willingness | 20/30 |
+| Relentlessly Resourceful Founders | 12/25 |
+| Evidence of Wanting: Demonstrated User Pull | 10/20 |
+| Technical Hacker Founders Who Build | 9/15 |
+| Growth Trajectory and Default Alive Economics | 5/10 |
+| **Total** | **56/100** |
+
+**Total Score: 56/100** (Neutral)

@@ -1,0 +1,73 @@
+{
+  "slug": "dronetector",
+  "name": "DroneTector",
+  "oneLiner": "Technology to detect and track hostile drones",
+  "metadata": {
+    "website": "https://www.dronetector.com/",
+    "yc_page": "https://www.ycombinator.com/companies/dronetector",
+    "batch": "Winter 2026",
+    "industry": "Industrials / Industrials -> Drones",
+    "team_size": "3",
+    "location": "Glasgow, Scotland, UK (registered office per UK Companies House, SC790858)",
+    "tags": "Hard Tech, Drones, Radar"
+  },
+  "tags": [
+    "Hard Tech",
+    "Drones",
+    "Radar"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 50,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 40,
+    "EG": 44,
+    "NR": 56,
+    "PG": 53,
+    "PT": 47,
+    "SL": 49,
+    "VK": 50
+  },
+  "consolidatedAvg": 48.43,
+  "consolidatedRank": 28,
+  "paths": {
+    "memo": "winter2026/memos/dronetector.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/dronetector.md",
+      "elad-gil": "winter2026/evals/elad-gil/dronetector.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/dronetector.md",
+      "paul-graham": "winter2026/evals/paul-graham/dronetector.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/dronetector.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/dronetector.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/dronetector.md"
+    }
+  }
+}

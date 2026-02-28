@@ -1,0 +1,73 @@
+{
+  "slug": "brownie",
+  "name": "IncidentFox",
+  "oneLiner": "AI SRE agent that triages, coordinates, and fixes production incidents",
+  "metadata": {
+    "website": "https://incidentfox.ai",
+    "yc_page": "https://www.ycombinator.com/companies/brownie",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "AIOps, Artificial Intelligence, Developer Tools"
+  },
+  "tags": [
+    "AIOps",
+    "Artificial Intelligence",
+    "Developer Tools"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 24,
+      "tier": "Strong Pass"
+    },
+    "vinod-khosla": {
+      "score": 33,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 30,
+    "EG": 39,
+    "NR": 42,
+    "PG": 45,
+    "PT": 30,
+    "SL": 24,
+    "VK": 33
+  },
+  "consolidatedAvg": 34.71,
+  "consolidatedRank": 126,
+  "paths": {
+    "memo": "winter2026/memos/brownie.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/brownie.md",
+      "elad-gil": "winter2026/evals/elad-gil/brownie.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/brownie.md",
+      "paul-graham": "winter2026/evals/paul-graham/brownie.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/brownie.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/brownie.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/brownie.md"
+    }
+  }
+}

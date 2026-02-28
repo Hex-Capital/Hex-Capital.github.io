@@ -1,0 +1,73 @@
+{
+  "slug": "lucent",
+  "name": "Lucent",
+  "oneLiner": "AI that automatically watches your session replays to detect bugs.",
+  "metadata": {
+    "website": "https://lucenthq.com",
+    "yc_page": "https://www.ycombinator.com/companies/lucent",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Developer Tools, B2B, AI"
+  },
+  "tags": [
+    "Developer Tools",
+    "B2B",
+    "AI"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 24,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 34,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 29,
+    "EG": 34,
+    "NR": 37,
+    "PG": 39,
+    "PT": 26,
+    "SL": 24,
+    "VK": 34
+  },
+  "consolidatedAvg": 31.86,
+  "consolidatedRank": 155,
+  "paths": {
+    "memo": "winter2026/memos/lucent.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/lucent.md",
+      "elad-gil": "winter2026/evals/elad-gil/lucent.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/lucent.md",
+      "paul-graham": "winter2026/evals/paul-graham/lucent.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/lucent.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/lucent.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/lucent.md"
+    }
+  }
+}

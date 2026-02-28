@@ -1,0 +1,75 @@
+{
+  "slug": "visibl-semiconductors",
+  "name": "Visibl Semiconductors",
+  "oneLiner": "AI agents for chip design.",
+  "metadata": {
+    "website": "https://visiblsemi.com",
+    "yc_page": "https://www.ycombinator.com/companies/visibl-semiconductors",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Enterprise Software, Semiconductors",
+    "yc_partner": "Tyler Bosmeny",
+    "emails": "founders@visiblsemi.com (YC page, company contact page)"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Enterprise Software",
+    "Semiconductors"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 44,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 31,
+    "EG": 34,
+    "NR": 51,
+    "PG": 47,
+    "PT": 29,
+    "SL": 30,
+    "VK": 44
+  },
+  "consolidatedAvg": 38,
+  "consolidatedRank": 92,
+  "paths": {
+    "memo": "winter2026/memos/visibl-semiconductors.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/visibl-semiconductors.md",
+      "elad-gil": "winter2026/evals/elad-gil/visibl-semiconductors.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/visibl-semiconductors.md",
+      "paul-graham": "winter2026/evals/paul-graham/visibl-semiconductors.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/visibl-semiconductors.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/visibl-semiconductors.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/visibl-semiconductors.md"
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "slug": "caretta",
+  "name": "Caretta",
+  "oneLiner": "Realtime AI for Sales Calls",
+  "metadata": {
+    "website": "https://www.caretta.so",
+    "yc_page": "https://www.ycombinator.com/companies/caretta",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Sales",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "SaaS, Sales, Sales Enablement, AI Assistant",
+    "yc_partner": "Tyler Bosmeny",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "SaaS",
+    "Sales",
+    "Sales Enablement",
+    "AI Assistant"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 25,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 24,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 20,
+      "tier": "Strong Pass"
+    },
+    "vinod-khosla": {
+      "score": 33,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 25,
+    "EG": 35,
+    "NR": 32,
+    "PG": 33,
+    "PT": 24,
+    "SL": 20,
+    "VK": 33
+  },
+  "consolidatedAvg": 28.86,
+  "consolidatedRank": 169,
+  "paths": {
+    "memo": "winter2026/memos/caretta.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/caretta.md",
+      "elad-gil": "winter2026/evals/elad-gil/caretta.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/caretta.md",
+      "paul-graham": "winter2026/evals/paul-graham/caretta.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/caretta.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/caretta.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/caretta.md"
+    }
+  }
+}

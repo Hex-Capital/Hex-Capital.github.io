@@ -1,0 +1,76 @@
+{
+  "slug": "emdash",
+  "name": "Emdash",
+  "oneLiner": "Open-source Agentic Development Environment",
+  "metadata": {
+    "website": "https://emdash.sh",
+    "yc_page": "https://www.ycombinator.com/companies/emdash",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Productivity",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Developer Tools, Open Source, AI",
+    "yc_partner": "Gustaf Alstromer",
+    "emails": "founders@emdash.sh (YC page)"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "Open Source",
+    "AI"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 25,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 35,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 26,
+    "EG": 43,
+    "NR": 37,
+    "PG": 46,
+    "PT": 25,
+    "SL": 26,
+    "VK": 35
+  },
+  "consolidatedAvg": 34,
+  "consolidatedRank": 134,
+  "paths": {
+    "memo": "winter2026/memos/emdash.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/emdash.md",
+      "elad-gil": "winter2026/evals/elad-gil/emdash.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/emdash.md",
+      "paul-graham": "winter2026/evals/paul-graham/emdash.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/emdash.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/emdash.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/emdash.md"
+    }
+  }
+}

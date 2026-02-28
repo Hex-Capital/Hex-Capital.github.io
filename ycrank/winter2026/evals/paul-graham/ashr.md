@@ -1,0 +1,24 @@
+﻿# Ashr -- Paul Graham Evaluation
+
+The thing that jumps out about Ashr is how crowded the ground is. Braintrust just raised $80 million at an $800 million valuation. Langfuse got acquired by ClickHouse. Confident AI, Maxim AI, LangWatch — all funded, all attacking the same surface. And then OpenAI, Anthropic, Microsoft, and AWS have each released their own agent evaluation frameworks. When every major platform provider is building the tool you're building, you're not looking at schlep blindness. You're looking at the opposite: a problem so visible that everyone from solo hackers to trillion-dollar companies is already working on it. I wrote about this pattern — when an idea is consensus, the upside has already been priced. The structural opening that makes a startup viable against giants is when the problem is so ugly that nobody wants to deal with it. AI agent evaluation is not ugly. It's fashionable.
+
+The origin question is where I'd push hardest in a YC interview. How did Shreyas and Rohan find this problem? The dossier gives me an inference: they're Berkeley CS students who probably built with AI agents and felt the testing pain. But "probably" is doing a lot of work in that sentence. There's no specific story here — no moment where their agent broke in production and cost them a customer, no year spent drowning in the problem before deciding to solve it. The idea reads like it was identified through category analysis: AI agents are growing, they need testing, let's build testing infrastructure. That's exactly the pattern I've warned about — smart people at a good school generating ideas from market maps rather than personal frustration. When Drew Houston built Dropbox, the origin was absurdly simple: he kept forgetting his USB drive. That kind of organic specificity is what I look for, and I don't see it here.
+
+The bull case would go like this: the existing players are mostly observability tools that bolted on evaluation, or unit-testing frameworks that check individual outputs. Nobody has nailed multi-step user journey simulation across voice, text, images, and file generation. If Ashr's approach genuinely produces more realistic failure detection — if it catches bugs that Braintrust and DeepEval miss — then the product could win despite being outspent. Small teams can sometimes move faster precisely because they're focused on one thing while the incumbents try to be platforms. YC accepted them, and Harshita Arora is a sharp judge. And young, hungry founders have surprised me before — I funded Reddit when Steve and Alexis were barely out of school. For this bull case to work, though, I'd need to see two things I don't see: evidence that their synthetic user journey approach produces meaningfully better results than alternatives, and evidence that real engineering teams are pulling the product toward them. One named customer called "HumanBehavior" on a homepage is not pull. Pull is when users tell other users about you without being asked.
+
+The founders are undergraduates with no prior exits, no industry operating experience in testing or DevOps, and no visible public code. I can't find their GitHub profiles. For a developer tools company, that's a meaningful gap — not because students can't build great companies, but because when you're selling to engineering teams that are evaluating you against Braintrust's enterprise sales org or DeepEval's open-source community, you need to establish credibility fast. They've shipped a Python SDK, which shows they can build, and the documentation exists. That's real. But the absence of a public GitHub presence, any community, or any social media footprint makes it hard to assess technical depth or founder intensity. The product is Python-only, which further limits the addressable market — plenty of agent builders work in TypeScript or Go.
+
+I'm passing on this one. The problem is real, but it's a consensus problem in a crowded market with well-funded competitors and platform providers building free alternatives. The founders are smart enough to get into YC, and they've shipped a working product, which counts for something. But I don't see the organic origin story, I don't see the schlep that keeps competitors away, and I don't see users pulling the product toward them. When I invest my own money, I need at least one signal that makes me think "why hasn't someone done this already?" Here, everyone already has.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Organic Problem Discovery and Schlep Willingness | 7/30 |
+| Relentlessly Resourceful Founders | 9/25 |
+| Evidence of Wanting: Demonstrated User Pull | 6/20 |
+| Technical Hacker Founders Who Build | 8/15 |
+| Growth Trajectory and Default Alive Economics | 4/10 |
+| **Total** | **34/100** |
+
+**Total Score: 34/100** (Pass)

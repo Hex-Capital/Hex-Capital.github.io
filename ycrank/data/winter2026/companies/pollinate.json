@@ -1,0 +1,75 @@
+{
+  "slug": "pollinate",
+  "name": "Pollinate",
+  "oneLiner": "AI Agents for the supply chain.",
+  "metadata": {
+    "website": "https://www.pollinate.tech/",
+    "yc_page": "https://www.ycombinator.com/companies/pollinate",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Supply Chain and Logistics",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Logistics, Supply Chain",
+    "yc_partner": "Ankit Gupta",
+    "emails": "adeep@pollinate.tech (company website)"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Logistics",
+    "Supply Chain"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 38,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 36,
+    "EG": 42,
+    "NR": 41,
+    "PG": 56,
+    "PT": 28,
+    "SL": 28,
+    "VK": 38
+  },
+  "consolidatedAvg": 38.43,
+  "consolidatedRank": 89,
+  "paths": {
+    "memo": "winter2026/memos/pollinate.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/pollinate.md",
+      "elad-gil": "winter2026/evals/elad-gil/pollinate.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/pollinate.md",
+      "paul-graham": "winter2026/evals/paul-graham/pollinate.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/pollinate.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/pollinate.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/pollinate.md"
+    }
+  }
+}

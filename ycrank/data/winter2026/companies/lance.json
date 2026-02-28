@@ -1,0 +1,74 @@
+{
+  "slug": "lance",
+  "name": "Lance",
+  "oneLiner": "Your Hotel's Best Employees",
+  "metadata": {
+    "website": "https://www.lance.live",
+    "yc_page": "https://www.ycombinator.com/companies/lance",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "SaaS, B2B, Customer Service, Conversational AI"
+  },
+  "tags": [
+    "SaaS",
+    "B2B",
+    "Customer Service",
+    "Conversational AI"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 62,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 46,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 39,
+    "EG": 59,
+    "NR": 48,
+    "PG": 62,
+    "PT": 38,
+    "SL": 32,
+    "VK": 46
+  },
+  "consolidatedAvg": 46.29,
+  "consolidatedRank": 38,
+  "paths": {
+    "memo": "winter2026/memos/lance.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/lance.md",
+      "elad-gil": "winter2026/evals/elad-gil/lance.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/lance.md",
+      "paul-graham": "winter2026/evals/paul-graham/lance.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/lance.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/lance.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/lance.md"
+    }
+  }
+}

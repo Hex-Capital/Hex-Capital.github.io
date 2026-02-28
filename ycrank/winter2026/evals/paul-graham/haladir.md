@@ -1,0 +1,26 @@
+﻿# Haladir -- Paul Graham Evaluation
+
+The first thing I notice about Haladir is that the idea reads like it was assembled from ingredients rather than discovered through experience. Four undergraduate students -- a CMU freshman, two UVA-system students, and a Princeton CS major -- are building RL training infrastructure for frontier AI labs. The market is real. Anthropic reportedly plans to spend over a billion dollars on RL environments. TechCrunch writes about it. Applied Compute just raised $100M. But that's exactly what concerns me. When a category is this visibly hot, the question stops being "is the market real?" and becomes "why would these particular founders win?" And the answer to that question usually starts with how they found the problem -- which is where Haladir falls silent.
+
+There's no organic backstory here. None of these founders worked at an AI lab training models with RL. None of them spent years doing operations research at a logistics company, wrestling with vehicle routing or job shop scheduling until the pain became unbearable. None of them maintained COBOL mainframes. The path from "we're undergrads" to "we're building verifiable-domain RL training data infrastructure" almost certainly runs through reading about the market rather than living inside the problem. This is the failure mode I keep seeing: smart people who notice a hot market, identify an underserved niche within it, and build toward that niche. The intellectual architecture is sound -- classical solvers producing ground-truth solutions for RL rewards is a genuinely clever framing. But clever framing is not the same as organic discovery. Drew Houston didn't think "the file synchronization market is large" -- he forgot his USB drive one too many times. The Collison brothers didn't target "the payments API market" -- they were programmers who hated integrating payment processing.
+
+The product focus ambiguity deepens my concern. Their GitHub org description says "AI-Enabled Mainframe Modernization and Code Translation." Their YC description says RL training infrastructure. They have a COBOL modernization tool called Rosetta in request-access mode, a TLA+ spec synthesis fork, and an operations research benchmark. These are three different things. At pre-seed, focus is the most precious resource you have, and spreading across COBOL modernization, formal verification, and OR benchmarks looks less like a coherent strategy and more like a team that hasn't yet discovered which problem is truly theirs. When founders have a genuine organic connection to a problem, they don't scatter -- they obsess over one thing because they can't help it.
+
+The strongest bull case is this: these are technically capable students at excellent schools who have shipped real code. The OR-bench repository covers ten distinct operations research domains with solver-computed ground truth. That's not trivial to build. Joseph Tso has a research orientation (ORCID, Princeton CS). They convinced both YC and Susa Ventures to invest. And the core insight -- that classical solvers provide a scalable source of verifiable rewards for RL training across non-coding domains -- is genuinely underexplored. If AI labs find that diversifying RL training beyond code and math produces meaningfully better models, and if these founders prove capable of becoming the trusted supplier of operations research training data, this could work. I funded Steve Huffman and Alexis Ohanian when they were barely older than this team. Being young is not disqualifying. But Huffman and Ohanian were building something they personally consumed every day. Haladir's founders are building enterprise infrastructure for customers whose workflows they haven't experienced.
+
+The competitive landscape is the other problem. Applied Compute has $100M and ex-OpenAI founders. Mechanize has a direct Anthropic partnership. Scale AI sits at a $29B valuation with a dedicated RL environments team. The underlying solver technology (OR-Tools, TLA+ provers) is open-source. If the operations research RL training niche turns out to be valuable, any of these larger players can hire OR experts and replicate the data pipeline. The interdisciplinary barrier -- needing OR expertise, formal verification knowledge, and RL training pipeline engineering simultaneously -- is real but not insurmountable for well-funded teams. Without deep domain relationships or proprietary data assets that compound over time, being first in a niche is not enough.
+
+I don't see the signals that make me write a check. No organic problem discovery. No evidence of schlep born from personal experience. No user pull. A hot market where the idea is consensus, not contrarian. Smart young founders, yes -- but smart young founders working on a problem they found through market analysis rather than through the kind of lived experience that produces the determination to endure years of painful execution.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Organic Problem Discovery and Schlep Willingness | 6/30 |
+| Relentlessly Resourceful Founders | 11/25 |
+| Evidence of Wanting: Demonstrated User Pull | 5/20 |
+| Technical Hacker Founders Who Build | 8/15 |
+| Growth Trajectory and Default Alive Economics | 4/10 |
+| **Total** | **34/100** |
+
+**Total Score: 34/100** (Pass)

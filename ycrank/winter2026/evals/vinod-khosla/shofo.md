@@ -1,0 +1,26 @@
+﻿# Shofo -- Vinod Khosla Evaluation
+
+Let me start with the question I always start with: if Shofo succeeds completely -- builds the definitive index of short-form video, signs every major AI lab as a customer, dominates video data curation -- what changes? AI labs source their training data a bit faster and a bit cheaper. That's it. Nobody's dinner changes, no industry becomes obsolete, no trillion-dollar system gets displaced. The consequence of full success is a profitable data services business serving maybe two dozen well-funded customers. I've spent forty years looking for companies where success rewires how civilization operates. A video data brokerage, however well-executed, doesn't clear that bar.
+
+The timing argument is the strongest case here, and I want to give it its due. Meta's 49% stake in Scale AI is a genuine structural disruption -- Google and OpenAI now face a conflict-of-interest problem with their dominant data labeling provider, and they need alternatives. Multimodal AI models are consuming video training data at exponentially increasing rates. Video annotation is growing at 32% CAGR. These are real catalysts, and a scrappy team that moves fast could capture meaningful share during this window. If I were evaluating timing alone, Shofo is positioned at the right moment. But skating to where the puck will be only matters if the puck is worth catching. The puck here is a data procurement workflow.
+
+The technology itself is aggregation, not invention. Shofo bundles web scraping with a labeling pipeline and calls it "the world's largest index of short-form videos." There's no fundamental technical breakthrough -- open-source tools like CVAT and cc2dataset cover parts of the pipeline, and any well-resourced team could build a competing index. More critically, the entire data asset sits on borrowed ground. TikTok, Instagram, LinkedIn, and X all actively restrict scraping. One cease-and-desist letter, one API policy change, one court ruling extending the hiQ v. LinkedIn logic in the wrong direction, and the index evaporates. When I backed Juniper, Pradeep Sindhu was building a TCP/IP router that would work whether Cisco liked it or not. Shofo's index exists only at the pleasure of platforms that have every incentive to shut it down, especially as those platforms realize their content is being resold for AI training.
+
+The team shows some spark. Misra dropping out of UCSB to build Correkt, growing it to 40,000 users, then having the discipline to pivot away from a working consumer product toward higher-value B2B infrastructure -- that's a learning rate signal I pay attention to. The pivot itself suggests the team is iterating rather than clinging to their first idea. But building a consumer AI search engine and building enterprise data infrastructure for AI labs are fundamentally different games, and nothing in the dossier tells me this team has the relationships, the domain credibility, or the go-to-market muscle to sell six- and seven-figure data contracts to OpenAI, Google DeepMind, or Anthropic. These buyers have hundreds of engineers who could build internal video pipelines in months. The customer concentration risk -- a handful of AI labs constitute the entire buyer universe -- means Shofo is one "build vs. buy" decision away from losing its market.
+
+If I'm being honest about the bull case: there's a version of this where Shofo's index becomes genuinely irreplaceable. If they accumulate enough proprietary annotations, build enough institutional knowledge about what makes video training data actually useful for specific model architectures, and establish themselves as the trusted neutral alternative during Scale AI's neutrality crisis -- then network effects could kick in. Each new labeled dataset makes the next query more precise. Each client's feedback loop improves annotation quality. The "Common Crawl for Video" framing is ambitious, and Common Crawl itself became genuinely important infrastructure for language model training. But Common Crawl is a nonprofit indexing the open web. Shofo is a for-profit company scraping platforms that don't want to be scraped, in a legal environment that's actively hostile to that activity. The analogy breaks down at the structural level.
+
+These founders are smart enough to build something real, and the market window is genuine. But they're building a picks-and-shovels business for other people's breakthroughs, in a market with massive incumbents who could replicate the offering, on a legal foundation that could crumble. I look for founders attempting things the consensus considers impossible -- Shofo is attempting something the consensus considers obviously correct (AI needs more training data) with a business model that's obviously fragile (scraping social platforms). The ambition isn't calibrated to a problem large enough to justify the legal and competitive risks they're taking.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Consequence Magnitude If Successful | 7/30 |
+| Founder Learning Rate and Contrarian Courage | 11/25 |
+| Technology Disruption Potential vs. Incumbent Systems | 7/20 |
+| Rate of Change and Timing Trajectory | 9/15 |
+| Gene Pool Engineering and Team Construction | 5/10 |
+| **Total** | **39/100** |
+
+**Total Score: 39/100** (Pass)

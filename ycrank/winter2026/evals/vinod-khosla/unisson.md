@@ -1,0 +1,26 @@
+﻿# Unisson -- Vinod Khosla Evaluation
+
+This is the company I pass on every batch. Not because the founders are weak -- they aren't -- but because the ambition has been calibrated to fit inside a manageable box rather than to match the scale of anything that matters. "The AI product specialist for customer-facing teams." I read that tagline and I already know the consequence of success: customer success managers at mid-market SaaS companies handle a few more accounts, onboarding gets 20% faster, and support quality becomes marginally more consistent. If Unisson wins everything -- total market domination -- the customer success management software market is $6 billion by 2030. Six billion. I invested in Juniper when the prize was the entire global networking infrastructure. I backed Impossible Foods when the prize was a $1.7 trillion industry and billions of acres of reclaimed land. A company whose ceiling is capturing a fraction of a $6 billion market has reduced the probability of failure to the point where success is irrelevant.
+
+What concerns me more than the small market is that every architectural choice here minimizes risk at the expense of ambition. Deploying inside Slack rather than replacing workflows. Positioning as "internal teammates for customer-facing staff" rather than making the staff unnecessary. Targeting the specific intersection of technical CS, implementation engineers, and sales engineers -- which the dossier itself identifies as "more specialized than broader customer success or sales automation markets, potentially limiting initial market size." This is a company that found the safest possible wedge into the safest possible market. I've seen this pattern a thousand times. The founders are too smart to be working on a problem this small.
+
+The bull case requires you to believe Unisson isn't really building a CS productivity tool -- it's building the first general-purpose AI agent that can learn to operate any software product in 15 minutes, and customer success is just the wedge. If the product-learning mechanism is genuinely novel, the implication extends far beyond CSMs: every technical role that requires deep product knowledge becomes augmentable or replaceable. That would be a different consequence magnitude entirely -- not a $6 billion market but a fundamental restructuring of how software companies staff and operate. Varun's background leading VLM research and agent products at Ambient.ai, combined with Tom's experience deploying production autonomy at Chef Robotics, is the right gene pool for that grander vision. But nothing in the dossier suggests the founders are articulating or pursuing that larger ambition. They're talking about health audits and onboarding, not about making entire categories of knowledge work obsolete.
+
+The technology assessment is equally sobering. LLM-powered agents with RAG over product documentation is table stakes in 2026. The dossier explicitly identifies this: "The core capability -- LLM-powered agents that learn product documentation and context -- is technically reproducible by any team with access to foundation models and RAG infrastructure." Gainsight acquired Staircase AI. ChurnZero launched AI Agents. Coworker.ai raised $16.5 million for a horizontal version of essentially the same idea. When incumbents with tens of thousands of existing customers are building your product as a feature, you need a 10x technology advantage to survive. Nothing in the dossier suggests Unisson has one. No patents, no proprietary datasets, no open-source repos, no evidence of a product-learning mechanism that is structurally different from what any competent team could build with GPT-4 and a vector database.
+
+On timing, I'll give partial credit: agentic AI is genuinely on an exponential curve, and building agents that can reliably execute complex multi-step tasks across enterprise tools is a real capability that didn't exist two years ago. The "why now" is legitimate. But this is consensus timing -- every VC and every YC batch is full of AI agent companies in 2026. When I invested in OpenAI in 2019, AI was laughable. When I backed cleantech in 2004, other VCs were running the other direction. Being in the agentic AI space today is arriving at the party well after the music started. The founders aren't skating to where the puck will be; they're skating to where every other player already is.
+
+The founders themselves are competent -- Varun's progression from engineer to product leader for agent products at a $72M-funded AI company, Tom's experience shipping production robotics systems -- but competence applied to an incremental problem doesn't activate my framework. I want to see founders with this caliber of technical talent attacking something that makes people look at them funny. Nobody looks at you funny for building AI agents for customer success teams in 2026. That's the problem.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Consequence Magnitude If Successful | 6/30 |
+| Founder Learning Rate and Contrarian Courage | 10/25 |
+| Technology Disruption Potential vs. Incumbent Systems | 6/20 |
+| Rate of Change and Timing Trajectory | 8/15 |
+| Gene Pool Engineering and Team Construction | 5/10 |
+| **Total** | **35/100** |
+
+**Total Score: 35/100** (Pass)

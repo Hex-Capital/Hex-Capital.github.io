@@ -1,0 +1,24 @@
+﻿# Reframe -- Cyan Banister Evaluation
+
+The first thing that jumps out at me about Reframe is that this isn't an unpopular idea. Didero just closed a $30 million Series A in February 2026 building AI agents for manufacturing procurement — the same month Reframe is going through YC. Cavela raised $8.6 million for AI-powered procurement sourcing. When I look at a deal and see multiple well-funded teams converging on the same thesis simultaneously, that's the opposite of the signal I've learned to trust. The most promising companies I've backed — SpaceX, Crusoe, Contraline — were ideas people actively laughed at. Nobody's laughing at "AI agents for supply chain." VCs are racing to fund it. By the time consensus has formed around a category, the weirdness has been arbitraged away and you're left competing on execution and capital, which is a game where a two-person pre-seed team with $500K doesn't have great odds against a competitor sitting on $37 million.
+
+When I evaluate founders, I always start with their story — not the business, the person. What I see here are two capable engineers who worked at Apple and identified a real inefficiency in hardware procurement. Eric Wiener has solid ML credentials from DoorDash Labs and Zoox. Bryan Zin spent roughly four years on Apple's iPhone hardware team, which means he's been inside one of the most demanding supply chains on earth. That's legitimate domain exposure. But domain exposure isn't the same thing as biographical urgency. I don't see the thread that connects these founders' personal journey to this specific problem in a way that would keep them building through the inevitable crises. Did Bryan watch a critical iPhone build fail because of procurement chaos and decide he couldn't let it happen to anyone else? Did Eric build ML systems that tried and failed to parse BOMs at Zoox? Maybe — but nothing in the public record tells me that story. What I see are smart people who noticed a market opportunity, which is fine, but it's not the kind of founder-problem fusion that I've seen in my strongest investments.
+
+The strongest bull case for Reframe is this: Bryan Zin genuinely understands the "build matrix" and "waterfall schedule" problem at a level that most software engineers never will. If you've designed iPhone hardware, you know what happens when a single component from a supplier in Shenzhen slips by two weeks and cascades through your entire build plan. That embodied knowledge could produce a product that Didero — which appears to approach procurement from a broader enterprise software angle — simply can't match. The combination of Bryan's hardware manufacturing intuition and Eric's ML engineering could be the precise pairing that nails the domain-specific agent behavior. If they can ship a product that hardware teams love before Didero figures out the nuances of BOM interdependencies, they could carve out a defensible niche. There's also a real "making invisible systems visible" dimension here — procurement coordination is genuinely opaque, and smaller hardware companies suffer disproportionately because they can't afford dedicated procurement teams. That resonates with me. But "could" is doing a lot of work in this paragraph.
+
+What keeps me from writing a check is that I can't find the defensibility. The core technology — LLMs parsing documents, communicating with suppliers, updating schedules — is built on broadly available capabilities. There's no proprietary data moat yet, no network effects, no regulatory barrier protecting the position. Didero has 18x the capital and Microsoft's backing through M12. In a head-to-head execution race, capital matters, and Reframe would need to demonstrate something extraordinary in product quality or founder obsession to overcome that disparity. The brand name collision with another YC company called Reframe is a small thing, but it's symptomatic of a team that may not have done the groundwork you'd expect from founders with deep conviction about building something lasting.
+
+This is a pass for me. The founders are qualified, the market is real, but nothing about this company activates the pattern I've learned to trust over 130+ investments. It's not unpopular. It's not difficult to assess. It doesn't have the biographical intensity or the economic access mission that draws me in. I need to feel that jolt — the sense that I'm seeing something others can't — and what I see here is something everyone else sees too, which is exactly when I step back.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Biographical Grit and Personal Stake | 9/30 |
+| Anti-Consensus Conviction and Weird Factor | 6/25 |
+| Economic Access and Real-World Impact | 6/20 |
+| Navigating Complexity in Hard Spaces | 8/15 |
+| Co-Founder Alignment and Team Resilience | 5/10 |
+| **Total** | **34/100** |
+
+**Total Score: 34/100** (Pass)

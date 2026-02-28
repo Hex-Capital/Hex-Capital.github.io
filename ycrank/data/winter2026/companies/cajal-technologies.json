@@ -1,0 +1,73 @@
+{
+  "slug": "cajal-technologies",
+  "name": "Cajal",
+  "oneLiner": "Scaling formal verification to accelerate scientific discovery",
+  "metadata": {
+    "website": "https://caj.al/",
+    "yc_page": "https://www.ycombinator.com/companies/cajal-technologies",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "B2B, Big Data, AI"
+  },
+  "tags": [
+    "B2B",
+    "Big Data",
+    "AI"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 39,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 28,
+    "EG": 32,
+    "NR": 40,
+    "PG": 30,
+    "PT": 27,
+    "SL": 33,
+    "VK": 39
+  },
+  "consolidatedAvg": 32.71,
+  "consolidatedRank": 146,
+  "paths": {
+    "memo": "winter2026/memos/cajal-technologies.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/cajal-technologies.md",
+      "elad-gil": "winter2026/evals/elad-gil/cajal-technologies.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/cajal-technologies.md",
+      "paul-graham": "winter2026/evals/paul-graham/cajal-technologies.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/cajal-technologies.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/cajal-technologies.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/cajal-technologies.md"
+    }
+  }
+}

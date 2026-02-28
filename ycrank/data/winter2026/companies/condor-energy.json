@@ -1,0 +1,74 @@
+{
+  "slug": "condor-energy",
+  "name": "Condor Energy",
+  "oneLiner": "Energy OS enabling reliable, cheap and sustainable electricity supply.",
+  "metadata": {
+    "website": "https://www.condor.energy",
+    "yc_page": "https://www.ycombinator.com/companies/condor-energy",
+    "batch": "Winter 2026",
+    "industry": "Industrials / Industrials -> Energy",
+    "team_size": "3",
+    "location": "France and United States (Nordic 9, Jan 2026)",
+    "tags": "B2B, Energy",
+    "yc_partner": "Jared Friedman (YC page)",
+    "emails": "founders@condor.energy (company website), jean@condor.energy (YC page)"
+  },
+  "tags": [
+    "B2B",
+    "Energy"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 37,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 37,
+    "EG": 55,
+    "NR": 44,
+    "PG": 49,
+    "PT": 28,
+    "SL": 32,
+    "VK": 37
+  },
+  "consolidatedAvg": 40.29,
+  "consolidatedRank": 75,
+  "paths": {
+    "memo": "winter2026/memos/condor-energy.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/condor-energy.md",
+      "elad-gil": "winter2026/evals/elad-gil/condor-energy.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/condor-energy.md",
+      "paul-graham": "winter2026/evals/paul-graham/condor-energy.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/condor-energy.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/condor-energy.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/condor-energy.md"
+    }
+  }
+}

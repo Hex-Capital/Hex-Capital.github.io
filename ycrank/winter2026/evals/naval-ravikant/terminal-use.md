@@ -1,0 +1,24 @@
+﻿# Terminal Use -- Naval Ravikant Evaluation
+
+The most striking feature of Terminal Use isn't the team or the product -- it's the competitive topology. Five well-funded companies are already carving up agent infrastructure: E2B ($21M), Daytona ($31M with $1M ARR in under three months), Modal ($111M, $1.1B valuation), Blaxel ($7.8M), and Vercel itself expanding into the exact space Terminal Use claims as its own. When you position yourself as "Vercel for background agents," you're not making a contrarian bet -- you're painting a target on your forehead and handing Vercel the coordinates. The market consensus is that agents need infrastructure. Every sophisticated investor already agrees. That means the pricing of this entire category already reflects optimism, and a pre-seed company with zero visible traction is entering the race at the worst possible valuation of effort-to-outcome.
+
+On specific knowledge: three Palantir engineers, all with legitimate production experience. Vivek Raja led technical delivery of a large agent deployment across US hospitals -- that's real operational exposure. But I need to distinguish between operational knowledge and non-transferable insight. Deploying Palantir's Foundry for hospital agent use cases teaches you how Palantir's platform works, how hospitals adopt technology, and how agent workflows fail in production. What it doesn't necessarily teach you is what a greenfield developer platform for the general agent ecosystem should look like. The distance between "I've operated complex systems" and "I understand what infrastructure the next generation needs" is the same distance between a pilot and an aircraft designer. The founders are competent infrastructure engineers with relevant exposure, but I don't see the non-obvious insight -- the thing they know that can't be taught -- that would make them win where E2B, Daytona, and Modal cannot.
+
+The leverage architecture concerns me. Terminal Use supports "any SDK" and provides container orchestration, filesystem management, and CLI tooling. These are well-understood infrastructure patterns. Where's the proprietary layer? When I backed Alchemy, the leverage was in becoming the API gateway through which all blockchain traffic flowed -- each new developer deepened the moat. When Stack Overflow worked, it was because the knowledge graph compounded with every question. Terminal Use's architecture, as described, is a deployment pipeline. Deployment pipelines are commodities. The "build, evaluate, deploy, A/B test" lifecycle is a feature set, not a moat. Without owning a critical protocol layer or accumulating proprietary data that gets more valuable with each deployment, this is infrastructure that any well-funded competitor replicates with a quarter's worth of engineering.
+
+The strongest bull case: the agent ecosystem is genuinely exploding, and there's a real gap between raw cloud primitives and an opinionated agent-lifecycle platform. If Terminal Use captures developer mindshare in the narrow window before the well-funded players consolidate -- similar to how Heroku owned early developer deployment before AWS caught up -- switching costs could lock in a cohort. The Palantir team has shipped production agent systems, which is more than most pre-seed teams can claim. And the filesystem-heavy background agent niche is specific enough that general-purpose platforms might neglect it. If the agent ecosystem fragments into many specialized infrastructure layers rather than consolidating into a few platforms, Terminal Use could own a durable wedge. But "if the ecosystem fragments" is a bet against the historical pattern in cloud infrastructure, where consolidation wins. And this team has no visible distribution advantage -- no open-source traction, no community, no stars on GitHub, no public users -- to establish the developer mindshare this thesis requires.
+
+The timing is wrong in the specific way that costs angel investors money. Not wrong because agents aren't real -- they are. Wrong because everyone knows it. When Daytona achieves $1M ARR in three months and E2B claims 88% of the Fortune 100, you're not early to an insight -- you're late to a consensus. My best returns came from investing when smart people thought the idea was stupid. Nobody thinks agent infrastructure is stupid right now. The founders aren't building against the crowd; they're building with it, underfunded.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Specific Knowledge and Founder-Problem Authenticity | 14/30 |
+| Leverage Architecture and Scalability of the Model | 12/25 |
+| Contrarian Positioning and Non-Consensus Timing | 6/20 |
+| Founder Integrity and Long-Term Orientation | 8/15 |
+| Technical Compounding and Defensibility Over Time | 4/10 |
+| **Total** | **44/100** |
+
+**Total Score: 44/100** (Pass)

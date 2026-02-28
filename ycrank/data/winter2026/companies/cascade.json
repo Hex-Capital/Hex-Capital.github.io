@@ -1,0 +1,75 @@
+{
+  "slug": "cascade",
+  "name": "Cascade",
+  "oneLiner": "Making Autonomous Intelligence Safe & Reliable",
+  "metadata": {
+    "website": "https://runcascade.com/",
+    "yc_page": "https://www.ycombinator.com/companies/cascade",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "B2B, Security, Infrastructure, Trust & Safety, AI"
+  },
+  "tags": [
+    "B2B",
+    "Security",
+    "Infrastructure",
+    "Trust & Safety",
+    "AI"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 24,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 39,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 32,
+    "EG": 33,
+    "NR": 46,
+    "PG": 39,
+    "PT": 24,
+    "SL": 26,
+    "VK": 39
+  },
+  "consolidatedAvg": 34.14,
+  "consolidatedRank": 132,
+  "paths": {
+    "memo": "winter2026/memos/cascade.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/cascade.md",
+      "elad-gil": "winter2026/evals/elad-gil/cascade.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/cascade.md",
+      "paul-graham": "winter2026/evals/paul-graham/cascade.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/cascade.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/cascade.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/cascade.md"
+    }
+  }
+}

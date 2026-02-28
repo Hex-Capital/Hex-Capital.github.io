@@ -1,0 +1,76 @@
+{
+  "slug": "patientdeskai",
+  "name": "Patientdesk.ai",
+  "oneLiner": "AI voice agent for patient calls & admin workflows",
+  "metadata": {
+    "website": "https://patientdesk.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/patientdeskai",
+    "batch": "Winter 2026",
+    "industry": "Healthcare / Healthcare IT",
+    "team_size": "3",
+    "location": "San Francisco, CA (YC page via search snippet)",
+    "tags": "Customer Service, Call Center, Conversational AI, AI Assistant",
+    "yc_partner": "Gustaf Alstromer (YC page)",
+    "emails": "info@patientdesk.ai (company website), founders@patientdesk.ai (YC page)"
+  },
+  "tags": [
+    "Customer Service",
+    "Call Center",
+    "Conversational AI",
+    "AI Assistant"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 62,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 32,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 33,
+    "EG": 47,
+    "NR": 45,
+    "PG": 62,
+    "PT": 28,
+    "SL": 30,
+    "VK": 32
+  },
+  "consolidatedAvg": 39.57,
+  "consolidatedRank": 80,
+  "paths": {
+    "memo": "winter2026/memos/patientdeskai.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/patientdeskai.md",
+      "elad-gil": "winter2026/evals/elad-gil/patientdeskai.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/patientdeskai.md",
+      "paul-graham": "winter2026/evals/paul-graham/patientdeskai.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/patientdeskai.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/patientdeskai.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/patientdeskai.md"
+    }
+  }
+}

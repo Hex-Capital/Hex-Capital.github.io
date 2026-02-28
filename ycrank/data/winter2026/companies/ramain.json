@@ -1,0 +1,73 @@
+{
+  "slug": "ramain",
+  "name": "RamAIn",
+  "oneLiner": "Super fast computer-use agents to automate complex workflows.",
+  "metadata": {
+    "website": "https://ramain.ai",
+    "yc_page": "https://www.ycombinator.com/companies/ramain",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Machine Learning, Computer Vision, AI"
+  },
+  "tags": [
+    "Machine Learning",
+    "Computer Vision",
+    "AI"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 44,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 32,
+    "EG": 34,
+    "NR": 38,
+    "PG": 34,
+    "PT": 30,
+    "SL": 28,
+    "VK": 44
+  },
+  "consolidatedAvg": 34.29,
+  "consolidatedRank": 130,
+  "paths": {
+    "memo": "winter2026/memos/ramain.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/ramain.md",
+      "elad-gil": "winter2026/evals/elad-gil/ramain.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/ramain.md",
+      "paul-graham": "winter2026/evals/paul-graham/ramain.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/ramain.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/ramain.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/ramain.md"
+    }
+  }
+}

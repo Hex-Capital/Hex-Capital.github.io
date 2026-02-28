@@ -1,0 +1,22 @@
+﻿# Crow -- Vinod Khosla Evaluation
+
+Crow is building an embeddable AI copilot so SaaS companies can add a chat interface to their existing products. Let me ask the question I always ask first: if Crow succeeds completely — if every SaaS application in the world embeds their agent — what has changed? Software gets a little easier to navigate. Customer support tickets decline. Users type questions instead of clicking through menus. Nobody's life is fundamentally different. No trillion-dollar system is displaced. The existing approach to building software isn't made obsolete — it gets a chat widget bolted on top. This is the kind of company where the team has done exactly what I warn against: reduced every dimension of risk until the consequence of success became inconsequential. The market is proven, the technology is commodity LLMs, the business model is standard SaaS, and the competitor (Command AI, $23.8M raised) already exists. Safe choices, all of them. And collectively, they guarantee that even success produces a modest outcome.
+
+The competitive landscape is the clearest signal here. Command AI, also a YC company, has a multi-year head start, significantly more funding, and has already expanded into adjacent features — product tours, onboarding nudges, mobile SDKs. Kapa.ai has 100+ enterprise customers including Docker and OpenAI for the documentation-to-Q&A layer. Intercom Fin owns the customer support copilot vertical. And the LLM providers themselves — OpenAI, Anthropic, Google — are building agent capabilities directly into their platforms. When I backed Juniper against Cisco, the key was that TCP/IP routing was a fundamentally different architecture that would make Cisco's approach obsolete. Crow isn't proposing a different architecture for software interfaces. It's offering a slightly faster way to add the same chat layer everyone else is already adding. The dossier itself acknowledges the core technology is "built on widely available foundation model capabilities" with "commoditization risk." When the dossier flags your moat problem, you have a moat problem.
+
+The strongest bull case would be this: the transition from graphical interfaces to conversational interfaces is as fundamental as the shift from command-line to GUI, and Crow becomes the infrastructure layer that powers this transition — a Stripe-like position where every application routes its user interactions through Crow's platform. If that's the future, and if Crow captures even a fraction of it, the outcome could be enormous. The timing ingredients exist: LLM capabilities are on an exponential curve, inference costs are plummeting, and MCP standards are creating the structured interfaces this category needs. Both founders have relevant experience — Jai worked at OpenAI and Typeface, Aryan at a YC company — and they've shipped a working product with 1,091 weekly npm downloads. That's real, if modest, developer adoption. The rate of change in the underlying technology is genuinely favorable.
+
+But I don't fund the timing tailwind alone. I fund it when it's paired with a technology approach that makes the incumbent structurally obsolete, wielded by founders attempting something experts consider impossible. These founders are executing the consensus playbook perfectly: two Berkeley CS graduates from AI startups, building a developer tool that everyone agrees the market wants, with commodity technology, in a category a well-funded competitor already defined. There is no contrarian bet here. Nobody is telling them this is crazy. Nobody dismisses the idea. And when the established players validate your approach rather than dismiss it, that's precisely the signal that the innovation is incremental enough to be non-threatening. These are smart founders — I'd tell them they're too talented to spend their careers making it 40% faster to add a chatbot to someone else's SaaS product. Go find a problem that terrifies you. Go find something where the experts laugh at you. That's where the transformational outcomes live.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Consequence Magnitude If Successful | 5/30 |
+| Founder Learning Rate and Contrarian Courage | 9/25 |
+| Technology Disruption Potential vs. Incumbent Systems | 4/20 |
+| Rate of Change and Timing Trajectory | 8/15 |
+| Gene Pool Engineering and Team Construction | 5/10 |
+| **Total** | **31/100** |
+
+**Total Score: 31/100** (Pass)

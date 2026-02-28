@@ -1,0 +1,73 @@
+{
+  "slug": "lexius",
+  "name": "Lexius",
+  "oneLiner": "AI Crime Detection",
+  "metadata": {
+    "website": "https://www.lexius.ai",
+    "yc_page": "https://www.ycombinator.com/companies/lexius",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Retail",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, SaaS, Computer Vision"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "SaaS",
+    "Computer Vision"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 34,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 41,
+    "EG": 36,
+    "NR": 36,
+    "PG": 43,
+    "PT": 28,
+    "SL": 28,
+    "VK": 34
+  },
+  "consolidatedAvg": 35.14,
+  "consolidatedRank": 123,
+  "paths": {
+    "memo": "winter2026/memos/lexius.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/lexius.md",
+      "elad-gil": "winter2026/evals/elad-gil/lexius.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/lexius.md",
+      "paul-graham": "winter2026/evals/paul-graham/lexius.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/lexius.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/lexius.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/lexius.md"
+    }
+  }
+}

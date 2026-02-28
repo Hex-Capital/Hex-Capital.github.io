@@ -1,0 +1,75 @@
+{
+  "slug": "byteport",
+  "name": "Byteport",
+  "oneLiner": "Global upload acceleration for 1GB-100TB files.",
+  "metadata": {
+    "website": "https://byteport.io/",
+    "yc_page": "https://www.ycombinator.com/companies/byteport",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B",
+    "team_size": "1",
+    "location": "San Francisco, CA, USA",
+    "tags": "SaaS, B2B, Infrastructure",
+    "yc_partner": "Tyler Bosmeny",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "SaaS",
+    "B2B",
+    "Infrastructure"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 35,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 26,
+    "EG": 31,
+    "NR": 43,
+    "PG": 45,
+    "PT": 28,
+    "SL": 26,
+    "VK": 35
+  },
+  "consolidatedAvg": 33.43,
+  "consolidatedRank": 142,
+  "paths": {
+    "memo": "winter2026/memos/byteport.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/byteport.md",
+      "elad-gil": "winter2026/evals/elad-gil/byteport.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/byteport.md",
+      "paul-graham": "winter2026/evals/paul-graham/byteport.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/byteport.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/byteport.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/byteport.md"
+    }
+  }
+}

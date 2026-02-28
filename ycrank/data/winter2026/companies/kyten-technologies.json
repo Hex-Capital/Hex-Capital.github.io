@@ -1,0 +1,72 @@
+{
+  "slug": "kyten-technologies",
+  "name": "Kyten Technologies",
+  "oneLiner": "Custom aerospace-grade battery pack factory",
+  "metadata": {
+    "website": "https://kytentech.com",
+    "yc_page": "https://www.ycombinator.com/companies/kyten-technologies",
+    "batch": "Winter 2026",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+    "team_size": "2",
+    "location": "Seattle, WA, USA",
+    "tags": "Manufacturing, Aerospace"
+  },
+  "tags": [
+    "Manufacturing",
+    "Aerospace"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 62,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 62,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 45,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 45,
+    "EG": 62,
+    "NR": 58,
+    "PG": 62,
+    "PT": 43,
+    "SL": 57,
+    "VK": 45
+  },
+  "consolidatedAvg": 53.14,
+  "consolidatedRank": 13,
+  "paths": {
+    "memo": "winter2026/memos/kyten-technologies.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/kyten-technologies.md",
+      "elad-gil": "winter2026/evals/elad-gil/kyten-technologies.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/kyten-technologies.md",
+      "paul-graham": "winter2026/evals/paul-graham/kyten-technologies.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/kyten-technologies.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/kyten-technologies.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/kyten-technologies.md"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+﻿# Bubble Lab -- Paul Graham Evaluation
+
+The first thing I notice about Bubble Lab is what I'd call the crowded obvious. This is a company building AI-powered workflow automation — prompt-driven Zapier, essentially — in a category where Zapier itself ($310M revenue), n8n ($2.5B valuation), Make (acquired by $13B Celonis), and Activepieces (also YC-backed) are all actively shipping AI features. Zapier already has AI-powered automation steps. n8n has 70+ AI-dedicated nodes via LangChain. The dossier itself states the core capability — using LLMs to translate natural language into API calls — is "technically reproducible." When the company's own research memo acknowledges there's no technical barrier to replication, that's not a moat problem. That's the absence of a moat.
+
+The question I always start with is: how did they find this problem? Selina and Zach co-founded gymii.ai, a nutrition tracking app, in early 2025. Within the same year they pivoted to B2B workflow automation. Selina's background is JPMorgan quant research — there's a tenuous connection to enterprise operations there, but a quant researcher's daily pain is not "I wish I could automate my Slack-to-Jira workflow with natural language." The pivot trajectory tells a story I've seen many times: smart founders who shipped something, it didn't take off, and they went looking for a bigger market. The workflow automation space is enormous and AI is obviously the next interface layer for it. But that's exactly the problem. When your startup idea is the intersection of two trends visible from orbit — "AI" and "workflow automation" — you haven't discovered something hidden. You've noticed something everyone else has also noticed. Stripe worked because thousands of hackers knew payments were broken and unconsciously avoided the schlep of dealing with banks. Here, nobody is avoiding the "schlep" of building an AI wrapper around APIs. Dozens of teams are racing toward it.
+
+Where's the schlep that would protect them? Workflow automation does have genuine schlep — but it's in the integrations themselves. Zapier spent over a decade building 8,000+ integrations. Bubble Lab has 16. The hard, boring, unglamorous work of maintaining API connections as every SaaS tool changes its endpoints, handling authentication edge cases across hundreds of services, dealing with rate limits and error states and data format mismatches — that's the real schlep of this business, and it's the schlep the incumbents have already done. Adding a natural language layer on top is the fun part, not the painful part. The founders aren't tackling the work everyone else avoids; they're tackling the work everyone else is also excited about.
+
+The strongest bull case is this: maybe the Slack-native approach is a genuine distribution insight, the way Figma being browser-native was the key insight against Adobe. If Pearl becomes the default way operations teams trigger workflows without leaving their primary workspace, there's a real product-led growth loop. The 3,800 users are something — not nothing. Zach Zhong is clearly technical, with eight years building automation solutions and the "3x founding engineer" credential. Getting SOC 2 Type 1 certified at pre-seed shows operational seriousness that most early teams lack. And applying to YC three times before getting in does show the kind of persistence I care about. If this team can somehow build enough integration depth fast enough that the Slack-native experience becomes genuinely superior to what Zapier and n8n can bolt on, there's a company here. But that's a big "if," and it requires winning a race against incumbents who have ten-year head starts on the hard infrastructure layer.
+
+The 3,800 users concern me precisely because there's no revenue signal attached. Free users of a Slack bot that automates a few workflows are very different from customers who pay because the product is critical to their operations. Airbnb's early hosts needed those rentals to pay their rent — there was real economic dependency. I see no evidence that Bubble Lab's users have that kind of need. The GitHub stars (1,000) are modest, and the decision to stop accepting community contributions in January 2026 undermines the open-source strategy's main advantage: community-driven development. You can't have it both ways — open-source for distribution but closed for development.
+
+These are competent, persistent founders building a working product. But the idea itself has no organic backstory, no hidden schlep that deters competition, and no evidence of the kind of user pull that separates real demand from interest. When the two biggest workflow automation companies in the world are actively building exactly what you're building, and they have thousands of times more integrations and millions more users, you need something they can't replicate. I don't see what that is here.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Organic Problem Discovery and Schlep Willingness | 7/30 |
+| Relentlessly Resourceful Founders | 12/25 |
+| Evidence of Wanting: Demonstrated User Pull | 8/20 |
+| Technical Hacker Founders Who Build | 10/15 |
+| Growth Trajectory and Default Alive Economics | 4/10 |
+| **Total** | **41/100** |
+
+**Total Score: 41/100** (Pass)

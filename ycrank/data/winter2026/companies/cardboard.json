@@ -1,0 +1,77 @@
+{
+  "slug": "cardboard",
+  "name": "Cardboard",
+  "oneLiner": "Agentic video editor",
+  "metadata": {
+    "website": "https://usecardboard.com",
+    "yc_page": "https://www.ycombinator.com/companies/cardboard",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, SaaS, Consumer, Video, Media",
+    "yc_partner": "Ankit Gupta",
+    "emails": "founders@usecardboard.com (company website)"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "SaaS",
+    "Consumer",
+    "Video",
+    "Media"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 47,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 36,
+    "EG": 44,
+    "NR": 52,
+    "PG": 59,
+    "PT": 38,
+    "SL": 29,
+    "VK": 47
+  },
+  "consolidatedAvg": 43.57,
+  "consolidatedRank": 50,
+  "paths": {
+    "memo": "winter2026/memos/cardboard.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/cardboard.md",
+      "elad-gil": "winter2026/evals/elad-gil/cardboard.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/cardboard.md",
+      "paul-graham": "winter2026/evals/paul-graham/cardboard.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/cardboard.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/cardboard.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/cardboard.md"
+    }
+  }
+}

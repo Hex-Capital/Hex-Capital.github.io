@@ -1,0 +1,28 @@
+﻿# Ruma Care -- Paul Graham Evaluation
+
+Meng Fei Shen was a medical assistant at a rheumatology clinic that administers infusion therapy. She was the person sitting at the desk navigating seventy different payer portals, filling out paper forms, making phone calls to insurance companies, trying to get $100,000 biologic medications approved for patients who needed them. She didn't read a TechCrunch article about prior authorization being broken. She was the broken process. That's how you find a real startup idea -- not by brainstorming, but by living inside a problem until you can't stand it anymore and decide to fix it. When I ask "how did they find this problem?" the answer here is about as clean as it gets.
+
+The schlep is what makes this interesting. Prior authorization for biologics is a problem every rheumatologist in America knows about -- 37% of these medications get denied, each denial costs the clinic $2,000 to $8,000 in unreimbursed drug costs, and the average practice faces 30 to 50 denials per month. That's potentially millions in annual at-risk revenue. Everyone sees the problem. But the work required to fix it is genuinely ugly: every insurance company has different criteria for every medication-diagnosis combination, spread across dozens of portals, paper forms, and phone queues. This is the same pattern that kept online payments broken for a decade before Stripe. Thousands of programmers knew the payments API experience was terrible, but nobody wanted to wade into the banking regulations and fraud infrastructure. Here, thousands of healthcare workers know PA is terrible, but nobody wants to build the payer-by-payer, drug-by-drug criteria extraction engine. The schlep is the moat.
+
+The co-founder dynamics are right. Shen and Huang met in Yale's CS50 class freshman year, built a dining app together, then spent years at separate companies -- Apple, Uber, Walmart, Medallion, NASA JPL -- before reuniting for this. That's the co-founder pattern I trust: a relationship that predates the startup by many years, tested in separate contexts. Christina Huang brings genuine technical chops -- ML and robotics at Apple, healthcare integrations at Medallion with United Healthcare specifically, medical device software that improved CT-guided biopsy accuracy. She's not a generalist engineer assigned to healthcare; she's been building healthcare technology across multiple roles. The CEO brings the domain knowledge from the clinic floor; the CTO brings the engineering capability to build what the CEO knows needs to exist. That's a well-matched team.
+
+I take the competitive landscape seriously here. CoverMyMeds sold for $1.1 billion. Cohere Health has raised $200 million. Waystar is public with a billion in revenue. But when I look at the structural positioning, none of them are doing what Ruma Care does. CoverMyMeds charges drug manufacturers, not providers -- they have no economic incentive to optimize the provider-side workflow. Cohere Health builds tools for insurers to make faster decisions, which is literally the other side of the table. Infinitus automates phone calls, which is one piece of the puzzle but not the criteria extraction and packet assembly. Waystar offers a broad RCM module that treats authorization as one feature among hundreds. The biologics buy-and-bill niche demands deep specialization because each medication-payer-diagnosis triple has unique submission requirements. Broad platforms historically underserve these narrow-but-deep workflows, which is exactly why the problem persists.
+
+The traction signals are thin but directionally right for pre-seed. They're live in California and Nevada clinics -- plural, across two states -- and report a 50% reduction in denial rates and 20x reduction in staff time per authorization. I can't verify these numbers independently, but a 50% denial rate reduction translates directly to hundreds of thousands of dollars in recovered revenue for a rheumatology practice. If clinics are seeing that kind of impact, the switching costs build themselves. The free Formulary Navigator tool as a lead-generation mechanism shows some GTM craftiness -- give clinics a useful free tool, then convert them to the full platform. That's a small signal of resourcefulness in distribution thinking.
+
+The regulatory timing is genuinely favorable. CMS-0057-F took effect January 2026, compressing PA decision timelines and requiring API-based data exchange by 2027. This forces digitization of PA workflows across the system, which expands the addressable market for automation tools exactly when Ruma Care is entering it. But I don't weight timing too heavily -- the right founders in the right schlep will find a way regardless of regulatory tailwinds.
+
+What I don't have is revenue data, growth curves, or specific clinic names. At pre-seed, that's expected. The absence doesn't alarm me. What I do have is a CEO who was literally the user, a CTO with healthcare ML engineering experience, a co-founder relationship that goes back to freshman year, a working product in real clinics, and a problem that's been hiding in plain sight for years because the schlep scared everyone away. That combination is enough for me to write a check.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Organic Problem Discovery and Schlep Willingness | 25/30 |
+| Relentlessly Resourceful Founders | 15/25 |
+| Evidence of Wanting: Demonstrated User Pull | 13/20 |
+| Technical Hacker Founders Who Build | 11/15 |
+| Growth Trajectory and Default Alive Economics | 5/10 |
+| **Total** | **69/100** |
+
+**Total Score: 69/100** (Invest)

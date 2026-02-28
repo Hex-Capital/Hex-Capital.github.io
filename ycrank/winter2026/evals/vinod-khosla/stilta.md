@@ -1,0 +1,24 @@
+﻿# Stilta -- Vinod Khosla Evaluation
+
+The first thing I see when I look at Stilta is the competitive landscape, and what it tells me about timing. Solve Intelligence has $55 million in funding and eight-figure ARR. DeepIP reached seven-figure ARR in seven months. Patlytics grew ARR 20x in six months. These are not legacy incumbents asleep at the wheel -- these are fast-moving startups that have already demonstrated product-market fit in AI patent tooling. When I backed Juniper, Cisco's CTO told me they would never build a TCP/IP router -- that dismissal was the signal. Here, the market has already been validated and the race is well underway. Stilta is arriving with four people and $500K to a party where the drinks are half gone. That's not skating to where the puck will be. That's arriving at a rink where several well-capitalized teams are already playing.
+
+But the more fundamental issue is consequence magnitude. If Stilta succeeds completely -- becomes the dominant AI workspace for patent attorneys worldwide -- what changes? Patent filings happen faster. Lawyers bill fewer hours per patent. IP departments consolidate their tool stack. That's a fine business. It might be a billion-dollar outcome. But I keep coming back to my core question: does the world operate differently? The answer is no. The patent system continues in its current form. No trillion-dollar industry is disrupted. No physical reality is transformed. A 60% reduction in manual patent review work is an efficiency gain, not a structural displacement. "Cursor for patent attorneys" is an honest framing -- Cursor makes developers more productive within the existing paradigm of software development. It doesn't eliminate developers or reinvent what software is. That's the ceiling Stilta has implicitly set for itself.
+
+The team composition reinforces my concern. Four McKinsey and QuantumBlack alumni building enterprise workflow software. These are people trained to identify manageable market segments and optimize within existing systems -- that is literally what McKinsey consultants do for a living. I look for outsiders who don't know what the industry considers impossible, which frees them to attempt it. A team of management consultants building productivity tools for a professional services niche is the opposite of that pattern. They've brought establishment credibility to an establishment problem. Oskar Block's bootstrapped sports betting startups to $1M ARR demonstrate execution ability, which I respect -- but execution on a small ambition is still a small ambition. And critically, not one of the four founders has patent law experience. For a product that must meet legal-grade accuracy thresholds where a single missed prior art reference could lead to malpractice exposure, that absence is not an outsider advantage -- it's a domain gap that the competitive landscape won't wait for them to fill.
+
+The strongest bull case would require me to believe that the end-to-end workspace approach is structurally superior to the point solutions that are already scaling -- that Stilta's breadth becomes a moat as firms consolidate tools. There's a version of this story where Stilta becomes the Salesforce of IP workflow: the integrated platform that displaces a fragmented stack of specialized tools. If I believed patent law firms would pay a significant premium for consolidation, and that a four-person team could build end-to-end depth competitive with focused teams that are 12-18 months ahead with 50-100x more capital, this could work. The underlying LLM timing is genuinely favorable -- agentic AI capabilities crossed the threshold for reliable legal document analysis in 2024-2025, and patent filing volumes continue to grow faster than attorney supply. But even in the best case, I'm looking at a workflow automation company in a $3-13 billion addressable market with multiple well-funded competitors. The magnitude of success isn't large enough to justify the magnitude of risk.
+
+I'll say what I always say to teams like this: you're smart enough to work on something bigger. Four people with this caliber of AI engineering talent and enterprise credibility could attack a problem where the consequence of success is civilization-scale. Instead, you've chosen a problem where the consequence of success is that patent lawyers save time. The market is real, the timing is reasonable, the team can execute -- and you've reduced the probability of failure to the point where success doesn't much matter.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Consequence Magnitude If Successful | 8/30 |
+| Founder Learning Rate and Contrarian Courage | 11/25 |
+| Technology Disruption Potential vs. Incumbent Systems | 8/20 |
+| Rate of Change and Timing Trajectory | 8/15 |
+| Gene Pool Engineering and Team Construction | 5/10 |
+| **Total** | **40/100** |
+
+**Total Score: 40/100** (Pass)

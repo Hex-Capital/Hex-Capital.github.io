@@ -1,0 +1,73 @@
+{
+  "slug": "eigenpal",
+  "name": "EigenPal",
+  "oneLiner": "AI Document Workflows for Enterprises",
+  "metadata": {
+    "website": "https://www.eigenpal.com/",
+    "yc_page": "https://www.ycombinator.com/companies/eigenpal",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Operations",
+    "team_size": "No public data found",
+    "location": "San Francisco, CA, USA",
+    "tags": "Documents, Artificial Intelligence, Automation"
+  },
+  "tags": [
+    "Documents",
+    "Artificial Intelligence",
+    "Automation"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 35,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 31,
+    "EG": 39,
+    "NR": 38,
+    "PG": 49,
+    "PT": 29,
+    "SL": 28,
+    "VK": 35
+  },
+  "consolidatedAvg": 35.57,
+  "consolidatedRank": 120,
+  "paths": {
+    "memo": "winter2026/memos/eigenpal.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/eigenpal.md",
+      "elad-gil": "winter2026/evals/elad-gil/eigenpal.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/eigenpal.md",
+      "paul-graham": "winter2026/evals/paul-graham/eigenpal.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/eigenpal.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/eigenpal.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/eigenpal.md"
+    }
+  }
+}

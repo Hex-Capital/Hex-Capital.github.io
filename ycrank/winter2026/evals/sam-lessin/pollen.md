@@ -1,0 +1,26 @@
+﻿# Pollen -- Sam Lessin Evaluation
+
+This is a textbook example of the company I describe when people ask me what I don't invest in. Three recent UC Berkeley CS graduates, fresh off pivoting from a consumer AI clone product, building an "AI-powered" version of an existing enterprise software category -- customer success platforms -- where four well-funded incumbents are already shipping the exact same AI features. If I were designing a hypothetical company to illustrate why I believe AI is a bad startup investment, Pollen would be the slide deck. The idea isn't insane. It's the most obvious LLM application in B2B SaaS. Every product manager at Gainsight, Totango, ChurnZero, and Vitally woke up the morning after ChatGPT launched and thought "we should build AI agents that draft customer emails and flag churn risk." That's not a startup opportunity -- that's a feature roadmap item for incumbents with $200 million in revenue and thousands of existing customer relationships.
+
+The sane-person-insane-idea filter fails on both halves here. On the "sane" side: I need founders whose specific background makes them credible for this particular problem. These founders have no visible customer success experience. They were building an iMessage AI clone six months ago. Amazon SDE internships and a Berkeley CS degree make you a competent engineer -- they don't make you credible telling VP of Customer Success at a mid-market SaaS company how to run their org. On the "insane" side: there is nothing non-consensus about AI agents for customer success. The market has already priced this in. When Gainsight, ChurnZero, and Vitally are all publicly marketing AI capabilities, you are not pursuing an idea that provokes skepticism -- you are chasing a wave that every fund and every incumbent already sees.
+
+The structural moat question is where this fully collapses for me. Apply the test I now apply to everything: would this business be good if AI didn't exist? The answer is obviously no -- without AI, there is no product. The AI IS the business. That's the worst possible configuration in my framework. Craftwork works because painting crews can't be commoditized by software. Metropolis works because installed parking hardware can't be replicated with an API call. Pollen's entire value proposition -- connecting to CRM, email, and support tickets, then running inference to surface churn signals -- is a stack of API integrations plus an LLM. Any funded competitor can replicate this. Any incumbent can add this as a feature. The "data network effects" argument (more accounts monitored = better predictions) is the most overused hypothetical moat in venture, and it almost never materializes in practice because the data isn't proprietary enough and the switching costs aren't high enough in the early years when the data advantage would need to compound.
+
+The two-YC-batches-two-products pattern is worth calling out specifically. Daymi in YC S25, Pollen in YC W26. Two completely unrelated products in consecutive batches -- consumer AI clone, then B2B customer success AI. This pattern doesn't read as "fast iteration" to me. It reads as founders optimizing for the fundraising motion -- finding whatever idea fits the current batch cycle. That's the "factory-farmed" signal I've written extensively about. Where is the deep conviction? Where is the founder who has spent years thinking about why customer success is broken and has a structural insight nobody else has? I see technical talent looking for a problem, not domain operators who've found a solution.
+
+The strongest bull case would be an Innovator's Dilemma argument: Gainsight can't cannibalize its $200M dashboard-and-playbook business to go agent-native, so a startup that builds agent-first from day one captures the architectural transition. There's a version of this story where Pollen becomes the Figma to Gainsight's Adobe -- a generational UX paradigm shift that incumbents structurally cannot match. For this to work, the agent-first experience would need to be so dramatically superior that mid-market CS teams choose Pollen despite its lack of integrations, lack of track record, and lack of the historical data their incumbent already holds. I've seen this happen exactly once in a career (arguably Slack vs. email), and it requires a product genius with obsessive domain knowledge driving the UX. Nothing in this team's background suggests that person exists here. The bull case also requires that no other startup builds the same thing -- and dozens are building AI agents for adjacent B2B workflows right now.
+
+This is a clear pass. Smart, scrappy founders chasing a consensus idea in a software category that AI is simultaneously creating and destroying. The winner of this market will be the incumbent with distribution, not the startup with the freshest LLM wrapper.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| "Sane Person, Insane Idea" Calibration | 6/30 |
+| AI-Resistant Structural Moat | 3/25 |
+| New Primitive or Protocol Position | 4/20 |
+| Narrative Magnitude and Infinity Optionality | 5/15 |
+| Real Revenue or Asset Cushion | 3/10 |
+| **Total** | **21/100** |
+
+**Total Score: 21/100** (Strong Pass)

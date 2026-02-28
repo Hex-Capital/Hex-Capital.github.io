@@ -1,0 +1,74 @@
+{
+  "slug": "wideframe",
+  "name": "Wideframe",
+  "oneLiner": "AI agent for video work outside the NLE",
+  "metadata": {
+    "website": "https://wideframe.com",
+    "yc_page": "https://www.ycombinator.com/companies/wideframe",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, SaaS",
+    "yc_partner": "Brad Flora",
+    "emails": "daniel@wideframe.com (YC page)"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "SaaS"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 62,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 61,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 68,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 41,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 41,
+    "EG": 62,
+    "NR": 61,
+    "PG": 68,
+    "PT": 41,
+    "SL": 31,
+    "VK": 41
+  },
+  "consolidatedAvg": 49.29,
+  "consolidatedRank": 24,
+  "paths": {
+    "memo": "winter2026/memos/wideframe.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/wideframe.md",
+      "elad-gil": "winter2026/evals/elad-gil/wideframe.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/wideframe.md",
+      "paul-graham": "winter2026/evals/paul-graham/wideframe.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/wideframe.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/wideframe.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/wideframe.md"
+    }
+  }
+}

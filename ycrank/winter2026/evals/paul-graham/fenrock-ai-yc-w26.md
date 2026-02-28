@@ -1,0 +1,26 @@
+﻿# Fenrock AI (YC W26) -- Paul Graham Evaluation
+
+The first thing I notice about Fenrock AI is that the CEO has no GitHub and no visible connection to financial crime compliance. Charu Sharma's career runs through LinkedIn sales, HR tech, Latin American healthtech, and venture capital networking. She's co-founded a VC fund, given 600 talks, organized three TEDx conferences, and made Forbes 30 Under 30 -- for healthcare, not fintech. When I ask the question I always ask first -- "how did this founder find this problem?" -- I find nothing. No story about watching compliance analysts drown in false positives. No prior role at a bank's BSA/AML department. No regulatory background at all. The closest data point is an advisory role at PocketCFO, a fintech startup, which is like saying you understand surgery because you once toured a hospital. The second team member isn't even publicly identified, so the domain expertise gap might be filled or it might not be. I can't evaluate what I can't see.
+
+This has the shape of what I've called a "sitcom startup" -- the kind of idea a writer would come up with for a show about startups. Take the hottest technology category (AI agents), apply it to a large, boring, obviously painful market (AML compliance), and describe the value proposition in terms of multipliers: "10X analyst productivity." The market is real. The pain is real. Compliance analysts genuinely are drowning in false positives from rule-based systems, and the regulatory schlep is exactly the kind of thing that causes unconscious avoidance. But that's the problem *description*, not the problem *discovery*. The schlep in financial crime compliance isn't hiding in plain sight waiting for someone to notice it -- it's extremely well-known, and well-funded companies are already attacking it with hundreds of millions in capital. Feedzai has raised $364M. Sardine has raised $145M with 130% ARR growth. ComplyAdvantage has $167M. Even Flagright, a YC company from S22, has raised $14M specifically for AI-native AML. This isn't a space where the problem is invisible. It's a space where the problem is obvious and the competition is intense.
+
+The bull case would go something like this: Charu Sharma has demonstrated she can build and sell enterprise software. NextPlay.ai landed Splunk, Logitech, Coca-Cola, and Twitter as clients. Osana Salud scaled to 6 million patients and $26.5M in funding. She closed one startup and came back -- that's a resilience signal. Enterprise compliance is fundamentally a sales problem, and she knows enterprise sales from LinkedIn. The unnamed second team member might be a technical AML expert who writes the agents while she sells. If so, this could be a well-balanced team attacking a market where timing has shifted: LLMs have only recently become capable enough to handle multi-step compliance reasoning, and incumbents whose revenue depends on manual processes have a structural disincentive to automate. The window for a fast-moving startup to land early customers and build switching costs through regulatory validation is real and possibly brief.
+
+But I don't invest based on hypothetical team compositions. The founder I can see is a non-technical serial entrepreneur whose defining skills appear to be fundraising and visibility -- 600 talks, TEDx conferences, Forbes lists, a VC fund. Those are signals of someone who's optimized for the startup ecosystem rather than for building products. When I see a founder whose public footprint is primarily speaking engagements and networking, I worry about the earnestness test. Earnest founders work on problems because they can't stop thinking about them. This looks more like someone who's very good at starting startups deciding to start another one, choosing a market through analysis rather than obsession. The pattern reminds me of what I described in "Why Smart People Have Bad Ideas" -- capable people whose startup ideas emerge from deliberate brainstorming rather than genuine need.
+
+The technical gap is the other major concern. An AI agent company needs someone who can build AI agents. No GitHub profile for the CEO, no identified technical co-founder. Who is writing the compliance workflow automation? Who understands the difference between a demo that routes alerts and a production system that generates audit logs that satisfy OCC examiners? At pre-seed, the product should be buildable by the people in the room. I can't confirm that it is.
+
+I'm passing on this one. The market is real and the timing argument is plausible, but the founders haven't shown me why *they* are the ones to win it. No organic backstory, no domain expertise trail, no technical builder visible, and a crowded competitive field of companies with hundreds of millions in capital already deploying AI into exactly this workflow. The schlep is there, but the founders didn't find it by living inside it -- they found it by looking at market maps.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Organic Problem Discovery and Schlep Willingness | 5/30 |
+| Relentlessly Resourceful Founders | 11/25 |
+| Evidence of Wanting: Demonstrated User Pull | 5/20 |
+| Technical Hacker Founders Who Build | 3/15 |
+| Growth Trajectory and Default Alive Economics | 5/10 |
+| **Total** | **29/100** |
+
+**Total Score: 29/100** (Pass)

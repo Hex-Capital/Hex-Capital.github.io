@@ -1,0 +1,74 @@
+{
+  "slug": "congruent",
+  "name": "Congruent",
+  "oneLiner": "We build radars for end-to-end autonomy",
+  "metadata": {
+    "website": "https://congruent.io",
+    "yc_page": "https://www.ycombinator.com/companies/congruent",
+    "batch": "Winter 2026",
+    "industry": "Industrials / Industrials",
+    "team_size": "2",
+    "location": "Berkeley, California (Company Launch Tracker, Jan 2026 via search snippet)",
+    "tags": "Robotics, Radar, AI, Automotive"
+  },
+  "tags": [
+    "Robotics",
+    "Radar",
+    "AI",
+    "Automotive"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 68,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 61,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 54,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 48,
+    "EG": 44,
+    "NR": 68,
+    "PG": 57,
+    "PT": 52,
+    "SL": 61,
+    "VK": 54
+  },
+  "consolidatedAvg": 54.86,
+  "consolidatedRank": 9,
+  "paths": {
+    "memo": "winter2026/memos/congruent.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/congruent.md",
+      "elad-gil": "winter2026/evals/elad-gil/congruent.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/congruent.md",
+      "paul-graham": "winter2026/evals/paul-graham/congruent.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/congruent.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/congruent.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/congruent.md"
+    }
+  }
+}

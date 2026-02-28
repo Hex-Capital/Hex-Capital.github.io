@@ -1,0 +1,77 @@
+{
+  "slug": "martini",
+  "name": "Martini",
+  "oneLiner": "Collaborative AI-native filmmaking for professionals",
+  "metadata": {
+    "website": "https://martini.film",
+    "yc_page": "https://www.ycombinator.com/companies/martini",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Generative AI, Entertainment, Design Tools, Video, Media",
+    "yc_partner": "Jared Friedman",
+    "emails": "koh@c47.studio (company website)"
+  },
+  "tags": [
+    "Generative AI",
+    "Entertainment",
+    "Design Tools",
+    "Video",
+    "Media"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 42,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 40,
+    "EG": 37,
+    "NR": 52,
+    "PG": 57,
+    "PT": 32,
+    "SL": 33,
+    "VK": 42
+  },
+  "consolidatedAvg": 41.86,
+  "consolidatedRank": 63,
+  "paths": {
+    "memo": "winter2026/memos/martini.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/martini.md",
+      "elad-gil": "winter2026/evals/elad-gil/martini.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/martini.md",
+      "paul-graham": "winter2026/evals/paul-graham/martini.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/martini.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/martini.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/martini.md"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "origami-robotics",
+  "name": "Origami Robotics",
+  "oneLiner": "Manipulate Anything Robot",
+  "metadata": {
+    "website": "https://www.origami-robotics.com",
+    "yc_page": "https://www.ycombinator.com/companies/origami-robotics",
+    "batch": "Winter 2026",
+    "industry": "Industrials / Industrials",
+    "team_size": "5",
+    "location": "Millbrae, CA, USA",
+    "tags": "Artificial Intelligence, Robotics, Automation",
+    "yc_partner": "Ankit Gupta",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Robotics",
+    "Automation"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 57,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 36,
+    "EG": 35,
+    "NR": 49,
+    "PG": 55,
+    "PT": 32,
+    "SL": 39,
+    "VK": 57
+  },
+  "consolidatedAvg": 43.29,
+  "consolidatedRank": 53,
+  "paths": {
+    "memo": "winter2026/memos/origami-robotics.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/origami-robotics.md",
+      "elad-gil": "winter2026/evals/elad-gil/origami-robotics.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/origami-robotics.md",
+      "paul-graham": "winter2026/evals/paul-graham/origami-robotics.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/origami-robotics.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/origami-robotics.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/origami-robotics.md"
+    }
+  }
+}

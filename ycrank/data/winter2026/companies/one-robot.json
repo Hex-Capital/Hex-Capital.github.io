@@ -1,0 +1,74 @@
+{
+  "slug": "one-robot",
+  "name": "One Robot",
+  "oneLiner": "World models for VLA evals and training.",
+  "metadata": {
+    "website": "https://www.onerobot.io/",
+    "yc_page": "https://www.ycombinator.com/companies/one-robot",
+    "batch": "Winter 2026",
+    "industry": "Industrials / Manufacturing and Robotics",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Hard Tech, Machine Learning, Robotics, AI"
+  },
+  "tags": [
+    "Hard Tech",
+    "Machine Learning",
+    "Robotics",
+    "AI"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 61,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 48,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 41,
+    "EG": 49,
+    "NR": 61,
+    "PG": 58,
+    "PT": 39,
+    "SL": 34,
+    "VK": 48
+  },
+  "consolidatedAvg": 47.14,
+  "consolidatedRank": 32,
+  "paths": {
+    "memo": "winter2026/memos/one-robot.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/one-robot.md",
+      "elad-gil": "winter2026/evals/elad-gil/one-robot.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/one-robot.md",
+      "paul-graham": "winter2026/evals/paul-graham/one-robot.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/one-robot.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/one-robot.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/one-robot.md"
+    }
+  }
+}

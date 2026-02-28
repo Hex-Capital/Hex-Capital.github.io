@@ -1,0 +1,72 @@
+{
+  "slug": "stilta",
+  "name": "Stilta",
+  "oneLiner": "Cursor for patent attorneys",
+  "metadata": {
+    "website": "https://stilta.com",
+    "yc_page": "https://www.ycombinator.com/companies/stilta",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "LegalTech, AI"
+  },
+  "tags": [
+    "LegalTech",
+    "AI"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 27,
+      "tier": "Strong Pass"
+    },
+    "vinod-khosla": {
+      "score": 40,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 31,
+    "EG": 39,
+    "NR": 37,
+    "PG": 38,
+    "PT": 28,
+    "SL": 27,
+    "VK": 40
+  },
+  "consolidatedAvg": 34.29,
+  "consolidatedRank": 131,
+  "paths": {
+    "memo": "winter2026/memos/stilta.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/stilta.md",
+      "elad-gil": "winter2026/evals/elad-gil/stilta.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/stilta.md",
+      "paul-graham": "winter2026/evals/paul-graham/stilta.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/stilta.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/stilta.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/stilta.md"
+    }
+  }
+}

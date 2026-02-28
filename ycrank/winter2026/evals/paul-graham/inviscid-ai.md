@@ -1,0 +1,26 @@
+﻿# Inviscid AI -- Paul Graham Evaluation
+
+The case studies on Inviscid AI's website tell you everything you need to know about how this company found its problem. One is about HVAC vent optimization. Another is about coastal infrastructure stress analysis. A third is about storm surge forecasting. Three completely unrelated domains. When founders discover a problem organically -- when they've been living inside it -- they go deep into one thing. When they have a technology and go looking for applications, you get exactly this: a portfolio of demos across disparate verticals. This is a hammer shopping for nails. The physics-informed neural network is the real product. Buildings just happen to be the nail they've currently selected.
+
+Neither founder has any documented connection to buildings, HVAC systems, or facilities management. Kabir Jain is a 19-year-old IOAI gold medalist from NUS High School in Singapore. Ziming Qiu is a PhD student at NYU researching computer vision and medical image segmentation. Both are clearly smart. But when I ask the question I always ask first -- "how did they find this problem?" -- the honest answer is probably "market research." They looked at where physics-informed neural networks could be applied, saw that building energy optimization was a large and growing market, and built demos. That's the failure mode I wrote about years ago: brilliant people generating ideas that sound good on paper but didn't emerge from genuine need. If these founders could just as easily be applying PINNs to automotive aerodynamics or pharmaceutical molecular dynamics -- and based on their backgrounds, they obviously could -- then the motivation for buildings specifically is weak.
+
+The actual schlep in building HVAC optimization isn't the neural network math. The math is hard, but it's the kind of hard that PhD students are trained for. The real schlep is everything else: understanding BACnet and Modbus protocols, integrating with legacy building management systems from Johnson Controls and Honeywell, convincing a skeptical facilities manager to let you touch their chiller plant, dealing with the fact that every building is physically different, handling the on-site calibration that makes a digital twin actually useful. That schlep requires years of domain immersion. The founders who succeed in proptech are the ones who've spent time in mechanical rooms, not just in Jupyter notebooks. I see no evidence that either founder has any appetite for or experience with that particular kind of tedium.
+
+The strongest bull case goes something like this: data centers are exploding because of AI compute demand, cooling is 30-40% of their energy costs, and a 1000x speedup in CFD simulation is a genuine technical achievement that could become critical infrastructure. If Inviscid AI captures the data center cooling optimization niche specifically, incumbents' legacy BMS systems can't compete on physics fidelity, and the team's raw technical talent lets them build something nobody else can match -- then this could work. The Trane acquisition of BrainBox AI validates that big HVAC companies will buy rather than build AI capabilities, which gives a two-person startup a plausible exit path. And I've made exceptions before for deep-tech ambition -- Boom Supersonic got my largest personal check. But Blake Scholl had been obsessing about supersonic flight for years before starting Boom. The ambition was personal and specific. Here, the founders' relationship to buildings appears opportunistic. They could pivot to any domain where fluid dynamics matters, and that flexibility, which sounds like a strength, is actually a weakness. It means they're not locked in.
+
+The co-founder relationship also concerns me. A 19-year-old in Singapore and a PhD student at NYU -- no shared employer, no shared university, no obvious pre-existing connection. How did they meet? Probably through startup networks or AI competition circuits, specifically to start a company. I've seen this pattern enough times to know it's fragile. Nine companies in one YC batch added co-founders they didn't know well, and all nine fell apart within a year. I'm not saying that will happen here, but the absence of a deep prior relationship in a domain that requires years of grinding enterprise sales is a real structural risk.
+
+The technical talent is real -- I won't dismiss an IOAI gold medal or a PhD in ML. These founders can clearly build the AI component. But the AI component is the part that's becoming commoditized. ANSYS, Siemens, and PhysicsX (with $170M in funding) are all incorporating physics-informed neural networks into their simulation stacks. PassiveLogic has $125M+ and is building physics-based digital twins for buildings specifically, with Johnson Controls as an investor. The moat here isn't the math -- it's the domain integration and customer relationships, and those are exactly where this team is weakest.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Organic Problem Discovery and Schlep Willingness | 4/30 |
+| Relentlessly Resourceful Founders | 6/25 |
+| Evidence of Wanting: Demonstrated User Pull | 4/20 |
+| Technical Hacker Founders Who Build | 8/15 |
+| Growth Trajectory and Default Alive Economics | 4/10 |
+| **Total** | **26/100** |
+
+**Total Score: 26/100** (Pass)

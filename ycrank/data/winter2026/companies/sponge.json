@@ -1,0 +1,75 @@
+{
+  "slug": "sponge",
+  "name": "Sponge",
+  "oneLiner": "Financial infrastructure for the agent economy",
+  "metadata": {
+    "website": "https://paysponge.com/",
+    "yc_page": "https://www.ycombinator.com/companies/sponge",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B",
+    "team_size": "3",
+    "location": "No public data found",
+    "tags": "Artificial Intelligence, Fintech, SaaS, Crypto / Web3, Payments"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Fintech",
+    "SaaS",
+    "Crypto / Web3",
+    "Payments"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 45,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 34,
+    "EG": 44,
+    "NR": 48,
+    "PG": 49,
+    "PT": 33,
+    "SL": 36,
+    "VK": 45
+  },
+  "consolidatedAvg": 41.29,
+  "consolidatedRank": 67,
+  "paths": {
+    "memo": "winter2026/memos/sponge.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/sponge.md",
+      "elad-gil": "winter2026/evals/elad-gil/sponge.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/sponge.md",
+      "paul-graham": "winter2026/evals/paul-graham/sponge.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/sponge.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/sponge.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/sponge.md"
+    }
+  }
+}

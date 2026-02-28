@@ -1,0 +1,26 @@
+﻿# Compresr -- Paul Graham Evaluation
+
+The problem with Compresr isn't that context compression doesn't matter. It's that the problem is dissolving from the other direction. LLM inference costs have dropped roughly 10x annually. Context windows have expanded from 4K to over a million tokens. Anthropic already ships prompt caching. OpenAI offers cached context discounts. When I evaluate a startup, I ask whether the problem will be bigger or smaller in three years. Context compression solves a real pain today, but every quarter the major providers are chipping away at that pain through brute economic force -- lower prices, bigger windows, smarter caching. You don't want to build a company whose value proposition is in a race against Moore's Law's AI equivalent. Stripe's problem -- the regulatory and banking schlep of payment processing -- gets harder over time, not easier. That's the kind of problem I want to fund. Compresr's problem might just... go away.
+
+The origin of this idea concerns me specifically. Ivan Zakazov researched LLM context compression at EPFL. Oussama Gabouj worked on prompt compression at EPFL's DLab. These are researchers who studied compression academically and then decided to commercialize it. That's a fundamentally different story than a founder who was building an agent pipeline, watched their inference bill hit $50K/month, and couldn't find a solution that worked. The academic-to-startup path can produce great companies, but it often produces what I'd call "solution looking for a problem" -- the founders have a technique they're excited about and need to find customers who share their excitement. When Drew Houston built Dropbox, he was scratching his own itch. When the Collison brothers built Stripe, they were solving their own payment integration nightmare. Here, I don't see the moment of organic discovery. I see a research project looking for a business model.
+
+There's also no schlep here, and that worries me more than anything. Context compression is a clean algorithmic challenge. It lives entirely in the domain these founders are already comfortable in -- ML research, API design, inference optimization. Compare that to Stripe, where the real work was navigating banking regulations, fraud detection, compliance across dozens of countries. The absence of schlep means the competitive barrier is purely technical quality, and that's the weakest kind of barrier because any well-funded team can hire ML researchers. Microsoft's LLMLingua already has 5,800 GitHub stars and is integrated into LangChain and LlamaIndex. It's free. Compresr has 102 stars. The dossier notes that "any team with ML expertise could build a compression layer using published techniques." That's exactly right, and it's exactly the problem.
+
+The strongest bull case is this: even as per-token costs fall, absolute spending on model APIs is exploding -- doubling to $8.4B according to Menlo Ventures. Agentic workflows accumulate massive context through tool traces and conversation history, and simply expanding the window doesn't help if filling it degrades accuracy. If Compresr's proprietary algorithms genuinely outperform LLMLingua on compression quality, and if they can position themselves as the managed infrastructure layer that every agent builder routes through -- essentially becoming a "Context Gateway" that sits between agents and models -- that could be a real business. The structural disincentive for LLM providers to offer compression (it cannibalizes their per-token revenue) creates a genuine window. And the team's research pedigree means they might actually have a technical edge. For this to work, though, token costs would need to stabilize as a meaningful budget line, the team would need to publish benchmarks proving superiority over LLMLingua, and they'd need to show that developers are choosing the managed API over self-hosting. None of those conditions are visible yet.
+
+I'll give the team credit for one thing: they can build. A working Go proxy, a Python SDK on PyPI, and claimed proprietary compression algorithms -- all built by four EPFL researchers. That's real. They're not outsourcing development or waiting to hire engineers. The technical foundation exists. But building is necessary and not sufficient. The question is whether anyone is pulling this product toward them, and 102 GitHub stars with no visible revenue signal, no press, and no customer evidence suggests the pull isn't there yet. At pre-seed I don't demand traction, but I want to see some sign that developers are finding this on their own and getting excited. The silence is noticeable.
+
+This is a team of smart researchers building a technically competent product in a category that faces structural headwinds. I respect the technical ability but I don't see the organic founder-problem connection, the schlep barrier, or the user pull that would make me write a check.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Organic Problem Discovery and Schlep Willingness | 8/30 |
+| Relentlessly Resourceful Founders | 10/25 |
+| Evidence of Wanting: Demonstrated User Pull | 5/20 |
+| Technical Hacker Founders Who Build | 10/15 |
+| Growth Trajectory and Default Alive Economics | 4/10 |
+| **Total** | **37/100** |
+
+**Total Score: 37/100** (Pass)

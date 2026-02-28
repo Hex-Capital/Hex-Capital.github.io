@@ -1,0 +1,75 @@
+{
+  "slug": "sidekit",
+  "name": "SideKit",
+  "oneLiner": "One package to take your mobile app to production.",
+  "metadata": {
+    "website": "https://appsidekit.com",
+    "yc_page": "https://www.ycombinator.com/companies/sidekit",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Analytics",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "API, Enterprise Software, Infrastructure",
+    "yc_partner": "Diana Hu",
+    "emails": "ashish@appsidekit.com, ethan@appsidekit.com (company website)"
+  },
+  "tags": [
+    "API",
+    "Enterprise Software",
+    "Infrastructure"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 21,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 22,
+      "tier": "Strong Pass"
+    },
+    "vinod-khosla": {
+      "score": 28,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 26,
+    "EG": 33,
+    "NR": 39,
+    "PG": 45,
+    "PT": 21,
+    "SL": 22,
+    "VK": 28
+  },
+  "consolidatedAvg": 30.57,
+  "consolidatedRank": 162,
+  "paths": {
+    "memo": "winter2026/memos/sidekit.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/sidekit.md",
+      "elad-gil": "winter2026/evals/elad-gil/sidekit.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/sidekit.md",
+      "paul-graham": "winter2026/evals/paul-graham/sidekit.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/sidekit.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/sidekit.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/sidekit.md"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+﻿# Jinba -- Elad Gil Evaluation
+
+The most striking thing about Jinba is the gap between the claim and the competitive reality. 40,000 enterprise users at major financial institutions -- if verified -- would be remarkable pre-seed traction for any workflow automation company. But that claim sits inside a market where Zapier does $310 million in revenue, Workato has $150 million ARR, and n8n just raised $253 million at a $2.5 billion valuation after 6x user growth in 2025. Enterprise workflow automation is not a non-obvious market. It's one of the most consensus, best-funded categories in enterprise software. When I look for the structural moment that makes this market possible NOW when it wasn't before, the answer is "LLMs can generate workflow logic from natural language." That's the same answer every AI company gives in 2026. It's not a thesis -- it's a timestamp.
+
+The deeper problem is that Jinba's core differentiation -- conversational AI for workflow building -- is already being absorbed by the incumbents. Workato launched Genies in August 2025. n8n is integrating AI-assisted workflow generation on top of an open-source, self-hostable product with an existing developer community. Zapier has $310 million in revenue and 8,000+ connectors to build AI features on top of. Jinba is entering a feature race against companies with 100x their resources, 100x their connector libraries, and established enterprise trust. When I see this pattern -- a startup whose primary differentiation is a UX layer that incumbents can replicate as a feature -- that's what I call software-aware rather than software-driven. The conversational interface doesn't fundamentally change the competitive dynamics of workflow automation. Remove the LLM layer and you have a workflow builder competing with vastly better-funded workflow builders.
+
+The contrast with Harvey is instructive. When I backed Harvey, legal AI was a market where NO incumbent automation tool had enterprise distribution into law firms. There was a structural vacancy. Law firms don't use Zapier. The AI capability gap was Harvey's to capture because nobody else was positioned. Jinba faces the opposite structure: every major workflow automation incumbent is positioned to add the same AI capability on top of existing customer relationships and integration ecosystems. There's no vacancy here -- there's a crowded field getting the same upgrade simultaneously.
+
+The bull case would require three things to be true. First, the 40,000 Japanese financial institution users represent genuine, deep product-market fit in compliance-sensitive environments -- not just free-tier sign-ups at Carnot. If Jinba has truly cracked Japanese megabank workflows with on-prem deployment, SOC 2 compliance, and audit logging, that's an enterprise trust asset that takes years to replicate. Second, that trust would need to transfer into US financial services through global institutions with Japanese operations -- creating a geographic arbitrage that US-first competitors can't match. Third, the on-prem LLM deployment capability (AWS Bedrock, Azure OpenAI, self-hosted Llama) would need to become the critical differentiator in regulated industries where data sovereignty blocks adoption of cloud-only competitors like Zapier and Workato. If all three hold, you'd have a company with a compliance-and-deployment moat in financial services that the consumer-oriented incumbents genuinely can't replicate quickly. That's a real thesis. But it requires multiple things to be simultaneously true -- and my framework says compounding conditional probabilities is exactly the kind of multi-miracle plan I avoid.
+
+On the founders: Matsumori's background at Preferred Networks (one of Japan's strongest AI labs) and his PhD in generative models give technical credibility. Norisugi's McKinsey-to-MBA profile covers enterprise strategy. They've shipped a real product with 100+ integrations over three years, which represents solid but not exceptional execution velocity. The geographic transition from Tokyo to San Francisco adds operational complexity -- enterprise sales motions, compliance certifications, and competitive positioning all reset when you cross the Pacific. SOC 2 Type II still being in progress in 2026 for a company founded in 2022 is a signal worth noting. The product-to-distribution trajectory is unclear: workflow automation CAN become a platform (Zapier and Workato have both expanded), but there's no evidence that Jinba's founders have articulated how their chat-first interface becomes a distribution channel for adjacent products rather than remaining a single tool.
+
+This is a competent team in a real market, but it's a consensus market with no structural inflection unique to Jinba, facing well-funded incumbents adding the same AI capabilities. The differentiation is a feature, not a moat. I pass.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Non-Obvious Market at Structural Inflection | 7/35 |
+| Product-to-Distribution Trajectory | 10/25 |
+| Single-Miracle Operational Clarity | 5/15 |
+| Founder Execution Velocity | 8/15 |
+| Technology Cycle Positioning | 5/10 |
+| **Total** | **35/100** |
+
+**Total Score: 35/100** (Pass)

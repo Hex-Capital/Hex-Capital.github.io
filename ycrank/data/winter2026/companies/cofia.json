@@ -1,0 +1,31 @@
+{
+  "slug": "cofia",
+  "name": "Cofia",
+  "oneLiner": "AI automations that write themselves",
+  "metadata": {
+    "website": "https://cofia.ai",
+    "yc_page": "https://www.ycombinator.com/companies/cofia",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Productivity",
+    "team_size": "2",
+    "location": "No public data found",
+    "tags": "Artificial Intelligence, SaaS, Productivity, AI Assistant",
+    "yc_partner": "Gustaf Alstromer",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "SaaS",
+    "Productivity",
+    "AI Assistant"
+  ],
+  "slideImage": null,
+  "evalScores": {},
+  "consolidatedScores": {},
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
+  "paths": {
+    "memo": "winter2026/memos/cofia.md",
+    "evals": {}
+  }
+}

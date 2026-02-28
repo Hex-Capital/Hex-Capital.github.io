@@ -1,0 +1,73 @@
+{
+  "slug": "overshoot",
+  "name": "Overshoot",
+  "oneLiner": "Enable developers to build and run AI vision applications",
+  "metadata": {
+    "website": "https://overshoot.ai",
+    "yc_page": "https://www.ycombinator.com/companies/overshoot",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Computer Vision, Infrastructure, AI"
+  },
+  "tags": [
+    "Computer Vision",
+    "Infrastructure",
+    "AI"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 62,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 44,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 43,
+    "EG": 42,
+    "NR": 62,
+    "PG": 55,
+    "PT": 38,
+    "SL": 32,
+    "VK": 44
+  },
+  "consolidatedAvg": 45.14,
+  "consolidatedRank": 43,
+  "paths": {
+    "memo": "winter2026/memos/overshoot.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/overshoot.md",
+      "elad-gil": "winter2026/evals/elad-gil/overshoot.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/overshoot.md",
+      "paul-graham": "winter2026/evals/paul-graham/overshoot.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/overshoot.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/overshoot.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/overshoot.md"
+    }
+  }
+}

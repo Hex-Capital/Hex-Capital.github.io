@@ -1,0 +1,26 @@
+﻿# Seeing Systems -- Paul Graham Evaluation
+
+The thing that caught my attention immediately is where this idea came from. Alexander Le Maitre wasn't reading TechCrunch articles about defense tech being hot. He was already building explosive ordnance disposal hardware at Wildcat I.S. for NATO forces, Special Forces units, and European military customers. He was inside the machine. When you've spent years designing hardware that bomb disposal teams use in the field, you don't need a brainstorming session to notice that military units desperately need better autonomous drones. You're hearing it directly from the people who fight. That's organic problem discovery in its purest form -- the idea grew out of the work, not out of a decision to start a startup.
+
+The schlep here is staggering. Defense procurement is arguably the ugliest schlep in all of technology. It makes payment processing -- Stripe's domain -- look like a weekend project. You need security clearances. Export licenses across multiple jurisdictions. Hardware that meets military specifications in contested electromagnetic environments. Trust relationships with institutions that take years to build and seconds to lose. Procurement cycles that stretch 12 to 36 months before anyone writes a check. Most founders' unconscious minds won't even let them see opportunities that involve this much institutional pain. That's schlep blindness at its most extreme, and it means competition will be structurally thinner at the execution layer than the crowded funding headlines suggest. Helsing and Shield AI raising billions doesn't mean they can replicate Alexander's existing relationships with Royal Marine Commandos.
+
+Speaking of those relationships: UK Royal Marines, several other UK military units, and four NATO forces -- as customers or partners, at the prototype stage, before they've raised anything beyond YC's $500K. That is extraordinary for a pre-seed company. Most defense startups spend their first two years just trying to get a meeting. Seeing Systems is already shipping prototypes for iterative feedback with operational military units. If those relationships came through Alexander's Wildcat I.S. work -- which the evidence strongly suggests -- then the founders brought their distribution channel with them from day one. That's the defense equivalent of the Collison brothers saying "right then, give me your laptop" and installing Stripe on the spot.
+
+The co-founder pairing is nearly ideal for this problem. Alexander handles military-grade embedded hardware (self-taught, which in hardware often signals real craft -- you don't fake PCB design). Matthew brings Cambridge CS, Jane Street engineering rigor, and autonomous vehicle research. Hardware plus autonomy software is exactly the capability split this product demands. And they're brothers from Guernsey. I've written about how dangerous it is when co-founders barely know each other -- nine companies in one batch added strangers as co-founders and all nine collapsed within a year. Brothers who grew up together on a 25-square-mile island are the opposite of that failure mode. The relationship predates the company by decades.
+
+My biggest concern is that defense drones are now a consensus hot category. When Germany is awarding 900 million euros in kamikaze drone contracts and Helsing has raised 1.4 billion, this is no longer an idea hiding in plain sight. The geopolitical catalyst -- Ukraine -- has made the opportunity visible to everyone. That normally triggers my wariness about crowded spaces. But I keep coming back to Stark: they raised $62M from Sequoia and Peter Thiel, and all four of their strikes failed in military trials. Having money and famous backers doesn't solve the fundamental problem that building reliable autonomous weapons systems is brutally hard. The schlep doesn't go away just because the category is hot. And the large defense primes face genuine innovator's dilemma -- Lockheed and BAE can't cannibalize their high-margin manned platforms to make intentionally cheap expendable drones. That structural misalignment is real.
+
+The capital intensity worries me more than the competition. $500K builds software companies. It doesn't build manufacturing lines for military hardware. They'll need to raise significantly more, and the distance between "shipping prototypes" and "production contracts with volume manufacturing" is vast and expensive. This is where I'd normally pass on hardware -- but it's also where I invested my largest personal check ever, in Boom Supersonic. When the ambition is genuinely important and the founders have the right organic relationship to the problem, I'm willing to override my software-first instincts. Seeing Systems isn't building supersonic aircraft, but they are building something that matters for NATO's ability to defend itself, and the founders didn't decide defense was interesting -- they were already there.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Organic Problem Discovery and Schlep Willingness | 23/30 |
+| Relentlessly Resourceful Founders | 14/25 |
+| Evidence of Wanting: Demonstrated User Pull | 13/20 |
+| Technical Hacker Founders Who Build | 12/15 |
+| Growth Trajectory and Default Alive Economics | 4/10 |
+| **Total** | **66/100** |
+
+**Total Score: 66/100** (Invest)

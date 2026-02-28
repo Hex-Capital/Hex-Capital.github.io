@@ -1,0 +1,76 @@
+{
+  "slug": "arzule",
+  "name": "Arzule",
+  "oneLiner": "AI-native revenue engine, starting with B2B partnerships",
+  "metadata": {
+    "website": "https://www.arzule.com",
+    "yc_page": "https://www.ycombinator.com/companies/arzule",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "SaaS, B2B, Market Research, AI",
+    "yc_partner": "Harshita Arora",
+    "emails": "founders@arzule.com, nikhil@arzule.com"
+  },
+  "tags": [
+    "SaaS",
+    "B2B",
+    "Market Research",
+    "AI"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 25,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 23,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 23,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 31,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 25,
+    "EG": 36,
+    "NR": 34,
+    "PG": 34,
+    "PT": 23,
+    "SL": 23,
+    "VK": 31
+  },
+  "consolidatedAvg": 29.43,
+  "consolidatedRank": 166,
+  "paths": {
+    "memo": "winter2026/memos/arzule.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/arzule.md",
+      "elad-gil": "winter2026/evals/elad-gil/arzule.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/arzule.md",
+      "paul-graham": "winter2026/evals/paul-graham/arzule.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/arzule.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/arzule.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/arzule.md"
+    }
+  }
+}

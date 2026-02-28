@@ -1,0 +1,77 @@
+{
+  "slug": "voygr",
+  "name": "VOYGR",
+  "oneLiner": "Real-world place intelligence for AI apps and agents",
+  "metadata": {
+    "website": "https://voygr.tech",
+    "yc_page": "https://www.ycombinator.com/companies/voygr",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B",
+    "team_size": "No public data found",
+    "location": "No public data found",
+    "tags": "Developer Tools, Geographic Information System, API, Search, AI",
+    "yc_partner": "Tyler Bosmeny",
+    "emails": "founders@voygr.tech (YC company page)"
+  },
+  "tags": [
+    "Developer Tools",
+    "Geographic Information System",
+    "API",
+    "Search",
+    "AI"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 60,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 27,
+      "tier": "Strong Pass"
+    },
+    "sam-lessin": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 41,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 34,
+    "EG": 47,
+    "NR": 60,
+    "PG": 56,
+    "PT": 27,
+    "SL": 33,
+    "VK": 41
+  },
+  "consolidatedAvg": 42.57,
+  "consolidatedRank": 57,
+  "paths": {
+    "memo": "winter2026/memos/voygr.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/voygr.md",
+      "elad-gil": "winter2026/evals/elad-gil/voygr.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/voygr.md",
+      "paul-graham": "winter2026/evals/paul-graham/voygr.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/voygr.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/voygr.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/voygr.md"
+    }
+  }
+}

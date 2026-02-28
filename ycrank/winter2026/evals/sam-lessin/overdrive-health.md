@@ -1,0 +1,24 @@
+﻿# Overdrive Health -- Sam Lessin Evaluation
+
+"AI-powered medical billing" is the kind of pitch that makes me immediately reach for the pass button. This is the platonic ideal of an obvious AI application -- a category so transparently suited to automation that every incumbent with distribution is already building it. CodaMetrix has raised $95 million. Cedar has $350 million and a $3.2 billion valuation. Epic and Oracle Health are integrating AI billing directly into their EHR platforms. When I say "the winner of the AI race depends on consumer distribution," medical billing is exhibit A: the distribution belongs to the EHR vendors who already sit inside every provider's workflow. A two-person pre-seed startup is not going to out-distribute Epic by running Facebook Pixel campaigns.
+
+The founders are credible -- Harvard CS with a master's, Jane Street trading systems, EliseAI. That's the "sane" half of my equation. But the idea is the opposite of insane. It's consensus. If you walk into any healthcare conference and say "AI should automate medical billing," heads will nod. Nobody thinks this is crazy. Nobody is confused by the proposition. And that's precisely the problem. When the idea is this obvious, the market has already priced in the opportunity. The non-consensus premium -- the thing that produces Solana-at-five-cents returns -- simply doesn't exist here. You're buying into a commodity race where the variable is execution speed and capital, and CodaMetrix has a three-year head start and ten times the funding.
+
+Now, someone could argue this is actually a "cherry on top" play -- a managed service business where AI reduces labor costs but the operational complexity of running full-cycle billing across thousands of payer rules creates a service moat. That's the Craftwork analogy: a billing company with a tech layer rather than a tech company with a billing layer. I'd listen to this argument if the operations were physical. Craftwork's moat is that you need actual humans with paintbrushes on ladders -- AI can optimize the dispatch but cannot replace the labor. Medical billing is fundamentally information processing. It's reading documents, applying codes, submitting claims, tracking denials. This is precisely the category where LLMs improve fastest. Every improvement in foundation models makes building a competitive billing AI easier. The "cherry on top" test asks: would this business be great if AI didn't exist? Without AI, Overdrive is just another outsourced billing company competing on labor arbitrage against R1 RCM and thousands of small billing shops. The AI isn't the cherry on top -- it's the entire sundae.
+
+The structural moat question compounds my concern. There's no protocol position here. Overdrive isn't creating a new primitive that other businesses build on -- it's an application sitting on top of existing EHR systems, existing payer APIs, and existing coding standards. The dossier explicitly notes "no public defensibility signals (patents, published proprietary datasets, open-source repos)" and acknowledges that "core components (coding AI, eligibility verification APIs, claim submission) are becoming increasingly available through off-the-shelf tools and APIs." When the building blocks are commoditizing and the distribution belongs to incumbents, you're trapped in the worst quadrant of my framework: narrow moat, application layer, obvious AI play, crowded market.
+
+For this to work as an investment, you'd need to believe something non-obvious: that the full-stack managed service model creates compounding switching costs as providers become dependent on Overdrive's institutional knowledge of their specific payer mix, and that this service-layer lock-in compounds faster than the underlying AI capabilities commoditize. You'd need to believe that EHR vendors won't build managed services because it conflicts with their software licensing model, and that traditional billing outsourcers will resist cannibalization long enough for an AI-native entrant to grab meaningful share. There's a version of this where it works -- where the founders' AI engineering background from EliseAI lets them build a meaningfully better service faster than the competition iterates -- but that story requires winning a sprint against well-capitalized competitors in a market where the incumbents have the distribution advantage. I don't fund sprints. I fund structural positions.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| "Sane Person, Insane Idea" Calibration | 10/30 |
+| AI-Resistant Structural Moat | 5/25 |
+| New Primitive or Protocol Position | 4/20 |
+| Narrative Magnitude and Infinity Optionality | 6/15 |
+| Real Revenue or Asset Cushion | 3/10 |
+| **Total** | **28/100** |
+
+**Total Score: 28/100** (Pass)

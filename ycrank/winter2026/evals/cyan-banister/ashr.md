@@ -1,0 +1,22 @@
+﻿# Ashr -- Cyan Banister Evaluation
+
+Here's what I notice first about Ashr: this is one of the most consensus categories in all of developer tools right now. Braintrust just closed $80M at an $800M valuation. Confident AI, Maxim AI, LangWatch, Langfuse — all funded, all targeting AI agent evaluation. OpenAI, Anthropic, Microsoft, and AWS have each shipped their own evaluation frameworks. When I look at a space and every major platform provider is already building the thing, and every VC in town is already funding competitors doing the thing, that's not where I find my investments. The most promising companies are not popular and are difficult to assess — this space is extremely popular and straightforward to assess. The weirdness has been entirely arbitraged away. Every developer tools investor at every fund I know is looking at AI eval companies. That's a signal for me to step back, not lean in.
+
+I tried to find the founders' stories — and I mean their real stories, not the business pitch. Shreyas Kaps is a current UC Berkeley undergrad, Class of 2028, who taught a Stanford CS section and started a cybersecurity club. Rohan Kulkarni is also at Berkeley with interests in software engineering and ML. And that's all I can find. No public GitHub profiles, no Twitter accounts, no writing, no prior companies, no narrative that connects these two specific people to the problem of testing AI agents in a way that nobody else could. I'm not saying undergrads can't build great companies — of course they can. But my entire evaluation process starts with the founder's biography, with the hardship that forged their obsession with this particular problem. When that signal is absent, I don't have a foundation to build conviction on. I have no way to answer my fundamental question: are these the people who will keep going when Braintrust is outspending them ten-to-one and AWS ships a free version of their core feature?
+
+The strongest bull case would be this: AI agents represent a genuine technological inflection point, and infrastructure at inflection points is exactly the kind of bet I've made before — SpaceX at the dawn of private space, Crusoe at the energy-to-compute boundary, Anduril when defense tech modernization was just beginning. If you believe the agentic AI market grows to $90B+ by 2032, someone has to build the testing layer, and maybe two hungry Berkeley students with YC backing can move faster than bloated incumbents. The "user journey simulation" framing — generating realistic multi-step stories through a product rather than just logging individual LLM calls — could be a genuine product insight if they can make the synthetic journeys feel indistinguishable from real users. I take that seriously. But infrastructure investments at inflection points only work for me when the founders have a biographical reason they'll outlast everyone else in the space, and when the idea itself is weird enough that the competition hasn't arrived yet. Neither condition holds here.
+
+There's also nothing in this company that creates economic access for people who currently lack it, or that makes an invisible system visible to those who need transparency. It's developer tooling for other AI teams — useful, sure, but it doesn't expand who gets to participate in the economy or surface power structures that were hidden. That's not a disqualifying factor by itself, but when I'm weighing where to put my own money, I want to feel that the company matters beyond its market. I want to daydream about the world it creates. And with Ashr, what I see is a competent tool in a crowded space — not something that gives me that jolt of intuitive energy I've learned to trust. No defensibility signals, no moat, Python-only SDK limiting the addressable base, and a brand name that shares a ticker symbol with a Chinese A-shares ETF. These are solvable problems, but they compound when the foundation — the founders' story, the non-consensus angle, the real-world impact — isn't there for me.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Biographical Grit and Personal Stake | 7/30 |
+| Anti-Consensus Conviction and Weird Factor | 4/25 |
+| Economic Access and Real-World Impact | 4/20 |
+| Navigating Complexity in Hard Spaces | 4/15 |
+| Co-Founder Alignment and Team Resilience | 5/10 |
+| **Total** | **24/100** |
+
+**Total Score: 24/100** (Pass)

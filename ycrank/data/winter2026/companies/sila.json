@@ -1,0 +1,29 @@
+{
+  "slug": "sila",
+  "name": "Sila",
+  "oneLiner": "Agent & Team Communication Workspace",
+  "metadata": {
+    "website": "https://silahq.com",
+    "yc_page": "https://www.ycombinator.com/companies/sila",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Productivity",
+    "team_size": "2",
+    "location": "No public data found",
+    "tags": "Artificial Intelligence, Productivity",
+    "yc_partner": "Diana Hu",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Productivity"
+  ],
+  "slideImage": null,
+  "evalScores": {},
+  "consolidatedScores": {},
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
+  "paths": {
+    "memo": "winter2026/memos/sila.md",
+    "evals": {}
+  }
+}

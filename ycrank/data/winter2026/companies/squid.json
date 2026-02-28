@@ -1,0 +1,70 @@
+{
+  "slug": "squid",
+  "name": "Squid",
+  "oneLiner": "AI-powered grid planning in your browser 🦑 (squid.energy)",
+  "metadata": {
+    "website": "https://squid.energy",
+    "yc_page": "https://www.ycombinator.com/companies/squid",
+    "batch": "Winter 2026",
+    "industry": "Industrials / Industrials -> Energy",
+    "team_size": "2",
+    "location": "London / San Francisco (squid.energy website)",
+    "yc_partner": "Gustaf Alstromer",
+    "emails": "hello@squid.energy"
+  },
+  "tags": [],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 68,
+      "tier": "Invest"
+    },
+    "naval-ravikant": {
+      "score": 66,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 71,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 48,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 47,
+    "EG": 68,
+    "NR": 66,
+    "PG": 71,
+    "PT": 44,
+    "SL": 50,
+    "VK": 48
+  },
+  "consolidatedAvg": 56.29,
+  "consolidatedRank": 7,
+  "paths": {
+    "memo": "winter2026/memos/squid.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/squid.md",
+      "elad-gil": "winter2026/evals/elad-gil/squid.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/squid.md",
+      "paul-graham": "winter2026/evals/paul-graham/squid.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/squid.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/squid.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/squid.md"
+    }
+  }
+}

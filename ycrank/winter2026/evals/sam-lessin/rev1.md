@@ -1,0 +1,24 @@
+﻿# REV1 -- Sam Lessin Evaluation
+
+REV1 is the exact company I describe when people ask me what I won't fund. Two credentialed engineers from Tesla and Apple building an AI tool that automates a tedious step in CAD workflows -- converting 3D models into 2D manufacturing drawings. The demo probably looks great. The pain point is real. And the structural logic is completely broken. SolidWorks shipped a beta of this exact feature in 2025. Siemens NX has it. DraftAid, a YC W24 company, has been doing this for two years with paid pilots worth $150K. When the AI capability is this obvious -- when incumbents with six billion euros in revenue are already building it -- the question isn't "can a startup do it better?" The question is "why would the market let a startup own this?"
+
+Here's what I'd say to Alex and Louis directly: you're sane people with a sane idea, and that's the problem. Alex designed motor components at Tesla, worked on the iPhone 17 lineup at Apple -- he's personally created these drawings hundreds of times. Louis solo-built Tesla's global Supercharger planning platform. These are genuinely strong operator credentials, directly relevant to the problem. But the idea of automating 2D drawing generation from 3D CAD files is not non-consensus. It's the most obvious application of AI to mechanical engineering that exists. Every LinkedIn commenter agreed the workflow is terrible. Every CAD vendor agrees. When everybody agrees, the opportunity is priced in, and the returns accrue to whoever has distribution -- which is Dassault Systèmes and Siemens, not a two-person startup in San Francisco.
+
+My "cherry on top" test demolishes this one. Would REV1 be a good business if AI didn't exist? No. There is no business without AI. The entire value proposition is that AI can interpret 3D geometry and generate 2D annotations. That's not a business where AI makes an already-good operation better -- it's a business that IS AI, which means it's a feature. And features get absorbed by platforms. SolidWorks' Auto-Generate Drawings is limited today, described as "not intended to complete your entire drawing" -- but that's what betas look like. Give Dassault another eighteen months and the dedicated R&D budget of an organization with tens of thousands of enterprise relationships. REV1 is building on someone else's infrastructure, dependent on proprietary file formats (.SLDPRT, .prt, .CATPart) that the platform owners can restrict at any time for competitive reasons. That's not just "no moat" -- it's a moat that works against you.
+
+The bull case I take most seriously: GD&T accuracy is genuinely hard. Getting geometric dimensioning and tolerancing right to ASME Y14.5 standards in aerospace or medical devices isn't something you can hack together with a generic vision model. If REV1 builds a system that mechanical engineers trust enough to send drawings directly to machine shops without human review, that's a meaningful quality threshold that incumbents' "good enough" features won't clear for years. And the incumbents have a business model conflict -- SolidWorks charges premium seat prices partly because the manual workflow is complex enough to justify them. Automating that workflow too well undermines their pricing power. There's a real structural opening there. But DraftAid is already two years into this same opening, with paid customers and multi-platform integration. For the bull case to work, REV1 needs to leapfrog both incumbents AND a funded, operating competitor in the same YC network, with no visible technical differentiator beyond "our founders used these tools at Tesla and Apple." That's a credibility signal, not a moat.
+
+The narrative ceiling seals it for me. "We automate 2D engineering drawings" is a feature description, not an infinity story. Maybe they expand to "all post-CAD manufacturing documentation" -- tolerance stack-up analysis, bill of materials generation, inspection reports. Fine. That's still a productivity tool for a workflow that the platform owners will steadily automate themselves. There's no primitive here, no protocol, no new layer that other businesses build on. This is an application on someone else's platform in a market where the platform owners are actively competing. I'd need to see something structurally different -- a new data standard for manufacturing intent, a cross-platform engineering knowledge graph, something that creates compounding network effects rather than linear per-customer value -- to get excited about the long-term position.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| "Sane Person, Insane Idea" Calibration | 10/30 |
+| AI-Resistant Structural Moat | 4/25 |
+| New Primitive or Protocol Position | 4/20 |
+| Narrative Magnitude and Infinity Optionality | 5/15 |
+| Real Revenue or Asset Cushion | 3/10 |
+| **Total** | **26/100** |
+
+**Total Score: 26/100** (Pass)

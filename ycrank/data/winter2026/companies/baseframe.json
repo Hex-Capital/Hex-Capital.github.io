@@ -1,0 +1,84 @@
+{
+  "slug": "baseframe",
+  "name": "BaseFrame",
+  "oneLiner": "AI agents for hardware design that catch risks and tradeoffs early",
+  "metadata": {
+    "website": "https://baseframe.co",
+    "yc_page": "https://www.ycombinator.com/companies/baseframe",
+    "batch": "W26 (Winter 2026)",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Hardware, Workflow Automation, Electronics"
+  },
+  "tags": [
+    "Hardware",
+    "Workflow Automation",
+    "Electronics"
+  ],
+  "keyFacts": {
+    "tam": "EDA market: ~$19-20B (2025); BOM software market: ~$8-9B (2024) — sources: Mordor Intelligence, Spherical Insights",
+    "sam": "No public data found; subset of BOM/component engineering for electronics hardware teams",
+    "traction": "No public traction data",
+    "revenue_signal": "Custom-quote pricing model for teams; no published pricing tiers or revenue figures",
+    "founders": "Anshul Paul: UC Berkeley M.E.T., Founding Engineer at HappyRobot (YC); Vaibhav Agrawal: UC Berkeley CS, Sutter Hill Ventures Codepoint Fellow (Sigma Computing, Augment Code)",
+    "competitors": "CELUS ($27.4M), CircuitMind ($17.4M), Quilter ($35M+), SnapMagic ($4.7M), JITX ($12.1M), Altium (acquired ~$5.9B)",
+    "moat_signals": "Workflow embedding in Slack/Teams (switching costs); accumulating component/design data; pre-design scoping niche not addressed by incumbents",
+    "risk_factors": "Limited hardware domain expertise on founding team, well-funded competitors in adjacent space, incumbent EDA players adding AI features",
+    "founder_reach": "Anshul Paul: LinkedIn 500+ connections; Vaibhav Agrawal: LinkedIn 500+ connections. No confirmed Twitter/X or notable GitHub repos for either founder",
+    "distribution_signals": "No Product Hunt launch found; no app store listings; no confirmed company Twitter/X; LinkedIn company page exists but follower count unavailable; product distributed via Slack/Teams integrations"
+  },
+  "evalScores": {
+    "cyan-banister": {
+      "score": 4,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 4,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 4,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 4,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 3,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 3,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 4,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 2,
+    "EG": 2,
+    "NR": 2,
+    "PG": 2,
+    "PT": 2,
+    "SL": 2,
+    "VK": 3
+  },
+  "consolidatedAvg": 2.14,
+  "consolidatedRank": 70,
+  "paths": {
+    "memo": "winter2026/memos/baseframe.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/baseframe.md",
+      "elad-gil": "winter2026/evals/elad-gil/baseframe.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/baseframe.md",
+      "paul-graham": "winter2026/evals/paul-graham/baseframe.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/baseframe.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/baseframe.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/baseframe.md"
+    }
+  }
+}

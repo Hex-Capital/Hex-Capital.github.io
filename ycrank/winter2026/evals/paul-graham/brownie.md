@@ -1,0 +1,26 @@
+﻿# IncidentFox -- Paul Graham Evaluation
+
+The first thing I notice about IncidentFox is the competitive landscape, and what it tells me about the nature of this problem. When Stripe started in 2010, thousands of programmers knew payment processing was broken. But nobody was building the fix. The schlep -- dealing with banks, compliance, fraud -- acted as an invisible force field that repelled founders. That's what made it a great opportunity. Incident management in 2026 is the opposite situation. At least five well-funded startups have raised a combined $300M+ to attack this exact problem. Datadog and PagerDuty are shipping AI SRE features. There are so many AI incident tools that someone wrote a blog post called "Lots of AI SRE, no AI incident management" just to sort out the subcategories. When a problem has this many people working on it, the schlep isn't blind anymore. Everyone can see it. And when everyone can see it, the structural advantage of being willing to do hard work disappears -- because all your competitors are willing too.
+
+The organic backstory here is real but not exceptional. Both founders worked on infrastructure at Roblox supporting 100M+ daily active users. Long Yi was on the Stateful Infra team and "experienced the chaos of on-call firsthand." That's genuine domain experience. They weren't reading TechCrunch and thinking "AI is hot, let's find a category." They lived through production incidents at serious scale. But lived experience with on-call rotations is not rare among engineers -- it's nearly universal. The Resolve AI founders co-created OpenTelemetry and had prior exits to Splunk and VMware. When your competitors' organic backstories are stronger than yours, domain experience alone isn't a differentiator. The YC URL slug "brownie" also gives me pause. It suggests a pivot, and while pivots can be healthy, in a market this crowded I want to know the founders chose this problem because they were obsessed with it, not because it was a good market to pivot into.
+
+Where IncidentFox genuinely impresses me is on the technical hacker dimension. These are engineers who build. 943 commits on the repo with only 4 contributors means the founders are writing most of the code. They've built a working product with 300+ integrations, shipped an open-source repo, and created a separate RAG library (OpenRag) that demonstrates real research capability -- 74% Recall@10 on a standard benchmark. Jimmy Wei's Meta FAIR background in conversational AI is directly relevant to building an LLM agent that operates through Slack. The auto-discovery of integrations from a customer's codebase is a clever technical insight. These are not business people hiring engineers to build their vision. They are the engineers. That matters.
+
+The bull case would go something like this: open source is the right wedge into enterprise infrastructure markets dominated by expensive incumbents. Resolve AI raised $160M and targets large enterprises. incident.io charges enough to generate $9M in revenue. There's a gap at the bottom of the market -- smaller engineering teams that can't afford enterprise contracts but desperately need incident automation. If IncidentFox's open-source approach captures that segment and builds a community, per-customer learning creates a data moat that compounds over time, and the Apache 2.0 license becomes a distribution engine rather than a monetization liability. It's the playbook that worked for GitLab against GitHub Enterprise. For this to work, though, I'd need to see early signs of community pull -- developers self-hosting, contributing integrations, filing issues because they actually depend on the product. 305 GitHub stars and two Show HN posts that got 3 points and 1 point respectively are not that signal. That's essentially silence from the developer community.
+
+The absence of user pull is what keeps this in pass territory for me. No pilots deployed. No revenue. No organic growth story. Seeking two pilot partners for Q1 2026 means the product hasn't been tested in a real production environment with real stakes. In a greenfield market, I'd be patient about traction at pre-seed. But when your competitors include a company at $1B valuation with $4M ARR, the clock is running faster than normal. Every month without deployed pilots is a month where Resolve AI, incident.io, and Rootly are accumulating the per-customer learning data that was supposed to be your moat.
+
+These are competent technical founders with genuine domain experience building in a market that has already absorbed enormous amounts of capital and attention. The problem is real. The founders are real engineers. But the opportunity structure is wrong for my framework. The best startup ideas are the ones hiding in plain sight because the work required to solve them scares everyone away. Incident management in 2026 isn't scaring anyone away -- it's attracting everyone.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Organic Problem Discovery and Schlep Willingness | 14/30 |
+| Relentlessly Resourceful Founders | 10/25 |
+| Evidence of Wanting: Demonstrated User Pull | 6/20 |
+| Technical Hacker Founders Who Build | 11/15 |
+| Growth Trajectory and Default Alive Economics | 4/10 |
+| **Total** | **45/100** |
+
+**Total Score: 45/100** (Neutral)

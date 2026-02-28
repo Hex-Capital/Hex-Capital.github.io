@@ -1,0 +1,75 @@
+{
+  "slug": "codewisp",
+  "name": "CodeWisp",
+  "oneLiner": "Anyone can create real games with AI",
+  "metadata": {
+    "website": "https://codewisp.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/codewisp",
+    "batch": "Winter 2026",
+    "industry": "Consumer / Consumer -> Gaming",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Consumer, Gaming, Web Development, AI"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Consumer",
+    "Gaming",
+    "Web Development",
+    "AI"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 33,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 32,
+    "EG": 45,
+    "NR": 50,
+    "PG": 53,
+    "PT": 29,
+    "SL": 30,
+    "VK": 33
+  },
+  "consolidatedAvg": 38.86,
+  "consolidatedRank": 84,
+  "paths": {
+    "memo": "winter2026/memos/codewisp.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/codewisp.md",
+      "elad-gil": "winter2026/evals/elad-gil/codewisp.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/codewisp.md",
+      "paul-graham": "winter2026/evals/paul-graham/codewisp.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/codewisp.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/codewisp.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/codewisp.md"
+    }
+  }
+}

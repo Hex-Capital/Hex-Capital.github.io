@@ -1,0 +1,6031 @@
+{
+  "batch": "winter2026",
+  "companyCount": 176,
+  "personas": [
+    {
+      "slug": "cyan-banister",
+      "fullName": "Cyan Banister",
+      "fund": "Long Journey Ventures",
+      "abbr": "CB"
+    },
+    {
+      "slug": "elad-gil",
+      "fullName": "Elad Gil",
+      "fund": "Color Genomics co-founder, angel/seed investor",
+      "abbr": "EG"
+    },
+    {
+      "slug": "naval-ravikant",
+      "fullName": "Naval Ravikant",
+      "fund": "AngelList founder",
+      "abbr": "NR"
+    },
+    {
+      "slug": "paul-graham",
+      "fullName": "Paul Graham",
+      "fund": "Y Combinator co-founder",
+      "abbr": "PG"
+    },
+    {
+      "slug": "peter-thiel",
+      "fullName": "Peter Thiel",
+      "fund": "Founders Fund",
+      "abbr": "PT"
+    },
+    {
+      "slug": "sam-lessin",
+      "fullName": "Sam Lessin",
+      "fund": "Slow Ventures",
+      "abbr": "SL"
+    },
+    {
+      "slug": "vinod-khosla",
+      "fullName": "Vinod Khosla",
+      "fund": "Khosla Ventures",
+      "abbr": "VK"
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "name": "Beyond Reach Labs",
+      "slug": "beyond-reach-labs",
+      "scores": {
+        "CB": 54,
+        "EG": 53,
+        "NR": 73,
+        "PG": 74,
+        "PT": 69,
+        "SL": 75,
+        "VK": 69
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": "Invest",
+        "PG": "Invest",
+        "PT": "Invest",
+        "SL": "Invest",
+        "VK": "Invest"
+      },
+      "avg": 66.71,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "Space solar arrays that grow to the size of a football field in orbit",
+      "industry": "Industrials / Industrials -> Aviation and Space",
+      "tags": [
+        "Hard Tech",
+        "Hardware",
+        "Space Exploration",
+        "Satellites",
+        "Aerospace"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "GrazeMate",
+      "slug": "grazemate",
+      "scores": {
+        "CB": 68,
+        "EG": 60,
+        "NR": 67,
+        "PG": 72,
+        "PT": 54,
+        "SL": 65,
+        "VK": 65
+      },
+      "tiers": {
+        "CB": "Invest",
+        "EG": "Neutral",
+        "NR": "Invest",
+        "PG": "Invest",
+        "PT": "Neutral",
+        "SL": "Invest",
+        "VK": "Invest"
+      },
+      "avg": 64.43,
+      "revenue": null,
+      "teamSize": 4,
+      "oneLiner": "Robot Cowboys that Herd Cattle with AI Drones",
+      "industry": "Industrials / Industrials -> Agriculture",
+      "tags": [
+        "Livestock Health",
+        "Reinforcement Learning",
+        "Robotics",
+        "Drones",
+        "Sustainable Agriculture"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "Voltair",
+      "slug": "voltair",
+      "scores": {
+        "CB": 56,
+        "EG": 54,
+        "NR": 64,
+        "PG": 63,
+        "PT": 59,
+        "SL": 65,
+        "VK": 66
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Neutral",
+        "SL": "Invest",
+        "VK": "Invest"
+      },
+      "avg": 61,
+      "revenue": null,
+      "teamSize": 5,
+      "oneLiner": "Self Charging Drones",
+      "industry": "Industrials / Industrials -> Drones",
+      "tags": [
+        "Drones",
+        "Energy",
+        "Infrastructure"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "Valgo",
+      "slug": "valgo",
+      "scores": {
+        "CB": 47,
+        "EG": 57,
+        "NR": 74,
+        "PG": 60,
+        "PT": 53,
+        "SL": 57,
+        "VK": 53
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": "Invest",
+        "PG": "Neutral",
+        "PT": "Neutral",
+        "SL": "Neutral",
+        "VK": "Neutral"
+      },
+      "avg": 57.29,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "Algorithmic safety validation tools for autonomy.",
+      "industry": "B2B / B2B -> Engineering, Product and Design",
+      "tags": [
+        "Robotics",
+        "B2B",
+        "Aerospace",
+        "Trust & Safety",
+        "Self-Driving Vehicles"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "Ditto Biosciences",
+      "slug": "ditto-biosciences",
+      "scores": {
+        "CB": 57,
+        "EG": 49,
+        "NR": 68,
+        "PG": 52,
+        "PT": 44,
+        "SL": 64,
+        "VK": 62
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": "Invest",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Neutral",
+        "VK": "Neutral"
+      },
+      "avg": 56.57,
+      "revenue": null,
+      "teamSize": 3,
+      "oneLiner": "Evolutionary therapies for autoimmune disease",
+      "industry": "Healthcare / Healthcare -> Drug Discovery and Delivery",
+      "tags": [
+        "Biotech",
+        "Therapeutics",
+        "Drug discovery"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "Kita",
+      "slug": "kita",
+      "scores": {
+        "CB": 59,
+        "EG": 66,
+        "NR": 58,
+        "PG": 73,
+        "PT": 43,
+        "SL": 45,
+        "VK": 50
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Invest",
+        "NR": "Neutral",
+        "PG": "Invest",
+        "PT": "Pass",
+        "SL": "Neutral",
+        "VK": "Neutral"
+      },
+      "avg": 56.29,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "Turn documents into signals for lenders",
+      "industry": "Fintech / Fintech",
+      "tags": [
+        "Fintech",
+        "SaaS",
+        "Emerging Markets"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "Squid",
+      "slug": "squid",
+      "scores": {
+        "CB": 47,
+        "EG": 68,
+        "NR": 66,
+        "PG": 71,
+        "PT": 44,
+        "SL": 50,
+        "VK": 48
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Invest",
+        "NR": "Invest",
+        "PG": "Invest",
+        "PT": "Pass",
+        "SL": "Neutral",
+        "VK": "Neutral"
+      },
+      "avg": 56.29,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "AI-powered grid planning in your browser 🦑 (squid.energy)",
+      "industry": "Industrials / Industrials -> Energy",
+      "tags": []
+    },
+    {
+      "rank": 8,
+      "name": "BeeSafe AI",
+      "slug": "beesafe-ai",
+      "scores": {
+        "CB": 53,
+        "EG": 56,
+        "NR": 70,
+        "PG": 65,
+        "PT": 43,
+        "SL": 48,
+        "VK": 53
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": "Invest",
+        "PG": "Invest",
+        "PT": "Pass",
+        "SL": "Neutral",
+        "VK": "Neutral"
+      },
+      "avg": 55.43,
+      "revenue": null,
+      "teamSize": 3,
+      "oneLiner": "Stopping Scams Before They Reach Your Customers",
+      "industry": "B2B / B2B -> Security",
+      "tags": [
+        "Artificial Intelligence",
+        "Security",
+        "Cybersecurity",
+        "Fraud Prevention",
+        "Fraud Detection"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "Congruent",
+      "slug": "congruent",
+      "scores": {
+        "CB": 48,
+        "EG": 44,
+        "NR": 68,
+        "PG": 57,
+        "PT": 52,
+        "SL": 61,
+        "VK": 54
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Pass",
+        "NR": "Invest",
+        "PG": "Neutral",
+        "PT": "Neutral",
+        "SL": "Neutral",
+        "VK": "Neutral"
+      },
+      "avg": 54.86,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "We build radars for end-to-end autonomy",
+      "industry": "Industrials / Industrials",
+      "tags": [
+        "Robotics",
+        "Radar",
+        "AI",
+        "Automotive"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "CellType",
+      "slug": "celltype",
+      "scores": {
+        "CB": 42,
+        "EG": 45,
+        "NR": 72,
+        "PG": 57,
+        "PT": 46,
+        "SL": 47,
+        "VK": 72
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Invest",
+        "PG": "Neutral",
+        "PT": "Neutral",
+        "SL": "Neutral",
+        "VK": "Invest"
+      },
+      "avg": 54.43,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "The agentic drug company. We simulate human biology.",
+      "industry": "Healthcare / Healthcare -> Drug Discovery and Delivery",
+      "tags": [
+        "AI-powered Drug Discovery",
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Biotech",
+        "Therapeutics"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "Crosslayer Labs",
+      "slug": "crosslayer-labs",
+      "scores": {
+        "CB": 44,
+        "EG": 62,
+        "NR": 73,
+        "PG": 61,
+        "PT": 48,
+        "SL": 45,
+        "VK": 48
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Invest",
+        "PG": "Neutral",
+        "PT": "Neutral",
+        "SL": "Neutral",
+        "VK": "Neutral"
+      },
+      "avg": 54.43,
+      "revenue": null,
+      "teamSize": 3,
+      "oneLiner": "Protect, monitor and defend your Internet presence",
+      "industry": "B2B / B2B -> Security",
+      "tags": [
+        "SaaS",
+        "B2B",
+        "Cybersecurity"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "Aurorin CAD",
+      "slug": "aurorin-cad",
+      "scores": {
+        "CB": 43,
+        "EG": 47,
+        "NR": 68,
+        "PG": 61,
+        "PT": 56,
+        "SL": 45,
+        "VK": 59
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Invest",
+        "PG": "Neutral",
+        "PT": "Neutral",
+        "SL": "Neutral",
+        "VK": "Neutral"
+      },
+      "avg": 54.14,
+      "revenue": null,
+      "teamSize": 1,
+      "oneLiner": "We help hardware companies ship faster",
+      "industry": "B2B / B2B -> Engineering, Product and Design",
+      "tags": [
+        "Hard Tech",
+        "Hardware",
+        "B2B",
+        "AI"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "Kyten Technologies",
+      "slug": "kyten-technologies",
+      "scores": {
+        "CB": 45,
+        "EG": 62,
+        "NR": 58,
+        "PG": 62,
+        "PT": 43,
+        "SL": 57,
+        "VK": 45
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Neutral",
+        "VK": "Neutral"
+      },
+      "avg": 53.14,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "Custom aerospace-grade battery pack factory",
+      "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+      "tags": [
+        "Manufacturing",
+        "Aerospace"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "Voxel Energy",
+      "slug": "voxel-energy",
+      "scores": {
+        "CB": 46,
+        "EG": 48,
+        "NR": 52,
+        "PG": 59,
+        "PT": 45,
+        "SL": 58,
+        "VK": 64
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Neutral",
+        "SL": "Neutral",
+        "VK": "Neutral"
+      },
+      "avg": 53.14,
+      "revenue": null,
+      "teamSize": 3,
+      "oneLiner": "Energy independent data centers with solar and repurposed batteries.",
+      "industry": "Industrials / Industrials -> Energy",
+      "tags": [
+        "Renewable Energy",
+        "Infrastructure",
+        "AI"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "10x Science",
+      "slug": "10x-science",
+      "scores": {
+        "CB": 44,
+        "EG": 59,
+        "NR": 68,
+        "PG": 56,
+        "PT": 48,
+        "SL": 40,
+        "VK": 50
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Invest",
+        "PG": "Neutral",
+        "PT": "Neutral",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 52.14,
+      "revenue": null,
+      "teamSize": 3,
+      "oneLiner": "The AI-native platform for next-generation protein characterization.",
+      "industry": "B2B / B2B",
+      "tags": [
+        "SaaS",
+        "B2B",
+        "Biotech",
+        "Enterprise Software",
+        "AI"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "Ruma Care",
+      "slug": "ruma-care",
+      "scores": {
+        "CB": 56,
+        "EG": 63,
+        "NR": 49,
+        "PG": 69,
+        "PT": 41,
+        "SL": 34,
+        "VK": 45
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Invest",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 51,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "We help clinics get patients on biologics faster",
+      "industry": "Healthcare / Healthcare",
+      "tags": [
+        "Healthcare",
+        "AI"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "DAIVIN!",
+      "slug": "daivin",
+      "scores": {
+        "CB": 53,
+        "EG": 33,
+        "NR": 47,
+        "PG": 47,
+        "PT": 57,
+        "SL": 61,
+        "VK": 56
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Neutral",
+        "SL": "Neutral",
+        "VK": "Neutral"
+      },
+      "avg": 50.57,
+      "revenue": null,
+      "teamSize": 1,
+      "oneLiner": "Tankless Dive Gear - Breath Autonomy at Sea, Land & Space",
+      "industry": "Industrials / Industrials -> Defense",
+      "tags": [
+        "Hard Tech",
+        "Hardware",
+        "Fuel Cells",
+        "Aerospace",
+        "Maritime"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "AutoSitu",
+      "slug": "autositu",
+      "scores": {
+        "CB": 46,
+        "EG": 68,
+        "NR": 52,
+        "PG": 64,
+        "PT": 41,
+        "SL": 38,
+        "VK": 42
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Invest",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 50.14,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "AI-native workspace for municipal development review",
+      "industry": "B2B / B2B -> Legal",
+      "tags": [
+        "Generative AI",
+        "GovTech",
+        "Real Estate",
+        "LegalTech"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "Hlabs",
+      "slug": "hlabs",
+      "scores": {
+        "CB": 38,
+        "EG": 59,
+        "NR": 47,
+        "PG": 66,
+        "PT": 41,
+        "SL": 58,
+        "VK": 42
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Invest",
+        "PT": "Pass",
+        "SL": "Neutral",
+        "VK": "Pass"
+      },
+      "avg": 50.14,
+      "revenue": null,
+      "teamSize": 1,
+      "oneLiner": "Making an industrial supply chain for building robots in the USA",
+      "industry": "Industrials / Industrials",
+      "tags": [
+        "Artificial Intelligence",
+        "Hardware",
+        "Robotics",
+        "Electronics"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "Opalite Health",
+      "slug": "opalite-health",
+      "scores": {
+        "CB": 56,
+        "EG": 54,
+        "NR": 61,
+        "PG": 61,
+        "PT": 37,
+        "SL": 34,
+        "VK": 48
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 50.14,
+      "revenue": null,
+      "teamSize": 3,
+      "oneLiner": "Solving language barriers in healthcare",
+      "industry": "Healthcare / Healthcare",
+      "tags": [
+        "Artificial Intelligence",
+        "Health Tech",
+        "Digital Health",
+        "Healthcare"
+      ]
+    },
+    {
+      "rank": 21,
+      "name": "RoboDock",
+      "slug": "robodock",
+      "scores": {
+        "CB": 47,
+        "EG": 49,
+        "NR": 55,
+        "PG": 62,
+        "PT": 38,
+        "SL": 52,
+        "VK": 47
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Neutral",
+        "VK": "Neutral"
+      },
+      "avg": 50,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "Robots that run autonomous depots for autonomous fleets.",
+      "industry": "Industrials / Industrials -> Energy",
+      "tags": [
+        "SaaS",
+        "Robotics",
+        "Energy",
+        "Electric Vehicles",
+        "Automation"
+      ]
+    },
+    {
+      "rank": 22,
+      "name": "Galactic Resource Utilization Space, Inc. (GRU Space)",
+      "slug": "galactic-resource-utilization-space-inc-gru-space",
+      "scores": {
+        "CB": 49,
+        "EG": 23,
+        "NR": 51,
+        "PG": 44,
+        "PT": 53,
+        "SL": 63,
+        "VK": 63
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Pass",
+        "PT": "Neutral",
+        "SL": "Neutral",
+        "VK": "Neutral"
+      },
+      "avg": 49.43,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "Building the First Hotel on the Moon",
+      "industry": "Industrials / Industrials -> Aviation and Space",
+      "tags": [
+        "Space Exploration",
+        "Construction",
+        "Travel",
+        "Aerospace"
+      ]
+    },
+    {
+      "rank": 23,
+      "name": "Mendral",
+      "slug": "mendral",
+      "scores": {
+        "CB": 33,
+        "EG": 62,
+        "NR": 64,
+        "PG": 72,
+        "PT": 41,
+        "SL": 34,
+        "VK": 39
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Invest",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 49.29,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "AI DevOps Engineer",
+      "industry": "B2B / B2B",
+      "tags": [
+        "Artificial Intelligence",
+        "Developer Tools",
+        "DevOps"
+      ]
+    },
+    {
+      "rank": 24,
+      "name": "Wideframe",
+      "slug": "wideframe",
+      "scores": {
+        "CB": 41,
+        "EG": 62,
+        "NR": 61,
+        "PG": 68,
+        "PT": 41,
+        "SL": 31,
+        "VK": 41
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Invest",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 49.29,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "AI agent for video work outside the NLE",
+      "industry": "B2B / B2B",
+      "tags": [
+        "Artificial Intelligence",
+        "SaaS"
+      ]
+    },
+    {
+      "rank": 25,
+      "name": "General Legal",
+      "slug": "general-legal",
+      "scores": {
+        "CB": 45,
+        "EG": 55,
+        "NR": 57,
+        "PG": 70,
+        "PT": 37,
+        "SL": 35,
+        "VK": 42
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Invest",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 48.71,
+      "revenue": null,
+      "teamSize": 3,
+      "oneLiner": "The AI native law firm for growth stage companies",
+      "industry": "B2B / B2B -> Legal",
+      "tags": [
+        "Legal",
+        "LegalTech"
+      ]
+    },
+    {
+      "rank": 26,
+      "name": "Constellation Space",
+      "slug": "constellation-space",
+      "scores": {
+        "CB": 42,
+        "EG": 48,
+        "NR": 62,
+        "PG": 59,
+        "PT": 45,
+        "SL": 39,
+        "VK": 45
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Neutral",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 48.57,
+      "revenue": null,
+      "teamSize": 4,
+      "oneLiner": "AI for space mission assurance.",
+      "industry": "B2B / B2B -> Analytics",
+      "tags": [
+        "Space Exploration",
+        "Satellites",
+        "Enterprise Software",
+        "Infrastructure",
+        "AI"
+      ]
+    },
+    {
+      "rank": 27,
+      "name": "ARC Prize Foundation",
+      "slug": "arc-prize-foundation",
+      "scores": {
+        "CB": 31,
+        "EG": 38,
+        "NR": 59,
+        "PG": 74,
+        "PT": 42,
+        "SL": 48,
+        "VK": 47
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Invest",
+        "PT": "Pass",
+        "SL": "Neutral",
+        "VK": "Neutral"
+      },
+      "avg": 48.43,
+      "revenue": null,
+      "teamSize": 4,
+      "oneLiner": "AI benchmarks that measure general intelligence and inspire new ideas",
+      "industry": "Industrials / Industrials",
+      "tags": []
+    },
+    {
+      "rank": 28,
+      "name": "DroneTector",
+      "slug": "dronetector",
+      "scores": {
+        "CB": 40,
+        "EG": 44,
+        "NR": 56,
+        "PG": 53,
+        "PT": 47,
+        "SL": 49,
+        "VK": 50
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Neutral",
+        "SL": "Neutral",
+        "VK": "Neutral"
+      },
+      "avg": 48.43,
+      "revenue": null,
+      "teamSize": 3,
+      "oneLiner": "Technology to detect and track hostile drones",
+      "industry": "Industrials / Industrials -> Drones",
+      "tags": [
+        "Hard Tech",
+        "Drones",
+        "Radar"
+      ]
+    },
+    {
+      "rank": 29,
+      "name": "Samora AI",
+      "slug": "samora-ai",
+      "scores": {
+        "CB": 72,
+        "EG": 40,
+        "NR": 54,
+        "PG": 60,
+        "PT": 35,
+        "SL": 35,
+        "VK": 43
+      },
+      "tiers": {
+        "CB": "Invest",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 48.43,
+      "revenue": null,
+      "teamSize": 8,
+      "oneLiner": "Multilingual voice agents with safe human escalation when needed",
+      "industry": "B2B / B2B",
+      "tags": [
+        "B2B",
+        "AI",
+        "Conversational AI"
+      ]
+    },
+    {
+      "rank": 30,
+      "name": "Terranox AI",
+      "slug": "terranox-ai",
+      "scores": {
+        "CB": 53,
+        "EG": 38,
+        "NR": 54,
+        "PG": 47,
+        "PT": 40,
+        "SL": 52,
+        "VK": 55
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Neutral",
+        "VK": "Neutral"
+      },
+      "avg": 48.43,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "AI-powered uranium exploration",
+      "industry": "Industrials / Industrials -> Energy",
+      "tags": [
+        "Artificial Intelligence",
+        "Energy",
+        "Mining"
+      ]
+    },
+    {
+      "rank": 31,
+      "name": "Mantis Biotechnology",
+      "slug": "mantis-biotechnology",
+      "scores": {
+        "CB": 50,
+        "EG": 46,
+        "NR": 55,
+        "PG": 55,
+        "PT": 36,
+        "SL": 41,
+        "VK": 52
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 47.86,
+      "revenue": null,
+      "teamSize": 3,
+      "oneLiner": "The Infrastructure Powering Human-In-Computer Models",
+      "industry": "B2B / B2B -> Infrastructure",
+      "tags": [
+        "Artificial Intelligence",
+        "Sports Tech",
+        "Biotech",
+        "Architecture",
+        "Biotechnology"
+      ]
+    },
+    {
+      "rank": 32,
+      "name": "One Robot",
+      "slug": "one-robot",
+      "scores": {
+        "CB": 41,
+        "EG": 49,
+        "NR": 61,
+        "PG": 58,
+        "PT": 39,
+        "SL": 34,
+        "VK": 48
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 47.14,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "World models for VLA evals and training.",
+      "industry": "Industrials / Manufacturing and Robotics",
+      "tags": [
+        "Hard Tech",
+        "Machine Learning",
+        "Robotics",
+        "AI"
+      ]
+    },
+    {
+      "rank": 33,
+      "name": "Zymbly",
+      "slug": "zymbly",
+      "scores": {
+        "CB": 46,
+        "EG": 57,
+        "NR": 55,
+        "PG": 58,
+        "PT": 37,
+        "SL": 38,
+        "VK": 37
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 46.86,
+      "revenue": null,
+      "teamSize": 3,
+      "oneLiner": "Automates admin for aircraft technicians",
+      "industry": "B2B / B2B",
+      "tags": [
+        "AIOps",
+        "Workflow Automation",
+        "Transportation"
+      ]
+    },
+    {
+      "rank": 34,
+      "name": "Grade",
+      "slug": "grade",
+      "scores": {
+        "CB": 48,
+        "EG": 47,
+        "NR": 48,
+        "PG": 77,
+        "PT": 33,
+        "SL": 35,
+        "VK": 39
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Invest",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 46.71,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "Payroll for performance",
+      "industry": "Fintech / Fintech -> Payments",
+      "tags": [
+        "Fintech",
+        "B2B"
+      ]
+    },
+    {
+      "rank": 35,
+      "name": "Rhizome AI",
+      "slug": "rhizome-ai",
+      "scores": {
+        "CB": 42,
+        "EG": 53,
+        "NR": 55,
+        "PG": 69,
+        "PT": 35,
+        "SL": 32,
+        "VK": 41
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Invest",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 46.71,
+      "revenue": null,
+      "teamSize": 1,
+      "oneLiner": "Always know what the FDA thinks",
+      "industry": "B2B / B2B",
+      "tags": [
+        "SaaS",
+        "Biotech"
+      ]
+    },
+    {
+      "rank": 36,
+      "name": "LegalOS",
+      "slug": "legalos",
+      "scores": {
+        "CB": 54,
+        "EG": 45,
+        "NR": 53,
+        "PG": 60,
+        "PT": 36,
+        "SL": 38,
+        "VK": 40
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 46.57,
+      "revenue": null,
+      "teamSize": 3,
+      "oneLiner": "The AI-powered law firm for complex work visas",
+      "industry": "B2B / B2B -> Legal",
+      "tags": [
+        "Artificial Intelligence",
+        "B2B",
+        "Legal",
+        "HR Tech",
+        "Immigration"
+      ]
+    },
+    {
+      "rank": 37,
+      "name": "Pax Historia",
+      "slug": "pax-historia",
+      "scores": {
+        "CB": 40,
+        "EG": 50,
+        "NR": 53,
+        "PG": 57,
+        "PT": 41,
+        "SL": 37,
+        "VK": 48
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 46.57,
+      "revenue": null,
+      "teamSize": 3,
+      "oneLiner": "The first AI-powered grand strategy platform",
+      "industry": "Consumer / Consumer -> Gaming",
+      "tags": [
+        "Artificial Intelligence",
+        "Marketplace",
+        "Consumer",
+        "Gaming"
+      ]
+    },
+    {
+      "rank": 38,
+      "name": "Lance",
+      "slug": "lance",
+      "scores": {
+        "CB": 39,
+        "EG": 59,
+        "NR": 48,
+        "PG": 62,
+        "PT": 38,
+        "SL": 32,
+        "VK": 46
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 46.29,
+      "revenue": null,
+      "teamSize": 3,
+      "oneLiner": "Your Hotel's Best Employees",
+      "industry": "B2B / B2B",
+      "tags": [
+        "SaaS",
+        "B2B",
+        "Customer Service",
+        "Conversational AI"
+      ]
+    },
+    {
+      "rank": 39,
+      "name": "Panta",
+      "slug": "panta",
+      "scores": {
+        "CB": 46,
+        "EG": 62,
+        "NR": 40,
+        "PG": 53,
+        "PT": 37,
+        "SL": 38,
+        "VK": 48
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 46.29,
+      "revenue": null,
+      "teamSize": 4,
+      "oneLiner": "Commercial insurance brokerage run by AI agents. Scales like software.",
+      "industry": "Fintech / Fintech -> Insurance",
+      "tags": [
+        "Insurance",
+        "AI"
+      ]
+    },
+    {
+      "rank": 40,
+      "name": "AxionOrbital Space",
+      "slug": "axionorbital-space",
+      "scores": {
+        "CB": 39,
+        "EG": 50,
+        "NR": 57,
+        "PG": 47,
+        "PT": 37,
+        "SL": 36,
+        "VK": 54
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 45.71,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "Foundation models for 24/7 Earth Observation",
+      "industry": "Industrials / Industrials -> Aviation and Space",
+      "tags": [
+        "Deep Learning",
+        "Satellites",
+        "Weather"
+      ]
+    },
+    {
+      "rank": 41,
+      "name": "End Close",
+      "slug": "end-close",
+      "scores": {
+        "CB": 31,
+        "EG": 57,
+        "NR": 60,
+        "PG": 64,
+        "PT": 33,
+        "SL": 34,
+        "VK": 41
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 45.71,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "AI powered reconciliation for high-volume payments companies",
+      "industry": "B2B / B2B -> Finance and Accounting",
+      "tags": [
+        "Fintech",
+        "SaaS",
+        "Payments",
+        "B2B",
+        "AI"
+      ]
+    },
+    {
+      "rank": 42,
+      "name": "Piris Labs",
+      "slug": "pirislabs",
+      "scores": {
+        "CB": 40,
+        "EG": 33,
+        "NR": 59,
+        "PG": 37,
+        "PT": 41,
+        "SL": 46,
+        "VK": 63
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Neutral",
+        "VK": "Neutral"
+      },
+      "avg": 45.57,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "Inference at Light Speed",
+      "industry": "B2B / B2B -> Infrastructure",
+      "tags": [
+        "Hard Tech",
+        "B2B",
+        "Cloud Computing",
+        "AI",
+        "Networks"
+      ]
+    },
+    {
+      "rank": 43,
+      "name": "Overshoot",
+      "slug": "overshoot",
+      "scores": {
+        "CB": 43,
+        "EG": 42,
+        "NR": 62,
+        "PG": 55,
+        "PT": 38,
+        "SL": 32,
+        "VK": 44
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 45.14,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "Enable developers to build and run AI vision applications",
+      "industry": "B2B / B2B",
+      "tags": [
+        "Computer Vision",
+        "Infrastructure",
+        "AI"
+      ]
+    },
+    {
+      "rank": 44,
+      "name": "Didit",
+      "slug": "didit",
+      "scores": {
+        "CB": 47,
+        "EG": 53,
+        "NR": 41,
+        "PG": 70,
+        "PT": 28,
+        "SL": 37,
+        "VK": 39
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": "Pass",
+        "PG": "Invest",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 45,
+      "revenue": null,
+      "teamSize": 12,
+      "oneLiner": "All-in-one identity platform for fast human verification.",
+      "industry": "B2B / B2B -> Infrastructure",
+      "tags": [
+        "Artificial Intelligence",
+        "SaaS",
+        "Identity"
+      ]
+    },
+    {
+      "rank": 45,
+      "name": "Chasi",
+      "slug": "chasi",
+      "scores": {
+        "CB": 47,
+        "EG": 50,
+        "NR": 51,
+        "PG": 60,
+        "PT": 35,
+        "SL": 33,
+        "VK": 38
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 44.86,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "AI Revenue Engine for the Equipment Industry",
+      "industry": "B2B / B2B",
+      "tags": [
+        "SaaS",
+        "Industrial"
+      ]
+    },
+    {
+      "rank": 46,
+      "name": "Laurence",
+      "slug": "laurence",
+      "scores": {
+        "CB": 32,
+        "EG": 48,
+        "NR": 55,
+        "PG": 65,
+        "PT": 35,
+        "SL": 36,
+        "VK": 41
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Invest",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 44.57,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "RL for performance marketing",
+      "industry": "B2B / B2B -> Analytics",
+      "tags": [
+        "Marketing",
+        "Advertising",
+        "Trading",
+        "AI"
+      ]
+    },
+    {
+      "rank": 47,
+      "name": "Scout Out",
+      "slug": "scout-out",
+      "scores": {
+        "CB": 48,
+        "EG": 48,
+        "NR": 50,
+        "PG": 59,
+        "PT": 30,
+        "SL": 37,
+        "VK": 37
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 44.14,
+      "revenue": null,
+      "teamSize": 1,
+      "oneLiner": "AI generated proposals for residential construction projects",
+      "industry": "Real Estate and Construction / Real Estate and Construction",
+      "tags": [
+        "Real Estate",
+        "Construction",
+        "Proptech",
+        "AI"
+      ]
+    },
+    {
+      "rank": 48,
+      "name": "Revion",
+      "slug": "revion",
+      "scores": {
+        "CB": 39,
+        "EG": 64,
+        "NR": 41,
+        "PG": 54,
+        "PT": 35,
+        "SL": 34,
+        "VK": 41
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 44,
+      "revenue": null,
+      "teamSize": 4,
+      "oneLiner": "Intelligence for Automotive Operations",
+      "industry": "B2B / B2B",
+      "tags": [
+        "AI",
+        "Automotive"
+      ]
+    },
+    {
+      "rank": 49,
+      "name": "MouseCat",
+      "slug": "mousecat",
+      "scores": {
+        "CB": 35,
+        "EG": 47,
+        "NR": 54,
+        "PG": 56,
+        "PT": 38,
+        "SL": 31,
+        "VK": 46
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 43.86,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "The AI Toolkit for Risk Teams",
+      "industry": "B2B / B2B",
+      "tags": [
+        "Artificial Intelligence",
+        "Fintech",
+        "Fraud Detection"
+      ]
+    },
+    {
+      "rank": 50,
+      "name": "Cardboard",
+      "slug": "cardboard",
+      "scores": {
+        "CB": 36,
+        "EG": 44,
+        "NR": 52,
+        "PG": 59,
+        "PT": 38,
+        "SL": 29,
+        "VK": 47
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 43.57,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "Agentic video editor",
+      "industry": "B2B / B2B",
+      "tags": [
+        "Artificial Intelligence",
+        "SaaS",
+        "Consumer",
+        "Video",
+        "Media"
+      ]
+    },
+    {
+      "rank": 51,
+      "name": "Arcline",
+      "slug": "arcline",
+      "scores": {
+        "CB": 44,
+        "EG": 43,
+        "NR": 50,
+        "PG": 58,
+        "PT": 34,
+        "SL": 36,
+        "VK": 38
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 43.29,
+      "revenue": null,
+      "teamSize": 5,
+      "oneLiner": "Startup legal work handled by elite lawyers & same-day turnaround",
+      "industry": "B2B / B2B -> Legal",
+      "tags": []
+    },
+    {
+      "rank": 52,
+      "name": "Bidflow",
+      "slug": "bidflow",
+      "scores": {
+        "CB": 50,
+        "EG": 51,
+        "NR": 40,
+        "PG": 52,
+        "PT": 37,
+        "SL": 32,
+        "VK": 41
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 43.29,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "AI Copilot for Electrical Estimating",
+      "industry": "Real Estate and Construction / Construction",
+      "tags": [
+        "SaaS",
+        "Construction",
+        "Infrastructure",
+        "AI Assistant"
+      ]
+    },
+    {
+      "rank": 53,
+      "name": "Origami Robotics",
+      "slug": "origami-robotics",
+      "scores": {
+        "CB": 36,
+        "EG": 35,
+        "NR": 49,
+        "PG": 55,
+        "PT": 32,
+        "SL": 39,
+        "VK": 57
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 43.29,
+      "revenue": null,
+      "teamSize": 5,
+      "oneLiner": "Manipulate Anything Robot",
+      "industry": "Industrials / Industrials",
+      "tags": [
+        "Artificial Intelligence",
+        "Robotics",
+        "Automation"
+      ]
+    },
+    {
+      "rank": 54,
+      "name": "Prana",
+      "slug": "prana-health",
+      "scores": {
+        "CB": 42,
+        "EG": 40,
+        "NR": 54,
+        "PG": 46,
+        "PT": 28,
+        "SL": 34,
+        "VK": 58
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 43.14,
+      "revenue": null,
+      "teamSize": 4,
+      "oneLiner": "An AI primary care doctor in your pocket",
+      "industry": "Healthcare / Consumer Health and Wellness",
+      "tags": [
+        "Health Tech"
+      ]
+    },
+    {
+      "rank": 55,
+      "name": "Servo7",
+      "slug": "servo7",
+      "scores": {
+        "CB": 47,
+        "EG": 36,
+        "NR": 48,
+        "PG": 47,
+        "PT": 33,
+        "SL": 36,
+        "VK": 53
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 42.86,
+      "revenue": null,
+      "teamSize": null,
+      "oneLiner": "Simple and rapidly deployed robots for industry work",
+      "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+      "tags": [
+        "Artificial Intelligence",
+        "Robotics",
+        "Logistics",
+        "Manufacturing",
+        "Automation"
+      ]
+    },
+    {
+      "rank": 56,
+      "name": "Proximitty",
+      "slug": "proximitty",
+      "scores": {
+        "CB": 38,
+        "EG": 57,
+        "NR": 43,
+        "PG": 49,
+        "PT": 33,
+        "SL": 32,
+        "VK": 46
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 42.57,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "Autonomous loan servicing and collections",
+      "industry": "Fintech / Credit and Lending",
+      "tags": [
+        "FinOps",
+        "Fintech",
+        "SaaS",
+        "B2B",
+        "Lending"
+      ]
+    },
+    {
+      "rank": 57,
+      "name": "VOYGR",
+      "slug": "voygr",
+      "scores": {
+        "CB": 34,
+        "EG": 47,
+        "NR": 60,
+        "PG": 56,
+        "PT": 27,
+        "SL": 33,
+        "VK": 41
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Strong Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 42.57,
+      "revenue": null,
+      "teamSize": null,
+      "oneLiner": "Real-world place intelligence for AI apps and agents",
+      "industry": "B2B / B2B",
+      "tags": [
+        "Developer Tools",
+        "Geographic Information System",
+        "API",
+        "Search",
+        "AI"
+      ]
+    },
+    {
+      "rank": 58,
+      "name": "FullSeam",
+      "slug": "fullseam",
+      "scores": {
+        "CB": 39,
+        "EG": 51,
+        "NR": 48,
+        "PG": 56,
+        "PT": 36,
+        "SL": 29,
+        "VK": 38
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 42.43,
+      "revenue": null,
+      "teamSize": 3,
+      "oneLiner": "FullSeam is an AI employee for finance and accounting teams.",
+      "industry": "B2B / B2B -> Finance and Accounting",
+      "tags": [
+        "Artificial Intelligence",
+        "FinOps",
+        "Fintech",
+        "SaaS"
+      ]
+    },
+    {
+      "rank": 59,
+      "name": "Unifold",
+      "slug": "unifold",
+      "scores": {
+        "CB": 35,
+        "EG": 45,
+        "NR": 55,
+        "PG": 56,
+        "PT": 29,
+        "SL": 39,
+        "VK": 38
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 42.43,
+      "revenue": null,
+      "teamSize": 3,
+      "oneLiner": "Multi-chain deposit and payment infrastructure",
+      "industry": "Fintech / Fintech -> Payments",
+      "tags": [
+        "Fintech",
+        "Crypto / Web3",
+        "Payments",
+        "Cryptocurrency"
+      ]
+    },
+    {
+      "rank": 60,
+      "name": "Corvera",
+      "slug": "corvera",
+      "scores": {
+        "CB": 36,
+        "EG": 49,
+        "NR": 48,
+        "PG": 60,
+        "PT": 36,
+        "SL": 28,
+        "VK": 39
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 42.29,
+      "revenue": null,
+      "teamSize": 4,
+      "oneLiner": "Fully autonomous operations for CPG brands",
+      "industry": "B2B / B2B -> Operations",
+      "tags": [
+        "AIOps",
+        "Artificial Intelligence",
+        "SaaS",
+        "B2B",
+        "Supply Chain"
+      ]
+    },
+    {
+      "rank": 61,
+      "name": "Origin",
+      "slug": "origin-bio",
+      "scores": {
+        "CB": 38,
+        "EG": 45,
+        "NR": 47,
+        "PG": 42,
+        "PT": 34,
+        "SL": 34,
+        "VK": 56
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 42.29,
+      "revenue": null,
+      "teamSize": 4,
+      "oneLiner": "AI for safer cell & gene therapies",
+      "industry": "Healthcare / Healthcare -> Drug Discovery and Delivery",
+      "tags": [
+        "AI-powered Drug Discovery",
+        "Gene Therapy",
+        "Cell Therapy",
+        "Biotech"
+      ]
+    },
+    {
+      "rank": 62,
+      "name": "OctaPulse",
+      "slug": "octapulse",
+      "scores": {
+        "CB": 39,
+        "EG": 50,
+        "NR": 39,
+        "PG": 55,
+        "PT": 34,
+        "SL": 36,
+        "VK": 42
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 42.14,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "Robotics and computer vision to automate fish farming from hatchery?",
+      "industry": "Industrials / Industrials -> Climate",
+      "tags": [
+        "Robotics",
+        "Computer Vision",
+        "Food Tech",
+        "Maritime"
+      ]
+    },
+    {
+      "rank": 63,
+      "name": "Martini",
+      "slug": "martini",
+      "scores": {
+        "CB": 40,
+        "EG": 37,
+        "NR": 52,
+        "PG": 57,
+        "PT": 32,
+        "SL": 33,
+        "VK": 42
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 41.86,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "Collaborative AI-native filmmaking for professionals",
+      "industry": "B2B / B2B -> Engineering, Product and Design",
+      "tags": [
+        "Generative AI",
+        "Entertainment",
+        "Design Tools",
+        "Video",
+        "Media"
+      ]
+    },
+    {
+      "rank": 64,
+      "name": "Maywood",
+      "slug": "maywood",
+      "scores": {
+        "CB": 37,
+        "EG": 53,
+        "NR": 46,
+        "PG": 51,
+        "PT": 37,
+        "SL": 33,
+        "VK": 36
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 41.86,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "AI for M&A",
+      "industry": "Fintech / Fintech -> Banking and Exchange",
+      "tags": [
+        "Fintech",
+        "Finance",
+        "B2B",
+        "AI"
+      ]
+    },
+    {
+      "rank": 65,
+      "name": "Wayco",
+      "slug": "wayco",
+      "scores": {
+        "CB": 52,
+        "EG": 45,
+        "NR": 39,
+        "PG": 39,
+        "PT": 36,
+        "SL": 39,
+        "VK": 42
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 41.71,
+      "revenue": null,
+      "teamSize": 1,
+      "oneLiner": "AI operator for legal case referrals",
+      "industry": "B2B / B2B -> Legal",
+      "tags": [
+        "Marketplace",
+        "LegalTech",
+        "Call Center"
+      ]
+    },
+    {
+      "rank": 66,
+      "name": "Beacon Health",
+      "slug": "beacon-health",
+      "scores": {
+        "CB": 45,
+        "EG": 45,
+        "NR": 45,
+        "PG": 57,
+        "PT": 29,
+        "SL": 27,
+        "VK": 41
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 41.29,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "AI Agents for Primary Care",
+      "industry": "Healthcare / Healthcare",
+      "tags": [
+        "Health Tech",
+        "Primary Care",
+        "AI"
+      ]
+    },
+    {
+      "rank": 67,
+      "name": "Sponge",
+      "slug": "sponge",
+      "scores": {
+        "CB": 34,
+        "EG": 44,
+        "NR": 48,
+        "PG": 49,
+        "PT": 33,
+        "SL": 36,
+        "VK": 45
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 41.29,
+      "revenue": null,
+      "teamSize": 3,
+      "oneLiner": "Financial infrastructure for the agent economy",
+      "industry": "B2B / B2B",
+      "tags": [
+        "Artificial Intelligence",
+        "Fintech",
+        "SaaS",
+        "Crypto / Web3",
+        "Payments"
+      ]
+    },
+    {
+      "rank": 68,
+      "name": "Asimov",
+      "slug": "asimov",
+      "scores": {
+        "CB": 45,
+        "EG": 44,
+        "NR": 37,
+        "PG": 46,
+        "PT": 27,
+        "SL": 41,
+        "VK": 48
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 41.14,
+      "revenue": null,
+      "teamSize": 3,
+      "oneLiner": "Internet-scale marketplace for robot training data",
+      "industry": "B2B / B2B -> Supply Chain and Logistics",
+      "tags": [
+        "Robotics",
+        "Data Labeling",
+        "AI"
+      ]
+    },
+    {
+      "rank": 69,
+      "name": "Canary",
+      "slug": "canary",
+      "scores": {
+        "CB": 30,
+        "EG": 45,
+        "NR": 52,
+        "PG": 55,
+        "PT": 33,
+        "SL": 28,
+        "VK": 45
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 41.14,
+      "revenue": null,
+      "teamSize": 4,
+      "oneLiner": "The first AI QA engineer that understands your codebase",
+      "industry": "B2B / B2B -> Engineering, Product and Design",
+      "tags": [
+        "Artificial Intelligence",
+        "Developer Tools",
+        "SaaS",
+        "B2B"
+      ]
+    },
+    {
+      "rank": 70,
+      "name": "shortkit",
+      "slug": "shortkit",
+      "scores": {
+        "CB": 30,
+        "EG": 46,
+        "NR": 58,
+        "PG": 50,
+        "PT": 33,
+        "SL": 35,
+        "VK": 34
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 40.86,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "We make enterprise-scale short-form video really simple.",
+      "industry": "B2B / B2B -> Engineering, Product and Design",
+      "tags": [
+        "Developer Tools",
+        "Video",
+        "Infrastructure"
+      ]
+    },
+    {
+      "rank": 71,
+      "name": "General Astronautics",
+      "slug": "generalastro",
+      "scores": {
+        "CB": 44,
+        "EG": 31,
+        "NR": 33,
+        "PG": 39,
+        "PT": 36,
+        "SL": 50,
+        "VK": 52
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Neutral",
+        "VK": "Neutral"
+      },
+      "avg": 40.71,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "The Space Robotics Company",
+      "industry": "Industrials / Manufacturing and Robotics",
+      "tags": [
+        "Robotics",
+        "Space Exploration",
+        "Aerospace"
+      ]
+    },
+    {
+      "rank": 72,
+      "name": "Orthogonal",
+      "slug": "orthogonal",
+      "scores": {
+        "CB": 32,
+        "EG": 49,
+        "NR": 46,
+        "PG": 50,
+        "PT": 31,
+        "SL": 35,
+        "VK": 42
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 40.71,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "Agentic Payments for APIs",
+      "industry": "B2B / B2B -> Infrastructure",
+      "tags": [
+        "Artificial Intelligence",
+        "Crypto / Web3",
+        "Payments",
+        "API"
+      ]
+    },
+    {
+      "rank": 73,
+      "name": "Payna",
+      "slug": "payna",
+      "scores": {
+        "CB": 49,
+        "EG": 33,
+        "NR": 46,
+        "PG": 37,
+        "PT": 29,
+        "SL": 43,
+        "VK": 47
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 40.57,
+      "revenue": null,
+      "teamSize": 0,
+      "oneLiner": "Crypto/fintech compliance simplified.",
+      "industry": "B2B / B2B -> Finance and Accounting",
+      "tags": [
+        "Finance",
+        "B2B"
+      ]
+    },
+    {
+      "rank": 74,
+      "name": "Synthetic Sciences",
+      "slug": "synthetic-sciences",
+      "scores": {
+        "CB": 36,
+        "EG": 41,
+        "NR": 50,
+        "PG": 49,
+        "PT": 31,
+        "SL": 30,
+        "VK": 46
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 40.43,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "AI co-scientists that run research end-to-end",
+      "industry": "B2B / B2B -> Engineering, Product and Design",
+      "tags": [
+        "Developer Tools",
+        "Reinforcement Learning",
+        "Workflow Automation"
+      ]
+    },
+    {
+      "rank": 75,
+      "name": "Condor Energy",
+      "slug": "condor-energy",
+      "scores": {
+        "CB": 37,
+        "EG": 55,
+        "NR": 44,
+        "PG": 49,
+        "PT": 28,
+        "SL": 32,
+        "VK": 37
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 40.29,
+      "revenue": null,
+      "teamSize": 3,
+      "oneLiner": "Energy OS enabling reliable, cheap and sustainable electricity supply.",
+      "industry": "Industrials / Industrials -> Energy",
+      "tags": [
+        "B2B",
+        "Energy"
+      ]
+    },
+    {
+      "rank": 76,
+      "name": "Corelayer",
+      "slug": "corelayer",
+      "scores": {
+        "CB": 37,
+        "EG": 46,
+        "NR": 45,
+        "PG": 57,
+        "PT": 34,
+        "SL": 29,
+        "VK": 33
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 40.14,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "AI on-call engineer that debugs using data",
+      "industry": "B2B / B2B -> Engineering, Product and Design",
+      "tags": [
+        "Artificial Intelligence",
+        "Developer Tools",
+        "B2B",
+        "Enterprise Software",
+        "AI"
+      ]
+    },
+    {
+      "rank": 77,
+      "name": "Verdex",
+      "slug": "verdex",
+      "scores": {
+        "CB": 40,
+        "EG": 43,
+        "NR": 42,
+        "PG": 46,
+        "PT": 34,
+        "SL": 38,
+        "VK": 37
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 40,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "Helping insurers settle claims without leaving their desks.",
+      "industry": "Industrials / Industrials -> Agriculture",
+      "tags": [
+        "Agriculture",
+        "AI"
+      ]
+    },
+    {
+      "rank": 78,
+      "name": "Ishiki Labs",
+      "slug": "ishiki-labs",
+      "scores": {
+        "CB": 32,
+        "EG": 37,
+        "NR": 52,
+        "PG": 51,
+        "PT": 37,
+        "SL": 28,
+        "VK": 42
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 39.86,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "Building the Future of Multimodal AI",
+      "industry": "B2B / B2B",
+      "tags": [
+        "Artificial Intelligence",
+        "Deep Learning",
+        "Generative AI"
+      ]
+    },
+    {
+      "rank": 79,
+      "name": "Chamber",
+      "slug": "chamber",
+      "scores": {
+        "CB": 32,
+        "EG": 48,
+        "NR": 49,
+        "PG": 46,
+        "PT": 30,
+        "SL": 31,
+        "VK": 42
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 39.71,
+      "revenue": null,
+      "teamSize": 4,
+      "oneLiner": "Autopiloting your AI infrastructure",
+      "industry": "B2B / B2B -> Infrastructure",
+      "tags": [
+        "Artificial Intelligence",
+        "Developer Tools",
+        "B2B",
+        "Enterprise Software",
+        "AI"
+      ]
+    },
+    {
+      "rank": 80,
+      "name": "Patientdesk.ai",
+      "slug": "patientdeskai",
+      "scores": {
+        "CB": 33,
+        "EG": 47,
+        "NR": 45,
+        "PG": 62,
+        "PT": 28,
+        "SL": 30,
+        "VK": 32
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 39.57,
+      "revenue": null,
+      "teamSize": 3,
+      "oneLiner": "AI voice agent for patient calls & admin workflows",
+      "industry": "Healthcare / Healthcare IT",
+      "tags": [
+        "Customer Service",
+        "Call Center",
+        "Conversational AI",
+        "AI Assistant"
+      ]
+    },
+    {
+      "rank": 81,
+      "name": "SpotPay",
+      "slug": "spotpay",
+      "scores": {
+        "CB": 46,
+        "EG": 41,
+        "NR": 38,
+        "PG": 51,
+        "PT": 28,
+        "SL": 29,
+        "VK": 44
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 39.57,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "Cross-border Personal Finance on Stablecoins",
+      "industry": "Fintech / Consumer Finance",
+      "tags": [
+        "Fintech"
+      ]
+    },
+    {
+      "rank": 82,
+      "name": "Aemon",
+      "slug": "aemon",
+      "scores": {
+        "CB": 36,
+        "EG": 36,
+        "NR": 46,
+        "PG": 42,
+        "PT": 35,
+        "SL": 29,
+        "VK": 51
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 39.29,
+      "revenue": null,
+      "teamSize": 3,
+      "oneLiner": "The AI R&D Engineer",
+      "industry": "B2B / B2B",
+      "tags": [
+        "Artificial Intelligence",
+        "B2B"
+      ]
+    },
+    {
+      "rank": 83,
+      "name": "Fort",
+      "slug": "fort",
+      "scores": {
+        "CB": 35,
+        "EG": 34,
+        "NR": 43,
+        "PG": 54,
+        "PT": 36,
+        "SL": 35,
+        "VK": 36
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 39,
+      "revenue": null,
+      "teamSize": 3,
+      "oneLiner": "Strength Tracking Wearable",
+      "industry": "Consumer / Consumer -> Consumer Electronics",
+      "tags": [
+        "Consumer Health Services",
+        "Consumer",
+        "Digital Health",
+        "Health & Wellness"
+      ]
+    },
+    {
+      "rank": 84,
+      "name": "CodeWisp",
+      "slug": "codewisp",
+      "scores": {
+        "CB": 32,
+        "EG": 45,
+        "NR": 50,
+        "PG": 53,
+        "PT": 29,
+        "SL": 30,
+        "VK": 33
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 38.86,
+      "revenue": null,
+      "teamSize": 3,
+      "oneLiner": "Anyone can create real games with AI",
+      "industry": "Consumer / Consumer -> Gaming",
+      "tags": [
+        "Artificial Intelligence",
+        "Consumer",
+        "Gaming",
+        "Web Development",
+        "AI"
+      ]
+    },
+    {
+      "rank": 85,
+      "name": "Robby",
+      "slug": "robby",
+      "scores": {
+        "CB": 36,
+        "EG": 45,
+        "NR": 41,
+        "PG": 53,
+        "PT": 28,
+        "SL": 31,
+        "VK": 37
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 38.71,
+      "revenue": null,
+      "teamSize": 3,
+      "oneLiner": "Agentic revenue growth for home service businesses.",
+      "industry": "B2B / B2B -> Productivity",
+      "tags": [
+        "B2B",
+        "Home Services",
+        "AI"
+      ]
+    },
+    {
+      "rank": 86,
+      "name": "Librar Labs",
+      "slug": "librar-labs",
+      "scores": {
+        "CB": 42,
+        "EG": 37,
+        "NR": 39,
+        "PG": 55,
+        "PT": 35,
+        "SL": 27,
+        "VK": 35
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Strong Pass",
+        "VK": "Pass"
+      },
+      "avg": 38.57,
+      "revenue": null,
+      "teamSize": 4,
+      "oneLiner": "The next generation of the intelligence layer for the physical world",
+      "industry": "B2B / B2B",
+      "tags": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Computer Vision"
+      ]
+    },
+    {
+      "rank": 87,
+      "name": "Protent",
+      "slug": "protent",
+      "scores": {
+        "CB": 34,
+        "EG": 37,
+        "NR": 48,
+        "PG": 44,
+        "PT": 35,
+        "SL": 34,
+        "VK": 38
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 38.57,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "Protent turns passive surveillance into proactive intelligence.",
+      "industry": "B2B / B2B -> Security",
+      "tags": [
+        "Hardware",
+        "Machine Learning",
+        "SaaS",
+        "Security",
+        "Monitoring"
+      ]
+    },
+    {
+      "rank": 88,
+      "name": "REV1",
+      "slug": "rev1",
+      "scores": {
+        "CB": 36,
+        "EG": 41,
+        "NR": 41,
+        "PG": 59,
+        "PT": 32,
+        "SL": 26,
+        "VK": 35
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 38.57,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "Shortening hardware design cycles by automating post-CAD work",
+      "industry": "B2B / B2B -> Engineering, Product and Design",
+      "tags": [
+        "Hard Tech",
+        "Hardware",
+        "Design",
+        "Manufacturing",
+        "Enterprise Software"
+      ]
+    },
+    {
+      "rank": 89,
+      "name": "Pollinate",
+      "slug": "pollinate",
+      "scores": {
+        "CB": 36,
+        "EG": 42,
+        "NR": 41,
+        "PG": 56,
+        "PT": 28,
+        "SL": 28,
+        "VK": 38
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 38.43,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "AI Agents for the supply chain.",
+      "industry": "B2B / B2B -> Supply Chain and Logistics",
+      "tags": [
+        "Artificial Intelligence",
+        "Logistics",
+        "Supply Chain"
+      ]
+    },
+    {
+      "rank": 90,
+      "name": "Vector Legal",
+      "slug": "vector-legal",
+      "scores": {
+        "CB": 35,
+        "EG": 40,
+        "NR": 48,
+        "PG": 51,
+        "PT": 30,
+        "SL": 29,
+        "VK": 36
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 38.43,
+      "revenue": null,
+      "teamSize": 3,
+      "oneLiner": "AI Law Firm + Legal Tech Platform for Startups",
+      "industry": "B2B / B2B -> Legal",
+      "tags": [
+        "Legal",
+        "LegalTech",
+        "Operations",
+        "AI Assistant"
+      ]
+    },
+    {
+      "rank": 91,
+      "name": "Fed10",
+      "slug": "fed10",
+      "scores": {
+        "CB": 37,
+        "EG": 41,
+        "NR": 45,
+        "PG": 57,
+        "PT": 25,
+        "SL": 24,
+        "VK": 38
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 38.14,
+      "revenue": null,
+      "teamSize": 3,
+      "oneLiner": "AI agents that replace your policy consultants",
+      "industry": "B2B / B2B -> Legal",
+      "tags": [
+        "SaaS",
+        "GovTech",
+        "B2B",
+        "Legal",
+        "AI"
+      ]
+    },
+    {
+      "rank": 92,
+      "name": "Visibl Semiconductors",
+      "slug": "visibl-semiconductors",
+      "scores": {
+        "CB": 31,
+        "EG": 34,
+        "NR": 51,
+        "PG": 47,
+        "PT": 29,
+        "SL": 30,
+        "VK": 44
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 38,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "AI agents for chip design.",
+      "industry": "B2B / B2B -> Engineering, Product and Design",
+      "tags": [
+        "Artificial Intelligence",
+        "Enterprise Software",
+        "Semiconductors"
+      ]
+    },
+    {
+      "rank": 93,
+      "name": "Forum",
+      "slug": "forum",
+      "scores": {
+        "CB": 36,
+        "EG": 37,
+        "NR": 44,
+        "PG": 34,
+        "PT": 29,
+        "SL": 43,
+        "VK": 42
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 37.86,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "The first regulated exchange to trade on attention.",
+      "industry": "Fintech / Fintech",
+      "tags": [
+        "Finance",
+        "Investing",
+        "Trading"
+      ]
+    },
+    {
+      "rank": 94,
+      "name": "RunAnywhere",
+      "slug": "runanywhere",
+      "scores": {
+        "CB": 32,
+        "EG": 50,
+        "NR": 41,
+        "PG": 48,
+        "PT": 28,
+        "SL": 31,
+        "VK": 34
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 37.71,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "The default way of running On-Device AI at Scale",
+      "industry": "B2B / B2B -> Infrastructure",
+      "tags": [
+        "Artificial Intelligence",
+        "Developer Tools",
+        "IoT",
+        "Open Source",
+        "Enterprise"
+      ]
+    },
+    {
+      "rank": 95,
+      "name": "Cardinal",
+      "slug": "trycardinal-ai",
+      "scores": {
+        "CB": 33,
+        "EG": 35,
+        "NR": 41,
+        "PG": 64,
+        "PT": 30,
+        "SL": 29,
+        "VK": 32
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 37.71,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "AI Platform for Precision Outbound",
+      "industry": "B2B / B2B",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "rank": 96,
+      "name": "Balance",
+      "slug": "getbalance",
+      "scores": {
+        "CB": 38,
+        "EG": 37,
+        "NR": 40,
+        "PG": 53,
+        "PT": 26,
+        "SL": 29,
+        "VK": 40
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 37.57,
+      "revenue": null,
+      "teamSize": 4,
+      "oneLiner": "Full-Stack AI Accounting",
+      "industry": "B2B / Finance and Accounting",
+      "tags": [
+        "Fintech",
+        "Automation",
+        "AI"
+      ]
+    },
+    {
+      "rank": 97,
+      "name": "Jinba",
+      "slug": "jinba",
+      "scores": {
+        "CB": 36,
+        "EG": 35,
+        "NR": 45,
+        "PG": 47,
+        "PT": 30,
+        "SL": 32,
+        "VK": 38
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 37.57,
+      "revenue": null,
+      "teamSize": 4,
+      "oneLiner": "Automate any enterprise workflow through chat",
+      "industry": "B2B / B2B",
+      "tags": []
+    },
+    {
+      "rank": 98,
+      "name": "Reframe",
+      "slug": "usereframe",
+      "scores": {
+        "CB": 34,
+        "EG": 42,
+        "NR": 44,
+        "PG": 48,
+        "PT": 28,
+        "SL": 27,
+        "VK": 39
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 37.43,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "AI agents to automate hardware procurement",
+      "industry": "B2B / B2B -> Marketing",
+      "tags": [
+        "Artificial Intelligence",
+        "Manufacturing",
+        "Supply Chain"
+      ]
+    },
+    {
+      "rank": 99,
+      "name": "Captain",
+      "slug": "captain",
+      "scores": {
+        "CB": 30,
+        "EG": 41,
+        "NR": 43,
+        "PG": 53,
+        "PT": 32,
+        "SL": 27,
+        "VK": 34
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 37.14,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "Accurate knowledge search that scales",
+      "industry": "B2B / B2B -> Infrastructure",
+      "tags": [
+        "Developer Tools",
+        "Big Data",
+        "Data Engineering"
+      ]
+    },
+    {
+      "rank": 100,
+      "name": "CatchBack Cards",
+      "slug": "catchback-cards",
+      "scores": {
+        "CB": 34,
+        "EG": 37,
+        "NR": 37,
+        "PG": 53,
+        "PT": 27,
+        "SL": 37,
+        "VK": 34
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 37,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "a platform for maximizing the thrill of collecting trading cards",
+      "industry": "Consumer / Consumer -> Gaming",
+      "tags": [
+        "Crypto / Web3",
+        "Consumer",
+        "NFT"
+      ]
+    },
+    {
+      "rank": 101,
+      "name": "MochaCare",
+      "slug": "mochacare",
+      "scores": {
+        "CB": 44,
+        "EG": 40,
+        "NR": 32,
+        "PG": 47,
+        "PT": 29,
+        "SL": 35,
+        "VK": 32
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 37,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "AI-powered scheduling and hiring service for home care agencies.",
+      "industry": "B2B / B2B -> Operations",
+      "tags": [
+        "AIOps",
+        "Healthcare",
+        "Home Services",
+        "Operations",
+        "AI"
+      ]
+    },
+    {
+      "rank": 102,
+      "name": "Remy AI",
+      "slug": "remy-ai",
+      "scores": {
+        "CB": 36,
+        "EG": 34,
+        "NR": 42,
+        "PG": 37,
+        "PT": 29,
+        "SL": 29,
+        "VK": 52
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 37,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "Automating dexterous tasks in warehouses",
+      "industry": "Industrials / Manufacturing and Robotics",
+      "tags": [
+        "Deep Learning",
+        "Robotics",
+        "Logistics",
+        "Supply Chain"
+      ]
+    },
+    {
+      "rank": 103,
+      "name": "Clam",
+      "slug": "clam",
+      "scores": {
+        "CB": 30,
+        "EG": 40,
+        "NR": 45,
+        "PG": 47,
+        "PT": 28,
+        "SL": 31,
+        "VK": 37
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 36.86,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "Enterprise-grade security for broad-access AI Agents like OpenClaw",
+      "industry": "B2B / B2B",
+      "tags": [
+        "Workflow Automation",
+        "Security",
+        "AI",
+        "AI Assistant"
+      ]
+    },
+    {
+      "rank": 104,
+      "name": "Oxus",
+      "slug": "oxus",
+      "scores": {
+        "CB": 35,
+        "EG": 49,
+        "NR": 39,
+        "PG": 44,
+        "PT": 31,
+        "SL": 24,
+        "VK": 36
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 36.86,
+      "revenue": null,
+      "teamSize": 3,
+      "oneLiner": "AI-powered automation for internal audit workflows",
+      "industry": "B2B / B2B",
+      "tags": [
+        "Artificial Intelligence",
+        "B2B",
+        "Workflow Automation",
+        "Compliance"
+      ]
+    },
+    {
+      "rank": 105,
+      "name": "Perfectly",
+      "slug": "perfectly",
+      "scores": {
+        "CB": 31,
+        "EG": 37,
+        "NR": 39,
+        "PG": 52,
+        "PT": 32,
+        "SL": 26,
+        "VK": 40
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 36.71,
+      "revenue": null,
+      "teamSize": 3,
+      "oneLiner": "The AI-native Recruiting Operating System",
+      "industry": "B2B / B2B",
+      "tags": [
+        "Artificial Intelligence",
+        "Recruiting"
+      ]
+    },
+    {
+      "rank": 106,
+      "name": "Ressl AI",
+      "slug": "ressl-ai",
+      "scores": {
+        "CB": 40,
+        "EG": 45,
+        "NR": 36,
+        "PG": 42,
+        "PT": 25,
+        "SL": 27,
+        "VK": 41
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 36.57,
+      "revenue": null,
+      "teamSize": 4,
+      "oneLiner": "AI Transformation for the Trades",
+      "industry": "B2B / B2B",
+      "tags": [
+        "B2B",
+        "Home Services",
+        "Operations",
+        "AI"
+      ]
+    },
+    {
+      "rank": 107,
+      "name": "Polymath",
+      "slug": "polymath",
+      "scores": {
+        "CB": 27,
+        "EG": 39,
+        "NR": 43,
+        "PG": 41,
+        "PT": 31,
+        "SL": 28,
+        "VK": 46
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 36.43,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "Long-horizon RL",
+      "industry": "B2B / B2B",
+      "tags": [
+        "Artificial Intelligence",
+        "B2B",
+        "Big Data",
+        "AI"
+      ]
+    },
+    {
+      "rank": 108,
+      "name": "Pocket",
+      "slug": "pocket",
+      "scores": {
+        "CB": 35,
+        "EG": 36,
+        "NR": 38,
+        "PG": 55,
+        "PT": 26,
+        "SL": 28,
+        "VK": 35
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 36.14,
+      "revenue": null,
+      "teamSize": 6,
+      "oneLiner": "The world's best AI note-taking device and app",
+      "industry": "Consumer / Consumer",
+      "tags": []
+    },
+    {
+      "rank": 109,
+      "name": "Vela",
+      "slug": "vela",
+      "scores": {
+        "CB": 37,
+        "EG": 38,
+        "NR": 42,
+        "PG": 42,
+        "PT": 28,
+        "SL": 25,
+        "VK": 41
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Strong Pass",
+        "VK": "Pass"
+      },
+      "avg": 36.14,
+      "revenue": null,
+      "teamSize": 4,
+      "oneLiner": "The AI Scheduling Assistant that truly knows you.",
+      "industry": "B2B / B2B",
+      "tags": [
+        "Artificial Intelligence",
+        "B2B",
+        "Recruiting",
+        "Calendar",
+        "AI Assistant"
+      ]
+    },
+    {
+      "rank": 110,
+      "name": "Overdrive Health",
+      "slug": "overdrive-health",
+      "scores": {
+        "CB": 37,
+        "EG": 43,
+        "NR": 40,
+        "PG": 42,
+        "PT": 29,
+        "SL": 28,
+        "VK": 33
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 36,
+      "revenue": null,
+      "teamSize": 1,
+      "oneLiner": "AI Powered Medical Billing",
+      "industry": "Healthcare / Healthcare Services",
+      "tags": [
+        "Health Tech",
+        "Healthcare",
+        "Health Insurance"
+      ]
+    },
+    {
+      "rank": 111,
+      "name": "Confluence Labs",
+      "slug": "confluence-labs",
+      "scores": {
+        "CB": 31,
+        "EG": 32,
+        "NR": 41,
+        "PG": 40,
+        "PT": 28,
+        "SL": 26,
+        "VK": 53
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 35.86,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "We're an AI research lab focused on learning efficiency",
+      "industry": "B2B / B2B",
+      "tags": [
+        "Artificial Intelligence",
+        "AI"
+      ]
+    },
+    {
+      "rank": 112,
+      "name": "Doomersion",
+      "slug": "doomersion",
+      "scores": {
+        "CB": 38,
+        "EG": 31,
+        "NR": 44,
+        "PG": 51,
+        "PT": 26,
+        "SL": 27,
+        "VK": 34
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 35.86,
+      "revenue": null,
+      "teamSize": 4,
+      "oneLiner": "Doomscroll to learn languages",
+      "industry": "Consumer / Consumer",
+      "tags": [
+        "Education"
+      ]
+    },
+    {
+      "rank": 113,
+      "name": "Return Signals",
+      "slug": "return-signals",
+      "scores": {
+        "CB": 31,
+        "EG": 43,
+        "NR": 45,
+        "PG": 42,
+        "PT": 29,
+        "SL": 27,
+        "VK": 34
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 35.86,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "AI luxury concierge for E-commerce brands",
+      "industry": "B2B / B2B -> Retail",
+      "tags": [
+        "Generative AI",
+        "E-commerce",
+        "SMS"
+      ]
+    },
+    {
+      "rank": 114,
+      "name": "Skillsync",
+      "slug": "skillsync",
+      "scores": {
+        "CB": 33,
+        "EG": 35,
+        "NR": 38,
+        "PG": 51,
+        "PT": 33,
+        "SL": 28,
+        "VK": 33
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 35.86,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "Find anyone in open source",
+      "industry": "B2B / B2B -> Human Resources",
+      "tags": [
+        "Artificial Intelligence",
+        "Recruiting",
+        "Open Source",
+        "HR Tech"
+      ]
+    },
+    {
+      "rank": 115,
+      "name": "ZeroSettle",
+      "slug": "zerosettle",
+      "scores": {
+        "CB": 34,
+        "EG": 37,
+        "NR": 41,
+        "PG": 44,
+        "PT": 30,
+        "SL": 30,
+        "VK": 35
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 35.86,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "Bypass the App Store tax and enable web-based purchases",
+      "industry": "B2B / B2B -> Sales",
+      "tags": [
+        "Fintech",
+        "Payments",
+        "Cryptocurrency"
+      ]
+    },
+    {
+      "rank": 116,
+      "name": "Cumulus Labs",
+      "slug": "cumulus-labs",
+      "scores": {
+        "CB": 32,
+        "EG": 35,
+        "NR": 47,
+        "PG": 50,
+        "PT": 27,
+        "SL": 24,
+        "VK": 35
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Strong Pass",
+        "VK": "Pass"
+      },
+      "avg": 35.71,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "Serverless GPU Cloud — with managed inference stack",
+      "industry": "B2B / B2B -> Infrastructure",
+      "tags": [
+        "AIOps",
+        "B2B",
+        "Cloud Computing",
+        "Infrastructure"
+      ]
+    },
+    {
+      "rank": 117,
+      "name": "Moda",
+      "slug": "moda",
+      "scores": {
+        "CB": 32,
+        "EG": 40,
+        "NR": 43,
+        "PG": 50,
+        "PT": 24,
+        "SL": 26,
+        "VK": 35
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Strong Pass",
+        "VK": "Pass"
+      },
+      "avg": 35.71,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "The monitoring & analytics layer your AI agents need.",
+      "industry": "B2B / B2B -> Infrastructure",
+      "tags": [
+        "Artificial Intelligence",
+        "SaaS",
+        "Analytics",
+        "Infrastructure"
+      ]
+    },
+    {
+      "rank": 118,
+      "name": "Terminal Use",
+      "slug": "terminal-use",
+      "scores": {
+        "CB": 29,
+        "EG": 37,
+        "NR": 44,
+        "PG": 44,
+        "PT": 30,
+        "SL": 28,
+        "VK": 38
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 35.71,
+      "revenue": null,
+      "teamSize": 4,
+      "oneLiner": "Vercel for background agents",
+      "industry": "B2B / B2B -> Infrastructure",
+      "tags": [
+        "AIOps",
+        "Developer Tools",
+        "Workflow Automation",
+        "Infrastructure",
+        "AI"
+      ]
+    },
+    {
+      "rank": 119,
+      "name": "Veriad",
+      "slug": "veriad",
+      "scores": {
+        "CB": 32,
+        "EG": 43,
+        "NR": 40,
+        "PG": 47,
+        "PT": 30,
+        "SL": 26,
+        "VK": 32
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 35.71,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "AI compliance officers",
+      "industry": "B2B / B2B",
+      "tags": [
+        "B2B",
+        "Compliance",
+        "Marketing"
+      ]
+    },
+    {
+      "rank": 120,
+      "name": "EigenPal",
+      "slug": "eigenpal",
+      "scores": {
+        "CB": 31,
+        "EG": 39,
+        "NR": 38,
+        "PG": 49,
+        "PT": 29,
+        "SL": 28,
+        "VK": 35
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 35.57,
+      "revenue": null,
+      "teamSize": null,
+      "oneLiner": "AI Document Workflows for Enterprises",
+      "industry": "B2B / B2B -> Operations",
+      "tags": [
+        "Documents",
+        "Artificial Intelligence",
+        "Automation"
+      ]
+    },
+    {
+      "rank": 121,
+      "name": "Maven",
+      "slug": "maven",
+      "scores": {
+        "CB": 31,
+        "EG": 40,
+        "NR": 42,
+        "PG": 42,
+        "PT": 29,
+        "SL": 29,
+        "VK": 35
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 35.43,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "Payments for Voice Agents",
+      "industry": "B2B / B2B",
+      "tags": [
+        "Developer Tools",
+        "Fintech",
+        "SaaS",
+        "Infrastructure",
+        "Conversational AI"
+      ]
+    },
+    {
+      "rank": 122,
+      "name": "1code (21st.dev)",
+      "slug": "1code-21stdev",
+      "scores": {
+        "CB": 26,
+        "EG": 42,
+        "NR": 37,
+        "PG": 49,
+        "PT": 22,
+        "SL": 32,
+        "VK": 38
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Strong Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 35.14,
+      "revenue": null,
+      "teamSize": 3,
+      "oneLiner": "Orchestration layer for coding agents",
+      "industry": "B2B / B2B -> Engineering, Product and Design",
+      "tags": [
+        "Developer Tools",
+        "B2B",
+        "Design Tools"
+      ]
+    },
+    {
+      "rank": 123,
+      "name": "Lexius",
+      "slug": "lexius",
+      "scores": {
+        "CB": 41,
+        "EG": 36,
+        "NR": 36,
+        "PG": 43,
+        "PT": 28,
+        "SL": 28,
+        "VK": 34
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 35.14,
+      "revenue": null,
+      "teamSize": 3,
+      "oneLiner": "AI Crime Detection",
+      "industry": "B2B / B2B -> Retail",
+      "tags": [
+        "Artificial Intelligence",
+        "SaaS",
+        "Computer Vision"
+      ]
+    },
+    {
+      "rank": 124,
+      "name": "Shofo",
+      "slug": "shofo",
+      "scores": {
+        "CB": 33,
+        "EG": 41,
+        "NR": 39,
+        "PG": 37,
+        "PT": 28,
+        "SL": 29,
+        "VK": 39
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 35.14,
+      "revenue": null,
+      "teamSize": 4,
+      "oneLiner": "Common Crawl for Video",
+      "industry": "B2B / B2B -> Infrastructure",
+      "tags": [
+        "Artificial Intelligence",
+        "Video",
+        "Data Labeling",
+        "Big Data"
+      ]
+    },
+    {
+      "rank": 125,
+      "name": "Haladir",
+      "slug": "haladir",
+      "scores": {
+        "CB": 35,
+        "EG": 38,
+        "NR": 44,
+        "PG": 34,
+        "PT": 25,
+        "SL": 30,
+        "VK": 39
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Strong Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 35,
+      "revenue": null,
+      "teamSize": 4,
+      "oneLiner": "Bridging the Gap between Solvers and Training.",
+      "industry": "B2B / B2B -> Infrastructure",
+      "tags": [
+        "Reinforcement Learning",
+        "Data Engineering",
+        "Operations"
+      ]
+    },
+    {
+      "rank": 126,
+      "name": "IncidentFox",
+      "slug": "brownie",
+      "scores": {
+        "CB": 30,
+        "EG": 39,
+        "NR": 42,
+        "PG": 45,
+        "PT": 30,
+        "SL": 24,
+        "VK": 33
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Strong Pass",
+        "VK": "Pass"
+      },
+      "avg": 34.71,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "AI SRE agent that triages, coordinates, and fixes production incidents",
+      "industry": "B2B / B2B -> Infrastructure",
+      "tags": [
+        "AIOps",
+        "Artificial Intelligence",
+        "Developer Tools"
+      ]
+    },
+    {
+      "rank": 127,
+      "name": "Luel",
+      "slug": "luel",
+      "scores": {
+        "CB": 38,
+        "EG": 40,
+        "NR": 34,
+        "PG": 35,
+        "PT": 26,
+        "SL": 27,
+        "VK": 42
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 34.57,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "Turning everyday words and actions into usable training data.",
+      "industry": "B2B / B2B -> Infrastructure",
+      "tags": [
+        "Marketplace",
+        "B2B",
+        "Big Data"
+      ]
+    },
+    {
+      "rank": 128,
+      "name": "Strand AI",
+      "slug": "strand-ai",
+      "scores": {
+        "CB": 31,
+        "EG": 32,
+        "NR": 41,
+        "PG": 42,
+        "PT": 27,
+        "SL": 27,
+        "VK": 41
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 34.43,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "Curated multimodal datasets for biology AI",
+      "industry": "Healthcare / Healthcare -> Drug Discovery and Delivery",
+      "tags": [
+        "Artificial Intelligence",
+        "Generative AI",
+        "Biotech"
+      ]
+    },
+    {
+      "rank": 129,
+      "name": "Oximy",
+      "slug": "oximy",
+      "scores": {
+        "CB": 36,
+        "EG": 39,
+        "NR": 39,
+        "PG": 38,
+        "PT": 28,
+        "SL": 26,
+        "VK": 34
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 34.29,
+      "revenue": null,
+      "teamSize": 5,
+      "oneLiner": "The system of record for enterprise AI usage.",
+      "industry": "B2B / B2B -> Infrastructure",
+      "tags": [
+        "Artificial Intelligence",
+        "Security",
+        "Enterprise Software"
+      ]
+    },
+    {
+      "rank": 130,
+      "name": "RamAIn",
+      "slug": "ramain",
+      "scores": {
+        "CB": 32,
+        "EG": 34,
+        "NR": 38,
+        "PG": 34,
+        "PT": 30,
+        "SL": 28,
+        "VK": 44
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 34.29,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "Super fast computer-use agents to automate complex workflows.",
+      "industry": "B2B / B2B",
+      "tags": [
+        "Machine Learning",
+        "Computer Vision",
+        "AI"
+      ]
+    },
+    {
+      "rank": 131,
+      "name": "Stilta",
+      "slug": "stilta",
+      "scores": {
+        "CB": 31,
+        "EG": 39,
+        "NR": 37,
+        "PG": 38,
+        "PT": 28,
+        "SL": 27,
+        "VK": 40
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Strong Pass",
+        "VK": "Pass"
+      },
+      "avg": 34.29,
+      "revenue": null,
+      "teamSize": 4,
+      "oneLiner": "Cursor for patent attorneys",
+      "industry": "B2B / B2B",
+      "tags": [
+        "LegalTech",
+        "AI"
+      ]
+    },
+    {
+      "rank": 132,
+      "name": "Cascade",
+      "slug": "cascade",
+      "scores": {
+        "CB": 32,
+        "EG": 33,
+        "NR": 46,
+        "PG": 39,
+        "PT": 24,
+        "SL": 26,
+        "VK": 39
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 34.14,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "Making Autonomous Intelligence Safe & Reliable",
+      "industry": "B2B / B2B -> Infrastructure",
+      "tags": [
+        "B2B",
+        "Security",
+        "Infrastructure",
+        "Trust & Safety",
+        "AI"
+      ]
+    },
+    {
+      "rank": 133,
+      "name": "Velum Labs",
+      "slug": "velum-labs",
+      "scores": {
+        "CB": 28,
+        "EG": 37,
+        "NR": 44,
+        "PG": 38,
+        "PT": 28,
+        "SL": 25,
+        "VK": 39
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Strong Pass",
+        "VK": "Pass"
+      },
+      "avg": 34.14,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "Firewall that controls access to information across AI and humans",
+      "industry": "B2B / B2B",
+      "tags": [
+        "Machine Learning",
+        "Security",
+        "Open Source",
+        "Privacy"
+      ]
+    },
+    {
+      "rank": 134,
+      "name": "Emdash",
+      "slug": "emdash",
+      "scores": {
+        "CB": 26,
+        "EG": 43,
+        "NR": 37,
+        "PG": 46,
+        "PT": 25,
+        "SL": 26,
+        "VK": 35
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 34,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "Open-source Agentic Development Environment",
+      "industry": "B2B / B2B -> Productivity",
+      "tags": [
+        "Artificial Intelligence",
+        "Developer Tools",
+        "Open Source",
+        "AI"
+      ]
+    },
+    {
+      "rank": 135,
+      "name": "Q2Q",
+      "slug": "q2q",
+      "scores": {
+        "CB": 28,
+        "EG": 38,
+        "NR": 40,
+        "PG": 52,
+        "PT": 28,
+        "SL": 25,
+        "VK": 27
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Strong Pass",
+        "VK": "Pass"
+      },
+      "avg": 34,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "We help private equity teams find acquisition targets faster",
+      "industry": "B2B / B2B -> Finance and Accounting",
+      "tags": [
+        "Fintech",
+        "SaaS",
+        "B2B",
+        "AI"
+      ]
+    },
+    {
+      "rank": 136,
+      "name": "Salus",
+      "slug": "salus",
+      "scores": {
+        "CB": 27,
+        "EG": 39,
+        "NR": 42,
+        "PG": 37,
+        "PT": 26,
+        "SL": 29,
+        "VK": 38
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 34,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "Guardrails to validate your agent's actions before they execute",
+      "industry": "B2B / B2B -> Infrastructure",
+      "tags": [
+        "Developer Tools",
+        "B2B",
+        "API",
+        "Infrastructure",
+        "AI"
+      ]
+    },
+    {
+      "rank": 137,
+      "name": "Fenrock AI (YC W26)",
+      "slug": "fenrock-ai-yc-w26",
+      "scores": {
+        "CB": 33,
+        "EG": 42,
+        "NR": 36,
+        "PG": 29,
+        "PT": 26,
+        "SL": 29,
+        "VK": 41
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 33.71,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "The most powerful AI agents for Financial Crime Compliance",
+      "industry": "Fintech / Fintech",
+      "tags": [
+        "Artificial Intelligence",
+        "Fintech",
+        "Compliance",
+        "AI"
+      ]
+    },
+    {
+      "rank": 138,
+      "name": "Ritivel",
+      "slug": "ritivel",
+      "scores": {
+        "CB": 33,
+        "EG": 37,
+        "NR": 40,
+        "PG": 40,
+        "PT": 26,
+        "SL": 23,
+        "VK": 37
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 33.71,
+      "revenue": null,
+      "teamSize": 3,
+      "oneLiner": "AI-native platform for regulatory document submission",
+      "industry": "Healthcare / Healthcare IT",
+      "tags": [
+        "Generative AI",
+        "Compliance",
+        "Enterprise Software",
+        "Regtech",
+        "Biotechnology"
+      ]
+    },
+    {
+      "rank": 139,
+      "name": "Unisson",
+      "slug": "unisson",
+      "scores": {
+        "CB": 29,
+        "EG": 33,
+        "NR": 47,
+        "PG": 40,
+        "PT": 28,
+        "SL": 24,
+        "VK": 35
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 33.71,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "The AI product specialist for customer-facing teams",
+      "industry": "B2B / B2B -> Productivity",
+      "tags": [
+        "Artificial Intelligence",
+        "Workflow Automation",
+        "Enterprise Software"
+      ]
+    },
+    {
+      "rank": 140,
+      "name": "Avoice",
+      "slug": "avoice",
+      "scores": {
+        "CB": 36,
+        "EG": 41,
+        "NR": 34,
+        "PG": 35,
+        "PT": 30,
+        "SL": 24,
+        "VK": 35
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Strong Pass",
+        "VK": "Pass"
+      },
+      "avg": 33.57,
+      "revenue": null,
+      "teamSize": 4,
+      "oneLiner": "The AI Workspace For Architects",
+      "industry": "B2B / B2B",
+      "tags": [
+        "Construction",
+        "Enterprise Software",
+        "Architecture",
+        "AI"
+      ]
+    },
+    {
+      "rank": 141,
+      "name": "Agentic Fabriq",
+      "slug": "agentic-fabriq",
+      "scores": {
+        "CB": 32,
+        "EG": 40,
+        "NR": 39,
+        "PG": 32,
+        "PT": 25,
+        "SL": 30,
+        "VK": 36
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 33.43,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "Okta for Agents.",
+      "industry": "B2B / B2B",
+      "tags": [
+        "AIOps",
+        "DevSecOps",
+        "SaaS",
+        "API",
+        "Infrastructure"
+      ]
+    },
+    {
+      "rank": 142,
+      "name": "Byteport",
+      "slug": "byteport",
+      "scores": {
+        "CB": 26,
+        "EG": 31,
+        "NR": 43,
+        "PG": 45,
+        "PT": 28,
+        "SL": 26,
+        "VK": 35
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 33.43,
+      "revenue": null,
+      "teamSize": 1,
+      "oneLiner": "Global upload acceleration for 1GB-100TB files.",
+      "industry": "B2B / B2B",
+      "tags": [
+        "SaaS",
+        "B2B",
+        "Infrastructure"
+      ]
+    },
+    {
+      "rank": 143,
+      "name": "Sonarly",
+      "slug": "sonarly",
+      "scores": {
+        "CB": 28,
+        "EG": 38,
+        "NR": 35,
+        "PG": 46,
+        "PT": 30,
+        "SL": 22,
+        "VK": 34
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Strong Pass",
+        "VK": "Pass"
+      },
+      "avg": 33.29,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "AI engineer to triage and fix your production alerts",
+      "industry": "B2B / B2B -> Engineering, Product and Design",
+      "tags": [
+        "Developer Tools",
+        "Generative AI"
+      ]
+    },
+    {
+      "rank": 144,
+      "name": "Travo",
+      "slug": "travo",
+      "scores": {
+        "CB": 31,
+        "EG": 37,
+        "NR": 34,
+        "PG": 39,
+        "PT": 31,
+        "SL": 30,
+        "VK": 31
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 33.29,
+      "revenue": null,
+      "teamSize": 4,
+      "oneLiner": "We use AI to collect and analyze real estate data",
+      "industry": "Real Estate and Construction / Real Estate and Construction",
+      "tags": [
+        "Artificial Intelligence",
+        "Real Estate",
+        "AI"
+      ]
+    },
+    {
+      "rank": 145,
+      "name": "Carson",
+      "slug": "carson",
+      "scores": {
+        "CB": 29,
+        "EG": 37,
+        "NR": 37,
+        "PG": 41,
+        "PT": 29,
+        "SL": 23,
+        "VK": 35
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Strong Pass",
+        "VK": "Pass"
+      },
+      "avg": 33,
+      "revenue": null,
+      "teamSize": 4,
+      "oneLiner": "more capable than Cowork, more secure than OpenClaw",
+      "industry": "B2B / B2B",
+      "tags": [
+        "Productivity",
+        "Security",
+        "Enterprise",
+        "AI",
+        "AI Assistant"
+      ]
+    },
+    {
+      "rank": 146,
+      "name": "Cajal",
+      "slug": "cajal-technologies",
+      "scores": {
+        "CB": 28,
+        "EG": 32,
+        "NR": 40,
+        "PG": 30,
+        "PT": 27,
+        "SL": 33,
+        "VK": 39
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 32.71,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "Scaling formal verification to accelerate scientific discovery",
+      "industry": "B2B / B2B",
+      "tags": [
+        "B2B",
+        "Big Data",
+        "AI"
+      ]
+    },
+    {
+      "rank": 147,
+      "name": "Sequence Markets",
+      "slug": "sequence-markets",
+      "scores": {
+        "CB": 27,
+        "EG": 40,
+        "NR": 44,
+        "PG": 31,
+        "PT": 25,
+        "SL": 27,
+        "VK": 34
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Strong Pass",
+        "VK": "Pass"
+      },
+      "avg": 32.57,
+      "revenue": null,
+      "teamSize": 5,
+      "oneLiner": "Smarter and faster trade execution for digital assets",
+      "industry": "Fintech / Fintech",
+      "tags": [
+        "Fintech",
+        "AI",
+        "Cryptocurrency"
+      ]
+    },
+    {
+      "rank": 148,
+      "name": "Polymorph",
+      "slug": "polymorph",
+      "scores": {
+        "CB": 28,
+        "EG": 30,
+        "NR": 43,
+        "PG": 39,
+        "PT": 30,
+        "SL": 27,
+        "VK": 30
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 32.43,
+      "revenue": null,
+      "teamSize": 3,
+      "oneLiner": "Personalized notifs & attribution for consumer and self-serve apps",
+      "industry": "B2B / B2B",
+      "tags": [
+        "SaaS",
+        "B2B",
+        "Analytics",
+        "Marketing",
+        "AI"
+      ]
+    },
+    {
+      "rank": 149,
+      "name": "Inviscid AI",
+      "slug": "inviscid-ai",
+      "scores": {
+        "CB": 28,
+        "EG": 33,
+        "NR": 40,
+        "PG": 26,
+        "PT": 28,
+        "SL": 27,
+        "VK": 44
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Strong Pass",
+        "VK": "Pass"
+      },
+      "avg": 32.29,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "Real-time Building Simulations to Optimize Energy and Operational?",
+      "industry": "B2B / B2B -> Engineering, Product and Design",
+      "tags": [
+        "Warehouse Management Tech",
+        "IoT",
+        "Sustainability",
+        "Proptech"
+      ]
+    },
+    {
+      "rank": 150,
+      "name": "Compresr",
+      "slug": "compresr",
+      "scores": {
+        "CB": 25,
+        "EG": 34,
+        "NR": 40,
+        "PG": 37,
+        "PT": 28,
+        "SL": 25,
+        "VK": 35
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Strong Pass",
+        "VK": "Pass"
+      },
+      "avg": 32,
+      "revenue": null,
+      "teamSize": 4,
+      "oneLiner": "LLM-native context compression",
+      "industry": "B2B / B2B -> Infrastructure",
+      "tags": [
+        "Artificial Intelligence",
+        "Developer Tools",
+        "B2B",
+        "Enterprise Software"
+      ]
+    },
+    {
+      "rank": 151,
+      "name": "Copperlane",
+      "slug": "copperlane",
+      "scores": {
+        "CB": 28,
+        "EG": 36,
+        "NR": 37,
+        "PG": 36,
+        "PT": 26,
+        "SL": 24,
+        "VK": 37
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 32,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "Agents for Mortgage Origination",
+      "industry": "B2B / B2B -> Infrastructure",
+      "tags": [
+        "Fintech",
+        "AI"
+      ]
+    },
+    {
+      "rank": 152,
+      "name": "Docura Health",
+      "slug": "docura-health",
+      "scores": {
+        "CB": 30,
+        "EG": 37,
+        "NR": 35,
+        "PG": 43,
+        "PT": 31,
+        "SL": 22,
+        "VK": 26
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 32,
+      "revenue": null,
+      "teamSize": 1,
+      "oneLiner": "AI-Native Medico-Legal Firm",
+      "industry": "Healthcare / Healthcare",
+      "tags": [
+        "Health Tech",
+        "Legal",
+        "Insurance"
+      ]
+    },
+    {
+      "rank": 153,
+      "name": "o11",
+      "slug": "o11",
+      "scores": {
+        "CB": 27,
+        "EG": 34,
+        "NR": 40,
+        "PG": 41,
+        "PT": 27,
+        "SL": 21,
+        "VK": 34
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Strong Pass",
+        "VK": "Pass"
+      },
+      "avg": 32,
+      "revenue": null,
+      "teamSize": 4,
+      "oneLiner": "The Most Integrated M365 AI Suite",
+      "industry": "B2B / B2B -> Finance and Accounting",
+      "tags": [
+        "Artificial Intelligence",
+        "Fintech",
+        "SaaS",
+        "Finance",
+        "B2B"
+      ]
+    },
+    {
+      "rank": 154,
+      "name": "Human Archive",
+      "slug": "human-archive",
+      "scores": {
+        "CB": 34,
+        "EG": 37,
+        "NR": 29,
+        "PG": 33,
+        "PT": 23,
+        "SL": 26,
+        "VK": 41
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Strong Pass",
+        "VK": "Pass"
+      },
+      "avg": 31.86,
+      "revenue": null,
+      "teamSize": 4,
+      "oneLiner": "Multimodal data provider for robotics learning",
+      "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+      "tags": [
+        "Robotics",
+        "Data Labeling",
+        "AI"
+      ]
+    },
+    {
+      "rank": 155,
+      "name": "Lucent",
+      "slug": "lucent",
+      "scores": {
+        "CB": 29,
+        "EG": 34,
+        "NR": 37,
+        "PG": 39,
+        "PT": 26,
+        "SL": 24,
+        "VK": 34
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 31.86,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "AI that automatically watches your session replays to detect bugs.",
+      "industry": "B2B / B2B",
+      "tags": [
+        "Developer Tools",
+        "B2B",
+        "AI"
+      ]
+    },
+    {
+      "rank": 156,
+      "name": "Traverse",
+      "slug": "traverse",
+      "scores": {
+        "CB": 26,
+        "EG": 35,
+        "NR": 34,
+        "PG": 36,
+        "PT": 28,
+        "SL": 22,
+        "VK": 41
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Strong Pass",
+        "VK": "Pass"
+      },
+      "avg": 31.71,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "Data research company building RL envs for non-deterministic work",
+      "industry": "B2B / B2B",
+      "tags": [
+        "Artificial Intelligence",
+        "Reinforcement Learning"
+      ]
+    },
+    {
+      "rank": 157,
+      "name": "Zatanna",
+      "slug": "zatanna",
+      "scores": {
+        "CB": 31,
+        "EG": 34,
+        "NR": 35,
+        "PG": 37,
+        "PT": 23,
+        "SL": 27,
+        "VK": 34
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 31.57,
+      "revenue": null,
+      "teamSize": 3,
+      "oneLiner": "Adaptive Healthcare Admin Agents",
+      "industry": "B2B / B2B -> Office Management",
+      "tags": [
+        "Healthcare",
+        "Dental",
+        "Billing",
+        "Infrastructure",
+        "Conversational AI"
+      ]
+    },
+    {
+      "rank": 158,
+      "name": "Bubble Lab",
+      "slug": "bubble-lab",
+      "scores": {
+        "CB": 31,
+        "EG": 32,
+        "NR": 38,
+        "PG": 41,
+        "PT": 22,
+        "SL": 24,
+        "VK": 31
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 31.29,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "Your ops super-employee in Slack",
+      "industry": "B2B / B2B -> Engineering, Product and Design",
+      "tags": [
+        "Artificial Intelligence",
+        "Workflow Automation",
+        "Operations"
+      ]
+    },
+    {
+      "rank": 159,
+      "name": "Crow",
+      "slug": "crow",
+      "scores": {
+        "CB": 26,
+        "EG": 36,
+        "NR": 38,
+        "PG": 43,
+        "PT": 24,
+        "SL": 21,
+        "VK": 31
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Strong Pass",
+        "VK": "Pass"
+      },
+      "avg": 31.29,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "Let users control your app through chat",
+      "industry": "B2B / B2B",
+      "tags": [
+        "Artificial Intelligence",
+        "Generative AI",
+        "Chatbot",
+        "Enterprise",
+        "AI Assistant"
+      ]
+    },
+    {
+      "rank": 160,
+      "name": "Axis",
+      "slug": "axis-2",
+      "scores": {
+        "CB": 33,
+        "EG": 32,
+        "NR": 32,
+        "PG": 41,
+        "PT": 25,
+        "SL": 24,
+        "VK": 30
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Strong Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 31,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "Models for Monitoring Commodities Markets",
+      "industry": "Fintech / Fintech",
+      "tags": [
+        "Fintech"
+      ]
+    },
+    {
+      "rank": 161,
+      "name": "Booko",
+      "slug": "booko",
+      "scores": {
+        "CB": 27,
+        "EG": 32,
+        "NR": 42,
+        "PG": 39,
+        "PT": 24,
+        "SL": 24,
+        "VK": 27
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Strong Pass"
+      },
+      "avg": 30.71,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "Dynamic pricing for businesses that sell time slots",
+      "industry": "B2B / B2B",
+      "tags": [
+        "Machine Learning",
+        "SaaS",
+        "B2B",
+        "Analytics"
+      ]
+    },
+    {
+      "rank": 162,
+      "name": "SideKit",
+      "slug": "sidekit",
+      "scores": {
+        "CB": 26,
+        "EG": 33,
+        "NR": 39,
+        "PG": 45,
+        "PT": 21,
+        "SL": 22,
+        "VK": 28
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Strong Pass",
+        "VK": "Pass"
+      },
+      "avg": 30.57,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "One package to take your mobile app to production.",
+      "industry": "B2B / B2B -> Analytics",
+      "tags": [
+        "API",
+        "Enterprise Software",
+        "Infrastructure"
+      ]
+    },
+    {
+      "rank": 163,
+      "name": "Tensol",
+      "slug": "tensol",
+      "scores": {
+        "CB": 28,
+        "EG": 31,
+        "NR": 33,
+        "PG": 40,
+        "PT": 21,
+        "SL": 21,
+        "VK": 38
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 30.29,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "AI Employees for your Business, Powered by OpenClaw",
+      "industry": "B2B / B2B -> Infrastructure",
+      "tags": [
+        "Artificial Intelligence",
+        "B2B",
+        "Productivity",
+        "Enterprise Software"
+      ]
+    },
+    {
+      "rank": 164,
+      "name": "Autumn AI",
+      "slug": "autumn-ai",
+      "scores": {
+        "CB": 28,
+        "EG": 32,
+        "NR": 34,
+        "PG": 44,
+        "PT": 25,
+        "SL": 24,
+        "VK": 24
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 30.14,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "Stalk your prospects at scale.",
+      "industry": "B2B / B2B -> Infrastructure",
+      "tags": [
+        "Artificial Intelligence",
+        "Sales",
+        "Search",
+        "AI Assistant"
+      ]
+    },
+    {
+      "rank": 165,
+      "name": "Sparkles",
+      "slug": "sparkles",
+      "scores": {
+        "CB": 27,
+        "EG": 36,
+        "NR": 31,
+        "PG": 40,
+        "PT": 24,
+        "SL": 22,
+        "VK": 28
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 29.71,
+      "revenue": null,
+      "teamSize": 1,
+      "oneLiner": "Make everyone on your team an engineer",
+      "industry": "B2B / B2B -> Engineering, Product and Design",
+      "tags": [
+        "Developer Tools",
+        "Productivity"
+      ]
+    },
+    {
+      "rank": 166,
+      "name": "Arzule",
+      "slug": "arzule",
+      "scores": {
+        "CB": 25,
+        "EG": 36,
+        "NR": 34,
+        "PG": 34,
+        "PT": 23,
+        "SL": 23,
+        "VK": 31
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 29.43,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "AI-native revenue engine, starting with B2B partnerships",
+      "industry": "B2B / B2B",
+      "tags": [
+        "SaaS",
+        "B2B",
+        "Market Research",
+        "AI"
+      ]
+    },
+    {
+      "rank": 167,
+      "name": "Pollen",
+      "slug": "pollen",
+      "scores": {
+        "CB": 26,
+        "EG": 33,
+        "NR": 31,
+        "PG": 38,
+        "PT": 24,
+        "SL": 21,
+        "VK": 32
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Strong Pass",
+        "VK": "Pass"
+      },
+      "avg": 29.29,
+      "revenue": null,
+      "teamSize": 3,
+      "oneLiner": "AI Agents for Customer Success",
+      "industry": "B2B / B2B -> Operations",
+      "tags": [
+        "Artificial Intelligence",
+        "Generative AI",
+        "Customer Success",
+        "Conversational AI"
+      ]
+    },
+    {
+      "rank": 168,
+      "name": "Hex Security",
+      "slug": "hex-security",
+      "scores": {
+        "CB": 30,
+        "EG": 28,
+        "NR": 33,
+        "PG": 30,
+        "PT": 27,
+        "SL": 23,
+        "VK": 33
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Strong Pass",
+        "VK": "Pass"
+      },
+      "avg": 29.14,
+      "revenue": null,
+      "teamSize": 3,
+      "oneLiner": "Agentic Offensive Security at Scale",
+      "industry": "B2B / B2B -> Security",
+      "tags": [
+        "Reinforcement Learning",
+        "Cybersecurity"
+      ]
+    },
+    {
+      "rank": 169,
+      "name": "Caretta",
+      "slug": "caretta",
+      "scores": {
+        "CB": 25,
+        "EG": 35,
+        "NR": 32,
+        "PG": 33,
+        "PT": 24,
+        "SL": 20,
+        "VK": 33
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Strong Pass",
+        "VK": "Pass"
+      },
+      "avg": 28.86,
+      "revenue": null,
+      "teamSize": 4,
+      "oneLiner": "Realtime AI for Sales Calls",
+      "industry": "B2B / B2B -> Sales",
+      "tags": [
+        "SaaS",
+        "Sales",
+        "Sales Enablement",
+        "AI Assistant"
+      ]
+    },
+    {
+      "rank": 170,
+      "name": "Tepali",
+      "slug": "tepali",
+      "scores": {
+        "CB": 26,
+        "EG": 35,
+        "NR": 32,
+        "PG": 38,
+        "PT": 23,
+        "SL": 21,
+        "VK": 27
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 28.86,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "AI-native operating system for medspas",
+      "industry": "B2B / B2B",
+      "tags": [
+        "Artificial Intelligence",
+        "Fintech",
+        "SaaS",
+        "B2B",
+        "Healthcare"
+      ]
+    },
+    {
+      "rank": 171,
+      "name": "Sentrial",
+      "slug": "sentrial",
+      "scores": {
+        "CB": 22,
+        "EG": 29,
+        "NR": 38,
+        "PG": 33,
+        "PT": 24,
+        "SL": 20,
+        "VK": 30
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Strong Pass",
+        "VK": "Pass"
+      },
+      "avg": 28,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "Production Monitoring for AI Products",
+      "industry": "B2B / B2B -> Engineering, Product and Design",
+      "tags": [
+        "AIOps",
+        "Artificial Intelligence",
+        "Developer Tools",
+        "B2B"
+      ]
+    },
+    {
+      "rank": 172,
+      "name": "Bits",
+      "slug": "bits-2",
+      "scores": {
+        "CB": 25,
+        "EG": 30,
+        "NR": 30,
+        "PG": 37,
+        "PT": 22,
+        "SL": 22,
+        "VK": 27
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 27.57,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "Fast and Safe OpenClaw on the cloud",
+      "industry": "B2B / B2B -> Infrastructure",
+      "tags": [
+        "AIOps",
+        "Deep Learning"
+      ]
+    },
+    {
+      "rank": 173,
+      "name": "Button Computer",
+      "slug": "button-computer",
+      "scores": {
+        "CB": 26,
+        "EG": 25,
+        "NR": 37,
+        "PG": 34,
+        "PT": 21,
+        "SL": 21,
+        "VK": 27
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Strong Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Strong Pass",
+        "SL": "Strong Pass",
+        "VK": "Pass"
+      },
+      "avg": 27.29,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "Button is the wearable AI that can talk.",
+      "industry": "B2B / B2B -> Engineering, Product and Design",
+      "tags": [
+        "Hardware",
+        "Consumer",
+        "AI"
+      ]
+    },
+    {
+      "rank": 174,
+      "name": "Resonate",
+      "slug": "resonate",
+      "scores": {
+        "CB": 27,
+        "EG": 29,
+        "NR": 31,
+        "PG": 33,
+        "PT": 22,
+        "SL": 21,
+        "VK": 27
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Strong Pass",
+        "VK": "Pass"
+      },
+      "avg": 27.14,
+      "revenue": null,
+      "teamSize": 0,
+      "oneLiner": "The first AI-native messaging platform.",
+      "industry": "Consumer / Consumer",
+      "tags": []
+    },
+    {
+      "rank": 175,
+      "name": "Ashr",
+      "slug": "ashr",
+      "scores": {
+        "CB": 24,
+        "EG": 32,
+        "NR": 32,
+        "PG": 34,
+        "PT": 20,
+        "SL": 20,
+        "VK": 27
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Strong Pass",
+        "VK": "Pass"
+      },
+      "avg": 27,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "Mimic Users in Your Production Environment to Catch Agent Fails",
+      "industry": "B2B / B2B -> Human Resources",
+      "tags": [
+        "Artificial Intelligence",
+        "Developer Tools",
+        "SaaS",
+        "Data Engineering",
+        "DevOps"
+      ]
+    },
+    {
+      "rank": 176,
+      "name": "Burt",
+      "slug": "burt",
+      "scores": {
+        "CB": 28,
+        "EG": 26,
+        "NR": 31,
+        "PG": 35,
+        "PT": 22,
+        "SL": 20,
+        "VK": 26
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Strong Pass"
+      },
+      "avg": 26.86,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "Easily fine tune and deploy specialized models",
+      "industry": "B2B / B2B",
+      "tags": [
+        "Machine Learning",
+        "Reinforcement Learning",
+        "AI"
+      ]
+    }
+  ],
+  "disagreements": [],
+  "convergenceWarnings": [
+    {
+      "company": "Travo",
+      "avg": 33.29,
+      "range": 9
+    },
+    {
+      "company": "Hex Security",
+      "avg": 29.14,
+      "range": 10
+    }
+  ],
+  "correlationMatrix": [
+    {
+      "persona": "CB",
+      "values": {
+        "CB": null,
+        "EG": 0.55,
+        "NR": 0.58,
+        "PG": 0.59,
+        "PT": 0.69,
+        "SL": 0.72,
+        "VK": 0.65
+      }
+    },
+    {
+      "persona": "EG",
+      "values": {
+        "CB": 0.55,
+        "EG": null,
+        "NR": 0.6,
+        "PG": 0.72,
+        "PT": 0.56,
+        "SL": 0.47,
+        "VK": 0.37
+      }
+    },
+    {
+      "persona": "NR",
+      "values": {
+        "CB": 0.58,
+        "EG": 0.6,
+        "NR": null,
+        "PG": 0.68,
+        "PT": 0.79,
+        "SL": 0.7,
+        "VK": 0.68
+      }
+    },
+    {
+      "persona": "PG",
+      "values": {
+        "CB": 0.59,
+        "EG": 0.72,
+        "NR": 0.68,
+        "PG": null,
+        "PT": 0.62,
+        "SL": 0.53,
+        "VK": 0.37
+      }
+    },
+    {
+      "persona": "PT",
+      "values": {
+        "CB": 0.69,
+        "EG": 0.56,
+        "NR": 0.79,
+        "PG": 0.62,
+        "PT": null,
+        "SL": 0.85,
+        "VK": 0.75
+      }
+    },
+    {
+      "persona": "SL",
+      "values": {
+        "CB": 0.72,
+        "EG": 0.47,
+        "NR": 0.7,
+        "PG": 0.53,
+        "PT": 0.85,
+        "SL": null,
+        "VK": 0.78
+      }
+    },
+    {
+      "persona": "VK",
+      "values": {
+        "CB": 0.65,
+        "EG": 0.37,
+        "NR": 0.68,
+        "PG": 0.37,
+        "PT": 0.75,
+        "SL": 0.78,
+        "VK": null
+      }
+    }
+  ],
+  "hasTraction": false
+}

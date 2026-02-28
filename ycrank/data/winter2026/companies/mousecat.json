@@ -1,0 +1,73 @@
+{
+  "slug": "mousecat",
+  "name": "MouseCat",
+  "oneLiner": "The AI Toolkit for Risk Teams",
+  "metadata": {
+    "website": "https://www.mousecat.ai",
+    "yc_page": "https://www.ycombinator.com/companies/mousecat",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "New York, NY, USA",
+    "tags": "Artificial Intelligence, Fintech, Fraud Detection"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Fintech",
+    "Fraud Detection"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 46,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 35,
+    "EG": 47,
+    "NR": 54,
+    "PG": 56,
+    "PT": 38,
+    "SL": 31,
+    "VK": 46
+  },
+  "consolidatedAvg": 43.86,
+  "consolidatedRank": 49,
+  "paths": {
+    "memo": "winter2026/memos/mousecat.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/mousecat.md",
+      "elad-gil": "winter2026/evals/elad-gil/mousecat.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/mousecat.md",
+      "paul-graham": "winter2026/evals/paul-graham/mousecat.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/mousecat.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/mousecat.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/mousecat.md"
+    }
+  }
+}

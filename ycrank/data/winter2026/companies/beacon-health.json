@@ -1,0 +1,73 @@
+{
+  "slug": "beacon-health",
+  "name": "Beacon Health",
+  "oneLiner": "AI Agents for Primary Care",
+  "metadata": {
+    "website": "https://www.beaconhealth.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/beacon-health",
+    "batch": "Winter 2026",
+    "industry": "Healthcare / Healthcare",
+    "team_size": "2",
+    "location": "New York, NY, USA",
+    "tags": "Health Tech, Primary Care, AI"
+  },
+  "tags": [
+    "Health Tech",
+    "Primary Care",
+    "AI"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 41,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 45,
+    "EG": 45,
+    "NR": 45,
+    "PG": 57,
+    "PT": 29,
+    "SL": 27,
+    "VK": 41
+  },
+  "consolidatedAvg": 41.29,
+  "consolidatedRank": 66,
+  "paths": {
+    "memo": "winter2026/memos/beacon-health.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/beacon-health.md",
+      "elad-gil": "winter2026/evals/elad-gil/beacon-health.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/beacon-health.md",
+      "paul-graham": "winter2026/evals/paul-graham/beacon-health.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/beacon-health.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/beacon-health.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/beacon-health.md"
+    }
+  }
+}

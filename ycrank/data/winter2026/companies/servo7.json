@@ -1,0 +1,77 @@
+{
+  "slug": "servo7",
+  "name": "Servo7",
+  "oneLiner": "Simple and rapidly deployed robots for industry work",
+  "metadata": {
+    "website": "https://servo7.com",
+    "yc_page": "https://www.ycombinator.com/companies/servo7",
+    "batch": "Winter 2026",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+    "team_size": "No public data found",
+    "location": "Amsterdam, NH, Netherlands",
+    "tags": "Artificial Intelligence, Robotics, Logistics, Manufacturing, Automation",
+    "yc_partner": "Ankit Gupta",
+    "emails": "founders@servo7.com, pieter@servo7.com"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Robotics",
+    "Logistics",
+    "Manufacturing",
+    "Automation"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 53,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 47,
+    "EG": 36,
+    "NR": 48,
+    "PG": 47,
+    "PT": 33,
+    "SL": 36,
+    "VK": 53
+  },
+  "consolidatedAvg": 42.86,
+  "consolidatedRank": 55,
+  "paths": {
+    "memo": "winter2026/memos/servo7.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/servo7.md",
+      "elad-gil": "winter2026/evals/elad-gil/servo7.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/servo7.md",
+      "paul-graham": "winter2026/evals/paul-graham/servo7.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/servo7.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/servo7.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/servo7.md"
+    }
+  }
+}

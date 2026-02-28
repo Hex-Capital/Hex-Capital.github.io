@@ -1,0 +1,22 @@
+﻿# IncidentFox -- Cyan Banister Evaluation
+
+Here's what I noticed first about IncidentFox, and it's the thing that makes this evaluation straightforward for me: this is one of the most consensus categories in enterprise AI right now. Resolve AI just raised $160 million at a billion-dollar valuation. Incident.io has $96 million in funding and $9 million in revenue. NeuBird pulled in $44.5 million. Cleric, Rootly -- the list keeps going. And then Datadog and PagerDuty are building the exact same capabilities directly into their platforms. When I look at a space like this, my internal alarm goes off in the wrong direction. The most promising companies are the ones nobody wants to fund because they sound insane. AI SRE agents in early 2026 sound the opposite of insane -- they sound like what every enterprise AI pitch deck in San Francisco is about right now. This is consensus investing territory, and that's not where I operate.
+
+When I try to hear the founders' story -- the part that matters most to me -- I find professional experience where I'm looking for biographical fire. Jimmy and Long both worked at Roblox, which gave them real infrastructure exposure at 100M+ DAU scale. Jimmy has a Meta FAIR background in conversational AI. Long lived through on-call chaos firsthand. These are legitimate credentials. But "I was on-call at Roblox and it was painful" is a professional observation, not a biographical thread that makes someone the only person on earth who could build this company. The YC URL slug says "brownie," which tells me they likely pivoted into this space from something else entirely. That's a signal I pay attention to -- when founders land on a hot category after starting somewhere different, I want to understand whether the pivot came from deep conviction or from pattern-matching what VCs want to fund. I don't have enough information to know which it is here, but the absence of a personal origin story connecting these specific founders to incident response as a life mission makes it harder for me to develop the kind of conviction I need to write a check.
+
+The bull case deserves genuine consideration. A vendor-agnostic AI SRE layer is structurally interesting precisely because the incumbents can't build it honestly -- Datadog's AI only works well if you're all-in on Datadog, and PagerDuty's agent serves PagerDuty's ecosystem. The company that becomes the neutral investigation layer across all observability tools could capture something real. The open-source approach with 300+ integrations and auto-discovery from the codebase itself is a clever wedge. And 305 GitHub stars in the first couple months is not nothing -- it's early community signal. If the per-customer learning creates a genuine data moat where each deployment gets smarter about that organization's specific infrastructure patterns, you could see a compounding advantage that's hard to replicate. For a different kind of investor who weights technical architecture and market structure analysis more heavily, this might be a compelling seed bet on the neutral layer thesis.
+
+But that analysis doesn't activate anything in my framework. The company doesn't create economic access for underserved populations -- it makes well-compensated engineers at well-funded companies slightly more productive during incidents. It doesn't make an invisible system visible to people who were previously locked out. The space isn't stigmatized or regulated in ways that would create the kind of moat I saw with Contraline or Anduril -- it's competitive complexity, not regulatory complexity, and those are very different things. And with the minimal Hacker News traction (3 points on one Show HN, 1 point on the other) and no paying customers yet while actively seeking their first two pilots, the founders are entering a knife fight against companies with hundreds of millions in funding and established enterprise customer bases. I've backed founders entering fights like that before -- but only when the founder had the kind of relentless, biography-forged determination that made me believe they'd find a way through no matter what. I don't have that signal here.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Biographical Grit and Personal Stake | 10/30 |
+| Anti-Consensus Conviction and Weird Factor | 5/25 |
+| Economic Access and Real-World Impact | 4/20 |
+| Navigating Complexity in Hard Spaces | 5/15 |
+| Co-Founder Alignment and Team Resilience | 6/10 |
+| **Total** | **30/100** |
+
+**Total Score: 30/100** (Pass)

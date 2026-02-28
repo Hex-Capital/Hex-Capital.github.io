@@ -1,0 +1,73 @@
+{
+  "slug": "generalastro",
+  "name": "General Astronautics",
+  "oneLiner": "The Space Robotics Company",
+  "metadata": {
+    "website": "https://generalastro.com/",
+    "yc_page": "https://www.ycombinator.com/companies/generalastro",
+    "batch": "Winter 2026",
+    "industry": "Industrials / Manufacturing and Robotics",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Robotics, Space Exploration, Aerospace"
+  },
+  "tags": [
+    "Robotics",
+    "Space Exploration",
+    "Aerospace"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 52,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 44,
+    "EG": 31,
+    "NR": 33,
+    "PG": 39,
+    "PT": 36,
+    "SL": 50,
+    "VK": 52
+  },
+  "consolidatedAvg": 40.71,
+  "consolidatedRank": 71,
+  "paths": {
+    "memo": "winter2026/memos/generalastro.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/generalastro.md",
+      "elad-gil": "winter2026/evals/elad-gil/generalastro.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/generalastro.md",
+      "paul-graham": "winter2026/evals/paul-graham/generalastro.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/generalastro.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/generalastro.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/generalastro.md"
+    }
+  }
+}

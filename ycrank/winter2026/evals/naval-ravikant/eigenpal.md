@@ -1,0 +1,26 @@
+﻿# EigenPal -- Naval Ravikant Evaluation
+
+The first thing I notice is the commoditization trajectory. EigenPal's core value proposition -- template-free document extraction using vision-language models -- is built on capabilities that GPT-4V, Claude, and Gemini are making available to every developer on earth. The dossier itself states it plainly: "Any team with access to commercial vision-language models can build basic document extraction." When your differentiation runs on someone else's foundation model, you're not building difficult technology that compounds over time -- you're running on a treadmill where the platform beneath you absorbs your edge with every new model release. This is the opposite of what I saw with Stack Overflow, where every question and answer made the knowledge graph harder to replicate. Here, every improvement in foundation models makes EigenPal's core easier to replicate.
+
+The specific knowledge question is where this falls apart for me. Blaszyk built search infrastructure at Elastic and Yelp -- solid engineering credentials, directly relevant to document pipelines, but this is transferable skill. Any senior engineer from those companies could bring similar capability. Novak is a 3-time B2B AI founder, which shows energy and persistence, but his prior company was mobile app revenue optimization -- not document processing, not financial services, not insurance workflows. Neither founder appears to have spent years inside the industries they're selling to, watching loan officers struggle with handwritten forms, understanding why specific document types break in specific ways. They identified a market gap from the outside and applied general AI capability to it. That's intelligence and hustle. It's not specific knowledge that would take a competitor years to accumulate.
+
+The leverage architecture doesn't clear the bar either. This is a workflow SaaS tool -- it scales better than a consulting firm, but it doesn't create a new category of leverage that didn't exist before. Each enterprise deployment is essentially isolated. There's no mechanism by which Bank A's usage makes the product more valuable for Insurance Company B. No network effects, no protocol dynamics, no compounding data moat that emerges from usage. Compare this to what Replit does: every program written on the platform trains the AI, improves the suggestions, and makes the next programmer more productive. That's compound interest at the product level. EigenPal is selling enterprise software -- good enterprise software, potentially -- but enterprise software that scales linearly with sales effort and customer onboarding.
+
+The strongest bull case is this: the IDP market is real ($2.3B today, potentially $43.9B by 2034), legacy incumbents like ABBYY and Kofax face a genuine innovator's dilemma in moving from template-based to LLM-based processing, and the team has already landed two large European banks at pre-seed -- which is genuinely impressive execution. SOC II Type 2 certification at this stage shows the founders understand enterprise sales requirements. If Novak's 3x founding experience translates into fast enterprise GTM cycles, and if they can lock in enough large financial institutions before incumbents retool, they could build a meaningful business on switching costs and compliance inertia alone. For this to be a great investment, you'd need to believe the workflow orchestration layer -- not the AI extraction -- becomes the durable moat, and that EigenPal builds enough enterprise lock-in in the next 18 months to survive the commoditization wave. That's a plausible $200-500M outcome. But it's not the asymmetric 1000x structure I optimize for.
+
+Two additional concerns sharpen the pass. First, timing: "AI for document processing" is one of the most consensus categories in enterprise AI right now. Every IDP vendor is adding LLM capabilities -- Rossum has $45M in revenue and is going agentic, ABBYY grew new ARR 60% in 2023. Smart money agrees this is happening. When everyone agrees, the pricing already reflects the optimism. Second, the co-founder attention question: Novak is listed as CEO of Assetario (2020-present) alongside EigenPal. The status of that company and his commitment level is unclear. I invest in people playing long-term games -- divided attention at the founding stage is a signal I take seriously.
+
+This is a capable team applying general intelligence to a known market with incremental technological differentiation. The founders are smart, but what they know could be taught. The product improves an existing workflow, but doesn't create a new form of capability. The timing is consensus, not contrarian. It's the kind of company that could become a solid business -- but it's not structured for the asymmetric outcome I'm looking for with my own money.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Specific Knowledge and Founder-Problem Authenticity | 10/30 |
+| Leverage Architecture and Scalability of the Model | 11/25 |
+| Contrarian Positioning and Non-Consensus Timing | 6/20 |
+| Founder Integrity and Long-Term Orientation | 7/15 |
+| Technical Compounding and Defensibility Over Time | 4/10 |
+| **Total** | **38/100** |
+
+**Total Score: 38/100** (Pass)

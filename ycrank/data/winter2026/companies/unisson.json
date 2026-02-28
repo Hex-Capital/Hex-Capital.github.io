@@ -1,0 +1,73 @@
+{
+  "slug": "unisson",
+  "name": "Unisson",
+  "oneLiner": "The AI product specialist for customer-facing teams",
+  "metadata": {
+    "website": "https://www.unisson.ai",
+    "yc_page": "https://www.ycombinator.com/companies/unisson",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Productivity",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Workflow Automation, Enterprise Software"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Workflow Automation",
+    "Enterprise Software"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 24,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 35,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 29,
+    "EG": 33,
+    "NR": 47,
+    "PG": 40,
+    "PT": 28,
+    "SL": 24,
+    "VK": 35
+  },
+  "consolidatedAvg": 33.71,
+  "consolidatedRank": 139,
+  "paths": {
+    "memo": "winter2026/memos/unisson.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/unisson.md",
+      "elad-gil": "winter2026/evals/elad-gil/unisson.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/unisson.md",
+      "paul-graham": "winter2026/evals/paul-graham/unisson.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/unisson.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/unisson.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/unisson.md"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "opalite-health",
+  "name": "Opalite Health",
+  "oneLiner": "Solving language barriers in healthcare",
+  "metadata": {
+    "website": "http://opalitehealth.com/",
+    "yc_page": "https://www.ycombinator.com/companies/opalite-health",
+    "batch": "Winter 2026",
+    "industry": "Healthcare / Healthcare",
+    "team_size": "3",
+    "location": "Palo Alto, CA, USA",
+    "tags": "Artificial Intelligence, Health Tech, Digital Health, Healthcare"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Health Tech",
+    "Digital Health",
+    "Healthcare"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 61,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 61,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 48,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 56,
+    "EG": 54,
+    "NR": 61,
+    "PG": 61,
+    "PT": 37,
+    "SL": 34,
+    "VK": 48
+  },
+  "consolidatedAvg": 50.14,
+  "consolidatedRank": 20,
+  "paths": {
+    "memo": "winter2026/memos/opalite-health.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/opalite-health.md",
+      "elad-gil": "winter2026/evals/elad-gil/opalite-health.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/opalite-health.md",
+      "paul-graham": "winter2026/evals/paul-graham/opalite-health.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/opalite-health.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/opalite-health.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/opalite-health.md"
+    }
+  }
+}

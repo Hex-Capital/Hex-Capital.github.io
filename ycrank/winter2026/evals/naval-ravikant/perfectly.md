@@ -1,0 +1,24 @@
+﻿# Perfectly -- Naval Ravikant Evaluation
+
+The first thing I notice is the crowd. Over 100 AI recruiting startups launched in 2024-2025. Alex has $20M. Perfect -- nearly the same name -- has $23M. Dover, Tezi, Gem, Hireflow. When 88% of recruiters say they want AI and a hundred startups rush in to give it to them, you're not making a contrarian bet. You're buying a consensus lottery ticket. My best returns -- Twitter, Uber, Bitcoin -- came from being right when most smart people thought I was wrong. Nobody thinks AI won't transform recruiting. The question is whether Perfectly has any structural advantage in what is functionally a land grab, and I don't see one.
+
+The founders' specific knowledge claim rests on two things: ML engineering at TikTok and Meta, and sitting through 800+ agency-sourced interviews. The ML background is real but common -- TikTok and Meta employ thousands of engineers who understand recommendation systems. This is teachable knowledge. It's literally taught in graduate programs and internal training tracks. The interview pain point is universal -- every hiring manager at a Series C+ company has the same complaint about recruiting agencies being expensive, slow, and imprecise. That's not specific knowledge. That's a PowerPoint slide. Specific knowledge would be someone who spent years running a recruiting agency and understood the supply-side dynamics -- candidate psychology, the sociology of job-seeking, why certain matching approaches fail in ways that aren't obvious from the demand side. These founders understand the frustration. They don't appear to possess non-transferable insight into the mechanism.
+
+The commission model is the one element that made me pause. Everyone in this space defaults to SaaS because VCs love recurring revenue. Perfectly chose to get paid only when they fill a role. That's genuine accountability alignment -- you eat what you kill. And if their AI matching actually works at the quality they claim, the unit economics could be extraordinary: near-zero marginal cost per placement against 15-25% of a senior engineer's salary. A single $200K hire generates $30-50K at software margins. But this is also the weakest form of leverage I invest in. Each placement is a discrete transaction. There are no network effects where company N+1 makes the product measurably better for company N. The "data flywheel" they describe -- accumulating hiring preferences and reusable candidate screens -- is what every AI company claims. The real question is whether their matching algorithm compounds in a way that's distinguishable from the underlying foundation model improvements that every competitor also rides. I see no evidence that it does.
+
+The bull case would require believing that recommendation systems expertise from TikTok translates into a durable matching advantage for recruiting -- that content-to-user matching and candidate-to-job matching share deep structural similarities that these specific founders understand better than the dozens of competing teams with similar backgrounds. If that's true, and if the commission model creates a distribution advantage by eliminating SaaS sales friction, Perfectly could capture meaningful share of the $32B U.S. recruiting agency market at near-zero marginal cost. That's a real business. But this thesis has a problem: it applies with equal force to multiple better-funded competitors pursuing identical approaches. The technology is foundation-model-dependent, the market insight is consensus, and the specific knowledge is transferable. When your competitive advantage is "we're good ML engineers who experienced the problem firsthand," you're describing half the teams at YC.
+
+I'm passing. Not because recruiting isn't a real problem or because these aren't competent engineers -- they clearly are. I'm passing because this is an application-layer play in a consensus category with no leverage architecture that compounds. My portfolio leans infrastructure for a reason: I backed Alchemy over individual DeFi apps, Stack Overflow over individual coding tutorials, because infrastructure creates leverage that scales with the ecosystem. Perfectly is building one app in a crowded app layer, competing on execution quality in a domain where the core technology is increasingly commoditized. The founders need to show me something they know about this problem that can't be taught -- and enduring bad interviews, while painful, doesn't clear that bar.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Specific Knowledge and Founder-Problem Authenticity | 10/30 |
+| Leverage Architecture and Scalability of the Model | 12/25 |
+| Contrarian Positioning and Non-Consensus Timing | 5/20 |
+| Founder Integrity and Long-Term Orientation | 8/15 |
+| Technical Compounding and Defensibility Over Time | 4/10 |
+| **Total** | **39/100** |
+
+**Total Score: 39/100** (Pass)

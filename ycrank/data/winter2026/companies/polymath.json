@@ -1,0 +1,74 @@
+{
+  "slug": "polymath",
+  "name": "Polymath",
+  "oneLiner": "Long-horizon RL",
+  "metadata": {
+    "website": "https://polymathlabs.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/polymath",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, B2B, Big Data, AI"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "B2B",
+    "Big Data",
+    "AI"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 46,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 27,
+    "EG": 39,
+    "NR": 43,
+    "PG": 41,
+    "PT": 31,
+    "SL": 28,
+    "VK": 46
+  },
+  "consolidatedAvg": 36.43,
+  "consolidatedRank": 107,
+  "paths": {
+    "memo": "winter2026/memos/polymath.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/polymath.md",
+      "elad-gil": "winter2026/evals/elad-gil/polymath.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/polymath.md",
+      "paul-graham": "winter2026/evals/paul-graham/polymath.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/polymath.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/polymath.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/polymath.md"
+    }
+  }
+}

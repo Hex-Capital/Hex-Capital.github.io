@@ -1,0 +1,26 @@
+﻿# Kyten Technologies -- Cyan Banister Evaluation
+
+Here's what strikes me first about Kyten: this is not a company that anyone would call crazy. Two SpaceX engineers with six-plus years of deploying battery packs to orbit, launching a domestic battery pack manufacturing company at the exact moment Congress mandates domestic sourcing for defense batteries. The NDAA Section 842 deadline is real, the FCC Covered List is real, the 100,000+ drones and satellites being built annually is real. Every defense-focused investor in the Valley is going to see this deck and nod along. And that's precisely my problem with it. The most promising companies I've backed were the ones where everyone shook their heads, not nodded them. When I wrote my check into SpaceX, people thought private space was a delusion. When I backed Crusoe, people thought mining Bitcoin on gas flares was lunacy. Kyten is the opposite situation -- it's a logical, well-timed play in a category that's become popular. The weirdness has already been arbitraged away by the regulatory catalyst itself.
+
+Now, the founders. I always want to hear the story before the business, and what I see here are two deeply competent engineers who built and deployed over 5,000 battery packs at Starlink. Cooper McBride managed SpaceX's hardware test team, then went to Shield AI and stood up a 20-person hardware test operation from nothing in under a year. Lucas Maddox spent nearly three years managing test and manufacturing at Starlink. That's real. You can't fake having put thousands of battery packs into low earth orbit. But competence and biographical grit are different things. I'm listening for the hardship that makes someone unable to quit -- the thing that connects the founder to the problem at a level deeper than professional opportunity. What I see is two engineers who noticed a gap in the market from their vantage point at SpaceX and are rationally filling it. That's a good business instinct. But it doesn't give me the signal I rely on most, which is that this founder will persist through the dark moments because the problem is personal, not just professional.
+
+The bull case here is genuinely strong, and I want to be honest about that. The speed claim -- one week per phase versus six to twelve months with legacy suppliers -- is a 25-to-50x improvement if real. If Kyten can actually deliver custom aerospace battery packs in three weeks total instead of eighteen to thirty-six months, that's not incremental, that's structural. The SpaceX-derived automated test and manufacturing systems represent genuine process knowledge that would take competitors years to replicate. And the regulatory forcing function is as close to guaranteed demand as you get at pre-seed -- every defense drone maker in America needs to find an NDAA-compliant battery supplier before January 2028. The TAM numbers are large and growing. For an investor who values clean market timing and domain expertise, this is probably a strong bet. I could see this becoming a significant defense manufacturing business.
+
+But when I run this through my own filter, the fit weakens. Kyten serves aerospace OEMs and defense primes -- it doesn't create economic access for people who lack it. It doesn't make an invisible system visible to everyday people the way Affirm exposed hidden credit card fees or Flock Safety brought public safety data to communities. The impact is real and important for national security, but it's not the kind of positive-sum economic outcome that gets me out of bed. And while aerospace manufacturing is genuinely complex and regulated -- the kind of hard space I've historically been comfortable with -- the pack integration layer specifically carries commoditization risk. They're not making cells, they're assembling packs. Custom Power has been doing this since 1965. CRG Defense is already positioning as NDAA-compliant. EaglePicher has powered 600 satellites. The SpaceX process knowledge is a real head start, but it's a head start in a race where well-capitalized incumbents can accelerate. The moat question keeps nagging at me.
+
+One thing I'd want to understand better: the website references four co-founders but only names two. Who are the other two? After HQ Trivia taught me what happens when founder dynamics go unexamined, I probe these things explicitly. Two SpaceX colleagues building together is a strong foundation -- shared crucible, complementary EE specializations -- but unnamed co-founders introduce uncertainty I can't evaluate from the outside.
+
+This is a company I'd refer to investors who think differently than I do. For someone who values regulatory timing, domain expertise, and the defense industrial base, Kyten is a compelling pre-seed bet. But I invest my own money into the unpopular, the dismissed, and the magically weird. Kyten is none of those things -- it's smart, logical, and well-positioned. That means it's not mine.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Biographical Grit and Personal Stake | 14/30 |
+| Anti-Consensus Conviction and Weird Factor | 8/25 |
+| Economic Access and Real-World Impact | 6/20 |
+| Navigating Complexity in Hard Spaces | 11/15 |
+| Co-Founder Alignment and Team Resilience | 6/10 |
+| **Total** | **45/100** |
+
+**Total Score: 45/100** (Neutral)

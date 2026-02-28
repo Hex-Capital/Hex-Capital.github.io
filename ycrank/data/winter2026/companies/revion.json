@@ -1,0 +1,72 @@
+{
+  "slug": "revion",
+  "name": "Revion",
+  "oneLiner": "Intelligence for Automotive Operations",
+  "metadata": {
+    "website": "https://revion.inc",
+    "yc_page": "https://www.ycombinator.com/companies/revion",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B",
+    "team_size": "4",
+    "location": "2261 Market Street, San Francisco, CA 94114 (Automotive Management Live 2026 exhibitor listing)",
+    "tags": "AI, Automotive"
+  },
+  "tags": [
+    "AI",
+    "Automotive"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 64,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 41,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 39,
+    "EG": 64,
+    "NR": 41,
+    "PG": 54,
+    "PT": 35,
+    "SL": 34,
+    "VK": 41
+  },
+  "consolidatedAvg": 44,
+  "consolidatedRank": 48,
+  "paths": {
+    "memo": "winter2026/memos/revion.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/revion.md",
+      "elad-gil": "winter2026/evals/elad-gil/revion.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/revion.md",
+      "paul-graham": "winter2026/evals/paul-graham/revion.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/revion.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/revion.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/revion.md"
+    }
+  }
+}

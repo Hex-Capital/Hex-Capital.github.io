@@ -1,0 +1,74 @@
+{
+  "slug": "hlabs",
+  "name": "Hlabs",
+  "oneLiner": "Making an industrial supply chain for building robots in the USA",
+  "metadata": {
+    "website": "https://www.hlaboratories.com",
+    "yc_page": "https://www.ycombinator.com/companies/hlabs",
+    "batch": "Winter 2026",
+    "industry": "Industrials / Industrials",
+    "team_size": "1",
+    "location": "Austin, TX, USA",
+    "tags": "Artificial Intelligence, Hardware, Robotics, Electronics"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Hardware",
+    "Robotics",
+    "Electronics"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 66,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 42,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 38,
+    "EG": 59,
+    "NR": 47,
+    "PG": 66,
+    "PT": 41,
+    "SL": 58,
+    "VK": 42
+  },
+  "consolidatedAvg": 50.14,
+  "consolidatedRank": 19,
+  "paths": {
+    "memo": "winter2026/memos/hlabs.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/hlabs.md",
+      "elad-gil": "winter2026/evals/elad-gil/hlabs.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/hlabs.md",
+      "paul-graham": "winter2026/evals/paul-graham/hlabs.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/hlabs.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/hlabs.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/hlabs.md"
+    }
+  }
+}

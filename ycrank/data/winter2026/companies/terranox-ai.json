@@ -1,0 +1,73 @@
+{
+  "slug": "terranox-ai",
+  "name": "Terranox AI",
+  "oneLiner": "AI-powered uranium exploration",
+  "metadata": {
+    "website": "https://terranox.ai",
+    "yc_page": "https://www.ycombinator.com/companies/terranox-ai",
+    "batch": "Winter 2026",
+    "industry": "Industrials / Industrials -> Energy",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Energy, Mining"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Energy",
+    "Mining"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 55,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 53,
+    "EG": 38,
+    "NR": 54,
+    "PG": 47,
+    "PT": 40,
+    "SL": 52,
+    "VK": 55
+  },
+  "consolidatedAvg": 48.43,
+  "consolidatedRank": 30,
+  "paths": {
+    "memo": "winter2026/memos/terranox-ai.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/terranox-ai.md",
+      "elad-gil": "winter2026/evals/elad-gil/terranox-ai.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/terranox-ai.md",
+      "paul-graham": "winter2026/evals/paul-graham/terranox-ai.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/terranox-ai.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/terranox-ai.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/terranox-ai.md"
+    }
+  }
+}

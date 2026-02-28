@@ -1,0 +1,75 @@
+{
+  "slug": "zymbly",
+  "name": "Zymbly",
+  "oneLiner": "Automates admin for aircraft technicians",
+  "metadata": {
+    "website": "https://www.zymbly.com",
+    "yc_page": "https://www.ycombinator.com/companies/zymbly",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B",
+    "team_size": "3",
+    "location": "No public data found",
+    "tags": "AIOps, Workflow Automation, Transportation",
+    "yc_partner": "Jared Friedman",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "AIOps",
+    "Workflow Automation",
+    "Transportation"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 37,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 46,
+    "EG": 57,
+    "NR": 55,
+    "PG": 58,
+    "PT": 37,
+    "SL": 38,
+    "VK": 37
+  },
+  "consolidatedAvg": 46.86,
+  "consolidatedRank": 33,
+  "paths": {
+    "memo": "winter2026/memos/zymbly.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/zymbly.md",
+      "elad-gil": "winter2026/evals/elad-gil/zymbly.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/zymbly.md",
+      "paul-graham": "winter2026/evals/paul-graham/zymbly.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/zymbly.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/zymbly.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/zymbly.md"
+    }
+  }
+}

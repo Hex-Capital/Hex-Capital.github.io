@@ -1,0 +1,74 @@
+{
+  "slug": "inviscid-ai",
+  "name": "Inviscid AI",
+  "oneLiner": "Real-time Building Simulations to Optimize Energy and Operational?",
+  "metadata": {
+    "website": "https://inviscidai.com/",
+    "yc_page": "https://www.ycombinator.com/companies/inviscid-ai",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA; Remote",
+    "tags": "Warehouse Management Tech, IoT, Sustainability, Proptech"
+  },
+  "tags": [
+    "Warehouse Management Tech",
+    "IoT",
+    "Sustainability",
+    "Proptech"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 27,
+      "tier": "Strong Pass"
+    },
+    "vinod-khosla": {
+      "score": 44,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 28,
+    "EG": 33,
+    "NR": 40,
+    "PG": 26,
+    "PT": 28,
+    "SL": 27,
+    "VK": 44
+  },
+  "consolidatedAvg": 32.29,
+  "consolidatedRank": 149,
+  "paths": {
+    "memo": "winter2026/memos/inviscid-ai.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/inviscid-ai.md",
+      "elad-gil": "winter2026/evals/elad-gil/inviscid-ai.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/inviscid-ai.md",
+      "paul-graham": "winter2026/evals/paul-graham/inviscid-ai.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/inviscid-ai.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/inviscid-ai.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/inviscid-ai.md"
+    }
+  }
+}

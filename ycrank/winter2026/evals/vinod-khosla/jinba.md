@@ -1,0 +1,24 @@
+﻿# Jinba -- Vinod Khosla Evaluation
+
+Jinba is a living illustration of the pass I make most often. A company comes in and says they've built a better workflow automation tool -- this time with conversational AI instead of drag-and-drop nodes. The team is competent, the market exists, the technology works. And I stop at the question I always start with: if Jinba succeeds completely, does the world operate differently? The answer is no. Enterprises configure their internal workflows somewhat faster. Non-technical users build automations without waiting in engineering backlogs. That is a productivity gain, not an industrial transformation. The workflow automation market is $15-25 billion depending on which analyst you believe. Even if Jinba captures a dominant share, nobody's supply chain is restructured, no trillion-dollar system becomes obsolete, no physical reality changes. They have reduced the probability of failure -- real customers, enterprise compliance features, a pricing page -- to the point where the consequences of success are a modest business in a crowded field.
+
+The competitive landscape tells me everything about the ambition ceiling. Zapier does $310 million in revenue with 8,000 connectors. Workato has $150 million ARR and launched its own AI agents ("Workato Genies") in August 2025. n8n raised $253 million, hit $40 million ARR, and is already integrating AI-assisted workflow building. These are not incumbents asleep at the wheel -- they are well-capitalized companies adding the exact same conversational AI capability on top of vastly larger integration libraries and established enterprise trust. Jinba's core differentiator -- using LLMs to generate workflow logic from natural language -- is not a structural disruption. It is a feature that every competitor is shipping. When your entire thesis can be absorbed as a product update by four companies with a combined billion dollars in funding, you are not disrupting the system. You are improving the interface.
+
+The strongest bull case I can construct: conversational AI doesn't just improve workflow configuration, it democratizes it so fundamentally that the addressable market expands from "companies buying automation tools" to "every business user who currently relies on IT for anything." The 40,000 claimed enterprise users at financial institutions, if real and transferable to the US market, would represent genuine product-market fit in the most demanding compliance environment. And the team pairing -- Matsumori with deep ML credentials from Preferred Networks and a PhD in generative models, Norisugi with McKinsey enterprise consulting and an INSEAD MBA -- is precisely configured for selling AI-powered tools to large organizations. If the Japan traction is real, this could be a solid $100-300 million revenue company. But that is exactly my point: the ceiling I can see is a good business, not a category-defining one. The 40K user figure is unverified, likely from the prior Carnot entity in Japan, and even if accurate, represents adoption of a productivity tool -- not evidence of an industry being displaced.
+
+What I notice that a conventional analyst might miss: this company has no contrarian thesis. "Apply LLMs to enterprise workflow automation" is the consensus view of every B2B software investor in 2026. Nobody dismisses this as crazy. Nobody says it cannot work. When Cisco's CTO told me TCP/IP routing would never happen in telecom networks, that was a signal. When the food industry said plant-based meat was a joke, that was a signal. When experts and incumbents validate your approach -- as the entire automation industry is now doing with AI-assisted workflow building -- it means the innovation is incremental enough to be non-threatening. Jinba is skating to where the puck already is, surrounded by four larger, faster skaters who have been on the ice for years.
+
+The founders are technically capable people executing a safe playbook. Matsumori's Preferred Networks pedigree and publications in generative models are real credentials. Norisugi's McKinsey and INSEAD background brings enterprise sales DNA. But applying known AI techniques to an established product category with well-understood customer needs is not what I mean by contrarian courage or first-principles thinking. I look for founders who are attempting something the consensus considers impossible. Building a ChatGPT wrapper for Zapier's market is something the consensus considers obvious -- which is why everyone is doing it.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Consequence Magnitude If Successful | 8/30 |
+| Founder Learning Rate and Contrarian Courage | 10/25 |
+| Technology Disruption Potential vs. Incumbent Systems | 6/20 |
+| Rate of Change and Timing Trajectory | 8/15 |
+| Gene Pool Engineering and Team Construction | 6/10 |
+| **Total** | **38/100** |
+
+**Total Score: 38/100** (Pass)

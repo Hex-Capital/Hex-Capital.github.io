@@ -1,0 +1,68 @@
+{
+  "slug": "pocket",
+  "name": "Pocket",
+  "oneLiner": "The world's best AI note-taking device and app",
+  "metadata": {
+    "website": "https://heypocket.com/",
+    "yc_page": "https://www.ycombinator.com/companies/pocket",
+    "batch": "Winter 2026",
+    "industry": "Consumer / Consumer",
+    "team_size": "6",
+    "location": "San Francisco, California (Crunchbase via search snippet)"
+  },
+  "tags": [],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 35,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 35,
+    "EG": 36,
+    "NR": 38,
+    "PG": 55,
+    "PT": 26,
+    "SL": 28,
+    "VK": 35
+  },
+  "consolidatedAvg": 36.14,
+  "consolidatedRank": 108,
+  "paths": {
+    "memo": "winter2026/memos/pocket.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/pocket.md",
+      "elad-gil": "winter2026/evals/elad-gil/pocket.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/pocket.md",
+      "paul-graham": "winter2026/evals/paul-graham/pocket.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/pocket.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/pocket.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/pocket.md"
+    }
+  }
+}

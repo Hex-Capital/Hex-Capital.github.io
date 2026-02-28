@@ -1,0 +1,71 @@
+{
+  "slug": "axis-2",
+  "name": "Axis",
+  "oneLiner": "Models for Monitoring Commodities Markets",
+  "metadata": {
+    "website": "https://axisanalysis.com",
+    "yc_page": "https://www.ycombinator.com/companies/axis-2",
+    "batch": "Winter 2026",
+    "industry": "Fintech / Fintech",
+    "team_size": "2",
+    "location": "No public data found",
+    "tags": "Fintech"
+  },
+  "tags": [
+    "Fintech"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 25,
+      "tier": "Strong Pass"
+    },
+    "sam-lessin": {
+      "score": 24,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 30,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 33,
+    "EG": 32,
+    "NR": 32,
+    "PG": 41,
+    "PT": 25,
+    "SL": 24,
+    "VK": 30
+  },
+  "consolidatedAvg": 31,
+  "consolidatedRank": 160,
+  "paths": {
+    "memo": "winter2026/memos/axis-2.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/axis-2.md",
+      "elad-gil": "winter2026/evals/elad-gil/axis-2.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/axis-2.md",
+      "paul-graham": "winter2026/evals/paul-graham/axis-2.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/axis-2.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/axis-2.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/axis-2.md"
+    }
+  }
+}

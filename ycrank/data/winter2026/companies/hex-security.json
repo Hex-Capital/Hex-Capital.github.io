@@ -1,0 +1,72 @@
+{
+  "slug": "hex-security",
+  "name": "Hex Security",
+  "oneLiner": "Agentic Offensive Security at Scale",
+  "metadata": {
+    "website": "https://hex.co",
+    "yc_page": "https://www.ycombinator.com/companies/hex-security",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Security",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Reinforcement Learning, Cybersecurity"
+  },
+  "tags": [
+    "Reinforcement Learning",
+    "Cybersecurity"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 23,
+      "tier": "Strong Pass"
+    },
+    "vinod-khosla": {
+      "score": 33,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 30,
+    "EG": 28,
+    "NR": 33,
+    "PG": 30,
+    "PT": 27,
+    "SL": 23,
+    "VK": 33
+  },
+  "consolidatedAvg": 29.14,
+  "consolidatedRank": 168,
+  "paths": {
+    "memo": "winter2026/memos/hex-security.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/hex-security.md",
+      "elad-gil": "winter2026/evals/elad-gil/hex-security.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/hex-security.md",
+      "paul-graham": "winter2026/evals/paul-graham/hex-security.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/hex-security.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/hex-security.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/hex-security.md"
+    }
+  }
+}

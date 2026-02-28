@@ -1,0 +1,74 @@
+{
+  "slug": "canary",
+  "name": "Canary",
+  "oneLiner": "The first AI QA engineer that understands your codebase",
+  "metadata": {
+    "website": "https://www.runcanary.ai",
+    "yc_page": "https://www.ycombinator.com/companies/canary",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Developer Tools, SaaS, B2B"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "SaaS",
+    "B2B"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 45,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 30,
+    "EG": 45,
+    "NR": 52,
+    "PG": 55,
+    "PT": 33,
+    "SL": 28,
+    "VK": 45
+  },
+  "consolidatedAvg": 41.14,
+  "consolidatedRank": 69,
+  "paths": {
+    "memo": "winter2026/memos/canary.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/canary.md",
+      "elad-gil": "winter2026/evals/elad-gil/canary.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/canary.md",
+      "paul-graham": "winter2026/evals/paul-graham/canary.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/canary.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/canary.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/canary.md"
+    }
+  }
+}

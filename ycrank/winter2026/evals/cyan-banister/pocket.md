@@ -1,0 +1,24 @@
+﻿# Pocket -- Cyan Banister Evaluation
+
+Here's what jumped out at me before anything else: this is a consensus category. When Meta has acquired Limitless, Amazon has acquired Bee, and Plaud has bootstrapped to $100M ARR building essentially the same thing, the signal I trust most -- that the best opportunities are unpopular and difficult to assess -- is pointing firmly in the wrong direction. AI note-taking wearables in 2026 are the *opposite* of unpopular. Every major platform company is either building or buying in this space. The weirdness has been completely arbitraged out. I've learned over many years that when a deal is widely competed and the market thesis is consensus, the price is wrong and the opportunity for an angel investor like me has passed. This isn't Crusoe Energy when people thought mining Bitcoin on gas flares was insane -- this is a category where the biggest companies on Earth are writing acquisition checks.
+
+Now, Akshay Narisetti is clearly a gifted builder. He's 23, from a small town in Andhra Pradesh, turned down Google, got selected as one of 16 people globally for the Harvard/MIT Augmentation Lab, and has been shipping hardware+AI products since he was in college. That's genuinely impressive technical talent, and there's something about a young person from Narasaraopet declining Google to build his own thing that I respect. But when I ask my first question -- "tell me your story, not the business" -- I'm listening for why *this* problem, why *this* person is uniquely forged to solve it. And what I see is a talented engineer who found a hot product category and executed skillfully, not someone whose life experience made this problem inescapable. I don't see the meeting that went wrong, the conversation that was lost, the personal pain that drives someone to keep building when the market turns against them. He's chasing a market, not solving a problem that kept him up at night for years.
+
+The HIPAA claim concerns me deeply, and this is where my IronPort background kicks in. They're marketing this device for healthcare and legal use cases -- regulated environments where data handling failures have real consequences. But Trustpilot reviews describe users receiving *another person's* meeting transcripts, and HIPAA-sensitive data appearing translated into Korean via shared URLs. At IronPort, I learned that security and compliance aren't features you bolt on -- they're architectural decisions that permeate every layer of the system. If those Trustpilot reports are accurate, the company is making compliance promises its infrastructure cannot keep. In a trust-dependent product category, a single verified data leak to the wrong healthcare provider could be catastrophic. You don't get to claim HIPAA compliance as a marketing differentiator and then have data bleed between users.
+
+The strongest bull case I can construct: Akshay is the last independent founder standing in a category where every competitor has been acquired or outscaled. At $99, Pocket is the most accessible device in the market, and if he can hold the line on independence while Meta and Amazon integrate their acquisitions -- which always creates friction and user churn -- there's a window where Pocket becomes the default independent option. The ADHD-specific landing pages suggest he's finding underserved niches that big platforms won't prioritize. And his decision to decline acquisition approaches shows real conviction. If he can fix the data integrity issues and build genuine HIPAA compliance, the regulatory moat could be real. But that's a lot of "ifs," and the core problem remains: this is an execution race in a validated market, not a conviction bet on something others can't see.
+
+The co-founder dynamic gives me pause too. Akshay studied in Chennai, Gabriel in Gdansk. No shared employer, no shared university, no visible origin story for their partnership. After HQ Trivia, I always want to understand how co-founders found each other and how they fight. Two people from different continents with no apparent shared history building a hardware company together -- I'd need to hear that story in person before I'd feel comfortable. Hardware startups are grueling, margins are thin, and the $2K-$5K salary range on their job posting tells me the budget is extremely constrained. That's exactly the kind of pressure that tests co-founder relationships, and I have no signal about whether this one can hold.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Biographical Grit and Personal Stake | 12/30 |
+| Anti-Consensus Conviction and Weird Factor | 6/25 |
+| Economic Access and Real-World Impact | 8/20 |
+| Navigating Complexity in Hard Spaces | 5/15 |
+| Co-Founder Alignment and Team Resilience | 4/10 |
+| **Total** | **35/100** |
+
+**Total Score: 35/100** (Pass)

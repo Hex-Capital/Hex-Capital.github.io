@@ -1,0 +1,74 @@
+{
+  "slug": "avoice",
+  "name": "Avoice",
+  "oneLiner": "The AI Workspace For Architects",
+  "metadata": {
+    "website": "https://avoice.co/",
+    "yc_page": "https://www.ycombinator.com/companies/avoice",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "Construction, Enterprise Software, Architecture, AI"
+  },
+  "tags": [
+    "Construction",
+    "Enterprise Software",
+    "Architecture",
+    "AI"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 24,
+      "tier": "Strong Pass"
+    },
+    "vinod-khosla": {
+      "score": 35,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 36,
+    "EG": 41,
+    "NR": 34,
+    "PG": 35,
+    "PT": 30,
+    "SL": 24,
+    "VK": 35
+  },
+  "consolidatedAvg": 33.57,
+  "consolidatedRank": 140,
+  "paths": {
+    "memo": "winter2026/memos/avoice.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/avoice.md",
+      "elad-gil": "winter2026/evals/elad-gil/avoice.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/avoice.md",
+      "paul-graham": "winter2026/evals/paul-graham/avoice.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/avoice.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/avoice.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/avoice.md"
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "shortkit",
+  "name": "shortkit",
+  "oneLiner": "We make enterprise-scale short-form video really simple.",
+  "metadata": {
+    "website": "https://www.shortkit.dev",
+    "yc_page": "https://www.ycombinator.com/companies/shortkit",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "2",
+    "location": "No public data found",
+    "tags": "Developer Tools, Video, Infrastructure"
+  },
+  "tags": [
+    "Developer Tools",
+    "Video",
+    "Infrastructure"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 34,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 30,
+    "EG": 46,
+    "NR": 58,
+    "PG": 50,
+    "PT": 33,
+    "SL": 35,
+    "VK": 34
+  },
+  "consolidatedAvg": 40.86,
+  "consolidatedRank": 70,
+  "paths": {
+    "memo": "winter2026/memos/shortkit.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/shortkit.md",
+      "elad-gil": "winter2026/evals/elad-gil/shortkit.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/shortkit.md",
+      "paul-graham": "winter2026/evals/paul-graham/shortkit.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/shortkit.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/shortkit.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/shortkit.md"
+    }
+  }
+}

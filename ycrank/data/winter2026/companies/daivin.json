@@ -1,0 +1,77 @@
+{
+  "slug": "daivin",
+  "name": "DAIVIN!",
+  "oneLiner": "Tankless Dive Gear - Breath Autonomy at Sea, Land & Space",
+  "metadata": {
+    "website": "https://www.daivin.tech/",
+    "yc_page": "https://www.ycombinator.com/companies/daivin",
+    "batch": "Winter 2026",
+    "industry": "Industrials / Industrials -> Defense",
+    "team_size": "1",
+    "location": "San Francisco, CA, USA",
+    "tags": "Hard Tech, Hardware, Fuel Cells, Aerospace, Maritime",
+    "yc_partner": "Tyler Bosmeny",
+    "emails": "leo.kankkunen@daivin.tech (YC company page)"
+  },
+  "tags": [
+    "Hard Tech",
+    "Hardware",
+    "Fuel Cells",
+    "Aerospace",
+    "Maritime"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 61,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 56,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 53,
+    "EG": 33,
+    "NR": 47,
+    "PG": 47,
+    "PT": 57,
+    "SL": 61,
+    "VK": 56
+  },
+  "consolidatedAvg": 50.57,
+  "consolidatedRank": 17,
+  "paths": {
+    "memo": "winter2026/memos/daivin.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/daivin.md",
+      "elad-gil": "winter2026/evals/elad-gil/daivin.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/daivin.md",
+      "paul-graham": "winter2026/evals/paul-graham/daivin.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/daivin.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/daivin.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/daivin.md"
+    }
+  }
+}

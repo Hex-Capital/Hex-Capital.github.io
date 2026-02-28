@@ -1,0 +1,75 @@
+{
+  "slug": "terminal-use",
+  "name": "Terminal Use",
+  "oneLiner": "Vercel for background agents",
+  "metadata": {
+    "website": "https://www.terminaluse.com/",
+    "yc_page": "https://www.ycombinator.com/companies/terminal-use",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "AIOps, Developer Tools, Workflow Automation, Infrastructure, AI"
+  },
+  "tags": [
+    "AIOps",
+    "Developer Tools",
+    "Workflow Automation",
+    "Infrastructure",
+    "AI"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 38,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 29,
+    "EG": 37,
+    "NR": 44,
+    "PG": 44,
+    "PT": 30,
+    "SL": 28,
+    "VK": 38
+  },
+  "consolidatedAvg": 35.71,
+  "consolidatedRank": 118,
+  "paths": {
+    "memo": "winter2026/memos/terminal-use.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/terminal-use.md",
+      "elad-gil": "winter2026/evals/elad-gil/terminal-use.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/terminal-use.md",
+      "paul-graham": "winter2026/evals/paul-graham/terminal-use.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/terminal-use.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/terminal-use.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/terminal-use.md"
+    }
+  }
+}

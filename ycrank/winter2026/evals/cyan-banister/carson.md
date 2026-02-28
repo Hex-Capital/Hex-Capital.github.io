@@ -1,0 +1,26 @@
+﻿# Carson -- Cyan Banister Evaluation
+
+The first thing that strikes me about Carson is that it's the most consensus bet I've seen in a while dressed up as if it were contrarian. "Secure enterprise AI agents" isn't a pocket of dreamers and weirdos -- it's a gold rush. Runlayer already has $11M and eight unicorn customers. Glean is at $7.2 billion. Anthropic announced enterprise Cowork features on the exact same day I'm looking at this. Microsoft Copilot is already at $30/user/month with deep M365 integration. When I think about the investments that have defined my career -- SpaceX when private space was considered lunacy, Crusoe when turning flared gas into computation sounded like a fever dream -- they worked precisely because nobody else wanted to be there. Carson is entering a room where every well-resourced player in technology is already standing, elbowing for space.
+
+What I can't find, and what I would need to feel before writing a check, is the founder's story. Not the resume -- the story. I see four impressive credentials from Harvard and Stanford, stints at Palantir and Snowflake and Robust Intelligence. That's fine. But when I ask my question -- tell me how you got here, not the business -- I don't hear anything that connects these specific people to this specific problem in a way that's biographical rather than opportunistic. Nobody on this team seems to have been burned by an AI agent security breach that changed the course of their life, or spent years in the trenches of an enterprise security team watching helplessly as employees used insecure tools. They saw a hot market gap and jumped. Milan Bhandari left Bolto -- a funded, active YC S23 company -- to start this. That's not the persistence pattern I gravitate toward; it's more like chasing the next wave. And I've learned, sometimes painfully, that founders who chase waves tend to abandon ships when the weather changes.
+
+The bull case deserves real engagement because the timing problem is genuine. Enterprises are scared. CrowdStrike is shipping removal tools for OpenClaw. Gartner slapped "insecure by default" on the most popular agent. There's a real window where a purpose-built, security-first agent could grab enterprise buyers who've banned everything else. And the team does have the right technical surface area -- Sid built secure deployment infrastructure at Palantir, Ketan did AI red-teaming at Robust Intelligence before Cisco acquired it. The idea of dynamically generating task-specific interfaces that constrain agent scope is genuinely more interesting than Runlayer's wrapper approach. If Carson could land five Fortune 500 customers in the next six months and build integration depth before Anthropic catches up, there's a real business here. But that "before Anthropic catches up" clause is doing enormous work, and I don't see a structural reason why a four-person team beats a $380 billion company at its own game in its own backyard.
+
+What I notice that a generic analyst might miss: Carson doesn't create economic access for anyone who currently lacks it. Enterprise knowledge workers at companies with security budgets aren't underserved -- they're some of the most well-resourced people in the economy. Compare this to Uber, which created income for hundreds of thousands of drivers, or Affirm, which brought transparent credit to people shut out by the traditional system. Carson makes a tool more available to people who already have abundant tools. It doesn't make an invisible system visible; it adds a security layer to an already-visible one. That dimension of my investing -- the belief that the best companies expand the pie rather than just rearrange it -- finds nothing to grab onto here.
+
+The four-founder dynamic also gives me pause. I learned from HQ Trivia that co-founder conflict can destroy even perfectly timed products, and four founders means six different bilateral relationships to manage. Three are from Harvard, two graduated together, two worked at Palantir -- those shared contexts help, but they can also create in-group dynamics that make the fourth person (Ketan, the Stanford outsider) feel peripheral. And I have no data on how these four handle disagreement. The dossier is silent on it. At the earliest stages, I'm betting on people more than anything else, and I'm seeing credentials where I need to see character tested under pressure.
+
+I respect the technical competence here and the genuine urgency of the enterprise AI security problem. But when I'm investing my own money, I need to feel that jolt of intuitive energy -- the sense that I'm seeing something nobody else can see yet, attached to a founder whose life story made them the inevitable person to build it. With Carson, I see smart people doing the obvious thing in a crowded space. That's someone else's bet, not mine.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Biographical Grit and Personal Stake | 8/30 |
+| Anti-Consensus Conviction and Weird Factor | 4/25 |
+| Economic Access and Real-World Impact | 4/20 |
+| Navigating Complexity in Hard Spaces | 8/15 |
+| Co-Founder Alignment and Team Resilience | 5/10 |
+| **Total** | **29/100** |
+
+**Total Score: 29/100** (Pass)

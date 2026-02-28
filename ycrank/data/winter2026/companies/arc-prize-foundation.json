@@ -1,0 +1,68 @@
+{
+  "slug": "arc-prize-foundation",
+  "name": "ARC Prize Foundation",
+  "oneLiner": "AI benchmarks that measure general intelligence and inspire new ideas",
+  "metadata": {
+    "website": "https://arcprize.org/",
+    "yc_page": "https://www.ycombinator.com/companies/arc-prize-foundation",
+    "batch": "Winter 2026",
+    "industry": "Industrials / Industrials",
+    "team_size": "4",
+    "location": "Remote"
+  },
+  "tags": [],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 74,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 47,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 31,
+    "EG": 38,
+    "NR": 59,
+    "PG": 74,
+    "PT": 42,
+    "SL": 48,
+    "VK": 47
+  },
+  "consolidatedAvg": 48.43,
+  "consolidatedRank": 27,
+  "paths": {
+    "memo": "winter2026/memos/arc-prize-foundation.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/arc-prize-foundation.md",
+      "elad-gil": "winter2026/evals/elad-gil/arc-prize-foundation.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/arc-prize-foundation.md",
+      "paul-graham": "winter2026/evals/paul-graham/arc-prize-foundation.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/arc-prize-foundation.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/arc-prize-foundation.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/arc-prize-foundation.md"
+    }
+  }
+}

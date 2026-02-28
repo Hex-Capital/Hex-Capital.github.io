@@ -1,0 +1,72 @@
+{
+  "slug": "confluence-labs",
+  "name": "Confluence Labs",
+  "oneLiner": "We're an AI research lab focused on learning efficiency",
+  "metadata": {
+    "website": "https://confluence.sh",
+    "yc_page": "https://www.ycombinator.com/companies/confluence-labs",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, AI"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "AI"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 53,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 31,
+    "EG": 32,
+    "NR": 41,
+    "PG": 40,
+    "PT": 28,
+    "SL": 26,
+    "VK": 53
+  },
+  "consolidatedAvg": 35.86,
+  "consolidatedRank": 111,
+  "paths": {
+    "memo": "winter2026/memos/confluence-labs.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/confluence-labs.md",
+      "elad-gil": "winter2026/evals/elad-gil/confluence-labs.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/confluence-labs.md",
+      "paul-graham": "winter2026/evals/paul-graham/confluence-labs.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/confluence-labs.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/confluence-labs.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/confluence-labs.md"
+    }
+  }
+}

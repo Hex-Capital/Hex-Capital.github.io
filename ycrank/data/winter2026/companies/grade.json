@@ -1,0 +1,72 @@
+{
+  "slug": "grade",
+  "name": "Grade",
+  "oneLiner": "Payroll for performance",
+  "metadata": {
+    "website": "https://usegrade.com",
+    "yc_page": "https://www.ycombinator.com/companies/grade",
+    "batch": "Winter 2026",
+    "industry": "Fintech / Fintech -> Payments",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Fintech, B2B"
+  },
+  "tags": [
+    "Fintech",
+    "B2B"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 77,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 39,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 48,
+    "EG": 47,
+    "NR": 48,
+    "PG": 77,
+    "PT": 33,
+    "SL": 35,
+    "VK": 39
+  },
+  "consolidatedAvg": 46.71,
+  "consolidatedRank": 34,
+  "paths": {
+    "memo": "winter2026/memos/grade.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/grade.md",
+      "elad-gil": "winter2026/evals/elad-gil/grade.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/grade.md",
+      "paul-graham": "winter2026/evals/paul-graham/grade.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/grade.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/grade.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/grade.md"
+    }
+  }
+}

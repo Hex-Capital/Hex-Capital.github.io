@@ -1,0 +1,73 @@
+{
+  "slug": "haladir",
+  "name": "Haladir",
+  "oneLiner": "Bridging the Gap between Solvers and Training.",
+  "metadata": {
+    "website": "https://www.haladir.com/",
+    "yc_page": "https://www.ycombinator.com/companies/haladir",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "Reinforcement Learning, Data Engineering, Operations"
+  },
+  "tags": [
+    "Reinforcement Learning",
+    "Data Engineering",
+    "Operations"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 25,
+      "tier": "Strong Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 39,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 35,
+    "EG": 38,
+    "NR": 44,
+    "PG": 34,
+    "PT": 25,
+    "SL": 30,
+    "VK": 39
+  },
+  "consolidatedAvg": 35,
+  "consolidatedRank": 125,
+  "paths": {
+    "memo": "winter2026/memos/haladir.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/haladir.md",
+      "elad-gil": "winter2026/evals/elad-gil/haladir.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/haladir.md",
+      "paul-graham": "winter2026/evals/paul-graham/haladir.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/haladir.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/haladir.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/haladir.md"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+﻿# RamAIn -- Paul Graham Evaluation
+
+I already backed Browser Use. That was YC W25, $17M raised, 50,000+ GitHub stars. So when I look at RamAIn, the first question isn't whether computer-use agents are interesting -- I know they are. The question is whether this team has found something genuinely different, or whether they've arrived at the same party through the side door. And what I see is a hot category with at least five well-funded companies building variations of the same thing: Simular ($26.5M, DeepMind alumni, Microsoft partnership), Browser Use, Twin Labs, plus Anthropic and OpenAI shipping CUA as a feature of their platforms. When I wrote that the most impressive YC companies I'd seen recently were not working on AI, this is the pattern I was pointing at. Twenty-plus funded competitors building AI agents for desktop automation is not a schlep-blindness opportunity. It's consensus.
+
+The origin of this idea worries me. Neither founder has a background in RPA, enterprise operations, procurement, insurance, healthcare, or any of the seven verticals listed on their YC page. Shourya previously built Genoshi, described as an "AI studio for enterprises." Vansh was doing ML research at CMU on causal representation learning and graph neural networks. The path from there to "let's build faster computer-use agents" doesn't pass through personal pain with legacy desktop applications. It passes through noticing that Anthropic shipped Computer Use in October 2024 and OpenAI launched Operator in January 2025. That's market-timing awareness, not organic discovery. When I ask "how did they find this problem?" the honest answer appears to be "they saw the category emerging and identified a technical optimization." That's the failure mode I keep seeing -- smart people generating ideas from what's trending rather than from what's broken in their own lives.
+
+The technical angle deserves real consideration, because Vansh Ramani is impressive. An ICLR 2025 paper, a nearest-neighbor search algorithm integrated into Meta's FAISS library, CMU ML research -- this is someone who can build at the infrastructure level. The pre-training approach -- teaching agents specific interfaces rather than relying on generic vision-language model inference at every step -- is a legitimate technical insight. If it delivers 10x speed reliably, that matters. This is their strongest card: a CTO with the ML depth to potentially build something that works at a level the competition can't easily replicate with off-the-shelf models. Shourya complements this with startup operating experience, having bootstrapped Genoshi to revenue. The team composition is sound.
+
+But here's what the bull case requires. You'd have to believe that pre-training on specific interfaces creates a durable advantage -- a library of "UI policies" that compounds over time and that competitors can't replicate. You'd have to believe that Simular's $26.5M and Microsoft distribution partnership, Browser Use's 50,000-star open-source community, and Anthropic's own roadmap all fail to close the gap. You'd have to believe that two IIT Delhi students with no enterprise sales experience can sell into healthcare, finance, and insurance -- verticals famous for 12-month procurement cycles and vendor risk assessments. And you'd have to believe the CUA reliability problem (Anthropic themselves call it "experimental -- at times cumbersome and error-prone," and the best open-source model hits 45% on OSWorld) gets solved fast enough for production deployment. That's at least three independent things that all need to go right. Multiple miracles.
+
+The product exists and it's downloadable -- that counts for something. They built it. But it's free, with no visible users, no community, no download numbers, no enterprise pilots, and no revenue signal. At pre-seed I don't demand traction, but I do look for any organic pull: someone who found it and told a friend, a forum post asking about it, a single paying customer. The absence of any such signal, combined with the absence of an organic founding story, means I'm looking at a technically capable team that chose a trending category and built a technically interesting product that nobody has yet demonstrated wanting. That combination can raise money. It rarely survives the years of painful enterprise sales execution required to win.
+
+Vansh's research talent is real and I wouldn't be surprised if he builds something significant eventually. But this particular company, in this particular category, at this particular moment -- with this much competition and this little organic connection to the problem -- doesn't match how I invest my own money. The best version of this team is working on something they discovered through their own research, not something they identified by watching what Anthropic and OpenAI shipped last year.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Organic Problem Discovery and Schlep Willingness | 6/30 |
+| Relentlessly Resourceful Founders | 10/25 |
+| Evidence of Wanting: Demonstrated User Pull | 4/20 |
+| Technical Hacker Founders Who Build | 10/15 |
+| Growth Trajectory and Default Alive Economics | 4/10 |
+| **Total** | **34/100** |
+
+**Total Score: 34/100** (Pass)

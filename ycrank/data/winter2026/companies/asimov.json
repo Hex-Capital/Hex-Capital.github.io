@@ -1,0 +1,73 @@
+{
+  "slug": "asimov",
+  "name": "Asimov",
+  "oneLiner": "Internet-scale marketplace for robot training data",
+  "metadata": {
+    "website": "https://tryasimov.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/asimov",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Supply Chain and Logistics",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA; Remote",
+    "tags": "Robotics, Data Labeling, AI"
+  },
+  "tags": [
+    "Robotics",
+    "Data Labeling",
+    "AI"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 48,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 45,
+    "EG": 44,
+    "NR": 37,
+    "PG": 46,
+    "PT": 27,
+    "SL": 41,
+    "VK": 48
+  },
+  "consolidatedAvg": 41.14,
+  "consolidatedRank": 68,
+  "paths": {
+    "memo": "winter2026/memos/asimov.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/asimov.md",
+      "elad-gil": "winter2026/evals/elad-gil/asimov.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/asimov.md",
+      "paul-graham": "winter2026/evals/paul-graham/asimov.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/asimov.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/asimov.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/asimov.md"
+    }
+  }
+}

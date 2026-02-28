@@ -1,0 +1,77 @@
+{
+  "slug": "end-close",
+  "name": "End Close",
+  "oneLiner": "AI powered reconciliation for high-volume payments companies",
+  "metadata": {
+    "website": "https://endclose.com",
+    "yc_page": "https://www.ycombinator.com/companies/end-close",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Finance and Accounting",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Fintech, SaaS, Payments, B2B, AI",
+    "yc_partner": "Brad Flora",
+    "emails": "founders@endclose.com (company website)"
+  },
+  "tags": [
+    "Fintech",
+    "SaaS",
+    "Payments",
+    "B2B",
+    "AI"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 60,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 64,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 41,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 31,
+    "EG": 57,
+    "NR": 60,
+    "PG": 64,
+    "PT": 33,
+    "SL": 34,
+    "VK": 41
+  },
+  "consolidatedAvg": 45.71,
+  "consolidatedRank": 41,
+  "paths": {
+    "memo": "winter2026/memos/end-close.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/end-close.md",
+      "elad-gil": "winter2026/evals/elad-gil/end-close.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/end-close.md",
+      "paul-graham": "winter2026/evals/paul-graham/end-close.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/end-close.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/end-close.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/end-close.md"
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "chamber",
+  "name": "Chamber",
+  "oneLiner": "Autopiloting your AI infrastructure",
+  "metadata": {
+    "website": "https://www.usechamber.io",
+    "yc_page": "https://www.ycombinator.com/companies/chamber",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Developer Tools, B2B, Enterprise Software, AI",
+    "yc_partner": "Brad Flora",
+    "emails": "hello@usechamber.com (company website)"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "B2B",
+    "Enterprise Software",
+    "AI"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 42,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 32,
+    "EG": 48,
+    "NR": 49,
+    "PG": 46,
+    "PT": 30,
+    "SL": 31,
+    "VK": 42
+  },
+  "consolidatedAvg": 39.71,
+  "consolidatedRank": 79,
+  "paths": {
+    "memo": "winter2026/memos/chamber.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/chamber.md",
+      "elad-gil": "winter2026/evals/elad-gil/chamber.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/chamber.md",
+      "paul-graham": "winter2026/evals/paul-graham/chamber.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/chamber.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/chamber.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/chamber.md"
+    }
+  }
+}

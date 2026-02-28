@@ -1,0 +1,24 @@
+﻿# Scout Out -- Vinod Khosla Evaluation
+
+Here is a founder who graduated from Berkeley in three years with a triple major in EECS, Astrophysics, and Business Administration, grew up as fourth-generation in a construction family, built a consultancy to $250K, and shipped production code at Amazon. That is a genuinely impressive concentration of raw talent and domain exposure. And he is using it to help small contractors generate proposals 30% faster. This is precisely the pattern that frustrates me most — a founder with the intellectual horsepower to attempt something transformational who has instead calibrated his ambition to fit a manageable niche. He has reduced the risk of failure to the point where success produces a decent SaaS business and nothing more. If Scout Out captures the entire residential estimating software sub-segment — all $2.5 billion of it by 2033 — the construction industry still operates identically. Buildings are designed the same way, built with the same materials, assembled by the same labor structure. The proposals just arrive faster.
+
+The bull case deserves serious engagement because there is a version of this company that matters. The permit data pipeline — aggregating approved residential construction permits across municipalities, enriched with homeowner contact information — is more interesting than the estimation AI itself. If you squint, you can see a future where Scout Out becomes the intelligence layer for all residential construction in America: knowing about every project before ground is broken, matching contractors to homeowners, eventually influencing material procurement and pricing at scale. That is a company worth building. The permit data is operationally painful to assemble (different formats, access mechanisms, update frequencies across thousands of jurisdictions), which creates genuine defensibility that the computer vision layer does not. But the dossier shows this vision as a $119/month lead generation feature, not as the foundation for restructuring how residential construction markets clear. The current ambition is a CRM with AI estimation attached, not a platform that transforms the industry's information architecture.
+
+On the technology, I see a commoditization trap forming in real time. Computer vision applied to building plans is being pursued by Beam AI ($30.5M raised, 1,200+ customers already), Togal.AI ($22.65M raised), STACK ($31.8M in revenue), and Buildxact with 100%+ ARR growth. More critically, the underlying capability — interpreting structured documents from images — is exactly what foundation models from OpenAI, Google, and Anthropic are rapidly improving at. Two years from now, any contractor could upload plans to a general-purpose AI and get a reasonable takeoff. The technology Scout Out is building does not make the incumbent approach structurally uneconomic. It makes it somewhat faster. That is the difference between Juniper replacing Cisco's architecture entirely and a company building a slightly better network monitoring dashboard.
+
+The LA wildfire rebuild is a clever initial wedge, and I respect the opportunism — thousands of homeowners with approved permits, contractors scrambling for work, concentrated geography. But building on disaster-driven demand is building on a foundation with an expiration date. The company needs to demonstrate that the value proposition holds in normal market conditions, in cities without acute rebuilding surges, where contractors already have established estimation workflows and lead generation channels. That transition from emergency demand to steady-state demand is where many geographically concentrated early-stage companies stall.
+
+Nolan Rossi clearly has the learning rate and first-principles thinking I look for — you do not triple-major at Berkeley in three years without extraordinary processing speed. But learning rate matters most when applied to problems where the consequence of success justifies the effort. I would tell Nolan what I tell many talented founders: you are too capable for this problem. A fourth-generation construction insider with frontier AI skills should be attacking something that changes how buildings exist in the world — autonomous construction, AI-designed structures that use 80% fewer materials, a complete reinvention of how residential construction is financed and delivered. Not a better way to generate bids on remodels.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Consequence Magnitude If Successful | 8/30 |
+| Founder Learning Rate and Contrarian Courage | 11/25 |
+| Technology Disruption Potential vs. Incumbent Systems | 7/20 |
+| Rate of Change and Timing Trajectory | 8/15 |
+| Gene Pool Engineering and Team Construction | 3/10 |
+| **Total** | **37/100** |
+
+**Total Score: 37/100** (Pass)

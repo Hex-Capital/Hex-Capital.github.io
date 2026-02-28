@@ -1,0 +1,73 @@
+{
+  "slug": "ishiki-labs",
+  "name": "Ishiki Labs",
+  "oneLiner": "Building the Future of Multimodal AI",
+  "metadata": {
+    "website": "https://www.ishikilabs.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/ishiki-labs",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "No public data found",
+    "tags": "Artificial Intelligence, Deep Learning, Generative AI"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Deep Learning",
+    "Generative AI"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 42,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 32,
+    "EG": 37,
+    "NR": 52,
+    "PG": 51,
+    "PT": 37,
+    "SL": 28,
+    "VK": 42
+  },
+  "consolidatedAvg": 39.86,
+  "consolidatedRank": 78,
+  "paths": {
+    "memo": "winter2026/memos/ishiki-labs.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/ishiki-labs.md",
+      "elad-gil": "winter2026/evals/elad-gil/ishiki-labs.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/ishiki-labs.md",
+      "paul-graham": "winter2026/evals/paul-graham/ishiki-labs.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/ishiki-labs.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/ishiki-labs.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/ishiki-labs.md"
+    }
+  }
+}

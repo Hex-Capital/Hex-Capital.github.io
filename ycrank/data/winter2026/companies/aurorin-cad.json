@@ -1,0 +1,74 @@
+{
+  "slug": "aurorin-cad",
+  "name": "Aurorin CAD",
+  "oneLiner": "We help hardware companies ship faster",
+  "metadata": {
+    "website": "https://aurorincad.com",
+    "yc_page": "https://www.ycombinator.com/companies/aurorin-cad",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "1",
+    "location": "San Francisco, CA, USA",
+    "tags": "Hard Tech, Hardware, B2B, AI"
+  },
+  "tags": [
+    "Hard Tech",
+    "Hardware",
+    "B2B",
+    "AI"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 68,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 61,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 59,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 43,
+    "EG": 47,
+    "NR": 68,
+    "PG": 61,
+    "PT": 56,
+    "SL": 45,
+    "VK": 59
+  },
+  "consolidatedAvg": 54.14,
+  "consolidatedRank": 12,
+  "paths": {
+    "memo": "winter2026/memos/aurorin-cad.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/aurorin-cad.md",
+      "elad-gil": "winter2026/evals/elad-gil/aurorin-cad.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/aurorin-cad.md",
+      "paul-graham": "winter2026/evals/paul-graham/aurorin-cad.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/aurorin-cad.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/aurorin-cad.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/aurorin-cad.md"
+    }
+  }
+}

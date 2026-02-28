@@ -1,0 +1,75 @@
+{
+  "slug": "mantis-biotechnology",
+  "name": "Mantis Biotechnology",
+  "oneLiner": "The Infrastructure Powering Human-In-Computer Models",
+  "metadata": {
+    "website": "https://mantisbiotech.com/",
+    "yc_page": "https://www.ycombinator.com/companies/mantis-biotechnology",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "3",
+    "location": "New York, NY, USA",
+    "tags": "Artificial Intelligence, Sports Tech, Biotech, Architecture, Biotechnology"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Sports Tech",
+    "Biotech",
+    "Architecture",
+    "Biotechnology"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 52,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 50,
+    "EG": 46,
+    "NR": 55,
+    "PG": 55,
+    "PT": 36,
+    "SL": 41,
+    "VK": 52
+  },
+  "consolidatedAvg": 47.86,
+  "consolidatedRank": 31,
+  "paths": {
+    "memo": "winter2026/memos/mantis-biotechnology.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/mantis-biotechnology.md",
+      "elad-gil": "winter2026/evals/elad-gil/mantis-biotechnology.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/mantis-biotechnology.md",
+      "paul-graham": "winter2026/evals/paul-graham/mantis-biotechnology.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/mantis-biotechnology.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/mantis-biotechnology.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/mantis-biotechnology.md"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "bubble-lab",
+  "name": "Bubble Lab",
+  "oneLiner": "Your ops super-employee in Slack",
+  "metadata": {
+    "website": "https://bubblelab.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/bubble-lab",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "2",
+    "location": "San Francisco, CA (PitchBook via search snippet)",
+    "tags": "Artificial Intelligence, Workflow Automation, Operations",
+    "yc_partner": "Diana Hu",
+    "emails": "security@bubblelab.ai (company website)"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Workflow Automation",
+    "Operations"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 22,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 24,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 31,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 31,
+    "EG": 32,
+    "NR": 38,
+    "PG": 41,
+    "PT": 22,
+    "SL": 24,
+    "VK": 31
+  },
+  "consolidatedAvg": 31.29,
+  "consolidatedRank": 158,
+  "paths": {
+    "memo": "winter2026/memos/bubble-lab.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/bubble-lab.md",
+      "elad-gil": "winter2026/evals/elad-gil/bubble-lab.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/bubble-lab.md",
+      "paul-graham": "winter2026/evals/paul-graham/bubble-lab.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/bubble-lab.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/bubble-lab.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/bubble-lab.md"
+    }
+  }
+}

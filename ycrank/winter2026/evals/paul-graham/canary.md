@@ -1,0 +1,26 @@
+﻿# Canary -- Paul Graham Evaluation
+
+The most interesting thing about Canary is the tension between how the founders found this problem and how many other people found it too. These founders built AI coding agents at Windsurf and Google. They helped create the very tools that are now shipping buggier code faster than QA can catch it. That's about as organic as problem discovery gets -- they didn't read a TechCrunch article about AI-generated code having 1.7x more bugs, they were inside the machine producing those bugs. When I ask "how did they find this problem?" the answer is: they accidentally helped create it. That's the kind of origin story I look for.
+
+But here's what gives me pause. The best organic discoveries usually involve schlep blindness -- problems that are obvious in retrospect but that everyone unconsciously avoids because the work is ugly. Stripe is the canonical case: every programmer knew payments were broken, but nobody wanted to deal with banks and compliance. Canary's problem is the opposite. QA for AI-generated code is a problem that at least five well-funded companies are already attacking, with over $100 million in aggregate capital deployed. QA Wolf alone has raised $56 million. Momentic, another YC company from W24, has $19 million. Spur, Propolis -- the list keeps going. When a problem attracts this much capital this fast, it's not hidden. It's consensus. And my experience is that consensus opportunities have already been priced by the market. The founders who built Windsurf may understand the problem better than anyone, but the competitive moat has to come from somewhere other than being first to notice it.
+
+The code-aware approach is where the technical argument gets more interesting. Most competitors operate at the browser layer -- DOM scraping, screenshots, CSS selectors. Canary reads the actual source code diff to understand developer intent before generating tests. As a programmer, I can see why this would produce better tests. If you understand what the code is trying to do rather than just observing what it does in a browser, your tests are fundamentally more targeted. This is also harder to build. Making a system that reliably infers user-flow impact from code diffs across arbitrary codebases, frameworks, and languages is a genuinely difficult technical problem. That difficulty is itself a form of schlep -- it's why most competitors took the easier path of testing at the UI layer. So there is some schlep here, just at the technical architecture level rather than the problem-discovery level.
+
+The bull case is straightforward: AI coding tools are accelerating rapidly, the QA gap will widen, and the team that literally built those coding tools has the deepest intuition for how AI-generated code fails. If the code-aware approach proves substantially more reliable than browser-level testing -- fewer flaky tests, better coverage of actual regression risks -- Canary could win on product quality even in a crowded field. The Windsurf and Cognition pedigree means these founders understand LLM-generated code at a level their competitors don't. And developer tools markets have historically rewarded the technically superior product over the better-funded one. Stripe didn't win because it had the most money. It won because the API was better. If Canary's approach produces measurably better test results, engineers will notice.
+
+What keeps me from being more enthusiastic is the absence of evidence that this is happening yet. The product is in Early Access. There's no revenue signal, no user count, no organic pull visible anywhere except a LinkedIn launch post with 339 likes. At pre-seed I don't penalize heavily for thin traction data, but I do look for any signal of genuine user pull -- one engineer saying "I can't go back to my old workflow," one team that integrated Canary and saw their incident rate drop. That evidence may exist and simply not be public yet, but I can't invest on "may exist." The founders also come from Windsurf, which Cognition acquired for its $10 billion valuation -- meaning their former employer could build competing QA features into Devin using the same codebase-understanding capabilities these founders helped develop. Platform risk from a well-resourced former employer is not a trivial concern.
+
+This is a technically strong team with a genuinely organic connection to a real problem, building a differentiated product in a category I'd prefer to be less crowded. I'm not ready to write a check. The organic discovery is strong but the schlep blindness is weak -- this problem is visible to everyone, and the capital flowing in proves it. I'd want to see early evidence that the code-aware approach produces measurably better outcomes before the competitive field closes in further.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Organic Problem Discovery and Schlep Willingness | 18/30 |
+| Relentlessly Resourceful Founders | 12/25 |
+| Evidence of Wanting: Demonstrated User Pull | 9/20 |
+| Technical Hacker Founders Who Build | 11/15 |
+| Growth Trajectory and Default Alive Economics | 5/10 |
+| **Total** | **55/100** |
+
+**Total Score: 55/100** (Neutral)

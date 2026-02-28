@@ -1,0 +1,26 @@
+﻿# One Robot -- Paul Graham Evaluation
+
+The first thing I notice about One Robot is that it sits in one of the hottest categories in tech right now -- world models for robotics -- yet the specific problem it targets is one the big players are unconsciously walking past. NVIDIA has Cosmos with 20 million hours of training data. Runway just raised $860 million. 1X built its own world model. If you squint, this looks like exactly the kind of crowded space I warn founders to avoid. But look more carefully at what One Robot is actually doing: task-specific learned simulators for contact-rich manipulation of deformable objects. Textiles. Flexible materials. Box folding. These are the cases where every general-purpose simulator breaks down, and every robotics team knows it. The reason NVIDIA and Runway aren't solving this isn't that they can't -- it's that they don't want to. They're building horizontal platforms. Going deep on textile manipulation physics is too narrow and too ugly for a platform play. That's schlep blindness operating at the industry level.
+
+The organic discovery here is genuine and specific. Both founders worked at Industrial Next, a YC W22 robotics manufacturing company. Elton Shon spent five years at Tesla building factory automation and Dojo infrastructure. Hemanth Sarabu comes from NASA JPL, Google, and McLaren, with ML research and two master's degrees in controls and machine learning. These are people who have stood in robot cells, watched trials fail, manually reset scenes, and waited for data that accumulates agonizingly slowly. They didn't read a TechCrunch article about world models and decide to start a company. They hit this wall repeatedly in their own work. When they describe VLA teams being "bottlenecked by physical robot availability," that's autobiographical, not analytical. This is the kind of problem origin I look for -- the idea grew from lived frustration, not from a brainstorming session about what's trending.
+
+The co-founder relationship also checks out. They worked together at Industrial Next before starting One Robot, which is the right order. I've seen too many teams where strangers pair up to chase a trend. Hemanth and Elton built robots together first, then identified the bottleneck together. That's the pattern that holds up under pressure. And Hemanth bootstrapped a previous company, Crescer AI, to profitability -- not a massive outcome, but it signals someone who knows how to build something people will pay for and who understands financial discipline. You don't bootstrap to profitability unless you're paying attention to what users actually want.
+
+The technical credibility is strong. Both founders can clearly build. Hemanth has ML research publications and a software engineering background at Google. Elton was Head of Software at Industrial Next and built ML infrastructure at Tesla. The website shows a 60-second autoregressive world model rollout, which means they have a working prototype, not a slide deck. For a two-person pre-seed team targeting deformable object simulation, that's the right signal -- they're makers, not managers.
+
+Now, the gap. There is zero evidence that anyone actually wants this yet. No users, no revenue, no LOIs, no customer announcements, no waitlist -- nothing. At pre-seed this isn't damning, but it's conspicuous when the problem is supposedly so painful. If every robotics team is genuinely bottlenecked by physical data collection for manipulation tasks, where is the pull? Even one named customer doing trials with the world model would transform my read on this company. Without it, I'm relying entirely on the logic of the problem and the quality of the founders. The logic is sound. The founders are credible. But I've learned that the gap between "this should be a problem" and "this is a problem people will pay to solve right now" is wider than it appears.
+
+The bull case is compelling: if task-specific world models for hard manipulation are genuinely a different technical problem from general-purpose world modeling -- the way vertical SaaS is different from horizontal SaaS -- then One Robot could build a data flywheel that NVIDIA won't bother competing with. Every customer's robot experience data makes the task-specific model better, creating exactly the kind of narrow-but-deep moat that lets a two-person startup survive alongside trillion-dollar incumbents. The founders have the background to execute this. The timing is right -- VLA models are creating demand for training data faster than physical robots can produce it. If I saw even early evidence that a robotics team was using their world model to find failure modes in a VLA policy, I'd be significantly more excited. The pieces are here. What's missing is evidence that the pieces fit together in the real world.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Organic Problem Discovery and Schlep Willingness | 22/30 |
+| Relentlessly Resourceful Founders | 15/25 |
+| Evidence of Wanting: Demonstrated User Pull | 5/20 |
+| Technical Hacker Founders Who Build | 11/15 |
+| Growth Trajectory and Default Alive Economics | 5/10 |
+| **Total** | **58/100** |
+
+**Total Score: 58/100** (Neutral)

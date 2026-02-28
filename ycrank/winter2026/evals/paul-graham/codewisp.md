@@ -1,0 +1,26 @@
+﻿# CodeWisp -- Paul Graham Evaluation
+
+The first thing I notice about CodeWisp is that it's in one of the hottest categories in AI right now. AI game generation has at least five funded competitors, including Rosebud AI with 2.1 million games created and Moonlake AI backed by $28M from Stanford researchers and Naval Ravikant. When I look at a space where that many well-funded teams are already building, my instinct is to walk the other way. I've said the most impressive companies I've seen recently are not working on AI. That doesn't mean no AI company can win. It means that when a category is consensus, the returns are already priced in. The question is whether something specific about this company overrides that pattern.
+
+What's specific is Elvin Fu's origin story. He's been making games since he was ten. He spent eleven years inside the Scratch community and became one of the Top 20 most followed accounts out of 135 million users. He built two game engines from scratch. He taught 22 million students game development on YouTube. When I apply the organic test -- did this idea emerge from lived experience or from a brainstorming session? -- the answer is unambiguous. Fu has been living with the gap between "I have a game idea" and "I can build it" for over a decade. He didn't notice AI was hot and go hunting for applications. He noticed that millions of his own students hit the same wall, and AI became the tool to break through it. That's the right origin story.
+
+But organic discovery is only half my first test. The other half is schlep. Stripe worked because the Collisons walked into banks and dealt with regulatory compliance and fraud detection -- the ugly operational work that every programmer knew about but unconsciously avoided. What's the equivalent schlep in AI game generation? I don't see one. The hard part is making the AI generate good games, which is exactly what every competitor is also working on. There's no regulatory maze, no logistics nightmare, no operational complexity that structurally deters entry. Rosebud already has $9M and millions of games. Moonlake has $28M and a team of Stanford AI researchers. The generation layer is converging toward commodity. When there's no schlep, there's no moat from avoidance -- and when there's no moat from avoidance, you're in a foot race with better-funded competitors.
+
+The bull case is distribution. Fu's audience -- 22 million students taught, Top 20 on Scratch, 65K YouTube subscribers -- is a genuine warm-start advantage that Moonlake's $28M cannot simply purchase. If CodeWisp becomes the community platform where beginner creators publish, discover, and learn, the network effect could matter more than the generation quality. This is the YouTube argument: the best technology doesn't win, the best network does. The educational courses, game showcase, leaderboards, and social features point toward this strategy. And 4,122 developers on the platform before any press coverage suggests the distribution channel works. If Fu can turn his audience into a self-sustaining community before the well-funded competitors figure out distribution, that's a real company. For this to work, though, community has to be the actual moat -- and consumer game-creation platforms historically have brutal churn. Most users make one or two games and leave.
+
+I have a structural concern about the team. The YC page lists only Fu as founder with a team of three. The other two members aren't identified anywhere. This isn't quite a solo founder situation, but it pattern-matches to one. I told Drew Houston he needed a co-founder before we'd accept Dropbox, and I meant it. Houston's exception was earned by extraordinary technical ability combined with an undeniably organic problem. Fu has the organic part, but the unnamed team members and concentration of distribution around one person's personal brand make me uneasy. If Fu gets sick, what's left? The platform hosts 4,122 developers with modest engagement -- the top featured game has 1,183 views and 8 likes. That's thin for a community play.
+
+Fu is clearly a hacker-builder. Two game engines from scratch, CS at UW, games with four million plays. He passes the technical founder test convincingly. But technical ability alone doesn't overcome the category problem. The AI game generation space has too many funded players attacking the same problem from slightly different angles, and the underlying technology is improving for everyone simultaneously. I need to see something that makes competition irrelevant -- either a schlep that scares others off or a network effect that's already compounding. Right now I see neither. What I see is a founder with genuine domain expertise and a real audience, building in a space where being genuine and having an audience might not be enough.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Organic Problem Discovery and Schlep Willingness | 16/30 |
+| Relentlessly Resourceful Founders | 13/25 |
+| Evidence of Wanting: Demonstrated User Pull | 9/20 |
+| Technical Hacker Founders Who Build | 11/15 |
+| Growth Trajectory and Default Alive Economics | 4/10 |
+| **Total** | **53/100** |
+
+**Total Score: 53/100** (Neutral)

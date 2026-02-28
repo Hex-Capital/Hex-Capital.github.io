@@ -1,0 +1,76 @@
+{
+  "slug": "fort",
+  "name": "Fort",
+  "oneLiner": "Strength Tracking Wearable",
+  "metadata": {
+    "website": "https://fort.cx",
+    "yc_page": "https://www.ycombinator.com/companies/fort",
+    "batch": "Winter 2026",
+    "industry": "Consumer / Consumer -> Consumer Electronics",
+    "team_size": "3",
+    "location": "San Francisco, CA (LinkedIn via search snippet)",
+    "tags": "Consumer Health Services, Consumer, Digital Health, Health & Wellness",
+    "yc_partner": "Gustaf Alstromer",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Consumer Health Services",
+    "Consumer",
+    "Digital Health",
+    "Health & Wellness"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 36,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 35,
+    "EG": 34,
+    "NR": 43,
+    "PG": 54,
+    "PT": 36,
+    "SL": 35,
+    "VK": 36
+  },
+  "consolidatedAvg": 39,
+  "consolidatedRank": 83,
+  "paths": {
+    "memo": "winter2026/memos/fort.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/fort.md",
+      "elad-gil": "winter2026/evals/elad-gil/fort.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/fort.md",
+      "paul-graham": "winter2026/evals/paul-graham/fort.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/fort.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/fort.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/fort.md"
+    }
+  }
+}

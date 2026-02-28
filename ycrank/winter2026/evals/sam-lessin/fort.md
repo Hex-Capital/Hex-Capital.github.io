@@ -1,0 +1,24 @@
+﻿# Fort -- Sam Lessin Evaluation
+
+Here's the structural problem with Fort: three of the most credentialed hardware engineers you'll find at pre-seed -- Tesla 4680 battery cells, Semi cabin radar, SpaceX spacecraft subsystems -- building something that WHOOP can ship as a firmware update. The sane-person half of my filter is as strong as it gets outside of protocol-layer crypto founders. Miranda Nover, Paul Schneider, and Zac Valles have collectively shipped physical products at the hardest possible scale, and their co-founding relationship was forged inside Tesla, not at a startup weekend. That relational depth matters. But the insane-idea half is completely absent. A dedicated strength training wearable is the most obvious product gap in fitness tech right now. WHOOP's own data shows 122% year-over-year growth in strength workouts on their platform. Oura calls strength training its third most popular activity among female members. Every wearable company on Earth is staring at this opportunity. When the incumbents are already measuring the demand you're trying to serve, you're not non-consensus -- you're late-consensus with better execution ambitions.
+
+Run the AI kill test on Fort and the answer is uncomfortable. The core technology is IMU-based motion detection plus optical PPG heart rate -- commodity sensor components that already sit on the wrists of millions of WHOOP and Apple Watch users. Fort's differentiation lives entirely in the algorithmic layer: exercise auto-detection, velocity tracking, proximity-to-failure estimation. That's software. And my whole thesis is that software differentiation is dissolving faster than founders realize. WHOOP has millions of users generating strength workout data right now. The moment they prioritize strength-specific algorithm development -- which the 122% growth signal virtually guarantees -- they'll have orders of magnitude more training data than Fort will accumulate in its first two years. The magnetic equipment-mount form factor is a genuinely clever physical design choice, and it's the one thing I'd point to as potentially AI-resistant, but it's a hardware accessory, not a structural moat. Anyone can put a magnet on a band.
+
+The bull case, and I want to be honest about it, is the Craftwork pattern from my own portfolio. A physical product company where the hardware itself creates operational complexity that pure software competitors won't replicate. If Fort's multi-mount system (wrist, equipment mount, body straps) genuinely captures biomechanical data that wrist-only devices cannot -- and the dossier suggests this is the thesis -- then there's a real argument that incumbents optimized for single-placement form factors face a structural disadvantage in replicating Fort's data quality. Serious strength athletes care about per-muscle-group breakdown and range of motion in ways that a wrist-only sensor physically cannot measure for many exercises. If the team can ship a product that nails this, the community of serious lifters would generate intense product-market fit and word-of-mouth. The Tesla manufacturing pedigree is directly relevant here: these founders know how to move from prototype to production in ways that most hardware startups catastrophically don't. That's a real edge.
+
+But even the bull case doesn't get me to conviction, because Fort fails the primitive test entirely. This is a consumer application, not infrastructure. No one builds on top of Fort. There are no network effects, no protocol dynamics, no compounding ecosystem. The ceiling is "successful consumer electronics company" -- which can be a fine business, but it's not an infinity story. The narrative expands from "strength wearable" to "complete fitness platform," and the moment it does, it's competing head-on against WHOOP ($3.6 billion valuation), Oura ($11 billion), and Apple on their strongest features: sleep, recovery, and general health monitoring. The narrative either stays narrow and capped, or expands and gets killed. That's structurally the worst possible dynamic.
+
+I'd rather fund these three founders building something genuinely non-consensus -- maybe a sensing infrastructure play for industrial applications, or a hardware protocol for gym equipment manufacturers. The talent is exceptional. The idea is not. When every fitness tech company and their investors are already talking about strength training as an underserved market, you're buying narrative at market price. I pass, but I'd take the meeting with these founders for their next idea in a heartbeat.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| "Sane Person, Insane Idea" Calibration | 12/30 |
+| AI-Resistant Structural Moat | 10/25 |
+| New Primitive or Protocol Position | 4/20 |
+| Narrative Magnitude and Infinity Optionality | 6/15 |
+| Real Revenue or Asset Cushion | 3/10 |
+| **Total** | **35/100** |
+
+**Total Score: 35/100** (Pass)

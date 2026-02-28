@@ -1,0 +1,75 @@
+{
+  "slug": "valgo",
+  "name": "Valgo",
+  "oneLiner": "Algorithmic safety validation tools for autonomy.",
+  "metadata": {
+    "website": "https://valgo.dev",
+    "yc_page": "https://www.ycombinator.com/companies/valgo",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "2",
+    "location": "San Mateo, CA, USA",
+    "tags": "Robotics, B2B, Aerospace, Trust & Safety, Self-Driving Vehicles"
+  },
+  "tags": [
+    "Robotics",
+    "B2B",
+    "Aerospace",
+    "Trust & Safety",
+    "Self-Driving Vehicles"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 74,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 60,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 53,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 47,
+    "EG": 57,
+    "NR": 74,
+    "PG": 60,
+    "PT": 53,
+    "SL": 57,
+    "VK": 53
+  },
+  "consolidatedAvg": 57.29,
+  "consolidatedRank": 4,
+  "paths": {
+    "memo": "winter2026/memos/valgo.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/valgo.md",
+      "elad-gil": "winter2026/evals/elad-gil/valgo.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/valgo.md",
+      "paul-graham": "winter2026/evals/paul-graham/valgo.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/valgo.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/valgo.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/valgo.md"
+    }
+  }
+}

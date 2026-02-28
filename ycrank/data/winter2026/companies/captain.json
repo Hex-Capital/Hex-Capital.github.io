@@ -1,0 +1,73 @@
+{
+  "slug": "captain",
+  "name": "Captain",
+  "oneLiner": "Accurate knowledge search that scales",
+  "metadata": {
+    "website": "https://runcaptain.com",
+    "yc_page": "https://www.ycombinator.com/companies/captain",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Developer Tools, Big Data, Data Engineering"
+  },
+  "tags": [
+    "Developer Tools",
+    "Big Data",
+    "Data Engineering"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 34,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 30,
+    "EG": 41,
+    "NR": 43,
+    "PG": 53,
+    "PT": 32,
+    "SL": 27,
+    "VK": 34
+  },
+  "consolidatedAvg": 37.14,
+  "consolidatedRank": 99,
+  "paths": {
+    "memo": "winter2026/memos/captain.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/captain.md",
+      "elad-gil": "winter2026/evals/elad-gil/captain.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/captain.md",
+      "paul-graham": "winter2026/evals/paul-graham/captain.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/captain.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/captain.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/captain.md"
+    }
+  }
+}

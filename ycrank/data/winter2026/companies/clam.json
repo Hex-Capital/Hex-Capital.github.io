@@ -1,0 +1,74 @@
+{
+  "slug": "clam",
+  "name": "Clam",
+  "oneLiner": "Enterprise-grade security for broad-access AI Agents like OpenClaw",
+  "metadata": {
+    "website": "https://tryclam.com",
+    "yc_page": "https://www.ycombinator.com/companies/clam",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Workflow Automation, Security, AI, AI Assistant"
+  },
+  "tags": [
+    "Workflow Automation",
+    "Security",
+    "AI",
+    "AI Assistant"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 37,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 30,
+    "EG": 40,
+    "NR": 45,
+    "PG": 47,
+    "PT": 28,
+    "SL": 31,
+    "VK": 37
+  },
+  "consolidatedAvg": 36.86,
+  "consolidatedRank": 103,
+  "paths": {
+    "memo": "winter2026/memos/clam.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/clam.md",
+      "elad-gil": "winter2026/evals/elad-gil/clam.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/clam.md",
+      "paul-graham": "winter2026/evals/paul-graham/clam.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/clam.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/clam.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/clam.md"
+    }
+  }
+}

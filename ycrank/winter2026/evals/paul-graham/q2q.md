@@ -1,0 +1,28 @@
+﻿# Q2Q -- Paul Graham Evaluation
+
+The first thing I notice about Q2Q is that the origin story is real. Brianna Lin sat at a desk as a software PE analyst at a buyout firm, doing exactly the work Q2Q automates — building prospect lists, researching companies, writing outreach emails. She didn't read about deal sourcing in a blog post. She did it. That passes the organic test. When I ask "how did they find this problem?", the answer is "she lived it," and that matters more than most people realize. The majority of AI automation pitches I see start with "we noticed X industry still does things manually" — a observation anyone could make from the outside. Brianna made it from the inside.
+
+But passing the organic test is necessary and not sufficient. The harder question is the schlep test, and this is where Q2Q gets complicated. What's the actual schlep here? Email personalization, AI voice agents, calendar booking, company database access. These are all available as APIs and services today. The components are individually commoditized. Compare this to Stripe, where the schlep was dealing with banks, money transmission licenses, fraud detection, and payment regulations across dozens of countries — structural ugliness that took years to navigate and that competitors physically could not shortcut. Q2Q's schlep is integration and domain tuning. That's work, but it's not the kind of deep structural pain that creates unconscious avoidance. "AI automates outbound for [vertical]" is a template that dozens of companies are running simultaneously. 11x, Artisan, Instantly — any of these horizontal AI SDR platforms could add PE-specific targeting with a few months of domain work. The schlep isn't deep enough to deter well-funded adjacent players, which means the problem isn't hiding in plain sight. It's sitting in plain sight and everyone can see it.
+
+The competitive picture reinforces this concern. Datasite spent $500 million acquiring Grata and SourceScrub in 2025 to build an end-to-end deal intelligence platform. They have 16 million company profiles and existing relationships with PE firms. Adding outbound automation to that stack is the obvious next move. Q2Q would be building a sourcing engine from scratch while competing against a platform that already owns the data layer. That's not a fight I'd choose. And the horizontal AI SDR companies are approaching from the other direction — they already have the outreach automation and just need to tune it for PE. Q2Q is squeezed between data incumbents expanding into workflow and workflow tools expanding into verticals.
+
+The strongest bull case is the search fund and independent sponsor segment. These are small operators who can't afford PitchBook licenses or SourceCo retainers, and they form a tight-knit community where word of mouth travels fast. If Q2Q nails the workflow for this underserved niche, it could grow organically within that community before incumbents notice. Brianna's PE network gives her distribution into exactly these buyers. The Datasite consolidation might even help — PE firms nervous about platform lock-in could welcome an independent alternative. And the search fund segment is growing. If Q2Q started deliberately narrow here — the way Facebook started at Harvard only — it could build density in a contained market before expanding. That's a real path. But it requires the founders to execute with intensity I can't yet see evidence of.
+
+On the founding team: both founders come from Penn's M&T program, studying Computer Science and Finance, which means they've known each other and have the shared educational context that makes cofounding relationships work. Claire Wu has technical credentials — hedge fund engineering, Qualtrics PM work, Meta AI hackathon — but her public GitHub shows 5 repos with 1 star total, which doesn't signal the kind of hacker intensity I look for. I'd want to see a working prototype that demonstrates technical craft, not just assembly of API calls. Neither founder has started and failed at a company before. There are no stories of creative problem-solving under duress. They might be relentlessly resourceful — they haven't yet had the chance to prove it either way.
+
+There's no evidence of user pull. No revenue, no customer names, no waitlist numbers, no anecdotes about PE firms pulling the product out of their hands. The YC Launch page asks for introductions to PE professionals, which reads as pre-launch rather than scaling something that's already working. At pre-seed I don't demand traction, but I do listen for any signal that someone genuinely wants this — even one firm saying "I'd pay for this today" would change the picture. Its absence doesn't condemn Q2Q, but combined with the commoditization risk and competitive pressure, it means I'm being asked to bet on the founders and the positioning alone.
+
+This is a competent team with genuine domain experience building in a real market. But the problem lacks the structural schlep that creates defensibility, the competitive landscape is converging from multiple directions, and I have no evidence yet of the kind of resourcefulness or user pull that would override those concerns. I'd watch this one. If they come back in six months with PE firms that can't live without the product, I'd look again.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Organic Problem Discovery and Schlep Willingness | 18/30 |
+| Relentlessly Resourceful Founders | 12/25 |
+| Evidence of Wanting: Demonstrated User Pull | 9/20 |
+| Technical Hacker Founders Who Build | 8/15 |
+| Growth Trajectory and Default Alive Economics | 5/10 |
+| **Total** | **52/100** |
+
+**Total Score: 52/100** (Neutral)

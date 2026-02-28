@@ -1,0 +1,73 @@
+{
+  "slug": "seeing-systems",
+  "name": "Seeing Systems",
+  "oneLiner": "AI Drone Systems for Defence",
+  "metadata": {
+    "website": "https://www.seeing-systems.com",
+    "yc_page": "https://www.ycombinator.com/companies/seeing-systems",
+    "batch": "Winter 2026",
+    "industry": "Industrials / Industrials -> Defense",
+    "team_size": "2",
+    "location": "United Kingdom (founders from Guernsey)",
+    "tags": "Hardware, Swarm AI, Robotics"
+  },
+  "tags": [
+    "Hardware",
+    "Swarm AI",
+    "Robotics"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 66,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 59,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 53,
+    "EG": 59,
+    "NR": 55,
+    "PG": 66,
+    "PT": 41,
+    "SL": 49,
+    "VK": 59
+  },
+  "consolidatedAvg": 54.57,
+  "consolidatedRank": 10,
+  "paths": {
+    "memo": "winter2026/memos/seeing-systems.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/seeing-systems.md",
+      "elad-gil": "winter2026/evals/elad-gil/seeing-systems.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/seeing-systems.md",
+      "paul-graham": "winter2026/evals/paul-graham/seeing-systems.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/seeing-systems.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/seeing-systems.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/seeing-systems.md"
+    }
+  }
+}

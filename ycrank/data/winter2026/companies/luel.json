@@ -1,0 +1,73 @@
+{
+  "slug": "luel",
+  "name": "Luel",
+  "oneLiner": "Turning everyday words and actions into usable training data.",
+  "metadata": {
+    "website": "https://luel.ai",
+    "yc_page": "https://www.ycombinator.com/companies/luel",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Marketplace, B2B, Big Data"
+  },
+  "tags": [
+    "Marketplace",
+    "B2B",
+    "Big Data"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 42,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 38,
+    "EG": 40,
+    "NR": 34,
+    "PG": 35,
+    "PT": 26,
+    "SL": 27,
+    "VK": 42
+  },
+  "consolidatedAvg": 34.57,
+  "consolidatedRank": 127,
+  "paths": {
+    "memo": "winter2026/memos/luel.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/luel.md",
+      "elad-gil": "winter2026/evals/elad-gil/luel.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/luel.md",
+      "paul-graham": "winter2026/evals/paul-graham/luel.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/luel.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/luel.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/luel.md"
+    }
+  }
+}

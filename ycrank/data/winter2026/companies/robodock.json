@@ -1,0 +1,75 @@
+{
+  "slug": "robodock",
+  "name": "RoboDock",
+  "oneLiner": "Robots that run autonomous depots for autonomous fleets.",
+  "metadata": {
+    "website": "https://www.robodock.tech/",
+    "yc_page": "https://www.ycombinator.com/companies/robodock",
+    "batch": "Winter 2026",
+    "industry": "Industrials / Industrials -> Energy",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "SaaS, Robotics, Energy, Electric Vehicles, Automation"
+  },
+  "tags": [
+    "SaaS",
+    "Robotics",
+    "Energy",
+    "Electric Vehicles",
+    "Automation"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 62,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 47,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 47,
+    "EG": 49,
+    "NR": 55,
+    "PG": 62,
+    "PT": 38,
+    "SL": 52,
+    "VK": 47
+  },
+  "consolidatedAvg": 50,
+  "consolidatedRank": 21,
+  "paths": {
+    "memo": "winter2026/memos/robodock.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/robodock.md",
+      "elad-gil": "winter2026/evals/elad-gil/robodock.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/robodock.md",
+      "paul-graham": "winter2026/evals/paul-graham/robodock.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/robodock.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/robodock.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/robodock.md"
+    }
+  }
+}

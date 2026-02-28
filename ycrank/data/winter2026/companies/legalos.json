@@ -1,0 +1,75 @@
+{
+  "slug": "legalos",
+  "name": "LegalOS",
+  "oneLiner": "The AI-powered law firm for complex work visas",
+  "metadata": {
+    "website": "https://www.legalos.ai",
+    "yc_page": "https://www.ycombinator.com/companies/legalos",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Legal",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA; Remote",
+    "tags": "Artificial Intelligence, B2B, Legal, HR Tech, Immigration"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "B2B",
+    "Legal",
+    "HR Tech",
+    "Immigration"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 60,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 40,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 54,
+    "EG": 45,
+    "NR": 53,
+    "PG": 60,
+    "PT": 36,
+    "SL": 38,
+    "VK": 40
+  },
+  "consolidatedAvg": 46.57,
+  "consolidatedRank": 36,
+  "paths": {
+    "memo": "winter2026/memos/legalos.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/legalos.md",
+      "elad-gil": "winter2026/evals/elad-gil/legalos.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/legalos.md",
+      "paul-graham": "winter2026/evals/paul-graham/legalos.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/legalos.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/legalos.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/legalos.md"
+    }
+  }
+}

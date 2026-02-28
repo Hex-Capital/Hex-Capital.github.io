@@ -1,0 +1,74 @@
+{
+  "slug": "skillsync",
+  "name": "Skillsync",
+  "oneLiner": "Find anyone in open source",
+  "metadata": {
+    "website": "https://skillsync.wiki",
+    "yc_page": "https://www.ycombinator.com/companies/skillsync",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Human Resources",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Recruiting, Open Source, HR Tech"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Recruiting",
+    "Open Source",
+    "HR Tech"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 33,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 33,
+    "EG": 35,
+    "NR": 38,
+    "PG": 51,
+    "PT": 33,
+    "SL": 28,
+    "VK": 33
+  },
+  "consolidatedAvg": 35.86,
+  "consolidatedRank": 114,
+  "paths": {
+    "memo": "winter2026/memos/skillsync.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/skillsync.md",
+      "elad-gil": "winter2026/evals/elad-gil/skillsync.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/skillsync.md",
+      "paul-graham": "winter2026/evals/paul-graham/skillsync.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/skillsync.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/skillsync.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/skillsync.md"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "ditto-biosciences",
+  "name": "Ditto Biosciences",
+  "oneLiner": "Evolutionary therapies for autoimmune disease",
+  "metadata": {
+    "website": "https://www.dittobio.com/",
+    "yc_page": "https://www.ycombinator.com/companies/ditto-biosciences",
+    "batch": "Winter 2026",
+    "industry": "Healthcare / Healthcare -> Drug Discovery and Delivery",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Biotech, Therapeutics, Drug discovery",
+    "yc_partner": "Ankit Gupta",
+    "emails": "hello@dittobio.com, founders@dittobio.com (company website and YC launch page)"
+  },
+  "tags": [
+    "Biotech",
+    "Therapeutics",
+    "Drug discovery"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 68,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 64,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 62,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 57,
+    "EG": 49,
+    "NR": 68,
+    "PG": 52,
+    "PT": 44,
+    "SL": 64,
+    "VK": 62
+  },
+  "consolidatedAvg": 56.57,
+  "consolidatedRank": 5,
+  "paths": {
+    "memo": "winter2026/memos/ditto-biosciences.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/ditto-biosciences.md",
+      "elad-gil": "winter2026/evals/elad-gil/ditto-biosciences.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/ditto-biosciences.md",
+      "paul-graham": "winter2026/evals/paul-graham/ditto-biosciences.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/ditto-biosciences.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/ditto-biosciences.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/ditto-biosciences.md"
+    }
+  }
+}

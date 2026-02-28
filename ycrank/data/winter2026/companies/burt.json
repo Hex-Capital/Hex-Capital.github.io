@@ -1,0 +1,73 @@
+{
+  "slug": "burt",
+  "name": "Burt",
+  "oneLiner": "Easily fine tune and deploy specialized models",
+  "metadata": {
+    "website": "https://www.trainburt.com/",
+    "yc_page": "https://www.ycombinator.com/companies/burt",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Machine Learning, Reinforcement Learning, AI"
+  },
+  "tags": [
+    "Machine Learning",
+    "Reinforcement Learning",
+    "AI"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 22,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 20,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 26,
+      "tier": "Strong Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 28,
+    "EG": 26,
+    "NR": 31,
+    "PG": 35,
+    "PT": 22,
+    "SL": 20,
+    "VK": 26
+  },
+  "consolidatedAvg": 26.86,
+  "consolidatedRank": 176,
+  "paths": {
+    "memo": "winter2026/memos/burt.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/burt.md",
+      "elad-gil": "winter2026/evals/elad-gil/burt.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/burt.md",
+      "paul-graham": "winter2026/evals/paul-graham/burt.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/burt.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/burt.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/burt.md"
+    }
+  }
+}

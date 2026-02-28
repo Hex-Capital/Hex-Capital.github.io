@@ -1,0 +1,75 @@
+{
+  "slug": "agentic-fabriq",
+  "name": "Agentic Fabriq",
+  "oneLiner": "Okta for Agents.",
+  "metadata": {
+    "website": "https://www.agenticfabriq.com",
+    "yc_page": "https://www.ycombinator.com/companies/agentic-fabriq",
+    "batch": "Fall 2025 (F25)",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "Sunnyvale, CA, USA",
+    "tags": "AIOps, DevSecOps, SaaS, API, Infrastructure"
+  },
+  "tags": [
+    "AIOps",
+    "DevSecOps",
+    "SaaS",
+    "API",
+    "Infrastructure"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 25,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 36,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 32,
+    "EG": 40,
+    "NR": 39,
+    "PG": 32,
+    "PT": 25,
+    "SL": 30,
+    "VK": 36
+  },
+  "consolidatedAvg": 33.43,
+  "consolidatedRank": 141,
+  "paths": {
+    "memo": "winter2026/memos/agentic-fabriq.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/agentic-fabriq.md",
+      "elad-gil": "winter2026/evals/elad-gil/agentic-fabriq.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/agentic-fabriq.md",
+      "paul-graham": "winter2026/evals/paul-graham/agentic-fabriq.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/agentic-fabriq.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/agentic-fabriq.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/agentic-fabriq.md"
+    }
+  }
+}

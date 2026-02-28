@@ -1,0 +1,72 @@
+{
+  "slug": "aemon",
+  "name": "Aemon",
+  "oneLiner": "The AI R&D Engineer",
+  "metadata": {
+    "website": "https://aemon.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/aemon",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, B2B"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "B2B"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 51,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 36,
+    "EG": 36,
+    "NR": 46,
+    "PG": 42,
+    "PT": 35,
+    "SL": 29,
+    "VK": 51
+  },
+  "consolidatedAvg": 39.29,
+  "consolidatedRank": 82,
+  "paths": {
+    "memo": "winter2026/memos/aemon.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/aemon.md",
+      "elad-gil": "winter2026/evals/elad-gil/aemon.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/aemon.md",
+      "paul-graham": "winter2026/evals/paul-graham/aemon.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/aemon.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/aemon.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/aemon.md"
+    }
+  }
+}

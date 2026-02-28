@@ -1,0 +1,74 @@
+{
+  "slug": "maywood",
+  "name": "Maywood",
+  "oneLiner": "AI for M&A",
+  "metadata": {
+    "website": "https://maywoodai.com/",
+    "yc_page": "https://www.ycombinator.com/companies/maywood",
+    "batch": "Winter 2026",
+    "industry": "Fintech / Fintech -> Banking and Exchange",
+    "team_size": "2",
+    "location": "New York, NY, USA",
+    "tags": "Fintech, Finance, B2B, AI"
+  },
+  "tags": [
+    "Fintech",
+    "Finance",
+    "B2B",
+    "AI"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 36,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 37,
+    "EG": 53,
+    "NR": 46,
+    "PG": 51,
+    "PT": 37,
+    "SL": 33,
+    "VK": 36
+  },
+  "consolidatedAvg": 41.86,
+  "consolidatedRank": 64,
+  "paths": {
+    "memo": "winter2026/memos/maywood.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/maywood.md",
+      "elad-gil": "winter2026/evals/elad-gil/maywood.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/maywood.md",
+      "paul-graham": "winter2026/evals/paul-graham/maywood.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/maywood.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/maywood.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/maywood.md"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "ashr",
+  "name": "Ashr",
+  "oneLiner": "Mimic Users in Your Production Environment to Catch Agent Fails",
+  "metadata": {
+    "website": "https://ashr.io",
+    "yc_page": "https://www.ycombinator.com/companies/ashr",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Human Resources",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Developer Tools, SaaS, Data Engineering, DevOps"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "SaaS",
+    "Data Engineering",
+    "DevOps"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 24,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 20,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 20,
+      "tier": "Strong Pass"
+    },
+    "vinod-khosla": {
+      "score": 27,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 24,
+    "EG": 32,
+    "NR": 32,
+    "PG": 34,
+    "PT": 20,
+    "SL": 20,
+    "VK": 27
+  },
+  "consolidatedAvg": 27,
+  "consolidatedRank": 175,
+  "paths": {
+    "memo": "winter2026/memos/ashr.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/ashr.md",
+      "elad-gil": "winter2026/evals/elad-gil/ashr.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/ashr.md",
+      "paul-graham": "winter2026/evals/paul-graham/ashr.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/ashr.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/ashr.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/ashr.md"
+    }
+  }
+}

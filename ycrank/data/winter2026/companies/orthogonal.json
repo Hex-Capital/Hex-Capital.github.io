@@ -1,0 +1,74 @@
+{
+  "slug": "orthogonal",
+  "name": "Orthogonal",
+  "oneLiner": "Agentic Payments for APIs",
+  "metadata": {
+    "website": "https://orthogonal.com",
+    "yc_page": "https://www.ycombinator.com/companies/orthogonal",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Crypto / Web3, Payments, API"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Crypto / Web3",
+    "Payments",
+    "API"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 42,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 32,
+    "EG": 49,
+    "NR": 46,
+    "PG": 50,
+    "PT": 31,
+    "SL": 35,
+    "VK": 42
+  },
+  "consolidatedAvg": 40.71,
+  "consolidatedRank": 72,
+  "paths": {
+    "memo": "winter2026/memos/orthogonal.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/orthogonal.md",
+      "elad-gil": "winter2026/evals/elad-gil/orthogonal.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/orthogonal.md",
+      "paul-graham": "winter2026/evals/paul-graham/orthogonal.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/orthogonal.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/orthogonal.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/orthogonal.md"
+    }
+  }
+}

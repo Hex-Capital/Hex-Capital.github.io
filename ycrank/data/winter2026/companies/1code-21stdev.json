@@ -1,0 +1,73 @@
+{
+  "slug": "1code-21stdev",
+  "name": "1code (21st.dev)",
+  "oneLiner": "Orchestration layer for coding agents",
+  "metadata": {
+    "website": "https://21st.dev/agents",
+    "yc_page": "https://www.ycombinator.com/companies/1code-21stdev",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Developer Tools, B2B, Design Tools"
+  },
+  "tags": [
+    "Developer Tools",
+    "B2B",
+    "Design Tools"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 22,
+      "tier": "Strong Pass"
+    },
+    "sam-lessin": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 38,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 26,
+    "EG": 42,
+    "NR": 37,
+    "PG": 49,
+    "PT": 22,
+    "SL": 32,
+    "VK": 38
+  },
+  "consolidatedAvg": 35.14,
+  "consolidatedRank": 122,
+  "paths": {
+    "memo": "winter2026/memos/1code-21stdev.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/1code-21stdev.md",
+      "elad-gil": "winter2026/evals/elad-gil/1code-21stdev.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/1code-21stdev.md",
+      "paul-graham": "winter2026/evals/paul-graham/1code-21stdev.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/1code-21stdev.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/1code-21stdev.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/1code-21stdev.md"
+    }
+  }
+}

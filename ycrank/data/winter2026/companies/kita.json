@@ -1,0 +1,73 @@
+{
+  "slug": "kita",
+  "name": "Kita",
+  "oneLiner": "Turn documents into signals for lenders",
+  "metadata": {
+    "website": "https://www.usekita.com/",
+    "yc_page": "https://www.ycombinator.com/companies/kita",
+    "batch": "Winter 2026",
+    "industry": "Fintech / Fintech",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Fintech, SaaS, Emerging Markets"
+  },
+  "tags": [
+    "Fintech",
+    "SaaS",
+    "Emerging Markets"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 66,
+      "tier": "Invest"
+    },
+    "naval-ravikant": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 73,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 50,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 59,
+    "EG": 66,
+    "NR": 58,
+    "PG": 73,
+    "PT": 43,
+    "SL": 45,
+    "VK": 50
+  },
+  "consolidatedAvg": 56.29,
+  "consolidatedRank": 6,
+  "paths": {
+    "memo": "winter2026/memos/kita.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/kita.md",
+      "elad-gil": "winter2026/evals/elad-gil/kita.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/kita.md",
+      "paul-graham": "winter2026/evals/paul-graham/kita.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/kita.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/kita.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/kita.md"
+    }
+  }
+}

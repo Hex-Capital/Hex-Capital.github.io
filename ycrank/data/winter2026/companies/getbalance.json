@@ -1,0 +1,75 @@
+{
+  "slug": "getbalance",
+  "name": "Balance",
+  "oneLiner": "Full-Stack AI Accounting",
+  "metadata": {
+    "website": "https://getbalance.ai",
+    "yc_page": "https://www.ycombinator.com/companies/getbalance",
+    "batch": "Winter 2026",
+    "industry": "B2B / Finance and Accounting",
+    "team_size": "4",
+    "location": "Not listed (operates in Denmark, US, and UK per Orbital Witness tech blog, Dec 2025)",
+    "tags": "Fintech, Automation, AI",
+    "yc_partner": "Brad Flora",
+    "emails": "founders@getbalance.ai (YC launch post)"
+  },
+  "tags": [
+    "Fintech",
+    "Automation",
+    "AI"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 40,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 38,
+    "EG": 37,
+    "NR": 40,
+    "PG": 53,
+    "PT": 26,
+    "SL": 29,
+    "VK": 40
+  },
+  "consolidatedAvg": 37.57,
+  "consolidatedRank": 96,
+  "paths": {
+    "memo": "winter2026/memos/getbalance.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/getbalance.md",
+      "elad-gil": "winter2026/evals/elad-gil/getbalance.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/getbalance.md",
+      "paul-graham": "winter2026/evals/paul-graham/getbalance.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/getbalance.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/getbalance.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/getbalance.md"
+    }
+  }
+}

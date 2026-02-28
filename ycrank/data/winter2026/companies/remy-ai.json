@@ -1,0 +1,76 @@
+{
+  "slug": "remy-ai",
+  "name": "Remy AI",
+  "oneLiner": "Automating dexterous tasks in warehouses",
+  "metadata": {
+    "website": "https://www.tryremy.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/remy-ai",
+    "batch": "Winter 2026",
+    "industry": "Industrials / Manufacturing and Robotics",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Deep Learning, Robotics, Logistics, Supply Chain",
+    "yc_partner": "Brad Flora",
+    "emails": "founders@tryremy.ai (YC company page)"
+  },
+  "tags": [
+    "Deep Learning",
+    "Robotics",
+    "Logistics",
+    "Supply Chain"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 52,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 36,
+    "EG": 34,
+    "NR": 42,
+    "PG": 37,
+    "PT": 29,
+    "SL": 29,
+    "VK": 52
+  },
+  "consolidatedAvg": 37,
+  "consolidatedRank": 102,
+  "paths": {
+    "memo": "winter2026/memos/remy-ai.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/remy-ai.md",
+      "elad-gil": "winter2026/evals/elad-gil/remy-ai.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/remy-ai.md",
+      "paul-graham": "winter2026/evals/paul-graham/remy-ai.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/remy-ai.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/remy-ai.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/remy-ai.md"
+    }
+  }
+}

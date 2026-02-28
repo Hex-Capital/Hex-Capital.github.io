@@ -1,0 +1,77 @@
+{
+  "slug": "vela",
+  "name": "Vela",
+  "oneLiner": "The AI Scheduling Assistant that truly knows you.",
+  "metadata": {
+    "website": "https://tryvela.ai/ps",
+    "yc_page": "https://www.ycombinator.com/companies/vela",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, B2B, Recruiting, Calendar, AI Assistant",
+    "yc_partner": "Jon Xu",
+    "emails": "contact@tryvela.ai, founders@tryvela.ai (company website and YC page)"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "B2B",
+    "Recruiting",
+    "Calendar",
+    "AI Assistant"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 25,
+      "tier": "Strong Pass"
+    },
+    "vinod-khosla": {
+      "score": 41,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 37,
+    "EG": 38,
+    "NR": 42,
+    "PG": 42,
+    "PT": 28,
+    "SL": 25,
+    "VK": 41
+  },
+  "consolidatedAvg": 36.14,
+  "consolidatedRank": 109,
+  "paths": {
+    "memo": "winter2026/memos/vela.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/vela.md",
+      "elad-gil": "winter2026/evals/elad-gil/vela.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/vela.md",
+      "paul-graham": "winter2026/evals/paul-graham/vela.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/vela.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/vela.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/vela.md"
+    }
+  }
+}

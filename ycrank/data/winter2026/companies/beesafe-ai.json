@@ -1,0 +1,75 @@
+{
+  "slug": "beesafe-ai",
+  "name": "BeeSafe AI",
+  "oneLiner": "Stopping Scams Before They Reach Your Customers",
+  "metadata": {
+    "website": "https://beesafe.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/beesafe-ai",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Security",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Security, Cybersecurity, Fraud Prevention, Fraud Detection"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Security",
+    "Cybersecurity",
+    "Fraud Prevention",
+    "Fraud Detection"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 70,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 65,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 53,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 53,
+    "EG": 56,
+    "NR": 70,
+    "PG": 65,
+    "PT": 43,
+    "SL": 48,
+    "VK": 53
+  },
+  "consolidatedAvg": 55.43,
+  "consolidatedRank": 8,
+  "paths": {
+    "memo": "winter2026/memos/beesafe-ai.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/beesafe-ai.md",
+      "elad-gil": "winter2026/evals/elad-gil/beesafe-ai.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/beesafe-ai.md",
+      "paul-graham": "winter2026/evals/paul-graham/beesafe-ai.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/beesafe-ai.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/beesafe-ai.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/beesafe-ai.md"
+    }
+  }
+}

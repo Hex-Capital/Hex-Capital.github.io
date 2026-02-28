@@ -1,0 +1,26 @@
+﻿# Emdash -- Cyan Banister Evaluation
+
+The first thing that strikes me about Emdash is that it lives at the dead center of the hottest category in tech right now. AI developer tools. Every fund I know is trying to get exposure here. Cursor just raised at a $29 billion valuation. Google launched Antigravity with parallel multi-agent orchestration. Cognition has $700 million in funding. When I look at a company and every sophisticated investor in Silicon Valley is already crowding into the space, the signal I've learned to trust -- that feeling of "this is unpopular, this is difficult to assess" -- it's just not there. The most promising companies tend to be the ones that make people uncomfortable, that sound a little insane when you describe them at a dinner party. An orchestration layer for AI coding agents? Nobody's uncomfortable with that. That's the consensus bet of 2026.
+
+Before I even look at the product, I want to know these founders' stories -- not the business, but how they got here. And what I find is two well-credentialed European founders with strong academic pedigrees. Arne studied at CODE University and 42, worked at Thrive Capital (which, notably, invested in Cursor -- so he has insider knowledge of this market), Highlight AI, and Langdock. Raban has a Stanford MS, did research at MIT CSAIL, and previously founded Soff -- a supply chain operating system for manufacturers -- in YC S24 with a different co-founder. That last detail gives me real pause. Raban went from supply chain to developer tools within roughly a year, with a new co-partner. I've seen founders pivot successfully, but when I'm looking for that biographical thread connecting the person to the problem -- the thing that tells me they'll keep going when things get truly dark -- pivoting from manufacturing supply chains to AI agent orchestration because the market shifted doesn't give me that thread. It looks more like chasing where the energy went than being pulled by a problem that won't let you sleep.
+
+The bull case deserves real engagement, because it's not trivial. The "Switzerland of AI coding agents" positioning is structurally sound -- Cursor and Windsurf are economically incentivized to promote their own bundled agents, not to let you run Claude Code and Codex side by side. That creates a genuine opening for a neutral orchestration layer, and the analogy to Docker is the right one. Sixty thousand downloads and 1,500 GitHub stars with 43 contributors is meaningful early community signal for a pre-seed open-source project. The proliferation of CLI-based agents really did create a coordination problem that didn't exist eighteen months ago, and someone is going to own this layer. If these founders execute on open-core monetization -- free community product, enterprise features for teams -- there's a path to a real business. And Arne's Thrive Capital experience gives him unusual market intelligence about exactly who's building what in this space.
+
+But even granting all of that, this company doesn't activate any of the patterns I've built my portfolio around. It doesn't create economic access for people who lack it -- it makes already highly-paid engineers slightly more efficient at orchestrating AI agents. There's no invisible system being made transparent, no underserved population gaining opportunity they didn't have before. The space has no regulatory complexity creating a moat, no stigma deterring competitors. The core concept -- running multiple agent CLIs in parallel Git worktrees -- is technically reproducible, and the MIT license means the codebase itself can be forked. Cursor 2.0 already ships with eight-agent parallelism. When your differentiation can be shipped as a feature update by a competitor with a thousand times your resources, that's not the kind of defensibility I can build conviction around.
+
+The co-founder relationship has some positive signal -- they met five years ago at CDTM in Munich, so this isn't two strangers who matched on a co-founder dating app. But it's a new working partnership, and given my HQ Trivia lesson, I'd want to understand how they've navigated disagreement under real pressure before writing a check. No evidence of that exists yet, which is normal at pre-seed but means I can't evaluate the dimension that matters most to me after the founder's personal story.
+
+I respect what they're building, and I think the developer community clearly finds it useful. But I invest my own money into founders whose lives have prepared them specifically for the battle ahead, into companies that look ridiculous to other investors, and into products that create real-world impact for people who need it. Emdash is a competent product in a consensus category built by smart people without an obvious biographical stake in the outcome. That's a pass for me.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Biographical Grit and Personal Stake | 8/30 |
+| Anti-Consensus Conviction and Weird Factor | 7/25 |
+| Economic Access and Real-World Impact | 3/20 |
+| Navigating Complexity in Hard Spaces | 3/15 |
+| Co-Founder Alignment and Team Resilience | 5/10 |
+| **Total** | **26/100** |
+
+**Total Score: 26/100** (Pass)

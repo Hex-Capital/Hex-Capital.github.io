@@ -1,0 +1,74 @@
+{
+  "slug": "vector-legal",
+  "name": "Vector Legal",
+  "oneLiner": "AI Law Firm + Legal Tech Platform for Startups",
+  "metadata": {
+    "website": "https://vectorlegal.com",
+    "yc_page": "https://www.ycombinator.com/companies/vector-legal",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Legal",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Legal, LegalTech, Operations, AI Assistant"
+  },
+  "tags": [
+    "Legal",
+    "LegalTech",
+    "Operations",
+    "AI Assistant"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 36,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 35,
+    "EG": 40,
+    "NR": 48,
+    "PG": 51,
+    "PT": 30,
+    "SL": 29,
+    "VK": 36
+  },
+  "consolidatedAvg": 38.43,
+  "consolidatedRank": 90,
+  "paths": {
+    "memo": "winter2026/memos/vector-legal.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/vector-legal.md",
+      "elad-gil": "winter2026/evals/elad-gil/vector-legal.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/vector-legal.md",
+      "paul-graham": "winter2026/evals/paul-graham/vector-legal.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/vector-legal.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/vector-legal.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/vector-legal.md"
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "axionorbital-space",
+  "name": "AxionOrbital Space",
+  "oneLiner": "Foundation models for 24/7 Earth Observation",
+  "metadata": {
+    "website": "https://axionorbital.space/",
+    "yc_page": "https://www.ycombinator.com/companies/axionorbital-space",
+    "batch": "Winter 2026",
+    "industry": "Industrials / Industrials -> Aviation and Space",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Deep Learning, Satellites, Weather"
+  },
+  "tags": [
+    "Deep Learning",
+    "Satellites",
+    "Weather"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 54,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 39,
+    "EG": 50,
+    "NR": 57,
+    "PG": 47,
+    "PT": 37,
+    "SL": 36,
+    "VK": 54
+  },
+  "consolidatedAvg": 45.71,
+  "consolidatedRank": 40,
+  "paths": {
+    "memo": "winter2026/memos/axionorbital-space.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/axionorbital-space.md",
+      "elad-gil": "winter2026/evals/elad-gil/axionorbital-space.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/axionorbital-space.md",
+      "paul-graham": "winter2026/evals/paul-graham/axionorbital-space.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/axionorbital-space.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/axionorbital-space.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/axionorbital-space.md"
+    }
+  }
+}

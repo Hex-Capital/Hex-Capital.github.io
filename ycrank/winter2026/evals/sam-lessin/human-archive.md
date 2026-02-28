@@ -1,0 +1,26 @@
+﻿# Human Archive -- Sam Lessin Evaluation
+
+Here's my problem with Human Archive: the idea isn't insane. It's obvious. Every robotics lab on the planet knows it needs real-world multimodal training data. Scale AI validated the category in September 2025 by launching its Physical AI division and immediately collecting 1,000+ hours per day through a global contractor network. Two other YC companies -- Sensei from S24 and Cortex AI from F25 -- are already pursuing variations of the same thesis. When I look at a deal and the first thing I notice is that the market is crowded, the TAM slide leads the pitch, and every major incumbent is already building in the space, my "sane person, insane idea" filter isn't triggered -- my "consensus opportunity" alarm is. This is a sane idea. That's the problem.
+
+The founder team is young and clearly smart -- Berkeley MET, Berkeley EECS, Stanford -- but the "sane" side of the equation requires more than academic pedigree. Rushil Agarwal's product stint at Coinbase is interesting but doesn't signal infrastructure-scale building experience. Samay Maini's ML work at Contoro Robotics provides the most relevant domain signal, but we're talking about a research-stage contributor, not someone who shipped robotics infrastructure at scale. Raj and Shloke Patel co-founded a mango delivery operation during COVID and a sustainable fungicide startup that raised $15K in grant funding. These are scrappy entrepreneurial signals, not the kind of credibility that anchors a bet against Scale AI's $29B war machine. When Brian Armstrong pitched Coinbase, the insanity of the idea was counterbalanced by someone who'd built payment infrastructure at Airbnb. Here, a consensus opportunity is paired with founders who haven't yet earned the operational credibility to execute against well-funded incumbents in a category that demands complex global physical operations.
+
+Now let me run my actual kill test: does this business get stronger or weaker as AI improves? The answer is unambiguously bad. Human Archive's entire existence depends on AI foundation models needing real-world data. If synthetic data generation gets good enough -- and Skild AI is betting their $300M that it will -- demand for expensive real-world collection evaporates. But it's worse than that. Even if real-world data remains critical, AI makes it easier for incumbents to build their own collection pipelines. Scale AI can deploy AI-powered QA and annotation at scale. Google DeepMind can build its own capture rigs. The frontier labs that are Human Archive's customers are also the companies most capable of vertically integrating this function. This isn't a "cherry on top" business -- strip away AI demand and there's literally nothing here. The business doesn't exist without AI, and AI's advancement simultaneously creates competition and substitutes. That's the opposite of what I look for.
+
+The physical operations component -- custom hardware deployed across residential and manufacturing environments in India -- is superficially appealing to my framework. I love businesses with physical-world complexity that software can't replicate. But there's a critical distinction: at Craftwork, the painting crews ARE the product. Customers buy painted walls. The operational complexity is the moat because it's the deliverable. At Human Archive, the hardware deployment and video capture crews are just the supply chain for a digital product. Customers buy data files. The operations are a cost center, and cost centers get optimized away -- by Scale AI's contractor network, by cheaper hardware, by synthetic alternatives. The physical component here isn't a moat; it's overhead.
+
+The strongest bull case would require believing three things simultaneously: that synthetic data fundamentally cannot replace real-world demonstrations for robotics training (an open research question), that Human Archive's custom hardware produces meaningfully better data than Scale AI's distributed contractors (plausible but unproven), and that frontier labs will buy rather than build this capability (unlikely at scale). If all three hold, the company's accumulated dataset could become a reference standard for the humanoid robotics revolution, and the India-based operations provide a durable cost advantage. The $38B humanoid robotics market projection gives you the narrative ceiling. But I've seen this movie before -- Birchbox had a narrative about reinventing product discovery, and the structural moat question was left unasked. Here, the structural moat question has a clear answer: there isn't one. No network effects, no protocol position, a tiny buyer set with massive leverage, and an incumbent that can outscale you on day one.
+
+This is an application-layer data services business in a consensus market, dependent on AI demand, facing incumbent competition from a $29B company, with no proven moat and no revenue signal. I pass.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| "Sane Person, Insane Idea" Calibration | 8/30 |
+| AI-Resistant Structural Moat | 6/25 |
+| New Primitive or Protocol Position | 4/20 |
+| Narrative Magnitude and Infinity Optionality | 6/15 |
+| Real Revenue or Asset Cushion | 2/10 |
+| **Total** | **26/100** |
+
+**Total Score: 26/100** (Strong Pass)

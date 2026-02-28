@@ -1,0 +1,24 @@
+﻿# Autumn AI -- Sam Lessin Evaluation
+
+This is the platonic ideal of the company I pass on. "Stalk your prospects at scale" using AI to monitor public web signals for sales teams — this is not a startup, it's a feature. And it's a feature that Clay, 6sense, Common Room, and Unify have already built or are building with a combined $900 million in funding behind them. The first question I always ask is: would this business be good if AI didn't exist? The answer here isn't just no — the business literally cannot exist without AI. The entire value proposition is using language models to parse public sources and surface intent signals. That's the definition of a capability that gets commoditized every time OpenAI ships a new model. When the core technology gets 10x cheaper every eighteen months and the data sources are all public, what exactly is the moat? I don't see one, and the dossier confirms it: "No defensibility signals found in public sources at this stage."
+
+The founders are clearly sharp — Vishnu's ISEF grand award, Shiv's NeurIPS paper and SandboxAQ residency, both at Columbia — but this is a sane person with an aggressively sane idea, which is the combination my framework likes least. "AI for sales intelligence" is one of the most consensus categories in B2B right now. Every VC in San Francisco has seen twenty of these in the last year. When the idea doesn't provoke genuine skepticism from other investors — when it instead provokes recognition because they've already funded the competitor — the non-consensus premium has been completely arbitraged away. Vishnu's experience building sourcing technology at Sierra Ventures is relevant and gives him genuine domain intuition about what signals matter, but domain-relevant experience in a crowded consensus market just means you'll build a slightly better version of something five other companies are already shipping.
+
+The competitive dynamics here are brutal in a specific structural way that I think most investors underweight. Clay at $3.1 billion and approaching $100 million in revenue has already established itself as the GTM data layer — and Clay's whole model is composable data enrichment, of which signal monitoring is one module. Unify is building signal-based outbound with 25+ signal types and built-in sequencing. 6sense has $200 million in ARR and can add any public-signal monitoring it wants as a feature within an existing $50K+ enterprise contract. These aren't hypothetical competitive threats — they're companies with distribution, capital, and existing customer relationships that make Autumn AI's narrow signal-detection wedge look like a module waiting to be absorbed. The founders' differentiation argument — first-party public signals versus cooperative third-party intent data — is a real distinction, but it's a feature-level distinction, not a structural one.
+
+The strongest bull case would require believing that Autumn AI can become a signal primitive — an infrastructure layer that other GTM tools plug into, the way Twilio became the messaging primitive. If the founders built a proprietary signal index with scoring models that improved with usage, creating genuine data network effects, you could squint and see a protocol-layer play. The signal corpus would need to become so comprehensive and accurately scored that it's cheaper for Clay and Unify to integrate Autumn AI's feed than to build their own scrapers. That's a real business. But nothing in the dossier suggests the founders are thinking this way — the product is delivering notifications via Slack and email, not providing an API that other platforms build on. The "Book a Call" CTA and founder-led sales motion signal a traditional SaaS application play, not infrastructure positioning. And even if they pivoted toward the primitive play, the underlying data is all public — there's no proprietary corpus to compound, just better parsing, which is exactly the capability LLMs commoditize fastest.
+
+I'll note one final structural concern: both founders appear to be current undergraduates at Columbia with Shiv's expected graduation in 2026. Running a startup from YC while completing a CS degree is not impossible — plenty of founders have done it — but in a category this competitive, where execution speed against well-funded incumbents is the only path to survival, split attention is a meaningful risk. The category demands full-time, all-consuming operational intensity against teams with hundreds of engineers and millions in ARR. This is a feature race, and feature races favor the better-resourced combatant.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| "Sane Person, Insane Idea" Calibration | 8/30 |
+| AI-Resistant Structural Moat | 4/25 |
+| New Primitive or Protocol Position | 5/20 |
+| Narrative Magnitude and Infinity Optionality | 5/15 |
+| Real Revenue or Asset Cushion | 2/10 |
+| **Total** | **24/100** |
+
+**Total Score: 24/100** (Pass)

@@ -1,0 +1,70 @@
+{
+  "slug": "resonate",
+  "name": "Resonate",
+  "oneLiner": "The first AI-native messaging platform.",
+  "metadata": {
+    "website": "https://resonate.audio",
+    "yc_page": "https://www.ycombinator.com/companies/resonate",
+    "batch": "Winter 2026",
+    "industry": "Consumer / Consumer",
+    "team_size": "0",
+    "location": "No public data found",
+    "yc_partner": "Jared Friedman",
+    "emails": "sam@samkaplan.me (founder personal website)"
+  },
+  "tags": [],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 22,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 21,
+      "tier": "Strong Pass"
+    },
+    "vinod-khosla": {
+      "score": 27,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 27,
+    "EG": 29,
+    "NR": 31,
+    "PG": 33,
+    "PT": 22,
+    "SL": 21,
+    "VK": 27
+  },
+  "consolidatedAvg": 27.14,
+  "consolidatedRank": 174,
+  "paths": {
+    "memo": "winter2026/memos/resonate.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/resonate.md",
+      "elad-gil": "winter2026/evals/elad-gil/resonate.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/resonate.md",
+      "paul-graham": "winter2026/evals/paul-graham/resonate.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/resonate.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/resonate.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/resonate.md"
+    }
+  }
+}

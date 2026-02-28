@@ -1,0 +1,75 @@
+{
+  "slug": "mochacare",
+  "name": "MochaCare",
+  "oneLiner": "AI-powered scheduling and hiring service for home care agencies.",
+  "metadata": {
+    "website": "https://www.mochacare.com/",
+    "yc_page": "https://www.ycombinator.com/companies/mochacare",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Operations",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "AIOps, Healthcare, Home Services, Operations, AI"
+  },
+  "tags": [
+    "AIOps",
+    "Healthcare",
+    "Home Services",
+    "Operations",
+    "AI"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 32,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 44,
+    "EG": 40,
+    "NR": 32,
+    "PG": 47,
+    "PT": 29,
+    "SL": 35,
+    "VK": 32
+  },
+  "consolidatedAvg": 37,
+  "consolidatedRank": 101,
+  "paths": {
+    "memo": "winter2026/memos/mochacare.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/mochacare.md",
+      "elad-gil": "winter2026/evals/elad-gil/mochacare.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/mochacare.md",
+      "paul-graham": "winter2026/evals/paul-graham/mochacare.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/mochacare.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/mochacare.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/mochacare.md"
+    }
+  }
+}

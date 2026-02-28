@@ -1,0 +1,75 @@
+{
+  "slug": "human-archive",
+  "name": "Human Archive",
+  "oneLiner": "Multimodal data provider for robotics learning",
+  "metadata": {
+    "website": "https://www.humanarchive.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/human-archive",
+    "batch": "Winter 2026",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "Robotics, Data Labeling, AI",
+    "yc_partner": "Jared Friedman",
+    "emails": "team@humanarchive.ai (company website)"
+  },
+  "tags": [
+    "Robotics",
+    "Data Labeling",
+    "AI"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 23,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 26,
+      "tier": "Strong Pass"
+    },
+    "vinod-khosla": {
+      "score": 41,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 34,
+    "EG": 37,
+    "NR": 29,
+    "PG": 33,
+    "PT": 23,
+    "SL": 26,
+    "VK": 41
+  },
+  "consolidatedAvg": 31.86,
+  "consolidatedRank": 154,
+  "paths": {
+    "memo": "winter2026/memos/human-archive.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/human-archive.md",
+      "elad-gil": "winter2026/evals/elad-gil/human-archive.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/human-archive.md",
+      "paul-graham": "winter2026/evals/paul-graham/human-archive.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/human-archive.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/human-archive.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/human-archive.md"
+    }
+  }
+}

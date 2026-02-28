@@ -1,0 +1,1045 @@
+{
+  "personaName": "Naval Ravikant",
+  "subtitle": "Naval Ravikant's angel evaluation of 146 companies from Winter 2026. Evaluating through the lens of: founders with irreplaceable specific knowledge building permissionless leverage in enormous markets where the crowd is wrong -- because seed investing is elimination, not selection, and if you can't decide, the answer is no.",
+  "tiers": [
+    {
+      "tierName": "Tier 1: Strong Invest",
+      "count": 7,
+      "companies": [
+        {
+          "rank": 1,
+          "company": "Crosslayer Labs",
+          "why": "The founder authored the internet security standard protecting 8M certificates daily -- specific knowledge society literally cannot replicate, encoded into software leverage with the Stack Overflow playbook of free contribution becoming commercial moat.",
+          "oneLiner": "Cross-layer internet impersonation detection platform built by the researchers who invented the field.",
+          "slug": "crosslayer-labs"
+        },
+        {
+          "rank": 2,
+          "company": "Ditto Biosciences",
+          "why": "Three PhDs productizing millions of years of evolutionary R&D from parasite biology into drug candidates -- specific knowledge so rare I can count the capable teams on one hand, applied to a $125B+ market nobody else is mining.",
+          "oneLiner": "AI-driven drug discovery from parasite proteins for autoimmune diseases.",
+          "slug": "ditto-biosciences"
+        },
+        {
+          "rank": 3,
+          "company": "Squid",
+          "why": "George lived inside the broken grid at Octopus Energy and sold AI to utility buyers at AWS -- specific knowledge encoded into browser-native SaaS replacing 30-year-old desktop tools in a trillion-dollar forced-spend market.",
+          "oneLiner": "Browser-native grid planning platform replacing 30-year-old utility infrastructure tools.",
+          "slug": "squid"
+        },
+        {
+          "rank": 4,
+          "company": "Mendral",
+          "why": "Docker's first hire and lead architect spent a decade inside CI/CD infrastructure -- this is the Notion pattern where the product is an extension of the founders' obsession, with a data flywheel that compounds with every pipeline it touches.",
+          "oneLiner": "AI agent that auto-diagnoses and fixes CI/CD failures.",
+          "slug": "mendral"
+        },
+        {
+          "rank": 5,
+          "company": "GrazeMate",
+          "why": "Founder raised cattle since birth, published ML at 15, and is encoding irreplaceable specific knowledge into autonomous herding drones -- \"AI for cattle\" sounds niche the way \"illegal taxis\" sounded niche, and the data platform beneath the drones is the real compounding asset.",
+          "oneLiner": "AI-powered autonomous cattle mustering via drone swarms.",
+          "slug": "grazemate"
+        },
+        {
+          "rank": 6,
+          "company": "Zymbly",
+          "why": "25 years inside aviation MRO -- Airbus design, Virgin Atlantic maintenance, Oliver Wyman consulting -- productized into an AI copilot for a 690,000-technician shortage that makes every productivity tool existentially valuable.",
+          "oneLiner": "AI copilot for aircraft maintenance technicians with voice-first interface.",
+          "slug": "zymbly"
+        },
+        {
+          "rank": 7,
+          "company": "Valgo",
+          "why": "The founders literally wrote the textbook on algorithmic safety validation -- specific knowledge so deep it became the Stanford curriculum -- applied to every autonomous system that needs to prove it won't kill people.",
+          "oneLiner": "AI-powered safety validation for autonomous systems across aviation, vehicles, and defense.",
+          "slug": "valgo"
+        }
+      ]
+    },
+    {
+      "tierName": "Tier 2: Invest",
+      "count": 13,
+      "companies": [
+        {
+          "rank": 8,
+          "company": "Corelayer",
+          "why": "Two Goldman engineers building the debugging tool they wished existed at 3 AM -- specific knowledge forged through on-call pain, targeting a non-consensus wedge in regulated data infrastructure.",
+          "oneLiner": "AI agents for on-call debugging in regulated financial services data pipelines.",
+          "slug": "corelayer"
+        },
+        {
+          "rank": 9,
+          "company": "MouseCat",
+          "why": "MCP core maintainer plus Coinbase fraud ML architect encoding protocol-level expertise into a closed-loop investigation workflow nobody else ships -- the leverage compounds as the AI agent ecosystem grows.",
+          "oneLiner": "AI-powered fraud investigation platform closing the alert-to-production loop.",
+          "slug": "mousecat"
+        },
+        {
+          "rank": 10,
+          "company": "CodeWisp",
+          "why": "Elvin Fu has been making games since age ten, taught 20M people game development, became top-20 on Scratch out of 135M users -- the product is an extension of who he is, not what the market wants.",
+          "oneLiner": "AI-powered game creation platform democratizing game development.",
+          "slug": "codewisp"
+        },
+        {
+          "rank": 11,
+          "company": "10x Science",
+          "why": "Two scientists staring at mass spec data in a Nobel Laureate's lab for a decade, paired with a 2x YC engineer -- specific knowledge encoded into software leverage for a $5B+ market.",
+          "oneLiner": "AI-powered protein characterization software for biopharma.",
+          "slug": "10x-science"
+        },
+        {
+          "rank": 12,
+          "company": "RunAnywhere",
+          "why": "Clean leverage architecture -- open-source SDK with enterprise control plane, the HashiCorp playbook for on-device AI -- and 6.8K GitHub stars show real developer pull before the market fully materializes.",
+          "oneLiner": "Cross-platform on-device AI runtime with fleet management control plane.",
+          "slug": "runanywhere"
+        },
+        {
+          "rank": 13,
+          "company": "Pax Historia",
+          "why": "35K DAU with zero paid acquisition and a UGC preset marketplace creating creator-player network effects -- \"AI strategy game\" sounds trivial the way \"140-character posts\" sounded trivial, and that dismissal is the contrarian signal.",
+          "oneLiner": "AI-powered historical strategy simulation with user-generated scenarios.",
+          "slug": "pax-historia"
+        },
+        {
+          "rank": 14,
+          "company": "SpotPay",
+          "why": "Thomas was engineer #4 at Brex and built the exact financial plumbing this company needs -- scar-tissue knowledge you can't hire for -- and Zsika's Caribbean-LATAM lived experience gives the corridor bet authenticity.",
+          "oneLiner": "Stablecoin neobank for US-LATAM cross-border payments.",
+          "slug": "spotpay"
+        },
+        {
+          "rank": 15,
+          "company": "Constellation Space",
+          "why": "Kamran Majid built the anomaly detection tooling for Starlink's ground network -- he's not guessing about satellite constellation failures, he's lived them, and federated learning across operators creates real network effects.",
+          "oneLiner": "AI-powered satellite constellation management and predictive link optimization.",
+          "slug": "constellation-space"
+        },
+        {
+          "rank": 16,
+          "company": "Reframe",
+          "why": "Bryan lived inside Apple's overseas procurement machine and felt the pain of DFM cycles across time zones -- building the fix to his own suffering, with AI agent architecture as pure software leverage over massive procurement spend.",
+          "oneLiner": "AI agents automating hardware procurement and overseas supplier management.",
+          "slug": "usereframe"
+        },
+        {
+          "rank": 17,
+          "company": "Overshoot",
+          "why": "Seven years at Uber building latency-sensitive pricing systems is real specific knowledge applied to the modality gap between VLMs and real-time video -- sub-200ms inference, if durable, creates developer lock-in that compounds.",
+          "oneLiner": "Real-time image and video inference API for VLM applications.",
+          "slug": "overshoot"
+        },
+        {
+          "rank": 18,
+          "company": "Didit",
+          "why": "700+ B2B customers with 300%+ NRR and near-profitability on $2M raised shows capital efficiency I respect -- but identity verification is being commoditized, which caps the asymmetry even as the execution impresses.",
+          "oneLiner": "AI-powered identity verification with free-tier PLG wedge.",
+          "slug": "didit"
+        },
+        {
+          "rank": 19,
+          "company": "BeeSafe AI",
+          "why": "Three PhDs co-authored the foundational paper on trust-based scam engagement -- authentic specific knowledge applied to a real problem, though the enterprise go-to-market requires linear scaling that fights against the leverage I prefer.",
+          "oneLiner": "AI honeypot system that engages scammers to generate intelligence for financial institutions.",
+          "slug": "beesafe-ai"
+        },
+        {
+          "rank": 20,
+          "company": "Forum",
+          "why": "Owen Botkin's trading floor knowledge applied to creating \"attention as a derivative\" -- genuinely non-consensus, but the regulatory mountain and liquidity cold-start make this a bet on the founder's ability to will a new asset class into existence.",
+          "oneLiner": "Exchange for attention-based financial derivatives and cultural contracts.",
+          "slug": "forum"
+        }
+      ]
+    },
+    {
+      "tierName": "Tier 3: Neutral",
+      "count": 29,
+      "companies": [
+        {
+          "rank": 21,
+          "company": "Cascade",
+          "why": "BAIR-trained founders with a self-improving model for agent safety -- technically sound, but \"AI safety infrastructure\" is consensus positioning in a space where NVIDIA just acquired the category leader.",
+          "oneLiner": "Runtime safety and observability platform for autonomous AI agents.",
+          "slug": "cascade"
+        },
+        {
+          "rank": 22,
+          "company": "Ishiki Labs",
+          "why": "Genuine specific knowledge from building ambient AI inside Meta Reality Labs, but Google, Meta, and OpenAI are stomping through this exact space -- strong founders without a contrarian edge.",
+          "oneLiner": "Ambient multimodal AI layer for wearables and voice assistants.",
+          "slug": "ishiki-labs"
+        },
+        {
+          "rank": 23,
+          "company": "Chasi",
+          "why": "Akash Pavan's years deploying AI into Cummins and Harley-Davidson gave him the language of equipment buyers -- real founder-market fit, but the niche constrains pivot room.",
+          "oneLiner": "AI-powered engagement layer for heavy equipment dealers.",
+          "slug": "chasi"
+        },
+        {
+          "rank": 24,
+          "company": "Laurence",
+          "why": "Jump Trading quant plus Google data scientist applying real specific knowledge to Amazon ad optimization -- leverage is clean but market is consensus and platform-dependent.",
+          "oneLiner": "AI-powered Amazon advertising optimization using quantitative finance methods.",
+          "slug": "laurence"
+        },
+        {
+          "rank": 25,
+          "company": "Kita",
+          "why": "Founder's lived experience in Philippine financial systems is authentic specific knowledge and the VLM-for-documents approach has a data flywheel -- but emerging market fintech is well-mapped territory.",
+          "oneLiner": "Document intelligence API for emerging market lending.",
+          "slug": "kita"
+        },
+        {
+          "rank": 26,
+          "company": "REV1",
+          "why": "Alex lived the drawing-generation pain at Tesla and Apple -- specific knowledge is authentic -- but the market is a narrow post-CAD workflow, not the enormous space where pivots survive.",
+          "oneLiner": "AI-automated manufacturing drawings and GD&T from 3D CAD models.",
+          "slug": "rev1"
+        },
+        {
+          "rank": 27,
+          "company": "Samora AI",
+          "why": "Kartik's blindness gave him irreplaceable specific knowledge about voice interfaces that sighted founders cannot possess -- the \"productize yourself\" signal is real -- but voice AI agents is the hottest consensus category of 2026.",
+          "oneLiner": "Multilingual AI voice agents for call center automation in emerging markets.",
+          "slug": "samora-ai"
+        },
+        {
+          "rank": 28,
+          "company": "AutoSitu",
+          "why": "Lin's Harvard GSD training and 20+ development projects give real domain pain, but 30,000 jurisdictions with unique codes is a linear encoding problem masquerading as scalable software.",
+          "oneLiner": "AI-powered building plan review and permitting automation.",
+          "slug": "autositu"
+        },
+        {
+          "rank": 29,
+          "company": "FullSeam",
+          "why": "Prior exit to Opendoor proves this team can ship, scale, and sell -- but \"AI agent for finance\" is the most consensus idea in enterprise software and I can't find the non-consensus angle.",
+          "oneLiner": "AI agents automating contract-to-cash finance workflows.",
+          "slug": "fullseam"
+        },
+        {
+          "rank": 30,
+          "company": "General Legal",
+          "why": "Three Casetext veterans with dual fluency in code and law is rare specific knowledge, but a law firm with 10x AI leverage is still a law firm -- the ceiling is bounded by bar-admitted humans.",
+          "oneLiner": "AI-native law firm for startup commercial contracts.",
+          "slug": "general-legal"
+        },
+        {
+          "rank": 31,
+          "company": "LegalOS",
+          "why": "Forty years of family immigration practice is strong specific knowledge, but the business model is linear per-case revenue without network effects, and AI-for-legal is firmly consensus.",
+          "oneLiner": "AI-powered immigration law firm built on 12,000-petition dataset.",
+          "slug": "legalos"
+        },
+        {
+          "rank": 32,
+          "company": "Rhizome AI",
+          "why": "Six-figure revenue with 20+ customers as a solo founder shows Chetan can sell, and regulatory data compounds -- but I can't find the network effect and the Veeva elephant could roll over.",
+          "oneLiner": "AI-powered regulatory intelligence platform for pharma submissions.",
+          "slug": "rhizome-ai"
+        },
+        {
+          "rank": 33,
+          "company": "Salus",
+          "why": "Runtime interception of agent tool calls is the right technical insight and 58% recovery rate is compelling -- but Datadog's 7,000 employees can ship \"good enough\" as a feature.",
+          "oneLiner": "Guardian agents providing runtime safety validation for AI agent deployments.",
+          "slug": "salus"
+        },
+        {
+          "rank": 34,
+          "company": "Robby",
+          "why": "HBS dropouts signal conviction and the technician upsell data is a genuine insight, but building on ServiceTitan's platform is permission-based leverage -- the opposite of code that works while you sleep.",
+          "oneLiner": "AI revenue intelligence for home service technicians on ServiceTitan.",
+          "slug": "robby"
+        },
+        {
+          "rank": 35,
+          "company": "Cumulus Labs",
+          "why": "Suryaa's TensorDock experience gives real scar tissue on GPU scheduling, but this is a consensus bet in the most capital-intensive race in tech -- CoreWeave has $2.3B and the same thesis.",
+          "oneLiner": "Distributed GPU cloud with predictive scheduling and live migration.",
+          "slug": "cumulus-labs"
+        },
+        {
+          "rank": 36,
+          "company": "Opalite Health",
+          "why": "Physician-founder scarred by a mistranslation harming her own mother -- that's real -- but a $330M market with Google closing in on multilingual speech is too narrow for asymmetric payoffs.",
+          "oneLiner": "AI-powered real-time medical interpretation for clinical settings.",
+          "slug": "opalite-health"
+        },
+        {
+          "rank": 37,
+          "company": "Martini",
+          "why": "Cannes-screened cinematographer who codes is genuine \"productize yourself\" energy, but a workflow layer over third-party video models is borrowed leverage -- Adobe and Runway can absorb the professional controls.",
+          "oneLiner": "AI video production platform for professional filmmakers.",
+          "slug": "martini"
+        },
+        {
+          "rank": 38,
+          "company": "Maven",
+          "why": "Clean API leverage for voice AI payments and genuinely non-consensus positioning -- but I can't find the founder obsession signal, and the market needs to materialize first.",
+          "oneLiner": "Payments API for AI voice agent transactions.",
+          "slug": "maven"
+        },
+        {
+          "rank": 39,
+          "company": "Panta",
+          "why": "Google's NotebookLM architect plus a top Rust contributor is a strong builder pair, but neither has touched insurance -- analytical insight isn't the same as obsessive specific knowledge.",
+          "oneLiner": "AI-powered commercial insurance brokerage with software economics.",
+          "slug": "panta"
+        },
+        {
+          "rank": 40,
+          "company": "Compresr",
+          "why": "The abstractive compression research is technically sound, but token prices falling 10x annually means the core value proposition has a built-in expiration date.",
+          "oneLiner": "AI-powered LLM context compression reducing API costs.",
+          "slug": "compresr"
+        },
+        {
+          "rank": 41,
+          "company": "Seeing Systems",
+          "why": "Brothers building military drones with real embedded systems knowledge and battlefield feedback from Ukraine -- but hardware scales linearly and the capital disadvantage against Anduril is four orders of magnitude.",
+          "oneLiner": "Modular autonomous drone systems for frontline military operations.",
+          "slug": "seeing-systems"
+        },
+        {
+          "rank": 42,
+          "company": "VOYGR",
+          "why": "Vlad's Google Maps insider knowledge is authentic -- he saw the Places API failures firsthand -- but building a better version of something Google already owns isn't non-consensus, it's a feature improvement.",
+          "oneLiner": "AI-powered place data API with real-time validation for developers.",
+          "slug": "voygr"
+        },
+        {
+          "rank": 43,
+          "company": "Wayco",
+          "why": "The raw founder signal is extraordinary -- UN acquisition at 14, presidential medal at 16, from Tajikistan -- but a 19-year-old entering US personal injury law needs a domain co-founder.",
+          "oneLiner": "AI-powered legal referral marketplace for personal injury attorneys.",
+          "slug": "wayco"
+        },
+        {
+          "rank": 44,
+          "company": "ZeroSettle",
+          "why": "Ex-Apple OS engineers who know StoreKit internals have real institutional knowledge and the Epic v. Apple ruling creates a market moment -- but RevenueCat and Stripe are already there with 100x the distribution.",
+          "oneLiner": "SDK enabling iOS developers to bypass App Store payment commissions.",
+          "slug": "zerosettle"
+        },
+        {
+          "rank": 45,
+          "company": "Orthogonal",
+          "why": "Vercel billing engineer building agent-native payment infrastructure is founder-product fit, but x402 and Coinbase are commoditizing the payment layer while competitors have 850 connectors to their 12.",
+          "oneLiner": "Payment and discovery gateway for AI agent API consumption.",
+          "slug": "orthogonal"
+        },
+        {
+          "rank": 46,
+          "company": "Chamber",
+          "why": "Four ex-Amazon engineers productizing their employer's playbook -- knowledge is real but replicable, and NVIDIA open-sourcing Run:ai tells you the platform layer is commoditizing.",
+          "oneLiner": "Autonomous GPU infrastructure optimization for enterprise AI clusters.",
+          "slug": "chamber"
+        },
+        {
+          "rank": 47,
+          "company": "Voltair",
+          "why": "Self-charging clamp is genuinely novel engineering and Gosch's utility experience is real -- but four cofounders at pre-seed and hardware-intensive service delivery without software compounding.",
+          "oneLiner": "Self-charging drones for autonomous power line inspection.",
+          "slug": "voltair"
+        },
+        {
+          "rank": 48,
+          "company": "Hlabs",
+          "why": "Solo hardware founder with 40 paying teams is a real signal, but \"npm for robot arms\" requires manufacturing leverage one person can't build -- hardware economics fight against compounding.",
+          "oneLiner": "Modular robotics hardware components with open-source software stack.",
+          "slug": "hlabs"
+        },
+        {
+          "rank": 49,
+          "company": "Inviscid AI",
+          "why": "Deep physics expertise in CFD simulation but no evidence of building-domain obsession -- a technology looking for a market, not a founder's pain encoded into a product.",
+          "oneLiner": "Real-time computational fluid dynamics digital twins for buildings.",
+          "slug": "inviscid-ai"
+        }
+      ]
+    },
+    {
+      "tierName": "Tier 4: Pass",
+      "count": 62,
+      "companies": [
+        {
+          "rank": 50,
+          "company": "Arcline",
+          "why": "Pamir's legal domain experience is real, but a services business with an AI layer in Harvey's $8B consensus category is chasing a market where the risk/reward is already destroyed.",
+          "oneLiner": "AI-augmented legal marketplace for startup legal services.",
+          "slug": "arcline"
+        },
+        {
+          "rank": 51,
+          "company": "Balance",
+          "why": "Four cofounders assembled around an opportunity rather than an obsession in AI accounting, with five well-funded competitors plus three YC peers -- maximally consensus.",
+          "oneLiner": "AI-powered hybrid accounting for SMBs.",
+          "slug": "getbalance"
+        },
+        {
+          "rank": 52,
+          "company": "Grade",
+          "why": "Lotanna's creator payment knowledge is real but XPO failed solving the same problem -- \"do it again with a better co-founder\" isn't structural insight.",
+          "oneLiner": "Unified creator payment platform for agencies and brands.",
+          "slug": "grade"
+        },
+        {
+          "rank": 53,
+          "company": "Aurorin CAD",
+          "why": "Solo early-career founder attempting to build a geometry kernel from scratch -- the most ambitious technical undertaking in software -- without team depth or industry experience the decade-long slog demands.",
+          "oneLiner": "Next-generation CAD with native AI and custom geometry kernel.",
+          "slug": "aurorin-cad"
+        },
+        {
+          "rank": 54,
+          "company": "Axis",
+          "why": "Quantitative trading knowledge doesn't transfer to physical commodities -- contango structures, freight optionality, and sanctions regimes require years inside a trading house.",
+          "oneLiner": "AI-powered analytics platform for institutional commodity trading.",
+          "slug": "axis-2"
+        },
+        {
+          "rank": 55,
+          "company": "BaseFrame",
+          "why": "Two Berkeley engineers identified a real problem in hardware design but lack the specific knowledge of someone who spent years cursing at BOM spreadsheets at 2 AM.",
+          "oneLiner": "AI-powered pre-design scoping and validation for hardware engineering teams.",
+          "slug": "baseframe"
+        },
+        {
+          "rank": 56,
+          "company": "Autumn AI",
+          "why": "Signal-based selling with 6sense at $5.2B -- maximum consensus in a well-understood category where the edge is execution speed against incumbents, not insight.",
+          "oneLiner": "AI-powered real-time sales signal aggregation and prospecting.",
+          "slug": "autumn-ai"
+        },
+        {
+          "rank": 57,
+          "company": "Beacon Health",
+          "why": "Competent founders in value-based care without the deep domain knowledge of someone who's lived inside risk adjustment coding.",
+          "oneLiner": "AI agents for value-based primary care workflow automation.",
+          "slug": "beacon-health"
+        },
+        {
+          "rank": 58,
+          "company": "Booko",
+          "why": "Arjun knows dynamic pricing from Uber Elevate, but airlines have thousands of seats generating dense signals while a nail salon has 30 appointments -- the analogy breaks at unit economics.",
+          "oneLiner": "Dynamic pricing optimization for appointment-based service businesses.",
+          "slug": "booko"
+        },
+        {
+          "rank": 59,
+          "company": "Corvera",
+          "why": "Chris Kong knows CPG pain firsthand, but the market is consensus, distribution is linear, and each customer is a snowflake of operational idiosyncrasy.",
+          "oneLiner": "AI-powered supply chain automation for CPG brands.",
+          "slug": "corvera"
+        },
+        {
+          "rank": 60,
+          "company": "Bidflow",
+          "why": "USACO Platinum founders pivoted into electrical estimating months ago -- learning the domain through conversations, not through lived experience that builds irreplaceable knowledge.",
+          "oneLiner": "AI-powered electrical estimating software for data center construction.",
+          "slug": "bidflow"
+        },
+        {
+          "rank": 61,
+          "company": "Cardboard",
+          "why": "Strong builders in a browser NLE, but AI video editing with $1.2B in competitive funding and the AI layer rented from Anthropic's API is the definition of consensus.",
+          "oneLiner": "AI-native browser-based video editor for content creators.",
+          "slug": "cardboard"
+        },
+        {
+          "rank": 62,
+          "company": "1code (21st.dev)",
+          "why": "Nine products in ten months is smart opportunists scanning for fit, not founders obsessed with one problem -- and a UI wrapper on Claude Code is a feature gap Anthropic is already closing.",
+          "oneLiner": "Visual orchestration layer and GUI for AI coding agents.",
+          "slug": "1code-21stdev"
+        },
+        {
+          "rank": 63,
+          "company": "Bubble Lab",
+          "why": "Pivoted from nutrition tracking to workflow automation -- pattern-matching, not passion-product fit -- in a market where Zapier is at $5B and n8n just raised $240M.",
+          "oneLiner": "TypeScript-native workflow automation with AI code generation.",
+          "slug": "bubble-lab"
+        },
+        {
+          "rank": 64,
+          "company": "Button Computer",
+          "why": "Apple hardware pedigree applied to a Bluetooth microphone that calls an API -- the specific knowledge doesn't match the product, and Amazon and Meta are acquiring this category.",
+          "oneLiner": "Press-to-talk AI wearable with privacy-first design.",
+          "slug": "button-computer"
+        },
+        {
+          "rank": 65,
+          "company": "CatchBack Cards",
+          "why": "Crypto verification of mystery pack fairness is clever, but the guaranteed buyback is a balance sheet liability -- a trading desk disguised as a platform, not permissionless leverage.",
+          "oneLiner": "Cryptographically verified collectible card marketplace with guaranteed buyback.",
+          "slug": "catchback-cards"
+        },
+        {
+          "rank": 66,
+          "company": "Crow",
+          "why": "\"Embed an AI copilot in your SaaS app\" is what every product manager is already thinking -- consensus positioning being absorbed by Amplitude and Intercom.",
+          "oneLiner": "Embeddable AI copilot widget for SaaS applications.",
+          "slug": "crow"
+        },
+        {
+          "rank": 67,
+          "company": "Condor Energy",
+          "why": "Florian's power markets knowledge is real but not rare enough -- and \"AI for energy\" is consensus with GridBeyond at €52M.",
+          "oneLiner": "AI-powered electricity procurement optimization for large consumers.",
+          "slug": "condor-energy"
+        },
+        {
+          "rank": 68,
+          "company": "EigenPal",
+          "why": "The \"evaluation-first\" insight is one spike, but document processing is a services business wearing software clothing in a space with $300M+ in competitor funding.",
+          "oneLiner": "AI-powered intelligent document processing with built-in evaluation frameworks.",
+          "slug": "eigenpal"
+        },
+        {
+          "rank": 69,
+          "company": "Fed10",
+          "why": "Authentic specific knowledge in legislative mechanics, but the market is a niche within a $1.6B advocacy software market -- not enough room to pivot.",
+          "oneLiner": "AI-powered legislative intelligence and policy monitoring platform.",
+          "slug": "fed10"
+        },
+        {
+          "rank": 70,
+          "company": "Fort",
+          "why": "Tesla/SpaceX hardware DNA applied to consumer fitness -- exceptional manufacturing knowledge, but every unit requires atoms, no network effects, and Whoop can add strength tracking via firmware.",
+          "oneLiner": "Wearable strength training tracker with magnetic equipment attachment.",
+          "slug": "fort"
+        },
+        {
+          "rank": 71,
+          "company": "Jinba",
+          "why": "Japan-specific enterprise distribution knowledge is genuine but specific knowledge about sales, not product -- \"describe a workflow in natural language\" is a feature every platform ships.",
+          "oneLiner": "AI workflow automation for Japanese and global enterprises.",
+          "slug": "jinba"
+        },
+        {
+          "rank": 72,
+          "company": "Hex Security",
+          "why": "Capable engineers applying AI to cybersecurity without offensive-security specific knowledge (CVEs, zero-days, DEF CON talks) that would give an edge against $178M+ competitors.",
+          "oneLiner": "Autonomous AI-powered penetration testing platform.",
+          "slug": "hex-security"
+        },
+        {
+          "rank": 73,
+          "company": "Human Archive",
+          "why": "Smart team identifying the right bottleneck (robotics training data) but building a labor-intensive collection operation -- services business with a data wrapper in a consensus space.",
+          "oneLiner": "Physical-world training data collection for robotics AI.",
+          "slug": "human-archive"
+        },
+        {
+          "rank": 74,
+          "company": "Lance",
+          "why": "Three founders from Google/Stanford/Berkeley building AI hotel agents without ever having managed a front desk -- the leverage requires linear integration work.",
+          "oneLiner": "AI voice and messaging agents for hotel operations.",
+          "slug": "lance"
+        },
+        {
+          "rank": 75,
+          "company": "Lucent",
+          "why": "Solo founder pivoted to AI session replay analysis -- the fourth YC company in three batches attacking the same space, layered on incumbents who control the data.",
+          "oneLiner": "AI-powered bug detection from session replay analysis.",
+          "slug": "lucent"
+        },
+        {
+          "rank": 76,
+          "company": "Haladir",
+          "why": "College freshmen attacking COBOL modernization against IBM, AWS, and Mechanical Orchard ($84M) -- formal verification is one spike, but enterprise mainframe sales requires specific knowledge they don't yet have.",
+          "oneLiner": "Formally verified COBOL-to-modern-language code translation.",
+          "slug": "haladir"
+        },
+        {
+          "rank": 77,
+          "company": "Luel",
+          "why": "Data collection knowledge is real but the business is a services marketplace with linear scaling -- Scale AI needed $15.9B to reach its position.",
+          "oneLiner": "Rights-cleared training data marketplace for AI labs.",
+          "slug": "luel"
+        },
+        {
+          "rank": 78,
+          "company": "Maywood",
+          "why": "Blackstone analyst pain is universal, not specific -- Hebbia ($161M) and Datasite have already staked the consensus AI-for-banking position.",
+          "oneLiner": "AI-powered document generation for investment banking.",
+          "slug": "maywood"
+        },
+        {
+          "rank": 79,
+          "company": "Lexius",
+          "why": "Computer vision for retail theft with 12x ROI, but Veesion has three years, €53M, and 4,000+ stores -- better mousetrap without network effects.",
+          "oneLiner": "AI behavioral analysis for retail loss prevention.",
+          "slug": "lexius"
+        },
+        {
+          "rank": 80,
+          "company": "Moda",
+          "why": "Competent Waterloo engineers building AI observability after a pivot -- LangSmith at $260M and Arize at $131M make this a consensus race where data flywheel belongs to incumbents.",
+          "oneLiner": "Conversation analytics and debugging platform for AI agents.",
+          "slug": "moda"
+        },
+        {
+          "rank": 81,
+          "company": "Mantis Biotechnology",
+          "why": "Interesting founder arc, but forward-deployed engineers for each customer is consulting, not leverage, and Medidata powers 72% of FDA approvals.",
+          "oneLiner": "Domain-aware clinical data platform for trials and digital twins.",
+          "slug": "mantis-biotechnology"
+        },
+        {
+          "rank": 82,
+          "company": "Kyten Technologies",
+          "why": "SpaceX battery veterans with genuine specific knowledge, but atoms not bits -- every unit costs real dollars, no software leverage, no network effects, defense procurement in years.",
+          "oneLiner": "Rapid custom aerospace battery pack manufacturing.",
+          "slug": "kyten-technologies"
+        },
+        {
+          "rank": 83,
+          "company": "Librar Labs",
+          "why": "Founder lived the librarian's pain and built impressive Swedish traction, but library management is a $0.7-2.3B niche with no room to pivot.",
+          "oneLiner": "AI-powered library management with computer vision shelf scanning.",
+          "slug": "librar-labs"
+        },
+        {
+          "rank": 84,
+          "company": "Oximy",
+          "why": "Solo founder building enterprise shadow AI governance without CISO-specific knowledge -- consensus opportunity where Reco ($85M) and Microsoft constrain the ceiling.",
+          "oneLiner": "AI usage monitoring and governance for enterprise security.",
+          "slug": "oximy"
+        },
+        {
+          "rank": 85,
+          "company": "Perfectly",
+          "why": "TikTok/Meta ML engineers applying recommendation systems to recruiting -- specific knowledge is about algorithms, not hiring, and Mercor at $10B plus six competitors make this consensus.",
+          "oneLiner": "AI-powered recruiting platform replacing staffing agencies.",
+          "slug": "perfectly"
+        },
+        {
+          "rank": 86,
+          "company": "Q2Q",
+          "why": "Authentic PE deal sourcing pain, but \"AI books you meetings\" is services automation without compounding leverage.",
+          "oneLiner": "AI-powered deal sourcing and outreach for PE firms.",
+          "slug": "q2q"
+        },
+        {
+          "rank": 87,
+          "company": "Pollinate",
+          "why": "Founders shadowed factory workers rather than living inside the domain -- acquired knowledge, not specific knowledge, in a market where 48 AI procurement startups raised nearly a billion.",
+          "oneLiner": "AI agents for supply chain purchase order automation.",
+          "slug": "pollinate"
+        },
+        {
+          "rank": 88,
+          "company": "RamAIn",
+          "why": "CMU ML research is real but pre-training CUAs on specific interfaces is the obvious next step every team arrives at -- consensus market, borrowed leverage from foundation models.",
+          "oneLiner": "Pre-trained computer-use AI agents for enterprise workflow automation.",
+          "slug": "ramain"
+        },
+        {
+          "rank": 89,
+          "company": "Synthetic Sciences",
+          "why": "Remarkable publication velocity at 18, but two teenagers entering a space where Google is building the same thing with infinite resources is consensus without the contrarian edge.",
+          "oneLiner": "AI co-scientist platform with reinforcement learning for scientific research.",
+          "slug": "synthetic-sciences"
+        },
+        {
+          "rank": 90,
+          "company": "RoboDock",
+          "why": "Exceptional specific knowledge -- Zipline drone charging, Amazon Astro -- deployed into hardware where Rocsys has $44M and an OEM consortium is setting standards without you.",
+          "oneLiner": "Robotic EV charging with fleet orchestration software for commercial depots.",
+          "slug": "robodock"
+        },
+        {
+          "rank": 91,
+          "company": "Remy AI",
+          "why": "Oxford CV research is genuine depth, but neither founder has warehouse-native knowledge, and robotics without network effects means each deployment is independent.",
+          "oneLiner": "AI-powered robotic arms for brownfield warehouse automation.",
+          "slug": "remy-ai"
+        },
+        {
+          "rank": 92,
+          "company": "Ressl AI",
+          "why": "Salesforce consulting market is real but Salesforce shipped Agentforce to 12,000 customers -- when the platform vendor builds your product, \"we're better\" is a feature argument.",
+          "oneLiner": "AI agents automating Salesforce administration and migration.",
+          "slug": "ressl-ai"
+        },
+        {
+          "rank": 93,
+          "company": "Ritivel",
+          "why": "Microsoft Research pedigree and NLP chops, but regulatory document generation is consensus-hot with Weave Bio at $36M and Certara at $406M revenue -- no contrarian insight.",
+          "oneLiner": "AI platform automating pharmaceutical regulatory document assembly.",
+          "slug": "ritivel"
+        },
+        {
+          "rank": 94,
+          "company": "Cardinal",
+          "why": "Two pivots in two years shows adaptability but reveals founders still searching for the obsession that makes building feel like play rather than market analysis.",
+          "oneLiner": "AI-powered forward-deployed outbound sales automation.",
+          "slug": "trycardinal-ai"
+        },
+        {
+          "rank": 95,
+          "company": "Scout Out",
+          "why": "Fourth-generation construction family gives real domain knowledge, but AI estimating is crowded and the solo founder faces brutal SMB unit economics at $119/month.",
+          "oneLiner": "AI construction estimating with permit-based lead generation.",
+          "slug": "scout-out"
+        },
+        {
+          "rank": 96,
+          "company": "Ruma Care",
+          "why": "Smart operators from Uber and Apple tackling real PA pain, but the biologics niche is too narrow against Cohere Health's $200M -- linear clinic-by-clinic growth.",
+          "oneLiner": "AI-powered prior authorization for biologics infusion clinics.",
+          "slug": "ruma-care"
+        },
+        {
+          "rank": 97,
+          "company": "Verdex",
+          "why": "Two recent Dartmouth grads with no agriculture, insurance, or satellite background -- credentials without domain obsession where EOSDA already has $18M revenue.",
+          "oneLiner": "AI satellite imagery analysis for crop insurance verification.",
+          "slug": "verdex"
+        },
+        {
+          "rank": 98,
+          "company": "Unisson",
+          "why": "Capable AI engineers building customer success agents, but specific knowledge is about building agents, not being the customer.",
+          "oneLiner": "AI agents that learn B2B software products to automate customer success.",
+          "slug": "unisson"
+        },
+        {
+          "rank": 99,
+          "company": "Skillsync",
+          "why": "Authentic Juspay origin story, but GitHub-only sourcing is a narrow data source without network effects -- LinkedIn or GitHub itself could build this as a feature.",
+          "oneLiner": "AI-powered developer sourcing through deep GitHub code analysis.",
+          "slug": "skillsync"
+        },
+        {
+          "rank": 100,
+          "company": "Sentrial",
+          "why": "Consensus problem, consensus market -- AI agent monitoring is what everyone sees, and Datadog will ship \"good enough\" semantic detection first.",
+          "oneLiner": "Semantic failure detection and monitoring for AI agents in production.",
+          "slug": "sentrial"
+        },
+        {
+          "rank": 101,
+          "company": "Sonarly",
+          "why": "Meoria proved they can ship consumer products, but observability requires deep SRE scar tissue they don't have, and Resolve AI at $1B already owns this narrative.",
+          "oneLiner": "AI-powered production monitoring that packages context for coding agents.",
+          "slug": "sonarly"
+        },
+        {
+          "rank": 102,
+          "company": "Vela",
+          "why": "Clean scheduling AI with elegant \"just CC Vela\" interface, but no founder-specific knowledge about scheduling and Google Gemini inside Calendar means the incumbent absorbs this as a feature.",
+          "oneLiner": "AI scheduling agent that handles multi-channel coordination via email CC.",
+          "slug": "vela"
+        },
+        {
+          "rank": 103,
+          "company": "Velum Labs",
+          "why": "Intellectually sophisticated ontology approach to data access control, but two recent grads selling to CISOs through 12-month procurement cycles against Skyflow's $100M.",
+          "oneLiner": "Context-aware data firewall for enterprise AI pipelines.",
+          "slug": "velum-labs"
+        },
+        {
+          "rank": 104,
+          "company": "Sparkles",
+          "why": "Solo 20-year-old building \"Lovable for existing codebases\" -- a feature GitHub Spark can ship as a checkbox, no specific knowledge, no contrarian positioning.",
+          "oneLiner": "AI tool letting non-technical teammates edit existing React codebases.",
+          "slug": "sparkles"
+        },
+        {
+          "rank": 105,
+          "company": "Stilta",
+          "why": "Four McKinsey consultants building \"Cursor for patents\" without having prosecuted a single patent -- specific knowledge points to enterprise AI deployment, not patent law.",
+          "oneLiner": "End-to-end AI workspace for patent prosecution and IP management.",
+          "slug": "stilta"
+        },
+        {
+          "rank": 106,
+          "company": "ARC Prize Foundation",
+          "why": "Chollet's specific knowledge is almost impossible to replicate and the work matters -- but this is a 501(c)(3) with no revenue model, no leverage architecture, and 0x upside for an angel.",
+          "oneLiner": "Nonprofit benchmark organization measuring artificial general intelligence progress.",
+          "slug": "arc-prize-foundation"
+        },
+        {
+          "rank": 107,
+          "company": "Byteport",
+          "why": "Solo 18-year-old with impressive intelligence but unverifiable technical claims in a consensus market where Signiant has $42.5M ARR and IBM has Aspera embedded.",
+          "oneLiner": "High-performance file transfer protocol for media and enterprise.",
+          "slug": "byteport"
+        }
+      ]
+    },
+    {
+      "tierName": "Tier 5: Strong Pass",
+      "count": 35,
+      "companies": [
+        {
+          "rank": 108,
+          "company": "Fenrock AI",
+          "why": "Serial entrepreneur with zero AML domain knowledge chasing the hottest consensus space in fintech -- Bretton AI just raised $75M doing the exact same thing with actual compliance customers.",
+          "oneLiner": "AI agents for financial crime compliance and AML investigation.",
+          "slug": "fenrock-ai-yc-w26"
+        },
+        {
+          "rank": 109,
+          "company": "Burt",
+          "why": "Two web engineers entering ML fine-tuning against the PyTorch founding team at Fireworks ($331M) -- concierge engagements with no leverage in a category being consolidated by billion-dollar acquirers.",
+          "oneLiner": "Concierge LLM fine-tuning service for enterprise cost optimization.",
+          "slug": "burt"
+        },
+        {
+          "rank": 110,
+          "company": "Avoice",
+          "why": "Building \"the AI workspace for architects\" without having been architects -- no specific knowledge, no domain obsession, and Autodesk can bolt AI into Revit overnight.",
+          "oneLiner": "AI-powered practice workflow automation for architecture firms.",
+          "slug": "avoice"
+        },
+        {
+          "rank": 111,
+          "company": "Arzule",
+          "why": "Neither founder has worked in B2B partnerships or alliances -- building a tool for a workflow they've observed from outside in a market that's a feature, not a company.",
+          "oneLiner": "AI-powered partnership intelligence and discovery platform.",
+          "slug": "arzule"
+        },
+        {
+          "rank": 112,
+          "company": "DAIVIN!",
+          "why": "Solo 23-year-old building safety-critical underwater breathing hardware for military procurement -- atoms without bits, defense timelines without capital, no co-founder for the decade-long slog.",
+          "oneLiner": "Electrolysis-based underwater breathing system for military diving.",
+          "slug": "daivin"
+        },
+        {
+          "rank": 113,
+          "company": "Beyond Reach Labs",
+          "why": "Specific knowledge without leverage -- every unit requires manufacturing and qualification, defense sales in years, and the market depends on orbital datacenters materializing on schedule.",
+          "oneLiner": "Deployable space structures using origami-inspired mechanisms.",
+          "slug": "beyond-reach-labs"
+        },
+        {
+          "rank": 114,
+          "company": "DroneTector",
+          "why": "Three recent PhDs with a prototype competing against CHAOS Industries ($4.5B) and DroneShield ($3B) -- technically genuine but bringing a knife to a defense procurement gunfight.",
+          "oneLiner": "Millimetre-wave radar for nano drone detection.",
+          "slug": "dronetector"
+        },
+        {
+          "rank": 115,
+          "company": "Bits",
+          "why": "Managed hosting for a single open-source project controlled by someone else -- no specific knowledge, no network effects, seven competitors in the same week, DigitalOcean offers one-click deployment.",
+          "oneLiner": "Managed hosting platform for OpenClaw AI agents.",
+          "slug": "bits-2"
+        },
+        {
+          "rank": 116,
+          "company": "Caretta",
+          "why": "Three CS graduates building real-time sales AI without having carried a quota -- consensus idea in a firing squad where Gong has $584M and ZoomInfo paid $575M for Chorus.",
+          "oneLiner": "Real-time AI sales assistant with self-learning knowledge base.",
+          "slug": "caretta"
+        },
+        {
+          "rank": 117,
+          "company": "Emdash",
+          "why": "A thin orchestration layer being commoditized by GitHub, Google, and Anthropic -- 1.2k GitHub stars after YC is the sound of developers not pulling this product forward.",
+          "oneLiner": "Multi-agent orchestration tool for parallel AI coding workflows.",
+          "slug": "emdash"
+        },
+        {
+          "rank": 118,
+          "company": "Oxus",
+          "why": "MIT/D.E. Shaw credentials are what society CAN train for -- nobody on this team has sat inside an audit function, and AuditBoard's $3B+ acquisition means incumbents are well-capitalized.",
+          "oneLiner": "AI-powered internal audit workpaper generation.",
+          "slug": "oxus"
+        },
+        {
+          "rank": 119,
+          "company": "Polymath",
+          "why": "Two Berkeley engineers chasing consensus \"environments are the new data\" thesis against Scale AI ($13.8B) -- 3-5 frontier labs as entire buyer base is a client list, not a market.",
+          "oneLiner": "Automated RL training environment generation for frontier AI labs.",
+          "slug": "polymath"
+        },
+        {
+          "rank": 120,
+          "company": "Origin",
+          "why": "Sharp CS undergrads building synthetic regulatory DNA without wet-lab experience -- biology knowledge lives on the SAB, not the founding team, and Asimov ($209M) is solving the identical problem.",
+          "oneLiner": "AI-designed regulatory DNA sequences for gene therapy.",
+          "slug": "origin-bio"
+        },
+        {
+          "rank": 121,
+          "company": "Prana",
+          "why": "Biomedical AI research is genuine but primary care delivery requires operational knowledge these founders don't carry -- K Health ($439M) and Amazon One Medical ($3.9B) own the consensus position.",
+          "oneLiner": "AI-powered virtual primary care with continuous monitoring.",
+          "slug": "prana-health"
+        },
+        {
+          "rank": 122,
+          "company": "o11",
+          "why": "Smart builders who've never formatted a pitch deck at 2 AM selling \"Microsoft Copilot, But It Actually Works\" in Microsoft's own ecosystem -- when your platform provider is your competitor, you're on borrowed time.",
+          "oneLiner": "AI copilot for financial professionals across Microsoft Office.",
+          "slug": "o11"
+        },
+        {
+          "rank": 123,
+          "company": "OctaPulse",
+          "why": "CMU engineers passionate about oceans without hatchery-specific knowledge -- addressable niche is a fraction of the market, and Aquabyte ($45M) is one roadmap meeting away.",
+          "oneLiner": "AI-powered fish phenotyping and quality inspection for aquaculture.",
+          "slug": "octapulse"
+        },
+        {
+          "rank": 124,
+          "company": "Patientdesk.ai",
+          "why": "Dental marketing agency founders discovered a pain point through client work -- replicable knowledge in a category where three other YC companies and Weave/TrueLark signal consensus commoditization.",
+          "oneLiner": "AI receptionist and scheduling automation for dental practices.",
+          "slug": "patientdeskai"
+        },
+        {
+          "rank": 125,
+          "company": "Pocket",
+          "why": "Hardware wearable AI recorder in a category where Plaud has 1M+ devices and Amazon/Meta are acquiring -- no network effects, no moat, and the smartphone could absorb this in the next OS update.",
+          "oneLiner": "AI-powered wearable conversation recorder and assistant.",
+          "slug": "pocket"
+        },
+        {
+          "rank": 126,
+          "company": "GRU Space",
+          "why": "A lunar hotel requiring SpaceX Starship, NASA landers, new space law, and billions in capital -- the most capital-intensive, zero-leverage, externally-dependent bet imaginable.",
+          "oneLiner": "Lunar surface construction and tourism infrastructure.",
+          "slug": "galactic-resource-utilization-space-inc-gru-space"
+        },
+        {
+          "rank": 127,
+          "company": "Protent",
+          "why": "Two engineers entering consensus defense AI with hardware + SaaS against Anduril ($30.5B) -- no traction, no procurement relationships, no evidence of domain-specific knowledge.",
+          "oneLiner": "AI-powered defense sensing and edge intelligence platform.",
+          "slug": "protent"
+        },
+        {
+          "rank": 128,
+          "company": "Origami Robotics",
+          "why": "PhD-stage founder splitting attention with academia in a $1.5B+ competitive field -- clever glove-to-robot co-design but atoms not bits in a capital-intensive race against Physical Intelligence and Figure AI.",
+          "oneLiner": "Dexterous robotic manipulation via matched data-collection hardware.",
+          "slug": "origami-robotics"
+        },
+        {
+          "rank": 129,
+          "company": "Piris Labs",
+          "why": "World-class photonics PhD is genuine irreplaceable knowledge, but photonic chip fabrication requires hundreds of millions a YC check cannot provide -- Lightmatter ($850M) and Celestial AI ($3.25B) define the consensus.",
+          "oneLiner": "Photonic AI inference chips and full-stack inference service.",
+          "slug": "pirislabs"
+        },
+        {
+          "rank": 130,
+          "company": "Resonate",
+          "why": "Solo founder taking on WhatsApp and iMessage with \"messaging but with AI\" -- consensus thesis against incumbents with two billion users and no structural wedge for the cold-start problem.",
+          "oneLiner": "AI-native messaging platform reimagining personal communication.",
+          "slug": "resonate"
+        },
+        {
+          "rank": 131,
+          "company": "sitefire",
+          "why": "PhD in energy optimization building a marketing product -- specific knowledge points to a completely different domain, and Profound has $58.5M from Sequoia attacking GEO.",
+          "oneLiner": "AI platform for generative engine optimization and content visibility.",
+          "slug": "sitefire"
+        },
+        {
+          "rank": 132,
+          "company": "Shofo",
+          "why": "Scraping TikTok videos without licensing agreements is not contrarian, it's legally reckless -- and the leverage is linear (every video scraped costs compute), not compounding.",
+          "oneLiner": "Video data pipeline providing training datasets for AI labs.",
+          "slug": "shofo"
+        },
+        {
+          "rank": 133,
+          "company": "Strand AI",
+          "why": "Multimodal biology foundation models are the hottest thesis in biotech AI with Bioptimus at $76M and Insitro at $800M -- and the CEO's domain expertise is opaque when scientific credibility is the entire product.",
+          "oneLiner": "Cross-modal biological data imputation using foundation models.",
+          "slug": "strand-ai"
+        },
+        {
+          "rank": 134,
+          "company": "Voxel Energy",
+          "why": "Genuine specific knowledge from Maxwell Vehicles, but atoms not bits -- every site requires land, permitting, construction, and Crusoe Energy has $2.6B doing second-life battery microgrids at scale.",
+          "oneLiner": "Off-grid data center power using second-life EV batteries and solar.",
+          "slug": "voxel-energy"
+        },
+        {
+          "rank": 135,
+          "company": "Visibl Semiconductors",
+          "why": "AI for chip design is consensus-hot with Ricursive at $4B valuation while an early-career engineer with no tapeout-to-silicon track record faces a capital disadvantage of four orders of magnitude.",
+          "oneLiner": "Agentic AI platform for semiconductor design automation.",
+          "slug": "visibl-semiconductors"
+        },
+        {
+          "rank": 136,
+          "company": "Sequence Markets",
+          "why": "Institutional crypto execution where founders' specific knowledge is from internships and university clubs, competing against Talos ($1.5B backed by a16z, BNY, Fidelity) -- knife fight with no knife.",
+          "oneLiner": "AI-powered smart order routing for institutional crypto trading.",
+          "slug": "sequence-markets"
+        },
+        {
+          "rank": 137,
+          "company": "Veriad",
+          "why": "Consensus marketing compliance play with unverifiable traction claims against Norm AI's $140M -- core LLM capability is increasingly commoditized.",
+          "oneLiner": "AI-powered advertising compliance review against regulatory rules.",
+          "slug": "veriad"
+        },
+        {
+          "rank": 138,
+          "company": "SideKit",
+          "why": "Bundling feature flags, analytics, and version gating for indie iOS developers at $9-42/month is a hallway, not a market -- no network effects, no specific knowledge, Firebase does it for free.",
+          "oneLiner": "Lightweight SDK bundling analytics, feature flags, and versioning for indie mobile developers.",
+          "slug": "sidekit"
+        },
+        {
+          "rank": 139,
+          "company": "Servo7",
+          "why": "Three TU Delft roboticists entering warehouse robotics against Physical Intelligence ($600M), Figure AI ($39.5B), and Standard Bots ($63M) with $500K -- consensus market, linear hardware scaling.",
+          "oneLiner": "Learning-based wheeled humanoid robots for warehouse automation.",
+          "slug": "servo7"
+        },
+        {
+          "rank": 140,
+          "company": "Tensol",
+          "why": "Managed hosting layer on someone else's open-source framework -- if the framework is permissionless, so is your competition.",
+          "oneLiner": "AI employee platform built on open-source agent orchestration framework.",
+          "slug": "tensol"
+        },
+        {
+          "rank": 141,
+          "company": "Terminal Use",
+          "why": "Palantir-trained deployment knowledge is real but not irreplaceable -- \"Vercel for AI agents\" is what five funded competitors including E2B ($35.5M) are already building.",
+          "oneLiner": "Containerized deployment platform for long-running AI agents.",
+          "slug": "terminal-use"
+        },
+        {
+          "rank": 142,
+          "company": "Traverse",
+          "why": "Mid-batch pivot into RL training environments with no demonstrated RL expertise, competing against 35+ entrants including Mechanize backed by Nat Friedman and Patrick Collison.",
+          "oneLiner": "Custom reinforcement learning environments for frontier AI lab training.",
+          "slug": "traverse"
+        },
+        {
+          "rank": 143,
+          "company": "Travo",
+          "why": "Four Stanford CS grads with no real estate background entering RV park data for maybe a hundred PE firms -- niche market with no room to pivot, narrow TAM.",
+          "oneLiner": "AI-powered commercial real estate data for niche property types.",
+          "slug": "travo"
+        },
+        {
+          "rank": 144,
+          "company": "Zatanna",
+          "why": "Recent pivot from attorney intelligence to dental insurance verification with no healthcare billing background -- chasing a hot category where four YC-backed competitors already have traction.",
+          "oneLiner": "AI agents automating dental insurance verification and billing.",
+          "slug": "zatanna"
+        }
+      ]
+    }
+  ],
+  "topPicksCommentary": "**Crosslayer Labs:** Henry Birge-Lee didn't study cross-layer attacks -- he invented the standard that secures the internet against them. This is the purest \"productize yourself\" signal in the batch: a decade of obsessive research, done for free, now encoded into a commercial product. The open-source MPIC project mirrors the Stack Overflow playbook -- build reputation through free contribution, then commercialize the expertise. Three academic founders with no sales DNA is a real gap, and the market ($1-6B ASM) is narrower than ideal. But when the founder IS the domain -- when they authored the RFC the industry follows -- you're looking at knowledge that compounds through standards-body participation in a way no competitor can replicate. Non-consensus because most investors see \"cybersecurity point solution\" and pass. I see irreplaceable specific knowledge with permissionless leverage.\n\n**Ditto Biosciences:** While every biotech starts from human biology and works forward, Ditto starts from parasites and works backward through millions of years of evolutionary optimization. Borges, Sun, and Weiss emerged organically from Arcadia Science, where mining non-model organisms was their daily work -- this felt like play to them. Proof-of-concept in mice within six weeks on half their YC funding is the iteration velocity I look for. The specific knowledge stack -- parasitology + evolutionary biology + computational genomics + protein engineering -- is so rare that the knowledge moat compensates for biotech's structural lack of software leverage.\n\n**Squid:** George Kolokotronis was Head of Technology at Octopus Energy, then sold AI/Data at AWS to the exact utility buyers he's now building for. That's the Ivan Zhao pattern: years of obsession encoded into product. The market isn't optional -- utilities must spend $1 trillion on grid upgrades because electrification and data centers demand it. Browser-native SaaS replacing desktop tools from the 1990s is pure software leverage. SOC 2 Type II at pre-seed tells me these founders understand their buyer viscerally.\n\n**Mendral:** Sam Alba and Andrea Luzzardi didn't study DevOps -- they built Docker and Dagger. Their specific knowledge about how CI/CD pipelines break at planetary scale is irreplaceable, accumulated over 14+ years at the frontier. The product is a GitHub App with zero marginal cost that gets smarter with every build -- permissionless leverage architecture. PostHog adopting it is meaningful signal; sophisticated developer tool companies don't adopt tools lightly.\n\n**GrazeMate:** Sam Rogers at 19 is the purest specific knowledge signal -- grew up moving 6,000 head of cattle, built robotic arms at 14, published ML research at 15. \"Building specific knowledge feels like play\" at its most literal. The underlying capability is autonomous physical AI agents in unstructured environments, which is enormous. Halter's billion-dollar validation proves ranchers pay; GrazeMate's drone approach scales with land area, not animal count -- fundamentally better leverage. Non-consensus and right is where the returns live.\n\n**Zymbly:** This is my contrarian pick. A generic investor ranks aviation MRO AI as a boring vertical. I see a founder who spent 25 years accumulating specific knowledge that cannot be replicated and is now encoding it into software that scales. The regulatory barrier (FAA, EASA) is a moat, not a burden -- no tourist founder can waltz in. The 690,000-technician shortage is a structural force. This is a \"productize yourself\" bet -- the founder IS the moat.\n\n**Valgo:** When founders' specific knowledge becomes the Stanford curriculum, that's the signal. The safety validation market expands with every autonomous system deployed -- AVs, drones, defense robotics -- and the regulatory requirement for provable safety isn't optional. The leverage is clean software applied across industries, and the contrarian angle is that most AI investors want to fund capability, not the guardrails on capability."
+}

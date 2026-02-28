@@ -1,0 +1,24 @@
+﻿# Axis -- Sam Lessin Evaluation
+
+Here's the thing that jumps out immediately: Axis is building AI models for monitoring commodities markets. The AI *is* the product. Strip away the AI layer and what remains? Another data terminal aggregating feeds from Argus, Platts, and Kpler — sources the company doesn't own. My most basic filter — would this business be good if AI didn't exist? — produces an unambiguous no. And when the answer is no, what you've got is a feature waiting to be absorbed by an incumbent with distribution and data, not a company with a durable claim on value. Kpler is sitting at $100M ARR with $441M raised and just acquired three companies in the last 18 months. Vortexa has Morgan Stanley's backing. These are not sleepy incumbents that will ignore AI model deployment — this *is* what they're building toward.
+
+The founder-idea pairing doesn't clear my threshold. Eric Zhu has a math degree from UChicago and an internship at TransMarket Group — that's real but thin. An internship at a derivatives shop doesn't give you the relationships, the scar tissue, or the intuitive understanding of what a physical crude trader at Trafigura actually needs when they're staring at forty data sources at 6 AM trying to figure out whether to move a cargo. Ian Wang is described as "interested in trading," which is about the faintest signal I can imagine for founder-market fit. More importantly, the idea itself is not insane — it's perfectly consensus. Everyone in commodities data is racing to add AI analytics. There's another company doing something adjacent *in the same YC batch* (CommodityAI). When your "insane idea" has a direct competitor sitting next to you at Demo Day, the insanity premium has evaporated.
+
+Where I genuinely appreciate this company is the co-founder relationship — known since pre-school, which is the kind of deep relational foundation I look for. That's not nothing. And commodities is an unglamorous, operationally complex market that most software VCs ignore, which creates the *potential* for the kind of non-consensus opportunity I like. If these founders had spent five years running a physical trading desk, or had built proprietary data pipelines by, say, deploying sensors at storage terminals or licensing exclusive refinery data, I'd evaluate this differently. The market itself isn't the problem — it's that the founders are approaching a physical-world industry with a purely digital product that has no physical-world moat.
+
+Let me steelman the bull case: commodities data is genuinely fragmented and the workflow of stitching together Argus price assessments, vessel tracking data, refinery utilization reports, and geopolitical intelligence is painful. If Axis could establish itself as the "model orchestration layer" — the place where traders deploy and configure custom monitoring — it could build switching costs as users invest time creating their specific configurations. The declining cost of AI inference makes this more viable every quarter. And if the founders can leverage early trading desk relationships (perhaps through the YC network or Eric's TransMarket connections) to get embedded in workflows before Kpler or Vortexa ship equivalent features, there's a narrow window. But this requires winning a race against massively better-funded competitors who already own the data and the customer relationships, using a technology (LLMs, custom model deployment) that is commoditizing at unprecedented speed. The window isn't narrow — it's closing.
+
+The structural moat analysis is where this falls apart for me most decisively. The dossier itself says "No defensibility signals found in public sources" and the inferred moats are speculative: data integrations, workflow switching costs, accumulated training data. But the data sources are proprietary and expensive — Argus and Platts license their feeds at rates that could consume a pre-seed company's entire runway. The switching costs only materialize if traders invest heavily in building configurations, which requires the product to already be indispensable. And the "accumulated training data" moat assumes Axis processes enough volume to create a data advantage over competitors processing orders of magnitude more. Every piece of the defensibility story depends on something that hasn't happened yet and requires beating incumbents who start with massive structural advantages. This is software-only, application-layer, and AI-dependent — the trifecta I screen out.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| "Sane Person, Insane Idea" Calibration | 8/30 |
+| AI-Resistant Structural Moat | 4/25 |
+| New Primitive or Protocol Position | 4/20 |
+| Narrative Magnitude and Infinity Optionality | 6/15 |
+| Real Revenue or Asset Cushion | 2/10 |
+| **Total** | **24/100** |
+
+**Total Score: 24/100** (Pass)

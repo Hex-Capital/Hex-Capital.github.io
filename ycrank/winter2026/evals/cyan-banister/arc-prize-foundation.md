@@ -1,0 +1,26 @@
+﻿# ARC Prize Foundation -- Cyan Banister Evaluation
+
+Here's the thing that stops me before I even get to the founders' stories: this is a 501(c)(3) nonprofit. I invest my own money. I need a path to a return. When I write a check, I'm taking extraordinary risk because I believe there's an extraordinary outcome on the other side -- not just for the world, but for the founders and for me. ARC Prize Foundation is structured so that there is no equity, no revenue model, and no mechanism for an angel investor to participate in financial upside. That's not a flaw in their organization -- it may be exactly the right structure for what they're building. But it means I'm the wrong investor for this, full stop. Everything I evaluate after this point is academic, but I'll walk through it because the team deserves a genuine look.
+
+When I ask "tell me your story," I'm listening for the hardship that forged an unbreakable commitment. François Chollet is one of the most accomplished ML researchers alive -- he created Keras, which 2 million people use, and he authored the original ARC framework back in 2019. Mike Knoop co-founded Zapier and scaled it to a $5 billion valuation. Greg Kamradt built the "Needle in a Haystack" test that became a community standard. These are genuinely impressive people. But their connection to this problem is intellectual and professional, not biographical. Nobody here overcame genuine adversity to arrive at "we need to measure intelligence better." They arrived through elite careers at Google, Zapier, and Salesforce. I don't feel the personal stakes that I felt with Travis Kalanick raging against taxi medallions or the Contraline founder spending years in obscure academic research because he believed men deserved reproductive agency. The credentials here are undeniable, but credentials aren't what I invest on.
+
+The bull case is real and I want to articulate it honestly: ARC Prize is becoming the reference standard for measuring progress toward AGI -- arguably the most consequential measurement problem in technology right now. Four frontier labs voluntarily report ARC-AGI scores in their model cards. That's not something you can manufacture; it reflects genuine credibility earned through Chollet's intellectual authority and the team's execution on competitions that drew nearly 3,000 teams over two years. If government AI regulation expands -- and it will -- independent evaluation infrastructure becomes essential public goods, and ARC Prize is better positioned than anyone except Scale AI to fill that role. This partially fits my pattern of investing in things that make invisible systems visible: ARC-AGI makes the gap between current AI and actual general intelligence measurable and transparent, which matters enormously for researchers, regulators, and the public. If this were a for-profit company with a clever business model for monetizing evaluation infrastructure, I'd be leaning forward.
+
+But even setting aside the nonprofit structure, this doesn't activate my framework. The best investments I've made looked ridiculous to other people. SpaceX was considered delusional. Uber was illegal. Crusoe Energy was mining Bitcoin on gas flares. ARC Prize is... widely respected and supported by the establishment. Four frontier labs endorse it. Tech luminaries donate to it. Chollet has 608,000 followers. This is consensus-good, not contrarian-weird. When something is already validated by OpenAI, Anthropic, Google DeepMind, and xAI, the "weirdness premium" has been fully arbitraged away. I'm not the investor who adds value in that environment. And the economic access dimension -- which I weight heavily -- isn't present here. This serves AI researchers and labs, not drivers who need income or tradespeople who need customers or families who need transparent credit.
+
+The three-founder dynamic without a shared history also gives me pause. No shared prior employer, no shared university, no evidence of how they resolve disagreements under pressure. Chollet's intellectual authority could create an implicit hierarchy that works beautifully or fractures under stress -- I simply can't tell. The key-person dependency on Chollet is the most obvious risk: if he steps back, does ARC-AGI retain its authority? These aren't dealbreakers in isolation, but combined with everything else, they reinforce my instinct that this isn't my bet to make.
+
+I have deep respect for what this team is building. Measuring intelligence is genuinely important work, and Chollet may be the single best person on earth to lead it. But I'm an angel investor, not a philanthropist. I back outsider founders solving problems forged in their own lived experience, building companies that create economic access, in spaces that look too weird or too hard for everyone else. ARC Prize Foundation is none of those things -- and that's perfectly fine. It's just not mine.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Biographical Grit and Personal Stake | 10/30 |
+| Anti-Consensus Conviction and Weird Factor | 5/25 |
+| Economic Access and Real-World Impact | 4/20 |
+| Navigating Complexity in Hard Spaces | 7/15 |
+| Co-Founder Alignment and Team Resilience | 5/10 |
+| **Total** | **31/100** |
+
+**Total Score: 31/100** (Pass)

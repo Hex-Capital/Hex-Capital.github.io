@@ -1,0 +1,77 @@
+{
+  "slug": "corelayer",
+  "name": "Corelayer",
+  "oneLiner": "AI on-call engineer that debugs using data",
+  "metadata": {
+    "website": "https://www.corelayer.com",
+    "yc_page": "https://www.ycombinator.com/companies/corelayer",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Developer Tools, B2B, Enterprise Software, AI",
+    "yc_partner": "Diana Hu",
+    "emails": "founders@corelayer.com (YC company page)"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "B2B",
+    "Enterprise Software",
+    "AI"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 33,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 37,
+    "EG": 46,
+    "NR": 45,
+    "PG": 57,
+    "PT": 34,
+    "SL": 29,
+    "VK": 33
+  },
+  "consolidatedAvg": 40.14,
+  "consolidatedRank": 76,
+  "paths": {
+    "memo": "winter2026/memos/corelayer.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/corelayer.md",
+      "elad-gil": "winter2026/evals/elad-gil/corelayer.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/corelayer.md",
+      "paul-graham": "winter2026/evals/paul-graham/corelayer.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/corelayer.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/corelayer.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/corelayer.md"
+    }
+  }
+}

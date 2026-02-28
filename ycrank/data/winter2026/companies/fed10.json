@@ -1,0 +1,77 @@
+{
+  "slug": "fed10",
+  "name": "Fed10",
+  "oneLiner": "AI agents that replace your policy consultants",
+  "metadata": {
+    "website": "https://www.fed10.ai",
+    "yc_page": "https://www.ycombinator.com/companies/fed10",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Legal",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "SaaS, GovTech, B2B, Legal, AI",
+    "yc_partner": "Jared Friedman",
+    "emails": "No public business email addresses found"
+  },
+  "tags": [
+    "SaaS",
+    "GovTech",
+    "B2B",
+    "Legal",
+    "AI"
+  ],
+  "slideImage": null,
+  "evalScores": {
+    "cyan-banister": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 25,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 24,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 38,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 37,
+    "EG": 41,
+    "NR": 45,
+    "PG": 57,
+    "PT": 25,
+    "SL": 24,
+    "VK": 38
+  },
+  "consolidatedAvg": 38.14,
+  "consolidatedRank": 91,
+  "paths": {
+    "memo": "winter2026/memos/fed10.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/fed10.md",
+      "elad-gil": "winter2026/evals/elad-gil/fed10.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/fed10.md",
+      "paul-graham": "winter2026/evals/paul-graham/fed10.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/fed10.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/fed10.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/fed10.md"
+    }
+  }
+}

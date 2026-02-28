@@ -1,1 +1,14 @@
-﻿{"static": true}
+{"static": true, "users": [
+  {
+    "emailHash": "ea85c6f43ce427d1c0db783b7b8dc6465863b52eb766b39918abdacae7023ce5",
+    "hash": "35cb7ffc744bf046abaa774de1f0da3efe6fc5de23ed9047aa9883e3e078fd78:6cb883c9e464ed6dced38885efc05f102c0a325c67b88bf165bc4dad42011885"
+  },
+  {
+    "emailHash": "5092ebc69d88b02ad948053fda0aa96e4d04519efd51fd23dd21435c19aec845",
+    "hash": "ffc92670e5d0ec156c0617ebb18b302fae6c8d1ded67f99f01a4e58260394b87:97d1fe37e92b194efbc538ddefdbc025eda0f8288d300b79ec1dd805e95bc512"
+  },
+  {
+    "emailHash": "ea10b09f20446c0400d9086a6f29ebda45b2201876075df5fa0b1f09c488322a",
+    "hash": "5bfd2bd86ed39da4d8dfa2aa8c69d033e0b7f4be90bc50d3c43a9a30a8d2b156:8915453243011119b9882940b88ae2c3ec64762aac927eab65b55dc638f02530"
+  }
+]}

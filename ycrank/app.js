@@ -61,6 +61,12 @@ function app() {
         }
       } catch (e) { /* default false */ }
 
+      // Auth gate in static mode
+      if (this.staticMode && !sessionStorage.getItem('ycrank_auth')) {
+        window.location.href = 'login.html';
+        return;
+      }
+
       try {
         // Load batches
         const batchesResp = await fetch('data/batches.json');
@@ -304,6 +310,15 @@ function app() {
 
     openCouncil() {
       this.councilOpen = true;
+    },
+
+    logout() {
+      if (this.staticMode) {
+        sessionStorage.removeItem('ycrank_auth');
+        window.location.href = 'login.html';
+      } else {
+        window.location.href = '/logout';
+      }
     },
 
     // --- Email Draft ---

@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>YCRank</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/scrypt-js@3/scrypt.min.js"></script>
+<style>
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --bg: #1a1815;
+  --panel: #201d18;
+  --surface: #252118;
+  --border: #2e2a25;
+  --border-focus: #3d3630;
+  --orange: #d97757;
+  --orange-deep: #C15F3C;
+  --orange-glow: rgba(217, 119, 87, 0.08);
+  --blue: #6a9bcc;
+  --text: #e8e6e3;
+  --text-mid: #B1ADA1;
+  --text-dim: #6b6560;
+  --text-ghost: #4a4238;
+  --red: #c75050;
+  --green: #788c5d;
+  --purple: #9a7bc1;
+  --amber: #d4a843;
+}
+
+::selection { background: var(--orange); color: var(--bg); }
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--orange); }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  min-height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.error-bar {
+  display: none; align-items: center; gap: 10px;
+  margin-top: 20px; padding: 10px 14px;
+  background: rgba(199, 80, 80, 0.08);
+  border: 1px solid rgba(199, 80, 80, 0.2);
+  color: var(--red); font-size: 13px;
+}
+.error-bar.visible { display: flex; }
+.error-icon {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 18px; height: 18px; border: 1px solid var(--red);
+  font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700; flex-shrink: 0;
+}
+
+@keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.cursor-blink { display: inline-block; width: 7px; height: 14px; background: var(--orange); animation: blink 1s step-end infinite; vertical-align: middle; margin-left: 2px; }
+
+.btn-loading { pointer-events: none; opacity: 0.7; }
+.btn-loading::after {
+  content: ''; width: 12px; height: 12px;
+  border: 2px solid transparent; border-top-color: currentColor;
+  border-radius: 50%; animation: spin 0.6s linear infinite;
+}
+
+.login-page {
+  min-height: 100vh; display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+}
+.login-page::before {
+  content: ''; position: fixed; inset: 0;
+  background-image:
+    linear-gradient(var(--border) 1px, transparent 1px),
+    linear-gradient(90deg, var(--border) 1px, transparent 1px);
+  background-size: 60px 60px; opacity: 0.15; pointer-events: none;
+}
+.login-page::after {
+  content: ''; position: fixed; top: -40%; left: -20%; width: 80%; height: 80%;
+  background: radial-gradient(ellipse, rgba(217, 119, 87, 0.04) 0%, transparent 70%);
+  pointer-events: none;
+}
+.login-wrap { position: relative; z-index: 1; width: 420px; max-width: calc(100vw - 32px); }
+.login-header {
+  display: flex; align-items: center; gap: 12px; margin-bottom: 32px; padding-left: 2px;
+}
+.login-logo {
+  font-family: 'JetBrains Mono', monospace; font-size: 15px; font-weight: 500;
+  color: var(--orange); letter-spacing: 0.5px;
+}
+.login-sep { width: 1px; height: 16px; background: var(--border); }
+.login-label { font-size: 13px; color: var(--text-dim); letter-spacing: 0.3px; }
+.terminal { background: var(--panel); border: 1px solid var(--border); overflow: hidden; }
+.terminal-titlebar {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 10px 16px; background: var(--bg); border-bottom: 1px solid var(--border); user-select: none;
+}
+.terminal-dots { display: flex; gap: 6px; }
+.terminal-dot { width: 10px; height: 10px; border-radius: 50%; }
+.dot-red { background: #c75050; }
+.dot-yellow { background: #d4a843; }
+.dot-green { background: #788c5d; }
+.terminal-title { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--text-dim); letter-spacing: 0.5px; }
+.terminal-body { padding: 28px 24px 24px; }
+.session-line {
+  font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--text-dim);
+  margin-bottom: 24px; display: flex; align-items: center; gap: 8px;
+}
+.session-line .prompt { color: var(--orange); }
+.session-line .cmd { color: var(--text-mid); }
+.form-group { margin-bottom: 20px; }
+.form-label {
+  display: flex; align-items: center; gap: 8px;
+  font-family: 'JetBrains Mono', monospace; font-size: 11px;
+  color: var(--text-dim); margin-bottom: 8px; text-transform: lowercase; letter-spacing: 0.5px;
+}
+.form-label .chevron { color: var(--text-ghost); font-size: 10px; }
+.input-wrap { position: relative; }
+.input-wrap::before {
+  content: ''; position: absolute; left: 0; top: 0; bottom: 0;
+  width: 3px; background: transparent; transition: background 0.2s;
+}
+.input-wrap:focus-within::before { background: var(--orange); }
+.login-page input {
+  display: block; width: 100%; padding: 11px 14px;
+  background: var(--bg); border: 1px solid var(--border);
+  color: var(--text); font-family: 'Inter', system-ui, sans-serif; font-size: 14px;
+  outline: none; transition: border-color 0.2s, box-shadow 0.2s;
+}
+.login-page input:focus { border-color: var(--border-focus); box-shadow: 0 0 0 1px var(--orange-glow), inset 0 1px 3px rgba(0,0,0,0.2); }
+.login-page input::placeholder { color: var(--text-ghost); font-size: 13px; }
+.login-actions { display: flex; align-items: center; justify-content: space-between; margin-top: 28px; }
+.login-btn {
+  display: inline-flex; align-items: center; gap: 8px; padding: 10px 24px;
+  background: var(--orange); border: 1px solid var(--orange); color: var(--bg);
+  font-family: 'Inter', system-ui, sans-serif; font-size: 13px; font-weight: 600;
+  cursor: pointer; letter-spacing: 0.3px; transition: all 0.15s;
+}
+.login-btn:hover { background: var(--orange-deep); border-color: var(--orange-deep); }
+.login-btn:active { transform: scale(0.98); }
+.login-btn .key-hint {
+  font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 400;
+  opacity: 0.7; padding: 1px 5px; border: 1px solid rgba(26,24,21,0.3); letter-spacing: 0;
+}
+.shortcut-hint { font-size: 11px; color: var(--text-ghost); font-family: 'JetBrains Mono', monospace; }
+.shortcut-hint kbd {
+  display: inline-block; padding: 1px 5px; border: 1px solid var(--border);
+  color: var(--text-dim); font-family: inherit; font-size: 10px;
+}
+.login-footer { margin-top: 24px; padding-left: 2px; display: flex; align-items: center; gap: 16px; }
+.footer-text { font-size: 11px; color: var(--text-ghost); letter-spacing: 0.3px; }
+.footer-dot { width: 4px; height: 4px; background: var(--border); border-radius: 50%; }
+.footer-status { display: flex; align-items: center; gap: 6px; font-size: 11px; color: var(--text-ghost); }
+.status-dot { width: 6px; height: 6px; background: var(--green); border-radius: 50%; box-shadow: 0 0 6px rgba(120,140,93,0.4); }
+
+@media (max-width: 480px) {
+  .login-wrap { max-width: 100%; }
+  .terminal-body { padding: 20px 16px 16px; }
+  .login-actions { flex-direction: column; gap: 12px; align-items: stretch; }
+  .login-btn { justify-content: center; }
+  .shortcut-hint { display: none; }
+  .login-header, .login-footer { flex-direction: column; align-items: flex-start; gap: 8px; }
+}
+</style>
+</head>
+<body>
+
+<div class="login-page">
+  <div class="login-wrap">
+    <div class="login-header">
+      <span class="login-logo">[YCRank]</span>
+      <span class="login-sep"></span>
+      <span class="login-label">investor terminal</span>
+    </div>
+    <div class="terminal">
+      <div class="terminal-titlebar">
+        <div class="terminal-dots">
+          <div class="terminal-dot dot-red"></div>
+          <div class="terminal-dot dot-yellow"></div>
+          <div class="terminal-dot dot-green"></div>
+        </div>
+        <div class="terminal-title">authenticate</div>
+        <div style="width:44px"></div>
+      </div>
+      <div class="terminal-body">
+        <div class="session-line">
+          <span class="prompt">$</span>
+          <span class="cmd">ycrank auth --login</span>
+          <span class="cursor-blink"></span>
+        </div>
+        <form id="loginForm">
+          <div class="form-group">
+            <label class="form-label"><span class="chevron">&rsaquo;</span> email</label>
+            <div class="input-wrap">
+              <input type="email" id="email" placeholder="you@example.com" autocomplete="email" required spellcheck="false">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label"><span class="chevron">&rsaquo;</span> password</label>
+            <div class="input-wrap">
+              <input type="password" id="password" placeholder="&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;" autocomplete="current-password" required>
+            </div>
+          </div>
+          <div class="login-actions">
+            <button type="submit" id="submitBtn" class="login-btn">Sign in <span class="key-hint">&crarr;</span></button>
+            <span class="shortcut-hint"><kbd>Enter</kbd> to submit</span>
+          </div>
+          <div class="error-bar" id="errorBar">
+            <span class="error-icon">!</span>
+            <span id="errorText">invalid credentials.</span>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="login-footer">
+      <span class="footer-text">v2.0</span>
+      <span class="footer-dot"></span>
+      <div class="footer-status"><span class="status-dot"></span><span>systems online</span></div>
+    </div>
+  </div>
+</div>
+
+<script>
+// If already authenticated, redirect to dashboard
+if (sessionStorage.getItem('ycrank_auth')) {
+  window.location.href = 'index.html';
+}
+
+// Load users from config.json
+let authUsers = [];
+fetch('config.json')
+  .then(r => r.json())
+  .then(cfg => { authUsers = cfg.users || []; })
+  .catch(() => {});
+
+// SHA-256 hash helper
+async function sha256(str) {
+  const buf = new TextEncoder().encode(str);
+  const hash = await crypto.subtle.digest('SHA-256', buf);
+  return Array.from(new Uint8Array(hash)).map(b => b.toString(16).padStart(2, '0')).join('');
+}
+
+// Verify password using scrypt (matches Node crypto.scryptSync defaults: N=16384, r=8, p=1, keylen=32)
+async function verifyPassword(password, stored) {
+  const [salt, hash] = stored.split(':');
+  const passwordBuf = new TextEncoder().encode(password);
+  const saltBuf = new TextEncoder().encode(salt);
+  const derived = await scrypt.scrypt(passwordBuf, saltBuf, 16384, 8, 1, 32);
+  const derivedHex = Array.from(new Uint8Array(derived)).map(b => b.toString(16).padStart(2, '0')).join('');
+  return derivedHex === hash;
+}
+
+document.getElementById('loginForm').addEventListener('submit', async function(e) {
+  e.preventDefault();
+
+  const btn = document.getElementById('submitBtn');
+  const errorBar = document.getElementById('errorBar');
+  errorBar.classList.remove('visible');
+
+  btn.classList.add('btn-loading');
+  btn.innerHTML = 'Authenticating... <span class="key-hint" style="visibility:hidden">&crarr;</span>';
+
+  try {
+    const email = document.getElementById('email').value;
+    const password = document.getElementById('password').value;
+
+    const emailHash = await sha256(email.toLowerCase().trim());
+    const user = authUsers.find(u => u.emailHash === emailHash);
+
+    if (!user) {
+      throw new Error('invalid credentials.');
+    }
+
+    const passwordOk = await verifyPassword(password, user.hash);
+    if (!passwordOk) {
+      throw new Error('invalid credentials.');
+    }
+
+    // Store auth token and redirect
+    sessionStorage.setItem('ycrank_auth', emailHash);
+    window.location.href = 'index.html';
+  } catch (err) {
+    document.getElementById('errorText').textContent = err.message;
+    errorBar.classList.add('visible');
+    btn.classList.remove('btn-loading');
+    btn.innerHTML = 'Sign in <span class="key-hint">&crarr;</span>';
+  }
+});
+</script>
+
+</body>
+</html>

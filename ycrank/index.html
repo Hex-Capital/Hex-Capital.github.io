@@ -93,7 +93,7 @@
         <span class="text-claude-border hidden sm:inline">|</span>
         <span class="text-claude-gray px-1.5 sm:px-2 hidden sm:inline" x-show="manifest" x-text="manifest ? manifest.companyCount + ' companies' : ''"></span>
         <span class="text-claude-border">|</span>
-        <a href="/logout" x-show="!staticMode" class="text-claude-dim hover:text-claude-red px-1.5 sm:px-2 py-0.5 transition-colors font-mono">[logout]</a>
+        <a href="#" @click.prevent="logout()" class="text-claude-dim hover:text-claude-red px-1.5 sm:px-2 py-0.5 transition-colors font-mono">[logout]</a>
       </div>
     </div>
   </nav>

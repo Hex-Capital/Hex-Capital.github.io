@@ -109,7 +109,7 @@
     <!-- Dashboard View -->
     <div x-show="view === 'dashboard' && !loading" x-cloak>
       <!-- Search -->
-      <div class="flex flex-wrap items-center gap-2 mb-3">
+      <div class="sticky-search flex items-center gap-2 py-2">
         <span class="text-claude-dim text-xs font-mono">&gt;&gt;</span>
         <input type="text" x-model="search" placeholder="search..."
           class="bg-claude-bg border border-claude-border text-claude-text px-2 py-1 text-xs flex-1 min-w-0 sm:w-56 sm:flex-none focus:outline-none focus:border-claude-orange rounded-none placeholder-claude-dim font-mono">
@@ -118,9 +118,9 @@
       </div>
 
       <!-- Table -->
-      <div class="overflow-x-auto">
+      <div>
         <table class="w-full text-xs border-collapse terminal-table">
-          <thead>
+          <thead class="sticky-thead">
             <tr class="border-b border-claude-border bg-claude-panel">
               <th class="px-1.5 py-1 text-left text-claude-gray cursor-pointer hover:text-claude-orange border border-claude-border whitespace-nowrap"
                 @click="sortBy('name')">Company<span x-show="sortCol === 'name'" x-text="sortDir === 1 ? '\u25B2' : '\u25BC'" class="text-[10px] ml-0.5"></span>
@@ -242,10 +242,10 @@
           </div>
 
           <!-- Score Summary -->
-          <div class="mb-4 border border-claude-border">
-            <div class="grid grid-cols-2 xs:grid-cols-4 md:grid-cols-8">
+          <div class="mb-4">
+            <div class="grid grid-cols-2 xs:grid-cols-4 md:grid-cols-8 gap-1.5">
               <template x-for="p in personas" :key="p.slug">
-                <div class="score-card border border-claude-border p-1.5 text-center"
+                <div class="score-card p-1.5 text-center"
                   :class="{ 'cursor-pointer': companyData.paths.evals[p.slug], 'score-card-active': activeTab === p.slug }"
                   @click="companyData.paths.evals[p.slug] && loadTabContent(p.slug)">
                   <div class="text-[10px] text-claude-dim truncate" x-text="p.fullName"></div>
@@ -255,7 +255,7 @@
                     x-text="companyData.evalScores[p.slug] ? companyData.evalScores[p.slug].tier : ''"></div>
                 </div>
               </template>
-              <div class="score-card border border-claude-border p-1.5 text-center">
+              <div class="score-card p-1.5 text-center">
                 <div class="text-[10px] text-claude-orange">Avg</div>
                 <div class="text-sm font-bold tabular-nums" :class="avgColor(companyData.consolidatedAvg)"
                   x-text="companyData.consolidatedAvg != null ? companyData.consolidatedAvg.toFixed(2) : '-'"></div>
@@ -447,7 +447,7 @@
     <!-- Panel -->
     <div class="relative z-10 w-full sm:w-[520px] sm:max-w-full bg-claude-bg border-l-2 border-claude-orange flex flex-col h-[100dvh]">
       <!-- Panel Header -->
-      <div class="flex items-center justify-between px-3 py-2 border-b border-claude-border flex-shrink-0">
+      <div class="council-header flex items-center justify-between px-3 py-2 border-b border-claude-border flex-shrink-0">
         <div>
           <h3 class="font-bold text-claude-orange text-sm">[Investor Council]</h3>
           <p class="text-[10px] text-claude-dim" x-text="companyData ? companyData.name : 'No company loaded'"></p>
@@ -523,7 +523,7 @@
       </div>
 
       <!-- Input Area -->
-      <div class="px-3 py-2 border-t border-claude-border flex-shrink-0">
+      <div class="council-input px-3 py-2 border-t border-claude-border flex-shrink-0">
         <div class="flex gap-1.5">
           <span class="text-claude-orange text-xs py-1">&gt;</span>
           <input type="text" x-model="councilInput"

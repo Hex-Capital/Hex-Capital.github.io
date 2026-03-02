@@ -19,6 +19,8 @@
   --c-cream: #b8a88a;
   --c-card: #1e1b16;
   --c-card-hover: #242019;
+  --nav-h: calc(45px + env(safe-area-inset-top, 0px));
+  --search-h: 42px;
 }
 
 /* ===== Base Reset ===== */
@@ -52,6 +54,26 @@
   background: var(--c-panel);
   white-space: nowrap;
   font-family: 'JetBrains Mono', 'Consolas', monospace;
+}
+
+/* Gap between header row and first data row (box-shadow survives sticky + border-collapse) */
+.terminal-table thead th {
+  box-shadow: 0 4px 0 var(--c-bg);
+}
+
+/* Sticky search bar (dashboard) */
+.sticky-search {
+  position: sticky;
+  top: var(--nav-h);
+  z-index: 40;
+  background: var(--c-bg);
+}
+
+/* Sticky table header (dashboard) */
+.sticky-thead th {
+  position: sticky;
+  top: calc(var(--nav-h) + var(--search-h));
+  z-index: 30;
 }
 
 /* ===== Custom Scrollbar (Dark) ===== */
@@ -308,6 +330,7 @@ button:disabled {
 .score-card {
   background: var(--c-card);
   transition: all 0.2s ease;
+  box-shadow: 0 0 0 1px var(--c-border);
 }
 
 .score-card:hover {
@@ -413,13 +436,22 @@ main {
   padding-bottom: 28px !important;
 }
 
-/* ===== Safe Area (notched iPhones) ===== */
-@supports (padding-bottom: env(safe-area-inset-bottom)) {
+/* ===== Safe Area (notched iPhones / Dynamic Island) ===== */
+@supports (padding: env(safe-area-inset-top)) {
+  nav.sticky {
+    padding-top: env(safe-area-inset-top);
+  }
   .status-footer {
     padding-bottom: calc(4px + env(safe-area-inset-bottom));
   }
   main {
     padding-bottom: calc(28px + env(safe-area-inset-bottom)) !important;
+  }
+  .council-header {
+    padding-top: calc(0.5rem + env(safe-area-inset-top));
+  }
+  .council-input {
+    padding-bottom: calc(0.5rem + env(safe-area-inset-bottom));
   }
 }
 
@@ -513,5 +545,26 @@ main {
   .mobile-scores-row .score-bg-red,
   .mobile-scores-row .score-bg-deepred {
     background-color: transparent !important;
+  }
+
+  /* MOBILE-CARDS: visual gap between company groups */
+  .mobile-scores-group + .mobile-scores-group > tr:first-child > td {
+    border-top: 8px solid var(--c-bg) !important;
+  }
+
+  /* MOBILE-CARDS: card background + extra padding on main row */
+  .mobile-scores-group > tr:first-child > td {
+    background: var(--c-card);
+    padding-left: 0.75rem !important;
+    padding-right: 0.75rem !important;
+    padding-top: 0.625rem !important;
+    padding-bottom: 0.5rem !important;
+  }
+
+  /* MOBILE-CARDS: extra padding on scores row */
+  .mobile-scores-row td {
+    padding-left: 0.75rem !important;
+    padding-right: 0.75rem !important;
+    padding-bottom: 0.5rem !important;
   }
 }

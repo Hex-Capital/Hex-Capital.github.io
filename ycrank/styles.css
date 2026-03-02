@@ -481,4 +481,9 @@ main {
   .score-card {
     padding: 0.375rem 0.25rem !important;
   }
+
+  /* MOBILE-SCORES: score tier backgrounds for inline mobile scores */
+  .mobile-score-row [class*="score-bg-"] {
+    padding: 0 2px;
+  }
 }

@@ -151,6 +151,15 @@
                       class="text-claude-red text-[10px]" title="High disagreement (stddev >= 20)">!!</span>
                   </div>
                   <div class="text-[10px] text-claude-dim truncate max-w-[100px] xs:max-w-[150px] sm:max-w-xs md:max-w-md hidden xs:block" x-text="row.oneLiner"></div>
+                  <!-- MOBILE-SCORES: inline persona scores visible only on narrow screens. Remove this block to revert. -->
+                  <div class="flex flex-wrap gap-x-2 gap-y-0.5 mt-1 sm:hidden">
+                    <template x-for="p in personas" :key="'mob-'+p.abbr">
+                      <span class="text-[10px] tabular-nums whitespace-nowrap">
+                        <span class="text-claude-dim" x-text="p.abbr"></span><span class="text-claude-dim">:</span><span :class="tierColor(row.tiers[p.abbr])" x-text="row.scores[p.abbr] != null ? row.scores[p.abbr] : '-'"></span>
+                      </span>
+                    </template>
+                  </div>
+                  <!-- /MOBILE-SCORES -->
                 </td>
                 <template x-for="p in personas" :key="p.abbr">
                   <td class="px-1.5 py-1 text-center tabular-nums border border-claude-border hidden sm:table-cell"

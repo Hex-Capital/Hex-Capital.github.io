@@ -437,7 +437,7 @@ main {
   }
 
   /* Sticky company column when scrolling horizontally */
-  .terminal-table td:first-child,
+  .terminal-table td:first-child:not(.mobile-scores-cell),
   .terminal-table th:first-child {
     position: sticky;
     left: 0;
@@ -452,6 +452,11 @@ main {
   .terminal-table tbody td {
     padding-top: 0.5rem !important;
     padding-bottom: 0.5rem !important;
+  }
+
+  /* Active press feedback for tappable rows */
+  .terminal-table tbody tr.cursor-pointer:active {
+    background: var(--c-border) !important;
   }
 
   .markdown-body {
@@ -482,8 +487,31 @@ main {
     padding: 0.375rem 0.25rem !important;
   }
 
-  /* MOBILE-SCORES: score tier backgrounds for inline mobile scores */
-  .mobile-score-row [class*="score-bg-"] {
-    padding: 0 2px;
+  /* MOBILE-SCORES: visually connect main row with its scores row */
+  .mobile-scores-group > tr:first-child {
+    border-bottom-color: transparent;
+  }
+
+  /* MOBILE-SCORES: subordinate scores row -- card bg, tight padding, left accent */
+  .mobile-scores-row td {
+    padding-top: 0.1875rem !important;
+    padding-bottom: 0.25rem !important;
+    background: var(--c-card);
+    border-left: 2px solid var(--c-border) !important;
+  }
+
+  /* MOBILE-SCORES: warm left accent bar on group interaction */
+  .mobile-scores-group:active .mobile-scores-row td {
+    border-left-color: var(--c-accent) !important;
+  }
+
+  /* MOBILE-SCORES: strip score background tints so individual scores
+     don't compete with the avg score color in the main row */
+  .mobile-scores-row .score-bg-deepgreen,
+  .mobile-scores-row .score-bg-green,
+  .mobile-scores-row .score-bg-orange,
+  .mobile-scores-row .score-bg-red,
+  .mobile-scores-row .score-bg-deepred {
+    background-color: transparent !important;
   }
 }

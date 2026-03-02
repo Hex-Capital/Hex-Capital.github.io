@@ -6,6 +6,8 @@
   <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>YCRank</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <script src="https://cdn.tailwindcss.com"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3/dist/cdn.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
@@ -135,12 +137,15 @@
                 @click="sortBy('teamSize')">Team Size<span x-show="sortCol === 'teamSize'" x-text="sortDir === 1 ? '\u25B2' : '\u25BC'" class="text-[10px] ml-0.5"></span>
               </th>
               <th class="px-1.5 py-1 text-center text-claude-gray cursor-pointer hover:text-claude-orange w-24 border border-claude-border whitespace-nowrap"
-                @click="sortBy('revenue')">Annual Revenue<span x-show="sortCol === 'revenue'" x-text="sortDir === 1 ? '\u25B2' : '\u25BC'" class="text-[10px] ml-0.5"></span>
+                @click="sortBy('revenue')"><span class="hidden sm:inline">Annual Revenue</span><span class="sm:hidden">ARR</span><span x-show="sortCol === 'revenue'" x-text="sortDir === 1 ? '\u25B2' : '\u25BC'" class="text-[10px] ml-0.5"></span>
               </th>
             </tr>
           </thead>
-          <tbody>
-            <template x-for="row in filteredTable" :key="row.rank">
+          <!-- MOBILE-SCORES: Each company is a <tbody> so Alpine can render two rows (data + mobile scores).
+               To revert: replace this <template>...<tbody> structure with a single <tbody> wrapping the <template>,
+               remove the second <tr class="sm:hidden">, and remove the mobile-scores-group CSS. -->
+          <template x-for="row in filteredTable" :key="row.rank">
+            <tbody class="mobile-scores-group">
               <tr class="border-b border-claude-border hover:bg-claude-panel cursor-pointer transition-colors"
                 @click="row.slug && navigate('company/' + row.slug)">
                 <td class="px-1.5 py-1 text-claude-dim tabular-nums border border-claude-border hidden sm:table-cell" x-text="row.rank"></td>
@@ -151,15 +156,6 @@
                       class="text-claude-red text-[10px]" title="High disagreement (stddev >= 20)">!!</span>
                   </div>
                   <div class="text-[10px] text-claude-dim truncate max-w-[100px] xs:max-w-[150px] sm:max-w-xs md:max-w-md hidden xs:block" x-text="row.oneLiner"></div>
-                  <!-- MOBILE-SCORES: inline persona scores visible only on narrow screens. Remove this block to revert. -->
-                  <div class="flex flex-wrap gap-x-2 gap-y-0.5 mt-1 sm:hidden">
-                    <template x-for="p in personas" :key="'mob-'+p.abbr">
-                      <span class="text-[10px] tabular-nums whitespace-nowrap">
-                        <span class="text-claude-dim" x-text="p.abbr"></span><span class="text-claude-dim">:</span><span :class="tierColor(row.tiers[p.abbr])" x-text="row.scores[p.abbr] != null ? row.scores[p.abbr] : '-'"></span>
-                      </span>
-                    </template>
-                  </div>
-                  <!-- /MOBILE-SCORES -->
                 </td>
                 <template x-for="p in personas" :key="p.abbr">
                   <td class="px-1.5 py-1 text-center tabular-nums border border-claude-border hidden sm:table-cell"
@@ -174,8 +170,22 @@
                 <td class="px-1.5 py-1 text-center tabular-nums text-claude-dim border border-claude-border"
                   x-text="row.revenue != null ? row.revenue : '-'"></td>
               </tr>
-            </template>
-          </tbody>
+              <tr class="sm:hidden border-b border-claude-border cursor-pointer transition-colors mobile-scores-row"
+                @click="row.slug && navigate('company/' + row.slug)">
+                <td colspan="99" class="px-1.5 border-x border-claude-border mobile-scores-cell">
+                  <div class="flex justify-around">
+                    <template x-for="p in personas" :key="'mob-'+p.abbr">
+                      <span class="inline-flex items-baseline tabular-nums">
+                        <span class="text-[9px] text-claude-dim opacity-60 tracking-tight" x-text="p.abbr"></span>
+                        <span class="text-[11px] font-medium ml-px" :class="tierColor(row.tiers[p.abbr])" x-text="row.scores[p.abbr] != null ? row.scores[p.abbr] : '-'"></span>
+                      </span>
+                    </template>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </template>
+          <!-- /MOBILE-SCORES -->
         </table>
       </div>
     </div>

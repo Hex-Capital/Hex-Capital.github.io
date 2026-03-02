@@ -160,13 +160,25 @@ body {
 .footer-status { display: flex; align-items: center; gap: 6px; font-size: 11px; color: var(--text-ghost); }
 .status-dot { width: 6px; height: 6px; background: var(--green); border-radius: 50%; box-shadow: 0 0 6px rgba(120,140,93,0.4); }
 
+/* iOS Safari: prevent auto-zoom on input focus (font-size must be >= 16px) */
 @media (max-width: 480px) {
-  .login-wrap { max-width: 100%; }
+  .login-page input { font-size: 16px; }
+}
+
+/* Mobile layout: terminal constrained below 440px */
+@media (max-width: 440px) {
+  .login-wrap { max-width: calc(100vw - 24px); }
   .terminal-body { padding: 20px 16px 16px; }
   .login-actions { flex-direction: column; gap: 12px; align-items: stretch; }
   .login-btn { justify-content: center; }
   .shortcut-hint { display: none; }
-  .login-header, .login-footer { flex-direction: column; align-items: flex-start; gap: 8px; }
+  .login-header { flex-wrap: wrap; gap: 8px 12px; margin-bottom: 20px; }
+  .login-header .login-sep { display: none; }
+  .login-footer { flex-wrap: wrap; gap: 8px 16px; margin-top: 16px; }
+  .login-footer .footer-dot { display: none; }
+  .session-line { margin-bottom: 16px; }
+  .form-group { margin-bottom: 14px; }
+  .login-actions { margin-top: 20px; }
 }
 </style>
 </head>

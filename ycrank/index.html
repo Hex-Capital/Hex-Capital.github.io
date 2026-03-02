@@ -4,7 +4,7 @@
   <base href="/ycrank/">
   <meta charset="UTF-8">
   <meta name="robots" content="noindex, nofollow">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>YCRank</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3/dist/cdn.min.js"></script>
@@ -61,35 +61,35 @@
           <div class="nav-dot nav-dot-yellow"></div>
           <div class="nav-dot nav-dot-green"></div>
         </div>
-        <h1 class="text-sm font-bold text-claude-orange cursor-pointer tracking-wider flex-shrink-0" @click="navigate('dashboard')">[YCRank]</h1>
+        <h1 class="text-sm font-bold text-claude-orange cursor-pointer sm:tracking-wider flex-shrink-0" @click="navigate('dashboard')">[YCRank]</h1>
         <span class="text-claude-border hidden sm:inline">|</span>
         <select x-model="currentBatch" @change="loadBatch(currentBatch)"
-          class="bg-claude-bg border border-claude-border text-claude-orange px-1.5 sm:px-2 py-0.5 text-xs rounded-none focus:outline-none focus:border-claude-orange min-w-0">
+          class="bg-claude-bg border border-claude-border text-claude-orange px-1.5 sm:px-2 py-0.5 text-xs rounded-none focus:outline-none focus:border-claude-orange min-w-0 max-w-[100px] xs:max-w-none">
           <template x-for="b in batches" :key="b">
             <option :value="b" x-text="formatBatch(b)"></option>
           </template>
         </select>
       </div>
-      <div class="flex items-center gap-0 text-xs flex-shrink-0">
+      <div class="flex items-center gap-1 text-xs overflow-hidden">
         <button @click="navigate('dashboard')"
-          :class="view === 'dashboard' ? 'bg-claude-orange text-claude-bg px-1.5 sm:px-2 py-0.5' : 'text-claude-text hover:text-claude-orange px-1.5 sm:px-2 py-0.5'"
+          :class="view === 'dashboard' ? 'bg-claude-orange text-claude-bg px-1.5 sm:px-2 py-1.5' : 'text-claude-text hover:text-claude-orange px-1.5 sm:px-2 py-1.5'"
           class="transition-colors font-mono"><span class="sm:hidden">Dash</span><span class="hidden sm:inline">Dashboard</span></button>
         <span class="text-claude-border hidden sm:inline">|</span>
         <button @click="navigate('analytics')"
-          :class="view === 'analytics' ? 'bg-claude-orange text-claude-bg px-1.5 sm:px-2 py-0.5' : 'text-claude-text hover:text-claude-orange px-1.5 sm:px-2 py-0.5'"
+          :class="view === 'analytics' ? 'bg-claude-orange text-claude-bg px-1.5 sm:px-2 py-1.5' : 'text-claude-text hover:text-claude-orange px-1.5 sm:px-2 py-1.5'"
           class="transition-colors font-mono hidden sm:inline">Analytics</button>
         <template x-if="manifest && manifest.hasTraction">
-          <span class="flex items-center">
+          <span class="hidden xs:flex items-center">
             <span class="text-claude-border">|</span>
             <button @click="navigate('traction')"
-              :class="view === 'traction' ? 'bg-claude-orange text-claude-bg px-1.5 sm:px-2 py-0.5' : 'text-claude-text hover:text-claude-orange px-1.5 sm:px-2 py-0.5'"
+              :class="view === 'traction' ? 'bg-claude-orange text-claude-bg px-1.5 sm:px-2 py-1.5' : 'text-claude-text hover:text-claude-orange px-1.5 sm:px-2 py-1.5'"
               class="transition-colors font-mono">Traction</button>
           </span>
         </template>
         <span class="text-claude-border hidden sm:inline">|</span>
         <span class="text-claude-gray px-1.5 sm:px-2 hidden sm:inline" x-show="manifest" x-text="manifest ? manifest.companyCount + ' companies' : ''"></span>
-        <span class="text-claude-border">|</span>
-        <a href="#" @click.prevent="logout()" class="text-claude-dim hover:text-claude-red px-1.5 sm:px-2 py-0.5 transition-colors font-mono">[logout]</a>
+        <span class="text-claude-border hidden sm:inline">|</span>
+        <a href="#" @click.prevent="logout()" class="text-claude-dim hover:text-claude-red px-1.5 sm:px-2 py-1.5 transition-colors font-mono">[logout]</a>
       </div>
     </div>
   </nav>
@@ -106,7 +106,7 @@
       <div class="flex flex-wrap items-center gap-2 mb-3">
         <span class="text-claude-dim text-xs font-mono">&gt;&gt;</span>
         <input type="text" x-model="search" placeholder="search..."
-          class="bg-claude-bg border border-claude-border text-claude-text px-2 py-1 text-xs w-full sm:w-56 focus:outline-none focus:border-claude-orange rounded-none placeholder-claude-dim font-mono">
+          class="bg-claude-bg border border-claude-border text-claude-text px-2 py-1 text-xs flex-1 min-w-0 sm:w-56 sm:flex-none focus:outline-none focus:border-claude-orange rounded-none placeholder-claude-dim font-mono">
         <span class="text-claude-border hidden sm:inline">|</span>
         <span class="text-claude-dim text-xs" x-text="filteredTable.length + '/' + (manifest ? manifest.table.length : 0) + ' companies'"></span>
       </div>
@@ -116,7 +116,7 @@
         <table class="w-full text-xs border-collapse terminal-table">
           <thead>
             <tr class="border-b border-claude-border bg-claude-panel">
-              <th class="px-1.5 py-1 text-left text-claude-gray cursor-pointer hover:text-claude-orange w-10 border border-claude-border whitespace-nowrap"
+              <th class="px-1.5 py-1 text-left text-claude-gray cursor-pointer hover:text-claude-orange w-10 border border-claude-border whitespace-nowrap hidden sm:table-cell"
                 @click="sortBy('rank')">#<span x-show="sortCol === 'rank'" x-text="sortDir === 1 ? '\u25B2' : '\u25BC'" class="text-[10px] ml-0.5"></span>
               </th>
               <th class="px-1.5 py-1 text-left text-claude-gray cursor-pointer hover:text-claude-orange border border-claude-border whitespace-nowrap"
@@ -131,10 +131,10 @@
               <th class="px-1.5 py-1 text-center text-claude-gray cursor-pointer hover:text-claude-orange w-12 border border-claude-border whitespace-nowrap"
                 @click="sortBy('avg')">Avg<span x-show="sortCol === 'avg'" x-text="sortDir === 1 ? '\u25B2' : '\u25BC'" class="text-[10px] ml-0.5"></span>
               </th>
-              <th class="px-1.5 py-1 text-center text-claude-gray cursor-pointer hover:text-claude-orange w-14 border border-claude-border whitespace-nowrap"
+              <th class="px-1.5 py-1 text-center text-claude-gray cursor-pointer hover:text-claude-orange w-14 border border-claude-border whitespace-nowrap hidden sm:table-cell"
                 @click="sortBy('teamSize')">Team Size<span x-show="sortCol === 'teamSize'" x-text="sortDir === 1 ? '\u25B2' : '\u25BC'" class="text-[10px] ml-0.5"></span>
               </th>
-              <th class="px-1.5 py-1 text-center text-claude-gray cursor-pointer hover:text-claude-orange w-24 border border-claude-border whitespace-nowrap"
+              <th class="px-1.5 py-1 text-center text-claude-gray cursor-pointer hover:text-claude-orange w-24 border border-claude-border whitespace-nowrap hidden sm:table-cell"
                 @click="sortBy('revenue')">Annual Revenue<span x-show="sortCol === 'revenue'" x-text="sortDir === 1 ? '\u25B2' : '\u25BC'" class="text-[10px] ml-0.5"></span>
               </th>
             </tr>
@@ -143,14 +143,14 @@
             <template x-for="row in filteredTable" :key="row.rank">
               <tr class="border-b border-claude-border hover:bg-claude-panel cursor-pointer transition-colors"
                 @click="row.slug && navigate('company/' + row.slug)">
-                <td class="px-1.5 py-1 text-claude-dim tabular-nums border border-claude-border" x-text="row.rank"></td>
+                <td class="px-1.5 py-1 text-claude-dim tabular-nums border border-claude-border hidden sm:table-cell" x-text="row.rank"></td>
                 <td class="px-1.5 py-1 border border-claude-border">
                   <div class="flex items-center gap-1.5">
                     <span class="text-claude-text font-medium" x-text="row.name"></span>
                     <span x-show="isDisagreement(row.name)"
                       class="text-claude-red text-[10px]" title="High disagreement (stddev >= 20)">!!</span>
                   </div>
-                  <div class="text-[10px] text-claude-dim truncate max-w-[150px] sm:max-w-xs md:max-w-md" x-text="row.oneLiner"></div>
+                  <div class="text-[10px] text-claude-dim truncate max-w-[100px] xs:max-w-[150px] sm:max-w-xs md:max-w-md hidden xs:block" x-text="row.oneLiner"></div>
                 </td>
                 <template x-for="p in personas" :key="p.abbr">
                   <td class="px-1.5 py-1 text-center tabular-nums border border-claude-border"
@@ -160,9 +160,9 @@
                 <td class="px-1.5 py-1 text-center font-bold tabular-nums border border-claude-border"
                   :class="avgColor(row.avg)"
                   x-text="row.avg != null ? row.avg.toFixed(2) : '-'"></td>
-                <td class="px-1.5 py-1 text-center tabular-nums text-claude-dim border border-claude-border"
+                <td class="px-1.5 py-1 text-center tabular-nums text-claude-dim border border-claude-border hidden sm:table-cell"
                   x-text="row.teamSize != null ? row.teamSize : '-'"></td>
-                <td class="px-1.5 py-1 text-center tabular-nums text-claude-dim border border-claude-border"
+                <td class="px-1.5 py-1 text-center tabular-nums text-claude-dim border border-claude-border hidden sm:table-cell"
                   x-text="row.revenue != null ? row.revenue : '-'"></td>
               </tr>
             </template>
@@ -178,7 +178,7 @@
           <!-- Back + Prev/Next -->
           <div class="flex items-center justify-between mb-3">
             <button @click="navigate('dashboard')" class="text-claude-text hover:text-claude-orange text-xs py-1">&lt;&lt; Dashboard</button>
-            <div class="flex gap-3 sm:gap-2 text-xs">
+            <div class="flex gap-2 sm:gap-3 text-xs">
               <button @click="prevCompany()" :disabled="!hasPrevCompany()"
                 :class="hasPrevCompany() ? 'text-claude-text hover:text-claude-orange' : 'text-claude-dim cursor-not-allowed'"
                 class="py-1">&lt;- Prev</button>
@@ -211,7 +211,7 @@
             <div class="flex flex-wrap gap-1.5 mt-2">
               <template x-if="companyData.metadata.website">
                 <a :href="companyData.metadata.website" target="_blank" rel="noopener"
-                  class="text-[10px] border border-claude-blue text-claude-blue px-1.5 py-0 rounded-none hover:bg-claude-blue hover:text-claude-bg" x-text="companyData.metadata.website"></a>
+                  class="text-[10px] border border-claude-blue text-claude-blue px-1.5 py-0 rounded-none hover:bg-claude-blue hover:text-claude-bg truncate max-w-[200px] sm:max-w-xs inline-block" x-text="companyData.metadata.website"></a>
               </template>
               <template x-if="companyData.metadata.yc_partner && companyData.metadata.yc_partner !== 'Not listed'">
                 <span class="text-[10px] border border-claude-purple text-claude-purple px-1.5 py-0 rounded-none" x-text="'YC Partner: ' + companyData.metadata.yc_partner"></span>
@@ -229,7 +229,7 @@
                 <div class="score-card border border-claude-border p-1.5 text-center"
                   :class="{ 'cursor-pointer': companyData.paths.evals[p.slug], 'score-card-active': activeTab === p.slug }"
                   @click="companyData.paths.evals[p.slug] && loadTabContent(p.slug)">
-                  <div class="text-[10px] text-claude-dim" x-text="p.fullName"></div>
+                  <div class="text-[10px] text-claude-dim truncate" x-text="p.fullName"></div>
                   <div class="text-sm font-bold tabular-nums" :class="tierColor(companyData.evalScores[p.slug] ? companyData.evalScores[p.slug].tier : null)"
                     x-text="companyData.consolidatedScores[p.abbr] != null ? companyData.consolidatedScores[p.abbr] : '-'"></div>
                   <div class="text-[10px] text-claude-dim"
@@ -266,15 +266,15 @@
             <div class="flex border-b border-claude-border overflow-x-auto">
               <button @click="loadTabContent('memo')"
                 :class="activeTab === 'memo' ? 'bg-claude-orange text-claude-bg' : 'text-claude-text hover:text-claude-orange'"
-                class="px-3 py-1 text-xs transition-colors rounded-none">Memo</button>
+                class="px-3 py-1 text-xs transition-colors rounded-none shrink-0">Memo</button>
               <template x-for="p in personas" :key="p.slug">
                 <button @click="loadTabContent(p.slug)"
                   x-show="companyData.paths.evals[p.slug]"
                   :class="activeTab === p.slug ? 'bg-claude-orange text-claude-bg' : 'text-claude-text hover:text-claude-orange'"
-                  class="px-3 py-1 text-xs transition-colors rounded-none" x-text="p.abbr"></button>
+                  class="px-3 py-1 text-xs transition-colors rounded-none shrink-0" x-text="p.abbr"></button>
               </template>
             </div>
-            <div class="border border-t-0 border-claude-border p-2 sm:p-4">
+            <div class="border border-t-0 border-claude-border p-2 sm:p-4 overflow-x-auto">
               <div x-show="tabLoading" class="text-claude-orange text-xs terminal-blink">Loading_</div>
               <div x-show="!tabLoading" class="markdown-body" x-html="tabContent"></div>
             </div>
@@ -423,10 +423,10 @@
     x-transition:leave-end="translate-x-full">
 
     <!-- Backdrop -->
-    <div class="fixed inset-0 bg-black/50" @click="councilOpen = false"></div>
+    <div class="fixed inset-0 bg-black/50 z-0" @click="councilOpen = false"></div>
 
     <!-- Panel -->
-    <div class="relative w-full sm:w-[520px] sm:max-w-full bg-claude-bg border-l-2 border-claude-orange flex flex-col h-full">
+    <div class="relative z-10 w-full sm:w-[520px] sm:max-w-full bg-claude-bg border-l-2 border-claude-orange flex flex-col h-[100dvh]">
       <!-- Panel Header -->
       <div class="flex items-center justify-between px-3 py-2 border-b border-claude-border flex-shrink-0">
         <div>
@@ -514,7 +514,7 @@
             class="flex-1 bg-claude-bg border border-claude-border text-claude-text px-2 py-1 text-xs focus:outline-none focus:border-claude-orange disabled:opacity-50 rounded-none placeholder-claude-dim">
           <button @click="askCouncil()" :disabled="councilAsking || !councilInput.trim()"
             :class="councilAsking || !councilInput.trim() ? 'text-claude-dim border-claude-border cursor-not-allowed' : 'text-claude-orange border-claude-orange hover:bg-claude-orange hover:text-claude-bg'"
-            class="px-3 py-1 border text-xs transition-colors rounded-none">
+            class="px-3 py-1 border text-xs transition-colors rounded-none min-w-[52px] text-center">
             <span x-show="!councilAsking">[send]</span>
             <span x-show="councilAsking" class="terminal-blink">...</span>
           </button>

@@ -1,0 +1,26 @@
+﻿# Menza -- Paul Graham Evaluation
+
+The first thing I notice about Menza is that the problem they're solving is not hiding in plain sight. It's the opposite. "AI-powered analytics for business users" is one of the most actively pursued categories in software right now. ThoughtSpot has $674M in funding and $318M in revenue. Julius AI just raised $11M. Shopify itself is building AI analytics into its platform. When I look at a market and see dozens of well-funded teams converging on the same problem, the question isn't whether the problem is real -- it's whether there's any remaining upside that hasn't been priced in. My instinct with Menza is that the idea emerged from observing a category rather than from a specific personal pain. How did they find this problem? Mariam worked at Goldman Sachs streamlining reporting processes, and Qasim built an AI writing tool. Those are adjacent experiences, but neither founder was a DTC brand operator drowning in disconnected Shopify and Klaviyo dashboards. The jump from "Goldman Sachs reporting workflows" to "AI analytics for e-commerce brands" is the kind of lateral move that happens in brainstorming sessions, not in moments of organic frustration.
+
+That said, Qasim Munye's backstory is genuinely interesting and harder to dismiss than the idea itself. A medical student who taught himself machine learning, built ShortlyAI, and sold it to Jasper -- that's not a common trajectory. The entrepreneurial instinct stretches back to age 14, selling discount codes on eBay. Building and exiting a real AI product while completing a medical degree requires an unusual combination of technical ability and sheer stubbornness. Mariam's CS degree plus Goldman experience means both founders can build. The product exists. It has 650+ integrations. That's real engineering work, not a mockup. I've funded repeat founders with exits before, and the hit rate is measurably higher. Qasim has demonstrated he can make something, get it to users, and navigate an acquisition.
+
+The 12 named customers with specific testimonials are the strongest signal in this dossier. Evolve Beauty saves 60 hours monthly on reports. The Keto Shop discovered a 10% revenue leak from stockouts. yhangry reports 90% of their team became data-driven. These aren't vague endorsements -- they describe concrete business outcomes. At pre-seed, having a dozen paying (presumably) customers who can articulate specific value is ahead of most companies. The question is whether this represents organic pull or founder-driven sales into a narrow UK DTC network. The demo-based sales motion and absence of any self-serve adoption signal suggests the latter. Founder-led sales works, but I'd want to see evidence that customers found Menza without being personally sold to.
+
+The bull case is essentially a DoorDash argument: yes, the category is crowded, but vertical specificity plus execution intensity can win. ThoughtSpot serves enterprises. Julius AI is general-purpose. Menza goes narrow on DTC/e-commerce with pre-built integrations for the exact tools these brands use. If they own this niche before the big players notice it, the classic business-model conflict protects them -- enterprise BI companies won't restructure their sales motion to chase $500/month SMB deals. The 650+ integrations represent a genuine schlep, even if it's a replicable one. And Qasim's track record suggests he knows how to build products that get traction and find buyers. If everything goes right, this becomes the default analytics layer for the long tail of e-commerce brands that can't afford a data team.
+
+But the schlep here isn't the durable kind. Maintaining API integrations is tedious work that any team with $10M can replicate. It's not like navigating banking regulations or building trust between strangers -- it's engineering labor, not structural advantage. The deeper problem is that Shopify, Klaviyo, and Meta are each expanding their native analytics. When your moat is connecting platforms that are each building their own analytics features, the moat drains every time one of those platforms ships an update. The core technology -- LLM-powered querying, anomaly detection, natural language reporting -- is accessible to anyone with API access to the same models Menza uses. This is a real business with real customers, but I don't see the structural advantage that compounds over time.
+
+I'd want to invest in a version of this company where the founders were former DTC operators who lived through the pain of scattered data -- where the problem grew from their own experience running a brand, not from observing the category from adjacent roles. The team is capable. The execution is real. But the idea feels assembled rather than discovered, and the market is converging rather than overlooked.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Organic Problem Discovery and Schlep Willingness | 12/30 |
+| Relentlessly Resourceful Founders | 16/25 |
+| Evidence of Wanting: Demonstrated User Pull | 13/20 |
+| Technical Hacker Founders Who Build | 10/15 |
+| Growth Trajectory and Default Alive Economics | 5/10 |
+| **Total** | **56/100** |
+
+**Total Score: 56/100** (Neutral)

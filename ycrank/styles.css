@@ -205,11 +205,13 @@ body::after {
   background: var(--c-panel);
   color: var(--c-gray);
   font-weight: 700;
+  word-break: normal;
 }
 
 .markdown-body td {
   background: var(--c-bg);
   color: var(--c-text);
+  word-break: normal;
 }
 
 .markdown-body img {

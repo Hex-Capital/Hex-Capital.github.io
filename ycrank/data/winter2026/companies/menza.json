@@ -1,0 +1,76 @@
+{
+  "slug": "menza",
+  "name": "Menza",
+  "oneLiner": "Your 24/7 Data Analyst",
+  "metadata": {
+    "website": "https://menza.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/menza",
+    "batch": "Winter 2026 (YC page). Note: the company's Twitter bio and multiple third-party sources reference \"YC S23,\" suggesting prior participation in Summer 2023.",
+    "industry": "B2B / B2B -> Analytics",
+    "team_size": "3",
+    "location": "Remote (job posting lists London, England, GB)",
+    "tags": "Data Visualization, AI, AI Assistant",
+    "yc_partner": "Not listed",
+    "emails": "info@menza.ai (company website)"
+  },
+  "tags": [
+    "Data Visualization",
+    "AI",
+    "AI Assistant"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-02T22:29:36.141Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 35,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 36,
+    "EG": 41,
+    "NR": 44,
+    "PG": 56,
+    "PT": 32,
+    "SL": 28,
+    "VK": 35
+  },
+  "consolidatedAvg": 38.86,
+  "consolidatedRank": 95,
+  "paths": {
+    "memo": "winter2026/memos/menza.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/menza.md",
+      "elad-gil": "winter2026/evals/elad-gil/menza.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/menza.md",
+      "paul-graham": "winter2026/evals/paul-graham/menza.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/menza.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/menza.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/menza.md"
+    }
+  }
+}

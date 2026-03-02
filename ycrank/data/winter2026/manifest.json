@@ -1,6 +1,6 @@
 {
   "batch": "winter2026",
-  "companyCount": 185,
+  "companyCount": 186,
   "personas": [
     {
       "slug": "cyan-banister",
@@ -3196,6 +3196,39 @@
     },
     {
       "rank": 95,
+      "name": "Menza",
+      "slug": "menza",
+      "scores": {
+        "CB": 36,
+        "EG": 41,
+        "NR": 44,
+        "PG": 56,
+        "PT": 32,
+        "SL": 28,
+        "VK": 35
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 38.86,
+      "revenue": null,
+      "teamSize": 3,
+      "oneLiner": "Your 24/7 Data Analyst",
+      "industry": "B2B / B2B -> Analytics",
+      "tags": [
+        "Data Visualization",
+        "AI",
+        "AI Assistant"
+      ]
+    },
+    {
+      "rank": 96,
       "name": "Librar Labs",
       "slug": "librar-labs",
       "scores": {
@@ -3228,7 +3261,7 @@
       ]
     },
     {
-      "rank": 96,
+      "rank": 97,
       "name": "Patientdesk.ai",
       "slug": "patientdeskai",
       "scores": {
@@ -3262,7 +3295,7 @@
       ]
     },
     {
-      "rank": 97,
+      "rank": 98,
       "name": "Protent",
       "slug": "protent",
       "scores": {
@@ -3297,7 +3330,7 @@
       ]
     },
     {
-      "rank": 98,
+      "rank": 99,
       "name": "REV1",
       "slug": "rev1",
       "scores": {
@@ -3332,7 +3365,7 @@
       ]
     },
     {
-      "rank": 99,
+      "rank": 100,
       "name": "Pollinate",
       "slug": "pollinate",
       "scores": {
@@ -3365,7 +3398,7 @@
       ]
     },
     {
-      "rank": 100,
+      "rank": 101,
       "name": "Synthetic Sciences",
       "slug": "synthetic-sciences",
       "scores": {
@@ -3398,7 +3431,7 @@
       ]
     },
     {
-      "rank": 101,
+      "rank": 102,
       "name": "Vector Legal",
       "slug": "vector-legal",
       "scores": {
@@ -3432,7 +3465,7 @@
       ]
     },
     {
-      "rank": 102,
+      "rank": 103,
       "name": "Human Archive",
       "slug": "human-archive",
       "scores": {
@@ -3465,7 +3498,7 @@
       ]
     },
     {
-      "rank": 103,
+      "rank": 104,
       "name": "Forum",
       "slug": "forum",
       "scores": {
@@ -3498,7 +3531,7 @@
       ]
     },
     {
-      "rank": 104,
+      "rank": 105,
       "name": "RunAnywhere",
       "slug": "runanywhere",
       "scores": {
@@ -3533,7 +3566,7 @@
       ]
     },
     {
-      "rank": 105,
+      "rank": 106,
       "name": "Cardinal",
       "slug": "trycardinal-ai",
       "scores": {
@@ -3564,7 +3597,7 @@
       ]
     },
     {
-      "rank": 106,
+      "rank": 107,
       "name": "Veriad",
       "slug": "veriad",
       "scores": {
@@ -3597,7 +3630,7 @@
       ]
     },
     {
-      "rank": 107,
+      "rank": 108,
       "name": "Captain",
       "slug": "captain",
       "scores": {
@@ -3630,7 +3663,7 @@
       ]
     },
     {
-      "rank": 108,
+      "rank": 109,
       "name": "CatchBack Cards",
       "slug": "catchback-cards",
       "scores": {
@@ -3663,7 +3696,7 @@
       ]
     },
     {
-      "rank": 109,
+      "rank": 110,
       "name": "MochaCare",
       "slug": "mochacare",
       "scores": {
@@ -3698,7 +3731,7 @@
       ]
     },
     {
-      "rank": 110,
+      "rank": 111,
       "name": "Clam",
       "slug": "clam",
       "scores": {
@@ -3732,7 +3765,7 @@
       ]
     },
     {
-      "rank": 111,
+      "rank": 112,
       "name": "Oxus",
       "slug": "oxus",
       "scores": {
@@ -3766,7 +3799,7 @@
       ]
     },
     {
-      "rank": 112,
+      "rank": 113,
       "name": "Perfectly",
       "slug": "perfectly",
       "scores": {
@@ -3798,7 +3831,7 @@
       ]
     },
     {
-      "rank": 113,
+      "rank": 114,
       "name": "Ressl AI",
       "slug": "ressl-ai",
       "scores": {
@@ -3832,7 +3865,7 @@
       ]
     },
     {
-      "rank": 114,
+      "rank": 115,
       "name": "Jinba",
       "slug": "jinba",
       "scores": {
@@ -3861,7 +3894,7 @@
       "tags": []
     },
     {
-      "rank": 115,
+      "rank": 116,
       "name": "Polymath",
       "slug": "polymath",
       "scores": {
@@ -3895,7 +3928,7 @@
       ]
     },
     {
-      "rank": 116,
+      "rank": 117,
       "name": "Pocket",
       "slug": "pocket",
       "scores": {
@@ -3924,7 +3957,7 @@
       "tags": []
     },
     {
-      "rank": 117,
+      "rank": 118,
       "name": "Prana",
       "slug": "prana-health",
       "scores": {
@@ -3955,7 +3988,7 @@
       ]
     },
     {
-      "rank": 118,
+      "rank": 119,
       "name": "Overdrive Health",
       "slug": "overdrive-health",
       "scores": {
@@ -3988,7 +4021,7 @@
       ]
     },
     {
-      "rank": 119,
+      "rank": 120,
       "name": "Confluence Labs",
       "slug": "confluence-labs",
       "scores": {
@@ -4020,7 +4053,7 @@
       ]
     },
     {
-      "rank": 120,
+      "rank": 121,
       "name": "Doomersion",
       "slug": "doomersion",
       "scores": {
@@ -4051,7 +4084,7 @@
       ]
     },
     {
-      "rank": 121,
+      "rank": 122,
       "name": "Return Signals",
       "slug": "return-signals",
       "scores": {
@@ -4084,7 +4117,7 @@
       ]
     },
     {
-      "rank": 122,
+      "rank": 123,
       "name": "Skillsync",
       "slug": "skillsync",
       "scores": {
@@ -4118,7 +4151,7 @@
       ]
     },
     {
-      "rank": 123,
+      "rank": 124,
       "name": "ZeroSettle",
       "slug": "zerosettle",
       "scores": {
@@ -4151,7 +4184,7 @@
       ]
     },
     {
-      "rank": 124,
+      "rank": 125,
       "name": "Cumulus Labs",
       "slug": "cumulus-labs",
       "scores": {
@@ -4185,7 +4218,7 @@
       ]
     },
     {
-      "rank": 125,
+      "rank": 126,
       "name": "Terminal Use",
       "slug": "terminal-use",
       "scores": {
@@ -4220,7 +4253,7 @@
       ]
     },
     {
-      "rank": 126,
+      "rank": 127,
       "name": "EigenPal",
       "slug": "eigenpal",
       "scores": {
@@ -4253,7 +4286,7 @@
       ]
     },
     {
-      "rank": 127,
+      "rank": 128,
       "name": "1code (21st.dev)",
       "slug": "1code-21stdev",
       "scores": {
@@ -4286,7 +4319,7 @@
       ]
     },
     {
-      "rank": 128,
+      "rank": 129,
       "name": "Lexius",
       "slug": "lexius",
       "scores": {
@@ -4319,7 +4352,7 @@
       ]
     },
     {
-      "rank": 129,
+      "rank": 130,
       "name": "Shofo",
       "slug": "shofo",
       "scores": {
@@ -4353,7 +4386,7 @@
       ]
     },
     {
-      "rank": 130,
+      "rank": 131,
       "name": "Haladir",
       "slug": "haladir",
       "scores": {
@@ -4386,7 +4419,7 @@
       ]
     },
     {
-      "rank": 131,
+      "rank": 132,
       "name": "IncidentFox",
       "slug": "brownie",
       "scores": {
@@ -4419,7 +4452,7 @@
       ]
     },
     {
-      "rank": 132,
+      "rank": 133,
       "name": "Luel",
       "slug": "luel",
       "scores": {
@@ -4452,7 +4485,7 @@
       ]
     },
     {
-      "rank": 133,
+      "rank": 134,
       "name": "Strand AI",
       "slug": "strand-ai",
       "scores": {
@@ -4485,7 +4518,7 @@
       ]
     },
     {
-      "rank": 134,
+      "rank": 135,
       "name": "RamAIn",
       "slug": "ramain",
       "scores": {
@@ -4518,7 +4551,7 @@
       ]
     },
     {
-      "rank": 135,
+      "rank": 136,
       "name": "Stilta",
       "slug": "stilta",
       "scores": {
@@ -4550,7 +4583,7 @@
       ]
     },
     {
-      "rank": 136,
+      "rank": 137,
       "name": "Cascade",
       "slug": "cascade",
       "scores": {
@@ -4585,7 +4618,7 @@
       ]
     },
     {
-      "rank": 137,
+      "rank": 138,
       "name": "Velum Labs",
       "slug": "velum-labs",
       "scores": {
@@ -4619,7 +4652,7 @@
       ]
     },
     {
-      "rank": 138,
+      "rank": 139,
       "name": "Q2Q",
       "slug": "q2q",
       "scores": {
@@ -4653,7 +4686,7 @@
       ]
     },
     {
-      "rank": 139,
+      "rank": 140,
       "name": "Salus",
       "slug": "salus",
       "scores": {
@@ -4688,7 +4721,7 @@
       ]
     },
     {
-      "rank": 140,
+      "rank": 141,
       "name": "Traverse",
       "slug": "traverse",
       "scores": {
@@ -4720,7 +4753,7 @@
       ]
     },
     {
-      "rank": 141,
+      "rank": 142,
       "name": "Ritivel",
       "slug": "ritivel",
       "scores": {
@@ -4755,7 +4788,7 @@
       ]
     },
     {
-      "rank": 142,
+      "rank": 143,
       "name": "Unisson",
       "slug": "unisson",
       "scores": {
@@ -4788,7 +4821,7 @@
       ]
     },
     {
-      "rank": 143,
+      "rank": 144,
       "name": "Avoice",
       "slug": "avoice",
       "scores": {
@@ -4822,7 +4855,7 @@
       ]
     },
     {
-      "rank": 144,
+      "rank": 145,
       "name": "Agentic Fabriq",
       "slug": "agentic-fabriq",
       "scores": {
@@ -4857,7 +4890,7 @@
       ]
     },
     {
-      "rank": 145,
+      "rank": 146,
       "name": "Maven",
       "slug": "maven",
       "scores": {
@@ -4892,7 +4925,7 @@
       ]
     },
     {
-      "rank": 146,
+      "rank": 147,
       "name": "SideKit",
       "slug": "sidekit",
       "scores": {
@@ -4925,7 +4958,7 @@
       ]
     },
     {
-      "rank": 147,
+      "rank": 148,
       "name": "Envariant",
       "slug": "envariant",
       "scores": {
@@ -4958,7 +4991,7 @@
       ]
     },
     {
-      "rank": 148,
+      "rank": 149,
       "name": "Sonarly",
       "slug": "sonarly",
       "scores": {
@@ -4990,7 +5023,7 @@
       ]
     },
     {
-      "rank": 149,
+      "rank": 150,
       "name": "Travo",
       "slug": "travo",
       "scores": {
@@ -5023,7 +5056,7 @@
       ]
     },
     {
-      "rank": 150,
+      "rank": 151,
       "name": "Emdash",
       "slug": "emdash",
       "scores": {
@@ -5057,7 +5090,7 @@
       ]
     },
     {
-      "rank": 151,
+      "rank": 152,
       "name": "Carson",
       "slug": "carson",
       "scores": {
@@ -5092,7 +5125,7 @@
       ]
     },
     {
-      "rank": 152,
+      "rank": 153,
       "name": "Cajal",
       "slug": "cajal-technologies",
       "scores": {
@@ -5125,7 +5158,7 @@
       ]
     },
     {
-      "rank": 153,
+      "rank": 154,
       "name": "Fenrock AI (YC W26)",
       "slug": "fenrock-ai-yc-w26",
       "scores": {
@@ -5159,7 +5192,7 @@
       ]
     },
     {
-      "rank": 154,
+      "rank": 155,
       "name": "Sequence Markets",
       "slug": "sequence-markets",
       "scores": {
@@ -5192,7 +5225,7 @@
       ]
     },
     {
-      "rank": 155,
+      "rank": 156,
       "name": "Polymorph",
       "slug": "polymorph",
       "scores": {
@@ -5227,7 +5260,7 @@
       ]
     },
     {
-      "rank": 156,
+      "rank": 157,
       "name": "Inviscid AI",
       "slug": "inviscid-ai",
       "scores": {
@@ -5261,7 +5294,7 @@
       ]
     },
     {
-      "rank": 157,
+      "rank": 158,
       "name": "Moda",
       "slug": "moda",
       "scores": {
@@ -5295,7 +5328,7 @@
       ]
     },
     {
-      "rank": 158,
+      "rank": 159,
       "name": "Compresr",
       "slug": "compresr",
       "scores": {
@@ -5329,7 +5362,7 @@
       ]
     },
     {
-      "rank": 159,
+      "rank": 160,
       "name": "Copperlane",
       "slug": "copperlane",
       "scores": {
@@ -5361,7 +5394,7 @@
       ]
     },
     {
-      "rank": 160,
+      "rank": 161,
       "name": "Docura Health",
       "slug": "docura-health",
       "scores": {
@@ -5394,7 +5427,7 @@
       ]
     },
     {
-      "rank": 161,
+      "rank": 162,
       "name": "o11",
       "slug": "o11",
       "scores": {
@@ -5429,7 +5462,7 @@
       ]
     },
     {
-      "rank": 162,
+      "rank": 163,
       "name": "Lucent",
       "slug": "lucent",
       "scores": {
@@ -5462,7 +5495,7 @@
       ]
     },
     {
-      "rank": 163,
+      "rank": 164,
       "name": "sitefire",
       "slug": "sitefire",
       "scores": {
@@ -5495,7 +5528,7 @@
       ]
     },
     {
-      "rank": 164,
+      "rank": 165,
       "name": "Zatanna",
       "slug": "zatanna",
       "scores": {
@@ -5530,7 +5563,7 @@
       ]
     },
     {
-      "rank": 165,
+      "rank": 166,
       "name": "Bubble Lab",
       "slug": "bubble-lab",
       "scores": {
@@ -5563,7 +5596,7 @@
       ]
     },
     {
-      "rank": 166,
+      "rank": 167,
       "name": "Booko",
       "slug": "booko",
       "scores": {
@@ -5597,7 +5630,7 @@
       ]
     },
     {
-      "rank": 167,
+      "rank": 168,
       "name": "Caretta",
       "slug": "caretta",
       "scores": {
@@ -5631,7 +5664,7 @@
       ]
     },
     {
-      "rank": 168,
+      "rank": 169,
       "name": "Axis",
       "slug": "axis-2",
       "scores": {
@@ -5662,7 +5695,7 @@
       ]
     },
     {
-      "rank": 169,
+      "rank": 170,
       "name": "Cofia",
       "slug": "cofia",
       "scores": {
@@ -5696,7 +5729,7 @@
       ]
     },
     {
-      "rank": 170,
+      "rank": 171,
       "name": "Tensol",
       "slug": "tensol",
       "scores": {
@@ -5730,7 +5763,7 @@
       ]
     },
     {
-      "rank": 171,
+      "rank": 172,
       "name": "Autumn AI",
       "slug": "autumn-ai",
       "scores": {
@@ -5764,7 +5797,7 @@
       ]
     },
     {
-      "rank": 172,
+      "rank": 173,
       "name": "Sila",
       "slug": "sila",
       "scores": {
@@ -5796,7 +5829,7 @@
       ]
     },
     {
-      "rank": 173,
+      "rank": 174,
       "name": "Sparkles",
       "slug": "sparkles",
       "scores": {
@@ -5828,7 +5861,7 @@
       ]
     },
     {
-      "rank": 174,
+      "rank": 175,
       "name": "Crow",
       "slug": "crow",
       "scores": {
@@ -5863,7 +5896,7 @@
       ]
     },
     {
-      "rank": 175,
+      "rank": 176,
       "name": "Arzule",
       "slug": "arzule",
       "scores": {
@@ -5897,7 +5930,7 @@
       ]
     },
     {
-      "rank": 176,
+      "rank": 177,
       "name": "Pollen",
       "slug": "pollen",
       "scores": {
@@ -5931,7 +5964,7 @@
       ]
     },
     {
-      "rank": 177,
+      "rank": 178,
       "name": "Hex Security",
       "slug": "hex-security",
       "scores": {
@@ -5963,7 +5996,7 @@
       ]
     },
     {
-      "rank": 178,
+      "rank": 179,
       "name": "Tepali",
       "slug": "tepali",
       "scores": {
@@ -5998,7 +6031,7 @@
       ]
     },
     {
-      "rank": 179,
+      "rank": 180,
       "name": "Sentrial",
       "slug": "sentrial",
       "scores": {
@@ -6032,7 +6065,7 @@
       ]
     },
     {
-      "rank": 180,
+      "rank": 181,
       "name": "Bits",
       "slug": "bits-2",
       "scores": {
@@ -6064,7 +6097,7 @@
       ]
     },
     {
-      "rank": 181,
+      "rank": 182,
       "name": "Button Computer",
       "slug": "button-computer",
       "scores": {
@@ -6097,7 +6130,7 @@
       ]
     },
     {
-      "rank": 182,
+      "rank": 183,
       "name": "Resonate",
       "slug": "resonate",
       "scores": {
@@ -6126,7 +6159,7 @@
       "tags": []
     },
     {
-      "rank": 183,
+      "rank": 184,
       "name": "Ashr",
       "slug": "ashr",
       "scores": {
@@ -6161,7 +6194,7 @@
       ]
     },
     {
-      "rank": 184,
+      "rank": 185,
       "name": "Burt",
       "slug": "burt",
       "scores": {
@@ -6194,7 +6227,7 @@
       ]
     },
     {
-      "rank": 185,
+      "rank": 186,
       "name": "Rubric AI",
       "slug": "rubric-ai",
       "scores": {

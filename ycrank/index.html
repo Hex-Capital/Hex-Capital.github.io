@@ -7,7 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>YCRank</title>
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
-  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="manifest" href="manifest.json">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="theme-color" content="#1a1815">
   <script src="https://cdn.tailwindcss.com"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3/dist/cdn.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
@@ -64,7 +68,7 @@
           <div class="nav-dot nav-dot-green"></div>
         </div>
         <h1 class="text-sm font-bold text-claude-orange cursor-pointer sm:tracking-wider flex-shrink-0" @click="navigate('dashboard')">[YCRank]</h1>
-        <span class="text-claude-border hidden sm:inline">|</span>
+        <span class="text-claude-border">|</span>
         <select x-model="currentBatch" @change="loadBatch(currentBatch)"
           class="bg-claude-bg border border-claude-border text-claude-orange px-1.5 sm:px-2 py-0.5 text-xs rounded-none focus:outline-none focus:border-claude-orange min-w-0 max-w-[100px] xs:max-w-none">
           <template x-for="b in batches" :key="b">
@@ -75,7 +79,7 @@
       <div class="flex items-center gap-1 text-xs overflow-hidden">
         <button @click="navigate('dashboard')"
           :class="view === 'dashboard' ? 'bg-claude-orange text-claude-bg px-1.5 sm:px-2 py-1.5' : 'text-claude-text hover:text-claude-orange px-1.5 sm:px-2 py-1.5'"
-          class="transition-colors font-mono"><span class="sm:hidden">Dash</span><span class="hidden sm:inline">Dashboard</span></button>
+          class="transition-colors font-mono hidden sm:inline">Dashboard</button>
         <span class="text-claude-border hidden sm:inline">|</span>
         <button @click="navigate('analytics')"
           :class="view === 'analytics' ? 'bg-claude-orange text-claude-bg px-1.5 sm:px-2 py-1.5' : 'text-claude-text hover:text-claude-orange px-1.5 sm:px-2 py-1.5'"

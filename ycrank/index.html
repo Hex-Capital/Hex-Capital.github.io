@@ -21,8 +21,6 @@
           'sm': '640px',
           'md': '768px',
           'lg': '1024px',
-          'xl': '1280px',
-          '2xl': '1536px',
         },
         extend: {
           fontFamily: {
@@ -41,8 +39,6 @@
               gray: 'var(--c-gray)',
               dim: 'var(--c-dim)',
               border: 'var(--c-border)',
-              cream: '#faf9f5',
-              'cream-dark': '#f5f4ed',
               amber: 'var(--c-amber)',
               red: 'var(--c-red)',
               purple: 'var(--c-purple)',
@@ -78,10 +74,10 @@
         <button @click="navigate('dashboard')"
           :class="view === 'dashboard' ? 'bg-claude-orange text-claude-bg px-1.5 sm:px-2 py-0.5' : 'text-claude-text hover:text-claude-orange px-1.5 sm:px-2 py-0.5'"
           class="transition-colors font-mono"><span class="sm:hidden">Dash</span><span class="hidden sm:inline">Dashboard</span></button>
-        <span class="text-claude-border">|</span>
+        <span class="text-claude-border hidden sm:inline">|</span>
         <button @click="navigate('analytics')"
           :class="view === 'analytics' ? 'bg-claude-orange text-claude-bg px-1.5 sm:px-2 py-0.5' : 'text-claude-text hover:text-claude-orange px-1.5 sm:px-2 py-0.5'"
-          class="transition-colors font-mono">Analytics</button>
+          class="transition-colors font-mono hidden sm:inline">Analytics</button>
         <template x-if="manifest && manifest.hasTraction">
           <span class="flex items-center">
             <span class="text-claude-border">|</span>

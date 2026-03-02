@@ -254,6 +254,11 @@ function app() {
         // Strip BOM
         md = md.replace(/^\uFEFF/, '');
         const html = marked.parse(md);
+        // Cap cache at 50 entries, evict oldest on overflow
+        const keys = Object.keys(this.mdCache);
+        if (keys.length >= 50) {
+          delete this.mdCache[keys[0]];
+        }
         this.mdCache[mdPath] = html;
         this.tabContent = html;
       } catch (e) {
@@ -486,11 +491,6 @@ function app() {
     },
 
     // --- Helpers ---
-
-    renderMarkdown(text) {
-      if (!text) return '';
-      return marked.parse(text);
-    },
 
     tierColor(tier) {
       if (!tier) return 'text-claude-dim';

@@ -48,7 +48,7 @@
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 41,
+      "score": 38,
       "tier": "Pass"
     }
   },
@@ -59,10 +59,10 @@
     "PG": 52,
     "PT": 33,
     "SL": 29,
-    "VK": 41
+    "VK": 38
   },
-  "consolidatedAvg": 40.57,
-  "consolidatedRank": 84,
+  "consolidatedAvg": 40.14,
+  "consolidatedRank": 86,
   "paths": {
     "memo": "winter2026/memos/vela.md",
     "evals": {

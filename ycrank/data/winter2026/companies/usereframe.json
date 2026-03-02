@@ -46,7 +46,7 @@
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 39,
+      "score": 38,
       "tier": "Pass"
     }
   },
@@ -57,9 +57,9 @@
     "PG": 54,
     "PT": 32,
     "SL": 26,
-    "VK": 39
+    "VK": 38
   },
-  "consolidatedAvg": 39.57,
+  "consolidatedAvg": 39.43,
   "consolidatedRank": 92,
   "paths": {
     "memo": "winter2026/memos/usereframe.md",

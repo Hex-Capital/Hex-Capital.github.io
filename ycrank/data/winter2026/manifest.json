@@ -2829,41 +2829,6 @@
     },
     {
       "rank": 84,
-      "name": "Vela",
-      "slug": "vela",
-      "scores": {
-        "CB": 42,
-        "EG": 43,
-        "NR": 44,
-        "PG": 52,
-        "PT": 33,
-        "SL": 29,
-        "VK": 41
-      },
-      "tiers": {
-        "CB": "Pass",
-        "EG": "Pass",
-        "NR": "Pass",
-        "PG": "Neutral",
-        "PT": "Pass",
-        "SL": "Pass",
-        "VK": "Pass"
-      },
-      "avg": 40.57,
-      "revenue": null,
-      "teamSize": 4,
-      "oneLiner": "The AI Scheduling Assistant that truly knows you.",
-      "industry": "B2B / B2B",
-      "tags": [
-        "Artificial Intelligence",
-        "B2B",
-        "Recruiting",
-        "Calendar",
-        "AI Assistant"
-      ]
-    },
-    {
-      "rank": 85,
       "name": "Scout Out",
       "slug": "scout-out",
       "scores": {
@@ -2897,7 +2862,7 @@
       ]
     },
     {
-      "rank": 86,
+      "rank": 85,
       "name": "Condor Energy",
       "slug": "condor-energy",
       "scores": {
@@ -2926,6 +2891,41 @@
       "tags": [
         "B2B",
         "Energy"
+      ]
+    },
+    {
+      "rank": 86,
+      "name": "Vela",
+      "slug": "vela",
+      "scores": {
+        "CB": 42,
+        "EG": 43,
+        "NR": 44,
+        "PG": 52,
+        "PT": 33,
+        "SL": 29,
+        "VK": 38
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 40.14,
+      "revenue": null,
+      "teamSize": 4,
+      "oneLiner": "The AI Scheduling Assistant that truly knows you.",
+      "industry": "B2B / B2B",
+      "tags": [
+        "Artificial Intelligence",
+        "B2B",
+        "Recruiting",
+        "Calendar",
+        "AI Assistant"
       ]
     },
     {
@@ -3105,7 +3105,7 @@
         "PG": 54,
         "PT": 32,
         "SL": 26,
-        "VK": 39
+        "VK": 38
       },
       "tiers": {
         "CB": "Pass",
@@ -3116,7 +3116,7 @@
         "SL": "Pass",
         "VK": "Pass"
       },
-      "avg": 39.57,
+      "avg": 39.43,
       "revenue": null,
       "teamSize": 2,
       "oneLiner": "AI agents to automate hardware procurement",
@@ -3565,6 +3565,39 @@
     },
     {
       "rank": 106,
+      "name": "Veriad",
+      "slug": "veriad",
+      "scores": {
+        "CB": 33,
+        "EG": 44,
+        "NR": 40,
+        "PG": 56,
+        "PT": 26,
+        "SL": 26,
+        "VK": 36
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 37.29,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "AI compliance officers",
+      "industry": "B2B / B2B",
+      "tags": [
+        "B2B",
+        "Compliance",
+        "Marketing"
+      ]
+    },
+    {
+      "rank": 107,
       "name": "Captain",
       "slug": "captain",
       "scores": {
@@ -3597,7 +3630,7 @@
       ]
     },
     {
-      "rank": 107,
+      "rank": 108,
       "name": "CatchBack Cards",
       "slug": "catchback-cards",
       "scores": {
@@ -3630,7 +3663,7 @@
       ]
     },
     {
-      "rank": 108,
+      "rank": 109,
       "name": "MochaCare",
       "slug": "mochacare",
       "scores": {
@@ -3665,7 +3698,7 @@
       ]
     },
     {
-      "rank": 109,
+      "rank": 110,
       "name": "Clam",
       "slug": "clam",
       "scores": {
@@ -3699,7 +3732,7 @@
       ]
     },
     {
-      "rank": 110,
+      "rank": 111,
       "name": "Oxus",
       "slug": "oxus",
       "scores": {
@@ -3733,7 +3766,7 @@
       ]
     },
     {
-      "rank": 111,
+      "rank": 112,
       "name": "Perfectly",
       "slug": "perfectly",
       "scores": {
@@ -3762,39 +3795,6 @@
       "tags": [
         "Artificial Intelligence",
         "Recruiting"
-      ]
-    },
-    {
-      "rank": 112,
-      "name": "Veriad",
-      "slug": "veriad",
-      "scores": {
-        "CB": 33,
-        "EG": 44,
-        "NR": 40,
-        "PG": 56,
-        "PT": 26,
-        "SL": 26,
-        "VK": 32
-      },
-      "tiers": {
-        "CB": "Pass",
-        "EG": "Pass",
-        "NR": "Pass",
-        "PG": "Neutral",
-        "PT": "Pass",
-        "SL": "Pass",
-        "VK": "Pass"
-      },
-      "avg": 36.71,
-      "revenue": null,
-      "teamSize": 2,
-      "oneLiner": "AI compliance officers",
-      "industry": "B2B / B2B",
-      "tags": [
-        "B2B",
-        "Compliance",
-        "Marketing"
       ]
     },
     {
@@ -4689,6 +4689,38 @@
     },
     {
       "rank": 140,
+      "name": "Traverse",
+      "slug": "traverse",
+      "scores": {
+        "CB": 32,
+        "EG": 34,
+        "NR": 37,
+        "PG": 42,
+        "PT": 24,
+        "SL": 26,
+        "VK": 42
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 33.86,
+      "revenue": null,
+      "teamSize": 2,
+      "oneLiner": "Data research company building RL envs for non-deterministic work",
+      "industry": "B2B / B2B",
+      "tags": [
+        "Artificial Intelligence",
+        "Reinforcement Learning"
+      ]
+    },
+    {
+      "rank": 141,
       "name": "Ritivel",
       "slug": "ritivel",
       "scores": {
@@ -4720,38 +4752,6 @@
         "Enterprise Software",
         "Regtech",
         "Biotechnology"
-      ]
-    },
-    {
-      "rank": 141,
-      "name": "Traverse",
-      "slug": "traverse",
-      "scores": {
-        "CB": 32,
-        "EG": 34,
-        "NR": 37,
-        "PG": 42,
-        "PT": 24,
-        "SL": 26,
-        "VK": 41
-      },
-      "tiers": {
-        "CB": "Pass",
-        "EG": "Pass",
-        "NR": "Pass",
-        "PG": "Pass",
-        "PT": "Pass",
-        "SL": "Pass",
-        "VK": "Pass"
-      },
-      "avg": 33.71,
-      "revenue": null,
-      "teamSize": 2,
-      "oneLiner": "Data research company building RL envs for non-deterministic work",
-      "industry": "B2B / B2B",
-      "tags": [
-        "Artificial Intelligence",
-        "Reinforcement Learning"
       ]
     },
     {
@@ -6300,7 +6300,7 @@
         "PG": 0.65,
         "PT": null,
         "SL": 0.85,
-        "VK": 0.79
+        "VK": 0.78
       }
     },
     {
@@ -6322,7 +6322,7 @@
         "EG": 0.39,
         "NR": 0.7,
         "PG": 0.41,
-        "PT": 0.79,
+        "PT": 0.78,
         "SL": 0.79,
         "VK": null
       }

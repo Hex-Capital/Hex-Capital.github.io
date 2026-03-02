@@ -46,7 +46,7 @@
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 32,
+      "score": 36,
       "tier": "Pass"
     }
   },
@@ -57,10 +57,10 @@
     "PG": 56,
     "PT": 26,
     "SL": 26,
-    "VK": 32
+    "VK": 36
   },
-  "consolidatedAvg": 36.71,
-  "consolidatedRank": 112,
+  "consolidatedAvg": 37.29,
+  "consolidatedRank": 106,
   "paths": {
     "memo": "winter2026/memos/veriad.md",
     "evals": {

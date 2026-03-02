@@ -12,8 +12,8 @@ function app() {
 
     // Dashboard state
     search: '',
-    sortCol: 'rank',
-    sortDir: 1,
+    sortCol: 'avg',
+    sortDir: -1,
 
     // Company detail state
     companyData: null,

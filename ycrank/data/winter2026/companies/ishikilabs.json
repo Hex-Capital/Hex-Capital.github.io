@@ -19,12 +19,58 @@
     "AI"
   ],
   "slideImage": null,
-  "evalScores": {},
-  "consolidatedScores": {},
-  "consolidatedAvg": null,
-  "consolidatedRank": null,
+  "memoGeneratedAt": "2026-02-28T04:43:11.674Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 47,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 32,
+    "EG": 41,
+    "NR": 56,
+    "PG": 47,
+    "PT": 37,
+    "SL": 28,
+    "VK": 47
+  },
+  "consolidatedAvg": 41.14,
+  "consolidatedRank": 77,
   "paths": {
     "memo": "winter2026/memos/ishikilabs.md",
-    "evals": {}
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/ishikilabs.md",
+      "elad-gil": "winter2026/evals/elad-gil/ishikilabs.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/ishikilabs.md",
+      "paul-graham": "winter2026/evals/paul-graham/ishikilabs.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/ishikilabs.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/ishikilabs.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/ishikilabs.md"
+    }
   }
 }

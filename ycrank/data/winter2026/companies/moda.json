@@ -20,47 +20,48 @@
     "Infrastructure"
   ],
   "slideImage": null,
+  "memoGeneratedAt": "2026-02-27T15:59:51.556Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 32,
+      "score": 27,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 40,
+      "score": 34,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 43,
+      "score": 39,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 50,
+      "score": 45,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 24,
+      "score": 26,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 26,
+      "score": 21,
       "tier": "Strong Pass"
     },
     "vinod-khosla": {
-      "score": 35,
+      "score": 34,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 32,
-    "EG": 40,
-    "NR": 43,
-    "PG": 50,
-    "PT": 24,
-    "SL": 26,
-    "VK": 35
+    "CB": 27,
+    "EG": 34,
+    "NR": 39,
+    "PG": 45,
+    "PT": 26,
+    "SL": 21,
+    "VK": 34
   },
-  "consolidatedAvg": 35.71,
-  "consolidatedRank": 117,
+  "consolidatedAvg": 32.29,
+  "consolidatedRank": 157,
   "paths": {
     "memo": "winter2026/memos/moda.md",
     "evals": {

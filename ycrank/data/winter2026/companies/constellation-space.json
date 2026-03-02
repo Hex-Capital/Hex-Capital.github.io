@@ -21,47 +21,48 @@
     "AI"
   ],
   "slideImage": null,
+  "memoGeneratedAt": "2026-02-28T04:19:37.362Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 42,
-      "tier": "Pass"
+      "score": 52,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 48,
+      "score": 57,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 62,
-      "tier": "Neutral"
+      "score": 65,
+      "tier": "Invest"
     },
     "paul-graham": {
-      "score": 59,
+      "score": 60,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 45,
+      "score": 49,
       "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 39,
-      "tier": "Pass"
+      "score": 52,
+      "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 45,
+      "score": 53,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 42,
-    "EG": 48,
-    "NR": 62,
-    "PG": 59,
-    "PT": 45,
-    "SL": 39,
-    "VK": 45
+    "CB": 52,
+    "EG": 57,
+    "NR": 65,
+    "PG": 60,
+    "PT": 49,
+    "SL": 52,
+    "VK": 53
   },
-  "consolidatedAvg": 48.57,
-  "consolidatedRank": 26,
+  "consolidatedAvg": 55.43,
+  "consolidatedRank": 11,
   "paths": {
     "memo": "winter2026/memos/constellation-space.md",
     "evals": {

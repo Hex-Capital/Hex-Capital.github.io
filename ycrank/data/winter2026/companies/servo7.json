@@ -21,47 +21,48 @@
     "Automation"
   ],
   "slideImage": null,
+  "memoGeneratedAt": "2026-02-28T04:19:45.405Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 47,
-      "tier": "Neutral"
+      "score": 37,
+      "tier": "Pass"
     },
     "elad-gil": {
       "score": 36,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 48,
+      "score": 49,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 47,
+      "score": 46,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 33,
+      "score": 29,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 36,
+      "score": 33,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 53,
+      "score": 47,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 47,
+    "CB": 37,
     "EG": 36,
-    "NR": 48,
-    "PG": 47,
-    "PT": 33,
-    "SL": 36,
-    "VK": 53
+    "NR": 49,
+    "PG": 46,
+    "PT": 29,
+    "SL": 33,
+    "VK": 47
   },
-  "consolidatedAvg": 42.86,
-  "consolidatedRank": 55,
+  "consolidatedAvg": 39.57,
+  "consolidatedRank": 91,
   "paths": {
     "memo": "winter2026/memos/servo7.md",
     "evals": {

@@ -17,6 +17,7 @@
     "SMS"
   ],
   "slideImage": null,
+  "memoGeneratedAt": "2026-02-20T19:40:06.524Z",
   "evalScores": {
     "cyan-banister": {
       "score": 31,
@@ -57,7 +58,7 @@
     "VK": 34
   },
   "consolidatedAvg": 35.86,
-  "consolidatedRank": 113,
+  "consolidatedRank": 121,
   "paths": {
     "memo": "winter2026/memos/return-signals.md",
     "evals": {

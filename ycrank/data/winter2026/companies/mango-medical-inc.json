@@ -19,12 +19,58 @@
     "AI"
   ],
   "slideImage": null,
-  "evalScores": {},
-  "consolidatedScores": {},
-  "consolidatedAvg": null,
-  "consolidatedRank": null,
+  "memoGeneratedAt": "2026-02-27T16:06:31.897Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 44,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 43,
+    "EG": 33,
+    "NR": 50,
+    "PG": 47,
+    "PT": 38,
+    "SL": 33,
+    "VK": 44
+  },
+  "consolidatedAvg": 41.14,
+  "consolidatedRank": 78,
   "paths": {
     "memo": "winter2026/memos/mango-medical-inc.md",
-    "evals": {}
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/mango-medical-inc.md",
+      "elad-gil": "winter2026/evals/elad-gil/mango-medical-inc.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/mango-medical-inc.md",
+      "paul-graham": "winter2026/evals/paul-graham/mango-medical-inc.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/mango-medical-inc.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/mango-medical-inc.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/mango-medical-inc.md"
+    }
   }
 }

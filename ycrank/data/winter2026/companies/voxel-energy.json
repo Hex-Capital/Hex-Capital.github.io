@@ -17,6 +17,7 @@
     "AI"
   ],
   "slideImage": null,
+  "memoGeneratedAt": "2026-02-20T05:50:29.911Z",
   "evalScores": {
     "cyan-banister": {
       "score": 46,
@@ -57,7 +58,7 @@
     "VK": 64
   },
   "consolidatedAvg": 53.14,
-  "consolidatedRank": 14,
+  "consolidatedRank": 17,
   "paths": {
     "memo": "winter2026/memos/voxel-energy.md",
     "evals": {

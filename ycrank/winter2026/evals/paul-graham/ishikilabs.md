@@ -1,0 +1,26 @@
+﻿# Fern (Formerly Ishiki Labs) -- Paul Graham Evaluation
+
+The first thing I notice about Fern is the competitive landscape. Otter.ai is at $100M ARR. Fireflies.ai has a $1B valuation. Read.ai has raised $81M. Fathom grew 90x in two years. When four well-funded companies are already fighting over the same meeting AI space, and you show up as two people with YC money, you need something extraordinary to justify entering the ring. Fern's answer is "social awareness" — the AI knows when to speak and when to shut up. That's a real technical distinction. But a feature is not a company. Every one of those incumbents has the resources to add real-time participation capabilities, and OpenAI and Google are building the foundation models that could make this a checkbox feature in the next API release. This is the kind of hot, crowded category where the consensus idea has already been priced.
+
+How did Amit and Robert find this problem? As far as I can tell from the evidence, they didn't stumble into it — they engineered their way toward it. They built multimodal AI assistants for Ray-Ban smart glasses at Meta, and then went looking for a market where those skills would be valuable. That's not the same thing as Drew Houston forgetting his USB drive. It's not even the same as the Collisons getting fed up with payment APIs. It's smart people with impressive hammers looking for the right nail. When I ask "would these founders have built this product if they weren't starting a startup?" I'm not sure the answer is yes. The "starting with sales" positioning reinforces this — it sounds like a go-to-market strategy arrived at through analysis, not a problem domain the founders have been living inside.
+
+The strongest case for Fern is the technical depth of the founders, and I want to take that seriously because it's genuine. Amit has a PhD from Purdue, trained models on Meta's LLaMA team, and has 298 citations across 32 publications at venues like CVPR and NeurIPS. Robert spent four years building low-latency inference systems for the exact category of product they're now commercializing. They worked together at Meta, so the co-founder relationship has been tested under pressure. And they've already built fern-0.1 — they're not pitching a slide deck. If there's any two-person team in the world qualified to build a socially-aware, real-time meeting AI, this might be it. The technical credentials are about as strong as I've seen at this stage.
+
+But technical brilliance applied to a manufactured idea is precisely the failure mode I worry most about. The meeting AI space doesn't exhibit schlep blindness — the opposite. Everyone can see this opportunity. The schlep here is purely technical (real-time inference, turn-taking models, latency optimization), and technical schleps get commoditized. Stripe's schlep was dealing with banks, regulators, and fraud — boring, painful, regulatory work that no foundation model can automate away. Fern's schlep is building better real-time AI, which is exactly what OpenAI, Google, and every other foundation model lab is pouring billions into. When your moat depends on staying ahead of the organizations training the underlying models you depend on, you're running a race where the track is getting shorter every quarter.
+
+What would have to be true for this to be great? Two things. First, that "social awareness" turns out to be a genuinely hard, data-flywheel problem — the more meetings Fern participates in, the better it gets at understanding when to speak, and this advantage compounds faster than foundation model providers can replicate it. Second, that the architectural gap between transcription-first incumbents and real-time participants is wide enough that Otter.ai and Fireflies.ai can't retrofit their systems before Fern captures meaningful market share. If both of those are true, and if the founders' Meta experience gives them a twelve-month head start on the social awareness problem, then the $100M ARR that Otter.ai achieved shows the market is real and growing. The full presence / shadow mode distinction is a clever product insight — it lets the AI earn trust gradually. But I'd need to see actual users pulling this product toward them before I believe the differentiation matters outside a demo.
+
+There's no evidence of user demand here — no revenue, no waitlist, no organic sharing. At pre-seed that's expected, and I don't penalize it heavily. But in a category this crowded, the absence of pull is more meaningful than in a greenfield space. When Wufoo reached profitability in nine months, it was because people genuinely wanted better forms. I need to see that someone genuinely wants an AI meeting participant, not just that the technology is impressive. The 431 LinkedIn likes on their launch post tell me the YC network noticed them. It doesn't tell me sales teams are desperate for this.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Organic Problem Discovery and Schlep Willingness | 11/30 |
+| Relentlessly Resourceful Founders | 12/25 |
+| Evidence of Wanting: Demonstrated User Pull | 6/20 |
+| Technical Hacker Founders Who Build | 13/15 |
+| Growth Trajectory and Default Alive Economics | 5/10 |
+| **Total** | **47/100** |
+
+**Total Score: 47/100** (Neutral)

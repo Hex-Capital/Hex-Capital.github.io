@@ -21,47 +21,48 @@
     "AI Assistant"
   ],
   "slideImage": null,
+  "memoGeneratedAt": "2026-02-28T04:14:22.962Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 26,
+      "score": 29,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 36,
+      "score": 34,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 38,
+      "score": 33,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 43,
+      "score": 39,
       "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 24,
-      "tier": "Pass"
+      "score": 23,
+      "tier": "Strong Pass"
     },
     "sam-lessin": {
       "score": 21,
       "tier": "Strong Pass"
     },
     "vinod-khosla": {
-      "score": 31,
+      "score": 28,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 26,
-    "EG": 36,
-    "NR": 38,
-    "PG": 43,
-    "PT": 24,
+    "CB": 29,
+    "EG": 34,
+    "NR": 33,
+    "PG": 39,
+    "PT": 23,
     "SL": 21,
-    "VK": 31
+    "VK": 28
   },
-  "consolidatedAvg": 31.29,
-  "consolidatedRank": 159,
+  "consolidatedAvg": 29.57,
+  "consolidatedRank": 174,
   "paths": {
     "memo": "winter2026/memos/crow.md",
     "evals": {

@@ -21,25 +21,26 @@
     "AI"
   ],
   "slideImage": null,
+  "memoGeneratedAt": "2026-02-27T16:03:01.184Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 37,
+      "score": 38,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
       "score": 45,
       "tier": "Neutral"
     },
+    "naval-ravikant": {
+      "score": 52,
+      "tier": "Neutral"
+    },
     "paul-graham": {
-      "score": 57,
+      "score": 53,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 34,
+      "score": 33,
       "tier": "Pass"
     },
     "sam-lessin": {
@@ -47,21 +48,21 @@
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 33,
+      "score": 41,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 37,
-    "EG": 46,
-    "NR": 45,
-    "PG": 57,
-    "PT": 34,
+    "CB": 38,
+    "EG": 45,
+    "NR": 52,
+    "PG": 53,
+    "PT": 33,
     "SL": 29,
-    "VK": 33
+    "VK": 41
   },
-  "consolidatedAvg": 40.14,
-  "consolidatedRank": 76,
+  "consolidatedAvg": 41.57,
+  "consolidatedRank": 71,
   "paths": {
     "memo": "winter2026/memos/corelayer.md",
     "evals": {

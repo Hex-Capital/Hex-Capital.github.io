@@ -20,47 +20,48 @@
     "Analytics"
   ],
   "slideImage": null,
+  "memoGeneratedAt": "2026-02-27T16:06:10.727Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 27,
+      "score": 30,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 32,
+      "score": 35,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 42,
+      "score": 38,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 39,
+      "score": 43,
       "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 24,
+      "score": 27,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 24,
+      "score": 23,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 27,
-      "tier": "Strong Pass"
+      "score": 22,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 27,
-    "EG": 32,
-    "NR": 42,
-    "PG": 39,
-    "PT": 24,
-    "SL": 24,
-    "VK": 27
+    "CB": 30,
+    "EG": 35,
+    "NR": 38,
+    "PG": 43,
+    "PT": 27,
+    "SL": 23,
+    "VK": 22
   },
-  "consolidatedAvg": 30.71,
-  "consolidatedRank": 161,
+  "consolidatedAvg": 31.14,
+  "consolidatedRank": 166,
   "paths": {
     "memo": "winter2026/memos/booko.md",
     "evals": {

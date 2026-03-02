@@ -19,13 +19,14 @@
     "Conversational AI"
   ],
   "slideImage": null,
+  "memoGeneratedAt": "2026-02-28T04:25:41.614Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 72,
+      "score": 66,
       "tier": "Invest"
     },
     "elad-gil": {
-      "score": 40,
+      "score": 42,
       "tier": "Pass"
     },
     "naval-ravikant": {
@@ -33,33 +34,33 @@
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 60,
-      "tier": "Neutral"
+      "score": 66,
+      "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 35,
+      "score": 36,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 35,
+      "score": 32,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 43,
-      "tier": "Pass"
+      "score": 45,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 72,
-    "EG": 40,
+    "CB": 66,
+    "EG": 42,
     "NR": 54,
-    "PG": 60,
-    "PT": 35,
-    "SL": 35,
-    "VK": 43
+    "PG": 66,
+    "PT": 36,
+    "SL": 32,
+    "VK": 45
   },
-  "consolidatedAvg": 48.43,
-  "consolidatedRank": 29,
+  "consolidatedAvg": 48.71,
+  "consolidatedRank": 30,
   "paths": {
     "memo": "winter2026/memos/samora-ai.md",
     "evals": {

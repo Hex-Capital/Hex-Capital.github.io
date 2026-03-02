@@ -18,30 +18,31 @@
     "Reinforcement Learning"
   ],
   "slideImage": null,
+  "memoGeneratedAt": "2026-02-28T04:31:43.583Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 26,
+      "score": 32,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
       "score": 34,
       "tier": "Pass"
     },
+    "naval-ravikant": {
+      "score": 37,
+      "tier": "Pass"
+    },
     "paul-graham": {
-      "score": 36,
+      "score": 42,
       "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 28,
+      "score": 24,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 22,
-      "tier": "Strong Pass"
+      "score": 26,
+      "tier": "Pass"
     },
     "vinod-khosla": {
       "score": 41,
@@ -49,16 +50,16 @@
     }
   },
   "consolidatedScores": {
-    "CB": 26,
-    "EG": 35,
-    "NR": 34,
-    "PG": 36,
-    "PT": 28,
-    "SL": 22,
+    "CB": 32,
+    "EG": 34,
+    "NR": 37,
+    "PG": 42,
+    "PT": 24,
+    "SL": 26,
     "VK": 41
   },
-  "consolidatedAvg": 31.71,
-  "consolidatedRank": 156,
+  "consolidatedAvg": 33.71,
+  "consolidatedRank": 141,
   "paths": {
     "memo": "winter2026/memos/traverse.md",
     "evals": {

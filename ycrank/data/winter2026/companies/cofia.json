@@ -20,12 +20,58 @@
     "AI Assistant"
   ],
   "slideImage": null,
-  "evalScores": {},
-  "consolidatedScores": {},
-  "consolidatedAvg": null,
-  "consolidatedRank": null,
+  "memoGeneratedAt": "2026-02-28T04:44:18.130Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 25,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 25,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 24,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 35,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 25,
+    "EG": 28,
+    "NR": 40,
+    "PG": 35,
+    "PT": 25,
+    "SL": 24,
+    "VK": 35
+  },
+  "consolidatedAvg": 30.29,
+  "consolidatedRank": 169,
   "paths": {
     "memo": "winter2026/memos/cofia.md",
-    "evals": {}
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/cofia.md",
+      "elad-gil": "winter2026/evals/elad-gil/cofia.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/cofia.md",
+      "paul-graham": "winter2026/evals/paul-graham/cofia.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/cofia.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/cofia.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/cofia.md"
+    }
   }
 }

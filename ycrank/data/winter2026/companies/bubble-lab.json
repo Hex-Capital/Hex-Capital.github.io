@@ -19,21 +19,22 @@
     "Operations"
   ],
   "slideImage": null,
+  "memoGeneratedAt": "2026-02-28T04:17:25.856Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 31,
+      "score": 29,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 32,
+      "score": 37,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 38,
+      "score": 35,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 41,
+      "score": 43,
       "tier": "Pass"
     },
     "peter-thiel": {
@@ -45,21 +46,21 @@
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 31,
+      "score": 29,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 31,
-    "EG": 32,
-    "NR": 38,
-    "PG": 41,
+    "CB": 29,
+    "EG": 37,
+    "NR": 35,
+    "PG": 43,
     "PT": 22,
     "SL": 24,
-    "VK": 31
+    "VK": 29
   },
   "consolidatedAvg": 31.29,
-  "consolidatedRank": 158,
+  "consolidatedRank": 165,
   "paths": {
     "memo": "winter2026/memos/bubble-lab.md",
     "evals": {

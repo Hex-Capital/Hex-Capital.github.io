@@ -17,6 +17,7 @@
     "Health Insurance"
   ],
   "slideImage": null,
+  "memoGeneratedAt": "2026-02-24T23:33:16.951Z",
   "evalScores": {
     "cyan-banister": {
       "score": 37,
@@ -57,7 +58,7 @@
     "VK": 33
   },
   "consolidatedAvg": 36,
-  "consolidatedRank": 110,
+  "consolidatedRank": 118,
   "paths": {
     "memo": "winter2026/memos/overdrive-health.md",
     "evals": {

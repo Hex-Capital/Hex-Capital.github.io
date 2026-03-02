@@ -1,0 +1,24 @@
+﻿# Sila -- Vinod Khosla Evaluation
+
+The most striking feature of Sila is not the company itself but the landscape it enters. Glue raised $20M in October 2025 with David Sacks co-founding on essentially identical positioning -- "agentic team chat." Dust.tt has $7.3M in ARR building AI agents for enterprise workflows. Slack launched Agentforce. Microsoft Teams has Copilot with agent capabilities reaching hundreds of millions of users. Notion added customizable agents. Glean is at $200M ARR building enterprise AI search and agents. When I look at a startup and find that every incumbent and every well-funded new entrant is pursuing the same thesis simultaneously, I know I'm looking at a consensus bet. And consensus bets are precisely what I avoid. When Cisco's CTO told me TCP/IP routing would never happen, that was my signal to invest in Juniper. When the entire industry agrees that agentic messaging is the future and is racing to build it, there is no contrarian edge left to exploit.
+
+Let me start where I always start: if Sila succeeds completely -- becomes the dominant AI-native team communication platform -- what changes in the world? Knowledge workers spend less time in Slack. AI agents handle some routine coordination tasks. Meetings get shorter, maybe. The office becomes marginally more productive. That is a real business -- Slack sold for $27.7 billion -- but it is not a consequence that justifies the kind of bet I make. Nobody's food system gets reinvented. No trillion-dollar infrastructure gets displaced. No fundamental physical or economic constraint gets broken. The world operates the same way, just with slightly better chat software. I have watched too many smart founders waste their talent on problems this bounded. A 30% improvement to how teams message each other is exactly the kind of consequence-of-success that I find inconsequential relative to the effort required to win.
+
+The bull case deserves honest consideration. The transition from legacy messaging architecture to AI-native communication is a genuine platform shift. Slack and Teams face real business model cannibalization -- rebuilding their core products risks breaking existing integrations and enterprise contracts, creating an opening for a from-scratch entrant. The AI capability curve is unambiguously accelerating, and the founders have shipped AI products: a generative AI chatbot deployed across 16 Cornell classes and an AI course marketplace. If Sila nails the product and achieves viral adoption among early-adopter teams before incumbents complete their retrofits, network effects and switching costs could compound quickly. The timing window -- LLMs crossing the tool-use threshold, MCP standardizing agent interactions, remote work making digital messaging the primary collaboration medium -- is genuinely favorable. For an investor optimizing for probability-adjusted returns in B2B SaaS, this is a reasonable bet. But I am not that investor. I am looking for the 100x outcome that changes how civilization operates, and "better Slack" does not qualify even at its maximum expression.
+
+The founders are two Cornell CS graduates from the Class of 2025 who co-founded a prior venture together. They are technically capable -- the chatbot deployment across 16 classes demonstrates they can ship. But they are not outsiders attacking an established industry from an unexpected angle. They are exactly what you would predict: computer science graduates building a SaaS productivity tool. There is no biochemistry professor attempting to eliminate animal agriculture, no New Zealand engineer with no aerospace pedigree building rockets, no structural outsider bringing "irreverence, foolish confidence and naivety" to a problem the industry dismissed. The industry has not dismissed agentic messaging -- it is sprinting toward it. The founders' LinkedIn profiles still list their prior company saiera, raising a question about the transition that the dossier cannot resolve. The team is homogeneous in background and lacks anyone with enterprise go-to-market experience, which matters enormously when your competitors include Salesforce and Microsoft.
+
+I pass. Not because the founders lack talent or the market lacks size, but because the consequence of success is a modestly better communication tool in a crowded category where the world's best-funded technology companies are all building the same thing. The problem is not important enough to justify the odds.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Consequence Magnitude If Successful | 8/30 |
+| Founder Learning Rate and Contrarian Courage | 8/25 |
+| Technology Disruption Potential vs. Incumbent Systems | 7/20 |
+| Rate of Change and Timing Trajectory | 8/15 |
+| Gene Pool Engineering and Team Construction | 4/10 |
+| **Total** | **35/100** |
+
+**Total Score: 35/100** (Pass)

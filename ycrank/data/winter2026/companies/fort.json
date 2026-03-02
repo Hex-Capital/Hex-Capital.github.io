@@ -20,47 +20,48 @@
     "Health & Wellness"
   ],
   "slideImage": null,
+  "memoGeneratedAt": "2026-02-27T16:06:12.174Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 35,
+      "score": 39,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 34,
+      "score": 37,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 43,
-      "tier": "Pass"
+      "score": 46,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 54,
+      "score": 53,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 36,
+      "score": 39,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 35,
+      "score": 36,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 36,
+      "score": 41,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 35,
-    "EG": 34,
-    "NR": 43,
-    "PG": 54,
-    "PT": 36,
-    "SL": 35,
-    "VK": 36
+    "CB": 39,
+    "EG": 37,
+    "NR": 46,
+    "PG": 53,
+    "PT": 39,
+    "SL": 36,
+    "VK": 41
   },
-  "consolidatedAvg": 39,
-  "consolidatedRank": 83,
+  "consolidatedAvg": 41.57,
+  "consolidatedRank": 72,
   "paths": {
     "memo": "winter2026/memos/fort.md",
     "evals": {

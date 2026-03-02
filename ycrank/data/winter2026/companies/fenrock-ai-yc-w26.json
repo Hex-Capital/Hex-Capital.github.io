@@ -20,47 +20,48 @@
     "AI"
   ],
   "slideImage": null,
+  "memoGeneratedAt": "2026-02-28T04:31:29.946Z",
   "evalScores": {
     "cyan-banister": {
       "score": 33,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 42,
+      "score": 38,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 36,
+      "score": 39,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 29,
+      "score": 30,
       "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 26,
+      "score": 23,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 29,
+      "score": 26,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 41,
+      "score": 40,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 33,
-    "EG": 42,
-    "NR": 36,
-    "PG": 29,
-    "PT": 26,
-    "SL": 29,
-    "VK": 41
+    "EG": 38,
+    "NR": 39,
+    "PG": 30,
+    "PT": 23,
+    "SL": 26,
+    "VK": 40
   },
-  "consolidatedAvg": 33.71,
-  "consolidatedRank": 137,
+  "consolidatedAvg": 32.71,
+  "consolidatedRank": 153,
   "paths": {
     "memo": "winter2026/memos/fenrock-ai-yc-w26.md",
     "evals": {

@@ -21,30 +21,31 @@
     "AI Assistant"
   ],
   "slideImage": null,
+  "memoGeneratedAt": "2026-02-27T15:59:28.564Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 37,
+      "score": 42,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 38,
+      "score": 43,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 42,
+      "score": 44,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 42,
-      "tier": "Pass"
+      "score": 52,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 28,
+      "score": 33,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 25,
-      "tier": "Strong Pass"
+      "score": 29,
+      "tier": "Pass"
     },
     "vinod-khosla": {
       "score": 41,
@@ -52,16 +53,16 @@
     }
   },
   "consolidatedScores": {
-    "CB": 37,
-    "EG": 38,
-    "NR": 42,
-    "PG": 42,
-    "PT": 28,
-    "SL": 25,
+    "CB": 42,
+    "EG": 43,
+    "NR": 44,
+    "PG": 52,
+    "PT": 33,
+    "SL": 29,
     "VK": 41
   },
-  "consolidatedAvg": 36.14,
-  "consolidatedRank": 109,
+  "consolidatedAvg": 40.57,
+  "consolidatedRank": 84,
   "paths": {
     "memo": "winter2026/memos/vela.md",
     "evals": {

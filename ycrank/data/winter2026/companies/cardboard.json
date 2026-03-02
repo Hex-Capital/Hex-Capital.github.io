@@ -21,29 +21,30 @@
     "Media"
   ],
   "slideImage": null,
+  "memoGeneratedAt": "2026-02-28T04:39:33.562Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 36,
+      "score": 37,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 44,
-      "tier": "Pass"
+      "score": 45,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 52,
+      "score": 48,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 59,
+      "score": 57,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 38,
+      "score": 36,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 29,
+      "score": 30,
       "tier": "Pass"
     },
     "vinod-khosla": {
@@ -52,16 +53,16 @@
     }
   },
   "consolidatedScores": {
-    "CB": 36,
-    "EG": 44,
-    "NR": 52,
-    "PG": 59,
-    "PT": 38,
-    "SL": 29,
+    "CB": 37,
+    "EG": 45,
+    "NR": 48,
+    "PG": 57,
+    "PT": 36,
+    "SL": 30,
     "VK": 47
   },
-  "consolidatedAvg": 43.57,
-  "consolidatedRank": 50,
+  "consolidatedAvg": 42.86,
+  "consolidatedRank": 57,
   "paths": {
     "memo": "winter2026/memos/cardboard.md",
     "evals": {

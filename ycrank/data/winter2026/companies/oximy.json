@@ -19,47 +19,48 @@
     "Enterprise Software"
   ],
   "slideImage": null,
+  "memoGeneratedAt": "2026-02-28T04:23:03.856Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 36,
+      "score": 34,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 39,
-      "tier": "Pass"
+      "score": 49,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
       "score": 39,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 38,
-      "tier": "Pass"
+      "score": 52,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 28,
+      "score": 32,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 26,
+      "score": 32,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 34,
+      "score": 40,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 36,
-    "EG": 39,
+    "CB": 34,
+    "EG": 49,
     "NR": 39,
-    "PG": 38,
-    "PT": 28,
-    "SL": 26,
-    "VK": 34
+    "PG": 52,
+    "PT": 32,
+    "SL": 32,
+    "VK": 40
   },
-  "consolidatedAvg": 34.29,
-  "consolidatedRank": 129,
+  "consolidatedAvg": 39.71,
+  "consolidatedRank": 90,
   "paths": {
     "memo": "winter2026/memos/oximy.md",
     "evals": {

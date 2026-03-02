@@ -17,6 +17,7 @@
     "NFT"
   ],
   "slideImage": null,
+  "memoGeneratedAt": "2026-02-20T19:34:27.605Z",
   "evalScores": {
     "cyan-banister": {
       "score": 34,
@@ -57,7 +58,7 @@
     "VK": 34
   },
   "consolidatedAvg": 37,
-  "consolidatedRank": 100,
+  "consolidatedRank": 107,
   "paths": {
     "memo": "winter2026/memos/catchback-cards.md",
     "evals": {

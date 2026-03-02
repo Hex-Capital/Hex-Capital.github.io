@@ -19,29 +19,30 @@
     "Semiconductors"
   ],
   "slideImage": null,
+  "memoGeneratedAt": "2026-02-28T04:35:19.280Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 31,
+      "score": 37,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 51,
+      "score": 49,
       "tier": "Neutral"
     },
-    "paul-graham": {
+    "naval-ravikant": {
       "score": 47,
       "tier": "Neutral"
     },
+    "paul-graham": {
+      "score": 53,
+      "tier": "Neutral"
+    },
     "peter-thiel": {
-      "score": 29,
+      "score": 33,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 30,
+      "score": 33,
       "tier": "Pass"
     },
     "vinod-khosla": {
@@ -50,16 +51,16 @@
     }
   },
   "consolidatedScores": {
-    "CB": 31,
-    "EG": 34,
-    "NR": 51,
-    "PG": 47,
-    "PT": 29,
-    "SL": 30,
+    "CB": 37,
+    "EG": 49,
+    "NR": 47,
+    "PG": 53,
+    "PT": 33,
+    "SL": 33,
     "VK": 44
   },
-  "consolidatedAvg": 38,
-  "consolidatedRank": 92,
+  "consolidatedAvg": 42.29,
+  "consolidatedRank": 65,
   "paths": {
     "memo": "winter2026/memos/visibl-semiconductors.md",
     "evals": {

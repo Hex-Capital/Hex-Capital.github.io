@@ -19,47 +19,48 @@
     "Infrastructure"
   ],
   "slideImage": null,
+  "memoGeneratedAt": "2026-02-28T04:18:31.435Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 26,
+      "score": 40,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 31,
-      "tier": "Pass"
+      "score": 46,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 43,
-      "tier": "Pass"
+      "score": 50,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 45,
+      "score": 53,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 28,
+      "score": 36,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 26,
+      "score": 37,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 35,
+      "score": 44,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 26,
-    "EG": 31,
-    "NR": 43,
-    "PG": 45,
-    "PT": 28,
-    "SL": 26,
-    "VK": 35
+    "CB": 40,
+    "EG": 46,
+    "NR": 50,
+    "PG": 53,
+    "PT": 36,
+    "SL": 37,
+    "VK": 44
   },
-  "consolidatedAvg": 33.43,
-  "consolidatedRank": 142,
+  "consolidatedAvg": 43.71,
+  "consolidatedRank": 51,
   "paths": {
     "memo": "winter2026/memos/byteport.md",
     "evals": {

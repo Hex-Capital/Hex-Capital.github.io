@@ -18,6 +18,7 @@
     "SaaS"
   ],
   "slideImage": null,
+  "memoGeneratedAt": "2026-02-20T19:33:01.879Z",
   "evalScores": {
     "cyan-banister": {
       "score": 39,
@@ -58,7 +59,7 @@
     "VK": 38
   },
   "consolidatedAvg": 42.43,
-  "consolidatedRank": 58,
+  "consolidatedRank": 61,
   "paths": {
     "memo": "winter2026/memos/fullseam.md",
     "evals": {

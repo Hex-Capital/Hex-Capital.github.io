@@ -17,6 +17,7 @@
     "Cryptocurrency"
   ],
   "slideImage": null,
+  "memoGeneratedAt": "2026-02-20T06:11:13.146Z",
   "evalScores": {
     "cyan-banister": {
       "score": 34,
@@ -57,7 +58,7 @@
     "VK": 35
   },
   "consolidatedAvg": 35.86,
-  "consolidatedRank": 115,
+  "consolidatedRank": 123,
   "paths": {
     "memo": "winter2026/memos/zerosettle.md",
     "evals": {

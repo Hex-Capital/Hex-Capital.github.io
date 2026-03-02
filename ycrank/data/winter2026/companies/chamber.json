@@ -21,29 +21,30 @@
     "AI"
   ],
   "slideImage": null,
+  "memoGeneratedAt": "2026-02-28T04:34:32.208Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 32,
+      "score": 33,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 48,
+      "score": 53,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 49,
+      "score": 54,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 46,
+      "score": 51,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 30,
+      "score": 35,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 31,
+      "score": 33,
       "tier": "Pass"
     },
     "vinod-khosla": {
@@ -52,16 +53,16 @@
     }
   },
   "consolidatedScores": {
-    "CB": 32,
-    "EG": 48,
-    "NR": 49,
-    "PG": 46,
-    "PT": 30,
-    "SL": 31,
+    "CB": 33,
+    "EG": 53,
+    "NR": 54,
+    "PG": 51,
+    "PT": 35,
+    "SL": 33,
     "VK": 42
   },
-  "consolidatedAvg": 39.71,
-  "consolidatedRank": 79,
+  "consolidatedAvg": 43,
+  "consolidatedRank": 56,
   "paths": {
     "memo": "winter2026/memos/chamber.md",
     "evals": {

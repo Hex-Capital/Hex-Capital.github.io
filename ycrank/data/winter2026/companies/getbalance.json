@@ -19,25 +19,26 @@
     "AI"
   ],
   "slideImage": null,
+  "memoGeneratedAt": "2026-02-28T04:13:34.032Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 38,
+      "score": 43,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 37,
+      "score": 41,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 40,
+      "score": 43,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 53,
+      "score": 56,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 26,
+      "score": 27,
       "tier": "Pass"
     },
     "sam-lessin": {
@@ -45,21 +46,21 @@
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 40,
+      "score": 39,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 38,
-    "EG": 37,
-    "NR": 40,
-    "PG": 53,
-    "PT": 26,
+    "CB": 43,
+    "EG": 41,
+    "NR": 43,
+    "PG": 56,
+    "PT": 27,
     "SL": 29,
-    "VK": 40
+    "VK": 39
   },
-  "consolidatedAvg": 37.57,
-  "consolidatedRank": 96,
+  "consolidatedAvg": 39.71,
+  "consolidatedRank": 89,
   "paths": {
     "memo": "winter2026/memos/getbalance.md",
     "evals": {

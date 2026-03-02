@@ -17,6 +17,7 @@
     "AI"
   ],
   "slideImage": null,
+  "memoGeneratedAt": "2026-02-24T23:26:59.450Z",
   "evalScores": {
     "cyan-banister": {
       "score": 28,
@@ -57,7 +58,7 @@
     "VK": 39
   },
   "consolidatedAvg": 32.71,
-  "consolidatedRank": 146,
+  "consolidatedRank": 152,
   "paths": {
     "memo": "winter2026/memos/cajal-technologies.md",
     "evals": {

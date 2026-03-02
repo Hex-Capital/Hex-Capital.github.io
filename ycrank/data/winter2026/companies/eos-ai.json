@@ -1,0 +1,78 @@
+{
+  "slug": "eos-ai",
+  "name": "Eos AI",
+  "oneLiner": "The autonomous operating system for healthcare",
+  "metadata": {
+    "website": "https://www.helloeos.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/eos-ai",
+    "batch": "Winter 2026",
+    "industry": "Healthcare / Healthcare",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, B2B, Healthcare, Data Engineering, Infrastructure",
+    "yc_partner": "Diana Hu",
+    "emails": "[email protected]"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "B2B",
+    "Healthcare",
+    "Data Engineering",
+    "Infrastructure"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-02T19:19:10.638Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 44,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 42,
+    "EG": 43,
+    "NR": 49,
+    "PG": 52,
+    "PT": 35,
+    "SL": 39,
+    "VK": 44
+  },
+  "consolidatedAvg": 43.43,
+  "consolidatedRank": 53,
+  "paths": {
+    "memo": "winter2026/memos/eos-ai.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/eos-ai.md",
+      "elad-gil": "winter2026/evals/elad-gil/eos-ai.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/eos-ai.md",
+      "paul-graham": "winter2026/evals/paul-graham/eos-ai.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/eos-ai.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/eos-ai.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/eos-ai.md"
+    }
+  }
+}

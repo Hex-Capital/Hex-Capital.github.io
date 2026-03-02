@@ -17,9 +17,10 @@
     "Fintech"
   ],
   "slideImage": null,
+  "memoGeneratedAt": "2026-02-27T15:59:37.412Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 46,
+      "score": 50,
       "tier": "Neutral"
     },
     "elad-gil": {
@@ -27,37 +28,37 @@
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 38,
+      "score": 43,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 51,
+      "score": 55,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 28,
+      "score": 30,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 29,
+      "score": 36,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 44,
-      "tier": "Pass"
+      "score": 45,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 46,
+    "CB": 50,
     "EG": 41,
-    "NR": 38,
-    "PG": 51,
-    "PT": 28,
-    "SL": 29,
-    "VK": 44
+    "NR": 43,
+    "PG": 55,
+    "PT": 30,
+    "SL": 36,
+    "VK": 45
   },
-  "consolidatedAvg": 39.57,
-  "consolidatedRank": 81,
+  "consolidatedAvg": 42.86,
+  "consolidatedRank": 58,
   "paths": {
     "memo": "winter2026/memos/spotpay.md",
     "evals": {

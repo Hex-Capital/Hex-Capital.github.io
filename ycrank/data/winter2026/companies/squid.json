@@ -14,47 +14,48 @@
   },
   "tags": [],
   "slideImage": null,
+  "memoGeneratedAt": "2026-02-27T16:00:24.930Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 47,
+      "score": 51,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 68,
-      "tier": "Invest"
+      "score": 62,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 66,
-      "tier": "Invest"
+      "score": 63,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 71,
+      "score": 72,
       "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 44,
-      "tier": "Pass"
+      "score": 45,
+      "tier": "Neutral"
     },
     "sam-lessin": {
       "score": 50,
       "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 48,
+      "score": 47,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 47,
-    "EG": 68,
-    "NR": 66,
-    "PG": 71,
-    "PT": 44,
+    "CB": 51,
+    "EG": 62,
+    "NR": 63,
+    "PG": 72,
+    "PT": 45,
     "SL": 50,
-    "VK": 48
+    "VK": 47
   },
-  "consolidatedAvg": 56.29,
-  "consolidatedRank": 7,
+  "consolidatedAvg": 55.71,
+  "consolidatedRank": 9,
   "paths": {
     "memo": "winter2026/memos/squid.md",
     "evals": {

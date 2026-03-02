@@ -19,17 +19,18 @@
     "Infrastructure"
   ],
   "slideImage": null,
+  "memoGeneratedAt": "2026-02-28T04:29:47.620Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 26,
+      "score": 29,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 33,
+      "score": 35,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 39,
+      "score": 44,
       "tier": "Pass"
     },
     "paul-graham": {
@@ -37,29 +38,29 @@
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 21,
+      "score": 26,
       "tier": "Pass"
     },
     "sam-lessin": {
       "score": 22,
-      "tier": "Strong Pass"
+      "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 28,
+      "score": 33,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 26,
-    "EG": 33,
-    "NR": 39,
+    "CB": 29,
+    "EG": 35,
+    "NR": 44,
     "PG": 45,
-    "PT": 21,
+    "PT": 26,
     "SL": 22,
-    "VK": 28
+    "VK": 33
   },
-  "consolidatedAvg": 30.57,
-  "consolidatedRank": 162,
+  "consolidatedAvg": 33.43,
+  "consolidatedRank": 146,
   "paths": {
     "memo": "winter2026/memos/sidekit.md",
     "evals": {

@@ -18,6 +18,7 @@
     "Conversational AI"
   ],
   "slideImage": null,
+  "memoGeneratedAt": "2026-02-20T19:38:55.051Z",
   "evalScores": {
     "cyan-banister": {
       "score": 26,
@@ -58,7 +59,7 @@
     "VK": 32
   },
   "consolidatedAvg": 29.29,
-  "consolidatedRank": 167,
+  "consolidatedRank": 176,
   "paths": {
     "memo": "winter2026/memos/pollen.md",
     "evals": {

@@ -18,47 +18,48 @@
     "Biotech"
   ],
   "slideImage": null,
+  "memoGeneratedAt": "2026-02-28T04:43:16.194Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 42,
-      "tier": "Pass"
+      "score": 50,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 55,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
       "score": 69,
       "tier": "Invest"
     },
+    "naval-ravikant": {
+      "score": 68,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 74,
+      "tier": "Invest"
+    },
     "peter-thiel": {
-      "score": 35,
-      "tier": "Pass"
+      "score": 47,
+      "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 32,
+      "score": 41,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 41,
-      "tier": "Pass"
+      "score": 47,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 42,
-    "EG": 53,
-    "NR": 55,
-    "PG": 69,
-    "PT": 35,
-    "SL": 32,
-    "VK": 41
+    "CB": 50,
+    "EG": 69,
+    "NR": 68,
+    "PG": 74,
+    "PT": 47,
+    "SL": 41,
+    "VK": 47
   },
-  "consolidatedAvg": 46.71,
-  "consolidatedRank": 35,
+  "consolidatedAvg": 56.57,
+  "consolidatedRank": 7,
   "paths": {
     "memo": "winter2026/memos/rhizome-ai.md",
     "evals": {

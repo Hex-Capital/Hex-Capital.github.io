@@ -20,29 +20,30 @@
     "AI"
   ],
   "slideImage": null,
+  "memoGeneratedAt": "2026-02-28T04:17:00.398Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 25,
+      "score": 24,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 36,
+      "score": 33,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 34,
+      "score": 35,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 34,
+      "score": 37,
       "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 23,
+      "score": 25,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 23,
+      "score": 21,
       "tier": "Pass"
     },
     "vinod-khosla": {
@@ -51,16 +52,16 @@
     }
   },
   "consolidatedScores": {
-    "CB": 25,
-    "EG": 36,
-    "NR": 34,
-    "PG": 34,
-    "PT": 23,
-    "SL": 23,
+    "CB": 24,
+    "EG": 33,
+    "NR": 35,
+    "PG": 37,
+    "PT": 25,
+    "SL": 21,
     "VK": 31
   },
   "consolidatedAvg": 29.43,
-  "consolidatedRank": 166,
+  "consolidatedRank": 175,
   "paths": {
     "memo": "winter2026/memos/arzule.md",
     "evals": {

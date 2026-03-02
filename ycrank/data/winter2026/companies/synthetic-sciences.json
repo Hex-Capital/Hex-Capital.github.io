@@ -19,29 +19,30 @@
     "Workflow Automation"
   ],
   "slideImage": null,
+  "memoGeneratedAt": "2026-02-28T04:36:45.503Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 50,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
       "score": 31,
       "tier": "Pass"
     },
+    "elad-gil": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 34,
+      "tier": "Pass"
+    },
     "sam-lessin": {
-      "score": 30,
+      "score": 28,
       "tier": "Pass"
     },
     "vinod-khosla": {
@@ -50,16 +51,16 @@
     }
   },
   "consolidatedScores": {
-    "CB": 36,
-    "EG": 41,
-    "NR": 50,
-    "PG": 49,
-    "PT": 31,
-    "SL": 30,
+    "CB": 31,
+    "EG": 37,
+    "NR": 47,
+    "PG": 46,
+    "PT": 34,
+    "SL": 28,
     "VK": 46
   },
-  "consolidatedAvg": 40.43,
-  "consolidatedRank": 74,
+  "consolidatedAvg": 38.43,
+  "consolidatedRank": 100,
   "paths": {
     "memo": "winter2026/memos/synthetic-sciences.md",
     "evals": {

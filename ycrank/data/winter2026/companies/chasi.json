@@ -18,29 +18,30 @@
     "Industrial"
   ],
   "slideImage": null,
+  "memoGeneratedAt": "2026-02-27T16:05:20.076Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 47,
+      "score": 53,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 50,
+      "score": 63,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 51,
+      "score": 56,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 60,
+      "score": 59,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 35,
+      "score": 34,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 33,
+      "score": 39,
       "tier": "Pass"
     },
     "vinod-khosla": {
@@ -49,16 +50,16 @@
     }
   },
   "consolidatedScores": {
-    "CB": 47,
-    "EG": 50,
-    "NR": 51,
-    "PG": 60,
-    "PT": 35,
-    "SL": 33,
+    "CB": 53,
+    "EG": 63,
+    "NR": 56,
+    "PG": 59,
+    "PT": 34,
+    "SL": 39,
     "VK": 38
   },
-  "consolidatedAvg": 44.86,
-  "consolidatedRank": 45,
+  "consolidatedAvg": 48.86,
+  "consolidatedRank": 28,
   "paths": {
     "memo": "winter2026/memos/chasi.md",
     "evals": {

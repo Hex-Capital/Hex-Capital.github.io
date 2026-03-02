@@ -8,8 +8,10 @@
     "batch": "Winter 2026",
     "industry": "Industrials / Industrials -> Defense",
     "team_size": "2",
-    "location": "United Kingdom (founders from Guernsey)",
-    "tags": "Hardware, Swarm AI, Robotics"
+    "location": "London, UK (LinkedIn company page); founders originally from Guernsey (Guernsey Press, Feb 2026)",
+    "tags": "Hardware, Swarm AI, Robotics",
+    "yc_partner": "Ankit Gupta",
+    "emails": "founders@seeing-systems.com (YC page)"
   },
   "tags": [
     "Hardware",
@@ -17,47 +19,48 @@
     "Robotics"
   ],
   "slideImage": null,
+  "memoGeneratedAt": "2026-03-02T19:18:19.015Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 53,
+      "score": 52,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 59,
+      "score": 52,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 55,
+      "score": 47,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 66,
+      "score": 72,
       "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 41,
-      "tier": "Pass"
+      "score": 46,
+      "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 49,
+      "score": 47,
       "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 59,
+      "score": 51,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 53,
-    "EG": 59,
-    "NR": 55,
-    "PG": 66,
-    "PT": 41,
-    "SL": 49,
-    "VK": 59
+    "CB": 52,
+    "EG": 52,
+    "NR": 47,
+    "PG": 72,
+    "PT": 46,
+    "SL": 47,
+    "VK": 51
   },
-  "consolidatedAvg": 54.57,
-  "consolidatedRank": 10,
+  "consolidatedAvg": 52.43,
+  "consolidatedRank": 18,
   "paths": {
     "memo": "winter2026/memos/seeing-systems.md",
     "evals": {

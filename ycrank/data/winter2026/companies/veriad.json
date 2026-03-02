@@ -19,13 +19,14 @@
     "Marketing"
   ],
   "slideImage": null,
+  "memoGeneratedAt": "2026-02-27T15:59:29.350Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 32,
+      "score": 33,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 43,
+      "score": 44,
       "tier": "Pass"
     },
     "naval-ravikant": {
@@ -33,11 +34,11 @@
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 47,
+      "score": 56,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 30,
+      "score": 26,
       "tier": "Pass"
     },
     "sam-lessin": {
@@ -50,16 +51,16 @@
     }
   },
   "consolidatedScores": {
-    "CB": 32,
-    "EG": 43,
+    "CB": 33,
+    "EG": 44,
     "NR": 40,
-    "PG": 47,
-    "PT": 30,
+    "PG": 56,
+    "PT": 26,
     "SL": 26,
     "VK": 32
   },
-  "consolidatedAvg": 35.71,
-  "consolidatedRank": 119,
+  "consolidatedAvg": 36.71,
+  "consolidatedRank": 112,
   "paths": {
     "memo": "winter2026/memos/veriad.md",
     "evals": {

@@ -14,47 +14,48 @@
   },
   "tags": [],
   "slideImage": null,
+  "memoGeneratedAt": "2026-02-28T04:39:12.809Z",
   "evalScores": {
     "cyan-banister": {
       "score": 36,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 35,
+      "score": 42,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 45,
-      "tier": "Neutral"
+      "score": 40,
+      "tier": "Pass"
     },
     "paul-graham": {
-      "score": 47,
+      "score": 46,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 30,
+      "score": 28,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 32,
+      "score": 29,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 38,
+      "score": 34,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 36,
-    "EG": 35,
-    "NR": 45,
-    "PG": 47,
-    "PT": 30,
-    "SL": 32,
-    "VK": 38
+    "EG": 42,
+    "NR": 40,
+    "PG": 46,
+    "PT": 28,
+    "SL": 29,
+    "VK": 34
   },
-  "consolidatedAvg": 37.57,
-  "consolidatedRank": 97,
+  "consolidatedAvg": 36.43,
+  "consolidatedRank": 114,
   "paths": {
     "memo": "winter2026/memos/jinba.md",
     "evals": {

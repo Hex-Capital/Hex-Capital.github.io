@@ -18,6 +18,7 @@
     "AI"
   ],
   "slideImage": null,
+  "memoGeneratedAt": "2026-02-27T00:01:46.673Z",
   "evalScores": {
     "cyan-banister": {
       "score": 43,
@@ -58,7 +59,7 @@
     "VK": 59
   },
   "consolidatedAvg": 54.14,
-  "consolidatedRank": 12,
+  "consolidatedRank": 15,
   "paths": {
     "memo": "winter2026/memos/aurorin-cad.md",
     "evals": {

@@ -1,0 +1,24 @@
+﻿# Cofia -- Sam Lessin Evaluation
+
+Cofia is tagged "Artificial Intelligence, SaaS, Productivity, AI Assistant" on its YC page. I could almost stop there. Those four words are the exact category I've spent two years publicly arguing is uninvestable. This is not a quirk of labeling -- the product is an AI layer that observes your SaaS tool usage and generates automations. The AI IS the product. Remove the AI component and you have a worse version of Zapier, which already does $310M in revenue with 100K+ customers. My "cherry on top" test asks whether a business would be good if AI didn't exist. Cofia wouldn't exist if AI didn't exist. That's a feature waiting to be absorbed, not a company.
+
+The founders are competent -- Moses Wayne reaching Senior Staff Engineer at Duolingo is a genuinely impressive credential, and his work on the AI-powered Max subscription infrastructure gives him relevant technical depth. Paola Martínez's retention-focused PM work at Brilliant.org maps logically to a product that needs to understand behavioral patterns. These are capable operators. But capable operators pursuing the most consensus idea in productivity software is exactly the wrong configuration for my framework. I need a sane person with an insane idea. This is two sane people with the sanest idea in tech right now. Every automation platform on earth is adding "AI that learns your workflows." Bardeen launched its "Work Intelligence Platform" with the identical value proposition in May 2025 -- nine months before Cofia's YC batch -- with $22-25M in funding and strategic backing from Dropbox and HubSpot. When your differentiation requires a paragraph of caveats to distinguish from a funded competitor that shipped first, you're not non-consensus. You're late consensus.
+
+The structural moat question is where this falls apart completely. Cofia's theoretical defensibility is user behavioral data -- the system learns your patterns, creating switching costs over time. I've heard this story before. Birchbox claimed customer preference data would compound into lock-in, and it never did. The behavioral data moat requires achieving massive adoption before it kicks in, and there's zero evidence of adoption here -- the website literally returned only analytics tracking code, no product content, no pricing, nothing. Meanwhile, Zapier has 100K customers whose workflow data they already observe, and Microsoft has every Office 365 user's behavioral patterns flowing through Copilot. The incumbents don't need to build a new product; they ship a feature update. This is the dynamic I described on CNBC: "Software companies that had moats are learning they aren't moats anymore." Cofia is building a software moat from scratch in a world where established software moats are already dissolving.
+
+The strongest bull case requires believing that "proactive automation" -- software that acts before you ask -- represents a genuinely new interaction primitive, not just a feature improvement on existing automation tools. If you squint hard enough, you can see a world where observing and pre-empting human workflows becomes a new protocol layer for human-computer interaction, something other applications build on rather than compete with. That's an interesting intellectual argument. But it's being pursued simultaneously by Bardeen, by Zapier's AI team, by Microsoft Copilot, and by every LLM wrapper startup in the category. When every well-funded player is converging on the same "primitive," it's not a primitive anymore -- it's a feature race where distribution wins, and Apple, Google, and Microsoft have the distribution. Moses Wayne's Duolingo infrastructure experience is real, but it's not the kind of "I built the payment rails at Stripe" credential that would make me believe this team specifically can outrun incumbents with hundred-million-dollar head starts.
+
+The narrative ceiling is admittedly large -- "AI that automates all knowledge work" is theoretically unbounded. But a big narrative shared with a dozen funded competitors is just a crowded TAM slide. The infinity story only works when you're the only one telling it, or when your structural position makes you the inevitable winner. Cofia has neither. No traction, no revenue, no visible product, no distribution advantage, no physical-world operations that software can't replicate. This is pure software competing in a hot AI category against funded incumbents -- essentially the exact opposite of what I look for.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| "Sane Person, Insane Idea" Calibration | 7/30 |
+| AI-Resistant Structural Moat | 3/25 |
+| New Primitive or Protocol Position | 5/20 |
+| Narrative Magnitude and Infinity Optionality | 7/15 |
+| Real Revenue or Asset Cushion | 2/10 |
+| **Total** | **24/100** |
+
+**Total Score: 24/100** (Pass)

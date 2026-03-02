@@ -216,6 +216,9 @@
               <template x-if="companyData.metadata.yc_partner && companyData.metadata.yc_partner !== 'Not listed'">
                 <span class="text-[10px] border border-claude-purple text-claude-purple px-1.5 py-0 rounded-none" x-text="'YC Partner: ' + companyData.metadata.yc_partner"></span>
               </template>
+              <template x-if="companyData.memoGeneratedAt">
+                <span class="text-[10px] border border-claude-border text-claude-dim px-1.5 py-0 rounded-none" x-text="'Memo: ' + formatDate(companyData.memoGeneratedAt)"></span>
+              </template>
             </div>
           </div>
 

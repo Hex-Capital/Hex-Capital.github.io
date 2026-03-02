@@ -1,0 +1,78 @@
+{
+  "slug": "rubric-ai",
+  "name": "Rubric AI",
+  "oneLiner": "Post-training research and product lab",
+  "metadata": {
+    "website": "https://therubric.ai",
+    "yc_page": "https://www.ycombinator.com/companies/rubric-ai",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Data Labeling, Big Data, Infrastructure, AI",
+    "yc_partner": "Gustaf Alstromer",
+    "emails": "team@therubric.ai"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Data Labeling",
+    "Big Data",
+    "Infrastructure",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-02T19:19:07.130Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 23,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 25,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 23,
+      "tier": "Strong Pass"
+    },
+    "sam-lessin": {
+      "score": 19,
+      "tier": "Strong Pass"
+    },
+    "vinod-khosla": {
+      "score": 33,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 23,
+    "EG": 30,
+    "NR": 31,
+    "PG": 25,
+    "PT": 23,
+    "SL": 19,
+    "VK": 33
+  },
+  "consolidatedAvg": 26.29,
+  "consolidatedRank": 185,
+  "paths": {
+    "memo": "winter2026/memos/rubric-ai.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/rubric-ai.md",
+      "elad-gil": "winter2026/evals/elad-gil/rubric-ai.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/rubric-ai.md",
+      "paul-graham": "winter2026/evals/paul-graham/rubric-ai.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/rubric-ai.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/rubric-ai.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/rubric-ai.md"
+    }
+  }
+}

@@ -47,6 +47,12 @@ function app() {
       return m[2] + ' ' + m[1].charAt(0).toUpperCase() + m[1].slice(1);
     },
 
+    formatDate(iso) {
+      if (!iso) return '';
+      const d = new Date(iso);
+      return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', hour: 'numeric', minute: '2-digit' });
+    },
+
     async init() {
       // Listen for hash changes
       window.addEventListener('hashchange', () => this.handleRoute());

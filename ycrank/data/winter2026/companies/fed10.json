@@ -21,29 +21,30 @@
     "AI"
   ],
   "slideImage": null,
+  "memoGeneratedAt": "2026-02-27T15:59:53.371Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 37,
-      "tier": "Pass"
+      "score": 47,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
       "score": 45,
       "tier": "Neutral"
     },
+    "naval-ravikant": {
+      "score": 48,
+      "tier": "Neutral"
+    },
     "paul-graham": {
-      "score": 57,
+      "score": 54,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 25,
+      "score": 32,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 24,
+      "score": 28,
       "tier": "Pass"
     },
     "vinod-khosla": {
@@ -52,16 +53,16 @@
     }
   },
   "consolidatedScores": {
-    "CB": 37,
-    "EG": 41,
-    "NR": 45,
-    "PG": 57,
-    "PT": 25,
-    "SL": 24,
+    "CB": 47,
+    "EG": 45,
+    "NR": 48,
+    "PG": 54,
+    "PT": 32,
+    "SL": 28,
     "VK": 38
   },
-  "consolidatedAvg": 38.14,
-  "consolidatedRank": 91,
+  "consolidatedAvg": 41.71,
+  "consolidatedRank": 69,
   "paths": {
     "memo": "winter2026/memos/fed10.md",
     "evals": {

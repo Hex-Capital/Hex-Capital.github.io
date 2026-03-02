@@ -17,47 +17,48 @@
     "Health Tech"
   ],
   "slideImage": null,
+  "memoGeneratedAt": "2026-02-28T04:41:14.930Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 42,
+      "score": 39,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 40,
+      "score": 37,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 54,
-      "tier": "Neutral"
+      "score": 36,
+      "tier": "Pass"
     },
     "paul-graham": {
-      "score": 46,
-      "tier": "Neutral"
+      "score": 40,
+      "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 28,
+      "score": 26,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 34,
-      "tier": "Pass"
+      "score": 29,
+      "tier": "Strong Pass"
     },
     "vinod-khosla": {
-      "score": 58,
+      "score": 46,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 42,
-    "EG": 40,
-    "NR": 54,
-    "PG": 46,
-    "PT": 28,
-    "SL": 34,
-    "VK": 58
+    "CB": 39,
+    "EG": 37,
+    "NR": 36,
+    "PG": 40,
+    "PT": 26,
+    "SL": 29,
+    "VK": 46
   },
-  "consolidatedAvg": 43.14,
-  "consolidatedRank": 54,
+  "consolidatedAvg": 36.14,
+  "consolidatedRank": 117,
   "paths": {
     "memo": "winter2026/memos/prana-health.md",
     "evals": {

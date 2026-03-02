@@ -19,47 +19,48 @@
     "AI"
   ],
   "slideImage": null,
+  "memoGeneratedAt": "2026-02-28T04:24:02.844Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 34,
+      "score": 35,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 37,
+      "score": 40,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 29,
+      "score": 40,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 33,
+      "score": 41,
       "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 23,
+      "score": 31,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 26,
-      "tier": "Strong Pass"
+      "score": 32,
+      "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 41,
-      "tier": "Pass"
+      "score": 49,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 34,
-    "EG": 37,
-    "NR": 29,
-    "PG": 33,
-    "PT": 23,
-    "SL": 26,
-    "VK": 41
+    "CB": 35,
+    "EG": 40,
+    "NR": 40,
+    "PG": 41,
+    "PT": 31,
+    "SL": 32,
+    "VK": 49
   },
-  "consolidatedAvg": 31.86,
-  "consolidatedRank": 154,
+  "consolidatedAvg": 38.29,
+  "consolidatedRank": 102,
   "paths": {
     "memo": "winter2026/memos/human-archive.md",
     "evals": {

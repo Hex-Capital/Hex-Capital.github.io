@@ -19,6 +19,7 @@
     "Therapeutics"
   ],
   "slideImage": null,
+  "memoGeneratedAt": "2026-02-20T06:11:29.854Z",
   "evalScores": {
     "cyan-banister": {
       "score": 42,
@@ -59,7 +60,7 @@
     "VK": 72
   },
   "consolidatedAvg": 54.43,
-  "consolidatedRank": 10,
+  "consolidatedRank": 13,
   "paths": {
     "memo": "winter2026/memos/celltype.md",
     "evals": {

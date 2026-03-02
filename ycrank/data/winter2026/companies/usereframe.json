@@ -19,9 +19,10 @@
     "Supply Chain"
   ],
   "slideImage": null,
+  "memoGeneratedAt": "2026-02-28T04:28:27.309Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 34,
+      "score": 37,
       "tier": "Pass"
     },
     "elad-gil": {
@@ -29,19 +30,19 @@
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 44,
-      "tier": "Pass"
+      "score": 47,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 48,
+      "score": 54,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 28,
+      "score": 32,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 27,
+      "score": 26,
       "tier": "Pass"
     },
     "vinod-khosla": {
@@ -50,16 +51,16 @@
     }
   },
   "consolidatedScores": {
-    "CB": 34,
+    "CB": 37,
     "EG": 42,
-    "NR": 44,
-    "PG": 48,
-    "PT": 28,
-    "SL": 27,
+    "NR": 47,
+    "PG": 54,
+    "PT": 32,
+    "SL": 26,
     "VK": 39
   },
-  "consolidatedAvg": 37.43,
-  "consolidatedRank": 98,
+  "consolidatedAvg": 39.57,
+  "consolidatedRank": 92,
   "paths": {
     "memo": "winter2026/memos/usereframe.md",
     "evals": {

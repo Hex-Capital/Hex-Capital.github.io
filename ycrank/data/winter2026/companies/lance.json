@@ -18,6 +18,7 @@
     "Conversational AI"
   ],
   "slideImage": null,
+  "memoGeneratedAt": "2026-02-20T19:26:07.871Z",
   "evalScores": {
     "cyan-banister": {
       "score": 39,
@@ -58,7 +59,7 @@
     "VK": 46
   },
   "consolidatedAvg": 46.29,
-  "consolidatedRank": 38,
+  "consolidatedRank": 41,
   "paths": {
     "memo": "winter2026/memos/lance.md",
     "evals": {

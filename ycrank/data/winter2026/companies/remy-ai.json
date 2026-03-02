@@ -20,47 +20,48 @@
     "Supply Chain"
   ],
   "slideImage": null,
+  "memoGeneratedAt": "2026-02-27T16:05:40.609Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 36,
+      "score": 39,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 34,
+      "score": 38,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 42,
-      "tier": "Pass"
+      "score": 46,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 37,
-      "tier": "Pass"
+      "score": 45,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 29,
+      "score": 34,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 29,
+      "score": 33,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 52,
+      "score": 53,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 36,
-    "EG": 34,
-    "NR": 42,
-    "PG": 37,
-    "PT": 29,
-    "SL": 29,
-    "VK": 52
+    "CB": 39,
+    "EG": 38,
+    "NR": 46,
+    "PG": 45,
+    "PT": 34,
+    "SL": 33,
+    "VK": 53
   },
-  "consolidatedAvg": 37,
-  "consolidatedRank": 102,
+  "consolidatedAvg": 41.14,
+  "consolidatedRank": 79,
   "paths": {
     "memo": "winter2026/memos/remy-ai.md",
     "evals": {

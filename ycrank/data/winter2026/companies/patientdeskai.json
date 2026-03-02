@@ -20,25 +20,26 @@
     "AI Assistant"
   ],
   "slideImage": null,
+  "memoGeneratedAt": "2026-02-28T04:35:13.166Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 33,
+      "score": 31,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 47,
+      "score": 46,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 45,
-      "tier": "Neutral"
+      "score": 42,
+      "tier": "Pass"
     },
     "paul-graham": {
-      "score": 62,
+      "score": 56,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 28,
+      "score": 29,
       "tier": "Pass"
     },
     "sam-lessin": {
@@ -46,21 +47,21 @@
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 32,
+      "score": 36,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 33,
-    "EG": 47,
-    "NR": 45,
-    "PG": 62,
-    "PT": 28,
+    "CB": 31,
+    "EG": 46,
+    "NR": 42,
+    "PG": 56,
+    "PT": 29,
     "SL": 30,
-    "VK": 32
+    "VK": 36
   },
-  "consolidatedAvg": 39.57,
-  "consolidatedRank": 80,
+  "consolidatedAvg": 38.57,
+  "consolidatedRank": 96,
   "paths": {
     "memo": "winter2026/memos/patientdeskai.md",
     "evals": {

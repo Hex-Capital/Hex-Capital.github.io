@@ -19,47 +19,48 @@
     "DevOps"
   ],
   "slideImage": null,
+  "memoGeneratedAt": "2026-02-28T04:20:23.013Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 33,
-      "tier": "Pass"
+      "score": 45,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 62,
-      "tier": "Neutral"
+      "score": 68,
+      "tier": "Invest"
     },
     "naval-ravikant": {
-      "score": 64,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
       "score": 72,
       "tier": "Invest"
     },
+    "paul-graham": {
+      "score": 82,
+      "tier": "Invest"
+    },
     "peter-thiel": {
-      "score": 41,
-      "tier": "Pass"
+      "score": 49,
+      "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 34,
+      "score": 37,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 39,
-      "tier": "Pass"
+      "score": 47,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 33,
-    "EG": 62,
-    "NR": 64,
-    "PG": 72,
-    "PT": 41,
-    "SL": 34,
-    "VK": 39
+    "CB": 45,
+    "EG": 68,
+    "NR": 72,
+    "PG": 82,
+    "PT": 49,
+    "SL": 37,
+    "VK": 47
   },
-  "consolidatedAvg": 49.29,
-  "consolidatedRank": 23,
+  "consolidatedAvg": 57.14,
+  "consolidatedRank": 6,
   "paths": {
     "memo": "winter2026/memos/mendral.md",
     "evals": {

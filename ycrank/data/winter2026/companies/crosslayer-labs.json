@@ -17,6 +17,7 @@
     "Cybersecurity"
   ],
   "slideImage": null,
+  "memoGeneratedAt": "2026-02-27T00:02:29.917Z",
   "evalScores": {
     "cyan-banister": {
       "score": 44,
@@ -57,7 +58,7 @@
     "VK": 48
   },
   "consolidatedAvg": 54.43,
-  "consolidatedRank": 11,
+  "consolidatedRank": 14,
   "paths": {
     "memo": "winter2026/memos/crosslayer-labs.md",
     "evals": {

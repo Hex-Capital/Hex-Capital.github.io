@@ -18,6 +18,7 @@
     "Aerospace"
   ],
   "slideImage": null,
+  "memoGeneratedAt": "2026-02-20T20:27:16.704Z",
   "evalScores": {
     "cyan-banister": {
       "score": 49,
@@ -58,7 +59,7 @@
     "VK": 63
   },
   "consolidatedAvg": 49.43,
-  "consolidatedRank": 22,
+  "consolidatedRank": 26,
   "paths": {
     "memo": "winter2026/memos/galactic-resource-utilization-space-inc-gru-space.md",
     "evals": {

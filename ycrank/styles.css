@@ -113,7 +113,6 @@ body::before {
   opacity: 0.15;
   pointer-events: none;
   z-index: 0;
-  animation: grid-fade 0.3s ease;
 }
 
 /* ===== Warm Orange Radial Glow (top-left) ===== */
@@ -364,6 +363,10 @@ button:disabled {
   width: 8px;
   height: 8px;
   border-radius: 50%;
+  opacity: 1;
+  visibility: visible;
+  animation: none;
+  transition: none;
 }
 
 .nav-dot-red { background: #c75050; }

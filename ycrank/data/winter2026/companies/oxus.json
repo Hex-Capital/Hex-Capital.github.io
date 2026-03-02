@@ -18,6 +18,7 @@
     "Compliance"
   ],
   "slideImage": null,
+  "memoGeneratedAt": "2026-02-20T19:36:32.390Z",
   "evalScores": {
     "cyan-banister": {
       "score": 35,
@@ -58,7 +59,7 @@
     "VK": 36
   },
   "consolidatedAvg": 36.86,
-  "consolidatedRank": 104,
+  "consolidatedRank": 110,
   "paths": {
     "memo": "winter2026/memos/oxus.md",
     "evals": {

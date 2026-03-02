@@ -19,6 +19,7 @@
     "Supply Chain"
   ],
   "slideImage": null,
+  "memoGeneratedAt": "2026-02-20T19:32:41.838Z",
   "evalScores": {
     "cyan-banister": {
       "score": 36,
@@ -59,7 +60,7 @@
     "VK": 39
   },
   "consolidatedAvg": 42.29,
-  "consolidatedRank": 60,
+  "consolidatedRank": 63,
   "paths": {
     "memo": "winter2026/memos/corvera.md",
     "evals": {

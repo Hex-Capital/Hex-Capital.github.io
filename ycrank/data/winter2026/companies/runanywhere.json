@@ -19,6 +19,7 @@
     "Enterprise"
   ],
   "slideImage": null,
+  "memoGeneratedAt": "2026-02-20T19:26:58.241Z",
   "evalScores": {
     "cyan-banister": {
       "score": 32,
@@ -59,7 +60,7 @@
     "VK": 34
   },
   "consolidatedAvg": 37.71,
-  "consolidatedRank": 94,
+  "consolidatedRank": 104,
   "paths": {
     "memo": "winter2026/memos/runanywhere.md",
     "evals": {

@@ -40,8 +40,7 @@ body {
   background: var(--bg);
   color: var(--text);
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
-  min-height: 100vh;
-  overflow-x: hidden;
+  overflow: hidden;
   position: relative;
 }
 
@@ -72,8 +71,8 @@ body {
 }
 
 .login-page {
-  min-height: 100vh; display: flex; flex-direction: column;
-  align-items: center; justify-content: center;
+  position: fixed; inset: 0; display: flex; flex-direction: column;
+  align-items: center; justify-content: center; overflow-y: auto;
 }
 .login-page::before {
   content: ''; position: fixed; inset: 0;
@@ -168,17 +167,16 @@ body {
 /* Mobile layout: terminal constrained below 440px */
 @media (max-width: 440px) {
   .login-wrap { max-width: calc(100vw - 24px); }
-  .terminal-body { padding: 20px 16px 16px; }
-  .login-actions { flex-direction: column; gap: 12px; align-items: stretch; }
+  .terminal-body { padding: 16px 16px 14px; }
+  .login-actions { flex-direction: column; gap: 10px; align-items: stretch; margin-top: 18px; }
   .login-btn { justify-content: center; }
   .shortcut-hint { display: none; }
-  .login-header { flex-wrap: wrap; gap: 8px 12px; margin-bottom: 20px; }
+  .login-header { flex-wrap: wrap; gap: 6px 12px; margin-bottom: 8px; }
   .login-header .login-sep { display: none; }
-  .login-footer { flex-wrap: wrap; gap: 8px 16px; margin-top: 16px; }
+  .login-footer { flex-wrap: wrap; gap: 6px 16px; margin-top: 8px; }
   .login-footer .footer-dot { display: none; }
-  .session-line { margin-bottom: 16px; }
-  .form-group { margin-bottom: 14px; }
-  .login-actions { margin-top: 20px; }
+  .session-line { margin-bottom: 14px; }
+  .form-group { margin-bottom: 12px; }
 }
 </style>
 </head>

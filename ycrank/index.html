@@ -67,16 +67,16 @@
           <div class="nav-dot nav-dot-yellow"></div>
           <div class="nav-dot nav-dot-green"></div>
         </div>
-        <h1 class="text-sm font-bold text-claude-orange cursor-pointer sm:tracking-wider flex-shrink-0" @click="navigate('dashboard')">[YCRank]</h1>
+        <h1 class="text-base font-bold text-claude-orange cursor-pointer sm:tracking-wider flex-shrink-0" @click="navigate('dashboard')">[YCRank]</h1>
         <span class="text-claude-border">|</span>
         <select x-model="currentBatch" @change="loadBatch(currentBatch)"
-          class="bg-claude-bg border border-claude-border text-claude-orange px-1.5 sm:px-2 py-0.5 text-xs rounded-none focus:outline-none focus:border-claude-orange min-w-0 max-w-[100px] xs:max-w-none">
+          class="bg-claude-bg border border-claude-border text-claude-orange px-1.5 sm:px-2 py-0.5 text-sm rounded-none focus:outline-none focus:border-claude-orange min-w-0 max-w-[100px] xs:max-w-none">
           <template x-for="b in batches" :key="b">
             <option :value="b" x-text="formatBatch(b)"></option>
           </template>
         </select>
       </div>
-      <div class="flex items-center gap-1 text-xs overflow-hidden">
+      <div class="flex items-center gap-1 text-sm overflow-hidden">
         <button @click="navigate('dashboard')"
           :class="view === 'dashboard' ? 'bg-claude-orange text-claude-bg px-1.5 sm:px-2 py-1.5' : 'text-claude-text hover:text-claude-orange px-1.5 sm:px-2 py-1.5'"
           class="transition-colors font-mono hidden sm:inline">Dashboard</button>
@@ -110,38 +110,38 @@
     <div x-show="view === 'dashboard' && !loading" x-cloak>
       <!-- Search -->
       <div class="sticky-search flex items-center gap-2 py-2">
-        <span class="text-claude-dim text-xs font-mono">&gt;&gt;</span>
+        <span class="text-claude-dim text-sm font-mono">&gt;&gt;</span>
         <div class="relative flex-1 min-w-0 sm:w-56 sm:flex-none">
           <input type="text" x-model="search" placeholder="search..."
-            class="bg-claude-bg border border-claude-border text-claude-text px-2 py-1 text-xs w-full focus:outline-none focus:border-claude-orange rounded-none placeholder-claude-dim font-mono">
+            class="bg-claude-bg border border-claude-border text-claude-text px-2 py-1 text-sm w-full focus:outline-none focus:border-claude-orange rounded-none placeholder-claude-dim font-mono">
           <button x-show="search" @click="search = ''" class="search-clear-btn absolute right-1.5 top-1/2 -translate-y-1/2 sm:hidden">&times;</button>
         </div>
         <span class="text-claude-border hidden sm:inline">|</span>
-        <span class="text-claude-dim text-xs" x-text="filteredTable.length + '/' + (manifest ? manifest.table.length : 0) + ' companies'"></span>
+        <span class="text-claude-dim text-sm" x-text="filteredTable.length + '/' + (manifest ? manifest.table.length : 0) + ' companies'"></span>
       </div>
 
       <!-- Table -->
       <div>
-        <table class="w-full text-xs terminal-table">
+        <table class="w-full text-sm terminal-table">
           <thead class="sticky-thead">
             <tr class="border-b border-claude-border bg-claude-panel">
               <th class="px-1.5 py-1 text-left text-claude-gray cursor-pointer hover:text-claude-orange border border-claude-border whitespace-nowrap"
-                @click="sortBy('name')">Company<span x-show="sortCol === 'name'" x-text="sortDir === 1 ? '\u25B2' : '\u25BC'" class="text-[10px] ml-0.5"></span>
+                @click="sortBy('name')">Company<span x-show="sortCol === 'name'" x-text="sortDir === 1 ? '\u25B2' : '\u25BC'" class="text-xs ml-0.5"></span>
               </th>
               <template x-for="p in personas" :key="p.abbr">
                 <th class="px-1.5 py-1 text-center text-claude-gray cursor-pointer hover:text-claude-orange w-10 border border-claude-border whitespace-nowrap hidden sm:table-cell"
                   @click="sortBy(p.abbr)"
-                  :title="p.fullName"><span x-text="p.abbr"></span><span x-show="sortCol === p.abbr" x-text="sortDir === 1 ? '\u25B2' : '\u25BC'" class="text-[10px] ml-0.5"></span>
+                  :title="p.fullName"><span x-text="p.abbr"></span><span x-show="sortCol === p.abbr" x-text="sortDir === 1 ? '\u25B2' : '\u25BC'" class="text-xs ml-0.5"></span>
                 </th>
               </template>
               <th class="px-1.5 py-1 text-center text-claude-gray cursor-pointer hover:text-claude-orange w-12 border border-claude-border whitespace-nowrap"
-                @click="sortBy('avg')">Avg<span x-show="sortCol === 'avg'" x-text="sortDir === 1 ? '\u25B2' : '\u25BC'" class="text-[10px] ml-0.5"></span>
+                @click="sortBy('avg')">Avg<span x-show="sortCol === 'avg'" x-text="sortDir === 1 ? '\u25B2' : '\u25BC'" class="text-xs ml-0.5"></span>
               </th>
               <th class="px-1.5 py-1 text-center text-claude-gray cursor-pointer hover:text-claude-orange w-14 border border-claude-border whitespace-nowrap"
-                @click="sortBy('teamSize')">Team Size<span x-show="sortCol === 'teamSize'" x-text="sortDir === 1 ? '\u25B2' : '\u25BC'" class="text-[10px] ml-0.5"></span>
+                @click="sortBy('teamSize')">Team Size<span x-show="sortCol === 'teamSize'" x-text="sortDir === 1 ? '\u25B2' : '\u25BC'" class="text-xs ml-0.5"></span>
               </th>
               <th class="px-1.5 py-1 text-center text-claude-gray cursor-pointer hover:text-claude-orange w-24 border border-claude-border whitespace-nowrap"
-                @click="sortBy('revenue')"><span class="hidden sm:inline">Annual Revenue</span><span class="sm:hidden">ARR</span><span x-show="sortCol === 'revenue'" x-text="sortDir === 1 ? '\u25B2' : '\u25BC'" class="text-[10px] ml-0.5"></span>
+                @click="sortBy('revenue')"><span class="hidden sm:inline">Annual Revenue</span><span class="sm:hidden">ARR</span><span x-show="sortCol === 'revenue'" x-text="sortDir === 1 ? '\u25B2' : '\u25BC'" class="text-xs ml-0.5"></span>
               </th>
             </tr>
           </thead>
@@ -156,9 +156,9 @@
                   <div class="flex items-center gap-1.5">
                     <span class="text-claude-text font-medium" x-text="row.name"></span>
                     <span x-show="isDisagreement(row.name)"
-                      class="text-claude-red text-[10px]" title="High disagreement (stddev >= 20)">!!</span>
+                      class="text-claude-red text-xs" title="High disagreement (stddev >= 20)">!!</span>
                   </div>
-                  <div class="text-[10px] text-claude-dim truncate max-w-[100px] xs:max-w-[150px] sm:max-w-xs md:max-w-md hidden xs:block" x-text="row.oneLiner"></div>
+                  <div class="text-xs text-claude-dim truncate max-w-[100px] xs:max-w-[150px] sm:max-w-xs md:max-w-md hidden xs:block" x-text="row.oneLiner"></div>
                 </td>
                 <template x-for="p in personas" :key="p.abbr">
                   <td class="px-1.5 py-1 text-center tabular-nums border border-claude-border hidden sm:table-cell"
@@ -179,8 +179,8 @@
                   <div class="flex justify-around">
                     <template x-for="p in personas" :key="'mob-'+p.abbr">
                       <span class="inline-flex items-baseline tabular-nums">
-                        <span class="text-[9px] text-claude-dim opacity-60 tracking-tight" x-text="p.abbr"></span>
-                        <span class="text-[11px] font-medium ml-px" :class="tierColor(row.tiers[p.abbr])" x-text="row.scores[p.abbr] != null ? row.scores[p.abbr] : '-'"></span>
+                        <span class="text-[11px] text-claude-dim opacity-60 tracking-tight" x-text="p.abbr"></span>
+                        <span class="text-[13px] font-medium ml-px" :class="tierColor(row.tiers[p.abbr])" x-text="row.scores[p.abbr] != null ? row.scores[p.abbr] : '-'"></span>
                       </span>
                     </template>
                   </div>
@@ -199,8 +199,8 @@
         <div>
           <!-- Back + Prev/Next -->
           <div class="flex items-center justify-between mb-3">
-            <button @click="navigate('dashboard')" class="text-claude-text hover:text-claude-orange text-xs py-1">&lt;&lt; Dashboard</button>
-            <div class="flex gap-2 sm:gap-3 text-xs">
+            <button @click="navigate('dashboard')" class="text-claude-text hover:text-claude-orange text-sm py-1">&lt;&lt; Dashboard</button>
+            <div class="flex gap-2 sm:gap-3 text-sm">
               <button @click="prevCompany()" :disabled="!hasPrevCompany()"
                 :class="hasPrevCompany() ? 'text-claude-text hover:text-claude-orange' : 'text-claude-dim cursor-not-allowed'"
                 class="py-1">&lt;- Prev</button>
@@ -215,17 +215,17 @@
           <div class="mb-4">
             <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2">
               <div class="min-w-0">
-                <h2 class="text-lg font-bold text-claude-orange" x-text="companyData.name"></h2>
-                <p class="text-claude-dim text-xs mt-0.5" x-text="companyData.oneLiner"></p>
+                <h2 class="text-2xl font-bold text-claude-orange" x-text="companyData.name"></h2>
+                <p class="text-claude-dim text-sm mt-0.5" x-text="companyData.oneLiner"></p>
               </div>
               <div class="flex-shrink-0 flex gap-2">
                 <button @click="draftEmail()" x-show="!staticMode"
-                  class="px-2 sm:px-3 py-1 border border-claude-blue text-claude-blue hover:bg-claude-blue hover:text-claude-bg text-xs transition-colors rounded-none flex items-center gap-1.5">
+                  class="px-2 sm:px-3 py-1.5 border border-claude-blue text-claude-blue hover:bg-claude-blue hover:text-claude-bg text-sm transition-colors rounded-none flex items-center gap-1.5">
                   <span class="hidden sm:inline">Send Pre Demo Day Email</span>
                   <span class="sm:hidden">Email</span>
                 </button>
                 <button @click="openCouncil()" x-show="!staticMode"
-                  class="px-2 sm:px-3 py-1 border border-claude-orange text-claude-orange hover:bg-claude-orange hover:text-claude-bg text-xs transition-colors rounded-none flex items-center gap-1.5">
+                  class="px-2 sm:px-3 py-1.5 border border-claude-orange text-claude-orange hover:bg-claude-orange hover:text-claude-bg text-sm transition-colors rounded-none flex items-center gap-1.5">
                   <span>[council]</span>
                 </button>
               </div>
@@ -233,13 +233,13 @@
             <div class="flex flex-wrap gap-1.5 mt-2">
               <template x-if="companyData.metadata.website">
                 <a :href="companyData.metadata.website" target="_blank" rel="noopener"
-                  class="text-[10px] border border-claude-blue text-claude-blue px-1.5 py-0 rounded-none hover:bg-claude-blue hover:text-claude-bg truncate max-w-[200px] sm:max-w-xs inline-block" x-text="companyData.metadata.website"></a>
+                  class="text-xs border border-claude-blue text-claude-blue px-1.5 py-0.5 rounded-none hover:bg-claude-blue hover:text-claude-bg truncate max-w-[200px] sm:max-w-xs inline-block" x-text="companyData.metadata.website"></a>
               </template>
               <template x-if="companyData.metadata.yc_partner && companyData.metadata.yc_partner !== 'Not listed'">
-                <span class="text-[10px] border border-claude-purple text-claude-purple px-1.5 py-0 rounded-none" x-text="'YC Partner: ' + companyData.metadata.yc_partner"></span>
+                <span class="text-xs border border-claude-purple text-claude-purple px-1.5 py-0.5 rounded-none" x-text="'YC Partner: ' + companyData.metadata.yc_partner"></span>
               </template>
               <template x-if="companyData.memoGeneratedAt">
-                <span class="text-[10px] border border-claude-border text-claude-dim px-1.5 py-0 rounded-none" x-text="'Memo: ' + formatDate(companyData.memoGeneratedAt)"></span>
+                <span class="text-xs border border-claude-border text-claude-dim px-1.5 py-0.5 rounded-none" x-text="'Memo: ' + formatDate(companyData.memoGeneratedAt)"></span>
               </template>
             </div>
           </div>
@@ -251,25 +251,25 @@
                 <div class="score-card p-1.5 text-center"
                   :class="{ 'cursor-pointer': companyData.paths.evals[p.slug], 'score-card-active': activeTab === p.slug }"
                   @click="companyData.paths.evals[p.slug] && loadTabContent(p.slug)">
-                  <div class="text-[10px] text-claude-dim truncate" x-text="p.fullName"></div>
-                  <div class="text-sm font-bold tabular-nums" :class="tierColor(companyData.evalScores[p.slug] ? companyData.evalScores[p.slug].tier : null)"
+                  <div class="text-xs text-claude-dim truncate" x-text="p.fullName"></div>
+                  <div class="text-lg font-bold tabular-nums" :class="tierColor(companyData.evalScores[p.slug] ? companyData.evalScores[p.slug].tier : null)"
                     x-text="companyData.consolidatedScores[p.abbr] != null ? companyData.consolidatedScores[p.abbr] : '-'"></div>
-                  <div class="text-[10px] text-claude-dim"
+                  <div class="text-xs text-claude-dim"
                     x-text="companyData.evalScores[p.slug] ? companyData.evalScores[p.slug].tier : ''"></div>
                 </div>
               </template>
               <div class="score-card p-1.5 text-center">
-                <div class="text-[10px] text-claude-orange">Avg</div>
-                <div class="text-sm font-bold tabular-nums" :class="avgColor(companyData.consolidatedAvg)"
+                <div class="text-xs text-claude-orange">Avg</div>
+                <div class="text-lg font-bold tabular-nums" :class="avgColor(companyData.consolidatedAvg)"
                   x-text="companyData.consolidatedAvg != null ? companyData.consolidatedAvg.toFixed(2) : '-'"></div>
-                <div class="text-[10px] text-claude-dim" x-text="companyData.consolidatedRank ? '#' + companyData.consolidatedRank : ''"></div>
+                <div class="text-xs text-claude-dim" x-text="companyData.consolidatedRank ? '#' + companyData.consolidatedRank : ''"></div>
               </div>
             </div>
           </div>
 
           <!-- Demo Day Slide -->
           <div class="mb-4">
-            <h3 class="text-xs text-claude-gray mb-1 uppercase tracking-wider">--- Demo Day Slide ---</h3>
+            <h3 class="text-sm text-claude-gray mb-1 uppercase tracking-wider">--- Demo Day Slide ---</h3>
             <template x-if="companyData.slideImage">
               <div class="border border-claude-border overflow-hidden">
                 <img :src="(staticMode ? '' : '../') + companyData.slideImage" :alt="companyData.name + ' demo day slide'"
@@ -278,7 +278,7 @@
             </template>
             <template x-if="!companyData.slideImage">
               <div class="border border-claude-border px-4 py-6 text-center text-claude-dim text-xs">
-                Waiting for demo day slide
+                <span class="text-sm">Waiting for demo day slide</span>
               </div>
             </template>
           </div>
@@ -288,16 +288,16 @@
             <div class="flex border-b border-claude-border overflow-x-auto">
               <button @click="loadTabContent('memo')"
                 :class="activeTab === 'memo' ? 'bg-claude-orange text-claude-bg' : 'text-claude-text hover:text-claude-orange'"
-                class="px-3 py-1 text-xs transition-colors rounded-none shrink-0">Memo</button>
+                class="px-3 py-1.5 text-sm transition-colors rounded-none shrink-0">Memo</button>
               <template x-for="p in personas" :key="p.slug">
                 <button @click="loadTabContent(p.slug)"
                   x-show="companyData.paths.evals[p.slug]"
                   :class="activeTab === p.slug ? 'bg-claude-orange text-claude-bg' : 'text-claude-text hover:text-claude-orange'"
-                  class="px-3 py-1 text-xs transition-colors rounded-none shrink-0" x-text="p.abbr"></button>
+                  class="px-3 py-1.5 text-sm transition-colors rounded-none shrink-0" x-text="p.abbr"></button>
               </template>
             </div>
             <div class="border border-t-0 border-claude-border p-2 sm:p-4 overflow-x-auto">
-              <div x-show="tabLoading" class="text-claude-orange text-xs terminal-blink">Loading_</div>
+              <div x-show="tabLoading" class="text-claude-orange text-sm terminal-blink">Loading_</div>
               <div x-show="!tabLoading" class="markdown-body" x-html="tabContent"></div>
             </div>
           </div>
@@ -315,7 +315,7 @@
           <h3 class="text-sm font-bold mb-1 text-claude-red">&gt;&gt; Disagreement Highlights</h3>
           <p class="text-claude-dim text-[10px] mb-2">Companies where personas diverge most (std dev >= 20).</p>
           <div class="overflow-x-auto">
-          <table class="w-full text-xs terminal-table">
+          <table class="w-full text-sm terminal-table">
             <thead>
               <tr class="border-b border-claude-border">
                 <th class="px-1.5 py-1 text-left text-claude-gray border border-claude-border">Company</th>
@@ -365,7 +365,7 @@
           <h3 class="text-sm font-bold mb-1 text-claude-blue">&gt;&gt; Persona Correlation Matrix</h3>
           <p class="text-claude-dim text-[10px] mb-2">Pearson r between persona score vectors. High correlation (r > 0.80) suggests insufficient differentiation.</p>
           <div class="overflow-x-auto">
-            <table class="text-xs terminal-table">
+            <table class="text-sm terminal-table">
               <thead>
                 <tr class="border-b border-claude-border">
                   <th class="px-2 py-1 border border-claude-border"></th>
@@ -402,7 +402,7 @@
               <h3 class="text-sm font-bold mb-1" :class="tractionTierColor(tier.tierName)"
                 x-text="'>> ' + tier.tierName"></h3>
               <div class="overflow-x-auto">
-              <table class="w-full text-xs terminal-table">
+              <table class="w-full text-sm terminal-table">
                 <thead>
                   <tr class="border-b border-claude-border">
                     <th class="px-1.5 py-1 text-left text-claude-gray w-8 border border-claude-border">#</th>

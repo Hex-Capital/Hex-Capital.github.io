@@ -68,10 +68,6 @@
   font-family: 'JetBrains Mono', 'Consolas', monospace;
 }
 
-/* Gap between header row and first data row (box-shadow survives sticky + border-collapse) */
-.terminal-table thead th {
-  box-shadow: 0 4px 0 var(--c-bg);
-}
 
 /* Sticky search bar (dashboard) */
 .sticky-search {
@@ -141,13 +137,13 @@ body::before {
 .markdown-body {
   color: var(--c-text);
   line-height: 1.6;
-  font-size: 0.75rem;
+  font-size: 1rem;
   overflow-wrap: break-word;
   word-break: break-word;
 }
 
 .markdown-body h1 {
-  font-size: 1.125rem;
+  font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
   color: var(--c-accent);
@@ -156,7 +152,7 @@ body::before {
 }
 
 .markdown-body h2 {
-  font-size: 1rem;
+  font-size: 1.25rem;
   font-weight: 700;
   margin-top: 1.25rem;
   margin-bottom: 0.375rem;
@@ -164,7 +160,7 @@ body::before {
 }
 
 .markdown-body h3 {
-  font-size: 0.875rem;
+  font-size: 1.125rem;
   font-weight: 700;
   margin-top: 1rem;
   margin-bottom: 0.25rem;
@@ -200,13 +196,13 @@ body::before {
   width: 100%;
   border-collapse: collapse;
   margin-bottom: 0.75rem;
-  font-size: 0.75rem;
+  font-size: 0.875rem;
 }
 
 .markdown-body th,
 .markdown-body td {
   border: 1px solid var(--c-border);
-  padding: 0.25rem 0.5rem;
+  padding: 0.375rem 0.625rem;
   text-align: left;
 }
 
@@ -243,7 +239,7 @@ body::before {
   border: 1px solid var(--c-border);
   padding: 0.0625rem 0.25rem;
   border-radius: 0;
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   color: var(--c-accent);
 }
 
@@ -501,15 +497,15 @@ main {
   }
 
   .markdown-body {
-    font-size: 0.6875rem;
+    font-size: 0.875rem;
   }
 
-  .markdown-body h1 { font-size: 1rem; }
-  .markdown-body h2 { font-size: 0.875rem; }
-  .markdown-body h3 { font-size: 0.8125rem; }
+  .markdown-body h1 { font-size: 1.25rem; }
+  .markdown-body h2 { font-size: 1.125rem; }
+  .markdown-body h3 { font-size: 1rem; }
 
   .markdown-body table {
-    font-size: 0.625rem;
+    font-size: 0.8125rem;
     display: block;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
@@ -533,6 +529,11 @@ main {
     padding: 0.375rem 0.25rem !important;
   }
 
+  /* MOBILE-CARDS: remove table-level borders (per-card borders handle edges) */
+  .terminal-table {
+    border: none !important;
+  }
+
   /* MOBILE-SCORES: visually connect main row with its scores row */
   .mobile-scores-group > tr:first-child {
     border-bottom-color: transparent;
@@ -543,7 +544,8 @@ main {
     padding-top: 0.1875rem !important;
     padding-bottom: 0.25rem !important;
     background: var(--c-card);
-    border-left: 2px solid var(--c-border) !important;
+    border-left: 1px solid var(--c-border) !important;
+    border-right: 1px solid var(--c-border) !important;
   }
 
   /* MOBILE-SCORES: warm left accent bar on group interaction */
@@ -566,13 +568,16 @@ main {
     border-top: 8px solid var(--c-bg) !important;
   }
 
-  /* MOBILE-CARDS: card background + extra padding on main row */
+  /* MOBILE-CARDS: card background + consistent 1px borders on main row */
   .mobile-scores-group > tr:first-child > td {
     background: var(--c-card);
     padding-left: 0.75rem !important;
     padding-right: 0.75rem !important;
     padding-top: 0.625rem !important;
     padding-bottom: 0.5rem !important;
+    border-left: 1px solid var(--c-border) !important;
+    border-right: 1px solid var(--c-border) !important;
+    border-top: 1px solid var(--c-border) !important;
   }
 
   /* MOBILE-CARDS: extra padding on scores row */

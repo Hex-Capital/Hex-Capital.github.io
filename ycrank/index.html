@@ -70,7 +70,7 @@
         <h1 class="text-base font-bold text-claude-orange cursor-pointer sm:tracking-wider flex-shrink-0" @click="navigate('dashboard')">[YCRank]</h1>
         <span class="text-claude-border">|</span>
         <select x-model="currentBatch" @change="loadBatch(currentBatch)"
-          class="bg-claude-bg border border-claude-border text-claude-orange px-1.5 sm:px-2 py-0.5 text-sm rounded-none focus:outline-none focus:border-claude-orange min-w-0 max-w-[100px] xs:max-w-none">
+          class="bg-claude-bg border border-claude-border text-claude-orange px-1.5 sm:px-2 py-0.5 text-sm rounded-none focus:outline-none focus:border-claude-orange min-w-0 max-w-[140px] xs:max-w-none">
           <template x-for="b in batches" :key="b">
             <option :value="b" x-text="formatBatch(b)"></option>
           </template>

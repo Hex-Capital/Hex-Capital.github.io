@@ -1,0 +1,78 @@
+{
+  "slug": "syntropy",
+  "name": "Syntropy",
+  "oneLiner": "Ship code like a power user from day one.",
+  "metadata": {
+    "website": "https://syntropy.io",
+    "yc_page": "https://www.ycombinator.com/companies/syntropy",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Productivity",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Developer Tools, Generative AI, SaaS, Workflow Automation, AI Assistant",
+    "yc_partner": "Ankit Gupta",
+    "emails": "founders@syntropy.io, saahil@syntropy.io"
+  },
+  "tags": [
+    "Developer Tools",
+    "Generative AI",
+    "SaaS",
+    "Workflow Automation",
+    "AI Assistant"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-03T21:43:02.226Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 22,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 25,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 21,
+      "tier": "Strong Pass"
+    },
+    "vinod-khosla": {
+      "score": 32,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 22,
+    "EG": 28,
+    "NR": 32,
+    "PG": 27,
+    "PT": 25,
+    "SL": 21,
+    "VK": 32
+  },
+  "consolidatedAvg": 26.71,
+  "consolidatedRank": 193,
+  "paths": {
+    "memo": "winter2026/memos/syntropy.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/syntropy.md",
+      "elad-gil": "winter2026/evals/elad-gil/syntropy.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/syntropy.md",
+      "paul-graham": "winter2026/evals/paul-graham/syntropy.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/syntropy.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/syntropy.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/syntropy.md"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+﻿# Syntropy -- Cyan Banister Evaluation
+
+Here's what I notice immediately: AI coding tools is the single most consensus category in technology right now. Cursor just hit $2B in ARR. Cognition raised over a billion dollars. GitHub Copilot crossed a billion. AWS built an entire IDE around the exact same spec-driven methodology Syntropy is proposing. When I look at a space where every venture capitalist in San Francisco is fighting to write checks, where the methodology you're building around is being open-sourced by GitHub and published by Thoughtworks and Red Hat -- that's the opposite of the signal I've learned to trust. The most promising companies are not popular. They are difficult to assess. Syntropy is building something that is extremely popular and increasingly straightforward to assess. Every well-resourced player with API access to frontier models can build a spec-driven coding agent, and several already have.
+
+When I sit down with founders, the first thing I want to hear is their story -- not the product, not the TAM slide, not the competitive landscape. How did you get here? What happened in your life that makes you the person who has to solve this particular problem? With Andrew and Saahil, what I see are two clearly smart Stanford CS students with internships at Amazon, Apple, Accenture, and AWS. That's a fine resume. But there's no biographical thread connecting them to this specific problem in a way that would sustain them through the kind of crisis every startup faces. Saahil's NLP and linguistics work under Dan Jurafsky is genuinely relevant domain knowledge for translating natural language specifications into code -- I'll give him that. But domain knowledge and biographical grit are different things. I backed Travis Kalanick because of his gravitas, the way years of fighting had hardened him into someone who wouldn't quit when cities tried to shut Uber down. I don't see that forging here. These are talented students building in the hot category of their graduating class.
+
+The strongest bull case I can construct is this: spec-driven development is real, no cloud-agnostic startup has captured it yet, and AWS Kiro being locked to the AWS ecosystem leaves an opening. If Syntropy ships exceptional execution quality and builds deep enterprise integrations before the bigger players expand, they could create genuine switching costs. Saahil's linguistics background is a legitimate edge for the core translation problem -- turning human specifications into reliable multi-file implementations. And YC acceptance is a real signal. If I squint, I can see a world where the category fragments enough that a focused, independent player wins the enterprise-agnostic slice. But that thesis requires Syntropy to outrun Cognition ($1B+ raised), Cursor ($2.3B raised), and AWS simultaneously, while the underlying methodology is being commoditized in real time. That's not the kind of technology risk I look for -- surmountable but real. That's an execution race against opponents with a hundred-to-one capital advantage, which is a different kind of problem entirely.
+
+I also don't see the dimension I care most about after founder story: does this company create economic access or make an invisible system visible for people who currently lack it? Uber gave drivers income. Affirm gave people transparent credit. Flock Safety brought public safety data to communities. Syntropy makes enterprise software engineers -- already among the highest-paid workers in the economy -- slightly more productive. That's a legitimate business, but it doesn't create the kind of real-world impact that gets me excited to write a check from my own money. There's nothing here about poverty alleviation, about transparency replacing opacity, about giving access to people who've been shut out. The possible rename from "Inviscid AI" is a minor question mark about conviction and direction, though I won't over-weight it. What I will note is that neither founder appears to have a public presence, open-source track record, or community following that would suggest the kind of authentic, mission-driven building I look for in the earliest stages.
+
+This is a pass for me. Not because the founders aren't capable -- they clearly are -- but because nothing about this company activates the way I invest. It's consensus, not conviction. It's a hot market, not a weird one. The founders have credentials, not scars. And the problem they're solving, while real, doesn't touch the people I most want to help.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Biographical Grit and Personal Stake | 7/30 |
+| Anti-Consensus Conviction and Weird Factor | 4/25 |
+| Economic Access and Real-World Impact | 3/20 |
+| Navigating Complexity in Hard Spaces | 3/15 |
+| Co-Founder Alignment and Team Resilience | 5/10 |
+| **Total** | **22/100** |
+
+**Total Score: 22/100** (Pass)

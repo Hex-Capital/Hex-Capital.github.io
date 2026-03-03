@@ -9,7 +9,9 @@
     "industry": "B2B / B2B -> Infrastructure",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "AIOps, Artificial Intelligence, Developer Tools"
+    "tags": "AIOps, Artificial Intelligence, Developer Tools",
+    "yc_partner": "Diana Hu",
+    "emails": "founders@incidentfox.ai"
   },
   "tags": [
     "AIOps",
@@ -17,22 +19,22 @@
     "Developer Tools"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T05:58:37.825Z",
+  "memoGeneratedAt": "2026-03-03T23:10:10.271Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 30,
+      "score": 32,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 39,
-      "tier": "Pass"
+      "score": 46,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 42,
-      "tier": "Pass"
+      "score": 47,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 45,
+      "score": 48,
       "tier": "Neutral"
     },
     "peter-thiel": {
@@ -40,25 +42,25 @@
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 24,
-      "tier": "Strong Pass"
+      "score": 25,
+      "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 33,
+      "score": 44,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 30,
-    "EG": 39,
-    "NR": 42,
-    "PG": 45,
+    "CB": 32,
+    "EG": 46,
+    "NR": 47,
+    "PG": 48,
     "PT": 30,
-    "SL": 24,
-    "VK": 33
+    "SL": 25,
+    "VK": 44
   },
-  "consolidatedAvg": 34.71,
-  "consolidatedRank": 136,
+  "consolidatedAvg": 38.86,
+  "consolidatedRank": 99,
   "paths": {
     "memo": "winter2026/memos/brownie.md",
     "evals": {

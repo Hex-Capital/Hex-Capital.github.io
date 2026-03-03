@@ -11,108 +11,110 @@
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
 | Tags | Fintech, B2B |
+| YC Partner | Brad Flora |
+| Emails | No public data found |
 
 ## The Idea
 
-**Problem:** Companies running creator and influencer programs need to pay large numbers of creators across jurisdictions, using compensation models tied to performance (views, clicks, conversions) rather than fixed hourly rates. Today, managing this requires juggling spreadsheets, hundreds of individual invoices, manual payment approvals, and tax compliance across countries. The YC page describes the problem as traditional payroll systems still compensating based on hours rather than output, creating manual approval processes and payment delays (YC company page).
+**Problem:** Companies that rely on creators (UGC, influencer marketing, affiliate programs) struggle to pay them at scale. When compensation is tied to performance metrics — e.g., paying per view rather than flat fees — the process involves spreadsheets, manual payout calculations, one-off approvals, and piecemeal international transfers. Traditional payroll systems assume hourly or salaried employment and cannot natively handle variable, performance-based compensation across hundreds or thousands of independent creators in 190+ countries. The current workarounds are spreadsheets, manual bank transfers, or general-purpose AP tools not designed for marketing teams.
 
-**Approach:** Grade provides a single platform where companies add a creator by email (no onboarding calls or account setup), configure payment rules (flat fees, performance-based pay, or hybrid), and then bulk-approve and pay in minutes. The platform automates tracking of creator performance, calculates earnings, consolidates billing into a single invoice for finance teams, and handles tax compliance—creators submit tax forms once and Grade maintains records, supporting W-9, W-8BEN, and equivalent documentation by jurisdiction (usegrade.com). Payouts cover 190+ countries (usegrade.com).
+**Approach:** Grade provides a platform where companies add creators by email (no creator onboarding required), define payment rules (flat rate, performance-based, or hybrid), track performance via a dashboard, and execute bulk global payouts in minutes. The platform generates a single consolidated invoice for finance teams and supports multiple payout rails including Venmo, Wise, PayPal, Revolut, Payoneer, and USDT (company website). The core mechanism is automating the link between performance data and payment execution — the company calls this "payroll for performance."
 
-**Differentiation:** Compared to general-purpose accounts payable platforms like Tipalti (which serves 5,000+ companies across many industries), Grade is purpose-built for the creator payment use case with native performance-based compensation logic. Tipalti requires integration with external campaign tracking to calculate performance-based payouts; Grade bundles tracking and payment calculation natively. Compared to Lumanu, which focuses on agencies and talent managers with financing and invoicing tools, Grade targets the brand/company side with a simpler "email-to-pay" workflow requiring no creator onboarding. Compared to Stir, which focuses on revenue-sharing between collaborating creators, Grade targets companies paying creators rather than creator-to-creator splits.
+**Differentiation:** Versus Lumanu, which positions as a "single vendor" intermediary handling tax compliance and vendor onboarding, Grade emphasizes zero creator setup (track by email only) and performance-based payment structures rather than just flat-fee disbursement. Versus Trolley, which is a developer-focused payout API/infrastructure layer, Grade offers a marketer-facing product with built-in performance tracking and creator ratings. Versus Tipalti, which is built for finance teams managing accounts payable broadly, Grade is purpose-built for the creator/marketing use case with flexible performance-based compensation models.
 
-**Business Model:** No public pricing page was found on usegrade.com at time of research. [Inferred]: Most likely monetization path is a per-transaction fee or percentage of payout volume, consistent with fintech payments platforms in this space (industry standard is 5–15% platform fee per Meltwater, 2026 via search snippet). The $380K+ monthly payout volume suggests early revenue generation if a take-rate model is in place, though no revenue figures are disclosed.
+**Business Model:** No public pricing page; the website directs visitors to "Book a Demo" (company website). [Inferred]: Most likely monetization path is a transaction fee on payouts (percentage of disbursement volume) and/or a SaaS subscription, given the company processes $1M+ in payouts and the demo-based sales motion suggests an enterprise/mid-market pricing model.
 
-**TAM/SAM:** The creator payment automation market was valued at $3.08B in 2025, projected to reach $3.71B in 2026 and $7.72B by 2030 at a 20.1% CAGR (Research and Markets, 2026 via search snippet). The broader creator economy was estimated at $205.25B in 2024 (Grand View Research via search snippet). Goldman Sachs has estimated the creator economy TAM at $250B (Investing.com via search snippet). Grade's serviceable market is the payment infrastructure layer within creator economy transactions—no company-specific SAM estimate is publicly available.
+**TAM/SAM:** The global creator economy market was valued at $205.25 billion in 2024 and is projected to reach $1,345.54 billion by 2033 at a 23.3% CAGR (Grand View Research, 2024 via search snippet). [Inferred]: The SAM — specifically the creator payment infrastructure layer — is a subset of this. No public SAM estimate specific to creator payment platforms was found.
 
-**GTM / Distribution:** Grade lists clients including Valid ($30M+ ad spend), Astra AI (2.1M+ users), Hayai Learn (3,000+ customers), Growth Gorilla (40+ clients), and Plutus (50+ clients) as testimonials on its website (usegrade.com). [Inferred]: Most likely distribution path is direct sales to companies managing creator programs (agencies, DTC brands, app companies running UGC campaigns), leveraging the founders' existing creator economy network from their prior venture Creator Check.
+**GTM / Distribution:** The company lists customers including Valid ($30M+ ad spend), Astra AI (2.1M+ users), Growth Gorilla (40+ clients), Hayai Learn (3,000+ customers), and Plutus (50+ clients) on its website. [Inferred]: The GTM appears to be direct sales to companies with active creator/UGC programs, leveraging a demo-based sales process. The founders' prior experience building and scaling consumer apps using creators as a growth channel likely provides a warm network for early customer acquisition.
 
 ## Defensibility
 
-Grade's primary moat signal at this stage is operational data accumulation: as more payouts are processed, the platform builds compliance records, tax documentation, and creator payment histories across jurisdictions that become costly to replicate or migrate away from. Supporting 190+ countries creates switching costs as companies would need to re-collect tax documentation and re-onboard creators on an alternative platform.
+The platform processes performance data alongside payments, creating a data layer that ties creator compensation to measurable outcomes. As companies build payment histories and performance ratings for hundreds of creators within Grade, switching costs increase — migrating creator records, payment preferences, and historical performance data to a new system creates friction. The $1M+ already disbursed through the platform (company website) represents an early accumulation of this transactional data.
 
-**Market structure:** General-purpose AP platforms like Tipalti and Bill.com serve thousands of industries; building native creator performance-tracking and variable compensation logic represents a niche specialization that may not justify dedicated engineering investment from a horizontal platform. [Inferred]: The structural barrier is unit economics incompatibility—Tipalti processes $75B+ in annualized volume across all industries (Tipalti press release, 2025 via search snippet), making deep vertical specialization for creator payouts a low-priority product investment relative to their broader customer base.
+No patents, regulatory barriers, or network effects are identifiable from public sources at this stage. [Inferred]: A potential moat could develop via aggregated creator performance data across customers (i.e., a shared "creator rating" network), but this is unproven.
 
-**Commoditization risk:** The core payment orchestration layer (sending money globally) is commoditized through Stripe, Wise, and similar infrastructure. The differentiated layer is the performance-tracking-to-payment workflow. Lumanu ($20.6M raised, Crunchbase via search snippet) and Stir ($20.7M raised, Crunchbase via search snippet) are well-funded adjacent competitors that could add similar performance-pay features. A new entrant with payments API access could replicate the basic product within months; the defensibility depends on depth of integrations and compliance tooling across 190+ countries.
+**Market structure:** Tipalti ($8B+ valuation AP platform) is built for finance teams and general vendor management; adapting it for performance-based creator payouts would require rearchitecting its payment logic around variable compensation rules, which conflicts with its core AP workflow model. Lumanu is the closest structural competitor but positions around tax compliance and single-vendor consolidation rather than performance-based pay. [Inferred]: The structural barrier is that incumbent payment/AP platforms (Tipalti, Bill.com) are designed for fixed invoices and would need to cannibalize their simple pricing/UX model to introduce variable performance-based payment logic.
+
+**Commoditization risk:** The core technology — connecting performance APIs to a payment disbursement layer — is technically reproducible. Lumanu ($20.6M raised, per Crunchbase/PitchBook via search snippet) and Trolley ($44.4M raised, per BetaKit) are already in the creator payout space with more capital. Any company with API access to payout rails (Stripe, Wise, PayPal) could theoretically build a similar product. The differentiator is the integrated performance-tracking-to-payment workflow, which is a product design advantage rather than a deep technical moat.
 
 ## Market & Traction
 
 **Traction signals:**
-- 400+ creators paid through the platform (usegrade.com, accessed Feb 2026)
-- $1M+ total payouts distributed (usegrade.com, accessed Feb 2026)
-- $380K+ paid out in the last 30 days with 120% month-over-month growth (YC company page)
-- Customer testimonials from Valid, Astra AI, Hayai Learn, Growth Gorilla, and Plutus (usegrade.com)
-- Company Twitter/X: No dedicated Grade company account found; founder Lotanna Ezeike's personal account @lottsnomad has 13.7K followers (X.com via search snippet)
-- LinkedIn: Grade (YC W26) company page exists at linkedin.com/company/usegrade; follower count not retrievable
-- Product Hunt: No launch found
-- Job postings: 0 current openings (YC company page)
-- Discord/Slack community: No public data found
-- App store / Chrome extension: Not applicable (web platform)
+- 790+ creators paid (company website, as of research date)
+- $1M+ total disbursed (company website, as of research date)
+- Active in 190+ countries (company website)
+- $380K+ in creator payouts processed within 30 days, representing 120% month-over-month growth (YC company page)
+- Named customers: Valid, Astra AI, Growth Gorilla, Hayai Learn, Plutus (company website)
+- Lotanna Ezeike Twitter/X: ~13.7K followers at @lottsnomad (X.com via search snippet)
+- James Heaney Twitter/X: @jvheaney (follower count not retrievable)
+- No Product Hunt launch found
+- No company LinkedIn page confirmed (a Nordic HR-tech company called "Grade" occupies the primary LinkedIn listing with 1,895 followers — see Key Risks)
+- No Discord or Slack community found
+- No app store listings found
 
 **Competitive landscape:**
 
-1. **Lumanu** — $20.6M raised (Crunchbase via search snippet). Payments and financing platform for the creator economy, focused on agencies and talent managers. Differentiator vs. Grade: Lumanu offers financing/working capital to agencies, while Grade focuses on the brand-side pay-per-performance workflow. Revenue: annualized payment volume in nine figures; SaaS + fintech revenues grew 11x since Series A (Lumanu blog via search snippet).
+| Competitor | Funding | Revenue | Key Differentiator vs. Grade |
+|------------|---------|---------|------------------------------|
+| Lumanu | $20.6M (Crunchbase/PitchBook via search snippet) | $2.1M revenue, 1K customers in 2024 (Latka, Oct 2024 via search snippet) | Positions as "single vendor" for tax compliance; marketers pay Lumanu, which distributes to creators. Less focus on performance-based pay. |
+| Trolley | $44.4M total (BetaKit) | Revenue unknown | Developer-focused payout API/infrastructure; broader than creator economy. Starts at $49/mo (Trolley website). |
+| Creative Juice | $20M + $50M creator fund (TechCrunch, Apr 2022) | Revenue unknown | Creator-side financial tools and revenue-based financing; serves creators, not brands. |
+| Tipalti | >$500M raised (adjacent) | Revenue unknown | Enterprise AP automation; not creator-specific. Finance-team-oriented workflow creates friction for marketing use cases (per Lumanu comparison blog). |
 
-2. **Tipalti** — $200M+ ARR (Tipalti press release, 2025 via search snippet), $200M growth financing round. Broad accounts payable automation platform serving 5,000+ companies across industries. Differentiator vs. Grade: Tipalti is horizontal/enterprise-scale; Grade is vertically specialized for creator performance-based pay with no-setup creator onboarding.
-
-3. **Stir** — $20.7M raised (Crunchbase via search snippet), a16z-led Series A at ~$100M valuation (The Information via search snippet). Revenue-sharing platform for creators collaborating on content. Differentiator vs. Grade: Stir focuses on creator-to-creator revenue splits, while Grade focuses on company-to-creator payouts.
-
-4. **MONET** — £17M raised (FFNews, 2025 via search snippet). Finance platform for creative agencies with campaign-based financing, payments across 130+ countries, and cash-flow forecasting. Differentiator vs. Grade: MONET targets agency back-office finance broadly (financing, banking, operations), while Grade is narrowly focused on performance-based creator payouts.
-
-**Why now:** [Inferred]: Several converging factors enable this opportunity: (1) Creator economy ad spend is projected to reach $37B in 2025, growing 4x faster than total media industry (IAB via PR Newswire, 2025 via search snippet), driving volume of brand-to-creator transactions; (2) the shift from flat-fee influencer sponsorships to performance-based compensation models (cost-per-view, affiliate, hybrid) creates complexity that generic payment tools do not address; (3) the creator payment automation market itself is a defined and growing category at $3.08B in 2025 (Research and Markets via search snippet), indicating sufficient transaction volume to sustain vertical payment infrastructure.
+**Why now:** [Inferred]: Several converging factors — (1) the shift from flat-fee creator sponsorships to performance-based compensation models (pay-per-view, affiliate commissions) has created a need for payment infrastructure that can handle variable payouts tied to real-time metrics; (2) the creator economy grew to $205B in 2024 (Grand View Research via search snippet) with creator economy startup funding rebounding in 2024 after two years of decline (The Information via search snippet); (3) the proliferation of UGC as a paid acquisition channel means companies are now managing hundreds or thousands of creator relationships rather than a handful, pushing spreadsheet-based processes past their breaking point.
 
 ## Founders & Team
 
 **Lotanna Ezeike** — Co-founder & CEO
-- Serial entrepreneur with multiple prior ventures in the creator economy
-- Education: University of Leicester, Economics (LinkedIn via search snippet)
-- Prior work: Associate Product Manager at SwiftKey; experience at Barclays (search snippet via Acquire.com blog)
-- Founded XPO, a creator/influencer fintech, and raised over $1M in seed funding led by Blue Wire Capital (Yahoo News / Business Insider via search snippet)
-- Founded and sold two travel SaaS businesses via Acquire.com (Acquire.com blog)
-- Founded Creator Check, a creator screening software for brands (Acquire.com blog)
-- Launched Bible Buddy, an AI WhatsApp chatbot that crossed 10K active users (X.com/@lottsnomad via search snippet)
-- Former sprinter for England (search snippet via Acquire.com blog)
-- Twitter/X: [@lottsnomad](https://x.com/lottsnomad) — 13.7K followers (X.com via search snippet)
-- LinkedIn: [linkedin.com/in/lottsnomad](https://www.linkedin.com/in/lottsnomad/) — headline: "Creator Check" (LinkedIn via search snippet)
+- Education: Economics, University of Leicester (FinTech Magazine interview via search snippet)
+- Prior experience: Associate Product Manager at SwiftKey; worked at Barclays (FinTech Magazine interview via search snippet)
+- Founded XPO, an influencer fintech startup; raised £1M+ (FinTech Magazine, Seedrs via search snippet)
+- Founded and sold two SaaS businesses in the travel industry (Acquire.com podcast via search snippet)
+- Founded Creator Check, a creator/influencer screening tool for brands (Acquire.com podcast via search snippet)
+- Built Bible Buddy, a WhatsApp chatbot with 10K+ active users (X.com post via search snippet)
+- Former sprinter for England, turned content creator (~10-12K Instagram followers from athletics) which led to founding XPO (FinTech Magazine interview via search snippet)
+- Twitter/X: @lottsnomad — ~13.7K followers (X.com via search snippet)
+- LinkedIn: linkedin.com/in/lottsnomad
 - GitHub: No public repos found
 
-**James Heaney** — Co-founder
-- 2x exited founder and full-stack software engineer
-- Education: Mechanical Engineering, Ryerson University (April 2022) (jvheaney.com)
-- CTO of Creator Check (January 2023–present) (jvheaney.com)
-- Built Pray Screen (religious screen time app): $40K MRR within 2 months, 250K+ downloads, 4.9-star rating, subsequently sold (jvheaney.com; Social Growth Engineers via search snippet)
-- Sold cryptography technology startup at age 22 (optimized distributed systems, Merkle proofs) to a blockchain company (jvheaney.com)
-- Built RU Mine, a campus social app with ~5,000 users (~20% of Ryerson student body) (jvheaney.com)
-- Built FindMyVax, a COVID-19 vaccine finder serving 55,000+ Canadians (jvheaney.com)
-- Software engineer at Sunnybrook Health Sciences Centre on MyChart patient record system serving 1M+ patients (jvheaney.com)
-- Twitter/X: [@jvheaney](https://x.com/jvheaney) — follower count not retrievable
-- LinkedIn: [linkedin.com/in/jvheaney](https://www.linkedin.com/in/james-heaney-68441474/) — headline: "Helping creators and their management teams 10x their revenue by automating their back office with AI" (LinkedIn via search snippet)
-- GitHub: [github.com/Jvheaney](https://github.com/Jvheaney) — repos include ru-social and findmyvax; star counts not retrievable (GitHub via search snippet)
+**James Heaney** — Co-founder & CTO
+- Education: BEng Mechanical Engineering, Ryerson University (April 2022) (jvheaney.com)
+- Sold first startup at age 22 — focused on distributed systems/cryptography (jvheaney.com)
+- Co-founded Pray Screen at Founders Inc (Aug 2024–June 2025): achieved $40K MRR within 2 months, 250,000+ downloads, subsequently sold (jvheaney.com)
+- Built FindMyVax (2021): helped 55,000+ Canadians locate COVID-19 vaccines (jvheaney.com)
+- Built RU Mine (2020–2022): campus social platform capturing ~5,000 users / ~20% of Ryerson's student body (jvheaney.com)
+- Software Engineer at Sunnybrook Health Sciences Centre (2019–2022): worked on MyChart patient records network serving 1M+ patients across North America (jvheaney.com)
+- Twitter/X: @jvheaney (follower count not retrievable)
+- LinkedIn: linkedin.com/in/jvheaney
+- GitHub: github.com/Jvheaney (star counts not retrieved)
 
-**Co-founder relationship:** Both Lotanna and James worked together at Creator Check—Lotanna as CEO/Co-founder and James as CTO (from January 2023 onward per jvheaney.com and Acquire.com blog). This shared working history preceded the founding of Grade.
+**Co-founder relationship:** Both founders are listed as co-founders of Creator Check — Lotanna as founder and James as CTO (Acquire.com podcast via search snippet; jvheaney.com). They previously collaborated on building, scaling, and exiting 4 mobile AI apps together, with creators as their main growth channel (YC company page). This indicates a prior working relationship predating Grade.
 
-**Founder-market fit:** Both founders have spent years in the creator economy. Lotanna built XPO (creator payments fintech) and Creator Check (creator screening), giving him direct exposure to the brand-creator payment pain point. James built the technical infrastructure at Creator Check and has demonstrated ability to ship consumer and fintech products quickly (Pray Screen to $40K MRR in 2 months). Their combined experience across creator fintech and payment systems directly maps to the problem Grade addresses.
+**Founder-market fit:** Both founders have direct, first-hand experience with the problem Grade solves. They built and scaled consumer apps using creators as a paid growth channel, experienced the pain of managing creator payments via spreadsheets, and discovered that switching from flat fees to performance-based pay accelerated growth but made payment logistics harder (YC company page). Lotanna's background founding XPO (an influencer payment fintech) and Creator Check (creator screening) gives him deep domain knowledge of the creator economy infrastructure stack. James brings technical execution capability with two prior exits and experience building products that scaled to hundreds of thousands of users. Both have successfully exited companies before.
 
 ## Key Risks
 
-**Brand disambiguation / SEO challenge:** "Grade" is an extremely common English word. Web searches return educational grading tools, Grade.us (review management), and other unrelated products. This creates organic discovery challenges and potential brand confusion, increasing customer acquisition cost.
+**Brand disambiguation:** "Grade" is a common English word, creating SEO and brand confusion. A Nordic HR-tech company called "Grade" already occupies the primary LinkedIn company page listing (LinkedIn search). Multiple other companies use the "Grade" name (Grade.us for review management, GRADE New York for design). This complicates organic discovery and may require sustained investment in branded search terms.
 
-**Competitor funding asymmetry:** Lumanu ($20.6M raised, Crunchbase via search snippet), Tipalti ($200M+ ARR, Tipalti press release via search snippet), and Stir ($20.7M raised at $100M valuation, The Information via search snippet) are significantly better resourced. Any of these could add performance-based payment features to their existing platforms. Mitigation: Grade's focused vertical approach and simpler onboarding may outpace feature additions by horizontal competitors.
+**Competitive capital disadvantage:** Lumanu ($20.6M raised, per Crunchbase/PitchBook via search snippet) and Trolley ($44.4M raised, per BetaKit) are established in the creator payout space with significantly more capital than Grade's YC standard deal (~$500K). Both have existing enterprise customer bases and integrations. Grade must differentiate strongly on the performance-based pay angle to avoid direct feature competition.
 
-**Platform concentration risk:** Grade's customer base appears concentrated among companies running creator/influencer campaigns—a segment that is sensitive to changes in social media platform algorithms and policies. A major platform shift (e.g., a social network internalizing creator payments) could compress the addressable market.
+**Platform dependency on payout rails:** Grade routes payments through third-party rails (PayPal, Wise, Venmo, Payoneer, Revolut, USDT) (company website). Changes to these platforms' APIs, fee structures, or compliance requirements could disrupt Grade's service or compress margins. No evidence of proprietary payment infrastructure.
 
-**Prior-product pivot ambiguity:** The founders previously operated Creator Check (a creator screening tool) and appear to have pivoted to Grade (creator payments). The relationship between the two products and the timeline of the pivot is not clearly documented in public sources, creating uncertainty about product-market fit conviction and runway already consumed.
+**Creator economy cyclicality:** The company's traction is tied to marketing budgets allocated to creator/UGC programs. An advertising downturn could reduce payout volumes and, consequently, Grade's revenue if it charges transaction-based fees.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $3.08B creator payment automation market in 2025, growing to $7.72B by 2030 at 20.1% CAGR (Research and Markets, 2026 via search snippet); broader creator economy ~$205B (Grand View Research, 2024 via search snippet) |
-| SAM | No public data found |
-| Traction | 400+ creators paid, $1M+ total payouts (usegrade.com, Feb 2026); $380K+ paid out in last 30 days, 120% MoM growth (YC company page); clients include Valid, Astra AI, Hayai Learn, Growth Gorilla, Plutus (usegrade.com) |
-| Revenue Signal | No public data found (no pricing page; take-rate model inferred but unconfirmed) |
-| Founders | Lotanna Ezeike (CEO): U. Leicester Economics, ex-SwiftKey PM, founded XPO (raised $1M+), 2 travel SaaS exits. James Heaney (Co-founder): Ryerson Mech Eng, 2x exited founder (crypto startup, Pray Screen at $40K MRR / 250K downloads), ex-CTO Creator Check |
-| Competitors | Lumanu ($20.6M raised, revenue 11x growth since Series A, agency-focused financing + payments); Tipalti ($200M+ ARR, horizontal AP automation, 5,000+ customers); Stir ($20.7M raised, ~$100M valuation, creator-to-creator revenue splits); MONET (£17M raised, agency back-office finance) |
-| Moat Signals | 190+ country tax compliance and creator payment records create switching costs; vertical specialization in performance-based creator pay |
-| Risk Factors | Brand disambiguation with common-word name, well-funded competitors in adjacent space, platform concentration risk tied to social media ecosystem |
-| Founder Reach | Lotanna Ezeike: Twitter 13.7K, LinkedIn 500+ (not verified), GitHub not found. James Heaney: Twitter count not retrievable (@jvheaney), LinkedIn profile active, GitHub github.com/Jvheaney (star count not retrievable) |
-| Distribution Signals | No Product Hunt launch found; no app store presence; LinkedIn company page exists (linkedin.com/company/usegrade, follower count not retrievable) |
+| TAM | $205.25B creator economy in 2024, projected $1,345.54B by 2033 at 23.3% CAGR (Grand View Research via search snippet) |
+| SAM | No public data found for creator payment infrastructure specifically |
+| Traction | 790+ creators paid, $1M+ disbursed, 190+ countries (company website); $380K+ payouts in 30 days, 120% MoM growth (YC page) |
+| Revenue Signal | No public pricing or revenue data; demo-based sales model (company website) |
+| Founders | Lotanna Ezeike (CEO): Economics @ Leicester, ex-SwiftKey, founded XPO (raised £1M+), sold 2 SaaS businesses. James Heaney (CTO): MechEng @ Ryerson, 2x exited founder (crypto startup, Pray Screen — $40K MRR / 250K+ downloads). |
+| Competitors | Lumanu ($20.6M raised, $2.1M revenue 2024, tax-compliant creator payments); Trolley ($44.4M raised, revenue unknown, developer payout API); Creative Juice ($20M raised, revenue unknown, creator-side financing); Tipalti (>$500M raised, enterprise AP — adjacent) |
+| Moat Signals | Integrated performance-tracking-to-payment workflow; early creator payment data accumulation ($1M+ disbursed). No patents or network effects identified. |
+| Risk Factors | Brand disambiguation ("Grade" is a common word), competitive capital disadvantage vs. Lumanu/Trolley, payout rail platform dependency |
+| Founder Reach | Lotanna Ezeike: Twitter/X ~13.7K followers, LinkedIn active. James Heaney: Twitter/X @jvheaney (count not retrievable), LinkedIn active, GitHub github.com/Jvheaney. |
+| Distribution Signals | No Product Hunt launch found; no app store presence; no Discord/Slack community found |
+| Emails | No public data found |

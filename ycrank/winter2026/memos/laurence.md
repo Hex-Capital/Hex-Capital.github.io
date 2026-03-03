@@ -9,111 +9,119 @@
 | Batch | Winter 2026 |
 | Industry | B2B / B2B -> Analytics |
 | Team Size | 2 |
-| Location | New York, NY (LinkedIn company page) |
-| Tags | Marketing, Advertising, Trading, AI |
+| Location | Not listed |
+| Tags | Artificial Intelligence, Marketing, Advertising, Trading |
+| YC Partner | Harshita Arora |
+| Emails | matthew@trylaurence.com (YC page) |
 
 ## The Idea
 
-**Problem:** Amazon sellers and brands lose money on PPC advertising after accounting for margins. Advertising on Amazon is managed through manual bid and keyword updates using noisy, delayed data and fixed rules. These rule-based approaches break at scale and do not account for stochastic variance in conversion rates. The company states that overpaying by 10 cents per click compounds to approximately $1M in annual losses across 50 keywords per product at 10 clicks/day (trylaurence.com). Current alternatives include manual management, agencies using offshore labor, and software platforms that rely on deterministic rule-based automation (Perpetua, Pacvue, Teikametrics, Quartile).
+**Problem:** Consumer packaged goods (CPG) brands selling on Amazon rely on manual, spreadsheet-based bid and budget adjustments for pay-per-click advertising—typically performed weekly by agencies or offshore teams. This process ignores the stochastic nature of consumer behavior, breaks at scale across tens of thousands of keywords, and uses fixed rules applied to noisy, delayed data. The company description compares the status quo to "trading in the 1980s pits: archaic, manual, and iterative guesswork" (YC company page).
 
-**Approach:** Laurence applies reinforcement learning and custom-trained transformer models to automate Amazon PPC advertising. The system continuously recalculates conversion rates across tens of thousands of keywords at different CPC levels and optimizes bids to the cent. Bids are adjusted hourly rather than daily or weekly. When data is sparse for a given keyword, the system borrows signals from similar keywords. The platform uses customers' existing ad copy and runs campaigns on autopilot with explicit profit constraints — described as analogous to how quantitative hedge funds trade markets under stochastic outcomes (YC company page; trylaurence.com). The product includes a full audit trail of all bid changes and an "Ask Laurence" AI reporting agent for on-demand explanations (trylaurence.com).
+**Approach:** Laurence uses reinforcement learning and proprietary LLMs to automate Amazon PPC advertising. The system calculates conversion rates for tens of thousands of keywords at various CPC levels and recalculates bids hourly rather than weekly (trylaurence.com). The approach draws explicitly from quantitative finance: continuous decision-making under stochastic outcomes with explicit profit constraints, harvesting profits when confidence is high and borrowing signals from similar keywords when data is sparse (YC company page). The platform uses customers' existing ad copy and runs ads on autopilot with full transparency and audit trails for every bid change, budget shift, and target adjustment (trylaurence.com).
 
-**Differentiation:** Existing Amazon PPC tools (Perpetua, Pacvue, Teikametrics, Quartile) use rule-based automation — if ACOS exceeds a threshold, lower bid; if ROAS exceeds a target, raise bid. Laurence frames its approach as continuous stochastic optimization rather than threshold-based rules, treating each bid as a decision under uncertainty. The company draws an explicit analogy to quantitative trading, claiming to apply techniques from hedge fund market-making (confidence-weighted position sizing, signal borrowing across correlated instruments) to advertising bids (YC company page). The founding team includes a former Jump Trading researcher, which is the source of this quantitative trading methodology.
+**Differentiation:** Existing tools such as Pacvue, Perpetua, Quartile, and Teikametrics use rule-based automation or goal-based AI optimization. Laurence differentiates by framing ad bidding as a stochastic optimization problem analogous to quantitative trading, with reinforcement learning rather than static rules or simple ML-based bid suggestions. The team's background in high-frequency trading (Jump Trading) and ML engineering (Google, Meta) distinguishes the technical approach from competitors built primarily by e-commerce software engineers.
 
-**Business Model:** No public pricing page found on trylaurence.com. [Inferred]: Given the competitive landscape (Perpetua at $695/mo, Teikametrics at $149/mo, Pacvue at $500/mo, Quartile at $895–$9,995/mo) and Laurence's claim of "decreasing advertising cost of sales by 40%," the most likely monetization paths are either a percentage of ad spend managed or a flat monthly SaaS fee tiered by ad spend volume.
+**Business Model:** No public pricing page. The website's primary CTA is "Book a Demo" with a form collecting revenue and ad spend information (trylaurence.com). [Inferred]: Most likely monetization path is a percentage-of-ad-spend fee or a SaaS subscription tiered by monthly ad spend, consistent with industry norms (Perpetua charges from $695/month, Quartile from $895/month, both scaled by ad spend).
 
-**TAM/SAM:** Amazon generated $56.2 billion in advertising revenue in 2024, growing approximately 20% year-over-year (Statista, 2024). Amazon's advertising revenue is projected to reach $69 billion in 2025 (Nasdaq, citing WARC estimates). The serviceable market is the subset of Amazon advertising spend managed by third-party brands and sellers using external optimization tools. Quartile alone manages over $2 billion in annual Amazon ad spend, representing approximately 2% of all Amazon advertising spend (Quartile website via search snippet). No specific SAM estimate for the Amazon PPC management software segment was found.
+**TAM/SAM:** Amazon's retail media ad revenue was $60.6 billion in 2025, projected to reach $69.7 billion in 2026 (WARC Media via search snippet). Amazon search ad revenue in the U.S. alone reached $19 billion in 2022, expected to grow to $41 billion by 2026 (eMarketer via search snippet). SAM would be the portion of this spend managed by third-party optimization tools rather than in-house or directly through Amazon's own ad console. No public SAM estimate specific to Amazon PPC management software was found.
 
-**GTM / Distribution:** The company's YC page lists an ask for "introductions to CPG brands or SMBs selling on Amazon" (YC company page). Matthew Chen's LinkedIn shows Laurence sponsoring the eTail conference in Palm Springs and speaking at The Fortia Group's eCommerce summit in NYC on March 9, 2026 (LinkedIn). [Inferred]: The GTM appears to be a combination of direct outreach to Amazon brand owners, conference-based lead generation, and YC network referrals.
+**GTM / Distribution:** The company targets Amazon brands, starting with CPG brands. Named clients include Because Market, Finn, and Flings (trylaurence.com). An advisor, Aaron Apple, previously ran a PPC consultancy managing 8 figures of annual ad spend and founded Impresa Products, a top-75 Amazon 3P seller at exit (trylaurence.com/team). [Inferred]: Most likely distribution path is direct sales to Amazon brand owners and agencies, leveraging the advisor network and YC brand for initial deal flow, with demo-based enterprise sales motion.
 
 ## Defensibility
 
-The core defensibility claim rests on the application of quantitative trading techniques (reinforcement learning, stochastic optimization) to advertising bid management. As the system manages more ad spend and accumulates more conversion data across keywords and categories, the RL models should improve in accuracy — creating a data flywheel where more customers produce better models, which attract more customers.
+The core defensibility claim rests on the technical complexity of applying reinforcement learning to real-time advertising bid optimization. The system trains proprietary models on live ad spend data, which creates a data flywheel: more managed ad spend generates more training data, improving model performance. The team's quantitative trading background (Jump Trading) represents domain expertise that is uncommon in the Amazon advertising software market.
 
-The hourly optimization cadence and continuous model retraining represent a technical complexity barrier relative to rule-based competitors, though the underlying ML techniques (RL, transformers) are well-known in academic and industry settings. Switching costs are moderate: advertisers who see measurable ROAS improvements have financial incentive to stay, but PPC management tools are generally substitutable with limited data lock-in.
+Full audit trails and bid-level transparency (trylaurence.com) create switching costs once a brand has integrated its campaigns and begun relying on Laurence's optimization history and keyword-level intelligence.
 
-**Market structure:** Incumbents (Pacvue, Teikametrics, Quartile) have built their platforms on rule-based architectures. Rebuilding around a fundamentally different RL-based approach would require rearchitecting core bidding engines and retraining engineering teams — a nontrivial effort that risks disrupting existing customer workflows. However, no structural barrier (business model cannibalization, regulatory moat, or channel conflict) prevents incumbents from eventually adopting similar ML approaches. The primary barrier is organizational inertia and the engineering cost of a paradigm shift from deterministic rules to stochastic optimization.
+**Market structure:** Incumbent Amazon PPC tools (Pacvue, Quartile, Perpetua/Ascential) are built on rule-based or simpler ML optimization frameworks. Rebuilding their core bidding engines around reinforcement learning would require significant R&D investment and would risk disrupting existing customer workflows and expectations. Pacvue, as a bootstrapped company generating $50.8M in revenue (getlatka.com via search snippet), has limited incentive to overhaul a profitable existing architecture. Perpetua, acquired by Ascential in 2021, operates within a larger corporate structure that may slow fundamental technical pivots.
 
-**Commoditization risk:** The underlying techniques (reinforcement learning, transformer models) are broadly accessible. Other ML-focused Amazon PPC entrants could build similar systems. The defensibility depends on execution speed, the depth of proprietary training data accumulated from live ad spend, and the quality of the team's quantitative modeling relative to competitors.
+**Commoditization risk:** The reinforcement learning approach to ad bidding is technically reproducible by well-funded competitors or new entrants with quantitative finance backgrounds. The barrier is primarily in execution quality, data accumulation, and the speed of iteration rather than in a proprietary algorithm that cannot be replicated.
 
 ## Market & Traction
 
 **Traction signals:**
-- Managing $10 million in live ad spend (YC company page)
-- LinkedIn company page states managing $2M+ in annual Amazon Ads spend (LinkedIn, accessed Feb 2026) — this may represent a subset or earlier figure compared to the $10M YC claim
-- Increasing advertising profits by 15-20% (YC company page)
-- Decreasing advertising cost of sales by 40% (YC company page)
-- Customer testimonial: 2x total sales growth (trylaurence.com)
-- Customer testimonial: 50% total sales growth (trylaurence.com)
-- Customer testimonial: 2.17x → 5.78x ROAS improvement (trylaurence.com)
-- Customer testimonial: Achieved 28% ACOS for an $8M/year seller vs. 40% ACOS previously (LinkedIn post)
-- Approximately 11 named clients visible on website: Because, Bayelon, Berkland, Alton, Auralux, Sylvan, VitalRoot, Escentile, Samorillo, Recover+, Culver (trylaurence.com)
-- LinkedIn company page: 377 followers, 6 employees listed (LinkedIn, accessed Feb 2026)
-- Twitter/X: @trylaurence (handle confirmed; follower count not retrievable due to JavaScript rendering)
-- Sponsoring eTail conference in Palm Springs; speaking at The Fortia Group eCommerce summit in NYC, March 9, 2026 (Matthew Chen LinkedIn)
-- No Product Hunt launch found
-- No press coverage in named publications found
-- No app store or browser extension presence found
+- Managing "$10 million in live ad spend" (Y Combinator LinkedIn post, circa early 2026). An earlier figure of "$2.5 million in live ad spend" appeared on the YC company page (via search snippet), suggesting growth from the initial YC application to the LinkedIn announcement.
+- 15–20% increases in advertising profits for clients (Y Combinator LinkedIn post).
+- 40% decrease in advertising cost of sales (ACoS) while increasing gross sales (YC company page).
+- Customer testimonial: 2x total sales growth (Cleaning & Repairs Brand) (trylaurence.com).
+- Customer testimonial: 50% total sales growth (Cleaning & Repairs Brand) (trylaurence.com).
+- Customer testimonial: 2x to 5.78x ROAS improvement (Photo & Video Supplies Brand) (trylaurence.com).
+- Named clients: Because Market, Finn, Flings (trylaurence.com).
+- YC LinkedIn announcement received 377 likes and 100 comments (LinkedIn).
+- Twitter/X: @trylaurence — follower count not retrievable (JavaScript rendering required).
+- LinkedIn: company/laurence-ai — follower count not retrievable.
+- GitHub: Laurence-AI organization — no public repositories (GitHub).
+- No Product Hunt launch found.
+- No app store or Chrome extension presence found.
 
 **Competitive landscape:**
 
-| Competitor | Funding | Revenue | Key Differentiator vs. Laurence |
-|------------|---------|---------|--------------------------------|
-| Pacvue | $476M total (acquired by Assembly, Oct 2021) (Crunchbase via search snippet) | $50.8M (Jul 2025, getlatka.com via search snippet) | Broader omnichannel platform spanning 90+ marketplaces; merged with Helium 10 for full-stack Amazon seller suite. Rule-based automation vs. Laurence's RL approach. |
-| Teikametrics | $65M total ($40M Series B, Jul 2021, Intel Capital-led) (VentureBeat) | $45.1M in 2024 (getlatka.com via search snippet) | Founded 2011; longer track record and established brand. AI-powered but rule-based bid optimization. Pricing starts lower at $149/mo. |
-| Perpetua | $11.5M raised pre-acquisition; acquired by Ascential for up to $162M in Apr 2021 (Osler; Morningstar via search snippet) | Revenue unknown | Goal-based campaign creation across Amazon, Walmart, Instacart. Now part of Ascential's digital commerce division. |
-| Quartile | Undisclosed (PE from Rockbridge Growth Equity, 2020) (Crunchbase via search snippet) | Revenue unknown | Manages $2B+ annually (~2% of Amazon ad spend). ML-driven at scale. Pricing $895–$9,995/mo (Quartile website via search snippet). |
-| Intentwise | Unfunded / bootstrapped (Crunchbase via search snippet) | Revenue unknown | Analytics and reporting focus; purpose-built for brands, sellers, and agencies. Founded 2015. |
+| Competitor | Funding | Revenue/Scale | Key Differentiator vs. Laurence |
+|---|---|---|---|
+| Pacvue | Bootstrapped | $50.8M revenue, 462 employees (getlatka.com, July 2025 via search snippet) | Full commerce acceleration platform spanning retail media, commerce management, and measurement across multiple marketplaces; broader scope beyond PPC |
+| Quartile | $31.4M raised (Wellfound via search snippet) | Manages $2B+ annual ad spend for 5,300+ brands (quartile.com via search snippet) | Scale of existing customer base and cross-marketplace coverage; ML-based but not RL-based |
+| Teikametrics | $65M raised (Tracxn via search snippet) | Revenue not public | Flywheel SaaS platform covering Amazon + Walmart; established brand with agency partnerships |
+| Perpetua | $11.5M raised; acquired by Ascential April 2021 (Crunchbase via search snippet) | $1.2M revenue in 2021 (getlatka.com via search snippet) | Goal-based campaign creation with automated bidding; part of Ascential's broader commerce intelligence suite |
+| Skai (formerly Kenshoo) | ~$52M raised (PitchBook via search snippet) | Revenue not public | Omnichannel platform beyond Amazon (search, social, retail media); founded 2006 with deep enterprise relationships |
 
-**Why now:** [Inferred]: Several converging factors: (1) Amazon advertising revenue has grown from ~$31B in 2022 to $56B in 2024, creating a larger addressable market with more sophisticated advertisers feeling margin pressure; (2) Advances in reinforcement learning and transformer architectures (2023–2025) have made it feasible to apply continuous stochastic optimization to high-dimensional bid spaces at low latency; (3) Rising Amazon CPCs are compressing seller margins, making the difference between optimal and suboptimal bidding increasingly consequential; (4) The incumbent tools were architected in the rule-based era and face technical debt in transitioning to modern ML-native approaches.
+**Why now:** [Inferred]: Several converging factors: (1) Amazon's advertising revenue has grown rapidly, reaching $60.6 billion in 2025 (WARC Media via search snippet), creating a large and expanding market for optimization tools; (2) advances in reinforcement learning infrastructure and transformer models have made it feasible to apply quantitative trading techniques to advertising bidding at scale; (3) the increasing keyword and campaign complexity on Amazon has outstripped the capacity of manual management and simple rule-based tools, creating demand for more sophisticated optimization.
 
 ## Founders & Team
 
 **Matthew Chen** — Co-founder & CEO
-- Education: Cornell University (2009–2018) (LinkedIn)
-- Previously: ML Engineer at Google (built the Data Science Agent); ML Engineer at Meta (grew Facebook new user retention by 18%); Boston Consulting Group; Jump Trading; third engineer at a health-tech startup (YC company page; LinkedIn)
-- Languages: English, German, French, Indonesian, Chinese (LinkedIn)
-- Speaking at eTail conference and The Fortia Group eCommerce summit (LinkedIn)
-- Twitter/X: No confirmed personal account found
-- LinkedIn: linkedin.com/in/matthew-l-chen/ — 2,000+ followers, 500+ connections (LinkedIn, accessed Feb 2026)
-- GitHub: No public repos found
+- BS Math and Computer Science with AI research, Cornell University (trylaurence.com/team, LinkedIn via search snippet).
+- Previously at Google: built the Data Science Agent (trylaurence.com/team via search snippet).
+- Previously at Meta: grew Facebook new user retention by 18% while tuning the friending model (trylaurence.com/team via search snippet).
+- Spent 3 months developing software tools for Amazon Ads agencies prior to founding Laurence (trylaurence.com/team).
+- Trained ML models to rank in the top 1,000 out of 11 million (0.009%) at Fantasy Soccer (trylaurence.com/team via search snippet).
+- Twitter/X: @mlaurencechen — account existence confirmed from YC page; follower count not retrievable.
+- LinkedIn: linkedin.com/in/matthew-l-chen — 500+ connections (LinkedIn via search snippet).
+- GitHub: No public personal repos found.
 
 **Leo Gierhake** — Co-founder & Chief Scientist
-- Former quantitative researcher at Jump Trading (YC company page)
-- Professional poker player with $250K in winnings (YC company page)
-- Founded a crypto investing platform at age 18 (YC company page)
-- Published on DeFi trading strategies on LinkedIn (LinkedIn Pulse, Mar 2021)
-- Twitter/X: No public account found
-- LinkedIn: Profile exists but full details not publicly accessible; published DeFi Trades article (LinkedIn Pulse)
-- GitHub: No public repos found
+- Previously at Jump Trading: led research overseeing billions in live trading volume (trylaurence.com/team).
+- $250,000 in lifetime earnings as a high-stakes poker pro (trylaurence.com/team).
+- Published LinkedIn article on DeFi trades (March 2021) (LinkedIn via search snippet).
+- Education details not found in public sources.
+- Twitter/X: @LGierhake — account exists (YC page, Sotwe via search snippet); follower count not retrievable.
+- LinkedIn: Profile exists; headline not retrievable.
+- GitHub: No public repos found.
 
-**Co-founder relationship:** Both Matthew Chen and Leo Gierhake have Jump Trading in their backgrounds — Matthew Chen lists Jump Trading as a prior employer (LinkedIn), and Leo Gierhake was a Jump Trading researcher (YC company page). This shared employer suggests a prior professional connection.
+**Additional team members (per trylaurence.com/team):**
+- **Aaron Apple** — Advisor. Founded and sold Impresa Products, a ~$40M LTM revenue Amazon FBA business (top 75 Amazon 3P seller at exit, sold to strategic acquirer April 2021) (trylaurence.com/team; LinkedIn via search snippet). Previously ran a PPC consultancy managing 8 figures of annual ad spend.
+- **Justin Xiang** — Founding Engineer. Previously at Meta, built fraud and spam detection algorithms; created AI systems for autonomous aircraft operations (trylaurence.com/team).
+- **Gaspard Loeillot** — Founding Engineer. Previously at BCG, consulted for Fortune 500 companies on 9-figure growth initiatives (trylaurence.com/team).
+- **Daniel Weiner** — Founding Engineer. Co-founded PARES AI (YC S25), a CRE broker automation startup. Lectured at Cornell University beginning at age 18 (trylaurence.com/team; YC page for PARES AI).
 
-**Founder-market fit:** The founding team combines quantitative trading experience (Jump Trading) with big-tech ML engineering (Google, Meta) and direct Amazon selling experience. The YC page describes the team as "engineers and 8-figure Amazon sellers with experience at Google, Meta, Jump Trading, and BCG." The quantitative trading background is directly relevant to the company's core thesis of applying stochastic optimization to advertising bids, while the ML engineering experience at Google and Meta provides the technical foundation for building production RL and transformer systems.
+Note: The YC page lists team size as 2 (founders only), but the team page shows 4 additional team members beyond the two co-founders.
+
+**Co-founder relationship:** Both Matthew Chen (Cornell) and Leo Gierhake (Jump Trading) have backgrounds at the intersection of quantitative methods and technology. No shared employer or university overlap is visible from available public data.
+
+**Founder-market fit:** Matthew Chen's ML engineering experience at Google and Meta, combined with his direct pre-founding work building software tools for Amazon Ads agencies, provides both technical depth and domain-specific context. Leo Gierhake's experience leading quantitative research at Jump Trading—managing billions in live trading volume—maps directly to the company's thesis of treating ad bidding as a stochastic trading problem. The advisory relationship with Aaron Apple (who built and exited a top-75 Amazon 3P seller business and ran a PPC consultancy) provides deep Amazon marketplace expertise and potential channel access to Amazon brand owners.
 
 ## Key Risks
 
-**Platform dependency on Amazon:** The entire product is built on top of Amazon's Advertising API. Changes to API access, rate limits, data availability, or Amazon's own advertising algorithm could directly impair Laurence's ability to operate. Amazon has a history of restricting third-party access when it competes with its own tools (e.g., Amazon's own "Bid+" and automated campaign features).
+**Platform dependency on Amazon:** Laurence's current product is built entirely on Amazon's advertising ecosystem. Changes to Amazon's Advertising API, bid auction mechanics, or data access policies could disrupt the core product. Amazon has historically restricted third-party access to advertising data and could choose to build competing native optimization features.
 
-**Incumbent response with deeper data access:** Pacvue ($50.8M revenue) and Teikametrics ($45.1M revenue) have large existing customer bases generating substantial bid and conversion data. If these incumbents invest in RL-based optimization, they have both the capital and proprietary data volume to potentially build comparable or superior models, with distribution advantages from their existing customer relationships.
+**"Common name" brand disambiguation:** "Laurence" is a common English name, making SEO, social media discoverability, and brand search difficult. Search results for "Laurence" return primarily unrelated results (C.R. Laurence, individuals named Laurence, etc.), which may impede organic customer acquisition.
 
-**Metric ambiguity across ad spend claims:** The YC page states "$10 million in live ad spend," LinkedIn states "$2M+ in annual Amazon Ads spend," and an earlier search snippet referenced "$2.5M." These inconsistent figures make it difficult to assess the actual scale of the platform's current deployment. This could reflect different measurement periods or scopes, but it introduces uncertainty.
+**Incumbent response at scale:** Pacvue ($50.8M revenue), Quartile ($2B+ managed ad spend), and Teikametrics ($65M+ raised) have established customer bases, marketplace integrations, and sales teams. If reinforcement learning proves to deliver measurably superior results, these incumbents have the resources to acquire or replicate the approach.
 
-**Narrow initial market segment:** Focusing exclusively on Amazon PPC limits the addressable market to one channel within one marketplace. Competitors like Pacvue (90+ marketplaces), Perpetua (Amazon, Walmart, Instacart), and Skai (omnichannel) offer broader coverage. Brands seeking unified advertising management may prefer a single-platform solution.
-
-**Brand disambiguation:** "Laurence" is a common proper name. Web searches return substantial noise from unrelated individuals and organizations named Laurence, which could create challenges in organic discovery and SEO.
+**Narrow initial market segment:** Starting exclusively with Amazon PPC for CPG brands limits the addressable market in the near term. Expansion to other marketplaces (Walmart, Instacart) or other ad channels (Google, Meta) would require significant additional model development and integration work.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Amazon advertising revenue: $56.2B in 2024, ~20% YoY growth (Statista, 2024); projected $69B in 2025 (Nasdaq, citing WARC) |
-| SAM | No public data found for the Amazon PPC management software sub-segment specifically |
-| Traction | $10M in live ad spend managed (YC company page); ~11 named clients on website (trylaurence.com); 377 LinkedIn followers (LinkedIn, Feb 2026); 6 employees on LinkedIn (LinkedIn, Feb 2026) |
-| Revenue Signal | No public data found |
-| Founders | Matthew Chen (CEO): Cornell, ex-Google ML Engineer, ex-Meta ML Engineer, ex-Jump Trading, ex-BCG. Leo Gierhake (Chief Scientist): ex-Jump Trading researcher, professional poker player ($250K winnings), founded crypto platform at 18. |
-| Competitors | Pacvue ($476M raised, $50.8M revenue, omnichannel 90+ marketplaces vs. Amazon-only); Teikametrics ($65M raised, $45.1M revenue, rule-based vs. RL-based); Perpetua ($11.5M raised pre-acq, acquired for up to $162M by Ascential, goal-based campaign tool); Quartile (undisclosed PE funding, $2B+ ad spend managed, ML-driven at scale); Intentwise (unfunded, analytics-focused) |
-| Moat Signals | Proprietary RL models trained on live ad spend data; quantitative trading methodology applied to bidding; hourly optimization cadence vs. daily/weekly for competitors |
-| Risk Factors | Amazon API platform dependency, incumbent response with larger data and capital, narrow single-channel focus |
-| Founder Reach | Matthew Chen: Twitter not found, LinkedIn 2,000+ followers, GitHub not found. Leo Gierhake: Twitter not found, LinkedIn profile exists (details not accessible), GitHub not found. Company: Twitter @trylaurence (count not retrievable), LinkedIn 377 followers |
-| Distribution Signals | eTail conference sponsorship (LinkedIn, Feb 2026); The Fortia Group eCommerce summit speaker (LinkedIn, Mar 2026); YC W26 network |
+| TAM | Amazon retail media ad revenue: $60.6B in 2025, projected $69.7B in 2026 (WARC Media via search snippet). U.S. Amazon search ads: $19B (2022), expected $41B by 2026 (eMarketer via search snippet). |
+| SAM | No public data found for the specific Amazon PPC management software segment. |
+| Traction | $10M in live managed ad spend (YC LinkedIn post, early 2026); 15–20% advertising profit increases for clients (YC LinkedIn post); 40% ACoS reduction (YC company page); named clients: Because Market, Finn, Flings (trylaurence.com). |
+| Revenue Signal | No public data found. No pricing page visible; demo-based sales model (trylaurence.com). |
+| Founders | Matthew Chen (CEO): Google Data Science Agent builder, Meta friending growth, Cornell Math/CS. Leo Gierhake (Chief Scientist): Jump Trading quant research lead, high-stakes poker pro. |
+| Competitors | Pacvue (bootstrapped, $50.8M revenue, broad commerce platform), Quartile ($31.4M raised, $2B+ managed spend, 5,300+ brands), Teikametrics ($65M raised, revenue unknown, Flywheel SaaS), Perpetua ($11.5M raised, acquired by Ascential 2021, goal-based automation), Skai (~$52M raised, revenue unknown, omnichannel platform) |
+| Moat Signals | Reinforcement learning approach from quantitative trading domain; hourly bid recalculation vs. competitors' less frequent optimization; full audit trail transparency creating switching costs; data flywheel from managed ad spend. |
+| Risk Factors | Amazon platform dependency, brand name disambiguation difficulty, incumbent replication risk, narrow initial market segment |
+| Founder Reach | Matthew Chen: Twitter @mlaurencechen (count not retrievable), LinkedIn 500+ connections. Leo Gierhake: Twitter @LGierhake (count not retrievable), LinkedIn profile exists (headline not retrievable). Company: Twitter @trylaurence (count not retrievable). |
+| Distribution Signals | YC LinkedIn announcement: 377 likes, 100 comments (LinkedIn). No Product Hunt launch found. No app store or Chrome extension presence found. |
+| Emails | matthew@trylaurence.com (YC page) |

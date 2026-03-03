@@ -11,115 +11,116 @@
 | Team Size | 4 |
 | Location | San Francisco, CA, USA |
 | Tags | Artificial Intelligence, Developer Tools, B2B, Enterprise Software |
+| YC Partner | Jared Friedman |
+| Emails | No public data found |
 
 ## The Idea
 
-**Problem:** Developers building LLM-powered agents and retrieval-augmented generation (RAG) pipelines face escalating token costs and degraded accuracy as context windows fill with large amounts of retrieved or historical information. Current approaches require manually tuning retrieval parameters or accepting bloated prompts that increase latency and cost. The customer segment is engineering teams operating production LLM workloads—agent builders, RAG pipeline operators, and enterprises with high-volume inference spend.
+**Problem:** Developers building LLM-powered agents and RAG systems face escalating token costs and degraded accuracy as context windows fill with conversation history, tool outputs, and retrieved documents. Today's workarounds include manual prompt trimming, naive truncation, or paying full token costs—all of which either lose information or incur unnecessary expense.
 
-**Approach:** Compresr provides an API and SDK (`pip install compresr`) that compresses LLM context before it reaches the model (compresr.ai). The product operates via two mechanisms: (1) a request-tailored context compressor that uses proprietary algorithms for question-specific compression, claimed to outperform traditional retrieval baselines (compresr.ai); and (2) an agent proxy ("Context Gateway") that routes agent traffic through a proxy layer, compressing conversation state, tool traces, and retrieved information before model calls (GitHub, Compresr-ai/Context-Gateway). The Context Gateway is written in Go and sits between AI agents (e.g., Claude Code, Cursor) and the LLM API (GitHub). The product supports uploading documents into named collections and compressing both inline context and pre-uploaded collections (compresr.ai).
+**Approach:** Compresr provides an API that compresses LLM context at two levels: coarse-grained (filtering relevant chunks from lists) and fine-grained (token-level compression of context) (compresr.ai). The company's core model, cmprsr-v1, uses abstractive compression—generating compressed representations rather than simply extracting tokens—trained via supervised fine-tuning and Group Relative Policy Optimization on Qwen3-4B (arxiv 2511.12281, Nov 2025). The product is available as a Python SDK (`pip install compresr`), a commercial API, and an open-source Context Gateway proxy that sits between AI agents (Claude Code, Cursor, etc.) and LLM APIs (GitHub, Compresr-ai/Context-Gateway). The company reports up to 200x compression on its website, with a published FinanceBench benchmark showing 10x compression on 79 SEC filings (106K tokens → 10.5K tokens) while improving accuracy from 72.3% to 74.5% at 76% cost savings (compresr.ai).
 
-**Differentiation:** Compared to Microsoft's LLMLingua (open-source, 5.8k GitHub stars), which uses a small language model (GPT-2-small or LLaMA-7B) to identify and remove non-essential tokens at up to 20x compression (GitHub, microsoft/LLMLingua), Compresr positions itself as a managed API and proxy service rather than an open-source library requiring self-integration. LLMLingua is integrated into LangChain and LlamaIndex but is not offered as a hosted service (Microsoft Research). Supermemory ($3M raised; TechCrunch, Oct 2025) focuses on persistent memory and knowledge graphs for AI apps rather than real-time per-request compression (supermemory.ai). Factory.ai ($70M total raised, $300M valuation; Factory.ai Series B announcement) has built context compression into its coding agent product but does not offer compression as a standalone API (Factory.ai blog).
+**Differentiation:** Compresr differs from Microsoft Research's LLMLingua (open-source, extractive compression, up to 20x) by using abstractive token-level compression that generates new condensed text rather than selecting existing tokens (arxiv 2511.12281). It differs from AgentReady (deterministic rule-based stripping, 40–60% reduction) by using ML-based compression at deeper semantic levels. Unlike these alternatives, Compresr offers both a managed API and an open-source gateway proxy for agentic workflows, and its published benchmarks claim higher compression ratios (up to 200x) than LLMLingua's 20x ceiling (compresr.ai; Microsoft Research blog).
 
-**Business Model:** No pricing page is publicly visible on compresr.ai. The website mentions a free tier with a "vanilla compressor" and a premium tier with the "compresr" compressor for enhanced results (compresr.ai). [Inferred]: Most likely monetization path is usage-based API pricing (per token compressed or per API call), consistent with the infrastructure API model and the tiered structure described on the website.
+**Business Model:** No public pricing page was found on compresr.ai. The product is distributed via a Python SDK, a commercial API, and an open-source gateway (Apache 2.0 license). [Inferred]: Most likely monetization path is usage-based API pricing (per compressed token or per API call), consistent with developer infrastructure norms and the presence of a sign-up flow on the website.
 
-**TAM/SAM:** The global LLM market was valued at $7.77B in 2025 and is projected to reach $10.57B in 2026, growing at a 34.44% CAGR to $149.89B by 2035 (Precedence Research via search snippet). The enterprise LLM market was valued at $4.84B in 2025 (Fortune Business Insights via search snippet). Model API spending reached $8.4B, having more than doubled in a brief period (Menlo Ventures, 2025 via search snippet). No public TAM/SAM data found specific to the context compression segment.
+**TAM/SAM:** The large language model market was valued at $8.31 billion in 2025 and is estimated to reach $24.92 billion by 2031 at a 20.08% CAGR (Mordor Intelligence, 2025 via search snippet). The AI infrastructure market is projected to grow by $39.49 billion at a 24.7% CAGR from 2025 to 2030 (Technavio via search snippet). No public TAM/SAM data found for the specific LLM context compression segment.
 
-**GTM / Distribution:** The product is distributed as a Python SDK on PyPI and an open-source Go-based proxy on GitHub (compresr.ai; GitHub). [Inferred]: Most likely distribution path is bottom-up developer adoption via the free tier and open-source Context Gateway, converting to paid API usage as production workloads scale. The YC network provides initial distribution to AI-native startups.
+**GTM / Distribution:** The open-source Context Gateway (117 GitHub stars as of March 2026; GitHub) serves as a developer adoption funnel, with integrations for Claude Code, Cursor, and OpenClaw. The Python SDK (`pip install compresr`) targets individual developers. The website offers 30-minute demo booking for enterprise prospects (compresr.ai). [Inferred]: Most likely distribution path is bottom-up developer adoption via the open-source gateway and SDK, converting to paid API usage as teams scale agent workloads.
 
 ## Defensibility
 
-The Context Gateway repo on GitHub has 102 stars, 15 forks, and 7 contributors as of February 2026 (GitHub, Compresr-ai/Context-Gateway). The company claims proprietary compression algorithms that "outperform traditional retrieval baselines" (compresr.ai), though no published benchmarks or peer-reviewed evaluations were found in public sources. The founding team's research background at EPFL's Data Science Lab (DLab) in areas including prompt compression and efficient ML systems (YC company page) provides domain-specific technical knowledge.
+The founding team authored a peer-reviewed research paper (arxiv 2511.12281, EMNLP-adjacent venue) benchmarking 25 open- and closed-source models on compression, demonstrating deep domain expertise. The cmprsr-v1 model is the result of post-training specialized compression capabilities into a base LLM, representing proprietary model IP. The company holds early-mover positioning in productizing LLM context compression as a managed API service.
 
-[Inferred]: Potential defensibility could develop via: (1) data flywheel effects if the compression models improve with usage data across customers; (2) switching costs from integration into production agent pipelines; (3) proprietary compression model quality that outperforms open-source alternatives. However, none of these are proven at this stage.
+**Market structure:** Large LLM providers (OpenAI, Anthropic, Google) have a structural disincentive to offer context compression—their revenue models are based on per-token pricing, so reducing token usage directly cannibalizes their core revenue stream. This business model conflict creates space for a third-party compression layer. However, no structural barrier prevents other infrastructure startups from building competing compression APIs.
 
-**Market structure:** LLMLingua, the most direct open-source alternative, is maintained by Microsoft Research as a research project rather than a commercial product (Microsoft Research). Microsoft has not commercialized it as a standalone API service. [Inferred]: Large LLM providers (OpenAI, Anthropic, Google) face a structural disincentive to offer context compression, as reducing token usage directly reduces their per-token revenue. This business model cannibalization creates a window for a third-party compression layer. However, LLM providers could achieve similar outcomes by lowering prices or expanding context windows, which has been a consistent trend.
-
-**Commoditization risk:** Microsoft's LLMLingua is open-source and freely available (5.8k GitHub stars), and academic research on prompt compression is active with multiple published methods (EMNLP'23, ACL'24, NAACL'25). Any team with ML expertise could build a compression layer using published techniques. The barrier to a basic implementation is low; the barrier to a production-quality managed service with superior compression ratios is higher but not prohibitive.
+**Commoditization risk:** Microsoft Research's LLMLingua is open-source and freely available, establishing a baseline that any developer can use. AgentReady offers a competing API (currently in free beta). The underlying compression techniques (abstractive summarization, token classification) are well-documented in academic literature. New entrants with ML expertise could build competing solutions, though matching Compresr's published benchmark results on specific tasks would require significant research investment.
 
 ## Market & Traction
 
 **Traction signals:**
-- GitHub: Context-Gateway repo has 102 stars, 15 forks, 7 contributors, 36 commits, Apache-2.0 license, latest release v0.3.0 (Feb 13, 2026) (GitHub, Compresr-ai/Context-Gateway)
-- PyPI: `compresr` package available via `pip install compresr` (compresr.ai); download count not retrieved
-- LinkedIn: Company page exists at linkedin.com/company/compresr listed as "Compresr (YC W26)" (LinkedIn search result); follower count not retrieved
-- YC partner: Jared Friedman (YC company page)
+- GitHub: Context-Gateway repository has 117 stars, 16 forks, 43 commits, latest release v0.4.4 (Feb 28, 2026) (GitHub, Compresr-ai/Context-Gateway)
+- LinkedIn: 596 followers (LinkedIn company page, March 2026)
+- Academic: Peer-reviewed paper "Cmprsr: Abstractive Token-Level Question-Agnostic Prompt Compressor" (arxiv 2511.12281, submitted Nov 15, 2025, revised Jan 8, 2026) with all 4 founders as co-authors
 - Product Hunt: No launch found
-- Twitter/X: No company account found
-- Discord: Referenced in GitHub documentation but member count not retrieved
-- Press coverage: No public coverage found in named publications
-- Job postings: 0 open positions (YC company page)
+- Twitter/X: Company handle not confirmed; follower count not retrievable
+- Discord: Mentioned as active on the Context-Gateway GitHub page; member count not found
+- Revenue/users: No public data found
+- App store / Chrome extension: Not applicable
 
 **Competitive landscape:**
 
-1. **Microsoft LLMLingua** (open-source research project; no commercial funding as standalone product): Up to 20x prompt compression using small LMs for token filtering (GitHub, 5.8k stars, 350 forks). Integrated into LangChain and LlamaIndex. Key difference vs. Compresr: open-source library requiring self-hosting vs. managed API/proxy service.
+1. **LLMLingua (Microsoft Research)** — Open-source extractive prompt compression achieving up to 20x compression. Free to use, integrated into LlamaIndex and Azure Prompt Flow (Microsoft Research blog). Funding: Internal Microsoft Research project (no external funding). Revenue: N/A (free open-source tool). Key differentiator vs. Compresr: Backed by Microsoft's research resources; extractive rather than abstractive approach; no managed API service.
 
-2. **Supermemory** ($3M raised from Susa Ventures, Browder Capital, SF1.vc; TechCrunch, Oct 2025): Universal memory API for AI apps, builds knowledge graphs, achieves state-of-the-art on LongMemEval benchmarks (supermemory.ai). Key difference vs. Compresr: focuses on persistent memory and long-term coherence rather than per-request context compression.
+2. **AgentReady** — Compression API for LLM prompts achieving 40–60% token reduction with ~5ms overhead using deterministic rule-based stripping (Hacker News, Product Hunt). Funding: No public data found. Revenue: Currently in free beta (agentready.cloud). Key differentiator vs. Compresr: Deterministic/rule-based rather than ML-based; lower compression ratios but near-zero latency.
 
-3. **Factory.ai** ($70M total raised—$15M Series A led by Sequoia, $50M Series B led by NEA at $300M valuation; Factory.ai): AI coding agent platform with built-in incremental context compression for coding sessions (Factory.ai blog). Key difference vs. Compresr: compression is embedded within a vertical coding product, not offered as a standalone API.
+3. **Context-Engine AI** — Open-source "Agentic Context Compression Suite" available on GitHub (GitHub, Context-Engine-AI/Context-Engine). Funding: No public data found. Revenue: No public data found. Key differentiator vs. Compresr: Open-source MCP-based approach; unknown traction.
 
-4. **Inferact (vLLM)** ($150M seed at ~$800M valuation from a16z and Lightspeed; SiliconANGLE, Jan 2026): Commercializes the open-source vLLM inference engine for faster, cheaper model serving. Key difference vs. Compresr: optimizes at the inference engine level (KV-cache, batching) rather than at the prompt/context level.
+4. **Agno** — Agent framework with built-in context compression module (docs.agno.com). Funding: No public data found. Revenue: No public data found. Key differentiator vs. Compresr: Compression is a feature within a broader agent framework, not a standalone product.
 
-**Why now:** [Inferred]: Several converging factors opened this opportunity: (1) LLM inference costs, while declining ~10x annually (Menlo Ventures, 2025 via search snippet), remain a primary concern as Model API spending doubled to $8.4B (Menlo Ventures, 2025 via search snippet), meaning the absolute dollar spend on tokens is growing even as unit costs fall; (2) the proliferation of agentic AI workflows (multi-step tool-using agents) dramatically increases per-session token consumption through conversation history, tool traces, and retrieved context; (3) context windows have expanded (to 128K–1M+ tokens), but filling them incurs proportional cost and can degrade model accuracy, creating demand for intelligent compression rather than simple truncation.
+**Why now:** [Inferred]: The rapid growth in agentic AI workloads (74% of startups now run majority inference workloads, up from 48% a year earlier — a16z, 2025 via search snippet) has created a cost pressure that did not exist when LLMs were primarily used for single-turn queries. As agents execute multi-step workflows with accumulating conversation histories and tool outputs, context windows fill rapidly, making compression a production necessity rather than an academic curiosity. Simultaneously, LLM inference costs have declined 10x annually (a16z, 2025 via search snippet), shifting the competitive battleground from raw capability to cost efficiency.
 
 ## Founders & Team
 
-**Ivan Zakazov** — Co-founder & CEO
-- PhD student at EPFL in the EDIC program (Computer and Communication Sciences), started 2023 (EPFL people page via search snippet; Google Scholar via search snippet)
-- Research focus: NLP and medical imaging, with publications at MICCAI 2020, 2021 (oral), and 2022 (ACL Anthology; Google Scholar)
-- YC page states prior experience at Microsoft and Philips Research (YC company page); also reported to have worked at Meta, with his last day noted as Dec 29 (LinkedIn search snippet)
-- Researched LLM context compression at EPFL (YC company page)
-- Twitter/X: @1v4n0t7o (x.com search result); follower count not retrievable
-- LinkedIn: linkedin.com/in/ivan-zakazov — 500+ connections (LinkedIn search snippet)
-- GitHub: github.com/kechua — repositories include code for MICCAI papers on medical imaging domain adaptation (GitHub search result)
+**Ivan Zakazov** — Founder & CEO
+- PhD student at EPFL Data Science Lab (DLab), researching LLM context compression and domain adaptation in medical imaging
+- Previously at Meta (departed late 2024/early 2025) and Philips Research (Philips Innovation Labs RUS) (LinkedIn, ResearchGate)
+- Published at MICCAI 2020, 2021, 2022 on domain adaptation in MRI segmentation; lead author on the Cmprsr paper (arxiv 2511.12281)
+- Previously founded and shut down a startup called Iterate (search snippet)
+- Twitter/X: No confirmed public account found
+- LinkedIn: linkedin.com/in/ivan-zakazov
+- GitHub: github.com/kechua — 2 public repos, ~24 stars total (domain_shift_anatomy: 13 stars; Feather-Light-Fourier-Domain-Adaptation: 8 stars; DART20: 3 stars) (GitHub)
 
-**Oussama Gabouj** — Co-founder & CTO
-- Master's student in Data Science at EPFL, minor in Cybersecurity (LinkedIn via search snippet)
-- Research at EPFL's Data Science Lab (DLab) and AXA Group Operations, focusing on efficient ML systems and prompt compression (YC company page; LinkedIn via search snippet)
-- Technical expertise in Transformers, LLMs (LLaMA, GPT, Mistral), and multimodal models (CLIP, DINOv2) (LinkedIn via search snippet)
-- Co-author on research paper on generative approaches to kinetic parameter inference (bioRxiv/SSRN via search snippet)
-- Twitter/X: No public account found
-- LinkedIn: linkedin.com/in/oussama-gabouj-775235194 — "Master's student in Data Science at EPFL" (LinkedIn)
-- GitHub: No confirmed personal public repos found
-
-**Berke Argin** — Co-founder & CAIO
-- MS in Computer Science at EPFL, semester 3 (EPFL people page via search snippet)
-- AI Research Intern at UBS (LinkedIn via search snippet)
-- Twitter/X: No public account found
-- LinkedIn: ch.linkedin.com/in/arginberke — "MS in CS @ EPFL | AI Research Intern @ UBS" (LinkedIn)
-- GitHub: github.com/BerkeArgin — 4 repositories (GitHub search result)
+**Berke Argin** — Founder & CAIO
+- MS in Computer Science at EPFL; AI Research Intern at UBS (LinkedIn)
+- Published research on WebRTC QoE assessment with machine learning (ResearchGate, 2024)
+- Co-author on the Cmprsr paper (arxiv 2511.12281)
+- Twitter/X: @ArgBerke — follower count not retrievable
+- LinkedIn: linkedin.com/in/arginberke
+- GitHub: github.com/BerkeArgin — 5 public repos, minimal star counts (GitHub)
 
 **Kamel Charaf** — Co-founder & COO
-- Data Science Masters from EPFL (YC company page)
-- Previously at Bell Labs (YC company page)
-- Twitter/X: No public account found
-- LinkedIn: No confirmed personal profile found (search returned no matching profile)
+- EPFL Data Science Master's; previously at Bell Labs (YC page)
+- Co-author on the Cmprsr paper (arxiv 2511.12281)
+- Twitter/X: No confirmed public account found
+- LinkedIn: No public profile URL confirmed
 - GitHub: No public repos found
 
-**Co-founder relationship:** All four founders studied at EPFL — Ivan Zakazov as a PhD student, Oussama Gabouj and Kamel Charaf in Data Science master's programs, and Berke Argin in Computer Science master's. Ivan Zakazov and Oussama Gabouj both have ties to EPFL's DLab (EPFL DLab people page; YC company page). This shared institutional background indicates prior academic acquaintance.
+**Oussama Gabouj** — Founder & CTO
+- Master's in Data Science at EPFL with minor in Cybersecurity (LinkedIn)
+- Previously at EPFL DLab and AXA Group Operations (text-to-image retrieval using graph matching) (LinkedIn)
+- Expertise in Transformers, LLMs (LLaMA, GPT, Mistral), multimodal models (CLIP, DINOv2) (LinkedIn)
+- Co-author on the Cmprsr paper (arxiv 2511.12281); co-author on a bioRxiv paper on metabolic network inference (bioRxiv, 2025)
+- Twitter/X: No confirmed public account found
+- LinkedIn: linkedin.com/in/oussama-gabouj-775235194
+- GitHub: No confirmed public repos found
 
-**Founder-market fit:** The team has direct research experience in the problem domain: Ivan Zakazov specifically researched LLM context compression at EPFL (YC company page), and Oussama Gabouj worked on prompt compression and efficient ML systems at EPFL's DLab and AXA (YC company page). The combination of NLP research depth (Zakazov's publications, Gabouj's multimodal ML work), enterprise exposure (Zakazov at Microsoft/Philips/Meta, Argin at UBS, Charaf at Bell Labs), and systems engineering (Gabouj's efficient ML focus) aligns with building a production-grade compression API. No advisors, board members, or notable investors beyond YC and partner Jared Friedman were found in public sources.
+**Co-founder relationship:** All four founders studied at EPFL (three in the Data Science program, one in Computer Science), and Ivan Zakazov and Oussama Gabouj both worked at EPFL's DLab, indicating shared institutional and lab connections.
+
+**Founder-market fit:** The team's research background is directly aligned with the product: Ivan Zakazov's PhD research at EPFL focused specifically on LLM context compression, producing the Cmprsr paper that benchmarked 25 models and developed the core compression model. The entire founding team co-authored this paper. Oussama Gabouj's work at EPFL DLab on efficient ML systems and Berke Argin's AI research at UBS provide complementary ML engineering depth. Kamel Charaf's Bell Labs background adds systems and operations experience.
 
 ## Key Risks
 
-**Open-source substitution (LLMLingua):** Microsoft's LLMLingua achieves up to 20x compression, is freely available (5.8k GitHub stars), and is already integrated into LangChain and LlamaIndex (GitHub, microsoft/LLMLingua). Teams comfortable with self-hosting have a zero-cost alternative. Compresr must demonstrate materially superior compression quality or operational convenience to justify API fees over the open-source option.
+**LLM price deflation eroding value proposition:** LLM inference costs are declining approximately 10x annually (a16z, 2025 via search snippet), and DeepSeek entered the market at ~90% below incumbent pricing (search snippet). As token costs approach zero, the ROI of a compression layer diminishes. Mitigation: Compresr also claims accuracy improvements (72.3% → 74.5% on FinanceBench), which retains value independent of cost savings.
 
-**LLM pricing deflation:** LLM inference costs have declined ~10x annually (Menlo Ventures, 2025 via search snippet), and providers are expanding context windows while reducing per-token prices. If token costs become negligible, the economic motivation to compress context diminishes. The company's value proposition is directly tied to token costs remaining a meaningful line item for customers.
+**Open-source substitution from Microsoft Research:** LLMLingua is free, open-source, published by Microsoft Research, and already integrated into LlamaIndex and Azure Prompt Flow (Microsoft Research blog). Enterprises evaluating compression may default to the Microsoft-backed option. Mitigation: Compresr's abstractive approach claims higher compression ratios and its managed API reduces integration burden.
 
-**Platform dependency on LLM provider APIs:** Compresr operates as a middleware layer between applications and LLM APIs. LLM providers (OpenAI, Anthropic, Google) could introduce native context compression, caching, or summarization features within their APIs, eliminating the need for a third-party layer. Anthropic has already shipped prompt caching; OpenAI offers cached context pricing discounts.
+**Falling-token-price competitive dynamic:** As LLM providers compete on price, some may offer native compression or context optimization features (e.g., Google's ADK already documents context compaction — Google ADK docs). Platform-level compression would bypass third-party APIs entirely. No mitigation observed.
 
-**Academic team transitioning to commercial execution:** All four founders come from EPFL academic or research backgrounds (YC company page). The team's enterprise work experience spans internship-level or research roles (UBS intern, Bell Labs, AXA research, Philips Research). Commercial sales execution, especially to enterprises, has not been demonstrated. No prior startup exits were found.
+**Single-paper technical foundation:** The company's core differentiation rests on one arxiv paper (2511.12281). Peer replication and independent benchmarking of the claimed compression rates (up to 200x) have not been publicly documented. The FinanceBench results on the website show 10x (not 200x) compression, creating ambiguity about achievable real-world compression rates.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $7.77B global LLM market in 2025, 34.44% CAGR to $149.89B by 2035 (Precedence Research via search snippet); $8.4B model API spending (Menlo Ventures, 2025 via search snippet). No context-compression-specific TAM found. |
+| TAM | LLM market: $8.31B in 2025, projected $24.92B by 2031 at 20.08% CAGR (Mordor Intelligence, 2025 via search snippet). AI infrastructure market growing by $39.49B at 24.7% CAGR 2025–2030 (Technavio via search snippet). No specific TAM for LLM context compression segment. |
 | SAM | No public data found |
-| Traction | 102 GitHub stars, 15 forks on Context-Gateway (GitHub, Feb 2026); Python SDK on PyPI; 0 job postings (YC page) |
-| Revenue Signal | No public data found. Free tier and premium tier referenced on website (compresr.ai); no pricing details published. |
-| Founders | Ivan Zakazov (CEO): EPFL PhD, ex-Microsoft/Philips/Meta, MICCAI publications. Oussama Gabouj (CTO): EPFL DS Masters, DLab + AXA research, prompt compression focus. Berke Argin (CAIO): EPFL CS Masters, UBS AI intern. Kamel Charaf (COO): EPFL DS Masters, ex-Bell Labs. |
-| Competitors | Microsoft LLMLingua (open-source, no commercial funding, 5.8k GitHub stars, library not managed service); Supermemory ($3M raised, revenue unknown, memory/knowledge graph focus vs. per-request compression); Factory.ai ($70M raised, $300M valuation, revenue unknown, embedded in coding agent vs. standalone API); Inferact/vLLM ($150M raised, ~$800M valuation, revenue unknown, inference engine optimization vs. prompt-level compression) |
-| Moat Signals | Proprietary compression algorithms claimed to outperform retrieval baselines (compresr.ai; no published benchmarks found); founding team's EPFL DLab research in prompt compression |
-| Risk Factors | Open-source substitution via LLMLingua, LLM pricing deflation reducing compression ROI, native provider features (prompt caching) reducing need for third-party layer |
-| Founder Reach | Ivan Zakazov: Twitter @1v4n0t7o (count not retrievable), LinkedIn 500+, GitHub github.com/kechua. Oussama Gabouj: Twitter not found, LinkedIn profile found, GitHub not confirmed. Berke Argin: Twitter not found, LinkedIn profile found, GitHub github.com/BerkeArgin (4 repos). Kamel Charaf: Twitter not found, LinkedIn not confirmed, GitHub not found. |
-| Distribution Signals | PyPI package `compresr` (compresr.ai); GitHub Context-Gateway 102 stars (Feb 2026); No Product Hunt launch found; No press coverage found |
+| Traction | 117 GitHub stars on Context-Gateway (GitHub, March 2026); 596 LinkedIn followers (LinkedIn, March 2026); peer-reviewed paper with 25-model benchmark (arxiv, Nov 2025) |
+| Revenue Signal | No public data found |
+| Founders | Ivan Zakazov (CEO): EPFL PhD, ex-Meta, ex-Philips Research, lead author on Cmprsr paper. Berke Argin (CAIO): EPFL CS MS, ex-UBS AI Research. Kamel Charaf (COO): EPFL Data Science MS, ex-Bell Labs. Oussama Gabouj (CTO): EPFL Data Science MS, ex-AXA, ex-EPFL DLab. |
+| Competitors | LLMLingua (Microsoft Research, internal funding, free OSS, extractive up to 20x compression); AgentReady (funding unknown, free beta, deterministic 40–60% reduction); Context-Engine AI (funding unknown, revenue unknown, OSS MCP-based compression); Agno (funding unknown, compression as framework feature) |
+| Moat Signals | Peer-reviewed research paper (arxiv 2511.12281) with proprietary post-trained compression model; LLM providers' structural disincentive to offer compression (token revenue cannibalization) |
+| Risk Factors | LLM price deflation eroding compression ROI, open-source substitution from Microsoft LLMLingua, platform-native compression from LLM providers |
+| Founder Reach | Ivan Zakazov: Twitter not found, LinkedIn yes, GitHub 24 stars. Berke Argin: Twitter @ArgBerke (count not retrievable), LinkedIn yes, GitHub minimal. Kamel Charaf: Twitter not confirmed, LinkedIn not confirmed, GitHub not found. Oussama Gabouj: Twitter not confirmed, LinkedIn yes, GitHub not confirmed. |
+| Distribution Signals | Context-Gateway 117 GitHub stars (GitHub, March 2026); `pip install compresr` SDK; 30-min demo booking on website; no Product Hunt launch found |
+| Emails | No public data found |

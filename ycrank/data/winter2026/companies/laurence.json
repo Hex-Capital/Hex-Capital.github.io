@@ -8,58 +8,60 @@
     "batch": "Winter 2026",
     "industry": "B2B / B2B -> Analytics",
     "team_size": "2",
-    "location": "New York, NY (LinkedIn company page)",
-    "tags": "Marketing, Advertising, Trading, AI"
+    "location": "Not listed",
+    "tags": "Artificial Intelligence, Marketing, Advertising, Trading",
+    "yc_partner": "Harshita Arora",
+    "emails": "matthew@trylaurence.com (YC page)"
   },
   "tags": [
+    "Artificial Intelligence",
     "Marketing",
     "Advertising",
-    "Trading",
-    "AI"
+    "Trading"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-19T19:37:50.595Z",
+  "memoGeneratedAt": "2026-03-03T23:08:19.608Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 55,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 65,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
       "score": 36,
       "tier": "Pass"
     },
-    "vinod-khosla": {
-      "score": 41,
+    "elad-gil": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 61,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 44,
       "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 46,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 32,
-    "EG": 48,
-    "NR": 55,
-    "PG": 65,
-    "PT": 35,
-    "SL": 36,
-    "VK": 41
+    "CB": 36,
+    "EG": 51,
+    "NR": 57,
+    "PG": 61,
+    "PT": 44,
+    "SL": 37,
+    "VK": 46
   },
-  "consolidatedAvg": 44.57,
-  "consolidatedRank": 49,
+  "consolidatedAvg": 47.43,
+  "consolidatedRank": 36,
   "paths": {
     "memo": "winter2026/memos/laurence.md",
     "evals": {

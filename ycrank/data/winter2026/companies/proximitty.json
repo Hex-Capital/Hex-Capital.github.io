@@ -9,7 +9,9 @@
     "industry": "Fintech / Credit and Lending",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "FinOps, Fintech, SaaS, B2B, Lending"
+    "tags": "FinOps, Fintech, SaaS, B2B, Lending",
+    "yc_partner": "Diana Hu",
+    "emails": "No public data found"
   },
   "tags": [
     "FinOps",
@@ -19,26 +21,26 @@
     "Lending"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T05:55:33.517Z",
+  "memoGeneratedAt": "2026-03-03T23:09:15.030Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 38,
+      "score": 41,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 57,
+      "score": 58,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 43,
-      "tier": "Pass"
+      "score": 51,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 49,
+      "score": 48,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 33,
+      "score": 31,
       "tier": "Pass"
     },
     "sam-lessin": {
@@ -46,21 +48,21 @@
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 46,
+      "score": 50,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 38,
-    "EG": 57,
-    "NR": 43,
-    "PG": 49,
-    "PT": 33,
+    "CB": 41,
+    "EG": 58,
+    "NR": 51,
+    "PG": 48,
+    "PT": 31,
     "SL": 32,
-    "VK": 46
+    "VK": 50
   },
-  "consolidatedAvg": 42.57,
-  "consolidatedRank": 60,
+  "consolidatedAvg": 44.43,
+  "consolidatedRank": 51,
   "paths": {
     "memo": "winter2026/memos/proximitty.md",
     "evals": {

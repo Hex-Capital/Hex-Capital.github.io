@@ -9,7 +9,9 @@
     "industry": "Fintech / Fintech",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Finance, Investing, Trading"
+    "tags": "Finance, Investing, Trading",
+    "yc_partner": "Jared Friedman",
+    "emails": "No public data found"
   },
   "tags": [
     "Finance",
@@ -17,48 +19,48 @@
     "Trading"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T05:55:09.366Z",
+  "memoGeneratedAt": "2026-03-03T23:04:54.032Z",
   "evalScores": {
     "cyan-banister": {
       "score": 36,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "paul-graham": {
       "score": 34,
       "tier": "Pass"
     },
+    "naval-ravikant": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 36,
+      "tier": "Pass"
+    },
     "peter-thiel": {
-      "score": 29,
+      "score": 31,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 43,
-      "tier": "Pass"
+      "score": 47,
+      "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 42,
+      "score": 38,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 36,
-    "EG": 37,
-    "NR": 44,
-    "PG": 34,
-    "PT": 29,
-    "SL": 43,
-    "VK": 42
+    "EG": 34,
+    "NR": 46,
+    "PG": 36,
+    "PT": 31,
+    "SL": 47,
+    "VK": 38
   },
-  "consolidatedAvg": 37.86,
-  "consolidatedRank": 106,
+  "consolidatedAvg": 38.29,
+  "consolidatedRank": 109,
   "paths": {
     "memo": "winter2026/memos/forum.md",
     "evals": {

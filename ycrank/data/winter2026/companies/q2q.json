@@ -9,7 +9,9 @@
     "industry": "B2B / B2B -> Finance and Accounting",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Fintech, SaaS, B2B, AI"
+    "tags": "Fintech, SaaS, B2B, AI",
+    "yc_partner": "Harshita Arora",
+    "emails": "brianna@tryq2q.com, claire@tryq2q.com"
   },
   "tags": [
     "Fintech",
@@ -18,48 +20,48 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T05:59:14.639Z",
+  "memoGeneratedAt": "2026-03-03T23:13:10.687Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 28,
+      "score": 21,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 38,
+      "score": 27,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 40,
+      "score": 31,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 28,
+      "score": 32,
       "tier": "Pass"
     },
+    "peter-thiel": {
+      "score": 15,
+      "tier": "Strong Pass"
+    },
     "sam-lessin": {
-      "score": 25,
+      "score": 17,
       "tier": "Strong Pass"
     },
     "vinod-khosla": {
-      "score": 27,
-      "tier": "Pass"
+      "score": 28,
+      "tier": "Strong Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 28,
-    "EG": 38,
-    "NR": 40,
-    "PG": 52,
-    "PT": 28,
-    "SL": 25,
-    "VK": 27
+    "CB": 21,
+    "EG": 27,
+    "NR": 31,
+    "PG": 32,
+    "PT": 15,
+    "SL": 17,
+    "VK": 28
   },
-  "consolidatedAvg": 34,
-  "consolidatedRank": 143,
+  "consolidatedAvg": 24.43,
+  "consolidatedRank": 195,
   "paths": {
     "memo": "winter2026/memos/q2q.md",
     "evals": {

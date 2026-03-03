@@ -8,26 +8,28 @@
     "batch": "Winter 2026",
     "industry": "B2B / B2B -> Legal",
     "team_size": "3",
-    "location": "No public data found",
-    "tags": "Legal, LegalTech"
+    "location": "Not listed",
+    "tags": "Legal, LegalTech",
+    "yc_partner": "Ankit Gupta",
+    "emails": "info@general.legal, founders@general.legal"
   },
   "tags": [
     "Legal",
     "LegalTech"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T05:50:37.014Z",
+  "memoGeneratedAt": "2026-03-03T23:00:58.367Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 45,
-      "tier": "Neutral"
+      "score": 41,
+      "tier": "Pass"
     },
     "elad-gil": {
-      "score": 55,
+      "score": 58,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 57,
+      "score": 62,
       "tier": "Neutral"
     },
     "paul-graham": {
@@ -35,29 +37,29 @@
       "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 37,
-      "tier": "Pass"
+      "score": 45,
+      "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 35,
-      "tier": "Pass"
+      "score": 46,
+      "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 42,
-      "tier": "Pass"
+      "score": 49,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 45,
-    "EG": 55,
-    "NR": 57,
+    "CB": 41,
+    "EG": 58,
+    "NR": 62,
     "PG": 70,
-    "PT": 37,
-    "SL": 35,
-    "VK": 42
+    "PT": 45,
+    "SL": 46,
+    "VK": 49
   },
-  "consolidatedAvg": 48.71,
-  "consolidatedRank": 29,
+  "consolidatedAvg": 53,
+  "consolidatedRank": 18,
   "paths": {
     "memo": "winter2026/memos/general-legal.md",
     "evals": {

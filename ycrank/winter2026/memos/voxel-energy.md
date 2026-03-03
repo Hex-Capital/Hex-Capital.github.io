@@ -9,118 +9,126 @@
 | Batch | Winter 2026 |
 | Industry | Industrials / Industrials -> Energy |
 | Team Size | 3 |
-| Location | San Francisco, United States (Extruct AI) |
-| Tags | Renewable Energy, Infrastructure, AI |
+| Location | San Francisco, United States (Extruct AI profile) |
+| Tags | Artificial Intelligence, Hard Tech, Energy, Renewable Energy, Infrastructure |
+| YC Partner | Jon Xu |
+| Emails | No public data found |
 
 ## The Idea
 
-**Problem:** AI infrastructure demand has overwhelmed electrical grid capacity. Average data center time-to-power is five years and growing (YC Launch page). The company cites "$3 Trillion in data center projects slated for construction by 2030, yet half may never be built due to power constraints" (YC Launch page). The constraint on AI deployment has shifted from semiconductor supply to power availability. Customers today must wait in utility interconnection queues or negotiate complex power purchase agreements, delaying deployments by years.
+**Problem:** AI data center demand has outstripped grid capacity. The average time-to-power for a new data center grid connection is five years and growing (YC Launch page). Voxel claims $3 trillion in data center projects are slated for construction by 2030, yet half may never be built due to power constraints (YC Launch page, Fondo blog). The bottleneck has shifted from chip supply to power supply. Hyperscalers and AI companies currently wait in utility interconnection queues or pay for expensive bridge-to-grid solutions.
 
-**Approach:** Voxel builds data centers with co-located solar arrays, second-life EV battery storage, and backup generation to provide 24/7 off-grid power. The system uses a proprietary DC-native microgrid architecture that eliminates traditional AC-to-DC conversion stages, reducing energy loss from approximately 30% to approximately 4% (Sift partnership page). This bypasses utility interconnection queues entirely, enabling deployment "from a vacant lot to a powered, monitored data center in months, not years" (Sift partnership page). The DC-native design has 5,400% overhead capacity on load rating for handling AI power demand surges (Sift partnership page).
+**Approach:** Voxel builds data centers with integrated onsite solar generation, second-life EV battery storage, and backup generation that operate entirely off-grid. The core technical mechanism is a proprietary DC-native microgrid architecture. Traditional AC-based data center power systems lose up to 30% of energy through AC-DC conversion stages; Voxel's DC-native approach reduces conversion losses to approximately 4% (Sift partnership page). By eliminating grid dependence, Voxel bypasses utility interconnection queues entirely and claims to deliver powered data centers in months rather than years.
 
-**Differentiation:** Unlike grid-connected renewable data center operators (e.g., Crusoe, Lancium) that still require grid interconnection or gas turbine backup, Voxel operates entirely off-grid. Compared to Exowatt's thermal storage approach (storing energy as heat in rocks), Voxel uses second-life EV batteries in a DC microgrid — leveraging a growing supply of retired EV batteries rather than proprietary thermal media. Versus EdgeCloudLink's hydrogen fuel cell approach, Voxel avoids hydrogen supply chain complexity. The use of second-life batteries specifically provides a cost advantage over new battery storage while addressing a growing waste stream from EV retirements.
+**Differentiation:** Compared to Exowatt (solar thermal storage using heated rocks), Voxel uses second-life EV batteries as its storage medium, which are already mass-produced and available immediately. Compared to Crusoe Energy (which uses stranded natural gas), Voxel uses solar + batteries for a fully renewable approach. Compared to Enchanted Rock (natural gas microgrids as bridge-to-grid), Voxel offers a permanent off-grid solution rather than a temporary bridge. The use of second-life EV batteries specifically is a differentiator — these batteries retain ~70-80% capacity after automotive use and are available at a fraction of new battery cost, giving Voxel a potential unit-economics advantage.
 
-**Business Model:** No public pricing page was found. The company states it is "accepting capacity reservations" for existing sites (YC Launch page). [Inferred]: Most likely monetization path is selling compute capacity with bundled power at a per-kW or per-rack rate, or leasing powered data center space, given the integrated power-plus-compute offering.
+**Business Model:** No public pricing page or revenue data found. [Inferred]: Most likely monetization path is selling or leasing powered data center capacity ($/MW or $/rack) as a combined power-and-infrastructure offering, potentially structured as a power purchase agreement (PPA) bundled with colocation or build-to-suit.
 
-**TAM/SAM:** The global data center power market was valued at $22.93 billion in 2025 and is projected to reach $70.21 billion by 2034 at 13.24% CAGR (Precedence Research, 2025 via search snippet). The offsite data center power infrastructure market was valued at $15.9 billion in 2025 and projected to reach $79.76 billion by 2035 at 17.50% CAGR (Astute Analytica, January 2026 via search snippet). The second-life EV battery market is projected to grow from $1.70 billion in 2026 to $224.24 billion by 2040 at 41.72% CAGR (Roots Analysis via search snippet).
+**TAM/SAM:** The global data center power market is projected to reach $50.51 billion by 2030, up from $35.14 billion in 2025, at a CAGR of 7.5% (MarketsandMarkets, 2025 via search snippet). The second-life EV battery market is projected to reach 330–350 GWh by 2030 at a CAGR of ~65% (MarketsandMarkets, 2025 via search snippet). McKinsey estimates $6.7 trillion in total data center capital expenditure needed worldwide by 2030 (McKinsey via search snippet). No SAM estimate specific to off-grid solar-powered data centers was found.
 
-**GTM / Distribution:** The YC Launch page calls for "GPU-equipped partners experiencing power delays" to reserve capacity, suggesting an initial B2B sales motion targeting AI companies and GPU cloud providers stuck in utility queues. The company reports "thousands of acres already under contract" (YC page) and is "amassing battery inventory" (YC Launch page). [Inferred]: Most likely distribution path is direct enterprise sales to hyperscalers and AI compute companies facing power bottlenecks, with land and battery procurement as the key supply-side constraints.
+**GTM / Distribution:** The company states it is "accepting reservations for existing sites" (YC page). [Inferred]: Most likely distribution path is direct enterprise sales to AI companies, hyperscalers, and data center developers who are blocked by utility interconnection queues, starting with sites where land and solar resources are already under contract.
 
 ## Defensibility
 
-The DC-native microgrid architecture represents proprietary technical know-how, though no patents were found in public sources. The company's procurement pipeline of second-life EV batteries and land contracts (thousands of acres under contract per YC page) creates a supply-side moat that takes time to replicate. The integration of battery management, solar generation, and DC power distribution into a single system adds technical complexity.
+**Technical complexity:** The DC-native microgrid architecture integrating second-life EV batteries with solar and backup generation requires specialized power electronics and battery management system engineering. The company claims 5,400% overhead capacity on load rating to handle AI training power surges (Sift partnership page), suggesting proprietary power distribution design.
 
-[Inferred]: Over time, defensibility could develop through accumulated operational data on second-life battery degradation curves, long-term land leases in favorable solar regions, and proprietary battery management systems optimized for data center load profiles.
+**Supply chain positioning:** Voxel claims to be "already amassing batteries" (YC Launch page), and the company reports "thousands of acres already under contract" (YC Launch page). Early control of second-life EV battery supply and land positions could create procurement advantages.
 
-**Market structure:** Traditional utilities face regulatory constraints and business model conflicts that make off-grid data center power unattractive — their revenue model depends on grid-connected ratepayers, and providing off-grid solutions would cannibalize their core business. Large data center developers (Equinix, Digital Realty) are primarily real estate operators, not vertically integrated power providers, and adopting a fully off-grid model would require fundamentally different expertise and capital deployment. [Inferred]: The structural barrier is that incumbents' existing revenue models (utility rate-based returns, data center lease income) are incompatible with a vertically integrated off-grid power-plus-compute model.
+**Operational know-how:** Managing heterogeneous second-life battery packs (varying chemistries, degradation levels, and form factors) for reliable 24/7 data center operation is an engineering challenge that creates a learning-curve barrier. The Sift partnership for real-time monitoring of battery degradation and anomaly detection suggests investment in operational reliability systems.
 
-**Commoditization risk:** The individual components (solar panels, batteries, data center hardware) are commodity. The integration challenge and DC microgrid architecture represent the defensible layer, but well-funded competitors like Crusoe ($3.9B raised) are already building off-grid data centers with second-life batteries through a Redwood Materials partnership (Latitude Media, 2025). Exowatt ($140M raised) is pursuing an adjacent approach with thermal storage. The technical barrier to entry is moderate — the key differentiator is speed of execution and supply chain positioning rather than technology alone.
+No patents or formal IP were identified in public sources.
+
+**Market structure:** Grid-connected utilities face structural conflicts in enabling off-grid solutions, as each off-grid data center represents lost revenue. Traditional data center developers (Equinix, Digital Realty) are tied to grid-connected models with long-term utility contracts and sunk infrastructure — pivoting to off-grid would cannibalize their existing capacity investments and utility relationships. However, these incumbents have the capital to acquire off-grid capability if the model proves out.
+
+**Commoditization risk:** Solar + battery microgrid systems are not inherently proprietary. Large EPC firms, battery integrators, and energy companies (e.g., Fluence, Tesla Energy) could theoretically assemble similar systems. The differentiation lies in the specific DC-native architecture, second-life battery integration expertise, and speed of deployment — all of which are replicable with sufficient engineering investment but represent meaningful execution barriers at the current market window.
 
 ## Market & Traction
 
 **Traction signals:**
-- Systems prototype operational and running off-grid compute (YC page, YC Launch page)
-- "Thousands of acres already under contract" (YC page, updated from initial "hundreds of acres")
-- Currently accumulating battery inventory (YC Launch page)
-- Accepting capacity reservations for existing sites (YC Launch page)
-- YC Launch page received 41 upvotes (YC Launch page, ~23 days prior to Feb 19, 2026)
-- Partnership with Sift (observability platform) for monitoring integration (Sift website)
-- YC Partner: Jon Xu (Extruct AI)
-- LinkedIn company page exists at linkedin.com/company/voxel-energy; follower count not retrievable
-- No Twitter/X account found for Voxel Energy specifically
+- Prototype systems operational and running off-grid compute (YC Launch page, Feb 2026)
+- "Thousands of acres already under contract" (YC Launch page, Feb 2026); Fondo blog reports "hundreds of acres"
+- Actively amassing battery inventory (YC Launch page, Feb 2026)
+- Accepting reservations for existing sites (YC page)
+- Partnership with Sift for integrated energy observability platform (Sift blog, undated)
+- YC Launch page: 41 upvotes (YC Launches, ~Feb 2026)
+- Launch video published on YouTube: https://youtu.be/ONSk5D4-evQ (YC page)
+- Y Combinator LinkedIn post about Voxel Energy (LinkedIn, 2026)
+- Instagram reel coverage (Instagram, 2026)
+- Company Twitter/X: not identified; Casey Spencer Twitter/X: @_caseyspencer (count not retrievable)
+- LinkedIn company page: linkedin.com/company/voxel-energy (follower count not retrievable)
+- F6S profile exists (f6s.com/company/voxel-energy)
+- No Discord, Slack community, or newsletter found
 - No Product Hunt launch found
-- No app store presence
 - No public revenue data found
 
 **Competitive landscape:**
 
-1. **Crusoe** ($3.9B raised in debt and equity; projected $850M revenue in 2025, cloud ARR $1.52B; Sacra/SiliconANGLE via search snippet): Originally built mobile data centers co-located with flared natural gas, now pivoting to large-scale AI data centers. Partnered with Redwood Materials for second-life EV battery-powered off-grid data center. Operates 86 mobile data centers across 30 sites. Differentiation vs. Voxel: Crusoe is far more capitalized and operates at much larger scale with a 45 GW power pipeline, but historically relied on gas-based power before pivoting toward renewables.
+1. **Exowatt** ($140M raised total — $20M seed Apr 2024, $70M Series A Apr 2025, $50M extension Nov 2025; revenue unknown) (BusinessWire, Nov 2025 via search snippet): Uses solar thermal storage (heated rocks) converted to electricity on demand. Has 90 GWh pipeline from data center and hyperscaler customers (DatacenterDynamics via search snippet). Backed by Sam Altman and a16z. Differentiator vs. Voxel: thermal storage medium rather than electrochemical batteries; targets 1¢/kWh. Voxel's battery-based approach offers faster modularity and leverages existing EV supply chain.
 
-2. **Exowatt** ($140M raised across seed, Series A, and extension; revenue unknown; ESG Today/TechCrunch via search snippet): Uses P3 solar technology to store energy as heat in rocks and convert to electricity on demand. Backed by Sam Altman and Andreessen Horowitz. Based in Miami. Differentiation vs. Voxel: Exowatt uses proprietary thermal storage (hot rocks) rather than electrochemical batteries, targeting a lower cost per kWh but with less-proven technology at scale.
+2. **Crusoe Energy Systems** ($1.3B Series E at ~$10B valuation, Oct 2025; total funding well over $2B) (SiliconANGLE, Oct 2025 via search snippet): Uses stranded natural gas (flared gas) and other underutilized energy sources to power AI data centers. Building 1.2 GW campus for OpenAI in Abilene, TX ($12B project). Differentiator vs. Voxel: fossil-fuel-based rather than renewable; much larger scale; vertically integrated cloud + energy. Voxel differentiates on fully renewable, off-grid solar approach.
 
-3. **Lancium** ($1.25B+ raised, including $500M from Blackstone; revenue unknown; DCD/Tracxn via search snippet): Builds gigawatt-scale data center campuses in West Texas integrated with renewable energy and grid infrastructure. Over 5 GW planned. Differentiation vs. Voxel: Lancium is grid-connected and focused on multi-GW campus-scale developments with utility-grade infrastructure, versus Voxel's off-grid modular approach.
+3. **Enchanted Rock** (funding amount not publicly confirmed; operates 329 microgrids with 1+ GW capacity) (Enchanted Rock website via search snippet): Natural gas microgrids providing bridge-to-grid and backup power for data centers. Has contract with Microsoft for 100 MW RNG microgrid in San Jose. Differentiator vs. Voxel: uses natural gas (including renewable natural gas), positioned as bridge-to-grid rather than permanent off-grid; established operations at scale. Voxel differentiates as fully solar/battery, no fossil fuel, permanent off-grid.
 
-4. **EdgeCloudLink (ECL)** ($10M raised from Hyperwise Ventures; revenue unknown; DCD via search snippet): Deploys hydrogen-powered modular data centers. First site in Mountain View, CA; TerraSite-TX1 in Texas. Differentiation vs. Voxel: ECL uses green hydrogen fuel cells for off-grid power, requiring hydrogen supply chain vs. Voxel's solar+battery approach.
+4. **Redwood Materials** (not a direct competitor but relevant): Operates the largest microgrid using second-life EV batteries with 63 MWh capacity in Nevada, powering a data center (MarketsandMarkets, 2025 via search snippet). Primarily a battery recycling company. Validates the second-life battery + data center use case.
 
-**Why now:**
-- [Inferred]: Several converging factors opened this opportunity: (1) AI compute demand surge has created an acute data center power bottleneck, with utility interconnection queues stretching to 5+ years; (2) a rapidly growing supply of second-life EV batteries from early EV adoption waves (the second-life battery market is projected to grow at 41.72% CAGR through 2040 per Roots Analysis via search snippet); (3) solar panel costs have continued declining, improving the economics of large-scale off-grid solar; (4) the emergence of DC-native computing architectures (GPUs and AI accelerators operate on DC power natively), making DC microgrids more efficient by eliminating AC conversion losses.
+**Why now:** [Inferred]: Several converging factors opened this window: (1) The explosion in AI compute demand since 2023 has overwhelmed grid capacity, making the 5-year interconnection queue a binding constraint for the first time. (2) The volume of retiring first-generation EV batteries has reached meaningful scale — the second-life EV battery market is projected to grow from ~25-30 GWh in 2025 to 330-350 GWh by 2030 (MarketsandMarkets, 2025 via search snippet) — creating a large, cheap supply of storage. (3) Solar panel costs have continued to decline, making off-grid solar economics competitive with grid power for the first time at data-center scale. (4) The Washington Post reported in Feb 2026 that data centers are increasingly pursuing off-grid power plants (Washington Post, Feb 2026 via search snippet), indicating a broader market shift.
 
 ## Founders & Team
 
 **Casey Spencer** — Co-founder & CEO
-- Spent 7.5 years at Tesla; served as Project Manager for Tesla Autopilot (YC page, Fondo)
-- Founded three hardware companies prior to Voxel Energy (YC page)
-- Background from Make School (search snippet)
-- Founded ItsWare, a hardware asset management company (LinkedIn search snippet)
-- Won awards at CalHacks for "Teslapathic" brain-controlled vehicle technology project, including Most Technically Challenging and First Overall Hack (search snippet)
-- Twitter/X: @_caseyspencer (search result, count not retrievable)
-- LinkedIn: linkedin.com/in/casey-spencer — headline references ItsWare (search snippet)
+- Education: Make School, 2016–2018 (LinkedIn via search snippet)
+- Former Project Manager for Tesla Autopilot (YC Launch page, Fondo blog)
+- Founded three hardware companies, including ItsWare (LinkedIn via search snippet, RocketReach via search snippet)
+- Twitter/X: @_caseyspencer — count not retrievable
+- LinkedIn: linkedin.com/in/casey-spencer — listed as "Voxel Energy" (search result title)
 - GitHub: No public repos found
 
 **Max Pfeiffer** — Co-founder & CTO
-- Former Tesla engineer, designed electric big-rig prototypes (YC page)
-- Forbes 30 Under 30 honoree in 2025 in Automotive and Clean Energy Technologies (YC page, search snippets)
-- Founded Maxwell Vehicles, described as a "multi-million-dollar EV manufacturing business" built out of UW ECE (University of Washington, Electrical & Computer Engineering) (YC page, Fondo)
-- Maxwell Vehicles built the "first economically sustainable and materially circular model for manufacturing EVs using second-life EV batteries and motors" (YC Launch page)
-- Twitter/X: Maxwell Vehicles account @MaxwellVehicles exists; personal account not found
-- LinkedIn: linkedin.com/in/maxpfeiffer — headline references Maxwell Vehicles (search snippet)
-- GitHub: github.com/max-pfeiffer exists but appears to belong to a different person (DevOps engineer at Swisscom)
+- Education: University of Washington (UW) — ECE (Medium / Washington Hyperloop profile)
+- Ex-Tesla: designed electric big-rig prototypes (search snippet from Maxwell Vehicles context)
+- Founded Maxwell Vehicles, an EV manufacturer delivering since 2019; launched the Maxwell eC30, described as the first electric ProMaster drivetrain (LinkedIn posts)
+- Forbes 30 Under 30 honoree for Maxwell Vehicles (YC Launch page, Fondo blog, multiple sources)
+- Director and Power Electronics Focal at Washington Hyperloop, managing $25K project with 30+ members, leading power distribution and thermal systems for electrodynamic magnetic levitation (search snippet)
+- Twitter/X: No public account found
+- LinkedIn: linkedin.com/in/maxpfeiffer — "Maxwell Vehicles" (search result)
+- GitHub: github.com/max-pfeiffer exists but appears to belong to a different Max Pfeiffer (DevOps engineer at Swisscom)
 
 **Evan Schmidt** — Co-founder & COO
-- Over a decade of experience in architecture and commercial construction (YC page)
-- Managed millions of dollars in commercial, HVAC, and data center construction projects (YC Launch page, Fondo)
-- Described as having "hands-on engineering and fabrication expertise" (F6S search snippet)
+- Over a decade of experience in architecture and commercial construction management, including data centers (Fondo blog)
+- Managed millions of dollars of commercial, HVAC, and data center projects (YC Launch page)
+- Hands-on engineering and fabrication expertise (Fondo blog)
 - Twitter/X: No public account found
-- LinkedIn: linkedin.com/in/zephyrschmidt (Extruct AI)
+- LinkedIn: No public profile confirmed
 - GitHub: No public repos found
 
-**Co-founder relationship:** Casey Spencer and Max Pfeiffer both worked at Tesla, providing a shared employer connection. Max Pfeiffer's Maxwell Vehicles work with second-life EV batteries directly connects to Voxel's core technology of repurposing EV batteries for data center energy storage. No public data on how Evan Schmidt connected with the other founders.
+**Co-founder relationship:** Casey Spencer and Max Pfeiffer share prior Tesla employment as a common background (Spencer as Autopilot Project Manager, Pfeiffer on electric truck prototypes). No other overlapping employer or university identified from public sources.
 
-**Founder-market fit:** The team combines Tesla engineering experience (Spencer and Pfeiffer), demonstrated ability to build hardware companies from scratch (Spencer with three prior ventures, Pfeiffer with Maxwell Vehicles), and direct domain expertise in second-life EV battery systems (Pfeiffer's Maxwell Vehicles built EVs using second-life batteries). Schmidt contributes practical data center construction management experience. The combination of EV battery expertise, hardware startup experience, and construction management aligns with Voxel's challenge of physically building off-grid data centers powered by repurposed batteries.
+**Founder-market fit:** The team combines Tesla-era experience in power electronics and automotive systems (Spencer, Pfeiffer), EV battery and drivetrain expertise from Maxwell Vehicles (Pfeiffer), and physical infrastructure construction management for data centers (Schmidt). Pfeiffer's background in EV battery systems and power electronics at both Tesla and Maxwell Vehicles is directly relevant to designing DC microgrids with second-life EV batteries. Schmidt's construction management experience addresses the physical deployment complexity. Spencer's hardware startup experience (three prior companies) provides operational startup execution background.
 
 ## Key Risks
 
-**Crusoe competitive overlap:** Crusoe, with $3.9B in funding, has partnered with Redwood Materials to build off-grid data centers using second-life EV batteries — a directly overlapping approach. Crusoe's 45 GW power pipeline and existing 86-site operational footprint represent a significant head start (SiliconANGLE, October 2025 via search snippet).
+**Second-life battery reliability and liability:** Second-life EV batteries have variable degradation profiles, unknown remaining cycle life, and heterogeneous chemistries. Managing these packs for 24/7 data center uptime (typically 99.999% SLA) is an unproven engineering challenge at scale. Battery fires or premature capacity loss could cause data center outages or safety incidents. The Sift partnership for predictive maintenance monitoring suggests awareness of this risk.
 
-**Second-life battery supply chain uncertainty:** The second-life EV battery market is nascent, accounting for less than 0.1% of grid-scale projects in North America (Utility Dive via search snippet). Battery supply depends on EV retirement rates, which are still ramping. Degradation characteristics vary by chemistry, manufacturer, and usage history, creating quality control challenges at scale. Mitigation: Pfeiffer's prior Maxwell Vehicles experience with second-life batteries provides some domain expertise.
+**Regulatory and permitting uncertainty:** Off-grid data centers may face zoning, fire code, environmental, and insurance challenges that differ from grid-connected facilities. Local jurisdictions may not have regulatory frameworks for large-scale off-grid battery installations, creating permitting delays that could offset the speed advantage over grid connections.
 
-**Off-grid reliability and uptime risk:** Data center customers typically require 99.99%+ uptime. Operating entirely off-grid with solar and batteries (weather-dependent generation, battery degradation over time) introduces reliability challenges compared to grid-connected facilities with redundant utility feeds. The company mentions backup generation for 365-day redundancy (YC Launch page), but operational track record at commercial scale is unproven.
+**Competitive pressure from well-funded incumbents:** Exowatt has raised $140M with a16z and Sam Altman backing and already has a 90 GWh pipeline (BusinessWire, Nov 2025 via search snippet). Crusoe has raised over $2B at a $10B+ valuation (SiliconANGLE, Oct 2025 via search snippet). Voxel is competing for the same customer base (AI data center developers) against substantially better-capitalized competitors.
 
-**Regulatory and permitting complexity:** Large-scale solar installations and data centers both face local permitting, environmental review, and land use regulation. Operating thousands of acres of solar+data center infrastructure across multiple jurisdictions could create delays, especially given increasing local opposition to data center development in some regions.
+**Land and battery supply execution risk:** The company claims "thousands of acres under contract" and to be "amassing batteries" (YC Launch page), but no specific quantities, locations, or binding agreements have been disclosed. Securing consistent supply of quality second-life EV batteries at scale requires relationships with OEMs and recyclers that may take time to establish. Competitors like Redwood Materials already operate in this supply chain.
 
-**Capital intensity vs. stage:** Building physical data centers with integrated power infrastructure is extremely capital-intensive. Competing against players with billions in funding (Crusoe, Lancium) while at pre-seed stage creates a significant financing gap. Each site requires substantial upfront investment in solar arrays, batteries, and data center hardware before generating revenue.
+**Brand disambiguation:** Multiple companies use the "Voxel" name, including Voxel Labs (AI workplace safety, funded $27M+), Voxel Innovations, and others on Crunchbase. This could create market confusion and SEO competition.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $22.93B data center power market in 2025, projected $70.21B by 2034 at 13.24% CAGR (Precedence Research, 2025 via search snippet); $15.9B offsite data center power infrastructure in 2025, projected $79.76B by 2035 at 17.50% CAGR (Astute Analytica, Jan 2026 via search snippet) |
-| SAM | No public data found |
-| Traction | Prototype operational and running off-grid compute (YC page); thousands of acres under contract (YC page); battery inventory accumulation in progress (YC Launch page); 41 upvotes on YC Launch (~late Jan 2026); Sift monitoring partnership (Sift website) |
+| TAM | Data center power market: $50.51B by 2030 at 7.5% CAGR (MarketsandMarkets, 2025 via search snippet). Second-life EV battery market: 330–350 GWh by 2030 at ~65% CAGR (MarketsandMarkets, 2025 via search snippet) |
+| SAM | No public data found for off-grid solar data center segment specifically |
+| Traction | Prototype operational and running off-grid compute (YC Launch, Feb 2026); thousands of acres under contract (YC Launch, Feb 2026); accepting reservations (YC page); Sift partnership for monitoring (Sift blog); 41 upvotes on YC Launch page |
 | Revenue Signal | No public data found |
-| Founders | Casey Spencer (CEO): 7.5 yrs at Tesla Autopilot, 3 prior hardware cos. Max Pfeiffer (CTO): ex-Tesla, Forbes 30U30 2025, founded Maxwell Vehicles. Evan Schmidt (COO): 10+ yrs architecture & data center construction. |
-| Competitors | Crusoe ($3.9B raised, $850M projected 2025 revenue, off-grid data centers with second-life batteries via Redwood Materials); Exowatt ($140M raised, revenue unknown, thermal storage for data center power); Lancium ($1.25B+ raised, revenue unknown, GW-scale renewable data center campuses); EdgeCloudLink ($10M raised, revenue unknown, hydrogen-powered modular data centers) |
-| Moat Signals | Proprietary DC microgrid architecture reducing energy loss to ~4% (Sift); thousands of acres under contract (YC page); second-life battery domain expertise from Maxwell Vehicles |
-| Risk Factors | Direct competitive overlap with well-funded Crusoe ($3.9B), nascent second-life battery supply chain, off-grid reliability at commercial-scale SLAs, capital intensity at pre-seed stage |
-| Founder Reach | Casey Spencer: Twitter @_caseyspencer (count not retrievable), LinkedIn linkedin.com/in/casey-spencer. Max Pfeiffer: Twitter not found (Maxwell Vehicles: @MaxwellVehicles), LinkedIn linkedin.com/in/maxpfeiffer. Evan Schmidt: Twitter not found, LinkedIn linkedin.com/in/zephyrschmidt |
-| Distribution Signals | YC Launch page 41 upvotes (~late Jan 2026); accepting capacity reservations (YC Launch page); no Product Hunt, app store, or Chrome extension presence found |
+| Founders | Casey Spencer (CEO): Ex-Tesla Autopilot PM, 3 prior hardware companies. Max Pfeiffer (CTO): Ex-Tesla, Forbes 30U30, founded Maxwell Vehicles (EV mfr). Evan Schmidt (COO): 10+ yrs commercial construction & data center project mgmt. |
+| Competitors | Exowatt ($140M raised, revenue unknown, solar thermal storage for data centers); Crusoe Energy ($2B+ raised, ~$10B valuation, stranded gas to data centers); Enchanted Rock (funding undisclosed, 1+ GW nat gas microgrids, Microsoft contract) |
+| Moat Signals | DC-native microgrid architecture; second-life EV battery integration expertise; land under contract; ~4% vs ~30% energy conversion loss claim (Sift blog) |
+| Risk Factors | Second-life battery reliability at data center SLAs, well-funded competitors ($140M–$2B+), regulatory/permitting uncertainty for off-grid installations |
+| Founder Reach | Casey Spencer: Twitter @_caseyspencer (count not retrievable), LinkedIn confirmed. Max Pfeiffer: LinkedIn confirmed (linkedin.com/in/maxpfeiffer). Evan Schmidt: no public social profiles confirmed. |
+| Distribution Signals | YC Launch page (41 upvotes, Feb 2026); YC LinkedIn post; Instagram reel; accepting site reservations; no Product Hunt, app store, or community presence found |
+| Emails | No public data found |

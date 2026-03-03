@@ -8,57 +8,61 @@
     "batch": "Winter 2026",
     "industry": "Industrials / Industrials -> Energy",
     "team_size": "3",
-    "location": "San Francisco, United States (Extruct AI)",
-    "tags": "Renewable Energy, Infrastructure, AI"
+    "location": "San Francisco, United States (Extruct AI profile)",
+    "tags": "Artificial Intelligence, Hard Tech, Energy, Renewable Energy, Infrastructure",
+    "yc_partner": "Jon Xu",
+    "emails": "No public data found"
   },
   "tags": [
+    "Artificial Intelligence",
+    "Hard Tech",
+    "Energy",
     "Renewable Energy",
-    "Infrastructure",
-    "AI"
+    "Infrastructure"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T05:50:29.911Z",
+  "memoGeneratedAt": "2026-03-03T23:04:13.753Z",
   "evalScores": {
     "cyan-banister": {
       "score": 46,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 48,
+      "score": 57,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 52,
+      "score": 55,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 59,
+      "score": 60,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 45,
-      "tier": "Neutral"
+      "score": 42,
+      "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 58,
+      "score": 54,
       "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 64,
-      "tier": "Neutral"
+      "score": 65,
+      "tier": "Invest"
     }
   },
   "consolidatedScores": {
     "CB": 46,
-    "EG": 48,
-    "NR": 52,
-    "PG": 59,
-    "PT": 45,
-    "SL": 58,
-    "VK": 64
+    "EG": 57,
+    "NR": 55,
+    "PG": 60,
+    "PT": 42,
+    "SL": 54,
+    "VK": 65
   },
-  "consolidatedAvg": 53.14,
-  "consolidatedRank": 17,
+  "consolidatedAvg": 54.14,
+  "consolidatedRank": 16,
   "paths": {
     "memo": "winter2026/memos/voxel-energy.md",
     "evals": {

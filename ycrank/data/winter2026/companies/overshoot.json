@@ -9,7 +9,9 @@
     "industry": "B2B / B2B",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Computer Vision, Infrastructure, AI"
+    "tags": "Computer Vision, Infrastructure, AI",
+    "yc_partner": "Jon Xu",
+    "emails": "No public data found"
   },
   "tags": [
     "Computer Vision",
@@ -17,48 +19,48 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T05:55:47.112Z",
+  "memoGeneratedAt": "2026-03-03T23:08:54.908Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 43,
+      "score": 37,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 42,
-      "tier": "Pass"
+      "score": 49,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 62,
+      "score": 60,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 55,
+      "score": 59,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 38,
+      "score": 37,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 32,
+      "score": 35,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 44,
+      "score": 41,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 43,
-    "EG": 42,
-    "NR": 62,
-    "PG": 55,
-    "PT": 38,
-    "SL": 32,
-    "VK": 44
+    "CB": 37,
+    "EG": 49,
+    "NR": 60,
+    "PG": 59,
+    "PT": 37,
+    "SL": 35,
+    "VK": 41
   },
-  "consolidatedAvg": 45.14,
-  "consolidatedRank": 47,
+  "consolidatedAvg": 45.43,
+  "consolidatedRank": 49,
   "paths": {
     "memo": "winter2026/memos/overshoot.md",
     "evals": {

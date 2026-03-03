@@ -9,7 +9,9 @@
     "industry": "B2B / B2B -> Security",
     "team_size": "3",
     "location": "San Francisco, CA, USA",
-    "tags": "Artificial Intelligence, Security, Cybersecurity, Fraud Prevention, Fraud Detection"
+    "tags": "Artificial Intelligence, Security, Cybersecurity, Fraud Prevention, Fraud Detection",
+    "yc_partner": "Jon Xu",
+    "emails": "founders@beesafe.ai"
   },
   "tags": [
     "Artificial Intelligence",
@@ -19,48 +21,48 @@
     "Fraud Detection"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T05:50:55.325Z",
+  "memoGeneratedAt": "2026-03-03T23:01:38.140Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 53,
+      "score": 61,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 56,
+      "score": 63,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 70,
+      "score": 69,
       "tier": "Invest"
     },
     "paul-graham": {
-      "score": 65,
+      "score": 66,
       "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 43,
-      "tier": "Pass"
+      "score": 54,
+      "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 48,
+      "score": 59,
       "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 53,
+      "score": 54,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 53,
-    "EG": 56,
-    "NR": 70,
-    "PG": 65,
-    "PT": 43,
-    "SL": 48,
-    "VK": 53
+    "CB": 61,
+    "EG": 63,
+    "NR": 69,
+    "PG": 66,
+    "PT": 54,
+    "SL": 59,
+    "VK": 54
   },
-  "consolidatedAvg": 55.43,
-  "consolidatedRank": 10,
+  "consolidatedAvg": 60.86,
+  "consolidatedRank": 4,
   "paths": {
     "memo": "winter2026/memos/beesafe-ai.md",
     "evals": {

@@ -9,29 +9,31 @@
     "industry": "B2B / B2B",
     "team_size": "3",
     "location": "San Francisco, CA, USA",
-    "tags": "Artificial Intelligence, Recruiting"
+    "tags": "Artificial Intelligence, Recruiting",
+    "yc_partner": "Tyler Bosmeny",
+    "emails": "No public data found"
   },
   "tags": [
     "Artificial Intelligence",
     "Recruiting"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T05:59:33.069Z",
+  "memoGeneratedAt": "2026-03-03T23:12:10.526Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 31,
+      "score": 34,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 37,
+      "score": 42,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 39,
-      "tier": "Pass"
+      "score": 45,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 52,
+      "score": 55,
       "tier": "Neutral"
     },
     "peter-thiel": {
@@ -39,25 +41,25 @@
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 26,
+      "score": 30,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 40,
+      "score": 43,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 31,
-    "EG": 37,
-    "NR": 39,
-    "PG": 52,
+    "CB": 34,
+    "EG": 42,
+    "NR": 45,
+    "PG": 55,
     "PT": 32,
-    "SL": 26,
-    "VK": 40
+    "SL": 30,
+    "VK": 43
   },
-  "consolidatedAvg": 36.71,
-  "consolidatedRank": 115,
+  "consolidatedAvg": 40.14,
+  "consolidatedRank": 89,
   "paths": {
     "memo": "winter2026/memos/perfectly.md",
     "evals": {

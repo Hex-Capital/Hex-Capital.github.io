@@ -9,37 +9,39 @@
     "industry": "Fintech / Fintech -> Payments",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Fintech, B2B"
+    "tags": "Fintech, B2B",
+    "yc_partner": "Brad Flora",
+    "emails": "No public data found"
   },
   "tags": [
     "Fintech",
     "B2B"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T05:50:14.964Z",
+  "memoGeneratedAt": "2026-03-03T23:00:47.878Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 48,
+      "score": 54,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 47,
+      "score": 45,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 48,
+      "score": 50,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 77,
+      "score": 69,
       "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 33,
+      "score": 30,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 35,
+      "score": 32,
       "tier": "Pass"
     },
     "vinod-khosla": {
@@ -48,16 +50,16 @@
     }
   },
   "consolidatedScores": {
-    "CB": 48,
-    "EG": 47,
-    "NR": 48,
-    "PG": 77,
-    "PT": 33,
-    "SL": 35,
+    "CB": 54,
+    "EG": 45,
+    "NR": 50,
+    "PG": 69,
+    "PT": 30,
+    "SL": 32,
     "VK": 39
   },
-  "consolidatedAvg": 46.71,
-  "consolidatedRank": 38,
+  "consolidatedAvg": 45.57,
+  "consolidatedRank": 47,
   "paths": {
     "memo": "winter2026/memos/grade.md",
     "evals": {

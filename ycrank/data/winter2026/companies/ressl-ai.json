@@ -9,19 +9,21 @@
     "industry": "B2B / B2B",
     "team_size": "4",
     "location": "San Francisco, CA, USA",
-    "tags": "B2B, Home Services, Operations, AI"
+    "tags": "Artificial Intelligence, B2B, Home Services, Operations",
+    "yc_partner": "Harshita Arora",
+    "emails": "arushi@ressl.ai"
   },
   "tags": [
+    "Artificial Intelligence",
     "B2B",
     "Home Services",
-    "Operations",
-    "AI"
+    "Operations"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T05:54:43.049Z",
+  "memoGeneratedAt": "2026-03-03T23:05:09.033Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 40,
+      "score": 37,
       "tier": "Pass"
     },
     "elad-gil": {
@@ -29,37 +31,37 @@
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 36,
+      "score": 40,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 42,
-      "tier": "Pass"
+      "score": 48,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 25,
+      "score": 28,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 27,
+      "score": 26,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 41,
+      "score": 40,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 40,
+    "CB": 37,
     "EG": 45,
-    "NR": 36,
-    "PG": 42,
-    "PT": 25,
-    "SL": 27,
-    "VK": 41
+    "NR": 40,
+    "PG": 48,
+    "PT": 28,
+    "SL": 26,
+    "VK": 40
   },
-  "consolidatedAvg": 36.57,
-  "consolidatedRank": 116,
+  "consolidatedAvg": 37.71,
+  "consolidatedRank": 111,
   "paths": {
     "memo": "winter2026/memos/ressl-ai.md",
     "evals": {

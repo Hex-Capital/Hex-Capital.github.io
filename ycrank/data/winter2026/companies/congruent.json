@@ -8,8 +8,10 @@
     "batch": "Winter 2026",
     "industry": "Industrials / Industrials",
     "team_size": "2",
-    "location": "Berkeley, California (Company Launch Tracker, Jan 2026 via search snippet)",
-    "tags": "Robotics, Radar, AI, Automotive"
+    "location": "Not specified",
+    "tags": "Robotics, Radar, AI, Automotive",
+    "yc_partner": "Brad Flora",
+    "emails": "info@congruent.io"
   },
   "tags": [
     "Robotics",
@@ -18,48 +20,48 @@
     "Automotive"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T05:54:23.034Z",
+  "memoGeneratedAt": "2026-03-03T23:05:04.324Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 48,
+      "score": 45,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 68,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 57,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
       "score": 52,
       "tier": "Neutral"
     },
-    "sam-lessin": {
+    "naval-ravikant": {
+      "score": 65,
+      "tier": "Invest"
+    },
+    "paul-graham": {
       "score": 61,
       "tier": "Neutral"
     },
+    "peter-thiel": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 66,
+      "tier": "Invest"
+    },
     "vinod-khosla": {
-      "score": 54,
+      "score": 55,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 48,
-    "EG": 44,
-    "NR": 68,
-    "PG": 57,
-    "PT": 52,
-    "SL": 61,
-    "VK": 54
+    "CB": 45,
+    "EG": 52,
+    "NR": 65,
+    "PG": 61,
+    "PT": 56,
+    "SL": 66,
+    "VK": 55
   },
-  "consolidatedAvg": 54.86,
-  "consolidatedRank": 12,
+  "consolidatedAvg": 57.14,
+  "consolidatedRank": 7,
   "paths": {
     "memo": "winter2026/memos/congruent.md",
     "evals": {

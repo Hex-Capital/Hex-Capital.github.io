@@ -10,120 +10,110 @@
 | Industry | B2B / B2B |
 | Team Size | 4 |
 | Location | San Francisco, CA, USA |
-| Tags | B2B, Home Services, Operations, AI |
+| Tags | Artificial Intelligence, B2B, Home Services, Operations |
+| YC Partner | Harshita Arora |
+| Emails | arushi@ressl.ai |
 
 ## The Idea
 
-**Problem:** Trades businesses — HVAC, plumbing, electrical, collision repair, roofing — run on legacy software and employ "glue" workers whose jobs consist of clicking through systems, copy-pasting between tools, and managing inbound volume across channels. A typical collision shop may have one person generating estimates in CCCOne, another chasing parts vendors, another answering calls and Yelp messages, and another managing invoices in QuickBooks. Every shop the founders walked into had 2–4 people doing work that software should deliver as an outcome, not just enable (YC company page). The US home services market is estimated at $650–750B annually (BDR, 2025 via search snippet), representing a large but fragmented base of small operators with low technology adoption.
+**Problem:** Trades and home services businesses (HVAC, plumbing, electrical, collision repair, roofing) rely on legacy software and employ "glue employees" — staff whose job is copying data between systems, managing inbound inquiries across channels, generating estimates in vertical tools like CCCOne, chasing parts vendors, and processing invoices in QuickBooks (YC company page). A typical collision shop may have 2–4 people performing administrative tasks that do not require human judgment (YC company description). These businesses are characterized by low tech sophistication and high manual overhead.
 
-**Approach:** Ressl AI builds proactive background AI agents that run back-office operations autonomously — quoting, estimating, procurement, insurance coordination, scheduling, and follow-ups — on top of the software these businesses already own (YC company page). The agents operate across existing tools (e.g., CCCOne, QuickBooks) rather than replacing them, reducing the implementation barrier for non-technical operators.
+**Approach:** Ressl AI builds proactive background AI agents that run back-office operations autonomously — quoting, estimating, procurement, insurance coordination, scheduling, and follow-ups — on top of the software these businesses already use (YC company page). The agents sit on existing tools rather than replacing them, handling lead response and scheduling, estimating and bidding, and procurement workflows (YC company page). The company positions these as "AI employees" rather than standalone SaaS tools.
 
-**Product pivot note:** Ressl AI initially built an AI-powered Salesforce administration and configuration platform described as "AI Salesforce Admins" that could configure Salesforce 10x faster using AI coding agents (SalesforceDevops.net, April 2025; HuntScreens). As of the YC W26 application, the company has repositioned toward AI employees for home services and trades businesses. The founders describe starting as "an AI consulting firm talking to businesses across every industry" before identifying trades as the segment with the most "glue work" and the least technical sophistication to solve it (YC company page). Revenue data from the prior Salesforce product should be treated separately from current-product traction (see Market & Traction).
+**Differentiation:** Unlike ServiceTitan, which is a comprehensive field service management platform that has added AI features on top of its core scheduling/dispatch/payments stack, Ressl AI is an agent layer that integrates with whatever software the business already owns. Unlike Avoca AI, which focuses primarily on voice AI for call center operations and booking optimization (Avoca website), Ressl AI targets a broader set of back-office workflows including estimating, procurement, and insurance coordination. Unlike WorkHero, which focuses specifically on small HVAC contractors with human account managers overseeing AI workflows (AccessNewsWire, Oct 2025), Ressl AI targets a wider range of trades verticals and aims for autonomous operation. The agent-on-existing-software approach means businesses do not need to rip-and-replace their current tooling.
 
-**Differentiation:** Unlike incumbent FSM platforms (ServiceTitan, Housecall Pro, Jobber) that provide workflow tools requiring human operators, Ressl AI positions its agents as autonomous workers that execute tasks end-to-end rather than surfacing dashboards. Compared to Netic, which has raised $43M and focuses on an "autonomous AI revenue engine" for service enterprises (Bloomberg, Nov 2025 via search snippet), Ressl AI targets the broader back-office scope including procurement and insurance coordination rather than revenue operations alone. Compared to Avoca, which focuses on AI-powered call handling and customer service (Avoca website), Ressl AI targets the full spectrum of back-office tasks beyond inbound customer interactions.
+**Business Model:** No public pricing page was accessible at time of research (website rendered primarily as CSS/JS with no extractable content). The company reached $440K in revenue with a 4-person team by November 2025 (Getlatka.com via search snippet). Note: It is unclear whether this revenue figure includes revenue from the company's prior Salesforce administration product (see pivot history below). The YC description mentions a GTM through direct-to-operator sales and PE-backed roll-ups. [Inferred]: The revenue-per-customer model likely involves a recurring subscription or per-agent fee given the "AI employees" positioning, though no pricing details have been publicly disclosed.
 
-**Business Model:** No public pricing page was found for the current trades-focused product. The ressl.ai website was not renderable at time of research (Framer-built, content loaded dynamically). [Inferred]: Given the GTM through PE-backed roll-ups and direct-to-operators, the most likely monetization path is per-location or per-agent SaaS pricing, potentially with usage-based components, as this aligns with the multi-location portfolio model described in the company's GTM strategy.
+**TAM/SAM:** The Field Service Management market was valued at $5.49B in 2025 and is projected to reach $9.17B by 2030, growing at a CAGR of 12.5% (MarketsandMarkets via search snippet). The Home Services Management Software market was valued at $596.67M in 2026 and is expected to reach $1.29B by 2035, growing at a CAGR of 8.9% (Market Growth Reports via search snippet). [Inferred]: Ressl AI's SAM is narrower than the full FSM market, as it targets back-office automation specifically rather than the full field service management stack (scheduling, dispatch, fleet tracking, etc.).
 
-**TAM/SAM:** The US field service management software market was valued at $2.8B in 2025 (IBISWorld via search snippet). The broader global field service management market was valued at $5.49B in 2025 and is projected to reach $9.87B by 2031 at 9.54% CAGR (Mordor Intelligence via search snippet). The home services management software market is valued at $596.67M in 2026, expected to reach $1.29B by 2035 at 8.9% CAGR (Market Growth Reports via search snippet). [Inferred]: The SAM for AI-powered back-office automation specifically within trades businesses is a subset of these figures; no public estimate exists for this specific segment.
-
-**GTM / Distribution:** The company describes two distribution paths: direct to operators and through PE-backed roll-ups actively seeking margin improvements across portfolio companies (YC company page). [Inferred]: The PE roll-up channel is potentially high-leverage, as a single relationship could unlock deployments across dozens of locations, and PE firms have strong financial incentive to reduce headcount in acquired businesses.
+**GTM / Distribution:** The company describes two distribution paths: (1) direct sales to operators — owners of trades businesses, and (2) through PE-backed roll-ups that are seeking margin improvements across portfolio companies (YC company description). [Inferred]: The PE roll-up channel could provide efficient multi-location deployment if a single relationship yields access to dozens of portfolio businesses.
 
 ## Defensibility
 
-No strong defensibility signals found in public sources at this stage.
+**Pivot context:** Ressl AI originally built AI agents for Salesforce administration and implementation, positioning itself as a "Devin for Salesforce" (Arushi Gandhi, X post, Dec 2024). The current trades/home services product is a pivot from that initial focus. The YC description states: "We started as an AI consulting firm talking to businesses across every industry. After a month, the pattern was obvious — trades and field services had the most 'glue work.'"
 
-**Data advantage potential:** [Inferred]: As agents operate across multiple trades businesses, Ressl AI could accumulate domain-specific operational data (e.g., common quoting patterns, vendor pricing, insurance coordination workflows) that improves agent accuracy and creates a data flywheel. This is unproven at the current stage.
+No strong defensibility signals found in public sources at this stage. [Inferred]: Potential moat could develop through (1) workflow-specific training data accumulated from operating inside trades businesses (estimating patterns, vendor pricing, insurance coordination protocols), and (2) deep integrations with vertical-specific software (CCCOne, trade-specific ERPs) that create switching costs over time. However, these are unproven at this stage.
 
-**Switching costs:** [Inferred]: If agents integrate deeply with a shop's existing software stack (CCCOne, QuickBooks, scheduling tools), the configuration and workflow customization could create moderate switching costs over time, but this has not been demonstrated.
+**Market structure:** ServiceTitan, the dominant incumbent ($772M revenue FY2025, $8.3B market cap; CNBC, Dec 2024), sells a comprehensive platform that replaces existing tools. [Inferred]: ServiceTitan's platform-replacement business model creates a structural tension with an agent-overlay approach — ServiceTitan has limited incentive to build a product that works on top of competitors' software. However, ServiceTitan has launched its own AI division (Titan Intelligence) and could build agent capabilities within its own ecosystem. The structural barrier is primarily business model cannibalization for multi-platform integration, not inability to build AI features.
 
-**Market structure:** Incumbent FSM platforms like ServiceTitan (publicly traded, $9.5B+ market cap as of IPO in Dec 2024) are adding AI features including SMS Booking Agents and AI Voice Agents for overflow calls (ServiceTitan website, 2025). However, ServiceTitan's business model centers on selling comprehensive SaaS suites, and fully autonomous AI agents that replace human headcount could cannibalize their own per-seat pricing and customer success model. [Inferred]: This potential business model conflict may slow incumbents' willingness to ship agents that render their own customers' subscription seats unnecessary. However, ServiceTitan has the distribution and data to build competing features if they choose to.
-
-**Commoditization risk:** The underlying technology stack (LLM agents interacting with APIs) is accessible to well-funded competitors. Netic ($43M raised, Founders Fund-backed) is building in a directly adjacent space. ServiceTitan and Housecall Pro have existing customer relationships and could add AI agent functionality as features. Vertical AI agents for specific trades workflows (estimating, procurement, insurance) require domain knowledge that takes time to encode but is not structurally defensible.
+**Commoditization risk:** The AI agent-on-existing-software pattern is reproducible by other AI startups. Netic ($43M raised, $450M valuation; TechFundingNews, Nov 2025), Avoca ($47.8M raised; PitchBook via search snippet), and WorkHero ($5M seed; AccessNewsWire, Oct 2025) are all building AI capabilities for overlapping customer segments. General-purpose AI agent frameworks continue to improve, potentially lowering the barrier to entry for new entrants targeting specific trades verticals.
 
 ## Market & Traction
 
 **Traction signals:**
-
-*Prior product (Salesforce AI platform):*
-- $440K revenue reported for the Salesforce product as of November 2025 (Latka via search snippet). This figure pertains to the prior Salesforce-focused product, not the current trades-focused product.
-- Featured on SalesforceDevops.net (April 7, 2025) and Founders Club (August 21, 2025) as a Salesforce administration AI tool.
-
-*Current product (trades/home services):*
-- No public traction data found for the current trades-focused product.
-
-*Social and distribution:*
-- LinkedIn company page exists at linkedin.com/company/ressl-ai (follower count not retrievable).
-- No Product Hunt launch found for Ressl AI.
-- No Discord or Slack community found.
-- Company is not currently hiring (YC page).
-
-*Funding:*
-- $250K pre-seed announced December 2024 (Arushi Gandhi, X post via search snippet).
-- Seed round reported January 2026 (Tracxn via search snippet).
-- Total funding reported as $500K (Tracxn via search snippet) to $750K (search snippet citing YC, Transpose Platform Management, and Entrepreneurs First as investors). The discrepancy may reflect whether YC's standard deal is included.
+- $440K revenue with a 4-person team as of November 2025 (Getlatka.com via search snippet). Note: It is unclear which product(s) this revenue is attributed to given the pivot from Salesforce to trades.
+- $750K total funding from YC, Transpose Platform Management, and Entrepreneurs First (Tracxn via search snippet).
+- $250K pre-seed announced December 2024 (Arushi Gandhi, X post, Dec 2024).
+- Company Twitter/X: @ResslAI — follower count not retrievable.
+- Company LinkedIn: linkedin.com/company/ressl-ai — follower count not retrievable.
+- No Product Hunt listing found.
+- No app store listings found.
+- No Discord/Slack community found.
+- 0 active job postings (YC company page).
+- Indian entity registered: Ressl AI Private Limited, CIN U62091KA2024PTC185837, incorporated in Karnataka (TheCompanyCheck via search snippet).
 
 **Competitive landscape:**
 
-1. **Netic** — $43M raised ($20M seed/Series A led by Greylock, $23M Series B led by Founders Fund, Nov 2025); $450M valuation (Bloomberg, Nov 2025 via search snippet). Revenue grew 1,700% in under a year (Inc, 2025 via search snippet). Founded by Melisa Tokmak (ex-Scale AI). Positions as an "autonomous AI revenue engine" for essential service industries. Key differentiator vs. Ressl AI: heavily funded, focused on revenue operations rather than full back-office scope.
+1. **Netic** ($43M total raised including $23M Series B led by Founders Fund, $450M valuation; TechFundingNews, Nov 2025; revenue unknown). Autonomous AI revenue engine for home services — focuses on client outreach, bookings, marketing, and analytics. Claims 50% increase in average ticket value for customers (Inc. via search snippet). Differentiator vs. Ressl: Netic focuses on revenue-generating workflows (outreach, marketing) while Ressl targets back-office cost reduction (estimating, procurement, insurance).
 
-2. **Avoca** — Founded 2022 in NYC by Apurva Shrivastava and Tyson Chen. YC-backed. Reported $1.4M revenue (Latka, 2025 via search snippet). Funding reports range from $500K confirmed to $47.8M (PitchBook estimate). Provides AI-powered call handling and customer service for home services. Key differentiator vs. Ressl AI: focused on inbound call/booking automation rather than back-office operations like estimating and procurement.
+2. **Avoca AI** ($47.8M total raised; PitchBook via search snippet; $1.4M revenue with 13-person team; Getlatka.com via search snippet). Voice AI and real-time coaching for home services call centers. Claims 15% boost in booking rates and 2x jobs booked vs. legacy call centers (Avoca blog). Differentiator vs. Ressl: Avoca is narrowly focused on inbound call handling and booking optimization, while Ressl targets the broader back-office workflow.
 
-3. **ServiceTitan** — Publicly traded incumbent (IPO Dec 2024). Comprehensive FSM platform for residential and commercial trades. Adding AI features: SMS Booking Agent, AI Voice Agents, AI dispatch optimization (ServiceTitan website). Key differentiator vs. Ressl AI: full-stack SaaS platform with deep market penetration; AI features are incremental additions, not autonomous agents replacing human roles.
+3. **WorkHero** ($5M seed led by Navitas Capital; AccessNewsWire, Oct 2025; revenue unknown). AI-powered back office for small HVAC contractors — invoicing, permits, rebates, warranties, pricebooks. Uses AI agents with human account manager oversight. Differentiator vs. Ressl: WorkHero focuses specifically on small HVAC contractors and includes human account managers; Ressl targets multiple trades verticals with fully autonomous agents.
 
-4. **Housecall Pro** — Incumbent FSM platform. Emphasizes ease of use and rule-based automation (scheduling, reminders, follow-ups) rather than AI agents (Housecall Pro website). Key differentiator vs. Ressl AI: targets smaller operators with simpler automation; no public AI agent capabilities.
+4. **ServiceTitan** (Public, NASDAQ: TTAN; $772M revenue FY2025; ~$8.3B market cap; CNBC, Dec 2024). Comprehensive field service management platform with AI division (Titan Intelligence). Differentiator vs. Ressl: ServiceTitan is a full platform replacement; Ressl is an agent overlay on existing software. ServiceTitan serves mid-to-large contractors; Ressl targets businesses still on legacy/fragmented tool stacks.
 
-5. **Supernal AI** — Provides AI-powered digital workers for business operations automation, including lead qualification, invoice processing, and CRM updates (Supernal AI website via search snippet). Key differentiator vs. Ressl AI: horizontal AI employee platform, not trades-specific. Funding details not found.
+5. **Arch** (funding unknown; revenue unknown). AI marketing software for ServiceTitan contractors — reduces customer churn, discovers leads, automates outreach (getarch.com). Differentiator vs. Ressl: Arch is marketing-specific and built on top of ServiceTitan; Ressl targets operational back-office workflows across any software stack.
 
-**Why now:** [Inferred]: Two concurrent shifts create the opening. First, LLM capabilities crossed a threshold in 2024-2025 enabling agents to interact with legacy software APIs (CCCOne, QuickBooks) without requiring those platforms to build native AI features. Second, PE roll-up activity in home services has accelerated, creating a concentrated buyer segment with explicit mandates to improve margins across fragmented portfolio companies. ServiceTitan's IPO in December 2024 also increased attention on the trades technology vertical.
+**Why now:** [Inferred]: Two catalysts opened this opportunity. First, LLM capabilities crossed a threshold in 2024–2025 enabling multi-step agentic workflows (reading from one system, reasoning, writing to another) that were not feasible with prior-generation AI. Second, ServiceTitan's IPO in December 2024 validated the home services software market at scale ($8.3B+ market cap), drawing investor and entrepreneur attention to the sector. The YC company description notes that trades businesses have "the most glue work and the least tech sophistication to solve it themselves," suggesting structural under-digitization created pent-up demand that is now addressable with agent-level AI.
 
 ## Founders & Team
 
 **Arushi Gandhi** — Co-founder & CEO
-- B.Tech in Information Technology, Manipal Institute of Technology (2020–2024) (arushigandhi.com via search snippet)
-- Interned at Microsoft; received a Google Scholarship (arushigandhi.com via search snippet)
-- Participated in 15+ hackathons over 4 years, winning approximately 33% (arushigandhi.com via search snippet)
-- Interned at 4 early-stage startups as a full-stack developer (arushigandhi.com via search snippet)
-- Founded a custom CRM company for VCs/PEs during college (arushigandhi.com via search snippet)
-- Joined Entrepreneurs First before founding Ressl AI (LinkedIn post, Dec 2024)
-- Twitter/X: @arushi_ressl — 2,751 followers (Sotwe via search snippet)
-- LinkedIn: linkedin.com/in/arushi-gandhi/
-- GitHub: github.com/Arushigandhi — 42 public repos, activity set to private, star counts not visible
+- Microsoft Software Engineering Intern (June–July 2023) (arushigandhi.com)
+- Google Scholarship recipient (arushigandhi.com via search snippet)
+- Entrepreneurs First cohort member (prior to Ressl) (arushigandhi.com)
+- Previously founded Fundinc, building custom CRMs for VC/PEs (arushigandhi.com)
+- Interned at 4 early-stage startups: FreeStand (full stack), BugBase (project manager), Incepthink (web dev), Fiedra (frontend dev) (arushigandhi.com)
+- Co-founded Dorm Room Startup Club across colleges; founding team member at GirlScript (arushigandhi.com)
+- Won ~33% of 15+ hackathons during college (arushigandhi.com via search snippet)
+- Twitter/X: [@arushi_ressl](https://x.com/arushi_ressl) — follower count not retrievable
+- LinkedIn: [linkedin.com/in/arushi-gandhi/](https://www.linkedin.com/in/arushi-gandhi/)
+- GitHub: [github.com/Arushigandhi](https://github.com/Arushigandhi) — no notable repos with high star counts found
 
 **Abhishek Eswaran** — Co-founder
-- IIT Bombay (LinkedIn headline via search snippet)
-- Described as "software geek" and co-founder focused on enterprise software (X profile via search snippet)
-- No detailed prior work history found in public sources
-- Twitter/X: @AbhishekEswaran — 188 followers (Sotwe via search snippet)
-- LinkedIn: linkedin.com/in/abhishek-e-b436231a4/ — 500+ connections
-- GitHub: No public profile found
+- IIT Bombay alumnus (YC company page)
+- Entrepreneurs First cohort member (prior to Ressl) (arushigandhi.com via search snippet)
+- Leads the architectural and multi-agent execution approach at Ressl (FoundersClub.in via search snippet)
+- Twitter/X: [@AbhishekEswaran](https://x.com/AbhishekEswaran) — follower count not retrievable
+- LinkedIn: [linkedin.com/in/abhishek-e-b436231a4/](https://www.linkedin.com/in/abhishek-e-b436231a4/)
+- GitHub: No public repos found
 
-**Co-founder relationship:** Both founders are from Indian engineering institutions (Manipal Institute of Technology and IIT Bombay respectively). Arushi Gandhi's LinkedIn post from December 2024 references joining Entrepreneur First "earlier this year," and Ressl AI was founded in 2024, suggesting the co-founders may have connected through the Entrepreneurs First program. No confirmed shared employer or institution found.
+**Co-founder relationship:** Both founders were in the same Entrepreneurs First cohort before co-founding Ressl AI (arushigandhi.com, X post Dec 2024). No prior shared employer or university identified.
 
-**Founder-market fit:** Arushi Gandhi's prior experience building custom CRMs for VCs/PEs and working at early-stage startups provides direct exposure to the consulting-to-product pipeline and PE buyer channel described in the GTM strategy. The team's background in Salesforce implementation (the prior product) demonstrates ability to build AI agents that interact with enterprise software systems, which is transferable to the trades software stack. The connection to Entrepreneurs First provides early-stage network access. No advisors or board members found beyond YC Partner Harshita Arora.
+**Founder-market fit:** Arushi Gandhi's background includes building custom CRMs for VC/PE firms (Fundinc), providing direct experience with CRM/ERP configuration pain points and the PE buyer persona that Ressl now targets as a GTM channel. Her consulting-firm origin story for Ressl (described in the YC page) gave first-hand exposure to trades businesses' operational workflows. Abhishek Eswaran's IIT Bombay engineering background and role leading the multi-agent architecture positions him on the technical side. Neither founder has documented prior experience working in the trades/home services industry specifically.
 
 ## Key Risks
 
-**Recent pivot with unproven product-market fit in new vertical:** The company pivoted from a Salesforce AI product (which generated $440K revenue per Latka, Nov 2025) to AI agents for trades businesses. The current trades-focused product has no public traction data. The team's demonstrated ability to build and sell Salesforce AI agents does not guarantee transferability to the fundamentally different trades market, which involves different buyers (shop operators vs. Salesforce admins), different software integrations (CCCOne, QuickBooks vs. Salesforce APIs), and different sales cycles.
+**Pivot execution risk:** Ressl AI has pivoted at least once — from Salesforce administration ("Devin for Salesforce," announced Dec 2024) to trades/home services AI agents. Salesforce-related content (FoundersClub.in, Aug 2025; SalesforceDevops.net, Apr 2025) appears as recently as mid-2025. The $440K revenue figure (Getlatka.com, Nov 2025) may include Salesforce product revenue, making it unclear how much traction the current trades product has independently.
 
-**Well-funded direct competitor (Netic):** Netic has raised $43M from Founders Fund and Greylock at a $450M valuation (Bloomberg, Nov 2025 via search snippet), with revenue growth of 1,700% in under a year (Inc, 2025 via search snippet). Netic targets the same essential services vertical with autonomous AI, has a 12+ month head start, and is backed by investors with deep networks in the trades industry. Ressl AI will compete for the same PE roll-up and operator customers with substantially less capital.
+**Well-funded direct competitors:** Netic ($43M raised, $450M valuation) and Avoca ($47.8M raised) are targeting the same home services AI market with significantly more capital. WorkHero ($5M seed) targets the back-office automation niche specifically. All three are ahead in fundraising and, in Netic's case, valuation momentum.
 
-**Incumbent platform risk (ServiceTitan):** ServiceTitan is already shipping AI features (Voice Agents, SMS Booking Agents, AI dispatch) directly into its widely-deployed FSM platform (ServiceTitan website). As a publicly traded company with deep existing customer relationships in HVAC, plumbing, and electrical, ServiceTitan can bundle AI capabilities into existing contracts. Ressl AI's "run on top of existing software" approach depends on these incumbents not locking down their APIs or building competing autonomous features.
+**Integration complexity at scale:** The value proposition depends on agents operating reliably across diverse legacy software stacks (CCCOne, QuickBooks, trade-specific ERPs, phone/SMS/Yelp channels) without standardized APIs. Each new customer or vertical may require custom integration work that limits scalability and gross margins.
 
-**Integration complexity across fragmented software stack:** Trades businesses use a heterogeneous mix of legacy tools (CCCOne for collision, QuickBooks for invoicing, various scheduling tools) that lack standardized APIs. Each sub-vertical (collision, HVAC, plumbing, roofing) uses different core systems. Building reliable agents across this fragmented landscape requires significant integration engineering for each vertical, potentially limiting the speed of horizontal expansion.
-
-**Small team entering capital-intensive market:** While a 4-person team is normal at pre-seed, the trades AI space is attracting significant capital (Netic: $43M). The integration-heavy nature of building agents across multiple legacy software systems in multiple trades sub-verticals may require faster team scaling than current resources allow.
+**ServiceTitan platform expansion:** ServiceTitan's Titan Intelligence AI division could extend agent capabilities within its own ecosystem, addressing the "glue work" problem for its installed base. Given ServiceTitan's $772M revenue and existing customer relationships, this presents a top-down competitive threat for the portion of the market already on ServiceTitan.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $5.49B global field service management market in 2025, projected $9.87B by 2031 at 9.54% CAGR (Mordor Intelligence via search snippet); $2.8B US FSM software market (IBISWorld via search snippet) |
-| SAM | No public data found for AI-specific back-office automation in trades |
-| Traction | $440K revenue from prior Salesforce product (Latka, Nov 2025 via search snippet); no public traction data for current trades product |
-| Revenue Signal | No public pricing or revenue data for current trades product. Prior Salesforce product: $440K revenue (Latka, Nov 2025 via search snippet) |
-| Founders | Arushi Gandhi (CEO): Manipal IT B.Tech, ex-Microsoft intern, Google Scholarship, Entrepreneurs First, founded custom CRM co. Abhishek Eswaran (Co-founder): IIT Bombay |
-| Competitors | Netic ($43M raised, $450M valuation, 1,700% revenue growth, autonomous AI revenue engine for services); Avoca ($500K–$47.8M raised, $1.4M revenue, AI call handling for home services); ServiceTitan (public, full FSM platform adding AI features); Housecall Pro (incumbent FSM, rule-based automation); Supernal AI (horizontal AI employees, funding unknown) |
-| Moat Signals | No public data found |
-| Risk Factors | Recent pivot with no public traction in new vertical, well-funded direct competitor (Netic, $43M), incumbent platform risk (ServiceTitan shipping AI features) |
-| Founder Reach | Arushi Gandhi: Twitter 2.8k, LinkedIn profile active, GitHub 42 repos (stars not visible). Abhishek Eswaran: Twitter 188, LinkedIn 500+ connections, GitHub not found |
-| Distribution Signals | No public data found (no Product Hunt launch, no app store presence, no community channels identified) |
+| TAM | Field Service Management: $5.49B in 2025, projected $9.17B by 2030, CAGR 12.5% (MarketsandMarkets via search snippet). Home Services Management Software: $596.67M in 2026, CAGR 8.9% (Market Growth Reports via search snippet). |
+| SAM | No public data found |
+| Traction | $440K revenue with 4-person team (Getlatka.com via search snippet, Nov 2025). Note: may include prior Salesforce product revenue. |
+| Revenue Signal | $440K revenue as of Nov 2025 (Getlatka.com via search snippet). No public pricing page accessible. |
+| Founders | Arushi Gandhi (CEO): Microsoft intern, Google Scholar, Entrepreneurs First, founded Fundinc (CRM for VC/PEs). Abhishek Eswaran (Co-founder): IIT Bombay, Entrepreneurs First, leads multi-agent architecture. |
+| Competitors | Netic ($43M raised, $450M valuation, revenue unknown, AI revenue engine for home services). Avoca ($47.8M raised, ~$1.4M revenue, voice AI for home services call centers). WorkHero ($5M seed, revenue unknown, AI back office for HVAC). ServiceTitan (public TTAN, $772M rev FY2025, full-stack FSM platform with AI). Arch (funding unknown, revenue unknown, AI marketing for trades). |
+| Moat Signals | No public data found. Potential for workflow-specific data accumulation and vertical software integrations over time. |
+| Risk Factors | Pivot execution uncertainty (Salesforce → trades), well-funded direct competitors (Netic $43M, Avoca $48M), ServiceTitan platform expansion threat |
+| Founder Reach | Arushi Gandhi: Twitter @arushi_ressl (count not retrievable), LinkedIn linkedin.com/in/arushi-gandhi/, GitHub github.com/Arushigandhi. Abhishek Eswaran: Twitter @AbhishekEswaran (count not retrievable), LinkedIn linkedin.com/in/abhishek-e-b436231a4/. |
+| Distribution Signals | No Product Hunt listing found. No app store listings. No community (Discord/Slack) found. 0 job postings. |
+| Emails | arushi@ressl.ai |

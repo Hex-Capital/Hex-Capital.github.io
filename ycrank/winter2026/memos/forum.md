@@ -11,116 +11,102 @@
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
 | Tags | Finance, Investing, Trading |
+| YC Partner | Jared Friedman |
+| Emails | No public data found |
 
 ## The Idea
 
-**Problem:** Attention — measured through search volume, social media engagement, and streaming data — is the primary driver of business success in the digital economy, yet there is no direct financial instrument to hedge or speculate on changes in cultural relevance. Marketers, media companies, talent managers, and traders currently rely on lagging indicators (ad spend ROI, brand surveys) or adjacent instruments (prediction markets for discrete events) to manage cultural and demand risk. There is no way to go long or short on continuous changes in how much the world cares about a topic, person, or brand.
+**Problem:** Attention — measured in clicks, views, search volume, and social engagement — is a primary driver of business outcomes in the digital age, yet there is no direct financial instrument to hedge or speculate on it. Brands, studios, labels, and advertisers allocate large budgets based on cultural relevance but lack tools to manage the risk of shifts in relevance. Today, participants rely on indirect proxies such as advertising spend, social media analytics dashboards, and ad futures, none of which allow direct long/short positioning on attention trajectories.
 
-**Approach:** Forum creates proprietary indices from search, social, and streaming data that quantify cultural attention across topics, people, and movements. Users can then go long or short on changes in these relevance indices, treating attention as a tradable asset class. The platform currently operates with simulated currency ($1,000 per user) while pursuing regulatory approval for real-money trading in the U.S. (YC company page).
+**Approach:** Forum creates proprietary indices by aggregating engagement data from search, social media, and streaming platforms to quantify what the world cares about. Users can take long or short positions on these indices, betting on whether a topic, person, brand, or cultural movement will gain or lose relevance over time. The platform currently operates with simulated currency ($1,000 virtual balance per user) while the team pursues regulatory approval for real-money trading in the US (YC Launch page, Jan 2026).
 
-**Differentiation:** Forum's core differentiator is its pursuit of a regulated exchange model in the United States, distinguishing it from crypto-native competitors:
-- **Noise.xyz** operates on Base (Coinbase's Layer 2) as a crypto-based attention market, offering continuous relevance indexes on-chain rather than through a CFTC-registered exchange.
-- **Zora Attention Markets** launched on Solana (Feb 17, 2026) as a decentralized token-based system where users deploy "Trends" for 1 SOL each (CoinDesk, Feb 18, 2026).
-- **Polymarket/Kaito** is adding attention market contracts to its existing prediction market platform starting March 2026 (The Block, Feb 2026), using Kaito's mindshare/sentiment data.
-- **Kalshi** is a CFTC-registered exchange focused on event contracts (sports, politics), but does not offer continuous attention-based indices.
+**Differentiation:** Forum positions itself as "regulated" — seeking CFTC-compliant event contract status — distinguishing it from crypto-native competitors like Noise (on-chain on Base/Ethereum L2) and Polymarket (on-chain, non-US focused). Unlike Kalshi, which derives most volume from sports and political event contracts, Forum's indices are built specifically around cultural attention metrics rather than binary event outcomes. Versus, another entrant, targets mass-market cultural forecasting but is launching outside the US (UK & Ireland) and does not emphasize regulatory status (Wellfound listing via search snippet).
 
-Forum aims to create a new asset class rather than offer a prediction market with binary outcomes.
+**Business Model:** No pricing page or revenue model is publicly disclosed. The platform currently offers free demo accounts with virtual currency. [Inferred]: The most likely monetization path is transaction fees on trades (similar to Kalshi's ~1.2% fee on trading volume) and/or spread-based revenue once real-money trading is enabled, potentially supplemented by data licensing of attention indices to institutional clients.
 
-**Business Model:** No public pricing page was found on the website at time of research (the website returned only a placeholder page). [Inferred]: The most likely monetization path is transaction fees on trades (analogous to exchange fee models at Kalshi, which charges ~1.2% of trading volume per Sacra), potentially supplemented by data/index licensing fees given the proprietary attention indices the company builds.
+**TAM/SAM:** The global prediction market was estimated at $17.49 billion in 2025 and is projected to reach $21.24 billion in 2026 (Gambling Insider, 2026 via search snippet). Total prediction market trading volume exceeded $44 billion in 2025 (Gambling Insider, 2026 via search snippet). Citizens Financial Group projects prediction market firm revenues will reach $10 billion by 2030, up from approximately $2 billion at present (CNBC, Dec 2025 via search snippet). Eilers & Krejcik projects prediction markets could reach $1 trillion in annual trading volume by the end of the decade (CNBC, Dec 2025 via search snippet). The attention-specific sub-segment (cultural/relevance trading vs. sports/politics) is nascent with no standalone TAM estimate found.
 
-**TAM/SAM:** No direct TAM estimate exists for "attention trading" as a standalone market. Adjacent market references:
-- Global prediction market trading volumes exceeded $60 billion in 2025, a 400% increase from 2024 (CFTC rulemaking context, Sidley Austin, Feb 2026 via search snippet).
-- Citizens Financial Group projects prediction market firm revenues will reach $10 billion by 2030, from ~$2 billion currently (Gambling Insider, 2026 via search snippet).
-- Global digital advertising market — the broader arena where attention is monetized — was valued at $650 billion in 2025 (Precedence Research, 2025 via search snippet).
-
-**GTM / Distribution:** [Inferred]: Most likely initial distribution path is direct-to-consumer via the web platform, starting with crypto-native and retail trading communities already familiar with prediction markets and attention markets. The simulated-currency product serves as a waitlist/engagement mechanism while regulatory approvals are pending. Post-regulation, distribution could expand to institutional users (hedge funds, media companies, ad agencies) seeking attention-based hedging instruments.
+**GTM / Distribution:** Forum has a YC Launch page and a Product Hunt listing (producthunt.com/products/forum-2). Owen Botkin's LinkedIn announcement (Jan 19, 2026) directs interested parties to a waitlist at forum.market. The demo app is live at app.forum.market. [Inferred]: Initial distribution is likely through the YC network and crypto/fintech-adjacent early adopters, with potential expansion to enterprise clients (brands, studios, ad buyers) seeking attention-hedging tools once real-money trading is enabled.
 
 ## Defensibility
 
-**Regulatory moat (potential, not yet realized):** If Forum obtains CFTC designation as a registered Designated Contract Market (DCM), this would represent a significant structural barrier — obtaining DCM status is a lengthy, capital-intensive regulatory process. Kalshi, the only startup to obtain DCM status to date, spent years and millions in legal costs to achieve it. No other attention-market competitor is currently pursuing regulated exchange status in the U.S.
+Forum's potential moat centers on three elements: (1) proprietary attention indices built from aggregated search, social, and streaming data — the methodology and data pipeline for constructing tradable indices from disparate engagement sources creates a data advantage that deepens with usage and refinement; (2) regulatory positioning — pursuing CFTC-regulated status as a Designated Contract Market (DCM) is a high-barrier, time-intensive process that, if achieved, would create a significant moat against unregulated competitors; (3) the concept of "attention as an asset class" is novel enough that first-mover advantage in index methodology and market liquidity could create switching costs for traders and data consumers.
 
-**Proprietary data/indices:** Forum's attention indices — built from search, social, and streaming data — could develop into a data moat over time if the indices become standard benchmarks (analogous to how S&P indices became the standard in equities). However, this is unproven at this stage.
+Today, no moat is established. The platform operates with virtual currency and has not yet received regulatory approval. Defensibility depends on execution of the regulatory pathway and building sufficient liquidity.
 
-**Network effects:** Trading exchanges exhibit liquidity-driven network effects — more traders attract more traders. This moat does not exist today as the platform is pre-launch with simulated currency only.
+**Market structure:** Incumbent exchanges (CME, Nasdaq, ICE) could theoretically launch attention-based event contracts. However, attention indices require building novel data pipelines from social/search/streaming sources that are outside incumbents' core competency in financial data. Nasdaq filed with the SEC in early 2026 to list prediction market contracts (Coingape, 2026 via search snippet), and ICE invested up to $2 billion in Polymarket (ICE press release, Oct 2025 via search snippet), indicating incumbents are entering prediction markets via partnership rather than building from scratch. The cultural attention niche specifically may be too small and speculative for incumbents to prioritize internally, given their focus on high-volume sports and political contracts.
 
-**Market structure:** The structural barrier for incumbents like Kalshi is business model focus: Kalshi derives 89% of its 2025 revenue from sports betting (Sacra), and pivoting to continuous attention indices would require building entirely new data infrastructure and index methodology outside its core competency. Crypto-native platforms (Noise, Zora) face a different structural barrier: they cannot operate as regulated U.S. exchanges without fundamental architectural changes. [Inferred]: Traditional financial exchanges (CME, ICE) could theoretically build attention-based derivatives but would face internal prioritization challenges given the nascent and unproven nature of the asset class.
-
-**Commoditization risk:** The underlying data sources (Google Trends, social media APIs, streaming metrics) are publicly available, and multiple competitors are already building attention indices. Noise (1,300+ beta users), Zora, and Polymarket/Kaito are all building comparable products in the crypto ecosystem. The regulated U.S. exchange path is harder to replicate but not unique if a well-capitalized incumbent decides to pursue it.
+**Commoditization risk:** The core concept of indexing social/search data is replicable. Noise ($7.1M seed from Paradigm) is building a directly competitive product on-chain. Versus ($1.5M pre-seed) targets the same cultural prediction space. Any prediction market platform (Kalshi, Polymarket) could add attention-based contracts as a category extension. The barrier is in regulatory approval, index methodology quality, and liquidity — not in the concept itself.
 
 ## Market & Traction
 
-### Traction Signals
+**Traction signals:**
+- Product Hunt listing exists (producthunt.com/products/forum-2); ranking and upvote count not retrievable due to access restrictions.
+- YC Launch page live (ycombinator.com/launches/PTS-forum-regulated-exchange-to-trade-on-attention).
+- Owen Botkin LinkedIn announcement post: 389 likes, 121 comments (LinkedIn, Jan 19, 2026).
+- Demo app live at app.forum.market with simulated $1,000 virtual currency per user (YC page).
+- Twitter/X handle: @forumdotmarket — follower count not retrievable.
+- LinkedIn company page: forum-markets-group — follower count not retrievable.
+- No public user counts, waitlist size, revenue, or download metrics found.
+- No Discord or Slack community found.
+- Website (forum.market) returned minimal content at time of research; no pricing, feature list, or traction numbers displayed.
 
-- **Product status:** Currently operating with simulated currency ($1,000 per user); not yet live with real-money trading (YC company page).
-- **Website:** Returned minimal/placeholder content at time of research (Feb 2026). Website not fully accessible at time of research.
-- **Twitter/X:** @forumdotmarket — handle exists; follower count not retrievable due to JavaScript rendering.
-- **LinkedIn:** Company page at linkedin.com/company/forum-markets-group — follower count not retrievable.
-- **Owen Botkin LinkedIn post:** Post titled "Thrilled to announce that Forum YC W26..." exists (LinkedIn, activity ID 7419059524776558592), but full content not retrievable.
-- **Product Hunt:** No listing found.
-- **App store / Chrome extension:** No public data found.
-- **Discord / Slack community:** No public data found.
-- **Job postings:** Company is not currently hiring (YC page).
-- **Revenue:** No public data found. Product is pre-revenue (simulated currency stage).
+**Competitive landscape:**
 
-### Competitive Landscape
-
-| Competitor | Funding | Revenue/ARR | Key Differentiator vs. Forum |
+| Competitor | Key Differentiator vs. Forum | Funding | Revenue/ARR |
 |---|---|---|---|
-| **Noise.xyz** | $7.1M seed led by Paradigm (The Block, Jan 2026) | Revenue unknown | Crypto-native (Base L2); 1,300+ beta users with 62% retention; continuous relevance indexes; not pursuing regulated exchange status |
-| **Kalshi** | ~$1.7B total ($1B Series E at $11B valuation) (TechCrunch, Nov 2025) | $260M in 2025 (Sacra) | CFTC-registered DCM but focused on event contracts (90%+ sports betting); does not offer continuous attention indices |
-| **Polymarket / Kaito** | Polymarket: $200M round at $1B valuation (Founders Fund); ICE invested up to $2B | Revenue unknown | Largest prediction market by volume ($21.5B in 2025); adding attention markets via Kaito partnership in March 2026; crypto-based, not regulated exchange |
-| **Zora Attention Markets** | Zora (parent): prior funding not specified for attention product | Revenue unknown | Launched Feb 17, 2026 on Solana; token-based (1 SOL per Trend); early traction showed ~$200K trading volume and $70K market cap on day one (CoinDesk, Feb 18, 2026) |
+| **Kalshi** | CFTC-regulated DCM focused on sports and political event contracts; binary outcomes rather than continuous attention indices | $1B Series E at $11B valuation (TechCrunch, Dec 2025) | ~$260M in 2025 (Sacra via search snippet) |
+| **Polymarket** | Crypto-native (Polygon), focused on political/sports/culture binary markets; non-US primary user base | ~$2B Series D at ~$9B valuation; secondary market implied valuation $11.6B (PM Insights, Jan 2026 via search snippet) | Revenue unknown |
+| **Noise** | On-chain attention market on Base (Ethereum L2); crypto-native, uses Kaito social data; 1,300+ beta users on testnet (The Block, Jan 2026) | $7.1M seed led by Paradigm, with prior pre-seed from Figment Capital and Anagram (The Block, Jan 2026) | Pre-revenue |
+| **Versus** | Mass-market cultural prediction app targeting non-crypto users; launching in UK & Ireland first | $1.5M pre-seed in Q4 2025 (Wellfound via search snippet) | Pre-revenue |
+| **Opinion** | On-chain prediction market on BNB Chain; covers culture, macro, and crypto; ~33% of global prediction market volume | $20M pre-Series A from Hack VC, Jump Crypto (CoinDesk, Feb 2026) | Revenue unknown; $130M+ open interest (CoinDesk, Feb 2026) |
 
-### Why Now
-
-- **Regulatory opening:** On January 29, 2026, CFTC Chairman Michael Selig announced a four-part agenda to "support the responsible development of event contract markets," withdrew a proposed ban on sports-related event contracts, and signaled imminent rulemaking (CNBC, Jan 29, 2026; Sidley Austin, Feb 2026). This creates a more favorable path for new exchange operators.
-- **Prediction market explosion:** Total prediction market trading volumes reached $60 billion in 2025 (400% YoY growth), and monthly active users grew from ~4,000 in 2024 to 600,000+ by late 2025 (Gambling Insider, 2026 via search snippet). This establishes consumer comfort with speculative trading on non-financial outcomes.
-- **Attention as an asset class gains traction:** Multiple well-funded entrants (Noise $7.1M, Polymarket/Kaito partnership, Zora) all launched attention-specific trading products in late 2025 through early 2026, indicating an emerging consensus around the concept.
-- [Inferred]: The availability of real-time social and search data via APIs (Google Trends, X/Twitter, TikTok, YouTube) has reached a maturity point where constructing continuous attention indices is technically feasible at low cost.
+**Why now:** Several converging catalysts opened this opportunity in 2024–2025: (1) The CFTC's regulatory shift — withdrawal of its proposed ban on political event contracts and a January 2025 prediction markets roundtable (CFTC press release, 2025) — created a permissive regulatory environment for new event contract categories. (2) Kalshi's and Polymarket's explosive growth ($37B+ combined volume in 2025 per The Block via search snippet) validated consumer demand for event-based trading. (3) The IAB and MRC released standardized Attention Measurement Guidelines in November 2025 (InsurAds, 2025 via search snippet), creating a foundation for consistent attention metrics. [Inferred]: The convergence of favorable regulation, proven consumer appetite for prediction-style trading, and emerging attention measurement standards creates a window for launching attention as a distinct tradable asset class.
 
 ## Founders & Team
 
 **Owen Botkin** — Co-founder & CEO
-- Previously worked in long/short equities at Balyasny Asset Management (a $20B+ multi-strategy hedge fund) (YC company page). LinkedIn title: "Associate & Portfolio Committee" (LinkedIn search result).
-- Dropped out of university to build Forum (YC company page). Specific university not publicly identified.
-- Twitter/X: No personal public account found.
-- LinkedIn: linkedin.com/in/owen-botkin — connection count not retrievable.
+- Traded long/short equities at Balyasny Asset Management, one of the world's largest multi-manager hedge funds (YC page).
+- Dropped out of Northwestern University (YC page).
+- Twitter/X: @forumdotmarket (company account); personal handle not found.
+- LinkedIn: linkedin.com/in/owen-botkin — announcement post about Forum YC W26 received 389 likes and 121 comments (LinkedIn, Jan 19, 2026).
 - GitHub: No public repos found.
 
 **Joseph Thomas** — Co-founder & CTO
-- Previous software engineering experience at NASA, GEICO, and DreamwaveAI (YC company page).
-- Dropped out of university to build Forum (YC company page). Specific university not publicly identified.
-- Twitter/X: No personal public account found.
-- LinkedIn: Not definitively identified among multiple "Joseph Thomas" profiles in search results.
+- Former software engineer at NASA and GEICO (YC page).
+- Dropped out of Georgia Tech (YC page).
+- Twitter/X: No public account found.
+- LinkedIn: No direct profile URL found in search results.
 - GitHub: No public repos found.
 
-**Co-founder relationship:** Both founders dropped out of university to build Forum together. No shared prior employer or university overlap is identifiable from public data. No public data on co-founder history.
+**Co-founder relationship:** Owen Botkin and Joseph Thomas were high school debate partners (Owen Botkin LinkedIn post, Jan 19, 2026). Both dropped out of their respective universities (Northwestern and Georgia Tech) to pursue Forum.
 
-**Founder-market fit:** Owen Botkin's background in long/short equities at Balyasny provides direct experience with the financial infrastructure, market microstructure, and regulatory landscape needed to build a trading exchange. Joseph Thomas's software engineering background across NASA, GEICO, and DreamwaveAI provides the technical foundation for building data pipelines and trading platform infrastructure. The combination of finance domain expertise and engineering capability covers the two core competencies needed for this venture. YC partner Jared Friedman is the assigned partner (YC company page).
+**Founder-market fit:** Owen Botkin's professional experience trading long/short equities at Balyasny provides direct domain expertise in exchange mechanics, position management, and financial product design. Joseph Thomas's engineering background at NASA and GEICO provides technical capacity for building data-intensive, reliability-critical systems. The CEO's trading background and the CTO's engineering background are complementary for building a regulated financial exchange. No advisors, board members, or notable angel investors were identified in public sources.
 
 ## Key Risks
 
-**Regulatory dependency:** Forum's entire value proposition rests on obtaining U.S. regulatory approval (likely CFTC DCM designation) for real-money trading on attention indices. The CFTC rulemaking process is ongoing with nearly 50 active legal cases against prediction markets (CFTC amicus brief, Feb 2026). Denial or significant delay would leave the company unable to generate revenue from its core product. Mitigation: The current CFTC leadership has signaled a more permissive stance toward event contracts (CNBC, Jan 29, 2026).
+**Regulatory dependency:** Forum's core value proposition — being the "first regulated exchange" for attention trading — requires CFTC approval as a Designated Contract Market or similar designation. This process is lengthy, uncertain, and expensive. The CFTC's February 2026 signaling of imminent rulemaking on prediction markets (Sidley Austin, Feb 2026 via search snippet) could result in rules that either enable or restrict novel event contract categories like attention indices. Until regulatory approval is secured, the platform can only operate with virtual currency, limiting monetization and user engagement.
 
-**Well-funded competition already live:** Noise.xyz ($7.1M seed, 1,300+ beta users), Polymarket/Kaito ($200M+ funding, $21.5B 2025 volume), and Zora have all launched attention trading products in the crypto ecosystem before Forum has gone live with real money. These competitors may establish liquidity network effects and user habits before Forum obtains regulatory approval. Forum's regulated approach may appeal to a different user base (institutional, U.S.-based retail), but the crypto competitors have a significant head start.
+**Direct competitor with significant funding (Noise):** Noise raised $7.1M in a Paradigm-led seed round (The Block, Jan 2026) to build a directly competitive attention market, already has 1,300+ beta users on testnet, and is preparing for mainnet launch on Base. Noise's crypto-native approach avoids the regulatory bottleneck Forum faces by operating on-chain, potentially reaching market faster.
 
-**Index manipulation and integrity risk:** Attention indices derived from social media, search, and streaming data are potentially susceptible to manipulation (bot activity, coordinated social media campaigns, SEO manipulation). If index integrity is compromised, it could undermine user trust and invite regulatory scrutiny. No public information on Forum's anti-manipulation methodology was found.
+**Liquidity cold-start problem:** Trading platforms require sufficient liquidity to generate meaningful price discovery and attract users. As a two-person pre-seed company operating with virtual currency, Forum must solve the bootstrapping problem of attracting both sides of the market (longs and shorts) simultaneously. Without real-money trading, the platform cannot generate revenue or demonstrate product-market fit with actual financial stakes.
 
-**Brand disambiguation:** "Forum" is an extremely common English word with numerous existing companies sharing the name (Forum Investment Group, Forum Ventures, Forum Capital Advisors, etc.), which creates SEO challenges and potential brand confusion in a consumer-facing product.
+**Index methodology risk:** The quality and credibility of Forum's attention indices — derived from search, social, and streaming data — are unproven. If indices are easily gameable (e.g., via bot traffic, coordinated social media activity) or fail to reflect genuine cultural attention, the platform's core product becomes unreliable. No public information exists about the methodology's robustness or any third-party validation.
 
-**Liquidity bootstrapping:** New exchanges face a chicken-and-egg problem: traders need liquidity to participate, but liquidity requires traders. As a two-person pre-revenue startup competing against platforms with billions in trading volume, bootstrapping sufficient liquidity to make markets functional is a structural challenge. The simulated-currency approach may partially address this pre-launch, but the transition to real-money markets will require a liquidity strategy.
+**Brand disambiguation:** "Forum" is an extremely common English word, making SEO, brand recognition, and online discoverability challenging. Search results for "Forum" return results for Forex Factory forums, Forum Investment Group, Markets Group forums, and numerous other unrelated entities, potentially diluting marketing effectiveness.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Prediction market revenues projected to reach $10B by 2030 (Citizens Financial Group via Gambling Insider, 2026 via search snippet); $60B in prediction market trading volume in 2025 (Sidley Austin, Feb 2026 via search snippet). Adjacent: $650B global digital ad spending in 2025 (Precedence Research via search snippet) |
-| SAM | No public data found |
-| Traction | Pre-launch; simulated currency only ($1,000 per user); no public user counts, waitlist numbers, or downloads found (YC company page) |
-| Revenue Signal | No public data found. Pre-revenue (simulated currency stage) |
-| Founders | Owen Botkin (CEO): Ex-Balyasny L/S equities associate, university dropout. Joseph Thomas (CTO): Ex-NASA, GEICO, DreamwaveAI software engineer, university dropout |
-| Competitors | Noise.xyz ($7.1M raised, revenue unknown, crypto-native continuous attention indices on Base); Kalshi ($1.7B raised, $260M 2025 revenue, CFTC-registered but sports/events-focused not attention); Polymarket/Kaito ($200M+ raised, revenue unknown, adding attention markets March 2026); Zora Attention Markets (funding for product not disclosed, token-based on Solana) |
-| Moat Signals | Pursuing regulated U.S. exchange status (potential regulatory moat if obtained); proprietary attention indices from search/social/streaming data (unproven as defensible) |
-| Risk Factors | Regulatory dependency on CFTC approval, well-funded crypto competitors already live with attention trading, index manipulation risk, brand disambiguation |
-| Founder Reach | Owen Botkin: Twitter not found, LinkedIn linkedin.com/in/owen-botkin (count not retrievable), GitHub not found. Joseph Thomas: Twitter not found, LinkedIn not definitively identified, GitHub not found. Company: Twitter @forumdotmarket (count not retrievable), LinkedIn forum-markets-group (count not retrievable) |
-| Distribution Signals | No public data found. No Product Hunt listing, no app store presence, no Chrome extension, no community channels identified |
+| TAM | Global prediction market: $17.49B in 2025, projected $21.24B in 2026 (Gambling Insider, 2026 via search snippet); prediction market firm revenues projected to reach $10B by 2030 (Citizens Financial Group via CNBC, Dec 2025 via search snippet). No standalone TAM for attention-specific trading. |
+| SAM | No public data found for the attention/cultural trading sub-segment specifically. |
+| Traction | Demo app live at app.forum.market with virtual currency (YC page); Product Hunt listing exists (producthunt.com/products/forum-2); YC Launch page live; Owen Botkin LinkedIn post: 389 likes, 121 comments (Jan 19, 2026). No public user counts or waitlist data found. |
+| Revenue Signal | No public data found. Platform currently operates with virtual currency only. |
+| Founders | Owen Botkin (CEO): L/S equities trader at Balyasny, Northwestern dropout. Joseph Thomas (CTO): SWE at NASA & GEICO, Georgia Tech dropout. |
+| Competitors | Kalshi ($1B raised, $11B valuation, ~$260M 2025 revenue, sports/politics focus); Polymarket (~$2B raised, ~$11.6B implied valuation, revenue unknown, crypto-native); Noise ($7.1M seed, pre-revenue, direct attention market competitor on-chain); Versus ($1.5M pre-seed, pre-revenue, cultural prediction app UK/Ireland); Opinion ($20M pre-Series A, revenue unknown, on-chain culture/macro) |
+| Moat Signals | Pursuing CFTC-regulated status (unachieved); proprietary attention index methodology (unvalidated); first-mover in regulated attention trading (claimed). |
+| Risk Factors | Regulatory approval dependency, direct competition from better-funded Noise ($7.1M), liquidity cold-start problem, index methodology credibility |
+| Founder Reach | Owen Botkin: LinkedIn post 389 likes/121 comments (Jan 2026), Twitter company handle @forumdotmarket (count not retrievable). Joseph Thomas: no public social accounts found. |
+| Distribution Signals | Product Hunt listing (producthunt.com/products/forum-2, ranking not retrievable); YC Launch page live; demo app at app.forum.market; waitlist at forum.market (Owen Botkin LinkedIn post, Jan 2026). |
+| Emails | No public data found |

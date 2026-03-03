@@ -128,15 +128,6 @@
               <th class="px-1.5 py-1 text-left text-claude-gray cursor-pointer hover:text-claude-orange border border-claude-border whitespace-nowrap"
                 @click="sortBy('name')">Company<span x-show="sortCol === 'name'" x-text="sortDir === 1 ? '\u25B2' : '\u25BC'" class="text-xs ml-0.5"></span>
               </th>
-              <template x-for="p in personas" :key="p.abbr">
-                <th class="px-1.5 py-1 text-center text-claude-gray cursor-pointer hover:text-claude-orange w-10 border border-claude-border whitespace-nowrap hidden sm:table-cell"
-                  @click="sortBy(p.abbr)"
-                  :title="p.fullName"><span x-text="p.abbr"></span><span x-show="sortCol === p.abbr" x-text="sortDir === 1 ? '\u25B2' : '\u25BC'" class="text-xs ml-0.5"></span>
-                </th>
-              </template>
-              <th class="px-1.5 py-1 text-center text-claude-gray cursor-pointer hover:text-claude-orange w-12 border border-claude-border whitespace-nowrap"
-                @click="sortBy('avg')">Avg<span x-show="sortCol === 'avg'" x-text="sortDir === 1 ? '\u25B2' : '\u25BC'" class="text-xs ml-0.5"></span>
-              </th>
               <th class="px-1.5 py-1 text-center text-claude-gray cursor-pointer hover:text-claude-orange w-14 border border-claude-border whitespace-nowrap"
                 @click="sortBy('teamSize')">Team Size<span x-show="sortCol === 'teamSize'" x-text="sortDir === 1 ? '\u25B2' : '\u25BC'" class="text-xs ml-0.5"></span>
               </th>
@@ -145,6 +136,15 @@
               </th>
               <th class="px-1.5 py-1 text-left text-claude-gray cursor-pointer hover:text-claude-orange border border-claude-border whitespace-nowrap hidden lg:table-cell"
                 @click="sortBy('ycPartner')">YC Partner<span x-show="sortCol === 'ycPartner'" x-text="sortDir === 1 ? '\u25B2' : '\u25BC'" class="text-xs ml-0.5"></span>
+              </th>
+              <template x-for="p in personas" :key="p.abbr">
+                <th class="px-1.5 py-1 text-center text-claude-gray cursor-pointer hover:text-claude-orange w-10 border border-claude-border whitespace-nowrap hidden sm:table-cell"
+                  @click="sortBy(p.abbr)"
+                  :title="p.fullName"><span x-text="p.abbr"></span><span x-show="sortCol === p.abbr" x-text="sortDir === 1 ? '\u25B2' : '\u25BC'" class="text-xs ml-0.5"></span>
+                </th>
+              </template>
+              <th class="px-1.5 py-1 text-center text-claude-gray cursor-pointer hover:text-claude-orange w-12 border border-claude-border whitespace-nowrap"
+                @click="sortBy('avg')">Avg<span x-show="sortCol === 'avg'" x-text="sortDir === 1 ? '\u25B2' : '\u25BC'" class="text-xs ml-0.5"></span>
               </th>
             </tr>
           </thead>
@@ -163,6 +163,12 @@
                   </div>
                   <div class="text-xs text-claude-dim truncate max-w-[100px] xs:max-w-[150px] sm:max-w-xs md:max-w-md hidden xs:block" x-text="row.oneLiner"></div>
                 </td>
+                <td class="px-1.5 py-1 text-center tabular-nums text-claude-dim border border-claude-border"
+                  x-text="row.teamSize != null ? row.teamSize : '-'"></td>
+                <td class="px-1.5 py-1 text-center tabular-nums text-claude-dim border border-claude-border"
+                  x-text="row.revenue != null ? row.revenue : '-'"></td>
+                <td class="px-1.5 py-1 text-claude-dim border border-claude-border hidden lg:table-cell truncate max-w-[120px]"
+                  x-text="row.ycPartner || '-'"></td>
                 <template x-for="p in personas" :key="p.abbr">
                   <td class="px-1.5 py-1 text-center tabular-nums border border-claude-border hidden sm:table-cell"
                     :class="tierColor(row.tiers[p.abbr])"
@@ -171,12 +177,6 @@
                 <td class="px-1.5 py-1 text-center font-bold tabular-nums border border-claude-border"
                   :class="avgColor(row.avg)"
                   x-text="row.avg != null ? row.avg.toFixed(2) : '-'"></td>
-                <td class="px-1.5 py-1 text-center tabular-nums text-claude-dim border border-claude-border"
-                  x-text="row.teamSize != null ? row.teamSize : '-'"></td>
-                <td class="px-1.5 py-1 text-center tabular-nums text-claude-dim border border-claude-border"
-                  x-text="row.revenue != null ? row.revenue : '-'"></td>
-                <td class="px-1.5 py-1 text-claude-dim border border-claude-border hidden lg:table-cell"
-                  x-text="row.ycPartner || '-'"></td>
               </tr>
               <tr class="sm:hidden border-b border-claude-border cursor-pointer transition-colors mobile-scores-row"
                 @click="row.slug && navigate('company/' + row.slug)">

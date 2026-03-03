@@ -1,6 +1,6 @@
 ﻿# Sequence Markets
 
-> Smarter and faster trade execution for digital assets
+> Execution layer for fragmented digital-asset markets.
 
 | Field | Value |
 |-------|-------|
@@ -11,103 +11,110 @@
 | Team Size | 5 |
 | Location | New York, NY, USA |
 | Tags | Fintech, AI, Cryptocurrency |
+| YC Partner | Brad Flora |
+| Emails | team@sequencemkts.com |
 
 ## The Idea
 
-**Problem:** Institutional and active investors trading digital assets face fragmented liquidity across dozens of exchanges, leading to poor execution quality — higher slippage, suboptimal pricing, and unreliable fills. Currently, many firms either route manually across venues or use one of a small number of expensive incumbent platforms (Talos, FalconX, CoinRoutes) built for the largest institutions. The company website describes the problem as achieving "best execution for tokenized assets and the world of tokenization" (sequencemkts.com).
+**Problem:** Digital-asset liquidity is fragmented across centralized exchanges (e.g., Coinbase, Binance, Kraken) and decentralized venues (Uniswap, dYdX, etc.). Active traders—both institutional and retail—face inconsistent execution outcomes (price slippage, partial fills) and operational complexity when attempting to access liquidity across multiple venues simultaneously. Today, traders either manually manage accounts on multiple exchanges, use incumbent institutional platforms like Talos or FalconX (which require enterprise-scale commitments), or accept suboptimal execution on a single venue.
 
-**Approach:** Sequence Markets builds a non-custodial execution layer that aggregates liquidity from multiple exchanges and uses AI-powered smart order routing to find optimal execution paths. The platform claims access to "$15B+ liquidity" across connected venues (sequencemkts.com). Key technical features include sub-millisecond latency execution, real-time market data, transaction cost analysis (TCA), and best execution reporting. The non-custodial architecture means the company never takes custody of client assets and instead integrates with existing brokers, exchanges, and custodial platforms as a technology layer (YC company page).
+**Approach:** Sequence Markets provides smart order routing and liquidity aggregation infrastructure that routes trades across multiple centralized and decentralized venues to achieve best execution. The platform claims access to $15B+ in aggregated liquidity, sub-millisecond execution latency, and AI-powered routing decisions (company website). The architecture is non-custodial—Sequence does not hold client assets—and integrates with existing brokers, exchanges, and custodial platforms (YC company page). The company's LinkedIn announcement describes it as "the fastest and smartest trade execution infrastructure for digital asset markets" (LinkedIn company post, Dec 2025).
 
-**Differentiation:** Compared to incumbents like Talos ($1.5B valuation, full-stack institutional infrastructure) and FalconX ($8B valuation, prime brokerage bundled with execution), Sequence Markets positions itself as a focused, venue-neutral execution technology provider rather than a full prime brokerage or custodial platform. Relative to CoinRoutes (which holds a patent on smart order routing technology — CoinDesk, Mar 2023), Sequence Markets emphasizes AI-powered routing decisions and tokenized asset coverage. The non-custodial, broker-agnostic integration model differentiates from vertically integrated platforms that bundle custody, credit, and execution.
+**Differentiation:** Compared to Talos ($196M raised, $1.5B valuation), which serves large institutions with full trading lifecycle coverage, Sequence Markets targets a broader audience including both retail and institutional traders with a "controlled rollouts, quality over quantity" approach (YC company page). Compared to CoinRoutes ($19–35M raised), which provides client-deployed SOR as SaaS, Sequence appears to offer a hosted execution layer. Compared to 1inch (~$190M raised), which aggregates only decentralized venues, Sequence routes across both centralized and decentralized markets. Compared to FalconX ($430M raised, $8B valuation), which bundles prime brokerage and credit services, Sequence focuses specifically on the execution layer.
 
-**Business Model:** No public pricing page was found on the company website. [Inferred]: The most likely monetization path is per-trade execution fees (basis points on notional volume) or a SaaS subscription for platform access, consistent with how CoinRoutes and Talos charge institutional clients.
+**Business Model:** No pricing page or pricing details are publicly available. [Inferred]: The most likely monetization path is either per-trade execution fees (basis points on routed volume), a SaaS subscription for API access, or a hybrid of both—consistent with how CoinRoutes and Talos monetize.
 
-**TAM/SAM:** The Digital Asset Trading Platform Market was valued at $25.01B in 2024 and is projected to reach $155.85B by 2032 at approximately 26% CAGR (Market.us via search snippet). A separate estimate values the Crypto Trading Platform Market at $33.48B in 2025, projected to reach $58.36B by 2029 at 14.9% CAGR (Coherent Market Insights via search snippet). The serviceable segment — institutional and active-investor execution infrastructure specifically — would be a subset of these broader figures. No public SAM estimate specific to execution-layer technology was found.
+**TAM/SAM:** The global cryptocurrency exchange market was valued at $41.41B in 2025 and is projected to reach $211.57B by 2033 at a 22.6% CAGR (SNS Insider, 2025 via search snippet). A separate estimate sizes the global cryptocurrency exchanges market at $48.41B in 2025, growing to $122.63B by 2032 (Coherent Market Insights via search snippet). No public TAM/SAM data found specific to the "execution infrastructure" sub-segment. [Inferred]: The serviceable market is a fraction of total exchange revenue—specifically, the execution/routing technology spend by active traders and institutions, which would be materially smaller than the overall exchange market.
 
-**GTM / Distribution:** [Inferred]: The most likely distribution path is direct sales to institutional clients (hedge funds, trading firms, asset managers) and integration partnerships with existing brokers and custodial platforms. The company description explicitly mentions integration with "existing brokers, exchanges and custodial platforms" as a go-to-market wedge, suggesting a B2B2B model alongside direct institutional sales.
+**GTM / Distribution:** The company states a "controlled rollouts, quality over quantity" approach and is "open to retail and institutional traders" (YC company page). [Inferred]: The most likely initial distribution path is direct onboarding of crypto-native trading firms and active individual traders, possibly via API integrations, expanding to institutional accounts as the product matures. The non-custodial, integration-friendly architecture suggests a B2B infrastructure play rather than a consumer-facing product.
 
 ## Defensibility
 
-The company's website claims sub-millisecond latency and AI-powered routing, suggesting proprietary execution algorithms and infrastructure as potential technical moats. Access to $15B+ aggregated liquidity across venues represents an integration network that grows more valuable with each connected venue. Transaction cost analysis data accumulated over time could create a data advantage for improving routing decisions.
+The company claims sub-millisecond execution latency and AI-powered routing optimization (company website), which implies proprietary routing algorithms. Non-custodial architecture and multi-venue integration require maintaining live connectivity to numerous exchanges and DEXs, which creates incremental engineering complexity as the venue count grows.
 
-No patents, published research, or open-source repositories were found associated with the company.
+[Inferred]: Potential moat could develop via (1) proprietary execution data that improves routing quality over time (data flywheel), (2) the operational complexity of maintaining integrations across a growing number of venues, and (3) switching costs once traders integrate Sequence into their trading workflows. However, none of these are proven at this stage.
 
-**Market structure:** Incumbents like FalconX and Talos have expanded into full prime brokerage (custody, credit, clearing) — a vertical integration that may create business model conflict with offering a lightweight, non-custodial execution-only layer. Banks and exchanges entering digital assets are building proprietary execution stacks (e.g., TMX's own digital asset initiatives) but may prefer to license neutral third-party routing technology to avoid conflicts of interest with their own order flow. [Inferred]: The structural barrier for incumbents copying this approach is that full-service prime brokers (FalconX, Talos) face cannibalization risk if they unbundle execution-only technology at lower price points, as it would undermine their higher-margin bundled offerings.
+**Market structure:** Incumbent institutional platforms (Talos, FalconX) serve large institutions with full-stack offerings (prime brokerage, credit, custody integration). [Inferred]: These incumbents may face difficulty serving smaller active traders and retail users due to high minimum account sizes and enterprise sales cycles, creating a gap that Sequence could exploit from below. However, no structural barrier prevents these incumbents from moving downmarket.
 
-**Commoditization risk:** Smart order routing and liquidity aggregation are well-understood concepts in traditional equities (e.g., Virtu, Citadel Securities) and several crypto-specific competitors already exist (CoinRoutes holds a patent on SOR — CoinDesk, Mar 2023). The AI differentiation claim is difficult to evaluate without public benchmarks. New entrants with sufficient engineering talent could build comparable routing technology, though latency optimization and venue integrations require non-trivial infrastructure investment.
+**Commoditization risk:** Smart order routing is a well-understood concept from traditional equities markets. Talos, CoinRoutes, FalconX, and 1inch all offer forms of multi-venue routing. The barrier to building basic SOR is moderate—the differentiation lies in routing quality, latency, venue coverage, and reliability under stress. A well-funded competitor or exchange could build comparable infrastructure.
 
 ## Market & Traction
 
 **Traction signals:**
-- LinkedIn company page: 368 followers (as of Dec 4, 2025 — LinkedIn post)
-- LinkedIn YC W26 announcement post: 87 likes, 13 comments (Dec 4, 2025 — LinkedIn)
-- Twitter/X: @SequenceMarkets handle identified on company website; follower count not retrievable due to JavaScript rendering
-- Telegram: sequencemarkets channel listed on company website; member count not publicly available
-- Website claims "$15B+ liquidity" accessible through the platform (sequencemkts.com)
-- No Product Hunt listing found
-- No press coverage in named publications found
+- Y Combinator Winter 2026 batch member (YC company page)
+- Company LinkedIn page: 451 followers (LinkedIn company post, Dec 2025)
+- Peter Bai's LinkedIn announcement of YC acceptance: 240 likes, 22 comments (LinkedIn post, Jan 7, 2026)
+- Company LinkedIn YC announcement: 87 likes, 13 comments (LinkedIn company post, Dec 2025)
+- Peter Bai LinkedIn followers: 3,067 (LinkedIn post, Jan 2026)
+- Twitter/X handle: @sequencemarkets (follower count not retrievable due to JavaScript rendering)
+- LinkedIn company page: linkedin.com/company/sequence-markets
+- No Product Hunt launch found
+- No Discord/Slack community found
 - No public revenue or user count data found
-- No app store listings or Chrome extension found
-- 0 job openings listed on YC profile (YC company page)
+- No app store presence found
+- Website claims $15B+ aggregated liquidity access (company website)
+- Not currently hiring (YC company page)
 
 **Competitive landscape:**
 
-| Competitor | Funding | Key Differentiator vs. Sequence Markets |
-|---|---|---|
-| **Talos** | ~$150M raised, $1.5B valuation (Robinhood investment, Jan 2026 — CoinDesk) | Full institutional infrastructure including OMS/EMS, settlement, and recently acquired Coin Metrics for market data; broader scope beyond execution |
-| **FalconX** | ~$430–477M raised, $8B valuation (Series D, Jun 2022 — Crunchbase via search snippet) | Full prime brokerage with credit, custody, and derivatives; recently acquired 21Shares (SiliconAngle, Oct 2025) |
-| **CoinRoutes** | ~$35M raised (Series B $16M, Mar 2022 — GlobeNewsWire) | Patented smart order routing technology (CoinDesk, Mar 2023); algorithmic trading focus; integrated by Wintermute (CoinDesk, Apr 2023) |
-| **Wyden** | ~$28.4M raised (Series B CHF 14.5M, Nov 2024 — Crypto Valley Journal) | European institutional focus; sell-side infrastructure for banks and brokers; plans to onboard 20+ banks/brokers in 2025 |
-| **sFOX** | ~$22.8M raised (Series A — sFOX blog) | $600B+ transaction volume processed (Morningstar/PRNewswire, Oct 2025); sFOX Connect API platform for embedding crypto trading |
+| Competitor | Funding | Revenue/ARR | Key Differentiator vs. Sequence |
+|---|---|---|---|
+| **Talos** | $196M raised, $1.5B valuation (CoinDesk, Jan 2026) | Revenue unknown; serves clients representing ~$21T AUM (Talos website via search snippet) | Full trading lifecycle platform (pre-trade, execution, settlement) for large institutions; won Best Quantitative Trading Technology Provider 2025 (Hedgeweek) |
+| **CoinRoutes** | $19–35M raised, Series B (GlobeNewsWire, Mar 2022) | Revenue unknown | Client-deployed SOR; SaaS model; operational since 2017; used by Wintermute (CoinDesk, Apr 2023) |
+| **FalconX** | $430M raised, $8B valuation (FalconX newsroom) | Revenue unknown; reported 30x YoY revenue growth at Series C (FalconX newsroom, Aug 2021) | Full prime brokerage + credit services bundled with execution; institutional-only focus |
+| **1inch** | ~$190M raised (Binance Labs, Pantera Capital) | Revenue unknown | DeFi-only DEX aggregator; decentralized protocol with governance token; no centralized venue routing |
+| **Wintermute** | $56.8M raised, Series C (Tracxn) | $1.05B revenue in 2021 (CB Insights via search snippet); $5B+ daily trading volume (Tracxn via search snippet) | Market maker, not execution infrastructure; provides liquidity rather than routing |
 
-**Why now:** Several specific catalysts have converged: (1) The EU's MiCA regulation became fully operational across member states in mid-2024, imposing best execution obligations on crypto-asset service providers analogous to MiFID II requirements for traditional securities (Chainalysis, 2025 via search snippet); (2) Tokenization of real-world assets is accelerating, with BCG estimating $16 trillion in tokenized illiquid assets by 2030 (BCG, 2024 via search snippet), creating demand for execution infrastructure that spans both native crypto and tokenized traditional assets; (3) Institutional adoption is accelerating — Robinhood's investment in Talos at $1.5B valuation in January 2026 and Y Combinator's announcement that it would accept stablecoin payments for its funding starting Spring 2026 (Fortune, Feb 2026) both signal deepening institutional commitment. [Inferred]: The convergence of regulatory best-execution mandates and asset tokenization creates a structural need for specialized execution technology that can route orders across both crypto-native and tokenized-asset venues.
+**Why now:** [Inferred]: Several catalysts have converged: (1) the proliferation of both centralized and decentralized trading venues has accelerated fragmentation, making multi-venue routing increasingly valuable; (2) institutional adoption of digital assets has grown, with Talos's recent $1.5B valuation and Robinhood's investment signaling mainstream institutional demand for execution infrastructure (CoinDesk, Jan 2026); (3) regulatory clarity in the U.S. has progressed, with stablecoins shifting from a crypto trading tool to operational settlement rails (Crypto.com 2025 Year Review via search snippet); (4) the rise of tokenized real-world assets creates new execution needs beyond traditional crypto tokens.
 
 ## Founders & Team
 
-**Muhammad Awan** — Co-founder
-- Located in Mississauga, Ontario, Canada (LinkedIn via search snippet)
-- Connected to University of Waterloo (Waterloo Quant Club — executive recruitment role) (LinkedIn via search snippet)
-- Software development background; incoming Software Engineering Intern at Databricks, Mountain View (LinkedIn via search snippet)
-- Twitter/X: No public account confirmed for the correct individual
-- LinkedIn: linkedin.com/in/muhammad-awan0 — 500+ connections (LinkedIn via search snippet)
-- GitHub: No public repos found associated with Sequence Markets
-
 **Peter Bai** — Co-founder
-- Education: Western University — Ivey HBA (Honours Business Administration), preceded by BMOS (Management and Organizational Studies) degree (Ivey HBA blog, Nov 2025)
-- Professional experience: TMX Group (Toronto Stock Exchange); University Pension Plan Ontario — private investments and macro trading for a fund managing over $12.8B (Ivey HBA blog, Nov 2025)
-- Leadership: Co-President of Western AI (Western University's largest tech club); launched DataQuest Hackathon (36-hour ML competition); organized AI Career Fair; presented research at CUCAI (Canada's top undergraduate AI conference) (Ivey HBA blog, Nov 2025)
-- Focus areas: Quantitative finance, market microstructure, execution quality (Ivey HBA blog, Nov 2025)
-- Twitter/X: No public account found
-- LinkedIn: linkedin.com/in/peter-bai — 500+ connections, Greater Toronto Area (LinkedIn via search snippet)
+- Education: Western University, BMOS (Management and Organizational Studies); Ivey Business School HBA (Honours Business Administration) (Ivey HBA blog, Nov 2025)
+- Previously: TMX Group (Toronto Stock Exchange) — worked on private investments and macro trading; University Pension Plan Ontario — macro trading for a fund managing over $12.8B (Ivey HBA blog, Nov 2025)
+- Co-President of Western AI (largest tech club on campus) — led teams that built AI projects, published research, presented at CUCAI (Canada's top undergraduate AI conference); launched DataQuest Hackathon and Career Fair (Ivey HBA blog, Nov 2025)
+- Focus: quantitative finance, market microstructure, and execution quality (Ivey HBA blog, Nov 2025)
+- Twitter/X: No public account confirmed for Sequence Markets context
+- LinkedIn: linkedin.com/in/peter-bai/ — 3,067 followers (LinkedIn post, Jan 2026)
 - GitHub: No public repos found
 
-**Co-founder relationship:** Both founders are based in the Greater Toronto Area (Mississauga and GTA respectively). Peter Bai attended Western University and Muhammad Awan is connected to the University of Waterloo; no shared employer or university overlap was identified from available sources. No public data on co-founder history beyond this.
+**Muhammad Awan** — Co-founder
+- Located in Mississauga, Ontario, Canada (LinkedIn search result)
+- LinkedIn: linkedin.com/in/muhammad-awan0/ — 500+ connections (LinkedIn search result)
+- YC profile tagline: "I like building cool projects" (YC company page)
+- Education: No public data found
+- Prior companies: No public data found
+- Twitter/X: No public account found
+- GitHub: No public repos confirmed (multiple "Muhammad Awan" accounts exist on GitHub; none confirmed as this founder)
 
-**Founder-market fit:** Peter Bai has direct experience at TMX Group (Canada's primary stock exchange operator) and managed investments at a $12.8B pension fund, providing domain expertise in market microstructure and execution quality — the core problem Sequence Markets addresses. His academic work through Western AI and CUCAI connects to the AI-powered routing component. Muhammad Awan brings software engineering capabilities, with a background connected to quantitative finance through the Waterloo Quant Club and an incoming role at Databricks (a data infrastructure company). No advisors, board members, or notable angel investors were identified in public sources beyond YC partner Brad Flora (YC company page).
+**Co-founder relationship:** Both founders appear to be based in the Ontario, Canada area (Peter Bai at Western University/Ivey in London, ON; Muhammad Awan in Mississauga, ON). Peter Bai's involvement with Western AI and Muhammad Awan's proximity to the Greater Toronto Area suggest potential overlap through Ontario's tech or university ecosystem, but no specific shared employer or institution is confirmed from public data.
+
+**Founder-market fit:** Peter Bai has direct experience in market microstructure and execution quality from roles at TMX Group and University Pension Plan Ontario (managing $12.8B), which maps directly to the problem Sequence Markets is solving. His AI leadership at Western AI aligns with the company's AI-powered routing approach. Muhammad Awan's specific technical background is not publicly documented. No advisors, board members, or notable investors beyond YC have been publicly identified.
 
 ## Key Risks
 
-**Patent risk from CoinRoutes:** CoinRoutes holds a granted patent for smart order routing in crypto markets (CoinDesk, Mar 2023). Depending on the patent's claims scope, Sequence Markets' routing technology could face IP challenges or require design-arounds. Mitigation: the specific claims of the patent are not publicly analyzed, and Sequence Markets' AI-powered approach may differ sufficiently.
+**Well-funded incumbent competition:** Talos ($196M raised, $1.5B valuation), FalconX ($430M raised, $8B valuation), and CoinRoutes (operational since 2017) all provide multi-venue execution infrastructure for digital assets. These companies have established exchange partnerships, regulatory relationships, and institutional client bases that Sequence would need to compete against or differentiate from.
 
-**Incumbent platform expansion:** Talos raised $45M at a $1.5B valuation in January 2026 with Robinhood as a strategic investor (CoinDesk, Jan 2026), and has been acquiring data companies (Coin Metrics for $100M+). FalconX acquired 21Shares in October 2025 (SiliconAngle). These incumbents are rapidly expanding their capabilities, potentially compressing the market opportunity for standalone execution layers.
+**Regulatory and licensing uncertainty:** Operating execution infrastructure that routes orders across multiple exchanges may trigger broker-dealer, ATS, or money transmission licensing requirements depending on the jurisdiction and how the service handles order flow. The non-custodial architecture mitigates some risk, but regulatory classification of execution-layer services remains evolving.
 
-**Brand disambiguation:** Multiple companies use "Sequence" in the crypto/web3 space, including 0xSequence (a well-established web3 wallet/marketplace infrastructure company with significant GitHub presence and social following). This creates potential brand confusion in the target market. The company uses the domain sequencemkts.com rather than a primary "sequence" domain.
+**Location discrepancy:** The YC page lists New York, NY as the company location, while the company website lists Toronto, Ontario, Canada, and both founders appear to be based in Ontario. This may reflect a recent relocation for YC or a dual presence, but the inconsistency warrants clarification.
 
-**Regulatory uncertainty in target market:** The company targets institutions requiring best execution, but crypto best-execution standards are still evolving in the US (SEC guidance on digital asset trading remains in flux — SEC written submission, Dec 2025). A shift toward mandating internalization or specific execution venues could undermine the value of independent smart order routing.
+**Venue integration dependency:** The platform's value depends on maintaining live, reliable connections to numerous centralized and decentralized venues. Exchange API changes, rate limits, downtime, or access revocations could degrade execution quality. Each venue integration represents ongoing maintenance overhead.
 
-**Founder experience relative to infrastructure complexity:** Building sub-millisecond latency execution infrastructure for institutional clients is technically demanding. Both founders appear to be early-career (undergraduate/recent graduate stage based on available data). The team of 5 is building against competitors with hundreds of engineers. Mitigation: YC W26 acceptance provides mentorship and network access; Peter Bai's TMX Group and pension fund experience provides relevant domain grounding.
+**Brand disambiguation:** The name "Sequence" is shared by multiple companies across fintech and tech (Sequence HQ, Sequence Commerce, Sequence Bio, etc.), which could create SEO and brand confusion challenges.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $25.01B digital asset trading platform market in 2024, projected $155.85B by 2032 at ~26% CAGR (Market.us via search snippet) |
-| SAM | No public data found for execution-layer-specific segment |
-| Traction | 368 LinkedIn followers (Dec 2025, LinkedIn post); $15B+ liquidity claim on website (sequencemkts.com); no public user or revenue metrics |
+| TAM | Cryptocurrency exchange market: $41.41B in 2025, projected $211.57B by 2033 at 22.6% CAGR (SNS Insider via search snippet); alternative estimate: $48.41B in 2025, $122.63B by 2032 (Coherent Market Insights via search snippet) |
+| SAM | No public data found for the execution infrastructure sub-segment specifically |
+| Traction | YC W26 batch member; LinkedIn company page: 451 followers (Dec 2025); website claims $15B+ aggregated liquidity access; no public user count or revenue data found |
 | Revenue Signal | No public data found |
-| Founders | Muhammad Awan (Co-founder): University of Waterloo-affiliated, software engineering, incoming Databricks intern. Peter Bai (Co-founder): Ivey HBA, ex-TMX Group, ex-University Pension Plan Ontario ($12.8B AUM), quantitative finance/market microstructure |
-| Competitors | Talos (~$150M raised, $1.5B valuation, revenue unknown, full institutional infra vs. execution-only); FalconX (~$430M+ raised, $8B valuation, revenue unknown, prime brokerage bundle vs. non-custodial); CoinRoutes (~$35M raised, revenue unknown, patented SOR vs. AI-powered routing); Wyden (~$28.4M raised, revenue unknown, European bank/broker focus vs. US/global); sFOX (~$22.8M raised, $600B+ volume processed, API platform vs. execution layer) |
-| Moat Signals | AI-powered routing algorithms (claimed, not benchmarked); $15B+ aggregated liquidity network (website claim); non-custodial architecture as differentiation |
-| Risk Factors | CoinRoutes SOR patent exposure, rapid incumbent expansion (Talos/FalconX acquisitions), brand confusion with 0xSequence |
-| Founder Reach | Muhammad Awan: Twitter not confirmed, LinkedIn 500+, GitHub not found. Peter Bai: Twitter not found, LinkedIn 500+, GitHub not found |
-| Distribution Signals | No public data found (no Product Hunt listing, no app store presence, no press coverage identified) |
+| Founders | Peter Bai (Co-founder): Ivey HBA, TMX Group, University Pension Plan Ontario ($12.8B AUM), Western AI Co-President. Muhammad Awan (Co-founder): limited public background data |
+| Competitors | Talos ($196M raised, $1.5B valuation, revenue unknown, full-lifecycle institutional platform); CoinRoutes ($19–35M raised, revenue unknown, client-deployed SOR SaaS since 2017); FalconX ($430M raised, $8B valuation, revenue unknown, prime brokerage + execution); 1inch (~$190M raised, revenue unknown, DeFi-only DEX aggregator); Wintermute ($56.8M raised, $1.05B revenue 2021, market maker not SOR) |
+| Moat Signals | Proprietary AI-powered routing algorithms claimed; non-custodial multi-venue integration complexity; potential data flywheel from execution data (unproven) |
+| Risk Factors | Well-funded incumbent competition, regulatory/licensing uncertainty, venue integration dependency |
+| Founder Reach | Peter Bai: LinkedIn 3,067 followers; Muhammad Awan: LinkedIn 500+ connections; Company Twitter @sequencemarkets (count not retrievable) |
+| Distribution Signals | No Product Hunt launch found; no app store presence; no Discord/Slack community found; LinkedIn company page with 451 followers (Dec 2025) |
+| Emails | team@sequencemkts.com |

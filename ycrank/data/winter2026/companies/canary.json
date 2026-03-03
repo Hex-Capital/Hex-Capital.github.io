@@ -9,7 +9,9 @@
     "industry": "B2B / B2B -> Engineering, Product and Design",
     "team_size": "4",
     "location": "San Francisco, CA, USA",
-    "tags": "Artificial Intelligence, Developer Tools, SaaS, B2B"
+    "tags": "Artificial Intelligence, Developer Tools, SaaS, B2B",
+    "yc_partner": "Jon Xu",
+    "emails": "founders@runcanary.ai"
   },
   "tags": [
     "Artificial Intelligence",
@@ -18,48 +20,48 @@
     "B2B"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T05:51:55.505Z",
+  "memoGeneratedAt": "2026-03-03T23:01:27.477Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 30,
+      "score": 29,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 45,
-      "tier": "Neutral"
+      "score": 44,
+      "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 52,
+      "score": 49,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 55,
+      "score": 51,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 33,
+      "score": 35,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 28,
+      "score": 26,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 45,
-      "tier": "Neutral"
+      "score": 44,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 30,
-    "EG": 45,
-    "NR": 52,
-    "PG": 55,
-    "PT": 33,
-    "SL": 28,
-    "VK": 45
+    "CB": 29,
+    "EG": 44,
+    "NR": 49,
+    "PG": 51,
+    "PT": 35,
+    "SL": 26,
+    "VK": 44
   },
-  "consolidatedAvg": 41.14,
-  "consolidatedRank": 78,
+  "consolidatedAvg": 39.71,
+  "consolidatedRank": 93,
   "paths": {
     "memo": "winter2026/memos/canary.md",
     "evals": {

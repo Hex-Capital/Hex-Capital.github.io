@@ -9,55 +9,57 @@
     "industry": "B2B / B2B -> Security",
     "team_size": "3",
     "location": "San Francisco, CA, USA",
-    "tags": "Reinforcement Learning, Cybersecurity"
+    "tags": "Reinforcement Learning, Cybersecurity",
+    "yc_partner": "Gustaf Alstromer",
+    "emails": "founders@hex.co"
   },
   "tags": [
     "Reinforcement Learning",
     "Cybersecurity"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T05:55:11.364Z",
+  "memoGeneratedAt": "2026-03-03T23:08:29.461Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 30,
+      "score": 40,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 28,
+      "score": 37,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 33,
-      "tier": "Pass"
+      "score": 48,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 30,
-      "tier": "Pass"
+      "score": 51,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 27,
+      "score": 32,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 23,
-      "tier": "Strong Pass"
+      "score": 28,
+      "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 33,
-      "tier": "Pass"
+      "score": 45,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 30,
-    "EG": 28,
-    "NR": 33,
-    "PG": 30,
-    "PT": 27,
-    "SL": 23,
-    "VK": 33
+    "CB": 40,
+    "EG": 37,
+    "NR": 48,
+    "PG": 51,
+    "PT": 32,
+    "SL": 28,
+    "VK": 45
   },
-  "consolidatedAvg": 29.14,
-  "consolidatedRank": 185,
+  "consolidatedAvg": 40.14,
+  "consolidatedRank": 88,
   "paths": {
     "memo": "winter2026/memos/hex-security.md",
     "evals": {

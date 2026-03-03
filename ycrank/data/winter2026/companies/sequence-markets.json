@@ -1,7 +1,7 @@
 {
   "slug": "sequence-markets",
   "name": "Sequence Markets",
-  "oneLiner": "Smarter and faster trade execution for digital assets",
+  "oneLiner": "Execution layer for fragmented digital-asset markets.",
   "metadata": {
     "website": "https://sequencemkts.com/",
     "yc_page": "https://www.ycombinator.com/companies/sequence-markets",
@@ -9,7 +9,9 @@
     "industry": "Fintech / Fintech",
     "team_size": "5",
     "location": "New York, NY, USA",
-    "tags": "Fintech, AI, Cryptocurrency"
+    "tags": "Fintech, AI, Cryptocurrency",
+    "yc_partner": "Brad Flora",
+    "emails": "team@sequencemkts.com"
   },
   "tags": [
     "Fintech",
@@ -17,22 +19,22 @@
     "Cryptocurrency"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T05:50:23.420Z",
+  "memoGeneratedAt": "2026-03-03T23:00:38.649Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 27,
+      "score": 28,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 40,
+      "score": 37,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 44,
+      "score": 42,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 31,
+      "score": 35,
       "tier": "Pass"
     },
     "peter-thiel": {
@@ -41,24 +43,24 @@
     },
     "sam-lessin": {
       "score": 27,
-      "tier": "Strong Pass"
+      "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 34,
+      "score": 37,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 27,
-    "EG": 40,
-    "NR": 44,
-    "PG": 31,
+    "CB": 28,
+    "EG": 37,
+    "NR": 42,
+    "PG": 35,
     "PT": 25,
     "SL": 27,
-    "VK": 34
+    "VK": 37
   },
-  "consolidatedAvg": 32.57,
-  "consolidatedRank": 160,
+  "consolidatedAvg": 33,
+  "consolidatedRank": 159,
   "paths": {
     "memo": "winter2026/memos/sequence-markets.md",
     "evals": {

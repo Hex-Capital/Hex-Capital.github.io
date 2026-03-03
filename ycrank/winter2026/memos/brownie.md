@@ -11,103 +11,103 @@
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
 | Tags | AIOps, Artificial Intelligence, Developer Tools |
+| YC Partner | Diana Hu |
+| Emails | founders@incidentfox.ai |
 
 ## The Idea
 
-**Problem:** Engineering teams face high-stakes production incidents that require rapid diagnosis and remediation. On-call engineers must manually query logs, metrics, traces, and deployment history across fragmented tooling, often under time pressure and at odd hours. Current AI SRE tools require months of setup to build integrations and configure for each team's specific infrastructure (IncidentFox website; YC page). The customer segment is engineering and SRE teams at companies running production infrastructure with observability stacks (Datadog, Grafana, Prometheus, etc.).
+**Problem:** Engineering teams running production systems face incident fatigue — alerts fire, on-call engineers context-switch into Slack, manually query logs, metrics, and deployment history across dozens of tools to identify root causes, then coordinate remediation. The current workflow is largely manual, requiring deep institutional knowledge of each company's unique infrastructure. Existing incident management platforms (PagerDuty, incident.io, Rootly, FireHydrant) orchestrate the human process but do not autonomously investigate or remediate. According to IncidentFox's website, "Most AI SREs don't work because they lack context about your specific systems and ask you to spend weeks building integrations" (incidentfox.ai).
 
-**Approach:** IncidentFox is an AI SRE agent that operates natively within Slack (with Microsoft Teams and Google Chat support). On setup, it analyzes the customer's codebase, Slack history, and past incidents to automatically discover and generate the integrations needed — no manual MCP server building required (YC page). During an incident, it queries logs, metrics, and deployment history to identify root causes, generates fix scripts, and presents them for human-in-the-loop approval before execution (IncidentFox website). The platform supports 300+ pre-built integrations and claims setup time under one day (YC page). It uses a multi-agent orchestration architecture, alert correlation (claiming 85-95% noise reduction), anomaly detection using Meta's Prophet algorithm, and RAPTOR-style hierarchical retrieval for processing large documents (GitHub README; HN post, Jan 2026).
+**Approach:** IncidentFox deploys an AI SRE agent that operates natively within Slack. It auto-discovers a team's infrastructure by analyzing codebases and past incidents, then automatically generates integrations with 40+ observability and infrastructure tools (Datadog, PagerDuty, AWS, Prometheus, Grafana, GitHub, Kubernetes, Elasticsearch, Sentry, Jira, Linear, and others) (incidentfox.ai). The agent performs autonomous alert triage by querying logs, metrics, and deployment history to identify root causes ("Auto-Investigation"), supports thread-based interactive follow-up where teams share screenshots and logs for deeper investigation, and offers one-click remediation with human-approved execution of fix scripts and full audit logging (incidentfox.ai). Credentials are isolated via a secure proxy so the agent never sees raw API keys, and execution is sandboxed (incidentfox.ai).
 
-**Differentiation:** Unlike established incident management platforms (incident.io, Rootly, FireHydrant) that primarily coordinate human workflows, IncidentFox focuses on autonomous investigation and root-cause analysis. Unlike Resolve AI which relies on external observability platforms, IncidentFox auto-discovers and generates integrations from the codebase itself (YC page). Unlike Cleric which operates as a read-only diagnosis layer, IncidentFox offers human-in-the-loop remediation with fix execution capabilities (IncidentFox website). The platform is open-source under Apache 2.0, contrasting with competitors like Resolve AI and incident.io which are proprietary (GitHub).
+**Differentiation:** Unlike incident management platforms such as incident.io, Rootly, and FireHydrant — which coordinate humans during incidents — IncidentFox acts as an autonomous investigative agent that performs the debugging itself. Compared to other AI SRE startups (Neubird, Cleric, Resolve, Causely), IncidentFox differentiates on two axes: (1) automatic integration discovery requiring no manual MCP server building, and (2) an open-source core (Apache 2.0) with self-host and on-prem deployment options, which is relevant for regulated industries (incidentfox.ai). The OSS approach is uncommon among AI SRE startups listed in the landscape survey by Bobby Tables (bobbytables.io).
 
-**Business Model:** No pricing page is publicly available. The website mentions SaaS, on-premise/VPC, and open-source self-hosting deployment options (IncidentFox website). The company is actively seeking 2 pilot partners for Q1 2026 (IncidentFox website). [Inferred]: Most likely monetization path is an open-core model with a free self-hosted tier and paid enterprise tiers adding multi-team RBAC, SSO/OIDC, compliance features, and managed hosting, based on the explicit differentiation between open-source and enterprise features in the GitHub README.
+**Business Model:** No pricing page is published. The website lists three deployment tiers: SaaS (hosted), On-Prem/VPC for regulated industries, and Self-Host (OSS open core) (incidentfox.ai). Enterprise features include SOC 2 compliance (audit in progress), SSO/OIDC, RBAC, and audit logs (YC page). The license is dual: Apache 2.0 for the core platform and Business Source License 1.1 for the security/enterprise layer, converting to Apache 2.0 on February 18, 2030 (GitHub repo). [Inferred]: Most likely monetization is an open-core model where the self-hosted core is free and enterprise features (SSO, RBAC, SOC 2, VPC deployment) are paid, following the pattern of companies like GitLab and PostHog.
 
-**TAM/SAM:** The AIOps market was estimated at $11.16 billion in 2025 with a 25.3% CAGR (Research and Markets, 2025 via search snippet). Alternative estimates range from $2.23 billion (Fortune Business Insights, 2025 via search snippet) to $17 billion (SkyQuest, 2025 via search snippet), reflecting different scope definitions. No SAM estimate specific to AI SRE agents was found.
+**TAM/SAM:** The global AIOps platform market was estimated at $14.60 billion in 2024 and is projected to reach $36.07 billion by 2030 at a 15.2% CAGR (Grand View Research, 2025 via search snippet). A narrower estimate from Research and Markets valued the AIOps market at $8.91 billion in 2024 growing to $11.16 billion in 2025 (Research and Markets, 2025 via search snippet). [Inferred]: The serviceable segment — AI-assisted incident investigation and remediation for engineering teams — is a subset of the broader AIOps market. No public SAM estimate specific to AI SRE tooling was found.
 
-**GTM / Distribution:** The company has two Show HN posts on Hacker News (Feb 2026 and Jan 2026) and an open-source GitHub repository as initial distribution channels. The website actively recruits pilot partners. [Inferred]: Most likely distribution path is bottom-up developer adoption via the open-source project and Slack integration, converting to paid enterprise tiers as teams scale, based on the Apache 2.0 licensing and Slack-native UX.
+**GTM / Distribution:** The website states the company is "Accepting 2 Pilot Partners for Q1" (incidentfox.ai), indicating an early-stage design-partner sales motion. A demo booking link via Calendly is available (YC page). The open-source GitHub repository (413 stars as of research date) provides a developer-led distribution channel. [Inferred]: The likely GTM path is bottom-up developer adoption via the OSS repo and Slack trial, converting design partners into paid enterprise accounts. The Slack-native interface reduces adoption friction by meeting SRE teams in their existing incident workflow.
 
 ## Defensibility
 
-The open-source repository (305 stars, 27 forks as of Feb 2026; GitHub) represents an early community signal. The platform's auto-discovery of customer infrastructure and learning from past incidents creates a per-customer data advantage — each deployment accumulates organizational context (codebase structure, incident history, team patterns) that would need to be rebuilt with a competitor (IncidentFox website). The 300+ pre-built integrations represent engineering effort that creates a breadth-of-coverage barrier (YC page). The OpenRag repository (34 stars; GitHub) demonstrates proprietary RAG techniques (74% Recall@10 on MultiHop-RAG benchmark) that underpin the retrieval system.
+The open-source repository (413 stars, 1,003 commits, Apache 2.0 core) creates community lock-in and a distribution moat if adoption scales (GitHub). The product's automatic learning of each customer's unique system architecture — codebases, past incidents, infrastructure topology — builds a customer-specific data advantage that deepens over time and increases switching costs. Credential isolation via secure proxy and sandboxed execution address enterprise security requirements that create compliance-driven switching costs once adopted.
 
-**Market structure:** Large observability incumbents (Datadog, PagerDuty) are adding AI SRE features to their existing platforms (Datadog's Bits AI, PagerDuty SRE Agents). However, these features are tied to their own data platforms — Datadog's Bits AI requires deep Datadog adoption, while IncidentFox integrates across multiple observability vendors (Dash0 comparison, 2026). [Inferred]: The structural barrier is that incumbents' AI SRE features serve as lock-in mechanisms for their core platforms, making vendor-agnostic investigation a difficult feature for them to prioritize, as it would reduce platform switching costs.
+**Market structure:** Incumbent incident management platforms (PagerDuty at $467.5M FY2025 revenue, incident.io at $400M valuation) have business models built around orchestrating human processes — status pages, on-call rotations, runbooks, and post-mortems. Building an autonomous AI agent that replaces portions of the human workflow risks cannibalizing their core product narrative (humans-in-the-loop incident management). PagerDuty charges extra for AI features layered on top of its existing platform (incident.io blog, 2026 via search snippet), suggesting a bolt-on rather than native AI architecture. [Inferred]: This architectural bolt-on approach may limit incumbents' ability to deliver deeply integrated autonomous investigation, creating a window for purpose-built AI SRE agents.
 
-**Commoditization risk:** The AI SRE space is crowded and rapidly growing. Well-funded startups (Resolve AI at $160M+, incident.io at $96M+) and incumbents (Datadog, PagerDuty, Microsoft Azure) are all building in this space. Open-source licensing means the codebase itself is replicable. The core LLM-based investigation capabilities use publicly available models and techniques. Differentiation depends on integration breadth, per-customer learning quality, and UX execution rather than proprietary technology.
+**Commoditization risk:** The AI SRE startup landscape is crowded. A December 2025 survey by Bobby Tables (bobbytables.io) identified at least 10 dedicated AI SRE startups including Neubird ($22.5M from M12), Cleric ($4.3M seed), Resolve, Causely, SRE.ai, Tierzero, Traversal, Phoebe, Vibranium Labs, and Wildmoose. Foundation model providers (OpenAI, Anthropic, Google) could enable any engineering team to build ad hoc investigation agents. The barrier to building a basic "query logs and summarize" agent is low; the barrier to building one that auto-discovers integrations, maintains customer-specific context across incidents, and executes remediation safely is higher.
 
 ## Market & Traction
 
 **Traction signals:**
-- GitHub: 305 stars, 27 forks, 943 commits, 4 contributors (github.com/incidentfox/incidentfox, Feb 2026)
-- Hacker News: Show HN post "Debug prod incidents without leaving Slack" — 3 points (HN, ~Feb 5, 2026); Show HN post "open-source AI SRE with log sampling and RAPTOR retrieval" — 1 point, 1 comment (~Jan 20, 2026)
-- GitHub organization: 9 followers (github.com/incidentfox, Feb 2026)
-- LinkedIn company page exists at linkedin.com/company/incidentfox; follower count not retrievable
-- Tracxn and PitchBook company profiles created (Tracxn, 2026; PitchBook, 2026)
-- Actively seeking 2 pilot partners for Q1 2026 (IncidentFox website)
+- GitHub: 413 stars, 43 forks, 1,003 commits on main branch (GitHub, at time of research)
+- Pilot status: "Accepting 2 Pilot Partners for Q1" (incidentfox.ai)
+- YC launch tweet by @ycombinator referencing @jimmyweiiiii and @LongYi1207 (X/Twitter)
+- Company Twitter/X: @incidentfox (handle confirmed; follower count not retrievable)
+- Company LinkedIn: https://www.linkedin.com/company/incidentfox/ (follower count not retrievable)
 - No Product Hunt launch found
-- No Twitter/X company account found
 - No press coverage in named publications found
-- No public revenue data found
+- No app store or Chrome Web Store presence
+- No Discord/Slack community member counts found
+- No revenue or paying customer data found publicly
 
 **Competitive landscape:**
 
-1. **Resolve AI** — $160M+ total raised, $1B valuation, ~$4M ARR (TechCrunch, Feb 2026; finsmes.com, Feb 2026). Founded by co-creators of OpenTelemetry with prior exits to Splunk and VMware. Multi-agent autonomous incident response. Key differentiator vs. IncidentFox: deeper autonomous remediation capabilities, significantly more funding, enterprise customer base, proprietary platform vs. IncidentFox's open-source approach.
+| Competitor | Funding | Revenue/ARR | Key Differentiator vs. IncidentFox |
+|---|---|---|---|
+| **PagerDuty** (public) | Public company | $467.5M revenue FY2025, $494M ARR (PagerDuty newsroom, 2025) | Full-stack operations platform with on-call, alerting, and automation; AI features are add-on rather than core; charges extra for AIOps |
+| **incident.io** | $96M+ total; $62M Series B at $400M valuation (TechCrunch, Apr 2025) | Revenue not disclosed; 250K+ incidents powered (incident.io blog) | Incident coordination and communication platform with AI bolt-on; founded by ex-Monzo engineers; strong in post-incident learning |
+| **Rootly** | $15.2M total; $12M Series A (TechCrunch, Aug 2023) | Revenue not disclosed | Slack-native incident management; AI-native architecture; strong in automated workflows and retrospectives |
+| **FireHydrant** | $32.5M total; $23M Series B (TechCrunch, Aug 2021) | Revenue not disclosed | Service catalog mapping services, dependencies, and ownership for context-aware incident response |
+| **Neubird** | $22.5M seed from M12/Microsoft (bobbytables.io, Dec 2025 via search snippet) | Revenue not disclosed | AI SRE with Microsoft backing; direct competitor in autonomous investigation |
 
-2. **incident.io** — $96M+ total raised, $400M valuation, $9M revenue (TechCrunch, Apr 2025; getlatka.com, 2025). $62M Series B led by Insight Partners. Full incident lifecycle management platform with AI SRE features added. Key differentiator vs. IncidentFox: broader incident workflow management (status pages, post-mortems, on-call scheduling) vs. IncidentFox's investigation-first focus.
-
-3. **Rootly** — $15.2M raised, Series A led by Renegade Partners and Google Gradient Ventures (TechCrunch, Aug 2023). AI-native incident management with root cause analysis and confidence scores. Key differentiator vs. IncidentFox: more mature product with 75,000+ incidents managed on-platform; optimized for post-incident analysis vs. IncidentFox's real-time investigation focus.
-
-4. **Cleric** — $9.8M seed raised, led by Vertex Ventures US (BusinessWire, Dec 2025). Self-learning AI SRE with alert-triggered diagnosis via Slack. Key differentiator vs. IncidentFox: read-only analysis layer (no remediation execution) vs. IncidentFox's human-in-the-loop fix execution.
-
-5. **NeuBird** — $44.5M raised across 2 seed rounds, led by M12/Microsoft (BusinessWire, Feb 2026). AI SRE agent with enterprise adoption in healthcare, banking, retail. Key differentiator vs. IncidentFox: enterprise-focused with Microsoft Azure integration and established vertical adoption vs. IncidentFox's open-source, vendor-agnostic approach.
-
-**Why now:** [Inferred]: The convergence of several factors in 2024-2025 created the opening for AI SRE tools: (1) LLM capabilities crossed the threshold needed for reliable multi-step reasoning across fragmented log and metric data, enabling investigation quality that was not possible with earlier ML approaches; (2) the OpenTelemetry standard reached broad adoption, creating a more uniform data surface for AI agents to work with across heterogeneous infrastructure; (3) engineering team sizes have contracted relative to infrastructure complexity, increasing on-call burden and creating urgency for automation. A blog post titled "Lots of AI SRE, no AI incident management" (Surfing Complexity, Feb 2026) suggests the AI SRE category is in an early evaluation phase compared to AI coding tools which have reached adoption phase.
+**Why now:** [Inferred]: Several catalysts converged in 2024-2025: (1) Foundation model capability crossed a threshold where agents can reliably parse logs, correlate alerts, and reason about distributed systems — enabling autonomous investigation rather than mere summarization. (2) The MCP (Model Context Protocol) and tool-use paradigm matured, allowing AI agents to programmatically interact with dozens of infrastructure APIs. (3) The explosion of microservices and cloud-native architectures increased incident complexity beyond what on-call engineers can manually investigate in SLA windows. (4) incident.io's $62M Series B at a $400M valuation in April 2025 validated market appetite for modern incident tooling, while simultaneously signaling that the "coordinate humans" approach is being challenged by "automate the investigation" approaches.
 
 ## Founders & Team
 
 **Jimmy Wei (Chiehmin Wei)** — Co-founder & CEO
-- MS Computer Science, Cornell University (YC page)
-- Previously: Software Engineer at Roblox, building social communication features (in-experience calling for 100M+ DAU) (YC page)
-- Previously: Meta FAIR, working on multiparty conversational AI with published research (YC page)
-- Previously: CTO at a startup in Outlier Ventures' DeFi accelerator (YC page via search snippet)
-- Twitter/X: No public account found
-- LinkedIn: linkedin.com/in/chiehmin-wei/ — "IncidentFox" headline (LinkedIn via search snippet)
-- GitHub: github.com/chiehminwei (HN posts authored as "chiehminwei"); no public star count retrieved for personal repos
+- MS, Cornell University; BS, Bucknell University (LinkedIn via search snippet)
+- Previously: Software Engineer at Roblox, building social communication features (in-experience calling for 100M+ DAU) (incidentfox.ai, YC page)
+- Previously: Research at Meta FAIR on multiparty conversational AI, with published research (search snippet from ZoomInfo/LinkedIn)
+- Twitter/X: @jimmyweiiiii (referenced in YC launch tweet; follower count not retrievable)
+- LinkedIn: linkedin.com/in/chiehmin-wei/ (headline: "Software Engineer @ Roblox" at time of indexing)
+- GitHub: No public repos found under this name
 
 **Long Yi** — Co-founder & CTO
-- BS Computer Science, Neuroscience, and Business, Brandeis University (Class of 2023) (LinkedIn via search snippet)
-- Accepted to Harvard Business School MBA (2+2 program) (LinkedIn via search snippet)
-- Previously: Software Engineer on Stateful Infra team at Roblox, building database infrastructure supporting 100M+ DAU (YC page)
-- Twitter/X: No public account found
-- LinkedIn: linkedin.com/in/long-yi-b221b2183/ — "Software Programmer - Roblox" headline (LinkedIn via search snippet)
-- GitHub: No public repos found under personal account
+- BS Computer Science, Neuroscience, and Business, Brandeis University (class of 2023) (LinkedIn via search snippet)
+- Previously: Software Engineer at Roblox, building database infrastructure on the Stateful Infra team supporting 100M+ DAU (incidentfox.ai, YC page)
+- Experienced on-call SRE challenges firsthand at Roblox, which motivated founding IncidentFox (YC page)
+- Twitter/X: @LongYi1207 (referenced in YC launch tweet; follower count not retrievable)
+- LinkedIn: linkedin.com/in/long-yi-b221b2183/ (headline: "Software Programmer - Roblox" at time of indexing)
+- GitHub: No public repos found under this name
 
-**Co-founder relationship:** Both founders worked at Roblox prior to founding IncidentFox (YC page). The YC page describes Long Yi as having "experienced the chaos of on-call firsthand" at Roblox, suggesting direct shared experience with the problem domain.
+**Co-founder relationship:** Both founders worked at Roblox, with Jimmy on social communication features and Long on database infrastructure/SRE. Their overlapping tenure at Roblox is the visible shared connection.
 
-**Founder-market fit:** Both founders have direct experience operating infrastructure at Roblox-scale (100M+ DAU). Jimmy Wei's Meta FAIR background in conversational AI is relevant to building an LLM-powered agent that operates through chat interfaces. Long Yi's SRE and database infrastructure experience at Roblox provides firsthand domain expertise in the incident response workflow the product aims to automate. No advisors, board members, or notable investors beyond Y Combinator were identified in public sources.
+**Founder-market fit:** Both founders experienced large-scale production infrastructure at Roblox (100M+ DAU), giving them direct exposure to the on-call and incident response pain points their product addresses. Long Yi's SRE background on the Stateful Infra team provides domain-specific operational experience, while Jimmy Wei's AI research at Meta FAIR and conversational AI work provides the ML/agent engineering foundation. The combination of SRE domain expertise and AI research experience maps directly to the product's core challenge: building an AI agent that understands production systems.
 
 ## Key Risks
 
-**Crowded, well-funded competitive landscape:** At least five funded competitors are building AI SRE agents, with Resolve AI alone having raised $160M+ at a $1B valuation (TechCrunch, Feb 2026). Incumbents (Datadog, PagerDuty, Microsoft) are also shipping AI SRE features bundled with their existing platforms, creating distribution advantages IncidentFox cannot match at current scale.
+**Crowded AI SRE landscape:** At least 10 dedicated AI SRE startups were identified in a December 2025 landscape survey (bobbytables.io), several with significantly more funding — Neubird ($22.5M), Cleric ($4.3M) — and incumbent platforms (incident.io, PagerDuty) are adding AI capabilities. Differentiation via auto-generated integrations and OSS may not be durable if competitors adopt similar approaches.
 
-**Trust barrier for autonomous remediation:** Hacker News community feedback on IncidentFox's launch identified "the trust barrier" as a critical adoption obstacle — experienced on-call engineers prioritize verification over automation during high-stakes incidents and may resist ceding control to an AI agent (HN discussion, Jan 2026). This could limit adoption to pre-investigation and triage rather than the full investigation-to-remediation loop.
+**Incumbent platform expansion:** incident.io raised $62M at a $400M valuation in April 2025 specifically to build "AI agents that resolve incidents" (TechCrunch, Apr 2025). PagerDuty was named AIOps Platform of the Year in 2025 (search snippet). Well-funded incumbents with existing customer bases and integration ecosystems could replicate autonomous investigation features as add-ons to their established platforms.
 
-**Open-source monetization challenge:** The Apache 2.0 license permits unrestricted commercial use, forking, and self-hosting. Converting open-source users to paid enterprise customers is a well-documented challenge. With enterprise features (RBAC, SSO, compliance) as the primary upsell, larger competitors could bundle equivalent features into their platforms.
+**Enterprise trust barrier for autonomous remediation:** IncidentFox's "one-click remediation" feature requires customers to grant an AI agent write access to production infrastructure. Even with human-in-the-loop approval, sandboxed execution, and credential isolation, enterprises may adopt investigation-only use cases while resisting remediation authority — limiting the product's full value proposition and differentiation.
 
-**YC URL slug "brownie" suggests prior pivot:** The YC company page URL (ycombinator.com/companies/brownie) uses a different name than the current product, suggesting the team may have pivoted from a prior product. No public information was found about the "Brownie" product or any prior-product traction that would need to be separated from IncidentFox metrics.
+**Open-source monetization challenge:** The dual-license model (Apache 2.0 core + BSL 1.1 enterprise layer) must thread the needle between community adoption and revenue capture. If the open core is sufficiently capable, enterprise conversion rates may be low. The BSL 1.1 conversion date (February 18, 2030) means enterprise features become fully open in ~4 years, compressing the monetization window.
 
-**Pilot-stage product maturity:** The company is actively seeking its first 2 pilot partners for Q1 2026 (IncidentFox website), indicating the product has not yet achieved production deployment with paying customers. The Hacker News Show HN posts received minimal engagement (3 points and 1 point respectively), suggesting limited early developer awareness.
+**Pre-pilot stage with no public traction beyond GitHub stars:** The website indicates the company is still seeking its first two pilot partners ("Accepting 2 Pilot Partners for Q1"), meaning product-market fit is unvalidated. The 413 GitHub stars represent developer interest but not enterprise adoption or revenue.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $11.16B AIOps market (Research and Markets, 2025, 25.3% CAGR via search snippet); estimates range $2.2B–$17B depending on scope definition |
-| SAM | No public data found for AI SRE agent sub-segment |
-| Traction | 305 GitHub stars, 27 forks (github.com/incidentfox/incidentfox, Feb 2026); 2 Show HN posts (3 pts, 1 pt; Feb & Jan 2026); seeking 2 pilot partners Q1 2026 (website) |
-| Revenue Signal | No public data found; no pricing page; actively seeking pilot partners |
-| Founders | Jimmy Wei (CEO): Cornell MS CS, ex-Meta FAIR, ex-Roblox SWE. Long Yi (CTO): Brandeis BS CS/Neuro/Business, ex-Roblox Stateful Infra, HBS 2+2 admit |
-| Competitors | Resolve AI ($160M+ raised, ~$4M ARR, autonomous multi-agent SRE); incident.io ($96M+ raised, $9M revenue, full incident lifecycle); Rootly ($15.2M raised, revenue unknown, post-incident analysis); Cleric ($9.8M raised, revenue unknown, read-only diagnosis); NeuBird ($44.5M raised, revenue unknown, enterprise Azure-focused) |
-| Moat Signals | 305 GitHub stars (open-source community); per-customer infrastructure learning; 300+ pre-built integrations; OpenRag retrieval system (74% Recall@10 on MultiHop-RAG) |
-| Risk Factors | Heavily funded competitors (Resolve AI $160M+), trust barrier for autonomous remediation, open-source monetization challenge, pilot-stage product maturity |
-| Founder Reach | Jimmy Wei: Twitter not found, LinkedIn linkedin.com/in/chiehmin-wei/, GitHub chiehminwei. Long Yi: Twitter not found, LinkedIn linkedin.com/in/long-yi-b221b2183/, GitHub not found |
-| Distribution Signals | 2 Show HN posts (3 pts, 1 pt; Feb & Jan 2026); 305 GitHub stars (Feb 2026); no Product Hunt launch found; no app store presence |
+| TAM | AIOps platform market: $14.60B in 2024, projected $36.07B by 2030 at 15.2% CAGR (Grand View Research, 2025 via search snippet) |
+| SAM | No public data found for AI SRE-specific segment |
+| Traction | 413 GitHub stars, 43 forks (GitHub); "Accepting 2 Pilot Partners for Q1" (incidentfox.ai); YC W26 batch |
+| Revenue Signal | No public data found |
+| Founders | Jimmy Wei (CEO): MS Cornell, Ex-Meta FAIR, Ex-Roblox SWE. Long Yi (CTO): BS Brandeis, Ex-Roblox SRE/Infra. |
+| Competitors | PagerDuty (public, $467.5M rev FY2025, full-stack ops platform), incident.io ($96M+ raised, $400M valuation, incident coordination + AI), Rootly ($15.2M raised, revenue unknown, Slack-native incident mgmt), FireHydrant ($32.5M raised, revenue unknown, service catalog focus), Neubird ($22.5M raised, revenue unknown, AI SRE with Microsoft backing) |
+| Moat Signals | Open-source repo (413 stars); customer-specific system learning; credential isolation architecture |
+| Risk Factors | Crowded AI SRE landscape with well-funded competitors, incumbent platform AI expansion (incident.io $62M for AI agents), enterprise trust barrier for autonomous remediation |
+| Founder Reach | Jimmy Wei: Twitter @jimmyweiiiii (count not retrievable), LinkedIn linkedin.com/in/chiehmin-wei/. Long Yi: Twitter @LongYi1207 (count not retrievable), LinkedIn linkedin.com/in/long-yi-b221b2183/. No public GitHub repos found for either founder. |
+| Distribution Signals | GitHub 413 stars (GitHub); YC launch tweet by @ycombinator (X/Twitter); free Slack trial on website; Calendly demo booking (incidentfox.ai). No Product Hunt launch found. |
+| Emails | founders@incidentfox.ai |

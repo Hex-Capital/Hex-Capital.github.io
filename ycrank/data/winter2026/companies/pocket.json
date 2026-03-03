@@ -1,59 +1,61 @@
 {
   "slug": "pocket",
   "name": "Pocket",
-  "oneLiner": "The world's best AI note-taking device and app",
+  "oneLiner": "Take Notes in the Real World",
   "metadata": {
-    "website": "https://heypocket.com/",
+    "website": "https://heypocket.com/now",
     "yc_page": "https://www.ycombinator.com/companies/pocket",
     "batch": "Winter 2026",
     "industry": "Consumer / Consumer",
     "team_size": "6",
-    "location": "San Francisco, California (Crunchbase via search snippet)"
+    "location": "San Francisco, CA (YC page lists no location; SF confirmed via founder LinkedIn profiles)",
+    "yc_partner": "Tyler Bosmeny",
+    "emails": "akshay@heypocket.com (YC company page, enterprise/teams inquiries)"
   },
   "tags": [],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T05:51:39.708Z",
+  "memoGeneratedAt": "2026-03-03T23:06:58.781Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 35,
+      "score": 40,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 36,
-      "tier": "Pass"
+      "score": 46,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "paul-graham": {
       "score": 55,
       "tier": "Neutral"
     },
+    "paul-graham": {
+      "score": 75,
+      "tier": "Invest"
+    },
     "peter-thiel": {
-      "score": 26,
+      "score": 33,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 28,
+      "score": 39,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 35,
+      "score": 43,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 35,
-    "EG": 36,
-    "NR": 38,
-    "PG": 55,
-    "PT": 26,
-    "SL": 28,
-    "VK": 35
+    "CB": 40,
+    "EG": 46,
+    "NR": 55,
+    "PG": 75,
+    "PT": 33,
+    "SL": 39,
+    "VK": 43
   },
-  "consolidatedAvg": 36.14,
-  "consolidatedRank": 119,
+  "consolidatedAvg": 47.29,
+  "consolidatedRank": 37,
   "paths": {
     "memo": "winter2026/memos/pocket.md",
     "evals": {

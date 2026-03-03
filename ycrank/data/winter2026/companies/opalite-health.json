@@ -9,7 +9,9 @@
     "industry": "Healthcare / Healthcare",
     "team_size": "3",
     "location": "Palo Alto, CA, USA",
-    "tags": "Artificial Intelligence, Health Tech, Digital Health, Healthcare"
+    "tags": "Artificial Intelligence, Health Tech, Digital Health, Healthcare",
+    "yc_partner": "Tyler Bosmeny",
+    "emails": "cathleen@opalitehealth.com, alex@opalitehealth.com (YC page)"
   },
   "tags": [
     "Artificial Intelligence",
@@ -18,48 +20,48 @@
     "Healthcare"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T05:59:09.949Z",
+  "memoGeneratedAt": "2026-03-03T23:11:50.468Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 56,
+      "score": 58,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 54,
+      "score": 56,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 61,
+      "score": 55,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 61,
-      "tier": "Neutral"
+      "score": 66,
+      "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 37,
+      "score": 38,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 34,
+      "score": 35,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 48,
+      "score": 46,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 56,
-    "EG": 54,
-    "NR": 61,
-    "PG": 61,
-    "PT": 37,
-    "SL": 34,
-    "VK": 48
+    "CB": 58,
+    "EG": 56,
+    "NR": 55,
+    "PG": 66,
+    "PT": 38,
+    "SL": 35,
+    "VK": 46
   },
-  "consolidatedAvg": 50.14,
-  "consolidatedRank": 24,
+  "consolidatedAvg": 50.57,
+  "consolidatedRank": 23,
   "paths": {
     "memo": "winter2026/memos/opalite-health.md",
     "evals": {

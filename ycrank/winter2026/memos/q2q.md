@@ -11,98 +11,96 @@
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
 | Tags | Fintech, SaaS, B2B, AI |
+| YC Partner | Harshita Arora |
+| Emails | brianna@tryq2q.com, claire@tryq2q.com |
+
+**Company Status: Inactive.** Brianna Lin announced on LinkedIn that Q2Q has wound down operations and she has pivoted to a new YC W26 company called Copperlane (an AI agent for mortgage lenders), co-founded with Athan Zhang (LinkedIn post, Brianna Lin, activity ID 7434281382098554880). Claire Wu's current status post-wind-down is not publicly documented.
+
+---
 
 ## The Idea
 
-**Problem:** Private equity firms, search funds, and independent sponsors rely on junior analysts to manually source acquisition targets — researching industries, building prospect lists, finding owner contact information, writing outreach emails, and booking introductory calls. This process is time-intensive, expensive, and produces generic outreach. The industry relies on the same databases (e.g., PitchBook, Grata), causing business owners to receive duplicative, impersonal messages that reduce response rates (YC Launch page, Feb 2026). Current alternatives range from hiring junior analysts/interns, to using deal sourcing databases like Grata or SourceScrub, to engaging buy-side search firms like SourceCo.
+**Problem:** Private equity firms spend significant time and resources on proprietary deal sourcing — identifying acquisition targets, researching companies, crafting personalized outreach, and cold-contacting business owners. This workflow is repetitive (research, write, reach out) and typically performed by junior analysts using generic databases. The process is manual, expensive, and low-yield (YC launch page).
 
-**Approach:** Q2Q automates the full sourcing-to-meeting workflow. Users input their acquisition criteria (investment thesis, company type, geography, etc.), and Q2Q: (1) identifies private companies matching those criteria, (2) researches each company using web and social media data to write personalized outreach, (3) deploys an AI phone agent to call business owners directly for contact confirmation and availability, and (4) books meetings with prepared notes synced to the user's calendar. The human-in-the-loop element is message approval — users review and approve outreach before it is sent (YC Launch page, Feb 2026).
+**Approach:** Q2Q positioned itself as an "AI-native outbound engine" for deal sourcing. Users input their buying criteria (e.g., industry, revenue range, geography), and Q2Q handles four steps: (1) sourcing and qualifying companies matching the thesis, (2) researching prospects across web and social media to personalize outreach, (3) deploying an AI phone agent to call business owners and request meetings, and (4) booking introductory calls with prepared notes on the calendar. The human remains in the loop to approve messages before they are sent (YC launch page).
 
-**Differentiation:** Existing deal sourcing platforms (Grata, SourceScrub, Affinity) primarily provide databases and search tools — the user still must execute the outreach themselves. Buy-side search firms (SourceCo) provide high-touch services but at higher cost and lower speed. Q2Q differentiates by combining sourcing intelligence with automated multi-channel outreach (email + AI phone agent) and meeting booking into a single workflow. The AI phone agent component appears to be a specific differentiator not present in database-only platforms (YC Launch page, Feb 2026).
+**Differentiation:** Existing platforms like Grata and Cyndx focus on search and database access — users find companies themselves and manage outreach separately. Axial operates as a marketplace connecting buyers with sellers/advisors. SourceCo provides managed sourcing services with human researchers augmented by AI. Q2Q differentiated by combining sourcing, outreach, and booking into a single automated pipeline, including an AI phone agent for direct owner contact — functioning more like "a personal team of AI interns" than a database or marketplace (YC launch page).
 
-**Business Model:** No public pricing page was accessible at time of research (website rendered as JavaScript-only with no extractable content). [Inferred]: Most likely monetization path is a SaaS subscription model, potentially with tiered pricing based on number of outreach campaigns, meetings booked, or seats, given the B2B SaaS positioning and PE buyer audience.
+**Business Model:** No pricing was publicly listed on the Q2Q website or launch page. [Inferred]: Most likely monetization path was subscription SaaS (per-seat or per-campaign pricing) or a hybrid model charging per qualified meeting booked, based on the product's outbound-as-a-service structure.
 
-**TAM/SAM:** No public TAM/SAM data found for the specific deal sourcing software segment. For context, Datasite committed $500M to expand its private market intelligence solutions organically and inorganically (BusinessWire, Jun 2025), and acquired both Grata and SourceScrub in 2025, signaling market consolidation and perceived value. Nearly half of dealmakers (49%) report using AI tools almost daily (Grata, 2025 via search snippet).
+**TAM/SAM:** No public TAM/SAM data found for the specific PE deal sourcing software segment. For context, the global private equity market was valued at $530.31 billion in 2025, projected to grow to $583.94 billion in 2026 at 10.1% CAGR (Research and Markets via search snippet). In 2025, sponsor-led deal activity reached $1.2 trillion in aggregate transaction value (Sidley Austin, Feb 2026 via search snippet). The addressable spend on deal sourcing tooling within this ecosystem is not separately estimated in any public source found.
 
-**GTM / Distribution:** The YC Launch page asks for introductions to "private equity professionals, M&A specialists, independent sponsors, MBAs, and search fund operators in acquisition mode" (YC Launch page, Feb 2026). [Inferred]: Initial distribution is likely founder-led sales leveraging Brianna Lin's PE network from her buyout firm and Jefferies experience, combined with YC's network of PE-connected alumni. The search fund and independent sponsor community is relatively tight-knit, suggesting potential word-of-mouth distribution within that segment.
+**GTM / Distribution:** [Inferred]: Most likely distribution path was direct sales to PE firms, search funds, and independent sponsors — a concentrated buyer base where relationships and referrals drive adoption. The YC launch page mentions both PE firms and search funds as target customers. The product's demo-first model (sign up at tryq2q.com) suggests a sales-led GTM rather than product-led growth.
 
 ## Defensibility
 
-No defensibility signals found in public sources at this stage.
+No defensibility signals found in public sources at the time of wind-down. [Inferred]: Potential moat could have developed via proprietary data on owner contact information and outreach response patterns (what messaging works for which verticals), and through accumulating qualified company profiles over time. However, Q2Q did not operate long enough to demonstrate compounding data advantages.
 
-[Inferred]: Potential moat could develop via (1) proprietary data on which outreach messages and strategies yield the highest owner response rates across industries and geographies — a data flywheel that improves with each campaign; (2) switching costs once PE teams integrate Q2Q into their deal pipeline workflows and CRM systems; (3) accumulated relationship mapping data that improves targeting over time. These are unproven at this stage.
+**Market structure:** Incumbent platforms (Grata, Cyndx, Axial) are primarily databases and marketplaces. Building a full outbound automation pipeline (sourcing + personalized outreach + AI phone calling + booking) represents a different product surface. However, no structural barrier prevented incumbents from adding outreach features. Grata merged with Sourcescrub and was acquired by Datasite in 2025 (Grata 2025 Year in Review), and Blueflame AI was also acquired by Datasite in July 2025 (Blueflame AI press release), indicating platform consolidation that could quickly replicate Q2Q's feature set.
 
-**Market structure:** The deal sourcing database incumbents (Grata/Datasite, PitchBook/Morningstar) are primarily data and intelligence platforms. Adding automated outbound and meeting-booking functionality would require them to take on email deliverability, compliance, and AI voice agent capabilities that are outside their core competency. Datasite's acquisition strategy (buying Grata and SourceScrub) suggests a build-by-acquisition approach rather than organic product expansion into outbound workflows. [Inferred]: The structural barrier is that database providers monetize via subscriptions for data access, while an outbound engine monetizes via outcomes (meetings booked), creating potential business model tension for incumbents that adds features cannibalizing their users' need for manual analyst headcount.
-
-**Commoditization risk:** The underlying components — company database access, email personalization via LLMs, AI voice agents, calendar booking — are individually available as APIs and tools. A well-resourced competitor or adjacent player (e.g., an AI SDR platform like 11x or Artisan expanding into PE, or a CRM like Affinity adding outbound) could build comparable functionality. The barrier to entry is integration quality and domain-specific tuning for the PE deal-sourcing workflow rather than any single proprietary technology.
+**Commoditization risk:** High. The core capabilities — company database search, personalized email generation, and AI-assisted calling — are built on widely available LLMs and sales automation infrastructure. Multiple startups and incumbent players could (and did) build overlapping functionality. The PE deal sourcing tool space had at least 15 competitors listed by SourceCo's own blog (SourceCo, 2026).
 
 ## Market & Traction
 
-**Traction signals:**
-- YC Winter 2026 batch member (YC company page)
-- YC Launch page published approximately February 2026 (YC Launch page)
-- Company Twitter/X: @tryq2q (YC company page) — follower count not retrievable
-- Company LinkedIn: page exists (YC company page) — follower count not retrievable
-- No Product Hunt listing found
-- No press coverage in named publications found
-- No public revenue, user count, or customer metrics found
-- Website not fully accessible at time of research (JavaScript-rendered, content not extractable)
+1. **Traction signals:** No public revenue, user counts, or growth metrics were found. The company's YC launch page did not mention any traction figures. The Extruct AI analysis page noted a "growing database of over 5,000 companies" (Extruct AI via search snippet), though this claim's date and basis are unclear. No Product Hunt listing was found. No company Twitter/X account was identified. No app store or Chrome Web Store presence was found. The company status is listed as "Inactive" (YC company page). Brianna Lin confirmed in a LinkedIn post that Q2Q has wound down operations.
 
-**Competitive landscape:**
+2. **Competitive landscape:**
 
-1. **Grata (acquired by Datasite, Jun 2025):** AI-driven private market intelligence platform with 16 million company profiles. Raised ~$35M total, including a $25M Series A led by Craft Ventures (Jan 2022) (Crunchbase via search snippet). Acquired by Datasite for an undisclosed amount as part of a $500M investment commitment (BusinessWire, Jun 2025). Key differentiator vs. Q2Q: database and intelligence platform focused on search and screening; does not automate outreach execution or meeting booking.
+   | Competitor | Funding | Revenue/ARR | Key Differentiator vs. Q2Q |
+   |-----------|---------|-------------|---------------------------|
+   | **Grata** (acquired by Datasite) | $34.4M total (Tracxn via search snippet); acquired for ~$200M (Tracxn via search snippet) | Revenue unknown | Database of 19M+ private companies with AI search; platform play rather than outbound automation |
+   | **Cyndx** | ~$10.5M (PitchBook via search snippet) | Revenue unknown | Predictive analytics and automated target recommendations across 32M global companies; investor: Rakuten Capital |
+   | **Axial** | $33.4M across 6 rounds (Tracxn via search snippet) | Revenue unknown | Confidential marketplace model connecting lower-middle market buyers with sellers and advisors; two-sided network |
+   | **SourceCo** | No public data found | Revenue unknown | Managed service model with human researchers + AI; average deal size $8.2M (SourceCo website) |
+   | **Blueflame AI** (acquired by Datasite) | $5M Series A (Blueflame AI press release) | Revenue unknown | Agentic AI platform for PE workflow automation beyond just sourcing; $50M valuation at acquisition |
 
-2. **SourceScrub (acquired by Datasite, Aug 2025):** Deal sourcing platform that continuously crawls the web to find private companies, connecting them to 290,000+ sources. Previously backed by Francisco Partners and Mainsail Partners (Crunchbase via search snippet). Acquired by Datasite (Aug 2025); being integrated into Grata. Key differentiator vs. Q2Q: focused on data discovery and tracking, not outbound outreach automation.
-
-3. **Affinity:** Relationship intelligence CRM for private capital. Raised $120M+, including an $80M Series C led by Menlo Ventures (Affinity press release, Sep 2021). 1,700+ customers in 70 countries including Bain Capital Ventures and SoftBank (Affinity website via search snippet). Key differentiator vs. Q2Q: CRM and relationship-mapping focus; does not provide automated outreach or meeting booking for new targets.
-
-4. **SourceCo:** Buy-side acquisition search firm covering 200M+ companies with 150+ investment teams as clients (SourceCo website via search snippet). Operates as a services/tech-enabled advisory model rather than pure SaaS. Key differentiator vs. Q2Q: high-touch human service model vs. Q2Q's AI-automated approach. Funding data not publicly available.
-
-**Why now:** [Inferred]: Two converging catalysts opened this window: (1) LLM capabilities reached the quality threshold in 2024-2025 where AI-generated personalized outreach emails and AI voice agents can pass the quality bar expected by business owners, making automated outbound viable where it previously was not. (2) Consolidation of incumbent deal sourcing databases by Datasite (acquiring both Grata and SourceScrub in 2025) may create platform lock-in concerns and openness among PE teams to try alternative, more workflow-integrated tools.
+3. **Why now:** [Inferred]: Two catalysts converged in 2024-2025: (a) LLM capabilities reached sufficient quality for personalized email generation and phone-based AI agents, making automated outbound outreach viable for the first time at low cost; (b) consolidation in the PE deal sourcing space (Datasite acquiring both Grata and Blueflame AI in 2025) created a window where smaller, focused tools could differentiate before the consolidated incumbents integrated their offerings.
 
 ## Founders & Team
 
 **Brianna Lin** — Co-founder & CEO
-- University of Pennsylvania, Jerome Fisher M&T Program (Computer Science & Finance at Wharton) (YC page; Penn Engineering via search snippet)
-- Previously: Software PE analyst at a buyout firm; investment banking at Jefferies (YC Launch page, Feb 2026)
-- Twitter/X: No personal public account found
-- LinkedIn: linkedin.com/in/brianna-lin (via search snippet)
+- University of Pennsylvania, Jerome Fisher M&T Program (Computer Science & Finance via Wharton)
+- Previously worked at a software-focused PE buyout shop and at Jefferies (investment banking) (YC launch page)
+- After winding down Q2Q, pivoted within YC W26 to co-found Copperlane (AI agent for mortgage lenders) with Athan Zhang (LinkedIn post, activity ID 7434281382098554880)
+- Twitter/X: No public account found
+- LinkedIn: linkedin.com/in/brianna-lin — headline: "Q2Q (YC W26)" (may have since updated)
 - GitHub: No public repos found
 
 **Claire Wu** — Co-founder & CTO
-- University of Pennsylvania, Jerome Fisher M&T Program (Computer Science, Finance, and Math) (YC page; Penn Engineering, Jul 2024)
-- Previously: Hedge fund engineer at GAO Capital (Singapore-based family office); Product Manager at Qualtrics (YC Launch page, Feb 2026; Penn Engineering, Jul 2024)
-- Founder & CEO of Wharton Cypher Accelerator at Penn (LinkedIn via search snippet)
-- Selected as one of 50 students for the AI@Meta Hackathon at Meta HQ (Penn Engineering via search snippet)
-- Twitter/X: No personal public account found
-- LinkedIn: linkedin.com/in/claire-wu-2b30b6184 — 500+ connections (LinkedIn via search snippet)
-- GitHub: github.com/cwrolls — 5 public repos, 1 star total (GitHub)
+- University of Pennsylvania, Jerome Fisher M&T Program (Computer Science, Finance, Math; CIS class of 2027) (Penn Engineering, X post Jul 2024)
+- Previously: intern at GAO Capital (family office, Singapore), product management at Qualtrics (LinkedIn via search snippet)
+- Founder & CEO of Wharton Cypher Accelerator (fintech startup accelerator) (Wharton LinkedIn post)
+- Additional internships: Palantir Technologies (Deployment Strategist Intern), Sweetwater Private Equity (Summer Analyst 2025) (search results via search snippet)
+- Twitter/X: No public account found
+- LinkedIn: linkedin.com/in/claire-wu-2b30b6184 — headline: "Q2Q (YC W26)" (may have since updated); 500+ connections
+- GitHub: github.com/cwrolls — 5 public repos, ~1 star total; repos include GaoDocumentClassification (JavaScript), waste-sorter (Swift), provider-messaging (TypeScript) (GitHub profile)
 
-**Co-founder relationship:** Both founders studied in the same program — the Jerome Fisher M&T Program at the University of Pennsylvania, studying Computer Science and Finance. This shared educational background indicates prior acquaintance through their undergraduate program.
+**Co-founder relationship:** Both Brianna Lin and Claire Wu attended the University of Pennsylvania's Jerome Fisher M&T Program, studying Computer Science and Finance. This shared academic program indicates a prior acquaintance before co-founding Q2Q.
 
-**Founder-market fit:** Brianna Lin's direct experience as a PE analyst at a software buyout firm and as a Jefferies investment banker gives her firsthand exposure to the manual deal sourcing workflow Q2Q aims to automate, as well as a network within the PE buyer community. Claire Wu's engineering background (hedge fund engineering, Qualtrics product management) and AI interests (Meta AI hackathon selection) position her to build the technical product. The combination of PE domain expertise (Brianna) and engineering/product skills (Claire) maps directly to the problem.
+**Founder-market fit:** Brianna Lin's direct experience at a software PE buyout shop and Jefferies provided firsthand exposure to deal sourcing workflows and pain points. Claire Wu's engineering background (hedge fund, Qualtrics PM, GAO Capital) and her leadership of the Wharton Cypher Accelerator provided fintech product-building experience. Together they combined PE domain knowledge with technical execution capability. No advisors, board members, or notable angel investors were found in public sources.
 
 ## Key Risks
 
-**Brand disambiguation and discoverability:** "Q2Q" is a common string shared by multiple established businesses — Q2Q Communications, Q2Q Global, Q2Q IT, Q2Q Ltd. — across telecom and IT services. This creates SEO competition, potential customer confusion, and trademark complexity. The domain tryq2q.com (rather than q2q.com) reflects this constraint.
+**Company has wound down:** Brianna Lin publicly announced that Q2Q has ceased operations and she has pivoted to Copperlane within the same YC W26 batch (LinkedIn post, activity ID 7434281382098554880). The YC company page lists Q2Q's status as "Inactive." This is the primary risk — the company no longer exists as a going concern.
 
-**Incumbent platform expansion:** Datasite's 2025 acquisitions of both Grata and SourceScrub, with a $500M investment commitment (BusinessWire, Jun 2025), signal an intent to build an end-to-end deal intelligence platform. If Datasite adds outbound automation and meeting-booking to its combined Grata/SourceScrub platform, Q2Q would face a well-resourced competitor with existing PE firm relationships and data assets.
+**Brand disambiguation:** "Q2Q" is a common name shared by Q2Q Communications (event management), Q2Q Global (market research), Q2Q IT, Q2Q Technologies, Q2Q Comics (theatre webcomic), and an unrelated open-source project at goq2q.net. This created significant SEO and brand confusion, making organic discovery difficult for the target PE audience.
 
-**AI outbound deliverability and compliance:** Automated email outreach at scale faces increasing spam filtering, CAN-SPAM/GDPR compliance requirements, and business owner fatigue from AI-generated messages. If email providers tighten deliverability rules for automated outbound or if business owner response rates to AI outreach decline, Q2Q's core value proposition (booked meetings) would be directly impacted.
+**Rapid market consolidation by incumbents:** Datasite acquired both Grata (~$200M, 2025) and Blueflame AI ($50M valuation, Jul 2025), assembling a combined platform with company databases, AI search, and agentic workflows (Grata 2025 Year in Review; Blueflame AI press release). This consolidation rapidly raised the competitive bar for standalone deal sourcing startups.
 
-**AI SDR market convergence:** General-purpose AI SDR platforms (e.g., 11x, Artisan, Instantly) could expand into the PE deal sourcing vertical with relatively modest domain customization, given that the outreach automation mechanics are similar across sales and deal sourcing use cases. The PE-specific differentiation may not constitute a durable barrier against well-funded horizontal players.
+**Narrow buyer persona with long sales cycles:** Private equity firms are a concentrated buyer segment with typically slow procurement processes and high trust requirements. [Inferred]: As a two-person team with an AI-driven cold outreach product, building credibility with risk-averse PE buyers who depend on relationship-driven processes was a structural GTM challenge.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | No public data found for deal sourcing software specifically. Datasite committed $500M to expand private market intelligence (BusinessWire, Jun 2025). |
+| TAM | Global PE market: $530.31B in 2025, 10.1% CAGR (Research and Markets via search snippet). No specific deal sourcing software TAM found. |
 | SAM | No public data found |
-| Traction | YC W26 batch member; YC Launch page published ~Feb 2026. No public user, revenue, or customer metrics found. |
+| Traction | Company status: Inactive (YC company page). "Growing database of over 5,000 companies" (Extruct AI via search snippet, date unknown). No other traction signals found. |
 | Revenue Signal | No public data found |
-| Founders | Brianna Lin (CEO): Penn M&T, ex-PE buyout analyst, ex-Jefferies IB. Claire Wu (CTO): Penn M&T, ex-hedge fund engineer (GAO Capital), ex-PM at Qualtrics. |
-| Competitors | Grata (~$35M raised, acquired by Datasite Jun 2025, database/intelligence focus); SourceScrub (funding undisclosed, acquired by Datasite Aug 2025, data crawling focus); Affinity ($120M+ raised, CRM/relationship intelligence); SourceCo (funding unknown, services/tech-enabled buy-side search) |
+| Founders | Brianna Lin (CEO): UPenn M&T, software PE buyout shop, Jefferies. Claire Wu (CTO): UPenn M&T, GAO Capital, Qualtrics PM, Wharton Cypher Accelerator founder. |
+| Competitors | Grata ($34.4M raised, acquired by Datasite ~$200M, revenue unknown, database/search platform); Cyndx ($10.5M raised, revenue unknown, predictive analytics); Axial ($33.4M raised, revenue unknown, marketplace model); SourceCo (funding unknown, revenue unknown, managed service); Blueflame AI ($5M raised, acquired by Datasite, revenue unknown, agentic AI platform) |
 | Moat Signals | No public data found |
-| Risk Factors | Brand disambiguation with multiple "Q2Q" businesses, Datasite platform expansion threat ($500M commitment), AI outbound deliverability/compliance risk, AI SDR horizontal market convergence |
-| Founder Reach | Brianna Lin: Twitter not found, LinkedIn linkedin.com/in/brianna-lin. Claire Wu: Twitter not found, LinkedIn 500+ connections, GitHub 1 star. |
-| Distribution Signals | No public data found |
+| Risk Factors | Company wound down (Inactive status), brand disambiguation challenge, rapid incumbent consolidation (Datasite acquisitions) |
+| Founder Reach | Brianna Lin: Twitter not found, LinkedIn linkedin.com/in/brianna-lin, GitHub not found. Claire Wu: Twitter not found, LinkedIn 500+ connections, GitHub cwrolls ~1 star. |
+| Distribution Signals | YC Launch page published (YC launches/POh). No Product Hunt listing, no app store presence, no Chrome extension found. |
+| Emails | brianna@tryq2q.com, claire@tryq2q.com |

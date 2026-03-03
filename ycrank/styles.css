@@ -47,7 +47,19 @@
 
 /* ===== Terminal Table ===== */
 .terminal-table {
-  border: 1px solid var(--c-border);
+  border-top: 1px solid var(--c-border);
+  border-left: 1px solid var(--c-border);
+  border-right: none;
+  border-bottom: none;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.terminal-table th,
+.terminal-table td {
+  border: none;
+  border-bottom: 1px solid var(--c-border);
+  border-right: 1px solid var(--c-border);
 }
 
 .terminal-table th {
@@ -457,6 +469,11 @@ main {
 
 /* ===== Mobile Responsive ===== */
 @media (max-width: 639px) {
+  /* Hide graph-paper grid overlay on mobile */
+  body::before {
+    display: none;
+  }
+
   /* Smooth horizontal scrolling with touch */
   .overflow-x-auto {
     -webkit-overflow-scrolling: touch;
@@ -478,6 +495,7 @@ main {
   }
   .terminal-table thead th:first-child {
     background: var(--c-panel);
+    z-index: 31;
   }
 
   /* Increase touch target for table rows */

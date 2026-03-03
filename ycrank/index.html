@@ -119,7 +119,7 @@
 
       <!-- Table -->
       <div>
-        <table class="w-full text-xs border-collapse terminal-table">
+        <table class="w-full text-xs terminal-table">
           <thead class="sticky-thead">
             <tr class="border-b border-claude-border bg-claude-panel">
               <th class="px-1.5 py-1 text-left text-claude-gray cursor-pointer hover:text-claude-orange border border-claude-border whitespace-nowrap"
@@ -312,7 +312,7 @@
           <h3 class="text-sm font-bold mb-1 text-claude-red">&gt;&gt; Disagreement Highlights</h3>
           <p class="text-claude-dim text-[10px] mb-2">Companies where personas diverge most (std dev >= 20).</p>
           <div class="overflow-x-auto">
-          <table class="w-full text-xs border-collapse terminal-table">
+          <table class="w-full text-xs terminal-table">
             <thead>
               <tr class="border-b border-claude-border">
                 <th class="px-1.5 py-1 text-left text-claude-gray border border-claude-border">Company</th>
@@ -362,7 +362,7 @@
           <h3 class="text-sm font-bold mb-1 text-claude-blue">&gt;&gt; Persona Correlation Matrix</h3>
           <p class="text-claude-dim text-[10px] mb-2">Pearson r between persona score vectors. High correlation (r > 0.80) suggests insufficient differentiation.</p>
           <div class="overflow-x-auto">
-            <table class="text-xs border-collapse terminal-table">
+            <table class="text-xs terminal-table">
               <thead>
                 <tr class="border-b border-claude-border">
                   <th class="px-2 py-1 border border-claude-border"></th>
@@ -399,7 +399,7 @@
               <h3 class="text-sm font-bold mb-1" :class="tractionTierColor(tier.tierName)"
                 x-text="'>> ' + tier.tierName"></h3>
               <div class="overflow-x-auto">
-              <table class="w-full text-xs border-collapse terminal-table">
+              <table class="w-full text-xs terminal-table">
                 <thead>
                   <tr class="border-b border-claude-border">
                     <th class="px-1.5 py-1 text-left text-claude-gray w-8 border border-claude-border">#</th>

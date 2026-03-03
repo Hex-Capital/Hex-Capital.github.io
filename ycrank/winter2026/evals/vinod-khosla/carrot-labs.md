@@ -1,0 +1,26 @@
+﻿# Carrot Labs -- Vinod Khosla Evaluation
+
+The thing that jumps out immediately is the competitive landscape. Braintrust raised $80 million in February 2026 to expand into "production-grade AI infrastructure." LangChain sits at $1.25 billion valuation with $260 million behind it. Arize has $131 million and a Microsoft strategic partnership. Carrot Labs is two people with standard YC funding entering a space where the incumbents have 50 to 100 times more capital and are actively building toward Carrot Labs' claimed differentiation. When I backed Juniper against Cisco, Cisco's CTO told me they would never build a TCP/IP router -- the incumbent was dismissing the approach. Here, the incumbents are not dismissing continuous optimization; they are raising hundreds of millions of dollars to build it. That is the opposite signal from what I look for.
+
+But the deeper issue is not competition -- it is consequence magnitude. If Carrot Labs succeeds completely, at full scale, what changes? AI agents run 43 percent faster and 18 percent better. Their customers' existing workflows get optimized. That is a useful product. It might even be a profitable business. But nobody's life is fundamentally different. No trillion-dollar system becomes obsolete. No industry operates in a structurally new way. Carrot Labs is building a better tuning knob for a machine someone else invented. I have watched brilliant founders waste their best years on problems like this -- making enterprise software 30 percent more efficient, building the monitoring layer for someone else's platform. They reduce their failure probability to the point where success is a $50 million ARR SaaS business in a crowded market. That is not what I invest my own money in.
+
+The bull case deserves serious engagement. AI agents are genuinely on an exponential trajectory -- the agentic AI market growing at 44.6 percent CAGR from $7 billion to $93 billion by 2032 is real. If every enterprise deploys dozens of production agents, and those agents need continuous optimization the way cloud infrastructure needs Datadog, then the platform that owns that loop could become critical infrastructure. The "continuous fine-tuning" angle is more differentiated than pure observability, and the data flywheel -- proprietary know-how accumulating in customer-specific models -- could theoretically create switching costs that pure monitoring tools lack. If I believed the founding team had a 10x technical insight that would let them outrun well-capitalized competitors, I could see the path. But the dossier shows no evidence of such an insight. The platform combines evaluation, monitoring, and fine-tuning APIs that any well-funded team can assemble. The defensibility is asserted, not demonstrated.
+
+On the founders: Yuta Baba brings relevant ML experience from Snowflake and has founded a company before, which shows entrepreneurial instinct. But the transition from CareVo -- a senior care startup in Japan -- to AI agent optimization is a domain shift that raises questions about sustained conviction rather than rapid learning. Christopher Acker's technical background is essentially undocumented publicly, which is a gap for a company selling optimization tooling to engineering teams. Neither founder displays the outsider-attacking-an-established-industry pattern I find in my best investments. They are building developer tools for other AI developers -- insiders serving insiders with a consensus product in a consensus market. Where is the contrarian thesis that experts dismiss? Where is the willingness to attempt something the industry considers impossible?
+
+The timing dimension is the strongest case for Carrot Labs, but even here the signal is mixed. Yes, they are positioned on an accelerating technology curve. But this is not 2019 AI or 2004 cleantech, where I was the only investor willing to look. Every major VC has an AI infrastructure thesis in 2026. The market timing is right but entirely consensus. Being early to a trend matters; arriving alongside a hundred other well-funded companies is something different entirely. Carrot Labs is not skating to where the puck will be -- they are skating to where the puck already is, surrounded by players with bigger sticks.
+
+I pass. These founders may build a real business, and I wish them well. But I invest where the consequence of success justifies the attempt at a civilizational scale, and a better optimization dashboard for AI agents does not clear that bar. The problem they have chosen is real but small relative to the talent being deployed against it. If they had come to me and said they were building the AI agent itself -- the one that replaces how an entire industry operates -- I would have leaned in. Instead, they are building the tuning infrastructure for someone else's transformation.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Consequence Magnitude If Successful | 8/30 |
+| Founder Learning Rate and Contrarian Courage | 9/25 |
+| Technology Disruption Potential vs. Incumbent Systems | 7/20 |
+| Rate of Change and Timing Trajectory | 9/15 |
+| Gene Pool Engineering and Team Construction | 5/10 |
+| **Total** | **38/100** |
+
+**Total Score: 38/100** (Pass)

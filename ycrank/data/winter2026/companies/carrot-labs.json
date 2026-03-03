@@ -1,0 +1,76 @@
+{
+  "slug": "carrot-labs",
+  "name": "Carrot Labs",
+  "oneLiner": "Continuous Learning Platform for AI Agents",
+  "metadata": {
+    "website": "https://carrotlabs.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/carrot-labs",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Reinforcement Learning, Automation, AI",
+    "yc_partner": "Brad Flora",
+    "emails": "[email protected]"
+  },
+  "tags": [
+    "Reinforcement Learning",
+    "Automation",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-03T17:13:37.322Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 25,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 23,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 24,
+      "tier": "Strong Pass"
+    },
+    "vinod-khosla": {
+      "score": 38,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 25,
+    "EG": 34,
+    "NR": 40,
+    "PG": 36,
+    "PT": 23,
+    "SL": 24,
+    "VK": 38
+  },
+  "consolidatedAvg": 31.43,
+  "consolidatedRank": 170,
+  "paths": {
+    "memo": "winter2026/memos/carrot-labs.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/carrot-labs.md",
+      "elad-gil": "winter2026/evals/elad-gil/carrot-labs.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/carrot-labs.md",
+      "paul-graham": "winter2026/evals/paul-graham/carrot-labs.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/carrot-labs.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/carrot-labs.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/carrot-labs.md"
+    }
+  }
+}

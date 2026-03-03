@@ -1,0 +1,22 @@
+﻿# Carrot Labs -- Cyan Banister Evaluation
+
+The first thing I notice about Carrot Labs isn't the founders or the product -- it's the wall of money they're running into. Braintrust just raised $80 million. Arize has $131 million. LangChain is sitting on $260 million at a billion-dollar-plus valuation. And Braintrust's February raise specifically called out expanding into "production-grade AI infrastructure" -- which is exactly where Carrot Labs is trying to plant a flag. When I look at my best investments, the pattern is unmistakable: nobody else wanted to fund them. SpaceX was "insane." Uber was illegal. Crusoe wanted to mine Bitcoin on gas flares. The signal I trust most is when smart people think something is stupid. AI agent optimization tooling is the opposite of that -- it's one of the most actively funded categories in enterprise software right now. Every VC in town wants a piece of this market. And when every VC in town wants in, the weirdness has been arbitraged away, and I'm not the right investor.
+
+Now, let me talk about the founders, because that's where I always start. Yuta Baba has a story that genuinely moves me -- he became a caregiver for his mother and built CareVo to redesign senior care in Japan. That's the kind of biographical thread I look for, where someone's life experience forges their commitment to a specific problem. I've backed founders whose entire existence was preparation for the company they built. But here's where it breaks for me: CareVo was about elder care in Japan. Carrot Labs is about optimizing AI agent performance for enterprise engineering teams. Those are two entirely different worlds. I don't see the biographical thread connecting Yuta's deepest personal experience to this particular problem. His Snowflake data science work is professionally relevant, sure -- but professional relevance and biographical necessity are very different things in my framework. Christopher Acker is harder for me to evaluate because his background prior to Carrot Labs is essentially invisible in public data. I don't research founders before I meet them, but I need them to tell me their story when I ask. A blank page isn't a red flag exactly, but it blocks the channel through which I do my best work.
+
+The bull case deserves honest engagement. If Carrot Labs can execute on the "continuous learning" positioning -- where customer-specific optimization data compounds over time and creates genuine switching costs -- they could build a moat that pure observability platforms can't easily replicate. The timing argument is real: fine-tuning APIs from foundation model providers only became affordable and accessible in the last eighteen months, creating a genuine window for a purpose-built optimization loop. Maxim AI shows there's real revenue in this adjacent space even for small players ($2.6M on just $3M raised). A focused two-person team that moves fast on the closed-loop optimization angle could potentially establish a beachhead before the well-funded competitors expand their feature sets. If both founders have deep technical conviction about why continuous fine-tuning is fundamentally different from evaluation-and-observe -- and if they've experienced the production agent degradation problem firsthand in a way I just can't see from the dossier -- this could be more interesting than it appears.
+
+But even that bull case doesn't activate my criteria. This company doesn't create economic access for people who lack it. It doesn't make an invisible system visible to underserved populations -- it makes already-sophisticated AI systems perform better for companies that already have production-grade agent deployments. There's no regulatory complexity creating a protective moat, no stigma deterring other investors, no weirdness making people uncomfortable. It's a technically competent product thesis in the most consensus category in enterprise AI. I've learned to trust the discomfort signal -- when something makes me uneasy because it's so different, that's usually where the opportunity lives. Carrot Labs doesn't make me uneasy at all, and that's precisely the problem.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Biographical Grit and Personal Stake | 10/30 |
+| Anti-Consensus Conviction and Weird Factor | 4/25 |
+| Economic Access and Real-World Impact | 3/20 |
+| Navigating Complexity in Hard Spaces | 4/15 |
+| Co-Founder Alignment and Team Resilience | 4/10 |
+| **Total** | **25/100** |
+
+**Total Score: 25/100** (Pass)

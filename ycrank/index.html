@@ -114,7 +114,7 @@
         <div class="relative flex-1 min-w-0 sm:w-56 sm:flex-none">
           <input type="text" x-model="search" placeholder="search..."
             class="bg-claude-bg border border-claude-border text-claude-text px-2 py-1 text-xs w-full focus:outline-none focus:border-claude-orange rounded-none placeholder-claude-dim font-mono">
-          <button x-show="search" @click="search = ''" class="absolute right-1 top-1/2 -translate-y-1/2 text-claude-dim hover:text-claude-orange text-xs font-mono leading-none px-0.5">&times;</button>
+          <button x-show="search" @click="search = ''" class="search-clear-btn absolute right-1.5 top-1/2 -translate-y-1/2 sm:hidden">&times;</button>
         </div>
         <span class="text-claude-border hidden sm:inline">|</span>
         <span class="text-claude-dim text-xs" x-text="filteredTable.length + '/' + (manifest ? manifest.table.length : 0) + ' companies'"></span>

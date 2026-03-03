@@ -1,0 +1,78 @@
+{
+  "slug": "the-token-company",
+  "name": "The Token Company",
+  "oneLiner": "Compression middleware that improves LLM outputs",
+  "metadata": {
+    "website": "https://thetokencompany.com",
+    "yc_page": "https://www.ycombinator.com/companies/the-token-company",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Developer Tools, Machine Learning, B2B, Infrastructure",
+    "yc_partner": "Jared Friedman",
+    "emails": "otso@thetokencompany.com (YC page)"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "Machine Learning",
+    "B2B",
+    "Infrastructure"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-03T17:13:17.388Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 21,
+      "tier": "Strong Pass"
+    },
+    "vinod-khosla": {
+      "score": 34,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 28,
+    "EG": 36,
+    "NR": 38,
+    "PG": 45,
+    "PT": 31,
+    "SL": 21,
+    "VK": 34
+  },
+  "consolidatedAvg": 33.29,
+  "consolidatedRank": 153,
+  "paths": {
+    "memo": "winter2026/memos/the-token-company.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/the-token-company.md",
+      "elad-gil": "winter2026/evals/elad-gil/the-token-company.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/the-token-company.md",
+      "paul-graham": "winter2026/evals/paul-graham/the-token-company.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/the-token-company.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/the-token-company.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/the-token-company.md"
+    }
+  }
+}

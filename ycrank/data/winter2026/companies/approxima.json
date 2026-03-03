@@ -1,0 +1,76 @@
+{
+  "slug": "approxima",
+  "name": "Approxima",
+  "oneLiner": "Let your software build itself with agents that can find issues,?",
+  "metadata": {
+    "website": "https://approxima.ai",
+    "yc_page": "https://www.ycombinator.com/companies/approxima",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Enterprise Software, Infrastructure",
+    "yc_partner": "Diana Hu",
+    "emails": "No public data found (demo booking via calendly.com/ashish-selvaraj/approxima)"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Enterprise Software",
+    "Infrastructure"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-03T17:12:17.564Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 22,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 25,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 20,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 18,
+      "tier": "Strong Pass"
+    },
+    "vinod-khosla": {
+      "score": 28,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 22,
+    "EG": 25,
+    "NR": 32,
+    "PG": 31,
+    "PT": 20,
+    "SL": 18,
+    "VK": 28
+  },
+  "consolidatedAvg": 25.14,
+  "consolidatedRank": 192,
+  "paths": {
+    "memo": "winter2026/memos/approxima.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/approxima.md",
+      "elad-gil": "winter2026/evals/elad-gil/approxima.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/approxima.md",
+      "paul-graham": "winter2026/evals/paul-graham/approxima.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/approxima.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/approxima.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/approxima.md"
+    }
+  }
+}

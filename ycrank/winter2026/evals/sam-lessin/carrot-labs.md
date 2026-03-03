@@ -1,0 +1,26 @@
+﻿# Carrot Labs -- Sam Lessin Evaluation
+
+Carrot Labs is building AI tooling for AI agents in a market where Braintrust has $121M, Arize has $131M, and LangChain has $260M at a $1.25B valuation. A two-person pre-seed team is walking into the most capital-saturated segment in enterprise software with a standard YC check. That competitive fact alone would give me pause, but the deeper structural problem is that this company fails every filter I care about. Let me work through it.
+
+Start with the founder-idea pairing. Is this a sane person with an insane idea? Yuta Baba's Snowflake data science background is relevant — he's worked on the kinds of systems that underpin optimization and fine-tuning. That's the "sane" component, and it's credible if unspectacular. Christopher Acker's background is essentially undocumented publicly, which at pre-seed isn't disqualifying but does mean I'm evaluating one founder's credentials, not two. The real problem is the idea side: building an AI agent optimization platform is not remotely insane. It's the most obvious infrastructure play in the market right now. Every enterprise AI team knows they need evaluation, optimization, and continuous improvement for production agents. Every well-funded competitor is expanding in exactly this direction — Braintrust raised $80M in February 2026 specifically to build "new infrastructure products for production-grade AI." When the idea is consensus and the incumbents have distribution plus capital, you're not buying a non-consensus bet. You're buying a feature race against opponents with 100x your resources.
+
+Now run the AI kill test, except here it's inverted in a way that's almost comically on-the-nose. Strip out AI and what remains of Carrot Labs? Nothing. There is no business without AI. This isn't "cherry on top" — this is AI as the cake, the frosting, the plate, and the table. The company's entire value chain depends on foundation model APIs remaining accessible but not commoditized, on fine-tuning remaining technically complex enough to require intermediation, and on the major model providers not building this optimization layer themselves. Every one of those dependencies could break. Anthropic, OpenAI, and Google have obvious incentives to make their models easier to optimize directly — it's a retention and stickiness play for their own platforms. When I say software moats are dissolving, a company whose moat IS software optimization for other people's software models is exhibit A.
+
+The bull case deserves genuine engagement: if the continuous learning loop creates real switching costs — if accumulated domain-specific optimization data makes each customer's fine-tuned agents genuinely irreplaceable — then Carrot Labs could build compounding lock-in that observability-only competitors lack. The "training platform, not testing tool" framing is legitimately differentiated today. And the market timing is real — production AI agents are a new operational category, and the gap between deploying agents and reliably operating them is painful. If the two founders can move fast enough to establish this closed-loop optimization as a category-defining product, and if the data flywheel actually compounds before well-funded competitors replicate it, there's a path to something meaningful. But that path requires outrunning companies with established customer bases and 50-100x more capital in a segment where the cloud providers are actively expanding their own tooling. I've seen this movie before — it's the application-layer trap where your differentiation is always twelve months from being absorbed.
+
+The primitive test seals it. Carrot Labs isn't creating a new foundational layer. It's an application sitting on top of foundation model APIs, offering optimization services for workflows built on someone else's infrastructure. Compare this to Aleo, where zero-knowledge privacy is a genuinely new cryptographic primitive that other protocols build on. Compare it to Helium, where decentralized wireless was an entirely new infrastructure layer. Carrot Labs isn't establishing a new standard or protocol — it's providing a service that improves existing systems incrementally. That's a fine business to build, but it caps the "infinity story." The narrative stretches from "agent optimization" to maybe "the operating system for production AI," but even that ceiling is bounded by the platform providers who control the actual operating layer underneath.
+
+I respect the hustle of going through YC and tackling a real problem that engineering teams genuinely face. But this is a consensus idea in a hot market with massive incumbent capital, built entirely on software with no physical-world moat, no protocol position, and no visible traction beyond unverified performance claims on a website. It checks nearly every box on my "avoid" list. Pass.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| "Sane Person, Insane Idea" Calibration | 7/30 |
+| AI-Resistant Structural Moat | 4/25 |
+| New Primitive or Protocol Position | 4/20 |
+| Narrative Magnitude and Infinity Optionality | 6/15 |
+| Real Revenue or Asset Cushion | 3/10 |
+| **Total** | **24/100** |
+
+**Total Score: 24/100** (Strong Pass)

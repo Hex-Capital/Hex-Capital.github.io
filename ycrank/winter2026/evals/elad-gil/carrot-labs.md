@@ -1,0 +1,26 @@
+﻿# Carrot Labs -- Elad Gil Evaluation
+
+The competitive landscape here tells me everything I need to know about market timing. Braintrust raised $80M in February 2026 specifically to build "new infrastructure products for production-grade AI." Arize has $131M and a Microsoft partnership. LangChain sits at $1.25 billion valuation with $260M raised. Langfuse just got acquired by ClickHouse. This is a market where well-capitalized incumbents are actively expanding into the exact territory Carrot Labs is entering -- closed-loop optimization, not just monitoring. When I see a pre-seed company walking into a space where competitors hold $500M+ in combined capital and are converging on the same product vision, that's not a structural inflection I'm exploiting. That's a capital war I'm losing.
+
+The "continuous learning" differentiation is real today but it's a feature, not a structural moat. Braintrust's $80M raise press explicitly cited expanding into production-grade optimization. Arize already has drift detection. The distance between "we observe your agents" and "we optimize your agents" is an engineering sprint for a team with 50 engineers and existing customer relationships, not a multi-year product gap. Compare this to the Stripe pattern: Stripe didn't enter a market with $500M of funded competitors already pivoting toward developer-first payments. Stripe entered a market where PayPal had architecturally committed to a checkout-button model and couldn't switch to an API-first approach without rebuilding from scratch. The incumbents in AI observability don't face that kind of architectural constraint -- adding fine-tuning and optimization loops to an existing observability product is an extension, not a rewrite.
+
+The market itself -- AI agent optimization -- is the definition of consensus. Every VC deck I see in early 2026 mentions "agents moving from prototype to production." The MarketsandMarkets TAM projection ($7B to $93B by 2032) is exactly the kind of hockey-stick forecast I warn about -- it tells you the market is hot, not that it's non-obvious. My best investments are in markets that trigger dismissive reactions from other investors. PagerDuty seemed boring. Gusto seemed like "just payroll." Nobody dismisses AI agent infrastructure right now. When a market appears on the cover of every tech publication and has its own analyst forecast category, the asymmetric returns have already been priced out by the capital pouring in.
+
+The strongest bull case requires believing that continuous fine-tuning creates a genuine data flywheel -- that as customer-specific optimization data accumulates, the models become so customized that switching costs become insurmountable. If that's true, then first-mover advantage in the optimization layer could matter more than observability capital. The analogy would be Snowflake's data gravity: once your data lives there, moving it is prohibitively expensive. If Carrot Labs can create "model gravity" -- where your agent's accumulated learning is embedded in their fine-tuned models -- then the well-funded observability players adding optimization features would face a cold-start problem against an incumbent that already has months of customer-specific training data. That's a real thesis. But I'd need to see two things I don't see: evidence the flywheel is operational at even one customer, and founders with the kind of deep ML infrastructure background that makes building this flywheel credible. Yuta Baba's Snowflake data science work is adjacent but not directly in the agent optimization space. Christopher Acker's technical depth isn't publicly documented at all.
+
+The founder profile adds concern. Baba's prior venture, CareVo, was in senior care in Japan -- a completely different domain, market, and customer type. That's not disqualifying (domain shifts happen), but combined with the lack of documented AI infrastructure experience for either founder, I'm not seeing the founder-market fit that would give me confidence they can out-execute teams at Braintrust or Arize who live in this problem space daily. When a market requires outrunning well-capitalized competitors, the team needs to be operating at a velocity and depth that compensates for the capital gap. The dossier shows a website with performance claims, a Calendly booking link, and zero open positions. No GitHub presence, no Product Hunt launch, no open-source community. The execution signals are too thin to overcome the competitive headwinds.
+
+This is a pass. The market is real but it's consensus, the differentiation is a feature not a moat, the competitive dynamics favor incumbents with capital and distribution, and the founder profile doesn't show the specific domain depth needed to win a market this crowded. A company entering AI agent optimization in early 2026 needs to bring either a technical breakthrough or a distribution insight that the $500M incumbents can't replicate. I don't see either here.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Non-Obvious Market at Structural Inflection | 9/35 |
+| Product-to-Distribution Trajectory | 10/25 |
+| Single-Miracle Operational Clarity | 5/15 |
+| Founder Execution Velocity | 5/15 |
+| Technology Cycle Positioning | 5/10 |
+| **Total** | **34/100** |
+
+**Total Score: 34/100** (Pass)

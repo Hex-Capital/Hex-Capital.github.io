@@ -1,0 +1,77 @@
+{
+  "slug": "mantis",
+  "name": "Mantis",
+  "oneLiner": "Physics-Enhanced Datasets for Low-Resource Machine Learning",
+  "metadata": {
+    "website": "https://mantisbiotech.com/",
+    "yc_page": "https://www.ycombinator.com/companies/mantis",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "3",
+    "location": "New York, NY, USA",
+    "tags": "Artificial Intelligence, Sports Tech, Biotech, Biotechnology",
+    "yc_partner": "Gustaf Alstromer",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Sports Tech",
+    "Biotech",
+    "Biotechnology"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-03T17:13:07.819Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 44,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 47,
+    "EG": 36,
+    "NR": 54,
+    "PG": 45,
+    "PT": 35,
+    "SL": 31,
+    "VK": 44
+  },
+  "consolidatedAvg": 41.71,
+  "consolidatedRank": 71,
+  "paths": {
+    "memo": "winter2026/memos/mantis.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/mantis.md",
+      "elad-gil": "winter2026/evals/elad-gil/mantis.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/mantis.md",
+      "paul-graham": "winter2026/evals/paul-graham/mantis.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/mantis.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/mantis.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/mantis.md"
+    }
+  }
+}

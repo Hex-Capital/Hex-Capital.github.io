@@ -1,0 +1,77 @@
+{
+  "slug": "claimglide",
+  "name": "ClaimGlide",
+  "oneLiner": "AI automated prior-auths for private medical practices",
+  "metadata": {
+    "website": "https://claimglide.com/",
+    "yc_page": "https://www.ycombinator.com/companies/claimglide",
+    "batch": "Winter 2026",
+    "industry": "Healthcare / Healthcare Services",
+    "team_size": "1",
+    "location": "No public data found",
+    "tags": "Digital Health, Healthcare, AI, AI Assistant",
+    "yc_partner": "Jared Friedman",
+    "emails": "contact@claimglide.com"
+  },
+  "tags": [
+    "Digital Health",
+    "Healthcare",
+    "AI",
+    "AI Assistant"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-03T17:11:58.057Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 24,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 33,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 39,
+    "EG": 44,
+    "NR": 35,
+    "PG": 42,
+    "PT": 28,
+    "SL": 24,
+    "VK": 33
+  },
+  "consolidatedAvg": 35,
+  "consolidatedRank": 133,
+  "paths": {
+    "memo": "winter2026/memos/claimglide.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/claimglide.md",
+      "elad-gil": "winter2026/evals/elad-gil/claimglide.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/claimglide.md",
+      "paul-graham": "winter2026/evals/paul-graham/claimglide.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/claimglide.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/claimglide.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/claimglide.md"
+    }
+  }
+}

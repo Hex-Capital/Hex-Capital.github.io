@@ -1,0 +1,26 @@
+﻿# Approxima -- Cyan Banister Evaluation
+
+Here's what I can't get past: two talented engineers pivoted mid-batch into the single most crowded, most consensus-driven category in all of venture capital right now. AI coding agents. Cognition just hit $73 million in ARR in nine months. Factory has Sequoia and NVIDIA behind them. GitHub Copilot, Claude Code, and OpenAI Codex are shipping autonomous capabilities directly from the model providers. When I look at where Approxima is headed, I don't see the kind of opportunity that's been dismissed or overlooked — I see the opposite. This is what everyone wants to fund. Every major firm is already in. The consensus has fully formed, and these founders arrived after the crowd. That's the exact inverse of where I find my best investments.
+
+When I sit down with founders, I always start the same way — tell me your story, not the business. And what I can piece together here doesn't give me the biographical thread I need to feel conviction. Ashish and Ethan are smart — Waterloo CS, Databricks, Microsoft, competitive programming. Those are real credentials. But there's no hardship that forged this particular mission. There's no "I watched this problem destroy something I cared about" or "I spent years in the wilderness working on something nobody understood." They built a mobile SDK called SideKit, it didn't gain traction, and they pivoted to the hottest category available. That reads to me like talented people searching for product-market fit, which is fine — but it's not what makes me write a check from my own money. I backed Contraline because the founder had spent years in academic research on male contraception when everyone else thought it was a dead end. I backed SpaceX because Elon's obsession with making humanity multi-planetary preceded any business case. I need to see that the founder IS the problem, not just that they're capable of working on it.
+
+The strongest argument for Approxima is this: Sweep AI, the closest prior analog to autonomous bug-fix PRs, has abandoned the niche for JetBrains IDE tooling. That's a real opening. The "self-healing software" framing — agents that proactively detect and fix issues rather than waiting for human-initiated tasks — is a slightly different wedge than what Devin or Factory are building. If Approxima could become the narrow, deep specialist in continuous maintenance automation while everyone else chases the broader "autonomous developer" vision, there might be a genuine positioning gap. And the enabling technology is legitimately new enough that the right team could build a data flywheel from customer codebases. What would have to be true for this to work: the big players would need to remain focused on greenfield code generation rather than maintenance, the self-healing angle would need to prove sticky enough to resist feature absorption by incumbents, and Ashish and Ethan would need to demonstrate the kind of relentless persistence through adversity that I haven't yet seen evidence of. It's possible. But I'm not investing in possible when the competition has $700 million in combined funding and the moat signals are zero.
+
+What I uniquely care about — and what's entirely absent here — is whether this company creates real-world impact for people who need it. Uber created income for drivers who had no other way in. Affirm made credit transparent for people who were getting crushed by hidden fees. Flock Safety brought safety data to neighborhoods that had been ignored. Developer productivity tools serve engineers who are already among the best-compensated professionals on earth. I'm not saying these tools aren't valuable, but they don't hit the part of my thesis where I feel the most conviction — the part about economic access and making invisible systems visible for people who are currently locked out. This is a tool that makes comfortable people slightly more comfortable. That doesn't pull me forward.
+
+The co-founder dynamic is the one area where I see a faint positive signal. They're classmates who've already been through a pivot together, and that shared stress — the decision to abandon SideKit and start over mid-batch — is at least a data point about their ability to navigate hard conversations. I don't have enough to assess how they resolve real disagreements, but the fact that they pivoted together rather than splitting apart is worth noting. It's not enough to override my other concerns, but it's the one dimension where I'd give them credit.
+
+This is a pass for me. Not because the founders aren't smart or the technology isn't real — it's because everything about this company points toward consensus rather than conviction, trend-following rather than biographical necessity, and a crowded field rather than the kind of lonely, dismissed, "magically weird" opportunity where I've found my best returns.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Biographical Grit and Personal Stake | 7/30 |
+| Anti-Consensus Conviction and Weird Factor | 3/25 |
+| Economic Access and Real-World Impact | 4/20 |
+| Navigating Complexity in Hard Spaces | 3/15 |
+| Co-Founder Alignment and Team Resilience | 5/10 |
+| **Total** | **22/100** |
+
+**Total Score: 22/100** (Pass)

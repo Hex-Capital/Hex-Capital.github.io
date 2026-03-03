@@ -1,0 +1,24 @@
+﻿# ClaimGlide -- Vinod Khosla Evaluation
+
+The prior authorization system in American healthcare is genuinely broken -- physicians waste hours getting permission from insurance companies to treat their own patients, care gets delayed, and the AMA has documented the burnout it inflicts. I don't dispute the problem. But ClaimGlide's response to this broken system is to help practices fill out the forms faster. That's the difference between attacking a problem and accommodating it. If ClaimGlide succeeds completely -- captures every private practice in America -- the prior authorization system still exists. Insurers still gatekeep medical decisions. The fundamental adversarial structure between payers and providers remains intact. You've built a nice business automating paperwork inside a system that shouldn't exist. The consequence of success is a workflow optimization, not an industry transformation.
+
+This is precisely the pattern I warn founders about. You take a real problem, narrow the scope until the probability of failure drops to something comfortable -- private practices only, provider side only, medical prior auths only -- and in doing so, you've made the consequences of success inconsequential. The TAM numbers sound large ($2-7 billion for PA software broadly), but ClaimGlide's addressable slice -- provider-side automation for independent private practices -- is a fraction of that. And the competitive landscape tells you something: Cohere Health has raised $200 million, CoverMyMeds is a subsidiary of a $250 billion company, Foundation Health has $26 million. These players serve adjacent segments today. The moment provider-side automation looks attractive enough, they expand into it with existing payer relationships and data advantages that a solo founder cannot replicate. ClaimGlide's "niche" isn't a moat -- it's a smaller piece of territory that larger armies haven't bothered to occupy yet.
+
+The strongest case for this company rests on timing and regulatory structure. The CMS-0057-F rule taking effect in January 2026 creates standardized FHIR APIs that automated submission tools can target -- a genuine technical surface that didn't exist before. Combined with LLM capabilities for generating payer-approved clinical language, there's a real window where a fast-moving startup could build integrations before EMR incumbents ship native solutions. Nami Lindquist has the raw capability markers -- Penn M&T dual degree, SpaceX engineering, and notably, the Sync Labs senior care startup that ran seven pilot studies with care facilities and won Penn's $100,000 innovation prize. That's not nothing. If Lindquist were applying this talent and speed to a problem where the consequence of success was civilization-scale -- rethinking healthcare payment architecture entirely, or making prior authorization structurally obsolete rather than automating it -- I'd lean forward. The athlete looks promising; the game being played is too small.
+
+The technology itself reinforces my concern. Auto-filling forms from EMR data, submitting to payer portals, tracking status, generating appeal letters -- the dossier itself notes this "is technically replicable by any team with EMR integration expertise and LLM capabilities." There is no proprietary breakthrough here. No novel science. No ten-times cost disruption that makes the incumbent approach economically unviable. This is an application layer built on commodity AI capabilities over someone else's infrastructure -- EMR systems you don't own, payer portals you don't control, regulatory APIs designed for everyone. When I backed Square, the technology created a fundamentally new payment surface that displaced traditional POS infrastructure. ClaimGlide creates a slightly faster interface to the same broken process. That distinction is everything.
+
+I'll acknowledge what I can't see from a dossier: Lindquist's learning rate during YC, whether there are paying customers behind the scenes, and whether the founder's thinking has evolved toward something more ambitious. At pre-seed, a single pivot toward attacking the root cause -- the prior authorization requirement itself, or the payer-provider information asymmetry that makes it necessary -- could change this calculus entirely. But based on what's presented, this is a talented founder building a modest workflow tool in a crowded market. I don't write checks for the probability of a decent outcome. I write checks for the possibility of a transformational one.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Consequence Magnitude If Successful | 7/30 |
+| Founder Learning Rate and Contrarian Courage | 10/25 |
+| Technology Disruption Potential vs. Incumbent Systems | 5/20 |
+| Rate of Change and Timing Trajectory | 8/15 |
+| Gene Pool Engineering and Team Construction | 3/10 |
+| **Total** | **33/100** |
+
+**Total Score: 33/100** (Pass)

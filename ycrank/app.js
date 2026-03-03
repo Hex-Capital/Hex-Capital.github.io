@@ -180,6 +180,10 @@ function app() {
         } else if (col === 'teamSize') {
           va = a.teamSize != null ? a.teamSize : -1;
           vb = b.teamSize != null ? b.teamSize : -1;
+        } else if (col === 'ycPartner') {
+          va = (a.ycPartner || '').toLowerCase();
+          vb = (b.ycPartner || '').toLowerCase();
+          return va < vb ? -dir : va > vb ? dir : 0;
         } else if (a.scores && a.scores[col] !== undefined) {
           // Persona abbreviation column (CB, EG, NR, PG, PT, SL, VK)
           va = a.scores[col] != null ? a.scores[col] : -1;
@@ -200,7 +204,7 @@ function app() {
       } else {
         this.sortCol = col;
         // Default ascending for rank/name, descending for scores/avg
-        this.sortDir = (col === 'rank' || col === 'name') ? 1 : -1;
+        this.sortDir = (col === 'rank' || col === 'name' || col === 'ycPartner') ? 1 : -1;
       }
     },
 
@@ -341,6 +345,16 @@ function app() {
         batch: this.currentBatch
       });
       window.open(`/api/email/draft?${params}`, '_blank');
+    },
+
+    generateMeetingNotes() {
+      if (!this.companyData || this.staticMode) return;
+      const params = new URLSearchParams({
+        companySlug: this.companyData.slug,
+        batch: this.currentBatch,
+        model: this.councilModel
+      });
+      window.open(`/api/meetingnotes/generate?${params}`, '_blank');
     },
 
     selectAllCouncilPersonas() {

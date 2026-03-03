@@ -71,6 +71,7 @@
       "avg": 66.71,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "Space solar arrays that grow to the size of a football field in orbit",
       "industry": "Industrials / Industrials -> Aviation and Space",
       "tags": [
@@ -106,6 +107,7 @@
       "avg": 64.43,
       "revenue": null,
       "teamSize": 4,
+      "ycPartner": "Tyler Bosmeny",
       "oneLiner": "Robot Cowboys that Herd Cattle with AI Drones",
       "industry": "Industrials / Industrials -> Agriculture",
       "tags": [
@@ -141,6 +143,7 @@
       "avg": 61,
       "revenue": null,
       "teamSize": 5,
+      "ycPartner": null,
       "oneLiner": "Self Charging Drones",
       "industry": "Industrials / Industrials -> Drones",
       "tags": [
@@ -174,6 +177,7 @@
       "avg": 60.29,
       "revenue": null,
       "teamSize": 3,
+      "ycPartner": "Ankit Gupta",
       "oneLiner": "Evolutionary therapies for autoimmune disease",
       "industry": "Healthcare / Healthcare -> Drug Discovery and Delivery",
       "tags": [
@@ -207,6 +211,7 @@
       "avg": 57.29,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "Algorithmic safety validation tools for autonomy.",
       "industry": "B2B / B2B -> Engineering, Product and Design",
       "tags": [
@@ -242,6 +247,7 @@
       "avg": 57.14,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": "Ankit Gupta",
       "oneLiner": "AI DevOps Engineer",
       "industry": "B2B / B2B",
       "tags": [
@@ -275,6 +281,7 @@
       "avg": 56.57,
       "revenue": null,
       "teamSize": 1,
+      "ycPartner": "Tyler Bosmeny",
       "oneLiner": "Always know what the FDA thinks",
       "industry": "B2B / B2B",
       "tags": [
@@ -307,6 +314,7 @@
       "avg": 56.29,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "Turn documents into signals for lenders",
       "industry": "Fintech / Fintech",
       "tags": [
@@ -340,6 +348,7 @@
       "avg": 55.71,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": "Gustaf Alstromer",
       "oneLiner": "AI-powered grid planning in your browser 🦑 (squid.energy)",
       "industry": "Industrials / Industrials -> Energy",
       "tags": []
@@ -369,6 +378,7 @@
       "avg": 55.43,
       "revenue": null,
       "teamSize": 3,
+      "ycPartner": null,
       "oneLiner": "Stopping Scams Before They Reach Your Customers",
       "industry": "B2B / B2B -> Security",
       "tags": [
@@ -404,6 +414,7 @@
       "avg": 55.43,
       "revenue": null,
       "teamSize": 4,
+      "ycPartner": "Jared Friedman (YC page)",
       "oneLiner": "AI for space mission assurance.",
       "industry": "B2B / B2B -> Analytics",
       "tags": [
@@ -439,6 +450,7 @@
       "avg": 54.86,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "We build radars for end-to-end autonomy",
       "industry": "Industrials / Industrials",
       "tags": [
@@ -473,6 +485,7 @@
       "avg": 54.43,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "The agentic drug company. We simulate human biology.",
       "industry": "Healthcare / Healthcare -> Drug Discovery and Delivery",
       "tags": [
@@ -508,6 +521,7 @@
       "avg": 54.43,
       "revenue": null,
       "teamSize": 3,
+      "ycPartner": null,
       "oneLiner": "Protect, monitor and defend your Internet presence",
       "industry": "B2B / B2B -> Security",
       "tags": [
@@ -541,6 +555,7 @@
       "avg": 54.14,
       "revenue": null,
       "teamSize": 1,
+      "ycPartner": null,
       "oneLiner": "We help hardware companies ship faster",
       "industry": "B2B / B2B -> Engineering, Product and Design",
       "tags": [
@@ -575,6 +590,7 @@
       "avg": 53.14,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "Custom aerospace-grade battery pack factory",
       "industry": "Industrials / Industrials -> Manufacturing and Robotics",
       "tags": [
@@ -607,6 +623,7 @@
       "avg": 53.14,
       "revenue": null,
       "teamSize": 3,
+      "ycPartner": null,
       "oneLiner": "Energy independent data centers with solar and repurposed batteries.",
       "industry": "Industrials / Industrials -> Energy",
       "tags": [
@@ -640,6 +657,7 @@
       "avg": 52.43,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": "Ankit Gupta",
       "oneLiner": "AI Drone Systems for Defence",
       "industry": "Industrials / Industrials -> Defense",
       "tags": [
@@ -673,6 +691,7 @@
       "avg": 52.14,
       "revenue": null,
       "teamSize": 3,
+      "ycPartner": null,
       "oneLiner": "The AI-native platform for next-generation protein characterization.",
       "industry": "B2B / B2B",
       "tags": [
@@ -708,6 +727,7 @@
       "avg": 51,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "We help clinics get patients on biologics faster",
       "industry": "Healthcare / Healthcare",
       "tags": [
@@ -740,6 +760,7 @@
       "avg": 50.57,
       "revenue": null,
       "teamSize": 1,
+      "ycPartner": "Tyler Bosmeny",
       "oneLiner": "Tankless Dive Gear - Breath Autonomy at Sea, Land & Space",
       "industry": "Industrials / Industrials -> Defense",
       "tags": [
@@ -775,6 +796,7 @@
       "avg": 50.14,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "AI-native workspace for municipal development review",
       "industry": "B2B / B2B -> Legal",
       "tags": [
@@ -809,6 +831,7 @@
       "avg": 50.14,
       "revenue": null,
       "teamSize": 1,
+      "ycPartner": null,
       "oneLiner": "Making an industrial supply chain for building robots in the USA",
       "industry": "Industrials / Industrials",
       "tags": [
@@ -843,6 +866,7 @@
       "avg": 50.14,
       "revenue": null,
       "teamSize": 3,
+      "ycPartner": null,
       "oneLiner": "Solving language barriers in healthcare",
       "industry": "Healthcare / Healthcare",
       "tags": [
@@ -877,6 +901,7 @@
       "avg": 50,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "Robots that run autonomous depots for autonomous fleets.",
       "industry": "Industrials / Industrials -> Energy",
       "tags": [
@@ -912,6 +937,7 @@
       "avg": 49.43,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "Building the First Hotel on the Moon",
       "industry": "Industrials / Industrials -> Aviation and Space",
       "tags": [
@@ -946,6 +972,7 @@
       "avg": 49.29,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": "Brad Flora",
       "oneLiner": "AI agent for video work outside the NLE",
       "industry": "B2B / B2B",
       "tags": [
@@ -978,6 +1005,7 @@
       "avg": 48.86,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": "Gustaf Alstromer",
       "oneLiner": "AI Revenue Engine for the Equipment Industry",
       "industry": "B2B / B2B",
       "tags": [
@@ -1010,6 +1038,7 @@
       "avg": 48.71,
       "revenue": null,
       "teamSize": 3,
+      "ycPartner": null,
       "oneLiner": "The AI native law firm for growth stage companies",
       "industry": "B2B / B2B -> Legal",
       "tags": [
@@ -1042,6 +1071,7 @@
       "avg": 48.71,
       "revenue": null,
       "teamSize": 8,
+      "ycPartner": "Tyler Bosmeny",
       "oneLiner": "Multilingual voice agents with safe human escalation when needed",
       "industry": "B2B / B2B",
       "tags": [
@@ -1075,6 +1105,7 @@
       "avg": 48.43,
       "revenue": null,
       "teamSize": 4,
+      "ycPartner": null,
       "oneLiner": "AI benchmarks that measure general intelligence and inspire new ideas",
       "industry": "Industrials / Industrials",
       "tags": []
@@ -1104,6 +1135,7 @@
       "avg": 48.43,
       "revenue": null,
       "teamSize": 3,
+      "ycPartner": null,
       "oneLiner": "Technology to detect and track hostile drones",
       "industry": "Industrials / Industrials -> Drones",
       "tags": [
@@ -1137,6 +1169,7 @@
       "avg": 48.43,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "AI-powered uranium exploration",
       "industry": "Industrials / Industrials -> Energy",
       "tags": [
@@ -1170,6 +1203,7 @@
       "avg": 47.86,
       "revenue": null,
       "teamSize": 3,
+      "ycPartner": null,
       "oneLiner": "The Infrastructure Powering Human-In-Computer Models",
       "industry": "B2B / B2B -> Infrastructure",
       "tags": [
@@ -1205,6 +1239,7 @@
       "avg": 47.71,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": "Brad Flora",
       "oneLiner": "AI powered reconciliation for high-volume payments companies",
       "industry": "B2B / B2B -> Finance and Accounting",
       "tags": [
@@ -1240,6 +1275,7 @@
       "avg": 47.14,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "World models for VLA evals and training.",
       "industry": "Industrials / Manufacturing and Robotics",
       "tags": [
@@ -1274,6 +1310,7 @@
       "avg": 46.86,
       "revenue": null,
       "teamSize": 3,
+      "ycPartner": "Jared Friedman",
       "oneLiner": "Automates admin for aircraft technicians",
       "industry": "B2B / B2B",
       "tags": [
@@ -1307,6 +1344,7 @@
       "avg": 46.71,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "Payroll for performance",
       "industry": "Fintech / Fintech -> Payments",
       "tags": [
@@ -1339,6 +1377,7 @@
       "avg": 46.57,
       "revenue": null,
       "teamSize": 3,
+      "ycPartner": null,
       "oneLiner": "The AI-powered law firm for complex work visas",
       "industry": "B2B / B2B -> Legal",
       "tags": [
@@ -1374,6 +1413,7 @@
       "avg": 46.57,
       "revenue": null,
       "teamSize": 3,
+      "ycPartner": null,
       "oneLiner": "The first AI-powered grand strategy platform",
       "industry": "Consumer / Consumer -> Gaming",
       "tags": [
@@ -1408,6 +1448,7 @@
       "avg": 46.43,
       "revenue": null,
       "teamSize": 3,
+      "ycPartner": "Diana Hu",
       "oneLiner": "Unified prediction markets trading platform",
       "industry": "Fintech / Consumer Finance",
       "tags": [
@@ -1441,6 +1482,7 @@
       "avg": 46.29,
       "revenue": null,
       "teamSize": 3,
+      "ycPartner": null,
       "oneLiner": "Your Hotel's Best Employees",
       "industry": "B2B / B2B",
       "tags": [
@@ -1475,6 +1517,7 @@
       "avg": 46.29,
       "revenue": null,
       "teamSize": 4,
+      "ycPartner": null,
       "oneLiner": "Commercial insurance brokerage run by AI agents. Scales like software.",
       "industry": "Fintech / Fintech -> Insurance",
       "tags": [
@@ -1507,6 +1550,7 @@
       "avg": 46.14,
       "revenue": null,
       "teamSize": 5,
+      "ycPartner": "Ankit Gupta",
       "oneLiner": "Manipulate Anything Robot",
       "industry": "Industrials / Industrials",
       "tags": [
@@ -1540,6 +1584,7 @@
       "avg": 45.71,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "Foundation models for 24/7 Earth Observation",
       "industry": "Industrials / Industrials -> Aviation and Space",
       "tags": [
@@ -1573,6 +1618,7 @@
       "avg": 45.57,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "Inference at Light Speed",
       "industry": "B2B / B2B -> Infrastructure",
       "tags": [
@@ -1608,6 +1654,7 @@
       "avg": 45.14,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "Enable developers to build and run AI vision applications",
       "industry": "B2B / B2B",
       "tags": [
@@ -1641,6 +1688,7 @@
       "avg": 45,
       "revenue": null,
       "teamSize": 12,
+      "ycPartner": null,
       "oneLiner": "All-in-one identity platform for fast human verification.",
       "industry": "B2B / B2B -> Infrastructure",
       "tags": [
@@ -1674,6 +1722,7 @@
       "avg": 44.57,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "RL for performance marketing",
       "industry": "B2B / B2B -> Analytics",
       "tags": [
@@ -1708,6 +1757,7 @@
       "avg": 44,
       "revenue": null,
       "teamSize": 4,
+      "ycPartner": null,
       "oneLiner": "Intelligence for Automotive Operations",
       "industry": "B2B / B2B",
       "tags": [
@@ -1740,6 +1790,7 @@
       "avg": 43.86,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "The AI Toolkit for Risk Teams",
       "industry": "B2B / B2B",
       "tags": [
@@ -1773,6 +1824,7 @@
       "avg": 43.71,
       "revenue": null,
       "teamSize": 1,
+      "ycPartner": "Tyler Bosmeny",
       "oneLiner": "Global upload acceleration for 1GB-100TB files.",
       "industry": "B2B / B2B",
       "tags": [
@@ -1806,6 +1858,7 @@
       "avg": 43.71,
       "revenue": null,
       "teamSize": 3,
+      "ycPartner": "Gustaf Alstromer",
       "oneLiner": "Agentic revenue growth for home service businesses.",
       "industry": "B2B / B2B -> Productivity",
       "tags": [
@@ -1839,6 +1892,7 @@
       "avg": 43.43,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": "Diana Hu",
       "oneLiner": "The autonomous operating system for healthcare",
       "industry": "Healthcare / Healthcare",
       "tags": [
@@ -1874,6 +1928,7 @@
       "avg": 43.29,
       "revenue": null,
       "teamSize": 5,
+      "ycPartner": null,
       "oneLiner": "Startup legal work handled by elite lawyers & same-day turnaround",
       "industry": "B2B / B2B -> Legal",
       "tags": []
@@ -1903,6 +1958,7 @@
       "avg": 43.29,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "AI Copilot for Electrical Estimating",
       "industry": "Real Estate and Construction / Construction",
       "tags": [
@@ -1937,6 +1993,7 @@
       "avg": 43,
       "revenue": null,
       "teamSize": 4,
+      "ycPartner": "Brad Flora",
       "oneLiner": "Autopiloting your AI infrastructure",
       "industry": "B2B / B2B -> Infrastructure",
       "tags": [
@@ -1972,6 +2029,7 @@
       "avg": 42.86,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": "Ankit Gupta",
       "oneLiner": "Agentic video editor",
       "industry": "B2B / B2B",
       "tags": [
@@ -2007,6 +2065,7 @@
       "avg": 42.86,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": "Tyler Bosmeny",
       "oneLiner": "Cross-border Personal Finance on Stablecoins",
       "industry": "Fintech / Consumer Finance",
       "tags": [
@@ -2038,6 +2097,7 @@
       "avg": 42.57,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "Autonomous loan servicing and collections",
       "industry": "Fintech / Credit and Lending",
       "tags": [
@@ -2073,6 +2133,7 @@
       "avg": 42.57,
       "revenue": null,
       "teamSize": null,
+      "ycPartner": "Tyler Bosmeny",
       "oneLiner": "Real-world place intelligence for AI apps and agents",
       "industry": "B2B / B2B",
       "tags": [
@@ -2108,6 +2169,7 @@
       "avg": 42.43,
       "revenue": null,
       "teamSize": 3,
+      "ycPartner": null,
       "oneLiner": "FullSeam is an AI employee for finance and accounting teams.",
       "industry": "B2B / B2B -> Finance and Accounting",
       "tags": [
@@ -2142,6 +2204,7 @@
       "avg": 42.43,
       "revenue": null,
       "teamSize": 3,
+      "ycPartner": null,
       "oneLiner": "Multi-chain deposit and payment infrastructure",
       "industry": "Fintech / Fintech -> Payments",
       "tags": [
@@ -2176,6 +2239,7 @@
       "avg": 42.29,
       "revenue": null,
       "teamSize": 4,
+      "ycPartner": null,
       "oneLiner": "Fully autonomous operations for CPG brands",
       "industry": "B2B / B2B -> Operations",
       "tags": [
@@ -2211,6 +2275,7 @@
       "avg": 42.29,
       "revenue": null,
       "teamSize": 4,
+      "ycPartner": null,
       "oneLiner": "AI for safer cell & gene therapies",
       "industry": "Healthcare / Healthcare -> Drug Discovery and Delivery",
       "tags": [
@@ -2245,6 +2310,7 @@
       "avg": 42.29,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": "Tyler Bosmeny",
       "oneLiner": "AI agents for chip design.",
       "industry": "B2B / B2B -> Engineering, Product and Design",
       "tags": [
@@ -2278,6 +2344,7 @@
       "avg": 42.14,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "Robotics and computer vision to automate fish farming from hatchery?",
       "industry": "Industrials / Industrials -> Climate",
       "tags": [
@@ -2312,6 +2379,7 @@
       "avg": 41.86,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": "Jared Friedman",
       "oneLiner": "Collaborative AI-native filmmaking for professionals",
       "industry": "B2B / B2B -> Engineering, Product and Design",
       "tags": [
@@ -2347,6 +2415,7 @@
       "avg": 41.86,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "AI for M&A",
       "industry": "Fintech / Fintech -> Banking and Exchange",
       "tags": [
@@ -2381,6 +2450,7 @@
       "avg": 41.71,
       "revenue": null,
       "teamSize": 3,
+      "ycPartner": "Jared Friedman",
       "oneLiner": "AI agents that replace your policy consultants",
       "industry": "B2B / B2B -> Legal",
       "tags": [
@@ -2416,6 +2486,7 @@
       "avg": 41.71,
       "revenue": null,
       "teamSize": 3,
+      "ycPartner": "Gustaf Alstromer",
       "oneLiner": "Physics-Enhanced Datasets for Low-Resource Machine Learning",
       "industry": "B2B / B2B -> Infrastructure",
       "tags": [
@@ -2450,6 +2521,7 @@
       "avg": 41.71,
       "revenue": null,
       "teamSize": 1,
+      "ycPartner": "Jared Friedman",
       "oneLiner": "AI operator for legal case referrals",
       "industry": "B2B / B2B -> Legal",
       "tags": [
@@ -2483,6 +2555,7 @@
       "avg": 41.57,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": "Diana Hu",
       "oneLiner": "AI on-call engineer that debugs using data",
       "industry": "B2B / B2B -> Engineering, Product and Design",
       "tags": [
@@ -2518,6 +2591,7 @@
       "avg": 41.57,
       "revenue": null,
       "teamSize": 3,
+      "ycPartner": "Gustaf Alstromer",
       "oneLiner": "Strength Tracking Wearable",
       "industry": "Consumer / Consumer -> Consumer Electronics",
       "tags": [
@@ -2552,6 +2626,7 @@
       "avg": 41.29,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "AI Agents for Primary Care",
       "industry": "Healthcare / Healthcare",
       "tags": [
@@ -2585,6 +2660,7 @@
       "avg": 41.29,
       "revenue": null,
       "teamSize": 3,
+      "ycPartner": null,
       "oneLiner": "Financial infrastructure for the agent economy",
       "industry": "B2B / B2B",
       "tags": [
@@ -2620,6 +2696,7 @@
       "avg": 41.14,
       "revenue": null,
       "teamSize": 3,
+      "ycPartner": null,
       "oneLiner": "Internet-scale marketplace for robot training data",
       "industry": "B2B / B2B -> Supply Chain and Logistics",
       "tags": [
@@ -2653,6 +2730,7 @@
       "avg": 41.14,
       "revenue": null,
       "teamSize": 4,
+      "ycPartner": null,
       "oneLiner": "The first AI QA engineer that understands your codebase",
       "industry": "B2B / B2B -> Engineering, Product and Design",
       "tags": [
@@ -2687,6 +2765,7 @@
       "avg": 41.14,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": "Gustaf Alstromer",
       "oneLiner": "Realtime AI starting with sales",
       "industry": "B2B / B2B",
       "tags": [
@@ -2720,6 +2799,7 @@
       "avg": 41.14,
       "revenue": null,
       "teamSize": 3,
+      "ycPartner": "Tyler Bosmeny",
       "oneLiner": "We simulate orthopedic surgeries based on CT scans",
       "industry": "Healthcare / Healthcare IT",
       "tags": [
@@ -2753,6 +2833,7 @@
       "avg": 41.14,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": "Brad Flora",
       "oneLiner": "Automating dexterous tasks in warehouses",
       "industry": "Industrials / Manufacturing and Robotics",
       "tags": [
@@ -2787,6 +2868,7 @@
       "avg": 40.86,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "We make enterprise-scale short-form video really simple.",
       "industry": "B2B / B2B -> Engineering, Product and Design",
       "tags": [
@@ -2820,6 +2902,7 @@
       "avg": 40.71,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "The Space Robotics Company",
       "industry": "Industrials / Manufacturing and Robotics",
       "tags": [
@@ -2853,6 +2936,7 @@
       "avg": 40.71,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "Agentic Payments for APIs",
       "industry": "B2B / B2B -> Infrastructure",
       "tags": [
@@ -2887,6 +2971,7 @@
       "avg": 40.57,
       "revenue": null,
       "teamSize": 0,
+      "ycPartner": null,
       "oneLiner": "Crypto/fintech compliance simplified.",
       "industry": "B2B / B2B -> Finance and Accounting",
       "tags": [
@@ -2919,6 +3004,7 @@
       "avg": 40.43,
       "revenue": null,
       "teamSize": 1,
+      "ycPartner": "Tyler Bosmeny",
       "oneLiner": "AI generated proposals for residential construction projects",
       "industry": "Real Estate and Construction / Real Estate and Construction",
       "tags": [
@@ -2953,6 +3039,7 @@
       "avg": 40.29,
       "revenue": null,
       "teamSize": 3,
+      "ycPartner": "Jared Friedman (YC page)",
       "oneLiner": "Energy OS enabling reliable, cheap and sustainable electricity supply.",
       "industry": "Industrials / Industrials -> Energy",
       "tags": [
@@ -2985,6 +3072,7 @@
       "avg": 40.14,
       "revenue": null,
       "teamSize": 4,
+      "ycPartner": "Jon Xu",
       "oneLiner": "The AI Scheduling Assistant that truly knows you.",
       "industry": "B2B / B2B",
       "tags": [
@@ -3020,6 +3108,7 @@
       "avg": 40,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "Helping insurers settle claims without leaving their desks.",
       "industry": "Industrials / Industrials -> Agriculture",
       "tags": [
@@ -3052,6 +3141,7 @@
       "avg": 39.86,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "Building the Future of Multimodal AI",
       "industry": "B2B / B2B",
       "tags": [
@@ -3085,6 +3175,7 @@
       "avg": 39.71,
       "revenue": null,
       "teamSize": 4,
+      "ycPartner": "Brad Flora",
       "oneLiner": "Full-Stack AI Accounting",
       "industry": "B2B / Finance and Accounting",
       "tags": [
@@ -3118,6 +3209,7 @@
       "avg": 39.71,
       "revenue": null,
       "teamSize": 5,
+      "ycPartner": "Jared Friedman",
       "oneLiner": "The system of record for enterprise AI usage.",
       "industry": "B2B / B2B -> Infrastructure",
       "tags": [
@@ -3151,6 +3243,7 @@
       "avg": 39.57,
       "revenue": null,
       "teamSize": null,
+      "ycPartner": "Ankit Gupta",
       "oneLiner": "Simple and rapidly deployed robots for industry work",
       "industry": "Industrials / Industrials -> Manufacturing and Robotics",
       "tags": [
@@ -3186,6 +3279,7 @@
       "avg": 39.43,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": "Brad Flora",
       "oneLiner": "AI agents to automate hardware procurement",
       "industry": "B2B / B2B -> Marketing",
       "tags": [
@@ -3219,6 +3313,7 @@
       "avg": 39.29,
       "revenue": null,
       "teamSize": 3,
+      "ycPartner": null,
       "oneLiner": "The AI R&D Engineer",
       "industry": "B2B / B2B",
       "tags": [
@@ -3251,6 +3346,7 @@
       "avg": 38.86,
       "revenue": null,
       "teamSize": 3,
+      "ycPartner": null,
       "oneLiner": "Anyone can create real games with AI",
       "industry": "Consumer / Consumer -> Gaming",
       "tags": [
@@ -3286,6 +3382,7 @@
       "avg": 38.86,
       "revenue": null,
       "teamSize": 3,
+      "ycPartner": "Not listed",
       "oneLiner": "Your 24/7 Data Analyst",
       "industry": "B2B / B2B -> Analytics",
       "tags": [
@@ -3319,6 +3416,7 @@
       "avg": 38.57,
       "revenue": null,
       "teamSize": 4,
+      "ycPartner": "Jared Friedman (YC company page)",
       "oneLiner": "The next generation of the intelligence layer for the physical world",
       "industry": "B2B / B2B",
       "tags": [
@@ -3352,6 +3450,7 @@
       "avg": 38.57,
       "revenue": null,
       "teamSize": 3,
+      "ycPartner": "Gustaf Alstromer (YC page)",
       "oneLiner": "AI voice agent for patient calls & admin workflows",
       "industry": "Healthcare / Healthcare IT",
       "tags": [
@@ -3386,6 +3485,7 @@
       "avg": 38.57,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "Protent turns passive surveillance into proactive intelligence.",
       "industry": "B2B / B2B -> Security",
       "tags": [
@@ -3421,6 +3521,7 @@
       "avg": 38.57,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "Shortening hardware design cycles by automating post-CAD work",
       "industry": "B2B / B2B -> Engineering, Product and Design",
       "tags": [
@@ -3456,6 +3557,7 @@
       "avg": 38.43,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": "Ankit Gupta",
       "oneLiner": "AI Agents for the supply chain.",
       "industry": "B2B / B2B -> Supply Chain and Logistics",
       "tags": [
@@ -3489,6 +3591,7 @@
       "avg": 38.43,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": "Gustaf Alstromer",
       "oneLiner": "AI co-scientists that run research end-to-end",
       "industry": "B2B / B2B -> Engineering, Product and Design",
       "tags": [
@@ -3522,6 +3625,7 @@
       "avg": 38.43,
       "revenue": null,
       "teamSize": 3,
+      "ycPartner": null,
       "oneLiner": "AI Law Firm + Legal Tech Platform for Startups",
       "industry": "B2B / B2B -> Legal",
       "tags": [
@@ -3556,6 +3660,7 @@
       "avg": 38.29,
       "revenue": null,
       "teamSize": 4,
+      "ycPartner": "Jared Friedman",
       "oneLiner": "Multimodal data provider for robotics learning",
       "industry": "Industrials / Industrials -> Manufacturing and Robotics",
       "tags": [
@@ -3589,6 +3694,7 @@
       "avg": 37.86,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "The first regulated exchange to trade on attention.",
       "industry": "Fintech / Fintech",
       "tags": [
@@ -3622,6 +3728,7 @@
       "avg": 37.71,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "The default way of running On-Device AI at Scale",
       "industry": "B2B / B2B -> Infrastructure",
       "tags": [
@@ -3657,6 +3764,7 @@
       "avg": 37.71,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": "Gustaf Alstromer (YC page via WebFetch)",
       "oneLiner": "AI Platform for Precision Outbound",
       "industry": "B2B / B2B",
       "tags": [
@@ -3688,6 +3796,7 @@
       "avg": 37.29,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": "Jon Xu",
       "oneLiner": "AI compliance officers",
       "industry": "B2B / B2B",
       "tags": [
@@ -3721,6 +3830,7 @@
       "avg": 37.14,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "Accurate knowledge search that scales",
       "industry": "B2B / B2B -> Infrastructure",
       "tags": [
@@ -3754,6 +3864,7 @@
       "avg": 37,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "a platform for maximizing the thrill of collecting trading cards",
       "industry": "Consumer / Consumer -> Gaming",
       "tags": [
@@ -3787,6 +3898,7 @@
       "avg": 37,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "AI-powered scheduling and hiring service for home care agencies.",
       "industry": "B2B / B2B -> Operations",
       "tags": [
@@ -3822,6 +3934,7 @@
       "avg": 36.86,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "Enterprise-grade security for broad-access AI Agents like OpenClaw",
       "industry": "B2B / B2B",
       "tags": [
@@ -3856,6 +3969,7 @@
       "avg": 36.86,
       "revenue": null,
       "teamSize": 3,
+      "ycPartner": null,
       "oneLiner": "AI-powered automation for internal audit workflows",
       "industry": "B2B / B2B",
       "tags": [
@@ -3890,6 +4004,7 @@
       "avg": 36.71,
       "revenue": null,
       "teamSize": 3,
+      "ycPartner": null,
       "oneLiner": "The AI-native Recruiting Operating System",
       "industry": "B2B / B2B",
       "tags": [
@@ -3922,6 +4037,7 @@
       "avg": 36.57,
       "revenue": null,
       "teamSize": 4,
+      "ycPartner": null,
       "oneLiner": "AI Transformation for the Trades",
       "industry": "B2B / B2B",
       "tags": [
@@ -3956,6 +4072,7 @@
       "avg": 36.43,
       "revenue": null,
       "teamSize": 4,
+      "ycPartner": "Ankit Gupta",
       "oneLiner": "Automate any enterprise workflow through chat",
       "industry": "B2B / B2B",
       "tags": []
@@ -3985,6 +4102,7 @@
       "avg": 36.43,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "Long-horizon RL",
       "industry": "B2B / B2B",
       "tags": [
@@ -4019,6 +4137,7 @@
       "avg": 36.14,
       "revenue": null,
       "teamSize": 6,
+      "ycPartner": null,
       "oneLiner": "The world's best AI note-taking device and app",
       "industry": "Consumer / Consumer",
       "tags": []
@@ -4048,6 +4167,7 @@
       "avg": 36.14,
       "revenue": null,
       "teamSize": 4,
+      "ycPartner": "Tyler Bosmeny",
       "oneLiner": "An AI primary care doctor in your pocket",
       "industry": "Healthcare / Consumer Health and Wellness",
       "tags": [
@@ -4079,6 +4199,7 @@
       "avg": 36,
       "revenue": null,
       "teamSize": 1,
+      "ycPartner": null,
       "oneLiner": "AI Powered Medical Billing",
       "industry": "Healthcare / Healthcare Services",
       "tags": [
@@ -4112,6 +4233,7 @@
       "avg": 35.86,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "We're an AI research lab focused on learning efficiency",
       "industry": "B2B / B2B",
       "tags": [
@@ -4144,6 +4266,7 @@
       "avg": 35.86,
       "revenue": null,
       "teamSize": 4,
+      "ycPartner": null,
       "oneLiner": "Doomscroll to learn languages",
       "industry": "Consumer / Consumer",
       "tags": [
@@ -4175,6 +4298,7 @@
       "avg": 35.86,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "AI luxury concierge for E-commerce brands",
       "industry": "B2B / B2B -> Retail",
       "tags": [
@@ -4208,6 +4332,7 @@
       "avg": 35.86,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "Find anyone in open source",
       "industry": "B2B / B2B -> Human Resources",
       "tags": [
@@ -4242,6 +4367,7 @@
       "avg": 35.86,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "Bypass the App Store tax and enable web-based purchases",
       "industry": "B2B / B2B -> Sales",
       "tags": [
@@ -4275,6 +4401,7 @@
       "avg": 35.71,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "Serverless GPU Cloud — with managed inference stack",
       "industry": "B2B / B2B -> Infrastructure",
       "tags": [
@@ -4309,6 +4436,7 @@
       "avg": 35.71,
       "revenue": null,
       "teamSize": 4,
+      "ycPartner": null,
       "oneLiner": "Vercel for background agents",
       "industry": "B2B / B2B -> Infrastructure",
       "tags": [
@@ -4344,6 +4472,7 @@
       "avg": 35.57,
       "revenue": null,
       "teamSize": null,
+      "ycPartner": null,
       "oneLiner": "AI Document Workflows for Enterprises",
       "industry": "B2B / B2B -> Operations",
       "tags": [
@@ -4377,6 +4506,7 @@
       "avg": 35.14,
       "revenue": null,
       "teamSize": 3,
+      "ycPartner": null,
       "oneLiner": "Orchestration layer for coding agents",
       "industry": "B2B / B2B -> Engineering, Product and Design",
       "tags": [
@@ -4410,6 +4540,7 @@
       "avg": 35.14,
       "revenue": null,
       "teamSize": 3,
+      "ycPartner": null,
       "oneLiner": "AI Crime Detection",
       "industry": "B2B / B2B -> Retail",
       "tags": [
@@ -4443,6 +4574,7 @@
       "avg": 35.14,
       "revenue": null,
       "teamSize": 4,
+      "ycPartner": "Jared Friedman",
       "oneLiner": "Common Crawl for Video",
       "industry": "B2B / B2B -> Infrastructure",
       "tags": [
@@ -4477,6 +4609,7 @@
       "avg": 35,
       "revenue": null,
       "teamSize": 1,
+      "ycPartner": "Jared Friedman",
       "oneLiner": "AI automated prior-auths for private medical practices",
       "industry": "Healthcare / Healthcare Services",
       "tags": [
@@ -4511,6 +4644,7 @@
       "avg": 35,
       "revenue": null,
       "teamSize": 4,
+      "ycPartner": null,
       "oneLiner": "Bridging the Gap between Solvers and Training.",
       "industry": "B2B / B2B -> Infrastructure",
       "tags": [
@@ -4544,6 +4678,7 @@
       "avg": 34.86,
       "revenue": null,
       "teamSize": 3,
+      "ycPartner": "Ankit Gupta",
       "oneLiner": "Orchestration layer for coding agents",
       "industry": "B2B / B2B -> Engineering, Product and Design",
       "tags": [
@@ -4577,6 +4712,7 @@
       "avg": 34.71,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "AI SRE agent that triages, coordinates, and fixes production incidents",
       "industry": "B2B / B2B -> Infrastructure",
       "tags": [
@@ -4610,6 +4746,7 @@
       "avg": 34.57,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "Turning everyday words and actions into usable training data.",
       "industry": "B2B / B2B -> Infrastructure",
       "tags": [
@@ -4643,6 +4780,7 @@
       "avg": 34.43,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "Curated multimodal datasets for biology AI",
       "industry": "Healthcare / Healthcare -> Drug Discovery and Delivery",
       "tags": [
@@ -4676,6 +4814,7 @@
       "avg": 34.29,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "Super fast computer-use agents to automate complex workflows.",
       "industry": "B2B / B2B",
       "tags": [
@@ -4709,6 +4848,7 @@
       "avg": 34.29,
       "revenue": null,
       "teamSize": 4,
+      "ycPartner": null,
       "oneLiner": "Cursor for patent attorneys",
       "industry": "B2B / B2B",
       "tags": [
@@ -4741,6 +4881,7 @@
       "avg": 34.14,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "Making Autonomous Intelligence Safe & Reliable",
       "industry": "B2B / B2B -> Infrastructure",
       "tags": [
@@ -4776,6 +4917,7 @@
       "avg": 34.14,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "Firewall that controls access to information across AI and humans",
       "industry": "B2B / B2B",
       "tags": [
@@ -4810,6 +4952,7 @@
       "avg": 34,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "We help private equity teams find acquisition targets faster",
       "industry": "B2B / B2B -> Finance and Accounting",
       "tags": [
@@ -4844,6 +4987,7 @@
       "avg": 34,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "Guardrails to validate your agent's actions before they execute",
       "industry": "B2B / B2B -> Infrastructure",
       "tags": [
@@ -4879,6 +5023,7 @@
       "avg": 33.86,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": "Jared Friedman",
       "oneLiner": "Data research company building RL envs for non-deterministic work",
       "industry": "B2B / B2B",
       "tags": [
@@ -4911,6 +5056,7 @@
       "avg": 33.71,
       "revenue": null,
       "teamSize": 3,
+      "ycPartner": "Gustaf Alstromer",
       "oneLiner": "AI-native platform for regulatory document submission",
       "industry": "Healthcare / Healthcare IT",
       "tags": [
@@ -4946,6 +5092,7 @@
       "avg": 33.71,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "The AI product specialist for customer-facing teams",
       "industry": "B2B / B2B -> Productivity",
       "tags": [
@@ -4979,6 +5126,7 @@
       "avg": 33.57,
       "revenue": null,
       "teamSize": 4,
+      "ycPartner": null,
       "oneLiner": "The AI Workspace For Architects",
       "industry": "B2B / B2B",
       "tags": [
@@ -5013,6 +5161,7 @@
       "avg": 33.43,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "Okta for Agents.",
       "industry": "B2B / B2B",
       "tags": [
@@ -5048,6 +5197,7 @@
       "avg": 33.43,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": "Ankit Gupta",
       "oneLiner": "Payments for Voice Agents",
       "industry": "B2B / B2B",
       "tags": [
@@ -5083,6 +5233,7 @@
       "avg": 33.43,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": "Diana Hu",
       "oneLiner": "One package to take your mobile app to production.",
       "industry": "B2B / B2B -> Analytics",
       "tags": [
@@ -5116,6 +5267,7 @@
       "avg": 33.29,
       "revenue": null,
       "teamSize": 1,
+      "ycPartner": "Diana Hu",
       "oneLiner": "Interpretability and reasoning infra for foundation models.",
       "industry": "B2B / B2B",
       "tags": [
@@ -5149,6 +5301,7 @@
       "avg": 33.29,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "AI engineer to triage and fix your production alerts",
       "industry": "B2B / B2B -> Engineering, Product and Design",
       "tags": [
@@ -5181,6 +5334,7 @@
       "avg": 33.29,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": "Jared Friedman",
       "oneLiner": "Compression middleware that improves LLM outputs",
       "industry": "B2B / B2B -> Infrastructure",
       "tags": [
@@ -5216,6 +5370,7 @@
       "avg": 33.29,
       "revenue": null,
       "teamSize": 4,
+      "ycPartner": null,
       "oneLiner": "We use AI to collect and analyze real estate data",
       "industry": "Real Estate and Construction / Real Estate and Construction",
       "tags": [
@@ -5249,6 +5404,7 @@
       "avg": 33.14,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": "Gustaf Alstromer",
       "oneLiner": "Open-source Agentic Development Environment",
       "industry": "B2B / B2B -> Productivity",
       "tags": [
@@ -5283,6 +5439,7 @@
       "avg": 33,
       "revenue": null,
       "teamSize": 4,
+      "ycPartner": null,
       "oneLiner": "more capable than Cowork, more secure than OpenClaw",
       "industry": "B2B / B2B",
       "tags": [
@@ -5318,6 +5475,7 @@
       "avg": 32.71,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "Scaling formal verification to accelerate scientific discovery",
       "industry": "B2B / B2B",
       "tags": [
@@ -5351,6 +5509,7 @@
       "avg": 32.71,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": "Jon Xu",
       "oneLiner": "The most powerful AI agents for Financial Crime Compliance",
       "industry": "Fintech / Fintech",
       "tags": [
@@ -5385,6 +5544,7 @@
       "avg": 32.57,
       "revenue": null,
       "teamSize": 5,
+      "ycPartner": null,
       "oneLiner": "Smarter and faster trade execution for digital assets",
       "industry": "Fintech / Fintech",
       "tags": [
@@ -5418,6 +5578,7 @@
       "avg": 32.43,
       "revenue": null,
       "teamSize": 3,
+      "ycPartner": "Brad Flora",
       "oneLiner": "Personalized notifs & attribution for consumer and self-serve apps",
       "industry": "B2B / B2B",
       "tags": [
@@ -5453,6 +5614,7 @@
       "avg": 32.29,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "Real-time Building Simulations to Optimize Energy and Operational?",
       "industry": "B2B / B2B -> Engineering, Product and Design",
       "tags": [
@@ -5487,6 +5649,7 @@
       "avg": 32.29,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": "Ankit Gupta",
       "oneLiner": "The monitoring & analytics layer your AI agents need.",
       "industry": "B2B / B2B -> Infrastructure",
       "tags": [
@@ -5521,6 +5684,7 @@
       "avg": 32,
       "revenue": null,
       "teamSize": 4,
+      "ycPartner": null,
       "oneLiner": "LLM-native context compression",
       "industry": "B2B / B2B -> Infrastructure",
       "tags": [
@@ -5555,6 +5719,7 @@
       "avg": 32,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "Agents for Mortgage Origination",
       "industry": "B2B / B2B -> Infrastructure",
       "tags": [
@@ -5587,6 +5752,7 @@
       "avg": 32,
       "revenue": null,
       "teamSize": 1,
+      "ycPartner": null,
       "oneLiner": "AI-Native Medico-Legal Firm",
       "industry": "Healthcare / Healthcare",
       "tags": [
@@ -5620,6 +5786,7 @@
       "avg": 32,
       "revenue": null,
       "teamSize": 4,
+      "ycPartner": null,
       "oneLiner": "The Most Integrated M365 AI Suite",
       "industry": "B2B / B2B -> Finance and Accounting",
       "tags": [
@@ -5655,6 +5822,7 @@
       "avg": 31.86,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "AI that automatically watches your session replays to detect bugs.",
       "industry": "B2B / B2B",
       "tags": [
@@ -5688,6 +5856,7 @@
       "avg": 31.57,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": "Jon Xu",
       "oneLiner": "Marketing suite for the agentic web",
       "industry": "B2B / B2B -> Marketing",
       "tags": [
@@ -5721,6 +5890,7 @@
       "avg": 31.57,
       "revenue": null,
       "teamSize": 3,
+      "ycPartner": null,
       "oneLiner": "Adaptive Healthcare Admin Agents",
       "industry": "B2B / B2B -> Office Management",
       "tags": [
@@ -5756,6 +5926,7 @@
       "avg": 31.43,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": "Brad Flora",
       "oneLiner": "Continuous Learning Platform for AI Agents",
       "industry": "B2B / B2B",
       "tags": [
@@ -5789,6 +5960,7 @@
       "avg": 31.29,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": "Diana Hu",
       "oneLiner": "Your ops super-employee in Slack",
       "industry": "B2B / B2B -> Engineering, Product and Design",
       "tags": [
@@ -5822,6 +5994,7 @@
       "avg": 31.14,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": "Harshita Arora",
       "oneLiner": "Dynamic pricing for businesses that sell time slots",
       "industry": "B2B / B2B",
       "tags": [
@@ -5856,6 +6029,7 @@
       "avg": 31.14,
       "revenue": null,
       "teamSize": 4,
+      "ycPartner": "Tyler Bosmeny",
       "oneLiner": "Realtime AI for Sales Calls",
       "industry": "B2B / B2B -> Sales",
       "tags": [
@@ -5890,6 +6064,7 @@
       "avg": 31,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "Models for Monitoring Commodities Markets",
       "industry": "Fintech / Fintech",
       "tags": [
@@ -5921,6 +6096,7 @@
       "avg": 30.71,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": "Ankit Gupta",
       "oneLiner": "AI Communication Lab",
       "industry": "B2B / B2B",
       "tags": [
@@ -5952,6 +6128,7 @@
       "avg": 30.29,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": "Gustaf Alstromer",
       "oneLiner": "AI automations that write themselves",
       "industry": "B2B / B2B -> Productivity",
       "tags": [
@@ -5986,6 +6163,7 @@
       "avg": 30.29,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "AI Employees for your Business, Powered by OpenClaw",
       "industry": "B2B / B2B -> Infrastructure",
       "tags": [
@@ -6020,6 +6198,7 @@
       "avg": 30.14,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "Stalk your prospects at scale.",
       "industry": "B2B / B2B -> Infrastructure",
       "tags": [
@@ -6054,6 +6233,7 @@
       "avg": 29.86,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": "Diana Hu",
       "oneLiner": "Agent & Team Communication Workspace",
       "industry": "B2B / B2B -> Productivity",
       "tags": [
@@ -6086,6 +6266,7 @@
       "avg": 29.71,
       "revenue": null,
       "teamSize": 1,
+      "ycPartner": null,
       "oneLiner": "Make everyone on your team an engineer",
       "industry": "B2B / B2B -> Engineering, Product and Design",
       "tags": [
@@ -6118,6 +6299,7 @@
       "avg": 29.57,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": "Jared Friedman",
       "oneLiner": "Let users control your app through chat",
       "industry": "B2B / B2B",
       "tags": [
@@ -6153,6 +6335,7 @@
       "avg": 29.43,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": "Harshita Arora",
       "oneLiner": "AI-native revenue engine, starting with B2B partnerships",
       "industry": "B2B / B2B",
       "tags": [
@@ -6187,6 +6370,7 @@
       "avg": 29.29,
       "revenue": null,
       "teamSize": 3,
+      "ycPartner": null,
       "oneLiner": "AI Agents for Customer Success",
       "industry": "B2B / B2B -> Operations",
       "tags": [
@@ -6221,6 +6405,7 @@
       "avg": 29.14,
       "revenue": null,
       "teamSize": 3,
+      "ycPartner": null,
       "oneLiner": "Agentic Offensive Security at Scale",
       "industry": "B2B / B2B -> Security",
       "tags": [
@@ -6253,6 +6438,7 @@
       "avg": 28.86,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "AI-native operating system for medspas",
       "industry": "B2B / B2B",
       "tags": [
@@ -6288,6 +6474,7 @@
       "avg": 28,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "Production Monitoring for AI Products",
       "industry": "B2B / B2B -> Engineering, Product and Design",
       "tags": [
@@ -6322,6 +6509,7 @@
       "avg": 27.57,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "Fast and Safe OpenClaw on the cloud",
       "industry": "B2B / B2B -> Infrastructure",
       "tags": [
@@ -6354,6 +6542,7 @@
       "avg": 27.29,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "Button is the wearable AI that can talk.",
       "industry": "B2B / B2B -> Engineering, Product and Design",
       "tags": [
@@ -6387,6 +6576,7 @@
       "avg": 27.14,
       "revenue": null,
       "teamSize": 0,
+      "ycPartner": "Jared Friedman",
       "oneLiner": "The first AI-native messaging platform.",
       "industry": "Consumer / Consumer",
       "tags": []
@@ -6416,6 +6606,7 @@
       "avg": 27,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "Mimic Users in Your Production Environment to Catch Agent Fails",
       "industry": "B2B / B2B -> Human Resources",
       "tags": [
@@ -6451,6 +6642,7 @@
       "avg": 26.86,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": null,
       "oneLiner": "Easily fine tune and deploy specialized models",
       "industry": "B2B / B2B",
       "tags": [
@@ -6484,6 +6676,7 @@
       "avg": 26.71,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": "Ankit Gupta",
       "oneLiner": "Ship code like a power user from day one.",
       "industry": "B2B / B2B -> Productivity",
       "tags": [
@@ -6519,6 +6712,7 @@
       "avg": 26.29,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": "Gustaf Alstromer",
       "oneLiner": "Post-training research and product lab",
       "industry": "B2B / B2B",
       "tags": [
@@ -6554,6 +6748,7 @@
       "avg": 25.14,
       "revenue": null,
       "teamSize": 2,
+      "ycPartner": "Diana Hu",
       "oneLiner": "Let your software build itself with agents that can find issues,?",
       "industry": "B2B / B2B -> Engineering, Product and Design",
       "tags": [

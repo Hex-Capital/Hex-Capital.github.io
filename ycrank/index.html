@@ -143,6 +143,9 @@
               <th class="px-1.5 py-1 text-center text-claude-gray cursor-pointer hover:text-claude-orange w-24 border border-claude-border whitespace-nowrap"
                 @click="sortBy('revenue')"><span class="hidden sm:inline">Annual Revenue</span><span class="sm:hidden">ARR</span><span x-show="sortCol === 'revenue'" x-text="sortDir === 1 ? '\u25B2' : '\u25BC'" class="text-xs ml-0.5"></span>
               </th>
+              <th class="px-1.5 py-1 text-left text-claude-gray cursor-pointer hover:text-claude-orange border border-claude-border whitespace-nowrap hidden lg:table-cell"
+                @click="sortBy('ycPartner')">YC Partner<span x-show="sortCol === 'ycPartner'" x-text="sortDir === 1 ? '\u25B2' : '\u25BC'" class="text-xs ml-0.5"></span>
+              </th>
             </tr>
           </thead>
           <!-- MOBILE-SCORES: Each company is a <tbody> so Alpine can render two rows (data + mobile scores).
@@ -172,6 +175,8 @@
                   x-text="row.teamSize != null ? row.teamSize : '-'"></td>
                 <td class="px-1.5 py-1 text-center tabular-nums text-claude-dim border border-claude-border"
                   x-text="row.revenue != null ? row.revenue : '-'"></td>
+                <td class="px-1.5 py-1 text-claude-dim border border-claude-border hidden lg:table-cell"
+                  x-text="row.ycPartner || '-'"></td>
               </tr>
               <tr class="sm:hidden border-b border-claude-border cursor-pointer transition-colors mobile-scores-row"
                 @click="row.slug && navigate('company/' + row.slug)">
@@ -221,8 +226,13 @@
               <div class="flex-shrink-0 flex gap-2">
                 <button @click="draftEmail()" x-show="!staticMode"
                   class="px-2 sm:px-3 py-1.5 border border-claude-blue text-claude-blue hover:bg-claude-blue hover:text-claude-bg text-sm transition-colors rounded-none flex items-center gap-1.5">
-                  <span class="hidden sm:inline">Send Pre Demo Day Email</span>
+                  <span class="hidden sm:inline">Send Email</span>
                   <span class="sm:hidden">Email</span>
+                </button>
+                <button @click="generateMeetingNotes()" x-show="!staticMode"
+                  class="px-2 sm:px-3 py-1.5 border border-claude-green text-claude-green hover:bg-claude-green hover:text-claude-bg text-sm transition-colors rounded-none flex items-center gap-1.5">
+                  <span class="hidden sm:inline">Meeting Prep</span>
+                  <span class="sm:hidden">Prep</span>
                 </button>
                 <button @click="openCouncil()" x-show="!staticMode"
                   class="px-2 sm:px-3 py-1.5 border border-claude-orange text-claude-orange hover:bg-claude-orange hover:text-claude-bg text-sm transition-colors rounded-none flex items-center gap-1.5">

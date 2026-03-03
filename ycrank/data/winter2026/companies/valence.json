@@ -1,0 +1,76 @@
+{
+  "slug": "valence",
+  "name": "Valence",
+  "oneLiner": "Unified prediction markets trading platform",
+  "metadata": {
+    "website": "https://valence.trade",
+    "yc_page": "https://www.ycombinator.com/companies/valence",
+    "batch": "Winter 2026",
+    "industry": "Fintech / Consumer Finance",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Finance, Consumer Finance, Cryptocurrency",
+    "yc_partner": "Diana Hu",
+    "emails": "contact@valence.trade, careers@valence.trade"
+  },
+  "tags": [
+    "Finance",
+    "Consumer Finance",
+    "Cryptocurrency"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-03T00:47:21.086Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 67,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 38,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 30,
+    "EG": 53,
+    "NR": 58,
+    "PG": 67,
+    "PT": 38,
+    "SL": 41,
+    "VK": 38
+  },
+  "consolidatedAvg": 46.43,
+  "consolidatedRank": 41,
+  "paths": {
+    "memo": "winter2026/memos/valence.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/valence.md",
+      "elad-gil": "winter2026/evals/elad-gil/valence.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/valence.md",
+      "paul-graham": "winter2026/evals/paul-graham/valence.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/valence.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/valence.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/valence.md"
+    }
+  }
+}

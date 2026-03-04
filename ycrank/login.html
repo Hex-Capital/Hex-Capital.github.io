@@ -241,7 +241,7 @@ body {
 
 <script>
 // If already authenticated, redirect to dashboard
-if (sessionStorage.getItem('ycrank_auth')) {
+if (localStorage.getItem('ycrank_auth')) {
   window.location.href = 'index.html';
 }
 
@@ -296,7 +296,7 @@ document.getElementById('loginForm').addEventListener('submit', async function(e
     }
 
     // Store auth token and redirect
-    sessionStorage.setItem('ycrank_auth', emailHash);
+    localStorage.setItem('ycrank_auth', emailHash);
     window.location.href = 'index.html';
   } catch (err) {
     document.getElementById('errorText').textContent = err.message;

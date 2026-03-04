@@ -68,7 +68,7 @@ function app() {
       } catch (e) { /* default false */ }
 
       // Auth gate in static mode
-      if (this.staticMode && !sessionStorage.getItem('ycrank_auth')) {
+      if (this.staticMode && !localStorage.getItem('ycrank_auth')) {
         window.location.href = 'login.html';
         return;
       }
@@ -329,7 +329,7 @@ function app() {
 
     logout() {
       if (this.staticMode) {
-        sessionStorage.removeItem('ycrank_auth');
+        localStorage.removeItem('ycrank_auth');
         window.location.href = 'login.html';
       } else {
         window.location.href = '/logout';

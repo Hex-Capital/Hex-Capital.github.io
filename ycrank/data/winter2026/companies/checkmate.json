@@ -1,0 +1,74 @@
+{
+  "slug": "checkmate",
+  "name": "Checkmate",
+  "oneLiner": "AI-powered primary research platform that conducts autonomous expert interviews for institutional investors",
+  "metadata": {
+    "website": "https://checkmateresearch.ai/",
+    "yc_page": "Unknown",
+    "batch": "Unknown (not confirmed in YC directory)",
+    "industry": "Unknown / Unknown",
+    "team_size": "Unknown",
+    "location": "Unknown",
+    "tags": "Unknown",
+    "yc_partner": "Not listed",
+    "emails": "sales@checkmateresearch.ai"
+  },
+  "tags": [
+    "Unknown"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-04T17:36:55.889Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Strong Pass"
+    },
+    "vinod-khosla": {
+      "score": 44,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 32,
+    "EG": 56,
+    "NR": 43,
+    "PG": 46,
+    "PT": 38,
+    "SL": 29,
+    "VK": 44
+  },
+  "consolidatedAvg": 41.14,
+  "consolidatedRank": 80,
+  "paths": {
+    "memo": "winter2026/memos/checkmate.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/checkmate.md",
+      "elad-gil": "winter2026/evals/elad-gil/checkmate.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/checkmate.md",
+      "paul-graham": "winter2026/evals/paul-graham/checkmate.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/checkmate.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/checkmate.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/checkmate.md"
+    }
+  }
+}

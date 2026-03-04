@@ -8,8 +8,10 @@
     "batch": "Winter 2026",
     "industry": "Industrials / Industrials -> Aviation and Space",
     "team_size": "2",
-    "location": "Pittsburgh, Pennsylvania (Company Launch Tracker, Substack)",
-    "tags": "Hard Tech, Hardware, Space Exploration, Satellites, Aerospace"
+    "location": "Pittsburgh, Pennsylvania (company website)",
+    "tags": "Hard Tech, Hardware, Space Exploration, Satellites, Aerospace",
+    "yc_partner": "Diana Hu",
+    "emails": "founders@beyondreachlabs.io, pele@beyondreachlabs.io (YC page, company website)"
   },
   "tags": [
     "Hard Tech",
@@ -19,48 +21,48 @@
     "Aerospace"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T06:06:01.726Z",
+  "memoGeneratedAt": "2026-03-04T06:30:49.402Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 54,
+      "score": 60,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 53,
-      "tier": "Neutral"
+      "score": 40,
+      "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 73,
+      "score": 68,
       "tier": "Invest"
     },
     "paul-graham": {
-      "score": 74,
+      "score": 68,
       "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 69,
+      "score": 67,
       "tier": "Invest"
     },
     "sam-lessin": {
-      "score": 75,
+      "score": 72,
       "tier": "Invest"
     },
     "vinod-khosla": {
-      "score": 69,
-      "tier": "Invest"
+      "score": 63,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 54,
-    "EG": 53,
-    "NR": 73,
-    "PG": 74,
-    "PT": 69,
-    "SL": 75,
-    "VK": 69
+    "CB": 60,
+    "EG": 40,
+    "NR": 68,
+    "PG": 68,
+    "PT": 67,
+    "SL": 72,
+    "VK": 63
   },
-  "consolidatedAvg": 66.71,
-  "consolidatedRank": 1,
+  "consolidatedAvg": 62.57,
+  "consolidatedRank": 2,
   "paths": {
     "memo": "winter2026/memos/beyond-reach-labs.md",
     "evals": {

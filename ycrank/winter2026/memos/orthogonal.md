@@ -11,107 +11,100 @@
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
 | Tags | Artificial Intelligence, Crypto / Web3, Payments, API |
+| YC Partner | Tyler Bosmeny |
+| Emails | founders@orthogonal.com |
 
 ## The Idea
 
-**Problem:** AI agents are becoming major consumers of APIs but lack a unified way to discover, authenticate with, and pay for them. Currently, each API requires its own account, API key, billing setup, and authentication flow. An agent needing access to 30+ tools faces fragmented key management, billing across dozens of services, and many APIs lacking MCP (Model Context Protocol) integrations entirely (YC company page). Developers building agent workflows must manually stitch together authentication and payments across each provider.
+**Problem:** APIs were not designed for AI agent consumption. Developers building agentic applications face fragmented onboarding across each API provider—separate API key management, separate billing accounts, and separate authentication flows. As the number of APIs an agent needs to call grows, the operational overhead of managing keys, billing, and discovery across dozens of providers becomes a bottleneck. Today, developers manually integrate each API, set up billing, and manage credentials individually.
 
-**Approach:** Orthogonal provides a unified marketplace and payment layer for AI agent-consumed APIs. Developers and agents access hundreds of APIs through a single MCP server (`mcp.orth.sh`) or SDK, authenticated via one Orthogonal API key (docs.orthogonal.com). The platform packages APIs as "Skills" — pre-built integrations that bundle authentication, parameters, workflows, and error handling — installable via CLI (`orth skills add`). API providers list once and become discoverable by all agents and developers on the platform. Current API categories include search, scraping, datasets, AI models, lead enrichment, email verification, and LinkedIn tools (docs.orthogonal.com). The platform supports Claude Code, Cursor, Codex, and other MCP-compatible agent frameworks (orthogonal.com).
+**Approach:** Orthogonal provides a unified access layer where developers and agents connect to hundreds of APIs through a single MCP server, SDK, or CLI. The platform handles authentication, billing, and discovery in one place. API providers list once on Orthogonal and become instantly discoverable by agents. The platform supports integration with Claude Code, Cursor, Codex, and OpenClaw (company website). As of research date, the platform lists 16+ partner API integrations including People Data Labs, Tomba, ScrapeGraph, Fiber AI, Brand.dev, Notte, and others (company website). The website references a skill-based setup model (`orthogonal.com/skill.md`) for agent configuration.
 
-**Differentiation:** Unlike protocol-level standards (x402, ACP, AP2) that define how payments flow but don't aggregate APIs, Orthogonal combines API discovery, authentication abstraction, and pay-per-call billing into a single platform. Compared to Skyfire ($9.5M raised) and Nevermined ($7M raised), which focus on agent-to-agent payment rails and settlement infrastructure, Orthogonal focuses on the developer-facing API marketplace layer — packaging existing third-party APIs for agent consumption rather than building payment protocol infrastructure. Compared to the x402 protocol (Coinbase/Cloudflare), which enables HTTP-native stablecoin micropayments, Orthogonal abstracts away the payment mechanism itself and focuses on API aggregation and discovery.
+**Differentiation:** Unlike Stripe's x402 protocol, which requires on-chain USDC settlement and is tied to the Base blockchain (Stripe documentation; The Block), Orthogonal abstracts away the payment mechanism and focuses on the developer experience of API discovery and access. Unlike Nightmarket, which operates as a permissionless on-chain marketplace for API calls settled in USDC (Hacker News), Orthogonal positions itself as a curated, trust-oriented platform with vetted API partners—many of which are themselves YC companies (YC page). Compared to Nevermined's decentralized payment protocol for agent-to-agent transactions (PYMNTS, Jan 2025), Orthogonal targets the developer-to-API access use case rather than agent-to-agent commerce.
 
-**Business Model:** Pay-per-call pricing with no monthly fees or minimums — users pay only for executed API calls (docs.orthogonal.com). New signups receive $10 in API usage credits (YC company page via search snippet). [Inferred]: Revenue likely derives from a margin on each API call, taking a spread between what the developer pays and what the underlying API provider receives.
+**Business Model:** The company describes a "pay as you go" model (YC page, company website). No public pricing page with specific tiers or per-call rates was found at the time of research. [Inferred]: The most likely monetization path is a margin on API calls routed through the platform (take rate on transactions) or a usage-based fee, given the pay-as-you-go positioning and the two-sided marketplace structure.
 
-**TAM/SAM:** The global API management market was valued at approximately $6.89B in 2025 and projected to reach $32.77B by 2032 at 25.0% CAGR (Fortune Business Insights, 2025 via search snippet). The API marketplace segment specifically was estimated at $20.84B in 2025, projected to reach $49.45B by 2030 at 18.9% CAGR (Grand View Research, 2025 via search snippet). The broader agentic commerce TAM is estimated at $136B in 2025, with McKinsey projecting $3–5T globally by 2030 (McKinsey, 2025 via search snippet). The SAM — the slice of API marketplace spend mediated specifically through agent-facing aggregation platforms — has no standalone public estimate.
+**TAM/SAM:** The global agentic AI market is valued at $7.55 billion in 2025 and projected to reach $199.05 billion by 2034 at a 43.84% CAGR (Precedence Research, 2025 via search snippet). McKinsey projects global agentic commerce will reach $3–5 trillion by 2030 (McKinsey via Nevermined blog). The global AI agent market is projected to reach $52.62 billion by 2030 at a 46.3% CAGR (CB Insights via search snippet). No public SAM estimate specific to API payment infrastructure for agents was found.
 
-**GTM / Distribution:** The product is accessible via MCP server integration (compatible with Claude Code, Cursor, Codex) and direct SDK/API, reducing adoption friction for developers already using these agent frameworks (orthogonal.com, docs.orthogonal.com). The company offers $10 in free credits to new users (YC company page via search snippet). [Inferred]: Primary distribution likely relies on developer word-of-mouth, MCP ecosystem integrations, and API provider partnerships to build supply-side liquidity, with YC network as an initial amplifier.
+**GTM / Distribution:** The platform integrates with popular AI coding tools (Claude Code, Cursor, Codex) as an MCP server or SDK (company website). Multiple YC-backed API providers are listed as partners—Precip (YC W24), Riveter (YC F24), Andi (YC W22), Shofo (YC W26), Fiber AI (YC S23), Sixtyfour (YC X25) (YC page). [Inferred]: The distribution strategy leverages the YC network for initial supply-side onboarding and targets developers already using MCP-compatible AI coding assistants for demand-side adoption.
 
 ## Defensibility
 
-**Marketplace network effects:** Orthogonal is a two-sided marketplace (API providers and agent developers). As more APIs are listed, the platform becomes more useful to developers; as more developers use it, API providers have more incentive to list. The platform has 14+ documented integration providers at launch (orthogonal.com). This network effect is nascent and unproven at current scale.
+The platform exhibits early-stage two-sided marketplace dynamics: as more API providers list on Orthogonal, the platform becomes more useful to developers and agents, and vice versa. 16+ API integrations are currently listed (company website). The curated, YC-network-embedded partner list may create a supply-side advantage relative to permissionless marketplaces.
 
-**Single-key abstraction as switching cost:** Developers who build agent workflows around Orthogonal's unified key and skill system would face migration cost in reconfiguring authentication and billing for each individual API if switching away. However, this switching cost is modest at pre-seed volumes.
+No patents, regulatory barriers, or proprietary data advantages were found in public sources.
 
-**Market structure:** The structural barrier for incumbents: existing API gateway providers (Kong, Apigee, MuleSoft) are built for human developer workflows with subscription-based billing. Retooling for per-call agent-native consumption with MCP integration would require rearchitecting their billing and discovery layers. Payment networks (Visa, Mastercard) have launched agent payment protocols but focus on consumer commerce transactions, not developer API-to-API micropayments. Coinbase/Cloudflare's x402 provides payment rails but not the aggregation/discovery layer. [Inferred]: The closest structural barrier is that API gateway incumbents' subscription-based revenue models create cannibalization risk if they move to pay-per-call for agents.
+**Market structure:** Stripe has launched its own x402 protocol and Agentic Commerce Protocol (ACP) in partnership with Coinbase, directly addressing agent-to-API payments (Stripe documentation; The Block). Stripe's approach, however, is blockchain-native (USDC on Base) and requires on-chain settlement, which adds complexity for developers who prefer fiat-denominated, off-chain billing. [Inferred]: A structural barrier may exist in that Stripe's approach is optimized for on-chain settlement rather than a unified, provider-agnostic API access layer—but this barrier is weak given Stripe could extend ACP to cover off-chain billing.
 
-**Commoditization risk:** The technical complexity of building an API aggregation and payment layer is moderate. Any well-funded competitor with marketplace-building experience could replicate the core functionality. The defensibility depends on achieving supply-side density (number and quality of APIs) before competitors do.
+**Commoditization risk:** The core product—API aggregation, unified billing, and key management—is technically replicable. Multiple startups (Nightmarket, Nevermined, Prava) and incumbents (Stripe) are building in adjacent or overlapping spaces. The MCP server integration pattern is open-source and standardized. Differentiation at this stage rests on the quality and breadth of the curated API catalog and developer experience, rather than on technology that is difficult to replicate.
 
 ## Market & Traction
 
 **Traction signals:**
-- 14+ API integration providers listed at launch (orthogonal.com, Feb 2025)
-- $10 in free credits offered to new signups (YC company page via search snippet)
-- Bera Sogut LinkedIn post announcing YC backing received 326 likes and 97 comments (LinkedIn, ~Nov 26, 2025)
-- Bera Sogut LinkedIn follower count: 3,073 (LinkedIn, ~Nov 2025)
-- Christian Pickett Twitter/X: @chrisspickett — handle confirmed; follower count not retrievable (X.com)
-- Company Twitter/X: @orthogonal_sh listed on YC page; handle not found in search results. Multiple unrelated "Orthogonal" accounts exist on X.
-- Company Discord: linked from orthogonal.com; member count not publicly available
-- No Product Hunt listing found
-- No Hacker News Launch HN post found for this company (a "Show HN: Orthogonal — An AI Workspace for your files" post exists but refers to an unrelated product)
-- No app store listings found
-- No public revenue or user count data found
-- Early advisor: Nemil Dalal (Bera Sogut LinkedIn post, ~Nov 2025)
+- LinkedIn company page: 1,235 followers (LinkedIn, as of research date)
+- Twitter/X company account: @orthogonal_sh — follower count not retrievable via search
+- GitHub organization (github.com/orthogonal-sh): 3 public repos — `orthogonal-typescript` (5 stars), `skills` (4 stars), `cli` (1 star) (GitHub)
+- 16+ API partner integrations listed on website (company website)
+- Partnership announcement with Nyne posted on X (Feb 20, 2026) (@orthogonal_sh on X)
+- No public revenue, user count, waitlist, Product Hunt launch, or app store data found
+- No job postings found (is_hiring: false per YC page)
 
 **Competitive landscape:**
 
-1. **Skyfire** ($9.5M total seed funding; Coinbase Ventures, a16z CSX — The Block, Oct 2024): Payment identity and rails for AI agents to make autonomous transactions. Founded by ex-Ripple executives. Key differentiator vs. Orthogonal: Skyfire focuses on agent payment identity and settlement infrastructure, not API aggregation/discovery. Revenue unknown.
+1. **Stripe (x402 / ACP)** — Publicly traded incumbent. Launched x402 protocol for USDC-based agent payments on Base blockchain, and the Agentic Commerce Protocol co-developed with OpenAI. ~50 million x402 transactions processed (Finextra via search snippet). Differentiator vs. Orthogonal: Stripe requires on-chain USDC settlement; Orthogonal offers an abstracted, provider-agnostic access layer without blockchain dependency.
 
-2. **Nevermined** ($7M total funding; Generative Ventures led $4M round — PYMNTS, Jan 2025): Decentralized AI-to-AI payment protocol enabling agents to discover, negotiate, and compensate each other. Based in Switzerland. Key differentiator vs. Orthogonal: Nevermined focuses on decentralized agent-to-agent payment settlement, not a curated API marketplace with unified authentication. Revenue unknown.
+2. **Nevermined** ($7M total funding, $4M raised Jan 2025; PYMNTS, Jan 2025) — Decentralized AI payment protocol enabling agent-to-agent transactions with usage-based billing and instant settlement. Revenue unknown. Differentiator vs. Orthogonal: Nevermined focuses on agent-to-agent commerce and decentralized settlement; Orthogonal focuses on developer-to-API access with a curated marketplace.
 
-3. **x402 Protocol** (Coinbase/Cloudflare; open-source foundation launched May 2025 — Cloudflare blog): HTTP-native stablecoin micropayment standard using the 402 status code. 156,000 weekly transactions reported (Fintech Brain Food via search snippet). Key differentiator vs. Orthogonal: x402 is a protocol/standard, not a marketplace — it provides payment rails that platforms like Orthogonal could theoretically build on, but does not offer API discovery or aggregation.
+3. **Nightmarket** (funding unknown) — Permissionless API marketplace where agents pay per call in USDC settled on Base. Revenue unknown. Differentiator vs. Orthogonal: Nightmarket is permissionless (any provider can list); Orthogonal curates its provider list.
 
-4. **Prava** (Seed round Dec 2025, amount undisclosed; backed by WTFund — Tracxn via search snippet): Payment infrastructure for AI applications with tokenized card-based agentic payments. Based in San Francisco. Key differentiator vs. Orthogonal: Prava focuses on merchant-side checkout and card-based payments for AI apps, not developer API marketplace aggregation. Revenue unknown.
+4. **Prava** (Seed round Dec 2025 from WTFund, amount undisclosed; Tracxn) — Payment infrastructure for AI agents with PCI-compliant card and wallet access. Revenue unknown. Differentiator vs. Orthogonal: Prava focuses on enabling agents to make purchases with existing payment methods (cards, wallets); Orthogonal focuses on API access and billing aggregation.
 
-5. **Masumi Network** (funding unknown): Focuses on monetization of MCP servers specifically. Key differentiator vs. Orthogonal: Masumi targets MCP server providers as customers for monetization tooling, whereas Orthogonal aggregates APIs and presents them to agent developers. Revenue unknown.
-
-**Why now:** The MCP standard (released by Anthropic in late 2024) created a common interface for AI agents to call tools, but also fragmented the ecosystem — some APIs have MCP integrations, many don't. Simultaneously, AI agent frameworks (Claude Code, Cursor, Codex) reached production usage levels in 2024–2025, generating real demand for agents to autonomously consume APIs. Major payment networks launched agent payment protocols in 2025: Stripe/OpenAI launched ACP (Sep 2025), Google launched AP2, Visa announced Intelligent Commerce, and Mastercard launched Agent Pay (Fintech Brain Food; various sources via search snippet). [Inferred]: The convergence of standardized tool-calling (MCP), production-ready agent frameworks, and payment protocol launches created a specific window for an aggregation layer that sits above the protocols and below the agents.
+**Why now:** [Inferred]: Several catalysts in the past 12–24 months opened this opportunity. The MCP (Model Context Protocol) standard was released by Anthropic in late 2024, creating a standardized interface for AI agents to interact with external tools and APIs. AI coding assistants (Claude Code, Cursor, Codex) gained mainstream developer adoption through 2025, creating a large base of agent-powered workflows needing API access. Stripe and Coinbase's launch of the x402 protocol and Mastercard's Agent Pay (April 2025; Mastercard press release) validated the agentic payments category. The volume of AI agents in production reached a threshold where manual API key management became a pain point—23% of organizations are scaling agentic AI systems in 2025 (Integrate.io via search snippet).
 
 ## Founders & Team
 
 **Christian Pickett** — Co-founder & CEO
-- Education: McGill University (LinkedIn, ZoomInfo via search snippet)
-- Prior roles: Payments at Coinbase; billing/financial infrastructure at Vercel (YC company page; LinkedIn)
-- Earlier career: Applications Software Development Student at BlackBerry; Full Stack Developer & Watson Digital Advisor at IBM (search snippet via ZoomInfo)
-- Twitter/X: @chrisspickett — bio reads "building at Orthogonal, previously worked in finfra at Vercel and payments at Coinbase" (X.com); follower count not retrievable
-- LinkedIn: linkedin.com/in/christian-pickett-145788b4 — listed as Vercel (LinkedIn)
-- GitHub: No public repos found
+- B.Sc., McGill University; M.Sc./M.A., Vrije Universiteit Amsterdam (ZoomInfo via search snippet)
+- Previously: Software Engineer at Vercel (billing); Coinbase (payments); also worked at BlackBerry and IBM (ZoomInfo via search snippet; YC page)
+- Twitter/X: No personal public account found; company account @orthogonal_sh
+- LinkedIn: linkedin.com/in/christian-pickett-145788b4 — "Co-founder @ Orthogonal (YC W26)"
+- GitHub: No personal public repos found; company org at github.com/orthogonal-sh
 
-**Bera Sogut** (full name: Salih Bera Sogut) — Co-founder
-- Education: McGill University (Competitive Programming Hall of Fame profile, cphof.org)
-- Prior roles: Google (worked on reCAPTCHA and Maps APIs); Amazon Robotics (YC company page)
-- Competitive programming: 2x ACM ICPC World Finalist — ranked 24th at ICPC 2020 World Finals Invitational (Sep 2021) and 65th at ICPC 2021 World Finals Dhaka (Nov 2022), competing on McGill's "Bees" team (cphof.org)
-- Listed in Competitive Programming Hall of Fame under Codeforces handle "Bera" (cphof.org)
-- Twitter/X: Not confirmed; @bernasogut appears in search results but not verified as belonging to this person
-- LinkedIn: linkedin.com/in/berasogut — 3,073 followers (~Nov 2025, LinkedIn post)
-- GitHub: github.com/sogutbera — 4 public repos (all forks of Eclipse OpenJ9), 1 follower, Arctic Code Vault Contributor badge (GitHub)
+**Bera Sogut (Salih Bera Sogut)** — Co-founder
+- B.Sc., McGill University (Competitive Programming Hall of Fame; Devpost)
+- Previously: Google (reCAPTCHA, Maps APIs); Amazon Robotics (YC page; search results)
+- 2x ACM ICPC World Finalist: 24th place at ICPC 2020 World Finals (Sep 2021); 65th place at ICPC 2021 World Finals Dhaka (Nov 2022), competing for McGill University team "Bees" (Competitive Programming Hall of Fame)
+- Codeforces handle: "Bera" (Codeforces)
+- Twitter/X: No personal public account found
+- LinkedIn: Not found separately from company page
+- GitHub: No personal public repos found; Devpost profile shows 4 hackathon projects (Devpost)
 
-**Co-founder relationship:** Both founders attended McGill University. Christian Pickett stated they met at McGill and have been close friends since (search snippet via ZoomInfo/YC sources).
+**Co-founder relationship:** Both founders attended McGill University. The YC page states they "met at McGill and have been close friends ever since" (YC page).
 
-**Founder-market fit:** Christian Pickett's payments experience at Coinbase and billing infrastructure work at Vercel directly maps to building payment and billing systems for API consumption. Bera Sogut's experience building APIs at Google (reCAPTCHA, Maps) and engineering at Amazon Robotics provides the API infrastructure perspective. The combination covers both sides of the product: payments/billing and API development/integration. Early advisor Nemil Dalal was noted in Bera Sogut's YC announcement post (LinkedIn, ~Nov 2025).
+**Founder-market fit:** Christian Pickett brings direct experience in payments infrastructure (Coinbase) and developer billing systems (Vercel), both of which are core to Orthogonal's product. Bera Sogut brings experience building and scaling APIs at Google (reCAPTCHA, Maps) and systems engineering at Amazon Robotics. Their combined backgrounds span the two sides of the product: payment processing and API infrastructure. No advisors, board members, or notable angel investors were identified in public sources beyond YC Partner Tyler Bosmeny.
 
 ## Key Risks
 
-**Brand disambiguation:** Multiple unrelated companies use the "Orthogonal" name, including Orthogonal Inc. (OLED display technology, publicly traded ticker OLED association), Orthogonal.io (medical device software consultancy in Chicago/SF), and Orthogonal Research Lab. The company's Twitter/X handle listed on YC (@orthogonal_sh) was not findable in search results, and the current website domain is orthogonal.com (previously orthogonal.sh based on LinkedIn post). This creates SEO and brand discovery challenges.
+**Stripe platform competition:** Stripe launched its x402 protocol and Agentic Commerce Protocol (ACP) in partnership with OpenAI and Coinbase, directly targeting the same use case of enabling agents to pay for API calls (Stripe blog; The Block). Stripe's distribution advantage (millions of existing merchants and developers) and brand trust in payments create a direct competitive threat. The x402 protocol has already processed approximately 50 million transactions (Finextra via search snippet). Mitigation: Orthogonal's approach abstracts away blockchain settlement and focuses on curated API discovery, which is a different product surface than Stripe's protocol-level offering.
 
-**Protocol-layer competition from well-funded incumbents:** Coinbase/Cloudflare (x402), Stripe/OpenAI (ACP), Google (AP2/UCP), Visa (VIC), and Mastercard (MAP) are all building agent payment protocols with significant resources. If any of these protocols becomes dominant and includes built-in API discovery, Orthogonal's aggregation layer could be disintermediated. Mitigation: Orthogonal operates above the protocol layer and could theoretically integrate with whichever protocol wins.
+**Two-sided marketplace cold start:** Orthogonal requires both API providers (supply) and agent developers (demand) to adopt simultaneously. With 16+ integrations currently listed (company website), the catalog is nascent. If developers find insufficient APIs on the platform, or if API providers see insufficient usage volume, the marketplace may fail to reach critical mass. Mitigation: Leveraging YC network for initial supply-side partnerships (multiple YC companies listed as partners).
 
-**Supply-side liquidity chicken-and-egg:** The platform's value depends on having a comprehensive, high-quality API catalog. With 14+ providers at launch, the catalog is nascent. If API providers don't see sufficient developer demand, they may not prioritize Orthogonal listings. Conversely, developers won't adopt if the API selection is thin.
+**Brand disambiguation:** Multiple established companies share the "Orthogonal" name, including Orthogonal Inc. (medical device software, Chicago/SF, @Orthogonal_io on X, 2,933 LinkedIn followers), Orthogonal Trading (crypto), and Orthogonal Asset Management (LinkedIn search results). This creates SEO competition, potential customer confusion, and brand-building friction. The company appears to also use the domain orthogonal.sh alongside orthogonal.com (GitHub org page).
 
-**MCP ecosystem dependency:** The product's primary distribution mechanism relies on MCP adoption across agent frameworks. If MCP is superseded by a competing standard (e.g., Google's UCP becomes dominant with an incompatible interface), Orthogonal would need to re-integrate. MCP is currently backed by Anthropic but is not yet an industry-wide standard.
-
-**Crypto/Web3 positioning ambiguity:** The company is tagged with "Crypto / Web3" on its YC profile, but the current product description and documentation focus on conventional API marketplace functionality. If the long-term plan involves crypto payment rails (consistent with Christian Pickett's Coinbase background and the x402 ecosystem), the pivot to or integration of crypto payments could create regulatory complexity or narrow the addressable customer base.
+**Regulatory uncertainty around crypto-adjacent payments:** The company is tagged "Crypto / Web3" on YC and operates in a space where competitors use on-chain USDC settlement. If Orthogonal incorporates crypto payment rails, it may face evolving regulatory requirements around money transmission, stablecoin settlement, and KYC/AML compliance in the US and internationally.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $20.84B API marketplace market in 2025, projected $49.45B by 2030 at 18.9% CAGR (Grand View Research, 2025 via search snippet). Broader agentic commerce: $136B in 2025, $3–5T by 2030 (McKinsey, 2025 via search snippet) |
-| SAM | No public data found |
-| Traction | 14+ API integration providers at launch (orthogonal.com); $10 free credits for new signups (YC page via search snippet); no public user count or revenue data found |
-| Revenue Signal | Pay-per-call pricing, no monthly fees or minimums (docs.orthogonal.com). No public revenue figures found |
-| Founders | Christian Pickett (CEO): McGill, ex-Coinbase payments, ex-Vercel billing. Bera Sogut (Co-founder): McGill, ex-Google (reCAPTCHA/Maps APIs), ex-Amazon Robotics, 2x ICPC World Finalist |
-| Competitors | Skyfire ($9.5M raised, revenue unknown, agent payment identity/rails vs. Orthogonal's API aggregation); Nevermined ($7M raised, revenue unknown, decentralized agent-to-agent payments vs. curated marketplace); x402/Coinbase ($0 — open protocol, payment rails only vs. full marketplace); Prava (undisclosed seed, revenue unknown, card-based merchant checkout vs. developer API marketplace) |
-| Moat Signals | Two-sided marketplace network effects (nascent — 14+ providers); single-key switching cost (modest at current scale) |
-| Risk Factors | Protocol-layer competition from Coinbase/Stripe/Google/Visa/Mastercard, supply-side liquidity chicken-and-egg, MCP ecosystem dependency |
-| Founder Reach | Christian Pickett: Twitter @chrisspickett (count not retrievable), LinkedIn (listed at Vercel). Bera Sogut: LinkedIn 3,073 followers, GitHub 1 follower/4 repos |
-| Distribution Signals | MCP server integration for Claude Code/Cursor/Codex (orthogonal.com); YC W26 batch; no Product Hunt listing found; no Hacker News Launch HN found |
+| TAM | Agentic AI market: $7.55B in 2025, projected $199.05B by 2034 at 43.84% CAGR (Precedence Research, 2025 via search snippet); agentic commerce: $3–5T by 2030 (McKinsey via Nevermined blog) |
+| SAM | No public data found for the specific API payment aggregation segment |
+| Traction | 16+ API partner integrations (company website); 1,235 LinkedIn followers (LinkedIn); 3 GitHub repos with 10 total stars (GitHub); no public user count, revenue, or waitlist data found |
+| Revenue Signal | "Pay as you go" model described (YC page, company website); no specific pricing or revenue figures found |
+| Founders | Christian Pickett (Co-founder & CEO): Coinbase payments, Vercel billing, McGill + VU Amsterdam. Bera Sogut (Co-founder): Google (reCAPTCHA, Maps APIs), Amazon Robotics, 2x ICPC World Finalist, McGill. |
+| Competitors | Stripe x402/ACP (public, revenue $25.5B+, on-chain agent payments protocol); Nevermined ($7M raised, revenue unknown, decentralized agent-to-agent payments); Nightmarket (funding unknown, revenue unknown, permissionless API marketplace); Prava (Seed from WTFund, undisclosed amount, revenue unknown, card/wallet payments for agents) |
+| Moat Signals | Early two-sided marketplace with 16+ curated API partners, many YC-backed; no patents or proprietary data advantages found |
+| Risk Factors | Stripe direct competition via x402/ACP, two-sided marketplace cold start, brand name disambiguation across multiple "Orthogonal" companies |
+| Founder Reach | Company: @orthogonal_sh on X (count not retrievable), LinkedIn 1,235 followers, GitHub 10 total stars. Individual founders: no personal public social accounts found |
+| Distribution Signals | MCP server integration with Claude Code, Cursor, Codex (company website); YC-network API provider partnerships (YC page); no Product Hunt launch, app store, or Chrome extension data found |
+| Emails | founders@orthogonal.com |

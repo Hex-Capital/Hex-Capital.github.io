@@ -1,6 +1,6 @@
 ﻿# RamAIn
 
-> Super fast computer-use agents to automate complex workflows.
+> Super fast computer-use agents to build AI employees.
 
 | Field | Value |
 |-------|-------|
@@ -10,108 +10,109 @@
 | Industry | B2B / B2B |
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
-| Tags | Machine Learning, Computer Vision, AI |
+| Tags | Artificial Intelligence, Machine Learning, Computer Vision |
+| YC Partner | Tyler Bosmeny |
+| Emails | founders@ramain.ai |
 
 ## The Idea
 
-**Problem:** Enterprises run complex, repetitive workflows across legacy desktop applications, web portals, and browser-based tools. Many of these applications lack APIs, making programmatic automation impossible with traditional approaches. Existing RPA tools (UiPath, Automation Anywhere) require specialized RPA developers to build brittle, rule-based scripts that break when UIs change. Meanwhile, current computer-use agents (CUAs) from Anthropic and OpenAI follow a slow screenshot→VLM→decision→repeat loop that is expensive, unreliable, and too slow for production workflows (YC company page).
+**Problem:** Enterprises across procurement, insurance, healthcare, finance, retail, and logistics rely on complex, repetitive workflows that span multiple desktop and browser applications—many of which lack API access. Current computer-use agents (CUAs) follow a screenshot → VLM inference → decision → repeat loop for every action, making them expensive, slow, and unreliable for production-grade enterprise automation. Legacy RPA solutions require brittle scripts and dedicated RPA specialists to build and maintain.
 
-**Approach:** RamAIn pre-trains CUAs on specific interfaces, teaching the agent to use particular applications rather than relying on generic vision-language model inference at every step. This bypasses the standard screenshot-VLM decision loop by building interface-specific knowledge ("UI policies") into the agent, enabling it to operate across Windows, Mac, browser, and desktop applications. The company claims this makes decisions "10x faster" than traditional CUA approaches (YC company page). The product is distributed as a desktop application for macOS and Windows (ramain.ai website).
+**Approach:** RamAIn pre-trains CUAs on specific interfaces, teaching the agents UI policies and interface structures in advance rather than reasoning from screenshots at execution time. This allows the agents to simulate mouse and keyboard interactions to move data between legacy systems, desktop applications, and web portals. The system includes self-healing capabilities for unexpected UI changes, human-in-the-loop control, and full audit trails (YC company page). Training and deployment are described as taking "a few days" (YC company page).
 
-**Differentiation:** Compared to OpenAI Operator, which operates only in a sandboxed browser environment (WorkOS blog, Jan 2026), RamAIn works across native desktop applications. Compared to Anthropic Computer Use, which provides a general-purpose API requiring developer integration (Anthropic docs), RamAIn offers pre-trained, application-specific agents designed for non-technical deployment. Compared to Browser Use ($17M raised, TechCrunch Mar 2025), which focuses on browser automation via an open-source framework, RamAIn covers desktop + browser. Compared to Simular ($26.5M raised, TechCrunch Dec 2025), which also targets desktop automation on Mac/Windows, RamAIn differentiates on speed via pre-training on specific interfaces rather than relying on a general neuro-symbolic approach.
+**Differentiation:** Standard CUAs (e.g., Anthropic's Computer Use API, OpenAI's CUA) process each action through a full VLM inference cycle at runtime. RamAIn's approach front-loads the learning of interface structures during a pre-training phase, claiming 10x faster decision-making and higher reliability (YC company page). Compared to traditional RPA (UiPath, Automation Anywhere), RamAIn does not require custom scripts per workflow. Compared to open-source browser-only agents like Browser Use or Skyvern, RamAIn targets both browser and desktop applications.
 
-**Business Model:** The product is currently listed as free ($0) on the website (ramain.ai). No pricing tiers, per-seat pricing, or consumption-based billing are publicly visible. [Inferred]: Most likely monetization path is enterprise SaaS pricing (per-agent or per-workflow) once the product matures beyond its current free/early-access phase, given the B2B positioning and target verticals (procurement, insurance, healthcare, finance, retail, pharmacy, logistics as listed on YC page).
+**Business Model:** The website currently lists pricing as "Free" at $0 USD (ramain.ai). [Inferred]: At pre-seed stage, likely offering free access to build initial traction and gather training data, with eventual monetization via per-agent, per-seat, or consumption-based enterprise pricing.
 
-**TAM/SAM:** The global RPA market was valued at $28.31 billion in 2025 and is projected to grow to $247.34 billion by 2035 at a CAGR of 24.2% (GlobeNewsWire, Dec 2025). Gartner sized the RPA software market at $3.6 billion in 2024, growing 14.5% year-over-year (Gartner, 2024 via search snippet). [Inferred]: RamAIn's serviceable market is the subset of RPA/desktop automation workflows involving legacy applications without API access, particularly in the target verticals listed on its YC page.
+**TAM/SAM:** The global RPA market is valued at $35.27 billion in 2026, projected to reach $247.34 billion by 2035 at a 24.20% CAGR (Precedence Research, Dec 2025 via search snippet). The AI in RPA market specifically is projected to grow by $14.28 billion from 2024 to 2029 at a 33% CAGR (Technavio via search snippet). The agentic browser market is projected to grow from $4.5 billion in 2024 to $76.8 billion by 2034 (Brightdata, 2026 via search snippet). No SAM estimate specific to RamAIn's segment was found.
 
-**GTM / Distribution:** The product is available as a direct download for macOS and Windows from ramain.ai. Target verticals listed on the YC page include procurement, insurance, healthcare, finance, retail, pharmacy, and logistics. [Inferred]: Most likely initial distribution path is direct enterprise sales to operations teams in these verticals, potentially starting with a PLG free tier to generate inbound leads, given the current free pricing and desktop download model.
+**GTM / Distribution:** The YC page lists target verticals: procurement, insurance, healthcare, revenue cycle management, finance & operations, retail & store operations, pharmacy operations, and logistics (YC company page). [Inferred]: Most likely distribution path is direct enterprise sales into these verticals, leveraging YC network for initial customer introductions. The "deploy in days" positioning suggests a land-and-expand approach with low implementation friction.
 
 ## Defensibility
 
-**Pre-training data moat:** RamAIn's approach of pre-training agents on specific interfaces could create a compounding data advantage—each new interface trained adds to a library of UI policies that competitors would need to replicate independently. However, this moat is nascent and unproven at scale.
+RamAIn's primary technical differentiation is pre-training CUAs on specific UI interfaces rather than relying on runtime VLM inference. If this approach produces materially better speed and reliability, accumulated pre-training data across enterprise interfaces could constitute a data advantage over time. Self-healing capabilities and audit trails address enterprise compliance requirements.
 
-**Market structure:** Traditional RPA incumbents (UiPath, Automation Anywhere) have built their businesses around script-based automation that requires RPA developers. Shifting to AI-native CUAs would cannibalize their professional services revenue and potentially reduce per-workflow pricing. This business model conflict could slow incumbent adoption of the pre-trained CUA approach. However, both UiPath and Automation Anywhere are actively integrating AI capabilities into their platforms (UiPath Annual Report FY2025).
+**Market structure:** Large RPA incumbents (UiPath, Automation Anywhere, Microsoft Power Automate) have built their platforms around script-based, rule-driven automation. Migrating to a vision-model-based, pre-trained approach would require rearchitecting their core product and cannibalizing existing revenue streams from professional services and script maintenance. However, foundation model providers (Anthropic, OpenAI) already offer computer-use APIs and could build competing pre-training layers. No structural barrier identified at this stage beyond execution speed.
 
-**Commoditization risk:** The CUA space is rapidly commoditizing at the model layer. OpenCUA, an open-source framework from HKU researchers, achieved state-of-the-art results surpassing OpenAI's CUA on the OSWorld benchmark (VentureBeat, 2025). Anthropic and OpenAI both offer computer use capabilities as API features. Browser Use has 50,000+ GitHub stars as an open-source browser automation framework (TechCrunch, Mar 2025). Simular has $26.5M in funding and DeepMind alumni building desktop agents (TechCrunch, Dec 2025). The barrier to building a basic CUA is low; the differentiation depends on whether pre-training on specific interfaces delivers a measurable speed/reliability advantage that is difficult to replicate.
+**Commoditization risk:** The underlying approach of using VLMs for GUI automation is well-understood and actively pursued by multiple well-funded startups (Browser Use at $17M, Simular at $27M) and foundation model providers. The pre-training on specific interfaces is a differentiating architectural choice, but the technique could be replicated by competitors with sufficient engineering resources. Open-source frameworks like Browser Use lower the barrier to entry for browser-based automation.
 
 ## Market & Traction
 
 **Traction signals:**
-- Product available for download on macOS and Windows (ramain.ai)
-- Currently priced at $0 / free (ramain.ai)
-- Twitter/X: @ramain_ai (handle exists per ramain.ai; follower count not retrievable)
-- LinkedIn: linkedin.com/company/ramain (company page exists; follower count not retrievable)
-- A LinkedIn post by Shourya Vir Jain announcing RamAIn (YC W26) was found (LinkedIn, via search snippet)
-- A third team member, Sujal Choudhari (software engineer), appears on LinkedIn associated with RamAIn (LinkedIn, via search snippet)
-- No Product Hunt launch found
-- No press coverage in named publications found
-- No public user counts, download numbers, or revenue data found
-- No Discord/Slack community found
-- No app store listings found
-- YC Partner: Tyler Bosmeny (YC company page)
+- Twitter/X: Company account @ramain_ai (ramain.ai); follower count not retrievable
+- LinkedIn: Company page at linkedin.com/company/ramain (search result title shows "RamAIn (YC W26)"); follower count not retrievable
+- YC Launch: Announced via YC Launch with video demonstration (YC company page)
+- Shourya Vir Jain LinkedIn post announcing RamAIn (YC W26) (LinkedIn, activity ID 7418921965194821632)
+- Listed on third-party AI directories: MOGE.ai, EveryDev.ai, AIToolsSpace, HuntScreens (various search results)
+- Product Hunt: No Product Hunt listing found
+- Discord/Slack community: No public data found
+- User counts, revenue, or download metrics: No public data found
 
 **Competitive landscape:**
 
-| Competitor | Funding | Key Differentiator vs. RamAIn |
-|-----------|---------|-------------------------------|
-| **Simular** | $26.5M total ($21.5M Series A from Felicis + NVentures) (TechCrunch, Dec 2025) | Neuro-symbolic approach; converts workflows to deterministic code; Mac + Windows; DeepMind alumni founders; selected for Microsoft Windows 365 for Agents program |
-| **Browser Use** | $17M seed (Felicis, Paul Graham) (TechCrunch, Mar 2025) | Open-source framework (50K+ GitHub stars); browser-only focus; YC W25 |
-| **Twin Labs** | ~$13M total ($3M pre-seed + $10M seed from LocalGlobe) (TechCrunch, Mar 2025) | Uses OpenAI CUA; Paris-based; enterprise partnerships (Qonto with 500K+ customers); one of 15 companies in OpenAI CUA beta |
-| **UiPath** (incumbent) | Public company; $1.43B annual revenue FY2025 (UiPath IR, 2025) | Full RPA platform with enterprise distribution; script-based + AI augmentation; Gartner MQ leader 7 consecutive years |
-| **Automation Anywhere** (incumbent) | $852.7M total funding; $6.8B valuation (Automation Anywhere press releases) | Cloud-native RPA platform; SoftBank-backed; broad enterprise customer base |
+| Competitor | Funding | Revenue/ARR | Key Differentiator vs. RamAIn |
+|------------|---------|-------------|-------------------------------|
+| **Skyvern** | $2.7M seed (Dec 2025) (Skyvern blog) | $900K revenue in 2024 (GetLatka via search snippet) | Open-source, browser-only; uses LLMs + computer vision without custom code per website. No desktop automation. |
+| **Browser Use** | $17M seed (Mar 2025, led by Felicis) (TechCrunch, Mar 2025) | Revenue unknown | Open-source framework (89.1% WebVoyager benchmark); converts web UI to structured text for LLMs. Browser-only. |
+| **Simular** | $27M total ($21.5M Series A, Dec 2025, led by Felicis) (TechCrunch, Dec 2025) | Revenue unknown | Full desktop agent (Mac + Windows); ex-Google DeepMind team; Microsoft Windows 365 for Agents partner. Closest direct competitor for desktop automation. |
+| **Browserbase** | $40M Series B (Jun 2025) (search snippet) | Revenue unknown | Serverless browser infrastructure for AI agents; infrastructure layer rather than end-to-end agent. |
 
-**Why now:** [Inferred]: Several specific catalysts in 2024-2025 opened this opportunity: (1) Anthropic released Computer Use as a public beta API in October 2024 (Anthropic, Oct 2024), and OpenAI launched Operator with CUA in January 2025 (MIT Technology Review, Jan 2025), validating computer-use agents as a product category. (2) Vision-language models crossed a performance threshold—OpenCUA-72B achieved 45% success rate on OSWorld benchmarks (VentureBeat, 2025), making CUA feasible for real workflows. (3) AI agent infrastructure costs have declined as open-source models (OpenCUA-7B/32B/72B) became available, reducing the cost of building CUA-based products.
+**Why now:** [Inferred]: Several catalysts converged in 2024–2025: Anthropic released Computer Use API in public beta (Oct 2024), making VLM-based GUI automation a recognized product category. OpenAI launched its competing CUA. These releases validated the approach and created awareness among enterprise buyers. Simultaneously, foundation model capabilities (vision + reasoning) crossed a threshold where GUI automation became reliable enough for production use. The AI agent market grew from $5.25B in 2024 to $7.84B in 2025 (AI Funding Tracker via search snippet), with 40%+ of enterprise budgets allocated to agentic AI.
 
 ## Founders & Team
 
-**Shourya Vir Jain** — Co-Founder & CEO
-- BTech in Electrical Engineering, IIT Delhi (batch of 2026; currently on leave) (LinkedIn, ContactOut via search snippet)
-- Previously founded Genoshi (genoshi.io), an AI studio for enterprises described as bootstrapped to revenue (Inc42; LinkedIn recommendation via search snippet). Co-founded with Dhruv Joshi in 2024.
-- Co-founded boardspace.in (LinkedIn via search snippet)
-- Incoming Business Analyst Intern at McKinsey & Co. (ContactOut via search snippet)
-- Startup Support Executive at Entrepreneurship Development Cell (eDC) IIT Delhi, Jun 2023–Apr 2024; worked with 80+ startups (LinkedIn via search snippet)
-- Technical Research Intern at Council on Energy, Environment and Water (CEEW) (LinkedIn via search snippet)
-- FIDE-rated chess player (rating 2118) (FIDE profile); certified karate black belt (LinkedIn via search snippet)
-- Twitter/X: No public account found
-- LinkedIn: linkedin.com/in/shouryavirjain — "Ramain (YC W26)"
-- GitHub: github.com/SveeJ — 7 repos, 9 followers; organization: @GenoshiAI
+**Shourya Vir Jain** — Co-founder & CEO
+- BTech Electrical Engineering, IIT Delhi (batch 2026) (Opensphere, ContactOut via search snippet)
+- Former founder of Genoshi, an AI studio for enterprises, bootstrapped to six-figure revenue (Opensphere, YC page via search snippet)
+- Business Analyst Intern at McKinsey & Company (The Org)
+- Intern at 360 ONE (wealth management) (LinkedIn via search snippet)
+- Technical Research Intern at Council on Energy, Environment and Water (CEEW) (ContactOut via search snippet)
+- FIDE-rated chess player (rating 2118) (FIDE profile via search snippet)
+- Twitter/X: No confirmed personal account found
+- LinkedIn: linkedin.com/in/shouryavirjain
+- GitHub: github.com/SveeJ — 7 public repos; star counts not retrievable
 
-**Vansh Ramani** — Co-Founder & CTO
-- BTech in Computer Science and Engineering, IIT Delhi (currently on leave for startup) (personal website: vanshramani.github.io)
-- Research at Carnegie Mellon University ML Department, Summer 2025, with Prof. Pradeep Ravikumar; focus on causal representation learning, neurosymbolic AI, machine unlearning (personal website)
-- Research at University of Copenhagen, May–Jun 2024, with Dr. Panagiotis Karras on high-dimensional nearest neighbor search; Danish Data Science Academy Scholarship recipient (personal website)
-- Research Assistant at IIT Delhi DSIRE lab with Dr. Sayan Ranu; focus on graph neural networks and data distillation (personal website)
-- Publications: "Bonsai: Gradient-free Graph Distillation" accepted at ICLR 2025 (personal website); "Panorama: Fast-Track Nearest Neighbors" achieving 2-30x speedup, integrated into Meta's FAISS library (arXiv, Oct 2025); "Graph Neural Networks for Predicting Solubility" published in ACS Journal of Chemical Theory and Computation (Jul 2024) (personal website)
-- Competition wins: Lam Research Challenge 2024 winner (INR 500,000 prize); 4th place at Goldman Sachs India Hackathon 2024 (8,000 participants); 1st place in Citadel Quants Arena Challenge (personal website)
-- Twitter/X: Possible handle @vanshsh2701 (not confirmed)
-- LinkedIn: linkedin.com/in/ramanivansh — "Carnegie Mellon University"
-- GitHub: github.com/VanshRamani — 14 repos, 13 followers; top repo: Molmerger-Solubility-Prediction (2 stars)
+**Vansh Ramani** — Co-founder & CTO
+- BTech Computer Science and Engineering, IIT Delhi (2023–2028) (ResearchGate, IIT Delhi CSE page)
+- Former researcher at CMU Machine Learning Department (YC page via search snippet, LinkedIn)
+- Former researcher at University of Copenhagen (YC page via search snippet)
+- Published at ICLR 2025: "Bonsai: Gradient-Free Graph Condensation for Node Classification" (IIT Delhi CSE page, OpenReview)
+- Published in ACS Journal of Chemical Theory and Computation 2024: MolMerger solubility prediction using graph neural networks (GitHub, ResearchGate)
+- Author of "Panorama: Fast-Track Nearest Neighbors" — a nearest-neighbor search algorithm integrated into Meta's FAISS library (arXiv: 2510.00566)
+- Won first prize at Lam Research's Systems Engineering Challenge with IIT Delhi team (Nov 2024) (The Hans India via search snippet)
+- Twitter/X: No confirmed personal account found
+- LinkedIn: linkedin.com/in/ramanivansh — "Carnegie Mellon University" listed
+- GitHub: github.com/VanshRamani — 14 public repos; Molmerger-Solubility-Prediction has 2 stars
+- Google Scholar: scholar.google.com/citations?user=hKH8NPoAAAAJ
 
-**Co-founder relationship:** Both founders attended IIT Delhi concurrently (Shourya in Electrical Engineering, Vansh in Computer Science, both batch of 2026), indicating a shared university background.
+**Co-founder relationship:** Both founders are students at IIT Delhi, confirming a shared university connection. No additional shared employer overlap found in Phase 3 research.
 
-**Founder-market fit:** Vansh Ramani brings deep ML research credentials (CMU, ICLR publication, contribution merged into FAISS) relevant to building the pre-trained model infrastructure that is RamAIn's core differentiator. Shourya Vir Jain brings startup operating experience (founded and bootstrapped Genoshi to revenue), enterprise exposure (McKinsey, 80+ startups via eDC), and business development skills. Together, they cover the technical ML + business operations needed for a B2B AI infrastructure company. No advisors, board members, or notable investors beyond YC were found.
+**Founder-market fit:** Vansh Ramani brings deep ML research credentials (ICLR publication, CMU ML department, FAISS contribution) directly relevant to building pre-trained vision models for GUI understanding. Shourya Vir Jain brings entrepreneurial experience (bootstrapping Genoshi to six-figure revenue) and McKinsey consulting exposure to enterprise operations. The combination of ML research depth and enterprise business experience maps to RamAIn's product (pre-trained CUAs sold to enterprises). No advisors, board members, or notable angel investors were identified in public sources beyond YC partner Tyler Bosmeny.
 
 ## Key Risks
 
-**Platform-layer commoditization:** Anthropic, OpenAI, and Google are all shipping computer-use capabilities as API features, and open-source alternatives (OpenCUA) are approaching proprietary model performance (VentureBeat, 2025). If foundation model providers integrate pre-training or interface-specific optimization into their APIs, RamAIn's core differentiation could be absorbed into the platform layer.
+**Foundation model provider encroachment:** Anthropic (Computer Use API, Claude Cowork) and OpenAI (CUA) already offer first-party computer-use capabilities and are actively investing in making them production-grade. These providers could add pre-training or interface-specific optimization features natively, reducing the value of RamAIn's middleware layer. Mitigation: RamAIn's enterprise-specific focus (audit trails, self-healing, human-in-the-loop) may not be priorities for foundation model providers.
 
-**Well-funded direct competitors:** Simular ($26.5M, ex-DeepMind team, Microsoft partnership) and Browser Use ($17M, 50K+ GitHub stars, Paul Graham backing) are pursuing adjacent approaches with substantially more capital and distribution. Simular was selected for Microsoft's Windows 365 for Agents program (TechCrunch, Dec 2025), giving it a significant enterprise distribution channel.
+**Well-funded direct competitors:** Simular ($27M raised, ex-DeepMind team, Microsoft partnership) and Browser Use ($17M, 89.1% benchmark accuracy) are pursuing overlapping markets with substantially more capital. Simular in particular targets full desktop automation with Windows 365 for Agents partnership, directly competing with RamAIn's desktop + browser scope. Mitigation: RamAIn's pre-training approach is architecturally distinct from Simular's runtime approach.
 
-**Reliability threshold for enterprise adoption:** Computer-use agents remain error-prone in production environments. Anthropic's own documentation describes computer use as "experimental—at times cumbersome and error-prone" (Anthropic docs). OpenCUA's best model achieves only 45% success rate on the OSWorld benchmark (VentureBeat, 2025). Enterprise customers in RamAIn's target verticals (healthcare, finance, insurance) have low tolerance for automation errors, and the gap between demo-quality and production-quality CUA may be wider than current benchmarks suggest.
+**Enterprise sales cycle with a 2-person team:** Target verticals (healthcare, insurance, procurement, finance) have long sales cycles, compliance requirements, and procurement processes. Selling into these verticals with a 2-person team and no visible sales hire requires either YC network leverage or a strong inbound/PLG motion that has not yet been demonstrated publicly.
 
-**Brand disambiguation:** "RamAIn" shares linguistic similarity with many existing "AI"-suffixed brands, and the name overlaps with common terms (e.g., "remain," various "Ram" entities). This could create SEO and brand recognition challenges as the company scales.
+**Technical validation gap:** The claim of "10x faster" decision-making from pre-trained interface models has no publicly available benchmark data, case studies, or third-party validation. Enterprise buyers in regulated industries (healthcare, insurance) will require demonstrated reliability before adoption.
+
+**Brand disambiguation:** "RamAIn" shares phonetic and textual similarity with "Ramain" (a surname appearing in multiple search results), "Ramen AI" (a separate company at ramenai.com), and generic AI-related terms. This complicates SEO, social media discoverability, and press coverage attribution.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $28.31B global RPA market in 2025, growing to $247.34B by 2035 at 24.2% CAGR (GlobeNewsWire, Dec 2025); Gartner sized RPA software at $3.6B in 2024 (Gartner, 2024 via search snippet) |
-| SAM | No public data found |
-| Traction | Product available for free download on macOS/Windows (ramain.ai); YC W26 batch; no public user counts, downloads, or community size found |
-| Revenue Signal | No public data found; product currently listed as free (ramain.ai) |
-| Founders | Shourya Vir Jain (CEO): IIT Delhi EE, founded Genoshi (bootstrapped to revenue), incoming McKinsey. Vansh Ramani (CTO): IIT Delhi CS, CMU ML researcher, ICLR 2025 paper, Panorama merged into FAISS |
-| Competitors | Simular ($26.5M raised, revenue unknown, desktop Mac+Windows agent with neuro-symbolic approach vs. RamAIn's pre-trained interface approach); Browser Use ($17M raised, revenue unknown, open-source browser-only framework vs. RamAIn's desktop+browser scope); Twin Labs (~$13M raised, revenue unknown, OpenAI CUA-dependent with Qonto enterprise partnership vs. RamAIn's proprietary pre-training); UiPath (public, $1.43B revenue FY2025, full RPA platform incumbent vs. RamAIn's AI-native approach) |
-| Moat Signals | Pre-trained interface-specific UI policies could create a compounding data advantage; unproven at this stage |
-| Risk Factors | Platform-layer commoditization from Anthropic/OpenAI/Google, well-funded direct competitors (Simular, Browser Use), CUA reliability gap for enterprise production use |
-| Founder Reach | Shourya Vir Jain: Twitter not found, LinkedIn linkedin.com/in/shouryavirjain, GitHub 9 followers. Vansh Ramani: Twitter not confirmed, LinkedIn linkedin.com/in/ramanivansh, GitHub 13 followers |
-| Distribution Signals | No public data found; no Product Hunt launch, no app store listings, no Chrome extension |
+| TAM | RPA market: $35.27B in 2026, projected $247.34B by 2035 at 24.20% CAGR (Precedence Research, Dec 2025 via search snippet). AI agent market: $5.25B (2024) to $52.62B by 2030 (AI Funding Tracker via search snippet). |
+| SAM | No public data found for RamAIn's specific segment. |
+| Traction | YC Launch announcement with demo video (YC page). Listed on multiple AI directories (MOGE.ai, EveryDev.ai, AIToolsSpace, HuntScreens). No user counts, revenue, or download data found. |
+| Revenue Signal | Website lists pricing as "Free" / $0 USD (ramain.ai). No revenue data found. |
+| Founders | Shourya Vir Jain (CEO): IIT Delhi EE, ex-McKinsey, founded Genoshi (bootstrapped to six figures). Vansh Ramani (CTO): IIT Delhi CS, ex-CMU ML researcher, ICLR 2025 author, Panorama/FAISS contributor. |
+| Competitors | Skyvern ($2.7M raised, $900K revenue 2024, open-source browser automation). Browser Use ($17M raised, revenue unknown, open-source browser agent framework). Simular ($27M raised, revenue unknown, desktop agent, ex-DeepMind, Microsoft partner). Browserbase ($40M raised, revenue unknown, browser infra for agents). |
+| Moat Signals | Pre-training on specific UI interfaces (architectural differentiation). Panorama algorithm contribution to FAISS (CTO's relevant technical IP). No patents or proprietary datasets identified. |
+| Risk Factors | Foundation model provider encroachment (Anthropic/OpenAI native CUA), well-funded direct competitors (Simular $27M, Browser Use $17M), enterprise sales with 2-person team |
+| Founder Reach | Shourya Vir Jain: Twitter not found, LinkedIn linkedin.com/in/shouryavirjain. Vansh Ramani: Twitter not found, LinkedIn linkedin.com/in/ramanivansh, GitHub 14 repos / 2 stars, Google Scholar profile. Company: Twitter @ramain_ai (count not retrievable), LinkedIn company/ramain. |
+| Distribution Signals | No Product Hunt launch found. No app store or Chrome Web Store listings found. No community (Discord/Slack) found. YC Launch is the only confirmed distribution event. |
+| Emails | founders@ramain.ai |

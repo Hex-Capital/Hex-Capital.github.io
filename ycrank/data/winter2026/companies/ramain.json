@@ -1,7 +1,7 @@
 {
   "slug": "ramain",
   "name": "RamAIn",
-  "oneLiner": "Super fast computer-use agents to automate complex workflows.",
+  "oneLiner": "Super fast computer-use agents to build AI employees.",
   "metadata": {
     "website": "https://ramain.ai",
     "yc_page": "https://www.ycombinator.com/companies/ramain",
@@ -9,56 +9,58 @@
     "industry": "B2B / B2B",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Machine Learning, Computer Vision, AI"
+    "tags": "Artificial Intelligence, Machine Learning, Computer Vision",
+    "yc_partner": "Tyler Bosmeny",
+    "emails": "founders@ramain.ai"
   },
   "tags": [
+    "Artificial Intelligence",
     "Machine Learning",
-    "Computer Vision",
-    "AI"
+    "Computer Vision"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T06:02:55.853Z",
+  "memoGeneratedAt": "2026-03-04T06:27:39.090Z",
   "evalScores": {
     "cyan-banister": {
       "score": 32,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 34,
+      "score": 35,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 38,
+      "score": 44,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 34,
+      "score": 32,
       "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
       "score": 28,
       "tier": "Pass"
     },
+    "sam-lessin": {
+      "score": 24,
+      "tier": "Pass"
+    },
     "vinod-khosla": {
-      "score": 44,
+      "score": 43,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 32,
-    "EG": 34,
-    "NR": 38,
-    "PG": 34,
-    "PT": 30,
-    "SL": 28,
-    "VK": 44
+    "EG": 35,
+    "NR": 44,
+    "PG": 32,
+    "PT": 28,
+    "SL": 24,
+    "VK": 43
   },
-  "consolidatedAvg": 34.29,
-  "consolidatedRank": 141,
+  "consolidatedAvg": 34,
+  "consolidatedRank": 144,
   "paths": {
     "memo": "winter2026/memos/ramain.md",
     "evals": {

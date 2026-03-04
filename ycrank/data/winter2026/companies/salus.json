@@ -9,7 +9,9 @@
     "industry": "B2B / B2B -> Infrastructure",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Developer Tools, B2B, API, Infrastructure, AI"
+    "tags": "Developer Tools, B2B, API, Infrastructure, AI",
+    "yc_partner": "Ankit Gupta",
+    "emails": "founders@usesalus.ai, security@usesalus.ai, support@usesalus.ai"
   },
   "tags": [
     "Developer Tools",
@@ -19,14 +21,14 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T06:03:55.164Z",
+  "memoGeneratedAt": "2026-03-04T06:24:43.778Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 27,
+      "score": 31,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 39,
+      "score": 41,
       "tier": "Pass"
     },
     "naval-ravikant": {
@@ -34,33 +36,33 @@
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 37,
+      "score": 42,
       "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 26,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
       "score": 29,
       "tier": "Pass"
     },
+    "sam-lessin": {
+      "score": 28,
+      "tier": "Pass"
+    },
     "vinod-khosla": {
-      "score": 38,
+      "score": 40,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 27,
-    "EG": 39,
+    "CB": 31,
+    "EG": 41,
     "NR": 42,
-    "PG": 37,
-    "PT": 26,
-    "SL": 29,
-    "VK": 38
+    "PG": 42,
+    "PT": 29,
+    "SL": 28,
+    "VK": 40
   },
-  "consolidatedAvg": 34,
-  "consolidatedRank": 145,
+  "consolidatedAvg": 36.14,
+  "consolidatedRank": 124,
   "paths": {
     "memo": "winter2026/memos/salus.md",
     "evals": {

@@ -1,15 +1,17 @@
 {
   "slug": "autositu",
   "name": "AutoSitu",
-  "oneLiner": "AI-native workspace for municipal development review",
+  "oneLiner": "Regulatory infrastructure for the built world",
   "metadata": {
     "website": "https://autositu.com/",
     "yc_page": "https://www.ycombinator.com/companies/autositu",
     "batch": "Winter 2026",
     "industry": "B2B / B2B -> Legal",
     "team_size": "2",
-    "location": "No public data found",
-    "tags": "Generative AI, GovTech, Real Estate, LegalTech"
+    "location": "United States",
+    "tags": "Generative AI, GovTech, Real Estate, LegalTech",
+    "yc_partner": "Gustaf Alstromer",
+    "emails": "founders@autositu.com"
   },
   "tags": [
     "Generative AI",
@@ -18,26 +20,26 @@
     "LegalTech"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T06:06:48.541Z",
+  "memoGeneratedAt": "2026-03-04T17:14:30.603Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 46,
+      "score": 47,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 68,
+      "score": 66,
       "tier": "Invest"
     },
     "naval-ravikant": {
-      "score": 52,
+      "score": 47,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 64,
-      "tier": "Neutral"
+      "score": 67,
+      "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 41,
+      "score": 32,
       "tier": "Pass"
     },
     "sam-lessin": {
@@ -45,21 +47,21 @@
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 42,
-      "tier": "Pass"
+      "score": 46,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 46,
-    "EG": 68,
-    "NR": 52,
-    "PG": 64,
-    "PT": 41,
+    "CB": 47,
+    "EG": 66,
+    "NR": 47,
+    "PG": 67,
+    "PT": 32,
     "SL": 38,
-    "VK": 42
+    "VK": 46
   },
-  "consolidatedAvg": 50.14,
-  "consolidatedRank": 24,
+  "consolidatedAvg": 49,
+  "consolidatedRank": 30,
   "paths": {
     "memo": "winter2026/memos/autositu.md",
     "evals": {

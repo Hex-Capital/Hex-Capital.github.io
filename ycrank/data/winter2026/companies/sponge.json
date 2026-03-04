@@ -9,7 +9,9 @@
     "industry": "B2B / B2B",
     "team_size": "3",
     "location": "No public data found",
-    "tags": "Artificial Intelligence, Fintech, SaaS, Crypto / Web3, Payments"
+    "tags": "Artificial Intelligence, Fintech, SaaS, Crypto / Web3, Payments",
+    "yc_partner": "Brad Flora",
+    "emails": "team@paysponge.com"
   },
   "tags": [
     "Artificial Intelligence",
@@ -19,22 +21,22 @@
     "Payments"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T06:00:12.524Z",
+  "memoGeneratedAt": "2026-03-04T06:24:13.048Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 34,
+      "score": 36,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 44,
-      "tier": "Pass"
+      "score": 50,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 48,
+      "score": 60,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 49,
+      "score": 51,
       "tier": "Neutral"
     },
     "peter-thiel": {
@@ -42,25 +44,25 @@
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 36,
+      "score": 40,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 45,
+      "score": 48,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 34,
-    "EG": 44,
-    "NR": 48,
-    "PG": 49,
+    "CB": 36,
+    "EG": 50,
+    "NR": 60,
+    "PG": 51,
     "PT": 33,
-    "SL": 36,
-    "VK": 45
+    "SL": 40,
+    "VK": 48
   },
-  "consolidatedAvg": 41.29,
-  "consolidatedRank": 77,
+  "consolidatedAvg": 45.43,
+  "consolidatedRank": 51,
   "paths": {
     "memo": "winter2026/memos/sponge.md",
     "evals": {

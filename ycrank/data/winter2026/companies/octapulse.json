@@ -8,8 +8,10 @@
     "batch": "Winter 2026",
     "industry": "Industrials / Industrials -> Climate",
     "team_size": "2",
-    "location": "Pittsburgh, PA (PitchBook, 2025 via search snippet)",
-    "tags": "Robotics, Computer Vision, Food Tech, Maritime"
+    "location": "Pittsburgh, PA (LinkedIn via search snippet) / Remote",
+    "tags": "Robotics, Computer Vision, Food Tech, Maritime",
+    "yc_partner": "Jon Xu",
+    "emails": "No public data found (ZoomInfo and RocketReach list @octapulse.com domain but redact specific addresses)"
   },
   "tags": [
     "Robotics",
@@ -18,48 +20,48 @@
     "Maritime"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T06:03:52.118Z",
+  "memoGeneratedAt": "2026-03-04T06:28:34.363Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 50,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "paul-graham": {
       "score": 55,
       "tier": "Neutral"
     },
+    "elad-gil": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 63,
+      "tier": "Neutral"
+    },
     "peter-thiel": {
-      "score": 34,
+      "score": 44,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 36,
-      "tier": "Pass"
+      "score": 51,
+      "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 42,
-      "tier": "Pass"
+      "score": 48,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 39,
-    "EG": 50,
-    "NR": 39,
-    "PG": 55,
-    "PT": 34,
-    "SL": 36,
-    "VK": 42
+    "CB": 55,
+    "EG": 57,
+    "NR": 46,
+    "PG": 63,
+    "PT": 44,
+    "SL": 51,
+    "VK": 48
   },
-  "consolidatedAvg": 42.14,
-  "consolidatedRank": 68,
+  "consolidatedAvg": 52,
+  "consolidatedRank": 22,
   "paths": {
     "memo": "winter2026/memos/octapulse.md",
     "evals": {

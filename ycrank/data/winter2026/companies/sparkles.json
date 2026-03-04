@@ -9,55 +9,57 @@
     "industry": "B2B / B2B -> Engineering, Product and Design",
     "team_size": "1",
     "location": "San Francisco, CA, USA",
-    "tags": "Developer Tools, Productivity"
+    "tags": "Developer Tools, Productivity",
+    "yc_partner": "Jared Friedman",
+    "emails": "dan@sparkles.dev"
   },
   "tags": [
     "Developer Tools",
     "Productivity"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T06:02:24.694Z",
+  "memoGeneratedAt": "2026-03-04T06:23:53.258Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 27,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
       "score": 31,
       "tier": "Pass"
     },
+    "elad-gil": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 34,
+      "tier": "Pass"
+    },
     "paul-graham": {
-      "score": 40,
+      "score": 44,
       "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 24,
+      "score": 28,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 22,
-      "tier": "Pass"
+      "score": 24,
+      "tier": "Strong Pass"
     },
     "vinod-khosla": {
-      "score": 28,
+      "score": 36,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 27,
-    "EG": 36,
-    "NR": 31,
-    "PG": 40,
-    "PT": 24,
-    "SL": 22,
-    "VK": 28
+    "CB": 31,
+    "EG": 33,
+    "NR": 34,
+    "PG": 44,
+    "PT": 28,
+    "SL": 24,
+    "VK": 36
   },
-  "consolidatedAvg": 29.71,
-  "consolidatedRank": 181,
+  "consolidatedAvg": 32.86,
+  "consolidatedRank": 159,
   "paths": {
     "memo": "winter2026/memos/sparkles.md",
     "evals": {

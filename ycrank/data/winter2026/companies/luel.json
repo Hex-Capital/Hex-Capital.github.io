@@ -9,7 +9,9 @@
     "industry": "B2B / B2B -> Infrastructure",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Marketplace, B2B, Big Data"
+    "tags": "Marketplace, B2B, Big Data",
+    "yc_partner": "Harshita Arora",
+    "emails": "No public data found"
   },
   "tags": [
     "Marketplace",
@@ -17,48 +19,48 @@
     "Big Data"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T06:05:09.026Z",
+  "memoGeneratedAt": "2026-03-04T06:31:14.615Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 38,
+      "score": 43,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 40,
-      "tier": "Pass"
+      "score": 48,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 34,
-      "tier": "Pass"
+      "score": 49,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 35,
-      "tier": "Pass"
+      "score": 64,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 26,
+      "score": 30,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 27,
+      "score": 36,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 42,
+      "score": 43,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 38,
-    "EG": 40,
-    "NR": 34,
-    "PG": 35,
-    "PT": 26,
-    "SL": 27,
-    "VK": 42
+    "CB": 43,
+    "EG": 48,
+    "NR": 49,
+    "PG": 64,
+    "PT": 30,
+    "SL": 36,
+    "VK": 43
   },
-  "consolidatedAvg": 34.57,
-  "consolidatedRank": 139,
+  "consolidatedAvg": 44.71,
+  "consolidatedRank": 53,
   "paths": {
     "memo": "winter2026/memos/luel.md",
     "evals": {

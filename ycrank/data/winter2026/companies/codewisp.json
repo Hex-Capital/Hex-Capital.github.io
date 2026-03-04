@@ -9,7 +9,9 @@
     "industry": "Consumer / Consumer -> Gaming",
     "team_size": "3",
     "location": "San Francisco, CA, USA",
-    "tags": "Artificial Intelligence, Consumer, Gaming, Web Development, AI"
+    "tags": "Artificial Intelligence, Consumer, Gaming, Web Development, AI",
+    "yc_partner": "Harshita Arora",
+    "emails": "fuelvin@codewisp.net"
   },
   "tags": [
     "Artificial Intelligence",
@@ -19,18 +21,18 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T06:04:59.758Z",
+  "memoGeneratedAt": "2026-03-04T06:28:14.495Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 32,
+      "score": 33,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 45,
-      "tier": "Neutral"
+      "score": 42,
+      "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 50,
+      "score": 53,
       "tier": "Neutral"
     },
     "paul-graham": {
@@ -38,29 +40,29 @@
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
       "score": 30,
       "tier": "Pass"
     },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
+    },
     "vinod-khosla": {
-      "score": 33,
+      "score": 34,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 32,
-    "EG": 45,
-    "NR": 50,
+    "CB": 33,
+    "EG": 42,
+    "NR": 53,
     "PG": 53,
-    "PT": 29,
-    "SL": 30,
-    "VK": 33
+    "PT": 30,
+    "SL": 29,
+    "VK": 34
   },
-  "consolidatedAvg": 38.86,
-  "consolidatedRank": 100,
+  "consolidatedAvg": 39.14,
+  "consolidatedRank": 98,
   "paths": {
     "memo": "winter2026/memos/codewisp.md",
     "evals": {

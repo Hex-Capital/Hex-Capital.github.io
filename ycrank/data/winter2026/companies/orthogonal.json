@@ -9,7 +9,9 @@
     "industry": "B2B / B2B -> Infrastructure",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Artificial Intelligence, Crypto / Web3, Payments, API"
+    "tags": "Artificial Intelligence, Crypto / Web3, Payments, API",
+    "yc_partner": "Tyler Bosmeny",
+    "emails": "founders@orthogonal.com"
   },
   "tags": [
     "Artificial Intelligence",
@@ -18,48 +20,48 @@
     "API"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T05:59:34.237Z",
+  "memoGeneratedAt": "2026-03-04T06:24:33.018Z",
   "evalScores": {
     "cyan-banister": {
       "score": 32,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 49,
-      "tier": "Neutral"
+      "score": 42,
+      "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 46,
+      "score": 47,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 50,
+      "score": 47,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 31,
+      "score": 29,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 35,
+      "score": 36,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 42,
+      "score": 39,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 32,
-    "EG": 49,
-    "NR": 46,
-    "PG": 50,
-    "PT": 31,
-    "SL": 35,
-    "VK": 42
+    "EG": 42,
+    "NR": 47,
+    "PG": 47,
+    "PT": 29,
+    "SL": 36,
+    "VK": 39
   },
-  "consolidatedAvg": 40.71,
-  "consolidatedRank": 84,
+  "consolidatedAvg": 38.86,
+  "consolidatedRank": 101,
   "paths": {
     "memo": "winter2026/memos/orthogonal.md",
     "evals": {

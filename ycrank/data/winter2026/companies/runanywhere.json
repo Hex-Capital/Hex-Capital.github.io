@@ -8,59 +8,61 @@
     "batch": "Winter 2026",
     "industry": "B2B / B2B -> Infrastructure",
     "team_size": "2",
-    "location": "No public data found (Tracxn lists Bengaluru, India; via search snippet)",
-    "tags": "Artificial Intelligence, Developer Tools, IoT, Open Source, Enterprise"
+    "location": "San Francisco, CA (company website); founders originally from Punjab, India (FoundersBrief, Jan 2026)",
+    "tags": "Developer Tools, IoT, Open Source, Enterprise, AI",
+    "yc_partner": "Diana Hu",
+    "emails": "san@runanywhere.ai"
   },
   "tags": [
-    "Artificial Intelligence",
     "Developer Tools",
     "IoT",
     "Open Source",
-    "Enterprise"
+    "Enterprise",
+    "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T19:26:58.241Z",
+  "memoGeneratedAt": "2026-03-05T07:20:08.060Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 32,
+      "score": 38,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 50,
+      "score": 47,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 41,
-      "tier": "Pass"
+      "score": 50,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 48,
+      "score": 58,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 28,
+      "score": 32,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 31,
+      "score": 36,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 34,
-      "tier": "Pass"
+      "score": 45,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 32,
-    "EG": 50,
-    "NR": 41,
-    "PG": 48,
-    "PT": 28,
-    "SL": 31,
-    "VK": 34
+    "CB": 38,
+    "EG": 47,
+    "NR": 50,
+    "PG": 58,
+    "PT": 32,
+    "SL": 36,
+    "VK": 45
   },
-  "consolidatedAvg": 37.71,
-  "consolidatedRank": 117,
+  "consolidatedAvg": 43.71,
+  "consolidatedRank": 64,
   "paths": {
     "memo": "winter2026/memos/runanywhere.md",
     "evals": {

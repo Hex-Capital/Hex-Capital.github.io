@@ -1,6 +1,6 @@
 ﻿# Avoice
 
-> The AI Workspace For Architects
+> Harvey for Architecture
 
 | Field | Value |
 |-------|-------|
@@ -10,108 +10,107 @@
 | Industry | B2B / B2B |
 | Team Size | 4 |
 | Location | San Francisco, CA, USA |
-| Tags | Construction, Enterprise Software, Architecture, AI |
+| Tags | Artificial Intelligence, Construction, Enterprise Software, Architecture |
+| YC Partner | Jared Friedman |
+| Emails | hello@avoice.co |
 
 ## The Idea
 
-**Problem:** Architects spend a disproportionate share of their time on documentation tasks — writing specifications, coordinating schedules, researching building codes, verifying material compliance, and conducting QA/QC — rather than on design work. This work is spread across disconnected systems including PDFs, spreadsheets, and email (YC company page). The fragmented nature of these tools leads to errors, inconsistencies, and loss of institutional knowledge as firms scale. Current alternatives include general-purpose document tools and manual processes; no single platform consolidates architectural documentation intelligence.
+**Problem:** Architecture firms spend a disproportionate share of their time on operational and documentation work rather than design. Tasks like writing specifications, QA/QC reviews, code compliance checking, material research, coordination, and schedule validation are repetitive, labor-intensive, and risk-sensitive. The industry is highly fragmented — dominated by small firms — and relies on legacy tools (Revit, manual processes, disconnected spreadsheets) that require heavy customization. Smaller firms especially lack the resources to maintain the level of technical rigor that larger studios can afford. The customer segment is the estimated 110,000+ architecture firms worldwide (BusinessDojo, 2025 via search snippet).
 
-**Approach:** Avoice provides three integrated modules (avoice.co):
-1. **Studio Assistant** — An AI that interprets architectural drawings and documents in natural language. It can spot sheet inconsistencies, convert sketches to text, compare revisions, find sustainable material substitutions, locate code compliance risks, draft scope narratives, and summarize RFIs.
-2. **Studio Workflow** — Automates project-level tasks: QA/QC across entire projects, coordination and RFI prevention, material finding and updating, and contract/tender analysis.
-3. **Studio Library** — Centralizes a firm's practice standards, learns from past projects, maintains a living material library, and extracts insights from documents.
+**Approach:** Avoice provides an AI-native workspace with specialized AI agents that understand architectural drawings, specifications, schedules, materials, codes, and past projects. Rather than intervening in design authorship, the platform automates back-office and technical foundations: documentation drafting, cross-sheet inconsistency detection, code compliance risk identification, revision comparison, schedule validation, spec language generation, and material research. The recently launched Research Agent autonomously searches the web for suppliers based on architect criteria, emails suppliers for quotations, compiles data into Google Sheets, and sends summaries (Dezeen, Feb 2026). A Studio Library feature centralizes practice standards, learns from past projects, and maintains a living material library.
 
-The platform claims to save 13 hours per user per week, deliver $25,000 in annual productivity gains per user, and make schedules, specs, and QA processes 3x faster (avoice.co).
+**Differentiation:** Unlike most AI tools in architecture that focus on design generation and rendering (e.g., Veras, Midjourney, DALL-E for concept imagery), Avoice targets the operational and documentation layer — what the founders describe as "the repetitive, labour-intensive and risk-sensitive work that underpins architectural delivery" (Dezeen, Feb 2026). Compared to Monograph, which focuses on project management, budgeting, and billing for architecture firms, Avoice automates the technical content production itself. Compared to Swapp AI, which automates Revit-based construction documentation, Avoice operates as a broader workspace covering QA/QC, research, material sourcing, and knowledge management in addition to documentation. Compared to cove.tool, which offers AI-powered full-service architecture with 3D modeling and energy analysis, Avoice positions as a tool *for* architects rather than a replacement architecture services firm.
 
-**Differentiation:** Avoice focuses specifically on the documentation and coordination layer of architectural practice, rather than design generation or project management. Swapp ($18.5M raised) automates construction documentation from BIM/Revit models specifically, requiring existing BIM workflows (Calcalist, PRNewswire). Monograph (~$49M raised) focuses on project and budget management for architecture firms rather than documentation intelligence (TechCrunch, Architect Magazine). TestFit ($22M raised) targets feasibility studies and building configuration, not post-design documentation (Dallas Innovates). Hypar ($8.28M raised) focuses on design automation and text-to-BIM workflows (PRNewswire). Avoice's differentiator is its focus on the full documentation lifecycle — specs, codes, materials, QA — as a unified AI-native platform that also preserves firm-specific knowledge.
+**Business Model:** No pricing information is publicly available on the website; the primary CTA is "Request a Demo," suggesting an enterprise sales motion. [Inferred]: Most likely monetization path is per-seat or per-firm SaaS subscription, consistent with the enterprise demo-first approach and the "Harvey for Architecture" positioning (Harvey charges per-seat for legal AI).
 
-**Business Model:** No public pricing page was found on avoice.co at the time of research. The website offers a "Request a Demo" flow, suggesting a sales-led enterprise model. [Inferred]: Most likely monetization path is per-seat or per-firm SaaS subscription, given the B2B enterprise positioning and demo-request funnel typical of vertical SaaS for architecture firms.
+**TAM/SAM:** The global architecture services market is estimated at approximately $370–410 billion in 2025, with 4.3–5.6% CAGR projected to reach $550–600 billion by 2032–2034 (BusinessDojo, Oct 2025 via search snippet). The company's own materials cite a "$300B+" market (YC page). [Inferred]: The SAM would be the software/technology spending subset of architecture firms — no specific SAM estimate was found. The AEC software market is a fraction of the total services market. No public SAM data found for this specific segment.
 
-**TAM/SAM:** The Architecture, Engineering and Construction (AEC) Software market was estimated at $11.7 billion in 2024 with a 9.5% CAGR through 2031 (Metastat Insight, 2024 via search snippet). The broader Construction and Design Software market was valued at $11.05 billion in 2024, projected to reach $29.99 billion by 2034 at 10.5% CAGR (Precedence Research, 2024 via search snippet). The AI Architecture Design Software segment was valued at $4.1 billion in 2022 with a 16.2% CAGR to 2030 (UnivDatos via search snippet). No public SAM estimate was found specific to AI-powered architectural documentation software.
-
-**GTM / Distribution:** The website states the platform is "trusted by top architecture and design studios" (avoice.co), and offers demo booking. The YC partner is Jared Friedman (YC company page). [Inferred]: Most likely distribution path is direct sales to mid-to-large architecture firms, starting with demo-led enterprise sales, leveraging the YC network and industry press (ArchDaily feature) for initial pipeline.
+**GTM / Distribution:** The website focuses on scheduling demos, indicating a direct sales / enterprise motion. The Dezeen article (Feb 2026) positions the product toward smaller firms that want to "level the playing field" with larger studios. The company states firms using Avoice manage over $300M in active projects on the platform (YC page). [Inferred]: Most likely distribution path is direct outreach to mid-sized architecture firms, leveraging the YC network and architecture industry press coverage (Dezeen, ArchDaily) for inbound demand generation.
 
 ## Defensibility
 
-The primary defensibility signal is the **firm-specific knowledge accumulation** mechanism: as architecture firms use Avoice's Studio Library, their practice standards, past project data, and material libraries become embedded in the platform, creating switching costs over time. Each firm's AI system would become more tailored and valuable with use.
+**Data moat potential:** Avoice's Studio Library learns from each firm's past projects, practice standards, and material libraries. Over time, this creates firm-specific institutional knowledge that becomes increasingly valuable and harder to replicate or migrate away from. The platform's understanding of a firm's design habits, annotation practices, and standards creates switching costs proportional to usage duration.
 
-**Market structure:** Architecture firms currently use fragmented, general-purpose tools (PDFs, spreadsheets, email) for documentation. Large incumbents like Autodesk (which acquired Spacemaker, now Autodesk Forma) focus primarily on design and BIM tools. [Inferred]: Autodesk's business model is built around design/modeling software (Revit, AutoCAD), and adding a documentation intelligence layer could cannibalize their consulting/services revenue streams and would require a fundamentally different product architecture focused on NLP and document understanding rather than 3D modeling. However, Autodesk has the resources and AEC relationships to build or acquire in this space.
+**Workflow integration:** As the "operating system for architectural practice," deeper integration into daily workflows (documentation, QA/QC, coordination, research) creates stickiness — switching costs increase as more project data flows through the platform.
 
-**Commoditization risk:** The underlying LLM technology for document understanding is broadly available. Other AI startups (Swapp, Hypar) and potential new entrants could build similar document-analysis features. The barrier is in building architecture-specific training data, code/standards databases, and firm-specific knowledge graphs — which takes time but is not technically unique. General-purpose AI coding/document assistants could also expand into this vertical.
+**Market structure:** Architecture-specific AI incumbents are few. Autodesk, the dominant incumbent in architecture software (via Revit, AutoCAD), has historically focused on design and modeling tools rather than operational workflow automation. [Inferred]: Autodesk could build similar capabilities but faces business model friction — its revenue model is based on per-seat CAD/BIM licenses, and expanding into AI-powered operational automation would require a different go-to-market approach and domain expertise in architectural documentation standards. Additionally, architectural documentation involves highly specialized domain knowledge (building codes, specification standards like MasterFormat/CSI, coordination protocols) that general-purpose AI tools cannot easily replicate without deep vertical investment.
+
+**Commoditization risk:** Large language model capabilities are broadly available, and a well-funded competitor with architecture domain expertise could build competing features. Swapp AI ($21.3M raised) already operates in adjacent territory with firm-specific AI for Revit documentation. General-purpose AI assistants (ChatGPT, Claude) can handle some research and writing tasks that overlap with Avoice's offering, though they lack the integrated drawing comprehension and project context. The key differentiator would be depth of architectural domain knowledge and quality of the firm-specific learning loop.
 
 ## Market & Traction
 
 **Traction signals:**
-- Website claims: 13 hours saved per user per week, $25K annual productivity gains per user, 3x faster schedules/specs/QA (avoice.co — these are product claims, not independently verified metrics)
-- Website states "trusted by top architecture and design studios" (avoice.co) — no specific firm names or user counts disclosed
-- Press: Featured in ArchDaily article "Beyond the Render: How AI Is Restructuring Architectural Documentation" (ArchDaily, February 20, 2026), where Avoice is cited as an example of AI structuring technical knowledge for buildable design
-- Product Hunt: No listing found
-- Twitter/X (company): No confirmed company account found. Note: @AvoiceAI on X.com is a different company (mobile platform for frontline workers based in Orlando, FL)
-- LinkedIn (company): No confirmed company page found for the YC Avoice specifically. "AvoiceAI" on LinkedIn appears to correspond to the unrelated Orlando-based company
-- Discord/Slack community: No public data found
-- App store / browser extension: No public data found
-- Job postings: Company is not currently hiring (YC company page)
+- Firms using Avoice manage over $300M in active projects on the platform (YC company page, 2025)
+- Claims of 13 hours saved per user per week, $25,000 annual productivity gains per user, and 3× faster schedules/specs/QA (company website)
+- Press coverage in Dezeen ("AI workspace Avoice 'levels the playing field' between small and large architecture firms," Feb 25, 2026)
+- Referenced in ArchDaily article on AI in architectural documentation (Feb 20, 2026)
+- No Product Hunt launch found
+- No public Twitter/X account confirmed for the company (multiple unrelated "Avoice" accounts exist)
+- LinkedIn company page: Not confirmed; the "AvoiceAI" LinkedIn page belongs to a different company (mobile platform for frontline workers, Orlando, FL)
+- No Discord/Slack community found
+- No app store listings found for the company
+- No job postings found on YC's job board
+- Company is not currently hiring (YC page)
 
 **Competitive landscape:**
 
-| Competitor | Funding | Key Differentiator vs. Avoice |
-|---|---|---|
-| **Swapp** | $18.5M total ($11.5M Series A led by Eurazeo) (Calcalist) | Automates construction documentation specifically from Revit/BIM models; requires existing BIM workflow. Avoice is BIM-agnostic and focuses on broader documentation intelligence including specs, codes, and firm knowledge |
-| **Monograph** | ~$49M total ($20M Series B, Feb 2025, led by Base10 Partners) (Architect Magazine, TechCrunch) | Practice/project management and budgeting for architects (12,000+ users as of 2025). Does not offer AI-powered document generation or QA/QC automation |
-| **TestFit** | $22M total ($20M Series A led by Parkway Venture Capital) (Dallas Innovates) | AI-powered feasibility studies and building configuration. Targets pre-design phase, not post-design documentation workflows |
-| **Hypar** | $8.28M total ($5.5M Series A, June 2023, led by Brick & Mortar Ventures) (PRNewswire) | Design automation and text-to-BIM. Focused on encoding design standards into automated templates, not document QA/QC or specification writing |
+1. **Swapp AI** ($21.3M raised across multiple rounds including $11.5M Series A in May 2023; revenue unknown) — Firm-specific AI co-pilot that learns each office's standards and automates Revit deliverables (views, annotations, schedules, full DD/CD sets). Differentiator vs. Avoice: Swapp is deeply integrated into Revit/Autodesk Construction Cloud workflows and focused specifically on construction documentation automation, while Avoice operates as a broader workspace covering QA/QC, research, and knowledge management beyond just documentation. (VentureBeat; Calcalist via search snippet)
 
-**Why now:** [Inferred]: The key enabling change is the maturation of large language models with multimodal capabilities (text + image/document understanding) in 2023–2025, which for the first time makes it feasible to build AI that can interpret architectural drawings, cross-reference building codes, and generate specification text at sufficient quality for professional use. Prior NLP technology could not reliably parse the combination of technical drawings, regulatory codes, and domain-specific terminology required. Additionally, architecture firms face growing project complexity and labor shortages, making productivity tools more urgent.
+2. **Monograph** ($20M Series B led by Base10 Partners, announced Feb 2025; revenue unknown but claims customers increase revenue by 21% on average) — Project and financial management platform for A&E firms, automating budgeting, staffing, billing, and profitability tracking. Differentiator vs. Avoice: Monograph focuses on the business/financial side of running an architecture firm, while Avoice focuses on the technical production and documentation side. (Archpaper, Feb 2025 via search snippet)
+
+3. **Cove.tool** ($36.6M raised, $30M Series B in Dec 2021 led by Coatue; revenue unknown) — AI-powered architecture firm offering full-service architecture with proprietary AI for design optimization, cost analysis, and construction documents. Differentiator vs. Avoice: Cove positions as an AI-powered architecture *services firm* (a replacement for traditional architects on certain projects), while Avoice is a tool that empowers existing architecture firms. (Crunchbase; Tracxn via search snippet)
+
+4. **Togal.AI** ($22.65M raised, latest round $10.41M convertible note Aug 2025; revenue unknown) — AI-powered preconstruction takeoff platform that automatically detects, measures, labels, and compares spaces on architectural plans. Differentiator vs. Avoice: Togal.AI focuses specifically on preconstruction estimating and takeoff, primarily serving general contractors and estimators rather than architects. (Construction Dive via search snippet)
+
+**Why now:** [Inferred]: The convergence of several factors creates the opening: (1) Large language models crossed a capability threshold in 2023–2025 for understanding complex technical documents, drawings, and specifications — enabling automated comprehension of architectural drawings at a quality level not previously achievable; (2) multimodal AI capabilities (vision + language) became production-ready, enabling interpretation of architectural drawings and cross-referencing with text specifications; (3) the architecture industry's documentation burden has grown with increasingly complex building codes and sustainability requirements, widening the gap between small and large firms; (4) the "Harvey for X" vertical AI pattern validated by Harvey ($2B+ valuation in legal AI) demonstrated the viability of domain-specific AI workspaces for professional services industries with heavy documentation requirements.
 
 ## Founders & Team
 
-**Chawin Asavasaetakul** — Co-Founder & CEO
-- BS Management Science & Engineering, Stanford University (Bangkok Patana School via search snippet)
-- Previously: Co-Founded WeStride, a Southeast Asian EdTech company that grew to serve 1,000+ customers in its first year and over 250 learners with a 93% job placement rate; received Learning Design Award from Stanford's Accelerator for Learning (WeStride website, LinkedIn via search snippet)
-- CEO of Kinkum, a platform connecting users to unsold food/ingredients from restaurants in Thailand (LinkedIn via search snippet)
-- Co-founded Yindii, a food surplus delivery startup (LinkedIn post)
-- Published "Water, Trees and Culture: A Hilltribe Story" based on 4 years of work with hill tribe villages in northern Thailand (Goodreads, SSRN via search snippet)
-- Gold Medal in Thailand Philosophy Olympiad; national representative to International History and Philosophy Olympiad (Bangkok Patana School via search snippet)
-- Has a Google Scholar profile (scholar.google.co.th via search snippet)
+**Chawin Asavasaetakul** — Co-founder & CEO
+- B.S. in Management Science & Engineering, Stanford University (Bangkok Patana School via search snippet)
+- Prior ventures: Co-founded Yindii, SEA's largest surplus food marketplace operating in Thailand, Hong Kong, and Singapore — 700K+ users and reached profitability in Hong Kong (YC page; PR Newswire, Aug 2024 via search snippet; Zawya, Dec 2025 via search snippet). Co-founded WeStride, one of Thailand's largest tech-focused education companies, helping 1,000+ individuals transition to tech careers (WeStride website via search snippet). YC page also references an edtech startup with $1M+ revenue sold in 2025, and Dyno coatings business with 20% YoY growth to $15M. Spent two years building architecture sales teams before co-founding Avoice (YC page).
+- Published academic work: "Determinants of Expenditure in the Hill Tribes of Thailand" (SSRN)
 - Twitter/X: No public account found
-- LinkedIn: linkedin.com/in/chawinasava/ — listed as "AVoice (YC W26)"
+- LinkedIn: linkedin.com/in/chawinasava — headline: AVoice (YC W26)
 - GitHub: No public repos found
+- Instagram: @chawinasava
 
-**Chawit Asavasaetakul** — Co-Founder & CTO
-- FIDE-rated chess player, National Master title (FIDE profile, Chess.com)
-- Published iOS app "Jetlag Sync" (Travel category, 4.5 stars, 8 reviews, free with in-app purchases) (Apple App Store)
-- GitHub: github.com/AAES-chawit — 1 public repository (GitHub via search snippet; attribution tentative based on name match)
-- Education: No public data found
+**Chawit Asavasaetakul** — Co-founder & CTO
+- Background details limited in public sources. FIDE-rated chess player (FIDE profile ID 6204856).
+- Published apps on the iOS App Store including "Jetlag Sync" (Apple App Store developer page)
 - Twitter/X: No public account found
-- LinkedIn: No confirmed public profile found
+- LinkedIn: No public profile found in search results
+- GitHub: "AAES-chawit" is a possible match (1 repository), but not confirmed as belonging to this individual
 
-**Co-founder relationship:** Both founders share the surname Asavasaetakul. Chawin attended Bangkok Patana School before Stanford. Chawit's FIDE chess profile indicates birth year 2003, and both appear to have Thai backgrounds. [Inferred]: The shared surname and Thai background strongly suggest they are siblings (possibly twins given the similar names Chawin/Chawit), though this is not confirmed in public sources.
+**Co-founder relationship:** The founders share the surname Asavasaetakul and both attended Bangkok Patana School (based on Chawin's school profile). They are likely siblings or relatives. Both are listed as co-founders on the YC page.
 
-**Founder-market fit:** Chawin's background is in management science, social entrepreneurship, and EdTech — not architecture specifically. Chawit's public profile shows software development skills (iOS app) and analytical capability (competitive chess). No public evidence of either founder having prior experience in architecture, construction, or AEC software. The team's strength appears to be in building technology products and scaling startups (WeStride's growth) rather than deep domain expertise in architecture. The YC partnership with Jared Friedman and the W26 batch acceptance provide validation of the team's execution ability. No public advisors, board members, or notable investors beyond YC were found.
+**Founder-market fit:** Chawin brings serial entrepreneurship experience across multiple countries and industries, with demonstrated ability to scale ventures (Yindii to 700K+ users, WeStride to 1,000+ career transitions). His two years building architecture sales teams directly prior to founding Avoice provided domain-specific customer insight. Chawin's Stanford MS&E background provides analytical and operations management foundations relevant to building workflow software. The combination of technical product building (Chawit's iOS development) and business scaling (Chawin's track record) covers both sides of a B2B startup.
 
 ## Key Risks
 
-**Brand disambiguation:** Multiple unrelated companies use the "Avoice" name: AvoiceAI (avoiceai.com, mobile platform for frontline workers in Orlando, FL), UAB Avoice (Lithuanian telecom), and several Brazilian event companies. The @AvoiceAI handle on X.com belongs to the Orlando-based company, not the YC startup. This creates SEO competition and potential brand confusion for customers searching for the product.
+**Brand disambiguation:** Multiple unrelated companies use the "Avoice" name — including AvoiceAI (mobile platform for frontline workers, Orlando), Avoice Formaturas (Brazilian events company), and UAB Avoice (Lithuanian entity). This creates potential confusion in marketing, SEO, and social media presence. The company does not appear to have secured consistent social media handles.
 
-**No demonstrated architecture domain expertise in founding team:** Neither founder has publicly documented experience working in architecture, construction, or AEC software prior to Avoice. Architecture documentation is a domain requiring deep understanding of building codes, specification standards (CSI MasterFormat), coordination workflows, and professional liability concerns. Mitigation: the team may have hired domain experts among the 4-person team or engaged architecture firm advisors, but no public evidence of this was found.
+**Narrow domain vertical with long sales cycles:** Architecture firms, especially small firms (the stated target), are known for conservative technology adoption and tight budgets. Enterprise sales to fragmented small-firm markets require high customer acquisition effort relative to contract size. The demo-first sales motion suggests longer sales cycles that could challenge growth velocity.
 
-**Incumbent platform risk from Autodesk:** Autodesk dominates the AEC software market with Revit, AutoCAD, and Autodesk Forma (formerly Spacemaker). Autodesk has been actively acquiring AI capabilities and could build or acquire documentation intelligence features that integrate natively with their existing BIM tools, which would be difficult for a standalone product to compete against given architects' existing Autodesk workflows.
+**Competitive encroachment from Autodesk ecosystem:** Autodesk dominates the architecture software stack (Revit, AutoCAD, BIM 360). Autodesk has been adding AI features and could build or acquire competing documentation automation capabilities. Swapp AI already operates inside the Revit/Autodesk Construction Cloud ecosystem, potentially pre-empting Avoice's expansion into that integration layer.
 
-**Well-funded direct competitor (Swapp):** Swapp has raised $18.5M and directly automates architectural construction documentation with AI, learning firm-specific standards. Swapp is further along in funding and has established a market presence in the same problem space, though with a more BIM-centric approach.
+**CTO background opacity:** Limited public information is available about the CTO's technical background, education, or prior engineering experience. For a product that requires deep AI/ML and architectural domain expertise, investors may want clarity on the technical team's depth.
 
-**Narrow vertical with long sales cycles:** Architecture firms are a specialized customer segment with typically conservative technology adoption patterns and long procurement cycles. The total addressable population of architecture firms is smaller than many B2B SaaS markets, potentially constraining growth velocity.
+**Dependency on LLM infrastructure:** The platform's AI capabilities likely depend on third-party foundation models. Changes in pricing, capabilities, or terms of service from LLM providers (OpenAI, Anthropic, etc.) could affect unit economics and product quality.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $11.7B AEC Software market (Metastat Insight, 2024, 9.5% CAGR); $4.1B AI Architecture Design Software (UnivDatos, 2022, 16.2% CAGR) |
+| TAM | ~$370–410B global architecture services market in 2025, 4.3–5.6% CAGR to $550–600B by 2032–2034 (BusinessDojo, Oct 2025 via search snippet) |
 | SAM | No public data found |
-| Traction | ArchDaily feature article (Feb 20, 2026); website claims "trusted by top architecture and design studios" (avoice.co) — no specific user counts or firm names disclosed |
-| Revenue Signal | No public data found |
-| Founders | Chawin Asavasaetakul (CEO): Stanford BS MS&E, co-founded WeStride (EdTech, 1K+ customers), CEO of Kinkum. Chawit Asavasaetakul (CTO): iOS developer (Jetlag Sync app), FIDE National Master chess player |
-| Competitors | Swapp ($18.5M raised, revenue unknown, BIM-to-documentation automation vs. Avoice's broader doc intelligence); Monograph (~$49M raised, 12K+ users, practice/budget management vs. Avoice's AI documentation); TestFit ($22M raised, revenue unknown, pre-design feasibility vs. Avoice's post-design documentation); Hypar ($8.28M raised, revenue unknown, design automation/text-to-BIM vs. Avoice's spec/QA focus) |
-| Moat Signals | Firm-specific knowledge accumulation in Studio Library creates switching costs over time; no patent or network effect data found |
-| Risk Factors | Brand disambiguation with multiple "Avoice" entities, no public architecture domain expertise in founding team, Autodesk incumbent platform risk, well-funded direct competitor (Swapp at $18.5M) |
-| Founder Reach | Chawin Asavasaetakul: Twitter not found, LinkedIn linkedin.com/in/chawinasava/, GitHub not found. Chawit Asavasaetakul: Twitter not found, LinkedIn not confirmed, GitHub tentative (1 repo) |
-| Distribution Signals | ArchDaily article mention (Feb 20, 2026); YC W26 batch; no Product Hunt, app store, or browser extension listings found |
+| Traction | $300M+ in active projects managed on platform (YC page, 2025); press in Dezeen (Feb 2026) and ArchDaily (Feb 2026) |
+| Revenue Signal | No public data found; demo-only model with no visible pricing |
+| Founders | Chawin Asavasaetakul (CEO): Stanford MS&E, serial founder (Yindii 700K+ users, WeStride 1K+ career transitions, edtech $1M+ rev sold 2025). Chawit Asavasaetakul (CTO): iOS developer, FIDE chess player |
+| Competitors | Swapp AI ($21.3M raised, revenue unknown, Revit-native CD automation); Monograph ($20M+ raised, revenue unknown, A&E project/financial management); Cove.tool ($36.6M raised, revenue unknown, AI architecture services firm); Togal.AI ($22.65M raised, revenue unknown, preconstruction takeoff) |
+| Moat Signals | Firm-specific learning from past projects/standards creates switching costs; workflow integration across documentation/QA/research increases stickiness |
+| Risk Factors | Brand disambiguation across multiple "Avoice" entities, conservative small-firm sales cycles, Autodesk ecosystem competitive threat |
+| Founder Reach | Chawin: Twitter not found, LinkedIn linkedin.com/in/chawinasava, GitHub not found. Chawit: Twitter not found, LinkedIn not found, GitHub not confirmed |
+| Distribution Signals | No Product Hunt launch found; no app store listings; Dezeen feature article (Feb 2026); ArchDaily mention (Feb 2026) |
+| Emails | hello@avoice.co |

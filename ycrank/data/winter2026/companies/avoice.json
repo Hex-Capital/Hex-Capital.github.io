@@ -1,7 +1,7 @@
 {
   "slug": "avoice",
   "name": "Avoice",
-  "oneLiner": "The AI Workspace For Architects",
+  "oneLiner": "Harvey for Architecture",
   "metadata": {
     "website": "https://avoice.co/",
     "yc_page": "https://www.ycombinator.com/companies/avoice",
@@ -9,57 +9,59 @@
     "industry": "B2B / B2B",
     "team_size": "4",
     "location": "San Francisco, CA, USA",
-    "tags": "Construction, Enterprise Software, Architecture, AI"
+    "tags": "Artificial Intelligence, Construction, Enterprise Software, Architecture",
+    "yc_partner": "Jared Friedman",
+    "emails": "hello@avoice.co"
   },
   "tags": [
+    "Artificial Intelligence",
     "Construction",
     "Enterprise Software",
-    "Architecture",
-    "AI"
+    "Architecture"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T19:26:16.376Z",
+  "memoGeneratedAt": "2026-03-05T07:11:10.770Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 36,
-      "tier": "Pass"
+      "score": 49,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 41,
-      "tier": "Pass"
+      "score": 58,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 34,
+      "score": 43,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 35,
-      "tier": "Pass"
+      "score": 54,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 30,
+      "score": 37,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 24,
-      "tier": "Strong Pass"
+      "score": 30,
+      "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 35,
+      "score": 41,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 36,
-    "EG": 41,
-    "NR": 34,
-    "PG": 35,
-    "PT": 30,
-    "SL": 24,
-    "VK": 35
+    "CB": 49,
+    "EG": 58,
+    "NR": 43,
+    "PG": 54,
+    "PT": 37,
+    "SL": 30,
+    "VK": 41
   },
-  "consolidatedAvg": 33.57,
-  "consolidatedRank": 149,
+  "consolidatedAvg": 44.57,
+  "consolidatedRank": 59,
   "paths": {
     "memo": "winter2026/memos/avoice.md",
     "evals": {

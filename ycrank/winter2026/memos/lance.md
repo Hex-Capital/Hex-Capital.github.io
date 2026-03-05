@@ -11,111 +11,117 @@
 | Team Size | 3 |
 | Location | San Francisco, CA, USA |
 | Tags | SaaS, B2B, Customer Service, Conversational AI |
+| YC Partner | Diana Hu |
+| Emails | founders@lance.live (YC LinkedIn announcement post) |
 
 ## The Idea
 
-**Problem:** Hotels face acute staffing shortages — 65% of hotels report staffing gaps, and hotels miss up to 40% of incoming calls (YC company page). Front desk teams are stretched thin across guest communication, sales inquiries, and operational coordination. Current solutions are either legacy PBX/IVR systems that frustrate guests or manual processes that lose revenue when calls go unanswered. Hotels using major brands (Marriott, Hilton, Hyatt) operate under franchise standards that demand consistent guest experience, making missed calls and slow response times a direct revenue and compliance problem.
+**Problem:** Hotels face chronic staffing shortages — 65% of hotels report staffing shortages, and hotels miss up to 40% of inbound requests during peak periods and after hours (YC LinkedIn post, 2026 via search snippet). The front desk is burdened with repetitive call handling (room requests, reservation changes, restaurant bookings, wake-up calls, directions), which diverts staff from in-person guest service. Existing solutions are primarily text-based chatbots that do not handle voice calls or execute multi-step operational tasks end-to-end.
 
-**Approach:** Lance deploys autonomous AI agents across three core functions: (1) a Receptionist Agent that handles 24/7 guest support across calls, SMS, and email; (2) a Sales Agent that responds to inbound sales inquiries and RFPs, qualifies leads, gathers booking details, and follows up; and (3) Lance Pad, a tablet-first operations hub that replaces walkie-talkies with real-time team communication across the property (LinkedIn company page). The agents are built on Computer Use Agent technology, meaning they can navigate the hotel's existing software systems (PMS, CRM, etc.), make real-time decisions, and handle complex multi-step tasks like scheduling wake-up calls, routing towel delivery, or processing restaurant bookings — without requiring integration APIs or middleware (YC company page).
+**Approach:** Lance deploys autonomous AI voice agents that answer inbound hotel calls, resolve guest requests, and orchestrate on-property operations without human intervention. The system uses Computer Use Agent technology — vision-based agents that navigate existing hotel PMS software, make real-time decisions, and complete multi-step tasks (e.g., booking a restaurant, scheduling a wake-up call, dispatching towels). Lance also offers a Sales AI Agent that qualifies leads and follows up on RFPs, and "Lance Pad," a tablet-based operations hub for staff coordination that replaces walkie-talkies. The platform supports multiple languages including English, Spanish, Cantonese, Hindi, and Portuguese (lance.live).
 
-**Differentiation:** Unlike text-only chatbot platforms (Akia, HiJiffy, Viqal) that handle messaging workflows, Lance handles voice calls autonomously — the primary communication channel in hospitality. Unlike Canary Technologies, which started with contactless check-in and added AI Voice as one module within a broader platform, Lance is purpose-built around full-stack autonomous operations, combining voice, sales, and operational dispatch in a single agent system. The Computer Use Agent approach — where the AI navigates existing hotel software directly — is a distinct technical differentiator versus competitors that require deep PMS integrations or custom API connectors.
+**Differentiation:** Unlike text-first chatbot competitors (HiJiffy, Asksuite, Duve), Lance focuses on voice-first AI that handles phone calls — the primary communication channel for hotel guests. Unlike Canary Technologies, which offers AI voice as one module in a broader suite, Lance's core differentiation is its Computer Use Agent technology that can navigate any existing hotel software visually rather than requiring deep API integrations. This approach potentially reduces integration friction with legacy PMS systems. Lance also combines voice handling with operational task execution (dispatching staff, coordinating fulfillment), whereas most competitors focus on guest communication without on-property execution.
 
-**Business Model:** No public pricing page found on lance.live. [Inferred]: Most likely monetization path is per-hotel-per-month SaaS subscription, possibly tiered by call volume or number of agent types deployed, consistent with hospitality technology pricing norms and the multi-hotel group deployment model (50+ hotels across brand portfolios).
+**Business Model:** No public pricing page found on lance.live. [Inferred]: Most likely monetization path is per-property SaaS subscription, potentially tiered by call volume or number of properties, given the B2B SaaS tags and hotel-group sales motion.
 
-**TAM/SAM:** The AI in Hospitality and Tourism market was valued at $2.9 billion in 2024 and is projected to reach $36.5 billion by 2034 at a 28.9% CAGR (InsightAce Analytic, 2025 via search snippet). The broader smart hospitality market was valued at $23.2 billion in 2024 and is projected to reach $74.86 billion by 2029 at a 26.1% CAGR (GlobeNewsWire / Research and Markets, March 2025 via search snippet). No company-provided SAM estimate found.
+**TAM/SAM:** The global AI in Hospitality and Tourism market is projected to reach $58.56 billion by 2029 at a 30.1% CAGR (The Business Research Company, 2025 via search snippet). A narrower segment — Artificial Intelligence in Hospitality — is projected at $1.44 billion by 2029 at 57.6% CAGR (The Business Research Company, 2025 via search snippet). [Inferred]: Lance's serviceable market is the subset focused on voice/communication automation for US hotels; with ~55,000 hotels in the US and mid-market SaaS pricing, the SAM would be materially smaller than the broad hospitality AI TAM.
 
-**GTM / Distribution:** Lance is deployed across 50+ hotels with "some of the top hotel groups in the US" across Marriott, Hilton, and Hyatt branded properties (YC company page). The company is an official partner of Quore, a widely-used hotel operations management platform (LinkedIn company page). [Inferred]: Primary distribution is likely direct sales to hotel management companies and ownership groups, leveraging multi-property portfolio deals to land-and-expand across hotel groups. The Quore partnership suggests a channel/integration strategy through existing hotel technology vendors.
+**GTM / Distribution:** Lance is selling to hotel groups managing multiple properties — the YC description states the product is "trusted by some of the top hotel groups in the US, supporting 50+ hotels across brands like Marriott, Hilton, and Hyatt" (YC company page). This suggests a top-down enterprise sales motion targeting hotel management companies rather than individual properties. Co-founder Gavin Brennen "grew up around Marriott operations" (YC LinkedIn post, 2026 via search snippet), suggesting personal network-driven initial distribution.
 
 ## Defensibility
 
-Lance's Computer Use Agent approach — where AI navigates existing hotel software UIs rather than requiring API integrations — creates a data and workflow moat: as agents learn property-specific software configurations, PMS workflows, and operational patterns, they accumulate proprietary knowledge per-property that would need to be rebuilt by a competitor. The 50+ hotel deployments across major brands generate training data across diverse property types, brand standards, and operational configurations.
+**Switching costs:** Hotels that integrate Lance into their daily operations — replacing call handling, coordinating staff via Lance Pad, and routing multi-step requests — face meaningful workflow switching costs. Staff retraining and operational disruption create friction once embedded.
 
-Switching costs increase as Lance becomes embedded in daily hotel operations (call handling, sales pipeline, task dispatch). Multi-property hotel groups that deploy Lance across their portfolio face higher switching friction than single-property customers.
+**Data advantage:** Each deployment generates hotel-specific operational data (call patterns, request types, resolution workflows, guest preferences) that can improve the system's performance over time for that property and property type.
 
-**Market structure:** The largest incumbents in hotel technology (Oracle OPERA/Hospitality, Amadeus/HotSOS) are legacy PMS and operations vendors whose business models depend on per-module licensing and professional services revenue. Building autonomous AI agents that replace call-handling staff conflicts with their existing customer success and upsell models. Canary Technologies, the best-funded competitor, has a broad platform strategy (contactless check-in, digital tipping, upsells, messaging, AI Voice) that makes it difficult to go as deep on autonomous operations as a focused entrant. [Inferred]: Lance's narrow focus on autonomous voice + operations may allow faster iteration in this specific vertical, though Canary's $180M+ in funding and broad hotel relationships represent a credible platform threat.
+**Technical complexity:** The Computer Use Agent approach (vision-based navigation of hotel software) is a non-trivial technical capability that requires handling diverse PMS interfaces, edge cases in screen navigation, and real-time decision-making. This is harder to replicate than API-based integrations.
 
-**Commoditization risk:** General-purpose AI voice platforms (e.g., Bland AI, Vapi, Retell) could be adapted for hospitality by systems integrators or hotel tech consultants. Large LLM providers (OpenAI, Anthropic, Google) continue to improve voice and computer-use agent capabilities that lower the barrier to building similar products. However, hospitality-specific workflow knowledge, PMS integration depth, and brand-compliant operational handling require substantial vertical specialization.
+**Market structure:** Incumbent hotel PMS providers (Oracle Hospitality, Amadeus) could build AI voice features, but their core business model is built around selling established software suites, not AI-native agent infrastructure. Building a Computer Use Agent that navigates *their own* legacy interfaces would highlight UX shortcomings they have commercial incentive to ignore. Chatbot competitors (HiJiffy, Asksuite) are structured around text-based messaging and would need to build voice infrastructure from scratch to compete directly. Canary Technologies ($600M valuation, Hotel Dive Jun 2025 via search snippet) is the closest well-resourced competitor with voice AI capabilities, but its broad suite approach may create different prioritization trade-offs.
+
+**Commoditization risk:** As LLM-based voice agents become commoditized (OpenAI, ElevenLabs, Vapi), the AI voice layer itself is increasingly replicable. Lance's defensibility depends on the operational execution layer (Computer Use Agents navigating PMS, task dispatch, multi-step fulfillment) rather than voice processing alone. Competitors with existing hotel customer bases could add AI voice features as incremental modules.
 
 ## Market & Traction
 
 **Traction signals:**
-- 50+ hotels deployed across Marriott, Hilton, and Hyatt branded properties (YC company page)
-- Official Quore partnership for operations integration (LinkedIn company page)
-- Customer testimonial: "Lance reduced front desk call volume by over 30%" — Marcus Rodriguez, Assistant General Manager (lance.live)
-- Customer testimonial: "We're recovering revenue from restaurant bookings to reservation changes" — Priya Sharma, Director of Operations (lance.live)
-- LinkedIn company page: 1,720 followers (LinkedIn, fetched Feb 2026)
-- Twitter/X (Caleb Chan @calebychan): ~767 followers (X.com via search snippet)
+- 50+ hotels supported across Marriott, Hilton, and Hyatt brands (YC company page)
+- 30%+ reduction in front desk call volume reported by a customer (testimonial from Marcus Rodriguez, Assistant General Manager, lance.live)
+- Customer testimonial: "We're recovering revenue we used to miss — from restaurant bookings to reservation changes" (Priya Sharma, Director of Operations, lance.live)
+- YC LinkedIn announcement post: 1,252 likes and 623 comments (LinkedIn, 2026 via search snippet)
+- Company Twitter/X: @TryLance (follower count not retrievable)
+- Company LinkedIn: linkedin.com/company/trylance/ (follower count not retrievable)
+- CEO Twitter/X: @calebychan — 767 followers (X profile, via search snippet)
 - No Product Hunt launch found
-- No public revenue figures found
-- No app store or Chrome extension presence found
+- No app store presence found
+- No Discord/Slack community found
 
 **Competitive landscape:**
 
 | Competitor | Funding | Key Differentiator vs. Lance |
-|-----------|---------|------------------------------|
-| **Canary Technologies** | ~$180M+ total ($80M Series D, June 2025; $50M Series C, June 2024) at ~$600M valuation (PR Newswire, June 2025) | Broad hospitality platform (check-in, tipping, upsells, messaging, AI Voice) vs. Lance's focused autonomous agent approach. AI Voice is one module, not the core product. |
-| **Duve** | $85M total ($60M Series B, Dec 2025) (TechFundingNews, Dec 2025 via search snippet) | Unified guest experience platform with AI trained on hotel-specific data; strong in Europe. Broader scope beyond voice — covers upsells, check-in, post-stay. |
-| **Akia** | $12M total ($6M Series A, Jan 2023) (Hotel Technology News, Jan 2023 via search snippet) | Messaging-first workflow automation (pre-arrival, check-in, mid-stay, post-stay). Strength in text-based automation vs. Lance's voice-first approach. |
-| **HiJiffy** | ~€6.2M total (€3.8M seed round, June 2023) (PhocusWire, 2023 via search snippet) | AI chatbot and communication hub serving 2,100+ hotels. Lisbon-based, strong in European market. Text/chat focused vs. Lance's voice and operations focus. |
-| **Viqal** | €500K pre-seed (Hospitality Technology via search snippet) | WhatsApp-based virtual concierge automating guest messaging. Amsterdam-based, narrower scope focused on messaging channels. |
+|---|---|---|
+| **Canary Technologies** | ~$180M total, $80M Series D (Hotel Dive, Jun 2025) | Broad hospitality platform (contactless check-in, tipping, upselling, AI voice); 20,000+ hotels in 100+ countries. Offers AI voice as one module among many, vs. Lance's voice-and-operations-first approach. |
+| **Duve** | $85M total, $60M Series B (Skift, Dec 2025) | Unified guest experience platform (communication, check-in, upselling, mobile keys); 1M+ guests monthly across 70+ countries. Text/messaging-centric, not voice-first. |
+| **Akia** | ~$12M total, $6M Series A (Hotel Technology News, Jan 2023) | Agentic hospitality platform with branded Mini Apps; serves luxury brands (Ritz Carlton, Nomad Hotels). Text/messaging-centric. |
+| **HiJiffy** | ~€6.2M total (PhocusWire, Jun 2023) | Proprietary Aplysia AI engine with 85%+ automation; 2,500+ hotels across 60+ countries. WhatsApp/webchat-focused, not voice-first. |
+| **Asksuite** | Funding amount not publicly disclosed; estimated ~$17.5M annual revenue, 121 employees (Growjo via search snippet) | Omnichannel platform across voice, chat, social media, and messaging. Closest to Lance in channel breadth but established as a larger operation. |
 
-**Why now:** [Inferred]: Two specific catalysts have converged in 2024-2025: (1) Computer Use Agent technology reached production viability — Anthropic's Claude computer use capabilities launched in late 2024, enabling AI agents to navigate arbitrary software UIs, which is foundational to Lance's approach of working with existing hotel systems without API integration; (2) Post-pandemic hospitality staffing shortages have persisted and worsened, with the 65% staffing shortage figure creating sustained demand pressure. The combination of a newly viable technical capability (AI navigating legacy software) with an intensifying operational problem (chronic understaffing) creates the specific opening for an autonomous operations agent.
+**Why now:** [Inferred]: Three catalysts converge: (1) LLM and voice AI technology crossed a quality threshold in 2024-2025, enabling natural-sounding voice agents capable of multi-turn conversation and task completion — this was not technically feasible at production quality two years prior; (2) Computer Use Agent technology (vision-based screen navigation) emerged as a viable paradigm in late 2024, enabling Lance to integrate with legacy hotel PMS systems without requiring API partnerships; (3) post-pandemic hotel staffing shortages remain acute — 65% of hotels still report staffing shortages (YC LinkedIn post via search snippet) — creating sustained demand for automation of repetitive front-desk tasks.
 
 ## Founders & Team
 
 **Caleb Chan** — Co-founder & CEO
-- UC Berkeley (dropped out) (YC company page, search snippet)
-- Former Head of Product and Founding Engineer at Silicon Valley Commerce, which had a 9-figure exit (YC company page)
-- Product roles at Google and Salesforce, building voice and AI agent technology (YC company page, search snippet)
-- Twitter/X: [@calebychan](https://x.com/calebychan) — ~767 followers (via search snippet)
-- LinkedIn: [linkedin.com/in/caleb-chan-327b14239](https://www.linkedin.com/in/caleb-chan-327b14239/) — Co-Founder & CEO @ Lance (YC W26)
+- UC Berkeley (dropped out) (X bio via search snippet); President at Entrepreneurs@Berkeley (LinkedIn via search snippet)
+- Former Head of Product and Founding Engineer at Silicon Valley Commerce (9-figure exit) (YC company page)
+- Previous product roles at Google and Salesforce, building voice and AI agent technology (YC company page)
+- Twitter/X: @calebychan — 767 followers (search snippet); joined June 2025
+- LinkedIn: linkedin.com/in/caleb-chan-327b14239 — "Co-Founder & CEO @ Lance (YC W26)" (LinkedIn via search snippet)
 - GitHub: No public repos found
 
 **Gavin Brennen** — Co-founder & COO
-- UC Berkeley — Data Science + Haas School of Business (LinkedIn)
-- Previously worked on AI agents at Domo (YC company page)
-- Earlier product and customer-facing roles at SmartSuite (Series A) and Zeus (search snippet)
-- Twitter/X: No public account found
-- LinkedIn: [linkedin.com/in/gavinbrennen](https://www.linkedin.com/in/gavinbrennen/) — 500+ connections
+- UC Berkeley — Data Science + Haas (LinkedIn headline via search snippet)
+- Previous AI agent work at Domo; product and customer-facing roles at SmartSuite (Series A) and Zeus (YC company page)
+- Grew up around Marriott operations (YC LinkedIn post via search snippet)
+- Twitter/X: @GavinBrennen (handle from YC page; follower count not retrievable — note: @gavin_brennen on X belongs to an unrelated quantum physics professor at Macquarie University)
+- LinkedIn: linkedin.com/in/gavinbrennen — "Data Science + Haas @ Berkeley" (LinkedIn via search snippet)
 - GitHub: No public repos found
 
 **Gatik Trivedi** — Co-founder & CTO
-- UC Berkeley MET (Management, Entrepreneurship & Technology) program — EECS + Business (accepted as one of 50 out of 7,000 applicants) (Pleasanton Weekly, 2022 via search snippet)
-- Previously founded and exited MedTec Innovate (YC company page)
-- Speech and language research at Stanford (YC company page via search snippet)
-- Built agent infrastructure at GI Partners and LLM eval metrics at Knowtex (YC S22) (search snippet)
-- Won 3rd place at Regeneron International Science and Engineering Fair for a COVID-19 diagnostic system (San Ramon Patch, 2022 via search snippet)
-- Twitter/X: No public account found
-- LinkedIn: No public profile URL confirmed
+- UC Berkeley MET (Management, Entrepreneurship, and Technology) — EECS + Business; accepted as one of 50 out of 7,000 applicants (Patch, San Ramon via search snippet)
+- Founded and exited MedTec Innovate, a healthcare technology startup (YC company page; local press coverage via search snippet)
+- Speech and language research at Stanford (YC company page)
+- Built agent infrastructure at GI Partners; LLM evaluation metrics at Knowtex (YC S22) (YC company page)
+- Won third place at an international science fair as a 14-year-old for an at-home COVID-19 symptom monitoring system (Patch, San Ramon via search snippet)
+- Twitter/X: @GatikTriv (handle from YC page; follower count not retrievable)
+- LinkedIn: Not found via search
 - GitHub: No public repos found
 
-**Co-founder relationship:** All three founders have a UC Berkeley connection — Caleb Chan attended (dropped out), Gavin Brennen studied Data Science + Haas, and Gatik Trivedi was accepted to Berkeley MET. The shared Berkeley network is the most visible overlap from public sources.
+**Co-founder relationship:** All three founders attended UC Berkeley — Caleb Chan was President of Entrepreneurs@Berkeley, Gavin Brennen studied Data Science + Haas at Berkeley, and Gatik Trivedi was admitted to Berkeley MET. This shared university affiliation is the likely basis for their connection.
 
-**Founder-market fit:** Caleb Chan brings direct product experience building voice and AI agent technology at Google and Salesforce, along with the operational maturity of having been a founding engineer at a company that achieved a 9-figure exit. Gavin Brennen brings AI agents experience from Domo's Agent Catalyst platform and product/customer-facing skills from Series A startups. Gatik Trivedi brings CTO-level technical depth from building agent infrastructure at GI Partners and LLM evaluation systems at Knowtex (itself a YC company), with research experience in speech and language at Stanford. No public information on advisors, board members, or named investors beyond YC was found.
+**Founder-market fit:** Caleb Chan built voice and AI agent technology at Google and Salesforce and was a founding engineer at a company with a 9-figure exit, providing both technical and product leadership experience. Gavin Brennen grew up around Marriott hotel operations, providing direct hospitality domain knowledge. Gatik Trivedi brings deep technical capability in agent infrastructure, speech/language AI (Stanford), and LLM evaluation (Knowtex/YC S22), plus early entrepreneurial experience with a prior exit. The team combines AI product experience, hospitality domain familiarity, and agent infrastructure expertise.
 
 ## Key Risks
 
-**Canary Technologies platform encroachment:** Canary Technologies, with ~$180M+ in funding and a $600M valuation, launched its AI Voice product in 2025 and serves thousands of hotels across major brands (PR Newswire, June 2025). As a well-funded, established vendor with existing hotel relationships, Canary can bundle AI Voice with its broader platform (check-in, tipping, upsells) at lower marginal cost, potentially undercutting Lance on price while offering a more comprehensive suite.
+**Well-funded incumbent competition:** Canary Technologies ($180M raised, $600M valuation, Hotel Dive Jun 2025 via search snippet) already offers AI voice capabilities and serves 20,000+ hotels in 100+ countries. Duve ($85M raised, Skift Dec 2025) is expanding AI agent capabilities. These competitors have established customer relationships, integration partnerships, and sales teams. Lance must compete against deeply embedded incumbents with orders-of-magnitude more capital.
 
-**Computer Use Agent technology fragility:** Lance's core differentiator — agents that navigate existing hotel software UIs — depends on those UIs remaining stable. PMS vendors like Oracle OPERA, Cloudbeds, and Mews regularly update their interfaces. Each UI change could break Lance's agents for affected properties, creating ongoing maintenance burden that scales with the number of software systems supported across the 50+ hotel portfolio.
+**Computer Use Agent fragility:** Lance's core technical differentiation — vision-based agents that navigate hotel PMS software via screen interaction — is dependent on the visual consistency of third-party software interfaces. PMS UI updates, redesigns, or version changes could break Lance's automation without warning. This approach, while reducing integration requirements, introduces a different class of maintenance burden compared to API-based integrations.
 
-**Brand concentration risk:** Deploying across Marriott, Hilton, and Hyatt branded properties means Lance operates within franchise ecosystems where brand-level technology mandates or preferred vendor lists could restrict adoption. A single brand-level decision to partner with a competitor (e.g., Canary's existing brand relationships) could close off a large segment of Lance's addressable market.
+**Brand disambiguation:** "Lance" is a common English word and proper name. Search results for "Lance" return results for Lance Armstrong, Lance Stroll, Lance Stewart, and numerous other entities. This creates SEO challenges, brand confusion in marketing, and difficulty in organic discoverability. The company uses "TryLance" on social platforms as a workaround.
 
-**Hotel group dependency:** The "top hotel groups" customer base implies a small number of multi-property management companies. Losing a single hotel group customer could mean losing dozens of properties simultaneously, creating lumpy revenue risk.
+**Hotel group concentration risk:** The current traction of 50+ hotels appears to come through relationships with "some of the top hotel groups" rather than diversified individual property sales. Loss of a single hotel group relationship could represent a large portion of the customer base at this stage.
 
-**Voice AI regulatory exposure:** Emerging regulations around AI-generated voice interactions (disclosure requirements, consent laws) vary by state and could require compliance work across the 50+ properties in potentially multiple jurisdictions.
+**Voice AI commoditization:** OpenAI, Google, and specialized providers (ElevenLabs, Vapi, Bland AI) are rapidly commoditizing voice AI capabilities. The voice interaction layer — Lance's most visible feature — may become table-stakes, compressing the value proposition to the operational execution layer, which is harder to demonstrate in sales cycles.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $2.9B AI in Hospitality and Tourism market in 2024, projected $36.5B by 2034 at 28.9% CAGR (InsightAce Analytic, 2025 via search snippet) |
+| TAM | $58.56B AI in Hospitality & Tourism by 2029 at 30.1% CAGR (The Business Research Company, 2025 via search snippet); $1.44B AI in Hospitality by 2029 at 57.6% CAGR (The Business Research Company, 2025 via search snippet) |
 | SAM | No public data found |
-| Traction | 50+ hotels deployed across Marriott, Hilton, Hyatt brands (YC company page); Quore partnership (LinkedIn, Feb 2026); 1,720 LinkedIn followers (LinkedIn, Feb 2026) |
+| Traction | 50+ hotels across Marriott, Hilton, Hyatt brands (YC company page); 30%+ front desk call volume reduction (customer testimonial, lance.live); YC LinkedIn post: 1,252 likes, 623 comments (LinkedIn, 2026 via search snippet) |
 | Revenue Signal | No public data found |
-| Founders | Caleb Chan (CEO): UC Berkeley, ex-Google/Salesforce, founding engineer at Silicon Valley Commerce (9-figure exit). Gavin Brennen (COO): UC Berkeley Haas, ex-Domo AI agents. Gatik Trivedi (CTO): UC Berkeley MET, founded/exited MedTec Innovate, ex-Knowtex (YC S22), Stanford speech/language research. |
-| Competitors | Canary Technologies (~$180M+ raised, ~$600M valuation, broad platform with AI Voice module); Duve ($85M raised, unified guest experience platform); Akia ($12M raised, messaging-first workflow automation); HiJiffy (~€6.2M raised, AI chatbot hub, 2,100+ hotels); Viqal (€500K raised, WhatsApp virtual concierge) |
-| Moat Signals | Computer Use Agent technology creating per-property workflow knowledge; multi-brand deployment data across 50+ hotels; Quore integration partnership |
-| Risk Factors | Canary Technologies platform encroachment ($180M+ funded), Computer Use Agent UI fragility, brand-level technology mandate risk |
-| Founder Reach | Caleb Chan: Twitter ~767, LinkedIn active. Gavin Brennen: Twitter not found, LinkedIn 500+. Gatik Trivedi: Twitter not found, LinkedIn not confirmed. Company LinkedIn: 1,720 followers. |
-| Distribution Signals | 50+ hotel deployments across major brands (YC company page); Quore operations platform partnership (LinkedIn, Feb 2026); No Product Hunt launch found |
+| Founders | Caleb Chan (CEO): UC Berkeley dropout, ex-Google/Salesforce, founding engineer at Silicon Valley Commerce (9-figure exit). Gavin Brennen (COO): UC Berkeley Data Science + Haas, ex-Domo/SmartSuite, grew up around Marriott operations. Gatik Trivedi (CTO): UC Berkeley MET, founded/exited MedTec Innovate, Stanford speech/language research, Knowtex (YC S22). |
+| Competitors | Canary Technologies (~$180M raised, revenue unknown, broad hospitality platform with AI voice module); Duve ($85M raised, revenue unknown, unified guest experience platform, text-centric); Akia (~$12M raised, revenue unknown, agentic hospitality for luxury brands); HiJiffy (~€6.2M raised, revenue unknown, WhatsApp/webchat chatbot with 85%+ automation); Asksuite (funding undisclosed, ~$17.5M est. revenue via Growjo, omnichannel platform) |
+| Moat Signals | Computer Use Agent technology (vision-based PMS navigation); operational execution layer beyond voice; workflow switching costs once embedded; hospitality-specific operational data accumulation |
+| Risk Factors | Well-funded incumbent competition (Canary $180M, Duve $85M), Computer Use Agent fragility on third-party UI changes, voice AI commoditization |
+| Founder Reach | Caleb Chan: Twitter @calebychan 767 followers; Gavin Brennen: Twitter @GavinBrennen (count not retrievable); Gatik Trivedi: Twitter @GatikTriv (count not retrievable) |
+| Distribution Signals | YC LinkedIn announcement: 1,252 likes, 623 comments (LinkedIn, 2026 via search snippet); no Product Hunt launch found; no app store presence found |
+| Emails | founders@lance.live (YC LinkedIn announcement post) |

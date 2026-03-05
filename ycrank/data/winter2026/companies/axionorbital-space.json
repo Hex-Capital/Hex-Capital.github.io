@@ -9,7 +9,9 @@
     "industry": "Industrials / Industrials -> Aviation and Space",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Deep Learning, Satellites, Weather"
+    "tags": "Deep Learning, Satellites, Weather",
+    "yc_partner": "Tyler Bosmeny",
+    "emails": "No public data found"
   },
   "tags": [
     "Deep Learning",
@@ -17,48 +19,48 @@
     "Weather"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T19:22:43.333Z",
+  "memoGeneratedAt": "2026-03-05T07:06:13.520Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 39,
+      "score": 44,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 50,
+      "score": 45,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 57,
+      "score": 52,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 47,
+      "score": 54,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 37,
+      "score": 33,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 36,
+      "score": 38,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 54,
+      "score": 48,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 39,
-    "EG": 50,
-    "NR": 57,
-    "PG": 47,
-    "PT": 37,
-    "SL": 36,
-    "VK": 54
+    "CB": 44,
+    "EG": 45,
+    "NR": 52,
+    "PG": 54,
+    "PT": 33,
+    "SL": 38,
+    "VK": 48
   },
-  "consolidatedAvg": 45.71,
-  "consolidatedRank": 50,
+  "consolidatedAvg": 44.86,
+  "consolidatedRank": 56,
   "paths": {
     "memo": "winter2026/memos/axionorbital-space.md",
     "evals": {

@@ -1,7 +1,7 @@
 {
   "slug": "axis-2",
   "name": "Axis",
-  "oneLiner": "Models for Monitoring Commodities Markets",
+  "oneLiner": "An AI System for Institutional Trading Desks",
   "metadata": {
     "website": "https://axisanalysis.com",
     "yc_page": "https://www.ycombinator.com/companies/axis-2",
@@ -9,54 +9,60 @@
     "industry": "Fintech / Fintech",
     "team_size": "2",
     "location": "No public data found",
-    "tags": "Fintech"
+    "tags": "Fintech, Analytics, Market Research, Trading, AI",
+    "yc_partner": "Ankit Gupta",
+    "emails": "No public data found"
   },
   "tags": [
-    "Fintech"
+    "Fintech",
+    "Analytics",
+    "Market Research",
+    "Trading",
+    "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T19:26:27.754Z",
+  "memoGeneratedAt": "2026-03-05T07:15:12.229Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 33,
+      "score": 25,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 32,
+      "score": 37,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 32,
+      "score": 38,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 41,
+      "score": 39,
       "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 25,
-      "tier": "Strong Pass"
+      "score": 27,
+      "tier": "Pass"
     },
     "sam-lessin": {
       "score": 24,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 30,
+      "score": 34,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 33,
-    "EG": 32,
-    "NR": 32,
-    "PG": 41,
-    "PT": 25,
+    "CB": 25,
+    "EG": 37,
+    "NR": 38,
+    "PG": 39,
+    "PT": 27,
     "SL": 24,
-    "VK": 30
+    "VK": 34
   },
-  "consolidatedAvg": 31,
-  "consolidatedRank": 177,
+  "consolidatedAvg": 32,
+  "consolidatedRank": 167,
   "paths": {
     "memo": "winter2026/memos/axis-2.md",
     "evals": {

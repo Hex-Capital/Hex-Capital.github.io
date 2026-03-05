@@ -9,7 +9,9 @@
     "industry": "Healthcare / Healthcare -> Drug Discovery and Delivery",
     "team_size": "4",
     "location": "San Francisco, CA, USA",
-    "tags": "AI-powered Drug Discovery, Gene Therapy, Cell Therapy, Biotech"
+    "tags": "AI-powered Drug Discovery, Gene Therapy, Cell Therapy, Biotech",
+    "yc_partner": "Ankit Gupta",
+    "emails": "yash@origin.bio, hiring@origin.bio"
   },
   "tags": [
     "AI-powered Drug Discovery",
@@ -18,48 +20,48 @@
     "Biotech"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T19:30:23.686Z",
+  "memoGeneratedAt": "2026-03-05T07:21:34.460Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "elad-gil": {
       "score": 45,
       "tier": "Neutral"
     },
+    "elad-gil": {
+      "score": 50,
+      "tier": "Neutral"
+    },
     "naval-ravikant": {
-      "score": 47,
+      "score": 50,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 42,
+      "score": 39,
       "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 34,
+      "score": 40,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 34,
+      "score": 40,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 56,
+      "score": 62,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 38,
-    "EG": 45,
-    "NR": 47,
-    "PG": 42,
-    "PT": 34,
-    "SL": 34,
-    "VK": 56
+    "CB": 45,
+    "EG": 50,
+    "NR": 50,
+    "PG": 39,
+    "PT": 40,
+    "SL": 40,
+    "VK": 62
   },
-  "consolidatedAvg": 42.29,
-  "consolidatedRank": 71,
+  "consolidatedAvg": 46.57,
+  "consolidatedRank": 47,
   "paths": {
     "memo": "winter2026/memos/origin-bio.md",
     "evals": {

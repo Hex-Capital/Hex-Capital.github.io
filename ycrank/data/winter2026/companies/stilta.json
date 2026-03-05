@@ -1,7 +1,7 @@
 {
   "slug": "stilta",
   "name": "Stilta",
-  "oneLiner": "Cursor for patent attorneys",
+  "oneLiner": "Agentic AI for patent attorneys",
   "metadata": {
     "website": "https://stilta.com",
     "yc_page": "https://www.ycombinator.com/companies/stilta",
@@ -9,55 +9,57 @@
     "industry": "B2B / B2B",
     "team_size": "4",
     "location": "San Francisco, CA, USA",
-    "tags": "LegalTech, AI"
+    "tags": "Artificial Intelligence, LegalTech",
+    "yc_partner": "Gustaf Alstromer",
+    "emails": "No public data found"
   },
   "tags": [
-    "LegalTech",
-    "AI"
+    "Artificial Intelligence",
+    "LegalTech"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T19:22:44.283Z",
+  "memoGeneratedAt": "2026-03-05T07:05:44.403Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 31,
+      "score": 33,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 39,
+      "score": 42,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 37,
+      "score": 35,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 38,
+      "score": 44,
       "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 28,
+      "score": 27,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 27,
-      "tier": "Strong Pass"
+      "score": 31,
+      "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 40,
+      "score": 35,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 31,
-    "EG": 39,
-    "NR": 37,
-    "PG": 38,
-    "PT": 28,
-    "SL": 27,
-    "VK": 40
+    "CB": 33,
+    "EG": 42,
+    "NR": 35,
+    "PG": 44,
+    "PT": 27,
+    "SL": 31,
+    "VK": 35
   },
-  "consolidatedAvg": 34.29,
-  "consolidatedRank": 143,
+  "consolidatedAvg": 35.29,
+  "consolidatedRank": 138,
   "paths": {
     "memo": "winter2026/memos/stilta.md",
     "evals": {

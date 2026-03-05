@@ -9,7 +9,9 @@
     "industry": "B2B / B2B -> Productivity",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Artificial Intelligence, Workflow Automation, Enterprise Software"
+    "tags": "Artificial Intelligence, Workflow Automation, Enterprise Software",
+    "yc_partner": "Diana Hu",
+    "emails": "varun@unisson.ai"
   },
   "tags": [
     "Artificial Intelligence",
@@ -17,26 +19,26 @@
     "Enterprise Software"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T19:22:13.052Z",
+  "memoGeneratedAt": "2026-03-05T07:06:34.763Z",
   "evalScores": {
     "cyan-banister": {
       "score": 29,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 33,
+      "score": 36,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 40,
+      "score": 43,
       "tier": "Pass"
     },
+    "paul-graham": {
+      "score": 45,
+      "tier": "Neutral"
+    },
     "peter-thiel": {
-      "score": 28,
+      "score": 33,
       "tier": "Pass"
     },
     "sam-lessin": {
@@ -50,15 +52,15 @@
   },
   "consolidatedScores": {
     "CB": 29,
-    "EG": 33,
-    "NR": 47,
-    "PG": 40,
-    "PT": 28,
+    "EG": 36,
+    "NR": 43,
+    "PG": 45,
+    "PT": 33,
     "SL": 24,
     "VK": 35
   },
-  "consolidatedAvg": 33.71,
-  "consolidatedRank": 148,
+  "consolidatedAvg": 35,
+  "consolidatedRank": 143,
   "paths": {
     "memo": "winter2026/memos/unisson.md",
     "evals": {

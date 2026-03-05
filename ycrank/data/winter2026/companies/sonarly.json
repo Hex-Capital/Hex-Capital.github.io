@@ -1,7 +1,7 @@
 {
   "slug": "sonarly",
   "name": "Sonarly",
-  "oneLiner": "AI engineer to triage and fix your production alerts",
+  "oneLiner": "The AI that fixes production",
   "metadata": {
     "website": "https://sonarly.com",
     "yc_page": "https://www.ycombinator.com/companies/sonarly",
@@ -9,17 +9,19 @@
     "industry": "B2B / B2B -> Engineering, Product and Design",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Developer Tools, Generative AI"
+    "tags": "Developer Tools, Generative AI",
+    "yc_partner": "Jared Friedman",
+    "emails": "dimittri@sonarly.dev"
   },
   "tags": [
     "Developer Tools",
     "Generative AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T06:17:11.107Z",
+  "memoGeneratedAt": "2026-03-05T07:17:37.412Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 28,
+      "score": 31,
       "tier": "Pass"
     },
     "elad-gil": {
@@ -27,7 +29,7 @@
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 35,
+      "score": 38,
       "tier": "Pass"
     },
     "paul-graham": {
@@ -35,26 +37,26 @@
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 30,
+      "score": 25,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 22,
-      "tier": "Strong Pass"
+      "score": 20,
+      "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 34,
+      "score": 35,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 28,
+    "CB": 31,
     "EG": 38,
-    "NR": 35,
+    "NR": 38,
     "PG": 46,
-    "PT": 30,
-    "SL": 22,
-    "VK": 34
+    "PT": 25,
+    "SL": 20,
+    "VK": 35
   },
   "consolidatedAvg": 33.29,
   "consolidatedRank": 154,

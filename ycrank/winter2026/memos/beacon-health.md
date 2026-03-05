@@ -11,104 +11,121 @@
 | Team Size | 2 |
 | Location | New York, NY, USA |
 | Tags | Health Tech, Primary Care, AI |
+| YC Partner | Diana Hu |
+| Emails | mark@beaconhealth.ai |
 
 ## The Idea
 
-**Problem:** Primary care physicians in the United States serve as the primary source of care for 200 million Americans but lack bandwidth to manage administrative workflows around their patient panels (YC company page). Preventive screenings, prior authorizations, referrals, risk adjustment coding, and quality gap closures consume physician and staff time without direct patient care value. Under value-based care (VBC) contracts — which now represent more than 50% of U.S. healthcare payments (Advisory Board / Innovaccer-NAACOS report, 2025 via search snippet) — practices must execute these workflows to capture shared savings and avoid penalties. Today, these tasks are handled manually by clinical staff, outsourced to consulting firms, or partially managed through fragmented point solutions that require separate portals and dashboards.
+**Problem:** Primary care physicians in the U.S. serve as the primary source of care for 200 million Americans but lack the bandwidth to manage their patient panels (YC company page). Administrative workflows — preventative screenings, prior authorizations, referrals, risk adjustment coding, quality gap closures — consume significant physician time and directly reduce revenue capture under value-based care contracts. Today, these tasks are handled manually by clinical staff or outsourced to consulting firms, and many go unaddressed entirely, resulting in missed revenue from risk-adjustment and quality measures. The target customer segment is organizations operating under risk-based contracts: Independent Physician Associations (IPAs), Accountable Care Organizations (ACOs), and integrated networks (YC Launch page).
 
-**Approach:** Beacon Health builds AI agents that operate directly inside existing electronic health record (EHR) systems. The agents automate three primary workflows: (1) closing quality gaps by identifying patients due for screenings and conducting outreach; (2) capturing risk adjustment codes by surfacing documentation opportunities for physicians; and (3) providing after-hours patient support through AI triage (YC Launch page). The company describes this as "end-to-end" ownership of workflows — the agents handle the full lifecycle rather than flagging tasks for humans to complete. The approach avoids requiring practices to adopt new portals or dashboards.
+**Approach:** Beacon Health deploys AI agents that operate directly within the practice's existing EHR system — functioning like a human employee — to identify and close gaps in risk adjustment coding and quality measures, execute automated patient outreach and lab orders, and provide after-hours patient triage and follow-up support (company website; YC Launch page). The system is end-to-end: it identifies patients needing intervention, surfaces missed documentation and coding opportunities, and executes the workflow without requiring a separate portal or dashboard. The company's tagline is "Do nothing, change nothing, make money" — framing the product as passive revenue capture from existing value-based care contracts (company website).
 
-**Differentiation:** Unlike VBC enablers such as Aledade, agilon health, or Privia Health, which operate as full-stack networks that take on risk and manage the entire practice relationship, Beacon Health is a software layer that works within the practice's existing EHR. Unlike Innovaccer, which provides a population health data platform requiring integration work, Beacon's agents aim to execute workflows autonomously. Unlike Elation Health, which embeds AI within its own EHR product, Beacon is EHR-agnostic and operates as an overlay. Saffron Health (also YC-backed) focuses specifically on specialist referral automation rather than the broader VBC workflow suite that Beacon targets.
+**Differentiation:** Unlike population health platforms such as Innovaccer or Persivia CareSpace that aggregate data and provide analytics dashboards requiring human action, Beacon Health positions its agents as autonomous executors that handle workflows end-to-end within the EHR (company website). Compared to VBC enablement platforms like Pearl Health or Aledade that provide network-level infrastructure and shared savings programs, Beacon targets the practice-level operational layer — automating the specific administrative tasks that steal time from patients. Compared to AI documentation tools like Regard, Beacon focuses on the broader VBC workflow (risk adjustment, quality gaps, outreach) rather than clinical note generation alone.
 
-**Business Model:** No public pricing page was found on beaconhealth.ai (website rendered as a JavaScript application without visible marketing content at time of research). [Inferred]: The most likely monetization path is a per-practice or per-patient-per-month SaaS fee, or a shared-savings model tied to VBC contract performance, given the company's focus on organizations operating under risk-based contracts.
+**Business Model:** No public pricing page or revenue figures were found. [Inferred]: The most likely monetization path is per-practice SaaS fees or a percentage-of-savings/revenue-capture model tied to the incremental value-based care revenue the AI agents generate, given that the product is framed around capturing revenue "left on the table."
 
-**TAM/SAM:** The global AI in healthcare market was valued at $36.96 billion in 2025 with a projected CAGR of 36.83% to $613.81 billion by 2034 (Precedence Research, 2025 via search snippet). The U.S. value-based healthcare services market was valued at $4.01 trillion in 2024 with a projected CAGR of 7.4% through 2030 (Grand View Research via search snippet). No public TAM/SAM data found for the specific segment of AI-enabled VBC workflow automation in primary care.
+**TAM/SAM:** The global AI in healthcare market was valued at $36.96 billion in 2025 and is projected to reach $613.81 billion by 2034 (Precedence Research, 2025 via search snippet). The U.S. AI in healthcare market generated over 45% of global revenue in 2024 (Grand View Research, 2024 via search snippet). No public TAM/SAM data found specific to the AI-powered value-based care operations software segment. Over 60% of health organizations expect higher VBC revenue in 2026, with capitated models doubling since 2021 (Bessemer Venture Partners, State of Health AI 2026 via search snippet).
 
-**GTM / Distribution:** The company targets Independent Physician Associations (IPAs), Accountable Care Organizations (ACOs), and Integrated Networks operating under risk-based contracts (YC Launch page). [Inferred]: The initial GTM path is likely direct sales to organizations managing large physician panels, given the company's existing engagement with an IPA managing 40,000 patients. The ask on the YC Launch page — introductions to "physicians and operators struggling with value-based care administration burden" — suggests a founder-led sales motion at this stage.
+**GTM / Distribution:** The company targets IPAs, ACOs, and integrated networks operating under risk-based contracts (YC Launch page). Their initial deployment is with an IPA managing 40,000 patients (YC Launch page). The website lists six customer logos: Metrowest Alliance IPA, Kaaya Health, Boroughs, Town Center, Nully, and Fouad Aoude (company website). The company exhibited at the VBC Exhibit Hall (vbcexhibithall.com listing). [Inferred]: Most likely distribution path is direct enterprise sales to IPAs and ACOs, leveraging the initial IPA deployment as a reference customer, with EHR integration as the primary technical onboarding vector.
 
 ## Defensibility
 
-Beacon Health is pre-seed; defensibility signals are nascent. The company operates inside EHR systems, which could create switching costs if workflows become deeply embedded into clinical processes and data accumulates around patient panels. As more patient interaction data and outcomes data flow through the agents, this could produce a data advantage in workflow optimization over time.
+**EHR integration depth:** The product works directly within existing EHR systems rather than as a standalone dashboard (company website). Deep EHR integration creates switching costs once deployed, as practices become reliant on the automated workflows embedded in their daily system. However, this integration depth is early-stage and unproven at scale.
 
-**Market structure:** Incumbent EHR vendors (Epic, Cerner/Oracle Health) could build similar agentic functionality natively. However, EHR vendors have historically monetized through licensing and implementation fees rather than VBC performance outcomes, and their sales incentives are aligned with hospital systems rather than independent primary care practices. Elation Health, the primary-care-focused EHR, has expanded into AI features but bundles them within its own EHR rather than serving practices on other EHR platforms. Large VBC enablers (Aledade, agilon, Privia) own the full practice relationship and may view a standalone AI workflow layer as competitive to their integrated model — but their business models are built around taking on risk and managing networks, not selling software to practices that want to remain independent.
+**Data flywheel potential:** [Inferred]: As the system processes more patient panels across practices, it could develop a data advantage in coding accuracy and workflow optimization patterns. This moat does not exist today but could develop as deployment scales.
 
-**Commoditization risk:** The individual workflows (quality gap closure, risk adjustment coding, patient outreach) are well-understood processes. Multiple companies are building AI agents for healthcare administrative tasks. The barrier to entry for any individual workflow is moderate; the potential differentiator is end-to-end integration across multiple workflows within the EHR, though this remains unproven at scale.
+**HIPAA compliance:** The company has achieved HIPAA compliance verified through the Delve trust platform (company website), which is a baseline requirement but represents an investment that narrows the field of potential entrants.
+
+**Market structure:** Large EHR vendors (Epic, Oracle/Cerner) have the distribution advantage and are building their own AI features — Oracle Health announced a Clinical AI Agent with Beacon Health System (a separate Indiana-based health system, not this YC company) (Oracle customer page via search snippet). However, EHR vendors face business model tension: their core revenue comes from software licensing, and building autonomous AI agents that replace the manual workflows their platform supports could cannibalize upsell opportunities for add-on modules. Additionally, EHR vendor AI features tend to be horizontal rather than deeply tailored to value-based care contract optimization. Pearl Health and Aledade operate at the network/enablement layer rather than the practice-level workflow automation layer, creating a potential complementary rather than directly competitive dynamic.
+
+**Commoditization risk:** The core technology — LLM-based agents executing EHR workflows — is reproducible by well-funded competitors. Multiple YC and venture-backed companies are building healthcare AI agents (Keragon lists 14 AI agent companies in healthcare as of 2026, via search snippet). The barrier is less the AI model and more the depth of EHR integration, clinical workflow knowledge, and compliance infrastructure. Other startups with healthcare domain expertise and EHR integration experience could build similar products within 6–12 months.
 
 ## Market & Traction
 
 **Traction signals:**
-- Live with one independent physician association managing 40,000 patients (YC Launch page, February 2026)
-- YC Launch page posted approximately February 2026 (described as "11 days ago" at time of fetch)
-- Featured in MGMT Boston newsletter / "The Lantern" video series (October 2025, MGMT Boston Substack)
-- Y Combinator LinkedIn post announcing the company (LinkedIn, activity ID 7427396008470384640)
-- No Product Hunt launch found
-- No app store presence found
-- No company Twitter/X account found specific to this entity (multiple unrelated "Beacon Health" accounts exist)
-- No company LinkedIn page found distinct from founder profiles
-- No public Discord or Slack community found
-- No active job postings (YC page lists 0 open positions)
+- Live deployment with an IPA managing 40,000 patients (YC Launch page, 2025)
+- Six customer logos on company website: Metrowest Alliance IPA, Kaaya Health, Boroughs, Town Center, Nully, Fouad Aoude (company website)
+- HIPAA compliant via Delve trust platform (company website)
+- VBC Exhibit Hall vendor listing (vbcexhibithall.com)
+- YC W26 batch participant (YC company page)
+- Mark Pothen featured on a podcast/interview by Matthew Crane on LinkedIn (LinkedIn post, 2025)
+- Y Combinator posted about Beacon Health on LinkedIn (YC LinkedIn post, activity-7427396008470384640)
+- Company Twitter/X: No company account found distinct from "Beacon Health Options" (an unrelated entity)
+- Company LinkedIn: No dedicated company page found (Beacon Health Strategies is an unrelated entity)
+- Product Hunt: No listing found
+- App store / Chrome extension: Not applicable (EHR-integrated SaaS)
+- No public revenue figures found
+
+**Funding:** One third-party aggregator (Extruct AI) lists $5.4M in total funding, but this page also lists "Davinder Singh — Founder & CEO at Beacon Health Limited" alongside Mark Pothen, suggesting possible data conflation with a separate entity called "Beacon Health Limited." The YC standard deal (~$500K) is confirmed via W26 batch participation. The $5.4M figure cannot be independently verified as attributable solely to this YC company.
 
 **Competitive landscape:**
 
-| Competitor | Funding | Revenue/ARR | Key Differentiator vs. Beacon Health |
-|---|---|---|---|
-| **Aledade** | $500M credit facility (December 2025, HIT Consultant via search snippet); prior equity rounds undisclosed | $1B revenue in 2025 (Fierce Healthcare via search snippet) | Full-stack VBC enabler that manages ACO formation and takes on risk; not a software-only product |
-| **Innovaccer** | $275M Series F at ~$3.45B valuation (TechCrunch, January 2025) | $252M ARR (Latka, November 2025 via search snippet) | Population health data platform with broader suite (CRM, care management); requires integration work rather than autonomous agent execution |
-| **Elation Health** | $50M Series D (Elation Health press release) | Revenue not publicly disclosed | Primary care EHR with native AI features; Beacon is EHR-agnostic |
-| **Athelas** | $200M growth funding from General Catalyst (Athelas press release, 2025) | Revenue not publicly disclosed | Full-stack AI healthcare platform (RCM, ambient scribing, EHR); broader scope beyond VBC workflows |
-| **Saffron Health** | YC-backed; specific amount not disclosed | Not publicly disclosed | Focuses specifically on specialist referral automation for primary care, narrower scope than Beacon's VBC workflow suite |
+1. **Aledade** ($1.18B total raised; $1B revenue in 2025 per Fierce Healthcare via search snippet): VBC enablement platform that builds and operates ACO networks for independent primary care practices. Manages 3,000+ practices and 3M+ patients. Differentiator vs. Beacon: Aledade provides the network infrastructure and shared savings contracts, not practice-level workflow automation agents. Beacon could be complementary rather than directly competitive.
 
-**Why now:** CMS has progressively expanded value-based care programs, and more than 50% of U.S. healthcare payments now flow through VBC models (Advisory Board / Innovaccer-NAACOS report, 2025 via search snippet). 84% of providers agree that VBC enablers will become standard infrastructure, and 60% of organizations expect higher revenue from VBC in 2025 (Reveleer / Mathematica report, 2025 via search snippet). [Inferred]: The specific catalyst is the convergence of (1) LLM capabilities reaching a performance threshold sufficient for reliable clinical workflow automation, and (2) the increasing financial pressure on primary care practices to execute VBC workflows that they lack staff to perform manually. AI-related health tech startup funding reached an estimated $10.7 billion through 2025, up 24.4% from $8.6 billion in all of 2024 (Crunchbase, 2025 via search snippet), indicating investor conviction in this timing.
+2. **Pearl Health** ($75M Series B led by a16z, Jan 2023 per Fierce Healthcare; 3,500+ providers as of 2024 per Pearl Health blog): VBC enablement platform focused on Medicare, providing analytics and operational support for practices entering value-based care. Differentiator vs. Beacon: Pearl operates at the network/enablement layer with analytics dashboards; Beacon positions as autonomous agent execution within the EHR.
+
+3. **Stellar Health** ($165M total raised per Tracxn, 2025 via search snippet; $15M annual revenue per Tracxn, 2025 via search snippet; 20,000+ providers): Technology platform that delivers point-of-care action recommendations to providers through real-time incentive programs. Differentiator vs. Beacon: Stellar uses a physician incentive/nudge model rather than autonomous AI agents executing workflows directly.
+
+4. **Innovaccer** ($275M Series F at $3.45B valuation, Jan 2025 per Persivia article via search snippet; data platform covering 200M+ lives): Data activation platform unifying clinical and claims data for health systems. Differentiator vs. Beacon: Innovaccer is a horizontal data infrastructure play serving large health systems, while Beacon targets practice-level workflow automation for smaller organizations under risk contracts.
+
+5. **Persivia CareSpace** (funding not publicly disclosed; 200+ hospitals, 12,000+ clinicians per Persivia website via search snippet): Population health platform with analytics engine and EHR integration. Differentiator vs. Beacon: Persivia offers a broad analytics suite; Beacon focuses specifically on autonomous agent execution of VBC workflows.
+
+**Why now:**
+- CMS has accelerated the shift toward value-based care, with capitated payment models doubling since 2021 (Bessemer Venture Partners, State of Health AI 2026 via search snippet). This creates an expanding pool of practices under risk-based contracts that need operational support.
+- LLM capabilities crossed a threshold in 2023–2024 enabling autonomous multi-step workflow execution within complex software systems like EHRs, making "AI agents" that operate like human employees technically feasible for the first time.
+- [Inferred]: Over 60% of health organizations expect higher VBC revenue in 2026 (Bessemer VP), creating urgency for practices to optimize their VBC operations — the exact problem Beacon addresses.
 
 ## Founders & Team
 
 **Mark Pothen** — Co-founder & CEO
-- B.S. Mechanical Engineering, New Jersey Institute of Technology (NJIT News, April 2022)
+- BS Mechanical Engineering, New Jersey Institute of Technology (NJIT News profile)
 - Grew up in his mother's primary care practice (YC company page)
-- Spent 6 months embedded in a primary care practice, owning operations and augmenting them with AI (YC company page)
+- Spent 6 months embedded in a primary care practice, owning operations and augmenting them with AI (YC Launch page)
+- Previously: Business Analyst → Associate Product Manager at Axuall Inc., a healthcare credentialing startup (NJIT News)
 - Previously worked on product and GTM at early-stage healthcare startups (YC company page)
-- Business Analyst → Associate Product Manager at Axuall Inc., a healthcare credentialing startup (NJIT News, April 2022)
-- Co-founded The CommonHealth Project during COVID-19 pandemic, managing supply chain and operations for a PPE distribution network of 200+ constructors, drivers, and distribution managers (NJIT News, April 2022)
-- Twitter/X: No public account found
-- LinkedIn: linkedin.com/in/mark-pothen/ — 500+ connections (via search snippet)
+- Co-founded CommonHealth Project during COVID-19 (2020), managing supply chain operations and 200+ volunteers (NJIT News)
+- Twitter/X: No confirmed public account found (search returned no verified match)
+- LinkedIn: linkedin.com/in/mark-pothen/ — 500+ connections (LinkedIn via search snippet)
 - GitHub: No public repos found
 
 **Obinna Akahara** — Co-founder & CTO
 - Physics, University of Texas at Austin (YC company page)
-- Built production-grade AI systems across AI, healthcare, and enterprise software (YC company page)
-- Previously at Conversion.ai (now Jasper), LinkedIn, and UT Austin (search snippet via LinkedIn)
-- Personal website: obinnaakahara.com — described as working in Software, UX, and Business Strategy
-- Twitter/X: @ObinnaAka (x.com/obinnaaka) — follower count not retrievable
-- LinkedIn: linkedin.com/in/obinnaakahara/
-- GitHub: github.com/ObinnaAka — 10 public repos, 27 total stars, 9 followers; notable repos include "halcyon" (student/equipment management for Texas Inventionworks), "covid-risk-estimator," and "Faze4-Robotic-arm"
+- Built production-grade AI systems across healthcare and enterprise software (YC company page)
+- Previously: Product Engineer at Conversion.ai (now Jasper) and LinkedIn (LinkedIn search snippet via Prospeo/search results)
+- Interests include computation, machine learning, graphic design, web design, and prototyping (Hackaday.io profile)
+- Twitter/X: @ObinnaAka — follower count not retrievable (X.com)
+- LinkedIn: linkedin.com/in/obinnaakahara/ (LinkedIn)
+- GitHub: github.com/ObinnaAka — repos include halcyon (student/equipment management), covid-risk-estimator, Faze4-Robotic-arm; 4 followers (GitHub via search snippet)
+- Product Hunt profile: producthunt.com/@obinnaaka (Product Hunt)
 
-**Co-founder relationship:** Both founders have healthcare experience — Pothen through Axuall and clinical practice embedding, Akahara through prior work in AI systems with healthcare applications. No shared prior employer or university overlap is visible from public records.
+**Co-founder relationship:** Both founders are in their early careers. Mark attended NJIT in New Jersey; Obinna attended UT Austin in Texas. No shared employer or university overlap is visible from public data. The search results referencing Obinna's prior role at LinkedIn and Conversion.ai do not overlap with Mark's career at Axuall and other healthcare startups.
 
-**Founder-market fit:** Pothen's background combines direct operational experience inside a primary care practice with product management at a healthcare startup (Axuall). Growing up in his mother's primary care practice provides long-standing familiarity with the clinical environment. Akahara brings technical depth in AI systems with prior industry experience at Conversion.ai (an AI company) and LinkedIn. The pairing covers both the domain-specific operational knowledge and the AI engineering capability needed to build EHR-embedded agents.
+**Founder-market fit:** Mark Pothen brings direct domain immersion — growing up in a primary care practice and spending 6 months embedded in practice operations — combined with product and GTM experience at healthcare startups. Obinna Akahara brings technical depth in production AI systems with prior experience at Conversion.ai (an AI company) and LinkedIn. The combination covers healthcare domain knowledge (Mark) and AI engineering capability (Obinna). Mark's hands-on operational experience in primary care is directly relevant to understanding the workflows the product automates.
 
 ## Key Risks
 
-**Brand confusion with established "Beacon Health" entities:** Multiple organizations use the "Beacon Health" name, including Beacon Health System (a hospital system in South Bend, Indiana), Beacon Health Options (behavioral health), and Beacon Health Strategies. This creates search visibility challenges, potential trademark complications, and customer confusion. The @BeaconHealth handle on Twitter/X is held by an unrelated HCPro division.
+**Brand confusion with Beacon Health System:** A large health system in Indiana/Michigan called "Beacon Health System" generates significant search presence, including partnerships with Oracle and Xsolis AI. Multiple search results conflate the two entities. One data aggregator (Extruct AI) appears to merge data from "Beacon Health Limited" (led by Davinder Singh) with this YC company. This creates SEO competition, potential customer confusion, and challenges for inbound discovery.
 
-**EHR integration dependency:** The product's core value proposition requires operating directly within existing EHR systems. EHR vendors (Epic, Oracle Health/Cerner, athenahealth) control API access and integration policies. Changes to EHR platform terms, API rate limits, or partnership requirements could restrict Beacon's ability to operate. Epic in particular has a history of selective partner access.
+**EHR integration dependency:** The product's value proposition requires deep integration with existing EHR systems. EHR vendor cooperation is not guaranteed — vendors like Epic and Oracle/Cerner are building their own AI features and could restrict third-party agent access. Any changes to EHR APIs or partnership terms could disrupt Beacon's technical foundation.
 
-**Incumbent expansion into agentic workflows:** Elation Health has already launched AI features natively within its primary care EHR at no additional cost to customers (Elation Health, August 2025). Athelas launched an AI-integrated EHR (Athelas AIR) in July 2025. Innovaccer announced plans for multiple AI co-pilots and agents for VBC workflows (TechCrunch, January 2025). The window for an independent AI agent layer may narrow as incumbent platforms add similar capabilities.
+**Incumbent expansion into autonomous agents:** Pearl Health, Aledade, Stellar Health, and Innovaccer are all well-funded ($75M–$1.18B raised) and expanding their AI capabilities. Any of these could add autonomous workflow execution features to their existing platforms, leveraging their established provider networks and contracts. The practice-level workflow automation layer Beacon occupies could be absorbed as a feature by these larger platforms.
 
-**Clinical accuracy and liability exposure:** AI agents executing clinical workflows (risk adjustment coding, quality gap identification, patient triage) carry regulatory and malpractice risk. Errors in risk adjustment coding can trigger CMS audits and repayment obligations. Incorrect after-hours triage advice carries patient safety liability. The regulatory framework for AI-driven clinical workflow automation is still evolving.
+**Regulatory and liability exposure:** AI agents autonomously executing clinical workflows (patient outreach, lab orders, coding) in healthcare carry regulatory risk. Errors in risk adjustment coding could trigger CMS audits or False Claims Act liability. Autonomous patient outreach could intersect with consent and communication regulations. The company's HIPAA compliance is established, but the regulatory framework for autonomous AI agents in clinical settings is still evolving.
 
-**Concentration risk from single customer:** The company's publicly known traction consists of one IPA managing 40,000 patients. Loss of this customer would eliminate the company's known production deployment and reference account.
+**Narrow initial market segment:** The product targets organizations under risk-based VBC contracts — a growing but still minority segment of primary care. Fee-for-service practices, which represent the majority of primary care, have different workflow needs and incentive structures, limiting near-term SAM until the product expands beyond VBC-specific use cases.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $36.96B global AI in healthcare market in 2025, 36.83% CAGR to $613.81B by 2034 (Precedence Research via search snippet); $4.01T U.S. value-based healthcare services market in 2024, 7.4% CAGR (Grand View Research via search snippet) |
-| SAM | No public data found for VBC workflow automation specifically |
-| Traction | Live with 1 IPA managing 40,000 patients (YC Launch page, Feb 2026); featured in MGMT Boston / The Lantern (Oct 2025) |
+| TAM | Global AI in healthcare: $36.96B in 2025, projected $613.81B by 2034 (Precedence Research, 2025 via search snippet). No VBC-specific AI software TAM found. |
+| SAM | No public data found |
+| Traction | Live IPA deployment managing 40,000 patients (YC Launch page, 2025); 6 customer logos on website (company website); VBC Exhibit Hall vendor listing (vbcexhibithall.com) |
 | Revenue Signal | No public data found |
-| Founders | Mark Pothen (CEO): NJIT Mechanical Engineering, ex-Axuall PM, grew up in mother's primary care practice. Obinna Akahara (CTO): UT Austin Physics, ex-Conversion.ai, ex-LinkedIn, built production-grade AI systems |
-| Competitors | Aledade ($500M credit facility, $1B revenue, full-stack VBC enabler); Innovaccer ($275M Series F at $3.45B valuation, $252M ARR, data platform approach); Elation Health ($50M Series D, revenue unknown, native EHR AI); Athelas ($200M growth round, revenue unknown, full-stack AI healthcare); Saffron Health (YC-backed, funding unknown, referral-specific AI) |
-| Moat Signals | No public data found; potential for switching costs via EHR-embedded workflow data accumulation |
-| Risk Factors | Brand confusion with established Beacon Health entities, EHR integration dependency, incumbent expansion into agentic workflows, clinical accuracy liability, single-customer concentration |
-| Founder Reach | Mark Pothen: Twitter not found, LinkedIn 500+, GitHub not found. Obinna Akahara: Twitter @ObinnaAka (count not retrievable), LinkedIn linkedin.com/in/obinnaakahara/, GitHub 27 stars |
-| Distribution Signals | No public data found (no Product Hunt, no app store, no company social accounts identified) |
+| Founders | Mark Pothen (CEO): NJIT Mechanical Engineering, Axuall Inc. PM, grew up in mother's primary care practice. Obinna Akahara (CTO): UT Austin Physics, ex-Conversion.ai & LinkedIn, production AI systems. |
+| Competitors | Aledade ($1.18B raised, $1B revenue 2025, ACO network enablement); Pearl Health ($75M Series B, 3,500+ providers, Medicare VBC enablement); Stellar Health ($165M raised, $15M ARR, incentive-based provider activation); Innovaccer ($275M Series F at $3.45B, horizontal data platform); Persivia (funding undisclosed, 200+ hospitals, population health analytics) |
+| Moat Signals | EHR-embedded agent architecture creates switching costs once deployed; HIPAA compliance via Delve; no proven data moat yet |
+| Risk Factors | Brand confusion with Beacon Health System (Indiana), EHR vendor platform risk, well-funded incumbent expansion into autonomous agents |
+| Founder Reach | Mark Pothen: Twitter not found, LinkedIn 500+ connections. Obinna Akahara: Twitter @ObinnaAka (count not retrievable), LinkedIn linkedin.com/in/obinnaakahara/, GitHub 4 followers. |
+| Distribution Signals | No Product Hunt listing found; no app store presence; VBC Exhibit Hall vendor booth (vbcexhibithall.com); YC LinkedIn feature post (2025) |
+| Emails | mark@beaconhealth.ai |

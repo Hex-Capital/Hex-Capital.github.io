@@ -11,106 +11,103 @@
 | Team Size | 2 |
 | Location | New York, NY, USA |
 | Tags | Artificial Intelligence, Fintech, Fraud Detection |
+| YC Partner | Jared Friedman (YC company page) |
+| Emails | No public data found |
 
 ## The Idea
 
-**Problem:** Risk and fraud operations teams at financial institutions and fintechs face a growing volume and sophistication of fraud attacks—account takeover, payment fraud, KYB fraud—while relying on manual investigation workflows and static rule sets. Investigators must cross-reference data from multiple third-party vendors (identity verification, device intelligence, business verification), draw connections between disparate signals, and translate findings into production rules and models. This process is slow, labor-intensive, and creates bottlenecks as fraud patterns evolve faster than teams can respond. Existing solutions from vendors like Middesk, Sardine, Socure, Persona, Ekata, LexisNexis, and Seon provide individual data signals, but the investigation, synthesis, and rule-creation layer remains largely manual (mousecat.ai).
+**Problem:** Fraud and risk teams at financial institutions face a growing volume of AI-enabled fraud. Current workflows require analysts to manually investigate cases across disparate data sources, then hand off findings to ML/data science teams who must separately build rules and models for production deployment. This investigation-to-production loop is slow and resource-intensive. Existing tools tend to stop at recommendations or alerts, requiring manual implementation of rules and models (mousecat.ai).
 
-**Approach:** MouseCat provides an AI platform that automates three core workflows: (1) KYB fraud investigations, where AI agents interact with business websites, analyze social graphs, and call business phone numbers to verify legitimacy; (2) automated rule development, where the system generates testable fraud hypotheses, backtests rules against historical data, and surfaces high-precision candidates for production deployment; and (3) ATO and payments fraud modeling, where the platform discovers anomalies in training data, generates synthetic labels to identify fraud before ground-truth labels are available, and converts discoveries into backtested features. The platform integrates with existing data infrastructure (Databricks, Snowflake, in-house rule engines, feature stores) and supports on-premises deployment with complete audit logs (mousecat.ai).
+**Approach:** MouseCat provides AI agents that automate the full fraud investigation lifecycle — from initial case research (connecting disparate data sources, analyzing websites and social graphs) through to generating production-ready rules, models, and decisions. For risk operations, the platform automates research into users and businesses, draws connections between data sources, and produces explainable decisions with complete audit logs. For ML/data science teams, it extracts features from unstructured data, automatically explores and backtests new features and rules, and generates synthetic labels before ground-truth data arrives (mousecat.ai). The platform integrates with data infrastructure providers (Databricks, Snowflake) and identity/compliance vendors (Middesk, Sardine, Socure, Persona, Ekata, LexisNexis, Seon) (mousecat.ai). On-premise deployment is available, with customer data remaining in the client environment (mousecat.ai).
 
-**Differentiation:** MouseCat positions itself as closing the loop from investigation to production—whereas other AI tools focus on the investigation or detection step alone, MouseCat connects the investigation output directly to rule development and model deployment (mousecat.ai). Compared to Sardine or Sift, which provide real-time scoring and transaction-level decisions, MouseCat targets the analyst's investigative workflow and the ML team's feature engineering pipeline. Compared to Unit21, which offers a no-code platform for risk operations, MouseCat emphasizes AI-driven investigation automation and synthetic label generation rather than human-configured workflows.
+**Differentiation:** MouseCat's stated differentiator is closing the loop from investigation to production rules, models, and decisions — whereas competitors typically stop at recommendations requiring manual implementation (mousecat.ai). Compared to Sardine or Feedzai, which are full-stack fraud platforms serving enterprise customers with established rule engines, MouseCat positions as an AI-native toolkit that augments existing risk team workflows rather than replacing them. Compared to Unit21's no-code rule-building approach, MouseCat emphasizes automated ML feature extraction and synthetic label generation. Compared to Inscribe, which focuses specifically on document fraud, MouseCat covers broader fraud typologies including KYB, ATO, and payments fraud (mousecat.ai).
 
-**Business Model:** No pricing is publicly disclosed on the website (mousecat.ai). [Inferred]: Given the enterprise feature set (on-premises deployment, Databricks/Snowflake integration, audit logs), the most likely monetization path is a SaaS subscription with tiered pricing based on investigation volume or number of seats, potentially with a consumption component tied to data processing or AI agent usage.
+**Business Model:** No public pricing page was found; the website features "Book a demo" CTAs throughout, indicating a sales-led enterprise model (mousecat.ai). [Inferred]: Most likely monetization path is a SaaS subscription (annual contract, possibly consumption-based or tiered by volume of investigations/decisions processed), typical for B2B fraud infrastructure sold to risk teams.
 
-**TAM/SAM:** The global AI in fraud management market was valued at $14.72 billion in 2025 and is projected to grow to $65.35 billion by 2034 at a CAGR of 18.06% (Precedence Research, 2025 via search snippet). A separate estimate values the broader fraud detection and prevention market at $54.61 billion in 2025 with a CAGR of 17.50% (Fortune Business Insights, 2025 via search snippet). The AI-specific subset of fraud detection was estimated at $15.6 billion in 2025, projected to reach $119.9 billion by 2034 at a CAGR of 25.4% (Dimension Market Research, 2025 via search snippet). No public SAM estimate specific to MouseCat's investigation-automation niche was found.
+**TAM/SAM:** The global AI in fraud management market was valued at $14.72 billion in 2025 and is projected to reach $65.35 billion by 2034 at a CAGR of 18.06% (Precedence Research, 2025 via search snippet). The broader fraud detection and prevention market is projected to grow from $32 billion in 2025 to $65.68 billion by 2030 at a CAGR of 15.5% (MarketsandMarkets, 2025 via search snippet). No public SAM estimate specific to MouseCat's segment (AI investigation-to-production tooling for risk teams) was found.
 
-**GTM / Distribution:** [Inferred]: The enterprise-grade feature set (on-premises deployment, integration with Databricks/Snowflake, compliance audit logs) and the listed integration partners (Middesk, Sardine, Socure, Persona, Ekata, LexisNexis, Seon) suggest a direct sales motion targeting mid-market to enterprise financial institutions, fintechs, and crypto exchanges. The YC network provides an initial distribution channel to fintech startups. Jared Friedman is listed as the primary YC partner (YC company page).
+**GTM / Distribution:** [Inferred]: Most likely distribution path is direct sales to fraud/risk teams at fintechs and financial institutions, starting with mid-market companies where the pain of manual investigation workflows is acute but budgets for large enterprise platforms (Feedzai, Sardine) are constrained. The integrations with compliance vendors and data platforms suggest a land-and-expand strategy through existing vendor ecosystems.
 
 ## Defensibility
 
-MouseCat's potential defensibility rests on the data feedback loop created when its AI agents investigate fraud cases and generate rules that go into production: each customer's deployment generates investigation data, synthetic labels, and backtested rules that can improve the underlying models over time. The on-premises deployment model means customer data stays in the customer's environment, which may limit cross-customer data network effects.
+MouseCat's CEO Nicholas Aldridge is a core maintainer of the Model Context Protocol (MCP) and contributed to the Agent2Agent protocol (LinkedIn post by Nicholas Aldridge, 2026). This positions the team at the frontier of AI agent infrastructure standards. The platform's on-premise deployment option and integration with customer data environments create switching costs once embedded in a risk team's workflow (mousecat.ai). The feedback loop from investigations to production rules could generate proprietary data advantages over time as the system learns from each customer's fraud patterns.
 
-[Inferred]: Switching costs could develop as MouseCat-generated rules and features become embedded in a customer's production fraud stack (integrated with their Databricks/Snowflake infrastructure and rule engines). However, at this stage, no public evidence of deployed customers or production integrations exists to confirm this dynamic.
+**Market structure:** Large incumbent fraud platforms (Feedzai, NICE Actimize, FICO) sell full-stack solutions to enterprise compliance and fraud teams. Their product architecture and go-to-market are oriented around replacing existing workflows end-to-end. [Inferred]: A toolkit approach that augments existing workflows — rather than requiring wholesale platform replacement — may face less direct sales channel conflict with incumbents. However, no structural barrier (regulatory, IP, or business model) was identified that would prevent incumbents from building similar AI investigation agents as add-on features.
 
-**Market structure:** Incumbent fraud platforms (Sift, Sardine, DataVisor) focus on real-time transaction scoring and decisioning. MouseCat targets a different layer: the investigative and rule-development workflow. [Inferred]: Incumbents could build similar investigation-automation features, but doing so would require shifting from their core real-time scoring value proposition to a fundamentally different user workflow (analyst-facing investigation tools and ML feature engineering). This represents a product-focus conflict rather than a structural barrier. No clear structural barrier (business model cannibalization, regulatory, etc.) was identified at this stage.
-
-**Commoditization risk:** The core technology relies on LLMs orchestrating multi-step investigation workflows (web scraping, phone calls, graph analysis) and generating synthetic fraud labels. Large fraud platforms with ML teams (Sardine, Sift, DataVisor) could build similar agentic investigation features. General-purpose AI agent frameworks could also be adapted for fraud investigation use cases. The synthetic label generation technique for fraud detection is a research area with published methods. [Inferred]: The barrier to replication is moderate—domain-specific tuning for fraud workflows, integrations with fraud-specific data vendors, and backtesting infrastructure create implementation complexity, but no single component appears uniquely defensible.
+**Commoditization risk:** The core capability — AI agents conducting fraud investigations and generating rules — could be replicated by well-funded competitors with access to LLM infrastructure and fraud domain expertise. Sardine ($145M raised), Feedzai ($347M raised), and DataVisor ($94.5M+ raised) all have resources and domain knowledge to build overlapping features. Open-source LLM agent frameworks lower the barrier to building investigation agents. The defensibility would depend on the depth of domain-specific fine-tuning, integration density with customer data environments, and accumulated investigation feedback data.
 
 ## Market & Traction
 
 **Traction signals:**
-- MouseCat was described as the "2nd highest-rated company of the YC product showcase" (Nicholas Aldridge LinkedIn, via search snippet). No date or further context was available to verify the specific showcase event.
-- No public revenue, user count, or customer data found.
-- No Product Hunt launch found.
-- No app store presence found.
-- Company Twitter/X account: No public account found.
-- Nicholas Aldridge LinkedIn: linkedin.com/in/nicholas-aldridge-341162a4/ (LinkedIn).
-- Joseph McAllister LinkedIn: linkedin.com/in/joseph-mcallister/ — 500+ connections (LinkedIn via search snippet).
-- MouseCat company LinkedIn page: No dedicated company page found in search results.
-- Discord/Slack community: No public data found.
-- Web traffic estimates: No public data found.
-- Job postings: The company is listed as not hiring (YC company page).
+- Y Combinator Winter 2026 batch member (YC company page)
+- 2nd highest-rated company of the YC W26 product showcase (Nicholas Aldridge LinkedIn, via search snippet)
+- Nicholas Aldridge's departure announcement from AWS received 654 likes and 66 comments on LinkedIn (LinkedIn post, 2026)
+- Company Twitter/X: @MouseCatAI — follower count not retrievable
+- Company LinkedIn: linkedin.com/company/mousecat — follower count not retrievable
+- Company GitHub: github.com/MouseCatAI — no public repositories (GitHub, accessed March 2026)
+- W26 Demo Day scheduled for March 24, 2026 (YC website)
+- No public revenue, user counts, or customer names found
+- No Product Hunt launch found
+- No press coverage in named publications found
 
 **Competitive landscape:**
 
-1. **Sardine** ($145M raised, 130% YoY ARR growth; Crunchbase/BusinessWire, Feb 2025): AI-enhanced platform using device intelligence, behavior biometrics, and ML for real-time fraud prevention and compliance. Over 100 customers including Brex, MoonPay, Bakkt (BusinessWire, Feb 2025). Recently announced agentic AI for fraud and compliance operations. Sardine focuses on real-time transaction-level decisioning vs. MouseCat's investigation-to-production-rule pipeline.
+| Competitor | Key Differentiator vs. MouseCat | Funding | Revenue/ARR |
+|---|---|---|---|
+| **Sardine** | Full-stack AI risk platform for fraud, credit, and compliance; real-time transaction scoring; 70+ country coverage | $145M total; $70M Series C (Feb 2025, Crunchbase) | 130% YoY ARR growth in 2024; $660M valuation (BusinessWire, Feb 2025) |
+| **Feedzai** | Enterprise-scale platform processing 70B events/year; $8T in payments secured; digital euro ECB contract | $347M total; $75M Series E (Oct 2025, SiliconAngle) | ~$123.8M revenue (ZoomInfo via search snippet); $2B valuation |
+| **DataVisor** | Patented unsupervised ML (UML) technology; unified fraud & AML; Forrester Wave Leader (AML, Q2 2025) | $94.5M+ total (Tracxn via search snippet) | ~$35M revenue (Tracxn, Jun 2025 via search snippet) |
+| **Inscribe** | Specialized in AI document fraud detection for banks and lenders; YC alumnus | $38M total; $25M Series B (TechCrunch, Jan 2023) | 3x YoY ARR growth reported in 2022 (Inscribe blog) |
+| **Unit21** | No-code platform for risk & compliance operations; 200 customers in 90 countries | $92M total (Tracxn via search snippet) | Revenue not disclosed |
 
-2. **Sift** ($162M raised, $1B+ valuation; TechCrunch, Apr 2021): Serves 34,000+ sites and apps with AI-powered fraud scoring for account takeover, payment fraud, and content abuse (Sift website via search snippet). Revenue not publicly disclosed. Sift is a broad-market real-time scoring platform vs. MouseCat's analyst workflow focus.
-
-3. **Unit21** (~$100M raised, $45M Series C led by Tiger Global; Fintech Futures via search snippet): No-code platform for risk and compliance operations. Differentiates with a rules-builder and case management interface accessible to non-technical compliance teams. Unit21 targets the operations workflow layer similarly to MouseCat but with a no-code/manual-configuration approach vs. MouseCat's AI-automated investigation and rule generation.
-
-4. **DataVisor** ($94.5M–$129M raised, $31M revenue in 2023; Tracxn/CBInsights via search snippet): AI-powered fraud and financial crime prevention platform serving banks, credit unions, fintechs, and digital payments. Uses unsupervised ML for detecting unknown fraud patterns. DataVisor focuses on detection models vs. MouseCat's investigation automation and rule development.
-
-5. **Flagright** ($8M raised, YC-backed; Flagright blog): AI-native AML compliance and transaction monitoring platform targeting fintechs and banks. Offers a startup program with accessible pricing. Flagright focuses on AML compliance automation vs. MouseCat's broader fraud investigation toolkit.
-
-**Why now:** [Inferred]: Several converging factors: (1) LLM capabilities reached a threshold in 2024–2025 where multi-step agentic workflows—web interaction, document analysis, graph reasoning—became technically feasible for production use cases; (2) the Model Context Protocol (MCP) standard emerged in 2024–2025, enabling standardized tool-use by AI agents, which Nicholas Aldridge has expertise in from his Amazon Bedrock work; (3) fraud losses exceeded $1 trillion globally in 2025 (DataVisor blog, 2025 via search snippet), with AI-generated deepfakes and synthetic identities increasing attack sophistication faster than manual investigation teams can respond; (4) incumbent fraud platforms have announced agentic AI features (Sardine's Feb 2025 Series C explicitly targeted agentic AI), validating the category timing.
+**Why now:** [Inferred]: Several converging factors opened this opportunity in 2024-2025: (1) Generative AI and LLM agents reached sufficient capability to automate complex, multi-step investigation workflows that previously required senior human analysts; (2) AI-enabled fraud attacks (synthetic identities, deepfakes, automated social engineering) have accelerated, increasing case volumes beyond what manual teams can handle — 74% of senior fraud leaders cite AI-driven fraud as a top threat (DataVisor report, 2025 via search snippet); (3) The maturation of agent protocols (MCP, Agent2Agent) provides standardized infrastructure for building AI agents that can interact with multiple data sources and tools programmatically.
 
 ## Founders & Team
 
 **Nicholas Aldridge** — Co-founder & CEO
-- 6.5 years as Principal Engineer at AWS AI, where he helped launch and lead Amazon Bedrock Knowledge Bases, Agents, and AgentCore (YC company page, mousecat.ai).
-- Described as "a core maintainer of MCP" on the YC company page.
-- Posted on LinkedIn about Amazon Bedrock AgentCore preview launch (LinkedIn, via search snippet).
-- Education: No public data found.
-- Twitter/X: No public account found.
-- LinkedIn: linkedin.com/in/nicholas-aldridge-341162a4/ — headline references MouseCat (YC W26) (LinkedIn).
-- GitHub: No public repos found under his name.
+- 6.5 years as Principal Engineer at AWS AI; helped launch and lead Amazon Bedrock Knowledge Bases, Agents, and AgentCore (LinkedIn, mousecat.ai)
+- Core maintainer of the Model Context Protocol (MCP); contributed to the Agent2Agent protocol alongside David Soria Parra and Todd Segal (LinkedIn post, 2026)
+- Presented at the MCP Developers Summit on multi-agent collaboration strategies (Geeky Gadgets via search snippet)
+- Education: University of Chicago (LinkedIn via search snippet)
+- Twitter/X: No personal account found; company account @MouseCatAI
+- LinkedIn: [linkedin.com/in/nicholas-aldridge-341162a4](https://www.linkedin.com/in/nicholas-aldridge-341162a4/) — headline "Co-Founder & CEO at MouseCat (YC W26)"
+- GitHub: No personal public repos found
 
 **Joseph McAllister** — Co-founder & CTO
-- 4 years at Coinbase as Senior ML Engineer on the ML Platform team, focused on streaming systems, large-scale data processing, and ATO and ACH risk models (YC company page, mousecat.ai, ZoomInfo via search snippet).
-- Previously Software Engineer at Microsoft on Azure Data Factory (josephmcallister.com).
-- Co-founded Roo Storage, an Airbnb-for-storage platform; acquired by Handled on June 16, 2020 (Missouri Business Alert, PitchBook via search snippet).
-- Published "How Coinbase Builds Sequence Features for Machine Learning" on the Coinbase blog (josephmcallister.com).
-- Education: Cornell University, Computer Science; Varsity Tennis (josephmcallister.com).
-- Twitter/X: No public account found.
-- LinkedIn: linkedin.com/in/joseph-mcallister/ — 500+ connections (LinkedIn via search snippet).
-- GitHub: github.com/joseph-mcallister — 32 repos, 14 followers, 1 star on most-starred repo (smart-shell) (GitHub).
+- 4 years at Coinbase as Senior ML Engineer on the ML Platform team; built ML and risk infrastructure, focusing on streaming systems, large-scale data processing, ATO and ACH risk models (LinkedIn, mousecat.ai)
+- Previously Software Engineer at Microsoft on Azure Data Factory (josephmcallister.com)
+- Founded Roo Storage while at Cornell; acquired by Handled in 2020 (Crunchbase via search snippet, josephmcallister.com)
+- Education: BS Computer Science, Cornell University (josephmcallister.com)
+- Twitter/X: No personal account found
+- LinkedIn: [linkedin.com/in/joseph-mcallister](https://www.linkedin.com/in/joseph-mcallister/) — headline "Coinbase" (at time of research)
+- GitHub: [github.com/joseph-mcallister](https://github.com/joseph-mcallister) — 32 public repos, 15 followers; projects include smart-shell (1 star), trailcam, hello-pi (GitHub)
 
-**Co-founder relationship:** Both founders are based in New York. No shared prior employer or university was identified from available data. Aldridge was at AWS and McAllister was at Coinbase/Microsoft/Cornell. No public data on how they met.
+**Co-founder relationship:** Aldridge described McAllister as a "long-time friend" in his LinkedIn departure announcement (LinkedIn post, 2026). No shared employer or university overlap is visible from the data gathered (Aldridge: University of Chicago / AWS; McAllister: Cornell / Coinbase / Microsoft).
 
-**Founder-market fit:** McAllister spent 4 years at Coinbase building ML and risk infrastructure specifically for ATO and ACH fraud models, providing direct domain expertise in the fraud detection problem space. Aldridge built the AI agent infrastructure at AWS (Bedrock Agents, AgentCore, Knowledge Bases) that forms the technological foundation for AI-powered investigation workflows. McAllister brings the fraud/risk domain knowledge; Aldridge brings the AI agent architecture expertise. McAllister has a prior startup exit (Roo Storage, acquired 2020). No advisors, board members, or notable investors beyond YC and Jared Friedman (YC partner) were identified.
+**Founder-market fit:** Aldridge brings deep AI/ML infrastructure expertise from building the core agent and knowledge base products at AWS (Bedrock), and his role as an MCP core maintainer places him at the center of the AI agent ecosystem that MouseCat leverages. McAllister brings direct fraud domain expertise from building ML risk models at Coinbase (ATO, ACH fraud) and production ML platform experience, plus a prior startup exit. Together they combine AI infrastructure depth with hands-on fraud/risk ML experience. McAllister's prior exit (Roo Storage, acquired 2020) demonstrates entrepreneurial execution capability.
 
 ## Key Risks
 
-**Well-funded incumbent convergence:** Sardine explicitly raised $70M in February 2025 to launch "a suite of intelligent agents designed to streamline fraud and compliance operations" (BusinessWire, Feb 2025). This directly overlaps with MouseCat's AI agent approach to fraud investigation. Sift and DataVisor have the resources and customer bases to build similar agentic investigation features. MouseCat must establish customer relationships and product differentiation before incumbents ship equivalent functionality.
+**Well-funded competitor encroachment:** Sardine ($145M raised), Feedzai ($347M, $2B valuation), and DataVisor ($94.5M+) are all actively investing in AI-powered investigation and automation features. Sardine specifically markets to fraud and compliance teams with AI automation (Sardine website). These companies have existing customer bases, data moats, and sales teams that could rapidly ship overlapping capabilities.
 
-**Enterprise sales cycle vs. team size:** The product targets enterprise buyers (on-premises deployment, Databricks/Snowflake integration, audit log requirements), which typically involves long sales cycles, security reviews, and procurement processes. A 2-person team must simultaneously build the product and navigate enterprise go-to-market. No sales or go-to-market hires are indicated (company listed as not hiring per YC page).
+**Enterprise sales cycle for a 2-person team:** MouseCat targets risk teams at financial institutions — a buyer persona that typically requires SOC 2 compliance, security reviews, procurement processes, and long evaluation cycles. Executing enterprise sales with a 2-person team pre-Demo Day, without disclosed sales or GTM hires, creates a timing mismatch between product readiness and buyer requirements.
 
-**Data access and integration dependency:** MouseCat's investigation workflows depend on third-party data vendors (Middesk, Sardine, Socure, Persona, Ekata, LexisNexis, Seon) for input signals. Changes in these vendors' API terms, pricing, or data availability could affect MouseCat's functionality. Sardine, which is listed as both an integration partner and a direct competitor, presents a particular channel conflict risk.
+**LLM reliability in high-stakes fraud decisions:** Automated fraud investigation and rule generation using AI agents must meet explainability and accuracy standards required by financial regulators. Hallucinated connections or incorrect rule generation in production could result in false positives (blocking legitimate customers) or false negatives (missing actual fraud), with direct financial and regulatory consequences for customers.
 
-**Brand disambiguation:** "MouseCat" returns results for unrelated entities including MouseCat Studios (Instagram game developer) and mouse/cat-related products. This could create SEO and brand recognition challenges in enterprise sales.
+**Platform dependency on third-party LLMs:** The AI agent capabilities depend on underlying LLM infrastructure (likely foundation model APIs). Changes in pricing, performance, or terms of service from model providers could affect product economics and capability.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $14.72B AI in fraud management market in 2025, projected $65.35B by 2034 at 18.06% CAGR (Precedence Research, 2025 via search snippet) |
+| TAM | $14.72B (2025) → $65.35B (2034), CAGR 18.06% — AI in Fraud Management (Precedence Research, 2025 via search snippet) |
 | SAM | No public data found |
-| Traction | "2nd highest-rated company of the YC product showcase" (Nicholas Aldridge LinkedIn via search snippet); no other public traction data found |
+| Traction | 2nd highest-rated at YC W26 product showcase (LinkedIn via search snippet); YC W26 batch member; W26 Demo Day March 24, 2026 |
 | Revenue Signal | No public data found |
-| Founders | Nicholas Aldridge (CEO): 6.5 yrs Principal Engineer at AWS AI (Bedrock), MCP core maintainer. Joseph McAllister (CTO): 4 yrs Coinbase ML/Risk, Cornell CS, prior exit (Roo Storage, acq. 2020) |
-| Competitors | Sardine ($145M raised, 130% YoY ARR growth, real-time scoring vs. investigation automation); Sift ($162M raised, $1B+ valuation, broad-market transaction scoring); Unit21 (~$100M raised, no-code compliance ops vs. AI-automated investigation); DataVisor ($94.5–129M raised, $31M 2023 revenue, detection models vs. rule development); Flagright ($8M raised, YC-backed, AML compliance focus) |
-| Moat Signals | No public data found. [Inferred]: Potential moat via embedded production rules/features in customer infrastructure creating switching costs, but unproven at this stage |
-| Risk Factors | Well-funded incumbent convergence (Sardine $70M for agentic AI), enterprise sales cycle with 2-person team, integration dependency on vendor-competitors (Sardine) |
-| Founder Reach | Nicholas Aldridge: Twitter not found, LinkedIn linkedin.com/in/nicholas-aldridge-341162a4/, GitHub not found. Joseph McAllister: Twitter not found, LinkedIn 500+, GitHub 14 followers/1 star |
-| Distribution Signals | No public data found |
+| Founders | Nicholas Aldridge (CEO): Principal Engineer at AWS AI 6.5yr, launched Amazon Bedrock products, MCP core maintainer, U of Chicago. Joseph McAllister (CTO): Sr ML Engineer at Coinbase 4yr (risk/ML platform), Microsoft Azure, founded Roo Storage (acquired 2020), Cornell CS. |
+| Competitors | Sardine ($145M raised, 130% YoY ARR growth 2024, full-stack fraud/compliance platform); Feedzai ($347M raised, ~$123.8M revenue, enterprise-scale transaction scoring); DataVisor ($94.5M+ raised, ~$35M revenue, patented UML); Inscribe ($38M raised, revenue unknown, document fraud specialist); Unit21 ($92M raised, revenue unknown, no-code risk/compliance) |
+| Moat Signals | CEO is MCP core maintainer; on-premise deployment creates switching costs; investigation feedback loop could build data advantage over time |
+| Risk Factors | Well-funded competitor encroachment, enterprise sales cycle with 2-person team, LLM reliability in regulated fraud decisions |
+| Founder Reach | Nicholas Aldridge: LinkedIn 654 likes on departure post; Joseph McAllister: GitHub 15 followers, 32 repos |
+| Distribution Signals | No public data found (no Product Hunt launch, no app store presence, no Chrome extension) |
+| Emails | No public data found |

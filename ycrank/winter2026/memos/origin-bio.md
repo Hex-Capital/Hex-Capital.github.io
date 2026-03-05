@@ -11,113 +11,119 @@
 | Team Size | 4 |
 | Location | San Francisco, CA, USA |
 | Tags | AI-powered Drug Discovery, Gene Therapy, Cell Therapy, Biotech |
+| YC Partner | Ankit Gupta |
+| Emails | yash@origin.bio, hiring@origin.bio |
 
 ## The Idea
 
-**Problem:** Cell and gene therapies hold promise for treating cancer, CNS disorders, and genetic diseases, but a core safety challenge persists: controlling precisely where, when, and how much a therapeutic gene is expressed in different cell types. Current regulatory DNA elements (promoters and enhancers) used in gene therapy vectors are limited in specificity and strength, often leading to off-target gene expression, toxicity, or insufficient therapeutic effect. The customer segment is pharmaceutical and biotech companies developing gene therapy candidates. Today these teams rely on a small library of well-characterized natural promoters and enhancers, or brute-force screening of random sequences—both approaches are slow and yield limited diversity (origin.bio; YC launch page).
+**Problem:** Cell and gene therapies — including CAR-T, AAV-delivered gene therapies, and other programmable medicines — suffer from poor efficacy, toxicity, and lack of cell-type specificity (Ashwini Bhide LinkedIn post citing Origin's framing, Jan 2026). The regulatory DNA elements (promoters, enhancers) that control when and where therapeutic genes turn on are a core safety bottleneck: current approaches lack precision in targeting expression to only the intended cell types and tissues. Existing methods for designing these elements rely on slow rational design or siloed computational tools that either generate sequences or predict function, but not both.
 
-**Approach:** Origin's core product is **Axis**, described as "the first AI model that generates regulatory DNA elements and also predicts their function" (origin.bio). Axis screens millions of synthetic regulatory DNA candidates (enhancers and promoters) tailored to specific cell states. The company claims Axis "outperforms Google DeepMind's AlphaGenome at predicting regulatory element activity and chromatin accessibility" (YC company page). Generated sequences reportedly demonstrate 72%+ diversity with no sequence overlap among themselves and contain known biological features such as transcription factor motifs (YC launch page). Origin is simultaneously building what it describes as "the largest proprietary dataset of synthetic regulatory sequences across diverse cell-states" (YC company page).
+**Approach:** Origin builds AI models that design novel synthetic regulatory DNA sequences (enhancers and promoters) to program precise therapeutic gene expression patterns. Their flagship model, **Axis**, announced October 8, 2025 (Origin blog), is described as "the first AI model that generates regulatory DNA elements and also predicts their function." Axis unifies three capabilities previously siloed in separate models: DNA-to-DNA (generation), DNA-to-function (prediction of transcription factor binding), and function-to-DNA (conditioned generation given a desired cell type and regulatory profile) (Origin blog, Oct 2025). The model uses a shared Transformer backbone with diverging nucleotide and assay prediction heads, trained on ENCODE V4 Registry data. Performance claims: outperforms Google DeepMind's AlphaGenome by 6.7% on average at predicting regulatory element binding activity; generates sequences with up to 9x enrichment of targeted transcription factor motifs; uses an "inverse-entropy" sampling strategy achieving up to 5x increase in motif enrichment versus random position selection (Origin blog, Oct 2025). Origin is also building what it describes as "the largest proprietary dataset of synthetic regulatory sequences across diverse cell-states" by testing generated sequences in the lab (YC page, origin.bio).
 
-**Differentiation:** Several companies operate in adjacent or overlapping spaces, but their approaches differ:
-- **Asimov** ($205M+ raised; Crunchbase via search snippet) provides a broader synthetic biology design platform with experimentally validated genetic parts—including tissue-specific promoters—and cloud-based design software, plus the AAV Edge system for end-to-end gene therapy development. Asimov's scope extends well beyond regulatory DNA into full genetic circuit design and manufacturing.
-- **Dyno Therapeutics** ($109M raised; Fierce Biotech via search snippet) uses AI primarily to design novel AAV capsid vectors rather than regulatory elements. Its CapsidMap platform optimizes viral delivery vehicles, not the gene expression control layer.
-- **Annogen** (founded 2017, Netherlands; minimal external funding per Tracxn via search snippet) uses its proprietary SuRE platform to screen existing human DNA elements for optimal promoter designs, emphasizing human-origin validated sequences rather than fully de novo AI-generated ones.
-- Origin's differentiation centers on de novo generative AI design of synthetic regulatory DNA with a proprietary dataset of validated sequences. This is a narrower, deeper focus on the regulatory layer compared to Asimov's full-stack approach and a different molecular target than Dyno's capsid work.
+**Differentiation:** Axis's unified generation-and-prediction architecture distinguishes it from prior work. Academic approaches like DNA-Diffusion (Nature Genetics, 2025) generate 200-bp synthetic regulatory elements with cell-type specificity but do not integrate prediction in a single model. Dyno Therapeutics applies AI to AAV capsid design (viral delivery vectors), not regulatory DNA. Asimov uses synthetic biology and ML for genetic circuit design and cell-line engineering for manufacturing, a broader but different focus. Tessera Therapeutics works on gene writing (inserting/editing genomic sequences), not regulatory element design. Origin's specific niche — AI-designed regulatory DNA for expression control — occupies a narrow layer of the gene therapy stack that is adjacent to but distinct from these competitors.
 
-**Business Model:** No pricing page is published on origin.bio. The YC launch page indicates Origin is "seeking partnerships with pharma/biotech companies to design regulatory sequences for target disease cells" and to "license proprietary dataset and sequence-protein interaction data" (YC launch page). [Inferred]: The most likely monetization path is a combination of service-based partnerships (designing custom regulatory elements for pharma partners) and dataset/platform licensing, consistent with the biotech enabling-technology model used by peers like Asimov and Dyno.
+**Business Model:** No pricing page is visible on origin.bio. The website offers a free API to research institutions and interested individuals (Origin blog, Oct 2025). [Inferred]: Most likely monetization path is B2B licensing of regulatory sequence designs and/or proprietary dataset access to pharmaceutical and biotech partners, given the company's stated interest in "partnerships with pharmaceutical/biotech companies for regulatory sequence design and dataset access" (YC page).
 
-**TAM/SAM:** The global gene therapy market was valued at $11.07 billion in 2025, projected to reach $55.43 billion by 2034 at 19.60% CAGR (Precedence Research, 2025 via search snippet). The DNA synthesis market was valued at $5.19 billion in 2025, projected to reach $16.08 billion by 2032 at 17.5% CAGR (Fortune Business Insights, 2025 via search snippet). No public SAM estimate was found specific to the regulatory DNA/synthetic promoter-enhancer sub-segment.
+**TAM/SAM:** The global cell and gene therapy market was valued at USD 13.17 billion in 2025 and is projected to grow to USD 117.46 billion by 2034 (Fortune Business Insights, 2025, via search snippet). Other estimates range higher: USD 26.35 billion in 2025 growing to USD 146.31 billion by 2035 at 18.7% CAGR (Novaone Advisor, via search snippet); USD 33.5 billion in 2026 growing to USD 232.22 billion by 2035 at 24% CAGR (Towards Healthcare, via search snippet). The wide variance reflects different scope definitions across research firms. No public estimates exist for the specific sub-segment of AI-designed regulatory DNA elements.
 
-**GTM / Distribution:** [Inferred]: Most likely distribution path is direct B2B partnerships with pharmaceutical and biotech companies developing gene therapy pipelines, given the technical nature of the product and the explicit "seeking partnerships" language on the YC launch page. The India AI Impact Summit roundtable with PM Modi (February 2026; Free Press Journal, Devdiscourse) may also signal interest in engaging India-based pharma firms.
+**GTM / Distribution:** [Inferred]: Most likely distribution path is direct partnerships with pharma/biotech companies developing gene therapies, where Origin designs custom regulatory elements for specific therapeutic programs. The free API for research institutions may serve as a top-of-funnel to generate academic validation and industry awareness before converting to commercial licensing deals.
 
 ## Defensibility
 
-**Proprietary dataset:** Origin claims to be building "the largest proprietary dataset of synthetic regulatory sequences across diverse cell-states" (YC company page). If this dataset achieves meaningful scale and experimental validation, it could create a data moat—each new partnership generating additional validated sequences that improve Axis and widen the gap vs. competitors relying on smaller or public datasets.
+**Proprietary dataset:** Origin claims to be building "the largest proprietary dataset of synthetic regulatory sequences across diverse cell-states" by experimentally validating AI-generated sequences in the lab (YC page, origin.bio). If realized, this wet-lab-validated dataset would create a compounding data advantage, as each experimental cycle improves model performance and expands the training corpus. This is a forward-looking claim; the dataset's current scale is not publicly disclosed.
 
-**Model performance claims:** The claim that Axis outperforms AlphaGenome (YC company page) at predicting regulatory element activity, if independently validated, represents a technical capability advantage. However, this has not been confirmed by third-party benchmarks in publicly available sources.
+**Model performance:** Axis's claimed 6.7% improvement over AlphaGenome on regulatory element binding prediction (Origin blog, Oct 2025) and the unified generation-prediction architecture represent a technical lead, though this has not yet been independently validated in peer-reviewed literature.
 
-**Scientific advisory board:** The advisors—Dr. Manolis Kellis (MIT, Broad Institute, regulatory genomics), Dr. Nicole Paulk (UCSF, AAV gene therapy expert, Siren Bio CEO), and Dr. Rashid Bashir (UIUC Dean of Engineering, bio-nanotechnology)—provide domain credibility and potential access to academic validation infrastructure (origin.bio).
+**Advisory network:** Scientific advisors include Dr. Manolis Kellis (MIT, Broad Institute), Dr. Nicole Paulk (Siren Biotechnology founder/CEO, UCSF), and Dr. Rashid Bashir (UIUC Dean, Chan Zuckerberg Biohub Chicago) (origin.bio), providing credibility and potential pharma access.
 
-**Market structure:** Gene therapy incumbents (large pharma) are primarily focused on developing therapeutic candidates, not on the enabling-technology layer of regulatory DNA design. Building an internal generative AI platform for synthetic regulatory elements requires specialized ML expertise combined with wet-lab validation capabilities—a combination that sits outside the core competency of most pharma R&D organizations. No structural barrier identified at this stage beyond this specialization gap.
+**Market structure:** Large pharma companies developing gene therapies (e.g., Novartis, Roche, BMS) rely on in-house or CRO-based regulatory element design. Adopting an AI-first approach to regulatory DNA would require these incumbents to build ML infrastructure, generate proprietary training data, and develop specialized biological validation pipelines — a multi-year investment outside their core competency. Additionally, pharma companies may prefer to license specialized tools from startups rather than build internal AI genomics capabilities, particularly for a component (regulatory elements) that is upstream of their primary focus (therapeutic candidates and clinical development).
 
-**Commoditization risk:** Academic groups (e.g., the authors of the Nature Genetics 2025 paper on generative AI for synthetic regulatory DNA sequences, and DeepMind's AlphaGenome team) could publish open-source models. Asimov ($205M+ raised) already offers tissue-specific promoter design as part of a broader platform. The barrier to commoditization depends on whether Origin's proprietary experimental validation dataset proves substantially superior to what can be assembled from public data and academic collaborations.
+**Commoditization risk:** Academic groups have published open-source tools for synthetic regulatory element design (e.g., DNA-Diffusion, Nature Genetics 2025). Google DeepMind's AlphaGenome operates in the regulatory prediction space. Well-funded competitors like Asimov ($209M raised) and Dyno ($100M+ raised) have adjacent capabilities and could expand into regulatory element design. The core technology — transformer-based models trained on ENCODE data — uses publicly available training data, meaning the model architecture alone is reproducible. Origin's defensibility rests primarily on the proprietary wet-lab-validated dataset, not the model architecture.
 
 ## Market & Traction
 
 **Traction signals:**
-- YC Launch page upvotes: 17 (YC launch page, accessed Feb 2026)
-- Twitter/X: @origin_bio (x.com/origin_bio); follower count not retrievable via WebFetch
-- LinkedIn company page: https://www.linkedin.com/company/origin-bio-inc; follower count not retrievable
-- PM Modi AI Startup Roundtable: Malhar Bhide (CTO) was among 16 AI/deeptech startup founders invited to a CEO roundtable with Indian Prime Minister Narendra Modi at the India AI Impact Summit 2026 (Free Press Journal; PIB India, Feb 2026)
-- No public revenue, customer counts, or paid partnership announcements found
-- No Product Hunt launch found
-- No Discord/Slack community found
-- Contact email: yash@origin.bio (origin.bio)
+- Axis model publicly announced October 8, 2025 (Origin blog)
+- Free API offered to research institutions (Origin blog, Oct 2025)
+- $15M total funding reported (Extruct AI, undated, via search snippet — not independently confirmed by any other source)
+- Company X/Twitter: @origin_bio (follower count not retrievable due to JavaScript rendering)
+- Yash Rathod X/Twitter: @YashRathod_75, ~576 followers (via search snippet)
+- LinkedIn post by Ashwini Bhide about Malhar Bhide and Origin received 1,070 likes and 175 comments (LinkedIn, Jan 2026 via WebFetch)
+- TMV article covering the Axis launch (TMV.in, Oct 2025)
+- Team members have backgrounds from NVIDIA, UC Berkeley, University of Pennsylvania, and UIUC (origin.bio)
+- No Product Hunt listing found
+- No app store presence (not applicable — B2B biotech)
+- No public revenue or customer data found
+- LinkedIn company page for Origin Bio: not found (note: "Origin Biologics" at originbio.com is a separate, unrelated company)
 
 **Competitive landscape:**
 
-| Company | Funding | Focus vs. Origin |
-|---------|---------|-----------------|
-| **Asimov** | ~$205M total (Crunchbase via search snippet) | Full-stack synthetic biology design platform including tissue-specific promoters, genetic circuits, and manufacturing (AAV Edge). Broader scope vs. Origin's narrow regulatory DNA focus. Revenue unknown. |
-| **Dyno Therapeutics** | $109M total (Fierce Biotech via search snippet) | AI-designed AAV capsid vectors for gene therapy delivery, not regulatory DNA elements. Partnered with Roche (up to $1B+ deal) and Novartis. Revenue unknown. |
-| **Tessera Therapeutics** | ~$582–610M total (Clay/Tracxn via search snippet) | Gene Writing technology—writes therapeutic sequences into the genome. Different mechanism (genome integration) vs. Origin's regulatory element design. Backed by Gates Foundation ($50M in Dec 2024; GlobeNewswire). Revenue unknown. |
-| **Annogen** | Minimal external funding (Tracxn via search snippet) | SuRE platform screens existing human DNA elements for optimal promoters. Uses screening of natural sequences vs. Origin's de novo generative AI approach. Founded 2017, Netherlands-based. Revenue unknown. |
+1. **Dyno Therapeutics** (~$100M+ raised, Series A led by a16z; revenue unknown): AI platform for AAV capsid design (viral delivery vectors), not regulatory DNA. Partnerships with Sarepta, Novartis, and Roche/Spark worth $4B+ in aggregate deal value (BioSpace, Dyno press releases). Differentiator vs. Origin: Dyno focuses on the delivery vehicle (capsid), while Origin focuses on the gene expression control layer (regulatory DNA).
 
-**Why now:** [Inferred]: Several converging factors: (1) Deep learning models for genomics reached a performance threshold in 2023-2025 (e.g., DeepMind's AlphaGenome, the Nature Genetics 2025 publication on generative AI for synthetic regulatory DNA), making de novo regulatory element design computationally feasible; (2) the gene therapy market is accelerating with 7 FDA-approved gene therapies as of 2024 and a growing pipeline demanding better expression control; (3) large pharma is actively seeking enabling-technology partnerships (e.g., Roche-Dyno, JURA Bio-Annogen collaborations announced in 2024-2025), validating demand for specialized regulatory DNA design tools.
+2. **Asimov** ($209M raised, Series B led by CPP Investments; revenue unknown): End-to-end platform integrating synthetic biology, biophysical simulation, and ML for designing genetic circuits and engineering mammalian cell lines. Differentiator vs. Origin: Asimov addresses manufacturing cell-line engineering and genetic circuit design broadly, while Origin focuses specifically on regulatory element design for therapeutic gene expression (Asimov.com, press releases).
+
+3. **Tessera Therapeutics** ($300M+ Series C, Flagship Pioneering; $150M Regeneron deal in Dec 2025; revenue unknown): Gene Writing™ platform that inserts/edits genomic sequences. Differentiator vs. Origin: Tessera writes new genetic code into the genome; Origin designs the regulatory switches that control when/where existing or inserted genes turn on (Tessera press releases, BusinessWire).
+
+4. **Octant Bio** ($115M raised, Series B led by Catalio; revenue unknown): Synthetic biology + AI platform for drug discovery across receptor pathways. Differentiator vs. Origin: Octant focuses on small-molecule drug discovery via multiplexed receptor screening, not regulatory DNA design for gene therapy (FierceBiotech, Octant.bio).
+
+5. **Academic/open-source approaches (DNA-Diffusion)**: Published in Nature Genetics (2025) by researchers at Broad Institute and others. Generates 200-bp synthetic regulatory elements with cell-type specificity. Differentiator vs. Origin: Academic tool without commercial support, proprietary dataset, or unified generation-prediction architecture.
+
+**Why now:**
+- [Inferred]: Several converging factors have opened this opportunity: (1) The ENCODE V4 Registry released large-scale regulatory element data that enables training of models like Axis; (2) Transformer architectures have reached sufficient scale and capability to handle DNA sequence generation and multi-task learning simultaneously; (3) The cell and gene therapy market has grown rapidly — FDA approved multiple gene therapies in 2023-2025, increasing demand for safer and more specific expression control; (4) Google DeepMind's AlphaGenome (2024-2025) validated the feasibility of AI-driven regulatory element prediction, creating a benchmark for the field and drawing attention to the problem; (5) Nature Genetics published multiple papers on AI-designed synthetic regulatory elements in 2025, signaling the field has crossed a technical feasibility threshold.
 
 ## Founders & Team
 
 **Yash Rathod** — Co-founder & CEO
-- BS Computer Science (in progress or recently completed), University of Illinois at Urbana-Champaign (UIUC)
-- Previously founded Diginoor Inc., described as India's first NFT marketplace, which raised $1M in seed funding from Contrary, Polygon Technology, Sandeep Nailwal, Kunal Shah, and others (LinkedIn post via search snippet). Founded the startup during a gap year, later sold the company (UIUC Talkshow podcast via search snippet).
-- Won First Prize in the 2022 OpenCV AI Competition with project COCOpen (Illinois Aerospace Engineering news via search snippet)
-- Research in Open Vocabulary Mobile Manipulation in Prof. Shenlong Wang's group at UIUC (GitHub bio via search snippet)
-- Background in Computer Vision and Reinforcement Learning research (YC company page via search snippet)
-- Twitter/X: @YashRathod_75 (x.com/YashRathod_75); follower count not retrievable
+- BS Computer Science, University of Illinois at Urbana-Champaign (UIUC)
+- Won First Prize in the 2022 OpenCV AI Competition with the COCOpen project (Illinois Aerospace Engineering news)
+- Robotics research at UIUC: Open Vocabulary Mobile Manipulation in Shenlong Wang's group (GitHub bio)
+- Prior experience at NVIDIA (origin.bio team affiliations)
+- Twitter/X: @YashRathod_75, ~576 followers (via search snippet)
 - LinkedIn: linkedin.com/in/yrraadi/
-- GitHub: github.com/yrraadi-io — 24 public repos; star counts not retrieved
+- GitHub: github.com/yrraadi-io — 24 repositories; no individual repos with >100 stars found
 
 **Malhar Bhide** — Co-founder & CTO
-- BS Computer Science (in progress or recently completed), University of Illinois at Urbana-Champaign (UIUC)
-- Published disease modeling research in high school in Nature Scientific Reports (Merge Club profile via search snippet; ResearchGate via search snippet)
-- ML Research at Wadhwani AI (search snippet)
-- Research Engineer at Automorphic (YC S23) (ContactOut via search snippet)
-- Received Medici Grant from 1517 Fund for schizophrenia detection using actigraphy data (Merge Club profile)
-- Invited to CEO roundtable with Indian PM Modi at India AI Impact Summit 2026 (Free Press Journal, Feb 2026)
-- Mother is Ashwini Bhide, Maharashtra Additional Chief Secretary (Free Press Journal)
-- Twitter/X: @__Malhar__ (x.com/__malhar__); follower count not retrievable
-- LinkedIn: linkedin.com/in/malhar-bhide-9002791a7/ (Merge Club profile) — note: a different LinkedIn profile (linkedin.com/in/malhar-bhide-1a454b303/) also appears in search results listing "Kognitive Networks"
-- GitHub: No public profile identified
-- Medium: malharbhide.medium.com
-- Hugging Face: huggingface.co/malharb
+- Computer Science, University of Illinois at Urbana-Champaign (UIUC)
+- ML Research at Wadhwani AI (ContactOut, via search snippet)
+- Research Engineer at Automorphic (YC S23) (ContactOut, via search snippet)
+- Published disease modeling research in Nature Scientific Reports while in high school (YC page description via search snippet)
+- Recipient of 1517 Medici Grant for mental health technology project (Merge Club)
+- Prior project: detecting schizophrenia using actigraphy data (Merge Club)
+- Mother: Ashwini Bhide, former Additional Municipal Commissioner of Mumbai (LinkedIn post context)
+- Twitter/X: No public account found specific to Malhar Bhide
+- LinkedIn: linkedin.com/in/malhar-bhide-1a454b303/
+- GitHub: No public GitHub profile confirmed
+- Devpost: devpost.com/malharb
+- ResearchGate: published research on COVID-19 risk assessment (ResearchGate profile)
 
-**Co-founder relationship:** Both founders studied Computer Science at UIUC, which is the most likely context for their acquaintance. No additional shared employer was identified.
+**Co-founder relationship:** Both Yash Rathod and Malhar Bhide attended UIUC for Computer Science, indicating they likely met during their undergraduate studies.
 
-**Founder-market fit:** Both founders have ML/AI research backgrounds from UIUC, with Yash bringing computer vision and reinforcement learning expertise and a prior startup exit (Diginoor), and Malhar bringing published biomedical research (Nature Scientific Reports), healthcare ML experience (Wadhwani AI, schizophrenia detection), and prior YC experience via Automorphic (YC S23). The team's credentials are complemented by scientific advisors with deep domain authority: Dr. Manolis Kellis (MIT/Broad, regulatory genomics), Dr. Nicole Paulk (UCSF, AAV gene therapy), and Dr. Rashid Bashir (UIUC bioengineering) (origin.bio). The origin.bio website also notes team backgrounds from NVIDIA, UC Berkeley, and University of Pennsylvania, suggesting additional team members beyond the two founders.
+**Founder-market fit:** Both founders have CS/ML backgrounds from UIUC with specific research experience relevant to the intersection of AI and biology. Yash's experience at NVIDIA and in computer vision/robotics research provides deep ML engineering expertise. Malhar's publication in Nature Scientific Reports as a high-school student and his work at Wadhwani AI (health-focused AI nonprofit) and Automorphic (a YC S23 AI company) demonstrate early research output and exposure to production ML systems. Their scientific advisory board — Manolis Kellis (MIT/Broad), Nicole Paulk (UCSF/Siren Bio), Rashid Bashir (UIUC/CZ Biohub) — supplements the founders' computational background with deep domain expertise in genomics, gene therapy, and bioengineering.
 
 ## Key Risks
 
-**Technical validation gap:** The claim that Axis "outperforms Google DeepMind's AlphaGenome" has not been independently verified via peer-reviewed publication or third-party benchmark. Validation to date relies on computational cross-checks (e.g., Broad Institute's Malinois model) rather than published wet-lab experimental data (YC launch page). The leap from in silico predictions to functionally validated therapeutic regulatory elements in vivo is substantial and unproven for this company.
+**Wet-lab validation gap:** Origin's competitive advantage depends on building a proprietary experimentally-validated dataset of synthetic regulatory sequences. This requires significant wet-lab infrastructure and throughput. With a 4-person team, scaling experimental validation to millions of sequences (as implied on their website) is a major operational challenge. The company has not disclosed current dataset size, validation throughput, or lab partnerships.
 
-**Well-funded competitor encroachment:** Asimov (~$205M raised) already offers AI-designed tissue-specific promoters as part of a broader platform and has established pharma relationships. Asimov could deepen its regulatory DNA capabilities without needing Origin's specific approach, potentially squeezing Origin's addressable niche.
+**Regulatory and clinical translation risk:** Demonstrating that AI-designed regulatory elements work in computational benchmarks (outperforming AlphaGenome by 6.7%) is distinct from demonstrating they work safely in therapeutic contexts in vivo. The gap between in silico design and clinical-grade regulatory elements involves extensive biological validation, animal studies, and regulatory approval processes that are costly and time-intensive. No in vivo or clinical data has been disclosed.
 
-**Academic open-source risk:** The Nature Genetics 2025 publication on generative AI for synthetic regulatory DNA (Nature Genetics, 2025 via search snippet) demonstrates that academic groups are actively producing similar capabilities. DeepMind's AlphaGenome and other foundation models for genomics could be adapted by pharma internal teams, reducing willingness to pay for external platforms.
+**Brand disambiguation:** Multiple companies share similar names: Origin Biologics (originbio.com, tissue-based biological products), Origin Biosciences (BridgeBio subsidiary), and OriGen Biomedical (cryopreservation). This creates potential confusion in market positioning, SEO, and investor/partner discovery.
 
-**Name disambiguation:** "Origin" is a common company name. Multiple unrelated companies share the name, including Origin Biologics (Las Vegas, medical devices), Origin Financial, and others. This creates brand confusion risk in a B2B context where clear identity matters for partnership credibility.
+**Incumbent and well-funded competitor encroachment:** Asimov ($209M raised) and Dyno ($100M+ raised) operate in adjacent spaces and could expand into regulatory element design. Google DeepMind, whose AlphaGenome is Origin's primary benchmark, has the resources and data to release a unified generation-prediction model. Academic groups have published open-source alternatives (DNA-Diffusion, Nature Genetics 2025).
 
-**Regulatory pathway dependency:** Gene therapy products face lengthy FDA/EMA approval timelines. Origin's revenue depends on pharma partners advancing therapies that incorporate Origin-designed regulatory elements through clinical development—a process spanning years and subject to regulatory risk outside Origin's control.
+**Narrow technical moat on model architecture:** The Axis model is trained on publicly available ENCODE data using standard transformer architectures. The model architecture itself is reproducible. Origin's differentiation relies on the proprietary wet-lab dataset and the unified multi-task approach, not on inaccessible training data or fundamentally novel architectures.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $11.07B gene therapy market in 2025, projected $55.43B by 2034 at 19.60% CAGR (Precedence Research, 2025 via search snippet); $5.19B DNA synthesis market in 2025, projected $16.08B by 2032 at 17.5% CAGR (Fortune Business Insights, 2025 via search snippet) |
-| SAM | No public data found for the regulatory DNA/synthetic promoter-enhancer sub-segment |
-| Traction | 17 upvotes on YC launch page (YC, Feb 2026); invited to PM Modi AI Startup Roundtable among 16 founders (Free Press Journal / PIB India, Feb 2026) |
-| Revenue Signal | No public data found |
-| Founders | Yash Rathod (CEO): UIUC CS, OpenCV AI Competition 1st Prize 2022, prior exit (Diginoor, $1M seed). Malhar Bhide (CTO): UIUC CS, Nature Scientific Reports publication, Wadhwani AI, Automorphic (YC S23), 1517 Fund grantee |
-| Competitors | Asimov (~$205M raised, revenue unknown, broader synthetic biology platform including promoter design); Dyno Therapeutics ($109M raised, revenue unknown, AI AAV capsid design not regulatory DNA); Tessera Therapeutics (~$582-610M raised, revenue unknown, Gene Writing genome integration); Annogen (minimal funding, revenue unknown, SuRE screening of natural promoters vs. de novo AI generation) |
-| Moat Signals | Proprietary dataset of synthetic regulatory sequences (claimed "largest," unverified); Axis model performance claim vs. AlphaGenome (unverified externally); scientific advisory board (Kellis/MIT, Paulk/UCSF, Bashir/UIUC) |
-| Risk Factors | Unvalidated wet-lab performance, well-funded competitor encroachment (Asimov), academic open-source alternatives |
-| Founder Reach | Yash Rathod: Twitter @YashRathod_75 (count not retrievable), LinkedIn linkedin.com/in/yrraadi/, GitHub 24 repos (stars not retrieved). Malhar Bhide: Twitter @__Malhar__ (count not retrievable), LinkedIn linkedin.com/in/malhar-bhide-9002791a7/, GitHub not found, Medium malharbhide.medium.com |
-| Distribution Signals | YC Launch page 17 upvotes (Feb 2026); PM Modi AI Startup Roundtable (Feb 2026); no Product Hunt, app store, or community signals found |
+| TAM | Global cell & gene therapy market: USD 13.17B in 2025, projected to USD 117.46B by 2034 (Fortune Business Insights, via search snippet); alternate estimate USD 26.35B in 2025 to USD 146.31B by 2035, 18.7% CAGR (Novaone Advisor, via search snippet). No sub-segment estimate for AI-designed regulatory DNA. |
+| SAM | No public data found for the specific regulatory DNA design sub-segment. |
+| Traction | Axis model launched Oct 8, 2025 (Origin blog); free API offered to researchers (Origin blog); TMV.in press coverage (Oct 2025); LinkedIn post re: Origin received 1,070 likes/175 comments (Ashwini Bhide LinkedIn, Jan 2026) |
+| Revenue Signal | No public data found. Free API offered; no pricing page. |
+| Founders | Yash Rathod (CEO): CS @ UIUC, NVIDIA, 1st Prize 2022 OpenCV AI Competition. Malhar Bhide (CTO): CS @ UIUC, Automorphic (YC S23), Wadhwani AI, Nature Scientific Reports publication in high school. |
+| Competitors | Dyno Therapeutics ($100M+ raised, revenue unknown, AI capsid design vs. Origin's regulatory DNA focus); Asimov ($209M raised, revenue unknown, genetic circuit design vs. Origin's regulatory element focus); Tessera Therapeutics ($300M+ Series C, revenue unknown, gene writing vs. Origin's expression control); Octant Bio ($115M raised, revenue unknown, receptor-based drug discovery vs. Origin's regulatory DNA) |
+| Moat Signals | Proprietary wet-lab-validated synthetic regulatory DNA dataset (claimed, scale undisclosed); Axis model outperforms AlphaGenome by 6.7% (Origin blog, Oct 2025); scientific advisory board (Kellis/MIT, Paulk/UCSF, Bashir/UIUC) |
+| Risk Factors | Wet-lab validation scaling with 4-person team, in silico-to-clinical translation gap, brand disambiguation with similarly named companies, well-funded adjacent competitors and Google DeepMind |
+| Founder Reach | Yash Rathod: Twitter @YashRathod_75 ~576 followers, LinkedIn linkedin.com/in/yrraadi/. Malhar Bhide: Twitter not found, LinkedIn linkedin.com/in/malhar-bhide-1a454b303/. Company: Twitter @origin_bio (count not retrievable) |
+| Distribution Signals | No Product Hunt listing found. No app store presence (B2B biotech). Free API for researchers (origin.bio). |
+| Emails | yash@origin.bio, hiring@origin.bio |

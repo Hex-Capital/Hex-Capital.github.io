@@ -10,105 +10,103 @@
 | Industry | B2B / B2B |
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
-| Tags | Developer Tools, B2B, AI |
+| Tags | Artificial Intelligence, Developer Tools, B2B |
+| YC Partner | Gustaf Alstromer |
+| Emails | alisa@lucenthq.com (raealisa.com) |
 
 ## The Idea
 
-**Problem:** Software teams record thousands of user sessions via session replay tools (e.g., LogRocket, FullStory, Sentry), but lack the bandwidth to manually watch them. Bugs, UX friction, and silent errors go undetected because no one reviews the recordings. The customer segment is engineering and product teams at companies already using session replay infrastructure. Today, teams rely on manual QA, user-reported bug tickets, automated error monitoring (which misses UX-level issues), or occasional session replay spot-checks.
+**Problem:** Software teams record thousands of user sessions via tools like FullStory, LogRocket, and PostHog, but lack the bandwidth to review them manually. Bugs, UX friction, and silent errors go undetected because no one watches the replays. The current workflow depends on users reporting issues or engineers proactively triaging session recordings — both are incomplete and reactive.
 
-**Approach:** Lucent uses AI to automatically watch recorded user sessions, identify bugs and UX issues, and alert engineering teams when problems are detected. The mechanism sits on top of existing session replay data—rather than replacing the recording layer, Lucent acts as an AI-powered analysis layer that processes replays and surfaces issues that would otherwise require human review. The YC page description states: "You're recording thousands of sessions but nobody's watching them. Lucent does — catching silent issues breaking your product that you'd otherwise never know about" (YC company page).
+**Approach:** Lucent uses AI to automatically watch session replays and alert teams when users hit bugs or UX issues. Rather than requiring manual review, the system monitors sessions programmatically and surfaces problems that would otherwise go unnoticed. The product integrates with existing session replay infrastructure (the founder's GitHub account includes a fork of rrweb, the open-source session recording library) (GitHub, wu-alisa profile via search snippet).
 
-**Differentiation:** Existing session replay platforms (LogRocket, FullStory, Sentry) primarily record and present sessions for human review, with limited automated detection (e.g., rage clicks, error events). Lucent's differentiation is continuous, AI-driven watching of all sessions rather than rule-based flagging of specific events. Sentry has launched "Replay AI Summaries" for session overviews (Sentry docs), but this summarizes individual sessions rather than proactively scanning all sessions for bugs. Quantum Metric introduced "Felix AI" for session summarization using Gemini 1.5 Pro (Quantum Metric press release, 2024), which is an adjacent feature but embedded within a larger enterprise analytics platform. Zipy offers AI-powered debugging but is primarily an error monitoring tool rather than a session-watching AI.
+**Differentiation:** Existing session replay tools (FullStory, LogRocket, PostHog, Sentry) focus on *recording and storing* sessions, with manual review or rule-based alerting. Lucent's differentiation is the AI analysis layer that sits on top of session recordings and proactively identifies issues without human review. Sentry pairs error monitoring with session replay but requires known error signatures to trigger. LogRocket offers some automated issue detection but as part of a broader platform. Lucent positions as a purpose-built AI watcher rather than a full-stack analytics/monitoring platform.
 
-**Business Model:** No public pricing page was accessible at time of research (website requires JavaScript to render). [Inferred]: Most likely monetization path is a SaaS subscription model, potentially tiered by session volume or number of monitored apps, consistent with the session replay / developer tools market.
+**Business Model:** No public pricing page found. The website renders client-side and did not display pricing details at time of research. [Inferred]: Most likely monetization path is a SaaS subscription tiered by session volume or number of monitored applications, consistent with session replay industry pricing norms (e.g., Datadog charges $2.50 per 1,000 sessions (Rollbar blog, 2026 via search snippet)).
 
-**TAM/SAM:** The session replay software market has widely varying estimates across research firms. One estimate values it at $342.13M in 2025, projected to reach $744.27M by 2031 at 13.83% CAGR (Data Insights Market via search snippet). Another estimates $1.2B in 2024, projected to reach $3.5B by 2033 at 12.5% CAGR (Credence Research via search snippet). The variation ($267M to $1.2B for similar periods) reflects different market scope definitions. Lucent's specific sub-segment—AI-powered session analysis layered atop existing replay tools—is a subset of this broader market. No public SAM estimate specific to Lucent's segment was found.
+**TAM/SAM:** The global session replay software market was valued at approximately $267M–$502M in 2025, with projections ranging from $744M by 2031 at 13.83% CAGR (Cognitive Market Research via search snippet) to $1.7B by 2035 (GII Research via search snippet). The wide range reflects differing market definitions across research firms. Lucent's SAM would be narrower — limited to teams that already record sessions but lack automated analysis — though no public SAM estimate specific to AI-augmented session analysis exists.
 
-**GTM / Distribution:** [Inferred]: Most likely distribution path is product-led growth targeting engineering and product teams that already use session replay tools (LogRocket, Sentry, FullStory, etc.), integrating with those platforms as a complementary layer. The founder's background at Atlassian (working on editors used across Jira, Bitbucket, Confluence) provides familiarity with developer tooling distribution. The YC W26 batch provides Demo Day exposure to potential early customers and investors.
+**GTM / Distribution:** [Inferred]: Most likely distribution path is product-led growth targeting engineering and product teams already using session replay tools, with integration into existing recording infrastructure (FullStory, PostHog, etc.) as a complementary layer. The YC W26 batch provides a launch platform and warm introductions to potential enterprise design partners.
 
 ## Defensibility
 
-Lucent is at an early stage with limited public evidence of defensibility moats. Potential moat signals include:
+**Data advantage (potential, not yet established):** As Lucent processes more session replays across diverse applications, it could build a proprietary dataset of bug patterns and UX failure modes that improves detection accuracy over time. This advantage does not exist today at pre-seed stage.
 
-- **Data flywheel potential:** As Lucent processes more session replays, the AI model could improve at identifying bugs across different product types, creating a data advantage over time. This is not yet proven.
-- **Switching costs:** If Lucent integrates deeply into engineering workflows (alerting, ticketing, CI/CD), switching costs could develop, but this is speculative at the current stage.
+**Market structure:** Session replay incumbents (FullStory, LogRocket, Amplitude) have invested heavily in recording, storage, and analytics infrastructure. Adding an AI analysis layer that proactively watches all sessions would require these incumbents to build and train specialized models — a product extension that could cannibalize their existing "review sessions yourself" workflow and upsell motion for analytics seats. Sentry, focused on error monitoring, has the closest adjacency but its session replay is an add-on to error-first workflows, not a standalone AI watcher. [Inferred]: The structural barrier is that incumbents' business models monetize session volume and analytics seats, and an automated "watcher" that reduces the need for human review could undermine their per-seat upsell.
 
-No defensibility signals found in public sources beyond the above potential mechanisms. [Inferred]: A defensibility moat could develop via accumulated training data across diverse customer sessions improving detection accuracy, but this is unproven at this stage.
-
-**Market structure:** The large session replay incumbents (FullStory, LogRocket, Quantum Metric) are primarily analytics and recording platforms. [Inferred]: A structural barrier may exist in that incumbents' business models are optimized around human-driven review workflows—adding fully automated AI bug detection could cannibalize the value proposition of their existing session replay UIs (where engagement time drives perceived value). However, Sentry and Quantum Metric have both begun adding AI summarization features, suggesting incumbents are moving in this direction. No strong structural barrier identified at this stage.
-
-**Commoditization risk:** The core capability—applying LLMs to analyze session replay data—is technically reproducible. Session replay incumbents (Sentry, FullStory, LogRocket, Quantum Metric) have the session data, engineering resources, and customer relationships to build equivalent features. Sentry has already shipped Replay AI Summaries (Sentry docs). Quantum Metric has shipped Felix AI session summarization (Quantum Metric press release, 2024). The barrier to entry is low from a pure technical standpoint; the differentiator would need to be detection quality and coverage.
+**Commoditization risk:** The core concept — applying LLMs or vision models to session recordings — is technically reproducible. Any session replay vendor could add AI analysis as a feature. Open-source tools like PostHog could integrate similar functionality. The barrier to entry is moderate: the technical challenge lies in reliably identifying bugs from visual/DOM replay data at scale, but this is an application of broadly available AI capabilities rather than a proprietary breakthrough.
 
 ## Market & Traction
 
 **Traction signals:**
+- Pre-seed funding: US$1.3M (A$2M), raised in 36 hours (Startup Daily, October 9, 2025; LinkedIn post by Alisa Wu via search snippet)
+- Investors: Horizon, Browder Capital, Long Journey Ventures, Weekend Fund, Firestreak Ventures (Women's Agenda, October 2025 via search snippet)
+- Y Combinator Winter 2026 batch (YC company page)
+- Company Twitter/X: @lucent_ai (YC page) — follower count not retrievable
+- Founder Twitter/X: @RaeAlisa_ — 6,292 followers (X.com via search snippet)
+- Company LinkedIn: linkedin.com/company/lucenthq — follower count not retrievable
+- No Product Hunt launch found for Lucent (the bug detection product)
+- No public user counts, revenue, or customer metrics found
+- No Discord/Slack community found
+- Website rendered client-side; no traction metrics visible at time of research
 
-- Pre-seed funding: US$1.3M (AU$2M), oversubscribed, closed in 36 hours. Investors: Horizon, Browder Capital, Long Journey Ventures, Weekend Fund, Firestreak Ventures (Women's Agenda, Oct 2025; LinkedIn post by Alisa Wu).
-- YC W26 acceptance (YC company page).
-- Company LinkedIn page exists at linkedin.com/company/lucenthq (search result). Follower count not retrieved.
-- Founder Twitter/X: @raealisa_ (personal website). Follower count not retrievable due to JavaScript rendering.
-- No public user counts, revenue figures, customer names, or Product Hunt launches found for Lucent (the session replay product).
-- Website not fully accessible at time of research (requires JavaScript).
-
-**Product pivot note:** Lucent was initially described as "building the data layer for the next generation of browser agents"—collecting browser interaction data to train AI agents for tasks like form-filling and flight booking (Startup Daily, Oct 2025; Weekday.works profile). By the time of YC W26 (Jan 2026), the company description had shifted to "AI that automatically watches your session replays to detect bugs" (YC company page). Prior-product traction (if any) should not be conflated with current-product traction. The pre-seed funding (Oct 2025) was raised under the prior browser agent data product.
+**Product pivot note:** The October 2025 pre-seed fundraise described Lucent as building "behavioural datasets for browser agents" to address "one of AI's biggest bottlenecks: training data for browser agents" (Women's Agenda, October 2025; Startup Daily, October 2025). The current YC W26 product is "AI that automatically watches your session replays to detect bugs" (YC company page). These are different product concepts. It is unclear when the pivot occurred, but the session replay bug detection product is the current focus as of the W26 batch. Prior-product traction (the 36-hour fundraise) was raised for the browser agent dataset concept.
 
 **Competitive landscape:**
 
-1. **LogRocket** — $55M raised (Series C, Jun 2022), $111M revenue in 2024 (GetLatka via search snippet). Session replay + error tracking + product analytics platform for developers. Key differentiator vs. Lucent: LogRocket is a full recording + analytics platform; Lucent positions as an AI analysis layer that watches replays rather than recording them.
+1. **FullStory** — $196M total raised, $1.8B valuation (Series D, August 2021) (PR Newswire, 2021), $93M revenue in 2024 (Getlatka via search snippet). Full-stack digital experience analytics with session replay. Differentiator vs. Lucent: comprehensive analytics platform with heatmaps, conversion funnels, and product analytics; does not offer automated AI-driven bug detection from replays.
 
-2. **FullStory** — $196M raised (Series D at $1.8B valuation, Aug 2021; TechCrunch), $93M revenue in 2024 (GetLatka via search snippet). Session replay + heatmaps + UX analytics. Key differentiator vs. Lucent: FullStory emphasizes UX analytics and heatmaps for product/design teams; Lucent focuses on automated bug detection for engineering teams.
+2. **Sentry** — $217M total raised, $3B valuation (Series E, 2025), $100M revenue in December 2024 (Getlatka via search snippet; SalesTools AI via search snippet). Error monitoring platform with session replay as an add-on. Differentiator vs. Lucent: error-first approach requiring known error signatures; session replay is supplementary context for debugging rather than an automated watcher.
 
-3. **Sentry** — $217M raised (Series E, May 2022), $100M+ revenue in 2024 (GetLatka via search snippet), 90K+ organizations, 4M developers (Sentry press release). Error monitoring + performance monitoring + session replay. Key differentiator vs. Lucent: Sentry's core is error monitoring with session replay as an add-on; Sentry has begun adding AI summarization (Replay AI Summaries) as a direct competing feature.
+3. **LogRocket** — $55M total raised (Series C) (Tracxn via search snippet). Revenue unknown. Session replay with developer-focused debugging tools. Differentiator vs. Lucent: broader developer tooling (console/network capture, performance monitoring); some automated issue detection but not positioned as an AI watcher.
 
-4. **Zipy** — $2.8M seed (VentureBeat, 2023). AI-powered session replay + error tracking + debugging. Key differentiator vs. Lucent: Zipy combines replay, error tracking, and AI debugging into one integrated platform; Lucent focuses on watching replays to detect bugs rather than providing a full debugging suite.
+4. **PostHog** — ~$182M total raised, $1.4B valuation (Series E, October 2025), ~$9.5M ARR (Sacra via search snippet). Open-source product analytics with session replay, feature flags, experiments, and error tracking. Differentiator vs. Lucent: open-source, self-hostable, all-in-one platform; session replay is one module among many.
 
-5. **Quantum Metric** — $252M raised, $100M ARR (Quantum Metric press release). Enterprise-focused digital analytics with session replay. Key differentiator vs. Lucent: Enterprise-oriented with broader analytics (heatmaps, custom KPIs, conversion metrics); Lucent targets developer workflows specifically. Quantum Metric has shipped Felix AI for session summarization using Gemini 1.5 Pro.
+5. **Highlight.io** (YC W23) — $8.5M raised (Seed, August 2023); acquired by LaunchDarkly in April 2025 (Tracxn via search snippet). Open-source full-stack monitoring with session replay and error monitoring. Differentiator vs. Lucent: full-stack observability focus; now part of LaunchDarkly's feature management platform.
 
-6. **Highlight.io** — $8M seed (VentureBeat, Aug 2023), YC W23, open-source session replay + error monitoring. Acquired by LaunchDarkly in December 2025 (LaunchDarkly blog). Key differentiator vs. Lucent: Open-source, full-stack observability; now part of LaunchDarkly's feature management platform.
-
-**Why now:** [Inferred]: The specific catalyst is the rapid improvement in multimodal AI models (GPT-4V, Claude vision, Gemini) that can now process visual session replay data at sufficient quality and speed to detect bugs programmatically. Prior to 2024, AI models lacked the visual understanding capability to reliably interpret session replays. Simultaneously, the volume of recorded sessions has grown as session replay tools have become standard in product development stacks, widening the gap between data collected and data reviewed. The founder has publicly emphasized using AI coding tools (Claude Code) as a strategic advantage for lean teams (Capital Brief), suggesting alignment with the broader trend of AI amplifying small team capabilities.
+**Why now:** [Inferred]: Two enabling changes in the last 12–24 months: (1) Multimodal AI models (GPT-4V, Claude vision) crossed a performance threshold that makes automated visual analysis of session recordings technically feasible at useful accuracy levels. Prior to 2024, automated analysis of session replays was limited to rule-based heuristics (e.g., rage clicks, error console logs). (2) Session replay adoption has expanded significantly — tools like PostHog, Sentry, and FullStory have made recording standard practice, creating a large volume of unwatched sessions that represent the problem Lucent addresses.
 
 ## Founders & Team
 
-**Alisa Rae (née Alisa Wu)** — Solo Founder & CEO
-- Age 22 (as of Oct 2025), originally from Sydney, Australia (Women's Agenda, Oct 2025)
-- Education: Mathematics and Computer Science (university not specified in public sources) (Weekday.works profile via search snippet)
-- **Stella AI** (co-founder with Simran Nandan): AI tutoring platform for HSC students, built from Wu's experience as a private tutor. Partnered with ASX-listed education companies via API. Exited late 2024 after approximately nine months (Women's Agenda, Oct 2025)
-- **MagicBrief** (founding engineer, employee #2): AI ad platform, subsequently acquired by Canva (YC page; Women's Agenda)
-- **Atlassian** (software engineer, Jan 2024–Feb 2025): Worked on the rich text editor used across Jira, Bitbucket, and Confluence (Weekday.works profile)
-- Initially rejected from YC as a solo founder; reapplied and accepted to W26 after raising capital and hiring a founding engineer (Capital Brief)
-- Twitter/X: @raealisa_ — follower count not retrievable (JavaScript-rendered page)
-- LinkedIn: linkedin.com/in/wualisa — "Founder Stella AI (acquired) | Ex-Atlassian, Magicbrief" (LinkedIn search result)
-- GitHub: github.com/raealisa — 1 public repo, activity set to private (GitHub profile)
-- Personal website: raealisa.com
+**Alisa Wu (also known as Alisa Rae)** — Founder & CEO
+- Age 22 (as of October 2025) (Women's Agenda, October 2025)
+- Originally from Sydney, Australia; relocated to San Francisco
+- Founding engineer at MagicBrief, an AI ad platform acquired by Canva (June 2025) (Canva newsroom)
+- Co-founded Stella AI (with Simran Nandan), an AI-powered HSC tutoring platform. Built and exited within ~9 months; acquired by an NSW-based education company in late 2024 (Women's Agenda, October 2025)
+- Intern at Atlassian (YC company page)
+- Previously worked as a private HSC tutor (Women's Agenda, October 2025)
+- Twitter/X: @RaeAlisa_ — 6,292 followers (X.com via search snippet); also @AlisaRaeWu — 4,596 followers (X.com via search snippet)
+- LinkedIn: linkedin.com/in/wualisa/ — "Founder Stella AI (acquired) | Ex-Atlassian, Magicbrief | Something new" (LinkedIn via search snippet)
+- GitHub: github.com/wu-alisa — 2 public repos including forks of trpc and rrweb (GitHub via search snippet); also @raealisa per personal site (raealisa.com)
 
-**Founding Engineer** — Name not publicly disclosed. Hired after the pre-seed round closed (Capital Brief; Women's Agenda). The team size of 2 on the YC page is consistent with this.
+**Second team member** — The YC page lists team size as 2, and press coverage references Alisa onboarding "a founding engineer" (Women's Agenda, October 2025). The founding engineer's name is not publicly listed on the YC page or in press coverage found.
 
-**Co-founder relationship:** No co-founder; Alisa Rae is a solo founder who subsequently hired a founding engineer.
+**Co-founder relationship:** Not applicable — Alisa Wu is the sole listed founder. The second team member appears to be a founding engineer, not a co-founder.
 
-**Founder-market fit:** Alisa Rae's background at Atlassian working on the rich text editor powering Jira, Bitbucket, and Confluence provides direct experience with large-scale developer tooling and the challenges of shipping software used by millions of developers. Her founding engineer experience at MagicBrief (pre-Canva acquisition) and her own exit with Stella AI demonstrate the ability to build and ship products. Her public statements about using AI coding tools (Claude Code) as a force multiplier (Capital Brief) align with the product vision of using AI to automate manual review processes. YC partner Gustaf Alstromer is listed as the primary partner (YC page).
+**Founder-market fit:** Wu has direct experience building and shipping products that interact with user behavior data. As a founding engineer at MagicBrief (acquired by Canva), she built software that analyzed creative ad performance. Her fork of rrweb (the open-source session recording library) on GitHub suggests hands-on familiarity with session replay technology. Her prior exit of Stella AI within nine months demonstrates speed of execution. She was described as using ChatGPT as her "Chief Technology Officer" during fundraising (Startupro News via search snippet), which signals comfort with AI-augmented development workflows but also raises questions about depth of in-house technical capability.
 
 ## Key Risks
 
-**Incumbent feature absorption:** Sentry has already shipped Replay AI Summaries, and Quantum Metric has launched Felix AI for session summarization. FullStory and LogRocket have the session data, engineering resources, and customer relationships to ship similar features as product extensions rather than standalone products. Lucent's core capability could be subsumed as a feature within existing platforms. Mitigation: Lucent could differentiate through superior detection quality or broader integration across multiple replay providers.
+**Product pivot uncertainty:** The company raised its pre-seed (October 2025) for a different product — "behavioural datasets for browser agents" (Startup Daily, October 2025; Women's Agenda, October 2025). The current product (AI session replay bug detection) is a different concept. The pivot timeline is unclear, and the current product's market validation is nascent. Investors from the pre-seed round funded a different thesis.
 
-**Product pivot recency:** Lucent pivoted from browser agent training data to AI-powered session replay bug detection between the pre-seed raise (Oct 2025) and YC W26 entry (Jan 2026). The current product direction is approximately 3-4 months old. The pre-seed capital was raised under the prior product thesis, meaning investor thesis alignment may need revalidation. Mitigation: YC acceptance under the new product direction suggests validation of the pivot.
+**Solo technical founder with generalist background:** The sole listed founder is a founding engineer with one prior exit (an edtech tutoring app built in ~9 months) and an Atlassian internship, but no public record of deep ML/AI research or computer vision expertise. The core product requires sophisticated AI analysis of session replays (visual, DOM, and behavioral data). The second team member (founding engineer) is unnamed and their background is unknown, making it difficult to assess the team's technical depth for this specific problem.
 
-**Brand disambiguation:** "Lucent" is a common English word and the name of the former telecommunications company Lucent Technologies (now part of Nokia). Search results return significant noise from unrelated entities. This creates challenges for SEO, brand recognition, and investor/customer discovery. The company uses "lucenthq.com" as a domain rather than "lucent.com."
+**Incumbent feature risk:** Every major session replay vendor (FullStory, LogRocket, Sentry, PostHog) has the data, the customer base, and the engineering capacity to add AI-powered automated session analysis as a feature. Sentry's $100M revenue and $3B valuation (SalesTools AI, 2025 via search snippet) gives it substantial resources; PostHog's open-source community could develop similar functionality organically. Lucent's value proposition is a feature that incumbents could ship as an update.
 
-**Solo founder with early-career profile:** Alisa Rae is a solo founder at 22 with approximately 3 years of professional experience. While she has a prior exit (Stella AI) and founding engineer experience (MagicBrief/Canva), the combination of solo founding and early career stage concentrates key-person risk. The founding engineer hire partially mitigates this.
+**Brand disambiguation:** "Lucent" is a highly overloaded name — shared with Lucent Technologies (defunct telecom), Lucent AI (risk management startup acquired by osapiens in 2025) (ESG Today via search snippet), Lucent Chat (AI video tool on Product Hunt), Lucent Venture Partners, Lucent Health, Lucent Innovation, and Lucent Network (Web3). This creates SEO, brand recognition, and customer confusion challenges.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $342M–$1.2B session replay software market in 2024–2025, growing at 10–14% CAGR depending on source (Data Insights Market; Credence Research via search snippets). Estimates vary widely by scope definition. |
-| SAM | No public data found |
-| Traction | US$1.3M (AU$2M) pre-seed closed in 36 hours, oversubscribed (Women's Agenda, Oct 2025). YC W26 acceptance. No public user counts or revenue data found for current product. |
+| TAM | Session replay software market: ~$267M–$502M in 2025, projected $744M by 2031 at 13.83% CAGR (Cognitive Market Research via search snippet) |
+| SAM | No public data found for AI-augmented session analysis specifically |
+| Traction | YC W26 batch; US$1.3M (A$2M) pre-seed raised in 36 hours (Startup Daily, Oct 2025). No public user counts or customer metrics found. |
 | Revenue Signal | No public data found |
-| Founders | Alisa Rae (Solo Founder & CEO): Math & CS degree, ex-Atlassian SWE, founding engineer at MagicBrief (acq. by Canva), founder Stella AI (acquired late 2024). |
-| Competitors | LogRocket ($55M raised, $111M rev 2024, full-stack replay + analytics vs. Lucent's AI analysis layer); FullStory ($196M raised, $93M rev 2024, UX analytics focus vs. Lucent's bug detection focus); Sentry ($217M raised, $100M+ rev 2024, error monitoring core with Replay AI Summaries as competing feature); Zipy ($2.8M raised, revenue unknown, integrated AI debugging suite); Quantum Metric ($252M raised, $100M ARR, enterprise analytics with Felix AI summarization) |
-| Moat Signals | No public data found. Potential data flywheel from processing diverse session replays (unproven). |
-| Risk Factors | Incumbent feature absorption (Sentry/Quantum Metric already shipping AI session features), product pivot recency (~3-4 months on current direction), brand disambiguation ("Lucent" name collision) |
-| Founder Reach | Alisa Rae: Twitter @raealisa_ (count not retrievable), LinkedIn linkedin.com/in/wualisa, GitHub github.com/raealisa (1 public repo, activity private) |
-| Distribution Signals | No public data found (no Product Hunt launch, no Chrome extension, no app store presence identified for current product) |
+| Founders | Alisa Wu (Founder & CEO): Prior exit (Stella AI, acquired 2024), founding engineer at MagicBrief (acquired by Canva), Atlassian intern. Second team member (founding engineer): name and background not public. |
+| Competitors | FullStory ($196M raised, $93M revenue 2024, full-stack digital experience platform); Sentry ($217M raised, $100M revenue Dec 2024, error monitoring + session replay); LogRocket ($55M raised, revenue unknown, developer-focused session replay + debugging); PostHog ($182M raised, ~$9.5M ARR, open-source all-in-one product analytics); Highlight.io ($8.5M raised, acquired by LaunchDarkly Apr 2025, open-source monitoring) |
+| Moat Signals | No public data found. [Inferred]: Potential data moat from processing diverse session replays across customers, but unproven at this stage. |
+| Risk Factors | Product pivot from browser agent datasets to session replay bug detection; solo non-specialist founder for AI/ML-heavy product; incumbent feature risk from FullStory/Sentry/PostHog |
+| Founder Reach | Alisa Wu: Twitter @RaeAlisa_ 6.3k followers, LinkedIn /in/wualisa/, GitHub wu-alisa 2 public repos |
+| Distribution Signals | No Product Hunt launch found. No app store or extension installs found. No community (Discord/Slack) found. |
+| Emails | alisa@lucenthq.com (raealisa.com) |

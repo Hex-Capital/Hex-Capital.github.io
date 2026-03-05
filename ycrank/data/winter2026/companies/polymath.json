@@ -1,7 +1,7 @@
 {
   "slug": "polymath",
   "name": "Polymath",
-  "oneLiner": "Long-horizon RL",
+  "oneLiner": "Automating RL environment generation",
   "metadata": {
     "website": "https://polymathlabs.ai/",
     "yc_page": "https://www.ycombinator.com/companies/polymath",
@@ -9,23 +9,26 @@
     "industry": "B2B / B2B",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Artificial Intelligence, B2B, Big Data, AI"
+    "tags": "Reinforcement Learning, B2B, Big Data, Infrastructure, AI",
+    "yc_partner": "Ankit Gupta",
+    "emails": "founders@polymathlabs.ai"
   },
   "tags": [
-    "Artificial Intelligence",
+    "Reinforcement Learning",
     "B2B",
     "Big Data",
+    "Infrastructure",
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T19:22:02.809Z",
+  "memoGeneratedAt": "2026-03-05T07:07:23.127Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 27,
+      "score": 31,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 39,
+      "score": 43,
       "tier": "Pass"
     },
     "naval-ravikant": {
@@ -33,33 +36,33 @@
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 41,
+      "score": 43,
       "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 31,
+      "score": 29,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 28,
+      "score": 27,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 46,
+      "score": 48,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 27,
-    "EG": 39,
+    "CB": 31,
+    "EG": 43,
     "NR": 43,
-    "PG": 41,
-    "PT": 31,
-    "SL": 28,
-    "VK": 46
+    "PG": 43,
+    "PT": 29,
+    "SL": 27,
+    "VK": 48
   },
-  "consolidatedAvg": 36.43,
-  "consolidatedRank": 126,
+  "consolidatedAvg": 37.71,
+  "consolidatedRank": 120,
   "paths": {
     "memo": "winter2026/memos/polymath.md",
     "evals": {

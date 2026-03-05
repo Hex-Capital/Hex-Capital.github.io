@@ -1,7 +1,7 @@
 {
   "slug": "sentrial",
   "name": "Sentrial",
-  "oneLiner": "Production Monitoring for AI Products",
+  "oneLiner": "Production Monitoring for AI Agents",
   "metadata": {
     "website": "https://sentrial.com/",
     "yc_page": "https://www.ycombinator.com/companies/sentrial",
@@ -9,31 +9,33 @@
     "industry": "B2B / B2B -> Engineering, Product and Design",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "AIOps, Artificial Intelligence, Developer Tools, B2B"
+    "tags": "AIOps, Developer Tools, B2B, AI",
+    "yc_partner": "Ankit Gupta",
+    "emails": "neel@sentrial.com, anay@sentrial.com (YC company page)"
   },
   "tags": [
     "AIOps",
-    "Artificial Intelligence",
     "Developer Tools",
-    "B2B"
+    "B2B",
+    "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T06:14:58.138Z",
+  "memoGeneratedAt": "2026-03-05T07:11:06.016Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 22,
+      "score": 24,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 29,
+      "score": 35,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 38,
+      "score": 33,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 33,
+      "score": 40,
       "tier": "Pass"
     },
     "peter-thiel": {
@@ -41,7 +43,7 @@
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 20,
+      "score": 21,
       "tier": "Strong Pass"
     },
     "vinod-khosla": {
@@ -50,16 +52,16 @@
     }
   },
   "consolidatedScores": {
-    "CB": 22,
-    "EG": 29,
-    "NR": 38,
-    "PG": 33,
+    "CB": 24,
+    "EG": 35,
+    "NR": 33,
+    "PG": 40,
     "PT": 24,
-    "SL": 20,
+    "SL": 21,
     "VK": 30
   },
-  "consolidatedAvg": 28,
-  "consolidatedRank": 188,
+  "consolidatedAvg": 29.57,
+  "consolidatedRank": 185,
   "paths": {
     "memo": "winter2026/memos/sentrial.md",
     "evals": {

@@ -9,7 +9,9 @@
     "industry": "B2B / B2B -> Human Resources",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Artificial Intelligence, Developer Tools, SaaS, Data Engineering, DevOps"
+    "tags": "Artificial Intelligence, Developer Tools, SaaS, Data Engineering, DevOps",
+    "yc_partner": "Harshita Arora",
+    "emails": "founders@ashr.io"
   },
   "tags": [
     "Artificial Intelligence",
@@ -19,48 +21,48 @@
     "DevOps"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T19:22:13.292Z",
+  "memoGeneratedAt": "2026-03-05T07:09:15.330Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 24,
+      "score": 27,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 32,
+      "score": 38,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 32,
+      "score": 38,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 34,
-      "tier": "Pass"
+      "score": 45,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 20,
+      "score": 25,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 20,
-      "tier": "Strong Pass"
+      "score": 23,
+      "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 27,
+      "score": 34,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 24,
-    "EG": 32,
-    "NR": 32,
-    "PG": 34,
-    "PT": 20,
-    "SL": 20,
-    "VK": 27
+    "CB": 27,
+    "EG": 38,
+    "NR": 38,
+    "PG": 45,
+    "PT": 25,
+    "SL": 23,
+    "VK": 34
   },
-  "consolidatedAvg": 27,
-  "consolidatedRank": 192,
+  "consolidatedAvg": 32.86,
+  "consolidatedRank": 160,
   "paths": {
     "memo": "winter2026/memos/ashr.md",
     "evals": {

@@ -9,7 +9,9 @@
     "industry": "Healthcare / Healthcare",
     "team_size": "2",
     "location": "New York, NY, USA",
-    "tags": "Health Tech, Primary Care, AI"
+    "tags": "Health Tech, Primary Care, AI",
+    "yc_partner": "Diana Hu",
+    "emails": "mark@beaconhealth.ai"
   },
   "tags": [
     "Health Tech",
@@ -17,48 +19,48 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T19:25:36.344Z",
+  "memoGeneratedAt": "2026-03-05T07:11:05.781Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 45,
-      "tier": "Neutral"
+      "score": 43,
+      "tier": "Pass"
     },
     "elad-gil": {
-      "score": 45,
+      "score": 51,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 45,
+      "score": 47,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 57,
+      "score": 63,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 29,
+      "score": 32,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 27,
+      "score": 33,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 41,
-      "tier": "Pass"
+      "score": 45,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 45,
-    "EG": 45,
-    "NR": 45,
-    "PG": 57,
-    "PT": 29,
-    "SL": 27,
-    "VK": 41
+    "CB": 43,
+    "EG": 51,
+    "NR": 47,
+    "PG": 63,
+    "PT": 32,
+    "SL": 33,
+    "VK": 45
   },
-  "consolidatedAvg": 41.29,
-  "consolidatedRank": 80,
+  "consolidatedAvg": 44.86,
+  "consolidatedRank": 57,
   "paths": {
     "memo": "winter2026/memos/beacon-health.md",
     "evals": {

@@ -9,7 +9,9 @@
     "industry": "B2B / B2B",
     "team_size": "3",
     "location": "San Francisco, CA, USA",
-    "tags": "SaaS, B2B, Biotech, Enterprise Software, AI"
+    "tags": "SaaS, B2B, Biotech, Enterprise Software, AI",
+    "yc_partner": "Jon Xu",
+    "emails": "dsroberts@stanford.edu (founder academic email, Bertozzi Group page); no official company email found"
   },
   "tags": [
     "SaaS",
@@ -19,47 +21,47 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T06:15:48.191Z",
+  "memoGeneratedAt": "2026-03-05T07:13:56.242Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 59,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 68,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 56,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
       "score": 40,
       "tier": "Pass"
     },
+    "elad-gil": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 73,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 61,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 38,
+      "tier": "Pass"
+    },
     "vinod-khosla": {
-      "score": 50,
+      "score": 52,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 44,
-    "EG": 59,
-    "NR": 68,
-    "PG": 56,
-    "PT": 48,
-    "SL": 40,
-    "VK": 50
+    "CB": 40,
+    "EG": 58,
+    "NR": 73,
+    "PG": 61,
+    "PT": 45,
+    "SL": 38,
+    "VK": 52
   },
-  "consolidatedAvg": 52.14,
+  "consolidatedAvg": 52.43,
   "consolidatedRank": 23,
   "paths": {
     "memo": "winter2026/memos/10x-science.md",

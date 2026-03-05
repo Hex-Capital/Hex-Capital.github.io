@@ -11,95 +11,121 @@
 | Team Size | 3 |
 | Location | San Francisco, CA, USA; Remote |
 | Tags | Robotics, Data Labeling, AI |
+| YC Partner | Brad Flora |
+| Emails | No public data found |
 
 ## The Idea
 
-**Problem:** Frontier robotics labs building humanoid robots and embodied AI systems face a severe training data bottleneck. Language models scaled by ingesting internet text; vision models scaled via billions of web images. Robotics has no equivalent internet-scale data source. Current approaches rely on teleoperation in controlled lab environments, producing limited variety and volume. Meanwhile, 8 billion people generate hours of real-world physical activity daily, none of which is systematically captured for robot training (tryasimov.ai). Quality robot video data commands $100–$500 per hour depending on complexity, and demand is growing rapidly as companies like Tesla (Optimus), Figure AI, and Physical Intelligence scale humanoid programs (Quasa.io, 2026).
+**Problem:** Robotics AI suffers from a data scarcity bottleneck. Language models train on internet-scale text and vision models on billions of images, but robotics lacks equivalent volumes of real-world manipulation and motion data. Most robot training data today comes from small in-house teams teleoperating expensive robots ($40,000+ setups) in controlled lab environments, producing limited variety, slow throughput, and narrow domain coverage (company website; Sensei YC launch page). Frontier robotics labs—building humanoid robots, manipulation arms, and autonomous systems—need thousands of hours of diverse, annotated human motion data to train physical AI models, but cannot generate it internally at scale.
 
-**Approach:** Asimov deploys lightweight headband cameras to a distributed network of 5,000+ contributors in households, restaurants, hotels, and factories (YC company page). Contributors wear the device during daily activities and are paid $20/hr base, rising to $30/hr after 5 hours of collected data (tryasimov.ai; Ecosistema Startup). The company handles end-to-end pipeline: hardware distribution, data collection, quality assurance, and post-processing. Output is clean, annotated datasets with egocentric video, 3D body pose, depth maps, semantic labels, and activity segmentation — delivered ready for robot training (tryasimov.ai). Data is collected across 3 continents (tryasimov.ai). Privacy protections include no audio capture, automatic face blurring, and PII removal (tryasimov.ai).
+**Approach:** Asimov deploys lightweight headband-mounted cameras to a distributed network of 5,000+ contributors across households, restaurants, hotels, and factories on three continents (company website; YC company page). Contributors record themselves performing everyday tasks—cooking, cleaning, warehouse work—while wearing the hardware during normal activities. Asimov then processes this raw egocentric video into clean, annotated datasets with 3D body pose, depth maps, semantic labels, and activity segmentation (company website). The approach captures organic, unscripted human motion in diverse real-world environments rather than staged lab demonstrations.
 
-**Differentiation:** Compared to Sensei (YC S24), which uses a $300 sensorized exoskeleton arm for teleoperation data and focuses on robot manipulation demonstrations, Asimov collects organic egocentric human activity data from everyday environments — capturing how humans naturally interact with physical spaces rather than scripted robot demonstrations (YC company pages for both). Compared to Cortex AI (YC F25), which operates a similar workplace data marketplace, Asimov's contributor network (5,000+) appears larger, and its approach emphasizes household and consumer environments in addition to workplaces (YC company pages for both). Compared to Scale AI's Physical AI division, which collects data through contractors and an SF R&D lab (Scale AI blog, 2025), Asimov's distributed headband model is lower-cost per contributor and captures more diverse, organic human behavior rather than staged demonstrations.
+**Differentiation:** Asimov's model differs from competitors in three ways:
+- *vs. Sensei (YC S24):* Sensei uses sensorized exoskeleton arms for teleoperation-style data collection. Asimov captures egocentric video of natural human activity rather than robot-mediated demonstrations, producing data that reflects organic human motion patterns rather than constrained teleoperation.
+- *vs. micro1:* micro1 ships Ray-Ban glasses to contributors for similar crowdsourced capture but is expanding into robotics from an RLHF data labeling base. Asimov is purpose-built for robotics data from inception.
+- *vs. General Intuition:* General Intuition trains spatial reasoning models from 2 billion gaming videos/year. Asimov captures real-world physical interaction data rather than synthetic/gaming-derived data.
+- *vs. Scale AI:* Scale AI is a $16.4B+ data labeling platform extending into robotics. Asimov is a specialized, vertically focused marketplace rather than a horizontal data platform.
 
-**Business Model:** Asimov operates as a data marketplace supplying frontier robotics labs. The company charges robotics customers for annotated datasets. For businesses hosting data collection, Asimov offers revenue sharing and covers worker salaries during recording (tryasimov.ai). Contributor compensation is $20–$30/hr (tryasimov.ai; YC job listing). No public pricing page for data customers was found. [Inferred]: Revenue model is likely per-hour or per-dataset pricing to robotics labs, with margins between contributor costs ($20–$30/hr) and data sale prices (market rate $100–$500/hr per Quasa.io estimates).
+**Business Model:** Asimov operates a three-sided marketplace:
+1. *Robotics teams* purchase clean, annotated datasets ready for model training.
+2. *Individual contributors* earn money by recording daily activities wearing Asimov hardware (privacy protections: no audio, faces auto-blurred, PII removed).
+3. *Businesses* (hotels, restaurants, factories) pay worker salaries while workers wear recording equipment during normal operations; larger partnerships include revenue sharing (company website).
 
-**TAM/SAM:** The global Embodied AI Data market was valued at $753 million in 2024 and is projected to reach $6.75 billion by 2031 at a 36.8% CAGR (QY Research, 2025 via search snippet). The broader embodied AI market is estimated at $4.44 billion in 2025 and projected to reach $23.06 billion by 2030 at a 39.0% CAGR (MarketsandMarkets, 2025 via search snippet). The AI training dataset market overall was $3.2 billion in 2025, projected to reach $16.3 billion by 2033 at 22.6% CAGR (Grand View Research, 2025 via search snippet).
+No public pricing page was found. [Inferred]: Most likely monetization is per-hour or per-task dataset pricing to robotics teams, with a take rate on the contributor payment side, similar to how Scale AI charges per annotation task.
 
-**GTM / Distribution:** The company is hiring Data Collection Specialists at $20–$30/hr (remote, open to new grads) through its YC job listing, indicating active scaling of its contributor network. The company describes its customers as "frontier robotics labs" (YC company page). [Inferred]: Most likely distribution path is direct sales to well-funded robotics companies (e.g., Figure AI, Physical Intelligence, 1X Technologies) that have raised hundreds of millions and need large-scale training data. YC network provides warm introductions to robotics-focused portfolio companies and their investors.
+**TAM/SAM:** The global AI training dataset market was valued at $3,195.1 million in 2025 and is projected to reach $16,320 million by 2033 at a 22.6% CAGR (Grand View Research, 2025 via search snippet). The data labeling market was estimated at $2.13 billion in 2025, projected to reach $6.98 billion by 2030 at a 26.76% CAGR (Mordor Intelligence, 2025 via search snippet). The downstream humanoid robot market was valued at $2.92 billion in 2025, projected to reach $15.26 billion by 2030 at a 39.2% CAGR (MarketsandMarkets, 2025 via search snippet). No public estimate exists for the robotics-specific training data sub-segment.
+
+**GTM / Distribution:** Job postings for "Data Collection Specialist" (Remote, $20-$30/hr) and "Strategic Operations Intern" (Berkeley/Remote US, $20-$50/hr) indicate active expansion of the contributor network and operational capacity (YC jobs page). [Inferred]: Primary distribution to robotics teams is likely through direct sales to frontier labs (the company states it is "trusted by frontier robotics teams"), with contributor acquisition via gig-economy-style recruitment across three continents.
 
 ## Defensibility
 
-**Data network effects:** Asimov's 5,000+ contributor network across 3 continents represents an early data supply-side advantage (YC company page, tryasimov.ai). As more data is collected from diverse environments and geographies, the dataset becomes more valuable to robotics customers who need variety in training data. Each new contributor adds marginal diversity (different homes, kitchens, workplaces, body types, cultural contexts), which in theory makes the dataset harder to replicate.
+**Data network effects:** The core defensibility mechanism is a growing, proprietary dataset of annotated human motion data from diverse environments. As more contributors record in more environments, the dataset becomes more valuable to robotics teams; as more robotics teams purchase data, Asimov can fund more contributor deployments. This flywheel effect strengthens over time but is nascent at this stage.
 
-**Market structure:** Scale AI ($29B valuation, $870M 2024 revenue per Sacra) has entered physical AI data collection (Scale AI blog, 2025). However, Scale's primary business and revenue engine remains LLM data labeling, and its robotics data operation uses contractors in an SF R&D lab and collection partners rather than a distributed consumer headband model. [Inferred]: Scale's cost structure is optimized for high-touch enterprise data operations, not the high-volume, low-cost distributed collection model Asimov uses. However, no structural barrier prevents Scale from replicating this approach if the market proves large enough.
+**Contributor network:** A 5,000+ contributor network across three continents creates a distribution and data collection asset that would take time to replicate (company website; YC page). The geographic and environmental diversity (households, restaurants, hotels, factories) adds value that lab-collected data cannot easily match.
 
-**Commoditization risk:** Multiple YC-backed startups (Cortex AI F25, Sensei S24) are pursuing adjacent approaches to robotics training data. The headband-based collection hardware does not appear to involve proprietary technology that is difficult to replicate. The key differentiator is the size and geographic diversity of the contributor network, which takes time but not deep technical moats to build. Scale AI's entry into the space with vastly greater resources represents a direct competitive threat.
+**Annotation pipeline:** Proprietary post-processing pipeline producing 3D body pose, depth maps, semantic labels, and activity segmentation represents accumulated technical infrastructure (company website).
+
+**Market structure:** Large incumbents like Scale AI ($16.4B+ raised) could enter this niche but face sales channel conflict: Scale's core business serves language and vision model companies, and building a physical contributor hardware network across three continents is operationally distinct from API-based annotation services. Robotics-native companies (Physical Intelligence, Skild AI, Covariant) build proprietary data flywheels from their own robot deployments, creating in-house datasets not available to the broader market—but this also means they are not marketplace competitors.
+
+**Commoditization risk:** The core concept—crowdsource human activity recordings via wearable cameras—is replicable. micro1 is already shipping Ray-Ban glasses for similar capture (TechCrunch, Dec 2025). Sensei uses a different hardware approach (exoskeleton arms) for related data collection. The barrier is in the combined execution of hardware deployment logistics, contributor management across geographies, and annotation quality—operational complexity rather than deep technical moats. Multiple well-funded entrants could pursue similar approaches.
 
 ## Market & Traction
 
 **Traction signals:**
-- 5,000+ contributors in the network (YC company page, accessed Feb 2026)
-- Collecting data across 3 continents (tryasimov.ai, accessed Feb 2026)
-- Supplying "frontier robotics labs" with "thousands of hours" of data (YC company page)
-- 1 active job listing: Data Collection Specialist, $20–$30/hr, remote (YC jobs page, accessed Feb 2026)
-- Company Twitter/X: @tryasimov (YC page); follower count not retrievable
-- Founder Twitter/X: @lyemningthou (YC page); follower count not retrievable
-- Company LinkedIn: listed as "tryasimov" (YC page); no dedicated page confirmed distinct from the synthetic biology company Asimov
-- No Product Hunt launch found
+- 5,000+ contributors in the data collection network (YC company page)
+- Operating across 3 continents (company website)
+- "Trusted by frontier robotics teams" — no named customers disclosed (company website)
+- 2 active job postings on YC: Strategic Operations Intern, Data Collection Specialist (YC jobs page)
+- Twitter/X: @tryasimov — follower count not retrievable
+- LinkedIn: company page "tryasimov" — follower count not retrievable
+- Hugging Face profile exists for founder Lyem Ningthou (huggingface.co/Lyem)
+- No Product Hunt launch found for this specific Asimov company
+- No Discord or Slack community found
 - No app store presence found
-- No Discord/Slack community found
+- Waitlist page detected at tryasimov.reflection.ai/asimov-waitlist (search result, not verified)
 
 **Competitive landscape:**
 
-| Competitor | Key Differentiator vs. Asimov | Funding | Revenue/ARR |
+| Competitor | Funding | Revenue | Key Differentiator vs. Asimov |
 |---|---|---|---|
-| **Scale AI (Physical AI division)** | Incumbent data labeling giant ($29B valuation) that entered physical AI in 2025; operates SF R&D lab + global contractor network; serves Physical Intelligence, Generalist AI, Cobot | $1.6B total raised (multiple sources via search snippet) | $870M in 2024, projected ~$2B in 2025 (Sacra via search snippet) |
-| **Cortex AI (YC F25)** | Focuses on workplace robot + egocentric data; marketplace where workplaces host collection sessions; founded by Lucas Ngoo (ex-Carousell co-founder, $1B+ exit) | $500K (Extruct AI via search snippet) | No public data found |
-| **Sensei (YC S24)** | Uses proprietary $300 sensorized exoskeleton arm for teleoperation data (vs. $40K+ standard setups); MIT-founded; focuses on robot manipulation demonstrations rather than organic human activity | No public amount found beyond YC standard deal | No public data found |
+| **Sensei** (YC S24) | $500K (YC) + undisclosed from Calibrate Ventures, Lotus Venture Partners, Network VC (Dealroom via search snippet) | $3.9M (Extruct AI via search snippet, unverified) | Uses $300 sensorized exoskeleton arms for teleoperation rather than egocentric video; focuses on robot-specific demonstrations |
+| **micro1** | $35M Series A at $500M valuation (TechCrunch, Sep 2025) | $100M+ ARR (TechCrunch, Dec 2025) | Horizontal RLHF data labeling platform expanding into robotics via Ray-Ban glasses; massive scale from AI training services |
+| **General Intuition** | $134M seed (TechCrunch, Oct 2025) | Revenue unknown | Trains spatial reasoning from 2B gaming videos/year via Medal platform; synthetic/gaming data vs. Asimov's real-world capture |
+| **Scale AI** | $16.4B+ total raised (via search snippet) | Revenue unknown (reported $1B+ ARR in prior years via search snippet) | Dominant horizontal data labeling platform; robotics is one vertical among many |
 
-**Why now:** VCs invested $7.2B in robotics in 2025, up from $3.1B in 2023 (search snippet, source unspecified). Figure AI reached a $39B valuation with a $1B Series C in September 2025 (Quasa.io, 2026). Scale AI launched its Physical AI data collection platform in 2025 (Scale AI blog). China's government funded 40 training centers to address robotics data shortages (Rest of World, 2026). [Inferred]: The convergence of massive robotics funding, multiple humanoid robot programs approaching deployment readiness (Tesla Optimus, Figure, 1X, Apptronik), and the demonstrated data bottleneck for embodied AI created a specific window for dedicated robotics data collection platforms. The transition from "cool demos" to production deployments in 2025 shifted data from a nice-to-have to a critical infrastructure need.
+**Why now:**
+- [Inferred]: The convergence of several factors in 2024-2025 opened this opportunity: (1) frontier robotics labs (Physical Intelligence, Skild AI, 1X, Figure) raised billions in funding and are actively building humanoid robots that require massive training data; (2) the robotics data bottleneck became widely recognized as the key constraint—November-December 2025 was described as "the tipping point" when the market priced in the insatiable appetite for physical AI data (Quasa.io, 2026 via search snippet); (3) consumer camera and sensor hardware became cheap enough to deploy at scale in a lightweight headband form factor; (4) Skild AI grew from zero to ~$30M revenue in months, validating commercial demand for robotics AI that requires training data (Skild AI blog via search snippet).
 
 ## Founders & Team
 
 **Lyem Ningthou** — Founder
-- BS Computer Science, University of California, Berkeley (2022–2026) (LinkedIn via search snippet; MSU/USDA article)
-- Prior roles: Software Engineer at FLIP; previously at Blume (YC W24), USDA, Numerator, Aisle (LinkedIn via search snippet; RocketReach via search snippet)
-- Participated in MSU/USDA Graduate Summer Research Experience program focused on AI/ML, receiving NSF-funded ~2,000 GPU hours for AI research (MSU newsroom, 2023)
-- As an eighth grader at Mississippi School for Mathematics and Science, co-developed "Go Bus," a GPS bus tracking system winning first place in the Oktibbeha County Innovation Challenge (MSU Center for Entrepreneurship)
-- Has a Hugging Face profile (huggingface.co/Lyem)
-- Described on YC as "Defense tech robotics researcher → building the data layer for humanoid robotics" (YC company page)
-- Twitter/X: @lyemningthou (YC page); follower count not retrievable
-- LinkedIn: linkedin.com/in/lyem-ningthou-5a09a4239 — CS @ UC Berkeley, 500+ connections (LinkedIn via search snippet)
-- GitHub: No confirmed public repos attributable to this founder (a "Lyem" GitHub account exists but is located in Brazil and likely a different person)
+- BS Computer Science, University of California, Berkeley (2022–2026) (LinkedIn via search snippet)
+- Attended Mississippi School for Mathematics and Science (MSMS) (The Vision MSMS via search snippet)
+- Co-created Go Bus, a GPS tracking system for school buses, as an 8th grader (MSU Center for Entrepreneurship via search snippet)
+- Prior experience: FLIP, Blume (YC W24), USDA, Numerator (LinkedIn via search snippet)
+- Described as "defense tech robotics researcher" on YC page
+- Participated in MSU/USDA Graduate Summer Research Experience (MSU newsroom via search snippet)
+- Twitter/X: @lyemningthou — count not retrievable (handle from YC page)
+- LinkedIn: linkedin.com/in/lyem-ningthou-5a09a4239 — 500+ connections (LinkedIn via search snippet)
+- GitHub: No confirmed public repos found (the "Lyem" GitHub account is a different person based in Brazil)
+- Hugging Face: huggingface.co/Lyem (search result)
 
-The YC page lists only Lyem Ningthou as a founder, though the team size is listed as 3. No other team members were identified in public sources.
+**Anshul Verma** — Co-founder
+- BS Electrical Engineering & Computer Sciences, University of California, Berkeley (expected 2026) (RocketReach/ZoomInfo via search snippet)
+- Machine Learning Researcher at Berkeley Artificial Intelligence Research (BAIR) (RocketReach, ZoomInfo via search snippet)
+- Prior experience: Scale AI, Lenovo, EPRI, Amazon (LinkedIn via search snippet)
+- Twitter/X: No public account found
+- LinkedIn: linkedin.com/in/anshulverma531 (LinkedIn via search snippet)
+- GitHub: No confirmed public repos found (multiple "Anshul Verma" accounts exist; none confirmed as this individual)
 
-**Co-founder relationship:** Only one founder is listed publicly. No public data on co-founder history.
+**Co-founder relationship:** Both founders are UC Berkeley EECS undergraduates with expected 2026 graduation, indicating they likely overlap as classmates. Both have robotics/ML connections through Berkeley's ecosystem (Lyem through defense tech robotics research; Anshul through BAIR). No specific shared employer or project prior to Asimov was found.
 
-**Founder-market fit:** Lyem Ningthou's background combines computer science training at UC Berkeley with prior experience at multiple startups including Blume (a YC W24 company), exposure to defense tech robotics research, and NSF-funded AI/ML research with significant GPU allocations. His experience at FLIP and multiple prior companies demonstrates startup familiarity, and his YC profile specifically references defense tech robotics research as his domain focus.
+**Founder-market fit:** Anshul Verma's experience at Scale AI (the dominant data labeling company) provides direct exposure to the data marketplace model, while his BAIR research gives technical depth in ML for robotics. Lyem Ningthou's defense tech robotics background and prior startup experience at Blume (YC W24) provide both domain knowledge and YC-accelerated startup execution experience. Together, they combine data marketplace operations knowledge with robotics research capability. No advisors, board members, or notable investors beyond YC and Brad Flora were found.
 
 ## Key Risks
 
-**Brand disambiguation with Asimov (synthetic biology):** A well-established company named Asimov (asimov.com), founded in 2017 in Boston, operates in synthetic biology with $200M+ in funding and 7,729 LinkedIn followers (various sources via search snippet). The shared name creates confusion in search results, LinkedIn presence, and investor/customer discovery. The tryasimov.ai domain partially mitigates this but does not resolve the underlying brand conflict.
+**Brand disambiguation:** At least four other companies use variations of the "Asimov" name: Asimov Inc. (biotech, Boston, $200M raised — TechFundingNews via search snippet), ASIMOV Robotics (India, acquired by Zoho Jul 2025 — Tracxn via search snippet), Asimov Press (media), and Asimov Security (cybersecurity for robotics, on Product Hunt). This creates SEO competition, investor confusion, and potential trademark challenges. The company uses "tryasimov.ai" as its domain, which partially mitigates web presence overlap.
 
-**Scale AI competitive entry:** Scale AI ($29B valuation, $1.6B raised, $870M 2024 revenue) launched its Physical AI data collection platform in 2025 and already serves leading robotics labs including Physical Intelligence and Generalist AI (Scale AI blog, 2025). Scale has established enterprise sales relationships, massive contractor networks, and resources to subsidize data collection pricing. Asimov must win and retain customers against this well-resourced incumbent.
+**Well-funded direct competitors in crowdsourced robotics data:** micro1 ($35M raised, $100M+ ARR) is actively shipping wearable camera kits for identical use cases (TechCrunch, Dec 2025). Sensei (YC S24) is pursuing the same market with different hardware. The window for establishing a dominant data network may be narrow given the capital flowing into this space.
 
-**Contributor unit economics and quality control:** At $20–$30/hr contributor pay, with data needing annotation (3D body pose, depth maps, semantic labels, activity segmentation), the cost of producing finished datasets may compress margins significantly. Quality control across 5,000+ distributed contributors wearing headband cameras during unscripted daily activities presents challenges in data consistency and usability that grow with scale.
+**Contributor network quality and retention:** The business depends on thousands of non-technical contributors wearing hardware reliably across diverse geographies. Quality variance, contributor churn, hardware logistics across three continents, and privacy compliance in multiple jurisdictions create operational complexity that scales with the contributor count. Job postings for $20-$30/hr data collection specialists suggest the per-hour cost structure may face margin pressure as competitors also recruit contributors.
 
-**Customer concentration in a nascent market:** The number of "frontier robotics labs" with both the technical capability to use egocentric training data and the budget to purchase it at scale is currently small. A handful of well-funded companies (Figure, Physical Intelligence, 1X, Tesla) represent the bulk of potential demand, creating concentration risk.
+**Customer concentration risk:** The addressable customer set (frontier robotics labs) is currently small—a handful of well-funded companies (Physical Intelligence, Skild AI, 1X, Figure, Covariant). Customer concentration in a small buyer pool creates revenue volatility risk if any single customer reduces purchases or builds competing internal data capabilities.
 
-**Solo founder with team of 3 managing hardware logistics globally:** Deploying, maintaining, and supporting physical hardware across 5,000+ contributors on 3 continents introduces operational complexity in shipping, quality control, and contributor management that typically requires larger teams.
+**Platform dependency for data value:** The value of Asimov's data depends on continued demand for pre-training data from real-world human demonstrations. If robotics teams shift toward simulation-first approaches (NVIDIA Cosmos, synthetic data), or if foundation model companies build internal data flywheels from deployed robots (as Covariant does), demand for externally sourced human motion data could shrink.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $6.75B embodied AI data market by 2031 at 36.8% CAGR (QY Research, 2025 via search snippet); $23.06B broader embodied AI market by 2030 at 39% CAGR (MarketsandMarkets, 2025 via search snippet) |
-| SAM | No public data found |
-| Traction | 5,000+ contributors (YC company page, Feb 2026); collecting across 3 continents (tryasimov.ai, Feb 2026); "thousands of hours" of data supplied to frontier robotics labs (YC company page) |
-| Revenue Signal | No public data found. Contributor cost: $20–$30/hr (tryasimov.ai; YC job listing). No customer pricing disclosed. |
-| Founders | Lyem Ningthou (Founder): UC Berkeley CS, ex-FLIP, ex-Blume (YC W24), defense tech robotics researcher |
-| Competitors | Scale AI Physical AI ($1.6B raised, $870M 2024 revenue, incumbent entering robotics data); Cortex AI ($500K raised, revenue unknown, workplace-focused marketplace, ex-Carousell founder); Sensei (YC S24 funding, revenue unknown, $300 exoskeleton teleoperation hardware) |
-| Moat Signals | 5,000+ contributor network across 3 continents; dataset diversity from organic household/workplace environments vs. lab-scripted data |
-| Risk Factors | Brand disambiguation with Asimov synthetic biology co., Scale AI competitive entry, contributor unit economics at scale |
-| Founder Reach | Lyem Ningthou: Twitter @lyemningthou (count not retrievable), LinkedIn 500+ connections, GitHub not confirmed |
-| Distribution Signals | No public data found (no Product Hunt launch, no app store presence, no community channels identified) |
+| TAM | AI training dataset market: $3.2B (2025), projected $16.3B by 2033 at 22.6% CAGR (Grand View Research via search snippet). Humanoid robot market: $2.9B (2025), projected $15.3B by 2030 at 39.2% CAGR (MarketsandMarkets via search snippet). |
+| SAM | No public data found for robotics-specific training data sub-segment. |
+| Traction | 5,000+ contributors across 3 continents (YC company page, company website). 2 active job postings (YC jobs page). |
+| Revenue Signal | No public data found. |
+| Founders | Lyem Ningthou (Founder): UC Berkeley CS, defense tech robotics researcher, prior at Blume (YC W24), FLIP, USDA, Numerator. Anshul Verma (Co-founder): UC Berkeley EECS, ML researcher at BAIR, prior at Scale AI, Lenovo, EPRI, Amazon. |
+| Competitors | Sensei (YC S24; $500K+ raised, $3.9M revenue per Extruct AI unverified; teleoperation via exoskeleton arms). micro1 ($35M raised at $500M valuation, $100M+ ARR; horizontal data labeling expanding to robotics via wearable cameras). General Intuition ($134M seed; spatial reasoning from gaming videos). Scale AI ($16.4B+ raised; dominant horizontal data platform). |
+| Moat Signals | 5,000+ contributor network across 3 continents; proprietary annotation pipeline (3D pose, depth maps, semantic labels); growing dataset of organic human motion data. |
+| Risk Factors | Brand disambiguation across 4+ same-name companies, well-funded direct competitors (micro1 at $100M+ ARR), small addressable customer base of frontier robotics labs |
+| Founder Reach | Lyem Ningthou: Twitter @lyemningthou (count not retrievable), LinkedIn 500+ connections. Anshul Verma: Twitter not found, LinkedIn linkedin.com/in/anshulverma531 (count not retrievable). |
+| Distribution Signals | No Product Hunt launch found. No app store presence. Waitlist page detected at tryasimov.reflection.ai (unverified). 2 active job postings on YC. |
+| Emails | No public data found |

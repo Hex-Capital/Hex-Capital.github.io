@@ -9,7 +9,9 @@
     "industry": "B2B / B2B",
     "team_size": "2",
     "location": "New York, NY, USA",
-    "tags": "Artificial Intelligence, Fintech, Fraud Detection"
+    "tags": "Artificial Intelligence, Fintech, Fraud Detection",
+    "yc_partner": "Jared Friedman (YC company page)",
+    "emails": "No public data found"
   },
   "tags": [
     "Artificial Intelligence",
@@ -17,48 +19,48 @@
     "Fraud Detection"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T19:25:29.994Z",
+  "memoGeneratedAt": "2026-03-05T07:10:15.394Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 35,
+      "score": 37,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 47,
+      "score": 62,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 54,
+      "score": 61,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 56,
+      "score": 62,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 38,
+      "score": 40,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 31,
+      "score": 34,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 46,
+      "score": 48,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 35,
-    "EG": 47,
-    "NR": 54,
-    "PG": 56,
-    "PT": 38,
-    "SL": 31,
-    "VK": 46
+    "CB": 37,
+    "EG": 62,
+    "NR": 61,
+    "PG": 62,
+    "PT": 40,
+    "SL": 34,
+    "VK": 48
   },
-  "consolidatedAvg": 43.86,
-  "consolidatedRank": 58,
+  "consolidatedAvg": 49.14,
+  "consolidatedRank": 34,
   "paths": {
     "memo": "winter2026/memos/mousecat.md",
     "evals": {

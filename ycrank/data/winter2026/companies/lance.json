@@ -9,7 +9,9 @@
     "industry": "B2B / B2B",
     "team_size": "3",
     "location": "San Francisco, CA, USA",
-    "tags": "SaaS, B2B, Customer Service, Conversational AI"
+    "tags": "SaaS, B2B, Customer Service, Conversational AI",
+    "yc_partner": "Diana Hu",
+    "emails": "founders@lance.live (YC LinkedIn announcement post)"
   },
   "tags": [
     "SaaS",
@@ -18,14 +20,14 @@
     "Conversational AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T19:26:07.871Z",
+  "memoGeneratedAt": "2026-03-05T07:18:28.267Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 39,
+      "score": 38,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 59,
+      "score": 50,
       "tier": "Neutral"
     },
     "naval-ravikant": {
@@ -33,11 +35,11 @@
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 62,
-      "tier": "Neutral"
+      "score": 66,
+      "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 38,
+      "score": 43,
       "tier": "Pass"
     },
     "sam-lessin": {
@@ -45,21 +47,21 @@
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 46,
+      "score": 49,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 39,
-    "EG": 59,
+    "CB": 38,
+    "EG": 50,
     "NR": 48,
-    "PG": 62,
-    "PT": 38,
+    "PG": 66,
+    "PT": 43,
     "SL": 32,
-    "VK": 46
+    "VK": 49
   },
-  "consolidatedAvg": 46.29,
-  "consolidatedRank": 47,
+  "consolidatedAvg": 46.57,
+  "consolidatedRank": 46,
   "paths": {
     "memo": "winter2026/memos/lance.md",
     "evals": {

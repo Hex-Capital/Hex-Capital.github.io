@@ -9,56 +9,58 @@
     "industry": "B2B / B2B",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Developer Tools, B2B, AI"
+    "tags": "Artificial Intelligence, Developer Tools, B2B",
+    "yc_partner": "Gustaf Alstromer",
+    "emails": "alisa@lucenthq.com (raealisa.com)"
   },
   "tags": [
+    "Artificial Intelligence",
     "Developer Tools",
-    "B2B",
-    "AI"
+    "B2B"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T19:28:55.612Z",
+  "memoGeneratedAt": "2026-03-05T07:19:38.328Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
       "score": 26,
       "tier": "Pass"
     },
+    "elad-gil": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 23,
+      "tier": "Pass"
+    },
     "sam-lessin": {
-      "score": 24,
+      "score": 21,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 34,
+      "score": 33,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 29,
-    "EG": 34,
-    "NR": 37,
-    "PG": 39,
-    "PT": 26,
-    "SL": 24,
-    "VK": 34
+    "CB": 26,
+    "EG": 32,
+    "NR": 34,
+    "PG": 36,
+    "PT": 23,
+    "SL": 21,
+    "VK": 33
   },
-  "consolidatedAvg": 31.86,
-  "consolidatedRank": 170,
+  "consolidatedAvg": 29.29,
+  "consolidatedRank": 187,
   "paths": {
     "memo": "winter2026/memos/lucent.md",
     "evals": {

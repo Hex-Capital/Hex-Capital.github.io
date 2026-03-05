@@ -9,7 +9,9 @@
     "industry": "Industrials / Industrials",
     "team_size": "1",
     "location": "Austin, TX, USA",
-    "tags": "Artificial Intelligence, Hardware, Robotics, Electronics"
+    "tags": "Artificial Intelligence, Hardware, Robotics, Electronics",
+    "yc_partner": "Brad Flora",
+    "emails": "contact@hlaboratories.com (HLabs documentation site)"
   },
   "tags": [
     "Artificial Intelligence",
@@ -18,48 +20,48 @@
     "Electronics"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T19:30:19.065Z",
+  "memoGeneratedAt": "2026-03-05T07:22:03.800Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 38,
-      "tier": "Pass"
+      "score": 49,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 59,
+      "score": 61,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 47,
+      "score": 56,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 66,
+      "score": 68,
       "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 41,
+      "score": 36,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 58,
-      "tier": "Neutral"
+      "score": 65,
+      "tier": "Invest"
     },
     "vinod-khosla": {
-      "score": 42,
-      "tier": "Pass"
+      "score": 50,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 38,
-    "EG": 59,
-    "NR": 47,
-    "PG": 66,
-    "PT": 41,
-    "SL": 58,
-    "VK": 42
+    "CB": 49,
+    "EG": 61,
+    "NR": 56,
+    "PG": 68,
+    "PT": 36,
+    "SL": 65,
+    "VK": 50
   },
-  "consolidatedAvg": 50.14,
-  "consolidatedRank": 30,
+  "consolidatedAvg": 55,
+  "consolidatedRank": 15,
   "paths": {
     "memo": "winter2026/memos/hlabs.md",
     "evals": {

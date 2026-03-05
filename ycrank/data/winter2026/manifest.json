@@ -534,6 +534,41 @@
     },
     {
       "rank": 15,
+      "name": "Hlabs",
+      "slug": "hlabs",
+      "scores": {
+        "CB": 49,
+        "EG": 61,
+        "NR": 56,
+        "PG": 68,
+        "PT": 36,
+        "SL": 65,
+        "VK": 50
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Invest",
+        "PT": "Pass",
+        "SL": "Invest",
+        "VK": "Neutral"
+      },
+      "avg": 55,
+      "revenue": null,
+      "teamSize": 1,
+      "ycPartner": "Brad Flora",
+      "oneLiner": "Making an industrial supply chain for building robots in the USA",
+      "industry": "Industrials / Industrials",
+      "tags": [
+        "Artificial Intelligence",
+        "Hardware",
+        "Robotics",
+        "Electronics"
+      ]
+    },
+    {
+      "rank": 16,
       "name": "Crosslayer Labs",
       "slug": "crosslayer-labs",
       "scores": {
@@ -567,7 +602,7 @@
       ]
     },
     {
-      "rank": 16,
+      "rank": 17,
       "name": "Piris Labs",
       "slug": "pirislabs",
       "scores": {
@@ -603,7 +638,7 @@
       ]
     },
     {
-      "rank": 17,
+      "rank": 18,
       "name": "Aurorin CAD",
       "slug": "aurorin-cad",
       "scores": {
@@ -638,7 +673,7 @@
       ]
     },
     {
-      "rank": 18,
+      "rank": 19,
       "name": "Voxel Energy",
       "slug": "voxel-energy",
       "scores": {
@@ -674,7 +709,7 @@
       ]
     },
     {
-      "rank": 19,
+      "rank": 20,
       "name": "DroneTector",
       "slug": "dronetector",
       "scores": {
@@ -708,7 +743,7 @@
       ]
     },
     {
-      "rank": 20,
+      "rank": 21,
       "name": "General Legal",
       "slug": "general-legal",
       "scores": {
@@ -741,7 +776,7 @@
       ]
     },
     {
-      "rank": 21,
+      "rank": 22,
       "name": "Kyten Technologies",
       "slug": "kyten-technologies",
       "scores": {
@@ -774,7 +809,43 @@
       ]
     },
     {
-      "rank": 22,
+      "rank": 23,
+      "name": "10x Science",
+      "slug": "10x-science",
+      "scores": {
+        "CB": 40,
+        "EG": 58,
+        "NR": 73,
+        "PG": 61,
+        "PT": 45,
+        "SL": 38,
+        "VK": 52
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Invest",
+        "PG": "Neutral",
+        "PT": "Neutral",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 52.43,
+      "revenue": null,
+      "teamSize": 3,
+      "ycPartner": "Jon Xu",
+      "oneLiner": "The AI-native platform for next-generation protein characterization.",
+      "industry": "B2B / B2B",
+      "tags": [
+        "SaaS",
+        "B2B",
+        "Biotech",
+        "Enterprise Software",
+        "AI"
+      ]
+    },
+    {
+      "rank": 24,
       "name": "Seeing Systems",
       "slug": "seeing-systems",
       "scores": {
@@ -808,43 +879,7 @@
       ]
     },
     {
-      "rank": 23,
-      "name": "10x Science",
-      "slug": "10x-science",
-      "scores": {
-        "CB": 44,
-        "EG": 59,
-        "NR": 68,
-        "PG": 56,
-        "PT": 48,
-        "SL": 40,
-        "VK": 50
-      },
-      "tiers": {
-        "CB": "Pass",
-        "EG": "Neutral",
-        "NR": "Invest",
-        "PG": "Neutral",
-        "PT": "Neutral",
-        "SL": "Pass",
-        "VK": "Neutral"
-      },
-      "avg": 52.14,
-      "revenue": null,
-      "teamSize": 3,
-      "ycPartner": null,
-      "oneLiner": "The AI-native platform for next-generation protein characterization.",
-      "industry": "B2B / B2B",
-      "tags": [
-        "SaaS",
-        "B2B",
-        "Biotech",
-        "Enterprise Software",
-        "AI"
-      ]
-    },
-    {
-      "rank": 24,
+      "rank": 25,
       "name": "OctaPulse",
       "slug": "octapulse",
       "scores": {
@@ -879,7 +914,7 @@
       ]
     },
     {
-      "rank": 25,
+      "rank": 26,
       "name": "Strand AI",
       "slug": "strand-ai",
       "scores": {
@@ -913,7 +948,7 @@
       ]
     },
     {
-      "rank": 26,
+      "rank": 27,
       "name": "Ruma Care",
       "slug": "ruma-care",
       "scores": {
@@ -946,7 +981,7 @@
       ]
     },
     {
-      "rank": 27,
+      "rank": 28,
       "name": "RoboDock",
       "slug": "robodock",
       "scores": {
@@ -982,7 +1017,7 @@
       ]
     },
     {
-      "rank": 28,
+      "rank": 29,
       "name": "DAIVIN!",
       "slug": "daivin",
       "scores": {
@@ -1018,7 +1053,7 @@
       ]
     },
     {
-      "rank": 29,
+      "rank": 30,
       "name": "Opalite Health",
       "slug": "opalite-health",
       "scores": {
@@ -1050,41 +1085,6 @@
         "Health Tech",
         "Digital Health",
         "Healthcare"
-      ]
-    },
-    {
-      "rank": 30,
-      "name": "Hlabs",
-      "slug": "hlabs",
-      "scores": {
-        "CB": 38,
-        "EG": 59,
-        "NR": 47,
-        "PG": 66,
-        "PT": 41,
-        "SL": 58,
-        "VK": 42
-      },
-      "tiers": {
-        "CB": "Pass",
-        "EG": "Neutral",
-        "NR": "Neutral",
-        "PG": "Invest",
-        "PT": "Pass",
-        "SL": "Neutral",
-        "VK": "Pass"
-      },
-      "avg": 50.14,
-      "revenue": null,
-      "teamSize": 1,
-      "ycPartner": null,
-      "oneLiner": "Making an industrial supply chain for building robots in the USA",
-      "industry": "Industrials / Industrials",
-      "tags": [
-        "Artificial Intelligence",
-        "Hardware",
-        "Robotics",
-        "Electronics"
       ]
     },
     {
@@ -1193,6 +1193,40 @@
     },
     {
       "rank": 34,
+      "name": "MouseCat",
+      "slug": "mousecat",
+      "scores": {
+        "CB": 37,
+        "EG": 62,
+        "NR": 61,
+        "PG": 62,
+        "PT": 40,
+        "SL": 34,
+        "VK": 48
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 49.14,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Jared Friedman",
+      "oneLiner": "The AI Toolkit for Risk Teams",
+      "industry": "B2B / B2B",
+      "tags": [
+        "Artificial Intelligence",
+        "Fintech",
+        "Fraud Detection"
+      ]
+    },
+    {
+      "rank": 35,
       "name": "AutoSitu",
       "slug": "autositu",
       "scores": {
@@ -1227,7 +1261,7 @@
       ]
     },
     {
-      "rank": 35,
+      "rank": 36,
       "name": "Chasi",
       "slug": "chasi",
       "scores": {
@@ -1260,7 +1294,7 @@
       ]
     },
     {
-      "rank": 36,
+      "rank": 37,
       "name": "Samora AI",
       "slug": "samora-ai",
       "scores": {
@@ -1294,7 +1328,7 @@
       ]
     },
     {
-      "rank": 37,
+      "rank": 38,
       "name": "ARC Prize Foundation",
       "slug": "arc-prize-foundation",
       "scores": {
@@ -1324,7 +1358,7 @@
       "tags": []
     },
     {
-      "rank": 38,
+      "rank": 39,
       "name": "Terranox AI",
       "slug": "terranox-ai",
       "scores": {
@@ -1358,7 +1392,7 @@
       ]
     },
     {
-      "rank": 39,
+      "rank": 40,
       "name": "Mantis Biotechnology",
       "slug": "mantis-biotechnology",
       "scores": {
@@ -1394,7 +1428,7 @@
       ]
     },
     {
-      "rank": 40,
+      "rank": 41,
       "name": "End Close",
       "slug": "end-close",
       "scores": {
@@ -1430,7 +1464,7 @@
       ]
     },
     {
-      "rank": 41,
+      "rank": 42,
       "name": "Laurence",
       "slug": "laurence",
       "scores": {
@@ -1465,7 +1499,7 @@
       ]
     },
     {
-      "rank": 42,
+      "rank": 43,
       "name": "Pocket",
       "slug": "pocket",
       "scores": {
@@ -1495,7 +1529,7 @@
       "tags": []
     },
     {
-      "rank": 43,
+      "rank": 44,
       "name": "One Robot",
       "slug": "one-robot",
       "scores": {
@@ -1530,7 +1564,7 @@
       ]
     },
     {
-      "rank": 44,
+      "rank": 45,
       "name": "Zymbly",
       "slug": "zymbly",
       "scores": {
@@ -1564,7 +1598,77 @@
       ]
     },
     {
-      "rank": 45,
+      "rank": 46,
+      "name": "Lance",
+      "slug": "lance",
+      "scores": {
+        "CB": 38,
+        "EG": 50,
+        "NR": 48,
+        "PG": 66,
+        "PT": 43,
+        "SL": 32,
+        "VK": 49
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Invest",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 46.57,
+      "revenue": null,
+      "teamSize": 3,
+      "ycPartner": "Diana Hu",
+      "oneLiner": "Your Hotel's Best Employees",
+      "industry": "B2B / B2B",
+      "tags": [
+        "SaaS",
+        "B2B",
+        "Customer Service",
+        "Conversational AI"
+      ]
+    },
+    {
+      "rank": 47,
+      "name": "Origin",
+      "slug": "origin-bio",
+      "scores": {
+        "CB": 45,
+        "EG": 50,
+        "NR": 50,
+        "PG": 39,
+        "PT": 40,
+        "SL": 40,
+        "VK": 62
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 46.57,
+      "revenue": null,
+      "teamSize": 4,
+      "ycPartner": "Ankit Gupta",
+      "oneLiner": "AI for safer cell & gene therapies",
+      "industry": "Healthcare / Healthcare -> Drug Discovery and Delivery",
+      "tags": [
+        "AI-powered Drug Discovery",
+        "Gene Therapy",
+        "Cell Therapy",
+        "Biotech"
+      ]
+    },
+    {
+      "rank": 48,
       "name": "Pax Historia",
       "slug": "pax-historia",
       "scores": {
@@ -1599,7 +1703,7 @@
       ]
     },
     {
-      "rank": 46,
+      "rank": 49,
       "name": "Valence",
       "slug": "valence",
       "scores": {
@@ -1633,42 +1737,7 @@
       ]
     },
     {
-      "rank": 47,
-      "name": "Lance",
-      "slug": "lance",
-      "scores": {
-        "CB": 39,
-        "EG": 59,
-        "NR": 48,
-        "PG": 62,
-        "PT": 38,
-        "SL": 32,
-        "VK": 46
-      },
-      "tiers": {
-        "CB": "Pass",
-        "EG": "Neutral",
-        "NR": "Neutral",
-        "PG": "Neutral",
-        "PT": "Pass",
-        "SL": "Pass",
-        "VK": "Neutral"
-      },
-      "avg": 46.29,
-      "revenue": null,
-      "teamSize": 3,
-      "ycPartner": null,
-      "oneLiner": "Your Hotel's Best Employees",
-      "industry": "B2B / B2B",
-      "tags": [
-        "SaaS",
-        "B2B",
-        "Customer Service",
-        "Conversational AI"
-      ]
-    },
-    {
-      "rank": 48,
+      "rank": 50,
       "name": "Panta",
       "slug": "panta",
       "scores": {
@@ -1701,7 +1770,7 @@
       ]
     },
     {
-      "rank": 49,
+      "rank": 51,
       "name": "Origami Robotics",
       "slug": "origami-robotics",
       "scores": {
@@ -1735,41 +1804,7 @@
       ]
     },
     {
-      "rank": 50,
-      "name": "AxionOrbital Space",
-      "slug": "axionorbital-space",
-      "scores": {
-        "CB": 39,
-        "EG": 50,
-        "NR": 57,
-        "PG": 47,
-        "PT": 37,
-        "SL": 36,
-        "VK": 54
-      },
-      "tiers": {
-        "CB": "Pass",
-        "EG": "Neutral",
-        "NR": "Neutral",
-        "PG": "Neutral",
-        "PT": "Pass",
-        "SL": "Pass",
-        "VK": "Neutral"
-      },
-      "avg": 45.71,
-      "revenue": null,
-      "teamSize": 2,
-      "ycPartner": null,
-      "oneLiner": "Foundation models for 24/7 Earth Observation",
-      "industry": "Industrials / Industrials -> Aviation and Space",
-      "tags": [
-        "Deep Learning",
-        "Satellites",
-        "Weather"
-      ]
-    },
-    {
-      "rank": 51,
+      "rank": 52,
       "name": "Grade",
       "slug": "grade",
       "scores": {
@@ -1802,7 +1837,7 @@
       ]
     },
     {
-      "rank": 52,
+      "rank": 53,
       "name": "Overshoot",
       "slug": "overshoot",
       "scores": {
@@ -1836,7 +1871,7 @@
       ]
     },
     {
-      "rank": 53,
+      "rank": 54,
       "name": "Sponge",
       "slug": "sponge",
       "scores": {
@@ -1872,7 +1907,7 @@
       ]
     },
     {
-      "rank": 54,
+      "rank": 55,
       "name": "Didit",
       "slug": "didit",
       "scores": {
@@ -1906,7 +1941,75 @@
       ]
     },
     {
-      "rank": 55,
+      "rank": 56,
+      "name": "AxionOrbital Space",
+      "slug": "axionorbital-space",
+      "scores": {
+        "CB": 44,
+        "EG": 45,
+        "NR": 52,
+        "PG": 54,
+        "PT": 33,
+        "SL": 38,
+        "VK": 48
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 44.86,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Tyler Bosmeny",
+      "oneLiner": "Foundation models for 24/7 Earth Observation",
+      "industry": "Industrials / Industrials -> Aviation and Space",
+      "tags": [
+        "Deep Learning",
+        "Satellites",
+        "Weather"
+      ]
+    },
+    {
+      "rank": 57,
+      "name": "Beacon Health",
+      "slug": "beacon-health",
+      "scores": {
+        "CB": 43,
+        "EG": 51,
+        "NR": 47,
+        "PG": 63,
+        "PT": 32,
+        "SL": 33,
+        "VK": 45
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 44.86,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Diana Hu",
+      "oneLiner": "AI Agents for Primary Care",
+      "industry": "Healthcare / Healthcare",
+      "tags": [
+        "Health Tech",
+        "Primary Care",
+        "AI"
+      ]
+    },
+    {
+      "rank": 58,
       "name": "Luel",
       "slug": "luel",
       "scores": {
@@ -1940,7 +2043,42 @@
       ]
     },
     {
-      "rank": 56,
+      "rank": 59,
+      "name": "Avoice",
+      "slug": "avoice",
+      "scores": {
+        "CB": 49,
+        "EG": 58,
+        "NR": 43,
+        "PG": 54,
+        "PT": 37,
+        "SL": 30,
+        "VK": 41
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 44.57,
+      "revenue": null,
+      "teamSize": 4,
+      "ycPartner": "Jared Friedman",
+      "oneLiner": "Harvey for Architecture",
+      "industry": "B2B / B2B",
+      "tags": [
+        "Artificial Intelligence",
+        "Construction",
+        "Enterprise Software",
+        "Architecture"
+      ]
+    },
+    {
+      "rank": 60,
       "name": "Proximitty",
       "slug": "proximitty",
       "scores": {
@@ -1976,7 +2114,7 @@
       ]
     },
     {
-      "rank": 57,
+      "rank": 61,
       "name": "Revion",
       "slug": "revion",
       "scores": {
@@ -2009,41 +2147,7 @@
       ]
     },
     {
-      "rank": 58,
-      "name": "MouseCat",
-      "slug": "mousecat",
-      "scores": {
-        "CB": 35,
-        "EG": 47,
-        "NR": 54,
-        "PG": 56,
-        "PT": 38,
-        "SL": 31,
-        "VK": 46
-      },
-      "tiers": {
-        "CB": "Pass",
-        "EG": "Neutral",
-        "NR": "Neutral",
-        "PG": "Neutral",
-        "PT": "Pass",
-        "SL": "Pass",
-        "VK": "Neutral"
-      },
-      "avg": 43.86,
-      "revenue": null,
-      "teamSize": 2,
-      "ycPartner": null,
-      "oneLiner": "The AI Toolkit for Risk Teams",
-      "industry": "B2B / B2B",
-      "tags": [
-        "Artificial Intelligence",
-        "Fintech",
-        "Fraud Detection"
-      ]
-    },
-    {
-      "rank": 59,
+      "rank": 62,
       "name": "Byteport",
       "slug": "byteport",
       "scores": {
@@ -2077,7 +2181,7 @@
       ]
     },
     {
-      "rank": 60,
+      "rank": 63,
       "name": "Robby",
       "slug": "robby",
       "scores": {
@@ -2111,7 +2215,43 @@
       ]
     },
     {
-      "rank": 61,
+      "rank": 64,
+      "name": "RunAnywhere",
+      "slug": "runanywhere",
+      "scores": {
+        "CB": 38,
+        "EG": 47,
+        "NR": 50,
+        "PG": 58,
+        "PT": 32,
+        "SL": 36,
+        "VK": 45
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 43.71,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Diana Hu",
+      "oneLiner": "The default way of running On-Device AI at Scale",
+      "industry": "B2B / B2B -> Infrastructure",
+      "tags": [
+        "Developer Tools",
+        "IoT",
+        "Open Source",
+        "Enterprise",
+        "AI"
+      ]
+    },
+    {
+      "rank": 65,
       "name": "Eos AI",
       "slug": "eos-ai",
       "scores": {
@@ -2147,7 +2287,7 @@
       ]
     },
     {
-      "rank": 62,
+      "rank": 66,
       "name": "Arcline",
       "slug": "arcline",
       "scores": {
@@ -2177,7 +2317,7 @@
       "tags": []
     },
     {
-      "rank": 63,
+      "rank": 67,
       "name": "Bidflow",
       "slug": "bidflow",
       "scores": {
@@ -2212,7 +2352,7 @@
       ]
     },
     {
-      "rank": 64,
+      "rank": 68,
       "name": "Chamber",
       "slug": "chamber",
       "scores": {
@@ -2248,7 +2388,7 @@
       ]
     },
     {
-      "rank": 65,
+      "rank": 69,
       "name": "Cardboard",
       "slug": "cardboard",
       "scores": {
@@ -2284,7 +2424,7 @@
       ]
     },
     {
-      "rank": 66,
+      "rank": 70,
       "name": "SpotPay",
       "slug": "spotpay",
       "scores": {
@@ -2316,7 +2456,41 @@
       ]
     },
     {
-      "rank": 67,
+      "rank": 71,
+      "name": "Asimov",
+      "slug": "asimov",
+      "scores": {
+        "CB": 41,
+        "EG": 49,
+        "NR": 47,
+        "PG": 50,
+        "PT": 32,
+        "SL": 29,
+        "VK": 50
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 42.57,
+      "revenue": null,
+      "teamSize": 3,
+      "ycPartner": "Brad Flora",
+      "oneLiner": "Internet-scale marketplace for robot training data",
+      "industry": "B2B / B2B -> Supply Chain and Logistics",
+      "tags": [
+        "Robotics",
+        "Data Labeling",
+        "AI"
+      ]
+    },
+    {
+      "rank": 72,
       "name": "VOYGR",
       "slug": "voygr",
       "scores": {
@@ -2352,7 +2526,7 @@
       ]
     },
     {
-      "rank": 68,
+      "rank": 73,
       "name": "FullSeam",
       "slug": "fullseam",
       "scores": {
@@ -2387,7 +2561,7 @@
       ]
     },
     {
-      "rank": 69,
+      "rank": 74,
       "name": "Unifold",
       "slug": "unifold",
       "scores": {
@@ -2422,7 +2596,7 @@
       ]
     },
     {
-      "rank": 70,
+      "rank": 75,
       "name": "Corvera",
       "slug": "corvera",
       "scores": {
@@ -2458,42 +2632,7 @@
       ]
     },
     {
-      "rank": 71,
-      "name": "Origin",
-      "slug": "origin-bio",
-      "scores": {
-        "CB": 38,
-        "EG": 45,
-        "NR": 47,
-        "PG": 42,
-        "PT": 34,
-        "SL": 34,
-        "VK": 56
-      },
-      "tiers": {
-        "CB": "Pass",
-        "EG": "Neutral",
-        "NR": "Neutral",
-        "PG": "Pass",
-        "PT": "Pass",
-        "SL": "Pass",
-        "VK": "Neutral"
-      },
-      "avg": 42.29,
-      "revenue": null,
-      "teamSize": 4,
-      "ycPartner": null,
-      "oneLiner": "AI for safer cell & gene therapies",
-      "industry": "Healthcare / Healthcare -> Drug Discovery and Delivery",
-      "tags": [
-        "AI-powered Drug Discovery",
-        "Gene Therapy",
-        "Cell Therapy",
-        "Biotech"
-      ]
-    },
-    {
-      "rank": 72,
+      "rank": 76,
       "name": "Visibl Semiconductors",
       "slug": "visibl-semiconductors",
       "scores": {
@@ -2527,7 +2666,7 @@
       ]
     },
     {
-      "rank": 73,
+      "rank": 77,
       "name": "Martini",
       "slug": "martini",
       "scores": {
@@ -2563,7 +2702,7 @@
       ]
     },
     {
-      "rank": 74,
+      "rank": 78,
       "name": "Maywood",
       "slug": "maywood",
       "scores": {
@@ -2598,7 +2737,7 @@
       ]
     },
     {
-      "rank": 75,
+      "rank": 79,
       "name": "Fed10",
       "slug": "fed10",
       "scores": {
@@ -2634,7 +2773,7 @@
       ]
     },
     {
-      "rank": 76,
+      "rank": 80,
       "name": "Mantis",
       "slug": "mantis",
       "scores": {
@@ -2669,7 +2808,7 @@
       ]
     },
     {
-      "rank": 77,
+      "rank": 81,
       "name": "Wayco",
       "slug": "wayco",
       "scores": {
@@ -2703,7 +2842,7 @@
       ]
     },
     {
-      "rank": 78,
+      "rank": 82,
       "name": "Corelayer",
       "slug": "corelayer",
       "scores": {
@@ -2739,7 +2878,7 @@
       ]
     },
     {
-      "rank": 79,
+      "rank": 83,
       "name": "Fort",
       "slug": "fort",
       "scores": {
@@ -2774,75 +2913,43 @@
       ]
     },
     {
-      "rank": 80,
-      "name": "Beacon Health",
-      "slug": "beacon-health",
+      "rank": 84,
+      "name": "Lexius",
+      "slug": "lexius",
       "scores": {
-        "CB": 45,
+        "CB": 42,
         "EG": 45,
-        "NR": 45,
+        "NR": 41,
         "PG": 57,
-        "PT": 29,
-        "SL": 27,
-        "VK": 41
+        "PT": 30,
+        "SL": 31,
+        "VK": 44
       },
       "tiers": {
-        "CB": "Neutral",
+        "CB": "Pass",
         "EG": "Neutral",
-        "NR": "Neutral",
+        "NR": "Pass",
         "PG": "Neutral",
         "PT": "Pass",
         "SL": "Pass",
         "VK": "Pass"
       },
-      "avg": 41.29,
-      "revenue": null,
-      "teamSize": 2,
-      "ycPartner": null,
-      "oneLiner": "AI Agents for Primary Care",
-      "industry": "Healthcare / Healthcare",
-      "tags": [
-        "Health Tech",
-        "Primary Care",
-        "AI"
-      ]
-    },
-    {
-      "rank": 81,
-      "name": "Asimov",
-      "slug": "asimov",
-      "scores": {
-        "CB": 45,
-        "EG": 44,
-        "NR": 37,
-        "PG": 46,
-        "PT": 27,
-        "SL": 41,
-        "VK": 48
-      },
-      "tiers": {
-        "CB": "Neutral",
-        "EG": "Pass",
-        "NR": "Pass",
-        "PG": "Neutral",
-        "PT": "Pass",
-        "SL": "Pass",
-        "VK": "Neutral"
-      },
-      "avg": 41.14,
+      "avg": 41.43,
       "revenue": null,
       "teamSize": 3,
-      "ycPartner": null,
-      "oneLiner": "Internet-scale marketplace for robot training data",
-      "industry": "B2B / B2B -> Supply Chain and Logistics",
+      "ycPartner": "Brad Flora",
+      "oneLiner": "AI Security Guards",
+      "industry": "B2B / B2B -> Security",
       "tags": [
-        "Robotics",
-        "Data Labeling",
+        "Artificial Intelligence",
+        "SaaS",
+        "Computer Vision",
+        "Security",
         "AI"
       ]
     },
     {
-      "rank": 82,
+      "rank": 85,
       "name": "Checkmate",
       "slug": "checkmate",
       "scores": {
@@ -2874,7 +2981,7 @@
       ]
     },
     {
-      "rank": 83,
+      "rank": 86,
       "name": "Fern (Formerly Ishiki Labs)",
       "slug": "ishikilabs",
       "scores": {
@@ -2908,7 +3015,7 @@
       ]
     },
     {
-      "rank": 84,
+      "rank": 87,
       "name": "Mango Medical",
       "slug": "mango-medical-inc",
       "scores": {
@@ -2942,7 +3049,7 @@
       ]
     },
     {
-      "rank": 85,
+      "rank": 88,
       "name": "Remy AI",
       "slug": "remy-ai",
       "scores": {
@@ -2977,7 +3084,7 @@
       ]
     },
     {
-      "rank": 86,
+      "rank": 89,
       "name": "shortkit",
       "slug": "shortkit",
       "scores": {
@@ -3011,7 +3118,43 @@
       ]
     },
     {
-      "rank": 87,
+      "rank": 90,
+      "name": "Terminal Use",
+      "slug": "terminal-use",
+      "scores": {
+        "CB": 32,
+        "EG": 41,
+        "NR": 50,
+        "PG": 54,
+        "PT": 34,
+        "SL": 32,
+        "VK": 43
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 40.86,
+      "revenue": null,
+      "teamSize": 4,
+      "ycPartner": "Gustaf Alstromer",
+      "oneLiner": "Vercel for background agents",
+      "industry": "B2B / B2B -> Infrastructure",
+      "tags": [
+        "AIOps",
+        "Developer Tools",
+        "Workflow Automation",
+        "Infrastructure",
+        "AI"
+      ]
+    },
+    {
+      "rank": 91,
       "name": "General Astronautics",
       "slug": "generalastro",
       "scores": {
@@ -3045,7 +3188,7 @@
       ]
     },
     {
-      "rank": 88,
+      "rank": 92,
       "name": "Payna",
       "slug": "payna",
       "scores": {
@@ -3078,7 +3221,7 @@
       ]
     },
     {
-      "rank": 89,
+      "rank": 93,
       "name": "Verdex",
       "slug": "verdex",
       "scores": {
@@ -3112,7 +3255,7 @@
       ]
     },
     {
-      "rank": 90,
+      "rank": 94,
       "name": "ZeroSettle",
       "slug": "zerosettle",
       "scores": {
@@ -3148,7 +3291,7 @@
       ]
     },
     {
-      "rank": 91,
+      "rank": 95,
       "name": "Scout Out",
       "slug": "scout-out",
       "scores": {
@@ -3183,7 +3326,7 @@
       ]
     },
     {
-      "rank": 92,
+      "rank": 96,
       "name": "Condor Energy",
       "slug": "condor-energy",
       "scores": {
@@ -3216,7 +3359,7 @@
       ]
     },
     {
-      "rank": 93,
+      "rank": 97,
       "name": "Hex Security",
       "slug": "hex-security",
       "scores": {
@@ -3249,7 +3392,7 @@
       ]
     },
     {
-      "rank": 94,
+      "rank": 98,
       "name": "Perfectly",
       "slug": "perfectly",
       "scores": {
@@ -3282,7 +3425,7 @@
       ]
     },
     {
-      "rank": 95,
+      "rank": 99,
       "name": "Vela",
       "slug": "vela",
       "scores": {
@@ -3318,7 +3461,7 @@
       ]
     },
     {
-      "rank": 96,
+      "rank": 100,
       "name": "Cumulus Labs",
       "slug": "cumulus-labs",
       "scores": {
@@ -3353,7 +3496,7 @@
       ]
     },
     {
-      "rank": 97,
+      "rank": 101,
       "name": "Canary",
       "slug": "canary",
       "scores": {
@@ -3388,7 +3531,7 @@
       ]
     },
     {
-      "rank": 98,
+      "rank": 102,
       "name": "Balance",
       "slug": "getbalance",
       "scores": {
@@ -3422,7 +3565,7 @@
       ]
     },
     {
-      "rank": 99,
+      "rank": 103,
       "name": "Oximy",
       "slug": "oximy",
       "scores": {
@@ -3456,7 +3599,7 @@
       ]
     },
     {
-      "rank": 100,
+      "rank": 104,
       "name": "Servo7",
       "slug": "servo7",
       "scores": {
@@ -3492,7 +3635,7 @@
       ]
     },
     {
-      "rank": 101,
+      "rank": 105,
       "name": "Reframe",
       "slug": "usereframe",
       "scores": {
@@ -3526,7 +3669,7 @@
       ]
     },
     {
-      "rank": 102,
+      "rank": 106,
       "name": "Aemon",
       "slug": "aemon",
       "scores": {
@@ -3559,7 +3702,7 @@
       ]
     },
     {
-      "rank": 103,
+      "rank": 107,
       "name": "CodeWisp",
       "slug": "codewisp",
       "scores": {
@@ -3595,7 +3738,7 @@
       ]
     },
     {
-      "rank": 104,
+      "rank": 108,
       "name": "IncidentFox",
       "slug": "brownie",
       "scores": {
@@ -3629,7 +3772,7 @@
       ]
     },
     {
-      "rank": 105,
+      "rank": 109,
       "name": "Menza",
       "slug": "menza",
       "scores": {
@@ -3663,7 +3806,7 @@
       ]
     },
     {
-      "rank": 106,
+      "rank": 110,
       "name": "Orthogonal",
       "slug": "orthogonal",
       "scores": {
@@ -3698,7 +3841,7 @@
       ]
     },
     {
-      "rank": 107,
+      "rank": 111,
       "name": "Librar Labs",
       "slug": "librar-labs",
       "scores": {
@@ -3732,7 +3875,7 @@
       ]
     },
     {
-      "rank": 108,
+      "rank": 112,
       "name": "Patientdesk.ai",
       "slug": "patientdeskai",
       "scores": {
@@ -3767,7 +3910,7 @@
       ]
     },
     {
-      "rank": 109,
+      "rank": 113,
       "name": "Protent",
       "slug": "protent",
       "scores": {
@@ -3803,43 +3946,7 @@
       ]
     },
     {
-      "rank": 110,
-      "name": "REV1",
-      "slug": "rev1",
-      "scores": {
-        "CB": 36,
-        "EG": 41,
-        "NR": 41,
-        "PG": 59,
-        "PT": 32,
-        "SL": 26,
-        "VK": 35
-      },
-      "tiers": {
-        "CB": "Pass",
-        "EG": "Pass",
-        "NR": "Pass",
-        "PG": "Neutral",
-        "PT": "Pass",
-        "SL": "Pass",
-        "VK": "Pass"
-      },
-      "avg": 38.57,
-      "revenue": null,
-      "teamSize": 2,
-      "ycPartner": null,
-      "oneLiner": "Shortening hardware design cycles by automating post-CAD work",
-      "industry": "B2B / B2B -> Engineering, Product and Design",
-      "tags": [
-        "Hard Tech",
-        "Hardware",
-        "Design",
-        "Manufacturing",
-        "Enterprise Software"
-      ]
-    },
-    {
-      "rank": 111,
+      "rank": 114,
       "name": "Pollinate",
       "slug": "pollinate",
       "scores": {
@@ -3873,7 +3980,7 @@
       ]
     },
     {
-      "rank": 112,
+      "rank": 115,
       "name": "Synthetic Sciences",
       "slug": "synthetic-sciences",
       "scores": {
@@ -3907,7 +4014,7 @@
       ]
     },
     {
-      "rank": 113,
+      "rank": 116,
       "name": "Vector Legal",
       "slug": "vector-legal",
       "scores": {
@@ -3942,7 +4049,7 @@
       ]
     },
     {
-      "rank": 114,
+      "rank": 117,
       "name": "Forum",
       "slug": "forum",
       "scores": {
@@ -3976,7 +4083,7 @@
       ]
     },
     {
-      "rank": 115,
+      "rank": 118,
       "name": "Human Archive",
       "slug": "human-archive",
       "scores": {
@@ -4010,7 +4117,79 @@
       ]
     },
     {
-      "rank": 116,
+      "rank": 119,
+      "name": "REV1",
+      "slug": "rev1",
+      "scores": {
+        "CB": 34,
+        "EG": 37,
+        "NR": 47,
+        "PG": 57,
+        "PT": 30,
+        "SL": 25,
+        "VK": 37
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 38.14,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Gustaf Alstromer",
+      "oneLiner": "Shortening hardware design cycles by automating post-CAD work",
+      "industry": "B2B / B2B -> Engineering, Product and Design",
+      "tags": [
+        "Hard Tech",
+        "Hardware",
+        "Design",
+        "Manufacturing",
+        "Enterprise Software"
+      ]
+    },
+    {
+      "rank": 120,
+      "name": "Polymath",
+      "slug": "polymath",
+      "scores": {
+        "CB": 31,
+        "EG": 43,
+        "NR": 43,
+        "PG": 43,
+        "PT": 29,
+        "SL": 27,
+        "VK": 48
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 37.71,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Ankit Gupta",
+      "oneLiner": "Automating RL environment generation",
+      "industry": "B2B / B2B",
+      "tags": [
+        "Reinforcement Learning",
+        "B2B",
+        "Big Data",
+        "Infrastructure",
+        "AI"
+      ]
+    },
+    {
+      "rank": 121,
       "name": "Ressl AI",
       "slug": "ressl-ai",
       "scores": {
@@ -4045,43 +4224,7 @@
       ]
     },
     {
-      "rank": 117,
-      "name": "RunAnywhere",
-      "slug": "runanywhere",
-      "scores": {
-        "CB": 32,
-        "EG": 50,
-        "NR": 41,
-        "PG": 48,
-        "PT": 28,
-        "SL": 31,
-        "VK": 34
-      },
-      "tiers": {
-        "CB": "Pass",
-        "EG": "Neutral",
-        "NR": "Pass",
-        "PG": "Neutral",
-        "PT": "Pass",
-        "SL": "Pass",
-        "VK": "Pass"
-      },
-      "avg": 37.71,
-      "revenue": null,
-      "teamSize": 2,
-      "ycPartner": null,
-      "oneLiner": "The default way of running On-Device AI at Scale",
-      "industry": "B2B / B2B -> Infrastructure",
-      "tags": [
-        "Artificial Intelligence",
-        "Developer Tools",
-        "IoT",
-        "Open Source",
-        "Enterprise"
-      ]
-    },
-    {
-      "rank": 118,
+      "rank": 122,
       "name": "Cardinal",
       "slug": "trycardinal-ai",
       "scores": {
@@ -4113,7 +4256,7 @@
       ]
     },
     {
-      "rank": 119,
+      "rank": 123,
       "name": "Veriad",
       "slug": "veriad",
       "scores": {
@@ -4147,7 +4290,7 @@
       ]
     },
     {
-      "rank": 120,
+      "rank": 124,
       "name": "Captain",
       "slug": "captain",
       "scores": {
@@ -4181,7 +4324,7 @@
       ]
     },
     {
-      "rank": 121,
+      "rank": 125,
       "name": "CatchBack Cards",
       "slug": "catchback-cards",
       "scores": {
@@ -4215,7 +4358,7 @@
       ]
     },
     {
-      "rank": 122,
+      "rank": 126,
       "name": "MochaCare",
       "slug": "mochacare",
       "scores": {
@@ -4251,7 +4394,7 @@
       ]
     },
     {
-      "rank": 123,
+      "rank": 127,
       "name": "Clam",
       "slug": "clam",
       "scores": {
@@ -4286,7 +4429,7 @@
       ]
     },
     {
-      "rank": 124,
+      "rank": 128,
       "name": "Oxus",
       "slug": "oxus",
       "scores": {
@@ -4321,7 +4464,7 @@
       ]
     },
     {
-      "rank": 125,
+      "rank": 129,
       "name": "Jinba",
       "slug": "jinba",
       "scores": {
@@ -4351,42 +4494,7 @@
       "tags": []
     },
     {
-      "rank": 126,
-      "name": "Polymath",
-      "slug": "polymath",
-      "scores": {
-        "CB": 27,
-        "EG": 39,
-        "NR": 43,
-        "PG": 41,
-        "PT": 31,
-        "SL": 28,
-        "VK": 46
-      },
-      "tiers": {
-        "CB": "Pass",
-        "EG": "Pass",
-        "NR": "Pass",
-        "PG": "Pass",
-        "PT": "Pass",
-        "SL": "Pass",
-        "VK": "Neutral"
-      },
-      "avg": 36.43,
-      "revenue": null,
-      "teamSize": 2,
-      "ycPartner": null,
-      "oneLiner": "Long-horizon RL",
-      "industry": "B2B / B2B",
-      "tags": [
-        "Artificial Intelligence",
-        "B2B",
-        "Big Data",
-        "AI"
-      ]
-    },
-    {
-      "rank": 127,
+      "rank": 130,
       "name": "Cascade",
       "slug": "cascade",
       "scores": {
@@ -4422,7 +4530,7 @@
       ]
     },
     {
-      "rank": 128,
+      "rank": 131,
       "name": "Compresr",
       "slug": "compresr",
       "scores": {
@@ -4457,7 +4565,7 @@
       ]
     },
     {
-      "rank": 129,
+      "rank": 132,
       "name": "Prana",
       "slug": "prana-health",
       "scores": {
@@ -4489,7 +4597,7 @@
       ]
     },
     {
-      "rank": 130,
+      "rank": 133,
       "name": "Salus",
       "slug": "salus",
       "scores": {
@@ -4525,7 +4633,7 @@
       ]
     },
     {
-      "rank": 131,
+      "rank": 134,
       "name": "Overdrive Health",
       "slug": "overdrive-health",
       "scores": {
@@ -4559,7 +4667,7 @@
       ]
     },
     {
-      "rank": 132,
+      "rank": 135,
       "name": "Confluence Labs",
       "slug": "confluence-labs",
       "scores": {
@@ -4592,7 +4700,7 @@
       ]
     },
     {
-      "rank": 133,
+      "rank": 136,
       "name": "Doomersion",
       "slug": "doomersion",
       "scores": {
@@ -4624,7 +4732,7 @@
       ]
     },
     {
-      "rank": 134,
+      "rank": 137,
       "name": "Return Signals",
       "slug": "return-signals",
       "scores": {
@@ -4658,17 +4766,17 @@
       ]
     },
     {
-      "rank": 135,
-      "name": "Terminal Use",
-      "slug": "terminal-use",
+      "rank": 138,
+      "name": "Stilta",
+      "slug": "stilta",
       "scores": {
-        "CB": 29,
-        "EG": 37,
-        "NR": 44,
+        "CB": 33,
+        "EG": 42,
+        "NR": 35,
         "PG": 44,
-        "PT": 30,
-        "SL": 28,
-        "VK": 38
+        "PT": 27,
+        "SL": 31,
+        "VK": 35
       },
       "tiers": {
         "CB": "Pass",
@@ -4679,22 +4787,19 @@
         "SL": "Pass",
         "VK": "Pass"
       },
-      "avg": 35.71,
+      "avg": 35.29,
       "revenue": null,
       "teamSize": 4,
-      "ycPartner": null,
-      "oneLiner": "Vercel for background agents",
-      "industry": "B2B / B2B -> Infrastructure",
+      "ycPartner": "Gustaf Alstromer",
+      "oneLiner": "Agentic AI for patent attorneys",
+      "industry": "B2B / B2B",
       "tags": [
-        "AIOps",
-        "Developer Tools",
-        "Workflow Automation",
-        "Infrastructure",
-        "AI"
+        "Artificial Intelligence",
+        "LegalTech"
       ]
     },
     {
-      "rank": 136,
+      "rank": 139,
       "name": "EigenPal",
       "slug": "eigenpal",
       "scores": {
@@ -4728,41 +4833,7 @@
       ]
     },
     {
-      "rank": 137,
-      "name": "Lexius",
-      "slug": "lexius",
-      "scores": {
-        "CB": 41,
-        "EG": 36,
-        "NR": 36,
-        "PG": 43,
-        "PT": 28,
-        "SL": 28,
-        "VK": 34
-      },
-      "tiers": {
-        "CB": "Pass",
-        "EG": "Pass",
-        "NR": "Pass",
-        "PG": "Pass",
-        "PT": "Pass",
-        "SL": "Pass",
-        "VK": "Pass"
-      },
-      "avg": 35.14,
-      "revenue": null,
-      "teamSize": 3,
-      "ycPartner": null,
-      "oneLiner": "AI Crime Detection",
-      "industry": "B2B / B2B -> Retail",
-      "tags": [
-        "Artificial Intelligence",
-        "SaaS",
-        "Computer Vision"
-      ]
-    },
-    {
-      "rank": 138,
+      "rank": 140,
       "name": "Shofo",
       "slug": "shofo",
       "scores": {
@@ -4797,7 +4868,7 @@
       ]
     },
     {
-      "rank": 139,
+      "rank": 141,
       "name": "ClaimGlide",
       "slug": "claimglide",
       "scores": {
@@ -4832,7 +4903,7 @@
       ]
     },
     {
-      "rank": 140,
+      "rank": 142,
       "name": "Haladir",
       "slug": "haladir",
       "scores": {
@@ -4866,7 +4937,41 @@
       ]
     },
     {
-      "rank": 141,
+      "rank": 143,
+      "name": "Unisson",
+      "slug": "unisson",
+      "scores": {
+        "CB": 29,
+        "EG": 36,
+        "NR": 43,
+        "PG": 45,
+        "PT": 33,
+        "SL": 24,
+        "VK": 35
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 35,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Diana Hu",
+      "oneLiner": "The AI product specialist for customer-facing teams",
+      "industry": "B2B / B2B -> Productivity",
+      "tags": [
+        "Artificial Intelligence",
+        "Workflow Automation",
+        "Enterprise Software"
+      ]
+    },
+    {
+      "rank": 144,
       "name": "21st.dev",
       "slug": "21stdev",
       "scores": {
@@ -4900,7 +5005,7 @@
       ]
     },
     {
-      "rank": 142,
+      "rank": 145,
       "name": "Skillsync",
       "slug": "skillsync",
       "scores": {
@@ -4935,40 +5040,7 @@
       ]
     },
     {
-      "rank": 143,
-      "name": "Stilta",
-      "slug": "stilta",
-      "scores": {
-        "CB": 31,
-        "EG": 39,
-        "NR": 37,
-        "PG": 38,
-        "PT": 28,
-        "SL": 27,
-        "VK": 40
-      },
-      "tiers": {
-        "CB": "Pass",
-        "EG": "Pass",
-        "NR": "Pass",
-        "PG": "Pass",
-        "PT": "Pass",
-        "SL": "Strong Pass",
-        "VK": "Pass"
-      },
-      "avg": 34.29,
-      "revenue": null,
-      "teamSize": 4,
-      "ycPartner": null,
-      "oneLiner": "Cursor for patent attorneys",
-      "industry": "B2B / B2B",
-      "tags": [
-        "LegalTech",
-        "AI"
-      ]
-    },
-    {
-      "rank": 144,
+      "rank": 146,
       "name": "Velum Labs",
       "slug": "velum-labs",
       "scores": {
@@ -5003,7 +5075,7 @@
       ]
     },
     {
-      "rank": 145,
+      "rank": 147,
       "name": "RamAIn",
       "slug": "ramain",
       "scores": {
@@ -5037,7 +5109,7 @@
       ]
     },
     {
-      "rank": 146,
+      "rank": 148,
       "name": "Traverse",
       "slug": "traverse",
       "scores": {
@@ -5070,7 +5142,7 @@
       ]
     },
     {
-      "rank": 147,
+      "rank": 149,
       "name": "Ritivel",
       "slug": "ritivel",
       "scores": {
@@ -5103,75 +5175,6 @@
         "Enterprise Software",
         "Regtech",
         "Biotechnology"
-      ]
-    },
-    {
-      "rank": 148,
-      "name": "Unisson",
-      "slug": "unisson",
-      "scores": {
-        "CB": 29,
-        "EG": 33,
-        "NR": 47,
-        "PG": 40,
-        "PT": 28,
-        "SL": 24,
-        "VK": 35
-      },
-      "tiers": {
-        "CB": "Pass",
-        "EG": "Pass",
-        "NR": "Neutral",
-        "PG": "Pass",
-        "PT": "Pass",
-        "SL": "Pass",
-        "VK": "Pass"
-      },
-      "avg": 33.71,
-      "revenue": null,
-      "teamSize": 2,
-      "ycPartner": null,
-      "oneLiner": "The AI product specialist for customer-facing teams",
-      "industry": "B2B / B2B -> Productivity",
-      "tags": [
-        "Artificial Intelligence",
-        "Workflow Automation",
-        "Enterprise Software"
-      ]
-    },
-    {
-      "rank": 149,
-      "name": "Avoice",
-      "slug": "avoice",
-      "scores": {
-        "CB": 36,
-        "EG": 41,
-        "NR": 34,
-        "PG": 35,
-        "PT": 30,
-        "SL": 24,
-        "VK": 35
-      },
-      "tiers": {
-        "CB": "Pass",
-        "EG": "Pass",
-        "NR": "Pass",
-        "PG": "Pass",
-        "PT": "Pass",
-        "SL": "Strong Pass",
-        "VK": "Pass"
-      },
-      "avg": 33.57,
-      "revenue": null,
-      "teamSize": 4,
-      "ycPartner": null,
-      "oneLiner": "The AI Workspace For Architects",
-      "industry": "B2B / B2B",
-      "tags": [
-        "Construction",
-        "Enterprise Software",
-        "Architecture",
-        "AI"
       ]
     },
     {
@@ -5319,13 +5322,13 @@
       "name": "Sonarly",
       "slug": "sonarly",
       "scores": {
-        "CB": 28,
+        "CB": 31,
         "EG": 38,
-        "NR": 35,
+        "NR": 38,
         "PG": 46,
-        "PT": 30,
-        "SL": 22,
-        "VK": 34
+        "PT": 25,
+        "SL": 20,
+        "VK": 35
       },
       "tiers": {
         "CB": "Pass",
@@ -5333,14 +5336,14 @@
         "NR": "Pass",
         "PG": "Neutral",
         "PT": "Pass",
-        "SL": "Strong Pass",
+        "SL": "Pass",
         "VK": "Pass"
       },
       "avg": 33.29,
       "revenue": null,
       "teamSize": 2,
-      "ycPartner": null,
-      "oneLiner": "AI engineer to triage and fix your production alerts",
+      "ycPartner": "Jared Friedman",
+      "oneLiner": "The AI that fixes production",
       "industry": "B2B / B2B -> Engineering, Product and Design",
       "tags": [
         "Developer Tools",
@@ -5524,6 +5527,42 @@
     },
     {
       "rank": 160,
+      "name": "Ashr",
+      "slug": "ashr",
+      "scores": {
+        "CB": 27,
+        "EG": 38,
+        "NR": 38,
+        "PG": 45,
+        "PT": 25,
+        "SL": 23,
+        "VK": 34
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 32.86,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Harshita Arora",
+      "oneLiner": "Mimic Users in Your Production Environment to Catch Agent Fails",
+      "industry": "B2B / B2B -> Human Resources",
+      "tags": [
+        "Artificial Intelligence",
+        "Developer Tools",
+        "SaaS",
+        "Data Engineering",
+        "DevOps"
+      ]
+    },
+    {
+      "rank": 161,
       "name": "Sparkles",
       "slug": "sparkles",
       "scores": {
@@ -5556,7 +5595,7 @@
       ]
     },
     {
-      "rank": 161,
+      "rank": 162,
       "name": "Cajal",
       "slug": "cajal-technologies",
       "scores": {
@@ -5590,7 +5629,7 @@
       ]
     },
     {
-      "rank": 162,
+      "rank": 163,
       "name": "Fenrock AI (YC W26)",
       "slug": "fenrock-ai-yc-w26",
       "scores": {
@@ -5625,7 +5664,7 @@
       ]
     },
     {
-      "rank": 163,
+      "rank": 164,
       "name": "Polymorph",
       "slug": "polymorph",
       "scores": {
@@ -5661,7 +5700,7 @@
       ]
     },
     {
-      "rank": 164,
+      "rank": 165,
       "name": "Inviscid AI",
       "slug": "inviscid-ai",
       "scores": {
@@ -5696,7 +5735,7 @@
       ]
     },
     {
-      "rank": 165,
+      "rank": 166,
       "name": "Moda",
       "slug": "moda",
       "scores": {
@@ -5731,7 +5770,43 @@
       ]
     },
     {
-      "rank": 166,
+      "rank": 167,
+      "name": "Axis",
+      "slug": "axis-2",
+      "scores": {
+        "CB": 25,
+        "EG": 37,
+        "NR": 38,
+        "PG": 39,
+        "PT": 27,
+        "SL": 24,
+        "VK": 34
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 32,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Ankit Gupta",
+      "oneLiner": "An AI System for Institutional Trading Desks",
+      "industry": "Fintech / Fintech",
+      "tags": [
+        "Fintech",
+        "Analytics",
+        "Market Research",
+        "Trading",
+        "AI"
+      ]
+    },
+    {
+      "rank": 168,
       "name": "Copperlane",
       "slug": "copperlane",
       "scores": {
@@ -5764,7 +5839,7 @@
       ]
     },
     {
-      "rank": 167,
+      "rank": 169,
       "name": "Docura Health",
       "slug": "docura-health",
       "scores": {
@@ -5798,7 +5873,7 @@
       ]
     },
     {
-      "rank": 168,
+      "rank": 170,
       "name": "o11",
       "slug": "o11",
       "scores": {
@@ -5834,7 +5909,7 @@
       ]
     },
     {
-      "rank": 169,
+      "rank": 171,
       "name": "Fenrock AI",
       "slug": "fenrock-ai",
       "scores": {
@@ -5869,41 +5944,7 @@
       ]
     },
     {
-      "rank": 170,
-      "name": "Lucent",
-      "slug": "lucent",
-      "scores": {
-        "CB": 29,
-        "EG": 34,
-        "NR": 37,
-        "PG": 39,
-        "PT": 26,
-        "SL": 24,
-        "VK": 34
-      },
-      "tiers": {
-        "CB": "Pass",
-        "EG": "Pass",
-        "NR": "Pass",
-        "PG": "Pass",
-        "PT": "Pass",
-        "SL": "Pass",
-        "VK": "Pass"
-      },
-      "avg": 31.86,
-      "revenue": null,
-      "teamSize": 2,
-      "ycPartner": null,
-      "oneLiner": "AI that automatically watches your session replays to detect bugs.",
-      "industry": "B2B / B2B",
-      "tags": [
-        "Developer Tools",
-        "B2B",
-        "AI"
-      ]
-    },
-    {
-      "rank": 171,
+      "rank": 172,
       "name": "Zatanna",
       "slug": "zatanna",
       "scores": {
@@ -5936,7 +5977,7 @@
       ]
     },
     {
-      "rank": 172,
+      "rank": 173,
       "name": "sitefire",
       "slug": "sitefire",
       "scores": {
@@ -5970,7 +6011,7 @@
       ]
     },
     {
-      "rank": 173,
+      "rank": 174,
       "name": "Carrot Labs",
       "slug": "carrot-labs",
       "scores": {
@@ -6004,7 +6045,7 @@
       ]
     },
     {
-      "rank": 174,
+      "rank": 175,
       "name": "Bubble Lab",
       "slug": "bubble-lab",
       "scores": {
@@ -6038,7 +6079,7 @@
       ]
     },
     {
-      "rank": 175,
+      "rank": 176,
       "name": "Booko",
       "slug": "booko",
       "scores": {
@@ -6073,7 +6114,7 @@
       ]
     },
     {
-      "rank": 176,
+      "rank": 177,
       "name": "Caretta",
       "slug": "caretta",
       "scores": {
@@ -6105,38 +6146,6 @@
         "Sales",
         "Sales Enablement",
         "AI Assistant"
-      ]
-    },
-    {
-      "rank": 177,
-      "name": "Axis",
-      "slug": "axis-2",
-      "scores": {
-        "CB": 33,
-        "EG": 32,
-        "NR": 32,
-        "PG": 41,
-        "PT": 25,
-        "SL": 24,
-        "VK": 30
-      },
-      "tiers": {
-        "CB": "Pass",
-        "EG": "Pass",
-        "NR": "Pass",
-        "PG": "Pass",
-        "PT": "Strong Pass",
-        "SL": "Pass",
-        "VK": "Pass"
-      },
-      "avg": 31,
-      "revenue": null,
-      "teamSize": 2,
-      "ycPartner": null,
-      "oneLiner": "Models for Monitoring Commodities Markets",
-      "industry": "Fintech / Fintech",
-      "tags": [
-        "Fintech"
       ]
     },
     {
@@ -6382,6 +6391,41 @@
     },
     {
       "rank": 185,
+      "name": "Sentrial",
+      "slug": "sentrial",
+      "scores": {
+        "CB": 24,
+        "EG": 35,
+        "NR": 33,
+        "PG": 40,
+        "PT": 24,
+        "SL": 21,
+        "VK": 30
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Strong Pass",
+        "VK": "Pass"
+      },
+      "avg": 29.57,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Ankit Gupta",
+      "oneLiner": "Production Monitoring for AI Agents",
+      "industry": "B2B / B2B -> Engineering, Product and Design",
+      "tags": [
+        "AIOps",
+        "Developer Tools",
+        "B2B",
+        "AI"
+      ]
+    },
+    {
+      "rank": 186,
       "name": "Arzule",
       "slug": "arzule",
       "scores": {
@@ -6416,7 +6460,41 @@
       ]
     },
     {
-      "rank": 186,
+      "rank": 187,
+      "name": "Lucent",
+      "slug": "lucent",
+      "scores": {
+        "CB": 26,
+        "EG": 32,
+        "NR": 34,
+        "PG": 36,
+        "PT": 23,
+        "SL": 21,
+        "VK": 33
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 29.29,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Gustaf Alstromer",
+      "oneLiner": "AI that automatically watches your session replays to detect bugs.",
+      "industry": "B2B / B2B",
+      "tags": [
+        "Artificial Intelligence",
+        "Developer Tools",
+        "B2B"
+      ]
+    },
+    {
+      "rank": 188,
       "name": "Pollen",
       "slug": "pollen",
       "scores": {
@@ -6451,7 +6529,7 @@
       ]
     },
     {
-      "rank": 187,
+      "rank": 189,
       "name": "Tepali",
       "slug": "tepali",
       "scores": {
@@ -6487,42 +6565,7 @@
       ]
     },
     {
-      "rank": 188,
-      "name": "Sentrial",
-      "slug": "sentrial",
-      "scores": {
-        "CB": 22,
-        "EG": 29,
-        "NR": 38,
-        "PG": 33,
-        "PT": 24,
-        "SL": 20,
-        "VK": 30
-      },
-      "tiers": {
-        "CB": "Pass",
-        "EG": "Pass",
-        "NR": "Pass",
-        "PG": "Pass",
-        "PT": "Pass",
-        "SL": "Strong Pass",
-        "VK": "Pass"
-      },
-      "avg": 28,
-      "revenue": null,
-      "teamSize": 2,
-      "ycPartner": null,
-      "oneLiner": "Production Monitoring for AI Products",
-      "industry": "B2B / B2B -> Engineering, Product and Design",
-      "tags": [
-        "AIOps",
-        "Artificial Intelligence",
-        "Developer Tools",
-        "B2B"
-      ]
-    },
-    {
-      "rank": 189,
+      "rank": 190,
       "name": "Bits",
       "slug": "bits-2",
       "scores": {
@@ -6555,7 +6598,7 @@
       ]
     },
     {
-      "rank": 190,
+      "rank": 191,
       "name": "Button Computer",
       "slug": "button-computer",
       "scores": {
@@ -6589,7 +6632,7 @@
       ]
     },
     {
-      "rank": 191,
+      "rank": 192,
       "name": "Resonate",
       "slug": "resonate",
       "scores": {
@@ -6617,42 +6660,6 @@
       "oneLiner": "The first AI-native messaging platform.",
       "industry": "Consumer / Consumer",
       "tags": []
-    },
-    {
-      "rank": 192,
-      "name": "Ashr",
-      "slug": "ashr",
-      "scores": {
-        "CB": 24,
-        "EG": 32,
-        "NR": 32,
-        "PG": 34,
-        "PT": 20,
-        "SL": 20,
-        "VK": 27
-      },
-      "tiers": {
-        "CB": "Pass",
-        "EG": "Pass",
-        "NR": "Pass",
-        "PG": "Pass",
-        "PT": "Pass",
-        "SL": "Strong Pass",
-        "VK": "Pass"
-      },
-      "avg": 27,
-      "revenue": null,
-      "teamSize": 2,
-      "ycPartner": null,
-      "oneLiner": "Mimic Users in Your Production Environment to Catch Agent Fails",
-      "industry": "B2B / B2B -> Human Resources",
-      "tags": [
-        "Artificial Intelligence",
-        "Developer Tools",
-        "SaaS",
-        "Data Engineering",
-        "DevOps"
-      ]
     },
     {
       "rank": 193,
@@ -6809,33 +6816,33 @@
       "persona": "CB",
       "values": {
         "CB": null,
-        "EG": 0.58,
-        "NR": 0.61,
+        "EG": 0.59,
+        "NR": 0.62,
         "PG": 0.67,
         "PT": 0.71,
-        "SL": 0.73,
+        "SL": 0.74,
         "VK": 0.64
       }
     },
     {
       "persona": "EG",
       "values": {
-        "CB": 0.58,
+        "CB": 0.59,
         "EG": null,
         "NR": 0.6,
-        "PG": 0.74,
-        "PT": 0.56,
-        "SL": 0.49,
+        "PG": 0.73,
+        "PT": 0.55,
+        "SL": 0.48,
         "VK": 0.42
       }
     },
     {
       "persona": "NR",
       "values": {
-        "CB": 0.61,
+        "CB": 0.62,
         "EG": 0.6,
         "NR": null,
-        "PG": 0.7,
+        "PG": 0.71,
         "PT": 0.82,
         "SL": 0.72,
         "VK": 0.73
@@ -6845,11 +6852,11 @@
       "persona": "PG",
       "values": {
         "CB": 0.67,
-        "EG": 0.74,
-        "NR": 0.7,
+        "EG": 0.73,
+        "NR": 0.71,
         "PG": null,
-        "PT": 0.67,
-        "SL": 0.59,
+        "PT": 0.66,
+        "SL": 0.58,
         "VK": 0.47
       }
     },
@@ -6857,22 +6864,22 @@
       "persona": "PT",
       "values": {
         "CB": 0.71,
-        "EG": 0.56,
+        "EG": 0.55,
         "NR": 0.82,
-        "PG": 0.67,
+        "PG": 0.66,
         "PT": null,
-        "SL": 0.86,
+        "SL": 0.85,
         "VK": 0.78
       }
     },
     {
       "persona": "SL",
       "values": {
-        "CB": 0.73,
-        "EG": 0.49,
+        "CB": 0.74,
+        "EG": 0.48,
         "NR": 0.72,
-        "PG": 0.59,
-        "PT": 0.86,
+        "PG": 0.58,
+        "PT": 0.85,
         "SL": null,
         "VK": 0.78
       }

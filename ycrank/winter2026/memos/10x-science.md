@@ -11,115 +11,115 @@
 | Team Size | 3 |
 | Location | San Francisco, CA, USA |
 | Tags | SaaS, B2B, Biotech, Enterprise Software, AI |
+| YC Partner | Jon Xu |
+| Emails | dsroberts@stanford.edu (founder academic email, Bertozzi Group page); no official company email found |
 
 ## The Idea
 
-**Problem:** AI-powered drug discovery platforms (e.g., generative protein design, structure prediction) are accelerating the front end of the pharmaceutical pipeline, flooding it with new drug candidates. However, the development stage — specifically protein characterization and quality assessment via mass spectrometry-based methods like peptide mapping — remains slow, expensive, and not scalable (YC company page). Current workflows rely on legacy software tools (e.g., Thermo Fisher BioPharma Finder, Waters UNIFI, Protein Metrics Byos/Byonic) that require significant manual effort, are often instrument-locked, and were not designed for the throughput demands of AI-accelerated pipelines. The customer segment is biopharmaceutical companies developing protein therapeutics (monoclonal antibodies, biosimilars, cell and gene therapies) that must characterize drug candidates before clinical trials.
+**Problem:** AI-powered drug discovery is flooding the biopharma pipeline with new drug candidates, but the downstream development stage—specifically protein characterization and quality assessment—remains slow and manual, creating a bottleneck. Per FDA data cited by the company, 74% of drug rejections cite "chemistry, manufacturing, and quality control deficiencies" (YC LinkedIn post, Feb 2026). Current workflows rely on legacy mass spectrometry analysis tools (e.g., Protein Metrics Byos, SCIEX Biologics Explorer, Thermo Fisher BioPharma Finder) that require weeks of manual data curation per analysis cycle and domain expert involvement at every step. The customer segment is biopharmaceutical companies developing antibodies, cell therapies, and engineered proteins requiring molecular-level characterization.
 
-**Approach:** 10x Science applies modern AI to protein characterization and quality assessment, specifically targeting peptide mapping and proteoform analysis for protein therapeutics (10xscience.com metadata; YC company page). The platform is described as "AI-native" and "end-to-end," aiming to automate the analysis pipeline from raw mass spectrometry data through to quality reporting. The company's specializations listed on LinkedIn include biologics, drug development, proteomics, mass spectrometry, proteoform characterization, AI, machine learning, and de novo sequencing (LinkedIn company page).
+**Approach:** 10x Science applies AI/ML to peptide mapping and mass spectrometry-based protein analysis, automating workflows that currently take weeks and compressing them to minutes. The platform provides end-to-end automated protein characterization with reproducible, enterprise-ready results, eliminating the need for extensive manual data curation (YC LinkedIn post, Feb 2026). Specialties include de novo sequencing, proteoform characterization, and glycoprotein analysis (LinkedIn company page).
 
-**Differentiation:** Existing solutions fall into two categories: (1) instrument-vendor-bundled software (Thermo Fisher BioPharma Finder, Waters UNIFI) that is tied to specific hardware platforms and lacks AI-native processing, and (2) standalone analysis software (Protein Metrics Byos/Byonic, now owned by Dotmatics) that was built pre-AI and bolts on incremental features. 10x Science positions itself as purpose-built from the ground up with AI at the core, instrument-agnostic, and designed for the throughput and complexity of modern protein therapeutics pipelines. The founding team's deep domain expertise in top-down mass spectrometry and glycoproteomics from Carolyn Bertozzi's Nobel Prize-winning lab at Stanford provides scientific credibility that pure-software competitors lack.
+**Differentiation:** Existing solutions—Protein Metrics Byos (acquired by Dotmatics/Insightful Science in 2021), SCIEX Biologics Explorer (built on Genedata Expressionist), and Thermo Fisher BioPharma Finder—are vendor-specific or require significant manual intervention. 10x Science claims to be "AI-native" rather than AI-augmented, designed from the ground up with modern ML rather than retrofitting AI onto legacy analytical software. The company claims 10x faster processing compared to current tools (10xscience.com). The founding team's specific expertise in top-down mass spectrometry and chemical biology from Carolyn Bertozzi's lab at Stanford provides deep domain knowledge in the exact analytical methods the software automates.
 
-**Business Model:** No public pricing page found. The website was not fully accessible at time of research (Cloudflare protection blocked content rendering). [Inferred]: Most likely monetization path is enterprise SaaS — annual subscriptions sold to biopharma analytical development teams, potentially with consumption-based tiers for data processing volume. This is consistent with the company's "SaaS" and "Enterprise Software" tags and B2B focus.
+**Business Model:** No public pricing page found. [Inferred]: Most likely monetization is enterprise SaaS, potentially with per-analysis or seat-based pricing, given the B2B/enterprise software tags and the biopharma customer base. The "$150,000+ time savings per team/month" claim (YC LinkedIn post, Feb 2026) suggests the product could command substantial per-seat or per-team pricing.
 
-**TAM/SAM:** The protein characterization and identification market was valued at USD 2,644.79 million in 2024 and is expected to reach USD 4,859.67 million by 2031 (Reanin via search snippet). Alternate estimates are significantly higher: USD 18.17 billion in 2024 projected to USD 45.24 billion by 2032 (Global Growth Insights via search snippet). The wide range reflects different scope definitions (instruments + reagents + software vs. software-only). No public SAM estimate was found specific to the software-only segment for biopharma protein characterization.
+**TAM/SAM:** The global protein characterization and identification market was valued at USD 5.05 billion in 2025 and is projected to reach USD 7.63 billion by 2033 at a 5.29% CAGR (Precedence Research, via search snippet). An alternative estimate values the market at USD 2,644.79 million in 2024, growing to USD 4,859.67 million by 2031 at a 9.1% CAGR (Reanin Research, via search snippet). The AI in drug discovery market was valued at $1.1 billion in 2022, growing at 29.6% CAGR through 2030 (MarketsandMarkets, via search snippet). [Inferred]: The serviceable addressable market is the software-only portion of biopharma protein characterization, specifically peptide mapping and quality analysis tools for biotherapeutics development teams. This is a narrower slice of the overall protein characterization market, which includes instruments and reagents.
 
-**GTM / Distribution:** [Inferred]: Most likely distribution path is direct enterprise sales to analytical development and quality control teams within biopharma companies, supplemented by academic lab adoption (the team's Stanford network and publication record provide a natural entry point to academic proteomics labs). The company's YC partner is Jon Xu (YC company page).
+**GTM / Distribution:** The company sponsored a session at US HUPO 2026, a proteomics conference (LinkedIn company page). The LinkedIn post mentions they are "currently onboarding customers" (LinkedIn search snippet). [Inferred]: Most likely distribution path is direct enterprise sales to biopharma companies, leveraging the founders' Stanford/Bertozzi lab network and conference presence to build initial pipeline with analytical chemistry and proteomics teams.
 
 ## Defensibility
 
-The founding team brings deep, specialized domain expertise: 18+ years collective experience in proteomics and mass spectrometry, 47+ scientific publications, and two US patents (Stanford Profiles, David S. Roberts). The founders trained in Carolyn Bertozzi's lab at Stanford (2022 Nobel Prize in Chemistry), and at the Broad Institute of MIT and Harvard's Proteomics Platform — two of the world's leading centers for protein analysis. This combination of cutting-edge scientific knowledge and AI/ML engineering capability (via the CTO's background) creates a high bar for replication by pure-software teams.
+The founding team's combined 18+ years of domain expertise and 47+ scientific publications in proteomics and mass spectrometry create deep technical knowledge. David Roberts' specific expertise in top-down mass spectrometry and glycoproteomics from both UW-Madison (under Ying Ge) and Stanford (under Carolyn Bertozzi, 2022 Nobel laureate in Chemistry) represents rare domain specialization. The intersection of this proteomics expertise with AI/ML (via Vishnu Tejus' computer vision and ML background) is a technically complex combination to replicate. Over time, proprietary training data from customer protein characterization runs could build a data moat as models improve with more diverse protein datasets.
 
-Potential moat development: As the platform processes more biopharma protein characterization data, it could accumulate proprietary training data for AI models that improve accuracy and speed — creating a data flywheel. Switching costs could develop if the platform becomes embedded in customers' regulatory submission workflows (GLP/GMP documentation).
+**Market structure:** Incumbent analytical instrument vendors (Thermo Fisher, SCIEX/Danaher, Waters) bundle software with hardware sales and derive primary revenue from instrument and consumable sales. Building an AI-native standalone software platform that may reduce reliance on vendor-specific hardware creates a channel conflict—instrument vendors would cannibalize their own hardware lock-in by offering truly vendor-neutral, AI-automated software. Genedata was acquired by Danaher in August 2024 (search snippet), further consolidating analytical software within instrument vendor ecosystems and potentially reducing innovation incentive.
 
-**Market structure:** Incumbent instrument vendors (Thermo Fisher, Waters, Agilent) bundle their characterization software with hardware sales. Building a best-in-class standalone AI platform would cannibalize their software bundling strategy and potentially decouple customers from their instrument lock-in. This creates a structural conflict: incumbents are incentivized to maintain instrument-software integration rather than build instrument-agnostic solutions. Additionally, the technical complexity of combining deep proteomics domain knowledge with modern AI/ML engineering spans two talent pools that rarely overlap.
-
-**Commoditization risk:** Large AI/ML companies (e.g., Google DeepMind, which built AlphaFold) could theoretically enter this space, but biopharma protein characterization for drug development requires specialized regulatory knowledge and domain-specific mass spectrometry expertise that makes casual entry unlikely. Other biotech AI startups focused on drug discovery (not development) would need to pivot significantly. The most credible competitive threat comes from Dotmatics/Protein Metrics adding AI capabilities to their existing Byonic/Byos platform, given their installed base of 200+ biopharma companies (Dotmatics website).
+**Commoditization risk:** General-purpose AI/ML capabilities are increasingly accessible, so the AI component alone is not defensible. However, the training data pipeline—requiring deep understanding of mass spectrometry data formats, protein chemistry edge cases, and regulatory requirements for biotherapeutic characterization—creates meaningful barriers. Large language model companies or horizontal AI platforms lack the domain-specific training data and regulatory context to enter this niche quickly.
 
 ## Market & Traction
 
-**Traction signals:**
-- LinkedIn company page: 415 followers (LinkedIn, fetched Feb 2026)
-- LinkedIn employee count: 3 (LinkedIn, fetched Feb 2026)
-- Company founded: 2025 (LinkedIn company page)
-- YC Batch: Winter 2026 (YC company page)
-- No public revenue, user count, Product Hunt launch, app store presence, or press coverage in named publications found
-- No Twitter/X company account found
-- No Discord or Slack community found
-- David S. Roberts Twitter/X: @DSRoberts007 (follower count not retrievable)
-- Vishnu Rajan Tejus Twitter/X: @vrtejus (follower count not retrievable)
-- Vishnu Rajan Tejus GitHub: github.com/vrtejus — 23 public repos, 19 stars total (GitHub)
+1. **Traction signals:**
+   - Company is "currently onboarding customers" (LinkedIn search snippet, 2026)
+   - Claimed "$150,000+ time savings per team/month" (YC LinkedIn post, Feb 2026)—this is a customer value proposition claim, not confirmed revenue
+   - Sponsored US HUPO 2026 proteomics conference session (LinkedIn company page)
+   - LinkedIn company page: 467 followers (LinkedIn, fetched Mar 2026)
+   - Twitter/X: @10x_Science (handle confirmed via YC page; follower count not retrievable)
+   - Founded: 2025 (LinkedIn company page)
+   - Officially launched: February 2026 (LinkedIn company page)
+   - No Product Hunt listing found
+   - No press coverage in named publications found
+   - No app store presence (enterprise web-based product)
+   - No Discord/Slack community found
 
-**Competitive landscape:**
+2. **Competitive landscape:**
 
-1. **Protein Metrics (Dotmatics)** — Acquired by Insightful Science/Dotmatics in Dec 2021 (BioPharm International); originally raised $950K (Crunchbase via search snippet). Products: Byonic (MS/MS search engine), Byos (desktop analysis), Byosphere (cloud platform). Used by 200+ biopharma companies and 300+ academic institutions (Dotmatics website). Now backed by Insight Partners. Key differentiator vs. 10x Science: established installed base and regulatory-validated workflows, but pre-AI architecture.
+   - **Protein Metrics / Byos** (acquired by Insightful Science/Dotmatics, Dec 2021; now part of Dotmatics under Insightful Science): Market-leading biotherapeutic mass spectrometry software with 200+ biopharma customers and 300+ academic institutions (proteinmetrics.com). Offers Byos desktop and Byosphere cloud platform. Key differentiator vs. 10x Science: established customer base and integration ecosystem, but acquired into a large conglomerate and not AI-native.
+   - **SCIEX Biologics Explorer** (owned by Danaher; built on Genedata Expressionist): Comprehensive protein characterization software launched in 2021, bundled with SCIEX instruments. Key differentiator vs. 10x Science: hardware-software integration with SCIEX mass spectrometers, but vendor-locked and not AI-native.
+   - **Genedata Expressionist** (acquired by Danaher, Aug 2024; estimated $50-100M revenue, Owler via search snippet): Enterprise platform for biopharma mass spectrometry data analysis. Key differentiator vs. 10x Science: mature enterprise deployment and broad analytical scope, but legacy architecture without AI-native automation.
+   - **RedShiftBio** ($101M raised, Owler via search snippet): Bio-analytical instrumentation for protein characterization. Key differentiator vs. 10x Science: hardware-focused (Microfluidic Modulation Spectroscopy), not a software-only platform.
+   - **Thermo Fisher BioPharma Finder** (part of Thermo Fisher Scientific, public company, ~$45B revenue): Integrated with Thermo Fisher mass spectrometry instruments. Key differentiator vs. 10x Science: part of the dominant analytical instrument ecosystem, but vendor-locked software.
 
-2. **Biognosys** — Raised ~$22M total (PitchBook via search snippet); revenue unknown. Founded 2008, ETH Zurich spin-off. Products: Spectronaut, SpectroDive, SpectroMine for proteomics analysis. Also offers contract research services. Key differentiator vs. 10x Science: services + software model with long track record, but primarily a contract research organization rather than a pure software platform.
-
-3. **Thermo Fisher Scientific (BioPharma Finder)** — Public company (market cap ~$180B+). BioPharma Finder software is bundled with Orbitrap mass spectrometers. Supports peptide mapping, PTM analysis, and sequence confirmation. Key differentiator vs. 10x Science: deep hardware-software integration and massive installed base, but instrument-locked (only works with Thermo Fisher instruments) and not AI-native.
-
-4. **Waters Corporation (UNIFI)** — Public company. Biopharmaceutical Platform Solution with UNIFI provides automated peptide mapping, glycan analysis, and intact protein analysis. Key differentiator vs. 10x Science: established regulatory acceptance in biopharma quality labs, but similarly instrument-locked (Waters UPLC/MS systems) and legacy architecture.
-
-**Why now:**
-[Inferred]: Three converging catalysts: (1) The explosion of AI-designed protein therapeutics (driven by AlphaFold, RFdiffusion, and generative protein design tools reaching production maturity in 2023-2025) is creating an unprecedented volume of drug candidates requiring characterization — a demand-side shock to existing workflows. (2) Modern AI/ML models (transformers, foundation models) have recently demonstrated the ability to learn mass spectrometry fragmentation patterns and predict spectra, making AI-native characterization software technically feasible for the first time. (3) The FDA's increasing acceptance of advanced analytical methods for biologics creates regulatory tailwinds for AI-assisted characterization tools.
+3. **Why now:** [Inferred]: Two converging catalysts: (a) AI-powered drug discovery platforms (Recursion, Insilico Medicine, Absci, etc.) have dramatically increased the volume of drug candidates entering the development pipeline, creating a characterization bottleneck that did not exist at current scale before ~2023-2024; (b) advances in transformer-based architectures and foundation models for scientific data have made it technically feasible to automate complex mass spectrometry interpretation that previously required expert manual curation. The consolidation of legacy software vendors into large instrument conglomerates (Genedata→Danaher in 2024, Protein Metrics→Dotmatics in 2021) may also be reducing innovation pace in this segment.
 
 ## Founders & Team
 
 **David S. Roberts** — Co-founder & CEO
-- Ph.D. in Materials Chemistry and Analytical Chemistry, University of Wisconsin-Madison (2023); B.S. in Chemistry and Mathematics, UC San Diego (2016) (Stanford Profiles)
-- Postdoctoral Scholar at Stanford University in Carolyn Bertozzi's lab (2022 Nobel Laureate in Chemistry) (Stanford Profiles)
-- Damon Runyon Fellow (2024–present); Postdoctoral Career Development Award, American Society for Mass Spectrometry (2024); US HUPO Early Career Researcher Award (2021) (Stanford Profiles)
-- 50+ peer-reviewed publications in journals including *Nature*, *JACS*, and *PNAS* (Stanford Profiles)
-- 2 issued US patents related to cardiac troponin assays and siloxane resin applications (Stanford Profiles)
-- Twitter/X: @DSRoberts007 — follower count not retrievable
-- LinkedIn: linkedin.com/in/davidstephenroberts/ — "Founder and CEO @ 10x Science (YC W26)" (LinkedIn via search snippet)
+- B.S. Chemistry and Mathematics, UC San Diego (2016); Ph.D. Materials Chemistry and Analytical Chemistry, University of Wisconsin-Madison (2023, under Profs. Song Jin and Ying Ge) (Bertozzi Group page)
+- Postdoctoral researcher and Damon Runyon Cancer Research Fellow, Bertozzi Group, Stanford University (under 2022 Nobel laureate Carolyn Bertozzi) (Bertozzi Group page, Damon Runyon Foundation)
+- 37+ peer-reviewed publications (YC LinkedIn post)
+- Research focus: top-down mass spectrometry, glycoproteomics, chemical biology (Stanford Profiles)
+- Twitter/X: @DSRoberts007 (handle found via search; follower count not retrievable)
+- LinkedIn: linkedin.com/in/davidstephenroberts — "Founder and CEO @ 10x Science (YC W26)"
 - GitHub: No public repos found
 
 **Andrew Reiter** — Co-founder & COO
-- B.S. in Biology, UNC-Chapel Hill (Bertozzi Group website)
-- Ph.D. candidate in Biology, Stanford University; co-advised by Carolyn Bertozzi and Or Gozani; NSF-GRFP fellow (Bertozzi Group website)
-- Previously at the Broad Institute of MIT and Harvard, Steven Carr's Proteomics Platform, where he developed new methods in mass spectrometry (Bertozzi Group website)
+- B.S. Biology, UNC-Chapel Hill (Bertozzi Group page)
+- Previously: developed new mass spectrometry methods at Steven Carr's Proteomics Platform, Broad Institute of MIT and Harvard (Bertozzi Group page)
+- Currently Ph.D. student in Biology at Stanford, co-advised by Carolyn Bertozzi and Or Gozani; NSF-GRFP fellow (Bertozzi Group page)
+- Co-President, Stanford Biotechnology Group (Stanford Biotechnology Group website)
 - Twitter/X: No public account found
-- LinkedIn: Not individually confirmed (multiple "Andrew Reiter" profiles exist)
+- LinkedIn: No direct profile URL confirmed
 - GitHub: No public repos found
 
 **Vishnu Rajan Tejus** — Co-founder & CTO
-- Computer Science coursework at Stanford University, Carnegie Mellon University, De Anza College, and MITx (LinkedIn via search snippet; Weekday.works)
-- Founding Software Engineer at Nooks (YC-backed; raised $70M+ total, $43M Series B from Kleiner Perkins) (The Org; PRNewswire)
-- CTO at RoboTutor, CMU Global Learning XPRIZE team (Weekday.works via search snippet)
-- Computer Vision Researcher at Stanford University (Weekday.works via search snippet)
-- Note: The YC page describes the team as including "a 2x YC Founder." Vishnu's role at Nooks was listed as "Founding Software Engineer" (The Org), not co-founder. Whether a prior YC company exists or the term is used loosely could not be confirmed from public sources.
-- Twitter/X: @vrtejus — follower count not retrievable
-- LinkedIn: linkedin.com/in/vishnutejus/ (LinkedIn)
-- GitHub: github.com/vrtejus — 23 repos, 19 total stars; bio: "Founder and CTO at @10x-Science"; notable: CysTeam (1st Prize, QBI Hackathon 2025) (GitHub)
+- Education: coursework at De Anza College, Carnegie Mellon University (Educational Data Mining), Stanford d.school (Engineering Design), MITx and Udacity certificates in Computer Science (Weekday.works profile)
+- Previously: Founding Software Engineer (2nd employee) at Nooks (2021-2025), an AI-powered sales platform that raised $43M Series B from Kleiner Perkins (Weekday.works profile; Nooks blog)
+- CTO of CMU's RoboTutor project, one of five $1M Global Learning XPRIZE finalists (CMU website via search snippet)
+- Research intern at Stanford ChEM-H (Chemical Biology), UCSF, and University of Washington (Weekday.works profile)
+- Published researcher; serves on program committee for Machine Learning in Computational Biology (MLCB) at Stanford (search results)
+- Described as "2x YC Founder" (YC page)—Nooks was a YC-backed company; 10x Science is his second YC venture
+- Twitter/X: @vrtejus (handle found; follower count not retrievable)
+- LinkedIn: linkedin.com/in/vishnutejus — "Founder and CTO at 10x Science (YC W26)"
+- GitHub: github.com/vrtejus (found via search; star count not retrievable)
 
-**Co-founder relationship:** David S. Roberts and Andrew Reiter are both members of Carolyn Bertozzi's lab at Stanford University and are co-located in the ChEM-H Building (Bertozzi Group website; Stanford Profiles). Both have mass spectrometry and proteomics expertise. Vishnu Rajan Tejus also lists Stanford University as an affiliation (LinkedIn, Weekday.works), providing a plausible connection point, though his work was in computer science/computer vision rather than chemistry.
+**Co-founder relationship:** David Roberts and Andrew Reiter both work in Carolyn Bertozzi's lab at Stanford, with overlapping research in mass spectrometry-based proteomics. Vishnu Tejus was a research intern at Stanford ChEM-H (the institute housing Bertozzi's lab), providing the likely connection point between all three founders at Stanford.
 
-**Founder-market fit:** The CEO (Roberts) has a Ph.D. specifically in analytical chemistry with deep expertise in top-down mass spectrometry and proteoform characterization — the exact technical domain 10x Science targets. The COO (Reiter) trained at the Broad Institute's Proteomics Platform, one of the premier mass spectrometry facilities globally, and continues proteomics research at Stanford. Together they bring first-hand experience with the pain points of protein characterization. The CTO (Tejus) provides the AI/ML engineering and startup scaling experience, having built products at Nooks from early stage through a $43M Series B. The combination of two deep domain scientists with a technical builder who has scaled a YC company is well-suited to this problem.
+**Founder-market fit:** The team combines deep proteomics and mass spectrometry expertise (Roberts: 37+ publications, Damon Runyon Fellow, trained under a Nobel laureate; Reiter: Broad Institute proteomics platform experience, NSF-GRFP) with strong AI/ML engineering capability (Tejus: CMU XPRIZE finalist, founding engineer at a YC-backed AI company, ML researcher at Stanford). This is a rare combination of wet-lab analytical chemistry domain knowledge and production-grade software engineering experience. Roberts' specific work on top-down mass spectrometry—the exact technique the platform automates—represents direct founder-problem alignment. Carolyn Bertozzi (2022 Nobel laureate) is noted as a mentor/supporter (LinkedIn company page).
 
 ## Key Risks
 
-**Brand confusion with 10x Genomics:** 10x Genomics is a publicly traded company (NASDAQ: TXG) in a closely adjacent space (single-cell and spatial biology). Search results for "10x Science" consistently returned 10x Genomics results, and LinkedIn searches surfaced 10x Genomics exclusively. This creates significant brand disambiguation challenges for SEO, marketing, and customer discovery. No evidence of IP/trademark conflict was found, but the market confusion is evident from research.
+**Brand confusion with 10x Genomics:** 10x Genomics (NASDAQ: TXG) is a well-known publicly traded life sciences company with significant brand recognition in genomics and spatial biology. Search results for "10x Science" consistently return 10x Genomics results, creating SEO and brand disambiguation challenges. This could complicate marketing, customer acquisition, and investor discovery.
 
-**Instrument vendor platform risk:** Thermo Fisher and Waters together dominate the biopharma mass spectrometry instrument market. If either vendor aggressively improves their bundled software with AI capabilities (Thermo Fisher already offers BioPharma Finder with an "MS2 prediction algorithm"), they could leverage their hardware lock-in to block adoption of third-party analysis software. Mitigation: the company's instrument-agnostic positioning could appeal to labs running multi-vendor instrument fleets.
+**Founder academic commitments:** Two of three founders (Roberts as a postdoc, Reiter as a Ph.D. student) appear to hold active academic positions at Stanford. The company is not currently hiring (per YC page). The transition from academic research to full-time startup operations, and the potential conflict between academic obligations and company growth, represents execution risk.
 
-**Regulatory validation hurdle:** Biopharma protein characterization for regulatory submissions (IND, BLA filings) requires validated analytical methods. Customers may be reluctant to adopt AI-based analysis software that has not yet been validated in a GxP-compliant environment or referenced in regulatory filings. Building this validation track record takes time and requires early customer partnerships with regulatory-stage programs.
+**Regulatory validation requirements:** Biopharma protein characterization software used in drug development pipelines may need to meet FDA 21 CFR Part 11 compliance and GxP validation requirements. Building enterprise-grade software that meets these regulatory standards is resource-intensive and could slow go-to-market compared to research-use-only tools.
 
-**Dotmatics/Protein Metrics competitive response:** Protein Metrics (now Dotmatics, backed by Insight Partners) has an installed base of 200+ biopharma companies (Dotmatics website) and could add AI features to Byonic/Byos. Their existing customer relationships and validated workflows create meaningful switching cost barriers that 10x Science must overcome.
+**Incumbent integration moats:** Target customers likely already have mass spectrometry instruments from Thermo Fisher, SCIEX, or Waters, with bundled software deeply embedded in validated workflows. Switching costs in regulated biopharma environments are high—customers must revalidate analytical methods when changing software, creating significant inertia favoring incumbents.
 
-**"2x YC Founder" claim verification:** The company describes a team member as a "2x YC Founder" (YC company page). Public records show Vishnu Tejus was a "Founding Software Engineer" at Nooks (The Org), not a listed co-founder. This may reflect a loose use of terminology or an unverifiable prior YC affiliation. Any misrepresentation of founder credentials could be a diligence concern.
+**Single-domain concentration:** The platform focuses specifically on protein characterization for biotherapeutics. If the AI drug discovery pipeline flood slows or consolidates to fewer candidates, the urgency of the characterization bottleneck diminishes. Revenue diversification pathways beyond this niche are unclear at this stage.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $2.6B protein characterization and identification market in 2024, growing to $4.9B by 2031 (Reanin via search snippet). Alternate estimate: $18.2B in 2024 to $45.2B by 2032 (Global Growth Insights via search snippet). Wide range reflects scope differences (instruments + reagents + software vs. narrower definitions). |
+| TAM | Protein characterization & identification market: USD 5.05B in 2025, projected USD 7.63B by 2033, 5.29% CAGR (Precedence Research, via search snippet) |
 | SAM | No public data found for software-only segment |
-| Traction | 415 LinkedIn followers (LinkedIn, Feb 2026). No public revenue, user count, press coverage, or product launch data found. |
+| Traction | "Currently onboarding customers" (LinkedIn, 2026); 467 LinkedIn followers (LinkedIn, Mar 2026); sponsored US HUPO 2026 conference; launched Feb 2026 |
 | Revenue Signal | No public data found |
-| Founders | David S. Roberts (CEO): Ph.D. UW-Madison, Stanford postdoc in Bertozzi lab, 50+ publications, 2 US patents, Damon Runyon Fellow. Andrew Reiter (COO): B.S. UNC-Chapel Hill, Stanford Ph.D. candidate in Bertozzi lab, ex-Broad Institute Proteomics Platform, NSF-GRFP. Vishnu Rajan Tejus (CTO): Stanford/CMU CS, founding engineer at Nooks ($70M+ raised), CTO at RoboTutor CMU XPRIZE. |
-| Competitors | Protein Metrics/Dotmatics ($950K raised pre-acquisition, acquired 2021 by Dotmatics/Insight Partners, revenue unknown, 200+ biopharma customers; established peptide mapping software vs. 10x Science's AI-native approach); Biognosys (~$22M raised, revenue unknown, services + software model vs. pure software); Thermo Fisher BioPharma Finder (public company, instrument-bundled software vs. instrument-agnostic); Waters UNIFI (public company, instrument-bundled vs. instrument-agnostic) |
-| Moat Signals | Founding team from Nobel Laureate's lab with deep proteomics domain expertise; 50+ publications and 2 US patents (CEO); potential data flywheel from AI model training on biopharma characterization data |
-| Risk Factors | Brand confusion with 10x Genomics (NASDAQ: TXG), instrument vendor competitive response (Thermo Fisher/Waters AI upgrades), regulatory validation timeline for GxP-compliant environments |
-| Founder Reach | David S. Roberts: Twitter @DSRoberts007 (count not retrievable), LinkedIn linkedin.com/in/davidstephenroberts/. Andrew Reiter: Twitter not found, LinkedIn not individually confirmed. Vishnu Rajan Tejus: Twitter @vrtejus (count not retrievable), LinkedIn linkedin.com/in/vishnutejus/, GitHub 19 stars. |
-| Distribution Signals | No public data found (no Product Hunt launch, no app store presence, no Chrome extension, no community channels identified) |
+| Founders | David S. Roberts (CEO): Stanford postdoc, Damon Runyon Fellow, Bertozzi Lab, 37+ publications. Andrew Reiter (COO): Broad Institute alumnus, Stanford PhD, NSF-GRFP. Vishnu R. Tejus (CTO): 2x YC founder, founding engineer at Nooks, CMU XPRIZE finalist. |
+| Competitors | Protein Metrics/Byos (acquired by Dotmatics 2021, 200+ biopharma customers, revenue unknown, established market leader); Genedata Expressionist (acquired by Danaher Aug 2024, est. $50-100M revenue, enterprise biopharma MS platform); SCIEX Biologics Explorer (Danaher subsidiary, revenue unknown, hardware-bundled software); RedShiftBio ($101M raised, revenue unknown, hardware-focused protein characterization); Thermo Fisher BioPharma Finder (part of $45B+ revenue parent, instrument-bundled) |
+| Moat Signals | Deep domain expertise (47+ publications, Nobel laureate lab lineage); technically complex intersection of proteomics + AI; potential data moat from customer protein datasets over time |
+| Risk Factors | Brand confusion with 10x Genomics, incumbent integration moats in regulated biopharma, founder academic commitment transition |
+| Founder Reach | David Roberts: Twitter @DSRoberts007 (count not retrievable), LinkedIn confirmed. Andrew Reiter: Twitter not found, LinkedIn not confirmed. Vishnu Tejus: Twitter @vrtejus (count not retrievable), LinkedIn confirmed, GitHub github.com/vrtejus. |
+| Distribution Signals | Sponsored US HUPO 2026 conference session (LinkedIn); onboarding customers (LinkedIn, 2026); no Product Hunt listing; no app store presence |
+| Emails | dsroberts@stanford.edu (Bertozzi Group page — academic email); no official company email found |

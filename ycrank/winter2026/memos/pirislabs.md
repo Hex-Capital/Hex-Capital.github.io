@@ -1,6 +1,6 @@
 ﻿# Piris Labs
 
-> Inference at Light Speed
+> Cerebras-speed inference but scalable
 
 | Field | Value |
 |-------|-------|
@@ -10,107 +10,117 @@
 | Industry | B2B / B2B -> Infrastructure |
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
-| Tags | Hard Tech, B2B, Cloud Computing, AI, Networks |
+| Tags | Artificial Intelligence, Hard Tech, B2B, Cloud Computing, Networks |
+| YC Partner | Ankit Gupta |
+| Emails | contact@pirislabs.io, founders@pirislabs.io |
 
 ## The Idea
 
-**Problem:** Running inference on trillion-parameter AI models requires massive GPU clusters that suffer from data movement bottlenecks — the "memory wall." Moving data between memory and compute consumes the majority of time and energy in inference workloads, resulting in low effective FLOP utilization and unsustainable unit economics. Customers today use traditional GPU clusters from providers like NVIDIA, which are expensive to procure and power-intensive to operate at scale.
+**Problem:** AI inference at scale is bottlenecked by data movement between processors, not by raw compute. The "memory wall" — the gap between processor speed and memory/interconnect bandwidth — forces data center operators to deploy expensive GPU clusters that achieve poor effective FLOP utilization, especially for trillion-parameter models. Current copper-based interconnects impose latency, power, and cost constraints that make large-model inference economically unsustainable. Existing solutions include NVIDIA GPU clusters with NVLink/InfiniBand, and specialized inference chips from Groq (LPU) and Cerebras (wafer-scale), each with their own scaling limitations.
 
-**Approach:** Piris Labs offers a full-stack inference service that pairs proprietary photonic hardware with a vertically optimized software stack. By using optical (light-based) interconnects in place of traditional electronic data pathways, the system reduces the data movement bottleneck. The YC profile claims 5x lower latency, 10x lower power consumption per bit, and 2x lower cost per token compared to traditional approaches (YC company page). The company positions itself as "The Unified Fabric for AI" (pirislabs.io).
+**Approach:** Piris Labs offers a full-stack inference service combining proprietary photonic (optical) interconnects with a vertically optimized software stack. By replacing copper-based data links with optical interconnects, the system reduces data movement latency and power consumption. The company claims 5x lower latency, 10x lower power per bit, and 2x lower cost per token compared to traditional GPU clusters (YC company page). The vertical integration of hardware interconnects and inference software is designed to maximize hardware utilization and deliver performance comparable to Cerebras-speed inference but with horizontal scalability.
 
-**Differentiation:** Unlike pure-play photonic interconnect companies (Lightmatter, Ayar Labs) that sell components to data center operators, Piris Labs offers a full-stack inference *service* — combining custom photonic hardware with an integrated software layer. Unlike photonic computing companies (Neurophos, Olix) that aim to replace electronic processors entirely with optical compute units, Piris Labs focuses on eliminating the data movement bottleneck around existing compute architectures. The vertical integration of hardware and software in a service model differs from the component-sale model of most photonic startups.
+**Differentiation:** Unlike Cerebras, which achieves speed through monolithic wafer-scale integration (limiting scalability across nodes), and unlike Groq, which uses custom LPU ASICs, Piris Labs targets the interconnect layer with photonics while pairing it with purpose-built software. Compared to other photonic interconnect companies like Lightmatter (focused on co-packaged optics for chip-to-chip communication) and Ayar Labs (silicon photonics for I/O), Piris Labs differentiates by offering a full-stack inference service rather than component-level photonic hardware. The company positions itself as delivering an end-to-end inference platform rather than selling interconnect components to OEMs.
 
-**Business Model:** No pricing page or pricing details are publicly available. The website at time of research showed only a tagline and company name. The company lists two contact channels: contact@pirislabs.io for "AI Products inquiries" and founders@pirislabs.io for "Chip/ODM partners" (YC company page), suggesting both a direct inference service offering and a hardware partnership channel. [Inferred]: Most likely monetization path is consumption-based inference-as-a-service pricing (cost per token or per request), given the "2x lower cost per token" positioning and the service-oriented framing.
+**Business Model:** No public pricing page was found on the company website (website showed only company name and tagline at time of research). The company is seeking AI product companies to scale inference workloads and recruiting chip makers and ODM partners for beta partnerships (Fondo blog, Feb 23, 2026). [Inferred]: Most likely monetization path is a consumption-based inference-as-a-service model (cost per token or per query), given the "2x lower cost per token" positioning and the full-stack service framing.
 
-**TAM/SAM:** The global AI inference market was valued at USD 97.24 billion in 2024 and is projected to reach USD 254.98 billion by 2030 (Grand View Research, 2024 via search snippet; MarketsandMarkets, 2025 via search snippet). The silicon photonics market was valued at USD 2.86 billion in 2025 and is projected to reach USD 28.75 billion by 2034 at 29.25% CAGR (Precedence Research, 2025 via search snippet). The optical interconnect segment for AI clusters specifically is projected to grow from $5 billion in 2024 to over $10 billion in 2026 (EE Times, 2025 via search snippet). No company-specific SAM estimate is publicly available.
+**TAM/SAM:** The photonic AI accelerator market was valued at $1.83 billion in 2025, with projected growth at 34.2% CAGR through 2033 (Navistrat Analytics via search snippet). The broader photonic AI accelerator chip market is forecast to reach $22.32 billion by 2033 at 35.8% CAGR (Growth Market Reports via search snippet). The overall inference-optimized chip market is projected to exceed $50 billion in 2026 (Deloitte, 2026 Semiconductor Industry Outlook via search snippet). Data center semiconductor TAM reached $209 billion in 2024 with projections to ~$500 billion by 2030 (Yole Group via search snippet).
 
-**GTM / Distribution:** [Inferred]: Most likely distribution path is direct enterprise sales to AI companies and cloud providers running large-scale inference workloads. The dual-contact structure (AI Products vs. Chip/ODM partners) suggests a two-pronged approach: (1) selling inference-as-a-service directly to AI application companies, and (2) partnering with hardware OEMs/ODMs to integrate photonic technology into existing data center infrastructure. The YC network and the "Chip/ODM partners" contact channel suggest B2B enterprise sales as the primary motion.
+**GTM / Distribution:** The company is actively seeking two channels: (1) AI product companies needing to scale inference workloads (contact@pirislabs.io), and (2) chip makers and ODM partners for beta partnerships (founders@pirislabs.io) (Fondo blog, Feb 23, 2026). [Inferred]: The initial GTM is likely direct enterprise sales to AI-native companies with large inference budgets, supplemented by hardware partnerships to integrate Piris photonic interconnects into existing data center equipment.
 
 ## Defensibility
 
-The company is building proprietary photonic hardware, which represents a technical complexity barrier — designing, fabricating, and integrating optical components for data center inference is a multi-year engineering challenge requiring specialized physics expertise. Ali Khalatpour's background in terahertz semiconductor lasers (MIT PhD, NASA GUSTO mission) represents domain-specific IP in photonic device design. The vertical integration of custom hardware with a purpose-built software stack creates switching costs once customers adopt the platform.
+The company's core technology involves proprietary photonic interconnects developed by an MIT-trained optical physicist (Ali Khalatpour) who previously developed the first room-temperature terahertz semiconductor laser and led NASA's GUSTO optical engine (MIT News, Dec 2018; optics.org, Aug 2017). The vertical integration of custom photonic hardware with inference-optimized software creates a potential compound moat: the hardware requires deep photonics expertise to replicate, and the software is co-designed to exploit the hardware's specific characteristics. Ali Khalatpour's academic publication record includes 16 research works with 572 citations (ResearchGate via search snippet), indicating substantive domain expertise in the underlying physics.
 
-No patents have been identified in public sources. No network effects or data advantages are evident at this stage.
+Today, defensibility rests primarily on technical complexity and founder domain expertise. Over time, defensibility could develop through proprietary manufacturing processes, performance benchmarks validated at customer scale, and switching costs once integrated into customer inference pipelines.
 
-**Market structure:** Large GPU incumbents (NVIDIA primarily) face business model cannibalization risk — their revenue model depends on selling expensive GPU hardware. An inference service built on lower-cost photonic hardware represents a different unit economics structure that undermines the incumbent's core margin model. Additionally, NVIDIA's architecture is optimized around electronic interconnects; adopting photonic alternatives would require fundamental re-architecture of their product stack and supply chain. Cloud inference providers (AWS, Google, Azure) could potentially build or acquire photonic capabilities, but they currently rely on GPU vendor relationships that create supply chain inertia.
+**Market structure:** The photonic interconnect space requires deep expertise in semiconductor physics, photonic device fabrication, and systems integration — a combination that is rare. Incumbents like NVIDIA are investing heavily in photonics ($4 billion invested in Lumentum and Coherent for manufacturing capacity, Tom's Hardware via search snippet) but are focused on component supply chains rather than full-stack inference services. NVIDIA's business model is centered on selling GPUs and networking hardware, creating a structural conflict with offering a competing inference-as-a-service platform that could cannibalize GPU sales. The DARPA "Fuse" project pairs Cerebras WSE chips with Ranovus photonic interconnects ($45M contract), indicating that even well-funded players are partnering rather than building photonics in-house.
 
-**Commoditization risk:** The broader photonic AI hardware space is attracting significant capital: Lightmatter ($850M raised), Ayar Labs ($370M+), Olix ($250M), and Neurophos ($118M) are all pursuing variations of photonic solutions for AI workloads. While each targets a different layer of the stack (interconnects, compute, full-stack service), the underlying photonic engineering talent pool is small, and larger competitors with more capital could potentially replicate a full-stack inference approach. The full-stack service model provides some differentiation, but the hardware component faces commoditization risk as photonic manufacturing scales.
+**Commoditization risk:** Multiple well-funded companies are building photonic interconnect technology: Lightmatter ($850M total funding, $4.4B valuation), Ayar Labs ($500M Series E at $3.8B valuation, March 2026), and Celestial AI (acquired by Marvell for ~$3.25B, Dec 2025). However, these companies are primarily component/platform plays rather than full-stack inference services. The risk of commoditization at the interconnect layer is real, but Piris Labs' differentiation as a vertically integrated inference service (if sustained) provides a distinct competitive position. The primary commoditization risk comes from these well-capitalized competitors potentially expanding into full-stack offerings or from GPU vendors integrating photonic interconnects natively.
 
 ## Market & Traction
 
 **Traction signals:**
-- No revenue data found publicly.
-- No user counts, download figures, or waitlist numbers found.
-- No press coverage in named publications found.
-- No Product Hunt launch found.
-- No app store presence found.
-- Twitter/X: Ali Khalatpour operates @Alipirislabs (account created January 2026, per search results); follower count not retrievable.
-- Twitter/X: Keyvan Moghadam has account @moghaddamkeyvan; follower count not retrievable.
-- LinkedIn company page exists at linkedin.com/company/pirislabs (listed as "Piris Labs (YC W26)"); follower count not retrievable.
-- No Discord or Slack community found.
-- 0 open job positions listed (YC company page).
-- Website showed only company name and tagline at time of research; no product demo, documentation, or detailed feature pages visible.
+- Launched on YC Launches on or around February 23, 2026 (Fondo blog, Feb 23, 2026)
+- Launch video published: https://youtu.be/PW1PbMYw2c0 (Fondo blog)
+- $500K raised (YC standard deal) (LinkedIn search snippet; PitchBook listing)
+- Company LinkedIn page: linkedin.com/company/pirislabs — follower count not retrievable
+- Ali Khalatpour Twitter/X: @Alipirislabs — joined January 2026, follower count not retrievable
+- Keyvan Moghadam Twitter/X: @moghaddamkeyvan — follower count not retrievable
+- No Product Hunt listing found
+- No app store or Chrome extension presence (hardware/infrastructure product)
+- No public revenue, user counts, or customer announcements found
+- No Discord or Slack community found
 
 **Competitive landscape:**
 
-1. **Lightmatter** — $850M total raised, $4.4B valuation (Series D $400M, October 2024; BusinessWire). Revenue estimated at ~$50M in 2023 (Sacra via search snippet). Builds photonic interconnects and co-packaged optics for AI data centers (component sale model). Key differentiator vs. Piris Labs: Lightmatter sells interconnect hardware components to data center operators rather than offering an integrated inference service.
+1. **Lightmatter** ($850M total raised, $4.4B valuation, revenue unknown). Develops photonic interconnects and co-packaged optics (Passage™ M1000). Differentiator vs. Piris Labs: sells photonic interconnect components/platforms to data center operators rather than offering a full-stack inference service. Partnering with Cadence and GUC for co-packaged optics solutions (Jan 2026).
 
-2. **Ayar Labs** — $370M+ total raised (Series D $155M, December 2024; Ayar Labs press release). Investors include AMD Ventures, Intel Capital, and NVIDIA. Ships TeraPHY optical chiplets (8 Tbps bandwidth, 10ns latency), with 15,000+ units shipped to tier-one customers (Ayar Labs, 2024). Key differentiator vs. Piris Labs: Ayar Labs focuses on chip-to-chip optical I/O chiplets integrated into existing semiconductor packaging, not a full-stack inference service.
+2. **Ayar Labs** ($500M Series E, $3.8B valuation, revenue unknown). Silicon photonics startup backed by NVIDIA and AMD. Differentiator vs. Piris Labs: focuses on chip-to-chip optical I/O replacement of copper links as a component technology, not a vertically integrated inference service.
 
-3. **Olix** — $250M total raised, $1B valuation (Series led by Hummingbird Ventures; Data Center Dynamics, February 2026). Building Optical Tensor Processing Unit (OTPU) for AI inference. First products expected 2027. Key differentiator vs. Piris Labs: Olix is building a complete optical processor to replace GPUs, while Piris Labs focuses on eliminating data movement bottlenecks around existing compute.
+3. **Cerebras Systems** (raised over $700M total, revenue unknown publicly). Wafer-scale engine (WSE) for AI training and inference. Differentiator vs. Piris Labs: achieves speed through monolithic chip design rather than interconnects; Piris Labs claims comparable speed with greater scalability.
 
-4. **Neurophos** — $118M total raised ($110M Series A, January 2026; TechCrunch). Led by Gates Frontier. Metamaterial-based photonic computing; first chips expected mid-2028. Key differentiator vs. Piris Labs: Neurophos pursues photonic compute via metamaterial modulators (a different physics approach), while Piris Labs focuses on interconnect/data-movement optimization.
+4. **Groq** ($750M raised in Sept 2025 at $6.9B valuation; ~$90M revenue in 2024 per Sacra estimate; acquired by NVIDIA for ~$20B in Dec 2025). Custom LPU inference chip. Differentiator vs. Piris Labs: purpose-built ASIC for inference rather than photonic interconnect approach; validated at commercial scale with inference API customers.
 
-**Why now:** [Inferred]: Several converging factors have opened this window: (1) AI model parameters have scaled to the trillions, making the memory wall / data movement bottleneck the dominant cost and latency factor in inference — a threshold crossed with GPT-4-class models in 2023-2024; (2) silicon photonics manufacturing has matured sufficiently to produce reliable optical components at data-center scale, as evidenced by Ayar Labs shipping 15,000+ units in 2024; (3) demand for inference (vs. training) is growing as AI applications move from development to production deployment, shifting cost sensitivity toward per-query economics; (4) venture capital has poured over $1.5B into photonic AI startups in 2024-2026, signaling market validation of the photonic approach to AI infrastructure constraints.
+5. **Celestial AI** ($515M+ total raised, acquired by Marvell for ~$3.25B in Dec 2025). Photonic Fabric technology for disaggregating AI compute from memory. Differentiator vs. Piris Labs: focused on optical compute-memory fabric as a platform technology; now part of Marvell's broader chip portfolio.
+
+**Why now:**
+- Nvidia's $4B investment in photonic firms Lumentum and Coherent signals industry validation that copper interconnects are reaching physical limits (Tom's Hardware via search snippet).
+- Marvell's $3.25B acquisition of Celestial AI (CNBC, Dec 2025) and NVIDIA's ~$20B acquisition of Groq (Dec 2025) demonstrate that large semiconductor companies see inference and photonic interconnects as strategically critical.
+- Data center AI capital expenditure is projected at $400-450B globally in 2026 (Deloitte, 2026 Semiconductor Industry Outlook via search snippet), creating massive demand for inference infrastructure.
+- [Inferred]: The scaling of trillion-parameter models (e.g., GPT-4-class and beyond) has made the memory wall problem commercially acute — these models cannot be served economically on standard GPU clusters, creating demand for alternative architectures.
 
 ## Founders & Team
 
 **Ali Khalatpour** — Co-founder & CEO
-- PhD in Electrical Engineering, MIT (2020), with thesis on terahertz quantum cascade lasers (MIT DSpace)
-- MS in Physics, University of Toronto (2014) (Google Scholar via search snippet)
-- Research Associate at Stanford University, Amir Safavi-Naeini group (2023) (Stanford LINQS lab page via search snippet)
-- Affiliated with Harvard Capasso Group (Capasso Group alumni page via search snippet)
-- Developed room-temperature terahertz semiconductor lasers; this work was selected for NASA's GUSTO (Galactic/Extragalactic ULDB Spectroscopic Terahertz Observatory) mission as the terahertz emission source (MIT News, 2017; optics.org, 2017)
-- Published research featured in MIT News, Nature-related journals, and ScienceDaily
-- Twitter/X: @Alipirislabs — follower count not retrievable
-- LinkedIn: linkedin.com/in/alikhalatpour/ — headline listed as "Stealth AI Startup" (via search snippet); connection count not retrievable
+- Ph.D. Electrical Engineering, MIT (2020), focused on THz photonics (MIT News)
+- M.S. Physics, University of Toronto (2014) (search snippet via ResearchGate)
+- Postdoctoral fellow at LINQS, Stanford University (Stanford LINQS page)
+- Alumni of Capasso Group, Harvard (Harvard Capasso Group alumni page)
+- Developed the first room-temperature terahertz semiconductor laser (MIT News, Dec 2018)
+- Led development of GUSTO optical engine for NASA (optics.org, Aug 2017)
+- 16 research works, 572 citations (ResearchGate via search snippet)
+- Twitter/X: @Alipirislabs — joined January 2026, follower count not retrievable
+- LinkedIn: linkedin.com/in/alikhalatpour
 - GitHub: No public repos found
 
-**Keyvan Moghadam** — Co-founder & President
-- PhD in Electrical Engineering, University of Southern California (Google Scholar via search snippet)
-- Research areas: compressed sensing, distributed sensing, vehicular networks, machine learning, large-scale Markov decision processes (ResearchGate via search snippet)
-- 45 academic citations (Google Scholar via search snippet)
-- YC profile describes him as "AI/ML leader with experience scaling products at Meta and X" (YC company page)
-- LinkedIn headline references Pinterest (LinkedIn search snippet), suggesting additional industry experience
+**Keyvan Rezaei Moghadam** — Co-founder & President
+- Ph.D. Electrical Engineering, University of Southern California (USC personal page)
+- AI scientist and engineering leader with experience building 0-to-1 AI infrastructure at Meta and Twitter/X (YC page, Fondo blog)
+- Led tiger teams to launch high-stakes 0-to-1 initiatives at Meta and X (search snippet via LinkedIn)
+- Academic publications in networking and mobile systems (DBLP)
 - Twitter/X: @moghaddamkeyvan — follower count not retrievable
-- LinkedIn: linkedin.com/in/keyvanrm/ — connection count not retrievable
-- GitHub: github.com/keyvanrm — 4 public repositories; star counts not retrievable
+- LinkedIn: linkedin.com/in/keyvanrm (headline references Pinterest, likely prior role)
+- GitHub: github.com/keyvanrm — repos include distirubtedMobileSensing and SetCoverSolverEngin; star counts not retrievable
 
-**Co-founder relationship:** Both founders hold PhDs in Electrical Engineering (Khalatpour from MIT, Moghadam from USC). No shared employer or university identified from available data. Khalatpour's background is in photonic device physics; Moghadam's is in ML/AI infrastructure at scale. The combination maps to the company's two core competencies (photonic hardware + AI software stack), but no public data on how they met or their prior working relationship was found.
+**Co-founder relationship:** Both founders hold PhDs in Electrical Engineering (MIT and USC respectively). No shared prior employer or university overlap is visible from the research conducted.
 
-**Founder-market fit:** Khalatpour's PhD work on terahertz semiconductor lasers at MIT and his role building the optical engine for NASA's GUSTO mission provide direct experience designing and fabricating photonic devices for high-performance applications. Moghadam's experience scaling AI/ML products at Meta and X (per YC profile) provides the software and infrastructure perspective needed to build the inference service layer. The pairing of a photonic hardware physicist with an AI infrastructure engineer aligns with the company's stated approach of vertically integrating proprietary photonic hardware with an optimized software stack. YC primary partner is Ankit Gupta (YC company page).
+**Founder-market fit:** The founding team combines deep photonics/optics expertise (Khalatpour: MIT PhD, NASA, Harvard, Stanford) with large-scale AI infrastructure engineering experience (Moghadam: Meta, Twitter/X). Khalatpour's specific background in terahertz semiconductor lasers and optical engines directly maps to designing photonic interconnects, while Moghadam's experience building AI infrastructure at Meta and X provides the systems engineering and ML deployment expertise needed for the software stack. This combination of photonic hardware science and AI infrastructure engineering is directly aligned with the company's full-stack photonic inference product.
 
 ## Key Risks
 
-**Photonic hardware development timeline:** Building custom photonic hardware from concept to production-ready data center deployment is a multi-year, capital-intensive process. Comparable companies (Olix, Neurophos) project first commercial products in 2027-2028 despite having raised $118M-$250M. With a team of 2 and pre-seed capital, the gap between Piris Labs' resources and the cost of hardware development and fabrication is significant. No mitigation signals (fab partnerships, prototype status) are publicly visible.
+**Capital intensity vs. stage:** Developing proprietary photonic hardware requires significant capital for R&D, prototyping, and eventually manufacturing. Competitors in the photonic interconnect space have raised $500M–$850M (Ayar Labs, Lightmatter). With $500K in funding, Piris Labs faces a multi-order-of-magnitude funding gap relative to direct competitors. The path from prototype to production-grade photonic hardware typically requires substantial additional capital.
 
-**Well-capitalized direct competitors:** The photonic AI infrastructure space has attracted over $1.5B in venture funding across Lightmatter ($850M), Ayar Labs ($370M+), Olix ($250M), and Neurophos ($118M). These companies have larger teams, established manufacturing partnerships, and multi-year head starts on hardware development. Piris Labs' differentiation as a full-stack inference service is conceptual at this stage, and competitors could extend into service models.
+**Well-funded competitor encroachment:** Lightmatter ($850M), Ayar Labs ($500M Series E, NVIDIA-backed), and Marvell (via Celestial AI acquisition for $3.25B) are all building photonic interconnect technology with significantly more resources. NVIDIA's $4B investment in photonic manufacturing firms (Lumentum, Coherent) signals the GPU incumbent is investing in vertical integration of photonics rather than ceding the interconnect layer to startups.
 
-**Technical feasibility at production scale:** The YC profile claims (5x lower latency, 10x lower power per bit, 2x lower cost per token) are unverified by third-party benchmarks or customer testimonials. Photonic computing and interconnect performance at lab scale has historically faced challenges in translating to production-grade reliability, thermal management, and manufacturing yield at data center scale. No prototype, demo, or benchmark data is publicly available.
+**Hardware-software integration risk:** The company's value proposition depends on tight co-optimization between proprietary photonic hardware and inference software. Delays or technical challenges in either layer could compound, and the full-stack approach means there is no fallback to selling just one component. This is a single-point-of-failure architecture from a product delivery standpoint.
 
-**Capital intensity mismatch:** Hardware startups in the photonic AI space require tens to hundreds of millions in funding to reach commercial product (Neurophos: $118M pre-product; Olix: $250M pre-product). The standard YC deal (~$500K) and a 2-person team represent a significant undercapitalization relative to the hardware development required, necessitating rapid follow-on fundraising.
+**Customer adoption barrier:** Enterprise data center operators and AI companies making infrastructure decisions face high switching costs and long evaluation cycles for novel hardware. Piris Labs must demonstrate not only performance parity or superiority but also reliability, supply chain stability, and integration compatibility — dimensions where incumbents have established track records.
+
+**Technology validation gap:** The company's performance claims (5x lower latency, 10x lower power per bit, 2x lower cost per token) have not been independently validated or benchmarked by third parties in publicly available sources. Moving from lab-scale demonstrations to production-scale inference workloads involves significant engineering challenges.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $97.24B AI inference market in 2024, projected $254.98B by 2030 (Grand View Research, 2024; MarketsandMarkets, 2025 via search snippets). Silicon photonics: $2.86B in 2025, projected $28.75B by 2034 at 29.25% CAGR (Precedence Research, 2025 via search snippet) |
-| SAM | No public data found |
-| Traction | No public data found |
+| TAM | Photonic AI accelerator market: $1.83B in 2025, 34.2% CAGR to 2033 (Navistrat Analytics via search snippet). Broader inference chip market: >$50B projected for 2026 (Deloitte via search snippet). |
+| SAM | No public data found for Piris Labs' specific serviceable segment. |
+| Traction | YC Launch ~Feb 23, 2026 (Fondo blog). No public users, customers, or revenue data found. |
 | Revenue Signal | No public data found |
-| Founders | Ali Khalatpour (CEO): MIT PhD (EE), terahertz laser pioneer, NASA GUSTO optical engine lead, Stanford research associate. Keyvan Moghadam (President): USC PhD (EE), AI/ML at Meta and X (per YC), Pinterest (per LinkedIn) |
-| Competitors | Lightmatter ($850M raised, ~$50M rev est. 2023 via Sacra, photonic interconnect components vs. full-stack service); Ayar Labs ($370M+ raised, revenue unknown, optical chiplets vs. full-stack service); Olix ($250M raised, revenue unknown, optical processor vs. data-movement focus); Neurophos ($118M raised, revenue unknown, metamaterial photonic compute vs. interconnect optimization) |
-| Moat Signals | Proprietary photonic hardware design; CEO's terahertz/photonic device IP from MIT/NASA/Stanford; vertical hardware+software integration |
-| Risk Factors | Capital intensity vs. pre-seed resources, well-funded competitors ($1.5B+ combined), unverified performance claims with no public prototype data |
-| Founder Reach | Ali Khalatpour: Twitter @Alipirislabs (count not retrievable), LinkedIn linkedin.com/in/alikhalatpour/ (count not retrievable), GitHub not found. Keyvan Moghadam: Twitter @moghaddamkeyvan (count not retrievable), LinkedIn linkedin.com/in/keyvanrm/ (count not retrievable), GitHub github.com/keyvanrm (4 repos, star counts not retrievable) |
-| Distribution Signals | No public data found |
+| Founders | Ali Khalatpour (CEO): MIT PhD, NASA GUSTO optical engine, first room-temp THz laser, Stanford/Harvard postdoc. Keyvan Rezaei Moghadam (President): USC PhD, AI infrastructure at Meta & Twitter/X. |
+| Competitors | Lightmatter ($850M raised, revenue unknown, photonic interconnect components). Ayar Labs ($500M Series E, $3.8B val, revenue unknown, silicon photonics I/O). Cerebras (>$700M raised, revenue unknown, wafer-scale inference). Groq ($750M raised at $6.9B val, ~$90M 2024 rev per Sacra, LPU inference ASIC — acquired by NVIDIA ~$20B). Celestial AI ($515M+ raised, acquired by Marvell ~$3.25B, photonic fabric). |
+| Moat Signals | Proprietary photonic hardware IP; founder with deep photonics domain expertise (MIT PhD, NASA, 572 citations); vertical hardware-software integration. |
+| Risk Factors | Capital intensity gap vs. competitors, well-funded competitor encroachment, hardware-to-production validation gap |
+| Founder Reach | Ali Khalatpour: Twitter @Alipirislabs (count not retrievable), LinkedIn linkedin.com/in/alikhalatpour. Keyvan Moghadam: Twitter @moghaddamkeyvan (count not retrievable), LinkedIn linkedin.com/in/keyvanrm, GitHub github.com/keyvanrm (star counts not retrievable). |
+| Distribution Signals | YC Launch (Feb 2026). No Product Hunt listing, no app store presence, no community channels found. |
+| Emails | contact@pirislabs.io, founders@pirislabs.io |

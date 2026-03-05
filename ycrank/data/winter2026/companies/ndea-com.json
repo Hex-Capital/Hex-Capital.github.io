@@ -1,0 +1,78 @@
+{
+  "slug": "ndea-com",
+  "name": "Ndea",
+  "oneLiner": "Building AGI that can innovate.",
+  "metadata": {
+    "website": "https://ndea.com",
+    "yc_page": "https://www.ycombinator.com/companies/ndea-com",
+    "batch": "Winter 2026",
+    "industry": "Industrials / Industrials",
+    "team_size": "15",
+    "location": "Remote",
+    "tags": "Artificial Intelligence, Deep Learning, Hard Tech, Remote Work, ML",
+    "yc_partner": "Tyler Bosmeny",
+    "emails": "future@ndea.com (Ndea join page via search snippet)"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Deep Learning",
+    "Hard Tech",
+    "Remote Work",
+    "ML"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-05T01:11:42.509Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 83,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 65,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 60,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 80,
+      "tier": "Invest"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 46,
+    "EG": 35,
+    "NR": 83,
+    "PG": 65,
+    "PT": 60,
+    "SL": 58,
+    "VK": 80
+  },
+  "consolidatedAvg": 61,
+  "consolidatedRank": 3,
+  "paths": {
+    "memo": "winter2026/memos/ndea-com.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/ndea-com.md",
+      "elad-gil": "winter2026/evals/elad-gil/ndea-com.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/ndea-com.md",
+      "paul-graham": "winter2026/evals/paul-graham/ndea-com.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/ndea-com.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/ndea-com.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/ndea-com.md"
+    }
+  }
+}

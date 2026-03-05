@@ -9,7 +9,9 @@
     "industry": "Industrials / Industrials -> Energy",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "SaaS, Robotics, Energy, Electric Vehicles, Automation"
+    "tags": "SaaS, Robotics, Energy, Electric Vehicles, Automation",
+    "yc_partner": "Gustaf Alstromer",
+    "emails": "zinny@robodock.tech, celine@robodock.tech"
   },
   "tags": [
     "SaaS",
@@ -19,22 +21,22 @@
     "Automation"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T06:06:59.249Z",
+  "memoGeneratedAt": "2026-03-05T01:02:07.038Z",
   "evalScores": {
     "cyan-banister": {
       "score": 47,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 49,
+      "score": 56,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 55,
+      "score": 58,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 62,
+      "score": 60,
       "tier": "Neutral"
     },
     "peter-thiel": {
@@ -42,24 +44,24 @@
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 52,
-      "tier": "Neutral"
+      "score": 43,
+      "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 47,
+      "score": 54,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
     "CB": 47,
-    "EG": 49,
-    "NR": 55,
-    "PG": 62,
+    "EG": 56,
+    "NR": 58,
+    "PG": 60,
     "PT": 38,
-    "SL": 52,
-    "VK": 47
+    "SL": 43,
+    "VK": 54
   },
-  "consolidatedAvg": 50,
+  "consolidatedAvg": 50.86,
   "consolidatedRank": 27,
   "paths": {
     "memo": "winter2026/memos/robodock.md",

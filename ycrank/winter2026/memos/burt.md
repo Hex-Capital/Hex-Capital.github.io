@@ -1,119 +1,117 @@
 ﻿# Burt
 
-> Easily fine tune and deploy specialized models
+> AI teammates for logistics
 
 | Field | Value |
 |-------|-------|
 | Website | https://www.trainburt.com/ |
 | YC Page | https://www.ycombinator.com/companies/burt |
 | Batch | Winter 2026 |
-| Industry | B2B / B2B |
+| Industry | B2B / B2B -> Supply Chain and Logistics |
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
-| Tags | Machine Learning, Reinforcement Learning, AI |
+| Tags | Artificial Intelligence, B2B, Logistics, Supply Chain |
+| YC Partner | Ankit Gupta |
+| Emails | bobby@trainburt.com |
 
 ## The Idea
 
-**Note on product positioning discrepancy:** The YC company page describes Burt as a platform to "help teams train and deploy models specialized for their domain and use cases" — a general-purpose model fine-tuning and deployment service. However, the company website (trainburt.com) at time of research describes Burt as "AI automation built for logistics," focused on eliminating manual work in back-office operations such as invoices, documents, and data entry. This discrepancy may indicate a product pivot or vertical-first go-to-market strategy. The analysis below covers both framings.
+**Problem:** Freight brokers and forwarders operate on razor-thin margins in a relationship-driven business, yet most of their teams spend the majority of their day on manual, repetitive tasks — chasing proof-of-delivery (POD) documents, tracking shipments, validating invoices, and quoting loads (company website). The U.S. freight brokerage market is ~$19.5B (Mordor Intelligence, 2025 via search snippet), with thousands of small-to-midsize brokerages relying on email, phone calls, and spreadsheets for back-office operations. Existing TMS platforms (e.g., Tai TMS, McLeod, Aljex) handle workflow orchestration but do not autonomously execute repetitive tasks.
 
-**Problem:** Teams building AI agents at production scale encounter three interrelated problems with generalist proprietary LLMs: excessive latency, high inference cost, and insufficient quality/reliability for domain-specific tasks. At high call volumes, these costs compound. Today, teams either tolerate suboptimal performance from general-purpose models (GPT-4, Gemini) or attempt to fine-tune open-source models in-house, which requires ML engineering expertise many product teams lack. Separately, the website positions the problem as logistics companies spending excessive time on manual back-office tasks — invoices, document processing, and data entry (trainburt.com).
+**Approach:** Burt helps freight brokers and forwarders build AI teammates that handle their repetitive, manual tasks — specifically POD chasing, shipment tracking, invoice validation, and load quoting — so teams can focus on customers, carriers, and growing the business (YC page, company website). The AI teammates "follow your specific processes" and "work within your existing systems" (company website), suggesting integration with incumbent TMS platforms rather than replacement.
 
-**Approach:** Per the YC page, Burt provides a managed platform for training and deploying small, specialized LLMs and vision-language models (VLMs) on customer data, claiming these models "outperform SOTA models like gemini-3-flash/pro while being 10x faster and cheaper" (YC company page). A cited case study describes a custom VLM that was "~3x faster" with better accuracy than Gemini-3-Flash/Pro for a high-volume customer use case (YC company page). Per the website, Burt enables users to "build workflows that handle the repetitive back-office work" in logistics (trainburt.com). The primary CTA on the website is scheduling a 30-minute meeting with co-founder Bobby Zhong via Cal.com, indicating a high-touch sales-led motion (trainburt.com).
+**Differentiation:** Burt positions as "AI teammates" that execute tasks end-to-end within existing broker workflows, rather than offering a replacement TMS (e.g., Tai TMS) or a single-purpose tool. Compared to Lanesurf (YC W26), which focuses on voice AI for carrier rate negotiation and booking, Burt targets a broader set of back-office tasks beyond phone calls. Compared to Lighthouz AI (YC W26), which specializes in freight bill auditing and AP/AR automation, Burt covers a wider task surface including POD chasing and shipment tracking. Compared to HappyRobot ($62M raised; FreightWaves, Sep 2025 via search snippet), which deploys voice agents for large enterprise carriers and brokers like DHL and Werner, Burt appears to target the mid-market with a configurable AI teammate approach.
 
-**Differentiation:** Compared to self-service fine-tuning platforms like Together AI, Fireworks AI, or Lamini, Burt appears to position as a more hands-on, managed service — the company says "we've helped teams build" specialized models, implying a consultative or white-glove approach rather than purely self-service tooling (YC company page). Compared to raw infrastructure providers, Burt focuses on the outcome (specialized models that outperform general-purpose ones) rather than just providing compute or APIs.
+**Prior Product Note:** The YC page title references "Easily fine tune and deploy specialized models," suggesting Burt may have initially positioned as a general-purpose model fine-tuning platform before narrowing to logistics-specific AI teammates. The current website and all recent LinkedIn activity reference the logistics product exclusively.
 
-**Business Model:** No pricing page is visible on the website (trainburt.com). No revenue figures are publicly available. [Inferred]: Most likely monetization path is either (a) a managed fine-tuning service billed per training run or monthly retainer, or (b) SaaS pricing for the logistics automation product, based on the high-touch sales motion evidenced by the Cal.com booking CTA.
+**Business Model:** No pricing page is visible on the website. [Inferred]: Most likely monetization path is a SaaS subscription (per-seat or per-task-volume) charged to freight brokerages, given the B2B vertical software pattern and the relationship-driven nature of the customer base.
 
-**TAM/SAM:** The broader LLM market was valued at approximately $8.31 billion in 2025, projected to reach $24.92 billion by 2031 at a CAGR of 20.08% (Mordor Intelligence, 2025 via search snippet). The MLOps market, which includes model training and deployment platforms, was valued at approximately $2.33 billion in 2025, projected to grow at a CAGR of 28.90% through 2034 (Fortune Business Insights via search snippet). No public data found for a specific TAM/SAM scoped to the managed LLM fine-tuning segment or logistics back-office automation segment.
+**TAM/SAM:** The U.S. freight brokerage market is estimated at $19.68B in 2025, growing at a CAGR of 7.44% to $28.17B by 2030 (Mordor Intelligence, 2025 via search snippet). The global digital freight brokerage market reached approximately $3.64B in 2025, growing at a CAGR of 29.2% (Expert Market Research, 2025 via search snippet). [Inferred]: Burt's SAM is the subset of this market spent on back-office labor and software tools at small-to-midsize brokerages; no public estimate specific to this software segment was found.
 
-**GTM / Distribution:** The trainburt.com website uses a direct sales model via Cal.com scheduling with co-founder Bobby Zhong. No self-service signup, freemium tier, or app marketplace listing was found. [Inferred]: Most likely distribution path at this stage is founder-led sales to teams with high-volume LLM inference workloads, possibly starting with logistics companies given the website positioning.
+**GTM / Distribution:** The company website offers a Calendly link (cal.com/bobby-zhong/30min) as the primary CTA, indicating a founder-led sales motion. [Inferred]: Most likely distribution path is direct outbound sales to small-to-midsize freight brokerages, potentially leveraging YC network and logistics industry events.
 
 ## Defensibility
 
-No defensibility signals found in public sources at this stage. No patents, open-source repos with significant community traction, or proprietary datasets were identified.
+No defensibility signals found in public sources at this stage. [Inferred]: Potential moat could develop via (1) process-specific workflow data accumulated across broker customers, enabling better task automation over time; (2) deep integrations with incumbent TMS platforms creating switching costs; and (3) domain-specific fine-tuned models trained on logistics-specific communications and documents. None of these are proven at this stage.
 
-[Inferred]: Potential moat could develop via accumulation of domain-specific training data and fine-tuning recipes across customer deployments, creating compounding expertise and faster delivery for new customers. If vertical-focused (logistics), deep domain specialization in data formats (BOLs, invoices, rate confirmations) could create switching costs. However, this is unproven at this stage.
+**Market structure:** [Inferred]: Incumbent TMS providers (Tai TMS, McLeod, Aljex) are primarily workflow orchestration tools and may face business model cannibalization risk in building autonomous AI agents — their existing revenue model charges for seat licenses, while AI agents that replace seats could reduce seat count. However, large incumbents like project44 and FourKites focused on visibility, and newer entrants like HappyRobot are well-funded. No structural barrier identified at this stage.
 
-**Market structure:** The major cloud providers (AWS SageMaker, Google Vertex AI, Azure ML) all offer fine-tuning capabilities, but they are horizontal platforms optimized for self-service at scale rather than bespoke, high-touch model optimization for specific use cases. [Inferred]: The structural barrier, if one exists, is that cloud incumbents' business models incentivize maximizing compute consumption (tokens/GPU hours), creating a misalignment with Burt's value proposition of smaller, cheaper models — helping customers use less compute directly reduces cloud provider revenue.
-
-**Commoditization risk:** The fine-tuning tooling landscape is crowded and rapidly commoditizing. Open-source frameworks (Axolotl, LLaMA-Factory, Unsloth) make fine-tuning accessible to any ML engineer. Well-funded platforms (Together AI, Fireworks AI) offer managed fine-tuning as a feature within broader inference platforms. Predibase, which offered similar fine-tuning services, was acquired by Rubrik in June 2025 (SiliconANGLE, Jun 2025 via search snippet), suggesting the standalone fine-tuning platform may face consolidation pressure. The technical barrier to replicating fine-tuning workflows is moderate; the potential differentiator is domain expertise and service quality rather than pure technology.
+**Commoditization risk:** The core technology (LLM-based task automation for logistics) is replicable. HappyRobot ($62M raised, $500M valuation; Upstarts Media, Sep 2025 via search snippet) is building similar capabilities at scale. Lanesurf (YC W26, backed by General Catalyst; YC page via search snippet) and Lighthouz AI (YC W26; YC page) are also in adjacent spaces. Parade ($36M raised; FreightWaves, 2024 via search snippet) has added AI-driven automation features. The barrier to entry is low for well-resourced teams with logistics domain knowledge.
 
 ## Market & Traction
 
-**Traction signals:**
+1. **Traction signals:**
+   - LinkedIn company page: 300 followers, 3 employees listed (LinkedIn company page, fetched Mar 2026)
+   - LinkedIn listed employee count: 2-10, with Bobby Zhong and Aidan Chen visible (LinkedIn company page, fetched Mar 2026) — note: the YC page lists Kurt Sharma as co-founder, but the LinkedIn page shows Aidan Chen, suggesting possible team changes
+   - Twitter/X: Bobby Zhong handle @bobbyzhong333 (YC page); Kurt Sharma handle @zerodaykurt (YC page); follower counts not retrievable
+   - No Product Hunt launch found
+   - No press coverage in named publications found
+   - No public revenue, user count, or customer data found
+   - No app store listings, Chrome extension, or Discord/Slack community found
 
-- The YC company page mentions one case study: a custom VLM built for a customer that was "~3x faster" with better accuracy than Gemini-3-Flash/Pro for a high-volume use case (YC company page). No customer name, date, or additional metrics are provided.
-- No Product Hunt launch found.
-- No company Twitter/X account found.
-- LinkedIn company page exists at "train-burt" (trainburt.com). No follower count retrieved.
-- No Discord or Slack community found.
-- No press coverage in named publications found.
-- No app store listings, Chrome extension, or download counts found.
-- No job postings found (consistent with the company not currently hiring per YC page).
+2. **Competitive landscape:**
 
-**Competitive landscape:**
+   | Competitor | Funding | Revenue/ARR | Key Differentiator vs. Burt |
+   |-----------|---------|-------------|----------------------------|
+   | **HappyRobot** (YC S23) | $62M total ($44M Series B led by Base10; FreightWaves, Sep 2025 via search snippet) | "Well into" eight figures (Upstarts Media, Sep 2025 via search snippet) | Enterprise-focused voice AI for large carriers (DHL, Werner, Schneider); significantly more scale and funding |
+   | **Lanesurf** (YC W26) | Pre-Seed, backed by General Catalyst and Jawed Karim (YC page via search snippet) | Revenue unknown | Specialized in voice AI for carrier rate negotiation; handles "tens of thousands of carrier calls monthly" (YC page via search snippet) |
+   | **Lighthouz AI** (YC W26) | ~$500K (Tracxn, 2025 via search snippet) | Revenue unknown | Focused on freight bill auditing and AP/AR automation; claims brokers invoice 36% faster (YC page via search snippet) |
+   | **Parade** | $36M total ($17M from I Squared Capital; FreightWaves, 2024 via search snippet) | Revenue unknown; $40B+ in transactions processed (Parade website via search snippet) | Capacity management platform with AI-driven carrier matching and booking automation |
+   | **Tai TMS** | Not publicly disclosed | Revenue unknown | Incumbent TMS with 500+ carrier integrations; 20+ years in market; email/document automation (Tai Software website via search snippet) |
 
-1. **Together AI** ($534M total raised, ~$300M annualized revenue as of Sep 2025 per Sacra via search snippet, $3.3B valuation): Full-stack AI cloud offering fine-tuning, inference, and GPU compute. Differentiator vs. Burt: self-service platform at massive scale with broad model support, whereas Burt appears to offer a more managed, bespoke approach.
-
-2. **Fireworks AI** ($327M total raised, ~$280M annualized revenue in 2025 per Sacra via search snippet, $4B valuation): AI inference platform with fine-tuning capabilities serving 10,000+ customers. Differentiator vs. Burt: infrastructure-focused with emphasis on inference speed and scale; Burt positions on outcome-oriented model specialization.
-
-3. **Lamini** ($25M Series A, led by Amplify Partners; revenue unknown): Enterprise LLM fine-tuning platform with proprietary "Memory Tuning" technology to reduce hallucinations. Differentiator vs. Burt: focused on enterprise customers with specific anti-hallucination IP; Burt emphasizes speed/cost improvement through smaller specialized models.
-
-4. **Predibase** (~$28M total raised, acquired by Rubrik for reported $100M+ in Jun 2025 per SiliconANGLE via search snippet): LoRA-based fine-tuning platform that pioneered reinforcement fine-tuning for enterprises. Differentiator vs. Burt: no longer an independent company; was research-heavy with published papers (LoRA Land). Acquisition validates market but removes a direct competitor.
-
-5. **Unsloth** (open-source, funding unknown): Enables fine-tuning large models on consumer GPUs with 2x speed and 60% less memory. Differentiator vs. Burt: purely open-source developer tool vs. managed service; targets individual developers rather than teams deploying to production.
-
-**Why now:** [Inferred]: Several catalysts have converged: (1) the rapid proliferation of open-source base models (Llama 3, Mistral, Gemma, Qwen) in 2024-2025 created a foundation layer on which fine-tuning can deliver outsized gains; (2) production AI agent deployments have moved from experimentation to scale, making inference cost and latency critical business metrics rather than academic concerns; (3) the demonstrated acquisition of Predibase by Rubrik (Jun 2025) signals enterprise demand for fine-tuning capabilities being absorbed into larger platforms, validating the problem space while potentially creating an opening for nimble independents.
+3. **Why now:** [Inferred]: The convergence of several factors in 2024-2025 opened this opportunity: (a) LLM capabilities crossing the threshold for reliably parsing unstructured logistics communications (emails, PDFs, carrier check calls); (b) HappyRobot's rapid growth (10x revenue increase since Dec 2024 Series A; Upstarts Media, Sep 2025 via search snippet) validating market demand for AI agents in logistics; (c) freight market cyclical downturn pressuring brokerages to cut back-office costs, with industry analysts noting that more than 15% of spot-market truckloads in the U.S. will be automatically tendered and booked by 2026 (Supply Chain 24/7, 2025 via search snippet).
 
 ## Founders & Team
 
-**Bobby Zhong** — Co-founder & CEO
+**Bobby Zhong** — Co-Founder & CEO
+- BS Computer Science, UC Irvine (The Org, via search snippet)
+- Previously: Engineer at Replo (YC S21), building coding agents and LLM tooling (YC page)
+- Previously: Founding engineer (#2) at Pirros (YC W23), March 2024–March 2025 (The Org, via search snippet)
+- Previously: Co-founder of Educado, a student support platform, Sep 2023–Apr 2024 (RocketReach, via search snippet)
+- Previously: Co-founder of Moonwish Studios, web development agency (RocketReach, via search snippet)
+- Previously: Software engineer intern at PipeIQ, summer 2023 (search snippet)
+- Twitter/X: @bobbyzhong333 (YC page) — follower count not retrievable
+- LinkedIn: linkedin.com/in/bobby-zhong — headline: "Burt (YC W26)" (LinkedIn, via search snippet)
+- GitHub: github.com/bobbyzhong — 29 public repos, 12 followers (GitHub, fetched Mar 2026)
 
-- BS Computer Science, UC Irvine (dropped out per LinkedIn summary via search snippet)
-- Founding engineer (2nd engineer) at Pirros (YC W23), March 2024 – March 2025 (The Org, LinkedIn via search snippet)
-- Software Engineer at Replo (YC S21), building coding agents and working with LLMs, from March 2025 (LinkedIn via search snippet)
-- Founded Educado (personalized student support for schools), September 2023 – April 2024 (LinkedIn via search snippet)
-- Co-founded Moonwish Studios (website development contracts with local businesses in LA/Orange County) (LinkedIn via search snippet)
-- Full-stack developer at Commit the Change, UCI; intern at PipeIQ (summer 2023) (LinkedIn via search snippet)
-- Twitter/X: No public account found specific to this individual
-- LinkedIn: linkedin.com/in/bobby-zhong — 500+ connections (LinkedIn via search snippet)
-- GitHub: github.com/bobbyzhong — 29 public repos, 12 followers; pinned repos include TypeScript and Python projects (taka, educado, vehitrak, airqualityfilter, teach-pear-langchain) (GitHub)
+**Kurt Sharma (Kartavya Sharma)** — Co-Founder & CTO
+- EECS, UC Berkeley (YC page; personal website kartavyas.com, fetched Mar 2026)
+- Previously: Engineer at Replo (YC S21) (LinkedIn, via search snippet)
+- Previously: Academic Intern, UC Berkeley EECS, Jun 2022–present (personal website, fetched Mar 2026)
+- Previously: Backend Web Developer at Caltools, Jun–Aug 2021 (personal website)
+- Previously: Founder/Developer of ROZE, a voice assistant for preventing distracted driving, Jun 2018–Nov 2020 (personal website)
+- Twitter/X: @zerodaykurt (YC page); also @floatyvariable (personal website) — follower counts not retrievable
+- LinkedIn: linkedin.com/in/kartavya-sharma — headline: "Engineering @ Replo" (LinkedIn, via search snippet)
+- GitHub: github.com/KartavyaSharma — 46 public repos, 176 stars total, 19 followers (GitHub, fetched Mar 2026)
 
-**Kurt Sharma** — Co-founder & CTO
+**Co-founder relationship:** Both Bobby Zhong and Kartavya Sharma worked at Replo (YC S21) as engineers. Bobby joined Replo in March 2025 (LinkedIn post, fetched Mar 2026), and Kartavya's LinkedIn lists him at Replo as well. This shared employer is the likely basis of the co-founder relationship.
 
-- Limited public information found. Listed as Co-founder & CTO on the YC company page.
-- A "Kartavya Sharma" appears in LinkedIn results as "Engineering @ Replo" in the San Francisco Bay Area (LinkedIn via search snippet). If this is the same person (Kartavya sometimes shortened to "Kurt"), it would indicate both co-founders worked at Replo (YC S21), but this connection is unconfirmed.
-- Twitter/X: No public account found
-- LinkedIn: No profile conclusively identified (search returned no direct match for "Kurt Sharma" at Burt)
-- GitHub: No public profile found
-
-**Co-founder relationship:** Both Bobby Zhong and Kurt Sharma are listed on the YC page. Bobby Zhong worked at Replo (YC S21), and a "Kartavya Sharma" also appears as an engineer at Replo (LinkedIn via search snippet). If Kurt Sharma and Kartavya Sharma are the same person, the co-founders were colleagues at Replo. Both may have attended UC Irvine based on Bobby's confirmed attendance there. However, this overlap is not conclusively confirmed from public sources.
-
-**Founder-market fit:** Bobby Zhong has direct experience building with LLMs at Replo (coding agents) and was an early engineer at two YC-backed startups, giving him familiarity with the startup build-deploy cycle and hands-on ML engineering experience. His trajectory — from founding Educado to engineering roles at YC companies to starting Burt — shows progressive deepening in AI/ML product development. Kurt Sharma's background is insufficiently documented in public sources to assess domain fit. No advisors, board members, or notable investors beyond standard YC participation were found.
+**Founder-market fit:** Both founders have strong engineering backgrounds with LLM and AI agent experience from their time at Replo building coding agents. Bobby has experience as a founding engineer at an early-stage YC company (Pirros, YC W23). Neither founder has documented prior experience working in the freight or logistics industry directly. No advisors, board members, or notable investors beyond YC and the standard YC deal have been publicly identified.
 
 ## Key Risks
 
-**Product positioning ambiguity:** The YC company page describes a general-purpose model fine-tuning and deployment platform, while the live website (trainburt.com) describes logistics-specific back-office automation. This disconnect may reflect a pivot in progress or difficulty in finding product-market fit in one framing. Potential investors would need clarity on which direction the company is pursuing.
+**Dominant well-funded competitor (HappyRobot):** HappyRobot (YC S23) has raised $62M, is valued at ~$500M, reports eight-figure revenue, and has signed enterprise customers including DHL, Werner, and Schneider (Upstarts Media, FreightWaves, Sep 2025 via search snippet). HappyRobot is building an AI workforce for logistics that directly overlaps with Burt's positioning. Burt would need to find a defensible niche or differentiated approach to compete against this level of resourcing.
 
-**Heavily funded competitive landscape:** The LLM fine-tuning and inference market includes Together AI ($534M raised), Fireworks AI ($327M raised), and Lamini ($25M raised), all offering managed fine-tuning capabilities. These competitors have multi-year head starts, established customer bases (Fireworks: 10,000+ customers), and significant engineering teams. Burt's differentiation as a two-person team competing against these incumbents is unclear from public sources.
+**No demonstrated logistics domain expertise:** Neither founder has documented prior work experience in the freight brokerage or logistics industry (Phase 3 research findings). The founding team's strength is in engineering and LLM tooling, which may slow GTM in a relationship-driven, trust-intensive industry where domain credibility matters for sales.
 
-**Predibase acquisition as a signal of segment consolidation:** Predibase, the most direct comparable (standalone LLM fine-tuning platform), was acquired by Rubrik in June 2025 after raising ~$28M (SiliconANGLE, Jun 2025 via search snippet). This may indicate that standalone fine-tuning platforms are being absorbed into larger enterprise software stacks rather than surviving as independent businesses.
+**Product positioning ambiguity / pivot history:** The YC page title still references "Easily fine tune and deploy specialized models," while the current website and description focus on logistics AI teammates. This suggests a recent pivot. The breadth of task coverage (POD chasing, tracking, invoicing, quoting) is ambitious for a two-person team versus competitors specializing in narrower slices (Lanesurf on voice booking, Lighthouz on bill auditing).
 
-**Brand disambiguation challenge:** "Burt" is a common English word/name. Search results return Burt Corporation (ad-tech data company), Burt Intelligence, and numerous unrelated entities. This creates SEO, brand awareness, and discoverability challenges.
+**Crowded YC W26 cohort in same vertical:** At least two other YC W26 companies (Lanesurf, Lighthouz AI) target overlapping customer segments (freight brokers). This creates direct competition for mindshare among the same YC network and early-adopter pool.
 
-**Founder CTO visibility gap:** No public LinkedIn profile, GitHub account, or professional background information was found for co-founder and CTO Kurt Sharma. For a technical product company where the CTO's capabilities are central to delivery, this limits external validation of technical depth.
+**Brand disambiguation:** "Burt" is a common name shared by multiple companies including Burt Intelligence (ad-tech), Burt Corporation, and others. This creates search visibility and branding challenges.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $8.31B LLM market (Mordor Intelligence, 2025 via search snippet, 20.08% CAGR); $2.33B MLOps market (Fortune Business Insights, 2025 via search snippet, 28.9% CAGR) |
-| SAM | No public data found for the managed fine-tuning or logistics automation sub-segment |
-| Traction | One case study cited: custom VLM "~3x faster" than Gemini-3-Flash/Pro for unnamed customer (YC company page). No other public traction signals found. |
+| TAM | U.S. freight brokerage market: $19.68B in 2025, CAGR 7.44% to $28.17B by 2030 (Mordor Intelligence, 2025 via search snippet). Global digital freight brokerage: $3.64B in 2025, CAGR 29.2% (Expert Market Research, 2025 via search snippet) |
+| SAM | No public data found for the logistics back-office automation software sub-segment specifically |
+| Traction | LinkedIn: 300 followers (LinkedIn, fetched Mar 2026). No other public traction data found |
 | Revenue Signal | No public data found |
-| Founders | Bobby Zhong (CEO): UC Irvine CS, ex-Pirros (YC W23) founding engineer, ex-Replo (YC S21). Kurt Sharma (CTO): limited public background data. |
-| Competitors | Together AI ($534M raised, ~$300M ARR, full-stack AI cloud vs. Burt's managed specialization); Fireworks AI ($327M raised, ~$280M ARR, inference-focused vs. Burt's outcome-focused); Lamini ($25M raised, revenue unknown, enterprise anti-hallucination focus); Predibase (~$28M raised, acquired by Rubrik Jun 2025, LoRA fine-tuning pioneer); Unsloth (open-source, funding unknown, consumer GPU fine-tuning) |
+| Founders | Bobby Zhong (CEO): BS CS UCI, founding engineer at Pirros (YC W23), engineer at Replo (YC S21). Kurt Sharma (CTO): EECS UC Berkeley, engineer at Replo (YC S21), built ROZE voice assistant |
+| Competitors | HappyRobot ($62M raised, eight-figure ARR, enterprise voice AI for logistics); Lanesurf (Pre-Seed, revenue unknown, voice AI for carrier rate negotiation); Lighthouz AI (~$500K raised, revenue unknown, freight bill auditing); Parade ($36M raised, revenue unknown, capacity management); Tai TMS (funding undisclosed, revenue unknown, incumbent TMS) |
 | Moat Signals | No public data found |
-| Risk Factors | Product positioning ambiguity (YC page vs. website mismatch), heavily funded competitors, standalone fine-tuning segment consolidation (Predibase acquired) |
-| Founder Reach | Bobby Zhong: Twitter not found, LinkedIn 500+, GitHub 12 followers / 29 repos. Kurt Sharma: Twitter not found, LinkedIn not found, GitHub not found. |
-| Distribution Signals | No public data found |
+| Risk Factors | Dominant well-funded competitor (HappyRobot at $62M/$500M valuation), no demonstrated logistics domain expertise, recent pivot from model fine-tuning platform |
+| Founder Reach | Bobby Zhong: Twitter @bobbyzhong333 (count not retrievable), LinkedIn in/bobby-zhong, GitHub 29 repos/12 followers. Kurt Sharma: Twitter @zerodaykurt (count not retrievable), LinkedIn in/kartavya-sharma, GitHub 46 repos/176 stars |
+| Distribution Signals | No public data found. Founder-led sales via Calendly booking link on website |
+| Emails | bobby@trainburt.com |

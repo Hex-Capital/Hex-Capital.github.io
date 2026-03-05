@@ -1,7 +1,7 @@
 {
   "slug": "cumulus-labs",
   "name": "Cumulus Labs",
-  "oneLiner": "Serverless GPU Cloud — with managed inference stack",
+  "oneLiner": "Performant serverless GPU inference",
   "metadata": {
     "website": "https://cumuluslabs.io",
     "yc_page": "https://www.ycombinator.com/companies/cumulus-labs",
@@ -9,7 +9,9 @@
     "industry": "B2B / B2B -> Infrastructure",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "AIOps, B2B, Cloud Computing, Infrastructure"
+    "tags": "AIOps, B2B, Cloud Computing, Infrastructure",
+    "yc_partner": "Jon Xu",
+    "emails": "founders@cumuluslabs.io, veer@cumuluslabs.io"
   },
   "tags": [
     "AIOps",
@@ -18,48 +20,48 @@
     "Infrastructure"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T06:08:46.021Z",
+  "memoGeneratedAt": "2026-03-05T01:05:13.457Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 32,
+      "score": 37,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 35,
+      "score": 41,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 47,
+      "score": 52,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 50,
+      "score": 47,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 27,
+      "score": 35,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 24,
-      "tier": "Strong Pass"
+      "score": 30,
+      "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 35,
+      "score": 38,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 32,
-    "EG": 35,
-    "NR": 47,
-    "PG": 50,
-    "PT": 27,
-    "SL": 24,
-    "VK": 35
+    "CB": 37,
+    "EG": 41,
+    "NR": 52,
+    "PG": 47,
+    "PT": 35,
+    "SL": 30,
+    "VK": 38
   },
-  "consolidatedAvg": 35.71,
-  "consolidatedRank": 132,
+  "consolidatedAvg": 40,
+  "consolidatedRank": 96,
   "paths": {
     "memo": "winter2026/memos/cumulus-labs.md",
     "evals": {

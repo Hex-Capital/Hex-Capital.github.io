@@ -9,7 +9,9 @@
     "industry": "B2B / B2B -> Human Resources",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Artificial Intelligence, Recruiting, Open Source, HR Tech"
+    "tags": "Artificial Intelligence, Recruiting, Open Source, HR Tech",
+    "yc_partner": "Tyler Bosmeny",
+    "emails": "founders@skillsync.wiki"
   },
   "tags": [
     "Artificial Intelligence",
@@ -18,10 +20,10 @@
     "HR Tech"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T06:09:18.453Z",
+  "memoGeneratedAt": "2026-03-05T01:02:37.795Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 33,
+      "score": 34,
       "tier": "Pass"
     },
     "elad-gil": {
@@ -29,37 +31,37 @@
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 38,
-      "tier": "Pass"
+      "score": 45,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 51,
+      "score": 48,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 33,
+      "score": 26,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 28,
+      "score": 24,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 33,
+      "score": 32,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 33,
+    "CB": 34,
     "EG": 35,
-    "NR": 38,
-    "PG": 51,
-    "PT": 33,
-    "SL": 28,
-    "VK": 33
+    "NR": 45,
+    "PG": 48,
+    "PT": 26,
+    "SL": 24,
+    "VK": 32
   },
-  "consolidatedAvg": 35.86,
-  "consolidatedRank": 130,
+  "consolidatedAvg": 34.86,
+  "consolidatedRank": 142,
   "paths": {
     "memo": "winter2026/memos/skillsync.md",
     "evals": {

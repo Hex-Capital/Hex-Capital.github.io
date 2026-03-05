@@ -1,6 +1,6 @@
 ﻿# Cumulus Labs
 
->  Serverless GPU Cloud — with managed inference stack
+> Performant serverless GPU inference
 
 | Field | Value |
 |-------|-------|
@@ -11,106 +11,110 @@
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
 | Tags | AIOps, B2B, Cloud Computing, Infrastructure |
+| YC Partner | Jon Xu |
+| Emails | founders@cumuluslabs.io, veer@cumuluslabs.io |
 
 ## The Idea
 
-**Problem:** AI teams running inference, training, or fine-tuning workloads face a three-way tradeoff. Self-hosting inference means managing vLLM/SGLang configurations, debugging CUDA issues, and babysitting infrastructure. Managed API providers (OpenRouter, Fireworks) are convenient but expensive, as customers absorb the provider's margin on top of compute. Serverless GPU platforms (RunPod, Modal) offer flexibility but impose slow cold starts, idle billing, and no help on the inference layer — teams must still optimize model serving themselves (YC company page). Industry GPU clusters sit idle 40–60% of the time (YC LinkedIn launch post, Jan 16, 2026).
+**Problem:** AI teams that need GPU compute for inference, training, and fine-tuning face a three-way tradeoff. Self-hosting inference (using vLLM, SGLang) requires debugging CUDA issues and babysitting infrastructure. Managed API providers (OpenRouter, Fireworks) are convenient but expensive due to provider margin. Serverless GPU platforms offer flexibility but suffer from slow cold starts (10–30+ seconds typical), idle billing, and no help optimizing the inference layer. The company's YC launch post states that GPU clusters sit idle 40–60% of the time (YC LinkedIn post, Jan 2026).
 
-**Approach:** Cumulus aggregates idle GPU capacity from public clouds, private data centers, and vetted individual hosts into a single unified pool. It provides two core capabilities: (1) a serverless compute layer with per-second billing, scale-to-zero, and fast cold starts — the company claims 16.7-second cold start for a Flux 2 Diffusion Model vs. 70 seconds on Modal (cumuluslabs.io); and (2) Ion, a proprietary inference engine supporting LLMs, VLMs, and MoE architectures with zero-configuration optimization for latency and throughput. The platform uses predictive packing of training workloads, live migration of jobs across clusters, and execution-state capture/replication across a global compute CDN for fast inference cold starts (YC company page). The system supports fractional GPU sharing on NVIDIA A100/H100 via NVIDIA MPS, automatic checkpointing, and LoRA serving (docs.cumuluslabs.io).
+**Approach:** Cumulus provides a serverless GPU cloud with two core components: (1) a serverless container platform that assigns containers in seconds, scales to zero when idle, scales up without waitlists, and bills by the second; and (2) Ion, a proprietary inference engine that supports LLMs, VLMs, and MoE architectures out of the box. The platform claims 12.5-second GPU cold starts vs. ~60 seconds for Modal on an equivalent benchmark (Flux 2 diffusion model) (company website). Workloads are predictively packed and dynamically migrated to faster or cheaper clusters (YC launch post). The platform also supports checkpointing, model compilation, and LoRA serving.
 
-**Differentiation:** Against self-hosting (vLLM/SGLang): Cumulus eliminates CUDA debugging and infrastructure management while claiming Ion delivers better latency/throughput than teams typically achieve on their own. Against managed API providers (Fireworks, Together AI): Cumulus lets teams run the same models for less by avoiding the provider margin. Against serverless GPU platforms (Modal, RunPod Serverless): Cumulus bundles inference optimization (Ion) into the platform rather than leaving model serving to the user. Against hyperscalers (AWS, GCP, Azure): Cumulus claims 50–70% cost savings through fractional billing and multi-source GPU aggregation (YC company page). The platform also offers "Cumulus OS" for on-premises/private cloud deployment (cumuluslabs.io).
+**Differentiation:** Compared to Modal (serverless GPU, $87M Series B at $1.1B valuation — SiliconANGLE, Sep 2025 via search snippet), Cumulus claims 4x faster cold starts and includes a proprietary inference engine (Ion) rather than requiring users to configure their own inference stack. Compared to managed API providers like Together AI or Fireworks, Cumulus lets teams run models themselves at lower cost without the provider's margin. Compared to RunPod, which offers both serverless and dedicated GPUs, Cumulus emphasizes its inference optimization layer and zero-configuration model serving. Compared to Baseten (which raised $300M at $5B valuation — SiliconANGLE, Jan 2026 via search snippet), Cumulus positions as a more general-purpose serverless GPU platform rather than an inference-only API.
 
-**Business Model:** No public pricing page. The platform charges per-second for actual compute consumed, billing only for GPU time used and scaling to zero when idle (cumuluslabs.io). Access is currently gated behind a "Request Access" or "Book a Demo" flow (cumuluslabs.io). [Inferred]: Most likely monetization is consumption-based pricing (pay-per-GPU-second) with potential enterprise tiers for Cumulus OS on-premises deployments, consistent with the GPU-as-a-Service industry model.
+**Business Model:** Pay-per-second GPU compute billing with scale-to-zero. The website shows an illustrative example: 55% idle time yields 55% cost savings ($0.27 of $0.60/hr potential billing) (company website). Claims of 50–70% cost savings vs. traditional GPU clouds (YC launch post, Jan 2026). No public pricing tiers or per-model pricing page found. Access is gated behind "Request Access" and "Book a Demo" flows (company website).
 
-**TAM/SAM:** The global GPU-as-a-Service market was valued at $4.31 billion in 2024 and projected to reach $49.84 billion by 2032 at a 35.8% CAGR (Fortune Business Insights, 2025 via search snippet). Analysys Mason forecasts total GPUaaS revenue growing from $21 billion in 2024 to $134 billion by 2030 (Analysys Mason, 2025 via search snippet). The AI inference-as-a-service market is projected to grow by $111.09 billion from 2024 to 2029 at a 20.4% CAGR (Technavio, 2025 via search snippet). The serverless architecture market was valued at $18.2 billion in 2025 (GM Insights, 2025 via search snippet).
+**TAM/SAM:** The GPU-as-a-Service market was estimated at $5.70B in 2025, projected to reach $49.84B by 2032 at 35.8% CAGR (Fortune Business Insights via search snippet). The global AI data center GPU market was estimated at $10.51B in 2025, with the inference segment capturing the largest share (Precedence Research via search snippet). The serverless architecture market was valued at $18.2B in 2025, projected to reach $156.9B by 2035 at 24.1% CAGR (GM Insights via search snippet). The serviceable segment — serverless GPU inference specifically — is a subset of these broader markets. No third-party SAM estimate specific to serverless GPU inference was found.
 
-**GTM / Distribution:** The YC W26 launch post on LinkedIn (Jan 16, 2026) generated 487 likes and 114 comments (LinkedIn). The website directs users to "Request Access" or "Book a Demo," and documentation references an SDK installable via `pip install cumulus-sdk` (docs.cumuluslabs.io). The company is an NVIDIA Inception Program member (cumuluslabs.io). [Inferred]: Initial GTM is likely developer-led via SDK adoption and YC network, with enterprise sales (demo-gated) for larger accounts. The NVIDIA Inception membership provides co-marketing and technical support channels.
+**GTM / Distribution:** The company uses a "Request Access" and "Book a Demo" gated model, with a Python SDK for one-function deployment (company website). The YC launch post directed users to "join the waitlist" (YC LinkedIn post, Jan 2026). The launch post states "the team forward-deploys custom optimizations directly for customers" (YC page), indicating a high-touch, direct-sales GTM motion. [Inferred]: Most likely distribution path is developer-led adoption through SDK/API, supplemented by direct sales to AI teams with significant GPU spend, leveraging YC network for early customers.
 
 ## Defensibility
 
-The company's primary technical moat claim centers on Ion, a proprietary inference engine optimized for latency and throughput across LLM, VLM, and MoE architectures (YC company page). The multi-source GPU aggregation layer — pulling from public clouds, private data centers, and individual hosts — creates a supply-side network that could compound over time as more capacity joins the pool. Execution-state capture for cold-start optimization and predictive packing algorithms represent technical complexity that requires deep systems engineering. Cumulus OS (on-premises deployment) could create switching costs for enterprises that integrate Cumulus into private infrastructure.
+The primary technical defensibility signal is Ion, the proprietary inference engine, which the company claims delivers latency and throughput beyond what teams typically achieve with open-source alternatives (vLLM, SGLang) with zero configuration (company website). The platform's workload migration and predictive packing algorithms represent additional proprietary technology (YC launch post). The company is a member of NVIDIA's Inception Program (company website). Their GitHub organization has a fork of `grit` (CRIU-based GPU workload migration in Kubernetes), with 6 forks from the original kaito-project repo (GitHub).
 
-**Market structure:** Hyperscalers (AWS, GCP, Azure) face business model cannibalization risk in offering aggressive fractional GPU pricing — their GPU cloud revenue depends on selling full instances at high utilization margins, and a fractional/aggregation model undermines their per-instance pricing structure. Hyperscalers also lack incentive to aggregate competitor capacity. However, pure-play GPU cloud competitors (Modal, RunPod) face no such structural barrier. [Inferred]: The aggregation model (pulling capacity from multiple sources) creates a structural difference from single-source providers, but the barrier is operational rather than structural at this stage.
+At this stage, no network effects, data moats, or switching cost mechanisms are visible. [Inferred]: Defensibility could develop via (1) inference optimization IP accumulated through customer workloads, (2) switching costs from SDK integration and model-specific optimizations, and (3) performance data from the predictive packing system improving with scale.
 
-**Commoditization risk:** The serverless GPU cloud space is crowded with well-funded competitors (see Market & Traction). The inference optimization layer (Ion) is the primary differentiator, but open-source inference engines (vLLM, SGLang, TensorRT-LLM) are rapidly improving and are free. Modal, RunPod, and others could build or acquire similar inference optimization capabilities. The GPU aggregation model has been attempted by others (e.g., TensorDock, where co-founder Suryaa previously worked). The barrier to entry for basic serverless GPU functionality is moderate — the differentiation rests on inference engine performance and supply-side aggregation scale, both of which are buildable by well-resourced competitors.
+**Market structure:** The major cloud providers (AWS, GCP, Azure) offer GPU instances but their serverless GPU offerings are nascent (Google Cloud Run with GPUs launched recently). [Inferred]: Hyperscalers face business model tension — they profit from persistent GPU reservations and idle capacity, creating a structural disincentive to optimize for scale-to-zero and per-second billing that eliminates idle revenue. Additionally, hyperscalers' inference offerings are general-purpose and not optimized for specific model architectures the way Ion claims to be.
+
+**Commoditization risk:** The serverless GPU space has multiple well-funded competitors (Modal at $111M raised, RunPod at $20M+ raised, Baseten at ~$585M raised, Together AI at $533.5M raised — all via search snippets). Open-source inference engines (vLLM, SGLang, TensorRT-LLM) are improving rapidly. Cold start optimization techniques are replicable. The inference engine (Ion) is the key differentiator, but sustained performance advantages require continuous R&D investment against well-resourced competitors.
 
 ## Market & Traction
 
 **Traction signals:**
-- YC W26 batch participant (YC company page)
-- NVIDIA Inception Program member (cumuluslabs.io)
-- YC LinkedIn launch post (Jan 16, 2026): 487 likes, 114 comments (LinkedIn)
-- SDK available via `pip install cumulus-sdk` (docs.cumuluslabs.io)
-- No public user counts, revenue figures, customer names, or waitlist numbers found
-- No Product Hunt launch found
-- No public GitHub repository found for Cumulus Labs
+- YC Launch post: 35 upvotes (YC Launches page)
+- YC LinkedIn announcement post: 491 likes, 114 comments (LinkedIn, Jan 16, 2026)
+- Twitter/X: @CumulusLabsIO — handle confirmed; follower count not retrievable (JavaScript-rendered page)
+- LinkedIn company page: linkedin.com/company/cumuluscomputelabs/ — follower count not retrievable
+- GitHub: github.com/cumulus-compute-labs — 3 public repos; most notable is a fork of `grit` (CRIU-based GPU workload migration) with 0 stars on the fork (GitHub)
+- NVIDIA Inception Program member (company website)
+- No Product Hunt listing found
 - No Discord or Slack community found
-- No app store or Chrome extension presence
-- Company Twitter/X account: not found
-- Company LinkedIn page: not directly confirmed (YC posted on Y Combinator's page)
+- No public revenue figures or user counts disclosed
+- No press coverage in named publications found
+- 0 open job postings (YC page)
 
 **Competitive landscape:**
 
 | Competitor | Funding | Revenue/ARR | Key Differentiator vs. Cumulus |
-|---|---|---|---|
-| **RunPod** | $22M total ($20M seed, May 2024; Intel Capital, Dell Technologies Capital) (TechCrunch, Jan 2026 via search snippet) | $120M ARR (TechCrunch, Jan 2026 via search snippet) | Larger GPU fleet, 500K+ developer base, established marketplace model; does not bundle a proprietary inference engine |
-| **Modal Labs** | ~$111M total ($87M Series B, Sep 2025; Lux Capital) (SiliconANGLE, Sep 2025 via search snippet) | ~$50M annualized (TechCrunch, Feb 2026 via search snippet) | Developer-experience-first serverless Python platform with sub-second cold starts; focused on general-purpose serverless compute, not inference-specific optimization |
-| **Together AI** | $533.5M total ($305M Series B, Feb 2025; General Catalyst) (PR Newswire, Feb 2025 via search snippet) | ~$300M annualized (Sacra, Sep 2025 via search snippet) | Open-source model training and API serving at scale; 10T+ tokens/day processing; higher-level API abstraction vs. Cumulus's bring-your-own-model approach |
-| **Fireworks AI** | $327M+ total ($250M Series C, Oct 2025; Lightspeed, Index Ventures) (BusinessWire, Oct 2025 via search snippet) | ~$280M annualized (Sacra, 2025 via search snippet) | Enterprise inference optimization at scale; 10K+ companies; directly competes on inference performance but at API layer rather than self-hosted |
-| **Lambda** | ~$2.3B total ($1.5B+ Series E; TWG Global) (Medium, 2025 via search snippet) | Revenue not public | "Superintelligence cloud" focused on large-scale training clusters; NVIDIA partnership with $1.5B lease-back agreement; targets large model training rather than serverless inference |
+|------------|---------|-------------|-------------------------------|
+| **Modal** | $111M total ($87M Series B, Oct 2025); $1.1B valuation; in talks for raise at $2.5B (TechCrunch, Feb 2026 via search snippet) | Revenue unknown | General-purpose serverless cloud (not GPU-specific); broader use cases beyond inference; larger developer ecosystem; Cumulus claims 4x faster cold starts |
+| **RunPod** | $20M seed (Intel Capital, Dell Technologies Capital — Intel Capital via search snippet) | $120M+ ARR (RunPod press release via search snippet) | Offers both serverless and dedicated GPU pods; 500K+ developers; more mature marketplace; Cumulus differentiates with proprietary inference engine |
+| **Baseten** | ~$585M total ($300M at $5B valuation, Jan 2026 — SiliconANGLE via search snippet) | Revenue 10x-ed in 2025; 100x inference volume growth in 2025 (Sacra via search snippet) | Focused on model inference APIs with Truss framework; NVIDIA-backed; Cumulus offers broader workload support (training, fine-tuning) |
+| **Together AI** | $533.5M total ($305M Series B, Feb 2025 — Together AI blog via search snippet) | ~$300M annualized revenue as of Sep 2025 (Sacra via search snippet) | Managed API provider for open-source models; Cumulus positions as self-serve infrastructure rather than managed API |
+| **Replicate** | $60M+ total ($40M Series B, Dec 2023 at $350M valuation — via search snippet) | Revenue unknown | API-first model hosting; focus on ease-of-use for individual developers; Cumulus targets teams with larger-scale workloads |
 
-Note: Replicate, a prior competitor in serverless inference, was acquired by Cloudflare in November 2025 for an undisclosed amount (Yahoo Finance, Nov 2025 via search snippet). Replicate had raised $57.9M total and had ~$1.2M in 2024 revenue (Sacra via search snippet).
-
-**Why now:** [Inferred]: Several converging factors: (1) Inference workloads are projected to overtake training as the dominant GPU use case, with inferencing accounting for a growing share of GPUaaS revenue (Analysys Mason, 2025 via search snippet), creating demand for inference-optimized infrastructure. (2) The proliferation of open-weight models (Llama, Mixtral, DeepSeek) has created a large cohort of teams wanting to self-host models without building infrastructure. (3) GPU supply has expanded beyond hyperscalers into private data centers and individual hosts, enabling aggregation models. (4) Cloudflare's acquisition of Replicate (Nov 2025) signals consolidation in the serverless inference space, potentially opening market share.
+**Why now:** [Inferred]: Several converging factors opened this opportunity: (1) the explosion of open-source LLMs (Llama, Mixtral, DeepSeek) created demand for self-hosted inference as an alternative to proprietary APIs; (2) inference costs became the dominant GPU spend category as more companies moved from training to production deployment — the AI data center GPU market's inference segment captured the largest share in 2025 (Precedence Research via search snippet); (3) GPU supply constraints eased in late 2024–2025, enabling new cloud providers to procure hardware; (4) the maturation of container orchestration and CRIU-based checkpoint/restore technology (as evidenced by the kaito-project/grit repo the team forked) made ultra-fast cold starts technically feasible.
 
 ## Founders & Team
 
 **Suryaa Rajinikanth** — Co-founder
-- BS Computer Science, Georgia Institute of Technology (YC company page)
-- Lead Engineer at TensorDock: built the first distributed GPU marketplace serving thousands of consumers and businesses (YC company page)
-- Summer Analyst at Blackstone, Technology and Innovations division, 2024 (LinkedIn post via search snippet)
-- Infrastructure engineer at Palantir, building critical infrastructure for the US Government (YC company page; LinkedIn post via search snippet)
-- Twitter/X: No public account found
-- LinkedIn: linkedin.com/in/suryaa-rajinikanth — "Cumulus Labs (YC W26)" (LinkedIn via search snippet)
+- BS Computer Science, Georgia Institute of Technology (YC page, LinkedIn via search snippet)
+- Previously: Lead Engineer at TensorDock, where he built the first distributed GPU marketplace serving thousands of consumers and businesses (LinkedIn via search snippet)
+- Previously: Infrastructure engineer at Palantir, building critical infrastructure for US Government (YC launch post)
+- Previously: Summer Analyst at Blackstone, Technology and Innovations division (LinkedIn post via search snippet)
+- Selected to Contrary's Class of 2024 (Contrary via search snippet)
 - Personal website: 5ury44.com (not accessible at time of research)
-- GitHub: No public profile found
+- Twitter/X: No personal account found (the @rajinikanth handle belongs to the actor)
+- LinkedIn: linkedin.com/in/suryaa-rajinikanth/ — 500+ connections (via search snippet)
+- GitHub: No personal public repos found; contributor to TensorDock GitHub organization
 
 **Veer Shah** — Co-founder
-- BS Computer Science, University of Wisconsin–Madison, graduated December 2025 (YC company page via search snippet)
-- Led a Space Force SBIR contract for military satellite communications at an aerospace startup (YC company page)
-- Contributed to several NASA SBIR programs, two of which were commercialized and are currently being flight-tested in space (YC company page)
-- Worked on ML workloads at an aerospace startup supporting NASA missions (YC company page)
-- Twitter/X: No confirmed account found (multiple "Veer Shah" accounts exist; none confirmed as this founder)
-- LinkedIn: linkedin.com/in/shah-veer-boston — "Cumulus Labs (YC W26)" (LinkedIn via search snippet)
-- GitHub: No public profile found
+- BS Computer Science, University of Wisconsin–Madison, graduated Dec 2025 (LinkedIn via search snippet)
+- Previously: Led a Space Force SBIR contract for military satellite communications at an aerospace startup (YC launch post, LinkedIn via search snippet)
+- Previously: Contributed to several NASA SBIR programs, two of which were commercialized and are being flight-tested in space (LinkedIn via search snippet)
+- Previously: Captain of FRC Team 5422 (Stormgears), qualifying for FIRST Worlds all four years (LinkedIn via search snippet)
+- Twitter/X: No personal account found
+- LinkedIn: linkedin.com/in/shah-veer-boston/ — 500+ connections (via search snippet)
+- GitHub: No personal public repos found
 
-**Co-founder relationship:** Both founders have technical backgrounds in GPU infrastructure and systems engineering but from different institutions (Georgia Tech and UW-Madison) and different employers. No shared prior employer or university overlap is visible from Phase 3 research. No public data on how they met.
+**Co-founder relationship:** The founders met in third grade and have been building together since childhood (YC launch post). Their backgrounds are complementary — Suryaa from the GPU provider side (TensorDock) and Veer from the customer side running ML workloads at an aerospace company (YC launch post).
 
-**Founder-market fit:** Suryaa Rajinikanth has direct GPU cloud infrastructure experience from TensorDock, where he built a distributed GPU marketplace — the same category Cumulus Labs operates in. His subsequent work at Palantir on government infrastructure adds large-scale systems engineering experience. Veer Shah brings experience with high-reliability, high-security ML infrastructure from aerospace/defense contexts (Space Force, NASA). Together they combine GPU marketplace building experience with mission-critical compute deployment experience.
+**Founder-market fit:** Suryaa's experience as Lead Engineer at TensorDock, where he built a distributed GPU marketplace, provides direct domain expertise in GPU cloud infrastructure, pricing, and supply-side operations. Veer's experience running mission-critical ML workloads on GPUs for Space Force and NASA programs provides customer-side understanding of the pain points Cumulus addresses. Together they cover both sides of the GPU cloud market — supply (infrastructure provisioning and optimization) and demand (production ML workloads with strict performance requirements).
 
 ## Key Risks
 
-**Heavily funded competitive field:** The serverless GPU / inference-as-a-service market includes multiple competitors with $100M–$2.3B in funding (Modal at $111M, Together AI at $533M, Fireworks AI at $327M, Lambda at $2.3B, RunPod at $22M but $120M ARR). These competitors have established customer bases (RunPod: 500K developers; Together AI: processing 10T+ tokens/day), engineering teams, and GPU supply agreements that a 2-person pre-seed team would need to compete against for customers and GPU supply.
+**Incumbent competitive intensity:** The serverless GPU inference market includes multiple competitors with $100M–$585M in funding (Modal, RunPod, Baseten, Together AI). These companies have established developer ecosystems, larger engineering teams, and significantly more capital for GPU procurement and R&D. RunPod alone reports $120M+ ARR and 500K+ developers (RunPod press release via search snippet). Cumulus must demonstrate a sustained performance or cost advantage to win customers from these entrenched players.
 
-**Supply-side aggregation execution risk:** Cumulus's model depends on aggregating idle GPU capacity from public clouds, private data centers, and individual hosts. Building and maintaining a reliable, heterogeneous GPU supply network involves complex legal agreements, quality assurance, security compliance, and latency management. TensorDock (where co-founder Suryaa previously worked) pursued a similar aggregation model — the fact that Suryaa left to start Cumulus may reflect lessons learned but also suggests the aggregation model has known operational challenges.
+**GPU supply and capital requirements:** Operating a GPU cloud requires significant capital expenditure or supply agreements for GPU hardware. At pre-seed stage with a 2-person team, Cumulus's ability to maintain competitive GPU availability, geographic distribution, and hardware refresh cycles against well-capitalized competitors is constrained. The company description mentions aggregating "idle GPU capacity from public clouds, private data centers, and vetted individual hosts" (YC LinkedIn post), which introduces supply reliability risk from third-party providers.
 
-**Ion inference engine unproven at scale:** Ion is described as "coming soon" on the website (cumuluslabs.io) and as a proprietary engine in the YC description, but no public benchmarks, customer testimonials, or independent performance validations are available. The claim of outperforming vLLM/SGLang configurations is unverified. Open-source inference engines are improving rapidly (vLLM, SGLang, TensorRT-LLM), which could narrow any performance gap.
+**Inference engine durability:** Ion's claimed performance advantage over vLLM and SGLang is the core differentiator, but the open-source inference ecosystem is rapidly evolving with backing from major companies (vLLM has contributions from UC Berkeley, Anyscale; TensorRT-LLM from NVIDIA). Performance benchmarks can shift with each new release, requiring continuous investment to maintain an edge.
 
-**Brand disambiguation:** "Cumulus" is shared with NVIDIA Cumulus (networking), NASA Cumulus (data management framework on GitHub), Cumulus Networks (acquired by NVIDIA), and Cumulus Linux — all prominent in infrastructure/cloud contexts. This creates potential confusion in developer search results, SEO challenges, and brand recognition issues in the exact market Cumulus Labs targets.
+**Brand disambiguation:** Multiple companies use the "Cumulus" name across technology sectors — Cumulus Networks (networking), Cumulus Digital Systems, Cumulus Technologies, Cumulus Consulting, and others appear in search results. This could create confusion in marketing and SEO.
 
-**Recent-graduate founders:** Both founders appear to have graduated within the last 1–2 years (Veer Shah graduated December 2025; Suryaa Rajinikanth's timeline suggests a similar recent graduation from Georgia Tech). Their professional experience is primarily from internships and early-career roles rather than senior leadership positions, which may affect enterprise sales credibility and organizational scaling.
+**Platform pivot risk:** The company's messaging has evolved between descriptions — the YC LinkedIn post (Jan 2026) emphasizes workload migration and aggregating idle GPU capacity from distributed sources, while the current website positions the product as a serverless GPU cloud with a proprietary inference engine. These represent different technical architectures and value propositions. The current positioning around serverless inference with Ion appears to be the active direction.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $4.31B GPU-as-a-Service market in 2024, projected $49.84B by 2032 at 35.8% CAGR (Fortune Business Insights, 2025 via search snippet); $21B–$134B by 2030 (Analysys Mason, 2025 via search snippet) |
-| SAM | No public data found |
-| Traction | YC W26 batch; NVIDIA Inception member (cumuluslabs.io); YC LinkedIn launch post: 487 likes, 114 comments (LinkedIn, Jan 16, 2026) |
-| Revenue Signal | No public data found. No pricing page; access gated behind demo request (cumuluslabs.io) |
-| Founders | Suryaa Rajinikanth (Co-founder): Georgia Tech CS, ex-TensorDock Lead Engineer, ex-Palantir, ex-Blackstone. Veer Shah (Co-founder): UW-Madison CS (Dec 2025), led Space Force SBIR contract, NASA SBIR programs |
-| Competitors | RunPod ($22M raised, $120M ARR, larger GPU fleet/developer base); Modal Labs ($111M raised, ~$50M annualized, dev-experience-first serverless); Together AI ($533.5M raised, ~$300M annualized, open-source model training/API); Fireworks AI ($327M+ raised, ~$280M annualized, enterprise inference optimization); Lambda ($2.3B raised, revenue unknown, large-scale training clusters) |
-| Moat Signals | Proprietary Ion inference engine (unverified performance claims); multi-source GPU aggregation model; execution-state capture for cold-start optimization |
-| Risk Factors | Heavily funded competitors ($100M–$2.3B raised), unproven Ion engine at scale, brand disambiguation with NVIDIA Cumulus / NASA Cumulus |
-| Founder Reach | Suryaa Rajinikanth: Twitter not found, LinkedIn 500+ connections, GitHub not found. Veer Shah: Twitter not confirmed, LinkedIn present (linkedin.com/in/shah-veer-boston), GitHub not found |
-| Distribution Signals | YC W26 LinkedIn launch post: 487 likes, 114 comments (Jan 16, 2026); NVIDIA Inception Program membership; no Product Hunt launch found; no public GitHub repo found |
+| TAM | GPU-as-a-Service: $5.70B in 2025, projected $49.84B by 2032 at 35.8% CAGR (Fortune Business Insights via search snippet); AI Data Center GPU market: $10.51B in 2025 (Precedence Research via search snippet) |
+| SAM | No public data found for serverless GPU inference specifically |
+| Traction | 35 upvotes on YC launch post (YC Launches); 491 likes, 114 comments on YC LinkedIn announcement (LinkedIn, Jan 16, 2026); NVIDIA Inception Program member (company website) |
+| Revenue Signal | Pay-per-second billing, scale-to-zero; example shows $0.60/hr GPU rate with savings from idle elimination; claims 50–70% cost savings (company website, YC launch post). No disclosed revenue or ARR. |
+| Founders | Suryaa Rajinikanth (Co-founder): Georgia Tech CS, Lead Engineer at TensorDock, infrastructure at Palantir, Blackstone. Veer Shah (Co-founder): UW-Madison CS, led Space Force SBIR contract, NASA SBIR programs. |
+| Competitors | Modal ($111M raised, revenue unknown, general-purpose serverless); RunPod ($20M+ raised, $120M+ ARR, serverless + dedicated GPUs); Baseten (~$585M raised, 10x revenue growth in 2025, inference-focused); Together AI ($533.5M raised, ~$300M annualized revenue, managed API provider); Replicate ($60M+ raised, revenue unknown, API-first model hosting) |
+| Moat Signals | Proprietary inference engine (Ion); workload migration/predictive packing IP; NVIDIA Inception membership |
+| Risk Factors | Well-funded incumbent competitors ($100M–$585M raised), GPU supply/capital constraints at pre-seed, open-source inference engine evolution |
+| Founder Reach | Suryaa Rajinikanth: LinkedIn 500+ connections, Twitter not found, GitHub not found. Veer Shah: LinkedIn 500+ connections, Twitter not found, GitHub not found. Company: @CumulusLabsIO on X (count not retrievable) |
+| Distribution Signals | YC W26 batch; YC LinkedIn post (491 likes, 114 comments, Jan 2026); gated access model (Request Access / Book a Demo); no Product Hunt listing found |
+| Emails | founders@cumuluslabs.io, veer@cumuluslabs.io |

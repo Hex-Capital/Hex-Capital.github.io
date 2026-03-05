@@ -1,44 +1,43 @@
 {
   "slug": "zatanna",
   "name": "Zatanna",
-  "oneLiner": "Adaptive Healthcare Admin Agents",
+  "oneLiner": "Request Based Scraping Infrastructure",
   "metadata": {
     "website": "https://www.zatanna.ai/",
     "yc_page": "https://www.ycombinator.com/companies/zatanna",
     "batch": "Winter 2026",
-    "industry": "B2B / B2B -> Office Management",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
     "team_size": "3",
     "location": "San Francisco, CA, USA",
-    "tags": "Healthcare, Dental, Billing, Infrastructure, Conversational AI"
+    "tags": "Developer Tools, Web Development",
+    "yc_partner": "Jared Friedman",
+    "emails": "No public data found"
   },
   "tags": [
-    "Healthcare",
-    "Dental",
-    "Billing",
-    "Infrastructure",
-    "Conversational AI"
+    "Developer Tools",
+    "Web Development"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T06:07:18.530Z",
+  "memoGeneratedAt": "2026-03-05T01:00:57.719Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 31,
+      "score": 26,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 34,
+      "score": 30,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 35,
+      "score": 33,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 37,
+      "score": 43,
       "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 23,
+      "score": 27,
       "tier": "Pass"
     },
     "sam-lessin": {
@@ -46,20 +45,20 @@
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 34,
+      "score": 37,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 31,
-    "EG": 34,
-    "NR": 35,
-    "PG": 37,
-    "PT": 23,
+    "CB": 26,
+    "EG": 30,
+    "NR": 33,
+    "PG": 43,
+    "PT": 27,
     "SL": 27,
-    "VK": 34
+    "VK": 37
   },
-  "consolidatedAvg": 31.57,
+  "consolidatedAvg": 31.86,
   "consolidatedRank": 171,
   "paths": {
     "memo": "winter2026/memos/zatanna.md",

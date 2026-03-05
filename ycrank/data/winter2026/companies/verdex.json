@@ -1,63 +1,66 @@
 {
   "slug": "verdex",
   "name": "Verdex",
-  "oneLiner": "Helping insurers settle claims without leaving their desks.",
+  "oneLiner": "Satellite Imagery Verification for Insurance",
   "metadata": {
     "website": "https://www.verdexai.com/",
     "yc_page": "https://www.ycombinator.com/companies/verdex",
     "batch": "Winter 2026",
-    "industry": "Industrials / Industrials -> Agriculture",
+    "industry": "Fintech / Fintech -> Insurance",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Agriculture, AI"
+    "tags": "Artificial Intelligence, Insurance, Agriculture",
+    "yc_partner": "Jon Xu",
+    "emails": "founders@verdexai.com"
   },
   "tags": [
-    "Agriculture",
-    "AI"
+    "Artificial Intelligence",
+    "Insurance",
+    "Agriculture"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T06:07:49.123Z",
+  "memoGeneratedAt": "2026-03-05T01:02:18.571Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
       "score": 34,
       "tier": "Pass"
     },
+    "elad-gil": {
+      "score": 60,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 35,
+      "tier": "Pass"
+    },
     "sam-lessin": {
-      "score": 38,
+      "score": 30,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 37,
+      "score": 41,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 40,
-    "EG": 43,
-    "NR": 42,
-    "PG": 46,
-    "PT": 34,
-    "SL": 38,
-    "VK": 37
+    "CB": 34,
+    "EG": 60,
+    "NR": 40,
+    "PG": 44,
+    "PT": 35,
+    "SL": 30,
+    "VK": 41
   },
-  "consolidatedAvg": 40,
-  "consolidatedRank": 92,
+  "consolidatedAvg": 40.57,
+  "consolidatedRank": 89,
   "paths": {
     "memo": "winter2026/memos/verdex.md",
     "evals": {

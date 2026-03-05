@@ -9,7 +9,9 @@
     "industry": "B2B / B2B -> Legal",
     "team_size": "3",
     "location": "San Francisco, CA, USA; Remote",
-    "tags": "Artificial Intelligence, B2B, Legal, HR Tech, Immigration"
+    "tags": "Artificial Intelligence, B2B, Legal, HR Tech, Immigration",
+    "yc_partner": "Tyler Bosmeny",
+    "emails": "legalos@legalos.ai, help@legalos.ai"
   },
   "tags": [
     "Artificial Intelligence",
@@ -19,48 +21,48 @@
     "Immigration"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T06:14:26.677Z",
+  "memoGeneratedAt": "2026-03-05T01:11:17.249Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 54,
+      "score": 58,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 45,
+      "score": 48,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 53,
+      "score": 57,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 60,
-      "tier": "Neutral"
+      "score": 68,
+      "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
       "score": 38,
       "tier": "Pass"
     },
+    "sam-lessin": {
+      "score": 34,
+      "tier": "Pass"
+    },
     "vinod-khosla": {
-      "score": 40,
+      "score": 44,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 54,
-    "EG": 45,
-    "NR": 53,
-    "PG": 60,
-    "PT": 36,
-    "SL": 38,
-    "VK": 40
+    "CB": 58,
+    "EG": 48,
+    "NR": 57,
+    "PG": 68,
+    "PT": 38,
+    "SL": 34,
+    "VK": 44
   },
-  "consolidatedAvg": 46.57,
-  "consolidatedRank": 41,
+  "consolidatedAvg": 49.57,
+  "consolidatedRank": 31,
   "paths": {
     "memo": "winter2026/memos/legalos.md",
     "evals": {

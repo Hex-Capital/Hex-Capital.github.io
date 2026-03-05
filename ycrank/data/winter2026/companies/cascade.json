@@ -9,7 +9,9 @@
     "industry": "B2B / B2B -> Infrastructure",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "B2B, Security, Infrastructure, Trust & Safety, AI"
+    "tags": "B2B, Security, Infrastructure, Trust & Safety, AI",
+    "yc_partner": "Diana Hu",
+    "emails": "alsayyad@berkeley.edu (founder personal, from heyadam.org)"
   },
   "tags": [
     "B2B",
@@ -19,48 +21,48 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T06:11:47.171Z",
+  "memoGeneratedAt": "2026-03-05T01:09:41.378Z",
   "evalScores": {
     "cyan-banister": {
       "score": 32,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 33,
+      "score": 36,
       "tier": "Pass"
     },
     "naval-ravikant": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "paul-graham": {
       "score": 46,
       "tier": "Neutral"
     },
-    "paul-graham": {
-      "score": 39,
-      "tier": "Pass"
-    },
     "peter-thiel": {
-      "score": 24,
+      "score": 30,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 26,
+      "score": 25,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 39,
+      "score": 42,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 32,
-    "EG": 33,
-    "NR": 46,
-    "PG": 39,
-    "PT": 24,
-    "SL": 26,
-    "VK": 39
+    "EG": 36,
+    "NR": 42,
+    "PG": 46,
+    "PT": 30,
+    "SL": 25,
+    "VK": 42
   },
-  "consolidatedAvg": 34.14,
-  "consolidatedRank": 143,
+  "consolidatedAvg": 36.14,
+  "consolidatedRank": 127,
   "paths": {
     "memo": "winter2026/memos/cascade.md",
     "evals": {

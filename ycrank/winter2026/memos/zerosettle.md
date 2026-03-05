@@ -1,109 +1,121 @@
 ﻿# ZeroSettle
 
-> Bypass the App Store tax and enable web-based purchases
+> Avoid the 30% App Store Tax by Supporting Direct Billing in your App
 
 | Field | Value |
 |-------|-------|
 | Website | https://zerosettle.io |
 | YC Page | https://www.ycombinator.com/companies/zerosettle |
 | Batch | Winter 2026 |
-| Industry | B2B / B2B -> Sales |
+| Industry | Fintech / Fintech -> Payments |
 | Team Size | 2 |
 | Location | No public data found |
-| Tags | Fintech, Payments, Cryptocurrency |
+| Tags | Developer Tools, Fintech, Payments, B2B, Cryptocurrency |
+| YC Partner | Brad Flora |
+| Emails | gabe@zerosettle.io, support@zerosettle.io |
 
 ## The Idea
 
-**Problem:** iOS app developers pay Apple a 30% commission (15% for qualifying small businesses) on all in-app purchases processed through StoreKit. For subscription apps, this commission applies to every renewal. Developers historically had no compliant way to offer alternative checkout flows within or adjacent to their apps. The problem is acute for subscription-based apps and games where cumulative commission erosion is substantial. The existing alternative — building a custom web checkout with tax compliance, fraud protection, and chargeback management across 190+ jurisdictions — is operationally complex for most development teams.
+**Problem:** Apple charges iOS developers a 30% commission (15% for small businesses under $1M revenue) on all in-app purchases processed through its payment system. For subscription-based mobile apps, this commission significantly erodes margins. Apple collected over $10 billion in U.S. App Store commissions and over $27 billion globally in 2024 (TechCrunch, May 2025 via search snippet; Apple Newsroom, May 2025 via search snippet). Developers have historically had no practical alternative — Apple mandated use of its in-app purchase system as the sole payment mechanism.
 
-**Approach:** ZeroSettle operates as a Merchant of Record (MoR), acting as the legal seller on behalf of app developers. It provides drop-in SDKs for Swift (iOS 17.0+), React Native, and Flutter that automatically sync products from App Store Connect. The SDK surfaces "Sign Up & Save" paywalls offering users a choice between App Store billing or direct web-based billing at a discount. It also provides "Switch & Save" campaigns to migrate existing subscribers and "Save the Sale" flows (pauses, discounts, plan changes) to reduce churn. ZeroSettle handles sales tax remittance across 190+ countries, chargebacks, refunds, fraud protection, and 24/7 customer support. The checkout adapts by jurisdiction: native Apple Pay payment sheets in the US (per the Epic v. Apple injunction), in-app browser in the EU (per the Digital Markets Act), with automatic fallback to StoreKit (zerosettle.io).
+**Approach:** ZeroSettle provides a drop-in SDK (Swift, React Native, Flutter, Kotlin) that enables developers to offer direct web-based billing alongside Apple's in-app purchase system. The platform functions as a Merchant of Record, handling payment processing via Stripe, tax compliance (sales tax, VAT, GST), fraud protection, refunds, and receipts. Key product mechanisms include: (1) "Sign Up & Save" paywalls presenting new users with direct billing at a discount vs. App Store pricing, (2) "Switch & Save" campaigns migrating existing subscribers from Apple billing to direct billing, (3) "Upgrade & Save" flows converting monthly to annual subscriptions with prorated savings, and (4) "Save the Sale" retention flows with cancellation questionnaires, intelligent discounts, and subscription pause options. The company claims integration requires approximately 15 minutes of engineering work (ZeroSettle website). ZeroSettle also handles entitlement provisioning and real-time syncing across platforms, and offers dashboard-configured A/B testing and automatic product import from App Store Connect (ZeroSettle docs).
 
-**Differentiation:** Unlike Stripe's raw iOS payment processing tools, ZeroSettle bundles the full MoR function (tax, compliance, chargebacks, fraud) and provides pre-built paywall UI and subscriber migration campaigns. Unlike Paddle (which partnered with RevenueCat for a similar offering announced June 2025), ZeroSettle offers a single integrated SDK rather than requiring two vendor integrations. Unlike Appcharge and Neon, which focus primarily on mobile gaming DTC storefronts, ZeroSettle targets the broader iOS subscription app market. Unlike RevenueCat (which is a subscription analytics/management layer), ZeroSettle handles the actual payment processing and MoR responsibilities.
+**Differentiation:** ZeroSettle differentiates from RevenueCat (the dominant mobile subscription infrastructure provider) by focusing specifically on migrating users away from platform billing to direct web checkout, rather than optimizing within the App Store payment system. RevenueCat powers subscription management for 70,000+ apps but primarily works within Apple's and Google's native billing systems (TechCrunch, May 2025 via search snippet). Paddle operates as a Merchant of Record but targets SaaS and desktop software, not mobile app billing migration. Neon Pay ($14M raised) focuses specifically on mobile games rather than general mobile apps (VentureBeat via search snippet). Adapty.io ($2.5M raised) provides subscription analytics and paywall optimization but does not act as a Merchant of Record for alternative billing (TechCrunch, Nov 2022 via search snippet). ZeroSettle combines the MoR function with purpose-built migration campaigns and retention tools specifically designed for the App Store billing bypass use case.
 
-**Business Model:** ZeroSettle offers two pricing tiers. "ZeroSettle Managed" charges 5% + $0.50 per transaction, where ZeroSettle handles all payment processing and MoR functions. "Bring Your Own Stripe" charges 0.5% of ZeroSettle-attributed revenue, for developers who want to use their existing Stripe account. A "Founding Partner Program" offers free access for two years (limited spots, application-only) (zerosettle.io).
+**Business Model:** Two pricing tiers are publicly listed (ZeroSettle website):
+- **ZeroSettle Managed:** 5% + $0.50 per transaction — ZeroSettle handles all compliance, tax, fraud, and support as MoR. On a $9.99 sale, the developer retains ~$8.50.
+- **Bring Your Own Stripe (BYOS):** 0.5% of ZeroSettle-attributed revenue — the developer owns the Stripe relationship and retains ~$9.50 on a $9.99 sale.
+- **Founding Partner Program:** Free for two years with white-glove setup and direct Slack support.
 
-**TAM/SAM:** The global mobile application market was valued at approximately $330.61 billion in 2025 (Precedence Research, 2025 via search snippet), with a projected CAGR of 14.04% through 2035. Apple's App Store generated an estimated $270 billion in revenue in 2025 (Electroiq via search snippet). The serviceable market is the subset of iOS app revenue flowing through in-app purchases where developers would opt into alternative billing — no public third-party estimate exists for this specific segment. Appcharge reported processing over $500 million in annual DTC transactions for mobile games alone (BusinessWire, August 2025 via search snippet), providing a reference point for early adoption volumes in the gaming vertical.
+**TAM/SAM:** Apple's U.S. App Store facilitated $406 billion in developer billings and sales in 2024, with Apple collecting over $10 billion in U.S. commissions (Apple Newsroom, May 2025 via search snippet; TechCrunch, May 2025 via search snippet). Globally, Apple collected $27.39 billion in commissions in 2024 (TechCrunch, May 2025 via search snippet). The addressable market for ZeroSettle is the portion of these commissions that could be redirected through alternative payment links — specifically subscription-based apps where users can be migrated to web billing. No public SAM estimate specific to this segment was found.
 
-**GTM / Distribution:** [Inferred]: The most likely distribution path is developer-to-developer word-of-mouth and YC network distribution, given the 2-person team and SDK-first product. The "Founding Partner Program" (free for two years) functions as a land-and-expand strategy to seed initial adoption. The "under 15 minutes" integration claim and automatic App Store Connect product sync lower onboarding friction. The product's compliance with both the Epic v. Apple injunction and the EU Digital Markets Act positions it for both US and EU markets.
+**GTM / Distribution:** [Inferred]: The Founding Partner Program (free for two years) serves as an early-adopter acquisition mechanism, reducing friction for developers to trial the platform. The SDK-based integration with a claimed 15-minute setup targets indie and mid-market iOS developers. The BYOS tier targets larger developers already on Stripe. Distribution likely relies on developer community channels, content marketing around the Epic v. Apple ruling, and YC network effects.
 
 ## Defensibility
 
-The primary defensibility signal is the operational complexity of the MoR function: handling tax compliance across 190+ countries, managing chargebacks, fraud detection, and navigating jurisdiction-specific checkout requirements (US vs. EU regulatory regimes). This operational layer creates switching costs once developers integrate the SDK and migrate subscribers. The "Cryptocurrency" tag and the existence of a "ZeroSettleEscrowKit" repo containing "all escrow and crypto sources" (github.com/zerosettle) suggest a potential crypto/escrow component that could introduce additional technical differentiation, though no public details are available on this feature.
+ZeroSettle's primary switching cost derives from its role as Merchant of Record — once a developer migrates subscribers to ZeroSettle-managed billing, reversing the migration (moving users back to Apple IAP or to another MoR) involves subscriber disruption and re-platforming complexity. The entitlement syncing layer across platforms creates additional integration depth. Dashboard-configured A/B testing and retention flows accumulate optimization data over time that could inform better conversion and retention models.
 
-No network effects or data moats are identifiable at this stage. [Inferred]: Potential defensibility could develop via accumulated subscriber payment data across customers enabling better churn prediction and conversion optimization, but this is unproven.
+**Market structure:** Apple itself cannot easily offer this solution because it would cannibalize its own $27B+ annual commission revenue. RevenueCat's core business is built on optimizing within Apple's and Google's billing systems — offering an alternative billing bypass product would jeopardize its relationship with Apple, which could restrict RevenueCat's access to StoreKit APIs. This creates a structural conflict for the two largest incumbents.
 
-**Market structure:** Apple itself cannot offer this product because it would cannibalize its own 30% commission revenue stream. Stripe could build a comparable MoR layer but has historically positioned as infrastructure rather than a managed service with pre-built UI components. Paddle + RevenueCat announced a partnership in June 2025 to address this market (TechCrunch, June 2025), but their solution requires integrating two separate vendor products. The structural barrier for incumbents like Apple is direct business model cannibalization; for Stripe, it is the shift from infrastructure-only positioning to managed service.
-
-**Commoditization risk:** The core SDK integration is technically reproducible. Paddle (valued at $1.4B) and RevenueCat (valued at $500M) have already partnered to offer a combined solution. Appcharge ($89M+ raised) and Neon ($14M raised) are funded competitors in adjacent verticals. Stripe provides raw iOS payment processing documentation. The MoR compliance layer is the harder-to-replicate component, but Paddle, FastSpring, and Lemon Squeezy already operate MoR businesses for digital products.
+**Commoditization risk:** The core SDK technology (web checkout integration, entitlement syncing) is replicable. Stripe itself launched guidance for iOS developers to accept payments outside the App Store in May 2025 (TechCrunch, May 2025 via search snippet), though Stripe positioned this as payment infrastructure rather than a turnkey migration-and-retention solution. Neon Pay and other MoR providers could expand from gaming to general apps. The migration campaign logic ("Switch & Save," retention flows) is not deeply proprietary.
 
 ## Market & Traction
 
 **Traction signals:**
-- GitHub: ZeroSettleKit iOS SDK — 8 stars, 65 commits, 16 releases, 4 contributors, MIT license (github.com/zerosettle/ZeroSettleKit, accessed February 2026)
-- GitHub: 4 public repositories (ZeroSettleKit for Swift, ZeroSettle-Android for Kotlin, ZeroSettle-Flutter for Dart, ZeroSettleEscrowKit for Swift), all with recent updates as of February 19, 2026 (github.com/zerosettle)
-- Company Twitter/X: @zerosettle (YC page); follower count not retrievable
-- Gabe Roeloffs Twitter/X: @gaberoeloffs (x.com); follower count not retrievable
-- LinkedIn company page: not found in search results
-- No Product Hunt launch found
-- No press coverage in named publications found
-- No Discord/Slack community found
-- No public user counts, revenue figures, or customer testimonials found
-- No app store ratings or Chrome extension applicable (B2B SDK product)
+- No public user counts, revenue figures, or customer names found.
+- Company Twitter/X: @zerosettle (count not retrievable).
+- Gabe Roeloffs Twitter/X: @gaberoeloffs, joined July 2014 (count not retrievable) (X.com).
+- Gabe Roeloffs Product Hunt profile exists (producthunt.com/@gaberoeloffs) — no launched products found under ZeroSettle name.
+- Ryan Elliott GitHub: github.com/RyanElliott10 — 27 followers; pinned repo "wsbtickerbot" has 134 stars and 64 forks (GitHub).
+- Gabe Roeloffs GitHub: github.com/gdroel — 8 followers; top repo "slackarma" has 7 stars (GitHub).
+- LinkedIn company page exists at linkedin.com/company/zerosettle (follower count not retrievable).
+- Documentation site live at docs.zerosettle.io; dashboard at dashboard.zerosettle.io.
+- No press coverage found in named publications.
+- No Product Hunt launch found.
+- No app store listings found.
+- No Discord or Slack community data found publicly.
 
 **Competitive landscape:**
 
 | Competitor | Funding | Revenue/ARR | Key Differentiator vs. ZeroSettle |
 |---|---|---|---|
-| Paddle + RevenueCat (partnership) | Paddle: $293M raised, $1.4B valuation; RevenueCat: $119M raised, $500M valuation | Paddle: $90.9M revenue (Getlatka, October 2024 via search snippet); RevenueCat: ~$20M ARR (Getlatka, 2024 via search snippet) | Established MoR (Paddle) + subscription analytics (RevenueCat), but requires two vendor integrations; announced iOS external payment partnership June 2025 (TechCrunch, June 2025) |
-| Appcharge | $89-92M raised, Series B $58M (IVP, August 2025) | $500M+ in annual DTC transactions processed (BusinessWire, August 2025 via search snippet) | Focused on mobile gaming DTC storefronts; does not target general iOS subscription apps |
-| Neon (NeonPay) | $14M (Thrive Capital, a16z Speedrun, Renegade Partners) (neonpay.com) | Revenue unknown | Focused on DTC for game studios; San Francisco-based team with Affirm, Apple, Supercell backgrounds |
-| Adapty | $2.5M raised (500 Global, others) (Tracxn via search snippet) | Revenue unknown | Subscription management and analytics layer; integrates with Stripe and Paddle for payments rather than acting as MoR |
-| Stripe (direct) | Public company | Public company | Provides raw payment processing infrastructure for iOS external payments (announced May 2025 per TechCrunch); does not provide MoR, pre-built paywalls, or subscriber migration tools |
+| **RevenueCat** | $119M total, Series C-II at $500M+ valuation (TechCrunch, May 2025 via search snippet) | $20M revenue in 2024 (CB Insights via search snippet) | Powers 70,000+ apps with in-platform subscription management; does not offer alternative billing bypass |
+| **Paddle** | $293M total, $1.4B valuation (Tracxn via search snippet) | $90.9M revenue in 2024 (Latka via search snippet) | Full MoR for SaaS/desktop; cited Apple ecosystem opening as growth driver; not mobile-app-migration focused |
+| **Neon Pay** | $14M from Thrive Capital, a16z Speedrun, Ribbit Capital (VentureBeat via search snippet) | Revenue unknown | MoR focused on mobile games; Direct Checkout increased purchase completion 26%; gaming-only focus |
+| **Adapty.io** | $2.5M seed (TechCrunch, Nov 2022 via search snippet) | Revenue unknown | Mobile subscription analytics and paywall optimization; not an MoR; works within Apple's system |
+| **Stripe (direct)** | Public company | N/A | Provides payment infrastructure iOS developers can use directly, but no migration campaigns, retention flows, or MoR wrapper |
 
-**Why now:** On April 30, 2025, U.S. District Judge Yvonne Gonzalez Rogers ruled that Apple "willfully" violated her 2021 Epic v. Apple injunction by maintaining anticompetitive barriers to external payment links (CommLaw Group, 2025 via search snippet). This ruling permitted iOS apps in the US to link to external web checkout flows without Apple blocking or restricting placement and without paying Apple's commission. Separately, the EU Digital Markets Act required Apple to allow alternative payment methods in the EU, with Apple imposing up to a 20% commission on external EU transactions (Adapty, 2025 via search snippet). In December 2025, a court ordered that developers must have access to these alternative billing options by March 17, 2026. [Inferred]: These regulatory changes created a new market for turnkey solutions that handle the operational complexity of multi-jurisdiction iOS alternative billing, which did not exist as a viable product category prior to April 2025.
+**Why now:** Two specific regulatory catalysts opened this market:
+1. In April 2025, U.S. District Judge Yvonne Gonzalez Rogers ruled Apple was in "willful violation" of the 2021 Epic Games v. Apple anti-steering injunction, ordering Apple to allow external payment links in iOS apps without commissions or deterrent warning screens (MacRumors, April 2025 via search snippet). Apple updated App Review Guidelines on May 3, 2025 to comply (RevenueCat blog via search snippet). In December 2025, the Ninth Circuit unanimously affirmed the contempt finding, though it remanded the question of whether Apple can charge any fee on linked-out purchases (Justia, December 2025 via search snippet).
+2. The EU Digital Markets Act, effective March 2024, required Apple to allow alternative payment systems in the EU, though Apple imposed a 5% Core Technology Commission on alternative-payment transactions starting June 2025 (Neon Pay blog via search snippet).
+3. Japan's Mobile Software Competition Act took effect December 18, 2025, with compliance required by March 2026 (search snippet).
+
+[Inferred]: These regulatory changes created a window where developers can legally offer alternative billing in the U.S. without Apple commissions, but the compliance complexity (varying rules by jurisdiction, entitlement syncing, tax handling) creates demand for a turnkey solution like ZeroSettle.
 
 ## Founders & Team
 
 **Ryan Elliott** — Co-founder
-- Education: California Polytechnic State University, San Luis Obispo (LinkedIn via search snippet)
-- Previously: Systems Software Engineer at Apple, San Diego; received patent at Apple; team focused on battery life, thermals, and user experience for Apple products (LinkedIn via search snippet)
-- Twitter/X: No public account found under his name; handle not listed on YC page
-- LinkedIn: linkedin.com/in/ryanelliott-10 (search snippet) and linkedin.com/in/ryan-elliott-aa107113b (GitHub profile link)
-- GitHub: github.com/RyanElliott10 — 27 repos, 27 followers; company listed as "ZeroSettle"; notable repo: `wsbtickerbot` (Reddit scraper for r/wallstreetbets ticker mentions, 134 stars, archived) (github.com/RyanElliott10)
+- Former systems software engineer at Apple (YC page). LinkedIn headline: "Software Engineer at Apple" (linkedin.com/in/ryanelliott-10 via search snippet). Education: California Polytechnic State University, San Luis Obispo (LinkedIn via search snippet). Received a patent from Apple; worked on operating systems, camera technologies, and performance (LinkedIn via search snippet).
+- Twitter/X: No confirmed public account found linked to ZeroSettle.
+- LinkedIn: linkedin.com/in/ryanelliott-10
+- GitHub: github.com/RyanElliott10 — 27 repos, 27 followers. Bio references ZeroSettle and Apple. Pinned repo "wsbtickerbot" (Reddit bot scraping r/wallstreetbets for most mentioned tickers) has 134 stars and 64 forks. Other pinned repos: "TPCoref" (coreference resolution using Transformers, 1 star), "Swellion" (Rust, 2 stars).
 
 **Gabe Roeloffs** — Co-founder
-- Previously: Worked on operating systems at Apple (YC page); iOS developer with Swift experience (Medium, January 2015)
-- Contact: gabe@zerosettle.io (zerosettle.io)
-- Twitter/X: @gaberoeloffs (x.com/gaberoeloffs); follower count not retrievable
-- LinkedIn: linkedin.com/in/gabe-roeloffs — headline listed as Apple / Founder of ZeroSettle (search snippet)
-- GitHub: No personal public GitHub profile found; contributor to ZeroSettle organization repos
-- Medium: medium.com/@gaberoeloffs — published articles on iOS/Swift development
+- Previously worked on operating systems at Apple (YC page). Has written about building iPhone apps in Swift (Medium). Founded a smart appliance startup for growing food indoors prior to ZeroSettle (search snippet). Based in San Luis Obispo / San Francisco.
+- Twitter/X: @gaberoeloffs, joined July 2014 (X.com) — follower count not retrievable.
+- LinkedIn: linkedin.com/in/gabe-roeloffs — headline: "Apple" (via search snippet).
+- GitHub: github.com/gdroel — 29 repos, 8 followers. Top repo "slackarma" (7 stars). Arctic Code Vault Contributor. Primarily PHP and JavaScript projects.
+- Medium: medium.com/@gaberoeloffs — authored "5 Things I Learned Building my First iPhone App."
+- Product Hunt profile: producthunt.com/@gaberoeloffs.
 
-**Co-founder relationship:** Both founders attended California Polytechnic State University, San Luis Obispo (confirmed for Ryan Elliott via LinkedIn search snippet; Gabe Roeloffs had a San Luis Obispo-based startup per search snippet, suggesting shared university or locale). Both worked at Apple, indicating overlapping employer history.
+**Co-founder relationship:** Both founders attended California Polytechnic State University, San Luis Obispo and both worked at Apple on operating systems. Shared university and employer history indicates a pre-existing professional relationship.
 
-**Founder-market fit:** Both founders worked at Apple on systems-level software (operating systems, battery life, thermals), giving them direct insight into Apple platform internals, App Store economics, and the developer experience of building for iOS. Their first-party Apple engineering experience is directly relevant to building a compliant SDK that interoperates with StoreKit and navigates Apple's evolving guidelines. No advisors, board members, or notable investors beyond Y Combinator have been identified. Brad Flora is listed as the primary YC partner (YC page).
+**Founder-market fit:** Both founders worked as systems software engineers at Apple, giving them direct insider knowledge of Apple's billing infrastructure, App Store policies, StoreKit APIs, and the internal dynamics of how Apple enforces its commission structure. Their iOS/systems engineering backgrounds are directly relevant to building SDK-level integrations with Apple's platform. Ryan Elliott's patent from Apple and Gabe Roeloffs' experience building iOS apps provide complementary technical depth.
 
 ## Key Risks
 
-**Regulatory reversal risk:** ZeroSettle's core value proposition depends on the April 2025 Epic v. Apple injunction and the EU Digital Markets Act. In December 2025, a U.S. appeals court ruled that Apple should be able to charge a "reasonable commission" on purchases made via external links (MacRumors, December 2025 via search snippet). If courts ultimately allow Apple to impose fees approaching the original 30% commission on externally linked transactions, ZeroSettle's savings proposition narrows or disappears. The regulatory landscape is actively in flux with a March 2026 compliance deadline.
+**Regulatory uncertainty on commission fees:** The December 2025 Ninth Circuit ruling affirmed Apple's contempt finding but remanded the question of whether Apple can charge a "reasonable fee" on linked-out purchases (Ninth Circuit, December 2025 via search snippet). If Apple is permitted to impose even a modest commission (e.g., 5-12%) on alternative payment transactions, ZeroSettle's value proposition narrows significantly — the savings gap between 30% and 5%+0.50 shrinks if Apple adds its own surcharge on top.
 
-**Well-funded competitor convergence:** Paddle ($293M raised, $1.4B valuation) and RevenueCat ($119M raised, $500M valuation) announced a joint iOS external payment solution in June 2025 (TechCrunch). Appcharge ($89M+ raised) and Neon ($14M raised) are attacking the same opportunity in gaming. Stripe provides competing infrastructure. ZeroSettle faces the risk of being outspent on product development, sales, and developer relations by incumbents who are already targeting this market.
+**Apple platform retaliation risk:** Apple has historically used App Review as a gatekeeping mechanism. While current court orders prohibit Apple from blocking external payment links, Apple retains broad discretion over app approval for other reasons. Developers using ZeroSettle may face heightened review scrutiny or rejection on unrelated grounds, creating chilling effects on adoption. Apple's compliance with the ruling has been characterized as grudging (MacRumors, April 2025 via search snippet).
 
-**Apple platform dependency:** ZeroSettle's product is entirely dependent on Apple's iOS ecosystem. Apple controls the App Store Review Guidelines and could introduce new restrictions, modify StoreKit behavior, or change compliance requirements in ways that disrupt ZeroSettle's SDK functionality. Apple has historically responded to regulatory pressure with technical and policy changes designed to maintain control (e.g., the "anti-steering" provisions that prompted the April 2025 contempt finding).
+**Stripe dependency and competitive exposure:** ZeroSettle's payment processing runs on Stripe. Stripe published its own guide for iOS developers to accept payments outside the App Store in May 2025 (TechCrunch, May 2025). If Stripe builds a more complete turnkey solution (adding migration campaigns, retention flows, entitlement syncing), ZeroSettle's value-add layer on top of Stripe infrastructure becomes vulnerable. Additionally, Paddle explicitly cited Apple's ecosystem opening as a growth driver in its July 2025 funding announcement (Paddle blog via search snippet).
 
-**Cryptocurrency/escrow positioning ambiguity:** The "Cryptocurrency" tag on the YC page and the "ZeroSettleEscrowKit" repo containing "all escrow and crypto sources" suggest a crypto component that is not explained on the company website. This creates positioning ambiguity — the core product appears to be a straightforward payment MoR, but the crypto element may introduce regulatory complexity (money transmitter licensing, securities considerations) and could confuse potential customers.
+**Jurisdiction fragmentation:** The legal landscape differs materially across the U.S. (court-ordered, commission status TBD), EU (5% CTC applies), and Japan (commission still charged). ZeroSettle must maintain region-specific compliance logic and checkout flows. The website claims "region-specific compliance" with auto-adapting checkout flows, but each new jurisdiction adds engineering and legal complexity.
+
+**Developer adoption inertia:** Migrating subscribers from Apple IAP to web billing requires developers to accept the risk of Apple relationship friction. Many developers, especially those dependent on Apple featuring or editorial placements, may avoid alternative billing even when legally permitted. The Founding Partner Program (free for two years) mitigates price objections but not relationship risk.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $330.61B global mobile application market (Precedence Research, 2025 via search snippet, 14.04% CAGR through 2035) |
-| SAM | No public data found for the specific iOS alternative billing segment |
-| Traction | 8 GitHub stars on ZeroSettleKit (github.com/zerosettle/ZeroSettleKit, Feb 2026); 4 public repos with recent commits (github.com/zerosettle, Feb 2026); no public user counts or customer announcements found |
-| Revenue Signal | Pricing published: 5% + $0.50/txn (Managed) or 0.5% of attributed revenue (BYO Stripe); Founding Partner Program offers free access for 2 years (zerosettle.io). No public revenue figures found |
-| Founders | Ryan Elliott: Cal Poly SLO, ex-Apple systems software engineer, patent holder. Gabe Roeloffs: ex-Apple operating systems, iOS/Swift developer |
-| Competitors | Paddle + RevenueCat ($293M + $119M raised, $90.9M + $20M revenue respectively, joint iOS payment solution launched June 2025); Appcharge ($89M+ raised, $500M+ annual DTC transactions, gaming-focused); Neon ($14M raised, revenue unknown, gaming DTC); Adapty ($2.5M raised, revenue unknown, subscription management layer); Stripe (public company, raw payment infrastructure) |
-| Moat Signals | MoR operational complexity (tax compliance in 190+ countries, chargebacks, fraud); jurisdiction-specific checkout logic (US vs. EU); SDK integration switching costs |
-| Risk Factors | Regulatory reversal on Apple external payment fees, well-funded competitor convergence (Paddle/RevenueCat/Appcharge/Neon), Apple platform dependency and guideline changes |
-| Founder Reach | Ryan Elliott: Twitter not found, LinkedIn linkedin.com/in/ryanelliott-10, GitHub 134 stars (wsbtickerbot). Gabe Roeloffs: Twitter @gaberoeloffs (count not retrievable), LinkedIn linkedin.com/in/gabe-roeloffs, GitHub not found (personal) |
-| Distribution Signals | No public data found (no Product Hunt launch, no press coverage, no app store listings identified) |
+| TAM | Apple collected $27.39B in global App Store commissions in 2024 (TechCrunch, May 2025 via search snippet); $10B+ in U.S. alone (TechCrunch, May 2025 via search snippet) |
+| SAM | No public data found for the specific subscription-app alternative billing segment |
+| Traction | No public data found (no user counts, customer names, or revenue disclosed) |
+| Revenue Signal | Pricing listed: 5% + $0.50/txn (Managed) or 0.5% of attributed revenue (BYOS); Founding Partner Program free for 2 years (ZeroSettle website) |
+| Founders | Ryan Elliott: Former Apple systems software engineer, Cal Poly SLO, Apple patent holder. Gabe Roeloffs: Former Apple OS engineer, Cal Poly SLO, prior startup founder. |
+| Competitors | RevenueCat ($119M raised, $20M revenue 2024, in-platform subscription mgmt). Paddle ($293M raised, $90.9M revenue 2024, SaaS MoR). Neon Pay ($14M raised, revenue unknown, gaming-focused MoR). Adapty ($2.5M raised, revenue unknown, paywall analytics). Stripe (public, payment infra, no turnkey migration). |
+| Moat Signals | MoR switching costs once subscribers migrated; entitlement sync integration depth; Apple insiders with platform knowledge |
+| Risk Factors | Regulatory uncertainty on Apple's right to charge fees on linked-out purchases, Apple platform retaliation via App Review, Stripe competitive exposure |
+| Founder Reach | Ryan Elliott: GitHub 27 followers/134 stars (wsbtickerbot), LinkedIn (ryanelliott-10). Gabe Roeloffs: Twitter @gaberoeloffs (count not retrievable), GitHub 8 followers/7 stars, LinkedIn (gabe-roeloffs). |
+| Distribution Signals | No public data found (no Product Hunt launch, no press coverage, no app store listings) |
+| Emails | gabe@zerosettle.io, support@zerosettle.io |

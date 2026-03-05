@@ -1,64 +1,68 @@
 {
   "slug": "zerosettle",
   "name": "ZeroSettle",
-  "oneLiner": "Bypass the App Store tax and enable web-based purchases",
+  "oneLiner": "Avoid the 30% App Store Tax by Supporting Direct Billing in your App",
   "metadata": {
     "website": "https://zerosettle.io",
     "yc_page": "https://www.ycombinator.com/companies/zerosettle",
     "batch": "Winter 2026",
-    "industry": "B2B / B2B -> Sales",
+    "industry": "Fintech / Fintech -> Payments",
     "team_size": "2",
     "location": "No public data found",
-    "tags": "Fintech, Payments, Cryptocurrency"
+    "tags": "Developer Tools, Fintech, Payments, B2B, Cryptocurrency",
+    "yc_partner": "Brad Flora",
+    "emails": "gabe@zerosettle.io, support@zerosettle.io"
   },
   "tags": [
+    "Developer Tools",
     "Fintech",
     "Payments",
+    "B2B",
     "Cryptocurrency"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T06:11:13.146Z",
+  "memoGeneratedAt": "2026-03-05T01:06:40.064Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
       "score": 41,
       "tier": "Pass"
     },
+    "elad-gil": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 51,
+      "tier": "Neutral"
+    },
     "paul-graham": {
-      "score": 44,
-      "tier": "Pass"
+      "score": 48,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 30,
+      "score": 29,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 30,
+      "score": 29,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 35,
+      "score": 38,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 34,
-    "EG": 37,
-    "NR": 41,
-    "PG": 44,
-    "PT": 30,
-    "SL": 30,
-    "VK": 35
+    "CB": 41,
+    "EG": 48,
+    "NR": 51,
+    "PG": 48,
+    "PT": 29,
+    "SL": 29,
+    "VK": 38
   },
-  "consolidatedAvg": 35.86,
-  "consolidatedRank": 131,
+  "consolidatedAvg": 40.57,
+  "consolidatedRank": 90,
   "paths": {
     "memo": "winter2026/memos/zerosettle.md",
     "evals": {

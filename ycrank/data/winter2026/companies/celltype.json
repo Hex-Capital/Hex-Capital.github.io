@@ -6,10 +6,12 @@
     "website": "https://www.celltype.com",
     "yc_page": "https://www.ycombinator.com/companies/celltype",
     "batch": "Winter 2026",
-    "industry": "Healthcare / Healthcare -> Drug Discovery and Delivery",
+    "industry": "Healthcare / Drug Discovery and Delivery",
     "team_size": "2",
     "location": "New York, NY, USA",
-    "tags": "AI-powered Drug Discovery, Artificial Intelligence, Machine Learning, Biotech, Therapeutics"
+    "tags": "AI-powered Drug Discovery, Artificial Intelligence, Machine Learning, Biotech, Therapeutics",
+    "yc_partner": "Ankit Gupta",
+    "emails": "No public data found"
   },
   "tags": [
     "AI-powered Drug Discovery",
@@ -19,14 +21,14 @@
     "Therapeutics"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T06:11:29.854Z",
+  "memoGeneratedAt": "2026-03-05T01:06:20.317Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 42,
+      "score": 38,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 45,
+      "score": 55,
       "tier": "Neutral"
     },
     "naval-ravikant": {
@@ -34,33 +36,33 @@
       "tier": "Invest"
     },
     "paul-graham": {
-      "score": 57,
-      "tier": "Neutral"
+      "score": 65,
+      "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 46,
+      "score": 48,
       "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 47,
+      "score": 46,
       "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 72,
+      "score": 66,
       "tier": "Invest"
     }
   },
   "consolidatedScores": {
-    "CB": 42,
-    "EG": 45,
+    "CB": 38,
+    "EG": 55,
     "NR": 72,
-    "PG": 57,
-    "PT": 46,
-    "SL": 47,
-    "VK": 72
+    "PG": 65,
+    "PT": 48,
+    "SL": 46,
+    "VK": 66
   },
-  "consolidatedAvg": 54.43,
-  "consolidatedRank": 13,
+  "consolidatedAvg": 55.71,
+  "consolidatedRank": 12,
   "paths": {
     "memo": "winter2026/memos/celltype.md",
     "evals": {

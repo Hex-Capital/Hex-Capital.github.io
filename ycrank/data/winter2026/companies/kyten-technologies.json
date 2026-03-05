@@ -1,7 +1,7 @@
 {
   "slug": "kyten-technologies",
   "name": "Kyten Technologies",
-  "oneLiner": "Custom aerospace-grade battery pack factory",
+  "oneLiner": "American battery pack factory",
   "metadata": {
     "website": "https://kytentech.com",
     "yc_page": "https://www.ycombinator.com/companies/kyten-technologies",
@@ -9,25 +9,27 @@
     "industry": "Industrials / Industrials -> Manufacturing and Robotics",
     "team_size": "2",
     "location": "Seattle, WA, USA",
-    "tags": "Manufacturing, Aerospace"
+    "tags": "Manufacturing, Aerospace",
+    "yc_partner": "Jon Xu",
+    "emails": "founders@kytentech.com, lucas.maddox@kytentech.com"
   },
   "tags": [
     "Manufacturing",
     "Aerospace"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T06:09:47.423Z",
+  "memoGeneratedAt": "2026-03-05T01:04:43.956Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 45,
-      "tier": "Neutral"
+      "score": 44,
+      "tier": "Pass"
     },
     "elad-gil": {
-      "score": 62,
+      "score": 56,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 58,
+      "score": 62,
       "tier": "Neutral"
     },
     "paul-graham": {
@@ -35,29 +37,29 @@
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 43,
-      "tier": "Pass"
+      "score": 48,
+      "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 57,
+      "score": 53,
       "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 45,
+      "score": 46,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 45,
-    "EG": 62,
-    "NR": 58,
+    "CB": 44,
+    "EG": 56,
+    "NR": 62,
     "PG": 62,
-    "PT": 43,
-    "SL": 57,
-    "VK": 45
+    "PT": 48,
+    "SL": 53,
+    "VK": 46
   },
-  "consolidatedAvg": 53.14,
-  "consolidatedRank": 18,
+  "consolidatedAvg": 53,
+  "consolidatedRank": 21,
   "paths": {
     "memo": "winter2026/memos/kyten-technologies.md",
     "evals": {

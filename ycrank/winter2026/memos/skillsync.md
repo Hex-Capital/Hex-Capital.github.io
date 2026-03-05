@@ -11,105 +11,103 @@
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
 | Tags | Artificial Intelligence, Recruiting, Open Source, HR Tech |
+| YC Partner | Tyler Bosmeny |
+| Emails | founders@skillsync.wiki |
 
 ## The Idea
 
-**Problem:** Companies hiring for specialized engineering roles (low-level systems, robotics, infrastructure, ML on edge) struggle to identify qualified candidates because the engineers who build in these domains are often not active on LinkedIn, do not maintain updated resumes, and are dispersed across the long tail of open-source projects. Existing recruiting workflows rely on keyword-matching against resumes and professional profiles, which systematically miss contributors whose skills are demonstrated only in code. Today, recruiters manually browse GitHub repositories or rely on broad talent marketplaces (SeekOut, HireEZ, Turing) that index professional profiles rather than actual code output.
+**Problem:** Companies hiring for specialized engineering roles (e.g., WASM compilers, edge ML deployment, low-latency trading systems) struggle to identify engineers with verified, deep domain expertise. Traditional recruiting relies on resumes, keyword matching, and self-reported skills on platforms like LinkedIn, which poorly capture actual technical ability. The existing workflow involves recruiters manually browsing GitHub profiles or using broad-spectrum sourcing tools that aggregate surface-level metadata (star counts, follower counts) rather than analyzing the substance of code contributions (YC company page).
 
-**Approach:** Skillsync analyzes public GitHub contributions and creates structured skill profiles for developers. Rather than indexing resumes or LinkedIn profiles, it parses code contributions to identify what an engineer has actually built. Companies use a "Cursor-like" search interface to query for specific capabilities (e.g., "deployed custom neural nets on edge," "WASM compiler experience") and receive a shortlist of engineers whose code demonstrates those skills. A browser tool allows users to append "skills" to any GitHub URL (skillsgithub.com/username) to view a capability breakdown. Engineers do not need to sign up or maintain a profile (YC launch page, ycombinator.com/launches/PAP).
+**Approach:** Skillsync analyzes developers' open-source contributions on GitHub to create structured skill profiles. It builds a "developer knowledge graph" from actual code, generating descriptions of what each developer has built, their problem-solving patterns, domain expertise, and working style. Companies use a natural-language, "Cursor-like" search interface to describe the capability they need (e.g., "find me engineers who have experience with WASM compilers"), and the platform returns ranked candidates who have demonstrably built in that domain. The workflow then supports filtering by seniority and location, shortlisting, and generating personalized outreach emails referencing the candidate's specific contributions (company website). Developers do not need to sign up or maintain a profile (YC company page).
 
-**Differentiation:** Traditional sourcing platforms (SeekOut, HireEZ, Entelo) aggregate professional profiles from LinkedIn, job boards, and social media. They search resumes and bios via keyword matching. Turing and Toptal are talent marketplaces where developers opt-in and go through vetting. Skillsync's differentiation is that it indexes actual code contributions rather than self-reported skills, and does not require developer opt-in. This positions it for a segment of the talent pool that is invisible to profile-based sourcing: engineers whose primary professional presence is their GitHub activity rather than a LinkedIn page.
+**Differentiation:** Compared to broad talent sourcing platforms like SeekOut or hireEZ, which aggregate data from 39M–600M+ profiles across LinkedIn, GitHub, Stack Overflow, and other platforms, Skillsync focuses specifically on deep code-level analysis of open-source contributions rather than metadata aggregation. Prog.AI is the closest direct competitor—it also infers skills from GitHub code (TechCrunch, March 2023)—but Skillsync differentiates via its natural-language "Cursor-like" search interface and its emphasis on "personas and working style insights" derived from code analysis, rather than Prog.AI's more traditional search-filter approach. AmazingHiring aggregates profiles from 50+ networks but relies on profile-level data rather than code analysis (search snippet via Juicebox blog, 2026).
 
-**Business Model:** Skillsync offers three pricing tiers (app.skillsync.wiki): Starter (free, limited searches), Pro ($499/month per seat, unlimited searches, contact credits, export credits, phone/Slack support), and Enterprise (custom pricing, includes MCP server, dedicated account manager, custom integrations, priority support). "Deep profile" credits are priced at $3 each. No public revenue figures have been disclosed.
+**Business Model:** Skillsync charges $499/month or $399/month billed annually ($4,790/year) (company website). No per-seat or usage-based pricing tiers were visible on the website. No freemium tier was identified.
 
-**TAM/SAM:** The global IT recruitment market was valued at $198.8 billion in 2025 (Business Research Insights, via search snippet). The global recruitment software market was valued at $2.38 billion in 2024 and is projected to reach $3.7 billion by 2033 at a 4.9% CAGR (IMARC Group, via search snippet). A separate estimate sizes the recruitment software market at $3.30 billion in 2025, growing at 9.4% CAGR to $6.20 billion by 2032 (Coherent Market Insights, via search snippet). No publicly available SAM estimate exists specific to code-based or open-source developer sourcing.
+**TAM/SAM:** The global IT Recruitment Market was valued at USD 198.8 billion in 2025 with a CAGR of 7.67% through 2035 (Business Research Insights, 2025 via search snippet). The global online recruitment technology market was valued at USD 15.18 billion in 2025 with a projected CAGR of 12.90% through 2034 (Fortune Business Insights, 2025 via search snippet). [Inferred]: Skillsync's SAM is the subset of technical recruiting spend directed at sourcing specialized/senior engineers, likely a single-digit-billion-dollar segment within the broader IT recruitment market.
 
-**GTM / Distribution:** [Inferred]: The most likely initial distribution path is direct outbound to engineering-led companies hiring for specialized roles (systems, infrastructure, AI/ML), where traditional sourcing is least effective. The YC launch post specifically calls out "low-level systems, robotics, and infrastructure engineering" as target domains. The Pro tier's per-seat pricing at $499/month suggests targeting individual recruiters or small recruiting teams at tech companies rather than enterprise-wide deals initially.
+**GTM / Distribution:** The website offers a "Book a Demo" and "Talk to Founders" pathway, indicating a founder-led sales motion (company website). The website claims "hundreds of talent teams" are using the platform (company website). [Inferred]: Most likely distribution path is direct sales to engineering-heavy companies and recruiting agencies, supplemented by organic discovery through the open-source developer community and word-of-mouth from the founders' network in the Juspay/Hyperswitch open-source ecosystem.
 
 ## Defensibility
 
-Skillsync's primary potential defensibility mechanism is the structured skill profile dataset it builds by analyzing GitHub contributions. As more profiles are indexed and refined, the depth and accuracy of code-skill mappings could create a data advantage that new entrants would need to replicate from scratch. No public information exists on proprietary models, patents, or unique data pipelines beyond what is described on the website and YC page.
+Skillsync's primary moat signal is the developer knowledge graph built from deep code analysis of GitHub contributions—a structured data asset that grows more valuable as more repositories are indexed and more skill profiles are generated. The founders' direct experience growing Juspay's Hyperswitch from 0 to 20k+ GitHub stars (now 34–40k+ stars) provides domain-specific insight into how open-source talent operates (YC company page, GitHub).
 
-**Market structure:** GitHub profile-based sourcing platforms (SeekOut, HireEZ) have invested heavily in aggregating professional profiles from LinkedIn, social media, and job boards. Their product architectures, sales motions, and customer expectations are built around keyword-matching against professional text data. Building a code-analysis layer requires a fundamentally different technical stack (parsing repositories, understanding code semantics across languages, mapping contributions to skill taxonomies). [Inferred]: Incumbents could add code-analysis features, but doing so would require significant R&D investment in a capability orthogonal to their current matching infrastructure, and it is unclear whether their customer base (generalist recruiters) would demand it enough to justify the investment.
+**Market structure:** Broad talent platforms like LinkedIn Recruiter and SeekOut optimize for breadth (1B+ and 39M profiles respectively) and serve generalist recruiting workflows. Building deep code-analysis capabilities for a niche segment of technical sourcing may not justify the engineering investment for platforms whose revenue model depends on serving all hiring categories. Prog.AI, however, operates in the same niche and has code-analysis capabilities, so the structural barrier against code-analysis-specific competitors is limited.
 
-**Commoditization risk:** The underlying approach—analyzing GitHub contributions to infer developer skills—is technically reproducible. GitHub's public API provides access to the same raw data. LLMs have made code understanding more accessible. A well-funded competitor or an incumbent like SeekOut or LinkedIn could build similar code-analysis features. The moat, if one develops, would depend on the quality and granularity of skill extraction, the breadth of profiles indexed, and any proprietary signals beyond raw code analysis.
+**Commoditization risk:** The core capability—analyzing public GitHub code to infer developer skills—is technically replicable. LLM-based code analysis is increasingly accessible, and any well-funded recruiting platform could build similar features. Prog.AI already offers code-based skill inference across 60M+ developer profiles (TechCrunch, March 2023). The differentiation rests on search interface quality, depth of the knowledge graph, and speed of iteration rather than structural barriers.
 
 ## Market & Traction
 
-**Traction signals:**
-- Backed by Y Combinator (W26 batch) (ycombinator.com/companies/skillsync)
-- YC Partner: Tyler Bosmeny (YC company page)
-- Product Hunt launch: "Discover hidden talent in your codebase" (June 5, 2025, producthunt.com/products/skillsync-3 via search snippet) — 3 upvotes reported (Product Hunt via search snippet). Note: this Product Hunt listing used the tagline "Discover hidden talent in your codebase," which emphasizes internal team analysis; the current YC positioning emphasizes external recruiting ("Find anyone in open source"). This may reflect a repositioning of the product's primary use case.
-- GitHub organization: github.com/skillsynchq — no public repositories, 3 followers (GitHub, fetched Feb 2025)
-- Company Twitter/X: No dedicated company account found.
-- Narayana Aaditya Twitter/X: @narsagna (count not retrievable)
-- Nishant Joshi Twitter/X: No public account confirmed for the Skillsync co-founder specifically.
-- LinkedIn: linkedin.com/in/narayanaaaditya/ (Narayana Aaditya); linkedin.com/in/nishantjosh/ and linkedin.com/in/joshi-nishant (Nishant Joshi) — follower/connection counts not retrievable.
-- Discord/Slack community: No public data found.
-- No public user counts, revenue, or growth metrics disclosed.
-- No active job postings (YC company page, 0 jobs listed).
+1. **Traction signals:**
+   - Website claims "hundreds of talent teams discovering hidden engineering talent" (company website, accessed March 2026)—no specific count or source verification available.
+   - Product Hunt launch: "Discover hidden talent in your codebase" — listed June 2025 with 3 upvotes (Product Hunt via search snippet). Note: this Product Hunt listing describes a codebase-analysis tool for internal teams ("discover hidden talent in your codebase… capture successful patterns without surveys"), which differs from the current positioning as an external developer sourcing/recruiting platform ("Find anyone in open source"). This may indicate a product pivot between mid-2025 and the W26 YC batch.
+   - Product Hunt Awards page exists for 2025 but no specific award details were retrievable (Product Hunt via search snippet).
+   - Twitter/X: Company handle @skillsync exists (X.com). Follower count not retrievable.
+   - Nishant Joshi posted about YC W26 acceptance on X (@nishantjosh, post dated 2025) (X.com via search snippet).
+   - LinkedIn: A company page exists at linkedin.com/company/skillsyncjob (LinkedIn via search snippet). Follower count not retrievable. Note: multiple unrelated "SkillSync" entities exist on LinkedIn (SkillSync Solutions, SkillSync Interns), creating brand disambiguation challenges.
+   - Pricing at $499/month suggests the product is live and monetizing (company website).
+   - No press coverage in named publications found beyond the YC listing.
+   - No Discord or Slack community found.
+   - No app store listings or Chrome extension found.
 
-**Competitive landscape:**
+2. **Competitive landscape:**
 
-1. **SeekOut** — $189M raised (Series C, Jan 2022, TechCrunch); $25.2M revenue in 2024 (Getlatka, via search snippet); $1.2B valuation (SeekOut press release, Jan 2022). Indexes 700M+ professional profiles across 30+ platforms. Differentiator vs. Skillsync: SeekOut aggregates professional profile data (LinkedIn, GitHub bios, patents, publications) rather than analyzing code content directly. Broader in scope (not engineering-specific) but shallower on code-level skill extraction.
+   | Competitor | Funding | Revenue | Key Differentiator vs. Skillsync |
+   |-----------|---------|---------|----------------------------------|
+   | **Prog.AI** | $1M pre-seed (company blog) | Revenue unknown | Also analyzes GitHub code to infer skills; covers 60M+ developer profiles; offers tiered pricing from free to $530/month (TechCrunch, March 2023). Most direct competitor. |
+   | **SeekOut** | $186M total raised, $1.2B peak valuation (SeekOut blog, Jan 2022); laid off 30% in May 2024 (TechCrunch, May 2024) | $25.2M revenue in 2024 (GetLatka via search snippet) | Broad talent intelligence platform with 39M developer profiles and GitHub search feature; serves all roles, not just engineering. Far larger but less code-analysis depth. |
+   | **hireEZ** | $76.3M total raised (Tracxn via search snippet) | $42.6M revenue in 2024 (GetLatka via search snippet) | End-to-end outbound recruiting platform across 45+ web sources; broader scope beyond GitHub-specific code analysis. Pricing $169–$250+/user/month. |
+   | **AmazingHiring** | No public funding data found | Revenue unknown | Aggregates 600M+ tech profiles from 50+ networks (GitHub, Stack Overflow, Kaggle); ~$300/user/month (search snippet via Juicebox blog, 2026). Profile-based rather than code-analysis-based. |
+   | **GitMatcher** | No public funding data found | Revenue unknown | AI GitHub sourcing tool analyzing code performance and contribution velocity; most similar niche positioning to Skillsync. |
 
-2. **HireEZ (formerly Hiretual)** — $26M raised (Conductive Ventures, Feb 2022, via search snippet). AI-powered sourcing across the open web. Differentiator vs. Skillsync: HireEZ searches across multiple web sources (social media, professional sites) using NLP on text profiles rather than code analysis. Broader candidate sources but no code-understanding capability.
-
-3. **Entelo** — $44.4M raised over 5 rounds (Tracxn, via search snippet); $35M annual revenue as of June 2024 (Growjo, via search snippet). Focuses on diversity hiring and predictive analytics on professional profiles. Differentiator vs. Skillsync: Profile-based matching with a diversity hiring emphasis; does not analyze code contributions.
-
-4. **Turing** — Developer marketplace with AI-based vetting; access to 2M+ developers (via search snippet). Differentiator vs. Skillsync: Turing is an opt-in marketplace where developers apply and are vetted. Skillsync indexes developers who have not opted in, based on public code. Different GTM (marketplace vs. sourcing tool).
-
-5. **Toptal** — Curated marketplace of "top 3%" freelance talent. Differentiator vs. Skillsync: Opt-in, heavily vetted marketplace model focused on freelance engagements rather than sourcing for full-time hiring.
-
-**Why now:** [Inferred]: The convergence of large language models capable of understanding code semantics (GPT-4, Claude, open-source code LLMs) has made automated code analysis at scale technically feasible in a way it was not 2-3 years ago. Prior approaches to GitHub-based sourcing relied on shallow signals (commit counts, language frequency, star counts). LLMs enable extraction of higher-level skill signals from code (e.g., "deployed custom neural nets on edge") that map to actual hiring requirements. Simultaneously, the AI/ML talent shortage has increased employer willingness to source from non-traditional channels.
+3. **Why now:** [Inferred]: Two catalysts converge. First, LLM capabilities crossed a threshold in 2023–2025 that makes deep semantic code analysis at scale feasible and cost-effective—prior tools could only extract surface metadata (language, stars, commit frequency) from GitHub profiles, whereas LLMs can now parse code semantics to infer domain expertise. Second, technical hiring difficulty increased—65% of technology hiring managers reported greater difficulty finding skilled professionals year-over-year (Robert Half, 2026 via search snippet), and AI/ML job postings grew 163% in 2025 (Robert Half via search snippet), creating acute demand for specialized developer sourcing in niche domains where traditional recruiting pipelines fail.
 
 ## Founders & Team
 
 **Narayana Aaditya Ganeshkumar** — Co-founder & CEO
-- Education: NIT Trichy; XLRI Jamshedpur (ContactOut, via search snippet)
-- Previously: Associate Product Manager at Juspay (Aug 2022 – Dec 2024), where he worked on Hyperswitch, an open-source Rust payments switch (LinkedIn, via search snippet)
-- Helped grow Hyperswitch from launch to 20K+ GitHub stars during his tenure (YC company page). The repo currently has 40.3K stars (GitHub, fetched Feb 2025).
-- Background described as spanning "engineering, product, and organizational psychology" (YC company page)
+- PGDM, XLRI Jamshedpur (2018–2020); B.Tech, National Institute of Technology Tiruchirappalli (2014–2018) (LinkedIn via search snippet, ContactOut via search snippet)
+- Previously at Juspay, where he contributed to the Hyperswitch open-source project (a Rust-based payments switch that grew from 0 to 20k+ GitHub stars during his involvement) (YC company page)
+- Background spans product, HR/management consulting, strategy, and organizational psychology (LinkedIn via search snippet)
 - Twitter/X: @narsagna — follower count not retrievable
-- LinkedIn: linkedin.com/in/narayanaaaditya/
-- GitHub: No personal public GitHub profile confirmed
+- LinkedIn: linkedin.com/in/narayanaaaditya — headline: "Skillsync" (LinkedIn via search snippet)
+- GitHub: No public repos found under this handle
 
 **Nishant Joshi** — Co-founder & CTO
-- Previously: Rust Developer / SDE at Juspay, building Hyperswitch (LinkedIn, via search snippet)
-- Described as "Top 1% Rust developer" (YC company page)
-- 2+ years of hands-on Rust programming; skills in system development, service mesh, AWS, Kubernetes (LinkedIn, via search snippet)
-- Smart India Hackathon (SIH) 2022 Grand Finalist (LinkedIn, via search snippet)
-- Twitter/X: No confirmed account for this specific Nishant Joshi
-- LinkedIn: linkedin.com/in/nishantjosh/ and linkedin.com/in/joshi-nishant
-- GitHub: github.com/NishantJoshi00 — 182 followers; 100+ public repo contributions; notable pinned repo: shelgon (Rust REPL framework, 271 stars); contributor to juspay/hyperswitch (40.3K stars) (GitHub, fetched Feb 2025)
+- Previously a developer at Juspay, where he worked on Hyperswitch; described as a "Top 1% Rust dev" with 2+ years of hands-on Rust programming (YC company page, GitHub profile via search snippet)
+- Skills in Rust (76.76% of code), Python, JavaScript, TypeScript, Zig, Ruby; specializes in type-safe systems, functional programming, and type theory (GitHub profile via search snippet)
+- Based in Bengaluru/Mumbai prior to San Francisco (GitHub profile via search snippet)
+- Twitter/X: @nishantjosh — follower count not retrievable
+- LinkedIn: linkedin.com/in/nishantjosh — headline: "Co-Founder CTO @ Skillsync (YC W26)" (LinkedIn via search snippet)
+- GitHub: github.com/NishantJoshi00 — 148 followers, 100+ public repo contributions; personal site nishantjosh.dev (GitHub via search snippet)
 
-**Co-founder relationship:** Both founders worked at Juspay, where they contributed to the Hyperswitch open-source payments project. This shared employer and project experience constitutes a prior working relationship.
+**Co-founder relationship:** Both founders worked together at Juspay on the Hyperswitch open-source Rust project (YC company page, LinkedIn data). This shared experience at the same company on the same open-source project is the identified connection point.
 
-**Founder-market fit:** Both founders come directly from the open-source ecosystem that Skillsync targets. At Juspay, they grew Hyperswitch to 20K+ stars and managed a community of hundreds of contributors, giving them first-hand experience with the problem of identifying skilled contributors in open-source projects. Nishant Joshi's deep Rust expertise and GitHub presence (100+ repos, 271 stars on shelgon) demonstrates active participation in the developer community Skillsync indexes. Narayana Aaditya's product management background at Juspay and organizational psychology training from XLRI provide the product and GTM perspective.
+**Founder-market fit:** Both founders experienced the developer sourcing problem firsthand while growing Juspay's Hyperswitch from 0 to 20k+ GitHub stars—they observed that many world-class engineers contribute to open source but are invisible to recruiters through traditional channels (YC company page). Aaditya's XLRI management education and HR/organizational psychology background provides the business and recruiting-domain lens, while Nishant's deep Rust systems engineering experience and extensive GitHub activity provide the technical credibility and ability to build code-analysis infrastructure. Their direct experience operating in the open-source ecosystem gives them a user-side understanding of how skilled developers actually work and signal expertise through code.
 
 ## Key Risks
 
-**Name disambiguation / brand confusion:** Multiple unrelated products and projects share the "SkillSync" name, including an EIT upskilling tool in Europe (digital-skills-jobs.europa.eu), several unrelated GitHub repositories (Chinmay-Ankolekar/SkillSync, Shubhiidixit/SkillSync, opencodeiiita/SkillSync-Frontend), and a separate Product Hunt listing ("Skillsync: Ship your ideas into functional apps," producthunt.com/products/skillsync-2). This creates SEO competition and potential brand confusion for prospective customers searching for the product.
+**Pivot uncertainty:** The June 2025 Product Hunt launch positioned the product as "Discover hidden talent in your codebase" (internal team skill mapping), while the current product is positioned as "Find anyone in open source" (external recruiting). This pivot within ~6 months suggests the team is still iterating on product-market fit, and the current positioning may not be final (Product Hunt via search snippet; company website).
 
-**GitHub API dependency:** Skillsync's core functionality relies on access to public GitHub data. GitHub (Microsoft) could restrict API access, change rate limits, or introduce competing native features. GitHub Copilot's expansion into developer analytics and GitHub's existing "Sponsors" and profile features indicate the platform is investing in developer identity products. Any policy change regarding scraping or bulk API usage of contribution data could constrain Skillsync's data pipeline.
+**Direct competitor with head start (Prog.AI):** Prog.AI raised $1M in pre-seed funding (Prog.AI blog), already indexes 60M+ developer profiles, offers tiered pricing, and was covered by TechCrunch in March 2023. Prog.AI's founder (Maria Grineva) had a prior exit (Orb Intelligence sold to Dun & Bradstreet). Skillsync will need to differentiate on search quality and depth rather than coverage.
 
-**Developer consent and privacy concerns:** Skillsync creates profiles of developers without requiring their opt-in. Engineers may object to having their GitHub contributions analyzed and presented to recruiters without consent, especially in jurisdictions with strict data protection regulations (GDPR, CCPA). This could lead to reputational backlash within the developer community that Skillsync depends on for its data, or regulatory challenges in certain markets.
+**GitHub data dependency:** The product's entire value proposition depends on analyzing public GitHub data. GitHub (owned by Microsoft) could restrict API access, change rate limits, or launch competing features. GitHub Copilot's expansion into developer profiling or Microsoft's integration of GitHub data into LinkedIn Recruiter would create a direct substitution risk from the platform owner.
 
-**Incumbent response at scale:** SeekOut ($189M raised, $25.2M revenue) and HireEZ ($26M raised) have existing recruiter customer bases and could add code-analysis features as an extension of their platforms. LinkedIn, which owns the dominant professional graph and has access to GitHub data through Microsoft, is a latent competitive threat with distribution advantages that would be difficult to overcome.
+**Brand disambiguation:** Multiple unrelated entities use the "SkillSync" name on LinkedIn (SkillSync Solutions, SkillSync Interns, SkillSyncer on Product Hunt). This creates confusion in search results and brand-building challenges. The domain skillsync.wiki (rather than a .com) compounds discoverability friction (LinkedIn via search snippet).
 
-**Product positioning uncertainty:** The June 2025 Product Hunt launch positioned the product as "Discover hidden talent in your codebase" (internal team analytics), while the current YC positioning is "Find anyone in open source" (external recruiting). This shift suggests the company may still be iterating on its core use case and target buyer, which introduces execution risk around product-market fit.
+**Limited addressable candidate pool:** The product only surfaces engineers who contribute to public open-source repositories on GitHub. Many highly skilled engineers work primarily on proprietary codebases and have minimal or no public GitHub activity, limiting the pool of discoverable candidates to a subset of the total engineering talent market.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $198.8B IT recruitment market (Business Research Insights, 2025, via search snippet); $2.38B recruitment software market (IMARC Group, 2024, 4.9% CAGR, via search snippet) |
+| TAM | IT Recruitment Market: $198.8B in 2025, CAGR 7.67% (Business Research Insights via search snippet); Online Recruitment Technology Market: $15.18B in 2025, CAGR 12.90% (Fortune Business Insights via search snippet) |
 | SAM | No public data found |
-| Traction | YC W26 batch; Product Hunt launch June 2025, 3 upvotes (producthunt.com/products/skillsync-3 via search snippet); No public user or revenue metrics |
-| Revenue Signal | Pricing: Free tier, Pro $499/mo/seat, Enterprise custom, $3/deep profile credit (app.skillsync.wiki). No disclosed revenue. |
-| Founders | Narayana Aaditya Ganeshkumar (CEO): NIT Trichy, XLRI Jamshedpur, ex-Juspay PM (Hyperswitch). Nishant Joshi (CTO): ex-Juspay Rust dev, top 1% Rust, SIH 2022 Grand Finalist. |
-| Competitors | SeekOut ($189M raised, $25.2M ARR 2024, profile aggregation across 700M+ profiles vs. code-based); HireEZ ($26M raised, revenue unknown, open-web NLP sourcing vs. code analysis); Entelo ($44.4M raised, $35M revenue 2024, diversity-focused profile matching vs. code-based) |
-| Moat Signals | Structured skill-profile dataset built from code analysis; founders' direct open-source community experience (Hyperswitch, 40.3K stars). No patents or proprietary data sources identified. |
-| Risk Factors | GitHub API dependency, developer privacy/consent concerns, brand name disambiguation, incumbent response (SeekOut/LinkedIn), product positioning still iterating |
-| Founder Reach | Narayana Aaditya: Twitter @narsagna (count not retrievable), LinkedIn linkedin.com/in/narayanaaaditya/. Nishant Joshi: Twitter not confirmed, LinkedIn linkedin.com/in/nishantjosh/, GitHub 182 followers + 271 stars (shelgon) |
-| Distribution Signals | Product Hunt launch June 2025 (3 upvotes); YC Launch page (ycombinator.com/launches/PAP); GitHub org skillsynchq (3 followers, no public repos) |
+| Traction | "Hundreds of talent teams" (company website, unverified); Product Hunt launch June 2025 with 3 upvotes (Product Hunt via search snippet); YC W26 batch (YC page) |
+| Revenue Signal | Pricing: $499/month or $399/month annual ($4,790/year) (company website). No revenue figures disclosed. |
+| Founders | Narayana Aaditya Ganeshkumar (CEO): XLRI Jamshedpur PGDM, NIT Trichy B.Tech, ex-Juspay (Hyperswitch). Nishant Joshi (CTO): Top 1% Rust dev, ex-Juspay (Hyperswitch), 148 GitHub followers. |
+| Competitors | Prog.AI ($1M pre-seed, revenue unknown, direct GitHub code-analysis competitor); SeekOut ($186M raised, $25.2M revenue 2024, broad talent platform with GitHub search); hireEZ ($76.3M raised, $42.6M revenue 2024, end-to-end outbound recruiting); AmazingHiring (funding unknown, revenue unknown, 600M+ tech profiles from 50+ networks); GitMatcher (funding unknown, revenue unknown, AI GitHub sourcing) |
+| Moat Signals | Developer knowledge graph from deep code analysis; founders' direct experience growing Hyperswitch (0 to 20k+ GitHub stars) |
+| Risk Factors | Recent pivot from internal codebase tool to external recruiting, direct competitor Prog.AI has head start and prior-exit founder, GitHub platform dependency |
+| Founder Reach | Aaditya: Twitter @narsagna (count not retrievable), LinkedIn linkedin.com/in/narayanaaaditya. Nishant: Twitter @nishantjosh (count not retrievable), LinkedIn linkedin.com/in/nishantjosh, GitHub 148 followers. |
+| Distribution Signals | Product Hunt launch June 2025 (3 upvotes) (Product Hunt via search snippet); "Book a Demo" / "Talk to Founders" sales motion (company website) |
+| Emails | founders@skillsync.wiki |

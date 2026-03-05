@@ -11,102 +11,107 @@
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
 | Tags | Artificial Intelligence, Generative AI, Biotech |
+| YC Partner | Jon Xu |
+| Emails | founders@strandai.com |
 
 ## The Idea
 
-**Problem:** Acquiring every data modality (gene expression, proteomics, spatial transcriptomics) for every patient in a clinical trial or biomarker study is expensive, invasive, and often impossible. Patients drop out, assessments are skipped, and rare diseases yield inherently small cohorts with sparse multimodal coverage. Life sciences teams today either discard incomplete subjects—losing statistical power—or run costly re-acquisition campaigns. The affected customer segment is biopharma R&D teams running clinical trials and biomarker discovery programs.
+**Problem:** Clinical trials have a ~90% failure rate (Strand AI website), and a major contributor is incomplete patient data. Life sciences teams running clinical trials and biomarker discovery routinely encounter cohorts with missing biological modalities — spatial proteomics, transcriptomics, gene expression — because acquiring every modality for every patient is expensive and logistically prohibitive. Teams today either discard subjects with incomplete data (shrinking their cohort and statistical power), run expensive assays to fill gaps, or proceed with incomplete profiles, all of which extend timelines and reduce trial success rates.
 
-**Approach:** Strand AI builds foundation models that predict missing biological data modalities from routinely collected samples (e.g., predicting proteomic or transcriptomic profiles from standard pathology slides). The platform generates synthetic multimodal patient data—filling in gene expression, proteomics, and spatial transcriptomics—so that researchers can recover insights from incomplete cohorts without re-acquiring samples (strandai.com). The company also curates and releases multimodal biological datasets, including a "1000 Genomes VariantFormer dataset" (strandai.com).
+**Approach:** Strand AI builds foundation models that predict missing biological modalities from data already collected. Given an H&E stain and genotype data, for example, the model can infer proteomics or transcriptomics for that patient. This cross-modal prediction enables researchers to "rescue" incomplete cohorts, skip expensive assays, unlock rare disease populations (where collecting all modalities is especially difficult), and discover unmeasured biomarkers across entire cohorts (Strand AI website). The company claims to have trained a multimodal foundation model integrating spatial biology modalities that beats state-of-the-art performance at a fraction of the cost, accomplished in under 6 weeks (YC page).
 
-**Differentiation:** Unlike full-stack drug discovery platforms (e.g., Recursion, Insitro, Insilico Medicine) that operate wet labs and run their own drug pipelines, Strand AI focuses specifically on the data imputation and dataset curation layer—predicting missing modalities rather than discovering drugs directly. Compared to Tempus AI, which aggregates clinical and molecular data at scale for analytics, Strand AI's core mechanism is generative prediction of unmeasured data from measured readouts. Strand AI positions itself as infrastructure for biopharma teams building their own biological models, rather than an end-to-end drug discovery engine.
+**Differentiation:** Unlike general-purpose clinical trial AI platforms (e.g., TriNetX for trial recruitment, PhaseV for protocol optimization, QuantHealth for in-silico simulation), Strand AI operates at the biological data layer — specifically generating missing multimodal patient profiles rather than optimizing trial design or recruitment logistics. Compared to spatial biology competitors like Nucleai (which analyzes existing pathology images for spatial biomarkers) or Owkin (which uses federated learning on hospital data for biomarker discovery), Strand AI's differentiator is generative imputation: synthesizing modalities that were never measured, rather than analyzing modalities that were. Bioptimus builds universal foundation models for biology broadly, while Strand AI is focused specifically on cross-modal prediction for clinical trial cohort completion.
 
-**Business Model:** No pricing page or revenue information is publicly available (strandai.com, as of research date). [Inferred]: Most likely monetization path is data-as-a-service (licensing curated/generated datasets) and/or platform-as-a-service (per-project or subscription access to the imputation models), given the company's emphasis on providing datasets and data tools to life sciences teams.
+**Business Model:** No pricing page is visible on the company website. [Inferred]: The most likely monetization path is enterprise SaaS or data-as-a-service licensing to pharmaceutical companies and CROs on a per-dataset or per-cohort basis, given the B2B pharma customer segment and the nature of the product as infrastructure for clinical trial data enrichment.
 
-**TAM/SAM:** The global AI in drug discovery market was valued at approximately $3.6 billion in 2024 and is estimated to grow at a CAGR of over 30.1% through 2034 (GM Insights, 2024 via search snippet). Alternative estimates range from $1.8 billion in 2024 to $6.93 billion in 2025 depending on methodology and scope (Grand View Research, 2024 via search snippet; BioSpace, 2024 via search snippet). The AI in biotechnology market is projected to reach $1.97 billion by 2031 (Valuates Reports via search snippet). No SAM estimate specific to the multimodal biological data imputation segment was found.
+**TAM/SAM:** The AI in Clinical Trials market is projected to reach $20.16 billion by 2033 (BioSpace, via search snippet). The generative AI market for clinical trials specifically is projected to exceed $1 billion by 2032, growing at ~24% CAGR from $140 million in 2022 (Statista, via search snippet). No public SAM estimate specific to the multimodal data imputation subsegment was found.
 
-**GTM / Distribution:** [Inferred]: Most likely distribution path is direct sales to biopharma R&D teams and partnerships with clinical trial organizations, given the enterprise nature of the customer segment. The curated dataset offering (e.g., 1000 Genomes VariantFormer) may serve as a top-of-funnel acquisition mechanism, allowing potential customers to evaluate data quality before purchasing imputation services.
+**GTM / Distribution:** [Inferred]: Most likely distribution path is direct enterprise sales to pharmaceutical companies and CROs conducting clinical trials. The founders' prior experience at Enable Medicine (building spatial biology platforms for pharma) and Pathos/Tempus AI (foundation models on large patient datasets) provides potential warm introductions to biopharma data science teams. The YC network and the "1000 Genomes VariantFormer dataset" available on their site may also function as a developer-community entry point for computational biologists.
 
 ## Defensibility
 
-Strand AI's potential defensibility centers on the quality of its foundation models and curated datasets for biology. As more multimodal biological data flows through the platform, model accuracy could improve, creating a data flywheel. The company's focus on a specific technical niche—predicting missing biological modalities from measured readouts—requires deep domain expertise in both machine learning and multi-omics biology.
+**Data moat potential:** Both founders previously built infrastructure for petabyte-scale multimodal spatial biology data at Enable Medicine (YC page). Training cross-modal prediction models requires paired multimodal datasets (e.g., samples where both H&E and proteomics were measured on the same patient), which are scarce and expensive to assemble. Early access to such paired data and proprietary model weights trained on them could constitute a compounding data advantage. The company's GitHub organization hosts a fork of "VariantFormer," a hierarchical transformer for DNA sequence-genetic variation integration (GitHub, Strand-AI org), and the website references a "1000 Genomes VariantFormer dataset" — signals of active model development on specific biological data.
 
-No patents, published benchmarks, or proprietary data volume claims were found in public sources.
+**Technical complexity:** Building accurate cross-modal biological prediction models requires deep domain expertise in both spatial biology and machine learning. The claim of beating SOTA at reduced cost and time (YC page) suggests meaningful technical execution if validated.
 
-**Market structure:** Large drug discovery incumbents (Recursion, Insitro, Tempus) have built vertically integrated platforms that include wet labs, proprietary data generation, and drug pipelines. [Inferred]: These companies may view a standalone data imputation tool as complementary infrastructure rather than a competitive threat, potentially making Strand AI a vendor to incumbents rather than a target for replication. However, no structural barrier prevents well-resourced incumbents from building similar imputation capabilities in-house—Tempus's collaboration with AstraZeneca and Pathos to build a multimodal oncology foundation model (Tempus press release, 2025 via search snippet) demonstrates that large players are already investing in multimodal model development.
+**Market structure:** Incumbent pharma data companies (e.g., Tempus, Flatiron Health) focus on collecting and organizing real-world data, not on generating synthetic/imputed modalities. Generating missing biological data introduces model liability concerns (predictions used in drug development) that large incumbents with existing regulatory relationships may be reluctant to champion without extensive validation. [Inferred]: This regulatory and liability caution could create a window for a focused startup to establish credibility and accumulate validation data before incumbents move.
 
-**Commoditization risk:** Foundation models for biological data are an active area of academic and industry research. Open-source efforts like Boltz-2 (MIT and Recursion) demonstrate that sophisticated biological models can be released openly. Research labs at institutions worldwide are publishing multimodal biological prediction methods. The barrier to entry is significant domain expertise and access to curated training data, but not insurmountable for well-funded competitors or academic groups.
+**Commoditization risk:** Open-source foundation models for biology are proliferating (e.g., Bioptimus's H-optimus-0 for pathology). If cross-modal prediction becomes a well-characterized task with standard benchmarks, well-resourced competitors (Owkin with $300M+ in funding, Bioptimus with $76M) could build competing solutions. The barrier to entry depends on (a) access to high-quality paired multimodal training data and (b) the difficulty of achieving clinically validated accuracy in imputed modalities.
 
 ## Market & Traction
 
 **Traction signals:**
-- No public revenue, user counts, or customer data found.
-- No Product Hunt launch found.
-- No app store presence (the company is an enterprise/B2B platform).
-- LinkedIn company page exists at linkedin.com/company/strand-ai (follower count not retrievable).
-- The company also owns the domain strandai.bio, which redirects to strandai.com (observed during research).
-- 0 open job postings (YC company page).
-- No Discord or Slack community found.
-- No press coverage in named publications found.
+- Backed by Y Combinator (W26 batch) (YC page)
+- Company Twitter/X: @strandaibio — account created November 2025 (search result via search snippet); follower count not retrievable (JavaScript-rendered page)
+- Company LinkedIn: linkedin.com/company/strand-ai (LinkedIn search result)
+- GitHub organization: github.com/Strand-AI — 7 public repositories; most starred repo is "lambda-cli" with 20 stars (GitHub)
+- No Product Hunt launch found
+- No press coverage in named publications found
+- No public revenue or user count data found
+- No Discord or Slack community found
 
 **Competitive landscape:**
 
-1. **Recursion Pharmaceuticals** (public; ~$461M total equity raised per Tracxn via search snippet): Operates an end-to-end drug discovery platform with ~65 petabytes of proprietary biological data and integrated wet labs. Key differentiator vs. Strand AI: Recursion generates its own data at scale through robotic labs and uses it for internal drug pipelines, whereas Strand AI focuses on imputing missing data for external biopharma customers. Revenue not publicly broken out for the data platform segment.
+1. **Owkin** (~$300M+ raised, revenue unknown): Builds AI models on federated multimodal patient data from academic hospitals. Key differentiator vs. Strand AI: Owkin focuses on federated analysis of existing data across hospital networks via its MOSAIC spatial multi-omics atlas, rather than generating/imputing missing modalities. (Owkin website; Clay funding estimate via search snippet)
 
-2. **Insitro** ($643M+ raised per Tracxn via search snippet; $69M revenue per getlatka.com via search snippet; $2.5B valuation): Combines machine learning with high-throughput biology for drug discovery in metabolism, oncology, and neuroscience. Key differentiator vs. Strand AI: Insitro generates proprietary cellular data in its own labs and develops internal drug candidates, rather than selling data imputation as a service.
+2. **Bioptimus** ($76M raised, revenue unknown): Building a universal multi-scale, multi-modal foundation model for biology. Founded 2024, spun out of Owkin. Key differentiator vs. Strand AI: Bioptimus is pursuing a general-purpose biology foundation model across scales (molecular to organism), while Strand AI is focused specifically on cross-modal clinical data imputation. (BusinessWire, Jan 2025 via search snippet)
 
-3. **Tempus AI** (public; $1.5B+ raised per Tracxn via search snippet; ~$952M trailing 12-month revenue as of June 2025 per Tempus earnings via search snippet): Aggregates clinical and molecular data from healthcare providers for precision medicine and pharma partnerships. Key differentiator vs. Strand AI: Tempus collects real-world patient data at scale from health systems, whereas Strand AI generates synthetic/predicted data from existing measurements.
+3. **Nucleai** ($60.5M raised, revenue unknown): AI-powered spatial biology platform for biomarker discovery. Launched a deep learning model for automated spatial proteomics in April 2025. Key differentiator vs. Strand AI: Nucleai analyzes existing tissue images to identify spatial biomarkers, rather than generating missing modalities. (Calcalist, via search snippet; CB Insights via search snippet)
 
-4. **Insilico Medicine** ($524.8M raised per Crunchbase via search snippet; $75M annual revenue as of Aug 2025 per CB Insights via search snippet; IPO Dec 2025): Uses AI across target discovery, molecule generation, and clinical trial prediction. Key differentiator vs. Strand AI: Insilico operates a full drug discovery pipeline with multiple candidates in clinical trials, whereas Strand AI focuses on the upstream data layer.
+4. **Standard Model Bio** (funding unknown): Emerged from stealth September 2025 building a multimodal foundation model predicting patient state changes over time. Key differentiator vs. Strand AI: Standard Model focuses on longitudinal patient state prediction and disease progression simulation, while Strand AI focuses on cross-sectional modality imputation. (standardmodel.bio; Tech+Bio Highlights via search snippet)
 
-5. **BioStrand** (biostrand.ai; funding details not found): Unifies life sciences data using natural language processing for drug discovery. Key differentiator vs. Strand AI: BioStrand focuses on NLP-based analysis of existing biological data, whereas Strand AI focuses on generative prediction of missing modalities.
+5. **PhaseV** ($50M Series A, revenue unknown): AI platform for clinical trial protocol optimization across 40 global pharma sponsors. Key differentiator vs. Strand AI: PhaseV optimizes trial design and adaptive protocols, while Strand AI enriches the underlying patient data used in trials. (BioPharma Trend via search snippet)
 
-**Why now:** [Inferred]: Several converging factors have opened this opportunity in the last 12–24 months. Foundation model architectures (transformers, diffusion models) have reached sufficient maturity to handle complex biological data modalities. The availability of large-scale multi-omics datasets (single-cell RNA-seq, spatial transcriptomics) has grown substantially, providing training data for imputation models. Additionally, the pharmaceutical industry's increasing adoption of AI-driven approaches—evidenced by the highest single-year jump in IND filings for AI-originated molecules in 2025 (BioPharmaTrend via search snippet)—has created demand for higher-quality, more complete biological datasets to train downstream models.
+**Why now:**
+- [Inferred]: The rapid maturation of transformer-based foundation models (2023–2025) has made it feasible to train multimodal biological prediction models at a fraction of prior cost and time — the company's claim of achieving SOTA in under 6 weeks reflects this cost curve inflection.
+- Spatial omics adoption is growing at approximately 28% annually with over 500 published datasets as of 2025 (search snippet, unnamed source), creating both more training data and more demand for imputation where modalities are incomplete.
+- Increasing pharma investment in AI-driven clinical trial optimization (the broader AI in clinical trials market growing at 24% CAGR per Statista) creates a buying environment for tools that promise to reduce trial timelines.
 
 ## Founders & Team
 
 **Yue Dai** — Co-founder & CEO
-- Alumni of McGill University (yued.ai personal website)
-- Previously: Software Engineer at Pathos (yued.ai, email yue.dai@pathos.com listed)
-- Personal website: yued.ai
-- Twitter/X: No public account found specific to this individual (an account @YueNancyDai1 appeared in search but could not be confirmed as the same person)
-- LinkedIn: linkedin.com/in/yd0531/ — "Founder @ Strand AI | YC W26," 500+ connections (LinkedIn via search snippet)
-- GitHub: No public repos found under a confirmed handle
+- Education: McGill University (LinkedIn via search snippet; degree type not confirmed)
+- Previously: Element AI (Yoshua Bengio's lab), Microsoft Research, Amazon Web Services, Pathos (a Tempus AI initiative — built foundation models on large multimodal patient datasets), Enable Medicine (YC page; RocketReach via search snippet)
+- Has built and managed ML infrastructure at scale, including clusters of thousands of GPUs (YC page)
+- Twitter/X: No personal public account found (company account @strandaibio)
+- LinkedIn: linkedin.com/in/yd0531 — headline not retrievable (LinkedIn blocked fetch)
+- GitHub: No personal public repos found
 
 **Oded Falik** — Co-founder & CTO
-- B.S. from The University of Texas at Dallas (ZoomInfo via search snippet)
-- Previously: Senior Software Engineer at a stealth startup (LinkedIn via search snippet)
-- Personal website: odedfalik.com
-- Twitter/X: @\_odedf (GitHub profile link; follower count not retrievable)
-- LinkedIn: linkedin.com/in/oded-falik/ — "Founder @ Strand AI (YC W26)" (LinkedIn via search snippet)
-- GitHub: github.com/odfalik — 24 repos, 6 followers; bio states "Building @Strand-AI"; notable repos include silimon (Apple Silicon performance monitor, 3 stars), cs4375-lin-reg (ML project), firebase-user-bulk (GitHub)
+- Education: BS, University of Texas at Dallas (ZoomInfo via search snippet)
+- Previously: Enable Medicine (led product, built spatial biology platform end-to-end), Plnar, Fornida, IN-COM Data Systems (search results via search snippet)
+- Has been programming since age 8 (YC page)
+- Twitter/X: @_odedf (GitHub profile link) — follower count not retrievable
+- LinkedIn: linkedin.com/in/oded-falik
+- GitHub: github.com/odfalik — 6 followers; notable repo: "silimon" (Apple Silicon performance monitor, 3 stars) (GitHub)
+- Hugging Face: odedfalik (Hugging Face via search snippet)
 
-Note on name disambiguation: A separate individual named Oded Falik (linkedin.com/in/odedfalik/) holds the title Senior Director of Architecture at Amwell and was formerly CTO at mPrest. This is a different person from the Strand AI co-founder based on distinct LinkedIn profiles, career histories, and the GitHub confirmation of the Strand AI co-founder's identity.
+**Co-founder relationship:** Both Yue Dai and Oded Falik previously worked at Enable Medicine, where they built infrastructure for petabyte-scale multimodal spatial biology data (YC page). This shared employer indicates a prior working relationship.
 
-**Co-founder relationship:** Yue Dai attended McGill University and previously worked at Pathos. Oded Falik attended the University of Texas at Dallas. No shared employer or university overlap is visible from available public data.
-
-**Founder-market fit:** Yue Dai's prior role at Pathos—a company working at the intersection of AI and precision oncology—provides direct domain exposure to the clinical and molecular data challenges Strand AI addresses. The specific nature of his contributions at Pathos is not publicly detailed. Oded Falik brings software engineering skills from his work on high-performance systems. The combination of bioinformatics domain experience and software engineering capability aligns with building data infrastructure for life sciences. No advisors, board members, or notable investors beyond Y Combinator were found in public sources.
+**Founder-market fit:** The founders' combined experience spans the exact intersection required for this product: Yue Dai brings deep ML expertise from Element AI (Yoshua Bengio's lab), Microsoft Research, and foundation model development at Pathos/Tempus on large multimodal patient datasets. Oded Falik brings spatial biology product and platform expertise from leading Enable Medicine's spatial biology platform end-to-end. Together they have direct experience with the data modalities (spatial proteomics, transcriptomics, H&E imaging) and the infrastructure scale their product requires.
 
 ## Key Risks
 
-**Brand disambiguation:** Multiple unrelated products share the "Strand AI" name: a hair analysis mobile app (App Store), Strand Intelligence for digital forensics (strandintelligence.com), Strand Life Sciences (strandls.com), and BioStrand (biostrand.ai). This creates potential confusion in search results, marketing, and customer discovery. The company appears to have secured both strandai.com and strandai.bio domains as a partial mitigation.
+**Regulatory and validation risk:** Imputed/generated biological data used in clinical trial patient selection decisions may face scrutiny from regulators (FDA, EMA). Pharmaceutical companies may require extensive validation studies before trusting AI-generated modalities for consequential decisions, which could lengthen sales cycles. No public information found on regulatory pathway or validation partnerships.
 
-**Well-funded incumbent overlap:** Tempus AI announced a collaboration with AstraZeneca and Pathos to build a "large multimodal oncology foundation model" trained on Tempus data, with $200 million in combined fees (Tempus press release via search snippet). This directly overlaps with Strand AI's core capability of multimodal biological data prediction. Large incumbents with existing data assets, pharma relationships, and revenue could build similar imputation capabilities as features within their platforms.
+**Brand disambiguation:** Multiple unrelated companies use "Strand AI" or similar names — including Strand Intelligence (digital forensics), a hair analysis app called "Strand AI" on the App Store, and Strands (banking AI). This could create confusion in market visibility, SEO, and IP protection. The GitHub organization contact email (founders@strandai.bio) differs from the website domain (strandai.com), suggesting the company may operate across multiple domains.
 
-**Technical validation gap:** No published benchmarks, peer-reviewed papers, or third-party evaluations of Strand AI's imputation accuracy were found in public sources. For a product whose value depends on the fidelity of predicted biological data—where errors could misdirect drug discovery programs—demonstrating rigorous validation is essential for customer adoption by risk-averse biopharma organizations.
+**Data access dependency:** Cross-modal prediction models require paired multimodal training datasets. Access to such data depends on partnerships with hospitals, biobanks, or pharma companies. If competitors with larger data networks (Owkin with its federated hospital network, Tempus with its clinicogenomic database) move into the imputation space, they may have structural data advantages.
 
-**Regulatory and trust barriers in synthetic biological data:** Biopharma companies and regulators (FDA, EMA) may be cautious about incorporating AI-generated/imputed biological data into clinical trial analyses or regulatory submissions. No regulatory guidance specifically addressing the use of synthetically imputed multi-omics data in drug development was found. Customer adoption may require extensive validation studies to demonstrate that imputed data does not introduce systematic biases.
+**Well-funded competitor convergence:** Owkin ($300M+), Bioptimus ($76M), and Nucleai ($60.5M) all operate in adjacent spatial biology AI spaces and could expand into cross-modal imputation. Strand AI's resource constraints as a 2-person pre-seed team mean limited bandwidth to establish market position before larger players potentially converge.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $3.6B AI in drug discovery market in 2024, 30.1% CAGR to 2034 (GM Insights, 2024 via search snippet) |
-| SAM | No public data found for the multimodal biological data imputation sub-segment |
-| Traction | No public data found |
+| TAM | AI in Clinical Trials: $20.16B by 2033 (BioSpace via search snippet); GenAI in Clinical Trials: >$1B by 2032 at ~24% CAGR (Statista via search snippet) |
+| SAM | No public data found for the multimodal data imputation subsegment |
+| Traction | Y Combinator W26 batch (YC page); no public revenue, user, or customer data found |
 | Revenue Signal | No public data found |
-| Founders | Yue Dai (CEO): McGill University, ex-Pathos software engineer. Oded Falik (CTO): UT Dallas BS, ex-stealth startup engineer |
-| Competitors | Recursion Pharmaceuticals (public, ~$461M equity raised, end-to-end drug discovery with proprietary wet-lab data); Insitro ($643M+ raised, $69M revenue, ML + in-house biology for drug candidates); Tempus AI (public, $1.5B+ raised, ~$952M TTM revenue, clinical data aggregation at scale); Insilico Medicine ($524.8M raised, $75M revenue, full AI drug discovery pipeline) |
-| Moat Signals | No public data found; potential data flywheel from curated multimodal datasets is unproven at this stage |
-| Risk Factors | Well-funded incumbents building overlapping multimodal foundation models, no published technical validation, regulatory uncertainty around synthetic biological data |
-| Founder Reach | Yue Dai: Twitter not found, LinkedIn 500+, GitHub not found. Oded Falik: Twitter @\_odedf (count not retrievable), LinkedIn 500+, GitHub 6 followers / 3 stars top repo |
-| Distribution Signals | No public data found |
+| Founders | Yue Dai (CEO): McGill University, Element AI, Microsoft Research, AWS, Pathos/Tempus AI, Enable Medicine. Oded Falik (CTO): BS UT Dallas, Enable Medicine (led product), Plnar, Fornida |
+| Competitors | Owkin ($300M+ raised, revenue unknown, federated multimodal hospital data), Bioptimus ($76M raised, revenue unknown, universal biology foundation model), Nucleai ($60.5M raised, revenue unknown, spatial biomarker analysis), Standard Model Bio (funding unknown, longitudinal patient state prediction), PhaseV ($50M Series A, revenue unknown, trial protocol optimization) |
+| Moat Signals | Founders' prior experience building petabyte-scale spatial biology infrastructure at Enable Medicine; claimed SOTA cross-modal prediction performance; scarce paired multimodal training data as a barrier |
+| Risk Factors | Regulatory/validation burden for AI-generated clinical data, brand disambiguation across multiple "Strand AI" entities, well-funded competitor convergence from Owkin/Bioptimus/Nucleai |
+| Founder Reach | Yue Dai: no personal Twitter found, LinkedIn linkedin.com/in/yd0531. Oded Falik: Twitter @_odedf (count not retrievable), LinkedIn linkedin.com/in/oded-falik, GitHub 6 followers |
+| Distribution Signals | No public data found (no Product Hunt launch, no app store presence, no community channels identified) |
+| Emails | founders@strandai.com (company website) |

@@ -1,7 +1,7 @@
 {
   "slug": "pirislabs",
   "name": "Piris Labs",
-  "oneLiner": "Inference at Light Speed",
+  "oneLiner": "Cerebras-speed inference but scalable",
   "metadata": {
     "website": "https://pirislabs.io/",
     "yc_page": "https://www.ycombinator.com/companies/pirislabs",
@@ -9,58 +9,60 @@
     "industry": "B2B / B2B -> Infrastructure",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Hard Tech, B2B, Cloud Computing, AI, Networks"
+    "tags": "Artificial Intelligence, Hard Tech, B2B, Cloud Computing, Networks",
+    "yc_partner": "Ankit Gupta",
+    "emails": "contact@pirislabs.io, founders@pirislabs.io"
   },
   "tags": [
+    "Artificial Intelligence",
     "Hard Tech",
     "B2B",
     "Cloud Computing",
-    "AI",
     "Networks"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T06:10:43.723Z",
+  "memoGeneratedAt": "2026-03-05T01:06:34.982Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 59,
+      "score": 47,
       "tier": "Neutral"
     },
+    "elad-gil": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 70,
+      "tier": "Invest"
+    },
     "paul-graham": {
-      "score": 37,
-      "tier": "Pass"
+      "score": 54,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 41,
+      "score": 43,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 46,
+      "score": 49,
       "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 63,
-      "tier": "Neutral"
+      "score": 72,
+      "tier": "Invest"
     }
   },
   "consolidatedScores": {
-    "CB": 40,
-    "EG": 33,
-    "NR": 59,
-    "PG": 37,
-    "PT": 41,
-    "SL": 46,
-    "VK": 63
+    "CB": 47,
+    "EG": 45,
+    "NR": 70,
+    "PG": 54,
+    "PT": 43,
+    "SL": 49,
+    "VK": 72
   },
-  "consolidatedAvg": 45.57,
-  "consolidatedRank": 49,
+  "consolidatedAvg": 54.29,
+  "consolidatedRank": 16,
   "paths": {
     "memo": "winter2026/memos/pirislabs.md",
     "evals": {

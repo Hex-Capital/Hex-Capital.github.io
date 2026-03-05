@@ -9,7 +9,9 @@
     "industry": "Healthcare / Healthcare -> Drug Discovery and Delivery",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Artificial Intelligence, Generative AI, Biotech"
+    "tags": "Artificial Intelligence, Generative AI, Biotech",
+    "yc_partner": "Jon Xu",
+    "emails": "founders@strandai.com"
   },
   "tags": [
     "Artificial Intelligence",
@@ -17,48 +19,48 @@
     "Biotech"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T06:13:23.750Z",
+  "memoGeneratedAt": "2026-03-05T01:11:36.873Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 31,
-      "tier": "Pass"
+      "score": 45,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 32,
-      "tier": "Pass"
+      "score": 54,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 41,
-      "tier": "Pass"
+      "score": 67,
+      "tier": "Invest"
     },
     "paul-graham": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
       "score": 42,
       "tier": "Pass"
     },
-    "peter-thiel": {
-      "score": 27,
-      "tier": "Pass"
-    },
     "sam-lessin": {
-      "score": 27,
+      "score": 37,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 41,
-      "tier": "Pass"
+      "score": 58,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 31,
-    "EG": 32,
-    "NR": 41,
-    "PG": 42,
-    "PT": 27,
-    "SL": 27,
-    "VK": 41
+    "CB": 45,
+    "EG": 54,
+    "NR": 67,
+    "PG": 59,
+    "PT": 42,
+    "SL": 37,
+    "VK": 58
   },
-  "consolidatedAvg": 34.43,
-  "consolidatedRank": 141,
+  "consolidatedAvg": 51.71,
+  "consolidatedRank": 25,
   "paths": {
     "memo": "winter2026/memos/strand-ai.md",
     "evals": {

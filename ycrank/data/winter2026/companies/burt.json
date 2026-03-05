@@ -1,38 +1,41 @@
 {
   "slug": "burt",
   "name": "Burt",
-  "oneLiner": "Easily fine tune and deploy specialized models",
+  "oneLiner": "AI teammates for logistics",
   "metadata": {
     "website": "https://www.trainburt.com/",
     "yc_page": "https://www.ycombinator.com/companies/burt",
     "batch": "Winter 2026",
-    "industry": "B2B / B2B",
+    "industry": "B2B / B2B -> Supply Chain and Logistics",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Machine Learning, Reinforcement Learning, AI"
+    "tags": "Artificial Intelligence, B2B, Logistics, Supply Chain",
+    "yc_partner": "Ankit Gupta",
+    "emails": "bobby@trainburt.com"
   },
   "tags": [
-    "Machine Learning",
-    "Reinforcement Learning",
-    "AI"
+    "Artificial Intelligence",
+    "B2B",
+    "Logistics",
+    "Supply Chain"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T06:11:26.226Z",
+  "memoGeneratedAt": "2026-03-05T01:08:50.804Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 28,
+      "score": 29,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 26,
+      "score": 36,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 31,
+      "score": 30,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 35,
+      "score": 39,
       "tier": "Pass"
     },
     "peter-thiel": {
@@ -40,25 +43,25 @@
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 20,
+      "score": 22,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 26,
-      "tier": "Strong Pass"
+      "score": 32,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 28,
-    "EG": 26,
-    "NR": 31,
-    "PG": 35,
+    "CB": 29,
+    "EG": 36,
+    "NR": 30,
+    "PG": 39,
     "PT": 22,
-    "SL": 20,
-    "VK": 26
+    "SL": 22,
+    "VK": 32
   },
-  "consolidatedAvg": 26.86,
-  "consolidatedRank": 191,
+  "consolidatedAvg": 30,
+  "consolidatedRank": 182,
   "paths": {
     "memo": "winter2026/memos/burt.md",
     "evals": {

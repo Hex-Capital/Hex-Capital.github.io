@@ -23,15 +23,13 @@ Push to `master` on `Hex-Capital/Hex-Capital.github.io` — GitHub Pages auto-de
 
 Single-page site with three files:
 
-- **`index.html`** — Hero section, portfolio grid (10 company cards with hover overlays), footer. Also contains a temporary background-switcher toolbar (marked "remove before deploy") for comparing constellation animation variants.
+- **`index.html`** — Hero section, portfolio grid (10 company cards with hover overlays), footer.
 - **`style.css`** — Dark theme (`#091626`), CSS Grid portfolio layout (3 → 2 → 1 columns at 1024px/600px breakpoints), hover overlay transitions. Body starts `opacity: 0` and fades in once JS initializes.
 - **`constellation.js`** — Animated canvas background. IIFE-wrapped particle system using `requestAnimationFrame`. Handles DPR scaling and responsive particle count (scales with viewport area). This is the default loaded by `index.html`.
 
-## Constellation Background System
+## Constellation Background
 
-Five interchangeable versions (`constellation.js` + `constellation-v1.js` through `v4.js`) sharing identical structure but with different tuning constants (particle count, speed, connection distance, color, opacity). The switcher UI in `index.html` hot-swaps them by removing/re-adding the `<script>` tag and clearing the canvas.
-
-Key tunable parameters in each file:
+`constellation.js` is an IIFE-wrapped particle system using `requestAnimationFrame`. Key tunable parameters:
 - `MAX_PARTICLES` / area divisor — density
 - `CONNECT_DIST` — max line distance between particles
 - `SPEED` — particle velocity
@@ -62,7 +60,15 @@ Each card in the `.portfolio-grid` is an `<a>` linking to the company's site, co
 ### Legibility Check
 - Verify the logo is legible at 72px tall (desktop) and ~60px tall (mobile)
 
-## Pre-Deploy Checklist
+## YCRank Subfolder (`/ycrank/`)
 
-- Remove the background switcher UI (the `#bg-switcher` div and `loadBg` script block in `index.html`)
-- Delete unused `constellation-v*.js` files once a final version is chosen
+An AI-powered YC startup evaluation dashboard, accessible at `hex-capital.com/ycrank`. The source project lives at [AnkurPrograms/ycrank](https://github.com/AnkurPrograms/ycrank). See that repo for full project documentation.
+
+### Key points for this deployment:
+
+- **Stack**: Alpine.js + Tailwind CSS (CDN), Marked.js for markdown rendering. No build step.
+- **Auth**: Client-side login (`login.html`) using scrypt password hashing against hashed credentials in `config.json`. Sessions stored in `sessionStorage`.
+- **Static mode**: Runs with `"static": true` in `config.json` — all data served as JSON files, no backend API needed. Council chat and email features are disabled in static mode.
+- **Data**: `ycrank/data/` contains batch manifests, persona definitions, company JSON files, and markdown memos/evals.
+- **SEO**: Meta tag `noindex, nofollow` and `robots.txt` blocks `/ycrank/` from crawlers.
+- **Isolation**: Completely independent from the main portfolio site — no shared code, separate styling (warm dark theme vs. cool dark theme).

@@ -1,0 +1,77 @@
+{
+  "slug": "openspec",
+  "name": "OpenSpec",
+  "oneLiner": "Plan mode for complex features",
+  "metadata": {
+    "website": "http://openspec.dev",
+    "yc_page": "https://www.ycombinator.com/companies/openspec",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B",
+    "team_size": "No public data found",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Developer Tools, B2B, Open Source",
+    "yc_partner": "Jared Friedman",
+    "emails": "No public data found (contact form available on openspec.dev)"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "B2B",
+    "Open Source"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-05T22:27:14.778Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 40,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 27,
+    "EG": 45,
+    "NR": 45,
+    "PG": 56,
+    "PT": 26,
+    "SL": 29,
+    "VK": 40
+  },
+  "consolidatedAvg": 38.29,
+  "consolidatedRank": 119,
+  "paths": {
+    "memo": "winter2026/memos/openspec.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/openspec.md",
+      "elad-gil": "winter2026/evals/elad-gil/openspec.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/openspec.md",
+      "paul-graham": "winter2026/evals/paul-graham/openspec.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/openspec.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/openspec.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/openspec.md"
+    }
+  }
+}

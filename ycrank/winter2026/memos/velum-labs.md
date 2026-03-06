@@ -1,6 +1,6 @@
 ﻿# Velum Labs
 
-> Firewall that controls access to information across AI and humans
+> The OS for data quality across any stack
 
 | Field | Value |
 |-------|-------|
@@ -10,97 +10,110 @@
 | Industry | B2B / B2B |
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
-| Tags | Machine Learning, Security, Open Source, Privacy |
+| Tags | Machine Learning, Data Engineering |
+| YC Partner | Aaron Epstein |
+| Emails | No public data found |
 
 ## The Idea
 
-**Problem:** Enterprises increasingly expose sensitive data through AI workflows (LLM prompts, RAG retrievals, agent actions) and traditional enterprise systems (Salesforce exports, SAP syncs, Workday reports). Existing access controls operate at the document or database level rather than the content level — they gate access to entire files or tables rather than to specific sensitive fields within them. As organizations adopt LLMs, copilots, and AI agents across their stacks, the attack surface for data leakage expands to every prompt, response, and retrieval. Current approaches require either blocking workflows entirely or accepting the risk of sensitive data exposure.
+**Problem:** Enterprise data teams lack automated, stack-agnostic mechanisms to enforce data quality from ingestion through to executive dashboards. Data contracts — rules governing schema, semantics, and integrity — are typically written manually, break when schemas drift, and do not trace lineage across heterogeneous stacks (warehouses, pipelines, SaaS systems, documents). Existing solutions require migration to a specific platform or manual rule authorship. The customer segment is data engineering and analytics teams at enterprises running federated or multi-system data architectures.
 
-**Approach:** Velum is an open-source firewall that sits between data sources and data consumers (LLMs, users, vendors) to enforce content-level access control in real time. Rather than blocking access to entire documents or tables, the system understands meaning in text, documents, and databases to detect sensitive information — PII, PHI, financial data, trade secrets — based on admin-defined policies written in natural language. It then applies recipient-specific controls (redaction, tokenization, or just-in-time reveal for authorized recipients) without blocking workflows. The product uses an ontology-based approach: admins define entities, relationships, and rules that form the semantic layer for policy enforcement (velum-labs.com). For AI workflows specifically, Velum intercepts prompts, responses, and retrievals to prevent sensitive information from leaking into or out of models (YC company page). The company also offers structure-preserving tokenization for high-throughput pipelines, where tokenized data can be revealed just-in-time when authorization changes (YC company page).
+**Approach:** Velum describes itself on its website as "the ontology engine for enterprise AI" and on its YC page as "the operating system for data quality" (YC page, velum-labs.com). The product observes real data traffic to automatically derive data contracts, traces lineage across any stack, and enforces integrity without manual rules or migration. Specific technical mechanisms include: zero-shot Named Entity Recognition (NER) for entity extraction from documents, LLM-powered relationship discovery, automatic hypergraph construction, schema mapping to domain ontologies from databases, and data contract generation from ontology definitions (velum-labs.com). The company claims pre-built extractors for 50+ enterprise systems including SAP, Oracle, Salesforce, and ServiceNow (velum-labs.com). The company also states SOC 2 Type II certification (velum-labs.com).
 
-**Differentiation:** Velum differentiates from LLM security tools like Lakera (prompt injection and jailbreak detection) and Noma Security (AI governance across the full model lifecycle) by focusing specifically on content-level access control and data redaction across both AI and traditional enterprise systems. Lakera's primary focus is detecting and blocking malicious prompts before they reach the LLM; Velum's focus is controlling what data each recipient can see based on policy. Securiti AI offers context-aware LLM firewalls but was acquired by Veeam in October 2025 (Securiti press release, 2025) and is part of a broader data privacy platform rather than a standalone content firewall. Lasso Security focuses on shadow AI discovery and monitoring rather than real-time content-level redaction. Velum's open-source positioning also differentiates it from these primarily proprietary competitors.
+**Product evolution note:** The company's GitHub repositories and YC page title reference an earlier product direction — an "open-source firewall for content-level access control across documents, databases, and applications" built on homomorphic encryption (GitHub velum-labs org; YC page title). GitHub repos include forks of Microsoft SEAL (homomorphic encryption library), EVA (SEAL compiler), and GPU-accelerated homomorphic encryption tools (GitHub velum-labs org). The current website positioning ("ontology engine for enterprise AI") and the YC page description ("operating system for data quality") appear to represent a pivot from the earlier privacy/access-control firewall product. The flagship "Firewall" repo on GitHub has 1 star (GitHub velum-labs org).
 
-**Business Model:** No public pricing page was found on velum-labs.com at the time of research. The website indicates the company is actively recruiting design partners for early access. [Inferred]: The most likely monetization path is an open-core model — open-source core with paid enterprise features such as multi-cloud deployment, SOC 2 compliance tooling, configurable data residency per tenant, and enterprise integrations (SAP, Salesforce, Workday) — consistent with the company's "Open Source" tag and enterprise-grade feature set described on the website.
+**Differentiation:** Existing data observability tools like Monte Carlo or Bigeye focus on anomaly detection and monitoring in data warehouses but require configuration and operate primarily on structured warehouse data. Open-source frameworks like Great Expectations and Soda require engineers to write validation rules manually. Atlan provides a governance/catalog layer but is not an automated contract derivation engine. Velum's claimed differentiation is: (1) automatic contract derivation from observed data traffic (no manual rules), (2) ontology-first approach using LLM-powered entity and relationship extraction across both documents and databases, and (3) no migration required — works across the existing stack via pre-built extractors (velum-labs.com).
 
-**TAM/SAM:** The global AI Firewall for LLMs market was valued at $410 million in 2024 and is projected to reach $3.2 billion by 2033, at a 25.4% CAGR (ResearchIntelo, 2024 via search snippet). The broader AI cybersecurity market is forecast to reach $134 billion by 2030 (LLM Stats / Hostinger, 2026 via search snippet). No SAM estimate specific to content-level access control for enterprise AI was found.
+**Business Model:** No pricing page or pricing tiers are publicly visible on velum-labs.com. The company is currently recruiting design partners for early access (velum-labs.com). [Inferred]: Most likely monetization path is SaaS subscription (likely usage- or seat-based) for enterprise customers, given the enterprise positioning, SOC 2 certification, and design-partner GTM approach.
 
-**GTM / Distribution:** The company website states it is recruiting design partners (velum-labs.com). [Inferred]: The most likely initial distribution path is direct enterprise sales to security and compliance teams at organizations with regulated data (healthcare, finance, legal) that are actively deploying LLMs and AI agents. The open-source component could serve as a developer adoption funnel, converting self-serve users to paid enterprise tiers.
+**TAM/SAM:** The data observability market was valued at $3.15B in 2025 with a projected CAGR of 11.60% to reach $5.45B by 2030 (Mordor Intelligence via search snippet). An alternative estimate sizes the market at $1.91B in 2025 growing to $6.94B by 2034 at 15.39% CAGR (Market Research Future via search snippet). The enterprise data observability software sub-segment was valued at $1.5B in 2025 (Future Market Insights via search snippet). No public SAM estimate specific to ontology-based data quality or automated contract derivation was found.
+
+**GTM / Distribution:** The company is actively recruiting design partners for early access (velum-labs.com). Early pilots are planned with hospitals, banks, and government teams sourced from early-access signups and founder/YC networks (FYI Combinator via search snippet). [Inferred]: Next-phase distribution likely involves standardized 30-90 day pilot programs, referrals, and partnerships with security/privacy consultancies and vertical software vendors, consistent with enterprise data infrastructure sales motions.
 
 ## Defensibility
 
-The ontology-based approach to content-level access control requires building semantic models that understand what data means across different enterprise systems — not just pattern-matching for known PII formats. As customers deploy Velum and define policies across their specific data environments, the accumulated policy library and ontology mappings create switching costs. The open-source positioning could generate a developer community and ecosystem of integrations that create network effects over time.
+The company's GitHub repos show technical work in homomorphic encryption, ontology construction, and NER — areas requiring specialized ML and cryptography expertise. The ontology-first approach, if adopted by enterprise customers, would create switching costs: once an organization's data contracts and lineage are defined through Velum's ontology layer, migrating to another system would require re-deriving those semantic models. The 50+ pre-built enterprise extractors represent integration surface area that takes time to replicate.
 
-However, no public data on open-source community size, contributor count, or GitHub stars for the core product was found. The company's GitHub organization for the product (distinct from unrelated entities using the "velumlabs" name — see Key Risks) did not surface public repositories with traction metrics at the time of research.
+No network effects are evident at this stage. No patents were found in public sources. The SOC 2 Type II certification is a compliance moat for enterprise sales but is achievable by well-resourced competitors.
 
-**Market structure:** Large incumbents (e.g., Microsoft, Google Cloud) offer data loss prevention (DLP) tools but these operate at the document/file level rather than content-semantic level and are optimized for their own platforms. Extending existing DLP to content-level semantic understanding across heterogeneous enterprise systems (SAP, Salesforce, Workday) and AI workflows would require a fundamental architectural change. Additionally, incumbent security vendors that have acquired AI security startups — Check Point acquired Lakera, Veeam acquired Securiti — tend to integrate these as features within broader platforms rather than building dedicated, standalone content-level firewalls. [Inferred]: This integration-as-feature approach may create an opportunity for a focused, open-source alternative that works across the full stack rather than being locked to one vendor's ecosystem.
+**Market structure:** Monte Carlo ($236M raised, $1.6B valuation) and Atlan ($206M raised) are the most well-funded incumbents. Monte Carlo's approach centers on anomaly detection and monitoring rather than ontology-driven contract generation; pivoting to an ontology-first architecture would require a fundamental product redesign. Atlan operates as a metadata catalog and governance layer, not a real-time data traffic observer. [Inferred]: The structural barrier for incumbents is architectural — retrofitting anomaly-detection or catalog-based products with automatic ontology derivation from live data traffic is non-trivial and would cannibalize their existing rule-based or monitoring-based value propositions.
 
-**Commoditization risk:** The core capabilities — NLP-based sensitive data detection, policy-based redaction, tokenization — are individually reproducible using commodity ML models and existing PII detection libraries. The differentiator is the integration layer across enterprise systems and the ontology engine, which requires significant enterprise integration work. Well-funded competitors (Noma Security at $132M, or incumbent cybersecurity vendors) could build similar functionality. The open-source strategy may provide some defensibility through community adoption but has not yet demonstrated traction.
+**Commoditization risk:** The core technical components (NER, LLM-powered relationship extraction, schema mapping) use broadly available ML techniques. Open-source tools like Great Expectations already provide rule-based data validation. A well-resourced data platform company (e.g., Databricks, Snowflake) could build ontology-based features as add-ons to their existing platforms. The main barrier is the integration work across 50+ enterprise systems and the domain-specific ontology models.
 
 ## Market & Traction
 
-**Traction signals:** The company is in the design partner recruitment phase (velum-labs.com). No public revenue figures, user counts, or growth metrics were found. No Product Hunt launch was identified. No Chrome Web Store extension or mobile app was found. No Discord or Slack community was identified. The LinkedIn company page is at linkedin.com/company/velum-labs-ai (LinkedIn search result). No company Twitter/X account was identified distinct from the founders' personal accounts. No job postings were found beyond the 2-person founding team — the YC page indicates the company is not currently hiring.
+**Traction signals:**
+- Funding: $500K total raised (Extruct AI via search snippet). YC standard deal.
+- The company is in design-partner recruitment phase with no publicly disclosed customers, revenue, or user counts (velum-labs.com).
+- GitHub organization (github.com/velum-labs): 12 repositories, 2 followers. Flagship "Firewall" repo: 1 star (GitHub).
+- LinkedIn: linkedin.com/company/velum-labs-ai — follower count not retrievable.
+- Twitter/X company account: No public account found.
+- Product Hunt: No listing found.
+- Press coverage: No coverage found in named publications.
+- Discord/Slack community: No public data found.
+- App store / Chrome extension: Not applicable.
+- Job postings: Company is not currently hiring (YC page).
 
 **Competitive landscape:**
 
-- **Lakera** ($30M total raised; acquired by Check Point Software, 2025 — TechCrunch, Jul 2024; BankInfoSecurity, 2025): Focuses on prompt injection detection and jailbreak prevention for LLM applications. Differentiator vs. Velum: Lakera is primarily an inbound threat detection tool (blocking malicious prompts) rather than a content-level access control system for outbound data exposure.
+| Competitor | Funding | Revenue/ARR | Key Differentiator vs. Velum Labs |
+|---|---|---|---|
+| Monte Carlo | $236M, Series E at $1.6B valuation (TechTarget, Oct 2025 via search snippet) | Revenue unknown | End-to-end data observability with anomaly detection; no-code, no-extract architecture. Monitors warehouses and pipelines rather than deriving ontologies. |
+| Atlan | $206M, Series C at $750M valuation (TechCrunch, May 2024 via search snippet) | $14.5M annual revenue as of Mar 2024 (Tracxn via search snippet) | Active metadata platform combining data quality, governance, and discovery in one control plane. Catalog-centric vs. Velum's ontology-centric approach. |
+| Soda | $28.43M, Series B (TechTarget, Jul 2024 via search snippet) | Revenue unknown | Open-source data quality testing framework (Soda Core) + SaaS control plane (Soda Cloud). Code-defined checks embedded in DataOps workflows vs. Velum's automatic derivation. |
+| Great Expectations | $65M total (TechCrunch, 2022 via search snippet) | Revenue unknown | Open-source data validation framework with the largest community adoption for rule-based checks. Requires manual rule authoring vs. Velum's automated approach. |
+| Bigeye | $71–73.5M total (VentureBeat via search snippet) | $7.2M revenue in 2025 (Latka via search snippet) | Data observability and AI trust platform with automated monitoring. Recently launched bigAI suite for AI-powered resolution and prevention. |
 
-- **Noma Security** ($132M total raised, 1,300% ARR growth year-over-year — Noma Security press release, Jul 2025): Full-lifecycle AI security and governance platform covering models, data pipelines, SaaS applications, LLMs, and autonomous agents. Differentiator vs. Velum: Noma is a broader AI governance platform; Velum is focused specifically on content-level access control and data redaction.
-
-- **Lasso Security** ($6M seed — PRNewswire, Nov 2023): GenAI cybersecurity platform with Shadow AI Discovery, LLM data-flow monitoring, and real-time detection. Differentiator vs. Velum: Lasso focuses on visibility and monitoring of AI usage across the organization, while Velum focuses on policy enforcement and data redaction at the content level.
-
-- **Securiti AI** ($156M total raised; acquired by Veeam, Oct 2025 — Securiti press releases): Offered context-aware LLM firewalls for prompts and responses, plus a retrieval firewall for RAG. Differentiator vs. Velum: Securiti was part of a broader data privacy and governance platform; now absorbed into Veeam's portfolio, its standalone positioning has changed.
-
-**Why now:** [Inferred]: The rapid enterprise adoption of LLMs, AI copilots, and agentic AI systems in 2024-2025 has created a new category of data exposure risk that traditional DLP tools were not designed to handle. Specifically: (1) the proliferation of RAG architectures means enterprise data is being retrieved and fed to LLMs in real time, creating content-level exposure at every query; (2) regulatory pressure (GDPR, CCPA, HIPAA) is intensifying enforcement around AI-mediated data processing; (3) the AI security market has only ~13 specialized companies with $414 million total funding (Software Strategies Blog, Dec 2025 via search snippet), indicating early-stage market formation; (4) major acqui-hires (Check Point/Lakera, Veeam/Securiti) in 2025 have removed two standalone competitors, potentially opening space for a new entrant.
+**Why now:** [Inferred]: Several converging factors: (1) LLM capabilities have reached the performance threshold needed for reliable zero-shot NER and relationship extraction, making automatic ontology derivation technically feasible at enterprise scale — this was not practical before 2023-era foundation models; (2) the proliferation of data mesh architectures has increased demand for federated data contracts across heterogeneous systems; (3) the rapid adoption of enterprise AI has elevated data quality from a "nice-to-have" engineering concern to a boardroom-level requirement, as model outputs are only as reliable as their input data.
 
 ## Founders & Team
 
 **Benjamin Muñoz-Cerro** — Co-founder & CEO
-- Physics and Mathematics at Stanford University (listed on Stanford Physics Department for Academic Year 2021-22) (physics.stanford.edu)
-- Research in quantum computing, with collaborations involving BlueQubit and Quantinuum teams (LinkedIn via search snippet)
-- Member of the OpenDACS organization on GitHub (open hardware DAC-ADC projects)
+- Undergraduate in Physics & Math at Stanford University (Stanford Profiles)
+- YC bio: "stanford quantum computing | harvard physics" (YC page)
+- Research affiliations listed on company website include Harvard, Stanford, and Max Planck Institutes (velum-labs.com)
+- No prior startup exits found
 - Twitter/X: No public account found
-- LinkedIn: linkedin.com/in/benjamzc/ — headline: "Physics & Math @ Stanford" (LinkedIn via search snippet)
-- GitHub: github.com/benjamzc — 5 repos, 1 star, 1 follower
+- LinkedIn: linkedin.com/in/benjamzc/ — "Physics & Math @ Stanford" (LinkedIn via search snippet)
+- GitHub: No public repos found under his name
 
 **Alen Rubilar-Muñoz** — Co-founder & CTO
-- B.Sc. Computer Science and Mathematics, Minerva University (2022–2026) (000alen.com)
-- Prior studies at Pontificia Universidad Católica de Chile and Universidad Técnica Federico Santa María (000alen.com)
-- Principal Software Engineer at Dataroot (ML PaaS for managed machine learning applications) (LinkedIn)
-- ML/Software Intern at Tetramem (analog in-memory compute hardware) (GitHub bio)
-- Deep learning research at Vanderbilt University (protein folding, structural biology) (000alen.com)
-- Topological neural networks research at Leipzig University (molecule optimization) (000alen.com)
-- Hackathon wins: CalHacks overall winner (PulseBud, a seizure prediction system); HackMIT Inclusive Workplace Challenge winner (Phaedra); Samsung Solve for Tomorrow regional finalist (TotemUV, UV-based skin cancer prediction) (000alen.com, GitHub)
-- Twitter/X: @000alen (count not retrievable due to JavaScript rendering)
-- LinkedIn: linkedin.com/in/000alen/
-- GitHub: github.com/000alen — 77 repos, 599 stars total, 50 followers. Pinned repos include "ontology" (TypeScript, data ontology) and "capstone" (SO(n)-equivariant neural networks)
+- B.Sc. Computer Science & Mathematics, Minerva University (2022–2026) (GitHub profile)
+- Prior: Principal Software Engineer at Dataroot (managed ML application platform); ML/Software Intern at Tetramem (analog in-memory compute hardware) (GitHub profile)
+- CalHacks overall winner; HackMIT participant (Phaedra project for neuro-inclusive AI) (Devpost via search snippet; LinkedIn via search snippet)
+- Research focus: topological neural networks, SO(n)-equivariant models, privacy-preserving inference (GitHub profile)
+- Twitter/X: x.com/000alen — follower count not retrievable
+- LinkedIn: linkedin.com/in/000alen/ — "Velum Labs" (LinkedIn via search snippet)
+- GitHub: github.com/000alen — 80 repositories, 50 followers. Pinned repos include "ontology" (TypeScript, data ontology implementation), "capstone" (SO(n) equivariant neural networks), "PulseBud" (seizure prediction, 5 stars), "diagnostika" (graph theory + representation learning for medical diagnosis) (GitHub)
 
-**Co-founder relationship:** Both founders have Chilean surnames and prior academic connections in Chile (Benjamin studied at Stanford but both have Chilean educational roots — Alen studied at Pontificia Universidad Católica de Chile). The shared Chilean background and geographic overlap suggest prior acquaintance, though no specific shared employer or institution was confirmed from public data.
+**Co-founder relationship:** Both founders share Chilean-origin surnames (Rubilar-Muñoz / Muñoz-Cerro), suggesting possible familial connection or shared cultural background. No shared employer or university was identified from Phase 3 findings — Benjamin attended Stanford while Alen attended Minerva University; no overlapping prior employers were found.
 
-**Founder-market fit:** Alen Rubilar-Muñoz's background is directly relevant to the product: his principal engineering role building a managed ML PaaS at Dataroot, deep learning research at Vanderbilt and Leipzig, and his pinned GitHub repo "ontology" (a TypeScript data ontology project) align with building an ontology-based content-level firewall. His Minerva University education (a global rotation program) and work across multiple countries suggest exposure to data residency and compliance challenges. Benjamin Muñoz-Cerro's physics and mathematics background at Stanford provides a quantitative foundation, though his published work in quantum computing is less directly aligned with the AI data security domain. The website lists research affiliations at Harvard, Stanford, Vanderbilt, Leipzig, Minerva, and Max Planck Institutes (velum-labs.com). No advisors, board members, or notable angel investors were identified in public sources.
+**Founder-market fit:** Alen's background as a principal ML engineer at Dataroot (an ML platform), his research in topological neural networks and privacy-preserving inference, and his "ontology" pinned GitHub repo directly relate to Velum's core technical problem of automated ontology construction and data contract derivation. Benjamin's physics background at Stanford and quantum computing research indicate strong quantitative and systems-thinking capability. The team's research affiliations with Max Planck Institutes add academic depth in ML and systems.
 
 ## Key Risks
 
-**Brand disambiguation challenge:** At least three unrelated entities use the "Velum Labs" name: (1) Velum Labs Sdn Bhd, a Malaysian cybersecurity company at velumlabs.com; (2) a GitHub organization at github.com/velumlabs focused on AI agents and cryptocurrency (Thor Framework) based in Milwaukee, WI; (3) a cybersecurity intelligence firm listed on cybersecurityintelligence.com. Additionally, the similarly named "Vellum" (vellum.ai, YC W23, $25M+ raised) is a well-funded AI development platform that dominates search results for adjacent queries. This creates SEO competition and potential customer confusion.
+**Product direction instability:** The company has publicly presented at least three different product framings: (1) a homomorphic-encryption-based firewall for content-level access control (YC page title, GitHub repos), (2) an "operating system for data quality" with automated contracts and lineage (YC page description), and (3) "the ontology engine for enterprise AI" (current website). Multiple pivots at the pre-launch stage indicate the product-market fit hypothesis is still being refined. The GitHub org's repos are predominantly forks of homomorphic encryption libraries from the prior product direction, with the flagship "Firewall" repo at 1 star.
 
-**Well-funded incumbent competition:** The AI security market has seen rapid consolidation and capital inflows. Noma Security raised $132M and reports 1,300% ARR growth (Noma Security, Jul 2025). Check Point acquired Lakera (2025), and Veeam acquired Securiti ($156M raised) in October 2025. Velum is entering this market with $500K against competitors with 100–300x more capital and established enterprise sales motions.
+**Brand confusion with multiple "Velum Labs" entities:** At least two other companies use the "Velum Labs" name: Velum Labs Sdn Bhd, a Malaysian cyber intelligence company at velumlabs.com, and a separate crypto/AI framework company at github.com/velumlabs. The YC company uses velum-labs.com (hyphenated). This creates SEO, brand recognition, and due diligence confusion.
 
-**Product positioning ambiguity:** The company's website currently describes Velum as "The ontology engine for enterprise AI" with ontology construction and data contract features, while the YC page and company description position it as an "open-source firewall for content-level access control." The blog references "The Dynamic Data Firewall for your Unstructured Data." These different framings may reflect product evolution or a pivot in progress, but could create market positioning confusion for prospective customers and partners.
+**Incumbent platform risk:** Snowflake, Databricks, and dbt Labs are actively building data quality and governance features natively into their platforms. Snowflake's Horizon governance suite and Databricks' Unity Catalog already include data quality monitoring. If ontology-based contract derivation proves valuable, these platforms could integrate similar capabilities as native features, reducing the need for a standalone tool.
 
-**Open-source traction risk:** The company is tagged "Open Source" and the YC description references an open-source firewall, but no public GitHub repository for the core product was found with visible star counts or community activity at the time of research. Open-source businesses depend on community adoption as a distribution mechanism; without a visible public repo gaining traction, the open-source strategy remains unvalidated.
+**Enterprise sales cycle vs. team capacity:** The company targets hospitals, banks, and government teams (FYI Combinator via search snippet) — verticals with long procurement cycles, compliance requirements, and proof-of-concept demands. With a 2-person team and $500K in funding, sustaining multiple concurrent enterprise pilots while iterating on product is a significant operational constraint.
 
-**Enterprise integration complexity:** The website claims support for 50+ enterprise systems including SAP, Oracle, Salesforce, and ServiceNow, and claims SOC 2 Type II certification (velum-labs.com). For a 2-person team founded in 2025, building and maintaining 50+ production-quality enterprise integrations and achieving SOC 2 Type II compliance represents a significant scope of work. These claims could not be independently verified.
+**Technical feasibility at scale:** Automatic ontology derivation via LLM-powered NER and relationship extraction across 50+ heterogeneous enterprise systems requires high accuracy to generate trustworthy data contracts. False positives in contract derivation could undermine the core value proposition of "data trust you can prove." No public benchmarks, accuracy metrics, or case studies validating this approach at enterprise scale were found.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $410M AI Firewall for LLMs market in 2024, projected $3.2B by 2033 at 25.4% CAGR (ResearchIntelo, 2024 via search snippet) |
-| SAM | No public data found |
-| Traction | Recruiting design partners (velum-labs.com). No public user counts, revenue, or growth metrics found |
-| Revenue Signal | No public data found |
-| Founders | Benjamin Muñoz-Cerro (CEO): Stanford Physics & Math, quantum computing research. Alen Rubilar-Muñoz (CTO): Minerva CS & Math, ex-Dataroot Principal SWE, ML research at Vanderbilt/Leipzig, CalHacks overall winner |
-| Competitors | Noma Security ($132M raised, 1,300% ARR growth, broader AI governance platform vs. content-level focus); Lakera ($30M raised, acquired by Check Point, prompt injection focus vs. data redaction focus); Lasso Security ($6M raised, revenue unknown, shadow AI monitoring vs. policy enforcement); Securiti AI ($156M raised, acquired by Veeam, broader data privacy platform vs. standalone firewall) |
-| Moat Signals | No public data found. Ontology-based approach and open-source strategy could develop switching costs and community effects if adoption materializes |
-| Risk Factors | Well-funded competitors (Noma $132M, incumbents acquiring AI security startups), brand disambiguation with 3+ same-name entities plus similarly named Vellum, product positioning ambiguity across website and YC description |
-| Founder Reach | Benjamin Muñoz-Cerro: Twitter not found, LinkedIn (linkedin.com/in/benjamzc/), GitHub 1 star. Alen Rubilar-Muñoz: Twitter @000alen (count not retrievable), LinkedIn (linkedin.com/in/000alen/), GitHub 599 stars |
-| Distribution Signals | No public data found. No Product Hunt launch, no app store presence, no community channels identified |
+| TAM | Data observability market: $3.15B in 2025, 11.60% CAGR to $5.45B by 2030 (Mordor Intelligence via search snippet). Alternative: $1.91B in 2025, 15.39% CAGR to $6.94B by 2034 (Market Research Future via search snippet). |
+| SAM | Enterprise data observability software: $1.5B in 2025 (Future Market Insights via search snippet). No ontology-specific sub-segment estimate found. |
+| Traction | Design-partner recruitment phase; no disclosed customers or users (velum-labs.com). GitHub org: 12 repos, 2 followers, flagship repo 1 star (GitHub). |
+| Revenue Signal | No public data found. No pricing page. Pre-revenue design-partner stage (velum-labs.com). |
+| Founders | Benjamin Muñoz-Cerro (CEO): Physics & Math undergraduate at Stanford, quantum computing & Harvard physics background. Alen Rubilar-Muñoz (CTO): BS CS & Math at Minerva, Principal SWE at Dataroot, ML intern at Tetramem, CalHacks overall winner. |
+| Competitors | Monte Carlo ($236M raised, revenue unknown, end-to-end observability). Atlan ($206M raised, $14.5M revenue, metadata catalog + governance). Soda ($28.43M raised, revenue unknown, open-source data quality testing). Great Expectations ($65M raised, revenue unknown, open-source validation framework). Bigeye ($71–73.5M raised, $7.2M revenue, observability + AI trust). |
+| Moat Signals | Ontology-first architecture differentiates from anomaly-detection incumbents; 50+ pre-built enterprise extractors represent integration surface area; SOC 2 Type II certification (velum-labs.com). |
+| Risk Factors | Multiple product pivots pre-launch, brand confusion with other "Velum Labs" entities, incumbent platform integration risk (Snowflake/Databricks), enterprise sales cycle vs. 2-person team |
+| Founder Reach | Benjamin Muñoz-Cerro: Twitter not found, LinkedIn linkedin.com/in/benjamzc/, GitHub not found. Alen Rubilar-Muñoz: Twitter x.com/000alen (count not retrievable), LinkedIn linkedin.com/in/000alen/, GitHub github.com/000alen (50 followers, 80 repos). |
+| Distribution Signals | No Product Hunt listing. No press coverage. No community (Discord/Slack) found. LinkedIn company page exists (follower count not retrievable). Currently in design-partner recruitment. |
+| Emails | No public data found |

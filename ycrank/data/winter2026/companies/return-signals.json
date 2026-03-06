@@ -1,34 +1,37 @@
 {
   "slug": "return-signals",
   "name": "Return Signals",
-  "oneLiner": "AI luxury concierge for E-commerce brands",
+  "oneLiner": "AI customer support that proactively engages high-value users",
   "metadata": {
     "website": "https://www.returnsignals.com",
     "yc_page": "https://www.ycombinator.com/companies/return-signals",
     "batch": "Winter 2026",
-    "industry": "B2B / B2B -> Retail",
+    "industry": "B2B / B2B",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Generative AI, E-commerce, SMS"
+    "tags": "Generative AI, Customer Success, Customer Support, SMS",
+    "yc_partner": "Gustaf Alstromer",
+    "emails": "hello@returnsignals.com"
   },
   "tags": [
     "Generative AI",
-    "E-commerce",
+    "Customer Success",
+    "Customer Support",
     "SMS"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T19:40:06.524Z",
+  "memoGeneratedAt": "2026-03-06T06:10:37.556Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 31,
+      "score": 33,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 43,
+      "score": 42,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 45,
+      "score": 47,
       "tier": "Neutral"
     },
     "paul-graham": {
@@ -36,7 +39,7 @@
       "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 29,
+      "score": 35,
       "tier": "Pass"
     },
     "sam-lessin": {
@@ -44,21 +47,21 @@
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 34,
+      "score": 37,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 31,
-    "EG": 43,
-    "NR": 45,
+    "CB": 33,
+    "EG": 42,
+    "NR": 47,
     "PG": 42,
-    "PT": 29,
+    "PT": 35,
     "SL": 27,
-    "VK": 34
+    "VK": 37
   },
-  "consolidatedAvg": 35.86,
-  "consolidatedRank": 138,
+  "consolidatedAvg": 37.57,
+  "consolidatedRank": 128,
   "paths": {
     "memo": "winter2026/memos/return-signals.md",
     "evals": {

@@ -9,7 +9,9 @@
     "industry": "Industrials / Industrials -> Aviation and Space",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Space Exploration, Construction, Travel, Aerospace"
+    "tags": "Space Exploration, Construction, Travel, Aerospace",
+    "yc_partner": "Brad Flora",
+    "emails": "contact@gru.space"
   },
   "tags": [
     "Space Exploration",
@@ -18,48 +20,48 @@
     "Aerospace"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T20:27:16.704Z",
+  "memoGeneratedAt": "2026-03-06T06:12:42.751Z",
   "evalScores": {
     "cyan-banister": {
       "score": 49,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 23,
+      "score": 28,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 51,
-      "tier": "Neutral"
+      "score": 42,
+      "tier": "Pass"
     },
     "paul-graham": {
-      "score": 44,
+      "score": 39,
       "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 53,
-      "tier": "Neutral"
+      "score": 44,
+      "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 63,
+      "score": 64,
       "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 63,
-      "tier": "Neutral"
+      "score": 66,
+      "tier": "Invest"
     }
   },
   "consolidatedScores": {
     "CB": 49,
-    "EG": 23,
-    "NR": 51,
-    "PG": 44,
-    "PT": 53,
-    "SL": 63,
-    "VK": 63
+    "EG": 28,
+    "NR": 42,
+    "PG": 39,
+    "PT": 44,
+    "SL": 64,
+    "VK": 66
   },
-  "consolidatedAvg": 49.43,
-  "consolidatedRank": 32,
+  "consolidatedAvg": 47.43,
+  "consolidatedRank": 41,
   "paths": {
     "memo": "winter2026/memos/galactic-resource-utilization-space-inc-gru-space.md",
     "evals": {

@@ -9,7 +9,9 @@
     "industry": "B2B / B2B -> Legal",
     "team_size": "3",
     "location": "San Francisco, CA, USA",
-    "tags": "Legal, LegalTech, Operations, AI Assistant"
+    "tags": "Legal, LegalTech, Operations, AI Assistant",
+    "yc_partner": "Jared Friedman",
+    "emails": "No public data found"
   },
   "tags": [
     "Legal",
@@ -18,48 +20,48 @@
     "AI Assistant"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T19:36:32.040Z",
+  "memoGeneratedAt": "2026-03-06T06:03:01.084Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 35,
+      "score": 44,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 40,
-      "tier": "Pass"
+      "score": 46,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 48,
+      "score": 55,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 51,
+      "score": 56,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 30,
+      "score": 36,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 29,
+      "score": 35,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 36,
+      "score": 41,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 35,
-    "EG": 40,
-    "NR": 48,
-    "PG": 51,
-    "PT": 30,
-    "SL": 29,
-    "VK": 36
+    "CB": 44,
+    "EG": 46,
+    "NR": 55,
+    "PG": 56,
+    "PT": 36,
+    "SL": 35,
+    "VK": 41
   },
-  "consolidatedAvg": 38.43,
-  "consolidatedRank": 116,
+  "consolidatedAvg": 44.71,
+  "consolidatedRank": 59,
   "paths": {
     "memo": "winter2026/memos/vector-legal.md",
     "evals": {

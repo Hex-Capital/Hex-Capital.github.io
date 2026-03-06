@@ -1,6 +1,6 @@
 ﻿# MochaCare
 
-> AI-powered scheduling and hiring service for home care agencies.
+> AI-Supercharged Humans for Home Care Agency Growth
 
 | Field | Value |
 |-------|-------|
@@ -10,109 +10,105 @@
 | Industry | B2B / B2B -> Operations |
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
-| Tags | AIOps, Healthcare, Home Services, Operations, AI |
+| Tags | Health Tech, Healthcare, Home Services, Operations, AI |
+| YC Partner | Diana Hu |
+| Emails | support@mochacare.com |
 
 ## The Idea
 
-**Problem:** Home care agencies face acute operational bottlenecks in scheduling and hiring caregivers. Caregiver shortages affect 59% of agencies, and caregiver turnover sits at 75% (2025 Activated Insights Benchmarking Report via search snippet). Client and caregiver scheduling has risen to the #1 priority for 51% of agencies (AxisCare 2025 Home Care Industry Survey via search snippet). Agencies currently rely on a combination of legacy scheduling platforms (WellSky, AxisCare, AlayaCare) and manual processes—phone calls, spreadsheets, and on-call coordinators—to fill shifts and recruit staff. The administrative burden limits agencies' capacity to grow.
+**Problem:** Home care agency operators are overwhelmed by 24/7 hiring and scheduling operations. Agencies must field constant phone calls, coordinate caregiver-client matches, manage last-minute cancellations, and onboard new caregivers—all while trying to grow their business and build referral relationships in their communities. Service failures (e.g., no caregiver showing up) harm families and patients. Caregivers need swift onboarding and shift coordination. Today, agencies rely on a patchwork of SaaS scheduling tools (WellSky, AxisCare, AlayaCare) that automate workflows but still require significant manual effort, or they hire in-house coordinators who are expensive and limited to business hours (YC launch post, MochaCare website).
 
-**Approach:** MochaCare offers two tiers. "Mocha Managed" is a full-service operations team (human-in-the-loop) available during custom hours—nights, weekends, holidays, or 24/7—that handles scheduling and hiring on behalf of the agency, augmented by AI-powered growth insights. "Mocha Tools" is a standalone software suite that includes an AI-powered applicant tracking system (ATS) with Indeed integration, AI recruiting agents, after-hours shift coverage matching (with caregiver match percentages based on agency preferences), shift management with automated reminders, and a data visibility dashboard surfacing growth opportunities (MochaCare website). The platform automates document collection (TB tests, licenses, HCA status), tracks credential expirations, and automatically removes caregivers from schedules if documents expire (MochaCare website).
+**Approach:** MochaCare combines human virtual assistants with AI tooling to handle hiring, scheduling, or both on behalf of home care agencies. The company offers two products: **Mocha Managed**, a managed operations team available after-hours, weekends, and holidays that handles scheduling, hiring, and provides AI-powered growth insights; and **Mocha Tools**, standalone AI software including scheduling automation, recruiting tools, and an applicant tracking system (ATS) that integrates with agencies' existing systems (MochaCare website). Features include 24/7 monitoring and emergency response, AI-powered applicant tracking, automated shift scheduling and coverage matching, caregiver interview automation (AI or human), shift activity management and reminders, document collection automation, and growth visibility dashboards identifying referral opportunities (MochaCare website). The company integrates with WellSky, AxisCare, Indeed, AlayaCare, and RingCentral (MochaCare website).
 
-**Differentiation:** MochaCare's core differentiator is the bundled service model—it combines a managed operations team with AI-powered software, rather than selling software alone. Competitors like AlayaCare, WellSky Personal Care, AxisCare, and HHAeXchange provide scheduling and workforce management software that agencies must operate themselves. MochaCare positions itself as doing the operational work for the agency ("give agencies their time back"), which is a services-wrapped-in-software approach rather than pure SaaS. The company also integrates with existing agency platforms (WellSky, AxisCare, AlayaCare, Indeed, RingCentral) rather than requiring a full platform swap (MochaCare website).
+**Differentiation:** Existing solutions in the market are primarily software-only platforms (e.g., AlayaCare, AxisCare, WellSky Personal Care). MochaCare differs by bundling human operators with AI tools—a managed-service model rather than a pure SaaS model. This means agencies do not need to hire, train, or manage their own coordinators to use the scheduling/hiring software. Careswitch (acquired by Paradigm in September 2025) offered AI-powered automation but was software-only (BusinessWire, September 2025 via search snippet). MochaCare's "human-in-the-loop" model positions it as an outsourced operations team rather than just a tool. Additionally, MochaCare emphasizes data-driven growth insights—surfacing referral leads and enabling sales during intake calls—which goes beyond the operational focus of most competitors (MochaCare website).
 
-**Business Model:** No public pricing page was found. [Inferred]: The two-tier structure (Mocha Managed as a full-service offering, Mocha Tools as standalone software) suggests a recurring subscription for the software tier and a higher-priced managed-services contract, likely priced per-agency or per-caregiver-seat. The managed-services model implies higher revenue per customer but also higher delivery costs.
+**Business Model:** No pricing is publicly listed on the MochaCare website. [Inferred]: The most likely monetization path is a recurring subscription or per-agency retainer for Mocha Managed services (given the managed-service model with human operators), with potential separate SaaS pricing for Mocha Tools. The human-in-the-loop component suggests higher per-customer revenue but also higher marginal costs compared to pure SaaS competitors.
 
-**TAM/SAM:** The global home healthcare software market was valued at $17.72 billion in 2024 and is projected to reach $32.90 billion by 2032 (Kings Research via search snippet). An alternative estimate sizes the market at $4.51 billion in 2025, forecast to reach $8.20 billion by 2030 at 13.0% CAGR (Mordor Intelligence via search snippet). The variance reflects differing scope definitions across research firms. [Inferred]: MochaCare's SAM is the U.S. private-duty / non-medical home care agency segment, which is a subset of these broader figures. No specific SAM estimate was found for AI-powered scheduling and hiring services for home care agencies.
+**TAM/SAM:** The U.S. home healthcare market was valued at $162.35 billion in 2024 and is expected to reach $381.40 billion by 2033 at a 10.0% CAGR (Grand View Research via search snippet). The more specific U.S. healthcare staffing and scheduling software market was estimated at $1.14 billion in 2024 and is projected to reach $3.12 billion by 2033 at an 11.86% CAGR (Grand View Research via search snippet). The home care settings segment within this is described as the fastest-growing sub-segment (Grand View Research via search snippet). IBISWorld estimates the U.S. Home Care Providers market at $155.9 billion in 2025 (IBISWorld via search snippet). No public SAM estimate specific to MochaCare's addressable segment (non-medical home care agency operations outsourcing) was found.
 
-**GTM / Distribution:** [Inferred]: Most likely distribution path is direct sales to U.S. home care agencies, starting with small-to-mid-size agencies that lack dedicated operations staff. The managed-services model acts as both the product and the distribution wedge—agencies that try the service become dependent on it, creating stickiness. Indeed integration serves as a channel for caregiver hiring. The company's integrations with incumbent platforms (WellSky, AxisCare, AlayaCare) suggest a "complement, don't replace" strategy that reduces adoption friction.
+**GTM / Distribution:** The YC launch post asks for "introductions to home care agencies, home health agencies, or senior care advisors" (YC launch post). [Inferred]: The primary distribution path is direct outreach and relationship-based sales to home care agency owners, likely leveraging YC and investor networks for initial introductions. The integrations with existing platforms (WellSky, AxisCare, AlayaCare) suggest a land-and-expand strategy where MochaCare plugs into agencies' existing tech stack rather than requiring a rip-and-replace.
 
 ## Defensibility
 
-The managed-services model creates switching costs: once an agency's scheduling and hiring operations run through MochaCare's team and tools, migration requires rebuilding operational workflows. The platform accumulates agency-specific operational data (caregiver preferences, shift patterns, credential tracking, growth metrics) that becomes more valuable over time.
+MochaCare is pre-seed; defensibility signals are nascent. The company's approach generates operational data across hiring, scheduling, and intake processes, which over time could create a proprietary data advantage—enabling more accurate caregiver-client matching, predictive scheduling, and growth opportunity identification. The combination of human operators and AI tooling creates higher switching costs than pure SaaS, as agencies would need to find replacement staff and retrain on new tools. The integrations with multiple existing home care platforms (WellSky, AxisCare, AlayaCare, Indeed, RingCentral) create an integration moat that deepens with each new connector built (MochaCare website).
 
-[Inferred]: The human-in-the-loop service layer is harder to replicate than pure software—it requires recruiting, training, and managing a distributed operations team with home care domain knowledge. The data generated from managing operations across multiple agencies could enable better AI models for shift matching, demand forecasting, and caregiver retention, but this data moat is unproven at this stage.
+**Market structure:** [Inferred]: Incumbent home care software platforms (WellSky, AlayaCare, AxisCare) are software companies that sell tools to agencies. Adding a managed-service layer with human operators would represent a fundamentally different business model with different cost structures, labor management requirements, and liability profiles. This business model incompatibility makes it structurally difficult for existing SaaS incumbents to replicate MochaCare's approach without cannibalizing their high-margin software revenue with lower-margin services revenue.
 
-**Market structure:** Incumbent home care software vendors (WellSky, AlayaCare, HHAeXchange) sell software licenses to agencies and derive revenue from per-seat or per-module pricing. Offering a managed-services layer would require them to build and operate a service delivery organization, which is a fundamentally different cost structure and margin profile. This business model conflict—high-margin software vs. lower-margin services—creates a structural disincentive for incumbents to replicate MochaCare's approach directly. [Inferred]: Additionally, incumbents that serve as platforms-of-record (scheduling, billing, payroll) would face channel conflict if they started competing with their own customers' operational workflows.
-
-**Commoditization risk:** The AI-powered scheduling and ATS components are increasingly commoditized—general-purpose AI recruiting tools and scheduling optimizers exist across industries. The differentiation lies in the vertical specialization (home care-specific credential tracking, EVV compliance, caregiver matching) combined with the managed-services wrapper. A competitor with home care domain expertise and a willingness to operate a services business could replicate this. Staffing agencies that already serve home care (e.g., CareRev, ShiftKey) could potentially add scheduling management as an adjacent offering.
+**Commoditization risk:** The managed-service model (human VAs + AI) is replicable by staffing firms that add AI tooling or by home care consulting firms that productize their services. BPO companies with healthcare experience could enter this space. The AI components (scheduling automation, interview automation, ATS) are individually available from various vendors. The defensibility would need to come from the quality of the combined service, proprietary data, and deep integrations rather than from any single technology component.
 
 ## Market & Traction
 
 **Traction signals:**
-- Backed by Y Combinator (Winter 2026 batch) (YC company page)
-- Website states the company is "supported by investors including Airbnb" (MochaCare website); this likely refers to angel investment from Airbnb-affiliated individuals rather than the company itself
-- Nick Walker LinkedIn: 2K followers, 500+ connections (LinkedIn)
-- No Product Hunt launch found
-- No app store listings found
+- YC Launch post received 8 upvotes approximately 6 days after posting (YC Launches page, ~late February 2026)
+- LinkedIn company page exists at linkedin.com/company/mochacare/ with "(YC W26)" branding (LinkedIn); follower count not retrievable
+- Nick Walker's Twitter/X account: @nick_walks (joined May 2025; no posts at time of research) (X.com via search snippet)
+- Backed by Y Combinator (Winter 2026 batch) (YC page)
+- Website states "Supported by Airbnb investor(s)" (MochaCare website)
+- No Product Hunt listing found
+- No press coverage in named publications found
 - No public revenue, user count, or customer metrics found
-- No Twitter/X account found for MochaCare (note: @mocacare on X belongs to MOCACARE, an unrelated blood pressure device company established in 2014)
-- No LinkedIn company page found in search results
 - No Discord or Slack community found
+- No mobile app or browser extension found
 
 **Competitive landscape:**
 
-1. **AlayaCare** — $294M raised (PitchBook via search snippet). Cloud-based platform covering clinical documentation, back-office functions, patient/family portals, remote monitoring, and mobile apps. Revenue unknown. Differentiator vs. MochaCare: full clinical suite and enterprise scale, but pure software with no managed-services offering.
+1. **AlayaCare** — $274M–$324M total funding; most recent round February 2026 (Tracxn via search snippet). Full-lifecycle home care platform serving 500+ organizations globally with 1B+ patient visits powered. Revenue not publicly disclosed. *Differentiator vs. MochaCare:* AlayaCare is a comprehensive SaaS platform (clinical documentation, billing, portals, remote monitoring, telehealth) but does not provide managed human operators; agencies must still staff their own coordinators.
 
-2. **HHAeXchange** — Acquired by Cressey & Company in 2019; subsequently received investment from Hg. $38.1M revenue reported in 2021 (Getlatka via search snippet). Focuses on payer-provider connectivity for Medicaid home care with compliance-heavy workflows. Acquired Sandata, Cashé Software, Generations Homecare System, and Integrated Database Systems in 2024 (HHAeXchange press releases via search snippet). Differentiator vs. MochaCare: Medicaid/payer-focused compliance platform vs. MochaCare's private-duty agency focus.
+2. **WellSky Personal Care (formerly ClearCare)** — Raised $75M+ in VC including a $60M round from Battery Ventures in 2016 (Crunchbase via search snippet). Acquired by WellSky. Revenue not publicly disclosed. *Differentiator vs. MochaCare:* WellSky is an enterprise-grade SaaS platform focused on private duty home care with scheduling, billing, payroll, and CRM. It is software-only without managed services.
 
-3. **WellSky Personal Care (formerly ClearCare)** — Acquired by WellSky in 2019 (Business Wire). Served 4,000+ agencies with 600,000 caregivers on platform at time of acquisition (Business Wire, Oct 2019). Backed by Battery Ventures prior to acquisition. Differentiator vs. MochaCare: established market leader in private-duty home care software; pure SaaS model without managed services.
+3. **AxisCare** — Raised $650K over 4 rounds; received Growth Equity investment from Frontier Growth in January 2026 (Crunchbase, AxisCare press release via search snippets). Revenue not publicly disclosed but Frontier Growth typically invests in companies with $3M–$20M ARR (Frontier Growth website via search snippet). *Differentiator vs. MochaCare:* AxisCare targets enterprise non-medical home care agencies with a scheduling and operations platform. Software-only, no managed services.
 
-4. **AxisCare** — $650K raised; most recent round was Growth Equity in January 2026, funded by Frontier Growth (Crunchbase via search snippet). Revenue unknown. Differentiator vs. MochaCare: traditional scheduling/billing SaaS for home care agencies without AI or services layer.
+4. **Careswitch** — Raised $6.2M total; $18M Series A led by General Catalyst with SignalFire, Foundation Capital, Bain Capital Ventures (Crunchbase via search snippet). Acquired by Paradigm in September 2025 (BusinessWire, September 2025 via search snippet). *Differentiator vs. MochaCare:* Careswitch was the closest competitor in AI-first approach to home care operations automation, but was software-only. Now part of Paradigm (revenue cycle management).
 
-5. **Aaniie (formerly Smartcare Software)** — Series A led by Ziegler Link-Age Fund III (2022), amount undisclosed (Aaniie press release via search snippet). Cloud platform for home care including scheduling, payroll, billing, and caregiver retention. Differentiator vs. MochaCare: all-in-one SaaS platform focused on caregiver retention tools.
+5. **HHAeXchange** — Raised $33.2M over 2 rounds; $38.1M revenue in 2021 (Getlatka via search snippet). Acquired by Cressey & Company. *Differentiator vs. MochaCare:* HHAeXchange focuses on connecting providers with payers and Medicaid programs, primarily serving the payor-connected segment rather than private-duty agencies.
 
 **Why now:**
-- The U.S. Department of Health and Human Services launched a $2M AI initiative in November 2025 to address staffing shortages in direct care work through AI technology (Home Health Care News, Nov 2025).
-- Caregiver turnover at 75% and shortages affecting 59% of agencies have made operational efficiency an existential priority (2025 Activated Insights Benchmarking Report via search snippet).
-- Client and caregiver scheduling rose to the #1 agency priority (51%) from third place in prior years (AxisCare 2025 Industry Survey via search snippet).
-- Electronic visit verification (EVV) mandates tied to Medicaid funding are accelerating digital adoption across home care agencies (Fortune Business Insights via search snippet).
-- [Inferred]: LLM capabilities reaching production-grade quality in 2024-2025 enabled AI interviewing and recruiting agents that were not feasible two years prior, making the "AI-powered hiring" component of MochaCare's offering newly viable.
+- [Inferred]: Several converging factors open this opportunity now. LLM and AI agent capabilities crossed a performance threshold in 2024–2025 that makes AI-powered interview automation, scheduling optimization, and intake call assistance commercially viable at low cost. The U.S. aging population is accelerating demand for home care services, with the 65+ population growing rapidly. The home care industry faces a severe caregiver shortage, making hiring and retention operationally critical. Careswitch's acquisition by Paradigm in September 2025 removed a well-funded AI-first competitor from the independent market, creating an opening. The home care settings segment is the fastest-growing sub-segment in healthcare staffing software (Grand View Research via search snippet), indicating increasing technology adoption among agencies that were historically less digitized.
 
 ## Founders & Team
 
-**Nick Walker** — Founder & CEO
-- BS and MS in Computer Science from Stanford University, with AI/HCI focus. 3.90 GPA (LinkedIn)
-- Coursework includes deep learning (CS 230, CS 231N), NLP (CS 224N, CS 224S), and AI fundamentals (CS 221, CS 238) (LinkedIn)
-- Prior experience at Linktree, Spotify, Amazon Web Services, Microsoft Azure, and The Marriage Pact (YC company page, LinkedIn, RocketReach via search snippet)
-- Personal motivation: raised by grandparents, driving commitment to serving the aging population (YC company page)
-- Twitter/X: No public account found for MochaCare-related activity
-- LinkedIn: linkedin.com/in/nick-h-walker — 2K followers, 500+ connections (LinkedIn)
-- GitHub: No public repos found linked to this Nick Walker (note: github.com/nickswalker belongs to a different Nick Walker, a robotics researcher at MIT)
-
-**Pranav Uppiliappan** — Co-Founder
-- MS in Computer Science from UIUC (YC company page)
-- No additional public career history found beyond UIUC degree
-- Twitter/X: No public account found
-- LinkedIn: Profile exists (linkedin.com/pub/dir/Pranav/Uppiliappan via search snippet) but details not publicly accessible
+**Nick Walker** — Co-founder & CEO
+- BS Computer Science, MS Computer Science (AI/HCI focus), Stanford University (Stanford Profiles)
+- Previously: Product engineering and growth at Linktree; personalization and product at Spotify; software engineering at Amazon AWS and Microsoft Azure (YC page, LinkedIn via search snippet)
+- Personal motivation: grandmother had a caregiver no-show on her first day of home care (YC launch post)
+- Twitter/X: @nick_walks — joined May 2025, no posts at time of research (X.com via search snippet)
+- LinkedIn: linkedin.com/in/nick-h-walker/ — "MochaCare (YC W26)" (LinkedIn)
 - GitHub: No public repos found
 
-**Co-founder relationship:** Both founders have computer science backgrounds (Stanford and UIUC). No shared prior employer or university overlap is visible from available data.
+**Pranav Uppiliappan** — Co-founder
+- MS Computer Science, University of Illinois at Urbana-Champaign (UIUC) (YC page)
+- Previously: AI Agents engineer at GoDaddy; ML Research Fellow at UCSB; software engineer at DecisionMinds (YC page, search results)
+- Spent eight years doing companion care for neurodiverse people (YC launch post)
+- Twitter/X: No public account found
+- LinkedIn: Profile exists (linkedin.com/pub/dir/Pranav/Uppiliappan); headline not retrievable
+- GitHub: No public repos found
 
-**Founder-market fit:** Nick Walker's personal experience being raised by grandparents provides domain motivation for the home care space. His technical background in AI/ML from Stanford (deep learning, NLP) is directly relevant to building AI-powered scheduling and recruiting tools. His prior experience at consumer and enterprise tech companies (Spotify, AWS, Microsoft Azure, Linktree) provides product-building and scaling experience. Pranav Uppiliappan's MS in CS from UIUC adds technical depth. The website also references team members with backgrounds from Amazon, Microsoft, GoDaddy, and UCSB (MochaCare website), suggesting additional team members or contractors beyond the two co-founders.
+**Co-founder relationship:** Both founders were raised by grandparents and share a personal connection to the home care space (YC launch post). Nick attended Stanford (California) and Pranav attended UIUC (Illinois); no shared employer or university overlap is visible from available data.
+
+**Founder-market fit:** Both founders have direct personal experience with home care—Nick's grandmother received home care, and Pranav spent eight years as a companion caregiver for neurodiverse individuals. This gives them firsthand understanding of the problems faced by both families receiving care and the agencies delivering it. Their technical backgrounds (Stanford AI/HCI, UIUC CS, experience at Spotify, Amazon, GoDaddy in AI/ML roles) are relevant to building the AI-powered tooling that differentiates MochaCare. Their operational commitment (Nick goes to bed at 3:30am, Pranav wakes at 3:30am to ensure 24/7 coverage) demonstrates willingness to do the managed-service work themselves at the early stage (YC launch post). The website notes backing from "Airbnb investor(s)" though specific names are not disclosed (MochaCare website).
 
 ## Key Risks
 
-**Managed-services margin compression:** The "Mocha Managed" offering requires human operators to handle scheduling and hiring, creating a labor cost that scales with customer count. If the AI does not sufficiently automate the operational workflow, the company faces a services-business margin profile (typically 20-40%) rather than a SaaS margin profile (70-80%+). No public data on the ratio of AI automation to human labor was found.
+**Human-in-the-loop margin pressure:** The managed-service model (Mocha Managed) requires human operators, which creates a fundamentally different cost structure than pure SaaS competitors. As MochaCare scales, it must either hire/manage a growing workforce of virtual assistants or find ways to automate more tasks with AI. If the ratio of human labor to AI automation remains high, gross margins will be constrained relative to SaaS benchmarks. The founders currently provide 24/7 coverage themselves (YC launch post), which is not scalable.
 
-**Incumbent integration risk:** MochaCare integrates with WellSky, AxisCare, and AlayaCare as part of its "complement, don't replace" strategy. These incumbents could restrict API access, build competing managed-services features, or acquire a similar startup. WellSky has already demonstrated acquisition appetite by buying ClearCare in 2019 (Business Wire). HHAeXchange acquired four companies in 2024 alone (HHAeXchange press releases via search snippet).
+**Integration dependency:** MochaCare integrates with third-party platforms (WellSky, AxisCare, AlayaCare, Indeed, RingCentral) that are also competitors or could become competitors. Any of these platforms could restrict API access, build competing managed-service offerings, or acquire a competitor (as Paradigm acquired Careswitch in September 2025) (BusinessWire, September 2025 via search snippet). WellSky and AlayaCare in particular are well-resourced and could add AI-assisted scheduling features natively.
 
-**Brand confusion with MOCACARE:** An unrelated company called MOCACARE (mocacare.com) sells connected blood pressure monitors and has held the @mocacare Twitter/X handle since 2014. This creates potential brand confusion in search results and social media.
+**Regulatory and liability exposure:** Home care involves vulnerable populations (seniors, neurodiverse individuals). Errors in scheduling or hiring (e.g., a caregiver no-show, an unqualified caregiver placement) can create liability for both the agency and MochaCare as the operations provider. As MochaCare takes on operational responsibility rather than just providing tools, it may face increased regulatory scrutiny and liability compared to software-only competitors.
 
-**Narrow vertical with SMB concentration:** U.S. private-duty home care agencies skew small (often owner-operated with <50 caregivers). SMB customers typically have high churn, limited willingness to pay, and long sales cycles relative to contract value. The managed-services model may mitigate churn through stickiness but compounds the unit economics challenge.
-
-**Regulatory dependency:** EVV mandates and Medicaid compliance requirements are driving software adoption, but regulatory changes (e.g., delayed enforcement, waiver exemptions) could slow the adoption tailwind. MochaCare's focus on private-duty agencies (vs. Medicaid agencies) means it may benefit less directly from EVV mandates than competitors like HHAeXchange.
+**Narrow initial wedge in a fragmented market:** The U.S. home care industry is highly fragmented with thousands of small agencies. Customer acquisition requires relationship-based selling to individual agency owners. Each customer integration may require custom configuration. This creates a potentially slow, high-touch sales cycle that could constrain growth velocity.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $17.72B global home healthcare software market in 2024, projected $32.90B by 2032 (Kings Research via search snippet); alternative estimate $4.51B in 2025 at 13.0% CAGR (Mordor Intelligence via search snippet) |
-| SAM | No public data found |
-| Traction | Y Combinator W26 batch (YC company page); "supported by investors including Airbnb" (MochaCare website); no public user, revenue, or customer metrics found |
+| TAM | U.S. home healthcare market: $162.35B in 2024, projected $381.40B by 2033 at 10.0% CAGR (Grand View Research via search snippet). U.S. healthcare staffing & scheduling software: $1.14B in 2024, projected $3.12B by 2033 at 11.86% CAGR (Grand View Research via search snippet). |
+| SAM | No public data found for MochaCare's specific segment (non-medical home care agency operations outsourcing). |
+| Traction | YC W26 batch member; 8 upvotes on YC Launch post (~late Feb 2026); backed by "Airbnb investor(s)" (MochaCare website). No public user count, revenue, or customer metrics found. |
 | Revenue Signal | No public data found |
-| Founders | Nick Walker (CEO): Stanford BS/MS CS (AI/HCI), ex-Linktree/Spotify/AWS/Microsoft. Pranav Uppiliappan (Co-Founder): UIUC MS CS |
-| Competitors | AlayaCare ($294M raised, revenue unknown, full clinical suite vs. MochaCare's ops-focused service); HHAeXchange (PE-backed, $38.1M revenue in 2021, Medicaid-focused vs. private-duty); WellSky/ClearCare (acquired 2019, 4,000+ agencies, pure SaaS vs. managed services); AxisCare ($650K raised, revenue unknown, traditional scheduling SaaS); Aaniie (Series A undisclosed, retention-focused SaaS) |
-| Moat Signals | Human-in-the-loop managed services layer creates switching costs; agency-specific operational data accumulation; business model conflict deters incumbent replication |
-| Risk Factors | Managed-services margin compression, incumbent integration/acquisition risk, brand confusion with MOCACARE, narrow SMB-heavy vertical |
-| Founder Reach | Nick Walker: Twitter not found, LinkedIn 2K followers / 500+ connections, GitHub not found. Pranav Uppiliappan: Twitter not found, LinkedIn not accessible, GitHub not found |
-| Distribution Signals | No public data found |
+| Founders | Nick Walker (CEO): Stanford BS/MS CS (AI/HCI), prev. Linktree, Spotify, Amazon AWS, Microsoft Azure. Pranav Uppiliappan (Co-founder): UIUC MS CS, prev. GoDaddy (AI Agents), UCSB (ML Research), 8 yrs companion caregiving. |
+| Competitors | AlayaCare ($274M–$324M raised, revenue unknown, full-lifecycle SaaS platform); WellSky Personal Care ($75M+ raised, revenue unknown, enterprise private-duty SaaS); AxisCare ($650K raised + Frontier Growth equity, revenue unknown, enterprise non-medical home care SaaS); Careswitch ($6.2M raised, acquired by Paradigm Sept 2025, AI-first but software-only); HHAeXchange ($33.2M raised, $38.1M revenue in 2021, Medicaid/payer-connected focus) |
+| Moat Signals | Data accumulation from managed operations; higher switching costs from combined human+AI service vs. pure SaaS; multi-platform integrations (WellSky, AxisCare, AlayaCare, Indeed, RingCentral). All nascent at pre-seed stage. |
+| Risk Factors | Human-in-the-loop margin pressure, integration dependency on competitor platforms, regulatory/liability exposure from operational responsibility |
+| Founder Reach | Nick Walker: Twitter @nick_walks (no posts), LinkedIn linkedin.com/in/nick-h-walker/. Pranav Uppiliappan: Twitter not found, LinkedIn profile exists (count not retrievable). GitHub: none found for either founder. |
+| Distribution Signals | YC Launch post (8 upvotes, ~late Feb 2026). No Product Hunt listing, no app store presence, no Chrome extension found. |
+| Emails | support@mochacare.com |

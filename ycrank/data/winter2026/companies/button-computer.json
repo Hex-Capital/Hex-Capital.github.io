@@ -9,56 +9,58 @@
     "industry": "B2B / B2B -> Engineering, Product and Design",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Hardware, Consumer, AI"
+    "tags": "Artificial Intelligence, Hardware, Consumer",
+    "yc_partner": "Tyler Bosmeny",
+    "emails": "No public data found"
   },
   "tags": [
+    "Artificial Intelligence",
     "Hardware",
-    "Consumer",
-    "AI"
+    "Consumer"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T19:38:09.893Z",
+  "memoGeneratedAt": "2026-03-06T06:07:52.125Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 26,
+      "score": 36,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 25,
-      "tier": "Strong Pass"
-    },
-    "naval-ravikant": {
-      "score": 37,
+      "score": 36,
       "tier": "Pass"
     },
+    "naval-ravikant": {
+      "score": 46,
+      "tier": "Neutral"
+    },
     "paul-graham": {
-      "score": 34,
+      "score": 42,
       "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 21,
-      "tier": "Strong Pass"
+      "score": 29,
+      "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 21,
+      "score": 25,
       "tier": "Strong Pass"
     },
     "vinod-khosla": {
-      "score": 27,
+      "score": 40,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 26,
-    "EG": 25,
-    "NR": 37,
-    "PG": 34,
-    "PT": 21,
-    "SL": 21,
-    "VK": 27
+    "CB": 36,
+    "EG": 36,
+    "NR": 46,
+    "PG": 42,
+    "PT": 29,
+    "SL": 25,
+    "VK": 40
   },
-  "consolidatedAvg": 27.29,
-  "consolidatedRank": 192,
+  "consolidatedAvg": 36.29,
+  "consolidatedRank": 132,
   "paths": {
     "memo": "winter2026/memos/button-computer.md",
     "evals": {

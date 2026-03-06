@@ -9,55 +9,57 @@
     "industry": "Healthcare / Healthcare",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Healthcare, AI"
+    "tags": "Healthcare, AI",
+    "yc_partner": "Jon Xu",
+    "emails": "No public data found"
   },
   "tags": [
     "Healthcare",
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T20:24:04.245Z",
+  "memoGeneratedAt": "2026-03-06T05:47:43.322Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 56,
+      "score": 61,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 63,
+      "score": 61,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 49,
+      "score": 58,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 69,
+      "score": 70,
       "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 41,
+      "score": 40,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 34,
+      "score": 35,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 45,
+      "score": 46,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 56,
-    "EG": 63,
-    "NR": 49,
-    "PG": 69,
-    "PT": 41,
-    "SL": 34,
-    "VK": 45
+    "CB": 61,
+    "EG": 61,
+    "NR": 58,
+    "PG": 70,
+    "PT": 40,
+    "SL": 35,
+    "VK": 46
   },
-  "consolidatedAvg": 51,
-  "consolidatedRank": 27,
+  "consolidatedAvg": 53,
+  "consolidatedRank": 23,
   "paths": {
     "memo": "winter2026/memos/ruma-care.md",
     "evals": {

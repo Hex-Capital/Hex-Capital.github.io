@@ -9,7 +9,9 @@
     "industry": "B2B / B2B -> Infrastructure",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Artificial Intelligence, Sales, Search, AI Assistant"
+    "tags": "Artificial Intelligence, Sales, Search, AI Assistant",
+    "yc_partner": "Ankit Gupta",
+    "emails": "founders@autumnai.com (YC page)"
   },
   "tags": [
     "Artificial Intelligence",
@@ -18,48 +20,48 @@
     "AI Assistant"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T19:39:01.350Z",
+  "memoGeneratedAt": "2026-03-06T06:09:47.332Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 28,
+      "score": 30,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 32,
+      "score": 33,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 34,
+      "score": 38,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 44,
-      "tier": "Pass"
+      "score": 47,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 25,
+      "score": 27,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 24,
+      "score": 22,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 24,
+      "score": 33,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 28,
-    "EG": 32,
-    "NR": 34,
-    "PG": 44,
-    "PT": 25,
-    "SL": 24,
-    "VK": 24
+    "CB": 30,
+    "EG": 33,
+    "NR": 38,
+    "PG": 47,
+    "PT": 27,
+    "SL": 22,
+    "VK": 33
   },
-  "consolidatedAvg": 30.14,
-  "consolidatedRank": 182,
+  "consolidatedAvg": 32.86,
+  "consolidatedRank": 164,
   "paths": {
     "memo": "winter2026/memos/autumn-ai.md",
     "evals": {

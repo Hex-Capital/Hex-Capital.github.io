@@ -9,7 +9,9 @@
     "industry": "Consumer / Consumer -> Gaming",
     "team_size": "3",
     "location": "San Francisco, CA, USA",
-    "tags": "Artificial Intelligence, Marketplace, Consumer, Gaming"
+    "tags": "Artificial Intelligence, Marketplace, Consumer, Gaming",
+    "yc_partner": "Harshita Arora",
+    "emails": "careers@paxhistoria.co"
   },
   "tags": [
     "Artificial Intelligence",
@@ -18,26 +20,26 @@
     "Gaming"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-21T06:20:17.234Z",
+  "memoGeneratedAt": "2026-03-06T05:43:07.443Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 40,
+      "score": 35,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 50,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
       "score": 53,
       "tier": "Neutral"
     },
+    "naval-ravikant": {
+      "score": 46,
+      "tier": "Neutral"
+    },
     "paul-graham": {
-      "score": 57,
+      "score": 56,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 41,
+      "score": 38,
       "tier": "Pass"
     },
     "sam-lessin": {
@@ -45,21 +47,21 @@
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 48,
-      "tier": "Neutral"
+      "score": 38,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 40,
-    "EG": 50,
-    "NR": 53,
-    "PG": 57,
-    "PT": 41,
+    "CB": 35,
+    "EG": 53,
+    "NR": 46,
+    "PG": 56,
+    "PT": 38,
     "SL": 37,
-    "VK": 48
+    "VK": 38
   },
-  "consolidatedAvg": 46.57,
-  "consolidatedRank": 48,
+  "consolidatedAvg": 43.29,
+  "consolidatedRank": 67,
   "paths": {
     "memo": "winter2026/memos/pax-historia.md",
     "evals": {

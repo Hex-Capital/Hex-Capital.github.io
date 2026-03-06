@@ -1,0 +1,78 @@
+{
+  "slug": "21st",
+  "name": "21st",
+  "oneLiner": "Infrastructure and UI building blocks for the agentic internet",
+  "metadata": {
+    "website": "https://21st.dev",
+    "yc_page": "https://www.ycombinator.com/companies/21st",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Developer Tools, B2B, Open Source, API, AI",
+    "yc_partner": "Ankit Gupta",
+    "emails": "first@21st.dev format per RocketReach (via search snippet); support@21st.dev referenced in search results"
+  },
+  "tags": [
+    "Developer Tools",
+    "B2B",
+    "Open Source",
+    "API",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-06T05:47:33.023Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 44,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 29,
+    "EG": 49,
+    "NR": 46,
+    "PG": 55,
+    "PT": 31,
+    "SL": 35,
+    "VK": 44
+  },
+  "consolidatedAvg": 41.29,
+  "consolidatedRank": 85,
+  "paths": {
+    "memo": "winter2026/memos/21st.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/21st.md",
+      "elad-gil": "winter2026/evals/elad-gil/21st.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/21st.md",
+      "paul-graham": "winter2026/evals/paul-graham/21st.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/21st.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/21st.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/21st.md"
+    }
+  }
+}

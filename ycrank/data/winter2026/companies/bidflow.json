@@ -6,10 +6,12 @@
     "website": "https://usebidflow.com",
     "yc_page": "https://www.ycombinator.com/companies/bidflow",
     "batch": "Winter 2026",
-    "industry": "Real Estate and Construction / Construction",
+    "industry": "Real Estate and Construction / Real Estate and Construction -> Construction",
     "team_size": "2",
     "location": "New York, NY, USA",
-    "tags": "SaaS, Construction, Infrastructure, AI Assistant"
+    "tags": "SaaS, Construction, Infrastructure, AI Assistant",
+    "yc_partner": "Ankit Gupta",
+    "emails": "founders@tryghostship.dev (YC page)"
   },
   "tags": [
     "SaaS",
@@ -18,48 +20,48 @@
     "AI Assistant"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T21:25:00.879Z",
+  "memoGeneratedAt": "2026-03-06T06:12:37.874Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 50,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
       "score": 40,
       "tier": "Pass"
     },
+    "elad-gil": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 35,
+      "tier": "Pass"
+    },
     "paul-graham": {
-      "score": 52,
+      "score": 48,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 37,
+      "score": 31,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 32,
+      "score": 26,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 41,
+      "score": 40,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 50,
-    "EG": 51,
-    "NR": 40,
-    "PG": 52,
-    "PT": 37,
-    "SL": 32,
-    "VK": 41
+    "CB": 40,
+    "EG": 40,
+    "NR": 35,
+    "PG": 48,
+    "PT": 31,
+    "SL": 26,
+    "VK": 40
   },
-  "consolidatedAvg": 43.29,
-  "consolidatedRank": 67,
+  "consolidatedAvg": 37.14,
+  "consolidatedRank": 130,
   "paths": {
     "memo": "winter2026/memos/bidflow.md",
     "evals": {

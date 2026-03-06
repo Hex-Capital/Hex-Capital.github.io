@@ -1,66 +1,68 @@
 {
   "slug": "o11",
   "name": "o11",
-  "oneLiner": "The Most Integrated M365 AI Suite",
+  "oneLiner": "The AI Agent Inside Every App",
   "metadata": {
     "website": "https://o11.ai",
     "yc_page": "https://www.ycombinator.com/companies/o11",
     "batch": "Winter 2026",
     "industry": "B2B / B2B -> Finance and Accounting",
-    "team_size": "4",
+    "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Artificial Intelligence, Fintech, SaaS, Finance, B2B"
+    "tags": "Artificial Intelligence, Consumer, B2B, Workflow Automation, Productivity",
+    "yc_partner": "Jared Friedman",
+    "emails": "support@o11.ai"
   },
   "tags": [
     "Artificial Intelligence",
-    "Fintech",
-    "SaaS",
-    "Finance",
-    "B2B"
+    "Consumer",
+    "B2B",
+    "Workflow Automation",
+    "Productivity"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T20:57:06.140Z",
+  "memoGeneratedAt": "2026-03-06T05:42:56.885Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 27,
+      "score": 28,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 34,
+      "score": 44,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 40,
+      "score": 43,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 41,
-      "tier": "Pass"
+      "score": 53,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 27,
+      "score": 33,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 21,
-      "tier": "Strong Pass"
+      "score": 32,
+      "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 34,
+      "score": 40,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 27,
-    "EG": 34,
-    "NR": 40,
-    "PG": 41,
-    "PT": 27,
-    "SL": 21,
-    "VK": 34
+    "CB": 28,
+    "EG": 44,
+    "NR": 43,
+    "PG": 53,
+    "PT": 33,
+    "SL": 32,
+    "VK": 40
   },
-  "consolidatedAvg": 32,
-  "consolidatedRank": 171,
+  "consolidatedAvg": 39,
+  "consolidatedRank": 111,
   "paths": {
     "memo": "winter2026/memos/o11.md",
     "evals": {

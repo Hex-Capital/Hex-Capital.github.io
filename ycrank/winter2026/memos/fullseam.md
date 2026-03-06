@@ -11,107 +11,120 @@
 | Team Size | 3 |
 | Location | No public data found |
 | Tags | Artificial Intelligence, FinOps, Fintech, SaaS |
+| YC Partner | Brad Flora |
+| Emails | tom@fullseam.com (YC Launch page) |
 
 ## The Idea
 
-**Problem:** Finance and accounting teams at companies spend significant time on routine, manual tasks — sending invoice follow-ups, entering vendor bills, matching invoices to purchase orders, categorizing expenses, and reconciling bank statements against general ledger entries. These tasks require logging into multiple systems (ERP, billing, banking, CRM) and executing repetitive workflows. The founding team experienced this firsthand at TaxProper, where their own accounting department was burdened by manual AR/AP processes (YC Launch post, Feb 2026). Today, these teams typically rely on a patchwork of legacy automation tools (rule-based workflows in Bill.com, Tipalti, etc.) or manual effort.
+**Problem:** Finance and accounting teams at growing companies are burdened with high volumes of routine, manual work — invoicing customers, processing vendor bills, recording payments, reconciling bank statements, and updating financial records across multiple systems. These tasks are time-consuming, error-prone, and typically require staff to log in and out of disparate tools (ERP, billing, banking, CRM). The founding team experienced this directly: at their prior company TaxProper, their accounting team was "drowning in invoicing, reconciliations, customer questions, and exception handling" as the business scaled (YC Launch page). Current solutions are either manual workflows or traditional AP/AR automation platforms that still require significant human oversight.
 
-**Approach:** FullSeam deploys AI agents that log into a company's existing accounting, billing, banking, and CRM tools and autonomously complete tasks. For AR teams, agents handle customer payment follow-ups, documentation generation, invoice entry, and AP portal updates. For AP teams, agents ingest invoices from multiple sources, match invoices to POs and contracts, follow up with vendors, categorize expenses, and update GL entries. The system also handles cash application (AI-powered payment matching across invoices, including partial payments and splits) and reconciliation (bank statement and GL matching with variance flagging) (fullseam.com). All agent actions are logged and auditable, with configurable approval workflows and exception routing to human teams (fullseam.com). The platform integrates with QuickBooks, Stripe, Xero, HubSpot, Bill, Sage, NetSuite, PandaDoc, and Salesforce (fullseam.com). Implementation is described as deployable "in days, not months" (fullseam.com).
+**Approach:** FullSeam deploys AI "employees" (agents) that log into a company's existing accounting, billing, banking, and CRM tools and autonomously complete routine tasks. Specific capabilities include: (1) **Accounts Receivable** — automated customer follow-ups until payment, invoice generation, and customer AP portal updates; (2) **Accounts Payable** — invoice ingestion from email/portals/PDFs, invoice-to-PO/contract matching, GL coding with vendor defaults, and vendor follow-up for missing information; (3) **Cash Application** — AI-powered payment matching against open invoices including partial payments; (4) **Reconciliation** — bank statement matching, GL comparison, and variance flagging (fullseam.com). The system includes confidence scoring on data extraction, exception flagging and routing for human review, custom approval workflows, and auditable action logs (fullseam.com).
 
-**Differentiation:** FullSeam positions itself as an "AI employee" rather than a workflow automation tool or dashboard. The founding team's core insight is: "Accounting teams don't need another dashboard — they need teammates" (YC Launch post, Feb 2026). This contrasts with incumbent tools like Bill.com and Tipalti, which automate specific payment workflows but still require significant human orchestration across systems. FullSeam's agents operate across the full AR/AP cycle and multiple integrated tools, rather than automating a single step. Compared to newer entrants like LedgerUp (which focuses on contract-to-cash for B2B SaaS), FullSeam targets broader finance operations (AR, AP, cash application, reconciliation) across industries.
+**Differentiation:** Unlike point solutions that automate only AP (e.g., Stampli, Vic.ai) or only AR (e.g., Fazeshift, HighRadius), FullSeam spans both AP and AR plus cash application and reconciliation as a single integrated platform. The "AI employee" framing — agents that log in to existing tools and act autonomously — contrasts with copilot-style tools that assist humans in existing workflows but still require manual triggering. Auditoria.ai is the closest comparable offering multi-function AI automation across AP and AR, though it targets enterprise customers and has raised $60.5M (Auditoria.ai press release, Feb 2025). FullSeam integrates with nine named platforms: QuickBooks, Stripe, Xero, HubSpot, Bill, Sage, NetSuite, PandaDoc, and Salesforce (fullseam.com).
 
-**Business Model:** No pricing page or pricing details are publicly visible on fullseam.com. [Inferred]: Most likely monetization path is SaaS subscription pricing, potentially tiered by volume of transactions processed or number of integrated tools, given the B2B finance automation category norms and the company's SaaS tag.
+**Business Model:** No pricing page is publicly available on fullseam.com. [Inferred]: Most likely monetization path is SaaS subscription pricing, potentially tiered by transaction volume or number of connected tools, given the B2B SaaS positioning and the category norms of AP/AR automation vendors.
 
-**TAM/SAM:** The global accounts receivable automation market was estimated at $3.40B in 2025, projected to reach $6.57B by 2031 at 11.6% CAGR (MarketsandMarkets via search snippet). The global accounts payable automation market was estimated at $3.07B in 2023, projected to reach $7.1B by 2030 at 12.5% CAGR (Grand View Research via search snippet). The combined AR/AP automation market was valued at $3.64B in 2025, expected to reach $8.95B by 2034 at 10.51% CAGR (Market Growth Reports via search snippet). No public SAM estimate specific to AI-agent-based accounting automation was found.
+**TAM/SAM:** The global accounts payable automation market was estimated at USD 3.07 billion in 2023, projected to reach USD 7.1 billion by 2030 at a 12.5% CAGR (Grand View Research, via search snippet). The accounts receivable automation market is expected to grow from USD 3.40 billion in 2025 to USD 6.57 billion by 2031 at an 11.6% CAGR (Mordor Intelligence, via search snippet). Combined, the AP + AR automation TAM is approximately USD 9.5 billion in 2025 across both segments. [Inferred]: FullSeam's SAM is the subset of SMB and mid-market companies using the nine integrations listed, which narrows the addressable segment but is not publicly quantified.
 
-**GTM / Distribution:** The YC Launch post directs prospects to contact tom@fullseam.com or book a demo (YC Launch post, Feb 2026). Customer testimonials reference CEOs of two companies (Deferred and Belfry Software), suggesting an early sales-led or founder-led motion targeting SMB/mid-market companies (fullseam.com). [Inferred]: Most likely distribution path is founder-led sales to mid-market finance teams, leveraging the founders' existing network from TaxProper and Opendoor and the YC network, potentially expanding into channel partnerships with accounting firms.
+**GTM / Distribution:** The company offers demo booking via fullseam.com and lists testimonials from two named customers (Deferred, Belfry Software), suggesting a direct sales or founder-led sales approach. The YC Launch page mentions a contact email (tom@fullseam.com). [Inferred]: Most likely distribution path at this stage is founder-led sales targeting SMB and mid-market companies already using QuickBooks, Xero, or NetSuite, leveraging YC network and the founders' real estate/fintech contacts from TaxProper.
 
 ## Defensibility
 
-The founding team brings direct operational experience: all three founders previously built and sold TaxProper (YC S19), a property tax SaaS that processed more than $1 billion per year in property tax payments and serviced portfolios of over 115,000 properties worth $35B+ before its acquisition by Opendoor in 2022 (YC Launch post, Feb 2026; thetomdowling.com). This provides domain expertise in building financial operations software and navigating enterprise procurement. Switching costs increase as FullSeam embeds into a company's financial workflow across multiple connected tools — once approval workflows, GL mappings, and vendor communication templates are configured, migrating away requires re-implementing these configurations. [Inferred]: Potential data moat could develop as agents learn company-specific patterns (vendor behaviors, payment norms, GL categorization rules), but this is unproven at this stage.
+**Workflow data moat:** As FullSeam agents process invoices, payments, and reconciliations, the system accumulates company-specific financial data, vendor/customer communication patterns, and GL coding preferences. Over time, this creates switching costs — the AI becomes tuned to each customer's unique accounting rules and vendor relationships. However, this moat is nascent and unproven at the current stage.
 
-**Market structure:** Large incumbents like Bill.com ($1.5B FY25 revenue; investor.bill.com) and Intuit (QuickBooks) have built their businesses around specific workflow tools and payment processing revenue. [Inferred]: An AI-agent approach that operates across multiple existing tools (including competitors' own platforms) is structurally difficult for these incumbents to replicate, as it would cannibalize their own platform lock-in strategy — Bill.com's business model depends on customers conducting transactions within its ecosystem, not on an agent that automates across multiple platforms including Bill.com itself.
+**Multi-system integration breadth:** Supporting nine integrations across accounting, billing, banking, and CRM creates a compound integration barrier. Each new integration adds complexity for competitors attempting to replicate the same breadth of autonomous operation across tool combinations.
 
-**Commoditization risk:** The underlying LLM capabilities powering AI agents are widely available, and multiple well-funded startups and incumbents are pursuing AI-powered accounting automation. Bill.com launched "BILL AI Agents" for touchless B2B transactions (search snippet, 2025). Tipalti secured $200M in growth financing specifically to invest in AI capabilities (Tipalti press release, Sept 2025). Building reliable, production-grade integrations across the dozen+ accounting/billing/banking tools — and handling the edge cases in invoice matching, partial payments, and GL coding — provides some technical complexity, but is replicable by well-resourced competitors.
+**Repeat founder advantage:** All three founders previously built and exited TaxProper (S19 → Opendoor acquisition, 2022), giving them direct experience building fintech SaaS that interfaces with financial systems and institutional customers. This is an execution advantage rather than a structural moat.
+
+**Market structure:** [Inferred]: Large incumbents like Intuit (QuickBooks), Sage, and Oracle (NetSuite) could build similar AI automation natively within their platforms, but doing so would cannibalize professional services revenue and partner ecosystem relationships. Their incentive is to remain a platform rather than replace the workflows that drive ecosystem stickiness. However, no structural barrier prevents them from shipping this as a feature.
+
+**Commoditization risk:** The core capabilities (invoice OCR, GL coding, payment matching) are technically reproducible using commercially available LLMs and standard API integrations. Stampli ($148M raised), Vic.ai ($52M raised), and Auditoria.ai ($60.5M raised) all have more capital and established customer bases. Multiple YC-backed startups (e.g., Fazeshift for AR) target adjacent segments. The barrier to entry for any single function (AP or AR) is low; the differentiator is breadth of coverage and execution speed.
 
 ## Market & Traction
 
 **Traction signals:**
-- YC Launch post published approximately February 17, 2026 (YC Launch post). No upvote count retrievable.
-- Customer testimonial: CEO of Deferred stated FullSeam "scale[d] with us without disrupting our existing processes" (fullseam.com).
-- Customer testimonial: Jordan Wallach, CEO of Belfry Software, described moving from "people interpreting contracts to a system that actually understands them," improving billing confidence (fullseam.com).
-- LinkedIn company page exists at linkedin.com/company/fullseam; follower count not retrievable.
-- No Product Hunt listing found.
-- No public revenue, user count, or growth metrics disclosed.
-- No public app store listing, Chrome extension, or Discord/Slack community found.
-- No active job postings found (company is not currently hiring per YC profile).
+- YC Launch page upvotes: 17 (YC Launch page, as of research date)
+- Named customer testimonials: Judd Schoenholtz, CEO of Deferred; Jordan Wallach, CEO of Belfry Software (fullseam.com)
+- Customer testimonial: "FullSeam understands our business context and automated our AP process without additional overhead" — Judd Schoenholtz, CEO Deferred (fullseam.com)
+- Customer testimonial: "We went from people interpreting contracts to a system that actually understands them" — Jordan Wallach, CEO Belfry Software (fullseam.com)
+- Funding: $500K raised (PitchBook profile, via search snippet)
+- Twitter/X: @FullSeam (YC page) — follower count not retrievable
+- LinkedIn: https://www.linkedin.com/company/fullseam/ — follower count not retrievable
+- Facebook: https://www.facebook.com/profile.php?id=61583790849054 (YC page) — follower count not retrievable
+- Job postings: 0 active (YC page)
+- Product Hunt: No listing found
+- Press coverage: No coverage found in named publications
+- App store / Chrome extension: Not applicable
+- Prior company traction: TaxProper processed over $1 billion annually in property tax payments before the Opendoor acquisition (YC Launch page)
 
 **Competitive landscape:**
 
-1. **Bill.com (NYSE: BILL)** — $1.5B FY25 total revenue, 13% YoY growth; ~500K SMBs and 9,000 accounting firms on platform (investor.bill.com, Aug 2025). Public company, $326M raised pre-IPO (Tracxn via search snippet). Focused on SMB payment automation with integrated payment processing. Recently launched BILL AI Agents. Key difference vs. FullSeam: Bill.com is a payment-processing platform; FullSeam is a cross-platform AI agent that operates within Bill.com and other tools rather than replacing them.
+| Competitor | Key Differentiator vs. FullSeam | Funding | Revenue |
+|---|---|---|---|
+| **Stampli** | AP-only focus with AI copilot "Billy the Bot"; 500K customers; more mature product with Blackstone backing | $148M total (Series D, Oct 2023) (Clay, via search snippet) | $11.2M revenue in 2024 (Latka, via search snippet) |
+| **Vic.ai** | AP-focused autonomous automation with predictive analytics; longer track record in enterprise AP | $52M+ total (Crunchbase, via search snippet) | Revenue unknown |
+| **Auditoria.ai** | Multi-function agentic AI across AP and AR (closest comparable); targets enterprise; processes $2.4B in collections and $9B in invoicing annually for customers | $60.5M total (Series B, Feb 2025) (Auditoria.ai press release) | Revenue unknown; "triple-digit growth" in 2024 (Auditoria.ai press release) |
+| **Fazeshift** (YC) | AR-only AI agent; Harvard/MIT founding team; already working with large enterprise clients | $5.5M total (Seed, Jan 2025) (PitchBook, via search snippet) | Revenue unknown |
+| **HighRadius** | Enterprise-focused order-to-cash platform; established player with deep ERP integrations | Revenue unknown; established late-stage company | Revenue unknown |
 
-2. **Tipalti** — $200M+ ARR, $200M growth financing from Hercules Capital (Tipalti press release, Sept 2025). Processes $75B+ in annualized payment volume across 5,000+ global customers (Tipalti press release, Sept 2025). Focused on mid-market/enterprise AP automation and global payments. Key difference vs. FullSeam: Tipalti is primarily AP-focused with own payment rails; FullSeam spans AR, AP, cash application, and reconciliation as an agent layer.
-
-3. **Versapay** — ~$42M revenue (Latka, 2024 via search snippet), 47K customers (Latka via search snippet). Acquired by Great Hill Partners for $95.6M in 2019 (Crunchbase via search snippet). Focused on collaborative AR automation with buyer-facing payment portals. Key difference vs. FullSeam: Versapay emphasizes the buyer-supplier collaboration portal; FullSeam automates the back-office agent workflow.
-
-4. **Billtrust** — ~$96.4M revenue (Latka, July 2025 via search snippet), $477M raised (PitchBook via search snippet). Focused on enterprise AR automation and order-to-cash. Key difference vs. FullSeam: Billtrust targets larger enterprises with dedicated order-to-cash infrastructure; FullSeam positions as an AI agent for mid-market teams using existing tools.
-
-5. **LedgerUp** — $1M revenue, 5-person team (Latka, June 2024 via search snippet), $500K YC funding (Tracxn via search snippet). AI-native contract-to-cash platform for B2B SaaS. Key difference vs. FullSeam: LedgerUp focuses specifically on SaaS revenue lifecycle; FullSeam targets broader finance operations across industries.
-
-**Why now:** [Inferred]: The enabling change is the rapid improvement in LLM capabilities through 2024-2025, which crossed a performance threshold making it feasible for AI agents to reliably interpret unstructured financial documents (invoices, contracts, POs), make GL coding decisions, and compose contextual follow-up communications — tasks that previously required human judgment. Simultaneously, the proliferation of cloud-based accounting tools with API access (QuickBooks Online, Stripe, Xero, NetSuite) created the integration surface that an agent-based approach requires.
+**Why now:** [Inferred]: The convergence of two factors in 2024-2025 created the opening: (1) LLM capabilities crossed a performance threshold for reliably extracting structured data from unstructured financial documents (invoices, contracts, bank statements) and reasoning about GL coding rules — tasks that were previously too error-prone for automation; (2) the agentic AI paradigm matured, enabling software agents to autonomously chain multi-step workflows across multiple systems (log in, extract, match, record, follow up) rather than requiring human orchestration at each step. These technical inflection points made it feasible to build a full-stack autonomous finance worker for the first time.
 
 ## Founders & Team
 
-**Thomas Dowling** — Co-founder (listed first on YC Launch post; contact listed as tom@fullseam.com)
-- BA Political Science & History, University of Illinois at Urbana-Champaign (2014-2018); MSc Social Policy, University of Oxford (Rhodes Scholar, 2018-2019) (history.illinois.edu; thetomdowling.com)
+**Thomas Dowling** — Co-founder
+- BA in History and Political Science, University of Illinois at Urbana-Champaign (2018); MSc in Comparative Social Policy, University of Oxford (Rhodes Scholar, 2019) (University of Illinois History Department Q&A, Mar 2025; thetomdowling.com)
+- Co-founder & CEO of TaxProper (YC S19), which grew to service 115,000+ properties worth $35B+ and was acquired by Opendoor (NASDAQ: OPEN) on November 4, 2022 (PitchBook, via search snippet; TaxProper blog post)
+- TaxProper raised $2M+ from Khosla Ventures and YC (thetomdowling.com)
+- TaxProper processed over $1B annually in property tax payments (YC Launch page)
 - Former municipal finance advisor to Chicago Mayor Lori Lightfoot (thetomdowling.com)
-- Commissioner, Illinois Student Assistance Commission, appointed by Governor Pritzker; oversaw expansion of annual student assistance from $450M+ to $600M+ (thetomdowling.com)
-- Co-founder & CEO of TaxProper (YC S19); grew to service 115,000+ properties worth $35B+, processing >$1B/year in property tax payments; raised $2M+ from Khosla Ventures and YC; acquired by Opendoor (NASDAQ: OPEN) Nov 4, 2022 (thetomdowling.com; taxproper.com)
-- Twitter/X: @thetomdowling (x.com/thetomdowling); follower count not retrievable
-- LinkedIn: linkedin.com/in/thomas-dowling-2a3aabb7
-- GitHub: No public repos found
-
-**Geoff Segal** — Co-founder
-- BS Statistics & Economics, University of Illinois at Urbana-Champaign (2014-2016); MS Statistics, UIUC (Crunchbase via search snippet; Topionetworks via search snippet)
-- Former actuarial statistician and research analyst at State Farm (Crunchbase via search snippet)
-- Co-founder of TaxProper (YC S19); acquired by Opendoor (NASDAQ: OPEN) in 2022 (Crunchbase via search snippet)
-- Twitter/X: No public account found
-- LinkedIn: linkedin.com/in/geoff-segal-744407ba
+- Commissioner, Illinois Student Assistance Commission (appointed by Governor J.B. Pritzker) — expanded annual student assistance awards from $450M to $600M+ (thetomdowling.com)
+- Twitter/X: @thetomdowling — count not retrievable
+- LinkedIn: linkedin.com/in/thomas-dowling-2a3aabb7/
 - GitHub: No public repos found
 
 **Aaron Coppa** — Co-founder
-- University of Illinois at Urbana-Champaign (LinkedIn via search snippet); Stanford GSB MBA mentioned (LinkedIn via search snippet)
-- Head of Product at TaxProper (LinkedIn via search snippet)
-- Co-founder of FullSeam (YC W26)
+- University of Illinois at Urbana-Champaign (LinkedIn, via search snippet); Stanford GSB MBA (planned) (LinkedIn, via search snippet)
+- Head of Product at TaxProper (YC S19), which was acquired by Opendoor (data-lead.com, via search snippet)
 - Twitter/X: No public account found
-- LinkedIn: linkedin.com/in/aaron-coppa-451a1955
+- LinkedIn: linkedin.com/in/aaron-coppa-451a1955/
 - GitHub: No public repos found
 
-**Co-founder relationship:** All three founders attended the University of Illinois at Urbana-Champaign and co-founded TaxProper together (YC S19). Dowling and Segal co-founded TaxProper in 2019; Coppa served as Head of Product (LinkedIn via search snippet; Crunchbase via search snippet). The team worked together through TaxProper's growth, fundraise, and acquisition by Opendoor, then continued together at Opendoor post-acquisition before launching FullSeam.
+**Geoff Segal** — Co-founder
+- University of Illinois at Urbana-Champaign (LinkedIn, via search snippet)
+- Co-founder of TaxProper (YC S19), acquired by Opendoor in 2022 (Crunchbase, via search snippet)
+- Former actuarial statistician and research analyst at State Farm (Topio Networks, via search snippet)
+- Twitter/X: No public account found
+- LinkedIn: linkedin.com/in/geoff-segal-744407ba/
+- GitHub: No public repos found
 
-**Founder-market fit:** The team built and operated TaxProper, a financial operations SaaS that processed >$1B/year in property tax payments at scale, giving them direct experience with the pain of managing high-volume financial workflows, integrating across real estate and tax systems, and building enterprise-grade financial software. Segal's background in statistics and actuarial science provides quantitative rigor relevant to financial data processing and matching algorithms. Dowling's experience in municipal finance policy and advising city leadership provides domain understanding of financial operations. The team has a prior successful exit together and two YC batches (S19, W26). Brad Flora is the YC Partner (YC page).
+**Co-founder relationship:** All three founders attended the University of Illinois at Urbana-Champaign. Dowling and Segal co-founded TaxProper together in 2019, and Coppa joined as Head of Product at TaxProper. All three worked together at TaxProper through its acquisition by Opendoor in 2022 and continued at Opendoor before founding FullSeam.
+
+**Founder-market fit:** The team built and exited a fintech SaaS company (TaxProper) that processed $1B+ in annual property tax payments, giving them direct operational experience with high-volume financial transactions, institutional customers, and the pain of scaling accounting operations. The founding motivation for FullSeam came directly from experiencing accounting team bottlenecks at TaxProper during its growth phase. Segal's actuarial/statistical background at State Farm adds quantitative rigor to financial modeling. Dowling's Rhodes Scholarship and policy experience demonstrate leadership capacity. This is a second-time YC team (S19 → W26) with a prior exit.
 
 ## Key Risks
 
-**Incumbent AI response:** Bill.com has already launched "BILL AI Agents" for touchless B2B transactions, and Tipalti raised $200M specifically for AI investment (Tipalti press release, Sept 2025). Both have existing customer bases of thousands of companies, established integrations, and resources to iterate quickly on AI features. FullSeam must demonstrate meaningfully better automation depth before incumbents close the gap.
+**Incumbent platform risk:** QuickBooks (Intuit), Xero, and NetSuite (Oracle) — three of FullSeam's nine listed integrations — are actively investing in native AI features. Intuit announced AI-powered automation capabilities within QuickBooks in 2024-2025. If these platforms ship native AP/AR automation, FullSeam's value proposition as a middleware layer diminishes, and integration access could be restricted or deprecated.
 
-**Integration brittleness:** FullSeam's value depends on maintaining reliable API connections with 9+ third-party platforms (QuickBooks, Stripe, Xero, NetSuite, Salesforce, etc.). Any API change, deprecation, or rate-limiting by these platforms could disrupt agent functionality. There is no public evidence of formal partnerships with these platform providers.
+**Well-funded competitor convergence:** Auditoria.ai ($60.5M raised, Feb 2025) offers a directly comparable multi-function agentic AI product for AP and AR. Stampli ($148M raised) and Vic.ai ($52M raised) could extend their AP-only tools into AR. FullSeam's $500K in funding creates a significant capital disadvantage in a race to build integration breadth and AI reliability.
 
-**Trust barrier for autonomous financial agents:** Finance teams handle sensitive data and are subject to audit requirements. Convincing controllers and CFOs to delegate autonomous actions (sending follow-ups, entering GL entries, processing invoices) to an AI agent may face organizational resistance, especially in regulated industries. The company addresses this partially with logged/auditable actions and configurable approval workflows (fullseam.com), but adoption friction remains a risk for the category.
+**Accuracy and trust threshold:** Autonomous AI agents making financial entries without human approval carry inherent risk of errors in GL coding, payment matching, or invoice processing. Accounting errors have regulatory and audit implications. Customer adoption may be gated by the willingness of finance teams to trust autonomous agents with financial data integrity — a higher bar than other AI automation domains.
 
-**Crowded AI-agent category:** Multiple startups are pursuing AI agents for finance operations (LedgerUp, and others emerging from recent YC batches and other accelerators), while enterprise incumbents are adding AI capabilities. The specific framing of "AI employee for accounting" is becoming common, reducing differentiation at the positioning level.
+**API dependency:** FullSeam's product relies on API access to nine third-party platforms. Any changes to API terms, rate limits, pricing, or deprecation by integration partners (particularly dominant ones like QuickBooks, Stripe, or NetSuite) could disrupt core functionality without recourse.
+
+**Single-segment customer base:** Both named customer testimonials (Deferred, Belfry Software) appear to be early-stage software companies. Expanding beyond the startup/SMB segment into mid-market and enterprise — where the largest AP/AR pain exists — requires different sales motions, compliance certifications (SOC 2, etc.), and integration depth that are not yet publicly evidenced.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $3.40B AR automation market in 2025, 11.6% CAGR to $6.57B by 2031 (MarketsandMarkets via search snippet); $3.07B AP automation in 2023, 12.5% CAGR to $7.1B by 2030 (Grand View Research via search snippet) |
+| TAM | AP automation: $3.07B in 2023, projected $7.1B by 2030 at 12.5% CAGR (Grand View Research, via search snippet); AR automation: $3.40B in 2025, projected $6.57B by 2031 at 11.6% CAGR (Mordor Intelligence, via search snippet) |
 | SAM | No public data found |
-| Traction | YC Launch post (Feb 2026); customer testimonials from Deferred and Belfry Software CEOs (fullseam.com); no public user or revenue metrics |
+| Traction | 2 named customer testimonials (fullseam.com); 17 upvotes on YC Launch page; TaxProper (prior company) processed $1B+ annually (YC Launch page) |
 | Revenue Signal | No public data found |
-| Founders | Thomas Dowling: Rhodes Scholar (Oxford), ex-Mayor's office Chicago, co-founded TaxProper (acq. by Opendoor 2022). Geoff Segal: MS Statistics UIUC, ex-State Farm, co-founded TaxProper. Aaron Coppa: UIUC, Stanford GSB, Head of Product TaxProper. |
-| Competitors | Bill.com ($1.5B FY25 revenue, public, broad SMB payment platform); Tipalti ($200M+ ARR, $200M growth financing, mid-market AP); Versapay (~$42M revenue, AR collaboration portal); Billtrust (~$96.4M revenue, $477M raised, enterprise AR); LedgerUp ($1M revenue, $500K YC seed, SaaS contract-to-cash) |
-| Moat Signals | Prior exit together (TaxProper → Opendoor); cross-tool integration surface; configurable workflow embedding increases switching costs over time |
-| Risk Factors | Incumbent AI response (Bill.com AI Agents, Tipalti $200M AI investment), integration brittleness across 9+ third-party APIs, trust barrier for autonomous financial agents |
-| Founder Reach | Thomas Dowling: Twitter @thetomdowling (count not retrievable), LinkedIn 500+. Geoff Segal: Twitter not found, LinkedIn present. Aaron Coppa: Twitter not found, LinkedIn present. |
-| Distribution Signals | No public data found |
+| Founders | Thomas Dowling: Rhodes Scholar (Oxford), co-founder/CEO of TaxProper (S19, acquired by Opendoor 2022). Aaron Coppa: UIUC, Head of Product at TaxProper. Geoff Segal: UIUC, co-founder of TaxProper, former actuarial statistician at State Farm. |
+| Competitors | Stampli ($148M raised, $11.2M revenue 2024, AP-only with AI copilot); Vic.ai ($52M+ raised, revenue unknown, AP-focused autonomous automation); Auditoria.ai ($60.5M raised, revenue unknown, multi-function agentic AI for AP+AR); Fazeshift ($5.5M raised, revenue unknown, AR-only AI agent, YC-backed) |
+| Moat Signals | Repeat founders with prior exit (TaxProper → Opendoor); multi-system integration breadth (9 integrations); potential workflow data accumulation over time |
+| Risk Factors | Incumbent platform AI features (QuickBooks, Xero, NetSuite), well-funded direct competitors (Auditoria.ai, Stampli), accuracy/trust threshold for autonomous financial agents |
+| Founder Reach | Thomas Dowling: Twitter @thetomdowling (count not retrievable), LinkedIn linkedin.com/in/thomas-dowling-2a3aabb7/. Aaron Coppa: Twitter not found, LinkedIn linkedin.com/in/aaron-coppa-451a1955/. Geoff Segal: Twitter not found, LinkedIn linkedin.com/in/geoff-segal-744407ba/. GitHub: No public repos found for any founder. |
+| Distribution Signals | YC Launch page (17 upvotes); No Product Hunt listing found; No press coverage found in named publications |
+| Emails | tom@fullseam.com (YC Launch page) |

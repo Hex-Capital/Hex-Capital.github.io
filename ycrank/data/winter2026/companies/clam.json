@@ -1,6 +1,6 @@
 {
   "slug": "clam",
-  "name": "Clam",
+  "name": "Clam (formerly Baseframe)",
   "oneLiner": "Enterprise-grade security for broad-access AI Agents like OpenClaw",
   "metadata": {
     "website": "https://tryclam.com",
@@ -9,57 +9,59 @@
     "industry": "B2B / B2B",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Workflow Automation, Security, AI, AI Assistant"
+    "tags": "Artificial Intelligence, Workflow Automation, Security, AI Assistant",
+    "yc_partner": "Gustaf Alstromer",
+    "emails": "No public data found"
   },
   "tags": [
+    "Artificial Intelligence",
     "Workflow Automation",
     "Security",
-    "AI",
     "AI Assistant"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T21:09:28.467Z",
+  "memoGeneratedAt": "2026-03-06T05:46:23.147Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 30,
+      "score": 34,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 40,
-      "tier": "Pass"
+      "score": 48,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 45,
+      "score": 51,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 47,
+      "score": 46,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
       "score": 31,
       "tier": "Pass"
     },
-    "vinod-khosla": {
-      "score": 37,
+    "sam-lessin": {
+      "score": 30,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 48,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 30,
-    "EG": 40,
-    "NR": 45,
-    "PG": 47,
-    "PT": 28,
-    "SL": 31,
-    "VK": 37
+    "CB": 34,
+    "EG": 48,
+    "NR": 51,
+    "PG": 46,
+    "PT": 31,
+    "SL": 30,
+    "VK": 48
   },
-  "consolidatedAvg": 36.86,
-  "consolidatedRank": 128,
+  "consolidatedAvg": 41.14,
+  "consolidatedRank": 87,
   "paths": {
     "memo": "winter2026/memos/clam.md",
     "evals": {

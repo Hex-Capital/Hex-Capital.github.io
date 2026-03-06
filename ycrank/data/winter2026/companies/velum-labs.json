@@ -1,7 +1,7 @@
 {
   "slug": "velum-labs",
   "name": "Velum Labs",
-  "oneLiner": "Firewall that controls access to information across AI and humans",
+  "oneLiner": "The OS for data quality across any stack",
   "metadata": {
     "website": "https://www.velum-labs.com/",
     "yc_page": "https://www.ycombinator.com/companies/velum-labs",
@@ -9,31 +9,31 @@
     "industry": "B2B / B2B",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Machine Learning, Security, Open Source, Privacy"
+    "tags": "Machine Learning, Data Engineering",
+    "yc_partner": "Aaron Epstein",
+    "emails": "No public data found"
   },
   "tags": [
     "Machine Learning",
-    "Security",
-    "Open Source",
-    "Privacy"
+    "Data Engineering"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T19:39:24.096Z",
+  "memoGeneratedAt": "2026-03-06T06:07:31.871Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 28,
+      "score": 30,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 37,
+      "score": 35,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 44,
+      "score": 42,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 38,
+      "score": 41,
       "tier": "Pass"
     },
     "peter-thiel": {
@@ -41,25 +41,25 @@
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 25,
+      "score": 24,
       "tier": "Strong Pass"
     },
     "vinod-khosla": {
-      "score": 39,
+      "score": 38,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 28,
-    "EG": 37,
-    "NR": 44,
-    "PG": 38,
+    "CB": 30,
+    "EG": 35,
+    "NR": 42,
+    "PG": 41,
     "PT": 28,
-    "SL": 25,
-    "VK": 39
+    "SL": 24,
+    "VK": 38
   },
-  "consolidatedAvg": 34.14,
-  "consolidatedRank": 147,
+  "consolidatedAvg": 34,
+  "consolidatedRank": 151,
   "paths": {
     "memo": "winter2026/memos/velum-labs.md",
     "evals": {

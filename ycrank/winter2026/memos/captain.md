@@ -11,110 +11,112 @@
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
 | Tags | Developer Tools, Big Data, Data Engineering |
+| YC Partner | Garry Tan (YC page) |
+| Emails | founders@runcaptain.com, support@runcaptain.com (runcaptain.com and YC page) |
 
 ## The Idea
 
-**Problem:** Enterprises relying on Retrieval-Augmented Generation (RAG) pipelines for knowledge retrieval from unstructured data face low accuracy — averaging ~78% — and deployments that take 3–6 months to build and tune (runcaptain.com). Current RAG approaches require stitching together embedding models, vector databases, rerankers, and custom pipelines, creating significant engineering overhead and brittle accuracy on complex documents with tables, images, and mixed formats.
+**Problem:** Approximately 90% of enterprise knowledge resides in unstructured data (documents, PDFs, images, Slack messages, emails) that cannot be stored in traditional databases (YC company page). Current RAG (Retrieval-Augmented Generation) solutions average ~78% retrieval accuracy and are "only performant on pre-optimized question types" (YC company page). Enterprises needing to search and retrieve knowledge from these sources face poor accuracy, long deployment timelines (3–6 months for manual pipelines), and limited governance controls. Current alternatives include building custom RAG pipelines using open-source frameworks (LangChain, LlamaIndex) or using enterprise search platforms like Glean.
 
-**Approach:** Captain provides an API-first unified retrieval engine that abstracts the full RAG pipeline — ingestion, indexing, vector storage, and query processing — into a managed service. It uses distributed parallel LLMs combined with embeddings and map-reduction techniques to overcome context window limitations (YC company page). Features include auto-OCR and Vision Language Models for universal indexing, agentic and hybrid search (keyword + semantic), re-ranking, managed vector storage ("Captain Collections"), and 1,000+ native integrations for connectors like S3, SharePoint, Google Drive, Confluence, Slack, and Notion (runcaptain.com). The company claims accuracy improvement from 78% to 95%+ with citations.
+**Approach:** Captain distributes the retrieval workload across many LLMs in parallel with embeddings, then Map-Reduces responses down to a single output, effectively creating an "infinite context window" (YC company page). The platform handles the entire retrieval pipeline as a managed API: universal indexing with auto-OCR and vision-language models, managed vector storage ("Captain Collections" — no external vector database required), agentic hybrid search combining keyword and semantic relevance, and role-based governance with granular metadata-based access control (runcaptain.com). Supported data sources include S3, GCS, Azure Blob, SharePoint, Google Drive, Dropbox, Confluence, Slack, Gmail, Notion, Oracle NetSuite, and 1,000+ custom integrations (runcaptain.com). The company claims retrieval accuracy improves from an average of 78% to 95%+ with citations (runcaptain.com, YC page).
 
-**Differentiation:** Unlike standalone vector databases (Pinecone, Weaviate, Milvus) that require users to build their own retrieval pipeline, Captain provides the full retrieval stack end-to-end. Unlike framework-based approaches (LangChain), Captain is a managed service rather than an orchestration toolkit. Unlike horizontal RAG platforms (Vectara, Contextual AI), Captain positions its technical differentiation on distributed parallel LLM processing with map-reduction — a retrieval architecture distinct from standard embedding-and-rerank approaches. The company also provides managed vector storage, eliminating the need for a separate vector database.
+**Differentiation:** Unlike open-source RAG frameworks (LangChain, LlamaIndex, Haystack) that require developers to build and maintain pipelines, Captain provides a fully managed API with claimed deployment in minutes (runcaptain.com). Unlike Glean, which focuses on enterprise search as a user-facing product, Captain is developer-infrastructure-first — an API/engine that other applications build on. Unlike Vectara, which also offers managed RAG-as-a-service, Captain's stated differentiation is its parallel LLM Map-Reduce architecture rather than a traditional embedding + reranking approach. Captain also offers a proprietary "Odyssey" dataset covering companies, people, deals, investors, funds, limited partners, service providers, patents, and credit analysis (docs.runcaptain.com), which is not a feature typical of RAG infrastructure providers. Captain holds SOC 2 Type II certification (runcaptain.com).
 
-**Business Model:** Captain has a published pricing page (runcaptain.com/pricing) with three tiers:
-- **Starter:** $295/month — 12,000 credits/year (1,000/month), unlimited queries, in-app and email support
-- **Growth:** $1,600/month — 1,000,000 credits/year (83K/month), Captain Datasets feature, SOC 2 compliance, priority support
-- **Enterprise:** Custom pricing — unlimited queries, custom SLAs, BYOC/on-premise option, dedicated support
+**Business Model:** Consumption-based pricing with three tiers (runcaptain.com/pricing):
+- **Starter:** $295/month — 12,000 credits/year (~1,000/month), unlimited queries, in-app and email support. 1-month free trial, no credit card required.
+- **Growth (Most Popular):** $1,600/month — 1,000,000 credits/year (~83,000/month), unlimited queries, SOC II compliance, priority support.
+- **Enterprise:** Custom pricing — unlimited queries, custom SLAs, BYOC (on-premise) available, dedicated support, access to Captain Datasets.
+- Credit pricing: Basic Page (simple PDFs, text, code) = 1 credit (~$0.02); Advanced Page (complex PDFs with tables/images, VLM-powered) = 2.5 credits (~$0.05). Bulk discounts available.
 
-Credits are consumption-based: Basic Pages (simple PDFs, text, code) cost 1 credit ($0.02 overage); Advanced Pages (complex PDFs with tables/images) cost 2.5 credits ($0.05 overage) (runcaptain.com/pricing).
+**TAM/SAM:** The global RAG market was valued at $1.85 billion in 2025 and is projected to reach $9.86 billion by 2030 at a CAGR of 38.4% (MarketsandMarkets, 2025 via search snippet). Precedence Research estimates the market at $1.85 billion in 2025 growing to $67 billion by 2034 at a CAGR of 49% (Precedence Research, 2025 via search snippet). Grand View Research projects $11.0 billion by 2030 at a CAGR of 49.1% (Grand View Research via search snippet). [Inferred]: Captain's serviceable market is the subset of enterprise customers needing managed, high-accuracy retrieval APIs for unstructured data — likely a fraction of the overall RAG market, but no public SAM estimate exists for this specific segment.
 
-**TAM/SAM:** The global RAG market is projected at $1.94B in 2025, growing to $9.86B by 2030 at a 38.4% CAGR (MarketsandMarkets, 2025 via search snippet). An alternate estimate from Grand View Research puts the market at $1.2B in 2024 growing to $11.0B by 2030 at 49.1% CAGR (Grand View Research, 2025 via search snippet). ResearchAndMarkets projects the market to surpass $40B by 2035 at 35.31% CAGR (BusinessWire, Oct 2025 via search snippet). Captain's SAM — the enterprise segment specifically using managed retrieval APIs rather than building in-house — is a subset. No company-specific SAM data found.
-
-**GTM / Distribution:** [Inferred]: The API-first model and developer-facing documentation suggest a product-led growth motion starting with developers, scaling into enterprise via the Growth and Enterprise tiers. The presence of enterprise customer logos (Sony, IEEE, Boar's Head) on the website suggests a concurrent direct sales motion for larger accounts. SOC 2 Type II certification and BYOC/on-premise options in the Enterprise tier indicate targeting of security-conscious enterprise buyers.
+**GTM / Distribution:** The company website directs enterprise prospects to runcaptain.com/sales and founders@runcaptain.com (runcaptain.com). The YC page notes the founders are "currently seeking introductions to CTOs and Heads of AI at mid-market/enterprise companies" and have "met with engineers at Snowflake and Databricks during development" (YC page). The self-serve pricing tiers with a free trial suggest a product-led growth motion for smaller customers alongside direct sales for enterprise. [Inferred]: The distribution path likely combines developer-first PLG (free trial, API docs, self-serve pricing) with YC-network-driven enterprise introductions.
 
 ## Defensibility
 
-Captain's SOC 2 Type II certification creates a compliance barrier for enterprise adoption that competing startups must replicate (runcaptain.com). The managed retrieval architecture, including Captain Collections (proprietary vector storage) and the distributed parallel LLM + map-reduction technique, represents a technical implementation that takes meaningful engineering effort to reproduce. Enterprise customer data indexed within Captain creates switching costs — migrating indexed data, integrations, and tuned retrieval configurations to a competitor carries operational risk and re-implementation cost.
+Captain's Map-Reduce parallel LLM architecture is a technical differentiator, though the underlying components (LLMs, embeddings, vector storage) are widely available. SOC 2 Type II certification represents a compliance moat that creates switching costs for enterprise customers. The proprietary "Odyssey" dataset (companies, people, deals, investors, funds, patents, credit analysis — per docs.runcaptain.com) could become a data asset differentiator if it compounds with usage. The managed-infrastructure approach creates switching costs once customers integrate the API and index their data.
 
-**Market structure:** Large incumbents (AWS, Google, Microsoft) offer component pieces (vector databases, embedding models, search APIs) but not a unified managed retrieval engine with the same abstraction level. [Inferred]: Building this as a bundled managed service would require these incumbents to integrate across product teams and potentially cannibalize revenue from their existing component offerings (e.g., AWS selling Bedrock + OpenSearch separately). However, this structural barrier is modest — incumbents have launched comparable managed AI services before.
+**Market structure:** Open-source RAG frameworks (LangChain, LlamaIndex) compete on flexibility but not on managed accuracy guarantees. Large incumbents like Snowflake and Databricks are building native RAG features, but their retrieval is a feature within a broader data platform — not a standalone accuracy-optimized engine. [Inferred]: Incumbents may face business model tension between selling compute/storage (where more tokens = more revenue) and optimizing for retrieval accuracy (where efficiency reduces compute consumption). However, no structural barrier prevents a well-resourced incumbent from replicating this approach.
 
-**Commoditization risk:** The core RAG pipeline architecture is well-understood and widely documented. Multiple open-source frameworks (LangChain, LlamaIndex, Haystack) provide similar capabilities as libraries. Well-funded startups (Vectara at $73.5M, Contextual AI at $100M) are building comparable managed retrieval products. The specific technical differentiation — distributed parallel LLM map-reduction — would need sustained accuracy advantages to maintain differentiation as the broader ecosystem improves.
+**Commoditization risk:** The RAG infrastructure space is crowded and rapidly evolving. Vectara ($73.5M raised), Ragie ($5.5M raised), and Unstructured ($68M raised) all occupy adjacent territory. Open-source frameworks continue to improve. The core technical approach (parallel LLM processing with Map-Reduce) is conceptually replicable. The primary barriers to commoditization are execution speed, accuracy benchmarking, enterprise certifications, and customer lock-in via indexed data.
 
 ## Market & Traction
 
 **Traction signals:**
-- Customer logos displayed on website: Boar's Head, Sony, IEEE, Reality Interactive, Purdue, Rocketbook (runcaptain.com, accessed Feb 2026)
-- Garry Tan (Y Combinator CEO) endorsement quote on website: "Captain is a step function increase vs existing RAG pipelines" (runcaptain.com); this quote was also referenced in a search snippet as tweeted November 10, 2025 (via search snippet)
-- SOC 2 Type II certified with independent penetration testing (runcaptain.com)
-- Published pricing page with three paid tiers starting at $295/month (runcaptain.com/pricing)
-- Company X/Twitter: @RunCaptainRAG, joined November 2024 (X.com); follower count not retrievable
-- LinkedIn company page: linkedin.com/company/runcaptain; follower count not retrievable
-- No public Product Hunt launch found for this specific Captain product (runcaptain.com)
-- No public Discord or Slack community found
-- Hiring status: not currently hiring (YC company page)
+- Garry Tan (YC President) public endorsement: "Captain is a step function increase vs existing RAG pipelines" (November 2025, runcaptain.com)
+- Captain v2 API launched January 2026 (runcaptain.com)
+- SOC 2 Type II certified (runcaptain.com)
+- LinkedIn company page: linkedin.com/company/runcaptain (follower count not retrievable)
+- Mentioned in Menlo Times "Y Combinator Launches of the Week" (menlotimes.com, content not accessible)
+- Product Hunt product page exists (producthunt.com/products/captain) but details not accessible (403 error)
+- No public user count, revenue, or customer logos found
+- No Launch HN post found
+- No Twitter/X company account found
+- No Discord or Slack community found
+- 0 open job postings (YC page)
 
 **Competitive landscape:**
 
-| Competitor | Funding | Key Differentiator vs. Captain |
-|---|---|---|
-| **Pinecone** | $138M raised, $750M valuation (Crunchbase via search snippet); $26.6M revenue in 2024 (Getlatka via search snippet) | Vector database infrastructure only — requires users to build their own retrieval pipeline on top; Captain provides end-to-end managed retrieval |
-| **Vectara** | $73.5M raised, Series A $25M in Jul 2024 (Crunchbase via search snippet) | Full-stack RAG platform with grounded generation and hallucination detection; more established with earlier market entry; revenue not public |
-| **Contextual AI** | $100M raised, Series A $80M in Aug 2024, investors include Bezos Expeditions, NVIDIA (Crunchbase via search snippet) | Builds specialized RAG agents rather than a general-purpose retrieval API; focuses on custom model fine-tuning; revenue not public |
-| **deepset** | $46M raised, $30M round led by Balderton Capital (VentureBeat via search snippet) | Open-source framework (Haystack) with enterprise platform; strong in VPC/on-premise for privacy-constrained customers; revenue not public |
+| Competitor | Funding | Revenue/ARR | Key Differentiator vs. Captain |
+|-----------|---------|-------------|-------------------------------|
+| **Glean** | $765M total, $7.2B valuation (CNBC, June 2025) | ~$208M ARR (Sacra, 2025 via search snippet) | End-user enterprise search product (not developer API); broader scope including AI assistants and agents. Captain is infrastructure-first. |
+| **Vectara** | ~$73.5M total (VentureBeat, July 2024 via search snippet) | Revenue unknown | Also managed RAG-as-a-service with hallucination detection (Mockingbird LLM); more established with larger team. Captain claims higher accuracy via Map-Reduce architecture. |
+| **Unstructured.io** | ~$68M total, ~$230M valuation (BusinessWire, 2024 via search snippet) | Revenue unknown | Focuses on data preprocessing/ETL for LLMs rather than end-to-end retrieval; complementary rather than directly competitive. Captain offers full retrieval pipeline. |
+| **Ragie** | $5.5M Seed (Silicon Valley Journals, Aug 2024 via search snippet) | Revenue unknown | Also RAG-as-a-Service for developers; similar positioning but less mature. Captain differentiates on accuracy claims and enterprise features (SOC 2, BYOC). |
 
-**Why now:** [Inferred]: Several converging factors opened this opportunity in 2024–2025. First, enterprise adoption of LLMs has reached sufficient scale that RAG infrastructure has moved from experimental to production workloads — 73.34% of RAG implementations are now in large organizations (MarketsandMarkets, 2025 via search snippet). Second, context window expansion in frontier models (GPT-4 Turbo 128K, Claude 200K) paradoxically increased demand for better retrieval, as enterprises discovered that simply expanding context windows does not solve accuracy at scale across large document corpora. Third, the open-sourcing of GraphRAG by Microsoft and integration of RAG capabilities by enterprise vendors like Workday and ServiceNow normalized the category, creating budget line items and buying intent at the enterprise level.
+**Why now:** [Inferred]: Several converging factors opened this opportunity: (1) Enterprise LLM adoption reached critical mass in 2024–2025, creating demand for reliable knowledge retrieval at scale; (2) Vision-language models (VLMs) matured enough to enable accurate extraction from complex documents (tables, images), making universal indexing feasible; (3) The limitations of first-generation RAG pipelines became well-documented, with widely cited accuracy problems creating demand for higher-quality alternatives; (4) LLM inference costs dropped substantially through 2024–2025, making the parallel multi-LLM Map-Reduce approach economically viable at a price point enterprises would accept.
 
 ## Founders & Team
 
 **Lewis Polansky** — Co-founder & CEO
-- Purdue University, studying Finance at the Daniels School of Business (expected '26) (LinkedIn via search snippet, lewispolansky.com)
-- Also studying Advanced FinTech, Financial Engineering, and Accuracy & Verification Algorithms for LLMs at Purdue (web search snippet)
-- Co-founded SoyBox, which won second place and a $10,000 prize from the Indiana Soybean Alliance for alternative soy-based packaging (web search snippet)
-- Founded a cybersecurity EdTech organization including 3 high school clubs and a web app with online labs (web search snippet)
-- Won awards from the U.S. House of Representatives for two creative app prototypes (web search snippet)
-- Interned at an AgTech startup focused on crop drying in Africa (web search snippet)
-- Prior work on solving hallucinations for code generation through a previous startup (YC company page via search snippet)
-- Eagle Scout (2023) (web search snippet)
-- Twitter/X: No public personal account found
-- LinkedIn: linkedin.com/in/lewispolansky
-- GitHub: No public account found
+- Previously founded a startup that "solved hallucinations for code generation" (YC company page — startup name not disclosed)
+- Prior work at organizations including Sony, IEEE, Reality Interactive, and Rocketbook (runcaptain.com team credits)
+- Founded SoyBox, an alternative packaging startup that won a $10,000 competition prize (web search result via search snippet)
+- Eagle Scout, Board of Review completed October 24, 2023 (web search result via search snippet)
+- Described as focused on "organizational leadership, product development, and UI/UX design" (web search result via search snippet)
+- Twitter/X: No public account found
+- LinkedIn: linkedin.com/in/lewispolansky — "CEO/co-founder @ Captain (YC W26)"
+- GitHub: github.com/LewisPolansky — notable repos: LCD-Custom-Character-Editor (Arduino tool), ChatGPT-Ctrl-Enter-to-Submit (browser extension); star counts low (< 5 each)
 
 **Edgar Babajanyan** — Co-founder & CTO
-- Purdue University, studying Computing Infrastructure, Network Engineering, and Information Systems (LinkedIn via search snippet)
-- 3 years of experience building production RAG pipelines; NLP and AI research background (YC company page via search snippet)
-- Built internal software solution for Boar's Head (one of Captain's listed customers) (web search snippet)
-- Teaching assistant in information architectures at Purdue (web search snippet)
-- Leads software development at one of the largest robotics clubs at Purdue (web search snippet)
-- Twitter/X: @babajanyanedgar (GitHub profile); follower count not retrievable
-- LinkedIn: linkedin.com/in/edgarbabajanyan — "Co-Founder and CTO of Captain | Big Data, Clear Insights | Infrastructure, Data, and Drone Enthusiast"
-- GitHub: github.com/EdgarBabajanyan — 12 public repos, 13 followers; notable repos include EVH-EmergencyVehicularHelp (C++, 1 star), autonomous-drone-for-personal-and-campus-security, DattusV1 (Congressional App Challenge submission) (GitHub)
+- Education: Purdue University — Computing Infrastructure, Network Engineering, and Information Systems (LinkedIn). Also posted about "joining Yale University" (LinkedIn post, date unclear — possibly a research or visiting role)
+- Built production RAG pipelines for 3 years (YC company page)
+- Built an internal enterprise solution for Boar's Head (LinkedIn via search snippet)
+- Head of Software Engineering and RISE Executive Board Member at Autonomous Robotics Club of Purdue (RocketReach via search snippet)
+- Prior projects: Zenmigo (unified productivity platform), CodeSweep.ai (AI documentation tool), GPT4You (ChatGPT wrapper application) (LinkedIn, GitHub via search snippets)
+- Published NLP/AI research (YC company page)
+- Twitter/X: Possibly @babajanyanedgar (referenced on GitHub bio) — count not retrievable
+- LinkedIn: linkedin.com/in/edgarbabajanyan — "Co-Founder and CTO of Captain"
+- GitHub: github.com/EdgarBabajanyan — 12 public repos, 13 followers. Notable repos: EVH-EmergencyVehicularHelp (C++, speech recognition + LTE, 1 star), autonomous-drone-for-personal-and-campus-security (AI drone)
 
-**Co-founder relationship:** Both Lewis Polansky and Edgar Babajanyan attend Purdue University, indicating they likely met through the university. Edgar's prior work building an internal solution for Boar's Head — which appears as a customer logo on Captain's website — suggests his enterprise experience may have been an early catalyst for the company.
+**Co-founder relationship:** Both founders are described as "lifelong builders obsessed with data" on the YC page. Edgar attended Purdue University; Lewis's educational institution is not confirmed publicly, though Purdue is listed among team background affiliations on the website. No confirmed shared employer or university overlap found from available data.
 
-**Founder-market fit:** Edgar's 3 years of production RAG pipeline experience and NLP/AI research background provide direct domain expertise in the core technical problem Captain is solving. His prior work building enterprise solutions (Boar's Head) demonstrates experience with enterprise customer needs. Lewis brings product design, operations, and business development experience, along with prior startup founding (SoyBox, cybersecurity EdTech). Both founders are current university students, which is common at the pre-seed stage in YC.
+**Founder-market fit:** Edgar brings direct, hands-on experience building production RAG pipelines (3 years per YC page) and an enterprise data project for Boar's Head, giving him firsthand knowledge of the retrieval accuracy problem Captain targets. Lewis's prior startup reportedly addressed hallucinations in code generation (YC page), indicating prior experience with LLM accuracy challenges. The combination of Lewis's product/business orientation and Edgar's deep technical infrastructure background is aligned with building a developer-infrastructure product that requires both enterprise sales capability and retrieval-system engineering expertise.
 
 ## Key Risks
 
-**Brand disambiguation:** "Captain" is a highly generic name shared by numerous other companies including Captain Data (B2B data extraction), Captain Compliance, Captain Up (gamification), Captain Experiences, and others — all with established web presence and LinkedIn pages. This creates SEO competition, customer confusion, and trademark challenges. The company's X handle (@RunCaptainRAG) and domain (runcaptain.com) already reflect this challenge.
+**Brand disambiguation challenge:** "Captain" is an extremely common English word. Multiple unrelated companies use this name (Captain Labs/Web3, Captain IT, Captain Up, gCaptain maritime, etc.), which complicates SEO, social media discoverability, and brand building. The domain runcaptain.com partially mitigates this, but search results consistently surface unrelated entities.
 
-**Well-funded direct competitors:** Vectara ($73.5M), Contextual AI ($100M), and deepset ($46M) are building comparable enterprise RAG/retrieval products with substantially larger teams and established customer bases. Pinecone ($138M, $26.6M revenue) occupies the adjacent vector database layer and could expand into full-stack retrieval. These competitors have multi-year head starts in go-to-market and enterprise relationships.
+**Well-funded competitive convergence:** The RAG infrastructure space has attracted substantial capital — Vectara ($73.5M), Unstructured ($68M), Glean ($765M) — and is the focus of active feature development at platform incumbents (Snowflake, Databricks, AWS). Open-source frameworks (LangChain at $1.1B valuation per VentureBeat) are also improving retrieval quality. Captain's accuracy claims (78% → 95%) need independent verification and could be matched as the field advances.
 
-**Platform dependency on upstream LLMs:** Captain's distributed parallel LLM architecture depends on third-party LLM providers (pricing, availability, API stability). Changes in LLM pricing, rate limits, or capabilities could directly affect Captain's cost structure and accuracy claims. A significant LLM price increase or API deprecation would impact margins and service reliability.
+**Accuracy claim verification:** The headline metric (78% → 95% accuracy improvement) lacks published methodology, benchmark details, or third-party validation in public sources. Enterprise buyers evaluating retrieval infrastructure will likely require reproducible benchmarks, and competitors may challenge unverified claims.
 
-**Accuracy claims require ongoing validation:** The core value proposition — 95%+ accuracy vs. 78% RAG average — is a benchmark claim without publicly cited methodology, dataset, or independent validation. As competitor retrieval accuracy improves (driven by better embedding models, rerankers, and agentic architectures), the accuracy gap may narrow, undermining the primary differentiation.
+**Enterprise sales with a 2-person team:** Captain targets mid-market and enterprise buyers with SOC 2 compliance, custom SLAs, and on-premise deployment. Enterprise procurement cycles require sustained sales engineering, security reviews, and customer success resources that are difficult to deliver with two people. The $1,600/month Growth tier and custom Enterprise pricing suggest a sales-assisted motion that is resource-intensive.
 
-**Incumbent convergence:** AWS, Google, and Microsoft are increasingly offering managed RAG components within their cloud platforms (e.g., Amazon Bedrock Knowledge Bases, Google Vertex AI Search, Azure AI Search). These incumbents can bundle retrieval with compute, storage, and LLM access at potentially lower marginal cost, and already have enterprise distribution.
+**LLM cost and provider dependency:** The parallel multi-LLM Map-Reduce architecture inherently consumes more LLM inference per query than traditional single-pass retrieval. Margin sustainability depends on LLM inference cost trajectories and the ability to negotiate favorable API pricing. A sudden change in LLM provider pricing or terms could compress margins.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $1.94B in 2025 → $9.86B by 2030 at 38.4% CAGR (MarketsandMarkets, 2025 via search snippet) |
+| TAM | $1.85B (2025) → $9.86B by 2030, CAGR 38.4% (MarketsandMarkets via search snippet); $67B by 2034, CAGR 49% (Precedence Research via search snippet) |
 | SAM | No public data found |
-| Traction | Customer logos on website: Boar's Head, Sony, IEEE, Reality Interactive, Purdue, Rocketbook (runcaptain.com, Feb 2026); Garry Tan endorsement quote (runcaptain.com); SOC 2 Type II certified (runcaptain.com) |
-| Revenue Signal | Published pricing: Starter $295/mo, Growth $1,600/mo, Enterprise custom (runcaptain.com/pricing). No public revenue figures found. |
-| Founders | Lewis Polansky (CEO): Purdue Finance, prior startup exits (SoyBox $10K prize), cybersecurity EdTech founder. Edgar Babajanyan (CTO): Purdue Computing Infrastructure, 3 yrs production RAG experience, NLP/AI research. |
-| Competitors | Pinecone ($138M raised, $26.6M revenue 2024, vector DB only vs. full-stack retrieval); Vectara ($73.5M raised, revenue unknown, full-stack RAG with hallucination detection); Contextual AI ($100M raised, revenue unknown, specialized RAG agents vs. general-purpose retrieval); deepset ($46M raised, revenue unknown, open-source framework + enterprise platform) |
-| Moat Signals | SOC 2 Type II certification; proprietary distributed parallel LLM + map-reduction retrieval architecture; managed vector storage (Captain Collections) creating data switching costs |
-| Risk Factors | Well-funded direct competitors ($73.5M–$138M raised), generic brand name disambiguation, incumbent cloud provider convergence into managed RAG |
-| Founder Reach | Lewis Polansky: Twitter not found, LinkedIn linkedin.com/in/lewispolansky, GitHub not found. Edgar Babajanyan: Twitter @babajanyanedgar (count not retrievable), LinkedIn linkedin.com/in/edgarbabajanyan, GitHub 13 followers/12 repos |
-| Distribution Signals | No Product Hunt launch found; X account @RunCaptainRAG joined Nov 2024 (follower count not retrievable); LinkedIn company page exists (follower count not retrievable) |
+| Traction | Garry Tan endorsement (Nov 2025, runcaptain.com); Captain v2 API launch (Jan 2026, runcaptain.com); SOC 2 Type II certified (runcaptain.com); Menlo Times "YC Launches of the Week" mention (menlotimes.com). No public user/customer counts. |
+| Revenue Signal | Pricing published: Starter $295/mo, Growth $1,600/mo, Enterprise custom (runcaptain.com/pricing). No public revenue figures. |
+| Founders | Lewis Polansky (CEO): Prior startup solving code-gen hallucinations; experience at Sony, IEEE, Reality Interactive, Rocketbook. Edgar Babajanyan (CTO): Purdue CS/Infrastructure; 3 years production RAG experience; Boar's Head enterprise project; Autonomous Robotics Club lead. |
+| Competitors | Glean ($765M raised, ~$208M ARR, enterprise search product — not developer API). Vectara ($73.5M raised, revenue unknown, managed RAG with Mockingbird LLM). Unstructured.io ($68M raised, revenue unknown, data preprocessing focus). Ragie ($5.5M raised, revenue unknown, RAG-as-a-Service). |
+| Moat Signals | SOC 2 Type II certification; proprietary Odyssey dataset; managed infrastructure creates data lock-in; Map-Reduce parallel LLM architecture (technical, not patented as far as public data shows) |
+| Risk Factors | Brand disambiguation ("Captain" is common), well-funded competitive convergence, unverified accuracy claims, enterprise sales capacity with 2-person team |
+| Founder Reach | Lewis Polansky: Twitter not found, LinkedIn linkedin.com/in/lewispolansky, GitHub ~minimal stars. Edgar Babajanyan: Twitter possibly @babajanyanedgar (count not retrievable), LinkedIn linkedin.com/in/edgarbabajanyan, GitHub 13 followers/12 repos. |
+| Distribution Signals | Product Hunt page exists (details inaccessible); Menlo Times YC launch mention; LinkedIn company page (follower count not retrievable); no Launch HN, no Twitter/X company account, no community found |
+| Emails | founders@runcaptain.com (YC page), support@runcaptain.com (runcaptain.com) |

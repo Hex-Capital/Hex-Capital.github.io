@@ -9,7 +9,9 @@
     "industry": "B2B / B2B -> Finance and Accounting",
     "team_size": "3",
     "location": "No public data found",
-    "tags": "Artificial Intelligence, FinOps, Fintech, SaaS"
+    "tags": "Artificial Intelligence, FinOps, Fintech, SaaS",
+    "yc_partner": "Brad Flora",
+    "emails": "tom@fullseam.com (YC Launch page)"
   },
   "tags": [
     "Artificial Intelligence",
@@ -18,48 +20,48 @@
     "SaaS"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T19:33:01.879Z",
+  "memoGeneratedAt": "2026-03-06T05:57:25.231Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 39,
+      "score": 38,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 51,
+      "score": 47,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 48,
-      "tier": "Neutral"
+      "score": 43,
+      "tier": "Pass"
     },
     "paul-graham": {
-      "score": 56,
+      "score": 55,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 36,
+      "score": 35,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 29,
+      "score": 30,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 38,
+      "score": 37,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 39,
-    "EG": 51,
-    "NR": 48,
-    "PG": 56,
-    "PT": 36,
-    "SL": 29,
-    "VK": 38
+    "CB": 38,
+    "EG": 47,
+    "NR": 43,
+    "PG": 55,
+    "PT": 35,
+    "SL": 30,
+    "VK": 37
   },
-  "consolidatedAvg": 42.43,
-  "consolidatedRank": 73,
+  "consolidatedAvg": 40.71,
+  "consolidatedRank": 93,
   "paths": {
     "memo": "winter2026/memos/fullseam.md",
     "evals": {

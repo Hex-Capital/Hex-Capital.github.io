@@ -9,7 +9,9 @@
     "industry": "Fintech / Fintech -> Payments",
     "team_size": "3",
     "location": "New York, NY, USA",
-    "tags": "Fintech, Crypto / Web3, Payments, Cryptocurrency"
+    "tags": "Fintech, Crypto / Web3, Payments, Cryptocurrency",
+    "yc_partner": "Brad Flora",
+    "emails": "hello@unifold.io"
   },
   "tags": [
     "Fintech",
@@ -18,48 +20,48 @@
     "Cryptocurrency"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T20:19:50.138Z",
+  "memoGeneratedAt": "2026-03-06T05:41:46.517Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 35,
+      "score": 43,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 45,
+      "score": 57,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 55,
-      "tier": "Neutral"
+      "score": 72,
+      "tier": "Invest"
     },
     "paul-graham": {
-      "score": 56,
-      "tier": "Neutral"
+      "score": 70,
+      "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 29,
+      "score": 37,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 39,
+      "score": 43,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 38,
-      "tier": "Pass"
+      "score": 48,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 35,
-    "EG": 45,
-    "NR": 55,
-    "PG": 56,
-    "PT": 29,
-    "SL": 39,
-    "VK": 38
+    "CB": 43,
+    "EG": 57,
+    "NR": 72,
+    "PG": 70,
+    "PT": 37,
+    "SL": 43,
+    "VK": 48
   },
-  "consolidatedAvg": 42.43,
-  "consolidatedRank": 74,
+  "consolidatedAvg": 52.86,
+  "consolidatedRank": 24,
   "paths": {
     "memo": "winter2026/memos/unifold.md",
     "evals": {

@@ -9,7 +9,9 @@
     "industry": "B2B / B2B -> Infrastructure",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Developer Tools, Big Data, Data Engineering"
+    "tags": "Developer Tools, Big Data, Data Engineering",
+    "yc_partner": "Garry Tan (YC page)",
+    "emails": "founders@runcaptain.com, support@runcaptain.com (runcaptain.com and YC page)"
   },
   "tags": [
     "Developer Tools",
@@ -17,48 +19,48 @@
     "Data Engineering"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T19:36:27.855Z",
+  "memoGeneratedAt": "2026-03-06T06:05:51.494Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 30,
+      "score": 29,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 41,
+      "score": 40,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 43,
+      "score": 40,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 53,
-      "tier": "Neutral"
+      "score": 43,
+      "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 32,
+      "score": 30,
       "tier": "Pass"
     },
     "sam-lessin": {
       "score": 27,
-      "tier": "Pass"
+      "tier": "Strong Pass"
     },
     "vinod-khosla": {
-      "score": 34,
+      "score": 38,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 30,
-    "EG": 41,
-    "NR": 43,
-    "PG": 53,
-    "PT": 32,
+    "CB": 29,
+    "EG": 40,
+    "NR": 40,
+    "PG": 43,
+    "PT": 30,
     "SL": 27,
-    "VK": 34
+    "VK": 38
   },
-  "consolidatedAvg": 37.14,
-  "consolidatedRank": 125,
+  "consolidatedAvg": 35.29,
+  "consolidatedRank": 141,
   "paths": {
     "memo": "winter2026/memos/captain.md",
     "evals": {

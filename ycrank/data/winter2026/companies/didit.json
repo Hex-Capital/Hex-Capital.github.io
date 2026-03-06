@@ -9,7 +9,9 @@
     "industry": "B2B / B2B -> Infrastructure",
     "team_size": "12",
     "location": "San Francisco, CA, USA",
-    "tags": "Artificial Intelligence, SaaS, Identity"
+    "tags": "Artificial Intelligence, SaaS, Identity",
+    "yc_partner": "Tyler Bosmeny",
+    "emails": "hello@didit.me"
   },
   "tags": [
     "Artificial Intelligence",
@@ -17,48 +19,48 @@
     "Identity"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T19:31:02.293Z",
+  "memoGeneratedAt": "2026-03-06T05:53:23.752Z",
   "evalScores": {
     "cyan-banister": {
       "score": 47,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 53,
+      "score": 48,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 41,
+      "score": 43,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 70,
+      "score": 67,
       "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 28,
+      "score": 30,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 37,
+      "score": 34,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 39,
+      "score": 44,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 47,
-    "EG": 53,
-    "NR": 41,
-    "PG": 70,
-    "PT": 28,
-    "SL": 37,
-    "VK": 39
+    "EG": 48,
+    "NR": 43,
+    "PG": 67,
+    "PT": 30,
+    "SL": 34,
+    "VK": 44
   },
-  "consolidatedAvg": 45,
-  "consolidatedRank": 55,
+  "consolidatedAvg": 44.71,
+  "consolidatedRank": 57,
   "paths": {
     "memo": "winter2026/memos/didit.md",
     "evals": {

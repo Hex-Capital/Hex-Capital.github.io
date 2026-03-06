@@ -11,116 +11,114 @@
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
 | Tags | Crypto / Web3, Consumer, NFT |
+| YC Partner | Brad Flora |
+| Emails | No public data found |
 
 ## The Idea
 
-**Problem:** Collectors of trading cards (Pokémon, sports, anime) face high fees, fragmented liquidity, and a lack of trust in mystery packs when transacting across platforms like eBay, Whatnot, and Instagram DMs (YC launch page). The secondary trading card market processes billions of dollars annually, yet sellers at card shows operate in cash, mystery pack odds are opaque and unverifiable, and buyers have no guarantee of fair randomization. Collectors who want to create or buy mystery packs must trust sellers entirely, with no mechanism for independent verification.
+**Problem:** Trading card collectors face fragmented, opaque, and illiquid secondary markets. Buying, selling, and comparing cards across platforms like eBay, Whatnot, and Instagram involves high friction: inconsistent pricing, lack of trust in mystery pack randomness, high platform fees (Whatnot charges 11–12% total fees; eBay takes ~13%), and limited instant liquidity options. The founders experienced this friction personally as collectors (YC Launch page). Mystery packs—a popular collecting format—rely on seller trust with no verifiable randomness, creating fraud risk.
 
-**Approach:** CatchBack Cards is an iOS app and web platform that lets collectors create custom mystery packs with personalized card pools and customized odds. The platform uses cryptographic randomness proofs and open-sources its card selection code so users can independently verify pack outcomes (YC launch page). Users open digital packs in-app, then receive physical cards shipped to them. The platform also provides instant buyback offers on pulled cards sent to Venmo and PayPal, and operates a marketplace with a $1 transaction fee on completed sales (LinkedIn company page). The platform is built on Nexus Layer 1 blockchain infrastructure for on-chain verifiable computation (Nexus blog).
+**Approach:** CatchBack Cards is an iOS and web platform that allows collectors to create custom mystery packs with personalized card pools, risk levels, and customized odds. The platform uses cryptographic randomness proofs and open-sources its card selection code so users can independently verify pack fairness (YC Launch page). Users digitally "rip open" packs and can then: (1) receive physical cards shipped to them, (2) receive instant buyback offers paid via Venmo or PayPal, or (3) list cards on a $1 marketplace. The website also references card-backed loans and peer lending features (catchbackcards.com).
 
-**Differentiation:** Unlike Whatnot (live-auction format), TCGplayer/eBay (traditional fixed-price marketplace), or DOPA (pre-made digital mystery packs), CatchBack differentiates by letting users *create their own* custom mystery packs with personalized chase cards and odds, verified via open-source cryptographic proofs. DOPA operates pre-configured packs without user customization. Whatnot relies on live-streaming sellers with no cryptographic trust layer. TCGplayer is a pure marketplace without a pack-opening mechanic. CatchBack also offers guaranteed buyback on every card pulled, providing liquidity that other platforms lack.
+**Differentiation:** Versus Whatnot (live-stream auctions), CatchBack focuses on asynchronous, customizable mystery packs with cryptographic verification rather than live video. Versus TCGPlayer/eBay (search-based listings), CatchBack offers the "pack rip" experience plus guaranteed buybacks. Versus Alt (investment-grade card vaulting and trading), CatchBack targets the entertainment and thrill of collecting rather than pure investment. The cryptographic randomness verification and open-source pack selection code are distinct from any major competitor's approach. The zero-fee $1 marketplace also differentiates from fee-heavy incumbents.
 
-**Business Model:** The platform charges a $1 fee on marketplace transactions (LinkedIn company page). Users deposit funds and purchase packs; a $25 free credit is offered on a $100 deposit as a promotional incentive (YC launch page). The company reports $13,000 MRR as of January 25, 2026 (YC launch page). [Inferred]: Revenue likely derives from a combination of marketplace transaction fees, spreads on buyback offers, and margins on pack creation/opening. The pack creation model inherently generates revenue from the difference between user deposit value and the cost of card inventory.
+**Business Model:** CatchBack operates a $1 marketplace (catchbackcards.com) and offers buyback on cards pulled from mystery packs. The website mentions zero-fee marketplace transactions. Additional monetization surfaces include card-backed loans and interest earning on peer loans (catchbackcards.com). [Inferred]: Revenue likely derives from spread on mystery pack sales, buyback margins (buying cards at discount to market value), and potentially loan origination fees. The company reports $13K MRR (YC page), confirming active monetization.
 
-**TAM/SAM:** The global trading card games market was valued at approximately $8.4 billion in 2025 and is projected to reach $16.9 billion by 2035, growing at a 6.9% CAGR (Global Market Insights, 2026 via search snippet). Mordor Intelligence estimates $7.51 billion in 2025 with a 7.30% CAGR through 2031 (Mordor Intelligence via search snippet). The U.S. segment was valued at approximately $2.2 billion in 2025 (Global Market Insights via search snippet). The company's YC launch page cites a "$20B+ annual market" including secondary market transactions (YC launch page).
+**TAM/SAM:** The global trading cards market was estimated at $13 billion in 2024, growing at a CAGR of 8.5% (Market Decipher via PR Newswire, 2025). A broader market definition places the total at $46.4 billion in 2024, growing at 7.1% CAGR to $90.2 billion by 2032 (via search snippet). The sports trading card segment specifically was valued at ~$1.96 billion in 2025 (SkyQuest via search snippet). The YC Launch page cites the market as "$20B+ annual market, growing at double-digit rates (~10–15% YoY)."
 
-**GTM / Distribution:** The company has a TikTok presence (@catchback.cards) with video content demonstrating custom pack creation and Pokémon card pulls (TikTok via search results). A promotional launch video bridging NFTs and physical cards was created (Contra via search snippet). The company offers a $25 free credit on $100 deposit to drive acquisition (YC launch page). An upcoming collaboration with Steph Curry's trading card company is planned (YC launch page). [Inferred]: Primary distribution appears to be social media-driven (TikTok, Instagram) targeting the existing Pokémon and sports card collecting communities, supplemented by celebrity/brand partnerships.
+**GTM / Distribution:** The company promotes a free $25 credit on deposit (YC Launch page, Fondo). Distribution channels include Instagram (@catchback_cards), Twitter/X (@catchback_cards), TikTok (@catchback.cards), and the iOS App Store (app ID: 6757721002). A collaboration with Steph Curry's trading card company was announced as upcoming (YC Launch page). Joseph Zhang appeared on Episode 19 of Nexus's "Exponential" podcast discussing onchain collecting (Spotify). [Inferred]: Primary distribution likely through social media marketing targeting existing trading card communities, word-of-mouth among collectors, and the Steph Curry partnership for sports card audience reach.
 
 ## Defensibility
 
-CatchBack's current defensibility signals include: (1) open-source cryptographic randomness verification code, creating a trust standard that is verifiable but also replicable (YC launch page); (2) Nexus L1 blockchain integration for on-chain verifiable computation, adding technical complexity to replication (Nexus blog); (3) the guaranteed buyback mechanism, which requires card inventory management infrastructure and pricing expertise.
+**Cryptographic trust layer:** CatchBack's use of cryptographic randomness proofs and open-source card selection code creates a transparency standard that competitors do not currently offer. This builds user trust and could create switching costs as users develop confidence in the verification system.
 
-Potential network effects could develop if the platform accumulates enough collectors creating and sharing custom packs, generating a two-sided marketplace dynamic between pack creators and pack openers. The buyback pricing data could become a data advantage over time as the platform processes more transactions.
+**Nexus Layer 1 partnership:** CatchBack announced a partnership with Nexus to deploy on their Layer 1 mainnet (Nexus blog, December 18, 2025), providing on-chain infrastructure for verifiable computation. This creates a technical integration layer that adds complexity for competitors to replicate.
 
-**Market structure:** [Inferred]: Whatnot's core model is live-streaming auctions; adding cryptographic mystery pack verification would require a fundamentally different product architecture and trust model. TCGplayer/eBay operate on seller-listed inventory with established fee structures; building a mystery pack creation engine with guaranteed buyback would cannibalize their existing transaction-fee model by introducing inventory risk. The combination of custom pack creation + cryptographic verification + guaranteed buyback + physical fulfillment creates operational complexity that is not individually hard but is cumbersome to replicate as a bundle.
+**Liquidity network effects:** [Inferred]: As more cards flow through the buyback system and marketplace, CatchBack can build pricing data and inventory advantages. However, at 700 users this network effect is nascent.
 
-**Commoditization risk:** The individual components (mystery packs, card marketplaces, digital-to-physical fulfillment) are not novel. DOPA already operates digital mystery packs at scale in Japan with 100,000+ daily users (DOPA website via search snippet). Any well-funded marketplace (Whatnot, eBay) could theoretically add cryptographic verification. The open-sourcing of the randomness code, while building trust, also makes the verification approach copiable.
+**Market structure:** Whatnot's business model depends on live-stream seller fees (11–12% per transaction), creating a business model conflict with offering zero-fee asynchronous trading. eBay/TCGPlayer's search-based marketplace model is structurally different from the gamified mystery pack experience. However, Fanatics already offers an "Under Wraps" mystery box program (Fanatics website), demonstrating that large incumbents can enter this specific format.
+
+**Commoditization risk:** The custom mystery pack concept and marketplace mechanics are replicable by well-funded competitors. Whatnot or Fanatics could introduce similar features. The cryptographic verification adds technical complexity but is not patented (no patent data found). The open-source nature of the code, while building trust, also lowers barriers to replication.
 
 ## Market & Traction
 
 **Traction signals:**
-- 700 users as of January 25, 2026 (YC launch page)
-- $13,000 MRR as of January 25, 2026 (YC launch page)
-- "Growing aggressively week over week" (YC launch page)
-- iOS app launched January 25, 2026, currently at version 2.4.0 (App Store)
-- App Store rating: 5.0 out of 5 with 6 ratings (App Store)
-- App Store category: Shopping, age rating 18+ (App Store)
-- Rapid iteration: 5 versions released in approximately 4 weeks from v1.0.0 to v2.4.0 (App Store version history)
-- Announced collaboration with Steph Curry's trading card company (YC launch page)
-- Partnership with Nexus L1 blockchain for mainnet launch (Nexus blog)
-- Product Hunt page exists: https://www.producthunt.com/products/catchback-cards (Product Hunt, page returned 403 so ranking/upvote data not accessible)
-- Twitter/X: @catchback_cards (follower count not retrievable due to JavaScript rendering)
-- TikTok: @catchback.cards (follower count not retrievable due to JavaScript rendering)
-- LinkedIn: 57 followers (LinkedIn company page)
-- Discord/Slack community: No public data found
-- Web traffic estimates: No public data found
+- 700 users as of YC Launch (YC page, ~February 2026)
+- $13K MRR with "aggressive week-over-week growth" (YC page, ~February 2026)
+- iOS app launched January 25, 2026 (YC page)
+- iOS App Store listing: apps.apple.com/us/app/catchback-cards/id6757721002 (App Store)
+- Product Hunt listing exists at producthunt.com/products/catchback-cards; upvote count not retrievable
+- Upcoming collaboration with Steph Curry's trading card company (YC Launch page)
+- Nexus Layer 1 mainnet partnership announced December 18, 2025 (Nexus blog)
+- Joseph Zhang featured on Nexus "Exponential" podcast Episode 19 (Spotify)
+- Social media presence: Twitter/X @catchback_cards (follower count not retrievable), Instagram @catchback_cards, TikTok @catchback.cards, LinkedIn company page
+- Y Combinator shared the launch on LinkedIn (Y Combinator LinkedIn post)
+- Fondo blog coverage (Fondo)
+- Allen Pan listed on LinkedIn as associated with CatchBack Cards (LinkedIn)
 
 **Competitive landscape:**
 
-1. **Whatnot** — Live-stream shopping platform for collectibles including trading cards. $968M total raised, $11.5B valuation (Series F, $225M, Oct 2025; Crunchbase via search snippet). $6B+ in items sold on platform in 2025 (Fortune via search snippet). Key differentiator vs. CatchBack: live-auction format with real-time seller interaction vs. CatchBack's asynchronous custom pack creation with cryptographic verification.
+1. **Whatnot** — Live-stream auction platform for collectibles. $975M total raised; $11.5B valuation after $225M Series F (October 2025) (Crunchbase). Targeting ~$1B revenue in 2025; $6B GMV in 2025 (The Information via search snippet). Key differentiator vs. CatchBack: live-stream format with real-time social interaction, massive scale and seller base. CatchBack differentiates with asynchronous custom mystery packs and cryptographic verification.
 
-2. **TCGplayer (acquired by eBay)** — Traditional online marketplace for trading card games. Acquired by eBay for $295M in 2022 (TechCrunch, Aug 2022 via search snippet). $736.5M in annual sales in 2024 (Grips Intelligence via search snippet). 8.95%–10.25% transaction fee (LeadIQ via search snippet). Key differentiator vs. CatchBack: established, high-liquidity fixed-price marketplace with massive seller base vs. CatchBack's mystery pack and buyback model.
+2. **TCGPlayer (eBay)** — Dedicated trading card marketplace acquired by eBay for $295M in August 2022 (Crunchbase). Estimated revenue $100–250M (Owler via search snippet). Key differentiator vs. CatchBack: established search-based single-card marketplace with vast inventory. CatchBack differentiates with the gamified mystery pack experience and buyback guarantees.
 
-3. **DOPA** — Digital mystery packs platform for trading cards (Pokémon, One Piece, Yu-Gi-Oh). Claims to be #1 in Japan with 100,000+ daily users and over 1 million packs opened daily (DOPA website via search snippet). Recently launched in the U.S. Funding: no public data found. Key differentiator vs. CatchBack: pre-configured packs at scale vs. CatchBack's user-customized packs with transparent cryptographic verification.
+3. **Alt** — Sports card investment platform with vaulting, authentication, and lending. Raised $106M+ ($31M seed/Series A, $75M subsequent round) at $325M+ valuation; also secured $40M credit facility from Trinity Capital in July 2025 (TechCrunch, Trinity Capital press release). Revenue not public. Key differentiator vs. CatchBack: focuses on investment-grade cards, authentication, and vaulting. CatchBack targets the entertainment/thrill of collecting rather than pure investment.
 
-4. **Alt** — Sports card exchange, valuation, authentication, and portfolio management platform. $31M raised (seed + Series A led by Seven Seven Six; TechCrunch, Mar 2021 via search snippet). Revenue: no public data found. Key differentiator vs. CatchBack: focused on card valuation, authentication, and investment portfolio management vs. CatchBack's pack-opening entertainment and buyback model.
+4. **Loupe** — Mobile app for live-streamed pack openings and single-card marketplace. Opened 1M+ card packs live on stream (cllct). Funding details not found. Key differentiator vs. CatchBack: live-streamed pack openings (synchronous) vs. CatchBack's asynchronous custom packs with cryptographic verification.
 
-5. **Dibbs** — Fractional NFT marketplace for sports cards. Approximately $16M raised across seed ($2.8M) and Series A ($13M; led by Foundry Group) (Crunchbase, dot.LA via search snippets). Amazon invested (Ledger Insights via search snippet). Key differentiator vs. CatchBack: fractional ownership/investment model for high-value cards vs. CatchBack's full-card mystery pack and buyback model.
+5. **Fanatics (Under Wraps)** — Sports merchandise giant with a mystery box program for MLB, NBA, NFL, NHL, and WWE trading cards (Fanatics website). Privately held, valued at $31B (2023). Key differentiator vs. CatchBack: massive brand partnerships and official licensed product access. CatchBack differentiates with user-created custom packs and zero-fee marketplace.
 
 **Why now:**
-- [Inferred]: The trading card market experienced a post-pandemic boom and has sustained double-digit growth, creating a large and active collector base. The maturation of blockchain/ZK-proof technology (e.g., Nexus L1 mainnet) now makes cryptographic verification of randomness practical at consumer scale. TikTok and social media have shifted card collecting toward a younger, digitally native demographic that expects app-based experiences. The success of Whatnot ($11.5B valuation in 2025) validated that venture-scale outcomes are possible in the trading card platform space. DOPA's rapid growth in Japan demonstrates consumer appetite specifically for digital mystery pack experiences.
+- The Pokémon TCG saw record-breaking sales in 2023–2025, with Pokémon TCG revenue reaching $1.55B in fiscal year 2024 alone, driving mainstream collector interest (via search snippet from earlier results).
+- [Inferred]: The maturation of blockchain infrastructure (e.g., Nexus Layer 1) now enables consumer-facing cryptographic verification at acceptable speed and cost, making verifiable randomness proofs practical for a consumer app. Additionally, Gen Z collectors, raised on digital-native experiences, increasingly expect gamified, mobile-first purchasing — creating demand for pack-rip experiences beyond live streams.
 
 ## Founders & Team
 
-**Joseph Zhang** — Co-founder & CEO
-- MS Computer Science (AI Track) and BS Symbolic Systems (Cognitive Science Track), Stanford University, 2024 (josephhzhangg.github.io)
-- Business Analyst at McKinsey & Company, June–September 2022 (josephhzhangg.github.io)
-- Software Engineer at Nexus (YC company page)
-- Software Engineer at AWS (YC company page)
-- Software Engineering Intern at UNICEF (josephhzhangg.github.io)
-- Gates Foundation Scholarship Recipient (josephhzhangg.github.io)
-- Intel ISEF Finalist (josephhzhangg.github.io)
-- QuestBridge Full Ride Scholarship (josephhzhangg.github.io)
-- Languages: English, Mandarin, Korean (josephhzhangg.github.io)
-- Twitter/X: Handle not identified; count not retrievable
-- LinkedIn: linkedin.com/in/joseph-zhang-116152187 — CatchBack Cards (LinkedIn via search results)
-- GitHub: josephhzhangg (personal website link); no public repos with significant star counts found
+**Joseph Zhang** — Co-founder
+- Former Software Engineer at Nexus (blockchain infrastructure company) (YC page, LinkedIn)
+- Former Consultant at McKinsey (YC page)
+- Former Software Engineer at AWS (YC page)
+- Gates Scholar and ISEF finalist (YC page via search snippet)
+- Side hustle flipping Pokémon cards evolved into CatchBack (LinkedIn post)
+- Published LinkedIn post: "I've quit my full-time job to sell Pokemon cards" (LinkedIn)
+- Twitter/X: @catchback_cards (company account); personal account not found
+- LinkedIn: linkedin.com/in/joseph-zhang-116152187
+- GitHub: github.com/jzhn and/or github.com/josephz-me found via search; repo details and star counts not retrievable
 
 **Sophia Kim** — Co-founder
-- Background, education, and prior work experience: No public data found
-- Twitter/X: No public account found
-- LinkedIn: Not identified among 700+ "Sophia Kim" profiles; specific profile not confirmed
+- Background details not publicly available beyond co-founder role at CatchBack Cards
+- Twitter/X: No personal public account found
+- LinkedIn: Not identifiable among 700+ "Sophia Kim" profiles on LinkedIn; specific profile URL not found
 - GitHub: No public repos found
 
-**Additional team member noted:** Allen Pan, listed on LinkedIn at CatchBack Cards, Duke University (LinkedIn via search results). Role not specified.
+**Co-founder relationship:** No public data on co-founder history. No shared prior employer or university identified from available data.
 
-**Co-founder relationship:** Joseph Zhang attended Stanford University. No overlapping employer or university identified for Sophia Kim from public sources. No public data on co-founder history.
-
-**Founder-market fit:** Joseph Zhang's background combines Stanford CS/AI training, McKinsey analytical experience, and engineering roles at AWS and Nexus (a blockchain/verifiable computing company). His prior role at Nexus directly informs the cryptographic verification architecture of CatchBack. His YC page describes him as having "quit [his] job to sell Pokemon cards" (YC company page), indicating personal domain experience as a card collector and seller. The ISEF and Gates Scholar credentials indicate high academic achievement. Sophia Kim's specific contribution and domain background are not publicly documented. No advisors, board members, or named investors beyond Y Combinator were found in public sources.
+**Founder-market fit:** Joseph Zhang's background combines software engineering (AWS, Nexus) with strategy consulting (McKinsey) and personal experience as a trading card collector/flipper. His work at Nexus (blockchain infrastructure) directly informs CatchBack's cryptographic verification approach. His Gates Scholar and ISEF credentials indicate strong technical aptitude. Sophia Kim's specific background and domain expertise are not publicly documented.
 
 ## Key Risks
 
-**DOPA competitive pressure:** DOPA, the Japan-based digital mystery packs platform, claims 100,000+ daily users and has recently launched in the U.S. (DOPA website via search snippet). DOPA operates in the same core product category — digital mystery packs for trading cards — and enters the U.S. market with established operational scale and user acquisition learnings from Japan. CatchBack's customization and cryptographic verification features differentiate it, but DOPA's head start in user volume and pack fulfillment infrastructure poses a direct competitive threat.
+**Single-founder visibility:** Sophia Kim's background is not publicly documented, making it difficult to assess the strength of the full founding team. In a two-person company, the capabilities of both founders are critical.
 
-**Inventory and buyback liability:** The guaranteed buyback mechanism requires CatchBack to maintain physical card inventory and stand ready to repurchase cards at quoted prices. Fluctuations in card market values (e.g., a Pokémon card bubble deflating) could create situations where buyback obligations exceed current card market values, generating losses. This is fundamentally an inventory/pricing risk that scales with transaction volume.
+**Regulatory and IP risk around trading card brands:** CatchBack enables users to create mystery packs of branded products (Pokémon, sports cards). The Pokémon Company and major sports leagues actively enforce trademark and distribution policies. Any cease-and-desist or licensing requirement from IP holders could disrupt the core product.
 
-**Regulatory classification risk:** The combination of mystery packs with customized odds, real-money deposits, and crypto/blockchain elements could attract scrutiny from gambling regulators, state consumer protection agencies, or financial regulators (FinCEN, state money transmitter laws). The app carries an 18+ age rating (App Store), suggesting the company is aware of this exposure. Jurisdictional variation in gambling and loot-box regulation (e.g., Belgium's ban on loot boxes, FTC scrutiny of mystery boxes) creates ongoing compliance complexity as the platform scales.
+**Marketplace liquidity cold-start:** The buyback guarantee and $1 marketplace require CatchBack to hold inventory and/or capital to honor buyback offers. At 700 users, the marketplace has limited liquidity, and the company must fund buybacks from its own balance sheet or external capital, creating capital intensity and margin risk.
 
-**Single-founder-visible team:** While the team lists 2 co-founders, Sophia Kim's background, role, and public presence are entirely undocumented in public sources. Joseph Zhang appears in all public-facing materials (YC page bio, LinkedIn posts, Nexus partnership announcement, personal website). This information asymmetry limits external assessment of the team's breadth of capabilities.
+**Blockchain dependency and user perception:** The platform's Crypto/Web3/NFT tags and Nexus Layer 1 partnership may deter mainstream collectors who associate crypto with speculation or scams. Consumer sentiment toward NFTs has significantly declined since 2022, and the crypto association could narrow the addressable audience.
 
-**Platform dependency:** The iOS app is the primary product surface (launched Jan 25, 2026). Apple's App Store policies on in-app purchases, real-money transactions, and NFT-related functionality have historically been restrictive and subject to change. An Android version was not found in research, limiting addressable market to iOS users.
+**Competition from scaled incumbents:** Fanatics already operates a mystery box program (Under Wraps) with official league licensing. Whatnot ($11.5B valuation) could add asynchronous mystery pack features. TCGPlayer/eBay has distribution at scale. Any of these incumbents adding cryptographic verification would reduce CatchBack's differentiation.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $8.4B global trading card games market in 2025 (Global Market Insights, 2026 via search snippet, 6.9% CAGR to $16.9B by 2035); U.S. segment ~$2.2B (Global Market Insights via search snippet) |
-| SAM | No public data found. Company cites "$20B+ annual market" including secondary market (YC launch page) |
-| Traction | 700 users, $13K MRR (YC launch page, Jan 25, 2026); iOS app 5.0 rating with 6 ratings (App Store); v2.4.0 reached ~4 weeks post-launch (App Store); Steph Curry trading card company collaboration announced (YC launch page); Nexus L1 mainnet partnership (Nexus blog) |
-| Revenue Signal | $13,000 MRR as of Jan 25, 2026 (YC launch page); $1 marketplace transaction fee (LinkedIn company page); $25 credit on $100 deposit promotional pricing (YC launch page) |
-| Founders | Joseph Zhang (CEO): Stanford MS CS + BS SymSys, ex-McKinsey, ex-AWS, ex-Nexus, Gates Scholar, ISEF Finalist. Sophia Kim (Co-founder): no public background data found |
-| Competitors | Whatnot ($968M raised, $11.5B valuation, $6B+ GMV in 2025, live-stream auctions vs. async custom packs); TCGplayer/eBay ($295M acquisition, ~$737M annual sales, traditional marketplace vs. mystery pack model); DOPA (funding unknown, 100K+ daily users in Japan, pre-configured packs vs. user-customized packs); Alt ($31M raised, revenue unknown, valuation/portfolio focus); Dibbs (~$16M raised, revenue unknown, fractional ownership model) |
-| Moat Signals | Open-source cryptographic randomness verification code (YC launch page); Nexus L1 blockchain integration (Nexus blog); guaranteed buyback mechanism requiring inventory infrastructure |
-| Risk Factors | DOPA competitive entry into U.S. with 100K+ daily users, inventory/buyback pricing liability, gambling/loot-box regulatory classification risk, iOS-only platform dependency |
-| Founder Reach | Joseph Zhang: Twitter not identified, LinkedIn profile found (linkedin.com/in/joseph-zhang-116152187), GitHub no significant repos. Sophia Kim: no public social accounts found. Company: LinkedIn 57 followers, Twitter @catchback_cards (count not retrievable), TikTok @catchback.cards (count not retrievable) |
-| Distribution Signals | Product Hunt page exists (ranking not retrievable, page returned 403); TikTok content active (@catchback.cards); Steph Curry collaboration announced (YC launch page); $25 free credit acquisition offer (YC launch page) |
+| TAM | $13B in 2024, 8.5% CAGR (Market Decipher via PR Newswire, 2025); broader estimates up to $46.4B (via search snippet) |
+| SAM | No public data found for CatchBack's specific segment (custom mystery packs with buyback) |
+| Traction | 700 users, $13K MRR (YC page, ~Feb 2026); iOS app launched Jan 25, 2026; Nexus partnership (Dec 2025); Steph Curry collaboration upcoming |
+| Revenue Signal | $13K MRR (YC page); $1 marketplace and buyback offers as monetization (catchbackcards.com); zero-fee marketplace noted |
+| Founders | Joseph Zhang (Co-founder): Former SWE at Nexus/AWS, McKinsey consultant, Gates Scholar, ISEF finalist. Sophia Kim (Co-founder): Background not publicly documented. |
+| Competitors | Whatnot ($975M raised, ~$1B revenue 2025, live-stream auctions); TCGPlayer/eBay (acquired $295M, $100-250M revenue, search marketplace); Alt ($106M+ raised, revenue unknown, card vaulting/investment); Loupe (funding unknown, revenue unknown, live-streamed pack openings); Fanatics Under Wraps ($31B parent valuation, licensed mystery boxes) |
+| Moat Signals | Cryptographic randomness proofs with open-source verification code; Nexus Layer 1 integration; zero-fee marketplace |
+| Risk Factors | IP/brand enforcement risk from card publishers, blockchain/NFT consumer perception, incumbent competition from Fanatics/Whatnot |
+| Founder Reach | Joseph Zhang: LinkedIn linkedin.com/in/joseph-zhang-116152187; company Twitter @catchback_cards (count not retrievable); Sophia Kim: LinkedIn not found, Twitter not found |
+| Distribution Signals | Product Hunt listing (upvote count not retrievable); iOS App Store (id6757721002); Instagram @catchback_cards; TikTok @catchback.cards; Nexus podcast appearance; Fondo blog coverage; YC LinkedIn post |
+| Emails | No public data found |

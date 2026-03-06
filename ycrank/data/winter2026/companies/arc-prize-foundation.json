@@ -1,59 +1,52 @@
 {
   "slug": "arc-prize-foundation",
-  "name": "ARC Prize Foundation",
-  "oneLiner": "AI benchmarks that measure general intelligence and inspire new ideas",
-  "metadata": {
-    "website": "https://arcprize.org/",
-    "yc_page": "https://www.ycombinator.com/companies/arc-prize-foundation",
-    "batch": "Winter 2026",
-    "industry": "Industrials / Industrials",
-    "team_size": "4",
-    "location": "Remote"
-  },
+  "name": "arc-prize-foundation",
+  "oneLiner": "",
+  "metadata": {},
   "tags": [],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T19:31:50.300Z",
+  "memoGeneratedAt": "2026-03-06T06:00:34.710Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 31,
+      "score": 37,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 59,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 74,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
       "score": 42,
       "tier": "Pass"
     },
-    "sam-lessin": {
-      "score": 48,
+    "naval-ravikant": {
+      "score": 63,
       "tier": "Neutral"
     },
+    "paul-graham": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 43,
+      "tier": "Pass"
+    },
     "vinod-khosla": {
-      "score": 47,
+      "score": 52,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 31,
-    "EG": 38,
-    "NR": 59,
-    "PG": 74,
-    "PT": 42,
-    "SL": 48,
-    "VK": 47
+    "CB": 37,
+    "EG": 42,
+    "NR": 63,
+    "PG": 57,
+    "PT": 36,
+    "SL": 43,
+    "VK": 52
   },
-  "consolidatedAvg": 48.43,
-  "consolidatedRank": 38,
+  "consolidatedAvg": 47.14,
+  "consolidatedRank": 44,
   "paths": {
     "memo": "winter2026/memos/arc-prize-foundation.md",
     "evals": {

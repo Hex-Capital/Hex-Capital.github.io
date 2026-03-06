@@ -9,7 +9,9 @@
     "industry": "Real Estate and Construction / Real Estate and Construction",
     "team_size": "4",
     "location": "San Francisco, CA, USA",
-    "tags": "Artificial Intelligence, Real Estate, AI"
+    "tags": "Artificial Intelligence, Real Estate, AI",
+    "yc_partner": "Aaron Epstein",
+    "emails": "No public data found"
   },
   "tags": [
     "Artificial Intelligence",
@@ -17,22 +19,22 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T19:37:38.457Z",
+  "memoGeneratedAt": "2026-03-06T06:05:11.598Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 31,
+      "score": 33,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 37,
+      "score": 36,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 34,
+      "score": 32,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 39,
+      "score": 34,
       "tier": "Pass"
     },
     "peter-thiel": {
@@ -40,25 +42,25 @@
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 30,
+      "score": 27,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 31,
+      "score": 33,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 31,
-    "EG": 37,
-    "NR": 34,
-    "PG": 39,
+    "CB": 33,
+    "EG": 36,
+    "NR": 32,
+    "PG": 34,
     "PT": 31,
-    "SL": 30,
-    "VK": 31
+    "SL": 27,
+    "VK": 33
   },
-  "consolidatedAvg": 33.29,
-  "consolidatedRank": 157,
+  "consolidatedAvg": 32.29,
+  "consolidatedRank": 170,
   "paths": {
     "memo": "winter2026/memos/travo.md",
     "evals": {

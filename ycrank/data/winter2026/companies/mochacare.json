@@ -1,7 +1,7 @@
 {
   "slug": "mochacare",
   "name": "MochaCare",
-  "oneLiner": "AI-powered scheduling and hiring service for home care agencies.",
+  "oneLiner": "AI-Supercharged Humans for Home Care Agency Growth",
   "metadata": {
     "website": "https://www.mochacare.com/",
     "yc_page": "https://www.ycombinator.com/companies/mochacare",
@@ -9,58 +9,60 @@
     "industry": "B2B / B2B -> Operations",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "AIOps, Healthcare, Home Services, Operations, AI"
+    "tags": "Health Tech, Healthcare, Home Services, Operations, AI",
+    "yc_partner": "Diana Hu",
+    "emails": "support@mochacare.com"
   },
   "tags": [
-    "AIOps",
+    "Health Tech",
     "Healthcare",
     "Home Services",
     "Operations",
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-21T06:19:38.032Z",
+  "memoGeneratedAt": "2026-03-06T05:41:36.540Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 44,
-      "tier": "Pass"
+      "score": 56,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 40,
-      "tier": "Pass"
+      "score": 45,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 32,
+      "score": 43,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 47,
+      "score": 55,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 29,
+      "score": 27,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 35,
+      "score": 30,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 32,
+      "score": 34,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 44,
-    "EG": 40,
-    "NR": 32,
-    "PG": 47,
-    "PT": 29,
-    "SL": 35,
-    "VK": 32
+    "CB": 56,
+    "EG": 45,
+    "NR": 43,
+    "PG": 55,
+    "PT": 27,
+    "SL": 30,
+    "VK": 34
   },
-  "consolidatedAvg": 37,
-  "consolidatedRank": 127,
+  "consolidatedAvg": 41.43,
+  "consolidatedRank": 84,
   "paths": {
     "memo": "winter2026/memos/mochacare.md",
     "evals": {

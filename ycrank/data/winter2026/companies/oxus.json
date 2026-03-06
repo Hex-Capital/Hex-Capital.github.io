@@ -9,7 +9,9 @@
     "industry": "B2B / B2B",
     "team_size": "3",
     "location": "San Francisco, CA, USA",
-    "tags": "Artificial Intelligence, B2B, Workflow Automation, Compliance"
+    "tags": "Artificial Intelligence, B2B, Workflow Automation, Compliance",
+    "yc_partner": "Diana Hu",
+    "emails": "founders@oxus-ai.com (YC Launch page)"
   },
   "tags": [
     "Artificial Intelligence",
@@ -18,48 +20,48 @@
     "Compliance"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T19:36:32.390Z",
+  "memoGeneratedAt": "2026-03-06T06:04:31.233Z",
   "evalScores": {
     "cyan-banister": {
       "score": 35,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 49,
+      "score": 51,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 39,
+      "score": 43,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 44,
-      "tier": "Pass"
+      "score": 47,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 31,
+      "score": 30,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 24,
+      "score": 27,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 36,
+      "score": 33,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 35,
-    "EG": 49,
-    "NR": 39,
-    "PG": 44,
-    "PT": 31,
-    "SL": 24,
-    "VK": 36
+    "EG": 51,
+    "NR": 43,
+    "PG": 47,
+    "PT": 30,
+    "SL": 27,
+    "VK": 33
   },
-  "consolidatedAvg": 36.86,
-  "consolidatedRank": 129,
+  "consolidatedAvg": 38,
+  "consolidatedRank": 124,
   "paths": {
     "memo": "winter2026/memos/oxus.md",
     "evals": {

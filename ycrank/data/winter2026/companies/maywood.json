@@ -7,59 +7,61 @@
     "yc_page": "https://www.ycombinator.com/companies/maywood",
     "batch": "Winter 2026",
     "industry": "Fintech / Fintech -> Banking and Exchange",
-    "team_size": "2",
+    "team_size": "5",
     "location": "New York, NY, USA",
-    "tags": "Fintech, Finance, B2B, AI"
+    "tags": "Artificial Intelligence, Fintech, Finance, B2B",
+    "yc_partner": "Jon Xu",
+    "emails": "founders@maywoodai.com"
   },
   "tags": [
+    "Artificial Intelligence",
     "Fintech",
     "Finance",
-    "B2B",
-    "AI"
+    "B2B"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T20:19:30.700Z",
+  "memoGeneratedAt": "2026-03-06T05:41:47.131Z",
   "evalScores": {
     "cyan-banister": {
       "score": 37,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 53,
+      "score": 61,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 46,
+      "score": 49,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 51,
+      "score": 63,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 37,
+      "score": 39,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 33,
+      "score": 34,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 36,
+      "score": 42,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 37,
-    "EG": 53,
-    "NR": 46,
-    "PG": 51,
-    "PT": 37,
-    "SL": 33,
-    "VK": 36
+    "EG": 61,
+    "NR": 49,
+    "PG": 63,
+    "PT": 39,
+    "SL": 34,
+    "VK": 42
   },
-  "consolidatedAvg": 41.86,
-  "consolidatedRank": 78,
+  "consolidatedAvg": 46.43,
+  "consolidatedRank": 49,
   "paths": {
     "memo": "winter2026/memos/maywood.md",
     "evals": {

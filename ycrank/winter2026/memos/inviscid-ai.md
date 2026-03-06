@@ -11,86 +11,113 @@
 | Team Size | 2 |
 | Location | San Francisco, CA, USA; Remote |
 | Tags | Warehouse Management Tech, IoT, Sustainability, Proptech |
+| YC Partner | Ankit Gupta |
+| Emails | kabir@inviscidai.com |
+
+Note: The company website also lists Singapore as a secondary location (company website). The Extruct AI profile lists "Singapore" as the primary location (Extruct AI profile). The GitHub organization also lists Singapore (GitHub).
 
 ## The Idea
 
-**Problem:** Commercial buildings and data centers consume substantial energy through HVAC systems, with suboptimal airflow creating dead zones, uneven thermal distribution, and excessive mechanical load. Facilities managers currently rely on rule-based building management systems (BMS) or purely data-driven approaches that optimize against historical patterns rather than physics-based understanding. Traditional computational fluid dynamics (CFD) simulations—the gold standard for airflow modeling—take weeks to complete, making real-time operational optimization infeasible.
+**Problem:** Commercial buildings, data centers, and industrial facilities face persistent challenges in optimizing HVAC, airflow, and energy performance. Traditional computational fluid dynamics (CFD) simulation — the standard tool for modeling how air, heat, and energy move through buildings — takes days to weeks per simulation run, making iterative design and real-time operational optimization impractical. Facilities managers typically rely on rule-based building management systems (BMS) or purely data-driven approaches that optimize against historical patterns rather than physics-based understanding. This results in dead zones in airflow, excessive HVAC power consumption, suboptimal cooling, and reactive rather than predictive maintenance. Data centers are particularly affected as AI workloads drive higher compute density and thermal loads.
 
-**Approach:** Inviscid AI uses physics-informed neural networks (PINNs) to accelerate CFD simulations by orders of magnitude—claiming 1000x faster processing with 95%+ accuracy compared to traditional methods (inviscidai.com). The platform ingests real-time IoT sensor data, combines it with CFD modeling to create digital twins of buildings, and autonomously optimizes HVAC operations. The system simulates airflow patterns, ventilation strategies, and thermal dynamics to optimize energy consumption, reduce cooling costs, and predict equipment maintenance needs. Case studies on the website cite 240x faster HVAC vent optimization with 40% improved airflow, 150+ design iterations for coastal infrastructure with 13% stress reduction, and 600x faster storm surge forecasting with 3x accuracy improvement (inviscidai.com).
+**Approach:** Inviscid AI builds physics-informed neural networks that replicate CFD simulations at approximately 1,000x the speed of traditional solvers while maintaining 95%+ accuracy (company website). The platform ingests real-time IoT sensor data, integrates with building management systems, and creates digital twins that simulate building performance in real time. This enables autonomous optimization of airflow patterns, ventilation strategies, HVAC power consumption, and equipment scheduling. The physics-first approach means the neural networks respect fundamental physical laws (conservation of mass, momentum, energy), producing physically plausible predictions rather than purely statistical correlations (company website).
 
-**Differentiation:** The "physics-first" approach distinguishes Inviscid AI from purely data-driven HVAC optimization platforms (e.g., BrainBox AI, 75F) that rely on historical patterns and sensor correlations. Unlike rule-based BMS systems from incumbents like Johnson Controls or Honeywell, the physics-informed neural network approach can model novel conditions the building has not previously encountered. Compared to traditional CFD consulting (e.g., SimScale), the speed advantage (1000x claimed) enables real-time operational use rather than periodic design studies.
+**Differentiation:** Traditional CFD vendors (Cadence, ANSYS, SimScale) provide high-fidelity simulation but at computational costs that preclude real-time use. Purely data-driven building AI platforms (BrainBox AI / Trane Technologies, 75F) optimize against historical patterns without physics-based modeling of airflow dynamics. EkkoSense uses AI for data center cooling optimization but focuses on sensor-driven analytics rather than CFD-grade digital twins. PassiveLogic builds physics-based digital twins for building automation but focuses on autonomous control across all building systems rather than specifically on CFD-accelerated airflow and thermal simulation. Inviscid AI's specific niche — replacing full CFD solvers with physics-informed neural networks for real-time building operations — sits at the intersection of these approaches.
 
-**Business Model:** No public pricing page found on inviscidai.com. [Inferred]: Most likely monetization path is SaaS subscription per building or per square footage, potentially with a professional services component for initial digital twin setup, given the enterprise nature of the customer and the need for per-building calibration.
+**Business Model:** No pricing page or revenue information is publicly available. The website features a "Schedule Demo" call-to-action and a contact form (company website), suggesting a sales-led enterprise motion. [Inferred]: Most likely monetization path is SaaS licensing per building/facility or consumption-based pricing tied to sensor streams and simulation runs, given the B2B enterprise nature of the product and the demo-first GTM approach.
 
-**TAM/SAM:** The AI-powered digital twin HVAC tuner market was valued at $1.09 billion in 2024, growing to $1.34 billion in 2025 at a 23.1% CAGR (The Business Research Company, 2025 via search snippet). The broader building digital twin market reached $3.30 billion in 2024, projected to $21.85 billion by 2032 at 26.95% CAGR (DataM Intelligence, 2025 via search snippet). The overall digital twin market was valued at $13.6 billion in 2024 with 41.4% CAGR through 2034 (GM Insights, 2025 via search snippet).
+**TAM/SAM:**
+- Building automation systems market: $101.74B (2025) → $191.13B (2030), CAGR 13.4% (MarketsandMarkets, 2025 via search snippet).
+- AI in smart buildings and infrastructure market: $52.04B (2025) (Precedence Research via search snippet).
+- Data center cooling market: $22.13B (2024) → $56.15B (2030), CAGR 16.4% (Grand View Research via search snippet).
+- HVAC optimization segment holds ~32% of the building automation market (MarketsandMarkets via search snippet).
 
-**GTM / Distribution:** [Inferred]: Most likely distribution path is direct enterprise sales to facilities managers and building operations teams at large commercial real estate portfolios and data center operators. The Singapore origin (noted on Extruct AI and GitHub organization location) and San Francisco presence suggest a dual APAC/US go-to-market. The contact email on the website (kabir@inviscidai.com) and phone number suggest direct founder-led sales at this stage.
+**GTM / Distribution:** The website features case studies across three domains — HVAC vent optimization, coastal infrastructure, and storm surge forecasting (company website) — suggesting an initial multi-vertical approach. The "Schedule Demo" flow and direct contact email indicate a direct sales model. [Inferred]: Most likely distribution path is direct sales to facilities managers, data center operators, and engineering firms, potentially leveraging the YC network for early enterprise introductions. The Singapore presence may provide access to the fast-growing Asia-Pacific smart building market.
 
 ## Defensibility
 
-The core technical moat is in physics-informed neural networks applied to building CFD—a niche requiring combined expertise in computational physics, machine learning, and building science. The company's approach requires training neural networks that respect physical laws (conservation of mass, energy, momentum), which is a specialized skill set at the intersection of numerical methods and deep learning.
+The core technical moat is the physics-informed neural network architecture that encodes domain-specific fluid dynamics knowledge. Building accurate surrogate models for CFD requires deep expertise at the intersection of computational physics, numerical methods, and machine learning — a relatively narrow talent pool. Each deployment generates proprietary sensor data and building-specific simulation models that improve over time, creating a data flywheel per customer.
 
-Data advantage could develop over time as the platform accumulates building performance data across deployments, improving model accuracy and reducing calibration time for new installations. Each building's digital twin represents switching costs once integrated with the building's BMS and IoT infrastructure.
+However, no patents were found in public records, and the physics-informed neural network (PINN) approach is an active area of academic research with publications from multiple groups, meaning the underlying methodology is not proprietary.
 
-**Market structure:** Traditional BMS incumbents (Honeywell, Johnson Controls, Siemens) sell hardware-bundled control systems. Offering physics-based AI optimization that replaces or augments their control logic creates a sales channel conflict—incumbents would need to acknowledge their existing control algorithms are suboptimal. However, Trane Technologies' acquisition of BrainBox AI (December 2024) (BetaKit via search snippet) signals incumbents are willing to acquire rather than build AI capabilities, which reduces the structural barrier. PassiveLogic has attracted Johnson Controls as an investor in its $74M Series C (PRNewswire, September 2025 via search snippet), further suggesting incumbents prefer partnership/investment to internal development.
+**Market structure:** Traditional CFD software vendors (Cadence, ANSYS, Siemens) have physics expertise but their business models are built around high-margin perpetual/subscription licenses for design-time simulation tools sold to engineers. Pivoting to real-time operational optimization sold to facilities managers would require different sales channels, pricing models (per-building SaaS vs. per-seat engineering licenses), and product architecture (continuous IoT integration vs. batch simulation). This sales channel and business model mismatch is the primary structural barrier. Large HVAC OEMs (Trane, Carrier, Johnson Controls) have distribution but lack deep CFD/ML technical capability — Trane's acquisition of BrainBox AI for $103M+ signals they prefer buy-to-build (Crunchbase via search snippet).
 
-**Commoditization risk:** Physics-informed neural networks for fluid dynamics are an active academic research area. PhysicsX (London, ~$170M total funding) applies similar physics-AI techniques to engineering simulation broadly. PassiveLogic ($125M+ total funding) builds physics-based digital twins specifically for building autonomy. Large simulation software companies (ANSYS, Siemens Digital Industries) have resources to incorporate PINNs into existing CFD tools. The technical barrier is moderate—the method is published in academic literature—but productizing it for real-time building operations with BMS integration adds applied-engineering complexity.
+**Commoditization risk:** Physics-informed neural networks for CFD acceleration are an active research area with published methodologies. Well-funded competitors like PassiveLogic ($125M+ raised) are building physics-based digital twins (PR Newswire, Sep 2025 via search snippet). Cadence's Reality Digital Twin Platform already combines CFD with AI for data center digital twins (Cadence website). Cloud compute providers (NVIDIA, with its Omniverse/Modulus platforms) could commoditize the inference layer. The risk is mitigated by the integration complexity of connecting real-time IoT data with physics models for specific building types.
 
 ## Market & Traction
 
-**Traction signals:** No public revenue, customer count, or user metrics found. The company website lists three case studies with performance claims (240x faster HVAC optimization, 150+ design iterations, 600x faster storm surge forecasting) but does not name specific customers (inviscidai.com). No Product Hunt listing found. No press coverage in named publications found. Company LinkedIn page exists at linkedin.com/company/inviscid-ai (follower count not retrievable). GitHub organization (github.com/InviscidAI) has 1 public repository—a fork of PyMesh (geometry processing library), with 0 original repos and no star activity (GitHub). No Discord or Slack community found. No app store presence found. No active job postings found (YC page, 0 jobs listed). The company was founded in 2025 (YC page).
+**Traction signals:**
+- Case studies on company website showing technical benchmarks: 240x faster HVAC vent optimization with 40% better airflow; 150+ design iterations for coastal infrastructure with 13% less stress; 600x faster storm surge forecasting with 3x accuracy improvement (company website). No named customers are disclosed.
+- Company LinkedIn page: https://www.linkedin.com/company/inviscid-ai — follower count not retrievable.
+- Company GitHub: https://github.com/InviscidAI — 1 follower, 1 public repository (PyMesh fork, 0 stars) (GitHub).
+- Kabir Jain Twitter/X: @kabirj_ — follower count not retrievable due to JavaScript rendering.
+- No Product Hunt listing found.
+- No press coverage in named publications found.
+- No Discord or Slack community found.
+- No app store listings or Chrome extensions (not applicable to this product type).
+- No job postings found (consistent with team size of 2 and is_hiring: false).
 
 **Competitive landscape:**
 
-- **PassiveLogic** ($125M+ raised, $15M annual revenue as of July 2025 per Tracxn via search snippet): Builds generalized autonomy platform for buildings using physics-based digital twins, includes proprietary hardware (Sense Nano sensors) and mobile app for creating digital twins. Broader scope than HVAC-only; focuses on full building autonomy. Key differentiator vs. Inviscid AI: hardware+software integrated stack and larger feature set covering all building systems.
+| Competitor | Funding | Revenue/ARR | Key Differentiator vs. Inviscid AI |
+|-----------|---------|-------------|-----------------------------------|
+| **PassiveLogic** | $125M+ total ($74M Series C, Sep 2025) (PR Newswire via search snippet) | Revenue unknown | Full autonomous building platform across all systems (HVAC, lighting, fire, security), not CFD-specific; hardware+software play with proprietary sensors |
+| **BrainBox AI** (acquired by Trane Technologies, Jan 2025) | $103M total (Crunchbase via search snippet) | Revenue unknown | Autonomous HVAC control via edge AI; data-driven (not physics-based); now backed by Trane's global distribution and installed base |
+| **EkkoSense** | $50.9M total (Crunchbase via search snippet) | $6.1M (2025) (GetLatka via search snippet) | Data center cooling-specific; sensor-driven analytics without CFD; deployed at 300+ datacenter sites (company website via search snippet) |
+| **75F** | $45M Series B (Feb 2025) (GlobeNewsWire via search snippet) | Revenue unknown | IoT-first HVAC automation with cloud-based controls; focuses on commercial buildings; investors include Carrier and Breakthrough Energy Ventures |
+| **Cadence Reality Digital Twin** | N/A (public company, market cap ~$80B+) | N/A | Full physics-based digital twin for data centers using proprietary CFD solvers; incumbent with deep engineering customer relationships |
 
-- **BrainBox AI** ($103M raised, acquired by Trane Technologies December 2024, ~€1.06M revenue FY2023 per Tracxn via search snippet): AI-powered HVAC optimization for commercial real estate using cloud-based predictive control. Purely data-driven (not physics-based). Key differentiator vs. Inviscid AI: now integrated into Trane's global distribution and hardware ecosystem; Inviscid AI's physics-informed approach claims ability to handle novel conditions that data-driven methods cannot.
-
-- **75F** ($81.3M raised, ~₹59.1 Cr / ~$7M revenue FY2024 per Tracxn via search snippet): IoT-based smart building automation with AI-driven HVAC optimization. Deployed across 1,800+ installations in nine countries (GlobeNewsWire, February 2025 via search snippet). Key differentiator vs. Inviscid AI: established install base and own IoT hardware; Inviscid AI differentiates on physics-based simulation depth.
-
-- **PhysicsX** (~$170M raised, revenue "more than quadrupled over two years" per company press release June 2025): Physics-informed AI for engineering simulation across aerospace, automotive, and manufacturing. Does not focus specifically on buildings/HVAC. Key differentiator vs. Inviscid AI: broader industrial scope rather than building-specific; Inviscid AI is more vertically focused on building operations.
-
-**Why now:** [Inferred]: Several converging factors: (1) Physics-informed neural networks have matured as a research field, with foundational papers (Raissi et al., 2019) now well-established and production-quality implementations emerging; (2) IoT sensor costs have continued declining, making dense building instrumentation economically viable; (3) Energy costs and ESG/sustainability regulations are tightening globally, increasing building operators' ROI from HVAC optimization; (4) Data center construction has surged due to AI workload demand, creating a high-value new customer segment where cooling represents 30-40% of total energy costs; (5) NVIDIA's investment in physics AI (NVentures investing in both PhysicsX and PassiveLogic) validates the category.
+**Why now:**
+- [Inferred]: The explosion in AI/ML workloads has driven rapid growth in data center power density, creating acute thermal management challenges that legacy cooling approaches cannot address. Data center cooling spend is projected to grow at 16.4% CAGR through 2030 (Grand View Research via search snippet).
+- [Inferred]: Advances in physics-informed neural networks (PINNs) over the past 2-3 years — including NVIDIA's Modulus framework for physics-ML — have reached a performance threshold where real-time CFD surrogate models are technically feasible at production scale. This enables a new category of real-time digital twins that was computationally impractical before.
+- Trane Technologies' acquisition of BrainBox AI (Jan 2025) and PassiveLogic's $74M Series C (Sep 2025) signal growing enterprise demand and M&A interest in AI-driven building optimization, validating the category.
 
 ## Founders & Team
 
 **Kabir Jain** — Co-founder
-- Student at NUS High School (Singapore). Gold medalist in the Scientific Round of the inaugural International Olympiad in Artificial Intelligence (IOAI), held in Burgas, Bulgaria, August 2024 — one of two gold-winning Singapore teams out of 40+ competing teams (NTU Singapore news release, August 2024). Described as 19 years old (Instagram post via search snippet). Contact email on company website: kabir@inviscidai.com.
-- Twitter/X: @kabirj_ found via search; follower count not retrievable due to JavaScript rendering.
-- LinkedIn: sg.linkedin.com/in/kabir-jain-inviscid-ai-yc (profile content not accessible).
+- Self-described as someone who "like[s] physics and AI" (YC page).
+- Contact: kabir@inviscidai.com, +1 408 303 9627 (company website).
+- Education: No public data found. A ZoomInfo result links to a "Kabir Jain" as Research Assistant at University of Illinois Chicago (ZoomInfo via search snippet), but this has not been confirmed as the same individual.
+- Prior companies/exits: No public data found.
+- Twitter/X: @kabirj_ — follower count not retrievable.
+- LinkedIn: https://sg.linkedin.com/in/kabir-jain-inviscid-ai-yc — headline not retrievable (LinkedIn returned 999 error).
 - GitHub: No personal public repos found.
 
-**Ziming Qiu** — Co-founder
-- 5th-year PhD student in Electrical and Computer Engineering (ECE) at NYU Tandon School of Engineering (NYU Tandon website; personal website ziming-qiu.github.io). Research interests in computer vision, machine learning, and image analysis. Published research on camera pose estimation (arXiv:2111.14741) and medical image segmentation (IEEE). Google Scholar profile: scholar.google.com/citations?user=qaCIB_QAAAAJ.
+**Ziming Qiu (Qiu Ziming)** — Co-founder
+- Self-described as "I make simulations :)." (YC page).
+- Education: Listed as a student at NYU Tandon School of Engineering (NYU Tandon website via search snippet). Personal academic website describes a "5th-year Ph.D. student in the ECE department at NYU" with research interests in computer vision, machine learning, and image analysis (ziming-qiu.github.io). Earlier search results also mention study at the National University of Singapore (search snippet), possibly for undergraduate education.
+- Publications: Listed on Google Scholar (scholar.google.com/citations?user=qaCIB_QAAAAJ) and DBLP (dblp.org/pid/190/7442.html); specific publications include work on camera pose estimation (arXiv:2111.14741) and medical image analysis (IEEE) (personal website).
+- Prior companies/exits: No public data found.
 - Twitter/X: No public account found.
-- LinkedIn: linkedin.com/in/qiu-ziming and sg.linkedin.com/in/qiu-ziming-1b746a276 (profile content not accessible).
-- GitHub: github.com/ziming-qiu — 8 public repos, 0 stars, 1 follower. Repos focus on ultrasound image segmentation and NLP projects (GitHub).
+- LinkedIn: https://www.linkedin.com/in/qiu-ziming/ — headline not retrievable.
+- GitHub: Personal account at github.com/ziming-qiu (personal website); no star counts retrievable. Company org at github.com/InviscidAI has 1 forked repo (PyMesh, 0 stars).
 
-**Co-founder relationship:** No shared employer or university overlap identified from available data. Kabir Jain attended NUS High School in Singapore; Ziming Qiu is a PhD student at NYU. The GitHub organization for Inviscid AI lists its location as Singapore, suggesting they may have connected through Singapore-based networks.
+**Co-founder relationship:** Both founders are linked to Singapore — the company GitHub organization lists Singapore as its location, Kabir Jain's LinkedIn is on the sg.linkedin.com domain, and Ziming Qiu's LinkedIn lists a Singapore URL. [Inferred]: The co-founders likely share a Singapore connection, possibly through university or professional networks there.
 
-**Founder-market fit:** Ziming Qiu brings PhD-level expertise in machine learning and neural networks, relevant to the core physics-informed AI technology. His research on medical image segmentation involves numerical methods transferable to CFD neural networks. Kabir Jain's IOAI gold medal demonstrates strong AI/ML competition performance. However, neither founder has documented prior experience in building science, HVAC systems, or facilities management. The YC page lists Ankit Gupta as the "Primary Partner" (YC group partner), but no advisors with building science domain expertise were identified in public sources.
+**Founder-market fit:** Ziming Qiu brings academic research credentials in machine learning and computational methods through a PhD at NYU, with published work in IEEE and arXiv. The company's core technology — physics-informed neural networks for CFD acceleration — directly aligns with ML research applied to physics simulation. Kabir Jain's specific domain background is not publicly documented beyond a self-described interest in physics and AI. No advisors, board members, or notable investors (beyond YC) were found in public sources.
 
 ## Key Risks
 
-**Domain expertise gap:** Neither founder has documented background in building science, HVAC engineering, or facilities management. The product requires deep knowledge of building mechanical systems, BMS protocols (BACnet, Modbus), and HVAC controls. Without a domain expert on the team or advisory board, customer credibility and product-market fit development may be slower.
+**Technical performance at production scale:** The company claims 1,000x speedup with 95%+ accuracy on its website, but the case studies (HVAC vents, coastal infrastructure, storm surge) appear to be proof-of-concept demonstrations rather than deployed production systems. No named customers or production deployments are disclosed. Bridging the gap from benchmark demonstrations to reliable 24/7 autonomous building control in diverse real-world environments is a distinct engineering challenge.
 
-**Late-stage competition with funded incumbents:** PassiveLogic ($125M+), BrainBox AI (acquired by Trane Technologies), 75F ($81.3M), and PhysicsX (~$170M) are well-capitalized competitors in overlapping spaces. PassiveLogic and PhysicsX specifically use physics-based approaches. Trane Technologies' acquisition of BrainBox AI gives that technology access to a global HVAC distribution channel that a 2-person pre-seed startup cannot match.
+**Multi-vertical focus diffusion:** The three case studies span building HVAC, coastal infrastructure engineering, and storm surge forecasting — three different verticals requiring different sales channels, domain expertise, and customer relationships. For a 2-person team, this breadth risks spreading resources too thin and delaying product-market fit in any single vertical.
 
-**Case study provenance unclear:** The three case studies on the website (HVAC vent optimization, coastal infrastructure, storm surge forecasting) span disparate domains (buildings, coastal engineering, meteorology). The coastal infrastructure and storm surge use cases are not aligned with the stated building/data center focus. This may indicate these are academic or pre-company demonstrations rather than commercial deployments, and the current building-focused product may be earlier stage than the case studies suggest.
+**Well-funded competitive field:** PassiveLogic has raised $125M+ for physics-based building digital twins with backing from NVIDIA Ventures, Prologis Ventures, and Johnson Controls (PR Newswire, Sep 2025 via search snippet). Trane Technologies acquired BrainBox AI and has global HVAC distribution. EkkoSense is deployed at 300+ data center sites. Cadence offers production-grade CFD digital twins for data centers. Inviscid AI enters this market as a 2-person pre-seed startup competing against well-capitalized incumbents and scale-ups.
 
-**Enterprise sales cycle vs. team capacity:** Building HVAC optimization requires integration with existing BMS infrastructure, on-site sensor deployment, and calibration—all requiring enterprise sales, technical implementation, and ongoing support. A 2-person team handling product development, sales, deployment, and support simultaneously faces significant bandwidth constraints for enterprise deals.
+**Geographic complexity:** The company lists both San Francisco and Singapore as locations (company website, GitHub), with founder LinkedIn profiles on the Singapore domain. Managing operations across two geographies with a 2-person team adds coordination overhead and may create ambiguity about primary market focus.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $1.09B AI-powered digital twin HVAC tuner market in 2024, 23.1% CAGR (The Business Research Company, 2025 via search snippet); $3.30B building digital twin market in 2024, 26.95% CAGR (DataM Intelligence, 2025 via search snippet) |
-| SAM | No public data found |
-| Traction | No public data found. Three case studies on website without named customers (inviscidai.com) |
+| TAM | Building automation: $191.13B by 2030, CAGR 13.4% (MarketsandMarkets, 2025 via search snippet); Data center cooling: $56.15B by 2030, CAGR 16.4% (Grand View Research via search snippet) |
+| SAM | AI in smart buildings: $52.04B (2025) (Precedence Research via search snippet); HVAC optimization ~32% of building automation market (MarketsandMarkets via search snippet) |
+| Traction | Three case study benchmarks on website (240x faster HVAC, 150+ iterations coastal, 600x faster storm surge); no named customers or production deployments disclosed |
 | Revenue Signal | No public data found |
-| Founders | Kabir Jain (Co-founder): NUS High School, IOAI Gold Medalist 2024. Ziming Qiu (Co-founder): NYU ECE PhD candidate, ML/CV researcher |
-| Competitors | PassiveLogic ($125M+ raised, $15M ARR, physics-based building autonomy platform with hardware); BrainBox AI ($103M raised, acquired by Trane Dec 2024, data-driven HVAC AI); 75F ($81.3M raised, ~$7M revenue, IoT smart building automation with 1,800+ deployments); PhysicsX (~$170M raised, revenue unknown, broader physics-AI for engineering) |
-| Moat Signals | Specialized physics-informed neural network approach for building CFD; potential data moat from per-building digital twins over time |
-| Risk Factors | No documented building/HVAC domain expertise on founding team, well-funded competitors in overlapping space (PassiveLogic, PhysicsX), case studies span non-building domains suggesting early product stage |
-| Founder Reach | Kabir Jain: Twitter @kabirj_ (count not retrievable), LinkedIn (not accessible), GitHub not found. Ziming Qiu: Twitter not found, LinkedIn (not accessible), GitHub 0 stars |
-| Distribution Signals | No public data found |
+| Founders | Kabir Jain (Co-founder): physics + AI background, details not publicly documented. Ziming Qiu (Co-founder): PhD student NYU Tandon ECE, published ML researcher (IEEE, arXiv) |
+| Competitors | PassiveLogic ($125M+ raised, revenue unknown, full autonomous building platform); BrainBox AI ($103M raised, acquired by Trane Jan 2025, data-driven HVAC AI); EkkoSense ($50.9M raised, $6.1M revenue 2025, data center cooling analytics); 75F ($45M Series B, revenue unknown, IoT HVAC automation); Cadence (public co., CFD digital twins for data centers) |
+| Moat Signals | Physics-informed neural network expertise; integration of real-time IoT with CFD-grade simulation; per-deployment data flywheel. No patents found. |
+| Risk Factors | Technical proof-of-concept to production gap, multi-vertical focus diffusion, well-funded competitive field |
+| Founder Reach | Kabir Jain: Twitter @kabirj_ (count not retrievable), LinkedIn (sg.linkedin.com/in/kabir-jain-inviscid-ai-yc). Ziming Qiu: Twitter not found, LinkedIn (linkedin.com/in/qiu-ziming/), GitHub (github.com/ziming-qiu) |
+| Distribution Signals | No public data found (no Product Hunt, no press coverage, no app store listings) |
+| Emails | kabir@inviscidai.com |

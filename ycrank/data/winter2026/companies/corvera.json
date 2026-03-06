@@ -1,7 +1,7 @@
 {
   "slug": "corvera",
   "name": "Corvera",
-  "oneLiner": "Fully autonomous operations for CPG brands",
+  "oneLiner": "AI agents for CPG brands",
   "metadata": {
     "website": "https://www.corvera.ai/",
     "yc_page": "https://www.ycombinator.com/companies/corvera",
@@ -9,28 +9,30 @@
     "industry": "B2B / B2B -> Operations",
     "team_size": "4",
     "location": "San Francisco, CA, USA",
-    "tags": "AIOps, Artificial Intelligence, SaaS, B2B, Supply Chain"
+    "tags": "AIOps, SaaS, B2B, Supply Chain, AI",
+    "yc_partner": "Brad Flora",
+    "emails": "founders@corvera.ai"
   },
   "tags": [
     "AIOps",
-    "Artificial Intelligence",
     "SaaS",
     "B2B",
-    "Supply Chain"
+    "Supply Chain",
+    "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T19:32:41.838Z",
+  "memoGeneratedAt": "2026-03-06T05:56:09.586Z",
   "evalScores": {
     "cyan-banister": {
       "score": 36,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 49,
+      "score": 51,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 48,
+      "score": 51,
       "tier": "Neutral"
     },
     "paul-graham": {
@@ -38,7 +40,7 @@
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 36,
+      "score": 33,
       "tier": "Pass"
     },
     "sam-lessin": {
@@ -46,21 +48,21 @@
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 39,
+      "score": 40,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 36,
-    "EG": 49,
-    "NR": 48,
+    "EG": 51,
+    "NR": 51,
     "PG": 60,
-    "PT": 36,
+    "PT": 33,
     "SL": 28,
-    "VK": 39
+    "VK": 40
   },
-  "consolidatedAvg": 42.29,
-  "consolidatedRank": 75,
+  "consolidatedAvg": 42.71,
+  "consolidatedRank": 71,
   "paths": {
     "memo": "winter2026/memos/corvera.md",
     "evals": {

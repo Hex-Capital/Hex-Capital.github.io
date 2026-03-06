@@ -11,117 +11,136 @@
 | Team Size | 12 |
 | Location | San Francisco, CA, USA |
 | Tags | Artificial Intelligence, SaaS, Identity |
+| YC Partner | Tyler Bosmeny |
+| Emails | hello@didit.me |
 
 ## The Idea
 
-**Problem:** Businesses across regulated industries (fintech, crypto, telecom, e-commerce) must verify customer identities for compliance (KYC/AML) and fraud prevention. Existing solutions from legacy providers are fragmented—companies often need to integrate multiple vendors for document verification, biometrics, liveness detection, AML screening, and authentication. These legacy stacks are slow to integrate (weeks), expensive, and opaque in pricing. AI-generated deepfakes and synthetic identities have intensified the fraud threat, making robust identity verification more urgent.
+**Problem:** Businesses that must verify user identities — fintechs, telecom providers, marketplaces, crypto platforms — face a fragmented vendor landscape. Typical KYC/AML compliance requires integrating 3–4 separate tools (document verification, biometrics, liveness detection, AML screening), each with its own pricing, API, and contract. Legacy providers like Onfido (now Entrust IDV), Veriff, and Sumsub charge per-verification fees that can be opaque, with contracts and minimums. Fraud from deepfakes and synthetic identities is increasing, and slow or friction-heavy verification flows cause user drop-off.
 
-**Approach:** Didit bundles ID verification, liveness detection (passive, 3D flash, 3D action), 1:1 face matching, 1:N face search, AML screening, biometric authentication, proof of address, phone/email verification, age estimation, and fraud detection into a single platform accessible via REST API, native SDKs (iOS/Android/Web), no-code workflow builder, or hosted links. The platform analyzes "hundreds of data points" per verification and claims real-time automated decisions with auto-approve/reject logic. It supports 14,000+ document types across 220+ countries and 48+ languages (didit.me).
+**Approach:** Didit consolidates ID verification, passive and active liveness detection, face matching (1:1 and 1:N), AML screening, proof of address, age estimation, phone/email verification, IP analysis, and biometric authentication into a single API-first platform. The system uses AI-driven real-time decisioning across hundreds of fraud signals, including deepfake and spoofing detection. Verification can be deployed via hosted links (no-code), native iOS/Android SDKs, web SDK, iframe embedding, or server-to-server API. A drag-and-drop node-based workflow engine (introduced in Didit v3, January 2026) allows businesses to customize verification sequences without code (Didit changelog, docs.didit.me). Didit also offers an MCP server and programmatic APIs enabling AI agents to run identity verification workflows end-to-end (Didit docs).
 
-**Differentiation:** Didit differentiates from incumbents like Sumsub, Veriff, Persona, and Onfido (now Entrust) on three axes: (1) a free tier of 500 core KYC verifications per month (ID verification, passive liveness, face match, IP analysis) with no time limit—competitors like Sumsub start at $1.35/verification with a $149/month minimum (Sumsub pricing page via search snippet); (2) a pay-per-success model where credits never expire and no contracts or minimums are required, with claimed 70%+ cost savings vs. legacy providers (didit.me/pricing); and (3) integration speed—Didit advertises "go live in minutes, not weeks" and offers migration support specifically for companies switching from Sumsub, Veriff, Persona, or Onfido (didit.me).
+**Differentiation:** Didit claims to be the only company offering a free, unlimited core KYC plan — 500 free checks per month covering ID verification, passive liveness, face match, and IP analysis (didit.me/pricing). By contrast, competitors such as Veriff and Sumsub charge from the first verification. Didit's pricing model is pay-per-success with no contracts, minimums, or setup fees, and per-check add-on costs start at $0.03–$0.20 depending on feature. The company claims 70% cost savings versus legacy providers (didit.me blog, Dec 2025). Didit explicitly markets migration paths from Sumsub, Veriff, Persona, and Onfido (didit.me). Competitors: Persona offers deeper workflow customization for enterprises; Veriff emphasizes speed and coverage; Sumsub provides end-to-end compliance across KYC, KYB, and transaction monitoring; Entrust IDV (formerly Onfido) has enterprise-scale backing.
 
-**Business Model:** Freemium + pay-per-use. The free tier provides 500 checks/month for core KYC features. Premium features are priced per successful verification: ID Verification $0.15, Passive Liveness $0.10, Active Liveness $0.15, Face Match 1:1 $0.05, Face Search 1:N $0.05, AML Screening $0.20, Proof of Address $0.20, Age Estimation $0.10, IP Analysis $0.03, Email Verification $0.03, White Label $0.20, Biometric Auth $0.10, Ongoing AML Monitoring $0.07/user/year (didit.me/pricing). Volume discounts are available via prepaid credit packages (e.g., $68K purchase yields $100K in credits—a 32% discount). Enterprise tier offers custom pricing with dedicated support and SLAs (didit.me/pricing). Self-serve tier has $0/month base cost.
+**Business Model:** Transparent pay-per-use, prepaid credit system where 1 credit = $1 USD with no expiration. Free tier: 500 monthly checks for core KYC features. Per-check pricing (didit.me/pricing):
 
-**TAM/SAM:** The global identity verification market was valued at $13.75B in 2025 and is projected to reach $29.32B by 2030 at a 15.4% CAGR (MarketsandMarkets, 2025 via search snippet). An alternative estimate projects the market reaching $50.58B by 2034 (Fortune Business Insights, 2025 via search snippet). The biometric identity verification sub-segment was $8.88B in 2025, projected to reach $17.81B by 2030 at 14.9% CAGR (MarketsandMarkets, 2025 via search snippet). The KYC, KYB, and onboarding segment accounted for 43.2% of market share in 2025 (MarketsandMarkets, 2025 via search snippet).
+| Feature | Price |
+|---------|-------|
+| ID Verification | $0.15 |
+| Face Match 1:1 | $0.05 |
+| Passive Liveness | $0.10 |
+| Active Liveness | $0.15 |
+| IP Analysis | $0.03 |
+| AML Screening | $0.20 |
+| Proof of Address | $0.20 |
+| Biometric Authentication | $0.10 |
+| Age Estimation | $0.10 |
+| Email Verification | $0.03 |
+| White Label | $0.20 |
+| Ongoing AML Monitoring | $0.07/user/year |
+| Face Search 1:N | Free |
+| Reusable KYC | Free |
 
-**GTM / Distribution:** Self-serve sign-up with a free tier serves as the primary acquisition funnel for SMBs and developers. The company offers no-code hosted verification links and a visual workflow builder to reduce time-to-value. Named customers include GBTC Finance, Bondex, Crnogorski Telekom, CrediDemo, Shiply, Adelantos, and TucanPay (didit.me). The Orange/GSMA Open Gateway partnership integrates Didit with telecom network APIs (Number Verification, SIM Swap) for anti-fraud across mobile operators (Orange Developer, didit.me/blog). The company also lists on software review platforms (Capterra, GetApp, Software Advice) as a discovery channel. A dedicated Head of Sales for LATAM indicates a regional go-to-market focus in Latin America (didit.me/about-us).
+Enterprise tier with custom pricing, dedicated support, and SLAs. Volume discounts available. Users only pay for completed verifications — no charge if users drop off mid-flow.
+
+**TAM/SAM:** The global identity verification market was valued at $14.34 billion in 2025, projected to reach $29.32 billion by 2030 at 15.4% CAGR (MarketsandMarkets, 2025 via search snippet). The biometric identity verification sub-segment was valued at $8.88 billion in 2025, projected to reach $17.81 billion by 2030 at 14.9% CAGR (MarketsandMarkets, 2025 via search snippet). Fortune Business Insights estimates the identity verification market growing from $15.84 billion in 2026 to $50.58 billion by 2034 (Fortune Business Insights via search snippet). The KYC/KYB/onboarding segment holds the largest market share within identity verification (MarketsandMarkets, 2025 via search snippet).
+
+**GTM / Distribution:** Self-serve signup with a free tier acts as a product-led growth funnel. The company targets fintech, telecom, e-commerce, and gaming verticals. Didit lists 1,000+ companies as customers (didit.me) and has a Head of Sales for LATAM (didit.me/about-us), suggesting regional expansion. Integration via Zapier was announced (LinkedIn post). The platform is listed on G2, Capterra, GetApp, and Software Advice review sites. A WordPress plugin (Didit Verify) is available on wordpress.org. The company has a dedicated demo request page (didit.me/get-a-demo).
 
 ## Defensibility
 
-Didit holds ISO 27001, ISO 27017, ISO 27018, and iBeta Level 1 certifications, and is GDPR compliant with full data retention controls (didit.me). These compliance certifications represent a barrier to entry for new competitors, though established incumbents hold similar certifications. The platform supports 14,000+ document types across 220+ countries (didit.me), representing a data and coverage asset that grows with each new market entered. The reusable KYC feature—where end users verify once and reuse credentials across platforms—could create network effects if adopted at scale, as each additional business accepting Didit credentials increases the value for verified users.
+Didit has built its ID verification, biometrics, liveness, and fraud detection stack from scratch (didit.me/about-us), which provides some technical complexity as a barrier. The platform processes "millions of monthly verifications" (YC page), generating data that could improve fraud detection models over time. Supporting 14,000+ government-issued ID document types across 190+ countries (didit.me) represents significant investment in document template coverage. ISO 27001, ISO 27017, ISO 27018, and iBeta Level 1 certifications (didit.me) create some regulatory compliance switching costs. The claimed 300%+ NRR by month 6 and ~90% paid customer retention at month 6 (YC page) suggest emerging switching costs, though these metrics are self-reported and the time horizon is short.
 
-**Market structure:** Legacy identity verification providers (Onfido/Entrust, Jumio) are structured around enterprise sales with long contracts, opaque pricing, and per-verification fees that subsidize sales teams. Didit's free tier and self-serve model targets the long tail of SMBs that incumbents' cost structures make unprofitable to serve. [Inferred]: Incumbents face business model cannibalization risk in matching a free core KYC tier, as it would undercut existing customer contracts.
+**Market structure:** The identity verification market has been consolidating — Entrust acquired Onfido for ~$650M in April 2024 (TechCrunch, Feb 2024). Large incumbents (Entrust, LexisNexis) face business model tension: they charge premium per-verification prices, and matching a free-tier model would cannibalize existing revenue. Didit's aggressive pricing (free core KYC, $0.03–$0.20 per check) is structurally difficult for incumbents to match without undermining their unit economics. However, well-funded startups like Persona ($417.5M raised, $2B valuation) and Veriff ($200M raised, $1.5B valuation) could adopt similar pricing strategies.
 
-**Commoditization risk:** The core technology stack (OCR, biometric matching, liveness detection) is available from multiple providers and underlying model capabilities are improving rapidly. Sumsub, Veriff, Persona, and numerous startups offer similar feature sets. The primary differentiation is pricing and integration speed rather than proprietary technology. The market includes well-funded competitors (Persona at $418M raised, Veriff at $200M, Sumsub at ~$37M) with larger engineering teams.
+**Commoditization risk:** Identity verification APIs are increasingly commoditized at the basic level (document OCR, face matching). Multiple well-funded competitors offer similar feature sets. Differentiation depends on fraud detection accuracy, speed, pricing, and breadth of document coverage. AI model performance for deepfake detection is a potential differentiator but requires continuous investment. The free-tier model creates a pricing moat at the low end but does not protect the enterprise segment.
 
 ## Market & Traction
 
 **Traction signals:**
-- 1,000+ companies using Didit worldwide (didit.me, December 2025)
-- 700+ active B2B customers with ~20% month-over-month growth (YC company page)
-- "Millions of humans verified monthly" (YC company page)
-- 300%+ net revenue retention by month 6 (YC company page)
-- ~90% paid customer retention at month 6 (YC company page)
-- "Close to profitability" as of December 2025 (Alberto Rosas, X post, December 2025)
-- $2M raised from Y Combinator, Saasholic, Hypersphere, Roar VC, Masia VC, and angel investors across US, Brazil, and EU (Didit blog, December 2025)
-- V1 product launched August 2024; V2 launched subsequently (Didit blog)
-- Company founded in 2023; originally incubated within Gamium, a blockchain/metaverse project founded in September 2021 (see pivot note below)
-- Twitter/X: @Diditprotocol — joined February 2023; follower count not retrievable (JavaScript-rendered)
-- LinkedIn: linkedin.com/company/diditprotocol — follower count not retrievable
-- Trustpilot: 5-star rating from ~50 reviews (Trustpilot via search snippet)
-- Listed on Capterra, GetApp, and Software Advice with positive reviews (via search snippet)
-- Mobile apps available: iOS (App Store, requires iOS 16.0+) and Android (Google Play) — a self-custody digital identity wallet for consumers (App Store/Google Play via search snippet)
-- Orange/GSMA Open Gateway partnership: integrated Number Verification and SIM Swap APIs under CAMARA standards (Orange Developer, didit.me/blog)
+- 1,000+ companies using Didit (didit.me, as of March 2026)
+- 700+ B2B customers with ~20% month-over-month growth (YC page)
+- "Millions of monthly verifications" (YC page)
+- 300%+ Net Revenue Retention by month 6 (YC page)
+- ~90% paid customer retention at month 6 (YC page)
+- "Near-profitable" at time of YC entry, December 2025 (didit.me blog, Dec 2, 2025)
+- $2M raised from Y Combinator, Saasholic, Hypersphere, Roar VC, Masia VC, and other investors across US, Brazil, and EU (didit.me blog, Dec 2, 2025)
 - Named customers: GBTC Finance, Bondex, Crnogorski Telekom, CrediDemo, Shiply, Adelantos, TucanPay (didit.me)
-- No Product Hunt launch found
-
-**Pivot note:** Didit originated as an identity protocol within Gamium, a blockchain/metaverse venture founded in September 2021 by the same twin founders. Gamium launched the GMM token in March 2022 and had partnerships with Meta and Telefónica/Wayra (CoinDesk, February 2023). The current Didit identity verification platform (V1 launched August 2024) represents a pivot from Web3/blockchain identity toward a B2B SaaS identity verification product. Prior Gamium/Web3 metrics (token price, partnerships) should not be conflated with current-product traction.
+- Trustpilot: 3.6/5, 16 reviews (Trustpilot)
+- iOS App (Didit wallet): 4.3/5, 6 ratings, Finance category (Apple App Store)
+- Listed on G2, Capterra, GetApp, Software Advice (search results)
+- LinkedIn: 458 followers (LinkedIn via search snippet)
+- Twitter/X: @Diditprotocol — follower count not retrievable (JavaScript-rendered page)
+- Instagram: @diditbusiness and @didit.app (didit.me/about-us via search snippet)
+- YouTube: @DiditProtocol (didit.me/about-us via search snippet)
+- GitHub: didit-protocol org — 22 repos, 20 followers; top repo didit-full-demo has 10 stars (GitHub)
+- Product Hunt: Listed at producthunt.com/products/didit-3 (Product Hunt via search snippet); specific upvote count not retrieved
+- WordPress plugin: Didit Verify available on wordpress.org (search result)
+- Supports 48 languages, 190+ countries, 14,000+ ID document types (didit.me)
+- Compliance certifications: ISO 27001, ISO 27017, ISO 27018, GDPR, iBeta Level 1 (didit.me)
 
 **Competitive landscape:**
 
-| Competitor | Funding | Revenue/ARR | Key Differentiator vs. Didit |
-|-----------|---------|-------------|------------------------------|
-| Persona | $418M raised, $2B valuation (Series D, April 2025; PRNewswire) | Revenue unknown | Top-ranked for execution in Gartner Magic Quadrant (2025); deep enterprise focus with orchestration and case management; significantly larger scale and customer base |
-| Sumsub | ~$37M raised (Crunchbase via search snippet) | $85.6M revenue in 2024 (Getlatka via search snippet) | 2,000–4,000 customers; Gartner MQ Leader; strong crypto/fintech vertical; higher price point ($1.35/verification, $149/mo minimum) |
-| Veriff | $200M raised, $1.5B valuation (Series C, 2022; TechCrunch) | $41.6M revenue in 2024 (Getlatka via search snippet) | Video-based verification; 10,000+ document types; 75% YoY revenue growth Q4 2024; unicorn status |
-| Onfido (now Entrust) | Acquired by Entrust for ~$650M (TechCrunch, February 2024) | £140M+ revenue pre-acquisition (TechCrunch via search snippet) | 1,200+ business customers; now part of Entrust's broader security portfolio; strong enterprise/compliance positioning |
+| Competitor | Funding | Revenue | Key Differentiator vs. Didit |
+|------------|---------|---------|------------------------------|
+| Persona | $417.5M total, $200M Series D at $2B valuation (Apr 2025) (PRNewswire, Apr 2025 via search snippet) | $141.2M (Latka, Oct 2024 via search snippet) | Deeper workflow customization and orchestration for complex enterprise use cases; serves large fintechs like Square and Robinhood |
+| Veriff | $200M total, $100M Series C at $1.5B valuation (Veriff blog) | $41.6M, 75% YoY revenue growth in Q4 2024 (Latka, Oct 2024 via search snippet; GlobeNewsWire, Jan 2025 via search snippet) | Strong biometric accuracy benchmarks; 12,000+ document types across 230+ countries; established trust-and-safety brand |
+| Sumsub | $7.5M total (Crunchbase via search snippet) | $85.6M (Latka, Oct 2024 via search snippet) | End-to-end KYC/KYB/AML with transaction monitoring; strong presence in crypto and gaming verticals; capital-efficient growth |
+| Entrust IDV (formerly Onfido) | Acquired by Entrust for ~$650M (Apr 2024) (TechCrunch, Feb 2024 via search snippet) | ~$109M (Onfido FY ending Jan 2024) (Biometric Update, Feb 2025 via search snippet) | Enterprise-grade backing from Entrust's security/PKI infrastructure; strong in regulated financial services |
+| iDenfy | No public data found | No public data found | Focuses on SMB segment with competitive pricing; provides business verification alongside individual KYC |
 
-**Why now:** [Inferred]: Several catalysts have converged: (1) AI-generated deepfakes and synthetic identities have become commercially available, dramatically increasing fraud risk and making advanced liveness detection a necessity rather than a luxury; (2) global regulatory expansion—EU's eIDAS 2.0, evolving KYC requirements in LATAM and APAC—has widened the addressable market; (3) the GSMA Open Gateway initiative (launched 2023–2024) has standardized telecom network APIs for identity signals like SIM Swap and Number Verification, enabling new fraud-prevention integrations; and (4) the cost of AI inference has dropped significantly, making it economically viable to offer free core KYC at scale.
+**Why now:**
+- [Inferred]: The rise of generative AI and deepfake technology has dramatically increased identity fraud risk, making real-time AI-driven fraud detection a necessity rather than a nice-to-have. Regulatory pressure (EU's eIDAS 2.0, expanded KYC requirements in LATAM and APAC) is forcing more businesses to adopt identity verification. The cost and complexity of legacy providers (multi-vendor integrations, opaque pricing) has created demand for simpler, cheaper alternatives — particularly among fintechs and crypto platforms scaling in emerging markets.
 
 ## Founders & Team
 
-**Alberto Rosas Garcia** — Co-founder & CEO
-- From Barcelona, Spain; identical twin of Alejandro Rosas
-- Former professional tennis player; played at University of the Cumberlands (Freshman, 2015–16 season) (cumberlandspatriots.com)
-- MSc Mathematics, Universitat Politècnica de Catalunya (2020–2021) (Crunchbase via search snippet)
-- Started programming at age 12; background in software and AI engineering (didit.me/about-us)
-- Previously co-CEO of Gamium (blockchain/metaverse venture, founded 2021) (TheOrg via search snippet)
-- Twitter/X: @albertorosasg — follower count not retrievable (JavaScript-rendered)
-- LinkedIn: linkedin.com/in/albertorosasg — "CEO of Didit (YC W26)"
-- GitHub: github.com/rosasalberto — 9 public repos, 47 followers; pinned repo: StyleGAN2-TensorFlow-2.x (143 stars, 42 forks) (GitHub)
+**Alberto Rosas** — Co-founder & CEO
+- Former professional tennis player; transitioned to software and AI engineering
+- Studied Mathematics in the U.S. (didit.me/about-us)
+- Background in Machine Learning and Blockchain technologies (YC page, didit.me/about-us)
+- Co-founded Gamium (metaverse/SocialFi platform) in September 2021 with twin brother Alejandro and others; Didit was originally built as identity infrastructure for Gamium before spinning out as a standalone product (Gamium Medium, Gate.io via search snippet)
+- Twitter/X: @albertorosasg — follower count not retrievable
+- LinkedIn: linkedin.com/in/albertorosasg — "Didit (YC W26)"
+- GitHub: github.com/rosasalberto — 9 repos, 47 followers; pinned repo StyleGAN2-TensorFlow-2.x has 143 stars, mil (multiple instance learning library) has 65 stars (GitHub)
 
-**Alejandro Rosas Garcia** — Co-founder & CTO
-- From Barcelona, Spain; identical twin of Alberto Rosas
-- Former professional tennis player
-- BS Mathematics, New Mexico State University; Mathematics Teaching Assistant there (August 2018 – May 2019) (ContactOut via search snippet)
-- Data Analyst / Data Scientist at Oracle (October 2019 – October 2020) (ContactOut via search snippet)
-- Previously co-CEO/CTO of Gamium (TheOrg via search snippet)
-- Skills include React Native, AWS, Java, Python, SQL, Machine Learning (LinkedIn via search snippet)
-- Twitter/X: @_arosasg (referenced in search results) — follower count not retrievable
-- LinkedIn: linkedin.com/in/alejandrorosasgarcia — "co-CEO/CTO at Didit"
-- GitHub: No public account found under confirmed handle
+**Alejandro Rosas** — Co-founder & CTO
+- Former professional tennis player; studied Mathematics in the U.S. (didit.me/about-us)
+- Built AI systems at Oracle in Silicon Valley (didit.me/about-us)
+- Co-founded Gamium with Alberto (Gamium Medium, Gate.io via search snippet)
+- Twitter/X: @_arosasg — follower count not retrievable
+- LinkedIn: linkedin.com/in/alejandrorosasgarcia — "Didit"
+- GitHub: No public repos found under personal account
 
-**Co-founder relationship:** Alberto and Alejandro are identical twin brothers from Barcelona, Spain. They have worked together since childhood (programming since age 12), both pursued professional tennis, both attended U.S. universities on tennis scholarships, and co-founded Gamium together in 2021 before pivoting to Didit.
+**Additional team members** (from didit.me/about-us): Hector Carrillo (CFO, finance background via U.S. tennis scholarship), Joan Sosa (COO, engineering career), Marcos Riosalido (DevOps, 30+ years IT), Khalid Eddib (Frontend Developer), Alex Pinilla (Full-Stack Developer, biometric ID systems since 2018), Adrián Pardo (Finance Accountant), Francesc Carbó (Art Designer), Victor Navarro (Marketing Specialist), Guillem Medina (Customer Success Manager), Jose Hernandez (Head of Sales LATAM).
 
-**Founder-market fit:** Both founders have mathematics backgrounds (MSc and BS respectively) relevant to building AI/ML-based verification systems. Alberto's GitHub shows machine learning work (StyleGAN2 implementation with 143 stars), indicating hands-on AI engineering capability. Alejandro's Oracle data science experience provides relevant enterprise data infrastructure knowledge. Their prior Gamium/Web3 work involved identity protocols, giving them domain context in digital identity — though the current B2B SaaS product represents a significant strategic shift from their blockchain origins.
+**Co-founder relationship:** Alberto and Alejandro Rosas are identical twins who have built projects together since age 12 (didit.me/about-us). Both were professional tennis players, both studied Mathematics in the U.S., and both co-founded Gamium in 2021 before building Didit.
 
-**Additional leadership:** The team of ~12 includes Hector Carrillo (CFO), Joan Sosa (COO), Marcos Riosalido (DevOps, 30+ years IT), Alex Pinilla (full-stack, building biometric ID systems since 2018), and Jose Hernandez (Head of Sales LATAM) (didit.me/about-us).
-
-**YC Partner:** Tyler Bosmeny (YC company page).
+**Founder-market fit:** Alberto's GitHub profile demonstrates hands-on ML expertise (StyleGAN2 implementation with 143 stars, multiple instance learning library with 65 stars). Alejandro's experience building AI at Oracle in Silicon Valley provides enterprise-scale engineering background. Their prior experience building Gamium's identity infrastructure directly led to the creation of Didit as a standalone identity verification product, providing domain-specific experience in the problem space. Alex Pinilla (full-stack developer) has been building biometric ID systems since 2018.
 
 ## Key Risks
 
-**Pivot history and brand confusion:** Didit originated as a Web3/blockchain identity protocol within Gamium, which launched a crypto token (GMM) in 2022 and operated in the metaverse space. The current B2B SaaS identity verification product (V1 launched August 2024) is a fundamentally different business. The Gamium entity and GMM token still exist on CoinMarketCap. This creates potential brand confusion and due diligence concerns for enterprise customers who may discover the crypto origins. The HackerNoon interview with Alberto Rosas describes a "wallet-based identity management" product that differs substantially from the current KYC/AML platform.
+**Pivot history and Web3 origin:** Didit originated as decentralized identity infrastructure for Gamium, a metaverse/SocialFi platform with a token ($GMM). The GitHub organization is still named "didit-protocol," the whitepaper lives at whitepaper.didit.me, and $GMM token holders were offered airdrops tied to Didit's growth (Gamium Medium via search snippet). This Web3 lineage may raise questions for enterprise B2B buyers about the company's focus and positioning. The relationship between the current B2B identity verification product and the earlier decentralized protocol/wallet product warrants clarification.
 
-**Incumbents with deep moats in enterprise:** Persona ($418M raised, $2B valuation, Gartner MQ leader for execution), Sumsub ($85.6M revenue, Gartner MQ leader), and Veriff ($200M raised, unicorn) have established enterprise customer bases, compliance certifications, and sales teams. Onfido's acquisition by Entrust for ~$650M demonstrates that incumbents are consolidating. Didit's $2M in funding and 12-person team must compete for the same enterprise contracts.
+**Pricing sustainability at scale:** Didit offers 500 free core KYC checks per month and per-check pricing starting at $0.03. While this aggressive pricing is a customer acquisition lever, maintaining it while approaching profitability requires high verification volumes and operational efficiency. Competitors like Sumsub have achieved $85.6M revenue on only $7.5M in funding (Latka, Oct 2024 via search snippet), suggesting capital-efficient growth is possible — but Didit's pricing is materially lower than Sumsub's, compressing margins further.
 
-**Free tier economics sustainability:** Didit's core differentiator—500 free KYC verifications/month—requires subsidizing infrastructure costs (AI inference, document processing, biometric matching) for potentially thousands of non-paying users. If conversion from free to paid is low, this model could become a cash drain as the customer base grows, particularly given that the company has only raised $2M.
+**Competitive intensity from well-funded players:** Persona ($417.5M raised, $2B valuation), Veriff ($200M raised, $1.5B valuation), and Entrust (public company that acquired Onfido for $650M) have substantially more capital, brand recognition, and enterprise sales capacity. Persona specifically positions itself as "the verified identity layer for an agentic AI world" (PRNewswire, Apr 2025) — directly overlapping with Didit's messaging and AI agent support.
 
-**Regulatory and certification dependency:** Identity verification is a heavily regulated space. Didit must maintain and extend compliance certifications (ISO 27001, iBeta, GDPR) across every market it enters. New regulations (e.g., EU AI Act requirements for biometric systems, evolving AML directives) could require substantial engineering investment that strains a 12-person team.
+**Brand disambiguation:** "Didit" shares its name with Didit (didit.com), a long-established digital marketing agency. Search results frequently conflate the two entities, which could create confusion for potential customers and complicate SEO/brand building.
 
-**Commoditization of core technology:** The underlying technology stack (OCR, face matching, liveness detection) is increasingly available via open-source models and cloud AI services. Multiple startups and incumbents offer similar capabilities. Pricing advantages can be matched, and the barrier to building a competing product is decreasing as AI model costs fall.
+**Self-reported metrics:** The traction metrics cited (700+ customers, 20% MoM growth, 300%+ NRR, ~90% retention, "near-profitable") are sourced from the company's own blog post and YC page. No independent verification of these figures is available in public sources.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $13.75B identity verification market in 2025, projected $29.32B by 2030 at 15.4% CAGR (MarketsandMarkets, 2025 via search snippet) |
-| SAM | No public data found |
-| Traction | 1,000+ companies (didit.me, Dec 2025); 700+ active B2B customers with ~20% MoM growth (YC page); "millions verified monthly" (YC page); 300%+ NRR at month 6 (YC page); ~90% paid retention at month 6 (YC page); Trustpilot 5 stars / ~50 reviews |
-| Revenue Signal | Pay-per-use pricing from $0.03–$0.20/verification with 500 free core checks/month (didit.me/pricing); "close to profitability" as of Dec 2025 (Alberto Rosas, X); $2M raised (Didit blog, Dec 2025) |
-| Founders | Alberto Rosas (CEO): MSc Mathematics UPC, ex-pro tennis, AI/ML engineer, co-founded Gamium. Alejandro Rosas (CTO): BS Mathematics NMSU, ex-Oracle data scientist, co-founded Gamium |
-| Competitors | Persona ($418M raised, $2B valuation, revenue unknown, Gartner MQ leader for execution); Sumsub (~$37M raised, $85.6M revenue 2024, Gartner MQ leader, higher price point); Veriff ($200M raised, $1.5B valuation, $41.6M revenue 2024, video-based verification); Onfido/Entrust (acquired $650M, £140M+ revenue, enterprise portfolio) |
-| Moat Signals | Free core KYC tier (unique among major competitors); 14,000+ document types/220+ countries coverage; ISO 27001/27017/27018 and iBeta Level 1 certifications; reusable KYC feature (potential network effects); Orange/GSMA Open Gateway integration |
-| Risk Factors | Pivot from Web3/crypto origins creating brand confusion, well-funded incumbents dominating enterprise, free tier economics sustainability |
-| Founder Reach | Alberto Rosas: Twitter @albertorosasg (count not retrievable), LinkedIn linkedin.com/in/albertorosasg, GitHub 143 stars (StyleGAN2 repo). Alejandro Rosas: Twitter @_arosasg (count not retrievable), LinkedIn linkedin.com/in/alejandrorosasgarcia, GitHub not found |
-| Distribution Signals | Free tier self-serve funnel; Capterra/GetApp/Software Advice listings; iOS and Android consumer app; Orange/GSMA partnership; Head of Sales LATAM; no Product Hunt launch found |
+| TAM | $14.34B in 2025, projected $29.32B by 2030 at 15.4% CAGR (MarketsandMarkets, 2025 via search snippet); biometric IDV sub-segment $8.88B in 2025, projected $17.81B by 2030 at 14.9% CAGR (MarketsandMarkets, 2025 via search snippet) |
+| SAM | No public data found for Didit's specific serviceable segment |
+| Traction | 1,000+ companies (didit.me); 700+ B2B customers, ~20% MoM growth, millions of monthly verifications (YC page); 300%+ NRR by month 6, ~90% paid retention at month 6 (YC page); "near-profitable" Dec 2025 (didit.me blog) |
+| Revenue Signal | Free tier: 500 checks/month; paid per-check pricing $0.03–$0.20 (didit.me/pricing); prepaid credits, no contracts/minimums; enterprise tier with custom pricing |
+| Founders | Alberto Rosas (CEO): ML/AI engineer, pro tennis player, studied Math in U.S., co-founded Gamium. Alejandro Rosas (CTO): AI at Oracle, pro tennis player, studied Math in U.S., co-founded Gamium. |
+| Competitors | Persona ($417.5M raised, $141.2M revenue, deeper enterprise workflow orchestration); Veriff ($200M raised, $41.6M revenue, biometric accuracy leader); Sumsub ($7.5M raised, $85.6M revenue, end-to-end compliance); Entrust IDV (acquired for $650M, ~$109M revenue, enterprise security infrastructure) |
+| Moat Signals | Proprietary full-stack built from scratch; 14,000+ document templates across 190+ countries; ISO 27001/27017/27018 and iBeta certifications; claimed 300%+ NRR and 90% retention at month 6 (YC page) |
+| Risk Factors | Web3/Gamium origin may complicate B2B positioning, aggressive pricing sustainability, intense competition from well-funded incumbents |
+| Founder Reach | Alberto Rosas: Twitter @albertorosasg (count not retrievable), LinkedIn linkedin.com/in/albertorosasg, GitHub 47 followers / 143 stars top repo. Alejandro Rosas: Twitter @_arosasg (count not retrievable), LinkedIn linkedin.com/in/alejandrorosasgarcia, GitHub not found. |
+| Distribution Signals | Product Hunt listing (producthunt.com/products/didit-3); G2, Capterra, GetApp, Software Advice listings; WordPress plugin (wordpress.org); Zapier integration; iOS app 4.3/5, 6 ratings (App Store); Trustpilot 3.6/5, 16 reviews; LinkedIn 458 followers (via search snippet) |
+| Emails | hello@didit.me |

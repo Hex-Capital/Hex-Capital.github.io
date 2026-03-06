@@ -9,7 +9,9 @@
     "industry": "B2B / B2B -> Operations",
     "team_size": "3",
     "location": "San Francisco, CA, USA",
-    "tags": "Artificial Intelligence, Generative AI, Customer Success, Conversational AI"
+    "tags": "Artificial Intelligence, Generative AI, Customer Success, Conversational AI",
+    "yc_partner": "Jon Xu",
+    "emails": "founders@pollen.cx"
   },
   "tags": [
     "Artificial Intelligence",
@@ -18,48 +20,48 @@
     "Conversational AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T19:38:55.051Z",
+  "memoGeneratedAt": "2026-03-06T06:13:52.457Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 26,
+      "score": 27,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 33,
+      "score": 40,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 31,
+      "score": 30,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 38,
+      "score": 37,
       "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 24,
+      "score": 23,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 21,
+      "score": 20,
       "tier": "Strong Pass"
     },
     "vinod-khosla": {
-      "score": 32,
+      "score": 34,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 26,
-    "EG": 33,
-    "NR": 31,
-    "PG": 38,
-    "PT": 24,
-    "SL": 21,
-    "VK": 32
+    "CB": 27,
+    "EG": 40,
+    "NR": 30,
+    "PG": 37,
+    "PT": 23,
+    "SL": 20,
+    "VK": 34
   },
-  "consolidatedAvg": 29.29,
-  "consolidatedRank": 189,
+  "consolidatedAvg": 30.14,
+  "consolidatedRank": 184,
   "paths": {
     "memo": "winter2026/memos/pollen.md",
     "evals": {

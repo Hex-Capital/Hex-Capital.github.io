@@ -11,107 +11,127 @@
 | Team Size | 3 |
 | Location | San Francisco, CA, USA |
 | Tags | Artificial Intelligence, Generative AI, Customer Success, Conversational AI |
+| YC Partner | Jon Xu |
+| Emails | founders@pollen.cx |
 
 ## The Idea
 
-**Problem:** Customer success teams at growing SaaS companies struggle to monitor every account for churn risk and upsell opportunities. As account loads grow, CSMs cannot manually track signals across email, support tickets, product usage data, and CRM systems. Existing solutions (Gainsight, Totango, ChurnZero) are enterprise-grade platforms designed for large CS orgs, leaving mid-market and earlier-stage companies with manual workflows or tools that are expensive and complex to implement. The company describes itself as "designed for companies still building their customer success motion, where relationships matter most and every hire counts" (pollen.cx via search snippet).
+**Problem:** Customer success managers (CSMs) each manage 40+ accounts while piecing together data from 5+ tools (email, CRM, support tickets, product usage analytics). The result is missed churn signals, overlooked upsell opportunities, and a default response of hiring more headcount rather than improving efficiency (YC launch page). Existing customer success platforms (Gainsight, ChurnZero, Vitally) function primarily as dashboards that require human interpretation rather than proactive agents that surface action items autonomously.
 
-**Approach:** Pollen deploys AI agents that continuously monitor every customer account by connecting to email, support tickets, product usage, and CRM data. The agents detect churn and upsell signals, then surface prioritized alerts to CS teams with specific recommended actions. Capabilities include automated email drafting, QBR deck preparation, renewal strategy building, and a conversational AI interface for cross-account insights (YC company page).
+**Approach:** Pollen deploys dedicated AI agents per customer account that run 24/7. The agents connect to email, support tickets, product usage data, CRM systems, and external news sources (e.g., detecting new office openings). They synthesize signals across these data streams to detect churn risks and expansion opportunities, then generate a prioritized daily list of accounts that need attention along with specific recommended next steps. In-platform, Pollen can draft re-engagement emails, prepare QBR (Quarterly Business Review) decks, build renewal strategies, and answer ad-hoc strategic questions (YC launch page).
 
-**Differentiation:** Existing customer success platforms (Gainsight, Totango, ChurnZero) are primarily workflow and analytics tools that have added AI features on top of legacy architectures. Gainsight requires significant implementation and is priced for enterprise teams. Vitally targets smaller teams but is a dashboard-first tool with AI as an add-on. Pollen's approach is agent-first: rather than requiring CSMs to navigate dashboards and configure playbooks, the AI agent proactively surfaces what needs attention and generates the next action. [Inferred]: This positions Pollen as an "AI-native" alternative that requires less configuration and delivers value faster than incumbent platforms.
+**Differentiation:** Pollen positions against legacy CS platforms (Gainsight, ChurnZero, Totango) as an "AI teammate" vs. a "dashboard." Legacy platforms aggregate data and visualize health scores but rely on CSMs to interpret and act. Pollen claims to automate the interpretation layer — detecting usage dips, support ticket sentiment shifts, and expansion signals — and prescribing specific actions. Compared to newer AI-native entrants like QuadSci (focused on product telemetry and churn prediction), Pollen emphasizes a broader data surface (email, support, CRM, and external news) and action generation (email drafting, QBR prep) rather than prediction alone.
 
-**Business Model:** No public pricing page found. [Inferred]: Most likely monetization path is a SaaS subscription, potentially priced per-seat (CSM) or per-account monitored, consistent with industry norms for CS platforms. The B2B SaaS model aligns with the product's integration-heavy, ongoing-monitoring approach.
+**Business Model:** No public pricing page was found on pollen.cx (website content did not render via fetch). [Inferred]: Most likely monetization path is a SaaS subscription, potentially priced per-seat (per CSM) or per-account-monitored, given the per-account AI agent model and B2B customer success buyer profile.
 
-**TAM/SAM:** The customer success software market was estimated at $2.20 billion in 2025, projected to reach $5.99 billion by 2030 at a 22.18% CAGR (Mordor Intelligence, 2025 via search snippet). The broader AI for customer service market was estimated at $12.06 billion in 2024, projected to reach $47.82 billion by 2030 at 25.8% CAGR (Axis Intelligence, 2025 via search snippet). [Inferred]: Pollen's SAM is the subset of the CS software market serving mid-market SaaS companies that cannot afford or justify enterprise-grade platforms like Gainsight.
+**TAM/SAM:** The global customer success software market was estimated at $2.20 billion in 2025 (Mordor Intelligence via search snippet), growing at approximately 21.7% CAGR to reach an estimated $5.99 billion by 2030 (Mordor Intelligence via search snippet). Other estimates range from $2.34B (SkyQuest via search snippet) to $2.67B (Value Market Research via search snippet) for 2025, reflecting differences in scope definitions. [Inferred]: Pollen's SAM is the subset of B2B SaaS companies with dedicated CS teams (typically 50+ employees with post-sales functions), which represents a fraction of the total market. No public SAM estimate specific to AI-native CS agent tools was found.
 
-**GTM / Distribution:** No public GTM data found. [Inferred]: Most likely distribution path is direct sales to mid-market SaaS companies, potentially leveraging YC network for initial customers. The product's integration requirements (email, CRM, support tickets, product usage) suggest a sales-assisted motion rather than pure self-serve. YC Demo Day (March 24, 2026) serves as an initial distribution event.
+**GTM / Distribution:** Pollen's YC launch page solicits introductions to "founders, CS leaders, and revenue heads" and offers a demo booking link (cal.com/pollencx/pollen-demo) (YC launch page). [Inferred]: Most likely distribution path is founder-led sales targeting mid-market SaaS companies, leveraging the YC network for initial pipeline. The product's multi-integration setup (email, CRM, support, product usage) suggests a consultative sales motion with a meaningful onboarding process.
 
 ## Defensibility
 
-No defensibility signals found in public sources at this stage.
+No strong moat signals are identifiable from public sources at this stage. The product's value depends on multi-source data integration and AI-driven interpretation, which are capabilities that incumbents (Gainsight, ChurnZero) are actively building into their platforms.
 
-[Inferred]: Potential moat could develop via data network effects — as the agent monitors more accounts across more customers, the model could improve at identifying churn/upsell patterns specific to industry verticals or company stages. Switching costs could develop as the product becomes embedded in CS workflows and accumulates account-level historical context. However, both are unproven at this stage.
+[Inferred]: Potential defensibility could develop via: (1) proprietary training data from customer success interactions across multiple accounts, enabling progressively better churn/upsell predictions; (2) switching costs once Pollen is integrated into a company's email, CRM, support, and product usage stack; (3) workflow lock-in if CSMs adopt Pollen as their daily operating system for account management. None of these are proven at this stage.
 
-**Market structure:** The incumbent CS platforms (Gainsight, Totango/Catalyst, ChurnZero) have invested heavily in workflow-based architectures. Rebuilding as agent-first products would require significant re-architecture and could disrupt their existing enterprise customer base that has configured complex playbooks and workflows. [Inferred]: However, these incumbents are actively adding AI features (Totango's Unison AI, Vitally's embedded AI copilot, ChurnZero's Customer Success AI), so the structural barrier is partial — incumbents may lag in agent-native UX but can layer AI onto existing products.
+**Market structure:** Incumbents like Gainsight (acquired by Vista Equity at $1.1B) and ChurnZero ($180.8M revenue in 2024, per getlatka via search snippet) have large existing customer bases and established integrations. However, their business models are built on dashboard-and-analytics paradigms with per-seat pricing and professional services revenue streams. [Inferred]: Adopting a fully autonomous AI-agent architecture could cannibalize per-seat revenue (fewer CSMs needed = fewer seats sold) and disrupt their professional services model, creating a structural disincentive for incumbents to fully embrace AI-agent-based automation. This is a plausible but unproven structural barrier.
 
-**Commoditization risk:** The core technology stack (LLM integration, data connectors to CRM/email/support systems, churn scoring) is replicable by well-funded competitors. Multiple AI agent startups are entering adjacent B2B workflows. The incumbents listed above are all adding AI capabilities. Differentiation will likely depend on execution quality of the agent recommendations, depth of integrations, and go-to-market speed.
+**Commoditization risk:** The core capabilities — LLM-based analysis of customer data, churn prediction, email drafting — are technically reproducible by any team with access to foundation models and integration APIs. Gainsight, Vitally (with "Vitally AI"), and Totango (with "Unison AI") are all shipping AI features natively. QuadSci ($8M Series A, Feb 2026, per AlleyWatch) is a direct AI-native competitor focused on churn prediction. The barrier to entry is low at the technology layer; differentiation will depend on integration depth, prediction accuracy, and workflow adoption.
 
 ## Market & Traction
 
-**Traction signals:** No public traction data found for Pollen (the current product). No Product Hunt launch, no press coverage, no app store listings, no public user counts, and no revenue data found. The company website (pollen.cx) did not render substantive content at time of research (Framer-hosted site returned CSS/JS only). No LinkedIn company page specific to Pollen (pollen.cx) was identified among multiple companies named "Pollen." No Twitter/X account specific to Pollen (the customer success product) was found.
+**Traction signals:**
+- YC Launch page: 25 upvotes (YC launch page)
+- Twitter/X: @pollen_cx — 27 followers, joined February 2026 (X.com via search)
+- LinkedIn company page: linkedin.com/company/pollencx — follower count not retrievable (LinkedIn)
+- Y Combinator posted about Pollen on LinkedIn (activity ID 7430325320345534464) (LinkedIn via search)
+- Appeared in AI Startup Trends March 2026 blog roundup (blog.mean.ceo via search snippet)
+- Demo booking available via cal.com/pollencx/pollen-demo (YC launch page)
+- Crunchbase page exists under slug "streetteam-software" (Crunchbase via search snippet)
+- No public revenue, user counts, customer logos, or growth metrics found
+- No Product Hunt listing found for Pollen (pollen.cx)
+- No press coverage in named publications beyond YC launch and one blog roundup
+- No Discord or Slack community found
+- No app store listings, Chrome extension, or download counts found
+- Company is not currently hiring (YC page)
 
-The team's prior product, Daymi (YC S25), an AI clone for iMessage, launched on Product Hunt in August 2025 (Product Hunt via search snippet). Daymi is a separate consumer product unrelated to customer success; its traction should not be attributed to Pollen.
-
-Noah Yin's Twitter/X handle is @noah_yin7 (X.com); follower count not retrievable. LinkedIn headline: listed as "Pollen" (LinkedIn via search snippet). Aldrin Ong's LinkedIn headline: "Co-Founder & CTO @ Daymi (YC S25)" at time of research (LinkedIn via search snippet). Jeffrey Yum's LinkedIn headline: "Co-Founder @ Pollen (YC W26)" (LinkedIn via search snippet).
+**Prior product (Daymi, YC S25):** The same three founders previously built Daymi, a personal AI clone for iMessage, part of Y Combinator's Summer 2025 batch (Product Hunt listing; getprog.ai via search snippet). Daymi was described as an AI companion that remembers conversations, clones your texting style, and writes daily journals. According to a LinkedIn post by Noah Yin, a YC partner challenged them to prove the journal app could become a billion-dollar company; given two weeks to "find the bigger idea," they pivoted (getprog.ai via search snippet). Daymi raised $500K in a seed round on April 14, 2025 (Tracxn via search snippet). The pivot from Daymi (B2C AI companion) to Pollen (B2B customer success AI) represents a significant market and product shift. The founders maintained the same CEO/CTO/COO role split across both ventures. Daymi metrics should not be conflated with Pollen.
 
 **Competitive landscape:**
 
-1. **Gainsight** — ~$187M total raised; $200M revenue in 2025 (Latka, 2025 via search snippet); acquired by Vista Equity Partners. Enterprise-focused with complex implementation. Differentiation vs. Pollen: Gainsight is a full-suite enterprise platform requiring dedicated admin and implementation cycles; Pollen targets companies building their CS motion from scratch with an agent-first approach.
+| Competitor | Funding | Revenue/ARR | Key differentiator vs. Pollen |
+|------------|---------|-------------|-------------------------------|
+| **Gainsight** | $187M raised; acquired by Vista Equity at $1.1B (Crunchbase via search snippet) | $200M revenue in 2025 (getlatka via search snippet) | Enterprise-grade CS platform with broadest feature set and largest market share; dashboard-oriented vs. Pollen's agent-oriented approach |
+| **ChurnZero** | $34.5M raised (Crunchbase via search snippet) | $180.8M revenue in 2024 (getlatka via search snippet) | Mid-market focus with real-time churn detection and automated playbooks; 40K customers established |
+| **Vitally** | $40.5M raised, Series B (TechCrunch, Feb 2023) | Revenue unknown | Strongest product usage tracking with 85% user adoption rate; "Vitally AI" built natively into platform |
+| **Planhat** | $50M Series A, Apr 2022 (Crunchbase via search snippet) | $33M revenue in 2024 (getlatka via search snippet) | Flexibility and data warehouse extensibility; European presence |
+| **QuadSci** | $8M Series A, Feb 2026 (AlleyWatch) | Revenue unknown | AI-native churn prediction from product telemetry; claims 94% accuracy 12-18 months before renewal; most direct AI-native competitor |
 
-2. **Totango/Catalyst** — $149M raised by Totango (Crunchbase via search snippet); $63.4M raised by Catalyst (Crunchbase via search snippet); merged in February 2024 (TechCrunch, Feb 2024 via search snippet). Offers "composable" CSP with schema-less data model and Unison AI. Differentiation vs. Pollen: Totango/Catalyst is a merged enterprise platform focused on "customer-led growth" for large organizations; Pollen is lighter-weight and agent-native.
-
-3. **ChurnZero** — ~$37.6M raised (PitchBook via search snippet); $180.8M revenue in 2024 (Latka, 2024 via search snippet). Strong mid-market position with CS AI features. Differentiation vs. Pollen: ChurnZero is the closest competitor in the mid-market segment; Pollen's agent-first design differs from ChurnZero's dashboard-and-playbook approach.
-
-4. **Vitally** — $40.5M raised; Series B in February 2023 led by Next47 (TechCrunch, Feb 2023). Targets smaller CS teams with embedded AI copilot. Differentiation vs. Pollen: Vitally is the most directly comparable in target segment; Pollen positions as more autonomous (agent that acts vs. copilot that assists).
-
-**Why now:** [Inferred]: The catalyst is the maturation of large language models (GPT-4-class and successors) in 2023–2025, which crossed a capability threshold enabling reliable multi-source data synthesis, contextual email drafting, and conversational interfaces over structured business data. Prior CS platforms could score health metrics and trigger rule-based playbooks, but generating nuanced, context-aware next-best-actions and drafting customer communications required LLM capabilities that became production-ready in this window.
+**Why now:** [Inferred]: Several converging factors: (1) LLM capabilities crossed a quality threshold in 2024-2025 that enables reliable multi-source data synthesis, sentiment analysis, and natural language action generation — capabilities that were not production-ready two years prior; (2) the customer success market is shifting from "dashboards requiring human interpretation" to "AI-driven automation," as evidenced by every major incumbent launching AI features (Gainsight AI, Vitally AI, Totango Unison AI) in 2024-2025; (3) QuadSci's $8M raise in Feb 2026 and G2's 2026 Expert Survey on AI in churn reduction signal growing buyer appetite and investor interest in AI-native CS tools.
 
 ## Founders & Team
 
 **Noah Yin** — Co-founder & CEO
-- BA Computer Science, UC Berkeley (getprog.ai)
-- Amazon SDE Intern: built ML prediction tracking system for Prime driver app; integrated ML in Amazon Maps app (YC company page; getprog.ai)
-- President, Mobile Developers of Berkeley (MDB), 2024–2025 (getprog.ai; Instagram via search snippet)
-- Previously Co-founder & CEO of Daymi (YC S25), a consumer AI clone product (getprog.ai)
-- Twitter/X: @noah_yin7 — follower count not retrievable
-- LinkedIn: linkedin.com/in/noah-yin — headline: "Pollen" (LinkedIn via search snippet)
-- GitHub: No public repos found under this name
-
-**Aldrin Ong** — Co-founder & CTO
-- UC Berkeley, Computer Science, Class of 2025 (aldrin-ong.vercel.app)
-- Amazon AWS SDE Intern (2x): introduced GenAI to AWS search engine using NLP, RAG, and ML models (Summer 2024); enhanced AWS console usability metrics by 20% (Summer 2023) (aldrin-ong.vercel.app)
-- Lead Product Manager, Jetzy: achieved 530% surge in new sign-ups (aldrin-ong.vercel.app)
-- Co-founder & CTO, Trainme (2019–2021): tennis platform reaching top-three trending on Google Play Store in Indonesia (aldrin-ong.vercel.app)
-- Previously Co-founder & CTO of Daymi (YC S25) (LinkedIn via search snippet)
-- Twitter/X: No public account found
-- LinkedIn: linkedin.com/in/aldrin0n9 — headline: "Co-Founder & CTO @ Daymi (YC S25)" at time of research (LinkedIn via search snippet)
-- GitHub: github.com/0n9aldrin — 28 repos, 11 followers (GitHub)
-
-**Jeffrey Yum** — Co-founder & COO
-- UC Berkeley, EECS (YC company page)
-- CS 61B Teaching Assistant, UC Berkeley (LinkedIn via search snippet)
-- Amazon SDE Intern (LinkedIn via search snippet)
-- Twitter/X: No public account found
-- LinkedIn: linkedin.com/in/jeffreyyum — headline: "Co-Founder @ Pollen (YC W26)" (LinkedIn via search snippet)
+- BA Computer Science, UC Berkeley
+- Amazon SDE Intern: built ML prediction tracking system for Prime delivery driver app (YC page)
+- President of UC Berkeley's Mobile Developers of Berkeley (MDB) club (getprog.ai via search snippet)
+- Research at Berkeley Lab: scaling BLE data transmission from sweat sensors (founder research agent)
+- Research at Columbia: developed cloud-based ML assay detector for SARS-CoV-2 (YC page; founder research agent)
+- Previously CEO of Daymi (YC S25), personal AI clone startup
+- Reported $100K+ in mobile app contracts (YC page)
+- Twitter/X: @noah_yin7 — 271 followers, joined December 2016 (X.com via search)
+- LinkedIn: linkedin.com/in/noah-yin/ — 500+ connections
 - GitHub: No public repos found
 
-**Co-founder relationship:** All three founders attended UC Berkeley (Computer Science / EECS) at overlapping times and were Co-founders together at Daymi (YC S25) before pivoting to Pollen for YC W26. Noah Yin was President of Mobile Developers of Berkeley, a student organization where co-founders may have overlapped.
+**Aldrin Ong** — Co-founder & CTO
+- BS Computer Science + Data Science, UC Berkeley (Class of '25); originally from Malaysia
+- 2x Amazon AWS SDE Intern — improved usability metrics at AWS (YC page; founder research agent)
+- Product Manager at Jetzy (founder research agent)
+- Founded Trainme in high school (app connecting tennis coaches to students) (founder research agent)
+- 7-year mobile development experience; 3 apps published on the App Store (YC page)
+- Previously CTO of Daymi (YC S25)
+- Twitter/X: @Aldrin0n9 — 25 followers, joined March 2022 (X.com via search)
+- LinkedIn: linkedin.com/in/aldrin0n9/ — 500+ connections
+- GitHub: github.com/0n9aldrin — 28 public repos; most-starred: price-comparison (Flutter, 17 stars)
 
-**Founder-market fit:** The team has B2B SaaS engineering experience (Amazon AWS, Amazon Maps) and prior startup experience (Daymi, Trainme). Noah Yin's ML integration work at Amazon and Aldrin Ong's GenAI work on AWS search are relevant to building AI-powered data synthesis. No public evidence of direct customer success domain experience was found. Noah Yin posted on LinkedIn that the team "pivoted our company the day after graduating UC Berkeley" (LinkedIn, 2025 via search snippet), indicating the shift from Daymi (consumer AI) to Pollen (B2B customer success) was recent.
+**Jeffrey Yum** — Co-founder & COO
+- UC Berkeley EECS; from Torrance, California
+- CS 61B Teaching Assistant at UC Berkeley (Fall 2024 and Spring 2025) (LinkedIn; founder research agent)
+- Amazon SDE Intern, Seattle (LinkedIn via search snippet)
+- Co-founded Pingo AI (language learning app) with Noah and Aldrin
+- Previously COO of Daymi (YC S25)
+- Twitter/X: No public account found
+- LinkedIn: linkedin.com/in/jeffreyyum/ — Headline: "Co-Founder @ Pollen (YC W26)"
+- GitHub: No public repos found
+
+**Co-founder relationship:** All three founders are UC Berkeley graduates who have been collaborating for approximately 4 years (YC launch page). All three interned at Amazon. They co-founded at least two prior projects together — Pingo AI (language learning app) and Daymi (YC S25, personal AI clone) — before building Pollen. They maintained the same CEO/CTO/COO role split across Daymi and Pollen.
+
+**Founder-market fit:** The team has strong technical backgrounds (all three interned at Amazon, with experience in ML, RAG, Elasticsearch, and mobile development) and a demonstrated ability to ship products rapidly (multiple apps, two YC batches). However, none of the founders have documented prior experience working in customer success, revenue operations, or B2B SaaS go-to-market. Their domain expertise is in engineering and AI, not in the CS buyer persona. The pivot from B2C (Daymi) to B2B customer success (Pollen) represents a significant market shift. No advisors, board members, or notable investors beyond YC were found in public sources.
 
 ## Key Risks
 
-**Recent pivot with no visible domain expertise:** The team pivoted from a consumer AI product (Daymi, an iMessage AI clone) to B2B customer success AI. No public evidence of prior customer success industry experience was found among the founders. This is a significant domain shift that may require building industry knowledge and credibility with CS buyers from scratch.
+**Pivot recency and market-fit uncertainty:** The team pivoted from Daymi (B2C AI companion, YC S25) to Pollen (B2B customer success, YC W26) — two consecutive YC batches with fundamentally different products and target markets. This rapid pivot raises the question of whether the team has validated genuine demand from CS buyers or is iterating toward product-market fit. The lack of any public traction metrics (customers, revenue, pilots) for Pollen compounds this uncertainty.
 
-**Brand disambiguation:** "Pollen" is a common name shared by numerous companies: Pollen VC (app developer financing), Pollen (events platform that raised $200M+ and collapsed — The Pragmatic Engineer), Pollen Robotics, Pollen DeFi, Pollen Mobile, Pollen for LinkedIn (Chrome extension), and others. This creates SEO, brand recognition, and due diligence challenges. The domain pollen.cx (Christmas Island TLD) further complicates discoverability.
+**Incumbent AI feature parity:** Gainsight, Vitally, ChurnZero, and Totango are all shipping native AI features into their existing platforms (Gainsight AI, Vitally AI, Totango Unison AI). These incumbents have existing customer bases, data access, and distribution advantages. Pollen must demonstrate that a standalone AI-agent approach delivers meaningfully better outcomes than AI features layered onto established CS platforms.
 
-**Incumbent AI feature parity:** Gainsight, Totango (Unison AI), ChurnZero (Customer Success AI), and Vitally (embedded AI copilot) are all actively shipping AI features into their existing platforms. These incumbents have existing customer relationships, integrations, and data. The window for a standalone AI-native CS agent may narrow as incumbents close the feature gap.
+**Brand disambiguation:** Multiple unrelated companies share the "Pollen" name, including Pollen VC (app revenue financing), Pollen for LinkedIn (Chrome extension), Pollen (Singapore-based liquidation OS backed by WaveMaker), and Pollen DeFi. The Crunchbase slug "streetteam-software" rather than "pollen" further suggests namespace challenges. This creates search visibility and brand confusion risks, particularly for inbound marketing and organic discovery.
 
-**Integration dependency and data access risk:** Pollen's value proposition requires connecting to email, support tickets, product usage, and CRM systems. Enterprise buyers may resist granting an early-stage startup access to these sensitive data sources. Each integration adds implementation complexity and potential failure points. Competing with incumbents who already have established integration ecosystems is an uphill motion.
+**No demonstrated domain expertise in customer success:** None of the three founders have documented backgrounds working as CSMs, in revenue operations, or in B2B SaaS go-to-market roles. Their technical capabilities are evident, but deep domain understanding of CS workflows, buyer objections, and enterprise procurement processes is unproven from public evidence.
 
-**Two YC batches, two products:** The team participated in YC S25 with Daymi and YC W26 with Pollen — two different products in two consecutive batches. This signals fast iteration but also raises questions about conviction depth and product-market fit validation timeline.
+**Data integration complexity and security requirements:** Pollen requires access to a customer's email, CRM, support tickets, and product usage data. Enterprise buyers in B2B SaaS have strict data security, compliance (SOC 2, GDPR), and vendor risk assessment requirements. Building and certifying these integrations is a significant engineering and compliance effort for a 3-person team.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $2.20B customer success software market (Mordor Intelligence, 2025, 22.18% CAGR to $5.99B by 2030 via search snippet) |
+| TAM | $2.20B in 2025, ~21.7% CAGR, projected ~$6B by 2030 (Mordor Intelligence via search snippet) |
 | SAM | No public data found |
-| Traction | No public data found for Pollen. Prior product Daymi launched on Product Hunt Aug 2025. |
-| Revenue Signal | No public data found |
-| Founders | Noah Yin (CEO): UC Berkeley CS, Amazon SDE (ML/Maps), President MDB, Co-founder Daymi (YC S25). Aldrin Ong (CTO): UC Berkeley CS '25, 2x Amazon AWS SDE Intern (GenAI), Co-founder Trainme. Jeffrey Yum (COO): UC Berkeley EECS, Amazon SDE Intern, CS 61B TA. |
-| Competitors | Gainsight (~$187M raised, $200M revenue 2025, enterprise-focused full-suite CS platform); Totango/Catalyst ($212M combined raised, merged Feb 2024, composable enterprise CSP); ChurnZero (~$37.6M raised, $180.8M revenue 2024, mid-market CS platform); Vitally ($40.5M raised, revenue unknown, SMB/mid-market AI copilot for CS) |
-| Moat Signals | No public data found |
-| Risk Factors | Recent pivot from consumer AI with no visible CS domain expertise, brand disambiguation across 10+ companies named "Pollen," incumbent AI feature convergence |
-| Founder Reach | Noah Yin: Twitter @noah_yin7 (count not retrievable), LinkedIn listed. Aldrin Ong: Twitter not found, LinkedIn listed, GitHub 28 repos / 11 followers. Jeffrey Yum: Twitter not found, LinkedIn listed, GitHub not found. |
-| Distribution Signals | No public data found. YC W26 Demo Day scheduled March 24, 2026. |
+| Traction | 25 upvotes on YC launch page; 27 Twitter followers (X.com via search); 1 blog roundup mention (blog.mean.ceo, Mar 2026 via search snippet). No public user, customer, or revenue data found. |
+| Revenue Signal | No public data found. No pricing page accessible. |
+| Founders | Noah Yin (CEO): UC Berkeley CS, Amazon SDE, President MDB, CEO of Daymi (YC S25). Aldrin Ong (CTO): UC Berkeley CS '25, 2x Amazon AWS, 3 App Store apps, CTO of Daymi (YC S25). Jeffrey Yum (COO): UC Berkeley EECS, Amazon SDE Intern, CS 61B TA. |
+| Competitors | Gainsight ($187M raised, $200M revenue, enterprise CS leader). ChurnZero ($34.5M raised, $180.8M revenue, mid-market CS). Vitally ($40.5M raised, revenue unknown, product-led CS with native AI). Planhat ($50M raised, $33M revenue, flexible/extensible CS). QuadSci ($8M raised, revenue unknown, AI-native churn prediction). |
+| Moat Signals | No public data found. [Inferred]: Potential switching costs from multi-system integration and workflow adoption over time. |
+| Risk Factors | Pivot recency from Daymi (YC S25), incumbent AI feature parity, no founder domain experience in customer success |
+| Founder Reach | Noah Yin: @noah_yin7 271 followers, LinkedIn 500+. Aldrin Ong: @Aldrin0n9 25 followers, LinkedIn 500+, GitHub 28 repos/17 stars max. Jeffrey Yum: Twitter not found, LinkedIn linkedin.com/in/jeffreyyum/. Company: @pollen_cx 27 followers. |
+| Distribution Signals | No Product Hunt listing, no app store presence, no Chrome extension. YC launch page (25 upvotes) and 1 blog roundup mention only. |
+| Emails | founders@pollen.cx |

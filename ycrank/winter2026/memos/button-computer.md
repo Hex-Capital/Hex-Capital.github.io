@@ -10,107 +10,113 @@
 | Industry | B2B / B2B -> Engineering, Product and Design |
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
-| Tags | Hardware, Consumer, AI |
+| Tags | Artificial Intelligence, Hardware, Consumer |
+| YC Partner | Tyler Bosmeny |
+| Emails | No public data found |
 
 ## The Idea
 
-**Problem:** Interacting with AI assistants currently requires pulling out a phone, unlocking it, opening an app, and typing or holding a button on-screen. This friction makes AI inaccessible in many everyday contexts — while walking, cooking, working with hands, or in brief moments where pulling out a phone is socially awkward or impractical. Current wearable AI attempts (e.g., Humane AI Pin at $499 + $24/mo, now defunct) have been too expensive, too complex, or unreliable.
+**Problem:** Current AI assistants require pulling out a phone or speaking to a smart speaker. Existing wearable AI devices (Humane AI Pin, Limitless Pendant, Omi) have been criticized for always-listening behavior, poor battery life, high cost, or lack of a built-in speaker—requiring earbuds or a phone screen to receive responses. Users who want quick, hands-free access to AI in daily life lack a simple, privacy-respecting form factor that provides instant spoken answers.
 
-**Approach:** Button Computer is a small, clip-on hardware device worn on a shirt. The user presses it to speak to an AI, which responds aloud via a built-in speaker. It connects via Bluetooth to an iPhone (Android planned). It does not continuously listen — the user initiates each interaction by pressing the button. Wi-Fi connectivity is planned for future updates (buttoncomputer.com).
+**Approach:** Button is a small hardware device that clips to a shirt via clip or magnet. Users press a physical button to activate the device, speak a question, and receive an instant audio response through a built-in speaker. The device uses a dual-mic array for input and connects via Bluetooth to the user's phone for internet access (Wi-Fi support planned). It runs all day on a single charge. The press-to-activate design means it does not passively listen or record (company website).
 
-**Differentiation:** Button differentiates from prior AI wearables on simplicity and price. At $179 retail ($79 pre-order), it is substantially cheaper than the defunct Humane AI Pin ($499 + $24/mo subscription) and more focused than the Rabbit R1 ($199), which attempted a broader "universal app controller" approach. Compared to Limitless ($99, acquired by Meta in December 2025) and Omi ($89), which focus on passive conversation recording and summarization, Button is designed for active, on-demand AI interaction — the user presses to talk and receives a spoken response. Compared to Friend ($99–$129), which positions as an emotional AI companion, Button targets utility-oriented AI queries.
+**Differentiation:** Unlike Humane AI Pin ($699 at launch, no phone required but poor reviews and now defunct), Button is priced at $179 with a $7.99/month optional subscription (company website). Unlike Omi ($89, open-source, focused on transcription/note-taking), Button emphasizes two-way voice conversation with a built-in speaker rather than passive recording. Unlike Limitless (acquired by Meta, Dec 2025) and Bee (acquired by Amazon), Button remains an independent product. The company describes it as "an iPod Shuffle for AI" (YC page), emphasizing simplicity over feature density. Users can also bring their own API key to avoid the subscription (company website).
 
-**Business Model:** Button uses a hardware-plus-subscription model. Hardware pricing: $179 retail, $79 during pre-order period beginning March 3, 2026 (buttoncomputer.com). Optional subscription: Button AI Pro at $7.99/month; users can alternatively bring their own API key at no subscription cost (buttoncomputer.com). $1 fully-refundable deposit secures a reservation currently. First devices ship to U.S. customers at end of 2026 (buttoncomputer.com).
+**Business Model:** Hardware sales at $179 per unit plus an optional recurring subscription (Button AI Pro) at $7.99/month, with three months included free with purchase. Users may alternatively bring their own API key (company website). Pre-orders opened March 3, 2026 (Ryan Burgoyne LinkedIn post). First U.S. shipments targeted for end of 2026. Fully refundable pre-orders (company website).
 
-**TAM/SAM:** The global wearable AI market was estimated at $48.82 billion in 2025 with a 24.7% CAGR (Fortune Business Insights, 2025 via search snippet). Alternative estimates include $32.2 billion (Fact.mr, 2025 via search snippet) and $47.7 billion (Market.us, 2025 via search snippet); variation reflects differing market definitions (some include smartwatches and fitness trackers). No public SAM estimate specific to voice-first AI wearable pendants/buttons was found.
+**TAM/SAM:** The global wearable AI market was valued at USD $48.82 billion in 2025 and is projected to grow to USD $61.51 billion in 2026, with a CAGR of 24.70% through 2034 (Fortune Business Insights via search snippet). MarketsandMarkets estimates the wearable AI market at USD $71.89 billion in 2025, growing to USD $138.50 billion by 2029 (MarketsandMarkets via search snippet). The SAM—consumer voice-AI wearable devices specifically—is a narrower segment within these broad estimates. No public SAM data found for the specific conversational-AI-wearable sub-segment.
 
-**GTM / Distribution:** The company is currently accepting $1 refundable deposits via its Shopify-powered storefront (buttoncomputer.com), with pre-orders opening March 3, 2026. [Inferred]: The initial distribution path is direct-to-consumer via the company's own website, likely supplemented by a YC Demo Day audience and tech-enthusiast early adopters. The iPhone-first strategy suggests targeting the Apple ecosystem user base.
+**GTM / Distribution:** Pre-orders are sold direct-to-consumer through a Shopify storefront at buttoncomputer.com. YC Demo Day scheduled for March 24, 2026 (Ryan Burgoyne LinkedIn post). [Inferred]: Initial distribution is DTC e-commerce, leveraging YC Demo Day visibility and founder social media reach. The iPhone-first launch targets the iOS ecosystem; Android support planned for later.
 
 ## Defensibility
 
-No strong defensibility signals found in public sources at this stage. The product is pre-launch with no shipping hardware, so no user data moat or network effects exist yet.
+No strong defensibility signals found in public sources at this stage. The company has one public GitHub repo (swift-uuid-literal, 1 star, GitHub). No patents filed by the company were found in public searches, though co-founder Ryan Burgoyne holds 3 patents from his Apple Vision Pro work (techwilder.net/resume).
 
-[Inferred]: Potential moat could develop via (1) proprietary voice AI tuning based on accumulated user interaction data over time, (2) hardware design iteration cycles that create a lead over software-only entrants, and (3) brand positioning as the simplest/cheapest voice AI wearable. However, none of these are proven at this stage.
+[Inferred]: Potential moat could develop via (1) proprietary firmware/hardware optimization creating a superior voice-AI interaction experience, (2) brand loyalty if Button achieves early consumer adoption, or (3) data from user interactions improving response quality over time. None of these are proven at this stage.
 
-**Market structure:** The wearable AI space has seen well-funded incumbents fail: Humane raised $240M and sold assets to HP for $116M in February 2025 (TechCrunch, Feb 2025 via search snippet); Limitless was acquired by Meta in December 2025 (TechBuzz.ai via search snippet). [Inferred]: Large incumbents (Apple, Google, Meta) have the ability to integrate AI voice interaction into existing devices (AirPods, earbuds, smartwatches), which could subsume the standalone wearable AI category entirely. The structural barrier for a startup is speed of iteration and willingness to ship a single-purpose device at a low price point — something large hardware companies may deprioritize due to the small initial market size and cannibalization of their existing product lines.
+**Market structure:** The wearable AI hardware space has seen significant incumbents enter: Apple is reportedly developing an AI wearable (TechCrunch, Jan 2026 via search snippet), and Meta acquired Limitless (Dec 2025). However, large incumbents have struggled with this form factor—Humane raised $230M and was acquired by HP for $116M after product failure (TechCrunch, Feb 2025 via search snippet). [Inferred]: The structural barrier for incumbents may be business model—phone manufacturers risk cannibalizing their core device by shipping a low-cost accessory that replaces phone-based AI interactions. Button's $179 + subscription model is incompatible with how Apple or Google monetize their AI through integrated device ecosystems.
 
-**Commoditization risk:** The core technology (voice capture → LLM API call → text-to-speech response) is technically reproducible. Bluetooth-connected microphone/speaker hardware is commodity. Multiple competitors already exist at similar or lower price points (Omi at $89, Friend at $99–$129). Open-source alternatives like Omi (GitHub: BasedHardware/omi) lower the barrier further. Apple and OpenAI are both reportedly developing AI wearable devices (Scientific American, 2026 via search snippet).
+**Commoditization risk:** The hardware (dual-mic, speaker, Bluetooth, button) uses commodity components. The software layer (voice-to-AI-to-speech pipeline) relies on existing LLM APIs. [Inferred]: Multiple startups and hardware manufacturers could build a similar device. Differentiation will depend on industrial design quality, firmware latency optimization, and brand positioning rather than deep technical moats.
 
 ## Market & Traction
 
 **Traction signals:**
-- Pre-orders open March 3, 2026; shipping end of 2026. No units have shipped yet (buttoncomputer.com).
-- $1 refundable deposits are being collected; no public count of deposits or reservations found.
-- No Product Hunt launch found.
+- Pre-orders opened March 3, 2026 (Ryan Burgoyne LinkedIn post). No public pre-order count found.
+- Hardware priced at $179; subscription at $7.99/month (company website).
+- Ryan Burgoyne's LinkedIn announcement received 141 likes and 34 comments (LinkedIn post).
+- YC Demo Day scheduled for March 24, 2026 (LinkedIn post).
+- Aluminum prototypes already developed (LinkedIn post).
+- Twitter/X: @buttoncomputer — follower count not retrievable (JavaScript-rendered page).
+- Instagram: @buttoncomputer — follower count not found.
+- YouTube: @button_computer — subscriber count not found.
+- LinkedIn: linkedin.com/company/buttoncomputer — follower count not found.
+- GitHub: github.com/buttoncomputer — 1 public repo, 1 star (GitHub).
+- Product Hunt: No listing found.
+- Discord/Slack community: No public community found.
 - No press coverage in named publications found.
-- Company Twitter/X: No dedicated company account found. Chris Nolet's personal account @chrisnolet: ~85 followers (X.com search snippet, Feb 2026).
-- Ryan Burgoyne's X account: @ryanburgoyne (count not retrievable due to JavaScript rendering).
-- LinkedIn company page: No dedicated Button Computer LinkedIn page found.
-- No Discord, Slack, or community channels found.
-- No app store listings found (product not yet shipped).
+- No app store listings found (product has not shipped).
+- 0 job postings listed on YC page (YC page).
 
 **Competitive landscape:**
 
-| Competitor | Key Differentiator vs. Button | Funding | Revenue/ARR |
-|---|---|---|---|
-| **Humane AI Pin** (defunct) | Was a broader AI computing platform with projector, camera, cellular connectivity at $499 + $24/mo. Shut down Feb 2025; assets sold to HP for $116M (TechCrunch, Feb 2025). | $240M raised (TechStartups.com via search snippet) | Shut down |
-| **Rabbit R1** | $199 "universal app controller" with screen, camera, scroll wheel; broader product vision beyond voice queries. | $30M (Khosla Ventures) (TIME via search snippet) | Revenue unknown |
-| **Limitless** (acquired by Meta) | $99 pendant focused on passive meeting recording/transcription rather than active AI Q&A. Acquired by Meta Dec 2025 (TechBuzz.ai via search snippet). | $15M at $350M valuation pre-acquisition (Sacra via search snippet) | Revenue unknown |
-| **Omi** | $89 open-source AI wearable pendant; passive recording + AI assistant; developer-friendly with open-source codebase. | $2M from Tim Draper + others (omi.me, Jan 2025) | Revenue unknown |
-| **Friend** | $99–$129 emotional AI companion pendant; always-on passive listening and proactive messaging. Different use case (companionship vs. utility). | ~$7–8.5M (TechCrunch, Fortune via search snippets) | Revenue unknown |
+1. **Plaud NotePin / NotePin S** — 1M+ units sold, profitable, on track for $250M annualized revenue in 2025 (Techmeme/Forbes via search snippet). Priced at $159–$179. Focused on note-taking and transcription rather than two-way voice conversation. Key differentiator vs. Button: Plaud is a passive recorder/transcriber; Button is an active conversational device with a built-in speaker.
 
-**Why now:**
-[Inferred]: Several converging factors: (1) LLM inference costs have dropped dramatically through 2024–2025, making always-available AI economically viable at consumer price points; (2) text-to-speech and speech-to-text quality crossed a usability threshold with models like Whisper, GPT-4o voice, and Claude voice; (3) the high-profile failure of Humane ($240M raised, shut down) and acquisition of Limitless by Meta cleared the market of two competitors while validating consumer interest in the category; (4) Apple and OpenAI announcing AI wearable plans (Scientific American, 2026) signals category validation.
+2. **Omi** (formerly Friend by Nik Shevchenko) — Raised $2M from Tim Draper and others (omi.me blog, Jan 2025). Priced at ~$89. Open-source hardware with developer kit. Focused on transcription, memory, and productivity rather than real-time voice conversation. Key differentiator vs. Button: Omi is open-source and cheaper but lacks a built-in speaker for two-way interaction.
+
+3. **Humane AI Pin** (defunct) — Raised $230M, sold assets to HP for $116M in Feb 2025 (TechCrunch, Feb 2025 via search snippet). Was priced at $699 + $24/month. Attempted to be a standalone phone-replacement device. Key differentiator vs. Button: Humane targeted a phone-replacement form factor at a much higher price point; Button is a phone companion at $179.
+
+4. **Bee** (acquired by Amazon) — Wearable AI focused on life logging and conversation capture. Acquired by Amazon in late 2025 (LinkedIn/AboutAmazon via search snippet). No longer independent. Key differentiator vs. Button: Bee was a passive recorder integrated into Amazon's ecosystem; Button is independent and conversation-first.
+
+5. **Apple AI Wearable** (reportedly in development) — Apple is reportedly developing its own AI wearable (TechCrunch, Jan 2026 via search snippet). No product details or timeline confirmed. Key differentiator vs. Button: Not yet a product; if launched, would have Apple ecosystem integration advantages.
+
+**Why now:** Several specific catalysts have converged: (1) LLM voice-to-voice latency has dropped dramatically—models like GPT-4o and Claude support real-time voice interaction as of 2024–2025, making a conversational wearable technically feasible for the first time. (2) The first generation of AI wearables (Humane, Rabbit R1) failed publicly in 2024, creating a "lessons learned" opening for a simpler, cheaper approach. (3) Major acqui-hires (Meta acquiring Limitless Dec 2025, Amazon acquiring Bee late 2025) removed independent competitors and validated the category while leaving the independent consumer market underserved. (4) Consumer AI adoption has broadened, with ChatGPT reaching widespread awareness and usage. [Inferred]: The combination of improved LLM voice capabilities and cleared competitive landscape creates a window for a focused, low-cost entrant.
 
 ## Founders & Team
 
-**Chris Nolet** — Co-founder & CEO
-- B.Eng. Mechanical Engineering, RMIT University (2006–2008) (Crunchbase via search snippet)
-- Staff Software Engineer at Apple, working on Vision Pro / AR/VR (YC page, Crunchbase via search snippet)
-- Co-founder of App.io (500 Startups Spring 2013 batch), a browser-based iOS app emulation platform; raised $1.07M (Crunchbase via search snippet, 500 Startups podcast)
-- Venture Partner at 500 Global (2015–2016) (search snippet)
-- Previously worked at Coinbase and Visby (Crunchbase via search snippet)
-- Founder of Vibe Code Go (YC S25), a mobile vibe-coding app (LinkedIn via search snippet, YC launches page)
-- Twitter/X: @chrisnolet — ~85 followers (search snippet, Feb 2026)
-- LinkedIn: linkedin.com/in/chrisnolet — headline references "Vibe Code Go (YC S25)" (search snippet)
-- GitHub: github.com/chrisnolet — 35 followers; QuickOutline repo (Unity outline tool for VR) has 630 stars and 65 forks (GitHub, Feb 2026)
+**Chris Nolet** — Founder & CEO
+- Education: RMIT University (Crunchbase via search snippet)
+- Career: Staff Software Engineer at Apple, worked on Vision Pro (Crunchbase, LinkedIn via search snippet). Co-founder & CTO/COO of App.io (2012–2014), a mobile app streaming startup that raised $1.07M through 500 Startups' Spring 2013 batch; company is no longer active (Crunchbase via search snippet, 500 Startups podcast). Venture Partner (ContactOut via search snippet). Also associated with "Vibe Code Go" (YC S25) per FounderTrace listing, and a project called "Pocket" (ContactOut).
+- Domain expertise: AR/VR software engineering, hardware product design, prior startup founding experience
+- Twitter/X: @chrisnolet — follower count not retrievable (JavaScript-rendered page)
+- LinkedIn: linkedin.com/in/chrisnolet — 500+ connections (search snippet)
+- GitHub: github.com/chrisnolet — 7 repositories including QuickOutline (Unity asset), Balance (iOS app) (GitHub via search snippet)
 
 **Ryan Burgoyne** — Co-founder & CTO
-- 6 years at Apple as Senior Engineer; worked on Reality Composer (AR development tool) and the Vision Pro project (YC page, ryanburgoyne.com)
-- Founded Skyglass, a mobile virtual production startup (YC page)
-- Creator of "Distance," an original AI-generated sci-fi series (ryanburgoyne.com)
-- Personal website: ryanburgoyne.com
-- Twitter/X: @ryanburgoyne — count not retrievable (JavaScript rendering required)
-- LinkedIn: linkedin.com/in/ryansburgoyne — headline references "Button Computer" (search snippet)
-- GitHub: github.com/burgoyne — 4 repositories; no star count data retrieved
+- Education: B.S. Computer Science, Arizona State University (Dec 2013), summa cum laude, 3.9 GPA (techwilder.net/resume)
+- Career: Software Development Engineer at Apple (May 2015–Oct 2021) for 6 years; one of the first engineers on the Vision Pro project; co-invented the visionOS gaze-and-tap user interface; filed 3 patents (techwilder.net/resume, X post). Previously Research Engineer at Metaio (Jan 2014–May 2015), integrating depth-camera tracking into AR SDK used by 100K+ developers (techwilder.net/resume). Founder of Skyglass (Nov 2021–present), a virtual production app on iPhone; secured $700K in funding, graduated Techstars NYC 2024, scaled to 95K downloads and $6K MRR with a team of 3 (techwilder.net/resume, LinkedIn via search snippet).
+- Domain expertise: AR/VR/XR engineering, hardware interaction design, iOS development, prior startup founding with revenue traction
+- Twitter/X: @spacecrafter3d — follower count not retrievable (JavaScript-rendered page)
+- LinkedIn: linkedin.com/in/ryansburgoyne (LinkedIn)
+- GitHub: github.com/burgoyne — profile found (GitHub via search snippet); github.com/ryansburgoyne listed on Button Computer's GitHub org
 
-**Co-founder relationship:** Both Chris Nolet and Ryan Burgoyne worked at Apple on AR/VR technology, including the Vision Pro project. This shared Apple tenure is the apparent basis of their working relationship.
+**Co-founder relationship:** Both founders worked together at Apple on the Vision Pro project (Ryan Burgoyne LinkedIn post). After Burgoyne left Apple and relocated to Colorado, they maintained close contact before launching Button Computer together. Burgoyne's LinkedIn post describes Nolet as "my best friend" (LinkedIn post).
 
-**Founder-market fit:** Both founders have direct experience building AR/VR and spatial computing hardware at Apple, giving them relevant hardware engineering and voice/spatial interaction domain knowledge. Chris Nolet's prior startup experience (App.io, Vibe Code Go) and venture partner role at 500 Global provide fundraising and go-to-market experience. Ryan Burgoyne's experience with Reality Composer (a tool for building AR experiences) and his own creative AI startup (Skyglass) align with building consumer-facing AI hardware. Chris Nolet is a repeat YC founder (Vibe Code Go in S25, Button Computer in W26). YC partner: Tyler Bosmeny (YC page).
+**Founder-market fit:** Both founders have direct experience building AR/VR hardware interaction paradigms at Apple, including co-inventing the gaze-and-tap UI for visionOS. This gives them specific expertise in designing novel hardware input/output modalities—directly relevant to building a voice-AI wearable. Nolet brings prior startup founding experience (App.io, 500 Startups) and Burgoyne brings prior startup experience with hardware-adjacent consumer products (Skyglass, Techstars NYC, 95K downloads). Both have shipped production software on Apple platforms.
 
 ## Key Risks
 
-**AI wearable category validation risk:** The highest-funded entrant in this category, Humane, raised $240M and shut down in February 2025 after selling assets to HP for $116M (TechCrunch, Feb 2025 via search snippet). Limitless was acquired by Meta rather than continuing independently. This pattern raises questions about whether standalone AI wearable hardware is a viable independent business or whether it gets absorbed into larger platform ecosystems. Mitigation: Button's dramatically lower price point ($179 vs. $499) and simpler design may address a different segment than Humane targeted.
+**Hardware execution risk:** Button has not yet shipped a physical product. Aluminum prototypes exist (LinkedIn post, Mar 2026), but the gap between prototype and mass manufacturing at $179 price point involves supply chain, manufacturing QA, FCC certification, and logistics challenges. First shipments are targeted for end of 2026, creating a long pre-order-to-delivery window. Prior AI wearable startups (Humane, Rabbit) experienced significant manufacturing delays and quality issues.
 
-**Platform dependency on smartphone and third-party LLMs:** Button connects via Bluetooth to an iPhone and routes queries to AI models. If Apple restricts Bluetooth audio device interactions, integrates competing voice AI features into AirPods, or if LLM API pricing increases substantially, Button's cost structure and functionality could be disrupted. Apple is reportedly developing its own AI wearable (Scientific American, 2026 via search snippet).
+**Platform dependency on LLM providers:** Button's core value proposition depends on fast, high-quality voice AI responses from third-party LLM APIs. Pricing changes, rate limits, or degradation by upstream providers (OpenAI, Anthropic, etc.) directly affect product quality and unit economics. The $7.99/month subscription must cover API costs per user, and heavy users could make this unprofitable. The BYOK (bring-your-own-key) option signals awareness of this risk but shifts cost burden to users.
 
-**Founder attention split / repeat YC entry:** Chris Nolet founded Vibe Code Go (YC S25) and now Button Computer (YC W26) — two different companies in consecutive YC batches (LinkedIn via search snippet, YC launches page). The status of Vibe Code Go and whether it is still an active concern is unclear from public sources. This pattern may raise questions about long-term commitment to Button Computer.
+**Category headwinds from first-generation failures:** Humane AI Pin's high-profile failure ($230M raised, sold to HP for $116M) and Rabbit R1's poor reviews have created consumer skepticism about AI hardware devices. Potential customers may hesitate to pre-order another AI wearable. Button's lower price point and simpler design mitigate this to some degree.
 
-**Pre-revenue hardware execution risk:** No units have shipped. First shipments are scheduled for end of 2026, approximately 10 months from now. Hardware manufacturing, supply chain management, and quality control at scale are distinct challenges from software. The 2-person team will need to manage hardware production alongside software/AI development.
+**Big tech encroachment:** Apple is reportedly developing an AI wearable (TechCrunch, Jan 2026 via search snippet). Meta acquired Limitless, and Amazon acquired Bee. If Apple ships a wearable AI accessory integrated with its ecosystem, Button's iPhone-first DTC approach faces a direct substitution threat from the platform owner.
 
-**Crowded and consolidating competitive landscape:** At least five direct competitors exist (Omi, Friend, Rabbit R1, Plaud, and various open-source projects), and major technology companies (Apple, OpenAI/Jony Ive collaboration, Meta post-Limitless acquisition) are entering the category (Scientific American, 2026 via search snippet). The open-source Omi project (GitHub: BasedHardware/omi) further lowers barriers to entry.
+**iPhone-only at launch:** Button supports only iPhone at launch, with Android planned later (company website). This limits the addressable market to roughly 55% of U.S. smartphone users and excludes international markets where Android dominates.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $48.82B wearable AI market (Fortune Business Insights, 2025 via search snippet, 24.7% CAGR) |
-| SAM | No public data found for voice-first AI wearable sub-segment |
-| Traction | No public data found (product pre-launch; $1 deposits being collected, count unknown) |
-| Revenue Signal | Hardware: $179 retail / $79 pre-order; Subscription: $7.99/mo optional (buttoncomputer.com). No revenue yet — first shipments end of 2026 |
-| Founders | Chris Nolet (CEO): ex-Apple Staff SWE (Vision Pro), co-founder App.io (500 Startups), founder Vibe Code Go (YC S25), Venture Partner 500 Global. Ryan Burgoyne (CTO): 6yr Apple Senior Engineer (Vision Pro, Reality Composer), founder Skyglass |
-| Competitors | Humane ($240M raised, shut down Feb 2025, assets sold to HP for $116M); Rabbit R1 ($30M raised, revenue unknown, broader universal controller); Limitless ($15M raised at $350M val, acquired by Meta Dec 2025, passive recording focus); Omi ($2M raised, open-source, $89 price point); Friend (~$7–8.5M raised, emotional companion focus, $99–$129) |
-| Moat Signals | No public data found |
-| Risk Factors | AI wearable category validation (Humane failure precedent), Apple/big-tech platform competition, founder attention split (two YC companies in consecutive batches), pre-revenue hardware execution |
-| Founder Reach | Chris Nolet: Twitter ~85, LinkedIn not retrievable, GitHub 630 stars (QuickOutline). Ryan Burgoyne: Twitter not retrievable, LinkedIn not retrievable, GitHub 4 repos (stats not retrieved) |
-| Distribution Signals | No public data found (no Product Hunt launch, no press coverage, no app store listing; Shopify deposit page live at buttoncomputer.com) |
+| TAM | $48.82B (2025) growing to $61.51B (2026), CAGR 24.70% through 2034 (Fortune Business Insights via search snippet); $71.89B (2025) per MarketsandMarkets via search snippet |
+| SAM | No public data found for conversational-AI-wearable sub-segment |
+| Traction | Pre-orders opened Mar 3, 2026 (LinkedIn post); aluminum prototypes developed; YC Demo Day Mar 24, 2026; no public pre-order count, user count, or revenue data found |
+| Revenue Signal | Hardware at $179 + optional $7.99/month subscription (company website). Product has not shipped; no revenue yet. |
+| Founders | Chris Nolet (CEO): Ex-Apple Vision Pro Staff SWE, Co-founder App.io (500 Startups), RMIT University. Ryan Burgoyne (CTO): Ex-Apple Vision Pro (6 yrs, 3 patents), Founder Skyglass (Techstars NYC '24, $700K raised, 95K downloads), BS CS Arizona State summa cum laude. |
+| Competitors | Plaud ($250M annualized revenue 2025, 1M+ units sold, profitable, passive recording/transcription focus). Omi ($2M raised from Tim Draper, ~$89 price, open-source, transcription focus). Humane AI Pin ($230M raised, defunct, sold to HP for $116M). Bee (acquired by Amazon, passive life-logging). Apple AI wearable (reportedly in development). |
+| Moat Signals | No public data found. Both founders hold Apple Vision Pro interaction-design experience. |
+| Risk Factors | Hardware manufacturing execution, LLM API cost/dependency, big tech encroachment (Apple AI wearable), iPhone-only at launch |
+| Founder Reach | Chris Nolet: Twitter @chrisnolet (count not retrievable), LinkedIn 500+ connections, GitHub 7 repos. Ryan Burgoyne: Twitter @spacecrafter3d (count not retrievable), LinkedIn linkedin.com/in/ryansburgoyne, GitHub github.com/burgoyne. |
+| Distribution Signals | DTC via Shopify storefront; YC Demo Day Mar 24, 2026; no Product Hunt listing found; no app store listings (product not shipped) |
+| Emails | No public data found |

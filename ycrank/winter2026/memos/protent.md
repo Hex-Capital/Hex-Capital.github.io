@@ -10,89 +10,108 @@
 | Industry | B2B / B2B -> Security |
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
-| Tags | Hardware, Machine Learning, SaaS, Security, Monitoring |
+| Tags | Hardware, Machine Learning, SaaS, GovTech, Security |
+| YC Partner | Jon Xu |
+| Emails | srihan@protent.ai |
 
 ## The Idea
 
-**Problem:** Surveillance operations today are overwhelmingly passive. Security staff monitor banks of camera feeds manually, reacting to incidents only after they escalate. The volume of feeds far exceeds human monitoring capacity, leading to missed incidents and delayed response. Existing video management systems (VMS) record footage for post-incident review but provide little real-time decision support. The customer segment is enterprises, institutions, and security operations centers running large-scale camera deployments.
+**Problem:** Public safety agencies and law enforcement operate surveillance networks spanning thousands of camera feeds — bodycams, fixed infrastructure, drones — but lack the capacity to monitor them in real time. According to Protent's data, "fewer than 1 in 200 incidents are caught in real time" by human operators (YC LinkedIn post, March 2, 2026). As a result, video footage functions as a retroactive evidence tool rather than a preventive resource. Video footage is cited as useful in 65% of criminal investigations (Protent LinkedIn post via YC LinkedIn, March 2, 2026), yet the live intelligence layer is missing. Current solutions rely on passive recording with manual review after incidents have already occurred.
 
-**Approach:** Protent applies machine learning to live video feeds to detect early escalation patterns and predictive threat signals before incidents spiral. Rather than flagging events after they occur (e.g., a detected weapon or completed intrusion), the system identifies behavioral precursors -- patterns that precede escalation -- giving surveillance operators contextual alerts and time to intervene. The YC page describes co-founder Srihan Balaji as having deployed "reinforcement learning-optimized video intelligence in classified settings" at Lockheed Martin Research (YC company page), suggesting the underlying technology originated in defense applications.
+**Approach:** Protent provides a real-time video intelligence platform that analyzes every camera feed simultaneously. The system detects early escalation patterns and predictive threat signals — including object identification and sentiment analysis — and surfaces alerts to dispatchers and officers with immediate context to prioritize and intervene before situations spiral. The platform supports natural language queries to search across live video streams for specific persons or objects and maintains visibility of targets across camera nodes (Tracxn company profile, 2026 via search snippet). This transforms the surveillance workflow from reactive review to proactive prevention.
 
-**Differentiation:** Most AI surveillance competitors focus on object detection (guns, intruders, vehicles) or post-event classification. Protent's stated differentiation is temporal -- detecting escalation trajectories rather than discrete objects. Ambient.ai is the closest competitor in framing, marketing "proactive" threat prevention, but Ambient.ai's disclosed capabilities center on contextual scene understanding (recognizing a person with a weapon in a school vs. a gun range) rather than pre-escalation behavioral prediction. Other competitors like Actuate focus narrowly on gun detection; Spot AI and Lumana focus on general video intelligence and analytics across broader use cases (operations, retail, manufacturing) rather than escalation-specific alerting.
+**Differentiation:** Unlike Verkada and Spot AI, which focus broadly on cloud-managed video security for commercial enterprises, Protent targets law enforcement and public safety agencies specifically with an escalation-detection and predictive-threat model. Compared to Actuate, which focuses primarily on gun/weapon detection via computer vision, Protent monitors a broader range of escalation behaviors and sentiment signals. Lumana AI uses vision-language models for behavior-aware monitoring but targets enterprise physical security broadly; Protent's GovTech positioning and law enforcement deployment focus is a distinct go-to-market wedge. Coram AI similarly targets business video security rather than public safety.
 
-**Business Model:** No pricing page is visible on protent.ai (website returned only CSS/JS framework code at time of research). The company is tagged as both SaaS and Hardware. [Inferred]: Most likely monetization path is a SaaS subscription for the analytics layer (per-camera or per-site licensing), potentially bundled with proprietary edge hardware for on-premise inference, given the Hardware tag and the defense-tech background of the founding team.
+**Business Model:** No public pricing page was found on protent.ai (website returned only styling/framework code at time of research). [Inferred]: Most likely monetization path is a SaaS subscription model with per-camera or per-deployment pricing, given the "SaaS" tag and the standard model in AI video analytics. Government procurement cycles and multi-year contracts are typical in this segment.
 
-**TAM/SAM:** The global AI in video surveillance market was valued at $6.51 billion in 2024 and is projected to reach $28.76 billion by 2030, growing at a CAGR of 30.6% (Grand View Research, 2024). An alternative estimate sizes the market at $3.90 billion in 2024, growing to $12.46 billion by 2030 at a CAGR of 21.3% (MarketsandMarkets, 2024). No public SAM data specific to the escalation-detection subsegment was found.
+**TAM/SAM:** The global AI in video surveillance market was valued at $4.74 billion in 2025 and is projected to reach $12.46 billion by 2030 at a 21.3% CAGR (MarketsandMarkets, 2024 via search snippet). An alternate estimate sizes the AI video analytics market at $5.04 billion in 2025, growing to $17.23 billion by 2031 at a 22.72% CAGR (Mordor Intelligence, 2026 via search snippet). The broader physical security market is estimated at $60 billion (CNBC, December 2025). [Inferred]: The serviceable addressable market for Protent would be the law enforcement and public safety subsegment of AI video surveillance, which is a fraction of the broader TAM. No public SAM estimate specific to GovTech/law enforcement video AI was found.
 
-**GTM / Distribution:** No public GTM data found. [Inferred]: Most likely distribution path is direct enterprise sales to high-security verticals (critical infrastructure, campuses, transit systems, stadiums) where proactive threat detection commands premium pricing, followed by channel partnerships with existing VMS and camera vendors for broader market access.
+**GTM / Distribution:** Protent is already working with police departments in the Atlanta, Chicago, and St. Louis metro areas (YC company page). [Inferred]: The initial GTM appears to be direct sales to municipal and metropolitan police departments, likely leveraging pilot deployments to build case studies for broader government procurement. The GovTech tag and law enforcement focus suggest a land-and-expand strategy across public safety agencies.
 
 ## Defensibility
 
-The company's defense-tech origins suggest proprietary models trained on classified or restricted video datasets involving real escalation scenarios -- data that commercial competitors cannot easily replicate. Reinforcement learning-optimized video intelligence (as described on the YC page for co-founder Balaji's Lockheed Martin work) implies models that improve through feedback loops, which could create a compounding data advantage over time as the system is deployed across more sites.
+Protent's founders bring specific domain expertise: Srihan Balaji deployed RL-optimized video intelligence at Lockheed Martin, and Abhisheik Sharma published research in NLP and sentiment analysis (YC company page). The combination of reinforcement-learning-based video analysis with NLP-driven sentiment detection for real-time escalation prediction represents technical complexity that requires specialized talent.
 
-**Market structure:** Large incumbent VMS providers (Genetec, Milestone, Avigilon/Motorola) are primarily hardware and platform companies. Adding predictive behavioral AI requires fundamentally different R&D investment (ML research, training data acquisition, real-time inference infrastructure) that conflicts with their existing hardware-margin business model. However, these incumbents are actively acquiring AI capabilities (Motorola acquired Avigilon, which has AI features), so the structural barrier is not permanent. [Inferred]: The more durable structural barrier may be the defense-origin training data and classified deployment experience, which commercial incumbents cannot replicate through acquisition alone.
+Government and law enforcement deployments, once established, create switching costs through procurement cycles, compliance requirements, training, and integration with existing surveillance infrastructure. Data collected from live deployments — escalation patterns, threat signal models — can create a data flywheel that improves detection accuracy over time.
 
-**Commoditization risk:** General-purpose computer vision has become significantly more accessible via foundation models (e.g., vision-language models). Companies like Lumana are already using VLMs for surveillance. The specific task of escalation prediction is harder to commoditize than object detection because it requires temporal sequence modeling and specialized training data (real escalation events), but the barrier is not insurmountable for well-resourced competitors investing in this niche.
+**Market structure:** Large incumbent surveillance hardware companies (Hikvision, Genetec) sell camera hardware and basic analytics. Adding a predictive intelligence layer that flags escalation patterns would require these incumbents to build or acquire ML capabilities outside their core competency. More importantly, [Inferred]: incumbents selling to broad commercial security markets may face sales channel conflict in pivoting resources toward the specialized law enforcement procurement process, which involves lengthy government RFP cycles, compliance requirements (CJIS, FedRAMP), and different buyer personas than their existing commercial channels.
+
+**Commoditization risk:** The underlying technologies — computer vision, NLP, sentiment analysis — are increasingly commoditized through open-source models and cloud AI services. Well-funded competitors like Lumana AI ($64M raised) and Verkada ($700M raised) could build similar escalation-detection features. The differentiation rests on (1) the specificity of escalation-pattern models trained on law enforcement scenarios, (2) government relationships and procurement positioning, and (3) integration with law enforcement workflows (bodycams, dispatch systems). These are defensible but not insurmountable barriers.
 
 ## Market & Traction
 
-**Traction signals:** No public traction data found. The website (protent.ai) was not rendering substantive content at time of research (returned only framework/styling code). No Product Hunt launch found. No Twitter/X account found for the company. No LinkedIn company page found. No app store presence, Chrome extension, or community channels found. No press coverage or funding announcements found beyond the YC listing. The YC page lists the company as founded in 2025, Active status, team size of 2, and not currently hiring (YC company page).
+**Traction signals:**
+- Deployed with police departments in Atlanta, Chicago, and St. Louis metro areas (YC company page)
+- LinkedIn company page: 799 followers (Protent LinkedIn launch post, February 26, 2026)
+- Y Combinator LinkedIn post about Protent: 683 likes, 106 comments (March 2, 2026)
+- Protent's own LinkedIn launch post: 84 likes, 7 comments (February 26, 2026)
+- Funding: $500K over 1 round (seed), January 2026 (Tracxn via search snippet) — consistent with YC standard deal
+- No Product Hunt launch found
+- No company Twitter/X account identified (the @protent1 handle belongs to an unrelated cosmetics brand)
+- No app store presence, Chrome extension, or Discord/Slack community found
+- No Hacker News Launch YC post found
+- Website not fully accessible at time of research (returned only framework/CSS code)
+- Harisai Karthikeyan, a Virginia Tech computer science student, is also listed as associated with Protent (YC W26) on LinkedIn
 
 **Competitive landscape:**
 
-| Competitor | Funding | Key Differentiator vs. Protent |
-|---|---|---|
-| Ambient.ai | $146M total (a16z-led Series A/B + $20M Allegion Ventures strategic round, Oct 2023) (PRNewswire, Oct 2023) | Most direct competitor -- also markets "proactive" threat prevention via computer vision intelligence; enterprise customers include Adobe, VMware, Impossible Foods; revenue unknown but claimed 4x+ growth since 2022 stealth launch (PRNewswire) |
-| Spot AI | $93M total ($31M latest round, Qualcomm Ventures, late 2024) (TechCrunch, Oct 2024 via search snippet) | Broader video intelligence platform (operations, safety, retail analytics); 1,000+ customers; claimed 5x YoY revenue growth (2022); less focused on threat escalation specifically |
-| Lumana AI | $64M total ($40M Series A, Wing Venture Capital, Jul 2025) (SiliconANGLE, Jul 2025) | Uses vision-language models for self-learning surveillance; 50,000+ cameras deployed; customers include McDonald's, Meta, NYU (PRNewswire); broader scope than pure threat detection |
-| Actuate | $23.8M total ($11.5M Series A, Aug 2024) (Tracxn via search snippet) | Narrower focus on gun detection and intruder detection in existing camera feeds; most comparable in focus to Protent but reactive (object detection) rather than predictive (escalation patterns) |
-| Scylla AI | $5.73M total ($4.9M Seed, Mucker Capital, Jun 2021) (Scylla.ai, Jun 2021) | Gun detection, object tracking, behavior anomaly detection; clients include Daimler, MLB, Chicago Cubs; closer in scale to Protent but broader feature set |
+| Competitor | Funding | Revenue/ARR | Key Differentiator vs. Protent |
+|-----------|---------|-------------|-------------------------------|
+| **Verkada** | $700M, $5.8B valuation (CNBC, Dec 2025) | $1B annualized bookings, 30K customers (CNBC, Dec 2025) | Full-stack hardware + software cloud security platform; broad commercial focus vs. Protent's law enforcement specialization |
+| **Lumana AI** | $64M total ($40M Series A, Wing VC, July 2025; SiliconANGLE) | Revenue unknown; 50K+ cameras deployed (PR Newswire, Dec 2025) | Vision-language models for enterprise physical security; broader commercial target market vs. Protent's GovTech focus |
+| **Actuate** | $23.8M total (Tracxn via search snippet) | Revenue unknown; 20K cameras, 1.2K+ customer sites (Actuate website) | Focused on specific threat types (gun detection, slip-and-fall); Protent targets broader escalation pattern detection |
+| **Spot AI** | $93M total (Spot AI blog) | 10x ARR growth since Series B (undisclosed base); 1K+ customers (Spot AI blog) | Video AI agents for commercial businesses; Protent focuses on law enforcement rather than enterprise operations |
+| **Coram AI** | $30M total ($13.8M Series A, Jan 2025; BusinessWire) | $5.8M revenue, 68 employees (Getlatka, Sep 2025 via search snippet) | AI-powered business video security for Fortune 500s; Protent targets public safety agencies |
 
-**Why now:** [Inferred]: Several converging factors: (1) Foundation model advances in 2023-2025 (particularly vision transformers and video understanding models) have made temporal behavior analysis in video computationally feasible at the edge for the first time; (2) The broader AI in video surveillance market is growing at 21-30% CAGR (Grand View Research, MarketsandMarkets, 2024), indicating accelerating buyer adoption; (3) High-profile security failures at public venues have increased demand for proactive (not just reactive) surveillance capabilities; (4) Edge AI hardware costs have decreased, making on-premise real-time inference practical for mid-market deployments.
+**Why now:** [Inferred]: Several converging factors open this opportunity: (1) Vision-language models and real-time video inference have reached sufficient accuracy and speed to analyze multiple feeds simultaneously with low latency — a technical threshold that was not practical even 2-3 years ago. (2) The proliferation of bodycam mandates and surveillance infrastructure in U.S. cities has created a massive volume of unmonitored video feeds. (3) Rising public safety concerns and municipal budget pressures create demand for force-multiplier technologies that extend the reach of existing surveillance staff. (4) The success of companies like Verkada ($1B annualized bookings) and Lumana AI ($40M Series A) validates market appetite for AI-powered video intelligence broadly, while the law enforcement-specific segment remains underserved by purpose-built solutions.
 
 ## Founders & Team
 
-**Srihan Balaji** -- Co-founder & CEO
-- Studied electrical engineering, computer science, and math (YC company page)
-- Previously worked at Lockheed Martin Research, where he deployed reinforcement learning-optimized video intelligence in classified settings (YC company page)
-- Previously worked at AWS (Amazon) in AI/ML (LinkedIn title via search snippet)
-- Attended Thomas Jefferson High School for Science and Technology in Alexandria, VA (NAQT stats page) -- one of the top-ranked STEM magnet schools in the US
+**Srihan Balaji** — Co-Founder & CEO
+- Attended Thomas Jefferson High School for Science and Technology, Alexandria, VA (tjTODAY, 2021)
+- Previously deployed RL-optimized video intelligence at Lockheed Martin (YC company page)
+- LinkedIn headline: "AI/ML - Amazon" (LinkedIn via search snippet), suggesting prior work at Amazon in AI/ML
+- Founded the International Biology Bowl in April 2021 (biologybowl.org)
+- Twitter/X: @srihanbr (YC company page); follower count not retrievable due to JavaScript rendering
+- LinkedIn: linkedin.com/in/srihanbalaji
+- GitHub: No public repos found associated with this specific individual
+- Kaggle: kaggle.com/srihanbalaji (Novice level)
+
+**Abhisheik Sharma** — Co-Founder & CTO
+- Published state-of-the-art work in natural language processing and sentiment analysis (YC company page)
+- Now building the video intelligence layer that surfaces threats in real-time
 - Twitter/X: No public account found
-- LinkedIn: linkedin.com/in/srihanbalaji -- headline "AI/ML - Amazon" (via search snippet; count not retrievable)
-- GitHub: No public repos found
-- Kaggle: kaggle.com/srihanbalaji (Kaggle profile via search snippet)
-
-**Abhisheik Sharma** -- Co-founder & CTO
-- Former NLP and sentiment analysis researcher focused on building threat detection capabilities (YC company page)
-- Twitter/X: No public account found
-- LinkedIn: No public profile found matching this specific individual and company
+- LinkedIn: Listed on YC page (specific URL not confirmed; multiple "Abhisheik Sharma" profiles exist on LinkedIn, none conclusively matched to the Protent co-founder)
 - GitHub: No public repos found
 
-**Co-founder relationship:** No public data on co-founder history. Both founders' backgrounds intersect at the defense/security + AI domain (Balaji in RL-optimized video intelligence at Lockheed Martin; Sharma in NLP-based threat detection), but no shared employer or university was identified from available data.
+**Co-founder relationship:** Both founders are listed on the YC company page as co-founders of Protent, founded in 2025. No shared prior employer or university overlap was identified from available public data. Srihan's background spans Lockheed Martin and Amazon (defense/tech), while Abhisheik's background is in NLP research. No public data on how they connected.
 
-**Founder-market fit:** Balaji's direct experience deploying reinforcement learning-based video intelligence in classified defense settings at Lockheed Martin is directly relevant to the surveillance AI problem. His AWS background adds cloud infrastructure expertise. Sharma's NLP and sentiment analysis research, applied specifically to threat detection, complements the video intelligence work by adding textual/behavioral pattern recognition capability. The combination of defense-grade video AI and threat-focused NLP suggests domain-specific technical depth rather than a generalist ML team. YC Partner Jon Xu is listed as the primary partner (YC company page).
+**Founder-market fit:** Srihan Balaji's direct experience deploying reinforcement-learning-optimized video intelligence at Lockheed Martin provides domain-specific technical expertise in exactly the type of real-time video analysis Protent is building. Abhisheik Sharma's published research in NLP and sentiment analysis maps directly to Protent's approach of detecting escalation through behavioral and linguistic signals in video feeds. The pairing of defense-sector video intelligence experience with NLP research creates a complementary skillset for building a predictive threat detection platform.
 
 ## Key Risks
 
-**Well-funded incumbent competition:** Ambient.ai ($146M raised, a16z-backed) already markets proactive threat prevention with enterprise customers. Spot AI ($93M) and Lumana ($64M) are expanding their AI video platforms. Protent is entering a market where multiple competitors have 10-100x more capital. Mitigation: Protent's escalation-prediction framing targets a specific capability gap (behavioral precursors vs. object detection) that competitors have not explicitly addressed.
+**Government procurement cycle dependency:** Protent's target customers are municipal police departments and public safety agencies, which operate on lengthy procurement cycles (often 12-24 months), require compliance certifications (CJIS, FedRAMP), and are subject to budget approval processes. This creates long sales cycles and revenue unpredictability, particularly challenging for a pre-seed company with limited runway. Mitigation: early deployments in Atlanta, Chicago, and St. Louis metro areas suggest some procurement traction already.
 
-**Defense-to-commercial translation risk:** The core technology was developed in classified defense settings (Lockheed Martin). Translating classified-environment models and training data to commercial products may face restrictions (ITAR, export controls, classification barriers). The training data used in classified settings likely cannot be transferred to a commercial product, requiring the team to rebuild training datasets from scratch with commercial data.
+**Surveillance ethics and public scrutiny:** Real-time AI surveillance of public spaces by law enforcement is a politically sensitive area. The YC LinkedIn post about Protent generated substantial critical commentary referencing dystopian surveillance concerns (LinkedIn, March 2, 2026). Regulatory restrictions on facial recognition and AI surveillance have been enacted in multiple U.S. cities (San Francisco, Boston, Portland). Expansion could be limited by local ordinances or shifting public sentiment. Mitigation: Protent's messaging focuses on escalation detection and threat signals rather than facial recognition or individual identification.
 
-**Regulatory and ethical scrutiny:** AI-powered surveillance faces increasing regulatory attention (EU AI Act classifies real-time biometric surveillance as high-risk; US states have varying surveillance disclosure laws). Escalation prediction based on behavioral analysis could face pushback around profiling and bias concerns. Mitigation: Not found in public sources.
+**Well-funded competitive convergence:** Lumana AI ($64M raised), Spot AI ($93M), and Verkada ($700M) all operate in AI-powered video intelligence and could extend into law enforcement use cases. Lumana AI's vision-language model approach and "any camera into a proactive sensor" positioning overlaps significantly with Protent's value proposition. At pre-seed scale, Protent faces a capital asymmetry disadvantage if larger players decide to pursue the public safety vertical.
 
-**Brand disambiguation:** "Protent" is similar to "Portent" (an established digital marketing company), "Protectt.ai" (a mobile security company), and "Protex AI" (a workplace safety company). Search results frequently returned these companies instead. This creates discoverability challenges and potential customer confusion.
+**Brand disambiguation:** "Protent" shares naming similarity with "Portent" (a digital marketing agency) and an existing "@protent1" cosmetics brand on Twitter/X. This could create confusion in search results and brand building, particularly problematic for a company selling to government buyers who conduct due diligence.
+
+**Founder experience depth:** While the founders have relevant technical backgrounds (Lockheed Martin video intelligence, NLP research), their LinkedIn profiles suggest they may be relatively early-career. Srihan Balaji attended Thomas Jefferson High School (class of ~2021-2025) and his LinkedIn lists Amazon AI/ML as a role. Selling into government agencies typically requires experienced enterprise/government sales leadership that the two-person team currently lacks.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $6.51B AI video surveillance market in 2024, projected $28.76B by 2030, CAGR 30.6% (Grand View Research, 2024); alt. $3.90B in 2024, $12.46B by 2030, CAGR 21.3% (MarketsandMarkets, 2024) |
-| SAM | No public data found |
-| Traction | No public data found |
+| TAM | $4.74B in 2025, projected $12.46B by 2030 at 21.3% CAGR (MarketsandMarkets via search snippet); alternate: $5.04B in 2025, projected $17.23B by 2031 at 22.72% CAGR (Mordor Intelligence via search snippet) |
+| SAM | No public data found for law enforcement/GovTech-specific video AI subsegment |
+| Traction | Deployed with police departments in Atlanta, Chicago, and St. Louis metro areas (YC company page); 799 LinkedIn followers (Protent LinkedIn, Feb 2026); YC LinkedIn post: 683 likes, 106 comments (March 2, 2026) |
 | Revenue Signal | No public data found |
-| Founders | Srihan Balaji (CEO): EE/CS/Math, ex-Lockheed Martin Research (RL video intelligence), ex-AWS AI/ML. Abhisheik Sharma (CTO): NLP/sentiment analysis researcher, threat detection focus |
-| Competitors | Ambient.ai ($146M raised, revenue unknown, proactive CVI threat prevention -- most direct competitor); Spot AI ($93M raised, revenue unknown, broader video intelligence platform); Lumana ($64M raised, revenue unknown, VLM-based self-learning surveillance); Actuate ($23.8M raised, revenue unknown, gun/intruder detection); Scylla AI ($5.73M raised, revenue unknown, behavior anomaly + gun detection) |
-| Moat Signals | Defense-origin RL-optimized video intelligence models trained in classified settings (YC company page); specialized escalation-prediction approach vs. object-detection norm |
-| Risk Factors | Well-funded competitors (Ambient.ai $146M, Spot AI $93M), defense-to-commercial translation barriers, regulatory/ethical scrutiny of behavioral surveillance AI |
-| Founder Reach | Srihan Balaji: Twitter not found, LinkedIn (linkedin.com/in/srihanbalaji, count not retrievable), GitHub not found. Abhisheik Sharma: Twitter not found, LinkedIn not found, GitHub not found |
-| Distribution Signals | No public data found |
+| Founders | Srihan Balaji (CEO): Lockheed Martin (RL video intelligence), Amazon AI/ML, Thomas Jefferson HS. Abhisheik Sharma (CTO): NLP/sentiment analysis researcher |
+| Competitors | Verkada ($700M raised, $1B annualized bookings, full-stack commercial security); Lumana AI ($64M raised, revenue unknown, VLM-based enterprise video intelligence); Actuate ($23.8M raised, revenue unknown, gun/threat detection); Spot AI ($93M raised, revenue unknown, commercial video AI); Coram AI ($30M raised, $5.8M revenue, business video security) |
+| Moat Signals | Founder domain expertise (Lockheed Martin video intelligence + NLP research); early law enforcement deployments creating potential data flywheel; GovTech compliance and procurement positioning |
+| Risk Factors | Government procurement cycle dependency, surveillance ethics/regulatory risk, well-funded competitive convergence, brand disambiguation |
+| Founder Reach | Srihan Balaji: Twitter/X @srihanbr (count not retrievable), LinkedIn linkedin.com/in/srihanbalaji. Abhisheik Sharma: Twitter/X not found, LinkedIn listed on YC page (specific profile unconfirmed) |
+| Distribution Signals | No Product Hunt launch found; no Hacker News Launch YC post found; no app store or Chrome extension presence; LinkedIn company page at 799 followers (Feb 2026) |
+| Emails | srihan@protent.ai |

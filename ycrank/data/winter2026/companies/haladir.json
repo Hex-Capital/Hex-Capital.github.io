@@ -1,7 +1,7 @@
 {
   "slug": "haladir",
   "name": "Haladir",
-  "oneLiner": "Bridging the Gap between Solvers and Training.",
+  "oneLiner": "Building Operational Superintelligence.",
   "metadata": {
     "website": "https://www.haladir.com/",
     "yc_page": "https://www.ycombinator.com/companies/haladir",
@@ -9,56 +9,57 @@
     "industry": "B2B / B2B -> Infrastructure",
     "team_size": "4",
     "location": "San Francisco, CA, USA",
-    "tags": "Reinforcement Learning, Data Engineering, Operations"
+    "tags": "Reinforcement Learning, Operations",
+    "yc_partner": "Diana Hu",
+    "emails": "founders@haladir.com (GitHub organization page)"
   },
   "tags": [
     "Reinforcement Learning",
-    "Data Engineering",
     "Operations"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T19:36:18.963Z",
+  "memoGeneratedAt": "2026-03-06T05:59:30.469Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 35,
+      "score": 36,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 38,
+      "score": 35,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 44,
-      "tier": "Pass"
+      "score": 48,
+      "tier": "Neutral"
     },
     "paul-graham": {
       "score": 34,
       "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 25,
-      "tier": "Strong Pass"
+      "score": 31,
+      "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 30,
+      "score": 29,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 39,
-      "tier": "Pass"
+      "score": 57,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 35,
-    "EG": 38,
-    "NR": 44,
+    "CB": 36,
+    "EG": 35,
+    "NR": 48,
     "PG": 34,
-    "PT": 25,
-    "SL": 30,
-    "VK": 39
+    "PT": 31,
+    "SL": 29,
+    "VK": 57
   },
-  "consolidatedAvg": 35,
-  "consolidatedRank": 143,
+  "consolidatedAvg": 38.57,
+  "consolidatedRank": 115,
   "paths": {
     "memo": "winter2026/memos/haladir.md",
     "evals": {

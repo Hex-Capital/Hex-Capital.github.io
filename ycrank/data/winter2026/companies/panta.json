@@ -9,55 +9,57 @@
     "industry": "Fintech / Fintech -> Insurance",
     "team_size": "4",
     "location": "San Francisco, CA, USA",
-    "tags": "Insurance, AI"
+    "tags": "Insurance, AI",
+    "yc_partner": "Gustaf Alstromer",
+    "emails": "vincent@pantainsure.com, support@pantainsure.com"
   },
   "tags": [
     "Insurance",
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T19:30:53.147Z",
+  "memoGeneratedAt": "2026-03-06T05:53:34.102Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 46,
+      "score": 47,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 62,
-      "tier": "Neutral"
+      "score": 65,
+      "tier": "Invest"
     },
     "naval-ravikant": {
-      "score": 40,
-      "tier": "Pass"
+      "score": 50,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 53,
+      "score": 61,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 37,
+      "score": 42,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 38,
-      "tier": "Pass"
+      "score": 46,
+      "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 48,
+      "score": 52,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 46,
-    "EG": 62,
-    "NR": 40,
-    "PG": 53,
-    "PT": 37,
-    "SL": 38,
-    "VK": 48
+    "CB": 47,
+    "EG": 65,
+    "NR": 50,
+    "PG": 61,
+    "PT": 42,
+    "SL": 46,
+    "VK": 52
   },
-  "consolidatedAvg": 46.29,
-  "consolidatedRank": 50,
+  "consolidatedAvg": 51.86,
+  "consolidatedRank": 28,
   "paths": {
     "memo": "winter2026/memos/panta.md",
     "evals": {

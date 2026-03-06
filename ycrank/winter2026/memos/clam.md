@@ -1,4 +1,4 @@
-﻿# Clam
+﻿# Clam (formerly Baseframe)
 
 > Enterprise-grade security for broad-access AI Agents like OpenClaw
 
@@ -10,104 +10,111 @@
 | Industry | B2B / B2B |
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
-| Tags | Workflow Automation, Security, AI, AI Assistant |
+| Tags | Artificial Intelligence, Workflow Automation, Security, AI Assistant |
+| YC Partner | Gustaf Alstromer |
+| Emails | No public data found |
 
 ## The Idea
 
-**Problem:** AI agent frameworks like OpenClaw give broad system access to LLMs -- including the ability to browse the web, execute code, call APIs, and manage files. This creates multiple attack surfaces: the AI may inadvertently leak sensitive data (SSNs, credit cards, private keys) in outbound requests, accept prompt injection attacks from external inputs, execute malicious code (reverse shells, encoded payloads), or expose API credentials stored in its context. Enterprises evaluating agentic AI adoption face a gap between the capabilities these frameworks offer and the security controls their compliance teams require. Current mitigations are ad hoc -- developers hand-roll input/output filters or avoid deploying agents in sensitive environments altogether.
+**Problem:** AI frameworks like OpenClaw enable broad-access AI agents that can interact with external systems, but they create a major data security gap. When AI agents send and receive data across the network, they risk leaking personally identifiable information (SSNs, credit cards, private keys), are vulnerable to prompt injection attacks (jailbreaks, instruction overrides), and can execute malicious code (reverse shells, encoded execution). Enterprises and individuals deploying these agents have no standardized security layer sitting between the agent and the outside world. Current approaches require trusting the AI itself with credentials and sensitive data, creating a single point of failure.
 
-**Approach:** Clam provides a "Semantic Firewall" that operates as a network-level security checkpoint around the AI agent's environment. Rather than modifying the AI framework itself, Clam intercepts all inbound and outbound traffic at the network layer and runs a series of scans: PII detection (SSNs, credit cards, private keys), prompt injection detection (jailbreaks, instruction overrides), and malicious code detection (reverse shells, encoded execution). API keys and secrets are injected at the network level so the AI never sees or stores credentials directly. The product deploys OpenClaw agents in dedicated secure virtual machines with terminal access for debugging, 500+ built-in API integrations, and browser-based automation capabilities (LinkedIn company page, Feb 2026).
+**Approach:** Clam's "Semantic Firewall" operates as a network-level security checkpoint that wraps around the AI agent's environment. Rather than attempting to secure the AI model itself, Clam intercepts all inbound and outbound traffic from the agent and runs a series of scans: PII detection, prompt injection detection, and malicious code scanning. Additionally, API keys and secrets are injected at the network level so the AI agent never sees or stores credentials directly. This architecture means the security layer is model-agnostic and does not depend on the AI following instructions to stay safe (YC company page).
 
-**Differentiation:** Unlike application-layer guardrail libraries (e.g., Guardrails AI, NeMo Guardrails) that require developers to instrument their code, Clam operates at the network level and wraps the entire agent environment. Unlike broader AI security platforms (Lakera, Noma Security, Protect AI) that focus on enterprise LLM governance across multiple models and deployment patterns, Clam specifically targets the agentic AI use case -- broad-access agents like OpenClaw that interact with external services and execute code. The managed VM approach with credential injection at the network layer means the AI agent never handles raw secrets, which is architecturally distinct from token-vault solutions that require agent-side integration.
+**Differentiation:** Unlike model-layer guardrails that attempt to constrain the AI through prompting or fine-tuning, Clam operates at the network level, making it independent of the underlying model. This positions it differently from acquired competitors like Lakera (acquired by Check Point, Sep 2025) and CalypsoAI (acquired by F5, Sep 2025), which focused more on prompt-layer and cognitive-layer interventions respectively. Clam's network-level approach means it can theoretically protect any AI framework without requiring integration into the model's inference pipeline. The credential injection mechanism — keeping secrets out of the AI's context entirely — is a distinct architectural choice compared to alternatives that allow the AI to handle credentials directly.
 
-**Business Model:** No pricing information is publicly available on tryclam.com as of research date. [Inferred]: Most likely monetization path is usage-based or per-VM pricing for hosted secure agent environments, given the managed infrastructure component (dedicated VMs per customer). A freemium tier for individual developers with paid enterprise tiers for teams is a common pattern in this category.
+**Business Model:** No public pricing page was found on tryclam.com at the time of research; the website displayed only the tagline "Run OpenClaw Securely in Minutes." [Inferred]: Most likely monetization path is usage-based or per-seat SaaS pricing targeting enterprise deployments of AI agents, consistent with the B2B security space and the "enterprise-grade" positioning.
 
-**TAM/SAM:** The global AI cybersecurity market was valued at $22.4 billion in 2023 and is projected to grow at a 21.9% CAGR through 2028 (Lakera/industry reports, 2024 via search snippet). The AI content moderation sub-market is projected to grow from $1 billion in 2024 to $2.6 billion by 2029 (industry report via search snippet). No public TAM/SAM data found specific to the AI agent security or agentic firewall sub-segment.
+**TAM/SAM:** The AI firewall for LLMs market was valued at $410 million in 2024 and is projected to reach $3.2 billion by 2033 at a 25.4% CAGR (ResearchIntelo, 2024 via search snippet). IT-Harvest estimated the current AI firewall segment at $30 million with 100% expected growth in 2026 (TechTarget, 2025 via search snippet). 360iResearch estimated the market at $260 million in 2025, projecting $800 million by 2032 (TechTarget, 2025 via search snippet). The broader AI cybersecurity market is forecast to reach $134 billion by 2030 (via search snippet). The wide variance in estimates reflects the nascent and still-forming nature of this market category.
 
-**GTM / Distribution:** [Inferred]: Most likely distribution path is developer-first adoption -- developers deploying OpenClaw or similar agentic AI frameworks discover Clam through the YC network, social media content (LinkedIn daily use-case posts observed), and word-of-mouth. The "ready in minutes" messaging and managed VM approach suggest a self-serve onboarding motion. The WhatsApp interface for agent interaction (LinkedIn company page, Feb 2026) suggests exploration of non-traditional developer surfaces.
+**GTM / Distribution:** [Inferred]: Most likely distribution path is developer-first adoption through the OpenClaw ecosystem — the product name-checks OpenClaw specifically and promises setup "in minutes," suggesting a self-serve onboarding flow targeting developers and teams already building with OpenClaw. Enterprise upsells would follow initial developer adoption.
 
 ## Defensibility
 
-The network-level interception architecture means Clam sees all agent traffic -- inbound and outbound -- creating a potential data advantage over time as the system encounters more attack patterns, PII formats, and prompt injection techniques across customers. The credential-injection-at-network-level approach creates switching costs once enterprise customers route their API secrets through Clam's infrastructure.
+Clam is at a very early stage; defensibility signals are limited. The "Semantic Firewall" concept — network-level interception and scanning of AI agent traffic — is an architectural approach rather than a patented technology. No patents were found in public sources.
 
-No patents or IP filings were found in public sources. No open-source GitHub repositories were identified for Clam/tryclam.
+Potential moat signals that could develop over time: (1) Data advantage — as the firewall processes more agent traffic, Clam could build proprietary detection models for novel prompt injection patterns and data exfiltration techniques; (2) Switching costs — once deployed as a network-level proxy around production AI agents, removing or replacing Clam would require reconfiguring infrastructure and credential management; (3) Integration depth — tight integration with OpenClaw and other AI frameworks could create ecosystem lock-in.
 
-**Market structure:** Large cybersecurity incumbents (Palo Alto Networks, Check Point, F5) have entered AI security through acquisitions (Protect AI for $500M+, Lakera, CalypsoAI for $180M). However, these acquisitions targeted enterprise LLM governance platforms, not agentic AI deployment security specifically. The agentic AI hosting + security combination requires building infrastructure (managed VMs, network-level interception) that is distinct from the governance-layer products incumbents have acquired. [Inferred]: Incumbents' focus on broad AI governance may leave the narrow agentic-deployment-security niche underserved in the near term, but this structural barrier is weak -- network-level scanning is a well-understood pattern in cybersecurity.
+**Market structure:** The major AI security startups that were independent competitors have been acquired by large cybersecurity incumbents in 2025: Lakera by Check Point (~$300M), Protect AI by Palo Alto Networks (~$500M), CalypsoAI by F5 (~$180M), and Prompt Security by SentinelOne (Venturelab; GeekWire; Paladin Capital; SecurityWeek, all 2025 via search snippets). These incumbents may deprioritize or absorb these products into broader platform bundles, potentially creating distribution friction for buyers who want standalone, best-of-breed AI agent security. [Inferred]: This consolidation wave could create an opening for a focused independent player, as incumbent integrations typically take 12-24 months and may dilute product focus.
 
-**Commoditization risk:** The individual scanning capabilities (PII detection, prompt injection detection, malicious code detection) are available as open-source libraries and cloud services. Lakera offers a free prompt injection API (Lakera Guard). NVIDIA's NeMo Guardrails is open-source. The combination of these into a managed, network-level firewall for agentic AI is not technically complex to replicate. The competitive moat would need to come from speed of execution, depth of integration with agentic frameworks, and accumulation of proprietary threat data.
+**Commoditization risk:** The core scanning capabilities (PII detection, prompt injection detection, malicious code detection) are buildable by any well-resourced security team. Open-source tools like LLM Guard already provide some of these capabilities. The barrier is in the integration quality, detection accuracy at low latency, and the network-level credential injection architecture. Multiple startups could build comparable products.
 
 ## Market & Traction
 
-**Traction signals:**
-- YC Winter 2026 batch member (YC company page)
-- YC launch announcement via @ycombinator on X, mentioning founders @anshulpaul30 and @vaibagra (X post, Feb 2026)
-- LinkedIn company page: 293 followers (LinkedIn, Feb 2026)
-- LinkedIn activity: daily use-case posts demonstrating OpenClaw agent applications including terminal access, Linear integration, LinkedIn automation, and WhatsApp-based agent interaction (LinkedIn company page, Feb 2026)
-- No public revenue data found
-- No public user count data found
-- No Product Hunt launch found
-- No GitHub organization or public repos found
-- No Discord or Slack community found
-- No app store or Chrome Web Store presence found
+### Traction Signals
 
-**Competitive landscape:**
+**Prior product (BaseFrame):** The company originally launched as BaseFrame, an AI-powered hardware design validation platform, on January 16, 2026 via a Y Combinator LinkedIn post that received 351 likes and 71 comments (YC LinkedIn post, Jan 2026).
 
-1. **Noma Security** ($132M raised: $32M Series A Nov 2024 + $100M Series B Jul 2025; 1,300% ARR growth reported; SecurityWeek, Jul 2025): Full-lifecycle AI security and governance across models and agents. Broader enterprise platform vs. Clam's narrow focus on agentic AI deployment security.
+**Current product (Clam):** Y Combinator tweeted about Clam's launch, announcing the "Semantic Firewall" product (@ycombinator on X, 2026). No user counts, revenue figures, customer names, or download metrics were found in public sources for the Clam product.
 
-2. **Lakera** ($33.9M raised; $5.7M ARR as of Sep 2025; acquired by Check Point Software Nov 2025; TechCrunch, Jul 2024): Real-time LLM security with Lakera Guard API for prompt injection detection. Application-layer integration vs. Clam's network-level approach.
+- **Company LinkedIn:** linkedin.com/company/tryclam — listed as "Clam (YC W26)" (LinkedIn via search snippet). Follower count not retrievable.
+- **Founder Twitter/X handles:** @anshulpaul30 (Anshul Paul), @vaibagra (Vaibhav Agrawal) — referenced in YC's launch tweet. Follower counts not retrievable due to JavaScript rendering.
+- **Product Hunt:** No Product Hunt listing found for Clam or Baseframe.
+- **GitHub:** No public GitHub repos found for tryclam or semantic-firewall.
+- **Discord/Slack community:** No public data found.
+- **App store/extension:** Not applicable (network-level proxy product).
 
-3. **Lasso Security** ($28M raised per PitchBook; $6M seed led by Entrée Capital Nov 2023; SecurityWeek, Nov 2023): Unified AI security platform with secured gateway for LLMs. Enterprise-focused with broader LLM governance scope.
+### Competitive Landscape
 
-4. **CalypsoAI** ($43.2M raised; acquired by F5 Networks for $180M Sep 2025; Paladin Capital Group, Jun 2023): AI security platform with red-teaming, protection, and oversight. Now part of F5's application security portfolio.
+| Competitor | Key Differentiator vs. Clam | Funding | Status |
+|---|---|---|---|
+| **Lakera** (now Check Point) | Broad GenAI security platform with prompt-layer protection (Lakera Guard); focused on enterprise compliance and data loss prevention. Clam differentiates with network-level interception vs. Lakera's API-layer approach. | $30M raised; acquired by Check Point for ~$300M (Sep 2025) (Venturelab, 2025 via search snippet) | Acquired |
+| **Protect AI** (now Palo Alto Networks) | Comprehensive AI security platform covering the full ML pipeline (model scanning, supply chain risk). Broader scope than Clam's agent-focused firewall. | $60M Series B; acquired by Palo Alto Networks for ~$500M (Apr 2025) (GeekWire, 2025 via search snippet) | Acquired |
+| **CalypsoAI** (now F5) | Cognitive-layer intervention that analyzes and reshapes agent "thoughts" before execution. Clam operates at network level rather than the cognitive layer. | $43.2M raised; acquired by F5 for ~$180M (Sep 2025) (Paladin Capital, 2025 via search snippet) | Acquired |
+| **Prompt Security** (now SentinelOne) | Secures AI across browsers, copilots, coding assistants, and apps. Broader surface area than Clam's agent-focused approach. | $23M raised; acquired by SentinelOne (Aug 2025) (SecurityWeek, 2025 via search snippet) | Acquired |
+| **Pillar Security** | Unified AI security platform with AI fingerprinting, asset inventory, adversarial testing, and adaptive guardrails across the full AI lifecycle. Independent and active. | $9M seed (Apr 2025) (SecurityWeek, 2025 via search snippet) | Active |
 
-5. **Protect AI** ($108.5M raised; acquired by Palo Alto Networks for $500M+ Jul 2025; SiliconANGLE, Apr 2025): Comprehensive AI security platform, now integrated into Palo Alto's Prisma AIRS. The broadest enterprise AI security play, acquired before reaching standalone maturity.
+### Why Now
 
-**Why now:** The emergence of agentic AI frameworks with broad system access (OpenClaw launched as an open-source project with computer-use capabilities) creates a new attack surface category that did not exist 18 months ago. [Inferred]: The specific catalyst is the shift from conversational AI (chatbots with limited tool access) to autonomous agents that browse, execute code, and call external APIs -- this crosses a security threshold where traditional input/output guardrails are insufficient because the agent's environment itself becomes the attack surface. The wave of AI security acquisitions in 2025 (Protect AI, Lakera, CalypsoAI all acquired within months) validates enterprise demand and simultaneously removes three well-funded independent competitors from the market.
+[Inferred]: Several specific catalysts have converged: (1) The rapid proliferation of broad-access AI agent frameworks like OpenClaw in 2025-2026, which give AI agents the ability to execute code, browse the web, and call APIs autonomously — creating an urgent new attack surface; (2) The wave of acquisitions of standalone AI security startups by large incumbents (Lakera, Protect AI, CalypsoAI, Prompt Security all acquired in 2025), which has cleared the field of independent competitors and may leave a gap as these products are integrated into larger platforms; (3) Enterprise adoption of AI agents is moving from experimentation to production deployment, creating demand for security tooling purpose-built for agent workflows rather than retrofitted from traditional application security.
 
 ## Founders & Team
 
-**Anshul Paul** -- Co-founder & CEO
-- UC Berkeley, Management, Entrepreneurship & Technology (M.E.T.) program -- EECS and Business dual major (LinkedIn)
-- First full-time employee and founding engineer at HappyRobot (YC-backed, raised $44M Series B at ~$500M valuation Sep 2025; PYMNTS, Sep 2025). Led AI evaluations and observability (YC company page)
-- Prior experience at TE Connectivity, Project RISHI, moontek, and M.E.T Strategy Group (RocketReach via search snippet)
-- Twitter/X: @anshulpaul30 -- follower count not retrievable
-- LinkedIn: linkedin.com/in/anshulpaul30/ -- 500+ connections
-- GitHub: No public repos found
+**Anshul Paul** — Co-founder & CEO
+- EECS and Business, UC Berkeley (M.E.T. program) (YC company page)
+- First full-time employee and founding engineer at HappyRobot, a YC-backed logistics AI company that raised a $44M Series B led by Base10 Partners at ~$500M valuation (Sep 2025) (Upstarts Media, Sep 2025 via search snippet). At HappyRobot, Anshul led AI evals, observability, and enterprise integrations (YC company page).
+- Previously worked on robotics startups (YC LinkedIn post, Jan 2026 via WebFetch)
+- Twitter/X: @anshulpaul30 — count not retrievable (referenced in YC launch tweet)
+- LinkedIn: linkedin.com/in/anshulpaul30 — 500+ connections (LinkedIn via search snippet)
+- GitHub: No public repos found under "anshulpaul30"
 
-**Vaibhav Agrawal** -- Co-founder
-- UC Berkeley, Computer Science (LinkedIn)
-- Fellow at Sutter Hill Ventures (LinkedIn)
-- Data ingestion infrastructure at Sigma Computing (LinkedIn)
-- Remote agents orchestration and containerization at Augment Code (Series B, $227M at $977M valuation, Apr 2024; BusinessWire, Apr 2024) (LinkedIn)
-- Twitter/X: @vaibagra -- follower count not retrievable
-- LinkedIn: linkedin.com/in/vaibhavag2001/
-- GitHub: No public repos found
+**Vaibhav Agrawal** — Co-founder
+- CS, UC Berkeley (YC company page)
+- Fellow at Sutter Hill Ventures (YC company page)
+- Worked on data ingestion infrastructure at Sigma Computing (YC company page)
+- Worked on remote agents orchestration and containerization at Augment Code (YC company page)
+- Previously worked on robotics startups (YC LinkedIn post, Jan 2026 via WebFetch)
+- Twitter/X: @vaibagra — count not retrievable (referenced in YC launch tweet)
+- LinkedIn: linkedin.com/in/vaibagra — headline: "BaseFrame (YC W26)" (LinkedIn via search snippet)
+- GitHub: No public repos found under "vaibagra"
 
-**Co-founder relationship:** Both attended UC Berkeley and were partners during a Computer Security course (YC company page via search snippet). Anshul studied in the M.E.T. program (EECS + Business) while Vaibhav studied Computer Science.
+**Co-founder relationship:** Anshul and Vaibhav are former Berkeley roommates who were partners during a Computer Security course at Berkeley (YC company page; YC LinkedIn post via WebFetch). Both have backgrounds in robotics startups.
 
-**Founder-market fit:** Both founders have direct experience with the problem domain. Anshul built AI evaluation and observability infrastructure at HappyRobot, an AI agent company processing enterprise workflows -- giving him firsthand experience with the security gaps in deployed AI agents. Vaibhav worked on agent orchestration and containerization at Augment Code, a near-unicorn AI coding agent company, and on data infrastructure at Sigma Computing -- relevant to both the agent-runtime and network-infrastructure aspects of Clam's product. Gustaf Alstromer is listed as their primary YC partner (YC company page).
+**Founder-market fit:** Anshul's experience leading AI evals and observability at HappyRobot (a production AI agent company serving enterprises like DHL and Schneider) gives him direct exposure to the security challenges of deploying AI agents in enterprise environments. Vaibhav's work on remote agent orchestration at Augment Code and infrastructure at Sigma Computing provides systems-level engineering experience relevant to building a network-level proxy. Their shared Computer Security coursework at Berkeley and the fact that they previously built together (BaseFrame) demonstrates technical alignment on security problems. No advisors, board members, or notable angel investors were found in public sources beyond the YC standard deal and Gustaf Alstromer as YC Group Partner.
 
 ## Key Risks
 
-**Name confusion with ClamAV:** "Clam" shares its name with ClamAV, the widely-used open-source antivirus engine maintained by Cisco Talos (GitHub: Cisco-Talos/clamav). Search results for "Clam security" frequently return ClamAV content. This creates a brand disambiguation challenge for SEO, developer discovery, and enterprise procurement. The "tryclam.com" domain partially mitigates this but does not resolve it for organic search.
+**Pivot recency:** The company pivoted from BaseFrame (hardware design validation) to Clam (AI agent security) during the W26 batch. The BaseFrame launch post appeared on January 16, 2026, and the Clam product launched subsequently. This rapid pivot means the current product is extremely early, with limited time to validate product-market fit. The prior product's traction (351 likes, 71 comments on YC LinkedIn) does not transfer to the new product.
 
-**Platform dependency on OpenClaw:** Current messaging and product positioning are tightly coupled to OpenClaw ("Run OpenClaw Securely in Minutes"). If OpenClaw loses momentum to competing agentic frameworks, or if OpenClaw itself adds native security features, Clam's addressable market narrows significantly. The 500+ API integrations and VM infrastructure may generalize to other frameworks, but this has not been publicly demonstrated.
+**Incumbent integration risk:** All four major standalone AI security competitors were acquired by large cybersecurity platforms (Check Point, Palo Alto Networks, F5, SentinelOne) in 2025. These incumbents have massive sales teams and existing enterprise relationships. If they successfully integrate AI agent security into their platforms as bundled features, Clam faces distribution disadvantage as a standalone product competing against bundled security suites.
 
-**Acquisition-driven market consolidation:** Three of the most prominent AI security startups (Protect AI, Lakera, CalypsoAI) were acquired by major cybersecurity incumbents (Palo Alto Networks, Check Point, F5) in 2025. Noma Security raised $100M in Series B. This consolidation means Clam competes against well-resourced platform companies rather than independent startups. However, these incumbents focus on broader AI governance, potentially leaving the agentic-specific niche open.
+**OpenClaw dependency:** The product messaging is tightly coupled to OpenClaw ("Run OpenClaw Securely in Minutes"). If OpenClaw's market share shifts, or if OpenClaw itself builds native security features, Clam's positioning weakens. Broadening to support multiple AI agent frameworks would mitigate this but requires additional engineering investment.
 
-**Commoditization of core scanning capabilities:** PII detection, prompt injection detection, and malicious code scanning are available as open-source tools and cloud APIs (Lakera Guard, NeMo Guardrails, Amazon Bedrock Guardrails). The network-level wrapping approach is architecturally straightforward for cybersecurity teams to replicate. Defensibility depends on execution speed and framework-specific integration depth rather than proprietary technology.
+**Brand disambiguation:** "Clam" is a common English word shared by multiple businesses (Clam Corporation, Clam Outdoors, The Clam restaurant). This creates SEO challenges and brand confusion that could impede organic discovery and increase customer acquisition costs.
+
+**Commoditization of core scanning capabilities:** PII detection, prompt injection detection, and malicious code scanning are individually addressable by open-source tools (e.g., LLM Guard) and by any team with security engineering expertise. The bundled network-level approach is differentiated but the individual components are not proprietary.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $22.4B global AI cybersecurity market in 2023, 21.9% CAGR to 2028 (Lakera/industry reports, 2024 via search snippet) |
-| SAM | No public data found for the AI agent security sub-segment specifically |
-| Traction | YC W26 batch; 293 LinkedIn followers (LinkedIn, Feb 2026); YC launch tweet (@ycombinator, Feb 2026) |
-| Revenue Signal | No public data found |
-| Founders | Anshul Paul (CEO): UC Berkeley M.E.T., founding engineer at HappyRobot (YC, $44M Series B). Vaibhav Agrawal: UC Berkeley CS, Sutter Hill Ventures Fellow, Augment Code ($227M Series B) |
-| Competitors | Noma Security ($132M raised, 1300% ARR growth, full AI security platform); Lakera ($33.9M raised, $5.7M ARR, acquired by Check Point Nov 2025, LLM guardrails); Lasso Security ($28M raised, unified AI security gateway); CalypsoAI ($43.2M raised, acquired by F5 for $180M, AI security platform); Protect AI ($108.5M raised, acquired by Palo Alto Networks for $500M+, AI security platform) |
-| Moat Signals | No public data found. Network-level traffic visibility could create data advantage over time |
-| Risk Factors | Name confusion with ClamAV, platform dependency on OpenClaw, market consolidation by well-funded incumbents |
-| Founder Reach | Anshul Paul: Twitter @anshulpaul30 (count not retrievable), LinkedIn 500+, GitHub not found. Vaibhav Agrawal: Twitter @vaibagra (count not retrievable), LinkedIn (count not retrievable), GitHub not found |
-| Distribution Signals | No public data found (no Product Hunt launch, no GitHub repos, no app store presence) |
+| TAM | AI Firewall for LLMs market: $410M in 2024, projected $3.2B by 2033 at 25.4% CAGR (ResearchIntelo, 2024 via search snippet). Broader AI cybersecurity: $134B by 2030 (via search snippet). IT-Harvest: $30M current, 100% growth expected in 2026 (TechTarget, 2025 via search snippet). |
+| SAM | No public data found for the specific AI agent security sub-segment. |
+| Traction | YC launch tweet from @ycombinator (2026). Prior product (BaseFrame) YC LinkedIn post: 351 likes, 71 comments (Jan 16, 2026). No user/customer metrics found for Clam. |
+| Revenue Signal | No public data found. No pricing page visible on tryclam.com. |
+| Founders | Anshul Paul (CEO): UC Berkeley M.E.T., founding engineer at HappyRobot (Series B, ~$500M valuation). Vaibhav Agrawal (Co-founder): UC Berkeley CS, Sutter Hill Ventures Fellow, Sigma Computing, Augment Code. |
+| Competitors | Lakera ($30M raised, acquired by Check Point ~$300M, revenue unknown, prompt-layer GenAI security); Protect AI ($60M raised, acquired by Palo Alto ~$500M, revenue unknown, full ML pipeline security); CalypsoAI ($43.2M raised, acquired by F5 ~$180M, revenue unknown, cognitive-layer intervention); Prompt Security ($23M raised, acquired by SentinelOne, revenue unknown, cross-surface AI security); Pillar Security ($9M seed, active, full-lifecycle AI security platform) |
+| Moat Signals | No public data found. [Inferred]: Potential data advantage from firewall traffic over time; switching costs from network-level deployment. |
+| Risk Factors | Pivot recency (BaseFrame → Clam during batch), incumbent integration risk (4 major competitors acquired by large cybersecurity platforms in 2025), OpenClaw framework dependency |
+| Founder Reach | Anshul Paul: Twitter @anshulpaul30 (count not retrievable), LinkedIn 500+ connections. Vaibhav Agrawal: Twitter @vaibagra (count not retrievable), LinkedIn profile exists (count not retrievable). |
+| Distribution Signals | YC launch tweet (2026). No Product Hunt listing, no GitHub repos, no app store presence, no Chrome extension found. |
+| Emails | No public data found |

@@ -9,7 +9,9 @@
     "industry": "Industrials / Industrials -> Drones",
     "team_size": "5",
     "location": "San Francisco, CA, USA",
-    "tags": "Drones, Energy, Infrastructure"
+    "tags": "Drones, Energy, Infrastructure",
+    "yc_partner": "Tyler Bosmeny",
+    "emails": "avi@voltairlabs.com (YC company page)"
   },
   "tags": [
     "Drones",
@@ -17,47 +19,47 @@
     "Infrastructure"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T19:35:25.232Z",
+  "memoGeneratedAt": "2026-03-06T06:03:00.882Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 56,
+      "score": 57,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 54,
+      "score": 60,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 64,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
       "score": 63,
       "tier": "Neutral"
     },
+    "paul-graham": {
+      "score": 67,
+      "tier": "Invest"
+    },
     "peter-thiel": {
-      "score": 59,
+      "score": 57,
       "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 65,
+      "score": 66,
       "tier": "Invest"
     },
     "vinod-khosla": {
-      "score": 66,
-      "tier": "Invest"
+      "score": 64,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 56,
-    "EG": 54,
-    "NR": 64,
-    "PG": 63,
-    "PT": 59,
-    "SL": 65,
-    "VK": 66
+    "CB": 57,
+    "EG": 60,
+    "NR": 63,
+    "PG": 67,
+    "PT": 57,
+    "SL": 66,
+    "VK": 64
   },
-  "consolidatedAvg": 61,
+  "consolidatedAvg": 62,
   "consolidatedRank": 4,
   "paths": {
     "memo": "winter2026/memos/voltair.md",

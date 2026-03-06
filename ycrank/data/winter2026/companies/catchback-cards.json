@@ -9,7 +9,9 @@
     "industry": "Consumer / Consumer -> Gaming",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Crypto / Web3, Consumer, NFT"
+    "tags": "Crypto / Web3, Consumer, NFT",
+    "yc_partner": "Brad Flora",
+    "emails": "No public data found"
   },
   "tags": [
     "Crypto / Web3",
@@ -17,18 +19,18 @@
     "NFT"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T19:34:27.605Z",
+  "memoGeneratedAt": "2026-03-06T05:57:55.447Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 34,
+      "score": 31,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 37,
+      "score": 33,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 37,
+      "score": 35,
       "tier": "Pass"
     },
     "paul-graham": {
@@ -36,29 +38,29 @@
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 27,
+      "score": 28,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 37,
+      "score": 36,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 34,
+      "score": 33,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 34,
-    "EG": 37,
-    "NR": 37,
+    "CB": 31,
+    "EG": 33,
+    "NR": 35,
     "PG": 53,
-    "PT": 27,
-    "SL": 37,
-    "VK": 34
+    "PT": 28,
+    "SL": 36,
+    "VK": 33
   },
-  "consolidatedAvg": 37,
-  "consolidatedRank": 126,
+  "consolidatedAvg": 35.57,
+  "consolidatedRank": 140,
   "paths": {
     "memo": "winter2026/memos/catchback-cards.md",
     "evals": {

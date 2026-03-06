@@ -9,29 +9,31 @@
     "industry": "B2B / B2B -> Infrastructure",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "AIOps, Deep Learning"
+    "tags": "AIOps, Deep Learning",
+    "yc_partner": "Tyler Bosmeny",
+    "emails": "founders@usebits.com, robbie@usebits.com"
   },
   "tags": [
     "AIOps",
     "Deep Learning"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-20T19:30:45.642Z",
+  "memoGeneratedAt": "2026-03-06T05:51:38.536Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 25,
+      "score": 24,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 30,
+      "score": 31,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 30,
+      "score": 24,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 37,
+      "score": 36,
       "tier": "Pass"
     },
     "peter-thiel": {
@@ -39,25 +41,25 @@
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 22,
-      "tier": "Pass"
+      "score": 17,
+      "tier": "Strong Pass"
     },
     "vinod-khosla": {
-      "score": 27,
+      "score": 26,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 25,
-    "EG": 30,
-    "NR": 30,
-    "PG": 37,
+    "CB": 24,
+    "EG": 31,
+    "NR": 24,
+    "PG": 36,
     "PT": 22,
-    "SL": 22,
-    "VK": 27
+    "SL": 17,
+    "VK": 26
   },
-  "consolidatedAvg": 27.57,
-  "consolidatedRank": 191,
+  "consolidatedAvg": 25.71,
+  "consolidatedRank": 195,
   "paths": {
     "memo": "winter2026/memos/bits-2.md",
     "evals": {

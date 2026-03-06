@@ -11,113 +11,110 @@
 | Team Size | 3 |
 | Location | San Francisco, CA, USA |
 | Tags | Artificial Intelligence, B2B, Workflow Automation, Compliance |
+| YC Partner | Diana Hu |
+| Emails | founders@oxus-ai.com (YC Launch page) |
 
 ## The Idea
 
-**Problem:** Internal audit teams at pre-IPO and public companies spend significant time on manual scoping, documentation, control testing, and evidence review for SOX (Sarbanes-Oxley) compliance. Common pain points include high outsourcing costs when teams are understaffed, inconsistent documentation quality across auditors, time-intensive searches through PDFs and policy documents, and low-value busywork that diverts focus from risk assessment and judgment (oxus-ai.com). Today, these teams rely on a combination of spreadsheets, legacy GRC platforms (AuditBoard, Workiva), and external audit firms.
+**Problem:** Internal audit teams at pre-IPO and public companies face costly, labor-intensive SOX (Sarbanes-Oxley) compliance processes. Scoping, documentation, flowcharting, and control testing are largely manual, producing inconsistent results across team members and consuming weeks of effort. Companies currently outsource significant portions of this work at rates of $200–$800/hour, resulting in annual spend of $300K–$1M+ per company (YC Launch page). Existing tools like AuditBoard, Workiva, and TeamMate+ provide workflow management but do not automate the substantive audit work itself (analysis, evidence review, workpaper drafting).
 
-**Approach:** Oxus is an AI-native platform that automates four core internal audit workflows: (1) control testing and workpaper generation, (2) walkthrough flowchart and narrative generation from documentation, (3) SOX scoping and risk assessment, and (4) document intelligence with AI-powered search, analysis, and annotation (oxus-ai.com). The platform produces evidence-grounded outputs tied to specific source documents, maintains an auditor-in-the-loop review process, and generates consistent, standardized formats. Deployment options include Oxus-hosted or customer-hosted, with customer data never reused or retained for model training (oxus-ai.com).
+**Approach:** Oxus uses AI to automate the core tasks of internal auditing: (1) audit scoping using financial metrics and qualitative risk analysis, (2) process documentation and flowchart generation from walkthrough meetings, (3) evidence review across disparate files and systems using document intelligence, and (4) automated control testing with workpaper generation (oxus-ai.com). The workflow follows an upload-analyze-generate-review pipeline, producing "review-ready" outputs that auditors verify rather than create from scratch. The platform enforces an auditor-in-the-loop review process with evidence-grounded outputs tied to specific source documents (oxus-ai.com).
 
-**Differentiation:** Oxus targets in-house internal audit teams at pre-IPO and public companies, whereas Fieldguide (the most directly comparable AI-native competitor) primarily serves external CPA and advisory firms. Legacy platforms like AuditBoard and Workiva provide workflow management and reporting but were not built as AI-native tools for automating the production of audit deliverables. Denki (YC-backed) positions itself as a "full-stack AI audit firm" performing audit work as a service with "99% software, 1% services" (YC company page), taking a services-replacement approach rather than Oxus's tool-for-teams model.
+**Differentiation:** Incumbent platforms (AuditBoard, Workiva, TeamMate+) focus on audit management—scheduling, workflow tracking, collaboration, and reporting. Oxus targets the substantive audit work itself—scoping decisions, narrative generation, evidence interpretation, and control testing. MindBridge AI focuses on anomaly detection and fraud risk scoring in financial data, which is complementary but different from Oxus's SOX compliance automation. Oxus also offers flexible deployment (Oxus-hosted or customer-hosted), addressing data sensitivity concerns common among audit teams (oxus-ai.com).
 
-**Business Model:** No pricing page is publicly visible (oxus-ai.com, accessed Feb 2026). [Inferred]: Most likely monetization path is SaaS subscription pricing, potentially seat-based or per-engagement, given the B2B enterprise audience and the auditor-in-the-loop model.
+**Business Model:** No pricing page is publicly available (oxus-ai.com). [Inferred]: Most likely monetization path is enterprise SaaS with annual contracts, potentially priced per module or per-seat given the target customer segment (mid-to-large enterprises with internal audit teams). The outsourcing cost benchmark of $300K–$1M+/year provides significant pricing headroom.
 
-**TAM/SAM:** The internal audit management software market was valued at USD 3.2 billion in 2026, projected to reach USD 6.5 billion by 2033 at 10.5% CAGR (OpenPR via search snippet). A separate estimate from Verified Market Research values the internal audit management software market at USD 1.2 billion in 2024, projected to reach USD 1.9 billion by 2032 at 7.5% CAGR (Verified Market Research via search snippet). The broader audit software market was valued at USD 77.92 billion in 2024 (GMInsights via search snippet). For SAM, no specific estimate was found for AI-powered SOX internal audit automation specifically.
+**TAM/SAM:** The global audit management software market was valued at approximately $2.2B in 2026, projected to reach $6.0B by 2033 at a CAGR of 15.4% (Persistence Market Research, 2026 via search snippet). The broader internal audit software market was estimated at $4.5B in 2024, projected to reach $10.4B by 2033 at a CAGR of 9.8% (Verified Market Research, 2024 via search snippet). The audit software market was estimated at $3.37B in 2024, projected to reach $6.80B by 2030 at a CAGR of 12.37% (360iResearch, 2024 via search snippet). [Inferred]: Oxus's SAM is the subset of this market comprising SOX compliance automation for public and pre-IPO US companies, which would be a fraction of the overall audit software TAM.
 
-**GTM / Distribution:** The YC Launch page states Oxus is "currently onboarding early customers" and seeks connections with "Chief Audit Executives, CFOs, heads of internal audit/SOX/internal controls, and internal auditors at pre-IPO and public companies" (YC Launch page). [Inferred]: Most likely distribution path is founder-led direct sales to heads of internal audit at mid-market pre-IPO and recently public companies, leveraging YC network for initial introductions.
+**GTM / Distribution:** The YC Launch page indicates the team is actively onboarding early customers and seeking introductions to Chief Audit Executives, CFOs, internal audit leadership, and controllers at mid-to-large enterprises (YC Launch page). [Inferred]: Most likely distribution path is top-down enterprise sales via direct outreach and referral networks, leveraging YC's enterprise network and the founders' finance-industry connections.
 
 ## Defensibility
 
-**Data advantages:** Oxus's auditor-in-the-loop model could accumulate proprietary data on audit workflows, control testing patterns, and company-specific documentation structures over time. This data could improve AI model performance for returning customers. However, no evidence of a current data moat exists at this stage.
+Oxus's primary defensibility signal is domain-specific AI fine-tuned for internal audit workflows—a narrow and complex domain where generic AI tools would require significant adaptation. The auditor-in-the-loop design with evidence-grounded outputs suggests a trust-building mechanism that, over time, could create switching costs as teams build processes around the platform. Customer audit data and templates accumulated on the platform could create a data advantage specific to each client's control environment.
 
-**Switching costs:** Once audit teams integrate Oxus into their workflows and build institutional knowledge within the platform (scoping templates, control documentation, flowcharts), switching costs increase. Audit teams operate on annual cycles, meaning that mid-cycle switching is impractical.
+**Market structure:** AuditBoard ($3B+ acquisition by Hg, $200M+ ARR) and Workiva (public company) serve thousands of enterprise customers but position as audit management platforms—workflow, collaboration, and reporting layers. Building AI-native substantive audit automation would require these incumbents to either develop or acquire deep NLP/AI capabilities specifically trained on audit evidence, which represents a different technical skillset from their existing platform engineering. Additionally, an AI tool that automates audit work could cannibalize the outsourcing revenue streams of consulting firms (Big Four, regional firms) that currently perform this work. [Inferred]: This creates a structural misalignment where the largest sales channel for audit software (Big Four partnerships) may resist a product that displaces their own billings.
 
-**Technical complexity:** The product requires domain-specific AI that understands SOX audit methodology, accounting controls, and compliance documentation standards. Building accurate, evidence-grounded outputs in this domain requires specialized prompt engineering, document parsing, and audit-knowledge representation.
-
-No defensibility signals found in public sources beyond the above structural characteristics. [Inferred]: A potential moat could develop via accumulation of proprietary audit workflow data and customer-specific institutional knowledge, but is unproven at this stage.
-
-**Market structure:** AuditBoard (acquired by Hg for $3B+, May 2024; AuditBoard blog) and Workiva ($739M revenue in 2024; Workiva investor relations) are the dominant incumbents. Both are workflow management and reporting platforms that were built before the current generation of LLMs. Rebuilding these platforms as AI-native would require cannibalizing their existing product lines and retraining their sales and customer success organizations around a fundamentally different value proposition (automated outputs vs. workflow tracking). Workiva, as a public company, faces additional pressure to maintain existing revenue streams. [Inferred]: This creates a window for a new entrant, though incumbents are actively adding AI features to their existing platforms.
-
-**Commoditization risk:** The core technology (LLM-based document analysis and generation) is accessible to any team with AI engineering capability. Fieldguide ($125M raised, $700M valuation; Fortune, Feb 2026) is already building AI-native audit tools, though focused on external advisory firms. Denki (YC-backed) targets a similar use case. General-purpose AI tools (e.g., ChatGPT, Copilot) could also be adapted by audit teams for ad-hoc automation, though without the domain-specific workflow integration.
+**Commoditization risk:** Large language model capabilities are commoditizing rapidly. Any AI-focused startup or incumbent could theoretically build similar document analysis and workpaper generation. The barrier is domain expertise in SOX compliance standards, control testing methodologies, and auditor workflows—this requires both technical and audit expertise to encode correctly. Horizontal AI document analysis tools (e.g., from large cloud providers) could also move into this space.
 
 ## Market & Traction
 
 **Traction signals:**
-- YC Launch page: 2,262 upvotes (YC Launches page)
-- Status: "Onboarding early customers" (YC Launch page)
-- Twitter/X: @AiOxus (handle confirmed; follower count not retrievable due to JavaScript rendering)
-- LinkedIn: linkedin.com/company/oxus-ai-inc (follower count not retrievable)
+- YC Launch page upvotes: 2,290 (YC Launch page, ~January 2026)
+- LinkedIn company page: https://www.linkedin.com/company/oxus-ai-inc (LinkedIn via search snippet)
+- Twitter/X: @AiOxus (follower count not retrievable due to JavaScript rendering)
 - No Product Hunt launch found
-- No public revenue, user count, or customer names disclosed
-- No app store listings, Chrome extensions, or open-source repositories found for the YC W26 Oxus
+- No public revenue, user count, or customer data found
 - No Discord or Slack community found
+- No app store or Chrome extension presence found
+- The company is not currently hiring (YC page)
 
 **Competitive landscape:**
 
-1. **AuditBoard** — Acquired by Hg for $3B+ (May 2024; AuditBoard blog). Crossed $200M ARR in late 2023 (SiliconANGLE, May 2024 via search snippet). Serves 2,000+ enterprises including ~50% of the Fortune 500. Cloud-based platform for internal audit, SOX, and risk management. Differentiation vs. Oxus: comprehensive GRC suite with established enterprise relationships, but pre-AI-era architecture focused on workflow management rather than AI-generated audit deliverables.
+| Competitor | Funding | Revenue/ARR | Key Differentiator vs. Oxus |
+|-----------|---------|-------------|---------------------------|
+| AuditBoard | $501M raised; acquired by Hg for $3B+ (May 2024) (SiliconANGLE, May 2024 via search snippet) | $200M+ ARR (2024) (AuditBoard blog via search snippet) | Full GRC platform with audit management, risk, and compliance modules; serves 2,000+ enterprises including ~50% of Fortune 500. Focuses on workflow management rather than AI-driven substantive audit automation. |
+| MindBridge AI | ~$140M total; $95M Series B (Sept 2025) (SalesTools via search snippet) | ~$24.5M (2025) (GetLatka via search snippet) | AI-powered anomaly detection and fraud risk scoring across 100% of financial transactions. Focuses on risk discovery rather than SOX compliance workflow automation. |
+| Workiva | Public company (NYSE: WK) | Pricing starts at $30K/year (SmartSuite, 2026 via search snippet) | Cloud-based connected reporting and compliance platform; strength in financial reporting, ESG disclosures, and SEC filings. Uses "Workiva AI" for task automation but is a broad platform, not SOX-audit-specific. |
+| Drata | $328M raised; $2B valuation (Dec 2022) (PRNewswire via search snippet) | ~$100M (2025) (GetLatka via search snippet) | AI-native compliance automation focused on SOC 2, ISO 27001, and 23 frameworks; more oriented toward security compliance than internal audit/SOX. Adjacent market. |
+| TeamMate+ (Wolters Kluwer) | Subsidiary of Wolters Kluwer (public company) | Revenue unknown | Established audit management software with planning, scheduling, risk assessment, and reporting. Traditional tool without AI-native capabilities. |
 
-2. **Fieldguide** — $125M total raised including $75M Series C led by Goldman Sachs (Fortune, Feb 2026). ~$700M valuation. Used by half of the Top 100 US accounting firms including Baker Tilly, BDO, KPMG, and Grant Thornton. Revenue not publicly disclosed. Differentiation vs. Oxus: targets external CPA/advisory firms rather than in-house internal audit teams; broader audit and advisory scope beyond SOX.
-
-3. **Drata** — $328M raised, $2B valuation (Drata press release, Dec 2022). ~$100M ARR (Drata blog, FY25). 7,500+ customers. Differentiation vs. Oxus: focuses on compliance automation for SOC 2, ISO 27001, HIPAA, and similar frameworks rather than SOX internal audit; primarily serves tech companies seeking compliance certifications rather than public company internal audit departments.
-
-4. **Workiva** — Public company (NYSE: WK). $739M revenue in 2024, up 17% YoY (Workiva investor relations, Q4 2024). 6,500+ organizations, 85%+ of Fortune 1,000. Differentiation vs. Oxus: integrated financial reporting, sustainability, and GRC platform; significantly broader scope but not AI-native for audit automation specifically.
-
-5. **Denki** — YC-backed (batch not confirmed from search results). No public funding data found. Positions as a "full-stack AI financial audit firm" performing audit work with "99% software and 1% services" (YC company page). Differentiation vs. Oxus: services-replacement model (Denki performs the audit) vs. Oxus's tool-for-teams model (Oxus augments in-house auditors).
-
-**Why now:** [Inferred]: Two catalysts have converged: (1) LLM capabilities reached a threshold in 2023-2024 sufficient for reliable document analysis, evidence extraction, and structured output generation at the quality level required for audit deliverables; and (2) a CPA talent shortage — 75% of CPAs are projected to retire in the next decade (Denki YC launch page via search snippet) — is increasing the cost and difficulty of staffing internal audit functions, pushing teams to seek automation solutions. The regulatory burden has not decreased (SOX compliance remains mandatory for public companies), while the supply of qualified auditors is contracting.
+**Why now:** [Inferred]: The emergence of large language models capable of document understanding, summarization, and structured output generation (2023–2025) crossed a capability threshold that makes automated evidence review and workpaper generation technically feasible for the first time. Prior audit automation tools could manage workflows but could not interpret unstructured audit evidence (PDFs, policies, financial documents) or generate narrative outputs. Simultaneously, SOX compliance requirements continue to expand, and the accounting talent shortage has increased outsourcing costs, creating cost pressure that makes AI automation more attractive.
 
 ## Founders & Team
 
 **Janet Liu** — Co-founder & CEO
-- MIT B.S. in Computer Science, Economics, Data Science, and Finance (LinkedIn)
-- Previous: Summer 2024 Operations Intern, CBDC Research at Federal Reserve Bank of Boston (LinkedIn); investment strategy at D.E. Shaw (YC page)
-- Co-President of MIT Women Business Leaders; VP Finance of MIT StartLabs (Datanyze via search snippet)
-- Twitter/X: No confirmed public account found for this individual
-- LinkedIn: linkedin.com/in/janet-liu-4856b91b4/
+- B.S. Computer Science, Economics, Data Science and Finance, MIT (YC page)
+- Previously: Summer 2024 Operations Intern, CBDC Research at Federal Reserve Bank of Boston (LinkedIn via search snippet); investment strategy at D.E. Shaw (YC page via search snippet)
+- Co-founded J&M Sunrizon Economics nonprofit with sister Melinda; co-authored children's economics books published by Scholastic including "What Banks Do with Money" and "Making and Saving Money" (Points of Light; Amazon; Barnes & Noble via search snippets)
+- Participated in MIT $100K Entrepreneurship Competition; recognized by MIT Female Founders Pitch Competition (LinkedIn post by Sebastian Barriga)
+- Twitter/X: No public account confirmed for the Oxus co-founder (a different Janet Liu uses @janetlauyeung)
+- LinkedIn: https://www.linkedin.com/in/janet-liu-4856b91b4/
 - GitHub: No public repos found
 
 **Melinda Liu** — Co-founder & COO
-- MIT B.S. in Computer Science, Economics, Data Science, and Finance (LinkedIn)
-- Previous: Finance role at JPMorgan; built AI products in fintech (YC page, LinkedIn via search snippet)
+- B.S. Computer Science, Economics, Data Science and Finance, MIT (YC page)
+- Previously: Built AI products for fintech; finance at JPMorgan (YC page via search snippet)
+- Co-founded J&M Sunrizon Economics nonprofit with sister Janet; co-authored children's economics books (Points of Light via search snippet)
+- Participated in MIT $100K Entrepreneurship Competition (LinkedIn post by Sebastian Barriga)
 - Twitter/X: No public account found
-- LinkedIn: linkedin.com/in/melinda-314-liu/
+- LinkedIn: https://www.linkedin.com/in/melinda-314-liu/ (also https://www.linkedin.com/in/melinda-liu-4a87a3198/)
 - GitHub: No public repos found
 
 **Christine Watts** — Co-founder & CTO
-- MIT B.S. in Artificial Intelligence (LinkedIn via search snippet)
-- Previous: ML systems engineering at startups; consulting at BCG and NERA (YC page)
-- Reported to have gotten into Y Combinator as a 19-year-old solo founder, described as the first from Tajikistan (LinkedIn via search snippet); it is unclear whether this refers to a prior venture or the current Oxus application, given that Oxus has three co-founders
-- LinkedIn: linkedin.com/in/christinewatts2018/
+- B.S. Artificial Intelligence, MIT (YC page via search snippet)
+- Previously: Built ML systems for early- and growth-stage startups; consulting at BCG and NERA Economic Consulting (YC page via search snippet)
 - Twitter/X: No public account found
+- LinkedIn: https://www.linkedin.com/in/christinewatts2018/ — San Francisco Bay Area, 500+ connections
 - GitHub: No public repos found
 
-**Co-founder relationship:** All three founders hold MIT degrees in overlapping fields (Computer Science, Economics, Data Science, Finance, and AI), indicating they were contemporaries at MIT. Janet Liu and Melinda Liu share a surname, but no public information confirms a familial relationship. The shared MIT affiliation is the clearest documented co-founder connection.
+**Co-founder relationship:** Janet Liu and Melinda Liu are sisters (Points of Light article) who both attended Palm Harbor University High School in Florida before MIT (Sun Coast News via search snippet). They co-founded J&M Sunrizon Economics together and co-authored multiple books. All three co-founders attended MIT, which is the likely connection point for Christine Watts joining the team.
 
-**Founder-market fit:** Janet Liu's Federal Reserve CBDC research and D.E. Shaw investment strategy experience provide exposure to financial regulation and institutional finance. Melinda Liu's JPMorgan background and fintech AI product experience connect domain finance knowledge with AI product development. Christine Watts's ML systems engineering and BCG/NERA consulting background combines technical AI capability with advisory and consulting experience relevant to audit clients. Collectively, the team spans financial regulation, institutional finance, AI/ML engineering, and management consulting — all relevant to building AI tools for internal audit teams.
+**Founder-market fit:** The team combines finance domain expertise (Federal Reserve CBDC research, D.E. Shaw, JPMorgan) with AI/ML engineering capability (MIT AI degree, BCG consulting, ML systems at startups). Janet and Melinda's background in financial services and economics gives them direct exposure to the audit and compliance pain points their product addresses. Christine's ML engineering experience at startups and consulting background at BCG provides both technical depth and enterprise go-to-market familiarity. The team's publishing track record (Scholastic books) demonstrates an ability to distill complex financial topics—a relevant skill for generating clear audit documentation.
 
 ## Key Risks
 
-**Well-funded AI-native competitor overlap:** Fieldguide ($125M raised, ~$700M valuation; Fortune, Feb 2026) is building AI-native audit automation and has relationships with major accounting firms. While Fieldguide currently focuses on external advisory firms rather than in-house audit teams, expanding into the internal audit market would be a natural adjacency. Fieldguide's capital advantage and existing customer base create a competitive threat if they move into Oxus's target segment.
+**Brand disambiguation:** Multiple entities operate under the "Oxus" name, including Oxus.AI (Lithuanian speech analytics company at oxus.ai, which rebranded to Leya AI in 2023), OXUS Technologies, Oxus Capital Group, and the Oxus Society. The company's domain is oxus-ai.com (hyphenated), while a different company holds oxus.ai. This creates potential confusion in search results, social media, and customer discovery.
 
-**Incumbent AI feature additions:** AuditBoard (2,000+ enterprise customers, $3B+ acquisition) and Workiva (6,500+ customers, $739M revenue) have established relationships with exactly the buyer personas Oxus targets. Both companies are actively integrating AI capabilities into their existing platforms. If incumbent AI features prove "good enough" for audit teams, Oxus would need to demonstrate substantially superior output quality to justify a separate tool purchase and workflow change.
+**Incumbent platform expansion:** AuditBoard ($200M+ ARR, acquired for $3B+) and Workiva (public company) are actively integrating AI features into their platforms. AuditBoard already uses "AI-driven insights" and Workiva has launched "Workiva AI" (search results via SmartSuite, 2026). If these incumbents develop comparable substantive audit automation, they could bundle it into existing enterprise contracts at low marginal cost, making standalone competition difficult.
 
-**Enterprise sales cycle and trust barriers:** SOX compliance is high-stakes — errors can result in material weakness findings and regulatory consequences. Audit teams and their management may be reluctant to adopt AI-generated outputs from an early-stage company without extensive validation. [Inferred]: This likely necessitates lengthy pilot periods and risk-averse procurement processes, which could slow early revenue growth.
+**Regulatory and liability complexity:** AI-generated audit workpapers carry professional liability implications. Auditors and audit committees may resist AI-generated outputs for SOX compliance due to personal liability exposure (Section 302/906 certifications). Adoption may be constrained by regulatory guidance from the PCAOB or SEC on acceptable use of AI in audit processes, which has not yet been fully articulated.
 
-**Brand disambiguation:** An older, now-defunct company called Oxus.AI (Lithuanian speech analytics startup, founded 2020, became Leya AI in June 2023; Crunchbase) shares a similar name. The GitHub organization "oxus-ai" belongs to this older entity. Additionally, "Oxus" is the name of several unrelated organizations in Central Asia (Oxus Tajikistan, OXUS Afghanistan on LinkedIn). This could create confusion in search results, investor due diligence, and customer discovery.
+**Sales cycle length:** Enterprise sales to Chief Audit Executives and CFOs at public companies typically involve extended procurement cycles, security reviews, and pilot periods. A 3-person team may face bandwidth constraints managing concurrent enterprise sales processes alongside product development.
 
-**Narrow initial TAM segment:** Oxus's current positioning targets SOX compliance at pre-IPO and public companies. The number of US public companies subject to SOX is approximately 4,000-5,000. The internal audit buyer within each company is a single department. [Inferred]: This creates a relatively narrow initial addressable segment, requiring either high contract values or expansion into adjacent audit types (operational audits, IT audits, financial audits beyond SOX) to scale.
+**Channel conflict with outsourcing firms:** The Big Four and regional audit firms that currently provide outsourced internal audit services represent both potential channel partners and competitors. These firms have established relationships with the target customer base and could develop competing AI tools internally or resist recommending a product that displaces their own revenue.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $3.2B internal audit management software market in 2026, projected $6.5B by 2033 at 10.5% CAGR (OpenPR via search snippet); alternate estimate $1.2B in 2024 projected $1.9B by 2032 at 7.5% CAGR (Verified Market Research via search snippet) |
-| SAM | No public data found for AI-powered SOX internal audit automation specifically |
-| Traction | 2,262 upvotes on YC Launch page; "onboarding early customers" (YC Launch page) |
-| Revenue Signal | No public data found |
-| Founders | Janet Liu (CEO): MIT CS/Econ/Data Science/Finance, ex-Federal Reserve, ex-D.E. Shaw. Melinda Liu (COO): MIT CS/Econ/Data Science/Finance, ex-JPMorgan, fintech AI. Christine Watts (CTO): MIT AI, ex-BCG/NERA, ML systems engineering. |
-| Competitors | AuditBoard ($3B+ acquisition by Hg, $200M+ ARR, broad GRC suite vs. AI-native audit outputs); Fieldguide ($125M raised, ~$700M valuation, revenue unknown, CPA/advisory firm focus vs. in-house audit teams); Drata ($328M raised, ~$100M ARR, compliance certification focus vs. SOX internal audit); Workiva (public, $739M revenue, financial reporting platform vs. AI-native audit automation); Denki (YC-backed, funding unknown, revenue unknown, audit-as-a-service vs. tool-for-teams) |
-| Moat Signals | No public data found |
-| Risk Factors | Well-funded AI-native competitor (Fieldguide) in adjacent segment, incumbent AI feature additions (AuditBoard/Workiva), enterprise trust barriers for AI in high-stakes compliance |
-| Founder Reach | Janet Liu: Twitter not found, LinkedIn linkedin.com/in/janet-liu-4856b91b4/. Melinda Liu: Twitter not found, LinkedIn linkedin.com/in/melinda-314-liu/. Christine Watts: Twitter not found, LinkedIn linkedin.com/in/christinewatts2018/. Company: Twitter @AiOxus (count not retrievable), LinkedIn linkedin.com/company/oxus-ai-inc (count not retrievable) |
-| Distribution Signals | YC Launch page with 2,262 upvotes; no Product Hunt launch found; no app store or Chrome Web Store presence found |
+| TAM | Global audit management software: $2.2B (2026), projected $6.0B by 2033, CAGR 15.4% (Persistence Market Research via search snippet). Internal audit software: $4.5B (2024), projected $10.4B by 2033, CAGR 9.8% (Verified Market Research via search snippet). |
+| SAM | No public data found for SOX-specific audit automation segment. |
+| Traction | 2,290 upvotes on YC Launch page (~Jan 2026). No public user count, revenue, or customer data found. |
+| Revenue Signal | No public data found. No pricing page available. |
+| Founders | Janet Liu (CEO): MIT CS/Econ, Federal Reserve CBDC research, D.E. Shaw. Melinda Liu (COO): MIT CS/Econ, JPMorgan, fintech AI products. Christine Watts (CTO): MIT AI, BCG, NERA, ML systems at startups. |
+| Competitors | AuditBoard ($501M raised, $200M+ ARR, GRC platform). MindBridge AI (~$140M raised, ~$24.5M revenue, anomaly detection). Workiva (public, connected reporting). Drata ($328M raised, ~$100M revenue, security compliance). TeamMate+ (Wolters Kluwer subsidiary, audit management). |
+| Moat Signals | Domain-specific AI for SOX audit workflows; auditor-in-the-loop design; flexible deployment (customer-hosted option). No patents or open-source repos found. |
+| Risk Factors | Brand disambiguation with other "Oxus" entities, incumbent AI feature expansion (AuditBoard/Workiva), regulatory/liability uncertainty for AI in audit |
+| Founder Reach | Janet Liu: LinkedIn (profile found), Twitter not confirmed, GitHub not found. Melinda Liu: LinkedIn (profile found), Twitter not found, GitHub not found. Christine Watts: LinkedIn 500+ connections, Twitter not found, GitHub not found. |
+| Distribution Signals | YC Launch page (2,290 upvotes). No Product Hunt, app store, or Chrome extension presence found. |
+| Emails | founders@oxus-ai.com (YC Launch page) |

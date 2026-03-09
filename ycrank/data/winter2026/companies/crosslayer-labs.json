@@ -9,7 +9,9 @@
     "industry": "B2B / B2B -> Security",
     "team_size": "3",
     "location": "San Francisco, CA, USA",
-    "tags": "SaaS, B2B, Cybersecurity"
+    "tags": "SaaS, B2B, Cybersecurity",
+    "yc_partner": "Tyler Bosmeny",
+    "emails": "contact@crosslayerlabs.com"
   },
   "tags": [
     "SaaS",
@@ -17,26 +19,26 @@
     "Cybersecurity"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-27T00:02:29.917Z",
+  "memoGeneratedAt": "2026-03-09T23:22:00.564Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 44,
-      "tier": "Pass"
+      "score": 48,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 62,
+      "score": 53,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 73,
+      "score": 70,
       "tier": "Invest"
     },
     "paul-graham": {
-      "score": 61,
+      "score": 57,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 48,
+      "score": 52,
       "tier": "Neutral"
     },
     "sam-lessin": {
@@ -44,21 +46,21 @@
       "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 48,
+      "score": 47,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 44,
-    "EG": 62,
-    "NR": 73,
-    "PG": 61,
-    "PT": 48,
+    "CB": 48,
+    "EG": 53,
+    "NR": 70,
+    "PG": 57,
+    "PT": 52,
     "SL": 45,
-    "VK": 48
+    "VK": 47
   },
-  "consolidatedAvg": 54.43,
-  "consolidatedRank": 16,
+  "consolidatedAvg": 53.14,
+  "consolidatedRank": 20,
   "paths": {
     "memo": "winter2026/memos/crosslayer-labs.md",
     "evals": {

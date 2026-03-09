@@ -1,0 +1,26 @@
+﻿# Alt-X -- Cyan Banister Evaluation
+
+The first thing that strikes me about Alt-X is how crowded and validated its category already is. Endex has $14M from OpenAI's Startup Fund. Shortcut has $78M+ from Sequoia at a $300M+ valuation. Datarails just raised at $550M approaching $100M in revenue. When I see that kind of capital concentration in a space, my instinct isn't excitement -- it's caution. The most promising companies I've backed were the ones nobody else wanted to fund. SpaceX when private space was considered lunacy. Crusoe when it was literally burning gas in a field. AI-powered Excel for institutional finance is the opposite of that -- it's a category every major venture firm has already blessed. The weirdness, the thing I hunt for, has been completely arbitraged away here.
+
+When I try to hear Ryan Samadi's story -- not the business, the story -- what I find is a strong resume. Stanford CS on the AI track, analyst at Citadel Global Equities, fixed income at BofA, private equity at IIFG, CIO of Stanford's student hedge fund. Those are real credentials, and they give him genuine knowledge of the pain point. He has sat in the chair, built the spreadsheets, felt the tedium. I respect that domain fluency. But domain fluency and the kind of biographical grit I look for are different things. I'm listening for the hardship that made this founder's commitment to this problem feel inevitable -- the thread that means they'll keep going when the company is in crisis and the obvious move is to quit. What I see instead is a well-credentialed Stanford graduate building a logical product for a market he knows professionally. That's a fine basis for a company, but it doesn't give me the signal I need to write a conviction check from my own money.
+
+Michael Wachsman is almost entirely invisible in the public record -- prior roles unconfirmed, education unknown, no public-facing presence. More concerning, there's no visible prior connection between the two founders. No shared employer, no shared university, nothing that tells me these two have been through something hard together. After HQ Trivia, I ask every founding team how they fight and how they resolve it. I can't even begin to assess that here. A two-person company where I can't see the co-founder relationship and can't evaluate the CTO's background is a company where I'm operating blind on two of my most important filters.
+
+The bull case deserves genuine engagement. Ryan's domain expertise is legitimate and specific -- he knows exactly which KPIs matter for alternative-asset underwriting because he's lived inside that workflow at multiple firms. The narrow vertical focus on PE and real estate could be a durable advantage against Endex and Shortcut, which are spreading themselves across all of Excel. Vertical depth beats horizontal breadth in enterprise sales, and the institutional trust required for IC-ready financial models creates real switching costs once you're embedded. If Alt-X can build sufficiently deep extraction models for alternative-asset-specific documents -- CIMs, rent rolls, cap rate analyses -- before the horizontal players move downmarket, they could own a defensible wedge. At $30/month entry with higher team tiers, the bottoms-up adoption path into family offices makes strategic sense. The problem is real, the timing is right, and the founder has the domain knowledge. For an investor whose framework rewards strong founder-market fit and clear TAM, this could be a solid bet.
+
+But that's not my framework. I'm not looking for solid bets with clear founder-market fit in validated categories. I'm looking for the thing that makes most investors uncomfortable. Alt-X makes no one uncomfortable. It doesn't serve underserved populations -- it optimizes workflows for analysts at funds managing hundreds of millions in assets. It doesn't make an invisible system visible to people who were previously excluded. It makes an already-visible system slightly more efficient for people who already have access. Compare that to Affirm, which replaced hidden credit card fees with transparent interest rates for consumers who were being exploited, or Carta, which gave employees real visibility into equity that was previously locked in opaque spreadsheets. Alt-X saves wealthy fund analysts time on spreadsheets. That's useful. It's not the kind of impact that keeps me up at night with excitement.
+
+This is a pass for me -- not because it's a bad company, but because it sits squarely outside every dimension of what I invest in. The category is consensus, the founders don't show the biographical grit signal I weight most heavily, the co-founder dynamic is opaque, and the impact story is about efficiency rather than access. Someone will fund this and possibly do well. It's just not a bet that belongs in my portfolio.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Biographical Grit and Personal Stake | 11/30 |
+| Anti-Consensus Conviction and Weird Factor | 5/25 |
+| Economic Access and Real-World Impact | 4/20 |
+| Navigating Complexity in Hard Spaces | 7/15 |
+| Co-Founder Alignment and Team Resilience | 4/10 |
+| **Total** | **31/100** |
+
+**Total Score: 31/100** (Pass)

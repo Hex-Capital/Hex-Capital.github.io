@@ -1,0 +1,75 @@
+{
+  "slug": "alt-x",
+  "name": "Alt-X",
+  "oneLiner": "Automation for institutional-grade financial modeling in Excel",
+  "metadata": {
+    "website": "https://alt-x.co",
+    "yc_page": "https://www.ycombinator.com/companies/alt-x",
+    "batch": "Winter 2026",
+    "industry": "Fintech / Fintech",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Fintech, AI",
+    "yc_partner": "Garry Tan",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Fintech",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-09T23:21:50.772Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 25,
+      "tier": "Strong Pass"
+    },
+    "vinod-khosla": {
+      "score": 31,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 31,
+    "EG": 36,
+    "NR": 43,
+    "PG": 49,
+    "PT": 31,
+    "SL": 25,
+    "VK": 31
+  },
+  "consolidatedAvg": 35.14,
+  "consolidatedRank": 148,
+  "paths": {
+    "memo": "winter2026/memos/alt-x.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/alt-x.md",
+      "elad-gil": "winter2026/evals/elad-gil/alt-x.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/alt-x.md",
+      "paul-graham": "winter2026/evals/paul-graham/alt-x.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/alt-x.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/alt-x.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/alt-x.md"
+    }
+  }
+}

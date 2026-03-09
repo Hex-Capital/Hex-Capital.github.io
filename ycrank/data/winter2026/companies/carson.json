@@ -9,7 +9,9 @@
     "industry": "B2B / B2B",
     "team_size": "4",
     "location": "San Francisco, CA, USA",
-    "tags": "Productivity, Security, Enterprise, AI, AI Assistant"
+    "tags": "Productivity, Security, Enterprise, AI, AI Assistant",
+    "yc_partner": "Gustaf Alstromer",
+    "emails": "No public data found"
   },
   "tags": [
     "Productivity",
@@ -19,48 +21,48 @@
     "AI Assistant"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-24T23:31:45.702Z",
+  "memoGeneratedAt": "2026-03-09T16:31:52.717Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 29,
+      "score": 31,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 37,
+      "score": 39,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 37,
+      "score": 40,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 41,
+      "score": 43,
       "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 29,
+      "score": 31,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 23,
-      "tier": "Strong Pass"
+      "score": 29,
+      "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 35,
+      "score": 38,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 29,
-    "EG": 37,
-    "NR": 37,
-    "PG": 41,
-    "PT": 29,
-    "SL": 23,
-    "VK": 35
+    "CB": 31,
+    "EG": 39,
+    "NR": 40,
+    "PG": 43,
+    "PT": 31,
+    "SL": 29,
+    "VK": 38
   },
-  "consolidatedAvg": 33,
-  "consolidatedRank": 164,
+  "consolidatedAvg": 35.86,
+  "consolidatedRank": 145,
   "paths": {
     "memo": "winter2026/memos/carson.md",
     "evals": {

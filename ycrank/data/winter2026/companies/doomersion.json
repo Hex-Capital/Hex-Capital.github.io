@@ -9,54 +9,56 @@
     "industry": "Consumer / Consumer",
     "team_size": "4",
     "location": "San Francisco, CA, USA; Remote",
-    "tags": "Education"
+    "tags": "Education",
+    "yc_partner": "Jared Friedman",
+    "emails": "mostafatafr@gmail.com (founder personal email, mostafaafr.com)"
   },
   "tags": [
     "Education"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-24T23:27:08.658Z",
+  "memoGeneratedAt": "2026-03-09T16:27:56.127Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 38,
+      "score": 36,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 31,
+      "score": 39,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 44,
-      "tier": "Pass"
+      "score": 49,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 51,
+      "score": 57,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 26,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
       "score": 27,
       "tier": "Pass"
     },
+    "sam-lessin": {
+      "score": 28,
+      "tier": "Pass"
+    },
     "vinod-khosla": {
-      "score": 34,
+      "score": 36,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 38,
-    "EG": 31,
-    "NR": 44,
-    "PG": 51,
-    "PT": 26,
-    "SL": 27,
-    "VK": 34
+    "CB": 36,
+    "EG": 39,
+    "NR": 49,
+    "PG": 57,
+    "PT": 27,
+    "SL": 28,
+    "VK": 36
   },
-  "consolidatedAvg": 35.86,
-  "consolidatedRank": 141,
+  "consolidatedAvg": 38.86,
+  "consolidatedRank": 118,
   "paths": {
     "memo": "winter2026/memos/doomersion.md",
     "evals": {

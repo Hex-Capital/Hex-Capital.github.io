@@ -8,56 +8,58 @@
     "batch": "Winter 2026",
     "industry": "B2B / B2B",
     "team_size": "4",
-    "location": "2261 Market Street, San Francisco, CA 94114 (Automotive Management Live 2026 exhibitor listing)",
-    "tags": "AI, Automotive"
+    "location": "London, GB (LinkedIn company page); also lists 2261 Market Street, San Francisco, CA 94114 (Automotive Management Live 2026 exhibitor page)",
+    "tags": "AI, Automotive",
+    "yc_partner": "Jon Xu",
+    "emails": "No public data found"
   },
   "tags": [
     "AI",
     "Automotive"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-24T23:27:09.032Z",
+  "memoGeneratedAt": "2026-03-09T16:27:46.415Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 64,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 54,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
       "score": 35,
       "tier": "Pass"
     },
+    "elad-gil": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 32,
+      "tier": "Pass"
+    },
     "sam-lessin": {
-      "score": 34,
+      "score": 30,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 41,
+      "score": 40,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 39,
-    "EG": 64,
-    "NR": 41,
-    "PG": 54,
-    "PT": 35,
-    "SL": 34,
-    "VK": 41
+    "CB": 35,
+    "EG": 52,
+    "NR": 45,
+    "PG": 51,
+    "PT": 32,
+    "SL": 30,
+    "VK": 40
   },
-  "consolidatedAvg": 44,
-  "consolidatedRank": 63,
+  "consolidatedAvg": 40.71,
+  "consolidatedRank": 98,
   "paths": {
     "memo": "winter2026/memos/revion.md",
     "evals": {

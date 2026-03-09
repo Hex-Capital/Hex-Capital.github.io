@@ -1,7 +1,7 @@
 {
   "slug": "confluence-labs",
   "name": "Confluence Labs",
-  "oneLiner": "We're an AI research lab focused on learning efficiency",
+  "oneLiner": "foundation models optimized for learning efficiency",
   "metadata": {
     "website": "https://confluence.sh",
     "yc_page": "https://www.ycombinator.com/companies/confluence-labs",
@@ -9,55 +9,57 @@
     "industry": "B2B / B2B",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Artificial Intelligence, AI"
+    "tags": "Artificial Intelligence, AI",
+    "yc_partner": "Diana Hu",
+    "emails": "founders@confluence.sh"
   },
   "tags": [
     "Artificial Intelligence",
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-24T23:27:09.859Z",
+  "memoGeneratedAt": "2026-03-09T16:28:27.110Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 31,
+      "score": 38,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 32,
+      "score": 37,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 41,
-      "tier": "Pass"
+      "score": 54,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 40,
+      "score": 42,
       "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 28,
+      "score": 39,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 26,
+      "score": 34,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 53,
+      "score": 64,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 31,
-    "EG": 32,
-    "NR": 41,
-    "PG": 40,
-    "PT": 28,
-    "SL": 26,
-    "VK": 53
+    "CB": 38,
+    "EG": 37,
+    "NR": 54,
+    "PG": 42,
+    "PT": 39,
+    "SL": 34,
+    "VK": 64
   },
-  "consolidatedAvg": 35.86,
-  "consolidatedRank": 140,
+  "consolidatedAvg": 44,
+  "consolidatedRank": 65,
   "paths": {
     "memo": "winter2026/memos/confluence-labs.md",
     "evals": {

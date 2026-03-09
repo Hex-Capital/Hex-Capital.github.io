@@ -11,91 +11,101 @@
 | Team Size | 1 |
 | Location | San Francisco, CA, USA |
 | Tags | Health Tech, Legal, Insurance |
+| YC Partner | Diana Hu |
+| Emails | a\*\*\*@docurahealth.com (partial, via ZoomInfo); no public business email listed on website |
 
 ## The Idea
 
-**Problem:** Physicians conducting Independent Medical Examinations (IME), Qualified Medical Examiner (QME) evaluations, and other medico-legal assessments spend hours manually reviewing thousands of pages of medical records and drafting compliant reports for workers' compensation, disability, and personal injury cases. Evaluators, claim adjusters, insurers, and legal teams face lengthy settlement timelines due to this documentation bottleneck. Current workflows rely on manual review or outsourced medical record review services staffed by nurses and legal nurse consultants.
+**Problem:** Physicians performing Independent Medical Examinations (IMEs), Qualified Medical Evaluations (QMEs), and Agreed Medical Evaluations (AMEs) in workers' compensation cases must manually review thousands of pages of medical records and draft lengthy, compliance-heavy reports. This process is time-intensive — hours per report — and creates bottlenecks for evaluators, claim adjusters, insurers, and legal teams, delaying case settlements. Medical services account for 60% of costs in the average workers' compensation case (WorkersCompensation.com via search snippet). Existing workflows rely on manual review or outsourced medical record summarization services with slow turnaround times.
 
-**Approach:** Docura Health automates medical record review and report drafting using AI. The platform allows physicians to upload medical records and receive an AI-generated first draft with all sections required for a compliant report. Features include: chronological extraction of key findings, treatment history, and diagnoses linked to source documents; AMA-compliant impairment rating calculations (5th & 6th Edition); report templates for QME, IME, AME, Permanent & Stationary, and Supplemental formats; and a built-in copilot for adding clinical judgment and physical exam findings (docurahealth.com). The company claims first draft generation in under 5 minutes (docurahealth.com) and compliant reports in approximately 30 minutes (YC company page). A Chrome extension is also available (Chrome Web Store).
+**Approach:** Docura Health automates the end-to-end medico-legal report workflow. Users upload medical records into the platform, which uses AI to extract key findings, organize them chronologically with source-document links, and generate compliant first-draft reports in under 5 minutes (company website). The platform supports QME, IME, AME, Permanent & Stationary, and Supplemental report templates. It includes AMA-compliant impairment rating calculations (based on AMA Guides 5th & 6th Edition) and a built-in copilot for integrating clinical judgment and physical exam findings (company website). The platform also automates patient history collection calls (YC company page). A Chrome extension is available (Chrome Web Store listing found; install count not retrievable due to JavaScript rendering).
 
-**Differentiation:** Unlike competitors such as Supio (focused on plaintiff personal injury law firms) or Wisedocs (focused on insurance and legal record review as a SaaS platform), Docura Health positions itself as an "AI-Native Medico-Legal Firm" serving physicians directly with end-to-end report generation including AMA-compliant impairment ratings. Superinsight.ai offers medical record chronology software primarily for attorneys, while Stream Claims targets claims adjusters. Docura Health's physician-facing workflow — from record upload through AMA-rated draft report — differentiates it from tools that serve the legal or insurance side of the process.
+**Differentiation:** Docura Health targets the physician-evaluator directly, generating first-draft medical-legal reports with impairment ratings — a narrower and more specialized use case than competitors. Wisedocs and DigitalOwl focus on medical record summarization for insurance carriers, TPAs, and legal defense firms but do not generate full medico-legal reports with impairment rating calculations. CLARA Analytics and Gradient AI focus on claims triage and underwriting analytics rather than report drafting. Superinsight.ai targets attorneys for litigation support rather than physician evaluators. Docura Health's positioning as an "AI-native medico-legal firm" suggests it aims to own the physician's report-generation workflow end-to-end, not just the summarization layer.
 
-**Business Model:** No pricing information is publicly available on the website (docurahealth.com). [Inferred]: Most likely monetization path is SaaS subscription or per-report pricing for physicians and medico-legal evaluation firms, given the niche professional user base and report-volume-driven workflow.
+**Business Model:** No pricing information is publicly available on the company website. [Inferred]: Most likely monetization path is per-report SaaS pricing or a monthly subscription targeting individual QME/IME physicians and medico-legal practices, given the product's physician-facing design and the demo booking flow (cal.com/akhil-sachdev-docura/30min).
 
-**TAM/SAM:** The U.S. workers' compensation insurance market was $56.7 billion in 2024 (IBISWorld, 2024 via search snippet). The global legal AI market was valued at $1.45 billion in 2024, projected to reach $3.90 billion by 2030 at a 17.3% CAGR (Grand View Research, 2024 via search snippet). No public TAM/SAM estimate specific to medico-legal report automation was found.
+**TAM/SAM:** The U.S. workers' compensation insurance market was valued at $56.7 billion in 2025 (IBISWorld via search snippet). The global medico-legal software market was valued at $673 million in 2024 and is projected to reach $1.028 billion by 2031 at a CAGR of 6.3% (Archive Market Research via search snippet). The narrower serviceable market — AI tools for medico-legal report generation specifically for workers' compensation evaluators — is a subset of the medico-legal software market. No public SAM estimate exists for this specific niche.
 
-**GTM / Distribution:** [Inferred]: Most likely distribution path is direct sales to QME/IME physicians and medico-legal evaluation practices, given the product's physician-facing design and HIPAA-compliant positioning. The Chrome extension suggests a lightweight adoption path, though current adoption appears minimal (1 install per Extpose analytics). The YC company page references current users who have "doubled their case volume" and some who process over 50,000 pages monthly (YC company page), suggesting early physician adoption.
+**GTM / Distribution:** [Inferred]: Most likely distribution path is direct sales to individual QME/IME physicians and small medico-legal practices in California (the largest workers' comp market in the U.S.), given the founder's San Francisco location, the product's physician-facing design, and the testimonial from a California QME. The demo booking link and HIPAA-compliant web app (app.docurahealth.com) suggest a product-led sales motion with high-touch onboarding.
 
 ## Defensibility
 
-The platform's accumulation of structured medico-legal data — including report templates, impairment rating calculations, and document-linked chronologies — could create a data advantage over time as the system processes more cases and refines its outputs. HIPAA compliance and the regulatory specificity of AMA Guides (5th & 6th Edition) impairment rating calculations create a technical complexity barrier. Switching costs may develop as physicians integrate the tool into their report-writing workflows and build report libraries.
+**Data advantage (potential):** As physicians process reports through the platform, Docura Health accumulates structured medico-legal data — report templates, impairment rating patterns, and medical record extractions specific to workers' compensation. Over time, this could improve AI accuracy for this specialized domain. However, this data flywheel is nascent at this stage.
 
-**Market structure:** Incumbent medical record review services (manual, staffed by nurses and consultants) face business model cannibalization risk in adopting AI automation, as their revenue model depends on billable hours or per-page review fees. Large claims management platforms (e.g., Guidewire) serve insurers rather than physicians, creating a sales channel conflict in reaching the evaluator side of the workflow. No structural barrier is identified at this stage preventing well-funded competitors from building physician-facing tools.
+**Workflow embedding:** Once a physician integrates report generation into their practice workflow, switching costs increase — report templates, impairment rating calculations, and record summarization formats become embedded in their output process. However, at pre-seed stage, the installed base is minimal.
 
-**Commoditization risk:** Multiple companies are building AI-powered medical record review tools (Supio, Wisedocs, DigitalOwl/Datavant, Stream Claims, Superinsight.ai). The core capability of AI-generated medical record summaries is increasingly commoditized. The AMA-compliant impairment rating engine and physician-specific report templates are more specialized but could be replicated by competitors with domain expertise.
+**Market structure:** Incumbents in the medical record review space (Wisedocs, DigitalOwl/Datavant) focus on insurance carriers and legal teams as their primary customers. Building a product specifically for the evaluating physician requires different UX, compliance requirements (AMA Guides integration), and sales motion (small practices vs. enterprise). This customer-segment difference creates a structural barrier — incumbents pursuing carrier relationships would need to build a separate physician-facing product and go-to-market to compete directly. However, this is not an insurmountable barrier.
+
+**Commoditization risk:** The core technology — LLM-based document summarization and report generation — is reproducible. Any AI startup or established medico-legal services firm could build a similar tool. The barrier is less in the technology and more in domain-specific compliance (AMA Guides, state-specific workers' comp regulations) and workflow integration. Wisedocs (116 employees, $14.4M revenue) could extend into physician-facing report generation with modest effort.
 
 ## Market & Traction
 
 **Traction signals:**
-- Customer testimonial: Irina Williams, MD, MHA, QME (Interventional Pain Management and Anesthesiology) states "Docura Health saves me hours on every report" (docurahealth.com).
-- YC company page states that current users have "doubled their case volume" and some process over 50,000 pages monthly (YC company page).
-- Chrome Web Store extension: 1 install, 0 ratings, version 1.01, last updated 2025-08-20 (Extpose).
-- LinkedIn company page exists: linkedin.com/company/docura-health (follower count not retrievable).
-- No Product Hunt listing found.
-- No press coverage in named publications found.
-- No app store listings found beyond Chrome extension.
-- YC primary partner: Diana Hu (YC company page).
+- Providers using the platform have "doubled their case volume from the last month" with some processing over 50,000 pages monthly (YC company page)
+- Customer testimonial: Irina Williams, MD, MHA, QME (Interventional Pain Management and Anesthesiology) states "Docura Health saves me hours on every report" (company website)
+- Reports generated in under 5 minutes (company website claim)
+- Platform generates compliant reports within 30 minutes and automates patient history collection calls (YC company page)
+- $500K seed funding, Jan 2026 (Tracxn via search snippet)
+- Chrome Web Store extension published (install count not retrievable)
+- Company Twitter/X: @DocuraHealth — 36 followers, joined December 2025 (X.com via search snippet)
+- Founder Twitter/X: @akhil_sachdev — follower count not retrievable
+- LinkedIn company page: linkedin.com/company/docura-health/ — follower count not retrievable
+- YouTube demo video published: https://youtu.be/y2CU0QIXSS4 (YC company page)
+- No Product Hunt launch found
+- No Discord/Slack community found
+- No app store presence found (web app only at app.docurahealth.com)
+- Trust center published at trust.docurahealth.com (company website)
 
 **Competitive landscape:**
 
 | Competitor | Funding | Revenue/ARR | Key Differentiator vs. Docura Health |
-|---|---|---|---|
-| Supio | $91M total ($60M Series B, Apr 2025) (supio.com press release) | 4x ARR growth since Series A; absolute figure undisclosed (supio.com) | Focused on plaintiff personal injury and mass tort law firms, not physicians; broader legal AI platform |
-| Wisedocs | $20M total (BetaKit) | $14.4M revenue (Latka, Sep 2025 via search snippet) | Insurance and legal SaaS platform for medical record review; larger team (116 employees); not physician-facing report generation |
-| DigitalOwl | ~$38.6M total (Tracxn via search snippet); acquired by Datavant (MobiHealthNews) | Revenue unknown | Insurance-focused NLP medical record analysis; acquired by data infrastructure company; not physician-facing |
-| Stream Claims | $6.8M total ($5.3M seed led by Spark Capital, Oct 2024) (stream.claims) | Revenue unknown | AI claims workbench for workers comp & liability claims adjusters; YC company; insurer-side not physician-side |
-| Superinsight.ai | $20K seed, 2023 (Tracxn via search snippet) | Revenue unknown | Medical record chronology for attorneys; 500+ attorneys (superinsight.ai); attorney-facing not physician-facing |
+|-----------|---------|-------------|--------------------------------------|
+| Wisedocs | ~$20M total (BetaKit, 2024) | $14.4M revenue (Latka, Sep 2025 via search snippet) | Focused on insurance carriers and TPAs for medical record summarization; trained on 100M+ documents; does not generate full medico-legal reports with impairment ratings |
+| DigitalOwl (acquired by Datavant) | ~$40.8M total (VentureBeat, 2022 via search snippet) | Revenue unknown | NLP-based medical record analysis for insurers; acquired by Datavant, now part of a larger health data infrastructure company; targets carriers, not evaluating physicians |
+| CLARA Analytics | ~$64M total (BusinessWire, 2023 via search snippet) | Revenue unknown; reported "record revenue growth" (company press release) | AI for claims triage and optimization across workers' comp, auto, and GL lines; targets insurance carriers for claims decision support, not report generation |
+| Gradient AI | $56M Series C (company website, 2024) | Revenue unknown | Underwriting and claims analytics for workers' comp, group health, and P&C; sells to carriers and brokers; does not do medico-legal report generation |
+| Superinsight.ai | Funding unknown; Techstars Austin accelerator (company website) | Revenue unknown | AI medical record review for attorneys; trusted by 500+ attorneys (company website); targets plaintiff and defense law firms, not evaluating physicians |
 
-**Why now:** [Inferred]: The convergence of several factors has opened this opportunity: (1) Large language models crossed a capability threshold in 2023-2024 enabling reliable processing and summarization of lengthy, unstructured medical documents; (2) the U.S. workers' compensation system faces persistent backlogs and rising administrative costs, with net written premiums at $41.6 billion in CY 2024 (NCCI via search snippet); (3) physician burnout and administrative burden have accelerated demand for documentation automation tools across healthcare.
+**Why now:** [Inferred]: The convergence of several factors creates the opening: (1) LLM capabilities reached sufficient quality in 2024-2025 for reliable medical document summarization and structured report generation; (2) a 2025 Risk & Insurance survey found nearly 60% of workers' compensation professionals ranked automation among the most important technological approaches shaping the sector (Risk & Insurance via search snippet); (3) a Deloitte survey indicated 80% of workers' compensation claims could be fully automated (Deloitte via search snippet); (4) California's QME/IME market represents a large, concentrated starting point with standardized report requirements.
 
 ## Founders & Team
 
 **Akhil Sachdev** — Founder & CEO
-- BS Computer Science, UC Berkeley (GitHub profile)
-- Previously: Software Engineer Intern at Rivian (May–Aug 2022); Software Engineer Intern at Salesforce (May–Aug 2021); roles at Cisco, Zuora, SnapTrade, Aventure Trading (ZoomInfo, LinkedIn via search snippet)
-- Project Manager and Director of External Affairs at Berkeley Venture Capital (LinkedIn via search snippet)
-- Co-Founder of Siff AI (Aug 2023–Apr 2024) (LinkedIn via search snippet)
-- Twitter/X: @akhil_sachdev — count not retrievable (JavaScript rendering required)
-- LinkedIn: linkedin.com/in/akhil-sachdev — "Founder & CEO @ Docura Health (YC W26)"
-- GitHub: github.com/akhilsachdev — 19 repositories, 5 followers; pinned repos include MetaphorStartupEval, food_label_ocr, ocr_gpt, Self-Driving-Car-Decal (GitHub profile)
+- BS Computer Science, UC Berkeley (LinkedIn, ZoomInfo via search snippet)
+- Previously: Software Engineer Intern at Rivian (May–Aug 2022), Salesforce (May–Aug 2021), Zuora; also held positions at Cisco, SnapTrade, Aventure Trading, Berkeley Venture Capital, STAR NewSpace Entrepreneurship (ZoomInfo, SignalHire via search snippet)
+- Member of @solofounding F25 cohort (X.com bio)
+- Twitter/X: [@akhil_sachdev](https://x.com/akhil_sachdev) — follower count not retrievable
+- LinkedIn: [linkedin.com/in/akhil-sachdev](https://www.linkedin.com/in/akhil-sachdev/) — "Founder & CEO @ Docura Health (YC W26)"
+- GitHub: [github.com/akhilsachdev](https://github.com/akhilsachdev) — 19 public repos, 5 followers; pinned repos include MetaphorStartupEval, food_label_ocr, ocr_gpt, Self-Driving-Car-Decal (star counts not individually retrievable); Arctic Code Vault Contributor badge
 
 **Co-founder relationship:** Solo founder; not applicable.
 
-**Founder-market fit:** Sachdev's background is in computer science (UC Berkeley) and software engineering with internships at large tech companies (Rivian, Salesforce, Cisco). His GitHub repos indicate experience with OCR and ML-based document processing (food_label_ocr, ocr_gpt), which are technically relevant to medical record extraction and summarization. His prior venture Siff AI (Aug 2023–Apr 2024) appears to have been in the AI/healthcare space. No prior exits, medical credentials, or legal industry experience were found in public sources. No advisors or board members were identified.
+**Founder-market fit:** Akhil Sachdev has a computer science background from UC Berkeley with internship experience at enterprise software companies (Salesforce, Zuora) and a hardware/software company (Rivian). His GitHub repos show OCR and document-processing projects (food_label_ocr, ocr_gpt), which are technically adjacent to the medical record extraction problem Docura Health solves. No prior healthcare or legal industry experience is documented in public sources. No advisors, board members, or notable investors beyond Y Combinator have been publicly identified.
 
 ## Key Risks
 
-**Single-founder operational risk:** Sachdev is the sole team member building a product that requires domain expertise spanning healthcare regulations (HIPAA, AMA Guides), workers' compensation law, and AI/ML engineering. The company is not currently hiring (YC company page). Scaling sales, product development, and compliance simultaneously as a single person presents execution constraints beyond the typical pre-seed baseline.
+**Solo founder execution risk with specialized sales cycle:** The company has a team of 1 and is not currently hiring (YC page). Workers' compensation involves selling to physicians, medical-legal practices, and potentially insurers — a market that requires trust, compliance expertise, and relationship-based selling. Scaling both product development and sales as a solo founder in a regulated industry presents a structural execution challenge distinct from typical pre-seed constraints.
 
-**Well-funded direct competitors:** Multiple companies with significantly more capital are building overlapping AI medical record review solutions. Supio ($91M raised), Wisedocs ($20M raised, $14.4M revenue), and Stream Claims ($6.8M raised, also YC-backed) all serve adjacent or overlapping segments. DigitalOwl was acquired by Datavant, adding enterprise distribution. These competitors could expand into physician-facing workflows.
+**Regulatory and compliance complexity:** Medico-legal reports must comply with AMA Guides (5th and 6th Edition), state-specific workers' compensation regulations, and HIPAA. AI-generated report errors could expose physician users to legal liability in contested claims. The platform's compliance claims (HIPAA, AMA-compliant impairment ratings) have not been independently verified. As AI governance in workers' compensation gains regulatory attention — 2026 is described as the year "responsible AI becomes real" in this sector (WorkersCompensation.com, 2026 via search snippet) — regulatory requirements may increase.
 
-**Regulatory and compliance surface area:** HIPAA compliance, AMA Guides licensing, and state-specific workers' compensation regulations create ongoing compliance obligations. AI-generated medical reports used in legal proceedings face scrutiny regarding accuracy and liability. Errors in impairment ratings or record summaries could have legal consequences for physician users.
+**Well-funded competitor expansion:** Wisedocs ($20M raised, $14.4M revenue, 116 employees, trained on 100M+ docs) and the Datavant/DigitalOwl combination already serve the medical record review market and could extend downstream into physician-facing report generation. Gradient AI ($56M raised) and CLARA Analytics ($64M raised) serve the workers' comp insurance ecosystem and could build adjacent report-generation tools. The core AI technology (document summarization + structured generation) is not proprietary.
 
-**Prior venture discontinuation:** Sachdev's previous startup Siff AI operated from August 2023 to April 2024 (~8 months) before being discontinued (LinkedIn via search snippet). The reasons for discontinuation and any relationship to the current venture are not publicly documented.
+**Customer concentration in a niche segment:** The product currently targets QME/IME physicians in workers' compensation — a narrow initial segment. California has approximately 1,900 active QMEs (California Division of Workers' Compensation). Expansion beyond California or beyond workers' comp evaluators would require adapting to different state regulations and different report formats.
 
-**Brand disambiguation:** An unrelated Indian baby products brand called "Docura" exists (FirstCry.com), and "Docura" is also the name of a European business process automation company (docura.net). These share no connection to Docura Health but may cause search and brand confusion.
+**AI reliability in high-stakes legal documents:** Medico-legal reports are used in legal proceedings and financial settlements. AI hallucinations or errors in impairment ratings could have legal consequences for the physician and downstream parties. The "first draft" framing mitigates this (physician reviews before signing), but the value proposition of speed depends on minimizing physician revision time, which requires high baseline accuracy.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $56.7B U.S. workers' compensation insurance market (IBISWorld, 2024 via search snippet); $1.45B global legal AI market, projected $3.90B by 2030 at 17.3% CAGR (Grand View Research, 2024 via search snippet) |
-| SAM | No public data found |
-| Traction | Users "doubled their case volume," some process 50,000+ pages/month (YC company page); 1 customer testimonial from Irina Williams, MD, QME (docurahealth.com); Chrome extension: 1 install, 0 ratings (Extpose) |
+| TAM | U.S. workers' compensation insurance market: $56.7B (IBISWorld, 2025 via search snippet); Global medico-legal software market: $673M in 2024, projected $1.028B by 2031 at 6.3% CAGR (Archive Market Research via search snippet) |
+| SAM | No public data found for the specific QME/IME report generation niche |
+| Traction | Providers "doubled case volume," some processing 50K+ pages/month (YC company page); 1 named physician testimonial (company website); Chrome extension published (install count not retrievable) |
 | Revenue Signal | No public data found |
-| Founders | Akhil Sachdev (Founder & CEO): UC Berkeley CS, ex-Rivian intern, ex-Salesforce intern, co-founded Siff AI (2023-2024) |
-| Competitors | Supio ($91M raised, 4x ARR growth, plaintiff law firm focus); Wisedocs ($20M raised, $14.4M revenue, insurance/legal SaaS); DigitalOwl (~$38.6M raised, acquired by Datavant, insurance NLP); Stream Claims ($6.8M raised, YC, claims adjuster workbench); Superinsight.ai ($20K seed, attorney chronology tool) |
-| Moat Signals | AMA Guides (5th & 6th Ed.) impairment rating automation; HIPAA-compliant physician-facing workflow; potential data advantage from structured medico-legal case data |
-| Risk Factors | Solo founder with no medical/legal domain background, well-funded competitors in adjacent segments, regulatory compliance surface area, prior venture discontinued after ~8 months |
-| Founder Reach | Akhil Sachdev: Twitter @akhil_sachdev (count not retrievable), LinkedIn linkedin.com/in/akhil-sachdev, GitHub 5 followers/19 repos |
-| Distribution Signals | Chrome Web Store extension (1 install, Extpose); no Product Hunt listing found; no press coverage found |
+| Founders | Akhil Sachdev (Founder & CEO): UC Berkeley CS, internships at Rivian, Salesforce, Zuora, Cisco; OCR/document-processing project experience |
+| Competitors | Wisedocs (~$20M raised, $14.4M revenue, medical record summarization for carriers/TPAs); DigitalOwl (~$40.8M raised, acquired by Datavant, NLP medical records for insurers); CLARA Analytics (~$64M raised, AI claims optimization); Gradient AI ($56M raised, underwriting/claims analytics); Superinsight.ai (Techstars, 500+ attorney users, medical record review for law firms) |
+| Moat Signals | Physician-specific workflow (QME/IME report generation with AMA impairment ratings) is a differentiated niche not directly served by current competitors; potential data flywheel from structured medico-legal report data |
+| Risk Factors | Solo founder in regulated sales cycle, well-funded competitors could expand into niche, AI reliability in legal documents |
+| Founder Reach | Akhil Sachdev: Twitter @akhil_sachdev (count not retrievable), LinkedIn linkedin.com/in/akhil-sachdev, GitHub 19 repos / 5 followers |
+| Distribution Signals | Company Twitter @DocuraHealth: 36 followers (X.com, Dec 2025 via search snippet); YouTube demo video published; Chrome extension on Chrome Web Store (install count not retrievable); no Product Hunt launch found |
+| Emails | a\*\*\*@docurahealth.com (partial, ZoomInfo via search snippet); no full public email found |

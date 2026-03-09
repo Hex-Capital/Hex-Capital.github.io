@@ -9,7 +9,9 @@
     "industry": "B2B / B2B",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "B2B, Big Data, AI"
+    "tags": "B2B, Big Data, AI",
+    "yc_partner": "Diana Hu",
+    "emails": "hi@caj.al, luke@caj.al (YC page); pedro@cajal.org (personal site)"
   },
   "tags": [
     "B2B",
@@ -17,48 +19,48 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-24T23:26:59.450Z",
+  "memoGeneratedAt": "2026-03-09T16:28:36.785Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 28,
+      "score": 38,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 32,
+      "score": 43,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 40,
-      "tier": "Pass"
+      "score": 50,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 30,
+      "score": 36,
       "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 27,
+      "score": 35,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 33,
+      "score": 30,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 39,
-      "tier": "Pass"
+      "score": 51,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 28,
-    "EG": 32,
-    "NR": 40,
-    "PG": 30,
-    "PT": 27,
-    "SL": 33,
-    "VK": 39
+    "CB": 38,
+    "EG": 43,
+    "NR": 50,
+    "PG": 36,
+    "PT": 35,
+    "SL": 30,
+    "VK": 51
   },
-  "consolidatedAvg": 32.71,
-  "consolidatedRank": 169,
+  "consolidatedAvg": 40.43,
+  "consolidatedRank": 102,
   "paths": {
     "memo": "winter2026/memos/cajal-technologies.md",
     "evals": {

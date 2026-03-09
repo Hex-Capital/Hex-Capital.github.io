@@ -538,48 +538,99 @@ function app() {
       return colors[slug] || 'text-claude-dim';
     },
 
+    // --- Tier helpers ---
+
+    // Canonical tier detection from a tier string like "Strong Invest", "Invest", "Neutral", "Pass", "Strong Pass"
+    getTierCategory(tier) {
+      if (!tier) return 'neutral';
+      const t = tier.toLowerCase();
+      if (t.includes('strong') && t.includes('invest')) return 'strong-invest';
+      if (t.includes('invest')) return 'invest';
+      if (t.includes('neutral')) return 'neutral';
+      if (t.includes('strong') && t.includes('pass')) return 'strong-pass';
+      if (t.includes('pass')) return 'pass';
+      return 'neutral';
+    },
+
+    // Canonical tier detection from a numeric average
+    avgTierCategory(avg) {
+      if (avg == null) return null;
+      if (avg >= 70) return 'strong-invest';
+      if (avg >= 55) return 'invest';
+      if (avg >= 40) return 'neutral';
+      if (avg >= 25) return 'pass';
+      return 'strong-pass';
+    },
+
     // --- Card helpers ---
 
+    fmtLocation(loc) {
+      if (!loc) return '';
+      // take first segment before semicolons, strip parenthetical source citations
+      let s = loc.split(';')[0].replace(/\s*\([^)]*\)/g, '').trim();
+      if (/^(not listed|not specified|no public data found|unknown)$/i.test(s)) return '';
+      // strip "/ Remote" suffix
+      s = s.replace(/\s*\/\s*Remote\s*$/i, '');
+      // strip ", USA" or ", United States"
+      s = s.replace(/,\s*(USA|United States)\s*$/i, '');
+      // strip postal codes (e.g. 94404)
+      s = s.replace(/\s+\d{5}(-\d{4})?\b/, '');
+      // full state names → abbreviations
+      const st = {Alabama:'AL',Alaska:'AK',Arizona:'AZ',Arkansas:'AR',California:'CA',Colorado:'CO',Connecticut:'CT',Delaware:'DE',Florida:'FL',Georgia:'GA',Hawaii:'HI',Idaho:'ID',Illinois:'IL',Indiana:'IN',Iowa:'IA',Kansas:'KS',Kentucky:'KY',Louisiana:'LA',Maine:'ME',Maryland:'MD',Massachusetts:'MA',Michigan:'MI',Minnesota:'MN',Mississippi:'MS',Missouri:'MO',Montana:'MT',Nebraska:'NE',Nevada:'NV','New Hampshire':'NH','New Jersey':'NJ','New Mexico':'NM','New York':'NY','North Carolina':'NC','North Dakota':'ND',Ohio:'OH',Oklahoma:'OK',Oregon:'OR',Pennsylvania:'PA','Rhode Island':'RI','South Carolina':'SC','South Dakota':'SD',Tennessee:'TN',Texas:'TX',Utah:'UT',Vermont:'VT',Virginia:'VA',Washington:'WA','West Virginia':'WV',Wisconsin:'WI',Wyoming:'WY'};
+      for (const [full, abbr] of Object.entries(st)) {
+        const re = new RegExp(',\\s*' + full + '\\s*$', 'i');
+        if (re.test(s)) { s = s.replace(re, ', ' + abbr); break; }
+      }
+      return s.trim();
+    },
+
     tierBarBg(tier) {
-      if (!tier) return '#d9923a';
-      const t = tier.toLowerCase();
-      if (t.includes('strong') && t.includes('invest')) return '#2d8a4e';
-      if (t.includes('invest')) return '#4a9e4a';
-      if (t.includes('neutral')) return '#d9923a';
-      if (t.includes('strong') && t.includes('pass')) return '#8b2525';
-      if (t.includes('pass')) return '#cc3838';
-      return '#d9923a';
+      const hexByTier = {
+        'strong-invest': '#2d8a4e',
+        'invest': '#4a9e4a',
+        'neutral': '#d9923a',
+        'pass': '#cc3838',
+        'strong-pass': '#8b2525',
+      };
+      return hexByTier[this.getTierCategory(tier)] || '#d9923a';
     },
 
     avgTierLabel(avg) {
-      if (avg == null) return '--';
-      if (avg >= 70) return 'Strong Invest';
-      if (avg >= 55) return 'Invest';
-      if (avg >= 40) return 'Neutral';
-      if (avg >= 25) return 'Pass';
-      return 'Strong Pass';
+      const labels = {
+        'strong-invest': 'Strong Invest',
+        'invest': 'Invest',
+        'neutral': 'Neutral',
+        'pass': 'Pass',
+        'strong-pass': 'Strong Pass',
+      };
+      const cat = this.avgTierCategory(avg);
+      return cat ? labels[cat] : '--';
     },
 
     // --- Helpers ---
 
     tierColor(tier) {
       if (!tier) return 'text-claude-dim';
-      const t = tier.toLowerCase();
-      if (t.includes('strong') && t.includes('invest')) return 'score-claude-deepgreen score-bg-deepgreen';
-      if (t.includes('invest')) return 'score-claude-green score-bg-green';
-      if (t.includes('neutral')) return 'score-claude-orange score-bg-orange';
-      if (t.includes('strong') && t.includes('pass')) return 'score-claude-deepred score-bg-deepred';
-      if (t.includes('pass')) return 'score-claude-red score-bg-red';
-      return 'text-claude-dim';
+      const classByTier = {
+        'strong-invest': 'score-claude-deepgreen score-bg-deepgreen',
+        'invest': 'score-claude-green score-bg-green',
+        'neutral': 'score-claude-orange score-bg-orange',
+        'pass': 'score-claude-red score-bg-red',
+        'strong-pass': 'score-claude-deepred score-bg-deepred',
+      };
+      return classByTier[this.getTierCategory(tier)] || 'text-claude-dim';
     },
 
     avgColor(avg) {
-      if (avg == null) return 'text-claude-dim';
-      if (avg >= 70) return 'score-claude-deepgreen';
-      if (avg >= 55) return 'score-claude-green';
-      if (avg >= 40) return 'score-claude-orange';
-      if (avg >= 25) return 'score-claude-red';
-      return 'score-claude-deepred';
+      const classByTier = {
+        'strong-invest': 'score-claude-deepgreen',
+        'invest': 'score-claude-green',
+        'neutral': 'score-claude-orange',
+        'pass': 'score-claude-red',
+        'strong-pass': 'score-claude-deepred',
+      };
+      const cat = this.avgTierCategory(avg);
+      return cat ? classByTier[cat] : 'text-claude-dim';
     },
 
     corrColor(val) {
@@ -591,23 +642,15 @@ function app() {
     },
 
     avgTierClass(avg) {
-      if (avg == null) return 'dim';
-      if (avg >= 70) return 'deepgreen';
-      if (avg >= 55) return 'green';
-      if (avg >= 40) return 'orange';
-      if (avg >= 25) return 'red';
-      return 'deepred';
-    },
-
-    tierBarColor(tier) {
-      if (!tier) return 'bar-orange';
-      const t = tier.toLowerCase();
-      if (t.includes('strong') && t.includes('invest')) return 'bar-deepgreen';
-      if (t.includes('invest')) return 'bar-green';
-      if (t.includes('neutral')) return 'bar-orange';
-      if (t.includes('strong') && t.includes('pass')) return 'bar-deepred';
-      if (t.includes('pass')) return 'bar-red';
-      return 'bar-orange';
+      const suffixByTier = {
+        'strong-invest': 'deepgreen',
+        'invest': 'green',
+        'neutral': 'orange',
+        'pass': 'red',
+        'strong-pass': 'deepred',
+      };
+      const cat = this.avgTierCategory(avg);
+      return cat ? suffixByTier[cat] : 'dim';
     },
 
     tractionTierColor(tierName) {

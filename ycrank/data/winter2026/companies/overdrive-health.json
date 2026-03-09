@@ -7,58 +7,61 @@
     "yc_page": "https://www.ycombinator.com/companies/overdrive-health",
     "batch": "Winter 2026",
     "industry": "Healthcare / Healthcare Services",
-    "team_size": "1",
+    "team_size": "1 (per YC profile; LinkedIn lists 2-10 employees)",
     "location": "New York, NY, USA",
-    "tags": "Health Tech, Healthcare, Health Insurance"
+    "tags": "Artificial Intelligence, Health Tech, Healthcare, Health Insurance",
+    "yc_partner": "Jared Friedman",
+    "emails": "michael@overdrive.health (YC page)"
   },
   "tags": [
+    "Artificial Intelligence",
     "Health Tech",
     "Healthcare",
     "Health Insurance"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-24T23:33:16.951Z",
+  "memoGeneratedAt": "2026-03-09T16:35:18.398Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
       "score": 40,
       "tier": "Pass"
     },
+    "elad-gil": {
+      "score": 60,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 51,
+      "tier": "Neutral"
+    },
     "paul-graham": {
-      "score": 42,
-      "tier": "Pass"
+      "score": 59,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 29,
+      "score": 37,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 28,
-      "tier": "Pass"
+      "score": 46,
+      "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 33,
-      "tier": "Pass"
+      "score": 45,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 37,
-    "EG": 43,
-    "NR": 40,
-    "PG": 42,
-    "PT": 29,
-    "SL": 28,
-    "VK": 33
+    "CB": 40,
+    "EG": 60,
+    "NR": 51,
+    "PG": 59,
+    "PT": 37,
+    "SL": 46,
+    "VK": 45
   },
-  "consolidatedAvg": 36,
-  "consolidatedRank": 139,
+  "consolidatedAvg": 48.29,
+  "consolidatedRank": 40,
   "paths": {
     "memo": "winter2026/memos/overdrive-health.md",
     "evals": {

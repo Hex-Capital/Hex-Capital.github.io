@@ -11,105 +11,103 @@
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
 | Tags | B2B, Big Data, AI |
+| YC Partner | Diana Hu |
+| Emails | hi@caj.al, luke@caj.al (YC page); pedro@cajal.org (personal site) |
 
 ## The Idea
 
-**Problem:** Formal verification — using mathematical proofs to guarantee that a system behaves as intended — provides stronger correctness guarantees than sampled testing but historically has not scaled. Researchers in quantum computing, finance, cryptography, aerospace, and other domains that require mathematical rigor currently rely on informal reasoning, simulation, or sampled testing, which cannot provide complete correctness guarantees. The Lean proof assistant allows any mathematical statement to be formally verified, but manually writing and checking proofs is labor-intensive, limiting adoption to narrow use cases (YC company page; caj.al website).
+**Problem:** Large language models are fundamentally stochastic and cannot guarantee correctness (YC Launch page). Mission-critical domains — quantum computing, finance, cryptography, aerospace — require mathematical certainty that probabilistic AI systems cannot provide. Formal verification can deliver these guarantees, but has historically been restricted to small groups of expert mathematicians working over long timeframes, limiting its broader application (YC Launch page).
 
-**Approach:** Cajal's core product is **Tau**, a multi-agent system that collaborates to discover and verify new mathematical proofs in Lean. Given a research direction, Tau autonomously formalizes large corpora of applied mathematics and discovers novel results with real-world applications — from algorithms with certified speedups to certificates that a system satisfies its constraints. Every result is machine-verified by Lean's type-checking kernel, guaranteeing correctness (caj.al website). The company also offers: (1) **Datasets** — verified training corpora for Lean 4, Coq, and Isabelle; (2) **Evaluations** — benchmarks with Pass@k metrics; and (3) **RL Environments** — native proof assistant bindings with sub-millisecond latency (caj.al website).
+**Approach:** Cajal's core product is **Tau**, a multi-agent system that autonomously discovers and formalizes mathematical proofs in Lean (company website). Given a research direction, Tau formalizes large corpora of applied mathematics, discovering novel results with real-world applications — from algorithms with certified speedups to certificates that a system satisfies its constraints. All results are machine-verified through Lean's type-checking kernel (YC Launch page). The company also offers three ancillary products: (1) verified training datasets for Lean 4, Coq, and Isabelle; (2) rigorous evaluation benchmarks with Pass@k metrics; and (3) RL environments with native proof assistant bindings at sub-millisecond latency (company website).
 
-**Differentiation:** Cajal focuses on deploying AI-driven formal verification to applied scientific domains (quantum computing, finance) rather than pure mathematics competition problems or code verification. Harmonic AI ($1.45B valuation) uses Lean4 for its Aristotle model but has focused on competition mathematics (gold-medal level on 2025 IMO problems) (BusinessWire, Nov 2025). Axiom Math ($300M valuation) targets quantitative finance and general mathematical reasoning but with $164M+ in funding operates at a different scale (SiliconANGLE, Oct 2025). Theorem (YC S25, $6M seed) applies formal verification to AI-generated code correctness, a different application domain (VentureBeat, Jan 2026). LeanDojo is an open-source academic project (Caltech, NVIDIA, MIT, UCSB, UT Austin) providing toolkits and benchmarks for LLM-based theorem proving, not a commercial product (leandojo.org).
+**Differentiation:** Unlike general-purpose LLM reasoning systems (e.g., Harmonic AI's Aristotle), Cajal targets applied scientific domains rather than pure mathematics competition problems, starting with quantum computing and finance. Unlike Certora, which applies formal verification specifically to smart contracts, Cajal's scope spans multiple applied science verticals. Unlike academic projects such as LeanDojo, Cajal commercializes its system as a B2B product with datasets, evaluations, and RL environments for external customers (company website).
 
-**Business Model:** No pricing page is visible on caj.al. The site lists Datasets, Evaluations, and RL Environments as product categories, suggesting a data/infrastructure offering for AI research teams. [Inferred]: Most likely monetization paths include enterprise licensing of Tau for domain-specific proof generation (quantum computing, finance), sale of verified training datasets, and API access to RL environments. The B2B tag and applied-domain focus suggest an enterprise SaaS or consulting model.
+**Business Model:** No public pricing page was found on the company website. The company partners with "frontier AI labs and research institutes" and offers datasets, evaluations, and RL environments as product lines (YC Launch page, company website). [Inferred]: Most likely monetization path is enterprise licensing of datasets and API access to the Tau system, given the B2B positioning and the types of products listed.
 
-**TAM/SAM:** The global Formal Verification Copilot market reached $1.12B in 2024 and is projected to grow at 18.6% CAGR through 2033 (Dataintelo, 2024 via search snippet). The broader Software Verification Services market was estimated at $103.2B in 2024, growing to $303.4B by 2032 at 14.43% CAGR (WiseGuy Reports, 2024 via search snippet). The relevant SAM for Cajal — AI-driven formal verification applied to scientific domains — is a subset of these broader markets. No public SAM data specific to AI-for-formal-mathematical-verification was found.
+**TAM/SAM:** The broader Software Verification Services Market was valued at USD 103.2 billion in 2024, projected to reach USD 303.4 billion by 2032, at a CAGR of approximately 14.43% (WiseGuy Reports, 2024 via search snippet). No public TAM/SAM data found for the specific AI-assisted formal verification subsegment.
 
-**GTM / Distribution:** [Inferred]: Most likely distribution path is direct enterprise sales to quantum computing research labs, quantitative finance firms, and aerospace/defense organizations that require provable correctness guarantees. The datasets and RL environments suggest a secondary distribution channel targeting AI research teams training formal reasoning models. The YC network and Cambridge academic connections may provide initial customer introductions.
+**GTM / Distribution:** The company states it partners with frontier AI labs and research institutes (YC Launch page). The company website offers a demo booking page (/demo) and a contact page. [Inferred]: Most likely distribution path is direct sales to AI labs, research institutions, and enterprises in quantum computing and quantitative finance, given the highly technical nature of the product and its B2B positioning.
 
 ## Defensibility
 
-Cajal's potential moat signals include: (1) **Technical complexity** — building multi-agent systems that can autonomously discover and formally verify novel mathematical results in Lean requires deep expertise at the intersection of AI, formal methods, and applied mathematics; (2) **Data advantage** — the verified training corpora (for Lean 4, Coq, and Isabelle) and benchmark evaluations could accumulate proprietary datasets over time; (3) **Domain specialization** — by targeting specific applied domains (quantum computing, finance), Cajal could build domain-specific formalization libraries that serve as switching costs for customers.
+**Technical complexity:** Formal verification in Lean requires deep expertise in dependent type theory, proof automation, and multi-agent AI systems. Cajal's Tau system combines autonomous mathematical reasoning with formal verification at scale, which represents a non-trivial engineering challenge (company website, YC Launch page). The company is affiliated with the University of Cambridge (company website), which may provide access to academic research talent.
 
-These are potential moat mechanisms; none are proven at this stage.
+**Data advantage:** Cajal's verified training corpora for Lean 4, Coq, and Isabelle (company website) could represent a growing proprietary data moat as the system formalizes more applied mathematics. Each proof discovered and verified adds to the corpus, potentially creating a compounding advantage.
 
-**Market structure:** Well-resourced incumbents like Google DeepMind (AlphaProof) focus on research publication and internal capabilities rather than commercial formal verification products. Harmonic AI and Axiom Math, the most direct competitors, target competition mathematics and general quantitative reasoning respectively, rather than applied scientific verification as a service. [Inferred]: The structural barrier for large AI labs is that productizing formal verification for specific applied domains (e.g., quantum computing correctness proofs) requires deep domain partnerships and specialized formalization libraries that don't align with their core business of training general-purpose models.
+**Market structure:** [Inferred]: Large incumbent EDA companies (Synopsys, Cadence) focus formal verification on hardware/chip design rather than applied mathematics for scientific discovery. Expanding into AI-driven mathematical proof discovery would represent a product category outside their core business and sales channel. General-purpose AI labs (OpenAI, Google DeepMind) are investing in mathematical reasoning but have not publicly productized formal verification for applied domains as a standalone B2B offering.
 
-**Commoditization risk:** The formal verification + AI space is attracting significant capital: Harmonic AI ($295M+ total raised), Axiom Math ($164M+ total raised), and open-source projects like LeanDojo provide tooling that could lower barriers. DeepSeek has released open-source Lean4 prover models (VentureBeat, Nov 2025 via search snippet). The core Lean ecosystem is open-source. The risk of commoditization at the infrastructure layer is real; defensibility likely depends on proprietary domain-specific formalization libraries and customer relationships rather than the underlying proving technology.
+**Commoditization risk:** The underlying proof assistant (Lean) is open source, and multiple research groups are working on LLM-based theorem proving (LeanDojo from Caltech/NVIDIA/MIT, various university groups). Harmonic AI has raised $295M to pursue a related but broader "mathematical superintelligence" vision (BusinessWire, November 2025 via search snippet). The barrier to entry is the engineering effort to build and train multi-agent proof discovery systems, which is substantial but not insurmountable for well-funded competitors.
 
 ## Market & Traction
 
 **Traction signals:**
-- No public revenue, user counts, or growth metrics found.
-- No Product Hunt launch found.
-- No company Twitter/X account found.
-- LinkedIn company page exists at linkedin.com/company/cajal-technologies (follower count not retrievable).
-- No public GitHub organization found for the company.
-- No press coverage found beyond the YC listing.
-- No job postings listed on YC page (YC company page).
-- No app store presence, Chrome extension, or web traffic estimates found.
-- The company was founded in 2025 and participated in YC W26; the founders previously worked together at Entrepreneurs First's program in Germany (SignalHire; RocketReach via search snippet).
+- Company Twitter/X: @CajalResearch — 107 followers (X.com via search snippet, March 2026)
+- LinkedIn company page: linkedin.com/company/cajal-technologies (LinkedIn via search snippet)
+- YC Launch page posted (YC Launches, ~late February 2026)
+- Y Combinator promotional tweet by @ycombinator mentioning @lukerj00 and @pedro_nobre0 (X.com via search snippet)
+- 0 open job postings (YC page)
+- No Product Hunt launch found
+- No public revenue, user count, or customer data found
+- No app store presence, Chrome extension, or download count data found
+- No Discord or Slack community found
 
 **Competitive landscape:**
 
-| Competitor | Funding | Key Differentiator vs. Cajal |
-|-----------|---------|------------------------------|
-| **Harmonic AI** | ~$295M total ($120M Series C at $1.45B valuation, Nov 2025) (BusinessWire, Nov 2025) | Focuses on competition mathematics and building toward "mathematical superintelligence"; gold-medal on 2025 IMO. Cajal targets applied scientific domains rather than pure math. Revenue unknown. |
-| **Axiom Math** | $164M+ total ($64M at $300M valuation, Oct 2025) (SiliconANGLE, Oct 2025) | Targets quantitative finance and general mathematical reasoning; founded by Stanford math PhD. Cajal differentiates by offering formal verification products (datasets, benchmarks, RL environments) alongside discovery. Revenue: no revenue reported (Sacra via search snippet). |
-| **Theorem** (YC S25) | $6M seed led by Khosla Ventures (VentureBeat, Jan 2026) | Applies formal verification to AI-generated code correctness (program equivalence). Cajal focuses on mathematical discovery and scientific applications rather than code verification. Revenue unknown. |
-| **LeanDojo** (academic) | Not a funded startup; academic project (Caltech, NVIDIA, MIT, UCSB, UT Austin) | Open-source toolkits and benchmarks for LLM-based theorem proving. Cajal differentiates by offering a commercial product with multi-agent discovery capabilities and applied domain focus. |
-| **Google DeepMind (AlphaProof)** | Internal research project (not separately funded) | Achieved IMO silver-medal level performance with Lean4 proofs. Not a commercial product. Cajal differentiates by offering productized B2B solutions. |
+1. **Harmonic AI** ($295M total funding, $1.45B valuation; Series C led by Ribbit Capital, November 2025; revenue unknown) (BusinessWire, November 2025 via search snippet; TechFundingNews via search snippet): Builds "Aristotle," an AI system targeting mathematical superintelligence with formal verification in Lean 4. Focuses on pure mathematical reasoning and achieved gold-medal-level performance on 2025 International Math Olympiad problems (VentureBeat via search snippet). Differentiator vs. Cajal: broader mathematical reasoning scope and significantly larger funding; Cajal differentiates by targeting applied science domains (quantum computing, finance) rather than competition mathematics.
 
-**Why now:** Two specific catalysts have converged: (1) Lean 4 matured as a practical formal verification framework, attracting significant investment ($10M in new funding for the Lean ecosystem from Alex Gerko in July 2025, split between Mathlib Initiative and Lean FRO) (VentureBeat, Nov 2025 via search snippet), and (2) LLM capabilities crossed a threshold for formal reasoning — Google DeepMind's AlphaProof achieved IMO silver-medal performance, and Harmonic's Aristotle achieved gold-medal performance on 2025 IMO problems, demonstrating that AI can now generate formally verified proofs at human-expert level. [Inferred]: These breakthroughs signal that the technology is ready for commercial application in applied domains, creating a window for startups to build domain-specific products before incumbents consolidate.
+2. **Certora** ($43.2M total funding; revenue unknown) (Crunchbase via search snippet): Founded 2018, Tel Aviv. Formal verification engine for blockchain smart contracts (Ethereum, Solana, Stellar). Has secured over $100 billion in total value locked across DeFi protocols (Certora blog, February 2025 via search snippet). Differentiator vs. Cajal: domain-specific to blockchain/smart contracts; Cajal targets broader applied science domains.
+
+3. **Galois Inc** (private; funding and revenue unknown): Portland-based company specializing in formal verification for government and defense applications, with work across multiple proof assistants including Lean (GitHub via search snippet). Differentiator vs. Cajal: services-oriented model focused on government contracts; Cajal offers a product-oriented approach with autonomous proof discovery.
+
+4. **LeanDojo** (academic project; no venture funding) (Caltech, NVIDIA, MIT, UC Santa Barbara, UT Austin): Open-source toolkit for LLM-based theorem proving in Lean, released under MIT license (arXiv, 2023 via search snippet). Differentiator vs. Cajal: research tool, not a commercial product; provides open-source infrastructure that could lower barriers for new entrants.
+
+**Why now:**
+- Lean 4, the latest version of the Lean proof assistant, has matured into a production-grade tool for formal verification, attracting both academic and commercial interest (VentureBeat via search snippet).
+- LLM capabilities for mathematical reasoning have crossed a performance threshold, enabling autonomous proof discovery that was previously impractical (YC Launch page).
+- [Inferred]: The convergence of scaled LLMs with formal verification frameworks has created a window where multi-agent systems can autonomously generate and verify proofs, whereas even two years ago, LLM mathematical reasoning was insufficient for this task.
 
 ## Founders & Team
 
 **Luke Johnston** — Co-founder
-- Background in machine learning and neuroscience from Oxford, Cambridge, and UCL research labs (YC company page).
-- Education details beyond the Oxford/Cambridge/UCL research affiliations: No public data found.
-- Previous companies/exits: No public data found.
-- Contact: luke@caj.al (caj.al website).
-- Twitter/X: The handle @lukerjohnston on X belongs to a different individual (Luke Johnston, MD, MBA, FACS — a Navy General Surgeon). No confirmed Twitter/X account found for the Cajal founder.
-- LinkedIn: linkedin.com/in/lukerjohnston/ — listed as founder at Cajal, San Francisco (LinkedIn via search snippet).
-- GitHub: No confirmed public GitHub account found.
+- MPhil student at the Computational and Biological Learning Lab (CBL), University of Cambridge, focusing on meta-reinforcement learning in orienting behaviour (Cambridge CBL website). Background in machine learning and neuroscience from Oxford, Cambridge, and UCL (YC page).
+- Twitter/X: @lukerj00 (from YC promotional tweet); follower count not retrievable
+- LinkedIn: linkedin.com/in/lukerjohnston — Co-founder @ Cajal (YC W26), 500+ connections (LinkedIn via search snippet)
+- GitHub: github.com/lukerj00 — 4 public repos, 1 follower. Bio: "Computational Neuroscience student at CBL, Cambridge." Repos include meta_rl_ego_sim (egocentric meta-RL simulation) and interneuron_project (GitHub)
 
 **Pedro Nobre** — Co-founder
-- Education: University of Santiago de Compostela (ETSE, Computer Science), Universidad Politécnica de Madrid (UPM) (pedronobre.me).
-- Previous roles: Co-founder at Vertebra (Sep 2022 – Sep 2024); Technology Consultant at Management Solutions (Jun 2022 – Feb 2023); Research Engineer at Inetum R&D (computer vision) (SignalHire; RocketReach; pedronobre.me via search snippet).
-- Participated in Entrepreneurs First's program; previously presented Aptia, an AI platform for designing aptamers for early disease detection/cancer biomarkers (LinkedIn via search snippet).
-- 1st place winner, HPE Tech Challenge (April 2022) — a three-stage competitive hackathon (pedronobre.me).
-- Delivered computer vision workshop at Try It Congress UPM (April 2022) and presented on AI developments to ~500 attendees at a Vertebra/Barrié Foundation event (December 2022) (pedronobre.me).
-- Contact: pedro@cajal.org (pedronobre.me).
-- Twitter/X: No confirmed account found for this individual.
-- LinkedIn: linkedin.com/in/pedronobree — Co-Founder at Cajal, San Francisco (LinkedIn via search snippet).
-- GitHub: github.com/pedronobrol — 11 public repos, 8 followers. Bio: "Computer Science student at USC." Pinned repos include neuralume (full-stack air quality monitoring), aviato (AI-driven paper plane optimization, 2 stars), route-finder-app, safee (food toxicity detection), parkAI (vehicle detection) (GitHub).
+- Computer Science background from USC (University of Santiago de Compostela) and UPM (Universidad Politécnica de Madrid) (personal website). Research Engineer intern at Inetum R&D department (personal website). Winner of HPE Tech Challenge hackathon (April 2022), a three-stage competition across top Spanish universities awarded by Hewlett Packard Enterprise (personal website). Delivered "The New AI Paradigm" talk to ~500 attendees in December 2022 (personal website). Participated in Entrepreneurs First's The Bridge program (personal website).
+- Twitter/X: @pedro_nobre0 (from YC promotional tweet); follower count not retrievable
+- LinkedIn: linkedin.com/in/pedronobree (LinkedIn via search snippet)
+- GitHub: github.com/pedronobrol — 11 public repos, 8 followers. Projects include neuralume (air quality monitoring system with PCB design and firmware), aviato (AI-driven paper plane optimization), and route-finder-app (A* metro routing) (GitHub)
 
-**Co-founder relationship:** Both founders participated in Entrepreneurs First's program in Germany (a castle in Bückeburg) before co-founding Cajal, as noted on the YC page and in Pedro Nobre's work history (YC company page; SignalHire via search snippet). No shared prior employer or university was identified beyond the EF program.
+**Co-founder relationship:** Both founders participated in Entrepreneurs First's The Bridge program, a residency held at a castle in Germany (YC Launch page mentions "first office in a castle in Germany"; Pedro Nobre's profile lists Entrepreneurs First). No shared university overlap was found — Luke studied at Cambridge/Oxford/UCL in the UK, while Pedro studied at USC and UPM in Spain.
 
-**Founder-market fit:** Luke Johnston's research background in machine learning and neuroscience across Oxford, Cambridge, and UCL suggests exposure to formal mathematical reasoning and scientific computing, though specific publications or projects in formal verification were not found publicly. Pedro Nobre's background spans computer vision, AI/ML engineering, and a prior startup (Vertebra), with education in computer science from Spanish universities. Neither founder has a publicly documented track record specifically in formal methods or theorem proving; the connection to the Lean ecosystem and formal verification domain is not evidenced by prior publications or open-source contributions in public sources. No advisors, board members, or notable investors beyond YC and Diana Hu (YC partner) were found.
+**Founder-market fit:** Luke Johnston brings computational neuroscience and machine learning research experience from Cambridge's CBL, with specific expertise in reinforcement learning — directly relevant to building RL-based proof discovery agents. Pedro Nobre brings computer science and engineering experience with demonstrated interest in AI applications. The team's academic and technical backgrounds align with the interdisciplinary challenge of combining AI with formal mathematics, though neither founder has documented prior experience specifically in formal verification or theorem proving from public sources.
 
 ## Key Risks
 
-**Well-funded direct competitors:** Harmonic AI ($295M+ raised, $1.45B valuation) and Axiom Math ($164M+ raised, $300M valuation) are pursuing closely adjacent problems with orders-of-magnitude more capital (BusinessWire, Nov 2025; SiliconANGLE, Oct 2025). Both use Lean4 and target mathematical reasoning with AI. If either pivots toward applied scientific domains, Cajal faces a direct resource disadvantage with no documented proprietary technology barrier.
+**Resource asymmetry with primary competitor:** Harmonic AI has raised $295M at a $1.45B valuation (BusinessWire, November 2025 via search snippet) and is pursuing a closely related "mathematical superintelligence" vision with formal verification in Lean 4. Cajal's differentiation into applied science domains (vs. Harmonic's pure math focus) may narrow if Harmonic expands into applied verticals. Mitigation: Cajal's domain-specific focus on quantum computing and finance could allow faster product-market fit in those niches.
 
-**Brand disambiguation:** The name "Cajal" is shared by multiple entities: Cajal Therapeutics (biotech, PitchBook-listed), Cajal Neuroscience (Lux Capital-backed), CAJAL Training (neuroscience training programme affiliated with FENS), and the historical figure Santiago Ramón y Cajal. The GitHub organization "cajal" is already taken by the Cajal MICrONS Team (neuroscience research). This creates SEO, trademark, and customer discovery challenges.
+**Formal verification domain expertise gap:** Neither founder has documented public track record in formal verification, theorem proving, or Lean programming prior to Cajal. The company's core technology requires deep expertise in dependent type theory and proof automation. Mitigation: affiliation with University of Cambridge may provide access to relevant academic expertise.
 
-**Open-source commoditization of core infrastructure:** The Lean ecosystem is open-source, LeanDojo provides free toolkits for LLM-based theorem proving, and DeepSeek has released open-source Lean4 prover models (VentureBeat, Nov 2025 via search snippet). The $10M in new Lean ecosystem funding (July 2025) accelerates open-source development. Cajal's differentiation depends on proprietary multi-agent orchestration and domain-specific formalization — neither of which has been publicly demonstrated or benchmarked.
+**Name disambiguation:** "Cajal" shares its name with Cajal Neuroscience (a $96M-funded neurodegeneration therapeutics company — BioSpace via search snippet), the Cajal Institute (Spanish neuroscience research center), and CAJAL Advanced Neuroscience Training Programme. This creates brand confusion in search results and may complicate marketing and SEO.
 
-**No publicly documented formal methods expertise:** Neither founder has publicly visible prior work, publications, or open-source contributions in formal verification, theorem proving, or the Lean ecosystem. The YC page describes backgrounds in "machine learning and neuroscience" (Luke Johnston) and AI/computer vision (Pedro Nobre). The connection from these backgrounds to building a formal verification company is not documented in public sources.
+**Narrow initial market:** Applied formal verification for quantum computing and quantitative finance represents a small number of potential enterprise customers. Expanding beyond these initial verticals to justify a venture-scale outcome will require demonstrating generalizability of the Tau system.
 
-**Narrow initial market adoption path:** Quantum computing and quantitative finance — the stated initial domains — have small numbers of potential enterprise customers and long sales cycles. Quantum computing remains pre-commercial for most applications. The path from early research tool to recurring enterprise revenue in these domains is not straightforward.
+**Open-source foundation risk:** Lean is open source and actively supported by academic groups building competing tooling (LeanDojo, etc.). The barrier to building alternative multi-agent proof systems may decrease as open-source infrastructure matures, potentially enabling new entrants with lower R&D costs.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $1.12B Formal Verification Copilot market (Dataintelo, 2024, 18.6% CAGR via search snippet); $103.2B broader Software Verification Services market (WiseGuy Reports, 2024, 14.43% CAGR via search snippet) |
-| SAM | No public data found for AI-driven formal mathematical verification specifically |
-| Traction | No public data found |
+| TAM | Software Verification Services Market: USD 103.2B in 2024, projected $303.4B by 2032, CAGR ~14.43% (WiseGuy Reports, 2024 via search snippet). No specific AI formal verification subsegment data found. |
+| SAM | No public data found |
+| Traction | @CajalResearch: 107 Twitter/X followers (X.com via search snippet, March 2026); YC Launch page posted (~late Feb 2026); 0 job postings (YC page) |
 | Revenue Signal | No public data found |
-| Founders | Luke Johnston (Co-founder): ML/neuroscience research at Oxford, Cambridge, UCL. Pedro Nobre (Co-founder): CS from USC/UPM, ex-Vertebra co-founder, ex-Inetum R&D, Entrepreneurs First alum |
-| Competitors | Harmonic AI (~$295M raised, revenue unknown, competition math focus vs. Cajal's applied science focus); Axiom Math ($164M+ raised, no revenue reported, quantitative finance/general math vs. Cajal's verification products); Theorem ($6M raised, revenue unknown, code verification vs. mathematical discovery); LeanDojo (academic/open-source, toolkits vs. commercial product) |
-| Moat Signals | No public data found. Potential moat via domain-specific formalization libraries and proprietary multi-agent orchestration, unproven at this stage |
-| Risk Factors | Well-funded direct competitors (Harmonic $1.45B, Axiom $300M valuations), open-source commoditization of Lean tooling, no publicly documented formal methods expertise on founding team |
-| Founder Reach | Luke Johnston: Twitter not confirmed, LinkedIn linkedin.com/in/lukerjohnston/, GitHub not found. Pedro Nobre: Twitter not found, LinkedIn linkedin.com/in/pedronobree, GitHub github.com/pedronobrol (8 followers, 2 stars) |
-| Distribution Signals | No public data found |
+| Founders | Luke Johnston (Co-founder): MPhil Cambridge CBL, ML/neuroscience background from Oxford, Cambridge, UCL. Pedro Nobre (Co-founder): CS from USC/UPM Spain, HPE Tech Challenge winner, EF Bridge alum. |
+| Competitors | Harmonic AI ($295M raised, revenue unknown, broader mathematical superintelligence focus); Certora ($43.2M raised, revenue unknown, blockchain-specific formal verification); Galois Inc (private, revenue unknown, government-focused formal verification services); LeanDojo (academic, no funding, open-source toolkit) |
+| Moat Signals | Technical complexity of multi-agent proof discovery; potential data moat from verified mathematical corpora; Cambridge affiliation |
+| Risk Factors | Resource asymmetry with Harmonic AI ($295M funded), no documented prior formal verification expertise among founders, brand name disambiguation with Cajal Neuroscience |
+| Founder Reach | Luke Johnston: Twitter @lukerj00 (count not retrievable), LinkedIn 500+ connections, GitHub 1 follower. Pedro Nobre: Twitter @pedro_nobre0 (count not retrievable), LinkedIn (via search snippet), GitHub 8 followers |
+| Distribution Signals | Demo booking page on website; no Product Hunt launch, no app store presence, no community channels found |
+| Emails | hi@caj.al, luke@caj.al (YC page); pedro@cajal.org (personal site) |

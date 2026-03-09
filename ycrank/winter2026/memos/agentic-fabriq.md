@@ -6,104 +6,111 @@
 |-------|-------|
 | Website | https://www.agenticfabriq.com |
 | YC Page | https://www.ycombinator.com/companies/agentic-fabriq |
-| Batch | Fall 2025 (F25) |
+| Batch | Winter 2026 (also referenced as "F25" on LinkedIn) |
 | Industry | B2B / B2B |
 | Team Size | 2 |
 | Location | Sunnyvale, CA, USA |
 | Tags | AIOps, DevSecOps, SaaS, API, Infrastructure |
+| YC Partner | Harj Taggar |
+| Emails | founders@agenticfabriq.com |
 
 ## The Idea
 
-**Problem:** As enterprises deploy AI agents that act on behalf of employees — querying databases, executing workflows, accessing SaaS tools — there is no standardized way to ensure that an agent cannot exceed the permissions of the human using it. Existing identity and access management (IAM) systems like Okta, Microsoft Entra ID, and Auth0 were designed for human-to-application authentication, not for delegated agent-to-tool access on a per-employee basis. Agents today routinely hold 10x more privileges than required, and 90% of agents are over-permissioned (Microsoft Security Blog, Feb 2026 via search snippet). The customer segment is IT administrators and security teams at enterprises deploying agentic AI internally or externally.
+**Problem:** As enterprises deploy AI agents that take actions on behalf of employees — querying databases, calling APIs, reading internal documents — there is no unified system to enforce per-user, least-privilege access for those agents across multiple tools and data sources. Without such a layer, agents can access data and perform actions beyond what the employee they represent is authorized to do. 90% of AI agents are over-permissioned relative to their required access (Obsidian Security, 2025 via search snippet). Today, organizations cobble together per-tool OAuth flows, custom RBAC middleware, and manual auditing, creating security and compliance gaps.
 
-**Approach:** Agentic Fabriq provides a single control plane for data permissioning across an organization's AI agents and employees. The platform offers per-user tool connections (no shared credentials), organization-wide access controls defining which agents can access which data per employee, least-privilege access by default, full audit logging for compliance, and prebuilt connectors for rapid tool integration (YC launch page, Nov 2025). Admins configure which tools and data each employee can access via agents, and the platform handles authentication, integration, and permission enforcement.
+**Approach:** Agentic Fabriq provides a single control plane that sits between agentic applications and the tools/data sources they connect to. The platform manages both agent identity and user identity simultaneously, handling token exchange, authentication, and least-privilege enforcement. Specific capabilities include: per-user connections (individual account integrations to approved tools without credential sharing), organization-wide controls (defining which agents/apps can access which tools and which employees can use them), scoped and revocable access with centralized policy management, audit logging of all agent actions, and prebuilt connectors for accelerated integration (YC Launch page).
 
-**Differentiation:** Unlike traditional IAM platforms (Okta, Microsoft Entra ID) that authenticate humans to applications, Agentic Fabriq is purpose-built for the agent-to-tool delegation layer, scoping access per employee using the agent. Unlike non-human identity (NHI) security platforms such as Oasis Security, Astrix Security, and Entro Security — which focus on managing machine identities like API keys, service accounts, and secrets — Agentic Fabriq frames the problem as employee-centric: mapping agent permissions to the specific human's clearance level. Okta has begun addressing this space with its Auth for GenAI and Cross App Access (XAA) protocol (Okta newsroom, Sep 2025), but these are add-on features to an existing platform rather than a purpose-built control plane. WorkOS offers agent auth features via its Pipes product (launched Dec 2025), but WorkOS is developer-facing infrastructure, not an admin-facing permissions control plane.
+**Differentiation:** Unlike general-purpose agent tooling platforms like Composio (which focuses on broad agent integration and authentication across 500+ tools) or Nango (which provides user-delegated OAuth flows), Agentic Fabriq is positioned specifically as an organizational governance layer — the "Okta for Agents" analogy emphasizes centralized admin control over what data and tools each employee can access through AI, rather than developer-facing auth plumbing. Compared to Arcade.dev (founded by a former Okta executive, focusing on action-level authorization and execution guardrails), Agentic Fabriq emphasizes the admin/IT perspective of controlling agent access organization-wide rather than securing individual agent actions. Against enterprise incumbents like SailPoint (which added Agent Identity Security as a feature to an existing IAM suite), Agentic Fabriq is a purpose-built agent-native product rather than an extension of traditional IAM.
 
-**Business Model:** No pricing page or revenue data is publicly available. [Inferred]: Most likely monetization path is SaaS subscription pricing based on number of employees/agents under management or number of tool connections, given the "Okta for Agents" positioning and B2B infrastructure category.
+**Business Model:** No pricing page or revenue data is publicly available. The website requires JavaScript to render and did not expose pricing information. [Inferred]: Most likely monetization path is SaaS subscription (per-seat or per-agent pricing), given the "Okta for Agents" positioning and the B2B SaaS tag. Enterprise-tier pricing with seat-based or consumption-based billing is the standard model in the IAM/identity governance category.
 
-**TAM/SAM:** The global identity and access management (IAM) market was valued at $25.96 billion in 2025 and is projected to reach $42.61 billion by 2030 at a 10.4% CAGR (MarketsandMarkets, 2025 via search snippet). An alternative estimate places it at $22.99 billion in 2025, growing to $65.70 billion by 2034 at a 12.4% CAGR (Precedence Research, 2025 via search snippet). No public TAM/SAM data found for the specific agent-level IAM sub-segment. [Inferred]: The serviceable market would be a fraction of the broader IAM TAM, constrained to enterprises actively deploying agentic AI, which is growing rapidly — by 2026, 40% of enterprise applications are projected to feature embedded agents, up from less than 5% in early 2025 (Microsoft Security Blog, Feb 2026 via search snippet).
+**TAM/SAM:** The global IAM market is estimated at USD 22–26 billion in 2025, depending on source (MarketsandMarkets, Fortune Business Insights, Precedence Research via search snippets). The NHI (Non-Human Identity) access management sub-market is projected to grow from USD 9.45 billion in 2024 to USD 18.71 billion by 2030 at a CAGR of 11.9% (MarketsandMarkets via search snippet). The broader agentic AI market is valued at USD 7.55 billion in 2025, projected to reach USD 199.05 billion by 2034 at a CAGR of 43.84% (Precedence Research via search snippet). No company-specific SAM estimate is publicly available.
 
-**GTM / Distribution:** The YC launch page provides a Calendly booking link for Paulina Xu and an email (founders@agenticfabriq.com), suggesting direct founder-led sales (YC launch page, Nov 2025). YC partner Harj Taggar is listed as the primary partner (YC page). [Inferred]: Most likely distribution path is founder-led enterprise sales to IT/security teams at companies adopting agentic AI, potentially leveraging YC's network for initial customers. The product can be used internally (for employee-facing agents) or externally (for customer-facing agents), suggesting two potential go-to-market motions.
+**GTM / Distribution:** The YC Launch page includes a call-to-action for early adopters via email (founders@agenticfabriq.com) and a Calendly link for scheduled meetings (YC Launch page). [Inferred]: Most likely initial distribution path is direct outreach to mid-market and enterprise IT/security teams deploying AI agents, leveraging the YC network and founder-led sales. The product can serve both internal enterprise use (employees using agents) and external use (customers using agents), suggesting a potential platform/API-first distribution model.
 
 ## Defensibility
 
-No defensibility signals found in public sources at this stage. [Inferred]: Potential moat could develop via (1) switching costs as enterprises configure per-employee permission policies, tool connections, and audit logs that become entrenched in compliance workflows; (2) a data advantage from aggregating permission patterns across organizations, enabling better default policies; and (3) a connector/integration network effect where each new tool connector increases platform value. However, none of these are proven at this stage.
+At this stage, no publicly documented moat signals (patents, proprietary data assets, or network effects) were found. The product is early and the defensibility would need to develop over time.
 
-**Market structure:** Okta is the primary incumbent risk. Okta has already launched Auth for GenAI (GA October 2025) and the Cross App Access (XAA) protocol (Okta newsroom, Sep 2025). However, [Inferred]: Okta's platform is architecturally oriented around human SSO and directory-based identity; retooling it for per-employee agent permission scoping requires a fundamentally different data model. Additionally, Okta's pricing model (per-user seat licensing) may create tension with a per-agent or per-connection model. The structural barrier is thin — Okta is actively pursuing this market.
+[Inferred]: Potential moat could develop via (1) integration network effects — as more enterprise tools are connected through Fabriq, the switching cost for organizations increases; (2) audit log data accumulation — centralized logging of agent actions across an organization creates a compliance asset that is costly to replicate; (3) policy complexity — once organizations codify their agent access policies in Fabriq, migrating those policies to an alternative becomes operationally burdensome. These are unproven at this stage.
 
-**Commoditization risk:** The agent identity/permission management space is attracting significant capital and attention. Well-funded startups include Oasis Security ($75M raised), Astrix Security ($85M raised), Entro Security ($24M raised), and SGNL (acquired by CrowdStrike for $740M). Okta, Microsoft, and CrowdStrike are all building agent identity features into existing platforms. The specific "employee-scoped agent permissions" framing is somewhat differentiated, but the underlying technical components (OAuth delegation, policy engines, audit logging) are well-understood building blocks that multiple teams could assemble.
+**Market structure:** Traditional IAM incumbents (Okta, SailPoint, CyberArk) are adding AI agent identity features to existing platforms. Okta is described as "enterprise-trusted but not optimized for fast-moving AI agent use cases" (DEV Community article, 2026 via search snippet). [Inferred]: The structural barrier for incumbents is architectural — legacy IAM systems are built around human identity lifecycles (provisioning, role assignment, periodic access reviews) and assume human-speed interaction patterns. Agent identity requires real-time, granular, per-action authorization at machine speed with dynamic scoping — retrofitting this into existing IAM architectures may require fundamental re-architecture that incumbent organizations are slow to undertake due to existing customer commitments and backwards-compatibility requirements. No structural barrier is definitively identified from evidence at this stage.
+
+**Commoditization risk:** Multiple well-funded startups are building in the adjacent space: Arcade.dev ($12M seed), Composio ($29M total), OASIS Security ($75M total), and Opti ($20M seed). The underlying technical components (OAuth flows, RBAC, token management) are well-understood. The differentiation lies in the specific product abstraction (admin-facing control plane vs. developer-facing auth SDK vs. security monitoring). The space is early enough that multiple approaches may coexist, but the barrier to building a functionally similar product is moderate.
 
 ## Market & Traction
 
 **Traction signals:**
-- YC batch: Fall 2025 (F25) (YC page)
-- YC LinkedIn launch post: 188 likes, 43 comments (LinkedIn, Nov 8, 2025)
-- Featured in Menlo Times "Y Combinator Launches of the Week" roundup (Menlo Times via search snippet)
-- Funding: $500K from Y Combinator (Crunchbase via search snippet)
-- Twitter/X: @agenticfabriq, joined October 2025; follower count not retrievable due to JavaScript rendering
-- LinkedIn: Company page exists at linkedin.com/company/agentic-fabriq; follower count not retrievable
-- YouTube: Launch video at youtu.be/V4dTw58ZeTQ (YC page)
-- Product Hunt: No listing found
-- No public user counts, revenue figures, customer names, or app download data found
-- Company website requires JavaScript to render; no pricing or traction data extractable from static page
+- YC Launch page: 18 upvotes (YC Launch page)
+- Twitter/X: @agenticfabriq — ~47 followers, account created October 2025 (X.com via search snippet)
+- LinkedIn: Company page exists at linkedin.com/company/agentic-fabriq (LinkedIn via search snippet); follower count not retrievable
+- YouTube: Launch video (https://youtu.be/6_iIijfy0Mg) and demo video (https://youtu.be/ayiZ_7d7jCY) available (YC page)
+- Funding: $500K (YC standard deal) (search snippet)
+- No Product Hunt launch found
+- No public GitHub repos found
+- No Discord or Slack community found
+- No app store presence found
+- No press coverage in named publications found
+- No public revenue, user count, or customer data found
+- Website not fully accessible at time of research (JavaScript-rendered SPA)
 
 **Competitive landscape:**
 
-1. **Okta** (public company, ~$2.5B annual revenue) — Launched Auth for GenAI (via Auth0 platform, GA Oct 2025) and the Cross App Access (XAA) protocol for agent-to-app delegation (Okta newsroom, Sep 2025). Key difference: Okta is extending a legacy IAM platform to cover agents as an add-on; Agentic Fabriq is purpose-built for agent permission scoping. Okta's pricing for agentic features is not publicly disclosed.
+| Competitor | Funding | Revenue/ARR | Key Differentiator vs. Agentic Fabriq |
+|-----------|---------|-------------|---------------------------------------|
+| Arcade.dev | $12M seed (March 2025, TechCrunch) | Revenue unknown | Founded by former Okta exec; focuses on action-level agent authorization and execution guardrails rather than organization-wide admin control plane |
+| Composio | $29M total ($4M seed + $25M Series A led by Lightspeed, July 2025, SiliconANGLE) | Revenue unknown | Broader agent development platform with 500+ integrations; auth is one feature among many rather than the core product |
+| OASIS Security | $75M total ($40M + $35M Series A extension; Accel, Sequoia, Cyberstarts; Jan–May 2024, TechCrunch/SecurityWeek) | Revenue unknown | Focuses on non-human identity management (service accounts, secrets, keys, tokens) across cloud infrastructure; security-first rather than agent-governance-first |
+| Opti | $20M seed (Nov 2025, led by YL Ventures/Mayfield, PRNewswire) | Revenue unknown | AI-native IAM platform using GenAI/domain-specific LLMs for identity security; broader enterprise IAM focus rather than agent-specific |
+| SailPoint | Public company (NYSE: SAIL) | Public company financials available | Legacy IAM incumbent that added Agent Identity Security as a product extension; breadth of existing IAM suite vs. agent-native startup |
 
-2. **Oasis Security** ($75M raised — $40M seed/Series A led by Sequoia Capital and Accel, plus $35M Series A extension; TechCrunch, Jan 2024 / AccessNewsWire, 2024 via search snippet) — Introduced Agentic Access Management (AAM) as the first identity solution designed for governing AI agents (Oasis blog, 2025 via search snippet). Key difference: Oasis focuses on non-human identity management across IaaS/SaaS/PaaS broadly; Agentic Fabriq focuses specifically on employee-scoped agent permissions. Revenue not publicly disclosed.
-
-3. **Astrix Security** ($85M raised — $45M Series B led by Menlo Ventures; PRNewswire, 2024 via search snippet) — NHI security platform for API keys, service accounts, and secrets. Fortune 500 customer base including Figma, NetApp, Priceline, and Workday (PRNewswire via search snippet). Has grown 5x since Series A. Key difference: Astrix focuses on securing machine-to-machine NHIs; Agentic Fabriq focuses on the human-agent-tool permission chain. Revenue not publicly disclosed.
-
-4. **SGNL** ($42M raised — $30M Series A in Feb 2025; acquired by CrowdStrike for $740M in Jan 2026; CNBC, Jan 2026) — Real-time identity security with dynamic access decisions. Founded by Scott Kriz and Erik Gustavson (prior exit to Google in 2017). Key difference: SGNL was a broader identity governance platform now subsumed into CrowdStrike's platform; Agentic Fabriq is standalone and agent-specific.
-
-5. **WorkOS** ($199M raised; $30M ARR as of Oct 2025; Getlatka via search snippet) — Developer-facing API platform for enterprise auth features including SSO, directory sync, and recently Pipes for third-party OAuth token management (Dec 2025). Key difference: WorkOS is developer infrastructure for building auth into SaaS products; Agentic Fabriq is an admin-facing control plane for agent permissions. Over 1,000 paying customers (Getlatka via search snippet).
-
-**Why now:** [Inferred]: The specific catalyst is the rapid enterprise adoption of agentic AI in 2025-2026. By 2026, 40% of enterprise applications are projected to feature embedded task-specific agents, up from less than 5% in early 2025 (Microsoft Security Blog, Feb 2026 via search snippet). 80% of Fortune 500 companies now use active AI agents (Microsoft Security Blog, Feb 2026 via search snippet). This creates a sudden, specific need for agent-level permission scoping that did not exist before agents gained tool-use capabilities. The OAuth/authentication standards were designed for human-to-app flows and do not natively support delegated agent-to-tool access scoped to individual employee clearance levels — Okta's XAA protocol is an attempt to bridge this gap but was only announced in September 2025.
+**Why now:** [Inferred]: The rapid enterprise adoption of AI agents in 2024–2025 — driven by the maturation of large language models and frameworks like LangChain, CrewAI, and OpenAI's Agents SDK — created a new class of non-human actors that require identity, authorization, and governance. The specific catalyst is the shift from AI as a "chat interface" (where the human controls all actions) to AI as an "agent" (where the AI autonomously calls APIs and accesses data on behalf of users). This creates a new security surface that did not exist before: enforcing that an agent acting on behalf of Employee A cannot access Employee B's data. Research indicates NHIs grew 44% from 2024 to 2025 (CyberSecurity Tribe, 2025 via search snippet), and 90% of agents are over-permissioned (Obsidian Security, 2025 via search snippet), indicating the problem is acute and growing.
 
 ## Founders & Team
 
-**Paulina Xu** — Co-Founder
-- Studied AI + Physics at MIT; dropped out before second year (age 19) (YC page)
-- CS/ML research at MIT Kavli Institute, MIT Haystack Observatory, and INAF Padua (YC launch page)
-- Twitter/X: No personal public account found; company account @agenticfabriq
-- LinkedIn: linkedin.com/in/paulina-xu-5bba0821b — "Co-Founder @ Agentic Fabriq (YC F25)" (LinkedIn via search snippet)
-- Personal website: paulinaxu.com (search result)
-- GitHub: No public repos found
-
-**Matthew Xu** — Co-Founder & CSO
-- Studied AI + Math at MIT; dropped out before second year (YC page)
-- CS/Econ research at MIT FutureTech Lab; computational biology research at MIT CSAIL (RocketReach via search snippet; YC launch page)
+**Paulina Xu** — Co-founder
+- CS + Physics at MIT (dropped out before second year) (YC page, paulinaxu.com)
+- CS/ML research at MIT Kavli Institute, MIT Haystack Observatory, and INAF Padua (YC page, search results)
 - Twitter/X: No personal public account found
-- LinkedIn: linkedin.com/in/matthew-xu-b32a36271 — "Agentic Fabriq (YC F25)" (LinkedIn via search snippet)
+- LinkedIn: linkedin.com/in/paulina-xu-5bba0821b — "Agentic Fabriq (YC F25)" (LinkedIn via search snippet)
+- GitHub: No public repos found
+- Scheduling link: calendly.com/paulinaxu/agentic-fabriq-meeting (YC page)
+
+**Matthew Xu** — Co-founder
+- AI + Math at MIT (dropped out before second year, age 19) (YC page, LinkedIn via search snippet)
+- Research at MIT FutureTech Lab and CSAIL (YC Launch page)
+- Twitter/X: No personal public account found
+- LinkedIn: linkedin.com/in/matthew-xu-b32a36271 — based in Snellville, GA; profile headline references AI and Math at MIT (LinkedIn via search snippet)
 - GitHub: No public repos found
 
-**Co-founder relationship:** Paulina and Matthew Xu met at MIT admit weekend and have been friends since before dropping out (YC launch page). They share a surname and MIT background, and both dropped out before their second year to co-found Agentic Fabriq.
+**Co-founder relationship:** Paulina and Matthew met at MIT admit weekend and have been friends since. They were both MIT students (Paulina in CS + Physics, Matthew in AI + Math) who dropped out before their second year to work on Agentic Fabriq together (YC page).
 
-**Founder-market fit:** Both founders have direct AI/ML research backgrounds from MIT labs (CSAIL, Kavli Institute, Haystack Observatory), giving them technical grounding in the AI systems that require permission management. Their experience is research-oriented rather than enterprise security or IAM-specific. No prior startup exits, enterprise security experience, or advisory board members were found in public sources. YC partner Harj Taggar (Triplebyte founder, former YC partner with identity/hiring platform experience) is their assigned partner (YC page).
+**Founder-market fit:** Both founders have MIT AI research backgrounds — Paulina in CS/ML research across multiple MIT labs and an international observatory (INAF Padua), Matthew in MIT's FutureTech Lab and CSAIL. Their technical training in AI systems positions them to understand the agent infrastructure layer they are building. No prior startup exits, no advisors or board members found beyond YC Partner Harj Taggar. No notable investors beyond Y Combinator found.
 
 ## Key Risks
 
-**Incumbent convergence from Okta:** Okta has already shipped Auth for GenAI (GA Oct 2025) and the Cross App Access (XAA) protocol specifically for agent-to-app delegation (Okta newsroom, Sep 2025). Okta has distribution to the exact buyer persona (IT admins, security teams) that Agentic Fabriq targets. If Okta's agent features prove sufficient, the standalone market for a purpose-built agent permission platform may not materialize. Mitigation: Okta's agent features are early and add-on rather than purpose-built; Agentic Fabriq can iterate faster on the specific agent permission use case.
+**Heavily funded direct competitors:** Arcade.dev ($12M, founded by former Okta exec), Composio ($29M), OASIS Security ($75M), and Opti ($20M) are all operating in the agent identity/auth space with significantly more capital. Arcade.dev's founder Alex Salazar brings direct Okta domain expertise that maps closely to Agentic Fabriq's "Okta for Agents" positioning (TechCrunch, March 2025). Mitigation: Agentic Fabriq's differentiated admin-facing control plane approach and YC backing may allow it to compete on product vision, but the funding gap is substantial.
 
-**Heavily capitalized competitive field:** The non-human identity and agent security space has attracted over $200M in dedicated startup funding (Oasis $75M, Astrix $85M, Entro $24M, SGNL $42M before $740M acquisition) plus attention from CrowdStrike, Microsoft, and Okta. Agentic Fabriq has $500K and a 2-person team against competitors with 10-100x more capital and established enterprise customer bases. The window to establish a differentiated position before well-funded competitors expand into employee-scoped agent permissions is narrow.
+**Incumbent entry:** SailPoint has already launched Agent Identity Security (SailPoint website). Okta, Microsoft Entra, and CyberArk have the customer relationships, distribution, and technical resources to add agent identity features to existing IAM platforms. MarketsandMarkets names Microsoft and Ping Identity as leading players in the NHI access management market (MarketsandMarkets via search snippet). An add-on feature from an incumbent that enterprises already use could undercut a standalone product.
 
-**No disclosed traction or customers:** No public user counts, revenue figures, customer names, or pilot programs were found. The company's website requires JavaScript rendering and does not expose pricing or customer evidence. For a product targeting enterprise IT/security buyers, demonstrable customer adoption and compliance certifications are critical to sales cycles. No evidence of SOC 2, ISO 27001, or other certifications was found.
+**First-time founders with no prior exits:** Both founders dropped out of MIT before their second year. While their AI research backgrounds are relevant, neither has documented prior company-building, go-to-market, or enterprise sales experience. The target customer (enterprise IT/security) typically requires credibility signals and longer sales cycles that favor experienced teams.
 
-**Technical surface area breadth:** The product requires building and maintaining prebuilt connectors to enterprise tools (similar to an iPaaS), a policy engine for least-privilege enforcement, per-user OAuth delegation, and audit logging — a wide technical surface for a 2-person team. Each connector integration creates maintenance burden as third-party APIs change.
+**Brand confusion:** Multiple unrelated companies use "Fabriq" in their names — Fabriq Labs (LinkedIn), Fabriq AI (fabriqai.com), Fabriq Media Group, fabriq_tech — which could create confusion in search results and market awareness. The "fabriq" GitHub org (github.com/fabriq) is an unrelated open-source project.
+
+**Dependency on agent adoption pace:** The product's value proposition assumes widespread enterprise adoption of autonomous AI agents. If enterprise agent deployment stalls or remains limited to narrow use cases, the urgency for a dedicated agent governance layer diminishes. The market could remain a feature of existing IAM platforms rather than supporting a standalone product.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $25.96B IAM market in 2025, projected $42.61B by 2030 at 10.4% CAGR (MarketsandMarkets, 2025 via search snippet) |
-| SAM | No public data found for the agent-specific IAM sub-segment |
-| Traction | Featured in YC Launches of the Week (Menlo Times, 2025 via search snippet); YC LinkedIn launch post: 188 likes, 43 comments (LinkedIn, Nov 8, 2025) |
+| TAM | IAM market: ~$22–26B in 2025 (MarketsandMarkets, Fortune Business Insights, Precedence Research via search snippets); NHI market: $9.45B in 2024, projected $18.71B by 2030 at 11.9% CAGR (MarketsandMarkets via search snippet); Agentic AI market: $7.55B in 2025, projected $199B by 2034 at 43.8% CAGR (Precedence Research via search snippet) |
+| SAM | No public data found |
+| Traction | 18 upvotes (YC Launch page); ~47 Twitter followers (X.com, Oct 2025); launch + demo videos on YouTube |
 | Revenue Signal | No public data found |
-| Founders | Paulina Xu (Co-Founder): MIT AI+Physics, ML research at MIT Kavli/Haystack/INAF Padua, dropped out at 19. Matthew Xu (Co-Founder & CSO): MIT AI+Math, research at MIT CSAIL and FutureTech Lab, dropped out before 2nd year. |
-| Competitors | Oasis Security ($75M raised, revenue unknown, broader NHI management vs. employee-scoped agent permissions); Astrix Security ($85M raised, revenue unknown, NHI security for API keys/secrets vs. human-agent-tool permission chain); SGNL ($42M raised, acquired by CrowdStrike for $740M, broader identity governance vs. agent-specific); WorkOS ($199M raised, $30M ARR, developer-facing auth API vs. admin-facing agent control plane); Okta (public, ~$2.5B revenue, Auth for GenAI and XAA as add-on features vs. purpose-built) |
-| Moat Signals | No public data found |
-| Risk Factors | Incumbent convergence from Okta (Auth for GenAI already GA), heavily capitalized competitors ($200M+ in NHI/agent security funding), no disclosed customers or traction |
-| Founder Reach | Paulina Xu: Twitter not found, LinkedIn profile exists (connection count not retrievable), GitHub not found. Matthew Xu: Twitter not found, LinkedIn profile exists (connection count not retrievable), GitHub not found. Company: Twitter @agenticfabriq (follower count not retrievable) |
-| Distribution Signals | YC F25 batch membership; YC LinkedIn launch post (188 likes, 43 comments, Nov 2025); Menlo Times YC roundup feature. No Product Hunt listing, app store presence, or Chrome extension found. |
+| Founders | Paulina Xu (Co-founder): MIT CS+Physics, ML research at MIT Kavli/Haystack/INAF Padua. Matthew Xu (Co-founder): MIT AI+Math, research at MIT FutureTech/CSAIL. Both MIT dropouts. |
+| Competitors | Arcade.dev ($12M seed, revenue unknown, action-level agent auth by ex-Okta exec), Composio ($29M total, revenue unknown, broad agent platform with 500+ integrations), OASIS Security ($75M total, revenue unknown, NHI management for cloud infra), Opti ($20M seed, revenue unknown, AI-native enterprise IAM), SailPoint (public, agent identity as feature extension of IAM suite) |
+| Moat Signals | No public data found. Potential integration lock-in and policy complexity switching costs could develop. |
+| Risk Factors | Well-funded direct competitors (Arcade $12M, Composio $29M, OASIS $75M, Opti $20M), incumbent entry (SailPoint, Okta, Microsoft), first-time founders, brand confusion with multiple "Fabriq" entities |
+| Founder Reach | Paulina Xu: no personal Twitter found, LinkedIn profile exists; Matthew Xu: no personal Twitter found, LinkedIn profile exists; Company Twitter @agenticfabriq: ~47 followers |
+| Distribution Signals | No public data found beyond YC Launch page (18 upvotes) and company Twitter (~47 followers) |
+| Emails | founders@agenticfabriq.com |

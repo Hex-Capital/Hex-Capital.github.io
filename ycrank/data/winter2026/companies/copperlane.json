@@ -6,58 +6,60 @@
     "website": "https://www.copperlane.ai",
     "yc_page": "https://www.ycombinator.com/companies/copperlane",
     "batch": "Winter 2026",
-    "industry": "B2B / B2B -> Infrastructure",
+    "industry": "B2B / B2B -> Finance and Accounting",
     "team_size": "2",
     "location": "San Francisco, CA (copperlane.ai)",
-    "tags": "Fintech, AI"
+    "tags": "Artificial Intelligence, Fintech",
+    "yc_partner": "Harshita Arora; Ankit Gupta also listed as backing partner (Brianna Lin LinkedIn post, Mar 2026)",
+    "emails": "founders@copperlane.ai"
   },
   "tags": [
-    "Fintech",
-    "AI"
+    "Artificial Intelligence",
+    "Fintech"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-24T23:26:58.345Z",
+  "memoGeneratedAt": "2026-03-09T16:28:36.101Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 28,
+      "score": 43,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 36,
-      "tier": "Pass"
+      "score": 55,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 37,
-      "tier": "Pass"
+      "score": 48,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 36,
-      "tier": "Pass"
+      "score": 63,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 26,
+      "score": 36,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 24,
+      "score": 29,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 37,
+      "score": 44,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 28,
-    "EG": 36,
-    "NR": 37,
-    "PG": 36,
-    "PT": 26,
-    "SL": 24,
-    "VK": 37
+    "CB": 43,
+    "EG": 55,
+    "NR": 48,
+    "PG": 63,
+    "PT": 36,
+    "SL": 29,
+    "VK": 44
   },
-  "consolidatedAvg": 32,
-  "consolidatedRank": 175,
+  "consolidatedAvg": 45.43,
+  "consolidatedRank": 55,
   "paths": {
     "memo": "winter2026/memos/copperlane.md",
     "evals": {

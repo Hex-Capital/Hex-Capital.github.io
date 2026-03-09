@@ -11,105 +11,103 @@
 | Team Size | 4 |
 | Location | San Francisco, CA, USA; Remote |
 | Tags | Education |
+| YC Partner | Jared Friedman |
+| Emails | mostafatafr@gmail.com (founder personal email, mostafaafr.com) |
 
 ## The Idea
 
-**Problem:** Language learners face a gap between structured study (apps like Duolingo) and real-world immersion, which is widely considered the most effective acquisition method. Gen-Z users spend 2.5–3 hours per day doomscrolling short-form video (YC company description). Existing language apps rely on gamified drills that feel obligatory, while native-language content on TikTok and Instagram is not calibrated to learner proficiency levels, making real immersion inaccessible without travel or formal programs.
+**Problem:** Language immersion—consuming native content at one's level—is widely considered the most effective method for language acquisition, but existing immersion tools require deliberate effort and dedicated study time. Gen-Z users spend 2.5–3 hours per day doomscrolling short-form video (company claim, YC description), representing a large block of passive screen time that is not currently directed toward learning. Existing language-learning apps like Duolingo use gamified drills rather than authentic native content, while video-based platforms like Lingopie focus on long-form TV shows that require more active commitment.
 
-**Approach:** Doomersion delivers a feed of short-form videos (sourced from TikTok-style content) in the user's target language, algorithmically matched to their current proficiency level. As the user scrolls, video difficulty increases incrementally. The mechanism replicates the addictive UX of doomscrolling while embedding comprehensible input — a methodology rooted in Dr. Stephen Krashen's language acquisition research. The app is available on iOS and Android (App Store, id6753957215; Google Play, com.mostafaafr.doomlingo). Features as of version 1.04 include text scanning, transcript display, and video inquiry options (App Store version history).
+**Approach:** Doomersion serves a TikTok-style vertical feed of short-form videos in the user's target language, algorithmically matched to their current proficiency level. As the user scrolls, video difficulty increases incrementally. The mechanism converts passive scrolling behavior into comprehensible input—a language acquisition concept where learners absorb language from content slightly above their current level. The app is available on iOS and Android (App Store, Google Play).
 
-**Differentiation:** Unlike Duolingo (structured drills, gamification streaks), Doomersion uses native short-form video content as the primary learning medium. Unlike Lingopie (TV shows and movies), Doomersion uses short-form clips matched to proficiency via algorithm rather than full episodes. Unlike Parrot (YC F25), which generates its own scripted short-form videos for Spanish learning, Doomersion curates existing viral videos across multiple languages. The founder's stated thesis is that immersion via existing viral content — rather than purpose-made educational content — creates higher engagement because the content was already proven entertaining (YC company description).
+**Differentiation:** Unlike Duolingo (gamified drills, 500M+ users) or Babbel (structured grammar courses), Doomersion uses real short-form video content from native speakers rather than constructed exercises. Unlike Lingopie (TV shows and movies with dual subtitles, subscription at $6.99–$13.99/month), Doomersion targets the short-form scrolling habit specifically, matching the attention patterns of Gen-Z users. Unlike Memrise (which uses short video clips within flashcard-based spaced repetition), Doomersion's entire interface is a continuous video feed designed to mirror TikTok usage patterns. Unlike Praktika ($38M raised; TechCrunch, May 2024 via search snippet), which uses AI-generated avatar tutors for conversation practice, Doomersion focuses on passive comprehension through authentic video content.
 
-**Business Model:** The app is listed as free on both app stores with no in-app purchases visible (App Store listing, Feb 2026). No pricing page or subscription tiers are publicly listed on the website. [Inferred]: Most likely monetization path is a freemium model with a premium subscription tier (unlimited scrolling, additional languages, offline access), consistent with language learning app norms and the founder's prior work on Langmates.ai, which used a subscription model (Fisher Wharton M&T profile).
+**Business Model:** The app is free to download with no in-app purchases listed on the App Store or Google Play (App Store listing; AppstoreSpy). A LinkedIn post by founder Mostafa Afr (February 25, 2026) references a "SuperMax premium subscription," indicating a freemium model is planned or in early rollout. No public pricing page was found. [Inferred]: Most likely monetization path is a tiered subscription model (free with limited content, premium for unlimited/advanced features), consistent with the language-learning app category.
 
-**TAM/SAM:** The global language learning apps market was valued at $6.34 billion in 2024 and is projected to reach $24.39 billion by 2033 (Straits Research via search snippet). The broader online language learning market was estimated at $22.1 billion in 2024, growing at 16.6% CAGR to $54.8 billion by 2030 (Grand View Research via search snippet). SAM: No public data found for the specific segment of short-form video-based immersion language learning.
+**TAM/SAM:** The global language learning market was estimated at $85.1 billion in 2025, projected to reach $649 billion by 2035 at a 22.9% CAGR (Global Market Insights, 2025 via search snippet). Mordor Intelligence estimated $83.65 billion for 2025 (via search snippet). No SAM estimate specific to short-form video-based language learning was found. [Inferred]: The serviceable market would be a subset focused on mobile app-based language learning among Gen-Z demographics in English-speaking markets.
 
-**GTM / Distribution:** The founder claims 65k+ social media followers (YC profile bio), and operates a YouTube channel (MostafaDoesStuff) with 10,000+ subscribers (Fisher Wharton M&T profile; RocketReach via search snippet). The founder previously authored a top-upvoted post on r/LearnJapanese (Fisher Wharton M&T profile). [Inferred]: Primary distribution path is organic social media and language-learning community seeding (Reddit, TikTok), leveraging the founder's existing audience and viral short-form video format that lends itself to shareability.
+**GTM / Distribution:** The app launched on January 28, 2026, and gained ~15,000 downloads in the first two weeks (YC company description). Distribution appears organic: the founder has 65k+ social media followers (YC page) and runs a YouTube channel "MostafaDoesStuff" with 10k+ subscribers (Penn M&T profile). The LinkedIn announcement post received 343 likes and 64 comments (LinkedIn, February 25, 2026). [Inferred]: Primary distribution path is social media virality and word-of-mouth among Gen-Z language learners, leveraging the founder's existing audience and the app's inherently shareable doomscrolling format.
 
 ## Defensibility
 
-**Data moat potential:** As users interact with the video feed, Doomersion accumulates data on which content types and difficulty levels drive engagement and learning outcomes at each proficiency stage. [Inferred]: Over time, this creates a content-proficiency matching dataset that would be difficult for new entrants to replicate without similar user volume. However, this moat is nascent at current scale.
+**Data moat (potential):** As users scroll and engage with content, the app accumulates data on which videos at which difficulty levels drive engagement and learning outcomes for specific proficiency levels. This content-difficulty mapping could become a compounding advantage over time. No evidence of proprietary content creation was found—the app appears to surface existing TikTok-style content.
 
-**Content curation advantage:** The algorithm for matching existing viral videos to learner proficiency levels represents a proprietary curation layer. [Inferred]: Competitors would need to build their own content classification pipeline, but the underlying videos are publicly available, limiting the exclusivity of the content itself.
+**Behavioral lock-in:** Power users spend 3+ hours daily on the app (YC company description), which suggests habit formation. If the app's recommendation algorithm improves with individual usage data, switching costs increase as the personalization becomes harder to replicate elsewhere.
 
-**Market structure:** Duolingo's $14B+ valuation rests on structured, gamified drill-based learning. Pivoting to a doomscroll-style feed of third-party short-form videos would cannibalize Duolingo's core engagement loop (streak-based retention) and require licensing or sourcing content at scale — a fundamentally different content strategy. However, TikTok or YouTube could add language-learning overlays to their existing video libraries with minimal structural friction.
+**No defensibility signals found in public sources regarding patents, proprietary technology, or exclusive content licensing.** [Inferred]: Potential moat could develop via the content-level matching algorithm and engagement data, but is unproven at this stage.
 
-**Commoditization risk:** The core UX pattern (scrollable video feed + subtitles + difficulty progression) is technically reproducible. Parrot (YC F25) already occupies adjacent territory. Any short-form video platform could add proficiency-matched subtitles as a feature. The primary barrier is the quality of the content-to-proficiency matching algorithm and accumulated user engagement data.
+**Market structure:** Duolingo, the dominant incumbent ($1.04B revenue in 2025; Duolingo Q4 2025 earnings), is built around structured lesson sequences and gamification streaks. Shifting to an unstructured short-form video feed would cannibalize its core engagement loop (streaks, XP, leaderboards) and potentially reduce the measurable "lessons completed" metrics that drive its subscription conversion. TikTok itself could add language-learning features, but its recommendation algorithm optimizes for entertainment engagement, not pedagogical progression—retraining for difficulty-graded content delivery would conflict with its core engagement optimization. [Inferred]: The structural barrier is that incumbents' engagement models are built around different interaction paradigms that would require fundamental product changes to replicate this approach.
+
+**Commoditization risk:** The core concept—a short-form video feed graded by difficulty—is technically reproducible. Any team with access to a corpus of short-form videos and a language-difficulty classifier could build a similar product. The video content itself appears to be sourced from existing platforms rather than proprietary. The primary barriers to replication are execution speed and the quality of the content-level matching algorithm.
 
 ## Market & Traction
 
 **Traction signals:**
-- ~15,000 downloads in first two weeks (YC company description)
-- Power users spending 3+ hours daily on the app (YC company description)
-- iOS App Store: 4.1/5 stars, 28 ratings (App Store listing, Feb 2026)
-- Google Play: ~1,800 downloads (AppstoreSpy via search snippet, Feb 2026)
-- iOS initial release: January 28, 2026; most recent update: version 1.04, ~Feb 22, 2026 (App Store version history)
-- Google Play listing available approximately 1 week as of early Feb 2026 (AppstoreSpy via search snippet)
-- Founder claims 65k+ social media followers across platforms (YC profile bio)
-- YouTube channel (MostafaDoesStuff): 10,000+ subscribers (Fisher Wharton M&T profile)
-- Twitter/X: @IcyBreloom — follower count not retrievable due to JavaScript rendering
-- LinkedIn company page: Not found
-- Discord/Slack community: Not found
-- Product Hunt launch: Not found
+- ~15,000 downloads in first two weeks post-launch (YC company description, January–February 2026)
+- Power users spending 3+ hours daily (YC company description)
+- iOS App Store: 4.0/5 stars, 30 ratings (App Store listing, as of March 2026)
+- Google Play: 4.3/5 stars, 115 rating votes, 22 reviews, 5,000+ installs (AppstoreSpy, March 2026)
+- App released January 28, 2026; latest version 1.0.4, updated February 21–22, 2026 (AppstoreSpy; App Store)
+- Founder LinkedIn post announcing YC W26: 343 likes, 64 comments (LinkedIn, February 25, 2026)
+- No Product Hunt launch found
 - No press coverage in named publications found
-- YC Partner: Jared Friedman (YC company page)
+- Company Twitter/X account: not found
+- Company LinkedIn page: not found
+- Discord/Slack community: not found
+- No active job postings (YC page lists 0 open positions)
 
 **Competitive landscape:**
 
-| Competitor | Key Differentiator vs. Doomersion | Funding | Revenue/ARR |
+| Competitor | Funding | Revenue/Scale | Differentiator vs. Doomersion |
 |---|---|---|---|
-| Duolingo | Gamified structured drills with streak-based retention; 60% market share; not video-based immersion | Public (IPO 2021) | $748M (2024, Business of Apps via search snippet) |
-| Parrot (YC F25) | Creates its own scripted short-form videos; Spanish-only at launch; comprehensible input methodology | Pre-seed (YC) | Revenue unknown |
-| Memrise | Spaced repetition flashcards + native speaker video clips; broader feature set | $25.3M total (Crunchbase via search snippet) | ~$13.3M (2024, Business of Apps via search snippet) |
-| Lingopie | Full-length TV shows and movies rather than short-form clips; 12 languages | Seed (Entrée Capital, MassChallenge) | ~$25–50M (Growjo estimate via search snippet) |
-| Busuu | AI-powered conversations + native speaker feedback; acquired by Chegg ($436M) | $30.2M total pre-acquisition (Crunchbase via search snippet) | $45M (2024, Business of Apps via search snippet) |
+| **Duolingo** | Public (IPO 2021) | $1.04B revenue FY2025, 52.7M DAU Q4 2025 (Duolingo Q4 2025 earnings) | Gamified structured lessons with streaks/XP; not video-based immersion |
+| **Praktika** | $38M total ($35.5M Series A led by Blossom Capital; TechCrunch, May 2024 via search snippet) | $20M revenue 2025, 14M downloads (Getlatka, 2025 via search snippet) | AI-powered video avatar conversation practice; active speaking, not passive immersion |
+| **Memrise** | $25.3M total (last round $16M in June 2018; TechCrunch, 2018 via search snippet) | ~$13.3M revenue 2024 (declining), 72M registered users (DevTechnoSys, 2025 via search snippet) | Short video clips of native speakers within flashcard/SRS framework; structured rather than feed-based |
+| **Lingopie** | ~$10K (accelerator stage; Crunchbase via search snippet) | Revenue unknown; subscription $6.99–$13.99/month (Lingopie website via search snippet) | Long-form TV shows and movies with dual subtitles; lean-back viewing vs. scrolling |
 
-**Why now:** [Inferred]: Several converging factors: (1) Gen-Z's habitual doomscrolling behavior (2.5–3 hrs/day per company claim) has created a behavioral substrate that did not exist at this scale 5 years ago; (2) advances in speech-to-text, NLP, and content classification via large language models now make automated proficiency-matching of video content technically feasible at low cost; (3) short-form video platforms (TikTok, Reels, Shorts) have generated an enormous corpus of freely available native-language content across many languages, providing the raw material for the product.
+**Why now:** [Inferred]: Several converging factors opened this opportunity: (1) TikTok normalized short-form vertical video as a dominant content consumption pattern, training an entire generation in the scrolling behavior Doomersion repurposes; (2) advances in speech recognition and NLP models made automated language-level classification of video content more feasible and affordable; (3) Gen-Z's self-reported desire for productive screen time creates demand for "guilt-free scrolling" products that combine entertainment with learning.
 
 ## Founders & Team
 
 **Mostafa Afr** — Founder
-- University of Pennsylvania, Jerome Fisher M&T Program (M&T '25): pursuing M.S. Mechanical Engineering, B.S.E. Electrical Engineering, B.S. Entrepreneurship (Fisher Wharton M&T profile)
-- Self-taught Japanese via YouTube and apps over 6 years; authored the highest-upvoted resource on r/LearnJapanese for two consecutive years (Fisher Wharton M&T profile)
-- Prior ventures: Langmates.ai (AI-powered language learning conversation app, senior project turned startup); ChromaCord (RGB cable startup, funded by $5,000 M&T Entrepreneurship Award, summer 2023) (Fisher Wharton M&T profile; M&T Q&A page)
-- Founded Healing Helpers, a nonprofit providing translation services to Phoenix-area refugees, assisting 900+ people (personal website)
-- YouTube channel MostafaDoesStuff: 10,000+ subscribers, college admissions content (Fisher Wharton M&T profile)
-- Claims 65k+ followers across social platforms (YC profile bio)
-- Third-place finish at 2016 Pokémon Video Game World Championships (Fisher Wharton M&T profile)
-- Bilingual in English and Arabic; fluent in Japanese (Fisher Wharton M&T profile)
+- Education: University of Pennsylvania, Jerome Fisher Program in Management & Technology (M&T '25). MS Mechanical Engineering, BSE Electrical Engineering, BS Entrepreneurship. Expected graduation December 2025 (Penn M&T profile).
+- Prior ventures: Founded Langmates.ai (AI-powered language learning conversation app; received M&T Summer Entrepreneurship Award); founded MostafaDoesStuff YouTube channel (10k+ subscribers, college admissions content; YC page); founded Healing Helpers nonprofit serving Phoenix refugees through translation (900+ people assisted; mostafaafr.com).
+- Domain expertise: Native Arabic speaker; self-taught Japanese over 6+ years via YouTube immersion; authored the highest-rated post on r/LearnJapanese in a two-year span (YC page). 3rd place, 2016 Pokémon Video Game World Championships (YC page).
+- Social media: 65k+ followers across platforms (YC page).
 - Twitter/X: @IcyBreloom — follower count not retrievable
-- LinkedIn: linkedin.com/in/mostafa-afr-3b4012252/ — headline: "Penn M&T | EE + Wharton | Founder of MostafaDoesStuff | Equitable Excellence Scholar"
-- GitHub: github.com/Mostafaafr — repo details and star counts not retrieved
+- LinkedIn: linkedin.com/in/mostafa-afr-3b4012252/ — headline: "Penn M&T│EE + Wharton│Founder of MostafaDoesStuff│Equitable Excellence Scholar"
+- GitHub: github.com/Mostafaafr — small projects (eBayChecker, BasisAttendance); no repos with significant star counts
 
-The YC page lists only Mostafa Afr as founder despite a team size of 4. No other team members' names were found in public sources.
+The YC page lists only Mostafa Afr as the named founder. The company data indicates a team size of 4, but the remaining three team members are not publicly identified.
 
-**Co-founder relationship:** Only one founder is publicly identified. No public data on co-founder history.
+**Co-founder relationship:** No public data on co-founder history (only one founder is named publicly).
 
-**Founder-market fit:** Mostafa Afr's personal experience self-teaching Japanese over 6 years, combined with his record of creating the top-upvoted resource on r/LearnJapanese and prior work building Langmates.ai, provides direct domain experience in both language acquisition and language learning product development. His engineering and Wharton entrepreneurship education at Penn M&T provides a technical and business foundation. His social media following (claimed 65k+) offers an initial distribution channel for a consumer app targeting the Gen-Z demographic.
+**Founder-market fit:** Mostafa Afr's documented personal experience—six years of self-teaching Japanese through YouTube immersion, fluency in Arabic, and a viral Reddit guide on Japanese learning—directly maps to the problem Doomersion solves. His prior startup Langmates.ai was also in AI-powered language learning, indicating sustained focus on the domain. His 65k+ social media following and YouTube channel provide a built-in distribution channel for launch.
 
 ## Key Risks
 
-**Platform dependency for content:** Doomersion relies on short-form videos sourced from platforms like TikTok. Changes to TikTok's API, content policies, or availability (including ongoing U.S. regulatory proceedings around a potential TikTok ban) could disrupt the content supply pipeline. No public information was found about content licensing agreements or alternative sourcing strategies.
+**Content sourcing and licensing:** The app appears to surface existing short-form video content (TikToks) in a custom feed. This creates dependency on content platforms' terms of service and API access. If TikTok or other platforms restrict video embedding or scraping, the content pipeline could be disrupted. No evidence of proprietary content creation or licensing agreements was found.
 
-**Direct competition from Parrot (YC F25):** Parrot, also a YC-backed startup, occupies nearly identical positioning ("TikTok for language learning") and launched one batch earlier (Fall 2025). Both companies target the same user behavior and acquisition methodology. Parrot's head start by one YC batch creates a risk of market narrative preemption.
+**Pedagogical efficacy validation:** User reviews on the App Store report issues including captions out of sync, slow loading, limited content variety, and occasional language misidentification (App Store reviews, February 2026). The core premise—that passive scrolling produces measurable language gains—is not yet validated by any published study or structured user outcome data. If retention drops as novelty fades without demonstrated learning outcomes, the engagement thesis may not hold.
 
-**Incumbents adding video immersion features:** Duolingo launched video-based features in prior product iterations, and its scale (60% of language app activity, $748M revenue in 2024) gives it the resources to add a short-form video feed. Memrise already uses native speaker video clips. The core UX innovation (scrolling video + proficiency matching) is replicable without deep technical barriers.
+**Single named founder with team opacity:** Only one founder (Mostafa Afr) is publicly identified despite a stated team size of 4. This limits the investment committee's ability to evaluate team composition, technical depth, and co-founder dynamics. Mostafa's background is in electrical engineering and entrepreneurship rather than machine learning or NLP, which are core to the content-difficulty matching algorithm.
 
-**Single identified founder with early-career profile:** While Mostafa Afr demonstrates strong domain fit, the YC page lists only one founder for a team of four, with no public information on other team members' backgrounds, roles, or equity structure. This creates opacity around team composition and retention risk.
+**Dominant incumbent response:** Duolingo added AI conversation practice and video features in 2025 (Duolingo shareholder letter, Q3 2025 via search snippet). If Duolingo introduces a short-form video feed mode, its 52.7M daily active users and established brand could rapidly absorb this niche. TikTok itself could add language-learning filters or partnerships.
 
-**Monetization uncertainty:** The app is currently free with no visible pricing or in-app purchases. No revenue model has been publicly announced. Converting doomscrolling users — who are accustomed to free content — into paying subscribers is an unproven conversion path for this specific format.
+**Brand confusion:** The app name was changed from "Doomlingo" (phonetically close to "Duolingo") to "Doomersion." The Android package ID still reads "com.mostafaafr.doomlingo" (Google Play listing), and the alternate domain is doomlingo.ai. This history may create trademark risk or brand confusion with Duolingo.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $6.34B language learning apps market in 2024, projected $24.39B by 2033 (Straits Research via search snippet); broader online language learning market $22.1B in 2024, 16.6% CAGR (Grand View Research via search snippet) |
-| SAM | No public data found |
-| Traction | ~15K downloads in first two weeks (YC company description); power users 3+ hrs/day (YC company description); 4.1/5 stars, 28 ratings on iOS (App Store, Feb 2026); ~1.8K Google Play downloads (AppstoreSpy via search snippet) |
-| Revenue Signal | No public data found. App listed as free, no in-app purchases visible. |
-| Founders | Mostafa Afr (Founder): Penn M&T '25 (EE + Wharton), self-taught Japanese, prior venture Langmates.ai, 65k+ claimed social followers. Three additional team members unnamed. |
-| Competitors | Duolingo (public, $748M revenue 2024, gamified drills vs. video immersion); Parrot (YC F25, pre-seed, scripted short-form video vs. curated viral content); Memrise ($25.3M raised, $13.3M revenue 2024, flashcard-centric vs. pure video feed); Lingopie (seed, $25–50M est. revenue, full-length shows vs. short-form clips); Busuu ($30.2M raised, $45M revenue 2024, AI conversations vs. video immersion) |
-| Moat Signals | No public data found. [Inferred]: Potential moat via content-to-proficiency matching dataset as user base scales. |
-| Risk Factors | Content platform dependency (TikTok sourcing risk), direct YC competitor Parrot (F25), monetization model unproven |
-| Founder Reach | Mostafa Afr: Twitter @IcyBreloom (count not retrievable), LinkedIn 500+ connections, YouTube 10K+ subscribers, GitHub github.com/Mostafaafr (stats not retrieved), 65k+ claimed total social followers (YC bio) |
-| Distribution Signals | ~15K downloads in first two weeks (YC company description); founder's 65k+ claimed social following (YC bio); r/LearnJapanese top-upvoted post history (Fisher Wharton M&T profile); no Product Hunt launch found |
+| TAM | $85.1B global language learning market in 2025, 22.9% CAGR to $649B by 2035 (Global Market Insights via search snippet) |
+| SAM | No public data found for short-form video language learning sub-segment |
+| Traction | ~15K downloads in first two weeks (YC description, Jan–Feb 2026); iOS: 4.0/5, 30 ratings (App Store); Android: 4.3/5, 115 votes, 5K+ installs (AppstoreSpy, Mar 2026); power users 3+ hrs/day (YC description) |
+| Revenue Signal | "SuperMax premium subscription" mentioned (LinkedIn post, Feb 25 2026); app currently free with no listed in-app purchases (App Store; AppstoreSpy) |
+| Founders | Mostafa Afr (Founder): Penn M&T '25 (EE + Wharton), prior AI language learning startup (Langmates.ai), 65k+ social followers, 3rd place 2016 Pokémon World Championships. 3 additional team members not publicly identified. |
+| Competitors | Duolingo (public, $1.04B rev FY2025, gamified drills); Praktika ($38M raised, $20M rev 2025, AI avatar conversation); Memrise ($25.3M raised, ~$13.3M rev 2024, video+SRS flashcards); Lingopie (~$10K raised, revenue unknown, TV show immersion) |
+| Moat Signals | No public data found on patents, exclusive content, or proprietary technology. Potential data moat from user-level engagement patterns; 3+ hr/day usage suggests habit formation. |
+| Risk Factors | Content sourcing/licensing dependency, pedagogical efficacy unvalidated, dominant incumbent (Duolingo) expansion into video/AI features |
+| Founder Reach | Mostafa Afr: 65k+ social media followers (YC page); Twitter @IcyBreloom (count not retrievable); YouTube MostafaDoesStuff 10k+ subscribers (Penn M&T profile); LinkedIn 343 likes on YC announcement post |
+| Distribution Signals | ~15K organic downloads in first 2 weeks (YC description); no Product Hunt launch found; no press coverage found; LinkedIn YC announcement 343 likes/64 comments (Feb 25, 2026) |
+| Emails | mostafatafr@gmail.com (founder personal, mostafaafr.com) |

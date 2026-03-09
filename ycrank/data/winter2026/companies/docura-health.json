@@ -9,7 +9,9 @@
     "industry": "Healthcare / Healthcare",
     "team_size": "1",
     "location": "San Francisco, CA, USA",
-    "tags": "Health Tech, Legal, Insurance"
+    "tags": "Health Tech, Legal, Insurance",
+    "yc_partner": "Diana Hu",
+    "emails": "a\\*\\*\\*@docurahealth.com (partial, via ZoomInfo); no public business email listed on website"
   },
   "tags": [
     "Health Tech",
@@ -17,48 +19,48 @@
     "Insurance"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-24T23:30:35.975Z",
+  "memoGeneratedAt": "2026-03-09T16:31:12.989Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 30,
+      "score": 34,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 37,
+      "score": 41,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 35,
+      "score": 34,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 43,
-      "tier": "Pass"
+      "score": 49,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 31,
+      "score": 35,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 22,
-      "tier": "Pass"
+      "score": 25,
+      "tier": "Strong Pass"
     },
     "vinod-khosla": {
-      "score": 26,
+      "score": 34,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 30,
-    "EG": 37,
-    "NR": 35,
-    "PG": 43,
-    "PT": 31,
-    "SL": 22,
-    "VK": 26
+    "CB": 34,
+    "EG": 41,
+    "NR": 34,
+    "PG": 49,
+    "PT": 35,
+    "SL": 25,
+    "VK": 34
   },
-  "consolidatedAvg": 32,
-  "consolidatedRank": 176,
+  "consolidatedAvg": 36,
+  "consolidatedRank": 144,
   "paths": {
     "memo": "winter2026/memos/docura-health.md",
     "evals": {

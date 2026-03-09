@@ -1,6 +1,6 @@
 ﻿# Confluence Labs
 
-> We're an AI research lab focused on learning efficiency
+> foundation models optimized for learning efficiency
 
 | Field | Value |
 |-------|-------|
@@ -11,108 +11,101 @@
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
 | Tags | Artificial Intelligence, AI |
+| YC Partner | Diana Hu |
+| Emails | founders@confluence.sh |
 
 ## The Idea
 
-**Problem:** Modern AI systems require large volumes of data to perform well, but many high-value scientific and engineering domains—drug design, materials engineering, physics research—are inherently data-sparse because physical experiments are costly, slow, or dangerous. Researchers in these fields currently rely on manual experiment design heuristics, classical design-of-experiments methods, or brute-force high-throughput screening, all of which waste resources on low-information experiments. The customers are R&D teams at pharmaceutical companies, materials science labs, and academic research institutions.
+**Problem:** Modern AI performs well in data-rich domains but struggles where data is sparse or costly to collect — areas such as drug design, materials science, physics research, and hardware engineering. In these fields, running a single experiment can cost thousands to millions of dollars, and datasets may consist of only dozens to hundreds of examples. Current foundation models require large training datasets to generalize effectively, creating a bottleneck for scientific and engineering R&D. Existing approaches include traditional experimental design methods, Bayesian optimization, and brute-force simulation, all of which are slow and resource-intensive.
 
-**Approach:** Confluence Labs is building AI systems that (1) generate testable hypotheses and design maximally informative experiments in data-sparse domains, and (2) extract maximum learning from limited existing data via "data-efficient modeling" that combines LLMs with discrete program search (confluence.sh). Their public proof of capability is a solver for ARC-AGI-2—a benchmark testing AI's ability to solve novel reasoning tasks from just a few examples—where they achieved 97.9% accuracy on the public evaluation set at $11.77 per task (confluence.sh). The methodology relies on three principles: structuring problems to match LLM training data patterns, enabling extended reasoning so models build on prior work, and precisely defining solution criteria with measurable outcomes (confluence.sh).
+**Approach:** Confluence Labs combines large language models with program synthesis to solve novel reasoning tasks from minimal examples. Their system directs LLMs to write code that describes transformations represented by a problem, using a multi-agent architecture with consensus voting. The approach rests on three principles: (1) structuring problems to match LLM training data distributions, (2) enabling extended reasoning chains, and (3) establishing precise solution criteria with measurable feedback. They pursue two strategic angles — hypothesis generation (optimizing testable predictions to maximize experimental informativity) and data-efficient modeling (reducing data requirements for predictions) (confluence.sh; YC launch page).
 
-**Differentiation:** The ARC-AGI-2 benchmark result differentiates Confluence Labs as a demonstration of sample-efficient reasoning. Most frontier AI labs (OpenAI, Google DeepMind, Anthropic) have focused on scaling with large datasets; Confluence Labs' approach targets the inverse: domains where data cannot be easily scaled. Compared to Poetiq—which also achieved high ARC-AGI-2 scores using a "meta-system" layered on top of frontier LLMs (Poetiq blog, Jan 2026)—Confluence Labs claims a higher public eval score (97.9% vs. Poetiq's 75% on the public eval, though measured at different times and cost points). Compared to Citrine Informatics and Kebotix in the materials domain, Confluence Labs is domain-agnostic rather than materials-specific. Their solver is open-sourced under MIT license at github.com/confluence-labs/arc-agi-2 (GitHub).
+**Differentiation:** Confluence Labs' initial demonstration is their SOTA result on ARC-AGI-2, a benchmark testing the ability to solve novel reasoning tasks from just a few examples. Their solver achieved 97.9% on the public evaluation set at $11.77 per task (confluence.sh). By comparison, Imbue's code evolution method achieved 95.1% using Gemini 3.1 Pro at $8.71 per task (Imbue blog, Feb 27, 2026), and GPT-5.2 achieved approximately 53–54% as a standalone model (ARC Prize results analysis via search snippet). Confluence Labs' approach differs from large-model scaling strategies by focusing on learning efficiency — extracting maximum signal from minimal data — rather than training on ever-larger datasets.
 
-**Business Model:** No pricing page or commercial product is publicly listed on confluence.sh. The website solicits collaborators in hardware engineering, biology, materials science, and physics via founders@confluence.sh. [Inferred]: Most likely monetization path is enterprise SaaS or consulting engagements selling AI-driven experiment design to R&D organizations, potentially with per-experiment or platform-fee pricing, based on the B2B classification and the nature of the target customers.
+**Business Model:** No pricing page or revenue model is publicly available. [Inferred]: The most likely monetization path is either (a) an API/platform offering where scientific and engineering teams pay for experiment design and data-efficient modeling capabilities, or (b) licensing their foundation models to enterprises in pharma, materials science, and hardware engineering verticals.
 
-**TAM/SAM:** The AI in drug discovery market alone was estimated at $2.35 billion in 2025, projected to reach $13.77 billion by 2033 at 24.8% CAGR (Grand View Research, 2025 via search snippet). The global materials informatics market was valued at $305 million in 2025 and is projected to reach $3.42 billion by 2035, growing at a CAGR of 27.3% (Future Markets Inc., 2025 via search snippet). The broader "AI for science" market spans multiple verticals; no single consolidated TAM figure was found for Confluence Labs' cross-domain positioning. [Inferred]: The serviceable market is the subset of R&D teams in pharma, materials science, and adjacent fields that have costly experimentation workflows and could benefit from AI-driven experiment design—likely in the low single-digit billions.
+**TAM/SAM:** The global AI for scientific discovery market was valued at USD 4.80 billion in 2025 and is projected to reach USD 34.78 billion by 2035 at a CAGR of 21.9% (Precedence Research, 2025 via search snippet). Within this, the AI in drug discovery segment alone was valued at USD 2.35–4.6 billion in 2025 depending on the source, with projections ranging up to USD 160 billion by 2035 (GM Insights; Market.us; Towards Healthcare via search snippets). The materials science and chemistry discovery segment is projected to grow at the fastest CAGR within the broader scientific AI market (Market.us via search snippet). No company-specific SAM estimate is publicly available.
 
-**GTM / Distribution:** No public GTM data found. The website states the company is "looking for collaborators" in target verticals (confluence.sh). The YC launch post received 8 upvotes (YC Launches page). [Inferred]: Most likely distribution path is direct outreach to academic labs and enterprise R&D teams, leveraging the ARC-AGI-2 result as a credibility signal and building domain-specific partnerships, typical for deep-tech AI research labs at this stage.
+**GTM / Distribution:** The company states it is developing partnerships with researchers and engineers in hardware engineering, biology, materials science, and related fields (YC launch page). They have open-sourced their ARC-AGI-2 solver (github.com/confluence-labs/arc-agi-2), which serves as a credibility signal. [Inferred]: Most likely distribution path is direct outreach to research-intensive enterprises and academic labs, leveraging the ARC-AGI-2 benchmark result and Paul Graham's backing for credibility.
 
 ## Defensibility
 
-Confluence Labs' primary public defensibility signal is demonstrated technical capability: achieving 97.9% on ARC-AGI-2 at $11.77/task (confluence.sh), a benchmark where pure LLMs score 0% and the best commercial systems scored 37.6% at $2.20/task in the ARC Prize 2025 competition (ARC Prize 2025 Results). The open-sourced solver (73 stars, 6 forks on GitHub as of Feb 2026) establishes a technical reputation but does not constitute a proprietary moat.
+The company's primary defensibility signal at this stage is technical capability, demonstrated by their SOTA ARC-AGI-2 result at 97.9% (confluence.sh). The solver is open-sourced under an MIT license (GitHub), which means the specific implementation is replicable. Potential defensibility could develop via: (1) proprietary datasets and domain-specific fine-tuning accumulated through customer partnerships in data-sparse fields, (2) compounding improvements from the feedback loop between experiment design and model training, and (3) deep domain expertise and integration into specific scientific workflows. These moats are unproven at this stage.
 
-[Inferred]: Potential defensibility could develop via proprietary domain-specific datasets accumulated through client engagements (data flywheel), specialized fine-tuning for experiment design in specific verticals, and deep integration into customers' R&D workflows creating switching costs. However, none of these are proven at this stage.
+**Market structure:** Large AI labs (OpenAI, Google DeepMind, Anthropic) are primarily focused on scaling general-purpose models with massive datasets — an approach that is structurally misaligned with the data-sparse domain problem. Their business models and R&D incentives are oriented toward breadth and scale rather than sample efficiency for niche scientific domains. Pharma and materials incumbents (e.g., legacy CROs, simulation software vendors) lack the ML research depth to build competitive sample-efficient foundation models in-house. However, Google's Isomorphic Labs and similar well-funded AI-for-science efforts could pivot toward sample-efficient approaches.
 
-**Market structure:** No structural barrier identified at this stage. Large AI labs (Google DeepMind, OpenAI) and well-funded startups (Poetiq with $45.8M, Recursion Pharmaceuticals, CuspAI with $100M) could pursue similar approaches to sample-efficient reasoning and apply them to scientific domains. [Inferred]: One potential structural factor is that frontier AI labs are incentivized to pursue broad commercial applications with larger immediate revenue, making data-sparse scientific niches lower priority—but this is a prioritization argument, not a structural barrier.
-
-**Commoditization risk:** The open-sourcing of the ARC-AGI-2 solver means the specific methodology is publicly available. The core techniques—LLM-driven program synthesis, iterative refinement—are reproducible by any team with access to frontier LLMs. Poetiq has already demonstrated competitive ARC-AGI-2 performance with $45.8M in funding (PR Newswire, Jan 2026). Commoditization risk is elevated for the benchmark-solving capability itself; defensibility would need to come from domain-specific applications and accumulated expertise in translating the approach to real-world scientific experiment design.
+**Commoditization risk:** The ARC-AGI-2 benchmark is a fast-moving leaderboard — Imbue achieved 95.1% shortly after Confluence Labs' 97.9% result (Imbue blog, Feb 27, 2026). The underlying technique of using LLMs for program synthesis is accessible to well-funded AI labs. The open-sourcing of the solver further lowers the barrier to replication. Sustained differentiation will likely depend on domain-specific applications rather than benchmark performance alone.
 
 ## Market & Traction
 
 **Traction signals:**
-- ARC-AGI-2 public evaluation: 97.9% score at $11.77/task (confluence.sh, Feb 2026)
-- GitHub: 73 stars, 6 forks on confluence-labs/arc-agi-2 repo (GitHub, Feb 2026)
-- GitHub org: 5 followers, 1 public repository (GitHub, Feb 2026)
-- YC Launch post: 8 upvotes (YC Launches)
-- Stacker News post: 212 sats, 155 credits, 0 comments (stacker.news)
-- Twitter/X: Company account @_confluencelabs (count not retrievable); Brent Burdick's launch tweet at @BingBongBrent (engagement not retrievable due to JavaScript)
-- LinkedIn company page: No confirmed company page found for this specific entity (multiple unrelated "Confluence" companies dominate results)
-- Product Hunt: No launch found
-- Discord/Slack community: No public data found
-- Revenue: No public data found
-- Paying customers: No public data found
+- SOTA on ARC-AGI-2 public evaluation: 97.9% at $11.77 per task (confluence.sh, Feb 2026)
+- Open-source ARC-AGI-2 solver: 94 stars, 11 forks on GitHub, created Feb 23, 2026 (GitHub)
+- Company Twitter/X: @_confluencelabs, 291 followers (X.com via search snippet, as of ~Mar 2026)
+- Backed by Y Combinator (W26) and Paul Graham (confluence.sh)
+- LinkedIn company page: A "Confluence AI" page exists on LinkedIn but appears to be for a different company (IoT UVC sensors); no confirmed LinkedIn page for Confluence Labs found
+- No Product Hunt launch found
+- No public revenue, customer, or user data found
+- No Discord/Slack community found
+- No job postings found beyond the two founders
 
 **Competitive landscape:**
 
-1. **Poetiq** ($45.8M seed raised, Jan 2026; revenue unknown): LLM meta-system that pairs with any frontier LLM to improve reasoning, achieving 75% on ARC-AGI-2 public eval using GPT-5.2. Founded by former Google DeepMind researchers. Differentiator vs. Confluence Labs: Poetiq focuses on enhancing general LLM reasoning rather than scientific experiment design specifically; it is better funded and has a broader product scope (PR Newswire, Jan 2026 via search snippet).
+| Competitor | Funding | Differentiator vs. Confluence Labs |
+|---|---|---|
+| **Imbue** | $232M total ($200M Series A, $12M Series B) (TechCrunch, Sep 2023 via search snippet) | Focuses on AI reasoning and coding agents broadly; achieved 95.1% on ARC-AGI-2 using code evolution at $8.71/task (Imbue blog, Feb 2026). Operates at much larger scale (~10K H100 cluster). Revenue unknown. |
+| **Isomorphic Labs** (Google/DeepMind spinoff) | $600M first external round (Pharmaceutical Technology via search snippet, 2025) | Applies AI specifically to drug discovery with AlphaFold lineage; backed by Google. Revenue not yet material — meaningful drug discovery revenue expected ~2027+. |
+| **Recursion Pharmaceuticals** (merged with Exscientia) | Public company; $1.5B Bayer partnership (Pharmaceutical Technology via search snippet) | End-to-end AI drug discovery platform combining phenomic screening with automated chemistry. Revenue from partnerships; drug candidates in mid-stage trials. |
+| **Insilico Medicine** | $110M Series E (PharmaVoice via search snippet, 2025) | AI drug discovery with lead candidate (rentosertib) clearing Phase 2a (PharmaVoice via search snippet). More clinically advanced than Confluence Labs. |
 
-2. **Citrine Informatics** (total funding undisclosed publicly; revenue unknown): Generative AI platform for materials science data management and virtual experimentation, founded 2013. Strategic partnership with BASF. Differentiator vs. Confluence Labs: Citrine is materials-domain-specific with an established enterprise customer base and 12+ years of domain data accumulation, while Confluence Labs is domain-agnostic and pre-product (CB Insights via search snippet).
+Note: Imbue is the closest competitor in terms of core technical approach (program synthesis / code evolution for reasoning). The pharma/science companies above are competitors in the application domain rather than the foundational technology layer.
 
-3. **Kebotix** ($23.87M total funding; revenue unknown): Closed-loop AI + robotics platform for molecular materials discovery, combining AI-driven suggestion with physical robotic synthesis. Partnership with LG Chem. Differentiator vs. Confluence Labs: Kebotix integrates physical robotic experimentation, not just computational experiment design (CB Insights via search snippet).
-
-4. **Recursion Pharmaceuticals** (public company, merged with Exscientia in early 2025; >$1B in milestone commitments): Conducts millions of biological experiments weekly with automated labs. Differentiator vs. Confluence Labs: Recursion operates at massive scale with proprietary biological datasets and physical lab infrastructure, far beyond computational experiment design (ScienceDirect, 2025 via search snippet).
-
-5. **CuspAI** ($100M Series A, Sep 2025; revenue unknown): AI-powered "search engine for molecules" backed by NEA, Temasek, NVentures. Differentiator vs. Confluence Labs: CuspAI focuses specifically on molecular discovery with domain-specific generative models, while Confluence Labs positions as domain-agnostic (Fortune, Sep 2025 via search snippet).
-
-**Why now:** [Inferred]: Several converging factors create the opening. First, frontier LLM capabilities crossed a threshold in 2024-2025 where program synthesis became viable for complex reasoning tasks—evidenced by the jump from single-digit ARC-AGI-2 scores to near-saturation within approximately one year. Second, the cost of frontier LLM inference has dropped substantially, making compute-intensive experiment design economically viable at $11.77/task rather than hundreds of dollars. Third, the broader "AI for science" investment wave (Lila Sciences: $200M seed, Periodic Labs: $300M, CuspAI: $100M Series A, all in 2025) signals institutional readiness to fund AI applications in data-sparse R&D domains. Fourth, open-source LLMs and APIs have lowered the barrier for small teams to build on frontier model capabilities.
+**Why now:** ARC-AGI-2 was released in early 2025 as a successor to ARC-AGI-1, establishing a new benchmark for few-shot reasoning capability (ARC Prize). Between January and March 2026, scores on ARC-AGI-2 rose dramatically — from GPT-5.2's ~54% to multiple approaches exceeding 95% (ARC Prize results; Adaline Labs via search snippet). [Inferred]: The rapid improvement in LLM-driven program synthesis and code generation capability has created a window where sample-efficient reasoning approaches become practically viable for scientific domains. The rising cost of physical experiments in biology, materials science, and hardware engineering further increases demand for AI systems that can learn from minimal data.
 
 ## Founders & Team
 
-**Brent Burdick** — Co-founder
-- Self-described "college dropout and self-taught engineer and researcher" (YC page)
-- Left college in 2022 to teach himself to code; has since helped build MVPs and full-stack architectures for 6+ startups (brent.engineering)
-- Education: Attended University of North Carolina at Chapel Hill (LinkedIn via search snippet)
-- Prior projects: Rift by Morph (open-source AI pair programming VSCode extension), Prompt Smoothie (LLM optimization tool), Atlas (in-browser IDE), various language learning apps (brent.engineering)
-- Twitter/X: @BingBongBrent (count not retrievable due to JavaScript)
-- LinkedIn: linkedin.com/in/brent-burdick/ — Self-employed, San Francisco Bay Area, 224 connections (LinkedIn via search snippet)
-- GitHub: github.com/Brentably — 49 repos, 19 followers; top repo: simple-agent (3 stars) (GitHub)
-
 **Niranjan Baskaran** — Co-founder
-- YC profile tagline: "Training models by allowing knowledge to compound" (YC page)
-- Education: Vassar College ('27), Dartmouth College ('28), RSI 2021 participant (one of ~80 students selected globally), ISEF 2021/2022 participant, Atlas Fellow (LinkedIn via search snippet; CEE.org via search snippet)
-- At ISEF 2021, awarded Mu-Alpha-Theta National Math Honor Society Second Special Award ($1,000) for mathematics research (search snippet)
-- At RSI, selected as one of 10 students to give an Encore presentation (CEE.org via search snippet)
-- Research: Developed proof-of-concept JsPsych AI agent using RAG to produce working experiments from natural language prompts with Prof. Joshua de Leeuw; worked on metadata standards for behavioral experiments at Vassar (Vassar College via search snippet)
-- Twitter/X: No confirmed personal account found
-- LinkedIn: linkedin.com/in/niranjan-baskaran-a906a5205/ — Poughkeepsie, NY (LinkedIn)
-- GitHub: No confirmed personal account found
+- Education: Attended Vassar College (class of 2027) (Vassar College website); selected as one of 30 students worldwide for the Research Science Institute at MIT (search snippet). Prior search results reference dropping out of an Ivy League school (Columbia) to co-found a startup doing $5M ARR (LinkedIn profile snippet via search), though the specific prior startup is not named in available sources.
+- Research experience: Developed a proof-of-concept JsPsych AI agent using Retrieval Augmented Generation with Prof. Joshua de Leeuw at Vassar; contributed to jsPsych open-source project (GitHub contributors list); worked on humanoid robot design at Vassar (Vassar College website).
+- Twitter/X: @bankminer78 — follower count not retrievable
+- LinkedIn: linkedin.com/in/niranjan-baskaran-a906a5205 — headline: "Training models by allowing knowledge to compound" (YC page)
+- GitHub: github.com/Bankminer78 — 20 public repos, 3 followers. Pinned repos include "cortex" (Swift), "thirai" (Python), "Adinkra-Codes" (Jupyter Notebook). No individually high-starred personal repos (GitHub).
 
-**Co-founder relationship:** Both founders are listed as based in San Francisco. No shared prior employer or university overlap is visible from the data gathered—Burdick attended UNC Chapel Hill while Baskaran attended Vassar and Dartmouth. No public data on how they met.
+**Brent Burdick** — Co-founder
+- Education: Self-taught; left college in 2022 to teach himself how to code (brent.engineering). Self-described "college dropout and self-taught engineer and researcher" (YC page).
+- Prior work: Built Rift by Morph, an open-source AI pair programming LSP + VSCode extension at Morph Labs (brent.engineering); created multiple AI projects including Steering Vector Playground, Prompt Smoothie, and language learning apps (brent.engineering). Search results reference involvement with Adni (YC-backed healthcare startup, S25 batch), though his specific role is unclear from available sources.
+- Twitter/X: @BingBongBrent — follower count not retrievable
+- LinkedIn: linkedin.com/in/brent-burdick — headline: "Self-employed" (LinkedIn via search snippet)
+- GitHub: github.com/Brentably — 49 public repos, 20 followers. Top repo: "simple-agent" (3 stars) (GitHub).
 
-**Founder-market fit:** Baskaran's background in research methodology (RSI, ISEF, experimental psychology research at Vassar) and competitive mathematics aligns with the company's focus on experiment design and sample-efficient learning. Burdick's experience building full-stack software products across 6+ startups and open-source AI tools (Rift, Prompt Smoothie) provides the engineering capability to productize research. The combination of a research-oriented founder and a builder-oriented founder maps to the company's positioning as an AI research lab that ships usable tools. No advisors, board members, or notable individual investors have been publicly disclosed. Diana Hu is listed as the primary YC partner (YC page).
+**Co-founder relationship:** No shared employer or educational institution is visible from the available data. Niranjan's background is in research (Vassar, RSI/MIT), while Brent's is in self-taught software engineering and AI tooling. No public data on how they connected.
+
+**Founder-market fit:** Both founders have demonstrated ability in AI/ML systems despite non-traditional educational paths. Niranjan's research background (RSI at MIT, AI research at Vassar, and a prior startup reportedly reaching $5M ARR) provides exposure to scientific research workflows. Brent's extensive AI tooling and LLM manipulation experience (Rift, Steering Vectors, Prompt Smoothie) provides relevant engineering capability for the program synthesis approach. The company lists Paul Graham as a backer (confluence.sh), which is an additional signal given Graham's selective personal investments.
 
 ## Key Risks
 
-**Name confusion with Atlassian Confluence:** "Confluence" is the name of Atlassian's widely-used enterprise wiki product. Search results for "Confluence Labs" are heavily polluted by Atlassian Confluence reviews, documentation, and marketplace listings. A separate European pre-accelerator called "Confluence Lab" (confluence-lab.eu) also exists. This creates brand discovery and SEO challenges, particularly for inbound marketing.
+**Benchmark-to-product translation risk:** The company's primary public credential is their ARC-AGI-2 benchmark score. ARC-AGI tasks involve abstract grid transformations, which are structurally different from the real-world scientific domains they target (drug design, materials science, physics). There is no public evidence yet that their approach transfers to these applied domains.
 
-**Benchmark-to-product gap:** The company's primary public credential is an ARC-AGI-2 benchmark score. ARC-AGI-2 tests abstract pattern recognition on synthetic grid puzzles, which is structurally different from real-world experiment design in chemistry, materials science, or biology. No evidence of a commercial product, paying customers, or pilot deployments in any scientific domain has been found. Translating benchmark performance into a viable product for R&D teams is an unproven step.
+**Competitive leaderboard erosion:** The ARC-AGI-2 leaderboard is rapidly advancing. Imbue achieved 95.1% within days of Confluence Labs' 97.9% (Imbue blog, Feb 27, 2026), and frontier model performance rose from ~54% to 95%+ within three months (ARC Prize; Adaline Labs via search snippet). Benchmark SOTA is ephemeral, and well-funded competitors (Imbue: $232M) can invest orders of magnitude more in improving scores.
 
-**Well-funded competition in adjacent domains:** Poetiq ($45.8M seed), CuspAI ($100M Series A), Periodic Labs ($300M), Lila Sciences ($200M seed), and Recursion (public company) are all pursuing AI for scientific discovery with substantially more capital. Several of these have domain-specific data assets, proprietary lab infrastructure, or partnerships with major enterprises (BASF, LG Chem) that Confluence Labs does not have.
+**Brand confusion with Atlassian Confluence:** The name "Confluence" is strongly associated with Atlassian's widely used enterprise wiki product. The Twitter handle @Confluence belongs to Atlassian (X.com). This creates SEO challenges, brand confusion risk, and potential trademark issues. The company uses "confluence.sh" as its domain and @_confluencelabs on X to differentiate.
 
-**Open-source strategy trade-off:** The ARC-AGI-2 solver is MIT-licensed and fully open-sourced, which enables reproducibility and community credibility but makes the specific methodology freely available to competitors. Any future product would need to offer value beyond what the open-source code provides.
+**Two-person team in a capital-intensive space:** While a two-person team is normal at pre-seed, the AI-for-science space features competitors with hundreds of employees and hundreds of millions in funding (Imbue: $232M, 10K H100s; Isomorphic Labs: $600M). Executing on partnerships in pharma, materials science, and hardware engineering requires domain sales expertise and deep technical integration that may strain a two-person team.
 
-**Early-career founding team:** Both founders are in their early 20s without prior startup exits, enterprise sales experience, or deep domain expertise in the target verticals (pharma, materials science, hardware engineering). Selling to enterprise R&D organizations typically requires domain credibility and lengthy sales cycles.
+**Open-source IP exposure:** The ARC-AGI-2 solver is open-sourced under MIT license (GitHub), meaning the core demonstrated technology is freely available for anyone to build upon. Future defensibility must come from work not yet published.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $2.35B AI in drug discovery (Grand View Research, 2025 via search snippet, 24.8% CAGR); $305M materials informatics (Future Markets Inc., 2025 via search snippet, 27.3% CAGR). No consolidated cross-domain TAM found. |
+| TAM | AI for scientific discovery: $4.80B (2025) → $34.78B (2035), CAGR 21.9% (Precedence Research via search snippet) |
 | SAM | No public data found |
-| Traction | 97.9% ARC-AGI-2 public eval score at $11.77/task (confluence.sh, Feb 2026); 73 GitHub stars on arc-agi-2 repo (GitHub, Feb 2026); 8 upvotes on YC Launch post (YC Launches) |
+| Traction | SOTA on ARC-AGI-2: 97.9% at $11.77/task (confluence.sh, Feb 2026); 94 GitHub stars (GitHub, Mar 2026); 291 Twitter followers (X.com via search snippet) |
 | Revenue Signal | No public data found |
-| Founders | Niranjan Baskaran (Co-founder): RSI '21, ISEF '21/'22, Vassar '27, Dartmouth '28, Atlas Fellow. Brent Burdick (Co-founder): Self-taught engineer, ex-freelance builder for 6+ startups, UNC Chapel Hill. |
-| Competitors | Poetiq ($45.8M raised, revenue unknown, general LLM reasoning meta-system vs. Confluence Labs' experiment-design focus); Citrine Informatics (funding undisclosed, revenue unknown, materials-specific with BASF partnership); Kebotix ($23.87M raised, revenue unknown, AI + robotics closed-loop for molecular materials); CuspAI ($100M raised, revenue unknown, molecular search engine); Recursion (public company, massive-scale automated bio labs) |
-| Moat Signals | 97.9% SOTA on ARC-AGI-2 as technical credibility signal; open-source solver (73 GitHub stars). No proprietary data assets or customer lock-in identified. |
-| Risk Factors | Benchmark-to-product translation unproven, well-funded competitors in adjacent domains, brand confusion with Atlassian Confluence |
-| Founder Reach | Brent Burdick: Twitter @BingBongBrent (count not retrievable), LinkedIn 224 connections, GitHub 19 followers. Niranjan Baskaran: Twitter not found, LinkedIn (profile found, connection count not retrieved), GitHub not found. |
-| Distribution Signals | No Product Hunt launch found. YC Launch post (8 upvotes). GitHub repo (73 stars). No app store, Chrome extension, or web traffic data found. |
+| Founders | Niranjan Baskaran (Co-founder): RSI/MIT alumnus, Vassar researcher, prior startup reportedly at $5M ARR (LinkedIn snippet). Brent Burdick (Co-founder): Self-taught engineer, built Rift by Morph (open-source AI pair programming), multiple AI projects. |
+| Competitors | Imbue ($232M raised, revenue unknown, closest ARC-AGI-2 competitor at 95.1%); Isomorphic Labs ($600M raised, revenue pre-commercial, AI drug discovery); Recursion Pharmaceuticals (public, $1.5B Bayer partnership, AI drug discovery); Insilico Medicine ($110M Series E, revenue pre-commercial, Phase 2a drug candidate) |
+| Moat Signals | SOTA benchmark result (97.9% ARC-AGI-2); Paul Graham personal backing (confluence.sh). No proprietary data moat or network effects yet. |
+| Risk Factors | Benchmark-to-product translation gap, competitive leaderboard erosion, brand confusion with Atlassian Confluence |
+| Founder Reach | Niranjan Baskaran: Twitter @bankminer78 (count not retrievable), LinkedIn 500+, GitHub 3 followers. Brent Burdick: Twitter @BingBongBrent (count not retrievable), LinkedIn (listed), GitHub 20 followers. Company: @_confluencelabs 291 followers. |
+| Distribution Signals | Open-sourced ARC-AGI-2 solver (94 stars, GitHub); YC Launch page published (YC). No Product Hunt launch, no app store presence, no Chrome extension found. |
+| Emails | founders@confluence.sh |

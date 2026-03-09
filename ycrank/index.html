@@ -120,8 +120,8 @@
         <span class="text-claude-dim text-sm" x-text="filteredTable.length + '/' + (manifest ? manifest.table.length : 0) + ' companies'"></span>
       </div>
 
-      <!-- Table -->
-      <div>
+      <!-- Table (hidden on mobile, replaced by card view) -->
+      <div class="hidden sm:block">
         <table class="w-full text-sm terminal-table">
           <thead class="sticky-thead">
             <tr class="border-b border-claude-border bg-claude-panel">
@@ -195,6 +195,114 @@
           </template>
           <!-- /MOBILE-SCORES -->
         </table>
+      </div>
+
+      <!-- Mobile Card View (< 640px only) -->
+      <div class="sm:hidden mobile-card-container">
+        <!-- Progress bar -->
+        <div class="mobile-card-progress" x-show="mobileCards.length > 1">
+          <div class="mobile-card-progress-fill"
+            :style="'width: ' + ((mobileCardIndex + 1) / mobileCards.length * 100) + '%'"></div>
+        </div>
+
+        <!-- Card row with side nav buttons -->
+        <div class="mobile-card-layout">
+          <!-- Left nav -->
+          <button @click="mobileCardNav(-1)" :disabled="mobileCardIndex <= 0"
+            :class="mobileCardIndex > 0 ? 'text-claude-orange' : 'text-claude-dim cursor-not-allowed'"
+            class="mobile-card-nav-btn">&lt;</button>
+
+          <!-- Swipeable card viewport -->
+          <div class="mobile-card-viewport"
+            @touchstart="mobileCardTouchStart($event)"
+            @touchmove="mobileCardTouchMove($event)"
+            @touchend="mobileCardTouchEnd($event)">
+            <div class="mobile-card-track" :class="{ swiping: mobileSwiping }"
+              :style="'transform: translateX(' + mobileSwipeX + 'px)'">
+
+              <!-- Card content -->
+              <template x-if="mobileCards.length > 0">
+                <div class="mobile-card border border-claude-border"
+                  :class="{ ['tier-' + avgTierClass(mobileCards[mobileCardIndex].avg)]: true, 'has-disagreement': isDisagreement(mobileCards[mobileCardIndex].name) }"
+                  @click="!_swipeConsumed && mobileCards[mobileCardIndex].slug && navigate('company/' + mobileCards[mobileCardIndex].slug)">
+
+                  <!-- Header: name + disagreement -->
+                  <div class="flex items-center justify-between mb-2">
+                    <h3 class="text-lg font-bold text-claude-orange truncate mr-2" x-text="mobileCards[mobileCardIndex].name"></h3>
+                    <span x-show="isDisagreement(mobileCards[mobileCardIndex].name)"
+                      class="text-claude-red text-xs flex-shrink-0 font-mono" title="High disagreement">!!</span>
+                  </div>
+
+                  <!-- Score strip -->
+                  <div class="v1-hero-strip" :style="'border-color:' + tierBarBg(avgTierLabel(mobileCards[mobileCardIndex].avg))">
+                    <div class="v1-hero-left">
+                      <span class="v1-hero-avg font-mono tabular-nums" :class="avgColor(mobileCards[mobileCardIndex].avg)"
+                        x-text="mobileCards[mobileCardIndex].avg != null ? mobileCards[mobileCardIndex].avg.toFixed(2) : '-'"></span>
+                      <span class="v1-hero-avg-label">AVG</span>
+                    </div>
+                    <div class="v1-meta-grid">
+                      <div class="v1-meta-cell">
+                        <span class="v1-meta-label">team</span>
+                        <span class="v1-meta-value" x-text="mobileCards[mobileCardIndex].teamSize != null ? mobileCards[mobileCardIndex].teamSize : '-'"></span>
+                      </div>
+                      <div class="v1-meta-cell">
+                        <span class="v1-meta-label">partner</span>
+                        <span class="v1-meta-value truncate" x-text="mobileCards[mobileCardIndex].ycPartner || '-'"></span>
+                      </div>
+                      <div class="v1-meta-cell">
+                        <span class="v1-meta-label">arr</span>
+                        <span class="v1-meta-value" x-text="mobileCards[mobileCardIndex].revenue != null ? mobileCards[mobileCardIndex].revenue : '-'"></span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Location + one-liner -->
+                  <div class="text-[10px] text-claude-dim font-mono truncate mt-1" x-show="mobileCards[mobileCardIndex].location"
+                    x-text="mobileCards[mobileCardIndex].location"></div>
+                  <p class="text-xs text-claude-gray line-clamp-2 my-2 pl-2" style="border-left: 1px solid var(--c-border)"
+                    x-text="mobileCards[mobileCardIndex].oneLiner || ''"></p>
+
+                  <!-- Vertical bar chart -->
+                  <div class="v1-bar-chart">
+                    <template x-for="p in personas" :key="'v1-bar-'+p.abbr">
+                      <div class="v1-bar-col">
+                        <span class="v1-bar-label" x-text="p.abbr"></span>
+                        <span class="v1-bar-score tabular-nums font-mono"
+                          :class="tierColor(mobileCards[mobileCardIndex].tiers[p.abbr])"
+                          x-text="mobileCards[mobileCardIndex].scores[p.abbr] != null ? mobileCards[mobileCardIndex].scores[p.abbr] : '-'"></span>
+                        <div class="v1-bar-area">
+                          <div class="v1-bar"
+                            :style="'height:' + (mobileCards[mobileCardIndex].scores[p.abbr] || 0) + '%;background:' + tierBarBg(mobileCards[mobileCardIndex].tiers[p.abbr]) + '66;border-top:2px solid ' + tierBarBg(mobileCards[mobileCardIndex].tiers[p.abbr])"></div>
+                        </div>
+                      </div>
+                    </template>
+                  </div>
+
+                  <!-- Footer -->
+                  <div class="mobile-card-footer">
+                    <span class="font-mono text-claude-dim" x-text="(mobileCardIndex + 1) + '/' + mobileCards.length"></span>
+                    <span class="text-claude-orange terminal-blink">_</span>
+                  </div>
+                </div>
+              </template>
+
+              <!-- Empty state -->
+              <template x-if="mobileCards.length === 0">
+                <div class="mobile-card border border-claude-border tier-orange">
+                  <div class="mobile-card-hero-score" style="flex:1">
+                    <p class="text-claude-dim text-sm font-mono">No results_</p>
+                  </div>
+                </div>
+              </template>
+
+            </div>
+          </div>
+
+          <!-- Right nav -->
+          <button @click="mobileCardNav(1)" :disabled="mobileCardIndex >= mobileCards.length - 1"
+            :class="mobileCardIndex < mobileCards.length - 1 ? 'text-claude-orange' : 'text-claude-dim cursor-not-allowed'"
+            class="mobile-card-nav-btn">&gt;</button>
+        </div>
       </div>
     </div>
 

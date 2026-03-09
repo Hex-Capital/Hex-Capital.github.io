@@ -1,0 +1,26 @@
+﻿# noetic -- Paul Graham Evaluation
+
+Hardware compliance is one of the purest schlep problems I've seen in a while. Thousands of robotics companies know the pain: you build something brilliant in the lab, then spend months drowning in FCC filings, UL standards, ISO documentation, and testing lab coordination. The standards documents are copyrighted. The requirements span dozens of agencies across multiple jurisdictions. The testing labs are opaque. Nobody wants to touch any of this — which is exactly what makes it interesting as a startup opportunity. This is the kind of problem where your unconscious mind says "no thanks" before you've even finished describing it. The structural barrier here mirrors what made Stripe possible: the schlep of dealing with banks, fraud detection, and financial regulation kept thousands of programmers from building better payment processing for a decade. Hardware compliance has that same quality of obvious pain combined with deep institutional messiness.
+
+But here's what complicates the picture: Saphira AI, another YC company from S24, is already in this space with $440K in revenue and positions itself as "Vanta for Hardware." When I see two YC companies targeting the same wedge within eighteen months of each other, the question isn't whether the market is real — it almost certainly is — but whether the second entrant has a genuinely different insight or just arrived later to the same conclusion. Noetic emphasizes end-to-end workflow including upstream regulatory identification and lab matching, while Saphira focuses on traceability and report generation. That's a real distinction, but it's a feature difference, not a category difference. And Saphira has the head start that matters most at this stage: actual paying customers.
+
+The organic discovery story is plausible but thin. Tony Gao and Jack Yin both worked at Yale's APOLLO Lab, a robotics research lab, so they've been in the world where hardware compliance matters. That's better than three engineers who read a blog post about regulatory tech. But research labs don't typically navigate commercial compliance themselves — that's what happens when you try to ship a product, not when you're publishing papers about motion generation. I'd want to hear the specific moment they personally hit the compliance wall. Did they try to commercialize something from the lab? Did they watch a partner company burn months on certification? The connection from robotics research to compliance tooling is logical, but logical isn't the same as organic. Drew Houston didn't reason his way to Dropbox from market analysis — he kept forgetting his USB drive.
+
+The founding team is three Yale undergraduates, class of 2028, building this concurrently with their studies. Their intellectual credentials are real — Jack Yin's stints at D.E. Shaw, Citadel, and Five Rings as an undergrad suggest he's operating at a high level, and the shared APOLLO Lab background means the co-founder relationship has substance. But I haven't seen evidence of the relentlessly resourceful quality that separates founders who persist through the long grind from smart people who had a good idea. No prior companies, no examples of creative problem-solving under pressure, no public evidence of a working prototype. Their GitHub profiles show no public repos. For a team building AI agents that parse dense regulatory text, I'd want to see the product — or at least evidence that it exists beyond a demo booking page.
+
+The bull case is genuinely strong on timing. UL 3300 became mandatory for commercial robot deployment on December 31, 2025. The first robot just achieved certification days ago. There's an immediate compliance wave hitting robotics companies right now, and the market for compliance consulting runs into tens of billions. If Noetic can deliver accurate, AI-generated compliance documentation faster and cheaper than $300/hour consultants, the pull will be intense. The incumbent TIC firms — SGS, UL Solutions, Intertek — have a classic innovator's dilemma: their business model depends on billable hours, so building software that automates advisory work cannibalizes their highest-margin revenue. That structural conflict is real and creates a window for startups. If these founders are as sharp as their backgrounds suggest, and if they're building something that actually works, this could be a significant company. But right now, the evidence file is nearly empty — no users, no revenue, no public product, no GitHub activity — and a direct competitor with traction is already occupying the space.
+
+The schlep earns respect. The timing is right. But the execution evidence is absent, the organic backstory needs more specificity, and the Saphira overlap is a concrete concern. I need to see the product work before I write a check.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Organic Problem Discovery and Schlep Willingness | 17/30 |
+| Relentlessly Resourceful Founders | 12/25 |
+| Evidence of Wanting: Demonstrated User Pull | 5/20 |
+| Technical Hacker Founders Who Build | 7/15 |
+| Growth Trajectory and Default Alive Economics | 4/10 |
+| **Total** | **45/100** |
+
+**Total Score: 45/100** (Neutral)

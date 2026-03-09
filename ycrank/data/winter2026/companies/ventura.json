@@ -1,0 +1,76 @@
+{
+  "slug": "ventura",
+  "name": "Ventura",
+  "oneLiner": "AI Employees for Industrial Distributors",
+  "metadata": {
+    "website": "https://www.ventura.ai",
+    "yc_page": "https://www.ycombinator.com/companies/ventura",
+    "batch": "Winter 2026",
+    "industry": "Industrials / Industrials",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "B2B, Workflow Automation, Operations",
+    "yc_partner": "Brad Flora",
+    "emails": "support@ventura.ai"
+  },
+  "tags": [
+    "B2B",
+    "Workflow Automation",
+    "Operations"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-09T05:24:01.935Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 61,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 60,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 62,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 45,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 33,
+    "EG": 61,
+    "NR": 60,
+    "PG": 62,
+    "PT": 34,
+    "SL": 29,
+    "VK": 45
+  },
+  "consolidatedAvg": 46.29,
+  "consolidatedRank": 51,
+  "paths": {
+    "memo": "winter2026/memos/ventura.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/ventura.md",
+      "elad-gil": "winter2026/evals/elad-gil/ventura.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/ventura.md",
+      "paul-graham": "winter2026/evals/paul-graham/ventura.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/ventura.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/ventura.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/ventura.md"
+    }
+  }
+}

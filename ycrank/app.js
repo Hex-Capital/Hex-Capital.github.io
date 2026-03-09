@@ -41,6 +41,17 @@ function app() {
     // Disagreement lookup
     disagreementSet: new Set(),
 
+    // Mobile card state
+    mobileCardIndex: 0,
+    mobileSwipeX: 0,
+    mobileSwiping: false,
+    _touchStartX: 0,
+    _touchStartY: 0,
+    _touchStartTime: 0,
+    _touchLocked: false,   // true once we commit to horizontal swipe
+    _touchCancelled: false, // true if vertical movement detected first
+    _swipeConsumed: false,  // true if swipe gesture occurred (prevents tap navigation)
+
     formatBatch(b) {
       const m = b.match(/^([a-z]+)(\d{4})$/);
       if (!m) return b;
@@ -92,6 +103,9 @@ function app() {
         this.councilSessionId = crypto.randomUUID();
         this.personas.forEach(p => this.councilPersonas.add(p.slug));
 
+        // Reset mobile card index on search change
+        this.$watch('search', () => { this.mobileCardIndex = 0; });
+
         // Handle initial route
         this.handleRoute();
       } catch (e) {
@@ -115,6 +129,7 @@ function app() {
         this.mdCache = {};
         this.companyData = null;
         this.tractionData = null;
+        this.mobileCardIndex = 0;
       } catch (e) {
         console.error('Failed to load batch:', e);
       } finally {
@@ -196,6 +211,19 @@ function app() {
       });
 
       return rows;
+    },
+
+    get mobileCards() {
+      if (!this.manifest) return [];
+      let rows = this.manifest.table;
+      if (this.search) {
+        const q = this.search.toLowerCase();
+        rows = rows.filter(r =>
+          r.name.toLowerCase().includes(q) ||
+          (r.oneLiner && r.oneLiner.toLowerCase().includes(q))
+        );
+      }
+      return [...rows].sort((a, b) => (b.avg || 0) - (a.avg || 0));
     },
 
     sortBy(col) {
@@ -510,6 +538,28 @@ function app() {
       return colors[slug] || 'text-claude-dim';
     },
 
+    // --- Card helpers ---
+
+    tierBarBg(tier) {
+      if (!tier) return '#d9923a';
+      const t = tier.toLowerCase();
+      if (t.includes('strong') && t.includes('invest')) return '#2d8a4e';
+      if (t.includes('invest')) return '#4a9e4a';
+      if (t.includes('neutral')) return '#d9923a';
+      if (t.includes('strong') && t.includes('pass')) return '#8b2525';
+      if (t.includes('pass')) return '#cc3838';
+      return '#d9923a';
+    },
+
+    avgTierLabel(avg) {
+      if (avg == null) return '--';
+      if (avg >= 70) return 'Strong Invest';
+      if (avg >= 55) return 'Invest';
+      if (avg >= 40) return 'Neutral';
+      if (avg >= 25) return 'Pass';
+      return 'Strong Pass';
+    },
+
     // --- Helpers ---
 
     tierColor(tier) {
@@ -540,10 +590,99 @@ function app() {
       return 'text-claude-dim corr-none';
     },
 
+    avgTierClass(avg) {
+      if (avg == null) return 'dim';
+      if (avg >= 70) return 'deepgreen';
+      if (avg >= 55) return 'green';
+      if (avg >= 40) return 'orange';
+      if (avg >= 25) return 'red';
+      return 'deepred';
+    },
+
+    tierBarColor(tier) {
+      if (!tier) return 'bar-orange';
+      const t = tier.toLowerCase();
+      if (t.includes('strong') && t.includes('invest')) return 'bar-deepgreen';
+      if (t.includes('invest')) return 'bar-green';
+      if (t.includes('neutral')) return 'bar-orange';
+      if (t.includes('strong') && t.includes('pass')) return 'bar-deepred';
+      if (t.includes('pass')) return 'bar-red';
+      return 'bar-orange';
+    },
+
     tractionTierColor(tierName) {
       if (tierName.toLowerCase().includes('strong')) return 'text-claude-green';
       if (tierName.toLowerCase().includes('moderate')) return 'text-claude-amber';
       return 'text-claude-gray';
+    },
+
+    // --- Mobile card swipe ---
+
+    mobileCardTouchStart(e) {
+      const t = e.touches[0];
+      this._touchStartX = t.clientX;
+      this._touchStartY = t.clientY;
+      this._touchStartTime = Date.now();
+      this._touchLocked = false;
+      this._touchCancelled = false;
+      this._swipeConsumed = false;
+      this.mobileSwiping = true;
+    },
+
+    mobileCardTouchMove(e) {
+      if (this._touchCancelled) return;
+      const t = e.touches[0];
+      const dx = t.clientX - this._touchStartX;
+      const dy = t.clientY - this._touchStartY;
+
+      // Axis lock: first significant movement decides
+      if (!this._touchLocked && (Math.abs(dx) > 8 || Math.abs(dy) > 8)) {
+        if (Math.abs(dy) > Math.abs(dx)) {
+          // Vertical — cancel swipe, let browser scroll
+          this._touchCancelled = true;
+          this.mobileSwipeX = 0;
+          this.mobileSwiping = false;
+          return;
+        }
+        this._touchLocked = true;
+      }
+
+      if (this._touchLocked) {
+        e.preventDefault();
+        this._swipeConsumed = true;
+        const cards = this.mobileCards;
+        const atStart = this.mobileCardIndex === 0 && dx > 0;
+        const atEnd = this.mobileCardIndex === cards.length - 1 && dx < 0;
+        this.mobileSwipeX = (atStart || atEnd) ? dx * 0.3 : dx;
+      }
+    },
+
+    mobileCardTouchEnd(e) {
+      if (this._touchCancelled || !this.mobileSwiping) {
+        this.mobileSwiping = false;
+        return;
+      }
+      const dx = this.mobileSwipeX;
+      const elapsed = Date.now() - this._touchStartTime;
+      const velocity = Math.abs(dx) / (elapsed || 1);
+      const cards = this.mobileCards;
+
+      if ((Math.abs(dx) > 50 || velocity > 0.3) && cards.length > 1) {
+        if (dx < 0 && this.mobileCardIndex < cards.length - 1) {
+          this.mobileCardIndex++;
+        } else if (dx > 0 && this.mobileCardIndex > 0) {
+          this.mobileCardIndex--;
+        }
+      }
+
+      this.mobileSwipeX = 0;
+      this.mobileSwiping = false;
+    },
+
+    mobileCardNav(dir) {
+      const cards = this.mobileCards;
+      if (dir === -1 && this.mobileCardIndex > 0) this.mobileCardIndex--;
+      if (dir === 1 && this.mobileCardIndex < cards.length - 1) this.mobileCardIndex++;
     },
 
     // --- Keyboard shortcuts ---
@@ -557,6 +696,15 @@ function app() {
           this.councilOpen = false;
         } else if (this.view !== 'dashboard') {
           this.navigate('dashboard');
+        }
+      }
+      if (this.view === 'dashboard' && !this.councilOpen) {
+        if (e.key === 'ArrowLeft') {
+          e.preventDefault();
+          this.mobileCardNav(-1);
+        } else if (e.key === 'ArrowRight') {
+          e.preventDefault();
+          this.mobileCardNav(1);
         }
       }
       if (this.view === 'company' && !this.councilOpen) {

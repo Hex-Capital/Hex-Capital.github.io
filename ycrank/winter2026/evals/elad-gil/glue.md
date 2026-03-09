@@ -1,0 +1,26 @@
+﻿# Glue -- Elad Gil Evaluation
+
+The competitive landscape here is the first thing that jumps off the page, and it's not encouraging. Cursor has raised $2.3B and is doing $2B+ in annualized revenue. Lovable has $553M in funding and $200M+ ARR. Vercel's v0, Bolt.new, Figma -- the cumulative capital deployed in this space exceeds $3.5 billion. When I see a two-person pre-seed team entering a market with this density of well-funded incumbents, I need an extraordinarily clear structural argument for why a new entrant captures value that none of these players can. Glue's argument -- that no existing tool treats AI agents as the primary user of the design surface -- is an interesting product positioning, but I haven't seen evidence that it constitutes a structural moat rather than a feature that any of these competitors could ship in a quarter.
+
+The structural moment is real but consensus. Coding agents reaching production quality in 2024-2025 is a genuine capability threshold -- Claude Code, OpenAI Codex, Cursor's agent mode. The "vibe coding" movement Karpathy named is a legitimate behavioral shift. But this is the opposite of a non-obvious market. Every investor in Silicon Valley knows AI is transforming how software gets built. The specific sub-thesis that "agents need a visual canvas" is somewhat differentiated, but the broader market is the most crowded in venture right now. Compare this to PagerDuty when I invested -- operations alerting was actively boring, funding resistance was real, and there were no $29B-valued competitors adjacent to the problem. Glue is entering the most capital-dense corner of the developer tools market and arguing they've found an unoccupied niche within it. That's a different risk profile entirely.
+
+The bull case would require one thing to be true: that the design-to-agent interface becomes a distinct, defensible category rather than a feature absorbed by existing platforms. If Figma adds agent-first collaboration, if Cursor adds a visual preview canvas, if v0 expands from component generation to persistent agent-collaborative design -- Glue's differentiation evaporates. For Glue to win, this would need to be more like the Figma story itself: browser-native design seemed like a feature Sketch could add, but the architectural bet (browser-first vs. desktop-first) turned out to be foundational enough that the incumbent couldn't replicate it without rebuilding from scratch. If "agent-first canvas" is that kind of architectural fork -- where existing tools literally cannot retrofit their interaction models -- then Glue is positioned correctly. But the dossier provides no technical evidence that this architectural gap exists. And unlike Figma, which had years of relative quiet to build before the market noticed, Glue is entering a space where every major player is actively shipping AI features weekly.
+
+I also see a multi-miracle problem. For Glue to succeed: (1) coding agent platforms need to remain extensible and not build their own visual interfaces, (2) developers need to adopt a new tool alongside their existing editor, (3) the open-source project needs community traction -- but no public repository exists despite the company describing itself as open source, (4) monetization needs to work on an open-core base in a market where the most successful competitor (Cursor) charges directly. That's at least three independent low-probability events. When I ask "what's the one miracle?", there isn't a clean single answer. Compare this to Harvey, where the single miracle -- model fidelity reaching legal-grade accuracy -- was being delivered by the foundation model labs rather than by Harvey itself. Glue's miracles are all things the team must accomplish themselves, against heavily capitalized competition.
+
+The founders have relevant experience -- Perbhat Kumar's work on Microsoft Copilot Studio RAG agents is directly applicable, and Tejas Priyadarshi's Meta engineering background is solid. But I'm seeing concerning execution signals: no visible GitHub repository despite open-source claims, a possible recent pivot from "Willow" based on the CTO's GitHub bio, no traction data of any kind, and minimal social/community presence. At pre-seed I don't penalize the absence of traction per se, but I do expect to see a shipped product or at least a public repository when the stated strategy depends on open-source adoption. The gap between the articulated strategy and the observable evidence suggests the product is very early -- possibly weeks old if the Willow pivot signal is accurate.
+
+The technology cycle timing is defensible in the abstract -- coding agents are real and their capabilities are compounding -- but timing alone doesn't help when a dozen well-funded teams are positioned at the same inflection point. This is a market where being right about timing is necessary but nowhere close to sufficient.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Non-Obvious Market at Structural Inflection | 10/35 |
+| Product-to-Distribution Trajectory | 8/25 |
+| Single-Miracle Operational Clarity | 5/15 |
+| Founder Execution Velocity | 5/15 |
+| Technology Cycle Positioning | 6/10 |
+| **Total** | **34/100** |
+
+**Total Score: 34/100** (Pass)

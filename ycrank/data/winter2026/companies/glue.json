@@ -1,0 +1,75 @@
+{
+  "slug": "glue",
+  "name": "Glue",
+  "oneLiner": "The Interface Design Canvas for AI agents",
+  "metadata": {
+    "website": "https://buildwithglue.com",
+    "yc_page": "https://www.ycombinator.com/companies/glue",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Developer Tools, Design Tools",
+    "yc_partner": "Jon Xu",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Developer Tools",
+    "Design Tools"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-09T05:24:11.778Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 40,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 29,
+    "EG": 34,
+    "NR": 43,
+    "PG": 37,
+    "PT": 27,
+    "SL": 27,
+    "VK": 40
+  },
+  "consolidatedAvg": 33.86,
+  "consolidatedRank": 154,
+  "paths": {
+    "memo": "winter2026/memos/glue.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/glue.md",
+      "elad-gil": "winter2026/evals/elad-gil/glue.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/glue.md",
+      "paul-graham": "winter2026/evals/paul-graham/glue.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/glue.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/glue.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/glue.md"
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
   "batch": "winter2026",
-  "companyCount": 197,
+  "companyCount": 200,
   "personas": [
     {
       "slug": "cyan-banister",
@@ -74,6 +74,7 @@
       "ycPartner": "Tyler Bosmeny",
       "oneLiner": "Robot Cowboys that Herd Cattle with AI Drones",
       "industry": "Industrials / Industrials -> Agriculture",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Livestock Health",
         "Reinforcement Learning",
@@ -110,6 +111,7 @@
       "ycPartner": "Jared Friedman",
       "oneLiner": "Risk quantification platform to insure physical AI",
       "industry": "B2B / B2B -> Engineering, Product and Design",
+      "location": "San Mateo, CA 94404 (LinkedIn company page)",
       "tags": [
         "Robotics",
         "B2B",
@@ -146,6 +148,7 @@
       "ycPartner": "Diana Hu",
       "oneLiner": "Space solar arrays that grow to the size of a football field in orbit",
       "industry": "Industrials / Industrials -> Aviation and Space",
+      "location": "Pittsburgh, Pennsylvania (company website)",
       "tags": [
         "Hard Tech",
         "Hardware",
@@ -182,6 +185,7 @@
       "ycPartner": "Tyler Bosmeny",
       "oneLiner": "Self Charging Drones",
       "industry": "Industrials / Industrials -> Drones",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Drones",
         "Energy",
@@ -216,6 +220,7 @@
       "ycPartner": "Tyler Bosmeny",
       "oneLiner": "Building AGI that can innovate.",
       "industry": "Industrials / Industrials",
+      "location": "Remote",
       "tags": [
         "Artificial Intelligence",
         "Deep Learning",
@@ -252,6 +257,7 @@
       "ycPartner": "Jon Xu",
       "oneLiner": "Stopping Scams Before They Reach Your Customers",
       "industry": "B2B / B2B -> Security",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "Security",
@@ -288,6 +294,7 @@
       "ycPartner": "Ankit Gupta",
       "oneLiner": "Evolutionary therapies for autoimmune disease",
       "industry": "Healthcare / Healthcare -> Drug Discovery and Delivery",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Biotech",
         "Therapeutics",
@@ -322,6 +329,7 @@
       "ycPartner": "Brad Flora",
       "oneLiner": "We build radars for end-to-end autonomy",
       "industry": "Industrials / Industrials",
+      "location": "Not specified",
       "tags": [
         "Robotics",
         "Radar",
@@ -357,6 +365,7 @@
       "ycPartner": "Ankit Gupta",
       "oneLiner": "AI DevOps Engineer",
       "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "Developer Tools",
@@ -391,6 +400,7 @@
       "ycPartner": "Tyler Bosmeny",
       "oneLiner": "Always know what the FDA thinks",
       "industry": "B2B / B2B",
+      "location": "Jersey City, NJ, USA; Remote",
       "tags": [
         "SaaS",
         "Biotech"
@@ -424,6 +434,7 @@
       "ycPartner": null,
       "oneLiner": "Turn documents into signals for lenders",
       "industry": "Fintech / Fintech",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Fintech",
         "SaaS",
@@ -458,6 +469,7 @@
       "ycPartner": "Ankit Gupta",
       "oneLiner": "The agentic drug company. We simulate human biology.",
       "industry": "Healthcare / Drug Discovery and Delivery",
+      "location": "New York, NY, USA",
       "tags": [
         "AI-powered Drug Discovery",
         "Artificial Intelligence",
@@ -494,6 +506,7 @@
       "ycPartner": "Gustaf Alstromer",
       "oneLiner": "AI-powered grid planning in your browser 🦑 (squid.energy)",
       "industry": "Industrials / Industrials -> Energy",
+      "location": "London / San Francisco (squid.energy website)",
       "tags": []
     },
     {
@@ -524,6 +537,7 @@
       "ycPartner": "Jared Friedman",
       "oneLiner": "AI for space mission assurance.",
       "industry": "B2B / B2B -> Analytics",
+      "location": "Seattle, WA (YC page)",
       "tags": [
         "Space Exploration",
         "Satellites",
@@ -560,6 +574,7 @@
       "ycPartner": "Brad Flora",
       "oneLiner": "Making an industrial supply chain for building robots in the USA",
       "industry": "Industrials / Industrials",
+      "location": "Austin, TX, USA",
       "tags": [
         "Artificial Intelligence",
         "Hardware",
@@ -595,6 +610,7 @@
       "ycPartner": null,
       "oneLiner": "Protect, monitor and defend your Internet presence",
       "industry": "B2B / B2B -> Security",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "SaaS",
         "B2B",
@@ -629,6 +645,7 @@
       "ycPartner": "Ankit Gupta",
       "oneLiner": "Cerebras-speed inference but scalable",
       "industry": "B2B / B2B -> Infrastructure",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "Hard Tech",
@@ -665,6 +682,7 @@
       "ycPartner": null,
       "oneLiner": "We help hardware companies ship faster",
       "industry": "B2B / B2B -> Engineering, Product and Design",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Hard Tech",
         "Hardware",
@@ -700,6 +718,7 @@
       "ycPartner": "Jon Xu",
       "oneLiner": "Energy independent data centers with solar and repurposed batteries.",
       "industry": "Industrials / Industrials -> Energy",
+      "location": "San Francisco, United States (Extruct AI profile)",
       "tags": [
         "Artificial Intelligence",
         "Hard Tech",
@@ -736,6 +755,7 @@
       "ycPartner": "Tyler Bosmeny",
       "oneLiner": "Technology to detect and track hostile drones",
       "industry": "Industrials / Industrials -> Drones",
+      "location": "No public data found",
       "tags": [
         "Hard Tech",
         "Drones",
@@ -770,6 +790,7 @@
       "ycPartner": "Ankit Gupta",
       "oneLiner": "The AI native law firm for growth stage companies",
       "industry": "B2B / B2B -> Legal",
+      "location": "Not listed",
       "tags": [
         "Legal",
         "LegalTech"
@@ -803,6 +824,7 @@
       "ycPartner": "Jon Xu",
       "oneLiner": "American battery pack factory",
       "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+      "location": "Seattle, WA, USA",
       "tags": [
         "Manufacturing",
         "Aerospace"
@@ -836,6 +858,7 @@
       "ycPartner": "Jon Xu",
       "oneLiner": "We help clinics get patients on biologics faster",
       "industry": "Healthcare / Healthcare",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Healthcare",
         "AI"
@@ -869,6 +892,7 @@
       "ycPartner": "Brad Flora",
       "oneLiner": "Multi-chain deposit and payment infrastructure",
       "industry": "Fintech / Fintech -> Payments",
+      "location": "New York, NY, USA",
       "tags": [
         "Fintech",
         "Crypto / Web3",
@@ -904,6 +928,7 @@
       "ycPartner": "Jon Xu",
       "oneLiner": "The AI-native platform for next-generation protein characterization.",
       "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "SaaS",
         "B2B",
@@ -940,6 +965,7 @@
       "ycPartner": "Ankit Gupta",
       "oneLiner": "AI Drone Systems for Defence",
       "industry": "Industrials / Industrials -> Defense",
+      "location": "London, UK (LinkedIn company page); founders originally from Guernsey (Guernsey Press, Feb 2026)",
       "tags": [
         "Hardware",
         "Swarm AI",
@@ -974,6 +1000,7 @@
       "ycPartner": "Jon Xu",
       "oneLiner": "Robotics and computer vision to automate fish farming from hatchery?",
       "industry": "Industrials / Industrials -> Climate",
+      "location": "Pittsburgh, PA (LinkedIn via search snippet) / Remote",
       "tags": [
         "Robotics",
         "Computer Vision",
@@ -1009,6 +1036,7 @@
       "ycPartner": "Gustaf Alstromer",
       "oneLiner": "Commercial insurance brokerage run by AI agents. Scales like software.",
       "industry": "Fintech / Fintech -> Insurance",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Insurance",
         "AI"
@@ -1042,6 +1070,7 @@
       "ycPartner": "Jon Xu",
       "oneLiner": "Curated multimodal datasets for biology AI",
       "industry": "Healthcare / Healthcare -> Drug Discovery and Delivery",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "Generative AI",
@@ -1076,6 +1105,7 @@
       "ycPartner": "Gustaf Alstromer",
       "oneLiner": "Robots that run autonomous depots for autonomous fleets.",
       "industry": "Industrials / Industrials -> Energy",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "SaaS",
         "Robotics",
@@ -1112,6 +1142,7 @@
       "ycPartner": "Tyler Bosmeny",
       "oneLiner": "Tankless Dive Gear - Breath Autonomy at Sea, Land & Space",
       "industry": "Industrials / Industrials -> Defense",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Hard Tech",
         "Hardware",
@@ -1148,6 +1179,7 @@
       "ycPartner": "Tyler Bosmeny",
       "oneLiner": "Solving language barriers in healthcare",
       "industry": "Healthcare / Healthcare",
+      "location": "Palo Alto, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "Health Tech",
@@ -1183,6 +1215,7 @@
       "ycPartner": "Tyler Bosmeny",
       "oneLiner": "The AI-powered law firm for complex work visas",
       "industry": "B2B / B2B -> Legal",
+      "location": "San Francisco, CA, USA; Remote",
       "tags": [
         "Artificial Intelligence",
         "B2B",
@@ -1219,6 +1252,7 @@
       "ycPartner": "Brad Flora",
       "oneLiner": "AI agent for video work outside the NLE",
       "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "SaaS"
@@ -1252,6 +1286,7 @@
       "ycPartner": "Jared Friedman",
       "oneLiner": "The AI Toolkit for Risk Teams",
       "industry": "B2B / B2B",
+      "location": "New York, NY, USA",
       "tags": [
         "Artificial Intelligence",
         "Fintech",
@@ -1286,6 +1321,7 @@
       "ycPartner": "Gustaf Alstromer",
       "oneLiner": "Regulatory infrastructure for the built world",
       "industry": "B2B / B2B -> Legal",
+      "location": "United States",
       "tags": [
         "Generative AI",
         "GovTech",
@@ -1321,6 +1357,7 @@
       "ycPartner": "Gustaf Alstromer",
       "oneLiner": "AI Revenue Engine for the Equipment Industry",
       "industry": "B2B / B2B",
+      "location": "New York, NY, USA",
       "tags": [
         "SaaS",
         "Industrial"
@@ -1354,6 +1391,7 @@
       "ycPartner": "Tyler Bosmeny",
       "oneLiner": "Multilingual voice agents with safe human escalation when needed",
       "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "B2B",
         "AI",
@@ -1388,6 +1426,7 @@
       "ycPartner": null,
       "oneLiner": "AI-powered uranium exploration",
       "industry": "Industrials / Industrials -> Energy",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "Energy",
@@ -1422,6 +1461,7 @@
       "ycPartner": "Brad Flora",
       "oneLiner": "AI powered reconciliation for high-volume payments companies",
       "industry": "B2B / B2B -> Finance and Accounting",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Fintech",
         "SaaS",
@@ -1458,6 +1498,7 @@
       "ycPartner": "Brad Flora",
       "oneLiner": "Building the First Hotel on the Moon",
       "industry": "Industrials / Industrials -> Aviation and Space",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Space Exploration",
         "Construction",
@@ -1493,6 +1534,7 @@
       "ycPartner": "Harshita Arora",
       "oneLiner": "RL for performance marketing",
       "industry": "B2B / B2B -> Analytics",
+      "location": "Not listed",
       "tags": [
         "Artificial Intelligence",
         "Marketing",
@@ -1528,6 +1570,7 @@
       "ycPartner": "Tyler Bosmeny",
       "oneLiner": "Take Notes in the Real World",
       "industry": "Consumer / Consumer",
+      "location": "San Francisco, CA (YC page lists no location; SF confirmed via founder LinkedIn profiles)",
       "tags": []
     },
     {
@@ -1558,6 +1601,7 @@
       "ycPartner": null,
       "oneLiner": "",
       "industry": "",
+      "location": "",
       "tags": []
     },
     {
@@ -1588,6 +1632,7 @@
       "ycPartner": null,
       "oneLiner": "World models for VLA evals and training.",
       "industry": "Industrials / Manufacturing and Robotics",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Hard Tech",
         "Machine Learning",
@@ -1623,6 +1668,7 @@
       "ycPartner": "Jared Friedman",
       "oneLiner": "Automates admin for aircraft technicians",
       "industry": "B2B / B2B",
+      "location": "No public data found",
       "tags": [
         "AIOps",
         "Workflow Automation",
@@ -1657,6 +1703,7 @@
       "ycPartner": "Diana Hu",
       "oneLiner": "Your Hotel's Best Employees",
       "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "SaaS",
         "B2B",
@@ -1692,6 +1739,7 @@
       "ycPartner": "Ankit Gupta",
       "oneLiner": "AI for safer cell & gene therapies",
       "industry": "Healthcare / Healthcare -> Drug Discovery and Delivery",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "AI-powered Drug Discovery",
         "Gene Therapy",
@@ -1727,6 +1775,7 @@
       "ycPartner": "Jon Xu",
       "oneLiner": "AI for M&A",
       "industry": "Fintech / Fintech -> Banking and Exchange",
+      "location": "New York, NY, USA",
       "tags": [
         "Artificial Intelligence",
         "Fintech",
@@ -1762,6 +1811,7 @@
       "ycPartner": "Diana Hu",
       "oneLiner": "Unified prediction markets trading platform",
       "industry": "Fintech / Consumer Finance",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Finance",
         "Consumer Finance",
@@ -1770,6 +1820,41 @@
     },
     {
       "rank": 51,
+      "name": "Ventura",
+      "slug": "ventura",
+      "scores": {
+        "CB": 33,
+        "EG": 61,
+        "NR": 60,
+        "PG": 62,
+        "PT": 34,
+        "SL": 29,
+        "VK": 45
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 46.29,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Brad Flora",
+      "oneLiner": "AI Employees for Industrial Distributors",
+      "industry": "Industrials / Industrials",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "B2B",
+        "Workflow Automation",
+        "Operations"
+      ]
+    },
+    {
+      "rank": 52,
       "name": "Origami Robotics",
       "slug": "origami-robotics",
       "scores": {
@@ -1796,6 +1881,7 @@
       "ycPartner": "Ankit Gupta",
       "oneLiner": "Manipulate Anything Robot",
       "industry": "Industrials / Industrials",
+      "location": "Millbrae, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "Robotics",
@@ -1803,7 +1889,7 @@
       ]
     },
     {
-      "rank": 52,
+      "rank": 53,
       "name": "Grade",
       "slug": "grade",
       "scores": {
@@ -1830,13 +1916,14 @@
       "ycPartner": "Brad Flora",
       "oneLiner": "Payroll for performance",
       "industry": "Fintech / Fintech -> Payments",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Fintech",
         "B2B"
       ]
     },
     {
-      "rank": 53,
+      "rank": 54,
       "name": "Overshoot",
       "slug": "overshoot",
       "scores": {
@@ -1863,6 +1950,7 @@
       "ycPartner": "Jon Xu",
       "oneLiner": "Enable developers to build and run AI vision applications",
       "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Computer Vision",
         "Infrastructure",
@@ -1870,7 +1958,7 @@
       ]
     },
     {
-      "rank": 54,
+      "rank": 55,
       "name": "Sponge",
       "slug": "sponge",
       "scores": {
@@ -1897,6 +1985,7 @@
       "ycPartner": "Brad Flora",
       "oneLiner": "Financial infrastructure for the agent economy",
       "industry": "B2B / B2B",
+      "location": "No public data found",
       "tags": [
         "Artificial Intelligence",
         "Fintech",
@@ -1906,7 +1995,7 @@
       ]
     },
     {
-      "rank": 55,
+      "rank": 56,
       "name": "AxionOrbital Space",
       "slug": "axionorbital-space",
       "scores": {
@@ -1933,6 +2022,7 @@
       "ycPartner": "Tyler Bosmeny",
       "oneLiner": "Foundation models for 24/7 Earth Observation",
       "industry": "Industrials / Industrials -> Aviation and Space",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Deep Learning",
         "Satellites",
@@ -1940,7 +2030,7 @@
       ]
     },
     {
-      "rank": 56,
+      "rank": 57,
       "name": "Beacon Health",
       "slug": "beacon-health",
       "scores": {
@@ -1967,6 +2057,7 @@
       "ycPartner": "Diana Hu",
       "oneLiner": "AI Agents for Primary Care",
       "industry": "Healthcare / Healthcare",
+      "location": "New York, NY, USA",
       "tags": [
         "Health Tech",
         "Primary Care",
@@ -1974,7 +2065,7 @@
       ]
     },
     {
-      "rank": 57,
+      "rank": 58,
       "name": "Didit",
       "slug": "didit",
       "scores": {
@@ -2001,6 +2092,7 @@
       "ycPartner": "Tyler Bosmeny",
       "oneLiner": "All-in-one identity platform for fast human verification.",
       "industry": "B2B / B2B -> Infrastructure",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "SaaS",
@@ -2008,7 +2100,7 @@
       ]
     },
     {
-      "rank": 58,
+      "rank": 59,
       "name": "Luel",
       "slug": "luel",
       "scores": {
@@ -2035,6 +2127,7 @@
       "ycPartner": "Harshita Arora",
       "oneLiner": "Turning everyday words and actions into usable training data.",
       "industry": "B2B / B2B -> Infrastructure",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Marketplace",
         "B2B",
@@ -2042,7 +2135,7 @@
       ]
     },
     {
-      "rank": 59,
+      "rank": 60,
       "name": "Vector Legal",
       "slug": "vector-legal",
       "scores": {
@@ -2069,6 +2162,7 @@
       "ycPartner": "Jared Friedman",
       "oneLiner": "AI Law Firm + Legal Tech Platform for Startups",
       "industry": "B2B / B2B -> Legal",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Legal",
         "LegalTech",
@@ -2077,7 +2171,7 @@
       ]
     },
     {
-      "rank": 60,
+      "rank": 61,
       "name": "Avoice",
       "slug": "avoice",
       "scores": {
@@ -2104,6 +2198,7 @@
       "ycPartner": "Jared Friedman",
       "oneLiner": "Harvey for Architecture",
       "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "Construction",
@@ -2112,7 +2207,7 @@
       ]
     },
     {
-      "rank": 61,
+      "rank": 62,
       "name": "Proximitty",
       "slug": "proximitty",
       "scores": {
@@ -2139,6 +2234,7 @@
       "ycPartner": "Diana Hu",
       "oneLiner": "Autonomous loan servicing and collections",
       "industry": "Fintech / Credit and Lending",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "FinOps",
         "Fintech",
@@ -2148,7 +2244,7 @@
       ]
     },
     {
-      "rank": 62,
+      "rank": 63,
       "name": "Revion",
       "slug": "revion",
       "scores": {
@@ -2175,13 +2271,14 @@
       "ycPartner": null,
       "oneLiner": "Intelligence for Automotive Operations",
       "industry": "B2B / B2B",
+      "location": "2261 Market Street, San Francisco, CA 94114 (Automotive Management Live 2026 exhibitor listing)",
       "tags": [
         "AI",
         "Automotive"
       ]
     },
     {
-      "rank": 63,
+      "rank": 64,
       "name": "Byteport",
       "slug": "byteport",
       "scores": {
@@ -2208,6 +2305,7 @@
       "ycPartner": "Tyler Bosmeny",
       "oneLiner": "Global upload acceleration for 1GB-100TB files.",
       "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "SaaS",
         "B2B",
@@ -2215,7 +2313,7 @@
       ]
     },
     {
-      "rank": 64,
+      "rank": 65,
       "name": "Robby",
       "slug": "robby",
       "scores": {
@@ -2242,6 +2340,7 @@
       "ycPartner": "Gustaf Alstromer",
       "oneLiner": "Agentic revenue growth for home service businesses.",
       "industry": "B2B / B2B -> Productivity",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "B2B",
         "Home Services",
@@ -2249,7 +2348,7 @@
       ]
     },
     {
-      "rank": 65,
+      "rank": 66,
       "name": "RunAnywhere",
       "slug": "runanywhere",
       "scores": {
@@ -2276,6 +2375,7 @@
       "ycPartner": "Diana Hu",
       "oneLiner": "The default way of running On-Device AI at Scale",
       "industry": "B2B / B2B -> Infrastructure",
+      "location": "San Francisco, CA (company website); founders originally from Punjab, India (FoundersBrief, Jan 2026)",
       "tags": [
         "Developer Tools",
         "IoT",
@@ -2285,7 +2385,7 @@
       ]
     },
     {
-      "rank": 66,
+      "rank": 67,
       "name": "Eos AI",
       "slug": "eos-ai",
       "scores": {
@@ -2312,6 +2412,7 @@
       "ycPartner": "Diana Hu",
       "oneLiner": "The autonomous operating system for healthcare",
       "industry": "Healthcare / Healthcare",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "B2B",
@@ -2321,7 +2422,7 @@
       ]
     },
     {
-      "rank": 67,
+      "rank": 68,
       "name": "Pax Historia",
       "slug": "pax-historia",
       "scores": {
@@ -2348,6 +2449,7 @@
       "ycPartner": "Harshita Arora",
       "oneLiner": "The first AI-powered grand strategy platform",
       "industry": "Consumer / Consumer -> Gaming",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "Marketplace",
@@ -2356,7 +2458,7 @@
       ]
     },
     {
-      "rank": 68,
+      "rank": 69,
       "name": "Chamber",
       "slug": "chamber",
       "scores": {
@@ -2383,6 +2485,7 @@
       "ycPartner": "Brad Flora",
       "oneLiner": "Autopiloting your AI infrastructure",
       "industry": "B2B / B2B -> Infrastructure",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "Developer Tools",
@@ -2392,7 +2495,7 @@
       ]
     },
     {
-      "rank": 69,
+      "rank": 70,
       "name": "Cardboard",
       "slug": "cardboard",
       "scores": {
@@ -2419,6 +2522,7 @@
       "ycPartner": "Ankit Gupta",
       "oneLiner": "Agentic video editor",
       "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "SaaS",
@@ -2428,7 +2532,7 @@
       ]
     },
     {
-      "rank": 70,
+      "rank": 71,
       "name": "SpotPay",
       "slug": "spotpay",
       "scores": {
@@ -2455,12 +2559,13 @@
       "ycPartner": "Tyler Bosmeny",
       "oneLiner": "Cross-border Personal Finance on Stablecoins",
       "industry": "Fintech / Consumer Finance",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Fintech"
       ]
     },
     {
-      "rank": 71,
+      "rank": 72,
       "name": "Corvera",
       "slug": "corvera",
       "scores": {
@@ -2487,6 +2592,7 @@
       "ycPartner": "Brad Flora",
       "oneLiner": "AI agents for CPG brands",
       "industry": "B2B / B2B -> Operations",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "AIOps",
         "SaaS",
@@ -2496,7 +2602,7 @@
       ]
     },
     {
-      "rank": 72,
+      "rank": 73,
       "name": "Arcline",
       "slug": "arcline",
       "scores": {
@@ -2523,10 +2629,11 @@
       "ycPartner": "Tyler Bosmeny",
       "oneLiner": "Startup legal work handled by elite lawyers & same-day turnaround",
       "industry": "B2B / B2B -> Legal",
+      "location": "Oslo, Norway (HQ: Edvard Storms gate 2, 0166 Oslo); also listed as San Francisco, CA / New York, NY on YC page",
       "tags": []
     },
     {
-      "rank": 73,
+      "rank": 74,
       "name": "Asimov",
       "slug": "asimov",
       "scores": {
@@ -2553,6 +2660,7 @@
       "ycPartner": "Brad Flora",
       "oneLiner": "Internet-scale marketplace for robot training data",
       "industry": "B2B / B2B -> Supply Chain and Logistics",
+      "location": "San Francisco, CA, USA; Remote",
       "tags": [
         "Robotics",
         "Data Labeling",
@@ -2560,7 +2668,7 @@
       ]
     },
     {
-      "rank": 74,
+      "rank": 75,
       "name": "VOYGR",
       "slug": "voygr",
       "scores": {
@@ -2587,6 +2695,7 @@
       "ycPartner": "Tyler Bosmeny",
       "oneLiner": "Real-world place intelligence for AI apps and agents",
       "industry": "B2B / B2B",
+      "location": "No public data found",
       "tags": [
         "Developer Tools",
         "Geographic Information System",
@@ -2596,7 +2705,7 @@
       ]
     },
     {
-      "rank": 75,
+      "rank": 76,
       "name": "Visibl Semiconductors",
       "slug": "visibl-semiconductors",
       "scores": {
@@ -2623,6 +2732,7 @@
       "ycPartner": "Tyler Bosmeny",
       "oneLiner": "AI agents for chip design.",
       "industry": "B2B / B2B -> Engineering, Product and Design",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "Enterprise Software",
@@ -2630,7 +2740,7 @@
       ]
     },
     {
-      "rank": 76,
+      "rank": 77,
       "name": "Martini",
       "slug": "martini",
       "scores": {
@@ -2657,6 +2767,7 @@
       "ycPartner": "Jared Friedman",
       "oneLiner": "Collaborative AI-native filmmaking for professionals",
       "industry": "B2B / B2B -> Engineering, Product and Design",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Generative AI",
         "Entertainment",
@@ -2666,7 +2777,7 @@
       ]
     },
     {
-      "rank": 77,
+      "rank": 78,
       "name": "Fed10",
       "slug": "fed10",
       "scores": {
@@ -2693,6 +2804,7 @@
       "ycPartner": "Jared Friedman",
       "oneLiner": "AI agents that replace your policy consultants",
       "industry": "B2B / B2B -> Legal",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "SaaS",
         "GovTech",
@@ -2702,7 +2814,7 @@
       ]
     },
     {
-      "rank": 78,
+      "rank": 79,
       "name": "Mantis",
       "slug": "mantis",
       "scores": {
@@ -2729,6 +2841,7 @@
       "ycPartner": "Gustaf Alstromer",
       "oneLiner": "Physics-Enhanced Datasets for Low-Resource Machine Learning",
       "industry": "B2B / B2B -> Infrastructure",
+      "location": "New York, NY, USA",
       "tags": [
         "Artificial Intelligence",
         "Sports Tech",
@@ -2737,7 +2850,7 @@
       ]
     },
     {
-      "rank": 79,
+      "rank": 80,
       "name": "Wayco",
       "slug": "wayco",
       "scores": {
@@ -2764,6 +2877,7 @@
       "ycPartner": "Jared Friedman",
       "oneLiner": "AI operator for legal case referrals",
       "industry": "B2B / B2B -> Legal",
+      "location": "New York (website also notes \"Built in Tajikistan + New York\")",
       "tags": [
         "Marketplace",
         "LegalTech",
@@ -2771,7 +2885,7 @@
       ]
     },
     {
-      "rank": 80,
+      "rank": 81,
       "name": "Corelayer",
       "slug": "corelayer",
       "scores": {
@@ -2798,6 +2912,7 @@
       "ycPartner": "Diana Hu",
       "oneLiner": "AI on-call engineer that debugs using data",
       "industry": "B2B / B2B -> Engineering, Product and Design",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "Developer Tools",
@@ -2807,7 +2922,7 @@
       ]
     },
     {
-      "rank": 81,
+      "rank": 82,
       "name": "Fort",
       "slug": "fort",
       "scores": {
@@ -2834,6 +2949,7 @@
       "ycPartner": "Gustaf Alstromer",
       "oneLiner": "Strength Tracking Wearable",
       "industry": "Consumer / Consumer -> Consumer Electronics",
+      "location": "San Francisco, CA (LinkedIn via search snippet)",
       "tags": [
         "Consumer Health Services",
         "Consumer",
@@ -2842,7 +2958,7 @@
       ]
     },
     {
-      "rank": 82,
+      "rank": 83,
       "name": "Protent",
       "slug": "protent",
       "scores": {
@@ -2869,6 +2985,7 @@
       "ycPartner": "Jon Xu",
       "oneLiner": "Protent turns passive surveillance into proactive intelligence.",
       "industry": "B2B / B2B -> Security",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Hardware",
         "Machine Learning",
@@ -2878,7 +2995,7 @@
       ]
     },
     {
-      "rank": 83,
+      "rank": 84,
       "name": "Lexius",
       "slug": "lexius",
       "scores": {
@@ -2905,6 +3022,7 @@
       "ycPartner": "Brad Flora",
       "oneLiner": "AI Security Guards",
       "industry": "B2B / B2B -> Security",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "SaaS",
@@ -2914,7 +3032,7 @@
       ]
     },
     {
-      "rank": 84,
+      "rank": 85,
       "name": "MochaCare",
       "slug": "mochacare",
       "scores": {
@@ -2941,6 +3059,7 @@
       "ycPartner": "Diana Hu",
       "oneLiner": "AI-Supercharged Humans for Home Care Agency Growth",
       "industry": "B2B / B2B -> Operations",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Health Tech",
         "Healthcare",
@@ -2950,7 +3069,7 @@
       ]
     },
     {
-      "rank": 85,
+      "rank": 86,
       "name": "21st",
       "slug": "21st",
       "scores": {
@@ -2977,6 +3096,7 @@
       "ycPartner": "Ankit Gupta",
       "oneLiner": "Infrastructure and UI building blocks for the agentic internet",
       "industry": "B2B / B2B -> Engineering, Product and Design",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Developer Tools",
         "B2B",
@@ -2986,7 +3106,7 @@
       ]
     },
     {
-      "rank": 86,
+      "rank": 87,
       "name": "Checkmate",
       "slug": "checkmate",
       "scores": {
@@ -3013,12 +3133,13 @@
       "ycPartner": "Not listed",
       "oneLiner": "AI-powered primary research platform that conducts autonomous expert interviews for institutional investors",
       "industry": "Unknown / Unknown",
+      "location": "Unknown",
       "tags": [
         "Unknown"
       ]
     },
     {
-      "rank": 87,
+      "rank": 88,
       "name": "Clam (formerly Baseframe)",
       "slug": "clam",
       "scores": {
@@ -3045,6 +3166,7 @@
       "ycPartner": "Gustaf Alstromer",
       "oneLiner": "Enterprise-grade security for broad-access AI Agents like OpenClaw",
       "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "Workflow Automation",
@@ -3053,7 +3175,7 @@
       ]
     },
     {
-      "rank": 88,
+      "rank": 89,
       "name": "Fern (Formerly Ishiki Labs)",
       "slug": "ishikilabs",
       "scores": {
@@ -3080,6 +3202,7 @@
       "ycPartner": "Gustaf Alstromer",
       "oneLiner": "Realtime AI starting with sales",
       "industry": "B2B / B2B",
+      "location": "No public data found",
       "tags": [
         "Deep Learning",
         "Generative AI",
@@ -3087,7 +3210,7 @@
       ]
     },
     {
-      "rank": 89,
+      "rank": 90,
       "name": "Mango Medical",
       "slug": "mango-medical-inc",
       "scores": {
@@ -3114,6 +3237,7 @@
       "ycPartner": "Tyler Bosmeny",
       "oneLiner": "We simulate orthopedic surgeries based on CT scans",
       "industry": "Healthcare / Healthcare IT",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Robotic Surgery",
         "Healthcare IT",
@@ -3121,7 +3245,7 @@
       ]
     },
     {
-      "rank": 90,
+      "rank": 91,
       "name": "Remy AI",
       "slug": "remy-ai",
       "scores": {
@@ -3148,6 +3272,7 @@
       "ycPartner": "Brad Flora",
       "oneLiner": "Automating dexterous tasks in warehouses",
       "industry": "Industrials / Manufacturing and Robotics",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Deep Learning",
         "Robotics",
@@ -3156,7 +3281,7 @@
       ]
     },
     {
-      "rank": 91,
+      "rank": 92,
       "name": "shortkit",
       "slug": "shortkit",
       "scores": {
@@ -3183,6 +3308,7 @@
       "ycPartner": null,
       "oneLiner": "We make enterprise-scale short-form video really simple.",
       "industry": "B2B / B2B -> Engineering, Product and Design",
+      "location": "No public data found",
       "tags": [
         "Developer Tools",
         "Video",
@@ -3190,7 +3316,7 @@
       ]
     },
     {
-      "rank": 92,
+      "rank": 93,
       "name": "Terminal Use",
       "slug": "terminal-use",
       "scores": {
@@ -3217,6 +3343,7 @@
       "ycPartner": "Gustaf Alstromer",
       "oneLiner": "Vercel for background agents",
       "industry": "B2B / B2B -> Infrastructure",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "AIOps",
         "Developer Tools",
@@ -3226,7 +3353,7 @@
       ]
     },
     {
-      "rank": 93,
+      "rank": 94,
       "name": "FullSeam",
       "slug": "fullseam",
       "scores": {
@@ -3253,6 +3380,7 @@
       "ycPartner": "Brad Flora",
       "oneLiner": "FullSeam is an AI employee for finance and accounting teams.",
       "industry": "B2B / B2B -> Finance and Accounting",
+      "location": "No public data found",
       "tags": [
         "Artificial Intelligence",
         "FinOps",
@@ -3261,7 +3389,7 @@
       ]
     },
     {
-      "rank": 94,
+      "rank": 95,
       "name": "General Astronautics",
       "slug": "generalastro",
       "scores": {
@@ -3288,6 +3416,7 @@
       "ycPartner": null,
       "oneLiner": "The Space Robotics Company",
       "industry": "Industrials / Manufacturing and Robotics",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Robotics",
         "Space Exploration",
@@ -3295,7 +3424,7 @@
       ]
     },
     {
-      "rank": 95,
+      "rank": 96,
       "name": "Payna",
       "slug": "payna",
       "scores": {
@@ -3322,13 +3451,14 @@
       "ycPartner": null,
       "oneLiner": "Crypto/fintech compliance simplified.",
       "industry": "B2B / B2B -> Finance and Accounting",
+      "location": "San Francisco, CA (web3.career job posting)",
       "tags": [
         "Finance",
         "B2B"
       ]
     },
     {
-      "rank": 96,
+      "rank": 97,
       "name": "Verdex",
       "slug": "verdex",
       "scores": {
@@ -3355,6 +3485,7 @@
       "ycPartner": "Jon Xu",
       "oneLiner": "Satellite Imagery Verification for Insurance",
       "industry": "Fintech / Fintech -> Insurance",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "Insurance",
@@ -3362,7 +3493,7 @@
       ]
     },
     {
-      "rank": 97,
+      "rank": 98,
       "name": "ZeroSettle",
       "slug": "zerosettle",
       "scores": {
@@ -3389,6 +3520,7 @@
       "ycPartner": "Brad Flora",
       "oneLiner": "Avoid the 30% App Store Tax by Supporting Direct Billing in your App",
       "industry": "Fintech / Fintech -> Payments",
+      "location": "No public data found",
       "tags": [
         "Developer Tools",
         "Fintech",
@@ -3398,7 +3530,7 @@
       ]
     },
     {
-      "rank": 98,
+      "rank": 99,
       "name": "Scout Out",
       "slug": "scout-out",
       "scores": {
@@ -3425,6 +3557,7 @@
       "ycPartner": "Tyler Bosmeny",
       "oneLiner": "AI generated proposals for residential construction projects",
       "industry": "Real Estate and Construction / Real Estate and Construction",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Real Estate",
         "Construction",
@@ -3433,7 +3566,7 @@
       ]
     },
     {
-      "rank": 99,
+      "rank": 100,
       "name": "Condor Energy",
       "slug": "condor-energy",
       "scores": {
@@ -3460,13 +3593,14 @@
       "ycPartner": "Jared Friedman",
       "oneLiner": "Energy OS enabling reliable, cheap and sustainable electricity supply.",
       "industry": "Industrials / Industrials -> Energy",
+      "location": "France and United States (Nordic 9, Jan 2026)",
       "tags": [
         "B2B",
         "Energy"
       ]
     },
     {
-      "rank": 100,
+      "rank": 101,
       "name": "Hex Security",
       "slug": "hex-security",
       "scores": {
@@ -3493,13 +3627,14 @@
       "ycPartner": "Gustaf Alstromer",
       "oneLiner": "Agentic Offensive Security at Scale",
       "industry": "B2B / B2B -> Security",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Reinforcement Learning",
         "Cybersecurity"
       ]
     },
     {
-      "rank": 101,
+      "rank": 102,
       "name": "Perfectly",
       "slug": "perfectly",
       "scores": {
@@ -3526,13 +3661,14 @@
       "ycPartner": "Tyler Bosmeny",
       "oneLiner": "The AI-native Recruiting Operating System",
       "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "Recruiting"
       ]
     },
     {
-      "rank": 102,
+      "rank": 103,
       "name": "Vela",
       "slug": "vela",
       "scores": {
@@ -3559,6 +3695,7 @@
       "ycPartner": "Jon Xu",
       "oneLiner": "The AI Scheduling Assistant that truly knows you.",
       "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "B2B",
@@ -3568,7 +3705,7 @@
       ]
     },
     {
-      "rank": 103,
+      "rank": 104,
       "name": "Cumulus Labs",
       "slug": "cumulus-labs",
       "scores": {
@@ -3595,6 +3732,7 @@
       "ycPartner": "Jon Xu",
       "oneLiner": "Performant serverless GPU inference",
       "industry": "B2B / B2B -> Infrastructure",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "AIOps",
         "B2B",
@@ -3603,7 +3741,7 @@
       ]
     },
     {
-      "rank": 104,
+      "rank": 105,
       "name": "Canary",
       "slug": "canary",
       "scores": {
@@ -3630,6 +3768,7 @@
       "ycPartner": "Jon Xu",
       "oneLiner": "The first AI QA engineer that understands your codebase",
       "industry": "B2B / B2B -> Engineering, Product and Design",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "Developer Tools",
@@ -3638,7 +3777,7 @@
       ]
     },
     {
-      "rank": 105,
+      "rank": 106,
       "name": "Balance",
       "slug": "getbalance",
       "scores": {
@@ -3665,6 +3804,7 @@
       "ycPartner": "Brad Flora",
       "oneLiner": "Full-Stack AI Accounting",
       "industry": "B2B / Finance and Accounting",
+      "location": "Not listed (operates in Denmark, US, and UK per Orbital Witness tech blog, Dec 2025)",
       "tags": [
         "Fintech",
         "Automation",
@@ -3672,7 +3812,7 @@
       ]
     },
     {
-      "rank": 106,
+      "rank": 107,
       "name": "Oximy",
       "slug": "oximy",
       "scores": {
@@ -3699,6 +3839,7 @@
       "ycPartner": "Jared Friedman",
       "oneLiner": "The system of record for enterprise AI usage.",
       "industry": "B2B / B2B -> Infrastructure",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "Security",
@@ -3706,7 +3847,7 @@
       ]
     },
     {
-      "rank": 107,
+      "rank": 108,
       "name": "Servo7",
       "slug": "servo7",
       "scores": {
@@ -3733,6 +3874,7 @@
       "ycPartner": "Ankit Gupta",
       "oneLiner": "Simple and rapidly deployed robots for industry work",
       "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+      "location": "Amsterdam, NH, Netherlands",
       "tags": [
         "Artificial Intelligence",
         "Robotics",
@@ -3742,7 +3884,7 @@
       ]
     },
     {
-      "rank": 108,
+      "rank": 109,
       "name": "Reframe",
       "slug": "usereframe",
       "scores": {
@@ -3769,6 +3911,7 @@
       "ycPartner": "Brad Flora",
       "oneLiner": "AI agents to automate hardware procurement",
       "industry": "B2B / B2B -> Marketing",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "Manufacturing",
@@ -3776,7 +3919,7 @@
       ]
     },
     {
-      "rank": 109,
+      "rank": 110,
       "name": "Aemon",
       "slug": "aemon",
       "scores": {
@@ -3803,13 +3946,14 @@
       "ycPartner": null,
       "oneLiner": "The AI R&D Engineer",
       "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "B2B"
       ]
     },
     {
-      "rank": 110,
+      "rank": 111,
       "name": "CodeWisp",
       "slug": "codewisp",
       "scores": {
@@ -3836,6 +3980,7 @@
       "ycPartner": "Harshita Arora",
       "oneLiner": "Anyone can create real games with AI",
       "industry": "Consumer / Consumer -> Gaming",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "Consumer",
@@ -3845,7 +3990,7 @@
       ]
     },
     {
-      "rank": 111,
+      "rank": 112,
       "name": "o11",
       "slug": "o11",
       "scores": {
@@ -3872,6 +4017,7 @@
       "ycPartner": "Jared Friedman",
       "oneLiner": "The AI Agent Inside Every App",
       "industry": "B2B / B2B -> Finance and Accounting",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "Consumer",
@@ -3881,7 +4027,7 @@
       ]
     },
     {
-      "rank": 112,
+      "rank": 113,
       "name": "IncidentFox",
       "slug": "brownie",
       "scores": {
@@ -3908,6 +4054,7 @@
       "ycPartner": "Diana Hu",
       "oneLiner": "AI SRE agent that triages, coordinates, and fixes production incidents",
       "industry": "B2B / B2B -> Infrastructure",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "AIOps",
         "Artificial Intelligence",
@@ -3915,7 +4062,7 @@
       ]
     },
     {
-      "rank": 113,
+      "rank": 114,
       "name": "Menza",
       "slug": "menza",
       "scores": {
@@ -3942,6 +4089,7 @@
       "ycPartner": "Not listed",
       "oneLiner": "Your 24/7 Data Analyst",
       "industry": "B2B / B2B -> Analytics",
+      "location": "Remote (job posting lists London, England, GB)",
       "tags": [
         "Data Visualization",
         "AI",
@@ -3949,7 +4097,7 @@
       ]
     },
     {
-      "rank": 114,
+      "rank": 115,
       "name": "Orthogonal",
       "slug": "orthogonal",
       "scores": {
@@ -3976,6 +4124,7 @@
       "ycPartner": "Tyler Bosmeny",
       "oneLiner": "Agentic Payments for APIs",
       "industry": "B2B / B2B -> Infrastructure",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "Crypto / Web3",
@@ -3984,7 +4133,7 @@
       ]
     },
     {
-      "rank": 115,
+      "rank": 116,
       "name": "Haladir",
       "slug": "haladir",
       "scores": {
@@ -4011,13 +4160,14 @@
       "ycPartner": "Diana Hu",
       "oneLiner": "Building Operational Superintelligence.",
       "industry": "B2B / B2B -> Infrastructure",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Reinforcement Learning",
         "Operations"
       ]
     },
     {
-      "rank": 116,
+      "rank": 117,
       "name": "Librar Labs",
       "slug": "librar-labs",
       "scores": {
@@ -4044,6 +4194,7 @@
       "ycPartner": "Jared Friedman",
       "oneLiner": "The next generation of the intelligence layer for the physical world",
       "industry": "B2B / B2B",
+      "location": "San Francisco and Stockholm (company about page)",
       "tags": [
         "Artificial Intelligence",
         "Machine Learning",
@@ -4051,7 +4202,7 @@
       ]
     },
     {
-      "rank": 117,
+      "rank": 118,
       "name": "Patientdesk.ai",
       "slug": "patientdeskai",
       "scores": {
@@ -4078,6 +4229,7 @@
       "ycPartner": "Gustaf Alstromer",
       "oneLiner": "AI voice agent for patient calls & admin workflows",
       "industry": "Healthcare / Healthcare IT",
+      "location": "San Francisco, CA (YC page via search snippet)",
       "tags": [
         "Customer Service",
         "Call Center",
@@ -4086,7 +4238,7 @@
       ]
     },
     {
-      "rank": 118,
+      "rank": 119,
       "name": "Pollinate",
       "slug": "pollinate",
       "scores": {
@@ -4113,6 +4265,7 @@
       "ycPartner": "Ankit Gupta",
       "oneLiner": "AI Agents for the supply chain.",
       "industry": "B2B / B2B -> Supply Chain and Logistics",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "Logistics",
@@ -4120,7 +4273,7 @@
       ]
     },
     {
-      "rank": 119,
+      "rank": 120,
       "name": "Synthetic Sciences",
       "slug": "synthetic-sciences",
       "scores": {
@@ -4147,6 +4300,7 @@
       "ycPartner": "Gustaf Alstromer",
       "oneLiner": "AI co-scientists that run research end-to-end",
       "industry": "B2B / B2B -> Engineering, Product and Design",
+      "location": "San Francisco (dnyuz.com, Feb 2026)",
       "tags": [
         "Developer Tools",
         "Reinforcement Learning",
@@ -4154,7 +4308,7 @@
       ]
     },
     {
-      "rank": 120,
+      "rank": 121,
       "name": "Forum",
       "slug": "forum",
       "scores": {
@@ -4181,6 +4335,7 @@
       "ycPartner": "Jared Friedman",
       "oneLiner": "The first regulated exchange to trade on attention.",
       "industry": "Fintech / Fintech",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Finance",
         "Investing",
@@ -4188,7 +4343,7 @@
       ]
     },
     {
-      "rank": 121,
+      "rank": 122,
       "name": "Human Archive",
       "slug": "human-archive",
       "scores": {
@@ -4215,6 +4370,7 @@
       "ycPartner": "Jared Friedman",
       "oneLiner": "Multimodal data provider for robotics learning",
       "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Robotics",
         "Data Labeling",
@@ -4222,7 +4378,7 @@
       ]
     },
     {
-      "rank": 122,
+      "rank": 123,
       "name": "OpenSpec",
       "slug": "openspec",
       "scores": {
@@ -4249,6 +4405,7 @@
       "ycPartner": "Jared Friedman",
       "oneLiner": "Plan mode for complex features",
       "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "Developer Tools",
@@ -4257,7 +4414,7 @@
       ]
     },
     {
-      "rank": 123,
+      "rank": 124,
       "name": "REV1",
       "slug": "rev1",
       "scores": {
@@ -4284,6 +4441,7 @@
       "ycPartner": "Gustaf Alstromer",
       "oneLiner": "Shortening hardware design cycles by automating post-CAD work",
       "industry": "B2B / B2B -> Engineering, Product and Design",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Hard Tech",
         "Hardware",
@@ -4293,7 +4451,7 @@
       ]
     },
     {
-      "rank": 124,
+      "rank": 125,
       "name": "Oxus",
       "slug": "oxus",
       "scores": {
@@ -4320,6 +4478,7 @@
       "ycPartner": "Diana Hu",
       "oneLiner": "AI-powered automation for internal audit workflows",
       "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "B2B",
@@ -4328,7 +4487,7 @@
       ]
     },
     {
-      "rank": 125,
+      "rank": 126,
       "name": "Polymath",
       "slug": "polymath",
       "scores": {
@@ -4355,6 +4514,7 @@
       "ycPartner": "Ankit Gupta",
       "oneLiner": "Automating RL environment generation",
       "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Reinforcement Learning",
         "B2B",
@@ -4364,7 +4524,7 @@
       ]
     },
     {
-      "rank": 126,
+      "rank": 127,
       "name": "Ressl AI",
       "slug": "ressl-ai",
       "scores": {
@@ -4391,6 +4551,7 @@
       "ycPartner": "Harshita Arora",
       "oneLiner": "AI Transformation for the Trades",
       "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "B2B",
@@ -4399,7 +4560,7 @@
       ]
     },
     {
-      "rank": 127,
+      "rank": 128,
       "name": "Cardinal",
       "slug": "trycardinal-ai",
       "scores": {
@@ -4426,12 +4587,13 @@
       "ycPartner": "Gustaf Alstromer",
       "oneLiner": "AI Platform for Precision Outbound",
       "industry": "B2B / B2B",
+      "location": "San Francisco (job posting, YC Leafpress page via WebFetch)",
       "tags": [
         "AI"
       ]
     },
     {
-      "rank": 128,
+      "rank": 129,
       "name": "Return Signals",
       "slug": "return-signals",
       "scores": {
@@ -4458,6 +4620,7 @@
       "ycPartner": "Gustaf Alstromer",
       "oneLiner": "AI customer support that proactively engages high-value users",
       "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Generative AI",
         "Customer Success",
@@ -4466,7 +4629,7 @@
       ]
     },
     {
-      "rank": 129,
+      "rank": 130,
       "name": "Veriad",
       "slug": "veriad",
       "scores": {
@@ -4493,6 +4656,7 @@
       "ycPartner": "Jon Xu",
       "oneLiner": "AI compliance officers",
       "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "B2B",
         "Compliance",
@@ -4500,7 +4664,7 @@
       ]
     },
     {
-      "rank": 130,
+      "rank": 131,
       "name": "Bidflow",
       "slug": "bidflow",
       "scores": {
@@ -4527,6 +4691,7 @@
       "ycPartner": "Ankit Gupta",
       "oneLiner": "AI Copilot for Electrical Estimating",
       "industry": "Real Estate and Construction / Real Estate and Construction -> Construction",
+      "location": "New York, NY, USA",
       "tags": [
         "SaaS",
         "Construction",
@@ -4535,7 +4700,43 @@
       ]
     },
     {
-      "rank": 131,
+      "rank": 132,
+      "name": "noetic",
+      "slug": "noetic",
+      "scores": {
+        "CB": 33,
+        "EG": 43,
+        "NR": 42,
+        "PG": 45,
+        "PT": 27,
+        "SL": 25,
+        "VK": 41
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Strong Pass",
+        "VK": "Pass"
+      },
+      "avg": 36.57,
+      "revenue": null,
+      "teamSize": 3,
+      "ycPartner": "Tyler Bosmeny",
+      "oneLiner": "AI that gets hardware compliance done in weeks, not months.",
+      "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Artificial Intelligence",
+        "Hardware",
+        "Robotics",
+        "Compliance"
+      ]
+    },
+    {
+      "rank": 133,
       "name": "Jinba",
       "slug": "jinba",
       "scores": {
@@ -4562,10 +4763,11 @@
       "ycPartner": "Ankit Gupta",
       "oneLiner": "Automate any enterprise workflow through chat",
       "industry": "B2B / B2B",
+      "location": "Remote (hiring in San Francisco and Tokyo)",
       "tags": []
     },
     {
-      "rank": 132,
+      "rank": 134,
       "name": "Button Computer",
       "slug": "button-computer",
       "scores": {
@@ -4592,6 +4794,7 @@
       "ycPartner": "Tyler Bosmeny",
       "oneLiner": "Button is the wearable AI that can talk.",
       "industry": "B2B / B2B -> Engineering, Product and Design",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "Hardware",
@@ -4599,7 +4802,7 @@
       ]
     },
     {
-      "rank": 133,
+      "rank": 135,
       "name": "Cascade",
       "slug": "cascade",
       "scores": {
@@ -4626,6 +4829,7 @@
       "ycPartner": "Diana Hu",
       "oneLiner": "Making Autonomous Intelligence Safe & Reliable",
       "industry": "B2B / B2B -> Infrastructure",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "B2B",
         "Security",
@@ -4635,7 +4839,7 @@
       ]
     },
     {
-      "rank": 134,
+      "rank": 136,
       "name": "Compresr",
       "slug": "compresr",
       "scores": {
@@ -4662,6 +4866,7 @@
       "ycPartner": "Jared Friedman",
       "oneLiner": "LLM-native context compression",
       "industry": "B2B / B2B -> Infrastructure",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "Developer Tools",
@@ -4670,7 +4875,7 @@
       ]
     },
     {
-      "rank": 135,
+      "rank": 137,
       "name": "Prana",
       "slug": "prana-health",
       "scores": {
@@ -4697,12 +4902,13 @@
       "ycPartner": "Tyler Bosmeny",
       "oneLiner": "An AI primary care doctor in your pocket",
       "industry": "Healthcare / Consumer Health and Wellness",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Health Tech"
       ]
     },
     {
-      "rank": 136,
+      "rank": 138,
       "name": "Salus",
       "slug": "salus",
       "scores": {
@@ -4729,6 +4935,7 @@
       "ycPartner": "Ankit Gupta",
       "oneLiner": "Guardrails to validate your agent's actions before they execute",
       "industry": "B2B / B2B -> Infrastructure",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Developer Tools",
         "B2B",
@@ -4738,7 +4945,7 @@
       ]
     },
     {
-      "rank": 137,
+      "rank": 139,
       "name": "Overdrive Health",
       "slug": "overdrive-health",
       "scores": {
@@ -4765,6 +4972,7 @@
       "ycPartner": null,
       "oneLiner": "AI Powered Medical Billing",
       "industry": "Healthcare / Healthcare Services",
+      "location": "New York, NY, USA",
       "tags": [
         "Health Tech",
         "Healthcare",
@@ -4772,7 +4980,7 @@
       ]
     },
     {
-      "rank": 138,
+      "rank": 140,
       "name": "Confluence Labs",
       "slug": "confluence-labs",
       "scores": {
@@ -4799,13 +5007,14 @@
       "ycPartner": null,
       "oneLiner": "We're an AI research lab focused on learning efficiency",
       "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "AI"
       ]
     },
     {
-      "rank": 139,
+      "rank": 141,
       "name": "Doomersion",
       "slug": "doomersion",
       "scores": {
@@ -4832,12 +5041,13 @@
       "ycPartner": null,
       "oneLiner": "Doomscroll to learn languages",
       "industry": "Consumer / Consumer",
+      "location": "San Francisco, CA, USA; Remote",
       "tags": [
         "Education"
       ]
     },
     {
-      "rank": 140,
+      "rank": 142,
       "name": "CatchBack Cards",
       "slug": "catchback-cards",
       "scores": {
@@ -4864,6 +5074,7 @@
       "ycPartner": "Brad Flora",
       "oneLiner": "a platform for maximizing the thrill of collecting trading cards",
       "industry": "Consumer / Consumer -> Gaming",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Crypto / Web3",
         "Consumer",
@@ -4871,7 +5082,7 @@
       ]
     },
     {
-      "rank": 141,
+      "rank": 143,
       "name": "Captain",
       "slug": "captain",
       "scores": {
@@ -4898,6 +5109,7 @@
       "ycPartner": "Garry Tan",
       "oneLiner": "Accurate knowledge search that scales",
       "industry": "B2B / B2B -> Infrastructure",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Developer Tools",
         "Big Data",
@@ -4905,7 +5117,7 @@
       ]
     },
     {
-      "rank": 142,
+      "rank": 144,
       "name": "Stilta",
       "slug": "stilta",
       "scores": {
@@ -4932,13 +5144,14 @@
       "ycPartner": "Gustaf Alstromer",
       "oneLiner": "Agentic AI for patent attorneys",
       "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "LegalTech"
       ]
     },
     {
-      "rank": 143,
+      "rank": 145,
       "name": "EigenPal",
       "slug": "eigenpal",
       "scores": {
@@ -4965,6 +5178,7 @@
       "ycPartner": "Jared Friedman",
       "oneLiner": "AI Document Workflows for Enterprises",
       "industry": "B2B / B2B -> Operations",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Documents",
         "Artificial Intelligence",
@@ -4972,7 +5186,7 @@
       ]
     },
     {
-      "rank": 144,
+      "rank": 146,
       "name": "Shofo",
       "slug": "shofo",
       "scores": {
@@ -4999,6 +5213,7 @@
       "ycPartner": "Jared Friedman",
       "oneLiner": "Common Crawl for Video",
       "industry": "B2B / B2B -> Infrastructure",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "Video",
@@ -5007,7 +5222,7 @@
       ]
     },
     {
-      "rank": 145,
+      "rank": 147,
       "name": "ClaimGlide",
       "slug": "claimglide",
       "scores": {
@@ -5034,6 +5249,7 @@
       "ycPartner": "Jared Friedman",
       "oneLiner": "AI automated prior-auths for private medical practices",
       "industry": "Healthcare / Healthcare Services",
+      "location": "No public data found",
       "tags": [
         "Digital Health",
         "Healthcare",
@@ -5042,7 +5258,7 @@
       ]
     },
     {
-      "rank": 146,
+      "rank": 148,
       "name": "Unisson",
       "slug": "unisson",
       "scores": {
@@ -5069,6 +5285,7 @@
       "ycPartner": "Diana Hu",
       "oneLiner": "The AI product specialist for customer-facing teams",
       "industry": "B2B / B2B -> Productivity",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "Workflow Automation",
@@ -5076,7 +5293,7 @@
       ]
     },
     {
-      "rank": 147,
+      "rank": 149,
       "name": "21st.dev",
       "slug": "21stdev",
       "scores": {
@@ -5103,6 +5320,7 @@
       "ycPartner": "Ankit Gupta",
       "oneLiner": "Orchestration layer for coding agents",
       "industry": "B2B / B2B -> Engineering, Product and Design",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Developer Tools",
         "B2B",
@@ -5110,7 +5328,7 @@
       ]
     },
     {
-      "rank": 148,
+      "rank": 150,
       "name": "Skillsync",
       "slug": "skillsync",
       "scores": {
@@ -5137,6 +5355,7 @@
       "ycPartner": "Tyler Bosmeny",
       "oneLiner": "Find anyone in open source",
       "industry": "B2B / B2B -> Human Resources",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "Recruiting",
@@ -5145,7 +5364,7 @@
       ]
     },
     {
-      "rank": 149,
+      "rank": 151,
       "name": "Inviscid AI",
       "slug": "inviscid-ai",
       "scores": {
@@ -5172,6 +5391,7 @@
       "ycPartner": "Ankit Gupta",
       "oneLiner": "Real-time Building Simulations to Optimize Energy and Operational?",
       "industry": "B2B / B2B -> Engineering, Product and Design",
+      "location": "San Francisco, CA, USA; Remote",
       "tags": [
         "Warehouse Management Tech",
         "IoT",
@@ -5180,7 +5400,7 @@
       ]
     },
     {
-      "rank": 150,
+      "rank": 152,
       "name": "RamAIn",
       "slug": "ramain",
       "scores": {
@@ -5207,6 +5427,7 @@
       "ycPartner": "Tyler Bosmeny",
       "oneLiner": "Super fast computer-use agents to build AI employees.",
       "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "Machine Learning",
@@ -5214,7 +5435,7 @@
       ]
     },
     {
-      "rank": 151,
+      "rank": 153,
       "name": "Velum Labs",
       "slug": "velum-labs",
       "scores": {
@@ -5241,13 +5462,48 @@
       "ycPartner": "Aaron Epstein",
       "oneLiner": "The OS for data quality across any stack",
       "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Machine Learning",
         "Data Engineering"
       ]
     },
     {
-      "rank": 152,
+      "rank": 154,
+      "name": "Glue",
+      "slug": "glue",
+      "scores": {
+        "CB": 29,
+        "EG": 34,
+        "NR": 43,
+        "PG": 37,
+        "PT": 27,
+        "SL": 27,
+        "VK": 40
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 33.86,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Jon Xu",
+      "oneLiner": "The Interface Design Canvas for AI agents",
+      "industry": "B2B / B2B -> Engineering, Product and Design",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Developer Tools",
+        "Design Tools"
+      ]
+    },
+    {
+      "rank": 155,
       "name": "Traverse",
       "slug": "traverse",
       "scores": {
@@ -5274,13 +5530,14 @@
       "ycPartner": "Jared Friedman",
       "oneLiner": "Data research company building RL envs for non-deterministic work",
       "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "Reinforcement Learning"
       ]
     },
     {
-      "rank": 153,
+      "rank": 156,
       "name": "Ritivel",
       "slug": "ritivel",
       "scores": {
@@ -5307,6 +5564,7 @@
       "ycPartner": "Gustaf Alstromer",
       "oneLiner": "AI-native platform for regulatory document submission",
       "industry": "Healthcare / Healthcare IT",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Generative AI",
         "Compliance",
@@ -5316,7 +5574,7 @@
       ]
     },
     {
-      "rank": 154,
+      "rank": 157,
       "name": "Agentic Fabriq",
       "slug": "agentic-fabriq",
       "scores": {
@@ -5343,6 +5601,7 @@
       "ycPartner": null,
       "oneLiner": "Okta for Agents.",
       "industry": "B2B / B2B",
+      "location": "Sunnyvale, CA, USA",
       "tags": [
         "AIOps",
         "DevSecOps",
@@ -5352,7 +5611,7 @@
       ]
     },
     {
-      "rank": 155,
+      "rank": 158,
       "name": "Maven",
       "slug": "maven",
       "scores": {
@@ -5379,6 +5638,7 @@
       "ycPartner": "Ankit Gupta",
       "oneLiner": "Payments for Voice Agents",
       "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Developer Tools",
         "Fintech",
@@ -5388,7 +5648,7 @@
       ]
     },
     {
-      "rank": 156,
+      "rank": 159,
       "name": "SideKit",
       "slug": "sidekit",
       "scores": {
@@ -5415,6 +5675,7 @@
       "ycPartner": "Diana Hu",
       "oneLiner": "One package to take your mobile app to production.",
       "industry": "B2B / B2B -> Analytics",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "API",
         "Enterprise Software",
@@ -5422,7 +5683,7 @@
       ]
     },
     {
-      "rank": 157,
+      "rank": 160,
       "name": "Envariant",
       "slug": "envariant",
       "scores": {
@@ -5449,6 +5710,7 @@
       "ycPartner": "Diana Hu",
       "oneLiner": "Interpretability and reasoning infra for foundation models.",
       "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Developer Tools",
         "B2B",
@@ -5456,7 +5718,7 @@
       ]
     },
     {
-      "rank": 158,
+      "rank": 161,
       "name": "Sonarly",
       "slug": "sonarly",
       "scores": {
@@ -5483,13 +5745,14 @@
       "ycPartner": "Jared Friedman",
       "oneLiner": "The AI that fixes production",
       "industry": "B2B / B2B -> Engineering, Product and Design",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Developer Tools",
         "Generative AI"
       ]
     },
     {
-      "rank": 159,
+      "rank": 162,
       "name": "The Token Company",
       "slug": "the-token-company",
       "scores": {
@@ -5516,6 +5779,7 @@
       "ycPartner": "Jared Friedman",
       "oneLiner": "Compression middleware that improves LLM outputs",
       "industry": "B2B / B2B -> Infrastructure",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "Developer Tools",
@@ -5525,7 +5789,7 @@
       ]
     },
     {
-      "rank": 160,
+      "rank": 163,
       "name": "Emdash",
       "slug": "emdash",
       "scores": {
@@ -5552,6 +5816,7 @@
       "ycPartner": "Gustaf Alstromer",
       "oneLiner": "Open-source Agentic Development Environment",
       "industry": "B2B / B2B -> Productivity",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "Developer Tools",
@@ -5560,7 +5825,7 @@
       ]
     },
     {
-      "rank": 161,
+      "rank": 164,
       "name": "Carson",
       "slug": "carson",
       "scores": {
@@ -5587,6 +5852,7 @@
       "ycPartner": null,
       "oneLiner": "more capable than Cowork, more secure than OpenClaw",
       "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Productivity",
         "Security",
@@ -5596,7 +5862,7 @@
       ]
     },
     {
-      "rank": 162,
+      "rank": 165,
       "name": "Sequence Markets",
       "slug": "sequence-markets",
       "scores": {
@@ -5623,6 +5889,7 @@
       "ycPartner": "Brad Flora",
       "oneLiner": "Execution layer for fragmented digital-asset markets.",
       "industry": "Fintech / Fintech",
+      "location": "New York, NY, USA",
       "tags": [
         "Fintech",
         "AI",
@@ -5630,7 +5897,7 @@
       ]
     },
     {
-      "rank": 163,
+      "rank": 166,
       "name": "Ashr",
       "slug": "ashr",
       "scores": {
@@ -5657,6 +5924,7 @@
       "ycPartner": "Harshita Arora",
       "oneLiner": "Mimic Users in Your Production Environment to Catch Agent Fails",
       "industry": "B2B / B2B -> Human Resources",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "Developer Tools",
@@ -5666,7 +5934,7 @@
       ]
     },
     {
-      "rank": 164,
+      "rank": 167,
       "name": "Autumn AI",
       "slug": "autumn-ai",
       "scores": {
@@ -5693,6 +5961,7 @@
       "ycPartner": "Ankit Gupta",
       "oneLiner": "Stalk your prospects at scale.",
       "industry": "B2B / B2B -> Infrastructure",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "Sales",
@@ -5701,7 +5970,7 @@
       ]
     },
     {
-      "rank": 165,
+      "rank": 168,
       "name": "Sparkles",
       "slug": "sparkles",
       "scores": {
@@ -5728,13 +5997,14 @@
       "ycPartner": "Jared Friedman",
       "oneLiner": "Make everyone on your team an engineer",
       "industry": "B2B / B2B -> Engineering, Product and Design",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Developer Tools",
         "Productivity"
       ]
     },
     {
-      "rank": 166,
+      "rank": 169,
       "name": "Cajal",
       "slug": "cajal-technologies",
       "scores": {
@@ -5761,6 +6031,7 @@
       "ycPartner": null,
       "oneLiner": "Scaling formal verification to accelerate scientific discovery",
       "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "B2B",
         "Big Data",
@@ -5768,7 +6039,7 @@
       ]
     },
     {
-      "rank": 167,
+      "rank": 170,
       "name": "Fenrock AI (YC W26)",
       "slug": "fenrock-ai-yc-w26",
       "scores": {
@@ -5795,6 +6066,7 @@
       "ycPartner": "Jon Xu",
       "oneLiner": "The most powerful AI agents for Financial Crime Compliance",
       "industry": "Fintech / Fintech",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "Fintech",
@@ -5803,7 +6075,7 @@
       ]
     },
     {
-      "rank": 168,
+      "rank": 171,
       "name": "Polymorph",
       "slug": "polymorph",
       "scores": {
@@ -5830,6 +6102,7 @@
       "ycPartner": "Brad Flora",
       "oneLiner": "Personalized notifs & attribution for consumer and self-serve apps",
       "industry": "B2B / B2B",
+      "location": "No public data found",
       "tags": [
         "SaaS",
         "B2B",
@@ -5839,7 +6112,7 @@
       ]
     },
     {
-      "rank": 169,
+      "rank": 172,
       "name": "Moda",
       "slug": "moda",
       "scores": {
@@ -5866,6 +6139,7 @@
       "ycPartner": "Ankit Gupta",
       "oneLiner": "The monitoring & analytics layer your AI agents need.",
       "industry": "B2B / B2B -> Infrastructure",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "SaaS",
@@ -5874,7 +6148,7 @@
       ]
     },
     {
-      "rank": 170,
+      "rank": 173,
       "name": "Travo",
       "slug": "travo",
       "scores": {
@@ -5901,6 +6175,7 @@
       "ycPartner": "Aaron Epstein",
       "oneLiner": "We use AI to collect and analyze real estate data",
       "industry": "Real Estate and Construction / Real Estate and Construction",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "Real Estate",
@@ -5908,7 +6183,7 @@
       ]
     },
     {
-      "rank": 171,
+      "rank": 174,
       "name": "Axis",
       "slug": "axis-2",
       "scores": {
@@ -5935,6 +6210,7 @@
       "ycPartner": "Ankit Gupta",
       "oneLiner": "An AI System for Institutional Trading Desks",
       "industry": "Fintech / Fintech",
+      "location": "No public data found",
       "tags": [
         "Fintech",
         "Analytics",
@@ -5944,7 +6220,7 @@
       ]
     },
     {
-      "rank": 172,
+      "rank": 175,
       "name": "Copperlane",
       "slug": "copperlane",
       "scores": {
@@ -5971,13 +6247,14 @@
       "ycPartner": null,
       "oneLiner": "Agents for Mortgage Origination",
       "industry": "B2B / B2B -> Infrastructure",
+      "location": "San Francisco, CA (copperlane.ai)",
       "tags": [
         "Fintech",
         "AI"
       ]
     },
     {
-      "rank": 173,
+      "rank": 176,
       "name": "Docura Health",
       "slug": "docura-health",
       "scores": {
@@ -6004,6 +6281,7 @@
       "ycPartner": null,
       "oneLiner": "AI-Native Medico-Legal Firm",
       "industry": "Healthcare / Healthcare",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Health Tech",
         "Legal",
@@ -6011,7 +6289,7 @@
       ]
     },
     {
-      "rank": 174,
+      "rank": 177,
       "name": "Fenrock AI",
       "slug": "fenrock-ai",
       "scores": {
@@ -6038,6 +6316,7 @@
       "ycPartner": "Jon Xu",
       "oneLiner": "The most powerful AI agents for Financial Crime Compliance",
       "industry": "Fintech / Fintech",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "Fintech",
@@ -6046,7 +6325,7 @@
       ]
     },
     {
-      "rank": 175,
+      "rank": 178,
       "name": "Zatanna",
       "slug": "zatanna",
       "scores": {
@@ -6073,13 +6352,14 @@
       "ycPartner": "Jared Friedman",
       "oneLiner": "Request Based Scraping Infrastructure",
       "industry": "B2B / B2B -> Engineering, Product and Design",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Developer Tools",
         "Web Development"
       ]
     },
     {
-      "rank": 176,
+      "rank": 179,
       "name": "sitefire",
       "slug": "sitefire",
       "scores": {
@@ -6106,6 +6386,7 @@
       "ycPartner": "Jon Xu",
       "oneLiner": "Marketing suite for the agentic web",
       "industry": "B2B / B2B -> Marketing",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Generative AI",
         "Marketing",
@@ -6113,7 +6394,7 @@
       ]
     },
     {
-      "rank": 177,
+      "rank": 180,
       "name": "Carrot Labs",
       "slug": "carrot-labs",
       "scores": {
@@ -6140,6 +6421,7 @@
       "ycPartner": "Brad Flora",
       "oneLiner": "Continuous Learning Platform for AI Agents",
       "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Reinforcement Learning",
         "Automation",
@@ -6147,7 +6429,7 @@
       ]
     },
     {
-      "rank": 178,
+      "rank": 181,
       "name": "Tensol",
       "slug": "tensol",
       "scores": {
@@ -6174,6 +6456,7 @@
       "ycPartner": "Gustaf Alstromer",
       "oneLiner": "AI Employees for your Business, Powered by OpenClaw",
       "industry": "B2B / B2B -> Infrastructure",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "B2B",
@@ -6182,7 +6465,7 @@
       ]
     },
     {
-      "rank": 179,
+      "rank": 182,
       "name": "Bubble Lab",
       "slug": "bubble-lab",
       "scores": {
@@ -6209,6 +6492,7 @@
       "ycPartner": "Diana Hu",
       "oneLiner": "Your ops super-employee in Slack",
       "industry": "B2B / B2B -> Engineering, Product and Design",
+      "location": "San Francisco, CA (PitchBook via search snippet)",
       "tags": [
         "Artificial Intelligence",
         "Workflow Automation",
@@ -6216,7 +6500,7 @@
       ]
     },
     {
-      "rank": 180,
+      "rank": 183,
       "name": "Booko",
       "slug": "booko",
       "scores": {
@@ -6243,6 +6527,7 @@
       "ycPartner": "Harshita Arora",
       "oneLiner": "Dynamic pricing for businesses that sell time slots",
       "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Machine Learning",
         "SaaS",
@@ -6251,7 +6536,7 @@
       ]
     },
     {
-      "rank": 181,
+      "rank": 184,
       "name": "Caretta",
       "slug": "caretta",
       "scores": {
@@ -6278,6 +6563,7 @@
       "ycPartner": "Tyler Bosmeny",
       "oneLiner": "Realtime AI for Sales Calls",
       "industry": "B2B / B2B -> Sales",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "SaaS",
         "Sales",
@@ -6286,7 +6572,7 @@
       ]
     },
     {
-      "rank": 182,
+      "rank": 185,
       "name": "Talking Computers",
       "slug": "talking-computers",
       "scores": {
@@ -6313,12 +6599,13 @@
       "ycPartner": "Ankit Gupta",
       "oneLiner": "AI Communication Lab",
       "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence"
       ]
     },
     {
-      "rank": 183,
+      "rank": 186,
       "name": "Cofia",
       "slug": "cofia",
       "scores": {
@@ -6345,6 +6632,7 @@
       "ycPartner": "Gustaf Alstromer",
       "oneLiner": "AI automations that write themselves",
       "industry": "B2B / B2B -> Productivity",
+      "location": "No public data found",
       "tags": [
         "Artificial Intelligence",
         "SaaS",
@@ -6353,7 +6641,7 @@
       ]
     },
     {
-      "rank": 184,
+      "rank": 187,
       "name": "Pollen",
       "slug": "pollen",
       "scores": {
@@ -6380,6 +6668,7 @@
       "ycPartner": "Jon Xu",
       "oneLiner": "AI Agents for Customer Success",
       "industry": "B2B / B2B -> Operations",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "Generative AI",
@@ -6388,7 +6677,7 @@
       ]
     },
     {
-      "rank": 185,
+      "rank": 188,
       "name": "Burt",
       "slug": "burt",
       "scores": {
@@ -6415,6 +6704,7 @@
       "ycPartner": "Ankit Gupta",
       "oneLiner": "AI teammates for logistics",
       "industry": "B2B / B2B -> Supply Chain and Logistics",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "B2B",
@@ -6423,7 +6713,7 @@
       ]
     },
     {
-      "rank": 186,
+      "rank": 189,
       "name": "Sila",
       "slug": "sila",
       "scores": {
@@ -6450,13 +6740,14 @@
       "ycPartner": "Diana Hu",
       "oneLiner": "Agent & Team Communication Workspace",
       "industry": "B2B / B2B -> Productivity",
+      "location": "No public data found",
       "tags": [
         "Artificial Intelligence",
         "Productivity"
       ]
     },
     {
-      "rank": 187,
+      "rank": 190,
       "name": "Crow",
       "slug": "crow",
       "scores": {
@@ -6483,6 +6774,7 @@
       "ycPartner": "Jared Friedman",
       "oneLiner": "Let users control your app through chat",
       "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "Generative AI",
@@ -6492,7 +6784,7 @@
       ]
     },
     {
-      "rank": 188,
+      "rank": 191,
       "name": "Sentrial",
       "slug": "sentrial",
       "scores": {
@@ -6519,6 +6811,7 @@
       "ycPartner": "Ankit Gupta",
       "oneLiner": "Production Monitoring for AI Agents",
       "industry": "B2B / B2B -> Engineering, Product and Design",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "AIOps",
         "Developer Tools",
@@ -6527,7 +6820,7 @@
       ]
     },
     {
-      "rank": 189,
+      "rank": 192,
       "name": "Arzule",
       "slug": "arzule",
       "scores": {
@@ -6554,6 +6847,7 @@
       "ycPartner": "Harshita Arora",
       "oneLiner": "AI-native revenue engine, starting with B2B partnerships",
       "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "SaaS",
         "B2B",
@@ -6562,7 +6856,7 @@
       ]
     },
     {
-      "rank": 190,
+      "rank": 193,
       "name": "Lucent",
       "slug": "lucent",
       "scores": {
@@ -6589,6 +6883,7 @@
       "ycPartner": "Gustaf Alstromer",
       "oneLiner": "AI that automatically watches your session replays to detect bugs.",
       "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "Developer Tools",
@@ -6596,7 +6891,7 @@
       ]
     },
     {
-      "rank": 191,
+      "rank": 194,
       "name": "Tepali",
       "slug": "tepali",
       "scores": {
@@ -6623,6 +6918,7 @@
       "ycPartner": null,
       "oneLiner": "AI-native operating system for medspas",
       "industry": "B2B / B2B",
+      "location": "No public data found",
       "tags": [
         "Artificial Intelligence",
         "Fintech",
@@ -6632,7 +6928,7 @@
       ]
     },
     {
-      "rank": 192,
+      "rank": 195,
       "name": "Resonate",
       "slug": "resonate",
       "scores": {
@@ -6659,10 +6955,11 @@
       "ycPartner": "Jared Friedman",
       "oneLiner": "The first AI-native messaging platform.",
       "industry": "Consumer / Consumer",
+      "location": "No public data found",
       "tags": []
     },
     {
-      "rank": 193,
+      "rank": 196,
       "name": "Syntropy",
       "slug": "syntropy",
       "scores": {
@@ -6689,6 +6986,7 @@
       "ycPartner": "Ankit Gupta",
       "oneLiner": "Ship code like a power user from day one.",
       "industry": "B2B / B2B -> Productivity",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Developer Tools",
         "Generative AI",
@@ -6698,7 +6996,7 @@
       ]
     },
     {
-      "rank": 194,
+      "rank": 197,
       "name": "Rubric AI",
       "slug": "rubric-ai",
       "scores": {
@@ -6725,6 +7023,7 @@
       "ycPartner": "Gustaf Alstromer",
       "oneLiner": "Post-training research and product lab",
       "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "Data Labeling",
@@ -6734,7 +7033,7 @@
       ]
     },
     {
-      "rank": 195,
+      "rank": 198,
       "name": "Bits",
       "slug": "bits-2",
       "scores": {
@@ -6761,13 +7060,14 @@
       "ycPartner": "Tyler Bosmeny",
       "oneLiner": "Fast and Safe OpenClaw on the cloud",
       "industry": "B2B / B2B -> Infrastructure",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "AIOps",
         "Deep Learning"
       ]
     },
     {
-      "rank": 196,
+      "rank": 199,
       "name": "Approxima",
       "slug": "approxima",
       "scores": {
@@ -6794,6 +7094,7 @@
       "ycPartner": "Diana Hu",
       "oneLiner": "Let your software build itself with agents that can find issues,?",
       "industry": "B2B / B2B -> Engineering, Product and Design",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
         "Enterprise Software",
@@ -6801,7 +7102,7 @@
       ]
     },
     {
-      "rank": 197,
+      "rank": 200,
       "name": "Q2Q",
       "slug": "q2q",
       "scores": {
@@ -6828,6 +7129,7 @@
       "ycPartner": "Harshita Arora",
       "oneLiner": "We help private equity teams find acquisition targets faster",
       "industry": "B2B / B2B -> Finance and Accounting",
+      "location": "San Francisco, CA, USA",
       "tags": [
         "Fintech",
         "SaaS",
@@ -6854,8 +7156,8 @@
       "persona": "CB",
       "values": {
         "CB": null,
-        "EG": 0.57,
-        "NR": 0.63,
+        "EG": 0.56,
+        "NR": 0.62,
         "PG": 0.66,
         "PT": 0.7,
         "SL": 0.73,
@@ -6865,10 +7167,10 @@
     {
       "persona": "EG",
       "values": {
-        "CB": 0.57,
+        "CB": 0.56,
         "EG": null,
         "NR": 0.63,
-        "PG": 0.75,
+        "PG": 0.76,
         "PT": 0.57,
         "SL": 0.5,
         "VK": 0.41
@@ -6877,7 +7179,7 @@
     {
       "persona": "NR",
       "values": {
-        "CB": 0.63,
+        "CB": 0.62,
         "EG": 0.63,
         "NR": null,
         "PG": 0.72,
@@ -6890,7 +7192,7 @@
       "persona": "PG",
       "values": {
         "CB": 0.66,
-        "EG": 0.75,
+        "EG": 0.76,
         "NR": 0.72,
         "PG": null,
         "PT": 0.66,

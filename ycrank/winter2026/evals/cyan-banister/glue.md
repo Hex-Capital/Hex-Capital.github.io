@@ -1,0 +1,24 @@
+﻿# Glue -- Cyan Banister Evaluation
+
+Here's what strikes me first about Glue: this is the most consensus-adjacent space I can imagine right now. AI developer tools is where every dollar in Silicon Valley is rushing. Cursor just raised at $29.3 billion. Lovable is at $6.6 billion with $200 million in ARR. Vercel, Bolt, Figma -- billions upon billions in cumulative funding aimed at roughly this same territory. When I say the most promising companies are not popular and difficult to assess, I mean it as a filter, not a platitude. An "AI design canvas for coding agents" is the kind of idea that makes everyone in a YC Demo Day audience nod along. Nobody's confused by it. Nobody thinks it's weird. That's precisely the signal that tells me the weirdness premium has been arbitraged out of this category before Glue has even shipped its first public repo.
+
+I always want to hear a founder's story before anything else -- not the pitch, the person. What I see from the dossier is two technically capable engineers from Microsoft, Amazon, and Meta. Perbhat taught himself machine learning, which resonates with me on a personal level as someone who learned to code in public libraries. But the thread that connects his biography to this specific problem is thin. He redesigned a launcher at Amazon and built RAG agents at Microsoft -- that's relevant experience, not a forging-in-fire origin story. I don't feel the biographical inevitability I look for, the sense that this founder was always going to build this exact thing because their life demanded it. Tejas won a mobile development competition at FBLA Nationals as a teenager, which is impressive, but his GitHub bio still says "Founder @ Willow (YC W26)" -- not Glue. That pivot signal tells me the current product might be weeks old, which means whatever conviction exists hasn't been stress-tested by time or hardship.
+
+The bull case deserves honest engagement. The timing argument is genuinely strong: coding agents like Claude Code and Codex are collapsing the engineering-product-design workflow into a single builder role, and nobody has built the canonical visual surface for that new workflow. Figma can't cannibalize its designer-collaboration model to go agent-first. Cursor is code-only. Lovable and Bolt generate entire apps but don't support iterative visual refinement against an existing codebase. There's a real gap, and if Glue's open-source approach captured the developer community the way VS Code or Supabase did, they could become the default canvas that all coding agents talk to -- a protocol-layer position with genuine network effects. That's a compelling story on paper. But it requires everything to go right simultaneously: the open-source repo needs to actually exist and gain traction (it doesn't appear to be public yet despite being claimed as the core distribution strategy), the product needs to be so good that developers choose it over features that Cursor or Figma will inevitably ship, and the team of two needs to outexecute competitors with thousands of engineers and billions in capital. That's not surmountable technology risk -- that's execution risk compounded by resource asymmetry.
+
+What I uniquely notice here is what's absent. Glue doesn't make an invisible system visible. It doesn't create economic access for people who lack it. It optimizes a workflow for software developers -- people who are already among the highest-compensated workers in the economy. When I backed Uber, I saw a poverty-alleviation tool for drivers. When I backed Affirm, I saw transparent credit replacing predatory fees. When I backed Flock Safety, I saw communities getting access to public safety data they'd never had. I don't see that dimension here. This is a productivity tool for people who are already thriving, built in a space where every investor in town wants to write a check. That's the inverse of what gets me out of bed.
+
+The co-founder dynamic has a mild positive signal -- they shared time at Microsoft -- but no evidence of how they resolve disagreements, and the Willow-to-Glue naming confusion introduces ambiguity about how aligned they are on the current direction. After what happened with HQ Trivia, I probe this explicitly, and here I'd want a real conversation. The two-person team in a capital-intensive competitive landscape is a vulnerability, not a strength, unless their conviction runs so deep they'd do this for a decade. Nothing in the dossier tells me that's the case.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Biographical Grit and Personal Stake | 10/30 |
+| Anti-Consensus Conviction and Weird Factor | 6/25 |
+| Economic Access and Real-World Impact | 4/20 |
+| Navigating Complexity in Hard Spaces | 4/15 |
+| Co-Founder Alignment and Team Resilience | 5/10 |
+| **Total** | **29/100** |
+
+**Total Score: 29/100** (Pass)

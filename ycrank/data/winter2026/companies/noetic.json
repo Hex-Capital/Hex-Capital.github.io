@@ -1,0 +1,77 @@
+{
+  "slug": "noetic",
+  "name": "noetic",
+  "oneLiner": "AI that gets hardware compliance done in weeks, not months.",
+  "metadata": {
+    "website": "https://getnoetic.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/noetic",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Hardware, Robotics, Compliance",
+    "yc_partner": "Tyler Bosmeny",
+    "emails": "founders@getnoetic.ai"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Hardware",
+    "Robotics",
+    "Compliance"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-09T05:25:32.174Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 25,
+      "tier": "Strong Pass"
+    },
+    "vinod-khosla": {
+      "score": 41,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 33,
+    "EG": 43,
+    "NR": 42,
+    "PG": 45,
+    "PT": 27,
+    "SL": 25,
+    "VK": 41
+  },
+  "consolidatedAvg": 36.57,
+  "consolidatedRank": 132,
+  "paths": {
+    "memo": "winter2026/memos/noetic.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/noetic.md",
+      "elad-gil": "winter2026/evals/elad-gil/noetic.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/noetic.md",
+      "paul-graham": "winter2026/evals/paul-graham/noetic.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/noetic.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/noetic.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/noetic.md"
+    }
+  }
+}

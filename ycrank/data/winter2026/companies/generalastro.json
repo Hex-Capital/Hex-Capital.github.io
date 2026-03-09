@@ -9,7 +9,9 @@
     "industry": "Industrials / Manufacturing and Robotics",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Robotics, Space Exploration, Aerospace"
+    "tags": "Robotics, Space Exploration, Aerospace",
+    "yc_partner": "Jon Xu",
+    "emails": "founders@generalastro.com"
   },
   "tags": [
     "Robotics",
@@ -17,31 +19,31 @@
     "Aerospace"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-26T17:59:01.728Z",
+  "memoGeneratedAt": "2026-03-09T22:12:36.155Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 44,
+      "score": 38,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 31,
+      "score": 29,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 33,
+      "score": 41,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
       "score": 36,
       "tier": "Pass"
     },
+    "peter-thiel": {
+      "score": 39,
+      "tier": "Pass"
+    },
     "sam-lessin": {
-      "score": 50,
-      "tier": "Neutral"
+      "score": 41,
+      "tier": "Pass"
     },
     "vinod-khosla": {
       "score": 52,
@@ -49,16 +51,16 @@
     }
   },
   "consolidatedScores": {
-    "CB": 44,
-    "EG": 31,
-    "NR": 33,
-    "PG": 39,
-    "PT": 36,
-    "SL": 50,
+    "CB": 38,
+    "EG": 29,
+    "NR": 41,
+    "PG": 36,
+    "PT": 39,
+    "SL": 41,
     "VK": 52
   },
-  "consolidatedAvg": 40.71,
-  "consolidatedRank": 97,
+  "consolidatedAvg": 39.43,
+  "consolidatedRank": 111,
   "paths": {
     "memo": "winter2026/memos/generalastro.md",
     "evals": {

@@ -9,7 +9,9 @@
     "industry": "Industrials / Industrials -> Energy",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Artificial Intelligence, Energy, Mining"
+    "tags": "Artificial Intelligence, Energy, Mining",
+    "yc_partner": "Brad Flora",
+    "emails": "founders@terranox.ai"
   },
   "tags": [
     "Artificial Intelligence",
@@ -17,48 +19,48 @@
     "Mining"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-25T06:04:08.177Z",
+  "memoGeneratedAt": "2026-03-09T22:02:23.542Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 54,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
       "score": 52,
       "tier": "Neutral"
     },
+    "elad-gil": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 50,
+      "tier": "Neutral"
+    },
     "vinod-khosla": {
-      "score": 55,
+      "score": 62,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 53,
-    "EG": 38,
-    "NR": 54,
-    "PG": 47,
-    "PT": 40,
-    "SL": 52,
-    "VK": 55
+    "CB": 52,
+    "EG": 40,
+    "NR": 48,
+    "PG": 38,
+    "PT": 45,
+    "SL": 50,
+    "VK": 62
   },
-  "consolidatedAvg": 48.43,
-  "consolidatedRank": 39,
+  "consolidatedAvg": 47.86,
+  "consolidatedRank": 40,
   "paths": {
     "memo": "winter2026/memos/terranox-ai.md",
     "evals": {

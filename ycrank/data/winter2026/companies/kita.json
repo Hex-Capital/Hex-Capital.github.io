@@ -9,7 +9,9 @@
     "industry": "Fintech / Fintech",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Fintech, SaaS, Emerging Markets"
+    "tags": "Fintech, SaaS, Emerging Markets",
+    "yc_partner": "Ankit Gupta (YC company page)",
+    "emails": "No public data found"
   },
   "tags": [
     "Fintech",
@@ -17,48 +19,48 @@
     "Emerging Markets"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-27T00:02:08.388Z",
+  "memoGeneratedAt": "2026-03-09T22:06:44.812Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 59,
+      "score": 52,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 66,
-      "tier": "Invest"
+      "score": 63,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 58,
+      "score": 52,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 73,
+      "score": 71,
       "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 43,
+      "score": 44,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 45,
-      "tier": "Neutral"
+      "score": 38,
+      "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 50,
+      "score": 52,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 59,
-    "EG": 66,
-    "NR": 58,
-    "PG": 73,
-    "PT": 43,
-    "SL": 45,
-    "VK": 50
+    "CB": 52,
+    "EG": 63,
+    "NR": 52,
+    "PG": 71,
+    "PT": 44,
+    "SL": 38,
+    "VK": 52
   },
-  "consolidatedAvg": 56.29,
-  "consolidatedRank": 11,
+  "consolidatedAvg": 53.14,
+  "consolidatedRank": 20,
   "paths": {
     "memo": "winter2026/memos/kita.md",
     "evals": {

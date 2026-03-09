@@ -3,61 +3,66 @@
   "name": "Payna",
   "oneLiner": "Crypto/fintech compliance simplified.",
   "metadata": {
-    "website": "https://paena.co/",
+    "website": "payna.com",
     "yc_page": "https://www.ycombinator.com/companies/payna",
     "batch": "Winter 2026",
     "industry": "B2B / B2B -> Finance and Accounting",
-    "team_size": "0",
-    "location": "San Francisco, CA (web3.career job posting)",
-    "tags": "Finance, B2B"
+    "team_size": "0 (YC listing); research indicates 2 co-founders + at least 1 additional team member",
+    "location": "San Francisco, CA, US (YC page)",
+    "tags": "Artificial Intelligence, Fintech, Finance, B2B, Compliance",
+    "yc_partner": "Brad Flora",
+    "emails": "hello@payna.com"
   },
   "tags": [
+    "Artificial Intelligence",
+    "Fintech",
     "Finance",
-    "B2B"
+    "B2B",
+    "Compliance"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-26T18:00:31.267Z",
+  "memoGeneratedAt": "2026-03-09T22:11:20.960Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 49,
-      "tier": "Neutral"
+      "score": 26,
+      "tier": "Pass"
     },
     "elad-gil": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 46,
-      "tier": "Pass"
-    },
-    "paul-graham": {
       "score": 37,
       "tier": "Pass"
     },
+    "naval-ravikant": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 32,
+      "tier": "Pass"
+    },
     "peter-thiel": {
-      "score": 29,
+      "score": 21,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 43,
-      "tier": "Pass"
+      "score": 20,
+      "tier": "Strong Pass"
     },
     "vinod-khosla": {
-      "score": 47,
-      "tier": "Neutral"
+      "score": 30,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 49,
-    "EG": 33,
-    "NR": 46,
-    "PG": 37,
-    "PT": 29,
-    "SL": 43,
-    "VK": 47
+    "CB": 26,
+    "EG": 37,
+    "NR": 31,
+    "PG": 32,
+    "PT": 21,
+    "SL": 20,
+    "VK": 30
   },
-  "consolidatedAvg": 40.57,
-  "consolidatedRank": 99,
+  "consolidatedAvg": 28.14,
+  "consolidatedRank": 194,
   "paths": {
     "memo": "winter2026/memos/payna.md",
     "evals": {

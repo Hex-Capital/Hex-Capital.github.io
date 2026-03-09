@@ -11,111 +11,105 @@
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
 | Tags | Robotics, Space Exploration, Aerospace |
+| YC Partner | Jon Xu |
+| Emails | founders@generalastro.com |
 
 ## The Idea
 
-**Problem:** Microgravity environments unlock superior manufacturing outcomes for pharmaceuticals, semiconductors, and advanced materials — but the constraint is labor capacity in orbit (YC company page). Current in-space manufacturing relies on either astronaut crew time (extremely expensive at ~$130K per crew-hour on the ISS) or bespoke, single-purpose hardware. Existing robotic systems for space (e.g., Canadarm2, Redwire's 3D printers) are purpose-built for narrow tasks and lack the autonomy and versatility needed to support diverse microgravity research and manufacturing workflows.
+**Problem:** Microgravity environments enable unique scientific and manufacturing outcomes — proteins crystallize without defects, semiconductors form without flaws, and optical fibers achieve higher purity. However, astronaut time on the ISS costs an estimated $130K per hour, and on commercial stations it is more than 3x that (General Astronautics website). The bottleneck for scaling microgravity research and manufacturing is not the science but the labor required to perform it. Current laboratory work in orbit — pipetting, sample prep, plate handling, reagent mixing — requires crew intervention, making experiments prohibitively expensive and throughput-limited.
 
-**Approach:** General Astronautics is building robots designed specifically for autonomous operation in microgravity environments, targeting both scientific research and manufacturing applications (company website; YC company page). The company's website describes it as "A Space Robotics Company for In-Space Manufacturing and Scientific Research" (generalastro.com). The specific robotic form factor, autonomy stack, and payload capabilities have not been publicly detailed.
+**Approach:** General Astronautics builds autonomous robotic systems designed to handle laboratory work in microgravity without crew intervention. The robots perform pipetting, sample prep, plate handling, and reagent mixing with precision and autonomy, replacing the need for astronaut time on routine research and manufacturing tasks (YC company page).
 
-**Differentiation:** Unlike Varda Space Industries, which builds entire spacecraft and reentry capsules for pharmaceutical crystallization, General Astronautics focuses on the robotic labor layer — the manipulators and autonomous systems that perform work in microgravity. Unlike GITAI, which has demonstrated dual-arm robotic systems for in-space servicing, assembly, and manufacturing (ISAM) outside the ISS (GITAI press release, March 2024), General Astronautics appears to target the broader microgravity research and manufacturing workflow rather than satellite servicing. Unlike Redwire/Made In Space, which operates fixed 3D printing platforms on the ISS, General Astronautics appears to be building mobile robotic systems.
+**Differentiation:** Unlike vertically integrated in-space manufacturing companies such as Varda Space Industries (which builds entire spacecraft for pharmaceutical manufacturing) or Space Forge (which builds returnable satellite platforms for semiconductor materials), General Astronautics focuses specifically on general-purpose robotic automation for microgravity environments. Unlike GITAI, which builds space robotic arms primarily for satellite servicing and assembly, General Astronautics targets laboratory and manufacturing automation. The company's approach is platform-agnostic — its robots could theoretically operate aboard any orbital facility (ISS, Axiom, Vast, Orbital Reef) rather than requiring a proprietary spacecraft.
 
-**Business Model:** No pricing page or revenue model is publicly available. [Inferred]: The most likely monetization path is hardware sales or leases of robotic systems to space station operators, pharmaceutical companies running microgravity experiments, and government research agencies (NASA, ESA, JAXA), potentially supplemented by robotics-as-a-service contracts for in-orbit manufacturing campaigns.
+**Business Model:** No pricing page or revenue model is publicly disclosed. [Inferred]: The most likely monetization path is a combination of hardware sales/leases to space station operators and research organizations, and per-experiment service contracts, given that the customer base (space agencies, pharmaceutical companies, materials science firms) is accustomed to contract-based procurement.
 
-**TAM/SAM:** The global space robotics market was estimated at $5.04 billion in 2024, projected to reach $8.5 billion by 2030 at a 9.5% CAGR (Grand View Research, 2024 via search snippet). The in-space manufacturing market was estimated at $1.33 billion in 2024, projected to reach $23.3 billion by 2035 at a 29.7% CAGR (Market Research Future, 2024 via search snippet). The serviceable addressable market for microgravity-specific robotic labor systems is a subset of both markets. No public SAM estimate specific to this niche was found.
+**TAM/SAM:** The in-space manufacturing market is estimated at $1.33B in 2024, projected to reach $23.3B by 2035 at a 29.74% CAGR (Market Research Future, 2025 via search snippet). MarketsandMarkets estimates the market at $4.6B in 2030 growing to $62.8B by 2040 at a 29.7% CAGR (MarketsandMarkets via search snippet). The space robotics market is estimated at $5.48B in 2025, projected to reach $8.16B by 2030 at an 8.29% CAGR (Mordor Intelligence, 2025 via search snippet). The microgravity research market is estimated at ~$3.8B in 2025, projected to reach $5.83B by 2030 at 9.8% CAGR (Business Research Company, 2025 via search snippet). The SAM — robotic automation specifically for orbital laboratories — is a subset of these markets. No public SAM estimate specific to this niche was found.
 
-**GTM / Distribution:** [Inferred]: The most likely initial distribution path is through NASA SBIR/STTR grants and partnerships with commercial space station developers (e.g., Axiom Space, Vast, Blue Origin's Orbital Reef) who will need robotic infrastructure for their platforms. NVIDIA Inception membership (generalastro.com) suggests the company may leverage NVIDIA's compute/AI ecosystem for the autonomy stack, which could serve as a channel to enterprise partners.
+**GTM / Distribution:** [Inferred]: The most likely distribution path is direct sales and partnerships with commercial space station operators (Axiom Space, Vast, Blue Origin's Orbital Reef) and government agencies (NASA, JAXA, ESA) that fund microgravity research. The NVIDIA Inception membership may provide technical resources and credibility for hardware/AI development. Given the small number of potential orbital facilities, the market is concentrated enough to pursue through direct relationships rather than broad go-to-market motions.
 
 ## Defensibility
 
-The company is pre-product in public terms, with no disclosed IP, patents, or deployed systems. The NVIDIA Inception program membership (generalastro.com) signals investment in AI/autonomy capabilities. The founding team brings SpaceX hardware reliability experience (Bram Schork) and Carnegie Mellon robotics research credentials (Shibo Zhou, per YC page).
+The company operates in a domain with high technical complexity — building robotic systems that function reliably in microgravity, handle delicate laboratory protocols autonomously, and operate without crew supervision requires specialized engineering across mechanical design, fluid handling in zero-g, and autonomous control systems. The NVIDIA Inception membership and the founders' backgrounds (SpaceX, Caltech, CMU Robotics) provide technical credibility.
 
-[Inferred]: Potential moat could develop via: (1) flight heritage — once a robotic system is qualified and demonstrated in orbit, the regulatory and qualification burden for competitors to catch up is substantial; (2) proprietary microgravity manipulation data from in-orbit testing, which cannot be replicated on Earth; (3) integration partnerships with commercial space station operators who prefer to standardize on a single robotic platform.
+No patents or published IP filings were found in public sources. The company is pre-product and pre-revenue, so network effects and data moats are not yet applicable. [Inferred]: Over time, operational data from microgravity experiments could create a data advantage in optimizing robotic protocols for zero-g, and early deployment on commercial stations could create switching costs as operators integrate the robots into their workflows.
 
-**Market structure:** Space robotics requires extensive qualification and testing for the space environment (thermal, radiation, vibration, vacuum), creating high barriers to entry. Large aerospace incumbents (Northrop Grumman, Maxar) build robotic arms for specific government contracts but face business model constraints in pursuing small-scale commercial microgravity manufacturing robots — their cost structures and sales cycles are optimized for large government procurements, not iterative commercial hardware development. [Inferred]: This creates a structural opening for a startup that can move faster on commercial space station timelines.
+**Market structure:** In-space manufacturing incumbents (Redwire/Made In Space) are diversified public companies focused on their own manufacturing processes (3D printing, crystal growth) rather than general-purpose robotic automation. Building general-purpose microgravity robots would represent a new product line for these incumbents, requiring different engineering competencies (autonomous manipulation vs. additive manufacturing). Varda and Space Forge are vertically integrated around their own spacecraft and specific manufacturing processes — offering general-purpose robots to third parties would conflict with their core business model of owning the end-to-end manufacturing pipeline. GITAI is the most structurally similar competitor but has focused its roadmap on satellite servicing rather than laboratory automation.
 
-**Commoditization risk:** Several well-funded startups (GITAI at $60.5M+, Motiv Space Systems with NASA heritage) are building space robotic arms and manipulators. The core robotics technology (manipulation, autonomy, sensing) draws on well-understood terrestrial robotics principles, though space-qualifying these systems adds significant engineering complexity. The risk of commoditization at the component level is moderate; differentiation likely depends on the autonomy software and microgravity-specific manipulation algorithms.
+**Commoditization risk:** GITAI could pivot toward microgravity laboratory automation. Terrestrial lab automation companies (e.g., Opentrons, Hamilton) could develop microgravity-adapted versions of their systems. However, the microgravity adaptation challenge is non-trivial — fluid handling, mechanical actuation, and thermal management all behave differently in zero-g, creating a meaningful engineering barrier.
 
 ## Market & Traction
 
 **Traction signals:**
 - Y Combinator Winter 2026 batch member (YC company page)
-- NVIDIA Inception program member (generalastro.com)
-- Company Twitter/X: @GenAstronautics (YC company page; follower count not retrievable due to JavaScript rendering)
-- Company LinkedIn page listed on YC profile (follower count not retrievable)
-- Bram Schork Twitter/X: @bramschork (YC company page; follower count not retrievable)
-- Shibo Zhou Twitter/X: @ShiboZhou (YC company page; follower count not retrievable)
-- No press coverage found in named publications
-- No Product Hunt launch found
-- No app store or download metrics (hardware company)
+- NVIDIA Inception program member (General Astronautics website)
+- YC Launch: February 26, 2026 (YC launch tweet on X)
+- Company X/Twitter: @GenAstronautics (follower count not retrievable due to X.com JavaScript rendering)
+- LinkedIn: linkedin.com/company/generalastronautics (follower count not retrievable)
+- No Product Hunt presence found
 - No Discord/Slack community found
-- No job postings found beyond the two founders
-- Website is a minimal landing page with no detailed product information (generalastro.com)
+- No job postings found
+- No press coverage in named publications found
+- No revenue or customer announcements found
 
 **Competitive landscape:**
 
-1. **GITAI** (~$60.5M raised including Series B Extension, November 2024; GITAI press release): Space robotics startup building autonomous robotic arms for in-space servicing, assembly, and manufacturing. Completed external ISS demonstration of dual-arm system in March 2024. Revenue unknown. *Key differentiator vs. General Astronautics:* GITAI focuses primarily on satellite servicing and structural assembly rather than microgravity research/manufacturing workflows.
+| Competitor | Funding | Revenue | Key Differentiator vs. General Astronautics |
+|---|---|---|---|
+| **Varda Space Industries** | $329M total, $187M Series C (July 2025) (PR Newswire via search snippet) | Revenue from DoD contracts; amount undisclosed | Vertically integrated spacecraft for pharmaceutical manufacturing; owns entire vehicle + process vs. General Astronautics' platform-agnostic robots |
+| **GITAI** | ~$129M total, $15.5M Series B extension (Oct 2024) (PR Newswire via search snippet) | Government contracts (NASA, JAXA); amount undisclosed | General-purpose space robotic arms focused on satellite servicing/assembly vs. General Astronautics' focus on laboratory/manufacturing automation |
+| **Redwire Corporation (incl. Made In Space)** | Public company (NYSE: RDW) | $304.1M FY2024 revenue (Redwire SEC filing via search snippet) | Diversified space infrastructure incumbent with operational ISS manufacturing hardware (AMF); large and broad vs. General Astronautics' focused startup approach |
+| **Space Forge** | $50.9M total, $30M Series A (May 2025) (TechCrunch via search snippet) | Pre-revenue | Builds returnable satellite platforms for semiconductor materials manufacturing; owns the vehicle vs. General Astronautics' robotic systems approach |
+| **Motiv Space Systems** | Primarily NASA contract/SBIR-funded (~$4M NASA Phase II, Aug 2024) (CB Insights via search snippet) | Contract-based; amount undisclosed | Builds robotic components (arms, actuators) for space missions including Mars Perseverance rover; component supplier vs. General Astronautics' integrated autonomous systems |
 
-2. **Varda Space Industries** ($329M total raised, Series C of $187M in July 2025; Varda press release via PRNewswire): Builds spacecraft with reentry capsules for pharmaceutical crystallization in microgravity. Four capsules launched as of July 2025. Revenue unknown. *Key differentiator vs. General Astronautics:* Varda is vertically integrated (builds the whole spacecraft), whereas General Astronautics focuses on the robotic labor layer.
-
-3. **Redwire / Made In Space** (publicly traded; $304M revenue in 2024; Redwire financials via search snippet): Operates the Additive Manufacturing Facility on the ISS since 2016, producing 200+ parts in orbit. *Key differentiator vs. General Astronautics:* Redwire focuses on fixed 3D printing platforms, not mobile autonomous robots.
-
-4. **Motiv Space Systems** (primarily NASA SBIR/grant funded; Motiv SBIR awards via search snippet): Builds robotic arms with Mars rover heritage (Spirit, Opportunity, Curiosity lineage). Selected for NASA's Fly Foundational Robots demo. Revenue unknown. *Key differentiator vs. General Astronautics:* Motiv focuses on government contracts and planetary surface robotics, with less emphasis on commercial microgravity manufacturing.
-
-5. **Astrobotic Technology** (~$249.6M total funding; Tracxn via search snippet): Lunar lander and space robotics company focused on payload delivery to the Moon. *Key differentiator vs. General Astronautics:* Astrobotic targets lunar surface delivery and operations, not orbital microgravity manufacturing.
-
-**Why now:**
-- Commercial space stations are entering development: Axiom Space, Vast, and Blue Origin's Orbital Reef are all building platforms intended to replace the ISS (expected to be deorbited around 2030), creating demand for robotic infrastructure.
-- Launch costs have dropped significantly with SpaceX Falcon 9 reusability and upcoming Starship, making it economically viable to send robotic payloads to orbit more frequently.
-- [Inferred]: The convergence of lower launch costs, commercial space station demand, and advances in AI-driven robot autonomy (leveraging terrestrial advances from companies like NVIDIA) creates a specific window for microgravity robotics.
+**Why now:** [Inferred]: Several converging factors: (1) Commercial space stations from Axiom Space, Vast, and Blue Origin's Orbital Reef are under development to succeed the ISS (scheduled for deorbiting ~2030), creating new demand for automated research and manufacturing capabilities aboard these platforms. (2) SpaceX's Starship and other heavy-lift vehicles are driving down launch costs, making it economically viable to send robotic equipment to orbit. (3) Demonstrated microgravity manufacturing results — Varda's successful pharmaceutical reentry missions, Redwire's operational ISS manufacturing — have validated the scientific premise, shifting the challenge from "does microgravity manufacturing work?" to "how do we scale it?"
 
 ## Founders & Team
 
 **Bram Schork** — Co-Founder & CEO
-- BS Mechanical Engineering with Aerospace Minor, California Institute of Technology (Caltech) (LinkedIn, GoCaltech athletics roster)
-- SpaceX: Starlink Space Lasers hardware reliability intern (YC company page; GetProg.ai profile)
-- IMETALX: Simulation work with EO/IR imagery and techno-economic modeling (GetProg.ai profile)
-- GLAMCOR: Electrical Engineer, developed proprietary battery management system (GetProg.ai profile)
-- ResearchGate: 2 publications, 47 citations, affiliated with Caltech Dept. of Mechanical & Civil Engineering (ResearchGate profile)
-- Contributor to Soft Robotics Toolkit (softroboticstoolkit.com)
-- Twitter/X: @bramschork (count not retrievable due to JavaScript rendering)
-- LinkedIn: linkedin.com/in/bramschork — 500+ connections, headline references "Space Robots | General Astronautics" (LinkedIn)
-- GitHub: github.com/bramschork — 23 repositories, 10 followers; pinned repo "CaltechCal" (Python utility). No public space or robotics-specific repos visible (GitHub)
+- BS Mechanical Engineering (Aerospace minor, Business Economics & Management major), California Institute of Technology (class of 2026) (Caltech Athletics profile)
+- Previously: SpaceX — Starlink Space Lasers Engineering Intern (2024), designing robotic testing assemblies for laser optics validation (YC company page, LinkedIn). Cosmic Robotics — Robotics Engineering Intern (2025). Ansys/AGI — Software Engineering Intern (2021–2022), earned STK Grand Master Certification (GetProg profile via search snippet). IMETALX — Simulation Intern (2023–2024), EO/IR imagery analysis and orbital debris tracking (GetProg profile via search snippet).
+- Published co-author: "Soluble Polymer Pneumatic Networks and a Single-Pour System for Improved Accessibility and Durability of Soft Robotic Actuators," *Soft Robotics* journal, 2021 (SAGE Journals via search snippet)
+- Won Harvard International Soft Robotics Design Competition in 2017 and 2018 as a high school student (Main Line Media News, 2017, 2018 via search snippet)
+- Twitter/X: @bramschork — ~190 followers (via search index data; count not directly verifiable)
+- LinkedIn: linkedin.com/in/bramschork — "Space Robots | General Astronautics," 500+ connections
+- GitHub: github.com/bramschork — 23 repos, 18 total stars, 9 followers. No notable high-star repos.
 
 **Shibo Zhou** — Co-Founder & CTO
-- Background in Computer Science and Robotics from Carnegie Mellon University (YC company page)
-- No additional public career history found that could be confirmed as belonging to this specific individual
-- Twitter/X: @ShiboZhou (per YC page; count not retrievable)
-- LinkedIn: Listed on YC page but no matching public profile confirmed with Carnegie Mellon + General Astronautics credentials
-- GitHub: No public repos found
+- CS & Robotics, Carnegie Mellon University (YC company page)
+- No prior companies or exits found in public sources
+- Twitter/X: @ShiboZhou (per YC page; activity level and follower count not retrievable)
+- LinkedIn: linkedin.com/in/shiboz/ (per YC page; headline not retrievable)
+- GitHub: Possibly github.com/ShiboZ — 4 public repos (all forks), 1 follower. No original or robotics-related repos visible.
 
-**Co-founder relationship:** Bram Schork attended Caltech in Pasadena, CA, while Shibo Zhou studied at Carnegie Mellon University in Pittsburgh, PA (per YC page). No shared employer or university overlap is visible from available data. No public data on co-founder history.
+**Co-founder relationship:** Both founders are connected to robotics — Schork through Caltech mechanical engineering and SpaceX, Zhou through CMU CS & Robotics. No shared prior employer or university was identified from available data.
 
-**Founder-market fit:** Bram Schork brings direct SpaceX hardware reliability experience on the Starlink laser communication program, providing first-hand knowledge of designing hardware for the space environment and navigating SpaceX's engineering culture. His Caltech mechanical/aerospace engineering background and soft robotics research provide relevant technical grounding. Shibo Zhou's Carnegie Mellon Computer Science and Robotics credentials (per YC page) complement with autonomy and perception expertise, which are critical for robots operating without real-time human control in microgravity. No advisors, board members, or notable investors beyond Y Combinator and NVIDIA Inception have been publicly disclosed.
+**Founder-market fit:** Schork brings direct SpaceX experience (Starlink hardware reliability), hands-on robotics engineering across multiple internships, and a published soft robotics research background — a combination that maps directly to building robotic systems for space. Zhou brings CMU's CS & Robotics program, one of the top-ranked robotics programs globally. Together they cover the mechanical/aerospace and software/autonomy dimensions of the problem. The company is also part of the NVIDIA Inception program, providing access to GPU computing resources relevant to autonomous systems development.
 
 ## Key Risks
 
-**Flight qualification timeline risk:** Space-rated robotic hardware requires extensive thermal, radiation, vibration, and vacuum testing. No public evidence of hardware prototypes, test results, or flight qualification milestones exists. The path from concept to in-orbit demonstration typically requires years and substantial capital beyond pre-seed levels.
+**Commercial space station timeline dependency:** The primary market for microgravity lab automation depends on commercial space stations (Axiom, Vast, Orbital Reef) becoming operational. These programs face their own technical, regulatory, and funding risks. Delays in station deployment directly compress General Astronautics' addressable market timeline, as ISS deorbiting (~2030) would reduce available orbital laboratory capacity in the interim.
 
-**Customer platform dependency:** The primary near-term customers for microgravity robotics are commercial space station operators (Axiom, Vast, Orbital Reef), none of which are fully operational yet. Delays or cancellations in these programs would directly constrain General Astronautics' addressable market and deployment timeline.
+**Customer concentration:** The number of potential buyers for microgravity robotic systems is extremely small — a handful of space agencies and commercial station operators. This creates high customer concentration risk where losing a single contract or partnership could materially impact the business. The company's revenue trajectory depends on a very small number of procurement decisions.
 
-**Well-funded competitor encroachment:** GITAI has raised $60.5M+ and already demonstrated autonomous robotic operations outside the ISS (GITAI press release, March 2024). Redwire has $304M in annual revenue and established ISS manufacturing presence. Both could extend into microgravity manufacturing robotics, potentially with the advantage of existing flight heritage and customer relationships.
+**GITAI competitive threat:** GITAI has raised ~$129M and is building general-purpose space robotic systems with NASA and JAXA contracts (PR Newswire via search snippet). A strategic pivot by GITAI toward microgravity laboratory automation — which is adjacent to their existing satellite servicing work — would create a well-funded direct competitor with established government relationships and flight heritage.
 
-**Capital intensity:** Space robotics hardware development, testing, and launch costs are substantial. The standard YC deal (~$500K) provides limited runway for hardware development in this sector compared to software startups. The company will likely need to raise significant follow-on capital to reach a first in-orbit demonstration.
+**Microgravity fluid handling technical risk:** Autonomous laboratory operations in microgravity require solving non-trivial engineering challenges in fluid handling (pipetting, reagent mixing), as surface tension and capillary forces dominate over gravity. This is an unproven technical domain for a two-person team without disclosed flight heritage or microgravity testing data.
 
-**Brand disambiguation:** The name "General Astronautics" overlaps with "General Astronautics Research Corporation" (@_GARC_, garc.space), an unrelated entity with a Twitter account since 2017 (X.com search results). This may create confusion in online search results and brand recognition.
+**Founder experience depth:** Both founders appear to be recent graduates or near-graduation (Schork: Caltech class of 2026; Zhou: CMU, graduation year unknown). Their experience consists primarily of internships rather than full-time industry roles. Selling robotic systems to NASA and commercial space station operators typically requires deep industry relationships and credibility that may take time to build.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $5.04B space robotics market (Grand View Research, 2024 via search snippet, 9.5% CAGR to 2030); $1.33B in-space manufacturing market (Market Research Future, 2024 via search snippet, 29.7% CAGR to 2035) |
-| SAM | No public data found |
-| Traction | YC W26 batch member; NVIDIA Inception program member (generalastro.com). No other public traction signals found |
+| TAM | In-space manufacturing: $23.3B by 2035 at 29.74% CAGR (Market Research Future via search snippet); Space robotics: $8.16B by 2030 at 8.29% CAGR (Mordor Intelligence via search snippet) |
+| SAM | No public data found for robotic microgravity lab automation specifically |
+| Traction | YC W26 batch member; NVIDIA Inception member; YC Launch Feb 26, 2026 (YC launch tweet on X) |
 | Revenue Signal | No public data found |
-| Founders | Bram Schork (CEO): Caltech ME/Aero, ex-SpaceX Starlink Lasers. Shibo Zhou (CTO): Carnegie Mellon CS & Robotics (per YC page) |
-| Competitors | GITAI ($60.5M+ raised, revenue unknown, autonomous robotic arms for ISAM with ISS flight demo); Varda Space Industries ($329M raised, revenue unknown, vertically integrated spacecraft for pharma manufacturing); Redwire/Made In Space (public, $304M revenue 2024, fixed 3D printing on ISS); Motiv Space Systems (NASA grant-funded, revenue unknown, Mars rover arm heritage); Astrobotic (~$249.6M raised, revenue unknown, lunar delivery focus) |
-| Moat Signals | No public data found. Potential moat via flight heritage and microgravity manipulation data if achieved |
-| Risk Factors | Flight qualification timeline, commercial space station platform dependency, well-funded competitor encroachment, capital intensity |
-| Founder Reach | Bram Schork: Twitter @bramschork (count not retrievable), LinkedIn 500+, GitHub 23 repos/10 followers. Shibo Zhou: Twitter @ShiboZhou (count not retrievable), LinkedIn not confirmed, GitHub not found |
+| Founders | Bram Schork (CEO): Caltech ME, SpaceX Starlink Lasers intern, published soft robotics researcher. Shibo Zhou (CTO): CMU CS & Robotics. |
+| Competitors | Varda Space Industries ($329M raised, revenue undisclosed, vertically integrated pharma spacecraft); GITAI (~$129M raised, revenue undisclosed, space robotic arms for satellite servicing); Redwire/Made In Space (public, $304.1M FY2024 revenue, diversified space infrastructure incumbent); Space Forge ($50.9M raised, pre-revenue, returnable satellite platforms); Motiv Space Systems (NASA contract-funded, robotic components) |
+| Moat Signals | Technical complexity of microgravity robotics; NVIDIA Inception membership; no patents found |
+| Risk Factors | Commercial space station timeline dependency, extreme customer concentration, GITAI competitive pivot risk, unproven microgravity fluid handling, early-career founding team |
+| Founder Reach | Bram Schork: Twitter ~190 followers (via search index), LinkedIn 500+ connections, GitHub 18 stars. Shibo Zhou: Twitter @ShiboZhou (count not retrievable), LinkedIn (not retrievable), GitHub ~0 stars. |
 | Distribution Signals | No public data found |
+| Emails | founders@generalastro.com |

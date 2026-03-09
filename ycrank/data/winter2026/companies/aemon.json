@@ -1,7 +1,7 @@
 {
   "slug": "aemon",
   "name": "Aemon",
-  "oneLiner": "The AI R&D Engineer",
+  "oneLiner": "The Forward-Deployed AI Research Engineer",
   "metadata": {
     "website": "https://aemon.ai/",
     "yc_page": "https://www.ycombinator.com/companies/aemon",
@@ -9,33 +9,35 @@
     "industry": "B2B / B2B",
     "team_size": "3",
     "location": "San Francisco, CA, USA",
-    "tags": "Artificial Intelligence, B2B"
+    "tags": "B2B, AI",
+    "yc_partner": "Jon Xu",
+    "emails": "founder@aemon.ai"
   },
   "tags": [
-    "Artificial Intelligence",
-    "B2B"
+    "B2B",
+    "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-26T18:00:40.910Z",
+  "memoGeneratedAt": "2026-03-09T22:03:04.039Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 36,
+      "score": 40,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 36,
+      "score": 43,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 46,
+      "score": 53,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 42,
-      "tier": "Pass"
+      "score": 45,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 35,
+      "score": 42,
       "tier": "Pass"
     },
     "sam-lessin": {
@@ -43,21 +45,21 @@
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 51,
+      "score": 50,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 36,
-    "EG": 36,
-    "NR": 46,
-    "PG": 42,
-    "PT": 35,
+    "CB": 40,
+    "EG": 43,
+    "NR": 53,
+    "PG": 45,
+    "PT": 42,
     "SL": 29,
-    "VK": 51
+    "VK": 50
   },
-  "consolidatedAvg": 39.29,
-  "consolidatedRank": 114,
+  "consolidatedAvg": 43.14,
+  "consolidatedRank": 70,
   "paths": {
     "memo": "winter2026/memos/aemon.md",
     "evals": {

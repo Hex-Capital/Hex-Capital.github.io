@@ -1,6 +1,6 @@
 ﻿# Aemon
 
-> The AI R&D Engineer 
+> The Forward-Deployed AI Research Engineer 
 
 | Field | Value |
 |-------|-------|
@@ -10,107 +10,111 @@
 | Industry | B2B / B2B |
 | Team Size | 3 |
 | Location | San Francisco, CA, USA |
-| Tags | Artificial Intelligence, B2B |
+| Tags | B2B, AI |
+| YC Partner | Jon Xu |
+| Emails | founder@aemon.ai |
 
 ## The Idea
 
-**Problem:** Engineering and scientific R&D teams face NP-hard optimization problems — in areas like algorithm design, retrieval systems, and mathematical optimization — where the solution space is too vast for human researchers to explore exhaustively. Current approaches rely on manual experimentation, domain expert intuition, and limited computational searches. Existing tools like Google DeepMind's AlphaEvolve (released May 2025) have demonstrated AI-driven algorithmic discovery but remain internal to Google and unavailable as a commercial product.
+**Problem:** Engineering teams spend significant resources on R&D optimization — testing hypotheses, surveying literature, running experiments — across a global R&D market the company estimates at $3.1 trillion annually (YC LinkedIn post, 2025). Today, research engineers manually iterate on solutions constrained by human bandwidth: reading papers, writing code, running experiments one at a time. For computationally hard optimization problems (e.g., NP-hard combinatorics), humans and even standard AI coding tools cannot efficiently explore the solution space.
 
-**Approach:** Aemon operates as an autonomous R&D agent that reads codebases and published research, maps solution spaces, then generates and evaluates hundreds of solution variants against user-defined evaluation metrics. It uses an evolutionary approach — scoring variants, pruning dead ends, and advancing the frontier generation-by-generation — to iteratively self-improve. The system is described as "human-steerable," allowing domain experts to add constraints or adjust priorities mid-run, and it outputs production-ready, evidence-backed solutions (aemon.ai).
+**Approach:** Aemon acts as an autonomous AI R&D engineer. Given an engineering problem and an evaluation metric, it: (1) reads codebases and surveys research literature to map the solution space; (2) generates hundreds of solution variants using evolutionary approaches; (3) evaluates variants against user-defined metrics, prunes dead ends, and recombines top performers generationally; (4) delivers production-ready code with evidence-backed justifications (aemon.ai). The system supports human-steerable autonomy, allowing mid-run constraint changes and objective refinements.
 
-A demonstrated use case is legal retrieval optimization, where Aemon improved recall@10 from 0.540 to 0.912 (+68.9%), solving all 50 failing test cases in multi-hop queries (aemon.ai). The company also claims to have set a world record on the circle packing problem (n=26, an NP-hard optimization problem), beating Google DeepMind's AlphaEvolve result using less than $10 of compute (aemon.ai, YC company page). Independent third-party attribution of this specific record to Aemon was not found in public sources; a separate 36kr article attributes a circle packing record (score of 2.63592717 for n=26, surpassing AlphaEvolve's 2.63586275) to a student named "Alex" using a framework called "Tactical Maniac v0.5" (36kr, 2025 via search snippet).
+**Differentiation:** Unlike general-purpose AI coding agents (e.g., Cognition's Devin), which focus on software engineering tasks like writing features and fixing bugs, Aemon targets research-grade optimization — evolving thousands of approaches to discover solutions that exceed human-expert baselines. Unlike Google DeepMind's AlphaEvolve (internal, not commercially available), Aemon is a product sold to external engineering teams. Unlike Sakana AI's AI Scientist (focused on full scientific paper generation), Aemon focuses on producing deployable code solutions rather than academic outputs. The company claims it beat DeepMind's AlphaEvolve on circle packing (n=26) with under $10 of compute (aemon.ai; YC page).
 
-**Differentiation:** Unlike Google DeepMind's AlphaEvolve, which is not commercially available and operates internally to optimize Google infrastructure, Aemon is being built as a product for external engineering teams. Unlike Sakana AI's "AI Scientist" ($479M raised, $2.65B valuation), which attempts to automate the full research lifecycle end-to-end (hypothesis generation through paper writing), Aemon focuses on delivering optimized engineering solutions against specific evaluation metrics rather than generating papers. Unlike Periodic Labs ($300M seed), which pairs AI with physical robotic laboratories for materials science, Aemon operates purely in the computational/algorithmic domain.
+**Business Model:** No pricing page is publicly available on aemon.ai. The website includes a "Book a Discovery Call" CTA, suggesting an enterprise sales motion. [Inferred]: Most likely monetization path is usage-based or subscription pricing for enterprise R&D teams, given the high-touch sales approach and B2B positioning.
 
-**Business Model:** No pricing page is visible on aemon.ai. The website features a "Book a Discovery Call" CTA and an early-access form at aemon.ai/early-access, suggesting a sales-led or waitlist-gated go-to-market. [Inferred]: Most likely monetization path is consumption-based or per-project pricing for R&D engagements, or a SaaS subscription for ongoing access to the platform, given the B2B positioning and discovery call approach.
+**TAM/SAM:** The company references a "$3.1 trillion annual global R&D market" (YC LinkedIn post, 2025). The global AI for process optimization market was valued at $23.50 billion in 2025 (Precedence Research, 2025 via search snippet). No public SAM estimate specific to AI-driven R&D engineering automation was found.
 
-**TAM/SAM:** The Global AI for Scientific Discovery Market was valued at $4.72B in 2025 and is projected to reach $34.20B by 2035, growing at a 21.9% CAGR (Market.us, 2025 via search snippet). North America held a 38.84% share ($1.83B) in 2025 (Market.us, 2025 via search snippet). No public SAM data found specific to the computational/algorithmic R&D segment Aemon targets.
-
-**GTM / Distribution:** [Inferred]: Most likely distribution path is direct enterprise sales, starting with engineering teams at companies facing optimization-heavy R&D challenges (logistics, retrieval systems, infrastructure optimization). The "Book a Discovery Call" CTA and early-access waitlist suggest a high-touch sales motion targeting early design partners. The circle packing demonstration serves as a credibility signal for inbound interest from technical buyers.
+**GTM / Distribution:** The website features a discovery call booking flow, indicating a direct enterprise sales approach. The YC LinkedIn post served as a distribution channel with 248 likes and 73 comments (LinkedIn, 2025). [Inferred]: Most likely initial distribution path is direct outreach to engineering-heavy organizations (tech companies, research labs, financial firms) needing optimization for specific technical problems, leveraging YC network and case study results.
 
 ## Defensibility
 
-Aemon's claimed circle packing result (beating AlphaEvolve with <$10 compute) suggests algorithmic efficiency advantages in its evolutionary search approach, though the specific techniques are not publicly documented. The company's founders have published at ICLR and EMNLP, which may translate into proprietary research methods embedded in the product. As the system runs more optimization tasks across diverse domains, accumulated knowledge of solution patterns and search heuristics could build a data advantage over time.
+Aemon's primary defensibility signal is technical complexity: building an evolutionary code generation system that reliably outperforms human experts on hard optimization problems requires deep expertise in both AI/ML research and evolutionary algorithms. The founders published at ICLR and EMNLP before age 20 (YC page), indicating research depth.
 
-**Market structure:** Google DeepMind's AlphaEvolve is the closest technical analog but is used internally to optimize Google's own infrastructure (e.g., Borg cluster scheduling, Gemini training kernels). Productizing it externally would require Google to build a commercial offering and support external engineering workflows — a different business model from their research lab structure. This creates a window for a dedicated product company. However, no structural barrier prevents Google from commercializing AlphaEvolve or a similar system if the market proves large enough.
+A potential data/flywheel moat could develop over time as the system accumulates domain-specific solution patterns across customer engagements, but this is unproven at this stage.
 
-**Commoditization risk:** Multiple open-source implementations of AlphaEvolve-like systems already exist: OpenEvolve (github.com/algorithmicsuperintelligence/openevolve), ThetaEvolve, and ShinkaEvolve have all demonstrated competitive results on benchmark problems. The circle packing problem specifically has seen multiple independent teams surpass AlphaEvolve's results. The underlying evolutionary search paradigm using LLMs is well-documented in published research. Differentiation would need to come from domain-specific engineering, reliability at scale, and product quality rather than from the core algorithmic approach alone.
+**Market structure:** Google DeepMind's AlphaEvolve is the most capable comparable system but is used internally and not sold commercially. DeepMind's business model (research lab within Alphabet) creates a structural barrier to productizing this capability for external enterprise customers — selling a standalone R&D optimization tool would be peripheral to DeepMind's core mission. Cognition Labs and other AI coding agents focus on general software engineering, not research-grade optimization, creating a sales channel mismatch: their GTM targets software teams, not R&D teams.
+
+**Commoditization risk:** The open-source OpenEvolve project (GitHub: codelion/openevolve) already replicates parts of AlphaEvolve's functionality. Sakana AI's ShinkaEvolve (accepted at ICLR 2026) combines LLMs with evolutionary algorithms for scientific discovery. Well-funded startups like Periodic Labs ($300M raised) and Lila Sciences ($550M raised) are building adjacent AI-for-science tools. As LLM capabilities improve, the barrier to building evolutionary code generation systems may lower. The core differentiator would need to be in the orchestration layer, evaluation framework, and accumulated domain knowledge rather than the base evolutionary approach.
 
 ## Market & Traction
 
 **Traction signals:**
-- YC Winter 2026 batch member (YC company page)
-- Circle packing world record claim: beating DeepMind's AlphaEvolve on n=26 with <$10 compute (aemon.ai, self-reported)
-- Legal retrieval optimization case study: recall@10 improved from 0.540 to 0.912 (+68.9%) (aemon.ai)
-- Company Twitter/X account: No public account found
-- Company LinkedIn: No dedicated company page found; Richard Zhou's LinkedIn headline lists "Founder (YC W26)" (LinkedIn search snippet)
-- Product Hunt: No listing found
-- Discord/Slack community: No public data found
-- App store / Chrome extension: Not applicable (web-based product)
-- Revenue: No public data found
-- User/waitlist counts: No public data found
+- World record claimed on circle packing (n=26), an NP-hard optimization problem, beating Google DeepMind's AlphaEvolve with <$10 of compute (aemon.ai; YC page). A separate report describes a student named "Alex" also beating AlphaEvolve on the same problem by a margin of 0.00006442 (36kr, 2025 via search snippet), suggesting the record may have been contested by multiple parties.
+- Case study on legal retrieval optimization: Recall@10 improved from 0.540 to 0.912 (+68.9%), multi-hop accuracy reached 0.871 across 23 experiments (aemon.ai).
+- YC LinkedIn announcement post: 248 likes, 73 comments (LinkedIn, 2025).
+- Company X/Twitter: @Aemon_ai (follower count not retrievable due to JavaScript rendering).
+- Company LinkedIn: linkedin.com/company/aemon-ai/ (follower count not retrievable).
+- Richard Zhou LinkedIn: 1,720 followers (LinkedIn post, 2025).
+- No Product Hunt listing found.
+- No public revenue or user count data found.
+- No app store, Chrome extension, or download count data found.
+- No Discord/Slack community found.
 
 **Competitive landscape:**
 
-1. **Google DeepMind AlphaEvolve** (internal tool, not separately funded): Evolutionary coding agent using Gemini ensemble models. Achieved results on circle packing, matrix multiplication (broke 56-year record), and optimized Google's Borg scheduling system. Key differentiator vs. Aemon: operates at Google scale with access to frontier Gemini models, but is not commercially available externally. (DeepMind blog, May 2025)
+| Competitor | Funding | Revenue/ARR | Key Differentiator vs. Aemon |
+|------------|---------|-------------|------------------------------|
+| **Cognition Labs (Devin)** | ~$900M+ total; $400M at $10.2B valuation (TechCrunch, Sep 2025) | $155M ARR (Jul 2025, post-Windsurf acquisition) (Sacra via search snippet) | General-purpose AI software engineer for coding tasks; does not target research-grade optimization or evolutionary solution discovery |
+| **Sakana AI** | ~$135M Series B; ~$2.6B valuation (Nov 2025 via search snippet) | Revenue unknown | AI Scientist generates full research papers autonomously; focuses on academic output rather than deployable production code |
+| **Lila Sciences** | $550M total ($200M seed + $350M Series A); $1.3B+ valuation (Yahoo Finance, 2025 via search snippet) | Revenue unknown | Operates physical autonomous AI labs with robotic instruments; targets wet-lab scientific discovery, not software optimization |
+| **Periodic Labs** | $300M seed (Sep 2025 via search snippet) | Revenue unknown | Founded by ex-DeepMind/OpenAI researchers; focuses on physical sciences discovery across disciplines |
+| **Google DeepMind (AlphaEvolve)** | Internal (Alphabet-funded) | N/A (internal tool) | Most technically comparable system; not commercially available to external customers |
 
-2. **Sakana AI** ($479M total raised, $2.65B valuation as of Series B in Nov 2025; revenue not publicly disclosed; TechCrunch, Nov 2025): Tokyo-based "AI Scientist" that automates the full research lifecycle from hypothesis generation to paper writing. Key differentiator vs. Aemon: broader scope (end-to-end research automation) but independent evaluations found "critical shortcomings" in its literature review and novelty assessment capabilities (arXiv, Feb 2025).
-
-3. **Periodic Labs** ($300M seed, ~$1.5B+ valuation; revenue not publicly disclosed; TechCrunch, Oct 2025): Co-founded by former OpenAI VP of Research Liam Fedus and former DeepMind researcher Ekin Dogus Cubuk. Builds AI models paired with robotic laboratory systems for physical science discovery, starting with superconductors. Key differentiator vs. Aemon: focuses on physical-world experimentation with hardware labs, vs. Aemon's purely computational approach.
-
-4. **Confluence Labs** (YC W26, team of 2; funding limited to YC standard deal): AI research lab focused on learning efficiency in data-sparse domains (molecular design, materials science). Achieved SOTA on ARC-AGI-2 benchmark (97.9% at $11.77/task). Key differentiator vs. Aemon: focused on data-sparse scientific domains, vs. Aemon's focus on engineering optimization problems.
-
-5. **OpenEvolve** (open-source, no commercial entity): Open-source implementation of AlphaEvolve available on GitHub. Multiple contributors have reproduced and surpassed AlphaEvolve results on benchmark problems. Key differentiator vs. Aemon: free and open-source, but lacks productization, support, and integrated workflows.
-
-**Why now:** [Inferred]: The release of Google DeepMind's AlphaEvolve in May 2025 demonstrated that LLM-powered evolutionary search can produce state-of-the-art results on hard optimization problems, validating the approach. Simultaneously, frontier LLM capabilities (code generation, reasoning) crossed a performance threshold in 2024-2025 that makes autonomous iterative code generation and evaluation viable. The rapid cost reduction in LLM inference (driven by competition among providers) makes running thousands of evolutionary iterations economically feasible — as evidenced by Aemon's claim of <$10 compute for a world-record result.
+**Why now:** Google DeepMind released AlphaEvolve in May 2025 (DeepMind blog), demonstrating that LLM-powered evolutionary coding agents can make genuine mathematical and algorithmic discoveries. This validated the category. Simultaneously, frontier LLMs (Gemini, Claude, GPT-4+) crossed a capability threshold enabling reliable code generation and evaluation at scale. [Inferred]: The convergence of capable code-generating LLMs and demonstrated evolutionary search results (AlphaEvolve, FunSearch) created a window where a startup can build a commercially available product in a category that was previously only feasible inside large research labs.
 
 ## Founders & Team
 
-**Ray Xu** — Co-founder
-- Full name: Yifei (Ray) Xu (LinkedIn search snippet)
-- Education: University of Illinois at Urbana-Champaign (UIUC), dropped out (YC company page)
-- Published at ICLR 2025 and EMNLP 2024 before age 20 (YC company page; LinkedIn search snippet noting "publications at EMNLP 2024 Main and ICLR 2025")
-- Research focus: LLM, RAG, and Code + Information Retrieval (LinkedIn search snippet)
-- Previously: Founder in Residence at Afore Capital (LinkedIn search snippet)
-- Twitter/X: No public account found linked to Aemon
-- LinkedIn: linkedin.com/in/yifei-ray-xu/ — headline "Co-Founder - Stealth AI Startup" (LinkedIn search snippet)
-- GitHub: No public repos found linked to Aemon
+**Yifei (Ray) Xu** — Co-founder
+- UIUC CS dropout (YC page)
+- Published at ICLR and EMNLP before age 20 (YC page)
+- Twin brother of co-founder Richard Zhou
+- Twitter/X: @yifei_m_xu found in search results, but not confirmed as this individual; count not retrievable
+- LinkedIn: linkedin.com/in/yifei-ray-xu/ — headline: "Co-Founder - Stealth AI Startup" (LinkedIn via search snippet)
+- GitHub: A profile "yfxu" (github.com/yfxu) exists for a "Yifei Xu" at University of Waterloo with 20 followers and 28 repos, but this may not be the same person given the YC page lists Ray Xu as UIUC-affiliated. No confirmed GitHub found.
 
 **Richard Zhou** — Co-founder
-- Education: University of Waterloo, Computer Science, dropped out (YC company page)
-- International medalist in mathematics and robotics (YC company page)
-- Published at top AI conferences (ICLR, EMNLP) before age 20 (YC company page)
-- Previously: Founder in Residence at Afore Capital (LinkedIn search snippet)
-- Age 20 at time of founding (LinkedIn post, Feb 2025)
-- Twitter/X: No public account found linked to Aemon; @richczhou on Instagram (search result) but no posts confirmed related to Aemon
-- LinkedIn: ca.linkedin.com/in/-richard-zhou-/ — headline "Founder (YC W26), FIR @ Afore Capital" — 1,537 followers (LinkedIn post page, Feb 2025)
-- GitHub: No public repos found linked to Aemon
+- University of Waterloo CS dropout (YC page)
+- International medalist in math and robotics (LinkedIn via search snippet)
+- Published at ICLR and EMNLP before age 20 (YC page)
+- Founder in Residence (FIR) at Afore Capital (LinkedIn via search snippet; ZoomInfo via search snippet)
+- Twin brother of co-founder Ray Xu
+- Wrote a LinkedIn post titled "Why I started a business at 20" reflecting on founding a company at age 20 (LinkedIn, Feb 2025)
+- Twitter/X: No public account found
+- LinkedIn: ca.linkedin.com/in/-richard-zhou- — headline: "Founder (YC W26), FIR @ Afore Capital" — 1,720 followers (LinkedIn post fetch)
+- GitHub: No public repos found
 
-**Co-founder relationship:** Ray Xu and Richard Zhou are described as twin brothers on the YC company page. Both served as Founders in Residence at Afore Capital prior to building Aemon.
+**Third team member:** The team size is listed as 3 (YC page), but only two founders are named. No public information found on the third team member.
 
-**Founder-market fit:** Both founders published at top-tier AI conferences (ICLR, EMNLP) before age 20, demonstrating precocious research ability directly relevant to building an AI R&D product. Richard's international medals in mathematics and robotics provide domain grounding in optimization problems. Their research backgrounds in LLM applications, information retrieval, and code generation map directly to Aemon's core technical approach of using LLMs for evolutionary algorithm discovery. The Afore Capital Founder in Residence program suggests they had incubation support and mentorship prior to YC.
+**Co-founder relationship:** Ray Xu and Richard Zhou are twin brothers (YC page). Both published at top AI conferences before turning 20, indicating a shared research background from an early age.
+
+**Founder-market fit:** Both founders have demonstrated research ability in AI/ML through publications at ICLR and EMNLP before age 20, directly relevant to building a system that automates AI-driven research and optimization. Richard Zhou's international medals in math and robotics indicate quantitative problem-solving depth. Richard Zhou's FIR position at Afore Capital (a pre-seed-focused fund) suggests exposure to the startup ecosystem and investor networks. Their decision to drop out of top CS programs (UIUC, Waterloo) to build Aemon indicates full commitment.
 
 ## Key Risks
 
-**Brand disambiguation:** "Aemon" is a widely recognized name from the Game of Thrones franchise (Maester Aemon / Aemon Targaryen), which dominates search results for the term. Multiple X/Twitter accounts, fan wikis, and media references use the name. This creates SEO challenges and potential confusion when prospects search for the company. The company also operates under both aemon.ai and tryaemon.com domains.
+**Record claim contestability:** Aemon's primary credibility signal — the circle packing world record — exists in a competitive space. A separate individual ("Alex") was also reported to have beaten AlphaEvolve on the same problem (36kr, 2025 via search snippet). If the record is surpassed or contested, the company's core marketing claim weakens. Mitigation: the company also showcases applied case studies (legal retrieval optimization) that demonstrate practical value beyond record-setting.
 
-**Open-source replication of core technique:** Multiple open-source projects (OpenEvolve, ThetaEvolve, ShinkaEvolve) have replicated and in some cases surpassed AlphaEvolve's benchmark results. ShinkaEvolve reportedly achieved the circle packing benchmark in 150 samples vs. 1,000–5,000 for baselines (search snippet). The evolutionary LLM search paradigm is well-documented in published research, lowering the barrier for competitors or potential customers to build in-house.
+**AlphaEvolve open-sourcing risk:** Google DeepMind has published the AlphaEvolve paper and results (arxiv.org/abs/2506.13131), and an open-source implementation (OpenEvolve) already exists on GitHub. If Google releases an official commercial or open-source version, or if open-source implementations mature, Aemon's core technology becomes more easily replicable. Mitigation: Aemon's value may lie in productization, domain-specific tuning, and customer support rather than the base algorithm.
 
-**Benchmark-to-product gap:** Aemon's primary public proof point is a benchmark result (circle packing) and one case study (legal retrieval). Converting benchmark demonstrations into repeatable, production-grade workflows across diverse engineering domains requires significant product engineering. The circle packing problem specifically has become a competitive "leaderboard" where multiple teams regularly surpass prior records, potentially diminishing its signal value over time.
+**Heavily funded adjacent competitors:** Lila Sciences ($550M raised), Periodic Labs ($300M raised), and Cognition Labs ($900M+) operate in adjacent spaces with orders-of-magnitude more capital. If any of these pivot toward or expand into general-purpose AI R&D optimization for software, Aemon faces well-capitalized competition. Mitigation: these competitors currently target different niches (physical sciences, general coding).
 
-**Incumbent entry risk:** Google DeepMind could commercialize AlphaEvolve or a derivative product, bringing vastly superior compute resources, frontier model access, and existing enterprise relationships. AlphaEvolve already powers production systems within Google (Borg scheduling, Gemini training optimization), demonstrating real-world applicability (DeepMind blog, May 2025).
+**Narrow initial use-case proof:** Public demonstrations are limited to circle packing (a math benchmark) and one legal retrieval case study. Generalizability of the approach across diverse engineering domains has not been publicly validated. Enterprise buyers may require domain-specific proof points before adopting.
+
+**Brand disambiguation:** "Aemon" is a common name in popular culture (Game of Thrones character) and shares namespace with "Aemon India" (a separate entity on Crunchbase) and various unrelated social media accounts (@_aemon, @Aemon_Oni). This may create SEO and brand recognition challenges.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $4.72B AI for Scientific Discovery market in 2025, projected $34.20B by 2035 at 21.9% CAGR (Market.us, 2025 via search snippet) |
-| SAM | No public data found for computational/algorithmic R&D subsegment |
-| Traction | YC W26 member; circle packing world record claim (self-reported, aemon.ai); legal retrieval case study showing +68.9% recall improvement (aemon.ai) |
+| TAM | $3.1 trillion global R&D market (company claim, YC LinkedIn post, 2025); AI for process optimization market $23.50B in 2025 (Precedence Research, 2025 via search snippet) |
+| SAM | No public data found |
+| Traction | Circle packing world record claim with <$10 compute (aemon.ai); legal retrieval case study Recall@10 0.540→0.912 (aemon.ai); YC LinkedIn post 248 likes, 73 comments (LinkedIn, 2025) |
 | Revenue Signal | No public data found |
-| Founders | Ray Xu (Co-founder): UIUC dropout, ICLR 2025 / EMNLP 2024 publications, ex-FIR Afore Capital. Richard Zhou (Co-founder): UWaterloo dropout, international math & robotics medalist, ICLR/EMNLP publications, ex-FIR Afore Capital |
-| Competitors | Google DeepMind AlphaEvolve (internal tool, not separately funded, frontier Gemini models); Sakana AI ($479M raised, $2.65B valuation, revenue unknown, broader end-to-end research automation); Periodic Labs ($300M seed, ~$1.5B valuation, revenue unknown, physical-world labs + AI); Confluence Labs (YC W26, ~$500K YC deal, revenue unknown, data-sparse scientific domains) |
-| Moat Signals | No public data found; potential algorithmic efficiency advantage suggested by <$10 compute claim but not independently verified |
-| Risk Factors | Open-source replication of core evolutionary search technique, brand disambiguation with Game of Thrones "Aemon," incumbent entry risk from Google DeepMind |
-| Founder Reach | Ray Xu: Twitter not found, LinkedIn linkedin.com/in/yifei-ray-xu/ (count not retrievable), GitHub not found. Richard Zhou: Twitter not found, LinkedIn ca.linkedin.com/in/-richard-zhou-/ 1,537 followers, GitHub not found |
-| Distribution Signals | No public data found (no Product Hunt listing, no app store presence, no social media accounts for company) |
+| Founders | Ray Xu (Co-founder): UIUC CS dropout, ICLR/EMNLP publications before age 20. Richard Zhou (Co-founder): UWaterloo CS dropout, international medalist in math & robotics, ICLR/EMNLP publications before age 20, FIR at Afore Capital. |
+| Competitors | Cognition Labs/Devin ($900M+ raised, $155M ARR, general AI coding agent); Sakana AI (~$135M Series B, $2.6B valuation, revenue unknown, AI Scientist for research papers); Lila Sciences ($550M raised, $1.3B+ valuation, revenue unknown, physical autonomous AI labs); Periodic Labs ($300M raised, revenue unknown, AI for physical sciences); Google DeepMind AlphaEvolve (internal, not commercial, most technically comparable) |
+| Moat Signals | Technical complexity of evolutionary code optimization; founder research credentials (ICLR/EMNLP before age 20); potential data flywheel from customer engagements (unproven) |
+| Risk Factors | AlphaEvolve open-sourcing/replication risk, heavily funded adjacent competitors, narrow public proof points |
+| Founder Reach | Ray Xu: LinkedIn (linkedin.com/in/yifei-ray-xu/), Twitter not confirmed. Richard Zhou: LinkedIn 1,720 followers (ca.linkedin.com/in/-richard-zhou-), Twitter not found. Company: @Aemon_ai on X (count not retrievable), LinkedIn company page (count not retrievable) |
+| Distribution Signals | YC W26 batch membership; YC LinkedIn post (248 likes, 73 comments); discovery call CTA on website; no Product Hunt listing found |
+| Emails | founder@aemon.ai |

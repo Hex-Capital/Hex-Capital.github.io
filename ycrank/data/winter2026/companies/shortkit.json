@@ -9,7 +9,9 @@
     "industry": "B2B / B2B -> Engineering, Product and Design",
     "team_size": "2",
     "location": "No public data found",
-    "tags": "Developer Tools, Video, Infrastructure"
+    "tags": "Developer Tools, Video, Infrastructure",
+    "yc_partner": "Brad Flora",
+    "emails": "contact@shortkit.dev"
   },
   "tags": [
     "Developer Tools",
@@ -17,48 +19,48 @@
     "Infrastructure"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-25T06:03:28.521Z",
+  "memoGeneratedAt": "2026-03-09T22:05:19.819Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 30,
+      "score": 29,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 46,
-      "tier": "Neutral"
+      "score": 37,
+      "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 58,
+      "score": 60,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 50,
+      "score": 55,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 33,
+      "score": 32,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 35,
+      "score": 32,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 34,
+      "score": 39,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 30,
-    "EG": 46,
-    "NR": 58,
-    "PG": 50,
-    "PT": 33,
-    "SL": 35,
-    "VK": 34
+    "CB": 29,
+    "EG": 37,
+    "NR": 60,
+    "PG": 55,
+    "PT": 32,
+    "SL": 32,
+    "VK": 39
   },
-  "consolidatedAvg": 40.86,
-  "consolidatedRank": 94,
+  "consolidatedAvg": 40.57,
+  "consolidatedRank": 97,
   "paths": {
     "memo": "winter2026/memos/shortkit.md",
     "evals": {

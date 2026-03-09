@@ -6,10 +6,12 @@
     "website": "https://www.onerobot.io/",
     "yc_page": "https://www.ycombinator.com/companies/one-robot",
     "batch": "Winter 2026",
-    "industry": "Industrials / Manufacturing and Robotics",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Hard Tech, Machine Learning, Robotics, AI"
+    "tags": "Hard Tech, Machine Learning, Robotics, AI",
+    "yc_partner": "Jon Xu",
+    "emails": "founders@onerobot.io"
   },
   "tags": [
     "Hard Tech",
@@ -18,48 +20,48 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-27T00:01:49.153Z",
+  "memoGeneratedAt": "2026-03-09T22:06:10.157Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 41,
+      "score": 43,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 49,
+      "score": 57,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 61,
-      "tier": "Neutral"
+      "score": 67,
+      "tier": "Invest"
     },
     "paul-graham": {
-      "score": 58,
-      "tier": "Neutral"
+      "score": 66,
+      "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 39,
-      "tier": "Pass"
+      "score": 47,
+      "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 34,
+      "score": 42,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 48,
+      "score": 52,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 41,
-    "EG": 49,
-    "NR": 61,
-    "PG": 58,
-    "PT": 39,
-    "SL": 34,
-    "VK": 48
+    "CB": 43,
+    "EG": 57,
+    "NR": 67,
+    "PG": 66,
+    "PT": 47,
+    "SL": 42,
+    "VK": 52
   },
-  "consolidatedAvg": 47.14,
-  "consolidatedRank": 46,
+  "consolidatedAvg": 53.43,
+  "consolidatedRank": 19,
   "paths": {
     "memo": "winter2026/memos/one-robot.md",
     "evals": {

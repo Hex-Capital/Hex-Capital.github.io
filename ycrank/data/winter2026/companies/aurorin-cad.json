@@ -1,7 +1,7 @@
 {
   "slug": "aurorin-cad",
   "name": "Aurorin CAD",
-  "oneLiner": "We help hardware companies ship faster",
+  "oneLiner": "Claude Code for Mechanical Engineering CAD",
   "metadata": {
     "website": "https://aurorincad.com",
     "yc_page": "https://www.ycombinator.com/companies/aurorin-cad",
@@ -9,7 +9,9 @@
     "industry": "B2B / B2B -> Engineering, Product and Design",
     "team_size": "1",
     "location": "San Francisco, CA, USA",
-    "tags": "Hard Tech, Hardware, B2B, AI"
+    "tags": "Hard Tech, Hardware, B2B, AI",
+    "yc_partner": "Jared Friedman",
+    "emails": "michael@aurorincad.com, contact@aurorincad.com"
   },
   "tags": [
     "Hard Tech",
@@ -18,48 +20,48 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-27T00:01:46.673Z",
+  "memoGeneratedAt": "2026-03-09T22:02:43.063Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 43,
-      "tier": "Pass"
+      "score": 52,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 47,
+      "score": 51,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 68,
+      "score": 67,
       "tier": "Invest"
     },
     "paul-graham": {
-      "score": 61,
+      "score": 58,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 56,
+      "score": 54,
       "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 45,
+      "score": 48,
       "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 59,
-      "tier": "Neutral"
+      "score": 65,
+      "tier": "Invest"
     }
   },
   "consolidatedScores": {
-    "CB": 43,
-    "EG": 47,
-    "NR": 68,
-    "PG": 61,
-    "PT": 56,
-    "SL": 45,
-    "VK": 59
+    "CB": 52,
+    "EG": 51,
+    "NR": 67,
+    "PG": 58,
+    "PT": 54,
+    "SL": 48,
+    "VK": 65
   },
-  "consolidatedAvg": 54.14,
-  "consolidatedRank": 18,
+  "consolidatedAvg": 56.43,
+  "consolidatedRank": 11,
   "paths": {
     "memo": "winter2026/memos/aurorin-cad.md",
     "evals": {

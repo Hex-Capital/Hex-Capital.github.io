@@ -9,7 +9,9 @@
     "industry": "B2B / B2B",
     "team_size": "2",
     "location": "No public data found",
-    "tags": "Artificial Intelligence, Fintech, SaaS, B2B, Healthcare"
+    "tags": "Artificial Intelligence, Fintech, SaaS, B2B, Healthcare",
+    "yc_partner": "Diana Hu",
+    "emails": "chrisvin@tepali.com"
   },
   "tags": [
     "Artificial Intelligence",
@@ -19,48 +21,48 @@
     "Healthcare"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-02-27T00:01:47.588Z",
+  "memoGeneratedAt": "2026-03-09T22:02:34.356Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 26,
+      "score": 34,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "paul-graham": {
       "score": 38,
       "tier": "Pass"
     },
+    "naval-ravikant": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 41,
+      "tier": "Pass"
+    },
     "peter-thiel": {
-      "score": 23,
+      "score": 30,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 21,
+      "score": 23,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 27,
+      "score": 32,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 26,
-    "EG": 35,
-    "NR": 32,
-    "PG": 38,
-    "PT": 23,
-    "SL": 21,
-    "VK": 27
+    "CB": 34,
+    "EG": 38,
+    "NR": 39,
+    "PG": 41,
+    "PT": 30,
+    "SL": 23,
+    "VK": 32
   },
-  "consolidatedAvg": 28.86,
-  "consolidatedRank": 194,
+  "consolidatedAvg": 33.86,
+  "consolidatedRank": 158,
   "paths": {
     "memo": "winter2026/memos/tepali.md",
     "evals": {

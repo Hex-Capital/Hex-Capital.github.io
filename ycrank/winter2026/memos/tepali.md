@@ -11,101 +11,105 @@
 | Team Size | 2 |
 | Location | No public data found |
 | Tags | Artificial Intelligence, Fintech, SaaS, B2B, Healthcare |
+| YC Partner | Diana Hu |
+| Emails | chrisvin@tepali.com |
 
 ## The Idea
 
-**Problem:** Medical spas operate using fragmented software stacks — separate tools for scheduling, CRM, charting, inventory, marketing analytics, and payroll. This fragmentation makes it difficult for medspa operators to connect ad spend to patient lifetime value, manage provider qualifications alongside scheduling, or track inventory in real time. Current solutions either serve general salon/spa needs (Vagaro, Mangomint) or focus on enterprise-scale wellness chains (Zenoti), leaving a gap for purpose-built, AI-native medspa software.
+**Problem:** Medspas — over 30,000 locations in the U.S. growing 20%+ annually (YC launch page) — run their operations on a patchwork of disconnected tools for marketing, scheduling, payments, charting, inventory, and team management. Owners lack visibility into marketing ROI because patient data is siloed across multiple platforms, requiring manual spreadsheet reconciliation to connect ad spend to patient lifetime value. Current solutions force medspas to stitch together point solutions (e.g., a separate EMR, a separate booking tool, a separate ad dashboard), creating data fragmentation and operational inefficiency.
 
-**Approach:** Tepali consolidates six core medspa functions into a single platform: marketing intelligence (connecting ad spend across Meta and Google Ads to patient LTV and cost-per-acquisition), smart scheduling (provider-aware appointment matching by treatment qualifications, self-booking with deposit capture, automated reminders), patient CRM (full journey tracking from ad click, source attribution, treatment history, automated re-booking nudges), team management (shift scheduling, time tracking, payroll, multi-location support), digital charting (treatment-specific documentation with injection maps, photo documentation, HIPAA-compliant records), and inventory tracking (real-time stock levels, reorder alerts, expiry tracking, vendor management). An AI assistant layer allows natural language queries across the entire dataset (tepali.com).
+**Approach:** Tepali replaces these disconnected tools with a single AI-native platform that consolidates six core functions: (1) marketing intelligence that auto-connects ad spend to patient LTV across Meta and Google Ads, (2) provider-aware smart scheduling with online self-booking and SMS reminders, (3) patient CRM with source attribution and automated re-booking, (4) team management with shift scheduling, time tracking, and payroll, (5) digital charting with injection maps, photo documentation, and HIPAA-compliant records, and (6) real-time inventory tracking with expiry alerts and reorder suggestions (tepali.com). An AI assistant layer sits on top to answer operational questions across all modules.
 
-**Differentiation:** Compared to general salon/spa platforms like Vagaro or Mangomint, Tepali is purpose-built for medspas — including medspa-specific features such as injection maps, HIPAA-compliant digital charting, and provider qualification-based scheduling. Compared to AestheticsPro, which also targets medspas, Tepali differentiates on the AI-native layer and closed-loop marketing attribution (connecting ad clicks directly to patient revenue and LTV). Compared to Boulevard, which targets premium self-care businesses broadly, Tepali narrows its focus to medical aesthetics. Compared to Zenoti, which serves enterprise multi-location chains, Tepali appears to target smaller and mid-market medspa operators.
+**Differentiation:** Existing medspa software platforms (Boulevard, Mangomint, Vagaro, AestheticsPro, Zenoti) were built before the current AI era and typically started as scheduling or POS tools that bolted on additional features over time. Tepali's stated differentiation is being "built AI-first" — the AI layer is not an add-on but a foundational architecture choice. Specifically, the marketing intelligence module that connects ad spend to patient LTV in real-time is a feature that most competitors lack as a native capability; Boulevard, for instance, focuses on booking/POS/payments, while AestheticsPro emphasizes EMR and charting. No competitor currently markets an integrated AI assistant that spans marketing, scheduling, and patient insights within a single platform for medspas.
 
-**Business Model:** No pricing information is publicly available on tepali.com. The site offers "Get Early Access" via a booking link (cal.com/chrisvin/tepali). [Inferred]: Most likely monetization path is a SaaS subscription (monthly per-location fee), potentially with a payments/fintech layer given the "Fintech" tag on its YC profile, which could include payment processing fees or embedded lending/financing for patients.
+**Business Model:** No pricing page is publicly available on tepali.com. [Inferred]: Most likely monetization path is a SaaS subscription model (monthly per-location fee), consistent with the medspa software industry where competitors charge $175–$425+/month per location. Potential additional revenue from payments processing (following Boulevard's model of embedded fintech).
 
-**TAM/SAM:** The global medical spa management software market was valued at $294.46 million in 2023, with a projected CAGR of 13.74% through 2030 (Grand View Research, 2024 via search snippet). The U.S. medical spa management software market was estimated at $118.1 million in 2023, projected at 13.6% CAGR through 2030 (Grand View Research, 2024 via search snippet). The broader global medical spa market was $21.21 billion in 2024, projected to reach $78.23 billion by 2033 at 15.77% CAGR (Grand View Research, 2024 via search snippet). A separate report valued the global medical spa software market at $338.8 million in 2024 with 13.9% CAGR through 2034 (The Insight Partners, 2024 via search snippet).
+**TAM/SAM:** The global medical spa management software market was valued at USD $338.8 million in 2024 and is projected to grow at 13.9% CAGR through 2034, reaching $1.3 billion (Global Market Insights, Jan 2025 via GlobeNewsWire). The U.S. medical spa management software market was $99.8 million in 2024 (Nova One Advisor via search snippet). The broader medical spa services market was estimated at $18.6 billion in 2024 (Zenoti 2025 Benchmark Report via search snippet).
 
-**GTM / Distribution:** The "Get Early Access" call-to-action links to a personal Calendly-style booking page (cal.com/chrisvin/tepali), indicating a founder-led sales approach at this stage (tepali.com). [Inferred]: Most likely distribution path is direct outreach to independent medspa owners and small chains, given the product's feature set targets operational pain points across the full medspa workflow. The YC network and Demo Day may serve as initial customer acquisition channels.
+**GTM / Distribution:** [Inferred]: Most likely distribution path is direct outbound sales to medspa owners/operators, starting with independent single-location medspas underserved by enterprise-tier solutions like Zenoti. The demo booking link (tepali.cal.com/tepali/demo) suggests a sales-led motion. The marketing intelligence feature (connecting ad spend to patient LTV) could serve as an acquisition hook, since this addresses a pain point that current tools do not natively solve.
 
 ## Defensibility
 
-No defensibility signals found in public sources at this stage. [Inferred]: Potential moat could develop via (1) data network effects — as more medspas use the platform, aggregated marketing performance data (e.g., ad spend benchmarks, treatment pricing optimization) could become a proprietary advantage; (2) switching costs — consolidating six software functions into one creates high migration cost once a medspa's operations, patient records, and financial data are embedded in the platform; (3) vertical depth — deep medspa-specific features (injection maps, provider qualification matching, HIPAA charting) are harder for horizontal platforms to replicate without cannibalizing their broader market positioning. None of these moats are proven at this stage.
+No defensibility signals found in public sources at this pre-seed stage. [Inferred]: Potential moat could develop via: (1) Data network effects — as more medspas use Tepali's marketing intelligence, the platform accumulates benchmarking data on ad performance across the industry, making recommendations more valuable; (2) Switching costs — consolidating six functions into one platform creates high switching costs once a medspa migrates its patient records, charting history, and marketing data; (3) Vertical AI model — treatment-specific AI (injection maps, treatment-aware scheduling) requires domain-specific training data that generic competitors would need to replicate.
 
-**Market structure:** Horizontal salon/spa platforms (Vagaro, Mangomint) would need to add complex medical features (HIPAA compliance, charting, injection documentation) to compete directly, which increases their regulatory burden and complicates their simpler value proposition for non-medical customers. Enterprise platforms like Zenoti are optimized for large multi-location chains and may find it uneconomical to serve smaller medspas. [Inferred]: The structural barrier is the medical compliance layer — general salon software companies risk alienating their core non-medical customer base by adding HIPAA-compliant EMR features, while EMR companies lack the marketing attribution and consumer booking functionality.
+**Market structure:** Boulevard ($188M raised, $800M valuation) and Zenoti ($1B+ valuation) are well-resourced incumbents. [Inferred]: The structural barrier for incumbents is architecture — legacy platforms were built as scheduling/POS-first systems with features added incrementally. Rebuilding the core architecture to be AI-native (where the AI layer has deep access to all data modules simultaneously) would require significant re-engineering of existing codebases and risk disrupting current customer workflows. Additionally, incumbents' large customer bases create inertia against architectural rewrites.
 
-**Commoditization risk:** The individual features (scheduling, CRM, charting, inventory) are well-established software categories with many providers. The combination into a single medspa-specific platform is replicable by well-funded competitors like Boulevard (which raised $80M in Series D and is expanding into medspa). AestheticsPro already offers a similar all-in-one medspa platform. The AI layer and marketing attribution features could be differentiated if executed well, but LLM-based query interfaces are becoming commoditized across vertical SaaS.
+**Commoditization risk:** The individual components (scheduling, CRM, charting, inventory) are well-understood software categories with multiple existing solutions. The AI assistant layer, while differentiated today, could be replicated by incumbents integrating LLM-based features into existing platforms — Boulevard's $80M Series D (July 2025) explicitly mentioned AI investment (TechCrunch, Jul 2025). The marketing-to-LTV attribution feature is technically reproducible but requires deep integration across ad platforms and patient records that point-solution competitors would struggle to match without a unified data model.
 
 ## Market & Traction
 
 **Traction signals:**
-- The product is in a "Get Early Access" phase, indicating pre-launch or very early launch (tepali.com, accessed Feb 2026).
-- The YC page lists the company as founded in 2026 and part of the Winter 2026 batch (YC company page).
-- Twitter/X account: @usetepali (YC company page); follower count not retrievable.
-- Chrisvin Jabamani personal Twitter/X: @chrisjabamani (chrisvin.nyc); follower count not retrievable.
-- No Product Hunt listing found.
-- No app store listings found.
-- No press coverage found.
-- No public revenue or user count data found.
+- YC Launch page upvotes: 11 (YC Launches page)
+- Y Combinator launch announcement posted by @ycombinator on X (x.com/ycombinator/status/2028923371275358259)
+- Company Twitter/X: @usetepali (follower count not retrievable due to JavaScript rendering)
+- Company LinkedIn: linkedin.com/company/tepali (follower count not retrievable)
+- No Product Hunt launch found
+- No app store listings found
+- No press coverage in named publications found beyond YC launch
+- No public revenue, user count, or customer metrics disclosed
 
 **Competitive landscape:**
 
-| Competitor | Funding | Revenue/ARR | Key Differentiator vs. Tepali |
-|---|---|---|---|
-| **Zenoti** | $331M total raised, $1.5B valuation (Zenoti press release, Dec 2020 via search snippet) | $174.3M revenue in 2024 (Latka, 2024 via search snippet) | Enterprise-focused for large multi-location wellness chains; 12K customers; broader wellness vertical beyond medspas |
-| **Boulevard** | ~$188M total raised, ~$800M valuation at Series D (Crunchbase, Jul 2025 via search snippet) | 500%+ revenue growth since 2022; 5,000+ business customers (TechCrunch, Jul 2025 via search snippet) | Premium self-care business focus (salons, spas, medspas); strong payments and client experience layer; recently raised $80M for AI investment |
-| **Mangomint** | ~$48-60M total raised including $12M venture debt (TechCrunch, Sep 2024 via search snippet) | $20M revenue in 2024 (Latka via search snippet) | Modern UX-focused salon and spa scheduling; "invisible software" philosophy; stronger in salon than medspa |
-| **Vagaro** | ~$63M total raised, $1B valuation (Vagaro press release, Nov 2021 via search snippet) | Revenue not publicly disclosed | Broadest horizontal reach (beauty, fitness, wellness); most affordable entry point; large marketplace for consumer discovery |
-| **AestheticsPro** | No public funding data found | No public revenue data found | Medspa-specific with HIPAA-compliant EMR; closest direct competitor in terms of vertical focus; established player with "thousands" of users (aestheticspro.com) |
+1. **Boulevard** — $188M total raised, $80M Series D (Jul 2025), ~$800M valuation (Crunchbase News, Jul 2025). Revenue not disclosed but claimed "500%+ growth" since 2022 (TechCrunch, Jul 2025). Serves 5,000+ businesses, processes $5B in payments annually. Focused on premium salons/medspas with emphasis on client experience and payments. Key differentiator vs. Tepali: mature payment processing and capital lending program; lacks native marketing-to-LTV attribution.
 
-**Why now:** [Inferred]: Several factors may be converging: (1) The medspa industry itself is growing rapidly — the broader medical spa market is projected at 15.77% CAGR (Grand View Research, 2024 via search snippet), driven by GLP-1 medication adoption creating demand for body contouring and preventive aesthetics (TechCrunch, Jul 2025 via search snippet on Boulevard's raise); (2) LLM capabilities have reached a threshold where natural language querying across business data is practical for non-technical medspa operators; (3) Boulevard's $80M raise in July 2025 specifically cited the "Botox and GLP-1 surge" as a demand driver (TechCrunch, Jul 2025), validating market timing for medspa-focused software.
+2. **Mangomint** — $60M total raised, $35M Series B (Sep 2024), plus $12M venture debt (TechCrunch, Sep 2024). Revenue: $20M in 2024 (CBInsights via search snippet). Focused on modern UX and automation for salons and spas. Key differentiator vs. Tepali: strongest UX reputation in the space; lacks medspa-specific clinical features (injection maps, HIPAA charting).
+
+3. **Vagaro** — ~$163M raised, $1B valuation (Vagaro press release). Revenue: $65.9M in 2024 (GetLatka via search snippet). 690 employees. Most budget-friendly option, acquired Schedulicity (Jan 2025). Key differentiator vs. Tepali: large installed base and marketplace for consumer discovery; positioned as budget/mass-market vs. Tepali's AI-native positioning.
+
+4. **Zenoti** — Unicorn status ($1B+ valuation) achieved in 2020, powers ~30,000 businesses (Zenoti website via search snippet). Enterprise-focused platform for multi-location chains. Key differentiator vs. Tepali: enterprise-grade multi-location management; less suited to independent single-location medspas.
+
+5. **AestheticsPro** — Funding not publicly disclosed. 30+ years of software development history. Most medspa-specific of the legacy competitors with HIPAA-compliant EMR, digital intake, consent forms. Key differentiator vs. Tepali: deepest clinical/compliance feature set among legacy players; lacks AI-native architecture and marketing intelligence.
+
+**Why now:**
+- [Inferred]: The convergence of three catalysts: (1) LLM capabilities reached a threshold in 2023–2025 where an AI assistant can meaningfully synthesize cross-functional business data (marketing, scheduling, patient records) to answer natural-language questions — this was not technically feasible at production quality before GPT-4-class models; (2) The medspa industry itself is in rapid expansion — the American Med Spa Association reported growth from 8,899 medspas in 2022 to 10,488 in 2023 (Global Market Insights via search snippet), meaning a wave of new locations are making first-time software purchase decisions with no legacy system lock-in; (3) Boulevard's $80M raise (Jul 2025) and Vagaro's Schedulicity acquisition (Jan 2025) signal incumbent consolidation around pre-AI architectures, creating a window for an AI-native entrant to capture greenfield locations.
 
 ## Founders & Team
 
-**Chrisvin Jabamani** — Co-founder
-- BS Data Science & Finance, NYU Stern School of Business, Class of 2023 (chrisvin.nyc, RocketReach via search snippet)
-- M&A Investment Banking Analyst at PJT Partners; executed over $30B in transactions (chrisvin.nyc, LinkedIn via search snippet)
-- Business Operations at Rilla (AI sales coaching startup); helped close Rilla's $40M Series B led by Google Ventures (chrisvin.nyc, LinkedIn via search snippet)
-- Prior experience at Citadel LLC, JourneyOne Ventures, and I Squared Capital (LinkedIn via search snippet)
-- Author of "Unicorns" Substack newsletter covering startup investing theses (chrisvin.substack.com)
+**Chrisvin Jabamani** — Co-Founder
+- Education: NYU Stern, Class of 2023 (chrisvin.nyc)
+- Career: Investment Banking Analyst at PJT Partners, executed over $30B in M&A transactions across clients including the NFL, Verizon, Goldman Sachs, and Apollo (chrisvin.nyc). Subsequently ran Business Operations at Rilla (AI for field service industries), where he helped close Rilla's $40M Series B led by Google Ventures (YC launch page, chrisvin.nyc)
 - Born and raised in New Jersey (chrisvin.nyc)
-- Twitter/X: @chrisjabamani — follower count not retrievable (chrisvin.nyc)
-- LinkedIn: linkedin.com/in/chrisvinjabamani (chrisvin.nyc)
-- GitHub: github.com/chrisvin-jabamani — repos include lotus-mcp (MCP server for browser automation) and terminal-reader-mcp (GitHub via search snippet); earlier GitHub account github.com/Chrisvin has 18 repos including Android libraries (LiquidSwipe, EasyReveal, ConcentricOnboarding) in Kotlin (GitHub via search snippet)
+- Maintains a Substack ("Unicorns") with writing on startup investing theses (chrisvin.substack.com)
+- Note: Chrisvin's personal website references founding "Lotus, an AI startup backed by Y Combinator (W26)" with email chrisvin@uselotus.ai, suggesting a possible product rename or pivot from Lotus to Tepali during the W26 batch
+- Twitter/X: @chrisjabamani (count not retrievable due to JavaScript rendering)
+- LinkedIn: linkedin.com/in/chrisvinjabamani
+- GitHub: github.com/chrisvin-jabamani — notable repo: "lotus-mcp" (MCP integration for Cursor and Claude Code); star count not retrieved
 
-**Vishnu Pathmanaban** — Co-founder
-- LinkedIn directory shows 2 profiles under this name (LinkedIn via search snippet); specific profile details not publicly accessible
-- No additional background, education, or career history found in public sources
-- Twitter/X: No public account found
-- LinkedIn: Not confirmed beyond directory listing
-- GitHub: No public repos found
+**Vishnu Pathmanaban** — Co-Founder
+- Education: BS Computer Science, Carnegie Mellon University (YC page, LinkedIn headline)
+- Career: Software Engineer at Dripos (YC W20), building all-in-one operational software for multi-location coffee businesses; previously at MealPal (YC page, LinkedIn). Worked closely with support and implementation teams to understand fragmented tech stack pain points firsthand (YC launch page)
+- Twitter/X: @vishnupathma (count not retrievable due to JavaScript rendering)
+- LinkedIn: linkedin.com/in/vishnupathmanaban — headline: "Building @ Dripos | CMU CS" (LinkedIn search snippet)
+- GitHub: No public repos found under this name
 
-**Co-founder relationship:** Both founders are listed as co-founders on the YC page. No shared employer or university overlap is identifiable from available data, as Vishnu Pathmanaban's background is not publicly documented.
+**Co-founder relationship:** Chrisvin (NYU Stern, 2023) and Vishnu (CMU CS) attended different universities and worked at different companies (PJT Partners/Rilla vs. Dripos/MealPal). No shared prior employer or educational institution is visible from public data. No public data on co-founder history.
 
-**Founder-market fit:** Chrisvin Jabamani brings a finance and operations background (investment banking at PJT Partners, business operations at Rilla) that is relevant to building financial and operational software. His experience at Rilla, an AI-powered sales coaching platform, provides exposure to vertical AI SaaS and the GTM challenges of selling to fragmented SMB markets. His GitHub history shows programming capability across both mobile (Kotlin/Android) and AI tooling (MCP servers). Vishnu Pathmanaban's background and specific domain expertise are not publicly documented, making it difficult to assess complementary skills.
+**Founder-market fit:** Vishnu brings direct experience building all-in-one operational software for multi-location service businesses (Dripos/MealPal), which maps directly to Tepali's value proposition of consolidating fragmented tools for multi-functional medspa operations. Chrisvin brings business operations experience at Rilla, where he observed AI transforming high-ticket service industries (HVAC), and recognized the analogous opportunity in medspas — a high-ticket service vertical with similar operational fragmentation. His investment banking background (PJT Partners) provides financial modeling and go-to-market acumen for a B2B SaaS sale into SMB owners. No advisors, board members, or notable investors beyond YC have been publicly disclosed.
 
 ## Key Risks
 
-**Direct competitor momentum:** Boulevard raised $80M in Series D (July 2025) specifically to expand into medspas with AI features (TechCrunch, Jul 2025 via search snippet), and AestheticsPro is an established medspa-specific incumbent. Tepali is entering a market where well-funded competitors are actively converging on the same vertical.
+**Incumbent AI adoption:** Boulevard raised $80M (Series D, Jul 2025) with explicit plans to invest in AI capabilities (TechCrunch, Jul 2025). Zenoti, Mangomint, and Vagaro are all well-funded and actively developing AI features. Tepali's AI-native architecture advantage has a time window before incumbents integrate comparable AI layers into their existing platforms.
 
-**Incomplete founding team visibility:** One of two co-founders (Vishnu Pathmanaban) has minimal public professional footprint, making it difficult to assess technical depth, domain expertise, or team complementarity from public sources. For a 2-person team, each founder's capabilities are critical.
+**Potential product pivot history:** Chrisvin's personal website references founding "Lotus" (with email chrisvin@uselotus.ai) as a YC W26 company, while the YC page lists "Tepali." A GitHub repository "lotus-mcp" also exists under his account. This suggests a possible rename or pivot during the batch. Product direction instability during an accelerator is common but warrants monitoring for conviction in the current medspa focus.
 
-**Product naming ambiguity:** The company's email domain appears to be uselotus.ai (per chrisvin.nyc), the GitHub repo is named "lotus-mcp," yet the YC listing and product website use "Tepali." This suggests a recent rename from "Lotus" that may create brand confusion or SEO challenges during early customer acquisition.
+**High switching cost barrier for customer acquisition:** The same switching costs that create defensibility for Tepali once adopted also work against it in customer acquisition. Medspas already using Boulevard, Zenoti, or AestheticsPro have patient records, charting history, and workflow integrations embedded in their current systems. Tepali must either (a) build robust data migration tooling or (b) focus on greenfield medspa locations that have not yet adopted a platform.
 
-**No evident medspa domain expertise:** Neither founder's public background includes direct medspa industry experience (clinical, operational, or as a medspa owner). The team's strengths appear to be in finance, operations, and software engineering rather than healthcare or medical aesthetics.
+**Regulatory compliance burden:** HIPAA-compliant digital charting and medical record keeping require ongoing investment in security infrastructure, compliance audits, and potentially SOC 2 certification. For a 2-person team, maintaining healthcare compliance alongside product development creates significant resource strain.
 
-**HIPAA compliance burden:** Tepali markets HIPAA-compliant digital charting as a core feature. For a 2-person pre-seed team, maintaining HIPAA compliance (security audits, BAAs, breach notification procedures, encryption standards) is a significant ongoing operational and legal cost.
+**Brand disambiguation:** "Tepali" also appears as "Red TEPALI" (@redtepali on X), an unrelated entity. Additionally, the prior "Lotus" name overlaps with at least two other YC companies (Lotus S22 — billing engine; LotusPay — payments in India) and a Stanford AI data processing framework. The current "Tepali" name has less collision risk.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $294.46M global medspa management software market in 2023, 13.74% CAGR through 2030 (Grand View Research, 2024 via search snippet); broader medical spa market $21.21B in 2024, 15.77% CAGR to 2033 (Grand View Research, 2024 via search snippet) |
-| SAM | U.S. medspa management software market $118.1M in 2023, 13.6% CAGR through 2030 (Grand View Research, 2024 via search snippet) |
-| Traction | Pre-launch "Get Early Access" phase (tepali.com, Feb 2026). No public user, revenue, or growth metrics found |
-| Revenue Signal | No public data found |
-| Founders | Chrisvin Jabamani (Co-founder): NYU Stern BS Data Science & Finance '23, ex-PJT Partners IB ($30B+ transactions), ex-Rilla Ops (helped close $40M Series B). Vishnu Pathmanaban (Co-founder): No public background data found |
-| Competitors | Zenoti ($331M raised, $174.3M revenue 2024, enterprise multi-location focus); Boulevard (~$188M raised, 5K+ customers, premium self-care); Mangomint (~$48-60M raised, $20M revenue, modern UX salon/spa); Vagaro (~$63M raised, $1B valuation, budget-friendly horizontal); AestheticsPro (funding unknown, medspa-specific incumbent) |
-| Moat Signals | No public data found |
-| Risk Factors | Well-funded competitors converging on medspa vertical, co-founder background opacity, HIPAA compliance burden for 2-person team |
-| Founder Reach | Chrisvin Jabamani: Twitter @chrisjabamani (count not retrievable), LinkedIn linkedin.com/in/chrisvinjabamani, GitHub chrisvin-jabamani. Vishnu Pathmanaban: No public accounts found |
-| Distribution Signals | No public data found |
-| Emails | chrisvin@uselotus.ai (chrisvin.nyc) |
+| TAM | Medical spa management software: $338.8M in 2024, 13.9% CAGR to $1.3B by 2034 (Global Market Insights, Jan 2025 via GlobeNewsWire). Broader medical spa services market: $18.6B in 2024 (Zenoti benchmark report via search snippet). |
+| SAM | U.S. medical spa management software: $99.8M in 2024 (Nova One Advisor via search snippet) |
+| Traction | YC Launch page: 11 upvotes (YC Launches). No public user, revenue, or customer metrics disclosed. |
+| Revenue Signal | No public data found. No pricing page on website. |
+| Founders | Chrisvin Jabamani (Co-Founder): NYU Stern '23, IB at PJT Partners ($30B+ deals), BizOps at Rilla (helped close $40M Series B). Vishnu Pathmanaban (Co-Founder): CMU CS, SWE at Dripos (YC W20) and MealPal. |
+| Competitors | Boulevard ($188M raised, ~$800M valuation, revenue undisclosed but "500%+ growth" since 2022, premium booking/payments focus); Mangomint ($60M raised, $20M revenue 2024, modern UX focus); Vagaro (~$163M raised, $65.9M revenue 2024, $1B valuation, budget/mass-market); Zenoti ($1B+ valuation, ~30K businesses, enterprise multi-location); AestheticsPro (funding undisclosed, deepest clinical features among legacy players) |
+| Moat Signals | No public data found. [Inferred]: Potential via data network effects from cross-module AI and switching costs from unified platform. |
+| Risk Factors | Incumbent AI investment (Boulevard $80M for AI), potential product pivot history (Lotus → Tepali), HIPAA compliance burden on 2-person team |
+| Founder Reach | Chrisvin Jabamani: Twitter/X @chrisjabamani (count not retrievable), LinkedIn linkedin.com/in/chrisvinjabamani. Vishnu Pathmanaban: Twitter/X @vishnupathma (count not retrievable), LinkedIn linkedin.com/in/vishnupathmanaban. |
+| Distribution Signals | No public data found. No Product Hunt launch, no app store listing, no Chrome extension found. |
+| Emails | chrisvin@tepali.com |

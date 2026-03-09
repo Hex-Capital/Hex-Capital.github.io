@@ -11,102 +11,105 @@
 | Team Size | 2 |
 | Location | No public data found |
 | Tags | Developer Tools, Video, Infrastructure |
+| YC Partner | Brad Flora |
+| Emails | contact@shortkit.dev |
 
 ## The Idea
 
-**Problem:** Consumer app teams and publishers seeking to embed short-form video feeds (TikTok/Reels/Shorts-style experiences) in their own apps face a significant infrastructure challenge. Building performant, retentive short-form video from scratch requires expertise in adaptive bitrate transcoding, global CDN delivery, engagement analytics, feed ranking algorithms, and mobile SDK development. Teams currently either build this in-house with significant engineering investment or cobble together general-purpose video APIs (e.g., Mux, Cloudflare Stream) that were not purpose-built for the short-form vertical-video feed pattern.
+**Problem:** Consumer app teams and digital publishers that want to embed short-form vertical video feeds (comparable to TikTok or YouTube Shorts) face a build-or-buy decision weighted heavily toward build. Constructing a performant short-form video stack requires specialized expertise in codec optimization, adaptive bitrate transcoding, CDN delivery, ML-driven buffering, and feed mechanics. The YC company page states the alternative is building "internal video engineering teams" — a multi-headcount commitment for a capability that is adjacent to most companies' core product (YC company page). Existing general-purpose video APIs (e.g., Mux) handle streaming and encoding broadly but are not purpose-built for the swipe-feed UX pattern that dominates short-form engagement.
 
-**Approach:** ShortKit provides a managed iOS SDK and backend video infrastructure specifically optimized for short-form video feeds. The SDK is built natively on Foundation, UIKit, and AVFoundation with zero third-party dependencies, targeting iOS 16+ (shortkit.dev). The platform bundles: feed ranking and curation (reverse-chronological, signal-weighted, or custom); engagement analytics (plays, swipes, completions, replays, watch time, drop-off points); A/B experimentation with server-side variant assignment; native ad integration; content management with automatic transcoding; remote configuration and feature flags; global CDN delivery; adaptive bitrate HLS transcoding; automatic thumbnail generation; and AI captioning in 50+ languages (shortkit.dev).
+**Approach:** ShortKit provides a managed SDK (iOS 16+, Android, React Native, Web) plus backend video infrastructure optimized specifically for short-form vertical video. The SDK includes feed-aware player mechanics (smooth swiping), next-generation codec selection that reduces bytes by 2–3× via device-aware transcoding, ML-driven buffer management that pre-fetches based on watch history, and chunked transfer encoding for faster first-frame delivery (shortkit.dev). The backend handles adaptive bitrate HLS laddering through a global CDN with 300+ PoPs, serverless auto-scaling infrastructure that scales to zero when idle, AI captioning in 50+ languages, content moderation, ad integration, engagement analytics (plays, swipes, completions, rebuffer rates), and REST APIs for CMS integration (shortkit.dev).
 
-**Differentiation:** Unlike general-purpose video infrastructure providers such as Mux or Cloudflare Stream, which provide low-level video encoding/delivery primitives, ShortKit is vertically integrated for the short-form feed use case — providing a ready-made SDK with feed logic, analytics, and monetization built in. Unlike Firework or Tolstoy, which target e-commerce shoppable video, ShortKit targets product engineering teams building consumer app experiences. The co-founder's 6 years building YouTube Shorts infrastructure (YC company page) provides domain-specific architectural knowledge.
+**Differentiation:** Versus **Mux** (general-purpose video API): ShortKit is purpose-built for the short-form vertical feed pattern, including swipe mechanics, ML pre-fetching tuned to short-form watch behavior, and feed curation tools — features Mux does not natively offer. Versus **Firework** (shoppable video commerce): Firework targets e-commerce brands with livestream shopping and shoppable video overlays; ShortKit targets product engineering teams wanting to embed a TikTok-style feed into any app. Versus **BytePlus** (ByteDance subsidiary): BytePlus offers effects/filters SDKs and broad video infrastructure inherited from TikTok/CapCut, but operates as a large enterprise vendor; ShortKit positions as a developer-first SDK with lighter integration. Versus **IMG.LY** (video editing SDK): IMG.LY focuses on in-app video editing, not playback feed infrastructure.
 
-**Business Model:** No pricing page is publicly available on shortkit.dev. The website offers a "Schedule a technical walkthrough" call-to-action via Calendly, suggesting an enterprise/sales-led motion. [Inferred]: Most likely monetization path is usage-based pricing (per minutes of video stored/delivered) or a tiered SaaS subscription based on video volume and feature access, consistent with the video infrastructure category (cf. Mux, Cloudflare Stream pricing models).
+**Business Model:** ShortKit uses usage-based pricing across two tiers: a **Basic** plan (committed monthly allotment of minutes, storage, and AI credits; standard SLA; email & Slack support) and a **Scale** plan (custom committed minutes with burst capacity, dedicated infrastructure, 99.99% uptime SLA, white-glove onboarding with named CSM, advanced security/audit/compliance) (shortkit.dev/pricing). No specific dollar amounts are publicly listed; the pricing page states: "Talk to us about your anticipated delivery volume. We'll map you to the right tier" (shortkit.dev/pricing). No free tier or trial is mentioned.
 
-**TAM/SAM:** The global video processing platform market was estimated at $7.73B in 2024 and projected to reach $19.35B by 2033 (Grand View Research, 2024 via search snippet). The broader short-form video platform market was valued at $34.79B in 2024 (Cognitive Market Research, 2024 via search snippet). No public SAM estimate exists for the narrower "embeddable short-form video SDK" segment specifically.
+**TAM/SAM:** The global short video platform market was valued at USD 40.58 billion in 2024 and estimated at USD 48.27 billion in 2025 (Grand View Research, via search snippet). The video processing platform market is projected at USD 7.50 billion in 2025, growing to USD 12.40 billion by 2030 at a 10.6% CAGR (MarketsandMarkets, via search snippet). ShortKit's serviceable market is the narrower B2B video infrastructure segment — specifically companies embedding short-form feeds rather than building or streaming long-form content. No public SAM estimate specific to "embeddable short-form video SDK" was found.
 
-**GTM / Distribution:** [Inferred]: Most likely distribution path is developer-led sales, starting with direct outreach to consumer app product teams and publishers. The Calendly-based sales motion and enterprise positioning suggest a high-touch, solution-selling approach rather than self-serve PLG at launch. The YC network provides an initial pipeline of consumer app companies.
+**GTM / Distribution:** The company offers a demo booking link via cal.com/shortkit-neil/intro, a developer portal at portal.shortkit.dev, and documentation at shortkit.dev/docs — suggesting a developer-led, sales-assisted motion (shortkit.dev). A blog post targeted at publishers (shortkit.dev/blog/shortkit-for-publishers) indicates publishers as an early target segment. [Inferred]: Most likely distribution path is direct outreach to product/engineering leads at consumer apps and digital publishers, supplemented by developer content marketing and YC network referrals.
 
 ## Defensibility
 
-ShortKit's primary defensibility signal is the domain expertise of co-founder Michael Seleman, who spent 6 years building the infrastructure that powers YouTube Shorts (YC company page). This deep systems knowledge in short-form video encoding, delivery, and feed optimization represents technical complexity that would take competitors time to replicate.
+ShortKit's primary defensibility signal is **technical specialization**: the SDK embeds multiple ML-driven optimizations (buffer management, codec selection) that are tuned specifically for short-form vertical video engagement patterns, as described on their website (shortkit.dev). The 6-year YouTube Shorts infrastructure background of co-founder Michael Seleman (YC company page) represents domain-specific engineering knowledge that is scarce in the market. Over time, switching costs could develop as customers integrate the SDK deeply into their apps and rely on ShortKit's transcoding pipeline, analytics, and ad infrastructure.
 
-Potential moat development over time: as customers integrate the SDK and build their video experiences on ShortKit's infrastructure, switching costs increase due to data migration complexity, analytics history, and SDK integration depth. If ShortKit accumulates engagement data across multiple customer deployments, aggregate insights into what drives retention in short-form feeds could create a data advantage.
+No patents, network effects, or regulatory barriers were identified in public sources.
 
-**Market structure:** General-purpose video infrastructure providers (Mux, Cloudflare Stream) could theoretically build a short-form video feed SDK, but doing so would mean verticalizing their horizontal platform for a single use case, which conflicts with their general-purpose positioning and sales motion. Large platforms like YouTube and TikTok possess the relevant technology but have no incentive to license it to potential competitors. [Inferred]: The structural barrier is that incumbents in video infrastructure are optimized for breadth (live streaming, VOD, conferencing), and building a purpose-built short-form feed SDK would represent a narrow vertical bet that dilutes their horizontal strategy.
+**Market structure:** General-purpose video infrastructure incumbents (Mux, Cloudflare Stream, AWS MediaConvert) optimize for breadth across streaming use cases. [Inferred]: Building a specialized short-form SDK with feed mechanics, swipe-optimized pre-fetching, and vertical-native transcoding would require these incumbents to create and maintain a separate product line for a niche segment — a prioritization challenge when their core business serves the broader video market. BytePlus is the closest structural threat, as it already possesses TikTok's internal video stack and has commercialized it, though BytePlus targets large enterprises and carries geopolitical risk that may limit adoption by some Western customers.
 
-**Commoditization risk:** The individual technical components (HLS transcoding, CDN delivery, video player SDKs) are commoditized. The differentiation lies in the vertical integration and optimization specifically for the short-form feed pattern. Other developer tools companies or new entrants with short-form video expertise could build a competing product. The iOS-only limitation at launch narrows the initial addressable market and creates an opening for competitors to lead on Android or web.
+**Commoditization risk:** The core components (HLS transcoding, CDN delivery, adaptive bitrate) are individually commoditized. The differentiated value lies in the integration layer — combining feed UX, ML buffering, codec optimization, and analytics into a single SDK purpose-built for short-form. Any well-funded video infrastructure company (Mux, Cloudflare) or a focused startup could build competing short-form SDKs given sufficient investment and specialized talent.
 
 ## Market & Traction
 
 **Traction signals:**
-- Backed by Y Combinator (W26 batch) (YC company page)
-- No public user counts, revenue figures, customer logos, or download metrics found
+- Backed by Y Combinator (W26 batch) (ycombinator.com/companies/shortkit)
+- Y Combinator tweeted about ShortKit's launch: "ShortKit lets every app roll their own TikTok-quality feed. Built by a former YT infra engineer" (@ycombinator on X)
 - No Product Hunt listing found
-- No app store presence found (SDK product, not a consumer app)
-- Company Twitter/X: No verified company account found
+- No public user counts, revenue figures, or named customers found
+- No app store listings found (SDK product, not consumer app)
+- Company Twitter/X handle: not identified (YC tweet links to company but no dedicated @shortkit handle found)
 - Neil Bhammar Twitter/X: @nbhammar (follower count not retrievable)
-- Michael Seleman Twitter/X: @MichaelSeleman found but could not be verified as the same individual (follower count not retrievable)
-- LinkedIn company page: No public data found
-- Discord/Slack community: No public data found
-- Job postings: 0 active positions (YC company page)
+- Michael Seleman Twitter/X: @MichaelSeleman (follower count not retrievable)
+- LinkedIn company page: not found via search
+- GitHub: An unrelated repository "adamsoutar/shortkit" exists (React keyboard shortcuts toolkit); no ShortKit company GitHub org found
+- No Discord/Slack community found
+- No job postings listed (YC page shows 0 open positions)
 
 **Competitive landscape:**
 
-1. **Mux** ($177M raised, $46.1M revenue in 2024) (Getlatka, 2024 via search snippet; Crunchbase via search snippet): General-purpose video infrastructure platform for on-demand and live streaming with developer-focused APIs, analytics, and encoding. Differentiator vs. ShortKit: Mux is horizontal infrastructure covering all video use cases, whereas ShortKit is vertically specialized for short-form feeds with a pre-built SDK and feed logic.
+| Competitor | Differentiator vs. ShortKit | Funding | Revenue |
+|---|---|---|---|
+| **Mux** | General-purpose video API covering live, on-demand, and real-time video; not specialized for short-form feed UX | $173.9M total (Crunchbase, via search snippet) | $46.1M in 2024, 4,900 customers (Getlatka, via search snippet) |
+| **Firework** | Focused on shoppable video commerce and livestream shopping for retail/e-commerce brands, not embeddable developer SDK | ~$260M total; $750M valuation at Series B (TechCrunch, May 2022) | Revenue not publicly disclosed |
+| **BytePlus** | ByteDance subsidiary offering video infrastructure, effects SDKs, and recommendation engines; large-enterprise focus with TikTok-derived technology | Subsidiary of ByteDance (no separate funding) | Revenue not publicly disclosed |
+| **IMG.LY** | Video and photo editing SDKs for in-app creative tools; focused on editing, not playback/feed infrastructure | Bootstrapped (Indie Hackers) | ~$5.2M estimated annual revenue, 1,000+ customers (Growjo; Indie Hackers AMA stated $2M ARR at time of post) |
 
-2. **Firework** ($235M+ raised, revenue unknown) (TechCrunch, May 2022 via search snippet): Short-form and shoppable video platform for e-commerce brands, backed by SoftBank. Differentiator vs. ShortKit: Firework targets e-commerce/retail brands with shoppable video commerce, whereas ShortKit targets product engineering teams building consumer app experiences.
-
-3. **Cloudflare Stream** (part of Cloudflare, $NET market cap; Stream-specific revenue not broken out): Usage-based video storage and delivery built on Cloudflare's edge network, priced at $5/1,000 min stored + $1/1,000 min delivered (Cloudflare Stream docs). Differentiator vs. ShortKit: Cloudflare Stream is low-level video infrastructure (encode, store, deliver) without feed-level SDK, ranking, or engagement analytics.
-
-4. **Tolstoy** (total funding undisclosed, investors include SeedIL Ventures and others) (Crunchbase via search snippet): AI-powered interactive and shoppable video for e-commerce with 2,000+ brand partners (gotolstoy.com via search snippet). Differentiator vs. ShortKit: Tolstoy is focused on e-commerce conversion via shoppable video widgets, not general-purpose short-form feed infrastructure.
-
-**Why now:**
-[Inferred]: Several converging factors: (1) Short-form vertical video has become the dominant content format across consumer apps, driven by TikTok, Instagram Reels, and YouTube Shorts achieving mainstream adoption over the past 2-3 years, creating demand from non-social-media apps (news publishers, fitness apps, e-commerce) to embed similar experiences. (2) Mobile hardware and network bandwidth improvements (5G adoption) have made high-quality short-form video delivery feasible at scale. (3) Apple's continued investment in AVFoundation and iOS video capabilities provides a strong native foundation. (4) The cost of video transcoding and CDN delivery has continued to decline, making it economically viable for mid-market apps to offer video-rich experiences that previously only large platforms could afford.
+**Why now:** [Inferred]: Several converging factors open this opportunity: (1) Short-form vertical video has become the dominant content format across consumer platforms — TikTok surpassed 1 billion MAU, YouTube Shorts and Instagram Reels have been widely adopted — creating demand from non-social apps (news publishers, e-commerce, fitness, education) to offer similar experiences. (2) Codec advances (AV1, HEVC hardware decoding becoming standard on mobile devices) enable the 2–3× byte reduction ShortKit claims, making high-quality short-form delivery feasible at lower cost. (3) The creator economy and publisher pivot to video have increased the volume of short-form content available, but distribution infrastructure outside of major platforms remains fragmented.
 
 ## Founders & Team
 
-**Michael Seleman** — Founder
-- Spent 6 years building infrastructure that powers YouTube Shorts (YC company page)
-- Education: Tufts University (LinkedIn via search snippet)
-- Twitter/X: @MichaelSeleman found but could not be verified as the same individual; follower count not retrievable
-- LinkedIn: linkedin.com/in/michael-seleman-541509122/ — headline references YouTube (LinkedIn via search snippet)
-- GitHub: No public repos found under verified handle
-
 **Neil Bhammar** — Co-Founder
-- Early employee at BusRight through Series B (YC company page); described as co-founder of BusRight in some sources (Northeastern University News, July 2023); served as Head of Operations & CS at BusRight
-- BusRight raised $7M in venture capital and grew revenue 700% in 2022, serving customers in 23 states (Northeastern University News, July 2023)
-- Investor at Dorm Room Fund (Threads profile)
-- Former president of Northeastern Entrepreneurship Club (Northeastern University)
-- Education: Northeastern University D'Amore-McKim School of Business, Class of 2022 (Northeastern University)
+- Education: Northeastern University, D'Amore-McKim School of Business, Class of 2022 (Northeastern News, July 2023)
+- Co-founded BusRight, a student transportation software startup, as a capstone project with Keith Corso at Northeastern. Served as Head of Operations (Northeastern News, July 2023). BusRight raised $7M in venture capital (Northeastern News, July 2023), grew revenue 700% in 2022, and had customers in 23 states (Northeastern News, July 2023)
+- Former president of the Northeastern Entrepreneurship Club (LinkedIn pulse article)
+- Previously invested in student founders at Dorm Room Fund (search snippet from LinkedIn)
 - Twitter/X: @nbhammar — follower count not retrievable
-- LinkedIn: linkedin.com/in/neilbhammar/ — headline references shortkit (YC W26) (LinkedIn via search snippet)
-- GitHub: github.com/neilbhammar — mailmop repo (privacy-focused Gmail cleaning tool), 3 stars (GitHub)
+- LinkedIn: linkedin.com/in/neilbhammar — "shortkit (YC W26)" (via search snippet)
+- GitHub: No public profile found
+- Personal website: neilbhammar.com
 
-**Co-founder relationship:** No shared employer or university overlap identified between the two founders. Michael Seleman attended Tufts University while Neil Bhammar attended Northeastern University. Michael's career was at YouTube/Google while Neil's was at BusRight. No public data on how they connected.
+**Michael Seleman** — Founder
+- Education: Tufts University (LinkedIn, via search snippet)
+- Spent 6 years building infrastructure for YouTube Shorts at Google (YC company page). LinkedIn headline reads "Engineering @ Google" (via search snippet)
+- Twitter/X: @MichaelSeleman — follower count not retrievable
+- LinkedIn: linkedin.com/in/michael-seleman-541509122 — "Engineering @ Google" (via search snippet)
+- GitHub: No public profile found
 
-**Founder-market fit:** Michael Seleman's 6 years building YouTube Shorts infrastructure provides direct, first-hand experience with the core technical challenges of short-form video encoding, delivery, and feed optimization at the largest scale. Neil Bhammar brings operational and go-to-market experience from scaling BusRight from early stage through Series B, including experience in enterprise sales to institutional customers (school districts). The combination pairs deep video infrastructure domain expertise with startup operations and growth experience.
+**Co-founder relationship:** No shared employer or university overlap identified between the founders based on available data. Bhammar attended Northeastern; Seleman attended Tufts. No public data on how they met.
+
+**Founder-market fit:** Seleman brings 6 years of direct experience building YouTube Shorts infrastructure at Google, providing deep domain expertise in the exact technical stack ShortKit is productizing (video encoding, delivery optimization, feed mechanics at scale). Bhammar brings startup operating experience from co-founding BusRight (seed through Series B, 23-state customer base) and early-stage investing experience at Dorm Room Fund, contributing go-to-market and business development capability. The combination pairs a domain-expert engineer with an operator who has scaled a B2B SaaS product.
 
 ## Key Risks
 
-**iOS-only platform limitation:** ShortKit currently supports only iOS (Swift SDK, iOS 16+, built on UIKit and AVFoundation) (shortkit.dev). Prospective customers with Android or web audiences would need a separate solution or would defer adoption until cross-platform support is available, limiting the addressable market and creating an opening for competitors.
+**BytePlus platform overlap:** BytePlus, a ByteDance subsidiary, already commercializes TikTok-derived video infrastructure including short-form SDKs, effects, and recommendation engines. It has the technical depth and parent-company resources to target the same segment at scale. ShortKit's differentiation rests on developer experience and specialization rather than raw technology, which BytePlus could match (BytePlus product pages).
 
-**Incumbent expansion risk:** Mux ($177M raised, $46.1M revenue) already serves 4,900 customers and could build a purpose-built short-form video feed SDK as an add-on to its existing video infrastructure (Getlatka, 2024 via search snippet). Mux's existing customer base, brand recognition among developers, and infrastructure would give it a distribution advantage if it chose to verticalize into short-form feeds.
+**Narrow use-case dependency:** ShortKit is purpose-built exclusively for short-form vertical video feeds. If the market for embeddable short-form feeds proves smaller than anticipated — because potential customers choose to build in-house, use general-purpose video APIs, or because consumer demand for short-form feeds in non-social apps does not materialize broadly — the addressable market contracts significantly. The company has no adjacent product lines to fall back on.
 
-**Narrow vertical bet:** ShortKit is highly specialized for short-form video feeds specifically, rather than general video infrastructure. If the demand for embeddable short-form video feeds in non-social-media apps does not materialize at sufficient scale, the addressable market may be too small to support a standalone infrastructure company. The number of consumer apps that need TikTok-like feed infrastructure as a core feature, rather than simpler video hosting, is unproven.
+**Incumbent expansion risk:** Mux ($173.9M raised, $46.1M revenue) could add short-form-specific SDK features as an extension of its existing video API platform. Mux already has developer trust, documentation, and integrations; adding feed mechanics and swipe-optimized delivery would be a product extension rather than a new product for them.
 
-**Single-founder technical dependency:** With Michael Seleman as the sole technical founder with YouTube Shorts infrastructure experience and a total team of 2, the company has concentrated key-person risk on its core technical differentiator.
+**Single-engineer technical depth:** With a 2-person team and no open job postings, the company's entire video infrastructure engineering capability appears to rest on one person (Seleman). Any disruption to this individual's availability (health, departure) would be existential to product development. The company is not currently hiring (YC page).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $7.73B video processing platform market in 2024, projected $19.35B by 2033 (Grand View Research, 2024 via search snippet) |
+| TAM | Short video platform market: USD 48.27B in 2025 (Grand View Research, via search snippet); Video processing platform market: USD 7.50B in 2025 growing to $12.40B by 2030 at 10.6% CAGR (MarketsandMarkets, via search snippet) |
 | SAM | No public data found for embeddable short-form video SDK segment specifically |
-| Traction | YC W26 batch; no public user counts, revenue, or customer metrics found |
-| Revenue Signal | No public data found |
-| Founders | Michael Seleman (Founder): 6 years YouTube Shorts infrastructure, Tufts University. Neil Bhammar (Co-Founder): early employee → Head of Ops at BusRight ($7M raised, 700% revenue growth), Northeastern '22, Dorm Room Fund |
-| Competitors | Mux ($177M raised, $46.1M revenue 2024, horizontal video infrastructure); Firework ($235M+ raised, revenue unknown, e-commerce shoppable video); Cloudflare Stream (part of Cloudflare, usage-based video delivery); Tolstoy (funding undisclosed, 2,000+ brands, e-commerce shoppable video) |
-| Moat Signals | Co-founder's 6 years of YouTube Shorts infrastructure experience; vertical specialization for short-form feeds vs. horizontal video APIs |
-| Risk Factors | iOS-only platform, incumbent expansion from Mux, narrow vertical market size unproven, key-person technical dependency |
-| Founder Reach | Neil Bhammar: Twitter @nbhammar (count not retrievable), LinkedIn 500+, GitHub 3 stars. Michael Seleman: Twitter @MichaelSeleman (unverified, count not retrievable), LinkedIn present, GitHub not found |
+| Traction | Y Combinator W26 batch member (ycombinator.com/companies/shortkit); YC launch tweet (@ycombinator on X). No public user counts, revenue, or named customers found |
+| Revenue Signal | Usage-based pricing with Basic and Scale tiers; no published prices; "Talk to us about your anticipated delivery volume" (shortkit.dev/pricing). No revenue figures found |
+| Founders | Neil Bhammar (Co-Founder): Co-founded BusRight ($7M raised, 700% revenue growth in 2022), Northeastern '22, Dorm Room Fund. Michael Seleman (Founder): 6 years YouTube Shorts infrastructure at Google, Tufts University |
+| Competitors | Mux ($173.9M raised, $46.1M revenue 2024, general video API); Firework (~$260M raised, revenue unknown, shoppable video commerce); BytePlus (ByteDance subsidiary, revenue unknown, TikTok-derived video infra); IMG.LY (bootstrapped, ~$5.2M est. revenue, video editing SDK) |
+| Moat Signals | Seleman's 6 years YouTube Shorts infrastructure experience (YC page); ML-driven buffer management and codec optimization specialized for short-form (shortkit.dev); usage-based pricing with dedicated infra at Scale tier creating switching costs |
+| Risk Factors | BytePlus platform overlap, narrow use-case dependency, incumbent (Mux) expansion risk |
+| Founder Reach | Neil Bhammar: Twitter @nbhammar (count not retrievable), LinkedIn linkedin.com/in/neilbhammar. Michael Seleman: Twitter @MichaelSeleman (count not retrievable), LinkedIn linkedin.com/in/michael-seleman-541509122. No GitHub profiles found |
 | Distribution Signals | No public data found (no Product Hunt listing, no app store presence, no community channels identified) |
+| Emails | contact@shortkit.dev |

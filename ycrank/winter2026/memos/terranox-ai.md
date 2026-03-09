@@ -11,94 +11,108 @@
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
 | Tags | Artificial Intelligence, Energy, Mining |
+| YC Partner | Brad Flora |
+| Emails | founders@terranox.ai |
 
 ## The Idea
 
-**Problem:** The nuclear energy industry faces a structural uranium supply deficit. Annual reactor demand is approximately 180 million pounds while primary production is approximately 130 million pounds, creating a ~28% shortfall (Sprott, 2025 via search snippet). Uranium exploration is capital-intensive, time-consuming, and historically reliant on legacy geological methods. Over 75 uranium exploration projects were active in North America, Africa, and Australia in 2023 (U.S. EIA via search snippet). Exploration companies currently rely on traditional geological surveys, geochemical sampling, and geophysical methods that are slow and expensive, with low discovery success rates. Exploration and mine development expenditures globally were approximately $840 million in 2023 (OECD-NEA, Uranium 2024 report via search snippet).
+**Problem:** Nuclear energy is experiencing a resurgence driven by AI data center power demands and global decarbonization goals, but the uranium supply chain is constrained. Persistent under-delivery from global producers and delayed project restarts have accelerated expectations of a structural supply deficit into 2026, with long-term contract prices rising to US$86/lb (Crux Investor, 2026 via search snippet). Traditional uranium exploration relies on decades-old geological methods with low discovery success rates (an estimated industry average of ~0.5% according to Earth AI's claims, PR Newswire, Jan 2025 via search snippet). Exploration companies, mining majors, and governments seeking domestic uranium supply are the primary customer segments.
 
-**Approach:** Terranox uses machine learning models trained on 70+ years of historical exploration outcome data to identify high-grade uranium deposits in North America (YC company page). The company describes itself as "the first vertically integrated AI-powered uranium exploration company," combining AI-driven prospectivity mapping and sequential decision intelligence with direct exploration activities (YC company page). The vertical integration means Terranox both identifies targets via AI and conducts exploration, rather than licensing software to exploration companies.
+**Approach:** Terranox uses AI models trained on 70+ years of geological exploration outcomes to identify high-grade uranium deposits in North America (YC company page). The company describes itself as "the first vertically integrated AI-powered uranium exploration company," meaning it both develops the AI discovery technology and directly explores/develops the deposits it identifies, rather than licensing software to third parties (YC company page).
 
-**Differentiation:** Unlike AI mineral exploration platforms such as MinersAI or GoldSpot Discoveries that sell software tools to mining companies, Terranox is vertically integrated—it uses its AI to find deposits for its own portfolio. Unlike KoBold Metals ($537M raised, $2.96B valuation; SiliconANGLE, Jan 2025 via search snippet), which focuses on critical minerals like lithium and copper, Terranox is uranium-specific. Unlike Earth AI (YC alum, $43.4M raised; Tracxn via search snippet), which targets multiple critical metals, Terranox's exclusive uranium focus enables training on a more concentrated dataset of historical exploration outcomes specific to that mineral.
+**Differentiation:** Existing AI mineral exploration companies — KoBold Metals, Earth AI, GeologicAI — focus on critical minerals such as copper, nickel, cobalt, and lithium. No publicly identified competitor applies AI exploration specifically to uranium. Traditional uranium exploration competitors (Cameco, Uranium Energy Corp, NexGen Energy) are conventional mining/exploration companies without publicly disclosed AI-driven exploration platforms. The vertical integration model — owning both the AI discovery technology and the mineral claims — differentiates Terranox from pure-play exploration software providers.
 
-**Business Model:** No public pricing page or revenue model was found on the company website. [Inferred]: As a vertically integrated exploration company, the most likely monetization path is through the value of discovered uranium deposits—either via direct ownership of mineral rights, joint ventures with mining operators, or sale/licensing of discovered prospects to uranium producers. This is an asset-value model rather than a SaaS or services model.
+**Business Model:** No pricing page or revenue model is publicly visible on the Terranox website (website returned minimal content at time of research). [Inferred]: As a vertically integrated exploration company, the most likely monetization path is through the value of discovered uranium deposits — either developing and selling uranium directly, or through joint ventures, royalty agreements, or asset sales to mining companies, rather than SaaS licensing.
 
-**TAM/SAM:** The global uranium market was valued at approximately $3.07 billion in 2025 and is projected to reach $3.18 billion in 2026 (Business Research Insights via search snippet). The uranium ore mining segment was $0.74 billion in 2025, growing at 4.8% CAGR (GII Research via search snippet). Global uranium exploration and mine development expenditures totaled approximately $2.1 billion for 2021–2023, with annual spending reaching $840 million in 2023 (OECD-NEA, Uranium 2024 report via search snippet). U.S.-specific exploration and production expenditures totaled $160 million in 2024, the highest since 2016 (U.S. EIA via search snippet). [Inferred]: The SAM for AI-driven uranium exploration in North America is a subset of the North American exploration budget, likely in the low hundreds of millions of dollars annually.
+**TAM/SAM:** The global uranium market was valued at USD 3.07 billion in 2025, projected to reach USD 3.18 billion in 2026 (Global Growth Insights, 2026 via search snippet). A broader market definition valued the market at USD 15.57 billion in 2024, projected to reach USD 21.78 billion by 2033 at a CAGR of ~4.3% (SkyQuest via search snippet). Total exploration and mine development expenditures across 27 reporting countries amounted to USD 2.1 billion over 2021–2023 (OECD-NEA, Uranium 2024 report). [Inferred]: The SAM would be North American uranium exploration expenditures, a subset of global exploration spend, but no specific North America-only figure was found.
 
-**GTM / Distribution:** [Inferred]: As a vertically integrated exploration company, the GTM path is through acquiring or leasing mineral rights in prospective areas identified by the AI platform, then conducting exploration programs. Revenue would come from proving up deposits and either developing them via joint ventures with uranium producers or selling/optioning mineral rights. The customer base is ultimately the uranium mining industry and nuclear utilities, not technology buyers.
+**GTM / Distribution:** [Inferred]: As a vertically integrated explorer, distribution is through direct claim acquisition and exploration in North America, with potential monetization through offtake agreements with utilities or sales to mining majors. The company is not selling software, so there is no traditional software GTM motion. The recent trend of AI hyperscalers seeking to secure long-term uranium supply from mining companies (StartupNews.fyi, Feb 2026 via search snippet) could create a direct demand channel from tech companies building nuclear-powered data centers.
 
 ## Defensibility
 
-**Proprietary data and model training:** Terranox claims its AI is trained on 70+ years of exploration outcomes (YC company page). If the company has aggregated and structured proprietary geological datasets—including both successful and unsuccessful exploration outcomes—this data corpus could be difficult to replicate. The value of ML models in mineral exploration depends heavily on training data quality, coverage, and negative examples (failed exploration targets).
+**Data moat:** Terranox claims its AI is trained on 70+ years of exploration outcomes (YC company page). Proprietary training data from historical geoscience records, if aggregated and cleaned at scale, could represent a defensible data asset, as this data is fragmented across government agencies, academic institutions, and private companies. The value of this data advantage increases with each exploration outcome (drill results, assays) the company generates through its own operations.
 
-**Vertical integration:** By combining AI target identification with direct exploration, the company retains optionality on discovered deposits rather than competing on software licensing margins.
+**Vertical integration:** Owning both the discovery technology and the mineral claims creates a structural advantage: competitors using AI for exploration software alone do not capture the full economic value of discoveries, while traditional miners lack the AI capability.
 
-**Market structure:** The uranium exploration industry is fragmented, composed of many junior exploration companies using traditional methods and a small number of large producers (Cameco, Kazatomprom). Large incumbent miners have their own exploration divisions but have been slow to adopt AI/ML tools—a 2025 CIM survey found only 21% of mining professionals use AI/ML tools regularly (CIM Magazine, 2026 via search snippet). [Inferred]: Incumbents may be reluctant to shift capital from their existing geological expertise and workflows to AI-driven approaches, and junior explorers may lack the data science capabilities to build competitive models.
+**Market structure:** Large uranium miners (Cameco, Kazatomprom) are production-focused organizations optimized for extraction from known deposits. Building an AI exploration capability requires a fundamentally different talent base (ML engineers, data scientists) and risk profile (speculative exploration) that conflicts with the operational efficiency focus of established miners. [Inferred]: The structural barrier is that incumbents' capital allocation processes favor expanding known reserves over speculative AI-driven greenfield exploration.
 
-**Commoditization risk:** Other AI mineral exploration companies (KoBold Metals, Earth AI, MinersAI) have established teams and larger datasets across multiple minerals. If uranium exploration proves commercially viable, these companies could pivot to include uranium targets. Additionally, major mining companies like BHP have AI partnerships (e.g., with KoBold Metals; Omdena via search snippet), and could develop in-house uranium-specific capabilities. The uranium-specific training data moat depends on how proprietary and differentiated the company's dataset is relative to publicly available geological survey data.
+**Commoditization risk:** The core AI-for-geology approach is being applied by multiple well-funded companies (KoBold Metals at $2.96B valuation, Earth AI, GeologicAI) to other minerals. These companies could pivot to uranium exploration if the economics become attractive. The underlying ML techniques (geospatial analysis, remote sensing, geological data interpretation) are not unique to uranium. However, the specialized training data on uranium exploration outcomes would need to be independently assembled.
 
 ## Market & Traction
 
-**Traction signals:** No public revenue, user counts, or customer data found. No Product Hunt launch found. No press coverage in named publications found. The company's LinkedIn page (linkedin.com/company/terranox-ai) has been established. Website was live but rendered minimal content at time of research. The YC page lists YC partner Brad Flora as the primary partner (YC company page). An Instagram reel showing the product in action exists (Instagram @terranox via search snippet). No Discord, Slack, or community channels found.
+**Traction signals:**
+- No public revenue, user counts, or customer data found.
+- No Product Hunt listing found.
+- No company Twitter/X account identified (founder accounts exist; see below).
+- LinkedIn company page exists at linkedin.com/company/terranox-ai (follower count not retrievable).
+- No press coverage in named publications found beyond YC listing aggregator sites.
+- No job postings (YC company page).
+- Website returned minimal content at time of research (font loading and title only).
 
 **Competitive landscape:**
 
-- **KoBold Metals** — $537M Series C, $2.96B post-money valuation (SiliconANGLE, Jan 2025 via search snippet). Backed by Bill Gates, Jeff Bezos, Andreessen Horowitz. Focuses on critical minerals (lithium, copper, nickel), not uranium. Vertically integrated model similar to Terranox. Has active exploration in Zambia, Canada, Australia. Revenue not publicly disclosed.
-- **Earth AI** — $43.4M total raised including $25.9M Series B (Tracxn via search snippet). YC alum (S16). AI + proprietary drilling for critical metals. Based in San Mateo. Revenue not publicly disclosed.
-- **MinersAI** — Pre-seed funded by Speedinvest (Crunchbase via search snippet). AI-driven geological data analysis platform. SaaS/platform model selling to exploration companies. Based in Boulder, CO and Brussels, Belgium. Founded July 2023. Revenue not publicly disclosed.
-- **Windfall Geotek (TSXV: WIN)** — Publicly traded. AI-driven mineral exploration. Small cap with a $500K private placement in October 2025 (Tracxn via search snippet). Founded 1996. Revenue not publicly disclosed.
-- **GoldSpot Discoveries** — Acquired by ALS Limited in a C$24M transaction (search snippet). AI for mineral exploration across multiple commodities.
+| Competitor | Funding | Key Differentiator vs. Terranox |
+|-----------|---------|-------------------------------|
+| **KoBold Metals** | $537M Series C (Jan 2025) + $200M (Nov 2025); $2.96B valuation; total >$1B raised (TechCrunch, Jan 2025; The Logic, Nov 2025 via search snippets) | Focuses on critical minerals (copper, nickel, cobalt, lithium), not uranium. Operates across five continents. Revenue unknown. |
+| **Earth AI** | $20M Series B (Jan 2025) (PR Newswire, Jan 2025 via search snippet) | Also vertically integrated and YC-backed. Focuses on critical minerals for clean energy, not uranium. Claims 75% discovery success rate vs. 0.5% industry average. Revenue unknown. |
+| **GeologicAI** | $44M Series B (Jul 2025), backed by BHP Ventures and Rio Tinto (BusinessWire, Jul 2025 via search snippet) | Focuses on AI-driven drill core analysis as a service to mining companies, rather than vertical integration. ~250 employees. Revenue unknown. |
+| **Cameco** | Public company (NYSE: CCJ) | Largest Western uranium producer. Traditional exploration and mining methods. No publicly disclosed AI exploration capability. Revenue: ~$2.6B CAD (2024 annual report via search snippet context). |
+| **NexGen Energy** | Public company (NYSE: NXE) | Developing the Rook 1 uranium project in Saskatchewan. In talks with data center providers for project financing (StartupNews.fyi, Feb 2026 via search snippet). Traditional exploration approach. |
 
-**Why now:** Several converging catalysts have opened this opportunity:
-1. AI data center electricity demand is driving renewed nuclear energy investment. A global investor survey found rapid AI/data center expansion is reshaping long-term expectations for nuclear generation (World Nuclear Association, 2025 via search snippet).
-2. Kazatomprom, the world's largest uranium producer, cut its 2025-2026 output guidance by over 20 million pounds (Sprott, 2025 via search snippet), tightening global supply.
-3. Goldman Sachs projects spot uranium prices could climb to ~$91/lb by end of 2026, with surveyed investors pointing to $100-120/lb scenarios (NAI 500, Dec 2025 via search snippet).
-4. U.S. exploration and production expenditures reached $160 million in 2024, the highest since 2016 (U.S. EIA via search snippet), signaling renewed industry investment.
-5. [Inferred]: Advances in ML/AI capabilities, combined with digitization of historical exploration records, have recently made it feasible to train exploration models on decades of geological outcomes data.
+The direct competitive set for AI-powered uranium exploration specifically is small — no other startup was found with this exact positioning.
+
+**Why now:** AI-driven electricity demand from data centers is projected to double from 2% of global consumption in 2022 to ~4% by 2026 (IAEA via search snippet). This has created a structural demand increase for nuclear energy and, consequently, uranium. At the same time, uranium supply is constrained: persistent under-delivery from global producers and delayed project restarts have created expectations of a structural supply deficit (Crux Investor, 2026 via search snippet). Uranium long-term contract prices have risen to US$86/lb (Crux Investor, 2026 via search snippet). In 2026, 15 new reactors are expected to come online globally (Carbon Credits, 2026 via search snippet). [Inferred]: The convergence of surging demand (AI data centers + decarbonization) and constrained supply creates urgency for new uranium discoveries, which is the specific opportunity Terranox targets.
 
 ## Founders & Team
 
 **Jade Checlair** — Co-founder & CEO
-- PhD in Geophysical Sciences, University of Chicago (UChicago PSD News, 2019). BSc Physics, University of Toronto (UChicago PSD News, 2019).
-- Previously: Project Leader at Boston Consulting Group in nuclear and mining strategy (YC company page; ZoomInfo via search snippet). Lecturer in Climate Science at University of Chicago. Research Fellow at Earth-Life Science Institute (ELSI). Research Intern at NASA (UChicago PSD News, 2019).
-- Published researcher in exoplanet habitability and climate modeling (Google Scholar profile found). Born in Brussels, Belgium (UChicago PSD News, 2019).
-- Twitter/X: @exoplanetjade — follower count not retrievable.
-- LinkedIn: linkedin.com/in/jade-checlair (found via search).
-- GitHub: github.com/jadecheclair — 4 public repos (including GPlaSim, ErsToTifConverter), ~2 total stars, 3 followers (GitHub).
+- Born and raised in Brussels, Belgium (UChicago News profile).
+- BSc Physics, University of Toronto (UChicago News profile).
+- PhD Geophysical Sciences, University of Chicago — research on exoplanet habitability, snowball states on tidally locked planets (UChicago Department of Geophysical Sciences spotlight).
+- Research experience at NASA Ames Research Center with Christopher P. McKay on Titan-like exoplanets (NASA Technical Reports Server).
+- Co-author on Astro2020 Science White Paper for NASA Decadal Survey (ADS/Harvard).
+- Project Leader at BCG (from Consultant to Project Leader) (ZoomInfo via search snippet).
+- Published researcher with Google Scholar profile (Google Scholar).
+- Twitter/X: @jadecheclair and @exoplanetjade — follower counts not retrievable.
+- LinkedIn: linkedin.com/in/jade-checlair — headline listed as "Building Terranox AI (YC W26)" (LinkedIn via search snippet).
+- GitHub: github.com/jadecheclair — 4 public repos (mostly forks of scientific computing tools), 3 followers. Notable repo: GPlaSim (Generalized Planet Simulator), 1 star (GitHub).
 
 **Leeav Lipton** — Co-founder & CTO
-- 8 years at Borealis AI (RBC's AI research institute) in AI/ML systems (YC company page). Product Manager and Engagement Lead for AI/ML at RBC (Wiza via search snippet).
-- ex-NASA JPL remote sensing researcher (YC company page; not independently confirmed via separate source).
+- 8 years building AI/ML systems at Borealis AI (RBC's AI research institute) (YC company page).
+- Product Manager and Engagement Lead, AI and Machine Learning at RBC (Wiza via search snippet).
+- Previously worked at NASA JPL on remote sensing technology (YC company page; not independently confirmed in search results).
 - Twitter/X: No public account found.
-- LinkedIn: ca.linkedin.com/in/leeavlipton — headline "AI/ML for Mineral Exploration" (LinkedIn via search snippet).
-- GitHub: No public account found.
+- LinkedIn: No direct profile URL found in search results.
+- GitHub: No public repos found.
 
-**Co-founder relationship:** Both founders have experience at NASA (Checlair as a research intern; Lipton at JPL per the YC company page), though at different centers (Ames vs. JPL). No shared employer or university overlap was identified in available data. No additional public data on co-founder history.
+**Co-founder relationship:** Both founders met in first-year physics and have collaborated for 10+ years (YC company page). Given that Jade Checlair studied physics at the University of Toronto, [Inferred]: they likely met at the University of Toronto.
 
-**Founder-market fit:** Checlair brings domain expertise in geophysics (PhD-level training in earth and planetary sciences) combined with management consulting experience in the nuclear and mining industries at BCG. Lipton brings 8 years of AI/ML systems experience at a major financial institution's research lab plus remote sensing experience at NASA JPL. The combination covers both the geological domain knowledge and the ML engineering capability required to build AI-driven exploration models. No advisors, board members, or notable investors beyond YC were identified in public sources.
+**Founder-market fit:** Jade Checlair brings deep geoscience expertise (PhD in geophysical sciences, published planetary science researcher, NASA collaborator) combined with management consulting experience at BCG. Leeav Lipton brings 8 years of AI/ML engineering and product management at RBC Borealis AI, plus claimed remote sensing experience at NASA JPL. The combination of geoscience domain knowledge and AI/ML systems engineering is directly relevant to building AI models for mineral exploration. Their decade-plus collaboration suggests a tested working relationship.
 
 ## Key Risks
 
-**Brand disambiguation with Segway Navimow "Terranox":** Segway's Navimow division launched a commercial robotic lawn mower product called "Terranox" in 2026 (Maison et Domotique, 2026 via search snippet). This creates potential brand confusion in web searches and marketing, particularly as the Navimow product has significant marketing presence through Instagram reels, CES coverage, and product reviews.
+**Exploration risk / capital intensity:** Mineral exploration is inherently speculative — even with AI-enhanced targeting, drilling and assay results may not yield economic deposits. The capital required for exploration campaigns (land acquisition, drilling, permitting, environmental studies) is orders of magnitude higher than typical software startups. A 2-person team with pre-seed funding will need to raise significant follow-on capital to fund exploration operations.
 
-**Geological discovery risk:** AI-driven target identification does not guarantee commercially viable uranium deposits. Even with superior targeting, exploration programs require significant capital for drilling and resource delineation. The gap between an AI-identified target and a proved, developable uranium deposit involves years of fieldwork, regulatory permitting, and substantial capital expenditure. The core technology proposition—that ML on historical exploration data meaningfully outperforms traditional geological methods for uranium—remains unproven at commercial scale.
+**Regulatory and permitting complexity:** Uranium exploration and mining in North America is subject to federal and state/provincial regulatory oversight (NRC in the US, CNSC in Canada), environmental review requirements, and public opposition to uranium mining. Permitting timelines can extend years, creating execution risk independent of the AI technology's performance.
 
-**Regulatory and permitting exposure:** Uranium exploration and mining in North America is subject to extensive federal and state/provincial regulation. The Nuclear Regulatory Commission (NRC), Environmental Protection Agency (EPA), and state agencies impose permitting requirements that can take years to navigate. Any changes in regulatory posture toward uranium mining could directly impact the company's ability to develop identified deposits.
+**No uranium-specific track record:** The founders' backgrounds are in planetary science/geophysics and AI/ML at a financial institution. Neither founder has a publicly documented background in uranium exploration, mining operations, or the nuclear fuel cycle. The YC page states the AI is trained on 70+ years of exploration outcomes, but no details on data provenance, model validation results, or exploration success metrics are publicly available.
 
-**Capital intensity of vertical integration:** As a vertically integrated exploration company, Terranox must fund not only AI development but also field exploration programs (drilling, sampling, environmental assessments). This requires significantly more capital than a pure software play. At a 2-person team with YC-level funding, the ability to execute field programs at meaningful scale is constrained.
+**Competitor pivot risk:** Well-funded AI exploration companies (KoBold Metals with >$1B raised, Earth AI, GeologicAI) could enter uranium exploration by retraining their existing models on uranium-specific geological data, potentially with significantly more resources and established exploration infrastructure.
 
-**Competitive entry from larger AI exploration players:** KoBold Metals ($537M raised) and Earth AI ($43.4M raised) have established AI mineral exploration platforms with larger teams, broader datasets, and existing field operations. If uranium economics become sufficiently attractive, these companies could redirect resources toward uranium exploration with a significant head start in operational infrastructure.
+**Asset-heavy business model in a VC context:** Vertical integration means Terranox must acquire and hold mineral claims, conduct physical exploration, and manage mining operations — an asset-heavy model that differs from the asset-light software models typical of YC companies. This creates a mismatch with standard venture capital return timelines and capital efficiency expectations.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | ~$3.07B global uranium market (Business Research Insights, 2025 via search snippet, 3.6% CAGR to 2035); ~$840M global uranium exploration expenditure (OECD-NEA, 2023 via search snippet) |
-| SAM | No public data found |
+| TAM | Global uranium market: USD 3.07B in 2025, projected to USD 3.18B in 2026 (Global Growth Insights via search snippet); broader definition: USD 15.57B in 2024 growing to USD 21.78B by 2033 (SkyQuest via search snippet) |
+| SAM | No public data found for North American uranium exploration specifically |
 | Traction | No public data found |
 | Revenue Signal | No public data found |
-| Founders | Jade Checlair (CEO): PhD Geophysical Sciences UChicago, ex-BCG Project Leader (nuclear/mining strategy), ex-NASA. Leeav Lipton (CTO): 8 yrs Borealis AI/RBC (AI/ML), ex-NASA JPL remote sensing. |
-| Competitors | KoBold Metals ($537M raised, $2.96B valuation, revenue unknown, critical minerals not uranium-focused); Earth AI ($43.4M raised, revenue unknown, YC alum, multi-mineral AI+drilling); MinersAI (pre-seed, revenue unknown, SaaS platform model); Windfall Geotek (public TSXV:WIN, micro-cap, revenue unknown, legacy AI exploration) |
-| Moat Signals | 70+ years of historical exploration outcome data used for training (YC page); vertical integration model (own deposits vs. license software) |
-| Risk Factors | Geological discovery risk (unproven AI-to-deposit pipeline), brand collision with Segway Navimow "Terranox," capital intensity of vertical integration at pre-seed stage |
-| Founder Reach | Jade Checlair: Twitter @exoplanetjade (count not retrievable), LinkedIn linkedin.com/in/jade-checlair, GitHub 3 followers/~2 stars. Leeav Lipton: Twitter not found, LinkedIn ca.linkedin.com/in/leeavlipton, GitHub not found. |
+| Founders | Jade Checlair (CEO): PhD Geophysics UChicago, NASA Ames researcher, BCG Project Leader. Leeav Lipton (CTO): 8 yrs AI/ML at RBC Borealis AI, NASA JPL (per YC page). |
+| Competitors | KoBold Metals (>$1B raised, $2.96B valuation, revenue unknown, focuses on non-uranium critical minerals); Earth AI ($20M Series B, revenue unknown, vertically integrated critical mineral explorer); GeologicAI ($44M Series B, revenue unknown, AI drill core analysis as a service); Cameco (public, largest Western uranium producer, traditional methods); NexGen Energy (public, Rook 1 uranium project, traditional methods) |
+| Moat Signals | Proprietary AI trained on 70+ years of uranium exploration data (claimed, YC page); vertical integration (own technology + mineral claims); uranium-specific focus with no direct AI competitor identified |
+| Risk Factors | Exploration risk / capital intensity, regulatory and permitting complexity, no uranium-specific founder track record, competitor pivot risk, asset-heavy model vs. VC timelines |
+| Founder Reach | Jade Checlair: Twitter @jadecheclair (count not retrievable), LinkedIn linkedin.com/in/jade-checlair, GitHub 3 followers. Leeav Lipton: no public social accounts found. |
 | Distribution Signals | No public data found |
+| Emails | founders@terranox.ai |

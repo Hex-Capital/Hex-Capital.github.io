@@ -207,10 +207,21 @@
 
         <!-- Card row with side nav buttons -->
         <div class="mobile-card-layout">
-          <!-- Left nav -->
-          <button @click="mobileCardNav(-1)" :disabled="mobileCardIndex <= 0"
-            :class="mobileCardIndex > 0 ? 'text-claude-orange' : 'text-claude-dim cursor-not-allowed'"
-            class="mobile-card-nav-btn">&lt;</button>
+          <!-- Left peek card -->
+          <div @click="mobileCardNav(-1)"
+            class="mobile-card-peek"
+            :class="{ 'mobile-card-peek-disabled': mobileCardIndex <= 0 || mobileCards.length === 0 }">
+            <template x-if="mobileCardIndex > 0 && mobileCards.length > 0">
+              <div class="flex flex-col items-center gap-1">
+                <span class="mobile-card-peek-chevron">&lsaquo;</span>
+                <span class="mobile-card-peek-score"
+                  :class="avgColor(mobileCards[mobileCardIndex - 1].avg)"
+                  x-text="mobileCards[mobileCardIndex - 1].avg != null ? mobileCards[mobileCardIndex - 1].avg.toFixed(1) : '-'"></span>
+                <span class="mobile-card-peek-name"
+                  x-text="mobileCards[mobileCardIndex - 1].name"></span>
+              </div>
+            </template>
+          </div>
 
           <!-- Swipeable card viewport -->
           <div class="mobile-card-viewport"
@@ -223,7 +234,7 @@
               <!-- Card content -->
               <template x-if="mobileCards.length > 0">
                 <div class="mobile-card border border-claude-border"
-                  :class="{ ['tier-' + avgTierClass(mobileCards[mobileCardIndex].avg)]: true, 'has-disagreement': isDisagreement(mobileCards[mobileCardIndex].name) }"
+                  :class="{ ['tier-' + avgTierClass(mobileCards[mobileCardIndex].avg)]: true, 'has-disagreement': isDisagreement(mobileCards[mobileCardIndex].name), [_cardTransition]: _cardTransition }"
                   @click="!_swipeConsumed && mobileCards[mobileCardIndex].slug && navigate('company/' + mobileCards[mobileCardIndex].slug)">
 
                   <!-- Header: name + location -->
@@ -264,17 +275,17 @@
                   <p class="text-xs text-claude-gray line-clamp-2 pl-2 leading-relaxed" style="border-left: 2px solid var(--c-dim)"
                     x-text="mobileCards[mobileCardIndex].oneLiner || ''"></p>
 
-                  <!-- Vertical bar chart -->
-                  <div class="v1-bar-chart">
-                    <template x-for="p in personas" :key="'v1-bar-'+p.abbr">
-                      <div class="v1-bar-col">
-                        <span class="v1-bar-label" x-text="p.abbr"></span>
-                        <span class="v1-bar-score tabular-nums font-mono"
+                  <!-- Persona scores with micro-bars -->
+                  <div class="mobile-score-strip">
+                    <template x-for="p in personas" :key="'mscore-'+p.abbr">
+                      <div class="mobile-score-cell">
+                        <span class="mobile-score-label" x-text="p.abbr"></span>
+                        <span class="mobile-score-value"
                           :class="tierColor(mobileCards[mobileCardIndex].tiers[p.abbr])"
                           x-text="mobileCards[mobileCardIndex].scores[p.abbr] != null ? mobileCards[mobileCardIndex].scores[p.abbr] : '-'"></span>
-                        <div class="v1-bar-area">
-                          <div class="v1-bar"
-                            :style="'height:' + (mobileCards[mobileCardIndex].scores[p.abbr] || 0) + '%;background:' + tierBarBg(mobileCards[mobileCardIndex].tiers[p.abbr]) + '66;border-top:2px solid ' + tierBarBg(mobileCards[mobileCardIndex].tiers[p.abbr])"></div>
+                        <div class="mobile-score-microbar">
+                          <div class="mobile-score-microbar-fill"
+                            :style="'width:' + (mobileCards[mobileCardIndex].scores[p.abbr] || 0) + '%;background:' + tierBarBg(mobileCards[mobileCardIndex].tiers[p.abbr])"></div>
                         </div>
                       </div>
                     </template>
@@ -300,10 +311,21 @@
             </div>
           </div>
 
-          <!-- Right nav -->
-          <button @click="mobileCardNav(1)" :disabled="mobileCardIndex >= mobileCards.length - 1"
-            :class="mobileCardIndex < mobileCards.length - 1 ? 'text-claude-orange' : 'text-claude-dim cursor-not-allowed'"
-            class="mobile-card-nav-btn">&gt;</button>
+          <!-- Right peek card -->
+          <div @click="mobileCardNav(1)"
+            class="mobile-card-peek"
+            :class="{ 'mobile-card-peek-disabled': mobileCardIndex >= mobileCards.length - 1 || mobileCards.length === 0 }">
+            <template x-if="mobileCardIndex < mobileCards.length - 1 && mobileCards.length > 0">
+              <div class="flex flex-col items-center gap-1">
+                <span class="mobile-card-peek-chevron">&rsaquo;</span>
+                <span class="mobile-card-peek-score"
+                  :class="avgColor(mobileCards[mobileCardIndex + 1].avg)"
+                  x-text="mobileCards[mobileCardIndex + 1].avg != null ? mobileCards[mobileCardIndex + 1].avg.toFixed(1) : '-'"></span>
+                <span class="mobile-card-peek-name"
+                  x-text="mobileCards[mobileCardIndex + 1].name"></span>
+              </div>
+            </template>
+          </div>
         </div>
       </div>
     </div>

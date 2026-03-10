@@ -51,6 +51,7 @@ function app() {
     _touchLocked: false,   // true once we commit to horizontal swipe
     _touchCancelled: false, // true if vertical movement detected first
     _swipeConsumed: false,  // true if swipe gesture occurred (prevents tap navigation)
+    _cardTransition: '',   // slide transition class: 'card-exit-left', 'card-enter-right', etc.
 
     formatBatch(b) {
       const m = b.match(/^([a-z]+)(\d{4})$/);
@@ -724,8 +725,22 @@ function app() {
 
     mobileCardNav(dir) {
       const cards = this.mobileCards;
-      if (dir === -1 && this.mobileCardIndex > 0) this.mobileCardIndex--;
-      if (dir === 1 && this.mobileCardIndex < cards.length - 1) this.mobileCardIndex++;
+      const newIndex = this.mobileCardIndex + dir;
+      if (newIndex < 0 || newIndex >= cards.length) return;
+      if (this._cardTransition) return; // prevent double-tap during animation
+
+      // Exit animation
+      this._cardTransition = dir > 0 ? 'card-exit-left' : 'card-exit-right';
+
+      setTimeout(() => {
+        // Change card and start enter animation
+        this.mobileCardIndex = newIndex;
+        this._cardTransition = dir > 0 ? 'card-enter-right' : 'card-enter-left';
+
+        setTimeout(() => {
+          this._cardTransition = '';
+        }, 200);
+      }, 150);
     },
 
     // --- Keyboard shortcuts ---

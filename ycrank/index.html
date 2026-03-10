@@ -242,12 +242,12 @@
 
                       <!-- Score strip -->
                       <div class="v1-hero-strip" :style="'border-color:' + tierBarBg(avgTierLabel(mobileCards[slideIdx].avg))">
-                        <div class="v1-hero-left">
-                          <span class="v1-hero-avg font-mono tabular-nums" :class="avgColor(mobileCards[slideIdx].avg)"
-                            x-text="mobileCards[slideIdx].avg != null ? Math.round(mobileCards[slideIdx].avg) : '-'"></span>
-                          <span class="v1-hero-avg-label">AVG</span>
-                        </div>
-                        <div class="v1-meta-grid">
+                        <div class="v1-meta-grid" style="grid-template-columns:repeat(4,1fr)">
+                          <div class="v1-meta-cell">
+                            <span class="v1-meta-label">avg</span>
+                            <span class="font-mono tabular-nums" style="font-size:1.5rem;font-weight:700;line-height:1" :class="avgColor(mobileCards[slideIdx].avg)"
+                              x-text="mobileCards[slideIdx].avg != null ? Math.round(mobileCards[slideIdx].avg) : '-'"></span>
+                          </div>
                           <div class="v1-meta-cell">
                             <span class="v1-meta-label">team</span>
                             <span class="v1-meta-value" x-text="mobileCards[slideIdx].teamSize != null ? mobileCards[slideIdx].teamSize : '-'"></span>

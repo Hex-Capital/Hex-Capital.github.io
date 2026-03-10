@@ -298,13 +298,17 @@ function app() {
       });
       const linePoints = pts.filter(p => p.value !== null).map(p => `${p.x},${p.y}`).join(' ');
       const svgH = 'calc(100% - 18px)';
-      // SVG: line and dots only (text is HTML to avoid stretch distortion)
+      // SVG: line only (dots and text are HTML to avoid stretch distortion)
       let out = `<svg viewBox="0 0 ${vbW} ${vbH}" preserveAspectRatio="none" style="position:absolute;top:0;left:0;width:100%;height:${svgH}">`;
-      if (linePoints) out += `<polyline points="${linePoints}" fill="none" stroke="var(--c-accent)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>`;
-      for (const pt of pts) {
-        out += `<circle cx="${pt.x}" cy="${pt.y}" r="4" fill="${pt.color}" stroke="var(--c-card)" stroke-width="1.5"/>`;
-      }
+      if (linePoints) out += `<polyline points="${linePoints}" fill="none" stroke="var(--c-accent)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke"/>`;
       out += `</svg>`;
+      // HTML dots: positioned to match SVG coordinates but stay circular
+      for (const pt of pts) {
+        const xPct = (pt.x / vbW * 100).toFixed(2);
+        const yFrac = pt.y / vbH;
+        const yAdj = (yFrac * 18).toFixed(1);
+        out += `<span style="position:absolute;left:${xPct}%;top:calc(${(yFrac * 100).toFixed(2)}% - ${yAdj}px);transform:translate(-50%,-50%);width:9px;height:9px;border-radius:50%;background:${pt.color};border:1.5px solid var(--c-card)"></span>`;
+      }
       // HTML score values: positioned above or below each dot
       // Place below if this point is a local dip (lower score than both neighbors)
       for (let i = 0; i < pts.length; i++) {
@@ -313,13 +317,14 @@ function app() {
         const xPct = (pt.x / vbW * 100).toFixed(2);
         const yFrac = pt.y / vbH;
         const yPct = (yFrac * 100).toFixed(2);
-        // A point is a dip if its y is greater (lower on screen) than both neighbors
-        const prevY = i > 0 && pts[i-1].value != null ? pts[i-1].y : null;
-        const nextY = i < pts.length-1 && pts[i+1].value != null ? pts[i+1].y : null;
-        const isDip = pt.value != null
-          && ((prevY != null && nextY != null && pt.y > prevY && pt.y > nextY)
-            || (prevY == null && nextY != null && pt.y > nextY + 5)
-            || (nextY == null && prevY != null && pt.y > prevY + 5));
+        // A point is a dip if its score is lower than both neighbors (use raw scores, not y-coords)
+        const prevScore = i > 0 ? pts[i-1].value : null;
+        const nextScore = i < pts.length-1 ? pts[i+1].value : null;
+        const s = pt.value;
+        const isDip = s != null
+          && ((prevScore != null && nextScore != null && s < prevScore && s < nextScore)
+            || (prevScore == null && nextScore != null && s < nextScore - 5)
+            || (nextScore == null && prevScore != null && s < prevScore - 5));
         if (isDip) {
           // Below the dot
           const yOffset = (yFrac * 18 - 6).toFixed(1);
@@ -330,12 +335,6 @@ function app() {
           out += `<span style="position:absolute;left:${xPct}%;top:calc(${yPct}% - ${yOffset}px);transform:translateX(-50%);font:700 13px 'JetBrains Mono',monospace;color:${pt.color}">${val}</span>`;
         }
       }
-      // DEBUG: y-axis scale labels (top=max, middle=mid, bottom=min)
-      const scaleMid = Math.round((scaleMin + scaleMax) / 2);
-      const yStyle = 'position:absolute;left:2px;font:600 8px JetBrains Mono,monospace;color:var(--c-red)';
-      out += `<span style="${yStyle};top:0">${scaleMax}</span>`;
-      out += `<span style="${yStyle};top:calc(50% - 9px)">${scaleMid}</span>`;
-      out += `<span style="${yStyle};top:calc(100% - 26px)">${scaleMin}</span>`;
       // HTML persona labels: positioned at bottom
       out += `<div style="position:absolute;bottom:0;left:0;right:0;display:flex;justify-content:space-between;padding:0 9%;line-height:1">`;
       for (const pt of pts) {

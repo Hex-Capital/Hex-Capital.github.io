@@ -251,25 +251,35 @@ function app() {
         : `transform:translateX(calc(-33.333% + ${swipe}px));transition:${transition}`;
     },
 
-    scoreGraphData(card) {
-      if (!card) return [];
+    scoreGraphSVG(card) {
+      if (!card) return '';
       const count = this.personas.length;
       const xStart = 25, xEnd = 255, yTop = 14, yBottom = 70;
       const xStep = count > 1 ? (xEnd - xStart) / (count - 1) : 0;
-      return this.personas.map((p, i) => {
+      const pts = this.personas.map((p, i) => {
         const score = card.scores[p.abbr];
-        const x = Math.round(xStart + i * xStep);
-        const y = score != null ? Math.round(yBottom - (score / 100) * (yBottom - yTop)) : yBottom;
-        const color = this.tierBarBg(card.tiers[p.abbr]);
-        return { x, y, label: p.abbr, value: score != null ? score : '-', color };
+        return {
+          x: Math.round(xStart + i * xStep),
+          y: score != null ? Math.round(yBottom - (score / 100) * (yBottom - yTop)) : yBottom,
+          label: p.abbr,
+          value: score != null ? score : null,
+          color: this.tierBarBg(card.tiers[p.abbr])
+        };
       });
-    },
-
-    scoreGraphPoints(card) {
-      return this.scoreGraphData(card)
-        .filter(pt => pt.value !== '-')
-        .map(pt => `${pt.x},${pt.y}`)
-        .join(' ');
+      const linePoints = pts.filter(p => p.value !== null).map(p => `${p.x},${p.y}`).join(' ');
+      let svg = `<svg viewBox="0 0 280 100" preserveAspectRatio="xMidYMid meet">`;
+      svg += `<line x1="25" y1="14" x2="255" y2="14" stroke="var(--c-border)" stroke-width="0.5" stroke-dasharray="2"/>`;
+      svg += `<line x1="25" y1="42" x2="255" y2="42" stroke="var(--c-border)" stroke-width="0.5" stroke-dasharray="2"/>`;
+      svg += `<line x1="25" y1="70" x2="255" y2="70" stroke="var(--c-border)" stroke-width="0.5"/>`;
+      if (linePoints) svg += `<polyline points="${linePoints}" fill="none" stroke="var(--c-accent)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>`;
+      for (const pt of pts) {
+        const val = pt.value != null ? pt.value : '-';
+        svg += `<circle cx="${pt.x}" cy="${pt.y}" r="4" fill="${pt.color}" stroke="var(--c-card)" stroke-width="1.5"/>`;
+        svg += `<text x="${pt.x}" y="${pt.y - 7}" text-anchor="middle" fill="${pt.color}" font-size="10" font-weight="700" font-family="JetBrains Mono, monospace">${val}</text>`;
+        svg += `<text x="${pt.x}" y="90" text-anchor="middle" fill="var(--c-gray)" font-size="9" font-weight="500" font-family="JetBrains Mono, monospace">${pt.label}</text>`;
+      }
+      svg += `</svg>`;
+      return svg;
     },
 
     sortBy(col) {

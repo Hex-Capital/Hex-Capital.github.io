@@ -244,7 +244,7 @@
                       <div class="v1-hero-strip" :style="'border-color:' + tierBarBg(avgTierLabel(mobileCards[slideIdx].avg))">
                         <div class="v1-hero-left">
                           <span class="v1-hero-avg font-mono tabular-nums" :class="avgColor(mobileCards[slideIdx].avg)"
-                            x-text="mobileCards[slideIdx].avg != null ? mobileCards[slideIdx].avg.toFixed(2) : '-'"></span>
+                            x-text="mobileCards[slideIdx].avg != null ? Math.round(mobileCards[slideIdx].avg) : '-'"></span>
                           <span class="v1-hero-avg-label">AVG</span>
                         </div>
                         <div class="v1-meta-grid">
@@ -268,21 +268,7 @@
                         x-text="mobileCards[slideIdx].oneLiner || ''"></p>
 
                       <!-- Persona scores line graph -->
-                      <div class="mobile-score-graph">
-                        <svg viewBox="0 0 280 100" preserveAspectRatio="xMidYMid meet">
-                          <line x1="25" y1="14" x2="255" y2="14" stroke="var(--c-border)" stroke-width="0.5" stroke-dasharray="2"/>
-                          <line x1="25" y1="42" x2="255" y2="42" stroke="var(--c-border)" stroke-width="0.5" stroke-dasharray="2"/>
-                          <line x1="25" y1="70" x2="255" y2="70" stroke="var(--c-border)" stroke-width="0.5"/>
-                          <polyline :points="scoreGraphPoints(mobileCards[slideIdx])" fill="none" stroke="var(--c-accent)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-                          <template x-for="(pt, pi) in scoreGraphData(mobileCards[slideIdx])" :key="'gd-'+si+'-'+pi">
-                            <g>
-                              <circle :cx="pt.x" :cy="pt.y" r="4" :fill="pt.color" stroke="var(--c-card)" stroke-width="1.5"/>
-                              <text :x="pt.x" :y="pt.y - 7" text-anchor="middle" :fill="pt.color" font-size="10" font-weight="700" font-family="JetBrains Mono, monospace" x-text="pt.value"></text>
-                              <text :x="pt.x" :y="90" text-anchor="middle" fill="var(--c-gray)" font-size="9" font-weight="500" font-family="JetBrains Mono, monospace" x-text="pt.label"></text>
-                            </g>
-                          </template>
-                        </svg>
-                      </div>
+                      <div class="mobile-score-graph" x-html="scoreGraphSVG(mobileCards[slideIdx])"></div>
 
                       <!-- Footer -->
                       <div class="mobile-card-footer">

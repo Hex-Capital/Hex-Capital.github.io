@@ -268,9 +268,6 @@ function app() {
       });
       const linePoints = pts.filter(p => p.value !== null).map(p => `${p.x},${p.y}`).join(' ');
       let svg = `<svg viewBox="0 0 280 100" preserveAspectRatio="xMidYMid meet">`;
-      svg += `<line x1="25" y1="14" x2="255" y2="14" stroke="var(--c-border)" stroke-width="0.5" stroke-dasharray="2"/>`;
-      svg += `<line x1="25" y1="42" x2="255" y2="42" stroke="var(--c-border)" stroke-width="0.5" stroke-dasharray="2"/>`;
-      svg += `<line x1="25" y1="70" x2="255" y2="70" stroke="var(--c-border)" stroke-width="0.5"/>`;
       if (linePoints) svg += `<polyline points="${linePoints}" fill="none" stroke="var(--c-accent)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>`;
       for (const pt of pts) {
         const val = pt.value != null ? pt.value : '-';

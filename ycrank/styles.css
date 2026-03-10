@@ -598,6 +598,7 @@ main {
     background: var(--c-border);
     flex-shrink: 0;
     overflow: hidden;
+    margin-bottom: 16px;
   }
 
   .mobile-card-progress-fill {
@@ -613,6 +614,7 @@ main {
     align-items: stretch;
     flex: 1;
     min-height: 0;
+    margin-bottom: 16px;
   }
 
   .mobile-card-peek {
@@ -776,6 +778,7 @@ main {
     gap: 0.5rem;
     text-align: center;
     min-width: 0;
+    flex: 1;
   }
   .v1-meta-cell {
     display: flex;
@@ -794,7 +797,7 @@ main {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    max-width: 80px;
+    max-width: 100%;
   }
   /* ===== Score Line Graph ===== */
   .mobile-score-graph {

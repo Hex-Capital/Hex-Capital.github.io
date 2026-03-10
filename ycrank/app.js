@@ -51,7 +51,7 @@ function app() {
     _touchLocked: false,   // true once we commit to horizontal swipe
     _touchCancelled: false, // true if vertical movement detected first
     _swipeConsumed: false,  // true if swipe gesture occurred (prevents tap navigation)
-    _cardTransition: '',   // slide transition class: 'card-exit-left', 'card-enter-right', etc.
+    _animating: false,     // true during carousel slide animation
 
     formatBatch(b) {
       const m = b.match(/^([a-z]+)(\d{4})$/);
@@ -225,6 +225,51 @@ function app() {
         );
       }
       return [...rows].sort((a, b) => (b.avg || 0) - (a.avg || 0));
+    },
+
+    // Returns [prevIdx, currentIdx, nextIdx] for the 3-card carousel (-1 = empty slot)
+    get mobileVisibleSlides() {
+      const cards = this.mobileCards;
+      if (cards.length === 0) return [-1, -1, -1];
+      const idx = this.mobileCardIndex;
+      return [
+        idx > 0 ? idx - 1 : -1,
+        idx,
+        idx < cards.length - 1 ? idx + 1 : -1
+      ];
+    },
+
+    mobileTrackStyle() {
+      const transition = this.mobileSwiping
+        ? 'none'
+        : 'transform 0.35s cubic-bezier(0.22, 1, 0.36, 1)';
+      const swipe = this.mobileSwipeX;
+      // Base offset: -33.333% of track width = -1 viewport width (shows center slide)
+      // Swipe pixels added on top via calc() so it works even before ref is laid out
+      return swipe === 0
+        ? `transform:translateX(-33.333%);transition:${transition}`
+        : `transform:translateX(calc(-33.333% + ${swipe}px));transition:${transition}`;
+    },
+
+    scoreGraphData(card) {
+      if (!card) return [];
+      const count = this.personas.length;
+      const xStart = 25, xEnd = 255, yTop = 14, yBottom = 70;
+      const xStep = count > 1 ? (xEnd - xStart) / (count - 1) : 0;
+      return this.personas.map((p, i) => {
+        const score = card.scores[p.abbr];
+        const x = Math.round(xStart + i * xStep);
+        const y = score != null ? Math.round(yBottom - (score / 100) * (yBottom - yTop)) : yBottom;
+        const color = this.tierBarBg(card.tiers[p.abbr]);
+        return { x, y, label: p.abbr, value: score != null ? score : '-', color };
+      });
+    },
+
+    scoreGraphPoints(card) {
+      return this.scoreGraphData(card)
+        .filter(pt => pt.value !== '-')
+        .map(pt => `${pt.x},${pt.y}`)
+        .join(' ');
     },
 
     sortBy(col) {
@@ -663,6 +708,7 @@ function app() {
     // --- Mobile card swipe ---
 
     mobileCardTouchStart(e) {
+      if (this._animating) return;
       const t = e.touches[0];
       this._touchStartX = t.clientX;
       this._touchStartY = t.clientY;
@@ -710,37 +756,62 @@ function app() {
       const elapsed = Date.now() - this._touchStartTime;
       const velocity = Math.abs(dx) / (elapsed || 1);
       const cards = this.mobileCards;
+      const vw = this.$refs.cardViewport?.offsetWidth || 300;
 
+      let newIndex = this.mobileCardIndex;
       if ((Math.abs(dx) > 50 || velocity > 0.3) && cards.length > 1) {
         if (dx < 0 && this.mobileCardIndex < cards.length - 1) {
-          this.mobileCardIndex++;
+          newIndex = this.mobileCardIndex + 1;
         } else if (dx > 0 && this.mobileCardIndex > 0) {
-          this.mobileCardIndex--;
+          newIndex = this.mobileCardIndex - 1;
         }
       }
 
-      this.mobileSwipeX = 0;
-      this.mobileSwiping = false;
+      if (newIndex !== this.mobileCardIndex) {
+        // Animate carousel to next/prev card
+        const dir = newIndex > this.mobileCardIndex ? -1 : 1;
+        this.mobileSwiping = false; // enable CSS transition
+        this.mobileSwipeX = dir * vw;
+        this._animating = true;
+
+        setTimeout(() => {
+          this.mobileSwiping = true; // suppress transition for instant reset
+          this.mobileCardIndex = newIndex;
+          this.mobileSwipeX = 0;
+          this.$nextTick(() => {
+            this.mobileSwiping = false;
+            this._animating = false;
+          });
+        }, 350);
+      } else {
+        // Snap back
+        this.mobileSwipeX = 0;
+        this.mobileSwiping = false;
+      }
     },
 
     mobileCardNav(dir) {
       const cards = this.mobileCards;
       const newIndex = this.mobileCardIndex + dir;
       if (newIndex < 0 || newIndex >= cards.length) return;
-      if (this._cardTransition) return; // prevent double-tap during animation
+      if (this._animating) return;
 
-      // Exit animation
-      this._cardTransition = dir > 0 ? 'card-exit-left' : 'card-exit-right';
+      this._animating = true;
+      const vw = this.$refs.cardViewport?.offsetWidth || 300;
+
+      // Animate carousel slide
+      this.mobileSwiping = false; // enable CSS transition
+      this.mobileSwipeX = dir > 0 ? -vw : vw;
 
       setTimeout(() => {
-        // Change card and start enter animation
+        this.mobileSwiping = true; // suppress transition for instant reset
         this.mobileCardIndex = newIndex;
-        this._cardTransition = dir > 0 ? 'card-enter-right' : 'card-enter-left';
-
-        setTimeout(() => {
-          this._cardTransition = '';
-        }, 200);
-      }, 150);
+        this.mobileSwipeX = 0;
+        this.$nextTick(() => {
+          this.mobileSwiping = false;
+          this._animating = false;
+        });
+      }, 350);
     },
 
     // --- Keyboard shortcuts ---

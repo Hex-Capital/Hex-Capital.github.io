@@ -207,124 +207,109 @@
 
         <!-- Card row with side nav buttons -->
         <div class="mobile-card-layout">
-          <!-- Left peek card -->
+          <!-- Left nav -->
           <div @click="mobileCardNav(-1)"
             class="mobile-card-peek"
             :class="{ 'mobile-card-peek-disabled': mobileCardIndex <= 0 || mobileCards.length === 0 }">
-            <template x-if="mobileCardIndex > 0 && mobileCards.length > 0">
-              <div class="flex flex-col items-center gap-1">
-                <span class="mobile-card-peek-chevron">&lsaquo;</span>
-                <span class="mobile-card-peek-score"
-                  :class="avgColor(mobileCards[mobileCardIndex - 1].avg)"
-                  x-text="mobileCards[mobileCardIndex - 1].avg != null ? mobileCards[mobileCardIndex - 1].avg.toFixed(1) : '-'"></span>
-                <span class="mobile-card-peek-name"
-                  x-text="mobileCards[mobileCardIndex - 1].name"></span>
-              </div>
-            </template>
+            <span class="mobile-card-peek-chevron">&lsaquo;</span>
           </div>
 
-          <!-- Swipeable card viewport -->
+          <!-- Swipeable card viewport (3-card carousel) -->
           <div class="mobile-card-viewport"
             @touchstart="mobileCardTouchStart($event)"
             @touchmove="mobileCardTouchMove($event)"
-            @touchend="mobileCardTouchEnd($event)">
-            <div class="mobile-card-track" :class="{ swiping: mobileSwiping }"
-              :style="'transform: translateX(' + mobileSwipeX + 'px)'">
+            @touchend="mobileCardTouchEnd($event)"
+            x-ref="cardViewport">
 
-              <!-- Card content -->
-              <template x-if="mobileCards.length > 0">
-                <div class="mobile-card border border-claude-border"
-                  :class="{ ['tier-' + avgTierClass(mobileCards[mobileCardIndex].avg)]: true, 'has-disagreement': isDisagreement(mobileCards[mobileCardIndex].name), [_cardTransition]: _cardTransition }"
-                  @click="!_swipeConsumed && mobileCards[mobileCardIndex].slug && navigate('company/' + mobileCards[mobileCardIndex].slug)">
+            <div class="mobile-card-track" x-show="mobileCards.length > 0" :style="mobileTrackStyle()">
+              <template x-for="(slideIdx, si) in mobileVisibleSlides" :key="'slot-'+si">
+                <div class="mobile-card-slide">
+                  <template x-if="slideIdx >= 0">
+                    <div class="mobile-card border border-claude-border"
+                      :class="{ ['tier-' + avgTierClass(mobileCards[slideIdx].avg)]: true, 'has-disagreement': isDisagreement(mobileCards[slideIdx].name) }"
+                      @click="!_swipeConsumed && si === 1 && mobileCards[slideIdx].slug && navigate('company/' + mobileCards[slideIdx].slug)">
 
-                  <!-- Header: name + location -->
-                  <div class="flex items-center justify-between">
-                    <div class="flex items-center gap-1.5 min-w-0">
-                      <h3 class="text-xl font-bold text-claude-orange truncate tracking-tight" x-text="mobileCards[mobileCardIndex].name"></h3>
-                      <span x-show="isDisagreement(mobileCards[mobileCardIndex].name)"
-                        class="text-claude-red text-xs flex-shrink-0 font-mono" title="High disagreement">!!</span>
-                    </div>
-                    <span class="text-[10px] text-claude-dim font-mono flex-shrink-0 ml-2 truncate max-w-[120px]"
-                      x-text="fmtLocation(mobileCards[mobileCardIndex].location)"></span>
-                  </div>
-
-                  <!-- Score strip -->
-                  <div class="v1-hero-strip" :style="'border-color:' + tierBarBg(avgTierLabel(mobileCards[mobileCardIndex].avg))">
-                    <div class="v1-hero-left">
-                      <span class="v1-hero-avg font-mono tabular-nums" :class="avgColor(mobileCards[mobileCardIndex].avg)"
-                        x-text="mobileCards[mobileCardIndex].avg != null ? mobileCards[mobileCardIndex].avg.toFixed(2) : '-'"></span>
-                      <span class="v1-hero-avg-label">AVG</span>
-                    </div>
-                    <div class="v1-meta-grid">
-                      <div class="v1-meta-cell">
-                        <span class="v1-meta-label">team</span>
-                        <span class="v1-meta-value" x-text="mobileCards[mobileCardIndex].teamSize != null ? mobileCards[mobileCardIndex].teamSize : '-'"></span>
+                      <!-- Header: name + location -->
+                      <div class="flex items-center justify-between">
+                        <div class="flex items-center gap-1.5 min-w-0">
+                          <h3 class="text-xl font-bold text-claude-orange truncate tracking-tight" x-text="mobileCards[slideIdx].name"></h3>
+                          <span x-show="isDisagreement(mobileCards[slideIdx].name)"
+                            class="text-claude-red text-xs flex-shrink-0 font-mono" title="High disagreement">!!</span>
+                        </div>
+                        <span class="text-[10px] text-claude-dim font-mono flex-shrink-0 ml-2 truncate max-w-[120px]"
+                          x-text="fmtLocation(mobileCards[slideIdx].location)"></span>
                       </div>
-                      <div class="v1-meta-cell">
-                        <span class="v1-meta-label">partner</span>
-                        <span class="v1-meta-value truncate" x-text="mobileCards[mobileCardIndex].ycPartner || '-'"></span>
-                      </div>
-                      <div class="v1-meta-cell">
-                        <span class="v1-meta-label">arr</span>
-                        <span class="v1-meta-value" x-text="mobileCards[mobileCardIndex].revenue != null ? mobileCards[mobileCardIndex].revenue : '-'"></span>
-                      </div>
-                    </div>
-                  </div>
 
-                  <!-- One-liner -->
-                  <p class="text-xs text-claude-gray line-clamp-2 pl-2 leading-relaxed" style="border-left: 2px solid var(--c-dim)"
-                    x-text="mobileCards[mobileCardIndex].oneLiner || ''"></p>
-
-                  <!-- Persona scores with micro-bars -->
-                  <div class="mobile-score-strip">
-                    <template x-for="p in personas" :key="'mscore-'+p.abbr">
-                      <div class="mobile-score-cell">
-                        <span class="mobile-score-label" x-text="p.abbr"></span>
-                        <span class="mobile-score-value"
-                          :class="tierColor(mobileCards[mobileCardIndex].tiers[p.abbr])"
-                          x-text="mobileCards[mobileCardIndex].scores[p.abbr] != null ? mobileCards[mobileCardIndex].scores[p.abbr] : '-'"></span>
-                        <div class="mobile-score-microbar">
-                          <div class="mobile-score-microbar-fill"
-                            :style="'width:' + (mobileCards[mobileCardIndex].scores[p.abbr] || 0) + '%;background:' + tierBarBg(mobileCards[mobileCardIndex].tiers[p.abbr])"></div>
+                      <!-- Score strip -->
+                      <div class="v1-hero-strip" :style="'border-color:' + tierBarBg(avgTierLabel(mobileCards[slideIdx].avg))">
+                        <div class="v1-hero-left">
+                          <span class="v1-hero-avg font-mono tabular-nums" :class="avgColor(mobileCards[slideIdx].avg)"
+                            x-text="mobileCards[slideIdx].avg != null ? mobileCards[slideIdx].avg.toFixed(2) : '-'"></span>
+                          <span class="v1-hero-avg-label">AVG</span>
+                        </div>
+                        <div class="v1-meta-grid">
+                          <div class="v1-meta-cell">
+                            <span class="v1-meta-label">team</span>
+                            <span class="v1-meta-value" x-text="mobileCards[slideIdx].teamSize != null ? mobileCards[slideIdx].teamSize : '-'"></span>
+                          </div>
+                          <div class="v1-meta-cell">
+                            <span class="v1-meta-label">partner</span>
+                            <span class="v1-meta-value truncate" x-text="mobileCards[slideIdx].ycPartner || '-'"></span>
+                          </div>
+                          <div class="v1-meta-cell">
+                            <span class="v1-meta-label">arr</span>
+                            <span class="v1-meta-value" x-text="mobileCards[slideIdx].revenue != null ? mobileCards[slideIdx].revenue : '-'"></span>
+                          </div>
                         </div>
                       </div>
-                    </template>
-                  </div>
 
-                  <!-- Footer -->
-                  <div class="mobile-card-footer">
-                    <span class="font-mono text-claude-dim" x-text="(mobileCardIndex + 1) + '/' + mobileCards.length"></span>
-                    <span class="text-claude-orange terminal-blink">_</span>
-                  </div>
+                      <!-- One-liner -->
+                      <p class="text-xs text-claude-gray line-clamp-2 pl-2 leading-relaxed" style="border-left: 2px solid var(--c-dim)"
+                        x-text="mobileCards[slideIdx].oneLiner || ''"></p>
+
+                      <!-- Persona scores line graph -->
+                      <div class="mobile-score-graph">
+                        <svg viewBox="0 0 280 100" preserveAspectRatio="xMidYMid meet">
+                          <line x1="25" y1="14" x2="255" y2="14" stroke="var(--c-border)" stroke-width="0.5" stroke-dasharray="2"/>
+                          <line x1="25" y1="42" x2="255" y2="42" stroke="var(--c-border)" stroke-width="0.5" stroke-dasharray="2"/>
+                          <line x1="25" y1="70" x2="255" y2="70" stroke="var(--c-border)" stroke-width="0.5"/>
+                          <polyline :points="scoreGraphPoints(mobileCards[slideIdx])" fill="none" stroke="var(--c-accent)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+                          <template x-for="(pt, pi) in scoreGraphData(mobileCards[slideIdx])" :key="'gd-'+si+'-'+pi">
+                            <g>
+                              <circle :cx="pt.x" :cy="pt.y" r="4" :fill="pt.color" stroke="var(--c-card)" stroke-width="1.5"/>
+                              <text :x="pt.x" :y="pt.y - 7" text-anchor="middle" :fill="pt.color" font-size="10" font-weight="700" font-family="JetBrains Mono, monospace" x-text="pt.value"></text>
+                              <text :x="pt.x" :y="90" text-anchor="middle" fill="var(--c-gray)" font-size="9" font-weight="500" font-family="JetBrains Mono, monospace" x-text="pt.label"></text>
+                            </g>
+                          </template>
+                        </svg>
+                      </div>
+
+                      <!-- Footer -->
+                      <div class="mobile-card-footer">
+                        <span class="font-mono text-claude-dim" x-text="(slideIdx + 1) + '/' + mobileCards.length"></span>
+                      </div>
+                    </div>
+                  </template>
                 </div>
               </template>
-
-              <!-- Empty state -->
-              <template x-if="mobileCards.length === 0">
-                <div class="mobile-card border border-claude-border tier-orange">
-                  <div class="mobile-card-hero-score" style="flex:1">
-                    <p class="text-claude-dim text-sm font-mono">No results_</p>
-                  </div>
-                </div>
-              </template>
-
             </div>
+
+            <!-- Empty state -->
+            <template x-if="mobileCards.length === 0">
+              <div class="mobile-card border border-claude-border tier-orange" style="height:100%">
+                <div class="mobile-card-hero-score" style="flex:1">
+                  <p class="text-claude-dim text-sm font-mono">No results_</p>
+                </div>
+              </div>
+            </template>
+
           </div>
 
-          <!-- Right peek card -->
+          <!-- Right nav -->
           <div @click="mobileCardNav(1)"
             class="mobile-card-peek"
             :class="{ 'mobile-card-peek-disabled': mobileCardIndex >= mobileCards.length - 1 || mobileCards.length === 0 }">
-            <template x-if="mobileCardIndex < mobileCards.length - 1 && mobileCards.length > 0">
-              <div class="flex flex-col items-center gap-1">
-                <span class="mobile-card-peek-chevron">&rsaquo;</span>
-                <span class="mobile-card-peek-score"
-                  :class="avgColor(mobileCards[mobileCardIndex + 1].avg)"
-                  x-text="mobileCards[mobileCardIndex + 1].avg != null ? mobileCards[mobileCardIndex + 1].avg.toFixed(1) : '-'"></span>
-                <span class="mobile-card-peek-name"
-                  x-text="mobileCards[mobileCardIndex + 1].name"></span>
-              </div>
-            </template>
+            <span class="mobile-card-peek-chevron">&rsaquo;</span>
           </div>
         </div>
       </div>

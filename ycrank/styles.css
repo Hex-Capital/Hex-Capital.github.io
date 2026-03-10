@@ -616,7 +616,7 @@ main {
   }
 
   .mobile-card-peek {
-    width: 52px;
+    width: 36px;
     flex-shrink: 0;
     display: flex;
     flex-direction: column;
@@ -652,27 +652,8 @@ main {
     pointer-events: none;
   }
 
-  .mobile-card-peek-score {
-    font: 700 16px 'JetBrains Mono', monospace;
-    font-variant-numeric: tabular-nums;
-    line-height: 1;
-  }
-
-  .mobile-card-peek-name {
-    font: 400 7px 'Inter', sans-serif;
-    color: var(--c-dim);
-    text-align: center;
-    max-width: 46px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    line-height: 1.3;
-  }
-
   .mobile-card-peek-chevron {
-    font: 400 10px 'JetBrains Mono', monospace;
+    font: 400 14px 'JetBrains Mono', monospace;
     color: var(--c-dim);
     line-height: 1;
   }
@@ -687,11 +668,14 @@ main {
   .mobile-card-track {
     height: 100%;
     will-change: transform;
-    transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+    display: flex;
+    width: 300%;
   }
 
-  .mobile-card-track.swiping {
-    transition: none;
+  .mobile-card-slide {
+    flex: 0 0 calc(100% / 3);
+    height: 100%;
+    min-width: 0;
   }
 
   .mobile-card {
@@ -711,36 +695,6 @@ main {
     transition: transform 0.1s ease-out, background 0.1s ease-out;
   }
 
-  /* Slide transitions for card navigation */
-  .mobile-card.card-exit-left {
-    transition: transform 0.15s ease-in, opacity 0.15s ease-in;
-    transform: translateX(-40px);
-    opacity: 0;
-  }
-
-  .mobile-card.card-exit-right {
-    transition: transform 0.15s ease-in, opacity 0.15s ease-in;
-    transform: translateX(40px);
-    opacity: 0;
-  }
-
-  .mobile-card.card-enter-left {
-    animation: cardEnterLeft 0.2s ease-out;
-  }
-
-  .mobile-card.card-enter-right {
-    animation: cardEnterRight 0.2s ease-out;
-  }
-
-  @keyframes cardEnterLeft {
-    from { transform: translateX(-30px); opacity: 0; }
-    to { transform: translateX(0); opacity: 1; }
-  }
-
-  @keyframes cardEnterRight {
-    from { transform: translateX(30px); opacity: 0; }
-    to { transform: translateX(0); opacity: 1; }
-  }
 
   /* Tier-tinted card backgrounds */
   .mobile-card.tier-deepgreen { background: linear-gradient(180deg, var(--c-card) 0%, rgba(45, 138, 78, 0.06) 100%); }
@@ -842,53 +796,18 @@ main {
     white-space: nowrap;
     max-width: 80px;
   }
-  /* ===== Score Strip with Micro-Bars (replaces bar chart) ===== */
-  .mobile-score-strip {
-    display: flex;
-    justify-content: space-between;
-    gap: 2px;
+  /* ===== Score Line Graph ===== */
+  .mobile-score-graph {
     flex: 1;
-    min-height: 0;
-    max-height: 100px;
-    align-items: stretch;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
     padding: 0.25rem 0;
   }
 
-  .mobile-score-cell {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 3px;
-    min-width: 0;
-  }
-
-  .mobile-score-label {
-    font: 500 9px 'JetBrains Mono', monospace;
-    color: var(--c-gray);
-    letter-spacing: 0.02em;
-  }
-
-  .mobile-score-value {
-    font-size: 13px;
-    font-weight: 700;
-    font-family: 'JetBrains Mono', monospace;
-    font-variant-numeric: tabular-nums;
-  }
-
-  .mobile-score-microbar {
+  .mobile-score-graph svg {
     width: 100%;
-    height: 4px;
-    background: var(--c-border);
-    border-radius: 2px;
-    overflow: hidden;
-  }
-
-  .mobile-score-microbar-fill {
     height: 100%;
-    border-radius: 2px;
-    transition: width 0.3s ease-out;
   }
 
   /* Status footer: subtle on mobile */

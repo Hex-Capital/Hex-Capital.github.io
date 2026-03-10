@@ -227,9 +227,9 @@
                   @click="!_swipeConsumed && mobileCards[mobileCardIndex].slug && navigate('company/' + mobileCards[mobileCardIndex].slug)">
 
                   <!-- Header: name + location -->
-                  <div class="flex items-center justify-between mb-2">
+                  <div class="flex items-center justify-between">
                     <div class="flex items-center gap-1.5 min-w-0">
-                      <h3 class="text-lg font-bold text-claude-orange truncate" x-text="mobileCards[mobileCardIndex].name"></h3>
+                      <h3 class="text-xl font-bold text-claude-orange truncate tracking-tight" x-text="mobileCards[mobileCardIndex].name"></h3>
                       <span x-show="isDisagreement(mobileCards[mobileCardIndex].name)"
                         class="text-claude-red text-xs flex-shrink-0 font-mono" title="High disagreement">!!</span>
                     </div>
@@ -261,7 +261,7 @@
                   </div>
 
                   <!-- One-liner -->
-                  <p class="text-xs text-claude-gray line-clamp-2 my-2 pl-2" style="border-left: 1px solid var(--c-border)"
+                  <p class="text-xs text-claude-gray line-clamp-2 pl-2 leading-relaxed" style="border-left: 2px solid var(--c-dim)"
                     x-text="mobileCards[mobileCardIndex].oneLiner || ''"></p>
 
                   <!-- Vertical bar chart -->

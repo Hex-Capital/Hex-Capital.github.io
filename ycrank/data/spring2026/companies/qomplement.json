@@ -1,0 +1,76 @@
+{
+  "slug": "qomplement",
+  "name": "qomplement",
+  "oneLiner": "AI Agents for Document Filling",
+  "metadata": {
+    "website": "https://qomplement.com/",
+    "yc_page": "https://www.ycombinator.com/companies/qomplement",
+    "batch": "Spring 2026",
+    "industry": "B2B / B2B",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "Documents, Artificial Intelligence, B2B",
+    "yc_partner": "Tom Blomfield",
+    "emails": "kerim@qomplement.com (Codemix startup profile)"
+  },
+  "tags": [
+    "Documents",
+    "Artificial Intelligence",
+    "B2B"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-10T18:34:35.857Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 25,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 24,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 20,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 25,
+    "EG": 28,
+    "NR": 39,
+    "PG": 31,
+    "PT": 24,
+    "SL": 20,
+    "VK": 25
+  },
+  "consolidatedAvg": 27.43,
+  "consolidatedRank": 11,
+  "paths": {
+    "memo": "spring2026/memos/qomplement.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/qomplement.md",
+      "elad-gil": "spring2026/evals/elad-gil/qomplement.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/qomplement.md",
+      "paul-graham": "spring2026/evals/paul-graham/qomplement.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/qomplement.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/qomplement.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/qomplement.md"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "superset",
+  "name": "Superset",
+  "oneLiner": "IDE for the AI Agents Era",
+  "metadata": {
+    "website": "https://www.superset.sh/",
+    "yc_page": "https://www.ycombinator.com/companies/superset",
+    "batch": "Spring 2026",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "3",
+    "location": "San Francisco, CA, US (YC company page)",
+    "tags": "AI",
+    "yc_partner": "Nicolas Dessaigne",
+    "emails": "founders@superset.sh (GitHub README)"
+  },
+  "tags": [
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-10T18:37:01.433Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 23,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 41,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 23,
+    "EG": 35,
+    "NR": 40,
+    "PG": 53,
+    "PT": 30,
+    "SL": 27,
+    "VK": 41
+  },
+  "consolidatedAvg": 35.57,
+  "consolidatedRank": 9,
+  "paths": {
+    "memo": "spring2026/memos/superset.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/superset.md",
+      "elad-gil": "spring2026/evals/elad-gil/superset.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/superset.md",
+      "paul-graham": "spring2026/evals/paul-graham/superset.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/superset.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/superset.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/superset.md"
+    }
+  }
+}

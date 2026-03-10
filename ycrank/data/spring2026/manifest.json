@@ -1,0 +1,523 @@
+{
+  "batch": "spring2026",
+  "companyCount": 11,
+  "personas": [
+    {
+      "slug": "cyan-banister",
+      "fullName": "Cyan Banister",
+      "fund": "Long Journey Ventures",
+      "abbr": "CB"
+    },
+    {
+      "slug": "elad-gil",
+      "fullName": "Elad Gil",
+      "fund": "Color Genomics co-founder, angel/seed investor",
+      "abbr": "EG"
+    },
+    {
+      "slug": "naval-ravikant",
+      "fullName": "Naval Ravikant",
+      "fund": "AngelList founder",
+      "abbr": "NR"
+    },
+    {
+      "slug": "paul-graham",
+      "fullName": "Paul Graham",
+      "fund": "Y Combinator co-founder",
+      "abbr": "PG"
+    },
+    {
+      "slug": "peter-thiel",
+      "fullName": "Peter Thiel",
+      "fund": "Founders Fund",
+      "abbr": "PT"
+    },
+    {
+      "slug": "sam-lessin",
+      "fullName": "Sam Lessin",
+      "fund": "Slow Ventures",
+      "abbr": "SL"
+    },
+    {
+      "slug": "vinod-khosla",
+      "fullName": "Vinod Khosla",
+      "fund": "Khosla Ventures",
+      "abbr": "VK"
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "name": "Indexable",
+      "slug": "indexable",
+      "scores": {
+        "CB": 37,
+        "EG": 52,
+        "NR": 72,
+        "PG": 59,
+        "PT": 55,
+        "SL": 44,
+        "VK": 65
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Invest",
+        "PG": "Neutral",
+        "PT": "Neutral",
+        "SL": "Pass",
+        "VK": "Invest"
+      },
+      "avg": 54.86,
+      "revenue": null,
+      "teamSize": 3,
+      "ycPartner": "Pete Koomen",
+      "oneLiner": "sandbox infrastructure for AI agents",
+      "industry": "B2B / B2B -> Infrastructure",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Artificial Intelligence"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "Dispatch",
+      "slug": "dispatch",
+      "scores": {
+        "CB": 43,
+        "EG": 34,
+        "NR": 46,
+        "PG": 49,
+        "PT": 39,
+        "SL": 64,
+        "VK": 49
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Neutral",
+        "VK": "Neutral"
+      },
+      "avg": 46.29,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Tom Blomfield",
+      "oneLiner": "Satellites for manufacturing in space",
+      "industry": "Industrials / Industrials -> Aviation and Space",
+      "location": "No public data found",
+      "tags": [
+        "Manufacturing",
+        "Aerospace",
+        "Advanced Materials"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "9 Mothers",
+      "slug": "9-mothers-corporation",
+      "scores": {
+        "CB": 51,
+        "EG": 50,
+        "NR": 46,
+        "PG": 39,
+        "PT": 36,
+        "SL": 40,
+        "VK": 57
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 45.57,
+      "revenue": null,
+      "teamSize": null,
+      "ycPartner": "Garry Tan",
+      "oneLiner": "AI weapon systems",
+      "industry": "Industrials / Industrials -> Defense",
+      "location": "Austin, TX, USA",
+      "tags": [
+        "Hard Tech",
+        "Hardware",
+        "Drones",
+        "GovTech",
+        "Aerospace"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "Minicor",
+      "slug": "minicor",
+      "scores": {
+        "CB": 38,
+        "EG": 58,
+        "NR": 48,
+        "PG": 58,
+        "PT": 32,
+        "SL": 32,
+        "VK": 51
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 45.29,
+      "revenue": null,
+      "teamSize": 4,
+      "ycPartner": "Tom Blomfield",
+      "oneLiner": "Run self-healing desktop automations at scale",
+      "industry": "B2B / B2B -> Infrastructure",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Generative AI",
+        "B2B",
+        "Infrastructure"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "Arzana",
+      "slug": "arzana",
+      "scores": {
+        "CB": 52,
+        "EG": 62,
+        "NR": 36,
+        "PG": 53,
+        "PT": 33,
+        "SL": 33,
+        "VK": 47
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 45.14,
+      "revenue": null,
+      "teamSize": 4,
+      "ycPartner": "Tom Blomfield",
+      "oneLiner": "AI automation for the manufacturing office",
+      "industry": "B2B / B2B -> Productivity",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "SaaS",
+        "Productivity",
+        "Industrial"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "Bujo AI",
+      "slug": "bujo",
+      "scores": {
+        "CB": 35,
+        "EG": 38,
+        "NR": 41,
+        "PG": 49,
+        "PT": 26,
+        "SL": 29,
+        "VK": 43
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 37.29,
+      "revenue": null,
+      "teamSize": 3,
+      "ycPartner": "Garry Tan",
+      "oneLiner": "AI voice & chat agents for sales and customer support at large B2C?",
+      "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "AI",
+        "AI Assistant"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "Arga Labs",
+      "slug": "arga-labs",
+      "scores": {
+        "CB": 29,
+        "EG": 41,
+        "NR": 45,
+        "PG": 39,
+        "PT": 32,
+        "SL": 26,
+        "VK": 42
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 36.29,
+      "revenue": null,
+      "teamSize": 3,
+      "ycPartner": "Pete Koomen",
+      "oneLiner": "The validation framework for AI agents",
+      "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "AIOps",
+        "Developer Tools",
+        "SaaS"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "primitive",
+      "slug": "primitive",
+      "scores": {
+        "CB": 29,
+        "EG": 43,
+        "NR": 46,
+        "PG": 39,
+        "PT": 25,
+        "SL": 31,
+        "VK": 41
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 36.29,
+      "revenue": null,
+      "teamSize": 1,
+      "ycPartner": "Pete Koomen",
+      "oneLiner": "Communication for agents",
+      "industry": "B2B / B2B -> Infrastructure",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Developer Tools",
+        "Automation",
+        "Email",
+        "Infrastructure",
+        "AI"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "Superset",
+      "slug": "superset",
+      "scores": {
+        "CB": 23,
+        "EG": 35,
+        "NR": 40,
+        "PG": 53,
+        "PT": 30,
+        "SL": 27,
+        "VK": 41
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 35.57,
+      "revenue": null,
+      "teamSize": 3,
+      "ycPartner": "Nicolas Dessaigne",
+      "oneLiner": "IDE for the AI Agents Era",
+      "industry": "B2B / B2B -> Engineering, Product and Design",
+      "location": "San Francisco, CA, US (YC company page)",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "Datost",
+      "slug": "datost",
+      "scores": {
+        "CB": 31,
+        "EG": 33,
+        "NR": 39,
+        "PG": 36,
+        "PT": 23,
+        "SL": 20,
+        "VK": 28
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 30,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "David Lieb",
+      "oneLiner": "AI data analyst in Slack. Democratize data.",
+      "industry": "B2B / B2B -> Analytics",
+      "location": "San Francisco, United States (Tracxn via search snippet)",
+      "tags": [
+        "B2B",
+        "Analytics",
+        "AI Assistant"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "qomplement",
+      "slug": "qomplement",
+      "scores": {
+        "CB": 25,
+        "EG": 28,
+        "NR": 39,
+        "PG": 31,
+        "PT": 24,
+        "SL": 20,
+        "VK": 25
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 27.43,
+      "revenue": null,
+      "teamSize": 4,
+      "ycPartner": "Tom Blomfield",
+      "oneLiner": "AI Agents for Document Filling",
+      "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Documents",
+        "Artificial Intelligence",
+        "B2B"
+      ]
+    }
+  ],
+  "disagreements": [],
+  "convergenceWarnings": [],
+  "correlationMatrix": [
+    {
+      "persona": "CB",
+      "values": {
+        "CB": null,
+        "EG": 0.67,
+        "NR": 0.07,
+        "PG": 0.31,
+        "PT": 0.41,
+        "SL": 0.56,
+        "VK": 0.6
+      }
+    },
+    {
+      "persona": "EG",
+      "values": {
+        "CB": 0.67,
+        "EG": null,
+        "NR": 0.3,
+        "PG": 0.59,
+        "PT": 0.45,
+        "SL": 0.19,
+        "VK": 0.69
+      }
+    },
+    {
+      "persona": "NR",
+      "values": {
+        "CB": 0.07,
+        "EG": 0.3,
+        "NR": null,
+        "PG": 0.45,
+        "PT": 0.85,
+        "SL": 0.44,
+        "VK": 0.72
+      }
+    },
+    {
+      "persona": "PG",
+      "values": {
+        "CB": 0.31,
+        "EG": 0.59,
+        "NR": 0.45,
+        "PG": null,
+        "PT": 0.61,
+        "SL": 0.43,
+        "VK": 0.69
+      }
+    },
+    {
+      "persona": "PT",
+      "values": {
+        "CB": 0.41,
+        "EG": 0.45,
+        "NR": 0.85,
+        "PG": 0.61,
+        "PT": null,
+        "SL": 0.67,
+        "VK": 0.86
+      }
+    },
+    {
+      "persona": "SL",
+      "values": {
+        "CB": 0.56,
+        "EG": 0.19,
+        "NR": 0.44,
+        "PG": 0.43,
+        "PT": 0.67,
+        "SL": null,
+        "VK": 0.67
+      }
+    },
+    {
+      "persona": "VK",
+      "values": {
+        "CB": 0.6,
+        "EG": 0.69,
+        "NR": 0.72,
+        "PG": 0.69,
+        "PT": 0.86,
+        "SL": 0.67,
+        "VK": null
+      }
+    }
+  ],
+  "hasTraction": false
+}

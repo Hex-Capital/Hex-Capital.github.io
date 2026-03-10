@@ -1,0 +1,24 @@
+﻿# qomplement -- Vinod Khosla Evaluation
+
+Let me be direct about what I see here: a company that has identified a real gap in a real workflow and calibrated its entire ambition to fill that gap. "AI agents for document filling" -- taking extracted data and populating PDF forms and spreadsheet templates. This is the kind of company where the consequence of total, world-dominating success is that enterprise accounts payable departments process invoices faster. I have to ask the question I always ask: if this works perfectly, does the world operate differently? The answer is no. Documents get filled out with less manual labor. That's a feature inside Rossum or Nanonets, not a company that justifies a founder's best years. The IDP market reaching $12.35 billion by 2030 sounds impressive until you realize qomplement is targeting a *subset* of that market -- the downstream filling step -- which means the actual addressable opportunity is a fraction of an already-defined category. This is ambition calibrated to avoid failure, not to achieve something worth achieving.
+
+The competitive picture sharpens the concern. Rossum has $111 million in funding and $44.9 million in 2024 revenue. Reducto raised $75 million from a16z in October 2025. Nanonets has $42 million and 10,000+ customers. These are well-capitalized extraction platforms that could add form-filling as a product feature in a single engineering sprint. The dossier states it plainly: "there is no structural barrier preventing them from doing so -- the barrier is primarily one of product focus and engineering investment." When the only thing standing between you and competitive annihilation is a competitor's product roadmap prioritization meeting, you don't have a company -- you have a window. And with frontier LLMs increasingly handling document understanding out of the box, any competent engineering team can build what qomplement describes. The commoditization risk is not theoretical; it's the default trajectory.
+
+The bull case deserves honest consideration. The Codemix profile mentions "turning companies into multi-agent systems," which suggests the document-filling product might be the entry wedge for a much larger vision of enterprise AI automation. If qomplement could use document workflows as a trojan horse to deploy autonomous agents across all enterprise operations, the consequence magnitude expands dramatically. The CEO's experience at Contalink -- a cloud accounting automation platform -- provides adjacent domain knowledge for the initial wedge. And the timing is genuinely favorable: LLMs crossed the document-understanding threshold in the last two years, making this category newly feasible. For this bull case to hold, I'd need to see evidence that the founders have a specific, non-obvious insight about how document-filling agents evolve into full enterprise automation -- something that Rossum and Nanonets haven't figured out with their hundred-million-dollar head starts. I see no such evidence in the dossier. "Multi-agent systems" is a phrase every AI startup in 2026 puts on their pitch deck. It's consensus aspiration, not contrarian insight.
+
+On the founding team: Kerim Taray describes himself as a "contrarian," but building AI-powered document processing in 2026 is perhaps the least contrarian thing a computer science graduate could do. The real contrarian move would be attacking a problem that makes investors uncomfortable -- something where experts tell you it's impossible, where the established players laugh. Nobody is laughing at AI document automation; everyone is funding it. The CTO's background is entirely opaque -- no public profiles, no confirmed education, no prior work history. I spend more time recruiting for my portfolio companies than on any other single activity, and a founding team where half the technical leadership is a black box gives me nothing to evaluate on the dimension I care most about after consequence magnitude.
+
+This is a competent team building a real product for a real pain point in a well-understood market with well-funded incumbents and rapidly commoditizing underlying technology. Every element of that sentence is a red flag in my framework. The pain point is real, the market exists, the technology works -- and I stop right there, because even total success produces a modest document-processing business, not an industry transformation. These founders are too capable to spend their careers making enterprise paperwork 30% faster. The problem isn't big enough to be worth solving.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Consequence Magnitude If Successful | 4/30 |
+| Founder Learning Rate and Contrarian Courage | 6/25 |
+| Technology Disruption Potential vs. Incumbent Systems | 4/20 |
+| Rate of Change and Timing Trajectory | 7/15 |
+| Gene Pool Engineering and Team Construction | 4/10 |
+| **Total** | **25/100** |
+
+**Total Score: 25/100** (Pass)

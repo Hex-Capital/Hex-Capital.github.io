@@ -1,0 +1,76 @@
+{
+  "slug": "arzana",
+  "name": "Arzana",
+  "oneLiner": "AI automation for the manufacturing office",
+  "metadata": {
+    "website": "https://arzana.ai",
+    "yc_page": "https://www.ycombinator.com/companies/arzana",
+    "batch": "Spring 2026",
+    "industry": "B2B / B2B -> Productivity",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "SaaS, Productivity, Industrial",
+    "yc_partner": "Tom Blomfield",
+    "emails": "kools@stanford.edu (Marshall Kools, Stanford profile)"
+  },
+  "tags": [
+    "SaaS",
+    "Productivity",
+    "Industrial"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-10T18:32:01.465Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 62,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 47,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 52,
+    "EG": 62,
+    "NR": 36,
+    "PG": 53,
+    "PT": 33,
+    "SL": 33,
+    "VK": 47
+  },
+  "consolidatedAvg": 45.14,
+  "consolidatedRank": 5,
+  "paths": {
+    "memo": "spring2026/memos/arzana.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/arzana.md",
+      "elad-gil": "spring2026/evals/elad-gil/arzana.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/arzana.md",
+      "paul-graham": "spring2026/evals/paul-graham/arzana.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/arzana.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/arzana.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/arzana.md"
+    }
+  }
+}

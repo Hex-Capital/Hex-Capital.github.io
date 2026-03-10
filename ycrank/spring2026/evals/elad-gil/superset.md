@@ -1,0 +1,26 @@
+﻿# Superset -- Elad Gil Evaluation
+
+The most striking thing about Superset is the timing paradox. The structural moment they've identified is real -- every major AI coding tool shipped multi-agent capabilities in the same two-week window in February 2026. That's a genuine capability threshold being crossed. But here's the problem: when the platforms you orchestrate are themselves building the orchestration, you're not positioned at an inflection point -- you're positioned in the blast radius. Claude Code shipped Agent Teams natively. Cursor shipped cloud agents. The "why now" is clear, but it points toward investing in the agents themselves or the infrastructure they run on, not in a thin coordination layer between them and the developer.
+
+The AI coding tools market at $7-24 billion is the most consensus-hot category in venture right now. Cursor at $29.3 billion valuation, Devin at $10.2 billion. This is the opposite of a non-obvious market -- it's the market every investor at every stage is chasing. When I look at my best investments -- PagerDuty, Gusto, Checkr -- they were in markets that triggered dismissive reactions. Nobody is dismissing AI coding tools right now. The specific sub-segment of "agent orchestration" might seem narrower and less obvious, but it reads more like a feature within a well-understood category than a hidden market at an inflection. Running multiple terminal sessions in isolated Git worktrees is a clever engineering choice, not a proprietary technology. Any IDE or terminal multiplexer could add this. That's the "software-aware vs. software-driven" distinction: if you could remove the orchestration layer and developers would still be using the same agents with slightly more friction, you're a convenience, not infrastructure.
+
+The product-to-distribution trajectory concerns me most. The product is free, open-source, with no visible monetization path. When I evaluate whether a product can become a distribution channel, I need to see a customer relationship that creates switching costs and enables additional products to flow through. Stripe's API processed payments -- every integration deepened the relationship and made Atlas, Billing, and Treasury natural extensions. Superset's orchestration layer has near-zero switching costs. A developer can switch to Cursor's native cloud agents tomorrow with no migration cost, no data loss, no workflow disruption. The 6,500 GitHub stars represent interest, not lock-in. Docker is the cautionary precedent here: massive open-source adoption, genuine developer love, and persistent difficulty converting that into a business because the abstraction layer was too thin to build switching costs around.
+
+The bull case deserves a full articulation because the execution signals are genuinely strong. Kiet Ho built Onlook to 23.4k GitHub stars and #1 trending on GitHub -- that's not an accident. Shipping to 6,500 stars with 1,864 commits in roughly a month of public existence shows the kind of weekly product velocity I value. Three ex-YC CTOs who know how to build and distribute developer tools. If the AI coding agent market fragments rather than consolidates -- if developers end up using Claude Code for some tasks, Cursor for others, Codex for others -- then a neutral, agent-agnostic orchestration layer becomes genuinely valuable infrastructure. The analogy would be Terraform or Kubernetes: a neutral abstraction over a fragmented infrastructure landscape. For this to work, two things would need to be true simultaneously: (1) no single agent wins decisively enough to make its native multi-agent sufficient, and (2) Superset builds enough workflow depth (saved configurations, team collaboration, analytics) to create real switching costs before incumbents absorb the feature. I don't see evidence either condition is likely, but I acknowledge the scenario exists.
+
+The single-miracle test fails here because I count at least three sequential miracles: become the default orchestration layer before native multi-agent features make the tool redundant, develop a monetization model that developers will actually pay for, and maintain relevance as upstream agents continuously improve their own parallel execution capabilities. That's compounding low-probability events. Harvey's miracle was model fidelity reaching legal-grade accuracy -- and critically, that miracle was being delivered by someone else (the foundation model labs), freeing Harvey to focus on distribution and workflow. Superset's miracles aren't being delivered by anyone else. They have to achieve adoption, monetization, and platform durability all on their own, while competing against companies with $2 billion-plus in ARR and every incentive to absorb their functionality.
+
+The founders can clearly ship -- that's not in question. But great execution velocity applied to a feature-sized opportunity in a consensus market doesn't produce the asymmetric returns I'm looking for. Pass.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Non-Obvious Market at Structural Inflection | 8/35 |
+| Product-to-Distribution Trajectory | 6/25 |
+| Single-Miracle Operational Clarity | 5/15 |
+| Founder Execution Velocity | 11/15 |
+| Technology Cycle Positioning | 5/10 |
+| **Total** | **35/100** |
+
+**Total Score: 35/100** (Pass)

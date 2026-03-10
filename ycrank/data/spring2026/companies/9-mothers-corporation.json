@@ -1,0 +1,78 @@
+{
+  "slug": "9-mothers-corporation",
+  "name": "9 Mothers",
+  "oneLiner": "AI weapon systems",
+  "metadata": {
+    "website": "https://9mothers.com",
+    "yc_page": "https://www.ycombinator.com/companies/9-mothers-corporation",
+    "batch": "Spring 2026 (X26)",
+    "industry": "Industrials / Industrials -> Defense",
+    "team_size": "~8 (RocketReach via search snippet)",
+    "location": "Austin, TX, USA",
+    "tags": "Hard Tech, Hardware, Drones, GovTech, Aerospace",
+    "yc_partner": "Garry Tan",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Hard Tech",
+    "Hardware",
+    "Drones",
+    "GovTech",
+    "Aerospace"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-10T18:40:46.870Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 57,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 51,
+    "EG": 50,
+    "NR": 46,
+    "PG": 39,
+    "PT": 36,
+    "SL": 40,
+    "VK": 57
+  },
+  "consolidatedAvg": 45.57,
+  "consolidatedRank": 3,
+  "paths": {
+    "memo": "spring2026/memos/9-mothers-corporation.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/9-mothers-corporation.md",
+      "elad-gil": "spring2026/evals/elad-gil/9-mothers-corporation.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/9-mothers-corporation.md",
+      "paul-graham": "spring2026/evals/paul-graham/9-mothers-corporation.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/9-mothers-corporation.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/9-mothers-corporation.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/9-mothers-corporation.md"
+    }
+  }
+}

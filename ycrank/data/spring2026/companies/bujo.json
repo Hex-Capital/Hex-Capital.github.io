@@ -1,0 +1,75 @@
+{
+  "slug": "bujo",
+  "name": "Bujo AI",
+  "oneLiner": "AI voice & chat agents for sales and customer support at large B2C?",
+  "metadata": {
+    "website": "https://www.getbujo.com/",
+    "yc_page": "https://www.ycombinator.com/companies/bujo",
+    "batch": "Spring 2026 (X26)",
+    "industry": "B2B / B2B",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "AI, AI Assistant",
+    "yc_partner": "Garry Tan",
+    "emails": "nalingupta.id@gmail.com (founder personal email, from personal website)"
+  },
+  "tags": [
+    "AI",
+    "AI Assistant"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-10T18:41:42.019Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 43,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 35,
+    "EG": 38,
+    "NR": 41,
+    "PG": 49,
+    "PT": 26,
+    "SL": 29,
+    "VK": 43
+  },
+  "consolidatedAvg": 37.29,
+  "consolidatedRank": 6,
+  "paths": {
+    "memo": "spring2026/memos/bujo.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/bujo.md",
+      "elad-gil": "spring2026/evals/elad-gil/bujo.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/bujo.md",
+      "paul-graham": "spring2026/evals/paul-graham/bujo.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/bujo.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/bujo.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/bujo.md"
+    }
+  }
+}

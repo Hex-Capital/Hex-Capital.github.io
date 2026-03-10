@@ -1,0 +1,26 @@
+﻿# qomplement -- Naval Ravikant Evaluation
+
+The first thing I notice is the competitive landscape, not the founders. Rossum has $111M and $45M in revenue. Reducto raised $108M from a16z. Nanonets has $42M and 10,000 customers. These are not sleepy incumbents — they're well-capitalized, fast-moving companies operating in the exact same document processing workflow. qomplement's stated differentiation is "filling" versus "extraction," but that's a feature distinction, not a structural one. Any extraction platform can add a form-filling layer with a quarter of engineering work. When your differentiation is one step downstream in the same pipeline your competitors already own, you're not building a moat — you're building a feature that gets absorbed.
+
+Now, the specific knowledge question. Kerim Taray worked at Contalink, a Mexican cloud accounting automation platform. That's adjacent — he's seen document workflows from inside a functioning product. But adjacency is not the same as depth. What non-obvious insight about enterprise document filling did that experience produce? What does he know that a smart engineer at Reducto doesn't? The dossier gives me nothing. The CTO, Andres Garza Garcia, has zero public footprint — no LinkedIn confirmed, no GitHub, no prior work history visible. I'm being asked to evaluate a "technology business" where I can't verify the technologist exists in any meaningful professional context. That's not a minor gap. When I backed Replit, Amjad Masad had spent years building coding tools — his specific knowledge was written into public code and public thought. Here, the technical co-founder is a blank page.
+
+The leverage architecture concerns me most. Enterprise document filling is inherently heterogeneous — every company has its own PDF forms, its own spreadsheet templates, its own field mappings. Each deployment requires understanding the customer's specific document ecosystem. That's the opposite of leverage. Compare it to Notion, where one feature ships to every user simultaneously, or Stack Overflow, where one answer serves millions of developers. Here, you're building custom mappings per client. The "AI agent" language creates an illusion of automation, but the underlying work — mapping source fields to target forms across thousands of enterprise-specific templates — scales more like services than software. Unless they build a template library that genuinely compounds (where each new customer's forms teach the system to handle the next customer's forms faster), the leverage ratio stays low.
+
+The strongest bull case: document filling is a real workflow gap that extraction tools haven't prioritized, multimodal LLMs have made it newly feasible, and there's a compounding dynamic where each customer's template mappings enrich the system's capability for future customers. If qomplement can nail AP/procurement workflows first and build that template intelligence layer, there's a path to becoming infrastructure rather than a point solution. The Contalink experience, while modest, at least means the CEO has handled document automation at a functioning company. And the "why now" — frontier models crossing the threshold for reliable form understanding — is legitimate. But this bull case requires the filling step to remain structurally distinct from extraction (unlikely given competitor incentives), the template library to compound meaningfully (unproven), and first-time enterprise founders to outsell teams with 10x their resources and existing customer bases. Each assumption carries significant weight.
+
+The timing is consensus, not contrarian. "AI for document processing" is one of the most funded categories in B2B SaaS right now. Smart people aren't dismissing this idea — they're pouring hundreds of millions into it. When I invested in Uber, ride-sharing was illegal. When I invested in Bitcoin, it was dismissed as nerd money. qomplement is entering a market where the consensus is already enthusiastic and capital has already arrived. The filling-versus-extraction angle is a product positioning choice within a consensus market, not a contrarian bet against a gloomy crowd. You don't get paid for being right when everyone else is already right too.
+
+I'd pass. The founder-specific-knowledge signal is too weak — adjacent experience without visible depth, a CTO with no public footprint, and no evidence of non-obvious domain insight. The leverage architecture looks more linear than exponential. The competitive environment is capital-rich and converging. And the underlying technology — LLM-powered document understanding — is commoditizing faster than any startup can build proprietary advantage around it. This is a feature looking for a company, not a company creating a new form of leverage.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Specific Knowledge and Founder-Problem Authenticity | 9/30 |
+| Leverage Architecture and Scalability of the Model | 11/25 |
+| Contrarian Positioning and Non-Consensus Timing | 7/20 |
+| Founder Integrity and Long-Term Orientation | 8/15 |
+| Technical Compounding and Defensibility Over Time | 4/10 |
+| **Total** | **39/100** |
+
+**Total Score: 39/100** (Pass)

@@ -1,0 +1,74 @@
+{
+  "slug": "indexable",
+  "name": "Indexable",
+  "oneLiner": "sandbox infrastructure for AI agents",
+  "metadata": {
+    "website": "https://ix.dev",
+    "yc_page": "https://www.ycombinator.com/companies/indexable",
+    "batch": "Spring 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence",
+    "yc_partner": "Pete Koomen",
+    "emails": "andrew@ix.dev"
+  },
+  "tags": [
+    "Artificial Intelligence"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-10T18:34:51.466Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 72,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 65,
+      "tier": "Invest"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 37,
+    "EG": 52,
+    "NR": 72,
+    "PG": 59,
+    "PT": 55,
+    "SL": 44,
+    "VK": 65
+  },
+  "consolidatedAvg": 54.86,
+  "consolidatedRank": 1,
+  "paths": {
+    "memo": "spring2026/memos/indexable.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/indexable.md",
+      "elad-gil": "spring2026/evals/elad-gil/indexable.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/indexable.md",
+      "paul-graham": "spring2026/evals/paul-graham/indexable.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/indexable.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/indexable.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/indexable.md"
+    }
+  }
+}

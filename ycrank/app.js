@@ -52,6 +52,8 @@ function app() {
     _touchCancelled: false, // true if vertical movement detected first
     _swipeConsumed: false,  // true if swipe gesture occurred (prevents tap navigation)
     _animating: false,     // true during carousel slide animation
+    _graphScaleMin: 0,     // global min score across all companies
+    _graphScaleMax: 100,   // global max score across all companies
 
     formatBatch(b) {
       const m = b.match(/^([a-z]+)(\d{4})$/);
@@ -125,6 +127,19 @@ function app() {
 
         // Build disagreement set
         this.disagreementSet = new Set(this.manifest.disagreements.map(d => d.company));
+
+        // Compute global min/max scores across all companies for consistent graph scale
+        let gMin = 100, gMax = 0;
+        for (const row of this.manifest.table) {
+          if (!row.scores) continue;
+          for (const key of Object.keys(row.scores)) {
+            const s = row.scores[key];
+            if (s != null) { if (s < gMin) gMin = s; if (s > gMax) gMax = s; }
+          }
+        }
+        const gPad = Math.max((gMax - gMin) * 0.08, 2);
+        this._graphScaleMin = Math.max(Math.floor(gMin - gPad), 0);
+        this._graphScaleMax = Math.min(Math.ceil(gMax + gPad), 100);
 
         // Clear caches
         this.mdCache = {};
@@ -253,30 +268,51 @@ function app() {
 
     scoreGraphSVG(card) {
       if (!card) return '';
+      // Measure the actual graph container to match the viewBox aspect ratio
+      const graphEl = document.querySelector('.mobile-score-graph');
+      const cw = graphEl?.offsetWidth || 280;
+      const ch = graphEl?.offsetHeight || 140;
+      const vbW = 280;
+      const vbH = Math.max(Math.round(vbW * ch / cw), 80);
+
       const count = this.personas.length;
-      const xStart = 25, xEnd = 255, yTop = 14, yBottom = 70;
+      const yTop = 16;                // room for score text above top dot
+      const yBottom = vbH - 6;        // dots can go near the bottom (labels are HTML)
+      const xStart = 25, xEnd = 255;
       const xStep = count > 1 ? (xEnd - xStart) / (count - 1) : 0;
+
+      // Use global min/max score range for consistent scale across all cards
+      const scaleMin = this._graphScaleMin;
+      const scaleMax = this._graphScaleMax;
+      const scaleRange = scaleMax - scaleMin || 1;
+
       const pts = this.personas.map((p, i) => {
         const score = card.scores[p.abbr];
         return {
           x: Math.round(xStart + i * xStep),
-          y: score != null ? Math.round(yBottom - (score / 100) * (yBottom - yTop)) : yBottom,
+          y: score != null ? Math.round(yBottom - ((score - scaleMin) / scaleRange) * (yBottom - yTop)) : yBottom,
           label: p.abbr,
           value: score != null ? score : null,
           color: this.tierBarBg(card.tiers[p.abbr])
         };
       });
       const linePoints = pts.filter(p => p.value !== null).map(p => `${p.x},${p.y}`).join(' ');
-      let svg = `<svg viewBox="0 0 280 100" preserveAspectRatio="xMidYMid meet">`;
-      if (linePoints) svg += `<polyline points="${linePoints}" fill="none" stroke="var(--c-accent)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>`;
+      // SVG: line, dots, score values only (no persona labels)
+      let out = `<svg viewBox="0 0 ${vbW} ${vbH}" preserveAspectRatio="none" style="position:absolute;top:0;left:0;width:100%;height:calc(100% - 18px)">`;
+      if (linePoints) out += `<polyline points="${linePoints}" fill="none" stroke="var(--c-accent)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>`;
       for (const pt of pts) {
         const val = pt.value != null ? pt.value : '-';
-        svg += `<circle cx="${pt.x}" cy="${pt.y}" r="4" fill="${pt.color}" stroke="var(--c-card)" stroke-width="1.5"/>`;
-        svg += `<text x="${pt.x}" y="${pt.y - 7}" text-anchor="middle" fill="${pt.color}" font-size="10" font-weight="700" font-family="JetBrains Mono, monospace">${val}</text>`;
-        svg += `<text x="${pt.x}" y="90" text-anchor="middle" fill="var(--c-gray)" font-size="9" font-weight="500" font-family="JetBrains Mono, monospace">${pt.label}</text>`;
+        out += `<circle cx="${pt.x}" cy="${pt.y}" r="4" fill="${pt.color}" stroke="var(--c-card)" stroke-width="1.5"/>`;
+        out += `<text x="${pt.x}" y="${pt.y - 8}" text-anchor="middle" fill="${pt.color}" font-size="10" font-weight="700" font-family="JetBrains Mono, monospace">${val}</text>`;
       }
-      svg += `</svg>`;
-      return svg;
+      out += `</svg>`;
+      // HTML labels: positioned at bottom, not affected by SVG stretching
+      out += `<div style="position:absolute;bottom:0;left:0;right:0;display:flex;justify-content:space-between;padding:0 9%;line-height:1">`;
+      for (const pt of pts) {
+        out += `<span style="font:600 12px 'JetBrains Mono',monospace;color:var(--c-gray)">${pt.label}</span>`;
+      }
+      out += `</div>`;
+      return out;
     },
 
     sortBy(col) {
@@ -785,11 +821,15 @@ function app() {
           this.mobileSwiping = true; // suppress transition for instant reset
           this.mobileCardIndex = newIndex;
           this.mobileSwipeX = 0;
-          this.$nextTick(() => {
-            this.mobileSwiping = false;
-            this._animating = false;
+          // Double-rAF: ensure browser paints the no-transition state
+          // before re-enabling transitions (prevents ghost second animation)
+          requestAnimationFrame(() => {
+            requestAnimationFrame(() => {
+              this.mobileSwiping = false;
+              this._animating = false;
+            });
           });
-        }, 350);
+        }, 380);
       } else {
         // Snap back
         this.mobileSwipeX = 0;
@@ -814,11 +854,13 @@ function app() {
         this.mobileSwiping = true; // suppress transition for instant reset
         this.mobileCardIndex = newIndex;
         this.mobileSwipeX = 0;
-        this.$nextTick(() => {
-          this.mobileSwiping = false;
-          this._animating = false;
+        requestAnimationFrame(() => {
+          requestAnimationFrame(() => {
+            this.mobileSwiping = false;
+            this._animating = false;
+          });
         });
-      }, 350);
+      }, 380);
     },
 
     // --- Keyboard shortcuts ---

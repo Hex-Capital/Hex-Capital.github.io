@@ -1,0 +1,76 @@
+{
+  "slug": "scheduling-wizard",
+  "name": "Scheduling Wizard",
+  "oneLiner": "Logistics infrastructure to modernize healthcare operations",
+  "metadata": {
+    "website": "https://www.schedulingwiz.com",
+    "yc_page": "https://www.ycombinator.com/companies/scheduling-wizard",
+    "batch": "Winter 2026",
+    "industry": "Healthcare / Healthcare IT",
+    "team_size": "3",
+    "location": "No public data found",
+    "tags": "Artificial Intelligence, Health Tech, Scheduling",
+    "yc_partner": "Diana Hu",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Health Tech",
+    "Scheduling"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-11T17:34:57.534Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 61,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 39,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 41,
+    "EG": 46,
+    "NR": 43,
+    "PG": 61,
+    "PT": 33,
+    "SL": 48,
+    "VK": 39
+  },
+  "consolidatedAvg": 44.43,
+  "consolidatedRank": 65,
+  "paths": {
+    "memo": "winter2026/memos/scheduling-wizard.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/scheduling-wizard.md",
+      "elad-gil": "winter2026/evals/elad-gil/scheduling-wizard.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/scheduling-wizard.md",
+      "paul-graham": "winter2026/evals/paul-graham/scheduling-wizard.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/scheduling-wizard.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/scheduling-wizard.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/scheduling-wizard.md"
+    }
+  }
+}

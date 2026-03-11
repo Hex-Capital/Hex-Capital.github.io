@@ -1,0 +1,76 @@
+{
+  "slug": "lamina-labs",
+  "name": "Lamina Labs",
+  "oneLiner": "Fastest deterministic animation infrastructure for EdTech",
+  "metadata": {
+    "website": "https://laminalabs.ai",
+    "yc_page": "https://www.ycombinator.com/companies/lamina-labs",
+    "batch": "Spring 2026",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "2",
+    "location": "No public data found",
+    "tags": "Education, Video, Edtech",
+    "yc_partner": "Pete Koomen",
+    "emails": "sudip@laminalabs.ai"
+  },
+  "tags": [
+    "Education",
+    "Video",
+    "Edtech"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-11T05:27:19.592Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 41,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 51,
+    "EG": 31,
+    "NR": 48,
+    "PG": 51,
+    "PT": 36,
+    "SL": 29,
+    "VK": 41
+  },
+  "consolidatedAvg": 41,
+  "consolidatedRank": 6,
+  "paths": {
+    "memo": "spring2026/memos/lamina-labs.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/lamina-labs.md",
+      "elad-gil": "spring2026/evals/elad-gil/lamina-labs.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/lamina-labs.md",
+      "paul-graham": "spring2026/evals/paul-graham/lamina-labs.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/lamina-labs.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/lamina-labs.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/lamina-labs.md"
+    }
+  }
+}

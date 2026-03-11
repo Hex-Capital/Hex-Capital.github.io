@@ -1,6 +1,6 @@
 {
   "batch": "spring2026",
-  "companyCount": 11,
+  "companyCount": 12,
   "personas": [
     {
       "slug": "cyan-banister",
@@ -223,6 +223,41 @@
     },
     {
       "rank": 6,
+      "name": "Lamina Labs",
+      "slug": "lamina-labs",
+      "scores": {
+        "CB": 51,
+        "EG": 31,
+        "NR": 48,
+        "PG": 51,
+        "PT": 36,
+        "SL": 29,
+        "VK": 41
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 41,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Pete Koomen",
+      "oneLiner": "Fastest deterministic animation infrastructure for EdTech",
+      "industry": "B2B / B2B -> Engineering, Product and Design",
+      "location": "No public data found",
+      "tags": [
+        "Education",
+        "Video",
+        "Edtech"
+      ]
+    },
+    {
+      "rank": 7,
       "name": "Bujo AI",
       "slug": "bujo",
       "scores": {
@@ -256,7 +291,7 @@
       ]
     },
     {
-      "rank": 7,
+      "rank": 8,
       "name": "Arga Labs",
       "slug": "arga-labs",
       "scores": {
@@ -291,7 +326,7 @@
       ]
     },
     {
-      "rank": 8,
+      "rank": 9,
       "name": "primitive",
       "slug": "primitive",
       "scores": {
@@ -328,7 +363,7 @@
       ]
     },
     {
-      "rank": 9,
+      "rank": 10,
       "name": "Superset",
       "slug": "superset",
       "scores": {
@@ -361,7 +396,7 @@
       ]
     },
     {
-      "rank": 10,
+      "rank": 11,
       "name": "Datost",
       "slug": "datost",
       "scores": {
@@ -396,7 +431,7 @@
       ]
     },
     {
-      "rank": 11,
+      "rank": 12,
       "name": "qomplement",
       "slug": "qomplement",
       "scores": {
@@ -438,70 +473,70 @@
       "persona": "CB",
       "values": {
         "CB": null,
-        "EG": 0.67,
-        "NR": 0.07,
-        "PG": 0.31,
-        "PT": 0.41,
-        "SL": 0.56,
-        "VK": 0.6
+        "EG": 0.44,
+        "NR": 0.1,
+        "PG": 0.34,
+        "PT": 0.42,
+        "SL": 0.46,
+        "VK": 0.5
       }
     },
     {
       "persona": "EG",
       "values": {
-        "CB": 0.67,
+        "CB": 0.44,
         "EG": null,
-        "NR": 0.3,
-        "PG": 0.59,
-        "PT": 0.45,
-        "SL": 0.19,
-        "VK": 0.69
+        "NR": 0.26,
+        "PG": 0.51,
+        "PT": 0.38,
+        "SL": 0.21,
+        "VK": 0.68
       }
     },
     {
       "persona": "NR",
       "values": {
-        "CB": 0.07,
-        "EG": 0.3,
+        "CB": 0.1,
+        "EG": 0.26,
         "NR": null,
-        "PG": 0.45,
+        "PG": 0.46,
         "PT": 0.85,
-        "SL": 0.44,
-        "VK": 0.72
+        "SL": 0.43,
+        "VK": 0.71
       }
     },
     {
       "persona": "PG",
       "values": {
-        "CB": 0.31,
-        "EG": 0.59,
-        "NR": 0.45,
+        "CB": 0.34,
+        "EG": 0.51,
+        "NR": 0.46,
         "PG": null,
-        "PT": 0.61,
-        "SL": 0.43,
-        "VK": 0.69
+        "PT": 0.62,
+        "SL": 0.4,
+        "VK": 0.67
       }
     },
     {
       "persona": "PT",
       "values": {
-        "CB": 0.41,
-        "EG": 0.45,
+        "CB": 0.42,
+        "EG": 0.38,
         "NR": 0.85,
-        "PG": 0.61,
+        "PG": 0.62,
         "PT": null,
-        "SL": 0.67,
-        "VK": 0.86
+        "SL": 0.65,
+        "VK": 0.84
       }
     },
     {
       "persona": "SL",
       "values": {
-        "CB": 0.56,
-        "EG": 0.19,
-        "NR": 0.44,
-        "PG": 0.43,
-        "PT": 0.67,
+        "CB": 0.46,
+        "EG": 0.21,
+        "NR": 0.43,
+        "PG": 0.4,
+        "PT": 0.65,
         "SL": null,
         "VK": 0.67
       }
@@ -509,11 +544,11 @@
     {
       "persona": "VK",
       "values": {
-        "CB": 0.6,
-        "EG": 0.69,
-        "NR": 0.72,
-        "PG": 0.69,
-        "PT": 0.86,
+        "CB": 0.5,
+        "EG": 0.68,
+        "NR": 0.71,
+        "PG": 0.67,
+        "PT": 0.84,
         "SL": 0.67,
         "VK": null
       }

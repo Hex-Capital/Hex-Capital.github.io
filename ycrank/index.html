@@ -675,13 +675,13 @@
       <div class="px-3 py-1.5 border-b border-claude-border flex-shrink-0">
         <div class="flex flex-wrap gap-1 mb-1.5">
           <button @click="selectAllCouncilPersonas()"
-            :class="councilPersonas.size === personas.length
+            :class="councilPersonas.length === personas.length
               ? 'bg-claude-orange text-claude-bg border-claude-orange'
               : 'text-claude-text border-claude-border hover:border-claude-orange'"
             class="px-1.5 py-0 text-[10px] border transition-colors rounded-none">All</button>
           <template x-for="p in personas" :key="p.slug">
             <button @click="toggleCouncilPersona(p.slug)"
-              :class="councilPersonas.has(p.slug)
+              :class="councilPersonas.includes(p.slug)
                 ? 'bg-claude-orange text-claude-bg border-claude-orange'
                 : 'text-claude-dim border-claude-border hover:text-claude-text hover:border-claude-orange'"
               class="px-1.5 py-0 text-[10px] border transition-colors rounded-none" x-text="p.abbr"></button>

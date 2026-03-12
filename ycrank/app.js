@@ -30,7 +30,7 @@ function app() {
     councilInput: '',
     councilAsking: false,
     councilMessages: [],
-    councilPersonas: new Set(),
+    councilPersonas: [],
     councilModel: 'sonnet',
     councilCost: 0,
     councilSessionId: '',
@@ -45,7 +45,7 @@ function app() {
     buildMeta: null,
 
     // Watchlist state
-    watchlist: new Set(),
+    watchlist: [],
     watchlistFilter: false,
 
     // Pipeline state
@@ -137,7 +137,7 @@ function app() {
 
         // Initialize council: all personas active, generate session ID
         this.councilSessionId = crypto.randomUUID();
-        this.personas.forEach(p => this.councilPersonas.add(p.slug));
+        this.councilPersonas = this.personas.map(p => p.slug);
 
         // Load user state (watchlist, etc.)
         await this.loadUserState();
@@ -160,27 +160,26 @@ function app() {
         const resp = await fetch('/api/user/state');
         if (resp.ok) {
           const state = await resp.json();
-          this.watchlist = new Set(state.watchlist || []);
+          this.watchlist = Array.from(state.watchlist || []);
           this.pipeline = state.pipeline || {};
         }
       } catch (e) { /* ignore - user state is optional */ }
     },
 
     isWatchlisted(slug) {
-      return this.watchlist.has(slug);
+      return this.watchlist.includes(slug);
     },
 
     async toggleWatchlist(slug, event) {
       if (event) event.stopPropagation();
       if (this.staticMode) return;
-      const starred = !this.watchlist.has(slug);
+      const starred = !this.watchlist.includes(slug);
       // Optimistic update
       if (starred) {
-        this.watchlist.add(slug);
+        this.watchlist = [...this.watchlist, slug];
       } else {
-        this.watchlist.delete(slug);
+        this.watchlist = this.watchlist.filter(s => s !== slug);
       }
-      this.watchlist = new Set(this.watchlist); // force reactivity
       try {
         await fetch('/api/user/watchlist', {
           method: 'PUT',
@@ -190,11 +189,10 @@ function app() {
       } catch (e) {
         // Revert on failure
         if (starred) {
-          this.watchlist.delete(slug);
+          this.watchlist = this.watchlist.filter(s => s !== slug);
         } else {
-          this.watchlist.add(slug);
+          this.watchlist = [...this.watchlist, slug];
         }
-        this.watchlist = new Set(this.watchlist);
       }
     },
 
@@ -341,7 +339,7 @@ function app() {
 
       // Watchlist filter
       if (this.watchlistFilter) {
-        rows = rows.filter(r => this.watchlist.has(r.slug));
+        rows = rows.filter(r => this.watchlist.includes(r.slug));
       }
 
       // Sort
@@ -392,7 +390,7 @@ function app() {
       }
       // Watchlist filter
       if (this.watchlistFilter) {
-        rows = rows.filter(r => this.watchlist.has(r.slug));
+        rows = rows.filter(r => this.watchlist.includes(r.slug));
       }
       return [...rows].sort((a, b) => (b.avg || 0) - (a.avg || 0));
     },
@@ -673,24 +671,22 @@ function app() {
     },
 
     selectAllCouncilPersonas() {
-      if (this.councilPersonas.size === this.personas.length) {
-        this.councilPersonas = new Set([this.personas[0].slug]);
+      if (this.councilPersonas.length === this.personas.length) {
+        this.councilPersonas = [this.personas[0].slug];
       } else {
-        this.councilPersonas = new Set(this.personas.map(p => p.slug));
+        this.councilPersonas = this.personas.map(p => p.slug);
       }
     },
 
     toggleCouncilPersona(slug) {
-      if (this.councilPersonas.has(slug)) {
+      if (this.councilPersonas.includes(slug)) {
         // Don't allow deselecting all
-        if (this.councilPersonas.size > 1) {
-          this.councilPersonas.delete(slug);
+        if (this.councilPersonas.length > 1) {
+          this.councilPersonas = this.councilPersonas.filter(s => s !== slug);
         }
       } else {
-        this.councilPersonas.add(slug);
+        this.councilPersonas = [...this.councilPersonas, slug];
       }
-      // Force reactivity by reassigning
-      this.councilPersonas = new Set(this.councilPersonas);
     },
 
     async askCouncil() {

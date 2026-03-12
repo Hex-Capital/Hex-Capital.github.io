@@ -77,7 +77,8 @@
       "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 2,
@@ -112,7 +113,8 @@
         "Manufacturing",
         "Aerospace",
         "Advanced Materials"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 3,
@@ -149,7 +151,8 @@
         "Drones",
         "GovTech",
         "Aerospace"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 4,
@@ -184,7 +187,8 @@
         "Generative AI",
         "B2B",
         "Infrastructure"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 5,
@@ -219,7 +223,8 @@
         "SaaS",
         "Productivity",
         "Industrial"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 6,
@@ -254,7 +259,8 @@
         "Education",
         "Video",
         "Edtech"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 7,
@@ -288,7 +294,8 @@
       "tags": [
         "AI",
         "AI Assistant"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 8,
@@ -323,7 +330,8 @@
         "AIOps",
         "Developer Tools",
         "SaaS"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 9,
@@ -360,7 +368,8 @@
         "Email",
         "Infrastructure",
         "AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 10,
@@ -393,7 +402,8 @@
       "location": "San Francisco, CA, US (YC company page)",
       "tags": [
         "AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 11,
@@ -428,7 +438,8 @@
         "B2B",
         "Analytics",
         "AI Assistant"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 12,
@@ -463,7 +474,8 @@
         "Documents",
         "Artificial Intelligence",
         "B2B"
-      ]
+      ],
+      "scoreTips": {}
     }
   ],
   "disagreements": [],

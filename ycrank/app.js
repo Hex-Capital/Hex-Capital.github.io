@@ -38,6 +38,33 @@ function app() {
     // Static mode (set by config.json)
     staticMode: false,
 
+    // No build data flag (set when manifest.json returns 404)
+    noBuildData: false,
+
+    // Build metadata
+    buildMeta: null,
+
+    // Watchlist state
+    watchlist: new Set(),
+    watchlistFilter: false,
+
+    // Pipeline state
+    pipeline: {},
+
+    // Annotations state
+    annotations: [],
+    annotationInput: '',
+    annotationsLoading: false,
+
+    // Color palette: single source of truth for tier-based styling
+    COLOR_PALETTE: {
+      'strong-invest': { cls: 'score-claude-deepgreen score-bg-deepgreen', hex: '#2d8a4e', label: 'Strong Invest', suffix: 'deepgreen' },
+      'invest':        { cls: 'score-claude-green score-bg-green',         hex: '#4a9e4a', label: 'Invest',        suffix: 'green' },
+      'neutral':       { cls: 'score-claude-orange score-bg-orange',       hex: '#d9923a', label: 'Neutral',       suffix: 'orange' },
+      'pass':          { cls: 'score-claude-red score-bg-red',             hex: '#cc3838', label: 'Pass',          suffix: 'red' },
+      'strong-pass':   { cls: 'score-claude-deepred score-bg-deepred',     hex: '#8b2525', label: 'Strong Pass',   suffix: 'deepred' },
+    },
+
     // Disagreement lookup
     disagreementSet: new Set(),
 
@@ -90,6 +117,10 @@ function app() {
       try {
         // Load batches
         const batchesResp = await fetch('data/batches.json');
+        if (!batchesResp.ok) {
+          this.noBuildData = true;
+          return;
+        }
         this.batches = await batchesResp.json();
 
         // Load personas
@@ -100,11 +131,16 @@ function app() {
         if (this.batches.length > 0) {
           this.currentBatch = this.batches[this.batches.length - 1]; // latest
           await this.loadBatch(this.currentBatch);
+        } else {
+          this.noBuildData = true;
         }
 
         // Initialize council: all personas active, generate session ID
         this.councilSessionId = crypto.randomUUID();
         this.personas.forEach(p => this.councilPersonas.add(p.slug));
+
+        // Load user state (watchlist, etc.)
+        await this.loadUserState();
 
         // Reset mobile card index on search change
         this.$watch('search', () => { this.mobileCardIndex = 0; });
@@ -118,12 +154,122 @@ function app() {
       }
     },
 
+    async loadUserState() {
+      if (this.staticMode) return;
+      try {
+        const resp = await fetch('/api/user/state');
+        if (resp.ok) {
+          const state = await resp.json();
+          this.watchlist = new Set(state.watchlist || []);
+          this.pipeline = state.pipeline || {};
+        }
+      } catch (e) { /* ignore - user state is optional */ }
+    },
+
+    isWatchlisted(slug) {
+      return this.watchlist.has(slug);
+    },
+
+    async toggleWatchlist(slug, event) {
+      if (event) event.stopPropagation();
+      if (this.staticMode) return;
+      const starred = !this.watchlist.has(slug);
+      // Optimistic update
+      if (starred) {
+        this.watchlist.add(slug);
+      } else {
+        this.watchlist.delete(slug);
+      }
+      this.watchlist = new Set(this.watchlist); // force reactivity
+      try {
+        await fetch('/api/user/watchlist', {
+          method: 'PUT',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ slug, starred })
+        });
+      } catch (e) {
+        // Revert on failure
+        if (starred) {
+          this.watchlist.delete(slug);
+        } else {
+          this.watchlist.add(slug);
+        }
+        this.watchlist = new Set(this.watchlist);
+      }
+    },
+
+    getPipelineStage(slug) {
+      return this.pipeline[slug] || '';
+    },
+
+    async setPipelineStage(slug, stage) {
+      if (this.staticMode) return;
+      const prev = this.pipeline[slug] || null;
+      // Optimistic update
+      if (stage) {
+        this.pipeline[slug] = stage;
+      } else {
+        delete this.pipeline[slug];
+      }
+      this.pipeline = { ...this.pipeline }; // force reactivity
+      try {
+        await fetch(`/api/user/pipeline/${slug}`, {
+          method: 'PUT',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ stage: stage || null })
+        });
+      } catch (e) {
+        // Revert
+        if (prev) {
+          this.pipeline[slug] = prev;
+        } else {
+          delete this.pipeline[slug];
+        }
+        this.pipeline = { ...this.pipeline };
+      }
+    },
+
+    pipelineColor(stage) {
+      const colors = {
+        'interested': 'text-claude-blue',
+        'researching': 'text-claude-amber',
+        'meeting': 'text-claude-purple',
+        'committed': 'text-claude-green',
+        'passed': 'text-claude-red',
+      };
+      return colors[stage] || 'text-claude-dim';
+    },
+
+    pipelineBadge(stage) {
+      if (!stage) return '';
+      const labels = {
+        'interested': 'INT',
+        'researching': 'RES',
+        'meeting': 'MTG',
+        'committed': 'CMT',
+        'passed': 'PAS',
+      };
+      return labels[stage] || stage.slice(0, 3).toUpperCase();
+    },
+
     async loadBatch(batchName) {
       this.loading = true;
       try {
         const resp = await fetch(`data/${batchName}/manifest.json`);
+        if (!resp.ok) {
+          this.noBuildData = true;
+          this.manifest = null;
+          return;
+        }
+        this.noBuildData = false;
         this.manifest = await resp.json();
         this.personas = this.manifest.personas;
+
+        // Load build metadata
+        try {
+          const metaResp = await fetch(`data/${batchName}/buildMeta.json`);
+          if (metaResp.ok) this.buildMeta = await metaResp.json();
+        } catch (e) { /* optional */ }
 
         // Build disagreement set
         this.disagreementSet = new Set(this.manifest.disagreements.map(d => d.company));
@@ -193,6 +339,11 @@ function app() {
         );
       }
 
+      // Watchlist filter
+      if (this.watchlistFilter) {
+        rows = rows.filter(r => this.watchlist.has(r.slug));
+      }
+
       // Sort
       const col = this.sortCol;
       const dir = this.sortDir;
@@ -238,6 +389,10 @@ function app() {
           r.name.toLowerCase().includes(q) ||
           (r.oneLiner && r.oneLiner.toLowerCase().includes(q))
         );
+      }
+      // Watchlist filter
+      if (this.watchlistFilter) {
+        rows = rows.filter(r => this.watchlist.has(r.slug));
       }
       return [...rows].sort((a, b) => (b.avg || 0) - (a.avg || 0));
     },
@@ -358,6 +513,18 @@ function app() {
       return this.disagreementSet.has(name);
     },
 
+    getKeyTension(name) {
+      if (!this.manifest) return '';
+      const d = this.manifest.disagreements.find(d => d.company === name);
+      return d ? d.keyTension || '' : '';
+    },
+
+    getScoreTip(slug, personaAbbr) {
+      if (!this.manifest) return '';
+      const row = this.manifest.table.find(r => r.slug === slug);
+      return row && row.scoreTips && row.scoreTips[personaAbbr] ? row.scoreTips[personaAbbr] : '';
+    },
+
     // --- Company Detail ---
 
     async showCompany(slug) {
@@ -371,6 +538,8 @@ function app() {
         this.companyData = await resp.json();
         // Load memo content
         await this.loadTabContent('memo');
+        // Load annotations
+        await this.loadAnnotations(slug);
       } catch (e) {
         console.error('Failed to load company:', e);
         this.companyData = null;
@@ -594,7 +763,26 @@ function app() {
             try {
               const data = JSON.parse(line.slice(6));
 
-              if (data.type === 'result' || data.type === 'error') {
+              if (data.type === 'error' && data.message && !data.persona) {
+                // Global error (e.g., all personas failed)
+                this.councilMessages.push({
+                  type: 'error',
+                  text: data.message,
+                  loading: false
+                });
+                // Mark all still-loading placeholders as done
+                for (const slug of Object.keys(placeholders)) {
+                  const idx = placeholders[slug];
+                  if (this.councilMessages[idx] && this.councilMessages[idx].loading) {
+                    this.councilMessages[idx].loading = false;
+                  }
+                }
+                this.$nextTick(() => {
+                  if (this.$refs.councilMessages) {
+                    this.$refs.councilMessages.scrollTop = this.$refs.councilMessages.scrollHeight;
+                  }
+                });
+              } else if (data.type === 'result' || data.type === 'error') {
                 const idx = placeholders[data.persona];
                 if (idx !== undefined && this.councilMessages[idx]) {
                   this.councilMessages[idx].text = data.text;
@@ -703,52 +891,28 @@ function app() {
     },
 
     tierBarBg(tier) {
-      const hexByTier = {
-        'strong-invest': '#2d8a4e',
-        'invest': '#4a9e4a',
-        'neutral': '#d9923a',
-        'pass': '#cc3838',
-        'strong-pass': '#8b2525',
-      };
-      return hexByTier[this.getTierCategory(tier)] || '#d9923a';
+      const entry = this.COLOR_PALETTE[this.getTierCategory(tier)];
+      return entry ? entry.hex : '#d9923a';
     },
 
     avgTierLabel(avg) {
-      const labels = {
-        'strong-invest': 'Strong Invest',
-        'invest': 'Invest',
-        'neutral': 'Neutral',
-        'pass': 'Pass',
-        'strong-pass': 'Strong Pass',
-      };
       const cat = this.avgTierCategory(avg);
-      return cat ? labels[cat] : '--';
+      const entry = cat ? this.COLOR_PALETTE[cat] : null;
+      return entry ? entry.label : '--';
     },
 
     // --- Helpers ---
 
     tierColor(tier) {
       if (!tier) return 'text-claude-dim';
-      const classByTier = {
-        'strong-invest': 'score-claude-deepgreen score-bg-deepgreen',
-        'invest': 'score-claude-green score-bg-green',
-        'neutral': 'score-claude-orange score-bg-orange',
-        'pass': 'score-claude-red score-bg-red',
-        'strong-pass': 'score-claude-deepred score-bg-deepred',
-      };
-      return classByTier[this.getTierCategory(tier)] || 'text-claude-dim';
+      const entry = this.COLOR_PALETTE[this.getTierCategory(tier)];
+      return entry ? entry.cls : 'text-claude-dim';
     },
 
     avgColor(avg) {
-      const classByTier = {
-        'strong-invest': 'score-claude-deepgreen',
-        'invest': 'score-claude-green',
-        'neutral': 'score-claude-orange',
-        'pass': 'score-claude-red',
-        'strong-pass': 'score-claude-deepred',
-      };
       const cat = this.avgTierCategory(avg);
-      return cat ? classByTier[cat] : 'text-claude-dim';
+      const entry = cat ? this.COLOR_PALETTE[cat] : null;
+      return entry ? entry.cls.split(' ')[0] : 'text-claude-dim';
     },
 
     corrColor(val) {
@@ -760,15 +924,9 @@ function app() {
     },
 
     avgTierClass(avg) {
-      const suffixByTier = {
-        'strong-invest': 'deepgreen',
-        'invest': 'green',
-        'neutral': 'orange',
-        'pass': 'red',
-        'strong-pass': 'deepred',
-      };
       const cat = this.avgTierCategory(avg);
-      return cat ? suffixByTier[cat] : 'dim';
+      const entry = cat ? this.COLOR_PALETTE[cat] : null;
+      return entry ? entry.suffix : 'dim';
     },
 
     tractionTierColor(tierName) {
@@ -890,6 +1048,53 @@ function app() {
           });
         });
       }, 380);
+    },
+
+    // --- Annotations ---
+
+    async loadAnnotations(slug) {
+      if (this.staticMode) return;
+      this.annotationsLoading = true;
+      try {
+        const resp = await fetch(`/api/annotations/${slug}`);
+        if (resp.ok) {
+          this.annotations = await resp.json();
+        }
+      } catch (e) { /* ignore */ }
+      finally { this.annotationsLoading = false; }
+    },
+
+    async addAnnotation() {
+      if (this.staticMode || !this.companyData) return;
+      const text = this.annotationInput.trim();
+      if (!text) return;
+      this.annotationInput = '';
+      try {
+        await fetch(`/api/annotations/${this.companyData.slug}`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ text })
+        });
+        // Reload annotations
+        await this.loadAnnotations(this.companyData.slug);
+      } catch (e) {
+        console.error('Failed to add annotation:', e);
+      }
+    },
+
+    formatAnnotationTime(ts) {
+      if (!ts) return '';
+      const d = new Date(ts);
+      const now = new Date();
+      const diffMs = now - d;
+      const diffMins = Math.floor(diffMs / 60000);
+      if (diffMins < 1) return 'just now';
+      if (diffMins < 60) return diffMins + 'm ago';
+      const diffHours = Math.floor(diffMins / 60);
+      if (diffHours < 24) return diffHours + 'h ago';
+      const diffDays = Math.floor(diffHours / 24);
+      if (diffDays < 7) return diffDays + 'd ago';
+      return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
     },
 
     // --- Keyboard shortcuts ---

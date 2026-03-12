@@ -107,18 +107,31 @@
     <!-- Loading -->
     <div x-show="loading" class="text-center py-20 text-claude-orange terminal-blink">Loading_</div>
 
+    <!-- No Build Data -->
+    <div x-show="noBuildData && !loading" x-cloak class="text-center py-20">
+      <p class="text-claude-orange text-lg font-mono mb-3">No build data found</p>
+      <p class="text-claude-dim text-sm">Run the build pipeline to generate dashboard data:</p>
+      <code class="block mt-2 text-claude-gray text-sm font-mono">powershell -ExecutionPolicy Bypass -File ycrank.ps1</code>
+    </div>
+
     <!-- Dashboard View -->
-    <div x-show="view === 'dashboard' && !loading" x-cloak>
+    <div x-show="view === 'dashboard' && !loading && !noBuildData" x-cloak>
       <!-- Search -->
       <div class="sticky-search flex items-center gap-2 py-2">
         <span class="text-claude-dim text-sm font-mono">&gt;&gt;</span>
         <div class="relative flex-1 min-w-0 sm:w-56 sm:flex-none">
-          <input type="text" x-model="search" placeholder="search..." aria-label="Search companies"
+          <input type="text" x-model.debounce.150ms="search" placeholder="search..." aria-label="Search companies"
             class="bg-claude-bg border border-claude-border text-claude-text px-2 py-1 text-sm w-full focus:outline-none focus:border-claude-orange rounded-none placeholder-claude-dim font-mono">
           <button x-show="search" @click="search = ''" class="search-clear-btn absolute right-1.5 top-1/2 -translate-y-1/2 sm:hidden">&times;</button>
         </div>
         <span class="text-claude-border hidden sm:inline">|</span>
         <span class="text-claude-dim text-sm" x-text="filteredTable.length + '/' + (manifest ? manifest.table.length : 0) + ' companies'"></span>
+        <span class="text-claude-border hidden sm:inline">|</span>
+        <button @click="watchlistFilter = !watchlistFilter" x-show="!staticMode"
+          :class="watchlistFilter ? 'text-claude-amber' : 'text-claude-dim hover:text-claude-amber'"
+          class="text-sm transition-colors whitespace-nowrap">
+          <span x-text="watchlistFilter ? '\u2605 Watchlist' : '\u2606 Watchlist'"></span>
+        </button>
       </div>
 
       <!-- Table (hidden on mobile, replaced by card view) -->
@@ -126,6 +139,7 @@
         <table class="w-full text-sm terminal-table">
           <thead class="sticky-thead">
             <tr class="border-b border-claude-border bg-claude-panel">
+              <th class="px-1 py-1 text-center text-claude-gray w-8 border border-claude-border" x-show="!staticMode">&#9733;</th>
               <th class="px-1.5 py-1 text-left text-claude-gray cursor-pointer hover:text-claude-orange border border-claude-border whitespace-nowrap"
                 @click="sortBy('name')">Company<span x-show="sortCol === 'name'" x-text="sortDir === 1 ? '\u25B2' : '\u25BC'" class="text-xs ml-0.5"></span>
               </th>
@@ -147,6 +161,7 @@
               <th class="px-1.5 py-1 text-center text-claude-gray cursor-pointer hover:text-claude-orange w-12 border border-claude-border whitespace-nowrap"
                 @click="sortBy('avg')">Avg<span x-show="sortCol === 'avg'" x-text="sortDir === 1 ? '\u25B2' : '\u25BC'" class="text-xs ml-0.5"></span>
               </th>
+              <th class="px-1 py-1 text-center text-claude-gray w-12 border border-claude-border whitespace-nowrap" x-show="!staticMode">Stage</th>
             </tr>
           </thead>
           <!-- MOBILE-SCORES: Each company is a <tbody> so Alpine can render two rows (data + mobile scores).
@@ -156,11 +171,17 @@
             <tbody class="mobile-scores-group">
               <tr class="border-b border-claude-border hover:bg-claude-panel cursor-pointer transition-colors"
                 @click="row.slug && navigate('company/' + row.slug)">
+                <td class="px-1 py-1 text-center border border-claude-border" x-show="!staticMode"
+                    @click.stop="toggleWatchlist(row.slug, $event)">
+                  <span :class="isWatchlisted(row.slug) ? 'text-claude-amber' : 'text-claude-dim hover:text-claude-amber'"
+                    class="cursor-pointer text-sm transition-colors"
+                    x-text="isWatchlisted(row.slug) ? '\u2605' : '\u2606'"></span>
+                </td>
                 <td class="px-1.5 py-1 border border-claude-border">
                   <div class="flex items-center gap-1.5">
                     <span class="text-claude-text font-medium" x-text="row.name"></span>
                     <span x-show="isDisagreement(row.name)"
-                      class="text-claude-red text-xs" title="High disagreement (stddev >= 20)">!!</span>
+                      class="text-claude-red text-xs" :title="getKeyTension(row.name) || 'High disagreement (stddev >= 20)'">!!</span>
                   </div>
                   <div class="text-xs text-claude-dim truncate max-w-[100px] xs:max-w-[150px] sm:max-w-xs md:max-w-md hidden xs:block" x-text="row.oneLiner"></div>
                 </td>
@@ -173,11 +194,16 @@
                 <template x-for="p in personas" :key="p.abbr">
                   <td class="px-1.5 py-1 text-center tabular-nums border border-claude-border hidden sm:table-cell"
                     :class="tierColor(row.tiers[p.abbr])"
+                    :title="row.scoreTips && row.scoreTips[p.abbr] ? p.fullName + ': ' + row.scoreTips[p.abbr] : ''"
                     x-text="row.scores[p.abbr] != null ? row.scores[p.abbr] : '-'"></td>
                 </template>
                 <td class="px-1.5 py-1 text-center font-bold tabular-nums border border-claude-border"
                   :class="avgColor(row.avg)"
                   x-text="row.avg != null ? row.avg.toFixed(2) : '-'"></td>
+                <td class="px-1 py-1 text-center border border-claude-border text-[10px] font-mono" x-show="!staticMode"
+                    :class="pipelineColor(getPipelineStage(row.slug))">
+                  <span x-text="pipelineBadge(getPipelineStage(row.slug)) || '-'"></span>
+                </td>
               </tr>
               <tr class="sm:hidden border-b border-claude-border cursor-pointer transition-colors mobile-scores-row"
                 @click="row.slug && navigate('company/' + row.slug)">
@@ -235,7 +261,7 @@
                         <div class="flex items-center gap-1.5 min-w-0">
                           <h3 class="text-xl font-bold text-claude-orange truncate tracking-tight" x-text="mobileCards[slideIdx].name"></h3>
                           <span x-show="isDisagreement(mobileCards[slideIdx].name)"
-                            class="text-claude-red text-xs flex-shrink-0 font-mono" title="High disagreement">!!</span>
+                            class="text-claude-red text-xs flex-shrink-0 font-mono" :title="getKeyTension(mobileCards[slideIdx].name) || 'High disagreement (stddev >= 20)'">!!</span>
                         </div>
                         <span class="text-[10px] text-claude-dim font-mono flex-shrink-0 ml-2 truncate max-w-[120px]"
                           x-text="fmtLocation(mobileCards[slideIdx].location)"></span>
@@ -273,6 +299,14 @@
 
                       <!-- Footer -->
                       <div class="mobile-card-footer">
+                        <span @click.stop="toggleWatchlist(mobileCards[slideIdx].slug, $event)" x-show="!staticMode"
+                          :class="isWatchlisted(mobileCards[slideIdx].slug) ? 'text-claude-amber' : 'text-claude-dim'"
+                          class="cursor-pointer text-base mr-auto"
+                          x-text="isWatchlisted(mobileCards[slideIdx].slug) ? '\u2605' : '\u2606'"></span>
+                        <span x-show="!staticMode && getPipelineStage(mobileCards[slideIdx].slug)"
+                          class="text-[9px] font-mono px-1 py-0.5 border border-current"
+                          :class="pipelineColor(getPipelineStage(mobileCards[slideIdx].slug))"
+                          x-text="pipelineBadge(getPipelineStage(mobileCards[slideIdx].slug))"></span>
                         <span class="font-mono text-claude-dim" x-text="(slideIdx + 1) + '/' + mobileCards.length"></span>
                       </div>
                     </div>
@@ -324,10 +358,30 @@
           <div class="mb-4">
             <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2">
               <div class="min-w-0">
-                <h2 class="text-2xl font-bold text-claude-orange" x-text="companyData.name"></h2>
+                <div class="flex items-center gap-2">
+                  <h2 class="text-2xl font-bold text-claude-orange" x-text="companyData.name"></h2>
+                  <button @click="toggleWatchlist(companyData.slug, $event)" x-show="!staticMode"
+                    :class="isWatchlisted(companyData.slug) ? 'text-claude-amber' : 'text-claude-dim hover:text-claude-amber'"
+                    class="text-xl transition-colors cursor-pointer"
+                    x-text="isWatchlisted(companyData.slug) ? '\u2605' : '\u2606'"></button>
+                </div>
                 <p class="text-claude-dim text-sm mt-0.5" x-text="companyData.oneLiner"></p>
+                <template x-if="isDisagreement(companyData?.name)">
+                  <p class="text-claude-red text-xs mt-1" x-text="'Key tension: ' + getKeyTension(companyData?.name)"></p>
+                </template>
               </div>
               <div class="flex-shrink-0 flex gap-2">
+                <select @change="setPipelineStage(companyData.slug, $event.target.value)" x-show="!staticMode"
+                  :value="getPipelineStage(companyData.slug)"
+                  class="bg-claude-bg border border-claude-border text-sm px-2 py-1.5 rounded-none focus:outline-none focus:border-claude-orange"
+                  :class="pipelineColor(getPipelineStage(companyData.slug))">
+                  <option value="">No stage</option>
+                  <option value="interested">Interested</option>
+                  <option value="researching">Researching</option>
+                  <option value="meeting">Meeting</option>
+                  <option value="committed">Committed</option>
+                  <option value="passed">Passed</option>
+                </select>
                 <button @click="draftEmail()" x-show="!staticMode"
                   class="px-2 sm:px-3 py-1.5 border border-claude-blue text-claude-blue hover:bg-claude-blue hover:text-claude-bg text-sm transition-colors rounded-none flex items-center gap-1.5">
                   <span class="hidden sm:inline">Send Email</span>
@@ -364,6 +418,7 @@
               <template x-for="p in personas" :key="p.slug">
                 <div class="score-card p-1.5 text-center"
                   :class="{ 'cursor-pointer': companyData.paths.evals[p.slug], 'score-card-active': activeTab === p.slug }"
+                  :title="getScoreTip(companyData.slug, p.abbr)"
                   @click="companyData.paths.evals[p.slug] && loadTabContent(p.slug)">
                   <div class="text-xs text-claude-dim truncate" x-text="p.fullName"></div>
                   <div class="text-lg font-bold tabular-nums" :class="tierColor(companyData.evalScores[p.slug] ? companyData.evalScores[p.slug].tier : null)"
@@ -417,6 +472,43 @@
               <div x-show="!tabLoading" class="markdown-body" x-html="tabContent"></div>
             </div>
           </div>
+
+          <!-- Annotations -->
+          <div class="mb-4" x-show="!staticMode">
+            <h3 class="text-sm text-claude-gray mb-1 uppercase tracking-wider">--- Notes ---</h3>
+
+            <!-- Add annotation input -->
+            <div class="flex gap-1.5 mb-2">
+              <span class="text-claude-dim text-sm font-mono py-1">&gt;</span>
+              <input type="text" x-model="annotationInput"
+                @keydown.enter="addAnnotation()"
+                placeholder="add a note..."
+                class="flex-1 bg-claude-bg border border-claude-border text-claude-text px-2 py-1 text-sm focus:outline-none focus:border-claude-orange rounded-none placeholder-claude-dim">
+              <button @click="addAnnotation()"
+                :disabled="!annotationInput.trim()"
+                :class="annotationInput.trim() ? 'text-claude-orange border-claude-orange hover:bg-claude-orange hover:text-claude-bg' : 'text-claude-dim border-claude-border cursor-not-allowed'"
+                class="px-2 py-1 border text-sm transition-colors rounded-none">[add]</button>
+            </div>
+
+            <!-- Annotation list -->
+            <div x-show="annotationsLoading" class="text-claude-dim text-xs terminal-blink">loading_</div>
+            <template x-if="annotations.length > 0">
+              <div class="space-y-1.5">
+                <template x-for="(note, i) in annotations" :key="i">
+                  <div class="border-l-2 border-claude-border pl-2 py-1">
+                    <p class="text-sm text-claude-text" x-text="note.text"></p>
+                    <div class="flex gap-2 text-[10px] text-claude-dim mt-0.5">
+                      <span x-text="formatAnnotationTime(note.ts)"></span>
+                      <span x-text="note.user ? note.user.slice(0, 8) + '...' : ''"></span>
+                    </div>
+                  </div>
+                </template>
+              </div>
+            </template>
+            <template x-if="!annotationsLoading && annotations.length === 0">
+              <p class="text-claude-dim text-xs">No notes yet.</p>
+            </template>
+          </div>
         </div>
       </template>
     </div>
@@ -439,7 +531,7 @@
                 <th class="px-1.5 py-1 text-center text-claude-gray border border-claude-border">StdDev</th>
                 <th class="px-1.5 py-1 text-left text-claude-gray border border-claude-border">High</th>
                 <th class="px-1.5 py-1 text-left text-claude-gray border border-claude-border">Low</th>
-                <th class="px-1.5 py-1 text-left text-claude-gray border border-claude-border">Split</th>
+                <th class="px-1.5 py-1 text-left text-claude-gray border border-claude-border">Key Tension</th>
               </tr>
             </thead>
             <tbody>
@@ -450,7 +542,8 @@
                   <td class="px-1.5 py-1 text-center tabular-nums text-claude-red border border-claude-border" x-text="d.stddev.toFixed(2)"></td>
                   <td class="px-1.5 py-1 text-claude-green border border-claude-border" x-text="d.high"></td>
                   <td class="px-1.5 py-1 text-claude-red border border-claude-border" x-text="d.low"></td>
-                  <td class="px-1.5 py-1 text-claude-dim text-[10px] border border-claude-border" x-text="d.split"></td>
+                  <td class="px-1.5 py-1 text-claude-dim text-[10px] border border-claude-border max-w-[300px]"
+                    x-text="d.keyTension || ''" :title="d.keyTension || ''"></td>
                 </tr>
               </template>
             </tbody>
@@ -621,6 +714,10 @@
                 </div>
               </div>
             </template>
+            <!-- Global error (e.g., all personas failed) -->
+            <template x-if="msg.type === 'error'">
+              <div class="mb-2 text-xs text-claude-red border-l-2 border-claude-red pl-2 ml-1" x-text="msg.text"></div>
+            </template>
             <!-- Persona response -->
             <template x-if="msg.type === 'response'">
               <div class="mb-2">
@@ -668,6 +765,18 @@
     <span style="color:var(--c-border)">|</span>
     <span class="sf-dot"></span>
     <span>systems online</span>
+    <template x-if="buildMeta">
+      <span style="margin-left:auto;display:flex;align-items:center;gap:8px">
+        <span style="color:var(--c-border)">|</span>
+        <span x-text="'built ' + formatDate(buildMeta.builtAt)"></span>
+        <template x-if="buildMeta.costs && buildMeta.costs.total > 0">
+          <span>
+            <span style="color:var(--c-border)">|</span>
+            <span x-text="'$' + buildMeta.costs.total.toFixed(2) + ' pipeline cost'"></span>
+          </span>
+        </template>
+      </span>
+    </template>
   </div>
 
   <script src="app.js"></script>

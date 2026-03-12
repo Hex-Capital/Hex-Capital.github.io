@@ -81,7 +81,8 @@
         "Robotics",
         "Drones",
         "Sustainable Agriculture"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 2,
@@ -118,7 +119,8 @@
         "Insurance",
         "Trust & Safety",
         "Self-Driving Vehicles"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 3,
@@ -155,7 +157,8 @@
         "Space Exploration",
         "Satellites",
         "Aerospace"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 4,
@@ -190,7 +193,8 @@
         "Drones",
         "Energy",
         "Infrastructure"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 5,
@@ -227,7 +231,8 @@
         "Hard Tech",
         "Remote Work",
         "ML"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 6,
@@ -264,7 +269,8 @@
         "Cybersecurity",
         "Fraud Prevention",
         "Fraud Detection"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 7,
@@ -299,7 +305,8 @@
         "Biotech",
         "Therapeutics",
         "Drug discovery"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 8,
@@ -335,7 +342,8 @@
         "Radar",
         "AI",
         "Automotive"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 9,
@@ -370,7 +378,8 @@
         "Artificial Intelligence",
         "Developer Tools",
         "DevOps"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 10,
@@ -404,7 +413,8 @@
       "tags": [
         "SaaS",
         "Biotech"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 11,
@@ -440,7 +450,8 @@
         "Hardware",
         "B2B",
         "AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 12,
@@ -477,7 +488,8 @@
         "Machine Learning",
         "Biotech",
         "Therapeutics"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 13,
@@ -508,7 +520,8 @@
       "oneLiner": "AI-powered grid planning in your browser 🦑 (squid.energy)",
       "industry": "Industrials / Industrials -> Energy",
       "location": "London / San Francisco (squid.energy website)",
-      "tags": []
+      "tags": [],
+      "scoreTips": {}
     },
     {
       "rank": 14,
@@ -545,7 +558,8 @@
         "Enterprise Software",
         "Infrastructure",
         "AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 15,
@@ -581,7 +595,8 @@
         "Hardware",
         "Robotics",
         "Electronics"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 16,
@@ -618,7 +633,8 @@
         "B2B",
         "Cloud Computing",
         "Networks"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 17,
@@ -655,7 +671,8 @@
         "Energy",
         "Renewable Energy",
         "Infrastructure"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 18,
@@ -690,7 +707,8 @@
         "Hard Tech",
         "Drones",
         "Radar"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 19,
@@ -726,7 +744,8 @@
         "Machine Learning",
         "Robotics",
         "AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 20,
@@ -761,7 +780,8 @@
         "SaaS",
         "B2B",
         "Cybersecurity"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 21,
@@ -796,7 +816,8 @@
         "Fintech",
         "SaaS",
         "Emerging Markets"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 22,
@@ -830,7 +851,8 @@
       "tags": [
         "Legal",
         "LegalTech"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 23,
@@ -864,7 +886,8 @@
       "tags": [
         "Manufacturing",
         "Aerospace"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 24,
@@ -898,7 +921,8 @@
       "tags": [
         "Healthcare",
         "AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 25,
@@ -934,7 +958,8 @@
         "Crypto / Web3",
         "Payments",
         "Cryptocurrency"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 26,
@@ -971,7 +996,8 @@
         "Biotech",
         "Enterprise Software",
         "AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 27,
@@ -1006,7 +1032,8 @@
         "Hardware",
         "Swarm AI",
         "Robotics"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 28,
@@ -1042,7 +1069,8 @@
         "Computer Vision",
         "Food Tech",
         "Maritime"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 29,
@@ -1076,7 +1104,8 @@
       "tags": [
         "Insurance",
         "AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 30,
@@ -1111,7 +1140,8 @@
         "Artificial Intelligence",
         "Generative AI",
         "Biotech"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 31,
@@ -1148,7 +1178,8 @@
         "Energy",
         "Electric Vehicles",
         "Automation"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 32,
@@ -1185,7 +1216,8 @@
         "Fuel Cells",
         "Aerospace",
         "Maritime"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 33,
@@ -1221,7 +1253,8 @@
         "Health Tech",
         "Digital Health",
         "Healthcare"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 34,
@@ -1258,7 +1291,8 @@
         "Legal",
         "HR Tech",
         "Immigration"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 35,
@@ -1292,7 +1326,8 @@
       "tags": [
         "Artificial Intelligence",
         "SaaS"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 36,
@@ -1327,7 +1362,8 @@
         "Artificial Intelligence",
         "Fintech",
         "Fraud Detection"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 37,
@@ -1363,7 +1399,8 @@
         "GovTech",
         "Real Estate",
         "LegalTech"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 38,
@@ -1397,7 +1434,8 @@
       "tags": [
         "SaaS",
         "Industrial"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 39,
@@ -1432,7 +1470,8 @@
         "B2B",
         "AI",
         "Conversational AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 40,
@@ -1466,7 +1505,8 @@
       "tags": [
         "Nonprofit",
         "AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 41,
@@ -1502,7 +1542,8 @@
         "Health Tech",
         "Healthcare",
         "Health Insurance"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 42,
@@ -1537,7 +1578,8 @@
         "Artificial Intelligence",
         "Energy",
         "Mining"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 43,
@@ -1574,7 +1616,8 @@
         "Payments",
         "B2B",
         "AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 44,
@@ -1610,7 +1653,8 @@
         "Construction",
         "Travel",
         "Aerospace"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 45,
@@ -1646,7 +1690,8 @@
         "Marketing",
         "Advertising",
         "Trading"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 46,
@@ -1677,7 +1722,8 @@
       "oneLiner": "Take Notes in the Real World",
       "industry": "Consumer / Consumer",
       "location": "San Francisco, CA (YC page lists no location; SF confirmed via founder LinkedIn profiles)",
-      "tags": []
+      "tags": [],
+      "scoreTips": {}
     },
     {
       "rank": 47,
@@ -1712,7 +1758,8 @@
         "AIOps",
         "Workflow Automation",
         "Transportation"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 48,
@@ -1748,7 +1795,8 @@
         "B2B",
         "Customer Service",
         "Conversational AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 49,
@@ -1784,7 +1832,8 @@
         "Gene Therapy",
         "Cell Therapy",
         "Biotech"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 50,
@@ -1820,7 +1869,8 @@
         "Fintech",
         "Finance",
         "B2B"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 51,
@@ -1855,7 +1905,8 @@
         "Finance",
         "Consumer Finance",
         "Cryptocurrency"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 52,
@@ -1890,7 +1941,8 @@
         "B2B",
         "Workflow Automation",
         "Operations"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 53,
@@ -1925,7 +1977,8 @@
         "Artificial Intelligence",
         "Robotics",
         "Automation"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 54,
@@ -1959,7 +2012,8 @@
       "tags": [
         "Fintech",
         "B2B"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 55,
@@ -1993,7 +2047,8 @@
       "tags": [
         "Artificial Intelligence",
         "Fintech"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 56,
@@ -2028,7 +2083,8 @@
         "Computer Vision",
         "Infrastructure",
         "AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 57,
@@ -2065,7 +2121,8 @@
         "SaaS",
         "Crypto / Web3",
         "Payments"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 58,
@@ -2100,7 +2157,8 @@
         "Deep Learning",
         "Satellites",
         "Weather"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 59,
@@ -2135,7 +2193,8 @@
         "Health Tech",
         "Primary Care",
         "AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 60,
@@ -2170,7 +2229,8 @@
         "Artificial Intelligence",
         "SaaS",
         "Identity"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 61,
@@ -2205,7 +2265,8 @@
         "Marketplace",
         "B2B",
         "Big Data"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 62,
@@ -2241,7 +2302,8 @@
         "LegalTech",
         "Operations",
         "AI Assistant"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 63,
@@ -2277,7 +2339,8 @@
         "Construction",
         "Enterprise Software",
         "Architecture"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 64,
@@ -2314,7 +2377,8 @@
         "SaaS",
         "B2B",
         "Lending"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 65,
@@ -2349,7 +2413,8 @@
         "Artificial Intelligence",
         "Health Tech",
         "Scheduling"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 66,
@@ -2383,7 +2448,8 @@
       "tags": [
         "Artificial Intelligence",
         "AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 67,
@@ -2418,7 +2484,8 @@
         "SaaS",
         "B2B",
         "Infrastructure"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 68,
@@ -2453,7 +2520,8 @@
         "B2B",
         "Home Services",
         "AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 69,
@@ -2490,7 +2558,8 @@
         "Open Source",
         "Enterprise",
         "AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 70,
@@ -2527,7 +2596,8 @@
         "Healthcare",
         "Data Engineering",
         "Infrastructure"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 71,
@@ -2563,7 +2633,8 @@
         "Marketplace",
         "Consumer",
         "Gaming"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 72,
@@ -2597,7 +2668,8 @@
       "tags": [
         "B2B",
         "AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 73,
@@ -2634,7 +2706,8 @@
         "B2B",
         "Enterprise Software",
         "AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 74,
@@ -2671,7 +2744,8 @@
         "Consumer",
         "Video",
         "Media"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 75,
@@ -2704,7 +2778,8 @@
       "location": "San Francisco, CA, USA",
       "tags": [
         "Fintech"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 76,
@@ -2741,7 +2816,8 @@
         "B2B",
         "Supply Chain",
         "AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 77,
@@ -2772,7 +2848,8 @@
       "oneLiner": "Startup legal work handled by elite lawyers & same-day turnaround",
       "industry": "B2B / B2B -> Legal",
       "location": "Oslo, Norway (HQ: Edvard Storms gate 2, 0166 Oslo); also listed as San Francisco, CA / New York, NY on YC page",
-      "tags": []
+      "tags": [],
+      "scoreTips": {}
     },
     {
       "rank": 78,
@@ -2807,7 +2884,8 @@
         "Robotics",
         "Data Labeling",
         "AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 79,
@@ -2844,7 +2922,8 @@
         "API",
         "Search",
         "AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 80,
@@ -2879,7 +2958,8 @@
         "Artificial Intelligence",
         "Enterprise Software",
         "Semiconductors"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 81,
@@ -2916,7 +2996,8 @@
         "Design Tools",
         "Video",
         "Media"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 82,
@@ -2953,7 +3034,8 @@
         "B2B",
         "Legal",
         "AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 83,
@@ -2989,7 +3071,8 @@
         "Sports Tech",
         "Biotech",
         "Biotechnology"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 84,
@@ -3024,7 +3107,8 @@
         "Marketplace",
         "LegalTech",
         "Call Center"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 85,
@@ -3061,7 +3145,8 @@
         "B2B",
         "Enterprise Software",
         "AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 86,
@@ -3097,7 +3182,8 @@
         "Consumer",
         "Digital Health",
         "Health & Wellness"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 87,
@@ -3134,7 +3220,8 @@
         "SaaS",
         "GovTech",
         "Security"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 88,
@@ -3171,7 +3258,8 @@
         "Computer Vision",
         "Security",
         "AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 89,
@@ -3208,7 +3296,8 @@
         "Home Services",
         "Operations",
         "AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 90,
@@ -3245,7 +3334,8 @@
         "Open Source",
         "API",
         "AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 91,
@@ -3281,7 +3371,8 @@
         "Workflow Automation",
         "Security",
         "AI Assistant"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 92,
@@ -3316,7 +3407,8 @@
         "Deep Learning",
         "Generative AI",
         "AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 93,
@@ -3351,7 +3443,8 @@
         "Robotic Surgery",
         "Healthcare IT",
         "AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 94,
@@ -3387,7 +3480,8 @@
         "Robotics",
         "Logistics",
         "Supply Chain"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 95,
@@ -3424,7 +3518,8 @@
         "Workflow Automation",
         "Infrastructure",
         "AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 96,
@@ -3460,7 +3555,8 @@
         "FinOps",
         "Fintech",
         "SaaS"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 97,
@@ -3494,7 +3590,8 @@
       "tags": [
         "AI",
         "Automotive"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 98,
@@ -3529,7 +3626,8 @@
         "Developer Tools",
         "Video",
         "Infrastructure"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 99,
@@ -3564,7 +3662,8 @@
         "Artificial Intelligence",
         "Insurance",
         "Agriculture"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 100,
@@ -3601,7 +3700,8 @@
         "Payments",
         "B2B",
         "Cryptocurrency"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 101,
@@ -3636,7 +3736,8 @@
         "B2B",
         "Big Data",
         "AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 102,
@@ -3672,7 +3773,8 @@
         "Construction",
         "Proptech",
         "AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 103,
@@ -3706,7 +3808,8 @@
       "tags": [
         "B2B",
         "Energy"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 104,
@@ -3740,7 +3843,8 @@
       "tags": [
         "Reinforcement Learning",
         "Cybersecurity"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 105,
@@ -3774,7 +3878,8 @@
       "tags": [
         "Artificial Intelligence",
         "Recruiting"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 106,
@@ -3811,7 +3916,8 @@
         "Recruiting",
         "Calendar",
         "AI Assistant"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 107,
@@ -3847,7 +3953,8 @@
         "B2B",
         "Cloud Computing",
         "Infrastructure"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 108,
@@ -3883,7 +3990,8 @@
         "Developer Tools",
         "SaaS",
         "B2B"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 109,
@@ -3918,7 +4026,8 @@
         "Fintech",
         "Automation",
         "AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 110,
@@ -3953,7 +4062,8 @@
         "Artificial Intelligence",
         "Security",
         "Enterprise Software"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 111,
@@ -3990,7 +4100,8 @@
         "Logistics",
         "Manufacturing",
         "Automation"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 112,
@@ -4025,7 +4136,8 @@
         "Robotics",
         "Space Exploration",
         "Aerospace"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 113,
@@ -4060,7 +4172,8 @@
         "Artificial Intelligence",
         "Manufacturing",
         "Supply Chain"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 114,
@@ -4097,7 +4210,8 @@
         "Gaming",
         "Web Development",
         "AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 115,
@@ -4134,7 +4248,8 @@
         "B2B",
         "Workflow Automation",
         "Productivity"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 116,
@@ -4169,7 +4284,8 @@
         "AIOps",
         "Artificial Intelligence",
         "Developer Tools"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 117,
@@ -4202,7 +4318,8 @@
       "location": "San Francisco, CA, USA; Remote",
       "tags": [
         "Education"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 118,
@@ -4237,7 +4354,8 @@
         "Data Visualization",
         "AI",
         "AI Assistant"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 119,
@@ -4273,7 +4391,8 @@
         "Crypto / Web3",
         "Payments",
         "API"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 120,
@@ -4307,7 +4426,8 @@
       "tags": [
         "Reinforcement Learning",
         "Operations"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 121,
@@ -4342,7 +4462,8 @@
         "Artificial Intelligence",
         "Machine Learning",
         "Computer Vision"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 122,
@@ -4378,7 +4499,8 @@
         "Call Center",
         "Conversational AI",
         "AI Assistant"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 123,
@@ -4413,7 +4535,8 @@
         "Artificial Intelligence",
         "Logistics",
         "Supply Chain"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 124,
@@ -4448,7 +4571,8 @@
         "Developer Tools",
         "Reinforcement Learning",
         "Workflow Automation"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 125,
@@ -4483,7 +4607,8 @@
         "Finance",
         "Investing",
         "Trading"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 126,
@@ -4518,7 +4643,8 @@
         "Robotics",
         "Data Labeling",
         "AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 127,
@@ -4554,7 +4680,8 @@
         "Developer Tools",
         "B2B",
         "Open Source"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 128,
@@ -4591,7 +4718,8 @@
         "Design",
         "Manufacturing",
         "Enterprise Software"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 129,
@@ -4627,7 +4755,8 @@
         "B2B",
         "Workflow Automation",
         "Compliance"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 130,
@@ -4664,7 +4793,8 @@
         "Big Data",
         "Infrastructure",
         "AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 131,
@@ -4700,7 +4830,8 @@
         "B2B",
         "Home Services",
         "Operations"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 132,
@@ -4733,7 +4864,8 @@
       "location": "San Francisco (job posting, YC Leafpress page via WebFetch)",
       "tags": [
         "AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 133,
@@ -4769,7 +4901,8 @@
         "Customer Success",
         "Customer Support",
         "SMS"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 134,
@@ -4804,7 +4937,8 @@
         "B2B",
         "Compliance",
         "Marketing"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 135,
@@ -4840,7 +4974,8 @@
         "Construction",
         "Infrastructure",
         "AI Assistant"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 136,
@@ -4876,7 +5011,8 @@
         "Hardware",
         "Robotics",
         "Compliance"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 137,
@@ -4907,7 +5043,8 @@
       "oneLiner": "Automate any enterprise workflow through chat",
       "industry": "B2B / B2B",
       "location": "Remote (hiring in San Francisco and Tokyo)",
-      "tags": []
+      "tags": [],
+      "scoreTips": {}
     },
     {
       "rank": 138,
@@ -4942,7 +5079,8 @@
         "Artificial Intelligence",
         "Hardware",
         "Consumer"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 139,
@@ -4979,7 +5117,8 @@
         "Infrastructure",
         "Trust & Safety",
         "AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 140,
@@ -5015,7 +5154,8 @@
         "Developer Tools",
         "B2B",
         "Enterprise Software"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 141,
@@ -5048,7 +5188,8 @@
       "location": "San Francisco, CA, USA",
       "tags": [
         "Health Tech"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 142,
@@ -5085,7 +5226,8 @@
         "API",
         "Infrastructure",
         "AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 143,
@@ -5120,7 +5262,8 @@
         "Health Tech",
         "Legal",
         "Insurance"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 144,
@@ -5157,7 +5300,8 @@
         "Enterprise",
         "AI",
         "AI Assistant"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 145,
@@ -5192,7 +5336,8 @@
         "Crypto / Web3",
         "Consumer",
         "NFT"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 146,
@@ -5227,7 +5372,8 @@
         "Developer Tools",
         "Big Data",
         "Data Engineering"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 147,
@@ -5261,7 +5407,8 @@
       "tags": [
         "Artificial Intelligence",
         "LegalTech"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 148,
@@ -5295,7 +5442,8 @@
       "tags": [
         "Fintech",
         "AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 149,
@@ -5330,7 +5478,8 @@
         "Documents",
         "Artificial Intelligence",
         "Automation"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 150,
@@ -5366,7 +5515,8 @@
         "Video",
         "Data Labeling",
         "Big Data"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 151,
@@ -5402,7 +5552,8 @@
         "Healthcare",
         "AI",
         "AI Assistant"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 152,
@@ -5437,7 +5588,8 @@
         "Artificial Intelligence",
         "Workflow Automation",
         "Enterprise Software"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 153,
@@ -5472,7 +5624,8 @@
         "Fintech",
         "Finance",
         "B2B"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 154,
@@ -5508,7 +5661,8 @@
         "Recruiting",
         "Open Source",
         "HR Tech"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 155,
@@ -5544,7 +5698,8 @@
         "IoT",
         "Sustainability",
         "Proptech"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 156,
@@ -5579,7 +5734,8 @@
         "Artificial Intelligence",
         "Machine Learning",
         "Computer Vision"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 157,
@@ -5613,7 +5769,8 @@
       "tags": [
         "Machine Learning",
         "Data Engineering"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 158,
@@ -5647,7 +5804,8 @@
       "tags": [
         "Developer Tools",
         "Design Tools"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 159,
@@ -5684,7 +5842,8 @@
         "SaaS",
         "B2B",
         "Healthcare"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 160,
@@ -5718,7 +5877,8 @@
       "tags": [
         "Artificial Intelligence",
         "Reinforcement Learning"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 161,
@@ -5755,7 +5915,8 @@
         "Enterprise Software",
         "Regtech",
         "Biotechnology"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 162,
@@ -5792,7 +5953,8 @@
         "SaaS",
         "Infrastructure",
         "Conversational AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 163,
@@ -5827,7 +5989,8 @@
         "Developer Tools",
         "B2B",
         "AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 164,
@@ -5861,7 +6024,8 @@
       "tags": [
         "Developer Tools",
         "Generative AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 165,
@@ -5898,7 +6062,8 @@
         "Machine Learning",
         "B2B",
         "Infrastructure"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 166,
@@ -5934,7 +6099,8 @@
         "Developer Tools",
         "Open Source",
         "AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 167,
@@ -5969,7 +6135,8 @@
         "Fintech",
         "AI",
         "Cryptocurrency"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 168,
@@ -6006,7 +6173,8 @@
         "SaaS",
         "Data Engineering",
         "DevOps"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 169,
@@ -6042,7 +6210,8 @@
         "Sales",
         "Search",
         "AI Assistant"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 170,
@@ -6076,7 +6245,8 @@
       "tags": [
         "Developer Tools",
         "Productivity"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 171,
@@ -6113,7 +6283,8 @@
         "SaaS",
         "API",
         "Infrastructure"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 172,
@@ -6150,7 +6321,8 @@
         "Analytics",
         "Marketing",
         "AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 173,
@@ -6186,7 +6358,8 @@
         "SaaS",
         "Analytics",
         "Infrastructure"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 174,
@@ -6221,7 +6394,8 @@
         "Artificial Intelligence",
         "Real Estate",
         "AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 175,
@@ -6258,7 +6432,8 @@
         "Market Research",
         "Trading",
         "AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 176,
@@ -6294,7 +6469,8 @@
         "Fintech",
         "Compliance",
         "AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 177,
@@ -6328,7 +6504,8 @@
       "tags": [
         "Developer Tools",
         "Web Development"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 178,
@@ -6363,7 +6540,8 @@
         "Generative AI",
         "Marketing",
         "Search"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 179,
@@ -6398,7 +6576,8 @@
         "Reinforcement Learning",
         "Automation",
         "AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 180,
@@ -6434,7 +6613,8 @@
         "B2B",
         "Productivity",
         "Enterprise Software"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 181,
@@ -6469,7 +6649,8 @@
         "Artificial Intelligence",
         "Workflow Automation",
         "Operations"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 182,
@@ -6505,7 +6686,8 @@
         "SaaS",
         "B2B",
         "Analytics"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 183,
@@ -6541,7 +6723,8 @@
         "Sales",
         "Sales Enablement",
         "AI Assistant"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 184,
@@ -6574,7 +6757,8 @@
       "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 185,
@@ -6610,7 +6794,8 @@
         "SaaS",
         "Productivity",
         "AI Assistant"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 186,
@@ -6646,7 +6831,8 @@
         "Generative AI",
         "Customer Success",
         "Conversational AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 187,
@@ -6682,7 +6868,8 @@
         "B2B",
         "Logistics",
         "Supply Chain"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 188,
@@ -6716,7 +6903,8 @@
       "tags": [
         "Artificial Intelligence",
         "Productivity"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 189,
@@ -6753,7 +6941,8 @@
         "Chatbot",
         "Enterprise",
         "AI Assistant"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 190,
@@ -6789,7 +6978,8 @@
         "Developer Tools",
         "B2B",
         "AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 191,
@@ -6825,7 +7015,8 @@
         "B2B",
         "Market Research",
         "AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 192,
@@ -6860,7 +7051,8 @@
         "Artificial Intelligence",
         "Developer Tools",
         "B2B"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 193,
@@ -6897,7 +7089,8 @@
         "Finance",
         "B2B",
         "Compliance"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 194,
@@ -6931,7 +7124,8 @@
       "tags": [
         "AIOps",
         "Deep Learning"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 195,
@@ -6962,7 +7156,8 @@
       "oneLiner": "The first AI-native messaging platform.",
       "industry": "Consumer / Consumer",
       "location": "No public data found",
-      "tags": []
+      "tags": [],
+      "scoreTips": {}
     },
     {
       "rank": 196,
@@ -6999,7 +7194,8 @@
         "SaaS",
         "Workflow Automation",
         "AI Assistant"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 197,
@@ -7036,7 +7232,8 @@
         "Big Data",
         "Infrastructure",
         "AI"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 198,
@@ -7071,7 +7268,8 @@
         "Artificial Intelligence",
         "Enterprise Software",
         "Infrastructure"
-      ]
+      ],
+      "scoreTips": {}
     },
     {
       "rank": 199,
@@ -7107,7 +7305,8 @@
         "SaaS",
         "B2B",
         "AI"
-      ]
+      ],
+      "scoreTips": {}
     }
   ],
   "disagreements": [],

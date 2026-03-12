@@ -15,6 +15,7 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3/dist/cdn.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dompurify@3/dist/purify.min.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -59,7 +60,7 @@
 <body class="bg-claude-bg text-claude-text font-sans min-h-screen" x-data="app()" x-init="init()">
 
   <!-- Top Nav -->
-  <nav class="bg-claude-bg border-b border-claude-border sticky top-0 z-50">
+  <nav class="bg-claude-bg border-b border-claude-border sticky top-0 z-50" aria-label="Main navigation">
     <div class="max-w-[1600px] mx-auto px-3 py-2 flex items-center justify-between gap-2">
       <div class="flex items-center gap-2 sm:gap-3 min-w-0">
         <div class="nav-dots">
@@ -69,7 +70,7 @@
         </div>
         <h1 class="text-base font-bold text-claude-orange cursor-pointer sm:tracking-wider flex-shrink-0" @click="navigate('dashboard')">[YCRank]</h1>
         <span class="text-claude-border">|</span>
-        <select x-model="currentBatch" @change="loadBatch(currentBatch)"
+        <select x-model="currentBatch" @change="loadBatch(currentBatch)" aria-label="Select YC batch"
           class="bg-claude-bg border border-claude-border text-claude-orange px-1.5 sm:px-2 py-0.5 text-sm rounded-none focus:outline-none focus:border-claude-orange min-w-0 max-w-[140px] xs:max-w-none">
           <template x-for="b in batches" :key="b">
             <option :value="b" x-text="formatBatch(b)"></option>
@@ -112,7 +113,7 @@
       <div class="sticky-search flex items-center gap-2 py-2">
         <span class="text-claude-dim text-sm font-mono">&gt;&gt;</span>
         <div class="relative flex-1 min-w-0 sm:w-56 sm:flex-none">
-          <input type="text" x-model="search" placeholder="search..."
+          <input type="text" x-model="search" placeholder="search..." aria-label="Search companies"
             class="bg-claude-bg border border-claude-border text-claude-text px-2 py-1 text-sm w-full focus:outline-none focus:border-claude-orange rounded-none placeholder-claude-dim font-mono">
           <button x-show="search" @click="search = ''" class="search-clear-btn absolute right-1.5 top-1/2 -translate-y-1/2 sm:hidden">&times;</button>
         </div>
@@ -208,7 +209,7 @@
         <!-- Card row with side nav buttons -->
         <div class="mobile-card-layout">
           <!-- Left nav -->
-          <div @click="mobileCardNav(-1)"
+          <div @click="mobileCardNav(-1)" role="button" aria-label="Previous company"
             class="mobile-card-peek"
             :class="{ 'mobile-card-peek-disabled': mobileCardIndex <= 0 || mobileCards.length === 0 }">
             <span class="mobile-card-peek-chevron">&lsaquo;</span>
@@ -292,7 +293,7 @@
           </div>
 
           <!-- Right nav -->
-          <div @click="mobileCardNav(1)"
+          <div @click="mobileCardNav(1)" role="button" aria-label="Next company"
             class="mobile-card-peek"
             :class="{ 'mobile-card-peek-disabled': mobileCardIndex >= mobileCards.length - 1 || mobileCards.length === 0 }">
             <span class="mobile-card-peek-chevron">&rsaquo;</span>
@@ -398,19 +399,21 @@
 
           <!-- Tabbed Content: Memo + Evals -->
           <div class="mb-4">
-            <div class="flex border-b border-claude-border overflow-x-auto">
-              <button @click="loadTabContent('memo')"
+            <div class="flex border-b border-claude-border overflow-x-auto" role="tablist" aria-label="Company data tabs">
+              <button @click="loadTabContent('memo')" role="tab"
+                :aria-selected="activeTab === 'memo'"
                 :class="activeTab === 'memo' ? 'bg-claude-orange text-claude-bg' : 'text-claude-text hover:text-claude-orange'"
                 class="px-3 py-1.5 text-sm transition-colors rounded-none shrink-0">Memo</button>
               <template x-for="p in personas" :key="p.slug">
-                <button @click="loadTabContent(p.slug)"
+                <button @click="loadTabContent(p.slug)" role="tab"
+                  :aria-selected="activeTab === p.slug"
                   x-show="companyData.paths.evals[p.slug]"
                   :class="activeTab === p.slug ? 'bg-claude-orange text-claude-bg' : 'text-claude-text hover:text-claude-orange'"
                   class="px-3 py-1.5 text-sm transition-colors rounded-none shrink-0" x-text="p.abbr"></button>
               </template>
             </div>
-            <div class="border border-t-0 border-claude-border p-2 sm:p-4 overflow-x-auto">
-              <div x-show="tabLoading" class="text-claude-orange text-sm terminal-blink">Loading_</div>
+            <div class="border border-t-0 border-claude-border p-2 sm:p-4 overflow-x-auto" role="tabpanel" aria-label="Tab content">
+              <div x-show="tabLoading" class="text-claude-orange text-sm terminal-blink" aria-live="polite">Loading_</div>
               <div x-show="!tabLoading" class="markdown-body" x-html="tabContent"></div>
             </div>
           </div>
@@ -549,6 +552,7 @@
 
   <!-- Council Slide-out Panel -->
   <div x-show="councilOpen && !staticMode" x-cloak
+    role="dialog" aria-label="Investor Council" aria-modal="true"
     class="fixed inset-y-0 right-0 z-50 flex"
     x-transition:enter="transition ease-out duration-200"
     x-transition:enter-start="translate-x-full"
@@ -570,7 +574,7 @@
         </div>
         <div class="flex items-center gap-2">
           <span class="text-[10px] text-claude-dim" x-text="'$' + councilCost.toFixed(3)"></span>
-          <button @click="councilOpen = false" class="text-claude-gray hover:text-claude-red text-xs px-1">[x]</button>
+          <button @click="councilOpen = false" aria-label="Close council panel" class="text-claude-gray hover:text-claude-red text-xs px-1">[x]</button>
         </div>
       </div>
 
@@ -645,7 +649,7 @@
           <input type="text" x-model="councilInput"
             @keydown.enter="askCouncil()"
             :disabled="councilAsking"
-            placeholder="ask the council..."
+            placeholder="ask the council..." aria-label="Council question input"
             class="flex-1 bg-claude-bg border border-claude-border text-claude-text px-2 py-1 text-xs focus:outline-none focus:border-claude-orange disabled:opacity-50 rounded-none placeholder-claude-dim">
           <button @click="askCouncil()" :disabled="councilAsking || !councilInput.trim()"
             :class="councilAsking || !councilInput.trim() ? 'text-claude-dim border-claude-border cursor-not-allowed' : 'text-claude-orange border-claude-orange hover:bg-claude-orange hover:text-claude-bg'"

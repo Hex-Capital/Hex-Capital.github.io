@@ -409,7 +409,7 @@ function app() {
         let md = await resp.text();
         // Strip BOM
         md = md.replace(/^\uFEFF/, '');
-        const html = marked.parse(md);
+        const html = DOMPurify.sanitize(marked.parse(md));
         // Cap cache at 50 entries, evict oldest on overflow
         const keys = Object.keys(this.mdCache);
         if (keys.length >= 50) {

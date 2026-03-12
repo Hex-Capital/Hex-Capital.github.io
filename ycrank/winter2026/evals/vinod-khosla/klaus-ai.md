@@ -1,0 +1,24 @@
+﻿# Klaus AI -- Vinod Khosla Evaluation
+
+The entire managed OpenClaw hosting ecosystem generates approximately $120,000 per month across all providers. That's the number I keep coming back to. Not the projected $199 billion agentic AI TAM -- that belongs to the companies building the agents, the models, the reasoning architectures. Klaus is wrapping someone else's open-source project in a Docker container with some security tooling and selling access at what I'd estimate is $20-50 a month per instance. If Klaus captures every single customer in this subsegment -- a monopoly outcome -- the prize is roughly $1.4 million in annual revenue. Even if this market grows tenfold, which would require millions of non-technical users to adopt an AI agent that currently appeals primarily to developers, you're looking at a $14 million annual revenue pool split among 129-plus startups already competing for it. The consequence of success here is a small hosting business. I cannot write a check when the best possible outcome doesn't justify the founders' own time.
+
+And these founders deserve better problems. Robbie Thompson studied mathematics and computer science at Stanford, interned at Jane Street -- one of the most intellectually demanding trading firms in the world -- and was a founding engineer at Console, which raised $22 million from DST Global and Thrive Capital. Bailey Wickham built systems at Amazon, wrote fuzzers in Go and DNS clients in Rust, implemented containers from scratch in C. These are people with genuine engineering talent and quantitative depth. But they're applying that talent to a problem that any team with basic cloud infrastructure experience can solve. Five competitors are already doing essentially the same thing at comparable price points. MyClaw, SimpleOpenClaw, LobsterDesk, Moltworker -- the names tell you everything about the differentiation: there is none. When your competitive landscape is populated by companies that append the open-source project name to a random noun, you're not in a category-creating market. You're in a feature.
+
+The structural problem runs deeper than crowding. Klaus's entire value proposition depends on an open-source project maintained by a single creator. If OpenClaw's maintainer decides to commercialize directly, Klaus's business evaporates. If AWS or GCP offers a first-party managed OpenClaw service -- which they could build in weeks -- every independent hosting provider becomes irrelevant. I learned this lesson painfully: technology achievement without durable economic advantage is a trap. KiOR produced biofuel that worked, but the economics made it worthless. Here, the technology isn't even Klaus's -- it's OpenClaw's. Klaus is selling convenience on top of someone else's innovation, and convenience without a moat is a race to the lowest margin.
+
+The strongest bull case I can construct: AI agents are genuinely on an exponential trajectory, and OpenClaw's 68,000-plus GitHub stars suggest it could become the default personal AI agent for millions of non-technical users. If that happens, managed hosting becomes a massive market, and Klaus -- with YC backing, a security-first positioning, and founders who built AI agents at Console -- could become the Heroku of personal AI agents. There's a version of this where the timing is early, the market explodes, and Klaus rides the wave. But I don't invest in waves -- I invest in companies that create them. Heroku itself succeeded because it offered something fundamentally novel (git-push deployment when server configuration was genuinely painful). Managed OpenClaw hosting in 2026 is not that -- Docker deployment is commoditized, and the barrier Klaus eliminates is one that any competent DevOps engineer removes in an afternoon. The rate of change in AI agent capability is real and accelerating, but that tailwind benefits the agent builders, not the hosting wrappers.
+
+I'll tell these founders what I tell every team that's too talented for the problem they've chosen: go find the problem that keeps you up at night, the one where success would change how an industry operates, the one that people tell you is impossible. You've seen how AI agents work from the inside at Console. You understand the infrastructure, the failure modes, the security surface. Build the agent that makes OpenClaw obsolete -- don't host it. The consequence of that success would justify your skills and my capital. This doesn't.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Consequence Magnitude If Successful | 4/30 |
+| Founder Learning Rate and Contrarian Courage | 8/25 |
+| Technology Disruption Potential vs. Incumbent Systems | 4/20 |
+| Rate of Change and Timing Trajectory | 7/15 |
+| Gene Pool Engineering and Team Construction | 5/10 |
+| **Total** | **28/100** |
+
+**Total Score: 28/100** (Pass)

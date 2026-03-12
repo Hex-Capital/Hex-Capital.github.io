@@ -6901,6 +6901,40 @@
     },
     {
       "rank": 194,
+      "name": "Klaus AI",
+      "slug": "klaus-ai",
+      "scores": {
+        "CB": 29,
+        "EG": 30,
+        "NR": 29,
+        "PG": 35,
+        "PT": 20,
+        "SL": 19,
+        "VK": 28
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Strong Pass",
+        "VK": "Pass"
+      },
+      "avg": 27.14,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Tyler Bosmeny",
+      "oneLiner": "Fast and Safe OpenClaw on the cloud",
+      "industry": "B2B / B2B -> Infrastructure",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "AIOps",
+        "Deep Learning"
+      ]
+    },
+    {
+      "rank": 195,
       "name": "Resonate",
       "slug": "resonate",
       "scores": {
@@ -6931,7 +6965,7 @@
       "tags": []
     },
     {
-      "rank": 195,
+      "rank": 196,
       "name": "Syntropy",
       "slug": "syntropy",
       "scores": {
@@ -6968,7 +7002,7 @@
       ]
     },
     {
-      "rank": 196,
+      "rank": 197,
       "name": "Rubric AI",
       "slug": "rubric-ai",
       "scores": {
@@ -7002,40 +7036,6 @@
         "Big Data",
         "Infrastructure",
         "AI"
-      ]
-    },
-    {
-      "rank": 197,
-      "name": "Bits",
-      "slug": "bits-2",
-      "scores": {
-        "CB": 24,
-        "EG": 31,
-        "NR": 24,
-        "PG": 36,
-        "PT": 22,
-        "SL": 17,
-        "VK": 26
-      },
-      "tiers": {
-        "CB": "Pass",
-        "EG": "Pass",
-        "NR": "Pass",
-        "PG": "Pass",
-        "PT": "Pass",
-        "SL": "Strong Pass",
-        "VK": "Pass"
-      },
-      "avg": 25.71,
-      "revenue": null,
-      "teamSize": 2,
-      "ycPartner": "Tyler Bosmeny",
-      "oneLiner": "Fast and Safe OpenClaw on the cloud",
-      "industry": "B2B / B2B -> Infrastructure",
-      "location": "San Francisco, CA, USA",
-      "tags": [
-        "AIOps",
-        "Deep Learning"
       ]
     },
     {
@@ -7132,7 +7132,7 @@
         "NR": 0.62,
         "PG": 0.66,
         "PT": 0.71,
-        "SL": 0.73,
+        "SL": 0.72,
         "VK": 0.62
       }
     },
@@ -7157,7 +7157,7 @@
         "PG": 0.71,
         "PT": 0.81,
         "SL": 0.71,
-        "VK": 0.72
+        "VK": 0.71
       }
     },
     {
@@ -7187,7 +7187,7 @@
     {
       "persona": "SL",
       "values": {
-        "CB": 0.73,
+        "CB": 0.72,
         "EG": 0.51,
         "NR": 0.71,
         "PG": 0.57,
@@ -7201,7 +7201,7 @@
       "values": {
         "CB": 0.62,
         "EG": 0.42,
-        "NR": 0.72,
+        "NR": 0.71,
         "PG": 0.42,
         "PT": 0.78,
         "SL": 0.77,

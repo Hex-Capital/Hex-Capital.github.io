@@ -1,0 +1,75 @@
+{
+  "slug": "klaus-ai",
+  "name": "Klaus AI",
+  "oneLiner": "Fast and Safe OpenClaw on the cloud",
+  "metadata": {
+    "website": "https://klausai.com",
+    "yc_page": "https://www.ycombinator.com/companies/klaus-ai",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "AIOps, Deep Learning",
+    "yc_partner": "Tyler Bosmeny",
+    "emails": "founders@usebits.com, robbie@usebits.com"
+  },
+  "tags": [
+    "AIOps",
+    "Deep Learning"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-12T05:09:29.646Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 20,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 19,
+      "tier": "Strong Pass"
+    },
+    "vinod-khosla": {
+      "score": 28,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 29,
+    "EG": 30,
+    "NR": 29,
+    "PG": 35,
+    "PT": 20,
+    "SL": 19,
+    "VK": 28
+  },
+  "consolidatedAvg": 27.14,
+  "consolidatedRank": 194,
+  "paths": {
+    "memo": "winter2026/memos/klaus-ai.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/klaus-ai.md",
+      "elad-gil": "winter2026/evals/elad-gil/klaus-ai.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/klaus-ai.md",
+      "paul-graham": "winter2026/evals/paul-graham/klaus-ai.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/klaus-ai.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/klaus-ai.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/klaus-ai.md"
+    }
+  }
+}

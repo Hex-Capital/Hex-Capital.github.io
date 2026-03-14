@@ -1,6 +1,6 @@
 {
   "batch": "winter2026",
-  "companyCount": 199,
+  "companyCount": 198,
   "personas": [
     {
       "slug": "cyan-banister",
@@ -6581,43 +6581,6 @@
     },
     {
       "rank": 180,
-      "name": "Tensol",
-      "slug": "tensol",
-      "scores": {
-        "CB": 30,
-        "EG": 38,
-        "NR": 34,
-        "PG": 37,
-        "PT": 23,
-        "SL": 23,
-        "VK": 35
-      },
-      "tiers": {
-        "CB": "Pass",
-        "EG": "Pass",
-        "NR": "Pass",
-        "PG": "Pass",
-        "PT": "Pass",
-        "SL": "Pass",
-        "VK": "Pass"
-      },
-      "avg": 31.43,
-      "revenue": null,
-      "teamSize": 2,
-      "ycPartner": "Gustaf Alstromer",
-      "oneLiner": "AI Employees for your Business, Powered by OpenClaw",
-      "industry": "B2B / B2B -> Infrastructure",
-      "location": "San Francisco, CA, USA",
-      "tags": [
-        "Artificial Intelligence",
-        "B2B",
-        "Productivity",
-        "Enterprise Software"
-      ],
-      "scoreTips": {}
-    },
-    {
-      "rank": 181,
       "name": "Bubble Lab",
       "slug": "bubble-lab",
       "scores": {
@@ -6653,7 +6616,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 182,
+      "rank": 181,
       "name": "Booko",
       "slug": "booko",
       "scores": {
@@ -6690,7 +6653,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 183,
+      "rank": 182,
       "name": "Caretta",
       "slug": "caretta",
       "scores": {
@@ -6727,7 +6690,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 184,
+      "rank": 183,
       "name": "Talking Computers",
       "slug": "talking-computers",
       "scores": {
@@ -6761,7 +6724,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 185,
+      "rank": 184,
       "name": "Cofia",
       "slug": "cofia",
       "scores": {
@@ -6798,7 +6761,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 186,
+      "rank": 185,
       "name": "Pollen",
       "slug": "pollen",
       "scores": {
@@ -6835,7 +6798,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 187,
+      "rank": 186,
       "name": "Burt",
       "slug": "burt",
       "scores": {
@@ -6872,7 +6835,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 188,
+      "rank": 187,
       "name": "Sila",
       "slug": "sila",
       "scores": {
@@ -6907,7 +6870,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 189,
+      "rank": 188,
       "name": "Crow",
       "slug": "crow",
       "scores": {
@@ -6945,7 +6908,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 190,
+      "rank": 189,
       "name": "Sentrial",
       "slug": "sentrial",
       "scores": {
@@ -6982,7 +6945,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 191,
+      "rank": 190,
       "name": "Arzule",
       "slug": "arzule",
       "scores": {
@@ -7019,7 +6982,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 192,
+      "rank": 191,
       "name": "Lucent",
       "slug": "lucent",
       "scores": {
@@ -7055,7 +7018,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 193,
+      "rank": 192,
       "name": "Payna",
       "slug": "payna",
       "scores": {
@@ -7093,7 +7056,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 194,
+      "rank": 193,
       "name": "Klaus AI",
       "slug": "klaus-ai",
       "scores": {
@@ -7128,7 +7091,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 195,
+      "rank": 194,
       "name": "Resonate",
       "slug": "resonate",
       "scores": {
@@ -7160,7 +7123,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 196,
+      "rank": 195,
       "name": "Syntropy",
       "slug": "syntropy",
       "scores": {
@@ -7198,7 +7161,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 197,
+      "rank": 196,
       "name": "Rubric AI",
       "slug": "rubric-ai",
       "scores": {
@@ -7236,7 +7199,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 198,
+      "rank": 197,
       "name": "Approxima",
       "slug": "approxima",
       "scores": {
@@ -7272,7 +7235,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 199,
+      "rank": 198,
       "name": "Q2Q",
       "slug": "q2q",
       "scores": {
@@ -7329,7 +7292,7 @@
         "CB": null,
         "EG": 0.58,
         "NR": 0.62,
-        "PG": 0.66,
+        "PG": 0.65,
         "PT": 0.71,
         "SL": 0.72,
         "VK": 0.62
@@ -7353,7 +7316,7 @@
         "CB": 0.62,
         "EG": 0.63,
         "NR": null,
-        "PG": 0.71,
+        "PG": 0.7,
         "PT": 0.81,
         "SL": 0.71,
         "VK": 0.71
@@ -7362,13 +7325,13 @@
     {
       "persona": "PG",
       "values": {
-        "CB": 0.66,
+        "CB": 0.65,
         "EG": 0.76,
-        "NR": 0.71,
+        "NR": 0.7,
         "PG": null,
-        "PT": 0.63,
+        "PT": 0.62,
         "SL": 0.57,
-        "VK": 0.42
+        "VK": 0.41
       }
     },
     {
@@ -7377,7 +7340,7 @@
         "CB": 0.71,
         "EG": 0.56,
         "NR": 0.81,
-        "PG": 0.63,
+        "PG": 0.62,
         "PT": null,
         "SL": 0.86,
         "VK": 0.78
@@ -7401,7 +7364,7 @@
         "CB": 0.62,
         "EG": 0.42,
         "NR": 0.71,
-        "PG": 0.42,
+        "PG": 0.41,
         "PT": 0.78,
         "SL": 0.77,
         "VK": null

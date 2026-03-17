@@ -676,19 +676,19 @@
     },
     {
       "rank": 18,
-      "name": "DroneTector",
-      "slug": "dronetector",
+      "name": "Milliray (formerly DroneTector)",
+      "slug": "milliray",
       "scores": {
-        "CB": 41,
-        "EG": 54,
-        "NR": 60,
-        "PG": 64,
-        "PT": 50,
-        "SL": 52,
+        "CB": 48,
+        "EG": 58,
+        "NR": 57,
+        "PG": 55,
+        "PT": 49,
+        "SL": 57,
         "VK": 54
       },
       "tiers": {
-        "CB": "Pass",
+        "CB": "Neutral",
         "EG": "Neutral",
         "NR": "Neutral",
         "PG": "Neutral",
@@ -696,7 +696,7 @@
         "SL": "Neutral",
         "VK": "Neutral"
       },
-      "avg": 53.57,
+      "avg": 54,
       "revenue": null,
       "teamSize": 3,
       "ycPartner": "Tyler Bosmeny",
@@ -7280,6 +7280,11 @@
       "range": 10
     },
     {
+      "company": "Milliray (formerly DroneTector)",
+      "avg": 54,
+      "range": 10
+    },
+    {
       "company": "Travo",
       "avg": 32.29,
       "range": 9
@@ -7293,8 +7298,8 @@
         "EG": 0.58,
         "NR": 0.62,
         "PG": 0.65,
-        "PT": 0.71,
-        "SL": 0.72,
+        "PT": 0.72,
+        "SL": 0.73,
         "VK": 0.62
       }
     },
@@ -7304,7 +7309,7 @@
         "CB": 0.58,
         "EG": null,
         "NR": 0.63,
-        "PG": 0.76,
+        "PG": 0.75,
         "PT": 0.56,
         "SL": 0.51,
         "VK": 0.42
@@ -7326,18 +7331,18 @@
       "persona": "PG",
       "values": {
         "CB": 0.65,
-        "EG": 0.76,
+        "EG": 0.75,
         "NR": 0.7,
         "PG": null,
         "PT": 0.62,
-        "SL": 0.57,
+        "SL": 0.56,
         "VK": 0.41
       }
     },
     {
       "persona": "PT",
       "values": {
-        "CB": 0.71,
+        "CB": 0.72,
         "EG": 0.56,
         "NR": 0.81,
         "PG": 0.62,
@@ -7349,10 +7354,10 @@
     {
       "persona": "SL",
       "values": {
-        "CB": 0.72,
+        "CB": 0.73,
         "EG": 0.51,
         "NR": 0.71,
-        "PG": 0.57,
+        "PG": 0.56,
         "PT": 0.86,
         "SL": null,
         "VK": 0.77

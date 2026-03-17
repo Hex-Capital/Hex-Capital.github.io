@@ -1,0 +1,76 @@
+{
+  "slug": "milliray",
+  "name": "Milliray (formerly DroneTector)",
+  "oneLiner": "Technology to detect and track hostile drones",
+  "metadata": {
+    "website": "https://milliray.com/",
+    "yc_page": "https://www.ycombinator.com/companies/milliray",
+    "batch": "Winter 2026",
+    "industry": "Industrials / Industrials -> Drones",
+    "team_size": "3",
+    "location": "No public data found",
+    "tags": "Hard Tech, Drones, Radar",
+    "yc_partner": "Tyler Bosmeny",
+    "emails": "founders@dronetector.com, web-enquiries@dronetector.com"
+  },
+  "tags": [
+    "Hard Tech",
+    "Drones",
+    "Radar"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-17T17:49:34.960Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 54,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 48,
+    "EG": 58,
+    "NR": 57,
+    "PG": 55,
+    "PT": 49,
+    "SL": 57,
+    "VK": 54
+  },
+  "consolidatedAvg": 54,
+  "consolidatedRank": 18,
+  "paths": {
+    "memo": "winter2026/memos/milliray.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/milliray.md",
+      "elad-gil": "winter2026/evals/elad-gil/milliray.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/milliray.md",
+      "paul-graham": "winter2026/evals/paul-graham/milliray.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/milliray.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/milliray.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/milliray.md"
+    }
+  }
+}

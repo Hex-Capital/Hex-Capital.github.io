@@ -10,10 +10,10 @@ Hex Capital is a static venture capital portfolio site hosted on GitHub Pages at
 
 Any static file server works:
 ```
-python -m http.server 8000
-npx http-server
+python -m http.server 5000
+npx http-server -p 5000
 ```
-Then open `http://localhost:8000`. There is no build step.
+Then open `http://localhost:5000`. There is no build step.
 
 ## Deployment
 

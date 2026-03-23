@@ -138,7 +138,85 @@
         </div>
       </a>
 
+      <a href="https://www.usekita.com" target="_blank" rel="noopener" class="portfolio-card">
+        <div class="card-logo-wrap">
+          <img src="logos/kita.png" alt="Kita">
+        </div>
+
+        <div class="card-overlay">
+          <div class="overlay-name">Kita</div>
+          <div class="overlay-desc">Document intelligence platform for lenders in emerging markets.</div>
+        </div>
+      </a>
+
     </div>
+
+      <div class="restaurant-intro">
+        <h2>Restaurants</h2>
+        <a href="#restaurant-grid">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="white" stroke-width="1.5">
+            <polyline points="4,7 10,13 16,7"></polyline>
+          </svg>
+        </a>
+      </div>
+      <div class="portfolio-grid" id="restaurant-grid">
+
+      <a href="https://www.originaljoes.com/walnut-creek" target="_blank" rel="noopener" class="portfolio-card">
+        <div class="card-logo-wrap">
+          <img src="logos/original-joes.png" alt="Original Joe's">
+        </div>
+
+        <div class="card-overlay">
+          <div class="overlay-name">Original Joe's (Walnut Creek)</div>
+          <div class="overlay-desc">Classic Italian-American comfort food.</div>
+        </div>
+      </a>
+
+      <a href="https://www.littleoriginaljoes.com/loj-marina" target="_blank" rel="noopener" class="portfolio-card">
+        <div class="card-logo-wrap">
+          <img src="logos/little-original-joes.png" alt="Little Original Joe's">
+        </div>
+
+        <div class="card-overlay">
+          <div class="overlay-name">Little Original Joe's (Marina)</div>
+          <div class="overlay-desc">An Italian-American full service neighborhood eatery.</div>
+        </div>
+      </a>
+
+      <a href="https://www.elenasmexican.com" target="_blank" rel="noopener" class="portfolio-card">
+        <div class="card-logo-wrap">
+          <img src="logos/elenas.png" alt="Elena's">
+        </div>
+
+        <div class="card-overlay">
+          <div class="overlay-name">Elena's (West Portal)</div>
+          <div class="overlay-desc">Family-inspired Mexican-American cuisine in West Portal.</div>
+        </div>
+      </a>
+
+      <a href="https://www.kaiyosf.com/rooftop" target="_blank" rel="noopener" class="portfolio-card">
+        <div class="card-logo-wrap">
+          <img src="logos/kaiyo-rooftop.png" alt="Kaiyō Rooftop">
+        </div>
+
+        <div class="card-overlay">
+          <div class="overlay-name">Kaiyō Rooftop (SOMA)</div>
+          <div class="overlay-desc">Nikkei rooftop bar with skyline views near Oracle Park.</div>
+        </div>
+      </a>
+
+      <a href="https://www.nocrumbscookie.com" target="_blank" rel="noopener" class="portfolio-card">
+        <div class="card-logo-wrap">
+          <img src="logos/no-crumbs.png" alt="No Crumbs">
+        </div>
+
+        <div class="card-overlay">
+          <div class="overlay-name">No Crumbs</div>
+          <div class="overlay-desc">Small-batch artisan cookies with a funky fresh spin.</div>
+        </div>
+      </a>
+
+      </div>
   </section>
 
   <div class="hero-contact">
@@ -161,6 +239,19 @@
   <div id="portfolio-label" aria-hidden="true">Portfolio</div>
 
   <script src="constellation.js"></script>
+  <script>
+  // Auto-size square logos
+  document.querySelectorAll('.card-logo-wrap img').forEach(function(img) {
+    function check() {
+      if (img.naturalWidth && img.naturalHeight &&
+          img.naturalWidth / img.naturalHeight < 1.75) {
+        img.classList.add('square-logo');
+      }
+    }
+    if (img.complete) check();
+    else img.addEventListener('load', check);
+  });
+  </script>
   <script>
   (function () {
     var indicatorSpan = document.querySelector('.scroll-indicator span');
@@ -216,6 +307,38 @@
 
     window.addEventListener('scroll', onScroll, { passive: true });
     measure();
+    onScroll();
+  })();
+
+  // Restaurant intro — chevron fades, title grows as it scrolls into view
+  (function () {
+    var intro = document.querySelector('.restaurant-intro');
+    if (!intro) return;
+    var chevron = intro.querySelector('svg');
+    var title = intro.querySelector('h2');
+
+    function lerp(a, b, t) {
+      return a + (b - a) * t;
+    }
+
+    function onScroll() {
+      var rect = intro.getBoundingClientRect();
+      var vh = window.innerHeight;
+
+      // t: 0 when element enters viewport bottom, 1 when at 50% viewport height
+      var t = Math.max(0, Math.min(1, (vh - rect.top) / (vh * 0.5)));
+
+      // Title: 10px/0.2em/0.5 → 13px/0.25em/0.7 (mirrors portfolio label)
+      title.style.fontSize = lerp(10, 13, t) + 'px';
+      title.style.letterSpacing = lerp(0.2, 0.25, t) + 'em';
+      title.style.opacity = lerp(0.5, 0.7, t);
+
+      // Chevron fades over first 40%
+      var chevronT = Math.min(1, t / 0.4);
+      chevron.style.opacity = 0.5 * (1 - chevronT);
+    }
+
+    window.addEventListener('scroll', onScroll, { passive: true });
     onScroll();
   })();
   </script>

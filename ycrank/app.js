@@ -1,5 +1,12 @@
 // YCRank Dashboard - Application Logic
 
+function formatRevenue(val) {
+  if (val == null) return '-';
+  if (val >= 1_000_000) return '$' + (val / 1_000_000).toFixed(1).replace(/\.0$/, '') + 'M';
+  if (val >= 1_000) return '$' + Math.round(val / 1_000) + 'K';
+  return '$' + val;
+}
+
 function app() {
   return {
     // State

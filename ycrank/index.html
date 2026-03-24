@@ -180,7 +180,7 @@
                 <td class="px-1.5 py-1 text-center tabular-nums text-claude-dim border border-claude-border"
                   x-text="row.teamSize != null ? row.teamSize : '-'"></td>
                 <td class="px-1.5 py-1 text-center tabular-nums text-claude-dim border border-claude-border"
-                  x-text="row.revenue != null ? row.revenue : '-'"></td>
+                  x-text="formatRevenue(row.revenue)"></td>
                 <td class="px-1.5 py-1 text-claude-dim border border-claude-border hidden lg:table-cell truncate max-w-[120px]"
                   x-text="row.ycPartner || '-'"></td>
                 <template x-for="p in personas" :key="p.abbr">
@@ -277,7 +277,7 @@
                           </div>
                           <div class="v1-meta-cell">
                             <span class="v1-meta-label">arr</span>
-                            <span class="v1-meta-value" x-text="mobileCards[slideIdx].revenue != null ? mobileCards[slideIdx].revenue : '-'"></span>
+                            <span class="v1-meta-value" x-text="formatRevenue(mobileCards[slideIdx].revenue)"></span>
                           </div>
                         </div>
                       </div>

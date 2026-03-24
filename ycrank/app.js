@@ -8,7 +8,7 @@ function app() {
     manifest: null,
     personas: [],
     loading: true,
-    view: 'dashboard', // dashboard | company | analytics | traction
+    view: 'dashboard', // dashboard | company | analytics
 
     // Dashboard state
     search: '',
@@ -21,9 +21,6 @@ function app() {
     tabContent: '',
     tabLoading: false,
     mdCache: {}, // path -> rendered html
-
-    // Traction state
-    tractionData: null,
 
     // Council state
     councilOpen: false,
@@ -288,7 +285,6 @@ function app() {
         // Clear caches
         this.mdCache = {};
         this.companyData = null;
-        this.tractionData = null;
         this.mobileCardIndex = 0;
       } catch (e) {
         console.error('Failed to load batch:', e);
@@ -313,9 +309,6 @@ function app() {
       } else if (parts[0] === 'analytics') {
         this.councilOpen = false;
         this.view = 'analytics';
-      } else if (parts[0] === 'traction') {
-        this.councilOpen = false;
-        this.showTraction();
       } else {
         this.councilOpen = false;
         this.view = 'dashboard';
@@ -618,22 +611,6 @@ function app() {
       if (next && next.slug) this.navigate('company/' + next.slug);
     },
 
-    // --- Traction ---
-
-    async showTraction() {
-      this.view = 'traction';
-      if (this.tractionData) return;
-
-      try {
-        const resp = await fetch(`data/${this.currentBatch}/slides/traction.json`);
-        if (!resp.ok) throw new Error('Traction data not found');
-        this.tractionData = await resp.json();
-      } catch (e) {
-        console.error('Failed to load traction data:', e);
-        this.tractionData = null;
-      }
-    },
-
     // --- Council ---
 
     openCouncil() {
@@ -923,12 +900,6 @@ function app() {
       const cat = this.avgTierCategory(avg);
       const entry = cat ? this.COLOR_PALETTE[cat] : null;
       return entry ? entry.suffix : 'dim';
-    },
-
-    tractionTierColor(tierName) {
-      if (tierName.toLowerCase().includes('strong')) return 'text-claude-green';
-      if (tierName.toLowerCase().includes('moderate')) return 'text-claude-amber';
-      return 'text-claude-gray';
     },
 
     // --- Mobile card swipe ---

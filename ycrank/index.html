@@ -85,14 +85,6 @@
         <button @click="navigate('analytics')"
           :class="view === 'analytics' ? 'bg-claude-orange text-claude-bg px-1.5 sm:px-2 py-1.5' : 'text-claude-text hover:text-claude-orange px-1.5 sm:px-2 py-1.5'"
           class="transition-colors font-mono hidden sm:inline">Analytics</button>
-        <template x-if="manifest && manifest.hasTraction">
-          <span class="hidden xs:flex items-center">
-            <span class="text-claude-border">|</span>
-            <button @click="navigate('traction')"
-              :class="view === 'traction' ? 'bg-claude-orange text-claude-bg px-1.5 sm:px-2 py-1.5' : 'text-claude-text hover:text-claude-orange px-1.5 sm:px-2 py-1.5'"
-              class="transition-colors font-mono">Traction</button>
-          </span>
-        </template>
         <span class="text-claude-border hidden sm:inline">|</span>
         <span class="text-claude-gray px-1.5 sm:px-2 hidden sm:inline" x-show="manifest" x-text="manifest ? manifest.companyCount + ' companies' : ''"></span>
         <span class="text-claude-border hidden sm:inline">|</span>
@@ -597,46 +589,6 @@
               </tbody>
             </table>
           </div>
-        </div>
-      </template>
-    </div>
-
-    <!-- Traction View -->
-    <div x-show="view === 'traction' && !loading" x-cloak>
-      <template x-if="tractionData">
-        <div>
-          <h2 class="text-lg font-bold mb-4 text-claude-orange">--- Traction Rankings ---</h2>
-          <template x-for="tier in tractionData.tiers" :key="tier.tierName">
-            <div class="mb-4">
-              <h3 class="text-sm font-bold mb-1" :class="tractionTierColor(tier.tierName)"
-                x-text="'>> ' + tier.tierName"></h3>
-              <div class="overflow-x-auto">
-              <table class="w-full text-sm terminal-table">
-                <thead>
-                  <tr class="border-b border-claude-border">
-                    <th class="px-1.5 py-1 text-left text-claude-gray w-8 border border-claude-border">#</th>
-                    <th class="px-1.5 py-1 text-left text-claude-gray border border-claude-border">Company</th>
-                    <th class="px-1.5 py-1 text-left text-claude-gray border border-claude-border">Key Metric</th>
-                    <th class="px-1.5 py-1 text-left text-claude-gray border border-claude-border">Value</th>
-                    <th class="px-1.5 py-1 text-left text-claude-gray border border-claude-border">Growth</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <template x-for="c in tier.companies" :key="c.company">
-                    <tr class="border-b border-claude-border hover:bg-claude-panel cursor-pointer transition-colors"
-                      @click="c.slug && navigate('company/' + c.slug)">
-                      <td class="px-1.5 py-1 text-claude-dim tabular-nums border border-claude-border" x-text="c.rank || ''"></td>
-                      <td class="px-1.5 py-1 text-claude-text font-medium border border-claude-border" x-text="c.company"></td>
-                      <td class="px-1.5 py-1 text-claude-orange border border-claude-border" x-text="c.keyMetric"></td>
-                      <td class="px-1.5 py-1 text-claude-orange border border-claude-border" x-text="c.value"></td>
-                      <td class="px-1.5 py-1 text-claude-dim border border-claude-border" x-text="c.growth"></td>
-                    </tr>
-                  </template>
-                </tbody>
-              </table>
-              </div>
-            </div>
-          </template>
         </div>
       </template>
     </div>

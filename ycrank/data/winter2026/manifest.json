@@ -3225,38 +3225,6 @@
     },
     {
       "rank": 88,
-      "name": "Fixture",
-      "slug": "fixture",
-      "scores": {
-        "CB": 31,
-        "EG": 46,
-        "NR": 52,
-        "PG": 57,
-        "PT": 35,
-        "SL": 28,
-        "VK": null
-      },
-      "tiers": {
-        "CB": "Pass",
-        "EG": "Neutral",
-        "NR": "Neutral",
-        "PG": "Neutral",
-        "PT": "Pass",
-        "SL": "Pass",
-        "VK": null
-      },
-      "avg": 41.5,
-      "revenue": null,
-      "teamSize": 5,
-      "ycPartner": "Jared Friedman",
-      "oneLiner": "An AI-first CRM built for Startups",
-      "industry": "B2B / B2B -> Sales",
-      "location": "",
-      "tags": [],
-      "scoreTips": {}
-    },
-    {
-      "rank": 89,
       "name": "Lexius",
       "slug": "lexius",
       "scores": {
@@ -3294,7 +3262,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 90,
+      "rank": 89,
       "name": "MochaCare",
       "slug": "mochacare",
       "scores": {
@@ -3332,7 +3300,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 91,
+      "rank": 90,
       "name": "21st",
       "slug": "21st",
       "scores": {
@@ -3370,7 +3338,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 92,
+      "rank": 91,
       "name": "Clam (formerly Baseframe)",
       "slug": "clam",
       "scores": {
@@ -3407,7 +3375,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 93,
+      "rank": 92,
       "name": "Fern (Formerly Ishiki Labs)",
       "slug": "ishikilabs",
       "scores": {
@@ -3443,7 +3411,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 94,
+      "rank": 93,
       "name": "Mango Medical",
       "slug": "mango-medical-inc",
       "scores": {
@@ -3479,7 +3447,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 95,
+      "rank": 94,
       "name": "Remy AI",
       "slug": "remy-ai",
       "scores": {
@@ -3513,6 +3481,38 @@
         "Logistics",
         "Supply Chain"
       ],
+      "scoreTips": {}
+    },
+    {
+      "rank": 95,
+      "name": "Fixture",
+      "slug": "fixture",
+      "scores": {
+        "CB": 31,
+        "EG": 46,
+        "NR": 52,
+        "PG": 57,
+        "PT": 35,
+        "SL": 28,
+        "VK": 37
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 40.86,
+      "revenue": null,
+      "teamSize": 5,
+      "ycPartner": "Jared Friedman",
+      "oneLiner": "An AI-first CRM built for Startups",
+      "industry": "B2B / B2B -> Sales",
+      "location": "",
+      "tags": [],
       "scoreTips": {}
     },
     {
@@ -7209,7 +7209,7 @@
         "PG": 30,
         "PT": 21,
         "SL": 22,
-        "VK": null
+        "VK": 25
       },
       "tiers": {
         "CB": "Pass",
@@ -7218,9 +7218,9 @@
         "PG": "Pass",
         "PT": "Strong Pass",
         "SL": "Strong Pass",
-        "VK": null
+        "VK": "Pass"
       },
-      "avg": 25.83,
+      "avg": 25.71,
       "revenue": null,
       "teamSize": 0,
       "ycPartner": "Jared Friedman",
@@ -7320,6 +7320,11 @@
       "company": "Travo",
       "avg": 32.29,
       "range": 9
+    },
+    {
+      "company": "Remix",
+      "avg": 25.71,
+      "range": 10
     }
   ],
   "correlationMatrix": [
@@ -7344,7 +7349,7 @@
         "PG": 0.75,
         "PT": 0.56,
         "SL": 0.51,
-        "VK": 0.41
+        "VK": 0.42
       }
     },
     {
@@ -7368,7 +7373,7 @@
         "PG": null,
         "PT": 0.62,
         "SL": 0.56,
-        "VK": 0.4
+        "VK": 0.41
       }
     },
     {
@@ -7399,9 +7404,9 @@
       "persona": "VK",
       "values": {
         "CB": 0.62,
-        "EG": 0.41,
+        "EG": 0.42,
         "NR": 0.71,
-        "PG": 0.4,
+        "PG": 0.41,
         "PT": 0.78,
         "SL": 0.77,
         "VK": null

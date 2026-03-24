@@ -39,6 +39,10 @@
     "sam-lessin": {
       "score": 22,
       "tier": "Strong Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -48,9 +52,9 @@
     "PG": 30,
     "PT": 21,
     "SL": 22,
-    "VK": null
+    "VK": 25
   },
-  "consolidatedAvg": 25.83,
+  "consolidatedAvg": 25.71,
   "consolidatedRank": 197,
   "paths": {
     "memo": "winter2026/memos/remix-3.md",
@@ -60,7 +64,8 @@
       "naval-ravikant": "winter2026/evals/naval-ravikant/remix-3.md",
       "paul-graham": "winter2026/evals/paul-graham/remix-3.md",
       "peter-thiel": "winter2026/evals/peter-thiel/remix-3.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/remix-3.md"
+      "sam-lessin": "winter2026/evals/sam-lessin/remix-3.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/remix-3.md"
     }
   }
 }

@@ -38,6 +38,10 @@
     "sam-lessin": {
       "score": 28,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 37,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -47,10 +51,10 @@
     "PG": 57,
     "PT": 35,
     "SL": 28,
-    "VK": null
+    "VK": 37
   },
-  "consolidatedAvg": 41.5,
-  "consolidatedRank": 88,
+  "consolidatedAvg": 40.86,
+  "consolidatedRank": 95,
   "paths": {
     "memo": "winter2026/memos/fixture.md",
     "evals": {
@@ -59,7 +63,8 @@
       "naval-ravikant": "winter2026/evals/naval-ravikant/fixture.md",
       "paul-graham": "winter2026/evals/paul-graham/fixture.md",
       "peter-thiel": "winter2026/evals/peter-thiel/fixture.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/fixture.md"
+      "sam-lessin": "winter2026/evals/sam-lessin/fixture.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/fixture.md"
     }
   }
 }

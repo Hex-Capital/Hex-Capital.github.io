@@ -19,7 +19,7 @@
     "Sales Enablement",
     "AI Assistant"
   ],
-  "slideImage": null,
+  "slideImage": "winter2026/slides/images/caretta.jpg",
   "memoGeneratedAt": "2026-02-28T04:24:14.171Z",
   "evalScores": {
     "cyan-banister": {
@@ -61,7 +61,7 @@
     "VK": 38
   },
   "consolidatedAvg": 31.14,
-  "consolidatedRank": 182,
+  "consolidatedRank": 183,
   "paths": {
     "memo": "winter2026/memos/caretta.md",
     "evals": {

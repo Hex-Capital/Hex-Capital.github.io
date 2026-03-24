@@ -20,7 +20,7 @@
     "Workflow Automation",
     "Productivity"
   ],
-  "slideImage": null,
+  "slideImage": "winter2026/slides/images/o11.jpg",
   "memoGeneratedAt": "2026-03-06T05:42:56.885Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,7 +62,7 @@
     "VK": 40
   },
   "consolidatedAvg": 39,
-  "consolidatedRank": 115,
+  "consolidatedRank": 116,
   "paths": {
     "memo": "winter2026/memos/o11.md",
     "evals": {

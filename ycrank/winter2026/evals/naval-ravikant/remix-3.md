@@ -1,0 +1,24 @@
+﻿# Remix -- Naval Ravikant Evaluation
+
+The AI content generation market is sending you a signal, and the signal is: the asymmetric upside has already been priced away. Jasper raised $131M, peaked at $120M revenue, cratered to $55M, and is clawing back to $88M. Copy.ai got acquired. Canva, HubSpot, and Hootsuite are bolting AI content features onto platforms with hundreds of millions of existing users. This is not a market where smart people disagree with you -- this is a market where everyone agrees, and that agreement is precisely the problem. When I invested in Bitcoin in 2014 or Uber in 2010, the consensus was that I was wrong. Here the consensus is that AI generates content well. The opportunity has been fully legible for two years. You don't get paid for being right when everyone else is also right.
+
+The specific knowledge question is where this falls apart for me. Sam Kaplan is clearly a capable engineer -- Harvard CS, scaling Brex from $1.3B to $12B valuation as an engineering manager, hands-on with LLMs since the GPT-3 beta. That's a strong technical resume. But what does he know about content creation that can't be taught? The filmmaking hobby (15 short films) is suggestive but thin. I don't see years of obsessive immersion in creator workflows, social media distribution mechanics, or the specific pain of producing multi-platform content at scale. His trajectory -- GPTTok, then ChatSF, then Resonate Chat, now Remix -- reads as a smart engineer iterating through consumer AI concepts, searching for the one that sticks. That's a legitimate strategy for finding product-market fit, but it's the opposite of the founder-problem authenticity I look for. The best founders I've backed weren't searching for problems; they were already living inside one.
+
+The leverage test reveals the structural weakness. Remix is an application-layer wrapper on LLM APIs. The leverage -- turning voice into multi-format content -- comes from the underlying models (Claude, GPT, image generators, video models), not from anything Remix itself creates. Compare this to Replit, which created a new category of code leverage for people who never would have programmed. Or Stack Overflow, which built a knowledge graph that compounded with every question. Remix isn't creating a new form of leverage; it's repackaging existing leverage with a voice-first input layer and parallel execution. That's a UX improvement, not an infrastructure play. My portfolio is dominated by picks-and-shovels companies -- the platforms underneath, not the applications on top. This sits on the wrong side of that line.
+
+The strongest bull case would require believing three things simultaneously: that voice-first input is a genuine paradigm shift (not just a convenience feature), that accumulated user style data will create meaningful switching costs before incumbents add the same capability, and that the multi-agent orchestration architecture represents technical depth that compounds over time. If all three are true, Remix could become the default "speak and publish" tool for a generation of creators who find even Canva too effortful. Sam's early LLM experience and engineering depth would give him a legitimate six-month head start in building that orchestration layer. The consumer AI app market hasn't produced a clear winner for individual content creation -- there's a real gap between ChatGPT (too generic) and Jasper (too enterprise). But each of those premises is fragile. Voice input is a feature any competitor ships in a sprint. Style data requires months of retained usage to matter, and the app has one rating. And multi-agent orchestration is an engineering pattern, not a defensible technology -- the frameworks are open source and the APIs are the same for everyone.
+
+The compound of solo founder, pivot history, name collision with at least three other "Remix" products, and a market that's actively consolidating around well-funded incumbents makes this a clear pass. The technology doesn't compound, the market isn't contrarian, and the founder's knowledge -- while real in engineering -- isn't specific to the problem being solved. I want to back founders who know something that can't be replicated by a smart generalist with six months of research. AI content generation in 2026 is the exact category where smart generalists with six months of research are the competition.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Specific Knowledge and Founder-Problem Authenticity | 8/30 |
+| Leverage Architecture and Scalability of the Model | 10/25 |
+| Contrarian Positioning and Non-Consensus Timing | 4/20 |
+| Founder Integrity and Long-Term Orientation | 6/15 |
+| Technical Compounding and Defensibility Over Time | 3/10 |
+| **Total** | **31/100** |
+
+**Total Score: 31/100** (Pass)

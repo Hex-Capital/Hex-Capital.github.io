@@ -19,7 +19,7 @@
     "Home Services",
     "Operations"
   ],
-  "slideImage": null,
+  "slideImage": "winter2026/slides/images/ressl-ai.jpg",
   "memoGeneratedAt": "2026-03-03T23:05:09.033Z",
   "evalScores": {
     "cyan-banister": {
@@ -61,7 +61,7 @@
     "VK": 40
   },
   "consolidatedAvg": 37.71,
-  "consolidatedRank": 131,
+  "consolidatedRank": 132,
   "paths": {
     "memo": "winter2026/memos/ressl-ai.md",
     "evals": {

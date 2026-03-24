@@ -19,7 +19,7 @@
     "Sustainability",
     "Proptech"
   ],
-  "slideImage": null,
+  "slideImage": "winter2026/slides/images/inviscid-ai.jpg",
   "memoGeneratedAt": "2026-03-06T06:01:00.734Z",
   "evalScores": {
     "cyan-banister": {
@@ -61,7 +61,7 @@
     "VK": 43
   },
   "consolidatedAvg": 34.29,
-  "consolidatedRank": 155,
+  "consolidatedRank": 156,
   "paths": {
     "memo": "winter2026/memos/inviscid-ai.md",
     "evals": {

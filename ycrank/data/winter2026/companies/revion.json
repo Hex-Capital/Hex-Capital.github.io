@@ -17,7 +17,7 @@
     "AI",
     "Automotive"
   ],
-  "slideImage": null,
+  "slideImage": "winter2026/slides/images/revion.jpg",
   "memoGeneratedAt": "2026-03-09T16:27:46.415Z",
   "evalScores": {
     "cyan-banister": {
@@ -59,7 +59,7 @@
     "VK": 40
   },
   "consolidatedAvg": 40.71,
-  "consolidatedRank": 97,
+  "consolidatedRank": 98,
   "paths": {
     "memo": "winter2026/memos/revion.md",
     "evals": {

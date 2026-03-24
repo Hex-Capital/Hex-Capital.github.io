@@ -20,7 +20,7 @@
     "Data Engineering",
     "DevOps"
   ],
-  "slideImage": null,
+  "slideImage": "winter2026/slides/images/ashr.jpg",
   "memoGeneratedAt": "2026-03-05T07:09:15.330Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,7 +62,7 @@
     "VK": 34
   },
   "consolidatedAvg": 32.86,
-  "consolidatedRank": 168,
+  "consolidatedRank": 169,
   "paths": {
     "memo": "winter2026/memos/ashr.md",
     "evals": {

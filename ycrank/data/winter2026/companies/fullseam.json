@@ -19,7 +19,7 @@
     "Fintech",
     "SaaS"
   ],
-  "slideImage": null,
+  "slideImage": "winter2026/slides/images/fullseam.jpg",
   "memoGeneratedAt": "2026-03-06T05:57:25.231Z",
   "evalScores": {
     "cyan-banister": {
@@ -61,7 +61,7 @@
     "VK": 37
   },
   "consolidatedAvg": 40.71,
-  "consolidatedRank": 96,
+  "consolidatedRank": 97,
   "paths": {
     "memo": "winter2026/memos/fullseam.md",
     "evals": {

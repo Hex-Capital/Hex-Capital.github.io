@@ -19,7 +19,7 @@
     "Customer Support",
     "SMS"
   ],
-  "slideImage": null,
+  "slideImage": "winter2026/slides/images/return-signals.jpg",
   "memoGeneratedAt": "2026-03-06T06:10:37.556Z",
   "evalScores": {
     "cyan-banister": {
@@ -61,7 +61,7 @@
     "VK": 37
   },
   "consolidatedAvg": 37.57,
-  "consolidatedRank": 133,
+  "consolidatedRank": 134,
   "paths": {
     "memo": "winter2026/memos/return-signals.md",
     "evals": {

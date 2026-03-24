@@ -18,7 +18,7 @@
     "Video",
     "Infrastructure"
   ],
-  "slideImage": null,
+  "slideImage": "winter2026/slides/images/shortkit.jpg",
   "memoGeneratedAt": "2026-03-09T22:05:19.819Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,7 +60,7 @@
     "VK": 39
   },
   "consolidatedAvg": 40.57,
-  "consolidatedRank": 98,
+  "consolidatedRank": 99,
   "paths": {
     "memo": "winter2026/memos/shortkit.md",
     "evals": {

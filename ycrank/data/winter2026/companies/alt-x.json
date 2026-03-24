@@ -17,7 +17,7 @@
     "Fintech",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "winter2026/slides/images/alt-x.jpg",
   "memoGeneratedAt": "2026-03-09T23:21:50.772Z",
   "evalScores": {
     "cyan-banister": {
@@ -59,7 +59,7 @@
     "VK": 31
   },
   "consolidatedAvg": 35.14,
-  "consolidatedRank": 148,
+  "consolidatedRank": 149,
   "paths": {
     "memo": "winter2026/memos/alt-x.md",
     "evals": {

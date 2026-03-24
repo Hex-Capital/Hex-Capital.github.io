@@ -18,7 +18,7 @@
     "Real Estate",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "winter2026/slides/images/travo.jpg",
   "memoGeneratedAt": "2026-03-06T06:05:11.598Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,7 +60,7 @@
     "VK": 33
   },
   "consolidatedAvg": 32.29,
-  "consolidatedRank": 174,
+  "consolidatedRank": 175,
   "paths": {
     "memo": "winter2026/memos/travo.md",
     "evals": {

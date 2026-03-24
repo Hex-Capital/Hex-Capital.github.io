@@ -18,7 +18,7 @@
     "Manufacturing",
     "Supply Chain"
   ],
-  "slideImage": null,
+  "slideImage": "winter2026/slides/images/usereframe.jpg",
   "memoGeneratedAt": "2026-02-28T04:28:27.309Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,7 +60,7 @@
     "VK": 38
   },
   "consolidatedAvg": 39.43,
-  "consolidatedRank": 113,
+  "consolidatedRank": 114,
   "paths": {
     "memo": "winter2026/memos/usereframe.md",
     "evals": {

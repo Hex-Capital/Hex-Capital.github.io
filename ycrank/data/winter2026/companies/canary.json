@@ -19,7 +19,7 @@
     "SaaS",
     "B2B"
   ],
-  "slideImage": null,
+  "slideImage": "winter2026/slides/images/canary.jpg",
   "memoGeneratedAt": "2026-03-03T23:01:27.477Z",
   "evalScores": {
     "cyan-banister": {
@@ -61,7 +61,7 @@
     "VK": 44
   },
   "consolidatedAvg": 39.71,
-  "consolidatedRank": 108,
+  "consolidatedRank": 109,
   "paths": {
     "memo": "winter2026/memos/canary.md",
     "evals": {

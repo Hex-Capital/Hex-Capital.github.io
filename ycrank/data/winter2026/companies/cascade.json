@@ -20,7 +20,7 @@
     "Trust & Safety",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "winter2026/slides/images/cascade.jpg",
   "memoGeneratedAt": "2026-03-05T01:09:41.378Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,7 +62,7 @@
     "VK": 42
   },
   "consolidatedAvg": 36.14,
-  "consolidatedRank": 139,
+  "consolidatedRank": 140,
   "paths": {
     "memo": "winter2026/memos/cascade.md",
     "evals": {

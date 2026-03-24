@@ -20,7 +20,7 @@
     "B2B",
     "Cryptocurrency"
   ],
-  "slideImage": null,
+  "slideImage": "winter2026/slides/images/zerosettle.jpg",
   "memoGeneratedAt": "2026-03-05T01:06:40.064Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,7 +62,7 @@
     "VK": 38
   },
   "consolidatedAvg": 40.57,
-  "consolidatedRank": 100,
+  "consolidatedRank": 101,
   "paths": {
     "memo": "winter2026/memos/zerosettle.md",
     "evals": {

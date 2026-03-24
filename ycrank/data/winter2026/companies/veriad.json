@@ -18,7 +18,7 @@
     "Compliance",
     "Marketing"
   ],
-  "slideImage": null,
+  "slideImage": "winter2026/slides/images/veriad.jpg",
   "memoGeneratedAt": "2026-02-27T15:59:29.350Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,7 +60,7 @@
     "VK": 36
   },
   "consolidatedAvg": 37.29,
-  "consolidatedRank": 134,
+  "consolidatedRank": 135,
   "paths": {
     "memo": "winter2026/memos/veriad.md",
     "evals": {

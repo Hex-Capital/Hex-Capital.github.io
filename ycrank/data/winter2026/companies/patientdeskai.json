@@ -19,7 +19,7 @@
     "Conversational AI",
     "AI Assistant"
   ],
-  "slideImage": null,
+  "slideImage": "winter2026/slides/images/patientdeskai.jpg",
   "memoGeneratedAt": "2026-02-28T04:35:13.166Z",
   "evalScores": {
     "cyan-banister": {
@@ -61,7 +61,7 @@
     "VK": 36
   },
   "consolidatedAvg": 38.57,
-  "consolidatedRank": 122,
+  "consolidatedRank": 123,
   "paths": {
     "memo": "winter2026/memos/patientdeskai.md",
     "evals": {

@@ -18,7 +18,7 @@
     "Reinforcement Learning",
     "Workflow Automation"
   ],
-  "slideImage": null,
+  "slideImage": "winter2026/slides/images/synthetic-sciences.jpg",
   "memoGeneratedAt": "2026-02-28T04:36:45.503Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,7 +60,7 @@
     "VK": 46
   },
   "consolidatedAvg": 38.43,
-  "consolidatedRank": 124,
+  "consolidatedRank": 125,
   "paths": {
     "memo": "winter2026/memos/synthetic-sciences.md",
     "evals": {

@@ -20,7 +20,7 @@
     "Enterprise",
     "AI Assistant"
   ],
-  "slideImage": null,
+  "slideImage": "winter2026/slides/images/crow.jpg",
   "memoGeneratedAt": "2026-02-28T04:14:22.962Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,7 +62,7 @@
     "VK": 28
   },
   "consolidatedAvg": 29.57,
-  "consolidatedRank": 188,
+  "consolidatedRank": 189,
   "paths": {
     "memo": "winter2026/memos/crow.md",
     "evals": {

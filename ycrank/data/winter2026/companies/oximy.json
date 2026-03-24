@@ -18,7 +18,7 @@
     "Security",
     "Enterprise Software"
   ],
-  "slideImage": null,
+  "slideImage": "winter2026/slides/images/oximy.jpg",
   "memoGeneratedAt": "2026-02-28T04:23:03.856Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,7 +60,7 @@
     "VK": 40
   },
   "consolidatedAvg": 39.71,
-  "consolidatedRank": 110,
+  "consolidatedRank": 111,
   "paths": {
     "memo": "winter2026/memos/oximy.md",
     "evals": {

@@ -17,7 +17,7 @@
     "Reinforcement Learning",
     "Operations"
   ],
-  "slideImage": null,
+  "slideImage": "winter2026/slides/images/haladir.jpg",
   "memoGeneratedAt": "2026-03-06T05:59:30.469Z",
   "evalScores": {
     "cyan-banister": {
@@ -59,7 +59,7 @@
     "VK": 57
   },
   "consolidatedAvg": 38.57,
-  "consolidatedRank": 120,
+  "consolidatedRank": 121,
   "paths": {
     "memo": "winter2026/memos/haladir.md",
     "evals": {

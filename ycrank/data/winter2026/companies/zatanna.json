@@ -17,7 +17,7 @@
     "Developer Tools",
     "Web Development"
   ],
-  "slideImage": null,
+  "slideImage": "winter2026/slides/images/zatanna.jpg",
   "memoGeneratedAt": "2026-03-05T01:00:57.719Z",
   "evalScores": {
     "cyan-banister": {
@@ -59,7 +59,7 @@
     "VK": 37
   },
   "consolidatedAvg": 31.86,
-  "consolidatedRank": 177,
+  "consolidatedRank": 178,
   "paths": {
     "memo": "winter2026/memos/zatanna.md",
     "evals": {

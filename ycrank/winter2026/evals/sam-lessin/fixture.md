@@ -1,0 +1,22 @@
+﻿# Fixture -- Sam Lessin Evaluation
+
+Here's my problem with Fixture: Matt Riley and Quin Hoxie are exactly the kind of founders I want to back. A decade-plus co-founding relationship, a real exit through Swiftype to Elastic, senior technical leadership at a public company, and Matt's stint as a YC Visiting Partner giving him front-row seats to the startup GTM problem. These are deeply sane people. But they've chosen the sanest possible idea -- an AI-first CRM -- and that pairing is kryptonite for my framework. When I described Brian Armstrong and Coinbase, the magic was a credentialed engineer proposing something that made most of Silicon Valley laugh. Nobody is laughing at "AI-native CRM for startups." Attio is literally using the same three words with $116 million in the bank. Clay just raised at $3.1 billion. This is consensus dressed in a new jacket. You're not buying a non-consensus premium here; you're buying into a bidding war where your competitors have a hundred-million-dollar head start.
+
+The structural moat question is where this falls apart entirely, and it's the question I wish I'd asked more rigorously about Birchbox fifteen years ago. Fixture is pure software. There are no painting crews, no parking infrastructure, no physical-world operations that AI amplifies but can't replace. The moat IS the code, and my entire thesis since 2024 has been that software moats are dissolving faster than founders realize. Worse, Fixture is actively marketing "zero data lock-in" -- they're telling customers the exit door is wide open. I understand the strategic logic: reduce adoption friction by eliminating lock-in fears. But you're simultaneously eliminating the one defensive asset a CRM accumulates over time. When the next well-funded competitor ships a better agent layer, your customers can walk out with their data intact. That's a feature for buyers and a catastrophe for investors.
+
+The bull case deserves real engagement because the founders' insight might be subtler than the positioning suggests. If the CRM category is being structurally redefined -- if the future of GTM is AI agents reading from and writing to a canonical customer context store, and Fixture becomes the data primitive that agent workflows depend on -- then you're looking at something closer to infrastructure than application software. The Claude Code integration hints at this vision: CRM as an API-first context layer that developer tools and AI agents consume programmatically, not a UI that humans click through. That's the Airtable exception in my framework -- software that looks like SaaS but functions as a new primitive. If Riley and Hoxie execute on making Fixture the canonical schema for customer context that every AI tool integrates with, the protocol dynamics could kick in. But I don't buy it. Airtable's primitive was genuinely novel -- there was no category called "no-code relational database" before it. "Customer context store" is just a CRM with better APIs. Every competitor in this space is building the same agent-native layer. The differentiation isn't structural; it's temporal, and temporal leads evaporate fast against capitalized competition.
+
+Run my "cherry on top" test and it fails cleanly. Would Fixture be a compelling business if AI didn't exist? No -- it would be yet another startup CRM competing with HubSpot's free tier, which is exactly the commodity position that a hundred startups have tried and failed to escape over the past decade. The AI capability isn't the cherry; it's the entire sundae. And when the AI angle is obvious -- when every CRM vendor on the planet is shipping agents, copilots, and automated workflows -- incumbents with distribution win. Apple, Google, Meta, Salesforce, HubSpot: they're all better positioned to ship AI-native CRM features than a five-person startup in gated beta. The founders have the technical chops to build an excellent product. I just don't see the structural logic for why that product survives the next three platform shifts when it's made entirely of the material -- software -- that those shifts are dissolving.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| "Sane Person, Insane Idea" Calibration | 10/30 |
+| AI-Resistant Structural Moat | 4/25 |
+| New Primitive or Protocol Position | 5/20 |
+| Narrative Magnitude and Infinity Optionality | 6/15 |
+| Real Revenue or Asset Cushion | 3/10 |
+| **Total** | **28/100** |
+
+**Total Score: 28/100** (Pass)

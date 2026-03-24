@@ -1,6 +1,6 @@
 {
   "batch": "winter2026",
-  "companyCount": 198,
+  "companyCount": 199,
   "personas": [
     {
       "slug": "cyan-banister",
@@ -3225,6 +3225,38 @@
     },
     {
       "rank": 88,
+      "name": "Fixture",
+      "slug": "fixture",
+      "scores": {
+        "CB": 31,
+        "EG": 46,
+        "NR": 52,
+        "PG": 57,
+        "PT": 35,
+        "SL": 28,
+        "VK": null
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": null
+      },
+      "avg": 41.5,
+      "revenue": null,
+      "teamSize": 5,
+      "ycPartner": "Jared Friedman",
+      "oneLiner": "An AI-first CRM built for Startups",
+      "industry": "B2B / B2B -> Sales",
+      "location": "",
+      "tags": [],
+      "scoreTips": {}
+    },
+    {
+      "rank": 89,
       "name": "Lexius",
       "slug": "lexius",
       "scores": {
@@ -3262,7 +3294,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 89,
+      "rank": 90,
       "name": "MochaCare",
       "slug": "mochacare",
       "scores": {
@@ -3300,7 +3332,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 90,
+      "rank": 91,
       "name": "21st",
       "slug": "21st",
       "scores": {
@@ -3338,7 +3370,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 91,
+      "rank": 92,
       "name": "Clam (formerly Baseframe)",
       "slug": "clam",
       "scores": {
@@ -3375,7 +3407,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 92,
+      "rank": 93,
       "name": "Fern (Formerly Ishiki Labs)",
       "slug": "ishikilabs",
       "scores": {
@@ -3411,7 +3443,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 93,
+      "rank": 94,
       "name": "Mango Medical",
       "slug": "mango-medical-inc",
       "scores": {
@@ -3447,7 +3479,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 94,
+      "rank": 95,
       "name": "Remy AI",
       "slug": "remy-ai",
       "scores": {
@@ -3484,7 +3516,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 95,
+      "rank": 96,
       "name": "Terminal Use",
       "slug": "terminal-use",
       "scores": {
@@ -3522,7 +3554,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 96,
+      "rank": 97,
       "name": "FullSeam",
       "slug": "fullseam",
       "scores": {
@@ -3559,7 +3591,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 97,
+      "rank": 98,
       "name": "Revion",
       "slug": "revion",
       "scores": {
@@ -3594,7 +3626,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 98,
+      "rank": 99,
       "name": "shortkit",
       "slug": "shortkit",
       "scores": {
@@ -3630,7 +3662,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 99,
+      "rank": 100,
       "name": "Verdex",
       "slug": "verdex",
       "scores": {
@@ -3666,7 +3698,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 100,
+      "rank": 101,
       "name": "ZeroSettle",
       "slug": "zerosettle",
       "scores": {
@@ -3704,7 +3736,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 101,
+      "rank": 102,
       "name": "Cajal",
       "slug": "cajal-technologies",
       "scores": {
@@ -3740,7 +3772,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 102,
+      "rank": 103,
       "name": "Scout Out",
       "slug": "scout-out",
       "scores": {
@@ -3777,7 +3809,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 103,
+      "rank": 104,
       "name": "Condor Energy",
       "slug": "condor-energy",
       "scores": {
@@ -3812,7 +3844,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 104,
+      "rank": 105,
       "name": "Hex Security",
       "slug": "hex-security",
       "scores": {
@@ -3847,7 +3879,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 105,
+      "rank": 106,
       "name": "Perfectly",
       "slug": "perfectly",
       "scores": {
@@ -3882,7 +3914,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 106,
+      "rank": 107,
       "name": "Vela",
       "slug": "vela",
       "scores": {
@@ -3920,7 +3952,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 107,
+      "rank": 108,
       "name": "Cumulus Labs",
       "slug": "cumulus-labs",
       "scores": {
@@ -3957,7 +3989,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 108,
+      "rank": 109,
       "name": "Canary",
       "slug": "canary",
       "scores": {
@@ -3994,7 +4026,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 109,
+      "rank": 110,
       "name": "Balance",
       "slug": "getbalance",
       "scores": {
@@ -4030,7 +4062,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 110,
+      "rank": 111,
       "name": "Oximy",
       "slug": "oximy",
       "scores": {
@@ -4066,7 +4098,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 111,
+      "rank": 112,
       "name": "Servo7",
       "slug": "servo7",
       "scores": {
@@ -4104,7 +4136,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 112,
+      "rank": 113,
       "name": "General Astronautics",
       "slug": "generalastro",
       "scores": {
@@ -4140,7 +4172,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 113,
+      "rank": 114,
       "name": "Reframe",
       "slug": "usereframe",
       "scores": {
@@ -4176,7 +4208,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 114,
+      "rank": 115,
       "name": "CodeWisp",
       "slug": "codewisp",
       "scores": {
@@ -4214,7 +4246,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 115,
+      "rank": 116,
       "name": "o11",
       "slug": "o11",
       "scores": {
@@ -4252,7 +4284,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 116,
+      "rank": 117,
       "name": "IncidentFox",
       "slug": "brownie",
       "scores": {
@@ -4288,7 +4320,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 117,
+      "rank": 118,
       "name": "Doomersion",
       "slug": "doomersion",
       "scores": {
@@ -4322,7 +4354,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 118,
+      "rank": 119,
       "name": "Menza",
       "slug": "menza",
       "scores": {
@@ -4358,7 +4390,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 119,
+      "rank": 120,
       "name": "Orthogonal",
       "slug": "orthogonal",
       "scores": {
@@ -4395,7 +4427,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 120,
+      "rank": 121,
       "name": "Haladir",
       "slug": "haladir",
       "scores": {
@@ -4430,7 +4462,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 121,
+      "rank": 122,
       "name": "Librar Labs",
       "slug": "librar-labs",
       "scores": {
@@ -4466,7 +4498,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 122,
+      "rank": 123,
       "name": "Patientdesk.ai",
       "slug": "patientdeskai",
       "scores": {
@@ -4503,7 +4535,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 123,
+      "rank": 124,
       "name": "Pollinate",
       "slug": "pollinate",
       "scores": {
@@ -4539,7 +4571,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 124,
+      "rank": 125,
       "name": "Synthetic Sciences",
       "slug": "synthetic-sciences",
       "scores": {
@@ -4575,7 +4607,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 125,
+      "rank": 126,
       "name": "Forum",
       "slug": "forum",
       "scores": {
@@ -4611,7 +4643,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 126,
+      "rank": 127,
       "name": "Human Archive",
       "slug": "human-archive",
       "scores": {
@@ -4647,7 +4679,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 127,
+      "rank": 128,
       "name": "OpenSpec",
       "slug": "openspec",
       "scores": {
@@ -4684,7 +4716,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 128,
+      "rank": 129,
       "name": "REV1",
       "slug": "rev1",
       "scores": {
@@ -4722,7 +4754,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 129,
+      "rank": 130,
       "name": "Oxus",
       "slug": "oxus",
       "scores": {
@@ -4759,7 +4791,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 130,
+      "rank": 131,
       "name": "Polymath",
       "slug": "polymath",
       "scores": {
@@ -4797,7 +4829,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 131,
+      "rank": 132,
       "name": "Ressl AI",
       "slug": "ressl-ai",
       "scores": {
@@ -4834,7 +4866,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 132,
+      "rank": 133,
       "name": "Cardinal",
       "slug": "trycardinal-ai",
       "scores": {
@@ -4868,7 +4900,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 133,
+      "rank": 134,
       "name": "Return Signals",
       "slug": "return-signals",
       "scores": {
@@ -4905,7 +4937,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 134,
+      "rank": 135,
       "name": "Veriad",
       "slug": "veriad",
       "scores": {
@@ -4941,7 +4973,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 135,
+      "rank": 136,
       "name": "Bidflow",
       "slug": "bidflow",
       "scores": {
@@ -4978,7 +5010,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 136,
+      "rank": 137,
       "name": "noetic",
       "slug": "noetic",
       "scores": {
@@ -5015,7 +5047,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 137,
+      "rank": 138,
       "name": "Jinba",
       "slug": "jinba",
       "scores": {
@@ -5047,7 +5079,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 138,
+      "rank": 139,
       "name": "Button Computer",
       "slug": "button-computer",
       "scores": {
@@ -5083,7 +5115,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 139,
+      "rank": 140,
       "name": "Cascade",
       "slug": "cascade",
       "scores": {
@@ -5121,7 +5153,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 140,
+      "rank": 141,
       "name": "Compresr",
       "slug": "compresr",
       "scores": {
@@ -5158,7 +5190,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 141,
+      "rank": 142,
       "name": "Prana",
       "slug": "prana-health",
       "scores": {
@@ -5192,7 +5224,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 142,
+      "rank": 143,
       "name": "Salus",
       "slug": "salus",
       "scores": {
@@ -5230,7 +5262,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 143,
+      "rank": 144,
       "name": "Docura Health",
       "slug": "docura-health",
       "scores": {
@@ -5266,7 +5298,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 144,
+      "rank": 145,
       "name": "Carson",
       "slug": "carson",
       "scores": {
@@ -5304,7 +5336,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 145,
+      "rank": 146,
       "name": "CatchBack Cards",
       "slug": "catchback-cards",
       "scores": {
@@ -5340,7 +5372,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 146,
+      "rank": 147,
       "name": "Captain",
       "slug": "captain",
       "scores": {
@@ -5376,7 +5408,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 147,
+      "rank": 148,
       "name": "Stilta",
       "slug": "stilta",
       "scores": {
@@ -5411,7 +5443,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 148,
+      "rank": 149,
       "name": "Alt-X",
       "slug": "alt-x",
       "scores": {
@@ -5446,7 +5478,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 149,
+      "rank": 150,
       "name": "EigenPal",
       "slug": "eigenpal",
       "scores": {
@@ -5482,7 +5514,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 150,
+      "rank": 151,
       "name": "Shofo",
       "slug": "shofo",
       "scores": {
@@ -5519,7 +5551,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 151,
+      "rank": 152,
       "name": "ClaimGlide",
       "slug": "claimglide",
       "scores": {
@@ -5556,7 +5588,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 152,
+      "rank": 153,
       "name": "Unisson",
       "slug": "unisson",
       "scores": {
@@ -5592,7 +5624,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 153,
+      "rank": 154,
       "name": "Palus Finance",
       "slug": "palus-finance",
       "scores": {
@@ -5628,7 +5660,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 154,
+      "rank": 155,
       "name": "Skillsync",
       "slug": "skillsync",
       "scores": {
@@ -5665,7 +5697,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 155,
+      "rank": 156,
       "name": "Inviscid AI",
       "slug": "inviscid-ai",
       "scores": {
@@ -5702,7 +5734,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 156,
+      "rank": 157,
       "name": "RamAIn",
       "slug": "ramain",
       "scores": {
@@ -5738,7 +5770,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 157,
+      "rank": 158,
       "name": "Velum Labs",
       "slug": "velum-labs",
       "scores": {
@@ -5773,7 +5805,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 158,
+      "rank": 159,
       "name": "Glue",
       "slug": "glue",
       "scores": {
@@ -5808,7 +5840,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 159,
+      "rank": 160,
       "name": "Tepali",
       "slug": "tepali",
       "scores": {
@@ -5846,7 +5878,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 160,
+      "rank": 161,
       "name": "Traverse",
       "slug": "traverse",
       "scores": {
@@ -5881,7 +5913,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 161,
+      "rank": 162,
       "name": "Ritivel",
       "slug": "ritivel",
       "scores": {
@@ -5919,7 +5951,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 162,
+      "rank": 163,
       "name": "Maven",
       "slug": "maven",
       "scores": {
@@ -5957,7 +5989,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 163,
+      "rank": 164,
       "name": "Envariant",
       "slug": "envariant",
       "scores": {
@@ -5993,7 +6025,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 164,
+      "rank": 165,
       "name": "Sonarly",
       "slug": "sonarly",
       "scores": {
@@ -6028,7 +6060,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 165,
+      "rank": 166,
       "name": "The Token Company",
       "slug": "the-token-company",
       "scores": {
@@ -6066,7 +6098,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 166,
+      "rank": 167,
       "name": "Emdash",
       "slug": "emdash",
       "scores": {
@@ -6103,7 +6135,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 167,
+      "rank": 168,
       "name": "Sequence Markets",
       "slug": "sequence-markets",
       "scores": {
@@ -6139,7 +6171,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 168,
+      "rank": 169,
       "name": "Ashr",
       "slug": "ashr",
       "scores": {
@@ -6177,7 +6209,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 169,
+      "rank": 170,
       "name": "Autumn AI",
       "slug": "autumn-ai",
       "scores": {
@@ -6214,7 +6246,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 170,
+      "rank": 171,
       "name": "Sparkles",
       "slug": "sparkles",
       "scores": {
@@ -6249,7 +6281,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 171,
+      "rank": 172,
       "name": "Agentic Fabriq",
       "slug": "agentic-fabriq",
       "scores": {
@@ -6287,7 +6319,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 172,
+      "rank": 173,
       "name": "Polymorph",
       "slug": "polymorph",
       "scores": {
@@ -6325,7 +6357,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 173,
+      "rank": 174,
       "name": "Moda",
       "slug": "moda",
       "scores": {
@@ -6362,7 +6394,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 174,
+      "rank": 175,
       "name": "Travo",
       "slug": "travo",
       "scores": {
@@ -6398,7 +6430,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 175,
+      "rank": 176,
       "name": "Axis",
       "slug": "axis-2",
       "scores": {
@@ -6436,7 +6468,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 176,
+      "rank": 177,
       "name": "Fenrock AI",
       "slug": "fenrock-ai",
       "scores": {
@@ -6473,7 +6505,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 177,
+      "rank": 178,
       "name": "Zatanna",
       "slug": "zatanna",
       "scores": {
@@ -6508,7 +6540,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 178,
+      "rank": 179,
       "name": "sitefire",
       "slug": "sitefire",
       "scores": {
@@ -6544,7 +6576,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 179,
+      "rank": 180,
       "name": "Carrot Labs",
       "slug": "carrot-labs",
       "scores": {
@@ -6580,7 +6612,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 180,
+      "rank": 181,
       "name": "Bubble Lab",
       "slug": "bubble-lab",
       "scores": {
@@ -6616,7 +6648,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 181,
+      "rank": 182,
       "name": "Booko",
       "slug": "booko",
       "scores": {
@@ -6653,7 +6685,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 182,
+      "rank": 183,
       "name": "Caretta",
       "slug": "caretta",
       "scores": {
@@ -6690,7 +6722,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 183,
+      "rank": 184,
       "name": "Talking Computers",
       "slug": "talking-computers",
       "scores": {
@@ -6724,7 +6756,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 184,
+      "rank": 185,
       "name": "Cofia",
       "slug": "cofia",
       "scores": {
@@ -6761,7 +6793,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 185,
+      "rank": 186,
       "name": "Pollen",
       "slug": "pollen",
       "scores": {
@@ -6798,7 +6830,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 186,
+      "rank": 187,
       "name": "Burt",
       "slug": "burt",
       "scores": {
@@ -6835,7 +6867,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 187,
+      "rank": 188,
       "name": "Sila",
       "slug": "sila",
       "scores": {
@@ -6870,7 +6902,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 188,
+      "rank": 189,
       "name": "Crow",
       "slug": "crow",
       "scores": {
@@ -6908,7 +6940,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 189,
+      "rank": 190,
       "name": "Sentrial",
       "slug": "sentrial",
       "scores": {
@@ -6945,7 +6977,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 190,
+      "rank": 191,
       "name": "Arzule",
       "slug": "arzule",
       "scores": {
@@ -6982,7 +7014,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 191,
+      "rank": 192,
       "name": "Lucent",
       "slug": "lucent",
       "scores": {
@@ -7018,7 +7050,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 192,
+      "rank": 193,
       "name": "Payna",
       "slug": "payna",
       "scores": {
@@ -7056,7 +7088,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 193,
+      "rank": 194,
       "name": "Klaus AI",
       "slug": "klaus-ai",
       "scores": {
@@ -7088,38 +7120,6 @@
         "AIOps",
         "Deep Learning"
       ],
-      "scoreTips": {}
-    },
-    {
-      "rank": 194,
-      "name": "Resonate",
-      "slug": "resonate",
-      "scores": {
-        "CB": 27,
-        "EG": 29,
-        "NR": 31,
-        "PG": 33,
-        "PT": 22,
-        "SL": 21,
-        "VK": 27
-      },
-      "tiers": {
-        "CB": "Pass",
-        "EG": "Pass",
-        "NR": "Pass",
-        "PG": "Pass",
-        "PT": "Pass",
-        "SL": "Strong Pass",
-        "VK": "Pass"
-      },
-      "avg": 27.14,
-      "revenue": null,
-      "teamSize": 0,
-      "ycPartner": "Jared Friedman",
-      "oneLiner": "The first AI-native messaging platform.",
-      "industry": "Consumer / Consumer",
-      "location": "No public data found",
-      "tags": [],
       "scoreTips": {}
     },
     {
@@ -7200,6 +7200,38 @@
     },
     {
       "rank": 197,
+      "name": "Remix",
+      "slug": "remix-3",
+      "scores": {
+        "CB": 27,
+        "EG": 24,
+        "NR": 31,
+        "PG": 30,
+        "PT": 21,
+        "SL": 22,
+        "VK": null
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Strong Pass",
+        "SL": "Strong Pass",
+        "VK": null
+      },
+      "avg": 25.83,
+      "revenue": null,
+      "teamSize": 0,
+      "ycPartner": "Jared Friedman",
+      "oneLiner": "Social media content auto-generated with your existing data",
+      "industry": "Consumer / Consumer",
+      "location": "San Francisco, CA (LinkedIn)",
+      "tags": [],
+      "scoreTips": {}
+    },
+    {
+      "rank": 198,
       "name": "Approxima",
       "slug": "approxima",
       "scores": {
@@ -7235,7 +7267,7 @@
       "scoreTips": {}
     },
     {
-      "rank": 198,
+      "rank": 199,
       "name": "Q2Q",
       "slug": "q2q",
       "scores": {
@@ -7298,7 +7330,7 @@
         "EG": 0.58,
         "NR": 0.62,
         "PG": 0.65,
-        "PT": 0.72,
+        "PT": 0.71,
         "SL": 0.73,
         "VK": 0.62
       }
@@ -7312,7 +7344,7 @@
         "PG": 0.75,
         "PT": 0.56,
         "SL": 0.51,
-        "VK": 0.42
+        "VK": 0.41
       }
     },
     {
@@ -7336,13 +7368,13 @@
         "PG": null,
         "PT": 0.62,
         "SL": 0.56,
-        "VK": 0.41
+        "VK": 0.4
       }
     },
     {
       "persona": "PT",
       "values": {
-        "CB": 0.72,
+        "CB": 0.71,
         "EG": 0.56,
         "NR": 0.81,
         "PG": 0.62,
@@ -7367,9 +7399,9 @@
       "persona": "VK",
       "values": {
         "CB": 0.62,
-        "EG": 0.42,
+        "EG": 0.41,
         "NR": 0.71,
-        "PG": 0.41,
+        "PG": 0.4,
         "PT": 0.78,
         "SL": 0.77,
         "VK": null

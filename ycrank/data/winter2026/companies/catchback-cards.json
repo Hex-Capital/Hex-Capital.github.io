@@ -18,7 +18,7 @@
     "Consumer",
     "NFT"
   ],
-  "slideImage": null,
+  "slideImage": "winter2026/slides/images/catchback-cards.jpg",
   "memoGeneratedAt": "2026-03-06T05:57:55.447Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,7 +60,7 @@
     "VK": 33
   },
   "consolidatedAvg": 35.57,
-  "consolidatedRank": 145,
+  "consolidatedRank": 146,
   "paths": {
     "memo": "winter2026/memos/catchback-cards.md",
     "evals": {

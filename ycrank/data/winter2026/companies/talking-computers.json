@@ -16,7 +16,7 @@
   "tags": [
     "Artificial Intelligence"
   ],
-  "slideImage": null,
+  "slideImage": "winter2026/slides/images/talking-computers.jpg",
   "memoGeneratedAt": "2026-03-03T21:41:11.970Z",
   "evalScores": {
     "cyan-banister": {
@@ -58,7 +58,7 @@
     "VK": 37
   },
   "consolidatedAvg": 30.71,
-  "consolidatedRank": 183,
+  "consolidatedRank": 184,
   "paths": {
     "memo": "winter2026/memos/talking-computers.md",
     "evals": {

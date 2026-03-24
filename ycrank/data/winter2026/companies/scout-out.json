@@ -19,7 +19,7 @@
     "Proptech",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "winter2026/slides/images/scout-out.jpg",
   "memoGeneratedAt": "2026-02-27T16:00:14.890Z",
   "evalScores": {
     "cyan-banister": {
@@ -61,7 +61,7 @@
     "VK": 32
   },
   "consolidatedAvg": 40.43,
-  "consolidatedRank": 102,
+  "consolidatedRank": 103,
   "paths": {
     "memo": "winter2026/memos/scout-out.md",
     "evals": {

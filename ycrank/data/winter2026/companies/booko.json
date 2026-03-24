@@ -19,7 +19,7 @@
     "B2B",
     "Analytics"
   ],
-  "slideImage": null,
+  "slideImage": "winter2026/slides/images/booko.jpg",
   "memoGeneratedAt": "2026-02-27T16:06:10.727Z",
   "evalScores": {
     "cyan-banister": {
@@ -61,7 +61,7 @@
     "VK": 22
   },
   "consolidatedAvg": 31.14,
-  "consolidatedRank": 181,
+  "consolidatedRank": 182,
   "paths": {
     "memo": "winter2026/memos/booko.md",
     "evals": {

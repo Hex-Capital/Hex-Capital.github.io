@@ -18,7 +18,7 @@
     "Space Exploration",
     "Aerospace"
   ],
-  "slideImage": null,
+  "slideImage": "winter2026/slides/images/generalastro.jpg",
   "memoGeneratedAt": "2026-03-09T22:12:36.155Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,7 +60,7 @@
     "VK": 52
   },
   "consolidatedAvg": 39.43,
-  "consolidatedRank": 112,
+  "consolidatedRank": 113,
   "paths": {
     "memo": "winter2026/memos/generalastro.md",
     "evals": {

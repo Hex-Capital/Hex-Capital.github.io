@@ -16,7 +16,7 @@
   "tags": [
     "Education"
   ],
-  "slideImage": null,
+  "slideImage": "winter2026/slides/images/doomersion.jpg",
   "memoGeneratedAt": "2026-03-09T16:27:56.127Z",
   "evalScores": {
     "cyan-banister": {
@@ -58,7 +58,7 @@
     "VK": 36
   },
   "consolidatedAvg": 38.86,
-  "consolidatedRank": 117,
+  "consolidatedRank": 118,
   "paths": {
     "memo": "winter2026/memos/doomersion.md",
     "evals": {

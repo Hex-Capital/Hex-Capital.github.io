@@ -18,7 +18,7 @@
     "Insurance",
     "Agriculture"
   ],
-  "slideImage": null,
+  "slideImage": "winter2026/slides/images/verdex.jpg",
   "memoGeneratedAt": "2026-03-05T01:02:18.571Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,7 +60,7 @@
     "VK": 41
   },
   "consolidatedAvg": 40.57,
-  "consolidatedRank": 99,
+  "consolidatedRank": 100,
   "paths": {
     "memo": "winter2026/memos/verdex.md",
     "evals": {

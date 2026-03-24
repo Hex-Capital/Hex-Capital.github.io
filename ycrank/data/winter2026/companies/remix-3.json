@@ -1,0 +1,66 @@
+{
+  "slug": "remix-3",
+  "name": "Remix",
+  "oneLiner": "Social media content auto-generated with your existing data",
+  "metadata": {
+    "website": "https://remix.re",
+    "yc_page": "https://www.ycombinator.com/companies/remix-3",
+    "batch": "Winter 2026",
+    "industry": "Consumer / Consumer",
+    "team_size": "0",
+    "location": "San Francisco, CA (LinkedIn)",
+    "yc_partner": "Jared Friedman",
+    "emails": "founders@remix.re"
+  },
+  "tags": [],
+  "slideImage": "winter2026/slides/images/remix-3.jpg",
+  "memoGeneratedAt": "2026-03-24T16:49:23.216Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 24,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 21,
+      "tier": "Strong Pass"
+    },
+    "sam-lessin": {
+      "score": 22,
+      "tier": "Strong Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 27,
+    "EG": 24,
+    "NR": 31,
+    "PG": 30,
+    "PT": 21,
+    "SL": 22,
+    "VK": null
+  },
+  "consolidatedAvg": 25.83,
+  "consolidatedRank": 197,
+  "paths": {
+    "memo": "winter2026/memos/remix-3.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/remix-3.md",
+      "elad-gil": "winter2026/evals/elad-gil/remix-3.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/remix-3.md",
+      "paul-graham": "winter2026/evals/paul-graham/remix-3.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/remix-3.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/remix-3.md"
+    }
+  }
+}

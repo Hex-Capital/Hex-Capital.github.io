@@ -17,7 +17,7 @@
     "Artificial Intelligence",
     "Productivity"
   ],
-  "slideImage": null,
+  "slideImage": "winter2026/slides/images/sila.jpg",
   "memoGeneratedAt": "2026-02-28T04:14:41.847Z",
   "evalScores": {
     "cyan-banister": {
@@ -59,7 +59,7 @@
     "VK": 35
   },
   "consolidatedAvg": 29.86,
-  "consolidatedRank": 187,
+  "consolidatedRank": 188,
   "paths": {
     "memo": "winter2026/memos/sila.md",
     "evals": {

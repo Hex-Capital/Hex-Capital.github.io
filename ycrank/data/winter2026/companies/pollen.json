@@ -19,7 +19,7 @@
     "Customer Success",
     "Conversational AI"
   ],
-  "slideImage": null,
+  "slideImage": "winter2026/slides/images/pollen.jpg",
   "memoGeneratedAt": "2026-03-06T06:13:52.457Z",
   "evalScores": {
     "cyan-banister": {
@@ -61,7 +61,7 @@
     "VK": 34
   },
   "consolidatedAvg": 30.14,
-  "consolidatedRank": 185,
+  "consolidatedRank": 186,
   "paths": {
     "memo": "winter2026/memos/pollen.md",
     "evals": {

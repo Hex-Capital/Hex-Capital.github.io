@@ -18,7 +18,7 @@
     "Big Data",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "winter2026/slides/images/cajal-technologies.jpg",
   "memoGeneratedAt": "2026-03-09T16:28:36.785Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,7 +60,7 @@
     "VK": 51
   },
   "consolidatedAvg": 40.43,
-  "consolidatedRank": 101,
+  "consolidatedRank": 102,
   "paths": {
     "memo": "winter2026/memos/cajal-technologies.md",
     "evals": {

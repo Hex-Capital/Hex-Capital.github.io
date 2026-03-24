@@ -18,7 +18,7 @@
     "Developer Tools",
     "B2B"
   ],
-  "slideImage": null,
+  "slideImage": "winter2026/slides/images/lucent.jpg",
   "memoGeneratedAt": "2026-03-05T07:19:38.328Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,7 +60,7 @@
     "VK": 33
   },
   "consolidatedAvg": 29.29,
-  "consolidatedRank": 191,
+  "consolidatedRank": 192,
   "paths": {
     "memo": "winter2026/memos/lucent.md",
     "evals": {

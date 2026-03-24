@@ -18,7 +18,7 @@
     "Big Data",
     "Data Engineering"
   ],
-  "slideImage": null,
+  "slideImage": "winter2026/slides/images/captain.jpg",
   "memoGeneratedAt": "2026-03-06T06:05:51.494Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,7 +60,7 @@
     "VK": 38
   },
   "consolidatedAvg": 35.29,
-  "consolidatedRank": 146,
+  "consolidatedRank": 147,
   "paths": {
     "memo": "winter2026/memos/captain.md",
     "evals": {

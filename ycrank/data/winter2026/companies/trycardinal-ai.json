@@ -16,7 +16,7 @@
   "tags": [
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "winter2026/slides/images/trycardinal-ai.jpg",
   "memoGeneratedAt": "2026-02-27T06:29:37.164Z",
   "evalScores": {
     "cyan-banister": {
@@ -58,7 +58,7 @@
     "VK": 32
   },
   "consolidatedAvg": 37.71,
-  "consolidatedRank": 132,
+  "consolidatedRank": 133,
   "paths": {
     "memo": "winter2026/memos/trycardinal-ai.md",
     "evals": {

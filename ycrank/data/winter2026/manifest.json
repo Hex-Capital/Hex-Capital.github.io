@@ -183,7 +183,7 @@
         "VK": "Neutral"
       },
       "avg": 62,
-      "revenue": null,
+      "revenue": 134000,
       "teamSize": 5,
       "ycPartner": "Tyler Bosmeny",
       "oneLiner": "Self Charging Drones",
@@ -368,7 +368,7 @@
         "VK": "Neutral"
       },
       "avg": 57.14,
-      "revenue": 190800,
+      "revenue": 191000,
       "teamSize": 2,
       "ycPartner": "Ankit Gupta",
       "oneLiner": "AI DevOps Engineer",
@@ -546,7 +546,7 @@
         "VK": "Neutral"
       },
       "avg": 55.43,
-      "revenue": null,
+      "revenue": 1250000,
       "teamSize": 4,
       "ycPartner": "Jared Friedman",
       "oneLiner": "AI for space mission assurance.",
@@ -584,7 +584,7 @@
         "VK": "Neutral"
       },
       "avg": 55,
-      "revenue": null,
+      "revenue": 7500,
       "teamSize": 1,
       "ycPartner": "Brad Flora",
       "oneLiner": "Making an industrial supply chain for building robots in the USA",
@@ -621,7 +621,7 @@
         "VK": "Invest"
       },
       "avg": 54.29,
-      "revenue": null,
+      "revenue": 480000,
       "teamSize": 2,
       "ycPartner": "Ankit Gupta",
       "oneLiner": "Cerebras-speed inference but scalable",
@@ -659,7 +659,7 @@
         "VK": "Invest"
       },
       "avg": 54.14,
-      "revenue": null,
+      "revenue": 60000000,
       "teamSize": 3,
       "ycPartner": "Jon Xu",
       "oneLiner": "Energy independent data centers with solar and repurposed batteries.",
@@ -697,7 +697,7 @@
         "VK": "Neutral"
       },
       "avg": 54,
-      "revenue": null,
+      "revenue": 470000,
       "teamSize": 3,
       "ycPartner": "Tyler Bosmeny",
       "oneLiner": "Technology to detect and track hostile drones",
@@ -733,7 +733,7 @@
         "VK": "Neutral"
       },
       "avg": 53.43,
-      "revenue": null,
+      "revenue": 135000,
       "teamSize": 2,
       "ycPartner": "Jon Xu",
       "oneLiner": "World models for VLA evals and training.",
@@ -806,7 +806,7 @@
         "VK": "Neutral"
       },
       "avg": 53.14,
-      "revenue": null,
+      "revenue": 145000,
       "teamSize": 2,
       "ycPartner": "Ankit Gupta",
       "oneLiner": "Turn documents into signals for lenders",
@@ -1166,7 +1166,7 @@
         "VK": "Neutral"
       },
       "avg": 50.86,
-      "revenue": null,
+      "revenue": 100000,
       "teamSize": 2,
       "ycPartner": "Gustaf Alstromer",
       "oneLiner": "Robots that run autonomous depots for autonomous fleets.",
@@ -1242,7 +1242,7 @@
         "VK": "Neutral"
       },
       "avg": 50.57,
-      "revenue": 198000,
+      "revenue": 420000,
       "teamSize": 3,
       "ycPartner": "Tyler Bosmeny",
       "oneLiner": "Solving language barriers in healthcare",
@@ -1279,7 +1279,7 @@
         "VK": "Pass"
       },
       "avg": 49.57,
-      "revenue": 175000,
+      "revenue": 2000000,
       "teamSize": 3,
       "ycPartner": "Tyler Bosmeny",
       "oneLiner": "The AI-powered law firm for complex work visas",
@@ -1531,7 +1531,7 @@
         "VK": "Neutral"
       },
       "avg": 48.29,
-      "revenue": 2500000,
+      "revenue": 1500000,
       "teamSize": 1,
       "ycPartner": "Jared Friedman",
       "oneLiner": "AI Powered Medical Billing",
@@ -1716,7 +1716,7 @@
         "VK": "Pass"
       },
       "avg": 47.29,
-      "revenue": 2000000,
+      "revenue": 27000000,
       "teamSize": 6,
       "ycPartner": "Tyler Bosmeny",
       "oneLiner": "Take Notes in the Real World",
@@ -1895,7 +1895,7 @@
         "VK": "Pass"
       },
       "avg": 46.43,
-      "revenue": 100000,
+      "revenue": 1200000,
       "teamSize": 3,
       "ycPartner": "Diana Hu",
       "oneLiner": "Unified prediction markets trading platform",
@@ -1967,7 +1967,7 @@
         "VK": "Neutral"
       },
       "avg": 46.14,
-      "revenue": null,
+      "revenue": 250000,
       "teamSize": 5,
       "ycPartner": "Ankit Gupta",
       "oneLiner": "Manipulate Anything Robot",
@@ -2038,7 +2038,7 @@
         "VK": "Pass"
       },
       "avg": 45.43,
-      "revenue": null,
+      "revenue": 72000,
       "teamSize": 2,
       "ycPartner": "Harshita Arora; Ankit Gupta also listed as backing partner",
       "oneLiner": "Agents for Mortgage Origination",
@@ -2219,7 +2219,7 @@
         "VK": "Pass"
       },
       "avg": 44.71,
-      "revenue": 1200000,
+      "revenue": 1100000,
       "teamSize": 12,
       "ycPartner": "Tyler Bosmeny",
       "oneLiner": "All-in-one identity platform for fast human verification.",
@@ -2291,7 +2291,7 @@
         "VK": "Pass"
       },
       "avg": 44.71,
-      "revenue": null,
+      "revenue": 1100000,
       "teamSize": 3,
       "ycPartner": "Jared Friedman",
       "oneLiner": "AI Law Firm + Legal Tech Platform for Startups",
@@ -2694,7 +2694,7 @@
         "VK": "Pass"
       },
       "avg": 43,
-      "revenue": 130000,
+      "revenue": null,
       "teamSize": 4,
       "ycPartner": "Brad Flora",
       "oneLiner": "Autopiloting your AI infrastructure",
@@ -2804,7 +2804,7 @@
         "VK": "Pass"
       },
       "avg": 42.71,
-      "revenue": 396000,
+      "revenue": 394000,
       "teamSize": 4,
       "ycPartner": "Brad Flora",
       "oneLiner": "AI agents for CPG brands",
@@ -2910,7 +2910,7 @@
         "VK": "Pass"
       },
       "avg": 42.57,
-      "revenue": 800000,
+      "revenue": null,
       "teamSize": null,
       "ycPartner": "Tyler Bosmeny",
       "oneLiner": "Real-world place intelligence for AI apps and agents",
@@ -3022,7 +3022,7 @@
         "VK": "Pass"
       },
       "avg": 41.71,
-      "revenue": 100000,
+      "revenue": null,
       "teamSize": 3,
       "ycPartner": "Jared Friedman",
       "oneLiner": "AI agents that replace your policy consultants",
@@ -3060,7 +3060,7 @@
         "VK": "Pass"
       },
       "avg": 41.71,
-      "revenue": null,
+      "revenue": 900000,
       "teamSize": 3,
       "ycPartner": "Gustaf Alstromer",
       "oneLiner": "Physics-Enhanced Datasets for Low-Resource Machine Learning",
@@ -3097,7 +3097,7 @@
         "VK": "Pass"
       },
       "avg": 41.71,
-      "revenue": null,
+      "revenue": 1300000,
       "teamSize": 1,
       "ycPartner": "Jared Friedman",
       "oneLiner": "AI operator for legal case referrals",
@@ -3171,7 +3171,7 @@
         "VK": "Pass"
       },
       "avg": 41.57,
-      "revenue": 120000,
+      "revenue": 123000,
       "teamSize": 3,
       "ycPartner": "Gustaf Alstromer",
       "oneLiner": "Strength Tracking Wearable",
@@ -3284,7 +3284,7 @@
         "VK": "Pass"
       },
       "avg": 41.43,
-      "revenue": null,
+      "revenue": 80400,
       "teamSize": 2,
       "ycPartner": "Diana Hu",
       "oneLiner": "AI-Supercharged Humans for Home Care Agency Growth",
@@ -3322,7 +3322,7 @@
         "VK": "Pass"
       },
       "avg": 41.29,
-      "revenue": null,
+      "revenue": 250000,
       "teamSize": 3,
       "ycPartner": "Ankit Gupta",
       "oneLiner": "Infrastructure and UI building blocks for the agentic internet",
@@ -3576,7 +3576,7 @@
         "VK": "Pass"
       },
       "avg": 40.71,
-      "revenue": null,
+      "revenue": 185000,
       "teamSize": 3,
       "ycPartner": "Brad Flora",
       "oneLiner": "FullSeam is an AI employee for finance and accounting teams.",
@@ -3613,7 +3613,7 @@
         "VK": "Pass"
       },
       "avg": 40.71,
-      "revenue": 2000000,
+      "revenue": 756000,
       "teamSize": 4,
       "ycPartner": "Jon Xu",
       "oneLiner": "Intelligence for Automotive Operations",
@@ -3648,7 +3648,7 @@
         "VK": "Pass"
       },
       "avg": 40.57,
-      "revenue": 6000000,
+      "revenue": 72000,
       "teamSize": 2,
       "ycPartner": "Brad Flora",
       "oneLiner": "We make enterprise-scale short-form video really simple.",
@@ -4120,7 +4120,7 @@
         "VK": "Neutral"
       },
       "avg": 39.57,
-      "revenue": null,
+      "revenue": 68000,
       "teamSize": null,
       "ycPartner": "Ankit Gupta",
       "oneLiner": "Simple and rapidly deployed robots for industry work",
@@ -4376,7 +4376,7 @@
         "VK": "Pass"
       },
       "avg": 38.86,
-      "revenue": null,
+      "revenue": 235000,
       "teamSize": 3,
       "ycPartner": "Not listed",
       "oneLiner": "Your 24/7 Data Analyst",
@@ -4593,7 +4593,7 @@
         "VK": "Neutral"
       },
       "avg": 38.43,
-      "revenue": null,
+      "revenue": 81600,
       "teamSize": 2,
       "ycPartner": "Gustaf Alstromer",
       "oneLiner": "AI co-scientists that run research end-to-end",
@@ -4851,7 +4851,7 @@
         "VK": "Pass"
       },
       "avg": 37.71,
-      "revenue": 120000,
+      "revenue": 144000,
       "teamSize": 4,
       "ycPartner": "Harshita Arora",
       "oneLiner": "AI Transformation for the Trades",
@@ -4922,7 +4922,7 @@
         "VK": "Pass"
       },
       "avg": 37.57,
-      "revenue": null,
+      "revenue": 10200,
       "teamSize": 2,
       "ycPartner": "Gustaf Alstromer",
       "oneLiner": "AI customer support that proactively engages high-value users",
@@ -5069,7 +5069,7 @@
         "VK": "Pass"
       },
       "avg": 36.43,
-      "revenue": 1000000,
+      "revenue": 3600000,
       "teamSize": 4,
       "ycPartner": "Ankit Gupta",
       "oneLiner": "Automate any enterprise workflow through chat",
@@ -5212,7 +5212,7 @@
         "VK": "Neutral"
       },
       "avg": 36.14,
-      "revenue": 361200,
+      "revenue": 361000,
       "teamSize": 4,
       "ycPartner": "Tyler Bosmeny",
       "oneLiner": "An AI primary care doctor in your pocket",
@@ -5320,7 +5320,7 @@
         "VK": "Pass"
       },
       "avg": 35.86,
-      "revenue": 116400,
+      "revenue": 116000,
       "teamSize": 4,
       "ycPartner": "Gustaf Alstromer",
       "oneLiner": "more capable than Cowork, more secure than OpenClaw",
@@ -5358,7 +5358,7 @@
         "VK": "Pass"
       },
       "avg": 35.57,
-      "revenue": null,
+      "revenue": 648000,
       "teamSize": 2,
       "ycPartner": "Brad Flora",
       "oneLiner": "a platform for maximizing the thrill of collecting trading cards",
@@ -5394,7 +5394,7 @@
         "VK": "Pass"
       },
       "avg": 35.29,
-      "revenue": 128400,
+      "revenue": 128000,
       "teamSize": 2,
       "ycPartner": "Garry Tan",
       "oneLiner": "Accurate knowledge search that scales",
@@ -5862,7 +5862,7 @@
         "VK": "Pass"
       },
       "avg": 33.86,
-      "revenue": null,
+      "revenue": 168000,
       "teamSize": 2,
       "ycPartner": "Diana Hu",
       "oneLiner": "AI-native operating system for medspas",
@@ -5900,7 +5900,7 @@
         "VK": "Pass"
       },
       "avg": 33.86,
-      "revenue": 3000000,
+      "revenue": null,
       "teamSize": 2,
       "ycPartner": "Jared Friedman",
       "oneLiner": "Data research company building RL envs for non-deterministic work",
@@ -6268,7 +6268,7 @@
         "VK": "Pass"
       },
       "avg": 32.86,
-      "revenue": 300000,
+      "revenue": 264000,
       "teamSize": 1,
       "ycPartner": "Jared Friedman",
       "oneLiner": "Make everyone on your team an engineer",
@@ -6416,7 +6416,7 @@
         "VK": "Pass"
       },
       "avg": 32.29,
-      "revenue": 175200,
+      "revenue": 175000,
       "teamSize": 4,
       "ycPartner": "Aaron Epstein",
       "oneLiner": "We use AI to collect and analyze real estate data",
@@ -6670,7 +6670,7 @@
         "VK": "Pass"
       },
       "avg": 31.14,
-      "revenue": 300000,
+      "revenue": null,
       "teamSize": 2,
       "ycPartner": "Harshita Arora",
       "oneLiner": "Dynamic pricing for businesses that sell time slots",
@@ -7036,7 +7036,7 @@
         "VK": "Pass"
       },
       "avg": 29.29,
-      "revenue": 67440,
+      "revenue": 67200,
       "teamSize": 2,
       "ycPartner": "Gustaf Alstromer",
       "oneLiner": "AI that automatically watches your session replays to detect bugs.",
@@ -7072,7 +7072,7 @@
         "VK": "Pass"
       },
       "avg": 28.14,
-      "revenue": null,
+      "revenue": 150000,
       "teamSize": 0,
       "ycPartner": "Brad Flora",
       "oneLiner": "Crypto/fintech compliance simplified.",
@@ -7110,7 +7110,7 @@
         "VK": "Pass"
       },
       "avg": 27.14,
-      "revenue": 340000,
+      "revenue": 300000,
       "teamSize": 2,
       "ycPartner": "Tyler Bosmeny",
       "oneLiner": "Fast and Safe OpenClaw on the cloud",

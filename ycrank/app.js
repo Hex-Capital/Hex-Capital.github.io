@@ -19,6 +19,8 @@ function app() {
 
     // Dashboard state
     search: '',
+    acOpen: false,
+    acIndex: -1,
     sortCol: 'avg',
     sortDir: -1,
 
@@ -147,7 +149,7 @@ function app() {
         await this.loadUserState();
 
         // Reset mobile card index on search change
-        this.$watch('search', () => { this.mobileCardIndex = 0; });
+        this.$watch('search', (val) => { this.mobileCardIndex = 0; this.acIndex = -1; this.acOpen = val.length > 0; });
 
         // Handle initial route
         this.handleRoute();
@@ -393,6 +395,60 @@ function app() {
         rows = rows.filter(r => this.watchlist.includes(r.slug));
       }
       return [...rows].sort((a, b) => (b.avg || 0) - (a.avg || 0));
+    },
+
+    get autocompleteResults() {
+      if (!this.manifest || !this.search) return [];
+      const q = this.search.toLowerCase();
+      return this.manifest.table.filter(r =>
+        r.name.toLowerCase().includes(q) ||
+        (r.oneLiner && r.oneLiner.toLowerCase().includes(q))
+      ).slice(0, 8);
+    },
+
+    selectAutocomplete(slug) {
+      this.search = '';
+      this.acOpen = false;
+      this.acIndex = -1;
+      this.navigate('company/' + slug);
+    },
+
+    handleSearchKeydown(e) {
+      const results = this.autocompleteResults;
+      if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        if (!this.acOpen && this.search) this.acOpen = true;
+        this.acIndex = results.length ? (this.acIndex + 1) % results.length : -1;
+        this.$nextTick(() => {
+          const el = document.querySelector('.ac-item-active');
+          if (el) el.scrollIntoView({ block: 'nearest' });
+        });
+      } else if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        if (!this.acOpen && this.search) this.acOpen = true;
+        this.acIndex = results.length ? (this.acIndex - 1 + results.length) % results.length : -1;
+        this.$nextTick(() => {
+          const el = document.querySelector('.ac-item-active');
+          if (el) el.scrollIntoView({ block: 'nearest' });
+        });
+      } else if (e.key === 'Enter') {
+        if (this.acIndex >= 0 && results[this.acIndex]) {
+          e.preventDefault();
+          this.selectAutocomplete(results[this.acIndex].slug);
+        } else if (this.view === 'company' && results.length > 0) {
+          e.preventDefault();
+          this.selectAutocomplete(results[0].slug);
+        }
+      } else if (e.key === 'Escape') {
+        if (this.acOpen) {
+          e.preventDefault();
+          e.stopPropagation();
+          this.acOpen = false;
+          this.acIndex = -1;
+        } else {
+          e.target.blur();
+        }
+      }
     },
 
     // Returns [prevIdx, currentIdx, nextIdx] for the 3-card carousel (-1 = empty slot)

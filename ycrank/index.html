@@ -106,25 +106,55 @@
       <code class="block mt-2 text-claude-gray text-sm font-mono">powershell -ExecutionPolicy Bypass -File ycrank.ps1</code>
     </div>
 
+    <!-- Search Bar (visible on dashboard + company) -->
+    <div x-show="(view === 'dashboard' || view === 'company') && !loading && !noBuildData && manifest" x-cloak
+      class="sticky-search flex items-center gap-2 py-2"
+      :class="{ 'border-b border-claude-border': view === 'company' }"
+      @click.outside="acOpen = false">
+      <span class="text-claude-dim text-sm font-mono">&gt;&gt;</span>
+      <div class="relative flex-1 min-w-0 sm:w-56 sm:flex-none">
+        <input type="text" x-model.debounce.150ms="search" placeholder="search..." aria-label="Search companies"
+          @focus="if (search) acOpen = true"
+          @keydown="handleSearchKeydown($event)"
+          class="bg-claude-bg border border-claude-border text-claude-text px-2 py-1 text-sm w-full focus:outline-none focus:border-claude-orange rounded-none placeholder-claude-dim font-mono">
+        <button x-show="search" @click="search = ''" class="search-clear-btn absolute right-1.5 top-1/2 -translate-y-1/2 sm:hidden">&times;</button>
+        <!-- Autocomplete dropdown -->
+        <div x-show="acOpen && autocompleteResults.length > 0" class="ac-dropdown">
+          <template x-for="(r, i) in autocompleteResults" :key="r.slug">
+            <div class="ac-item" :class="{ 'ac-item-active': i === acIndex }"
+              @mouseenter="acIndex = i"
+              @mousedown.prevent="selectAutocomplete(r.slug)">
+              <span class="ac-item-name" x-text="r.name"></span>
+              <span class="ac-item-score" :class="avgColor(r.avg)" x-text="r.avg != null ? r.avg.toFixed(1) : '-'"></span>
+            </div>
+          </template>
+        </div>
+      </div>
+      <template x-if="view === 'dashboard'">
+        <div class="flex items-center gap-2">
+          <span class="text-claude-border hidden sm:inline">|</span>
+          <span class="text-claude-dim text-sm" x-text="filteredTable.length + '/' + (manifest ? manifest.table.length : 0) + ' companies'"></span>
+          <span class="text-claude-border hidden sm:inline">|</span>
+          <button @click="watchlistFilter = !watchlistFilter" x-show="!staticMode"
+            :class="watchlistFilter ? 'text-claude-amber' : 'text-claude-dim hover:text-claude-amber'"
+            class="text-sm transition-colors whitespace-nowrap">
+            <span x-text="watchlistFilter ? '\u2605 Watchlist' : '\u2606 Watchlist'"></span>
+          </button>
+        </div>
+      </template>
+      <template x-if="view === 'company' && companyData">
+        <div class="flex items-center gap-2 sm:gap-3 text-sm ml-auto">
+          <button @click="prevCompany()" :disabled="!hasPrevCompany()"
+            :class="hasPrevCompany() ? 'text-claude-text hover:text-claude-orange' : 'text-claude-dim cursor-not-allowed'">&lt;- Prev</button>
+          <span class="text-claude-orange" x-text="'#' + (companyData.consolidatedRank || '?')"></span>
+          <button @click="nextCompany()" :disabled="!hasNextCompany()"
+            :class="hasNextCompany() ? 'text-claude-text hover:text-claude-orange' : 'text-claude-dim cursor-not-allowed'">Next -&gt;</button>
+        </div>
+      </template>
+    </div>
+
     <!-- Dashboard View -->
     <div x-show="view === 'dashboard' && !loading && !noBuildData" x-cloak>
-      <!-- Search -->
-      <div class="sticky-search flex items-center gap-2 py-2">
-        <span class="text-claude-dim text-sm font-mono">&gt;&gt;</span>
-        <div class="relative flex-1 min-w-0 sm:w-56 sm:flex-none">
-          <input type="text" x-model.debounce.150ms="search" placeholder="search..." aria-label="Search companies"
-            class="bg-claude-bg border border-claude-border text-claude-text px-2 py-1 text-sm w-full focus:outline-none focus:border-claude-orange rounded-none placeholder-claude-dim font-mono">
-          <button x-show="search" @click="search = ''" class="search-clear-btn absolute right-1.5 top-1/2 -translate-y-1/2 sm:hidden">&times;</button>
-        </div>
-        <span class="text-claude-border hidden sm:inline">|</span>
-        <span class="text-claude-dim text-sm" x-text="filteredTable.length + '/' + (manifest ? manifest.table.length : 0) + ' companies'"></span>
-        <span class="text-claude-border hidden sm:inline">|</span>
-        <button @click="watchlistFilter = !watchlistFilter" x-show="!staticMode"
-          :class="watchlistFilter ? 'text-claude-amber' : 'text-claude-dim hover:text-claude-amber'"
-          class="text-sm transition-colors whitespace-nowrap">
-          <span x-text="watchlistFilter ? '\u2605 Watchlist' : '\u2606 Watchlist'"></span>
-        </button>
-      </div>
 
       <!-- Table (hidden on mobile, replaced by card view) -->
       <div class="hidden sm:block">
@@ -332,22 +362,8 @@
     <div x-show="view === 'company' && !loading" x-cloak>
       <template x-if="companyData">
         <div>
-          <!-- Back + Prev/Next -->
-          <div class="flex items-center justify-between mb-3">
-            <button @click="navigate('dashboard')" class="text-claude-text hover:text-claude-orange text-sm py-1">&lt;&lt; Dashboard</button>
-            <div class="flex gap-2 sm:gap-3 text-sm">
-              <button @click="prevCompany()" :disabled="!hasPrevCompany()"
-                :class="hasPrevCompany() ? 'text-claude-text hover:text-claude-orange' : 'text-claude-dim cursor-not-allowed'"
-                class="py-1">&lt;- Prev</button>
-              <span class="text-claude-orange py-1" x-text="'#' + (companyData.consolidatedRank || '?')"></span>
-              <button @click="nextCompany()" :disabled="!hasNextCompany()"
-                :class="hasNextCompany() ? 'text-claude-text hover:text-claude-orange' : 'text-claude-dim cursor-not-allowed'"
-                class="py-1">Next -&gt;</button>
-            </div>
-          </div>
-
           <!-- Header -->
-          <div class="mb-4">
+          <div class="mb-4 mt-3">
             <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2">
               <div class="min-w-0">
                 <div class="flex items-center gap-2">

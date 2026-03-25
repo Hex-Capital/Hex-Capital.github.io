@@ -455,6 +455,62 @@ main {
   background: var(--c-gray);
 }
 
+/* ===== Autocomplete Dropdown ===== */
+.ac-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 45;
+  background: var(--c-card);
+  border: 1px solid var(--c-border);
+  border-top: none;
+  max-height: 320px;
+  overflow-y: auto;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+.ac-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 10px;
+  cursor: pointer;
+  transition: background 0.1s;
+}
+
+.ac-item:hover {
+  background: var(--c-card-hover);
+}
+
+.ac-item-active {
+  background: var(--c-card-hover);
+  border-left: 3px solid var(--c-accent);
+  padding-left: 7px;
+}
+
+.ac-item-active .ac-item-name {
+  color: var(--c-accent);
+}
+
+.ac-item-name {
+  font-family: 'JetBrains Mono', 'Consolas', monospace;
+  font-size: 13px;
+  color: var(--c-text);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 0;
+}
+
+.ac-item-score {
+  font-family: 'JetBrains Mono', 'Consolas', monospace;
+  font-size: 13px;
+  font-weight: 700;
+  flex-shrink: 0;
+  margin-left: 8px;
+}
+
 /* ===== Mobile Responsive ===== */
 @media (max-width: 639px) {
   /* Smooth horizontal scrolling with touch */
@@ -820,12 +876,21 @@ main {
 
   /* Status footer: subtle on mobile */
   .status-footer {
-    padding: 3px 12px;
+    padding: 5px 12px;
     font-size: 9px;
     opacity: 0.7;
     background: rgba(32, 29, 24, 0.85);
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
+  }
+
+  /* Autocomplete: mobile overrides */
+  .ac-dropdown {
+    max-height: 240px;
+  }
+
+  .ac-item {
+    padding: 10px 10px;
   }
 
 }

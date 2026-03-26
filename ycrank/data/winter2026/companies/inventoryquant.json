@@ -1,0 +1,75 @@
+{
+  "slug": "inventoryquant",
+  "name": "InventoryQuant",
+  "oneLiner": "We automate the inventory process in insurance",
+  "metadata": {
+    "website": "https://www.inventoryquant.com",
+    "yc_page": "https://www.ycombinator.com/companies/inventoryquant",
+    "batch": "Winter 2026",
+    "industry": "B2B / B2B",
+    "team_size": "1",
+    "location": "San Francisco, CA, USA",
+    "tags": "Insurance, AI",
+    "yc_partner": "Diana Hu",
+    "emails": "sander@inventoryquant.com"
+  },
+  "tags": [
+    "Insurance",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-26T01:32:21.363Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 37,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 35,
+    "EG": 41,
+    "NR": 38,
+    "PG": 50,
+    "PT": 31,
+    "SL": 27,
+    "VK": 37
+  },
+  "consolidatedAvg": 37,
+  "consolidatedRank": 137,
+  "paths": {
+    "memo": "winter2026/memos/inventoryquant.md",
+    "evals": {
+      "cyan-banister": "winter2026/evals/cyan-banister/inventoryquant.md",
+      "elad-gil": "winter2026/evals/elad-gil/inventoryquant.md",
+      "naval-ravikant": "winter2026/evals/naval-ravikant/inventoryquant.md",
+      "paul-graham": "winter2026/evals/paul-graham/inventoryquant.md",
+      "peter-thiel": "winter2026/evals/peter-thiel/inventoryquant.md",
+      "sam-lessin": "winter2026/evals/sam-lessin/inventoryquant.md",
+      "vinod-khosla": "winter2026/evals/vinod-khosla/inventoryquant.md"
+    }
+  }
+}

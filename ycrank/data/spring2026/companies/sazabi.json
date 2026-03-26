@@ -42,6 +42,10 @@
     "sam-lessin": {
       "score": 31,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 46,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
@@ -51,10 +55,10 @@
     "PG": 55,
     "PT": 36,
     "SL": 31,
-    "VK": null
+    "VK": 46
   },
-  "consolidatedAvg": 42.67,
-  "consolidatedRank": 12,
+  "consolidatedAvg": 43.14,
+  "consolidatedRank": 14,
   "paths": {
     "memo": "spring2026/memos/sazabi.md",
     "evals": {
@@ -63,7 +67,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/sazabi.md",
       "paul-graham": "spring2026/evals/paul-graham/sazabi.md",
       "peter-thiel": "spring2026/evals/peter-thiel/sazabi.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/sazabi.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/sazabi.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/sazabi.md"
     }
   }
 }

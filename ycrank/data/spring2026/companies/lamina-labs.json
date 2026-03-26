@@ -44,6 +44,10 @@
     "sam-lessin": {
       "score": 30,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 46,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
@@ -53,9 +57,9 @@
     "PG": 49,
     "PT": 38,
     "SL": 30,
-    "VK": null
+    "VK": 46
   },
-  "consolidatedAvg": 41.33,
+  "consolidatedAvg": 42,
   "consolidatedRank": 15,
   "paths": {
     "memo": "spring2026/memos/lamina-labs.md",
@@ -65,7 +69,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/lamina-labs.md",
       "paul-graham": "spring2026/evals/paul-graham/lamina-labs.md",
       "peter-thiel": "spring2026/evals/peter-thiel/lamina-labs.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/lamina-labs.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/lamina-labs.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/lamina-labs.md"
     }
   }
 }

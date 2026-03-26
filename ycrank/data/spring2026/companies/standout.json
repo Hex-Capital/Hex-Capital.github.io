@@ -41,6 +41,14 @@
     "peter-thiel": {
       "score": 28,
       "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 34,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -49,11 +57,11 @@
     "NR": 37,
     "PG": 52,
     "PT": 28,
-    "SL": null,
-    "VK": null
+    "SL": 29,
+    "VK": 34
   },
-  "consolidatedAvg": 37.4,
-  "consolidatedRank": 26,
+  "consolidatedAvg": 35.71,
+  "consolidatedRank": 31,
   "paths": {
     "memo": "spring2026/memos/standout.md",
     "evals": {
@@ -61,7 +69,9 @@
       "elad-gil": "spring2026/evals/elad-gil/standout.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/standout.md",
       "paul-graham": "spring2026/evals/paul-graham/standout.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/standout.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/standout.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/standout.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/standout.md"
     }
   }
 }

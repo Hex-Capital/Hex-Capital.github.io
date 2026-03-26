@@ -46,6 +46,10 @@
     "sam-lessin": {
       "score": 40,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 47,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
@@ -55,10 +59,10 @@
     "PG": 66,
     "PT": 36,
     "SL": 40,
-    "VK": null
+    "VK": 47
   },
-  "consolidatedAvg": 51.67,
-  "consolidatedRank": 5,
+  "consolidatedAvg": 51,
+  "consolidatedRank": 6,
   "paths": {
     "memo": "spring2026/memos/arzana.md",
     "evals": {
@@ -67,7 +71,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/arzana.md",
       "paul-graham": "spring2026/evals/paul-graham/arzana.md",
       "peter-thiel": "spring2026/evals/peter-thiel/arzana.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/arzana.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/arzana.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/arzana.md"
     }
   }
 }

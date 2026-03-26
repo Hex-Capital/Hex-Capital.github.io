@@ -44,6 +44,10 @@
     "sam-lessin": {
       "score": 23,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 32,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -53,10 +57,10 @@
     "PG": 47,
     "PT": 23,
     "SL": 23,
-    "VK": null
+    "VK": 32
   },
-  "consolidatedAvg": 35.83,
-  "consolidatedRank": 29,
+  "consolidatedAvg": 35.29,
+  "consolidatedRank": 34,
   "paths": {
     "memo": "spring2026/memos/qomplement.md",
     "evals": {
@@ -65,7 +69,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/qomplement.md",
       "paul-graham": "spring2026/evals/paul-graham/qomplement.md",
       "peter-thiel": "spring2026/evals/peter-thiel/qomplement.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/qomplement.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/qomplement.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/qomplement.md"
     }
   }
 }

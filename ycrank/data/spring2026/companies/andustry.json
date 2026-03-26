@@ -46,6 +46,10 @@
     "sam-lessin": {
       "score": 32,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 39,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -55,10 +59,10 @@
     "PG": 49,
     "PT": 29,
     "SL": 32,
-    "VK": null
+    "VK": 39
   },
-  "consolidatedAvg": 39.83,
-  "consolidatedRank": 17,
+  "consolidatedAvg": 39.71,
+  "consolidatedRank": 18,
   "paths": {
     "memo": "spring2026/memos/andustry.md",
     "evals": {
@@ -67,7 +71,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/andustry.md",
       "paul-graham": "spring2026/evals/paul-graham/andustry.md",
       "peter-thiel": "spring2026/evals/peter-thiel/andustry.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/andustry.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/andustry.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/andustry.md"
     }
   }
 }

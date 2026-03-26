@@ -44,6 +44,10 @@
     "sam-lessin": {
       "score": 38,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 51,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
@@ -53,9 +57,9 @@
     "PG": 40,
     "PT": 34,
     "SL": 38,
-    "VK": null
+    "VK": 51
   },
-  "consolidatedAvg": 42.5,
+  "consolidatedAvg": 43.71,
   "consolidatedRank": 13,
   "paths": {
     "memo": "spring2026/memos/gikl-inc.md",
@@ -65,7 +69,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/gikl-inc.md",
       "paul-graham": "spring2026/evals/paul-graham/gikl-inc.md",
       "peter-thiel": "spring2026/evals/peter-thiel/gikl-inc.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/gikl-inc.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/gikl-inc.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/gikl-inc.md"
     }
   }
 }

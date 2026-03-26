@@ -1,0 +1,26 @@
+﻿# Alchemy -- Vinod Khosla Evaluation
+
+Here is a company that has found a genuine pain point -- researchers wasting hours annotating microscope images -- and built the exact product you'd expect: a natural language wrapper around existing segmentation models that makes ImageJ easier to use. And that is precisely the problem. Everyone agrees this should exist. The microscope manufacturers agree. The open-source community agrees. Any competent ML team with a weekend and access to Cellpose could build the first 80% of this. When nobody dismisses your idea as crazy, when the incumbents are already integrating the same capability into their hardware bundles, you are not disrupting anything. You are building a feature.
+
+Let me start where I always start: if Alchemy succeeds completely -- captures dominant market share in research microscopy image analysis -- what changes? Researchers analyze their images faster. That is good. It is useful. And the consequence is a profitable SaaS tool in a market that tops out around $2-3 billion, of which the research-specific slice is a fraction. Compare this to the bets I write checks for: replacing the $1.7 trillion meat industry, achieving controlled nuclear fusion, building artificial general intelligence. Those are problems where success reshapes how civilization operates. Alchemy's success means a grad student finishes her cell counting before lunch instead of after dinner. I do not need to run a spreadsheet to know that the magnitude of this consequence does not justify the talent and effort of two capable young engineers.
+
+The bull case deserves honest consideration. You could argue that Alchemy is positioned at a chokepoint in the drug discovery pipeline -- that by democratizing image analysis for every researcher, not just those who can write Python, they accelerate the rate of scientific discovery itself. You could argue that the data flywheel from thousands of pipeline interactions creates a moat that neither open-source tools nor hardware vendors can replicate. And the timing is real: vision-language models crossed a capability threshold in 2024-2025 that makes agentic pipeline assembly genuinely feasible for the first time. If you believe that the bottleneck in drug discovery is image analysis throughput, and that Alchemy could become the platform layer for all research microscopy, then the downstream impact on human health compounds significantly beyond the direct TAM. I take this seriously. But the argument requires that image analysis is the binding constraint on discovery, and the evidence for that is thin. Biology's bottlenecks are more often experimental design, target validation, and clinical translation -- not the speed of cell segmentation.
+
+The founders present a conventional pairing: biomedical engineering domain knowledge plus ML engineering capability. Phillip Baek's background at Boston Scientific and cancer research at Peking University gives him proximity to the user, and Liam McBride's patent at 19 and UIUC CS credentials suggest technical capability. But nothing here signals the kind of outsider audacity that characterizes my best investments. This is not a biochemist who does not know what the food industry considers impossible. This is two recent graduates building software in the domain they studied -- the safe, expected play. I see no evidence of contrarian thinking, no evidence of rapid learning-rate evolution during YC, no evidence of attempting something the consensus deems impossible. They are reducing their probability of failure, which means they are reducing the consequence of their success.
+
+The commoditization risk is substantial and structural. Foundation vision-language models are improving rapidly, and the core capability Alchemy provides -- selecting appropriate segmentation models and assembling analysis pipelines -- is exactly the kind of task that general-purpose AI agents will subsume. Meanwhile, Leica already acquired DRVISION and is bundling AI analysis with microscope hardware. Zeiss and Nikon are doing the same. Open-source tools like napari are adding plugin ecosystems. Alchemy is building in a narrowing corridor between free open-source tools on one side and hardware-bundled enterprise platforms on the other, with general AI agents approaching from above. The technology itself -- natural language to pipeline assembly using existing models -- does not create structural disruption. It creates a better interface. Interfaces are important. They are not moats.
+
+I regularly pass on companies like this. Two smart founders, real market, working product, growing sector -- and a consequence of success that is fundamentally inconsequential at the scale I invest for. Some problems are too important not to work on. Making ImageJ easier to use is not one of them.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Consequence Magnitude If Successful | 7/30 |
+| Founder Learning Rate and Contrarian Courage | 6/25 |
+| Technology Disruption Potential vs. Incumbent Systems | 5/20 |
+| Rate of Change and Timing Trajectory | 8/15 |
+| Gene Pool Engineering and Team Construction | 5/10 |
+| **Total** | **31/100** |
+
+**Total Score: 31/100** (Pass)

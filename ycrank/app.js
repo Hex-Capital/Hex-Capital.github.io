@@ -135,7 +135,7 @@ function app() {
 
         // Load default batch
         if (this.batches.length > 0) {
-          this.currentBatch = this.batches[this.batches.length - 1]; // latest
+          this.currentBatch = this.batches[0]; // newest (sorted chronologically)
           await this.loadBatch(this.currentBatch);
         } else {
           this.noBuildData = true;

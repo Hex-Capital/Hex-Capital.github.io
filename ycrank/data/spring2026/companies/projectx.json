@@ -39,6 +39,10 @@
     "sam-lessin": {
       "score": 34,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 44,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -48,10 +52,10 @@
     "PG": 58,
     "PT": 35,
     "SL": 34,
-    "VK": null
+    "VK": 44
   },
-  "consolidatedAvg": 41.67,
-  "consolidatedRank": 14,
+  "consolidatedAvg": 42,
+  "consolidatedRank": 16,
   "paths": {
     "memo": "spring2026/memos/projectx.md",
     "evals": {
@@ -60,7 +64,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/projectx.md",
       "paul-graham": "spring2026/evals/paul-graham/projectx.md",
       "peter-thiel": "spring2026/evals/peter-thiel/projectx.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/projectx.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/projectx.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/projectx.md"
     }
   }
 }

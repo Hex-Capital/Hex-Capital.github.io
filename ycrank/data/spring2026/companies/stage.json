@@ -43,6 +43,10 @@
     "sam-lessin": {
       "score": 24,
       "tier": "Strong Pass"
+    },
+    "vinod-khosla": {
+      "score": 33,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -52,10 +56,10 @@
     "PG": 50,
     "PT": 26,
     "SL": 24,
-    "VK": null
+    "VK": 33
   },
-  "consolidatedAvg": 34,
-  "consolidatedRank": 37,
+  "consolidatedAvg": 33.86,
+  "consolidatedRank": 40,
   "paths": {
     "memo": "spring2026/memos/stage.md",
     "evals": {
@@ -64,7 +68,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/stage.md",
       "paul-graham": "spring2026/evals/paul-graham/stage.md",
       "peter-thiel": "spring2026/evals/peter-thiel/stage.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/stage.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/stage.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/stage.md"
     }
   }
 }

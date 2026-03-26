@@ -45,6 +45,10 @@
     "sam-lessin": {
       "score": 50,
       "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 66,
+      "tier": "Invest"
     }
   },
   "consolidatedScores": {
@@ -54,10 +58,10 @@
     "PG": 65,
     "PT": 52,
     "SL": 50,
-    "VK": null
+    "VK": 66
   },
-  "consolidatedAvg": 56.17,
-  "consolidatedRank": 2,
+  "consolidatedAvg": 57.57,
+  "consolidatedRank": 1,
   "paths": {
     "memo": "spring2026/memos/matforge.md",
     "evals": {
@@ -66,7 +70,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/matforge.md",
       "paul-graham": "spring2026/evals/paul-graham/matforge.md",
       "peter-thiel": "spring2026/evals/peter-thiel/matforge.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/matforge.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/matforge.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/matforge.md"
     }
   }
 }

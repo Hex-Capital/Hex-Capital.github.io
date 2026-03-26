@@ -44,6 +44,10 @@
     "sam-lessin": {
       "score": 38,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 48,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
@@ -53,10 +57,10 @@
     "PG": 66,
     "PT": 34,
     "SL": 38,
-    "VK": null
+    "VK": 48
   },
-  "consolidatedAvg": 50.83,
-  "consolidatedRank": 6,
+  "consolidatedAvg": 50.43,
+  "consolidatedRank": 7,
   "paths": {
     "memo": "spring2026/memos/minicor.md",
     "evals": {
@@ -65,7 +69,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/minicor.md",
       "paul-graham": "spring2026/evals/paul-graham/minicor.md",
       "peter-thiel": "spring2026/evals/peter-thiel/minicor.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/minicor.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/minicor.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/minicor.md"
     }
   }
 }

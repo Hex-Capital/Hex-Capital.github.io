@@ -44,6 +44,10 @@
     "sam-lessin": {
       "score": 30,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 41,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -53,10 +57,10 @@
     "PG": 48,
     "PT": 26,
     "SL": 30,
-    "VK": null
+    "VK": 41
   },
-  "consolidatedAvg": 38.5,
-  "consolidatedRank": 20,
+  "consolidatedAvg": 38.86,
+  "consolidatedRank": 22,
   "paths": {
     "memo": "spring2026/memos/playablai.md",
     "evals": {
@@ -65,7 +69,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/playablai.md",
       "paul-graham": "spring2026/evals/paul-graham/playablai.md",
       "peter-thiel": "spring2026/evals/peter-thiel/playablai.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/playablai.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/playablai.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/playablai.md"
     }
   }
 }

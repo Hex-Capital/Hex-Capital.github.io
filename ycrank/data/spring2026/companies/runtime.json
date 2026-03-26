@@ -43,6 +43,10 @@
     "sam-lessin": {
       "score": 29,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 38,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -52,10 +56,10 @@
     "PG": 35,
     "PT": 28,
     "SL": 29,
-    "VK": null
+    "VK": 38
   },
-  "consolidatedAvg": 35.33,
-  "consolidatedRank": 31,
+  "consolidatedAvg": 35.71,
+  "consolidatedRank": 30,
   "paths": {
     "memo": "spring2026/memos/runtime.md",
     "evals": {
@@ -64,7 +68,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/runtime.md",
       "paul-graham": "spring2026/evals/paul-graham/runtime.md",
       "peter-thiel": "spring2026/evals/peter-thiel/runtime.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/runtime.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/runtime.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/runtime.md"
     }
   }
 }

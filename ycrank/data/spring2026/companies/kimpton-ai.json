@@ -42,6 +42,10 @@
     "sam-lessin": {
       "score": 30,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 41,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -51,10 +55,10 @@
     "PG": 52,
     "PT": 32,
     "SL": 30,
-    "VK": null
+    "VK": 41
   },
-  "consolidatedAvg": 39.33,
-  "consolidatedRank": 18,
+  "consolidatedAvg": 39.57,
+  "consolidatedRank": 19,
   "paths": {
     "memo": "spring2026/memos/kimpton-ai.md",
     "evals": {
@@ -63,7 +67,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/kimpton-ai.md",
       "paul-graham": "spring2026/evals/paul-graham/kimpton-ai.md",
       "peter-thiel": "spring2026/evals/peter-thiel/kimpton-ai.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/kimpton-ai.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/kimpton-ai.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/kimpton-ai.md"
     }
   }
 }

@@ -44,6 +44,10 @@
     "sam-lessin": {
       "score": 26,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 27,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -53,10 +57,10 @@
     "PG": 56,
     "PT": 21,
     "SL": 26,
-    "VK": null
+    "VK": 27
   },
-  "consolidatedAvg": 33.33,
-  "consolidatedRank": 39,
+  "consolidatedAvg": 32.43,
+  "consolidatedRank": 42,
   "paths": {
     "memo": "spring2026/memos/manicule.md",
     "evals": {
@@ -65,7 +69,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/manicule.md",
       "paul-graham": "spring2026/evals/paul-graham/manicule.md",
       "peter-thiel": "spring2026/evals/peter-thiel/manicule.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/manicule.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/manicule.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/manicule.md"
     }
   }
 }

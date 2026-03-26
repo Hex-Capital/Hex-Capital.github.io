@@ -44,6 +44,10 @@
     "sam-lessin": {
       "score": 66,
       "tier": "Invest"
+    },
+    "vinod-khosla": {
+      "score": 63,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
@@ -53,10 +57,10 @@
     "PG": 53,
     "PT": 45,
     "SL": 66,
-    "VK": null
+    "VK": 63
   },
-  "consolidatedAvg": 55.67,
-  "consolidatedRank": 3,
+  "consolidatedAvg": 56.71,
+  "consolidatedRank": 2,
   "paths": {
     "memo": "spring2026/memos/adialante.md",
     "evals": {
@@ -65,7 +69,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/adialante.md",
       "paul-graham": "spring2026/evals/paul-graham/adialante.md",
       "peter-thiel": "spring2026/evals/peter-thiel/adialante.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/adialante.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/adialante.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/adialante.md"
     }
   }
 }

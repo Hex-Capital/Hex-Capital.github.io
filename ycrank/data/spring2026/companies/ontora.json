@@ -44,6 +44,10 @@
     "sam-lessin": {
       "score": 31,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 42,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -53,10 +57,10 @@
     "PG": 42,
     "PT": 29,
     "SL": 31,
-    "VK": null
+    "VK": 42
   },
-  "consolidatedAvg": 35.17,
-  "consolidatedRank": 32,
+  "consolidatedAvg": 36.14,
+  "consolidatedRank": 27,
   "paths": {
     "memo": "spring2026/memos/ontora.md",
     "evals": {
@@ -65,7 +69,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/ontora.md",
       "paul-graham": "spring2026/evals/paul-graham/ontora.md",
       "peter-thiel": "spring2026/evals/peter-thiel/ontora.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/ontora.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/ontora.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/ontora.md"
     }
   }
 }

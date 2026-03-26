@@ -46,6 +46,10 @@
     "sam-lessin": {
       "score": 31,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 41,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -55,10 +59,10 @@
     "PG": 37,
     "PT": 28,
     "SL": 31,
-    "VK": null
+    "VK": 41
   },
-  "consolidatedAvg": 35.17,
-  "consolidatedRank": 33,
+  "consolidatedAvg": 36,
+  "consolidatedRank": 28,
   "paths": {
     "memo": "spring2026/memos/primitive.md",
     "evals": {
@@ -67,7 +71,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/primitive.md",
       "paul-graham": "spring2026/evals/paul-graham/primitive.md",
       "peter-thiel": "spring2026/evals/peter-thiel/primitive.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/primitive.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/primitive.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/primitive.md"
     }
   }
 }

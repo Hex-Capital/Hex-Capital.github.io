@@ -44,6 +44,10 @@
     "sam-lessin": {
       "score": 26,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 47,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
@@ -53,10 +57,10 @@
     "PG": 49,
     "PT": 36,
     "SL": 26,
-    "VK": null
+    "VK": 47
   },
-  "consolidatedAvg": 38.17,
-  "consolidatedRank": 23,
+  "consolidatedAvg": 39.43,
+  "consolidatedRank": 21,
   "paths": {
     "memo": "spring2026/memos/saffron.md",
     "evals": {
@@ -65,7 +69,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/saffron.md",
       "paul-graham": "spring2026/evals/paul-graham/saffron.md",
       "peter-thiel": "spring2026/evals/peter-thiel/saffron.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/saffron.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/saffron.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/saffron.md"
     }
   }
 }

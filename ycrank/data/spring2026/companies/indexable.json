@@ -11,54 +11,50 @@
     "location": "San Francisco, CA, USA",
     "tags": "Artificial Intelligence",
     "yc_partner": "Pete Koomen",
-    "emails": "andrew@ix.dev"
+    "emails": "andrew@ix.dev (GitHub bio)"
   },
   "tags": [
     "Artificial Intelligence"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-03-10T18:34:51.466Z",
+  "memoGeneratedAt": "2026-03-26T05:11:16.481Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 37,
+      "score": 32,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 52,
+      "score": 45,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 72,
+      "score": 67,
       "tier": "Invest"
     },
     "paul-graham": {
-      "score": 59,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
       "score": 55,
       "tier": "Neutral"
     },
-    "sam-lessin": {
-      "score": 44,
-      "tier": "Pass"
+    "peter-thiel": {
+      "score": 48,
+      "tier": "Neutral"
     },
-    "vinod-khosla": {
-      "score": 65,
-      "tier": "Invest"
+    "sam-lessin": {
+      "score": 46,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 37,
-    "EG": 52,
-    "NR": 72,
-    "PG": 59,
-    "PT": 55,
-    "SL": 44,
-    "VK": 65
+    "CB": 32,
+    "EG": 45,
+    "NR": 67,
+    "PG": 55,
+    "PT": 48,
+    "SL": 46,
+    "VK": null
   },
-  "consolidatedAvg": 54.86,
-  "consolidatedRank": 1,
+  "consolidatedAvg": 48.83,
+  "consolidatedRank": 7,
   "paths": {
     "memo": "spring2026/memos/indexable.md",
     "evals": {
@@ -67,8 +63,7 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/indexable.md",
       "paul-graham": "spring2026/evals/paul-graham/indexable.md",
       "peter-thiel": "spring2026/evals/peter-thiel/indexable.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/indexable.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/indexable.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/indexable.md"
     }
   }
 }

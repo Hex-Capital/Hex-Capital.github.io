@@ -1,0 +1,71 @@
+{
+  "slug": "amboras",
+  "name": "Amboras",
+  "oneLiner": "Let AI sell your stuff on autopilot",
+  "metadata": {
+    "website": "https://amboras.com",
+    "yc_page": "https://www.ycombinator.com/companies/amboras",
+    "batch": "Spring 2026",
+    "industry": "B2B / B2B",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "Generative AI, B2B, E-commerce",
+    "yc_partner": "Aaron Epstein",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Generative AI",
+    "B2B",
+    "E-commerce"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-26T05:07:25.002Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 25,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 28,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 31,
+    "EG": 38,
+    "NR": 43,
+    "PG": 44,
+    "PT": 25,
+    "SL": 28,
+    "VK": null
+  },
+  "consolidatedAvg": 34.83,
+  "consolidatedRank": 34,
+  "paths": {
+    "memo": "spring2026/memos/amboras.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/amboras.md",
+      "elad-gil": "spring2026/evals/elad-gil/amboras.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/amboras.md",
+      "paul-graham": "spring2026/evals/paul-graham/amboras.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/amboras.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/amboras.md"
+    }
+  }
+}

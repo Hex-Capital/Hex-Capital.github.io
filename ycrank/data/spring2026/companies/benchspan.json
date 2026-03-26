@@ -1,0 +1,72 @@
+{
+  "slug": "benchspan",
+  "name": "Benchspan",
+  "oneLiner": "Run agent benchmarks in minutes, not hours",
+  "metadata": {
+    "website": "https://www.benchspan.com",
+    "yc_page": "https://www.ycombinator.com/companies/benchspan",
+    "batch": "Spring 2026",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "AIOps, Analytics, Infrastructure, AI",
+    "yc_partner": "David Lieb",
+    "emails": "founders@benchspan.com"
+  },
+  "tags": [
+    "AIOps",
+    "Analytics",
+    "Infrastructure",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-26T05:15:05.330Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 27,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 29,
+    "EG": 37,
+    "NR": 50,
+    "PG": 54,
+    "PT": 33,
+    "SL": 27,
+    "VK": null
+  },
+  "consolidatedAvg": 38.33,
+  "consolidatedRank": 21,
+  "paths": {
+    "memo": "spring2026/memos/benchspan.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/benchspan.md",
+      "elad-gil": "spring2026/evals/elad-gil/benchspan.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/benchspan.md",
+      "paul-graham": "spring2026/evals/paul-graham/benchspan.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/benchspan.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/benchspan.md"
+    }
+  }
+}

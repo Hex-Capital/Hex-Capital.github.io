@@ -1,0 +1,70 @@
+{
+  "slug": "runtime",
+  "name": "Runtime",
+  "oneLiner": "Guardrails and visibility to enable your team to ship with coding agents securely",
+  "metadata": {
+    "website": "https://www.runtm.com/",
+    "yc_page": "https://www.ycombinator.com/companies/runtime",
+    "batch": "Spring 2026",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Developer Tools",
+    "yc_partner": "Aaron Epstein",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-26T05:09:27.019Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 31,
+    "EG": 48,
+    "NR": 41,
+    "PG": 35,
+    "PT": 28,
+    "SL": 29,
+    "VK": null
+  },
+  "consolidatedAvg": 35.33,
+  "consolidatedRank": 31,
+  "paths": {
+    "memo": "spring2026/memos/runtime.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/runtime.md",
+      "elad-gil": "spring2026/evals/elad-gil/runtime.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/runtime.md",
+      "paul-graham": "spring2026/evals/paul-graham/runtime.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/runtime.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/runtime.md"
+    }
+  }
+}

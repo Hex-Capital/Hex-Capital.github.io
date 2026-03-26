@@ -8,7 +8,7 @@
     "batch": "Spring 2026",
     "industry": "B2B / B2B -> Analytics",
     "team_size": "2",
-    "location": "San Francisco, United States (Tracxn via search snippet)",
+    "location": "New York City (YC page, founder profile)",
     "tags": "B2B, Analytics, AI Assistant",
     "yc_partner": "David Lieb",
     "emails": "No public data found"
@@ -19,48 +19,44 @@
     "AI Assistant"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-03-10T18:33:30.354Z",
+  "memoGeneratedAt": "2026-03-26T05:10:32.158Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 31,
+      "score": 28,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 33,
+      "score": 29,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 39,
+      "score": 30,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 36,
+      "score": 31,
       "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 23,
+      "score": 25,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 20,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 28,
+      "score": 21,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 31,
-    "EG": 33,
-    "NR": 39,
-    "PG": 36,
-    "PT": 23,
-    "SL": 20,
-    "VK": 28
+    "CB": 28,
+    "EG": 29,
+    "NR": 30,
+    "PG": 31,
+    "PT": 25,
+    "SL": 21,
+    "VK": null
   },
-  "consolidatedAvg": 30,
-  "consolidatedRank": 11,
+  "consolidatedAvg": 27.33,
+  "consolidatedRank": 43,
   "paths": {
     "memo": "spring2026/memos/datost.md",
     "evals": {
@@ -69,8 +65,7 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/datost.md",
       "paul-graham": "spring2026/evals/paul-graham/datost.md",
       "peter-thiel": "spring2026/evals/peter-thiel/datost.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/datost.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/datost.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/datost.md"
     }
   }
 }

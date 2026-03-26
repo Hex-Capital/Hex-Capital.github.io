@@ -1,0 +1,72 @@
+{
+  "slug": "keyframe-labs",
+  "name": "Keyframe Labs",
+  "oneLiner": "Turn agents into lifelike video calls. $0.06 a minute.",
+  "metadata": {
+    "website": "https://keyframelabs.com",
+    "yc_page": "https://www.ycombinator.com/companies/keyframe-labs",
+    "batch": "Spring 2026 (S26)",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "Santa Monica, CA (CA corporate filing via BizProfile)",
+    "tags": "B2B, Video, API, AI",
+    "yc_partner": "David Lieb",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "B2B",
+    "Video",
+    "API",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-26T05:20:05.345Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 67,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 34,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 43,
+    "EG": 50,
+    "NR": 67,
+    "PG": 59,
+    "PT": 38,
+    "SL": 34,
+    "VK": null
+  },
+  "consolidatedAvg": 48.5,
+  "consolidatedRank": 8,
+  "paths": {
+    "memo": "spring2026/memos/keyframe-labs.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/keyframe-labs.md",
+      "elad-gil": "spring2026/evals/elad-gil/keyframe-labs.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/keyframe-labs.md",
+      "paul-graham": "spring2026/evals/paul-graham/keyframe-labs.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/keyframe-labs.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/keyframe-labs.md"
+    }
+  }
+}

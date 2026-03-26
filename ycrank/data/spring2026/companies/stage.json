@@ -1,0 +1,70 @@
+{
+  "slug": "stage",
+  "name": "Stage",
+  "oneLiner": "Code review platform for today's engineers",
+  "metadata": {
+    "website": "https://www.stagereview.app/",
+    "yc_page": "https://www.ycombinator.com/companies/stage",
+    "batch": "Spring 2026",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "2",
+    "location": "No public data found",
+    "tags": "Developer Tools, SaaS",
+    "yc_partner": "Pete Koomen",
+    "emails": "dastratakos@gmail.com (Dean Stratakos personal site)"
+  },
+  "tags": [
+    "Developer Tools",
+    "SaaS"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-26T05:28:32.086Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 24,
+      "tier": "Strong Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 29,
+    "EG": 34,
+    "NR": 41,
+    "PG": 50,
+    "PT": 26,
+    "SL": 24,
+    "VK": null
+  },
+  "consolidatedAvg": 34,
+  "consolidatedRank": 37,
+  "paths": {
+    "memo": "spring2026/memos/stage.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/stage.md",
+      "elad-gil": "spring2026/evals/elad-gil/stage.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/stage.md",
+      "paul-graham": "spring2026/evals/paul-graham/stage.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/stage.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/stage.md"
+    }
+  }
+}

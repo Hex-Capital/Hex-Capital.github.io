@@ -1,0 +1,66 @@
+{
+  "slug": "gojiberry-ai",
+  "name": "Gojiberry AI",
+  "oneLiner": "GTM Brain for small sales teams",
+  "metadata": {
+    "website": "https://www.gojiberry.ai",
+    "yc_page": "https://www.ycombinator.com/companies/gojiberry-ai",
+    "batch": "Spring 2026 (S26)",
+    "industry": "B2B / B2B -> Sales",
+    "team_size": "0",
+    "location": "Remote",
+    "yc_partner": "Andrew Miklas",
+    "emails": "No public data found"
+  },
+  "tags": [],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-26T05:19:11.331Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 60,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 25,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 30,
+    "EG": 41,
+    "NR": 40,
+    "PG": 60,
+    "PT": 25,
+    "SL": 30,
+    "VK": null
+  },
+  "consolidatedAvg": 37.67,
+  "consolidatedRank": 24,
+  "paths": {
+    "memo": "spring2026/memos/gojiberry-ai.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/gojiberry-ai.md",
+      "elad-gil": "spring2026/evals/elad-gil/gojiberry-ai.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/gojiberry-ai.md",
+      "paul-graham": "spring2026/evals/paul-graham/gojiberry-ai.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/gojiberry-ai.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/gojiberry-ai.md"
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "slug": "ontora",
+  "name": "Ontora",
+  "oneLiner": "We help managers regain control of their organisations",
+  "metadata": {
+    "website": "https://ontora.com",
+    "yc_page": "https://www.ycombinator.com/companies/ontora",
+    "batch": "Spring 2026",
+    "industry": "B2B / B2B",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Robotic Process Automation, Feedback, AI",
+    "yc_partner": "Tom Blomfield",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Robotic Process Automation",
+    "Feedback",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-26T05:14:45.624Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 28,
+    "EG": 41,
+    "NR": 40,
+    "PG": 42,
+    "PT": 29,
+    "SL": 31,
+    "VK": null
+  },
+  "consolidatedAvg": 35.17,
+  "consolidatedRank": 32,
+  "paths": {
+    "memo": "spring2026/memos/ontora.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/ontora.md",
+      "elad-gil": "spring2026/evals/elad-gil/ontora.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/ontora.md",
+      "paul-graham": "spring2026/evals/paul-graham/ontora.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/ontora.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/ontora.md"
+    }
+  }
+}

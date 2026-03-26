@@ -11,21 +11,21 @@
     "location": "San Francisco, CA, USA",
     "tags": "AI, AI Assistant",
     "yc_partner": "Garry Tan",
-    "emails": "nalingupta.id@gmail.com (founder personal email, from personal website)"
+    "emails": "No public data found"
   },
   "tags": [
     "AI",
     "AI Assistant"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-03-10T18:41:42.019Z",
+  "memoGeneratedAt": "2026-03-26T05:31:11.510Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 35,
+      "score": 30,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 38,
+      "score": 42,
       "tier": "Pass"
     },
     "naval-ravikant": {
@@ -33,33 +33,29 @@
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 49,
+      "score": 55,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 26,
+      "score": 30,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 43,
+      "score": 31,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 35,
-    "EG": 38,
+    "CB": 30,
+    "EG": 42,
     "NR": 41,
-    "PG": 49,
-    "PT": 26,
-    "SL": 29,
-    "VK": 43
+    "PG": 55,
+    "PT": 30,
+    "SL": 31,
+    "VK": null
   },
-  "consolidatedAvg": 37.29,
-  "consolidatedRank": 7,
+  "consolidatedAvg": 38.17,
+  "consolidatedRank": 22,
   "paths": {
     "memo": "spring2026/memos/bujo.md",
     "evals": {
@@ -68,8 +64,7 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/bujo.md",
       "paul-graham": "spring2026/evals/paul-graham/bujo.md",
       "peter-thiel": "spring2026/evals/peter-thiel/bujo.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/bujo.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/bujo.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/bujo.md"
     }
   }
 }

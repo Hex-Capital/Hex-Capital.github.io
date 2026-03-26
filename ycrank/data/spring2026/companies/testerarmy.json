@@ -1,0 +1,64 @@
+{
+  "slug": "testerarmy",
+  "name": "TesterArmy",
+  "oneLiner": "AI QA agent that tests code before it ships",
+  "metadata": {
+    "website": "https://tester.army",
+    "yc_page": "https://www.ycombinator.com/companies/testerarmy",
+    "batch": "Spring 2026",
+    "industry": "B2B / Engineering, Product and Design",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA; Remote",
+    "tags": "AI",
+    "yc_partner": "Pete Koomen",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-26T05:13:22.834Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 26,
+    "EG": 37,
+    "NR": 44,
+    "PG": 46,
+    "PT": 28,
+    "SL": null,
+    "VK": null
+  },
+  "consolidatedAvg": 36.2,
+  "consolidatedRank": 27,
+  "paths": {
+    "memo": "spring2026/memos/testerarmy.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/testerarmy.md",
+      "elad-gil": "spring2026/evals/elad-gil/testerarmy.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/testerarmy.md",
+      "paul-graham": "spring2026/evals/paul-graham/testerarmy.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/testerarmy.md"
+    }
+  }
+}

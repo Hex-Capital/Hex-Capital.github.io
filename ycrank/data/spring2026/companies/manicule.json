@@ -1,0 +1,71 @@
+{
+  "slug": "manicule",
+  "name": "Manicule",
+  "oneLiner": "AI Native Technical Documentation Studio",
+  "metadata": {
+    "website": "https://manicule.dev",
+    "yc_page": "https://www.ycombinator.com/companies/manicule",
+    "batch": "Spring 2026",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Developer Tools, B2B, AI",
+    "yc_partner": "Aaron Epstein",
+    "emails": "founders@manicule.dev, team@manicule.dev, shreyans@manicule.dev"
+  },
+  "tags": [
+    "Developer Tools",
+    "B2B",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-26T05:07:15.075Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 21,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 26,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 29,
+    "EG": 33,
+    "NR": 35,
+    "PG": 56,
+    "PT": 21,
+    "SL": 26,
+    "VK": null
+  },
+  "consolidatedAvg": 33.33,
+  "consolidatedRank": 39,
+  "paths": {
+    "memo": "spring2026/memos/manicule.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/manicule.md",
+      "elad-gil": "spring2026/evals/elad-gil/manicule.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/manicule.md",
+      "paul-graham": "spring2026/evals/paul-graham/manicule.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/manicule.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/manicule.md"
+    }
+  }
+}

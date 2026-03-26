@@ -1,0 +1,69 @@
+{
+  "slug": "openwork",
+  "name": "OpenWork",
+  "oneLiner": "The open source alternative to Claude Cowork",
+  "metadata": {
+    "website": "https://openworklabs.com",
+    "yc_page": "https://www.ycombinator.com/companies/openwork",
+    "batch": "Spring 2026",
+    "industry": "B2B / B2B -> Productivity",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "B2B",
+    "yc_partner": "Aaron Epstein",
+    "emails": "ben@openworklabs.com (GitHub README)"
+  },
+  "tags": [
+    "B2B"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-26T05:07:55.030Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 24,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 27,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 31,
+    "EG": 39,
+    "NR": 38,
+    "PG": 48,
+    "PT": 24,
+    "SL": 27,
+    "VK": null
+  },
+  "consolidatedAvg": 34.5,
+  "consolidatedRank": 35,
+  "paths": {
+    "memo": "spring2026/memos/openwork.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/openwork.md",
+      "elad-gil": "spring2026/evals/elad-gil/openwork.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/openwork.md",
+      "paul-graham": "spring2026/evals/paul-graham/openwork.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/openwork.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/openwork.md"
+    }
+  }
+}

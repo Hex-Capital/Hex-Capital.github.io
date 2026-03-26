@@ -1,0 +1,69 @@
+{
+  "slug": "maquoketa-research",
+  "name": "Maquoketa Research",
+  "oneLiner": "Autonomous one-way attack drones",
+  "metadata": {
+    "website": "https://www.maquoketa.net",
+    "yc_page": "https://www.ycombinator.com/companies/maquoketa-research",
+    "batch": "Spring 2026",
+    "industry": "Industrials / Industrials -> Defense",
+    "team_size": "5",
+    "location": "No public data found",
+    "tags": "No public data found",
+    "yc_partner": "Harj Taggar",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "No public data found"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-26T05:07:03.819Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 41,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 35,
+    "EG": 38,
+    "NR": 44,
+    "PG": 38,
+    "PT": 29,
+    "SL": 41,
+    "VK": null
+  },
+  "consolidatedAvg": 37.5,
+  "consolidatedRank": 25,
+  "paths": {
+    "memo": "spring2026/memos/maquoketa-research.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/maquoketa-research.md",
+      "elad-gil": "spring2026/evals/elad-gil/maquoketa-research.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/maquoketa-research.md",
+      "paul-graham": "spring2026/evals/paul-graham/maquoketa-research.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/maquoketa-research.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/maquoketa-research.md"
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "slug": "saffron",
+  "name": "Saffron",
+  "oneLiner": "ai-native technical assessments and work trials.",
+  "metadata": {
+    "website": "https://www.trysaffron.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/saffron",
+    "batch": "Spring 2026",
+    "industry": "B2B / B2B -> Recruiting and Talent",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "SaaS, Human Resources, HR Tech",
+    "yc_partner": "David Lieb",
+    "emails": "mjyao@stanford.edu (founder, jyao.dev)"
+  },
+  "tags": [
+    "SaaS",
+    "Human Resources",
+    "HR Tech"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-26T05:28:25.665Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 26,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 33,
+    "EG": 40,
+    "NR": 45,
+    "PG": 49,
+    "PT": 36,
+    "SL": 26,
+    "VK": null
+  },
+  "consolidatedAvg": 38.17,
+  "consolidatedRank": 23,
+  "paths": {
+    "memo": "spring2026/memos/saffron.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/saffron.md",
+      "elad-gil": "spring2026/evals/elad-gil/saffron.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/saffron.md",
+      "paul-graham": "spring2026/evals/paul-graham/saffron.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/saffron.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/saffron.md"
+    }
+  }
+}

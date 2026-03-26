@@ -1,0 +1,71 @@
+{
+  "slug": "gikl-inc",
+  "name": "Gikl, Inc",
+  "oneLiner": "Accelerating scientific discovery with AI",
+  "metadata": {
+    "website": "https://scienceswarm.ai",
+    "yc_page": "https://www.ycombinator.com/companies/gikl-inc",
+    "batch": "Spring 2026",
+    "industry": "Consumer / Consumer",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Swarm AI, AI, AI Assistant",
+    "yc_partner": "Garry Tan",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Swarm AI",
+    "AI",
+    "AI Assistant"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-26T05:27:51.904Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 38,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 51,
+    "EG": 33,
+    "NR": 59,
+    "PG": 40,
+    "PT": 34,
+    "SL": 38,
+    "VK": null
+  },
+  "consolidatedAvg": 42.5,
+  "consolidatedRank": 13,
+  "paths": {
+    "memo": "spring2026/memos/gikl-inc.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/gikl-inc.md",
+      "elad-gil": "spring2026/evals/elad-gil/gikl-inc.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/gikl-inc.md",
+      "paul-graham": "spring2026/evals/paul-graham/gikl-inc.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/gikl-inc.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/gikl-inc.md"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "slug": "projectx",
+  "name": "ProjectX",
+  "oneLiner": "Building Infinity, the cloud OS that runs all apps on any device.",
+  "metadata": {
+    "website": "https://www.projectx.cloud/",
+    "yc_page": "https://www.ycombinator.com/companies/projectx",
+    "batch": "Spring 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "6",
+    "location": "Kalyani, West Bengal, India / San Francisco (LinkedIn, via search snippet)",
+    "yc_partner": "Andrew Miklas",
+    "emails": "bishal@projectx.cloud (GitHub profile, BishalK007)"
+  },
+  "tags": [],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-26T05:11:35.195Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 34,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 44,
+    "EG": 38,
+    "NR": 41,
+    "PG": 58,
+    "PT": 35,
+    "SL": 34,
+    "VK": null
+  },
+  "consolidatedAvg": 41.67,
+  "consolidatedRank": 14,
+  "paths": {
+    "memo": "spring2026/memos/projectx.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/projectx.md",
+      "elad-gil": "spring2026/evals/elad-gil/projectx.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/projectx.md",
+      "paul-graham": "spring2026/evals/paul-graham/projectx.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/projectx.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/projectx.md"
+    }
+  }
+}

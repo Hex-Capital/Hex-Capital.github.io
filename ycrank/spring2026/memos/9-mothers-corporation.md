@@ -6,9 +6,9 @@
 |-------|-------|
 | Website | https://9mothers.com |
 | YC Page | https://www.ycombinator.com/companies/9-mothers-corporation |
-| Batch | Spring 2026 (X26) |
+| Batch | Spring 2026 |
 | Industry | Industrials / Industrials -> Defense |
-| Team Size | ~8 (RocketReach via search snippet) |
+| Team Size | No public data found |
 | Location | Austin, TX, USA |
 | Tags | Hard Tech, Hardware, Drones, GovTech, Aerospace |
 | YC Partner | Garry Tan |
@@ -16,114 +16,120 @@
 
 ## The Idea
 
-**Problem:** Small, cheap Group 1 suicide drones (under 20 lbs) are proliferating on modern battlefields and pose an acute threat to vehicles, forward operating bases, and dismounted personnel. Current counter-drone solutions fall into two categories: expensive interceptor systems (e.g., Anduril Roadrunner, missile-based systems) that create an unfavorable cost exchange ratio against cheap drones, and electronic warfare/jamming systems (e.g., DroneShield, D-Fend) that can be circumvented by autonomous or fiber-optic-guided drones that do not rely on RF links. The U.S. Army alone requested over $500M for counter-UAS programs in its FY2025 budget (DefenseScoop, March 2024).
+**Problem:** Cheap, autonomous Group 1 suicide drones (sUAS) have shifted tactical advantage on the modern battlefield, creating an urgent need for low-cost, portable counter-drone systems (YC company page). Current counter-UAS solutions from defense primes (Raytheon, Northrop Grumman) are expensive, bulky, and power-hungry, making them impractical for vehicle-mounted, base-level, or man-portable deployment at the tactical edge (YC company description).
 
-**Approach:** EDDA is a small, low-power, low-cost, fully autonomous-capable kinetic counter-drone turret. It uses AI for detection, tracking, and engagement of Group 1 drones. It is designed to be mounted on vehicles, installed at bases, or carried by personnel. The system addresses the cost exchange ratio problem by using kinetic projectiles rather than expensive interceptors.
+**Approach:** EDDA is a small, low-power, low-cost, fully autonomous-capable counter-drone system designed to detect, track, and neutralize Group 1 sUAS threats in real-time using AI-based detection and tracking (YC company page). Job postings indicate significant investment in acoustic sensing — roles include Senior Applied Audio ML Engineer, Senior Systems Engineer (Audio), and Digital Signal Processing Engineer (Acoustic) (YC job listings). [Inferred]: The acoustic sensing focus suggests EDDA may use audio-based drone detection as a primary or complementary modality, which would differentiate it from radar- or RF-only approaches. The system is designed for three deployment modes: vehicle-mounted, base-installed, or carried (YC company page).
 
-**Differentiation:** EDDA competes most directly with Allen Control Systems' Bullfrog, which also uses an autonomous kinetic turret approach but integrates with heavier existing weapon systems (M240, M2, M134) and targets Groups 1–3. EDDA emphasizes smaller size, lower power consumption, lower cost, and portability — positioning it for broader distribution down to the individual soldier level. Compared to directed-energy systems like Epirus Leonidas (high-power microwave) and electronic warfare systems like DroneShield's DroneSentry (RF jamming), EDDA offers a kinetic kill capability that works against autonomous and fiber-optic-guided drones that are immune to RF countermeasures.
+**Differentiation:** Compared to Anduril's Sentry Tower and Pulsar systems, which are larger integrated C-UAS platforms backed by Lattice software, EDDA targets a lower price point and smaller form factor for tactical-edge use (YC description). Versus Epirus's Leonidas directed-energy system, EDDA is positioned as lower-power and more portable (YC description vs. Epirus product page). Versus DroneShield's detection-focused products, 9 Mothers emphasizes both detection and kinetic/active neutralization as an integrated "weapon system" (YC description). [Inferred]: The acoustic ML approach may offer a passive-detection advantage over radar-based systems, which can be jammed or emit detectable signatures.
 
-**Business Model:** No pricing page or revenue data is publicly available. [Inferred]: Most likely monetization path is hardware unit sales plus potential recurring software/maintenance contracts, sold through DoD procurement channels (SBIR/STTR, OTA contracts, direct acquisition programs). Government defense contracts are the standard revenue model for C-UAS companies at this stage.
+**Business Model:** No public pricing page found (website returned 403 at time of research). [Inferred]: Most likely monetization path is government/military procurement contracts (unit sales + maintenance/support), consistent with defense hardware companies and the GovTech tag.
 
-**TAM/SAM:** The counter-UAS market is estimated at $6.64B in 2025 growing to $20.31B by 2030 at 25.1% CAGR (MarketsandMarkets, 2025 via search snippet). Other estimates range from $2.08B–$6.64B for 2025 depending on scope definition, with projections of $14B–$26B by 2030–2035 across multiple research firms (Precedence Research, Market.us, Fortune Business Insights, Grand View Research — all via search snippets). [Inferred]: The serviceable segment for small, portable kinetic C-UAS turrets is a subset of the overall market — likely the "point defense" and "mobile/dismounted" segments of the kinetic effector category, which would represent a fraction of the total C-UAS TAM.
+**TAM/SAM:**
+- Global anti-drone market valued at $3.11B in 2025, projected to reach $16.45B by 2034 at 19.79% CAGR (Fortune Business Insights, 2025).
+- Global counter-UAS market valued at $8.40B in 2025, projected to reach $69.67B by 2034 at 26.50% CAGR (Fortune Business Insights, 2025).
+- Autonomous & AI-enhanced counter-drone weapon systems market report cites $49.9B in defense tech investments strengthening procurement urgency (GlobeNewsWire, Feb 2026).
+- [Inferred]: SAM for portable/tactical-edge autonomous C-UAS systems targeting Group 1 drones is a subset; no specific SAM estimate found for this niche.
 
-**GTM / Distribution:** [Inferred]: Most likely distribution path is U.S. Department of Defense procurement, starting with SBIR/STTR awards, OTA contracts, or programs like xTechOverwatch (which competitor ACS won in February 2026). The company's YC batch and investor base (Rsquared, Sterling Road, Theory Forge Ventures — per PitchBook via search snippet) suggest a venture-backed defense-tech go-to-market. The Ashby hiring page (jobs.ashbyhq.com/9-mothers) signals intention to scale the team.
+**GTM / Distribution:** [Inferred]: Most likely distribution path is direct U.S. DoD procurement, given Austin, TX location (proximity to military installations), GovTech tag, and the nature of the product. The Rust-language UDP proxy tool on GitHub (udptoxy) suggests field-networking use cases consistent with military edge computing. Job postings requiring 6+ years of experience and $150K–$250K salaries indicate building an experienced defense-grade engineering team (YC job listings).
 
 ## Defensibility
 
-The core technical challenge is building an AI system that can autonomously detect, track, and kinetically engage small, fast-moving drones with sufficient accuracy and speed in contested environments. This requires integration of computer vision, real-time tracking algorithms, and precision mechanical systems — a hardware-software integration challenge with a meaningful development cycle. If deployed at scale with U.S. military units, operational data from real engagements would create a data advantage for improving detection and tracking algorithms.
+- **Technical complexity:** Building a fully autonomous counter-drone weapon system requires integration of AI/ML (detection, tracking, classification), hardware (sensors, actuators), and real-time systems engineering — a multi-disciplinary challenge with high barriers to entry (YC job listings showing acoustic ML, DSP, robotics, electrical, and systems engineering roles).
+- **Regulatory barriers:** Autonomous weapon systems face ITAR export controls and require government certifications and approvals for deployment, creating regulatory moats for approved vendors.
+- **Data advantage:** [Inferred]: Deployed EDDA systems could generate proprietary acoustic and sensor datasets for drone signatures, improving detection accuracy over time — a potential data flywheel, but unproven at this stage.
 
-**Market structure:** Large defense primes (Raytheon, Lockheed Martin, Northrop Grumman) have existing C-UAS programs but their solutions tend to be large, expensive, and optimized for fixed-site or vehicle-mounted use on major platforms. Building a small, low-cost, soldier-portable system requires a fundamentally different design philosophy and unit economics model that conflicts with primes' incentive to sell higher-margin, larger systems. Additionally, defense primes' sales cycles and program structures are poorly suited to rapid iteration on AI/ML-driven autonomous systems. However, primes could acquire a startup like 9 Mothers to fill this capability gap, as Axon did with Dedrone in October 2024.
+**Market structure:** Defense primes (Raytheon, Lockheed Martin, Northrop Grumman) have existing C-UAS products but are optimized for large, expensive platform sales with long procurement cycles. [Inferred]: A low-cost, portable, autonomous system may be too small a unit sale for primes to prioritize, creating business model cannibalization risk if they tried to compete at this price point. Anduril is the most credible startup competitor but focuses on larger integrated platforms ($642M Marine Corps contract for CUAS, Anduril press release, Mar 2025; $20B Army framework contract, DefenseScoop, Mar 2026).
 
-**Commoditization risk:** Allen Control Systems (Bullfrog, $30M raised) and Sentradel are building similar autonomous kinetic turret systems. ACS is further along with U.S. Army and SOCOM contracts. The fundamental concept of an AI-guided turret is replicable; the defensibility lies in execution speed, algorithm performance, manufacturing cost optimization, and government contract relationships.
+**Commoditization risk:** Commercial drone detection companies (Dedrone, DroneShield) could add kinetic/active countermeasures. Anduril and Epirus are well-funded and operate in the same C-UAS space. Defense primes could acquire or build competing products. [Inferred]: The acoustic-AI approach may offer some differentiation but the technique is replicable with sufficient R&D investment.
 
 ## Market & Traction
 
 **Traction signals:**
-- YC Spring 2026 batch member (YC page)
-- Investors: Rsquared, Sterling Road, Theory Forge Ventures (PitchBook via search snippet)
-- Company X/Twitter: @9Mothers, ~60 followers, joined October 2024 (search index snippet)
-- Russell Smith X/Twitter: @rhs, ~4,049 followers (search index snippet)
-- LinkedIn company page: linkedin.com/company/9-mothers (follower count not retrieved)
-- GitHub org: github.com/9mothers — 4 followers, 2 public repos; `udptoxy` (Rust, 2 stars, last updated March 2026) (GitHub)
-- Russell Smith GitHub (ukd1): 277 followers, top repo `node-twilio` with 176 stars (GitHub)
-- Social presence also on Bluesky (@9mothers.com) and Truth Social (9mothers) (GitHub org profile)
-- Hiring via Ashby: jobs.ashbyhq.com/9-mothers (GitHub org profile)
-- 0 open positions listed on YC Work at a Startup page (YC)
-- No press coverage, Product Hunt listing, or community channels found
-- No revenue or customer data publicly available
-- Website not fully accessible at time of research (Framer JS-rendered site)
+- 14 active job postings on YC's Work at a Startup, spanning robotics, AI, audio ML, electrical engineering, DSP, and systems engineering; salary ranges $150K–$250K with 0.02%–0.50% equity (YC job listings, Mar 2026).
+- Investors: Y Combinator, Rsquared, Sterling Road, and Theory Forge Ventures (web search snippet via multiple sources).
+- Company Twitter/X: https://x.com/9mothers (YC page). Follower count not retrievable.
+- Company LinkedIn: https://www.linkedin.com/company/9-mothers/ (YC page). Follower count not retrievable.
+- GitHub: 2 public repos; "udptoxy" (Rust, 4 stars, MIT license, updated Mar 2026) (GitHub, Mar 2026).
+- No press coverage in named publications found.
+- No Product Hunt launch found.
+- No revenue or customer data publicly disclosed.
+- No Discord/Slack community found.
+- Website not accessible at time of research (HTTP 403).
 
 **Competitive landscape:**
 
-| Company | Approach | Funding | Revenue | Differentiator vs. 9 Mothers |
-|---------|----------|---------|---------|-------------------------------|
-| Allen Control Systems (Bullfrog) | Autonomous kinetic turret (Groups 1–3) | $30M Series A (March 2025, Craft Ventures) (BusinessWire) | Not disclosed; U.S. Army + SOCOM contracts | Broader weapon integration (M240, M2, M134); Groups 1–3 vs. EDDA's Group 1 focus; further along in government procurement |
-| Anduril Industries | Autonomous interceptor drones (Roadrunner, Anvil) | Raising $4B at ~$60B valuation (OC Register, March 2026) | ~$2.1B est. 2025 (Sacra via search snippet) | Platform-scale company; interceptor approach vs. turret; $642M USMC contract |
-| Epirus | Directed energy (high-power microwave, Leonidas) | $250M Series D (TechCrunch, March 2025); >$550M total | Not disclosed; $66M Army contract | Non-kinetic swarm defeat; different kill mechanism; larger/more expensive |
-| DroneShield (ASX: DRO) | Electronic warfare (RF jamming/disruption) | Publicly traded; AU$210M cash | AU$216.5M FY2025 revenue (Proactive Investors) | Public company; EW/jamming approach; ineffective against autonomous/fiber-optic drones |
-| Sentradel | Autonomous kinetic turret (Group 1, including fiber-optic FPV) | Early stage, not disclosed | Pre-revenue | Most similar concept to EDDA; emphasizes fiber-optic FPV drone capability; earlier stage |
+| Competitor | Funding | Revenue | Key Differentiator vs. 9 Mothers |
+|------------|---------|---------|-----------------------------------|
+| **Anduril Industries** | ~$4B new round at $60B valuation (reported Mar 2026); ~$2B revenue in 2025 (search snippet) | ~$2B (2025, search snippet) | Full-stack defense platform (Lattice OS); large integrated C-UAS systems; $20B Army contract ceiling (DefenseScoop, Mar 2026). Much larger scale and platform breadth. |
+| **Epirus** | $550M+ total; $250M Series D (TechCrunch, Mar 2025) | Revenue unknown | Directed-energy (high-power microwave) approach via Leonidas system; effective against swarms; different kill mechanism than kinetic. |
+| **DroneShield (ASX: DRO)** | Public company; A$201.1M cash (Jan 2026) | A$216.5M FY2025 revenue, up 276% YoY (Investing.com, 2026) | Detection-focused product suite deployed in 70+ countries; SaaS revenue component (A$11.6M, up 312%); established international distribution. |
+| **Dedrone** | $133M total raised; acquired by Axon (Oct 2024) (search snippets) | Revenue unknown | Software-focused airspace security platform; now integrated into Axon's law enforcement ecosystem post-acquisition. |
 
-**Why now:** [Inferred]: Several converging catalysts opened this opportunity in 2024–2025: (1) The Ukraine-Russia conflict demonstrated the lethality of cheap Group 1 FPV suicide drones against conventional military assets, making C-UAS an urgent priority across NATO militaries. (2) AI/computer vision capabilities crossed a performance threshold enabling real-time autonomous tracking and engagement of small, fast-moving targets — a task previously requiring expensive radar-guided systems. (3) The emergence of autonomous and fiber-optic-guided drones has undermined the effectiveness of electronic warfare/jamming approaches, creating demand specifically for kinetic effectors. (4) Defense-tech venture funding nearly doubled to $49.1B in 2025 (search snippet), reflecting increased capital availability for startups in this space. (5) The U.S. DoD has explicitly prioritized low-cost, scalable C-UAS solutions to address the unfavorable cost exchange ratio.
+**Why now:**
+- The Russia-Ukraine conflict demonstrated the battlefield lethality of cheap FPV suicide drones, creating urgent demand for tactical C-UAS systems (widely reported, 2022–present).
+- U.S. DoD FY2026 budget allocations include $49.9B in defense tech investments with counter-drone procurement urgency (GlobeNewsWire, Feb 2026).
+- Army awarded Anduril a $20B C-UAS framework contract in Mar 2026, signaling institutional commitment to scaling counter-drone procurement (DefenseScoop, Mar 2026).
+- [Inferred]: Advances in edge AI inference and low-power ML accelerators have made fully autonomous, portable AI weapon systems technically feasible at lower cost and size points than previously possible.
 
 ## Founders & Team
 
 **Russell Smith** — Co-Founder & CEO
-- BSc Computer Science, Staffordshire University, UK (1999–2003) (RocketReach via search snippet)
-- Previously Co-Founder & CTO of Rainforest QA (YC S12), a no-code testing platform that raised $41.2M total including a $25M Series B led by SVB (January 2018) and reached ~$25.7M revenue with ~141 employees (Crunchbase, GetLatka via search snippets). No public acquisition or exit found; Rainforest QA appears to still be operating with Fred Stevens-Smith as CEO.
-- Managing Director at Beyond Equity Partners (Crunchbase via search snippet)
-- Founder of UKD1 Limited (UK-based consulting: development, ops, architecture, capacity planning)
-- Recurse Center alumnus (A1'22) (GitHub bio)
-- Twitter/X: @rhs — ~4,049 followers (search index snippet)
-- LinkedIn: linkedin.com/in/russellhowardsmith
-- GitHub: github.com/ukd1 — 277 followers; top repo `node-twilio` (176 stars) (GitHub)
+- BS Computer Science, Staffordshire University (1999–2003) (search snippet via RocketReach).
+- Co-founded Rainforest QA (YC S12), a no-code end-to-end testing platform; served as CTO for ~10 years; company raised $42.3M total from Bessemer Venture Partners, Rincon Venture Partners, YC, and others (TechCrunch, Jan 2018; Tracxn). No public exit event found.
+- Managing Director at Beyond Equity Partners (Crunchbase).
+- Recurse Center alumnus (A1'22) (search snippet).
+- Skills: Ruby, infrastructure, AWS, DevOps, CI/CD (search snippet).
+- Second-time YC founder (S12 → S26).
+- Twitter/X: @rhs (x.com/rhs). Follower count not retrievable.
+- LinkedIn: linkedin.com/in/russellhowardsmith (LinkedIn).
+- GitHub: github.com/ukd1 (GitHub). Notable repos/star counts not detailed.
 
-**Roman Khomenko** — Co-Founder (CTO per YC tagline "Builder of Thinking Machines")
-- MSc Computer Science, Kharkiv National University of Radioelectronics, Ukraine (2002–2007) (GetProg via search snippet)
-- Police of Ukraine (2001–2009) (GetProg via search snippet)
-- Data Scientist at DataRobot (2015–2016) (GetProg via search snippet)
-- Senior Data Scientist → Staff Engineer / Lead AI Data Scientist at Rainforest QA (~2016–2024, ~8 years); worked on computer-vision-driven screenshot segmentation and production ML pipelines (The Org, GetProg via search snippets)
-- Domain expertise: ML/AI (PyTorch, TensorFlow, JAX, Keras), computer vision, deep learning, production MLOps
-- Twitter/X: @khomenko_roman — ~10 followers (low confidence this is the correct account; search snippet)
-- LinkedIn: linkedin.com/in/dowakin
-- GitHub: github.com/roman-dowakin — 7 followers, no public repos; contributions to Keras, Hammerspoon, Dateparser (GitHub, aggregator via search snippet)
+**Roman Khomenko** — Co-Founder & CTO
+- MS Computer Science, Kharkiv National University of Radioelectronics (search snippet via GetProg).
+- Eight years at Rainforest QA, rising from Senior Data Scientist to Lead AI Data Scientist; delivered QA automation, computer vision screenshot segmentation, and production ML pipelines (search snippet via GetProg).
+- Prior roles: Data Scientist at DataRobot; security research at DisOpt.com (search snippet via GetProg).
+- Background includes service in the Police of Ukraine (search snippet via GetProg).
+- Active Kaggle competitor (search snippet via GetProg).
+- CTO at 9 Mothers since October 2024 (search snippet via GetProg).
+- Twitter/X: No public account found.
+- LinkedIn: linkedin.com/in/dowakin (LinkedIn).
+- GitHub: No public repos found under personal account.
 
 **Bogdan Pyzh** — Co-Founder & COO
-- Education: No public data found
-- Previously Security Consultant → EMEA Practice Lead at Leviathan Security Group (Seattle, WA) — information security consulting (penetration testing, secure code review, IoT security, vCISO) (Wiza, Adapt.io via search snippets)
-- Domain expertise: cybersecurity, penetration testing, security operations
-- Twitter/X: No public account found
-- LinkedIn: linkedin.com/in/bogdan-pyzh-b5b77388
-- GitHub: No public account found
-- Keybase: keybase.io/bpyzh (11 devices, 17 followers) (Keybase)
+- Previously Security Consultant and EMEA Practice Lead at Leviathan Security Group (Wiza, Adapt.io).
+- No public education details found.
+- Twitter/X: No public account found.
+- LinkedIn: linkedin.com/in/bogdan-pyzh-b5b77388 (LinkedIn).
+- GitHub: No public repos found.
 
-**Co-founder relationship:** Russell Smith and Roman Khomenko worked together at Rainforest QA for approximately 8 years (~2016–2024), where Smith was CTO and Khomenko was a senior/staff-level AI engineer. No documented prior overlap with Bogdan Pyzh was found.
+**Co-founder relationship:** Russell Smith and Roman Khomenko both worked at Rainforest QA — Smith as co-founder/CTO and Khomenko for eight years as data scientist/lead AI data scientist (search snippets). No public overlap found between Bogdan Pyzh and the other founders' prior employers or universities.
 
-**Founder-market fit:** Smith brings a decade of experience building and scaling a venture-backed startup (Rainforest QA, $41.2M raised) with deep infrastructure and systems engineering expertise. Khomenko brings production AI/ML and computer vision experience — directly relevant to the autonomous detection and tracking system at EDDA's core. Pyzh's cybersecurity and penetration testing background at Leviathan Security Group is relevant to building hardened defense systems resistant to adversarial attacks. The team combines startup scaling experience, AI/computer vision technical depth, and security domain knowledge. No advisors, board members, or notable angel investors were identified in public sources beyond the institutional investors (Rsquared, Sterling Road, Theory Forge Ventures).
+**Founder-market fit:** Smith brings a decade of infrastructure and DevOps experience plus YC alumni network access from Rainforest QA (YC S12). Khomenko provides deep AI/ML expertise with production ML pipeline experience and a computer science graduate degree from a Ukrainian university, bringing potential firsthand understanding of the drone-warfare threat environment. Pyzh contributes cybersecurity and security consulting expertise from Leviathan Security Group, relevant to defense systems security. No public advisors, board members, or notable angel investors found beyond the listed institutional investors.
 
 ## Key Risks
 
-**Allen Control Systems competitive positioning:** ACS is building a directly comparable autonomous kinetic C-UAS turret (Bullfrog), has raised $30M (BusinessWire, March 2025), has won a U.S. Army xTechOverwatch competition (BusinessWire, February 2026), secured a SOCOM maritime contract (Defense One, September 2025), and tripled its Austin operations in February 2026 (BusinessWire). ACS is meaningfully ahead in government procurement relationships and has a broader weapon integration capability (Groups 1–3 vs. EDDA's Group 1 focus).
+**Regulatory and compliance risk (ITAR/EAR):** Autonomous weapon systems are subject to strict U.S. export controls (ITAR) and DoD autonomous weapons policy (DoD Directive 3000.09). Obtaining required certifications and approvals could delay deployment and limit addressable markets. No public data on current certification status.
 
-**Defense procurement cycle risk:** U.S. DoD procurement is lengthy and unpredictable. Even with a working product, securing contracts requires navigating SBIR/STTR programs, OTA authorities, testing and evaluation cycles, and program-of-record transitions. No public evidence of government contracts, SBIR awards, or testing partnerships for 9 Mothers was found.
+**Well-funded incumbent competition:** Anduril ($60B valuation, $20B Army contract ceiling), Epirus ($550M+ raised), and DroneShield (A$216.5M FY2025 revenue) all operate in the C-UAS space with substantially more capital, established government relationships, and deployed systems (TechCrunch, DefenseScoop, Investing.com). 9 Mothers must differentiate on cost, form factor, and autonomy to carve out a defensible niche.
 
-**Hardware manufacturing scale-up:** EDDA is a physical hardware product requiring manufacturing, supply chain management, and quality control at defense-grade standards. The founding team's background is primarily in software/AI, not hardware manufacturing or defense production. Scaling from prototype to production-ready defense hardware is a distinct challenge from software development.
+**Government procurement cycle risk:** Defense hardware sales depend on government budget cycles, contract vehicles, and procurement timelines that can stretch 12–36 months. A pre-seed startup's cash runway may not align with these timelines. [Inferred]: The YC backing and named investors (Rsquared, Sterling Road, Theory Forge Ventures) provide some runway buffer, but procurement delays remain a structural risk.
 
-**ITAR/export control complexity:** AI weapon systems are subject to International Traffic in Arms Regulations (ITAR) and potentially additional autonomous weapons restrictions. Compliance adds cost, limits international market access, and introduces regulatory risk. Autonomous weapon systems also face evolving policy scrutiny regarding human-in-the-loop requirements.
+**Autonomous weapons policy and public perception:** Increasing scrutiny of autonomous weapon systems from policymakers and advocacy groups could lead to regulatory restrictions or procurement delays. The DoD's "human in the loop" requirements for lethal autonomous systems may constrain the product's autonomous capabilities.
 
-**Team domain transition:** While the founders have strong software, AI, and cybersecurity credentials, none have publicly documented prior experience in defense contracting, military systems integration, or weapons engineering. The transition from QA/cybersecurity software to autonomous weapon systems represents a significant domain shift.
+**Technical performance risk:** No public data on EDDA's detection accuracy, false-positive rates, effective range, or field test results. The system's performance against real-world Group 1 sUAS threats in contested electromagnetic environments is unproven in public sources.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $6.64B (2025) → $20.31B by 2030, 25.1% CAGR (MarketsandMarkets via search snippet); other estimates range $2B–$7B for 2025 |
-| SAM | No public data found for the specific portable kinetic C-UAS turret segment |
-| Traction | YC X26 batch; investors: Rsquared, Sterling Road, Theory Forge Ventures (PitchBook via search snippet); no revenue, users, or government contracts publicly disclosed |
+| TAM | $3.11B in 2025, projected $16.45B by 2034 at 19.79% CAGR (Fortune Business Insights, 2025); broader counter-UAS market $8.40B in 2025, projected $69.67B by 2034 at 26.50% CAGR (Fortune Business Insights, 2025) |
+| SAM | No public data found |
+| Traction | 14 active job postings (YC job board, Mar 2026); 4 named investors (YC, Rsquared, Sterling Road, Theory Forge Ventures) (search snippets, Mar 2026) |
 | Revenue Signal | No public data found |
-| Founders | Russell Smith (CEO): Co-Founder/CTO Rainforest QA (YC S12, $41.2M raised), BSc CS Staffordshire. Roman Khomenko (CTO): MSc CS Kharkiv NURE, Staff AI Engineer at Rainforest QA ~8 yrs, DataRobot. Bogdan Pyzh (COO): EMEA Practice Lead at Leviathan Security Group. |
-| Competitors | Allen Control Systems ($30M raised, revenue unknown, broader weapon integration Groups 1–3), Anduril (~$60B valuation, ~$2.1B revenue, interceptor-based not turret), Epirus (>$550M raised, revenue unknown, directed energy), DroneShield (public, AU$216.5M FY2025 revenue, electronic warfare), Sentradel (early stage, funding unknown, most similar turret concept) |
-| Moat Signals | No public data found; potential data moat from operational engagement data if deployed |
-| Risk Factors | ACS competitive lead in government procurement, defense procurement cycle length, hardware manufacturing scale-up with software-background team |
-| Founder Reach | Russell Smith: X ~4,049 followers, GitHub 277 followers/176 stars top repo. Roman Khomenko: X ~10 (low confidence), GitHub 7 followers. Bogdan Pyzh: no public social accounts found. |
-| Distribution Signals | No public data found (no Product Hunt, no press coverage, no app store presence) |
+| Founders | Russell Smith (CEO): YC S12 alum, co-founded Rainforest QA ($42.3M raised), BS CS Staffordshire. Roman Khomenko (CTO): MS CS Kharkiv Nat'l Univ., 8 yrs Rainforest QA AI/ML, ex-DataRobot. Bogdan Pyzh (COO): ex-Leviathan Security Group EMEA Practice Lead. |
+| Competitors | Anduril (~$4B new round at $60B valuation, ~$2B 2025 revenue, full-stack defense platform) (search snippets, Mar 2026); Epirus ($550M+ raised, revenue unknown, directed-energy C-UAS) (TechCrunch, Mar 2025); DroneShield (public, A$216.5M FY2025 revenue, detection-focused C-UAS in 70+ countries) (Investing.com, 2026); Dedrone ($133M raised, acquired by Axon Oct 2024, software airspace security) (search snippets) |
+| Moat Signals | No public data found |
+| Risk Factors | Well-funded incumbent competition (Anduril, Epirus, DroneShield), government procurement cycle length, autonomous weapons regulatory/policy constraints |
+| Founder Reach | Russell Smith: Twitter @rhs (count not retrievable), LinkedIn russellhowardsmith. Roman Khomenko: LinkedIn dowakin. Bogdan Pyzh: LinkedIn bogdan-pyzh-b5b77388. |
+| Distribution Signals | No public data found |
 | Emails | No public data found |

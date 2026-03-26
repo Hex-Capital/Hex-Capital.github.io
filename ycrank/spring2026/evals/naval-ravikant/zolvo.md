@@ -1,0 +1,24 @@
+﻿# Zolvo -- Naval Ravikant Evaluation
+
+The specific knowledge question is where this deal breaks down for me. Rodriguez sold fintech products at Domu and closed a million in revenue -- that's real sales ability. Montes built voice AI infrastructure handling 50,000+ daily calls and published at ACL and EMNLP -- that's real engineering talent. But neither of them has operated inside a commercial lender's back office. Neither has lived the pain of reconciling loan payments at 2 AM during a bank audit, or navigated the maze of state lending regulations that determines how collections actually work in practice. They identified commercial lending servicing as underserved -- and they're probably right -- but that observation is available to any smart person who spends a month researching vertical AI opportunities. The knowledge they possess is in AI deployment and B2B sales. Those are valuable, teachable skills. They are not the kind of non-transferable domain insight that produces a company only these specific founders could build.
+
+The leverage architecture here is labor arbitrage: AI agents replacing back-office headcount, with a claimed 60% cost reduction. That's real but unremarkable. Every "AI replaces human workers" pitch in 2026 has this same structure. Compare this to what Stack Overflow built -- a knowledge graph that compounds with every question and answer, creating infrastructure that becomes more valuable precisely because it's used. Zolvo doesn't create a new form of leverage. It doesn't enable a new category of lender or a new type of lending. It makes existing lenders slightly cheaper to operate. That's a consulting value proposition dressed up in SaaS pricing. The company sits at the application layer, not the infrastructure layer -- it's built on OpenAI, Gemini, and Claude, which means the core technology is rented, not owned.
+
+The timing is the opposite of contrarian. Eighty-three percent of lenders plan to increase GenAI budgets this year. Salient reached $25M ARR with zero churn in roughly two years and raised $70M from a16z for AI loan servicing. The market has already validated the thesis. When the consensus is "AI will transform loan servicing" and a well-capitalized competitor is already executing on that consensus at scale, the asymmetric upside has been priced away. Salient focuses on consumer and auto loans today, but commercial lending is an obvious adjacency for a company with that much capital and momentum. The niche differentiation -- commercial versus consumer -- is a positioning choice, not a moat.
+
+The strongest bull case: these founders have proven they can build production AI and close enterprise deals, which is the hardest combination to find at pre-seed. The Domu founders backing them with their own capital is a genuine trust signal -- people who've worked with you betting real money says something. Rodriguez relocating to San Francisco with $3,000 shows conviction. And $6,000 in revenue within four weeks demonstrates that at least one lender is willing to pay for this. If they can accumulate proprietary workflow data from enough mid-market lenders before Salient or nCino moves into this niche, they could build moderate switching costs and a defensible wedge. Tom Blomfield as YC partner brings real fintech operating experience from Monzo. The ingredients for a solid vertical SaaS company are present. But a solid vertical SaaS company is not the kind of bet I'm looking for. I want companies where the founder knows something that can't be replicated by a well-funded competitor hiring domain experts. I want leverage that creates a new category of capability, not cost savings on existing workflows. I want timing where I'm betting against the crowd, not with it.
+
+This is a competent team in a real market executing a consensus playbook. The founders have energy and intelligence in abundance. What they lack is the kind of deep, domain-specific insight that would make me believe they'll see moves their competitors won't. Commercial lending is a regulated, relationship-driven industry where the buyers are conservative and the sales cycles are long. Winning here requires either proprietary technology that compounds or intimate knowledge of how these institutions actually operate. Zolvo has neither yet. The technology is built on commodity LLMs, and the domain knowledge was acquired from the outside looking in. I wish them well, but this isn't my bet.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Specific Knowledge and Founder-Problem Authenticity | 10/30 |
+| Leverage Architecture and Scalability of the Model | 12/25 |
+| Contrarian Positioning and Non-Consensus Timing | 7/20 |
+| Founder Integrity and Long-Term Orientation | 9/15 |
+| Technical Compounding and Defensibility Over Time | 4/10 |
+| **Total** | **42/100** |
+
+**Total Score: 42/100** (Pass)

@@ -16,98 +16,111 @@
 
 ## The Idea
 
-**Problem:** Educational content creators — students, educators, and course creators — lack tools that produce accurate, visually precise animations for STEM concepts. Existing AI video generators (Runway, Synthesia, HeyGen) use probabilistic/generative models that produce "distorted equations, inconsistent diagrams, and flawed logical progressions" for educational content (LASEV research paper, arXiv 2602.11790v1). Traditional programmatic tools like Manim (created by 3Blue1Brown's Grant Sanderson) produce mathematically precise output but require Python expertise and slow render times. Professional animation in After Effects or Remotion takes days per 60-second explainer. The company's website states: "AI video went cinematic. Education got nothing" (laminalabs.ai).
+**Problem:** Creating accurate educational animations is slow and expensive. The company states that "a single 60-second explainer can take days" using tools like Manim, After Effects, or Remotion (laminalabs.ai). These tools require coding expertise (Manim, Remotion) or deep motion-graphics skill (After Effects). Existing AI video generators produce non-deterministic output prone to visual hallucinations, making them unsuitable for STEM content where mathematical precision matters (laminalabs.ai). The company states: "Billions are going into Hollywood-style AI video. Nearly no one builds animation designed for educational explanation" (laminalabs.ai).
 
-**Approach:** Lamina Labs' product, Pictor, generates explainer videos from a single text prompt in under 8 seconds (laminalabs.ai). The system uses a deterministic rendering pipeline rather than diffusion-based generative models, claiming "no hallucinations, no approximations — every frame is mathematically precise and deterministic" (laminalabs.ai). The three-step flow is: (1) user types what they want to learn, (2) Pictor generates the animation, (3) user watches and understands.
+**Approach:** The product, named **Pictor**, generates explainer videos from a single text prompt in under 8 seconds (laminalabs.ai). The company claims "No hallucinations. No approximations. Every frame is mathematically precise and deterministic" (laminalabs.ai). [Inferred]: This likely involves a rendering pipeline that converts text to structured scene descriptions and then to mathematically computed animations, rather than using diffusion-based generative models.
 
-**Differentiation:** Lamina Labs occupies a gap between three categories of existing solutions:
-- *Avatar/talking-head platforms* (Synthesia, HeyGen, Colossyan): designed for corporate L&D with digital presenters, not diagrammatic concept explanation.
-- *Generative video models* (Runway, Luma AI): probabilistic pixel-space generation that lacks mathematical precision for STEM content.
-- *Programmatic animation tools* (Manim, Remotion): deterministic and precise but require coding skill and slow render cycles.
-Pictor combines the deterministic precision of Manim with the accessibility of a natural-language prompt interface and sub-10-second generation times. No funded startup currently combines all three attributes (laminalabs.ai; competitive analysis below).
+**Differentiation:**
+- vs. **Manim** (open-source, ~35.8K GitHub stars (GitHub)): Manim requires Python scripting; Lamina replaces coding with a text prompt while targeting equivalent mathematical precision.
+- vs. **Knowlify** (YC S25, $3M raised (American Bazaar Online, Oct 2025)): Knowlify generates explainer videos in "minutes"; Lamina claims under 8 seconds. Knowlify targets corporate training; Lamina targets education. Knowlify does not emphasize determinism or mathematical precision.
+- vs. **Vyond** ($50M raised, ~$35M ARR (GetLatka, Sep 2025)): Template-based animation with AI assist ("less than a minute" generation). Corporate L&D focus, not STEM-precise.
+- vs. **Synthesia/HeyGen/Runway**: Avatar-based or cinematic generative video; different product category entirely.
 
-**Business Model:** No pricing is publicly listed. The website offers a waitlist with "founding user pricing" for early members (laminalabs.ai). [Inferred]: Most likely monetization path is a SaaS subscription model (freemium or tiered) targeting individual educators/students at a low price point and institutions at a higher tier, consistent with EdTech content creation tools in this space.
+**Business Model:** No pricing page found on the website (laminalabs.ai). [Inferred]: Most likely monetization path is a SaaS subscription (per-seat or usage-based) targeting educators and course creators, given the stated audience of "educators, course creators, and individuals."
 
-**TAM/SAM:** The global EdTech market was valued at $334.29B in 2023, projected to reach $738.60B by 2029 at a 14.13% CAGR (Mordor Intelligence via search snippet). The video creation tool market was valued at $7.5B in 2024, projected to reach $15.2B by 2033 at an 8.5% CAGR (Market Research Intellect via search snippet). The EdTech content creation segment specifically is projected to generate $12.46–24.97B by 2035 (Straits Research via search snippet). No company-specific SAM estimate was found.
+**TAM/SAM:**
+- EdTech Animation Market: $110.6B (2024) growing to $518.2B by 2034 at 16.7% CAGR (Market.us, 2025 via search snippet).
+- Explainer Video Animation Software Market: $3.83B (2024) growing to $11.63B by 2032 at 14% CAGR (Credence Research via search snippet).
+- AI in Education Market: $7.05B (2025) growing to $41B by 2030 at 42.8% CAGR (MarketsandMarkets via search snippet).
 
-**GTM / Distribution:** [Inferred]: Most likely distribution path is product-led growth targeting individual students and educators via the waitlist, with potential expansion into institutional/enterprise sales to universities and online course platforms. The website positions the product "for educators, course creators, and individuals" (laminalabs.ai), suggesting a bottom-up adoption model.
+**GTM / Distribution:** [Inferred]: Most likely distribution path is product-led growth targeting individual educators and course creators, with viral loops from generated video content. Sudip Rokaya's LinkedIn post about cold-emailing YC's student credits program and using AI tools as "force-multipliers" suggests a bottom-up, lean distribution strategy (LinkedIn, Sudip Rokaya).
 
 ## Defensibility
 
-The core defensibility signal is the deterministic rendering engine itself — building a system that converts arbitrary natural-language educational prompts into mathematically precise animations in under 8 seconds requires a specialized pipeline distinct from general-purpose generative video models. The company claims engineers from MIT and Caltech built this infrastructure (laminalabs.ai).
+- **Deterministic rendering pipeline:** The core claim of mathematically precise, hallucination-free animation output differentiates from generative/probabilistic approaches used by competitors (laminalabs.ai). [Inferred]: If the pipeline produces verifiably correct STEM visualizations, this represents meaningful technical complexity that is harder to replicate than wrapping a generative model.
+- **Speed:** Under 8 seconds vs. minutes (Knowlify) or hours/days (Manim, After Effects) (laminalabs.ai). [Inferred]: Achieving both speed and deterministic correctness simultaneously likely requires a purpose-built rendering engine, creating switching costs for users who build workflows around it.
 
-**Market structure:** General-purpose AI video incumbents (Runway, Synthesia, HeyGen) have optimized their architectures for probabilistic pixel-space generation. Rebuilding for deterministic, symbolically accurate output represents a fundamentally different technical approach — not an incremental feature addition. Avatar-based platforms (Synthesia, Colossyan) would face modality mismatch: their pipelines render human presenters, not mathematical diagrams and physics simulations. Template-based tools (Animaker, Vyond) lack the AI-native generation capability entirely. Manim Community, the closest philosophical predecessor, is an open-source project without commercial organization or AI-prompt interface.
+**Market structure:** [Inferred]: Major AI video incumbents (Synthesia, HeyGen, Runway) are optimized for avatar/cinematic video using diffusion-based models. Pivoting to deterministic mathematical animation would require a fundamentally different rendering architecture, creating technical incompatibility with their existing approach. However, no structural barrier prevents a new entrant from replicating this approach.
 
-**Commoditization risk:** Academic research is converging on this approach — LASEV (arXiv 2602.11790v1) constructs "structured executable video scripts deterministically compiled into synchronized visuals," and TeachMaster (arXiv 2601.04204) synthesizes Manim animation scripts via LLMs. A well-resourced AI lab or EdTech company could productize similar research. Large generative video companies could improve mathematical precision over time as model architectures advance. The 8-second speed claim, if sustained as a durable advantage, would require proprietary infrastructure optimizations that are harder to replicate.
+**Commoditization risk:** Manim is open-source and well-established; an AI wrapper around Manim could approximate Lamina's value proposition. LLM providers (OpenAI, Anthropic) could add structured animation to their output modalities. [Inferred]: The barrier is execution speed and the quality of the text-to-scene-description conversion, not the rendering itself.
 
 ## Market & Traction
 
-**Traction signals:** No public traction data found. The product is in waitlist/pre-launch phase (laminalabs.ai). No waitlist count is disclosed. No Product Hunt launch was found. No press coverage in named publications was found. No app store presence, Chrome extension, or download counts were found. No company Twitter/X or LinkedIn page was identified in search results. The YC page lists 0 open jobs (ycombinator.com/companies/lamina-labs). Founded in 2025 (YC page).
+**Traction signals:**
+- Product stage: waitlist/early access (laminalabs.ai).
+- No public revenue, user counts, or growth metrics found.
+- Sudip Rokaya LinkedIn post announcing MIT departure and Lamina Labs: 1,375 reactions, 202 comments (LinkedIn).
+- Second LinkedIn post on building deep tech: 288 likes, 45 comments; profile shows 3,840 followers (LinkedIn).
+- Company Twitter/X: @laminalabs — follower count not retrievable (YC page).
+- Company LinkedIn: linkedin.com/company/lamina-labs/about/ — follower count not retrievable (YC page).
+- Instagram: at least one post confirmed (instagram.com/p/DV2b1xokw3p/) — content not extractable.
+- Product Hunt: no listing found.
+- YC job postings: 0 (YC page).
+- Press coverage: none found beyond Nepali community coverage of founders' YC acceptance (Facebook, Routine of Nepal Banda).
 
 **Competitive landscape:**
 
-| Competitor | Funding | Revenue/ARR | Key Differentiator vs. Lamina Labs |
-|-----------|---------|-------------|-----------------------------------|
-| **Synthesia** | $180M Series D, $4B valuation (January 2026) (Synthesia blog) | ~$100M ARR (Sacra, March 2025) | Avatar/talking-head videos for corporate L&D; probabilistic rendering; no mathematical precision |
-| **Runway** | $315M Series E, $5.3B valuation (February 2026) (TechCrunch) | Not publicly disclosed | General-purpose generative video; probabilistic pixel-space models; documented failure modes for STEM content |
-| **HeyGen** | $60M Series A, $500M valuation (April 2025) (Quantumrun via search snippet) | ~$95M ARR (Quantumrun, September 2025 via search snippet) | Avatar-based video and translation; no diagrammatic animation capability |
-| **Animaker** | ~$108K total (Crunchbase via search snippet) | ~$22.4M (Latka, July 2025 via search snippet); 1.5M+ users | Template-based drag-and-drop; manual workflow; not AI-native or deterministic |
-| **Vyond** | $51.5M total (Crunchbase via search snippet) | $30–35M ARR (Latka, September 2025 via search snippet) | Character animation templates for corporate training; not programmatic or prompt-driven |
-| **Manim** (open-source) | None (community project) | None (free) | Deterministic, mathematically precise — closest conceptual predecessor — but requires Python coding, slow rendering, no NLP interface |
+| Competitor | Funding | Revenue | Key Difference vs. Lamina |
+|---|---|---|---|
+| Knowlify (YC S25) | $3M (American Bazaar Online, Oct 2025) | 200K+ videos generated; revenue unknown | Corporate focus, minutes not seconds, no math precision |
+| Vyond | $50M Series C (PeakSpan, Apr 2021) | ~$35M ARR (GetLatka, Sep 2025) | Template-based, corporate L&D, not deterministic STEM |
+| Steve.AI | Unfunded/bootstrapped | Revenue unknown; 5M+ users (steve.ai) | General-purpose animated video, not education/STEM specific |
+| Manim (OSS) | N/A | N/A (free) | Code-first Python; quality benchmark but hours/days to author |
+| Synthesia | $536M total; $200M Series E at $4B (TechCrunch, Jan 2026) | $150M+ ARR (Sacra, late 2025) | Avatar video, not animation; enterprise training (adjacent) |
 
-**Why now:** [Inferred]: Several converging factors: (1) LLM capabilities crossed a threshold enabling reliable natural-language-to-code translation, making it feasible to convert text prompts into deterministic animation scripts (validated by academic papers LASEV and TeachMaster, both published 2025–2026); (2) AI video funding nearly doubled YoY to $3.08B in 2025 (Crunchbase, EOY 2025 via search snippet), reflecting investor conviction in the category; (3) the $4B+ invested in generative video (Runway, Synthesia, HeyGen) has conspicuously bypassed educational animation, leaving the segment underserved despite the EdTech market growing at 14%+ CAGR.
+**Why now:**
+- [Inferred]: LLM capability improvements in 2024-2025 crossed a threshold enabling reliable text-to-structured-scene-description conversion, which is the key technical enabler for text-prompt-to-deterministic-animation.
+- AI in Education spending is accelerating: $7.05B (2025) at 42.8% CAGR (MarketsandMarkets via search snippet).
+- Sudip Rokaya noted using Claude Code and Codex as development force-multipliers, suggesting AI coding tools now enable a 2-person team to build infrastructure that previously required larger teams (LinkedIn).
 
 ## Founders & Team
 
-**Rohan Bhattarai** — Co-founder
-- Physics, Caltech (2023–2027) (LinkedIn)
-- From Butwal, Nepal (Facebook via search snippet)
-- International Olympiad medalist: IOAA 2022 Honorable Mention, National Physics-Mathematics Olympiad Nepal Rank 3 (2021), International Junior Science Olympiad (2019), International Computer Olympiad Bronze (2018) (LinkedIn)
-- Research: co-author on Cryoscope cryogenic infrared telescope paper in *Publications of the Astronomical Society of the Pacific* (2025) (arXiv 2502.06950); post-earthquake hydrological modeling with Prof. Jean-Philippe Avouac at Caltech (2024) (LinkedIn); ancient astronomy curriculum development funded by Caltech Y Studenski Memorial Award (2025) (LinkedIn)
-- Engineering: built CaltechDATA API-CLI with REST API integration and HPC deployment (GitHub: caltechlibrary/caltechdata_api; NSF Public Access Repository)
-- Twitter/X: @RohanBhattarai_ — count not retrievable (X requires JavaScript rendering)
-- LinkedIn: linkedin.com/in/rohan-bhattarai-0ab812169/ — 513 followers (LinkedIn)
-- GitHub: contributed to github.com/caltechlibrary/caltechdata_api; personal profile not definitively identified
-
 **Sudip Rokaya** — Co-founder
-- CS & Mathematics, MIT (2024–2027, currently on leave) (YC page)
-- ML Researcher, MIT Graybiel Lab (McGovern Institute for Brain Research) (YC page, LinkedIn)
-- From Humla District, Nepal — one of Nepal's most remote regions; MIT admission widely covered in Nepali media (Facebook, X @RONBupdates, March 2024)
-- International Olympiad: IOAA 2023 Honorable Mention representing Nepal (NASO)
-- LinkedIn title: "CEO - Stealth Startup" (LinkedIn)
-- Listed as Co-Founder at "Harmonic" on Whitebridge.AI — unclear if related to Harmonic (harmonic.fun, $75M raise); may be a data aggregation artifact (Whitebridge.AI via search snippet)
-- Twitter/X: @itsrealranky — count not retrievable (X requires JavaScript rendering)
-- LinkedIn: linkedin.com/in/sudip-rokaya-675604279/ — 500+ connections (LinkedIn)
-- GitHub: No public repos found
+- MIT, Computer Science & Mathematics (on leave) (YC page, LinkedIn).
+- Originally from Humla, Nepal; admitted to MIT at age 19 (Routine of Nepal Banda / @RONBupdates, Mar 2024).
+- Claims to be the youngest Nepalese founder accepted to YC; describes the team as "the first fully Nepalese founding duo accepted by YC" (LinkedIn).
+- Twitter/X: @itsrealranky — follower count not retrievable due to platform restrictions.
+- LinkedIn: linkedin.com/in/sudip-rokaya-675604279 — 3,840 followers, 500+ connections (LinkedIn).
+- GitHub: github.com/itsrealranky — "ghostclaw" (smallest/fastest OpenClaw implementation, C++, 20 stars, 30+ AI provider integrations); "Autolab" (population-based LLM research, 1 star) (GitHub).
+- Academic research on geometry co-authored with Prakash Pant, Abhishek Subedi, and Aryan Sigdel (Academia.edu).
 
-**Co-founder relationship:** Both founders are from Nepal and both competed in the International Olympiad on Astronomy and Astrophysics (Rohan in 2022, Sudip in 2023), suggesting overlap through Nepal's olympiad training ecosystem (NASO). Both are current undergraduates at elite US technical universities (Caltech and MIT respectively).
+**Rohan Bhattarai** — Co-founder
+- California Institute of Technology (Caltech), Physics, Sept 2023–June 2027 (LinkedIn).
+- Originally from Butwal, Nepal.
+- Published co-author: "Cryoscope: A Cryogenic Infrared Survey Telescope in Antarctica" (arXiv:2502.06950, IOPscience/PASP, Mar 2025).
+- Caltech Y Studenski Memorial Award (2025); George W. Housner Student Discovery Fund (2024) for geophysics research supervised by Prof. Jean-Philippe Avouac (LinkedIn).
+- Honorable Mention, International Olympiad on Astronomy and Astrophysics (2022); Rank 3, National Physics-Mathematics Olympiad (2021); Bronze Medal, 19th International Computer Olympiad (2018) (LinkedIn).
+- Machine Learning for Fundamental Physics certification, UC Berkeley (2025) (LinkedIn).
+- Twitter/X: No public account found.
+- LinkedIn: linkedin.com/in/rohan-bhattarai-0ab812169 — 563 followers (LinkedIn).
+- GitHub: No confirmed public repos found. Possible handle github.com/KernelTimes (Nepal-based, matching bio) but 0 public repos.
 
-**Founder-market fit:** Rohan's physics background at Caltech and research spanning astrophysics, computational modeling, and API engineering provides domain knowledge in both the STEM content being animated and the infrastructure to deliver it. Sudip's CS & Math studies at MIT combined with ML research at the Graybiel Lab provide the machine learning and software engineering foundation. Both founders' olympiad backgrounds in astronomy, physics, and computer science give them firsthand experience with the problem of explaining complex STEM concepts visually. No advisors, board members, or notable investors beyond YC were found.
+**Co-founder relationship:** Both founders are Nepalese. Sudip described them as "the first fully Nepalese founding duo accepted by YC" (LinkedIn). No shared employer or university identified from available data.
+
+**Founder-market fit:** Sudip brings CS/AI engineering from MIT with demonstrated systems-level programming (ghostclaw, LLM research). Rohan brings physics and mathematical precision from Caltech with published astrophysics research and olympiad credentials in physics, math, and computing. [Inferred]: The combination of AI/systems engineering (Sudip) and deep physics/math domain expertise (Rohan) maps directly to the product's core challenge: generating mathematically precise animations from natural language.
 
 ## Key Risks
 
-**LLM-to-animation fidelity at scale:** The product's core claim is deterministic, mathematically precise animation from arbitrary text prompts. Ensuring correctness across the full breadth of STEM topics (physics, chemistry, biology, mathematics) at production quality represents a significant technical challenge. Academic prototypes (LASEV, TeachMaster) have demonstrated feasibility in narrow domains but not generalized deployment. The gap between demo and reliable product at scale is the primary technical risk.
+**Name confusion with multiple "Lamina" entities:** At least 5 entities share similar names: Lamin Labs (biology, also YC-backed), LAMINA1 (blockchain), Lamina Technologies (Swiss manufacturing), laminalabs.app (German Android dev firm), and Lamina on Product Hunt (2018 AI API). This creates brand confusion risk in search, press, and investor discovery.
 
-**Incumbent expansion into educational animation:** Synthesia ($4B valuation, $100M ARR) and Runway ($5.3B valuation) have the resources and distribution to add deterministic/educational animation modes. Runway's Gen 4.5 already targets multi-shot educational content (TechCrunch, February 2026). If generative models improve mathematical precision, Lamina Labs' core differentiator narrows.
+**Knowlify as a funded, ahead-of-schedule competitor:** Knowlify (YC S25) raised $3M and has generated 200,000+ videos (American Bazaar Online, Oct 2025). While positioned for corporate rather than education, a pivot toward education would directly overlap. Knowlify has a ~6-month head start in market and a larger team (6 vs. 2).
 
-**Open-source competition from Manim ecosystem:** Manim Community Edition is actively maintained and could develop an AI-powered natural-language front-end. Grant Sanderson's 3Blue1Brown channel (6M+ YouTube subscribers) provides an existing distribution channel and brand association with precise mathematical animation. A Manim + LLM wrapper project could emerge from the open-source community at any time.
+**LLM-wrapper commoditization:** The text-to-animation pipeline depends on LLM capabilities for scene understanding. As LLMs improve, competing wrappers around Manim or custom renderers could replicate the approach. OpenAI, Google, or Anthropic adding structured visual output to their models could disintermediate the text-understanding layer.
 
-**Brand disambiguation:** Multiple similarly named companies exist: Lamin Labs (YC-backed biology data infrastructure at lamin.ai), LAMINA1 (blockchain/metaverse by Neal Stephenson), Lamina Technologies, Lamina Systems Inc. Search results for "Lamina Labs" return these other entities, creating potential confusion for customers, investors, and press coverage.
-
-**Undergraduate founders with no prior exits:** Both founders are current undergraduates (Sudip on leave from MIT, Rohan at Caltech) with no documented prior startup exits or industry operating experience. While this is common at pre-seed, the absence of enterprise sales or go-to-market experience may slow institutional adoption.
+**Both founders are undergraduate students on leave:** Sudip is on leave from MIT; Rohan is enrolled at Caltech through June 2027 (LinkedIn). Managing a YC startup while navigating academic commitments introduces competing demands.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Global EdTech market: $334.29B in 2023, projected $738.60B by 2029 at 14.13% CAGR (Mordor Intelligence via search snippet). Video creation tool market: $7.5B in 2024, projected $15.2B by 2033 at 8.5% CAGR (Market Research Intellect via search snippet). |
-| SAM | EdTech content creation segment projected $12.46–24.97B by 2035 (Straits Research via search snippet) |
-| Traction | No public data found. Product in waitlist/pre-launch phase (laminalabs.ai). |
-| Revenue Signal | No public data found. No pricing page; waitlist offers "founding user pricing" (laminalabs.ai). |
-| Founders | Rohan Bhattarai (Co-founder): Caltech Physics, international olympiad medalist, published astrophysics researcher. Sudip Rokaya (Co-founder): MIT CS & Math (on leave), ML researcher at MIT Graybiel Lab, international olympiad medalist. |
-| Competitors | Synthesia ($180M raised, ~$100M ARR, avatar-based corporate L&D); Runway ($315M Series E, revenue undisclosed, general-purpose generative video); HeyGen ($69M raised, ~$95M ARR, avatar video & translation); Animaker (~$108K raised, ~$22.4M revenue, template-based); Manim (open-source, free, requires coding) |
-| Moat Signals | Deterministic rendering pipeline distinct from probabilistic generative models; sub-8-second generation speed claim; MIT/Caltech engineering team |
-| Risk Factors | LLM-to-animation fidelity at scale, incumbent expansion into educational animation, open-source Manim ecosystem competition, brand disambiguation |
-| Founder Reach | Rohan Bhattarai: Twitter @RohanBhattarai_ (count not retrievable), LinkedIn 513 followers. Sudip Rokaya: Twitter @itsrealranky (count not retrievable), LinkedIn 500+ connections. |
-| Distribution Signals | No public data found. No Product Hunt launch, no app store presence, no company social media accounts identified. |
-| Emails | sudip@laminalabs.ai |
+| TAM | $110.6B EdTech Animation (Market.us, 2025, 16.7% CAGR via search snippet); $3.83B Explainer Video Animation Software (Credence Research, 2024, 14% CAGR via search snippet) |
+| SAM | No public data found |
+| Traction | No public user/revenue metrics; product in waitlist stage (laminalabs.ai); founder LinkedIn post: 1,375 reactions (LinkedIn) |
+| Revenue Signal | No public data found |
+| Founders | Sudip Rokaya (Co-founder): MIT CS & Math, ghostclaw OSS project (20 GitHub stars). Rohan Bhattarai (Co-founder): Caltech Physics, published astrophysics researcher, olympiad medalist |
+| Competitors | Knowlify ($3M raised, revenue unknown, corporate explainer focus) (American Bazaar Online, Oct 2025); Vyond ($50M raised, ~$35M ARR, template-based L&D) (GetLatka, Sep 2025); Steve.AI (unfunded, 5M+ users, general-purpose) (steve.ai); Manim (OSS, 35.8K GitHub stars, code-first benchmark) (GitHub) |
+| Moat Signals | No public data found |
+| Risk Factors | Name confusion with 5+ similar entities, Knowlify competitive overlap, LLM-wrapper commoditization |
+| Founder Reach | Sudip Rokaya: Twitter @itsrealranky (count not retrievable), LinkedIn 3,840 followers, GitHub 21 stars total (LinkedIn, GitHub). Rohan Bhattarai: Twitter not found, LinkedIn 563 followers, GitHub not confirmed (LinkedIn) |
+| Distribution Signals | No public data found |
+| Emails | sudip@laminalabs.ai (laminalabs.ai) |

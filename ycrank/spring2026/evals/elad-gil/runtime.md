@@ -1,0 +1,26 @@
+﻿# Runtime -- Elad Gil Evaluation
+
+The central tension with Runtime is that the structural moment is real but the market is consensus, not non-obvious. Autonomous coding agents -- Claude Code, Codex, Gemini CLI -- all crossed the capability threshold for enterprise relevance in 2025. That's a genuine inflection. But "AI agent governance" is not PagerDuty-style boring infrastructure that other investors dismiss. It's one of the hottest investment categories in tech right now. E2B has $32M and 15 million sandboxes per month. Daytona has $30.7M and $1M+ forward ARR. Galileo has $68M and 834% revenue growth. When I see a pre-seed company entering a space where four adjacent competitors have raised $155M+ combined, my first question isn't about the product -- it's about what structural advantage this company has that capital alone can't replicate. I don't see one.
+
+The dossier makes an interesting structural argument that coding agent vendors and cloud providers won't build governance because it reduces agent usage. I've thought about this carefully and I think it's backwards. Enterprise customers require governance to adopt agents at all. Anthropic, OpenAI, and Google have overwhelming incentives to build native organizational controls because doing so unlocks the enterprise market, which is where the real revenue lives. Claude Code already has permission modes. GitHub Copilot already has enterprise policy controls. The "structural opening" the company identifies is actually a temporary gap that the platform vendors are actively closing -- not a durable moat created by incentive misalignment. This is similar to the pattern I've written about with "market-ending moves": when the incumbent's incentive is to add your feature to expand their own market, your window as an independent layer is narrow.
+
+The product-to-distribution trajectory is where I'd want to get excited but can't. The vision -- own the session environment, then distribute deployment, monitoring, cost optimization, security scanning through it -- is structurally sound. That's the playbook. But the initial wedge needs to be defensible enough that you can expand before competitors converge. Runtime's governance features (network allowlists, per-repo access controls, deployment gates, system instructions) are configuration management, not deep technology. A competent engineering team could replicate these in weeks. The "non-engineer workspace for coding agents" angle is the most interesting differentiation I see -- it's a genuinely different user persona than what E2B or Daytona targets. If the real expansion of coding agents is PMs and designers and ops staff using them to ship, that's a wedge worth owning. But 64 GitHub stars and 7,074 total PyPI downloads don't suggest this wedge is resonating yet, and the dossier provides no evidence of enterprise LOIs or even named customers beyond the vague "live with fast-growing YC scaleups."
+
+The strongest bull case requires believing three things simultaneously: (1) non-technical users of coding agents will be a massive and distinct market, (2) agent vendors will not build native governance adequate for enterprise needs, and (3) Runtime can capture this market before E2B and Daytona add governance layers to their better-capitalized sandbox platforms. Each of these individually has maybe a 30-40% chance of being true. Together, that's compounding low-probability events -- exactly the multi-miracle pattern I avoid. If all three held, this could be the governance layer for the next wave of enterprise software creation. But the path requires too many things to break right simultaneously.
+
+Gus Trigos is the bright spot. Second-time YC founder, prior exit with Mentum acquired by Nuvocargo, institutional fundraising experience with Gradient Ventures. He's shipped a product with real pricing tiers and iterated through 16 PyPI versions. That's real execution credibility. But his background is finance and supply chain, not developer tools or infrastructure -- and this is fundamentally a developer infrastructure sale. The team is three people with zero open job postings. Even with strong execution, the competitive dynamics here require either a capital base or a distribution insight that I don't see evidence of yet.
+
+I'm passing. The timing is right but obvious. The market is real but consensus. The moat is thin against well-funded competitors and platform vendors with direct incentives to close the governance gap. A company in this position needs either a distribution insight nobody else has or a technical moat that takes years to replicate, and I see neither. If Runtime showed me enterprise contracts with named logos or evidence that non-engineers are adopting coding agents at scale through their platform specifically, the calculus changes. Without that, this is a feature in search of a company.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Non-Obvious Market at Structural Inflection | 14/35 |
+| Product-to-Distribution Trajectory | 12/25 |
+| Single-Miracle Operational Clarity | 6/15 |
+| Founder Execution Velocity | 9/15 |
+| Technology Cycle Positioning | 7/10 |
+| **Total** | **48/100** |
+
+**Total Score: 48/100** (Neutral)

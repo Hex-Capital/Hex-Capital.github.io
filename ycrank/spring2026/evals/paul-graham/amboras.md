@@ -1,0 +1,26 @@
+﻿# Amboras -- Paul Graham Evaluation
+
+The thing that jumps out about Amboras is the competitive landscape. Genstore has $10M. Spangle AI has $21M and a $100M valuation. Qeen.ai has $12M. All of them are building some version of "AI does your e-commerce for you." And Shopify itself is integrating AI features natively into a platform with 4.8 million merchants. When I see four or five well-funded companies converging on the same insight at the same time, that tells me the insight is not an insight anymore -- it's consensus. I wrote in 2025 that the most impressive companies I'd seen that year were not working on AI. That wasn't anti-AI; it was anti-consensus. The best startup ideas provoke the reaction "why didn't someone do this already?" Amboras provokes the reaction "everyone is already doing this."
+
+Amin Mokadem has genuine founder-market fit, and I want to be clear about that because it matters. He ran an e-commerce business to six-figure MRR. He studied CS at ETH Zurich, which is one of the best technical universities in the world. He presumably lived through the exact pain of configuring Shopify, hiring agencies, manually running A/B tests, and watching conversion rates while knowing there had to be a better way. This is organic problem discovery -- he stumbled into this problem through his own experience, not through reading TechCrunch. If I apply my organic test in isolation, he passes it. The problem is real and the founder's connection to it is authentic.
+
+But organic discovery is only half the equation. The other half is schlep -- the ugly, tedious complexity that causes everyone else to unconsciously look away. That's what made Stripe work. Every programmer knew payments were broken, but dealing with banks, PCI compliance, fraud systems, and regulatory frameworks across dozens of countries was so painful that thousands of smart people filtered the idea out before they even consciously considered it. Where is the comparable schlep at Amboras? The core capabilities -- LLM-generated storefronts, automated copy, A/B testing -- rely on foundation models that any competent team can access. The dossier itself notes "the barrier to replication is low at the technology layer." When the schlep is thin, competition is structurally high. And the evidence confirms this: four funded competitors are already building overlapping solutions, with 20-40x more capital.
+
+The strongest bull case is the agent-ready API play. If machine-to-machine commerce becomes real -- AI purchasing agents discovering products and transacting programmatically -- then being the platform that's optimized for that from day one could be enormously valuable. This is the kind of forward bet that I find genuinely interesting, similar to how being mobile-first in 2008 looked premature but turned out to be decisive. If Amin is right that the next wave of commerce is agent-to-agent, not human-to-storefront, then building for that interface now gives Amboras a structural advantage that Shopify would struggle to retrofit. But this future doesn't exist yet at meaningful scale, and betting on a market that hasn't materialized is different from solving a problem that's already painful. You need the current product to sustain you while you wait for the future to arrive, and Amboras's current product is competing against much better-funded alternatives doing essentially the same thing.
+
+The team opacity concerns me separately. Four people on the team, but only one founder is publicly identifiable. No second co-founder named anywhere. No GitHub repos found. No CTO identified. When I can't see who's building the product, I can't assess whether the founders are hackers or managers. ETH Zurich CS is a strong credential, and someone clearly built a working website with a waitlist, but the absence of any visible technical footprint -- no open source, no public code, no identified technical co-founder -- leaves me evaluating potential rather than evidence. A 438-person waitlist with a cohort-gated launch shows some discipline, but it's modest traction in a category where Genstore already hit #1 on Product Hunt.
+
+This is a competent team in a real market building a product that works. But competent teams in real markets building products that work is the description of about thirty AI e-commerce startups right now. What I look for is the thing that makes competition structurally impossible -- the schlep nobody else will endure, the organic insight nobody else has, the founder who will outlast everyone through sheer resourcefulness. Amin has the organic insight, but so do his competitors. The schlep is thin enough that capital and execution speed matter more than willingness to endure pain. And I have no evidence yet of the kind of relentless resourcefulness that would convince me this team will outrun companies with twenty times their funding.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Organic Problem Discovery and Schlep Willingness | 15/30 |
+| Relentlessly Resourceful Founders | 10/25 |
+| Evidence of Wanting: Demonstrated User Pull | 7/20 |
+| Technical Hacker Founders Who Build | 7/15 |
+| Growth Trajectory and Default Alive Economics | 5/10 |
+| **Total** | **44/100** |
+
+**Total Score: 44/100** (Pass)

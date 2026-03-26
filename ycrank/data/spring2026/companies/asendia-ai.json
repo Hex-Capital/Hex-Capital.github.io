@@ -1,0 +1,71 @@
+{
+  "slug": "asendia-ai",
+  "name": "Asendia AI",
+  "oneLiner": "Agentic recruitment platform for staffing agencies",
+  "metadata": {
+    "website": "https://asendia.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/asendia-ai",
+    "batch": "Spring 2026",
+    "industry": "B2B / B2B -> Human Resources",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Recruiting, AI",
+    "yc_partner": "Tom Blomfield",
+    "emails": "connect@asendia.ai"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Recruiting",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-26T05:06:45.683Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 22,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 34,
+    "EG": 38,
+    "NR": 38,
+    "PG": 34,
+    "PT": 26,
+    "SL": 22,
+    "VK": null
+  },
+  "consolidatedAvg": 32,
+  "consolidatedRank": 41,
+  "paths": {
+    "memo": "spring2026/memos/asendia-ai.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/asendia-ai.md",
+      "elad-gil": "spring2026/evals/elad-gil/asendia-ai.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/asendia-ai.md",
+      "paul-graham": "spring2026/evals/paul-graham/asendia-ai.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/asendia-ai.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/asendia-ai.md"
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "slug": "adialante",
+  "name": "Adialante",
+  "oneLiner": "Cancer screening without barriers",
+  "metadata": {
+    "website": "http://www.adialante.com",
+    "yc_page": "https://www.ycombinator.com/companies/adialante",
+    "batch": "Spring 2026",
+    "industry": "Healthcare / Healthcare -> Diagnostics",
+    "team_size": "4",
+    "location": "Redwood City, CA, USA",
+    "tags": "Hardware, Medical Devices, Health & Wellness",
+    "yc_partner": "Nicolas Dessaigne",
+    "emails": "clinics@adialante.com, efrain@adialante.com"
+  },
+  "tags": [
+    "Hardware",
+    "Medical Devices",
+    "Health & Wellness"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-26T05:20:51.720Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 71,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 62,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 66,
+      "tier": "Invest"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 71,
+    "EG": 37,
+    "NR": 62,
+    "PG": 53,
+    "PT": 45,
+    "SL": 66,
+    "VK": null
+  },
+  "consolidatedAvg": 55.67,
+  "consolidatedRank": 3,
+  "paths": {
+    "memo": "spring2026/memos/adialante.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/adialante.md",
+      "elad-gil": "spring2026/evals/elad-gil/adialante.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/adialante.md",
+      "paul-graham": "spring2026/evals/paul-graham/adialante.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/adialante.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/adialante.md"
+    }
+  }
+}

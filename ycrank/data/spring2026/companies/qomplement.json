@@ -11,7 +11,7 @@
     "location": "San Francisco, CA, USA",
     "tags": "Documents, Artificial Intelligence, B2B",
     "yc_partner": "Tom Blomfield",
-    "emails": "kerim@qomplement.com (Codemix startup profile)"
+    "emails": "kerim@qomplement.com (Codemix startup directory)"
   },
   "tags": [
     "Documents",
@@ -19,48 +19,44 @@
     "B2B"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-03-10T18:34:35.857Z",
+  "memoGeneratedAt": "2026-03-26T05:24:14.289Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 25,
-      "tier": "Pass"
+      "score": 46,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 28,
+      "score": 36,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 39,
+      "score": 40,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 31,
-      "tier": "Pass"
+      "score": 47,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 24,
+      "score": 23,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 20,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 25,
+      "score": 23,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 25,
-    "EG": 28,
-    "NR": 39,
-    "PG": 31,
-    "PT": 24,
-    "SL": 20,
-    "VK": 25
+    "CB": 46,
+    "EG": 36,
+    "NR": 40,
+    "PG": 47,
+    "PT": 23,
+    "SL": 23,
+    "VK": null
   },
-  "consolidatedAvg": 27.43,
-  "consolidatedRank": 12,
+  "consolidatedAvg": 35.83,
+  "consolidatedRank": 29,
   "paths": {
     "memo": "spring2026/memos/qomplement.md",
     "evals": {
@@ -69,8 +65,7 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/qomplement.md",
       "paul-graham": "spring2026/evals/paul-graham/qomplement.md",
       "peter-thiel": "spring2026/evals/peter-thiel/qomplement.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/qomplement.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/qomplement.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/qomplement.md"
     }
   }
 }

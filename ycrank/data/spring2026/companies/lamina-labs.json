@@ -19,48 +19,44 @@
     "Edtech"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-03-11T05:27:19.592Z",
+  "memoGeneratedAt": "2026-03-26T05:20:01.583Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 51,
+      "score": 49,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 31,
+      "score": 32,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 48,
+      "score": 50,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 51,
+      "score": 49,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 36,
+      "score": 38,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 41,
+      "score": 30,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 51,
-    "EG": 31,
-    "NR": 48,
-    "PG": 51,
-    "PT": 36,
-    "SL": 29,
-    "VK": 41
+    "CB": 49,
+    "EG": 32,
+    "NR": 50,
+    "PG": 49,
+    "PT": 38,
+    "SL": 30,
+    "VK": null
   },
-  "consolidatedAvg": 41,
-  "consolidatedRank": 6,
+  "consolidatedAvg": 41.33,
+  "consolidatedRank": 15,
   "paths": {
     "memo": "spring2026/memos/lamina-labs.md",
     "evals": {
@@ -69,8 +65,7 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/lamina-labs.md",
       "paul-graham": "spring2026/evals/paul-graham/lamina-labs.md",
       "peter-thiel": "spring2026/evals/peter-thiel/lamina-labs.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/lamina-labs.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/lamina-labs.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/lamina-labs.md"
     }
   }
 }

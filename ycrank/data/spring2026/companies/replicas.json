@@ -1,0 +1,71 @@
+{
+  "slug": "replicas",
+  "name": "Replicas",
+  "oneLiner": "Use background coding agents from anywhere",
+  "metadata": {
+    "website": "https://replicas.dev",
+    "yc_page": "https://www.ycombinator.com/companies/replicas",
+    "batch": "Spring 2026",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "1",
+    "location": "San Francisco, CA, USA",
+    "tags": "Developer Tools, B2B, AI",
+    "yc_partner": "Harj Taggar",
+    "emails": "founders@replicas.dev"
+  },
+  "tags": [
+    "Developer Tools",
+    "B2B",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-26T05:23:46.709Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 24,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 23,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 24,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 24,
+    "EG": 34,
+    "NR": 35,
+    "PG": 44,
+    "PT": 23,
+    "SL": 24,
+    "VK": null
+  },
+  "consolidatedAvg": 30.67,
+  "consolidatedRank": 42,
+  "paths": {
+    "memo": "spring2026/memos/replicas.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/replicas.md",
+      "elad-gil": "spring2026/evals/elad-gil/replicas.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/replicas.md",
+      "paul-graham": "spring2026/evals/paul-graham/replicas.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/replicas.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/replicas.md"
+    }
+  }
+}

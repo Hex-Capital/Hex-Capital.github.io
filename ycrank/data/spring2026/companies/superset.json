@@ -8,57 +8,49 @@
     "batch": "Spring 2026",
     "industry": "B2B / B2B -> Engineering, Product and Design",
     "team_size": "3",
-    "location": "San Francisco, CA, US (YC company page)",
+    "location": "San Francisco, CA, US (YC page)",
     "tags": "AI",
     "yc_partner": "Nicolas Dessaigne",
-    "emails": "founders@superset.sh (GitHub README)"
+    "emails": "No public data found"
   },
   "tags": [
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-03-10T18:37:01.433Z",
+  "memoGeneratedAt": "2026-03-26T05:27:34.376Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 23,
+      "score": 26,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
       "score": 40,
       "tier": "Pass"
     },
+    "naval-ravikant": {
+      "score": 43,
+      "tier": "Pass"
+    },
     "paul-graham": {
-      "score": 53,
+      "score": 56,
       "tier": "Neutral"
     },
     "peter-thiel": {
       "score": 30,
       "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 27,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 41,
-      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 23,
-    "EG": 35,
-    "NR": 40,
-    "PG": 53,
+    "CB": 26,
+    "EG": 40,
+    "NR": 43,
+    "PG": 56,
     "PT": 30,
-    "SL": 27,
-    "VK": 41
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 35.57,
-  "consolidatedRank": 10,
+  "consolidatedAvg": 39,
+  "consolidatedRank": 19,
   "paths": {
     "memo": "spring2026/memos/superset.md",
     "evals": {
@@ -66,9 +58,7 @@
       "elad-gil": "spring2026/evals/elad-gil/superset.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/superset.md",
       "paul-graham": "spring2026/evals/paul-graham/superset.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/superset.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/superset.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/superset.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/superset.md"
     }
   }
 }

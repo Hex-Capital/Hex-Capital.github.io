@@ -1,7 +1,7 @@
 {
   "slug": "arga-labs",
   "name": "Arga Labs",
-  "oneLiner": "The validation framework for AI agents",
+  "oneLiner": "The validation infrastructure for AI agents",
   "metadata": {
     "website": "https://www.argalabs.com/",
     "yc_page": "https://www.ycombinator.com/companies/arga-labs",
@@ -9,58 +9,54 @@
     "industry": "B2B / B2B",
     "team_size": "3",
     "location": "San Francisco, CA, USA",
-    "tags": "AIOps, Developer Tools, SaaS",
+    "tags": "Developer Tools, SaaS, Infrastructure",
     "yc_partner": "Pete Koomen",
     "emails": "No public data found"
   },
   "tags": [
-    "AIOps",
     "Developer Tools",
-    "SaaS"
+    "SaaS",
+    "Infrastructure"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-03-10T18:31:11.381Z",
+  "memoGeneratedAt": "2026-03-26T05:16:38.243Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 29,
+      "score": 31,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 41,
+      "score": 38,
       "tier": "Pass"
     },
     "naval-ravikant": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "paul-graham": {
       "score": 45,
       "tier": "Neutral"
     },
-    "paul-graham": {
-      "score": 39,
-      "tier": "Pass"
-    },
     "peter-thiel": {
-      "score": 32,
+      "score": 31,
       "tier": "Pass"
     },
     "sam-lessin": {
       "score": 26,
       "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 42,
-      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 29,
-    "EG": 41,
-    "NR": 45,
-    "PG": 39,
-    "PT": 32,
+    "CB": 31,
+    "EG": 38,
+    "NR": 44,
+    "PG": 45,
+    "PT": 31,
     "SL": 26,
-    "VK": 42
+    "VK": null
   },
-  "consolidatedAvg": 36.29,
-  "consolidatedRank": 8,
+  "consolidatedAvg": 35.83,
+  "consolidatedRank": 28,
   "paths": {
     "memo": "spring2026/memos/arga-labs.md",
     "evals": {
@@ -69,8 +65,7 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/arga-labs.md",
       "paul-graham": "spring2026/evals/paul-graham/arga-labs.md",
       "peter-thiel": "spring2026/evals/peter-thiel/arga-labs.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/arga-labs.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/arga-labs.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/arga-labs.md"
     }
   }
 }

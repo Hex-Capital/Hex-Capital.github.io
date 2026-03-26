@@ -5,9 +5,9 @@
   "metadata": {
     "website": "https://9mothers.com",
     "yc_page": "https://www.ycombinator.com/companies/9-mothers-corporation",
-    "batch": "Spring 2026 (X26)",
+    "batch": "Spring 2026",
     "industry": "Industrials / Industrials -> Defense",
-    "team_size": "~8 (RocketReach via search snippet)",
+    "team_size": "No public data found",
     "location": "Austin, TX, USA",
     "tags": "Hard Tech, Hardware, Drones, GovTech, Aerospace",
     "yc_partner": "Garry Tan",
@@ -21,48 +21,44 @@
     "Aerospace"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-03-10T18:40:46.870Z",
+  "memoGeneratedAt": "2026-03-26T05:29:15.755Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 51,
+      "score": 53,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 50,
+      "score": 48,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 39,
+      "score": 38,
       "tier": "Pass"
     },
+    "paul-graham": {
+      "score": 49,
+      "tier": "Neutral"
+    },
     "peter-thiel": {
-      "score": 36,
+      "score": 37,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 40,
+      "score": 42,
       "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 57,
-      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 51,
-    "EG": 50,
-    "NR": 46,
-    "PG": 39,
-    "PT": 36,
-    "SL": 40,
-    "VK": 57
+    "CB": 53,
+    "EG": 48,
+    "NR": 38,
+    "PG": 49,
+    "PT": 37,
+    "SL": 42,
+    "VK": null
   },
-  "consolidatedAvg": 45.57,
-  "consolidatedRank": 3,
+  "consolidatedAvg": 44.5,
+  "consolidatedRank": 10,
   "paths": {
     "memo": "spring2026/memos/9-mothers-corporation.md",
     "evals": {
@@ -71,8 +67,7 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/9-mothers-corporation.md",
       "paul-graham": "spring2026/evals/paul-graham/9-mothers-corporation.md",
       "peter-thiel": "spring2026/evals/peter-thiel/9-mothers-corporation.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/9-mothers-corporation.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/9-mothers-corporation.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/9-mothers-corporation.md"
     }
   }
 }

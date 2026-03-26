@@ -1,0 +1,66 @@
+{
+  "slug": "zolvo",
+  "name": "Zolvo",
+  "oneLiner": "AI that automates servicing for commercial lenders",
+  "metadata": {
+    "website": "https://zolvo.com/",
+    "yc_page": "https://www.ycombinator.com/companies/zolvo",
+    "batch": "Spring 2026",
+    "industry": "Fintech / Credit and Lending",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, B2B, Lending",
+    "yc_partner": "Tom Blomfield",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "B2B",
+    "Lending"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-26T05:23:58.884Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 62,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 32,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 41,
+    "EG": 57,
+    "NR": 42,
+    "PG": 62,
+    "PT": 32,
+    "SL": null,
+    "VK": null
+  },
+  "consolidatedAvg": 46.8,
+  "consolidatedRank": 9,
+  "paths": {
+    "memo": "spring2026/memos/zolvo.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/zolvo.md",
+      "elad-gil": "spring2026/evals/elad-gil/zolvo.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/zolvo.md",
+      "paul-graham": "spring2026/evals/paul-graham/zolvo.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/zolvo.md"
+    }
+  }
+}

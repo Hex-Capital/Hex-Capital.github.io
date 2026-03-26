@@ -1,17 +1,17 @@
 {
   "slug": "minicor",
   "name": "Minicor",
-  "oneLiner": "Run self-healing desktop automations at scale",
+  "oneLiner": "Managed, self healing desktop automation at scale",
   "metadata": {
     "website": "https://minicor.com",
     "yc_page": "https://www.ycombinator.com/companies/minicor",
-    "batch": "Spring 2026",
+    "batch": "Spring 2026 (X26)",
     "industry": "B2B / B2B -> Infrastructure",
-    "team_size": "4",
+    "team_size": "5",
     "location": "San Francisco, CA, USA",
     "tags": "Generative AI, B2B, Infrastructure",
     "yc_partner": "Tom Blomfield",
-    "emails": "connect@minicor.com"
+    "emails": "connect@minicor.com, faiz@minicor.com"
   },
   "tags": [
     "Generative AI",
@@ -19,48 +19,44 @@
     "Infrastructure"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-03-10T18:31:20.222Z",
+  "memoGeneratedAt": "2026-03-26T05:11:08.097Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 58,
+      "score": 52,
       "tier": "Neutral"
     },
+    "elad-gil": {
+      "score": 65,
+      "tier": "Invest"
+    },
     "naval-ravikant": {
-      "score": 48,
+      "score": 50,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 58,
-      "tier": "Neutral"
+      "score": 66,
+      "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 32,
+      "score": 34,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 32,
+      "score": 38,
       "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 51,
-      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 38,
-    "EG": 58,
-    "NR": 48,
-    "PG": 58,
-    "PT": 32,
-    "SL": 32,
-    "VK": 51
+    "CB": 52,
+    "EG": 65,
+    "NR": 50,
+    "PG": 66,
+    "PT": 34,
+    "SL": 38,
+    "VK": null
   },
-  "consolidatedAvg": 45.29,
-  "consolidatedRank": 4,
+  "consolidatedAvg": 50.83,
+  "consolidatedRank": 6,
   "paths": {
     "memo": "spring2026/memos/minicor.md",
     "evals": {
@@ -69,8 +65,7 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/minicor.md",
       "paul-graham": "spring2026/evals/paul-graham/minicor.md",
       "peter-thiel": "spring2026/evals/peter-thiel/minicor.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/minicor.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/minicor.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/minicor.md"
     }
   }
 }

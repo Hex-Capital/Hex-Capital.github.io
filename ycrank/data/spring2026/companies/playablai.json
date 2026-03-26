@@ -1,0 +1,71 @@
+{
+  "slug": "playablai",
+  "name": "Playabl.ai",
+  "oneLiner": "Prompt-to-play AI game builder for everyone",
+  "metadata": {
+    "website": "https://playabl.ai",
+    "yc_page": "https://www.ycombinator.com/companies/playablai",
+    "batch": "Spring 2026 (P26)",
+    "industry": "Consumer / Consumer -> Gaming",
+    "team_size": "9",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, B2B, Gaming",
+    "yc_partner": "Nicolas Dessaigne",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "B2B",
+    "Gaming"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-26T05:12:35.018Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 39,
+    "EG": 40,
+    "NR": 48,
+    "PG": 48,
+    "PT": 26,
+    "SL": 30,
+    "VK": null
+  },
+  "consolidatedAvg": 38.5,
+  "consolidatedRank": 20,
+  "paths": {
+    "memo": "spring2026/memos/playablai.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/playablai.md",
+      "elad-gil": "spring2026/evals/elad-gil/playablai.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/playablai.md",
+      "paul-graham": "spring2026/evals/paul-graham/playablai.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/playablai.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/playablai.md"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+﻿# Manicule -- Elad Gil Evaluation
+
+The first thing I see here is a services business. Not a services business with a clear productization path, not a services business building proprietary technology that compounds -- a documentation agency that uses LLMs to work faster. If you removed the AI agents entirely, you'd still have a technical writing shop billing clients $3K per month. That's the "software-aware vs. software-driven" distinction I keep coming back to: the AI makes the agency more efficient, but it's not the fundamental source of competitive advantage. The business model is human writers producing documentation, augmented by tools that any technical writer can access. A smart toaster is still a toaster.
+
+The structural moment question is where this falls apart for me. Yes, the 2023-2025 explosion of AI startups has created a wave of developer tool companies that need documentation. That's real demand. But what technology shift makes this *services business* possible now when it wasn't before? Documentation agencies have existed for decades. The specific catalyst -- LLMs crossing a capability threshold for code verification and draft generation -- actually works *against* the services model over time. Every improvement in LLM capability reduces the value of the human editorial layer that Manicule is selling. Mintlify at $10M ARR and $21M raised is building the self-serve platform that eats this market as models improve. When the technology adoption curve inflects further, it favors the software platform, not the agency. The "why now" is real for documentation tooling; it's an anti-signal for documentation services.
+
+I want to take the bull case seriously, because the founders are clearly executing. $15K MRR, profitable, five named clients in the YC ecosystem, and the Supermemory case study -- 30% improvement in answer success rate, multiple enterprise deals closed, shipped in 23 days -- that's concrete evidence of delivering value. The strongest version of the bull case is that Manicule builds so much process knowledge and proprietary AI tooling through client engagements that it can eventually productize, the way Palantir extracted reusable software from government deployments. In that scenario, the agency work is a customer development mechanism, and the real product emerges from the accumulated data and workflows. For this to work, the founders would need to be deliberately building toward a platform -- extracting generalizable tooling from each engagement, not just delivering custom documentation projects. I see no evidence of this in the dossier. The website describes a service, not an emerging platform. The GitHub presence (one repo with 11 stars) doesn't suggest a developer tool in the making.
+
+The product-to-distribution trajectory is the structural ceiling. Stripe's API created a developer relationship that distributed Atlas, Billing, Radar, and Treasury. Gusto's payroll product became a distribution channel for HR, benefits, and compliance. A documentation agency doesn't have this property. Each client engagement is a project, not a platform relationship. There's no mechanism by which serving Supermemory's documentation creates a distribution channel for additional products. The revenue grows linearly with headcount, not exponentially with distribution. At $15K MRR with five people, the unit economics are already tight -- that's $3K per person per month before non-personnel costs. Scaling to $150K MRR probably requires 30-40 people doing documentation work, which is an agency, not a venture-scale business.
+
+Client concentration compounds the concern. Five clients at $15K MRR means roughly 20% of revenue per client. All five are YC-adjacent AI startups. A single funding downturn in the AI startup ecosystem -- which is cyclical by nature -- could cut the client base materially. And the switching cost argument doesn't hold as strongly as it might appear: documentation maintenance is real, but most of the value is in the initial creation, and companies can bring ongoing maintenance in-house once they hire a technical writer.
+
+The founders have domain-market fit -- Naman's 3+ years of technical writing for developer tools and Shreyans's engineering background at Supermemory give them exactly the right skills to deliver this service. I have no doubt they can build a solid documentation agency. But a documentation agency that serves YC startups at $3K/month retainers isn't the kind of business where 10x potential remains at any stage. The market isn't boring-but-huge like payroll (every company that employs people). It's a niche service for a specific type of company at a specific stage. I need to see the structural moment where a market is larger than it appears, and here the opposite is true -- the addressable market for human-augmented documentation services likely *shrinks* as AI capabilities improve.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Non-Obvious Market at Structural Inflection | 10/35 |
+| Product-to-Distribution Trajectory | 5/25 |
+| Single-Miracle Operational Clarity | 5/15 |
+| Founder Execution Velocity | 9/15 |
+| Technology Cycle Positioning | 4/10 |
+| **Total** | **33/100** |
+
+**Total Score: 33/100** (Pass)

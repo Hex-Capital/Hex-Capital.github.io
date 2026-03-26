@@ -1,0 +1,69 @@
+{
+  "slug": "kimpton-ai",
+  "name": "Kimpton AI",
+  "oneLiner": "The IDE for investors",
+  "metadata": {
+    "website": "https://kimpton.ai",
+    "yc_page": "https://www.ycombinator.com/companies/kimpton-ai",
+    "batch": "Spring 2026",
+    "industry": "Fintech / Fintech -> Asset Management",
+    "team_size": "5",
+    "location": "San Francisco, CA, USA; Remote",
+    "tags": "Fintech",
+    "yc_partner": "Aaron Epstein",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Fintech"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-26T05:20:32.046Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 34,
+    "EG": 38,
+    "NR": 50,
+    "PG": 52,
+    "PT": 32,
+    "SL": 30,
+    "VK": null
+  },
+  "consolidatedAvg": 39.33,
+  "consolidatedRank": 18,
+  "paths": {
+    "memo": "spring2026/memos/kimpton-ai.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/kimpton-ai.md",
+      "elad-gil": "spring2026/evals/elad-gil/kimpton-ai.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/kimpton-ai.md",
+      "paul-graham": "spring2026/evals/paul-graham/kimpton-ai.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/kimpton-ai.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/kimpton-ai.md"
+    }
+  }
+}

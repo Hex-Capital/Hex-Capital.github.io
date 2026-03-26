@@ -1,0 +1,72 @@
+{
+  "slug": "matforge",
+  "name": "matforge",
+  "oneLiner": "AI scientists to discover semiconductor materials",
+  "metadata": {
+    "website": "https://matforge.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/matforge",
+    "batch": "Spring 2026",
+    "industry": "Industrials / Industrials -> Energy",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Advanced Materials, Semiconductors, AI",
+    "yc_partner": "Aaron Epstein",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Advanced Materials",
+    "Semiconductors",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-26T05:28:26.007Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 68,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 65,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 50,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 48,
+    "EG": 54,
+    "NR": 68,
+    "PG": 65,
+    "PT": 52,
+    "SL": 50,
+    "VK": null
+  },
+  "consolidatedAvg": 56.17,
+  "consolidatedRank": 2,
+  "paths": {
+    "memo": "spring2026/memos/matforge.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/matforge.md",
+      "elad-gil": "spring2026/evals/elad-gil/matforge.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/matforge.md",
+      "paul-graham": "spring2026/evals/paul-graham/matforge.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/matforge.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/matforge.md"
+    }
+  }
+}

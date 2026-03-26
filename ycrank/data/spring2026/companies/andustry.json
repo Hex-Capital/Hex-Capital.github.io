@@ -1,0 +1,73 @@
+{
+  "slug": "andustry",
+  "name": "Andustry",
+  "oneLiner": "AI to source and sell industrial products",
+  "metadata": {
+    "website": "http://andustry.com/",
+    "yc_page": "https://www.ycombinator.com/companies/andustry",
+    "batch": "Spring 2026",
+    "industry": "B2B / Supply Chain and Logistics",
+    "team_size": "2",
+    "location": "Munich, Germany (LinkedIn)",
+    "tags": "Marketplace, Sales, Manufacturing, Procurement, Industrial",
+    "yc_partner": "Tom Blomfield",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Marketplace",
+    "Sales",
+    "Manufacturing",
+    "Procurement",
+    "Industrial"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-26T05:27:55.245Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 32,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 43,
+    "EG": 44,
+    "NR": 42,
+    "PG": 49,
+    "PT": 29,
+    "SL": 32,
+    "VK": null
+  },
+  "consolidatedAvg": 39.83,
+  "consolidatedRank": 17,
+  "paths": {
+    "memo": "spring2026/memos/andustry.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/andustry.md",
+      "elad-gil": "spring2026/evals/elad-gil/andustry.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/andustry.md",
+      "paul-graham": "spring2026/evals/paul-graham/andustry.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/andustry.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/andustry.md"
+    }
+  }
+}

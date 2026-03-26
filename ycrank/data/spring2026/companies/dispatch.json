@@ -11,7 +11,7 @@
     "location": "No public data found",
     "tags": "Manufacturing, Aerospace, Advanced Materials",
     "yc_partner": "Tom Blomfield",
-    "emails": "contact@dispatch.com (company website)"
+    "emails": "No public data found"
   },
   "tags": [
     "Manufacturing",
@@ -19,48 +19,44 @@
     "Advanced Materials"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-03-10T18:37:26.419Z",
+  "memoGeneratedAt": "2026-03-26T05:31:04.704Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 43,
+      "score": 40,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 34,
+      "score": 38,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 46,
+      "score": 45,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 49,
+      "score": 54,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 39,
+      "score": 38,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 64,
-      "tier": "Neutral"
-    },
-    "vinod-khosla": {
-      "score": 49,
+      "score": 50,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 43,
-    "EG": 34,
-    "NR": 46,
-    "PG": 49,
-    "PT": 39,
-    "SL": 64,
-    "VK": 49
+    "CB": 40,
+    "EG": 38,
+    "NR": 45,
+    "PG": 54,
+    "PT": 38,
+    "SL": 50,
+    "VK": null
   },
-  "consolidatedAvg": 46.29,
-  "consolidatedRank": 2,
+  "consolidatedAvg": 44.17,
+  "consolidatedRank": 11,
   "paths": {
     "memo": "spring2026/memos/dispatch.md",
     "evals": {
@@ -69,8 +65,7 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/dispatch.md",
       "paul-graham": "spring2026/evals/paul-graham/dispatch.md",
       "peter-thiel": "spring2026/evals/peter-thiel/dispatch.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/dispatch.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/dispatch.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/dispatch.md"
     }
   }
 }

@@ -1,0 +1,24 @@
+﻿# Hub.xyz -- Cyan Banister Evaluation
+
+The first thing I want to understand about any company is who's actually in the room, and with Hub.xyz, the answer to that question is already shifting. Léonie Nguyen is listed as co-founder and CBO on Tracxn, but she's not on the YC page, and in October 2025 she was appointed CEO of Meey Group, a Vietnamese proptech company. That's the kind of signal I can't ignore. I watched HQ Trivia implode -- the right time, the right product, destroyed entirely because of founder dynamics. Here, the situation might be worse than a conflict -- it looks like a co-founder may have simply left for another company, at the pre-seed stage, while Hub.xyz is going through YC. That's not a resolved tension, that's an open wound, and the dossier gives me nothing to suggest otherwise. When I see a three-person founding team shrink to two before the company has enterprise revenue, I don't need to understand the technical architecture yet. I need to understand what happened in that room.
+
+Setting the co-founder question aside, I went looking for the thing I always look for first: the founders' stories. Not the business -- who are these people, and why are they building this specific thing? Armin studied industrial engineering in Brussels, has LP stakes in a couple of venture funds, and brings "early crypto experience." Tim went to École Polytechnique, HEC Paris, and Berkeley, then worked at Tiffany & Co. on financial data systems. These are accomplished, well-educated people. But there's no survival story here, no biographical thread that connects them to the specific problem of AI training data in a way that would keep them going when everything falls apart. The founders I back -- Travis at Uber, the Crusoe team mining gas flares in North Dakota, the Contraline founder who spent years in a lab on male contraception that everyone else thought was absurd -- they all had a story where the problem chose them before they chose it. With Hub.xyz, I see capable operators who identified a market opportunity, and that's a meaningful difference.
+
+The bull case here is real and I want to be honest about it: the AI training data market is enormous and accelerating, distributed data collection is structurally different from centralized labeling in ways that matter, and 500,000 bandwidth contributors at pre-seed is a genuine network. If the structured API layer truly differentiates from what Grass and Nodepay offer -- if Hub.xyz becomes the Stripe of training data where others are just raw pipes -- that's a massive outcome. The SwissBorg partnership providing 1M+ KYC-verified potential nodes is smart distribution. And there's a version of this story where the "weird" factor of combining DePIN crypto incentives with enterprise AI data sales is exactly the kind of thing that looks messy today and obvious in three years. If I squint, I can see why Harj picked them for YC.
+
+But I don't feel the jolt. The DePIN space already has 600+ projects and a $16 billion market cap. Grass is at roughly a billion-dollar valuation doing essentially the same thing with $17.5 million in funding. Nodepay has 1.5 million active users. This isn't the kind of unpopular, difficult-to-assess bet where I thrive. It's a crowded crypto narrative dressed in AI enterprise language. The token launch, the airdrop campaign, the IQ Points -- this is the playbook everyone in crypto is running right now. When I backed SpaceX, nobody else wanted it. When I backed Crusoe, people thought it was insane. Hub.xyz is swimming in a pool full of very similar-looking companies, and that's the opposite of my signal. I also don't see this creating meaningful economic access -- bandwidth contributors earning token points isn't the same as Uber creating real income for drivers or Affirm giving people transparent credit. It's micro-earnings wrapped in crypto mechanics.
+
+The company's website returned a 403 error during research, there are no enterprise customers or LOIs documented, no revenue signals, and the "API for real-world training data" positioning is claimed rather than proven. I need to see that an enterprise buyer actually chose Hub.xyz's structured data over alternatives -- not just that 500,000 crypto-native users installed a node for token incentives. Supply-side growth driven by airdrops is a known pattern; demand-side enterprise revenue is the unproven leap, and nothing in this dossier gives me confidence it's been made or is imminent.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Biographical Grit and Personal Stake | 6/30 |
+| Anti-Consensus Conviction and Weird Factor | 6/25 |
+| Economic Access and Real-World Impact | 5/20 |
+| Navigating Complexity in Hard Spaces | 5/15 |
+| Co-Founder Alignment and Team Resilience | 3/10 |
+| **Total** | **25/100** |
+
+**Total Score: 25/100** (Pass)

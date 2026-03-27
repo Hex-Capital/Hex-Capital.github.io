@@ -171,6 +171,9 @@
               <th class="px-1.5 py-1 text-center text-claude-gray cursor-pointer hover:text-claude-orange w-24 border border-claude-border whitespace-nowrap"
                 @click="sortBy('revenue')"><span class="hidden sm:inline">Annual Revenue</span><span class="sm:hidden">ARR</span><span x-show="sortCol === 'revenue'" x-text="sortDir === 1 ? '\u25B2' : '\u25BC'" class="text-xs ml-0.5"></span>
               </th>
+              <th class="px-1.5 py-1 text-center text-claude-gray cursor-pointer hover:text-claude-orange w-20 border border-claude-border whitespace-nowrap hidden lg:table-cell"
+                @click="sortBy('memoDate')">Memo Date<span x-show="sortCol === 'memoDate'" x-text="sortDir === 1 ? '\u25B2' : '\u25BC'" class="text-xs ml-0.5"></span>
+              </th>
               <th class="px-1.5 py-1 text-left text-claude-gray cursor-pointer hover:text-claude-orange border border-claude-border whitespace-nowrap hidden lg:table-cell"
                 @click="sortBy('ycPartner')">YC Partner<span x-show="sortCol === 'ycPartner'" x-text="sortDir === 1 ? '\u25B2' : '\u25BC'" class="text-xs ml-0.5"></span>
               </th>
@@ -211,6 +214,8 @@
                   x-text="row.teamSize != null ? row.teamSize : '-'"></td>
                 <td class="px-1.5 py-1 text-center tabular-nums text-claude-dim border border-claude-border"
                   x-text="formatRevenue(row.revenue)"></td>
+                <td class="px-1.5 py-1 text-center tabular-nums text-claude-dim border border-claude-border hidden lg:table-cell whitespace-nowrap"
+                  x-text="formatMemoDate(row.memoDate)"></td>
                 <td class="px-1.5 py-1 text-claude-dim border border-claude-border hidden lg:table-cell truncate max-w-[120px]"
                   x-text="row.ycPartner || '-'"></td>
                 <template x-for="p in personas" :key="p.abbr">

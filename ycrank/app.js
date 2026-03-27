@@ -7,6 +7,13 @@ function formatRevenue(val) {
   return '$' + val;
 }
 
+const MONTH_ABBR = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+function formatMemoDate(iso) {
+  if (!iso) return '-';
+  const [y, m, d] = iso.split('-');
+  return `${MONTH_ABBR[parseInt(m, 10) - 1]} ${parseInt(d, 10)}`;
+}
+
 function app() {
   return {
     // State
@@ -362,6 +369,10 @@ function app() {
         } else if (col === 'teamSize') {
           va = a.teamSize != null ? a.teamSize : -1;
           vb = b.teamSize != null ? b.teamSize : -1;
+        } else if (col === 'memoDate') {
+          va = a.memoDate || '';
+          vb = b.memoDate || '';
+          return va < vb ? -dir : va > vb ? dir : 0;
         } else if (col === 'ycPartner') {
           va = (a.ycPartner || '').toLowerCase();
           vb = (b.ycPartner || '').toLowerCase();

@@ -339,25 +339,19 @@ button:disabled {
   text-shadow: 0 0 12px rgba(139, 37, 37, 0.3);
 }
 
-/* Score card gradient tint based on score tier */
-.score-card:has(.score-claude-deepgreen) {
-  background: linear-gradient(180deg, var(--c-card) 0%, rgba(45, 138, 78, 0.06) 100%);
-}
+/* Score card gradient tint based on score tier (uses CSS variable to deduplicate) */
+.score-card:has(.score-claude-deepgreen) { --sc-gradient: rgba(45, 138, 78, 0.06); }
+.score-card:has(.score-claude-green) { --sc-gradient: rgba(74, 158, 74, 0.06); }
+.score-card:has(.score-claude-orange) { --sc-gradient: rgba(217, 146, 58, 0.05); }
+.score-card:has(.score-claude-red) { --sc-gradient: rgba(204, 56, 56, 0.05); }
+.score-card:has(.score-claude-deepred) { --sc-gradient: rgba(139, 37, 37, 0.06); }
 
-.score-card:has(.score-claude-green) {
-  background: linear-gradient(180deg, var(--c-card) 0%, rgba(74, 158, 74, 0.06) 100%);
-}
-
-.score-card:has(.score-claude-orange) {
-  background: linear-gradient(180deg, var(--c-card) 0%, rgba(217, 146, 58, 0.05) 100%);
-}
-
-.score-card:has(.score-claude-red) {
-  background: linear-gradient(180deg, var(--c-card) 0%, rgba(204, 56, 56, 0.05) 100%);
-}
-
+.score-card:has(.score-claude-deepgreen),
+.score-card:has(.score-claude-green),
+.score-card:has(.score-claude-orange),
+.score-card:has(.score-claude-red),
 .score-card:has(.score-claude-deepred) {
-  background: linear-gradient(180deg, var(--c-card) 0%, rgba(139, 37, 37, 0.06) 100%);
+  background: linear-gradient(180deg, var(--c-card) 0%, var(--sc-gradient) 100%);
 }
 
 /* ===== Nav Traffic Light Dots ===== */

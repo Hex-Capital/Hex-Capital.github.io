@@ -26,23 +26,23 @@
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 40,
+      "score": 35,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 48,
+      "score": 52,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 48,
+      "score": 52,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 26,
+      "score": 36,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 30,
+      "score": 34,
       "tier": "Pass"
     },
     "vinod-khosla": {
@@ -52,15 +52,15 @@
   },
   "consolidatedScores": {
     "CB": 39,
-    "EG": 40,
-    "NR": 48,
-    "PG": 48,
-    "PT": 26,
-    "SL": 30,
+    "EG": 35,
+    "NR": 52,
+    "PG": 52,
+    "PT": 36,
+    "SL": 34,
     "VK": 41
   },
-  "consolidatedAvg": 38.86,
-  "consolidatedRank": 22,
+  "consolidatedAvg": 41.29,
+  "consolidatedRank": 30,
   "paths": {
     "memo": "spring2026/memos/playablai.md",
     "evals": {

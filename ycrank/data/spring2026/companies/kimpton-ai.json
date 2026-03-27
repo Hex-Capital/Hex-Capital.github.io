@@ -20,45 +20,45 @@
   "memoGeneratedAt": "2026-03-26T05:20:32.046Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 34,
+      "score": 42,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 38,
+      "score": 40,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 50,
+      "score": 62,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 52,
+      "score": 53,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 32,
+      "score": 33,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 30,
+      "score": 34,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 41,
+      "score": 38,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 34,
-    "EG": 38,
-    "NR": 50,
-    "PG": 52,
-    "PT": 32,
-    "SL": 30,
-    "VK": 41
+    "CB": 42,
+    "EG": 40,
+    "NR": 62,
+    "PG": 53,
+    "PT": 33,
+    "SL": 34,
+    "VK": 38
   },
-  "consolidatedAvg": 39.57,
-  "consolidatedRank": 19,
+  "consolidatedAvg": 43.14,
+  "consolidatedRank": 20,
   "paths": {
     "memo": "spring2026/memos/kimpton-ai.md",
     "evals": {

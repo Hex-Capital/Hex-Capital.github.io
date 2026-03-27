@@ -21,45 +21,45 @@
   "memoGeneratedAt": "2026-03-26T05:09:27.019Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
       "score": 41,
       "tier": "Pass"
     },
+    "elad-gil": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 49,
+      "tier": "Neutral"
+    },
     "paul-graham": {
-      "score": 35,
-      "tier": "Pass"
+      "score": 51,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 28,
+      "score": 32,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 29,
+      "score": 36,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 38,
+      "score": 43,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 31,
-    "EG": 48,
-    "NR": 41,
-    "PG": 35,
-    "PT": 28,
-    "SL": 29,
-    "VK": 38
+    "CB": 41,
+    "EG": 45,
+    "NR": 49,
+    "PG": 51,
+    "PT": 32,
+    "SL": 36,
+    "VK": 43
   },
-  "consolidatedAvg": 35.71,
-  "consolidatedRank": 30,
+  "consolidatedAvg": 42.43,
+  "consolidatedRank": 24,
   "paths": {
     "memo": "spring2026/memos/runtime.md",
     "evals": {

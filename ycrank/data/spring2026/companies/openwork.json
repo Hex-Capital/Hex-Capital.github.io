@@ -20,45 +20,45 @@
   "memoGeneratedAt": "2026-03-26T05:07:55.030Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 31,
+      "score": 36,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 39,
+      "score": 36,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 48,
+      "score": 57,
       "tier": "Neutral"
     },
+    "paul-graham": {
+      "score": 43,
+      "tier": "Pass"
+    },
     "peter-thiel": {
-      "score": 24,
+      "score": 29,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 27,
+      "score": 31,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 34,
+      "score": 42,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 31,
-    "EG": 39,
-    "NR": 38,
-    "PG": 48,
-    "PT": 24,
-    "SL": 27,
-    "VK": 34
+    "CB": 36,
+    "EG": 36,
+    "NR": 57,
+    "PG": 43,
+    "PT": 29,
+    "SL": 31,
+    "VK": 42
   },
-  "consolidatedAvg": 34.43,
-  "consolidatedRank": 39,
+  "consolidatedAvg": 39.14,
+  "consolidatedRank": 38,
   "paths": {
     "memo": "spring2026/memos/openwork.md",
     "evals": {

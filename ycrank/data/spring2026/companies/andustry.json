@@ -24,45 +24,45 @@
   "memoGeneratedAt": "2026-03-26T05:27:55.245Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 43,
-      "tier": "Pass"
+      "score": 46,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 44,
+      "score": 40,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 42,
-      "tier": "Pass"
+      "score": 53,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 49,
+      "score": 59,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 29,
+      "score": 37,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 32,
+      "score": 39,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 39,
+      "score": 40,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 43,
-    "EG": 44,
-    "NR": 42,
-    "PG": 49,
-    "PT": 29,
-    "SL": 32,
-    "VK": 39
+    "CB": 46,
+    "EG": 40,
+    "NR": 53,
+    "PG": 59,
+    "PT": 37,
+    "SL": 39,
+    "VK": 40
   },
-  "consolidatedAvg": 39.71,
-  "consolidatedRank": 18,
+  "consolidatedAvg": 44.86,
+  "consolidatedRank": 17,
   "paths": {
     "memo": "spring2026/memos/andustry.md",
     "evals": {

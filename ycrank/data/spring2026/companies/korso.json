@@ -22,44 +22,44 @@
   "memoGeneratedAt": "2026-03-26T05:29:22.002Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 31,
+      "score": 36,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 37,
+      "score": 40,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 39,
+      "score": 42,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 39,
-      "tier": "Pass"
+      "score": 46,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 25,
+      "score": 30,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 26,
+      "score": 32,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 33,
+      "score": 36,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 31,
-    "EG": 37,
-    "NR": 39,
-    "PG": 39,
-    "PT": 25,
-    "SL": 26,
-    "VK": 33
+    "CB": 36,
+    "EG": 40,
+    "NR": 42,
+    "PG": 46,
+    "PT": 30,
+    "SL": 32,
+    "VK": 36
   },
-  "consolidatedAvg": 32.86,
+  "consolidatedAvg": 37.43,
   "consolidatedRank": 41,
   "paths": {
     "memo": "spring2026/memos/korso.md",

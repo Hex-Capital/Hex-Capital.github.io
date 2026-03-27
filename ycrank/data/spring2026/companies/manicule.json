@@ -22,45 +22,45 @@
   "memoGeneratedAt": "2026-03-26T05:07:15.075Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 29,
+      "score": 34,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 33,
+      "score": 34,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 35,
+      "score": 39,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 56,
-      "tier": "Neutral"
+      "score": 44,
+      "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 21,
+      "score": 28,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 26,
+      "score": 30,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 27,
+      "score": 31,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 29,
-    "EG": 33,
-    "NR": 35,
-    "PG": 56,
-    "PT": 21,
-    "SL": 26,
-    "VK": 27
+    "CB": 34,
+    "EG": 34,
+    "NR": 39,
+    "PG": 44,
+    "PT": 28,
+    "SL": 30,
+    "VK": 31
   },
-  "consolidatedAvg": 32.43,
-  "consolidatedRank": 42,
+  "consolidatedAvg": 34.29,
+  "consolidatedRank": 44,
   "paths": {
     "memo": "spring2026/memos/manicule.md",
     "evals": {

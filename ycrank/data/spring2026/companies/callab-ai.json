@@ -22,19 +22,19 @@
   "memoGeneratedAt": "2026-03-26T05:19:41.998Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 45,
-      "tier": "Neutral"
+      "score": 42,
+      "tier": "Pass"
     },
     "elad-gil": {
-      "score": 37,
+      "score": 44,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 46,
+      "score": 49,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 51,
+      "score": 52,
       "tier": "Neutral"
     },
     "peter-thiel": {
@@ -42,25 +42,25 @@
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 30,
+      "score": 37,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 40,
+      "score": 38,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 45,
-    "EG": 37,
-    "NR": 46,
-    "PG": 51,
+    "CB": 42,
+    "EG": 44,
+    "NR": 49,
+    "PG": 52,
     "PT": 32,
-    "SL": 30,
-    "VK": 40
+    "SL": 37,
+    "VK": 38
   },
-  "consolidatedAvg": 40.14,
-  "consolidatedRank": 17,
+  "consolidatedAvg": 42,
+  "consolidatedRank": 26,
   "paths": {
     "memo": "spring2026/memos/callab-ai.md",
     "evals": {

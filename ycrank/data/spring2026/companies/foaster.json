@@ -22,45 +22,45 @@
   "memoGeneratedAt": "2026-03-26T05:13:07.104Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 32,
-      "tier": "Pass"
+      "score": 45,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 37,
+      "score": 42,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 41,
-      "tier": "Pass"
+      "score": 47,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 36,
-      "tier": "Pass"
+      "score": 54,
+      "tier": "Neutral"
     },
     "peter-thiel": {
       "score": 30,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 25,
+      "score": 36,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 46,
-      "tier": "Neutral"
+      "score": 44,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 32,
-    "EG": 37,
-    "NR": 41,
-    "PG": 36,
+    "CB": 45,
+    "EG": 42,
+    "NR": 47,
+    "PG": 54,
     "PT": 30,
-    "SL": 25,
-    "VK": 46
+    "SL": 36,
+    "VK": 44
   },
-  "consolidatedAvg": 35.29,
-  "consolidatedRank": 33,
+  "consolidatedAvg": 42.57,
+  "consolidatedRank": 23,
   "paths": {
     "memo": "spring2026/memos/foaster.md",
     "evals": {

@@ -23,45 +23,45 @@
   "memoGeneratedAt": "2026-03-26T05:20:05.345Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 43,
-      "tier": "Pass"
+      "score": 49,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 50,
+      "score": 56,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 67,
+      "score": 75,
       "tier": "Invest"
     },
     "paul-graham": {
-      "score": 59,
-      "tier": "Neutral"
+      "score": 67,
+      "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 38,
+      "score": 44,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 34,
+      "score": 41,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 48,
+      "score": 53,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 43,
-    "EG": 50,
-    "NR": 67,
-    "PG": 59,
-    "PT": 38,
-    "SL": 34,
-    "VK": 48
+    "CB": 49,
+    "EG": 56,
+    "NR": 75,
+    "PG": 67,
+    "PT": 44,
+    "SL": 41,
+    "VK": 53
   },
-  "consolidatedAvg": 48.43,
-  "consolidatedRank": 9,
+  "consolidatedAvg": 55,
+  "consolidatedRank": 5,
   "paths": {
     "memo": "spring2026/memos/keyframe-labs.md",
     "evals": {

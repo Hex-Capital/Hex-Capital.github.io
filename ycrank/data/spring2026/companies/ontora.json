@@ -22,45 +22,45 @@
   "memoGeneratedAt": "2026-03-26T05:14:45.624Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 28,
+      "score": 42,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 41,
+      "score": 44,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 40,
-      "tier": "Pass"
+      "score": 51,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 42,
-      "tier": "Pass"
+      "score": 50,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 29,
+      "score": 35,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 31,
+      "score": 36,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 42,
+      "score": 43,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 28,
-    "EG": 41,
-    "NR": 40,
-    "PG": 42,
-    "PT": 29,
-    "SL": 31,
-    "VK": 42
+    "CB": 42,
+    "EG": 44,
+    "NR": 51,
+    "PG": 50,
+    "PT": 35,
+    "SL": 36,
+    "VK": 43
   },
-  "consolidatedAvg": 36.14,
-  "consolidatedRank": 27,
+  "consolidatedAvg": 43,
+  "consolidatedRank": 21,
   "paths": {
     "memo": "spring2026/memos/ontora.md",
     "evals": {

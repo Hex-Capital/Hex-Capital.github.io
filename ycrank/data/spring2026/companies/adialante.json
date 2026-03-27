@@ -22,44 +22,44 @@
   "memoGeneratedAt": "2026-03-26T05:20:51.720Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 71,
+      "score": 69,
       "tier": "Invest"
     },
     "elad-gil": {
-      "score": 37,
+      "score": 36,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 62,
-      "tier": "Neutral"
+      "score": 65,
+      "tier": "Invest"
     },
     "paul-graham": {
-      "score": 53,
+      "score": 64,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 45,
+      "score": 55,
       "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 66,
-      "tier": "Invest"
-    },
-    "vinod-khosla": {
       "score": 63,
       "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 72,
+      "tier": "Invest"
     }
   },
   "consolidatedScores": {
-    "CB": 71,
-    "EG": 37,
-    "NR": 62,
-    "PG": 53,
-    "PT": 45,
-    "SL": 66,
-    "VK": 63
+    "CB": 69,
+    "EG": 36,
+    "NR": 65,
+    "PG": 64,
+    "PT": 55,
+    "SL": 63,
+    "VK": 72
   },
-  "consolidatedAvg": 56.71,
+  "consolidatedAvg": 60.57,
   "consolidatedRank": 2,
   "paths": {
     "memo": "spring2026/memos/adialante.md",

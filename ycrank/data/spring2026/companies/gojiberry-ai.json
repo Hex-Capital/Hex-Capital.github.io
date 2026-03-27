@@ -17,23 +17,23 @@
   "memoGeneratedAt": "2026-03-26T05:19:11.331Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 30,
+      "score": 32,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
       "score": 40,
       "tier": "Pass"
     },
+    "naval-ravikant": {
+      "score": 45,
+      "tier": "Neutral"
+    },
     "paul-graham": {
-      "score": 60,
+      "score": 57,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 25,
+      "score": 34,
       "tier": "Pass"
     },
     "sam-lessin": {
@@ -41,21 +41,21 @@
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 35,
+      "score": 39,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 30,
-    "EG": 41,
-    "NR": 40,
-    "PG": 60,
-    "PT": 25,
+    "CB": 32,
+    "EG": 40,
+    "NR": 45,
+    "PG": 57,
+    "PT": 34,
     "SL": 30,
-    "VK": 35
+    "VK": 39
   },
-  "consolidatedAvg": 37.29,
-  "consolidatedRank": 25,
+  "consolidatedAvg": 39.57,
+  "consolidatedRank": 34,
   "paths": {
     "memo": "spring2026/memos/gojiberry-ai.md",
     "evals": {

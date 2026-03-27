@@ -22,45 +22,45 @@
   "memoGeneratedAt": "2026-03-26T05:06:45.683Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 34,
+      "score": 35,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 38,
+      "score": 39,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 38,
+      "score": 41,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 34,
+      "score": 43,
       "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 26,
+      "score": 29,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 22,
+      "score": 29,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 32,
+      "score": 37,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 34,
-    "EG": 38,
-    "NR": 38,
-    "PG": 34,
-    "PT": 26,
-    "SL": 22,
-    "VK": 32
+    "CB": 35,
+    "EG": 39,
+    "NR": 41,
+    "PG": 43,
+    "PT": 29,
+    "SL": 29,
+    "VK": 37
   },
-  "consolidatedAvg": 32,
-  "consolidatedRank": 43,
+  "consolidatedAvg": 36.14,
+  "consolidatedRank": 42,
   "paths": {
     "memo": "spring2026/memos/asendia-ai.md",
     "evals": {

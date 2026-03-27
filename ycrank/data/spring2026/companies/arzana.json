@@ -28,23 +28,23 @@
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 68,
-      "tier": "Invest"
+      "score": 62,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 47,
+      "score": 50,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 66,
+      "score": 69,
       "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 36,
+      "score": 44,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 40,
+      "score": 38,
       "tier": "Pass"
     },
     "vinod-khosla": {
@@ -54,15 +54,15 @@
   },
   "consolidatedScores": {
     "CB": 53,
-    "EG": 68,
-    "NR": 47,
-    "PG": 66,
-    "PT": 36,
-    "SL": 40,
+    "EG": 62,
+    "NR": 50,
+    "PG": 69,
+    "PT": 44,
+    "SL": 38,
     "VK": 47
   },
-  "consolidatedAvg": 51,
-  "consolidatedRank": 6,
+  "consolidatedAvg": 51.86,
+  "consolidatedRank": 9,
   "paths": {
     "memo": "spring2026/memos/arzana.md",
     "evals": {

@@ -37,6 +37,7 @@ function app() {
     tabContent: '',
     tabLoading: false,
     mdCache: {}, // path -> rendered html
+    _mdCacheSize: 0, // approximate total bytes in mdCache
 
     // Council state
     councilOpen: false,
@@ -300,6 +301,7 @@ function app() {
 
         // Clear caches
         this.mdCache = {};
+        this._mdCacheSize = 0;
         this.companyData = null;
         this.mobileCardIndex = 0;
       } catch (e) {
@@ -644,10 +646,15 @@ function app() {
         // Strip BOM
         md = md.replace(/^\uFEFF/, '');
         const html = DOMPurify.sanitize(marked.parse(md));
-        // Cap cache at 50 entries, evict oldest on overflow
+        // Cap cache: evict oldest entries if over 5MB or 50 entries
+        const htmlLen = html.length;
+        this._mdCacheSize += htmlLen;
+        const maxCacheBytes = 5 * 1024 * 1024;
         const keys = Object.keys(this.mdCache);
-        if (keys.length >= 50) {
-          delete this.mdCache[keys[0]];
+        while ((this._mdCacheSize > maxCacheBytes || keys.length >= 50) && keys.length > 0) {
+          const evicted = keys.shift();
+          this._mdCacheSize -= this.mdCache[evicted].length;
+          delete this.mdCache[evicted];
         }
         this.mdCache[mdPath] = html;
         this.tabContent = html;

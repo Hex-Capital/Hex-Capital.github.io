@@ -20,45 +20,45 @@
   "memoGeneratedAt": "2026-03-26T05:13:22.834Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 26,
+      "score": 36,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 37,
+      "score": 40,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 44,
-      "tier": "Pass"
+      "score": 50,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 46,
+      "score": 47,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 28,
+      "score": 33,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 26,
+      "score": 32,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 39,
+      "score": 42,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 26,
-    "EG": 37,
-    "NR": 44,
-    "PG": 46,
-    "PT": 28,
-    "SL": 26,
-    "VK": 39
+    "CB": 36,
+    "EG": 40,
+    "NR": 50,
+    "PG": 47,
+    "PT": 33,
+    "SL": 32,
+    "VK": 42
   },
-  "consolidatedAvg": 35.14,
-  "consolidatedRank": 35,
+  "consolidatedAvg": 40,
+  "consolidatedRank": 32,
   "paths": {
     "memo": "spring2026/memos/testerarmy.md",
     "evals": {

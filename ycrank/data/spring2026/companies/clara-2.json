@@ -23,45 +23,45 @@
   "memoGeneratedAt": "2026-03-26T17:06:25.444Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 52,
+      "score": 57,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 66,
-      "tier": "Invest"
+      "score": 52,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 62,
-      "tier": "Neutral"
+      "score": 69,
+      "tier": "Invest"
     },
     "paul-graham": {
-      "score": 56,
-      "tier": "Neutral"
+      "score": 78,
+      "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 38,
-      "tier": "Pass"
+      "score": 45,
+      "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 37,
-      "tier": "Pass"
+      "score": 47,
+      "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 60,
+      "score": 64,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 52,
-    "EG": 66,
-    "NR": 62,
-    "PG": 56,
-    "PT": 38,
-    "SL": 37,
-    "VK": 60
+    "CB": 57,
+    "EG": 52,
+    "NR": 69,
+    "PG": 78,
+    "PT": 45,
+    "SL": 47,
+    "VK": 64
   },
-  "consolidatedAvg": 53,
-  "consolidatedRank": 5,
+  "consolidatedAvg": 58.86,
+  "consolidatedRank": 3,
   "paths": {
     "memo": "spring2026/memos/clara-2.md",
     "evals": {

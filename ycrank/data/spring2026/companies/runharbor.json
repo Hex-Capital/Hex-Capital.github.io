@@ -23,11 +23,11 @@
   "memoGeneratedAt": "2026-03-26T05:11:13.433Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 48,
+      "score": 59,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 70,
+      "score": 65,
       "tier": "Invest"
     },
     "naval-ravikant": {
@@ -35,7 +35,7 @@
       "tier": "Invest"
     },
     "paul-graham": {
-      "score": 73,
+      "score": 76,
       "tier": "Invest"
     },
     "peter-thiel": {
@@ -43,25 +43,25 @@
       "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 35,
+      "score": 41,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 48,
+      "score": 51,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 48,
-    "EG": 70,
+    "CB": 59,
+    "EG": 65,
     "NR": 68,
-    "PG": 73,
+    "PG": 76,
     "PT": 46,
-    "SL": 35,
-    "VK": 48
+    "SL": 41,
+    "VK": 51
   },
-  "consolidatedAvg": 55.43,
-  "consolidatedRank": 3,
+  "consolidatedAvg": 58,
+  "consolidatedRank": 4,
   "paths": {
     "memo": "spring2026/memos/runharbor.md",
     "evals": {

@@ -22,45 +22,45 @@
   "memoGeneratedAt": "2026-03-26T05:28:25.665Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 33,
+      "score": 39,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 40,
+      "score": 44,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 45,
+      "score": 48,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 49,
+      "score": 54,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 36,
+      "score": 33,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 26,
+      "score": 34,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 47,
-      "tier": "Neutral"
+      "score": 43,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 33,
-    "EG": 40,
-    "NR": 45,
-    "PG": 49,
-    "PT": 36,
-    "SL": 26,
-    "VK": 47
+    "CB": 39,
+    "EG": 44,
+    "NR": 48,
+    "PG": 54,
+    "PT": 33,
+    "SL": 34,
+    "VK": 43
   },
-  "consolidatedAvg": 39.43,
-  "consolidatedRank": 21,
+  "consolidatedAvg": 42.14,
+  "consolidatedRank": 25,
   "paths": {
     "memo": "spring2026/memos/saffron.md",
     "evals": {

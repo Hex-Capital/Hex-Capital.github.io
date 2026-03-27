@@ -20,45 +20,45 @@
   "memoGeneratedAt": "2026-03-26T05:11:16.481Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 32,
+      "score": 40,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 45,
+      "score": 57,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 67,
+      "score": 75,
       "tier": "Invest"
     },
     "paul-graham": {
-      "score": 55,
-      "tier": "Neutral"
+      "score": 68,
+      "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 48,
-      "tier": "Neutral"
+      "score": 41,
+      "tier": "Pass"
     },
     "sam-lessin": {
       "score": 46,
       "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 56,
+      "score": 57,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 32,
-    "EG": 45,
-    "NR": 67,
-    "PG": 55,
-    "PT": 48,
+    "CB": 40,
+    "EG": 57,
+    "NR": 75,
+    "PG": 68,
+    "PT": 41,
     "SL": 46,
-    "VK": 56
+    "VK": 57
   },
-  "consolidatedAvg": 49.86,
-  "consolidatedRank": 8,
+  "consolidatedAvg": 54.86,
+  "consolidatedRank": 6,
   "paths": {
     "memo": "spring2026/memos/indexable.md",
     "evals": {

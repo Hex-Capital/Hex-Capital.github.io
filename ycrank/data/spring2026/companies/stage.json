@@ -25,40 +25,40 @@
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 34,
+      "score": 42,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 41,
-      "tier": "Pass"
+      "score": 48,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 50,
+      "score": 48,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 26,
+      "score": 30,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 24,
-      "tier": "Strong Pass"
+      "score": 30,
+      "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 33,
+      "score": 37,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 29,
-    "EG": 34,
-    "NR": 41,
-    "PG": 50,
-    "PT": 26,
-    "SL": 24,
-    "VK": 33
+    "EG": 42,
+    "NR": 48,
+    "PG": 48,
+    "PT": 30,
+    "SL": 30,
+    "VK": 37
   },
-  "consolidatedAvg": 33.86,
+  "consolidatedAvg": 37.71,
   "consolidatedRank": 40,
   "paths": {
     "memo": "spring2026/memos/stage.md",

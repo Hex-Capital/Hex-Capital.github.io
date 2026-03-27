@@ -22,7 +22,7 @@
   "memoGeneratedAt": "2026-03-26T05:07:25.002Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 31,
+      "score": 35,
       "tier": "Pass"
     },
     "elad-gil": {
@@ -30,37 +30,37 @@
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 43,
-      "tier": "Pass"
+      "score": 54,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 44,
-      "tier": "Pass"
+      "score": 45,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 25,
+      "score": 34,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 28,
+      "score": 33,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 36,
+      "score": 41,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 31,
+    "CB": 35,
     "EG": 38,
-    "NR": 43,
-    "PG": 44,
-    "PT": 25,
-    "SL": 28,
-    "VK": 36
+    "NR": 54,
+    "PG": 45,
+    "PT": 34,
+    "SL": 33,
+    "VK": 41
   },
-  "consolidatedAvg": 35,
-  "consolidatedRank": 36,
+  "consolidatedAvg": 40,
+  "consolidatedRank": 31,
   "paths": {
     "memo": "spring2026/memos/amboras.md",
     "evals": {

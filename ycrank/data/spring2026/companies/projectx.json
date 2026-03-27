@@ -17,44 +17,44 @@
   "memoGeneratedAt": "2026-03-26T05:11:35.195Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 44,
-      "tier": "Pass"
+      "score": 47,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 38,
-      "tier": "Pass"
+      "score": 45,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 41,
-      "tier": "Pass"
+      "score": 48,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 58,
+      "score": 49,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 35,
+      "score": 37,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 34,
+      "score": 39,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 44,
-      "tier": "Pass"
+      "score": 52,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 44,
-    "EG": 38,
-    "NR": 41,
-    "PG": 58,
-    "PT": 35,
-    "SL": 34,
-    "VK": 44
+    "CB": 47,
+    "EG": 45,
+    "NR": 48,
+    "PG": 49,
+    "PT": 37,
+    "SL": 39,
+    "VK": 52
   },
-  "consolidatedAvg": 42,
+  "consolidatedAvg": 45.29,
   "consolidatedRank": 16,
   "paths": {
     "memo": "spring2026/memos/projectx.md",

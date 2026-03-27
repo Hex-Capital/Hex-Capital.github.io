@@ -22,7 +22,7 @@
   "memoGeneratedAt": "2026-03-26T05:23:46.709Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 24,
+      "score": 32,
       "tier": "Pass"
     },
     "elad-gil": {
@@ -30,19 +30,19 @@
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 35,
-      "tier": "Pass"
+      "score": 45,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 44,
+      "score": 38,
       "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 23,
+      "score": 31,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 24,
+      "score": 26,
       "tier": "Pass"
     },
     "vinod-khosla": {
@@ -51,16 +51,16 @@
     }
   },
   "consolidatedScores": {
-    "CB": 24,
+    "CB": 32,
     "EG": 34,
-    "NR": 35,
-    "PG": 44,
-    "PT": 23,
-    "SL": 24,
+    "NR": 45,
+    "PG": 38,
+    "PT": 31,
+    "SL": 26,
     "VK": 34
   },
-  "consolidatedAvg": 31.14,
-  "consolidatedRank": 44,
+  "consolidatedAvg": 34.29,
+  "consolidatedRank": 45,
   "paths": {
     "memo": "spring2026/memos/replicas.md",
     "evals": {

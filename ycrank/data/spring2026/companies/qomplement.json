@@ -22,45 +22,45 @@
   "memoGeneratedAt": "2026-03-26T05:24:14.289Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 46,
-      "tier": "Neutral"
+      "score": 39,
+      "tier": "Pass"
     },
     "elad-gil": {
-      "score": 36,
+      "score": 41,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "paul-graham": {
       "score": 47,
       "tier": "Neutral"
     },
+    "paul-graham": {
+      "score": 48,
+      "tier": "Neutral"
+    },
     "peter-thiel": {
-      "score": 23,
+      "score": 28,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 23,
+      "score": 33,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 32,
+      "score": 36,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 46,
-    "EG": 36,
-    "NR": 40,
-    "PG": 47,
-    "PT": 23,
-    "SL": 23,
-    "VK": 32
+    "CB": 39,
+    "EG": 41,
+    "NR": 47,
+    "PG": 48,
+    "PT": 28,
+    "SL": 33,
+    "VK": 36
   },
-  "consolidatedAvg": 35.29,
-  "consolidatedRank": 34,
+  "consolidatedAvg": 38.86,
+  "consolidatedRank": 39,
   "paths": {
     "memo": "spring2026/memos/qomplement.md",
     "evals": {

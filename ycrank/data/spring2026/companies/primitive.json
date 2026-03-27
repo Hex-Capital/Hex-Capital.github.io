@@ -24,45 +24,45 @@
   "memoGeneratedAt": "2026-03-26T05:25:48.243Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 28,
+      "score": 41,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 40,
-      "tier": "Pass"
+      "score": 51,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 47,
+      "score": 48,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 37,
+      "score": 42,
       "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
       "score": 31,
       "tier": "Pass"
     },
+    "sam-lessin": {
+      "score": 36,
+      "tier": "Pass"
+    },
     "vinod-khosla": {
-      "score": 41,
+      "score": 42,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 28,
-    "EG": 40,
-    "NR": 47,
-    "PG": 37,
-    "PT": 28,
-    "SL": 31,
-    "VK": 41
+    "CB": 41,
+    "EG": 51,
+    "NR": 48,
+    "PG": 42,
+    "PT": 31,
+    "SL": 36,
+    "VK": 42
   },
-  "consolidatedAvg": 36,
-  "consolidatedRank": 28,
+  "consolidatedAvg": 41.57,
+  "consolidatedRank": 29,
   "paths": {
     "memo": "spring2026/memos/primitive.md",
     "evals": {

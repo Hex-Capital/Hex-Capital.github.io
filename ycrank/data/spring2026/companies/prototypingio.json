@@ -22,45 +22,45 @@
   "memoGeneratedAt": "2026-03-26T05:15:49.226Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 34,
+      "score": 42,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 33,
+      "score": 37,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 44,
+      "score": 42,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 39,
-      "tier": "Pass"
+      "score": 47,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 28,
+      "score": 31,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 26,
+      "score": 37,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 38,
+      "score": 39,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 34,
-    "EG": 33,
-    "NR": 44,
-    "PG": 39,
-    "PT": 28,
-    "SL": 26,
-    "VK": 38
+    "CB": 42,
+    "EG": 37,
+    "NR": 42,
+    "PG": 47,
+    "PT": 31,
+    "SL": 37,
+    "VK": 39
   },
-  "consolidatedAvg": 34.57,
-  "consolidatedRank": 38,
+  "consolidatedAvg": 39.29,
+  "consolidatedRank": 37,
   "paths": {
     "memo": "spring2026/memos/prototypingio.md",
     "evals": {

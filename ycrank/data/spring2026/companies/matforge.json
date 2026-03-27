@@ -23,44 +23,44 @@
   "memoGeneratedAt": "2026-03-26T05:28:26.007Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 48,
-      "tier": "Neutral"
+      "score": 66,
+      "tier": "Invest"
     },
     "elad-gil": {
-      "score": 54,
+      "score": 58,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 68,
+      "score": 75,
       "tier": "Invest"
     },
     "paul-graham": {
-      "score": 65,
+      "score": 72,
       "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 52,
+      "score": 60,
       "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 50,
+      "score": 48,
       "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 66,
+      "score": 65,
       "tier": "Invest"
     }
   },
   "consolidatedScores": {
-    "CB": 48,
-    "EG": 54,
-    "NR": 68,
-    "PG": 65,
-    "PT": 52,
-    "SL": 50,
-    "VK": 66
+    "CB": 66,
+    "EG": 58,
+    "NR": 75,
+    "PG": 72,
+    "PT": 60,
+    "SL": 48,
+    "VK": 65
   },
-  "consolidatedAvg": 57.57,
+  "consolidatedAvg": 63.43,
   "consolidatedRank": 1,
   "paths": {
     "memo": "spring2026/memos/matforge.md",

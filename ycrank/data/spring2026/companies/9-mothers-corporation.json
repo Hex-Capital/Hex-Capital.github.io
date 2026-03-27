@@ -24,45 +24,45 @@
   "memoGeneratedAt": "2026-03-26T05:29:15.755Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 53,
+      "score": 54,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 48,
-      "tier": "Neutral"
+      "score": 43,
+      "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 38,
+      "score": 40,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 49,
+      "score": 60,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
       "score": 42,
       "tier": "Pass"
     },
+    "sam-lessin": {
+      "score": 43,
+      "tier": "Pass"
+    },
     "vinod-khosla": {
-      "score": 57,
+      "score": 61,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 53,
-    "EG": 48,
-    "NR": 38,
-    "PG": 49,
-    "PT": 37,
-    "SL": 42,
-    "VK": 57
+    "CB": 54,
+    "EG": 43,
+    "NR": 40,
+    "PG": 60,
+    "PT": 42,
+    "SL": 43,
+    "VK": 61
   },
-  "consolidatedAvg": 46.29,
-  "consolidatedRank": 10,
+  "consolidatedAvg": 49,
+  "consolidatedRank": 13,
   "paths": {
     "memo": "spring2026/memos/9-mothers-corporation.md",
     "evals": {

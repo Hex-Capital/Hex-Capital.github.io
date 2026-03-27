@@ -22,45 +22,45 @@
   "memoGeneratedAt": "2026-03-26T05:20:01.583Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 49,
+      "score": 48,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 32,
+      "score": 39,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 50,
+      "score": 59,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 49,
+      "score": 57,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 38,
+      "score": 29,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 30,
+      "score": 38,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 46,
+      "score": 54,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 49,
-    "EG": 32,
-    "NR": 50,
-    "PG": 49,
-    "PT": 38,
-    "SL": 30,
-    "VK": 46
+    "CB": 48,
+    "EG": 39,
+    "NR": 59,
+    "PG": 57,
+    "PT": 29,
+    "SL": 38,
+    "VK": 54
   },
-  "consolidatedAvg": 42,
-  "consolidatedRank": 15,
+  "consolidatedAvg": 46.29,
+  "consolidatedRank": 14,
   "paths": {
     "memo": "spring2026/memos/lamina-labs.md",
     "evals": {

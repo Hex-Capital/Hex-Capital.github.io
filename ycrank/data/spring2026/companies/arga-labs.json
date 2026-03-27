@@ -22,45 +22,45 @@
   "memoGeneratedAt": "2026-03-26T05:16:38.243Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 31,
+      "score": 40,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 38,
-      "tier": "Pass"
+      "score": 51,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "paul-graham": {
       "score": 45,
       "tier": "Neutral"
     },
+    "paul-graham": {
+      "score": 52,
+      "tier": "Neutral"
+    },
     "peter-thiel": {
-      "score": 31,
+      "score": 32,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 26,
+      "score": 36,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 35,
+      "score": 43,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 31,
-    "EG": 38,
-    "NR": 44,
-    "PG": 45,
-    "PT": 31,
-    "SL": 26,
-    "VK": 35
+    "CB": 40,
+    "EG": 51,
+    "NR": 45,
+    "PG": 52,
+    "PT": 32,
+    "SL": 36,
+    "VK": 43
   },
-  "consolidatedAvg": 35.71,
-  "consolidatedRank": 29,
+  "consolidatedAvg": 42.71,
+  "consolidatedRank": 22,
   "paths": {
     "memo": "spring2026/memos/arga-labs.md",
     "evals": {

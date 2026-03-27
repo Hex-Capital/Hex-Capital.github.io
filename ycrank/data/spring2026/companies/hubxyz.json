@@ -23,45 +23,45 @@
   "memoGeneratedAt": "2026-03-26T05:23:04.896Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 25,
+      "score": 30,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 33,
+      "score": 34,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 32,
+      "score": 41,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 23,
-      "tier": "Strong Pass"
+      "score": 32,
+      "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 20,
+      "score": 29,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 27,
+      "score": 35,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 39,
+      "score": 36,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 25,
-    "EG": 33,
-    "NR": 32,
-    "PG": 23,
-    "PT": 20,
-    "SL": 27,
-    "VK": 39
+    "CB": 30,
+    "EG": 34,
+    "NR": 41,
+    "PG": 32,
+    "PT": 29,
+    "SL": 35,
+    "VK": 36
   },
-  "consolidatedAvg": 28.43,
-  "consolidatedRank": 45,
+  "consolidatedAvg": 33.86,
+  "consolidatedRank": 46,
   "paths": {
     "memo": "spring2026/memos/hubxyz.md",
     "evals": {

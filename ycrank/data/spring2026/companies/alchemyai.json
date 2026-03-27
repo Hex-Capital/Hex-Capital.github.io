@@ -24,45 +24,45 @@
   "memoGeneratedAt": "2026-03-26T05:11:28.498Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "elad-gil": {
       "score": 36,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 44,
+    "elad-gil": {
+      "score": 43,
       "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 50,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 42,
-      "tier": "Pass"
+      "score": 45,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 31,
+      "score": 29,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 26,
+      "score": 33,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 31,
+      "score": 40,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 33,
-    "EG": 36,
-    "NR": 44,
-    "PG": 42,
-    "PT": 31,
-    "SL": 26,
-    "VK": 31
+    "CB": 36,
+    "EG": 43,
+    "NR": 50,
+    "PG": 45,
+    "PT": 29,
+    "SL": 33,
+    "VK": 40
   },
-  "consolidatedAvg": 34.71,
-  "consolidatedRank": 37,
+  "consolidatedAvg": 39.43,
+  "consolidatedRank": 35,
   "paths": {
     "memo": "spring2026/memos/alchemyai.md",
     "evals": {

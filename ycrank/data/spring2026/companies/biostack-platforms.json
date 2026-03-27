@@ -22,45 +22,45 @@
   "memoGeneratedAt": "2026-03-26T17:08:25.298Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 35,
+      "score": 43,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 36,
+      "score": 43,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 41,
+      "score": 43,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 33,
+      "score": 39,
       "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 30,
+      "score": 28,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 33,
+      "score": 39,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 41,
+      "score": 43,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 35,
-    "EG": 36,
-    "NR": 41,
-    "PG": 33,
-    "PT": 30,
-    "SL": 33,
-    "VK": 41
+    "CB": 43,
+    "EG": 43,
+    "NR": 43,
+    "PG": 39,
+    "PT": 28,
+    "SL": 39,
+    "VK": 43
   },
-  "consolidatedAvg": 35.57,
-  "consolidatedRank": 32,
+  "consolidatedAvg": 39.71,
+  "consolidatedRank": 33,
   "paths": {
     "memo": "spring2026/memos/biostack-platforms.md",
     "evals": {

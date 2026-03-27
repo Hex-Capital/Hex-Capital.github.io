@@ -20,45 +20,45 @@
   "memoGeneratedAt": "2026-03-26T05:27:48.792Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 35,
+      "score": 41,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 45,
+      "score": 56,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 54,
+      "score": 63,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 55,
+      "score": 64,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 36,
+      "score": 39,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 31,
+      "score": 38,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 46,
+      "score": 49,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 35,
-    "EG": 45,
-    "NR": 54,
-    "PG": 55,
-    "PT": 36,
-    "SL": 31,
-    "VK": 46
+    "CB": 41,
+    "EG": 56,
+    "NR": 63,
+    "PG": 64,
+    "PT": 39,
+    "SL": 38,
+    "VK": 49
   },
-  "consolidatedAvg": 43.14,
-  "consolidatedRank": 14,
+  "consolidatedAvg": 50,
+  "consolidatedRank": 10,
   "paths": {
     "memo": "spring2026/memos/sazabi.md",
     "evals": {

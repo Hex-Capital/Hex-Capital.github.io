@@ -20,45 +20,45 @@
   "memoGeneratedAt": "2026-03-26T05:07:03.819Z",
   "evalScores": {
     "cyan-banister": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
       "score": 35,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 38,
-      "tier": "Pass"
-    },
     "naval-ravikant": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
       "score": 41,
       "tier": "Pass"
     },
+    "paul-graham": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 42,
+      "tier": "Pass"
+    },
     "vinod-khosla": {
-      "score": 51,
+      "score": 53,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 35,
-    "EG": 38,
-    "NR": 44,
-    "PG": 38,
-    "PT": 29,
-    "SL": 41,
-    "VK": 51
+    "CB": 45,
+    "EG": 35,
+    "NR": 41,
+    "PG": 56,
+    "PT": 39,
+    "SL": 42,
+    "VK": 53
   },
-  "consolidatedAvg": 39.43,
-  "consolidatedRank": 20,
+  "consolidatedAvg": 44.43,
+  "consolidatedRank": 18,
   "paths": {
     "memo": "spring2026/memos/maquoketa-research.md",
     "evals": {

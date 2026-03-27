@@ -22,45 +22,45 @@
   "memoGeneratedAt": "2026-03-26T05:23:58.884Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 41,
+      "score": 43,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 57,
+      "score": 56,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 62,
+      "score": 56,
       "tier": "Neutral"
     },
+    "paul-graham": {
+      "score": 67,
+      "tier": "Invest"
+    },
     "peter-thiel": {
-      "score": 32,
+      "score": 37,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 30,
+      "score": 43,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 44,
-      "tier": "Pass"
+      "score": 47,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 41,
-    "EG": 57,
-    "NR": 42,
-    "PG": 62,
-    "PT": 32,
-    "SL": 30,
-    "VK": 44
+    "CB": 43,
+    "EG": 56,
+    "NR": 56,
+    "PG": 67,
+    "PT": 37,
+    "SL": 43,
+    "VK": 47
   },
-  "consolidatedAvg": 44,
-  "consolidatedRank": 12,
+  "consolidatedAvg": 49.86,
+  "consolidatedRank": 11,
   "paths": {
     "memo": "spring2026/memos/zolvo.md",
     "evals": {

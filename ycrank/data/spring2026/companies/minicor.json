@@ -22,7 +22,7 @@
   "memoGeneratedAt": "2026-03-26T05:11:08.097Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 52,
+      "score": 58,
       "tier": "Neutral"
     },
     "elad-gil": {
@@ -30,37 +30,37 @@
       "tier": "Invest"
     },
     "naval-ravikant": {
-      "score": 50,
+      "score": 61,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 66,
+      "score": 67,
       "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 34,
+      "score": 41,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 38,
+      "score": 44,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 48,
+      "score": 46,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 52,
+    "CB": 58,
     "EG": 65,
-    "NR": 50,
-    "PG": 66,
-    "PT": 34,
-    "SL": 38,
-    "VK": 48
+    "NR": 61,
+    "PG": 67,
+    "PT": 41,
+    "SL": 44,
+    "VK": 46
   },
-  "consolidatedAvg": 50.43,
-  "consolidatedRank": 7,
+  "consolidatedAvg": 54.57,
+  "consolidatedRank": 8,
   "paths": {
     "memo": "spring2026/memos/minicor.md",
     "evals": {

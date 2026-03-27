@@ -22,45 +22,45 @@
   "memoGeneratedAt": "2026-03-26T05:22:14.179Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 50,
+      "score": 53,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 65,
+      "score": 74,
       "tier": "Invest"
     },
     "naval-ravikant": {
-      "score": 63,
+      "score": 60,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 65,
+      "score": 69,
       "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 40,
+      "score": 43,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 47,
-      "tier": "Neutral"
+      "score": 40,
+      "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 54,
+      "score": 45,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 50,
-    "EG": 65,
-    "NR": 63,
-    "PG": 65,
-    "PT": 40,
-    "SL": 47,
-    "VK": 54
+    "CB": 53,
+    "EG": 74,
+    "NR": 60,
+    "PG": 69,
+    "PT": 43,
+    "SL": 40,
+    "VK": 45
   },
   "consolidatedAvg": 54.86,
-  "consolidatedRank": 4,
+  "consolidatedRank": 7,
   "paths": {
     "memo": "spring2026/memos/kinro.md",
     "evals": {

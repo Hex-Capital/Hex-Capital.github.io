@@ -2983,7 +2983,7 @@
         "EG": "Neutral",
         "NR": "Neutral",
         "PG": "Neutral",
-        "PT": "Strong Pass",
+        "PT": "Pass",
         "SL": "Pass",
         "VK": "Pass"
       },
@@ -4601,7 +4601,7 @@
         "NR": "Pass",
         "PG": "Neutral",
         "PT": "Pass",
-        "SL": "Strong Pass",
+        "SL": "Pass",
         "VK": "Pass"
       },
       "avg": 38.57,
@@ -5200,7 +5200,7 @@
         "NR": "Pass",
         "PG": "Neutral",
         "PT": "Pass",
-        "SL": "Strong Pass",
+        "SL": "Pass",
         "VK": "Pass"
       },
       "avg": 36.57,
@@ -5271,7 +5271,7 @@
         "NR": "Neutral",
         "PG": "Pass",
         "PT": "Pass",
-        "SL": "Strong Pass",
+        "SL": "Pass",
         "VK": "Pass"
       },
       "avg": 36.29,
@@ -5385,7 +5385,7 @@
         "NR": "Pass",
         "PG": "Pass",
         "PT": "Pass",
-        "SL": "Strong Pass",
+        "SL": "Pass",
         "VK": "Neutral"
       },
       "avg": 36.14,
@@ -5459,7 +5459,7 @@
         "NR": "Pass",
         "PG": "Neutral",
         "PT": "Pass",
-        "SL": "Strong Pass",
+        "SL": "Pass",
         "VK": "Pass"
       },
       "avg": 36,
@@ -5572,7 +5572,7 @@
         "NR": "Pass",
         "PG": "Pass",
         "PT": "Pass",
-        "SL": "Strong Pass",
+        "SL": "Pass",
         "VK": "Pass"
       },
       "avg": 35.29,
@@ -5645,7 +5645,7 @@
         "NR": "Pass",
         "PG": "Neutral",
         "PT": "Pass",
-        "SL": "Strong Pass",
+        "SL": "Pass",
         "VK": "Pass"
       },
       "avg": 35.14,
@@ -5981,7 +5981,7 @@
         "NR": "Pass",
         "PG": "Pass",
         "PT": "Pass",
-        "SL": "Strong Pass",
+        "SL": "Pass",
         "VK": "Pass"
       },
       "avg": 34,
@@ -6279,7 +6279,7 @@
         "NR": "Pass",
         "PG": "Neutral",
         "PT": "Pass",
-        "SL": "Strong Pass",
+        "SL": "Pass",
         "VK": "Pass"
       },
       "avg": 33.29,
@@ -6470,7 +6470,7 @@
         "NR": "Pass",
         "PG": "Pass",
         "PT": "Pass",
-        "SL": "Strong Pass",
+        "SL": "Pass",
         "VK": "Pass"
       },
       "avg": 32.86,
@@ -6584,7 +6584,7 @@
         "NR": "Pass",
         "PG": "Neutral",
         "PT": "Pass",
-        "SL": "Strong Pass",
+        "SL": "Pass",
         "VK": "Pass"
       },
       "avg": 32.29,
@@ -6697,7 +6697,7 @@
         "EG": "Pass",
         "NR": "Pass",
         "PG": "Pass",
-        "PT": "Strong Pass",
+        "PT": "Pass",
         "SL": "Pass",
         "VK": "Pass"
       },
@@ -6809,7 +6809,7 @@
         "NR": "Pass",
         "PG": "Pass",
         "PT": "Pass",
-        "SL": "Strong Pass",
+        "SL": "Pass",
         "VK": "Pass"
       },
       "avg": 31.43,
@@ -6921,7 +6921,7 @@
         "NR": "Pass",
         "PG": "Pass",
         "PT": "Pass",
-        "SL": "Strong Pass",
+        "SL": "Pass",
         "VK": "Pass"
       },
       "avg": 31.14,
@@ -7032,7 +7032,7 @@
         "NR": "Pass",
         "PG": "Pass",
         "PT": "Pass",
-        "SL": "Strong Pass",
+        "SL": "Pass",
         "VK": "Pass"
       },
       "avg": 30.14,
@@ -7143,8 +7143,8 @@
         "EG": "Pass",
         "NR": "Pass",
         "PG": "Pass",
-        "PT": "Strong Pass",
-        "SL": "Strong Pass",
+        "PT": "Pass",
+        "SL": "Pass",
         "VK": "Pass"
       },
       "avg": 29.57,
@@ -7183,7 +7183,7 @@
         "NR": "Pass",
         "PG": "Pass",
         "PT": "Pass",
-        "SL": "Strong Pass",
+        "SL": "Pass",
         "VK": "Pass"
       },
       "avg": 29.57,
@@ -7296,7 +7296,7 @@
         "NR": "Pass",
         "PG": "Pass",
         "PT": "Pass",
-        "SL": "Strong Pass",
+        "SL": "Pass",
         "VK": "Pass"
       },
       "avg": 28.14,
@@ -7371,7 +7371,7 @@
         "NR": "Pass",
         "PG": "Pass",
         "PT": "Pass",
-        "SL": "Strong Pass",
+        "SL": "Pass",
         "VK": "Pass"
       },
       "avg": 26.71,
@@ -7409,7 +7409,7 @@
         "EG": "Pass",
         "NR": "Pass",
         "PG": "Pass",
-        "PT": "Strong Pass",
+        "PT": "Pass",
         "SL": "Strong Pass",
         "VK": "Pass"
       },
@@ -7448,8 +7448,8 @@
         "EG": "Pass",
         "NR": "Pass",
         "PG": "Pass",
-        "PT": "Strong Pass",
-        "SL": "Strong Pass",
+        "PT": "Pass",
+        "SL": "Pass",
         "VK": "Pass"
       },
       "avg": 25.71,
@@ -7520,7 +7520,7 @@
         "PG": "Pass",
         "PT": "Strong Pass",
         "SL": "Strong Pass",
-        "VK": "Strong Pass"
+        "VK": "Pass"
       },
       "avg": 24.43,
       "revenue": null,

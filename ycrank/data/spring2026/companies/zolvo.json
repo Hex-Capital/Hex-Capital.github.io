@@ -34,8 +34,8 @@
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 67,
-      "tier": "Invest"
+      "score": 59,
+      "tier": "Neutral"
     },
     "peter-thiel": {
       "score": 37,
@@ -54,13 +54,13 @@
     "CB": 43,
     "EG": 56,
     "NR": 56,
-    "PG": 67,
+    "PG": 59,
     "PT": 37,
     "SL": 43,
     "VK": 47
   },
-  "consolidatedAvg": 49.86,
-  "consolidatedRank": 11,
+  "consolidatedAvg": 48.71,
+  "consolidatedRank": 12,
   "paths": {
     "memo": "spring2026/memos/zolvo.md",
     "evals": {

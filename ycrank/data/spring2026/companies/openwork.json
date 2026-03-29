@@ -32,8 +32,8 @@
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 43,
-      "tier": "Pass"
+      "score": 45,
+      "tier": "Neutral"
     },
     "peter-thiel": {
       "score": 29,
@@ -52,13 +52,13 @@
     "CB": 36,
     "EG": 36,
     "NR": 57,
-    "PG": 43,
+    "PG": 45,
     "PT": 29,
     "SL": 31,
     "VK": 42
   },
-  "consolidatedAvg": 39.14,
-  "consolidatedRank": 41,
+  "consolidatedAvg": 39.43,
+  "consolidatedRank": 37,
   "paths": {
     "memo": "spring2026/memos/openwork.md",
     "evals": {

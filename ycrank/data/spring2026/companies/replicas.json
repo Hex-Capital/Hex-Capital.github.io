@@ -34,7 +34,7 @@
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 38,
+      "score": 43,
       "tier": "Pass"
     },
     "peter-thiel": {
@@ -54,12 +54,12 @@
     "CB": 32,
     "EG": 34,
     "NR": 45,
-    "PG": 38,
+    "PG": 43,
     "PT": 31,
     "SL": 26,
     "VK": 34
   },
-  "consolidatedAvg": 34.29,
+  "consolidatedAvg": 35,
   "consolidatedRank": 49,
   "paths": {
     "memo": "spring2026/memos/replicas.md",

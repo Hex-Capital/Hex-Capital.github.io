@@ -34,7 +34,7 @@
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 39,
+      "score": 42,
       "tier": "Pass"
     },
     "peter-thiel": {
@@ -54,13 +54,13 @@
     "CB": 32,
     "EG": 35,
     "NR": 44,
-    "PG": 39,
+    "PG": 42,
     "PT": 30,
     "SL": 31,
     "VK": 39
   },
-  "consolidatedAvg": 35.71,
-  "consolidatedRank": 47,
+  "consolidatedAvg": 36.14,
+  "consolidatedRank": 46,
   "paths": {
     "memo": "spring2026/memos/datost.md",
     "evals": {

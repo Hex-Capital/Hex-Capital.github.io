@@ -34,7 +34,7 @@
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 39,
+      "score": 42,
       "tier": "Pass"
     },
     "peter-thiel": {
@@ -54,13 +54,13 @@
     "CB": 43,
     "EG": 43,
     "NR": 43,
-    "PG": 39,
+    "PG": 42,
     "PT": 28,
     "SL": 39,
     "VK": 43
   },
-  "consolidatedAvg": 39.71,
-  "consolidatedRank": 36,
+  "consolidatedAvg": 40.14,
+  "consolidatedRank": 35,
   "paths": {
     "memo": "spring2026/memos/biostack-platforms.md",
     "evals": {

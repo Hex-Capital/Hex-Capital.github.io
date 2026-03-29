@@ -34,7 +34,7 @@
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 61,
+      "score": 59,
       "tier": "Neutral"
     },
     "peter-thiel": {
@@ -54,13 +54,13 @@
     "CB": 45,
     "EG": 39,
     "NR": 52,
-    "PG": 61,
+    "PG": 59,
     "PT": 44,
     "SL": 46,
     "VK": 58
   },
-  "consolidatedAvg": 49.29,
-  "consolidatedRank": 12,
+  "consolidatedAvg": 49,
+  "consolidatedRank": 11,
   "paths": {
     "memo": "spring2026/memos/dispatch.md",
     "evals": {

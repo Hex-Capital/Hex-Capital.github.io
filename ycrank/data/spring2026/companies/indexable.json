@@ -32,8 +32,8 @@
       "tier": "Invest"
     },
     "paul-graham": {
-      "score": 68,
-      "tier": "Invest"
+      "score": 58,
+      "tier": "Neutral"
     },
     "peter-thiel": {
       "score": 41,
@@ -52,13 +52,13 @@
     "CB": 40,
     "EG": 57,
     "NR": 75,
-    "PG": 68,
+    "PG": 58,
     "PT": 41,
     "SL": 46,
     "VK": 57
   },
-  "consolidatedAvg": 54.86,
-  "consolidatedRank": 6,
+  "consolidatedAvg": 53.43,
+  "consolidatedRank": 7,
   "paths": {
     "memo": "spring2026/memos/indexable.md",
     "evals": {

@@ -33,7 +33,7 @@
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 48,
+      "score": 51,
       "tier": "Neutral"
     },
     "peter-thiel": {
@@ -53,12 +53,12 @@
     "CB": 29,
     "EG": 42,
     "NR": 48,
-    "PG": 48,
+    "PG": 51,
     "PT": 30,
     "SL": 30,
     "VK": 37
   },
-  "consolidatedAvg": 37.71,
+  "consolidatedAvg": 38.14,
   "consolidatedRank": 44,
   "paths": {
     "memo": "spring2026/memos/stage.md",

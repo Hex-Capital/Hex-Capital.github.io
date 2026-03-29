@@ -35,7 +35,7 @@
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 61,
+      "score": 53,
       "tier": "Neutral"
     },
     "peter-thiel": {
@@ -55,12 +55,12 @@
     "CB": 44,
     "EG": 37,
     "NR": 44,
-    "PG": 61,
+    "PG": 53,
     "PT": 38,
     "SL": 39,
     "VK": 47
   },
-  "consolidatedAvg": 44.29,
+  "consolidatedAvg": 43.14,
   "consolidatedRank": 20,
   "paths": {
     "memo": "spring2026/memos/inloop-robotics.md",

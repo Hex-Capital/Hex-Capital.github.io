@@ -34,7 +34,7 @@
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 54,
+      "score": 45,
       "tier": "Neutral"
     },
     "peter-thiel": {
@@ -54,13 +54,13 @@
     "CB": 39,
     "EG": 44,
     "NR": 48,
-    "PG": 54,
+    "PG": 45,
     "PT": 33,
     "SL": 34,
     "VK": 43
   },
-  "consolidatedAvg": 42.14,
-  "consolidatedRank": 27,
+  "consolidatedAvg": 40.86,
+  "consolidatedRank": 31,
   "paths": {
     "memo": "spring2026/memos/saffron.md",
     "evals": {

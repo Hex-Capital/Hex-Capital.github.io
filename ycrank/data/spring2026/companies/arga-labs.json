@@ -34,7 +34,7 @@
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 52,
+      "score": 47,
       "tier": "Neutral"
     },
     "peter-thiel": {
@@ -54,12 +54,12 @@
     "CB": 40,
     "EG": 51,
     "NR": 45,
-    "PG": 52,
+    "PG": 47,
     "PT": 32,
     "SL": 36,
     "VK": 43
   },
-  "consolidatedAvg": 42.71,
+  "consolidatedAvg": 42,
   "consolidatedRank": 24,
   "paths": {
     "memo": "spring2026/memos/arga-labs.md",

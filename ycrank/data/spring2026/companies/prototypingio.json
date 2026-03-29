@@ -34,8 +34,8 @@
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 47,
-      "tier": "Neutral"
+      "score": 40,
+      "tier": "Pass"
     },
     "peter-thiel": {
       "score": 31,
@@ -54,13 +54,13 @@
     "CB": 42,
     "EG": 37,
     "NR": 42,
-    "PG": 47,
+    "PG": 40,
     "PT": 31,
     "SL": 37,
     "VK": 39
   },
-  "consolidatedAvg": 39.29,
-  "consolidatedRank": 40,
+  "consolidatedAvg": 38.29,
+  "consolidatedRank": 43,
   "paths": {
     "memo": "spring2026/memos/prototypingio.md",
     "evals": {

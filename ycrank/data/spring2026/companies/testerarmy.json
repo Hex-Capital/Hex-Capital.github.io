@@ -32,7 +32,7 @@
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 47,
+      "score": 45,
       "tier": "Neutral"
     },
     "peter-thiel": {
@@ -52,13 +52,13 @@
     "CB": 36,
     "EG": 40,
     "NR": 50,
-    "PG": 47,
+    "PG": 45,
     "PT": 33,
     "SL": 32,
     "VK": 42
   },
-  "consolidatedAvg": 40,
-  "consolidatedRank": 35,
+  "consolidatedAvg": 39.71,
+  "consolidatedRank": 36,
   "paths": {
     "memo": "spring2026/memos/testerarmy.md",
     "evals": {

@@ -33,7 +33,7 @@
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 47,
+      "score": 49,
       "tier": "Neutral"
     },
     "peter-thiel": {
@@ -53,13 +53,13 @@
     "CB": 32,
     "EG": 40,
     "NR": 47,
-    "PG": 47,
+    "PG": 49,
     "PT": 32,
     "SL": 40,
     "VK": 36
   },
-  "consolidatedAvg": 39.14,
-  "consolidatedRank": 42,
+  "consolidatedAvg": 39.43,
+  "consolidatedRank": 38,
   "paths": {
     "memo": "spring2026/memos/totalis.md",
     "evals": {

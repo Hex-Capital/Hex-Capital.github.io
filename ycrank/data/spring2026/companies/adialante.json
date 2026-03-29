@@ -34,7 +34,7 @@
       "tier": "Invest"
     },
     "paul-graham": {
-      "score": 64,
+      "score": 58,
       "tier": "Neutral"
     },
     "peter-thiel": {
@@ -54,12 +54,12 @@
     "CB": 69,
     "EG": 36,
     "NR": 65,
-    "PG": 64,
+    "PG": 58,
     "PT": 55,
     "SL": 63,
     "VK": 72
   },
-  "consolidatedAvg": 60.57,
+  "consolidatedAvg": 59.71,
   "consolidatedRank": 2,
   "paths": {
     "memo": "spring2026/memos/adialante.md",

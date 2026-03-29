@@ -32,8 +32,8 @@
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 56,
-      "tier": "Neutral"
+      "score": 44,
+      "tier": "Pass"
     },
     "peter-thiel": {
       "score": 39,
@@ -52,13 +52,13 @@
     "CB": 45,
     "EG": 35,
     "NR": 41,
-    "PG": 56,
+    "PG": 44,
     "PT": 39,
     "SL": 42,
     "VK": 53
   },
-  "consolidatedAvg": 44.43,
-  "consolidatedRank": 19,
+  "consolidatedAvg": 42.71,
+  "consolidatedRank": 22,
   "paths": {
     "memo": "spring2026/memos/maquoketa-research.md",
     "evals": {

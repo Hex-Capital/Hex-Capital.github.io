@@ -34,8 +34,8 @@
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 69,
-      "tier": "Invest"
+      "score": 46,
+      "tier": "Neutral"
     },
     "peter-thiel": {
       "score": 43,
@@ -54,13 +54,13 @@
     "CB": 53,
     "EG": 74,
     "NR": 60,
-    "PG": 69,
+    "PG": 46,
     "PT": 43,
     "SL": 40,
     "VK": 45
   },
-  "consolidatedAvg": 54.86,
-  "consolidatedRank": 7,
+  "consolidatedAvg": 51.57,
+  "consolidatedRank": 8,
   "paths": {
     "memo": "spring2026/memos/kinro.md",
     "evals": {

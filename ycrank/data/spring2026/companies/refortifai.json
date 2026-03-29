@@ -34,7 +34,7 @@
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 53,
+      "score": 48,
       "tier": "Neutral"
     },
     "peter-thiel": {
@@ -54,12 +54,12 @@
     "CB": 37,
     "EG": 59,
     "NR": 46,
-    "PG": 53,
+    "PG": 48,
     "PT": 36,
     "SL": 40,
     "VK": 42
   },
-  "consolidatedAvg": 44.71,
+  "consolidatedAvg": 44,
   "consolidatedRank": 18,
   "paths": {
     "memo": "spring2026/memos/refortifai.md",

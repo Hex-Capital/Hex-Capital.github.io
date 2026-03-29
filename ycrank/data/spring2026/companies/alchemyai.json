@@ -36,8 +36,8 @@
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 45,
-      "tier": "Neutral"
+      "score": 43,
+      "tier": "Pass"
     },
     "peter-thiel": {
       "score": 29,
@@ -56,13 +56,13 @@
     "CB": 36,
     "EG": 43,
     "NR": 50,
-    "PG": 45,
+    "PG": 43,
     "PT": 29,
     "SL": 33,
     "VK": 40
   },
-  "consolidatedAvg": 39.43,
-  "consolidatedRank": 38,
+  "consolidatedAvg": 39.14,
+  "consolidatedRank": 39,
   "paths": {
     "memo": "spring2026/memos/alchemyai.md",
     "evals": {

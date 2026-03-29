@@ -34,7 +34,7 @@
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 57,
+      "score": 54,
       "tier": "Neutral"
     },
     "peter-thiel": {
@@ -54,12 +54,12 @@
     "CB": 48,
     "EG": 39,
     "NR": 59,
-    "PG": 57,
+    "PG": 54,
     "PT": 29,
     "SL": 38,
     "VK": 54
   },
-  "consolidatedAvg": 46.29,
+  "consolidatedAvg": 45.86,
   "consolidatedRank": 14,
   "paths": {
     "memo": "spring2026/memos/lamina-labs.md",

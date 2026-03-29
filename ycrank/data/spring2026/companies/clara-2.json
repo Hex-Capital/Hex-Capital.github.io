@@ -35,7 +35,7 @@
       "tier": "Invest"
     },
     "paul-graham": {
-      "score": 78,
+      "score": 66,
       "tier": "Invest"
     },
     "peter-thiel": {
@@ -55,12 +55,12 @@
     "CB": 57,
     "EG": 52,
     "NR": 69,
-    "PG": 78,
+    "PG": 66,
     "PT": 45,
     "SL": 47,
     "VK": 64
   },
-  "consolidatedAvg": 58.86,
+  "consolidatedAvg": 57.14,
   "consolidatedRank": 3,
   "paths": {
     "memo": "spring2026/memos/clara-2.md",

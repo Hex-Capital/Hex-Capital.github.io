@@ -32,7 +32,7 @@
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 53,
+      "score": 59,
       "tier": "Neutral"
     },
     "peter-thiel": {
@@ -52,13 +52,13 @@
     "CB": 42,
     "EG": 40,
     "NR": 62,
-    "PG": 53,
+    "PG": 59,
     "PT": 33,
     "SL": 34,
     "VK": 38
   },
-  "consolidatedAvg": 43.14,
-  "consolidatedRank": 22,
+  "consolidatedAvg": 44,
+  "consolidatedRank": 17,
   "paths": {
     "memo": "spring2026/memos/kimpton-ai.md",
     "evals": {

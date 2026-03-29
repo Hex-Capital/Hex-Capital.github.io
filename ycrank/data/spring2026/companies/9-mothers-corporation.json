@@ -36,7 +36,7 @@
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 60,
+      "score": 54,
       "tier": "Neutral"
     },
     "peter-thiel": {
@@ -56,12 +56,12 @@
     "CB": 54,
     "EG": 43,
     "NR": 40,
-    "PG": 60,
+    "PG": 54,
     "PT": 42,
     "SL": 43,
     "VK": 61
   },
-  "consolidatedAvg": 49,
+  "consolidatedAvg": 48.14,
   "consolidatedRank": 13,
   "paths": {
     "memo": "spring2026/memos/9-mothers-corporation.md",

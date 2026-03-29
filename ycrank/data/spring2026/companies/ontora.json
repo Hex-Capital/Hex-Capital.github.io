@@ -34,7 +34,7 @@
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 50,
+      "score": 47,
       "tier": "Neutral"
     },
     "peter-thiel": {
@@ -54,12 +54,12 @@
     "CB": 42,
     "EG": 44,
     "NR": 51,
-    "PG": 50,
+    "PG": 47,
     "PT": 35,
     "SL": 36,
     "VK": 43
   },
-  "consolidatedAvg": 43,
+  "consolidatedAvg": 42.57,
   "consolidatedRank": 23,
   "paths": {
     "memo": "spring2026/memos/ontora.md",

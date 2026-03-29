@@ -35,7 +35,7 @@
       "tier": "Invest"
     },
     "paul-graham": {
-      "score": 76,
+      "score": 68,
       "tier": "Invest"
     },
     "peter-thiel": {
@@ -55,12 +55,12 @@
     "CB": 59,
     "EG": 65,
     "NR": 68,
-    "PG": 76,
+    "PG": 68,
     "PT": 46,
     "SL": 41,
     "VK": 51
   },
-  "consolidatedAvg": 58,
+  "consolidatedAvg": 56.86,
   "consolidatedRank": 4,
   "paths": {
     "memo": "spring2026/memos/runharbor.md",

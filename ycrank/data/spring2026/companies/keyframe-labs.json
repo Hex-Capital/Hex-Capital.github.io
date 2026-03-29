@@ -35,8 +35,8 @@
       "tier": "Invest"
     },
     "paul-graham": {
-      "score": 67,
-      "tier": "Invest"
+      "score": 60,
+      "tier": "Neutral"
     },
     "peter-thiel": {
       "score": 44,
@@ -55,13 +55,13 @@
     "CB": 49,
     "EG": 56,
     "NR": 75,
-    "PG": 67,
+    "PG": 60,
     "PT": 44,
     "SL": 41,
     "VK": 53
   },
-  "consolidatedAvg": 55,
-  "consolidatedRank": 5,
+  "consolidatedAvg": 54,
+  "consolidatedRank": 6,
   "paths": {
     "memo": "spring2026/memos/keyframe-labs.md",
     "evals": {

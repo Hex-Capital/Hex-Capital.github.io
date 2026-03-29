@@ -35,7 +35,7 @@
       "tier": "Invest"
     },
     "paul-graham": {
-      "score": 72,
+      "score": 66,
       "tier": "Invest"
     },
     "peter-thiel": {
@@ -55,12 +55,12 @@
     "CB": 66,
     "EG": 58,
     "NR": 75,
-    "PG": 72,
+    "PG": 66,
     "PT": 60,
     "SL": 48,
     "VK": 65
   },
-  "consolidatedAvg": 63.43,
+  "consolidatedAvg": 62.57,
   "consolidatedRank": 1,
   "paths": {
     "memo": "spring2026/memos/matforge.md",

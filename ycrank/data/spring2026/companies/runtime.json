@@ -33,7 +33,7 @@
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 51,
+      "score": 45,
       "tier": "Neutral"
     },
     "peter-thiel": {
@@ -53,13 +53,13 @@
     "CB": 41,
     "EG": 45,
     "NR": 49,
-    "PG": 51,
+    "PG": 45,
     "PT": 32,
     "SL": 36,
     "VK": 43
   },
-  "consolidatedAvg": 42.43,
-  "consolidatedRank": 26,
+  "consolidatedAvg": 41.57,
+  "consolidatedRank": 28,
   "paths": {
     "memo": "spring2026/memos/runtime.md",
     "evals": {

@@ -34,7 +34,7 @@
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 43,
+      "score": 39,
       "tier": "Pass"
     },
     "peter-thiel": {
@@ -54,13 +54,13 @@
     "CB": 35,
     "EG": 39,
     "NR": 41,
-    "PG": 43,
+    "PG": 39,
     "PT": 29,
     "SL": 29,
     "VK": 37
   },
-  "consolidatedAvg": 36.14,
-  "consolidatedRank": 46,
+  "consolidatedAvg": 35.57,
+  "consolidatedRank": 48,
   "paths": {
     "memo": "spring2026/memos/asendia-ai.md",
     "evals": {

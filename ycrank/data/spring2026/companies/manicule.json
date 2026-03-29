@@ -34,8 +34,8 @@
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 44,
-      "tier": "Pass"
+      "score": 56,
+      "tier": "Neutral"
     },
     "peter-thiel": {
       "score": 28,
@@ -54,13 +54,13 @@
     "CB": 34,
     "EG": 34,
     "NR": 39,
-    "PG": 44,
+    "PG": 56,
     "PT": 28,
     "SL": 30,
     "VK": 31
   },
-  "consolidatedAvg": 34.29,
-  "consolidatedRank": 48,
+  "consolidatedAvg": 36,
+  "consolidatedRank": 47,
   "paths": {
     "memo": "spring2026/memos/manicule.md",
     "evals": {

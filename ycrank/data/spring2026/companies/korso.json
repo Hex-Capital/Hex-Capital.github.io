@@ -34,8 +34,8 @@
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 46,
-      "tier": "Neutral"
+      "score": 39,
+      "tier": "Pass"
     },
     "peter-thiel": {
       "score": 30,
@@ -54,12 +54,12 @@
     "CB": 36,
     "EG": 40,
     "NR": 42,
-    "PG": 46,
+    "PG": 39,
     "PT": 30,
     "SL": 32,
     "VK": 36
   },
-  "consolidatedAvg": 37.43,
+  "consolidatedAvg": 36.43,
   "consolidatedRank": 45,
   "paths": {
     "memo": "spring2026/memos/korso.md",

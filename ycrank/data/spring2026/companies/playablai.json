@@ -34,7 +34,7 @@
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 52,
+      "score": 51,
       "tier": "Neutral"
     },
     "peter-thiel": {
@@ -54,13 +54,13 @@
     "CB": 39,
     "EG": 35,
     "NR": 52,
-    "PG": 52,
+    "PG": 51,
     "PT": 36,
     "SL": 34,
     "VK": 41
   },
-  "consolidatedAvg": 41.29,
-  "consolidatedRank": 33,
+  "consolidatedAvg": 41.14,
+  "consolidatedRank": 30,
   "paths": {
     "memo": "spring2026/memos/playablai.md",
     "evals": {

@@ -1,0 +1,75 @@
+{
+  "slug": "totalis",
+  "name": "Totalis",
+  "oneLiner": "derivative layer for prediction markets",
+  "metadata": {
+    "website": "https://www.totalis.trade",
+    "yc_page": "https://www.ycombinator.com/companies/totalis",
+    "batch": "Spring 2026",
+    "industry": "Fintech / Fintech -> Consumer Finance",
+    "team_size": "0",
+    "location": "No public data found",
+    "tags": "DeFi, APIs",
+    "yc_partner": "Andrew Miklas",
+    "emails": "pravesh@totalis.trade"
+  },
+  "tags": [
+    "DeFi",
+    "APIs"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-29T04:52:53.842Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 36,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 32,
+    "EG": 40,
+    "NR": 47,
+    "PG": 47,
+    "PT": 32,
+    "SL": 40,
+    "VK": 36
+  },
+  "consolidatedAvg": 39.14,
+  "consolidatedRank": 40,
+  "paths": {
+    "memo": "spring2026/memos/totalis.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/totalis.md",
+      "elad-gil": "spring2026/evals/elad-gil/totalis.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/totalis.md",
+      "paul-graham": "spring2026/evals/paul-graham/totalis.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/totalis.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/totalis.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/totalis.md"
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "inloop-robotics",
+  "name": "InLoop Robotics",
+  "oneLiner": "Deploying robots that ask for help!",
+  "metadata": {
+    "website": "https://inloop-robotics.com/",
+    "yc_page": "https://www.ycombinator.com/companies/inloop-robotics",
+    "batch": "Spring 2026",
+    "industry": "Industrials / Manufacturing and Robotics",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Robotics, Logistics, Automation",
+    "yc_partner": "Tom Blomfield",
+    "emails": "founders@inloop-robotics.com"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Robotics",
+    "Logistics",
+    "Automation"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-29T21:12:33.738Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 61,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 47,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 44,
+    "EG": 37,
+    "NR": 44,
+    "PG": 61,
+    "PT": 38,
+    "SL": 39,
+    "VK": 47
+  },
+  "consolidatedAvg": 44.29,
+  "consolidatedRank": 20,
+  "paths": {
+    "memo": "spring2026/memos/inloop-robotics.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/inloop-robotics.md",
+      "elad-gil": "spring2026/evals/elad-gil/inloop-robotics.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/inloop-robotics.md",
+      "paul-graham": "spring2026/evals/paul-graham/inloop-robotics.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/inloop-robotics.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/inloop-robotics.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/inloop-robotics.md"
+    }
+  }
+}

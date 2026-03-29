@@ -1,6 +1,6 @@
 {
   "batch": "spring2026",
-  "companyCount": 48,
+  "companyCount": 50,
   "personas": [
     {
       "slug": "cyan-banister",
@@ -751,6 +751,44 @@
     },
     {
       "rank": 20,
+      "name": "InLoop Robotics",
+      "slug": "inloop-robotics",
+      "scores": {
+        "CB": 44,
+        "EG": 37,
+        "NR": 44,
+        "PG": 61,
+        "PT": 38,
+        "SL": 39,
+        "VK": 47
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 44.29,
+      "revenue": null,
+      "teamSize": 4,
+      "ycPartner": "Tom Blomfield",
+      "oneLiner": "Deploying robots that ask for help!",
+      "industry": "Industrials / Manufacturing and Robotics",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Artificial Intelligence",
+        "Robotics",
+        "Logistics",
+        "Automation"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-03-29"
+    },
+    {
+      "rank": 21,
       "name": "Bujo AI",
       "slug": "bujo",
       "scores": {
@@ -786,7 +824,7 @@
       "memoDate": "2026-03-26"
     },
     {
-      "rank": 21,
+      "rank": 22,
       "name": "Kimpton AI",
       "slug": "kimpton-ai",
       "scores": {
@@ -821,7 +859,7 @@
       "memoDate": "2026-03-26"
     },
     {
-      "rank": 22,
+      "rank": 23,
       "name": "Ontora",
       "slug": "ontora",
       "scores": {
@@ -858,7 +896,7 @@
       "memoDate": "2026-03-26"
     },
     {
-      "rank": 23,
+      "rank": 24,
       "name": "Arga Labs",
       "slug": "arga-labs",
       "scores": {
@@ -895,7 +933,7 @@
       "memoDate": "2026-03-26"
     },
     {
-      "rank": 24,
+      "rank": 25,
       "name": "Foaster",
       "slug": "foaster",
       "scores": {
@@ -932,7 +970,7 @@
       "memoDate": "2026-03-26"
     },
     {
-      "rank": 25,
+      "rank": 26,
       "name": "Runtime",
       "slug": "runtime",
       "scores": {
@@ -968,7 +1006,7 @@
       "memoDate": "2026-03-26"
     },
     {
-      "rank": 26,
+      "rank": 27,
       "name": "Saffron",
       "slug": "saffron",
       "scores": {
@@ -1005,7 +1043,7 @@
       "memoDate": "2026-03-26"
     },
     {
-      "rank": 27,
+      "rank": 28,
       "name": "Callab AI",
       "slug": "callab-ai",
       "scores": {
@@ -1042,7 +1080,7 @@
       "memoDate": "2026-03-26"
     },
     {
-      "rank": 28,
+      "rank": 29,
       "name": "Standout",
       "slug": "standout",
       "scores": {
@@ -1080,7 +1118,44 @@
       "memoDate": "2026-03-26"
     },
     {
-      "rank": 29,
+      "rank": 30,
+      "name": "Interfaze",
+      "slug": "interfaze",
+      "scores": {
+        "CB": 41,
+        "EG": 44,
+        "NR": 49,
+        "PG": 52,
+        "PT": 33,
+        "SL": 31,
+        "VK": 42
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 41.71,
+      "revenue": null,
+      "teamSize": 5,
+      "ycPartner": "Aaron Epstein",
+      "oneLiner": "AI model built for deterministic developer tasks",
+      "industry": "B2B / B2B -> Infrastructure",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Deep Learning",
+        "Developer Tools",
+        "Generative AI"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-03-29"
+    },
+    {
+      "rank": 31,
       "name": "Benchspan",
       "slug": "benchspan",
       "scores": {
@@ -1118,7 +1193,7 @@
       "memoDate": "2026-03-26"
     },
     {
-      "rank": 30,
+      "rank": 32,
       "name": "primitive",
       "slug": "primitive",
       "scores": {
@@ -1157,7 +1232,7 @@
       "memoDate": "2026-03-26"
     },
     {
-      "rank": 31,
+      "rank": 33,
       "name": "Playabl.ai",
       "slug": "playablai",
       "scores": {
@@ -1194,7 +1269,7 @@
       "memoDate": "2026-03-26"
     },
     {
-      "rank": 32,
+      "rank": 34,
       "name": "Amboras",
       "slug": "amboras",
       "scores": {
@@ -1231,7 +1306,7 @@
       "memoDate": "2026-03-26"
     },
     {
-      "rank": 33,
+      "rank": 35,
       "name": "TesterArmy",
       "slug": "testerarmy",
       "scores": {
@@ -1266,7 +1341,7 @@
       "memoDate": "2026-03-26"
     },
     {
-      "rank": 34,
+      "rank": 36,
       "name": "BioStack Platforms",
       "slug": "biostack-platforms",
       "scores": {
@@ -1303,7 +1378,7 @@
       "memoDate": "2026-03-26"
     },
     {
-      "rank": 35,
+      "rank": 37,
       "name": "Gojiberry AI",
       "slug": "gojiberry-ai",
       "scores": {
@@ -1336,7 +1411,7 @@
       "memoDate": "2026-03-26"
     },
     {
-      "rank": 36,
+      "rank": 38,
       "name": "Alchemy",
       "slug": "alchemyai",
       "scores": {
@@ -1375,7 +1450,7 @@
       "memoDate": "2026-03-26"
     },
     {
-      "rank": 37,
+      "rank": 39,
       "name": "Superset",
       "slug": "superset",
       "scores": {
@@ -1410,7 +1485,7 @@
       "memoDate": "2026-03-26"
     },
     {
-      "rank": 38,
+      "rank": 40,
       "name": "Prototyping.io",
       "slug": "prototypingio",
       "scores": {
@@ -1447,7 +1522,7 @@
       "memoDate": "2026-03-26"
     },
     {
-      "rank": 39,
+      "rank": 41,
       "name": "OpenWork",
       "slug": "openwork",
       "scores": {
@@ -1482,7 +1557,7 @@
       "memoDate": "2026-03-26"
     },
     {
-      "rank": 40,
+      "rank": 42,
       "name": "Totalis",
       "slug": "totalis",
       "scores": {
@@ -1518,7 +1593,7 @@
       "memoDate": "2026-03-29"
     },
     {
-      "rank": 41,
+      "rank": 43,
       "name": "qomplement",
       "slug": "qomplement",
       "scores": {
@@ -1555,7 +1630,7 @@
       "memoDate": "2026-03-26"
     },
     {
-      "rank": 42,
+      "rank": 44,
       "name": "Stage",
       "slug": "stage",
       "scores": {
@@ -1591,7 +1666,7 @@
       "memoDate": "2026-03-26"
     },
     {
-      "rank": 43,
+      "rank": 45,
       "name": "Korso",
       "slug": "korso",
       "scores": {
@@ -1628,7 +1703,7 @@
       "memoDate": "2026-03-26"
     },
     {
-      "rank": 44,
+      "rank": 46,
       "name": "Asendia AI",
       "slug": "asendia-ai",
       "scores": {
@@ -1665,7 +1740,7 @@
       "memoDate": "2026-03-26"
     },
     {
-      "rank": 45,
+      "rank": 47,
       "name": "Datost",
       "slug": "datost",
       "scores": {
@@ -1702,7 +1777,7 @@
       "memoDate": "2026-03-26"
     },
     {
-      "rank": 46,
+      "rank": 48,
       "name": "Manicule",
       "slug": "manicule",
       "scores": {
@@ -1739,7 +1814,7 @@
       "memoDate": "2026-03-26"
     },
     {
-      "rank": 47,
+      "rank": 49,
       "name": "Replicas",
       "slug": "replicas",
       "scores": {
@@ -1776,7 +1851,7 @@
       "memoDate": "2026-03-26"
     },
     {
-      "rank": 48,
+      "rank": 50,
       "name": "Hub.xyz",
       "slug": "hubxyz",
       "scores": {
@@ -1822,7 +1897,7 @@
       "values": {
         "CB": null,
         "EG": 0.46,
-        "NR": 0.58,
+        "NR": 0.57,
         "PG": 0.75,
         "PT": 0.82,
         "SL": 0.8,
@@ -1834,34 +1909,34 @@
       "values": {
         "CB": 0.46,
         "EG": null,
-        "NR": 0.54,
-        "PG": 0.67,
-        "PT": 0.5,
-        "SL": 0.31,
+        "NR": 0.55,
+        "PG": 0.65,
+        "PT": 0.49,
+        "SL": 0.3,
         "VK": 0.28
       }
     },
     {
       "persona": "NR",
       "values": {
-        "CB": 0.58,
-        "EG": 0.54,
+        "CB": 0.57,
+        "EG": 0.55,
         "NR": null,
-        "PG": 0.72,
-        "PT": 0.67,
-        "SL": 0.53,
-        "VK": 0.59
+        "PG": 0.7,
+        "PT": 0.66,
+        "SL": 0.52,
+        "VK": 0.58
       }
     },
     {
       "persona": "PG",
       "values": {
         "CB": 0.75,
-        "EG": 0.67,
-        "NR": 0.72,
+        "EG": 0.65,
+        "NR": 0.7,
         "PG": null,
         "PT": 0.8,
-        "SL": 0.62,
+        "SL": 0.61,
         "VK": 0.67
       }
     },
@@ -1869,8 +1944,8 @@
       "persona": "PT",
       "values": {
         "CB": 0.82,
-        "EG": 0.5,
-        "NR": 0.67,
+        "EG": 0.49,
+        "NR": 0.66,
         "PG": 0.8,
         "PT": null,
         "SL": 0.76,
@@ -1881,12 +1956,12 @@
       "persona": "SL",
       "values": {
         "CB": 0.8,
-        "EG": 0.31,
-        "NR": 0.53,
-        "PG": 0.62,
+        "EG": 0.3,
+        "NR": 0.52,
+        "PG": 0.61,
         "PT": 0.76,
         "SL": null,
-        "VK": 0.87
+        "VK": 0.86
       }
     },
     {
@@ -1894,10 +1969,10 @@
       "values": {
         "CB": 0.81,
         "EG": 0.28,
-        "NR": 0.59,
+        "NR": 0.58,
         "PG": 0.67,
         "PT": 0.81,
-        "SL": 0.87,
+        "SL": 0.86,
         "VK": null
       }
     }

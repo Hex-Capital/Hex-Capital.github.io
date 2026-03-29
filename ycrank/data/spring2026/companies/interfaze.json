@@ -1,0 +1,76 @@
+{
+  "slug": "interfaze",
+  "name": "Interfaze",
+  "oneLiner": "AI model built for deterministic developer tasks",
+  "metadata": {
+    "website": "https://interfaze.ai",
+    "yc_page": "https://www.ycombinator.com/companies/interfaze",
+    "batch": "Spring 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "5",
+    "location": "San Francisco, CA, USA",
+    "tags": "Deep Learning, Developer Tools, Generative AI",
+    "yc_partner": "Aaron Epstein",
+    "emails": "interfaze@jigsawstack.com (company website)"
+  },
+  "tags": [
+    "Deep Learning",
+    "Developer Tools",
+    "Generative AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-29T21:11:43.343Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 42,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 41,
+    "EG": 44,
+    "NR": 49,
+    "PG": 52,
+    "PT": 33,
+    "SL": 31,
+    "VK": 42
+  },
+  "consolidatedAvg": 41.71,
+  "consolidatedRank": 30,
+  "paths": {
+    "memo": "spring2026/memos/interfaze.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/interfaze.md",
+      "elad-gil": "spring2026/evals/elad-gil/interfaze.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/interfaze.md",
+      "paul-graham": "spring2026/evals/paul-graham/interfaze.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/interfaze.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/interfaze.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/interfaze.md"
+    }
+  }
+}

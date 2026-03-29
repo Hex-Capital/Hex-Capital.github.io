@@ -1,0 +1,26 @@
+﻿# Interfaze -- Cyan Banister Evaluation
+
+Here's what I notice first about Interfaze: this is a company that lives in the most crowded intersection in technology right now. Developer tools, generative AI, deep learning — every tag on this company is a category where VCs are tripping over each other to write checks. When I look at a deal and every sophisticated investor in the room would nod along enthusiastically at the pitch, that's not signal — that's consensus. Nobody shifts uncomfortably in their chair when you say "we make AI API calls cheaper and more deterministic." Firecrawl already has 50,000 GitHub stars and $14.5 million in the bank. Apify is doing $13 million in revenue. OpenAI, Anthropic, and Google are all adding multimodal capabilities quarterly. This space isn't uncomfortable — it's a stampede.
+
+When I sit down with a founder, the first thing I want to hear is their story. Not the architecture diagram, not the pricing page — what happened in their life that made this problem impossible to walk past? Yoeven has execution credentials I respect: he built Stayr in Singapore, grew it from one to three million ARR, and exited. That takes real skill. But proptech to AI developer infrastructure is a pivot that follows market gravity, not biographical inevitability. There's no moment where the problem of non-deterministic LLM outputs found him through lived experience. The CTO, Harsha, brings legitimate ML research depth — the IEEE CAI 2026 paper is real academic IP, and his background in computer vision maps cleanly to the technical architecture. But research interest and biographical forge are different things. These founders are competent and smart. They're not forged by this specific problem.
+
+The strongest bull case here is genuinely worth sitting with. The technical insight — routing deterministic subtasks to specialized small models instead of burning tokens on monolithic LLMs — is architecturally sound and may prove prescient. If frontier model pricing stays elevated and their specialized models keep improving through the data flywheel of API usage, Interfaze could become the default layer between developers and expensive LLMs for structured tasks. Ten million API requests in nine months is real usage, not vaporware. The OpenAI-compatible endpoint is clever distribution — developers can swap in Interfaze without rewriting their code. And the "why now" timing is legitimate: small models just crossed a quality threshold that makes this routing architecture viable in production. If I'm wrong about this company, it's because the infrastructure layer they're building accumulates enough specialized training data and developer lock-in to become genuinely hard to displace before the giants notice.
+
+But when I run my invisible system test, I come up empty. There's no opaque cartel here, no hidden tax being extracted from people who don't understand the system. Developer API pricing is posted on every competitor's website. Developers can compare, switch, and benchmark freely. Interfaze makes something cheaper and more consistent — that's optimization, not revelation. Compare this to what Affirm did to credit card opacity, or what Ownwell does to property tax assessment. Those companies exposed structures that were deliberately hidden. Interfaze competes in a market where the pricing, the alternatives, and the performance benchmarks are all visible to the buyer. That's not my kind of disruption.
+
+The defensibility picture gives me pause too. The OpenAI-compatible API cuts both ways — it lowers the barrier to adopt Interfaze, but it equally lowers the barrier to leave. Each customer who joins doesn't make the next customer's experience better in a structural way. Compare that to Flock Safety, where every camera added to the network makes the entire surveillance mesh more powerful, or Carta, where years of cap table history create switching costs that compound with time. Interfaze's proprietary small models and the IEEE paper represent real IP, but the individual components — OCR, speech-to-text, web scraping, classification — are available as open-source or commercial tools. The integration layer is the product, and integration layers are replicable by well-resourced competitors who decide to build them. The brand confusion between JigsawStack and Interfaze also signals a company still crystallizing its identity, which at five people and pre-seed isn't fatal but isn't nothing either.
+
+I wish Yoeven and Harsha well. They've built something technically interesting and they clearly know how to ship. But this isn't a Long Journey bet. I need to feel the biographical inevitability of the founder, the discomfort of the space, or the invisible system crying out to be exposed — and ideally all three. What I see here is talented engineers who identified a real technical optimization in a market where everyone else already sees the same opportunity.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder's Biographical Forge | 12/30 |
+| Contrarian Conviction in Hard Spaces | 9/25 |
+| Invisible System Made Visible | 7/20 |
+| Infrastructure-Grade Defensibility at Inflection | 8/15 |
+| Cascading Real-World Impact | 5/10 |
+| **Total** | **41/100** |
+
+**Total Score: 41/100** (Pass)

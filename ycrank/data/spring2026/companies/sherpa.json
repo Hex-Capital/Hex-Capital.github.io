@@ -1,0 +1,78 @@
+{
+  "slug": "sherpa",
+  "name": "Sherpa",
+  "oneLiner": "Turn more website visitors into customers",
+  "metadata": {
+    "website": "https://www.withsherpa.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/sherpa",
+    "batch": "Spring 2026",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, SaaS, B2B, Marketing, AI",
+    "yc_partner": "Andrew Miklas",
+    "emails": "hello@withsherpa.ai"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "SaaS",
+    "B2B",
+    "Marketing",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-30T21:13:59.248Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 37,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 32,
+    "EG": 39,
+    "NR": 49,
+    "PG": 43,
+    "PT": 27,
+    "SL": 30,
+    "VK": 37
+  },
+  "consolidatedAvg": 36.71,
+  "consolidatedRank": 47,
+  "paths": {
+    "memo": "spring2026/memos/sherpa.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/sherpa.md",
+      "elad-gil": "spring2026/evals/elad-gil/sherpa.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/sherpa.md",
+      "paul-graham": "spring2026/evals/paul-graham/sherpa.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/sherpa.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/sherpa.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/sherpa.md"
+    }
+  }
+}

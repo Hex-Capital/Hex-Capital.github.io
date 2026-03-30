@@ -417,9 +417,6 @@ main {
   main {
     padding-bottom: calc(28px + env(safe-area-inset-bottom)) !important;
   }
-  .mobile-card-container {
-    height: calc(100dvh - var(--nav-h) - var(--search-h) - 8px - 12px - 28px - 4px - env(safe-area-inset-bottom));
-  }
   .council-header {
     padding-top: calc(0.5rem + env(safe-area-inset-top));
   }
@@ -639,7 +636,7 @@ main {
     flex-direction: column;
     /* 100dvh minus: nav, search row, main top padding (8px from py-2),
        search-to-card gap (12px margin-top below), status-footer (28px), buffer (4px) */
-    height: calc(100dvh - var(--nav-h) - var(--search-h) - 8px - 12px - 28px - 4px);
+    height: calc(100dvh - var(--nav-h) - var(--search-h) - 8px - 12px - 28px - 4px - env(safe-area-inset-bottom, 0px));
     margin-top: 12px;
   }
 

@@ -35,6 +35,10 @@
       "score": 50,
       "tier": "Neutral"
     },
+    "paul-graham": {
+      "score": 67,
+      "tier": "Invest"
+    },
     "peter-thiel": {
       "score": 44,
       "tier": "Pass"
@@ -52,19 +56,20 @@
     "CB": 53,
     "EG": 62,
     "NR": 50,
-    "PG": null,
+    "PG": 67,
     "PT": 44,
     "SL": 38,
     "VK": 47
   },
-  "consolidatedAvg": 49,
-  "consolidatedRank": 10,
+  "consolidatedAvg": 51.57,
+  "consolidatedRank": 8,
   "paths": {
     "memo": "spring2026/memos/arzana.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/arzana.md",
       "elad-gil": "spring2026/evals/elad-gil/arzana.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/arzana.md",
+      "paul-graham": "spring2026/evals/paul-graham/arzana.md",
       "peter-thiel": "spring2026/evals/peter-thiel/arzana.md",
       "sam-lessin": "spring2026/evals/sam-lessin/arzana.md",
       "vinod-khosla": "spring2026/evals/vinod-khosla/arzana.md"

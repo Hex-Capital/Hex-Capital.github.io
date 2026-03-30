@@ -34,6 +34,10 @@
       "score": 41,
       "tier": "Pass"
     },
+    "paul-graham": {
+      "score": 33,
+      "tier": "Pass"
+    },
     "peter-thiel": {
       "score": 29,
       "tier": "Pass"
@@ -51,19 +55,20 @@
     "CB": 30,
     "EG": 34,
     "NR": 41,
-    "PG": null,
+    "PG": 33,
     "PT": 29,
     "SL": 35,
     "VK": 36
   },
-  "consolidatedAvg": 34.17,
-  "consolidatedRank": 50,
+  "consolidatedAvg": 34,
+  "consolidatedRank": 51,
   "paths": {
     "memo": "spring2026/memos/hubxyz.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/hubxyz.md",
       "elad-gil": "spring2026/evals/elad-gil/hubxyz.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/hubxyz.md",
+      "paul-graham": "spring2026/evals/paul-graham/hubxyz.md",
       "peter-thiel": "spring2026/evals/peter-thiel/hubxyz.md",
       "sam-lessin": "spring2026/evals/sam-lessin/hubxyz.md",
       "vinod-khosla": "spring2026/evals/vinod-khosla/hubxyz.md"

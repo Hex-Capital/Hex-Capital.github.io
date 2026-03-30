@@ -33,6 +33,10 @@
       "score": 47,
       "tier": "Neutral"
     },
+    "paul-graham": {
+      "score": 44,
+      "tier": "Pass"
+    },
     "peter-thiel": {
       "score": 30,
       "tier": "Pass"
@@ -50,19 +54,20 @@
     "CB": 45,
     "EG": 42,
     "NR": 47,
-    "PG": null,
+    "PG": 44,
     "PT": 30,
     "SL": 36,
     "VK": 44
   },
-  "consolidatedAvg": 40.67,
-  "consolidatedRank": 33,
+  "consolidatedAvg": 41.14,
+  "consolidatedRank": 31,
   "paths": {
     "memo": "spring2026/memos/foaster.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/foaster.md",
       "elad-gil": "spring2026/evals/elad-gil/foaster.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/foaster.md",
+      "paul-graham": "spring2026/evals/paul-graham/foaster.md",
       "peter-thiel": "spring2026/evals/peter-thiel/foaster.md",
       "sam-lessin": "spring2026/evals/sam-lessin/foaster.md",
       "vinod-khosla": "spring2026/evals/vinod-khosla/foaster.md"

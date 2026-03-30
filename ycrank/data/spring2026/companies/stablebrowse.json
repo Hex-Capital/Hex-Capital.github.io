@@ -1,0 +1,76 @@
+{
+  "slug": "stablebrowse",
+  "name": "StableBrowse",
+  "oneLiner": "Browser for AI agents",
+  "metadata": {
+    "website": "https://stablebrowse.com/",
+    "yc_page": "https://www.ycombinator.com/companies/stablebrowse",
+    "batch": "Spring 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "API, Automation, AI",
+    "yc_partner": "Tom Blomfield",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "API",
+    "Automation",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-03-30T16:09:46.192Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 52,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 37,
+    "EG": 54,
+    "NR": 46,
+    "PG": 48,
+    "PT": 34,
+    "SL": 37,
+    "VK": 52
+  },
+  "consolidatedAvg": 44,
+  "consolidatedRank": 19,
+  "paths": {
+    "memo": "spring2026/memos/stablebrowse.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/stablebrowse.md",
+      "elad-gil": "spring2026/evals/elad-gil/stablebrowse.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/stablebrowse.md",
+      "paul-graham": "spring2026/evals/paul-graham/stablebrowse.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/stablebrowse.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/stablebrowse.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/stablebrowse.md"
+    }
+  }
+}

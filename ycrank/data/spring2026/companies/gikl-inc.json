@@ -33,6 +33,10 @@
       "score": 51,
       "tier": "Neutral"
     },
+    "paul-graham": {
+      "score": 46,
+      "tier": "Neutral"
+    },
     "peter-thiel": {
       "score": 32,
       "tier": "Pass"
@@ -50,12 +54,12 @@
     "CB": 47,
     "EG": 39,
     "NR": 51,
-    "PG": null,
+    "PG": 46,
     "PT": 32,
     "SL": 47,
     "VK": 54
   },
-  "consolidatedAvg": 45,
+  "consolidatedAvg": 45.14,
   "consolidatedRank": 16,
   "paths": {
     "memo": "spring2026/memos/gikl-inc.md",
@@ -63,6 +67,7 @@
       "cyan-banister": "spring2026/evals/cyan-banister/gikl-inc.md",
       "elad-gil": "spring2026/evals/elad-gil/gikl-inc.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/gikl-inc.md",
+      "paul-graham": "spring2026/evals/paul-graham/gikl-inc.md",
       "peter-thiel": "spring2026/evals/peter-thiel/gikl-inc.md",
       "sam-lessin": "spring2026/evals/sam-lessin/gikl-inc.md",
       "vinod-khosla": "spring2026/evals/vinod-khosla/gikl-inc.md"

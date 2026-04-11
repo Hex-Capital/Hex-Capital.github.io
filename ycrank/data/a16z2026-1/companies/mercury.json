@@ -1,0 +1,76 @@
+{
+  "slug": "mercury",
+  "name": "Mercury",
+  "oneLiner": "Ex. Palantir FDEs building no-code multi agent orchestration.",
+  "metadata": {
+    "website": "https://www.mercury.build/",
+    "yc_page": "https://speedrun.a16z.com/companies/mercury",
+    "batch": "a16z Speedrun SR006 (Jan–Apr 2026)",
+    "industry": "Creative Tools, AI Models/Infrastructure, B2B",
+    "team_size": "5",
+    "location": "New York, New York, United States of America",
+    "tags": "Creative Tools, AI Models/Infrastructure, B2B",
+    "yc_partner": "Not listed (a16z Speedrun page returned 404 at time of research)",
+    "emails": "stefano@mercury.build, naveen@mercury.build"
+  },
+  "tags": [
+    "Creative Tools",
+    "AI Models/Infrastructure",
+    "B2B"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-10T22:57:43.383Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 42,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 35,
+    "EG": 43,
+    "NR": 51,
+    "PG": 44,
+    "PT": 37,
+    "SL": 31,
+    "VK": 42
+  },
+  "consolidatedAvg": 40.43,
+  "consolidatedRank": 50,
+  "paths": {
+    "memo": "a16z2026-1/memos/mercury.md",
+    "evals": {
+      "cyan-banister": "a16z2026-1/evals/cyan-banister/mercury.md",
+      "elad-gil": "a16z2026-1/evals/elad-gil/mercury.md",
+      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/mercury.md",
+      "paul-graham": "a16z2026-1/evals/paul-graham/mercury.md",
+      "peter-thiel": "a16z2026-1/evals/peter-thiel/mercury.md",
+      "sam-lessin": "a16z2026-1/evals/sam-lessin/mercury.md",
+      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/mercury.md"
+    }
+  }
+}

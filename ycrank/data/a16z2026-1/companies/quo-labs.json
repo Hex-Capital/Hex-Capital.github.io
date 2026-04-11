@@ -1,0 +1,76 @@
+{
+  "slug": "quo-labs",
+  "name": "Quo Labs",
+  "oneLiner": "AI caretaker for seniors",
+  "metadata": {
+    "website": "https://withsam.com",
+    "yc_page": "https://speedrun.a16z.com/companies/quo-labs",
+    "batch": "a16z Speedrun (page returned 404; no YC batch identified)",
+    "industry": "Robotics, AI, Healthcare /",
+    "team_size": "3",
+    "location": "San Francisco, California, United States of America",
+    "tags": "Robotics, AI, Healthcare",
+    "yc_partner": "Not listed (a16z Speedrun page returned 404 at time of research)",
+    "emails": "kai@quolabs.ai, audrey@quolabs.ai, jenny@quolabs.ai"
+  },
+  "tags": [
+    "Robotics",
+    "AI",
+    "Healthcare"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-10T23:06:16.979Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 63,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 53,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 47,
+    "EG": 31,
+    "NR": 45,
+    "PG": 63,
+    "PT": 38,
+    "SL": 36,
+    "VK": 53
+  },
+  "consolidatedAvg": 44.71,
+  "consolidatedRank": 33,
+  "paths": {
+    "memo": "a16z2026-1/memos/quo-labs.md",
+    "evals": {
+      "cyan-banister": "a16z2026-1/evals/cyan-banister/quo-labs.md",
+      "elad-gil": "a16z2026-1/evals/elad-gil/quo-labs.md",
+      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/quo-labs.md",
+      "paul-graham": "a16z2026-1/evals/paul-graham/quo-labs.md",
+      "peter-thiel": "a16z2026-1/evals/peter-thiel/quo-labs.md",
+      "sam-lessin": "a16z2026-1/evals/sam-lessin/quo-labs.md",
+      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/quo-labs.md"
+    }
+  }
+}

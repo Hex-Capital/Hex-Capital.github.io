@@ -1,0 +1,75 @@
+{
+  "slug": "cascade",
+  "name": "Cascade",
+  "oneLiner": "AI Platform that finds & wins more projects for architecture & construction firms.",
+  "metadata": {
+    "website": "https://usecascade.ai/",
+    "yc_page": "https://speedrun.a16z.com/companies/cascade",
+    "batch": "a16z Speedrun (specific cohort not confirmed; not a Y Combinator company — see note below)",
+    "industry": "AI, B2B",
+    "team_size": "2 (founders) + at least 1 additional hire (Head of Growth)",
+    "location": "San Francisco, California, United States of America",
+    "tags": "AI, B2B",
+    "yc_partner": "Not listed (a16z Speedrun portal page returned 404 at time of research)",
+    "emails": "hannia@usecascade.ai, joana@usecascade.ai (a16z Speedrun portal)"
+  },
+  "tags": [
+    "AI",
+    "B2B"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-10T22:49:17.600Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 67,
+      "tier": "Invest"
+    },
+    "naval-ravikant": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 40,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 48,
+    "EG": 67,
+    "NR": 52,
+    "PG": 59,
+    "PT": 44,
+    "SL": 44,
+    "VK": 40
+  },
+  "consolidatedAvg": 50.57,
+  "consolidatedRank": 16,
+  "paths": {
+    "memo": "a16z2026-1/memos/cascade.md",
+    "evals": {
+      "cyan-banister": "a16z2026-1/evals/cyan-banister/cascade.md",
+      "elad-gil": "a16z2026-1/evals/elad-gil/cascade.md",
+      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/cascade.md",
+      "paul-graham": "a16z2026-1/evals/paul-graham/cascade.md",
+      "peter-thiel": "a16z2026-1/evals/peter-thiel/cascade.md",
+      "sam-lessin": "a16z2026-1/evals/sam-lessin/cascade.md",
+      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/cascade.md"
+    }
+  }
+}

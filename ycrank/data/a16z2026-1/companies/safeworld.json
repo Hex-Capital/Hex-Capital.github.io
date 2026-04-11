@@ -1,0 +1,76 @@
+{
+  "slug": "safeworld",
+  "name": "SafeWorld",
+  "oneLiner": "Making robots safe",
+  "metadata": {
+    "website": "https://www.safeworld.ai",
+    "yc_page": "https://speedrun.a16z.com/companies/safeworld",
+    "batch": "No public data found",
+    "industry": "AI, AI Models/Infrastructure, Robotics /",
+    "team_size": "6",
+    "location": "Palo Alto, California, United States of America",
+    "tags": "AI, AI Models/Infrastructure, Robotics",
+    "yc_partner": "Not listed",
+    "emails": "kyle@safeworld.ai, simo@safeworld.ai, hello@safeworld.com"
+  },
+  "tags": [
+    "AI",
+    "AI Models/Infrastructure",
+    "Robotics"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-10T23:07:22.064Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 70,
+      "tier": "Invest"
+    },
+    "naval-ravikant": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 54,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 45,
+    "EG": 70,
+    "NR": 57,
+    "PG": 46,
+    "PT": 39,
+    "SL": 42,
+    "VK": 54
+  },
+  "consolidatedAvg": 50.43,
+  "consolidatedRank": 17,
+  "paths": {
+    "memo": "a16z2026-1/memos/safeworld.md",
+    "evals": {
+      "cyan-banister": "a16z2026-1/evals/cyan-banister/safeworld.md",
+      "elad-gil": "a16z2026-1/evals/elad-gil/safeworld.md",
+      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/safeworld.md",
+      "paul-graham": "a16z2026-1/evals/paul-graham/safeworld.md",
+      "peter-thiel": "a16z2026-1/evals/peter-thiel/safeworld.md",
+      "sam-lessin": "a16z2026-1/evals/sam-lessin/safeworld.md",
+      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/safeworld.md"
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "slug": "cedar",
+  "name": "Cedar",
+  "oneLiner": "Killing LinkedIn with Agents, from the founding team of HootSuite. $2.5M contracted rev",
+  "metadata": {
+    "website": "https://www.getcedar.ai",
+    "yc_page": "https://speedrun.a16z.com/companies/cedar",
+    "batch": "Not confirmed (listed URL is a16z Speedrun; page returned 404 at time of research)",
+    "industry": "AI, Social Networking, B2B /",
+    "team_size": "4",
+    "location": "San Francisco, California, United States of America",
+    "tags": "AI, Social Networking, B2B",
+    "yc_partner": "Not listed",
+    "emails": "support@getcedar.ai, greg.gunn@getcedar.ai, beier.cai@getcedar.ai"
+  },
+  "tags": [
+    "AI",
+    "Social Networking",
+    "B2B"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-10T22:49:27.795Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 61,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 67,
+      "tier": "Invest"
+    },
+    "naval-ravikant": {
+      "score": 77,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 66,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 46,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 61,
+    "EG": 67,
+    "NR": 77,
+    "PG": 66,
+    "PT": 49,
+    "SL": 52,
+    "VK": 46
+  },
+  "consolidatedAvg": 59.71,
+  "consolidatedRank": 2,
+  "paths": {
+    "memo": "a16z2026-1/memos/cedar.md",
+    "evals": {
+      "cyan-banister": "a16z2026-1/evals/cyan-banister/cedar.md",
+      "elad-gil": "a16z2026-1/evals/elad-gil/cedar.md",
+      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/cedar.md",
+      "paul-graham": "a16z2026-1/evals/paul-graham/cedar.md",
+      "peter-thiel": "a16z2026-1/evals/peter-thiel/cedar.md",
+      "sam-lessin": "a16z2026-1/evals/sam-lessin/cedar.md",
+      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/cedar.md"
+    }
+  }
+}

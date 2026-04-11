@@ -1,0 +1,24 @@
+﻿# Quanto -- Vinod Khosla Evaluation
+
+I regularly see YC companies building AI copilots for specific enterprise verticals. "AI Workforce for Accounting Firms to Grow Revenue and Margins" is, almost word for word, the pitch archetype I pass on reflexively. Quanto's tagline tells me everything about the consequence ceiling before I read a single page of the dossier. If Quanto fully succeeds -- captures every mid-market accounting firm in America, automates every onboarding workflow, books every prospect call -- the world gets slightly more efficient accounting firms. Nobody's life fundamentally changes. The 75% CPA retirement statistic is real, and Anderson Petergeorge clearly felt that pain firsthand when he scaled his own bookkeeping practice to 40 clients in six months. But solving a staffing bottleneck in a professional services vertical is a $1-5B SaaS outcome at best. I don't invest to make 3-5x. I invest to either lose everything or make 50x. Quanto is designed to generate the moderate return that wastes my attention.
+
+The technical approach confirms the incrementalism. Quanto layers AI agents onto existing QuickBooks workflows -- automated outreach, book health scoring on a 0-100 scale, reconciliation, bank rule configuration. Every one of these components is, as the dossier itself acknowledges, "technically reproducible." There is no novel architecture here, no proprietary model, no science breakthrough creating a step-function change. This is an integration and workflow play built on commodity LLM capabilities with QuickBooks API access as the connective tissue. When Intuit decides to ship its own AI onboarding features -- and Intuit has its own AI investments already -- Quanto's entire product surface is at risk. Platform dependency on a single vendor who has every incentive to vertically integrate is a structural vulnerability, not a strategy.
+
+Anderson's biography pulls at something I pay attention to -- first in his family to attend college, parents who came to Canada as Sri Lankan refugees. That immigrant resilience pattern produces founders I back disproportionately. Tony Xu at DoorDash, Apoorva Mehta at Instacart -- I recognize the biographical archetype. But here's where the DoorDash exception breaks down: I backed DoorDash despite its lack of technical novelty because the consequence magnitude of transforming food access for hundreds of millions of people was enormous. Quanto's consequence magnitude is "accounting firms grow margins." The biographical signal that would tilt me toward an exception needs a consequence explosion to activate, and Quanto doesn't provide one. Anderson is a credentialed CPA with a decade at KPMG, CPP Investments, and Scotiabank -- the domain expert profile, not the outsider who doesn't understand what can't be done. Kajanth Nithiyananthan brings real scale experience from SkipTheDishes and Shopify, but his Atomic Build studio "specializing in AI tech for accounting startups" reinforces domain expertise, not the naïve disruption I look for.
+
+The strongest bull case: $800K contracted ARR at pre-seed is genuinely impressive execution velocity, and the competitive gap left by Botkeeper's 2026 shutdown creates a real customer acquisition window. If Anderson's CPA network and the a16z Speedrun plus Google for Startups platforms generate enough distribution to lock in mid-market firms before Basis ($138M raised, $1.15B valuation) moves downmarket, Quanto could build meaningful switching costs through CRM integrations and bank rule configurations. That's a viable path to a solid vertical SaaS business. For an investor optimizing for risk-adjusted returns on a diversified portfolio, this is a reasonable bet. I don't optimize for risk-adjusted returns. I optimize for consequence magnitude, and Quanto's ceiling is a profitable mid-market SaaS company in a space where Digits already has $29.9M in revenue and Basis already serves 30% of the top 25 U.S. firms. Quanto is competing for share of existing accounting spend, not creating new demand. That's redistribution, not transformation.
+
+My verdict comes down to two dimensions. Consequence magnitude: if Quanto succeeds spectacularly, accounting firms are more profitable. That is not worth my attention. Non-linear technical approach: LLM-powered workflow automation on top of QuickBooks is a wrapper, not a wedge. No discontinuity, no 10x improvement, no technology risk I can underwrite. Some problems are too important not to work on. Making accounting firms more efficient is not one of them.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Consequence Magnitude if Successful | 10/30 |
+| Non-Linear Technical Approach | 8/25 |
+| Founder as Learning Machine | 11/20 |
+| Improbable Ambition Level | 5/15 |
+| Path to Radical Affordability | 5/10 |
+| **Total** | **39/100** |
+
+**Total Score: 39/100** (Pass)

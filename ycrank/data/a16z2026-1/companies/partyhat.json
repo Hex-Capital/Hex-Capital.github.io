@@ -1,0 +1,75 @@
+{
+  "slug": "partyhat",
+  "name": "PartyHat",
+  "oneLiner": "Disrupting consumer cybersecurity -- founded by prev cyber and gaming co execs",
+  "metadata": {
+    "website": "https://getpartyhat.com",
+    "yc_page": "https://speedrun.a16z.com/companies/partyhat",
+    "batch": "Not confirmed (a16z Speedrun page returned 404 at time of research)",
+    "industry": "AI, B2C /",
+    "team_size": "2",
+    "location": "San Francisco, California, United States of America",
+    "tags": "AI, B2C",
+    "yc_partner": "Not listed (a16z Speedrun page returned 404)",
+    "emails": "vijay@getpartyhat.com, jarret@getpartyhat.com (a16z Speedrun portal)"
+  },
+  "tags": [
+    "AI",
+    "B2C"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-10T23:02:43.040Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 34,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 36,
+    "EG": 35,
+    "NR": 49,
+    "PG": 39,
+    "PT": 27,
+    "SL": 34,
+    "VK": 34
+  },
+  "consolidatedAvg": 36.29,
+  "consolidatedRank": 58,
+  "paths": {
+    "memo": "a16z2026-1/memos/partyhat.md",
+    "evals": {
+      "cyan-banister": "a16z2026-1/evals/cyan-banister/partyhat.md",
+      "elad-gil": "a16z2026-1/evals/elad-gil/partyhat.md",
+      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/partyhat.md",
+      "paul-graham": "a16z2026-1/evals/paul-graham/partyhat.md",
+      "peter-thiel": "a16z2026-1/evals/peter-thiel/partyhat.md",
+      "sam-lessin": "a16z2026-1/evals/sam-lessin/partyhat.md",
+      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/partyhat.md"
+    }
+  }
+}

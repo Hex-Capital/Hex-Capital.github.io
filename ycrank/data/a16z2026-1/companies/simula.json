@@ -1,0 +1,76 @@
+{
+  "slug": "simula",
+  "name": "Simula",
+  "oneLiner": "Living AI native ad infrastructure, integrating into AI platforms with 6M+ DAUs",
+  "metadata": {
+    "website": "https://simula.ad",
+    "yc_page": "https://speedrun.a16z.com/companies/simula",
+    "batch": "Not confirmed — listed on a16z Speedrun portal (page returned 404 at time of research); no YC listing found on ycombinator.com. a16z Speedrun SR006 cohort ran Jan 26 – Apr 12, 2026 in San Francisco (a16z blog).",
+    "industry": "AI, Advertising/Marketing, B2B /",
+    "team_size": "5",
+    "location": "San Francisco, California, United States of America",
+    "tags": "AI, Advertising/Marketing, B2B",
+    "yc_partner": "Not listed (Speedrun page returned 404)",
+    "emails": "admin@simula.ad (simula.ad website), yizhen@simula.ad (company data)"
+  },
+  "tags": [
+    "AI",
+    "Advertising/Marketing",
+    "B2B"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-10T23:08:43.802Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 40,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 33,
+    "EG": 37,
+    "NR": 46,
+    "PG": 39,
+    "PT": 29,
+    "SL": 30,
+    "VK": 40
+  },
+  "consolidatedAvg": 36.29,
+  "consolidatedRank": 59,
+  "paths": {
+    "memo": "a16z2026-1/memos/simula.md",
+    "evals": {
+      "cyan-banister": "a16z2026-1/evals/cyan-banister/simula.md",
+      "elad-gil": "a16z2026-1/evals/elad-gil/simula.md",
+      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/simula.md",
+      "paul-graham": "a16z2026-1/evals/paul-graham/simula.md",
+      "peter-thiel": "a16z2026-1/evals/peter-thiel/simula.md",
+      "sam-lessin": "a16z2026-1/evals/sam-lessin/simula.md",
+      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/simula.md"
+    }
+  }
+}

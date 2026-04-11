@@ -1,0 +1,75 @@
+{
+  "slug": "emanate",
+  "name": "Emanate",
+  "oneLiner": "The First AI Revenue Engine Built for the Physical Economy.",
+  "metadata": {
+    "website": "https://emanate.ai/",
+    "yc_page": "https://speedrun.a16z.com/companies/emanate",
+    "batch": "Not confirmed as YC company; listed page is a16z Speedrun (returned 404 at time of research). Founder's prior company Chima was YC Winter 2023 (ycombinator.com/companies/chima).",
+    "industry": "AI, B2B",
+    "team_size": "7",
+    "location": "San Francisco, California, United States of America",
+    "tags": "AI, B2B",
+    "yc_partner": "Not listed (a16z Speedrun page returned 404)",
+    "emails": "kiara@emanate.ai (a16z Speedrun listing)"
+  },
+  "tags": [
+    "AI",
+    "B2B"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-10T22:53:07.853Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 42,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 46,
+    "EG": 46,
+    "NR": 47,
+    "PG": 42,
+    "PT": 39,
+    "SL": 36,
+    "VK": 42
+  },
+  "consolidatedAvg": 42.57,
+  "consolidatedRank": 40,
+  "paths": {
+    "memo": "a16z2026-1/memos/emanate.md",
+    "evals": {
+      "cyan-banister": "a16z2026-1/evals/cyan-banister/emanate.md",
+      "elad-gil": "a16z2026-1/evals/elad-gil/emanate.md",
+      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/emanate.md",
+      "paul-graham": "a16z2026-1/evals/paul-graham/emanate.md",
+      "peter-thiel": "a16z2026-1/evals/peter-thiel/emanate.md",
+      "sam-lessin": "a16z2026-1/evals/sam-lessin/emanate.md",
+      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/emanate.md"
+    }
+  }
+}

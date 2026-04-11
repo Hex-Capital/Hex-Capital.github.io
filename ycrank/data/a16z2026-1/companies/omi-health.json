@@ -1,0 +1,76 @@
+{
+  "slug": "omi-health",
+  "name": "Omi Health",
+  "oneLiner": "Function Health for Pets.",
+  "metadata": {
+    "website": "https://www.joinomi.com",
+    "yc_page": "https://speedrun.a16z.com/companies/omi-health",
+    "batch": "No public data found (listed on a16z Speedrun portal, not confirmed as YC-backed)",
+    "industry": "Healthcare, AI, B2C",
+    "team_size": "2",
+    "location": "New York, New York, United States of America",
+    "tags": "Healthcare, AI, B2C",
+    "yc_partner": "Not listed (a16z Speedrun portal returned 404 at time of research)",
+    "emails": "sindu@joinomi.com, jakob@joinomi.com"
+  },
+  "tags": [
+    "Healthcare",
+    "AI",
+    "B2C"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-10T23:01:46.099Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 40,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 39,
+    "EG": 44,
+    "NR": 43,
+    "PG": 45,
+    "PT": 36,
+    "SL": 38,
+    "VK": 40
+  },
+  "consolidatedAvg": 40.71,
+  "consolidatedRank": 47,
+  "paths": {
+    "memo": "a16z2026-1/memos/omi-health.md",
+    "evals": {
+      "cyan-banister": "a16z2026-1/evals/cyan-banister/omi-health.md",
+      "elad-gil": "a16z2026-1/evals/elad-gil/omi-health.md",
+      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/omi-health.md",
+      "paul-graham": "a16z2026-1/evals/paul-graham/omi-health.md",
+      "peter-thiel": "a16z2026-1/evals/peter-thiel/omi-health.md",
+      "sam-lessin": "a16z2026-1/evals/sam-lessin/omi-health.md",
+      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/omi-health.md"
+    }
+  }
+}

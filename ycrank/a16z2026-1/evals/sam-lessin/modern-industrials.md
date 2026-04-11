@@ -1,0 +1,26 @@
+﻿# Modern Industrials -- Sam Lessin Evaluation
+
+Modern Industrials is an AI quoting engine for lumber distributors built by three technically elite founders -- Ankit Bhargava from xAI, Vatsal Bhargava from Google Ads ML, and their childhood best friend Austin Mao from McKinsey and Roon. And I want to be clear: that co-founder relationship is the single strongest signal in this entire dossier. Brothers plus a twenty-year friendship. I backed Andrew Kortina from Venmo through Fin because I'd watched him across cycles, and the reason that works is because deep pre-existing relationships reveal how people behave under real pressure. Modern Industrials has that. But a great co-founder dynamic doesn't override a structural problem with what they're building.
+
+Here's my issue: when I run the mispricing test, I come up empty. "AI agent automating workflows for [vertical industry]" is the single most consensus category in every accelerator batch right now. Ventura is in YC W26 building the identical product for the identical customer -- AI quoting for building materials distributors -- and Ventura's CEO has a prior exit in wholesale distribution SaaS. Flitch raised $3.16M for the broader lumbyard OS. This is not a category where the market is wrong. This is a category where every smart investor I know is already excited, which means the upside is already priced in. The building materials vertical itself is slightly unsexy, sure, but the AI-for-vertical-SaaS framing is peak consensus. When I see ten companies doing variations of the same thing, I know the asymmetry is gone.
+
+The primitive test is where Modern Industrials falls hardest. Automating quoting and order entry for lumber distributors is a better, faster version of something humans already do manually. Nobody is going to describe a new category of behavior by saying "they Modern Industrials'd it." Venmo created peer-to-peer mobile payments as a behavioral primitive -- the verb didn't exist before the product. Modern Industrials is making existing salespeople process quotes faster. That's valuable! It's a real business! But it's execution in an existing market, not category creation. The $450B+ TAM they cite is impressive as a number, but TAM size doesn't create primitives -- new behaviors do.
+
+The AI kill test is brutal here, and I apply it without sentimentality. Epicor BisTrack, DMSi Agility, ECI Spruce -- these legacy ERP vendors own the installed base. The dossier notes a business model conflict where ERP vendors' professional services revenue gets cannibalized by AI automation, and that's a real observation -- it creates a window. But windows close. Every time I see "AI execution layer that sits on top of existing ERP systems," I think: this is perfect for the ERP vendor to just build. DMSi has been purpose-built for lumber distribution since 1976. They have the customer relationships, the integrations, the domain knowledge that none of these three founders have. Ankit's xAI experience and Vatsal's Google Ads ML chops are genuinely impressive technical credentials, but the core challenge -- parsing unstructured quote requests and matching to product catalogs -- is a document processing problem that multiple well-funded teams and cloud providers can solve. There's no protocol-level lock-in here. Compare this to Metropolis, where AI amplifies physical parking infrastructure that no software company can replicate. Modern Industrials has no physical moat. The distributor owns the relationships, the trucks, the inventory. Modern Industrials is a feature.
+
+The strongest bull case requires believing three things simultaneously: that ERP vendors will be structurally slow to add AI quoting (plausible for 2-3 years), that Modern Industrials will win the race against Ventura despite Ventura's domain advantage, and that cross-customer data accumulation creates a compounding moat before commoditization hits. If all three are true, this could be a solid $500M+ outcome in a massive, fragmented market. The "gone live with national players" claim from Vatsal Bhargava's LinkedIn post suggests real momentum. But "what if they're right" has to compete with "what if Ventura is right and has the domain edge," and in a head-to-head race in a consensus category, I don't see the asymmetric risk-reward that makes me want to concentrate capital.
+
+Modern Industrials has a legitimately strong team with an exceptional co-founder bond, attacking a real pain point in a massive market. But by my framework, this is a sane team building a sane product in a hot category -- and that combination doesn't get me out of bed. The decisive dimensions are Consensus Mispricing (this is consensus-exciting, not consensus-defying) and Primitive Creation (workflow automation, not category birth). Pass.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Consensus Mispricing -- Is the Market Wrong? | 10/30 |
+| Primitive Creation -- Does This Birth a New Category? | 6/25 |
+| Sanity-Insanity Calibration -- Sane Founder, Insane Idea | 9/20 |
+| Structural Durability -- Does It Survive the AI Kill Test? | 5/15 |
+| Capital Discipline -- Built to Survive, Not to Raise | 6/10 |
+| **Total** | **36/100** |
+
+**Total Score: 36/100** (Pass)

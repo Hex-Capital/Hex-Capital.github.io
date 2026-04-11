@@ -1,0 +1,76 @@
+{
+  "slug": "bilrost",
+  "name": "Bilrost",
+  "oneLiner": "Bilrost automates the most complicated commercial loan processing. $680K ARR in 5 weeks and 7 figure deal closing shortly",
+  "metadata": {
+    "website": "https://bilrost.ai/",
+    "yc_page": "https://speedrun.a16z.com/companies/bilrost",
+    "batch": "a16z Speedrun SR006 (Jan 26 – Apr 12, 2026)",
+    "industry": "AI, Fintech, B2B",
+    "team_size": "5",
+    "location": "Oakland, California, United States of America",
+    "tags": "AI, Fintech, B2B",
+    "yc_partner": "Not listed (company is in a16z Speedrun SR006, not Y Combinator; the Speedrun company page returned 404 at time of research)",
+    "emails": "silvia@bilrost.ai, peter@bilrost.ai, team@bilrost.ai (a16z Speedrun portal; Scotsman Guide, Mar 2026)"
+  },
+  "tags": [
+    "AI",
+    "Fintech",
+    "B2B"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-10T22:48:53.846Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 72,
+      "tier": "Invest"
+    },
+    "naval-ravikant": {
+      "score": 63,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 61,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 43,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 48,
+    "EG": 72,
+    "NR": 63,
+    "PG": 61,
+    "PT": 46,
+    "SL": 39,
+    "VK": 43
+  },
+  "consolidatedAvg": 53.14,
+  "consolidatedRank": 10,
+  "paths": {
+    "memo": "a16z2026-1/memos/bilrost.md",
+    "evals": {
+      "cyan-banister": "a16z2026-1/evals/cyan-banister/bilrost.md",
+      "elad-gil": "a16z2026-1/evals/elad-gil/bilrost.md",
+      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/bilrost.md",
+      "paul-graham": "a16z2026-1/evals/paul-graham/bilrost.md",
+      "peter-thiel": "a16z2026-1/evals/peter-thiel/bilrost.md",
+      "sam-lessin": "a16z2026-1/evals/sam-lessin/bilrost.md",
+      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/bilrost.md"
+    }
+  }
+}

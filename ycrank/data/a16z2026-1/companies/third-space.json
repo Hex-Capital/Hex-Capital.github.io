@@ -1,0 +1,76 @@
+{
+  "slug": "third-space",
+  "name": "Third Space",
+  "oneLiner": "Verticalized AI-native insurance broker for brick-and-mortar, starting with nightlife. Ex Ramp, Yale founders",
+  "metadata": {
+    "website": "thirdspacerisk.framer.website",
+    "yc_page": "https://speedrun.a16z.com/companies/third-space",
+    "batch": "a16z Speedrun (not listed on YC companies directory; listed on a16z Speedrun portal)",
+    "industry": "AI, Fintech, B2B /",
+    "team_size": "2",
+    "location": "Brooklyn, New York, United States of America",
+    "tags": "AI, Fintech, B2B",
+    "yc_partner": "Not listed",
+    "emails": "dhruv@thirdspacerisk.com, vinai@thirdspacerisk.com (a16z Speedrun portal)"
+  },
+  "tags": [
+    "AI",
+    "Fintech",
+    "B2B"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-10T23:13:07.843Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 65,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 65,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 71,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 41,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 65,
+    "EG": 55,
+    "NR": 65,
+    "PG": 71,
+    "PT": 46,
+    "SL": 57,
+    "VK": 41
+  },
+  "consolidatedAvg": 57.14,
+  "consolidatedRank": 6,
+  "paths": {
+    "memo": "a16z2026-1/memos/third-space.md",
+    "evals": {
+      "cyan-banister": "a16z2026-1/evals/cyan-banister/third-space.md",
+      "elad-gil": "a16z2026-1/evals/elad-gil/third-space.md",
+      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/third-space.md",
+      "paul-graham": "a16z2026-1/evals/paul-graham/third-space.md",
+      "peter-thiel": "a16z2026-1/evals/peter-thiel/third-space.md",
+      "sam-lessin": "a16z2026-1/evals/sam-lessin/third-space.md",
+      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/third-space.md"
+    }
+  }
+}

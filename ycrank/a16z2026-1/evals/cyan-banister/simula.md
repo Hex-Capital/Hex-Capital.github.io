@@ -1,0 +1,26 @@
+﻿# Simula -- Cyan Banister Evaluation
+
+Simula is building ad infrastructure for AI apps in a space where ZeroClick has raised $55M behind Ryan Hudson — the founder who sold Honey to PayPal for $4B — and Koah Labs has raised $26M+ with 2M MAUs and 35M+ ad impressions already logged. OpenAI launched its own ad pilot and hit $100M+ ARR in under two months. This is not a frontier where Simula is the lonely first believer getting told no by 300 investors. This is a gold rush with well-capitalized prospectors already staking claims. When I look for "magically weird," I'm looking for the idea that makes a room of sophisticated VCs shift uncomfortably in their seats. "Ads in AI apps" makes VCs reach for their checkbooks — that's the opposite signal.
+
+When I ask about Yizhen Zhen's story, I see a first-generation college student who "built dozens of games and apps since I was 10," went to Dartmouth, did PE at Bain Capital, interned at Blackstone, worked as a SWE at Google, and is now at HBS. The first-generation detail is real — I recognize the resourcefulness that takes, and I don't dismiss it. But the path from Dartmouth to Google to Bain Capital to HBS to "I'll build an ad SDK for AI apps" reads like someone who identified a market gap, not someone whose life made them incapable of ignoring this problem. I don't hear the biographical inevitability. Logan Nicholson, the CRO, founded Talsey AI in hospitality — a different domain entirely — and is now working gaming conference circuits. These two founders share no evident history before Simula, no common crucible. That assembled-for-the-venture dynamic isn't automatically fatal, but it means the biographical forge is thin on both sides.
+
+The pattern I find most concerning is what Simula is structurally building. My strongest investments — Affirm, Carta, Ownwell, Uber — all exposed hidden, extractive systems and shifted power from gatekeepers to users. Simula does the reverse: it embeds commercial messaging more deeply into AI experiences through "brand ambassadors" and "sponsored games" placed after AI responses. The company is making advertising more native, more invisible, more seamlessly woven into the experience — which may be commercially smart, but it's the structural opposite of making an opaque system transparent. Simula adds a new extraction layer to AI interactions rather than revealing one. This isn't a moral judgment about advertising; it's a thesis mismatch. The dossier shows no information asymmetry being attacked, no hidden tax being eliminated, no power being shifted from institutions to individuals.
+
+Simula's ad format differentiation — brand ambassadors, mini-games, rewarded video — reminds me of attention-dependent products I've been burned by. HQ Trivia, GameCrush, IRL: all relied on consumer engagement with entertaining content that had no structural moat beneath it. Simula's interactive formats could be replicated by Koah or ZeroClick in a product cycle. The 30-minute SDK integration they advertise is a low switching-cost surface. No patents exist, no proprietary models, no data flywheel is active today by the dossier's own account. The self-reported "5M+ DAUs and ~$10M+ in net revenue at full rollout" carries the qualifier "at full rollout" — a projection, not a demonstrated reality — and no independent verification exists for any traction metric.
+
+The strongest bull case: someone will build the AdSense for AI, and it will be enormous. AI-driven ad spending is projected to grow from $1.1B to $26B by 2029. If Simula's interactive formats genuinely deliver 3X payouts and 10X engagement over banners, publishers would choose them over Koah's contextual display. The gaming-first vertical strategy could build density before expanding. And first-gen resourcefulness sometimes produces founders who outrun their credentials. For this to work, Simula would need to lock in publisher integrations faster than competitors with 20-100X more capital, avoid platform disintermediation as OpenAI and Google build their own ad programs, and prove that interactive ad formats win over simpler units in AI contexts — a bet against the historical pattern in mobile where publishers overwhelmingly chose low-friction ad units. Each of these is possible; all three simultaneously, against this funding disparity, requires conviction I can't locate in the founder story or the structural position.
+
+The two dimensions that most decisively place Simula outside my framework: the absence of biographical forge connecting either founder to this specific problem, and the active inversion of my invisible-system pattern. Yizhen Zhen's credentials are strong but tell the story of career optimization, not mission inevitability. And Simula is building deeper commercial embedding into AI experiences rather than exposing a hidden structure. I wish them speed — the market window is real — but this isn't a Long Journey bet.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder's Biographical Forge | 11/30 |
+| Contrarian Conviction in Hard Spaces | 7/25 |
+| Invisible System Made Visible | 5/20 |
+| Infrastructure-Grade Defensibility at Inflection | 6/15 |
+| Cascading Real-World Impact | 4/10 |
+| **Total** | **33/100** |
+
+**Total Score: 33/100** (Pass)

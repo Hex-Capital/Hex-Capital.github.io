@@ -1,0 +1,75 @@
+{
+  "slug": "quinn",
+  "name": "Quinn",
+  "oneLiner": "Quinn is the workforce training and intelligence platform for the 2.7B blue-collar and deskless workers.",
+  "metadata": {
+    "website": "https://meetquinn.ai",
+    "yc_page": "https://speedrun.a16z.com/companies/quinn",
+    "batch": "Not confirmed (page returned 404; not found on ycombinator.com/companies)",
+    "industry": "B2B, AI /",
+    "team_size": "10",
+    "location": "New York, New York, United States of America",
+    "tags": "B2B, AI",
+    "yc_partner": "Not listed (a16z Speedrun page returned 404 at time of research)",
+    "emails": "arlen@meetquinn.ai, ben@meetquinn.ai (a16z Speedrun portal)"
+  },
+  "tags": [
+    "B2B",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-10T23:04:15.689Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 50,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 45,
+    "EG": 54,
+    "NR": 52,
+    "PG": 53,
+    "PT": 40,
+    "SL": 36,
+    "VK": 50
+  },
+  "consolidatedAvg": 47.14,
+  "consolidatedRank": 26,
+  "paths": {
+    "memo": "a16z2026-1/memos/quinn.md",
+    "evals": {
+      "cyan-banister": "a16z2026-1/evals/cyan-banister/quinn.md",
+      "elad-gil": "a16z2026-1/evals/elad-gil/quinn.md",
+      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/quinn.md",
+      "paul-graham": "a16z2026-1/evals/paul-graham/quinn.md",
+      "peter-thiel": "a16z2026-1/evals/peter-thiel/quinn.md",
+      "sam-lessin": "a16z2026-1/evals/sam-lessin/quinn.md",
+      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/quinn.md"
+    }
+  }
+}

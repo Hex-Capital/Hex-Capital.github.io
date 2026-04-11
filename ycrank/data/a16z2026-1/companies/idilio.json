@@ -1,0 +1,74 @@
+{
+  "slug": "idilio",
+  "name": "Idilio",
+  "oneLiner": "The future of serialized storytelling",
+  "metadata": {
+    "website": "https://idilio.tv/en",
+    "yc_page": "https://speedrun.a16z.com/companies/idilio",
+    "batch": "No public data found (a16z Speedrun page returned 404 at time of research)",
+    "industry": "Media/Animation /",
+    "team_size": "9",
+    "location": "Bogota, Colombia",
+    "tags": "Media/Animation",
+    "yc_partner": "Not listed (Speedrun page inaccessible)",
+    "emails": "gabriela@idilio.tv, esteban@idilio.tv"
+  },
+  "tags": [
+    "Media/Animation"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-10T22:57:25.851Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 60,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 44,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 45,
+    "EG": 33,
+    "NR": 60,
+    "PG": 57,
+    "PT": 36,
+    "SL": 40,
+    "VK": 44
+  },
+  "consolidatedAvg": 45,
+  "consolidatedRank": 32,
+  "paths": {
+    "memo": "a16z2026-1/memos/idilio.md",
+    "evals": {
+      "cyan-banister": "a16z2026-1/evals/cyan-banister/idilio.md",
+      "elad-gil": "a16z2026-1/evals/elad-gil/idilio.md",
+      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/idilio.md",
+      "paul-graham": "a16z2026-1/evals/paul-graham/idilio.md",
+      "peter-thiel": "a16z2026-1/evals/peter-thiel/idilio.md",
+      "sam-lessin": "a16z2026-1/evals/sam-lessin/idilio.md",
+      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/idilio.md"
+    }
+  }
+}

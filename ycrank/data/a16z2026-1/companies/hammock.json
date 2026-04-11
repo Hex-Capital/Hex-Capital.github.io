@@ -1,0 +1,76 @@
+{
+  "slug": "hammock",
+  "name": "Hammock",
+  "oneLiner": "The only HSA/FSA agent that covers wellness. 2x founder ($50M ARR, $50M raised) and VP of Product @ Weight Watchers",
+  "metadata": {
+    "website": "https://www.usehammock.co",
+    "yc_page": "https://speedrun.a16z.com/companies/hammock",
+    "batch": "a16z Speedrun SR006 (Jan–Apr 2026)",
+    "industry": "AI, Fintech, Healthcare /",
+    "team_size": "3",
+    "location": "Brooklyn, New York, United States of America",
+    "tags": "AI, Fintech, Healthcare",
+    "yc_partner": "Not listed (company is a16z Speedrun, not Y Combinator)",
+    "emails": "jesse@usehammock.co, will@usehammock.co"
+  },
+  "tags": [
+    "AI",
+    "Fintech",
+    "Healthcare"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-10T22:54:19.927Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 40,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 51,
+    "EG": 59,
+    "NR": 57,
+    "PG": 49,
+    "PT": 42,
+    "SL": 38,
+    "VK": 40
+  },
+  "consolidatedAvg": 48,
+  "consolidatedRank": 23,
+  "paths": {
+    "memo": "a16z2026-1/memos/hammock.md",
+    "evals": {
+      "cyan-banister": "a16z2026-1/evals/cyan-banister/hammock.md",
+      "elad-gil": "a16z2026-1/evals/elad-gil/hammock.md",
+      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/hammock.md",
+      "paul-graham": "a16z2026-1/evals/paul-graham/hammock.md",
+      "peter-thiel": "a16z2026-1/evals/peter-thiel/hammock.md",
+      "sam-lessin": "a16z2026-1/evals/sam-lessin/hammock.md",
+      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/hammock.md"
+    }
+  }
+}

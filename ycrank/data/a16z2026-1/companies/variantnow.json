@@ -1,0 +1,76 @@
+{
+  "slug": "variantnow",
+  "name": "VariantNow",
+  "oneLiner": "AI Infrastructure for the Adaptive Web [$500K ARR, 2x MoM]",
+  "metadata": {
+    "website": "https://variantnow.com",
+    "yc_page": "https://speedrun.a16z.com/companies/variantnow",
+    "batch": "a16z Speedrun SR006 (Winter/Spring 2026)",
+    "industry": "AI, B2B, Advertising/Marketing /",
+    "team_size": "6",
+    "location": "Tel Aviv-Yafo, Israel",
+    "tags": "AI, B2B, Advertising/Marketing",
+    "yc_partner": "Not listed",
+    "emails": "elad@variantnow.com, ben@variantnow.com"
+  },
+  "tags": [
+    "AI",
+    "B2B",
+    "Advertising/Marketing"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-10T23:13:08.309Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 41,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 36,
+    "EG": 47,
+    "NR": 52,
+    "PG": 42,
+    "PT": 36,
+    "SL": 34,
+    "VK": 41
+  },
+  "consolidatedAvg": 41.14,
+  "consolidatedRank": 46,
+  "paths": {
+    "memo": "a16z2026-1/memos/variantnow.md",
+    "evals": {
+      "cyan-banister": "a16z2026-1/evals/cyan-banister/variantnow.md",
+      "elad-gil": "a16z2026-1/evals/elad-gil/variantnow.md",
+      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/variantnow.md",
+      "paul-graham": "a16z2026-1/evals/paul-graham/variantnow.md",
+      "peter-thiel": "a16z2026-1/evals/peter-thiel/variantnow.md",
+      "sam-lessin": "a16z2026-1/evals/sam-lessin/variantnow.md",
+      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/variantnow.md"
+    }
+  }
+}

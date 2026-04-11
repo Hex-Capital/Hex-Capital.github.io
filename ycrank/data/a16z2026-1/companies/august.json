@@ -1,0 +1,76 @@
+{
+  "slug": "august",
+  "name": "August",
+  "oneLiner": "AI software to run an autonomous bank; $800K ARR in 3 months",
+  "metadata": {
+    "website": "https://tryaugust.com",
+    "yc_page": "https://speedrun.a16z.com/companies/august",
+    "batch": "No public data found",
+    "industry": "AI, Fintech, B2B /",
+    "team_size": "3",
+    "location": "Tel Aviv, Israel",
+    "tags": "AI, Fintech, B2B",
+    "yc_partner": "Not listed (a16z Speedrun page returned 404 at time of research)",
+    "emails": "bar@tryaugust.com, tom@tryaugust.com"
+  },
+  "tags": [
+    "AI",
+    "Fintech",
+    "B2B"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-10T22:48:28.399Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 70,
+      "tier": "Invest"
+    },
+    "naval-ravikant": {
+      "score": 65,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 56,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 49,
+    "EG": 70,
+    "NR": 65,
+    "PG": 54,
+    "PT": 51,
+    "SL": 43,
+    "VK": 56
+  },
+  "consolidatedAvg": 55.43,
+  "consolidatedRank": 8,
+  "paths": {
+    "memo": "a16z2026-1/memos/august.md",
+    "evals": {
+      "cyan-banister": "a16z2026-1/evals/cyan-banister/august.md",
+      "elad-gil": "a16z2026-1/evals/elad-gil/august.md",
+      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/august.md",
+      "paul-graham": "a16z2026-1/evals/paul-graham/august.md",
+      "peter-thiel": "a16z2026-1/evals/peter-thiel/august.md",
+      "sam-lessin": "a16z2026-1/evals/sam-lessin/august.md",
+      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/august.md"
+    }
+  }
+}

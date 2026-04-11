@@ -1,0 +1,76 @@
+{
+  "slug": "straia",
+  "name": "Straia",
+  "oneLiner": "The agentic AI platform for higher education ($4.5M cARR in 4 weeks)",
+  "metadata": {
+    "website": "https://straia.io",
+    "yc_page": "https://speedrun.a16z.com/companies/straia",
+    "batch": "a16z Speedrun (specific cohort not confirmed; no Y Combinator listing found on ycombinator.com)",
+    "industry": "AI, EdTech, B2B",
+    "team_size": "6",
+    "location": "San Francisco, California, United States of America",
+    "tags": "AI, EdTech, B2B",
+    "yc_partner": "Emily Bennett (a16z partner quoted in ETIH article, Dec 2025)",
+    "emails": "ryan@straia.io, alan@straia.io, gautam@straia.io, nikki@straia.io"
+  },
+  "tags": [
+    "AI",
+    "EdTech",
+    "B2B"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-10T23:10:51.272Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 60,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 70,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 44,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 50,
+    "EG": 60,
+    "NR": 70,
+    "PG": 48,
+    "PT": 46,
+    "SL": 33,
+    "VK": 44
+  },
+  "consolidatedAvg": 50.14,
+  "consolidatedRank": 19,
+  "paths": {
+    "memo": "a16z2026-1/memos/straia.md",
+    "evals": {
+      "cyan-banister": "a16z2026-1/evals/cyan-banister/straia.md",
+      "elad-gil": "a16z2026-1/evals/elad-gil/straia.md",
+      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/straia.md",
+      "paul-graham": "a16z2026-1/evals/paul-graham/straia.md",
+      "peter-thiel": "a16z2026-1/evals/peter-thiel/straia.md",
+      "sam-lessin": "a16z2026-1/evals/sam-lessin/straia.md",
+      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/straia.md"
+    }
+  }
+}

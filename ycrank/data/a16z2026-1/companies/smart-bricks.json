@@ -1,0 +1,76 @@
+{
+  "slug": "smart-bricks",
+  "name": "Smart Bricks",
+  "oneLiner": "The next generation of AI-native real estate investing",
+  "metadata": {
+    "website": "https://www.smart-bricks.com",
+    "yc_page": "https://speedrun.a16z.com/companies/smart-bricks",
+    "batch": "a16z Speedrun (not Y Combinator; the provided \"YC Page\" URL points to a16z Speedrun)",
+    "industry": "AI, AI Models/Infrastructure, Fintech /",
+    "team_size": "20",
+    "location": "San Francisco, California, United States of America",
+    "tags": "AI, AI Models/Infrastructure, Fintech",
+    "yc_partner": "Not listed (a16z Speedrun page returned 404 at time of research)",
+    "emails": "mohamed@smart-bricks.com (a16z Speedrun portal listing)"
+  },
+  "tags": [
+    "AI",
+    "AI Models/Infrastructure",
+    "Fintech"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-10T23:07:28.687Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 36,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 42,
+    "EG": 41,
+    "NR": 45,
+    "PG": 35,
+    "PT": 39,
+    "SL": 30,
+    "VK": 36
+  },
+  "consolidatedAvg": 38.29,
+  "consolidatedRank": 55,
+  "paths": {
+    "memo": "a16z2026-1/memos/smart-bricks.md",
+    "evals": {
+      "cyan-banister": "a16z2026-1/evals/cyan-banister/smart-bricks.md",
+      "elad-gil": "a16z2026-1/evals/elad-gil/smart-bricks.md",
+      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/smart-bricks.md",
+      "paul-graham": "a16z2026-1/evals/paul-graham/smart-bricks.md",
+      "peter-thiel": "a16z2026-1/evals/peter-thiel/smart-bricks.md",
+      "sam-lessin": "a16z2026-1/evals/sam-lessin/smart-bricks.md",
+      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/smart-bricks.md"
+    }
+  }
+}

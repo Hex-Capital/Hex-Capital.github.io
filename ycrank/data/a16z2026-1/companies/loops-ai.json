@@ -1,0 +1,75 @@
+{
+  "slug": "loops-ai",
+  "name": "Loops AI",
+  "oneLiner": "TuAgentic AI & AI search for commerce with $500k ARR from top brands",
+  "metadata": {
+    "website": "https://loopsai.com",
+    "yc_page": "https://speedrun.a16z.com/companies/loops-ai",
+    "batch": "a16z Speedrun SR006 (LinkedIn company page)",
+    "industry": "AI, B2B",
+    "team_size": "12",
+    "location": "San Francisco, California, United States of America",
+    "tags": "AI, B2B",
+    "yc_partner": "Not listed (speedrun page returned 404 at time of research)",
+    "emails": "ari@loopsai.com, ilker@loopsai.com, yusuf@loopsai.com, hakanbas@loopsai.com (a16z Speedrun portal)"
+  },
+  "tags": [
+    "AI",
+    "B2B"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-10T22:58:37.235Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 37,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 41,
+    "EG": 42,
+    "NR": 45,
+    "PG": 42,
+    "PT": 37,
+    "SL": 31,
+    "VK": 37
+  },
+  "consolidatedAvg": 39.29,
+  "consolidatedRank": 52,
+  "paths": {
+    "memo": "a16z2026-1/memos/loops-ai.md",
+    "evals": {
+      "cyan-banister": "a16z2026-1/evals/cyan-banister/loops-ai.md",
+      "elad-gil": "a16z2026-1/evals/elad-gil/loops-ai.md",
+      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/loops-ai.md",
+      "paul-graham": "a16z2026-1/evals/paul-graham/loops-ai.md",
+      "peter-thiel": "a16z2026-1/evals/peter-thiel/loops-ai.md",
+      "sam-lessin": "a16z2026-1/evals/sam-lessin/loops-ai.md",
+      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/loops-ai.md"
+    }
+  }
+}

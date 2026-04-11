@@ -1,0 +1,75 @@
+{
+  "slug": "quanto",
+  "name": "Quanto",
+  "oneLiner": "AI Workforce for Accounting Firms to Grow Revenue and Margins",
+  "metadata": {
+    "website": "https://www.tryquanto.com",
+    "yc_page": "https://speedrun.a16z.com/companies/quanto",
+    "batch": "a16z Speedrun (specific cohort not confirmed; page returned 404 at time of research)",
+    "industry": "AI, Fintech /",
+    "team_size": "6",
+    "location": "Toronto, Canada",
+    "tags": "AI, Fintech",
+    "yc_partner": "Not listed",
+    "emails": "anderson@tryquanto.com, kajanth@tryquanto.com"
+  },
+  "tags": [
+    "AI",
+    "Fintech"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-10T23:03:51.784Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 67,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 69,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 39,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 49,
+    "EG": 58,
+    "NR": 67,
+    "PG": 69,
+    "PT": 39,
+    "SL": 38,
+    "VK": 39
+  },
+  "consolidatedAvg": 51.29,
+  "consolidatedRank": 13,
+  "paths": {
+    "memo": "a16z2026-1/memos/quanto.md",
+    "evals": {
+      "cyan-banister": "a16z2026-1/evals/cyan-banister/quanto.md",
+      "elad-gil": "a16z2026-1/evals/elad-gil/quanto.md",
+      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/quanto.md",
+      "paul-graham": "a16z2026-1/evals/paul-graham/quanto.md",
+      "peter-thiel": "a16z2026-1/evals/peter-thiel/quanto.md",
+      "sam-lessin": "a16z2026-1/evals/sam-lessin/quanto.md",
+      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/quanto.md"
+    }
+  }
+}

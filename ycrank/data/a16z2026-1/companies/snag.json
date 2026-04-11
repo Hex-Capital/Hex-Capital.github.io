@@ -1,0 +1,75 @@
+{
+  "slug": "snag",
+  "name": "snag",
+  "oneLiner": "snag is where GenZ finds affordable, flexible housing.",
+  "metadata": {
+    "website": "https://snagsublets.com/",
+    "yc_page": "https://speedrun.a16z.com/companies/snag",
+    "batch": "a16z Speedrun (specific cohort not confirmed; page returned 404 at time of research)",
+    "industry": "Marketplace, B2C /",
+    "team_size": "4",
+    "location": "New York, New York, United States of America",
+    "tags": "Marketplace, B2C",
+    "yc_partner": "Not listed (company is listed on a16z Speedrun portal, not YC; Speedrun page was inaccessible)",
+    "emails": "hi@joinsnag.com, selin@joinsnag.com, niko@joinsnag.com"
+  },
+  "tags": [
+    "Marketplace",
+    "B2C"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-10T23:09:09.906Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 61,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 42,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 53,
+    "EG": 38,
+    "NR": 61,
+    "PG": 56,
+    "PT": 36,
+    "SL": 46,
+    "VK": 42
+  },
+  "consolidatedAvg": 47.43,
+  "consolidatedRank": 25,
+  "paths": {
+    "memo": "a16z2026-1/memos/snag.md",
+    "evals": {
+      "cyan-banister": "a16z2026-1/evals/cyan-banister/snag.md",
+      "elad-gil": "a16z2026-1/evals/elad-gil/snag.md",
+      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/snag.md",
+      "paul-graham": "a16z2026-1/evals/paul-graham/snag.md",
+      "peter-thiel": "a16z2026-1/evals/peter-thiel/snag.md",
+      "sam-lessin": "a16z2026-1/evals/sam-lessin/snag.md",
+      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/snag.md"
+    }
+  }
+}

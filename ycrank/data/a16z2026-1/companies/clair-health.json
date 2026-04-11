@@ -1,0 +1,76 @@
+{
+  "slug": "clair-health",
+  "name": "Clair Health",
+  "oneLiner": "We're building the first continuous hormone monitor.",
+  "metadata": {
+    "website": "https://www.wearclair.com",
+    "yc_page": "https://speedrun.a16z.com/companies/clair-health",
+    "batch": "a16z Speedrun SR006 (Jan–Apr 2026); not confirmed as a Y Combinator company (see note below)",
+    "industry": "Healthcare, Deep Tech, Fitness",
+    "team_size": "7",
+    "location": "Mountain View, California, United States of America",
+    "tags": "Healthcare, Deep Tech, Fitness",
+    "yc_partner": "Not listed (a16z Speedrun page returned 404 at time of research)",
+    "emails": "jenny@wearclair.com (a16z Speedrun portal)"
+  },
+  "tags": [
+    "Healthcare",
+    "Deep Tech",
+    "Fitness"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-10T22:54:40.086Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 62,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 63,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 55,
+    "EG": 32,
+    "NR": 62,
+    "PG": 53,
+    "PT": 45,
+    "SL": 54,
+    "VK": 63
+  },
+  "consolidatedAvg": 52,
+  "consolidatedRank": 11,
+  "paths": {
+    "memo": "a16z2026-1/memos/clair-health.md",
+    "evals": {
+      "cyan-banister": "a16z2026-1/evals/cyan-banister/clair-health.md",
+      "elad-gil": "a16z2026-1/evals/elad-gil/clair-health.md",
+      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/clair-health.md",
+      "paul-graham": "a16z2026-1/evals/paul-graham/clair-health.md",
+      "peter-thiel": "a16z2026-1/evals/peter-thiel/clair-health.md",
+      "sam-lessin": "a16z2026-1/evals/sam-lessin/clair-health.md",
+      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/clair-health.md"
+    }
+  }
+}

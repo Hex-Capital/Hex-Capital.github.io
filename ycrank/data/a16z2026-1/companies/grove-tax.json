@@ -1,0 +1,76 @@
+{
+  "slug": "grove-tax",
+  "name": "Grove Tax",
+  "oneLiner": "AI Workforce for Tax Firms from ex Airbnb, Intuit team",
+  "metadata": {
+    "website": "https://grove.tax",
+    "yc_page": "https://speedrun.a16z.com/companies/grove-tax",
+    "batch": "a16z Speedrun (specific cohort not confirmed; company page returned 404 at time of research)",
+    "industry": "AI, Fintech, B2B /",
+    "team_size": "2",
+    "location": "San Francisco, California, United States of America",
+    "tags": "AI, Fintech, B2B",
+    "yc_partner": "Not listed (company is in a16z Speedrun, not Y Combinator; Speedrun company page returned 404)",
+    "emails": "gaurav@grove.tax, uday@grove.tax (a16z Speedrun portal)"
+  },
+  "tags": [
+    "AI",
+    "Fintech",
+    "B2B"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-10T22:54:19.160Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 41,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 40,
+    "EG": 47,
+    "NR": 58,
+    "PG": 46,
+    "PT": 32,
+    "SL": 35,
+    "VK": 41
+  },
+  "consolidatedAvg": 42.71,
+  "consolidatedRank": 39,
+  "paths": {
+    "memo": "a16z2026-1/memos/grove-tax.md",
+    "evals": {
+      "cyan-banister": "a16z2026-1/evals/cyan-banister/grove-tax.md",
+      "elad-gil": "a16z2026-1/evals/elad-gil/grove-tax.md",
+      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/grove-tax.md",
+      "paul-graham": "a16z2026-1/evals/paul-graham/grove-tax.md",
+      "peter-thiel": "a16z2026-1/evals/peter-thiel/grove-tax.md",
+      "sam-lessin": "a16z2026-1/evals/sam-lessin/grove-tax.md",
+      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/grove-tax.md"
+    }
+  }
+}

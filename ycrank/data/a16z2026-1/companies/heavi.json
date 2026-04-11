@@ -1,0 +1,76 @@
+{
+  "slug": "heavi",
+  "name": "Heavi",
+  "oneLiner": "AI workforce for heavy vehicle mechanics. Two 2x founders who raised $200M and $75M prev",
+  "metadata": {
+    "website": "https://Heaviai.com",
+    "yc_page": "https://speedrun.a16z.com/companies/heavi",
+    "batch": "Not confirmed (listed URL is a16z Speedrun, not YC; page returned 404 at time of research)",
+    "industry": "AI, Marketplace, B2B /",
+    "team_size": "2",
+    "location": "San Francisco, California, United States of America",
+    "tags": "AI, Marketplace, B2B",
+    "yc_partner": "Not listed (a16z Speedrun page returned 404)",
+    "emails": "founders@heaviai.com (company website), sanjay@heaviai.com, mike@heaviai.com (a16z Speedrun application)"
+  },
+  "tags": [
+    "AI",
+    "Marketplace",
+    "B2B"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-10T22:53:50.105Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 60,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 67,
+      "tier": "Invest"
+    },
+    "naval-ravikant": {
+      "score": 70,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 68,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 47,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 60,
+    "EG": 67,
+    "NR": 70,
+    "PG": 68,
+    "PT": 43,
+    "SL": 56,
+    "VK": 47
+  },
+  "consolidatedAvg": 58.71,
+  "consolidatedRank": 3,
+  "paths": {
+    "memo": "a16z2026-1/memos/heavi.md",
+    "evals": {
+      "cyan-banister": "a16z2026-1/evals/cyan-banister/heavi.md",
+      "elad-gil": "a16z2026-1/evals/elad-gil/heavi.md",
+      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/heavi.md",
+      "paul-graham": "a16z2026-1/evals/paul-graham/heavi.md",
+      "peter-thiel": "a16z2026-1/evals/peter-thiel/heavi.md",
+      "sam-lessin": "a16z2026-1/evals/sam-lessin/heavi.md",
+      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/heavi.md"
+    }
+  }
+}

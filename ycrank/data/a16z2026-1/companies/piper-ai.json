@@ -1,0 +1,75 @@
+{
+  "slug": "piper-ai",
+  "name": "Piper-ai",
+  "oneLiner": "The AI workforce for construction.",
+  "metadata": {
+    "website": "https://piper-ai.com",
+    "yc_page": "https://speedrun.a16z.com/companies/piper-ai",
+    "batch": "a16z Speedrun (specific cohort not confirmed; the company page returned 404 at time of research)",
+    "industry": "B2B, AI /",
+    "team_size": "7",
+    "location": "SF, California, United States of America",
+    "tags": "B2B, AI",
+    "yc_partner": "Not listed (page not accessible; note: this is an a16z Speedrun company, not Y Combinator)",
+    "emails": "ido@piper-ai.com, erez@piper-ai.com, roi@piper-ai.com (a16z Speedrun portal)"
+  },
+  "tags": [
+    "B2B",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-10T23:04:34.063Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 45,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 51,
+    "EG": 52,
+    "NR": 57,
+    "PG": 56,
+    "PT": 41,
+    "SL": 36,
+    "VK": 45
+  },
+  "consolidatedAvg": 48.29,
+  "consolidatedRank": 22,
+  "paths": {
+    "memo": "a16z2026-1/memos/piper-ai.md",
+    "evals": {
+      "cyan-banister": "a16z2026-1/evals/cyan-banister/piper-ai.md",
+      "elad-gil": "a16z2026-1/evals/elad-gil/piper-ai.md",
+      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/piper-ai.md",
+      "paul-graham": "a16z2026-1/evals/paul-graham/piper-ai.md",
+      "peter-thiel": "a16z2026-1/evals/peter-thiel/piper-ai.md",
+      "sam-lessin": "a16z2026-1/evals/sam-lessin/piper-ai.md",
+      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/piper-ai.md"
+    }
+  }
+}

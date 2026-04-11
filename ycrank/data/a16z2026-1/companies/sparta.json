@@ -1,0 +1,76 @@
+{
+  "slug": "sparta",
+  "name": "Sparta",
+  "oneLiner": "Adaptive data transfer optimization for high-performance infrastructure.",
+  "metadata": {
+    "website": "https://usesparta.co",
+    "yc_page": "https://speedrun.a16z.com/companies/sparta",
+    "batch": "a16z Speedrun SR006 (Winter/Spring 2026)",
+    "industry": "AI, Deep Tech, AI Models/Infrastructure /",
+    "team_size": "3",
+    "location": "San Fransisco, California, United States of America",
+    "tags": "AI, Deep Tech, AI Models/Infrastructure",
+    "yc_partner": "Not listed (a16z Speedrun page returned 404 at time of research)",
+    "emails": "arya@usesparta.co, saad@usesparta.co, lalith@usesparta.co (a16z Speedrun portal); hello@sparta.com (company website)"
+  },
+  "tags": [
+    "AI",
+    "Deep Tech",
+    "AI Models/Infrastructure"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-10T23:08:45.957Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 43,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 39,
+    "EG": 47,
+    "NR": 50,
+    "PG": 41,
+    "PT": 34,
+    "SL": 34,
+    "VK": 43
+  },
+  "consolidatedAvg": 41.14,
+  "consolidatedRank": 45,
+  "paths": {
+    "memo": "a16z2026-1/memos/sparta.md",
+    "evals": {
+      "cyan-banister": "a16z2026-1/evals/cyan-banister/sparta.md",
+      "elad-gil": "a16z2026-1/evals/elad-gil/sparta.md",
+      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/sparta.md",
+      "paul-graham": "a16z2026-1/evals/paul-graham/sparta.md",
+      "peter-thiel": "a16z2026-1/evals/peter-thiel/sparta.md",
+      "sam-lessin": "a16z2026-1/evals/sam-lessin/sparta.md",
+      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/sparta.md"
+    }
+  }
+}

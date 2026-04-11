@@ -1,0 +1,76 @@
+{
+  "slug": "sentra",
+  "name": "Sentra",
+  "oneLiner": "The foundational memory for Enterprise General Intelligence.",
+  "metadata": {
+    "website": "https://sentra.app/",
+    "yc_page": "https://speedrun.a16z.com/companies/sentra",
+    "batch": "No YC batch confirmed; company participated in a16z Speedrun (seed funding page returned 404)",
+    "industry": "AI, B2B, AI Models/Infrastructure",
+    "team_size": "12",
+    "location": "San Francisco, California, United States of America",
+    "tags": "AI, B2B, AI Models/Infrastructure",
+    "yc_partner": "Not listed (a16z Speedrun page returned 404 at time of research)",
+    "emails": "ashwin@sentra.app, andrey@sentra.app (a16z Speedrun company data)"
+  },
+  "tags": [
+    "AI",
+    "B2B",
+    "AI Models/Infrastructure"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-10T23:08:02.821Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 44,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 38,
+    "EG": 43,
+    "NR": 53,
+    "PG": 48,
+    "PT": 35,
+    "SL": 33,
+    "VK": 44
+  },
+  "consolidatedAvg": 42,
+  "consolidatedRank": 43,
+  "paths": {
+    "memo": "a16z2026-1/memos/sentra.md",
+    "evals": {
+      "cyan-banister": "a16z2026-1/evals/cyan-banister/sentra.md",
+      "elad-gil": "a16z2026-1/evals/elad-gil/sentra.md",
+      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/sentra.md",
+      "paul-graham": "a16z2026-1/evals/paul-graham/sentra.md",
+      "peter-thiel": "a16z2026-1/evals/peter-thiel/sentra.md",
+      "sam-lessin": "a16z2026-1/evals/sam-lessin/sentra.md",
+      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/sentra.md"
+    }
+  }
+}

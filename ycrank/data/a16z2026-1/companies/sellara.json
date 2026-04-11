@@ -1,0 +1,74 @@
+{
+  "slug": "sellara",
+  "name": "Sellara",
+  "oneLiner": "Applied AI For Institutional Trading & Operations",
+  "metadata": {
+    "website": "https://www.sellara.io",
+    "yc_page": "https://speedrun.a16z.com/companies/sellara",
+    "batch": "No public data found. The provided URL is an a16z Speedrun portal, not Y Combinator. The Speedrun page returned HTTP 404 at time of research. The company website states it is \"backed by Andreessen Horowitz (a16z) Speedrun\" (sellara.io). a16z Speedrun SR006 ran Jan 26 – Apr 12, 2026, in San Francisco (a16z.com); SR005 ran Jul 28 – Oct 10, 2025, in Los Angeles (a16z.com). Batch affiliation could not be confirmed.",
+    "industry": "Fintech",
+    "team_size": "4",
+    "location": "NYC, New York, United States of America",
+    "tags": "Fintech",
+    "yc_partner": "Not listed (a16z Speedrun page returned 404)",
+    "emails": "cj@sellara.io, ar@sellara.io, ss@sellara.io (a16z Speedrun portal, company_data)"
+  },
+  "tags": [
+    "Fintech"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-10T23:07:47.716Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 39,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 39,
+    "EG": 49,
+    "NR": 55,
+    "PG": 52,
+    "PT": 39,
+    "SL": 34,
+    "VK": 39
+  },
+  "consolidatedAvg": 43.86,
+  "consolidatedRank": 37,
+  "paths": {
+    "memo": "a16z2026-1/memos/sellara.md",
+    "evals": {
+      "cyan-banister": "a16z2026-1/evals/cyan-banister/sellara.md",
+      "elad-gil": "a16z2026-1/evals/elad-gil/sellara.md",
+      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/sellara.md",
+      "paul-graham": "a16z2026-1/evals/paul-graham/sellara.md",
+      "peter-thiel": "a16z2026-1/evals/peter-thiel/sellara.md",
+      "sam-lessin": "a16z2026-1/evals/sam-lessin/sellara.md",
+      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/sellara.md"
+    }
+  }
+}

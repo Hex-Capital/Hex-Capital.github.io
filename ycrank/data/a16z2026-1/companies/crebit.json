@@ -1,0 +1,74 @@
+{
+  "slug": "crebit",
+  "name": "Crebit",
+  "oneLiner": "Stablecoin Infrastructure for Payments into the U.S.",
+  "metadata": {
+    "website": "https://www.crebitpay.com",
+    "yc_page": "https://speedrun.a16z.com/companies/crebit",
+    "batch": "a16z Speedrun — likely SR006 / Winter-Spring 2026 cohort (YC page URL returned 404; IssueWire and LinkedIn confirm a16z Speedrun backing, not Y Combinator)",
+    "industry": "Fintech",
+    "team_size": "2",
+    "location": "San Francisco, California, United States of America (registered office: 1522 Western Ave STE 24214, Seattle, WA 98101 per IssueWire)",
+    "tags": "Fintech",
+    "yc_partner": "Not listed (a16z Speedrun page returned 404 at time of research)",
+    "emails": "simmi@getcrebit.com (company data), info@getcrebit.com (IssueWire)"
+  },
+  "tags": [
+    "Fintech"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-10T22:53:51.866Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 45,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 56,
+    "EG": 46,
+    "NR": 56,
+    "PG": 54,
+    "PT": 36,
+    "SL": 39,
+    "VK": 45
+  },
+  "consolidatedAvg": 47.43,
+  "consolidatedRank": 24,
+  "paths": {
+    "memo": "a16z2026-1/memos/crebit.md",
+    "evals": {
+      "cyan-banister": "a16z2026-1/evals/cyan-banister/crebit.md",
+      "elad-gil": "a16z2026-1/evals/elad-gil/crebit.md",
+      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/crebit.md",
+      "paul-graham": "a16z2026-1/evals/paul-graham/crebit.md",
+      "peter-thiel": "a16z2026-1/evals/peter-thiel/crebit.md",
+      "sam-lessin": "a16z2026-1/evals/sam-lessin/crebit.md",
+      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/crebit.md"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "modaic",
+  "name": "Modaic",
+  "oneLiner": "Alignment for AI decisions. In design partnerships with Accenture, Dropbox, and Vercel.",
+  "metadata": {
+    "website": "https://modaic.dev",
+    "yc_page": "https://speedrun.a16z.com/companies/modaic",
+    "batch": "a16z Speedrun (likely SR006, Winter/Spring 2026); no Y Combinator listing found",
+    "industry": "AI Models/Infrastructure, AI",
+    "team_size": "2",
+    "location": "San Francisco, California, United States of America",
+    "tags": "AI Models/Infrastructure, AI",
+    "yc_partner": "Not listed (company is an a16z Speedrun participant, not a YC company per available evidence)",
+    "emails": "farouk@modaic.dev, tyrin@modaic.dev (a16z Speedrun portal)"
+  },
+  "tags": [
+    "AI Models/Infrastructure",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-10T23:00:06.144Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 39,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 39,
+    "EG": 43,
+    "NR": 48,
+    "PG": 45,
+    "PT": 31,
+    "SL": 31,
+    "VK": 39
+  },
+  "consolidatedAvg": 39.43,
+  "consolidatedRank": 51,
+  "paths": {
+    "memo": "a16z2026-1/memos/modaic.md",
+    "evals": {
+      "cyan-banister": "a16z2026-1/evals/cyan-banister/modaic.md",
+      "elad-gil": "a16z2026-1/evals/elad-gil/modaic.md",
+      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/modaic.md",
+      "paul-graham": "a16z2026-1/evals/paul-graham/modaic.md",
+      "peter-thiel": "a16z2026-1/evals/peter-thiel/modaic.md",
+      "sam-lessin": "a16z2026-1/evals/sam-lessin/modaic.md",
+      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/modaic.md"
+    }
+  }
+}

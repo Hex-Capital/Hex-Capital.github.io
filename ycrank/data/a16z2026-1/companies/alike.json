@@ -1,0 +1,76 @@
+{
+  "slug": "alike",
+  "name": "Alike",
+  "oneLiner": "The Agent Collaboration Layer for Enterprises",
+  "metadata": {
+    "website": "https://alike.work",
+    "yc_page": "https://speedrun.a16z.com/companies/alike",
+    "batch": "No public data found (listed on a16z Speedrun portal, not confirmed as a YC batch company; the Speedrun page returned 404 at time of research)",
+    "industry": "AI, Deep Tech, B2B",
+    "team_size": "4",
+    "location": "San Francisco, California, United States of America",
+    "tags": "AI, Deep Tech, B2B",
+    "yc_partner": "Not listed",
+    "emails": "addi@alike.work, max@alike.work, danial@alike.work, hello@alike.work, talent@alike.work (a16z Speedrun portal; alike.work)"
+  },
+  "tags": [
+    "AI",
+    "Deep Tech",
+    "B2B"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-10T22:49:15.143Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 43,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 38,
+    "EG": 47,
+    "NR": 50,
+    "PG": 38,
+    "PT": 31,
+    "SL": 37,
+    "VK": 43
+  },
+  "consolidatedAvg": 40.57,
+  "consolidatedRank": 49,
+  "paths": {
+    "memo": "a16z2026-1/memos/alike.md",
+    "evals": {
+      "cyan-banister": "a16z2026-1/evals/cyan-banister/alike.md",
+      "elad-gil": "a16z2026-1/evals/elad-gil/alike.md",
+      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/alike.md",
+      "paul-graham": "a16z2026-1/evals/paul-graham/alike.md",
+      "peter-thiel": "a16z2026-1/evals/peter-thiel/alike.md",
+      "sam-lessin": "a16z2026-1/evals/sam-lessin/alike.md",
+      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/alike.md"
+    }
+  }
+}

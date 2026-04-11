@@ -1,0 +1,75 @@
+{
+  "slug": "mirror-mirror-ai",
+  "name": "Mirror Mirror AI",
+  "oneLiner": "The marketplace for licensing likeness for content & usage",
+  "metadata": {
+    "website": "https://mirrormirrorai.com/",
+    "yc_page": "https://speedrun.a16z.com/companies/mirror-mirror-ai",
+    "batch": "a16z Speedrun SR006 (Jan–Apr 2026); accepted Oct 2025 (Meet Global). Note: the provided \"YC Page\" URL points to a16z Speedrun, not Y Combinator. No evidence of YC participation found.",
+    "industry": "AI, Marketplace /",
+    "team_size": "8",
+    "location": "San Francisco, California, United States of America",
+    "tags": "AI, Marketplace",
+    "yc_partner": "Not applicable — company is in a16z Speedrun, not Y Combinator",
+    "emails": "yusan@mirrormirrorai.com (a16z Speedrun page)"
+  },
+  "tags": [
+    "AI",
+    "Marketplace"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-10T22:59:46.004Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 63,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 40,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 58,
+    "EG": 44,
+    "NR": 63,
+    "PG": 58,
+    "PT": 34,
+    "SL": 46,
+    "VK": 40
+  },
+  "consolidatedAvg": 49,
+  "consolidatedRank": 20,
+  "paths": {
+    "memo": "a16z2026-1/memos/mirror-mirror-ai.md",
+    "evals": {
+      "cyan-banister": "a16z2026-1/evals/cyan-banister/mirror-mirror-ai.md",
+      "elad-gil": "a16z2026-1/evals/elad-gil/mirror-mirror-ai.md",
+      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/mirror-mirror-ai.md",
+      "paul-graham": "a16z2026-1/evals/paul-graham/mirror-mirror-ai.md",
+      "peter-thiel": "a16z2026-1/evals/peter-thiel/mirror-mirror-ai.md",
+      "sam-lessin": "a16z2026-1/evals/sam-lessin/mirror-mirror-ai.md",
+      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/mirror-mirror-ai.md"
+    }
+  }
+}

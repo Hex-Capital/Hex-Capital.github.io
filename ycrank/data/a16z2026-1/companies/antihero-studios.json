@@ -1,0 +1,74 @@
+{
+  "slug": "antihero-studios",
+  "name": "Antihero Studios",
+  "oneLiner": "Creating \"Games Worth Sharing\". Our team were leads on 8 different $1B/year games",
+  "metadata": {
+    "website": "https://www.antiherostudios.com/",
+    "yc_page": "https://speedrun.a16z.com/companies/antihero-studios",
+    "batch": "a16z Speedrun (not a Y Combinator batch; listed on a16z Speedrun portal)",
+    "industry": "Games Studio /",
+    "team_size": "10",
+    "location": "Barcelona, Spain",
+    "tags": "Games Studio",
+    "yc_partner": "Not listed (a16z Speedrun page returned 404 at time of research)",
+    "emails": "brice@antiherostudios.com, andre@antiherostudios.com, frank@antiherostudios.com"
+  },
+  "tags": [
+    "Games Studio"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-10T22:48:45.819Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 64,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 40,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 40,
+    "EG": 40,
+    "NR": 64,
+    "PG": 53,
+    "PT": 48,
+    "SL": 42,
+    "VK": 40
+  },
+  "consolidatedAvg": 46.71,
+  "consolidatedRank": 27,
+  "paths": {
+    "memo": "a16z2026-1/memos/antihero-studios.md",
+    "evals": {
+      "cyan-banister": "a16z2026-1/evals/cyan-banister/antihero-studios.md",
+      "elad-gil": "a16z2026-1/evals/elad-gil/antihero-studios.md",
+      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/antihero-studios.md",
+      "paul-graham": "a16z2026-1/evals/paul-graham/antihero-studios.md",
+      "peter-thiel": "a16z2026-1/evals/peter-thiel/antihero-studios.md",
+      "sam-lessin": "a16z2026-1/evals/sam-lessin/antihero-studios.md",
+      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/antihero-studios.md"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "prior-foundry",
+  "name": "Prior Foundry",
+  "oneLiner": "Simulate how entire populations respond to decisions before they're made.",
+  "metadata": {
+    "website": "https://priorfoundry.com",
+    "yc_page": "https://speedrun.a16z.com/companies/prior-foundry",
+    "batch": "Not confirmed (a16z Speedrun portal listed; no YC batch identified)",
+    "industry": "AI /",
+    "team_size": "3",
+    "location": "San Francisco, California, United States of America",
+    "tags": "AI",
+    "yc_partner": "Not listed",
+    "emails": "shirin@priorfoundry.com, keshav@priorfoundry.com, jonne@priorfoundry.com (a16z Speedrun portal)"
+  },
+  "tags": [
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-10T23:03:40.630Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 60,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 68,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 56,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 60,
+    "EG": 58,
+    "NR": 68,
+    "PG": 56,
+    "PT": 46,
+    "SL": 46,
+    "VK": 56
+  },
+  "consolidatedAvg": 55.71,
+  "consolidatedRank": 7,
+  "paths": {
+    "memo": "a16z2026-1/memos/prior-foundry.md",
+    "evals": {
+      "cyan-banister": "a16z2026-1/evals/cyan-banister/prior-foundry.md",
+      "elad-gil": "a16z2026-1/evals/elad-gil/prior-foundry.md",
+      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/prior-foundry.md",
+      "paul-graham": "a16z2026-1/evals/paul-graham/prior-foundry.md",
+      "peter-thiel": "a16z2026-1/evals/peter-thiel/prior-foundry.md",
+      "sam-lessin": "a16z2026-1/evals/sam-lessin/prior-foundry.md",
+      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/prior-foundry.md"
+    }
+  }
+}

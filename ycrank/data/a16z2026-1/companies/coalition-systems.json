@@ -1,0 +1,76 @@
+{
+  "slug": "coalition-systems",
+  "name": "Coalition Systems",
+  "oneLiner": "AI coordination software for allied defense.",
+  "metadata": {
+    "website": "https://www.coalition.systems",
+    "yc_page": "https://speedrun.a16z.com/companies/coalition-systems",
+    "batch": "a16z Speedrun (exact cohort not confirmed; page returned 404 at time of research)",
+    "industry": "Defense Tech, Deep Tech, AI Models/Infrastructure",
+    "team_size": "4",
+    "location": "San Francisco, California, United States of America",
+    "tags": "Defense Tech, Deep Tech, AI Models/Infrastructure",
+    "yc_partner": "Not listed (a16z Speedrun page inaccessible; returned 404)",
+    "emails": "vijay@coalition.systems, freddie@coalition.systems (a16z Speedrun portal)"
+  },
+  "tags": [
+    "Defense Tech",
+    "Deep Tech",
+    "AI Models/Infrastructure"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-10T22:54:06.167Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 42,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 56,
+    "EG": 52,
+    "NR": 40,
+    "PG": 44,
+    "PT": 43,
+    "SL": 40,
+    "VK": 42
+  },
+  "consolidatedAvg": 45.29,
+  "consolidatedRank": 31,
+  "paths": {
+    "memo": "a16z2026-1/memos/coalition-systems.md",
+    "evals": {
+      "cyan-banister": "a16z2026-1/evals/cyan-banister/coalition-systems.md",
+      "elad-gil": "a16z2026-1/evals/elad-gil/coalition-systems.md",
+      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/coalition-systems.md",
+      "paul-graham": "a16z2026-1/evals/paul-graham/coalition-systems.md",
+      "peter-thiel": "a16z2026-1/evals/peter-thiel/coalition-systems.md",
+      "sam-lessin": "a16z2026-1/evals/sam-lessin/coalition-systems.md",
+      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/coalition-systems.md"
+    }
+  }
+}

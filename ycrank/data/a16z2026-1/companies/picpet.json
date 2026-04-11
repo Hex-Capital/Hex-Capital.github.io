@@ -1,0 +1,74 @@
+{
+  "slug": "picpet",
+  "name": "PicPet",
+  "oneLiner": "Social messaging platform where friendships feed virtual pets. >200K DAU and >45% D90 bounded retention",
+  "metadata": {
+    "website": "https://picpet.app/",
+    "yc_page": "https://speedrun.a16z.com/companies/picpet",
+    "batch": "Not listed (a16z Speedrun portal, not a standard YC batch page; page returned 404 at time of research)",
+    "industry": "Social Networking /",
+    "team_size": "6",
+    "location": "San Francisco, California, United States of America",
+    "tags": "Social Networking",
+    "yc_partner": "Not listed (a16z Speedrun page inaccessible; 404 error at time of research)",
+    "emails": "jimmy@o3o-laboratory.com, support@o3o-laboratory.com"
+  },
+  "tags": [
+    "Social Networking"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-10T23:03:43.412Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 32,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 28,
+    "EG": 33,
+    "NR": 50,
+    "PG": 37,
+    "PT": 35,
+    "SL": 38,
+    "VK": 32
+  },
+  "consolidatedAvg": 36.14,
+  "consolidatedRank": 60,
+  "paths": {
+    "memo": "a16z2026-1/memos/picpet.md",
+    "evals": {
+      "cyan-banister": "a16z2026-1/evals/cyan-banister/picpet.md",
+      "elad-gil": "a16z2026-1/evals/elad-gil/picpet.md",
+      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/picpet.md",
+      "paul-graham": "a16z2026-1/evals/paul-graham/picpet.md",
+      "peter-thiel": "a16z2026-1/evals/peter-thiel/picpet.md",
+      "sam-lessin": "a16z2026-1/evals/sam-lessin/picpet.md",
+      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/picpet.md"
+    }
+  }
+}

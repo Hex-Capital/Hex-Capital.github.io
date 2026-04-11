@@ -1,0 +1,76 @@
+{
+  "slug": "advocate",
+  "name": "Advocate",
+  "oneLiner": "The AI-native system for easy & reimbursable care coordination",
+  "metadata": {
+    "website": "https://advocatewellbeing.com",
+    "yc_page": "https://speedrun.a16z.com/companies/advocate",
+    "batch": "No public data found (a16z Speedrun portal listing; page returned 404 at time of research)",
+    "industry": "AI, Healthcare, B2B /",
+    "team_size": "4",
+    "location": "New York, New York, United States of America",
+    "tags": "AI, Healthcare, B2B",
+    "yc_partner": "Not listed (page not accessible at time of research)",
+    "emails": "andrew@advocatewellbeing.com, justinas@advocatewellbeing.com (a16z Speedrun portal)"
+  },
+  "tags": [
+    "AI",
+    "Healthcare",
+    "B2B"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-10T21:38:09.347Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 36,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 54,
+    "EG": 47,
+    "NR": 55,
+    "PG": 49,
+    "PT": 31,
+    "SL": 35,
+    "VK": 36
+  },
+  "consolidatedAvg": 43.86,
+  "consolidatedRank": 36,
+  "paths": {
+    "memo": "a16z2026-1/memos/advocate.md",
+    "evals": {
+      "cyan-banister": "a16z2026-1/evals/cyan-banister/advocate.md",
+      "elad-gil": "a16z2026-1/evals/elad-gil/advocate.md",
+      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/advocate.md",
+      "paul-graham": "a16z2026-1/evals/paul-graham/advocate.md",
+      "peter-thiel": "a16z2026-1/evals/peter-thiel/advocate.md",
+      "sam-lessin": "a16z2026-1/evals/sam-lessin/advocate.md",
+      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/advocate.md"
+    }
+  }
+}

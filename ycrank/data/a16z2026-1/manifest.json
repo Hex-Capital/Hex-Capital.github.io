@@ -1,0 +1,2333 @@
+{
+  "batch": "a16z2026-1",
+  "companyCount": 60,
+  "personas": [
+    {
+      "slug": "cyan-banister",
+      "fullName": "Cyan Banister",
+      "fund": "Long Journey Ventures",
+      "abbr": "CB"
+    },
+    {
+      "slug": "elad-gil",
+      "fullName": "Elad Gil",
+      "fund": "Color Genomics co-founder, angel/seed investor",
+      "abbr": "EG"
+    },
+    {
+      "slug": "naval-ravikant",
+      "fullName": "Naval Ravikant",
+      "fund": "AngelList founder",
+      "abbr": "NR"
+    },
+    {
+      "slug": "paul-graham",
+      "fullName": "Paul Graham",
+      "fund": "Y Combinator co-founder",
+      "abbr": "PG"
+    },
+    {
+      "slug": "peter-thiel",
+      "fullName": "Peter Thiel",
+      "fund": "Founders Fund",
+      "abbr": "PT"
+    },
+    {
+      "slug": "sam-lessin",
+      "fullName": "Sam Lessin",
+      "fund": "Slow Ventures",
+      "abbr": "SL"
+    },
+    {
+      "slug": "vinod-khosla",
+      "fullName": "Vinod Khosla",
+      "fund": "Khosla Ventures",
+      "abbr": "VK"
+    }
+  ],
+  "table": [
+    {
+      "rank": 1,
+      "name": "Bota",
+      "slug": "bota",
+      "scores": {
+        "CB": 48,
+        "EG": 74,
+        "NR": 69,
+        "PG": 74,
+        "PT": 55,
+        "SL": 56,
+        "VK": 42
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Invest",
+        "NR": "Invest",
+        "PG": "Invest",
+        "PT": "Neutral",
+        "SL": "Neutral",
+        "VK": "Pass"
+      },
+      "avg": 59.71,
+      "revenue": null,
+      "teamSize": 4,
+      "ycPartner": "Gustaf Alstromer; Bota's a16z Speedrun partner not listed",
+      "oneLiner": "Bota is the first AI agent infra for real-world context",
+      "industry": "AI, Developer Tools, B2B /",
+      "location": "Mountain View, California, United States of America",
+      "tags": [
+        "AI",
+        "Developer Tools",
+        "B2B"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 2,
+      "name": "Cedar",
+      "slug": "cedar",
+      "scores": {
+        "CB": 61,
+        "EG": 67,
+        "NR": 77,
+        "PG": 66,
+        "PT": 49,
+        "SL": 52,
+        "VK": 46
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Invest",
+        "NR": "Invest",
+        "PG": "Invest",
+        "PT": "Neutral",
+        "SL": "Neutral",
+        "VK": "Neutral"
+      },
+      "avg": 59.71,
+      "revenue": null,
+      "teamSize": 4,
+      "ycPartner": "Not listed",
+      "oneLiner": "Killing LinkedIn with Agents, from the founding team of HootSuite. $2.5M contracted rev",
+      "industry": "AI, Social Networking, B2B /",
+      "location": "San Francisco, California, United States of America",
+      "tags": [
+        "AI",
+        "Social Networking",
+        "B2B"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 3,
+      "name": "Heavi",
+      "slug": "heavi",
+      "scores": {
+        "CB": 60,
+        "EG": 67,
+        "NR": 70,
+        "PG": 68,
+        "PT": 43,
+        "SL": 56,
+        "VK": 47
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Invest",
+        "NR": "Invest",
+        "PG": "Invest",
+        "PT": "Pass",
+        "SL": "Neutral",
+        "VK": "Neutral"
+      },
+      "avg": 58.71,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Not listed",
+      "oneLiner": "AI workforce for heavy vehicle mechanics. Two 2x founders who raised $200M and $75M prev",
+      "industry": "AI, Marketplace, B2B /",
+      "location": "San Francisco, California, United States of America",
+      "tags": [
+        "AI",
+        "Marketplace",
+        "B2B"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 4,
+      "name": "Kaaro",
+      "slug": "kaaro",
+      "scores": {
+        "CB": 55,
+        "EG": 61,
+        "NR": 69,
+        "PG": 69,
+        "PT": 51,
+        "SL": 58,
+        "VK": 45
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": "Invest",
+        "PG": "Invest",
+        "PT": "Neutral",
+        "SL": "Neutral",
+        "VK": "Neutral"
+      },
+      "avg": 58.29,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Not listed",
+      "oneLiner": "AI Agents for Railways. ex Toma (a16z), Waterloo, UBC",
+      "industry": "AI, B2B",
+      "location": "San Francisco, California, United States of America",
+      "tags": [
+        "AI",
+        "B2B"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 5,
+      "name": "Vereda",
+      "slug": "vereda",
+      "scores": {
+        "CB": 64,
+        "EG": 57,
+        "NR": 65,
+        "PG": 58,
+        "PT": 48,
+        "SL": 61,
+        "VK": 50
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": "Invest",
+        "PG": "Neutral",
+        "PT": "Neutral",
+        "SL": "Neutral",
+        "VK": "Neutral"
+      },
+      "avg": 57.57,
+      "revenue": null,
+      "teamSize": 6,
+      "ycPartner": "Not listed",
+      "oneLiner": "The AI procurement agent for agriculture",
+      "industry": "AI, Marketplace, Fintech",
+      "location": "Rio Verde, Brazil",
+      "tags": [
+        "AI",
+        "Marketplace",
+        "Fintech"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 6,
+      "name": "Third Space",
+      "slug": "third-space",
+      "scores": {
+        "CB": 65,
+        "EG": 55,
+        "NR": 65,
+        "PG": 71,
+        "PT": 46,
+        "SL": 57,
+        "VK": 41
+      },
+      "tiers": {
+        "CB": "Invest",
+        "EG": "Neutral",
+        "NR": "Invest",
+        "PG": "Invest",
+        "PT": "Neutral",
+        "SL": "Neutral",
+        "VK": "Pass"
+      },
+      "avg": 57.14,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Not listed",
+      "oneLiner": "Verticalized AI-native insurance broker for brick-and-mortar, starting with nightlife. Ex Ramp, Yale founders",
+      "industry": "AI, Fintech, B2B /",
+      "location": "Brooklyn, New York, United States of America",
+      "tags": [
+        "AI",
+        "Fintech",
+        "B2B"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 7,
+      "name": "Prior Foundry",
+      "slug": "prior-foundry",
+      "scores": {
+        "CB": 60,
+        "EG": 58,
+        "NR": 68,
+        "PG": 56,
+        "PT": 46,
+        "SL": 46,
+        "VK": 56
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": "Invest",
+        "PG": "Neutral",
+        "PT": "Neutral",
+        "SL": "Neutral",
+        "VK": "Neutral"
+      },
+      "avg": 55.71,
+      "revenue": null,
+      "teamSize": 3,
+      "ycPartner": "Not listed",
+      "oneLiner": "Simulate how entire populations respond to decisions before they're made.",
+      "industry": "AI /",
+      "location": "San Francisco, California, United States of America",
+      "tags": [
+        "AI"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 8,
+      "name": "August",
+      "slug": "august",
+      "scores": {
+        "CB": 49,
+        "EG": 70,
+        "NR": 65,
+        "PG": 54,
+        "PT": 51,
+        "SL": 43,
+        "VK": 56
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Invest",
+        "NR": "Invest",
+        "PG": "Neutral",
+        "PT": "Neutral",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 55.43,
+      "revenue": null,
+      "teamSize": 3,
+      "ycPartner": "Not listed",
+      "oneLiner": "AI software to run an autonomous bank; $800K ARR in 3 months",
+      "industry": "AI, Fintech, B2B /",
+      "location": "Tel Aviv, Israel",
+      "tags": [
+        "AI",
+        "Fintech",
+        "B2B"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 9,
+      "name": "Miraka",
+      "slug": "miraka",
+      "scores": {
+        "CB": 56,
+        "EG": 47,
+        "NR": 54,
+        "PG": 68,
+        "PT": 50,
+        "SL": 51,
+        "VK": 53
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Invest",
+        "PT": "Neutral",
+        "SL": "Neutral",
+        "VK": "Neutral"
+      },
+      "avg": 54.14,
+      "revenue": null,
+      "teamSize": 3,
+      "ycPartner": "Not listed",
+      "oneLiner": "The AI-Powered Cardiac Care Team",
+      "industry": "Healthcare, AI /",
+      "location": "New York, New York, United States of America",
+      "tags": [
+        "Healthcare",
+        "AI"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 10,
+      "name": "Bilrost",
+      "slug": "bilrost",
+      "scores": {
+        "CB": 48,
+        "EG": 72,
+        "NR": 63,
+        "PG": 61,
+        "PT": 46,
+        "SL": 39,
+        "VK": 43
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Invest",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Neutral",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 53.14,
+      "revenue": null,
+      "teamSize": 5,
+      "ycPartner": "Not listed",
+      "oneLiner": "Bilrost automates the most complicated commercial loan processing. $680K ARR in 5 weeks and 7 figure deal closing shortly",
+      "industry": "AI, Fintech, B2B",
+      "location": "Oakland, California, United States of America",
+      "tags": [
+        "AI",
+        "Fintech",
+        "B2B"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 11,
+      "name": "Clair Health",
+      "slug": "clair-health",
+      "scores": {
+        "CB": 55,
+        "EG": 32,
+        "NR": 62,
+        "PG": 53,
+        "PT": 45,
+        "SL": 54,
+        "VK": 63
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Neutral",
+        "SL": "Neutral",
+        "VK": "Neutral"
+      },
+      "avg": 52,
+      "revenue": null,
+      "teamSize": 7,
+      "ycPartner": "Not listed",
+      "oneLiner": "We're building the first continuous hormone monitor.",
+      "industry": "Healthcare, Deep Tech, Fitness",
+      "location": "Mountain View, California, United States of America",
+      "tags": [
+        "Healthcare",
+        "Deep Tech",
+        "Fitness"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 12,
+      "name": "Syncere",
+      "slug": "syncere",
+      "scores": {
+        "CB": 47,
+        "EG": 35,
+        "NR": 60,
+        "PG": 51,
+        "PT": 52,
+        "SL": 56,
+        "VK": 62
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Neutral",
+        "SL": "Neutral",
+        "VK": "Neutral"
+      },
+      "avg": 51.86,
+      "revenue": null,
+      "teamSize": 8,
+      "ycPartner": "Not listed",
+      "oneLiner": "Robot lamps that do your chores.",
+      "industry": "Robotics /",
+      "location": "Palo Alto, California, United States of America",
+      "tags": [
+        "Robotics"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 13,
+      "name": "Quanto",
+      "slug": "quanto",
+      "scores": {
+        "CB": 49,
+        "EG": 58,
+        "NR": 67,
+        "PG": 69,
+        "PT": 39,
+        "SL": 38,
+        "VK": 39
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": "Invest",
+        "PG": "Invest",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 51.29,
+      "revenue": null,
+      "teamSize": 6,
+      "ycPartner": "Not listed",
+      "oneLiner": "AI Workforce for Accounting Firms to Grow Revenue and Margins",
+      "industry": "AI, Fintech /",
+      "location": "Toronto, Canada",
+      "tags": [
+        "AI",
+        "Fintech"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 14,
+      "name": "PayPath",
+      "slug": "paypath",
+      "scores": {
+        "CB": 49,
+        "EG": 66,
+        "NR": 54,
+        "PG": 55,
+        "PT": 40,
+        "SL": 50,
+        "VK": 43
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Invest",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Neutral",
+        "VK": "Pass"
+      },
+      "avg": 51,
+      "revenue": null,
+      "teamSize": 3,
+      "ycPartner": "Not listed",
+      "oneLiner": "The AI Operating System Powering Modern Debt.",
+      "industry": "AI, Fintech, B2B",
+      "location": "NYC, New York, United States of America",
+      "tags": [
+        "AI",
+        "Fintech",
+        "B2B"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 15,
+      "name": "Acceler8",
+      "slug": "acceler8",
+      "scores": {
+        "CB": 47,
+        "EG": 63,
+        "NR": 59,
+        "PG": 56,
+        "PT": 45,
+        "SL": 41,
+        "VK": 45
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Neutral",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 50.86,
+      "revenue": null,
+      "teamSize": 15,
+      "ycPartner": "Not listed",
+      "oneLiner": "AI for Workforce Intelligence & Planning",
+      "industry": "AI, B2B /",
+      "location": "San Francisco, California, United States of America",
+      "tags": [
+        "AI",
+        "B2B"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 16,
+      "name": "Cascade",
+      "slug": "cascade",
+      "scores": {
+        "CB": 48,
+        "EG": 67,
+        "NR": 52,
+        "PG": 59,
+        "PT": 44,
+        "SL": 44,
+        "VK": 40
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Invest",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 50.57,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Not listed",
+      "oneLiner": "AI Platform that finds & wins more projects for architecture & construction firms.",
+      "industry": "AI, B2B",
+      "location": "San Francisco, California, United States of America",
+      "tags": [
+        "AI",
+        "B2B"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 17,
+      "name": "SafeWorld",
+      "slug": "safeworld",
+      "scores": {
+        "CB": 45,
+        "EG": 70,
+        "NR": 57,
+        "PG": 46,
+        "PT": 39,
+        "SL": 42,
+        "VK": 54
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Invest",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 50.43,
+      "revenue": null,
+      "teamSize": 6,
+      "ycPartner": "Not listed",
+      "oneLiner": "Making robots safe",
+      "industry": "AI, AI Models/Infrastructure, Robotics /",
+      "location": "Palo Alto, California, United States of America",
+      "tags": [
+        "AI",
+        "AI Models/Infrastructure",
+        "Robotics"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 18,
+      "name": "ZeroDrift",
+      "slug": "zerodrift",
+      "scores": {
+        "CB": 41,
+        "EG": 70,
+        "NR": 68,
+        "PG": 52,
+        "PT": 45,
+        "SL": 40,
+        "VK": 37
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Invest",
+        "NR": "Invest",
+        "PG": "Neutral",
+        "PT": "Neutral",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 50.43,
+      "revenue": null,
+      "teamSize": 6,
+      "ycPartner": "Not listed",
+      "oneLiner": "ZeroDrift makes every message compliant before it's sent. 2x founder (raised $50M). $150K ARR, 50%+ MoM",
+      "industry": "AI, AI Models/Infrastructure, Fintech /",
+      "location": "New York, New York, United States of America",
+      "tags": [
+        "AI",
+        "AI Models/Infrastructure",
+        "Fintech"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 19,
+      "name": "Straia",
+      "slug": "straia",
+      "scores": {
+        "CB": 50,
+        "EG": 60,
+        "NR": 70,
+        "PG": 48,
+        "PT": 46,
+        "SL": 33,
+        "VK": 44
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": "Invest",
+        "PG": "Neutral",
+        "PT": "Neutral",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 50.14,
+      "revenue": null,
+      "teamSize": 6,
+      "ycPartner": "Emily Bennett",
+      "oneLiner": "The agentic AI platform for higher education ($4.5M cARR in 4 weeks)",
+      "industry": "AI, EdTech, B2B",
+      "location": "San Francisco, California, United States of America",
+      "tags": [
+        "AI",
+        "EdTech",
+        "B2B"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 20,
+      "name": "Mirror Mirror AI",
+      "slug": "mirror-mirror-ai",
+      "scores": {
+        "CB": 58,
+        "EG": 44,
+        "NR": 63,
+        "PG": 58,
+        "PT": 34,
+        "SL": 46,
+        "VK": 40
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Neutral",
+        "VK": "Pass"
+      },
+      "avg": 49,
+      "revenue": null,
+      "teamSize": 8,
+      "ycPartner": "Not applicable — company is in a16z Speedrun, not Y Combinator",
+      "oneLiner": "The marketplace for licensing likeness for content & usage",
+      "industry": "AI, Marketplace /",
+      "location": "San Francisco, California, United States of America",
+      "tags": [
+        "AI",
+        "Marketplace"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 21,
+      "name": "Auto",
+      "slug": "auto",
+      "scores": {
+        "CB": 43,
+        "EG": 43,
+        "NR": 74,
+        "PG": 63,
+        "PT": 37,
+        "SL": 37,
+        "VK": 43
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Invest",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 48.57,
+      "revenue": null,
+      "teamSize": 3,
+      "ycPartner": "Not listed",
+      "oneLiner": "Personal apps for anything you point your camera at.",
+      "industry": "AI",
+      "location": "Los Angeles, California, United States of America",
+      "tags": [
+        "AI"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 22,
+      "name": "Piper-ai",
+      "slug": "piper-ai",
+      "scores": {
+        "CB": 51,
+        "EG": 52,
+        "NR": 57,
+        "PG": 56,
+        "PT": 41,
+        "SL": 36,
+        "VK": 45
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 48.29,
+      "revenue": null,
+      "teamSize": 7,
+      "ycPartner": "Not listed",
+      "oneLiner": "The AI workforce for construction.",
+      "industry": "B2B, AI /",
+      "location": "SF, California, United States of America",
+      "tags": [
+        "B2B",
+        "AI"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 23,
+      "name": "Hammock",
+      "slug": "hammock",
+      "scores": {
+        "CB": 51,
+        "EG": 59,
+        "NR": 57,
+        "PG": 49,
+        "PT": 42,
+        "SL": 38,
+        "VK": 40
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 48,
+      "revenue": null,
+      "teamSize": 3,
+      "ycPartner": "Not listed",
+      "oneLiner": "The only HSA/FSA agent that covers wellness. 2x founder ($50M ARR, $50M raised) and VP of Product @ Weight Watchers",
+      "industry": "AI, Fintech, Healthcare /",
+      "location": "Brooklyn, New York, United States of America",
+      "tags": [
+        "AI",
+        "Fintech",
+        "Healthcare"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 24,
+      "name": "Crebit",
+      "slug": "crebit",
+      "scores": {
+        "CB": 56,
+        "EG": 46,
+        "NR": 56,
+        "PG": 54,
+        "PT": 36,
+        "SL": 39,
+        "VK": 45
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 47.43,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Not listed",
+      "oneLiner": "Stablecoin Infrastructure for Payments into the U.S.",
+      "industry": "Fintech",
+      "location": "San Francisco, California, United States of America (registered office: 1522 Western Ave STE 24214, Seattle, WA 98101 per IssueWire)",
+      "tags": [
+        "Fintech"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 25,
+      "name": "snag",
+      "slug": "snag",
+      "scores": {
+        "CB": 53,
+        "EG": 38,
+        "NR": 61,
+        "PG": 56,
+        "PT": 36,
+        "SL": 46,
+        "VK": 42
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Neutral",
+        "VK": "Pass"
+      },
+      "avg": 47.43,
+      "revenue": null,
+      "teamSize": 4,
+      "ycPartner": "Not listed",
+      "oneLiner": "snag is where GenZ finds affordable, flexible housing.",
+      "industry": "Marketplace, B2C /",
+      "location": "New York, New York, United States of America",
+      "tags": [
+        "Marketplace",
+        "B2C"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 26,
+      "name": "Quinn",
+      "slug": "quinn",
+      "scores": {
+        "CB": 45,
+        "EG": 54,
+        "NR": 52,
+        "PG": 53,
+        "PT": 40,
+        "SL": 36,
+        "VK": 50
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 47.14,
+      "revenue": null,
+      "teamSize": 10,
+      "ycPartner": "Not listed",
+      "oneLiner": "Quinn is the workforce training and intelligence platform for the 2.7B blue-collar and deskless workers.",
+      "industry": "B2B, AI /",
+      "location": "New York, New York, United States of America",
+      "tags": [
+        "B2B",
+        "AI"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 27,
+      "name": "Antihero Studios",
+      "slug": "antihero-studios",
+      "scores": {
+        "CB": 40,
+        "EG": 40,
+        "NR": 64,
+        "PG": 53,
+        "PT": 48,
+        "SL": 42,
+        "VK": 40
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Neutral",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 46.71,
+      "revenue": null,
+      "teamSize": 10,
+      "ycPartner": "Not listed",
+      "oneLiner": "Creating \"Games Worth Sharing\". Our team were leads on 8 different $1B/year games",
+      "industry": "Games Studio /",
+      "location": "Barcelona, Spain",
+      "tags": [
+        "Games Studio"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 28,
+      "name": "Oasiz",
+      "slug": "oasiz",
+      "scores": {
+        "CB": 39,
+        "EG": 38,
+        "NR": 67,
+        "PG": 50,
+        "PT": 41,
+        "SL": 39,
+        "VK": 48
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Invest",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 46,
+      "revenue": null,
+      "teamSize": 4,
+      "ycPartner": "Not listed",
+      "oneLiner": "The interactive social distribution platform for software.",
+      "industry": "AI, Social Networking, B2C /",
+      "location": "San Francisco, California, United States of America",
+      "tags": [
+        "AI",
+        "Social Networking",
+        "B2C"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 29,
+      "name": "Hotbox",
+      "slug": "hotbox",
+      "scores": {
+        "CB": 38,
+        "EG": 47,
+        "NR": 67,
+        "PG": 47,
+        "PT": 39,
+        "SL": 38,
+        "VK": 44
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Invest",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 45.71,
+      "revenue": null,
+      "teamSize": 3,
+      "ycPartner": "Not listed",
+      "oneLiner": "Predictive intelligence for social commerce, $350k ARR",
+      "industry": "AI, Advertising/Marketing, Social Networking",
+      "location": "San Francisco, California, United States of America",
+      "tags": [
+        "AI",
+        "Advertising/Marketing",
+        "Social Networking"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 30,
+      "name": "Taxnova",
+      "slug": "taxnova",
+      "scores": {
+        "CB": 47,
+        "EG": 61,
+        "NR": 56,
+        "PG": 44,
+        "PT": 35,
+        "SL": 39,
+        "VK": 38
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 45.71,
+      "revenue": null,
+      "teamSize": 5,
+      "ycPartner": "Not listed",
+      "oneLiner": "AI infrastructure to streamline the $10B R&D tax market",
+      "industry": "AI, B2B",
+      "location": "San Francisco, California, United States of America (note: multiple sources describe the company as London-based (The SaaS News, Feb 2026; Fintech Global, Feb 2026); website states EU-hosted on Google Cloud)",
+      "tags": [
+        "AI",
+        "B2B"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 31,
+      "name": "Coalition Systems",
+      "slug": "coalition-systems",
+      "scores": {
+        "CB": 56,
+        "EG": 52,
+        "NR": 40,
+        "PG": 44,
+        "PT": 43,
+        "SL": 40,
+        "VK": 42
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 45.29,
+      "revenue": null,
+      "teamSize": 4,
+      "ycPartner": "Not listed",
+      "oneLiner": "AI coordination software for allied defense.",
+      "industry": "Defense Tech, Deep Tech, AI Models/Infrastructure",
+      "location": "San Francisco, California, United States of America",
+      "tags": [
+        "Defense Tech",
+        "Deep Tech",
+        "AI Models/Infrastructure"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 32,
+      "name": "Idilio",
+      "slug": "idilio",
+      "scores": {
+        "CB": 45,
+        "EG": 33,
+        "NR": 60,
+        "PG": 57,
+        "PT": 36,
+        "SL": 40,
+        "VK": 44
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 45,
+      "revenue": null,
+      "teamSize": 9,
+      "ycPartner": "Not listed",
+      "oneLiner": "The future of serialized storytelling",
+      "industry": "Media/Animation /",
+      "location": "Bogota, Colombia",
+      "tags": [
+        "Media/Animation"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 33,
+      "name": "Quo Labs",
+      "slug": "quo-labs",
+      "scores": {
+        "CB": 47,
+        "EG": 31,
+        "NR": 45,
+        "PG": 63,
+        "PT": 38,
+        "SL": 36,
+        "VK": 53
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 44.71,
+      "revenue": null,
+      "teamSize": 3,
+      "ycPartner": "Not listed",
+      "oneLiner": "AI caretaker for seniors",
+      "industry": "Robotics, AI, Healthcare /",
+      "location": "San Francisco, California, United States of America",
+      "tags": [
+        "Robotics",
+        "AI",
+        "Healthcare"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 34,
+      "name": "Modern Industrials",
+      "slug": "modern-industrials",
+      "scores": {
+        "CB": 45,
+        "EG": 51,
+        "NR": 55,
+        "PG": 49,
+        "PT": 38,
+        "SL": 36,
+        "VK": 37
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 44.43,
+      "revenue": null,
+      "teamSize": 4,
+      "ycPartner": "Not listed",
+      "oneLiner": "The AI Workforce for Building Materials Distribution.",
+      "industry": "AI, B2B",
+      "location": "New York, New York, United States of America",
+      "tags": [
+        "AI",
+        "B2B"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 35,
+      "name": "Belong",
+      "slug": "belong",
+      "scores": {
+        "CB": 51,
+        "EG": 38,
+        "NR": 58,
+        "PG": 43,
+        "PT": 41,
+        "SL": 42,
+        "VK": 37
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 44.29,
+      "revenue": null,
+      "teamSize": 9,
+      "ycPartner": "Not listed",
+      "oneLiner": "Building the Financial Infrastructure of Fandom.",
+      "industry": "Social Networking, Fintech, Marketplace",
+      "location": "New York, New York, United States of America",
+      "tags": [
+        "Social Networking",
+        "Fintech",
+        "Marketplace"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 36,
+      "name": "Advocate",
+      "slug": "advocate",
+      "scores": {
+        "CB": 54,
+        "EG": 47,
+        "NR": 55,
+        "PG": 49,
+        "PT": 31,
+        "SL": 35,
+        "VK": 36
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 43.86,
+      "revenue": null,
+      "teamSize": 4,
+      "ycPartner": "Not listed",
+      "oneLiner": "The AI-native system for easy & reimbursable care coordination",
+      "industry": "AI, Healthcare, B2B /",
+      "location": "New York, New York, United States of America",
+      "tags": [
+        "AI",
+        "Healthcare",
+        "B2B"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 37,
+      "name": "Sellara",
+      "slug": "sellara",
+      "scores": {
+        "CB": 39,
+        "EG": 49,
+        "NR": 55,
+        "PG": 52,
+        "PT": 39,
+        "SL": 34,
+        "VK": 39
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 43.86,
+      "revenue": null,
+      "teamSize": 4,
+      "ycPartner": "Not listed",
+      "oneLiner": "Applied AI For Institutional Trading & Operations",
+      "industry": "Fintech",
+      "location": "NYC, New York, United States of America",
+      "tags": [
+        "Fintech"
+      ],
+      "scoreTips": {
+        "PG": "The two dimensions that most determined this score are Organic Problem Discovery, where Secord's history of building automations at Citi provides a..."
+      },
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 38,
+      "name": "Concorda",
+      "slug": "concorda",
+      "scores": {
+        "CB": 40,
+        "EG": 42,
+        "NR": 54,
+        "PG": 53,
+        "PT": 38,
+        "SL": 33,
+        "VK": 41
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 43,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Not listed",
+      "oneLiner": "Concorda is building the AI operating system for trial lawyers.",
+      "industry": "AI, B2B /",
+      "location": "San Francisco, California, United States of America",
+      "tags": [
+        "AI",
+        "B2B"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 39,
+      "name": "Grove Tax",
+      "slug": "grove-tax",
+      "scores": {
+        "CB": 40,
+        "EG": 47,
+        "NR": 58,
+        "PG": 46,
+        "PT": 32,
+        "SL": 35,
+        "VK": 41
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 42.71,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Not listed",
+      "oneLiner": "AI Workforce for Tax Firms from ex Airbnb, Intuit team",
+      "industry": "AI, Fintech, B2B /",
+      "location": "San Francisco, California, United States of America",
+      "tags": [
+        "AI",
+        "Fintech",
+        "B2B"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 40,
+      "name": "Emanate",
+      "slug": "emanate",
+      "scores": {
+        "CB": 46,
+        "EG": 46,
+        "NR": 47,
+        "PG": 42,
+        "PT": 39,
+        "SL": 36,
+        "VK": 42
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 42.57,
+      "revenue": null,
+      "teamSize": 7,
+      "ycPartner": "Not listed",
+      "oneLiner": "The First AI Revenue Engine Built for the Physical Economy.",
+      "industry": "AI, B2B",
+      "location": "San Francisco, California, United States of America",
+      "tags": [
+        "AI",
+        "B2B"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 41,
+      "name": "Amdahl",
+      "slug": "amdahl",
+      "scores": {
+        "CB": 37,
+        "EG": 53,
+        "NR": 55,
+        "PG": 44,
+        "PT": 34,
+        "SL": 35,
+        "VK": 38
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 42.29,
+      "revenue": null,
+      "teamSize": 5,
+      "ycPartner": "Not listed",
+      "oneLiner": "Automated strategy and decisioning for Enterprise GTM agents (ex-Databricks, Coinbase team, $4m pipeline)",
+      "industry": "Advertising/Marketing, B2B, AI Models/Infrastructure",
+      "location": "San Francisco, California, United States of America",
+      "tags": [
+        "Advertising/Marketing",
+        "B2B",
+        "AI Models/Infrastructure"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 42,
+      "name": "Pluvo",
+      "slug": "pluvo",
+      "scores": {
+        "CB": 41,
+        "EG": 49,
+        "NR": 55,
+        "PG": 45,
+        "PT": 36,
+        "SL": 30,
+        "VK": 39
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 42.14,
+      "revenue": null,
+      "teamSize": 14,
+      "ycPartner": "Not applicable — company is in a16z speedrun, not YC. Selected from 19,000+ applicants.",
+      "oneLiner": "AI Decision Engine for Modern Enterprise. 430k ARR in 3 months",
+      "industry": "AI, B2B, AI Models/Infrastructure",
+      "location": "San Francisco, California, United States of America",
+      "tags": [
+        "AI",
+        "B2B",
+        "AI Models/Infrastructure"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 43,
+      "name": "Sentra",
+      "slug": "sentra",
+      "scores": {
+        "CB": 38,
+        "EG": 43,
+        "NR": 53,
+        "PG": 48,
+        "PT": 35,
+        "SL": 33,
+        "VK": 44
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 42,
+      "revenue": null,
+      "teamSize": 12,
+      "ycPartner": "Not listed",
+      "oneLiner": "The foundational memory for Enterprise General Intelligence.",
+      "industry": "AI, B2B, AI Models/Infrastructure",
+      "location": "San Francisco, California, United States of America",
+      "tags": [
+        "AI",
+        "B2B",
+        "AI Models/Infrastructure"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 44,
+      "name": "Sirius Technology",
+      "slug": "sirius-technology",
+      "scores": {
+        "CB": 37,
+        "EG": 51,
+        "NR": 51,
+        "PG": 44,
+        "PT": 37,
+        "SL": 32,
+        "VK": 41
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 41.86,
+      "revenue": null,
+      "teamSize": 15,
+      "ycPartner": "Not listed",
+      "oneLiner": "AI Retention Platform for Subscription Companies. $3M ARR",
+      "industry": "AI, B2B, AI Models/Infrastructure /",
+      "location": "San Francisco, California, United States of America",
+      "tags": [
+        "AI",
+        "B2B",
+        "AI Models/Infrastructure"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 45,
+      "name": "Sparta",
+      "slug": "sparta",
+      "scores": {
+        "CB": 39,
+        "EG": 47,
+        "NR": 50,
+        "PG": 41,
+        "PT": 34,
+        "SL": 34,
+        "VK": 43
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 41.14,
+      "revenue": null,
+      "teamSize": 3,
+      "ycPartner": "Not listed",
+      "oneLiner": "Adaptive data transfer optimization for high-performance infrastructure.",
+      "industry": "AI, Deep Tech, AI Models/Infrastructure /",
+      "location": "San Fransisco, California, United States of America",
+      "tags": [
+        "AI",
+        "Deep Tech",
+        "AI Models/Infrastructure"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 46,
+      "name": "VariantNow",
+      "slug": "variantnow",
+      "scores": {
+        "CB": 36,
+        "EG": 47,
+        "NR": 52,
+        "PG": 42,
+        "PT": 36,
+        "SL": 34,
+        "VK": 41
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 41.14,
+      "revenue": null,
+      "teamSize": 6,
+      "ycPartner": "Not listed",
+      "oneLiner": "AI Infrastructure for the Adaptive Web [$500K ARR, 2x MoM]",
+      "industry": "AI, B2B, Advertising/Marketing /",
+      "location": "Tel Aviv-Yafo, Israel",
+      "tags": [
+        "AI",
+        "B2B",
+        "Advertising/Marketing"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 47,
+      "name": "Omi Health",
+      "slug": "omi-health",
+      "scores": {
+        "CB": 39,
+        "EG": 44,
+        "NR": 43,
+        "PG": 45,
+        "PT": 36,
+        "SL": 38,
+        "VK": 40
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 40.71,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Not listed",
+      "oneLiner": "Function Health for Pets.",
+      "industry": "Healthcare, AI, B2C",
+      "location": "New York, New York, United States of America",
+      "tags": [
+        "Healthcare",
+        "AI",
+        "B2C"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 48,
+      "name": "Snapp Stats",
+      "slug": "snapp-stats",
+      "scores": {
+        "CB": 44,
+        "EG": 39,
+        "NR": 47,
+        "PG": 46,
+        "PT": 34,
+        "SL": 32,
+        "VK": 43
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 40.71,
+      "revenue": null,
+      "teamSize": 6,
+      "ycPartner": "Not listed",
+      "oneLiner": "24/7 AI Agent for Sports. From sports content to action, instantly. Built by the founder of Caviar",
+      "industry": "AI, B2C, B2B / Sports, Computer Vision, Analytics, Conversational AI, Generative AI (Built In SF)",
+      "location": "San Francisco, California, United States of America",
+      "tags": [
+        "AI",
+        "B2C",
+        "B2B"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 49,
+      "name": "Alike",
+      "slug": "alike",
+      "scores": {
+        "CB": 38,
+        "EG": 47,
+        "NR": 50,
+        "PG": 38,
+        "PT": 31,
+        "SL": 37,
+        "VK": 43
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 40.57,
+      "revenue": null,
+      "teamSize": 4,
+      "ycPartner": "Not listed",
+      "oneLiner": "The Agent Collaboration Layer for Enterprises",
+      "industry": "AI, Deep Tech, B2B",
+      "location": "San Francisco, California, United States of America",
+      "tags": [
+        "AI",
+        "Deep Tech",
+        "B2B"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 50,
+      "name": "Mercury",
+      "slug": "mercury",
+      "scores": {
+        "CB": 35,
+        "EG": 43,
+        "NR": 51,
+        "PG": 44,
+        "PT": 37,
+        "SL": 31,
+        "VK": 42
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 40.43,
+      "revenue": null,
+      "teamSize": 5,
+      "ycPartner": "Not listed",
+      "oneLiner": "Ex. Palantir FDEs building no-code multi agent orchestration.",
+      "industry": "Creative Tools, AI Models/Infrastructure, B2B",
+      "location": "New York, New York, United States of America",
+      "tags": [
+        "Creative Tools",
+        "AI Models/Infrastructure",
+        "B2B"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 51,
+      "name": "Modaic",
+      "slug": "modaic",
+      "scores": {
+        "CB": 39,
+        "EG": 43,
+        "NR": 48,
+        "PG": 45,
+        "PT": 31,
+        "SL": 31,
+        "VK": 39
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 39.43,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Not listed",
+      "oneLiner": "Alignment for AI decisions. In design partnerships with Accenture, Dropbox, and Vercel.",
+      "industry": "AI Models/Infrastructure, AI",
+      "location": "San Francisco, California, United States of America",
+      "tags": [
+        "AI Models/Infrastructure",
+        "AI"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 52,
+      "name": "Loops AI",
+      "slug": "loops-ai",
+      "scores": {
+        "CB": 41,
+        "EG": 42,
+        "NR": 45,
+        "PG": 42,
+        "PT": 37,
+        "SL": 31,
+        "VK": 37
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 39.29,
+      "revenue": null,
+      "teamSize": 12,
+      "ycPartner": "Not listed",
+      "oneLiner": "TuAgentic AI & AI search for commerce with $500k ARR from top brands",
+      "industry": "AI, B2B",
+      "location": "San Francisco, California, United States of America",
+      "tags": [
+        "AI",
+        "B2B"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 53,
+      "name": "Meridian",
+      "slug": "meridian",
+      "scores": {
+        "CB": 38,
+        "EG": 41,
+        "NR": 53,
+        "PG": 42,
+        "PT": 35,
+        "SL": 29,
+        "VK": 35
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 39,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Not listed",
+      "oneLiner": "Ex. OpenAI, Palantir, Sandia Labs building Meridian. The AI operating system for consulting firms",
+      "industry": "B2B, AI, AI Models/Infrastructure",
+      "location": "San Francisco, California, United States of America",
+      "tags": [
+        "B2B",
+        "AI",
+        "AI Models/Infrastructure"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 54,
+      "name": "Panorama",
+      "slug": "panorama",
+      "scores": {
+        "CB": 36,
+        "EG": 42,
+        "NR": 51,
+        "PG": 40,
+        "PT": 31,
+        "SL": 34,
+        "VK": 39
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 39,
+      "revenue": null,
+      "teamSize": 4,
+      "ycPartner": "Not listed",
+      "oneLiner": "Enterprise AI workflow enablement built by an ex-Cash App, Lyft, Google, and MIT PhD team",
+      "industry": "AI, B2B /",
+      "location": "San Francisco, California, United States of America",
+      "tags": [
+        "AI",
+        "B2B"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 55,
+      "name": "Smart Bricks",
+      "slug": "smart-bricks",
+      "scores": {
+        "CB": 42,
+        "EG": 41,
+        "NR": 45,
+        "PG": 35,
+        "PT": 39,
+        "SL": 30,
+        "VK": 36
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 38.29,
+      "revenue": null,
+      "teamSize": 20,
+      "ycPartner": "Not listed",
+      "oneLiner": "The next generation of AI-native real estate investing",
+      "industry": "AI, AI Models/Infrastructure, Fintech /",
+      "location": "San Francisco, California, United States of America",
+      "tags": [
+        "AI",
+        "AI Models/Infrastructure",
+        "Fintech"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 56,
+      "name": "Thirdbrain Labs",
+      "slug": "thirdbrain-labs",
+      "scores": {
+        "CB": 36,
+        "EG": 43,
+        "NR": 43,
+        "PG": 41,
+        "PT": 29,
+        "SL": 29,
+        "VK": 41
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 37.43,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Not listed",
+      "oneLiner": "Unlocking the next one billion specialized models",
+      "industry": "Robotics, AI Models/Infrastructure, B2B /",
+      "location": "San Francisco, California, United States of America",
+      "tags": [
+        "Robotics",
+        "AI Models/Infrastructure",
+        "B2B"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 57,
+      "name": "SUN",
+      "slug": "sun",
+      "scores": {
+        "CB": 33,
+        "EG": 34,
+        "NR": 49,
+        "PG": 43,
+        "PT": 30,
+        "SL": 31,
+        "VK": 40
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 37.14,
+      "revenue": null,
+      "teamSize": 3,
+      "ycPartner": "Not listed",
+      "oneLiner": "The new era of audio, built around you",
+      "industry": "AI, Publishing, B2C /",
+      "location": "Palo Alto, California, United States of America",
+      "tags": [
+        "AI",
+        "Publishing",
+        "B2C"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 58,
+      "name": "PartyHat",
+      "slug": "partyhat",
+      "scores": {
+        "CB": 36,
+        "EG": 35,
+        "NR": 49,
+        "PG": 39,
+        "PT": 27,
+        "SL": 34,
+        "VK": 34
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 36.29,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Not listed",
+      "oneLiner": "Disrupting consumer cybersecurity -- founded by prev cyber and gaming co execs",
+      "industry": "AI, B2C /",
+      "location": "San Francisco, California, United States of America",
+      "tags": [
+        "AI",
+        "B2C"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 59,
+      "name": "Simula",
+      "slug": "simula",
+      "scores": {
+        "CB": 33,
+        "EG": 37,
+        "NR": 46,
+        "PG": 39,
+        "PT": 29,
+        "SL": 30,
+        "VK": 40
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 36.29,
+      "revenue": null,
+      "teamSize": 5,
+      "ycPartner": "Not listed",
+      "oneLiner": "Living AI native ad infrastructure, integrating into AI platforms with 6M+ DAUs",
+      "industry": "AI, Advertising/Marketing, B2B /",
+      "location": "San Francisco, California, United States of America",
+      "tags": [
+        "AI",
+        "Advertising/Marketing",
+        "B2B"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    },
+    {
+      "rank": 60,
+      "name": "PicPet",
+      "slug": "picpet",
+      "scores": {
+        "CB": 28,
+        "EG": 33,
+        "NR": 50,
+        "PG": 37,
+        "PT": 35,
+        "SL": 38,
+        "VK": 32
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 36.14,
+      "revenue": null,
+      "teamSize": 6,
+      "ycPartner": "Not listed",
+      "oneLiner": "Social messaging platform where friendships feed virtual pets. >200K DAU and >45% D90 bounded retention",
+      "industry": "Social Networking /",
+      "location": "San Francisco, California, United States of America",
+      "tags": [
+        "Social Networking"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-10"
+    }
+  ],
+  "disagreements": [],
+  "convergenceWarnings": [
+    {
+      "company": "Omi Health",
+      "avg": 40.71,
+      "range": 9
+    }
+  ],
+  "correlationMatrix": [
+    {
+      "persona": "CB",
+      "values": {
+        "CB": null,
+        "EG": 0.42,
+        "NR": 0.5,
+        "PG": 0.68,
+        "PT": 0.59,
+        "SL": 0.74,
+        "VK": 0.43
+      }
+    },
+    {
+      "persona": "EG",
+      "values": {
+        "CB": 0.42,
+        "EG": null,
+        "NR": 0.46,
+        "PG": 0.46,
+        "PT": 0.54,
+        "SL": 0.38,
+        "VK": 0.1
+      }
+    },
+    {
+      "persona": "NR",
+      "values": {
+        "CB": 0.5,
+        "EG": 0.46,
+        "NR": null,
+        "PG": 0.67,
+        "PT": 0.6,
+        "SL": 0.59,
+        "VK": 0.3
+      }
+    },
+    {
+      "persona": "PG",
+      "values": {
+        "CB": 0.68,
+        "EG": 0.46,
+        "NR": 0.67,
+        "PG": null,
+        "PT": 0.65,
+        "SL": 0.7,
+        "VK": 0.37
+      }
+    },
+    {
+      "persona": "PT",
+      "values": {
+        "CB": 0.59,
+        "EG": 0.54,
+        "NR": 0.6,
+        "PG": 0.65,
+        "PT": null,
+        "SL": 0.73,
+        "VK": 0.53
+      }
+    },
+    {
+      "persona": "SL",
+      "values": {
+        "CB": 0.74,
+        "EG": 0.38,
+        "NR": 0.59,
+        "PG": 0.7,
+        "PT": 0.73,
+        "SL": null,
+        "VK": 0.52
+      }
+    },
+    {
+      "persona": "VK",
+      "values": {
+        "CB": 0.43,
+        "EG": 0.1,
+        "NR": 0.3,
+        "PG": 0.37,
+        "PT": 0.53,
+        "SL": 0.52,
+        "VK": null
+      }
+    }
+  ]
+}

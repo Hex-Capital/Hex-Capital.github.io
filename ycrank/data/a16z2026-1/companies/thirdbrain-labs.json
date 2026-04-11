@@ -1,0 +1,76 @@
+{
+  "slug": "thirdbrain-labs",
+  "name": "Thirdbrain Labs",
+  "oneLiner": "Unlocking the next one billion specialized models",
+  "metadata": {
+    "website": "https://thirdbrainlabs.ai",
+    "yc_page": "https://speedrun.a16z.com/companies/thirdbrain-labs",
+    "batch": "No public data found (provided URL points to a16z Speedrun, not YC; page returned 404 at time of research; no YC listing found on ycombinator.com)",
+    "industry": "Robotics, AI Models/Infrastructure, B2B /",
+    "team_size": "2",
+    "location": "San Francisco, California, United States of America",
+    "tags": "Robotics, AI Models/Infrastructure, B2B",
+    "yc_partner": "Not listed (a16z Speedrun page returned 404; no YC partner identified)",
+    "emails": "margaret@thirdbrainlabs.ai, david@thirdbrainlabs.ai"
+  },
+  "tags": [
+    "Robotics",
+    "AI Models/Infrastructure",
+    "B2B"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-10T23:12:56.473Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 41,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 36,
+    "EG": 43,
+    "NR": 43,
+    "PG": 41,
+    "PT": 29,
+    "SL": 29,
+    "VK": 41
+  },
+  "consolidatedAvg": 37.43,
+  "consolidatedRank": 56,
+  "paths": {
+    "memo": "a16z2026-1/memos/thirdbrain-labs.md",
+    "evals": {
+      "cyan-banister": "a16z2026-1/evals/cyan-banister/thirdbrain-labs.md",
+      "elad-gil": "a16z2026-1/evals/elad-gil/thirdbrain-labs.md",
+      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/thirdbrain-labs.md",
+      "paul-graham": "a16z2026-1/evals/paul-graham/thirdbrain-labs.md",
+      "peter-thiel": "a16z2026-1/evals/peter-thiel/thirdbrain-labs.md",
+      "sam-lessin": "a16z2026-1/evals/sam-lessin/thirdbrain-labs.md",
+      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/thirdbrain-labs.md"
+    }
+  }
+}

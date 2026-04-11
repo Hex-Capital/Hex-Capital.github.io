@@ -1,0 +1,76 @@
+{
+  "slug": "oasiz",
+  "name": "Oasiz",
+  "oneLiner": "The interactive social distribution platform for software.",
+  "metadata": {
+    "website": "https://www.oasiz.ai/",
+    "yc_page": "https://speedrun.a16z.com/companies/oasiz",
+    "batch": "a16z Speedrun SR006 (Winter/Spring 2026)",
+    "industry": "AI, Social Networking, B2C /",
+    "team_size": "4",
+    "location": "San Francisco, California, United States of America",
+    "tags": "AI, Social Networking, B2C",
+    "yc_partner": "Not listed (a16z Speedrun program, not YC)",
+    "emails": "abel@oasiz.ai, jonathan@oasiz.ai (a16z Speedrun portal)"
+  },
+  "tags": [
+    "AI",
+    "Social Networking",
+    "B2C"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-10T23:00:21.837Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 67,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 48,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 39,
+    "EG": 38,
+    "NR": 67,
+    "PG": 50,
+    "PT": 41,
+    "SL": 39,
+    "VK": 48
+  },
+  "consolidatedAvg": 46,
+  "consolidatedRank": 28,
+  "paths": {
+    "memo": "a16z2026-1/memos/oasiz.md",
+    "evals": {
+      "cyan-banister": "a16z2026-1/evals/cyan-banister/oasiz.md",
+      "elad-gil": "a16z2026-1/evals/elad-gil/oasiz.md",
+      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/oasiz.md",
+      "paul-graham": "a16z2026-1/evals/paul-graham/oasiz.md",
+      "peter-thiel": "a16z2026-1/evals/peter-thiel/oasiz.md",
+      "sam-lessin": "a16z2026-1/evals/sam-lessin/oasiz.md",
+      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/oasiz.md"
+    }
+  }
+}

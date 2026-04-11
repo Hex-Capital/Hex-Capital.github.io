@@ -1,0 +1,76 @@
+{
+  "slug": "bota",
+  "name": "Bota",
+  "oneLiner": "Bota is the first AI agent infra for real-world context",
+  "metadata": {
+    "website": "https://www.bota.dev",
+    "yc_page": "https://speedrun.a16z.com/companies/bota",
+    "batch": "a16z Speedrun SR006 (Jan–Apr 2026); not a YC batch — founders are YC W24 alumni via StarJar",
+    "industry": "AI, Developer Tools, B2B /",
+    "team_size": "4",
+    "location": "Mountain View, California, United States of America",
+    "tags": "AI, Developer Tools, B2B",
+    "yc_partner": "Gustaf Alstromer (YC partner for StarJar, W24); Bota's a16z Speedrun partner not listed (page returned 404)",
+    "emails": "contact@bota.dev, ruming@bota.dev, qi@bota.dev"
+  },
+  "tags": [
+    "AI",
+    "Developer Tools",
+    "B2B"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-10T22:52:07.366Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 74,
+      "tier": "Invest"
+    },
+    "naval-ravikant": {
+      "score": 69,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 74,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 42,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 48,
+    "EG": 74,
+    "NR": 69,
+    "PG": 74,
+    "PT": 55,
+    "SL": 56,
+    "VK": 42
+  },
+  "consolidatedAvg": 59.71,
+  "consolidatedRank": 1,
+  "paths": {
+    "memo": "a16z2026-1/memos/bota.md",
+    "evals": {
+      "cyan-banister": "a16z2026-1/evals/cyan-banister/bota.md",
+      "elad-gil": "a16z2026-1/evals/elad-gil/bota.md",
+      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/bota.md",
+      "paul-graham": "a16z2026-1/evals/paul-graham/bota.md",
+      "peter-thiel": "a16z2026-1/evals/peter-thiel/bota.md",
+      "sam-lessin": "a16z2026-1/evals/sam-lessin/bota.md",
+      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/bota.md"
+    }
+  }
+}

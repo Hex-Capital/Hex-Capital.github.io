@@ -1,0 +1,24 @@
+﻿# Concorda -- Vinod Khosla Evaluation
+
+I regularly see YC companies building AI copilots for specific enterprise verticals. Concorda is "the AI operating system for trial lawyers." The pitch structure is one I've heard hundreds of times: large TAM, professionals drowning in process work, automate 40-60% of their workflow. My first question is always the same — if Concorda fully succeeds, does the world look different? Trial lawyers draft motions and discovery requests faster. Mid-size litigation firms handle more cases per attorney. Law firm profitability improves. That's a fine business. But nobody's life fundamentally changes. The consequence of Concorda at scale is a more efficient legal profession, not a transformed one. Harvey AI is already at $190M ARR serving eight of the top ten U.S. law firms. Concorda's maximum outcome is capturing litigation-specific share within a market Harvey is already dominating broadly — redistribution of existing legal spend, not creation of new demand.
+
+The technical approach confirms my concern. Concorda's four modules — Case Command, Motions & Briefs, Discovery, Claim Charts — are application-layer products built on existing LLMs with domain-specific prompting and USPTO integration. The dossier itself flags that "LLM-based document generation is increasingly accessible" as a commoditization risk. Where is the 10x discontinuity? Concorda isn't synthesizing a new molecule or building a novel engine architecture. It's wrapping foundation model capabilities in litigation-specific workflows. Crimson, a YC-backed London startup, is building near-identical positioning as "the AI associate for litigation lawyers." When a direct competitor can replicate your product description word-for-word, you don't have a technology wedge — you have a race.
+
+Samuel Oh and Ke Ma deserve credit for execution: $204K in annualized revenue within three months, with two people, is real. Oh's Harvard CS plus UChicago Law background makes him a genuine "lawyer-engineer," and Ma's McKinsey-to-Cook-County-ASA trajectory shows operational range. But both founders are domain experts building a tool for their own profession. Oh's quote — "I spent years drafting motions knowing there had to be a better way" — is a domain observation, not a first-principles insight that breaks open a new possibility space. I've always said when I have to choose between domain expertise and better thinking, I pick better thinking. Nothing in the dossier shows pivots, surprises, or the kind of rapid adaptation that signals a high learning rate. The early revenue signals competence, not the outsider irreverence I fund.
+
+The strongest bull case for Concorda: the services-plus-SaaS hybrid model is actually a brilliant data flywheel. By practicing law alongside building software, they accumulate firm-specific voice models and litigation pattern data that pure software competitors can't match. If that data advantage compounds, Concorda could build switching costs that Harvey's broad-but-shallow platform can't replicate. And if the end-to-end execution platform becomes good enough to replace $200K-a-year associates rather than merely assist them, the cost structure of litigation collapses, and legal access genuinely expands. For this to work, Concorda would need to shift from "tool for trial lawyers" to "replacement for the $200 billion U.S. litigation labor market" — and the dual services model would need to scale without malpractice exposure becoming a company-killing liability. Nothing in the dossier suggests the founders frame their ambition this way.
+
+Concorda maps almost exactly onto the pattern I pass on — vertical AI copilots designed for 3-5x returns in competitive markets where no technology discontinuity exists. The consequence magnitude is bounded by the size of the litigation workflow market, not by a technology breakthrough that opens new possibility space. The approach is incremental automation of known processes, not a non-linear leap. The $204K revenue is admirable execution, but execution without consequence magnitude produces moderate outcomes, and moderate outcomes are a waste of my time and attention. I checked every Known Exception in my framework — DoorDash's planetary-scale consequence, Oscar's radical affordability thesis, OpenAI's civilizational stakes — and none applies here. Consequence magnitude at 12 and non-linear technical approach at 9 are the two dimensions that make this a clear pass. Concorda will likely build a real business. It will not change how anyone lives.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Consequence Magnitude if Successful | 12/30 |
+| Non-Linear Technical Approach | 9/25 |
+| Founder as Learning Machine | 11/20 |
+| Improbable Ambition Level | 5/15 |
+| Path to Radical Affordability | 4/10 |
+| **Total** | **41/100** |
+
+**Total Score: 41/100** (Pass)

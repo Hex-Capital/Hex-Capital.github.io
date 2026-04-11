@@ -1,0 +1,75 @@
+{
+  "slug": "modern-industrials",
+  "name": "Modern Industrials",
+  "oneLiner": "The AI Workforce for Building Materials Distribution.",
+  "metadata": {
+    "website": "https://modernindustrials.com",
+    "yc_page": "https://speedrun.a16z.com/companies/modern-industrials",
+    "batch": "a16z Speedrun (exact cohort not confirmed; SR006 ran Jan 26 – Apr 12, 2026 per speedrun.a16z.com/faq). Note: company is listed on a16z Speedrun, not on ycombinator.com/companies.",
+    "industry": "AI, B2B",
+    "team_size": "4",
+    "location": "New York, New York, United States of America",
+    "tags": "AI, B2B",
+    "yc_partner": "Not listed (speedrun.a16z.com page returned 404 at time of research)",
+    "emails": "austin@modernindustrials.com, vatsal@modernindustrials.com, ankit@modernindustrials.com (a16z Speedrun portal)"
+  },
+  "tags": [
+    "AI",
+    "B2B"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-10T22:59:52.828Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 37,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 45,
+    "EG": 51,
+    "NR": 55,
+    "PG": 49,
+    "PT": 38,
+    "SL": 36,
+    "VK": 37
+  },
+  "consolidatedAvg": 44.43,
+  "consolidatedRank": 34,
+  "paths": {
+    "memo": "a16z2026-1/memos/modern-industrials.md",
+    "evals": {
+      "cyan-banister": "a16z2026-1/evals/cyan-banister/modern-industrials.md",
+      "elad-gil": "a16z2026-1/evals/elad-gil/modern-industrials.md",
+      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/modern-industrials.md",
+      "paul-graham": "a16z2026-1/evals/paul-graham/modern-industrials.md",
+      "peter-thiel": "a16z2026-1/evals/peter-thiel/modern-industrials.md",
+      "sam-lessin": "a16z2026-1/evals/sam-lessin/modern-industrials.md",
+      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/modern-industrials.md"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "syncere",
+  "name": "Syncere",
+  "oneLiner": "Robot lamps that do your chores.",
+  "metadata": {
+    "website": "https://syncere.com",
+    "yc_page": "https://speedrun.a16z.com/companies/syncere",
+    "batch": "Not confirmed — listed on a16z Speedrun portal (returned 404 at time of research); not found in YC company directory (ycombinator.com/companies)",
+    "industry": "Robotics /",
+    "team_size": "8",
+    "location": "Palo Alto, California, United States of America",
+    "tags": "Robotics",
+    "yc_partner": "Not listed (a16z Speedrun page returned 404; no YC partner identified)",
+    "emails": "hello@syncereai.com, angus@syncereai.com, aaron@syncereai.com"
+  },
+  "tags": [
+    "Robotics"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-10T23:11:42.273Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 60,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 62,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 47,
+    "EG": 35,
+    "NR": 60,
+    "PG": 51,
+    "PT": 52,
+    "SL": 56,
+    "VK": 62
+  },
+  "consolidatedAvg": 51.86,
+  "consolidatedRank": 12,
+  "paths": {
+    "memo": "a16z2026-1/memos/syncere.md",
+    "evals": {
+      "cyan-banister": "a16z2026-1/evals/cyan-banister/syncere.md",
+      "elad-gil": "a16z2026-1/evals/elad-gil/syncere.md",
+      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/syncere.md",
+      "paul-graham": "a16z2026-1/evals/paul-graham/syncere.md",
+      "peter-thiel": "a16z2026-1/evals/peter-thiel/syncere.md",
+      "sam-lessin": "a16z2026-1/evals/sam-lessin/syncere.md",
+      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/syncere.md"
+    }
+  }
+}

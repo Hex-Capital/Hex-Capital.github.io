@@ -1,0 +1,74 @@
+{
+  "slug": "auto",
+  "name": "Auto",
+  "oneLiner": "Personal apps for anything you point your camera at.",
+  "metadata": {
+    "website": "https://auto.inc",
+    "yc_page": "https://speedrun.a16z.com/companies/auto",
+    "batch": "a16z Speedrun SR006 (Jan–Apr 2026). Note: the provided \"YC Page\" URL points to the a16z Speedrun portal, not Y Combinator. No YC batch affiliation confirmed.",
+    "industry": "AI",
+    "team_size": "3",
+    "location": "Los Angeles, California, United States of America",
+    "tags": "AI",
+    "yc_partner": "Not listed (company is part of a16z Speedrun, not YC)",
+    "emails": "dave@auto.inc, sam@auto.inc"
+  },
+  "tags": [
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-10T22:50:38.496Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 74,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 63,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 43,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 43,
+    "EG": 43,
+    "NR": 74,
+    "PG": 63,
+    "PT": 37,
+    "SL": 37,
+    "VK": 43
+  },
+  "consolidatedAvg": 48.57,
+  "consolidatedRank": 21,
+  "paths": {
+    "memo": "a16z2026-1/memos/auto.md",
+    "evals": {
+      "cyan-banister": "a16z2026-1/evals/cyan-banister/auto.md",
+      "elad-gil": "a16z2026-1/evals/elad-gil/auto.md",
+      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/auto.md",
+      "paul-graham": "a16z2026-1/evals/paul-graham/auto.md",
+      "peter-thiel": "a16z2026-1/evals/peter-thiel/auto.md",
+      "sam-lessin": "a16z2026-1/evals/sam-lessin/auto.md",
+      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/auto.md"
+    }
+  }
+}

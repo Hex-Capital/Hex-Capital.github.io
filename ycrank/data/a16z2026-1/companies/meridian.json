@@ -1,0 +1,76 @@
+{
+  "slug": "meridian",
+  "name": "Meridian",
+  "oneLiner": "Ex. OpenAI, Palantir, Sandia Labs building Meridian. The AI operating system for consulting firms",
+  "metadata": {
+    "website": "https://trymeridian.dev/",
+    "yc_page": "https://speedrun.a16z.com/companies/meridian",
+    "batch": "Fall 2025 (accepted to YC F25; departed batch per Unicorner, Nov 2025; not listed in Extruct AI F25 batch directory)",
+    "industry": "B2B, AI, AI Models/Infrastructure",
+    "team_size": "2 (per a16z Speedrun portal; however, 3 co-founders identified — see Founders section)",
+    "location": "San Francisco, California, United States of America",
+    "tags": "B2B, AI, AI Models/Infrastructure",
+    "yc_partner": "Not listed (a16z Speedrun portal page returned 404 at time of research; company absent from YC company directory)",
+    "emails": "kn@trymeridian.dev, cf@trymeridian.dev (a16z Speedrun portal)"
+  },
+  "tags": [
+    "B2B",
+    "AI",
+    "AI Models/Infrastructure"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-10T22:59:45.362Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 35,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 38,
+    "EG": 41,
+    "NR": 53,
+    "PG": 42,
+    "PT": 35,
+    "SL": 29,
+    "VK": 35
+  },
+  "consolidatedAvg": 39,
+  "consolidatedRank": 53,
+  "paths": {
+    "memo": "a16z2026-1/memos/meridian.md",
+    "evals": {
+      "cyan-banister": "a16z2026-1/evals/cyan-banister/meridian.md",
+      "elad-gil": "a16z2026-1/evals/elad-gil/meridian.md",
+      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/meridian.md",
+      "paul-graham": "a16z2026-1/evals/paul-graham/meridian.md",
+      "peter-thiel": "a16z2026-1/evals/peter-thiel/meridian.md",
+      "sam-lessin": "a16z2026-1/evals/sam-lessin/meridian.md",
+      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/meridian.md"
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "slug": "hotbox",
+  "name": "Hotbox",
+  "oneLiner": "Predictive intelligence for social commerce, $350k ARR",
+  "metadata": {
+    "website": "https://hotbox.app",
+    "yc_page": "https://speedrun.a16z.com/companies/hotbox",
+    "batch": "a16z Speedrun SR006 (Jan–Apr 2026)",
+    "industry": "AI, Advertising/Marketing, Social Networking",
+    "team_size": "3",
+    "location": "San Francisco, California, United States of America",
+    "tags": "AI, Advertising/Marketing, Social Networking",
+    "yc_partner": "Not listed (a16z Speedrun page returned 404 at time of research)",
+    "emails": "hello@hotbox.app, harpriya@hotbox.app"
+  },
+  "tags": [
+    "AI",
+    "Advertising/Marketing",
+    "Social Networking"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-10T22:55:05.653Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 67,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 44,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 38,
+    "EG": 47,
+    "NR": 67,
+    "PG": 47,
+    "PT": 39,
+    "SL": 38,
+    "VK": 44
+  },
+  "consolidatedAvg": 45.71,
+  "consolidatedRank": 29,
+  "paths": {
+    "memo": "a16z2026-1/memos/hotbox.md",
+    "evals": {
+      "cyan-banister": "a16z2026-1/evals/cyan-banister/hotbox.md",
+      "elad-gil": "a16z2026-1/evals/elad-gil/hotbox.md",
+      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/hotbox.md",
+      "paul-graham": "a16z2026-1/evals/paul-graham/hotbox.md",
+      "peter-thiel": "a16z2026-1/evals/peter-thiel/hotbox.md",
+      "sam-lessin": "a16z2026-1/evals/sam-lessin/hotbox.md",
+      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/hotbox.md"
+    }
+  }
+}

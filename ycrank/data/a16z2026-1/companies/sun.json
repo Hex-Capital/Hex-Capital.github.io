@@ -1,0 +1,76 @@
+{
+  "slug": "sun",
+  "name": "SUN",
+  "oneLiner": "The new era of audio, built around you",
+  "metadata": {
+    "website": "https://sunapp.ai",
+    "yc_page": "https://speedrun.a16z.com/companies/sun",
+    "batch": "a16z Speedrun SR006",
+    "industry": "AI, Publishing, B2C /",
+    "team_size": "3",
+    "location": "Palo Alto, California, United States of America",
+    "tags": "AI, Publishing, B2C",
+    "yc_partner": "Not listed (a16z Speedrun page returned 404 at time of research)",
+    "emails": "artin@sunapp.ai, matt@sunapp.ai"
+  },
+  "tags": [
+    "AI",
+    "Publishing",
+    "B2C"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-10T23:12:11.503Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 40,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 33,
+    "EG": 34,
+    "NR": 49,
+    "PG": 43,
+    "PT": 30,
+    "SL": 31,
+    "VK": 40
+  },
+  "consolidatedAvg": 37.14,
+  "consolidatedRank": 57,
+  "paths": {
+    "memo": "a16z2026-1/memos/sun.md",
+    "evals": {
+      "cyan-banister": "a16z2026-1/evals/cyan-banister/sun.md",
+      "elad-gil": "a16z2026-1/evals/elad-gil/sun.md",
+      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/sun.md",
+      "paul-graham": "a16z2026-1/evals/paul-graham/sun.md",
+      "peter-thiel": "a16z2026-1/evals/peter-thiel/sun.md",
+      "sam-lessin": "a16z2026-1/evals/sam-lessin/sun.md",
+      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/sun.md"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "taxnova",
+  "name": "Taxnova",
+  "oneLiner": "AI infrastructure to streamline the $10B R&D tax market",
+  "metadata": {
+    "website": "https://taxnova.ai",
+    "yc_page": "https://speedrun.a16z.com/companies/taxnova",
+    "batch": "a16z Speedrun (not a Y Combinator batch; the company is part of the a16z Speedrun accelerator)",
+    "industry": "AI, B2B",
+    "team_size": "5",
+    "location": "San Francisco, California, United States of America (note: multiple sources describe the company as London-based (The SaaS News, Feb 2026; Fintech Global, Feb 2026); website states EU-hosted on Google Cloud)",
+    "tags": "AI, B2B",
+    "yc_partner": "Not listed (a16z Speedrun page returned 404 at time of research)",
+    "emails": "george@taxnova.ai, mari@taxnova.ai (a16z Speedrun portal)"
+  },
+  "tags": [
+    "AI",
+    "B2B"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-10T23:12:11.413Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 61,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 38,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 47,
+    "EG": 61,
+    "NR": 56,
+    "PG": 44,
+    "PT": 35,
+    "SL": 39,
+    "VK": 38
+  },
+  "consolidatedAvg": 45.71,
+  "consolidatedRank": 30,
+  "paths": {
+    "memo": "a16z2026-1/memos/taxnova.md",
+    "evals": {
+      "cyan-banister": "a16z2026-1/evals/cyan-banister/taxnova.md",
+      "elad-gil": "a16z2026-1/evals/elad-gil/taxnova.md",
+      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/taxnova.md",
+      "paul-graham": "a16z2026-1/evals/paul-graham/taxnova.md",
+      "peter-thiel": "a16z2026-1/evals/peter-thiel/taxnova.md",
+      "sam-lessin": "a16z2026-1/evals/sam-lessin/taxnova.md",
+      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/taxnova.md"
+    }
+  }
+}

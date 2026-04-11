@@ -1,0 +1,76 @@
+{
+  "slug": "amdahl",
+  "name": "Amdahl",
+  "oneLiner": "Automated strategy and decisioning for Enterprise GTM agents (ex-Databricks, Coinbase team, $4m pipeline)",
+  "metadata": {
+    "website": "https://www.amdahl.ai (redirects to https://www.amdahl.co)",
+    "yc_page": "https://speedrun.a16z.com/companies/amdahl",
+    "batch": "a16z Speedrun (specific cohort not confirmed; page returned 404 at time of research). Not found on ycombinator.com/companies.",
+    "industry": "Advertising/Marketing, B2B, AI Models/Infrastructure",
+    "team_size": "5 (company data); LinkedIn company page lists 6 employees (LinkedIn, Apr 2026)",
+    "location": "San Francisco, California, United States of America",
+    "tags": "Advertising/Marketing, B2B, AI Models/Infrastructure",
+    "yc_partner": "Not listed (accelerator page not accessible)",
+    "emails": "hello@amdahl.co (company website), annette@amdahl.co, rob@amdahl.co, arya@amdahl.co (a16z Speedrun portal)"
+  },
+  "tags": [
+    "Advertising/Marketing",
+    "B2B",
+    "AI Models/Infrastructure"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-10T22:48:57.190Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 38,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 37,
+    "EG": 53,
+    "NR": 55,
+    "PG": 44,
+    "PT": 34,
+    "SL": 35,
+    "VK": 38
+  },
+  "consolidatedAvg": 42.29,
+  "consolidatedRank": 41,
+  "paths": {
+    "memo": "a16z2026-1/memos/amdahl.md",
+    "evals": {
+      "cyan-banister": "a16z2026-1/evals/cyan-banister/amdahl.md",
+      "elad-gil": "a16z2026-1/evals/elad-gil/amdahl.md",
+      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/amdahl.md",
+      "paul-graham": "a16z2026-1/evals/paul-graham/amdahl.md",
+      "peter-thiel": "a16z2026-1/evals/peter-thiel/amdahl.md",
+      "sam-lessin": "a16z2026-1/evals/sam-lessin/amdahl.md",
+      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/amdahl.md"
+    }
+  }
+}

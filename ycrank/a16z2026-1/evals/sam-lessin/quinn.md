@@ -1,0 +1,30 @@
+﻿# Quinn -- Sam Lessin Evaluation
+
+Quinn is growing from $200K to over $1M ARR in five months with 65+ customers, a 94% course completion rate, and a team of ten. That's legitimately impressive execution. Ben Anderson built Amino to 20M+ users and got it acquired. Arlen Marmel scaled Hulu Plus from inception to 5M+ paid subscribers on a $100M+ budget. These are not amateurs. So let me be clear: Quinn is a well-run company with real revenue and proven operators. And it is almost perfectly designed to be the kind of bet I don't make.
+
+Here's why. Quinn is an AI-powered LMS that auto-generates training courses from SOPs. That's a feature. SC Training, which SafetyCulture acquired with $150M+ in the war chest, already offers AI-based course generation for frontline workers. Humand raised $66M and has Siemens, Home Depot, and John Deere as customers. Arist pulled in $23.6M and has 20+ Fortune 500 clients. When I say "AI is like mobile — great technology, not disruptive," this is exactly what I mean. Every incumbent LMS vendor on earth is looking at Quinn's demo right now and thinking "we should ship that by Q3." The core value proposition — feed in your SOPs, get a gamified mobile course — is reproducible by anyone with API access to a foundation model and a competent product team. That's the AI kill test, and Quinn does not survive it.
+
+The consensus mispricing question kills this deal before I even get to the other filters. "AI for workforce training" is the exact kind of category that makes every VC lean forward in their chair. The frontline training TAM is $25B growing to $87B. The narrative writes itself: 2.7 billion deskless workers, underserved by desk-centric LMS platforms, AI unlocks automated course creation. It's clean, it's logical, it's consensus. You know what that means? The upside is already in the price. When I backed Eaze, nobody wanted to touch cannabis delivery. When I seeded Solana, every smart crypto person said Ethereum won. Quinn is the opposite — it's the deal where every other investor at the table is nodding along. There's no asymmetry here.
+
+The primitive test is equally decisive. Quinn doesn't create a new behavior. LMS platforms have existed for decades. Training completion is not a new verb — it's an old workflow made slightly more efficient by AI generation and gamification. Compare this to Venmo, which created peer-to-peer mobile payments as a behavioral primitive that literally became a verb. Or to Patreon, which created direct creator monetization as a category before "creator economy" existed. Quinn is "better LMS for trades" — a product improvement in an established market, competing on execution and vertical specialization. That's a fine business, possibly. It's not a primitive.
+
+Now, the strongest bull case for Quinn. Anderson and Marmel are repeat co-founders — they built Luna Park together before this, so the relationship isn't synthetic. Anderson has a real exit with Amino. The vertical focus on small trades companies ($299/month HVAC shops, pest control firms, plumbing outfits) might create a natural moat: SAP SuccessFactors and Workday have zero incentive to build a mobile-first product for 15-person plumbing companies at $299/month. The contract size is too small, the vertical too specialized. If Quinn can accumulate enough workforce competency data across trades verticals — knowing what an HVAC tech in Phoenix actually knows versus one in Detroit — that could become a proprietary data asset over time. And the switching costs from HRIS integration and compliance audit records are real for small teams with no IT staff. There's a version of this where Quinn becomes the operational backbone for 100,000 trades companies and the data flywheel makes it irreplaceable. But that version requires Quinn to win a land grab against competitors with 10-60x more capital, while the core AI course generation feature gets commoditized quarter by quarter. That's a race I don't like betting on.
+
+Anderson is sane. Marmel is sane. The idea is also sane. And that's the problem. "Sane person, sane idea" is a formula for a company that might build a decent mid-market SaaS business but won't produce the kind of asymmetric return that makes angel investing worthwhile. I want the calm, rational founder who's building something that makes people say "that's fucking crazy." Quinn makes people say "that makes sense" — which means the market has already priced it.
+
+Capital discipline is Quinn's best score on my card. Five months from $200K to $1M ARR with ten people is tight execution. The $299/month price point suggests they're building revenue bottom-up without needing enterprise sales cycles. If Anderson and Marmel ran this like a bootstrapped business, it could be a solid cash-flowing company. But the a16z Speedrun application, the "coordination layer for all internal workforce operations" expansion language — that's the factory farm conveyor belt calling. Broadening scope from training LMS to workforce operations platform at $1M ARR, while Humand already has $66M and enterprise logos doing exactly that, is the opposite of capital discipline. It's the tell that they plan to raise big and race.
+
+Pass. The two dimensions that lock this: Consensus Mispricing (AI workforce training is a consensus-hot category with 4+ well-funded competitors, zero narrative mispricing) and Structural Durability (AI course generation from documents is a feature every LMS vendor will ship, and Quinn's software-only product has no physical, protocol, or network-effect moat that survives the kill test). Good founders, real traction, wrong bet for my framework.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Consensus Mispricing — Is the Market Wrong? | 8/30 |
+| Primitive Creation — Does This Birth a New Category? | 6/25 |
+| Sanity-Insanity Calibration — Sane Founder, Insane Idea | 10/20 |
+| Structural Durability — Does It Survive the AI Kill Test? | 5/15 |
+| Capital Discipline — Built to Survive, Not to Raise | 7/10 |
+| **Total** | **36/100** |
+
+**Total Score: 36/100** (Pass)

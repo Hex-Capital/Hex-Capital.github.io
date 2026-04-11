@@ -1,0 +1,76 @@
+{
+  "slug": "snapp-stats",
+  "name": "Snapp Stats",
+  "oneLiner": "24/7 AI Agent for Sports. From sports content to action, instantly. Built by the founder of Caviar",
+  "metadata": {
+    "website": "https://trysnapp.ai",
+    "yc_page": "https://speedrun.a16z.com/companies/snapp-stats",
+    "batch": "a16z Speedrun (specific cohort not listed; not a Y Combinator company — founder Shawn Tsao was YC S11 with prior startup Munch On Me)",
+    "industry": "AI, B2C, B2B / Sports, Computer Vision, Analytics, Conversational AI, Generative AI (Built In SF)",
+    "team_size": "6",
+    "location": "San Francisco, California, United States of America",
+    "tags": "AI, B2C, B2B",
+    "yc_partner": "Not listed",
+    "emails": "shawn@snappstats.com, andrew@snappstats.com, alex@snappstats.com, recruiting@snappstats.com (a16z Speedrun page, Built In SF job posting)"
+  },
+  "tags": [
+    "AI",
+    "B2C",
+    "B2B"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-10T23:09:30.134Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 43,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 44,
+    "EG": 39,
+    "NR": 47,
+    "PG": 46,
+    "PT": 34,
+    "SL": 32,
+    "VK": 43
+  },
+  "consolidatedAvg": 40.71,
+  "consolidatedRank": 48,
+  "paths": {
+    "memo": "a16z2026-1/memos/snapp-stats.md",
+    "evals": {
+      "cyan-banister": "a16z2026-1/evals/cyan-banister/snapp-stats.md",
+      "elad-gil": "a16z2026-1/evals/elad-gil/snapp-stats.md",
+      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/snapp-stats.md",
+      "paul-graham": "a16z2026-1/evals/paul-graham/snapp-stats.md",
+      "peter-thiel": "a16z2026-1/evals/peter-thiel/snapp-stats.md",
+      "sam-lessin": "a16z2026-1/evals/sam-lessin/snapp-stats.md",
+      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/snapp-stats.md"
+    }
+  }
+}

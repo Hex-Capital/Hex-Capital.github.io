@@ -1,0 +1,76 @@
+{
+  "slug": "belong",
+  "name": "Belong",
+  "oneLiner": "Building the Financial Infrastructure of Fandom.",
+  "metadata": {
+    "website": "https://belongrewards.com/",
+    "yc_page": "https://speedrun.a16z.com/companies/belong",
+    "batch": "a16z Speedrun (not a traditional YC batch; listed on the a16z Speedrun portal)",
+    "industry": "Social Networking, Fintech, Marketplace",
+    "team_size": "9 (company data); 11 employees (LinkedIn, April 2026)",
+    "location": "New York, New York, United States of America",
+    "tags": "Social Networking, Fintech, Marketplace",
+    "yc_partner": "Not listed (a16z Speedrun page returned 404 at time of research)",
+    "emails": "nick@belongrewards.com, ash@belongrewards.com, hello@getbelong.app, support@belongrewards.com"
+  },
+  "tags": [
+    "Social Networking",
+    "Fintech",
+    "Marketplace"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-10T22:49:20.825Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 37,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 51,
+    "EG": 38,
+    "NR": 58,
+    "PG": 43,
+    "PT": 41,
+    "SL": 42,
+    "VK": 37
+  },
+  "consolidatedAvg": 44.29,
+  "consolidatedRank": 35,
+  "paths": {
+    "memo": "a16z2026-1/memos/belong.md",
+    "evals": {
+      "cyan-banister": "a16z2026-1/evals/cyan-banister/belong.md",
+      "elad-gil": "a16z2026-1/evals/elad-gil/belong.md",
+      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/belong.md",
+      "paul-graham": "a16z2026-1/evals/paul-graham/belong.md",
+      "peter-thiel": "a16z2026-1/evals/peter-thiel/belong.md",
+      "sam-lessin": "a16z2026-1/evals/sam-lessin/belong.md",
+      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/belong.md"
+    }
+  }
+}

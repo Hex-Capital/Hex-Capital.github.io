@@ -1,0 +1,75 @@
+{
+  "slug": "kaaro",
+  "name": "Kaaro",
+  "oneLiner": "AI Agents for Railways. ex Toma (a16z), Waterloo, UBC",
+  "metadata": {
+    "website": "https://kaaro.ai",
+    "yc_page": "https://speedrun.a16z.com/companies/kaaro",
+    "batch": "a16z Speedrun SR006 (Winter/Spring 2026) — note: the company is in a16z Speedrun, not Y Combinator; the Speedrun company page returned 404 at time of research",
+    "industry": "AI, B2B",
+    "team_size": "2",
+    "location": "San Francisco, California, United States of America",
+    "tags": "AI, B2B",
+    "yc_partner": "Not listed (a16z Speedrun, not YC; Speedrun page not accessible)",
+    "emails": "founders@kaaro.ai, sai@kaaro.ai, gautham@kaaro.ai (kaaro.ai website; a16z Speedrun portal)"
+  },
+  "tags": [
+    "AI",
+    "B2B"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-10T22:59:07.276Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 61,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 69,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 69,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 45,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 55,
+    "EG": 61,
+    "NR": 69,
+    "PG": 69,
+    "PT": 51,
+    "SL": 58,
+    "VK": 45
+  },
+  "consolidatedAvg": 58.29,
+  "consolidatedRank": 4,
+  "paths": {
+    "memo": "a16z2026-1/memos/kaaro.md",
+    "evals": {
+      "cyan-banister": "a16z2026-1/evals/cyan-banister/kaaro.md",
+      "elad-gil": "a16z2026-1/evals/elad-gil/kaaro.md",
+      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/kaaro.md",
+      "paul-graham": "a16z2026-1/evals/paul-graham/kaaro.md",
+      "peter-thiel": "a16z2026-1/evals/peter-thiel/kaaro.md",
+      "sam-lessin": "a16z2026-1/evals/sam-lessin/kaaro.md",
+      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/kaaro.md"
+    }
+  }
+}

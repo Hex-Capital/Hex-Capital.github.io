@@ -1,0 +1,26 @@
+﻿# Sparta -- Sam Lessin Evaluation
+
+Sparta is tagged "AI, Deep Tech, AI Models/Infrastructure" on its a16z Speedrun page. That's the single most crowded label in venture right now — $84B flowed into AI infrastructure mega-rounds in 2025 alone. When I look at a deal, the first question isn't "is this good?" — it's "is the market wrong?" And with Sparta, the market has already priced in the entire AI infrastructure thesis. Every fund in San Francisco is writing checks into anything that touches GPU pipelines, data movement, or model training infra. There's no mispricing here. This is the opposite of buying Solana at four cents when everyone said Ethereum won. This is buying into the consensus trade at consensus prices. The risk is not baked in — it's actively bid up.
+
+Sparta's pitch is "better data transfer" — replace IBM Aspera's static FASPex protocol with a reinforcement learning engine that adapts in real time. Fine. But "better Aspera" is not a primitive. Aspera has existed for over a decade. Signiant does $42.5 million in annual revenue. MASV, Resilio, Sedai — there's a whole ecosystem of companies already doing data movement and cloud optimization. Sparta isn't creating a new behavior that didn't exist. Nobody's going to say "Sparta me that dataset" the way people say "Venmo me." When I backed Venmo, peer-to-peer mobile payments was a category that literally didn't exist. When I backed Patreon, direct creator monetization was a category that didn't exist. Sparta is competing in an existing market on execution — specifically, on having a better algorithm than the incumbents. That's a features war, not a category creation.
+
+The structural durability question is where Sparta completely falls apart for me. AWS DataSync, GCP Transfer Service, Azure's native tooling — these cloud providers own the networks their customers are transferring data across. Adding an adaptive RL optimization layer to their existing transfer services is a moderate engineering project for any of these companies, not a moonshot. Sparta's own differentiation — the one-line CLI integration, no SDK, no config changes — means the switching costs are essentially zero both in and out. That's great for initial adoption and terrible for defensibility. Metropolis, one of our best seed bets, works because you can't replicate parking infrastructure with software. Sparta has no physical moat, no protocol-level lock-in, no network effects that compound. It's a software layer optimizing someone else's network. Every time I hear "drop-in optimization," I hear "drop-out just as easily."
+
+Lalith Posam is the most credible signal here — PAKDD 2024 publication on time-series differential equations, internships at Pinterest's observability team, Google's YouTube ML team, and Fireworks AI. That's real ML infrastructure experience, not resume padding. But Arya Kanna and Saad Asad are first-time founders with Berkeley student org experience and research lab credentials. I haven't watched any of these people through multiple ventures. The sane-insane ratio can't be evaluated because the idea itself isn't insane — RL for network optimization is a sensible engineering bet that Sedai already validated with a $20M Series B in June 2025. A reasonable person pitching a reasonable idea in a hot market is the least interesting configuration for me.
+
+The strongest bull case: data transfer really is infrastructure plumbing, it's boring enough that cloud providers might deprioritize it (the way IBM deprioritized Aspera), and Lalith's RL engine could create a genuine data flywheel as it trains across more network environments. If Sparta's model generalizes across heterogeneous topologies and achieves the claimed 45-70% throughput improvement consistently, the bottom-up developer adoption could compound before incumbents react. That's a real path. But the dossier notes zero public benchmarks, zero third-party validation of the throughput claims, zero revenue signals, and zero customer names. The "why now" is legitimate — AI training workloads are making data movement a bottleneck — but that same "why now" is precisely why every cloud provider is paying attention to this problem right now. The window for a third-party layer to establish itself before native solutions arrive is narrow and closing.
+
+Pass. The two dimensions that lock this are Consensus Mispricing and Structural Durability. Sparta is swimming in the most competitive funding pool in venture history while building a pure software optimization layer that cloud providers can replicate natively. No mispricing, no moat. The RL approach is technically interesting but technically interesting doesn't survive when AWS decides to ship the same capability as a feature toggle on S3 transfers.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Consensus Mispricing — Is the Market Wrong? | 8/30 |
+| Primitive Creation — Does This Birth a New Category? | 6/25 |
+| Sanity-Insanity Calibration — Sane Founder, Insane Idea | 10/20 |
+| Structural Durability — Does It Survive the AI Kill Test? | 4/15 |
+| Capital Discipline — Built to Survive, Not to Raise | 6/10 |
+| **Total** | **34/100** |
+
+**Total Score: 34/100** (Pass)

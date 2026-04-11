@@ -1,0 +1,76 @@
+{
+  "slug": "paypath",
+  "name": "PayPath",
+  "oneLiner": "The AI Operating System Powering Modern Debt.",
+  "metadata": {
+    "website": "https://paypath.ai",
+    "yc_page": "https://speedrun.a16z.com/companies/paypath",
+    "batch": "a16z Speedrun (not Y Combinator; no YC listing found at ycombinator.com/companies)",
+    "industry": "AI, Fintech, B2B",
+    "team_size": "3",
+    "location": "NYC, New York, United States of America",
+    "tags": "AI, Fintech, B2B",
+    "yc_partner": "Not listed (a16z Speedrun profile returned 404 at time of research)",
+    "emails": "dean.glas@paypath.ai, matt.lippl@paypath.ai (a16z Speedrun profile)"
+  },
+  "tags": [
+    "AI",
+    "Fintech",
+    "B2B"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-10T23:03:04.195Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 66,
+      "tier": "Invest"
+    },
+    "naval-ravikant": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 43,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 49,
+    "EG": 66,
+    "NR": 54,
+    "PG": 55,
+    "PT": 40,
+    "SL": 50,
+    "VK": 43
+  },
+  "consolidatedAvg": 51,
+  "consolidatedRank": 14,
+  "paths": {
+    "memo": "a16z2026-1/memos/paypath.md",
+    "evals": {
+      "cyan-banister": "a16z2026-1/evals/cyan-banister/paypath.md",
+      "elad-gil": "a16z2026-1/evals/elad-gil/paypath.md",
+      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/paypath.md",
+      "paul-graham": "a16z2026-1/evals/paul-graham/paypath.md",
+      "peter-thiel": "a16z2026-1/evals/peter-thiel/paypath.md",
+      "sam-lessin": "a16z2026-1/evals/sam-lessin/paypath.md",
+      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/paypath.md"
+    }
+  }
+}

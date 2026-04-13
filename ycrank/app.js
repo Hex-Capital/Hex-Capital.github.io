@@ -1,5 +1,14 @@
 // YCRank Dashboard - Application Logic
 
+// Open all markdown-rendered links in new tabs
+const renderer = new marked.Renderer();
+renderer.link = function({ href, title, tokens }) {
+  const text = this.parser.parseInline(tokens);
+  const titleAttr = title ? ` title="${title}"` : '';
+  return `<a href="${href}"${titleAttr} target="_blank" rel="noopener">${text}</a>`;
+};
+marked.setOptions({ renderer });
+
 function formatRevenue(val) {
   if (val == null) return '-';
   if (val >= 1_000_000) return '$' + (val / 1_000_000).toFixed(1).replace(/\.0$/, '') + 'M';

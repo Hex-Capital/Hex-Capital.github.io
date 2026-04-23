@@ -1,0 +1,71 @@
+{
+  "slug": "ara",
+  "name": "Ara",
+  "oneLiner": "personal ai cloud computing for everyone",
+  "metadata": {
+    "website": "https://ara.so",
+    "yc_page": "https://www.ycombinator.com/companies/ara",
+    "batch": "Spring 2026",
+    "industry": "Consumer / Consumer",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Developer Tools, Consumer",
+    "yc_partner": "Aaron Epstein",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "Consumer"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-22T23:35:58.442Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 41,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 33,
+    "EG": 37,
+    "NR": null,
+    "PG": 43,
+    "PT": 30,
+    "SL": 29,
+    "VK": 41
+  },
+  "consolidatedAvg": 35.5,
+  "consolidatedRank": 94,
+  "paths": {
+    "memo": "spring2026/memos/ara.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/ara.md",
+      "elad-gil": "spring2026/evals/elad-gil/ara.md",
+      "paul-graham": "spring2026/evals/paul-graham/ara.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/ara.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/ara.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/ara.md"
+    }
+  }
+}

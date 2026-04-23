@@ -1,0 +1,70 @@
+{
+  "slug": "cignara",
+  "name": "Cignara",
+  "oneLiner": "AI voice & chat agents for sales and customer support at large B2C?",
+  "metadata": {
+    "website": "https://cignara.com/",
+    "yc_page": "https://www.ycombinator.com/companies/cignara",
+    "batch": "Spring 2026",
+    "industry": "B2B / B2B",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "AI, AI Assistant",
+    "yc_partner": "Garry Tan",
+    "emails": "hiring@getbujo.com (LinkedIn post by founder, April 2026)"
+  },
+  "tags": [
+    "AI",
+    "AI Assistant"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-23T00:00:04.216Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 43,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 38,
+    "EG": 47,
+    "NR": null,
+    "PG": 47,
+    "PT": 33,
+    "SL": 30,
+    "VK": 43
+  },
+  "consolidatedAvg": 39.67,
+  "consolidatedRank": 77,
+  "paths": {
+    "memo": "spring2026/memos/cignara.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/cignara.md",
+      "elad-gil": "spring2026/evals/elad-gil/cignara.md",
+      "paul-graham": "spring2026/evals/paul-graham/cignara.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/cignara.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/cignara.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/cignara.md"
+    }
+  }
+}

@@ -16,102 +16,112 @@
 
 ## The Idea
 
-**Problem:** Tech professionals lack dedicated career representation. Recruiters work for employers, not candidates, creating misaligned incentives. Job seekers at startups navigate fragmented job boards and cold applications without advocacy. Traditional recruiters manage ~50 candidates/week and ~10 companies at once (Aftalion LinkedIn post, Aug 2025).
+**Problem:** Tech professionals lack career representation. Recruiters work for employers, not candidates, resulting in misaligned incentives—ghosting, irrelevant outreach, and no coaching or negotiation support (Product Hunt listing, Feb 2026). Candidates at startups navigate job searches alone, despite high-value career decisions.
 
-**Approach:** Standout conducts a discovery call with each candidate, then deploys an AI agent via WhatsApp that continuously scouts roles across 1,000+ VC-backed startups and 3,500+ job listings, delivers curated matches, and facilitates warm introductions to founders and hiring teams (Product Hunt, Aug 2025; kdjingpai.com). At beta, the platform had indexed 1,457 early-stage startups and 3,000+ open roles, mostly at Sequoia/a16z/YC-backed companies (Product Hunt, Aug 2025). Standout also curates a small roster of "represented" talent — e.g., announcing "8 Best Operators" including engineers from OpenAI (Sora), Anthropic, and Whop (Aftalion LinkedIn, Dec 2025).
+**Approach:** Standout operates as an AI-powered career agent on WhatsApp. After an initial call, the system learns a candidate's goals, filters inbound opportunities, and scans 3,000+ open roles across 1,457 indexed early-stage startups to deliver curated matches with warm founder introductions and interview coaching (Product Hunt, Feb 2026). The focus is on Sequoia-, a16z-, and YC-backed companies (Product Hunt, Feb 2026).
 
-**Differentiation:** Unlike employer-facing platforms (Hired, Mercor, Turing), Standout represents the candidate. Unlike job boards, it provides proactive agent-style advocacy. The closest competitor is Clera (getclera.com), which also positions as an AI talent agent for startup jobs via messaging, charges employers a 15% placement fee, and claims 60,000+ users and 600+ startup connections (Clera website). Placement (founded 2019, $3M seed from Founders Fund) pioneered the "talent agent for tech" concept with an ISA model (10% of income for 18–36 months) but was absorbed into Exec, suggesting that model had unit economics challenges (TechCrunch, Nov 2019).
+**Differentiation:**
+- vs. Juicebox / SeekOut / Moonhub (pre-acquisition): These serve the employer side. Standout represents candidates, inverting the principal.
+- vs. Dex (a16z-backed, UK): Dex is the closest comparable—also a candidate-side AI talent agent using voice calls (TechCrunch, Apr 2025). Standout differentiates via WhatsApp delivery and startup-ecosystem focus rather than broad-market matching.
+- vs. Hired / Triplebyte (legacy marketplaces): Two-sided platforms where candidates self-serve. Standout adds an active agent layer providing curation, outreach, and coaching.
 
-**Business Model:** Free for candidates (Product Hunt, Aug 2025). Website not accessible at time of research (403 error). No public pricing page found. [Inferred]: Most likely monetization is employer-paid placement fees (similar to Clera's 15% model), given the free candidate-side positioning and the talent-agency analogy.
+**Business Model:** The product is listed as "Free" on Product Hunt (Feb 2026). No pricing page was accessible (website returned 403 at time of research). [Inferred]: Most likely monetization path is employer-paid placement fees or a success-based model (commission on hires), consistent with the talent-agent metaphor and free candidate-side access.
 
-**TAM/SAM:** Global Talent Acquisition & Staffing Technology market: $169B in 2025, 6.2% CAGR to 2035 (Future Market Insights, 2025 via search snippet). Talent Acquisition Software market: $10.37B in 2025, 5.63% CAGR to $14.4B by 2031 (Mordor Intelligence, 2025 via search snippet). IT & telecom commands ~29% of the talent acquisition market (Business Research Insights, 2025 via search snippet). [Inferred]: SAM is the subset of startup-ecosystem tech hiring, likely a single-digit-billion segment given focus on seed-to-Series-C companies.
+**TAM/SAM:**
+- Global recruitment market: $968.33B in 2026, growing at 13.1% CAGR to $2,932B by 2035 (Business Research Insights via search snippet).
+- IT recruitment market: $198.8B in 2025 (Business Research Insights via search snippet).
+- Talent acquisition software market: $10.37B in 2025, growing at 5.63% CAGR (Mordor Intelligence via search snippet).
+- [Inferred]: Standout's SAM is the subset of startup tech hiring—no public estimate found for this specific segment.
 
-**GTM / Distribution:** WhatsApp-native delivery for candidates (Product Hunt, Aug 2025). Product Hunt launch (#6 daily, 167 upvotes, Aug 2025). LinkedIn content marketing by CEO Aftalion, with posts generating 130–174 likes (LinkedIn, Aug–Dec 2025). "8 Best Operators" showcase serves as both brand-building and supply-side curation (LinkedIn, Dec 2025). First hire was made using Standout's own platform, validating the product loop (Aftalion LinkedIn, 168 likes).
+**GTM / Distribution:** WhatsApp as the delivery channel lowers onboarding friction. [Inferred]: Most likely distribution path is organic word-of-mouth among startup talent networks, leveraging the founders' existing connections in the YC/VC ecosystem and Alexis Aftalion's prior community-building experience at Zealy.
 
 ## Defensibility
 
-- **Data moat (emerging):** Deep candidate context gathered via discovery calls and ongoing WhatsApp interactions creates a proprietary candidate-preference dataset not available to job boards or ATS tools.
-- **Two-sided network effect (nascent):** Curated talent roster attracts employers; employer demand attracts top candidates. The "8 Best Operators" list signals early supply-side curation (LinkedIn, Dec 2025).
-- **Switching costs:** Candidates who have shared career goals and preferences via extended WhatsApp conversations face friction in rebuilding that context elsewhere.
+- **Data advantage (developing):** Deep candidate context gathered through conversational intake creates a proprietary profile dataset beyond what public profiles (LinkedIn, GitHub) reveal. This is nascent at pre-seed.
+- **Network effects (potential):** More candidates attract employer demand; more roles attract candidates. Not yet evidenced at scale.
+- **Switching costs:** Candidates who build a relationship with their AI agent accumulate context that would be lost by switching. [Inferred]: Switching costs are low at present given early stage.
 
-[Inferred]: These moats are nascent at pre-seed stage and unproven at scale.
+**Market structure:** Most recruiting-tech incumbents (LinkedIn, Indeed, Greenhouse) are employer-side platforms monetized by employer subscriptions or job postings. Building a candidate-side agent requires inverting the revenue model, which cannibalizes existing employer relationships—a structural conflict for incumbents. LinkedIn Recruiter charges employers; representing candidates against those same employers creates channel conflict.
 
-**Market structure:** Employer-side incumbents (LinkedIn, Indeed) monetize employers and structurally cannot represent candidates without cannibalizing their primary revenue stream. [Inferred]: This business-model conflict — not speed or technology — is the structural barrier preventing incumbents from offering genuine candidate-side advocacy.
-
-**Commoditization risk:** The AI-agent-on-WhatsApp mechanism is technically reproducible. Clera already operates a near-identical model. [Inferred]: Defensibility will depend on depth of candidate relationships and quality of the represented-talent roster rather than technology alone.
+**Commoditization risk:** The core technology (LLM-based conversational agent + job matching) is replicable. Dex ($3.1M, a16z Speedrun) already operates a similar model (TechCrunch, Apr 2025). Juicebox ($80M raised, $850M valuation) could pivot to candidate-side features (BusinessWire, Mar 2026). The startup-ecosystem focus and curated approach provide short-term differentiation, but no structural technical moat exists at this stage.
 
 ## Market & Traction
 
 **Traction signals:**
-- Product Hunt launch: #6 daily rank, 167 upvotes, 44 comments, 161 followers (Product Hunt, Aug 3, 2025)
-- 1,457 startups indexed, 3,000+ open roles at beta (Product Hunt, Aug 2025)
-- 1,000+ VC-backed startups, 3,500+ job listings (kdjingpai.com, 2025)
-- 35% of users reached first interview within 4 days (Product Hunt beta stats, Aug 2025)
-- "8 Best Operators" roster includes engineers from OpenAI and Anthropic (Aftalion LinkedIn, Dec 2025)
-- Company X/Twitter: @standoutwork (follower count not retrievable)
-- CEO LinkedIn: ~8K followers (LinkedIn via search snippet)
-- No Discord/Slack community found
-- No app store presence found
-- Website not accessible at time of research
+- Product Hunt launch (Feb 2026): #6 of the day, 167 upvotes, 161 followers, ~11-13 comments (Product Hunt)
+- Beta metric: 35% of users reached a first interview within 4 days (Product Hunt, Feb 2026)
+- Job database: 1,457 early-stage startups indexed, 3,000+ open roles (Product Hunt, Feb 2026)
+- Twitter/X: @standoutwork — handle exists, follower count not retrievable
+- LinkedIn: company page "standoutwork" — follower count not retrievable
+- Third team member (non-engineer) hired: "Côme" referenced as first hire (Alexis Aftalion LinkedIn post)
+- Website: returned 403 at time of research
+- No app store listings, Chrome extension, or Discord/Slack community found
+- No public revenue data found
 
 **Competitive landscape:**
 
-| Competitor | Funding | Revenue/ARR | Key Differentiator vs. Standout |
-|---|---|---|---|
-| Clera | Early-stage (undisclosed) | Not disclosed | Near-identical AI talent agent model; claims 60K users and 600+ startups; charges 15% placement fee (Clera website) |
-| Mercor | $482M+ ($350M Series C at $10B, Oct 2025) | $450M+ ARR (TechCrunch, Sep 2025) | Employer-facing; pivoted to AI-training labor; enterprise scale |
-| Hired | $133–165M total; acquired by Vettery/Adecco | ~$25–100M est. (Latka, 2021) | Two-sided marketplace; employer-driven; corporate-owned |
-| Turing | $247M ($111M Series E at $2.2B, Mar 2025) | $300M ARR (Latka, Dec 2024) | Remote developer staffing; AI training labor provider; global talent pool |
-| Placement | $3M seed (Founders Fund, 2019) | Not disclosed; absorbed into Exec | Pioneer of "talent agent" model with ISA pricing; human-driven, not AI-native |
+| Competitor | Funding | Key Differentiator vs. Standout |
+|------------|---------|--------------------------------|
+| **Dex** (UK) | $3.1M pre-seed (a16z Speedrun, Apr 2025) (TechCrunch) | Also candidate-side AI talent agent; uses voice calls vs. Standout's WhatsApp; broader market vs. startup focus |
+| **Juicebox** (YC) | $80M Series B at $850M valuation (Mar 2026); 5,000 customers, tripled ARR since Jul 2025 (BusinessWire) | Employer-side AI recruiting; 560K+ searches, 3M+ candidates engaged; enterprise scale vs. Standout's curated candidate representation |
+| **Hired** (now LHH) | $133M total raised; acquired by Adecco/LHH (Jun 2024) (Wikipedia, Tracxn) | Two-sided marketplace; broader market, subscription model; legacy platform without AI-agent layer |
+| **Perfect** | $23M seed (Feb 2025) (TechCrunch) | Agentic AI for recruiters (employer-side); automated sourcing and screening |
+| **Moonhub** (acquired) | $14.4M raised; acquired by Salesforce (Jun 2025) (TechCrunch) | Was employer-side AI recruiter; now absorbed into Salesforce's enterprise recruiting suite |
 
-**Why now:** AI capabilities crossed a threshold enabling automated candidate understanding at scale — 43% of organizations used AI for HR/recruiting in 2025, up from 26% in 2024 (HeroHunt.ai, 2025 via search snippet). [Inferred]: WhatsApp's ubiquity as a conversational channel and LLM improvements in nuanced career-preference understanding make the always-on AI agent model viable for the first time.
+**Why now:**
+- LLM capabilities crossed a quality threshold in 2024-2025, enabling conversational AI agents that can conduct meaningful career-intake calls and reason about job-candidate fit—prior chatbot approaches lacked this depth (TechCrunch Dex article, Apr 2025).
+- WhatsApp's ubiquity as a messaging platform enables always-on career agent delivery without app downloads.
+- [Inferred]: The 2024-2025 wave of startup layoffs and hiring volatility created heightened demand among tech workers for proactive career management rather than reactive job searching.
 
 ## Founders & Team
 
 **Alexis Aftalion** — Co-Founder & CEO
-- Master's in Data Sciences & Business Analytics, ESSEC/CentraleSupelec (2016–2020); exchange at Tongji University, Shanghai; coursework at LSE (RocketReach)
-- Venture Capitalist at Alven (Jan 2021–Jan 2022) (RocketReach)
-- COO & Founding Team at Zealy (formerly Crew3), Feb 2022–Sep 2024: community engagement platform that scaled to 1.5M MAU and $3M ARR within 12 months; Zealy raised $3.5M pre-seed in Apr 2023 led by Redalpine (YC page; TechCrunch, Apr 2023; FinSMEs, Apr 2023). Note: YC bio says he "launched Zealy"; press materials list other co-founders (Lindh, Demeslay, Grosjean); Aftalion held COO & Founding Team title (The Org)
-- Twitter/X: @alexisaftalion — follower count not retrievable
-- LinkedIn: linkedin.com/in/alexisaftalion — ~8K followers (via search snippet)
-- GitHub: github.com/aaftall — 33 repos, 4 followers; no high-star repos
+- Education: Bachelor's in English and Finance, ESSEC | CentraleSupélec; Master's in Data Sciences & Business Analytics (2016-2020) (LinkedIn, The Org)
+- Previously co-founded Zealy (fka CREW3), a web3 community platform: scaled to 1.5M MAU and $3M ARR in 12 months; raised $3.5M led by Redalpine (YC page; TechCrunch, Apr 2023)
+- Prior roles at Alven (VC firm) and Rocket Internet SE (LinkedIn)
+- Twitter/X: @alexisaftalion — count not retrievable
+- LinkedIn: linkedin.com/in/alexisaftalion
+- GitHub: github.com/aaftall — 33 public repos, 5 followers, no repos with notable star counts
 
 **Witold de La Chapelle** — Co-Founder & CTO
-- BS Mechanical Engineering, NYU Abu Dhabi; MS Computer Science, Carnegie Mellon University (RocketReach; NYUAD)
-- Software Engineer at Dropbox (2018–2019), Samsara (2019–2021), Chime (2021–2025) (RocketReach)
-- Founded Zarobky (2022–2023), a job board reaching 100K MAU (YC page; RocketReach)
-- Twitter/X: No confirmed public account found
-- LinkedIn: linkedin.com/in/witold-dlc
-- GitHub: github.com/wit221 — 18 repos, 2 followers; no high-star repos
+- Education: MS Computer Science, Carnegie Mellon University (2017-2018) (RocketReach, Getprog)
+- 9 years experience in distributed, cloud-native, and ML-driven systems (Getprog)
+- Previously: Software Engineer at Dropbox, Samsara, and Chime (YC page; Wiza)
+- Built a job board with 100K MAU (YC page)
+- Twitter/X: No public account found
+- LinkedIn: profile exists but URL not confirmed via search
+- GitHub: github.com/wit221 — 18 public repos, 2 followers, no repos with notable star counts
 
-**Additional team:** Côme Chabaille d'Auvigny joined as Founding Growth — recruited through the Standout platform itself (Aftalion LinkedIn, 168 likes).
+**Third team member:** Côme — role described as "first hire" (not an engineer) (Alexis Aftalion LinkedIn post). No further public data found.
 
-**Co-founder relationship:** No shared employer or university overlap identified from Phase 3 research. Both are based in San Francisco. [Inferred]: Connection may stem from the YC/startup ecosystem or French expatriate network (both have French names and Aftalion was educated in France).
+**Co-founder relationship:** No shared prior employer or university identified from Phase 3 findings. Alexis studied at ESSEC/CentraleSupélec in France; Witold studied at Carnegie Mellon and worked at US tech companies. No public data on co-founder history.
 
-**Founder-market fit:** Aftalion brings consumer product scaling experience (1.5M MAU at Zealy) and VC pattern recognition from Alven. De La Chapelle brings engineering depth at scale (Dropbox, Samsara, Chime) and direct domain experience building a job board to 100K MAU. The combination of consumer-growth expertise and recruiting-domain experience is directly relevant.
+**Founder-market fit:** Alexis Aftalion built and scaled Zealy to 1.5M MAU and $3M ARR, demonstrating community-building and go-to-market execution (YC page; TechCrunch). His time at Alven (VC) provided exposure to startup talent evaluation. Witold de La Chapelle's engineering tenure at Dropbox, Samsara, and Chime provides direct experience as the target user persona (startup engineer navigating career moves), and his prior job board (100K MAU) demonstrates recruiting-domain experience (YC page).
 
 ## Key Risks
 
-**Clera competitive overlap:** Clera operates a near-identical model (AI talent agent, WhatsApp/iMessage, startup focus) and claims 60,000+ users (Clera website). Differentiation between the two is unclear from public materials.
+**Name collision / discoverability:** "Standout" is a common English word. Search results return ADP's StandOut product, StandOut CV, StandOut UK charity, and others. The website domain (standout.work) partially mitigates this, but SEO and brand-building will face persistent noise. The website was inaccessible (403) at time of research, compounding discoverability concerns.
 
-**WhatsApp platform dependency:** Core product delivery relies on WhatsApp (Product Hunt, Aug 2025). Meta's terms of service changes, API pricing adjustments, or account restrictions could disrupt the primary user interaction channel.
+**Dex as funded direct competitor:** Dex raised $3.1M from a16z Speedrun (Apr 2025) with a nearly identical candidate-side AI talent agent positioning (TechCrunch, Apr 2025). Dex launched earlier and has a16z's distribution network. Standout's startup-niche focus differentiates but narrows the addressable market.
 
-**Placement precedent:** The closest historical analog — Placement, backed by Founders Fund — was absorbed into Exec rather than scaling independently (TechCrunch, Nov 2019). This suggests structural challenges in candidate-side monetization that Standout must overcome.
+**Monetization uncertainty:** No pricing is public; product is listed as "Free" (Product Hunt, Feb 2026). The talent-agent model requires either employer willingness to pay placement fees to a candidate-side agent (an unfamiliar buying motion) or candidate willingness to pay (historically very low in recruiting). No revenue signal has been found.
 
-**Name disambiguation:** "Standout" is a common English word. Search results frequently surface unrelated entities (StandOut by ADP, Standout Agency, etc.), which may impede organic discoverability and SEO.
+**WhatsApp platform dependency:** Core product delivery relies on WhatsApp's Business API. Policy changes, rate limits, or terms-of-service enforcement by Meta could disrupt the primary distribution channel without notice.
+
+**Candidate-side marketplace cold start:** The product must simultaneously build candidate supply and employer job inventory. With 1,457 startups indexed and 3,000+ roles (Product Hunt, Feb 2026), the job-side inventory is bootstrapped via scraping/aggregation, but converting to warm introductions requires employer opt-in—an unproven dynamic at this stage.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $169B global talent acquisition & staffing tech (Future Market Insights, 2025 via search snippet, 6.2% CAGR) |
+| TAM | Global recruitment market $968.33B in 2026, 13.1% CAGR (Business Research Insights via search snippet); IT recruitment $198.8B in 2025 (Business Research Insights via search snippet) |
 | SAM | No public data found |
-| Traction | Product Hunt #6 daily, 167 upvotes, 44 comments (Aug 3, 2025); 1,457 startups indexed, 3,000+ roles (Product Hunt, Aug 2025); 35% of users reached first interview within 4 days (Product Hunt, Aug 2025) |
+| Traction | Product Hunt #6 of the day, 167 upvotes (Product Hunt, Feb 2026); 35% beta users reached first interview in 4 days (Product Hunt, Feb 2026); 1,457 startups indexed, 3,000+ roles (Product Hunt, Feb 2026) |
 | Revenue Signal | No public data found |
-| Founders | Alexis Aftalion (CEO): COO & Founding Team at Zealy (1.5M MAU, $3M ARR), ex-Alven VC. Witold de La Chapelle (CTO): ex-Dropbox/Samsara/Chime engineer, built job board to 100K MAU. |
-| Competitors | Clera (early-stage, revenue unknown, near-identical AI talent agent model); Mercor ($482M+ raised, $450M+ ARR, employer-facing AI recruiting); Hired ($133–165M raised, ~$25–100M revenue, employer marketplace acquired by Adecco); Turing ($247M raised, $300M ARR, remote dev staffing); Placement ($3M raised, revenue unknown, absorbed into Exec) |
+| Founders | Alexis Aftalion (CEO): Co-founded Zealy, 1.5M MAU / $3M ARR, ESSEC/CentraleSupélec. Witold de La Chapelle (CTO): CMU MS CS, engineer at Dropbox/Samsara/Chime, built 100K MAU job board. |
+| Competitors | Dex ($3.1M pre-seed, revenue unknown, candidate-side AI talent agent); Juicebox ($80M raised at $850M, tripled ARR since Jul 2025, employer-side AI recruiting); Hired ($133M total, acquired by Adecco/LHH, two-sided marketplace); Perfect ($23M seed, revenue unknown, employer-side agentic AI); Moonhub ($14.4M raised, acquired by Salesforce Jun 2025, employer-side AI recruiter) |
 | Moat Signals | No public data found |
-| Risk Factors | Clera competitive overlap, WhatsApp platform dependency, Placement precedent |
-| Founder Reach | Aftalion: Twitter @alexisaftalion (count not retrievable), LinkedIn ~8K followers (via search snippet), GitHub 4 followers. De La Chapelle: Twitter not found, LinkedIn linkedin.com/in/witold-dlc (count not retrievable), GitHub 2 followers. |
-| Distribution Signals | Product Hunt #6 daily (Aug 3, 2025); CEO LinkedIn posts 130–174 likes (LinkedIn, Aug–Dec 2025) |
+| Risk Factors | Name collision/discoverability, Dex as funded direct competitor, monetization uncertainty |
+| Founder Reach | Alexis Aftalion: Twitter @alexisaftalion (count not retrievable), LinkedIn present, GitHub 5 followers. Witold de La Chapelle: Twitter not found, LinkedIn present, GitHub 2 followers. |
+| Distribution Signals | Product Hunt #6 of the day with 167 upvotes (Product Hunt, Feb 2026); WhatsApp as delivery channel |
 | Emails | No public data found |

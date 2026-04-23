@@ -9,121 +9,128 @@
 | Batch | Spring 2026 |
 | Industry | Industrials / Manufacturing and Robotics |
 | Team Size | 4 |
-| Location | San Francisco, CA, USA |
-| Tags | Artificial Intelligence, Robotics, Logistics, Automation |
+| Location | San Francisco, US (company website); originally founded in Germany (Nordic 9) |
+| Tags | Artificial Intelligence, Hard Tech, Robotics, Logistics |
 | YC Partner | Tom Blomfield |
-| Emails | founders@inloop-robotics.com |
+| Emails | founders@inloop-robotics.com (company website) |
 
 ## The Idea
 
-**Problem:** Warehouse fulfillment operations face labor shortages, high turnover, and rising costs. Traditional automation requires $100K+ upfront capital and months of integration (inloop-robotics.com). Most robotics companies delay deployment until systems reach near-perfect autonomy, slowing real-world learning and extending time-to-value.
+**Problem:** Warehouse fulfillment remains labor-intensive, with an estimated 2.1 million unfilled warehouse jobs projected by 2030 (Standard Bots, 2026 via search snippet). Traditional industrial automation requires $100K+ upfront investment, months-long deployment timelines, and specialized integration engineering (InLoop website). These systems are rigid — they cannot adapt to changing product types or order variability without expensive reprogramming.
 
-**Approach:** InLoop deploys a bimanual robotic system ("Loop V1") that uses "confidence-aware AI" with a Safety Module (inloop-robotics.com). When the AI is uncertain, it pauses operations and routes decisions to a remote human teleoperator for resolution, then syncs the learning back to the AI model. Capabilities include box assembly, kitting/multi-item order picking, visual inspection with AI defect detection, content preparation (labeling, wrapping, staging), and unpackaging (inloop-robotics.com). Every human intervention becomes training data, creating a continuous learning loop in production environments.
+**Approach:** InLoop deploys "Loop V1," a bimanual robotic system with a confidence-aware AI architecture (InLoop website). A Safety Module evaluates each command before execution; when the system's confidence falls below threshold, it pauses and routes the task to a remote human teleoperator (InLoop website). Every human intervention generates labeled training data, creating a feedback loop: failures become training signal, and the autonomous success rate rises over time (YC page). Capabilities include box assembly, kitting, visual inspection, content preparation, and unpackaging (InLoop website).
 
-**Differentiation:** Unlike Nimble Robotics (fully autonomous general-purpose fulfillment robot, $221M raised; Nimble press release, Oct 2024) or Dexterity AI (mobile dual-arm robot for container loading, $291M raised; TechCrunch, Mar 2025), InLoop explicitly ships imperfect policies and uses a human-in-the-loop recovery system as a data flywheel. Pickle Robot (~$87–97M raised; Pickle Robot press release, Nov 2024) focuses narrowly on truck unloading. Formic ($52M+ raised; Modern Materials Handling, Jun 2024) offers RaaS for manufacturing but uses third-party robot hardware rather than building its own AI-native stack.
+**Differentiation:** Most warehouse robotics startups (Nimble, Dexterity) pursue full autonomy before deployment. InLoop inverts this by deploying imperfect policies immediately and using human-in-the-loop teleoperation as a runtime fallback and data collection mechanism (YC page). Nimble Robotics also uses human-in-the-loop supervision but at a $1B valuation and $221M raised (The Robot Report, Sep 2024); InLoop targets a similar architecture at pre-seed scale. Dexterity ($300M raised, $1.65B valuation; Bloomberg, Mar 2025) focuses on truck loading and heavy-payload tasks rather than general fulfillment. Covariant, formerly a leading AI-for-picking company ($222M raised), was effectively acqui-hired by Amazon in August 2024 (Wikipedia), leaving a gap in the independent warehouse AI market.
 
-**Business Model:** Robotics-as-a-Service (RaaS) with a flat monthly subscription fee and zero upfront CapEx (inloop-robotics.com). Specific pricing tiers are not disclosed. The company positions the cost as "cheaper than human labor, with zero turnover" (inloop-robotics.com). [Inferred]: The per-robot monthly fee likely targets sub-FTE cost levels to justify replacement economics for warehouse operators.
+**Business Model:** Robotics-as-a-Service (RaaS) — zero upfront capital cost, flat monthly subscription including hardware, continuous AI updates, and 24/7 teleassistance (InLoop website). No specific pricing tiers are published. [Inferred]: The flat monthly subscription likely targets a price point competitive with fully-loaded warehouse labor costs per station to enable rapid ROI justification.
 
-**TAM/SAM:** The global warehouse robotics market was valued at $6.51 billion in 2025, projected to reach $13.5 billion by 2030 at 11.8% CAGR (Fortune Business Insights, 2026 via search snippet). The broader warehouse automation market was estimated at $19.23 billion in 2023, projected to reach $59.52 billion by 2030 at 18.7% CAGR (Grand View Research via search snippet). The RaaS segment specifically is forecast to grow at 18% CAGR through 2032 (MCF Corporate Finance, 2025 via search snippet). [Inferred]: The SAM for RaaS fulfillment robotics targeting small-to-mid-sized warehouses is a subset of the broader warehouse robotics TAM, but no public segment-specific estimate was found.
+**TAM/SAM:** The warehouse robotics market was valued at $6.51B in 2025, projected to reach $25.41B by 2034 at 16.80% CAGR (Fortune Business Insights, 2026 via search snippet). The broader warehouse automation market is estimated at $23.92B in 2025, growing to $47B by 2030 at 14.4% CAGR (Research and Markets, 2026 via search snippet). [Inferred]: InLoop's SAM is the subset of warehouses performing piece-picking, kitting, and packing — a fraction of the total warehouse robotics market — likely in the low single-digit billions.
 
-**GTM / Distribution:** [Inferred]: Most likely distribution path is direct sales to e-commerce fulfillment operators and 3PLs, starting with small-to-mid-sized warehouses where the zero-CapEx RaaS model removes the capital barrier that blocks traditional automation adoption.
+**GTM / Distribution:** [Inferred]: Most likely distribution path is direct sales to mid-market 3PL and e-commerce fulfillment operators, leveraging the zero-capex RaaS model to reduce procurement friction. The "deployment in hours" claim (InLoop website) and managed-service model suggest a land-and-expand approach where initial small deployments prove ROI before scaling within a facility.
 
 ## Defensibility
 
-- **Data flywheel:** Every deployed robot generates failure-and-recovery training data that improves the shared AI model. More deployments produce more edge cases and interventions, which accelerate policy improvement (inloop-robotics.com). This advantage compounds with scale but is nascent at pre-seed stage.
-- **Proprietary teleop-to-training pipeline:** The confidence-aware Safety Module and real-time human-in-the-loop recovery architecture constitute a custom system for converting operational failures into labeled training data (inloop-robotics.com). [Inferred]: This pipeline's value depends on the volume and diversity of deployment environments.
-- **Switching costs:** [Inferred]: Once a warehouse integrates InLoop's system into its fulfillment workflow and the AI adapts to that facility's SKU mix and layout, switching to a competitor would require re-integration and loss of facility-specific model training.
+- **Data flywheel:** Every teleoperator intervention generates labeled failure data that trains the next policy iteration (YC page). This creates a compounding data advantage: more deployments produce more edge-case training data, which increases autonomy rates, which reduces teleoperator cost, which improves unit economics.
+- **NVIDIA Inception membership** and **RoboTUM partnership** (InLoop website) signal access to compute resources and academic research pipelines, but are not exclusive.
+- **Switching costs:** Once InLoop's robots are integrated into a warehouse workflow with custom-trained policies, switching to a competitor would require retraining and re-integration. [Inferred]: At pre-seed stage, no customer has deep enough integration for this to constitute a meaningful moat today.
 
-**Market structure:** Large incumbents (e.g., Amazon Robotics, Symbotic) have invested heavily in fixed infrastructure automation designed for mega-scale facilities. [Inferred]: Their existing business models are optimized for large enterprise contracts with high upfront CapEx, creating a structural misalignment with the low-CapEx RaaS model targeting small-to-mid-sized operators. Additionally, Amazon's acquisition of Covariant's technology and team (Amazon, Aug 2024) suggests incumbents may prefer acqui-hiring AI talent over building competing RaaS offerings organically.
+**Market structure:** [Inferred]: Large incumbents (Amazon Robotics, Symbotic at $31.3B market cap per Tracxn, Jul 2025) are vertically integrated — Amazon Robotics serves Amazon's own warehouses, and Symbotic is locked into a $23B exclusive deal with Walmart. These captive relationships limit their ability to sell to competing retailers and 3PLs, creating an opening for independent providers. The structural barrier for incumbents is channel conflict: selling to competitors of their anchor customers would undermine their primary business relationships.
 
-**Commoditization risk:** The human-in-the-loop approach is conceptually replicable. Well-funded competitors like Nimble ($1B valuation; Nimble press release, Oct 2024) and Dexterity ($1.65B valuation; Bloomberg, Mar 2025) have substantially more capital to invest in AI model training. Open-source robotic manipulation frameworks (e.g., Physical Intelligence's openpi, which Zakariea Sharfeddine has forked on GitHub) lower the barrier to building similar systems. [Inferred]: The defensibility hinges less on the concept and more on the accumulated deployment data and speed of iteration.
+**Commoditization risk:** The human-in-the-loop teleoperation pattern is architecturally straightforward and is already used by Nimble Robotics (Nimble website). The defensibility depends on the quality and volume of accumulated training data and the speed of policy improvement, not on the architectural pattern itself. Well-funded competitors (Nimble at $221M, Dexterity at ~$300M) have significantly more capital to invest in data collection and R&D.
 
 ## Market & Traction
 
 **Traction signals:**
-- The company claims "multiple robots" deployed with customers and states "none of our deployed robots have broken" (inloop-robotics.com). No specific customer names, revenue, user counts, or growth metrics are disclosed.
-- 0 open job postings (YC page, Mar 2026).
-- Company Twitter/X account: not identified under "InLoop Robotics" branding. Founder accounts exist (see Founders section).
-- LinkedIn: linkedin.com/company/inlooprobotics (YC page). Follower count not retrievable.
-- No Product Hunt launch found for InLoop Robotics. A Product Hunt listing for "InLoop" (NFT membership tool) is a different company (Product Hunt).
-- No press coverage in named publications found.
-- No Discord/Slack community found.
-- No app store or web traffic data applicable.
+- NVIDIA Inception program member (InLoop website)
+- RoboTUM partnership (InLoop website)
+- $500K investment from Y Combinator (GrowthList, 2026 via search snippet — consistent with YC standard deal)
+- Company claims "zero robot breakdowns reported among deployed units" (InLoop website) — implies at least one deployment, though no customer names, deployment count, or dates are cited
+- LinkedIn company page: InLoop Robotics (YC P26) (LinkedIn) — follower count not retrievable
+- Twitter/X: no confirmed company account found (the @InLoop_ handle belongs to an unrelated AI content curation company based in Alexandria, VA)
+- Product Hunt: no launch found for InLoop Robotics (a "InLoop" listing on Product Hunt refers to the unrelated content curation product)
+- No public revenue figures, customer names, or deployment metrics found
 
 **Competitive landscape:**
 
-| Competitor | Funding | Key Differentiator vs. InLoop |
+| Competitor | Funding | Differentiator vs. InLoop |
 |---|---|---|
-| **Nimble Robotics** | $221M total, $1B valuation (Series C, Oct 2024; Nimble press release) | Fully autonomous general-purpose fulfillment robot; FedEx as strategic investor/customer. Does not use a human-in-the-loop recovery model. |
-| **Dexterity AI** | $291M total, $1.65B valuation (Series B, Mar 2025; TechCrunch) | Mobile dual-arm "Mech" robot for container loading/sorting; FedEx and UPS customers. Focused on heavier payloads (up to 132 lbs). |
-| **Pickle Robot** | ~$87–97M total (Series B $50M, Nov 2024; Pickle Robot press release) | Specialized in truck unloading only; 30+ robot orders in Q3 2024. Narrower use case than InLoop's multi-function approach. |
-| **Formic** | $52M+ total (Series A, Jun 2024; The Robot Report) | RaaS model using third-party robot hardware for manufacturing; partners with Mitsubishi HC Capital. Does not build proprietary AI-native manipulation stack. |
-| **Berkshire Grey** | Acquired by SoftBank for ~$375M (Jul 2023; The Robot Report) | Enterprise-grade pick-and-pack systems for large retailers. Now SoftBank subsidiary, focused on strategic partnerships rather than SMB market. |
+| **Nimble Robotics** | $221M raised, $1B valuation (The Robot Report, Sep 2024) | End-to-end autonomous fulfillment with FedEx as strategic investor; also uses human-in-the-loop but at far greater scale and maturity |
+| **Dexterity** | ~$300M raised, $1.65B valuation (Bloomberg, Mar 2025) | Focus on heavy-payload truck loading (132 lbs); deployed at FedEx, UPS, GXO; broader manipulation capability |
+| **Contoro Robotics** | $12M Series A (Mar 2025, Sourcing Journal) | Specialized in parcel unloading from trucks/containers; narrower scope than InLoop |
+| **Dexory** | $165M Series C (Jan 2026, search snippet) | London-based; focused on warehouse digitization and inventory tracking rather than manipulation |
+| **Standard Bots** | Funding details not found | Sells robotic arms with software platform; positioned as accessible alternative to legacy industrial arms |
 
 **Why now:**
-- [Inferred]: Advances in vision-language-action (VLA) models and foundation models for robotic manipulation (e.g., Physical Intelligence, Google DeepMind RT-2) have crossed a capability threshold that makes "ship imperfect, improve continuously" viable—prior AI architectures degraded too rapidly outside training distributions.
-- Annual AMR shipments are projected to grow from ~547,000 units (2023) to 2.79 million by 2030 (MCF Corporate Finance, 2025 via search snippet), indicating rapidly expanding adoption.
-- Amazon's acqui-hire of Covariant's team (Aug 2024; Wikipedia) signaled validation of AI-first warehouse robotics while simultaneously removing an independent competitor from the market.
-- [Inferred]: Persistent warehouse labor shortages and rising wages in logistics post-pandemic continue to push operators toward automation, lowering the sales resistance for RaaS offerings.
+- Labor shortage: 2.1 million unfilled warehouse jobs projected by 2030 (Standard Bots, 2026 via search snippet), creating urgent demand for automation.
+- [Inferred]: Foundation model advances in 2023–2025 (vision-language models, sim-to-real transfer) have reduced the cost of training manipulation policies, making it feasible for a 4-person team to build a viable robotic system that would have required a much larger team two years ago.
+- [Inferred]: The Covariant acqui-hire by Amazon (Aug 2024) removed a major independent player from the market, creating space for new entrants.
+- In Q1 2026 alone, robotics startups secured over $2.26B in funding, with 70%+ going to warehouse and industrial automation (search snippet from industry report), signaling strong investor appetite for the category.
 
 ## Founders & Team
 
-**Stepan Feduniak** — Co-founder
-- No public education or work history found via web search.
-- Twitter/X: @FeduniakS — follower count not retrievable.
-- LinkedIn: linkedin.com/in/stepan-feduniak-b33045276/ — profile not accessible for details.
-- GitHub: No public repos found.
-- A FIDE chess profile exists for a Stepan Feduniak born 2007 from Ukraine (FIDE, profile #34150684); unclear if this is the same individual.
-
-**Pasha Rizali** — Co-founder
-- Education: BS in Electrical & Computer Engineering; pursuing MS in Computer Science at Technical University of Munich (TUM) (LinkedIn headline via search snippet).
-- Co-founded RoboTUM, described as Germany's largest student robotics initiative, focused on building the fastest bipedal robot (Munich Startup).
-- Previously worked at MIRMI (Munich Institute of Robotics and Machine Intelligence), contributing to communications, researcher interviews, and project support (search snippet via LinkedIn post).
-- Participated in a TUM WARR competition involving reusable rocket design and construction (search snippet via LinkedIn).
-- Silicon Valley Fellowship, Winter 2025 cohort (LinkedIn post, Silicon Valley Fellowship).
-- Featured in a Silicon Valley Fellowship podcast episode discussing "what happens when robotics st[arts up]..." (Facebook, Silicon Valley Fellowship page).
-- Twitter/X: @PashaRizali — follower count not retrievable.
-- LinkedIn: linkedin.com/in/pasha-rizali — headline: "Aspiring Robotics Engineer | Computer Science Student with a Passion for Innovation."
-- GitHub: No public repos found.
+The YC page lists three founders. A fourth team member, Martin Mohammed, appears on LinkedIn as working at InLoop Robotics (YC P26).
 
 **Zakariea Sharfeddine** — Co-founder
-- Education: BS Informatics, Karlsruhe Institute of Technology (KIT), 2020–2024 (RocketReach via search snippet). Also studied at TUM.
-- Reinforcement Learning and Humanoid Robotics Engineer at RoboTUM (RocketReach via search snippet).
-- Prior experience at BMW Group, Bosch, KIT, and KITec (RocketReach via search snippet).
-- Member of team "RollsRoICE" that won 3rd place in the Digital Future Challenge 2026 with a Deutsche Bahn use case—developing a mini-robot for autonomously connecting/disconnecting water/wastewater systems on ICE trains (TUM news).
-- Winner of 2025 BEHAVIOR Challenge (GitHub repo description).
-- Twitter/X: @Zakariea_sh — follower count not retrievable.
-- LinkedIn: linkedin.com/in/zakariea-sharfeddine — headline references "Stealth Startup" (search snippet).
-- GitHub: github.com/Zasha01 — 9 followers; notable repos: VLA-Chess-Isaac-Sim (5 stars, teleoperation in IsaacLab), behavior-1k-solution (1 star, 2025 BEHAVIOR Challenge winner), fork of Physical Intelligence's openpi (GitHub).
+- BS Informatics, Karlsruhe Institute of Technology (KIT), 2024 (RocketReach via search snippet); studied at Technische Universität München (TUM)
+- ML roles at Bosch and BMW; also worked at KITec (YC page, Nordic 9)
+- Published research on power grid frequency deviation analysis (ACM SIGEnergy, 2024 via search snippet)
+- Twitter/X: @Zakariea_sh — count not retrievable
+- LinkedIn: linkedin.com/in/zakariea-sharfeddine — headline: "Stealth Startup" (LinkedIn)
+- GitHub: github.com/Zasha01 — repos include QuantumComputingSoftwarePatterns; star counts not retrieved
 
-**Co-founder relationship:** Pasha Rizali and Zakariea Sharfeddine are both connected through RoboTUM at TUM Munich—Rizali as co-founder of RoboTUM (Munich Startup) and Sharfeddine as a Reinforcement Learning and Humanoid Robotics Engineer at RoboTUM (RocketReach). No public data links Stepan Feduniak to TUM or RoboTUM.
+**Stepan Feduniak** — Co-founder
+- "Did robot learning research at 18" (YC page)
+- Specializes in failure detection and learning (YC page)
+- Twitter/X: @FeduniakS — count not retrievable
+- LinkedIn: linkedin.com/in/stepan-feduniak-b33045276 (LinkedIn)
+- GitHub: No public profile found
 
-**Founder-market fit:** Rizali and Sharfeddine bring direct robotics engineering experience from RoboTUM, where they worked on bipedal locomotion and manipulation. Sharfeddine's industrial experience at BMW and Bosch provides exposure to manufacturing automation requirements, and his winning the 2025 BEHAVIOR Challenge demonstrates competitive AI/robotics skills. Rizali's co-founding of Europe's largest student robotics initiative signals organizational and community-building ability. Feduniak's specific qualifications are not publicly documented. No advisors, board members, or notable angel investors have been publicly disclosed.
+**Pasha Rizali** — Co-founder
+- Bachelor in Electrical & Computer Engineering (LinkedIn); pursuing Master's degree
+- Co-founded RoboTUM in 2024 with Alexander Palatnik (LinkedIn); founded European Student Robotics Association (ESRA) (YC page)
+- Participated in TUM WARR rocketry competition (LinkedIn)
+- Worked at MIRMI (Munich Institute of Robotics and Machine Intelligence) — communications, social media, researcher engagement (LinkedIn)
+- Silicon Valley Fellowship, Winter 2025 batch (LinkedIn); appeared on Silicon Valley Fellowship podcast (Facebook post)
+- Twitter/X: @PashaRizali — count not retrievable
+- LinkedIn: linkedin.com/in/pasha-rizali — headline: "Aspiring Robotics Engineer | Computer Science Student with a Passion for Innovation" (LinkedIn)
+- GitHub: No public profile found
+
+**Martin Mohammed** — Team member (not listed as founder on YC page)
+- Self-taught programmer from age 12; interned at IBM San Francisco at age 16 focusing on reinforcement learning (GitHub bio)
+- Data engineer at Data Reply (AWS, Spark, Airflow); worked at Tytan Technologies on edge AI and drone systems (GitHub bio)
+- Co-founded Eggi, a YC-backed venture that raised $250K pre-seed (GitHub bio)
+- Hackathon winner: Mistral AI Game Jam (€2,000 prize), Tech Berlin (GitHub bio)
+- LinkedIn: linkedin.com/in/martin-mohammed-30019a207 (LinkedIn)
+- GitHub: github.com/MartinMohammed — 15 public repos, 17 followers; notable repo: object-tracking-yolo-v8-mil (15 stars) (GitHub)
+
+**Co-founder relationship:** Three of the founders (Zakariea, Stepan, Pasha) have TUM (Technische Universität München) connections — Zakariea studied at TUM, Pasha co-founded RoboTUM at TUM and worked at MIRMI, and Stepan was conducting robot learning research. [Inferred]: The founding team likely formed through the TUM robotics community. Martin Mohammed is also based in Munich (GitHub).
+
+**Founder-market fit:** The team combines ML engineering experience at automotive OEMs (Bosch, BMW), robotics community leadership (RoboTUM, ESRA), early robot learning research, and cloud/infrastructure engineering. Martin Mohammed brings prior startup experience (Eggi, YC-backed) and relevant computer vision work (YOLOv8 object tracking). The team's backgrounds span the core technical requirements of the product (ML policy training, robotic manipulation, cloud infrastructure for teleoperator routing). No advisors, board members, or notable angel investors were found in public sources.
 
 ## Key Risks
 
-**Well-funded direct competition:** Nimble ($221M raised, $1B valuation; Oct 2024), Dexterity ($291M raised, $1.65B valuation; Mar 2025), and Pickle Robot (~$87–97M raised; Nov 2024) are all building AI-driven warehouse robots with significantly more capital, deployed units, and named enterprise customers (FedEx, UPS). InLoop must differentiate on speed-to-deploy and the human-in-the-loop data flywheel before competitors close any capability gap.
+**Teleoperation cost scaling:** The business model's economics depend on the ratio of autonomous vs. human-intervened actions. If the autonomous success rate plateaus below a threshold where teleoperator costs exceed per-station revenue, the RaaS model becomes uneconomical. The company has not disclosed autonomy rates or teleoperator staffing ratios.
 
-**Teleoperator unit economics:** The core value proposition relies on human teleoperators to handle failures during early deployments. As deployment scales, the ratio of teleoperators to robots must decrease rapidly for the flat-fee RaaS model to remain economically viable. If the AI improvement rate is slower than expected, teleoperator costs could erode margins. No public data on current intervention frequency or teleoperator staffing ratios was found.
+**Competitive capital disadvantage:** Direct competitors Nimble ($221M raised; The Robot Report) and Dexterity (~$300M raised; Bloomberg) have 400–600x InLoop's funding. These competitors are deploying at enterprise scale with FedEx, UPS, and GXO, accumulating operational data that strengthens their own models. InLoop must demonstrate a faster learning rate per dollar invested to remain competitive.
 
-**Hardware reliability and liability in production:** The company claims "none of our deployed robots have broken" (inloop-robotics.com), but bimanual robots operating in real warehouse environments face mechanical wear, collision risks, and environmental variability. Hardware failures at customer sites could create liability exposure and damage reputation during the critical early-deployment phase.
+**Hardware risk in a software-first team:** The team's visible backgrounds are in ML, software, and community building. Manufacturing and deploying bimanual robotic hardware requires mechanical engineering, supply chain management, and field service capabilities. No team member with visible hardware/mechanical engineering credentials was identified in public sources.
 
-**Name confusion:** Multiple unrelated companies use "InLoop" branding—InLoop (NFT membership tool on Product Hunt), InLoop (AI content curation for associations, @InLoop_ on Twitter), INLOOPX (software agency), and inLOOP VR. This could dilute brand discoverability and SEO in early marketing efforts.
+**Name collision:** "InLoop" is shared with at least two other entities — an AI content curation company (@InLoop_ on Twitter) and a separate Product Hunt listing. This may cause confusion in brand searches and SEO.
 
-**Founder public visibility gap:** One of three listed founders (Stepan Feduniak) has no retrievable public professional background, education, or work history. For an investment committee, this creates a diligence gap regarding team completeness and the distribution of technical vs. business responsibilities.
+**Regulatory and safety liability:** Deploying robots in warehouses involves occupational safety compliance (OSHA in the US, EU Machinery Directive in Europe). The confidence-based pause-and-escalate architecture is a mitigation, but the company's approach of shipping "imperfect policies" into production environments carries liability exposure if a failure mode is not caught by the Safety Module.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $6.51B warehouse robotics market in 2025, projected $13.5B by 2030 at 11.8% CAGR (Fortune Business Insights, 2026 via search snippet) |
+| TAM | $6.51B in 2025, projected $25.41B by 2034 at 16.80% CAGR (Fortune Business Insights, 2026 via search snippet) |
 | SAM | No public data found |
-| Traction | "Multiple robots" deployed, zero breakage claimed (inloop-robotics.com); no customer names, revenue, or growth metrics disclosed |
+| Traction | NVIDIA Inception member (InLoop website); zero breakdowns claimed (InLoop website); no customer names, user counts, or deployment metrics found publicly |
 | Revenue Signal | No public data found |
-| Founders | Stepan Feduniak (Co-founder): no public credentials found. Pasha Rizali (Co-founder): BS ECE, MS CS at TUM, co-founded RoboTUM. Zakariea Sharfeddine (Co-founder): BS Informatics KIT, RL engineer at RoboTUM, BMW/Bosch experience, 2025 BEHAVIOR Challenge winner. |
-| Competitors | Nimble ($221M raised, revenue unknown, fully autonomous general-purpose fulfillment; Nimble press release Oct 2024). Dexterity ($291M raised, revenue unknown, heavy-payload mobile dual-arm; TechCrunch Mar 2025). Pickle Robot (~$87–97M raised, revenue unknown, truck unloading specialist; Pickle Robot press release Nov 2024). Formic ($52M+ raised, revenue unknown, RaaS with third-party hardware; The Robot Report Jun 2024). |
-| Moat Signals | Teleop-to-training data flywheel from production deployments (inloop-robotics.com); confidence-aware Safety Module architecture (inloop-robotics.com) |
-| Risk Factors | Well-funded direct competitors, teleoperator unit economics uncertainty, founder visibility gap |
-| Founder Reach | Stepan Feduniak: Twitter @FeduniakS (count not retrievable), LinkedIn (profile not accessible). Pasha Rizali: Twitter @PashaRizali (count not retrievable), LinkedIn (accessible). Zakariea Sharfeddine: Twitter @Zakariea_sh (count not retrievable), LinkedIn (accessible), GitHub 9 followers/5 stars top repo. |
+| Founders | Zakariea Sharfeddine (Co-founder): ML at Bosch & BMW, BS KIT. Stepan Feduniak (Co-founder): robot learning research at 18. Pasha Rizali (Co-founder): RoboTUM & ESRA founder, EE/CS student. Martin Mohammed (Team): IBM RL intern, Eggi co-founder (YC-backed, $250K pre-seed) |
+| Competitors | Nimble ($221M raised, $1B valuation, revenue unknown, autonomous fulfillment with FedEx; The Robot Report, Sep 2024); Dexterity (~$300M raised, $1.65B valuation, revenue unknown, heavy-payload truck loading; Bloomberg, Mar 2025); Contoro ($12M Series A, revenue unknown, parcel unloading; Sourcing Journal, Mar 2025) |
+| Moat Signals | Data flywheel from teleoperator interventions generating training data (YC page); NVIDIA Inception membership (InLoop website) |
+| Risk Factors | Teleoperation cost scaling, 400-600x competitor capital advantage, hardware execution with software-focused team |
+| Founder Reach | Zakariea: Twitter @Zakariea_sh (count not retrievable), LinkedIn (count not retrievable), GitHub github.com/Zasha01. Stepan: Twitter @FeduniakS (count not retrievable), LinkedIn (profile found). Pasha: Twitter @PashaRizali (count not retrievable), LinkedIn (profile found). Martin: GitHub 17 followers/15 stars (GitHub) |
 | Distribution Signals | No public data found |
-| Emails | founders@inloop-robotics.com (inloop-robotics.com) |
+| Emails | founders@inloop-robotics.com (company website) |

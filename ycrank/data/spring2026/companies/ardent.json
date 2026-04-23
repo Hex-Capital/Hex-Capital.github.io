@@ -1,0 +1,71 @@
+{
+  "slug": "ardent",
+  "name": "Ardent",
+  "oneLiner": "Database sandboxes for Agents",
+  "metadata": {
+    "website": "https://tryardent.com",
+    "yc_page": "https://www.ycombinator.com/companies/ardent",
+    "batch": "Spring 2026 (X26)",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Data Engineering, Infrastructure, AI",
+    "yc_partner": "Aaron Epstein (YC company page)",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Data Engineering",
+    "Infrastructure",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-22T23:33:38.788Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 62,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 41,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 42,
+    "EG": 53,
+    "NR": null,
+    "PG": 62,
+    "PT": 36,
+    "SL": 40,
+    "VK": 41
+  },
+  "consolidatedAvg": 45.67,
+  "consolidatedRank": 30,
+  "paths": {
+    "memo": "spring2026/memos/ardent.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/ardent.md",
+      "elad-gil": "spring2026/evals/elad-gil/ardent.md",
+      "paul-graham": "spring2026/evals/paul-graham/ardent.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/ardent.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/ardent.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/ardent.md"
+    }
+  }
+}

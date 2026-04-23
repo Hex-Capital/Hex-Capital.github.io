@@ -1,7 +1,7 @@
 {
   "slug": "refortifai",
-  "name": "RefortifAI",
-  "oneLiner": "Secure Deployment & DRM for AI model providers",
+  "name": "Refortifai",
+  "oneLiner": "Runtime security for AI agents",
   "metadata": {
     "website": "https://refortif.ai",
     "yc_page": "https://www.ycombinator.com/companies/refortifai",
@@ -9,63 +9,58 @@
     "industry": "B2B / B2B -> Security",
     "team_size": "3",
     "location": "San Francisco, CA, USA",
-    "tags": "Artificial Intelligence, B2B, Security",
+    "tags": "B2B, Security, AI",
     "yc_partner": "Nicolas Dessaigne",
     "emails": "No public data found"
   },
   "tags": [
-    "Artificial Intelligence",
     "B2B",
-    "Security"
+    "Security",
+    "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-03-29T04:53:23.297Z",
+  "memoGeneratedAt": "2026-04-22T23:51:13.927Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 37,
+      "score": 34,
       "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 59,
-      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 36,
+      "score": 39,
       "tier": "Pass"
     },
-    "sam-lessin": {
+    "paul-graham": {
       "score": 40,
       "tier": "Pass"
     },
+    "peter-thiel": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
+    },
     "vinod-khosla": {
-      "score": 42,
+      "score": 40,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 37,
-    "EG": 59,
-    "NR": 46,
-    "PG": 48,
-    "PT": 36,
-    "SL": 40,
-    "VK": 42
+    "CB": 34,
+    "EG": null,
+    "NR": 39,
+    "PG": 40,
+    "PT": 27,
+    "SL": 29,
+    "VK": 40
   },
-  "consolidatedAvg": 44,
-  "consolidatedRank": 18,
+  "consolidatedAvg": 34.83,
+  "consolidatedRank": 97,
   "paths": {
     "memo": "spring2026/memos/refortifai.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/refortifai.md",
-      "elad-gil": "spring2026/evals/elad-gil/refortifai.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/refortifai.md",
       "paul-graham": "spring2026/evals/paul-graham/refortifai.md",
       "peter-thiel": "spring2026/evals/peter-thiel/refortifai.md",

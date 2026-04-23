@@ -1,0 +1,71 @@
+{
+  "slug": "juno-chat",
+  "name": "Juno",
+  "oneLiner": "AI Health Assistant for Chronic Illness",
+  "metadata": {
+    "website": "https://juno-chat.com/",
+    "yc_page": "https://www.ycombinator.com/companies/juno-chat",
+    "batch": "Spring 2026",
+    "industry": "Healthcare / Consumer Health and Wellness",
+    "team_size": "2",
+    "location": "No public data found",
+    "tags": "Health Tech, Health & Wellness, Consumer Products",
+    "yc_partner": "David Lieb",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Health Tech",
+    "Health & Wellness",
+    "Consumer Products"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-22T23:49:02.770Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 60,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 70,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 74,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 45,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 60,
+    "EG": null,
+    "NR": 70,
+    "PG": 74,
+    "PT": 38,
+    "SL": 44,
+    "VK": 45
+  },
+  "consolidatedAvg": 55.17,
+  "consolidatedRank": 7,
+  "paths": {
+    "memo": "spring2026/memos/juno-chat.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/juno-chat.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/juno-chat.md",
+      "paul-graham": "spring2026/evals/paul-graham/juno-chat.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/juno-chat.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/juno-chat.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/juno-chat.md"
+    }
+  }
+}

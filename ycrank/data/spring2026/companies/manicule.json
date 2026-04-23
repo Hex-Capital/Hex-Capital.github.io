@@ -11,7 +11,7 @@
     "location": "San Francisco, CA, USA",
     "tags": "Developer Tools, B2B, AI",
     "yc_partner": "Aaron Epstein",
-    "emails": "founders@manicule.dev, team@manicule.dev, shreyans@manicule.dev"
+    "emails": "shreyans@shreyans.sh (personal site)"
   },
   "tags": [
     "Developer Tools",
@@ -19,22 +19,18 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-03-26T05:07:15.075Z",
+  "memoGeneratedAt": "2026-04-22T23:23:43.645Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 34,
+      "score": 35,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 39,
+      "score": 42,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 56,
+      "score": 63,
       "tier": "Neutral"
     },
     "peter-thiel": {
@@ -42,30 +38,29 @@
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 30,
+      "score": 34,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 31,
+      "score": 38,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 34,
-    "EG": 34,
-    "NR": 39,
-    "PG": 56,
+    "CB": 35,
+    "EG": null,
+    "NR": 42,
+    "PG": 63,
     "PT": 28,
-    "SL": 30,
-    "VK": 31
+    "SL": 34,
+    "VK": 38
   },
-  "consolidatedAvg": 36,
-  "consolidatedRank": 50,
+  "consolidatedAvg": 40,
+  "consolidatedRank": 72,
   "paths": {
     "memo": "spring2026/memos/manicule.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/manicule.md",
-      "elad-gil": "spring2026/evals/elad-gil/manicule.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/manicule.md",
       "paul-graham": "spring2026/evals/paul-graham/manicule.md",
       "peter-thiel": "spring2026/evals/peter-thiel/manicule.md",

@@ -10,100 +10,112 @@
 | Industry | B2B / B2B |
 | Team Size | 4 |
 | Location | San Francisco, CA, USA |
-| Tags | Documents, Artificial Intelligence, B2B |
+| Tags | Documents, B2B, AI |
 | YC Partner | Tom Blomfield |
-| Emails | kerim@qomplement.com (Codemix startup directory) |
+| Emails | No public data found |
 
 ## The Idea
 
-**Problem:** 90% of enterprise data lives in documents (YC company page). Existing tools focus on extracting data from documents, but in real workflows that data must be filled back into other PDF forms and spreadsheet templates. Operations, legal, HR, and compliance teams do this manually today (qomplement docs, Mar 2026). Target sectors include transportation, healthcare, and financial services (Milenio, Aug 2025).
+**Problem:** Enterprises—particularly in transportation, healthcare, and financial services—rely on legacy software systems that were not designed for AI integration (Expansión, Sep 2025). Routine document-processing tasks such as invoice entry, purchase order management, and report generation are performed manually within these systems, creating cost and error burdens. A cited logistics customer processed 5,000 invoices monthly by hand (Expansión, Sep 2025). 50% of Mexican companies use AI agents, but only 17% have them "deeply integrated" (Google Cloud, cited in Expansión, Sep 2025). Current alternatives require cloud data transfer, API access, or system replacement—barriers for regulated industries and companies on older tech stacks.
 
-**Approach:** AI agents that ingest messy source data and populate internal PDF forms and spreadsheet templates. The product offers three Excel fill modes (Smart, Replace, Complete), auto-detection of fillable PDF fields, a visual workflow builder with triggers (schedules, webhooks, email arrivals), and connectors to PostgreSQL, MySQL, SQL Server, MongoDB, Snowflake, BigQuery, and Google Drive (qomplement docs, Mar 2026). The agent runs locally on-device (8–16 GB RAM), keeping data off the cloud; described as 15x more economical than cloud alternatives (Startups Latam, 2025). Development investment of ~$200,000 with ~$60,000/month AWS infrastructure for model training (Expansion Mexico, Sep 2025).
+**Approach:** qomplement builds an OS-level AI agent using a Computer Using Agent (CUA) model that mimics human desktop actions—clicks, menu navigation, keyboard inputs—to automate repetitive workflows inside legacy applications without requiring APIs or system modifications (Semilla Ventures; Startups Latam). The system runs a proprietary language model locally on user machines (compatible with 8–16 GB RAM), with optional cloud connectivity via AWS for training and maintenance (Expansión, Sep 2025). Users record routines and the agent learns to execute them autonomously with error-retry capability (Expansión, Sep 2025). The current YC-era framing emphasizes turning invoices and POs into system-ready structured data (X/Twitter bio; YC page).
 
-**Product pivot note:** The Product Hunt listing (May 2025) describes qomplement as "The only OS agent that controls your computer… like having the smartest AI built right into your operating system." The current YC page and docs (Mar 2026) focus specifically on document filling. This indicates a narrowing from a general-purpose computer-using agent to a document-filling specialist. Prior-product metrics (Product Hunt followers) predate this pivot.
+**Differentiation:**
+- **vs. BrowserUse / Comet (Perplexity):** qomplement operates at the OS/desktop level rather than browser-only, enabling automation across any legacy desktop application (Startups Latam).
+- **vs. Rossum / Extend AI:** These platforms require API integrations or cloud document upload; qomplement processes data on-device without transmitting it externally (Expansión, Sep 2025).
+- **vs. cloud-based AI agents:** qomplement claims agents are 15x less expensive than cloud-based alternatives, contrasting with "$3 per interaction" for large cloud models (Expansión, Sep 2025; Startups Latam).
 
-**Differentiation:** Most competitors (Instabase, Rossum, Nanonets, Reducto) focus on extraction — pulling data out of documents. qomplement targets the reverse: filling data into documents. FormFilling.co (launched Nov 2025, OpenPR) addresses a similar niche but appears very early-stage. The local-first architecture differentiates from cloud-dependent competitors. [Inferred]: The "filling" focus occupies a less crowded niche than extraction, though extraction vendors could extend downstream.
+**Business Model:** No public pricing page found. The company website returned only a company name with no product or pricing content at time of research. [Inferred]: Most likely monetization path is per-seat or per-agent SaaS subscription targeting enterprise departments, given the B2B SaaS positioning described on the Semilla Ventures profile.
 
-**Business Model:** Listed as "Freemium" (AI Just Better directory, Nov 2025) and "$0 (free)" (AI Startups and Tools directory, Nov 2025). No public pricing page found on qomplement.com (website not renderable at time of research). [Inferred]: Most likely monetization is usage-based or tiered SaaS pricing with a free tier for onboarding and paid plans for enterprise volume.
+**TAM/SAM:** The intelligent document processing (IDP) market was valued at $3.22B in 2025, projected to reach $43.92B by 2034 at a 33.68% CAGR (Precedence Research, 2025). [Inferred]: The serviceable segment for OS-level desktop automation of document workflows in legacy systems is a subset of this market, likely narrower than full IDP TAM, but no specific SAM estimate exists publicly.
 
-**TAM/SAM:** The intelligent document processing (IDP) market was valued at $2.30B in 2024, projected to reach $12.35B by 2030 at 33.1% CAGR (Grand View Research, 2024). The broader document automation software market was $9.06B in 2025, projected to reach $28.04B by 2033 at 15.18% CAGR (Global Growth Insights, 2025). U.S. TAM for AI document management SaaS estimated at ~$5.07B in 2026 (Celiveo, 2026). [Inferred]: The "document filling" SAM is a subset of IDP; no analyst has sized it independently.
-
-**GTM / Distribution:** Implemented primarily in the transportation sector, with healthcare and financial services also mentioned (Milenio, Aug 2025). Quote from CEO Kerim Taray: "We wanted AI accessible for Latin American companies without system replacements or disproportionate costs" (Expansion Mexico, Sep 2025). Member of AWS GAIA 2025 cohort for Latin America GenAI (AWS GAIA program). Also went through Platanus Batch 24, a Chilean accelerator. [Inferred]: Initial GTM appears to be direct sales to mid-market Latin American enterprises with expansion to U.S. via YC network.
+**GTM / Distribution:** Early adopters are in highly regulated sectors—transportation, healthcare, and financial services—with current deployments in accounting, HR, and sales departments (Startups Latam; Semilla Ventures). Pre-seed funding came from investors in San Francisco and Latin America (Milenio). The company participated in AWS GAIA 2025, a Latin American founder accelerator (LinkedIn/AWS GAIA). [Inferred]: Initial GTM likely leverages LatAm enterprise networks, expanding to US market via YC S26 batch presence in San Francisco.
 
 ## Defensibility
 
-- **Local-first architecture:** Data never leaves the user's machine (Startups Latam, 2025). [Inferred]: This creates a compliance advantage for regulated industries (healthcare, finance) where cloud data residency is a barrier.
-- **Workflow integration depth:** Connectors to 9+ database types and visual workflow builder with scheduling/webhook triggers (qomplement docs, Mar 2026). [Inferred]: Switching costs increase as customers build workflows around the product.
-- No patents, open-source repos, or network effects identified from public sources.
+- **Proprietary model:** qomplement trained a custom language model over 30+ days at a cost of $200,000, using curated public and private data (Expansión, Sep 2025). This represents a non-trivial investment at the pre-seed stage.
+- **Local-first architecture:** On-device processing creates a privacy-oriented positioning for regulated industries where cloud data transfer is restricted (Startups Latam).
+- **Switching costs:** [Inferred]: Once enterprise workflows are recorded and automated via the agent, migrating to another system requires re-recording all routines, creating moderate switching friction.
 
-**Market structure:** [Inferred]: Large incumbents (Microsoft, Google, UiPath) focus on extraction and general document AI. Building a dedicated filling product with local execution would require incumbents to invest in a new deployment model that conflicts with their cloud-revenue incentives. This is a business-model conflict, not a technical barrier.
+**Market structure:** [Inferred]: Large cloud AI providers (Google, Microsoft, OpenAI) are optimized for cloud-first architectures with per-API-call economics. A local-first, OS-level automation approach conflicts with their cloud revenue models, creating a potential structural misalignment that may slow direct competitive response. However, no structural barrier is definitively proven at this stage.
 
-**Commoditization risk:** Document filling from structured templates is technically reproducible. Extraction vendors (Nanonets, Rossum, Reducto) could extend into filling as a feature. Microsoft's Power Platform already offers some form-filling capability. [Inferred]: Defensibility will depend on accuracy, template coverage breadth, and workflow stickiness rather than technical moats.
+**Commoditization risk:** BrowserUse (50,000+ GitHub stars; TechCrunch, Mar 2025) offers open-source browser automation. As CUA/desktop agent capabilities mature in frontier models (e.g., OpenAI's GPT-5, Anthropic's computer use), the core automation mechanism could become commoditized. The proprietary model's cost advantage ($200K training investment) may erode as open-weight models improve (Expansión, Sep 2025).
 
 ## Market & Traction
 
 **Traction signals:**
-- Customer testimonial: One transport client automated 5,000–10,000+ monthly invoices, saving $15,000/month (Milenio, Aug 2025). This is the customer's cost savings, not qomplement's revenue.
-- Product Hunt: 108 followers, 0 reviews, 1 post, created May 1, 2025 (Product Hunt). Note: this predates the pivot to document filling.
-- Press coverage: Grupo Milenio (Aug 16, 2025), Expansion Mexico (Sep 12, 2025), Startups Latam (2025) — all Spanish-language Mexican publications.
-- Twitter/X: @qomplementai (YC page); follower count not retrievable.
-- LinkedIn: linkedin.com/company/qomplement, listed as "YC X26"; follower count not retrievable.
-- No Discord/Slack community found. No app store listings found. 0 open job postings (YC page).
+- Customer testimonial: A transportation company automated 10,000+ monthly invoices, reducing monthly costs by $15,000 (Expansión, Sep 2025; Startups Latam).
+- Product deployed in accounting, HR, and sales departments at undisclosed number of companies (Semilla Ventures).
+- Early adopters in transportation, healthcare, and financial services (Startups Latam).
+- Pre-seed round raised from San Francisco and Latin America-based investors; amount undisclosed (Milenio).
+- Investor: Semilla Ventures (portfolio listing).
+- AWS infrastructure spend: ~$60,000/month for model training and maintenance (Expansión, Sep 2025).
+- Twitter/X: @qomplementai — 16 followers, joined April 2025, no posts visible (X.com via search snippet).
+- LinkedIn: linkedin.com/company/qomplement — listed as "YC P26" (LinkedIn via search snippet).
+- Press coverage: Expansión (Sep 2025), Milenio, Startups Latam — all Spanish-language Mexican tech press.
+- No Product Hunt launch found. No GitHub public repos found. No app store listings found. No Discord/Slack community found.
+- Website: Minimal/placeholder page with only company name at time of research.
+- Job postings: 0 (YC page).
 
 **Competitive landscape:**
 
-| Competitor | Funding | Revenue | Key Differentiator vs. qomplement |
+| Competitor | Key Differentiator vs. qomplement | Funding | Revenue/ARR |
 |---|---|---|---|
-| Nanonets | $42M across 5 rounds (TechCrunch, Mar 2024) | $100M (GetLatka, Sep 2025) | Autonomous AI agents for full back-office ops, not just documents |
-| Rossum | $104.6M (GetLatka) | $44.9M (GetLatka, Oct 2024) | Template-free extraction focused on AP/invoices; cloud-only |
-| Reducto | $108M total incl. $75M Series B (PRNewswire, Oct 2025) | Revenue undisclosed | API-first infrastructure layer for other AI companies; extraction focus |
-| Extend | $17M (BusinessWire, Jun 2025) | "Multi-millions ARR," cash-flow positive (SiliconAngle, Jun 2025) | LLM-native document processing cloud; strong enterprise logos (Brex, Square) |
-| Docsumo | $3.7M (GetLatka) | $10.3M (GetLatka, Oct 2024) | Extremely capital-efficient; strong in real estate/finance verticals |
+| **Rossum** | Cloud-native IDP platform with API integrations; serves 450+ enterprises including PepsiCo, Bosch, Siemens | $114.5M (Series A, Oct 2021; VentureBeat) | $44.9M in 2024 (GetLatka) |
+| **Extend AI** | Full-stack LLM document processing cloud with developer primitives; customers include Brex, Square, Checkr | $17M (Series A; BusinessWire, Jun 2025) | Multi-millions ARR, cash-flow positive (Extend blog) |
+| **BrowserUse** | Open-source browser automation (50K+ GitHub stars); browser-only vs. qomplement's OS-level scope | $17M seed (TechCrunch, Mar 2025) | Revenue unknown |
+| **Turian** | AI agents for supply chain/sales order processing with ERP/CRM integrations; Berlin-based | $3.78M seed (Tracxn) | Revenue unknown |
+| **Docugami** | Document AI with agentic "System of Action"; founded by ex-Microsoft engineers | $13.2M (Crunchbase) | Revenue unknown |
 
-**Why now:** [Inferred]: LLM capabilities crossed a performance threshold in 2024–2025 enabling accurate multi-field document filling without template-specific training. Simultaneously, local inference (e.g., quantized models on 8–16 GB RAM) became viable, enabling qomplement's on-device architecture. The company's emphasis on Latin American enterprise access suggests rising AI adoption demand in that region as a secondary catalyst.
+**Why now:**
+- The emergence of Computer Using Agent (CUA) capabilities in frontier LLMs—models that can interpret and interact with graphical user interfaces—crossed a practical performance threshold in 2024–2025 (Startups Latam). [Inferred]: This technology shift made OS-level automation viable without requiring per-application API development, opening legacy software to AI-driven workflows for the first time.
+- [Inferred]: Declining costs of local inference hardware and smaller, efficient language models enable on-device execution that was not feasible two years prior.
 
 ## Founders & Team
 
 **Kerim Taray** — Co-founder & CEO
-- BS Computer Science, Tecnologico de Monterrey (2020–2024); Mercersburg Academy (PA) for high school (kerimtaray.com)
-- Previously: Co-founder of Growsphere (2024, nearshoring/manufacturing platform, bootstrapped, 5 people); role at Contalink (YC S21, Mexican accounting fintech); roles at Movana and one stealth startup (RocketReach, LinkedIn)
-- Twitter/X: @kerimtaray — count not retrievable
-- LinkedIn: linkedin.com/in/kerim-taray — "Co-Founder and CEO @ qomplement" (RocketReach extraction)
-- GitHub: No public repos found
+- Education: Tecnológico de Monterrey (degree field not publicly specified) (LinkedIn; Expansión, Sep 2025).
+- Background: Described as "former CTO from high-growth startups" (Semilla Ventures). Self-describes as "engineer, techno-optimist, contrarian" (personal website kerimtaray.com).
+- Participated in AWS GAIA 2025 cohort for LatAm founders (LinkedIn).
+- Twitter/X: No personal public account found.
+- LinkedIn: linkedin.com/in/kerim-taray — 500+ connections (LinkedIn via search snippet).
+- GitHub: No public repos found.
 
-**Andres Garza Garcia** — Co-founder & CTO
-- Engineering degree, Tecnologico de Monterrey (graduation ~2024) (Milenio, Aug 2025)
-- No prior roles found in public sources. qomplement appears to be his first venture.
-- Twitter/X: Probable handle @AndresFerGarzaG — count not retrievable
-- LinkedIn: No public profile URL found
-- GitHub: No public repos found
+**Andrés Fernando Garza García** — Co-founder & CTO
+- Education: Tecnológico de Monterrey (degree field not publicly specified) (Expansión, Sep 2025).
+- Background: Described as "former CTO from high-growth startups" (Semilla Ventures). Recently graduated engineer at time of founding (Milenio).
+- Twitter/X: No personal public account found.
+- LinkedIn: Not definitively identified due to common name.
+- GitHub: No public repos found.
 
-**Co-founder relationship:** Both founders graduated from Tecnologico de Monterrey in the same approximate timeframe (2020–2024) and are both described as "ingenieros regiomontanos" (engineers from Monterrey) (Milenio, Aug 2025).
+**Co-founder relationship:** Both founders attended Tecnológico de Monterrey and are described as "ingenieros regiomontanos" (engineers from Monterrey) (Milenio). [Inferred]: University overlap and shared regional origin strongly suggest prior acquaintance before co-founding.
 
-**Founder-market fit:** Kerim Taray's experience at Contalink (YC S21, accounting/fintech) exposed him to enterprise document workflows in Latin American businesses. His Growsphere venture (sourcing/manufacturing) involved document-heavy supply chain processes. Both founders' Tec de Monterrey CS backgrounds provide technical grounding. [Inferred]: The team's direct experience with Latin American enterprise document pain points informs the product's local-first, cost-conscious design.
+**Founder-market fit:** Both founders have direct experience with the inefficiencies of Latin American enterprise systems and legacy software environments (Expansión, Sep 2025). Their background at Tec de Monterrey—Mexico's top private engineering university—and described prior CTO experience at high-growth startups (Semilla Ventures) provides technical credibility for building an AI agent product. Their LatAm network (AWS GAIA 2025, Semilla Ventures) positions them for initial traction in a region with high legacy-system prevalence.
 
 ## Key Risks
 
-**1. Product pivot recency:** The company pivoted from a general-purpose computer-using agent (Product Hunt, May 2025) to document filling (YC page, 2026). The current product positioning is less than a year old, and prior traction metrics may not transfer.
+**CUA technology commoditization:** OpenAI, Anthropic, and open-source projects (BrowserUse, 50K+ GitHub stars) are actively developing computer-use agent capabilities (TechCrunch, Mar 2025). qomplement's core automation mechanism—an agent that mimics desktop actions—may become a commodity feature of frontier model APIs. Mitigation: The proprietary model trained for $200K on curated data may offer domain-specific accuracy advantages in the near term (Expansión, Sep 2025).
 
-**2. Competitive encroachment from extraction vendors:** Nanonets ($100M revenue, GetLatka Sep 2025), Rossum ($44.9M, GetLatka Oct 2024), and Reducto ($108M raised, PRNewswire Oct 2025) already process the same document types. Adding a "fill" step downstream is an incremental feature for these funded incumbents.
+**Infrastructure cost sustainability:** The company spends ~$60,000/month on AWS infrastructure for model training and maintenance (Expansión, Sep 2025). At pre-seed with undisclosed funding, this burn rate requires near-term revenue or additional capital. Standard YC deal ($500K) would provide approximately 8 months of infrastructure runway alone.
 
-**3. Local-first deployment friction:** On-device execution (8–16 GB RAM requirement, Startups Latam 2025) limits deployment to machines meeting hardware specs and creates support complexity at scale. Enterprise IT teams may prefer cloud-managed solutions.
+**Product-market positioning ambiguity:** Public descriptions vary across sources: "OS-level AI agent for legacy software automation" (Semilla Ventures), "AI Agents for Document Filling" (YC page), "Turn invoices and POs into system-ready data" (X/Twitter). The company website contains no product information. This variation may indicate an evolving product focus or early-stage experimentation with positioning.
 
-**4. Geographic concentration:** All press coverage is from Mexican publications (Milenio, Expansion Mexico, Startups Latam). Named customer use case is in Latin American transport. U.S. enterprise traction is undemonstrated in public sources.
+**Local-first scaling constraints:** The local-execution model (8–16 GB RAM requirement) limits deployment to adequately provisioned machines and creates support complexity at scale (Expansión, Sep 2025). Enterprise customers with thin clients or locked-down IT environments may face adoption barriers.
+
+**Well-funded direct competition:** Extend AI ($17M, cash-flow positive) and BrowserUse ($17M, YC-backed) operate in adjacent spaces with significantly more capital and established customer bases including Fortune 500 companies (BusinessWire; TechCrunch).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $12.35B by 2030, 33.1% CAGR for IDP (Grand View Research, 2024); $28.04B by 2033 for document automation software (Global Growth Insights, 2025) |
+| TAM | $3.22B in 2025, projected $43.92B by 2034 at 33.68% CAGR (Precedence Research, 2025) |
 | SAM | No public data found |
-| Traction | 108 Product Hunt followers (Product Hunt, May 2025); customer testimonial: 10K+ invoices/mo automated, $15K/mo savings for one transport client (Milenio, Aug 2025); 3 Spanish-language press articles (Milenio Aug 2025, Expansion Mexico Sep 2025, Startups Latam 2025) |
+| Traction | Customer testimonial: 10K+ invoices/month automated, $15K/month savings for one logistics customer (Expansión, Sep 2025); deployments in accounting, HR, sales departments (Semilla Ventures); press in Expansión, Milenio, Startups Latam (all Sep 2025) |
 | Revenue Signal | No public data found |
-| Founders | Kerim Taray (CEO): Tec de Monterrey CS, co-founded Growsphere, ex-Contalink (YC S21). Andres Garza Garcia (CTO): Tec de Monterrey engineering, no prior ventures found. |
-| Competitors | Nanonets ($42M raised, $100M revenue, full back-office AI agents); Rossum ($104.6M raised, $44.9M revenue, AP-focused extraction); Reducto ($108M raised, revenue unknown, API infrastructure for document parsing); Extend ($17M raised, multi-millions ARR, document processing cloud); Docsumo ($3.7M raised, $10.3M revenue, real estate/finance verticals) |
-| Moat Signals | No public data found |
-| Risk Factors | Recent pivot from general CUA to document filling, competitive encroachment from funded extraction vendors, geographic concentration in Latin America |
-| Founder Reach | Kerim Taray: Twitter @kerimtaray (count not retrievable), LinkedIn 500+ connections. Andres Garza Garcia: Twitter @AndresFerGarzaG (unverified, count not retrievable), LinkedIn not found. |
-| Distribution Signals | Product Hunt 108 followers (May 2025); AWS GAIA 2025 cohort; Platanus Batch 24 accelerator |
-| Emails | kerim@qomplement.com (Codemix startup directory) |
+| Founders | Kerim Taray (CEO): Tec de Monterrey, former CTO at high-growth startups. Andrés Fernando Garza García (CTO): Tec de Monterrey, former CTO at high-growth startups. |
+| Competitors | Rossum ($114.5M raised, $44.9M ARR 2024, cloud IDP platform); Extend AI ($17M raised, multi-millions ARR, document processing cloud); BrowserUse ($17M raised, revenue unknown, open-source browser agent); Turian ($3.78M raised, revenue unknown, supply chain AI agents); Docugami ($13.2M raised, revenue unknown, document AI) |
+| Moat Signals | Proprietary model ($200K training cost) (Expansión, Sep 2025); local-first architecture for regulated industries (Startups Latam) |
+| Risk Factors | CUA commoditization from frontier AI providers, $60K/month infrastructure burn, product positioning ambiguity across sources |
+| Founder Reach | Company Twitter @qomplementai: 16 followers (X.com via search snippet); Kerim Taray LinkedIn: 500+ connections (LinkedIn via search snippet); Andrés Garza García: not definitively identified on social platforms |
+| Distribution Signals | Press coverage in Expansión, Milenio, Startups Latam (all Sep 2025, Spanish-language); AWS GAIA 2025 cohort participant (LinkedIn); Semilla Ventures portfolio company (semilla.ventures) |
+| Emails | No public data found |

@@ -7,67 +7,62 @@
     "yc_page": "https://www.ycombinator.com/companies/primitive",
     "batch": "Spring 2026",
     "industry": "B2B / B2B -> Infrastructure",
-    "team_size": "1",
+    "team_size": "3",
     "location": "San Francisco, CA, USA",
-    "tags": "Developer Tools, Automation, Email, Infrastructure, AI",
+    "tags": "Artificial Intelligence, Developer Tools, Automation, Email, Infrastructure",
     "yc_partner": "Pete Koomen",
     "emails": "No public data found"
   },
   "tags": [
+    "Artificial Intelligence",
     "Developer Tools",
     "Automation",
     "Email",
-    "Infrastructure",
-    "AI"
+    "Infrastructure"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-03-26T05:25:48.243Z",
+  "memoGeneratedAt": "2026-04-22T23:56:39.730Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 41,
+      "score": 37,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 51,
-      "tier": "Neutral"
-    },
     "naval-ravikant": {
-      "score": 48,
+      "score": 50,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 44,
-      "tier": "Pass"
+      "score": 45,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 31,
+      "score": 28,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 36,
+      "score": 37,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 42,
+      "score": 40,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 41,
-    "EG": 51,
-    "NR": 48,
-    "PG": 44,
-    "PT": 31,
-    "SL": 36,
-    "VK": 42
+    "CB": 37,
+    "EG": null,
+    "NR": 50,
+    "PG": 45,
+    "PT": 28,
+    "SL": 37,
+    "VK": 40
   },
-  "consolidatedAvg": 41.86,
-  "consolidatedRank": 27,
+  "consolidatedAvg": 39.5,
+  "consolidatedRank": 79,
   "paths": {
     "memo": "spring2026/memos/primitive.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/primitive.md",
-      "elad-gil": "spring2026/evals/elad-gil/primitive.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/primitive.md",
       "paul-graham": "spring2026/evals/paul-graham/primitive.md",
       "peter-thiel": "spring2026/evals/peter-thiel/primitive.md",

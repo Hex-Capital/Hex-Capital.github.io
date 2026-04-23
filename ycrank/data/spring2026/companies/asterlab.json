@@ -1,0 +1,70 @@
+{
+  "slug": "asterlab",
+  "name": "Aster",
+  "oneLiner": "The First AI-Native AI Research Lab",
+  "metadata": {
+    "website": "https://www.asterlab.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/asterlab",
+    "batch": "Spring 2026",
+    "industry": "B2B / B2B -> Productivity",
+    "team_size": "1",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, AI",
+    "yc_partner": "Harj Taggar",
+    "emails": "info@asterlab.ai"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-22T23:31:05.747Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 60,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 68,
+      "tier": "Invest"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 37,
+    "EG": 37,
+    "NR": null,
+    "PG": 60,
+    "PT": 30,
+    "SL": 31,
+    "VK": 68
+  },
+  "consolidatedAvg": 43.83,
+  "consolidatedRank": 40,
+  "paths": {
+    "memo": "spring2026/memos/asterlab.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/asterlab.md",
+      "elad-gil": "spring2026/evals/elad-gil/asterlab.md",
+      "paul-graham": "spring2026/evals/paul-graham/asterlab.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/asterlab.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/asterlab.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/asterlab.md"
+    }
+  }
+}

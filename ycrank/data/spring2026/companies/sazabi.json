@@ -17,58 +17,48 @@
     "Developer Tools"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-03-26T05:27:48.792Z",
+  "memoGeneratedAt": "2026-04-22T23:59:48.928Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 56,
+      "score": 50,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 63,
-      "tier": "Neutral"
+      "score": 65,
+      "tier": "Invest"
     },
     "paul-graham": {
-      "score": 64,
-      "tier": "Neutral"
+      "score": 71,
+      "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 39,
+      "score": 41,
       "tier": "Pass"
     },
     "sam-lessin": {
       "score": 38,
       "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 49,
-      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 41,
-    "EG": 56,
-    "NR": 63,
-    "PG": 64,
-    "PT": 39,
+    "CB": 50,
+    "EG": null,
+    "NR": 65,
+    "PG": 71,
+    "PT": 41,
     "SL": 38,
-    "VK": 49
+    "VK": null
   },
-  "consolidatedAvg": 50,
+  "consolidatedAvg": 53,
   "consolidatedRank": 10,
   "paths": {
     "memo": "spring2026/memos/sazabi.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/sazabi.md",
-      "elad-gil": "spring2026/evals/elad-gil/sazabi.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/sazabi.md",
       "paul-graham": "spring2026/evals/paul-graham/sazabi.md",
       "peter-thiel": "spring2026/evals/peter-thiel/sazabi.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/sazabi.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/sazabi.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/sazabi.md"
     }
   }
 }

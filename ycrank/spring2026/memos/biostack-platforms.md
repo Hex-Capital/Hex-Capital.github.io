@@ -9,121 +9,121 @@
 | Batch | Spring 2026 |
 | Industry | Healthcare / Healthcare |
 | Team Size | 0 |
-| Location | San Francisco, CA, USA |
-| Tags | AI-powered Drug Discovery, Reinforcement Learning, Healthcare |
+| Location | San Francisco, CA, US (YC company page) |
+| Tags |  |
 | YC Partner | Nicolas Dessaigne |
-| Emails | No public data found |
+| Emails | team@getbiostack.com (company contact page) |
 
 ## The Idea
 
-**Problem:** Clinical and experimental biomedical data is fragmented, unstructured, and locked inside hospitals, labs, and CROs (YC page). Generating new biological data is slow and expensive (YC page). AI labs building healthcare and drug discovery models lack access to high-quality, workflow-aligned training data (YC page). Current alternatives include assembling static public datasets or negotiating bespoke data-sharing agreements with individual institutions. [Inferred]: The customer segments listed on the company website — biotech startups, universities, big pharma, and AI tech companies — suggest the pain is felt across the entire healthcare AI value chain (company website).
+**Problem:** Healthcare and drug discovery AI models are bottlenecked by data access, not model architecture. Clinical and experimental data is fragmented across hospitals, labs, and contract research organizations (CROs), largely unstructured and siloed (company website). Generating new biomedical data de novo is slow and expensive. Current workarounds involve static, one-off datasets that lack the longitudinal and multimodal structure needed for post-training and reinforcement learning (YC company page).
 
-**Approach:** BioStack builds proprietary clinical and preclinical data pipelines that turn real biomedical workflows into ML-ready training environments (YC page). The company structures longitudinal multimodal data across imaging, EHR, and experimental assays, then packages it for post-training and reinforcement learning (YC page). The product, branded "Oahu," enables users to find, annotate, and generate biological datasets, and provides multi-agent reasoning infrastructure and RL environments for post-training (company website).
+**Approach:** BioStack builds proprietary clinical and preclinical data pipelines that convert real biomedical workflows into ML-ready training environments (YC company page). The platform:
+- Structures longitudinal multimodal data across imaging, EHR, and experimental assays (YC company page)
+- Packages data for post-training and reinforcement learning (company website)
+- Provides novel preclinical and medical datasets with causal inference capabilities (company website)
+- Enables multi-agent reasoning infrastructure and reward function development (company website)
+- Targets four segments: biotech startups (custom fine-tuning data), universities (curated datasets deployable within 24 hours), Big Pharma (ADMET/Tox data generation, claiming up to 8x savings in acquisition costs), and AI tech companies (domain-specific datasets and reward functions) (company website)
 
-**Differentiation:**
-- vs. **Tempus AI** (public; NASDAQ: TEM): Tempus collects clinical + molecular data primarily for precision medicine diagnostics and pharma partnerships (Wikipedia). BioStack focuses specifically on packaging data as RL training environments for AI model post-training rather than diagnostics (YC page).
-- vs. **Flatiron Health** (acquired by Roche): Flatiron specializes in oncology EHR data for clinical research (MLQ.ai). BioStack targets multi-modal data (imaging, EHR, assays) across disease areas and frames output as training environments, not clinical analytics (YC page).
-- vs. **Segmed**: Segmed streamlines access to medical imaging for biopharma R&D (IntuitionLabs, 2025). BioStack goes beyond imaging to include EHR and experimental assay data and adds RL environment packaging (YC page).
-- [Inferred]: The core differentiation is framing biomedical data not as a static dataset but as a dynamic training environment optimized for reinforcement learning and post-training — a format emerging AI labs require as foundation models move beyond pre-training.
+**Differentiation:** Unlike general-purpose data labeling platforms (Scale AI, Labelbox, V7 Labs) that offer annotation tools across industries, BioStack focuses specifically on structuring biomedical workflows into RL-ready environments rather than labeling individual data points (company website). Unlike vertically integrated drug discovery platforms (Recursion, Insitro) that generate data for internal pipelines, BioStack positions as a horizontal data supplier for external AI labs (company website). The co-founders filed a patent — "Systems and Methods for Automated Biomedical Research Using Domain-Specific Large Language Model Agents" (US Patent App. 63/875,328, 2025) — suggesting proprietary automation of biomedical data curation workflows (Google Scholar, Sanat Mishra profile).
 
-**Business Model:** No pricing page is public; the website CTA is "Book a consultation" and "Get a free consultation today" (company website). The website claims biotech and pharma customers can "save up to 8X in data acquisition costs" (company website). [Inferred]: Most likely monetization is a services-plus-platform model — custom data pipeline engagements leading to recurring platform subscriptions for dataset access and RL environment usage, given the consultation-led sales approach.
+**Business Model:** No public pricing found on the company website. [Inferred]: Most likely monetization is enterprise data licensing and custom dataset contracts, given the four-step engagement model described on the website (problem understanding → team lead assignment → solution development → ongoing support) and the segment-specific value propositions (e.g., ADMET/Tox data for pharma, fine-tuning data for biotech startups).
 
-**TAM/SAM:**
-- AI training dataset in healthcare market: USD 639.41M in 2026, projected to reach USD 4,102.2M by 2035 at 22.94% CAGR (Towards Healthcare, 2026).
-- Broader AI training dataset market: USD 2.82B in 2024, projected to reach USD 9.58B by 2029 at 27.7% CAGR (MarketsandMarkets, 2024).
-- AI in healthcare market overall: USD 19.27B in 2023, projected to reach ~USD 208.2B by 2030 at 38.5% CAGR (Menlo Ventures, 2025).
-- [Inferred]: SAM is a subset of the healthcare AI training dataset market focused on RL and post-training environments — no public estimate exists for this specific sub-segment.
+**TAM/SAM:** The global AI training dataset in healthcare market was estimated at $423.0 million in 2024, projected to reach $1.47 billion by 2030 at a 22.9% CAGR (Grand View Research, 2025 via search snippet). The broader AI in healthcare market was valued at $22.61 billion in 2024, projected to reach $613.81 billion by 2034 at a 36.83% CAGR (Precedence Research, 2025 via search snippet). [Inferred]: BioStack's SAM is a subset of the $423M training dataset market, focused on post-training/RL-specific biomedical data — likely in the low tens of millions today.
 
-**GTM / Distribution:** The website lists four customer segments: biotech startups, universities, big pharma, and AI tech companies (company website). Logos shown include UCSF and Skydeck Technology Fund (company website). The process described is consultative: understanding the client's problem, assigning a team lead, then delivering a solution with feedback loops (company website). [Inferred]: GTM is enterprise/consultative sales starting with academic and early-stage biotech relationships (UCSF, Skydeck network), expanding to pharma and AI labs.
+**GTM / Distribution:** The company website describes a consultative, high-touch engagement model with four steps (company website). The Clinical Data Lead job posting ($120K–$200K, 0.10%–1.00% equity) suggests investment in building domain-specific data pipelines (YC company page). [Inferred]: Most likely initial distribution is direct sales to AI labs and pharma R&D teams, leveraging YC network and investor introductions from Afore Capital, Heroic Ventures, and Verdict VC.
 
 ## Defensibility
 
-- **Data pipeline proprietary access:** BioStack claims "proprietary clinical and preclinical data pipelines" (YC page). [Inferred]: If the company has secured exclusive or preferential data access agreements with hospitals, labs, or CROs, this could create a compounding data moat over time — but no specific agreements are publicly disclosed.
-- **Workflow-aligned RL environments:** The product packages data specifically for reinforcement learning post-training (YC page). [Inferred]: This is a relatively novel framing; few competitors package biomedical data explicitly as RL environments, but the technical barrier to replication is unclear.
-- **Switching costs:** [Inferred]: If AI labs build training pipelines around BioStack's data formats and RL environments, switching costs could develop, but this requires adoption at scale — unproven at this stage.
+- **Data pipelines:** Proprietary clinical and preclinical data pipelines with hospital and lab partnerships would create a data moat if established, but no specific partnership names are disclosed publicly (company website).
+- **Patent filing:** US Patent App. 63/875,328 (2025) covering automated biomedical research using domain-specific LLM agents, co-invented by both founders (Google Scholar).
+- **Domain expertise:** CEO's cancer genomics research across Stanford, Yale, CMU, and Max-Planck creates domain credibility for navigating clinical data access (YC company page, ResearchGate).
+- **Workflow-aligned data:** RL environments structured around real biomedical workflows are harder to replicate than static datasets, as they require deep understanding of clinical and experimental processes (company website).
 
-**Market structure:** Incumbents like Tempus ($1.27B TTM revenue; FinanceCharts, Dec 2025) and Flatiron Health (Roche subsidiary) focus on precision medicine diagnostics and clinical analytics (MLQ.ai). [Inferred]: These incumbents' revenue models depend on diagnostic services and pharma partnerships, not on selling training data to external AI labs — a potential business model conflict that could slow their entry into BioStack's specific niche. However, no structural barrier prevents well-funded AI-native startups (e.g., Insitro, Owkin) from building similar data packaging layers.
+[Inferred]: Defensibility today is nascent. The moat would develop through accumulation of proprietary data partnerships and workflow-specific training environments that compound over time.
 
-**Commoditization risk:** Public biomedical datasets (e.g., MIMIC, TCGA) are freely available. Cloud providers (Google Cloud, NVIDIA) offer healthcare AI infrastructure (Google Cloud; NVIDIA). AI drug discovery startups collectively raised $3.8B in 2024 (US Tech Times), and 530+ companies operate in this space (GreyB, Oct 2025). [Inferred]: The risk is that well-funded competitors or cloud platforms could replicate the data-structuring and RL environment packaging if it proves valuable, though the proprietary data access layer would be harder to replicate than the software layer.
+**Market structure:** [Inferred]: Large incumbents in clinical data (e.g., Tempus, Flatiron Health/Roche) are oriented toward diagnostics and precision medicine revenue streams. Repackaging their data for external AI model training would potentially cannibalize their own data licensing models and require renegotiating data use agreements with hospital partners. General data labeling platforms lack the biomedical domain expertise to structure RL environments for drug discovery workflows.
+
+**Commoditization risk:** General-purpose data platforms (Scale AI, Labelbox) could expand into healthcare-specific RL environments. Vertically integrated biotech platforms (Recursion with 50+ petabytes of proprietary data per Recursion IR) could begin licensing data externally. Academic consortia could open-source curated biomedical training sets.
 
 ## Market & Traction
 
 **Traction signals:**
-- Trusted by UCSF and Skydeck Technology Fund (company website logos).
-- Company Twitter/X: @getbiostack (company website footer). Follower count not retrievable.
-- Sanat Mishra Twitter/X: @sanatmishra7, 313 followers (X.com profile).
+- No public revenue, user counts, or growth metrics disclosed.
+- Investors listed on website: Afore Capital, Y Combinator, Heroic Ventures, Verdict VC (company website). No disclosed funding amount beyond standard YC deal.
+- 1 open job posting: Clinical Data Lead, $120K–$200K salary, 0.10%–1.00% equity (YC company page).
+- Company Twitter/X: @getbiostack (company contact page) — follower count not retrievable.
+- Founder Twitter/X: @sanatmishra7 (YC company page) — follower count not retrievable.
 - No Product Hunt launch found.
 - No press coverage in named publications found.
-- No app store presence, Chrome extension, or download counts found.
-- 0 job postings on YC page (YC page).
-- No Discord or Slack community found.
-- No LinkedIn company page found for "BioStack Platforms" specifically.
+- No LinkedIn company page identified for BioStack Platforms specifically.
+- No Discord/Slack community found.
 
 **Competitive landscape:**
 
-| Competitor | Funding / Revenue | Key Differentiator vs. BioStack |
+| Competitor | Differentiator vs. BioStack | Funding / Revenue |
 |---|---|---|
-| **Tempus AI** | $2.3B total funding; $1.27B TTM revenue (FinanceCharts, Dec 2025); public NASDAQ: TEM (Fierce Healthcare, Jun 2024) | Full-stack precision medicine platform with diagnostics revenue; data is a byproduct of clinical operations, not packaged for external AI training |
-| **Flatiron Health** | Acquired by Roche (MLQ.ai) | Oncology-specific EHR data; serves pharma for clinical trial analytics, not AI model training |
-| **Owkin** | Revenue unknown; France-based (IntuitionLabs, 2025) | Proprietary federated learning platform (Socrates) integrating biomedical images, genomics, and clinical data; focuses on biomarker discovery rather than external data provisioning |
-| **Insitro** | Revenue unknown (IntuitionLabs, 2025) | Combines in vitro cellular data with human clinical data using proprietary wet-lab + ML platform; vertically integrated drug discovery, not a data marketplace |
-| **Prognos** | Revenue unknown (Netguru) | 5B+ medical records across 100M patients with 500 proprietary clinical algorithms (Netguru); focused on diagnostics data and patient identification, not RL environments |
+| **Tempus AI** | Largest clinical & molecular data library; focused on precision medicine diagnostics, not external AI training data supply | >$1.3B raised; $532M revenue in 2023; public (NASDAQ: TEM, IPO June 2024) (Wikipedia, Tracxn via search snippet) |
+| **Recursion Pharmaceuticals** | 50+ PB proprietary biological/chemical data; vertically integrated drug discovery, not a data supplier | $461M+ raised; $74.3M revenue in 2025; public; merged with Exscientia Nov 2024 (Recursion IR) |
+| **Insitro** | Generates proprietary biological data for internal drug discovery pipelines; pharma partnerships (Lilly, BMS $25M milestone) | $700M+ raised; revenue from pharma milestones (MobiHealthNews, Fierce Biotech via search snippet) |
+| **John Snow Labs** | Healthcare NLP/LLM platform + data marketplace; focused on NLP rather than multimodal RL environments | Bootstrapped; Frost & Sullivan 2026 Customer Value Leadership Award (John Snow Labs website) |
+| **Scale AI / V7 Labs** | General-purpose data labeling with some medical imaging support; not healthcare-RL-specific | Scale AI: $7.3B+ valuation; V7 Labs: undisclosed (various via search snippet) |
 
 **Why now:**
-- AI drug discovery companies raised $3.8B in 2024, rebounding sharply after three years of declining investment (US Tech Times).
-- AI investment in biotech expected to rise from $4B (2025) to $25B (2030) (IntuitionLabs, 2025).
-- 85% of generative AI spend in healthcare flows to startups rather than incumbents (Healthcare Dive, 2026).
-- [Inferred]: The shift of foundation models from pre-training to post-training and RLHF/RL-based alignment creates specific demand for structured, workflow-aligned biological data environments — a need that did not exist at scale before 2024-2025 when RL post-training became standard practice in frontier AI labs.
+- [Inferred]: The catalyst is the convergence of foundation model post-training becoming the primary lever for AI performance improvement (rather than pre-training scale), combined with healthcare AI models reaching clinical deployment thresholds that require domain-specific RL environments — not just labeled datasets.
+- The Grand View Research report notes 22.9% CAGR in AI training datasets for healthcare specifically (Grand View Research, 2025 via search snippet).
 
 ## Founders & Team
 
 **Sanat Mishra** — Co-founder & CEO
-- BS from IISER Mohali; MS in Quantitative Biology and Bioinformatics from Carnegie Mellon University (2022–2024) as a JN Tata Scholar (X.com post, Jul 2022).
-- Bioinformatician at Stanford University with research experience at Yale, CMU, and Max-Planck Institute Dortmund (GitHub profile; YC page).
-- Research interests: Bioinformatics, Biostatistics, Cancer Genomics, RNA Biology (Google Scholar).
-- Twitter/X: [@sanatmishra7](https://x.com/sanatmishra7) — 313 followers, 969 following (X.com profile).
-- LinkedIn: Specific profile not identified among multiple "Sanat Mishra" LinkedIn profiles.
-- GitHub: [github.com/Sanat-Mishra](https://github.com/Sanat-Mishra) — includes MNIST-Dataset repo (IISER Mohali coursework); star counts not retrieved.
+- BS from IISER Mohali; MS from Carnegie Mellon University (YC company page)
+- Cancer genomics researcher at Stanford University, Yale University, Carnegie Mellon University, and Max-Planck Institute Dortmund (YC company page, ResearchGate)
+- Google Scholar: 20 citations, h-index 2, i10-index 1; research areas: bioinformatics, biostatistics, cancer genomics, RNA biology (Google Scholar)
+- Co-inventor: US Patent App. 63/875,328 (2025) on automated biomedical research using LLM agents (Google Scholar)
+- Twitter/X: @sanatmishra7 — follower count not retrievable
+- LinkedIn: profile exists; headline not captured
+- GitHub: github.com/Sanat-Mishra — 22 public repos, 5 followers; repos focused on bioinformatics (molecular dynamics, gene fusion analysis, lncRNA prediction) (GitHub)
 
-**Parth Patwa** — Founder
-- B.Tech in CSE (honors, minor in AI/ML) from IIIT Sri City (2017–2021); MS in ECE from UCLA (parthpatwa.github.io).
-- Data Scientist at Amazon Web Services (LinkedIn, personal website).
-- 1,792 Google Scholar citations across ML, deep learning, NLP, and computational linguistics (Google Scholar).
-- Published at CVPR 2022 (health tech / computer vision) and AAAI 2021 (COVID-19 NLP) (LinkedIn posts).
-- Previously at PathCheck Foundation working on COVID-19 outbreak prediction and ML for digital contact tracing, advised by Dr. Ramesh Raskar (personal website).
-- Amazon Science author profile (amazon.science).
-- Twitter/X: No public account found.
-- LinkedIn: [linkedin.com/in/parth-patwa](https://www.linkedin.com/in/parth-patwa/) — 500+ connections; Amazon Web Services (LinkedIn).
-- GitHub: [github.com/parthpatwa](https://github.com/parthpatwa) — 24 repos, 10 followers; notable repos include covid19-fake-news-detection and COVID-19 symptom prediction (GitHub). Star counts not retrieved.
+**Parth Patwa** — Co-founder & CTO
+- BS in CSE (honors) with AI/ML minor from IIIT Sri City; MS in ECE from UCLA (2021–2023) (personal website: parthpatwa.github.io)
+- Former Data Scientist at Amazon/AWS (Feb 2024–present per personal site); researcher at PathCheck Foundation advised by Dr. Ramesh Raskar (MIT) (personal website)
+- Google Scholar: 1,823 citations, h-index 17, i10-index 19 (Google Scholar)
+- Top publication: "Fighting an Infodemic: COVID-19 Fake News Dataset" — 584 citations (Google Scholar)
+- AAAI 2020 Innovative Application Award for chat message clustering at Hike Messenger (personal website)
+- 40+ publications across CVPR, NeurIPS, EMNLP, AAAI, IJCAI (YC company page)
+- Co-inventor: US Patent App. 63/875,328 (2025) (Google Scholar)
+- Twitter/X: No public account found
+- LinkedIn: linkedin.com/in/parth-patwa/
+- GitHub: github.com/parthpatwa — 24 public repos, 10 followers; notable repo: covid19-fake-news-detection (67 stars) (GitHub)
 
-**Co-founder relationship:** Both Mishra and Patwa have backgrounds in computational biology / health AI and are based in the San Francisco Bay Area. No shared prior employer or university identified from Phase 3 research.
+**Co-founder relationship:** Both founders have Indian educational backgrounds (IISER Mohali and IIIT Sri City — different institutions). They co-invented a patent together in 2025 (Google Scholar). No shared prior employer or university identified from public data.
 
-**Founder-market fit:** Mishra brings domain-specific bioinformatics and cancer genomics research from Stanford, Yale, CMU, and MPI-Dortmund (GitHub, YC page). Patwa brings ML/NLP engineering depth from Amazon/AWS and health tech research at PathCheck Foundation and UCLA (personal website, Google Scholar). [Inferred]: The combination of a biology-domain researcher (Mishra) with an ML infrastructure engineer (Patwa) maps to BioStack's core challenge of bridging biomedical data and AI training pipelines. No advisors, board members, or notable investors beyond YC have been publicly identified.
+**Founder-market fit:** Mishra brings direct cancer genomics and bioinformatics research experience across four major research institutions, providing domain credibility for clinical and preclinical data structuring. Patwa brings ML engineering at scale from Amazon/AWS and a strong publication record (1,823 citations) in NLP and ML, relevant to building data pipelines and training infrastructure. The patent on LLM agents for biomedical research suggests they have been collaborating on the technical approach prior to founding.
 
 ## Key Risks
 
-**Name confusion with established entities:** "BioStack" is shared by BioStack Labs (health supplements, biostacklabs.com, with active social media @biostacklabs), Biostack Ventures (incubator, biostackventures.com), and BioTek BioStack (lab equipment, biospx.com) (search results, Phase 2). This creates brand confusion and SEO competition. No mitigation found.
+**Name confusion with BioStack Labs:** "BioStack Labs" (biostacklabs.com) is a separate supplements/biohacking company with the Twitter handle @biostacklabs. BioStack Platforms uses @getbiostack. This creates potential brand confusion in market searches and could complicate SEO and trademark positioning.
 
-**Data access dependency:** The value proposition depends on securing proprietary data access from hospitals, labs, and CROs (YC page). No specific data partnerships or agreements are publicly disclosed beyond UCSF's logo on the website (company website). If data access cannot be formalized at scale, the pipeline cannot deliver differentiated datasets. [Inferred]: Early-stage data partnerships are often informal and non-exclusive.
+**Clinical data access dependency:** The core value proposition depends on establishing data partnerships with hospitals, labs, and CROs. No specific data partners or institutional agreements are publicly disclosed. Failure to secure these relationships would undermine the entire pipeline (company website).
 
-**Location discrepancy and operational ambiguity:** The YC page lists San Francisco (YC page); the website footer indicates Connecticut with America/New_York timezone (company website). The team size is listed as 0 on the YC page (YC page). [Inferred]: This may reflect a pre-launch state or administrative lag, but it raises questions about operational readiness.
+**Incumbent data moats:** Recursion holds 50+ petabytes of proprietary biological data (Recursion IR). Tempus has the world's largest clinical & molecular data library (Tempus website). If either begins licensing structured RL-ready data externally, BioStack faces competition from organizations with orders-of-magnitude more data already collected.
 
-**Incumbent platform risk:** EHR vendors (Epic, Oracle Health, athenahealth) are building AI directly into their platforms (Healthcare Dive, 2026). Tempus already processes clinical and molecular data at $1.27B revenue scale (FinanceCharts, Dec 2025). If incumbents add RL training environment features to existing data products, BioStack's standalone positioning could be compressed.
+**Regulatory and privacy constraints:** Structuring longitudinal multimodal clinical data (imaging, EHR) across institutions requires navigating HIPAA, institutional review boards, and data use agreements. Compliance complexity could slow pipeline development and limit data availability.
 
-**Narrow buyer readiness:** [Inferred]: The number of AI labs actively purchasing RL training environments for healthcare models is currently small; demand depends on the pace at which frontier labs adopt RL-based post-training for biology-specific models, which remains an emerging practice.
+**Technical co-founder domain gap:** Patwa's published research is in NLP, social computing, and COVID-19 misinformation detection — not in healthcare data engineering or biomedical RL specifically (Google Scholar, personal website). [Inferred]: His ML engineering skills from Amazon are transferable, but the healthcare-specific technical challenges may require additional domain hires.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | USD 639.41M in 2026, growing to USD 4,102.2M by 2035 at 22.94% CAGR for AI training datasets in healthcare (Towards Healthcare, 2026) |
+| TAM | $423M in 2024 for AI training datasets in healthcare, projected $1.47B by 2030 at 22.9% CAGR (Grand View Research, 2025 via search snippet) |
 | SAM | No public data found |
-| Traction | UCSF and Skydeck Technology Fund logos on website (company website, Mar 2026) |
+| Traction | No public data found |
 | Revenue Signal | No public data found |
-| Founders | Sanat Mishra (Co-founder/CEO): Stanford/CMU/Yale bioinformatician, cancer genomics researcher, IISER Mohali BS, CMU MS. Parth Patwa (Founder): Amazon/AWS data scientist, UCLA MS, 1,792 Google Scholar citations, CVPR/AAAI publications. |
-| Competitors | Tempus AI ($2.3B raised, $1.27B TTM revenue, precision medicine platform vs. BioStack's AI training data focus); Flatiron Health (acquired by Roche, revenue unknown, oncology EHR analytics vs. multi-modal RL environments); Owkin (funding undisclosed, revenue unknown, federated learning for biomarker discovery vs. external data provisioning); Insitro (funding undisclosed, revenue unknown, vertically integrated wet-lab + ML vs. data marketplace); Prognos (funding undisclosed, revenue unknown, diagnostics data for patient ID vs. RL training envs) |
-| Moat Signals | No public data found |
-| Risk Factors | Name confusion with multiple "BioStack" entities, unconfirmed data access partnerships, incumbent platform encroachment |
-| Founder Reach | Sanat Mishra: Twitter/X @sanatmishra7 313 followers (X.com), LinkedIn not identified, GitHub github.com/Sanat-Mishra star count not retrieved. Parth Patwa: Twitter/X not found, LinkedIn 500+ connections (LinkedIn), GitHub github.com/parthpatwa 10 followers star count not retrieved. |
+| Founders | Sanat Mishra (CEO): cancer genomics researcher at Stanford/Yale/CMU/Max-Planck, BS IISER Mohali, MS CMU. Parth Patwa (CTO): ex-Amazon/AWS data scientist, 1,823 Google Scholar citations, MS UCLA. |
+| Competitors | Tempus AI (>$1.3B raised, $532M revenue 2023, precision medicine data platform) (Wikipedia via search snippet); Recursion ($461M+ raised, $74.3M revenue 2025, vertically integrated drug discovery) (Recursion IR); Insitro ($700M+ raised, revenue from pharma milestones, internal drug discovery) (MobiHealthNews via search snippet); John Snow Labs (bootstrapped, healthcare NLP + data marketplace) (company website) |
+| Moat Signals | Patent filing US App. 63/875,328 on automated biomedical research LLM agents (Google Scholar, 2025) |
+| Risk Factors | Clinical data access dependency, incumbent data moats (Recursion 50+ PB, Tempus largest clinical library), brand confusion with BioStack Labs |
+| Founder Reach | Sanat Mishra: Twitter @sanatmishra7 (count not retrievable), GitHub 5 followers. Parth Patwa: LinkedIn linkedin.com/in/parth-patwa/, GitHub 10 followers, 67 stars on top repo (GitHub) |
 | Distribution Signals | No public data found |
-| Emails | No public data found |
+| Emails | team@getbiostack.com (company contact page) |

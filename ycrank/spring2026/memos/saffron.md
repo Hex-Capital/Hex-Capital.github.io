@@ -1,6 +1,6 @@
 ﻿# Saffron
 
-> ai-native technical assessments and work trials.
+> AI-Native Technical Assessments and Work Trials.
 
 | Field | Value |
 |-------|-------|
@@ -12,113 +12,112 @@
 | Location | San Francisco, CA, USA |
 | Tags | SaaS, Human Resources, HR Tech |
 | YC Partner | David Lieb |
-| Emails | mjyao@stanford.edu (founder, jyao.dev) |
+| Emails | rchondro@mit.edu (founder, via LinkedIn) |
 
 ## The Idea
 
-**Problem:** Engineering hiring processes have not adapted to the shift toward AI-assisted coding. Engineers use AI tools daily, but most technical interviews ban AI or ignore it entirely (trysaffron.ai). Existing evaluation methods — algorithmic puzzles, unstructured take-homes, and multi-round on-site loops — consume 3–4 weeks and 8+ interviewer-hours per candidate at >$500 per candidate (trysaffron.ai). These processes fail to measure the skill that now matters most: how effectively a candidate uses AI agents to build, debug, and ship production code.
+**Problem:** Engineering hiring processes have not adapted to the shift toward AI-assisted coding. 91% of engineers already use agentic AI coding tools at work and 75% have shipped production code partially or primarily generated with AI in the last six months (CodeSignal survey of 450 U.S. software engineers, March 2026). Traditional technical assessments — phone screens, take-homes, and on-site whiteboard rounds — measure a candidate's ability to write code from scratch, which no longer reflects how production software is built. Hiring teams currently use platforms like HackerRank and Codility that were designed for a pre-AI paradigm.
 
-**Approach:** Saffron provides a browser-based IDE preloaded with the employer's actual codebase (or a template) and Claude Code as the integrated AI agent (trysaffron.ai). Candidates build a real feature while every keystroke, AI prompt, accepted/rejected suggestion, and iteration is captured. Post-submission, 10+ independent AI review agents score the work against the employer's custom rubric, classify every line as human-written, AI-generated, or AI-modified, and generate AI-verified debrief questions to confirm candidate understanding (trysaffron.ai). The process requires zero interviewer hours and returns results in hours (trysaffron.ai).
+**Approach:** Saffron provides a browser-based IDE with integrated Claude Code where candidates build, debug, and ship features on a company's actual codebase (company website). The platform tracks every AI interaction and prompt, classifies each line of code as human-written, AI-generated, or AI-modified, and scores submissions using 10+ independent AI agents against custom evaluation rubrics (company website). Full session replay and AI-checked debrief questions allow hiring teams to evaluate the candidate's judgment and agent-steering ability, not just code output (company website). The company claims zero interviewer hours are required and results are delivered in hours (company website).
 
-**Differentiation:** Saffron's website provides a direct feature comparison against HackerRank, CodeSignal, and Rounds.so (trysaffron.ai):
-- HackerRank and Rounds.so use algorithmic puzzles; CodeSignal uses sandbox coding tasks. Saffron uses real features on the employer's codebase.
-- HackerRank and CodeSignal offer optional, configurable AI tools; Rounds.so provides basic AI. Saffron natively integrates Claude Code with full interaction tracking.
-- No competitor offers per-line human-vs-AI code attribution or full session replay of AI prompts (trysaffron.ai).
+**Differentiation:** Unlike HackerRank, Codility, and HackerEarth, which test algorithmic problem-solving in sandboxed environments, Saffron tests on real codebases with AI tools enabled. CodeSignal launched agentic coding assessments in April 2026 (PR Newswire, April 2026), making it the closest direct competitor, but CodeSignal's approach builds on its existing assessment platform rather than offering real-codebase, full-replay evaluation with line-level attribution. Saffron's line-by-line human-vs-AI code classification is a distinguishing capability not publicly described by incumbents.
 
-**Business Model:** ~$20 per assessment (trysaffron.ai). Free pilot offered with no credit card required (trysaffron.ai). [Inferred]: Per-assessment consumption pricing, likely with volume tiers for enterprise accounts, given the emphasis on scalability and the "Book a Demo" sales motion.
+**Business Model:** Three published pricing tiers (company website):
+- Basic: $199/month (5 assessments/month)
+- Standard: $499/month (15 assessments/month, listed as "most popular")
+- Enterprise: custom pricing (unlimited assessments)
+- Overage: $49 per additional assessment
+- Each assessment includes a $5 Claude Code budget
 
-**TAM/SAM:** Technical assessment software market valued at $1.2B in 2024, projected to reach $3.5B by 2033 at 12.5% CAGR (Strategic Revenue Insights, 2024 via search snippet). Technical skills assessment platform market estimated at $2B in 2025, projected ~$6B by 2033 at 15% CAGR (Data Insight Market, 2025 via search snippet). Candidate skills assessment market expected to reach $5.34B by 2030 at 11.5% CAGR (Polaris Market Research via search snippet). [Inferred]: SAM is the subset of these markets focused on software engineering hiring specifically — likely a fraction of the broader assessment market, but growing disproportionately as AI-assisted development becomes standard.
+**TAM/SAM:** The global Technical Assessment Hiring Software Market is projected to reach $3.5 billion by 2033 at a 12.8% CAGR from 2025 (Strategic Revenue Insights via search snippet). The broader Talent Acquisition Software market was valued at $10.37 billion in 2025 (GM Insights via search snippet). [Inferred]: Saffron's SAM is the subset of technical assessment spend at companies hiring software engineers who use AI tools — a rapidly growing but not yet independently sized segment.
 
-**GTM / Distribution:** The website uses a "Book a Demo" CTA with a free pilot offer, indicating a sales-assisted PLG motion (trysaffron.ai). [Inferred]: Initial distribution likely through YC network and direct outreach to engineering-heavy companies already grappling with AI-era hiring, expanding to mid-market via self-serve pilots.
+**GTM / Distribution:** [Inferred]: Most likely distribution path is product-led growth targeting engineering hiring managers at mid-market and enterprise companies, leveraging the YC network for initial customers. The published pricing tiers suggest a self-serve entry point at $199/month scaling to enterprise sales. No public GTM partnerships or channel strategy disclosed.
 
 ## Defensibility
 
-- **Data moat (potential):** Each assessment captures granular human–AI interaction data (prompts, acceptances, rejections, iteration patterns) that could train increasingly accurate scoring models over time. No such dataset exists at scale today. This moat does not exist yet but would compound with assessment volume.
-- **Switching costs:** Employers who integrate their proprietary codebases and build custom rubrics face setup costs that discourage switching (trysaffron.ai).
-- **Technical complexity:** Building a browser-based IDE with real-time keystroke capture, AI agent integration, per-line code attribution, and multi-agent scoring is non-trivial to replicate end-to-end.
+- **Data advantage (potential):** Each assessment generates rich behavioral data — prompt patterns, AI usage strategies, code attribution — that could train proprietary scoring models over time. This advantage does not exist today but compounds with volume.
+- **Switching costs:** Companies that build custom rubrics and integrate their GitHub repos into Saffron face setup costs that create friction for switching. [Inferred]: These switching costs are moderate and grow with the number of assessments configured.
+- **Technical complexity:** Real-codebase sandboxing with integrated AI agents, line-level code attribution, and multi-agent scoring is an engineering-intensive system to build and maintain.
 
-**Market structure:** Incumbents (HackerRank, CodeSignal) have built businesses around algorithmic puzzle libraries and standardized scoring — their product architecture, content investment, and customer expectations are oriented around that paradigm. Pivoting to real-codebase, AI-native assessments would cannibalize their existing content moats and require fundamental platform re-architecture. Karat's model depends on human interviewers, creating direct unit-economics incompatibility with a zero-interviewer-hours approach.
+**Market structure:** [Inferred]: Incumbents like HackerRank ($221M revenue per GetLatka, 2024) and CodeSignal ($53.8M revenue per GetLatka, 2024) have built assessment infrastructure around algorithmic challenges. Pivoting fully to real-codebase, AI-native evaluation would require rearchitecting their core product and retraining their scoring infrastructure — though CodeSignal has begun moving in this direction with its April 2026 agentic assessment launch. The structural barrier is moderate: incumbents can adapt but face product cannibalization risk in deprecating their existing assessment libraries.
 
-**Commoditization risk:** The core concept — "let candidates code with AI on a real repo and record everything" — is replicable. Any IDE provider (Replit, GitHub Codespaces) or AI coding tool (Cursor, Windsurf) could build a similar evaluation layer. The barrier is in combining session capture, multi-agent scoring, code attribution, and employer-specific rubric configuration into a single integrated product.
+**Commoditization risk:** CodeSignal's April 2026 agentic assessment launch (PR Newswire) demonstrates that well-funded incumbents are entering this space. Any company with access to an LLM API and sandboxing infrastructure could theoretically build AI-assisted assessments. [Inferred]: The primary defensibility would need to come from data-driven scoring quality and depth of codebase integration rather than from the concept itself.
 
 ## Market & Traction
 
 **Traction signals:**
-- No public revenue, user count, or customer metrics found.
-- No Product Hunt listing found.
-- No press coverage in named publications found.
-- LinkedIn company page exists at linkedin.com/company/saffronai (follower count not retrievable).
-- Company Twitter/X handle not confirmed (website footer links to Twitter but profile not fetchable).
-- No Discord or Slack community found.
-- No active job postings found.
-- Company is not currently hiring (YC page, Mar 2026).
-- Founded 2025 (YC page).
+- LinkedIn company page: 50 followers (LinkedIn, April 2026)
+- Twitter/X: @trysaffron — handle exists, follower count not retrievable
+- No Product Hunt launch found
+- No press coverage in named publications found
+- No disclosed user counts, revenue, or customer logos
+- No app store presence, Chrome extension, or Discord/Slack community found
+- 0 job postings on YC page (YC page, April 2026)
 
 **Competitive landscape:**
 
 | Competitor | Funding | Revenue | Key Differentiator vs. Saffron |
-|---|---|---|---|
-| **HackerRank** | $114M total, $60M Series D (Mar 2022) | $221M (2024, GetLatka) | Algorithmic puzzle library with massive scale (~2,000 customers); does not offer real-codebase assessments or AI interaction tracking |
-| **CodeSignal** | $90.1M total, $50M Series C (Sept 2021) | $53.8M (2024, GetLatka) | Standardized scoring and sandbox coding tasks; AI tools optional/configurable, no per-line attribution |
-| **Karat** | $110M Series C at $1.1B valuation (TechCrunch, Oct 2021) | Revenue unknown | Human interviewer-as-a-service model; opposite unit economics (requires trained interviewers vs. Saffron's zero interviewer hours) |
-| **Rounds.so** | Backed by LeapYear fund; amount undisclosed | Revenue unknown | AI interviewer "Sofia" for work-trial simulations; 200K+ interested users claimed (Product Hunt); uses algorithmic puzzles per Saffron's comparison |
-| **Aptora** | Unknown | Unknown | AI-native assessment in AI-enabled IDE; closest conceptual competitor; does not appear to offer employer-codebase integration or per-line attribution |
+|------------|---------|---------|-------------------------------|
+| CodeSignal | $90.1M total (Crunchbase) | $53.8M (GetLatka, 2024) | Launched agentic assessments April 2026; broader assessment suite; larger customer base including enterprise |
+| HackerRank | $115M total (Crunchbase) | $221M (GetLatka, 2024) | Largest incumbent; 10M+ developer community; no public agentic/real-codebase assessment product |
+| Codility | $63.9M total (PitchBook) | Revenue unknown | Enterprise-focused algorithmic assessments; no public AI-agent evaluation product |
+| HackerEarth | $11.5M total (Tracxn) | Revenue unknown | Hackathon + assessment platform; 500+ enterprise clients including Google and Amazon (HackerEarth blog); no agentic assessment product |
 
-**Why now:** [Inferred]: The catalyst is the rapid adoption of AI coding agents (Claude Code, GitHub Copilot, Cursor) in production engineering workflows throughout 2024–2025. Companies using AI in hiring grew from 26% in 2024 to 43% in 2025 (Intervue blog via search snippet). As AI-assisted coding becomes the default working mode, interviews that ban AI tools produce signals uncorrelated with on-the-job performance, creating acute demand for assessments that evaluate AI-augmented engineering skill.
+**Why now:** [Inferred]: The enabling catalyst is the rapid adoption of AI coding agents in production engineering workflows. The CodeSignal survey (March 2026) showing 91% of engineers using agentic AI tools and 75% shipping AI-generated production code represents a behavioral threshold that invalidates traditional assessment methods. Claude Code, Cursor, and GitHub Copilot reached mainstream adoption in 2024-2025, creating both the candidate behavior Saffron measures and the tooling (Claude Code) the platform integrates.
 
 ## Founders & Team
 
-**Robert Chondro** — Co-Founder & CEO
-- Education: MIT, Mathematics & Computer Science (RocketReach, LinkedIn)
-- Prior: Jane Street Academy of Math and Programming (2025), MIT Sea Grant researcher (2025), Morgan Stanley Finance Academy (2024–2025), VP of Career Development at DECA Inc. (2024–2025) (RocketReach)
-- High school: Ed W. Clark High School, Las Vegas (OCA Las Vegas)
-- Community: Founded/led G2Kids nonprofit for underprivileged children; served as one of six Nevada DECA state officers; involved in One APIA Nevada civic organization (OCA Las Vegas)
+**Robert Chondro** — Co-founder & CEO
+- MIT, Math/CS (LinkedIn)
+- Company description states "formerly MIT and Jane Street" (YC page); no independent confirmation of Jane Street tenure found in search results
+- Previously built AppTrack.ai, an AI college application assistant and tracker (LinkedIn, web search)
 - Twitter/X: No public account found
-- LinkedIn: linkedin.com/in/robertchondro — Co-Founder at Saffron AI
-- GitHub: No public repos found
+- LinkedIn: linkedin.com/in/robert-chondro-5811052aa/ — "Math/CS @ MIT"
+- GitHub: No public profile found
 
-**Jerry Yao** — Co-Founder
-- Education: Stanford University, Computer Science and Mathematics (YC page, LinkedIn)
-- Prior: Jane Street (YC page); created educational technology reaching 50,000+ users via Upahead and ScienceFair.io (jyao.dev); developed assistive technology for blind users (jyao.dev); TreeHacks organizer at Stanford (LinkedIn)
-- Twitter/X: No confirmed account found
-- LinkedIn: linkedin.com/in/mjyao — 213 connections
-- GitHub: github.com/mjyao — Pro member, 15 followers, 0 public repos; organizations: vytal-ai, CerealCodes, BracketCS (GitHub)
+**Jerry Yao** — Co-founder
+- Stanford University (LinkedIn)
+- Company description states "Stanford and Jane Street" (YC page); no independent confirmation of Jane Street tenure found
+- LinkedIn headline: "co-founder @ saffron (yc p26) | stanford" (LinkedIn)
+- Involved with TreeHacks hackathon at Stanford (search results)
+- Twitter/X: No public account found
+- LinkedIn: linkedin.com/in/mjyao/
+- GitHub: Member of CerealCodes organization (GitHub)
 
-**Kazuma Choji** — Co-Founder
-- Education: Harvey Mudd College, Computer Science and Mathematics (YC page)
-- Research: Published in NeurIPS, ICML, and ICCV (YC page). Co-author on "COREVQA: A Crowd Observation and Reasoning Entailment Visual Question Answering Benchmark" (arXiv 2507.13405, July 2025)
-- Prior: ML at Pololu Robotics and Electronics (LinkedIn)
-- High school: Clark High School, Las Vegas (MaxPreps)
-- Twitter/X: No confirmed account found
-- LinkedIn: linkedin.com/in/kazuma-choji — ML @ Pololu Robotics and Electronics
-- GitHub: No public repos found
+**Kazuma Choji** — Co-founder
+- Harvey Mudd College, undergraduate (2025–2029) (OpenReview)
+- Published researcher: co-authored "COREVQA: A Crowd Observation and Reasoning Entailment Visual Question Answering Benchmark" and related papers on visual-language models (OpenReview)
+- Company description states "published in NeurIPS and ICML" (YC page)
+- Twitter/X: No public account found
+- LinkedIn: Not accessible
+- GitHub: No public profile found
 
-**Co-founder relationship:** Robert Chondro and Kazuma Choji both attended Ed W. Clark High School in Las Vegas (OCA Las Vegas; MaxPreps), indicating a pre-existing relationship from high school. Jerry Yao's connection to the other founders is not documented in public sources, though both Chondro and Yao had Jane Street experience.
+**Co-founder relationship:** Robert Chondro and Jerry Yao both have Jane Street listed in their backgrounds per the YC company description, suggesting they may have overlapped there. No independent confirmation of this shared tenure was found. No other shared employer or university overlap is visible from Phase 3 findings.
 
-**Founder-market fit:** All three founders have technical backgrounds in CS and mathematics from top institutions (MIT, Stanford, Harvey Mudd). Two founders (Chondro, Yao) have Jane Street experience, a firm known for rigorous technical hiring, giving direct exposure to high-bar engineering evaluation. Yao has prior experience building developer-facing products reaching 50,000+ users (jyao.dev). Choji brings ML research credentials (NeurIPS, ICML, ICCV) relevant to building the AI scoring agents. Investors include Y Combinator (Spring 2026, partner David Lieb) and Afore Capital (YC page).
+**Founder-market fit:** Two co-founders (Chondro and Yao) come from quantitative finance (Jane Street per YC page), where rigorous technical hiring processes are core to operations. Their direct experience with intensive technical interviews at a firm known for challenging hiring bars provides firsthand understanding of the problem space. Choji's ML research background in vision-language models aligns with the multi-agent AI scoring architecture. The team is backed by Afore Capital, a pre-seed fund that raised a $185M fund in February 2025 (TechCrunch, Feb 2025).
 
 ## Key Risks
 
-**Name collision and discoverability:** "Saffron" is shared by multiple companies including Saffron Health (another YC company), Saffron Technology (acquired by Intel), 75F's Saffron AI product, and a recipe app on Product Hunt. This creates SEO competition and potential brand confusion in investor and customer searches.
+**Direct incumbent entry:** CodeSignal launched agentic coding assessments in April 2026 (PR Newswire), directly targeting the same market thesis with an existing customer base of tens of thousands of candidates (PR Newswire). CodeSignal has $90.1M in total funding and established enterprise sales channels that Saffron lacks.
 
-**Anthropic platform dependency:** The product integrates Claude Code as the native AI agent in candidate assessments (trysaffron.ai). A pricing change, API deprecation, or competitive move by Anthropic (e.g., launching its own assessment product) would directly impact Saffron's core product experience and unit economics.
+**Claude Code platform dependency:** Saffron's assessments include a $5 Claude Code budget per assessment and are built around Claude Code as the candidate-facing AI tool (company website). Changes to Anthropic's pricing, API terms, or Claude Code product could directly impact Saffron's unit economics and product functionality.
 
-**Incumbent response from HackerRank/CodeSignal:** Both HackerRank and CodeSignal already offer optional, configurable AI tools in their assessments (trysaffron.ai comparison table). Adding AI interaction tracking and code attribution to their existing platforms with thousands of enterprise customers would be an incremental product extension rather than a full rebuild, and both have significant funding ($114M and $90M respectively) to execute.
+**Nascent market adoption risk:** The premise that employers will evaluate candidates on AI-agent usage rather than raw coding ability requires a behavioral shift in hiring norms. Engineering managers may resist assessments that allow AI assistance, preferring to evaluate unassisted problem-solving. The speed of this cultural shift is uncertain.
 
-**Employer codebase security concerns:** The product requires employers to connect their GitHub repositories so candidates can build on actual production code (trysaffron.ai). Security-sensitive organizations may resist exposing proprietary codebases to external candidates through a third-party platform, limiting TAM to companies with lower code-confidentiality requirements or those willing to use template assessments instead.
+**Name collision:** "Saffron" is a common word shared with multiple unrelated businesses (Saffron Technology on Crunchbase, Saffron Academy on Product Hunt, Saffron Restaurant Group, etc.), which may impede organic search discoverability and brand building.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $1.2B in 2024, projected $3.5B by 2033 at 12.5% CAGR (Strategic Revenue Insights via search snippet) |
+| TAM | $3.5B by 2033 at 12.8% CAGR (Strategic Revenue Insights via search snippet) |
 | SAM | No public data found |
-| Traction | No public data found |
-| Revenue Signal | ~$20 per assessment; free pilot, no credit card required (trysaffron.ai, Mar 2026) |
-| Founders | Robert Chondro (CEO): MIT Math/CS, Jane Street. Jerry Yao: Stanford CS/Math, Jane Street, 50K+ edtech users. Kazuma Choji: Harvey Mudd CS/Math, NeurIPS/ICML/ICCV publications. |
-| Competitors | HackerRank ($114M raised, $221M revenue 2024 per GetLatka, algorithmic puzzles). CodeSignal ($90.1M raised, $53.8M revenue 2024 per GetLatka, sandbox tasks). Karat ($110M Series C at $1.1B valuation per TechCrunch Oct 2021, revenue unknown, human interviewers). Rounds.so (LeapYear-backed, revenue unknown, AI interviewer). |
+| Traction | LinkedIn: 50 followers (LinkedIn, April 2026); Twitter/X: @trysaffron handle exists, count not retrievable; no other public traction signals found |
+| Revenue Signal | $199/mo Basic, $499/mo Standard, custom Enterprise; $49/additional assessment (company website, April 2026) |
+| Founders | Robert Chondro (CEO): MIT Math/CS, AppTrack.ai. Jerry Yao: Stanford, TreeHacks. Kazuma Choji: Harvey Mudd, ML researcher (OpenReview publications). |
+| Competitors | CodeSignal ($90.1M raised, $53.8M revenue per GetLatka 2024, launched agentic assessments April 2026); HackerRank ($115M raised, $221M revenue per GetLatka 2024, no agentic product); Codility ($63.9M raised per PitchBook, revenue unknown, algorithmic focus); HackerEarth ($11.5M raised per Tracxn, revenue unknown, hackathon + assessment) |
 | Moat Signals | No public data found |
-| Risk Factors | Anthropic platform dependency, incumbent response risk, employer codebase security concerns |
-| Founder Reach | Robert Chondro: Twitter not found, LinkedIn linkedin.com/in/robertchondro, GitHub not found. Jerry Yao: Twitter not found, LinkedIn 213 connections, GitHub 15 followers. Kazuma Choji: Twitter not found, LinkedIn linkedin.com/in/kazuma-choji, GitHub not found. |
+| Risk Factors | CodeSignal direct incumbent entry, Claude Code platform dependency, hiring culture adoption lag |
+| Founder Reach | Robert Chondro: Twitter not found, LinkedIn profile found, GitHub not found. Jerry Yao: Twitter not found, LinkedIn profile found, GitHub CerealCodes org member. Kazuma Choji: Twitter not found, LinkedIn not accessible, GitHub not found. |
 | Distribution Signals | No public data found |
-| Emails | mjyao@stanford.edu (jyao.dev) |
+| Emails | rchondro@mit.edu (founder, via LinkedIn) |

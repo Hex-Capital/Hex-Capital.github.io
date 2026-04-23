@@ -1,34 +1,30 @@
 {
   "slug": "testerarmy",
   "name": "TesterArmy",
-  "oneLiner": "AI QA agent that tests code before it ships",
+  "oneLiner": "Test your app with AI, catch bugs before users do",
   "metadata": {
     "website": "https://tester.army",
     "yc_page": "https://www.ycombinator.com/companies/testerarmy",
     "batch": "Spring 2026",
-    "industry": "B2B / Engineering, Product and Design",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
     "team_size": "4",
     "location": "San Francisco, CA, USA; Remote",
     "tags": "AI",
     "yc_partner": "Pete Koomen",
-    "emails": "No public data found"
+    "emails": "support@tester.army"
   },
   "tags": [
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-03-26T05:13:22.834Z",
+  "memoGeneratedAt": "2026-04-22T23:31:21.253Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 40,
+      "score": 37,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 50,
+      "score": 53,
       "tier": "Neutral"
     },
     "paul-graham": {
@@ -36,39 +32,33 @@
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 33,
+      "score": 32,
       "tier": "Pass"
     },
     "sam-lessin": {
       "score": 32,
       "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 42,
-      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 36,
-    "EG": 40,
-    "NR": 50,
+    "CB": 37,
+    "EG": null,
+    "NR": 53,
     "PG": 45,
-    "PT": 33,
+    "PT": 32,
     "SL": 32,
-    "VK": 42
+    "VK": null
   },
-  "consolidatedAvg": 39.71,
-  "consolidatedRank": 38,
+  "consolidatedAvg": 39.8,
+  "consolidatedRank": 76,
   "paths": {
     "memo": "spring2026/memos/testerarmy.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/testerarmy.md",
-      "elad-gil": "spring2026/evals/elad-gil/testerarmy.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/testerarmy.md",
       "paul-graham": "spring2026/evals/paul-graham/testerarmy.md",
       "peter-thiel": "spring2026/evals/peter-thiel/testerarmy.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/testerarmy.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/testerarmy.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/testerarmy.md"
     }
   }
 }

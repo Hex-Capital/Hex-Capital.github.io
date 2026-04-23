@@ -8,38 +8,34 @@
     "batch": "Spring 2026",
     "industry": "Industrials / Manufacturing and Robotics",
     "team_size": "4",
-    "location": "San Francisco, CA, USA",
-    "tags": "Artificial Intelligence, Robotics, Logistics, Automation",
+    "location": "San Francisco, US (company website); originally founded in Germany (Nordic 9)",
+    "tags": "Artificial Intelligence, Hard Tech, Robotics, Logistics",
     "yc_partner": "Tom Blomfield",
-    "emails": "founders@inloop-robotics.com"
+    "emails": "founders@inloop-robotics.com (company website)"
   },
   "tags": [
     "Artificial Intelligence",
+    "Hard Tech",
     "Robotics",
-    "Logistics",
-    "Automation"
+    "Logistics"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-03-29T21:12:33.738Z",
+  "memoGeneratedAt": "2026-04-22T23:52:14.633Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 37,
+      "score": 41,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 44,
+      "score": 40,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 53,
-      "tier": "Neutral"
+      "score": 43,
+      "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 38,
+      "score": 35,
       "tier": "Pass"
     },
     "sam-lessin": {
@@ -47,26 +43,25 @@
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 47,
+      "score": 48,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 44,
-    "EG": 37,
-    "NR": 44,
-    "PG": 53,
-    "PT": 38,
+    "CB": 41,
+    "EG": null,
+    "NR": 40,
+    "PG": 43,
+    "PT": 35,
     "SL": 39,
-    "VK": 47
+    "VK": 48
   },
-  "consolidatedAvg": 43.14,
-  "consolidatedRank": 21,
+  "consolidatedAvg": 41,
+  "consolidatedRank": 58,
   "paths": {
     "memo": "spring2026/memos/inloop-robotics.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/inloop-robotics.md",
-      "elad-gil": "spring2026/evals/elad-gil/inloop-robotics.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/inloop-robotics.md",
       "paul-graham": "spring2026/evals/paul-graham/inloop-robotics.md",
       "peter-thiel": "spring2026/evals/peter-thiel/inloop-robotics.md",

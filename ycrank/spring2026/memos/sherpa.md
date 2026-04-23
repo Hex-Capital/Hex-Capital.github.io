@@ -16,101 +16,112 @@
 
 ## The Idea
 
-**Problem:** Marketing teams struggle with conversion rate optimization (CRO) due to the manual, slow nature of traditional A/B testing workflows. Running experiments requires coordination between marketers, designers, and engineers, creating bottlenecks that limit most teams to a few tests per month (company website). Customer testimonial from Everett Butler, Head of Marketing at Lindy: teams were "manually wiring up test groups and refreshing broken dashboards" before adopting Sherpa (company website).
+**Problem:** Most companies underutilize A/B testing for website conversion despite $7 trillion in annual digital commerce (YC page). Running a single experiment currently requires coordination among marketers, designers, and engineers over weeks (YC page). The incumbent workflow is manual: teams must ideate variants, build them, configure tests, monitor results, and deploy winners — a slow cycle that limits experimentation velocity.
 
-**Approach:** Sherpa autonomously analyzes visitor sessions, identifies underperforming elements, proposes page variants (headlines, layouts, CTAs), and runs A/B tests — deploying winning variants automatically. The team reviews and approves proposed changes before deployment (company website). The platform claims to be "learning from 1,047,213+ website visits" across its customer base (company website). The company states customers "typically see a 15-20% lift on their primary conversion metric in their first 30 days" (YC page, company website).
+**Approach:** Sherpa is an AI agent that automates the full CRO loop end-to-end. It analyzes visitor session data to identify drop-off points, generates new page variants (headlines, layouts, CTAs), launches A/B tests, tracks statistical lift, and automatically deploys winning variations (company website). Integration requires a single line of code (LinkedIn announcement, Mar 2026). The company claims customers typically see 15–20% lift on their primary conversion metric within 30 days (YC page).
 
-**Differentiation:** Unlike Optimizely and VWO, which are self-serve experimentation platforms requiring manual hypothesis creation and test setup, Sherpa generates the variant ideas and manages the full testing lifecycle autonomously. Compared to Mutiny, which focuses on B2B website personalization by audience segment, Sherpa focuses on conversion optimization through automated variant generation and testing. Pathmonk claims AI-driven CRO but operates primarily through overlays and micro-experiences rather than full-page variant testing (Pathmonk website via search snippet).
+**Differentiation:**
+- vs. Optimizely / VWO: Traditional A/B testing platforms that require manual hypothesis generation, variant design, and engineering resources to build/deploy tests. Sherpa automates ideation, design, and deployment.
+- vs. Mutiny: Mutiny focuses on B2B website personalization by audience segment; Sherpa focuses on autonomous experimentation and variant generation for general conversion optimization.
+- vs. Intellimize (acquired by Webflow, Apr 2024): Intellimize automated optimization via machine learning but required initial content variants to be provided. Sherpa generates the variants itself.
 
-**Business Model:** No pricing page is publicly visible (company website, Mar 2026). [Inferred]: Most likely monetization path is a SaaS subscription model, possibly tiered by traffic volume or number of experiments, given standard CRO tool pricing patterns and B2B SaaS tags.
+**Business Model:** No pricing page is publicly visible (company website, Apr 2026). [Inferred]: Most likely monetization is a SaaS subscription tiered by traffic volume or number of experiments, consistent with CRO tool pricing norms in the category.
 
-**TAM/SAM:** The global CRO software market was valued at USD 10.4 billion in 2024 and is projected to reach USD 23.64 billion by 2032, growing at a CAGR of 12.2% (Verified Market Research via search snippet). An alternative estimate places the market at USD 2.86 billion in 2026, reaching USD 6.22 billion by 2035 at 8.9% CAGR (Market Growth Reports via search snippet). [Inferred]: SAM for AI-automated CRO tools specifically is a subset of the broader CRO market; no public SAM estimate found for this specific segment.
+**TAM/SAM:**
+- CRO software market: USD 1,205M in 2024, projected to reach USD 2,858M by 2032 at 11.4% CAGR (Credence Research, 2024 via search snippet).
+- A/B testing software market: projected to reach $850M+ by 2024 (Future Market Insights via search snippet).
+- The company cites $7 trillion in annual digital commerce as the broader addressable opportunity (YC page).
+- [Inferred]: SAM is the subset of CRO spend from mid-market and growth-stage companies with sufficient web traffic to benefit from automated experimentation — likely a fraction of the ~$1.2B CRO market.
 
-**GTM / Distribution:** Customer testimonial references Lindy as a user (company website). The platform is web-based with a JavaScript snippet integration model (company website). [Inferred]: Initial distribution is likely through YC network and founder personal networks from Lindy, with a product-led growth motion targeting marketing teams at growth-stage startups.
+**GTM / Distribution:**
+- The LinkedIn announcement post generated 260 reactions and 106 comments, indicating warm-market distribution through the founders' network (LinkedIn, Mar 2026).
+- Ethan Kinnan has 8,488 LinkedIn followers; the Sherpa company page has ~8K followers (LinkedIn, Mar 2026).
+- [Inferred]: Initial GTM is founder-led sales leveraging their Lindy network and YC alumni channel, targeting marketing teams at growth-stage SaaS companies.
 
 ## Defensibility
 
-- **Data flywheel:** The platform claims to be learning from 1,047,213+ website visits (company website). As more customers run tests, the system accumulates data on which variant patterns drive conversions across industries and page types. [Inferred]: This data advantage could compound over time but is nascent at current scale.
-- **Switching costs:** [Inferred]: Once a customer's pages are being continuously optimized and tested by Sherpa, switching to a manual process or competitor tool requires re-establishing baselines and losing institutional test history.
+- **Data flywheel:** Sherpa claims 4,338,896+ website visits of learning data (company website). As the system runs more experiments across more sites, it accumulates conversion pattern data that could improve variant generation quality over time.
+- **Automation depth:** The product spans the full CRO loop (analysis → design → test → deploy), creating switching costs once embedded in a customer's workflow.
+- [Inferred]: No patents or regulatory moats identified. Defensibility at this stage is primarily execution speed and data accumulation.
 
-**Market structure:** Optimizely ($400M ARR, PR Newswire, May 2024) and VWO ($64M revenue, GetLatka, 2024) are incumbents in experimentation but rely on manual test creation workflows that generate professional services revenue and enterprise contracts. [Inferred]: Fully automating variant creation could cannibalize the consulting and agency ecosystem these platforms support, creating a business-model conflict that slows their adoption of full automation.
+**Market structure:** Incumbents like Optimizely ($400M ARR; ARR Club, May 2024) and VWO ($64M revenue; Latka, Oct 2024) are built around manual experimentation workflows. [Inferred]: Automating the full loop could cannibalize their professional services and consulting revenue streams, creating a business model conflict that slows incumbent adoption of full automation. However, Optimizely and VWO have AI roadmaps and could add generative variant capabilities as features.
 
-**Commoditization risk:** LLM-powered variant generation is technically reproducible. Any team with access to foundation models and a JavaScript injection layer could build a comparable product. Mutiny ($72.6M raised, Crunchbase) already has AI content generation and a large customer base. [Inferred]: The barrier is execution speed on the test-and-learn loop and accumulated performance data, not the underlying technology.
+**Commoditization risk:** The core capability — using LLMs to generate page variants and run A/B tests — relies on generally available foundation models. [Inferred]: Barriers to replication are low at the technology layer; differentiation depends on proprietary conversion data, UX integration depth, and speed of iteration.
 
 ## Market & Traction
 
 **Traction signals:**
-- Platform learning from 1,047,213+ website visits (company website, Mar 2026)
-- 12,847 sessions analyzed on sample customer site yetico.com (company website, Mar 2026)
-- +18.3% lift on hero headline test shown as sample result (company website)
-- Customer testimonial: Everett Butler (Head of Marketing, Lindy) reports "+20% lift" and "shipping dozens of tests a week" (company website)
-- Legal entity: Everest Labs, Inc. (company website)
-- Ethan Kinnan Twitter/X: @ethan_kinnan, 313 followers (X.com via search snippet)
-- Norbu Sonam Twitter/X: @norbusonam_ (GitHub profile); follower count not retrievable
-- Norbu Sonam GitHub: github.com/norbusonam, 18 followers, 29 repos, top repo "the-goat-stack" with 10 stars (GitHub, Mar 2026)
-- No Product Hunt listing found
-- No company LinkedIn or Twitter/X page found in search results
-- No Discord/Slack community found
-- No app store or Chrome extension listing found
+- 4,338,896+ website visits analyzed (company website)
+- 40 experiments launched in 30 days for Lindy, yielding +30% total conversion lift (company website)
+- 12,847 sessions analyzed on yetico.com (company website, demo case)
+- 20% conversion lift on a site with 100K+ monthly visits (LinkedIn announcement, Mar 2026)
+- Named customers: Lindy, Gauge, Yeti Co (company website)
+- Customer testimonial: Everett Butler, Head of Marketing at Lindy, stated Sherpa enabled them to "ship dozens of tests a week" with "+30% lift" (company website)
+- LinkedIn announcement: 260 reactions, 106 comments (LinkedIn, Mar 2026)
+- Ethan Kinnan LinkedIn followers: 8,488; Sherpa company page: ~8K followers (LinkedIn, Mar 2026)
+- Ethan Kinnan Twitter/X: @ethan_kinnan, 384 followers (X.com)
+- No Product Hunt launch found.
+- No app store listings, Chrome extension, or Discord/Slack community found.
 
 **Competitive landscape:**
 
-| Competitor | Funding | Revenue/ARR | Key Differentiator vs. Sherpa |
-|---|---|---|---|
-| Mutiny | $72.6M total, $50M Series B (TechCrunch, Apr 2022) | $20.7M revenue (GetLatka, 2024) | Focuses on B2B website personalization by account/audience segment; no-code editor for marketers; does not auto-generate and run full A/B test cycles |
-| Optimizely | Acquired by Insight Partners (2020); $1.1B debt restructuring (Dec 2024) | $400M ARR (PR Newswire, May 2024) | Full digital experience platform with feature flagging, CMS, and commerce; requires manual hypothesis creation and test configuration |
-| VWO | Majority stake acquired by Everstone Capital (2025); previously bootstrapped | $64M revenue (GetLatka, 2024) | Traditional A/B testing, heatmaps, session recordings; self-serve but manual test setup; 6,000+ customers (VWO website) |
-| Pathmonk | €1.5M seed (Pathmonk blog, Aug 2022) | Revenue unknown | AI-powered CRO via behavioral overlays and micro-experiences; claims +50% conversion uplift; lightweight JS snippet integration |
+| Competitor | Funding | Revenue/ARR | Key differentiator vs. Sherpa |
+|-----------|---------|-------------|-------------------------------|
+| Mutiny | $72.6M total, $50M Series B at $600M valuation (PRNewswire, Apr 2022) | $20.7M revenue (Latka, Oct 2024) | Focuses on B2B audience personalization by segment rather than autonomous full-loop experimentation |
+| Optimizely | $200M+ total; acquired by Insight Partners 2020 (Crunchbase) | $400M ARR (ARR Club, May 2024) | Enterprise-grade platform with feature flagging, content management, and commerce tools — broader suite but manual experimentation workflow |
+| VWO (Wingify) | Bootstrapped; acquired by Everstone Capital for $200M (TechCrunch, Jan 2025) | $64M revenue (Latka, Oct 2024) | Full-stack CRO suite (heatmaps, session recordings, surveys) — comprehensive analytics but requires manual variant creation |
+| AB Tasty | ~$64–99M total (varies by source; Crunchbase/PitchBook) | $38.9M revenue (Latka, Jul 2025) | Server-side and client-side experimentation with feature management; merged with VWO post-Everstone acquisition |
+| Intellimize | $52M total; acquired by Webflow for eight figures (TechCrunch, Apr 2024) | Revenue unknown | ML-driven automatic optimization but required pre-supplied content variants; now integrated into Webflow's platform |
 
-**Why now:** [Inferred]: The quality and cost improvements in large language models during 2024-2025 crossed a threshold enabling automated generation of plausible marketing copy variants, which was previously impractical to automate at quality. The CRO market is projected to grow at 8.9-12.2% CAGR (Verified Market Research, Market Growth Reports via search snippets), and AI agent adoption in marketing workflows accelerated in 2025-2026.
+**Why now:**
+- [Inferred]: LLM capabilities crossed a quality threshold in 2024–2025 that enables credible autonomous generation of marketing copy, headlines, and page layouts — the missing piece that previously required human designers in the CRO loop.
+- [Inferred]: Consolidation in the CRO market (Intellimize acquired by Webflow Apr 2024, VWO/AB Tasty merged under Everstone Jan 2025) creates a window where incumbents are distracted by integration, and customers may be open to new entrants.
 
 ## Founders & Team
 
-**Ethan Kinnan** — Founder
-- Previously Head of Partnerships at Lindy; moved to San Francisco to build AI agents at Lindy (LinkedIn post via search snippet)
-- Co-Founder and Head of Product at Finquire (2023-2024) (RocketReach via search snippet)
-- BS Finance, University of Washington — Michael G. Foster School of Business (2020-2024) (LinkedIn via search snippet)
-- Twitter/X: @ethan_kinnan, 313 followers (X.com via search snippet)
-- LinkedIn: linkedin.com/in/ethan-kinnan/ — listed as at Lindy (LinkedIn)
+**Ethan Kinnan** — Co-founder & CEO
+- BS Finance, University of Washington – Michael G. Foster School of Business, 2020–2024 (LinkedIn via search snippet)
+- Previously: Head of Partnerships / AI Implementation Engineer at Lindy (LinkedIn)
+- Active LinkedIn content creator with 8,488 followers (LinkedIn, Mar 2026)
+- Twitter/X: @ethan_kinnan — 384 followers (X.com)
+- LinkedIn: linkedin.com/in/ethan-kinnan — "Co-founder @ Sherpa (YC P26)"
 - GitHub: No public repos found
 
 **Norbu Sonam** — Co-founder
-- Previously Software Engineer at Lindy, working on onboarding optimization and computer use (YC page)
-- Previously at Microsoft: contributed to Microsoft Designer from preview to GA; built Image Generation skill and inline editing into Microsoft Copilot, showcased in a Super Bowl ad (LinkedIn via search snippet)
-- Internships at Microsoft and IBM (LinkedIn via search snippet)
-- BS Computer Science (Data & AI concentration), minor in Entrepreneurship, Rensselaer Polytechnic Institute (LinkedIn via search snippet, YC page)
-- Twitter/X: @norbusonam_ (GitHub profile); follower count not retrievable
-- LinkedIn: linkedin.com/in/norbusonam/ — Software Engineer at Lindy (LinkedIn)
-- GitHub: github.com/norbusonam — 29 repos, 18 followers; top repo "the-goat-stack" (10 stars) (GitHub, Mar 2026)
+- BS Computer Science (concentration: Data & AI), minor in Entrepreneurship, Rensselaer Polytechnic Institute (LinkedIn via search snippet)
+- Previously: Software Engineer at Lindy — onboarding optimization, computer use (YC page); internships at Microsoft (Copilot image generation, Microsoft Designer) and IBM (LinkedIn via search snippet)
+- Twitter/X: @norbusonam_ (GitHub profile link) — count not retrievable
+- LinkedIn: linkedin.com/in/norbusonam — "Software Engineer - Lindy"
+- GitHub: github.com/norbusonam — 29 public repos, 18 followers; top repo: "the-goat-stack" (Go, 10 stars) (GitHub)
 
-**Co-founder relationship:** Both Ethan Kinnan and Norbu Sonam worked at Lindy prior to founding Sherpa (YC page, LinkedIn via search snippets).
+**Co-founder relationship:** Both founders previously worked at Lindy, where Ethan was Head of Partnerships/AI Implementation Engineer and Norbu was a Software Engineer (LinkedIn profiles). They share a common prior employer.
 
-**Founder-market fit:** Kinnan brings go-to-market and partnerships experience from Lindy (an AI agent platform), plus a prior startup founding stint at Finquire. Sonam brings engineering depth from Microsoft (shipping Copilot image generation to GA) and Lindy. Both gained direct exposure to AI agent workflows and product-led growth at Lindy. Kinnan's finance background and partnerships role suggest familiarity with B2B sales motions; Sonam's AI/ML specialization at RPI and Microsoft aligns with the core technical challenge of automated variant generation.
+**Founder-market fit:** Both founders worked at Lindy, an AI agent platform, giving them direct experience building AI automation products. Ethan's partnerships role involved understanding customer conversion and growth challenges; Norbu's engineering work on onboarding optimization at Lindy and AI/ML projects at Microsoft (Copilot image generation) provides relevant technical background for building an AI-driven CRO agent. Ethan's YC bio states he "automated every job [he's] ever had" (YC page). Andrew Miklas is the assigned YC Group Partner (YC page).
 
 ## Key Risks
 
-**Name collision:** "Sherpa" is an extremely common brand name. Sherpa.ai (Spanish AI company, raised $8.5M per TechCrunch, Mar 2021), Sherpa° (travel tech), and multiple other companies share the name. This creates SEO competition, brand confusion, and potential trademark challenges.
+**Name collision:** "Sherpa" is a common brand name shared by multiple companies including Sherpa.ai (privacy-preserving AI, Spain), Sherpa Labs (YC-backed data engineering startup), joinsherpa.com (travel), and sherpa.digital (digital agency). This creates SEO competition and brand confusion, complicating organic discovery and press differentiation.
 
-**Single-customer testimonial dependency:** The only named customer testimonial is from Lindy — the founders' former employer (company website). No independent customer references, case studies, or third-party reviews were found. The claimed 1,047,213+ visits learning base cannot be independently verified.
+**Incumbent feature absorption:** Optimizely ($400M ARR), VWO, and AB Tasty all have AI roadmaps. These platforms already own the customer relationship and experimentation infrastructure. Adding LLM-powered variant generation as a feature within existing suites could reduce Sherpa's differentiation to an integration advantage. Webflow's acquisition of Intellimize (Apr 2024, TechCrunch) demonstrates incumbents' willingness to acquire AI CRO capabilities.
 
-**Incumbent response from Mutiny:** Mutiny ($72.6M raised, $20.7M revenue per GetLatka 2024) already serves B2B marketers with AI-powered website optimization and has existing distribution, brand recognition, and data. Adding automated A/B testing to Mutiny's existing personalization engine is an adjacent feature expansion.
+**Single-customer concentration:** The primary traction evidence centers on Lindy, where both founders previously worked. Gauge and Yeti Co are mentioned on the website but without detailed case studies. Dependence on a former employer for the flagship case study raises questions about repeatability with cold prospects.
 
-**Commoditization via LLM tooling:** The core capability — generating marketing copy variants using LLMs and deploying them via JavaScript injection — is technically reproducible with standard APIs. Optimizely, VWO, and new entrants could add LLM-powered variant generation as a feature without rebuilding their platforms.
+**LLM dependency and variant quality:** The product's core value proposition depends on LLMs generating page variants that meaningfully outperform human-designed alternatives. Variant quality is bounded by foundation model capabilities, which are available to all competitors. A degradation in model quality or an increase in API costs could directly impact unit economics.
 
-**Non-technical founder pairing:** Both founders are early-career (Kinnan graduated 2024, Sonam from RPI). Neither has a documented prior exit or experience scaling a SaaS company beyond early stage (LinkedIn via search snippets).
+**Non-technical CEO in a technical product:** Ethan Kinnan holds a BS in Finance (University of Washington, LinkedIn via search snippet), and the two-person team has one engineer (Norbu). Scaling an AI-heavy product with a single technical co-founder creates hiring urgency and key-person risk on the engineering side.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $10.4B in 2024, projected $23.64B by 2032 at 12.2% CAGR (Verified Market Research via search snippet) |
+| TAM | CRO software market: $1,205M in 2024, projected $2,858M by 2032 at 11.4% CAGR (Credence Research, 2024 via search snippet) |
 | SAM | No public data found |
-| Traction | 1,047,213+ website visits on platform (company website, Mar 2026); one named customer testimonial from Lindy (company website) |
+| Traction | 4.3M+ visits analyzed, 40 experiments in 30 days for Lindy with +30% conversion lift, 3 named customers (company website, Apr 2026); LinkedIn announcement: 260 reactions, 106 comments (LinkedIn, Mar 2026) |
 | Revenue Signal | No public data found |
-| Founders | Ethan Kinnan (Founder): Head of Partnerships at Lindy, Co-founder of Finquire, BS Finance UW. Norbu Sonam (Co-founder): SWE at Lindy, SWE at Microsoft (Copilot/Designer), BS CS RPI. |
-| Competitors | Mutiny ($72.6M raised, $20.7M revenue per GetLatka 2024, B2B personalization); Optimizely ($400M ARR per PR Newswire May 2024, full DXP); VWO ($64M revenue per GetLatka 2024, traditional A/B testing); Pathmonk (€1.5M seed per Pathmonk blog Aug 2022, revenue unknown, behavioral CRO overlays) |
-| Moat Signals | Data flywheel from 1M+ visits claimed (company website, Mar 2026); no patents or open-source moats identified |
-| Risk Factors | Name collision with multiple "Sherpa" brands, single customer testimonial (former employer), incumbent expansion risk from Mutiny |
-| Founder Reach | Ethan Kinnan: Twitter/X 313 followers (X.com via search snippet). Norbu Sonam: GitHub 18 followers (GitHub, Mar 2026), Twitter/X count not retrievable. |
-| Distribution Signals | No public data found |
+| Founders | Ethan Kinnan (CEO): BS Finance, U of Washington; Head of Partnerships at Lindy. Norbu Sonam (Co-founder): BS CS, RPI; SWE at Lindy, intern at Microsoft & IBM. |
+| Competitors | Mutiny ($72.6M raised, $20.7M revenue, B2B personalization vs. autonomous CRO) (PRNewswire/Latka); Optimizely ($200M+ raised, $400M ARR, enterprise suite vs. automated loop) (Crunchbase/ARR Club); VWO ($200M acquisition, $64M revenue, full-stack CRO vs. AI-first) (TechCrunch/Latka); AB Tasty (~$64M raised, $38.9M revenue, server-side experimentation) (Crunchbase/Latka); Intellimize ($52M raised, revenue unknown, acquired by Webflow Apr 2024) (TechCrunch) |
+| Moat Signals | 4.3M+ visits of learning data (company website); full-loop automation creating switching costs (company website) |
+| Risk Factors | Name collision with multiple "Sherpa" brands, incumbent feature absorption risk, single-customer concentration around Lindy |
+| Founder Reach | Ethan Kinnan: Twitter 384 followers (X.com), LinkedIn 8,488 followers (LinkedIn). Norbu Sonam: GitHub 18 followers / 10 stars top repo (GitHub), LinkedIn follower count not retrievable. Sherpa company: ~8K LinkedIn followers (LinkedIn, Mar 2026). |
+| Distribution Signals | No Product Hunt launch found; no app store or Chrome extension listings; LinkedIn announcement with 260 reactions (LinkedIn, Mar 2026) |
 | Emails | hello@withsherpa.ai (company website) |

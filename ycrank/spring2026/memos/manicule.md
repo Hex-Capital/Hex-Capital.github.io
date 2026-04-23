@@ -12,107 +12,114 @@
 | Location | San Francisco, CA, USA |
 | Tags | Developer Tools, B2B, AI |
 | YC Partner | Aaron Epstein |
-| Emails | founders@manicule.dev, team@manicule.dev, shreyans@manicule.dev |
+| Emails | shreyans@shreyans.sh (personal site) |
 
-Note: The YC page lists team size as 2 (the two co-founders), but the company description states "We're now a team of 5" (YC company description), suggesting contractors or employees beyond the founding pair.
+Note: The company website returned HTTP 404 at time of research (April 2026). The YC page lists team size as 2 (co-founders), but the company description states "a team of 5" (YC page). The company also lists clients Promptlayer and Skyvern beyond those on the YC description (manicule.dev via search snippet).
 
 ## The Idea
 
-**Problem:** Developer tool companies know their documentation is broken but lack the time and specialized talent to fix it (YC company description). The traditional solution—hiring a full-time technical writer who understands engineering, marketing, and devrel—is expensive and hard to fill (YC company description). Documentation requires tight feedback loops with engineering teams, multiple review cycles, and real product understanding; it cannot be "one-shot" (YC company description). As a result, docs remain neglected even though they are a critical asset for developer adoption and deal closure.
+**Problem:** Developer tool companies know their documentation is broken but lack the time, expertise, and bandwidth to fix it (YC page). The traditional solution — hiring a full-time technical writer who understands engineering, marketing, and devrel — is expensive and difficult to recruit for (YC page). Documentation requires tight feedback loops with engineering teams, multiple review cycles, and real product understanding; it cannot be "one-shot" (YC page).
 
-**Approach:** Manicule is a services business that owns technical documentation end-to-end for developer tool companies, covering information architecture, messaging, writing, design, and QA (manicule.dev). AI agents handle mechanical tasks—testing code snippets against live APIs, auditing for broken links, drafting from OpenAPI specs—while human writers handle positioning, architecture, and refinement (manicule.dev; YC company description). The delivery includes new documentation creation, full rewrites, ongoing maintenance, video/screenshot production, and SEO/accessibility checks (manicule.dev).
+**Approach:** Manicule is a services company (agency model) that owns technical documentation end-to-end: information architecture, messaging, writing, design, and QA (YC page). AI agents handle mechanical tasks — code snippet verification against live APIs, broken link auditing, drafting from OpenAPI specs — while human writers refine positioning, structure, and clarity (YC page). The company promises delivery in under 15 days with ongoing maintenance (manicule.dev via search snippet).
 
 **Differentiation:**
-- vs. **Mintlify / GitBook / ReadMe**: These are self-serve SaaS documentation platforms (docs-as-code tools). Manicule is a full-service agency that does the documentation work, not just provides the tooling. [Inferred]: Manicule could be complementary to these platforms rather than directly competitive, as it produces content that may be hosted on such platforms.
-- vs. **Traditional documentation agencies** (RightlyWritten, DevDocs, Hackmamba): Manicule differentiates via AI-agent automation for code verification and auditing at scale, paired with human editorial judgment—described as an AI-native approach that traditional agencies lack (manicule.dev).
-- vs. **In-house technical writers**: Manicule bundles positioning/messaging strategy with documentation execution, acting as a fractional docs team rather than just a writer (YC company description).
+- vs. documentation *platforms* (Mintlify, ReadMe, GitBook): Manicule is a done-for-you service, not self-serve tooling. The company handles information architecture, positioning, and writing — not just hosting (YC page).
+- vs. traditional technical writing agencies (WriteChoice, Hackmamba, Infrasity, DevDocs, Draft.dev): Manicule uses AI agents for mechanical tasks like code verification and auditing at scale, reducing cost and turnaround time (YC page). WriteChoice describes a 4-month hiring cycle replacement model (writechoice.io via search snippet); Hackmamba offers 3–6 month projects (hackmamba.io via search snippet). Manicule claims sub-15-day delivery (manicule.dev via search snippet).
 
-**Business Model:** No pricing is publicly disclosed on the website (manicule.dev). The company reports $15K MRR and profitability with named clients including Supermemory, Greptile, Reducto, Rootly, and Promptlayer (YC company description). With ~5 named clients, this implies an average engagement of ~$3K/month per client. [Inferred]: Most likely monetization is project-based or monthly retainer pricing, typical of documentation agencies, potentially with tiered packages for new docs, rewrites, and ongoing maintenance.
+**Business Model:** Agency/services model with recurring documentation maintenance. The company reports $15K MRR (YC page). No public pricing tiers found. [Inferred]: Revenue likely comes from per-project or monthly retainer contracts with developer tool companies, given the agency positioning and "end-to-end" ownership described.
 
-**TAM/SAM:** The global software development tools market was valued at $6.41B in 2025, projected to reach $15.72B by 2031 at 16.12% CAGR (Mordor Intelligence via search snippet). No specific TAM estimate was found for the technical documentation services sub-segment. [Inferred]: The SAM is the subset of developer tool companies (particularly VC-backed startups) willing to outsource documentation, which is a fraction of the broader devtools market.
+**TAM/SAM:** The Software Documentation Tools Market was $6.32B in 2024 and is projected to reach $12.45B by 2033 at 8.12% CAGR (Verified Market Reports via search snippet). Note: this covers documentation *software*, not documentation *services*. No public TAM/SAM data found for the technical documentation services segment specifically. [Inferred]: The serviceable market is narrower — developer tool companies (vs. all software companies) that outsource documentation rather than build in-house.
 
-**GTM / Distribution:** Current clients are YC-adjacent developer tool startups (Supermemory, Greptile, Reducto, Rootly) (YC company description). The Supermemory case study—which "went viral on Twitter" (YC company description)—serves as a reference-selling mechanism. [Inferred]: Distribution is likely founder-led sales leveraging the YC network and word-of-mouth from client case studies, a common GTM for services businesses at this stage.
+**GTM / Distribution:** Current clients include Supermemory, Greptile, Reducto, Rootly, Promptlayer, and Skyvern (YC page; manicule.dev via search snippet). [Inferred]: Distribution is founder-led sales into the YC and developer tools ecosystem, leveraging Naman Bansal's existing freelance network built over ~3 years of technical writing for dev tools.
 
 ## Defensibility
 
-- **Data/process advantage**: Each client engagement builds institutional knowledge about documentation patterns for developer tools. AI agents trained on code verification workflows improve with each deployment (manicule.dev). [Inferred]: This creates compounding expertise but is not a traditional moat at this stage.
-- **Reputation and reference clients**: Named clients in the YC ecosystem (Supermemory, Greptile, Reducto, Rootly) provide social proof (YC company description). The Supermemory viral case study is a concrete reference (YC company description).
-- **Switching costs**: [Inferred]: Once Manicule owns ongoing maintenance of a client's documentation, switching to another provider or bringing in-house requires knowledge transfer, creating moderate switching costs.
+- **Switching costs:** Documentation agencies accumulate deep product context, positioning knowledge, and engineering team relationships over time (YC page describes multi-cycle review processes). Switching agencies means re-onboarding.
+- **AI + human workflow:** The combination of AI agents for mechanical verification and human writers for judgment-based work is the stated core competency (YC page). The AI tooling for code snippet testing and spec-based drafting represents proprietary workflow, though the underlying models are commodity.
+- **Reputation/case studies:** The Supermemory case study (30% improvement in answer success rate, shipped in 23 days, went viral on Twitter) serves as a referral engine (YC page).
 
-**Market structure:** Documentation SaaS platforms (Mintlify, GitBook) sell tooling, not services—they would need to build a services arm to compete directly, which cannibalizes their scalable SaaS model (Mintlify pricing page; GitBook pricing page via search snippet). Traditional documentation agencies lack the AI-agent automation layer. [Inferred]: The structural barrier is that SaaS platforms are incentivized to sell software licenses, not labor-intensive managed services, creating a business model conflict.
+**Market structure:** Documentation platforms (Mintlify, ReadMe, GitBook) sell self-serve tooling and would need to build a services operation — a fundamentally different business model with different margins, hiring, and delivery — to compete directly. Traditional agencies lack the AI-agent infrastructure for automated code verification and auditing. No structural barrier identified against a new entrant building the same hybrid model.
 
-**Commoditization risk:** The services model—human writers augmented by AI—has a low barrier to entry. Any technical writing agency could adopt AI tools. Individual freelance technical writers using LLMs could replicate portions of the offering. The differentiation depends on execution quality, client relationships, and the specific AI tooling built in-house.
+**Commoditization risk:** The agency model is inherently replicable. AI-assisted technical writing is a capability that any technical writing firm could adopt as LLM tooling matures. The barrier is execution quality and speed, not technology.
 
 ## Market & Traction
 
 **Traction signals:**
-- $15K MRR, profitable (YC company description)
-- Named clients: Supermemory, Greptile, Reducto, Rootly, Promptlayer (manicule.dev; YC company description)
-- Customer testimonial: Supermemory docs drove +30% answer success rate, multiple enterprise deals closed, went viral on Twitter, shipped in 23 days; 70% reduction in customer confusion (manicule.dev)
-- Customer testimonial: "Supermemory has some of the best docs I've ever seen." — Michael Chomsky (manicule.dev)
-- Company Twitter/X: @maniculehq (follower count not retrievable)
-- Company LinkedIn: company/manicule (follower count not retrievable)
-- GitHub org: maniculehq — 1 original public repo (better-cmdk, 11 stars), 3 followers (GitHub, Mar 2026)
+- $15K MRR, profitable (YC page)
+- 6 named clients: Supermemory, Greptile, Reducto, Rootly, Promptlayer, Skyvern (YC page; manicule.dev via search snippet)
+- Customer testimonial: Supermemory docs drove 30% improvement in answer success rate, shipped in 23 days, went viral on Twitter (YC page)
+- Customer testimonial: documentation led to "$100K+ in deals closed" for clients (manicule.dev via search snippet)
+- Company Twitter/X: @maniculehq (YC page) — follower count not retrievable
+- Company LinkedIn: linkedin.com/company/manicule (YC page) — follower count not retrievable
+- Company GitHub: github.com/maniculehq (YC page) — repo details not retrieved
+- Job postings: 0 open positions (YC page)
 - No Product Hunt launch found
-- No press coverage in named publications found
-- Not currently hiring (YC page)
+- No press coverage found in named publications
+- No Discord/Slack community found
 
 **Competitive landscape:**
 
 | Competitor | Type | Funding | Revenue/ARR | Key Differentiator vs. Manicule |
-|---|---|---|---|---|
-| **Mintlify** | SaaS docs platform | $21M total ($18M Series A led by a16z, Sep 2024) (TechCrunch, Sep 2024) | $10M ARR end of 2025 (Sacra) | Self-serve platform; customer does the writing. Manicule does the work. |
-| **ReadMe** | SaaS API docs platform | $10.3M total ($9M Series A led by Accel) (TechCrunch, Aug 2019) | Revenue unknown; 3,000+ paying customers (TechCrunch, Aug 2019) | Focused on interactive API reference docs. Manicule covers full documentation lifecycle. |
-| **GitBook** | SaaS docs platform | ~$150K reported (Wellfound) | Revenue unknown | Broad docs-as-code platform. Manicule is a managed service, not a tool. |
-| **Traditional agencies** (RightlyWritten, Hackmamba, DevDocs) | Services | Undisclosed | Undisclosed | Lack AI-agent automation for code verification and scale auditing. |
+|-----------|------|---------|-------------|-------------------------------|
+| Mintlify | Documentation platform | $66.7M total (PitchBook); $18M Series A led by a16z (Sept 2024, TechCrunch) | ~$10M ARR end 2025 (Sacra estimate); 10,000+ companies | Self-serve platform, not done-for-you; customer writes own docs |
+| ReadMe | API documentation platform | $10.3M total (PitchBook) | $10.7M revenue (Getlatka, June 2024) | API-focused documentation hosting; 71 employees (Getlatka) |
+| GitBook | Documentation platform | Minimal VC (~$150K, Crunchbase) | $3.9M revenue (Getlatka, July 2025) | Open-source roots; general-purpose wiki + docs |
+| WriteChoice | Technical writing agency | No public data found | No public data found | Agency model like Manicule but no stated AI-agent workflow; longer engagement cycles |
+| Infrasity | Technical writing services | No public data found | No public data found | Founded 2024; serves devtools and early-stage SaaS startups (infrasity.com via search snippet) |
+| Draft.dev | Technical content marketing | No public data found | No public data found | 300+ vetted writers and video production (draft.dev via search snippet); content marketing focus vs. docs |
 
-**Why now:**
-- Thousands of AI startups are launching developer tools every month and documentation is being neglected (YC company description).
-- [Inferred]: The specific catalyst is the 2023-2025 explosion of AI/developer-tool startups post-LLM, creating a large cohort of companies that need documentation but lack dedicated technical writing teams. Simultaneously, LLM capabilities have crossed a threshold where code verification, link auditing, and draft generation from API specs can be meaningfully automated, enabling a small team to service more clients than a traditional agency.
+**Why now:** [Inferred]: Three catalysts: (1) Thousands of AI startups launching developer tools monthly (YC page), creating a surge in demand for documentation; (2) LLMs crossed a capability threshold enabling automated code verification, spec-based drafting, and auditing at a cost and speed that makes the hybrid human+AI agency model economically viable; (3) documentation platforms (Mintlify, ReadMe) have normalized the expectation of high-quality docs, but many teams still lack capacity to use these tools effectively.
 
 ## Founders & Team
 
-**Naman Bansal** — Co-founder
-- Entrepreneur, writer, marketer, and developer (LinkedIn). Ran a technical content studio for 3+ years working with AI and devtools startups on blogs, docs, and devrel (LinkedIn). Previously CEO at Duelance, a freelance writer marketplace (LinkedIn; GitHub org).
-- Education: No public data found.
+**Naman Bansal** — Co-founder & CEO
+- Started freelance technical writing for developer tools ~3 years prior to founding (~2022) (YC page)
+- YC S21 alumni: co-founded Opkit (healthcare voice AI) with Justin Ko (YC page, Crunchbase)
+- Opkit was acquired by 11x on September 1, 2024 (acqui-hire) (Crunchbase). 11x subsequently raised a $50M Series B led by Andreessen Horowitz in November 2024 (GlobeNewsWire)
+- Grew up in North Carolina; attended Dev Bootcamp in San Francisco (search snippet from personal site/blog)
 - Twitter/X: @NamanBansal0611 — follower count not retrievable
-- LinkedIn: linkedin.com/in/namban — "founder @ manicule.dev"
-- GitHub: No confirmed personal account identified (the namanbnsl GitHub profile belongs to a different individual)
+- LinkedIn: linkedin.com/in/namban/ (LinkedIn)
+- GitHub: No confirmed public repos found for this individual
 
 **Shreyans Jain** — Co-founder
-- Founding Engineer at Supermemory (shreyans.sh; LinkedIn). MS Computer Science, Northeastern University (LinkedIn via search snippet). Former Software Development Engineer at Trellix (LinkedIn via search snippet). Built better-cmdk ("An extensible Command-K interface with AI," 11 GitHub stars) and upstash-kv (Redis client wrapper, 11 GitHub stars) (GitHub).
-- Twitter/X: @CodeWShreyans — follower count not retrievable
-- LinkedIn: linkedin.com/in/sjain07
-- GitHub: github.com/CodeWithShreyans — 48 repos, 50 followers; pinned repos: upstash-kv (11 stars), shreyans.sh (1 star)
+- MS Computer Science, Northeastern University (LinkedIn via search snippet)
+- Previously SDE at Trellix (LinkedIn via search snippet)
+- Founding Engineer at Supermemory (building the Memory API for the AI era) (LinkedIn, shreyans.sh)
+- Built OThree AI (Fast Private Chat) (shreyans.sh)
+- Twitter/X: @CodeWShreyans (shreyans.sh) — follower count not retrievable
+- LinkedIn: linkedin.com/in/sjain07/ (shreyans.sh)
+- GitHub: github.com/CodeWithShreyans (shreyans.sh) — star counts not retrieved
 
-**Co-founder relationship:** Both Naman and Shreyans were involved in Duelance—Naman as CEO (LinkedIn) and Shreyans as a contributor (GitHub @duelance-app org member, GitHub). Additionally, Shreyans was a founding engineer at Supermemory, and Naman did documentation work for Supermemory as a freelancer, which is where they saw the impact of good docs and decided to co-found Manicule (YC company description).
+**Additional team member:** Kunal Mishra appears on LinkedIn as being at Manicule (YC P26) (LinkedIn via search snippet). No further details retrieved.
 
-**Founder-market fit:** Naman brings 3+ years of hands-on technical writing experience specifically for developer tools, with direct client relationships and an understanding of documentation as a product-market-fit lever (YC company description). Shreyans brings engineering depth as a founding engineer at Supermemory and CS master's degree, enabling him to build the AI-agent tooling layer (shreyans.sh; LinkedIn). Together they cover the two halves of the Manicule thesis: human editorial judgment and AI-powered automation.
+**Co-founder relationship:** Shreyans was a founding engineer at Supermemory; Naman's freelance documentation work with Supermemory is how they connected — Shreyans "saw the impact of good docs firsthand" at Supermemory and joined Naman to productize Manicule (YC page).
+
+**Founder-market fit:** Naman Bansal has ~3 years of hands-on experience writing documentation for developer tools and previously built and exited a YC-backed company (Opkit, acquired by 11x in 2024). Shreyans Jain brings engineering depth (MS CS, SDE at Trellix, founding engineer at Supermemory) and firsthand experience as a *consumer* of documentation services — he saw Manicule's work improve Supermemory's docs from the inside (YC page).
 
 ## Key Risks
 
-**Services scalability constraint:** At $15K MRR with ~5 clients, revenue growth is linearly tied to headcount or per-client price increases. The "team of 5" (YC company description) already exceeds the 2-person founding team on the YC page. Services businesses face structural challenges in venture-scale growth unless they transition to a product/platform model. No public indication of a planned SaaS product pivot.
+**Services scalability ceiling:** Agency revenue scales linearly with headcount and project capacity, unlike SaaS. The YC description frames a "productization" vision with AI agents, but the current model is labor-intensive. Maintaining quality at scale while keeping margins requires significant AI automation advancement. No public evidence of a self-serve product roadmap.
 
-**Client concentration:** Five named clients at $15K MRR implies each client represents ~20% of revenue. Loss of any single client would materially impact revenue. No public data on contract length or retention rates.
+**Client concentration in YC ecosystem:** All six named clients (Supermemory, Greptile, Reducto, Rootly, Promptlayer, Skyvern) are YC-backed startups. Revenue concentration in a single network creates churn risk if any cohort of startups fails or brings documentation in-house as they grow.
 
-**AI commoditization of the human layer:** As LLMs improve at technical writing, the human editorial value proposition may erode. Competitors (Mintlify already acquired Trieve for RAG infrastructure in July 2025, per TechCrunch) are investing in AI-powered documentation generation that could reduce the need for agency services.
+**AI commoditization of core service:** As LLMs improve at code-aware technical writing, developer tool companies may increasingly handle documentation internally using tools like Mintlify's AI features or general-purpose AI writing assistants, reducing demand for an external agency. Mintlify acquired RAG infrastructure company Trieve in July 2025 (search snippet), signaling investment in AI-assisted documentation.
 
-**Name collision risk:** "Manicule" is also a typographic term (☞) used in publishing and historical contexts. Web searches return some noise from unrelated uses, though no direct competitor shares the exact name.
+**Platform competition moving downstream:** Mintlify ($66.7M raised, ~$10M ARR, 10,000+ companies) could add managed documentation services. ReadMe and GitBook already have large customer bases that could be offered premium writing services.
 
-**Platform dependency on client ecosystem:** Current clients are concentrated in the YC/AI-startup ecosystem. A downturn in AI startup funding could reduce the pool of companies willing to pay for outsourced documentation services.
+**Name disambiguation:** "Manicule" is a typographic/historical term (pointing hand symbol used in medieval manuscripts). Search results frequently return unrelated content about the typographic symbol, which may limit SEO discoverability and brand clarity.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Software development tools market: $6.41B in 2025, projected $15.72B by 2031 at 16.12% CAGR (Mordor Intelligence via search snippet). No documentation-specific sub-segment data found. |
+| TAM | Software Documentation Tools Market: $6.32B in 2024, projected $12.45B by 2033, 8.12% CAGR (Verified Market Reports via search snippet) |
 | SAM | No public data found |
-| Traction | $15K MRR, profitable (YC company description). 5 named clients: Supermemory, Greptile, Reducto, Rootly, Promptlayer (manicule.dev). |
-| Revenue Signal | $15K MRR, profitable (YC company description). No pricing page data available (manicule.dev). |
-| Founders | Naman Bansal (Co-founder): 3+ yr technical writing for devtools, ex-CEO Duelance (LinkedIn). Shreyans Jain (Co-founder): Founding Engineer at Supermemory, MS CS Northeastern, ex-Trellix (LinkedIn, shreyans.sh). |
-| Competitors | Mintlify ($21M raised, $10M ARR end 2025, self-serve SaaS platform) (TechCrunch Sep 2024; Sacra). ReadMe ($10.3M raised, revenue unknown, API docs focus) (TechCrunch Aug 2019). GitBook (~$150K raised, revenue unknown, docs-as-code platform) (Wellfound). |
-| Moat Signals | No public data found |
-| Risk Factors | Services scalability constraint, client concentration (~5 clients), AI commoditization of human editorial layer |
-| Founder Reach | Naman Bansal: Twitter @NamanBansal0611 (count not retrievable), LinkedIn in/namban. Shreyans Jain: Twitter @CodeWShreyans (count not retrievable), LinkedIn in/sjain07, GitHub 50 followers + 22 stars across pinned repos (GitHub). |
-| Distribution Signals | No public data found |
-| Emails | founders@manicule.dev, team@manicule.dev, shreyans@manicule.dev (manicule.dev; GitHub) |
+| Traction | $15K MRR, profitable, 6 named clients (YC page, April 2026); Supermemory docs shipped in 23 days (YC page) |
+| Revenue Signal | $15K MRR (~$180K ARR), profitable (YC page) |
+| Founders | Naman Bansal (CEO): YC S21 alum, Opkit exit to 11x (2024), ~3yr technical writing experience. Shreyans Jain: MS CS Northeastern, SDE Trellix, founding engineer Supermemory. |
+| Competitors | Mintlify ($66.7M raised, ~$10M ARR est. end 2025 per Sacra, self-serve platform); ReadMe ($10.3M raised, $10.7M revenue per Getlatka June 2024, API docs platform); GitBook ($3.9M revenue per Getlatka July 2025, general docs platform); WriteChoice (funding unknown, revenue unknown, agency); Draft.dev (funding unknown, revenue unknown, content marketing agency) |
+| Moat Signals | Client switching costs from accumulated product context; proprietary AI+human workflow for code verification and doc writing (YC page) |
+| Risk Factors | Services scalability ceiling, client concentration in YC ecosystem, AI commoditization of technical writing |
+| Founder Reach | Naman Bansal: Twitter @NamanBansal0611 (count not retrievable), LinkedIn linkedin.com/in/namban/. Shreyans Jain: Twitter @CodeWShreyans (count not retrievable), LinkedIn linkedin.com/in/sjain07/, GitHub github.com/CodeWithShreyans (count not retrieved). |
+| Distribution Signals | No Product Hunt launch found; no press coverage found; company Twitter @maniculehq (count not retrievable) (YC page) |
+| Emails | shreyans@shreyans.sh (shreyans.sh) |

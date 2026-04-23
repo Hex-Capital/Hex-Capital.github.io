@@ -1,0 +1,66 @@
+{
+  "slug": "dayjob",
+  "name": "Dayjob",
+  "oneLiner": "AI Agents for Industrial Logistics",
+  "metadata": {
+    "website": "https://www.getdayjob.ai",
+    "yc_page": "https://www.ycombinator.com/companies/dayjob",
+    "batch": "Spring 2026",
+    "industry": "B2B / Supply Chain and Logistics",
+    "team_size": "5",
+    "location": "London, England, United Kingdom",
+    "tags": "Logistics, Transportation, AI",
+    "yc_partner": "Tom Blomfield",
+    "emails": "info@getdayjob.ai"
+  },
+  "tags": [
+    "Logistics",
+    "Transportation",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-22T23:51:39.334Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 69,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 40,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 45,
+    "EG": null,
+    "NR": null,
+    "PG": 69,
+    "PT": 39,
+    "SL": 48,
+    "VK": 40
+  },
+  "consolidatedAvg": 48.2,
+  "consolidatedRank": 22,
+  "paths": {
+    "memo": "spring2026/memos/dayjob.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/dayjob.md",
+      "paul-graham": "spring2026/evals/paul-graham/dayjob.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/dayjob.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/dayjob.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/dayjob.md"
+    }
+  }
+}

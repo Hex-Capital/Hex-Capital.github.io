@@ -1,0 +1,71 @@
+{
+  "slug": "lumius",
+  "name": "Lumius",
+  "oneLiner": "Fast, smart, accessible 3D ultrasound for everyone",
+  "metadata": {
+    "website": "https://www.lumius-imaging.com",
+    "yc_page": "https://www.ycombinator.com/companies/lumius",
+    "batch": "Spring 2026 (P26)",
+    "industry": "Healthcare / Medical Devices",
+    "team_size": "4",
+    "location": "Durham, NC, USA",
+    "tags": "Hard Tech, Medical Devices, Digital Health",
+    "yc_partner": "Nicolas Dessaigne",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Hard Tech",
+    "Medical Devices",
+    "Digital Health"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-22T23:39:16.090Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 62,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 67,
+      "tier": "Invest"
+    },
+    "vinod-khosla": {
+      "score": 62,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 53,
+    "EG": null,
+    "NR": 62,
+    "PG": 56,
+    "PT": 54,
+    "SL": 67,
+    "VK": 62
+  },
+  "consolidatedAvg": 59,
+  "consolidatedRank": 3,
+  "paths": {
+    "memo": "spring2026/memos/lumius.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/lumius.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/lumius.md",
+      "paul-graham": "spring2026/evals/paul-graham/lumius.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/lumius.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/lumius.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/lumius.md"
+    }
+  }
+}

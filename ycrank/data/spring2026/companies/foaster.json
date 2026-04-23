@@ -1,7 +1,7 @@
 {
   "slug": "foaster",
   "name": "Foaster",
-  "oneLiner": "AI-native consulting firm",
+  "oneLiner": "Your AI-native partner for AI transformation.",
   "metadata": {
     "website": "https://foaster.ai",
     "yc_page": "https://www.ycombinator.com/companies/foaster",
@@ -19,54 +19,44 @@
     "Enterprise Software"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-03-26T05:13:07.104Z",
+  "memoGeneratedAt": "2026-04-22T23:31:52.040Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 42,
+      "score": 39,
       "tier": "Pass"
     },
-    "naval-ravikant": {
+    "paul-graham": {
       "score": 47,
       "tier": "Neutral"
     },
-    "paul-graham": {
-      "score": 44,
-      "tier": "Pass"
-    },
     "peter-thiel": {
-      "score": 30,
+      "score": 32,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 36,
+      "score": 34,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 44,
-      "tier": "Pass"
+      "score": 48,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 45,
-    "EG": 42,
-    "NR": 47,
-    "PG": 44,
-    "PT": 30,
-    "SL": 36,
-    "VK": 44
+    "CB": 39,
+    "EG": null,
+    "NR": null,
+    "PG": 47,
+    "PT": 32,
+    "SL": 34,
+    "VK": 48
   },
-  "consolidatedAvg": 41.14,
-  "consolidatedRank": 31,
+  "consolidatedAvg": 40,
+  "consolidatedRank": 70,
   "paths": {
     "memo": "spring2026/memos/foaster.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/foaster.md",
-      "elad-gil": "spring2026/evals/elad-gil/foaster.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/foaster.md",
       "paul-graham": "spring2026/evals/paul-graham/foaster.md",
       "peter-thiel": "spring2026/evals/peter-thiel/foaster.md",
       "sam-lessin": "spring2026/evals/sam-lessin/foaster.md",

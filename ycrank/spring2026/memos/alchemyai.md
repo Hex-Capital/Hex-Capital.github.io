@@ -16,101 +16,102 @@
 
 ## The Idea
 
-**Problem:** Life science researchers spend hours daily converting microscope images into quantitative data, often through manual annotation and measurement (YC company page). Current workflows rely on open-source tools like ImageJ/Fiji, CellProfiler, and QuPath that require significant scripting expertise, or expensive enterprise platforms like Visiopharm and Aivia (Leica) that target pathology departments rather than individual research labs. The manual process is slow, non-reproducible, and limits the analyses researchers can perform.
+**Problem:** Biotech and pharma researchers spend significant weekly time on manual microscopy image analysis—converting raw images into numerical data by hand or with legacy tools. A UC Santa Cruz PhD student described spending "3 hours" on H. pylori microscopy analysis that Alchemy reduced to "under 10 minutes" (LinkedIn company page endorsement, 2026). Existing workflows rely on open-source tools (CellProfiler, ImageJ, napari, Ilastik) that require scripting, parameter tuning, and pipeline assembly expertise, or on enterprise platforms (Aivia by Leica, PathAI, Proscia) priced for large pharma and clinical diagnostics labs.
 
-**Approach:** Researchers upload images and describe their analysis needs in plain language; AI agents then assemble a tailored pipeline, select appropriate ML models for the specific image type, and allow verification at every step before exporting reproducible, publication-ready results (YC company page). The platform includes a library of verified processing nodes and an AI-powered code editor for creating custom building blocks (search snippet from alchemyai.dev). The company claims analysis time reduction from 20 hours to 5 minutes (search snippet from alchemyai.dev) and over 90% reduction in analysis time across labs (YC company page).
+**Approach:** Researchers upload images and describe their analysis needs in plain language. AI agents then assemble a tailored analysis pipeline, select appropriate computer vision models for the specific image type, and allow the researcher to verify each step before exporting reproducible, publication-ready results (YC company page). The company claims a 98% reduction in analysis time (YC company page).
 
-**Differentiation:** Unlike open-source tools (CellProfiler, QuPath, napari) that require programming and pipeline-building expertise, Alchemy uses natural language input and agentic assembly. Unlike enterprise pathology platforms (Visiopharm, PathAI, Aivia/Leica) that focus on clinical diagnostics and histopathology, Alchemy targets the broader research microscopy workflow. The agent-driven pipeline assembly and plain-language interface distinguish it from both categories.
+**Differentiation:** Compared to open-source tools (CellProfiler, ImageJ, QuPath), Alchemy eliminates the need for scripting, manual parameter tuning, and pipeline assembly by using natural-language input and AI-driven model selection (YC company page). Compared to enterprise platforms like Aivia (Leica Microsystems), which offers 22 built-in applications and 20 pre-trained deep learning models but requires per-lab subscription licensing (Leica product page), Alchemy targets researchers with a self-service workflow that requires no coding. PathAI and Proscia are focused on clinical diagnostic pathology for large pharma, not general research lab microscopy.
 
-**Business Model:** No pricing page was accessible at time of research. [Inferred]: Most likely monetization path is a SaaS subscription model given the "SaaS" tag on the YC page and the platform's cloud-based upload workflow; potential tiering by image volume, number of pipelines, or lab seats.
+**Business Model:** No public pricing page was found; the website returned only a title line at time of research. [Inferred]: Most likely monetization path is a SaaS subscription model (per-seat or per-lab), consistent with the "SaaS" tag on their YC profile and the company's LinkedIn description of automating "lab's laborious image analysis."
 
-**TAM/SAM:** The global AI in microscopy market was valued at $1.12B in 2025 and is projected to reach $3.38B by 2033 at 14.83% CAGR (Grand View Research, 2025). The microscopy image analysis software market was estimated at $2.41B in 2024, projected to reach $5.89B by 2031 at 13.4% CAGR (OpenPR, 2024 via search snippet). [Inferred]: The SAM — research-focused (non-clinical) bioimage analysis software — is a subset of these figures, likely in the hundreds of millions, as clinical diagnostics and pathology represent the larger share.
+**TAM/SAM:** The global live cell imaging market was valued at $3.13B in 2025 and is projected to reach $4.75B by 2030 at 8.68% CAGR (MarketsandMarkets via search snippet). The broader life sciences analytics market was $40.08B in 2025, projected to reach $76.55B by 2031 at 11.5% CAGR (The Business Research Company via search snippet). [Inferred]: The serviceable segment—image analysis software for academic and industry research labs—is a subset of the live cell imaging market; no public SAM estimate specific to AI-powered research microscopy software was found.
 
-**GTM / Distribution:** [Inferred]: Most likely distribution path is bottom-up adoption within individual research labs, given the product's self-serve upload interface and plain-language UX. Academic labs and biotech R&D teams are the likely initial segment, with potential expansion to CROs and pharma. No public GTM data found.
+**GTM / Distribution:** [Inferred]: Most likely distribution path is bottom-up product-led growth targeting individual researchers and lab PIs in academic and biotech settings, expanding to team and institutional licenses. The natural-language interface and self-service workflow lower adoption friction. The LinkedIn endorsement from a UC Santa Cruz PhD student suggests early traction in academic labs.
 
 ## Defensibility
 
-- **Data advantage (potential):** Each customer pipeline interaction generates labeled bioimage-model pairings that could improve model selection accuracy over time. This does not exist today at meaningful scale given the company's stage.
-- **Workflow lock-in (potential):** Labs that build reproducible pipelines on Alchemy's platform would face switching costs when those pipelines are embedded in publications and SOPs.
+- **Data advantage (potential):** Each researcher who trains and shares a computer vision model on the platform contributes to a growing model library. [Inferred]: Over time, this could create a network effect where new users benefit from previously trained models, making the platform more valuable as adoption grows. This is unproven at this stage.
+- **Switching costs:** Researchers who build reproducible pipelines on Alchemy and cite them in publications face costs in migrating to another tool while maintaining reproducibility. [Inferred]: This creates moderate lock-in once adopted in a lab's workflow.
 
-No defensibility signals found in public sources beyond the above. [Inferred]: Potential moat could develop via accumulated image-model performance data and a library of validated domain-specific nodes, but is unproven at this stage.
+**Market structure:** Enterprise incumbents (Leica/Aivia, Proscia, PathAI) are oriented toward clinical diagnostics, large pharma, and regulatory-grade workflows. [Inferred]: Serving individual researchers with a self-service, AI-first tool at lower price points would cannibalize neither the incumbents' sales channels (enterprise field sales to hospital pathology labs) nor their regulatory-focused product strategy.
 
-**Market structure:** Enterprise incumbents (Leica/Danaher with Aivia, Zeiss, Nikon) bundle image analysis with microscope hardware sales; an independent SaaS tool targeting researchers directly avoids the hardware sales channel conflict. Open-source tools (CellProfiler, QuPath) lack a commercial entity incentivized to build agentic UX. [Inferred]: The structural gap is that hardware-bundled vendors cannot easily unbundle and sell standalone SaaS analysis, and open-source projects lack resources for productized AI agent workflows.
-
-**Commoditization risk:** Foundation model providers (e.g., general-purpose vision-language models) could lower barriers for competitors. Any ML-capable team with life science domain knowledge could build similar pipeline-assembly tooling. Open-source segmentation models like Cellpose and StarDist are freely available. The barrier is less the model and more the curation of domain-specific validated nodes and end-to-end researcher UX.
+**Commoditization risk:** Open-source tools (CellProfiler, napari, Cellpose) are free and well-maintained by academic consortia. Foundation model providers (e.g., general-purpose vision models) could enable competitors to build similar natural-language-to-pipeline products. The core technical challenge—assembling domain-specific CV pipelines from natural-language prompts—relies on prompt engineering and model orchestration rather than proprietary model architectures. [Inferred]: Barrier to replication is moderate; defensibility depends on execution speed, model library breadth, and researcher adoption.
 
 ## Market & Traction
 
 **Traction signals:**
-- Company claims labs have reduced analysis time by over 90% (YC company page). No specific customer count, revenue, or user metrics found in public sources.
-- Twitter/X handle: @alchemyai_ (follower count not retrievable) (search result).
-- LinkedIn company page: linkedin.com/company/alchemyai-dev (follower count not retrievable) (search result).
-- No Product Hunt launch found.
-- No press coverage found in named publications.
-- 0 job openings listed (YC company page).
-- Website not fully accessible at time of research; only title "From Images to Insights" rendered.
+- 719 LinkedIn followers (LinkedIn company page, April 2026)
+- UC Santa Cruz PhD student endorsement: reduced H. pylori microscopy analysis from hours to minutes with "outstanding accuracy" and no parameter tuning (LinkedIn company page, 2026)
+- Y Combinator Spring 2026 batch acceptance (YC company page)
+- Founded in 2024 (LinkedIn company page)
+- Additional team members beyond the 2 founders listed on LinkedIn: Luis Reyes Espinoza, Mary Moore (LinkedIn company page)
+- 0 job postings on YC (YC company page)
+- No Product Hunt listing found
+- No public Twitter/X account found for the company
+- No app store listings or Chrome extension found
+- Website not fully accessible at time of research (returned title only)
 
 **Competitive landscape:**
 
-| Competitor | Differentiator vs. Alchemy | Funding | Revenue |
-|---|---|---|---|
-| **Visiopharm** (Denmark, est. 2002) | Enterprise desktop+cloud pathology platform with hundreds of validated modules; focused on clinical/pharma rather than general research labs | $26.3M total (Tracxn) | $7.1M in 2023 (Getlatka) |
-| **PathAI** (Boston, est. 2016) | Clinical diagnostics and drug development pathology AI; FDA/CE-marked; Quest Diagnostics partnership | ~$255M total (Tracxn); $165M Series C (Fierce Biotech) | Revenue not public |
-| **Aivia / Leica (Danaher)** | Acquired by Leica Microsystems in 2021; AI-first 2D-5D visualization and analysis bundled with Leica hardware ecosystem | >$15M in NIH SBIR funding pre-acquisition (DRVISION press release); now Danaher subsidiary | Revenue not public |
-| **Flywheel.io** (Minneapolis) | Enterprise imaging data management platform for clinical trials and pharma; focus on data curation rather than analysis pipeline | $125.3M+ total; $27.5M raised Dec 2024 (Radiology Business, The SaaS News) | Revenue not public |
-| **Open-source (CellProfiler, QuPath, napari, ImageJ)** | Free, widely adopted in academia; require programming/scripting expertise; no commercial support or agentic interface | N/A (grant-funded) | N/A |
+| Competitor | Funding | Key Differentiator vs. Alchemy |
+|---|---|---|
+| **Aivia (Leica Microsystems)** | Acquired by Leica (undisclosed sum) (Wiley Analytical Science, 2021) | Enterprise-grade platform with 22 built-in applications and 20 pre-trained DL models; part of Danaher Life Sciences distribution network. Targets institutional buyers, not individual researchers. |
+| **PathAI** | ~$490M total raised; $165M Series C (May 2021) (Crunchbase via search snippet). FDA-approved AISight Dx (June 2025) (Precedence Research via search snippet). Acquired by Quest Diagnostics. | Clinical diagnostic pathology focus with FDA clearance; serves pharmaceutical trials and hospital pathology labs rather than general research microscopy. |
+| **Proscia** | $130M total raised; $50M round (March 2025) (Proscia press release). 400% YoY growth in daily diagnostic cases (Proscia press release, July 2025). | Concentriq platform focused on diagnostic network monetization; 16 of top 20 pharma companies as customers (Proscia press release). Clinical/diagnostic focus vs. Alchemy's research lab focus. |
+| **Aiforia** | Publicly traded (Helsinki); ~$3.12M TTM revenue (Inderes via search snippet, mid-2025). Planning €10M+€10M share issues in 2026-2027. | SaaS platform for pathologists with cloud-based AI model training; serves both research and clinical but at enterprise price points. |
+| **Open-source tools (CellProfiler, napari, Cellpose, ImageJ, QuPath, Ilastik)** | N/A (academic/grant-funded) | Free, well-documented, widely cited in publications. Require scripting and manual pipeline configuration. No natural-language interface or AI-driven model selection. |
 
-**Why now:**
-- [Inferred]: The emergence of capable vision-language models and agent frameworks in 2024-2025 enables natural-language-to-pipeline assembly that was not feasible with prior-generation computer vision tools. Foundation model costs have dropped substantially, making it economical to run inference on research microscopy images at scale.
-- The AI in microscopy market is projected to grow at 14.83% CAGR through 2033 (Grand View Research, 2025), driven by pharmaceutical and biotech companies incorporating AI-enhanced microscopy into drug discovery workflows.
+**Why now:** [Inferred]: Two catalysts opened this window: (1) Foundation models and LLM-based agents reached sufficient capability in 2024–2025 to enable natural-language orchestration of domain-specific CV pipelines—a capability not feasible with pre-2023 models. (2) PathAI's FDA approval of AISight Dx in June 2025 (Precedence Research via search snippet) validated AI-based image analysis in regulated settings, increasing researcher willingness to adopt AI tools for non-clinical research workflows.
 
 ## Founders & Team
 
 **Phillip Baek** — Co-founder & CEO
-- BS Biomedical Engineering, Cockrell School, University of Texas at Austin (LinkedIn).
-- M.Ed., Psychological Counseling, Teachers College, Columbia University (LinkedIn via search snippet).
-- Exchange research at Peking University on cancer-related fatal weight loss (LinkedIn via search snippet).
-- EP Mapping Specialist at Boston Scientific (LinkedIn via search snippet).
-- Commercial Intern in Marketing Sales Analytics at Tropicana Brands Group (LinkedIn via search snippet).
-- Twitter/X: No public account found.
-- LinkedIn: linkedin.com/in/phillip-baek/ — Founder @ Alchemy (LinkedIn).
-- GitHub: No public repos found.
+- BS Biomedical Engineering, Cockrell School of Engineering, University of Texas at Austin (LinkedIn via search snippet)
+- M.Ed. in Psychological Counseling, Teachers College, Columbia University (LinkedIn via search snippet)
+- Previously accepted a role at Boston Scientific as EP Mapping Specialist in San Antonio (LinkedIn via search snippet)
+- Led art instruction for K-12 students using Adobe Creative Suite; developed graphic design curriculum (LinkedIn via search snippet)
+- Tutored high school students in AP Statistics, Calculus, and Biology (LinkedIn via search snippet)
+- Twitter/X: No public account found
+- LinkedIn: linkedin.com/in/phillip-baek/ — ~2K followers (LinkedIn company page)
+- GitHub: No public repos found
 
 **Liam McBride** — Co-founder & CTO
-- BS Electrical and Computer Engineering + MS Computer Science, University of Illinois Urbana-Champaign (LinkedIn via search snippet).
-- Originally from Mountain View, CA (YC company page).
-- Interests in AI safety and hardware-software co-design (LinkedIn via search snippet).
-- Received first patent at age 19 as a UIUC freshman (LinkedIn via search snippet).
-- Twitter/X: No public account found.
-- LinkedIn: linkedin.com/in/ljmcb/ — Founder, CTO - Alchemy AI (LinkedIn).
-- GitHub: No confirmed public repos found.
+- BS Electrical & Computer Engineering, University of Illinois Urbana-Champaign (LinkedIn via search snippet)
+- MS Computer Science, University of Illinois Urbana-Champaign (LinkedIn via search snippet)
+- Previously engineered BoBo app (shared living mobile app) using Dart, Flutter, and Firebase; raised $20,000 in non-dilutive funding (LinkedIn via search snippet)
+- Recruited and coached a team of UIUC and UT Austin student developers (LinkedIn via search snippet)
+- Interest in AI safety and software/hardware co-design (LinkedIn via search snippet)
+- Originally from Mountain View, CA (search snippet)
+- Twitter/X: No confirmed public account found
+- LinkedIn: linkedin.com/in/ljmcb/ — ~490 followers (LinkedIn company page)
+- GitHub: No confirmed public repos found (multiple "Liam McBride" GitHub accounts exist; none confirmed as this individual)
 
-**Co-founder relationship:** Both founders are recent graduates (Baek from UT Austin/Columbia, McBride from UIUC). No shared employer or university overlap is visible from Phase 3 findings.
+**Co-founder relationship:** Baek (UT Austin) and McBride (UIUC) collaborated on the BoBo app, where McBride recruited and coached "a team of UIUC and UT Austin student developers" (LinkedIn via search snippet). A Daily Texan article from April 2024 titled "Students create app to make shared living simpler" appears to reference this project (The Daily Texan, April 2024).
 
-**Founder-market fit:** Baek brings biomedical engineering training and medical device experience (Boston Scientific EP mapping, cancer research at Peking University), providing domain knowledge of life science imaging workflows. McBride brings strong computer engineering and CS credentials from UIUC with early patent activity and AI/hardware interests, covering the ML and systems engineering requirements. [Inferred]: The pairing of biomedical domain expertise with ML engineering is relevant, though neither founder has documented prior experience specifically in bioimage analysis software or computational biology research tools.
+**Founder-market fit:** Baek holds a BS in Biomedical Engineering and has experience in biology education (tutoring AP Biology) and medical device work (Boston Scientific EP Mapping). McBride brings CS/ECE depth from UIUC with full-stack app development and AI interests. [Inferred]: Baek's biomedical engineering background provides domain familiarity with life science imaging workflows, while McBride's engineering depth covers the CV/ML pipeline. No advisors, board members, or notable investors beyond YC were found.
 
 ## Key Risks
 
-**Name confusion with Alchemy (blockchain):** The well-known Web3 development platform Alchemy (alchemy.com, $345M+ raised) shares the same name. The blockchain Alchemy's own "AlchemyAI" AI tools for Web3 (announced June 2023 on X) further compounds the branding overlap. This creates SEO competition, brand dilution, and potential investor/customer confusion.
+**Name confusion with Alchemy (blockchain):** The blockchain infrastructure company "Alchemy" (Alchemy Insights, Inc., founded 2013, $564M raised, $10B valuation) shares the same name and dominates search results (Tracxn, PitchBook). This creates SEO disadvantage, brand confusion in fundraising and hiring, and difficulty building organic inbound. The company uses "AlchemyAI" as a differentiator on some platforms.
 
-**Open-source substitution:** CellProfiler, QuPath, napari, and ImageJ/Fiji are deeply entrenched in academic research workflows, are free, and have large contributor communities. Researchers may resist paying for tooling when grant-funded alternatives exist, particularly in budget-constrained academic settings.
+**Open-source substitution:** CellProfiler, napari, Cellpose, and ImageJ are free, widely cited in publications, and actively maintained by academic communities (Broad Institute, Chan Zuckerberg Initiative). Researchers in academic labs—a primary target segment—are cost-sensitive and accustomed to open-source tools. Alchemy must demonstrate sufficient workflow improvement over free alternatives to justify a paid subscription.
 
-**Incumbent acquisition response:** Leica/Danaher acquired DRVISION (Aivia) in 2021, and microscope manufacturers (Zeiss, Nikon, Olympus) are actively integrating AI analysis into their platforms. A hardware vendor could bundle comparable AI pipeline features with existing microscope sales, undermining standalone SaaS pricing.
+**Thin domain moat:** The core capability—LLM-driven orchestration of CV models for microscopy—relies on generally available foundation models and open-source segmentation tools (e.g., Cellpose). A well-resourced competitor (e.g., Leica integrating LLM-based natural-language workflows into Aivia) could replicate the approach. Defensibility depends on building a proprietary model library and researcher network before incumbents act.
 
-**Narrow founding domain experience:** While Baek has biomedical engineering training and medical device experience, neither founder has documented prior employment in bioimage analysis, computational biology software, or research microscopy — the specific domain the product targets. This may slow product-market iteration with research lab customers.
+**Founder domain depth:** Baek's biomedical engineering background is relevant but general; neither founder has published research in microscopy, computational biology, or bioimage analysis (no Google Scholar or PubMed results found). The company's credibility with research lab PIs may depend on early validation results and advisor network.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $1.12B in 2025, projected $3.38B by 2033 at 14.83% CAGR (Grand View Research, 2025); microscopy image analysis software $2.41B in 2024 projected $5.89B by 2031 at 13.4% CAGR (OpenPR, 2024 via search snippet) |
+| TAM | Live cell imaging market: $3.13B in 2025, 8.68% CAGR to $4.75B by 2030 (MarketsandMarkets via search snippet) |
 | SAM | No public data found |
-| Traction | No public data found |
+| Traction | 719 LinkedIn followers (LinkedIn company page, April 2026); YC S26 batch (YC page); 1 UC Santa Cruz PhD endorsement (LinkedIn, 2026) |
 | Revenue Signal | No public data found |
-| Founders | Phillip Baek (CEO): BS Biomedical Engineering UT Austin, M.Ed. Columbia, Boston Scientific. Liam McBride (CTO): BS ECE + MS CS UIUC, patent at 19. |
-| Competitors | Visiopharm ($26.3M raised, $7.1M revenue 2023, enterprise pathology); PathAI (~$255M raised, revenue unknown, clinical diagnostics); Aivia/Leica (Danaher subsidiary, bundled with hardware); Flywheel.io ($125M+ raised, revenue unknown, imaging data management); CellProfiler/QuPath/napari (open-source, free) |
+| Founders | Phillip Baek (CEO): BS Biomedical Engineering UT Austin, M.Ed. Columbia, Boston Scientific. Liam McBride (CTO): BS ECE + MS CS UIUC, BoBo app ($20K non-dilutive raised). |
+| Competitors | Aivia/Leica (acquired, revenue unknown, enterprise 22-app platform); PathAI (~$490M raised, revenue unknown, FDA-approved clinical diagnostics); Proscia ($130M raised, revenue unknown, 400% case growth YoY); Aiforia (public, ~$3.12M TTM revenue, enterprise SaaS); Open-source (CellProfiler, napari, Cellpose — free, widely adopted) |
 | Moat Signals | No public data found |
-| Risk Factors | Name confusion with Alchemy (blockchain), open-source substitution pressure, incumbent acquisition response |
-| Founder Reach | No public data found |
+| Risk Factors | Name confusion with Alchemy blockchain unicorn, open-source substitution risk, thin domain moat |
+| Founder Reach | Phillip Baek: LinkedIn ~2K followers. Liam McBride: LinkedIn ~490 followers. No confirmed Twitter/GitHub for either. (LinkedIn company page) |
 | Distribution Signals | No public data found |
 | Emails | No public data found |

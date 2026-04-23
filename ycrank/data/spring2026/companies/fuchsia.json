@@ -1,0 +1,67 @@
+{
+  "slug": "fuchsia",
+  "name": "fuchsia",
+  "oneLiner": "AI that gets hardware compliance done in weeks, not months.",
+  "metadata": {
+    "website": "https://getfuchsia.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/fuchsia",
+    "batch": "Spring 2026",
+    "industry": "B2B / B2B",
+    "team_size": "1",
+    "location": "San Francisco, CA, USA",
+    "tags": "Hardware, Robotics, Compliance, AI",
+    "yc_partner": "Tyler Bosmeny",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Hardware",
+    "Robotics",
+    "Compliance",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-23T00:01:15.289Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 39,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 47,
+    "EG": null,
+    "NR": null,
+    "PG": 46,
+    "PT": 33,
+    "SL": 36,
+    "VK": 39
+  },
+  "consolidatedAvg": 40.2,
+  "consolidatedRank": 67,
+  "paths": {
+    "memo": "spring2026/memos/fuchsia.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/fuchsia.md",
+      "paul-graham": "spring2026/evals/paul-graham/fuchsia.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/fuchsia.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/fuchsia.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/fuchsia.md"
+    }
+  }
+}

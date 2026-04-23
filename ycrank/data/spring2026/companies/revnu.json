@@ -1,0 +1,70 @@
+{
+  "slug": "revnu",
+  "name": "Revnu",
+  "oneLiner": "Everything but the app itself",
+  "metadata": {
+    "website": "https://revnu.app/",
+    "yc_page": "https://www.ycombinator.com/companies/revnu",
+    "batch": "Spring 2026",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Developer Tools, Marketing",
+    "yc_partner": "Tom Blomfield",
+    "emails": "support@revnu.app (revnu.app/contact via search snippet)"
+  },
+  "tags": [
+    "Developer Tools",
+    "Marketing"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-22T23:27:18.647Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 60,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 44,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 33,
+    "EG": null,
+    "NR": 58,
+    "PG": 60,
+    "PT": 32,
+    "SL": 32,
+    "VK": 44
+  },
+  "consolidatedAvg": 43.17,
+  "consolidatedRank": 44,
+  "paths": {
+    "memo": "spring2026/memos/revnu.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/revnu.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/revnu.md",
+      "paul-graham": "spring2026/evals/paul-graham/revnu.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/revnu.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/revnu.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/revnu.md"
+    }
+  }
+}

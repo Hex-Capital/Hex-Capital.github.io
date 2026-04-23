@@ -20,58 +20,48 @@
     "Careers"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-03-26T05:20:49.697Z",
+  "memoGeneratedAt": "2026-04-22T23:46:26.140Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 38,
+      "score": 42,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
       "score": 47,
       "tier": "Neutral"
     },
-    "peter-thiel": {
-      "score": 32,
-      "tier": "Pass"
+    "paul-graham": {
+      "score": 52,
+      "tier": "Neutral"
     },
-    "sam-lessin": {
+    "peter-thiel": {
       "score": 34,
       "tier": "Pass"
     },
-    "vinod-khosla": {
-      "score": 38,
+    "sam-lessin": {
+      "score": 33,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 43,
-    "EG": 38,
-    "NR": 51,
-    "PG": 47,
-    "PT": 32,
-    "SL": 34,
-    "VK": 38
+    "CB": 42,
+    "EG": null,
+    "NR": 47,
+    "PG": 52,
+    "PT": 34,
+    "SL": 33,
+    "VK": null
   },
-  "consolidatedAvg": 40.43,
-  "consolidatedRank": 35,
+  "consolidatedAvg": 41.6,
+  "consolidatedRank": 54,
   "paths": {
     "memo": "spring2026/memos/standout.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/standout.md",
-      "elad-gil": "spring2026/evals/elad-gil/standout.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/standout.md",
       "paul-graham": "spring2026/evals/paul-graham/standout.md",
       "peter-thiel": "spring2026/evals/peter-thiel/standout.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/standout.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/standout.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/standout.md"
     }
   }
 }

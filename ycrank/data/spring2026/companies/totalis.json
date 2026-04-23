@@ -18,58 +18,48 @@
     "APIs"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-03-29T04:52:53.842Z",
+  "memoGeneratedAt": "2026-04-22T23:55:36.530Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 40,
+      "score": 30,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 47,
+      "score": 52,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 49,
+      "score": 55,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 32,
+      "score": 29,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 36,
+      "score": 38,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 32,
-    "EG": 40,
-    "NR": 47,
-    "PG": 49,
-    "PT": 32,
-    "SL": 40,
-    "VK": 36
+    "CB": 30,
+    "EG": null,
+    "NR": 52,
+    "PG": 55,
+    "PT": 29,
+    "SL": 38,
+    "VK": null
   },
-  "consolidatedAvg": 39.43,
-  "consolidatedRank": 40,
+  "consolidatedAvg": 40.8,
+  "consolidatedRank": 63,
   "paths": {
     "memo": "spring2026/memos/totalis.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/totalis.md",
-      "elad-gil": "spring2026/evals/elad-gil/totalis.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/totalis.md",
       "paul-graham": "spring2026/evals/paul-graham/totalis.md",
       "peter-thiel": "spring2026/evals/peter-thiel/totalis.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/totalis.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/totalis.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/totalis.md"
     }
   }
 }

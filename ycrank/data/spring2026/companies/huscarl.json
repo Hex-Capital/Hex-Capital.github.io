@@ -1,0 +1,71 @@
+{
+  "slug": "huscarl",
+  "name": "Huscarl",
+  "oneLiner": "Actuarial intelligence for corporate risk managers",
+  "metadata": {
+    "website": "https://www.huscarl.io/",
+    "yc_page": "https://www.ycombinator.com/companies/huscarl",
+    "batch": "Spring 2026",
+    "industry": "Fintech / Fintech -> Insurance",
+    "team_size": "2",
+    "location": "Remote",
+    "tags": "Generative AI, Insurance, Customization",
+    "yc_partner": "Pete Koomen",
+    "emails": "contact@huscarl.io (contact page, huscarl.io)"
+  },
+  "tags": [
+    "Generative AI",
+    "Insurance",
+    "Customization"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-22T23:23:10.576Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 63,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 60,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 43,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 52,
+    "EG": null,
+    "NR": 63,
+    "PG": 60,
+    "PT": 36,
+    "SL": 47,
+    "VK": 43
+  },
+  "consolidatedAvg": 50.17,
+  "consolidatedRank": 17,
+  "paths": {
+    "memo": "spring2026/memos/huscarl.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/huscarl.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/huscarl.md",
+      "paul-graham": "spring2026/evals/paul-graham/huscarl.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/huscarl.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/huscarl.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/huscarl.md"
+    }
+  }
+}

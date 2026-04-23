@@ -1,0 +1,66 @@
+{
+  "slug": "salesgraph",
+  "name": "Salesgraph",
+  "oneLiner": "the context layer for fast moving sales teams",
+  "metadata": {
+    "website": "https://www.salesgraph.com/",
+    "yc_page": "https://www.ycombinator.com/companies/salesgraph",
+    "batch": "Spring 2026",
+    "industry": "B2B / B2B -> Sales",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "SaaS, B2B, Sales",
+    "yc_partner": "Andrew Miklas",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "SaaS",
+    "B2B",
+    "Sales"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-22T23:45:36.096Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 26,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 34,
+    "EG": null,
+    "NR": 45,
+    "PG": 51,
+    "PT": 29,
+    "SL": 26,
+    "VK": null
+  },
+  "consolidatedAvg": 37,
+  "consolidatedRank": 90,
+  "paths": {
+    "memo": "spring2026/memos/salesgraph.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/salesgraph.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/salesgraph.md",
+      "paul-graham": "spring2026/evals/paul-graham/salesgraph.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/salesgraph.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/salesgraph.md"
+    }
+  }
+}

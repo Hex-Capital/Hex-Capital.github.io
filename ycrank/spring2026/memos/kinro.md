@@ -9,119 +9,115 @@
 | Batch | Spring 2026 |
 | Industry | B2B / B2B -> Sales |
 | Team Size | 3 |
-| Location | San Francisco, CA, USA |
-| Tags | B2B, Insurance, Conversational AI |
-| YC Partner | Nicolas Dessaigne |
-| Emails | support@kinro.ai |
+| Location | San Francisco, CA, US (kinro.ai; YC page) |
+| Tags |  |
+| YC Partner | Nicolas Dessaigne (YC page) |
+| Emails | No public data found |
 
 ## The Idea
 
-**Problem:** Insurance distribution relies on human agents and brokers for sales conversations, quoting, and policy binding. Insurers pay roughly $100B+ in commissions annually in the US, and distributors spend $10B+ per year on advertising to acquire customers (Kinro YC page). A growing share of buyer traffic — cited as 20% for some clients — now originates from AI platforms like ChatGPT and Gemini (kinro.ai), a channel that existing sales infrastructure cannot serve. Selling insurance requires strict regulatory compliance (Producer Licensing Model Act, UDAAP under Dodd-Frank), deep carrier integrations, and factually reliable answers, making general-purpose chatbots unsuitable (kinro.ai).
+**Problem:** Insurance distribution is fragmented and high-friction. Buyers increasingly research via AI assistants (ChatGPT, Gemini), but insurers lack infrastructure to sell through these channels. The existing sales process requires licensed human agents, strict regulatory compliance (NAIC, state-level US, EU), and deep carrier integrations. Insurers pay roughly $100B+ in commissions annually and distributors spend $10B+ on advertising to acquire customers (kinro.ai). Conversion and satisfaction rates suffer under legacy workflows.
 
-**Approach:** Kinro builds AI sales agents that manage the end-to-end insurance sales process: answering buyer questions, providing personalized coverage explanations, generating live quotes from carrier pricing infrastructure, and binding policies or handing off to existing workflows (kinro.ai). Agents operate across multiple surfaces — ChatGPT, Gemini, websites, phone calls, and WhatsApp — engaging both human buyers and AI assistant agents (kinro.ai). A multi-layered compliance guardrail system enforces factuality (no hallucinated terms or coverage details), regulatory compliance, and AI safety hardening against prompt injection and jailbreaks (kinro.ai). Agents are continuously evaluated and improved via a proprietary platform that optimizes KPIs while maintaining compliance (kinro.ai). Infrastructure is SOC 2 Type II certified and GDPR compliant (kinro.ai).
+**Approach:** Kinro builds AI sales agents that manage the end-to-end insurance sales process — qualification, question answering, personalized coverage explanations, real-time quoting, and policy binding (kinro.ai). Agents are deployed across multiple channels: ChatGPT, Gemini, websites, calls, WhatsApp, comparison sites, and broker channels (kinro.ai). The platform includes built-in regulatory guardrails (NAIC, state-level US, EU), factuality grounding with auditable attribution, and continuous evaluation via a proprietary optimization platform (kinro.ai). The company is SOC 2 Type II certified and GDPR compliant (kinro.ai).
 
-**Differentiation:** General-purpose AI platforms (OpenAI, Google) remain horizontal and are unlikely to build the vertical infrastructure required for regulated industries (Kinro YC page). Full-stack AI brokerages like Harper ($46.8M raised; TechCrunch, Feb 2026) and Panta (YC W26) compete with brokers by owning the customer relationship. Kinro instead enables brokers and carriers, selling technology rather than replacing distribution partners. COVU (~$50M total funding; covu.com, Aug 2025) combines AI with human BPO for agency operations broadly. Strada (YC S23, $1.9M pre-seed) focuses on servicing and FNOL, not sales. Quandri ($20M+; BusinessWire, Jul 2025) automates renewals and retention rather than new customer acquisition.
+**Differentiation:** Unlike general-purpose AI platforms (OpenAI, Google), Kinro provides vertical infrastructure for regulated insurance distribution: carrier integrations, compliance guardrails, and sales-optimized conversational flows (kinro.ai). Unlike WaniWani (Hexa-backed), which provides AI distribution infrastructure primarily for embedding quotes inside AI platforms (fintech.global, Feb 2026), Kinro emphasizes multi-channel deployment and end-to-end sales optimization. Unlike Insurify ($140.6M raised; TechCrunch, Sep 2021), which is a consumer-facing comparison agent, Kinro sells B2B infrastructure to brokers and carriers. Pierre-Alexandre Kamienny's LinkedIn post describes Kinro's multi-turn GEO optimization strategy — optimizing for conversational turns 3-4 when purchase recommendations actually occur, not just initial awareness (LinkedIn, PA Kamienny).
 
-**Business Model:** No pricing page is publicly available on kinro.ai. [Inferred]: Most likely monetization is a SaaS platform fee and/or a per-quote/per-bind transaction fee charged to broker and carrier clients, given the B2B distribution model and measurable conversion metrics displayed on the website.
+**Business Model:** No public pricing page found. [Inferred]: Most likely monetization is SaaS fees to brokers/carriers, potentially with a per-quote or revenue-share component given the commission-driven industry economics.
 
-**TAM/SAM:**
-- US insurance brokerage market: $140.38B (2025), projected $171.93B by 2030 at 4.14% CAGR (Mordor Intelligence via search snippet).
-- US insurance distribution technology market: $20.44B (2023), projected $50.70B by 2029 (GlobeNewswire, Jan 2026 via search snippet).
-- Global AI in insurance market: $10.36B (2025), projected $59.50B by 2033 at 27.32% CAGR (SNS Insider via GlobeNewswire, Oct 2025 via search snippet).
+**TAM/SAM:** Generative AI in insurance market: $1.11B in 2025, projected to reach $14.35B by 2035 at 29.11% CAGR (Astute Analytica, Jan 2026 via GlobeNewsWire). Broader AI in insurance: $10.36B in 2025 (Fortune Business Insights via search snippet). The company cites $100B+ in annual insurance commissions and $10B+ in annual distributor advertising spend as the addressable distribution market (kinro.ai).
 
-**GTM / Distribution:** Kinro currently serves brokers and direct-to-consumer carriers across the US and Europe (Kinro YC page). Named client logos on the website include The Zebra, WTW, Tuio, Lovys, Dalma, Quartz, and Assurland (kinro.ai). A LinkedIn post by co-founder Corentin Hugot (Dec 18, 2025) announced Kinro was preparing to submit ChatGPT apps for clients following OpenAI opening app submissions, suggesting an early-mover strategy on AI platform distribution (LinkedIn). [Inferred]: GTM likely combines direct enterprise sales to carriers/brokers with a land-and-expand motion as AI platform distribution channels (ChatGPT, Gemini) grow in consumer adoption.
+**GTM / Distribution:** Kinro serves brokers and direct-to-consumer carriers across the US and Europe (YC page). Named "Trusted By" clients on the website: Tuio, Lovys, Dalma, WTW, Assurland, Quartz (kinro.ai). Corentin Hugot announced Kinro would submit its first ChatGPT apps built on existing client buyer-journey data (LinkedIn, ~Feb 2026). [Inferred]: GTM combines direct B2B sales to insurance companies with a platform distribution play through AI assistants (ChatGPT, Claude, Gemini).
 
 ## Defensibility
 
-- **Regulatory compliance infrastructure:** Insurance sales require adherence to state-specific licensing requirements, UDAAP, and carrier-specific rules. Kinro's multi-layered compliance guardrail system, factuality enforcement, and SOC 2 Type II certification represent vertical-specific infrastructure that horizontal AI providers are unlikely to replicate (kinro.ai).
-- **Carrier integrations:** Live quoting requires direct integration with carrier pricing infrastructure (kinro.ai). Each integration represents accumulated integration work.
-- **Data and optimization flywheel:** Production trace analysis and continuous KPI optimization create a feedback loop where agent performance improves with deployment volume (kinro.ai).
+- **Regulatory compliance infrastructure:** Insurance sales require compliance with NAIC, state-level US regulations, and EU requirements. Kinro has built guardrails and achieved SOC 2 Type II certification (kinro.ai). This creates a barrier to entry for horizontal AI tooling companies.
+- **Carrier integrations:** End-to-end quoting and binding requires deep integrations with insurance carriers' systems (kinro.ai). [Inferred]: Each carrier integration adds switching cost and serves as a compounding moat.
+- **Multi-turn conversational data:** Kinro's proprietary platform continuously evaluates and improves agents (kinro.ai). Pierre-Alexandre Kamienny describes building multi-turn optimization from observed buyer journeys (LinkedIn), which creates a data flywheel as more conversations generate training signal.
 
-**Market structure:** General-purpose AI platforms (OpenAI, Google) face a build-vs-partner decision for regulated verticals. Building vertical insurance infrastructure would require carrier-by-carrier integrations, state-by-state regulatory compliance, and domain-specific evaluation — a costly diversion from their horizontal platform strategy (Kinro YC page). Incumbent brokerages and carriers lack in-house AI agent development capabilities and face channel conflict if they build competing distribution technology. [Inferred]: The structural barrier is the combination of regulatory complexity and carrier integration depth, which creates a narrow specialization that neither horizontal AI platforms nor incumbent insurers are well-positioned to build internally.
+**Market structure:** General-purpose AI platforms (OpenAI, Google, Anthropic) are unlikely to build the vertical infrastructure for regulated insurance sales — carrier integrations, compliance engines, and binding workflows — because it requires deep domain-specific partnerships and regulatory expertise that don't scale across their horizontal platform strategies (YC page description). [Inferred]: Incumbent insurers and brokers face channel-conflict risk in building AI distribution that cannibalizes existing agent networks.
 
-**Commoditization risk:** Other YC-backed startups (Strada, Panta) and funded competitors (COVU, FurtherAI with $30M from a16z) are building AI for insurance, though with different focus areas. The core AI agent technology is reproducible; defensibility depends on the depth of carrier integrations, compliance infrastructure, and accumulated performance data. [Inferred]: Commoditization risk is moderate — the regulated nature of insurance creates barriers to entry, but multiple well-funded teams are converging on AI-powered insurance workflows.
+**Commoditization risk:** WaniWani (Hexa-backed, founded 2026) directly competes on AI-native insurance distribution infrastructure (fintech.global, Feb 2026). Twelve additional insurance AI apps are in the OpenAI approval pipeline (Reinsurance News, Feb 2026). Aviva has launched its own ChatGPT insurance app (Aviva press release, Mar 2026). The compliance and carrier-integration barriers provide some protection, but the competitive space is forming rapidly.
 
 ## Market & Traction
 
 **Traction signals:**
-- Customer logos displayed on website: The Zebra, WTW, Tuio, Lovys, Dalma, Quartz, Assurland (kinro.ai).
-- Customer outcome metrics shown on website (these are client results, not Kinro's own revenue): Time to Quote: 23 seconds; Customer Satisfaction: 92% (+20 points vs. legacy); Conversion Rate: 27% (+13 points vs. legacy); Revenue Generated: $193K (+$144K vs. legacy holdout) (kinro.ai).
-- LinkedIn company page: 171 followers, 2 listed employees (LinkedIn, Mar 2026).
-- Twitter/X: @kinroai — follower count not retrievable.
-- Co-founder Corentin Hugot's LinkedIn post about ChatGPT app submissions received 29 likes, 3 comments (LinkedIn, Dec 2025).
-- No Product Hunt launch found. No press coverage found. No Discord/Slack community found. No job postings found.
+- Named clients: Tuio, Lovys, Dalma, WTW (Willis Towers Watson — one of the world's three largest insurance brokers), Assurland, Quartz (kinro.ai "Trusted By" section)
+- Performance metrics from website (no date, no sample size disclosed): time to quote 48 seconds, quote to bind 1 hour, CSAT improvement 68%→92%, conversion rate improvement 20%→40%, agent hours saved 60% (kinro.ai)
+- Investors: Y Combinator and Crystal (kinro.ai)
+- Hiring: 1 open role — Founding AI Engineer, $120K-$300K salary, 0.75%-2.00% equity (YC jobs page)
+- Twitter/X: @kinroai (Tracxn); follower count not retrievable
+- LinkedIn: linkedin.com/company/kinro-labs; follower count not retrievable
+- Tracxn score: 16/100, ranked 56/57 in their (poorly-matched) competitive category (Tracxn, 2026)
+- No Product Hunt launch found. No app store presence found. No Discord/Slack community found.
 
 **Competitive landscape:**
 
-| Competitor | Funding | Differentiator vs. Kinro |
+| Competitor | Funding | Differentiation vs. Kinro |
 |---|---|---|
-| Harper | $46.8M (seed + Series A; TechCrunch, Feb 2026) | Full-stack AI brokerage for SMB commercial; owns customer relationship. Kinro enables brokers rather than competing with them. |
-| COVU | ~$50M total (covu.com, Aug 2025) | AI + human BPO for broad agency operations; Kinro is sales-specific. |
-| Quandri | $20M+ (BusinessWire, Jul 2025) | Focuses on renewals/retention for existing policyholders; Kinro targets new customer acquisition. |
-| Strada | $1.9M pre-seed (YC S23) | Conversational AI for servicing, FNOL, inbound call handling; Kinro focuses on outbound sales and conversion. |
-| Panta | ~$500K (YC W26) | Full-stack AI brokerage for commercial lines; like Harper, replaces brokers rather than enabling them. |
+| **WaniWani** (Hexa-backed) | Hexa portfolio; amount not disclosed | AI distribution infrastructure; powered Tuio's ChatGPT app (fintech.global, Feb 2026). Most direct competitor — similar vertical focus on insurance distribution via AI platforms. |
+| **Insurify** | $140.6M total (TechCrunch, Sep 2021) | Consumer-facing virtual insurance agent for quote comparison. D2C model, not B2B infrastructure. |
+| **Avallon AI** (YC S25) | $4.6M seed (BusinessWire, Nov 2025) | AI agents for insurance claims operations, not sales/distribution. Adjacent, not directly competitive. |
+| **RiskCube** (YC F24) | $500K seed (search snippet) | AI-native insurance broker for startups. Acts as broker, not infrastructure provider. |
 
 **Why now:**
-- OpenAI opened app submissions for ChatGPT in late 2025, creating a new distribution channel for insurance products. Tuio became the first carrier with an OpenAI-approved ChatGPT insurance app in Feb 2026 (search results). Insurify also launched a ChatGPT insurance comparison app the same month.
-- [Inferred]: The emergence of AI assistant platforms (ChatGPT, Gemini) as consumer-facing surfaces where buyers research and purchase insurance creates a new distribution channel that requires purpose-built sales agents — a channel that did not exist 24 months ago.
-- J.P. Morgan outlined a scenario where AI agents embedded in platforms like ChatGPT manage the full insurance journey for personal lines, increasing price transparency (search results via McKinsey).
-- Insurance broker stocks reacted negatively to ChatGPT insurance app announcements — WTW fell 12% (search results, Feb 2026).
+- OpenAI opened app submissions inside ChatGPT, enabling insurance quoting directly within the platform; first apps approved February 2026 (Reinsurance News, Feb 2026).
+- Anthropic's Claude and Google's Gemini are expected to follow with similar third-party app standards (Reinsurance News, Feb 2026).
+- [Inferred]: The emergence of AI assistants as a buyer research and purchase channel creates a new distribution surface that didn't exist 18 months ago, shifting insurance distribution from SEO/advertising to conversational AI presence.
 
 ## Founders & Team
 
 **Pierre-Alexandre Kamienny** — Co-founder & CEO
-- PhD, Sorbonne University (2023): thesis on efficient adaptation of RL agents, advised by Francois Charton (Meta AI) (HAL thesis repository).
-- University of Oxford (Keble College), CentraleSupelec (personal website: pakamienny.github.io).
-- Google DeepMind: Research Scientist, led research improving Gemini for financial services (YC page, LinkedIn).
-- Meta AI / FAIR Paris: research during PhD (personal website).
-- Publications at NeurIPS, ICML, ICLR; ~977 citations on Google Scholar, h-index 10 on Semantic Scholar (Semantic Scholar, Google Scholar).
-- Twitter/X: @pierrealexai (YC page) — follower count not retrievable.
-- LinkedIn: linkedin.com/in/pakamienny — 500+ connections (LinkedIn).
-- GitHub: github.com/pakamienny — 8 repos, 2 followers; notable repos: e2e_transformer (1 star), sympytorch (1 star) (GitHub).
+- PhD in Reinforcement Learning, Meta AI / Sorbonne University (thesis: "Efficient adaptation of RL agents to unseen tasks," defended 2023) (personal website; HAL thesis repository)
+- BSc Computer Science, University of Oxford (Keble College); studies at CentraleSupélec (personal website)
+- Led research improving Gemini for financial services at Google DeepMind (YC page)
+- Internships at Facebook AI Research Paris, Nokia Bell Labs, Neoxia (personal website)
+- Publications at ICML 2022, ICML 2023, NeurIPS 2021, NeurIPS 2022, ICLR 2022 (personal website)
+- Twitter/X: @pa_kamienny; follower count not retrievable
+- LinkedIn: linkedin.com/in/pakamienny — Google DeepMind (LinkedIn search snippet)
+- GitHub: pakamienny.github.io (personal site); repo star counts not retrievable
 
-**Parth Ainampudi (Parthasarathi Ainampudi)** — Co-founder
-- B.Tech. (Honors), Mechanical Engineering, IIT Bombay (2013–2017); M.S., UT Austin (LinkedIn, ZoomInfo).
-- Zoox (Amazon subsidiary): Software Engineer, led infrastructure for training and inference; worked on decision-making and behavior planning using imitation learning and RL (YC page, LinkedIn).
-- Samsung: Robotics Software Engineer (LinkedIn).
-- Mitsubishi Electric Research Laboratories (MERL): intern, designed robotic gripper; holds a patent on robot gripper assembly (Justia Patents).
-- Additional patent application assigned to Zoox (Pub No. 20250108835, Apr 2025) (Justia Patents).
-- Twitter/X: No public account found.
-- LinkedIn: linkedin.com/in/partha42 — 500+ connections (LinkedIn).
-- GitHub: github.com/parthos — 1 public repo (apriltags_ros, forked), 1 follower (GitHub).
+**Parth Ainampudi** — Co-founder
+- MS, The University of Texas at Austin; BS (Hons), IIT Bombay (search snippet via ZoomInfo)
+- Led infrastructure for training and inference at Zoox (Amazon) — autonomous vehicles (YC page; LinkedIn)
+- Robotics Software Engineer at Samsung; intern at Mitsubishi Electric Research Labs (search snippet)
+- Filed patents with USPTO on robotics systems (Justia Patents)
+- Twitter/X: No public account found
+- LinkedIn: linkedin.com/in/partha42 — Software Engineer at Zoox (LinkedIn)
+- GitHub: github.com/parthos; repo details not retrievable
 
 **Corentin Hugot** — Co-founder & COO
-- ENSC – Bordeaux INP (engineering school specializing in cognitive sciences) (LinkedIn).
-- First employee at an insurance startup (name not publicly identified); worked closely with insurance industry leaders (YC page).
-- Twitter/X: @hugot_core5462 — bio: "Buildin in AI. Studying buyer's behavior in LLMs." Joined May 2025. Follower count not retrievable (X.com).
-- LinkedIn: linkedin.com/in/corentin-hugot — 500+ connections (LinkedIn).
-- GitHub: No public repos found.
+- First employee at an insurance startup; worked directly with brokers and carriers (YC page)
+- InsurTech domain expertise across US and European markets (YC page; LinkedIn)
+- Twitter/X: @hugot_core5462 (X search result); follower count not retrievable
+- LinkedIn: linkedin.com/in/corentin-hugot — COO @Kinro.ai (YC 26) (LinkedIn)
+- GitHub: No public repos found
 
-**Co-founder relationship:** Pierre-Alexandre and Corentin are both French (Pierre-Alexandre studied at CentraleSupelec and Sorbonne; Corentin studied at ENSC Bordeaux INP). No shared employer or university identified from public data. Parth's background (IIT Bombay, UT Austin, Zoox) has no visible overlap with the other founders.
+**Co-founder relationship:** Pierre-Alexandre and Parth both have ML/AI engineering backgrounds, and Corentin brings insurance domain expertise. No shared prior employer or university overlap is visible from Phase 3 research.
 
-**Founder-market fit:** Pierre-Alexandre's DeepMind research on Gemini for financial services provides direct AI+finance domain expertise. Parth's experience building ML training and inference infrastructure at Zoox addresses the systems engineering required for production AI agents. Corentin's tenure as first employee at an insurance startup and relationships with insurance leaders provides industry domain knowledge and potential distribution channels. The combination covers AI research, infrastructure engineering, and insurance domain expertise.
+**Founder-market fit:** Pierre-Alexandre's DeepMind work on Gemini for financial services provides direct experience building LLMs for regulated verticals. Parth's infrastructure experience at Zoox (training/inference systems for safety-critical autonomous vehicles) maps to building reliable, production-grade AI systems. Corentin's experience as first employee at an insurance startup and direct relationships with brokers and carriers provides domain expertise and distribution network. The team combines ML research (ICML/NeurIPS), production ML infrastructure, and insurance industry knowledge.
 
 ## Key Risks
 
-**AI platform dependency:** Kinro's distribution strategy relies significantly on operating within third-party AI platforms (ChatGPT, Gemini). OpenAI and Google control app approval, distribution, and platform policies. Policy changes, increased take rates, or platform-native insurance features could disrupt Kinro's access to this channel. Mitigation: Kinro also operates on websites, calls, and WhatsApp (kinro.ai), providing channel diversification.
+**AI platform dependency:** Kinro's distribution strategy relies on ChatGPT, Gemini, and Claude continuing to allow third-party insurance apps. OpenAI could change app policies, increase revenue-share requirements, or launch native insurance features. Twelve additional insurance apps are already in the OpenAI pipeline (Reinsurance News, Feb 2026), and Aviva has launched its own app (Aviva, Mar 2026), potentially commoditizing the channel.
 
-**Incumbent carrier and broker inertia:** Named client logos (WTW, The Zebra, Assurland) suggest enterprise relationships, but large insurance organizations have lengthy procurement cycles and compliance review processes. Scaling from pilot deployments to full production integrations in a regulated industry may be slow. No public data on contract sizes or conversion from pilot to production.
+**WaniWani direct competition:** WaniWani, backed by Hexa (eFounders), provides nearly identical AI distribution infrastructure for insurance on ChatGPT/Claude/Gemini and already powered the first approved insurance app (Tuio) on ChatGPT (fintech.global, Feb 2026). Hexa's studio model provides operational support and capital access.
 
-**Regulatory fragmentation:** Insurance regulation varies by US state and European country. Maintaining compliance across jurisdictions requires ongoing legal and technical investment. The Producer Licensing Model Act and UDAAP compliance noted on the website (kinro.ai) address US federal frameworks, but state-level and EU member-state requirements add complexity.
+**Regulatory fragmentation:** Insurance regulation varies by US state and EU country. Maintaining compliance across jurisdictions requires ongoing legal and engineering investment. A compliance failure could result in license revocation or fines, particularly acute for a 3-person team operating across US and Europe simultaneously.
 
-**Competitive convergence:** Multiple well-funded startups are building AI for insurance distribution. Harper ($46.8M; TechCrunch, Feb 2026), COVU (~$50M), and FurtherAI ($30M from a16z) have significantly more capital. If these companies expand into AI sales agent technology, Kinro could face well-resourced competition.
+**Customer concentration signal:** Six named clients with WTW being a major broker (kinro.ai). Loss of WTW or another anchor client at this stage could materially impact revenue and credibility. No public revenue figures disclosed.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | US insurance distribution technology market: $20.44B in 2023, projected $50.70B by 2029 (GlobeNewswire, Jan 2026 via search snippet); Global AI in insurance: $10.36B in 2025, projected $59.50B by 2033 at 27.32% CAGR (SNS Insider via GlobeNewswire, Oct 2025 via search snippet) |
+| TAM | Generative AI in insurance: $1.11B (2025), projected $14.35B by 2035 at 29.11% CAGR (Astute Analytica, Jan 2026 via GlobeNewsWire). Company cites $100B+ annual insurance commissions (kinro.ai). |
 | SAM | No public data found |
-| Traction | 7 named client logos including WTW and The Zebra (kinro.ai, Mar 2026); 171 LinkedIn followers (LinkedIn, Mar 2026) |
+| Traction | 6 named "Trusted By" clients including WTW (kinro.ai). Website claims: 48s time-to-quote, 20%→40% conversion, 68%→92% CSAT (kinro.ai). 1 open job posting (YC jobs). |
 | Revenue Signal | No public data found |
-| Founders | Pierre-Alexandre Kamienny (CEO): PhD Sorbonne, Research Scientist at Google DeepMind (Gemini for financial services). Parth Ainampudi: B.Tech IIT Bombay, ML infra lead at Zoox. Corentin Hugot (COO): ENSC Bordeaux INP, first employee at insurance startup. |
-| Competitors | Harper ($46.8M raised, est. $7.5–15.7M revenue per Extruct AI, full-stack AI brokerage vs. Kinro's enabling model); COVU (~$50M raised, revenue unknown, AI+BPO for agency ops vs. Kinro's sales focus); Quandri ($20M+ raised, revenue unknown, renewals/retention vs. Kinro's acquisition focus); Strada ($1.9M raised, revenue unknown, servicing AI vs. Kinro's sales AI) |
-| Moat Signals | SOC 2 Type II certification (kinro.ai); multi-layered regulatory compliance system (kinro.ai); carrier pricing infrastructure integrations (kinro.ai) |
-| Risk Factors | AI platform dependency (ChatGPT/Gemini distribution control), competitive convergence from better-funded players, regulatory fragmentation across jurisdictions |
-| Founder Reach | Pierre-Alexandre Kamienny: Twitter @pierrealexai (count not retrievable), LinkedIn 500+, GitHub 2 followers. Parth Ainampudi: Twitter not found, LinkedIn 500+, GitHub 1 follower. Corentin Hugot: Twitter @hugot_core5462 (count not retrievable), LinkedIn 500+, GitHub not found. |
-| Distribution Signals | No Product Hunt launch found; no app store listings found; LinkedIn 171 followers (LinkedIn, Mar 2026); Corentin Hugot LinkedIn post on ChatGPT app submissions: 29 likes (LinkedIn, Dec 2025) |
-| Emails | support@kinro.ai (kinro.ai/contact) |
+| Founders | Pierre-Alexandre Kamienny (CEO): PhD Meta AI/Sorbonne, Oxford, DeepMind Gemini financial services, 5 top-venue ML publications. Parth Ainampudi: MS UT Austin, BS IIT Bombay, Zoox ML infra, USPTO patents. Corentin Hugot (COO): First employee at insurance startup, US/EU broker-carrier relationships. |
+| Competitors | WaniWani (Hexa-backed, amount undisclosed, revenue unknown, most direct — same AI-native insurance distribution). Insurify ($140.6M raised, revenue unknown, consumer-facing comparison). Avallon AI ($4.6M seed, revenue unknown, claims not sales). RiskCube ($500K seed, revenue unknown, broker for startups). |
+| Moat Signals | SOC 2 Type II certification (kinro.ai). Regulatory compliance engine for NAIC/state/EU (kinro.ai). Carrier integrations for real-time quoting and binding (kinro.ai). Multi-turn conversational optimization from client data (LinkedIn, PA Kamienny). |
+| Risk Factors | AI platform policy dependency, direct competition from Hexa-backed WaniWani, regulatory fragmentation across US states and EU |
+| Founder Reach | Pierre-Alexandre Kamienny: Twitter @pa_kamienny (count not retrievable), LinkedIn 500+ connections. Parth Ainampudi: Twitter not found, LinkedIn linkedin.com/in/partha42. Corentin Hugot: Twitter @hugot_core5462 (count not retrievable), LinkedIn linkedin.com/in/corentin-hugot. |
+| Distribution Signals | No Product Hunt launch found. ChatGPT app submissions announced ~Feb 2026 (Corentin Hugot LinkedIn). Company Twitter @kinroai (Tracxn). LinkedIn linkedin.com/company/kinro-labs. |
+| Emails | No public data found |

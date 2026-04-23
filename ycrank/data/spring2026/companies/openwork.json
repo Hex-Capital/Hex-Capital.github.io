@@ -8,62 +8,54 @@
     "batch": "Spring 2026",
     "industry": "B2B / B2B -> Productivity",
     "team_size": "4",
-    "location": "San Francisco, CA, USA",
-    "tags": "B2B",
+    "location": "San Francisco, CA, US / Remote",
     "yc_partner": "Aaron Epstein",
-    "emails": "ben@openworklabs.com (GitHub README)"
+    "emails": "ben@openworklabs.com"
   },
-  "tags": [
-    "B2B"
-  ],
+  "tags": [],
   "slideImage": null,
-  "memoGeneratedAt": "2026-03-26T05:07:55.030Z",
+  "memoGeneratedAt": "2026-04-22T23:29:45.543Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 36,
+      "score": 38,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 57,
+      "score": 51,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 45,
+      "score": 50,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
       "score": 31,
       "tier": "Pass"
     },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
     "vinod-khosla": {
-      "score": 42,
+      "score": 41,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 36,
-    "EG": 36,
-    "NR": 57,
-    "PG": 45,
-    "PT": 29,
-    "SL": 31,
-    "VK": 42
+    "CB": 38,
+    "EG": null,
+    "NR": 51,
+    "PG": 50,
+    "PT": 31,
+    "SL": 30,
+    "VK": 41
   },
-  "consolidatedAvg": 39.43,
-  "consolidatedRank": 39,
+  "consolidatedAvg": 40.17,
+  "consolidatedRank": 69,
   "paths": {
     "memo": "spring2026/memos/openwork.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/openwork.md",
-      "elad-gil": "spring2026/evals/elad-gil/openwork.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/openwork.md",
       "paul-graham": "spring2026/evals/paul-graham/openwork.md",
       "peter-thiel": "spring2026/evals/peter-thiel/openwork.md",

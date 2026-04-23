@@ -8,69 +8,59 @@
     "batch": "Spring 2026",
     "industry": "B2B / B2B",
     "team_size": "2",
-    "location": "Spokane, WA 99201 (company website)",
-    "tags": "Artificial Intelligence, Marketplace, B2B",
+    "location": "San Francisco, CA, USA",
+    "tags": "Marketplace, B2B, AI",
     "yc_partner": "David Lieb",
-    "emails": "admin@saudara.ai"
+    "emails": "No public data found"
   },
   "tags": [
-    "Artificial Intelligence",
     "Marketplace",
-    "B2B"
+    "B2B",
+    "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-03-30T17:25:49.423Z",
+  "memoGeneratedAt": "2026-04-22T23:31:17.153Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 38,
+      "score": 42,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
       "score": 39,
       "tier": "Pass"
     },
-    "vinod-khosla": {
-      "score": 35,
+    "paul-graham": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 37,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 46,
-    "EG": 38,
-    "NR": 48,
-    "PG": 44,
-    "PT": 28,
-    "SL": 39,
-    "VK": 35
+    "CB": 42,
+    "EG": null,
+    "NR": 39,
+    "PG": 54,
+    "PT": 27,
+    "SL": 37,
+    "VK": null
   },
-  "consolidatedAvg": 39.71,
-  "consolidatedRank": 37,
+  "consolidatedAvg": 39.8,
+  "consolidatedRank": 75,
   "paths": {
     "memo": "spring2026/memos/saudara-ai.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/saudara-ai.md",
-      "elad-gil": "spring2026/evals/elad-gil/saudara-ai.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/saudara-ai.md",
       "paul-graham": "spring2026/evals/paul-graham/saudara-ai.md",
       "peter-thiel": "spring2026/evals/peter-thiel/saudara-ai.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/saudara-ai.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/saudara-ai.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/saudara-ai.md"
     }
   }
 }

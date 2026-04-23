@@ -19,26 +19,22 @@
     "E-commerce"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-03-26T05:07:25.002Z",
+  "memoGeneratedAt": "2026-04-22T23:30:55.832Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 35,
+      "score": 37,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 38,
+      "score": 37,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 54,
-      "tier": "Neutral"
-    },
     "paul-graham": {
-      "score": 50,
+      "score": 58,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 34,
+      "score": 32,
       "tier": "Pass"
     },
     "sam-lessin": {
@@ -46,27 +42,26 @@
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 41,
+      "score": 42,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 35,
-    "EG": 38,
-    "NR": 54,
-    "PG": 50,
-    "PT": 34,
+    "CB": 37,
+    "EG": 37,
+    "NR": null,
+    "PG": 58,
+    "PT": 32,
     "SL": 33,
-    "VK": 41
+    "VK": 42
   },
-  "consolidatedAvg": 40.71,
-  "consolidatedRank": 34,
+  "consolidatedAvg": 39.83,
+  "consolidatedRank": 73,
   "paths": {
     "memo": "spring2026/memos/amboras.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/amboras.md",
       "elad-gil": "spring2026/evals/elad-gil/amboras.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/amboras.md",
       "paul-graham": "spring2026/evals/paul-graham/amboras.md",
       "peter-thiel": "spring2026/evals/peter-thiel/amboras.md",
       "sam-lessin": "spring2026/evals/sam-lessin/amboras.md",

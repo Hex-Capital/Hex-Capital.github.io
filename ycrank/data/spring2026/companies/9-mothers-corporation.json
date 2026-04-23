@@ -21,54 +21,49 @@
     "Aerospace"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-03-26T05:29:15.755Z",
+  "memoGeneratedAt": "2026-04-23T00:00:19.286Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 54,
-      "tier": "Neutral"
+      "score": 67,
+      "tier": "Invest"
     },
     "elad-gil": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 40,
+      "score": 41,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 54,
-      "tier": "Neutral"
+      "score": 68,
+      "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 42,
-      "tier": "Pass"
+      "score": 48,
+      "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 43,
-      "tier": "Pass"
+      "score": 50,
+      "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 61,
-      "tier": "Neutral"
+      "score": 66,
+      "tier": "Invest"
     }
   },
   "consolidatedScores": {
-    "CB": 54,
-    "EG": 43,
-    "NR": 40,
-    "PG": 54,
-    "PT": 42,
-    "SL": 43,
-    "VK": 61
+    "CB": 67,
+    "EG": 41,
+    "NR": null,
+    "PG": 68,
+    "PT": 48,
+    "SL": 50,
+    "VK": 66
   },
-  "consolidatedAvg": 48.14,
-  "consolidatedRank": 13,
+  "consolidatedAvg": 56.67,
+  "consolidatedRank": 4,
   "paths": {
     "memo": "spring2026/memos/9-mothers-corporation.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/9-mothers-corporation.md",
       "elad-gil": "spring2026/evals/elad-gil/9-mothers-corporation.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/9-mothers-corporation.md",
       "paul-graham": "spring2026/evals/paul-graham/9-mothers-corporation.md",
       "peter-thiel": "spring2026/evals/peter-thiel/9-mothers-corporation.md",
       "sam-lessin": "spring2026/evals/sam-lessin/9-mothers-corporation.md",

@@ -5,7 +5,7 @@
   "metadata": {
     "website": "https://minicor.com",
     "yc_page": "https://www.ycombinator.com/companies/minicor",
-    "batch": "Spring 2026 (X26)",
+    "batch": "Spring 2026",
     "industry": "B2B / B2B -> Infrastructure",
     "team_size": "5",
     "location": "San Francisco, CA, USA",
@@ -19,53 +19,48 @@
     "Infrastructure"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-03-26T05:11:08.097Z",
+  "memoGeneratedAt": "2026-04-22T23:35:35.181Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 58,
+      "score": 51,
       "tier": "Neutral"
     },
-    "elad-gil": {
-      "score": 65,
-      "tier": "Invest"
-    },
     "naval-ravikant": {
-      "score": 61,
+      "score": 56,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 68,
+      "score": 67,
       "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 41,
+      "score": 40,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 44,
+      "score": 37,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 46,
-      "tier": "Neutral"
+      "score": 44,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 58,
-    "EG": 65,
-    "NR": 61,
-    "PG": 68,
-    "PT": 41,
-    "SL": 44,
-    "VK": 46
+    "CB": 51,
+    "EG": null,
+    "NR": 56,
+    "PG": 67,
+    "PT": 40,
+    "SL": 37,
+    "VK": 44
   },
-  "consolidatedAvg": 54.71,
-  "consolidatedRank": 5,
+  "consolidatedAvg": 49.17,
+  "consolidatedRank": 20,
   "paths": {
     "memo": "spring2026/memos/minicor.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/minicor.md",
-      "elad-gil": "spring2026/evals/elad-gil/minicor.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/minicor.md",
       "paul-graham": "spring2026/evals/paul-graham/minicor.md",
       "peter-thiel": "spring2026/evals/peter-thiel/minicor.md",

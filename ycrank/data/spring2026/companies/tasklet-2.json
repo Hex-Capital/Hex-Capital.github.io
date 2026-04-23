@@ -1,0 +1,61 @@
+{
+  "slug": "tasklet-2",
+  "name": "Tasklet",
+  "oneLiner": "The cloud agent operating system for knowledge work",
+  "metadata": {
+    "website": "https://tasklet.ai",
+    "yc_page": "https://www.ycombinator.com/companies/tasklet-2",
+    "batch": "Spring 2026",
+    "industry": "B2B / B2B -> Productivity",
+    "team_size": "8",
+    "location": "San Francisco, CA",
+    "yc_partner": "Andrew Miklas",
+    "emails": "sales@shortwave.com (Shortwave blog); no Tasklet-specific email found"
+  },
+  "tags": [],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-22T23:35:34.715Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 71,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 71,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 36,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 45,
+    "EG": null,
+    "NR": 71,
+    "PG": 71,
+    "PT": 45,
+    "SL": 36,
+    "VK": null
+  },
+  "consolidatedAvg": 53.6,
+  "consolidatedRank": 9,
+  "paths": {
+    "memo": "spring2026/memos/tasklet-2.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/tasklet-2.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/tasklet-2.md",
+      "paul-graham": "spring2026/evals/paul-graham/tasklet-2.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/tasklet-2.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/tasklet-2.md"
+    }
+  }
+}

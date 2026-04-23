@@ -6,7 +6,7 @@
 |-------|-------|
 | Website | https://www.gojiberry.ai |
 | YC Page | https://www.ycombinator.com/companies/gojiberry-ai |
-| Batch | Spring 2026 (S26) |
+| Batch | Spring 2026 |
 | Industry | B2B / B2B -> Sales |
 | Team Size | 0 |
 | Location | Remote |
@@ -16,122 +16,104 @@
 
 ## The Idea
 
-**Problem:** Small B2B sales teams (1–5 reps) waste time on cold outbound to low-intent prospects. Traditional tools either require manual signal research or offer volume-based cold outreach with low reply rates (3.4% industry average per Autobound, 2026). Enterprise intent-data platforms (6sense, Bombora) start at $25K–$150K/yr, pricing out SMBs.
+**Problem:** Small B2B sales teams waste time on cold outreach to low-intent prospects. Traditional tools provide static lead lists without real-time buying signals, resulting in low reply rates and unpredictable pipeline. The existing workflow forces teams to manually monitor LinkedIn activity, funding events, and job changes across fragmented tools.
 
-**Approach:** Gojiberry AI monitors 30+ LinkedIn intent signals — competitor engagement, job changes, hiring spikes, funding events, profile visits, post engagement — then scores leads by ICP fit and intent, generates personalized LinkedIn messages, and follows up automatically until a meeting is booked (YC page). The system includes email waterfall enrichment via 15+ data providers, CRM integrations (HubSpot, Pipedrive), and a Chrome extension for LinkedIn sync (Chrome Web Store listing confirmed).
+**Approach:** Gojiberry AI monitors 30+ LinkedIn-based intent signals — competitor engagement, job changes, hiring spikes, funding events, profile views — then scores prospects against user-defined ICP criteria before initiating outreach (Salesforge review, Apr 2026). The platform auto-generates personalized LinkedIn messages anchored to the specific trigger event and handles follow-ups until a meeting is booked (YC page). The system continuously optimizes targeting, messaging, and timing based on results (YC page).
 
-**Differentiation:**
-- vs. Apollo.io / Clay: those are broad platforms requiring workflow configuration; Gojiberry is opinionated and end-to-end for small teams
-- vs. Instantly.ai / Lemlist: those optimize cold email volume; Gojiberry targets warm leads based on detected buying signals
-- vs. HeyReach / Expandi: pure LinkedIn automation without signal detection
-- vs. Amplemarket: closest conceptual match but targets mid-market/enterprise (Rippling, Deel are customers per Amplemarket blog)
+**Differentiation:** Unlike Artisan ($46.1M raised; TechCrunch, Apr 2025), which focuses on email-first AI SDR automation across multiple channels, Gojiberry is LinkedIn-native and signal-first — it sequences outreach only after detecting buying intent (Salesforge review, Apr 2026). Versus Salesforge (G2: 4.6/5, 254 reviews), which offers email + LinkedIn multi-channel workflows with unlimited senders, Gojiberry restricts to 2 LinkedIn senders at the Pro tier but emphasizes intent-based targeting over volume (Salesforge review, Apr 2026). Valley (joinvalley.co) is the closest direct competitor — also LinkedIn-first with intent signal tracking — but its funding and traction data are not publicly available.
 
-**Business Model:** SaaS with three tiers (pricing page via Salesforge review, 2026):
-- Pro: $99/mo — 2 LinkedIn senders, 30+ intent signals, CRM integrations
-- Elite: $249/mo — 5 LinkedIn senders, unlimited signals, dedicated CSM
-- Enterprise: custom pricing, SLA guarantee
+**Business Model:** Pro plan at $99/month includes 30+ intent signals, 2 LinkedIn senders, unlimited campaigns, ICP-based scoring, waterfall enrichment via 15+ data providers, and CRM integrations; Custom plan pricing on request for additional LinkedIn accounts and deeper integrations (Salesforge review, Apr 2026).
 
-Revenue signals: $112K MRR and 1,000+ paying customers (YC page). TrustMRR (March 2026) reports $175,853 estimated MRR, $392,824 all-time revenue, 1,673 active subscriptions, and 75% profit margin.
+**TAM/SAM:** The global sales automation market reached $16B in 2025 with projections to $31B by 2035 (Market Reports World, 2025 via search snippet). The lead scoring software sub-segment is growing from $600M (2023) to $1.4B (2026) at 23% CAGR (via search snippet). [Inferred]: SAM for LinkedIn-specific intent-based outreach tools serving small sales teams is a fraction of these figures, likely in the low single-digit billions.
 
-**TAM/SAM:** Sales intelligence market valued at $4.42B in 2025, projected to reach $8.19B by 2030 at 13.12% CAGR (Mordor Intelligence, 2025). B2B intent data tools market growing at 16.62% CAGR to $20.89B by 2035 (Roots Analysis, 2026). No company-specific SAM estimate found.
-
-**GTM / Distribution:** Documented in Superframeworks case study: 5,000 cold emails/day, 800 LinkedIn DMs/week, Reddit (3 posts/week), LinkedIn (5 accounts posting daily), YouTube (5 videos/week), SEO (2,000+ monthly organic visits within 3 months), total spend ~$380/month. Product Hunt launch on March 2, 2026 reached #1 daily (Product Hunt).
+**GTM / Distribution:** The company runs a high-volume, multi-channel distribution engine: 5,000 cold emails and ~800 LinkedIn DMs weekly, 5 YouTube videos/week, 3 Reddit posts/week, daily X and LinkedIn posts, monthly webinars, ~1 newsletter sponsorship/week, and 2–3 influencer partnerships/week (Superframeworks case study). SEO drove 0 to 2,000+ monthly organic visits in 3 months; one Reddit post generated 1,000+ daily visitors (Superframeworks case study).
 
 ## Defensibility
 
-- **Data flywheel:** The platform claims to "continuously learn what works" across a customer's GTM motions, optimizing targeting, messaging, and timing over time (YC page). [Inferred]: With 1,000+ customers generating outreach data, the system accumulates signal-to-conversion mapping data that improves lead scoring accuracy — a compounding advantage difficult for new entrants to replicate from scratch.
-- **Switching costs:** CRM integrations, trained ICP models, and historical campaign performance data create retention friction once onboarded. Churn reported at <5% (MagStartup, 2025).
+The platform claims to "continuously learn what works" across a customer's GTM — optimizing targeting, messaging, and timing so performance compounds over time (YC page). [Inferred]: As more campaigns run, the system accumulates proprietary data on which signals, messages, and sequences convert for specific ICPs, creating a compounding data advantage per customer. Switching costs increase as the optimization flywheel builds customer-specific models.
 
-**Market structure:** Enterprise incumbents (6sense at $58K median ACV, Demandbase at $60K–$150K/yr) cannot profitably serve $99/mo SMB customers without cannibalizing their sales motion and unit economics. [Inferred]: This pricing floor creates a structural barrier — downmarket moves would require entirely different sales, support, and product architectures.
+**Market structure:** LinkedIn is the primary distribution channel, making Gojiberry dependent on LinkedIn's API and policies. [Inferred]: Well-resourced incumbents like ZoomInfo or Outreach have broader multi-channel architectures that make a LinkedIn-only pivot less strategic for them; however, LinkedIn itself could build native intent-based outreach features, which would directly threaten the approach.
 
-**Commoditization risk:** LinkedIn signal detection and automated messaging are technically reproducible. Apollo.io acquired Pocus (signal-based selling platform) in March 2026 (Crunchbase), signaling incumbents are moving toward signal-based approaches. Multiple bootstrapped competitors (Instantly, HeyReach, Expandi) have reached $10M+ ARR in adjacent categories, indicating low barriers to entry for execution-layer tools.
+**Commoditization risk:** The core capability — monitoring LinkedIn signals and generating outreach messages — is technically reproducible. Multiple competitors (Valley, Artisan, Amplemarket, Persana) offer overlapping functionality. The 30+ signal taxonomy and ICP scoring logic are differentiators but not protected by patents or unique data sources.
 
 ## Market & Traction
 
 **Traction signals:**
-- $112K MRR, 44% MoM growth, 1,000+ paying customers (YC page, March 2026)
-- TrustMRR (March 2026): $175,853 MRR, 1,673 active subscriptions, $392,824 all-time revenue, 55.7% 30-day growth, 75% profit margin
-- Earlier snapshot: $24K MRR, <5% churn, $127 CAC, 1.3-month payback (MagStartup, ~Nov 2025)
-- 100+ paying customers within 60 days of pivot (WeAreFounders)
-- $33K revenue in first 4 months post-pivot (Superframeworks case study)
-- Product Hunt: #1 daily, #7 weekly on March 2, 2026; 413 upvotes, 88 comments, 796 followers (Product Hunt)
-- G2: 5.0/5 from 11 reviews (G2)
-- Aijet.cc: 4.8/5 from 93 reviews (Aijet.cc)
-- Roman Czerny X/Twitter: ~9,801 followers (TrustMRR)
-- LinkedIn company page confirmed (linkedin.com/company/gojiberryai)
-- Two open YC job postings: Fullstack Developer (Europe, €40K–55K) and SDR (US, $55K–$80K) (YC page)
-- Chrome extension listed on Chrome Web Store (install count not retrievable)
+- $112K MRR / $1.4M ARR in 9 months (YC page)
+- 1,000+ paying customers (YC page)
+- 44% MoM growth (YC page)
+- Bootstrapped to $33K revenue in first 4 months, 100 customers in 60 days (Superframeworks case study)
+- Product Hunt: #1 Product of the Day on March 2, 2026; 411 total upvotes across 3 launches; 797 followers; 5.0/5.0 (2 reviews) (Product Hunt)
+- G2: 5.0/5 from 11 reviews (Salesforge review, Apr 2026)
+- Trustpilot page exists (Trustpilot)
+- 5 active job postings on YC, including SDR ($150K–$180K) and Head of Customer Success (€45K–€60K) (YC page)
+- Prior launches on Product Hunt: November 22, 2025 and March 5, 2025 (Product Hunt)
 
-**Pivot note:** The team initially built an AI sales assistant for CRM auto-fill and meeting notes, which generated a 2,000-person waitlist but zero paying customers (WeAreFounders). All traction above pertains to the current intent-based lead generation product, launched mid-2025.
+**Pivot note:** The original product was an AI sales assistant with CRM auto-fill and meeting notes; a 2,000-person waitlist produced zero conversions, prompting a pivot to intent-based lead generation (Superframeworks case study). All traction metrics above pertain to the post-pivot product.
 
 **Competitive landscape:**
+- **Artisan** ($46.1M raised, $25M Series A Apr 2025; $5M ARR, 250 companies; TechCrunch Apr 2025): Email-first AI SDR "Ava" — broader multi-channel vs. Gojiberry's LinkedIn-native approach.
+- **Amplemarket** ($12M raised, Apr 2022; Crunchbase via search snippet): Full-stack AI sales copilot across email+LinkedIn+phone — targets mid-to-large teams vs. Gojiberry's small-team focus.
+- **Persana AI** ($2.8M raised, founded 2023; PitchBook via search snippet): AI lead generation with intent data — earlier stage, San Francisco–based.
+- **Valley** (joinvalley.co; funding not publicly available): LinkedIn-first intent-based outreach — most direct competitor with 60+ data point enrichment and 15–45% reply rates claimed.
+- **Salesforge** (G2: 4.6/5, 254 reviews; Salesforge blog): Email+LinkedIn multi-channel with unlimited senders — positioned as higher-scale alternative.
 
-| Competitor | Funding | Revenue/ARR | Key Differentiator vs. Gojiberry |
-|---|---|---|---|
-| Apollo.io | $251.3M (Series D, 2023) | $150M ARR (Sacra, May 2025) | 275M contact database + full CRM suite |
-| Instantly.ai | $0 (bootstrapped) | $20M ARR (Starter Story, Dec 2024) | Cold email volume at scale |
-| Lemlist | ~$30M (secondary, 2024) | $40M ARR (Founderpath, Sep 2025) | Multichannel (email + LinkedIn + phone) + deliverability |
-| HeyReach | ~$581K | $10M ARR (GTM Strategist, Dec 2025) | Agency-first LinkedIn automation |
-| Amplemarket | $12M (Series A, 2022) | ~$14.9M rev (GetLatka, 2024) | Closest concept match; targets mid-market |
-
-**Why now:** [Inferred]: Three converging catalysts — (1) LLM capabilities crossed the threshold for generating genuinely personalized outreach at scale in 2024–2025; (2) LinkedIn's data richness provides a real-time intent signal layer that did not exist in structured form before widespread professional social media usage; (3) enterprise intent-data tools remain priced above $25K/yr, leaving SMB teams underserved as signal-based selling becomes table stakes. Apollo's acquisition of Pocus in March 2026 (Crunchbase) confirms incumbents recognize the signal-to-sequence convergence trend.
+**Why now:** [Inferred]: The convergence of LLM capabilities sufficient for personalized message generation at scale and the increasing noise in cold outbound (documented as declining response rates industry-wide) creates demand for signal-based, intent-first outreach. The shift from "AI assistance to AI orchestration" in sales workflows is identified as a 2026 inflection point (Amplemarket blog, 2026 via search snippet).
 
 ## Founders & Team
 
 **Pierre-Eliott Lallemant** — Co-Founder & CEO
-- Master's degree, Rennes School of Business (2015–2019) (LinkedIn)
-- Generated €500K revenue in 12 months via online commerce as a student; grew a YouTube channel to 100K subscribers by 2020 (pierreeliottlallemant.com)
-- Co-founded CoCo AI (WhatsApp marketing Shopify app), bootstrapped to ~€500K ARR, sold to American fund in 2025 (EcomPreneurs podcast)
-- Twitter/X: @pierreeliottlal — ~549 followers (X profile)
-- LinkedIn: linkedin.com/in/pierre-eliott-lallemant-343a2b199/
-- GitHub: No public account found
+- Born in Baltimore (USA), raised in Rhône-Alpes, France; attended business school in Angers after one year of mathematics prep (pierreeliottlallemant.com)
+- Bootstrapped to €500K revenue within 12 months at age 22 via eBay dropshipping; built one of the largest French YouTube channels on internet business (pierreeliottlallemant.com)
+- Co-founded CoCo AI (WhatsApp marketing for e-commerce, ~€500K ARR, sold to American fund in 2025) (Superframeworks case study; Spotify podcast ep. 37)
+- Also co-founded Standout (YC P26) (search snippet)
+- Twitter/X: @pierreeliottlal — count not retrievable
+- LinkedIn: linkedin.com/in/pierre-eliott-lallemant-343a2b199
+- GitHub: No public repos found
 
-**Roman Czerny** — Co-Founder & CMO
-- INSA Rouen, engineering school (LinkedIn)
-- Co-CEO of MechaChain/EthernalHorizons (Web3 game), raised €5M+, acquired by Kevuru Games (MechaChain team page)
-- Co-founded CoCo AI with Pierre-Eliott, sold 2025 (X bio: "Sold Coco AI (7fig)")
-- Runs documented 12-channel distribution strategy (Superframeworks case study)
-- Twitter/X: @romanbuildsaas — ~9,801 followers (TrustMRR)
-- LinkedIn: linkedin.com/in/romàn-czerny-11b773199/
-- GitHub: No confirmed account found
+**Romàn Czerny** — Co-Founder & CMO
+- 30 years old, based in Lisbon, Portugal (Indie Hackers)
+- Started online business in 2019 as freelancer, moved to affiliate marketing (Indie Hackers)
+- Co-founded CoCo AI with Pierre-Eliott; sold for seven figures in 2025 (LinkedIn post; Superframeworks)
+- Twitter/X: @romanbuildsaas — count not retrievable
+- LinkedIn: linkedin.com/in/romàn-czerny-11b773199
+- GitHub: No public repos found
 
 **Dylan Teixeira** — Co-Founder & CTO
-- Master's in Digital Marketing & Innovation, IESEG School of Management (2021) (LinkedIn)
-- Self-taught Android developer from age 12; 1M+ total app downloads (Cap Magellan profile)
-- Co-founded Edusign (paperless attendance SaaS): 600K+ users, 1,200+ schools, $3.3M revenue, 15 employees; sold 2025 (IESEG, GetLatka)
-- Won Cap Magellan-Fidelidade Best Young Entrepreneur Award (2020) (Cap Magellan)
-- Twitter/X: No public account found
-- LinkedIn: linkedin.com/in/dylan-txa/
-- GitHub: DydjyZ — 21 repos, 5 followers, no repos with significant star counts (GitHub)
+- Master's in Digital Marketing & Innovation, IÉSEG School of Management (IÉSEG alumni page)
+- Co-founded Edusign (paperless attendance SaaS) while a student; scaled to 600K+ users, 1,200+ schools/companies, raised €1M, sold in 2025 (IÉSEG alumni page; LinkedIn)
+- Twitter/X: @Dylan_txa — count not retrievable
+- LinkedIn: linkedin.com/in/dylan-txa
+- GitHub: No public repos found
 
-**Co-founder relationship:** Pierre-Eliott and Roman co-founded CoCo AI together (2023–2025) before starting Gojiberry AI. Dylan joined after selling Edusign. All three are French Grande École graduates (different institutions) now based in the US (LinkedIn profiles).
+**Co-founder relationship:** Pierre-Eliott and Romàn co-founded CoCo AI together prior to Gojiberry AI (Superframeworks case study; YC page). Dylan's prior company Edusign was separate; no shared employer or university overlap with the other founders is visible from public data.
 
-**Founder-market fit:** Two founders (Pierre-Eliott, Roman) have direct B2B SaaS sales experience from CoCo AI, where they bootstrapped to €500K ARR. Roman runs aggressive multi-channel distribution personally. Dylan brings technical depth from scaling Edusign to 600K+ users. All three have prior exits, providing operational experience in building and selling software companies.
+**Founder-market fit:** All three founders are repeat founders with prior exits (CoCo AI and Edusign). Pierre-Eliott and Romàn ran outbound-heavy sales at CoCo AI — 5,000 cold emails daily — giving them firsthand experience with the pain point Gojiberry addresses (Superframeworks case study). Dylan's background in scaling a B2B SaaS to 600K+ users provides engineering and growth experience (IÉSEG alumni page).
 
 ## Key Risks
 
-**LinkedIn platform dependency:** Both signal detection (30+ signals) and primary outreach channel rely on LinkedIn. LinkedIn's Terms of Service restrict automated messaging; policy enforcement changes or API restrictions could disable core functionality (Salesforge review, 2026).
+**LinkedIn platform dependency:** The entire product is LinkedIn-native, with outreach executed via LinkedIn DMs and intent signals drawn from LinkedIn activity. LinkedIn policy changes, API restrictions, or account suspension could directly disable core functionality. The Salesforge review notes Reddit complaints about spam behavior associated with the platform (Salesforge review, Apr 2026).
 
-**TrustMRR sale listing:** The company was listed for sale on TrustMRR on March 9, 2026, at an asking price of $11,149,999 (6.07x revenue multiple) (TrustMRR) — one week after the Product Hunt launch and concurrent with YC S26 participation. The intent behind this listing is unclear.
+**CEO dual-venture attention:** Pierre-Eliott Lallemant is listed as co-founder of both Gojiberry AI and Standout, both in YC Spring 2026 (search snippet). Splitting founder attention across two YC-backed companies during the same batch introduces execution risk.
 
-**Name confusion:** A separate, unrelated company called "Gojiberry" (Shopify survey tool) exists on Product Hunt and the Shopify App Store. This creates brand confusion in search results and distribution channels (Product Hunt, confirmed via search).
+**Name confusion with unrelated product:** A separate, established Shopify survey app called "Gojiberry" (gojiberry.app, built by EDOCODE, 859 Shopify store installs, ~400 reviews) exists in market (Shopify App Store). This creates potential brand confusion in search results, review aggregators, and buyer evaluation processes.
 
-**Incumbent convergence:** Apollo.io acquired Pocus (signal-based selling) in March 2026 (Crunchbase). Clay reached $100M ARR at $3.1B valuation (Sacra, Nov 2025). Well-funded incumbents are actively moving into the signal-to-sequence workflow Gojiberry occupies.
+**Single-channel limitation and sender cap:** Pro tier restricts to 2 LinkedIn senders; teams with 3+ SDRs hit this cap quickly (Salesforge review, Apr 2026). Competitors like Salesforge and Artisan offer multi-channel (email + LinkedIn + phone) with higher sender capacity, potentially limiting Gojiberry's ability to move upmarket.
 
-**Outreach channel concentration:** Primary outreach is LinkedIn messaging only in the core workflow; Pro plan limited to 2 senders (Salesforge review). Teams needing multi-channel (email, phone) may outgrow the platform or choose competitors like Lemlist.
+**Metric consistency:** Public sources report varying ARR figures — $1.4M (YC page), $1.5M (LinkedIn post), $500K (company blog title) — across similar timeframes. The blog post title references "$500K in annual recurring revenue in 9 months" while the YC page states $1.4M ARR in 9 months.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $4.42B in 2025, growing to $8.19B by 2030 at 13.12% CAGR (Mordor Intelligence, 2025) |
+| TAM | $16B global sales automation market in 2025, projected $31B by 2035 (Market Reports World, 2025 via search snippet) |
 | SAM | No public data found |
-| Traction | $112K MRR, 1,000+ paying customers, 44% MoM growth (YC page, Mar 2026); $175,853 MRR, 1,673 subscriptions (TrustMRR, Mar 2026); Product Hunt #1 daily with 413 upvotes (Product Hunt, Mar 2, 2026); G2 5.0/5 from 11 reviews (G2) |
-| Revenue Signal | $99/mo Pro, $249/mo Elite (Salesforge review, 2026); $392,824 all-time revenue, 75% profit margin (TrustMRR, Mar 2026) |
-| Founders | Pierre-Eliott Lallemant (CEO): CoCo AI exit 2025, Rennes School of Business. Roman Czerny (CMO): CoCo AI + MechaChain exits, INSA Rouen. Dylan Teixeira (CTO): Edusign exit 2025 ($3.3M rev), IESEG. |
-| Competitors | Apollo.io ($251.3M raised, $150M ARR, broad sales platform); Instantly.ai ($0 raised, $20M ARR, cold email volume); Lemlist (~$30M raised, $40M ARR, multichannel engagement); HeyReach ($581K raised, $10M ARR, agency LinkedIn automation); Amplemarket ($12M raised, ~$14.9M rev, mid-market signal-to-sequence) |
-| Moat Signals | <5% churn (MagStartup, Nov 2025); compounding data flywheel from 1,000+ customers claimed (YC page) |
-| Risk Factors | LinkedIn platform dependency, TrustMRR sale listing during YC batch, incumbent convergence (Apollo acquired Pocus Mar 2026) |
-| Founder Reach | Pierre-Eliott: Twitter ~549 (X profile), LinkedIn 500+. Roman: Twitter ~9,801 (TrustMRR), LinkedIn 500+. Dylan: LinkedIn 500+, GitHub 5 followers (GitHub). |
-| Distribution Signals | Product Hunt #1 daily, 413 upvotes, 88 comments (Product Hunt, Mar 2, 2026); Chrome Web Store extension listed (Chrome Web Store, install count not retrievable); G2 11 reviews (G2); Aijet.cc 93 reviews (Aijet.cc) |
+| Traction | $112K MRR / $1.4M ARR in 9 months, 1,000+ paying customers, 44% MoM growth (YC page); #1 Product of the Day Mar 2, 2026 (Product Hunt); G2 5.0/5 from 11 reviews (Salesforge review, Apr 2026) |
+| Revenue Signal | Pro plan at $99/month; Custom plan pricing on request (Salesforge review, Apr 2026) |
+| Founders | Pierre-Eliott Lallemant (CEO): repeat founder, CoCo AI exit 2025. Romàn Czerny (CMO): repeat founder, CoCo AI exit 2025. Dylan Teixeira (CTO): repeat founder, Edusign exit 2025, 600K+ users. |
+| Competitors | Artisan ($46.1M raised, $5M ARR, email-first AI SDR; TechCrunch Apr 2025), Amplemarket ($12M raised, revenue unknown, multi-channel AI sales copilot; Crunchbase via search snippet), Persana AI ($2.8M raised, revenue unknown, AI lead gen; PitchBook via search snippet), Valley (funding unknown, revenue unknown, LinkedIn-first intent outreach), Salesforge (funding unknown, revenue unknown, email+LinkedIn multi-channel; G2) |
+| Moat Signals | Compounding optimization data per customer from continuous campaign learning (YC page) |
+| Risk Factors | LinkedIn platform dependency, CEO dual-venture split (Gojiberry AI + Standout), name confusion with unrelated Shopify app |
+| Founder Reach | Pierre-Eliott: Twitter @pierreeliottlal (count not retrievable), LinkedIn profile active. Romàn: Twitter @romanbuildsaas (count not retrievable), LinkedIn profile active. Dylan: Twitter @Dylan_txa (count not retrievable), LinkedIn profile active. |
+| Distribution Signals | Product Hunt #1 Product of the Day Mar 2, 2026; 411 total upvotes, 797 followers (Product Hunt). G2: 11 reviews (Salesforge review, Apr 2026). 5 active YC job postings (YC page). |
 | Emails | No public data found |

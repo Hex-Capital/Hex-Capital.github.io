@@ -16,101 +16,101 @@
 
 ## The Idea
 
-**Problem:** Companies developing ultra-high-value materials — semiconductors, biotech, pharma — that require microgravity for manufacturing have no practical, high-frequency way to return finished products from orbit to Earth (YC company page). Existing return options are scarce: SpaceX Dragon is primarily NASA-contracted, and dedicated commercial reentry vehicles are only beginning to reach operational status (Payload Space, "Reentry 2025 Wrapped").
+**Problem:** Companies developing ultra-high-value materials — advanced semiconductors, novel pharmaceuticals, 3D-printed organs — require microgravity environments for manufacturing, but have no practical way to return finished products to Earth (YC launch page). NASA currently pays roughly 2x more to return ISS cargo than to send it up (YC launch page). Human-rated vehicle operations cost over $100,000/hr in astronaut time, and return slots are limited to a handful of Dragon missions annually (YC launch page). Existing customers rely on ISS return capacity via SpaceX Dragon, which is scarce, expensive, and not optimized for manufacturing payloads.
 
-**Approach:** Dispatch is building refurbishable reentry vehicles that host payloads in orbit and return them to Earth (YC company page). The inaugural vehicle is **Free Flyer 1** (dispatch.space). The company has validated a full-scale reentry heat shield in the Mojave Desert using rocket exhaust to simulate atmospheric reentry forces at Mach 20+ conditions, claiming 100x lower cost than competitors (YC company page; YouTube demo video). Long-term, Dispatch plans to deploy permanent Autonomous Space Stations designed for "lights-out" manufacturing, serviced by the reentry vehicles (YC company page).
+**Approach:** Dispatch builds refurbishable reentry vehicles with in-house single-use heat shields rated for Mach 20+ reentry, designed for autonomous operation without human-support systems (Payload Space, Apr 2026). Phase 1 deploys Free Flyer 1, a dedicated cargo-return spacecraft with 30kg payload capacity, targeting mid-2027 launch (Payload Space, Apr 2026). Phase 2 anchors permanent uncrewed "lights-out" space stations with 100kW power and cooling, designed from day one for autonomous manufacturing, targeting late 2029 (Payload Space, Apr 2026). Subsequent scaling targets 300kg capacity reentry vehicles (Payload Space, Apr 2026).
 
-**Differentiation:** Dispatch claims its heat shield was "built in an apartment for 100x cheaper than competitors" (YC company page). Competitors such as Varda Space Industries are vertically integrated (owning manufacturing payload + capsule + bus), while Dispatch positions as a logistics/return provider — a "picks and shovels" approach serving multiple payload operators rather than owning the manufacturing process. Reditus Space (YC W25) offers a similar reentry-as-a-service model branded "Microgravity-as-a-Service" (SpaceNews, Dec 2025).
+**Differentiation:** vs. **Varda Space Industries**: Varda builds its own spacecraft and manufactures pharmaceuticals in-house on orbit; Dispatch positions as infrastructure provider hosting third-party payloads and returning them, not manufacturing the products itself (YC page). vs. **Space Forge**: Space Forge focuses on semiconductor wafer materials with its ForgeStar platform and Pridwen reusable heat shield; Dispatch uses cheaper single-use heat shields and targets broader payload categories (Payload Space, Apr 2026). vs. **Reditus Space**: Reditus (YC W25) builds reusable satellites offering "microgravity as a service" with a 40kg-payload ENOS vehicle launching summer 2026 (SpaceNews, Dec 2025); Dispatch differentiates via the Phase 2 permanent station architecture. Dispatch claims heat shields built "100x cheaper than competitors" in-house (dispatch.space).
 
-**Business Model:** No pricing page found (dispatch.space). [Inferred]: Most likely monetization is per-mission pricing for payload hosting, orbital stay, and reentry return — consistent with the service model described and competitor pricing structures (e.g., Reditus Space's "Microgravity-as-a-Service").
+**Business Model:** No pricing page found on dispatch.space. [Inferred]: Most likely monetization path is per-mission payload hosting fees for reentry vehicle flights (Phase 1), transitioning to recurring station tenancy or capacity leases for manufacturing berths on autonomous space stations (Phase 2).
 
-**TAM/SAM:** The in-space manufacturing market was valued at ~$1.0–1.4B in 2024, with CAGR estimates of 23–30%, reaching $5.1–23.3B by 2032–2035 (Market Research Future, 2024 via search snippet; Credence Research, 2024 via search snippet). The broader space logistics market was valued at $7.3B in 2024 with 15.6% CAGR to $23.4B by 2032 (Kings Research, 2024 via search snippet). No standalone reentry vehicle market size estimate was found.
+**TAM/SAM:** In-space manufacturing, servicing, and transportation market estimated at $1.48B–$6.3B in 2025 depending on scope definition, projected to reach $23.3B–$39.2B by 2035 at 20–30% CAGR (Market Research Future, 2025 via search snippet; Business Research Insights, 2025 via search snippet; Future Market Insights, 2025 via search snippet). No specific SAM estimate found for the cargo-return sub-segment.
 
-**GTM / Distribution:** [Inferred]: Initial customers are likely in-space manufacturing companies (pharma, semiconductor, biotech) that need downmass but lack their own reentry capability. The DoD is also a significant buyer in this space — Inversion Space secured a $71M SpaceWERX contract (TechCrunch, Sep 2024), and Outpost received a $33.2M STRATFI award (BusinessWire, Aug 2024).
+**GTM / Distribution:** [Inferred]: Most likely distribution path is direct sales to the small number of companies actively developing microgravity manufacturing processes (pharma, semiconductor, biotech), starting with payload hosting on Free Flyer 1 missions as proof-of-concept before selling station capacity.
 
 ## Defensibility
 
-- **Technical complexity:** Reentry vehicles require validated thermal protection systems, guidance/navigation, and recovery operations — high barriers to entry requiring specialized aerospace engineering (dispatch.space; industry context).
-- **Cost structure claims:** The 100x cost reduction claim for heat shield fabrication, if sustained at production scale, would constitute a unit economics advantage (YC company page). This claim is unverified by third parties.
-- **Refurbishability:** Dispatch specifies "refurbishable" vehicles, which would lower per-mission costs over time if demonstrated (YC company page).
+- **Technical complexity:** Full-scale reentry heat shield tested successfully in Mojave Desert, built in-house for claimed 100x cost reduction vs. competitors (dispatch.space; Payload Space, Apr 2026). Reentry vehicle design, thermal protection, and autonomous operations represent substantial engineering barriers.
+- **Infrastructure lock-in:** Phase 2 permanent stations create switching costs once customers integrate manufacturing equipment into Dispatch's orbital infrastructure.
+- **Cost structure:** Eliminating human-support systems (life support, environmental controls, escape pods) from station design reduces per-mission cost (Payload Space, Apr 2026). CEO Case: "if you're going to be manufacturing in space at scale, why launch the factory every single time?" (Payload Space, Apr 2026).
 
-**Market structure:** [Inferred]: Incumbent launch providers (SpaceX, Rocket Lab) could build dedicated reentry return vehicles but face business model conflict — their revenue is driven by launch cadence, and investing in a niche downmass service with low initial volumes may not justify capital allocation when commercial ISM demand is still nascent.
+No patents found in public sources. [Inferred]: Potential moat could develop via accumulated flight heritage and proprietary heat shield manufacturing processes, but is unproven at this stage.
 
-**Commoditization risk:** At least 7 other startups are building reentry vehicles for space cargo return: Varda ($329M raised), Inversion ($125M in VC + government), Space Forge (~$40M), Outpost (~$43M), Reditus ($7.6M), ATMOS (~€19M), and Orbital Paradigm (~€3.2M) (multiple sources, see Market & Traction). The reentry vehicle segment is becoming crowded, though most competitors have not yet demonstrated successful reentry.
+**Market structure:** Incumbent space station operators (e.g., ISS partners, Axiom Space) have designed crewed infrastructure with life-support overhead that cannot be easily stripped to match uncrewed cost structures. SpaceX Dragon return capacity is a byproduct of crew missions, not a dedicated manufacturing logistics service. [Inferred]: The structural barrier is that crewed-infrastructure providers face fundamental unit economics incompatibility with low-cost autonomous manufacturing return flights.
+
+**Commoditization risk:** Varda ($329M+ raised; CNBC, Jul 2025), Space Forge ($30M Series A; TechCrunch, May 2025), and Reditus Space ($7.1M seed; SpaceNews, Dec 2025) are all building reentry-capable vehicles. The reentry vehicle segment is attracting multiple entrants. Inbound Aerospace raised $1M pre-seed for autonomous reentry spacecraft (BW Disrupt, Jul 2025). [Inferred]: The technology is replicable by well-funded competitors; differentiation will depend on cost, reliability, and the Phase 2 station platform.
 
 ## Market & Traction
 
 **Traction signals:**
-- Full-scale heat shield ground test completed in Mojave Desert (YC company page; YouTube video: youtu.be/dhlQmnIoptg)
-- Twitter/X: @dispatchspace (YC company page) — follower count not retrievable
-- LinkedIn: linkedin.com/company/dispatch-space (dispatch.space) — follower count not retrievable
-- No press coverage in major outlets found
-- No Product Hunt presence found
-- No Discord/Slack community found
-- No job postings listed (YC company page: 0 jobs)
-- No app store or download metrics applicable
+- Completed full-scale reentry heat shield test in Mojave Desert using rocket engine exhaust simulation (dispatch.space; Payload Space, Apr 2026)
+- $500,000 in funding from Y Combinator (Payload Space, Apr 2026)
+- YC Launch page shows ~20 upvotes (YC launches page)
+- Press coverage: exclusive in Payload Space (Apr 2026), coverage in New Space Economy (Apr 2026)
+- YouTube demo video of heat shield test published (dispatch.space)
+- LinkedIn company page: No confirmed page found for this specific Dispatch entity (name collision with Dispatch LLC, a delivery company)
+- Twitter/X company account: No public account found
+- No revenue, customers, LOIs, or partnerships disclosed
 
 **Competitive landscape:**
 
-| Competitor | Funding | Reentry Proven? | Key Differentiator vs. Dispatch |
-|---|---|---|---|
-| **Varda Space Industries** | ~$329M ($187M Series C, Jul 2025) (SpaceNews) | Yes — 5 missions (PR Newswire, Jan 2026) | Vertically integrated: owns manufacturing payload + capsule; pharma focus; operational flight cadence |
-| **Inversion Space** | ~$125M ($44M Series A + $71M SpaceWERX) (BusinessWire; TechCrunch) | No — first reentry attempt failed (SpaceNews, Jan 2025) | DoD on-demand delivery focus; 500 lb payload capacity; large government contract backing |
-| **Space Forge** | ~$40M+ (£22.6M Series A, May 2025) (TechCrunch) | No — ForgeStar-1 in orbit, testing heat shield (Space Forge, Jun 2025) | Integrated semiconductor manufacturing satellite; NATO Innovation Fund backing; European market |
-| **Reditus Space** | $7.6M seed (Dec 2025) (SpaceNews) | No | Closest peer: also YC-backed, similar stage, "Microgravity-as-a-Service" model, targeting 2026 first flight |
-| **Outpost Technologies** | ~$43M ($7.1M seed + $33.2M STRATFI) (SpaceNews; BusinessWire) | No | DoD cargo warehousing; Carryall vehicle targets 10-ton class |
+| Competitor | Funding | Differentiator vs. Dispatch |
+|---|---|---|
+| **Varda Space Industries** | $329M+ total; $187M Series C (CNBC, Jul 2025); $48M AFRL contract (2024) | Vertically integrated — manufactures its own pharmaceuticals on orbit rather than hosting third-party payloads. Six reentry missions flown as of Mar 2026 (SpaceX Transporter-16 manifest). |
+| **Space Forge** | ~$38M total ($30M Series A led by NATO Innovation Fund; TechCrunch, May 2025) | Focused on semiconductor wafer materials; uses reusable Pridwen heat shield vs. Dispatch's single-use approach. Partnered with United Semiconductors. ForgeStar-1 demo mission targeting 2025. |
+| **Reditus Space** | $7.1M seed (SpaceNews, Dec 2025); YC W25 | "Microgravity as a service" model; reusable ENOS vehicle with 40kg payload launching summer 2026. Closer stage competitor. |
+| **Inbound Aerospace** | $1M pre-seed (BW Disrupt, Jul 2025) | India-based; autonomous reentry spacecraft for in-orbit experiments. Earlier stage than Dispatch. |
 
 **Why now:**
-- Varda's 5 successful reentry missions in 2024–2026 proved commercial in-space manufacturing and return is technically feasible (PR Newswire, Jan 2026).
-- Scientific American reported a "serious leap forward" in the push to make semiconductors in space (Scientific American, 2025 via search snippet).
-- [Inferred]: Launch costs have continued to decline via SpaceX rideshare missions ($5,500/kg on Transporter missions), making orbital manufacturing economics increasingly viable for high-value materials.
+- Launch costs have dropped substantially with SpaceX Starship and Blue Origin New Glenn entering service, making in-space manufacturing economically viable for the first time (Payload Space, Apr 2026).
+- [Inferred]: The ISS is approaching end-of-life (NASA targeting 2030 deorbit), creating urgency for commercial alternatives for microgravity manufacturing customers.
+- [Inferred]: Multiple companies (Varda, Space Forge) have demonstrated successful reentry of manufacturing payloads in 2023–2025, validating the market and reducing perceived technology risk for downstream infrastructure providers like Dispatch.
 
 ## Founders & Team
 
 **Payton Case** — Co-founder & CEO
-- B.S. Aerospace Engineering, Purdue University (LinkedIn)
-- Office of the CTO at Astranis Space Technologies: oversaw spacecraft architecture, production, and mission operations for next-gen geostationary microsatellites (YC company page)
-- The Aerospace Corporation: Lunar Gateway program, thermal group (YC company page)
+- ~4 years at Astranis Space Technologies in the Office of the CTO, driving spacecraft architecture, production, and critical mission operations (YC page; LinkedIn via search snippet)
+- Education: No public data found
 - Twitter/X: No public account found
-- LinkedIn: linkedin.com/in/paytoncase — ~2,000 followers (LinkedIn, count approximate)
-- GitHub: No public repos found
+- LinkedIn: linkedin.com/in/paytoncase (headline not retrievable; listed as Astranis Space Technologies)
+- GitHub: No confirmed public repos found
 
 **Andrew Mello** — Co-founder & CTO
-- B.S. Electrical Engineering + M.S. Computer Engineering (computer vision/ML), Northeastern University, 3.7 GPA (LinkedIn; Northeastern COE)
-- Avionics Team Lead at Astranis Space Technologies (2022–2025) (LinkedIn via third-party index)
-- Hardware Systems Engineer at Zoox (2018–2020; Zoox acquired by Amazon for ~$1.2B in 2020) (LinkedIn via third-party index)
-- Electrical Engineer Co-op at Apple, working on AirPods (YC company page)
-- Systems Engineer Co-op at Amazon/Kiva Systems (LinkedIn via third-party index)
-- Twitter/X: No confirmed account found
-- LinkedIn: linkedin.com/in/andrew-mello — 621 followers (LinkedIn, count approximate)
-- GitHub: likely github.com/melloa — 10 public repos, 3 followers; repos include RTFD (real-time face detection, C++) and embedded systems tools (GitHub)
+- Team Lead, Avionics at Astranis Space Technologies (Wiza via search snippet)
+- Prior experience at Apple (AirPods), Amazon (warehouse automation), and Zoox (autonomous vehicles) (YC page; New Space Economy, Apr 2026)
+- Education: BS Electrical Engineering and MS Computer Vision, Machine Learning & Algorithms from Northeastern University, 2013–2018 (RocketReach via search snippet)
+- Twitter/X: No public account found
+- LinkedIn: linkedin.com/in/andrew-mello (listed as Cofounder & CTO at Dispatch)
+- GitHub: No confirmed public repos found
 
-**Co-founder relationship:** Both founders worked at Astranis Space Technologies — Case in the Office of the CTO and Mello as Avionics Team Lead (YC company page; LinkedIn via third-party index). Both are located in San Francisco (LinkedIn).
+**Co-founder relationship:** Both founders spent ~4 years together at Astranis building geostationary communications satellites (YC page; Payload Space, Apr 2026). Shared employer overlap confirms prior working relationship.
 
-**Founder-market fit:** Case brings spacecraft-level systems architecture from Astranis and thermal engineering from the Lunar Gateway program at Aerospace Corporation — directly relevant to reentry thermal protection design. Mello brings avionics, electrical systems, and embedded software from Astranis, plus hardware-software integration experience from Zoox and Apple. The combination covers the core disciplines required for a reentry vehicle: thermal protection (Case) and avionics/GNC (Mello).
+**Founder-market fit:** Both founders have direct spacecraft engineering experience from Astranis, which has raised $350M+ and launched operational GEO satellites. Mello's avionics team lead role and experience across Apple, Amazon, and Zoox hardware programs provides cross-domain hardware development depth. Case's role in Astranis' Office of the CTO spanning architecture through mission ops covers the full spacecraft lifecycle. No advisors, board members, or notable angel investors disclosed beyond YC.
 
 ## Key Risks
 
-**Name collision:** Basalt Tech (YC W24) markets a satellite OS product also called "Dispatch" (YC company page for Basalt). The domain dispatchspace.com belongs to a different entity (search results). This creates brand confusion in a niche market.
+**Name collision / discoverability:** "Dispatch" is a common English word shared by multiple companies including Dispatch LLC (last-mile delivery), The Dispatch (media), and Columbus Dispatch (newspaper). This creates SEO challenges, brand confusion, and research disambiguation issues. The company uses the dispatch.space domain to mitigate.
 
-**Reentry demonstration gap:** No orbital flight or reentry has been attempted; validation is limited to a single ground test using rocket exhaust (YC company page). The gap between ground simulation and actual Mach 20+ atmospheric reentry is substantial — Inversion Space's first orbital attempt failed due to a propulsion short circuit (SpaceNews, Jan 2025), illustrating the risk.
+**Pre-revenue hardware with multi-year timeline:** First flight (Free Flyer 1) targets mid-2027, ~15 months out; full station targets late 2029 (Payload Space, Apr 2026). Revenue generation requires successful orbital demonstration, reentry, and payload recovery — each a potential failure point. No customers, LOIs, or partnerships have been disclosed.
 
-**Crowded reentry vehicle market:** At least 7 funded competitors are pursuing overlapping reentry/return capabilities, with Varda already at 5 successful missions and $329M raised (multiple sources). Reditus Space is a near-identical peer by stage, model, and YC affiliation (SpaceNews, Dec 2025).
+**Well-funded direct competitors:** Varda Space Industries has $329M+ in funding and has already flown six reentry missions (CNBC, Jul 2025; SpaceX Transporter-16, Mar 2026). Reditus Space (YC W25, $7.1M seed) plans to launch its reusable ENOS vehicle in summer 2026, potentially demonstrating before Dispatch's first flight (SpaceNews, Dec 2025).
 
-**Capital intensity:** Orbital vehicle development typically requires $50–100M+ to reach first flight, based on disclosed competitor spending (Inversion: $125M pre-first-flight; Space Forge: $40M+ pre-reentry demo). Current YC-level funding (~$500K) leaves a large capital gap to bridge.
+**Regulatory and licensing complexity:** Reentry vehicles require FAA reentry licenses, ITAR compliance for spacecraft components, and potentially foreign payload clearances. No public data on licensing progress or regulatory strategy found.
+
+**Single-use heat shield economics at scale:** Dispatch uses single-use heat shields (claimed 100x cheaper), while competitors Space Forge (Pridwen) and Reditus Space pursue reusable thermal protection (TechCrunch, May 2025; SpaceNews, Dec 2025). [Inferred]: At high flight cadence, cumulative single-use costs could erode the initial cost advantage vs. reusable systems if competitors achieve reuse targets.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | ~$1.0–1.4B in 2024, 23–30% CAGR to $5.1–23.3B by 2032–2035 (Market Research Future; Credence Research, 2024 via search snippet) |
+| TAM | $1.48B–$6.3B in 2025, projected $23.3B–$39.2B by 2035 at 20–30% CAGR (Market Research Future, 2025 via search snippet; Business Research Insights, 2025 via search snippet) |
 | SAM | No public data found |
-| Traction | Full-scale heat shield ground test completed (YC company page, 2025) |
+| Traction | Full-scale heat shield test completed (dispatch.space, Apr 2026); ~20 upvotes on YC launch page (YC launches, Apr 2026) |
 | Revenue Signal | No public data found |
-| Founders | Payton Case (CEO): Purdue AeroE, ex-Astranis OfficeCTO, ex-Aerospace Corp Lunar Gateway. Andrew Mello (CTO): Northeastern EE/CompE, ex-Astranis Avionics Lead, ex-Zoox, ex-Apple. |
-| Competitors | Varda (~$329M raised, revenue undisclosed, vertically integrated pharma ISM) (SpaceNews); Inversion (~$125M resources, pre-revenue, DoD logistics focus) (TechCrunch); Space Forge (~$40M+, pre-revenue, semiconductor ISM satellite) (TechCrunch); Reditus ($7.6M, pre-revenue, closest peer by stage/model) (SpaceNews) |
-| Moat Signals | 100x cheaper heat shield claim — unverified by third parties (YC company page) |
-| Risk Factors | No orbital flight demonstrated, crowded competitor field, capital-intensive path to first flight |
-| Founder Reach | Payton Case: LinkedIn ~2K followers, no Twitter/GitHub. Andrew Mello: LinkedIn 621 followers, GitHub melloa 3 followers, no confirmed Twitter. (LinkedIn; GitHub) |
-| Distribution Signals | No public data found |
+| Founders | Payton Case (CEO): ~4 yrs Astranis Office of CTO. Andrew Mello (CTO): Astranis Avionics Team Lead, prev. Apple/Amazon/Zoox, BS+MS Northeastern. |
+| Competitors | Varda Space Industries ($329M+ raised, $48M AFRL contract, vertically integrated pharma manufacturing); Space Forge (~$38M raised, revenue unknown, semiconductor wafer focus); Reditus Space ($7.1M seed, revenue unknown, reusable MaaS model); Inbound Aerospace ($1M pre-seed, revenue unknown, India-based) |
+| Moat Signals | No public data found |
+| Risk Factors | Well-funded competitors with flight heritage, multi-year pre-revenue hardware timeline, regulatory licensing uncertainty |
+| Founder Reach | No public data found |
+| Distribution Signals | Payload Space exclusive coverage (Apr 2026); New Space Economy coverage (Apr 2026); YC LinkedIn post (Apr 2026) |
 | Emails | No public data found |

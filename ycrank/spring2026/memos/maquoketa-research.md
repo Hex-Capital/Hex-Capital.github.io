@@ -1,6 +1,6 @@
 ﻿# Maquoketa Research
 
-> Autonomous one-way attack drones
+> Intelligent one-way attack drones
 
 | Field | Value |
 |-------|-------|
@@ -9,118 +9,124 @@
 | Batch | Spring 2026 |
 | Industry | Industrials / Industrials -> Defense |
 | Team Size | 5 |
-| Location | No public data found |
-| Tags | No public data found |
+| Location | Elk Grove Village, IL, USA |
+| Tags | Artificial Intelligence, Hardware, Drones, Computer Vision, Manufacturing |
 | YC Partner | Harj Taggar |
 | Emails | No public data found |
 
 ## The Idea
 
-**Problem:** Modern militaries require high volumes of low-cost, expendable precision strike munitions. The Russia-Ukraine conflict demonstrated mass demand for one-way attack (OWA) drones / loitering munitions, with Ukraine ordering 6,000 HX-2 units from Helsing alone (Breaking Defense, Feb 2025). Current procurement pipelines from incumbents like AeroVironment face production bottlenecks — AeroVironment announced plans to scale Switchblade output to 14,400 units/year, requiring a new factory not operational until late 2026/early 2027 (Defense News, Oct 2025). Customers today use a mix of modified commercial FPV drones and expensive mil-spec loitering munitions.
+**Problem:** Modern militaries need low-cost, expendable precision strike capabilities. Data from Ukraine indicates that autonomous capabilities can quadruple mission success rates for one-way attack drones compared to operator-guided systems (maquoketa.net via search snippet). Current solutions are either expensive guided munitions or operator-dependent FPV drones with limited range and high operator cognitive load.
 
-**Approach:** Maquoketa Research builds autonomous one-way attack drones with in-house advanced electronics design, led by a CTO specializing in phased array systems and RF design (YC page). [Inferred]: The emphasis on in-house RF and phased array capability suggests the product may feature advanced guidance, electronic warfare resistance, or autonomous targeting — capabilities that distinguish mil-spec loitering munitions from commercial FPV conversions.
+**Approach:** Maquoketa builds autonomous one-way attack drones (loitering munitions) with AI-driven navigation and targeting, designed for government and industry customers. The company emphasizes vertical integration—owning or controlling multiple stages of the supply chain from raw materials to final product (maquoketa.net via search snippet). Their CTO specializes in phased array systems and RF design (YC page). The GitHub organization maintains internal forks of PX4-Autopilot, QGroundControl, MAVLink, HackRF (software radio), AM32 motor firmware, and Aviateur (OpenIPC FPV ground station), indicating a full-stack approach from flight controller firmware through ground control and RF communications (GitHub, Maquoketa-Research org).
 
-**Differentiation:** [Inferred]: Compared to FPV drone providers like Neros (which emphasize operator-piloted first-person-view platforms), Maquoketa's "autonomous" framing suggests reduced operator dependency. Compared to navigation-layer startups like Theseus (YC S24), which provides GPS-denied nav modules for third-party drones, Maquoketa appears to build a complete airframe-to-electronics stack. The in-house phased array and RF design capability is atypical for a pre-seed defense drone startup.
+**Differentiation:**
+- Built entirely in the USA per company messaging (maquoketa.net via search snippet), addressing supply chain security concerns in defense procurement
+- Autonomy-first architecture vs. operator-dependent FPV drones
+- Vertical integration vs. systems integrators assembling COTS components
+- Positioned as lower-cost alternative to incumbent solutions like AeroVironment's Switchblade ($6,000+ per unit for Switchblade 300) and Anduril's Altius
 
-**Business Model:** No pricing or revenue data found. [Inferred]: Most likely monetization path is direct hardware sales to military customers via DoD procurement channels (SBIR/STTR, OTAs, or direct contracts), consistent with how peer companies like Neros and Stark Defence monetize.
+**Business Model:** No public pricing found. [Inferred]: Most likely monetization is per-unit hardware sales to DoD and allied government customers, potentially with recurring software/autonomy stack licensing, given the defense procurement model and emphasis on manufacturing.
 
-**TAM/SAM:**
-- Global loitering munition market: $4.00B in 2025, projected $24.13B by 2034 (Fortune Business Insights, 2025).
-- Alternate estimate: $0.64B in 2025 growing to $1.07B by 2030 at 10.89% CAGR (Mordor Intelligence, 2025).
-- Alternate estimate: $0.53B in 2024 to $0.82B by 2029 at 9.0% CAGR (MarketsandMarkets, 2024).
-- U.S. loitering munitions market: $170.4M in 2024 (Persistence Market Research, 2025).
-- Note: Estimates vary by an order of magnitude depending on scope definitions.
+**TAM/SAM:** The global loitering munition market was valued at $5.36 billion in 2025 and is projected to reach $13.26 billion by 2030 at 19.9% CAGR (MarketsandMarkets, 2025 via search snippet). Fortune Business Insights projects $24.13 billion by 2034 at 20.65% CAGR. The U.S. Army alone requested ~$70 million for loitering munition procurement in fiscal 2026 (DefenseScoop, Jun 2025). [Inferred]: SAM is the U.S. DoD small-UAS/loitering munition procurement budget, currently in the hundreds of millions annually and growing rapidly.
 
-**GTM / Distribution:** [Inferred]: Most likely initial distribution is through U.S. DoD procurement programs (e.g., Army Purpose-Built Attritable Systems/PBAS, Marine Corps Organic Precision Fires programs) and allied government defense ministries. YC's defense-tech network and Group Partner Harj Taggar may facilitate introductions to DoD and defense primes.
+**GTM / Distribution:** [Inferred]: Most likely distribution is through DoD procurement programs (e.g., LASSO, Replicator), OTA contracts, and direct engagement with military branches. The Elk Grove Village, IL location near defense-industrial manufacturing corridors and the "built in the USA" messaging suggest ITAR-compliant, domestic-supply-chain positioning for NDAA-compliant procurement.
 
 ## Defensibility
 
-- **Technical complexity:** In-house phased array and RF design requires specialized EECS talent and hardware prototyping capability, raising the barrier to entry for software-only or COTS-assembly competitors (YC page).
-- **Regulatory barriers:** Defense products require ITAR compliance, export controls, and often security clearances, creating friction for new entrants and especially foreign competitors.
-- [Inferred]: Data advantages could develop over time through field testing and autonomous flight data, but no evidence of this exists at this stage.
+- **Technical complexity:** Full-stack drone design spanning airframe, propulsion (AM32 firmware fork), flight control (PX4 fork), RF communications (HackRF, custom phased array), computer vision, and ground control requires integration across multiple engineering disciplines (GitHub repos).
+- **Vertical integration:** Company explicitly claims control over multiple supply chain stages (maquoketa.net via search snippet), which if achieved creates manufacturing and cost advantages.
+- **ITAR/regulatory barriers:** Defense hardware exports and procurement carry significant regulatory barriers that limit competition from non-US and non-cleared entities.
+- [Inferred]: No network effects or data moat at this stage. Potential moat could develop via proprietary autonomy performance data from field deployments, but is unproven.
 
-**Market structure:** Large defense primes (Lockheed Martin, Northrop Grumman, Raytheon) face business-model cannibalization risk — their profit models depend on high-margin, low-volume platforms (manned aircraft, cruise missiles), making it structurally difficult to pivot to high-volume, low-cost expendable drones. AeroVironment is the most direct incumbent but faces production scaling constraints (Defense News, Oct 2025). Germany's €9B+ strike drone shift was led by startups Helsing and Stark, not incumbents like Rheinmetall, who lost the primary contracts (DronXL, Jan 2026).
+**Market structure:** Large incumbents (Lockheed, Raytheon, Northrop) face business model cannibalization risk—their revenue models depend on expensive precision munitions ($100K+ per unit), creating economic disincentive to aggressively compete in the sub-$10K expendable drone segment. AeroVironment occupies this space but faces scaling constraints (Defense News, Oct 2025). [Inferred]: The structural barrier is unit economics incompatibility for traditional primes.
 
-**Commoditization risk:** FPV drone assembly is relatively commoditized — Neros, numerous Ukrainian manufacturers, and Chinese suppliers produce low-cost platforms. [Inferred]: Maquoketa's defensibility likely depends on the autonomy and RF/EW-resistance layers, not the airframe itself. If autonomy features can be replicated with off-the-shelf components, commoditization risk is high.
+**Commoditization risk:** FPV attack drones are widely commoditized in Ukraine, with dozens of manufacturers producing similar platforms. Autonomy software stack is the key differentiator, but open-source autopilot projects (PX4, ArduPilot) lower the barrier. Well-funded competitors Anduril and Shield AI are investing heavily in autonomy. The RF/phased array capability (if proprietary) could provide differentiation in contested electromagnetic environments.
 
 ## Market & Traction
 
 **Traction signals:**
-- No revenue, user counts, partnerships, or press coverage found.
-- No Product Hunt launch found.
-- No Twitter/X account found for Maquoketa Research.
-- No LinkedIn company page with follower data found via search.
-- No GitHub repositories found.
-- No Discord/Slack community found.
-- No job postings listed (YC page shows 0 open roles).
-- Website not accessible at time of research (HTTP 403).
+- No revenue, user, or growth metrics found in public sources
+- LinkedIn company page exists (linkedin.com/company/maquoketa-research/); follower count not retrievable
+- No company Twitter/X account found
+- GitHub organization: 9 public repositories, all forks of existing open-source projects; no original repos with significant star counts (GitHub, Maquoketa-Research)
+- 0 job openings listed (YC page)
+- Website returned 403 at time of research; tagline from search snippet: "Setting a New Bar in Aerial Warfare"
+- No press coverage found in named publications
+- No Product Hunt launch found
+- Founded 2025 (YC page)
 
 **Competitive landscape:**
 
-| Competitor | Key Differentiator vs. Maquoketa | Funding | Revenue/ARR |
-|---|---|---|---|
-| **AeroVironment** (Switchblade) | Established production at scale (14,400 units/yr target); fielded in Ukraine; $990M+ Army contracts (AeroVironment press release, Feb 2026) | Public (AVAV) | $722M FY2025 revenue (company-wide) |
-| **Anduril** (Altius-600M, Bolt) | Broad defense portfolio beyond munitions; software-defined autonomy stack; USMC Bolt contract (DefenseScoop, Oct 2024) | ~$3.5B+ raised; ~$14B+ valuation | Revenue unknown |
-| **Helsing** (HX-2) | AI-first European defense; €268M German Bundeswehr contract; 6,000 units ordered by Ukraine (Breaking Defense, Feb 2025) | €1.37B raised; €12B valuation (June 2025) | Revenue unknown |
-| **Stark Defence** (OWE-V Virtus) | Rapid scaling with €268M German contract despite failed test strikes (DronXL, Oct 2025); Sequoia-backed | $100M raised; $500M valuation (DronXL, Aug 2025) | Revenue unknown |
-| **Neros Technologies** (Archer) | FPV-focused, fiber-optic variant; US Army PBAS Tranche 1 selection; UK manufacturing hub (TheDefensePost, Mar 2026) | $121M raised over 3 rounds (Tracxn) | Revenue unknown |
+| Competitor | Funding | Revenue | Key Differentiator vs. Maquoketa |
+|------------|---------|---------|----------------------------------|
+| AeroVironment (AVAV) | Public company; acquired BlueHalo for $3.5B (2025) | Public company revenue | Incumbent with $990M Army contract for Switchblade; scaling to 1,200 units/month (DefenseScoop, 2024; Defense News, Oct 2025) |
+| Anduril Industries | $6.9B total raised; $30.5B valuation (TechCrunch, Jun 2025) | Revenue unknown | Altius loitering munitions; Arsenal-1 factory ($1B, 5M sqft) for tens of thousands of units annually starting Jul 2026 (National Defense Magazine, Sep 2025) |
+| Shield AI | ~$3.1B equity raised; $12.7B valuation (Fortune, Mar 2026) | Projecting $540M+ in 2026 (Fortune, Mar 2026) | Hivemind AI autonomy platform; larger drone platforms vs. expendable munitions |
+| Helsing | $1.37B raised (multiple rounds, 2021-2025 via search snippet) | Revenue unknown | HX-2 loitering munition; €268M German government contract; 4,000+ HF-1s and 6,000+ HX-2s for Ukraine (DefenseScoop via search snippet) |
 
 **Why now:**
-- The Russia-Ukraine conflict created immediate, large-scale demand for expendable precision strike drones, validating the loitering munition category at industrial scale (MIT Technology Review, Jan 2026).
-- Germany approved €9B+ in strike drone contracts in early 2026, primarily to startups over incumbents (Defense News, Feb 2026).
-- The U.S. Army launched the Purpose-Built Attritable Systems (PBAS) program and the Marines introduced three new loitering munition types into infantry battalions in 2025 (Overt Defense, May 2025).
-- [Inferred]: The convergence of battlefield validation, government procurement urgency, and incumbent production bottlenecks creates an opening for new entrants with faster iteration cycles.
+- The U.S. Army's fiscal 2026 budget proposes equipping infantry brigades with loitering munitions at scale (DefenseScoop, Jun 2025)
+- Ukraine conflict has validated expendable autonomous drones as decisive battlefield systems, driving urgent DoD procurement (National Defense Magazine, Sep 2025)
+- Germany committed ~$632M to loitering munition contracts in 2025, signaling NATO-wide demand shift (Defense News, Feb 2026)
+- [Inferred]: The enabling change is a doctrinal shift—Ukraine demonstrated that cheap autonomous drones can neutralize armored vehicles costing orders of magnitude more, creating urgency in Western defense procurement for domestic manufacturing capacity.
 
 ## Founders & Team
 
 **Evan Yeager** — Co-Founder & CEO
-- UC Berkeley, EECS (LinkedIn).
-- Prior experience at SpiderRock, a trading technology firm (LinkedIn snippet via search).
-- Twitter/X: No public account found.
-- LinkedIn: linkedin.com/in/evanyeager/ — "EECS @ Berkeley" (LinkedIn).
-- GitHub: No public repos found.
+- BS in EECS, UC Berkeley (LinkedIn)
+- Previously: SpiderRock (LinkedIn via search snippet); software developer at Stylis.AI (F6S)
+- Twitter/X: @evan_yeager — follower count not retrievable
+- LinkedIn: linkedin.com/in/evanyeager — "CEO @ Maquoketa (YC P26)", 500+ connections
+- GitHub: No personal public repos found
 
 **Alejandro Hernandez** — Co-Founder & CTO
-- UC Berkeley, Electrical Engineering. Affiliated with Berkeley Wireless Research Center (BWRC) (LinkedIn).
-- Specializes in phased array systems and RF design; leads in-house advanced electronics design (YC page).
-- Twitter/X: No public account found.
-- LinkedIn: linkedin.com/in/alejandrohernandez2535/ — "Berkeley Wireless Research Center" (LinkedIn).
-- GitHub: No public repos found.
+- BS in EECS, UC Berkeley; researcher at Berkeley Wireless Research Center (LinkedIn via search snippet)
+- Specializes in phased array systems and RF design (YC page)
+- Twitter/X: No public account found
+- LinkedIn: linkedin.com/in/alejandrohernandez2535 — "Berkeley Wireless Research Center"
+- GitHub: No personal public repos found
+
+**David Muchow** — Co-Founder & Chief Operations Officer
+- Background details limited in public sources; associated with Maquoketa Research (YC page)
+- Twitter/X: No public account found
+- LinkedIn: Not definitively identified among multiple profiles with the same name
+- GitHub: No public repos found
 
 **Aidan Williams** — Co-Founder & Chief Mechanical Engineer
-- No public background, education, or prior employment data found.
-- Twitter/X: No public account found.
-- LinkedIn: No confirmed profile found.
-- GitHub: No public repos found.
+- Background details limited in public sources; associated with Maquoketa Research (YC page)
+- Twitter/X: No public account found
+- LinkedIn: Not definitively identified among multiple profiles with the same name
+- GitHub: No public repos found
 
-**Co-founder relationship:** Yeager and Hernandez both attended UC Berkeley — Yeager in EECS and Hernandez in EE / Berkeley Wireless Research Center (LinkedIn profiles). [Inferred]: They likely overlapped at Berkeley given co-founding a company together. No data found on Williams' connection to the other founders.
+**Co-founder relationship:** Evan Yeager and Alejandro Hernandez both studied EECS at UC Berkeley (LinkedIn profiles), indicating a shared university background. No overlap data found for Muchow or Williams.
 
-**Founder-market fit:** Hernandez's phased array and RF design specialization at BWRC directly maps to the core electronics challenge in autonomous munitions — guidance, communications, and EW resistance. Yeager's EECS background at Berkeley provides software/systems capability. Williams fills the mechanical/airframe engineering role. [Inferred]: The team covers the three core disciplines (software, RF/electronics, mechanical) needed to build a complete drone system. No advisors, board members, or notable investors beyond YC found.
+**Founder-market fit:** Yeager (EECS, software/systems) and Hernandez (RF/phased array, Berkeley Wireless Research Center) bring complementary technical backgrounds directly relevant to autonomous drone electronics and communications design. Williams brings mechanical engineering for airframe design. The team covers the core disciplines needed for full-stack drone development. No advisors, board members, or notable investors beyond YC were found.
 
 ## Key Risks
 
-**Defense procurement timeline risk:** DoD procurement cycles typically run 12-36 months from initial contact to contract award. With no disclosed contracts or SBIR awards, the company faces an extended pre-revenue period that may exceed typical pre-seed runway. Mitigation: YC backing and potential OTA (Other Transaction Authority) pathways can compress timelines.
+**Defense procurement cycle risk:** U.S. DoD procurement programs (LASSO, Replicator) have multi-year timelines with extensive testing and certification requirements. A 5-person pre-seed startup may face 18-36+ month sales cycles before meaningful contract revenue, creating cash-flow pressure between YC funding and first contract awards.
 
-**Competitive intensity from well-funded peers:** At least five funded competitors (AeroVironment, Anduril, Helsing, Stark, Neros) hold active military contracts and have raised $100M+ each. Stark secured a €268M German contract despite failing all four test strikes (DronXL, Oct 2025), suggesting incumbency advantages in procurement relationships that a pre-seed entrant would lack.
+**Incumbent competitive pressure:** AeroVironment holds a $990M Army contract and is scaling to thousands of Switchblades per month (Defense News, Oct 2025). Anduril is building a $1B factory for tens of thousands of autonomous systems annually (National Defense Magazine, Sep 2025). Both have established DoD relationships, security clearances, and production infrastructure.
 
-**ITAR and security clearance barriers:** Building and selling attack drones requires ITAR compliance, facility security clearances, and potentially personal clearances for founders. These impose non-trivial cost, time, and operational constraints on a 5-person team. No evidence found that the team has existing clearances.
+**Regulatory and compliance burden:** ITAR compliance, security clearances, and DoD contractor qualification requirements impose significant fixed costs on small teams. Export controls limit addressable market to allied nations.
 
-**Technical feasibility of autonomous targeting:** "Autonomous" one-way attack implies onboard target identification and engagement without continuous operator control. This remains technically challenging and ethically/legally contested. DoD policy (DoD Directive 3000.09) requires human oversight for lethal autonomous systems. [Inferred]: Regulatory constraints may limit the "autonomous" scope to navigation rather than terminal engagement.
+**Hardware manufacturing scale-up:** Transitioning from prototype to volume production of hardware systems with custom electronics (phased array, RF) requires capital-intensive manufacturing infrastructure that is difficult to fund at pre-seed.
 
-**Name ambiguity:** "Maquoketa" is a city in Iowa; search results frequently return unrelated civic, school, and utility results, potentially complicating brand discoverability and press coverage.
+**Name disambiguation:** "Maquoketa" is also a city in Iowa; search results frequently return unrelated entities (schools, utilities, banks), which may reduce discoverability and complicate brand building in government procurement.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $4.00B in 2025, projected $24.13B by 2034 (Fortune Business Insights, 2025); alternate: $0.64B in 2025 to $1.07B by 2030 (Mordor Intelligence, 2025) |
-| SAM | U.S. loitering munitions market: $170.4M in 2024 (Persistence Market Research, 2025) |
+| TAM | $5.36B in 2025, projected $13.26B by 2030 at 19.9% CAGR (MarketsandMarkets, 2025 via search snippet) |
+| SAM | No public data found |
 | Traction | No public data found |
 | Revenue Signal | No public data found |
-| Founders | Evan Yeager (CEO): UC Berkeley EECS, SpiderRock. Alejandro Hernandez (CTO): UC Berkeley EE, Berkeley Wireless Research Center, phased array/RF specialist. Aidan Williams (CME): no public background found. |
-| Competitors | AeroVironment (public, $990M+ contracts, Switchblade production leader); Anduril (~$3.5B+ raised, broad defense portfolio); Helsing (€1.37B raised, €12B valuation, HX-2); Stark Defence ($100M raised, $500M valuation, OWE-V Virtus); Neros ($121M raised, US Army PBAS selection) |
-| Moat Signals | In-house phased array/RF design capability (YC page); ITAR/regulatory barriers to entry |
-| Risk Factors | Defense procurement timeline, competitive intensity from $100M+ funded peers, ITAR/clearance constraints, autonomous targeting feasibility |
-| Founder Reach | No public data found |
+| Founders | Evan Yeager (CEO): UC Berkeley EECS, SpiderRock. Alejandro Hernandez (CTO): UC Berkeley EECS, Berkeley Wireless Research Center. David Muchow (COO): limited public data. Aidan Williams (Chief Mechanical Engineer): limited public data. |
+| Competitors | AeroVironment (public; $990M Army Switchblade contract, scaling to 1,200 units/month), Anduril ($6.9B raised, $30.5B valuation, Altius munitions), Shield AI ($3.1B+ raised, $12.7B valuation, $540M projected 2026 revenue), Helsing ($1.37B raised, €268M German contracts) |
+| Moat Signals | No public data found |
+| Risk Factors | Defense procurement cycle length, incumbent competitive pressure from AeroVironment/Anduril, hardware manufacturing scale-up capital requirements |
+| Founder Reach | Evan Yeager: Twitter @evan_yeager (count not retrievable), LinkedIn 500+ connections. Others: no public social accounts found. |
 | Distribution Signals | No public data found |
 | Emails | No public data found |

@@ -1,0 +1,72 @@
+{
+  "slug": "regbase",
+  "name": "Regbase",
+  "oneLiner": "Tracking global laws, grants and consultations",
+  "metadata": {
+    "website": "https://regbase.com",
+    "yc_page": "https://www.ycombinator.com/companies/regbase",
+    "batch": "Spring 2026",
+    "industry": "B2B / B2B -> Legal",
+    "team_size": "3",
+    "location": "New York, NY, USA",
+    "tags": "Legal, Sales Enablement, LegalTech, Regtech",
+    "yc_partner": "Andrew Miklas",
+    "emails": "info@regbase.com"
+  },
+  "tags": [
+    "Legal",
+    "Sales Enablement",
+    "LegalTech",
+    "Regtech"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-22T23:58:03.174Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 37,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 48,
+    "EG": null,
+    "NR": 53,
+    "PG": 55,
+    "PT": 36,
+    "SL": 39,
+    "VK": 37
+  },
+  "consolidatedAvg": 44.67,
+  "consolidatedRank": 35,
+  "paths": {
+    "memo": "spring2026/memos/regbase.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/regbase.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/regbase.md",
+      "paul-graham": "spring2026/evals/paul-graham/regbase.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/regbase.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/regbase.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/regbase.md"
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "slug": "lightsprint",
+  "name": "Lightsprint",
+  "oneLiner": "Collaborative product development platform that lets non-engineering?",
+  "metadata": {
+    "website": "https://lightsprint.ai",
+    "yc_page": "https://www.ycombinator.com/companies/lightsprint",
+    "batch": "Spring 2026",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Developer Tools",
+    "yc_partner": "Garry Tan",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Developer Tools"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-22T23:54:35.933Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 46,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 35,
+    "EG": null,
+    "NR": 50,
+    "PG": 40,
+    "PT": 29,
+    "SL": 33,
+    "VK": 46
+  },
+  "consolidatedAvg": 38.83,
+  "consolidatedRank": 82,
+  "paths": {
+    "memo": "spring2026/memos/lightsprint.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/lightsprint.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/lightsprint.md",
+      "paul-graham": "spring2026/evals/paul-graham/lightsprint.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/lightsprint.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/lightsprint.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/lightsprint.md"
+    }
+  }
+}

@@ -5,7 +5,7 @@
   "metadata": {
     "website": "https://www.gojiberry.ai",
     "yc_page": "https://www.ycombinator.com/companies/gojiberry-ai",
-    "batch": "Spring 2026 (S26)",
+    "batch": "Spring 2026",
     "industry": "B2B / B2B -> Sales",
     "team_size": "0",
     "location": "Remote",
@@ -14,53 +14,48 @@
   },
   "tags": [],
   "slideImage": null,
-  "memoGeneratedAt": "2026-03-26T05:19:11.331Z",
+  "memoGeneratedAt": "2026-04-22T23:41:42.634Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 40,
+      "score": 31,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 45,
+      "score": 50,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 49,
+      "score": 56,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 34,
+      "score": 33,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 30,
+      "score": 29,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 39,
+      "score": 41,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 32,
-    "EG": 40,
-    "NR": 45,
-    "PG": 49,
-    "PT": 34,
-    "SL": 30,
-    "VK": 39
+    "CB": 31,
+    "EG": null,
+    "NR": 50,
+    "PG": 56,
+    "PT": 33,
+    "SL": 29,
+    "VK": 41
   },
-  "consolidatedAvg": 38.43,
-  "consolidatedRank": 43,
+  "consolidatedAvg": 40,
+  "consolidatedRank": 71,
   "paths": {
     "memo": "spring2026/memos/gojiberry-ai.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/gojiberry-ai.md",
-      "elad-gil": "spring2026/evals/elad-gil/gojiberry-ai.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/gojiberry-ai.md",
       "paul-graham": "spring2026/evals/paul-graham/gojiberry-ai.md",
       "peter-thiel": "spring2026/evals/peter-thiel/gojiberry-ai.md",

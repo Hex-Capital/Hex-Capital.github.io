@@ -1,0 +1,70 @@
+{
+  "slug": "pentagon",
+  "name": "Pentagon",
+  "oneLiner": "Your AI agents, working as a team.",
+  "metadata": {
+    "website": "https://pentagon.run",
+    "yc_page": "https://www.ycombinator.com/companies/pentagon",
+    "batch": "Spring 2026",
+    "industry": "B2B / B2B -> Productivity",
+    "team_size": "1",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Enterprise Software",
+    "yc_partner": "Tom Blomfield",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Enterprise Software"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-22T23:27:09.424Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 22,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 38,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 30,
+    "EG": null,
+    "NR": 42,
+    "PG": 34,
+    "PT": 22,
+    "SL": 28,
+    "VK": 38
+  },
+  "consolidatedAvg": 32.33,
+  "consolidatedRank": 101,
+  "paths": {
+    "memo": "spring2026/memos/pentagon.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/pentagon.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/pentagon.md",
+      "paul-graham": "spring2026/evals/paul-graham/pentagon.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/pentagon.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/pentagon.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/pentagon.md"
+    }
+  }
+}

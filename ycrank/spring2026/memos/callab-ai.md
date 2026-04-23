@@ -1,6 +1,6 @@
 ﻿# Callab AI
 
-> AI-voice agents for any telephony stack.
+> AI voice agents for on-prem PBX stacks.
 
 | Field | Value |
 |-------|-------|
@@ -9,113 +9,110 @@
 | Batch | Spring 2026 |
 | Industry | B2B / B2B -> Operations |
 | Team Size | 7 |
-| Location | ADGM, Abu Dhabi, UAE |
+| Location | UAE / Tunisia (Wamda, Mar 2024) |
 | Tags | Artificial Intelligence, B2B, Call Center |
 | YC Partner | Tom Blomfield |
-| Emails | Hello@clusterlab.com (callab.ai website footer) |
+| Emails | No public data found |
 
 ## The Idea
 
-**Problem:** Enterprises running legacy telephony infrastructure — Cisco CUCM, SIP trunk configurations, on-premises PBX systems — cannot easily adopt AI voice agents because most solutions require greenfield cloud deployments (callab.ai). Contact centers in regulated industries (banking, healthcare, debt collection) face additional constraints around carrier-grade compliance and existing IVR workflows that cloud-native AI voice platforms do not accommodate (callab.ai). Current alternatives require rip-and-replace migrations or parallel systems.
+**Problem:** Over half the world's contact center infrastructure runs on legacy telephony—CUCM, on-prem PBX, carrier-grade SIP (company website). Current AI voice platforms require cloud-native environments, forcing a costly rip-and-replace migration. The company claims this is a $70B+ market (YC page). 35% of Fortune 500 contact centers still route legacy trunks through cloud APIs to de-risk full migrations (Synthflow blog, 2025 via search snippet).
 
-**Approach:** Callab AI provides an AI voice agent platform that integrates natively with existing PBX systems, IVR flows, and carrier-grade SIP endpoints (YC page). Core capabilities include: knowledge base referencing (PDFs, websites, Google Docs) during live calls; post-call analysis with recording, transcription, and sentiment tagging; intelligent call transfer between AI agents, departments, or live agents; structured data extraction (names, budgets, next steps); batch calling for hundreds of simultaneous personalized outbound calls; and regional dialect support including Arabic dialects across MENA (callab.ai).
+**Approach:** Callab AI deploys AI voice agents that plug directly into existing on-prem PBX and SIP trunk infrastructure without requiring migration. Features include knowledge-base referencing (PDFs, Google Docs), post-call analysis with sentiment tagging, context-based call transfer between AI and human agents, structured data extraction from voice, batch outbound calling, and Arabic dialect support (company website). The platform supports English, Arabic, and French (Capterra listing, 2026 via search snippet). Documentation site at docs.callab.ai describes SIP trunk integration, inbound/outbound agent deployment, and function-calling for custom actions.
 
-**Differentiation:** Most funded competitors (Vapi, Retell AI, Bland AI) are cloud-native and developer-first, requiring new telephony infrastructure (a16z, 2025). Synthflow targets SMEs with no-code tools (Synthflow blog, 2025). Callab AI's stated differentiator is native integration with legacy enterprise telephony stacks — CUCM, SIP trunks, PBX — without requiring greenfield deployments (YC page). VoiceInfra is the closest competitor on this specific angle, offering SIP integration with Cisco, Avaya, and Mitel PBX systems (voiceinfra.ai). Callab AI also differentiates via Arabic dialect support for MENA markets (callab.ai).
+**Differentiation:** Most AI voice agent platforms (Vapi, Retell AI, PolyAI) are cloud-first and require customers to migrate off legacy telephony. Callab AI's stated differentiator is native integration with on-prem PBX stacks (CUCM, SIP trunks) without rip-and-replace (YC page). Trillet AI also claims legacy PBX integration with Avaya, Cisco CUCM, Mitel, and Asterisk (Trillet blog, 2026), making it the closest direct competitor. Callab AI additionally emphasizes Arabic dialect support and MENA-region localization (company website), a niche underserved by English-first platforms.
 
-**Business Model:** Minutes-based SaaS pricing. Starter tier: $500/month for 5,000 included minutes with basic onboarding and email support; a one-time setup fee may apply. Enterprise tier: starting at $1,000+/month for high call volumes with white-glove implementation and dedicated support (callab.ai/pricing). Capterra lists pricing starting at $240/month, which may reflect an older or unlisted plan (Capterra, 2026).
+**Business Model:** No pricing page found on the website. [Inferred]: Most likely monetization is per-seat or per-minute SaaS pricing, given industry norms for contact center AI platforms.
 
-**TAM/SAM:** The global call center AI market was valued at $2.41B in 2025, projected to reach $13.52B by 2034 at 20.8% CAGR (Fortune Business Insights via search snippet). The broader voice AI agent market was valued at $3.14B in 2024, projected to reach $47.5B by 2034 at 34.8% CAGR (Precedence Research via search snippet). The CCaaS market was valued at $7.27B in 2025 (Precedence Research via search snippet). [Inferred]: Callab AI's SAM is the subset of enterprises running legacy on-premises telephony stacks in regulated industries, concentrated in MENA and European markets; no public SAM estimate exists.
+**TAM/SAM:** Contact center software market: $72.86B in 2025, projected to reach $184.24B by 2031 at 16.72% CAGR (Mordor Intelligence via search snippet). Call center AI sub-segment: $1.99B in 2024, projected $7.08B by 2030 at 23.8% CAGR (Grand View Research via search snippet). No public SAM estimate specific to legacy/on-prem telephony AI integration found.
 
-**GTM / Distribution:** Callab AI targets six verticals: call centers, debt collection, healthcare, real estate, hospitality, and retail (callab.ai). The company operates from Abu Dhabi (ADGM) with founders who have work experience across Tunisia, France, and UAE (YC page, Crunchbase). [Inferred]: Initial distribution likely leverages the founders' MENA enterprise network, with the Arabic dialect capability serving as a regional wedge before expanding to Western enterprise accounts.
+**GTM / Distribution:** The company states it serves clients across three continents, including "DunkinDonut" (YC page). Listed on Capterra, GetApp, and Software Advice as of 2026 (search results). [Inferred]: GTM likely combines direct enterprise sales—leveraging the founders' existing government and enterprise networks in France, Tunisia, and UAE—with inbound demand from software directories.
 
 ## Defensibility
 
-- **Technical integration depth:** Native integration with legacy CUCM, SIP trunk, and PBX systems requires specialized telephony engineering knowledge that cloud-native competitors have not prioritized (YC page).
-- **Switching costs:** Once embedded in an enterprise's existing telephony stack and IVR flows, migration costs create retention (callab.ai). [Inferred]: Each deployment likely involves custom configuration, increasing stickiness.
-- **Arabic NLP expertise:** The founding team co-authored "101 Billion Arabic Words Dataset" (arXiv:2405.01590) and published on Arabic instruction-tuning for LLMs (ResearchGate, dblp). [Inferred]: This positions them with a data and model advantage for MENA voice AI that English-first competitors lack.
+- **Technical integration complexity:** Native integration with legacy PBX stacks (CUCM, SIP, Asterisk) requires specialized telephony engineering knowledge that cloud-first platforms have not prioritized (company website; docs.callab.ai).
+- **Arabic NLP and dialect support:** The founders co-authored the "101 Billion Arabic Words Dataset," the largest Arabic dataset published (arXiv 2405.01590, April 2024), available on Hugging Face with 72 likes and 532 monthly downloads (Hugging Face). This research underpins dialect-aware voice AI in a language underserved by competitors.
+- **Switching costs:** [Inferred]: Once integrated into an enterprise's on-prem telephony stack, migration to a competitor would require re-integration with the same legacy infrastructure, creating moderate switching costs.
 
-**Market structure:** Cloud-native AI voice agent companies (Vapi, Retell, Bland) have built their infrastructure around modern APIs and cloud telephony — retrofitting for legacy on-premises PBX integration would require fundamentally different engineering, sales motions, and support models. Incumbent telephony vendors (Cisco, Avaya, Genesys) are adding AI features to their own platforms but face the classic innovator's dilemma of cannibalizing existing high-margin service contracts with automation (a16z, 2025 via search snippet). [Inferred]: The structural barrier is that both startups and incumbents face misaligned incentives or architecture to serve the legacy-telephony-plus-AI niche directly.
+**Market structure:** Cloud-native voice AI platforms (Vapi, Retell, PolyAI) have built their architectures around modern cloud telephony APIs; supporting legacy on-prem PBX natively would require re-architecting their infrastructure stack and diverting engineering from their core cloud customers. [Inferred]: This creates a structural disincentive for cloud-first incumbents to serve the legacy segment.
 
-**Commoditization risk:** The underlying LLM and speech-to-text technologies are widely available. Multiple well-funded competitors (Bland AI at $65M, Vapi at $25M+, Synthflow at $30M) are building adjacent solutions (various sources, 2024-2025). Synthflow already integrates with Cisco, Avaya, Genesys, and RingCentral (Synthflow blog, 2025). VoiceInfra directly targets SIP/PBX integration (voiceinfra.ai). [Inferred]: The technical moat around legacy integration is real but narrowing as competitors expand their integration matrices.
+**Commoditization risk:** As contact centers gradually migrate to cloud telephony, the legacy PBX addressable market shrinks over time. Larger competitors like Cognigy (acquired by NICE for $955M in 2025 per search snippet) and Trillet AI already offer some on-prem integration. The Arabic dialect advantage narrows if major LLM providers improve Arabic support.
 
 ## Market & Traction
 
 **Traction signals:**
-- 100+ users ("Trusted by +100 users," callab.ai homepage)
-- Listed on GetApp, Capterra, and SourceForge with product profiles (GetApp 2026, Capterra 2026, SourceForge 2025)
-- LinkedIn showcase page: linkedin.com/showcase/callabai (LinkedIn); employee count listed as 11-50 (LinkedIn)
-- Company Twitter/X: @callab_ai (YC page); follower count not retrievable
-- Founded 2024; evolved from ClusterLab (est. 2020), which raised $600K pre-seed in March 2024 from investors including Karim Beguir, CEO of InstaDeep (Wamda, Mar 2024; TechMoran, Mar 2024; The SaaS News, 2024)
-- No Product Hunt launch page found
-- No Discord or Slack community found
-- No app store or Chrome Web Store presence found
+- Clients across three continents, including "DunkinDonut" as a named brand (YC page)
+- 7 customer testimonials on website with named individuals and titles across healthcare, real estate, logistics, and sales operations (company website)
+- Listed on Capterra, GetApp, Software Advice (search results, 2026)
+- Twitter/X: @callab_ai, 22 followers (X.com profile)
+- LinkedIn: linkedin.com/company/callabai (YC P26 designation visible; follower count not retrievable)
+- No Product Hunt launch found
+- No Discord/Slack community found
+- No public revenue or user count data found
+- Prior entity ClusterLab raised $600K pre-seed in March 2024 from Karim Beguir (InstaDeep co-founder) and regional angel investors (Wamda, Mar 2024)
 
 **Competitive landscape:**
 
 | Competitor | Funding | Revenue/ARR | Key Differentiator vs. Callab AI |
-|---|---|---|---|
-| **Retell AI** | $5.1M seed (Alt Capital, Aug 2024) | ~$36-40M ARR (Getlatka, early 2026) | Developer-first API platform; extreme capital efficiency; cloud-native, not legacy-focused |
-| **Bland AI** | $65M total; $40M Series B (Emergence Capital, Feb 2025) | $3.8M revenue in 2024 (Getlatka) | Enterprise outbound call automation with SIP setup wizard; cloud-first architecture |
-| **Vapi** | $25-28M; $20M Series A (Bessemer, Dec 2024) | ~$8M ARR by Apr 2025 (Getlatka) | Developer infrastructure / "Twilio for voice AI"; 100K+ developers on platform (Vapi blog) |
-| **Synthflow AI** | ~$30M; $20M Series A (Accel, Jun 2025) | Not disclosed; 45M calls handled, ~1K customers (Synthflow blog) | No-code platform; in-house telephony with sub-100ms latency; integrates with Cisco, Avaya, Genesys |
-| **Air AI** | Minimal VC (~bootstrapped) | ~$3.5M in 2025 (Getlatka) | Long-form sales calls (5-40 min); agency licensing model ($25K-$100K upfront) |
+|------------|---------|-------------|----------------------------------|
+| PolyAI | $200M+ total, $750M valuation (SiliconANGLE, Dec 2025) | 10x growth over 2 years; revenue figure undisclosed (PRNewswire, Dec 2025) | Cloud-native managed service for large enterprises; 2,000+ deployments, 45 languages |
+| Vapi | $20M Series A, $130M valuation (GlobeNewsWire, Dec 2024) | Scaled to millions in revenue within first 6 months (Vapi blog) | Developer API platform; cloud-first, no on-prem PBX focus |
+| Retell AI | $5.1M total (Crunchbase via search snippet) | $40M ARR by Nov 2025; 40M+ calls/month (Getlatka, 2025; SiliconANGLE, Dec 2025) | Cloud API platform; YC W24; highest capital efficiency in segment |
+| Trillet AI | Funding data unverified | Revenue unknown | Closest competitor: claims legacy PBX integration (Avaya, Cisco CUCM, Mitel, Asterisk) with on-prem Docker deployment (Trillet blog, 2026) |
 
-**Why now:**
-- Gartner projected conversational AI will reduce customer service costs by $80B by 2026, with automation handling 1 in 10 interactions, up from 1.6% in 2022 (Gartner via search snippet).
-- LLM quality crossed a threshold in 2024-2025 enabling natural-sounding multi-turn voice conversations at production scale (a16z, 2025 via search snippet).
-- [Inferred]: Real-time speech-to-text latency improvements and falling inference costs in 2024-2025 made AI voice agents commercially viable for enterprises that previously could not justify the quality tradeoff vs. human agents.
+**Why now:** [Inferred]: The convergence of three factors opened this window: (1) LLM-powered voice models reached production-grade quality for real-time phone conversations in 2024-2025, enabling voice agents that can handle complex calls; (2) enterprise contact centers face growing pressure to reduce costs—conversational AI is expected to reduce customer service costs by $80B by 2026 (Synthflow blog, 2025 via search snippet)—but many cannot migrate off legacy telephony due to compliance, cost, or operational constraints; (3) Arabic LLM capabilities improved substantially, partly through datasets like the founders' own 101 Billion Arabic Words Dataset (arXiv, April 2024).
 
 ## Founders & Team
 
-**Chehir Dhaouadi** — Co-Founder & CTO
-- 10+ years in enterprise systems, IT consulting, and technical leadership for financial institutions (YC page)
-- Previously CTO at FivePoints The Talent Pool (Crunchbase)
-- Co-founded ClusterLab in 2020; built platforms serving 200K+ users across Tunisian government entities (Crunchbase, Wamda Mar 2024)
-- Co-author, "101 Billion Arabic Words Dataset" (arXiv:2405.01590); ResearchGate profile with Arabic NLP publications (ResearchGate)
-- Education: Higher Institute of Technological Studies, Tunisia (LinkedIn)
-- Twitter/X: @chehir_dh — follower count not retrievable
-- LinkedIn: linkedin.com/in/chehirdhawedi — Co-Founder & CTO at Clusterlab
-- GitHub: github.com/thevexx — 74 repos, 65 followers, Arctic Code Vault Contributor (GitHub)
+**Haithem Kchaou** — Co-founder & CEO
+- 7+ years building AI solutions for government and enterprise in France, Tunisia, and UAE (YC page)
+- Education: Bethany College (LinkedIn via search snippet)
+- Previously: Project Manager intern at Mobioos (LinkedIn via search snippet)
+- Founded ClusterLab in 2020 in Tunisia; built Reedz (Arabic audiobook summarization app) before pivoting to Callab AI (Wamda, Mar 2024)
+- Selected for Nvidia Inception Program (Wamda, Mar 2024)
+- Collaborated with InstaDeep on national AI initiative for Tunisia's Ministry of Higher Education (Wamda, Mar 2024)
+- Featured in Inc. Arabia's "GCC Tech Vanguard" (Dec 2024 via search snippet)
+- Co-author: "101 Billion Arabic Words Dataset" (arXiv 2405.01590)
+- Twitter/X: No personal account found; company account @callab_ai (22 followers)
+- LinkedIn: linkedin.com/in/haithemkchaou
+- GitHub: No public repos found
 
-**Haithem Kchaou** — Co-Founder & CEO
-- 7+ years building AI solutions for government and enterprise across France, Tunisia, and UAE (YC page)
-- Co-founded Reedz, an AI-powered Arabic audiobook/podcast summarization app (LinkedIn)
-- Named one of 30 innovators in Inc. Arabia's "The GCC's Tech Vanguard" (Inc. Arabia, Dec 2024)
-- Thomas Jefferson Exchange Scholarship recipient (U.S. Department of State program) at Bethany College (LinkedIn)
-- Author at Entrepreneur Middle East (Entrepreneur.com)
-- startAD Studios Ma'an Cohort 6 participant (LinkedIn)
-- Education: South Mediterranean University (MSB — MedTech-LCI) (LinkedIn)
-- Twitter/X: @haithemkchaou — follower count not retrievable
-- LinkedIn: linkedin.com/in/haithemkchaou — Founder & CEO at Clusterlab
-- GitHub: No public profile found
-- Medium: @haithemkchaou — 45 followers (Medium)
+**Chehir Dhaouadi** — Co-founder & CTO
+- 10+ years in enterprise systems, IT consulting, and financial technology (YC page)
+- Previously: CTO at FivePoints The Talent Pool (Crunchbase via search snippet)
+- Built platforms serving 200,000+ users across Tunisian government entities (LinkedIn via search snippet)
+- Architects core voice AI infrastructure and legacy telephony integrations (YC page)
+- Co-author: "101 Billion Arabic Words Dataset" (arXiv 2405.01590)
+- Twitter/X: @chehir_dh (follower count not retrievable)
+- LinkedIn: linkedin.com/in/chehirdhawedi
+- GitHub: No public repos found
 
-**Co-founder relationship:** Both founders co-founded ClusterLab in 2020 and are originally from Tunisia, later relocating to the UAE (Wamda, Mar 2024; LinkedIn profiles). They co-authored the "101 Billion Arabic Words Dataset" together (arXiv:2405.01590). [Inferred]: Multi-year co-founding relationship (since 2020) with shared national origin and overlapping research work.
+**Co-founder relationship:** Both co-founded ClusterLab together in Tunisia in 2020 (Wamda, Mar 2024), indicating at least 6 years of working together.
 
-**Founder-market fit:** Dhaouadi's 10+ years of enterprise systems engineering and financial institution experience maps directly to the legacy telephony integration challenge (YC page). Kchaou's GTM experience across government and enterprise in three countries (France, Tunisia, UAE) aligns with the cross-border enterprise sales motion required (YC page). Both founders' Arabic NLP research (arXiv:2405.01590) provides domain-specific expertise for MENA voice AI. Their prior company ClusterLab deployed AI to 200K+ government users, demonstrating enterprise delivery capability (Wamda, Mar 2024). Notable investor: Karim Beguir, CEO of InstaDeep (acquired by BioNTech for ~$680M), participated in the $600K pre-seed (Dabafinance, 2024; The SaaS News, 2024).
+**Founder-market fit:** Both founders have direct experience building AI products for Arabic-speaking markets and enterprise/government clients in MENA—Kchaou across France, Tunisia, and UAE, and Dhaouadi with 200K+ user government platforms in Tunisia. Their co-authorship of the largest Arabic NLP dataset provides domain-specific technical depth in a language underserved by competitors. Karim Beguir, co-founder of InstaDeep (acquired by BioNTech for ~$680M), is an early investor (Wamda, Mar 2024).
 
 ## Key Risks
 
-**Well-funded competitor convergence:** Synthflow ($30M raised) already integrates with Cisco, Avaya, Genesys, and RingCentral (Synthflow blog, 2025). VoiceInfra targets SIP/PBX integration directly (voiceinfra.ai). As the legacy telephony niche proves valuable, better-capitalized competitors can add similar integrations. Mitigation: Callab AI's YC S26 backing and deep CUCM expertise may provide a speed advantage in regulated MENA markets.
+**Legacy market decay:** The core value proposition depends on enterprises remaining on on-prem PBX infrastructure. As cloud migration accelerates, the addressable legacy segment shrinks. Callab AI must either expand to cloud-native deployments or maintain enough legacy demand to sustain growth.
 
-**Geographic concentration risk:** The company is based in Abu Dhabi with founders from Tunisia, and Arabic dialect support is a key differentiator (callab.ai). MENA enterprise sales cycles can be long and relationship-dependent. Expansion to Western markets would require competing directly with Bland, Retell, Vapi, and Synthflow on their home turf without the legacy-telephony differentiation being as strong a wedge.
+**Direct competitor overlap with Trillet AI:** Trillet AI claims nearly identical legacy PBX integration capabilities (CUCM, Avaya, Mitel, Asterisk) with on-prem Docker deployment and enterprise SLAs (Trillet blog, 2026). Differentiation may rest primarily on Arabic dialect support and MENA focus rather than technical integration capability.
 
-**Email domain mismatch / brand clarity:** The company website lists the contact email as Hello@clusterlab.com, not a callab.ai address (callab.ai footer). The Crunchbase legal entity is "Clusterlabs LTD" (Crunchbase). The company evolved from ClusterLab (founded 2020) to Callab AI (2024) — prior product (Arabic LLMs and NLP tools) differs from current product (voice agents for telephony). Prior-product metrics (200K government users, Arabic dataset) should not be conflated with current-product traction.
+**Product pivot recency:** The parent entity ClusterLab was founded in 2020 around Arabic content summarization (Reedz). The pivot to voice AI for contact centers represents a significant domain shift. Prior-product metrics (Reedz, Elm) should not be conflated with current-product traction.
 
-**Platform dependency on third-party LLMs:** [Inferred]: Voice AI quality depends on underlying speech-to-text and LLM providers. Pricing or API changes from providers (OpenAI, Google, etc.) could compress margins, particularly at the $500/month Starter tier with 5,000 minutes included.
+**Concentration risk in MENA go-to-market:** The founders' networks and Arabic dialect advantage are strongest in MENA and francophone markets. Scaling to English-dominant markets (US, UK) would require competing directly against well-funded cloud-native platforms (Retell AI, Vapi, PolyAI) without the legacy integration moat being as differentiated.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $2.41B call center AI market in 2025, 20.8% CAGR to $13.52B by 2034 (Fortune Business Insights via search snippet); $3.14B voice AI agent market in 2024, 34.8% CAGR to $47.5B by 2034 (Precedence Research via search snippet) |
+| TAM | Contact center software: $72.86B in 2025, $184.24B by 2031 at 16.72% CAGR (Mordor Intelligence via search snippet); Call center AI: $1.99B in 2024, $7.08B by 2030 at 23.8% CAGR (Grand View Research via search snippet) |
 | SAM | No public data found |
-| Traction | 100+ users (callab.ai homepage); listed on GetApp, Capterra, SourceForge (2025-2026); $600K pre-seed raised as ClusterLab (Wamda, Mar 2024) |
-| Revenue Signal | Starter: $500/mo for 5,000 min; Enterprise: $1,000+/mo (callab.ai/pricing); Capterra lists $240/mo starting price (Capterra, 2026) |
-| Founders | Chehir Dhaouadi (CTO): 10+ yr enterprise systems, Arabic NLP researcher, CTO at FivePoints. Haithem Kchaou (CEO): 7+ yr AI for gov/enterprise, Inc. Arabia "GCC Tech Vanguard" (Dec 2024), Jefferson Scholar. |
-| Competitors | Retell AI ($5.1M raised, ~$36-40M ARR, developer-first cloud-native); Bland AI ($65M raised, $3.8M 2024 revenue, enterprise outbound); Vapi ($25-28M raised, ~$8M ARR, developer API infra); Synthflow ($30M raised, revenue unknown, no-code with Cisco/Avaya integration); Air AI (~bootstrapped, $3.5M 2025, agency licensing model) |
-| Moat Signals | Native legacy telephony integration (CUCM, SIP, PBX) (YC page); Arabic NLP dataset and research (arXiv:2405.01590); enterprise switching costs from custom deployments (callab.ai) |
-| Risk Factors | Well-funded competitor convergence on legacy telephony niche, geographic concentration in MENA, product pivot from LLM tools to voice agents with brand/entity mismatch |
-| Founder Reach | Chehir Dhaouadi: Twitter @chehir_dh (count not retrievable), LinkedIn 500+, GitHub 65 followers. Haithem Kchaou: Twitter @haithemkchaou (count not retrievable), LinkedIn 500+, Medium 45 followers (Medium). |
-| Distribution Signals | No Product Hunt launch found; no app store presence; no community (Discord/Slack) found; software listing profiles on GetApp, Capterra, SourceForge (2025-2026) |
-| Emails | Hello@clusterlab.com (callab.ai website footer) |
+| Traction | Clients across 3 continents including "DunkinDonut" (YC page); 7 named customer testimonials (company website); listed on Capterra, GetApp, Software Advice (search results, 2026) |
+| Revenue Signal | No public data found |
+| Founders | Haithem Kchaou (CEO): 7+ yrs AI in MENA, Nvidia Inception, co-author 101B Arabic Words Dataset. Chehir Dhaouadi (CTO): 10+ yrs enterprise systems, 200K+ user gov platforms, co-author 101B Arabic Words Dataset. |
+| Competitors | PolyAI ($200M+ raised, revenue undisclosed, cloud-native enterprise focus); Vapi ($20M raised, revenue undisclosed, developer API platform); Retell AI ($5.1M raised, $40M ARR per Getlatka 2025, cloud API); Trillet AI (funding unverified, revenue unknown, closest legacy PBX competitor) |
+| Moat Signals | Native on-prem PBX/SIP integration (company website); 101B Arabic Words Dataset with 72 likes on Hugging Face (Hugging Face); Arabic dialect specialization (company website) |
+| Risk Factors | Legacy market decay as cloud migration accelerates, direct competitor overlap with Trillet AI, product pivot recency from Reedz/ClusterLab |
+| Founder Reach | Haithem Kchaou: Twitter N/A (company @callab_ai 22 followers, X.com), LinkedIn present. Chehir Dhaouadi: Twitter @chehir_dh (count not retrievable), LinkedIn present. GitHub: no public repos for either founder. |
+| Distribution Signals | No Product Hunt launch found; no app store presence; Capterra/GetApp/Software Advice listings (search results, 2026) |
+| Emails | No public data found |

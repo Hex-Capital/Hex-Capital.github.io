@@ -1,0 +1,66 @@
+{
+  "slug": "elyra",
+  "name": "Elyra",
+  "oneLiner": "AI for Restaurant Reservations",
+  "metadata": {
+    "website": "https://www.elyrasystems.com/",
+    "yc_page": "https://www.ycombinator.com/companies/elyra",
+    "batch": "Spring 2026",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, SaaS, Restaurant Tech",
+    "yc_partner": "Pete Koomen",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "SaaS",
+    "Restaurant Tech"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-22T23:48:31.499Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 38,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 33,
+    "EG": null,
+    "NR": null,
+    "PG": 41,
+    "PT": 30,
+    "SL": 28,
+    "VK": 38
+  },
+  "consolidatedAvg": 34,
+  "consolidatedRank": 98,
+  "paths": {
+    "memo": "spring2026/memos/elyra.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/elyra.md",
+      "paul-graham": "spring2026/evals/paul-graham/elyra.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/elyra.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/elyra.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/elyra.md"
+    }
+  }
+}

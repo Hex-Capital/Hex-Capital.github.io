@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-04-13T18:06:54.976Z",
+  "builtAt": "2026-04-23T06:33:59.745Z",
   "batchName": "spring2026",
-  "companyCount": 53,
-  "evalCount": 371,
+  "companyCount": 101,
+  "evalCount": 573,
   "costs": {
-    "memos": 0,
-    "evals": 0,
-    "total": 0
+    "memos": 111.91,
+    "evals": 141.38,
+    "total": 253.29
   }
 }

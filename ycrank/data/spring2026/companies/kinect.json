@@ -1,0 +1,71 @@
+{
+  "slug": "kinect",
+  "name": "Kinect",
+  "oneLiner": "Personalized storefronts for every visitor",
+  "metadata": {
+    "website": "https://www.trykinect.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/kinect",
+    "batch": "Spring 2026",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "B2B, E-commerce, Conversational AI",
+    "yc_partner": "David Lieb",
+    "emails": "hello@trykinect.ai"
+  },
+  "tags": [
+    "B2B",
+    "E-commerce",
+    "Conversational AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-22T23:27:34.630Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 35,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 33,
+    "EG": null,
+    "NR": 44,
+    "PG": 37,
+    "PT": 30,
+    "SL": 31,
+    "VK": 35
+  },
+  "consolidatedAvg": 35,
+  "consolidatedRank": 96,
+  "paths": {
+    "memo": "spring2026/memos/kinect.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/kinect.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/kinect.md",
+      "paul-graham": "spring2026/evals/paul-graham/kinect.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/kinect.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/kinect.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/kinect.md"
+    }
+  }
+}

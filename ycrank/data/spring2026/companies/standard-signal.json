@@ -1,0 +1,65 @@
+{
+  "slug": "standard-signal",
+  "name": "Standard Signal",
+  "oneLiner": "Hedge fund where AI researches and executes every trade",
+  "metadata": {
+    "website": "https://standardsignal.com",
+    "yc_page": "https://www.ycombinator.com/companies/standard-signal",
+    "batch": "Spring 2026",
+    "industry": "Fintech / Asset Management",
+    "team_size": "1",
+    "location": "New York, NY, USA",
+    "tags": "Finance, AI",
+    "yc_partner": "Pete Koomen",
+    "emails": "founders@standardsignal.com"
+  },
+  "tags": [
+    "Finance",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-22T23:55:47.012Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 37,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 39,
+    "EG": null,
+    "NR": 53,
+    "PG": 41,
+    "PT": 33,
+    "SL": 37,
+    "VK": null
+  },
+  "consolidatedAvg": 40.6,
+  "consolidatedRank": 64,
+  "paths": {
+    "memo": "spring2026/memos/standard-signal.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/standard-signal.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/standard-signal.md",
+      "paul-graham": "spring2026/evals/paul-graham/standard-signal.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/standard-signal.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/standard-signal.md"
+    }
+  }
+}

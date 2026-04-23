@@ -8,7 +8,7 @@
     "batch": "Spring 2026",
     "industry": "B2B / B2B -> Engineering, Product and Design",
     "team_size": "3",
-    "location": "San Francisco, CA, US (YC page)",
+    "location": "San Francisco, CA, US",
     "tags": "AI",
     "yc_partner": "Nicolas Dessaigne",
     "emails": "No public data found"
@@ -17,58 +17,48 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-03-26T05:27:34.376Z",
+  "memoGeneratedAt": "2026-04-22T23:59:18.622Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 41,
+      "score": 36,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 51,
+      "score": 55,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 49,
+      "score": 54,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 32,
+      "score": 36,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 37,
+      "score": 31,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 32,
-    "EG": 41,
-    "NR": 51,
-    "PG": 49,
-    "PT": 32,
-    "SL": 32,
-    "VK": 37
+    "CB": 36,
+    "EG": null,
+    "NR": 55,
+    "PG": 54,
+    "PT": 36,
+    "SL": 31,
+    "VK": null
   },
-  "consolidatedAvg": 39.14,
-  "consolidatedRank": 42,
+  "consolidatedAvg": 42.4,
+  "consolidatedRank": 52,
   "paths": {
     "memo": "spring2026/memos/superset.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/superset.md",
-      "elad-gil": "spring2026/evals/elad-gil/superset.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/superset.md",
       "paul-graham": "spring2026/evals/paul-graham/superset.md",
       "peter-thiel": "spring2026/evals/peter-thiel/superset.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/superset.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/superset.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/superset.md"
     }
   }
 }

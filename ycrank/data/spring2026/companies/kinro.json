@@ -8,37 +8,28 @@
     "batch": "Spring 2026",
     "industry": "B2B / B2B -> Sales",
     "team_size": "3",
-    "location": "San Francisco, CA, USA",
-    "tags": "B2B, Insurance, Conversational AI",
-    "yc_partner": "Nicolas Dessaigne",
-    "emails": "support@kinro.ai"
+    "location": "San Francisco, CA, US (kinro.ai; YC page)",
+    "yc_partner": "Nicolas Dessaigne (YC page)",
+    "emails": "No public data found"
   },
-  "tags": [
-    "B2B",
-    "Insurance",
-    "Conversational AI"
-  ],
+  "tags": [],
   "slideImage": null,
-  "memoGeneratedAt": "2026-03-26T05:22:14.179Z",
+  "memoGeneratedAt": "2026-04-22T23:49:13.076Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 53,
+      "score": 51,
       "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 74,
-      "tier": "Invest"
     },
     "naval-ravikant": {
-      "score": 60,
-      "tier": "Neutral"
+      "score": 67,
+      "tier": "Invest"
     },
     "paul-graham": {
-      "score": 46,
+      "score": 50,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 43,
+      "score": 42,
       "tier": "Pass"
     },
     "sam-lessin": {
@@ -51,21 +42,20 @@
     }
   },
   "consolidatedScores": {
-    "CB": 53,
-    "EG": 74,
-    "NR": 60,
-    "PG": 46,
-    "PT": 43,
+    "CB": 51,
+    "EG": null,
+    "NR": 67,
+    "PG": 50,
+    "PT": 42,
     "SL": 40,
     "VK": 45
   },
-  "consolidatedAvg": 51.57,
-  "consolidatedRank": 9,
+  "consolidatedAvg": 49.17,
+  "consolidatedRank": 19,
   "paths": {
     "memo": "spring2026/memos/kinro.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/kinro.md",
-      "elad-gil": "spring2026/evals/elad-gil/kinro.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/kinro.md",
       "paul-graham": "spring2026/evals/paul-graham/kinro.md",
       "peter-thiel": "spring2026/evals/peter-thiel/kinro.md",

@@ -1,0 +1,71 @@
+{
+  "slug": "nine-fives",
+  "name": "Nine Fives",
+  "oneLiner": "Simple, Networked, Driverless, RF Test Equipment",
+  "metadata": {
+    "website": "https://ninefives.com/",
+    "yc_page": "https://www.ycombinator.com/companies/nine-fives",
+    "batch": "Spring 2026",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+    "team_size": "2",
+    "location": "No public data found",
+    "tags": "Radar, Telecommunications, Electronics",
+    "yc_partner": "Tom Blomfield",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Radar",
+    "Telecommunications",
+    "Electronics"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-22T23:52:54.968Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 66,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 38,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 51,
+    "EG": null,
+    "NR": 58,
+    "PG": 66,
+    "PT": 40,
+    "SL": 55,
+    "VK": 38
+  },
+  "consolidatedAvg": 51.33,
+  "consolidatedRank": 13,
+  "paths": {
+    "memo": "spring2026/memos/nine-fives.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/nine-fives.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/nine-fives.md",
+      "paul-graham": "spring2026/evals/paul-graham/nine-fives.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/nine-fives.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/nine-fives.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/nine-fives.md"
+    }
+  }
+}

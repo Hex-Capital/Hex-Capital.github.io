@@ -1,39 +1,35 @@
 {
   "slug": "projectx",
   "name": "ProjectX",
-  "oneLiner": "Building Infinity, the cloud OS that runs all apps on any device.",
+  "oneLiner": "Building Infinity: the computer that does everything at once.",
   "metadata": {
     "website": "https://www.projectx.cloud/",
     "yc_page": "https://www.ycombinator.com/companies/projectx",
     "batch": "Spring 2026",
     "industry": "B2B / B2B -> Infrastructure",
     "team_size": "6",
-    "location": "Kalyani, West Bengal, India / San Francisco (LinkedIn, via search snippet)",
+    "location": "Kalyani, West Bengal, India (Startup Story Media); San Francisco also listed (@ProjectX_Cloud X bio)",
     "yc_partner": "Andrew Miklas",
-    "emails": "bishal@projectx.cloud (GitHub profile, BishalK007)"
+    "emails": "bishal@projectx.cloud (GitHub profile of CTO)"
   },
   "tags": [],
   "slideImage": null,
-  "memoGeneratedAt": "2026-03-26T05:11:35.195Z",
+  "memoGeneratedAt": "2026-04-22T23:29:06.887Z",
   "evalScores": {
     "cyan-banister": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "paul-graham": {
       "score": 47,
       "tier": "Neutral"
     },
-    "elad-gil": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 52,
-      "tier": "Neutral"
-    },
     "peter-thiel": {
-      "score": 37,
+      "score": 29,
       "tier": "Pass"
     },
     "sam-lessin": {
@@ -41,26 +37,25 @@
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 52,
-      "tier": "Neutral"
+      "score": 42,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 47,
-    "EG": 45,
-    "NR": 48,
-    "PG": 52,
-    "PT": 37,
+    "CB": 39,
+    "EG": null,
+    "NR": 42,
+    "PG": 47,
+    "PT": 29,
     "SL": 39,
-    "VK": 52
+    "VK": 42
   },
-  "consolidatedAvg": 45.71,
-  "consolidatedRank": 15,
+  "consolidatedAvg": 39.67,
+  "consolidatedRank": 78,
   "paths": {
     "memo": "spring2026/memos/projectx.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/projectx.md",
-      "elad-gil": "spring2026/evals/elad-gil/projectx.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/projectx.md",
       "paul-graham": "spring2026/evals/paul-graham/projectx.md",
       "peter-thiel": "spring2026/evals/peter-thiel/projectx.md",

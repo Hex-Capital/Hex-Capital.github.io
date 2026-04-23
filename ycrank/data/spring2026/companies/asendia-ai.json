@@ -1,7 +1,7 @@
 {
   "slug": "asendia-ai",
   "name": "Asendia AI",
-  "oneLiner": "Agentic recruitment platform for staffing agencies",
+  "oneLiner": "AI Recruiters for Staffing Agencies and Enterprise",
   "metadata": {
     "website": "https://asendia.ai/",
     "yc_page": "https://www.ycombinator.com/companies/asendia-ai",
@@ -19,30 +19,26 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-03-26T05:06:45.683Z",
+  "memoGeneratedAt": "2026-04-22T23:27:05.241Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 35,
+      "score": 44,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 41,
+      "score": 42,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 39,
-      "tier": "Pass"
+      "score": 46,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 29,
+      "score": 33,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 29,
+      "score": 28,
       "tier": "Pass"
     },
     "vinod-khosla": {
@@ -51,22 +47,21 @@
     }
   },
   "consolidatedScores": {
-    "CB": 35,
-    "EG": 39,
-    "NR": 41,
-    "PG": 39,
-    "PT": 29,
-    "SL": 29,
+    "CB": 44,
+    "EG": 42,
+    "NR": null,
+    "PG": 46,
+    "PT": 33,
+    "SL": 28,
     "VK": 37
   },
-  "consolidatedAvg": 35.57,
-  "consolidatedRank": 51,
+  "consolidatedAvg": 38.33,
+  "consolidatedRank": 85,
   "paths": {
     "memo": "spring2026/memos/asendia-ai.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/asendia-ai.md",
       "elad-gil": "spring2026/evals/elad-gil/asendia-ai.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/asendia-ai.md",
       "paul-graham": "spring2026/evals/paul-graham/asendia-ai.md",
       "peter-thiel": "spring2026/evals/peter-thiel/asendia-ai.md",
       "sam-lessin": "spring2026/evals/sam-lessin/asendia-ai.md",

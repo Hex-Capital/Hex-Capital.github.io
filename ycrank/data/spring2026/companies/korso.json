@@ -9,63 +9,58 @@
     "industry": "B2B / B2B -> Operations",
     "team_size": "3",
     "location": "San Francisco, CA, USA",
-    "tags": "Artificial Intelligence, SaaS, Manufacturing",
+    "tags": "SaaS, Manufacturing, AI",
     "yc_partner": "Andrew Miklas",
     "emails": "support@korsoai.com"
   },
   "tags": [
-    "Artificial Intelligence",
     "SaaS",
-    "Manufacturing"
+    "Manufacturing",
+    "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-03-26T05:29:22.002Z",
+  "memoGeneratedAt": "2026-04-22T23:57:02.106Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 40,
-      "tier": "Pass"
+      "score": 46,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 42,
-      "tier": "Pass"
+      "score": 49,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 39,
+      "score": 44,
       "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 30,
+      "score": 34,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 32,
+      "score": 33,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 36,
+      "score": 40,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 36,
-    "EG": 40,
-    "NR": 42,
-    "PG": 39,
-    "PT": 30,
-    "SL": 32,
-    "VK": 36
+    "CB": 46,
+    "EG": null,
+    "NR": 49,
+    "PG": 44,
+    "PT": 34,
+    "SL": 33,
+    "VK": 40
   },
-  "consolidatedAvg": 36.43,
-  "consolidatedRank": 48,
+  "consolidatedAvg": 41,
+  "consolidatedRank": 59,
   "paths": {
     "memo": "spring2026/memos/korso.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/korso.md",
-      "elad-gil": "spring2026/evals/elad-gil/korso.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/korso.md",
       "paul-graham": "spring2026/evals/paul-graham/korso.md",
       "peter-thiel": "spring2026/evals/peter-thiel/korso.md",

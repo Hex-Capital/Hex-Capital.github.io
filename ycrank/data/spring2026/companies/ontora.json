@@ -1,71 +1,67 @@
 {
   "slug": "ontora",
   "name": "Ontora",
-  "oneLiner": "We help managers regain control of their organisations",
+  "oneLiner": "AI agents that interview every employee to map how work gets done.",
   "metadata": {
     "website": "https://ontora.com",
     "yc_page": "https://www.ycombinator.com/companies/ontora",
     "batch": "Spring 2026",
-    "industry": "B2B / B2B",
+    "industry": "B2B / B2B -> Operations",
     "team_size": "3",
     "location": "San Francisco, CA, USA",
-    "tags": "Robotic Process Automation, Feedback, AI",
+    "tags": "Artificial Intelligence, B2B, Analytics, Operations",
     "yc_partner": "Tom Blomfield",
     "emails": "No public data found"
   },
   "tags": [
-    "Robotic Process Automation",
-    "Feedback",
-    "AI"
+    "Artificial Intelligence",
+    "B2B",
+    "Analytics",
+    "Operations"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-03-26T05:14:45.624Z",
+  "memoGeneratedAt": "2026-04-22T23:40:06.959Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 44,
+      "score": 41,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 51,
+      "score": 58,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 47,
+      "score": 52,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 35,
+      "score": 38,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 36,
+      "score": 33,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 43,
-      "tier": "Pass"
+      "score": 47,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 42,
-    "EG": 44,
-    "NR": 51,
-    "PG": 47,
-    "PT": 35,
-    "SL": 36,
-    "VK": 43
+    "CB": 41,
+    "EG": null,
+    "NR": 58,
+    "PG": 52,
+    "PT": 38,
+    "SL": 33,
+    "VK": 47
   },
-  "consolidatedAvg": 42.57,
-  "consolidatedRank": 24,
+  "consolidatedAvg": 44.83,
+  "consolidatedRank": 34,
   "paths": {
     "memo": "spring2026/memos/ontora.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/ontora.md",
-      "elad-gil": "spring2026/evals/elad-gil/ontora.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/ontora.md",
       "paul-graham": "spring2026/evals/paul-graham/ontora.md",
       "peter-thiel": "spring2026/evals/peter-thiel/ontora.md",

@@ -1,0 +1,73 @@
+{
+  "slug": "napkin-math",
+  "name": "Napkin Math",
+  "oneLiner": "Building Napkin Math, AI-powered food journaling for real people",
+  "metadata": {
+    "website": "https://napkinmath.club",
+    "yc_page": "https://www.ycombinator.com/companies/napkin-math",
+    "batch": "Spring 2026",
+    "industry": "Consumer / Consumer",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Consumer, Fitness, Digital Health, Food",
+    "yc_partner": "Pete Koomen",
+    "emails": "team@paperstar.cc (paperstar.cc)"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Consumer",
+    "Fitness",
+    "Digital Health",
+    "Food"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-22T23:40:02.691Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 22,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 35,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 35,
+    "EG": null,
+    "NR": 38,
+    "PG": 42,
+    "PT": 22,
+    "SL": 32,
+    "VK": 35
+  },
+  "consolidatedAvg": 34,
+  "consolidatedRank": 99,
+  "paths": {
+    "memo": "spring2026/memos/napkin-math.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/napkin-math.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/napkin-math.md",
+      "paul-graham": "spring2026/evals/paul-graham/napkin-math.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/napkin-math.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/napkin-math.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/napkin-math.md"
+    }
+  }
+}

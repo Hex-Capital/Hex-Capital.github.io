@@ -5,7 +5,7 @@
   "metadata": {
     "website": "https://www.argalabs.com/",
     "yc_page": "https://www.ycombinator.com/companies/arga-labs",
-    "batch": "Spring 2026",
+    "batch": "Spring 2026 (P26)",
     "industry": "B2B / B2B",
     "team_size": "3",
     "location": "San Francisco, CA, USA",
@@ -19,22 +19,18 @@
     "Infrastructure"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-03-26T05:16:38.243Z",
+  "memoGeneratedAt": "2026-04-22T23:44:00.406Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 40,
+      "score": 37,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 45,
+      "score": 55,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 47,
+      "score": 57,
       "tier": "Neutral"
     },
     "peter-thiel": {
@@ -42,7 +38,7 @@
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 36,
+      "score": 33,
       "tier": "Pass"
     },
     "vinod-khosla": {
@@ -51,22 +47,21 @@
     }
   },
   "consolidatedScores": {
-    "CB": 40,
-    "EG": 51,
-    "NR": 45,
-    "PG": 47,
+    "CB": 37,
+    "EG": 55,
+    "NR": null,
+    "PG": 57,
     "PT": 32,
-    "SL": 36,
+    "SL": 33,
     "VK": 43
   },
-  "consolidatedAvg": 42,
-  "consolidatedRank": 25,
+  "consolidatedAvg": 42.83,
+  "consolidatedRank": 46,
   "paths": {
     "memo": "spring2026/memos/arga-labs.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/arga-labs.md",
       "elad-gil": "spring2026/evals/elad-gil/arga-labs.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/arga-labs.md",
       "paul-graham": "spring2026/evals/paul-graham/arga-labs.md",
       "peter-thiel": "spring2026/evals/peter-thiel/arga-labs.md",
       "sam-lessin": "spring2026/evals/sam-lessin/arga-labs.md",

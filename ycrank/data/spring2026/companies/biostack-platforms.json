@@ -8,41 +8,32 @@
     "batch": "Spring 2026",
     "industry": "Healthcare / Healthcare",
     "team_size": "0",
-    "location": "San Francisco, CA, USA",
-    "tags": "AI-powered Drug Discovery, Reinforcement Learning, Healthcare",
+    "location": "San Francisco, CA, US (YC company page)",
     "yc_partner": "Nicolas Dessaigne",
-    "emails": "No public data found"
+    "emails": "team@getbiostack.com (company contact page)"
   },
-  "tags": [
-    "AI-powered Drug Discovery",
-    "Reinforcement Learning",
-    "Healthcare"
-  ],
+  "tags": [],
   "slideImage": null,
-  "memoGeneratedAt": "2026-03-26T17:08:25.298Z",
+  "memoGeneratedAt": "2026-04-22T23:32:28.466Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 43,
-      "tier": "Pass"
+      "score": 47,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 43,
-      "tier": "Pass"
+      "score": 46,
+      "tier": "Neutral"
     },
     "paul-graham": {
       "score": 42,
       "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 28,
+      "score": 29,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 39,
+      "score": 38,
       "tier": "Pass"
     },
     "vinod-khosla": {
@@ -51,22 +42,21 @@
     }
   },
   "consolidatedScores": {
-    "CB": 43,
-    "EG": 43,
-    "NR": 43,
+    "CB": 47,
+    "EG": 46,
+    "NR": null,
     "PG": 42,
-    "PT": 28,
-    "SL": 39,
+    "PT": 29,
+    "SL": 38,
     "VK": 43
   },
-  "consolidatedAvg": 40.14,
-  "consolidatedRank": 36,
+  "consolidatedAvg": 40.83,
+  "consolidatedRank": 61,
   "paths": {
     "memo": "spring2026/memos/biostack-platforms.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/biostack-platforms.md",
       "elad-gil": "spring2026/evals/elad-gil/biostack-platforms.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/biostack-platforms.md",
       "paul-graham": "spring2026/evals/paul-graham/biostack-platforms.md",
       "peter-thiel": "spring2026/evals/peter-thiel/biostack-platforms.md",
       "sam-lessin": "spring2026/evals/sam-lessin/biostack-platforms.md",

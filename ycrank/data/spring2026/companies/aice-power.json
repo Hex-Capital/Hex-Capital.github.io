@@ -1,0 +1,71 @@
+{
+  "slug": "aice-power",
+  "name": "AICE Power",
+  "oneLiner": "Smart energy monitoring for buildings.",
+  "metadata": {
+    "website": "https://aicepower.com",
+    "yc_page": "https://www.ycombinator.com/companies/aice-power",
+    "batch": "Spring 2026",
+    "industry": "Industrials / Industrials -> Energy",
+    "team_size": "2",
+    "location": "No public data found",
+    "tags": "Batteryless IoT Sensors, Hardware, Climate",
+    "yc_partner": "Nicolas Dessaigne",
+    "emails": "contact@aicepower.com"
+  },
+  "tags": [
+    "Batteryless IoT Sensors",
+    "Hardware",
+    "Climate"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-22T23:36:40.350Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 44,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 45,
+    "EG": 44,
+    "NR": null,
+    "PG": 48,
+    "PT": 36,
+    "SL": 38,
+    "VK": 44
+  },
+  "consolidatedAvg": 42.5,
+  "consolidatedRank": 49,
+  "paths": {
+    "memo": "spring2026/memos/aice-power.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/aice-power.md",
+      "elad-gil": "spring2026/evals/elad-gil/aice-power.md",
+      "paul-graham": "spring2026/evals/paul-graham/aice-power.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/aice-power.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/aice-power.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/aice-power.md"
+    }
+  }
+}

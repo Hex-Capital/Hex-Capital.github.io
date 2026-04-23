@@ -1,7 +1,7 @@
 {
   "slug": "runtime",
   "name": "Runtime",
-  "oneLiner": "Guardrails and visibility to enable your team to ship with coding agents securely",
+  "oneLiner": "Let all your team ship safely with coding agents",
   "metadata": {
     "website": "https://www.runtm.com/",
     "yc_page": "https://www.ycombinator.com/companies/runtime",
@@ -18,58 +18,48 @@
     "Developer Tools"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-03-26T05:09:27.019Z",
+  "memoGeneratedAt": "2026-04-22T23:27:29.128Z",
   "evalScores": {
     "cyan-banister": {
       "score": 41,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 45,
-      "tier": "Neutral"
-    },
     "naval-ravikant": {
-      "score": 49,
+      "score": 52,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 45,
+      "score": 54,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 32,
+      "score": 33,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 43,
+      "score": 32,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 41,
-    "EG": 45,
-    "NR": 49,
-    "PG": 45,
-    "PT": 32,
-    "SL": 36,
-    "VK": 43
+    "EG": null,
+    "NR": 52,
+    "PG": 54,
+    "PT": 33,
+    "SL": 32,
+    "VK": null
   },
-  "consolidatedAvg": 41.57,
-  "consolidatedRank": 29,
+  "consolidatedAvg": 42.4,
+  "consolidatedRank": 51,
   "paths": {
     "memo": "spring2026/memos/runtime.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/runtime.md",
-      "elad-gil": "spring2026/evals/elad-gil/runtime.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/runtime.md",
       "paul-graham": "spring2026/evals/paul-graham/runtime.md",
       "peter-thiel": "spring2026/evals/peter-thiel/runtime.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/runtime.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/runtime.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/runtime.md"
     }
   }
 }

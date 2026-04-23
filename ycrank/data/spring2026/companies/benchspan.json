@@ -1,7 +1,7 @@
 {
   "slug": "benchspan",
   "name": "Benchspan",
-  "oneLiner": "Run agent benchmarks in minutes, not hours",
+  "oneLiner": "Real-time threat detection for AI agents in production",
   "metadata": {
     "website": "https://www.benchspan.com",
     "yc_page": "https://www.ycombinator.com/companies/benchspan",
@@ -9,65 +9,61 @@
     "industry": "B2B / B2B -> Engineering, Product and Design",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "AIOps, Analytics, Infrastructure, AI",
+    "tags": "AIOps, Analytics, Security, Infrastructure, AI",
     "yc_partner": "David Lieb",
-    "emails": "founders@benchspan.com"
+    "emails": "No public data found"
   },
   "tags": [
     "AIOps",
     "Analytics",
+    "Security",
     "Infrastructure",
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-03-26T05:15:05.330Z",
+  "memoGeneratedAt": "2026-04-22T23:40:12.317Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 56,
+      "score": 48,
       "tier": "Neutral"
     },
-    "naval-ravikant": {
-      "score": 53,
+    "elad-gil": {
+      "score": 63,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 59,
+      "score": 54,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 31,
+      "score": 34,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 31,
+      "score": 32,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 36,
-      "tier": "Pass"
+      "score": 47,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 34,
-    "EG": 56,
-    "NR": 53,
-    "PG": 59,
-    "PT": 31,
-    "SL": 31,
-    "VK": 36
+    "CB": 48,
+    "EG": 63,
+    "NR": null,
+    "PG": 54,
+    "PT": 34,
+    "SL": 32,
+    "VK": 47
   },
-  "consolidatedAvg": 42.86,
-  "consolidatedRank": 22,
+  "consolidatedAvg": 46.33,
+  "consolidatedRank": 29,
   "paths": {
     "memo": "spring2026/memos/benchspan.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/benchspan.md",
       "elad-gil": "spring2026/evals/elad-gil/benchspan.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/benchspan.md",
       "paul-graham": "spring2026/evals/paul-graham/benchspan.md",
       "peter-thiel": "spring2026/evals/peter-thiel/benchspan.md",
       "sam-lessin": "spring2026/evals/sam-lessin/benchspan.md",

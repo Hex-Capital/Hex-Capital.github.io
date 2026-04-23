@@ -1,0 +1,67 @@
+{
+  "slug": "userlens",
+  "name": "Userlens",
+  "oneLiner": "AI agents that predicts churn months before it happens.",
+  "metadata": {
+    "website": "https://userlens.io",
+    "yc_page": "https://www.ycombinator.com/companies/userlens",
+    "batch": "Spring 2026 (P26)",
+    "industry": "B2B / B2B -> Operations",
+    "team_size": "4",
+    "location": "Helsinki, Finland",
+    "tags": "SaaS, Customer Success, Enterprise Software, AI Assistant",
+    "yc_partner": "Andrew Miklas",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "SaaS",
+    "Customer Success",
+    "Enterprise Software",
+    "AI Assistant"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-22T23:47:06.065Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 36,
+    "EG": null,
+    "NR": 50,
+    "PG": 56,
+    "PT": 34,
+    "SL": 31,
+    "VK": null
+  },
+  "consolidatedAvg": 41.4,
+  "consolidatedRank": 55,
+  "paths": {
+    "memo": "spring2026/memos/userlens.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/userlens.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/userlens.md",
+      "paul-graham": "spring2026/evals/paul-graham/userlens.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/userlens.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/userlens.md"
+    }
+  }
+}

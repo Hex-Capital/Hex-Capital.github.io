@@ -1,36 +1,32 @@
 {
   "slug": "replicas",
   "name": "Replicas",
-  "oneLiner": "Use background coding agents from anywhere",
+  "oneLiner": "Background coding agents for engineering teams",
   "metadata": {
     "website": "https://replicas.dev",
     "yc_page": "https://www.ycombinator.com/companies/replicas",
     "batch": "Spring 2026",
     "industry": "B2B / B2B -> Engineering, Product and Design",
     "team_size": "1",
-    "location": "San Francisco, CA, USA",
-    "tags": "Developer Tools, B2B, AI",
+    "location": "San Francisco, CA, US (YC page job listing)",
+    "tags": "Developer Tools, API, AI",
     "yc_partner": "Harj Taggar",
-    "emails": "founders@replicas.dev"
+    "emails": "connor@replicas.dev, founders@replicas.dev"
   },
   "tags": [
     "Developer Tools",
-    "B2B",
+    "API",
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-03-26T05:23:46.709Z",
+  "memoGeneratedAt": "2026-04-22T23:54:31.155Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 34,
+      "score": 29,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 45,
+      "score": 49,
       "tier": "Neutral"
     },
     "paul-graham": {
@@ -38,34 +34,33 @@
       "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 31,
+      "score": 28,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 26,
+      "score": 31,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 34,
+      "score": 42,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 32,
-    "EG": 34,
-    "NR": 45,
+    "CB": 29,
+    "EG": null,
+    "NR": 49,
     "PG": 43,
-    "PT": 31,
-    "SL": 26,
-    "VK": 34
+    "PT": 28,
+    "SL": 31,
+    "VK": 42
   },
-  "consolidatedAvg": 35,
-  "consolidatedRank": 52,
+  "consolidatedAvg": 37,
+  "consolidatedRank": 89,
   "paths": {
     "memo": "spring2026/memos/replicas.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/replicas.md",
-      "elad-gil": "spring2026/evals/elad-gil/replicas.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/replicas.md",
       "paul-graham": "spring2026/evals/paul-graham/replicas.md",
       "peter-thiel": "spring2026/evals/peter-thiel/replicas.md",

@@ -19,53 +19,48 @@
     "AI Assistant"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-03-26T05:27:51.904Z",
+  "memoGeneratedAt": "2026-04-22T23:55:48.191Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 39,
+      "score": 41,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 51,
+      "score": 62,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 46,
-      "tier": "Neutral"
+      "score": 41,
+      "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 32,
+      "score": 29,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 47,
-      "tier": "Neutral"
+      "score": 44,
+      "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 54,
+      "score": 53,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 47,
-    "EG": 39,
-    "NR": 51,
-    "PG": 46,
-    "PT": 32,
-    "SL": 47,
-    "VK": 54
+    "CB": 41,
+    "EG": null,
+    "NR": 62,
+    "PG": 41,
+    "PT": 29,
+    "SL": 44,
+    "VK": 53
   },
-  "consolidatedAvg": 45.14,
-  "consolidatedRank": 16,
+  "consolidatedAvg": 45,
+  "consolidatedRank": 32,
   "paths": {
     "memo": "spring2026/memos/gikl-inc.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/gikl-inc.md",
-      "elad-gil": "spring2026/evals/elad-gil/gikl-inc.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/gikl-inc.md",
       "paul-graham": "spring2026/evals/paul-graham/gikl-inc.md",
       "peter-thiel": "spring2026/evals/peter-thiel/gikl-inc.md",

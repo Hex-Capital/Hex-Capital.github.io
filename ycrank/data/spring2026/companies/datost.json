@@ -8,10 +8,10 @@
     "batch": "Spring 2026",
     "industry": "B2B / B2B -> Analytics",
     "team_size": "2",
-    "location": "New York City (YC page, founder profile)",
+    "location": "New York, NY (YC page, LinkedIn)",
     "tags": "B2B, Analytics, AI Assistant",
-    "yc_partner": "David Lieb",
-    "emails": "No public data found"
+    "yc_partner": "David Lieb (YC page)",
+    "emails": "maceo@datost.com, jason@datost.com (YC page)"
   },
   "tags": [
     "B2B",
@@ -19,54 +19,49 @@
     "AI Assistant"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-03-26T05:10:32.158Z",
+  "memoGeneratedAt": "2026-04-22T23:35:18.860Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 32,
+      "score": 37,
       "tier": "Pass"
     },
     "elad-gil": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
       "score": 35,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 30,
-      "tier": "Pass"
-    },
     "sam-lessin": {
-      "score": 31,
+      "score": 32,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 39,
+      "score": 44,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 32,
-    "EG": 35,
-    "NR": 44,
-    "PG": 42,
-    "PT": 30,
-    "SL": 31,
-    "VK": 39
+    "CB": 37,
+    "EG": 46,
+    "NR": null,
+    "PG": 52,
+    "PT": 35,
+    "SL": 32,
+    "VK": 44
   },
-  "consolidatedAvg": 36.14,
-  "consolidatedRank": 49,
+  "consolidatedAvg": 41,
+  "consolidatedRank": 57,
   "paths": {
     "memo": "spring2026/memos/datost.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/datost.md",
       "elad-gil": "spring2026/evals/elad-gil/datost.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/datost.md",
       "paul-graham": "spring2026/evals/paul-graham/datost.md",
       "peter-thiel": "spring2026/evals/peter-thiel/datost.md",
       "sam-lessin": "spring2026/evals/sam-lessin/datost.md",

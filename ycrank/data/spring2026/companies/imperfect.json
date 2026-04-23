@@ -1,0 +1,72 @@
+{
+  "slug": "imperfect",
+  "name": "Imperfect",
+  "oneLiner": "AI coach that connects your wearables to get you race day ready",
+  "metadata": {
+    "website": "https://imperfect.co",
+    "yc_page": "https://www.ycombinator.com/companies/imperfect",
+    "batch": "Spring 2026",
+    "industry": "Consumer / Consumer",
+    "team_size": "5",
+    "location": "San Francisco, CA, USA",
+    "tags": "Fitness, Health & Wellness, AI, AI Assistant",
+    "yc_partner": "Garry Tan",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Fitness",
+    "Health & Wellness",
+    "AI",
+    "AI Assistant"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-23T00:00:49.881Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 40,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 39,
+    "EG": null,
+    "NR": 48,
+    "PG": 55,
+    "PT": 32,
+    "SL": 31,
+    "VK": 40
+  },
+  "consolidatedAvg": 40.83,
+  "consolidatedRank": 62,
+  "paths": {
+    "memo": "spring2026/memos/imperfect.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/imperfect.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/imperfect.md",
+      "paul-graham": "spring2026/evals/paul-graham/imperfect.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/imperfect.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/imperfect.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/imperfect.md"
+    }
+  }
+}

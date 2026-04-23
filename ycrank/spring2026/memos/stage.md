@@ -9,106 +9,114 @@
 | Batch | Spring 2026 |
 | Industry | B2B / B2B -> Engineering, Product and Design |
 | Team Size | 2 |
-| Location | No public data found |
+| Location | Not listed |
 | Tags | Developer Tools, SaaS |
 | YC Partner | Pete Koomen |
-| Emails | dastratakos@gmail.com (Dean Stratakos personal site) |
+| Emails | No public data found |
 
 ## The Idea
 
-**Problem:** AI-assisted coding is accelerating shipping velocity, but engineers are merging changes that "neither they nor their reviewers fully understand, leading to bugs in production and overwhelming cognitive debt" (YC page). The current default — GitHub pull request diffs — presents changes as unorganized line-by-line diffs, forcing reviewers to mentally reconstruct intent across scattered files. [Inferred]: This cognitive burden worsens as AI-generated code increases the volume and unfamiliarity of changes per PR.
+**Problem:** Engineering teams shipping AI-generated code are merging changes that "neither they nor their reviewers fully understand," leading to production bugs and cognitive debt (YC company page). Traditional code review tools present unorganized diffs that force reviewers to mentally reconstruct the logic of changes. The customer segment is software engineering teams at companies using AI coding assistants (Copilot, Cursor, Claude Code), where the volume and opacity of code changes has increased. Current tools include GitHub's built-in PR review, GitLab merge requests, and third-party AI reviewers like CodeRabbit and Graphite.
 
-**Approach:** Stage restructures diffs into "structured chapters" — organized, narrative sections that break a changeset into logical units so reviewers can understand what changed and why, sequentially (YC page). The product is a standalone code review platform, not a bot or plugin layered onto GitHub's native review UI. Asset references in the site source suggest GitHub integration, markdown rendering, pull-request management, and search functionality (stagereview.app source inspection).
+**Approach:** Stage breaks code changes into "structured chapters" rather than presenting raw diffs (YC company page). This organizes a pull request into a narrative sequence so reviewers can understand changes in a logical order rather than file-by-file. The website was not accessible for detailed feature extraction at time of research (JS-rendered SPA returned minimal content).
 
-**Differentiation:**
-- vs. **GitHub/GitLab native review**: Default diff UIs show flat, file-ordered changes with no logical grouping. Stage imposes narrative structure.
-- vs. **AI review bots** (CodeRabbit, Greptile, Qodo, Cubic): These automate bug detection via AI comments on PRs. Stage focuses on human comprehension of diffs, not automated flagging.
-- vs. **Graphite** (acquired by Cursor, Dec 2025): Graphite organized work via stacked PRs — multiple small atomic PRs. Stage organizes a single PR's diff into chapters.
-- vs. **Haystack** (YC S24): Closest competitor. Haystack uses a 2D infinite canvas to visualize PR changes (haystackeditor.com). Stage uses linear structured chapters. Both aim to improve diff comprehension for human reviewers.
+**Differentiation:** Existing code review tools fall into two categories: (1) traditional diff viewers (GitHub, GitLab) that show file-level changes without narrative structure, and (2) AI-powered reviewers (CodeRabbit, Greptile, Qodo) that auto-generate comments on diffs but still present changes in unstructured form. Stage's "chapters" approach targets the comprehension layer — organizing *how* humans read changes — rather than adding AI commentary on top of existing diff formats. [Inferred]: This positions Stage as complementary to AI reviewers rather than directly competing with them, though AI reviewers may add similar structuring features over time.
 
-**Business Model:** No pricing page was accessible on the website at time of research (SPA rendered client-side; content not extractable). [Inferred]: Most likely monetization is per-seat SaaS, consistent with comparable tools (Cubic charges $30/dev/month; Graphite used per-seat pricing).
+**Business Model:** No pricing page was accessible at time of research. [Inferred]: Most likely monetization path is per-seat SaaS subscription (standard for developer tools in this category), potentially with a free tier for small teams/open-source and paid tiers for team features, given the B2B SaaS tags and competitive landscape norms.
 
 **TAM/SAM:**
-- AI code tools market: $7.93B in 2025, projected $91.09B by 2035 at 27.65% CAGR (Grand View Research / OpenPR, 2025 via search snippet).
-- Software development tools market: $6.41–7.47B in 2025, projected $15.72B by 2031 at 16.12% CAGR (Mordor Intelligence via search snippet).
-- [Inferred]: The serviceable market for code review platforms is a subset of these figures; no public SAM estimate specific to code review tooling was found.
+- Global code review tools market: $1.61B in 2025, projected to $2.46B by 2034 at 6.3% CAGR (IntelMarketResearch, 2026 via search snippet).
+- AI code review tools subset: projected $750M in 2025, 9.2% CAGR to 2033 (Virtue Market Research via search snippet).
+- Broader estimates range up to $4.0B–$14.0B when including licenses, cloud subscriptions, and professional services (Research and Markets via search snippet).
+- [Inferred]: SAM for a tool targeting mid-market and enterprise teams using AI coding assistants is a subset of the broader code review market, likely in the hundreds of millions, but no specific SAM estimate exists for "structured code review" as a category.
 
-**GTM / Distribution:** [Inferred]: Most likely distribution is bottom-up developer adoption via GitHub integration, given the two-person team and dev-tools category. The "chapters" UX is inherently viral within teams — one reviewer using Stage creates visibility for teammates on the same PR.
+**GTM / Distribution:** [Inferred]: Most likely distribution path is bottom-up developer adoption via GitHub/GitLab integrations, given the 2-person team size and developer tool category. YC network provides initial distribution to batch-mates and YC alumni companies. No evidence of enterprise sales motion or channel partnerships at this stage.
 
 ## Defensibility
 
 No defensibility signals found in public sources at this stage.
 
-- [Inferred]: Potential moat could develop via workflow lock-in if teams adopt chapter-based review as a standard practice, creating switching costs similar to how Graphite's stacked-PR workflow became habitual for its 500+ customer teams. A data advantage could emerge if Stage learns from review patterns to auto-generate chapter structures. Both are unproven.
+- [Inferred]: Potential moat could develop via (1) workflow lock-in if teams build review processes around the "chapters" paradigm, creating switching costs; (2) data advantage from learning how teams structure and review code, enabling better auto-organization over time. Neither is proven at this stage.
 
-**Market structure:** Graphite's acquisition by Cursor (TechCrunch, Dec 2025) removed the closest independent workflow competitor. GitHub, the dominant incumbent, has limited incentive to restructure its diff UX because its review flow is tightly coupled to its broader platform — a chapter-based reorganization would require rearchitecting how diffs, comments, and approvals interact. [Inferred]: This creates a window for a purpose-built tool, though GitHub could eventually add similar features.
+**Market structure:** GitHub (Microsoft) dominates code review as the default PR interface. [Inferred]: GitHub's structural constraint is that reorganizing the diff view into "chapters" would break backwards compatibility with established workflows for 100M+ developers and could disrupt their extension ecosystem. However, GitHub has historically added features incrementally (e.g., suggested changes, code owners), and a "chapters" view could be added as an optional mode without cannibalization — meaning the structural barrier is weak. GitLab and Atlassian (Bitbucket) face similar low barriers to adding structured diff views.
 
-**Commoditization risk:** The "structured chapters" concept is a UX innovation, not a deep technical moat. Any well-resourced competitor (Cursor/Graphite, GitHub, GitLab) could implement a similar organizational layer. Haystack (YC S24) is already pursuing an analogous approach with a different visual metaphor.
+**Commoditization risk:** AI code review is a crowded and rapidly consolidating space. CodeRabbit, Greptile, Qodo, and Anthropic's Claude Code Review all shipped structured review features in 2025–2026. The "chapters" concept is a UX innovation rather than a deep technical moat, making it reproducible by any competitor with front-end engineering resources. The key differentiator would need to be execution quality and user experience rather than the concept itself.
 
 ## Market & Traction
 
-**Traction signals:** No public data found. No press coverage, Product Hunt launch, app store listing, Chrome Web Store extension, social media company accounts, Discord/Slack community, or publicly reported users/revenue were identified. The website renders as a JavaScript SPA; no traction numbers were extractable.
+**Traction signals:**
+- No public revenue, user counts, or growth metrics found.
+- No Product Hunt launch found for Stage (stagereview.app). A different product named "Stage" (wireframe tool) exists on Product Hunt.
+- No press coverage in named publications found.
+- No app store listings, Chrome extension installs, or web traffic estimates found.
+- Company Twitter/X account: not found. Company LinkedIn: listed on YC page but follower count not retrievable.
+- Job postings: 0 active listings (YC company page).
+- Website not fully accessible at time of research (JS-rendered SPA).
 
 **Competitive landscape:**
 
-| Competitor | Differentiator vs. Stage | Funding | Revenue/ARR |
-|---|---|---|---|
-| **Haystack** (YC S24) | Infinite canvas visualization for PR comprehension; closest to Stage's approach | YC-backed; no announced external round | No public data found |
-| **CodeRabbit** | AI bot auto-reviewing PRs (bug detection); not diff restructuring | $88M ($60M Series B, Sep 2025; CRV, Scale Venture Partners) (TechCrunch, Sep 2025) | $15M+ ARR (Latka, Sep 2025) |
-| **Greptile** (YC W24) | AI reviewer with full codebase context; automated, not human-comprehension focused | $29.1M ($25M Series A, Sep 2025; Benchmark) (TechCrunch, Jul 2025) | $1M revenue in 2024, 10x growth reported (Greptile blog) |
-| **Graphite** (acquired) | Stacked PRs workflow; acquired by Cursor Dec 2025 | $81M total; acquired for reportedly >$290M (TechCrunch, Dec 2025) | Revenue unknown; 500+ companies (Graphite blog) |
-| **Cubic** (YC S25) | AI-powered PR reviewer; $30/dev/month | YC-backed; no announced external round | No public data found |
+| Competitor | Funding | Revenue/ARR | Key Differentiator vs. Stage |
+|-----------|---------|-------------|------------------------------|
+| **CodeRabbit** | $88M total ($60M Series B, Sep 2025) at $550M valuation (TechCrunch, Sep 2025) | $15M ARR, 8,000+ paying customers (GetLatka, 2025) | AI-generated PR comments with auto-fix suggestions; broad adoption at scale |
+| **Graphite** | $81M total, acquired by Cursor Dec 2025 at $290M valuation (Fortune, Dec 2025) | Revenue not disclosed; 500+ companies, 20x growth in 2024 (TechCrunch, Mar 2025) | Stacking workflow (dependent PRs) plus AI review; now integrated into Cursor |
+| **Greptile** | ~$45.5M total ($25M Series A, Sep 2025) at $180M valuation (TechCrunch, Jul 2025) | Revenue not disclosed | Codebase-aware AI review — indexes full repo for deeper context |
+| **Qodo** (fka CodiumAI) | $120M total ($70M Series B, Mar 2026) (SiliconANGLE, Mar 2026) | $1M+ ARR within 3 months of enterprise launch in 2024 (PRNewswire, Sep 2024) | Multi-agent review architecture combined with AI test generation |
 
-**Why now:** [Inferred]: Two catalysts: (1) AI code generation tools (Cursor, GitHub Copilot, Claude Code) are producing unprecedented volumes of unfamiliar code that human reviewers must evaluate — 84% of developers now use or plan to use AI tools (Panto AI blog, 2026 via search snippet), creating a "comprehension crisis" in review workflows. (2) Graphite's acquisition by Cursor in December 2025 (TechCrunch, Dec 2025) removed the leading independent code review workflow tool from the market, opening a gap for a new entrant focused on review UX.
+**Why now:**
+- AI coding assistants (GitHub Copilot, Cursor, Claude Code) reached mass adoption in 2024–2025, increasing the volume and complexity of code changes per PR (Panto blog, 2026 via search snippet).
+- Anthropic launched Claude Code Review as a dedicated multi-agent PR reviewer in March 2026 (search snippet), validating "AI-era code review" as a category.
+- Cursor's acquisition of Graphite in December 2025 for $290M (Fortune, Dec 2025) signals that code review is a strategic acquisition target for AI coding platforms.
+- [Inferred]: The catalyst is specifically that AI-generated code creates a comprehension gap — reviewers cannot rely on author intent when code is machine-generated, making structured presentation of changes more valuable than in a purely human-authored codebase.
 
 ## Founders & Team
 
 **Charles Pan** — Co-founder & CEO
-- B.S. Computer Science, Stanford University (Class of 2022) (GoStanford athletics roster)
-- Developer at Five Rings (quant trading firm) (YC page)
-- Early engineer at Yuzu Health (health insurance TPA) (YC page; yuzu.health/about)
-- Software Engineer Intern at SoundHound (2020) — C++ calendar support for Houndify voice platform (WayUp profile)
-- Robotics Software Intern at Stanford AI Lab (2019–2020) — haptics software for robotic arm (WayUp profile)
-- Stanford Varsity Fencing (saber); MPSF Team Champion, Pac-12 All-Academic (GoStanford)
-- Twitter/X: @ceefryingpan (count not retrievable)
-- LinkedIn: linkedin.com/in/charleslpan
-- GitHub: github.com/charleslpan — 5 public repos, 6 followers; Arctic Code Vault Contributor (GitHub)
+- B.S. Computer Science, Stanford University, Class of 2022 (Stanford Athletics roster).
+- Varsity Fencing (Saber) at Stanford; MPSF team champion 2022, MPSF All-Academic (Stanford Athletics).
+- Previously: developer at Five Rings; early engineer at Yuzu Health (YC company page).
+- Yuzu Health is a next-generation health insurance company backed by top VCs and 10+ unicorn founders (yuzu.health via search snippet).
+- Author at The Stanford Daily (Stanford Daily).
+- From Livingston, New Jersey; attended Newark Academy (Stanford Athletics).
+- Twitter/X: @ceefryingpan (YC company page); follower count not retrievable.
+- LinkedIn: linkedin.com/in/charlespan/ — currently shows "Revel Street" (LinkedIn via search snippet); may not yet be updated to reflect Stage.
+- GitHub: No public repos found under this name.
 
 **Dean Stratakos** — Co-founder & CTO
-- M.S. Computer Science (AI track) and B.S. Computer Science (Systems track), Stanford University (personal site: dastratakos.github.io)
-- Software Developer at Five Rings (Aug 2023–present) — designed high-performance trading system components in C++ and Python; led company-wide AI initiative; built an in-house coding agent (personal site; YC page)
-- Intern at Apple (3 rotations: Siri Information Intelligence, Advanced Computation Group, Platform Triage), Citadel (Market Connectivity), Quadric (CNN backend) (personal site)
-- Stanford Varsity Men's Tennis; 2021 Pac-12 Champion; four-time ITA Scholar-Athlete (GoStanford)
-- Twitter/X: @DeanStratakos (count not retrievable)
-- LinkedIn: linkedin.com/in/dean-stratakos
-- GitHub: github.com/dastratakos — 38 public repos, 22 followers; pinned repos include Homography-Estimation (27 stars), Face-Mask-Detection (5 stars) (GitHub)
+- M.S. Computer Science (AI) and B.S. Computer Science (Systems), Stanford University (personal website, dastratakos.github.io).
+- Stanford varsity tennis, Division I (Stanford Athletics; Q&A profile, Sep 2020).
+- Previously: Software Developer at Five Rings (Aug 2023–present per personal site) — led company-wide AI initiative, built internal coding agent, designed high-performance trading systems in C++ and Python (personal website).
+- Internships: Apple (3x — Siri Intelligence, Advanced Computation Group/LiDAR, Platform Triage/ML), Citadel (TCP recovery for trading), Quadric (CNN backend in C++) (personal website).
+- Technical skills: Python, C++, TypeScript, Go, Swift, React, Next.js, AWS/Azure/GCP, PyTorch, TensorFlow (personal website).
+- Twitter/X: No public account found.
+- LinkedIn: linkedin.com/in/dean-stratakos-8b338b149/ (LinkedIn via search).
+- GitHub: github.com/dastratakos — 22 followers; repos include Face-Mask-Detection, Photo-Sharing-Web-Application, Optimized-Task-Scheduling (GitHub). No repos with 100+ stars found.
 
-**Co-founder relationship:** Both are Stanford CS graduates and both worked at Five Rings, a quantitative trading firm in NYC. Dean's tenure at Five Rings began August 2023 (personal site); Charles also worked there (YC page). This indicates direct professional overlap at the same firm.
+**Co-founder relationship:** Both Charles Pan and Dean Stratakos attended Stanford (Pan BS CS '22; Stratakos BS/MS CS, with varsity athletics overlapping years). Both worked at Five Rings — Pan as a developer and Stratakos as a software developer starting August 2023 (YC company page; personal website). Shared employer and shared university confirm prior professional acquaintance.
 
-**Founder-market fit:** Both founders experienced code review friction firsthand — Charles across multiple engineering roles (Five Rings, Yuzu Health, SoundHound, Stanford AI Lab), and Dean while leading AI initiatives and conducting code reviews at Five Rings, where he built an in-house coding agent that inspired Stage's founding (YC page). Dean's AI specialization (Stanford MS in AI, PyTorch/TensorFlow expertise) is directly relevant to building intelligent diff-structuring features.
+**Founder-market fit:** Both founders have direct experience as software engineers at a quantitative trading firm (Five Rings) where code quality and review speed are critical in fast-moving codebases. Stratakos's experience building an in-house coding agent at Five Rings and leading AI initiatives provides direct domain expertise in the AI-generated code review problem. Pan's experience as an early engineer at a startup (Yuzu Health) provides exposure to fast-shipping team dynamics. No advisors, board members, or notable investors beyond YC found.
 
 ## Key Risks
 
-**Name collision / discoverability:** "Stage" is an extremely common English word. Web searches for "Stage code review" return noise from unrelated products (Stage OTT platform, Stage by Belkin, stagewise.io, theatrical "stage" references). This creates SEO and brand discovery challenges. The domain stagereview.app partially mitigates this.
+**Name collision:** "Stage" is a common English word shared with multiple existing products on Product Hunt (a wireframe tool called "Stage"), general software terminology (staging environments), and other companies. This creates SEO/discoverability challenges and potential brand confusion that could impede organic acquisition.
 
-**Haystack overlap:** Haystack (YC S24) is pursuing a nearly identical problem — making diffs comprehensible for human reviewers — with a different UI metaphor (infinite canvas vs. chapters). Both are YC-backed, pre-revenue, and targeting the same user persona. A head-to-head competition for the same niche with a one-batch-earlier competitor creates execution pressure.
+**Heavily funded competitive field:** The four leading AI code review startups (CodeRabbit, Graphite/Cursor, Greptile, Qodo) have raised a combined $334.5M+ and have shipped structured review features. CodeRabbit alone has $15M ARR and 8,000+ paying customers (GetLatka, 2025; TechCrunch, Sep 2025). Stage enters with a 2-person team against well-capitalized incumbents who are actively expanding feature sets.
 
-**Platform dependency on GitHub:** Asset references in the site source include `github-mark` and `git-pull-request` icons, suggesting deep GitHub integration (stagereview.app source). If Stage's primary workflow depends on GitHub's API, changes to GitHub's API terms, rate limits, or native review features could disrupt the product.
+**Platform dependency:** Stage's value proposition requires integration with GitHub, GitLab, or similar SCM platforms. Any of these platforms could add native "structured diff" or "chapter" views, directly commoditizing Stage's core feature. GitHub in particular has been expanding its AI-native code review capabilities.
 
-**Anthropic/incumbent entry:** Anthropic launched a multi-agent code review tool for Claude Enterprise customers in March 2026 (TechCrunch, Mar 2026). While focused on automated bug detection rather than diff organization, it signals that large AI labs view code review as a product surface, increasing competitive pressure from well-funded incumbents.
+**UX-layer vulnerability:** The "chapters" concept is a presentation-layer innovation rather than a deep technical or data moat. Competitors with existing user bases could replicate the UX pattern with relatively low engineering effort, reducing Stage's differentiation window.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | AI code tools market: $7.93B (2025), projected $91.09B by 2035 at 27.65% CAGR (Grand View Research / OpenPR via search snippet) |
+| TAM | $1.61B in 2025, projected $2.46B by 2034 at 6.3% CAGR (IntelMarketResearch, 2026 via search snippet) |
 | SAM | No public data found |
 | Traction | No public data found |
 | Revenue Signal | No public data found |
-| Founders | Charles Pan (CEO): Stanford CS, Five Rings, Yuzu Health. Dean Stratakos (CTO): Stanford CS MS/BS, Five Rings AI lead, Apple/Citadel intern. |
-| Competitors | CodeRabbit ($88M raised, $15M+ ARR (Latka, Sep 2025), AI auto-review). Greptile ($29.1M raised, $1M rev 2024 (Greptile blog), AI codebase-context review). Haystack (YC S24, YC-backed, revenue unknown, closest UX competitor). Graphite ($81M raised, acquired by Cursor Dec 2025 (TechCrunch)). Cubic (YC S25, YC-backed, revenue unknown, $30/dev/mo). |
+| Founders | Charles Pan (CEO): Stanford CS '22, Five Rings, Yuzu Health. Dean Stratakos (CTO): Stanford MS/BS CS, Five Rings AI lead, 3x Apple intern. |
+| Competitors | CodeRabbit ($88M raised, $15M ARR, AI PR comments), Graphite ($81M raised, acquired by Cursor at $290M, stacking + AI review), Greptile ($45.5M raised, revenue unknown, codebase-aware AI review), Qodo ($120M raised, $1M+ ARR, multi-agent review + test gen) |
 | Moat Signals | No public data found |
-| Risk Factors | Name collision / SEO discoverability, Haystack (YC S24) direct overlap, GitHub platform dependency |
-| Founder Reach | Charles Pan: Twitter @ceefryingpan (count not retrievable), LinkedIn charleslpan, GitHub 6 followers. Dean Stratakos: Twitter @DeanStratakos (count not retrievable), LinkedIn dean-stratakos, GitHub 22 followers / 27 stars top repo. |
+| Risk Factors | Name collision/SEO risk, heavily funded competitive field, platform dependency on GitHub/GitLab |
+| Founder Reach | Charles Pan: Twitter @ceefryingpan (count not retrievable), LinkedIn charlespan. Dean Stratakos: Twitter not found, LinkedIn dean-stratakos, GitHub dastratakos (22 followers). |
 | Distribution Signals | No public data found |
-| Emails | dastratakos@gmail.com (Dean Stratakos personal site) |
+| Emails | No public data found |

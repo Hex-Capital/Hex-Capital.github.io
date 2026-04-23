@@ -9,63 +9,58 @@
     "industry": "B2B / B2B",
     "team_size": "4",
     "location": "San Francisco, CA, USA",
-    "tags": "Documents, Artificial Intelligence, B2B",
+    "tags": "Documents, B2B, AI",
     "yc_partner": "Tom Blomfield",
-    "emails": "kerim@qomplement.com (Codemix startup directory)"
+    "emails": "No public data found"
   },
   "tags": [
     "Documents",
-    "Artificial Intelligence",
-    "B2B"
+    "B2B",
+    "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-03-26T05:24:14.289Z",
+  "memoGeneratedAt": "2026-04-22T23:47:36.458Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "elad-gil": {
       "score": 41,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
       "score": 45,
       "tier": "Neutral"
     },
+    "paul-graham": {
+      "score": 42,
+      "tier": "Pass"
+    },
     "peter-thiel": {
-      "score": 28,
+      "score": 32,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 33,
+      "score": 32,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 36,
+      "score": 38,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 39,
-    "EG": 41,
-    "NR": 47,
-    "PG": 45,
-    "PT": 28,
-    "SL": 33,
-    "VK": 36
+    "CB": 41,
+    "EG": null,
+    "NR": 45,
+    "PG": 42,
+    "PT": 32,
+    "SL": 32,
+    "VK": 38
   },
-  "consolidatedAvg": 38.43,
-  "consolidatedRank": 44,
+  "consolidatedAvg": 38.33,
+  "consolidatedRank": 86,
   "paths": {
     "memo": "spring2026/memos/qomplement.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/qomplement.md",
-      "elad-gil": "spring2026/evals/elad-gil/qomplement.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/qomplement.md",
       "paul-graham": "spring2026/evals/paul-graham/qomplement.md",
       "peter-thiel": "spring2026/evals/peter-thiel/qomplement.md",

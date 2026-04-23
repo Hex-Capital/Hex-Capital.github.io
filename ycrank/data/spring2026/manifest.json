@@ -1,6 +1,6 @@
 {
   "batch": "spring2026",
-  "companyCount": 53,
+  "companyCount": 101,
   "personas": [
     {
       "slug": "cyan-banister",
@@ -48,140 +48,64 @@
   "table": [
     {
       "rank": 1,
-      "name": "matforge",
-      "slug": "matforge",
-      "scores": {
-        "CB": 66,
-        "EG": 58,
-        "NR": 75,
-        "PG": 66,
-        "PT": 60,
-        "SL": 48,
-        "VK": 65
-      },
-      "tiers": {
-        "CB": "Invest",
-        "EG": "Neutral",
-        "NR": "Invest",
-        "PG": "Invest",
-        "PT": "Neutral",
-        "SL": "Neutral",
-        "VK": "Invest"
-      },
-      "avg": 62.57,
-      "revenue": null,
-      "teamSize": 2,
-      "ycPartner": "Aaron Epstein",
-      "oneLiner": "AI scientists to discover semiconductor materials",
-      "industry": "Industrials / Industrials -> Energy",
-      "location": "San Francisco, CA, USA",
-      "tags": [
-        "Artificial Intelligence",
-        "Advanced Materials",
-        "Semiconductors",
-        "AI"
-      ],
-      "scoreTips": {},
-      "memoDate": "2026-03-26"
-    },
-    {
-      "rank": 2,
       "name": "Adialante",
       "slug": "adialante",
       "scores": {
-        "CB": 69,
-        "EG": 36,
-        "NR": 65,
-        "PG": 58,
-        "PT": 55,
-        "SL": 63,
-        "VK": 72
+        "CB": 72,
+        "EG": 39,
+        "NR": null,
+        "PG": 66,
+        "PT": 66,
+        "SL": 66,
+        "VK": 80
       },
       "tiers": {
         "CB": "Invest",
         "EG": "Pass",
-        "NR": "Invest",
-        "PG": "Neutral",
-        "PT": "Neutral",
-        "SL": "Neutral",
+        "NR": null,
+        "PG": "Invest",
+        "PT": "Invest",
+        "SL": "Invest",
         "VK": "Invest"
       },
-      "avg": 59.71,
+      "avg": 64.83,
       "revenue": null,
       "teamSize": 4,
       "ycPartner": "Nicolas Dessaigne",
       "oneLiner": "Cancer screening without barriers",
       "industry": "Healthcare / Healthcare -> Diagnostics",
-      "location": "Redwood City, CA, USA",
+      "location": "Redwood City, CA, USA (originally founded in Minneapolis, MN)",
       "tags": [
         "Hardware",
         "Medical Devices",
         "Health & Wellness"
       ],
       "scoreTips": {},
-      "memoDate": "2026-03-26"
+      "memoDate": "2026-04-22"
     },
     {
-      "rank": 3,
-      "name": "Clara",
-      "slug": "clara-2",
-      "scores": {
-        "CB": 57,
-        "EG": 52,
-        "NR": 69,
-        "PG": 66,
-        "PT": 45,
-        "SL": 47,
-        "VK": 64
-      },
-      "tiers": {
-        "CB": "Neutral",
-        "EG": "Neutral",
-        "NR": "Invest",
-        "PG": "Invest",
-        "PT": "Neutral",
-        "SL": "Neutral",
-        "VK": "Neutral"
-      },
-      "avg": 57.14,
-      "revenue": null,
-      "teamSize": 9,
-      "ycPartner": "Garry Tan",
-      "oneLiner": "AI primary care doctor",
-      "industry": "Healthcare / Consumer Health and Wellness",
-      "location": "San Francisco, CA, USA",
-      "tags": [
-        "Telehealth",
-        "Healthcare",
-        "Telemedicine",
-        "AI"
-      ],
-      "scoreTips": {},
-      "memoDate": "2026-03-26"
-    },
-    {
-      "rank": 4,
+      "rank": 2,
       "name": "Harbor",
       "slug": "runharbor",
       "scores": {
-        "CB": 59,
-        "EG": 65,
-        "NR": 68,
-        "PG": 68,
-        "PT": 46,
-        "SL": 41,
-        "VK": 51
+        "CB": 65,
+        "EG": null,
+        "NR": 69,
+        "PG": 72,
+        "PT": 47,
+        "SL": 44,
+        "VK": null
       },
       "tiers": {
-        "CB": "Neutral",
-        "EG": "Invest",
+        "CB": "Invest",
+        "EG": null,
         "NR": "Invest",
         "PG": "Invest",
         "PT": "Neutral",
         "SL": "Pass",
-        "VK": "Neutral"
+        "VK": null
       },
-      "avg": 56.86,
+      "avg": 59.4,
       "revenue": null,
       "teamSize": 2,
       "ycPartner": "Nicolas Dessaigne",
@@ -195,326 +119,68 @@
         "Healthcare"
       ],
       "scoreTips": {},
-      "memoDate": "2026-03-26"
+      "memoDate": "2026-04-22"
     },
     {
-      "rank": 5,
-      "name": "Minicor",
-      "slug": "minicor",
-      "scores": {
-        "CB": 58,
-        "EG": 65,
-        "NR": 61,
-        "PG": 68,
-        "PT": 41,
-        "SL": 44,
-        "VK": 46
-      },
-      "tiers": {
-        "CB": "Neutral",
-        "EG": "Invest",
-        "NR": "Neutral",
-        "PG": "Invest",
-        "PT": "Pass",
-        "SL": "Pass",
-        "VK": "Neutral"
-      },
-      "avg": 54.71,
-      "revenue": null,
-      "teamSize": 5,
-      "ycPartner": "Tom Blomfield",
-      "oneLiner": "Managed, self healing desktop automation at scale",
-      "industry": "B2B / B2B -> Infrastructure",
-      "location": "San Francisco, CA, USA",
-      "tags": [
-        "Generative AI",
-        "B2B",
-        "Infrastructure"
-      ],
-      "scoreTips": {},
-      "memoDate": "2026-03-26"
-    },
-    {
-      "rank": 6,
-      "name": "Keyframe Labs",
-      "slug": "keyframe-labs",
-      "scores": {
-        "CB": 49,
-        "EG": 56,
-        "NR": 75,
-        "PG": 60,
-        "PT": 44,
-        "SL": 41,
-        "VK": 53
-      },
-      "tiers": {
-        "CB": "Neutral",
-        "EG": "Neutral",
-        "NR": "Invest",
-        "PG": "Neutral",
-        "PT": "Pass",
-        "SL": "Pass",
-        "VK": "Neutral"
-      },
-      "avg": 54,
-      "revenue": null,
-      "teamSize": 2,
-      "ycPartner": "David Lieb",
-      "oneLiner": "Turn agents into lifelike video calls. $0.06 a minute.",
-      "industry": "B2B / B2B",
-      "location": "Santa Monica, CA (CA corporate filing via BizProfile)",
-      "tags": [
-        "B2B",
-        "Video",
-        "API",
-        "AI"
-      ],
-      "scoreTips": {},
-      "memoDate": "2026-03-26"
-    },
-    {
-      "rank": 7,
-      "name": "Indexable",
-      "slug": "indexable",
-      "scores": {
-        "CB": 40,
-        "EG": 57,
-        "NR": 75,
-        "PG": 58,
-        "PT": 41,
-        "SL": 46,
-        "VK": 57
-      },
-      "tiers": {
-        "CB": "Pass",
-        "EG": "Neutral",
-        "NR": "Invest",
-        "PG": "Neutral",
-        "PT": "Pass",
-        "SL": "Neutral",
-        "VK": "Neutral"
-      },
-      "avg": 53.43,
-      "revenue": null,
-      "teamSize": 3,
-      "ycPartner": "Pete Koomen",
-      "oneLiner": "sandbox infrastructure for AI agents",
-      "industry": "B2B / B2B -> Infrastructure",
-      "location": "San Francisco, CA, USA",
-      "tags": [
-        "Artificial Intelligence"
-      ],
-      "scoreTips": {},
-      "memoDate": "2026-03-26"
-    },
-    {
-      "rank": 8,
-      "name": "Arzana",
-      "slug": "arzana",
+      "rank": 3,
+      "name": "Lumius",
+      "slug": "lumius",
       "scores": {
         "CB": 53,
-        "EG": 62,
-        "NR": 50,
-        "PG": 67,
-        "PT": 44,
-        "SL": 38,
-        "VK": 47
+        "EG": null,
+        "NR": 62,
+        "PG": 56,
+        "PT": 54,
+        "SL": 67,
+        "VK": 62
       },
       "tiers": {
         "CB": "Neutral",
-        "EG": "Neutral",
+        "EG": null,
         "NR": "Neutral",
-        "PG": "Invest",
-        "PT": "Pass",
-        "SL": "Pass",
+        "PG": "Neutral",
+        "PT": "Neutral",
+        "SL": "Invest",
         "VK": "Neutral"
       },
-      "avg": 51.57,
+      "avg": 59,
       "revenue": null,
       "teamSize": 4,
-      "ycPartner": "Tom Blomfield",
-      "oneLiner": "AI automation for the manufacturing office",
-      "industry": "B2B / B2B -> Operations",
-      "location": "San Francisco, CA, USA",
-      "tags": [
-        "Artificial Intelligence",
-        "Manufacturing",
-        "Automation",
-        "Operations",
-        "Industrial"
-      ],
-      "scoreTips": {},
-      "memoDate": "2026-03-26"
-    },
-    {
-      "rank": 9,
-      "name": "Kinro",
-      "slug": "kinro",
-      "scores": {
-        "CB": 53,
-        "EG": 74,
-        "NR": 60,
-        "PG": 46,
-        "PT": 43,
-        "SL": 40,
-        "VK": 45
-      },
-      "tiers": {
-        "CB": "Neutral",
-        "EG": "Invest",
-        "NR": "Neutral",
-        "PG": "Neutral",
-        "PT": "Pass",
-        "SL": "Pass",
-        "VK": "Neutral"
-      },
-      "avg": 51.57,
-      "revenue": null,
-      "teamSize": 3,
       "ycPartner": "Nicolas Dessaigne",
-      "oneLiner": "AI sales agents for insurance. Sell everywhere your buyers are.",
-      "industry": "B2B / B2B -> Sales",
-      "location": "San Francisco, CA, USA",
+      "oneLiner": "Fast, smart, accessible 3D ultrasound for everyone",
+      "industry": "Healthcare / Medical Devices",
+      "location": "Durham, NC, USA",
       "tags": [
-        "B2B",
-        "Insurance",
-        "Conversational AI"
+        "Hard Tech",
+        "Medical Devices",
+        "Digital Health"
       ],
       "scoreTips": {},
-      "memoDate": "2026-03-26"
+      "memoDate": "2026-04-22"
     },
     {
-      "rank": 10,
-      "name": "Sazabi",
-      "slug": "sazabi",
-      "scores": {
-        "CB": 41,
-        "EG": 56,
-        "NR": 63,
-        "PG": 64,
-        "PT": 39,
-        "SL": 38,
-        "VK": 49
-      },
-      "tiers": {
-        "CB": "Pass",
-        "EG": "Neutral",
-        "NR": "Neutral",
-        "PG": "Neutral",
-        "PT": "Pass",
-        "SL": "Pass",
-        "VK": "Neutral"
-      },
-      "avg": 50,
-      "revenue": null,
-      "teamSize": 10,
-      "ycPartner": "Aaron Epstein",
-      "oneLiner": "The AI-native observability platform for fast-moving engineering teams",
-      "industry": "B2B / B2B -> Infrastructure",
-      "location": "San Francisco, CA, USA",
-      "tags": [
-        "Developer Tools"
-      ],
-      "scoreTips": {},
-      "memoDate": "2026-03-26"
-    },
-    {
-      "rank": 11,
-      "name": "Dispatch",
-      "slug": "dispatch",
-      "scores": {
-        "CB": 45,
-        "EG": 39,
-        "NR": 52,
-        "PG": 59,
-        "PT": 44,
-        "SL": 46,
-        "VK": 58
-      },
-      "tiers": {
-        "CB": "Neutral",
-        "EG": "Pass",
-        "NR": "Neutral",
-        "PG": "Neutral",
-        "PT": "Pass",
-        "SL": "Neutral",
-        "VK": "Neutral"
-      },
-      "avg": 49,
-      "revenue": null,
-      "teamSize": 2,
-      "ycPartner": "Tom Blomfield",
-      "oneLiner": "Satellites for manufacturing in space",
-      "industry": "Industrials / Industrials -> Aviation and Space",
-      "location": "No public data found",
-      "tags": [
-        "Manufacturing",
-        "Aerospace",
-        "Advanced Materials"
-      ],
-      "scoreTips": {},
-      "memoDate": "2026-03-26"
-    },
-    {
-      "rank": 12,
-      "name": "Zolvo",
-      "slug": "zolvo",
-      "scores": {
-        "CB": 43,
-        "EG": 56,
-        "NR": 56,
-        "PG": 59,
-        "PT": 37,
-        "SL": 43,
-        "VK": 47
-      },
-      "tiers": {
-        "CB": "Pass",
-        "EG": "Neutral",
-        "NR": "Neutral",
-        "PG": "Neutral",
-        "PT": "Pass",
-        "SL": "Pass",
-        "VK": "Neutral"
-      },
-      "avg": 48.71,
-      "revenue": null,
-      "teamSize": 4,
-      "ycPartner": "Tom Blomfield",
-      "oneLiner": "AI that automates servicing for commercial lenders",
-      "industry": "Fintech / Credit and Lending",
-      "location": "San Francisco, CA, USA",
-      "tags": [
-        "Artificial Intelligence",
-        "B2B",
-        "Lending"
-      ],
-      "scoreTips": {},
-      "memoDate": "2026-03-26"
-    },
-    {
-      "rank": 13,
+      "rank": 4,
       "name": "9 Mothers",
       "slug": "9-mothers-corporation",
       "scores": {
-        "CB": 54,
-        "EG": 43,
-        "NR": 40,
-        "PG": 54,
-        "PT": 42,
-        "SL": 43,
-        "VK": 61
+        "CB": 67,
+        "EG": 41,
+        "NR": null,
+        "PG": 68,
+        "PT": 48,
+        "SL": 50,
+        "VK": 66
       },
       "tiers": {
-        "CB": "Neutral",
+        "CB": "Invest",
         "EG": "Pass",
-        "NR": "Pass",
-        "PG": "Neutral",
-        "PT": "Pass",
-        "SL": "Pass",
-        "VK": "Neutral"
+        "NR": null,
+        "PG": "Invest",
+        "PT": "Neutral",
+        "SL": "Neutral",
+        "VK": "Invest"
       },
-      "avg": 48.14,
+      "avg": 56.67,
       "revenue": null,
       "teamSize": null,
       "ycPartner": "Garry Tan",
@@ -529,693 +195,987 @@
         "Aerospace"
       ],
       "scoreTips": {},
-      "memoDate": "2026-03-26"
+      "memoDate": "2026-04-23"
     },
     {
-      "rank": 14,
-      "name": "Lamina Labs",
-      "slug": "lamina-labs",
+      "rank": 5,
+      "name": "matforge",
+      "slug": "matforge",
       "scores": {
-        "CB": 48,
-        "EG": 39,
-        "NR": 59,
-        "PG": 54,
-        "PT": 29,
-        "SL": 38,
-        "VK": 54
+        "CB": 53,
+        "EG": null,
+        "NR": 67,
+        "PG": 62,
+        "PT": 53,
+        "SL": 41,
+        "VK": 63
       },
       "tiers": {
         "CB": "Neutral",
-        "EG": "Pass",
-        "NR": "Neutral",
+        "EG": null,
+        "NR": "Invest",
         "PG": "Neutral",
-        "PT": "Pass",
+        "PT": "Neutral",
         "SL": "Pass",
         "VK": "Neutral"
       },
-      "avg": 45.86,
+      "avg": 56.5,
       "revenue": null,
       "teamSize": 2,
-      "ycPartner": "Pete Koomen",
-      "oneLiner": "Fastest deterministic animation infrastructure for EdTech",
-      "industry": "B2B / B2B -> Engineering, Product and Design",
-      "location": "No public data found",
+      "ycPartner": "Aaron Epstein",
+      "oneLiner": "AI scientists to discover semiconductor materials",
+      "industry": "Industrials / Industrials -> Energy",
+      "location": "San Francisco, CA, USA",
       "tags": [
-        "Education",
-        "Video",
-        "Edtech"
+        "Artificial Intelligence",
+        "Advanced Materials",
+        "Semiconductors",
+        "AI"
       ],
       "scoreTips": {},
-      "memoDate": "2026-03-26"
+      "memoDate": "2026-04-22"
     },
     {
-      "rank": 15,
-      "name": "ProjectX",
-      "slug": "projectx",
+      "rank": 6,
+      "name": "Indexable",
+      "slug": "indexable",
       "scores": {
         "CB": 47,
-        "EG": 45,
-        "NR": 48,
-        "PG": 52,
-        "PT": 37,
-        "SL": 39,
-        "VK": 52
+        "EG": null,
+        "NR": 75,
+        "PG": 62,
+        "PT": 43,
+        "SL": 50,
+        "VK": 59
       },
       "tiers": {
         "CB": "Neutral",
-        "EG": "Neutral",
-        "NR": "Neutral",
-        "PG": "Neutral",
-        "PT": "Pass",
-        "SL": "Pass",
-        "VK": "Neutral"
-      },
-      "avg": 45.71,
-      "revenue": null,
-      "teamSize": 6,
-      "ycPartner": "Andrew Miklas",
-      "oneLiner": "Building Infinity, the cloud OS that runs all apps on any device.",
-      "industry": "B2B / B2B -> Infrastructure",
-      "location": "Kalyani, West Bengal, India / San Francisco (LinkedIn, via search snippet)",
-      "tags": [],
-      "scoreTips": {},
-      "memoDate": "2026-03-26"
-    },
-    {
-      "rank": 16,
-      "name": "Gikl, Inc",
-      "slug": "gikl-inc",
-      "scores": {
-        "CB": 47,
-        "EG": 39,
-        "NR": 51,
-        "PG": 46,
-        "PT": 32,
-        "SL": 47,
-        "VK": 54
-      },
-      "tiers": {
-        "CB": "Neutral",
-        "EG": "Pass",
-        "NR": "Neutral",
+        "EG": null,
+        "NR": "Invest",
         "PG": "Neutral",
         "PT": "Pass",
         "SL": "Neutral",
         "VK": "Neutral"
       },
-      "avg": 45.14,
+      "avg": 56,
       "revenue": null,
-      "teamSize": 2,
-      "ycPartner": "Garry Tan",
-      "oneLiner": "Accelerating scientific discovery with AI",
-      "industry": "Consumer / Consumer",
+      "teamSize": 3,
+      "ycPartner": "Pete Koomen",
+      "oneLiner": "sandbox infrastructure for AI agents",
+      "industry": "B2B / B2B -> Infrastructure",
       "location": "San Francisco, CA, USA",
       "tags": [
-        "Swarm AI",
-        "AI",
-        "AI Assistant"
+        "Artificial Intelligence"
       ],
       "scoreTips": {},
-      "memoDate": "2026-03-26"
+      "memoDate": "2026-04-22"
     },
     {
-      "rank": 17,
-      "name": "Kimpton AI",
-      "slug": "kimpton-ai",
+      "rank": 7,
+      "name": "Juno",
+      "slug": "juno-chat",
       "scores": {
-        "CB": 42,
-        "EG": 40,
-        "NR": 62,
-        "PG": 59,
-        "PT": 33,
-        "SL": 34,
+        "CB": 60,
+        "EG": null,
+        "NR": 70,
+        "PG": 74,
+        "PT": 38,
+        "SL": 44,
+        "VK": 45
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": null,
+        "NR": "Invest",
+        "PG": "Invest",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 55.17,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "David Lieb",
+      "oneLiner": "AI Health Assistant for Chronic Illness",
+      "industry": "Healthcare / Consumer Health and Wellness",
+      "location": "No public data found",
+      "tags": [
+        "Health Tech",
+        "Health & Wellness",
+        "Consumer Products"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 8,
+      "name": "Dispatch",
+      "slug": "dispatch",
+      "scores": {
+        "CB": 51,
+        "EG": null,
+        "NR": null,
+        "PG": 58,
+        "PT": 45,
+        "SL": 56,
+        "VK": 63
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": null,
+        "NR": null,
+        "PG": "Neutral",
+        "PT": "Neutral",
+        "SL": "Neutral",
+        "VK": "Neutral"
+      },
+      "avg": 54.6,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Tom Blomfield",
+      "oneLiner": "Satellites for manufacturing in space",
+      "industry": "Industrials / Industrials -> Aviation and Space",
+      "location": "No public data found",
+      "tags": [
+        "Manufacturing",
+        "Aerospace",
+        "Advanced Materials"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 9,
+      "name": "Tasklet",
+      "slug": "tasklet-2",
+      "scores": {
+        "CB": 45,
+        "EG": null,
+        "NR": 71,
+        "PG": 71,
+        "PT": 45,
+        "SL": 36,
+        "VK": null
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": null,
+        "NR": "Invest",
+        "PG": "Invest",
+        "PT": "Neutral",
+        "SL": "Pass",
+        "VK": null
+      },
+      "avg": 53.6,
+      "revenue": null,
+      "teamSize": 8,
+      "ycPartner": "Andrew Miklas",
+      "oneLiner": "The cloud agent operating system for knowledge work",
+      "industry": "B2B / B2B -> Productivity",
+      "location": "San Francisco, CA",
+      "tags": [],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 10,
+      "name": "Sazabi",
+      "slug": "sazabi",
+      "scores": {
+        "CB": 50,
+        "EG": null,
+        "NR": 65,
+        "PG": 71,
+        "PT": 41,
+        "SL": 38,
+        "VK": null
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": null,
+        "NR": "Invest",
+        "PG": "Invest",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": null
+      },
+      "avg": 53,
+      "revenue": null,
+      "teamSize": 10,
+      "ycPartner": "Aaron Epstein",
+      "oneLiner": "The AI-native observability platform for fast-moving engineering teams",
+      "industry": "B2B / B2B -> Infrastructure",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Developer Tools"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 11,
+      "name": "Arzana",
+      "slug": "arzana",
+      "scores": {
+        "CB": 55,
+        "EG": 57,
+        "NR": null,
+        "PG": 73,
+        "PT": 42,
+        "SL": 44,
+        "VK": 46
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": null,
+        "PG": "Invest",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 52.83,
+      "revenue": null,
+      "teamSize": 5,
+      "ycPartner": "Tom Blomfield",
+      "oneLiner": "AI automation for the manufacturing office",
+      "industry": "B2B / B2B -> Operations",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Manufacturing",
+        "Automation",
+        "Operations",
+        "AI",
+        "Industrial"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 12,
+      "name": "Complir",
+      "slug": "complir",
+      "scores": {
+        "CB": 57,
+        "EG": 70,
+        "NR": null,
+        "PG": 61,
+        "PT": 41,
+        "SL": 40,
+        "VK": 43
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Invest",
+        "NR": null,
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 52,
+      "revenue": null,
+      "teamSize": 13,
+      "ycPartner": "Andrew Miklas",
+      "oneLiner": "Vanta for physical products",
+      "industry": "B2B / B2B -> Retail",
+      "location": "Copenhagen, Denmark",
+      "tags": [
+        "Retail",
+        "Regtech",
+        "Consumer Products"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 13,
+      "name": "Nine Fives",
+      "slug": "nine-fives",
+      "scores": {
+        "CB": 51,
+        "EG": null,
+        "NR": 58,
+        "PG": 66,
+        "PT": 40,
+        "SL": 55,
         "VK": 38
       },
       "tiers": {
-        "CB": "Pass",
-        "EG": "Pass",
+        "CB": "Neutral",
+        "EG": null,
         "NR": "Neutral",
-        "PG": "Neutral",
+        "PG": "Invest",
         "PT": "Pass",
-        "SL": "Pass",
+        "SL": "Neutral",
         "VK": "Pass"
       },
-      "avg": 44,
+      "avg": 51.33,
       "revenue": null,
-      "teamSize": 5,
-      "ycPartner": "Aaron Epstein",
-      "oneLiner": "The IDE for investors",
-      "industry": "Fintech / Fintech -> Asset Management",
-      "location": "San Francisco, CA, USA; Remote",
+      "teamSize": 2,
+      "ycPartner": "Tom Blomfield",
+      "oneLiner": "Simple, Networked, Driverless, RF Test Equipment",
+      "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+      "location": "No public data found",
       "tags": [
-        "Fintech"
+        "Radar",
+        "Telecommunications",
+        "Electronics"
       ],
       "scoreTips": {},
-      "memoDate": "2026-03-26"
+      "memoDate": "2026-04-22"
     },
     {
-      "rank": 18,
-      "name": "RefortifAI",
-      "slug": "refortifai",
+      "rank": 14,
+      "name": "Clara",
+      "slug": "clara-2",
       "scores": {
-        "CB": 37,
-        "EG": 59,
-        "NR": 46,
-        "PG": 48,
-        "PT": 36,
-        "SL": 40,
-        "VK": 42
+        "CB": 52,
+        "EG": 50,
+        "NR": null,
+        "PG": 63,
+        "PT": 39,
+        "SL": 46,
+        "VK": 56
       },
       "tiers": {
-        "CB": "Pass",
+        "CB": "Neutral",
         "EG": "Neutral",
-        "NR": "Neutral",
+        "NR": null,
         "PG": "Neutral",
         "PT": "Pass",
-        "SL": "Pass",
-        "VK": "Pass"
+        "SL": "Neutral",
+        "VK": "Neutral"
       },
-      "avg": 44,
+      "avg": 51,
       "revenue": null,
-      "teamSize": 3,
-      "ycPartner": "Nicolas Dessaigne",
-      "oneLiner": "Secure Deployment & DRM for AI model providers",
-      "industry": "B2B / B2B -> Security",
+      "teamSize": 9,
+      "ycPartner": "Garry Tan",
+      "oneLiner": "AI primary care doctor",
+      "industry": "Healthcare / Consumer Health and Wellness",
       "location": "San Francisco, CA, USA",
       "tags": [
-        "Artificial Intelligence",
-        "B2B",
-        "Security"
+        "Telehealth",
+        "Healthcare",
+        "Telemedicine",
+        "AI"
       ],
       "scoreTips": {},
-      "memoDate": "2026-03-29"
+      "memoDate": "2026-04-23"
     },
     {
-      "rank": 19,
-      "name": "StableBrowse",
-      "slug": "stablebrowse",
+      "rank": 15,
+      "name": "Keyframe Labs",
+      "slug": "keyframe-labs",
       "scores": {
-        "CB": 37,
-        "EG": 54,
-        "NR": 46,
-        "PG": 48,
-        "PT": 34,
-        "SL": 37,
-        "VK": 52
+        "CB": 43,
+        "EG": null,
+        "NR": 76,
+        "PG": 56,
+        "PT": 40,
+        "SL": 40,
+        "VK": 50
       },
       "tiers": {
         "CB": "Pass",
-        "EG": "Neutral",
-        "NR": "Neutral",
+        "EG": null,
+        "NR": "Invest",
         "PG": "Neutral",
         "PT": "Pass",
         "SL": "Pass",
         "VK": "Neutral"
       },
-      "avg": 44,
+      "avg": 50.83,
       "revenue": null,
-      "teamSize": 4,
-      "ycPartner": "Tom Blomfield",
-      "oneLiner": "Browser for AI agents",
-      "industry": "B2B / B2B -> Infrastructure",
-      "location": "San Francisco, CA, USA",
+      "teamSize": 2,
+      "ycPartner": "David Lieb",
+      "oneLiner": "Turn agents into lifelike video calls. $0.06 a minute.",
+      "industry": "B2B / B2B",
+      "location": "No public data found",
       "tags": [
+        "B2B",
+        "Video",
         "API",
-        "Automation",
         "AI"
       ],
       "scoreTips": {},
-      "memoDate": "2026-03-30"
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 16,
+      "name": "Inth",
+      "slug": "inth",
+      "scores": {
+        "CB": 49,
+        "EG": null,
+        "NR": 71,
+        "PG": 66,
+        "PT": 36,
+        "SL": 39,
+        "VK": 43
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": null,
+        "NR": "Invest",
+        "PG": "Invest",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 50.67,
+      "revenue": null,
+      "teamSize": 3,
+      "ycPartner": "Andrew Miklas",
+      "oneLiner": "Privacy Infrastructure for Developers",
+      "industry": "B2B / B2B -> Infrastructure",
+      "location": "London, England, United Kingdom",
+      "tags": [
+        "Compliance",
+        "Web Development"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 17,
+      "name": "Huscarl",
+      "slug": "huscarl",
+      "scores": {
+        "CB": 52,
+        "EG": null,
+        "NR": 63,
+        "PG": 60,
+        "PT": 36,
+        "SL": 47,
+        "VK": 43
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": null,
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Neutral",
+        "VK": "Pass"
+      },
+      "avg": 50.17,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Pete Koomen",
+      "oneLiner": "Actuarial intelligence for corporate risk managers",
+      "industry": "Fintech / Fintech -> Insurance",
+      "location": "Remote",
+      "tags": [
+        "Generative AI",
+        "Insurance",
+        "Customization"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 18,
+      "name": "Mochatrade",
+      "slug": "mochatrade",
+      "scores": {
+        "CB": 44,
+        "EG": null,
+        "NR": 66,
+        "PG": 54,
+        "PT": 41,
+        "SL": 51,
+        "VK": 44
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": null,
+        "NR": "Invest",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Neutral",
+        "VK": "Pass"
+      },
+      "avg": 50,
+      "revenue": null,
+      "teamSize": 3,
+      "ycPartner": "Harj Taggar",
+      "oneLiner": "US stock perps for global traders",
+      "industry": "Fintech / Consumer Finance",
+      "location": "New York, NY, USA",
+      "tags": [
+        "Fintech",
+        "Crypto / Web3",
+        "Consumer Finance"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 19,
+      "name": "Kinro",
+      "slug": "kinro",
+      "scores": {
+        "CB": 51,
+        "EG": null,
+        "NR": 67,
+        "PG": 50,
+        "PT": 42,
+        "SL": 40,
+        "VK": 45
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": null,
+        "NR": "Invest",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 49.17,
+      "revenue": null,
+      "teamSize": 3,
+      "ycPartner": "Nicolas Dessaigne",
+      "oneLiner": "AI sales agents for insurance. Sell everywhere your buyers are.",
+      "industry": "B2B / B2B -> Sales",
+      "location": "San Francisco, CA, US (kinro.ai; YC page)",
+      "tags": [],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
     },
     {
       "rank": 20,
-      "name": "Andustry",
-      "slug": "andustry",
+      "name": "Minicor",
+      "slug": "minicor",
       "scores": {
-        "CB": 46,
-        "EG": 40,
-        "NR": 53,
-        "PG": 49,
-        "PT": 37,
-        "SL": 39,
+        "CB": 51,
+        "EG": null,
+        "NR": 56,
+        "PG": 67,
+        "PT": 40,
+        "SL": 37,
+        "VK": 44
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": null,
+        "NR": "Neutral",
+        "PG": "Invest",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 49.17,
+      "revenue": null,
+      "teamSize": 5,
+      "ycPartner": "Tom Blomfield",
+      "oneLiner": "Managed, self healing desktop automation at scale",
+      "industry": "B2B / B2B -> Infrastructure",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Generative AI",
+        "B2B",
+        "Infrastructure"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 21,
+      "name": "RentAHuman",
+      "slug": "rentahuman",
+      "scores": {
+        "CB": 41,
+        "EG": null,
+        "NR": 50,
+        "PG": 48,
+        "PT": 38,
+        "SL": 71,
+        "VK": 46
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": null,
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Invest",
+        "VK": "Neutral"
+      },
+      "avg": 49,
+      "revenue": null,
+      "teamSize": 3,
+      "ycPartner": "Aaron Epstein",
+      "oneLiner": "Marketplace for AI agents to hire humans.",
+      "industry": "Consumer / Consumer -> Job and Career Services",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Marketplace",
+        "AI"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 22,
+      "name": "Dayjob",
+      "slug": "dayjob",
+      "scores": {
+        "CB": 45,
+        "EG": null,
+        "NR": null,
+        "PG": 69,
+        "PT": 39,
+        "SL": 48,
         "VK": 40
       },
       "tiers": {
         "CB": "Neutral",
-        "EG": "Pass",
+        "EG": null,
+        "NR": null,
+        "PG": "Invest",
+        "PT": "Pass",
+        "SL": "Neutral",
+        "VK": "Pass"
+      },
+      "avg": 48.2,
+      "revenue": null,
+      "teamSize": 5,
+      "ycPartner": "Tom Blomfield",
+      "oneLiner": "AI Agents for Industrial Logistics",
+      "industry": "B2B / Supply Chain and Logistics",
+      "location": "London, England, United Kingdom",
+      "tags": [
+        "Logistics",
+        "Transportation",
+        "AI"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 23,
+      "name": "Klaimee",
+      "slug": "klaimee",
+      "scores": {
+        "CB": 52,
+        "EG": null,
+        "NR": 58,
+        "PG": 51,
+        "PT": 35,
+        "SL": 49,
+        "VK": 41
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": null,
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Neutral",
+        "VK": "Pass"
+      },
+      "avg": 47.67,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Aaron Epstein",
+      "oneLiner": "Insurance for the agentic world. You deploy agents, we cover you.",
+      "industry": "Fintech / Fintech -> Insurance",
+      "location": "San Francisco (fwdstart.me via search snippet)",
+      "tags": [
+        "AIOps",
+        "Artificial Intelligence",
+        "SaaS",
+        "Insurance",
+        "AI"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 24,
+      "name": "Silmaril",
+      "slug": "silmaril",
+      "scores": {
+        "CB": 46,
+        "EG": null,
+        "NR": 66,
+        "PG": 46,
+        "PT": 41,
+        "SL": 38,
+        "VK": null
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": null,
+        "NR": "Invest",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": null
+      },
+      "avg": 47.4,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Garry Tan",
+      "oneLiner": "Prompt injection defense that is self-healing",
+      "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Security"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 25,
+      "name": "smol machines",
+      "slug": "smol-machines",
+      "scores": {
+        "CB": 43,
+        "EG": null,
+        "NR": 61,
+        "PG": 59,
+        "PT": 34,
+        "SL": 40,
+        "VK": null
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": null,
         "NR": "Neutral",
         "PG": "Neutral",
         "PT": "Pass",
         "SL": "Pass",
-        "VK": "Pass"
+        "VK": null
       },
-      "avg": 43.43,
+      "avg": 47.4,
       "revenue": null,
-      "teamSize": 2,
-      "ycPartner": "Tom Blomfield",
-      "oneLiner": "AI to source and sell industrial products",
-      "industry": "B2B / Supply Chain and Logistics",
-      "location": "Munich, Germany (LinkedIn)",
+      "teamSize": 1,
+      "ycPartner": "Pete Koomen",
+      "oneLiner": "Ship software faster with portable, self contained virtual machines.",
+      "industry": "B2B / B2B -> Infrastructure",
+      "location": "No public data found",
       "tags": [
-        "Marketplace",
-        "Sales",
+        "Cloud Computing",
+        "Infrastructure"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 26,
+      "name": "Tenet Industries",
+      "slug": "tenet-industries",
+      "scores": {
+        "CB": 54,
+        "EG": null,
+        "NR": 41,
+        "PG": 50,
+        "PT": 44,
+        "SL": 46,
+        "VK": null
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": null,
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Neutral",
+        "VK": null
+      },
+      "avg": 47,
+      "revenue": null,
+      "teamSize": 4,
+      "ycPartner": "Pete Koomen",
+      "oneLiner": "Drones as ammunition.",
+      "industry": "Industrials / Industrials -> Defense",
+      "location": "Stockholm, Stockholm County, Sweden",
+      "tags": [
+        "Hardware",
+        "Drones",
         "Manufacturing",
-        "Procurement",
         "Industrial"
       ],
       "scoreTips": {},
-      "memoDate": "2026-03-26"
+      "memoDate": "2026-04-22"
     },
     {
-      "rank": 21,
-      "name": "InLoop Robotics",
-      "slug": "inloop-robotics",
+      "rank": 27,
+      "name": "Eden Robotics",
+      "slug": "eden-robotics",
       "scores": {
-        "CB": 44,
-        "EG": 37,
-        "NR": 44,
-        "PG": 53,
+        "CB": 46,
+        "EG": null,
+        "NR": null,
+        "PG": 45,
         "PT": 38,
-        "SL": 39,
-        "VK": 47
+        "SL": 40,
+        "VK": 64
       },
       "tiers": {
-        "CB": "Pass",
-        "EG": "Pass",
-        "NR": "Pass",
+        "CB": "Neutral",
+        "EG": null,
+        "NR": null,
         "PG": "Neutral",
         "PT": "Pass",
         "SL": "Pass",
         "VK": "Neutral"
       },
-      "avg": 43.14,
+      "avg": 46.6,
       "revenue": null,
       "teamSize": 4,
-      "ycPartner": "Tom Blomfield",
-      "oneLiner": "Deploying robots that ask for help!",
-      "industry": "Industrials / Manufacturing and Robotics",
+      "ycPartner": "Nicolas Dessaigne",
+      "oneLiner": "Autonomous services for humanity.",
+      "industry": "Industrials / Industrials -> Manufacturing and Robotics",
       "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
+        "Robotic Process Automation",
         "Robotics",
-        "Logistics",
         "Automation"
       ],
       "scoreTips": {},
-      "memoDate": "2026-03-29"
+      "memoDate": "2026-04-22"
     },
     {
-      "rank": 22,
-      "name": "Benchspan",
-      "slug": "benchspan",
+      "rank": 28,
+      "name": "Kimpton AI",
+      "slug": "kimpton-ai",
       "scores": {
-        "CB": 34,
-        "EG": 56,
-        "NR": 53,
+        "CB": 38,
+        "EG": null,
+        "NR": 66,
         "PG": 59,
-        "PT": 31,
-        "SL": 31,
-        "VK": 36
+        "PT": 40,
+        "SL": 35,
+        "VK": 41
       },
       "tiers": {
         "CB": "Pass",
-        "EG": "Neutral",
-        "NR": "Neutral",
+        "EG": null,
+        "NR": "Invest",
         "PG": "Neutral",
         "PT": "Pass",
         "SL": "Pass",
         "VK": "Pass"
       },
-      "avg": 42.86,
+      "avg": 46.5,
+      "revenue": null,
+      "teamSize": 5,
+      "ycPartner": "Aaron Epstein",
+      "oneLiner": "AI for portfolio managers",
+      "industry": "Fintech / Fintech -> Asset Management",
+      "location": "San Francisco, CA, USA; Remote",
+      "tags": [
+        "Fintech",
+        "Investing",
+        "AI"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 29,
+      "name": "Benchspan",
+      "slug": "benchspan",
+      "scores": {
+        "CB": 48,
+        "EG": 63,
+        "NR": null,
+        "PG": 54,
+        "PT": 34,
+        "SL": 32,
+        "VK": 47
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": null,
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 46.33,
       "revenue": null,
       "teamSize": 2,
       "ycPartner": "David Lieb",
-      "oneLiner": "Run agent benchmarks in minutes, not hours",
+      "oneLiner": "Real-time threat detection for AI agents in production",
       "industry": "B2B / B2B -> Engineering, Product and Design",
       "location": "San Francisco, CA, USA",
       "tags": [
         "AIOps",
         "Analytics",
+        "Security",
         "Infrastructure",
         "AI"
       ],
       "scoreTips": {},
-      "memoDate": "2026-03-26"
-    },
-    {
-      "rank": 23,
-      "name": "Maquoketa Research",
-      "slug": "maquoketa-research",
-      "scores": {
-        "CB": 45,
-        "EG": 35,
-        "NR": 41,
-        "PG": 44,
-        "PT": 39,
-        "SL": 42,
-        "VK": 53
-      },
-      "tiers": {
-        "CB": "Neutral",
-        "EG": "Pass",
-        "NR": "Pass",
-        "PG": "Pass",
-        "PT": "Pass",
-        "SL": "Pass",
-        "VK": "Neutral"
-      },
-      "avg": 42.71,
-      "revenue": null,
-      "teamSize": 5,
-      "ycPartner": "Harj Taggar",
-      "oneLiner": "Autonomous one-way attack drones",
-      "industry": "Industrials / Industrials -> Defense",
-      "location": "No public data found",
-      "tags": [
-        "No public data found"
-      ],
-      "scoreTips": {},
-      "memoDate": "2026-03-26"
-    },
-    {
-      "rank": 24,
-      "name": "Ontora",
-      "slug": "ontora",
-      "scores": {
-        "CB": 42,
-        "EG": 44,
-        "NR": 51,
-        "PG": 47,
-        "PT": 35,
-        "SL": 36,
-        "VK": 43
-      },
-      "tiers": {
-        "CB": "Pass",
-        "EG": "Pass",
-        "NR": "Neutral",
-        "PG": "Neutral",
-        "PT": "Pass",
-        "SL": "Pass",
-        "VK": "Pass"
-      },
-      "avg": 42.57,
-      "revenue": null,
-      "teamSize": 3,
-      "ycPartner": "Tom Blomfield",
-      "oneLiner": "We help managers regain control of their organisations",
-      "industry": "B2B / B2B",
-      "location": "San Francisco, CA, USA",
-      "tags": [
-        "Robotic Process Automation",
-        "Feedback",
-        "AI"
-      ],
-      "scoreTips": {},
-      "memoDate": "2026-03-26"
-    },
-    {
-      "rank": 25,
-      "name": "Arga Labs",
-      "slug": "arga-labs",
-      "scores": {
-        "CB": 40,
-        "EG": 51,
-        "NR": 45,
-        "PG": 47,
-        "PT": 32,
-        "SL": 36,
-        "VK": 43
-      },
-      "tiers": {
-        "CB": "Pass",
-        "EG": "Neutral",
-        "NR": "Neutral",
-        "PG": "Neutral",
-        "PT": "Pass",
-        "SL": "Pass",
-        "VK": "Pass"
-      },
-      "avg": 42,
-      "revenue": null,
-      "teamSize": 3,
-      "ycPartner": "Pete Koomen",
-      "oneLiner": "The validation infrastructure for AI agents",
-      "industry": "B2B / B2B",
-      "location": "San Francisco, CA, USA",
-      "tags": [
-        "Developer Tools",
-        "SaaS",
-        "Infrastructure"
-      ],
-      "scoreTips": {},
-      "memoDate": "2026-03-26"
-    },
-    {
-      "rank": 26,
-      "name": "Bujo AI",
-      "slug": "bujo",
-      "scores": {
-        "CB": 41,
-        "EG": 45,
-        "NR": 50,
-        "PG": 47,
-        "PT": 35,
-        "SL": 33,
-        "VK": 43
-      },
-      "tiers": {
-        "CB": "Pass",
-        "EG": "Neutral",
-        "NR": "Neutral",
-        "PG": "Neutral",
-        "PT": "Pass",
-        "SL": "Pass",
-        "VK": "Pass"
-      },
-      "avg": 42,
-      "revenue": null,
-      "teamSize": 3,
-      "ycPartner": "Garry Tan",
-      "oneLiner": "AI voice & chat agents for sales and customer support at large B2C?",
-      "industry": "B2B / B2B",
-      "location": "San Francisco, CA, USA",
-      "tags": [
-        "AI",
-        "AI Assistant"
-      ],
-      "scoreTips": {},
-      "memoDate": "2026-03-26"
-    },
-    {
-      "rank": 27,
-      "name": "primitive",
-      "slug": "primitive",
-      "scores": {
-        "CB": 41,
-        "EG": 51,
-        "NR": 48,
-        "PG": 44,
-        "PT": 31,
-        "SL": 36,
-        "VK": 42
-      },
-      "tiers": {
-        "CB": "Pass",
-        "EG": "Neutral",
-        "NR": "Neutral",
-        "PG": "Pass",
-        "PT": "Pass",
-        "SL": "Pass",
-        "VK": "Pass"
-      },
-      "avg": 41.86,
-      "revenue": null,
-      "teamSize": 1,
-      "ycPartner": "Pete Koomen",
-      "oneLiner": "Communication for agents",
-      "industry": "B2B / B2B -> Infrastructure",
-      "location": "San Francisco, CA, USA",
-      "tags": [
-        "Developer Tools",
-        "Automation",
-        "Email",
-        "Infrastructure",
-        "AI"
-      ],
-      "scoreTips": {},
-      "memoDate": "2026-03-26"
-    },
-    {
-      "rank": 28,
-      "name": "Callab AI",
-      "slug": "callab-ai",
-      "scores": {
-        "CB": 42,
-        "EG": 44,
-        "NR": 49,
-        "PG": 49,
-        "PT": 32,
-        "SL": 37,
-        "VK": 38
-      },
-      "tiers": {
-        "CB": "Pass",
-        "EG": "Pass",
-        "NR": "Neutral",
-        "PG": "Neutral",
-        "PT": "Pass",
-        "SL": "Pass",
-        "VK": "Pass"
-      },
-      "avg": 41.57,
-      "revenue": null,
-      "teamSize": 7,
-      "ycPartner": "Tom Blomfield",
-      "oneLiner": "AI-voice agents for any telephony stack.",
-      "industry": "B2B / B2B -> Operations",
-      "location": "ADGM, Abu Dhabi, UAE",
-      "tags": [
-        "Artificial Intelligence",
-        "B2B",
-        "Call Center"
-      ],
-      "scoreTips": {},
-      "memoDate": "2026-03-26"
-    },
-    {
-      "rank": 29,
-      "name": "Runtime",
-      "slug": "runtime",
-      "scores": {
-        "CB": 41,
-        "EG": 45,
-        "NR": 49,
-        "PG": 45,
-        "PT": 32,
-        "SL": 36,
-        "VK": 43
-      },
-      "tiers": {
-        "CB": "Pass",
-        "EG": "Neutral",
-        "NR": "Neutral",
-        "PG": "Neutral",
-        "PT": "Pass",
-        "SL": "Pass",
-        "VK": "Pass"
-      },
-      "avg": 41.57,
-      "revenue": null,
-      "teamSize": 3,
-      "ycPartner": "Aaron Epstein",
-      "oneLiner": "Guardrails and visibility to enable your team to ship with coding agents securely",
-      "industry": "B2B / B2B -> Engineering, Product and Design",
-      "location": "San Francisco, CA, USA",
-      "tags": [
-        "Artificial Intelligence",
-        "Developer Tools"
-      ],
-      "scoreTips": {},
-      "memoDate": "2026-03-26"
+      "memoDate": "2026-04-22"
     },
     {
       "rank": 30,
-      "name": "Interfaze",
-      "slug": "interfaze",
+      "name": "Ardent",
+      "slug": "ardent",
       "scores": {
-        "CB": 41,
-        "EG": 44,
-        "NR": 49,
-        "PG": 50,
-        "PT": 33,
-        "SL": 31,
-        "VK": 42
-      },
-      "tiers": {
-        "CB": "Pass",
-        "EG": "Pass",
-        "NR": "Neutral",
-        "PG": "Neutral",
-        "PT": "Pass",
-        "SL": "Pass",
-        "VK": "Pass"
-      },
-      "avg": 41.43,
-      "revenue": null,
-      "teamSize": 5,
-      "ycPartner": "Aaron Epstein",
-      "oneLiner": "AI model built for deterministic developer tasks",
-      "industry": "B2B / B2B -> Infrastructure",
-      "location": "San Francisco, CA, USA",
-      "tags": [
-        "Deep Learning",
-        "Developer Tools",
-        "Generative AI"
-      ],
-      "scoreTips": {},
-      "memoDate": "2026-03-29"
-    },
-    {
-      "rank": 31,
-      "name": "Foaster",
-      "slug": "foaster",
-      "scores": {
-        "CB": 45,
-        "EG": 42,
-        "NR": 47,
-        "PG": 44,
-        "PT": 30,
-        "SL": 36,
-        "VK": 44
-      },
-      "tiers": {
-        "CB": "Neutral",
-        "EG": "Pass",
-        "NR": "Neutral",
-        "PG": "Pass",
-        "PT": "Pass",
-        "SL": "Pass",
-        "VK": "Pass"
-      },
-      "avg": 41.14,
-      "revenue": null,
-      "teamSize": 2,
-      "ycPartner": "Nicolas Dessaigne",
-      "oneLiner": "AI-native consulting firm",
-      "industry": "B2B / B2B",
-      "location": "San Francisco, CA, USA",
-      "tags": [
-        "Artificial Intelligence",
-        "B2B",
-        "Enterprise Software"
-      ],
-      "scoreTips": {},
-      "memoDate": "2026-03-26"
-    },
-    {
-      "rank": 32,
-      "name": "Playabl.ai",
-      "slug": "playablai",
-      "scores": {
-        "CB": 39,
-        "EG": 35,
-        "NR": 52,
-        "PG": 51,
+        "CB": 42,
+        "EG": 53,
+        "NR": null,
+        "PG": 62,
         "PT": 36,
-        "SL": 34,
+        "SL": 40,
         "VK": 41
       },
       "tiers": {
         "CB": "Pass",
-        "EG": "Pass",
-        "NR": "Neutral",
+        "EG": "Neutral",
+        "NR": null,
         "PG": "Neutral",
         "PT": "Pass",
         "SL": "Pass",
         "VK": "Pass"
       },
-      "avg": 41.14,
+      "avg": 45.67,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Aaron Epstein",
+      "oneLiner": "Database sandboxes for Agents",
+      "industry": "B2B / B2B -> Infrastructure",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Data Engineering",
+        "Infrastructure",
+        "AI"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 31,
+      "name": "Playabl.ai",
+      "slug": "playablai",
+      "scores": {
+        "CB": 38,
+        "EG": null,
+        "NR": 59,
+        "PG": 54,
+        "PT": 37,
+        "SL": 35,
+        "VK": 48
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": null,
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 45.17,
       "revenue": null,
       "teamSize": 9,
       "ycPartner": "Nicolas Dessaigne",
@@ -1228,105 +1188,839 @@
         "Gaming"
       ],
       "scoreTips": {},
-      "memoDate": "2026-03-26"
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 32,
+      "name": "Gikl, Inc",
+      "slug": "gikl-inc",
+      "scores": {
+        "CB": 41,
+        "EG": null,
+        "NR": 62,
+        "PG": 41,
+        "PT": 29,
+        "SL": 44,
+        "VK": 53
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": null,
+        "NR": "Neutral",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 45,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Garry Tan",
+      "oneLiner": "Accelerating scientific discovery with AI",
+      "industry": "Consumer / Consumer",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Swarm AI",
+        "AI",
+        "AI Assistant"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
     },
     {
       "rank": 33,
-      "name": "Saffron",
-      "slug": "saffron",
+      "name": "Lab0",
+      "slug": "lab0",
       "scores": {
-        "CB": 39,
-        "EG": 44,
-        "NR": 48,
-        "PG": 45,
-        "PT": 33,
-        "SL": 34,
+        "CB": 46,
+        "EG": null,
+        "NR": 61,
+        "PG": 46,
+        "PT": 37,
+        "SL": 35,
+        "VK": 45
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": null,
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 45,
+      "revenue": null,
+      "teamSize": 3,
+      "ycPartner": "Nicolas Dessaigne",
+      "oneLiner": "Automated forward-deployed engineers (AI FDEs)",
+      "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Artificial Intelligence",
+        "B2B"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 34,
+      "name": "Ontora",
+      "slug": "ontora",
+      "scores": {
+        "CB": 41,
+        "EG": null,
+        "NR": 58,
+        "PG": 52,
+        "PT": 38,
+        "SL": 33,
+        "VK": 47
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": null,
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 44.83,
+      "revenue": null,
+      "teamSize": 3,
+      "ycPartner": "Tom Blomfield",
+      "oneLiner": "AI agents that interview every employee to map how work gets done.",
+      "industry": "B2B / B2B -> Operations",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Artificial Intelligence",
+        "B2B",
+        "Analytics",
+        "Operations"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 35,
+      "name": "Regbase",
+      "slug": "regbase",
+      "scores": {
+        "CB": 48,
+        "EG": null,
+        "NR": 53,
+        "PG": 55,
+        "PT": 36,
+        "SL": 39,
+        "VK": 37
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": null,
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 44.67,
+      "revenue": null,
+      "teamSize": 3,
+      "ycPartner": "Andrew Miklas",
+      "oneLiner": "Tracking global laws, grants and consultations",
+      "industry": "B2B / B2B -> Legal",
+      "location": "New York, NY, USA",
+      "tags": [
+        "Legal",
+        "Sales Enablement",
+        "LegalTech",
+        "Regtech"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 36,
+      "name": "InsForge",
+      "slug": "insforge",
+      "scores": {
+        "CB": 40,
+        "EG": null,
+        "NR": 57,
+        "PG": 51,
+        "PT": 41,
+        "SL": 33,
         "VK": 43
       },
       "tiers": {
         "CB": "Pass",
-        "EG": "Pass",
+        "EG": null,
         "NR": "Neutral",
         "PG": "Neutral",
         "PT": "Pass",
         "SL": "Pass",
         "VK": "Pass"
       },
-      "avg": 40.86,
+      "avg": 44.17,
       "revenue": null,
-      "teamSize": 3,
-      "ycPartner": "David Lieb",
-      "oneLiner": "ai-native technical assessments and work trials.",
-      "industry": "B2B / B2B -> Recruiting and Talent",
+      "teamSize": 6,
+      "ycPartner": "Andrew Miklas",
+      "oneLiner": "The backend AI agents can actually use",
+      "industry": "B2B / B2B -> Engineering, Product and Design",
       "location": "San Francisco, CA, USA",
       "tags": [
-        "SaaS",
-        "Human Resources",
-        "HR Tech"
+        "Developer Tools",
+        "Open Source",
+        "Infrastructure"
       ],
       "scoreTips": {},
-      "memoDate": "2026-03-26"
+      "memoDate": "2026-04-22"
     },
     {
-      "rank": 34,
-      "name": "Amboras",
-      "slug": "amboras",
+      "rank": 37,
+      "name": "Sidekick",
+      "slug": "textsidekick",
       "scores": {
-        "CB": 35,
-        "EG": 38,
-        "NR": 54,
-        "PG": 50,
+        "CB": 43,
+        "EG": null,
+        "NR": 52,
+        "PG": 57,
+        "PT": 33,
+        "SL": 35,
+        "VK": null
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": null,
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": null
+      },
+      "avg": 44,
+      "revenue": null,
+      "teamSize": 1,
+      "ycPartner": "Aaron Epstein",
+      "oneLiner": "AI-powered SMS assistant for deskless workers.",
+      "industry": "B2B / B2B -> Operations",
+      "location": "Saratoga, CA, USA",
+      "tags": [
+        "SaaS",
+        "B2B",
+        "AI Assistant"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 38,
+      "name": "Trellis",
+      "slug": "trellistech",
+      "scores": {
+        "CB": 40,
+        "EG": null,
+        "NR": 57,
+        "PG": 54,
         "PT": 34,
-        "SL": 33,
-        "VK": 41
+        "SL": 35,
+        "VK": null
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": null,
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": null
+      },
+      "avg": 44,
+      "revenue": null,
+      "teamSize": 6,
+      "ycPartner": "Nicolas Dessaigne",
+      "oneLiner": "Autonomous Agents for Short Term Rentals",
+      "industry": "B2B / B2B -> Operations",
+      "location": "San Francisco, CA, USA",
+      "tags": [],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 39,
+      "name": "Andustry",
+      "slug": "andustry",
+      "scores": {
+        "CB": 52,
+        "EG": 44,
+        "NR": null,
+        "PG": 49,
+        "PT": 35,
+        "SL": 39,
+        "VK": 44
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Pass",
+        "NR": null,
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 43.83,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Tom Blomfield",
+      "oneLiner": "AI to source and sell industrial products",
+      "industry": "B2B / B2B -> Supply Chain and Logistics",
+      "location": "No public data found",
+      "tags": [
+        "Marketplace",
+        "Sales",
+        "Manufacturing",
+        "Procurement",
+        "Industrial"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 40,
+      "name": "Aster",
+      "slug": "asterlab",
+      "scores": {
+        "CB": 37,
+        "EG": 37,
+        "NR": null,
+        "PG": 60,
+        "PT": 30,
+        "SL": 31,
+        "VK": 68
       },
       "tiers": {
         "CB": "Pass",
         "EG": "Pass",
+        "NR": null,
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Invest"
+      },
+      "avg": 43.83,
+      "revenue": null,
+      "teamSize": 1,
+      "ycPartner": "Harj Taggar",
+      "oneLiner": "The First AI-Native AI Research Lab",
+      "industry": "B2B / B2B -> Productivity",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Artificial Intelligence",
+        "AI"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 41,
+      "name": "GovGuard",
+      "slug": "govguard",
+      "scores": {
+        "CB": 56,
+        "EG": null,
+        "NR": 50,
+        "PG": 47,
+        "PT": 31,
+        "SL": 39,
+        "VK": 40
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": null,
         "NR": "Neutral",
         "PG": "Neutral",
         "PT": "Pass",
         "SL": "Pass",
         "VK": "Pass"
       },
-      "avg": 40.71,
+      "avg": 43.83,
       "revenue": null,
-      "teamSize": 4,
-      "ycPartner": "Aaron Epstein",
-      "oneLiner": "Let AI sell your stuff on autopilot",
-      "industry": "B2B / B2B",
-      "location": "San Francisco, CA, USA",
+      "teamSize": 0,
+      "ycPartner": "Tom Blomfield",
+      "oneLiner": "AI Infrastructure for Government Agencies",
+      "industry": "Government / Government",
+      "location": "No public data found",
       "tags": [
-        "Generative AI",
-        "B2B",
-        "E-commerce"
+        "GovTech"
       ],
       "scoreTips": {},
-      "memoDate": "2026-03-26"
+      "memoDate": "2026-04-22"
     },
     {
-      "rank": 35,
-      "name": "Standout",
-      "slug": "standout",
+      "rank": 42,
+      "name": "Zolvo",
+      "slug": "zolvo",
       "scores": {
-        "CB": 43,
-        "EG": 38,
-        "NR": 51,
-        "PG": 47,
-        "PT": 32,
+        "CB": 37,
+        "EG": null,
+        "NR": 57,
+        "PG": 54,
+        "PT": 36,
+        "SL": 35,
+        "VK": null
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": null,
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": null
+      },
+      "avg": 43.8,
+      "revenue": null,
+      "teamSize": 4,
+      "ycPartner": "Tom Blomfield",
+      "oneLiner": "AI that automates servicing for commercial lenders",
+      "industry": "Fintech / Credit and Lending",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Artificial Intelligence",
+        "B2B",
+        "Lending"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 43,
+      "name": "Kuli",
+      "slug": "kuli",
+      "scores": {
+        "CB": 39,
+        "EG": null,
+        "NR": 57,
+        "PG": 55,
+        "PT": 36,
         "SL": 34,
         "VK": 38
       },
       "tiers": {
         "CB": "Pass",
-        "EG": "Pass",
+        "EG": null,
         "NR": "Neutral",
         "PG": "Neutral",
         "PT": "Pass",
         "SL": "Pass",
         "VK": "Pass"
       },
-      "avg": 40.43,
+      "avg": 43.17,
+      "revenue": null,
+      "teamSize": 3,
+      "ycPartner": "David Lieb",
+      "oneLiner": "Claude Cowork for social media and creator marketers",
+      "industry": "B2B / B2B -> Analytics",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Artificial Intelligence",
+        "SaaS",
+        "B2B",
+        "Social Media"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 44,
+      "name": "Revnu",
+      "slug": "revnu",
+      "scores": {
+        "CB": 33,
+        "EG": null,
+        "NR": 58,
+        "PG": 60,
+        "PT": 32,
+        "SL": 32,
+        "VK": 44
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": null,
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 43.17,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Tom Blomfield",
+      "oneLiner": "Everything but the app itself",
+      "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Developer Tools",
+        "Marketing"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 45,
+      "name": "Interfaze",
+      "slug": "interfaze",
+      "scores": {
+        "CB": 36,
+        "EG": null,
+        "NR": 56,
+        "PG": 51,
+        "PT": 34,
+        "SL": 34,
+        "VK": 47
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": null,
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 43,
+      "revenue": null,
+      "teamSize": 5,
+      "ycPartner": "Aaron Epstein",
+      "oneLiner": "AI model built for deterministic developer tasks",
+      "industry": "B2B / B2B -> Infrastructure",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Deep Learning",
+        "Developer Tools",
+        "Generative AI"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 46,
+      "name": "Arga Labs",
+      "slug": "arga-labs",
+      "scores": {
+        "CB": 37,
+        "EG": 55,
+        "NR": null,
+        "PG": 57,
+        "PT": 32,
+        "SL": 33,
+        "VK": 43
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": null,
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 42.83,
+      "revenue": null,
+      "teamSize": 3,
+      "ycPartner": "Pete Koomen",
+      "oneLiner": "The validation infrastructure for AI agents",
+      "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Developer Tools",
+        "SaaS",
+        "Infrastructure"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 47,
+      "name": "Callab AI",
+      "slug": "callab-ai",
+      "scores": {
+        "CB": 46,
+        "EG": 40,
+        "NR": null,
+        "PG": 52,
+        "PT": 35,
+        "SL": 43,
+        "VK": 41
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Pass",
+        "NR": null,
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 42.83,
+      "revenue": null,
+      "teamSize": 7,
+      "ycPartner": "Tom Blomfield",
+      "oneLiner": "AI voice agents for on-prem PBX stacks.",
+      "industry": "B2B / B2B -> Operations",
+      "location": "UAE / Tunisia (Wamda, Mar 2024)",
+      "tags": [
+        "Artificial Intelligence",
+        "B2B",
+        "Call Center"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 48,
+      "name": "Taiga",
+      "slug": "taiga",
+      "scores": {
+        "CB": 49,
+        "EG": null,
+        "NR": 49,
+        "PG": 53,
+        "PT": 33,
+        "SL": 30,
+        "VK": null
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": null,
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": null
+      },
+      "avg": 42.8,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Nicolas Dessaigne",
+      "oneLiner": "Full-stack Medical Billing Services",
+      "industry": "Healthcare / Healthcare Services",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "AI"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 49,
+      "name": "AICE Power",
+      "slug": "aice-power",
+      "scores": {
+        "CB": 45,
+        "EG": 44,
+        "NR": null,
+        "PG": 48,
+        "PT": 36,
+        "SL": 38,
+        "VK": 44
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Pass",
+        "NR": null,
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 42.5,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Nicolas Dessaigne",
+      "oneLiner": "Smart energy monitoring for buildings.",
+      "industry": "Industrials / Industrials -> Energy",
+      "location": "No public data found",
+      "tags": [
+        "Batteryless IoT Sensors",
+        "Hardware",
+        "Climate"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 50,
+      "name": "Maquoketa Research",
+      "slug": "maquoketa-research",
+      "scores": {
+        "CB": 46,
+        "EG": null,
+        "NR": 39,
+        "PG": 39,
+        "PT": 35,
+        "SL": 38,
+        "VK": 58
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": null,
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 42.5,
+      "revenue": null,
+      "teamSize": 5,
+      "ycPartner": "Harj Taggar",
+      "oneLiner": "Intelligent one-way attack drones",
+      "industry": "Industrials / Industrials -> Defense",
+      "location": "Elk Grove Village, IL, USA",
+      "tags": [
+        "Artificial Intelligence",
+        "Hardware",
+        "Drones",
+        "Computer Vision",
+        "Manufacturing"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 51,
+      "name": "Runtime",
+      "slug": "runtime",
+      "scores": {
+        "CB": 41,
+        "EG": null,
+        "NR": 52,
+        "PG": 54,
+        "PT": 33,
+        "SL": 32,
+        "VK": null
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": null,
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": null
+      },
+      "avg": 42.4,
+      "revenue": null,
+      "teamSize": 3,
+      "ycPartner": "Aaron Epstein",
+      "oneLiner": "Let all your team ship safely with coding agents",
+      "industry": "B2B / B2B -> Engineering, Product and Design",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Artificial Intelligence",
+        "Developer Tools"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 52,
+      "name": "Superset",
+      "slug": "superset",
+      "scores": {
+        "CB": 36,
+        "EG": null,
+        "NR": 55,
+        "PG": 54,
+        "PT": 36,
+        "SL": 31,
+        "VK": null
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": null,
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": null
+      },
+      "avg": 42.4,
+      "revenue": null,
+      "teamSize": 3,
+      "ycPartner": "Nicolas Dessaigne",
+      "oneLiner": "IDE for the AI Agents Era",
+      "industry": "B2B / B2B -> Engineering, Product and Design",
+      "location": "San Francisco, CA, US",
+      "tags": [
+        "AI"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 53,
+      "name": "Gigacatalyst",
+      "slug": "gigacatalyst",
+      "scores": {
+        "CB": 39,
+        "EG": null,
+        "NR": 54,
+        "PG": 53,
+        "PT": 33,
+        "SL": 34,
+        "VK": 40
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": null,
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 42.17,
+      "revenue": null,
+      "teamSize": 3,
+      "ycPartner": "Andrew Miklas",
+      "oneLiner": "Customize your software to every user with AI",
+      "industry": "B2B / B2B -> Engineering, Product and Design",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Artificial Intelligence",
+        "SaaS",
+        "Enterprise",
+        "No-code"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 54,
+      "name": "Standout",
+      "slug": "standout",
+      "scores": {
+        "CB": 42,
+        "EG": null,
+        "NR": 47,
+        "PG": 52,
+        "PT": 34,
+        "SL": 33,
+        "VK": null
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": null,
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": null
+      },
+      "avg": 41.6,
       "revenue": null,
       "teamSize": 3,
       "ycPartner": "Aaron Epstein",
@@ -1340,175 +2034,328 @@
         "Careers"
       ],
       "scoreTips": {},
-      "memoDate": "2026-03-26"
+      "memoDate": "2026-04-22"
     },
     {
-      "rank": 36,
-      "name": "BioStack Platforms",
-      "slug": "biostack-platforms",
+      "rank": 55,
+      "name": "Userlens",
+      "slug": "userlens",
       "scores": {
-        "CB": 43,
-        "EG": 43,
-        "NR": 43,
-        "PG": 42,
-        "PT": 28,
-        "SL": 39,
-        "VK": 43
+        "CB": 36,
+        "EG": null,
+        "NR": 50,
+        "PG": 56,
+        "PT": 34,
+        "SL": 31,
+        "VK": null
       },
       "tiers": {
         "CB": "Pass",
-        "EG": "Pass",
+        "EG": null,
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": null
+      },
+      "avg": 41.4,
+      "revenue": null,
+      "teamSize": 4,
+      "ycPartner": "Andrew Miklas",
+      "oneLiner": "AI agents that predicts churn months before it happens.",
+      "industry": "B2B / B2B -> Operations",
+      "location": "Helsinki, Finland",
+      "tags": [
+        "SaaS",
+        "Customer Success",
+        "Enterprise Software",
+        "AI Assistant"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 56,
+      "name": "Smartbase",
+      "slug": "smartbase",
+      "scores": {
+        "CB": 39,
+        "EG": null,
+        "NR": 46,
+        "PG": 57,
+        "PT": 27,
+        "SL": 37,
+        "VK": null
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": null,
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": null
+      },
+      "avg": 41.2,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Harj Taggar",
+      "oneLiner": "Automated order entry for manufacturers",
+      "industry": "B2B / B2B -> Operations",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "SaaS",
+        "B2B",
+        "Workflow Automation",
+        "Manufacturing",
+        "Automation"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-23"
+    },
+    {
+      "rank": 57,
+      "name": "Datost",
+      "slug": "datost",
+      "scores": {
+        "CB": 37,
+        "EG": 46,
+        "NR": null,
+        "PG": 52,
+        "PT": 35,
+        "SL": 32,
+        "VK": 44
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": null,
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 41,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "David Lieb",
+      "oneLiner": "AI data analyst in Slack. Democratize data.",
+      "industry": "B2B / B2B -> Analytics",
+      "location": "New York, NY (YC page, LinkedIn)",
+      "tags": [
+        "B2B",
+        "Analytics",
+        "AI Assistant"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 58,
+      "name": "InLoop Robotics",
+      "slug": "inloop-robotics",
+      "scores": {
+        "CB": 41,
+        "EG": null,
+        "NR": 40,
+        "PG": 43,
+        "PT": 35,
+        "SL": 39,
+        "VK": 48
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": null,
         "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 41,
+      "revenue": null,
+      "teamSize": 4,
+      "ycPartner": "Tom Blomfield",
+      "oneLiner": "Deploying robots that ask for help!",
+      "industry": "Industrials / Manufacturing and Robotics",
+      "location": "San Francisco, US (company website); originally founded in Germany (Nordic 9)",
+      "tags": [
+        "Artificial Intelligence",
+        "Hard Tech",
+        "Robotics",
+        "Logistics"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 59,
+      "name": "Korso",
+      "slug": "korso",
+      "scores": {
+        "CB": 46,
+        "EG": null,
+        "NR": 49,
+        "PG": 44,
+        "PT": 34,
+        "SL": 33,
+        "VK": 40
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": null,
+        "NR": "Neutral",
         "PG": "Pass",
         "PT": "Pass",
         "SL": "Pass",
         "VK": "Pass"
       },
-      "avg": 40.14,
+      "avg": 41,
+      "revenue": null,
+      "teamSize": 3,
+      "ycPartner": "Andrew Miklas",
+      "oneLiner": "The Intelligence Layer for Manufacturing.",
+      "industry": "B2B / B2B -> Operations",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "SaaS",
+        "Manufacturing",
+        "AI"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 60,
+      "name": "Pairio",
+      "slug": "pairio",
+      "scores": {
+        "CB": 40,
+        "EG": null,
+        "NR": 50,
+        "PG": 49,
+        "PT": 33,
+        "SL": 34,
+        "VK": 40
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": null,
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 41,
+      "revenue": null,
+      "teamSize": 3,
+      "ycPartner": "Tom Blomfield",
+      "oneLiner": "AI-native industrial maintenance software",
+      "industry": "B2B / B2B",
+      "location": "Munich, Germany (Tölzer Straße 5A, 81379 München) (pairio.com/de/impressum)",
+      "tags": [
+        "SaaS",
+        "B2B",
+        "Manufacturing"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 61,
+      "name": "BioStack Platforms",
+      "slug": "biostack-platforms",
+      "scores": {
+        "CB": 47,
+        "EG": 46,
+        "NR": null,
+        "PG": 42,
+        "PT": 29,
+        "SL": 38,
+        "VK": 43
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": null,
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 40.83,
       "revenue": null,
       "teamSize": 0,
       "ycPartner": "Nicolas Dessaigne",
       "oneLiner": "Real world training envs for healthcare AI models",
       "industry": "Healthcare / Healthcare",
-      "location": "San Francisco, CA, USA",
-      "tags": [
-        "AI-powered Drug Discovery",
-        "Reinforcement Learning",
-        "Healthcare"
-      ],
+      "location": "San Francisco, CA, US (YC company page)",
+      "tags": [],
       "scoreTips": {},
-      "memoDate": "2026-03-26"
+      "memoDate": "2026-04-22"
     },
     {
-      "rank": 37,
-      "name": "Saudara AI",
-      "slug": "saudara-ai",
+      "rank": 62,
+      "name": "Imperfect",
+      "slug": "imperfect",
       "scores": {
-        "CB": 46,
-        "EG": 38,
+        "CB": 39,
+        "EG": null,
         "NR": 48,
-        "PG": 44,
-        "PT": 28,
-        "SL": 39,
-        "VK": 35
-      },
-      "tiers": {
-        "CB": "Neutral",
-        "EG": "Pass",
-        "NR": "Neutral",
-        "PG": "Pass",
-        "PT": "Pass",
-        "SL": "Pass",
-        "VK": "Pass"
-      },
-      "avg": 39.71,
-      "revenue": null,
-      "teamSize": 2,
-      "ycPartner": "David Lieb",
-      "oneLiner": "AI-native Sourcing Agency",
-      "industry": "B2B / B2B",
-      "location": "Spokane, WA 99201 (company website)",
-      "tags": [
-        "Artificial Intelligence",
-        "Marketplace",
-        "B2B"
-      ],
-      "scoreTips": {},
-      "memoDate": "2026-03-30"
-    },
-    {
-      "rank": 38,
-      "name": "TesterArmy",
-      "slug": "testerarmy",
-      "scores": {
-        "CB": 36,
-        "EG": 40,
-        "NR": 50,
-        "PG": 45,
-        "PT": 33,
-        "SL": 32,
-        "VK": 42
-      },
-      "tiers": {
-        "CB": "Pass",
-        "EG": "Pass",
-        "NR": "Neutral",
-        "PG": "Neutral",
-        "PT": "Pass",
-        "SL": "Pass",
-        "VK": "Pass"
-      },
-      "avg": 39.71,
-      "revenue": null,
-      "teamSize": 4,
-      "ycPartner": "Pete Koomen",
-      "oneLiner": "AI QA agent that tests code before it ships",
-      "industry": "B2B / Engineering, Product and Design",
-      "location": "San Francisco, CA, USA; Remote",
-      "tags": [
-        "AI"
-      ],
-      "scoreTips": {},
-      "memoDate": "2026-03-26"
-    },
-    {
-      "rank": 39,
-      "name": "OpenWork",
-      "slug": "openwork",
-      "scores": {
-        "CB": 36,
-        "EG": 36,
-        "NR": 57,
-        "PG": 45,
-        "PT": 29,
+        "PG": 55,
+        "PT": 32,
         "SL": 31,
-        "VK": 42
+        "VK": 40
       },
       "tiers": {
         "CB": "Pass",
-        "EG": "Pass",
+        "EG": null,
         "NR": "Neutral",
         "PG": "Neutral",
         "PT": "Pass",
         "SL": "Pass",
         "VK": "Pass"
       },
-      "avg": 39.43,
+      "avg": 40.83,
       "revenue": null,
-      "teamSize": 4,
-      "ycPartner": "Aaron Epstein",
-      "oneLiner": "The open source alternative to Claude Cowork",
-      "industry": "B2B / B2B -> Productivity",
+      "teamSize": 5,
+      "ycPartner": "Garry Tan",
+      "oneLiner": "AI coach that connects your wearables to get you race day ready",
+      "industry": "Consumer / Consumer",
       "location": "San Francisco, CA, USA",
       "tags": [
-        "B2B"
+        "Fitness",
+        "Health & Wellness",
+        "AI",
+        "AI Assistant"
       ],
       "scoreTips": {},
-      "memoDate": "2026-03-26"
+      "memoDate": "2026-04-23"
     },
     {
-      "rank": 40,
+      "rank": 63,
       "name": "Totalis",
       "slug": "totalis",
       "scores": {
-        "CB": 32,
-        "EG": 40,
-        "NR": 47,
-        "PG": 49,
-        "PT": 32,
-        "SL": 40,
-        "VK": 36
+        "CB": 30,
+        "EG": null,
+        "NR": 52,
+        "PG": 55,
+        "PT": 29,
+        "SL": 38,
+        "VK": null
       },
       "tiers": {
         "CB": "Pass",
-        "EG": "Pass",
+        "EG": null,
         "NR": "Neutral",
         "PG": "Neutral",
         "PT": "Pass",
         "SL": "Pass",
-        "VK": "Pass"
+        "VK": null
       },
-      "avg": 39.43,
+      "avg": 40.8,
       "revenue": null,
       "teamSize": 0,
       "ycPartner": "Andrew Miklas",
@@ -1520,105 +2367,284 @@
         "APIs"
       ],
       "scoreTips": {},
-      "memoDate": "2026-03-29"
+      "memoDate": "2026-04-22"
     },
     {
-      "rank": 41,
-      "name": "Alchemy",
-      "slug": "alchemyai",
+      "rank": 64,
+      "name": "Standard Signal",
+      "slug": "standard-signal",
       "scores": {
-        "CB": 36,
-        "EG": 43,
-        "NR": 50,
-        "PG": 43,
-        "PT": 29,
-        "SL": 33,
-        "VK": 40
+        "CB": 39,
+        "EG": null,
+        "NR": 53,
+        "PG": 41,
+        "PT": 33,
+        "SL": 37,
+        "VK": null
       },
       "tiers": {
         "CB": "Pass",
-        "EG": "Pass",
+        "EG": null,
         "NR": "Neutral",
         "PG": "Pass",
         "PT": "Pass",
         "SL": "Pass",
-        "VK": "Pass"
+        "VK": null
       },
-      "avg": 39.14,
+      "avg": 40.6,
       "revenue": null,
-      "teamSize": 2,
-      "ycPartner": "Aaron Epstein",
-      "oneLiner": "AI-powered image analysis for life sciences",
-      "industry": "B2B / B2B",
-      "location": "San Francisco, CA, USA",
+      "teamSize": 1,
+      "ycPartner": "Pete Koomen",
+      "oneLiner": "Hedge fund where AI researches and executes every trade",
+      "industry": "Fintech / Asset Management",
+      "location": "New York, NY, USA",
       "tags": [
-        "AI-powered Drug Discovery",
-        "Machine Learning",
-        "SaaS",
-        "Biotech",
-        "Automation"
-      ],
-      "scoreTips": {},
-      "memoDate": "2026-03-26"
-    },
-    {
-      "rank": 42,
-      "name": "Superset",
-      "slug": "superset",
-      "scores": {
-        "CB": 32,
-        "EG": 41,
-        "NR": 51,
-        "PG": 49,
-        "PT": 32,
-        "SL": 32,
-        "VK": 37
-      },
-      "tiers": {
-        "CB": "Pass",
-        "EG": "Pass",
-        "NR": "Neutral",
-        "PG": "Neutral",
-        "PT": "Pass",
-        "SL": "Pass",
-        "VK": "Pass"
-      },
-      "avg": 39.14,
-      "revenue": null,
-      "teamSize": 3,
-      "ycPartner": "Nicolas Dessaigne",
-      "oneLiner": "IDE for the AI Agents Era",
-      "industry": "B2B / B2B -> Engineering, Product and Design",
-      "location": "San Francisco, CA, US (YC page)",
-      "tags": [
+        "Finance",
         "AI"
       ],
       "scoreTips": {},
-      "memoDate": "2026-03-26"
+      "memoDate": "2026-04-22"
     },
     {
-      "rank": 43,
-      "name": "Gojiberry AI",
-      "slug": "gojiberry-ai",
+      "rank": 65,
+      "name": "Humwork",
+      "slug": "humwork",
       "scores": {
-        "CB": 32,
-        "EG": 40,
+        "CB": 38,
+        "EG": null,
         "NR": 45,
-        "PG": 49,
-        "PT": 34,
-        "SL": 30,
+        "PG": 55,
+        "PT": 30,
+        "SL": 36,
         "VK": 39
       },
       "tiers": {
         "CB": "Pass",
-        "EG": "Pass",
+        "EG": null,
         "NR": "Neutral",
         "PG": "Neutral",
         "PT": "Pass",
         "SL": "Pass",
         "VK": "Pass"
       },
-      "avg": 38.43,
+      "avg": 40.5,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Tyler Bosmeny",
+      "oneLiner": "Connect AI agents to human experts in 30 seconds",
+      "industry": "B2B / B2B",
+      "location": "Remote (US) (YC job posting)",
+      "tags": [],
+      "scoreTips": {},
+      "memoDate": "2026-04-23"
+    },
+    {
+      "rank": 66,
+      "name": "Framewise Health",
+      "slug": "framewise-health",
+      "scores": {
+        "CB": 48,
+        "EG": null,
+        "NR": null,
+        "PG": 48,
+        "PT": 28,
+        "SL": 36,
+        "VK": 42
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": null,
+        "NR": null,
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 40.4,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Aaron Epstein",
+      "oneLiner": "AI-personalized patient recovery videos",
+      "industry": "Healthcare / Healthcare",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "SaaS",
+        "Health Tech",
+        "B2B"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 67,
+      "name": "fuchsia",
+      "slug": "fuchsia",
+      "scores": {
+        "CB": 47,
+        "EG": null,
+        "NR": null,
+        "PG": 46,
+        "PT": 33,
+        "SL": 36,
+        "VK": 39
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": null,
+        "NR": null,
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 40.2,
+      "revenue": null,
+      "teamSize": 1,
+      "ycPartner": "Tyler Bosmeny",
+      "oneLiner": "AI that gets hardware compliance done in weeks, not months.",
+      "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Hardware",
+        "Robotics",
+        "Compliance",
+        "AI"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-23"
+    },
+    {
+      "rank": 68,
+      "name": "modern",
+      "slug": "modern",
+      "scores": {
+        "CB": 42,
+        "EG": null,
+        "NR": 48,
+        "PG": 45,
+        "PT": 32,
+        "SL": 33,
+        "VK": 41
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": null,
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 40.17,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Aaron Epstein",
+      "oneLiner": "AI agents for IT, HR & Operations teams",
+      "industry": "B2B / B2B -> Operations",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "AIOps",
+        "Artificial Intelligence",
+        "SaaS",
+        "B2B",
+        "Healthcare IT"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 69,
+      "name": "OpenWork",
+      "slug": "openwork",
+      "scores": {
+        "CB": 38,
+        "EG": null,
+        "NR": 51,
+        "PG": 50,
+        "PT": 31,
+        "SL": 30,
+        "VK": 41
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": null,
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 40.17,
+      "revenue": null,
+      "teamSize": 4,
+      "ycPartner": "Aaron Epstein",
+      "oneLiner": "The open source alternative to Claude Cowork",
+      "industry": "B2B / B2B -> Productivity",
+      "location": "San Francisco, CA, US / Remote",
+      "tags": [],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 70,
+      "name": "Foaster",
+      "slug": "foaster",
+      "scores": {
+        "CB": 39,
+        "EG": null,
+        "NR": null,
+        "PG": 47,
+        "PT": 32,
+        "SL": 34,
+        "VK": 48
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": null,
+        "NR": null,
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 40,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Nicolas Dessaigne",
+      "oneLiner": "Your AI-native partner for AI transformation.",
+      "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Artificial Intelligence",
+        "B2B",
+        "Enterprise Software"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 71,
+      "name": "Gojiberry AI",
+      "slug": "gojiberry-ai",
+      "scores": {
+        "CB": 31,
+        "EG": null,
+        "NR": 50,
+        "PG": 56,
+        "PT": 33,
+        "SL": 29,
+        "VK": 41
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": null,
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 40,
       "revenue": null,
       "teamSize": 0,
       "ycPartner": "Andrew Miklas",
@@ -1627,31 +2653,540 @@
       "location": "Remote",
       "tags": [],
       "scoreTips": {},
-      "memoDate": "2026-03-26"
+      "memoDate": "2026-04-22"
     },
     {
-      "rank": 44,
-      "name": "qomplement",
-      "slug": "qomplement",
+      "rank": 72,
+      "name": "Manicule",
+      "slug": "manicule",
       "scores": {
-        "CB": 39,
-        "EG": 41,
-        "NR": 47,
-        "PG": 45,
+        "CB": 35,
+        "EG": null,
+        "NR": 42,
+        "PG": 63,
         "PT": 28,
+        "SL": 34,
+        "VK": 38
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": null,
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 40,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Aaron Epstein",
+      "oneLiner": "AI Native Technical Documentation Studio",
+      "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Developer Tools",
+        "B2B",
+        "AI"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 73,
+      "name": "Amboras",
+      "slug": "amboras",
+      "scores": {
+        "CB": 37,
+        "EG": 37,
+        "NR": null,
+        "PG": 58,
+        "PT": 32,
         "SL": 33,
-        "VK": 36
+        "VK": 42
       },
       "tiers": {
         "CB": "Pass",
         "EG": "Pass",
+        "NR": null,
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 39.83,
+      "revenue": null,
+      "teamSize": 4,
+      "ycPartner": "Aaron Epstein",
+      "oneLiner": "Let AI sell your stuff on autopilot",
+      "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Generative AI",
+        "B2B",
+        "E-commerce"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 74,
+      "name": "Lamina Labs",
+      "slug": "lamina-labs",
+      "scores": {
+        "CB": 41,
+        "EG": null,
+        "NR": 51,
+        "PG": 43,
+        "PT": 28,
+        "SL": 34,
+        "VK": 42
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": null,
+        "NR": "Neutral",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 39.83,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Pete Koomen",
+      "oneLiner": "Visual infrastructure for EdTech AI applications",
+      "industry": "B2B / B2B -> Engineering, Product and Design",
+      "location": "No public data found",
+      "tags": [
+        "Education",
+        "Video",
+        "Edtech"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 75,
+      "name": "Saudara AI",
+      "slug": "saudara-ai",
+      "scores": {
+        "CB": 42,
+        "EG": null,
+        "NR": 39,
+        "PG": 54,
+        "PT": 27,
+        "SL": 37,
+        "VK": null
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": null,
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": null
+      },
+      "avg": 39.8,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "David Lieb",
+      "oneLiner": "AI-native Sourcing Agency",
+      "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Marketplace",
+        "B2B",
+        "AI"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 76,
+      "name": "TesterArmy",
+      "slug": "testerarmy",
+      "scores": {
+        "CB": 37,
+        "EG": null,
+        "NR": 53,
+        "PG": 45,
+        "PT": 32,
+        "SL": 32,
+        "VK": null
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": null,
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": null
+      },
+      "avg": 39.8,
+      "revenue": null,
+      "teamSize": 4,
+      "ycPartner": "Pete Koomen",
+      "oneLiner": "Test your app with AI, catch bugs before users do",
+      "industry": "B2B / B2B -> Engineering, Product and Design",
+      "location": "San Francisco, CA, USA; Remote",
+      "tags": [
+        "AI"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 77,
+      "name": "Cignara",
+      "slug": "cignara",
+      "scores": {
+        "CB": 38,
+        "EG": 47,
+        "NR": null,
+        "PG": 47,
+        "PT": 33,
+        "SL": 30,
+        "VK": 43
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": null,
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 39.67,
+      "revenue": null,
+      "teamSize": 4,
+      "ycPartner": "Garry Tan",
+      "oneLiner": "AI voice & chat agents for sales and customer support at large B2C?",
+      "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "AI",
+        "AI Assistant"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-23"
+    },
+    {
+      "rank": 78,
+      "name": "ProjectX",
+      "slug": "projectx",
+      "scores": {
+        "CB": 39,
+        "EG": null,
+        "NR": 42,
+        "PG": 47,
+        "PT": 29,
+        "SL": 39,
+        "VK": 42
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": null,
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 39.67,
+      "revenue": null,
+      "teamSize": 6,
+      "ycPartner": "Andrew Miklas",
+      "oneLiner": "Building Infinity: the computer that does everything at once.",
+      "industry": "B2B / B2B -> Infrastructure",
+      "location": "Kalyani, West Bengal, India (Startup Story Media); San Francisco also listed (@ProjectX_Cloud X bio)",
+      "tags": [],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 79,
+      "name": "primitive",
+      "slug": "primitive",
+      "scores": {
+        "CB": 37,
+        "EG": null,
+        "NR": 50,
+        "PG": 45,
+        "PT": 28,
+        "SL": 37,
+        "VK": 40
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": null,
         "NR": "Neutral",
         "PG": "Neutral",
         "PT": "Pass",
         "SL": "Pass",
         "VK": "Pass"
       },
-      "avg": 38.43,
+      "avg": 39.5,
+      "revenue": null,
+      "teamSize": 3,
+      "ycPartner": "Pete Koomen",
+      "oneLiner": "Communication for agents",
+      "industry": "B2B / B2B -> Infrastructure",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Artificial Intelligence",
+        "Developer Tools",
+        "Automation",
+        "Email",
+        "Infrastructure"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 80,
+      "name": "Mount",
+      "slug": "mount",
+      "scores": {
+        "CB": 41,
+        "EG": null,
+        "NR": 40,
+        "PG": 43,
+        "PT": 32,
+        "SL": 41,
+        "VK": 39
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": null,
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 39.33,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Pete Koomen",
+      "oneLiner": "Insure and secure your AI Agents",
+      "industry": "Fintech / Fintech -> Insurance",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "AIOps",
+        "Artificial Intelligence",
+        "Security",
+        "Insurance",
+        "AI"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 81,
+      "name": "Bloom",
+      "slug": "trybloom",
+      "scores": {
+        "CB": 31,
+        "EG": null,
+        "NR": 52,
+        "PG": 49,
+        "PT": 33,
+        "SL": 31,
+        "VK": null
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": null,
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": null
+      },
+      "avg": 39.2,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Pete Koomen",
+      "oneLiner": "Bloom is the Brand OS for your business.",
+      "industry": "B2B / B2B",
+      "location": "San Francisco, CA, US",
+      "tags": [],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 82,
+      "name": "Lightsprint",
+      "slug": "lightsprint",
+      "scores": {
+        "CB": 35,
+        "EG": null,
+        "NR": 50,
+        "PG": 40,
+        "PT": 29,
+        "SL": 33,
+        "VK": 46
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": null,
+        "NR": "Neutral",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 38.83,
+      "revenue": null,
+      "teamSize": 3,
+      "ycPartner": "Garry Tan",
+      "oneLiner": "Collaborative product development platform that lets non-engineering?",
+      "industry": "B2B / B2B -> Engineering, Product and Design",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Developer Tools"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 83,
+      "name": "Saffron",
+      "slug": "saffron",
+      "scores": {
+        "CB": 38,
+        "EG": null,
+        "NR": 50,
+        "PG": 44,
+        "PT": 29,
+        "SL": 33,
+        "VK": null
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": null,
+        "NR": "Neutral",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": null
+      },
+      "avg": 38.8,
+      "revenue": null,
+      "teamSize": 3,
+      "ycPartner": "David Lieb",
+      "oneLiner": "AI-Native Technical Assessments and Work Trials.",
+      "industry": "B2B / B2B -> Recruiting and Talent",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "SaaS",
+        "Human Resources",
+        "HR Tech"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 84,
+      "name": "Cohesion",
+      "slug": "cohesion",
+      "scores": {
+        "CB": 32,
+        "EG": 42,
+        "NR": null,
+        "PG": 54,
+        "PT": 34,
+        "SL": 34,
+        "VK": 36
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": null,
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 38.67,
+      "revenue": null,
+      "teamSize": 3,
+      "ycPartner": "Tom Blomfield",
+      "oneLiner": "Your public equities agentic teammate",
+      "industry": "B2B / B2B -> Finance and Accounting",
+      "location": "No public data found",
+      "tags": [
+        "Fintech",
+        "SaaS",
+        "Investing"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 85,
+      "name": "Asendia AI",
+      "slug": "asendia-ai",
+      "scores": {
+        "CB": 44,
+        "EG": 42,
+        "NR": null,
+        "PG": 46,
+        "PT": 33,
+        "SL": 28,
+        "VK": 37
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": null,
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 38.33,
+      "revenue": null,
+      "teamSize": 3,
+      "ycPartner": "Tom Blomfield",
+      "oneLiner": "AI Recruiters for Staffing Agencies and Enterprise",
+      "industry": "B2B / B2B -> Human Resources",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Artificial Intelligence",
+        "Recruiting",
+        "AI"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 86,
+      "name": "qomplement",
+      "slug": "qomplement",
+      "scores": {
+        "CB": 41,
+        "EG": null,
+        "NR": 45,
+        "PG": 42,
+        "PT": 32,
+        "SL": 32,
+        "VK": 38
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": null,
+        "NR": "Neutral",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 38.33,
       "revenue": null,
       "teamSize": 4,
       "ycPartner": "Tom Blomfield",
@@ -1660,108 +3195,35 @@
       "location": "San Francisco, CA, USA",
       "tags": [
         "Documents",
-        "Artificial Intelligence",
-        "B2B"
-      ],
-      "scoreTips": {},
-      "memoDate": "2026-03-26"
-    },
-    {
-      "rank": 45,
-      "name": "Prototyping.io",
-      "slug": "prototypingio",
-      "scores": {
-        "CB": 42,
-        "EG": 37,
-        "NR": 42,
-        "PG": 40,
-        "PT": 31,
-        "SL": 37,
-        "VK": 39
-      },
-      "tiers": {
-        "CB": "Pass",
-        "EG": "Pass",
-        "NR": "Pass",
-        "PG": "Pass",
-        "PT": "Pass",
-        "SL": "Pass",
-        "VK": "Pass"
-      },
-      "avg": 38.29,
-      "revenue": null,
-      "teamSize": 2,
-      "ycPartner": "Nicolas Dessaigne",
-      "oneLiner": "AI-native mechanical manufacturing platform",
-      "industry": "Industrials / Manufacturing and Robotics",
-      "location": "Sunnyvale, CA, USA",
-      "tags": [
-        "Hardware",
-        "Manufacturing",
+        "B2B",
         "AI"
       ],
       "scoreTips": {},
-      "memoDate": "2026-03-26"
+      "memoDate": "2026-04-22"
     },
     {
-      "rank": 46,
-      "name": "Stage",
-      "slug": "stage",
-      "scores": {
-        "CB": 29,
-        "EG": 42,
-        "NR": 48,
-        "PG": 51,
-        "PT": 30,
-        "SL": 30,
-        "VK": 37
-      },
-      "tiers": {
-        "CB": "Pass",
-        "EG": "Pass",
-        "NR": "Neutral",
-        "PG": "Neutral",
-        "PT": "Pass",
-        "SL": "Pass",
-        "VK": "Pass"
-      },
-      "avg": 38.14,
-      "revenue": null,
-      "teamSize": 2,
-      "ycPartner": "Pete Koomen",
-      "oneLiner": "Code review platform for today's engineers",
-      "industry": "B2B / B2B -> Engineering, Product and Design",
-      "location": "No public data found",
-      "tags": [
-        "Developer Tools",
-        "SaaS"
-      ],
-      "scoreTips": {},
-      "memoDate": "2026-03-26"
-    },
-    {
-      "rank": 47,
+      "rank": 87,
       "name": "Sherpa",
       "slug": "sherpa",
       "scores": {
         "CB": 32,
-        "EG": 39,
-        "NR": 49,
+        "EG": null,
+        "NR": 52,
         "PG": 43,
-        "PT": 27,
-        "SL": 30,
-        "VK": 37
+        "PT": 32,
+        "SL": 29,
+        "VK": null
       },
       "tiers": {
         "CB": "Pass",
-        "EG": "Pass",
+        "EG": null,
         "NR": "Neutral",
         "PG": "Pass",
         "PT": "Pass",
         "SL": "Pass",
-        "VK": "Pass"
+        "VK": null
       },
-      "avg": 36.71,
+      "avg": 37.6,
       "revenue": null,
       "teamSize": 2,
       "ycPartner": "Andrew Miklas",
@@ -1776,216 +3238,219 @@
         "AI"
       ],
       "scoreTips": {},
-      "memoDate": "2026-03-30"
+      "memoDate": "2026-04-22"
     },
     {
-      "rank": 48,
-      "name": "Korso",
-      "slug": "korso",
+      "rank": 88,
+      "name": "Alchemy",
+      "slug": "alchemyai",
       "scores": {
-        "CB": 36,
-        "EG": 40,
-        "NR": 42,
-        "PG": 39,
-        "PT": 30,
-        "SL": 32,
-        "VK": 36
-      },
-      "tiers": {
-        "CB": "Pass",
-        "EG": "Pass",
-        "NR": "Pass",
-        "PG": "Pass",
-        "PT": "Pass",
-        "SL": "Pass",
-        "VK": "Pass"
-      },
-      "avg": 36.43,
-      "revenue": null,
-      "teamSize": 3,
-      "ycPartner": "Andrew Miklas",
-      "oneLiner": "The Intelligence Layer for Manufacturing.",
-      "industry": "B2B / B2B -> Operations",
-      "location": "San Francisco, CA, USA",
-      "tags": [
-        "Artificial Intelligence",
-        "SaaS",
-        "Manufacturing"
-      ],
-      "scoreTips": {},
-      "memoDate": "2026-03-26"
-    },
-    {
-      "rank": 49,
-      "name": "Datost",
-      "slug": "datost",
-      "scores": {
-        "CB": 32,
-        "EG": 35,
-        "NR": 44,
-        "PG": 42,
-        "PT": 30,
+        "CB": 39,
+        "EG": 42,
+        "NR": null,
+        "PG": 41,
+        "PT": 29,
         "SL": 31,
-        "VK": 39
+        "VK": 40
       },
       "tiers": {
         "CB": "Pass",
         "EG": "Pass",
-        "NR": "Pass",
+        "NR": null,
         "PG": "Pass",
         "PT": "Pass",
         "SL": "Pass",
         "VK": "Pass"
       },
-      "avg": 36.14,
-      "revenue": null,
-      "teamSize": 2,
-      "ycPartner": "David Lieb",
-      "oneLiner": "AI data analyst in Slack. Democratize data.",
-      "industry": "B2B / B2B -> Analytics",
-      "location": "New York City (YC page, founder profile)",
-      "tags": [
-        "B2B",
-        "Analytics",
-        "AI Assistant"
-      ],
-      "scoreTips": {},
-      "memoDate": "2026-03-26"
-    },
-    {
-      "rank": 50,
-      "name": "Manicule",
-      "slug": "manicule",
-      "scores": {
-        "CB": 34,
-        "EG": 34,
-        "NR": 39,
-        "PG": 56,
-        "PT": 28,
-        "SL": 30,
-        "VK": 31
-      },
-      "tiers": {
-        "CB": "Pass",
-        "EG": "Pass",
-        "NR": "Pass",
-        "PG": "Neutral",
-        "PT": "Pass",
-        "SL": "Pass",
-        "VK": "Pass"
-      },
-      "avg": 36,
+      "avg": 37,
       "revenue": null,
       "teamSize": 2,
       "ycPartner": "Aaron Epstein",
-      "oneLiner": "AI Native Technical Documentation Studio",
+      "oneLiner": "AI-powered image analysis for life sciences",
       "industry": "B2B / B2B",
       "location": "San Francisco, CA, USA",
       "tags": [
-        "Developer Tools",
-        "B2B",
-        "AI"
+        "AI-powered Drug Discovery",
+        "Machine Learning",
+        "SaaS",
+        "Biotech",
+        "Automation"
       ],
       "scoreTips": {},
-      "memoDate": "2026-03-26"
+      "memoDate": "2026-04-22"
     },
     {
-      "rank": 51,
-      "name": "Asendia AI",
-      "slug": "asendia-ai",
-      "scores": {
-        "CB": 35,
-        "EG": 39,
-        "NR": 41,
-        "PG": 39,
-        "PT": 29,
-        "SL": 29,
-        "VK": 37
-      },
-      "tiers": {
-        "CB": "Pass",
-        "EG": "Pass",
-        "NR": "Pass",
-        "PG": "Pass",
-        "PT": "Pass",
-        "SL": "Pass",
-        "VK": "Pass"
-      },
-      "avg": 35.57,
-      "revenue": null,
-      "teamSize": 3,
-      "ycPartner": "Tom Blomfield",
-      "oneLiner": "Agentic recruitment platform for staffing agencies",
-      "industry": "B2B / B2B -> Human Resources",
-      "location": "San Francisco, CA, USA",
-      "tags": [
-        "Artificial Intelligence",
-        "Recruiting",
-        "AI"
-      ],
-      "scoreTips": {},
-      "memoDate": "2026-03-26"
-    },
-    {
-      "rank": 52,
+      "rank": 89,
       "name": "Replicas",
       "slug": "replicas",
       "scores": {
-        "CB": 32,
-        "EG": 34,
-        "NR": 45,
+        "CB": 29,
+        "EG": null,
+        "NR": 49,
         "PG": 43,
-        "PT": 31,
-        "SL": 26,
-        "VK": 34
+        "PT": 28,
+        "SL": 31,
+        "VK": 42
       },
       "tiers": {
         "CB": "Pass",
-        "EG": "Pass",
+        "EG": null,
         "NR": "Neutral",
         "PG": "Pass",
         "PT": "Pass",
         "SL": "Pass",
         "VK": "Pass"
       },
-      "avg": 35,
+      "avg": 37,
       "revenue": null,
       "teamSize": 1,
       "ycPartner": "Harj Taggar",
-      "oneLiner": "Use background coding agents from anywhere",
+      "oneLiner": "Background coding agents for engineering teams",
       "industry": "B2B / B2B -> Engineering, Product and Design",
-      "location": "San Francisco, CA, USA",
+      "location": "San Francisco, CA, US (YC page job listing)",
       "tags": [
         "Developer Tools",
-        "B2B",
+        "API",
         "AI"
       ],
       "scoreTips": {},
-      "memoDate": "2026-03-26"
+      "memoDate": "2026-04-22"
     },
     {
-      "rank": 53,
-      "name": "Hub.xyz",
-      "slug": "hubxyz",
+      "rank": 90,
+      "name": "Salesgraph",
+      "slug": "salesgraph",
       "scores": {
-        "CB": 30,
-        "EG": 34,
-        "NR": 41,
-        "PG": 33,
+        "CB": 34,
+        "EG": null,
+        "NR": 45,
+        "PG": 51,
         "PT": 29,
-        "SL": 35,
+        "SL": 26,
+        "VK": null
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": null,
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": null
+      },
+      "avg": 37,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Andrew Miklas",
+      "oneLiner": "the context layer for fast moving sales teams",
+      "industry": "B2B / B2B -> Sales",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "SaaS",
+        "B2B",
+        "Sales"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 91,
+      "name": "Stage",
+      "slug": "stage",
+      "scores": {
+        "CB": 32,
+        "EG": null,
+        "NR": 47,
+        "PG": 47,
+        "PT": 28,
+        "SL": 28,
+        "VK": null
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": null,
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": null
+      },
+      "avg": 36.4,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Pete Koomen",
+      "oneLiner": "Code review platform for today's engineers",
+      "industry": "B2B / B2B -> Engineering, Product and Design",
+      "location": "Not listed",
+      "tags": [
+        "Developer Tools",
+        "SaaS"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 92,
+      "name": "Pulsent",
+      "slug": "pulsent",
+      "scores": {
+        "CB": 33,
+        "EG": null,
+        "NR": 49,
+        "PG": 38,
+        "PT": 31,
+        "SL": 30,
         "VK": 36
       },
       "tiers": {
         "CB": "Pass",
-        "EG": "Pass",
+        "EG": null,
+        "NR": "Neutral",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 36.17,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "David Lieb",
+      "oneLiner": "AI Agents that watch, engage and convert your users.",
+      "industry": "B2B / B2B -> Sales",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Artificial Intelligence",
+        "SaaS",
+        "B2B",
+        "Sales Enablement",
+        "Monitoring"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 93,
+      "name": "Hub.xyz",
+      "slug": "hubxyz",
+      "scores": {
+        "CB": 34,
+        "EG": null,
+        "NR": 38,
+        "PG": 36,
+        "PT": 27,
+        "SL": 40,
+        "VK": 40
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": null,
         "NR": "Pass",
         "PG": "Pass",
         "PT": "Pass",
         "SL": "Pass",
         "VK": "Pass"
       },
-      "avg": 34,
+      "avg": 35.83,
       "revenue": null,
       "teamSize": 10,
       "ycPartner": "Harj Taggar",
@@ -1999,7 +3464,306 @@
         "AI"
       ],
       "scoreTips": {},
-      "memoDate": "2026-03-26"
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 94,
+      "name": "Ara",
+      "slug": "ara",
+      "scores": {
+        "CB": 33,
+        "EG": 37,
+        "NR": null,
+        "PG": 43,
+        "PT": 30,
+        "SL": 29,
+        "VK": 41
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": null,
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 35.5,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Aaron Epstein",
+      "oneLiner": "personal ai cloud computing for everyone",
+      "industry": "Consumer / Consumer",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Artificial Intelligence",
+        "Developer Tools",
+        "Consumer"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 95,
+      "name": "StableBrowse",
+      "slug": "stablebrowse",
+      "scores": {
+        "CB": 35,
+        "EG": null,
+        "NR": 44,
+        "PG": 36,
+        "PT": 31,
+        "SL": 30,
+        "VK": null
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": null,
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": null
+      },
+      "avg": 35.2,
+      "revenue": null,
+      "teamSize": 4,
+      "ycPartner": "Tom Blomfield",
+      "oneLiner": "Browser for AI agents",
+      "industry": "B2B / B2B -> Infrastructure",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "API",
+        "Automation",
+        "Web Development",
+        "AI"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 96,
+      "name": "Kinect",
+      "slug": "kinect",
+      "scores": {
+        "CB": 33,
+        "EG": null,
+        "NR": 44,
+        "PG": 37,
+        "PT": 30,
+        "SL": 31,
+        "VK": 35
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": null,
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 35,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "David Lieb",
+      "oneLiner": "Personalized storefronts for every visitor",
+      "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "B2B",
+        "E-commerce",
+        "Conversational AI"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 97,
+      "name": "Refortifai",
+      "slug": "refortifai",
+      "scores": {
+        "CB": 34,
+        "EG": null,
+        "NR": 39,
+        "PG": 40,
+        "PT": 27,
+        "SL": 29,
+        "VK": 40
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": null,
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 34.83,
+      "revenue": null,
+      "teamSize": 3,
+      "ycPartner": "Nicolas Dessaigne",
+      "oneLiner": "Runtime security for AI agents",
+      "industry": "B2B / B2B -> Security",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "B2B",
+        "Security",
+        "AI"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 98,
+      "name": "Elyra",
+      "slug": "elyra",
+      "scores": {
+        "CB": 33,
+        "EG": null,
+        "NR": null,
+        "PG": 41,
+        "PT": 30,
+        "SL": 28,
+        "VK": 38
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": null,
+        "NR": null,
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 34,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Pete Koomen",
+      "oneLiner": "AI for Restaurant Reservations",
+      "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Artificial Intelligence",
+        "SaaS",
+        "Restaurant Tech"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 99,
+      "name": "Napkin Math",
+      "slug": "napkin-math",
+      "scores": {
+        "CB": 35,
+        "EG": null,
+        "NR": 38,
+        "PG": 42,
+        "PT": 22,
+        "SL": 32,
+        "VK": 35
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": null,
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 34,
+      "revenue": null,
+      "teamSize": 3,
+      "ycPartner": "Pete Koomen",
+      "oneLiner": "Building Napkin Math, AI-powered food journaling for real people",
+      "industry": "Consumer / Consumer",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Artificial Intelligence",
+        "Consumer",
+        "Fitness",
+        "Digital Health",
+        "Food"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 100,
+      "name": "Prism",
+      "slug": "tryprism",
+      "scores": {
+        "CB": 32,
+        "EG": null,
+        "NR": 44,
+        "PG": 38,
+        "PT": 27,
+        "SL": 29,
+        "VK": null
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": null,
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": null
+      },
+      "avg": 34,
+      "revenue": null,
+      "teamSize": 4,
+      "ycPartner": "Tom Blomfield",
+      "oneLiner": "AI-native recruiting agency",
+      "industry": "B2B / B2B -> Recruiting and Talent",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Recruiting",
+        "HR Tech",
+        "Talent Acquisition",
+        "AI"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-23"
+    },
+    {
+      "rank": 101,
+      "name": "Pentagon",
+      "slug": "pentagon",
+      "scores": {
+        "CB": 30,
+        "EG": null,
+        "NR": 42,
+        "PG": 34,
+        "PT": 22,
+        "SL": 28,
+        "VK": 38
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": null,
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 32.33,
+      "revenue": null,
+      "teamSize": 1,
+      "ycPartner": "Tom Blomfield",
+      "oneLiner": "Your AI agents, working as a team.",
+      "industry": "B2B / B2B -> Productivity",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Artificial Intelligence",
+        "Enterprise Software"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-22"
     }
   ],
   "disagreements": [],
@@ -2009,83 +3773,83 @@
       "persona": "CB",
       "values": {
         "CB": null,
-        "EG": 0.44,
-        "NR": 0.57,
-        "PG": 0.6,
-        "PT": 0.81,
-        "SL": 0.8,
-        "VK": 0.78
+        "EG": 0.21,
+        "NR": 0.5,
+        "PG": 0.54,
+        "PT": 0.73,
+        "SL": 0.65,
+        "VK": 0.53
       }
     },
     {
       "persona": "EG",
       "values": {
-        "CB": 0.44,
+        "CB": 0.21,
         "EG": null,
-        "NR": 0.53,
-        "PG": 0.56,
-        "PT": 0.49,
-        "SL": 0.3,
-        "VK": 0.3
+        "NR": null,
+        "PG": 0.29,
+        "PT": 0.03,
+        "SL": -0.01,
+        "VK": -0.21
       }
     },
     {
       "persona": "NR",
       "values": {
-        "CB": 0.57,
-        "EG": 0.53,
+        "CB": 0.5,
+        "EG": null,
         "NR": null,
-        "PG": 0.7,
-        "PT": 0.66,
-        "SL": 0.52,
-        "VK": 0.57
+        "PG": 0.64,
+        "PT": 0.7,
+        "SL": 0.36,
+        "VK": 0.48
       }
     },
     {
       "persona": "PG",
       "values": {
-        "CB": 0.6,
-        "EG": 0.56,
-        "NR": 0.7,
+        "CB": 0.54,
+        "EG": 0.29,
+        "NR": 0.64,
         "PG": null,
-        "PT": 0.7,
-        "SL": 0.49,
-        "VK": 0.55
+        "PT": 0.6,
+        "SL": 0.4,
+        "VK": 0.33
       }
     },
     {
       "persona": "PT",
       "values": {
-        "CB": 0.81,
-        "EG": 0.49,
-        "NR": 0.66,
-        "PG": 0.7,
+        "CB": 0.73,
+        "EG": 0.03,
+        "NR": 0.7,
+        "PG": 0.6,
         "PT": null,
-        "SL": 0.76,
-        "VK": 0.81
+        "SL": 0.67,
+        "VK": 0.68
       }
     },
     {
       "persona": "SL",
       "values": {
-        "CB": 0.8,
-        "EG": 0.3,
-        "NR": 0.52,
-        "PG": 0.49,
-        "PT": 0.76,
+        "CB": 0.65,
+        "EG": -0.01,
+        "NR": 0.36,
+        "PG": 0.4,
+        "PT": 0.67,
         "SL": null,
-        "VK": 0.84
+        "VK": 0.53
       }
     },
     {
       "persona": "VK",
       "values": {
-        "CB": 0.78,
-        "EG": 0.3,
-        "NR": 0.57,
-        "PG": 0.55,
-        "PT": 0.81,
-        "SL": 0.84,
+        "CB": 0.53,
+        "EG": -0.21,
+        "NR": 0.48,
+        "PG": 0.33,
+        "PT": 0.68,
+        "SL": 0.53,
         "VK": null
       }
     }

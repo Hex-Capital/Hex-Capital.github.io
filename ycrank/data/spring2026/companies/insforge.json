@@ -1,0 +1,71 @@
+{
+  "slug": "insforge",
+  "name": "InsForge",
+  "oneLiner": "The backend AI agents can actually use",
+  "metadata": {
+    "website": "https://insforge.dev/",
+    "yc_page": "https://www.ycombinator.com/companies/insforge",
+    "batch": "Spring 2026 (P26)",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "6",
+    "location": "San Francisco, CA, USA",
+    "tags": "Developer Tools, Open Source, Infrastructure",
+    "yc_partner": "Andrew Miklas",
+    "emails": "info@insforge.dev (LinkedIn search snippet)"
+  },
+  "tags": [
+    "Developer Tools",
+    "Open Source",
+    "Infrastructure"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-22T23:23:49.024Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 43,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 40,
+    "EG": null,
+    "NR": 57,
+    "PG": 51,
+    "PT": 41,
+    "SL": 33,
+    "VK": 43
+  },
+  "consolidatedAvg": 44.17,
+  "consolidatedRank": 36,
+  "paths": {
+    "memo": "spring2026/memos/insforge.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/insforge.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/insforge.md",
+      "paul-graham": "spring2026/evals/paul-graham/insforge.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/insforge.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/insforge.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/insforge.md"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "slug": "smol-machines",
+  "name": "smol machines",
+  "oneLiner": "Ship software faster with portable, self contained virtual machines.",
+  "metadata": {
+    "website": "https://smolmachines.com/",
+    "yc_page": "https://www.ycombinator.com/companies/smol-machines",
+    "batch": "Spring 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "1",
+    "location": "No public data found",
+    "tags": "Cloud Computing, Infrastructure",
+    "yc_partner": "Pete Koomen",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Cloud Computing",
+    "Infrastructure"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-22T23:35:45.813Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 61,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 40,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 43,
+    "EG": null,
+    "NR": 61,
+    "PG": 59,
+    "PT": 34,
+    "SL": 40,
+    "VK": null
+  },
+  "consolidatedAvg": 47.4,
+  "consolidatedRank": 25,
+  "paths": {
+    "memo": "spring2026/memos/smol-machines.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/smol-machines.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/smol-machines.md",
+      "paul-graham": "spring2026/evals/paul-graham/smol-machines.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/smol-machines.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/smol-machines.md"
+    }
+  }
+}

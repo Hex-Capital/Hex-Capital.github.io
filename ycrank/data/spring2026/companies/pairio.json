@@ -1,0 +1,71 @@
+{
+  "slug": "pairio",
+  "name": "Pairio",
+  "oneLiner": "AI-native industrial maintenance software",
+  "metadata": {
+    "website": "https://pairio.com",
+    "yc_page": "https://www.ycombinator.com/companies/pairio",
+    "batch": "Spring 2026 (P26)",
+    "industry": "B2B / B2B",
+    "team_size": "3",
+    "location": "Munich, Germany (Tölzer Straße 5A, 81379 München) (pairio.com/de/impressum)",
+    "tags": "SaaS, B2B, Manufacturing",
+    "yc_partner": "Tom Blomfield (YC company page)",
+    "emails": "founders@pairio.com (Impressum page), tim.zinkl@pairio.com (YC company page)"
+  },
+  "tags": [
+    "SaaS",
+    "B2B",
+    "Manufacturing"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-22T23:43:34.867Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 40,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 40,
+    "EG": null,
+    "NR": 50,
+    "PG": 49,
+    "PT": 33,
+    "SL": 34,
+    "VK": 40
+  },
+  "consolidatedAvg": 41,
+  "consolidatedRank": 60,
+  "paths": {
+    "memo": "spring2026/memos/pairio.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/pairio.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/pairio.md",
+      "paul-graham": "spring2026/evals/paul-graham/pairio.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/pairio.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/pairio.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/pairio.md"
+    }
+  }
+}

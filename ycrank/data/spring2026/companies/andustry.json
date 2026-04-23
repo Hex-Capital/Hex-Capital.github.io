@@ -6,12 +6,12 @@
     "website": "http://andustry.com/",
     "yc_page": "https://www.ycombinator.com/companies/andustry",
     "batch": "Spring 2026",
-    "industry": "B2B / Supply Chain and Logistics",
+    "industry": "B2B / B2B -> Supply Chain and Logistics",
     "team_size": "2",
-    "location": "Munich, Germany (LinkedIn)",
+    "location": "No public data found",
     "tags": "Marketplace, Sales, Manufacturing, Procurement, Industrial",
-    "yc_partner": "Tom Blomfield",
-    "emails": "No public data found"
+    "yc_partner": "Tom Blomfield (YC company page)",
+    "emails": "founders@andustry.com (YC company page)"
   },
   "tags": [
     "Marketplace",
@@ -21,26 +21,22 @@
     "Industrial"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-03-26T05:27:55.245Z",
+  "memoGeneratedAt": "2026-04-22T23:52:44.687Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 46,
+      "score": 52,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 40,
+      "score": 44,
       "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 53,
-      "tier": "Neutral"
     },
     "paul-graham": {
       "score": 49,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 37,
+      "score": 35,
       "tier": "Pass"
     },
     "sam-lessin": {
@@ -48,27 +44,26 @@
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 40,
+      "score": 44,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 46,
-    "EG": 40,
-    "NR": 53,
+    "CB": 52,
+    "EG": 44,
+    "NR": null,
     "PG": 49,
-    "PT": 37,
+    "PT": 35,
     "SL": 39,
-    "VK": 40
+    "VK": 44
   },
-  "consolidatedAvg": 43.43,
-  "consolidatedRank": 20,
+  "consolidatedAvg": 43.83,
+  "consolidatedRank": 39,
   "paths": {
     "memo": "spring2026/memos/andustry.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/andustry.md",
       "elad-gil": "spring2026/evals/elad-gil/andustry.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/andustry.md",
       "paul-graham": "spring2026/evals/paul-graham/andustry.md",
       "peter-thiel": "spring2026/evals/peter-thiel/andustry.md",
       "sam-lessin": "spring2026/evals/sam-lessin/andustry.md",

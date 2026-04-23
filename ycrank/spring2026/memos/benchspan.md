@@ -1,6 +1,6 @@
 ﻿# Benchspan
 
-> Run agent benchmarks in minutes, not hours
+> Real-time threat detection for AI agents in production
 
 | Field | Value |
 |-------|-------|
@@ -10,106 +10,104 @@
 | Industry | B2B / B2B -> Engineering, Product and Design |
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
-| Tags | AIOps, Analytics, Infrastructure, AI |
+| Tags | AIOps, Analytics, Security, Infrastructure, AI |
 | YC Partner | David Lieb |
-| Emails | founders@benchspan.com |
-
-**Pivot note:** The same two-person founding team (Avi Arora and Ritesh Malpani) previously operated as **Oddpool**, described on its YC listing as an "Institutional data layer for prediction markets" (YC company page, via search snippet). The YC URL for Oddpool (`ycombinator.com/companies/oddpool`) now resolves to the Benchspan profile (verified via WebFetch, Mar 2026). Avi Arora's GitHub bio still reads "Co-founder @Oddpool" (GitHub, Mar 2026). Prior-product metrics (PredictionMarketBench repo, Awesome-Prediction-Market-Tools repo) are separated below and should not be conflated with Benchspan traction.
+| Emails | No public data found |
 
 ## The Idea
 
-**Problem:** Teams building AI agents need to measure whether their agents are improving. Running benchmarks today requires writing custom glue code for each benchmark, executing runs serially on local machines (a single SWE-bench Verified run can take 14+ hours), and restarting from scratch when runs partially fail — burning hundreds of dollars in LLM tokens with no results (Benchspan website). The customer segment is AI engineering teams shipping agents (e.g., coding agents, tool-use agents). Current alternatives are ad-hoc scripts, local execution, or spreadsheets shared via Slack.
+**Problem:** AI agents in production are vulnerable to indirect prompt injection — adversarial instructions embedded in documents, emails, tool outputs, and RAG retrieval results that manipulate agent behavior from the inside. Prompt injection appeared in 73% of production AI deployments in 2025 (Startup Defense, RSAC 2026 report via search snippet). Existing generic guardrails miss these indirect attacks, leaving enterprises exposed to data exfiltration, unauthorized tool access, and behavioral drift. [Inferred]: Current mitigations are either overly broad (high false-positive rates) or too narrow (pattern-matching on known attack strings), creating a gap for a specialized classifier.
 
-**Approach:** Benchspan provides a cloud benchmarking platform where teams onboard their agent once (via bash script; framework-agnostic) and then run any supported benchmark with a single command. Runs execute in parallel across isolated Docker containers. Results are stored centrally with full trajectories, token usage, latency, and custom metrics. Partial failures can be re-run at the subset level rather than from scratch. The company states it onboarded Claude Code in 37 lines of code (Benchspan website). Supported benchmarks include SWE-bench Verified, SWE-bench Lite, Terminal-Bench, HumanEval, MBPP, MATH, and GPQA, plus custom evaluations (Benchspan website).
+**Approach:** Benchspan operates as an inline prompt injection firewall. It evaluates every LLM call, tool invocation, and RAG retrieval in real-time, blocking threats before agents act on malicious content (benchspan.com). The company claims its indirect prompt injection classifier achieves 99.9% catch rate on AgentDojo, 94% on InjecAgent, and a 0.19% false-alarm rate with 0.931 weighted F1 across benchmarks (benchspan.com). The system ingests traces from observability platforms (Langfuse, Braintrust, Arize/Phoenix, OpenTelemetry), learns per-agent behavioral baselines, and retrains custom models every 4 hours on labeled production samples (benchspan.com). A compliance module auto-maps monitoring data to EU AI Act, NIST AI RMF, and OWASP standards, generating evidence artifacts for audits (benchspan.com).
 
-**Differentiation:** Compared to LangSmith (LangChain), which focuses on observability and tracing across the full LLM app lifecycle, Benchspan is narrowly focused on agent benchmark execution and comparison. Compared to Braintrust and Galileo, which emphasize eval datasets and LLM output scoring, Benchspan targets the infrastructure layer — parallel cloud execution, environment reproducibility, and partial re-run — rather than eval design or prompt iteration. Vals.ai focuses on domain-specific LLM benchmarks (legal, tax, finance) rather than agent execution benchmarks. [Inferred]: The closest analog is the CI/CD testing layer specifically for agent benchmarks, rather than the broader observability/eval category.
+**Differentiation:** The core claim is classifier accuracy trained by the team behind Microsoft Prompt Shields, which secures 20 billion requests/year (YC profile). Lakera Guard (now Check Point) also claims 99%+ accuracy on prompt injection (lakera.ai) but operates as part of a large enterprise security suite post-acquisition. Promptfoo (now OpenAI) focused on red-teaming and testing rather than runtime enforcement. HiddenLayer focuses on model-level attacks (adversarial ML, model supply chain) rather than prompt injection specifically. Benchspan combines runtime blocking with observability-driven behavioral learning and compliance reporting in a single product.
 
-**Business Model:** No pricing page or tiers are publicly visible on the Benchspan website (verified Mar 2026). [Inferred]: Most likely monetization is consumption-based (per benchmark run or per compute-hour), given the cloud execution infrastructure and the company's emphasis on token cost savings.
+**Business Model:** Free tier of 50,000 requests/month with no credit card required (benchspan.com). [Inferred]: Paid tiers likely based on request volume/consumption, following the pattern of similar API-based security products.
 
-**TAM/SAM:** The broader agentic AI market was valued at USD 7.29 billion in 2025 and is projected to reach USD 139.19 billion by 2034 at a CAGR of 40.50% (Fortune Business Insights, 2025 via search snippet). A separate estimate sizes it at USD 7.55 billion in 2025 growing to USD 199.05 billion by 2034 at 43.84% CAGR (Precedence Research, 2025 via search snippet). No public TAM/SAM data found for the agent benchmarking/evaluation sub-segment specifically.
+**TAM/SAM:** The cybersecurity agentic AI market was $1.83B in 2025, projected to reach $7.84B by 2030 at 33.83% CAGR (Mordor Intelligence via search snippet). The broader GenAI cybersecurity market is estimated at $8.65B in 2025, projected to $35.5B by 2031 at 26.5% CAGR (MarketsandMarkets via search snippet). [Inferred]: SAM is the subset of enterprises running autonomous AI agents in production requiring runtime security — a fraction of the broader AI cybersecurity TAM but the fastest-growing subcategory.
 
-**GTM / Distribution:** [Inferred]: Most likely distribution path is developer-led bottom-up adoption — an individual AI engineer on a team runs a benchmark via CLI, shares results with teammates via the centralized dashboard, and the team upgrades. The "single command" and "37 lines of code" messaging targets developer onboarding friction.
+**GTM / Distribution:** Integrations with major agent frameworks (LangChain, CrewAI, OpenAI, Anthropic, Vercel AI SDK, Google ADK) and observability platforms (Langfuse, Braintrust, Arize/Phoenix, OpenTelemetry) serve as distribution channels (benchspan.com). [Inferred]: PLG motion via free tier, converting to paid as agent traffic scales. The compliance module (EU AI Act, NIST) may serve as an enterprise upsell lever.
 
 ## Defensibility
 
-- **Benchmark catalog breadth:** Supporting multiple benchmarks (8+ listed) with a single agent onboarding reduces repeated integration work for users, creating switching costs proportional to the number of benchmarks used (Benchspan website).
-- **Result history as lock-in:** Centralized storage of historical run results, trajectories, and comparison data accumulates value over time. [Inferred]: Teams that build months of benchmark history would face data migration friction when switching.
-- No patents, open-source repos, or network effects identified in public sources.
+- **Data moat potential:** The system retrains custom classifiers every 4 hours on production threat data (benchspan.com). [Inferred]: Each customer deployment generates labeled training data that could improve classifier accuracy over time, creating a compounding data advantage — but this is unproven at current scale.
+- **Founder IP:** Avi Arora trained Microsoft's Prompt Shields model securing 20B requests/year (YC profile). [Inferred]: This domain expertise and proprietary training methodology represent tacit knowledge not easily replicated.
+- **Switching costs:** [Inferred]: Once integrated into an agent's request path as an inline firewall, switching requires re-instrumentation and re-establishing behavioral baselines.
 
-**Market structure:** [Inferred]: Large cloud providers (AWS, GCP, Azure) could build benchmark execution infrastructure but would face channel conflict — they profit from compute consumption regardless of benchmark efficiency, while Benchspan's value proposition includes reducing wasted token spend. LLM providers (OpenAI, Anthropic) maintain their own internal benchmarking but have limited incentive to build a vendor-neutral, multi-agent benchmarking platform.
+**Market structure:** Three of the four major independent LLM security startups have been acquired: Lakera by Check Point (~$300M, Venturelab 2025), Prompt Security by SentinelOne ($250-300M, SecurityBuzz 2025), CalypsoAI by F5 (BankInfoSecurity 2025), and Promptfoo by OpenAI (TechCrunch, Mar 2026). [Inferred]: Incumbents are acquiring rather than building, validating market demand but also consolidating the competitive landscape. The acquirers (Check Point, SentinelOne, F5, OpenAI) may face integration friction and business model conflicts when selling standalone AI security to multi-vendor enterprises — a structural opening for an independent vendor.
 
-**Commoditization risk:** The Docker-based parallel execution infrastructure is not technically unique. Open-source benchmark harnesses (e.g., SWE-bench's own scaffold, Inspect by UK AISI) exist. [Inferred]: A well-resourced competitor could replicate the execution layer; the defensibility would need to come from breadth of benchmark support, UX polish, and accumulated team data.
+**Commoditization risk:** LLM providers (OpenAI, Anthropic, Google) ship native content safety filters. Open-source tools (LLM Guard by Protect AI, NeMo Guardrails by NVIDIA, PyRIT by Microsoft) provide free alternatives. [Inferred]: The commoditization risk is real — Benchspan's defense is classifier accuracy on indirect injection specifically, which requires specialized training data and domain expertise beyond what generic guardrails provide.
 
 ## Market & Traction
 
 **Traction signals:**
-- No revenue, user counts, or growth metrics found in public sources.
-- No Product Hunt launch found (searched Mar 2026).
-- No company Twitter/X account found; no LinkedIn company page found in search results (the YC page references a LinkedIn page for "benchspan").
-- No press coverage in named publications found.
-- No Discord or Slack community found.
-- No job postings (0 open positions per YC page, Mar 2026).
-- Demo booking available via cal.com/team/benchspan (Benchspan website).
+- 34 agents monitored across 5 environments (benchspan.com, Apr 2026)
+- 84,291 traces processed in 24 hours (benchspan.com, Apr 2026)
+- Free tier: 50,000 requests/month (benchspan.com)
+- Product Hunt launch (prior benchmarking product): 89 upvotes, #24 Day Rank, ~late March 2026 (Product Hunt)
+- LinkedIn launch announcement: 233 reactions, 39 comments (LinkedIn, ~early April 2026)
+- Twitter/X: Avi Arora @c0delemons (count not retrievable)
+- No company Twitter/X account found
+- No Discord/Slack community found
+- 0 job postings (YC page, Apr 2026)
 
-**Prior product (Oddpool) signals:** Oddpool.com remains live with a prediction market dashboard, arbitrage scanner, and whale tracker (Oddpool website via search snippet). The associated GitHub repo Awesome-Prediction-Market-Tools has 122 stars (GitHub, Mar 2026). PredictionMarketBench has 10 stars (GitHub, Mar 2026). A research paper "PredictionMarketBench: A SWE-bench-Style Framework for Backtesting Trading Agents on Prediction Markets" is published on ResearchGate (ResearchGate via search snippet). These metrics relate to the prior product and not to Benchspan.
+**Product pivot note:** Benchspan was originally an agent benchmarking platform ("Run agent benchmarks in minutes, not hours") before pivoting to AI agent security. The Product Hunt listing (89 upvotes, #24 Day Rank) and the prior YC URL path (/companies/oddpool) reflect earlier product iterations. Current traction metrics on benchspan.com relate to the security product. The founders also co-authored "PredictionMarketBench" (Google Scholar, 2026) and maintained an "Awesome-Prediction-Market-Tools" GitHub repo (github.com/aarora4), suggesting an even earlier prediction-market focus.
 
 **Competitive landscape:**
 
-| Competitor | Funding | Revenue/ARR | Key differentiator vs. Benchspan |
+| Competitor | Funding | Status | Differentiator vs. Benchspan |
 |---|---|---|---|
-| **Braintrust** | $121M total, $80M Series B (Feb 2026) | Revenue unknown | Broad LLM observability and eval platform; focuses on prompt iteration and logging rather than benchmark execution infrastructure (Tracxn via search snippet) |
-| **Galileo AI** | $68.1M total, $45M Series B (Oct 2024) | 834% revenue growth since early 2024 (PR Newswire, Oct 2024 via search snippet) | Evaluation intelligence with proprietary fine-tuned eval models (Luna-2); broader LLM quality scoring vs. agent benchmark execution |
-| **LangSmith (LangChain)** | $260M total, $125M Series B | $16M revenue, 1K customers (Latka, 2025 via search snippet) | Full-lifecycle agent engineering platform tightly integrated with LangChain framework; observability-first rather than benchmark-first |
-| **Patronus AI** | $40.1M total, $17M Series A (May 2024) | Revenue unknown | Focuses on LLM reliability and hallucination detection; enterprise compliance use cases rather than developer benchmarking workflow (PR Newswire, May 2024) |
-| **Vals.ai** | $5M seed (Jul 2024) | $1.3M revenue (Latka, 2025 via search snippet) | Domain-specific benchmarks (legal, tax, finance) with expert review; narrow vertical focus vs. Benchspan's horizontal agent approach |
+| Lakera | ~$20M raised; acquired by Check Point for ~$300M (Venturelab, 2025) | Acquired | Broader platform (jailbreak + content moderation); now part of Check Point Infinity suite — no longer independent |
+| Prompt Security | $23M raised; acquired by SentinelOne for $250-300M (SecurityBuzz, 2025) | Acquired | Enterprise-focused; shadow AI detection; integrated into SentinelOne EDR platform |
+| HiddenLayer | $56M raised ($50M Series A, TechCrunch Sep 2023) | Independent | Model-level security (adversarial ML, model supply chain), not prompt injection-specific |
+| CalypsoAI | $43.2M raised; acquired by F5 (BankInfoSecurity, Sep 2025) | Acquired | LLM firewall with government/defense focus; now F5 product |
+| Promptfoo | $23M raised, $86M valuation; acquired by OpenAI (TechCrunch, Mar 2026) | Acquired | Open-source red-teaming/testing, not runtime enforcement; now OpenAI-internal |
 
-**Why now:** [Inferred]: The catalyst is the rapid proliferation of AI coding agents (Claude Code, Cursor, Devin, Codex) through 2024-2025, which created a new class of "agent builder" teams who need to benchmark complex multi-step agent behavior — not just LLM output quality. SWE-bench emerged as the de facto standard in 2023-2024 (Princeton), and variants proliferated (SWE-bench Verified, Lite, Multilingual, Multimodal, SWE-PolyBench by Amazon). The fragmentation of benchmarks, combined with rising token costs from frontier models, creates demand for execution infrastructure that handles multiple benchmarks efficiently.
+**Why now:** [Inferred]: The wave of acquisitions in 2025-2026 (Lakera, Prompt Security, CalypsoAI, Promptfoo) removed independent LLM security vendors from the market, creating a gap for enterprises using multi-vendor AI stacks who need vendor-neutral security. Simultaneously, the shift from LLM chat applications to autonomous AI agents (with tool use, multi-step reasoning, and external data retrieval) introduced indirect prompt injection as a distinct and more dangerous attack surface than direct jailbreaking. Enterprise agentic AI spending is projected to reach $201.9B in 2026 (Startup Defense, RSAC 2026 report via search snippet), expanding the attack surface faster than existing security tools can address.
 
 ## Founders & Team
 
 **Avi Arora** — Co-founder
-- BS Computer Science (concentrations: Human-Centered Computing, AI) and MS Computer Science (concentration: Machine Learning), Georgia Institute of Technology (LinkedIn, ZoomInfo via search snippet)
-- Previously: ML Engineer II at Microsoft working on GitHub Copilot — built infrastructure for scalable agentic evaluations and agent benchmarks; lead model developer for Microsoft Prompt Shields (20B+ classifications/year); multilabel content moderation models for GPT-3 (LinkedIn via search snippet)
-- Co-founded Octtone (Bluezen meditation app — spatial audio algorithms) (LinkedIn via search snippet)
-- Built AI Infographic Generator with 50,000+ users via SEO (LinkedIn via search snippet)
-- Twitter/X: @AviaroraAvi — follower count not retrievable (X.com)
-- LinkedIn: linkedin.com/in/avi-arora — headline references ML Research @ Microsoft, Responsible AI (LinkedIn)
-- GitHub: github.com/aarora4 — 35 public repos, 13 followers. Pinned: Awesome-Prediction-Market-Tools (122 stars), PredictionMarketBench (10 stars). Bio still references "Co-founder @Oddpool" (GitHub, Mar 2026)
+- ML Engineer II / Research Scientist at Microsoft; trained the Prompt Shields model securing 20B classifications/year (YC profile)
+- Prior: Capital One (anomaly detection neural networks, Turing REST API for tokenization), Perforce Software (ML for static code analysis), Rocket Software, Agileaxis, Basis Technology (ZoomInfo via search snippet)
+- Co-authored "SetupBench: Assessing Software Engineering Agents' Ability to Bootstrap Development Environments" (2025, 10 citations) and "PredictionMarketBench" (2026, 1 citation) (Google Scholar)
+- Twitter/X: @c0delemons (count not retrievable)
+- LinkedIn: linkedin.com/in/avi-arora — "Co-founder @ Benchspan | YC P26"
+- GitHub: github.com/aarora4 — 29 repositories (via search snippet)
 
 **Ritesh Malpani** — Co-founder
-- BS Computer Science, Georgia Institute of Technology (LinkedIn via search snippet)
-- Previously: Software Engineer at Bloomberg (architected systems processing 100K+ TPS across trading infrastructure), Software Engineer at Amazon, Software Engineer at American Express (LinkedIn, YC page via search snippet)
+- SWE at Bloomberg and Amazon; architected systems processing 100K+ TPS across trading infrastructure (YC profile)
+- Education: BS/MS from Georgia Institute of Technology (YC profile, ZoomInfo via search snippet)
 - Twitter/X: No public account found
-- LinkedIn: linkedin.com/in/ritesh-malpani — headline references Bloomberg (LinkedIn)
-- GitHub: No public profile found
-- Crunchbase profile exists (crunchbase.com/person/ritesh-malpani-2360) but page not accessible (403 error)
+- LinkedIn: linkedin.com/in/ritesh-malpani — "Co-founder @Benchspan (YC P26)"
+- GitHub: No public repos found
 
-**Co-founder relationship:** Both founders attended Georgia Institute of Technology for their undergraduate Computer Science degrees (LinkedIn via search snippets). No shared employer identified.
+**Co-founder relationship:** College roommates 8 years ago; currently still roommates (LinkedIn post, ~Apr 2026, 233 reactions). Arora focused on AI agent development; Malpani on distributed computing infrastructure (LinkedIn post).
 
-**Founder-market fit:** Avi Arora's Microsoft role on GitHub Copilot specifically involved building infrastructure for agentic evaluations and benchmarks — directly relevant to Benchspan's core product. His ML research background provides domain depth in evaluation methodology. Ritesh Malpani's experience architecting high-throughput trading systems at Bloomberg (100K+ TPS) is relevant to building parallel execution infrastructure. The team pivoted from Oddpool (prediction markets) to Benchspan, applying their agent benchmarking experience (PredictionMarketBench) to the broader AI agent evaluation problem.
+**Founder-market fit:** Arora's direct experience building Microsoft Prompt Shields — the production indirect prompt injection classifier securing 20B requests/year — provides domain-specific expertise in the exact problem Benchspan addresses. Malpani's background building high-throughput trading infrastructure (100K+ TPS) at Bloomberg is relevant to the low-latency inline evaluation requirement (14ms average, P99 42ms per benchspan.com). Their co-authored research on agent benchmarking frameworks demonstrates shared technical context in the AI agent ecosystem.
 
 ## Key Risks
 
-**Incumbent platform expansion:** Braintrust ($121M funded, Feb 2026), Galileo ($68M, Oct 2024), and LangChain ($260M) all operate in adjacent evaluation/observability space and could add benchmark execution features. Braintrust and LangSmith already support custom evals with tracing — adding parallel cloud execution is an incremental infrastructure investment for them.
+**Post-acquisition competitive re-entry:** Four major competitors were acquired in 2025-2026, but their technology continues to develop inside well-resourced acquirers (Check Point, SentinelOne, F5, OpenAI). These acquirers may bundle AI security into existing platform offerings at zero marginal cost, making standalone pricing difficult. Mitigation: vendor-neutral positioning for multi-vendor AI stacks.
 
-**Open-source substitution:** SWE-bench provides its own open-source harness. UK AISI's Inspect framework offers agent evaluation tooling. Individual benchmarks increasingly ship with execution scaffolds. [Inferred]: If benchmark authors converge on a standardized execution interface, the glue-code problem Benchspan solves diminishes.
+**LLM provider commoditization:** OpenAI (which acquired Promptfoo), Anthropic, and Google already ship native content safety filters and are investing in agent-level security. If LLM providers build sufficiently accurate indirect prompt injection detection into their APIs, the standalone firewall value proposition diminishes. Mitigation: Benchspan's cross-provider, observability-integrated approach targets multi-model deployments.
 
-**Benchmark fragmentation and obsolescence:** Benchspan's value depends on a growing catalog of relevant benchmarks. If the industry consolidates around 1-2 dominant benchmarks (as SWE-bench has for coding), the multi-benchmark orchestration value proposition weakens. Conversely, if benchmarks evolve faster than Benchspan can integrate them, the catalog becomes stale.
+**Product pivot recency:** The company has iterated through at least two prior product directions — prediction market tooling (Oddpool/PredictionMarketBench paper, 2026) and agent benchmarking (Product Hunt launch, Mar 2026) — before arriving at the current AI agent security product. Multiple pivots in a short timeframe may indicate product-market fit is still being validated.
 
-**Recent pivot from Oddpool:** The team pivoted from a prediction market data product (Oddpool) to AI agent benchmarking (Benchspan) during their YC batch. Avi Arora's GitHub bio and repos still reference Oddpool (GitHub, Mar 2026). [Inferred]: The pivot leverages Avi's Microsoft agent benchmarking experience, but the recency of the pivot means the current product is very early.
+**Name collision risk:** "Benchspan" also refers to Benchspan LLC, a well-established HR/compensation benchmarking firm (unrelated). This may create SEO and brand confusion challenges.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Agentic AI market: $7.29B in 2025, projected $139.19B by 2034 at 40.50% CAGR (Fortune Business Insights, 2025 via search snippet). No sub-segment data for agent benchmarking specifically. |
+| TAM | Cybersecurity agentic AI market: $1.83B in 2025, projected $7.84B by 2030 at 33.83% CAGR (Mordor Intelligence via search snippet) |
 | SAM | No public data found |
-| Traction | No public data found |
-| Revenue Signal | No public data found |
-| Founders | Avi Arora (Co-founder): MS CS/ML Georgia Tech, ML Engineer II at Microsoft on GitHub Copilot agent evals. Ritesh Malpani (Co-founder): BS CS Georgia Tech, SWE at Bloomberg (100K+ TPS systems), Amazon, AmEx. |
-| Competitors | Braintrust ($121M raised, revenue unknown, broad LLM observability vs. benchmark execution); Galileo ($68.1M raised, 834% revenue growth in 2024 per PR Newswire, eval intelligence with proprietary models); LangSmith/LangChain ($260M raised, $16M revenue per Latka 2025, full-lifecycle agent platform); Patronus AI ($40.1M raised, revenue unknown, LLM reliability/hallucination focus); Vals.ai ($5M raised, $1.3M revenue per Latka 2025, domain-specific vertical benchmarks) |
-| Moat Signals | No public data found |
-| Risk Factors | Incumbent platform expansion from well-funded eval/observability players, open-source benchmark harness substitution, recent pivot from Oddpool |
-| Founder Reach | Avi Arora: Twitter @AviaroraAvi (count not retrievable), LinkedIn linkedin.com/in/avi-arora, GitHub aarora4 (122 stars on top repo). Ritesh Malpani: LinkedIn linkedin.com/in/ritesh-malpani, no Twitter or GitHub found. |
-| Distribution Signals | No public data found |
-| Emails | founders@benchspan.com (Benchspan website) |
+| Traction | 34 agents monitored, 84,291 traces/24hr (benchspan.com, Apr 2026); LinkedIn launch post: 233 reactions, 39 comments (LinkedIn, Apr 2026); Product Hunt (prior benchmarking product): 89 upvotes, #24 Day Rank (Product Hunt, Mar 2026) |
+| Revenue Signal | Free tier: 50,000 requests/month (benchspan.com, Apr 2026); no paid pricing disclosed |
+| Founders | Avi Arora (Co-founder): ML Engineer at Microsoft, built Prompt Shields (20B req/yr). Ritesh Malpani (Co-founder): SWE at Bloomberg/Amazon, BS/MS Georgia Tech, 100K+ TPS systems |
+| Competitors | Lakera (~$20M raised, acquired by Check Point ~$300M, revenue unknown, broader platform now embedded in Check Point); Prompt Security ($23M raised, acquired by SentinelOne $250-300M, revenue unknown, enterprise shadow AI); HiddenLayer ($56M raised, revenue unknown, model-level security not prompt injection); CalypsoAI ($43.2M raised, acquired by F5, revenue unknown, gov/defense LLM firewall); Promptfoo ($23M raised, acquired by OpenAI, revenue unknown, open-source red-teaming) |
+| Moat Signals | Founder built Microsoft Prompt Shields (20B req/yr) (YC profile); custom classifier retraining every 4 hours on production data (benchspan.com) |
+| Risk Factors | LLM provider commoditization of safety filters, post-acquisition competitor re-entry, multiple recent product pivots |
+| Founder Reach | Avi Arora: Twitter @c0delemons (count not retrievable), LinkedIn "Co-founder @ Benchspan \| YC P26", GitHub aarora4 29 repos. Ritesh Malpani: Twitter not found, LinkedIn "Co-founder @Benchspan (YC P26)", GitHub not found |
+| Distribution Signals | Product Hunt #24 Day Rank with 89 upvotes (prior benchmarking product) (Product Hunt, Mar 2026); integrations with LangChain, CrewAI, OpenAI, Anthropic, Vercel AI SDK, Google ADK, Langfuse, Braintrust, Arize/Phoenix, OpenTelemetry (benchspan.com) |
+| Emails | No public data found |

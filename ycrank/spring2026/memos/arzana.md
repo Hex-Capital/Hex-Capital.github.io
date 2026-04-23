@@ -8,122 +8,120 @@
 | YC Page | https://www.ycombinator.com/companies/arzana |
 | Batch | Spring 2026 |
 | Industry | B2B / B2B -> Operations |
-| Team Size | 4 |
+| Team Size | 5 |
 | Location | San Francisco, CA, USA |
-| Tags | Artificial Intelligence, Manufacturing, Automation, Operations, Industrial |
+| Tags | Manufacturing, Automation, Operations, AI, Industrial |
 | YC Partner | Tom Blomfield |
-| Emails | No public data found |
+| Emails | william@arzana.com, marshall@arzana.com, careers@arzana.com |
 
 ## The Idea
 
-**Problem:** U.S. manufacturers and distributors rely on manual front-office workflows—order entry, RFQ parsing, quoting, customer email handling, and billing—that are slow, error-prone, and labor-intensive. Customer testimonial from Tier One Technologies states their time-to-quote was 5 days before Arzana (arzana.ai). Existing tools are primarily ERP modules (SAP, Epicor, NetSuite) and general-purpose CPQ platforms (Oracle CPQ, DealHub) designed around structured data, not the unstructured emails, PDFs, handwritten notes, and spreadsheets that constitute real manufacturing workflows (arzana.ai).
+**Problem:** U.S. manufacturers and distributors spend significant labor hours on repetitive front-office tasks — processing RFQs, manually entering purchase orders into ERP systems, generating quotes, and sending customer updates. The founders experienced this firsthand working manufacturing jobs in Iowa and Wisconsin (arzana.com/about). Current workflows involve staff manually reading emails and PDFs, re-keying data across disconnected systems (email, ERP, CRM), and hand-building quotes — a process the company claims takes ~15 minutes per quote at one customer site (Milltown Paper CEO testimonial, arzana.com).
 
-**Approach:** Arzana offers an "Office Execution System" (OES)—AI agents that automate quoting (RFQ email parsing, catalog matching, pricing validation), order entry, purchasing, customer service, AP 3-way match, AR tracking, CRM, and outbound prospecting (arzana.ai). The platform integrates with 11+ ERPs (Epicor, Infor, JobBoss, QuickBooks, NetSuite, SAP, Sage, IFS, Dynamics, IQMS, Tangle), 3 CRMs (Salesforce, HubSpot, Zoho), and email (Gmail, Outlook) (arzana.ai). Custom integrations are built in under one week; implementation takes 1–3 months (arzana.ai).
+**Approach:** Arzana deploys custom AI agents that integrate with a manufacturer's existing email (Gmail, Outlook), ERP (Epicor, Infor, JobBoss, QuickBooks, NetSuite, SAP, Sage, IFS, Dynamics, Prophet 21), and CRM (Salesforce, HubSpot, Zoho) systems to automate quoting, order entry, estimating, and customer updates (arzana.com). The product includes four modules: Quoting (automated RFQ processing, part matching, pricing validation), Estimating (AI models trained on historical job costs), Order Entry (PO reading from email/PDF, line item validation, discrepancy flagging), and a Dashboard (unified command center across quotes, orders, AP/AR, logistics) (arzana.com). The company follows a "forward-deployed" model, embedding engineers onsite at customer facilities before configuration (arzana.com/about).
 
-**Differentiation:** vs. **Endeavor AI**: Endeavor positions as a broad "generative AI cloud for manufacturing" spanning sales, operations, and supply chains (endeavor.ai via search snippet); Arzana focuses specifically on front-office execution with named workflow modules and published ERP connectors. vs. **Canals AI**: Canals converts customer requests into quotes/orders across formats (canals.ai via search snippet); Arzana extends further into purchasing, AP/AR, CRM, and outbound sales. vs. **Distro**: Distro targets inside sales at wholesale distributors with chatbot interfaces (distro.app via search snippet); Arzana targets manufacturers and distributors with full-cycle office automation.
+**Differentiation:**
+- Vs. Conexiom ($170M raised; Tracxn): Conexiom focuses on touchless sales order processing; Arzana covers a broader front-office scope including quoting, estimating, and a unified dashboard. Conexiom is a mature enterprise product; Arzana targets a wider range from job shops to Fortune 500 (arzana.com).
+- Vs. Paperless Parts (~$51M raised; Tracxn): Paperless Parts specializes in quoting/estimating for CNC/3D printing job shops; Arzana covers order entry and customer updates in addition to quoting, and serves a broader manufacturing and distribution segment (arzana.com).
+- Vs. Esker (acquired by Bridgepoint/General Atlantic; Edison Group): Esker is a full order-to-cash and source-to-pay platform for large enterprises (3,000+ customers; esker.com). Arzana is manufacturing-specialized rather than horizontal.
+- The forward-deployed engineering model and specialization in manufacturing verticals (tooling, mold makers, paper converters, distributors) differentiate the go-to-market from horizontal automation vendors (arzana.com/about).
 
-**Business Model:** Published pricing of $2,500–$7,000/month (arzana.ai). [Inferred]: Pricing likely scales with module count or transaction volume given the range, positioning as a mid-market SaaS replacement for manual headcount.
+**Business Model:** No pricing is publicly listed on the website (arzana.com). [Inferred]: Most likely monetization path is a SaaS subscription (per-seat or per-module) given the ERP-integrated enterprise product and forward-deployed onboarding model, potentially with implementation fees given the <4 month go-live timeline.
 
-**TAM/SAM:** The global manufacturing operations management software market was valued at $17.46B in 2024, projected to reach $76.71B by 2033 at a CAGR of 19.1% (Grand View Research, 2024 via search snippet). North America holds 34.5%+ market share (Grand View Research via search snippet). No public SAM data found for front-office automation specifically. [Inferred]: The serviceable segment is a fraction of the broader MOM market, narrowed to front-office workflows at U.S. manufacturers and distributors.
+**TAM/SAM:**
+- Manufacturing operations management software market: $17.46B in 2024, projected $76.71B by 2033 at 19.1% CAGR (Grand View Research, 2024 via search snippet).
+- Workflow automation market: $23.77B in 2025, projected $40.77B by 2031 at 9.41% CAGR (Mordor Intelligence, 2025 via search snippet).
+- [Inferred]: The SAM for manufacturing-specific front-office automation (quoting + order entry + customer updates) is a subset of these broader markets. No public SAM data found for this specific segment.
 
-**GTM / Distribution:** The company claims to serve "20+ plants and distribution centers across the US" (LinkedIn company page, Mar 2026). Named customer logos include Schneider National, Zeiss, Koike, Tier One Technologies, Tecton, Milltown Paper, Iowa Mold & Engineering, Kuebler, and Givi (arzana.ai). Mason Vander Pol's role is "Founding Field Engineer," and the company has dual HQ presence in San Francisco, CA and Okoboji, IA (arzana.ai/company). [Inferred]: GTM is direct sales to manufacturing firms, likely leveraging founder William Alexander's Iowa manufacturing network, with field engineering for implementation.
+**GTM / Distribution:** The company uses a forward-deployed engineering model, sending engineers onsite to customer facilities before system configuration (arzana.com/about). The company lists offices in San Francisco, Okoboji IA, and Appleton WI (arzana.com), embedding in the industrial communities they serve. [Inferred]: Primary distribution is direct enterprise sales to U.S. manufacturers and distributors, likely leveraging the founders' Midwest manufacturing networks as initial pipeline.
 
 ## Defensibility
 
-- **ERP integration depth**: Arzana lists 11+ ERP integrations with custom integration builds in <1 week (arzana.ai). Each integration creates switching cost once deployed into a customer's operational stack.
-- **Workflow-specific data**: Processing real manufacturing RFQs, POs, and customer communications generates domain-specific training data over time.
-- [Inferred]: Defensibility at this stage is nascent; the primary moat potential is in accumulating manufacturing-specific document parsing models and deepening ERP integration coverage, but neither is proven at scale.
+- **Switching costs:** Once AI agents are configured and integrated with a customer's ERP, CRM, and email systems and trained on historical job cost data, migration to a competitor would require re-integration and re-training (arzana.com).
+- **Data advantage:** The estimating module trains custom AI models on each customer's historical job costs (arzana.com). [Inferred]: Over time, this creates a per-customer data flywheel that improves accuracy and raises switching costs.
+- **Vertical specialization:** The product is built exclusively for manufacturers and distributors, with ITAR compliance and industry-specific features (arzana.com). Generic automation vendors would need to replicate this specialization.
 
-**Market structure:** Large ERP vendors (SAP, Oracle, Epicor) own the systems of record but their front-office automation layers are structured-data tools not optimized for unstructured inputs. [Inferred]: Incumbent ERP vendors face business model conflict in building lightweight, fast-deploy AI layers that could cannibalize professional services revenue from implementation partners, creating a window for a specialized entrant.
+**Market structure:** [Inferred]: Large ERP vendors (SAP, Oracle/NetSuite, Epicor) could build overlapping front-office automation, but their primary revenue comes from core ERP licenses, and adding an AI quoting/order-entry layer that competes with their own professional services teams and implementation partners creates channel conflict. Conexiom and Esker are the closest structural threats but operate at higher price points targeting larger enterprises.
 
-**Commoditization risk:** The core technology—LLM-based document parsing and workflow automation—is buildable by any team with AI engineering capability. Endeavor AI ($7M seed, Craft Ventures-led; WebWire, Nov 2024) is pursuing a similar market. Canals AI has Applico Capital backing (Substack). Horizontal AI automation platforms (e.g., general agent frameworks) could extend into manufacturing verticals. [Inferred]: Differentiation depends on depth of manufacturing-specific workflow coverage and ERP integration library rather than proprietary model architecture.
+**Commoditization risk:** The underlying technology (LLMs reading emails/PDFs and writing to ERPs) is accessible to well-funded competitors. Conexiom has already launched an "AI Platform" for sales order automation (conexiom.com). Paperless Parts has released AI-powered quoting automation (Modern Machine Shop). DigiFabster has launched an AI Quote Agent (TCT Magazine). The forward-deployed model and manufacturing-specific training data provide some differentiation, but the technical barrier is moderate.
 
 ## Market & Traction
 
 **Traction signals:**
-- 20+ plants and distribution centers served (LinkedIn company page, Mar 2026)
-- 9 named customer logos on website, including Schneider National (Fortune 500) and Zeiss (arzana.ai, Mar 2026)
-- Customer testimonial: Tier One Technologies VP of Sales states Arzana "cut our TTQ from 5 days to 1, and our RFQ win rate skyrocketed" (arzana.ai)
-- Featured in The New York Times: "These A.I. Dreamers Don't Fit the Stereotype" (Feb 8, 2026) (YC page; dnyuz.com mirror)
-- LinkedIn company page: 183 followers (LinkedIn, Mar 2026)
-- Social channels listed: LinkedIn (@arzana-ai), Instagram (@arzana_automation), YouTube (@Arzana.Automation), TikTok (@arzana_automation) (arzana.ai/company)
-- No Product Hunt launch found
-- No Twitter/X company account found
-- No app store or Chrome extension presence found
-- Active YC job listing found: "Founding Full-Stack Engineer (Agents-focused)" (YC jobs page via search snippet)
+- Named customers on the website: Tecton, Tier1, Koike, Milltown Paper, Iowa Mold, Kuebler, Givi, Zeiss (arzana.com)
+- Customer testimonial: "Arzana makes it so our salespeople can generate and send quotes with one click, instead of taking 15 minutes" — Trent Duerr, President & CEO, Milltown Paper (arzana.com)
+- Product claims: 99.9% accuracy, 10x faster processing, 70% fewer errors (arzana.com)
+- Press: Featured in The New York Times, "These A.I. Dreamers Don't Fit the Stereotype" by Guy Trebay (February 8, 2026)
+- Twitter/X: @Arzana_AI — follower count not retrievable
+- LinkedIn: linkedin.com/company/arzana-ai — follower count not retrievable
+- Additional social presence: Instagram, YouTube, TikTok (@arzana_automation) (arzana.com/about)
+- Product Hunt: No listing found
+- YC job postings: Previously listed "Founding Full-Stack Engineer (Agents-focused)" and "Founding Agents Engineer" on YC jobs (YC search results); no current postings (YC jobs page)
+- No public revenue, ARR, or user count data found.
 
 **Competitive landscape:**
 
-| Competitor | Funding | Differentiator vs. Arzana |
-|------------|---------|--------------------------|
-| **Endeavor AI** | $7M seed, led by Craft Ventures (WebWire, Nov 2024) | Broader manufacturing AI cloud spanning sales, ops, and supply chain; less front-office-specific |
-| **Canals AI** | Applico Capital investment, amount undisclosed (Substack) | Focused on order processing from any format; narrower scope than Arzana's full OES |
-| **Distro** | $500K (YC-backed) (Crunchbase via search snippet) | Targets inside sales at wholesale distributors with chatbot interface; not manufacturer-focused |
-| **Zoovu** | Not researched in depth | Self-service RFQ and quoting software for manufacturers; more product-configuration-oriented (zoovu.com via search snippet) |
+| Competitor | Raised | Revenue | Key Differentiator vs. Arzana |
+|------------|--------|---------|-------------------------------|
+| Conexiom | $170M (Tracxn) | $28.7M (2024; Latka) | Focused on touchless sales order processing; more mature, higher market; processes $100B+ in B2B transactions annually |
+| Paperless Parts | ~$51M (Tracxn) | Est. $50-100M (Growjo) | Specializes in quoting for CNC/3D printing job shops; 500+ customers; narrower scope |
+| Esker | Acquired by Bridgepoint/GA (Edison Group) | €43.8M quarterly Q3 2023 (Edison Group) | Horizontal order-to-cash platform; 3,000+ customers including NVIDIA, Sony, Heineken; not manufacturing-specific |
+| DigiFabster | Seed-funded (Tracxn) | Revenue unknown | Focused on CNC/3D printing instant quoting; launched AI Quote Agent; narrower vertical |
 
-**Why now:** [Inferred]: LLM capabilities crossed a performance threshold in 2023–2025 for reliably parsing unstructured manufacturing documents (handwritten notes, varied PDF formats, email threads) at production quality. Prior OCR and rule-based approaches could not handle the format diversity of real manufacturing RFQs. Simultaneously, U.S. manufacturing faces persistent labor shortages in administrative roles, increasing willingness to adopt automation.
+**Why now:**
+- [Inferred]: LLM capabilities crossed a performance threshold in 2024-2025 enabling reliable extraction of structured data from unstructured manufacturing documents (RFQs, POs, emails) at accuracy levels sufficient for production use — a task that prior OCR/NLP approaches handled poorly for the varied formats in manufacturing.
+- [Inferred]: The manufacturing labor shortage has intensified pressure to automate administrative work rather than hire additional staff, creating urgency among manufacturers to adopt automation tools.
 
 ## Founders & Team
 
-**William Alexander** — Co-founder & CEO
-- Age 21 as of Feb 2026 (NYT via dnyuz.com, Feb 2026)
-- From Okoboji, Iowa; grew up hunting and fishing (NYT via dnyuz.com)
-- Stanford, Economics + Computer Science (YC page)
-- Self-taught Mandarin Chinese (studied in Hong Kong) and Italian via Duolingo; learned discus throwing via YouTube to achieve state ranking (NYT via dnyuz.com)
-- Acknowledged taking "only one coding class in his life" (NYT via dnyuz.com)
-- Co-founded Brilla (gourmet meal delivery on Stanford campus) as CEO prior to Arzana (eatbrilla.com)
-- Twitter/X: No public account found
-- LinkedIn: linkedin.com/in/william--alexander (LinkedIn)
-- GitHub: No confirmed public repos found
+**William Alexander** — Co-Founder & CEO
+- Age 21 as of February 2026 (The New York Times, Feb 8, 2026)
+- BS Economics & Computer Science, Stanford University (YC page)
+- Grew up in Okoboji, Iowa, working for a manufacturing sourcing company (arzana.com/founders/william)
+- Self-taught Mandarin Chinese (semester in Hong Kong) and Italian; achieved state ranking in discus via self-taught YouTube technique (NYT, Feb 2026)
+- Twitter/X: @williealex (unconfirmed if this is the correct account; handle found via search but not verified against Arzana affiliation)
+- LinkedIn: linkedin.com/in/william--alexander
+- GitHub: github.com/WilliamAlexander — 8 public repos (unconfirmed if same person; common name)
 
-**Marshall Kools** — Co-founder & COO
-- Age 24 as of Feb 2026 (NYT via dnyuz.com, Feb 2026)
-- From Neenah, Wisconsin (arzana.ai/company; stanfordclubsports.com)
-- Stanford, Management Science and Engineering (undergraduate) (Stanford Profiles); YC page lists "Stanford MS Engineering + Policy"
-- D1 wrestler at Stanford; 2020 Wisconsin state champion, three-time state qualifier, four-year letterwinner, two-time team captain at Neenah High School (gostanford.com; neenahsatellite.com via search snippet)
-- Co-founded Brilla as COO prior to Arzana (eatbrilla.com)
-- Stated compensation: "~$10,000 last year" (NYT via dnyuz.com, Feb 2026)
+**Marshall Kools** — Co-Founder & COO
+- Age 24 as of February 2026 (The New York Times, Feb 8, 2026)
+- MS Engineering & Policy, Stanford University (YC page)
+- D1 Wrestler at Stanford; 2020 Wisconsin state champion from Neenah High School (GoStanford Athletics)
+- Also played Men's Rugby at Stanford (Stanford Club Sports)
+- Previously COO at Brilla (eatbrilla.com)
+- Reported earning ~$10,000 in personal salary in the prior year (NYT, Feb 2026)
 - Twitter/X: No public account found
-- LinkedIn: linkedin.com/in/marshallkools — 500+ connections (LinkedIn)
+- LinkedIn: linkedin.com/in/marshallkools
 - GitHub: No public repos found
 
-**Joe Politi** — Lead Founding Engineer
-- Listed on arzana.ai/company and LinkedIn company page (LinkedIn, Mar 2026)
-- LinkedIn headline: R&D Engineer (LinkedIn via search snippet)
-- No further public background data found
+**Co-founder relationship:** Both founders attended Stanford University, where William studied Economics & CS (undergraduate) and Marshall completed an MS in Engineering & Policy. William states they met at Stanford and co-founded Arzana in 2025 (arzana.com/founders/william).
 
-**Mason Vander Pol** — Founding Field Engineer
-- From Okoboji, Iowa (arzana.ai/company)
-- No further public background data found
-
-**Co-founder relationship:** William Alexander and Marshall Kools were Stanford classmates (NYT via dnyuz.com, Feb 2026). They previously co-founded Brilla, a gourmet meal delivery startup, together on Stanford's campus before pivoting to Arzana (eatbrilla.com). A third Brilla co-founder, Giacomo Pinciroli (CFO), is not listed on Arzana's team (eatbrilla.com).
-
-**Founder-market fit:** Alexander grew up in Okoboji, Iowa—a manufacturing-adjacent community—and the Brilla team drew on "consulting for some of Italy's largest manufacturers" as part of their founding experience (eatbrilla.com). The company maintains a physical presence in Okoboji alongside San Francisco (arzana.ai/company). Mason Vander Pol is also from Okoboji, suggesting a local manufacturing network. [Inferred]: Alexander's Iowa roots and manufacturing consulting experience likely provided the initial customer relationships and domain insight; Kools' engineering and operations background complements on the process and scale side.
+**Founder-market fit:** Both founders have direct personal exposure to manufacturing operations — William grew up working at a manufacturing sourcing company in Iowa, and Marshall worked manufacturing jobs in Wisconsin (arzana.com/about). Their Midwest roots (Okoboji IA, Neenah/Appleton WI) provide authentic connection to the industrial customer base, and the company maintains offices in both regions alongside San Francisco (arzana.com). William's CS background at Stanford provides technical capability; Marshall's Engineering & Policy MS and operational experience (COO at Brilla) provide operations expertise.
 
 ## Key Risks
 
-**Endeavor AI competitive overlap:** Endeavor raised $7M seed led by Craft Ventures (WebWire, Nov 2024), targets the same U.S. manufacturing market with AI-driven automation, and was founded in 2023. With ~14x more disclosed funding, Endeavor can invest more heavily in sales, integrations, and product breadth. Mitigation: Arzana's narrower front-office focus and published pricing may appeal to mid-market buyers seeking faster deployment.
+**Entrenched incumbent competition:** Conexiom ($170M raised, $28.7M revenue; Tracxn/Latka) directly competes in sales order automation for manufacturers and has announced its own AI platform (conexiom.com). Esker has 3,000+ enterprise customers and was acquired by Bridgepoint/General Atlantic, giving it substantial resources (Edison Group). Paperless Parts has 500+ customers in manufacturing quoting (Tracxn). Arzana must win against well-funded, established players with existing customer relationships and ERP integrations.
 
-**Non-technical founding team:** CEO Alexander has taken "only one coding class" (NYT via dnyuz.com, Feb 2026). The entire technical capability rests on two founding engineers (Politi and Vander Pol) with limited public track records. Key-person risk is concentrated in the engineering hires.
+**ERP integration complexity:** The product integrates with 10+ ERP systems (arzana.com). Each integration requires ongoing maintenance as ERP vendors release updates. The forward-deployed model (engineers onsite for weeks per customer; arzana.com/about) may limit scaling velocity and increase customer acquisition costs.
 
-**ERP integration maintenance burden:** Supporting 11+ ERP integrations with a 4-person team creates ongoing maintenance and compatibility obligations as ERP vendors release updates. Each integration is a potential point of failure for customer operations. [Inferred]: This surface area may strain engineering bandwidth as the customer base grows.
+**Founder youth and manufacturing credibility:** William Alexander is 21 and Marshall Kools is 24 (NYT, Feb 2026). Selling AI-driven process automation to manufacturing executives — a traditionally conservative buyer segment — may face credibility barriers. The founders' Midwest manufacturing backgrounds partially mitigate this.
 
-**Product pivot history:** The founders previously operated Brilla, a gourmet meal delivery startup (eatbrilla.com), before pivoting to manufacturing AI. The company website lists a founding date of 2023 (arzana.ai), while the YC page lists 2025 (YC page). [Inferred]: The discrepancy may reflect entity reuse from the Brilla era; the manufacturing product appears to date from 2025.
+**Customer concentration risk:** The company lists 8 named customers (arzana.com). No public data exists on revenue distribution. [Inferred]: At this stage, revenue concentration among a small number of early customers is likely, creating dependency risk.
 
-**Customer verification difficulty:** The website claims Fortune 500 customers and lists 9 logos (arzana.ai), but no case studies, contract values, or independent verification are publicly available. The "20+ plants" claim comes from the company's own LinkedIn page.
+**Forward-deployed scaling tension:** The onsite engineering deployment model provides deep integration but is labor-intensive for a 5-person team. Scaling beyond initial customers requires either hiring significantly or productizing the deployment process to reduce per-customer engineering time.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $17.46B in 2024, projected $76.71B by 2033, CAGR 19.1% (Grand View Research, 2024 via search snippet) |
+| TAM | $17.46B manufacturing operations management software in 2024, 19.1% CAGR to $76.71B by 2033 (Grand View Research, 2024 via search snippet) |
 | SAM | No public data found |
-| Traction | 20+ plants and distribution centers (LinkedIn company page, Mar 2026); 9 named customer logos including Schneider National and Zeiss (arzana.ai, Mar 2026); NYT feature (Feb 8, 2026) |
-| Revenue Signal | $2,500–$7,000/month published pricing (arzana.ai, Mar 2026) |
-| Founders | William Alexander (CEO): Stanford Econ + CS, age 21, from Iowa. Marshall Kools (COO): Stanford MSE + D1 wrestler, age 24. Prior co-founders of Brilla (eatbrilla.com). |
-| Competitors | Endeavor AI ($7M seed, revenue unknown, broader manufacturing AI cloud); Canals AI (Applico Capital-backed, amount undisclosed, revenue unknown, order processing focus); Distro ($500K YC-backed, revenue unknown, wholesale distributor sales focus) |
-| Moat Signals | 11+ ERP integrations with <1-week custom integration builds (arzana.ai, Mar 2026) |
-| Risk Factors | Endeavor AI competitive overlap ($7M raised), non-technical founding team, ERP integration maintenance burden at 4-person scale |
-| Founder Reach | William Alexander: LinkedIn only (linkedin.com/in/william--alexander); Marshall Kools: LinkedIn 500+ connections (linkedin.com/in/marshallkools); No Twitter/X or GitHub accounts found for either founder |
-| Distribution Signals | NYT feature "These A.I. Dreamers Don't Fit the Stereotype" (Feb 8, 2026); LinkedIn company page 183 followers (LinkedIn, Mar 2026); active YC job posting (YC jobs page) |
-| Emails | No public data found |
+| Traction | 8 named customers including Zeiss (arzana.com); NYT feature (Feb 8, 2026); no public user counts or revenue data |
+| Revenue Signal | No public data found |
+| Founders | William Alexander (CEO): Stanford Econ+CS, Iowa manufacturing background. Marshall Kools (COO): Stanford MS Engineering+Policy, D1 wrestler, prior COO at Brilla |
+| Competitors | Conexiom ($170M raised, $28.7M ARR 2024, touchless order processing; Tracxn/Latka); Paperless Parts (~$51M raised, 500+ customers, job shop quoting; Tracxn); Esker (acquired by Bridgepoint/GA, €43.8M quarterly rev Q3 2023, horizontal O2C; Edison Group); DigiFabster (seed-funded, CNC/3D quoting; Tracxn) |
+| Moat Signals | Per-customer AI models trained on historical job costs (arzana.com); ERP/CRM integration switching costs; ITAR compliance (arzana.com) |
+| Risk Factors | Entrenched funded competitors (Conexiom, Esker, Paperless Parts), ERP integration complexity limiting scale, forward-deployed model scaling constraints |
+| Founder Reach | William Alexander: LinkedIn linkedin.com/in/william--alexander; Twitter unconfirmed. Marshall Kools: LinkedIn linkedin.com/in/marshallkools; Twitter not found. Company: @Arzana_AI on X, counts not retrievable |
+| Distribution Signals | NYT feature (Feb 8, 2026); forward-deployed sales model; no Product Hunt listing found; no app store presence |
+| Emails | william@arzana.com, marshall@arzana.com, careers@arzana.com (YC page, arzana.com/about) |

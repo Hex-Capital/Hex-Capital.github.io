@@ -1,0 +1,73 @@
+{
+  "slug": "mount",
+  "name": "Mount",
+  "oneLiner": "Insure and secure your AI Agents",
+  "metadata": {
+    "website": "https://mount.insure",
+    "yc_page": "https://www.ycombinator.com/companies/mount",
+    "batch": "Spring 2026",
+    "industry": "Fintech / Fintech -> Insurance",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "AIOps, Artificial Intelligence, Security, Insurance, AI",
+    "yc_partner": "Pete Koomen",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "AIOps",
+    "Artificial Intelligence",
+    "Security",
+    "Insurance",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-22T23:37:40.605Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 39,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 41,
+    "EG": null,
+    "NR": 40,
+    "PG": 43,
+    "PT": 32,
+    "SL": 41,
+    "VK": 39
+  },
+  "consolidatedAvg": 39.33,
+  "consolidatedRank": 80,
+  "paths": {
+    "memo": "spring2026/memos/mount.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/mount.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/mount.md",
+      "paul-graham": "spring2026/evals/paul-graham/mount.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/mount.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/mount.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/mount.md"
+    }
+  }
+}

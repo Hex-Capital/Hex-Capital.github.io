@@ -8,68 +8,58 @@
     "batch": "Spring 2026",
     "industry": "B2B / B2B -> Engineering, Product and Design",
     "team_size": "2",
-    "location": "No public data found",
+    "location": "Not listed",
     "tags": "Developer Tools, SaaS",
     "yc_partner": "Pete Koomen",
-    "emails": "dastratakos@gmail.com (Dean Stratakos personal site)"
+    "emails": "No public data found"
   },
   "tags": [
     "Developer Tools",
     "SaaS"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-03-26T05:28:32.086Z",
+  "memoGeneratedAt": "2026-04-22T23:55:41.716Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 42,
+      "score": 32,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 48,
+      "score": 47,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 51,
+      "score": 47,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 30,
+      "score": 28,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 37,
+      "score": 28,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 29,
-    "EG": 42,
-    "NR": 48,
-    "PG": 51,
-    "PT": 30,
-    "SL": 30,
-    "VK": 37
+    "CB": 32,
+    "EG": null,
+    "NR": 47,
+    "PG": 47,
+    "PT": 28,
+    "SL": 28,
+    "VK": null
   },
-  "consolidatedAvg": 38.14,
-  "consolidatedRank": 46,
+  "consolidatedAvg": 36.4,
+  "consolidatedRank": 91,
   "paths": {
     "memo": "spring2026/memos/stage.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/stage.md",
-      "elad-gil": "spring2026/evals/elad-gil/stage.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/stage.md",
       "paul-graham": "spring2026/evals/paul-graham/stage.md",
       "peter-thiel": "spring2026/evals/peter-thiel/stage.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/stage.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/stage.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/stage.md"
     }
   }
 }

@@ -8,115 +8,132 @@
 | YC Page | https://www.ycombinator.com/companies/adialante |
 | Batch | Spring 2026 |
 | Industry | Healthcare / Healthcare -> Diagnostics |
-| Team Size | 4 |
-| Location | Redwood City, CA, USA |
+| Team Size | 4 (per YC page; company website lists 7 team members) |
+| Location | Redwood City, CA, USA (originally founded in Minneapolis, MN) |
 | Tags | Hardware, Medical Devices, Health & Wellness |
 | YC Partner | Nicolas Dessaigne |
-| Emails | clinics@adialante.com, efrain@adialante.com |
-
-Note: PitchBook and NSF SBIR records list the company address as Minneapolis, MN (200 Oak St SE, UMN campus). The website lists 7 team members; PitchBook lists 6 employees; YC lists 4.
+| Emails | clinics@adialante.com (company website) |
 
 ## The Idea
 
-**Problem:** MRI is the most robust cancer-detection imaging modality, yet systems cost millions, require months to install, and demand specialized infrastructure and operators (company website). Over one million men per year need prostate MRI, but almost no urology clinic has access (company website). Guidelines increasingly recommend MRI before prostate biopsy (company website). Current MRI technology has been largely unchanged for 40 years (Fogarty Innovation, Aug 2024).
+**Problem:** MRI is the most robust cancer-detection imaging modality available, yet conventional systems cost millions to purchase, take months to install, weigh tens of thousands of pounds, and require specialized infrastructure and technical staff (Adialante website). Approximately 90% of the global population lacks access to MRI (MNSBIR, Jul 2025). MRI machine design has remained largely unchanged for 40 years (Fogarty Innovation, Aug 2024). Current alternatives for cancer screening (CT, ultrasound) involve radiation exposure or lower diagnostic fidelity. Patients face long wait times and must travel to hospital-based imaging centers.
 
-**Approach:** Adialante uses a patent-pending physics approach called FREE (Frequency-modulated Rabi-Encoded Echoes) that eliminates B0 gradient coils, removing ~1/3 of conventional MRI hardware (PMC, 2021; Fogarty Innovation, Aug 2024). This yields a system claimed to be ~1/10th the size and cost of traditional MRI, with ~30% manufacturing cost reduction, ~1/10th the power consumption, and entirely silent operation (Fogarty Innovation, Aug 2024; UMN CTSI). The company deploys mobile units as "imaging clinics on wheels" — clinics pay a flat per-scan fee with no equipment purchase or infrastructure required (YC page).
+**Approach:** Adialante has developed a proprietary imaging method called Frequency-modulated Rabi-Encoded Echoes (FREE), which eliminates B0 gradient coils — a core hardware component of conventional MRI (Torres et al., Magnetic Resonance in Medicine, 2022; UMN CTSI, Mar 2024). This results in a system that is approximately one-third less hardware, one-tenth the weight, one-tenth the power consumption, and operates silently compared to traditional MRI (Fogarty Innovation, Aug 2024; UMN CTSI, Mar 2024). The system is deployed as a mobile MRI clinic on wheels: a truck arrives at a medical practice, and patients receive scans on-site. No capital equipment purchase or infrastructure build-out is required by the clinic (Adialante website).
 
-**Differentiation:** Unlike Hyperfine (0.064T brain-only, $13.6M FY25 revenue; Hyperfine Q4 2025 earnings) and Neuro42 (neuro-focused), Adialante targets cancer screening starting with prostate. Unlike Promaxo ($63–81M raised, 69 systems sold in 2023; Yahoo Finance), which sells in-office MRI hardware to urologists, Adialante's mobile model eliminates the capital expenditure for clinics. The FREE technology is distinct from Chipiron's SQUID-based quantum detection approach ($17M Series A, Apr 2025; The Quantum Insider). Siemens MAGNETOM Free.Max (0.55T) requires a 24 m² footprint and 3.2-tonne installation (Siemens Healthineers).
+**Differentiation:**
+- vs. conventional MRI (Siemens, GE, Philips): Adialante's mobile-as-a-service model eliminates the multi-million-dollar capital expenditure and facility requirements. The FREE technique removes gradient coils entirely, enabling radical size and cost reduction (UMN CTSI, Mar 2024).
+- vs. Hyperfine (portable MRI): Hyperfine's Swoop system is FDA-cleared for brain imaging only and is a bedside point-of-care device, not a mobile clinic service (Hyperfine investor relations, 2025). Adialante targets diagnostic-grade cancer screening starting with prostate, a different clinical application.
+- vs. Promaxo (office-based MRI): Promaxo builds a compact in-office MRI for prostate biopsy guidance, requiring a clinic to purchase or lease the hardware (Promaxo website). Adialante's model is pay-per-scan with no hardware ownership.
+- vs. Ezra (AI-enhanced MRI screening): Ezra uses existing third-party MRI machines paired with AI software to accelerate scans; acquired by Function Health in May 2025 (Radiology Business, 2025). Ezra does not build its own hardware.
 
-**Business Model:** Per-scan fee charged to medical sites; zero capital expenditure for clinics (company website). No public pricing data found. [Inferred]: The per-scan model resembles mobile imaging service companies (e.g., Alliance HealthCare) but vertically integrated with proprietary hardware.
+**Business Model:** Flat per-scan fee charged to medical sites. No equipment purchase required by the clinic (Adialante website). Starting with prostate cancer screening for urology clinics (pre-biopsy MRI), then expanding to orthopedics, breast, renal, and neuroimaging (Adialante website). No public pricing data found.
 
-**TAM/SAM:** Global MRI market: $6.5–7.1B in 2024, CAGR 6.5% to ~$9–10B by 2030 (Grand View Research, 2024 via search snippet; MarketsandMarkets, 2025 via search snippet). Portable MRI market: $2.98B in 2024, CAGR 5.4–7.4% to $5.6–7.4B by 2035 (Precedence Research, 2024 via search snippet). Prostate cancer diagnostics: $8.82B in 2024; imaging represents 27% of that market (~$2.4B) (Precedence Research, 2024 via search snippet).
+**TAM/SAM:** The global MRI systems market was valued at $6.5B in 2025 and projected to reach $9.0B by 2030 at a 6.5% CAGR (MarketsandMarkets, 2025). The broader global medical imaging market was $38.5B in 2020, projected to reach $68.8B by 2030 at 5.8% CAGR (Allied Market Research, 2021). No public TAM/SAM estimate specific to mobile or low-cost MRI-as-a-service found.
 
-**GTM / Distribution:** The website solicits early clinic partnerships for prostate MRI via a "Get Early Access" sign-up, targeting urology practices (company website). [Inferred]: Initial GTM is direct outreach to urology clinics lacking MRI access, starting in the U.S., leveraging the zero-cost/zero-risk mobile model to reduce adoption friction.
+**GTM / Distribution:** [Inferred]: The initial go-to-market is direct sales to urology clinics that currently refer patients out for pre-biopsy prostate MRI. The mobile clinic model reduces the clinic's adoption friction to zero capital expenditure, making per-scan economics the primary sales conversation. Geographic expansion likely follows a hub-and-spoke model from initial metro areas.
 
 ## Defensibility
 
-- **IP/Patents:** FREE technology is patent-pending; published in peer-reviewed journals (PMC, 2021; Wiley Magnetic Resonance in Medicine, 2022).
-- **Technical complexity:** Eliminating gradient coils requires novel physics and reconstruction algorithms — multiple PhDs on the team from UMN, Vanderbilt, and University of São Paulo specialize in this (company website). The NSF SBIR Phase II award ($1.19M, 2025–2026) funds continued development of the core scanner (NSF Award #2449556).
-- **Regulatory barriers:** FDA clearance is required; this creates a time-based moat once achieved, as competitors face the same multi-year regulatory pathway.
+- **IP / Patents:** The FREE (Frequency-modulated Rabi-Encoded Echoes) technology is patent-pending (UMN CTSI, Mar 2024). The core physics was published in a peer-reviewed paper in Magnetic Resonance in Medicine (Torres et al., 2022).
+- **Technical complexity:** Redesigning MRI from the ground up — new physics, new algorithms, new hardware — represents years of R&D originating from a PhD program at the University of Minnesota under advisor Dr. Michael Garwood, a professor of radiology with decades of imaging expertise (Fogarty Innovation, Aug 2024).
+- **Regulatory barrier:** MRI devices require FDA 510(k) clearance or De Novo authorization. Adialante has not yet received FDA clearance (no public clearance data found). This creates a barrier to entry for any new competitor but also represents a gate Adialante must clear.
+- **Business model moat:** [Inferred]: The mobile-as-a-service model bundles hardware, logistics, and clinical operations. Replicating this requires not just building the scanner but also managing the fleet, scheduling, and clinical workflow — an operational moat that builds with scale.
 
-**Market structure:** Incumbent MRI manufacturers (Siemens, GE, Philips) sell systems at $1–3M+ with recurring service contracts. A per-scan mobile model cannibalizes their hardware sales revenue. [Inferred]: Business model conflict — incumbents cannot easily offer a per-scan mobile service without undermining their existing capital equipment sales channels and service contract revenue streams.
+**Market structure:** Incumbent MRI manufacturers (Siemens Healthineers, GE HealthCare, Philips) sell multi-million-dollar systems to hospitals. [Inferred]: A low-cost mobile per-scan model would cannibalize their installed base economics and disrupt their capital-equipment sales channel. Incumbents also lack the operational infrastructure for a mobile service fleet.
 
-**Commoditization risk:** Promaxo already has FDA-cleared in-office prostate MRI with 69+ installed systems (Yahoo Finance, 2023). Hyperfine is commercially shipping portable MRI with $20–22M FY26 revenue guidance (Hyperfine Q4 2025 earnings). Chipiron raised $17M for an alternative low-cost MRI approach (The Quantum Insider, May 2025). [Inferred]: The per-scan mobile deployment model, rather than the hardware alone, may be the more durable differentiator.
+**Commoditization risk:** Building a gradient-free MRI from scratch requires deep MR physics expertise, custom RF hardware, and novel reconstruction algorithms. The FREE technique is patent-pending. [Inferred]: The closest analog, Hyperfine, took over 5 years and >$200M to bring its portable MRI (different technology) to FDA clearance, suggesting substantial time-to-replicate for any new entrant.
 
 ## Market & Traction
 
 **Traction signals:**
-- $2.43M total raised (PitchBook)
-- $1.3M raised from investors as of April 2024 (UMN CSE, Apr 2024)
-- NSF SBIR Phase II award: $1,186,778 for June 2025–Nov 2026 (NSF Award #2449556)
-- Investors: Y Combinator, Brown Venture Group, NSF SBIR, Fogarty Innovation (company website; PitchBook)
-- Walleye Tank Grand Prize winner, Dec 2023 (UMN Research Office, Dec 2023)
-- Gary S. Holmes Center Student Entrepreneur of the Year, May 2023 (UMN CSE)
-- LSI USA '24 conference presentation by Torres (Life Science Intelligence)
-- Press: Fogarty Innovation profile (Aug 2024); four UMN institutional articles (2023–2024); NSF Showcase listing
-- LinkedIn company page active (LinkedIn). No Twitter/X company account found. No Product Hunt listing.
-- No public revenue, user counts, or deployed units reported.
+- Total funding raised: over $3M (MNSBIR, Jul 2025); earlier source cited $1.3M as of Mar 2024 (UMN CTSI)
+- Investors: Y Combinator, Fogarty Innovation, Brown Venture Group, NSF SBIR, Walleye Tank, angel investors (Adialante website; PitchBook; MNSBIR)
+- NSF SBIR Phase I grant: awarded (NSF; exact amount not publicly detailed)
+- NSF SBIR Phase II grant: $1.18M (MNSBIR, Jul 2025)
+- ODAT (UMN) grant: $148,000 for pediatric MRI application (UMN CTSI, Mar 2024)
+- Walleye Tank Grand Prize: $10,000, December 1, 2023 (UMN Research & Innovation Office)
+- MN Cup Semifinalist (MNSBIR, Jul 2025)
+- NSF Director Highlight (MNSBIR, Jul 2025)
+- NSF I-Corps program participant (NSF I-Corps Hub: Great Lakes Region)
+- Fogarty Innovation Company Accelerator Program (CAP) participant (Fogarty Innovation, Aug 2024)
+- Conference presentations: LSI USA '24 and LSI Europe '24 (Life Science Intelligence, YouTube)
+- LinkedIn followers: ~140 (LinkedIn company page via search snippet)
+- Twitter/X: @ET_adialante listed on YC page (follower count not retrievable)
+- Founded: 2022-2023 (Fogarty Innovation says "two years ago" as of Aug 2024; PitchBook says 2022)
+- Seed round target: $3.5M (UMN CTSI, Mar 2024)
+- No revenue, customer count, or scan volume data publicly reported.
+- No Product Hunt launch found.
+- No Discord/Slack community found.
+- No app store presence (hardware product).
+- No active job postings (YC page shows 0 open positions).
 
 **Competitive landscape:**
 
-| Competitor | Funding | Revenue/Units | Key Differentiator vs. Adialante |
+| Competitor | Key Differentiator vs. Adialante | Funding | Revenue |
 |---|---|---|---|
-| Promaxo | $63–81M (Series C $41.9M, Mar 2024) | 69 systems sold (2023); revenue undisclosed | FDA-cleared in-office prostate MRI with integrated robotic biopsy; capital sale model |
-| Hyperfine (HYPR) | $90M+ equity + $40M debt | $13.6M FY25; $20–22M FY26 guidance | FDA-cleared portable brain MRI; public company; AI-powered; subscription model |
-| Synaptive Medical | $260M | $35M annual (Sep 2025) | Mid-field 0.5T neurosurgery-focused; 100+ elite hospital installations; approaching profitability |
-| Chipiron | $22M+ | Pre-revenue | SQUID quantum detection; targets 10x cost reduction; EU-based with public funding |
-| Voxelgrids | $6.67M | Pre-revenue | Full 1.5T at 40% lower cost; helium-free; India-focused |
+| **Hyperfine** (HYPR, public) | FDA-cleared portable MRI for brain only; bedside device, not mobile service; low-field (64mT) | Public company; ~$27.3M net financing proceeds in 2025 (Hyperfine investor relations) | $13.5M FY2025 revenue (Hyperfine Q4 2025 earnings) |
+| **Promaxo** | In-office compact MRI for prostate biopsy guidance; clinic purchases/leases hardware | ~$72-81M total raised; $41.9M Series C (Mar 2024) (PitchBook; Tracxn) | Revenue not disclosed |
+| **Ezra** (acquired by Function Health, May 2025) | AI software layer on existing third-party MRI machines; no proprietary hardware | $44M total raised; $21M round (Feb 2024) (Crunchbase; BusinessWire) | Doubled revenue in 2023; exact figures not disclosed (Radiology Business) |
+| **Openwater** | Uses optoelectronics (not MRI magnets); wearable form factor; targets sub-$1K device | $100M total raised; $54M Series C (Aug 2024) (Tracxn) | Revenue not disclosed |
 
 **Why now:**
-- Clinical guidelines increasingly recommend MRI before prostate biopsy, expanding the addressable patient pool beyond radiology centers into urology clinics (company website).
-- [Inferred]: Advances in AI-based image reconstruction and low-field MRI physics (demonstrated by Hyperfine's FDA clearance in 2020 and Siemens Free.Max launch) have validated that lower-cost MRI can achieve clinically useful image quality, creating regulatory and clinical precedent.
+- The underlying FREE physics was published in 2022 (Torres et al., Magnetic Resonance in Medicine), enabled by advances in computational power for novel image reconstruction algorithms (UMN CTSI, Mar 2024).
+- [Inferred]: Declining costs of high-performance computing make real-time reconstruction from non-traditional encoding schemes (like FREE) clinically feasible for the first time.
+- [Inferred]: Growing clinical adoption of prostate MRI before biopsy (driven by NCCN guidelines and PI-RADS standardization) creates a specific demand pull for accessible MRI in urology practices.
 
 ## Founders & Team
 
-**Efrain Torres, PhD** — CEO & Co-Founder
-- PhD in Biomedical Engineering, University of Minnesota; research at UMN Center for Magnetic Resonance Research (CMRR) (UMN CSE; CMRR people page)
-- Published peer-reviewed papers on FREE technology in Magnetic Resonance in Medicine and NMR in Biomedicine (PMC, 2021; Wiley, 2022)
-- Gary S. Holmes Center Student Entrepreneur of the Year, May 2023; inaugural "Spirit of Engineering Leadership" award (UMN CSE, May 2023)
-- Quote: grew up on the south side of Chicago; mission to bring MRI to underserved communities (UMN Research Office, Nov 2023)
-- Twitter/X: @ET_adialante (YC page); follower count not retrievable
-- LinkedIn: linkedin.com/in/efraín-torres-phd-85293512a/
+**Efraín Torres, PhD** — Co-founder & CEO
+- PhD in Biomedical Engineering, University of Minnesota (completed fall 2023) (UMN CTSI, Mar 2024)
+- BS in Biomedical Engineering, Marquette University (Fogarty Innovation, Aug 2024)
+- Prior experience: Boston Scientific, Imaging Biometrics LLC, Marquette University (LinkedIn via search snippet)
+- First-generation college graduate; grew up in Little Village, Chicago's south side (UMN CTSI, Mar 2024; Fogarty Innovation, Aug 2024)
+- Inventor of the FREE MRI technique; published in Magnetic Resonance in Medicine (2022)
+- PhD advisor: Dr. Michael Garwood, Professor of Radiology, UMN (UMN CTSI, Mar 2024)
+- Presented at LSI USA '24 and LSI Europe '24 (Life Science Intelligence; YouTube)
+- Twitter/X: @ET_adialante (per YC page; follower count not retrievable)
+- LinkedIn: linkedin.com/in/efraín-torres-phd-85293512a — CEO & Co-Founder, Adialante
 - GitHub: No public repos found
 
-**Parker Jenkins, MS** — COO & Co-Founder
-- MS in Biomedical Engineering, University of Minnesota; imaging hardware and AI (company website)
-- LinkedIn: linkedin.com/in/parker-jenkins-486893130/
+**Parker Jenkins, MS** — Co-founder & COO
+- MS in Biomedical Engineering, University of Minnesota (PhD student as of Mar 2024) (UMN CTSI)
+- BS in Biomedical Engineering, Marquette University (Fogarty Innovation, Aug 2024)
+- Focus on imaging hardware (Adialante website)
+- From Minneapolis suburbs; motivated by rural healthcare gaps in northern Minnesota (Fogarty Innovation, Aug 2024)
 - Twitter/X: No public account found
+- LinkedIn: linkedin.com/in/parker-jenkins-486893130 — listed as Fogarty Innovation affiliation
 - GitHub: No public repos found
 
-**Notable team member: Sai Abitha Srinivas, PhD** — Principal Systems Engineer
-- PhD in Biomedical Engineering, Vanderbilt University (company website)
-- ISMRM I.I. Rabi Young Investigator Award winner, 2022 — Vanderbilt's first recipient (Vanderbilt Engineering, Jun 2022; ISMRM 2022)
-- Twitter/X: @srinivasabitha
-- Publications in NMR in Biomedicine (Wiley, 2024)
+Additional team members per company website: Michael Mullen, PhD (Principal Software Engineer, Physics PhD UMN); Sai Abitha Srinivas, PhD (Principal Systems Engineer, BME PhD Vanderbilt, Rabi Award winner); Daniel Pizetta, PhD (Staff Software Engineer, Computational Physics, University of São Paulo); Kyle King (CFO); Nabil Othman (Junior Software Engineer).
 
-**Co-founder relationship:** Both Torres and Jenkins completed graduate programs in Biomedical Engineering at UMN and worked at CMRR, indicating shared academic lab experience (UMN CSE, multiple articles).
+**Co-founder relationship:** Torres and Jenkins met on the first day of classes at Marquette University as undergraduates (same dormitory floor) and both pursued graduate studies at the University of Minnesota in biomedical engineering (Fogarty Innovation, Aug 2024).
 
-**Founder-market fit:** Torres and Jenkins developed the core FREE MRI technology during their graduate research at UMN's CMRR, one of the world's leading MRI research centers. The team includes five PhDs spanning MRI physics, image reconstruction, and computational physics from UMN, Vanderbilt, and University of São Paulo. Advisors include faculty from Stanford and UMN Radiology (company website). Michael Garwood, Professor of Radiology at UMN, is listed as an advisor (UMN CTSI).
+**Founder-market fit:** Both co-founders hold biomedical engineering degrees with specific MRI specialization from a top-ranked program (UMN) under Dr. Michael Garwood, a leading MRI researcher. Torres invented the core FREE technology during his PhD and has prior medical device industry experience at Boston Scientific and Imaging Biometrics. Jenkins brings hardware engineering focus. Their team includes additional PhD-level engineers in MR physics, systems engineering, and computational physics, giving the company deep bench strength in the core technical domain.
 
 ## Key Risks
 
-**FDA regulatory timeline:** The core MRI system is pre-FDA submission. Competitors Promaxo and Hyperfine already have 510(k) clearances and are commercially shipping. FDA clearance timelines for novel MRI physics are uncertain and could delay revenue generation by years. Mitigation: NSF SBIR Phase II funding ($1.19M) covers development through Nov 2026 (NSF Award #2449556).
+**FDA regulatory pathway uncertainty:** Adialante's novel MRI technology (FREE) has no predicate device using the same physics, which may require a De Novo classification rather than a simpler 510(k) pathway. No FDA submission or clearance has been publicly announced. Timeline to clearance is uncertain and could delay commercial launch significantly.
 
-**Promaxo direct competition in prostate MRI:** Promaxo has FDA-cleared, in-office prostate MRI with 69 systems sold in 2023 and $63–81M in funding (Yahoo Finance, 2023; Tracxn). Promaxo is building the installed base and clinical evidence that Adialante has yet to begin.
+**Clinical validation gap:** The FREE technique has been demonstrated in published research (Torres et al., 2022), but no peer-reviewed clinical trial data comparing diagnostic accuracy to conventional MRI has been publicly reported. Urology practices will need evidence of diagnostic equivalence before adopting the system for pre-biopsy prostate imaging.
 
-**Mobile operations complexity:** The "imaging clinic on wheels" model requires fleet management, staffing, scheduling, regulatory compliance across jurisdictions, and maintenance — operational challenges distinct from hardware development. No evidence the team has mobile healthcare operations experience. [Inferred]: This operational layer adds cost and execution risk beyond the core technology challenge.
+**Capital intensity of hardware + fleet operations:** Building MRI hardware and operating a mobile fleet requires significant capital for manufacturing, vehicles, staffing, and logistics. The company's current ~$3M in funding (MNSBIR, Jul 2025) and $3.5M seed target (UMN CTSI, Mar 2024) may be insufficient for scaled manufacturing and fleet deployment without substantial follow-on funding.
 
-**Academic-to-commercial transition:** The technology originated in UMN academic labs; all founding team members come from academic backgrounds with no visible prior startup or commercial experience. The $3.5M seed target (UMN CSE, Apr 2024) has not been publicly confirmed as closed.
+**Well-funded competition in adjacent space:** Hyperfine ($13.5M FY2025 revenue), Promaxo (~$72-81M raised), and Openwater ($100M raised) are pursuing portable/low-cost MRI with different technical approaches and significantly more capital. While none currently offer a mobile-as-a-service model for cancer screening, any could pivot toward similar deployment models.
+
+**Name disambiguation risk:** "Adialante" is similar to "Adial Pharmaceuticals" (NASDAQ: ADIL), a public clinical-stage pharma company. Search results occasionally conflate the two entities.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Global MRI market $6.5–7.1B in 2024, CAGR 6.5% (Grand View Research, 2024 via search snippet); Portable MRI $2.98B in 2024 (Precedence Research, 2024 via search snippet) |
-| SAM | Prostate cancer diagnostic imaging ~$2.4B (27% of $8.82B prostate cancer diagnostics market) (Precedence Research, 2024 via search snippet) |
-| Traction | No public revenue, users, or deployed units found |
+| TAM | Global MRI systems market $6.5B in 2025, projected $9.0B by 2030 at 6.5% CAGR (MarketsandMarkets, 2025) |
+| SAM | No public data found |
+| Traction | $3M+ total funding raised (MNSBIR, Jul 2025); $1.18M NSF SBIR Phase II (MNSBIR, Jul 2025); Walleye Tank Grand Prize (UMN Research Office, Dec 2023); Fogarty Innovation CAP participant (Fogarty Innovation, Aug 2024); YC S26 batch (YC page) |
 | Revenue Signal | No public data found |
-| Founders | Efrain Torres (CEO): PhD Biomedical Engineering UMN, FREE inventor, CMRR researcher. Parker Jenkins (COO): MS Biomedical Engineering UMN, imaging hardware. |
-| Competitors | Promaxo ($63–81M raised, revenue unknown, in-office prostate MRI with robotic biopsy); Hyperfine ($90M+ raised, $13.6M FY25 revenue, portable brain MRI); Synaptive ($260M raised, $35M revenue, neurosurgery MRI); Chipiron ($22M+ raised, pre-revenue, SQUID quantum MRI) |
-| Moat Signals | Patent-pending FREE technology (PMC, 2021); NSF SBIR Phase II $1.19M award (NSF, 2025); ISMRM Rabi Award winner on team (ISMRM, 2022) |
-| Risk Factors | Pre-FDA with well-funded cleared competitors, mobile ops complexity, academic-to-commercial transition |
-| Founder Reach | Torres: Twitter @ET_adialante (count not retrievable), LinkedIn active. Jenkins: LinkedIn active, no Twitter found. |
+| Founders | Efraín Torres (CEO): PhD BME UMN, FREE inventor, ex-Boston Scientific. Parker Jenkins (COO): MS BME UMN, hardware focus, Marquette alum. |
+| Competitors | Hyperfine (public; $13.5M FY2025 rev; portable brain MRI, not cancer screening), Promaxo (~$72-81M raised; revenue unknown; in-office prostate MRI), Ezra ($44M raised; revenue unknown; AI on existing MRI, acquired by Function Health May 2025), Openwater ($100M raised; revenue unknown; optoelectronics, not MRI magnets) |
+| Moat Signals | Patent-pending FREE technology (UMN CTSI, Mar 2024); peer-reviewed publication (Magnetic Resonance in Medicine, 2022); novel physics requiring deep MR expertise |
+| Risk Factors | FDA pathway uncertainty (no clearance announced), clinical validation gap, capital-intensive hardware + fleet model |
+| Founder Reach | Torres: Twitter @ET_adialante (count not retrievable), LinkedIn (profile found). Jenkins: LinkedIn (profile found), Twitter not found. Company LinkedIn ~140 followers (LinkedIn via search snippet) |
 | Distribution Signals | No public data found |
-| Emails | clinics@adialante.com (company website), efrain@adialante.com (NSF SBIR record) |
+| Emails | clinics@adialante.com (company website) |

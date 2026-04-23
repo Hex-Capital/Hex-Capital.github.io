@@ -1,0 +1,71 @@
+{
+  "slug": "cohesion",
+  "name": "Cohesion",
+  "oneLiner": "Your public equities agentic teammate",
+  "metadata": {
+    "website": "https://cohesionplatform.com/",
+    "yc_page": "https://www.ycombinator.com/companies/cohesion",
+    "batch": "Spring 2026",
+    "industry": "B2B / B2B -> Finance and Accounting",
+    "team_size": "3",
+    "location": "No public data found",
+    "tags": "Fintech, SaaS, Investing",
+    "yc_partner": "Tom Blomfield",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Fintech",
+    "SaaS",
+    "Investing"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-22T23:23:20.692Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 36,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 32,
+    "EG": 42,
+    "NR": null,
+    "PG": 54,
+    "PT": 34,
+    "SL": 34,
+    "VK": 36
+  },
+  "consolidatedAvg": 38.67,
+  "consolidatedRank": 84,
+  "paths": {
+    "memo": "spring2026/memos/cohesion.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/cohesion.md",
+      "elad-gil": "spring2026/evals/elad-gil/cohesion.md",
+      "paul-graham": "spring2026/evals/paul-graham/cohesion.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/cohesion.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/cohesion.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/cohesion.md"
+    }
+  }
+}

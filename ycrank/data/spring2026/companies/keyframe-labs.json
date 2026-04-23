@@ -5,10 +5,10 @@
   "metadata": {
     "website": "https://keyframelabs.com",
     "yc_page": "https://www.ycombinator.com/companies/keyframe-labs",
-    "batch": "Spring 2026 (S26)",
+    "batch": "Spring 2026",
     "industry": "B2B / B2B",
     "team_size": "2",
-    "location": "Santa Monica, CA (CA corporate filing via BizProfile)",
+    "location": "No public data found",
     "tags": "B2B, Video, API, AI",
     "yc_partner": "David Lieb",
     "emails": "No public data found"
@@ -20,53 +20,48 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-03-26T05:20:05.345Z",
+  "memoGeneratedAt": "2026-04-22T23:39:21.933Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 56,
-      "tier": "Neutral"
+      "score": 43,
+      "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 75,
+      "score": 76,
       "tier": "Invest"
     },
     "paul-graham": {
-      "score": 60,
+      "score": 56,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 44,
+      "score": 40,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 41,
+      "score": 40,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 53,
+      "score": 50,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 49,
-    "EG": 56,
-    "NR": 75,
-    "PG": 60,
-    "PT": 44,
-    "SL": 41,
-    "VK": 53
+    "CB": 43,
+    "EG": null,
+    "NR": 76,
+    "PG": 56,
+    "PT": 40,
+    "SL": 40,
+    "VK": 50
   },
-  "consolidatedAvg": 54,
-  "consolidatedRank": 6,
+  "consolidatedAvg": 50.83,
+  "consolidatedRank": 15,
   "paths": {
     "memo": "spring2026/memos/keyframe-labs.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/keyframe-labs.md",
-      "elad-gil": "spring2026/evals/elad-gil/keyframe-labs.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/keyframe-labs.md",
       "paul-graham": "spring2026/evals/paul-graham/keyframe-labs.md",
       "peter-thiel": "spring2026/evals/peter-thiel/keyframe-labs.md",

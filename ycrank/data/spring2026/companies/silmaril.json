@@ -1,0 +1,64 @@
+{
+  "slug": "silmaril",
+  "name": "Silmaril",
+  "oneLiner": "Prompt injection defense that is self-healing",
+  "metadata": {
+    "website": "https://silmaril.dev",
+    "yc_page": "https://www.ycombinator.com/companies/silmaril",
+    "batch": "Spring 2026",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Security",
+    "yc_partner": "Garry Tan",
+    "emails": "aum@silmaril.dev"
+  },
+  "tags": [
+    "Security"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-22T23:32:48.475Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 66,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 38,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 46,
+    "EG": null,
+    "NR": 66,
+    "PG": 46,
+    "PT": 41,
+    "SL": 38,
+    "VK": null
+  },
+  "consolidatedAvg": 47.4,
+  "consolidatedRank": 24,
+  "paths": {
+    "memo": "spring2026/memos/silmaril.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/silmaril.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/silmaril.md",
+      "paul-graham": "spring2026/evals/paul-graham/silmaril.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/silmaril.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/silmaril.md"
+    }
+  }
+}

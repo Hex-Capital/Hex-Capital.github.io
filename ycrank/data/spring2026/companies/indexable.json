@@ -17,14 +17,10 @@
     "Artificial Intelligence"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-03-26T05:11:16.481Z",
+  "memoGeneratedAt": "2026-04-22T23:27:18.803Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 57,
+      "score": 47,
       "tier": "Neutral"
     },
     "naval-ravikant": {
@@ -32,38 +28,37 @@
       "tier": "Invest"
     },
     "paul-graham": {
-      "score": 58,
+      "score": 62,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 41,
+      "score": 43,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 46,
+      "score": 50,
       "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 57,
+      "score": 59,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 40,
-    "EG": 57,
+    "CB": 47,
+    "EG": null,
     "NR": 75,
-    "PG": 58,
-    "PT": 41,
-    "SL": 46,
-    "VK": 57
+    "PG": 62,
+    "PT": 43,
+    "SL": 50,
+    "VK": 59
   },
-  "consolidatedAvg": 53.43,
-  "consolidatedRank": 7,
+  "consolidatedAvg": 56,
+  "consolidatedRank": 6,
   "paths": {
     "memo": "spring2026/memos/indexable.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/indexable.md",
-      "elad-gil": "spring2026/evals/elad-gil/indexable.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/indexable.md",
       "paul-graham": "spring2026/evals/paul-graham/indexable.md",
       "peter-thiel": "spring2026/evals/peter-thiel/indexable.md",

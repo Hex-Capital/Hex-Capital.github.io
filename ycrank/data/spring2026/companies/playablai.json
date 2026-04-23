@@ -19,53 +19,48 @@
     "Gaming"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-03-26T05:12:35.018Z",
+  "memoGeneratedAt": "2026-04-22T23:25:11.820Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 35,
+      "score": 38,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 52,
+      "score": 59,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 51,
+      "score": 54,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 36,
+      "score": 37,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 34,
+      "score": 35,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 41,
-      "tier": "Pass"
+      "score": 48,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 39,
-    "EG": 35,
-    "NR": 52,
-    "PG": 51,
-    "PT": 36,
-    "SL": 34,
-    "VK": 41
+    "CB": 38,
+    "EG": null,
+    "NR": 59,
+    "PG": 54,
+    "PT": 37,
+    "SL": 35,
+    "VK": 48
   },
-  "consolidatedAvg": 41.14,
-  "consolidatedRank": 32,
+  "consolidatedAvg": 45.17,
+  "consolidatedRank": 31,
   "paths": {
     "memo": "spring2026/memos/playablai.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/playablai.md",
-      "elad-gil": "spring2026/evals/elad-gil/playablai.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/playablai.md",
       "paul-graham": "spring2026/evals/paul-graham/playablai.md",
       "peter-thiel": "spring2026/evals/peter-thiel/playablai.md",

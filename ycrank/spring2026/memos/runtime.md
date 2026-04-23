@@ -1,6 +1,6 @@
 ﻿# Runtime
 
-> Guardrails and visibility to enable your team to ship with coding agents securely
+> Let all your team ship safely with coding agents
 
 | Field | Value |
 |-------|-------|
@@ -16,96 +16,110 @@
 
 ## The Idea
 
-**Problem:** Engineering leaders rolling out AI coding agents (Claude Code, Codex, Gemini CLI) lack visibility into what those agents are doing, cannot set boundaries, and cannot safely let non-engineers use them (YC company page). Today, organizations either restrict coding agent access to engineers only — limiting productivity — or allow broad access with no guardrails, risking production breakage and security incidents. [Inferred]: The current alternative is ad hoc internal tooling, manual code review bottlenecks, or simply not letting non-engineers use agents.
+**Problem:** Engineering leaders rolling out coding agents (Claude Code, Codex, Gemini CLI, Copilot) across their organizations lack centralized visibility into what agents are doing, cannot set boundaries or spend limits, and cannot safely extend agent access to non-engineers such as PMs, designers, and marketers (YC page). Today's coding agents run locally or in ad-hoc setups with no session-level audit trail, role-based access control, or cost tracking at the team level.
 
-**Approach:** Runtime provides sandboxed VM environments per session, session-level observability, and configurable guardrails so that PMs, designers, marketers, and ops staff can use coding agents without breaking production (YC company page). Specific mechanisms include: isolated VMs per session, network allowlists, per-repo access controls, deployment gates, system instructions (org-wide rules), runtime secret injection, cost tracking per user/session, activity heatmaps, spend limits, and real-time multiplayer sessions (runtm.com). The product supports Claude Code, OpenAI Codex, and Gemini CLI (runtm.com). Users can import/export from GitHub, deploy with one click, and run background agents via "Mission Control" (runtm.com).
+**Approach:** Runtime provides a control plane layer that sits above coding agents, offering three core capabilities (runtm.com):
+- Sandboxed environments with pre-configured templates for monorepos and microservices, auto-provisioned per session
+- Session-level observability dashboards tracking tool calls, chain of thought, and costs per user/session/day
+- Configurable guardrails: spend limits, file protections, per-user rules, and system instructions
 
-**Differentiation:** Unlike pure sandbox providers (E2B, Daytona) that provide infrastructure primitives for developers, Runtime bundles governance, observability, and deployment into a visual workspace designed for non-engineer end users (runtm.com). Unlike AI observability platforms (Galileo, Langfuse) that monitor model outputs, Runtime focuses specifically on coding agent session control — what code is being written, by whom, and whether it meets org-defined rules before deployment (runtm.com). Unlike Lakera or Guardrails AI that screen LLM inputs/outputs for safety, Runtime operates at the environment and deployment layer. The open-source control plane repo implements lifecycle primitives (init, run, validate, deploy, destroy) and deploys to Fly.io Machines with OTLP-based observability (GitHub: runtm-ai/runtm-coding-agent-runtime-control-plane).
+- The platform is agent-agnostic, supporting Claude Code, Codex, OpenCode, Gemini CLI, and GitHub Copilot (runtm.com). Sessions can be triggered from Slack, Linear, GitHub, Jira, Asana, or Teams (YC page). Non-engineers can prompt and ship with one-click PRs and deploys without Git knowledge (runtm.com).
 
-**Business Model:** Public pricing page lists four tiers: Free ($0 — core features with Claude Code, 3 parallel sessions), Builder ($29/mo — unlocks all supported agents), Teams ($99/seat/mo), and Enterprise (custom pricing) (runtm.com/pricing). [Inferred]: Primary revenue path is per-seat SaaS targeting engineering teams at mid-market and enterprise companies.
+**Differentiation:** Unlike sandbox infrastructure providers (E2B, Daytona, Runloop) that provide raw compute sandboxes for AI code execution, Runtime focuses on the team management layer: role-based access, observability dashboards, and guardrail policies across multiple agent types. Unlike individual coding agents (Cursor, Copilot), Runtime does not provide the AI model itself but instead wraps existing agents with organizational controls. [Inferred]: The closest competitive framing is "Datadog for coding agents" crossed with team access management.
+
+**Business Model:** The website offers a "Start Building Free" tier but no public pricing page with tiers or per-seat costs was found (runtm.com). The product is self-hostable under a multi-license model: AGPLv3 (server), Apache 2.0 (CLI/sandbox/shared), MIT (templates) (GitHub). [Inferred]: Most likely monetization path is a hosted SaaS with usage-based or per-seat pricing and an enterprise tier for self-hosted deployments with premium support, given the open-core licensing structure.
 
 **TAM/SAM:**
-- AI Agent Market: $7.38B (2025) projected to $103.6B by 2032, CAGR 45.3% (MarketsandMarkets via search snippet)
-- AI Governance Market: $227–340M (2024–2025) projected to $4.83B by 2034, CAGR 35–45% (MarketsandMarkets via search snippet)
-- Application Software Market: projected $780B by 2030, 13% CAGR (Goldman Sachs via search snippet)
-- [Inferred]: The serviceable market is the intersection of AI coding agent users and enterprise governance buyers — a nascent segment without standalone TAM estimates.
+- AI Code Assistants Market: $8.14B in 2025, projected to $127.05B by 2032, 48.1% CAGR (MarketsandMarkets, 2025 via search snippet)
+- AI Code Tools Market: $7.37B in 2025, projected to $23.97B by 2030, 26.60% CAGR (Mordor Intelligence, 2025 via search snippet)
+- [Inferred]: Runtime's SAM is a subset focused on enterprise management/observability tooling for coding agents rather than the agents themselves. No public SAM estimate found for this specific segment.
 
-**GTM / Distribution:** The company states it is "live with fast-growing YC scaleups" (YC company page). The product offers a free tier requiring no credit card (runtm.com). An open-source repo is available (AGPLv3 server, Apache-2.0 CLI/sandbox) with a PyPI package (`runtm`) and a Discord community (runtm.com footer). [Inferred]: Primary distribution is bottom-up product-led growth via the free tier and open-source components, with expansion into Teams/Enterprise seats through YC network referrals.
+**GTM / Distribution:**
+- The company states it is "live with fast-growing YC scaleups" (YC page).
+- Open-source GitHub repository serves as a developer adoption funnel (GitHub, 105 stars).
+- Demo booking via Cal.com link on website (runtm.com).
+- [Inferred]: Primary distribution is bottom-up through the YC network and open-source adoption, converting to paid hosted/enterprise plans.
 
 ## Defensibility
 
-- **Switching costs:** Once an organization configures system instructions, per-repo access controls, deployment gates, and secret management within Runtime, migrating to another platform requires reconfiguring all governance policies (runtm.com feature list). [Inferred]: These switching costs increase with organizational scale but are modest at early adoption.
-- **Data advantage:** Session-level observability and cost tracking generate proprietary usage data per organization (runtm.com). [Inferred]: This data could inform org-specific recommendations but does not yet constitute a cross-customer network effect.
-- **Open source:** The AGPLv3 server license means competitors cannot freely incorporate the server code into proprietary offerings without open-sourcing their own (GitHub: runtm-ai/runtm).
+- **Open-source community:** The GitHub repo (runtm-ai/runtm) has 105 stars and 10 forks (GitHub), providing early community traction. [Inferred]: If adopted as a standard control plane, switching costs would increase as teams build workflows around Runtime's guardrail configurations, templates, and integrations.
+- **Agent-agnostic positioning:** Supporting multiple coding agents (Claude Code, Codex, Gemini CLI, Copilot, OpenCode) means Runtime is not dependent on any single agent vendor (runtm.com).
+- **Session data accumulation:** [Inferred]: Over time, accumulated observability data on agent behavior, cost patterns, and team usage could create a data advantage for benchmarking and policy recommendations, but this is unproven.
 
-**Market structure:** [Inferred]: Large cloud providers (AWS, GCP, Azure) and IDE vendors (GitHub/Microsoft, JetBrains) could build coding agent governance, but their incentives are misaligned — they profit from maximizing agent usage and compute consumption, not from imposing guardrails that reduce usage. Coding agent vendors (Anthropic, OpenAI, Google) face a similar conflict: governance that restricts agent actions could reduce API call volume. This creates a structural opening for a neutral third-party governance layer. No structural barrier identified beyond this incentive misalignment.
+**Market structure:** [Inferred]: Coding agent vendors (Anthropic, OpenAI, Google) are unlikely to build comprehensive multi-agent management tools because each has incentive to promote their own agent exclusively. A neutral control plane benefits from being agent-agnostic. However, no structural barrier prevents a platform like GitHub or Atlassian from building similar integrations into their existing developer toolchains.
 
-**Commoditization risk:** E2B ($32M raised) and Daytona ($30.7M raised) already provide sandboxed environments and could add governance features (E2B blog, July 2025; PR Newswire, Feb 2026). IDE-integrated coding agents (GitHub Copilot, Cursor) could add native org-level controls. [Inferred]: The sandbox infrastructure layer is commoditizing rapidly; the governance and non-engineer UX layer is less commoditized but has low technical barriers.
+**Commoditization risk:** The core functionality — sandboxing, observability dashboards, and RBAC — is technically reproducible. E2B, Daytona, and Runloop already provide sandboxing infrastructure. A well-resourced DevOps platform (e.g., GitLab, Atlassian) could add agent observability and guardrails as a feature. The multi-agent compatibility and policy-layer focus provide some differentiation, but the technical barrier is moderate.
 
 ## Market & Traction
 
 **Traction signals:**
-- GitHub: 64 stars, 3 forks on main repo (GitHub: runtm-ai/runtm, as of research date)
-- PyPI downloads: 7,074 total across 16 versions (v0.1.0 through v0.2.15); peak single-day: 1,366 downloads (January 21, 2026); recent daily: 8–61/day (pepy.tech/projects/runtm)
-- Show HN post: 4 points, 1 comment (Hacker News, ~early January 2026)
-- Twitter/X: @gustrigos (founder personal account) — 187 followers (x.com/gustrigos)
-- LinkedIn: company page at linkedin.com/company/runtm/ — follower count not retrievable
-- Discord: community at discord.gg/JUuCkUKc — member count not retrievable
-- Product Hunt: no listing found
-- Job postings: 0 open positions (YC job board)
-- No press coverage found in named publications
-- No disclosed revenue, user counts, or customer logos
+- GitHub: 105 stars, 10 forks on runtm-ai/runtm (GitHub)
+- Show HN post ("Show HN: Runtm — open-source runtime and control plane for agent-built software"): 4 points, 1 comment (Hacker News, ~Jan 2026)
+- Discord community exists (runtm.com); member count not publicly available
+- Twitter/X company account: @gustrigos (founder's personal account); no separate company account found
+- LinkedIn company page: not retrieved
+- Product Hunt launch: no launch found
+- No public revenue figures, user counts, or named customers disclosed
+- YC page states "live with fast-growing YC scaleups" but no specific names (YC page)
 
 **Competitive landscape:**
 
-| Competitor | Funding | Key Differentiator vs. Runtime |
+| Competitor | Funding | Differentiator vs. Runtime |
 |---|---|---|
-| **E2B** | ~$32M (Series A $21M, July 2025, led by Insight Partners) (E2B blog) | Pure sandbox infrastructure as API; targets developers building agents, not end-user governance; 15M sandboxes/month (E2B blog, Mar 2025) |
-| **Daytona** | $30.7M (Series A $24M, Feb 2026, led by FirstMark) (PR Newswire) | Sub-90ms environment creation; infrastructure-first with Datadog/Figma as strategic investors; $1M+ forward ARR (AlleyWatch, Feb 2026) |
-| **Galileo** | $68.1M (Series B $45M, Oct 2024, led by Scale Venture Partners) (PR Newswire) | AI observability and evaluation platform; broader scope beyond coding agents; 6 Fortune 50 customers, 834% revenue growth in 2024 (PR Newswire) |
-| **Northflank** | $24.9M (Series A $22.3M, Nov 2024, led by Bain Capital Ventures) (VentureBeat) | Full PaaS with AI sandbox layer; established cloud platform since 2019 |
-| **Lakera** | ~$30M (acquired by Check Point, Nov 2025) (TechCrunch, July 2024) | Real-time LLM input/output security firewall; $5.7M revenue (2025, Latka via search snippet); now part of Check Point |
+| **E2B** | $21M Series A (SiliconANGLE, Jul 2025) | Pure sandbox infrastructure provider; 88% of Fortune 100 signed up (VentureBeat, 2025); focuses on raw compute sandboxes rather than team management/guardrails |
+| **Daytona** | $24M Series A, $31M total (PRNewswire, Feb 2026) | Agent sandbox with sub-90ms cold starts; crossed $1M ARR within two months of relaunch (AlleyWatch, Feb 2026); infrastructure layer, not a control plane |
+| **Runloop** | $7M Seed (PRNewswire, Jul 2025) | Enterprise devboxes for AI coding agents with VPC deployment; founded by Scale AI, Google, Stripe veterans; focused on long-lived agent workflows |
+| **Cosine** | $3M total (EU-Startups, Aug 2024) | Full coding agent (competitor to Claude Code/Codex itself), not a management layer; offers its own sandboxed enterprise deployment |
 
-**Why now:** [Inferred]: The enabling catalyst is the rapid proliferation of autonomous coding agents (Claude Code launched 2025, OpenAI Codex launched 2025, Gemini CLI launched 2025) that can write and execute code with minimal human supervision. As organizations move from individual developer use of AI copilots to org-wide deployment of autonomous coding agents, the governance gap becomes acute — there is no existing tooling category for "coding agent governance." The shift from AI-assisted coding (suggestions) to AI-autonomous coding (execution) crossed a practical threshold in 2025, creating demand for a control layer that did not previously have a use case.
+[Inferred]: Runtime occupies a different layer than E2B/Daytona/Runloop (management + observability vs. raw compute infrastructure) but could face competitive pressure if those platforms add management features upstream, or if coding agent vendors build native team management.
+
+**Why now:**
+- Coding agents crossed mainstream adoption in 2024-2025: GitHub Copilot, Claude Code, and Cursor each surpassed $1B ARR, creating a ~$4B market (Seven Olives, 2026 via search snippet).
+- Enterprise teams now deploy multiple competing coding agents simultaneously (runtm.com lists five supported agents).
+- [Inferred]: The catalyst is the shift from individual developer use of coding agents to organization-wide rollout, which creates the management, cost control, and compliance gap Runtime addresses.
 
 ## Founders & Team
 
-**Gustavo "Gus" Trigos** — Sole founder & CEO
-- **Education:** Bachelor's in Finance; M.S. in Applied Statistics, Hult International Business School (gustrigos.com)
-- **Background:** Self-taught programmer (C++ in high school); quantitative analyst at BlackRock's Quantitative Investment Group, focused on ML/AI for derivatives trading; recipient of 2021 BlackRock Founders Scholar Award (gustrigos.com)
-- **Prior startup:** Founded Mentum (YC S21) — initially a fintech investment API for Latin America, pivoted to AI-powered procurement/supply chain automation. Raised $4.2M seed led by Google's Gradient Ventures with participation from Global Founders Capital, TwentyTwo VC, Soma Capital, Y Combinator, and co-founders of Plaid and Jeeves (TechCrunch, May 2022). Mentum was acquired by Nuvocargo on October 29, 2025 (Nuvocargo blog; FreightWaves)
-- **Twitter/X:** @gustrigos — 187 followers (x.com/gustrigos)
-- **LinkedIn:** linkedin.com/in/gustavoatrigos — 500+ connections (LinkedIn)
-- **GitHub:** github.com/Gustrigos — 28 followers; notable project: "Eigen-Portfolio" (unsupervised ML/PCA on Dow Jones) (GitHub)
+**Gus Trigos** — Founder
+- BS Finance and MS Applied Statistics, Hult (gustrigos.com)
+- Quantitative analyst at BlackRock (LinkedIn, gustrigos.com)
+- Co-founded Mentum (YC S21): AI-powered supply chain/procurement automation. Raised $4.2M seed led by Google's Gradient Ventures with participation from Global Founders Capital, Soma Capital, and YC (TechCrunch, May 2022). Mentum was acquired by Nuvocargo in 2025 (Nuvocargo press release, 2025).
+- At Nuvocargo post-acquisition: shipped 4 full-stack products in 3 months and enabled non-engineers to do the same — the direct origin story for Runtime (X/Twitter, @gustrigos)
+- Twitter/X: @gustrigos — follower count not retrievable
+- LinkedIn: linkedin.com/in/gustavoatrigos
+- GitHub: github.com/Gustrigos — 13 public repos; star counts not retrieved
+- Mentum co-founders Simon Avila and Daniel Osvath are not listed as Runtime co-founders (YC page)
 
-**Co-founder relationship:** Only one founder is listed on the YC page. The team size is 3 (YC company page), suggesting two additional team members whose identities are not publicly disclosed.
+The YC page lists only Gus Trigos as founder. The team size is listed as 3 (YC page), but the other two team members are not publicly named.
 
-**Founder-market fit:** Trigos is a second-time YC founder (S21, Spring 2026) with a prior exit (Mentum acquired by Nuvocargo, Oct 2025) and experience at BlackRock in quantitative/ML roles (gustrigos.com; TechCrunch, May 2022). His prior company Mentum pivoted through multiple product iterations and raised from tier-1 investors including Google's Gradient Ventures. [Inferred]: His experience building AI-powered enterprise tools and navigating a pivot-to-exit at Mentum provides relevant operational experience for Runtime's enterprise GTM, though his background is in finance/supply-chain rather than developer tools or infrastructure specifically.
+**Co-founder relationship:** Only one founder is listed. No co-founder relationship data applicable.
+
+**Founder-market fit:** Trigos's direct experience enabling non-engineers to ship with coding agents at Nuvocargo post-acquisition is the stated origin of Runtime (X/Twitter). His prior YC batch (S21), successful exit via Mentum's acquisition by Nuvocargo, and fundraising track record ($4.2M seed from Gradient Ventures) demonstrate repeat founder capability. His quantitative finance background (BlackRock, Hult MS Applied Statistics) is adjacent but not core to developer tooling. No advisors or board members were found in public sources.
 
 ## Key Risks
 
-**Name collision risk:** "Runtime" is a generic computer science term. Web searches return overwhelming noise from unrelated results (runtime errors, runtime environments, other companies). This complicates SEO, brand discovery, and due diligence. The company uses "runtm" as its domain and package name, partially mitigating this.
+**Name collision:** "Runtime" is an extremely common software term. Searching for the company yields results about programming language runtimes, Runtime Ventures (a VC fund), Runtime Revolution (a consulting firm), and others. This creates SEO/discoverability challenges and potential trademark complications.
 
-**Well-funded sandbox incumbents:** E2B ($32M) and Daytona ($30.7M) have raised 60–65x more capital, have established customer bases (E2B: 15M sandboxes/month, 88% of Fortune 100 signed up; Daytona: $1M+ forward ARR), and could add governance features as a natural extension (E2B blog, July 2025; PR Newswire, Feb 2026; AlleyWatch, Feb 2026). Runtime's differentiation rests on the governance layer, which has low technical barriers.
+**Single-founder dependency with unnamed team:** Only Gus Trigos is publicly listed as founder. The other 2 of 3 team members are unnamed in public sources (YC page). The entire public narrative, sales process (Cal.com demo booking), and community engagement run through one person.
 
-**Platform dependency on coding agent vendors:** Runtime's value depends on continued proliferation and openness of Claude Code, Codex, and Gemini CLI (runtm.com). If these vendors build native org-level governance (e.g., Anthropic adding team-level controls to Claude Code), Runtime's core value proposition diminishes. The multi-agent support partially mitigates single-vendor risk.
+**Platform-layer squeeze:** Runtime sits between coding agent vendors (Anthropic, OpenAI, Google) and sandbox infrastructure providers (E2B, Daytona). Either layer could expand into Runtime's management/observability space. Anthropic's Claude Code already ships with built-in cost tracking and permission controls. E2B has announced plans for "orchestration tools for managing fleets of AI agents" (PRNewswire, Jul 2025).
 
-**Solo founder with small team:** While small teams are normal at pre-seed, only one founder is publicly listed (YC company page). The 3-person team must simultaneously build infrastructure, governance features, and go-to-market across three different coding agent integrations. The company has 0 open job postings (YC job board), and hiring is listed as false.
+**Open-source monetization risk:** The core product is available under permissive licenses (Apache 2.0, MIT) for CLI/sandbox/templates, with only the server under AGPLv3 (GitHub). Enterprise users may self-host without paying, requiring Runtime to build sufficient proprietary value in a hosted or premium tier.
 
-**Fly.io infrastructure dependency:** The control plane deploys to Fly.io Machines (GitHub: runtm-ai/runtm-coding-agent-runtime-control-plane). Enterprise customers with specific cloud requirements (AWS, GCP, Azure) may require multi-cloud support not currently evidenced.
+**Rapidly evolving agent ecosystem:** The coding agent landscape is consolidating quickly — three players hold 70%+ market share (Seven Olives, 2026 via search snippet). If the market standardizes on one or two agents, the value proposition of agent-agnostic management diminishes.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | AI Agent Market: $7.38B in 2025, projected $103.6B by 2032, 45.3% CAGR (MarketsandMarkets via search snippet); AI Governance Market: $227–340M in 2024–2025, projected $4.83B by 2034 (MarketsandMarkets via search snippet) |
+| TAM | AI Code Assistants Market: $8.14B (2025), projected $127.05B by 2032, 48.1% CAGR (MarketsandMarkets, 2025 via search snippet) |
 | SAM | No public data found |
-| Traction | 64 GitHub stars (GitHub: runtm-ai/runtm); 7,074 PyPI downloads across 16 versions (pepy.tech); Show HN: 4 points (Hacker News, ~Jan 2026); @gustrigos: 187 Twitter followers (x.com) |
-| Revenue Signal | Free ($0), Builder ($29/mo), Teams ($99/seat/mo), Enterprise (custom) (runtm.com/pricing) |
-| Founders | Gus Trigos (Sole Founder & CEO): BlackRock quant analyst, founded Mentum (YC S21, $4.2M seed, acquired by Nuvocargo Oct 2025) |
-| Competitors | E2B (~$32M raised, revenue unknown, sandbox API infrastructure) (E2B blog); Daytona ($30.7M raised, $1M+ forward ARR, sub-90ms sandbox creation) (PR Newswire, Feb 2026); Galileo ($68.1M raised, 834% revenue growth 2024, AI observability) (PR Newswire, Oct 2024); Northflank ($24.9M raised, revenue unknown, full PaaS) (VentureBeat, Nov 2024) |
-| Moat Signals | AGPLv3 server license (GitHub: runtm-ai/runtm); org-level governance config as switching cost (runtm.com) |
-| Risk Factors | Well-funded sandbox incumbents (E2B, Daytona), platform dependency on coding agent vendors, name collision / SEO difficulty |
-| Founder Reach | Gus Trigos: Twitter 187 followers (x.com/gustrigos), LinkedIn 500+ (LinkedIn), GitHub 28 followers (github.com/Gustrigos) |
-| Distribution Signals | Free tier with no credit card (runtm.com); open-source repo with 64 stars (GitHub); PyPI package with 7,074 downloads (pepy.tech); Discord community (runtm.com) |
+| Traction | 105 GitHub stars, 10 forks (GitHub); Show HN: 4 points (Hacker News, ~Jan 2026); "live with fast-growing YC scaleups" (YC page) |
+| Revenue Signal | No public data found |
+| Founders | Gus Trigos (Founder): BlackRock quant analyst, Mentum co-founder (YC S21, acquired by Nuvocargo 2025), $4.2M raised at Mentum via Gradient Ventures (TechCrunch, May 2022) |
+| Competitors | E2B ($21M raised, revenue unknown, pure sandbox infra vs. Runtime's management layer); Daytona ($31M raised, $1M+ ARR, agent sandbox infra); Runloop ($7M raised, revenue unknown, enterprise devboxes) |
+| Moat Signals | No public data found |
+| Risk Factors | Name collision/SEO, platform-layer squeeze from agent vendors and infra providers, open-source monetization challenge |
+| Founder Reach | Gus Trigos: Twitter @gustrigos (count not retrievable), LinkedIn linkedin.com/in/gustavoatrigos, GitHub 13 repos (star count not retrieved) |
+| Distribution Signals | Open-source repo with 105 stars (GitHub); Show HN post (Hacker News, ~Jan 2026); YC S26 batch network |
 | Emails | No public data found |

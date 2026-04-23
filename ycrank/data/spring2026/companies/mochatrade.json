@@ -1,0 +1,71 @@
+{
+  "slug": "mochatrade",
+  "name": "Mochatrade",
+  "oneLiner": "US stock perps for global traders",
+  "metadata": {
+    "website": "https://www.mochatrade.com",
+    "yc_page": "https://www.ycombinator.com/companies/mochatrade",
+    "batch": "Spring 2026",
+    "industry": "Fintech / Consumer Finance",
+    "team_size": "3",
+    "location": "New York, NY, USA",
+    "tags": "Fintech, Crypto / Web3, Consumer Finance",
+    "yc_partner": "Harj Taggar",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Fintech",
+    "Crypto / Web3",
+    "Consumer Finance"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-22T23:28:15.261Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 66,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 44,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 44,
+    "EG": null,
+    "NR": 66,
+    "PG": 54,
+    "PT": 41,
+    "SL": 51,
+    "VK": 44
+  },
+  "consolidatedAvg": 50,
+  "consolidatedRank": 18,
+  "paths": {
+    "memo": "spring2026/memos/mochatrade.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/mochatrade.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/mochatrade.md",
+      "paul-graham": "spring2026/evals/paul-graham/mochatrade.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/mochatrade.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/mochatrade.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/mochatrade.md"
+    }
+  }
+}

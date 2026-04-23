@@ -7,118 +7,109 @@
 | Website | http://andustry.com/ |
 | YC Page | https://www.ycombinator.com/companies/andustry |
 | Batch | Spring 2026 |
-| Industry | B2B / Supply Chain and Logistics |
+| Industry | B2B / B2B -> Supply Chain and Logistics |
 | Team Size | 2 |
-| Location | Munich, Germany (LinkedIn) |
+| Location | No public data found |
 | Tags | Marketplace, Sales, Manufacturing, Procurement, Industrial |
-| YC Partner | Tom Blomfield |
-| Emails | No public data found |
+| YC Partner | Tom Blomfield (YC company page) |
+| Emails | founders@andustry.com (YC company page) |
 
 ## The Idea
 
-**Problem:** Industrial buyers sourcing mid-size machinery must contact hundreds of suppliers manually, often waiting weeks for a first quote (company website). Suppliers lack an automated channel for inbound RFQs. Current alternatives include legacy directories (Thomasnet), trade shows, and manual outreach.
+**Problem:** SMEs (20–1,000 employees) sourcing mid-size industrial parts—injection-molded and CNC-machined components, machinery—must contact hundreds of suppliers, wait weeks for a first quote, and manually compare non-standardized responses (YC company page). Existing channels include Thomasnet/Xometry (North America–focused), Alibaba (broad but unverified), and traditional brokers who charge upfront commissions (andustry.com).
 
-**Approach:** Two-sided AI-agent platform. Buyers describe requirements; AI searches 500K+ verified manufacturers across 100+ countries, generates RFQs, follows up with suppliers, and compares quotes on price, quality, delivery time, and reliability via a "Best Offer Engine" (company website). Suppliers enter their offerings once and receive ready-to-fulfill orders (YC page). Features include Smart Supplier Search, Automated Outreach, Smart RFQ Processing, and Quality Assurance with certification checks and trust scores (company website).
+**Approach:** AI agents autonomously discover suppliers matching buyer specs, negotiate on behalf of buyers, and present final offers with AI-normalized side-by-side quote comparison (andustry.com; YC company page). The platform also lets suppliers enter their offerings once and receive ready-to-fulfill orders, creating a two-sided automation loop (YC company page). The company claims an average quoting time under one week and operates across 100+ countries with 500k+ verified companies in its network (andustry.com).
 
-**Differentiation:** Unlike Thomasnet/Xometry (directory/custom manufacturing), Andustry automates the full discovery-to-quote workflow for off-the-shelf industrial goods via AI agents. Unlike Matchory or Find My Factory (discovery only), Andustry includes transactional RFQ processing and quote comparison. Unlike LightSource Labs ($33M raised; BusinessWire, Apr 2025) or Keelvar ($43M raised; Keelvar blog), which target enterprise strategic sourcing across categories, Andustry focuses specifically on industrial machinery with a marketplace model serving both buyers and suppliers.
+**Differentiation:** Versus Xometry/Fictiv, which are primarily on-demand manufacturing platforms where the platform itself fulfills orders, Andustry positions as a sourcing marketplace—it matches buyers to independent suppliers rather than acting as the manufacturer. Versus Alibaba, the platform emphasizes verified suppliers and AI-driven negotiation rather than a broad, unfiltered catalog. Versus traditional brokers, the pay-on-delivery model eliminates upfront commissions and listing fees (andustry.com).
 
-**Business Model:** No pricing page found (company website, Mar 2026). [Inferred]: Most likely monetization path is a transaction-based take rate or SaaS subscription for suppliers, given the two-sided marketplace structure and "ready-to-fulfill orders" positioning.
+**Business Model:** No subscriptions, no listing fees, no upfront commissions; customers pay only upon order delivery (andustry.com). [Inferred]: Most likely monetization path is a take-rate (commission on completed transactions) charged to the supplier or built into the delivered price, consistent with the pay-on-delivery positioning.
 
-**TAM/SAM:**
-- Global industrial machinery market: $810B in 2025, forecast $1.22T by 2030 at 8.49% CAGR (Mordor Intelligence, 2025).
-- Procurement software market: $9.82B in 2025, forecast $15.75B by 2030 at 9.92% CAGR (Mordor Intelligence, 2025).
-- Xometry cited a $2T market opportunity for digitizing US manufacturing transactions (Digital Commerce 360, Dec 2021).
-- [Inferred]: SAM is the subset of industrial machinery procurement currently done via manual outreach rather than established digital channels — likely a fraction of the $810B TAM, but no public SAM estimate exists for this specific segment.
+**TAM/SAM:** The global industrial machinery market was valued at approximately $743B–$783B in 2025, projected to reach $847.68B by 2030 at 6.9% CAGR (The Business Research Company, 2025 via search snippet; Research Nester, 2025 via search snippet; GM Insights, 2025 via search snippet). The broader global online B2B market represents $12.2T in gross merchandise volume (Mirakl via search snippet). [Inferred]: SAM likely narrows to cross-border mid-size industrial parts procurement for SMEs—no specific SAM estimate found.
 
-**GTM / Distribution:** Primary CTA on the website is "Book a call" (company website). [Inferred]: Most likely distribution path is founder-led sales to mid-size industrial buyers in Europe, given Munich location, German-language supplier examples (Precision Metals GmbH, Alpine CNC Solutions), and Johann Sturken's family background in goods trading.
+**GTM / Distribution:** [Inferred]: Most likely initial distribution is direct outreach to European SME procurement teams, leveraging the founders' European network (Johann Stürken's German/consulting background). The "Book a call" CTA on the website suggests a high-touch, sales-led GTM motion typical for B2B procurement tools at this stage.
 
 ## Defensibility
 
-- **Data network effect (emerging):** 500K+ verified suppliers and certification/trust-score data could compound as a moat if proprietary (company website). No evidence this data is proprietary vs. aggregated from public sources.
-- **Two-sided marketplace dynamics:** Buyer liquidity attracts suppliers and vice versa, but the platform is pre-scale.
-- No patents, regulatory barriers, or open-source repos found.
+- **Supplier network data:** 500k+ verified companies claimed in the network (andustry.com). As suppliers enter their product catalogs and pricing, this creates a proprietary dataset for matching. [Inferred]: Data moat strengthens with each transaction as the AI improves quote normalization and supplier matching accuracy.
+- **Two-sided network effect:** Buyers attract suppliers; supplier breadth attracts buyers. [Inferred]: This is nascent and unproven at current scale.
+- **Switching costs:** [Inferred]: If buyers build procurement workflows and supplier relationships through the platform, switching costs increase over time, but at pre-seed stage these are minimal.
 
-**Market structure:** [Inferred]: Thomasnet (owned by Xometry) operates as a directory/lead-gen model and could build AI-agent procurement features, but its acquisition by Xometry oriented it toward custom manufacturing marketplaces rather than off-the-shelf industrial goods sourcing. Xometry's business model centers on custom parts with instant quoting, creating a structural misalignment with catalog-product procurement. Enterprise procurement platforms (Zip, ORO Labs) focus on workflow orchestration across spend categories, not vertical industrial marketplaces.
+**Market structure:** Xometry ($687M revenue in 2025; StockAnalysis) and Alibaba operate as fulfillment-integrated or broad horizontal marketplaces respectively. [Inferred]: An incumbent copying Andustry's AI-agent-driven sourcing model would face channel conflict—Xometry's business model requires being the manufacturer-of-record, making a pure sourcing marketplace cannibalistic to its core revenue; Alibaba's model relies on listing fees and advertising, conflicting with a zero-upfront-fee take-rate model.
 
-**Commoditization risk:** LLM-based RFQ generation and supplier matching are reproducible. Matchory ($8.86M raised; Matchory blog, Jan 2025), Cavela ($8.6M raised; TechCrunch, Nov 2025), and MESH Works already offer overlapping AI sourcing capabilities. Barrier to entry is low for the software layer; defensibility depends on supplier network density and data quality.
+**Commoditization risk:** The core AI-matching technology uses LLM-based agents applied to procurement, which is technically reproducible. Multiple AI procurement startups exist (Leverage AI, Zip, Fairmarkit). [Inferred]: The barrier is less in the AI layer and more in the curated, verified supplier network and transaction data.
 
 ## Market & Traction
 
 **Traction signals:**
-- 500K+ verified companies in network (company website)
-- 100+ countries covered (company website)
-- EUR 1M+ transaction volume in beta (company website)
-- Average quoting time <1 week (company website)
-- Company Twitter/X: @andustry_hq — follower count not retrievable (X.com, Mar 2026)
-- Company LinkedIn: linkedin.com/company/andustry-ai — listed as 2-10 employees (LinkedIn)
-- No Product Hunt listing found
-- No press coverage found
-- No Discord/Slack community found
-- No app store or Chrome extension presence found
+- €1M+ transaction volume in beta (andustry.com)
+- 500k+ verified companies in network (andustry.com)
+- 100+ countries served (andustry.com)
+- YC launch tweet by @ycombinator (X.com, April 2026)
+- YC LinkedIn post announcing Andustry P26 (LinkedIn)
+- Twitter/X: @andustry_hq — follower count not retrievable
+- LinkedIn: company page exists — follower count not retrievable
+- Product Hunt: no listing found
+- No app store, Chrome extension, or Discord/Slack community found
+- Not currently hiring (YC company page)
 
 **Competitive landscape:**
 
-| Competitor | Funding | Revenue/ARR | Key Differentiator vs. Andustry |
-|-----------|---------|-------------|-------------------------------|
-| Xometry/Thomasnet | ~$200M pre-IPO; public, $2.1B mkt cap (NASDAQ: XMTR) | $686.6M (2025) (Xometry IR) | Custom manufacturing marketplace, not off-the-shelf industrial goods |
-| LightSource Labs | $33M Seed+A at $130M val (BusinessWire, Apr 2025) | 10x ARR growth; $1B+ spend processed (LightSource blog) | Enterprise strategic sourcing across categories, not industrial-specific marketplace |
-| Matchory | $8.86M; EUR 6M Seed (Jan 2025) (Matchory blog) | Not disclosed | Supplier discovery only, no transactional/RFQ layer |
-| Cavela | $8.6M; $6.6M Seed (TechCrunch, Nov 2025) | Not disclosed | Consumer product sourcing, not industrial machinery |
-| MESH Works | Not disclosed | $884M in RFQs on platform (MESH Works website) | In-person supplier audits in 40+ countries; supplier management focus |
+| Competitor | Key Differentiator vs. Andustry | Funding / Revenue |
+|---|---|---|
+| **Xometry** (XMTR) | Vertically integrated: acts as manufacturer-of-record with instant quoting; acquired Thomasnet for $300M (Xometry IR, 2021). Primarily North America–focused. | Public; $687M revenue FY2025 (StockAnalysis); ~$2.2–2.8B market cap (Apr 2026) |
+| **Fictiv** | On-demand manufacturing with quality management focus; acquired by MISUMI Group for $350M (Apr 2025; Tracxn). | $192M raised total (Crunchbase); acquired at $350M |
+| **Laserhub** | European-focused; specializes in custom metal parts (laser cutting, bending, CNC); vertically integrated procurement platform. | Series B (double-digit million € round, June 2022; Acton Capital) |
+| **Hectool** | B2B marketplace for used/new industrial machines; catalog-based rather than AI-agent-driven. | Seed round (Crunchbase); amount undisclosed |
 
-**Why now:** [Inferred]: AI adoption in procurement is expected to reach 86% by end of 2026 (Procurement Tactics via search snippet), yet industrial goods procurement remains one of the least digitized segments. LLM capabilities crossing the threshold for reliable RFQ generation, specification extraction, and multi-supplier negotiation in 2024-2025 enabled automation of workflows that previously required domain-expert humans.
+**Why now:**
+- [Inferred]: LLM capabilities crossed a threshold in 2024–2025 enabling autonomous agent workflows (supplier discovery, negotiation, quote normalization) that were previously impractical to automate.
+- [Inferred]: Post-COVID supply chain disruptions increased SME appetite for diversified, cross-border sourcing alternatives beyond single-region incumbents.
 
 ## Founders & Team
 
 **Het Dave** — Co-founder
-- Honours Degree in Technology Management, CDTM (joint TUM/LMU program) (LinkedIn via search snippet)
-- Heinrich-Hertz-Gesellschaft scholar — top-scoring student at Studienkolleg, KIT (LinkedIn via search snippet)
-- Previously at Aries Global, a company acquiring and transforming SaaS businesses into AI-native products (LinkedIn via search snippet)
-- Twitter/X: @hetdv — count not retrievable
-- LinkedIn: linkedin.com/in/hetdave
-- GitHub: Not confirmed for this individual
+- B.Tech Computer Science and Engineering, IIT Jodhpur (LinkedIn search results)
+- Previously: Software Developer; associated with "The Money Tales" project (LinkedIn)
+- Twitter/X: [@hetdv](https://x.com/hetdv) — follower count not retrievable
+- LinkedIn: [linkedin.com/in/hetdave](https://www.linkedin.com/in/hetdave/) — "Andustry (YC P26)"
+- GitHub: [github.com/het-dave](https://github.com/het-dave) — personal pages repo; no notable public repos found
 
-**Johann Sturken** — Co-founder
-- MSc Development, Production and Management in Mechanical Engineering, TUM (2023–2025) (LinkedIn via search snippet)
-- BSc Business Administration and Engineering: Mechanical Engineering, RWTH Aachen (2016–2022) (LinkedIn via search snippet)
-- Visiting Graduate Student, University of Cambridge — research at Aviation Impact Accelerator (LinkedIn via search snippet)
-- Honours Degree in Technology Management, CDTM (LinkedIn via search snippet)
-- IB Diploma, Christ's Hospital School, England (LinkedIn via search snippet)
-- McKinsey & Company — Consultant, Aerospace & Defense practice (2022–2026) (RocketReach)
-- Airbus — Strategy and Technology (2023–2024) (LinkedIn via search snippet)
-- Winner, NASA/DLR Design Challenge 2021 — HyZero hydrogen aircraft team, RWTH Aachen (DLR.de, Aug 2021)
-- Published researcher on hydrogen-powered aircraft (ResearchGate)
-- Family background in industrial goods trading (YC page)
-- Twitter/X: @JohannStuerken — count not retrievable
-- LinkedIn: linkedin.com/in/johannstuerken
-- GitHub: No public repos found
+**Johann Stürken** — Co-founder
+- B.S. Business Administration and Engineering: Mechanical Engineering, RWTH Aachen University (ResearchGate; LinkedIn search results)
+- Also studied at TUM — Technical University of Munich (LinkedIn search results)
+- Previously: McKinsey & Company, Airbus, Capgemini Invent, Aviation Impact Accelerator research intern (RocketReach via search snippet; LinkedIn search results)
+- Family background in trading goods and supplier sourcing (YC company page)
+- Published aerospace research: HyZero aircraft concept for NASA/DLR Design Challenge 2021 (ResearchGate)
+- Twitter/X: [@JStuerken](https://x.com/JStuerken) — follower count not retrievable
+- LinkedIn: [linkedin.com/in/johannstuerken](https://de.linkedin.com/in/johannstuerken) — "Co-Founder @ Andustry (YC P26)"
+- GitHub: No public profile found
 
-**Co-founder relationship:** Both attended CDTM, the selective joint TUM/LMU technology management program (~25 students per semester). [Inferred]: This is likely where they met.
+**Co-founder relationship:** No shared prior employer or university identified from Phase 3 findings. Het Dave attended IIT Jodhpur; Johann Stürken attended RWTH Aachen and TUM. No overlapping employers found.
 
-**Founder-market fit:** Johann Sturken has direct family exposure to industrial goods trading, mechanical engineering degrees from RWTH Aachen and TUM, and aerospace industry experience at McKinsey and Airbus — providing both domain knowledge and enterprise sales context. Het Dave brings SaaS-to-AI transformation experience from Aries Global. Both hold CDTM honours degrees focused on entrepreneurship and digital technology.
+**Founder-market fit:** Johann Stürken brings direct domain knowledge via mechanical engineering education (RWTH Aachen), industrial consulting experience (McKinsey, Capgemini Invent, Airbus), and a family background in trading goods (YC company page). Het Dave provides the technical/software engineering foundation (CS, IIT Jodhpur). [Inferred]: The pairing of industrial-domain expertise with software engineering capability is well-suited for building an AI-driven procurement platform.
 
 ## Key Risks
 
-**Supplier data provenance:** The claim of 500K+ verified companies across 100+ countries (company website) is unverified by third parties. If this data is aggregated from public directories rather than proprietary, competitors can replicate the dataset, eliminating a core value proposition.
+**Supplier network bootstrapping:** The 500k+ verified companies claim (andustry.com) requires verification—it is unclear how many are actively responding to RFQs versus being passively listed. A two-sided marketplace with low supplier engagement yields poor buyer experience and churn.
 
-**Well-funded direct competitors:** Matchory ($8.86M; Matchory blog, Jan 2025) and LightSource Labs ($33M; BusinessWire, Apr 2025) operate in overlapping segments with significantly more capital. MESH Works adds physical supplier audits as a differentiation Andustry lacks.
+**Incumbent response from Xometry/Thomasnet:** Xometry already integrates AI quoting with 500k+ sellers on Thomasnet (Xometry IR). If Xometry adds a pure sourcing/agent mode alongside its manufacturing marketplace, it could replicate Andustry's value proposition with an existing supplier base.
 
-**Industrial buyer sales cycles:** [Inferred]: Mid-size machinery procurement involves long evaluation cycles, high-value purchases requiring relationship trust, and procurement compliance requirements — creating high CAC and slow conversion for a 2-person team without enterprise sales infrastructure.
+**Take-rate compression in low-margin industrial transactions:** Industrial parts procurement operates on thin margins. [Inferred]: If the platform monetizes via transaction take-rate, achieving sufficient margin while remaining competitive against direct supplier relationships and brokers charging 2–5% may prove difficult at scale.
 
-**Name confusion risk:** "Andustry" closely resembles "industry" and common search queries, which may reduce organic discoverability and complicate brand building.
+**Geographic regulatory complexity:** Operating across 100+ countries (andustry.com) for physical goods involves import/export compliance, tariffs, and product liability. A two-person team managing multi-jurisdiction regulatory requirements presents execution risk.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $810B global industrial machinery market in 2025, $1.22T by 2030 at 8.49% CAGR (Mordor Intelligence, 2025) |
+| TAM | $743B–$783B in 2025, projected $847.68B by 2030 at 6.9% CAGR (The Business Research Company, 2025 via search snippet; Research Nester, 2025 via search snippet) |
 | SAM | No public data found |
-| Traction | 500K+ verified companies, 100+ countries, EUR 1M+ beta transaction volume, <1 week avg quoting time (company website, Mar 2026) |
-| Revenue Signal | No public data found |
-| Founders | Het Dave (Co-founder): CDTM honours, Heinrich-Hertz scholar at KIT, ex-Aries Global. Johann Sturken (Co-founder): MSc TUM, BSc RWTH Aachen, ex-McKinsey A&D, NASA/DLR Design Challenge 2021 winner, family in industrial trading. |
-| Competitors | Xometry/Thomasnet (public, $686.6M rev, custom mfg marketplace); LightSource Labs ($33M raised, 10x ARR growth, enterprise sourcing); Matchory ($8.86M raised, revenue unknown, discovery-only); Cavela ($8.6M raised, revenue unknown, consumer product sourcing); MESH Works (funding unknown, $884M RFQs processed, in-person audits) |
-| Moat Signals | 500K+ supplier database and trust scores (company website) — proprietary vs. aggregated status unknown |
-| Risk Factors | Supplier data provenance unclear, well-funded overlapping competitors, long industrial sales cycles |
-| Founder Reach | Het Dave: Twitter @hetdv (count not retrievable), LinkedIn linkedin.com/in/hetdave. Johann Sturken: Twitter @JohannStuerken (count not retrievable), LinkedIn linkedin.com/in/johannstuerken. No GitHub presence found for either. |
-| Distribution Signals | No public data found |
-| Emails | No public data found |
+| Traction | €1M+ transaction volume in beta, 500k+ verified companies, 100+ countries (andustry.com); YC launch tweet (X.com, Apr 2026) |
+| Revenue Signal | No upfront fees; pay-on-delivery model (andustry.com). No public revenue figures found. |
+| Founders | Het Dave (Co-founder): CS, IIT Jodhpur; software engineering background. Johann Stürken (Co-founder): Mech. Eng., RWTH Aachen; McKinsey, Airbus, family trading background. |
+| Competitors | Xometry (public, $687M rev FY2025, ~$2.5B mkt cap, integrated manufacturing marketplace); Fictiv ($192M raised, acquired $350M by MISUMI Apr 2025, on-demand mfg); Laserhub (Series B double-digit M€, European metal parts); Hectool (Seed, industrial machine marketplace) |
+| Moat Signals | 500k+ verified supplier network claimed (andustry.com); two-sided marketplace dynamics (unproven at scale) |
+| Risk Factors | Supplier engagement depth unverified, Xometry incumbent overlap, take-rate compression in low-margin industrial transactions, multi-jurisdiction regulatory complexity |
+| Founder Reach | Het Dave: Twitter @hetdv (count not retrievable), LinkedIn 500+ connections. Johann Stürken: Twitter @JStuerken (count not retrievable), LinkedIn 500+ connections. No notable GitHub presence. |
+| Distribution Signals | YC launch tweet by @ycombinator (X.com, Apr 2026); YC LinkedIn post (LinkedIn, Apr 2026). No Product Hunt, app store, or community signals found. |
+| Emails | founders@andustry.com (YC company page) |

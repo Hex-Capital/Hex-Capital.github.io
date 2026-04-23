@@ -1,0 +1,69 @@
+{
+  "slug": "govguard",
+  "name": "GovGuard",
+  "oneLiner": "AI Infrastructure for Government Agencies",
+  "metadata": {
+    "website": "https://govguard.com",
+    "yc_page": "https://www.ycombinator.com/companies/govguard",
+    "batch": "Spring 2026",
+    "industry": "Government / Government",
+    "team_size": "0",
+    "location": "No public data found",
+    "tags": "GovTech",
+    "yc_partner": "Tom Blomfield",
+    "emails": "support@govguard.com"
+  },
+  "tags": [
+    "GovTech"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-22T23:49:33.143Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 40,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 56,
+    "EG": null,
+    "NR": 50,
+    "PG": 47,
+    "PT": 31,
+    "SL": 39,
+    "VK": 40
+  },
+  "consolidatedAvg": 43.83,
+  "consolidatedRank": 41,
+  "paths": {
+    "memo": "spring2026/memos/govguard.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/govguard.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/govguard.md",
+      "paul-graham": "spring2026/evals/paul-graham/govguard.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/govguard.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/govguard.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/govguard.md"
+    }
+  }
+}

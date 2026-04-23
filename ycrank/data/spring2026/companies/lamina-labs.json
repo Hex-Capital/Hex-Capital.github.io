@@ -1,7 +1,7 @@
 {
   "slug": "lamina-labs",
   "name": "Lamina Labs",
-  "oneLiner": "Fastest deterministic animation infrastructure for EdTech",
+  "oneLiner": "Visual infrastructure for EdTech AI applications",
   "metadata": {
     "website": "https://laminalabs.ai",
     "yc_page": "https://www.ycombinator.com/companies/lamina-labs",
@@ -11,7 +11,7 @@
     "location": "No public data found",
     "tags": "Education, Video, Edtech",
     "yc_partner": "Pete Koomen",
-    "emails": "sudip@laminalabs.ai"
+    "emails": "founder@laminalabs.ai"
   },
   "tags": [
     "Education",
@@ -19,53 +19,48 @@
     "Edtech"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-03-26T05:20:01.583Z",
+  "memoGeneratedAt": "2026-04-22T23:42:23.541Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 39,
+      "score": 41,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 59,
+      "score": 51,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 54,
-      "tier": "Neutral"
+      "score": 43,
+      "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 29,
+      "score": 28,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 38,
+      "score": 34,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 54,
-      "tier": "Neutral"
+      "score": 42,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 48,
-    "EG": 39,
-    "NR": 59,
-    "PG": 54,
-    "PT": 29,
-    "SL": 38,
-    "VK": 54
+    "CB": 41,
+    "EG": null,
+    "NR": 51,
+    "PG": 43,
+    "PT": 28,
+    "SL": 34,
+    "VK": 42
   },
-  "consolidatedAvg": 45.86,
-  "consolidatedRank": 14,
+  "consolidatedAvg": 39.83,
+  "consolidatedRank": 74,
   "paths": {
     "memo": "spring2026/memos/lamina-labs.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/lamina-labs.md",
-      "elad-gil": "spring2026/evals/elad-gil/lamina-labs.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/lamina-labs.md",
       "paul-graham": "spring2026/evals/paul-graham/lamina-labs.md",
       "peter-thiel": "spring2026/evals/peter-thiel/lamina-labs.md",

@@ -1,0 +1,70 @@
+{
+  "slug": "inth",
+  "name": "Inth",
+  "oneLiner": "Privacy Infrastructure for Developers",
+  "metadata": {
+    "website": "https://inth.com",
+    "yc_page": "https://www.ycombinator.com/companies/inth",
+    "batch": "Spring 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "3",
+    "location": "London, England, United Kingdom",
+    "tags": "Compliance, Web Development",
+    "yc_partner": "Andrew Miklas",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Compliance",
+    "Web Development"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-22T23:59:28.095Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 71,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 66,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 43,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 49,
+    "EG": null,
+    "NR": 71,
+    "PG": 66,
+    "PT": 36,
+    "SL": 39,
+    "VK": 43
+  },
+  "consolidatedAvg": 50.67,
+  "consolidatedRank": 16,
+  "paths": {
+    "memo": "spring2026/memos/inth.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/inth.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/inth.md",
+      "paul-graham": "spring2026/evals/paul-graham/inth.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/inth.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/inth.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/inth.md"
+    }
+  }
+}

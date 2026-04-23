@@ -16,119 +16,119 @@
 
 ## The Idea
 
-**Problem:** Training next-generation AI models (generative AI, robotics, multimodal) requires fresh, real-world, long-tail data across text, images, video, and audio — data that does not exist in static datasets (gen.xyz blog via search snippet). Enterprises face challenges around data quality, freshness, and cost when implementing AI (Pulse2, Oct 2025). Current data collection methods rely on centralized scraping or manual labeling, which miss internet long-tail content and produce stale datasets.
+**Problem:** AI companies need fresh, multimodal, real-world training data — audio, video, images, rare language samples — that does not exist in static web scrapes like Common Crawl (AI Journal, Tim Sprecher op-ed, 2025). Existing data pipelines rely on centralized annotation workforces or stale crawled datasets, creating bottlenecks around data freshness, geographic coverage, and multimodal diversity (gen.xyz blog). The current alternatives include managed labeling services (Scale AI, Surge AI), software platforms (Labelbox), and crowdsourcing marketplaces (Toloka, Amazon MTurk).
 
-**Approach:** Hub.xyz operates a distributed, people-powered bandwidth network that converts idle internet connections from everyday users into real-time, structured, multimodal data streams for AI systems (Pulse2, Oct 2025). The platform uses a dual-layer architecture: a decentralized P2P mesh network for low-latency data exchange, plus Ethereum smart contracts handling compute requests, SLAs, and payment settlements (CryptoRank via search snippet). Users contribute unused bandwidth as "node contributors" and earn IQ Points redeemable for $HUB tokens at a Token Generation Event (CryptoRank via search snippet). The data is collected, refined, and structured into training datasets for AI models and enterprises.
+**Approach:** Hub.xyz operates a two-sided platform: a global network of contributors runs a "Dataminer app" that shares idle internet bandwidth, which Hub transforms into AI-ready datasets across text, images, video, and audio (SwissBorg Alpha page). Contributors earn IQ Points (convertible to $HUB tokens at a future Token Generation Event) based on contribution quality (Bitget project page; Airdrop Alert). The platform includes a community-driven AI training component where participants reply to Hub AI Agent prompts on X/Twitter, earning IQ Points for responses that help train the agent (Hub.xyz X post, Nov 2024). Hub also runs an Ethereum-based smart contract layer handling compute requests, SLAs, and payment settlements alongside a decentralized P2P mesh network (Bitget project page).
 
-**Differentiation:** Unlike centralized data labeling platforms (Scale AI, Labelbox) that rely on human annotators or managed workforces, Hub.xyz sources raw data at the network edge through a DePIN (Decentralized Physical Infrastructure Network) model. Compared to direct DePIN competitors Grass and Nodepay (also bandwidth-sharing networks for AI data), Hub.xyz positions itself as an "API for real-world training data" — emphasizing structured, multimodal output rather than raw bandwidth contribution. Hub.xyz also supports universities and research institutions with custom training datasets and data collection infrastructure (gen.xyz blog via search snippet).
+**Differentiation:** Hub differs from Scale AI, Surge AI, and Toloka in distribution mechanism: rather than employing or contracting annotators, Hub uses crypto-token incentives to recruit a distributed contributor base that provides bandwidth and data passively via an app (SwissBorg Alpha page). Compared to Labelbox (a software platform), Hub is a full-stack data infrastructure provider. The crypto incentive layer (IQ Points, $HUB token, airdrop campaigns) distinguishes Hub from traditional data labeling companies and aligns it with DePIN (Decentralized Physical Infrastructure Network) models (Bitget project page).
 
-**Business Model:** No public pricing page was accessible (website returned 403 at time of research). The company has a $HUB token with a TGE planned for Q4 2025 (CryptoRank via search snippet). Node contributors earn IQ Points convertible to tokens. [Inferred]: Revenue likely derives from enterprise API access fees for structured training data, with the token economy providing network incentive alignment rather than being the primary revenue mechanism.
+**Business Model:** B2B revenue from AI companies purchasing datasets, with a percentage of B2B sales revenue directed to token buybacks and node contributor rewards (SwissBorg Alpha page). No public pricing page was accessible (website returned 403 at time of research). [Inferred]: Likely consumption-based pricing (per-dataset or per-query) given the API-first positioning and B2B focus.
 
-**TAM/SAM:**
-- Global AI training dataset market: $3.2B in 2025, projected to reach $16.3B by 2033, CAGR 22.6% (Grand View Research, 2025 via search snippet).
-- Fortune Business Insights estimates $4.4B in 2026, growing to $23.2B by 2034, CAGR 22.9% (Fortune Business Insights via search snippet).
-- DePIN industry total market cap exceeded $16B with 600+ projects as of late 2024 (search snippet).
-- [Inferred]: SAM is the subset of AI training data spend addressable via distributed bandwidth collection — primarily real-time web data, multimodal content, and long-tail data. No public SAM estimate found specific to this segment.
+**TAM/SAM:** The AI training dataset market was valued at $3.2B in 2025 and is projected to reach $16.3B by 2033 at a 22.6% CAGR (Grand View Research, 2026). The broader data collection and labeling market reached $4.89B in 2025 with projection to $17.1B by 2030 at 28.4% CAGR (herohunt.ai, 2026 via search snippet). [Inferred]: Hub's SAM would be the subset focused on real-time, multimodal data collection (as opposed to annotation-only or software-platform segments), but no public SAM estimate specific to this segment was found.
 
-**GTM / Distribution:**
-- SwissBorg partnership provides access to 1M+ KYC-verified community members who can participate as node contributors (Pulse2, Oct 2025).
-- Airdrop campaign incentivizes user acquisition through IQ Points earned via quizzes and Discord engagement (CryptoRank via search snippet).
-- YC Spring 2026 batch provides enterprise credibility and network access.
-- Job posting for Founding Full Stack AI Engineer ($70K–$100K, 0.50%–2.00% equity) signals active product build (YC page).
-- [Inferred]: Primary distribution path combines crypto-native community growth (DePIN token incentives) for supply-side node acquisition with enterprise API sales for demand-side revenue.
+**GTM / Distribution:** Hub's primary distribution channel appears to be its crypto-incentivized contributor community. The company runs airdrop campaigns and an Ambassador program targeting 400+ creators by Q2 2025 (SwissBorg Alpha page). The sole job posting is for a "Founding Full Stack AI Engineer" in London/Remote at $70K-$100K with 0.30%-2.00% equity (YC Work at a Startup). [Inferred]: B2B sales to AI companies likely through direct outreach, with Jeff Kanai listed as Head of Sales (SwissBorg Alpha page).
 
 ## Defensibility
 
-- **Network effects:** 500,000+ unique users contributing bandwidth to the distributed infrastructure (gen.xyz blog via search snippet). More nodes improve data coverage, freshness, and geographic diversity, creating a supply-side network effect.
-- **Data advantage:** The distributed collection mechanism produces real-time, multimodal data streams from the internet's long tail that centralized scraping cannot easily replicate (Pulse2, Oct 2025).
-- **Switching costs:** [Inferred]: Enterprises integrating Hub's API into training pipelines face typical API switching costs; however, the underlying data is not proprietary — it is collected from public internet sources.
+- **Network scale:** 500K+ contributors across 150+ countries and 100+ languages (Hub.xyz X post, Nov 2024; gen.xyz blog). Community contributed 10M+ replies to AI agent training prompts (Hub.xyz X post, Nov 2024).
+- **Data diversity:** Contributors collect rare audio, language samples, and video that do not exist in common repositories (gen.xyz blog).
+- **Crypto switching costs:** Contributors accumulate IQ Points redeemable for future $HUB tokens, creating retention through unrealized token value (Bitget project page).
+- **Compliance framework:** GDPR and CCPA compliant with transparent consent workflows, full provenance, and audit trails (SwissBorg Alpha page).
 
-**Market structure:** Incumbent data labeling platforms (Scale AI, Labelbox) are built on centralized human-annotator workforces and managed services, generating revenue from labor-intensive processes. Adopting a decentralized bandwidth-sharing model would require these incumbents to cannibalize their existing labor-based business models and build crypto/token infrastructure — a structural misalignment. However, other DePIN projects (Grass, Nodepay) face no such barrier.
+[Inferred]: The network of 500K contributors is a potential data moat if the contributors actively collect unique, hard-to-replicate datasets. However, the extent to which these contributors provide high-value labeled data versus passively sharing bandwidth is unclear from public sources.
 
-**Commoditization risk:** The DePIN bandwidth-sharing model is replicable. Grass ($17.5M raised, ~$1B valuation), Nodepay ($7M raised, 1.5M active users), and other DePIN projects operate similar architectures (Blockworks, Sep 2024; BigDATAwire, Jan 2025). Differentiation depends on data structuring quality, API usability, enterprise relationships, and network scale.
+**Market structure:** Scale AI's acquisition by Meta (49% stake, June 2025) caused customer flight from OpenAI and Google (Wikipedia; multiple sources, 2025), fragmenting the incumbent market. [Inferred]: This disruption creates an opening for alternative data providers, but Hub's crypto-native model may limit enterprise adoption among traditional AI companies that prefer conventional vendor relationships.
+
+**Commoditization risk:** Multiple well-funded competitors operate in overlapping segments. Toloka raised $72M (May 2025, SiliconANGLE) and operates 200K+ annotators. Surge AI generates $1.4B revenue bootstrapped (Latka, Aug 2025). Labelbox raised $189M (Tracxn). Raw web data collection is increasingly commoditized; Hub's differentiation depends on the quality and exclusivity of multimodal data from its contributor network.
 
 ## Market & Traction
 
 **Traction signals:**
-- 500,000+ unique users contributing bandwidth (gen.xyz blog via search snippet; date not specified but referenced in Sep 2025 funding context)
-- $1.7M total funding raised; pre-seed closed, seed round opened September 2025, led by SwissBorg (Pulse2, Oct 2025)
-- One separate source references $2M raised (CryptoRank via search snippet) — discrepancy may reflect additional small commitments
-- Twitter/X: @hubdotxyz (follower count not retrievable)
-- LinkedIn: hub-xyz (follower count not retrievable)
-- Discord: hub-xyz (member count not found)
-- Active job posting: Founding Full Stack AI Engineer (YC page)
-- Company website not accessible at time of research (403 error)
-- No Product Hunt launch found
-- No app store listings found
+- 500K+ users on Hub AI Platform (Hub.xyz X post, Nov 2024)
+- 10M+ community replies to AI agent prompts over six months (Hub.xyz X post, Nov 2024)
+- Expected >7M active nodes by Q4 2025 (SwissBorg Alpha page, roadmap)
+- $1.7M total funding raised; seed round led by SwissBorg (Pulse2, Oct 2025)
+- Angel backers: Michael Heinrich (0G Labs co-founder), Nicolas Pouard (Ubisoft innovation VP), Patrick Colangelo (Nesa AI co-founder) (SwissBorg Alpha page)
+- Twitter/X: @hubdotxyz — 321.4K followers; @hubxyz — 292.8K followers (X, Apr 2026)
+- LinkedIn company page: follower count not retrievable
+- 1 active job posting: Founding Full Stack AI Engineer (YC Work at a Startup)
+- No Product Hunt listing found
+- No Discord/Telegram community size data found
+- No public revenue or ARR figures disclosed
+- Website not accessible at time of research (HTTP 403)
 
 **Competitive landscape:**
 
 | Competitor | Funding | Revenue/ARR | Differentiator vs. Hub.xyz |
-|------------|---------|-------------|---------------------------|
-| **Scale AI** | $15.9B total; $29B valuation (CNBC, May 2024; search snippets, 2025) | $870M in 2024, projected $2B in 2025 (Sacra via search snippet) | Full-stack data labeling + annotation with massive human workforce; centralized model, not DePIN |
-| **Labelbox** | $189M; $1B+ valuation (Tracxn via search snippet) | $50M in 2024 (GetLatka via search snippet) | Platform combining annotation tools + managed services; enterprise-focused SaaS, no token/DePIN layer |
-| **Toloka** | $72M; Series C May 2025 (Tracxn via search snippet) | Revenue unknown | Global crowdsourcing marketplace; pay-as-you-go model with multilingual crowd tasks |
-| **Grass** | ~$17.5M total; ~$1B valuation (Blockworks, Sep 2024; search snippets) | Revenue unknown | Most direct competitor: DePIN bandwidth sharing for AI data; focuses on training data + live context retrieval (LCR) for inference |
-| **Nodepay** | $7M (BigDATAwire, Jan 2025) | Revenue unknown | DePIN bandwidth sharing; 1.5M active users; adds user feedback functionality alongside bandwidth contribution |
+|---|---|---|---|
+| Scale AI | $1.6B+ raised ($14.3B Meta investment, Jun 2025) (Wikipedia) | ~$2B revenue 2025 (Sacra) | Full-service managed labeling; 49% owned by Meta, causing customer flight |
+| Surge AI | Bootstrapped; seeking $1B at $25B valuation (Bloomberg, Jul 2025) | $1.4B revenue (Latka, Aug 2025) | Expert annotator network; profitable without VC; conventional enterprise model |
+| Toloka AI | $72M raised (SiliconANGLE, May 2025) | $26.4M revenue 2024 (CB Insights) | 200K+ annotator crowdsourcing marketplace; Bezos-backed |
+| Labelbox | $189M raised (Tracxn) | ~$114.5M/yr (CompWorth) | Software platform for labeling workflow management; $1B+ valuation |
 
 **Why now:**
-- [Inferred]: The convergence of three catalysts: (1) frontier AI model training costs rising sharply, creating demand for cheaper data sourcing; (2) DePIN infrastructure maturation — the sector grew to 600+ projects and $16B market cap by late 2024, validating the distributed-node model; (3) increasing regulatory and licensing friction around centralized web scraping (multiple lawsuits against AI companies for training data usage in 2024–2025) making decentralized, user-consented data collection more attractive.
+- Meta's acquisition of 49% of Scale AI in June 2025 disrupted the market leader, with OpenAI and Google cutting ties (multiple sources, 2025). This created demand for alternative data providers.
+- [Inferred]: The convergence of DePIN (Decentralized Physical Infrastructure) models and AI data demand creates a moment for crypto-incentivized data collection networks. The proliferation of multimodal AI models (requiring audio, video, and image data beyond text) increases demand for diverse, real-world training data that web scraping alone cannot supply.
 
 ## Founders & Team
 
-**Armin Zastra K.** (listed as "Armin Kiani" on YC page) — Co-founder & CPO
-- Bachelor of Engineering, Industrial Engineering, Université libre de Bruxelles (2017–2020) (LinkedIn via search snippet)
-- CS graduate per YC bio; early crypto experience; focus on agentic AI and robotics (YC page)
-- Limited Partner at venture funds Q42 and Id4 Ventures (gen.xyz blog via search snippet)
-- Based in Dubai (LinkedIn via search snippet)
-- Twitter/X: @Armin__Kiani (count not retrievable)
-- LinkedIn: linkedin.com/in/armin-k-97ab4124b
+**Armin Kiani (also known as Armin Zastra K.)** — Co-Founder & CEO
+- CS graduate (YC page)
+- LP at Q42 and Id4 Ventures (search snippet via RocketReach)
+- Self-described: "Making AI training sexy with Hub.xyz. Early crypto, long agentic & robotics" (YC page)
+- Twitter/X: @zastrahub — follower count not retrievable; also possibly @Armin__Kiani
+- LinkedIn: ae.linkedin.com/in/armin-k-97ab4124b — headline: "co-founder Hub.xyz"
+- GitHub: No confirmed public repos found
+
+**Tim Sprecher** — Co-Founder & COO
+- Began entrepreneurial career at 18, founding his first company (gen.xyz blog)
+- Prior experience in growth operations at RevX (gen.xyz blog)
+- Advisory work with community venture fund Q42 (gen.xyz blog)
+- Named in "30 Global Founders to Watch" (Tracxn via search snippet)
+- Twitter/X: @tim404x — follower count not retrievable
+- LinkedIn: linkedin.com/in/tim-sprecher-2a705220a/ — headline: "Co-founder & CEO @ Hub.xyz"
 - GitHub: No public repos found
 
-**Tim Sprecher** — Co-founder & COO
-- Educated at École Polytechnique, HEC Paris, and UC Berkeley (LinkedIn via search snippet)
-- Previously worked at Tiffany & Co. in Japan on financial data systems (LinkedIn via search snippet)
-- Per YC bio: "Co-founder @ Hub, the API for real-world training data" (YC page)
-- Twitter/X: No public account found
-- LinkedIn: linkedin.com/in/tim-sprecher-2a705220a
+**Léonie Nguyen** — Listed as co-founder on Tracxn; listed as Angel Backer on SwissBorg page
+- Master of Engineering in Industrial Engineering, Université de Technologie de Troyes, France; dual Master's in Logistics and Management; Executive Certificates from U.S. institutions (Yahoo Finance, Vietnam News)
+- Previously: Senior roles at Minh Thai ATV (serving Lacoste, Zara, The North Face, Adidas); Project Manager at GEODIS (Yahoo Finance)
+- Chief Strategy Officer at Meey Group since Jan 2025; appointed CEO of Meey Group (Yahoo Finance, Vietnam News)
+- Described as "Kaisar Network co-founder" on SwissBorg Alpha page
+- Note: Not listed as a founder on the YC page, which names only Armin Kiani and Tim Sprecher.
+- Twitter/X: No confirmed account found
+- LinkedIn: linkedin.com/in/leonienguyen/
 - GitHub: No public repos found
 
-**Léonie Nguyen** — Co-founder & CBO (listed on Tracxn but not on YC page)
-- Master of Engineering, Industrial Engineering, Université de Technologie de Troyes (France); dual Master's in Logistics and Management (GlobeNewsWire, Oct 2025)
-- Previously: Project Manager at GEODIS; senior leadership at Minh Thai ATV overseeing supply chains for Lacoste, Zara, The North Face, Adidas (GlobeNewsWire, Oct 2025)
-- Appointed CEO of Meey Group (Vietnamese proptech) in October 2025 (Yahoo Finance, Oct 2025) — current involvement with Hub.xyz unclear
-- Twitter/X: No public account found
-- LinkedIn: linkedin.com/in/leonienguyen
-- GitHub: No public repos found
+**Co-founder relationship:** Armin Kiani and Tim Sprecher both have connections to Q42 venture fund — Armin as an LP and Tim in an advisory role (gen.xyz blog; RocketReach via search snippet). No shared employer or university found in public sources.
 
-**Co-founder relationship:** Armin and Léonie both studied industrial engineering at French-speaking Belgian/French universities (Université libre de Bruxelles and Université de Technologie de Troyes, respectively). [Inferred]: Possible overlap through French-speaking European engineering/startup circles, but no confirmed shared employer or institution.
+**Founder-market fit:** Armin Kiani's background in crypto and AI interest and Tim Sprecher's growth operations experience at RevX align with building a crypto-incentivized data marketplace. Neither founder has documented deep technical AI/ML research credentials or prior exits in public sources. The team's crypto-native orientation (early crypto involvement, DePIN architecture, token economics) positions them for the web3-meets-AI intersection specifically.
 
-**Founder-market fit:** Armin brings crypto-native experience and venture investing background relevant to the DePIN/token model and AI data market positioning. Tim's data systems background at Tiffany & Co. and business education (HEC Paris, Berkeley) provide operational and enterprise-facing capability. Léonie's supply chain and logistics expertise aligns with building distributed infrastructure networks. No advisors or board members identified beyond SwissBorg as a strategic investor.
+**Other team members:** Jeff Kanai — Head of Sales (SwissBorg Alpha page).
 
 ## Key Risks
 
-**DePIN competitor intensity:** Grass (~$1B valuation, $17.5M raised) and Nodepay ($7M raised, 1.5M active users) operate nearly identical distributed-bandwidth-for-AI-data models with larger funding bases (Blockworks, Sep 2024; BigDATAwire, Jan 2025). Hub.xyz must differentiate on data structuring, API quality, or vertical focus to avoid commoditization in a crowded DePIN sector with 600+ projects.
+**Token/regulatory risk:** Hub.xyz uses IQ Points convertible to $HUB tokens and runs airdrop campaigns (Bitget project page; Airdrop Alert). Token-based incentive structures face evolving regulatory scrutiny, particularly under U.S. SEC enforcement actions against utility tokens that function as securities. The company is headquartered in Palo Alto (YC page), placing it within U.S. regulatory jurisdiction.
 
-**Regulatory and token risk:** The $HUB token on Ethereum, planned TGE, and airdrop campaign (CryptoRank via search snippet) create exposure to evolving cryptocurrency regulations, particularly SEC enforcement actions against token offerings. This could constrain fundraising, user incentive mechanisms, or US-market operations.
+**Contributor quality vs. quantity ambiguity:** The 500K contributor count (Hub.xyz X post, Nov 2024) and 10M+ replies metric appear substantially driven by airdrop-farming incentives (users participating to earn future tokens). The portion of contributors generating commercially valuable, labeled multimodal datasets versus passively sharing bandwidth or farming airdrops is not publicly disclosed.
 
-**Founder availability / co-founder departure risk:** Léonie Nguyen (Co-founder & CBO) was appointed CEO of Meey Group in October 2025 (Yahoo Finance, Oct 2025). Her current operational involvement with Hub.xyz is unclear. Additionally, only two founders are listed on the YC page despite three being listed on Tracxn, suggesting possible team composition changes.
+**Name and identity confusion:** The company website domain hub.xyz is a generic, high-value domain. Multiple unrelated entities use "Hub" branding. The founder "Armin Kiani" also appears as "Armin Zastra K." across sources, and "Léonie Nguyen" is inconsistently listed as co-founder vs. angel backer. This creates due diligence friction.
 
-**Name and domain confusion:** "Hub.xyz" shares naming with multiple unrelated entities across crypto, community platforms, and web3 projects. The .xyz domain and generic name may create brand confusion and SEO challenges in a crowded AI/crypto landscape.
+**Enterprise adoption barrier:** AI enterprise buyers (the B2B customer base) typically require conventional vendor relationships, SOC 2 compliance, and SLA guarantees. Hub's crypto-native model (token payments, decentralized P2P mesh, Ethereum smart contracts) may create friction with procurement teams at large AI companies accustomed to working with Scale AI or Surge AI. No enterprise customers are publicly named.
 
-**Enterprise adoption uncertainty:** The company's YC positioning as "API for real-world training data" targets enterprise AI teams, but no enterprise customers, LOIs, or case studies are publicly documented. The DePIN/token-incentivized user base is crypto-native; converting this into enterprise API revenue represents an unproven go-to-market transition.
+**Competitive intensity:** The AI training data market includes players with $189M-$15.9B in funding (Labelbox, Scale AI) and $1.4B in bootstrapped revenue (Surge AI). Hub's $1.7M in funding positions it at significant resource disadvantage against incumbents who already serve the same target customers.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $3.2B in 2025, projected $16.3B by 2033 at 22.6% CAGR (Grand View Research, 2025 via search snippet) |
+| TAM | $3.2B in 2025, projected $16.3B by 2033, CAGR 22.6% (Grand View Research, 2026) |
 | SAM | No public data found |
-| Traction | 500,000+ unique bandwidth contributors (gen.xyz blog via search snippet, referenced in Sep 2025 context); $1.7M raised (Pulse2, Oct 2025) |
+| Traction | 500K users on Hub AI Platform (Hub.xyz X post, Nov 2024); 10M+ community replies (Hub.xyz X post, Nov 2024); 321.4K Twitter followers @hubdotxyz (X, Apr 2026) |
 | Revenue Signal | No public data found |
-| Founders | Armin Zastra K. (CPO): Industrial Engineering (ULB), LP at Q42/Id4 Ventures, early crypto. Tim Sprecher (COO): École Polytechnique, HEC Paris, UC Berkeley, Tiffany & Co. Léonie Nguyen (CBO): Master of Engineering (UTT), GEODIS, Minh Thai ATV; now CEO of Meey Group. |
-| Competitors | Grass (~$17.5M raised, ~$1B valuation, revenue unknown, most direct DePIN competitor); Nodepay ($7M raised, revenue unknown, 1.5M active users); Scale AI ($15.9B raised, $29B valuation, $870M rev 2024, centralized labeling); Labelbox ($189M raised, $1B+ valuation, $50M rev 2024, SaaS annotation); Toloka ($72M raised, revenue unknown, crowdsourcing marketplace) |
-| Moat Signals | 500,000+ node network creating supply-side network effect (gen.xyz blog via search snippet); SwissBorg partnership with 1M+ KYC community (Pulse2, Oct 2025) |
-| Risk Factors | DePIN competitor intensity (Grass, Nodepay better funded), token/regulatory exposure, co-founder departure uncertainty |
-| Founder Reach | Armin: Twitter @Armin__Kiani (count not retrievable), LinkedIn present; Tim: LinkedIn present, no Twitter found; Léonie: LinkedIn present, no Twitter found |
-| Distribution Signals | SwissBorg partnership with 1M+ KYC-verified community (Pulse2, Oct 2025); airdrop/IQ Points campaign (CryptoRank via search snippet); YC S26 batch; 1 active job posting (YC page) |
+| Founders | Armin Kiani (CEO): CS graduate, LP at Q42/Id4 Ventures. Tim Sprecher (COO): Growth ops at RevX, advisor Q42, "30 Global Founders to Watch." |
+| Competitors | Scale AI ($1.6B+ raised, ~$2B rev, full-service managed labeling); Surge AI (bootstrapped, $1.4B rev, expert annotator network); Toloka ($72M raised, $26.4M rev 2024, crowdsource marketplace); Labelbox ($189M raised, ~$114.5M/yr rev, labeling software platform) |
+| Moat Signals | 500K contributor network across 150+ countries (Hub.xyz X post, Nov 2024); crypto-token switching costs via IQ Points (Bitget project page) |
+| Risk Factors | Token/regulatory exposure, contributor quality ambiguity, competitive intensity from well-funded incumbents |
+| Founder Reach | Armin Kiani: Twitter @zastrahub (count not retrievable), LinkedIn present. Tim Sprecher: Twitter @tim404x (count not retrievable), LinkedIn present. Company: @hubdotxyz 321.4K followers (X, Apr 2026) |
+| Distribution Signals | Airdrop campaigns and Ambassador program targeting 400+ creators (SwissBorg Alpha page); 1 active job posting (YC Work at a Startup); no Product Hunt listing found |
 | Emails | No public data found |

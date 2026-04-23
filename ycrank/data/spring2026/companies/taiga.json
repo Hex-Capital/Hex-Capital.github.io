@@ -1,0 +1,64 @@
+{
+  "slug": "taiga",
+  "name": "Taiga",
+  "oneLiner": "Full-stack Medical Billing Services",
+  "metadata": {
+    "website": "https://usetaiga.com",
+    "yc_page": "https://www.ycombinator.com/companies/taiga",
+    "batch": "Spring 2026",
+    "industry": "Healthcare / Healthcare Services",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "AI",
+    "yc_partner": "Nicolas Dessaigne",
+    "emails": "founders@usetaiga.com"
+  },
+  "tags": [
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-22T23:42:44.634Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 49,
+    "EG": null,
+    "NR": 49,
+    "PG": 53,
+    "PT": 33,
+    "SL": 30,
+    "VK": null
+  },
+  "consolidatedAvg": 42.8,
+  "consolidatedRank": 48,
+  "paths": {
+    "memo": "spring2026/memos/taiga.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/taiga.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/taiga.md",
+      "paul-graham": "spring2026/evals/paul-graham/taiga.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/taiga.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/taiga.md"
+    }
+  }
+}

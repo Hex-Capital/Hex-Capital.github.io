@@ -16,92 +16,109 @@
 
 ## The Idea
 
-**Problem:** As AI coding agents (Claude Code, Codex, Cursor) generate increasing amounts of production code, engineering teams lack visibility into what those agents decided, why, and what broke (Sazabi manifesto, Mar 2026). Traditional observability platforms (Datadog, New Relic) were designed around human-authored code and the "three pillars" (logs, metrics, traces), which the company argues create cognitive overload without answering the basic questions: "Why is production down? Who is affected? What changed?" (sazabi.com/manifesto).
+**Problem:** Engineering teams spend disproportionate time configuring and maintaining observability tooling—setting up monitors, writing queries, triaging alert noise—rather than debugging production issues. Existing platforms (Datadog, New Relic, Splunk) require users to instrument three separate telemetry types (logs, metrics, traces), creating cognitive overhead and complex UIs. The manifesto states: "Modern observability is bloated" (Sazabi Manifesto, Mar 2026). Target customers are early-stage and growth-stage technology companies that lack specialized observability expertise (SiliconANGLE, Apr 2026).
 
-**Approach:** Sazabi treats AI behavior as a new class of telemetry — capturing agent decisions, output deviations, and anomalies (Zypsy blog). Core features include: Autonomous Alerts (AI continuously monitors production, no manual threshold setup), Conversational Debugging (plain-language querying of telemetry), Coding Agent Integration (native support for major AI coding tools), Code Search (pinpoints files/commits causing issues), Dynamic Visualizations, and Perfect Memory (learns from past incidents) (sazabi.com). The company's manifesto argues "logs are all you need" — that metrics and traces can be reconstructed from logs via AI, providing "three pillars for the price of one" (sazabi.com/manifesto).
+**Approach:** Sazabi ingests only logs and derives metrics and traces on the backend using AI. Per Callaway: "Fundamentally, logs are just events, metrics are aggregated events and traces are basically correlated events" (SiliconANGLE, Apr 2026). The platform uses LLMs to summarize log data into smaller packages, creates materialized views, and provides a conversational natural-language interface for querying production systems. Autonomous alerts analyze log streams continuously and only escalate when necessary, requiring no manual setup (sazabi.com). The platform integrates with coding agents including Claude Code, Codex, and Cursor for automated incident response (sazabi.com).
 
-**Differentiation:** vs. Datadog/New Relic: Sazabi is purpose-built for AI-generated code observability with a conversational UI rather than dashboard-first design (sazabi.com). vs. LangSmith/Langfuse: those platforms focus on LLM application tracing (prompt-response pairs, token costs); Sazabi targets the broader production observability stack including infrastructure, with AI agent decisions as a first-class telemetry type (Zypsy blog). vs. Laminar: both target AI agent observability, but Laminar is open-source and tracing-focused; Sazabi emphasizes autonomous alerting and conversational debugging as differentiators (sazabi.com).
+**Differentiation:** Versus incumbents (Datadog, Dynatrace, New Relic): Sazabi eliminates the three-pillars paradigm (logs + metrics + traces) in favor of logs-only ingestion, reducing instrumentation burden. Versus Dash0: Dash0 is OpenTelemetry-native and still accepts all three signal types; Sazabi rejects this framework entirely. Versus open-source alternatives (SigNoz, OpenObserve): Sazabi is closed-source and emphasizes autonomous alerting over self-hosted flexibility. The Zypsy investment blog notes Sazabi "captures agent decisions, output deviations, and anomalies" for AI-generated code, positioning it as observability purpose-built for AI-agent workflows (Zypsy blog).
 
-**Business Model:** No pricing page found; the platform operates via waitlist access (sazabi.com). [Inferred]: Most likely monetization path is consumption-based SaaS (per GB of log ingestion or per-seat), consistent with observability industry norms.
+**Business Model:** No pricing page is publicly available (sazabi.com). A pilot program with waitlist enrollment is active (sazabi.com). [Inferred]: Most likely monetization path is usage-based SaaS pricing (per GB of log ingestion or per seat), consistent with observability industry norms.
 
-**TAM/SAM:** The observability tools and platforms market was estimated at $2.9B–$28.5B in 2025 depending on scope definition, growing at 10.7–19.7% CAGR (Grand View Research, 2025 via search snippet; Mordor Intelligence, 2025 via search snippet). No public SAM estimate specific to AI-native observability was found.
+**TAM/SAM:** The observability tools and platforms market was estimated at $2.9B in 2025 (Mordor Intelligence via search snippet) to $28.5B in 2025 (Research Nester via search snippet), with variation reflecting differing market scope definitions. Growth rates range from 11–20% CAGR across forecasts. No public SAM estimate specific to AI-native or startup-focused observability segments was found.
 
-**GTM / Distribution:** The company lists backers from Vercel, Graphite, Daytona, Browserbase, LangChain, Mastra, and Replit (ycombinator.com/companies/sazabi). [Inferred]: Initial distribution likely via founder's network in the AI tooling ecosystem, targeting engineering teams at AI-forward startups already using these backers' products, with a product-led waitlist funnel.
+**GTM / Distribution:** [Inferred]: Most likely distribution path is bottom-up product-led growth targeting startup engineering teams, leveraging angel investors and backers from Vercel, Graphite, LangChain, Replit, and Browserbase as distribution channels into their respective developer communities.
 
 ## Defensibility
 
-- **Data moat potential:** The "Perfect Memory" feature learns from past incidents and traffic patterns (sazabi.com). [Inferred]: Over time, accumulated incident data and organizational context could create switching costs, but this is unproven at current stage.
-- **Compliance certifications:** SOC 2 Type I & II, ISO 27017, ISO 27001, GDPR compliant (sazabi.com). These represent meaningful upfront investment for a 10-person team and raise the bar for competing startups entering enterprise sales.
-- **Agent telemetry schema:** [Inferred]: If Sazabi defines how agent decisions are logged and gains adoption, this schema could become a de facto standard, creating lock-in. Unproven at this stage.
+- **Data advantage:** As Sazabi ingests production logs, it accumulates historical incident data and traffic patterns per customer ("Perfect Memory" feature on sazabi.com). [Inferred]: This creates increasing switching costs as the AI's contextual knowledge of a customer's system deepens over time.
+- **Security certifications:** SOC 2 Type II, SOC 1, ISO 27017, ISO 27001, GDPR compliance (sazabi.com). These certifications are expensive and time-consuming to obtain, creating a barrier for newer entrants.
+- No patents or open-source community moat identified.
 
-**Market structure:** Traditional observability vendors (Datadog, New Relic) derive revenue from metrics/traces/APM pricing models tied to infrastructure volume. [Inferred]: Cannibalizing their own per-host or per-trace pricing to offer a logs-first, AI-native model would require restructuring core billing and may conflict with existing customer contracts, creating a business model barrier to fast incumbency response.
+**Market structure:** Callaway argues incumbents will struggle to "completely retool their products" (SiliconANGLE, Apr 2026) because their architectures are built around the three-pillars paradigm. [Inferred]: Datadog and Dynatrace have revenue models tied to per-signal pricing (metrics, traces, logs billed separately); collapsing to logs-only would cannibalize existing revenue streams.
 
-**Commoditization risk:** The conversational debugging interface and autonomous alerting could be replicated by well-funded incumbents (Datadog had $2.1B revenue in FY2024). LangSmith/Langfuse already cover LLM observability. Open-source alternatives (Laminar, Langfuse) lower barriers. [Inferred]: Execution speed and depth of agent-specific telemetry are the primary near-term differentiators, not structural moats.
+**Commoditization risk:** The logs-only-plus-AI approach is architecturally reproducible. Dash0 already ships AI agents (Agent0) for observability (dash0.com). Datadog has announced AI-powered features. Any team with LLM infrastructure expertise could attempt a similar product. The moat depends on execution speed and data accumulation, not structural barriers.
 
 ## Market & Traction
 
 **Traction signals:**
-- No public revenue, user counts, or growth metrics found.
-- Product operates on waitlist (sazabi.com).
-- Company Twitter/X: @sazabi (x.com/sazabi); follower count not retrievable.
-- Founder Twitter/X: @realshcallaway (x.com/realshcallaway); follower count not retrievable.
-- LinkedIn: company page exists (YC profile); follower count not retrievable.
-- No Product Hunt launch found.
-- No Discord/Slack community found.
-- 0 open job postings (ycombinator.com/companies/sazabi).
-- Investors: Village Global, Agent Fund, Commit Capital, Zypsy, plus angels from Anthropic (Lance Martin), Vercel (Matthew Lenhard, Andrew Qu), Brex (Sonny Gupta, Mark Hillick), Replit, Homebrew (sazabi.com; Zypsy blog; f4.fund).
+- Pilot program with waitlist active; no user or customer counts disclosed (sazabi.com)
+- Platform full launch scheduled for end of 2026 (SiliconANGLE, Apr 2026)
+- Emerging from stealth as of April 2026 (SiliconANGLE, Apr 2026)
+- Press: SiliconANGLE coverage (Apr 8, 2026); Zypsy investment blog post
+- Investors: Village Global, Agent Fund (Zypsy blog); Hawk Hill Ventures (parsers.vc, Feb 2026); Zypsy; backing from leaders at Anthropic, Vercel, Brex, Replit, Homebrew (sazabi.com)
+- Twitter/X company account: @sazabi; founder @shcallaway has ~3,619 followers (X.com)
+- LinkedIn company page exists (linkedin.com/company/sazabi); follower count not retrievable
+- YouTube channel exists: @sazabiai (YouTube)
+- No Product Hunt launch found
+- No app store or Chrome extension presence found
+- No GitHub open-source repos found
 
 **Competitive landscape:**
 
-| Competitor | Funding | Key Differentiator vs. Sazabi |
-|---|---|---|
-| **Arize AI** | $70M Series C (Feb 2025, Arize blog) | Focused on ML model monitoring and LLM evaluation; broader enterprise customer base (PepsiCo, Uber); less focused on coding-agent telemetry |
-| **LangSmith (LangChain)** | $125M Series B at $1.25B valuation (Oct 2025, Fortune); ARR >$12–16M (TechCrunch, Jul 2025) | Deep LangChain ecosystem integration; focuses on LLM prompt tracing, not full-stack observability |
-| **Langfuse** | $4.5M total raised; acquired by ClickHouse in Jan 2026 (Orrick); 20K+ GitHub stars, 26M+ SDK installs/month, 2K+ paying customers (Langfuse blog) | Open-source, self-hostable; LLM-specific tracing; now part of ClickHouse's data infrastructure |
-| **Laminar** | $3M seed (Mar 2026, Tech.eu); YC S24 | Open-source, OpenTelemetry-native; purpose-built for AI agent debugging; customers include Browser Use, OpenHands |
-| **Datadog** | Public company; $2.1B FY2024 revenue | Full-stack incumbent; AI observability features added to existing platform; breadth vs. Sazabi's depth |
+| Competitor | Funding | Revenue/ARR | Key Differentiator vs. Sazabi |
+|---|---|---|---|
+| **Datadog** | Public (DDOG) | ~$2.7B ARR (public filings) | Full-stack observability with 47K+ customers; three-pillars model Sazabi rejects |
+| **Dash0** | $155M total, $1B valuation (dash0.com, Mar 2026) | Revenue unknown; 600+ customers (dash0.com) | OpenTelemetry-native with AI agents; accepts all signal types unlike Sazabi's logs-only |
+| **Cribl** | $600M total, $3.5B valuation (Crunchbase) | $300M+ ARR (Fortune, Feb 2026) | Data pipeline/routing layer; complements rather than replaces observability backends |
+| **SigNoz** | $6.5M (SignalFire) | Revenue unknown | Open-source, OpenTelemetry-native; self-hosted option Sazabi lacks |
+| **Observe** | $393M total; acquired by Snowflake Jan 2026 (observeinc.com) | 180% NRR, tripled revenue YoY (observeinc.com, Jul 2025) | Enterprise-focused, Snowflake-native architecture |
 
-**Why now:** [Inferred]: The catalyst is the rapid adoption of AI coding agents (Cursor, Claude Code, GitHub Copilot) in 2024–2025, which crossed a threshold where a material percentage of production code is AI-generated. This creates a new category of failure modes — agent decision errors, hallucinated code paths, unintended side effects — that traditional APM tools were not designed to surface. The ClickHouse acquisition of Langfuse (Jan 2026) and Arize's $70M raise (Feb 2025) validate market demand for AI-specific observability.
+**Why now:**
+- [Inferred]: LLM capabilities crossed a threshold in 2024–2025 enabling reliable log summarization and conversational querying at production scale, making the logs-only approach technically viable.
+- [Inferred]: The proliferation of AI coding agents (Claude Code, Cursor, Codex) creates a new class of AI-generated code in production that existing observability tools were not designed to monitor—Sazabi's agent-aware observability addresses this gap.
+- Cisco's $28B acquisition of Splunk (Mar 2024) and Snowflake's acquisition of Observe (Jan 2026) validate market appetite for observability consolidation (public announcements via search snippets).
 
 ## Founders & Team
 
 **Sherwood Callaway** — Founder & CEO
-- Education: Davidson College (LinkedIn); Dev Bootcamp, 2014 (Sessionize)
-- Career: Early engineer at Crunchbase, then Brex where he helped build the Infrastructure and Observability teams (ycombinator.com/companies/sazabi). Co-founded Opkit (YC-backed), one of the first AI phone calling solutions for healthcare, acquired by 11x in September 2024 (Zypsy blog; blog.sherwoodcallaway.com). Post-acquisition, served as first engineering manager at 11x leading development on Alice (AI SDR), described as "one of the largest agentic systems in production" (Zypsy blog). a16z Infrastructure Scout (x.com/realshcallaway).
-- Twitter/X: @realshcallaway — follower count not retrievable
-- LinkedIn: linkedin.com/in/sherwoodcallaway — 500+ connections (LinkedIn)
-- GitHub: github.com/shcallaway — repos include gmail-mcp-server, semantic-cache-chatbot; star counts not retrieved
+- B.A. History, Davidson College (2012–2016); Dev Bootcamp (2014) (personal blog)
+- Frontend Engineer in Test at Crunchbase (2017) (personal blog)
+- Software Engineer at Brex (~employee #70, 2019–2021); started Infrastructure, Observability, and Bill Pay teams (personal blog)
+- Co-founded Opkit (YC S21, 2021–2024): healthcare voice AI; raised "a few million in VC funding"; acquired by 11x in September 2024 (personal blog; Crunchbase)
+- Tech Lead at 11x (~8 months post-acquisition); rebuilt AI sales agent "Alice" using agentic patterns (personal blog)
+- a16z scout (YC page)
+- Age: 31 (personal blog)
+- Twitter/X: @shcallaway — ~3,619 followers (X.com); also @realshcallaway — ~3,040 followers (X.com)
+- LinkedIn: linkedin.com/in/sherwoodcallaway
+- GitHub: github.com/shcallaway (X.com search result); public repo details not retrieved
+- Product Hunt: producthunt.com/@sherwoodcallaway (search result)
 
-No other founders are listed on the YC page. The team is 10 people (ycombinator.com/companies/sazabi); F4 fund lists team size as 1–10 (f4.fund).
+**Justin Ko** — Engineer (role at Sazabi per LinkedIn)
+- Software Engineer at Crunchbase, Brex, and 11x (LinkedIn search snippet)
+- Co-founded Opkit with Sherwood Callaway (described as roommates at the time) (Fierce Healthcare; personal blog reference to "my co-founder Justin")
+- LinkedIn: linkedin.com/in/justinmko
+- Twitter/X: No public account found
+- GitHub: No public repos found
+- Note: Not listed as co-founder on the Sazabi YC page; only Sherwood Callaway is listed as founder.
 
-**Co-founder relationship:** Only one founder is listed. No public data on co-founder history.
+**Co-founder relationship:** Sherwood Callaway and Justin Ko were roommates who co-founded Opkit together (personal blog). They both worked at Crunchbase and Brex before co-founding Opkit, and both joined 11x after the Opkit acquisition (LinkedIn search snippets).
 
-**Founder-market fit:** Callaway built observability infrastructure at Brex, giving direct experience with the problem space (YC profile). His exit with Opkit (AI phone calling) and subsequent work on Alice at 11x (large-scale AI agent system) provide firsthand experience with AI agent reliability challenges — the exact problem Sazabi targets. The a16z scout role provides investor network access. Announced angel backers include leaders at Anthropic, Vercel, Brex, LangChain, and Replit (sazabi.com), suggesting strong endorsement from the AI developer tooling ecosystem.
+**Founder-market fit:** Callaway started Brex's Infrastructure and Observability teams and experienced the pain of production debugging firsthand at a hyper-growth fintech (personal blog). His subsequent experience building one of the first LLM-based voice agents at Opkit and rebuilding an agentic AI system at 11x provides direct domain expertise in both observability infrastructure and AI-agent architectures. The company lists backing from leaders at Vercel, Graphite, Daytona, Browserbase, LangChain, Mastra, and Replit (sazabi.com; YC page).
 
 ## Key Risks
 
-**Name collision:** "Sazabi" is a well-known mecha from the Gundam franchise, generating substantial noise in search results (observed across X.com, Google). This complicates organic discoverability and SEO.
+**Name collision:** "Sazabi" is a well-known mobile suit from the Gundam anime franchise (MSN-04 Sazabi). Multiple unrelated Twitter accounts, merchandise listings, and a Japanese company (株式会社サザビー) share the name, creating SEO competition and potential brand confusion. The company previously used sazabi.ai as a domain (parsers.vc) and now uses sazabi.com.
 
-**Single listed founder with a 10-person team:** While the YC profile lists only Sherwood Callaway as founder, the company has 10 employees (YC profile). No co-founder or technical leadership is publicly identified, creating key-person risk if Callaway is the sole decision-maker across product, engineering, and go-to-market.
+**Pre-product stage with well-funded competitors:** Full platform launch is scheduled for end of 2026 (SiliconANGLE, Apr 2026). Dash0 raised $110M at a $1B valuation in March 2026 (dash0.com) and already has 600+ customers. Datadog ships AI features on an existing base of 47K+ customers. Sazabi must achieve product-market fit while competitors iterate on established platforms.
 
-**Crowded and fast-consolidating market:** Langfuse was acquired by ClickHouse within ~2 years of founding (Orrick, Jan 2026). Arize AI raised $70M (Feb 2025). LangChain/LangSmith reached $1.25B valuation (Fortune, Oct 2025). Datadog, a $50B+ public company, is adding AI observability features to its existing platform. Sazabi enters against well-capitalized incumbents and recently consolidated competitors.
+**Logs-only thesis risk:** The core architectural bet—that logs alone can replace metrics and traces—is contrarian to the OpenTelemetry standard adopted by Dash0, SigNoz, and the broader CNCF ecosystem. If the industry standardizes on OpenTelemetry, Sazabi's approach may face adoption friction from teams already instrumented with OTel SDKs.
 
-**Pre-product risk:** The platform is waitlist-only with no public customers, pricing, or usage metrics (sazabi.com). The "logs are all you need" thesis — that AI can reconstruct metrics and traces from logs alone at production scale — is technically ambitious and unvalidated publicly.
+**Single-founder listing:** Only Sherwood Callaway is listed as founder on the YC page despite Justin Ko's deep involvement since Opkit. The organizational structure and equity distribution are unclear from public sources.
 
-**Dependency on AI coding agent adoption curve:** The value proposition is strongest when a material share of production code is AI-generated. If enterprise AI coding agent adoption slows or concentrates in a few platforms that build their own observability (e.g., Cursor, Replit), the addressable market narrows.
+**Narrow initial market segment:** Sazabi explicitly targets early-stage and growth-stage tech companies (SiliconANGLE, Apr 2026), which have smaller budgets and higher churn rates. Expanding upmarket to enterprise (where observability spend concentrates) would require sales motion and compliance capabilities beyond the current positioning.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $2.9B–$28.5B (2025, Grand View Research / Mordor Intelligence via search snippet); 10.7–19.7% CAGR |
+| TAM | $2.9B–$28.5B in 2025 depending on scope definition; 11–20% CAGR (Mordor Intelligence, Research Nester via search snippets) |
 | SAM | No public data found |
-| Traction | No public data found |
+| Traction | Pilot program with waitlist active (sazabi.com); platform launch scheduled end of 2026 (SiliconANGLE, Apr 2026); SiliconANGLE press coverage (Apr 8, 2026) |
 | Revenue Signal | No public data found |
-| Founders | Sherwood Callaway (Founder & CEO): Brex infra engineer, Opkit founder (acquired by 11x, Sep 2024), a16z scout, Davidson College |
-| Competitors | Arize AI ($70M Series C, revenue unknown, ML/LLM evaluation focus); LangSmith/LangChain ($125M Series B at $1.25B, ARR >$12–16M, LLM prompt tracing); Langfuse ($4.5M raised, acquired by ClickHouse Jan 2026, open-source LLM observability); Laminar ($3M seed, revenue unknown, open-source AI agent debugging); Datadog (public, $2.1B FY2024 revenue, full-stack incumbent) |
-| Moat Signals | SOC 2 Type I & II, ISO 27017, ISO 27001, GDPR certifications (sazabi.com) |
-| Risk Factors | Pre-product/waitlist-only status, crowded and consolidating competitor landscape, Gundam name collision affecting SEO |
-| Founder Reach | Sherwood Callaway: Twitter @realshcallaway (count not retrievable), LinkedIn 500+ connections (LinkedIn), GitHub github.com/shcallaway (star counts not retrieved) |
-| Distribution Signals | No public data found |
+| Founders | Sherwood Callaway (Founder & CEO): 2x YC founder, started Brex Infra/Observability teams, Opkit acquired by 11x Sep 2024, a16z scout |
+| Competitors | Datadog (public, ~$2.7B ARR, full-stack three-pillars); Dash0 ($155M raised, $1B val, 600+ customers, OTel-native AI agents); Cribl ($600M raised, $3.5B val, $300M+ ARR, data pipeline); SigNoz ($6.5M raised, revenue unknown, open-source OTel-native); Observe ($393M raised, acquired by Snowflake Jan 2026, enterprise-focused) |
+| Moat Signals | SOC 2 Type II, SOC 1, ISO 27017, ISO 27001 certifications (sazabi.com); customer-specific log history accumulation (sazabi.com) |
+| Risk Factors | Pre-product with well-funded competitors, logs-only contrarian bet vs. OpenTelemetry standard, name collision with Gundam franchise |
+| Founder Reach | Sherwood Callaway: Twitter ~3.6K followers (X.com), LinkedIn profile active, GitHub github.com/shcallaway |
+| Distribution Signals | Angel backing from leaders at Vercel, Graphite, LangChain, Replit, Browserbase, Mastra, Daytona (sazabi.com); institutional investors: Village Global, Agent Fund, Hawk Hill Ventures, Zypsy (Zypsy blog, parsers.vc) |
 | Emails | No public data found |

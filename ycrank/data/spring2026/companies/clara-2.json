@@ -20,54 +20,49 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-03-26T17:06:25.444Z",
+  "memoGeneratedAt": "2026-04-23T00:00:45.127Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 57,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
       "score": 52,
       "tier": "Neutral"
     },
-    "naval-ravikant": {
-      "score": 69,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 66,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 45,
+    "elad-gil": {
+      "score": 50,
       "tier": "Neutral"
     },
+    "paul-graham": {
+      "score": 63,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 39,
+      "tier": "Pass"
+    },
     "sam-lessin": {
-      "score": 47,
+      "score": 46,
       "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 64,
+      "score": 56,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 57,
-    "EG": 52,
-    "NR": 69,
-    "PG": 66,
-    "PT": 45,
-    "SL": 47,
-    "VK": 64
+    "CB": 52,
+    "EG": 50,
+    "NR": null,
+    "PG": 63,
+    "PT": 39,
+    "SL": 46,
+    "VK": 56
   },
-  "consolidatedAvg": 57.14,
-  "consolidatedRank": 3,
+  "consolidatedAvg": 51,
+  "consolidatedRank": 14,
   "paths": {
     "memo": "spring2026/memos/clara-2.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/clara-2.md",
       "elad-gil": "spring2026/evals/elad-gil/clara-2.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/clara-2.md",
       "paul-graham": "spring2026/evals/paul-graham/clara-2.md",
       "peter-thiel": "spring2026/evals/peter-thiel/clara-2.md",
       "sam-lessin": "spring2026/evals/sam-lessin/clara-2.md",

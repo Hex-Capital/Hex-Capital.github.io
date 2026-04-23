@@ -1,69 +1,68 @@
 {
   "slug": "maquoketa-research",
   "name": "Maquoketa Research",
-  "oneLiner": "Autonomous one-way attack drones",
+  "oneLiner": "Intelligent one-way attack drones",
   "metadata": {
     "website": "https://www.maquoketa.net",
     "yc_page": "https://www.ycombinator.com/companies/maquoketa-research",
     "batch": "Spring 2026",
     "industry": "Industrials / Industrials -> Defense",
     "team_size": "5",
-    "location": "No public data found",
-    "tags": "No public data found",
+    "location": "Elk Grove Village, IL, USA",
+    "tags": "Artificial Intelligence, Hardware, Drones, Computer Vision, Manufacturing",
     "yc_partner": "Harj Taggar",
     "emails": "No public data found"
   },
   "tags": [
-    "No public data found"
+    "Artificial Intelligence",
+    "Hardware",
+    "Drones",
+    "Computer Vision",
+    "Manufacturing"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-03-26T05:07:03.819Z",
+  "memoGeneratedAt": "2026-04-22T23:23:30.939Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 45,
+      "score": 46,
       "tier": "Neutral"
     },
-    "elad-gil": {
-      "score": 35,
-      "tier": "Pass"
-    },
     "naval-ravikant": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
       "score": 39,
       "tier": "Pass"
     },
+    "paul-graham": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 35,
+      "tier": "Pass"
+    },
     "sam-lessin": {
-      "score": 42,
+      "score": 38,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 53,
+      "score": 58,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 45,
-    "EG": 35,
-    "NR": 41,
-    "PG": 44,
-    "PT": 39,
-    "SL": 42,
-    "VK": 53
+    "CB": 46,
+    "EG": null,
+    "NR": 39,
+    "PG": 39,
+    "PT": 35,
+    "SL": 38,
+    "VK": 58
   },
-  "consolidatedAvg": 42.71,
-  "consolidatedRank": 23,
+  "consolidatedAvg": 42.5,
+  "consolidatedRank": 50,
   "paths": {
     "memo": "spring2026/memos/maquoketa-research.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/maquoketa-research.md",
-      "elad-gil": "spring2026/evals/elad-gil/maquoketa-research.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/maquoketa-research.md",
       "paul-graham": "spring2026/evals/paul-graham/maquoketa-research.md",
       "peter-thiel": "spring2026/evals/peter-thiel/maquoketa-research.md",

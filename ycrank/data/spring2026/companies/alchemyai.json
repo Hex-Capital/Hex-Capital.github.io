@@ -21,22 +21,18 @@
     "Automation"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-03-26T05:11:28.498Z",
+  "memoGeneratedAt": "2026-04-22T23:38:10.781Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 36,
+      "score": 39,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 43,
+      "score": 42,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 50,
-      "tier": "Neutral"
-    },
     "paul-graham": {
-      "score": 43,
+      "score": 41,
       "tier": "Pass"
     },
     "peter-thiel": {
@@ -44,7 +40,7 @@
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 33,
+      "score": 31,
       "tier": "Pass"
     },
     "vinod-khosla": {
@@ -53,22 +49,21 @@
     }
   },
   "consolidatedScores": {
-    "CB": 36,
-    "EG": 43,
-    "NR": 50,
-    "PG": 43,
+    "CB": 39,
+    "EG": 42,
+    "NR": null,
+    "PG": 41,
     "PT": 29,
-    "SL": 33,
+    "SL": 31,
     "VK": 40
   },
-  "consolidatedAvg": 39.14,
-  "consolidatedRank": 41,
+  "consolidatedAvg": 37,
+  "consolidatedRank": 88,
   "paths": {
     "memo": "spring2026/memos/alchemyai.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/alchemyai.md",
       "elad-gil": "spring2026/evals/elad-gil/alchemyai.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/alchemyai.md",
       "paul-graham": "spring2026/evals/paul-graham/alchemyai.md",
       "peter-thiel": "spring2026/evals/peter-thiel/alchemyai.md",
       "sam-lessin": "spring2026/evals/sam-lessin/alchemyai.md",

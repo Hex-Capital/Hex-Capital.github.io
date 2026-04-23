@@ -1,0 +1,72 @@
+{
+  "slug": "gigacatalyst",
+  "name": "Gigacatalyst",
+  "oneLiner": "Customize your software to every user with AI",
+  "metadata": {
+    "website": "https://gigacatalyst.com/",
+    "yc_page": "https://www.ycombinator.com/companies/gigacatalyst",
+    "batch": "Spring 2026",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, SaaS, Enterprise, No-code",
+    "yc_partner": "Andrew Miklas",
+    "emails": "hello@gigacatalyst.com"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "SaaS",
+    "Enterprise",
+    "No-code"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-22T23:24:03.735Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 40,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 39,
+    "EG": null,
+    "NR": 54,
+    "PG": 53,
+    "PT": 33,
+    "SL": 34,
+    "VK": 40
+  },
+  "consolidatedAvg": 42.17,
+  "consolidatedRank": 53,
+  "paths": {
+    "memo": "spring2026/memos/gigacatalyst.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/gigacatalyst.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/gigacatalyst.md",
+      "paul-graham": "spring2026/evals/paul-graham/gigacatalyst.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/gigacatalyst.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/gigacatalyst.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/gigacatalyst.md"
+    }
+  }
+}

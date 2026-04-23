@@ -19,53 +19,48 @@
     "Generative AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-03-29T21:11:43.343Z",
+  "memoGeneratedAt": "2026-04-22T23:47:52.256Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 44,
+      "score": 36,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 49,
+      "score": 56,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 50,
+      "score": 51,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 33,
+      "score": 34,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 31,
+      "score": 34,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 42,
-      "tier": "Pass"
+      "score": 47,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 41,
-    "EG": 44,
-    "NR": 49,
-    "PG": 50,
-    "PT": 33,
-    "SL": 31,
-    "VK": 42
+    "CB": 36,
+    "EG": null,
+    "NR": 56,
+    "PG": 51,
+    "PT": 34,
+    "SL": 34,
+    "VK": 47
   },
-  "consolidatedAvg": 41.43,
-  "consolidatedRank": 30,
+  "consolidatedAvg": 43,
+  "consolidatedRank": 45,
   "paths": {
     "memo": "spring2026/memos/interfaze.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/interfaze.md",
-      "elad-gil": "spring2026/evals/elad-gil/interfaze.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/interfaze.md",
       "paul-graham": "spring2026/evals/paul-graham/interfaze.md",
       "peter-thiel": "spring2026/evals/peter-thiel/interfaze.md",

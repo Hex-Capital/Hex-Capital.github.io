@@ -1,0 +1,70 @@
+{
+  "slug": "rentahuman",
+  "name": "RentAHuman",
+  "oneLiner": "Marketplace for AI agents to hire humans.",
+  "metadata": {
+    "website": "https://rentahuman.ai",
+    "yc_page": "https://www.ycombinator.com/companies/rentahuman",
+    "batch": "Spring 2026",
+    "industry": "Consumer / Consumer -> Job and Career Services",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Marketplace, AI",
+    "yc_partner": "Aaron Epstein",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Marketplace",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-22T23:44:05.955Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 71,
+      "tier": "Invest"
+    },
+    "vinod-khosla": {
+      "score": 46,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 41,
+    "EG": null,
+    "NR": 50,
+    "PG": 48,
+    "PT": 38,
+    "SL": 71,
+    "VK": 46
+  },
+  "consolidatedAvg": 49,
+  "consolidatedRank": 21,
+  "paths": {
+    "memo": "spring2026/memos/rentahuman.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/rentahuman.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/rentahuman.md",
+      "paul-graham": "spring2026/evals/paul-graham/rentahuman.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/rentahuman.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/rentahuman.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/rentahuman.md"
+    }
+  }
+}

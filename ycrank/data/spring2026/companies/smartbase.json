@@ -1,0 +1,68 @@
+{
+  "slug": "smartbase",
+  "name": "Smartbase",
+  "oneLiner": "Automated order entry for manufacturers",
+  "metadata": {
+    "website": "https://www.smartbase.so/",
+    "yc_page": "https://www.ycombinator.com/companies/smartbase",
+    "batch": "Spring 2026",
+    "industry": "B2B / B2B -> Operations",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "SaaS, B2B, Workflow Automation, Manufacturing, Automation",
+    "yc_partner": "Harj Taggar",
+    "emails": "sam@smartbase.so"
+  },
+  "tags": [
+    "SaaS",
+    "B2B",
+    "Workflow Automation",
+    "Manufacturing",
+    "Automation"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-23T00:01:34.920Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 37,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 39,
+    "EG": null,
+    "NR": 46,
+    "PG": 57,
+    "PT": 27,
+    "SL": 37,
+    "VK": null
+  },
+  "consolidatedAvg": 41.2,
+  "consolidatedRank": 56,
+  "paths": {
+    "memo": "spring2026/memos/smartbase.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/smartbase.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/smartbase.md",
+      "paul-graham": "spring2026/evals/paul-graham/smartbase.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/smartbase.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/smartbase.md"
+    }
+  }
+}

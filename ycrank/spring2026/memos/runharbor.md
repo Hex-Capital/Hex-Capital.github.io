@@ -16,110 +16,111 @@
 
 ## The Idea
 
-**Problem:** Medical device and pharma companies rely on electronic data capture (EDC) systems to collect clinical trial data. Legacy EDCs — largely unchanged since the 1990s — require months of custom setup, and research site coordinators spend hours per subject per day on manual data entry (runharbor.com). Data management consumes ~30% of total clinical trial budgets (YC company description). Nearly half of ~40,000 annual clinical trials hit delays that better tools could prevent (runharbor.com/company). Current incumbents include Medidata Rave, Veeva Vault EDC, and Oracle Clinical One.
+**Problem:** Medical device and pharma companies use legacy electronic data capture (EDC) systems that have not fundamentally changed since the 1990s (YC company page). EDC setup takes months of custom configuration; research site coordinators then spend hours per subject per day manually transcribing source documents into these systems (runharbor.com). Data management consumes approximately 30% of total clinical trial budgets (YC company page). Legacy EDCs produce 7–10 day data visibility delays and weeks of back-and-forth to resolve data errors (runharbor.com).
 
-**Approach:** Harbor automates two core bottlenecks:
-- **Magic Build:** Reads a clinical trial protocol PDF and generates draft CRFs and source documents in under 10 minutes, replacing 8-week manual build timelines (runharbor.com).
-- **Magic Capture:** AI-powered extraction from uploaded source documents into the EDC, reducing manual data entry by 90% (runharbor.com).
-- **Magic Monitor:** Risk-based remote monitoring with confidence scoring, displaying source documents side-by-side with EDC data (runharbor.com).
-- Full 21 CFR Part 11, HIPAA, and GDPR compliance with immutable audit trails, eSignatures, and role-based access controls (runharbor.com).
+**Approach:** Harbor replaces the legacy EDC with an AI-enabled platform offering three core capabilities (runharbor.com):
+- **Magic Build:** Auto-generates electronic case report forms (eCRFs) from protocol PDFs in under 5 minutes, converting weeks-long build processes into days.
+- **Magic Capture:** AI-powered document extraction from uploaded source documents, reducing manual transcription by 90%, with human-in-the-loop review.
+- **Magic Monitor:** Risk-based remote monitoring with side-by-side source-document and EDC data comparison, confidence scoring, and real-time data visibility.
 
-**Differentiation:** Legacy EDCs (Medidata Rave, Veeva Vault, Oracle Clinical One) are passive data repositories requiring manual entry. Harbor's AI reads the protocol to auto-generate the database and extracts data directly from source documents, eliminating manual transcription. Harbor uses a flat monthly license with no per-subject, per-site, or per-CRF charges, contrasting with legacy vendors' complex usage-based pricing (runharbor.com).
+The platform is 21 CFR Part 11, HIPAA, and GDPR compliant with immutable audit trails, eSignatures, AES-256 encryption at rest, and TLS 1.2+ in transit (runharbor.com).
 
-**Business Model:** Three-tier SaaS pricing (runharbor.com):
-- **Academic/Non-profit:** Free — full AI suite, unlimited users and patients, standard email support.
-- **Commercial Study:** Starting at $2,000/month — includes 21 CFR Part 11 validation, priority Slack support, staff training, SLA guarantees.
-- **Enterprise/CRO:** Volume pricing for 3+ active trials — includes MSA, SSO/SAML, CTMS/eTMF integrations, dedicated success manager.
+**Differentiation:** Legacy incumbents (Medidata Rave, Oracle Clinical One, Veeva Vault EDC) require manual study builds taking 2–3 months and manual data entry at sites (runharbor.com). Castor EDC targets simpler academic studies with low-code tools but still requires manual data entry (IntuitionLabs comparison). Harbor's differentiator is automated source-document-to-EDC data extraction — sites upload raw source documents and skip manual entry entirely (YC company page). Harbor configured a 1,600-subject randomized trial database in one week, versus multi-week timelines from legacy vendors (YC company page).
 
-**TAM/SAM:** The global EDC systems market was valued at USD 1.93 billion in 2025 and is projected to reach USD 5.88 billion by 2034 at a 13.57% CAGR (Precedence Research, 2025 via search snippet). Grand View Research estimates the market at USD 1.25 billion in 2022, projected to USD 3.63 billion by 2030 at 14.6% CAGR (Grand View Research, 2023 via search snippet). [Inferred]: Harbor's SAM is the subset of commercial sponsors and CROs running small-to-mid-size trials who are underserved by enterprise incumbents and priced out of Medidata/Veeva platform deals.
+**Business Model:** Flat-rate pricing with no per-subject, per-site, or per-CRF charges (runharbor.com):
+- Academic & Non-Profit: Free (unlimited users/patients, standard support)
+- Commercial Study: Starting at $2,000/month (includes validation package, priority support, training)
+- Enterprise/CRO: Volume pricing (MSA, SSO/SAML, dedicated success manager)
 
-**GTM / Distribution:** Named customers include Attuned HealthTech, BioDynamik, Biolinq, Kalevala Therapeutics, Nova Genomics, and University Hospitals (runharbor.com). The company has open job postings for a Sales Development Representative and a Forward-Deployed Engineer (runharbor.com/company). [Inferred]: Initial distribution appears to be direct sales to medtech/biopharma sponsors and academic sites, with the free academic tier serving as a funnel for commercial conversion.
+**TAM/SAM:** The global EDC market was valued at $1.84 billion in 2025 and is projected to reach $5.73 billion by 2034, at a CAGR of 13.57% (Fortune Business Insights, 2025). The cloud/SaaS segment holds 72.3% share; pharma and biotech companies hold 43.9% share (Fortune Business Insights, 2025). [Inferred]: Harbor's SAM is the cloud-based EDC segment for small-to-mid-size pharma, biotech, and medical device companies, likely a subset of the ~$1.3B cloud EDC segment.
+
+**GTM / Distribution:** Harbor lists named customers including BioDynamik, NOVA Genomics, Attuned HealthTech, Biolinq, Kalevala Therapeutics, and University Hospitals (runharbor.com). The company website lists open roles for a Sales Development Representative and Forward-Deployed Engineer (runharbor.com/company). [Inferred]: GTM is direct sales to sponsors (pharma, biotech, device companies) and CROs, with a freemium academic tier serving as a pipeline for commercial conversion.
 
 ## Defensibility
 
-- **Regulatory compliance as barrier:** 21 CFR Part 11 validation, HIPAA, and GDPR compliance require significant engineering and documentation investment; Harbor ships a comprehensive Verification & Validation package with all licenses (runharbor.com). New entrants must replicate this compliance infrastructure.
-- **Switching costs:** Once a clinical trial's EDC is configured and data collection begins, mid-study migration is operationally impractical due to regulatory audit trail requirements and data integrity obligations.
-- **Data extraction model quality:** [Inferred]: AI extraction accuracy improves with volume of processed source documents across therapeutic areas, potentially creating a data flywheel advantage over time.
+- **Regulatory compliance as barrier to entry:** 21 CFR Part 11, HIPAA, and GDPR compliance with validation packages included (runharbor.com). Clinical trial software requires extensive validation documentation; Harbor ships a validation package with every license (runharbor.com).
+- **Switching costs:** Once a clinical study is configured and live on an EDC, migrating mid-trial is operationally infeasible due to regulatory audit trail requirements (21 CFR Part 11).
+- **Data advantage:** [Inferred]: Each study processed trains the document extraction models on domain-specific clinical forms, creating a compounding accuracy advantage over time.
 
-**Market structure:** Medidata (acquired by Dassault Systèmes for $5.8 billion in 2019; Wikipedia) and Veeva Systems (public company) dominate the large-pharma segment. [Inferred]: These incumbents face business model cannibalization risk — their revenue depends on complex per-subject/per-site pricing and professional services for database builds; adopting Harbor's automated approach would compress their own revenue per trial. Additionally, legacy vendors' multi-year enterprise contracts with existing customers create inertia against rapid product overhaul.
+**Market structure:** Incumbents (Medidata, Oracle, Veeva) monetize per-subject or per-site fees on manual-entry workflows (IntuitionLabs comparison, runharbor.com). Adopting Harbor's source-document-upload model would cannibalize their per-unit pricing and require rebuilding their platforms around document extraction rather than form-based entry. [Inferred]: This pricing model conflict creates a structural barrier similar to the innovator's dilemma — incumbents cannot match Harbor's flat-rate model without eroding existing revenue streams.
 
-**Commoditization risk:** General-purpose LLM capabilities for document extraction are increasingly accessible. [Inferred]: Any well-funded health-tech startup or incumbent could build AI-assisted data capture; Harbor's defensibility depends on accumulating regulatory validation artifacts, customer trust, and domain-specific extraction accuracy faster than competitors.
+**Commoditization risk:** LLM-based document extraction is becoming broadly accessible. Incumbents Medidata and Veeva have AI initiatives — Medidata launched Rave Lite in October 2024 to simplify study builds (Dassault Systèmes press release, Oct 2024). [Inferred]: A well-funded incumbent could integrate document extraction into existing EDC platforms, though regulatory validation requirements and legacy architecture create friction.
 
 ## Market & Traction
 
 **Traction signals:**
-- Platform is live with 5 clinical studies (YC page, 2025).
-- Largest customer's 1,600-subject randomized trial was configured in 1 week, 10x faster than legacy vendor quotes (YC page).
-- Customer testimonial: "Creating source documents and CRFs was a two-month project; Harbor cut it to two days." — Johnny Chen, CEO, BioDynamik (runharbor.com).
-- Customer testimonial: "We faced 10-12 week timelines elsewhere; Harbor delivered validated EDC in nine days at a fraction of the cost." — Cynthia Hudson, CEO, NOVA Genomics (runharbor.com).
-- 6 named customers displayed on website: Attuned HealthTech, BioDynamik, Biolinq, Kalevala Therapeutics, Nova Genomics, University Hospitals (runharbor.com).
-- Google Cloud Partner, NVIDIA Inception Program member, Octane Launchpad participant (runharbor.com).
-- Job postings: SDR, Forward-Deployed Engineer, Open Application (runharbor.com/company).
-- Twitter/X: @runharbor (follower count not retrievable).
-- LinkedIn: linkedin.com/company/runharbor (follower count not retrievable).
-- GitHub: github.com/runharbor (public repos/stars not retrievable).
-- No Product Hunt launch found. No press coverage in named publications found.
+- Platform live with first clinical studies; YC page states "live in five clinical studies" (YC company page, via search snippet)
+- Largest customer: 1,600-subject randomized trial database configured in one week, 10x faster than legacy vendor quotes (YC company page)
+- Named customers: BioDynamik, NOVA Genomics, Attuned HealthTech, Biolinq, Kalevala Therapeutics, University Hospitals (runharbor.com)
+- Customer testimonial: "Creating source documents used to be a two-month project. Harbor cut that to two days." — Johnny Chen, CEO, BioDynamik (runharbor.com)
+- Customer testimonial: "Harbor delivered a fully validated EDC in nine days at a fraction of the cost." — Cynthia Hudson, CEO, NOVA Genomics (runharbor.com)
+- Twitter/X: @runharbor; YC posted launch announcement tagging @nathanhleung (x.com/ycombinator)
+- LinkedIn: linkedin.com/company/runharbor (follower count not retrievable)
+- GitHub: github.com/runharbor (public profile exists; repo details not retrieved)
+- Partnerships: Google Cloud Partner, NVIDIA Inception Program member, Octane Launchpad (runharbor.com)
+- Job postings: Sales Development Representative, Forward-Deployed Engineer, Open Application (runharbor.com/company)
+- No Product Hunt launch found.
+- No press coverage in named publications found.
 
 **Competitive landscape:**
 
-| Competitor | Key Differentiator vs. Harbor | Funding / Revenue |
+| Competitor | Funding / Scale | Key Differentiator vs. Harbor |
 |---|---|---|
-| **Medidata Rave** (Dassault Systèmes) | Full clinical cloud platform (CTMS, eCOA, safety); 36,000+ trials, 1M+ users, 2,300 customers (Medidata). Passive EDC, no AI-native extraction. | Acquired for $5.8B in 2019 (Wikipedia). |
-| **Veeva Vault EDC** (Veeva Systems) | Multi-tenant cloud, zero-downtime amendments; 1,000+ study starts, 8 of top 20 biopharma (Veeva, 2024). AI Agents announced for 2025-2026 rollout (Veeva). | Veeva Systems public; FY2025 revenue ~$2.36B total (not EDC-specific). |
-| **Castor EDC** | Cloud-based, strong in decentralized trials; 50,000+ users globally (Castor). Lower-cost alternative to Medidata/Veeva. | $65M total raised; Series B $45M led by Eight Roads (TechCrunch, Jul 2021). |
-| **Viedoc** | Modern UX, 5,000+ studies since 2003 (Viedoc). Sweden-based with global offices. | Funding details not publicly available. |
-| **Clinion** | AI/ML/GenAI throughout trial lifecycle; India-based, cost-competitive (Clinion). | Funding details not publicly available. |
+| **Medidata Rave** (Dassault Systèmes) | Acquired for $5.8B (2019); est. revenue ~$701.5M (Growjo); 1,600+ customers (Dassault Systèmes) | Industry standard for large global pharma trials; deep integrations across eCOA, RTSM, eTMF; manual-entry model |
+| **Veeva Vault EDC** (Veeva Systems) | Publicly traded (VEEV); revenue not broken out for EDC specifically | Cloud-native, zero-downtime amendments; part of broader Vault clinical suite; manual-entry model |
+| **Oracle Clinical One** | Division of Oracle | Unified randomization, trial supplies, and EDC; enterprise integration layer; manual-entry model |
+| **Castor EDC** | $65M total raised, Series B $45M (TechCrunch, Jul 2021); 7,500+ studies, 50,000+ users (castoredc.com) | Low-code, cost-effective; strong in academic/decentralized trials; manual-entry model |
+| **Viedoc** | Backed by Monterro; specific amount not public (Crunchbase) | Founded 2003, Uppsala Sweden; thousands of studies, 1M+ patients; strong in EU market |
 
-**Why now:**
-- LLM and document extraction capabilities have reached accuracy and traceability thresholds required for high-risk regulated domains (YC company description).
-- [Inferred]: The convergence of transformer-based document understanding models (2023-2025), declining inference costs, and increasing regulatory acceptance of AI-assisted processes in clinical trials has created a window for an AI-native EDC to challenge 25-year-old architectures.
+**Why now:** LLM and document extraction capabilities have reached the accuracy, reliability, and traceability thresholds required for high-risk regulated domains (YC company page). [Inferred]: The specific catalyst is the maturation of multimodal LLMs capable of extracting structured data from heterogeneous clinical source documents (lab reports, physician notes, imaging) at accuracy levels that pass regulatory scrutiny — a capability that was not viable at clinical-grade reliability prior to 2024.
 
 ## Founders & Team
 
 **Albert Cai** — Co-founder & CEO
-- BS Biomedical Engineering, University of Michigan (graduated 2019) (LinkedIn via search snippet).
-- Head of Diabetes Technology at Close Concerns, a boutique consulting firm covering diabetes technology (DiaTribe, LinkedIn via search snippet).
-- Spent 4 years in clinical trials and regulatory strategy at Biolinq (wearable biosensor startup), helping take its first product from prototype through first-in-human studies to FDA De Novo authorization (YC page, runharbor.com/company).
-- Declined medical school to pursue clinical/startup work (runharbor.com/company).
-- Twitter/X: @AlbertCai_X — follower count not retrievable.
-- LinkedIn: linkedin.com/in/ac-ai/ — "Founder @ Harbor" (LinkedIn via search snippet).
-- GitHub: No public repos found.
+- Biomedical Engineering, University of Michigan (runharbor.com/company)
+- Previously: Clinical, regulatory, and product roles at Biolinq (wearable biosensors; took flagship product from prototype through first-in-human studies to FDA De Novo authorization) (YC company page, runharbor.com/company)
+- Previously: Head of Diabetes Technology at Close Concerns, a boutique consulting firm (runharbor.com/company)
+- Spent a month on-site at a clinical site during Biolinq's pivotal trial (YC company page, via search snippet)
+- DiaTribe contributor (diatribe.org)
+- Twitter/X: No public account found
+- LinkedIn: linkedin.com/in/ac-ai/ — "Founder @ Harbor" (LinkedIn)
+- GitHub: No public repos found
 
 **Nathan Leung** — Co-founder & CTO
-- Pure Mathematics, UCLA; Computer Science, University of Michigan (runharbor.com/company, Natecation blog).
-- Employee #1 at Jupiter (YC S19), a grocery automation startup backed by Khosla Ventures and NFX; built end-to-end systems with TypeScript, React, Kotlin, gRPC, Kubernetes (Natecation blog, Wefunder).
-- Software engineering roles at Google (intern) and Ramp (intern) (Natecation blog).
-- Wrote smart contracts securing millions in assets at Caldera, a blockchain infrastructure company (runharbor.com/company).
-- Twitter/X: @nathanhleung — follower count not retrievable.
-- LinkedIn: linkedin.com/in/nathanhleung/ (LinkedIn via search snippet).
-- GitHub: github.com/nathanhleung — 74 public repositories (GitHub via search snippet). Star counts not retrieved.
+- Mathematics, UCLA; Computer Science, University of Michigan (runharbor.com/company)
+- Previously: First employee at Jupiter (YC S19 startup) (runharbor.com/company)
+- Previously: Product roles at Google and Ramp (runharbor.com/company)
+- Previously: Caldera — wrote smart contracts securing millions in assets at a blockchain infrastructure company (YC company page, via search snippet)
+- Twitter/X: @nathanhleung (x.com/nathanhleung); follower count not retrievable
+- LinkedIn: linkedin.com/in/nathanhleung/ (LinkedIn)
+- GitHub: github.com/nathanhleung — 71 public repos, 207 followers; pinned repos: install-peerdeps (301 stars), protobuf-ts-types (238 stars), fallback (162 stars), jittered-fractional-indexing (35 stars) (GitHub)
 
-**Co-founder relationship:** Both attended the University of Michigan (Albert in Biomedical Engineering, Nathan in Computer Science), indicating a likely university connection.
+**Co-founder relationship:** Both founders attended the University of Michigan — Albert for biomedical engineering, Nathan for computer science (runharbor.com/company).
 
-**Founder-market fit:** Albert Cai spent four years embedded in clinical trial operations at Biolinq, directly witnessing the EDC pain point at research sites during FDA-track studies. His regulatory and clinical operations background provides domain credibility with sponsors and sites. Nathan Leung brings production engineering experience from Google, Ramp, and an early-stage YC startup (Jupiter), with demonstrated ability to build zero-to-one products. No advisors, board members, or notable investors beyond YC were identified in public sources.
+**Founder-market fit:** Albert Cai spent four years in clinical trials and regulatory strategy at Biolinq, directly observing coordinators spending hours on manual data entry at clinical sites (YC company page). He led the regulatory pathway from prototype to FDA authorization, giving him first-hand understanding of 21 CFR Part 11 and GCP compliance requirements. Nathan Leung brings zero-to-one startup experience as first employee at a YC company (Jupiter, S19), combined with engineering experience at Google and Ramp (runharbor.com/company). No advisors, board members, or notable investors beyond YC were found on public sources.
 
 ## Key Risks
 
-**Name confusion with Harbor Clinical:** Harbor Clinical (harborclinical.com) is a separate, established clinical services/FSP company. Search results frequently conflate the two, which could create brand confusion with prospective customers and complicate SEO/marketing efforts.
+**Regulatory validation burden:** Every software update to an EDC used in a clinical trial requires re-validation under 21 CFR Part 11 and ICH E6(R2) GCP guidelines. Harbor's AI-driven features (document extraction, auto-generated eCRFs) introduce novel validation challenges that regulators have not yet standardized guidance for. Harbor states it ships a validation package with every license (runharbor.com), but the regulatory acceptance of AI-extracted clinical data at scale remains uncharted.
 
-**Incumbent AI response:** Medidata announced AI-driven insights embedding within study planning and execution for 2025 (Medidata CTO, late 2024). Veeva announced AI Agents across all applications starting December 2025, expanding across R&D in 2026 (Veeva). Both incumbents have existing customer bases of thousands of sponsors and can bundle AI features into existing contracts at marginal cost.
+**Incumbent response — Medidata Rave Lite:** Medidata launched Rave Lite in October 2024 specifically to simplify study builds and target the small-to-mid trial segment (Dassault Systèmes press release, Oct 2024). This directly overlaps with Harbor's initial wedge of faster, cheaper EDC setup for smaller sponsors.
 
-**Regulatory validation risk:** AI-extracted clinical data must meet FDA audit standards. Any extraction error in a pivotal trial that causes a regulatory finding could damage trust with the entire sponsor/CRO customer base. The company claims GCP and 21 CFR Part 11 compliance (runharbor.com), but no public third-party audit or FDA feedback on AI-extracted EDC data was found.
+**Clinical data liability:** Errors in AI-extracted clinical trial data could have patient safety and regulatory consequences. A single high-profile data extraction error in a pivotal trial could damage trust in the AI-EDC category broadly. Harbor employs human-in-the-loop review (runharbor.com), but the liability exposure is structurally higher than in manual-entry systems where the site bears responsibility for data accuracy.
 
-**Two-person team with regulated product:** The company lists only 2 employees (YC page) while simultaneously maintaining 21 CFR Part 11 validation, HIPAA compliance, customer support, and sales. Job postings for SDR and Forward-Deployed Engineer suggest awareness of this constraint (runharbor.com/company).
+**Name collision:** "Harbor" is a common English word shared with Harbor Freight, Harbor Clinical (a separate LinkedIn entity), and multiple other companies. This creates SEO, brand recognition, and due-diligence disambiguation challenges.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | USD 1.93B in 2025, projected to USD 5.88B by 2034 at 13.57% CAGR (Precedence Research, 2025 via search snippet) |
+| TAM | $1.84B in 2025, projected $5.73B by 2034 at 13.57% CAGR (Fortune Business Insights, 2025) |
 | SAM | No public data found |
-| Traction | 5 live clinical studies (YC page, 2025); 6 named customers on website (runharbor.com); 1,600-subject trial configured in 1 week (YC page) |
-| Revenue Signal | Commercial tier starts at $2,000/month; free academic tier; enterprise volume pricing (runharbor.com pricing page) |
-| Founders | Albert Cai (CEO): BME Michigan, 4 yrs clinical ops at Biolinq through FDA De Novo. Nathan Leung (CTO): Math UCLA / CS Michigan, employee #1 Jupiter (YC S19), Google, Ramp. |
-| Competitors | Medidata Rave ($5.8B acquisition, 2,300 customers, legacy passive EDC); Veeva Vault EDC (public co, 1,000+ study starts, AI Agents launching 2026); Castor EDC ($65M raised, 50K users, DCT focus) |
-| Moat Signals | 21 CFR Part 11 / HIPAA / GDPR compliance infrastructure (runharbor.com); flat pricing vs. incumbent per-subject models (runharbor.com) |
-| Risk Factors | Incumbent AI catch-up (Medidata, Veeva both launching AI features), brand confusion with Harbor Clinical, regulatory validation of AI-extracted data unproven at scale |
-| Founder Reach | Albert Cai: Twitter @AlbertCai_X (count not retrievable), LinkedIn linkedin.com/in/ac-ai/. Nathan Leung: Twitter @nathanhleung (count not retrievable), LinkedIn linkedin.com/in/nathanhleung/, GitHub 74 repos (star count not retrievable). |
-| Distribution Signals | 3 job postings including SDR role (runharbor.com/company); Google Cloud Partner, NVIDIA Inception, Octane Launchpad (runharbor.com) |
+| Traction | Live in 5 clinical studies (YC company page); 1,600-subject trial configured in 1 week (YC company page); 6 named customers (runharbor.com) |
+| Revenue Signal | Commercial tier starting $2,000/mo, flat-rate; free academic tier; enterprise volume pricing (runharbor.com pricing page) |
+| Founders | Albert Cai (CEO): BME U of Michigan, 4 yrs clinical/regulatory at Biolinq (FDA authorization). Nathan Leung (CTO): Math UCLA + CS Michigan, employee #1 at Jupiter (YC S19), Google, Ramp. |
+| Competitors | Medidata Rave (acquired $5.8B, est. ~$701.5M rev, industry standard for large pharma); Castor EDC ($65M raised, 7,500+ studies, targets academic/DCT); Veeva Vault EDC (public VEEV, cloud-native suite); Oracle Clinical One (Oracle division, unified platform); Viedoc (Monterro-backed, EU-focused) |
+| Moat Signals | 21 CFR Part 11 / HIPAA / GDPR compliance with validation packages (runharbor.com); mid-trial switching costs |
+| Risk Factors | Regulatory validation of AI-extracted clinical data, Medidata Rave Lite incumbent response, clinical data liability exposure |
+| Founder Reach | Albert Cai: Twitter not found, LinkedIn linkedin.com/in/ac-ai/. Nathan Leung: Twitter @nathanhleung (count not retrievable), LinkedIn linkedin.com/in/nathanhleung/, GitHub 207 followers + 301 stars top repo (GitHub) |
+| Distribution Signals | YC launch tweet by @ycombinator (x.com); Google Cloud Partner, NVIDIA Inception Program, Octane Launchpad (runharbor.com); 3 open job postings including SDR (runharbor.com/company) |
 | Emails | hello@runharbor.com (runharbor.com) |

@@ -31,6 +31,10 @@
       "score": 63,
       "tier": "Neutral"
     },
+    "naval-ravikant": {
+      "score": 69,
+      "tier": "Invest"
+    },
     "paul-graham": {
       "score": 54,
       "tier": "Neutral"
@@ -51,19 +55,20 @@
   "consolidatedScores": {
     "CB": 48,
     "EG": 63,
-    "NR": null,
+    "NR": 69,
     "PG": 54,
     "PT": 34,
     "SL": 32,
     "VK": 47
   },
-  "consolidatedAvg": 46.33,
-  "consolidatedRank": 29,
+  "consolidatedAvg": 49.57,
+  "consolidatedRank": 21,
   "paths": {
     "memo": "spring2026/memos/benchspan.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/benchspan.md",
       "elad-gil": "spring2026/evals/elad-gil/benchspan.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/benchspan.md",
       "paul-graham": "spring2026/evals/paul-graham/benchspan.md",
       "peter-thiel": "spring2026/evals/peter-thiel/benchspan.md",
       "sam-lessin": "spring2026/evals/sam-lessin/benchspan.md",

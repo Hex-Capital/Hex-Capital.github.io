@@ -26,6 +26,10 @@
       "score": 41,
       "tier": "Pass"
     },
+    "elad-gil": {
+      "score": 36,
+      "tier": "Pass"
+    },
     "naval-ravikant": {
       "score": 40,
       "tier": "Pass"
@@ -49,19 +53,20 @@
   },
   "consolidatedScores": {
     "CB": 41,
-    "EG": null,
+    "EG": 36,
     "NR": 40,
     "PG": 43,
     "PT": 35,
     "SL": 39,
     "VK": 48
   },
-  "consolidatedAvg": 41,
-  "consolidatedRank": 58,
+  "consolidatedAvg": 40.29,
+  "consolidatedRank": 71,
   "paths": {
     "memo": "spring2026/memos/inloop-robotics.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/inloop-robotics.md",
+      "elad-gil": "spring2026/evals/elad-gil/inloop-robotics.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/inloop-robotics.md",
       "paul-graham": "spring2026/evals/paul-graham/inloop-robotics.md",
       "peter-thiel": "spring2026/evals/peter-thiel/inloop-robotics.md",

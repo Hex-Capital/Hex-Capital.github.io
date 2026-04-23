@@ -26,6 +26,10 @@
       "score": 39,
       "tier": "Pass"
     },
+    "elad-gil": {
+      "score": 46,
+      "tier": "Neutral"
+    },
     "naval-ravikant": {
       "score": 57,
       "tier": "Neutral"
@@ -49,19 +53,20 @@
   },
   "consolidatedScores": {
     "CB": 39,
-    "EG": null,
+    "EG": 46,
     "NR": 57,
     "PG": 55,
     "PT": 36,
     "SL": 34,
     "VK": 38
   },
-  "consolidatedAvg": 43.17,
-  "consolidatedRank": 43,
+  "consolidatedAvg": 43.57,
+  "consolidatedRank": 44,
   "paths": {
     "memo": "spring2026/memos/kuli.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/kuli.md",
+      "elad-gil": "spring2026/evals/elad-gil/kuli.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/kuli.md",
       "paul-graham": "spring2026/evals/paul-graham/kuli.md",
       "peter-thiel": "spring2026/evals/peter-thiel/kuli.md",

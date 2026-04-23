@@ -28,6 +28,10 @@
       "score": 47,
       "tier": "Neutral"
     },
+    "naval-ravikant": {
+      "score": 48,
+      "tier": "Neutral"
+    },
     "paul-graham": {
       "score": 47,
       "tier": "Neutral"
@@ -48,19 +52,20 @@
   "consolidatedScores": {
     "CB": 38,
     "EG": 47,
-    "NR": null,
+    "NR": 48,
     "PG": 47,
     "PT": 33,
     "SL": 30,
     "VK": 43
   },
-  "consolidatedAvg": 39.67,
-  "consolidatedRank": 77,
+  "consolidatedAvg": 40.86,
+  "consolidatedRank": 66,
   "paths": {
     "memo": "spring2026/memos/cignara.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/cignara.md",
       "elad-gil": "spring2026/evals/elad-gil/cignara.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/cignara.md",
       "paul-graham": "spring2026/evals/paul-graham/cignara.md",
       "peter-thiel": "spring2026/evals/peter-thiel/cignara.md",
       "sam-lessin": "spring2026/evals/sam-lessin/cignara.md",

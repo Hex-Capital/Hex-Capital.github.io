@@ -26,6 +26,10 @@
       "score": 43,
       "tier": "Pass"
     },
+    "elad-gil": {
+      "score": 56,
+      "tier": "Neutral"
+    },
     "naval-ravikant": {
       "score": 76,
       "tier": "Invest"
@@ -49,19 +53,20 @@
   },
   "consolidatedScores": {
     "CB": 43,
-    "EG": null,
+    "EG": 56,
     "NR": 76,
     "PG": 56,
     "PT": 40,
     "SL": 40,
     "VK": 50
   },
-  "consolidatedAvg": 50.83,
-  "consolidatedRank": 15,
+  "consolidatedAvg": 51.57,
+  "consolidatedRank": 14,
   "paths": {
     "memo": "spring2026/memos/keyframe-labs.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/keyframe-labs.md",
+      "elad-gil": "spring2026/evals/elad-gil/keyframe-labs.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/keyframe-labs.md",
       "paul-graham": "spring2026/evals/paul-graham/keyframe-labs.md",
       "peter-thiel": "spring2026/evals/peter-thiel/keyframe-labs.md",

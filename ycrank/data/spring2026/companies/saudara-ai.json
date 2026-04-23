@@ -25,6 +25,10 @@
       "score": 42,
       "tier": "Pass"
     },
+    "elad-gil": {
+      "score": 39,
+      "tier": "Pass"
+    },
     "naval-ravikant": {
       "score": 39,
       "tier": "Pass"
@@ -40,27 +44,33 @@
     "sam-lessin": {
       "score": 37,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 31,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 42,
-    "EG": null,
+    "EG": 39,
     "NR": 39,
     "PG": 54,
     "PT": 27,
     "SL": 37,
-    "VK": null
+    "VK": 31
   },
-  "consolidatedAvg": 39.8,
-  "consolidatedRank": 75,
+  "consolidatedAvg": 38.43,
+  "consolidatedRank": 88,
   "paths": {
     "memo": "spring2026/memos/saudara-ai.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/saudara-ai.md",
+      "elad-gil": "spring2026/evals/elad-gil/saudara-ai.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/saudara-ai.md",
       "paul-graham": "spring2026/evals/paul-graham/saudara-ai.md",
       "peter-thiel": "spring2026/evals/peter-thiel/saudara-ai.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/saudara-ai.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/saudara-ai.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/saudara-ai.md"
     }
   }
 }

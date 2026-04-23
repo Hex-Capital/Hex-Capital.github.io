@@ -29,6 +29,10 @@
       "score": 42,
       "tier": "Pass"
     },
+    "naval-ravikant": {
+      "score": 57,
+      "tier": "Neutral"
+    },
     "paul-graham": {
       "score": 54,
       "tier": "Neutral"
@@ -49,19 +53,20 @@
   "consolidatedScores": {
     "CB": 32,
     "EG": 42,
-    "NR": null,
+    "NR": 57,
     "PG": 54,
     "PT": 34,
     "SL": 34,
     "VK": 36
   },
-  "consolidatedAvg": 38.67,
-  "consolidatedRank": 84,
+  "consolidatedAvg": 41.29,
+  "consolidatedRank": 63,
   "paths": {
     "memo": "spring2026/memos/cohesion.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/cohesion.md",
       "elad-gil": "spring2026/evals/elad-gil/cohesion.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/cohesion.md",
       "paul-graham": "spring2026/evals/paul-graham/cohesion.md",
       "peter-thiel": "spring2026/evals/peter-thiel/cohesion.md",
       "sam-lessin": "spring2026/evals/sam-lessin/cohesion.md",

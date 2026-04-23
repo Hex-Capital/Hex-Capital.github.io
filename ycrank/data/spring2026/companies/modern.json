@@ -27,6 +27,10 @@
       "score": 42,
       "tier": "Pass"
     },
+    "elad-gil": {
+      "score": 49,
+      "tier": "Neutral"
+    },
     "naval-ravikant": {
       "score": 48,
       "tier": "Neutral"
@@ -50,19 +54,20 @@
   },
   "consolidatedScores": {
     "CB": 42,
-    "EG": null,
+    "EG": 49,
     "NR": 48,
     "PG": 45,
     "PT": 32,
     "SL": 33,
     "VK": 41
   },
-  "consolidatedAvg": 40.17,
-  "consolidatedRank": 68,
+  "consolidatedAvg": 41.43,
+  "consolidatedRank": 62,
   "paths": {
     "memo": "spring2026/memos/modern.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/modern.md",
+      "elad-gil": "spring2026/evals/elad-gil/modern.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/modern.md",
       "paul-graham": "spring2026/evals/paul-graham/modern.md",
       "peter-thiel": "spring2026/evals/peter-thiel/modern.md",

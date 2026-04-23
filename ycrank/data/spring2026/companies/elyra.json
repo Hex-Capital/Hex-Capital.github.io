@@ -25,6 +25,14 @@
       "score": 33,
       "tier": "Pass"
     },
+    "elad-gil": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 46,
+      "tier": "Neutral"
+    },
     "paul-graham": {
       "score": 41,
       "tier": "Pass"
@@ -44,19 +52,21 @@
   },
   "consolidatedScores": {
     "CB": 33,
-    "EG": null,
-    "NR": null,
+    "EG": 41,
+    "NR": 46,
     "PG": 41,
     "PT": 30,
     "SL": 28,
     "VK": 38
   },
-  "consolidatedAvg": 34,
-  "consolidatedRank": 98,
+  "consolidatedAvg": 36.71,
+  "consolidatedRank": 93,
   "paths": {
     "memo": "spring2026/memos/elyra.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/elyra.md",
+      "elad-gil": "spring2026/evals/elad-gil/elyra.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/elyra.md",
       "paul-graham": "spring2026/evals/paul-graham/elyra.md",
       "peter-thiel": "spring2026/evals/peter-thiel/elyra.md",
       "sam-lessin": "spring2026/evals/sam-lessin/elyra.md",

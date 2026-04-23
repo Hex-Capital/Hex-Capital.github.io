@@ -24,6 +24,10 @@
       "score": 30,
       "tier": "Pass"
     },
+    "elad-gil": {
+      "score": 30,
+      "tier": "Pass"
+    },
     "naval-ravikant": {
       "score": 42,
       "tier": "Pass"
@@ -47,19 +51,20 @@
   },
   "consolidatedScores": {
     "CB": 30,
-    "EG": null,
+    "EG": 30,
     "NR": 42,
     "PG": 34,
     "PT": 22,
     "SL": 28,
     "VK": 38
   },
-  "consolidatedAvg": 32.33,
+  "consolidatedAvg": 32,
   "consolidatedRank": 101,
   "paths": {
     "memo": "spring2026/memos/pentagon.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/pentagon.md",
+      "elad-gil": "spring2026/evals/elad-gil/pentagon.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/pentagon.md",
       "paul-graham": "spring2026/evals/paul-graham/pentagon.md",
       "peter-thiel": "spring2026/evals/peter-thiel/pentagon.md",

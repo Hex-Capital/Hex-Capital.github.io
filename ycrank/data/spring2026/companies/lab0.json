@@ -24,6 +24,10 @@
       "score": 46,
       "tier": "Neutral"
     },
+    "elad-gil": {
+      "score": 45,
+      "tier": "Neutral"
+    },
     "naval-ravikant": {
       "score": 61,
       "tier": "Neutral"
@@ -47,7 +51,7 @@
   },
   "consolidatedScores": {
     "CB": 46,
-    "EG": null,
+    "EG": 45,
     "NR": 61,
     "PG": 46,
     "PT": 37,
@@ -55,11 +59,12 @@
     "VK": 45
   },
   "consolidatedAvg": 45,
-  "consolidatedRank": 33,
+  "consolidatedRank": 34,
   "paths": {
     "memo": "spring2026/memos/lab0.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/lab0.md",
+      "elad-gil": "spring2026/evals/elad-gil/lab0.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/lab0.md",
       "paul-graham": "spring2026/evals/paul-graham/lab0.md",
       "peter-thiel": "spring2026/evals/peter-thiel/lab0.md",

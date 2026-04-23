@@ -25,6 +25,10 @@
       "score": 35,
       "tier": "Pass"
     },
+    "elad-gil": {
+      "score": 39,
+      "tier": "Pass"
+    },
     "naval-ravikant": {
       "score": 42,
       "tier": "Pass"
@@ -48,19 +52,20 @@
   },
   "consolidatedScores": {
     "CB": 35,
-    "EG": null,
+    "EG": 39,
     "NR": 42,
     "PG": 63,
     "PT": 28,
     "SL": 34,
     "VK": 38
   },
-  "consolidatedAvg": 40,
+  "consolidatedAvg": 39.86,
   "consolidatedRank": 72,
   "paths": {
     "memo": "spring2026/memos/manicule.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/manicule.md",
+      "elad-gil": "spring2026/evals/elad-gil/manicule.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/manicule.md",
       "paul-graham": "spring2026/evals/paul-graham/manicule.md",
       "peter-thiel": "spring2026/evals/peter-thiel/manicule.md",

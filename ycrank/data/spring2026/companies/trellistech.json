@@ -20,6 +20,10 @@
       "score": 40,
       "tier": "Pass"
     },
+    "elad-gil": {
+      "score": 43,
+      "tier": "Pass"
+    },
     "naval-ravikant": {
       "score": 57,
       "tier": "Neutral"
@@ -35,27 +39,33 @@
     "sam-lessin": {
       "score": 35,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 38,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 40,
-    "EG": null,
+    "EG": 43,
     "NR": 57,
     "PG": 54,
     "PT": 34,
     "SL": 35,
-    "VK": null
+    "VK": 38
   },
-  "consolidatedAvg": 44,
-  "consolidatedRank": 38,
+  "consolidatedAvg": 43,
+  "consolidatedRank": 51,
   "paths": {
     "memo": "spring2026/memos/trellistech.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/trellistech.md",
+      "elad-gil": "spring2026/evals/elad-gil/trellistech.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/trellistech.md",
       "paul-graham": "spring2026/evals/paul-graham/trellistech.md",
       "peter-thiel": "spring2026/evals/peter-thiel/trellistech.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/trellistech.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/trellistech.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/trellistech.md"
     }
   }
 }

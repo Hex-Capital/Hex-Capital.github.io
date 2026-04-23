@@ -26,6 +26,14 @@
       "score": 46,
       "tier": "Neutral"
     },
+    "elad-gil": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 47,
+      "tier": "Neutral"
+    },
     "paul-graham": {
       "score": 45,
       "tier": "Neutral"
@@ -45,19 +53,21 @@
   },
   "consolidatedScores": {
     "CB": 46,
-    "EG": null,
-    "NR": null,
+    "EG": 34,
+    "NR": 47,
     "PG": 45,
     "PT": 38,
     "SL": 40,
     "VK": 64
   },
-  "consolidatedAvg": 46.6,
-  "consolidatedRank": 27,
+  "consolidatedAvg": 44.86,
+  "consolidatedRank": 35,
   "paths": {
     "memo": "spring2026/memos/eden-robotics.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/eden-robotics.md",
+      "elad-gil": "spring2026/evals/elad-gil/eden-robotics.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/eden-robotics.md",
       "paul-graham": "spring2026/evals/paul-graham/eden-robotics.md",
       "peter-thiel": "spring2026/evals/peter-thiel/eden-robotics.md",
       "sam-lessin": "spring2026/evals/sam-lessin/eden-robotics.md",

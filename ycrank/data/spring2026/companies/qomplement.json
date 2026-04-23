@@ -25,6 +25,10 @@
       "score": 41,
       "tier": "Pass"
     },
+    "elad-gil": {
+      "score": 39,
+      "tier": "Pass"
+    },
     "naval-ravikant": {
       "score": 45,
       "tier": "Neutral"
@@ -48,19 +52,20 @@
   },
   "consolidatedScores": {
     "CB": 41,
-    "EG": null,
+    "EG": 39,
     "NR": 45,
     "PG": 42,
     "PT": 32,
     "SL": 32,
     "VK": 38
   },
-  "consolidatedAvg": 38.33,
-  "consolidatedRank": 86,
+  "consolidatedAvg": 38.43,
+  "consolidatedRank": 87,
   "paths": {
     "memo": "spring2026/memos/qomplement.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/qomplement.md",
+      "elad-gil": "spring2026/evals/elad-gil/qomplement.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/qomplement.md",
       "paul-graham": "spring2026/evals/paul-graham/qomplement.md",
       "peter-thiel": "spring2026/evals/peter-thiel/qomplement.md",

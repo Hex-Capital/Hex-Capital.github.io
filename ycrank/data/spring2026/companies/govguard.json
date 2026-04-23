@@ -23,6 +23,10 @@
       "score": 56,
       "tier": "Neutral"
     },
+    "elad-gil": {
+      "score": 50,
+      "tier": "Neutral"
+    },
     "naval-ravikant": {
       "score": 50,
       "tier": "Neutral"
@@ -46,19 +50,20 @@
   },
   "consolidatedScores": {
     "CB": 56,
-    "EG": null,
+    "EG": 50,
     "NR": 50,
     "PG": 47,
     "PT": 31,
     "SL": 39,
     "VK": 40
   },
-  "consolidatedAvg": 43.83,
-  "consolidatedRank": 41,
+  "consolidatedAvg": 44.71,
+  "consolidatedRank": 36,
   "paths": {
     "memo": "spring2026/memos/govguard.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/govguard.md",
+      "elad-gil": "spring2026/evals/elad-gil/govguard.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/govguard.md",
       "paul-graham": "spring2026/evals/paul-graham/govguard.md",
       "peter-thiel": "spring2026/evals/peter-thiel/govguard.md",

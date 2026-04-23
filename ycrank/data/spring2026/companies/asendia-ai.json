@@ -29,6 +29,10 @@
       "score": 42,
       "tier": "Pass"
     },
+    "naval-ravikant": {
+      "score": 46,
+      "tier": "Neutral"
+    },
     "paul-graham": {
       "score": 46,
       "tier": "Neutral"
@@ -49,19 +53,20 @@
   "consolidatedScores": {
     "CB": 44,
     "EG": 42,
-    "NR": null,
+    "NR": 46,
     "PG": 46,
     "PT": 33,
     "SL": 28,
     "VK": 37
   },
-  "consolidatedAvg": 38.33,
-  "consolidatedRank": 85,
+  "consolidatedAvg": 39.43,
+  "consolidatedRank": 80,
   "paths": {
     "memo": "spring2026/memos/asendia-ai.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/asendia-ai.md",
       "elad-gil": "spring2026/evals/elad-gil/asendia-ai.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/asendia-ai.md",
       "paul-graham": "spring2026/evals/paul-graham/asendia-ai.md",
       "peter-thiel": "spring2026/evals/peter-thiel/asendia-ai.md",
       "sam-lessin": "spring2026/evals/sam-lessin/asendia-ai.md",

@@ -29,6 +29,10 @@
       "score": 70,
       "tier": "Invest"
     },
+    "naval-ravikant": {
+      "score": 48,
+      "tier": "Neutral"
+    },
     "paul-graham": {
       "score": 61,
       "tier": "Neutral"
@@ -49,19 +53,20 @@
   "consolidatedScores": {
     "CB": 57,
     "EG": 70,
-    "NR": null,
+    "NR": 48,
     "PG": 61,
     "PT": 41,
     "SL": 40,
     "VK": 43
   },
-  "consolidatedAvg": 52,
-  "consolidatedRank": 12,
+  "consolidatedAvg": 51.43,
+  "consolidatedRank": 15,
   "paths": {
     "memo": "spring2026/memos/complir.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/complir.md",
       "elad-gil": "spring2026/evals/elad-gil/complir.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/complir.md",
       "paul-graham": "spring2026/evals/paul-graham/complir.md",
       "peter-thiel": "spring2026/evals/peter-thiel/complir.md",
       "sam-lessin": "spring2026/evals/sam-lessin/complir.md",

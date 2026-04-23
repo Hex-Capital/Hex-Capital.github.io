@@ -31,6 +31,10 @@
       "score": 44,
       "tier": "Pass"
     },
+    "naval-ravikant": {
+      "score": 55,
+      "tier": "Neutral"
+    },
     "paul-graham": {
       "score": 49,
       "tier": "Neutral"
@@ -51,19 +55,20 @@
   "consolidatedScores": {
     "CB": 52,
     "EG": 44,
-    "NR": null,
+    "NR": 55,
     "PG": 49,
     "PT": 35,
     "SL": 39,
     "VK": 44
   },
-  "consolidatedAvg": 43.83,
-  "consolidatedRank": 39,
+  "consolidatedAvg": 45.43,
+  "consolidatedRank": 33,
   "paths": {
     "memo": "spring2026/memos/andustry.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/andustry.md",
       "elad-gil": "spring2026/evals/elad-gil/andustry.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/andustry.md",
       "paul-graham": "spring2026/evals/paul-graham/andustry.md",
       "peter-thiel": "spring2026/evals/peter-thiel/andustry.md",
       "sam-lessin": "spring2026/evals/sam-lessin/andustry.md",

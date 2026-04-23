@@ -26,6 +26,10 @@
       "score": 34,
       "tier": "Pass"
     },
+    "elad-gil": {
+      "score": 34,
+      "tier": "Pass"
+    },
     "naval-ravikant": {
       "score": 38,
       "tier": "Pass"
@@ -49,19 +53,20 @@
   },
   "consolidatedScores": {
     "CB": 34,
-    "EG": null,
+    "EG": 34,
     "NR": 38,
     "PG": 36,
     "PT": 27,
     "SL": 40,
     "VK": 40
   },
-  "consolidatedAvg": 35.83,
-  "consolidatedRank": 93,
+  "consolidatedAvg": 35.57,
+  "consolidatedRank": 96,
   "paths": {
     "memo": "spring2026/memos/hubxyz.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/hubxyz.md",
+      "elad-gil": "spring2026/evals/elad-gil/hubxyz.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/hubxyz.md",
       "paul-graham": "spring2026/evals/paul-graham/hubxyz.md",
       "peter-thiel": "spring2026/evals/peter-thiel/hubxyz.md",

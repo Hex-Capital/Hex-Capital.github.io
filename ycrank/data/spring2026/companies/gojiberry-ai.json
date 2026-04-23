@@ -20,6 +20,10 @@
       "score": 31,
       "tier": "Pass"
     },
+    "elad-gil": {
+      "score": 38,
+      "tier": "Pass"
+    },
     "naval-ravikant": {
       "score": 50,
       "tier": "Neutral"
@@ -43,19 +47,20 @@
   },
   "consolidatedScores": {
     "CB": 31,
-    "EG": null,
+    "EG": 38,
     "NR": 50,
     "PG": 56,
     "PT": 33,
     "SL": 29,
     "VK": 41
   },
-  "consolidatedAvg": 40,
-  "consolidatedRank": 71,
+  "consolidatedAvg": 39.71,
+  "consolidatedRank": 74,
   "paths": {
     "memo": "spring2026/memos/gojiberry-ai.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/gojiberry-ai.md",
+      "elad-gil": "spring2026/evals/elad-gil/gojiberry-ai.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/gojiberry-ai.md",
       "paul-graham": "spring2026/evals/paul-graham/gojiberry-ai.md",
       "peter-thiel": "spring2026/evals/peter-thiel/gojiberry-ai.md",

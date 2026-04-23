@@ -23,6 +23,10 @@
       "score": 46,
       "tier": "Neutral"
     },
+    "elad-gil": {
+      "score": 61,
+      "tier": "Neutral"
+    },
     "naval-ravikant": {
       "score": 66,
       "tier": "Invest"
@@ -38,27 +42,33 @@
     "sam-lessin": {
       "score": 38,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 48,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
     "CB": 46,
-    "EG": null,
+    "EG": 61,
     "NR": 66,
     "PG": 46,
     "PT": 41,
     "SL": 38,
-    "VK": null
+    "VK": 48
   },
-  "consolidatedAvg": 47.4,
-  "consolidatedRank": 24,
+  "consolidatedAvg": 49.43,
+  "consolidatedRank": 23,
   "paths": {
     "memo": "spring2026/memos/silmaril.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/silmaril.md",
+      "elad-gil": "spring2026/evals/elad-gil/silmaril.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/silmaril.md",
       "paul-graham": "spring2026/evals/paul-graham/silmaril.md",
       "peter-thiel": "spring2026/evals/peter-thiel/silmaril.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/silmaril.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/silmaril.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/silmaril.md"
     }
   }
 }

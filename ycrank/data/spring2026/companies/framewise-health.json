@@ -25,6 +25,14 @@
       "score": 48,
       "tier": "Neutral"
     },
+    "elad-gil": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 53,
+      "tier": "Neutral"
+    },
     "paul-graham": {
       "score": 48,
       "tier": "Neutral"
@@ -44,19 +52,21 @@
   },
   "consolidatedScores": {
     "CB": 48,
-    "EG": null,
-    "NR": null,
+    "EG": 45,
+    "NR": 53,
     "PG": 48,
     "PT": 28,
     "SL": 36,
     "VK": 42
   },
-  "consolidatedAvg": 40.4,
-  "consolidatedRank": 66,
+  "consolidatedAvg": 42.86,
+  "consolidatedRank": 52,
   "paths": {
     "memo": "spring2026/memos/framewise-health.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/framewise-health.md",
+      "elad-gil": "spring2026/evals/elad-gil/framewise-health.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/framewise-health.md",
       "paul-graham": "spring2026/evals/paul-graham/framewise-health.md",
       "peter-thiel": "spring2026/evals/peter-thiel/framewise-health.md",
       "sam-lessin": "spring2026/evals/sam-lessin/framewise-health.md",

@@ -26,6 +26,10 @@
       "score": 65,
       "tier": "Invest"
     },
+    "elad-gil": {
+      "score": 72,
+      "tier": "Invest"
+    },
     "naval-ravikant": {
       "score": 69,
       "tier": "Invest"
@@ -41,27 +45,33 @@
     "sam-lessin": {
       "score": 44,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 46,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
     "CB": 65,
-    "EG": null,
+    "EG": 72,
     "NR": 69,
     "PG": 72,
     "PT": 47,
     "SL": 44,
-    "VK": null
+    "VK": 46
   },
-  "consolidatedAvg": 59.4,
+  "consolidatedAvg": 59.29,
   "consolidatedRank": 2,
   "paths": {
     "memo": "spring2026/memos/runharbor.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/runharbor.md",
+      "elad-gil": "spring2026/evals/elad-gil/runharbor.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/runharbor.md",
       "paul-graham": "spring2026/evals/paul-graham/runharbor.md",
       "peter-thiel": "spring2026/evals/peter-thiel/runharbor.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/runharbor.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/runharbor.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/runharbor.md"
     }
   }
 }

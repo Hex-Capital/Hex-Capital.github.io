@@ -29,6 +29,10 @@
       "score": 40,
       "tier": "Pass"
     },
+    "naval-ravikant": {
+      "score": 53,
+      "tier": "Neutral"
+    },
     "paul-graham": {
       "score": 52,
       "tier": "Neutral"
@@ -49,19 +53,20 @@
   "consolidatedScores": {
     "CB": 46,
     "EG": 40,
-    "NR": null,
+    "NR": 53,
     "PG": 52,
     "PT": 35,
     "SL": 43,
     "VK": 41
   },
-  "consolidatedAvg": 42.83,
-  "consolidatedRank": 47,
+  "consolidatedAvg": 44.29,
+  "consolidatedRank": 39,
   "paths": {
     "memo": "spring2026/memos/callab-ai.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/callab-ai.md",
       "elad-gil": "spring2026/evals/elad-gil/callab-ai.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/callab-ai.md",
       "paul-graham": "spring2026/evals/paul-graham/callab-ai.md",
       "peter-thiel": "spring2026/evals/peter-thiel/callab-ai.md",
       "sam-lessin": "spring2026/evals/sam-lessin/callab-ai.md",

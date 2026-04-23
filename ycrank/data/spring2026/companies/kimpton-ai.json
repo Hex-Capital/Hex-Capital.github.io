@@ -25,6 +25,10 @@
       "score": 38,
       "tier": "Pass"
     },
+    "elad-gil": {
+      "score": 44,
+      "tier": "Pass"
+    },
     "naval-ravikant": {
       "score": 66,
       "tier": "Invest"
@@ -48,19 +52,20 @@
   },
   "consolidatedScores": {
     "CB": 38,
-    "EG": null,
+    "EG": 44,
     "NR": 66,
     "PG": 59,
     "PT": 40,
     "SL": 35,
     "VK": 41
   },
-  "consolidatedAvg": 46.5,
-  "consolidatedRank": 28,
+  "consolidatedAvg": 46.14,
+  "consolidatedRank": 32,
   "paths": {
     "memo": "spring2026/memos/kimpton-ai.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/kimpton-ai.md",
+      "elad-gil": "spring2026/evals/elad-gil/kimpton-ai.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/kimpton-ai.md",
       "paul-graham": "spring2026/evals/paul-graham/kimpton-ai.md",
       "peter-thiel": "spring2026/evals/peter-thiel/kimpton-ai.md",

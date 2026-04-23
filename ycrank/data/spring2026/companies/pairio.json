@@ -25,6 +25,10 @@
       "score": 40,
       "tier": "Pass"
     },
+    "elad-gil": {
+      "score": 42,
+      "tier": "Pass"
+    },
     "naval-ravikant": {
       "score": 50,
       "tier": "Neutral"
@@ -48,19 +52,20 @@
   },
   "consolidatedScores": {
     "CB": 40,
-    "EG": null,
+    "EG": 42,
     "NR": 50,
     "PG": 49,
     "PT": 33,
     "SL": 34,
     "VK": 40
   },
-  "consolidatedAvg": 41,
-  "consolidatedRank": 60,
+  "consolidatedAvg": 41.14,
+  "consolidatedRank": 65,
   "paths": {
     "memo": "spring2026/memos/pairio.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/pairio.md",
+      "elad-gil": "spring2026/evals/elad-gil/pairio.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/pairio.md",
       "paul-graham": "spring2026/evals/paul-graham/pairio.md",
       "peter-thiel": "spring2026/evals/peter-thiel/pairio.md",

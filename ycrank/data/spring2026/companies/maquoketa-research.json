@@ -27,6 +27,10 @@
       "score": 46,
       "tier": "Neutral"
     },
+    "elad-gil": {
+      "score": 31,
+      "tier": "Pass"
+    },
     "naval-ravikant": {
       "score": 39,
       "tier": "Pass"
@@ -50,19 +54,20 @@
   },
   "consolidatedScores": {
     "CB": 46,
-    "EG": null,
+    "EG": 31,
     "NR": 39,
     "PG": 39,
     "PT": 35,
     "SL": 38,
     "VK": 58
   },
-  "consolidatedAvg": 42.5,
-  "consolidatedRank": 50,
+  "consolidatedAvg": 40.86,
+  "consolidatedRank": 69,
   "paths": {
     "memo": "spring2026/memos/maquoketa-research.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/maquoketa-research.md",
+      "elad-gil": "spring2026/evals/elad-gil/maquoketa-research.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/maquoketa-research.md",
       "paul-graham": "spring2026/evals/paul-graham/maquoketa-research.md",
       "peter-thiel": "spring2026/evals/peter-thiel/maquoketa-research.md",

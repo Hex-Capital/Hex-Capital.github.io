@@ -25,6 +25,10 @@
       "score": 29,
       "tier": "Pass"
     },
+    "elad-gil": {
+      "score": 36,
+      "tier": "Pass"
+    },
     "naval-ravikant": {
       "score": 49,
       "tier": "Neutral"
@@ -48,19 +52,20 @@
   },
   "consolidatedScores": {
     "CB": 29,
-    "EG": null,
+    "EG": 36,
     "NR": 49,
     "PG": 43,
     "PT": 28,
     "SL": 31,
     "VK": 42
   },
-  "consolidatedAvg": 37,
-  "consolidatedRank": 89,
+  "consolidatedAvg": 36.86,
+  "consolidatedRank": 91,
   "paths": {
     "memo": "spring2026/memos/replicas.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/replicas.md",
+      "elad-gil": "spring2026/evals/elad-gil/replicas.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/replicas.md",
       "paul-graham": "spring2026/evals/paul-graham/replicas.md",
       "peter-thiel": "spring2026/evals/peter-thiel/replicas.md",

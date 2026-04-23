@@ -25,6 +25,10 @@
       "score": 53,
       "tier": "Neutral"
     },
+    "elad-gil": {
+      "score": 34,
+      "tier": "Pass"
+    },
     "naval-ravikant": {
       "score": 62,
       "tier": "Neutral"
@@ -48,19 +52,20 @@
   },
   "consolidatedScores": {
     "CB": 53,
-    "EG": null,
+    "EG": 34,
     "NR": 62,
     "PG": 56,
     "PT": 54,
     "SL": 67,
     "VK": 62
   },
-  "consolidatedAvg": 59,
-  "consolidatedRank": 3,
+  "consolidatedAvg": 55.43,
+  "consolidatedRank": 6,
   "paths": {
     "memo": "spring2026/memos/lumius.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/lumius.md",
+      "elad-gil": "spring2026/evals/elad-gil/lumius.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/lumius.md",
       "paul-graham": "spring2026/evals/paul-graham/lumius.md",
       "peter-thiel": "spring2026/evals/peter-thiel/lumius.md",

@@ -25,6 +25,10 @@
       "score": 37,
       "tier": "Pass"
     },
+    "elad-gil": {
+      "score": 49,
+      "tier": "Neutral"
+    },
     "naval-ravikant": {
       "score": 57,
       "tier": "Neutral"
@@ -40,27 +44,33 @@
     "sam-lessin": {
       "score": 35,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 42,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 37,
-    "EG": null,
+    "EG": 49,
     "NR": 57,
     "PG": 54,
     "PT": 36,
     "SL": 35,
-    "VK": null
+    "VK": 42
   },
-  "consolidatedAvg": 43.8,
-  "consolidatedRank": 42,
+  "consolidatedAvg": 44.29,
+  "consolidatedRank": 40,
   "paths": {
     "memo": "spring2026/memos/zolvo.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/zolvo.md",
+      "elad-gil": "spring2026/evals/elad-gil/zolvo.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/zolvo.md",
       "paul-graham": "spring2026/evals/paul-graham/zolvo.md",
       "peter-thiel": "spring2026/evals/peter-thiel/zolvo.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/zolvo.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/zolvo.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/zolvo.md"
     }
   }
 }

@@ -29,6 +29,10 @@
       "score": 44,
       "tier": "Pass"
     },
+    "naval-ravikant": {
+      "score": 47,
+      "tier": "Neutral"
+    },
     "paul-graham": {
       "score": 48,
       "tier": "Neutral"
@@ -49,19 +53,20 @@
   "consolidatedScores": {
     "CB": 45,
     "EG": 44,
-    "NR": null,
+    "NR": 47,
     "PG": 48,
     "PT": 36,
     "SL": 38,
     "VK": 44
   },
-  "consolidatedAvg": 42.5,
-  "consolidatedRank": 49,
+  "consolidatedAvg": 43.14,
+  "consolidatedRank": 46,
   "paths": {
     "memo": "spring2026/memos/aice-power.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/aice-power.md",
       "elad-gil": "spring2026/evals/elad-gil/aice-power.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/aice-power.md",
       "paul-graham": "spring2026/evals/paul-graham/aice-power.md",
       "peter-thiel": "spring2026/evals/peter-thiel/aice-power.md",
       "sam-lessin": "spring2026/evals/sam-lessin/aice-power.md",

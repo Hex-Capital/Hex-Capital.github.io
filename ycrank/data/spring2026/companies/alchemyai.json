@@ -31,6 +31,10 @@
       "score": 42,
       "tier": "Pass"
     },
+    "naval-ravikant": {
+      "score": 48,
+      "tier": "Neutral"
+    },
     "paul-graham": {
       "score": 41,
       "tier": "Pass"
@@ -51,19 +55,20 @@
   "consolidatedScores": {
     "CB": 39,
     "EG": 42,
-    "NR": null,
+    "NR": 48,
     "PG": 41,
     "PT": 29,
     "SL": 31,
     "VK": 40
   },
-  "consolidatedAvg": 37,
-  "consolidatedRank": 88,
+  "consolidatedAvg": 38.57,
+  "consolidatedRank": 86,
   "paths": {
     "memo": "spring2026/memos/alchemyai.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/alchemyai.md",
       "elad-gil": "spring2026/evals/elad-gil/alchemyai.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/alchemyai.md",
       "paul-graham": "spring2026/evals/paul-graham/alchemyai.md",
       "peter-thiel": "spring2026/evals/peter-thiel/alchemyai.md",
       "sam-lessin": "spring2026/evals/sam-lessin/alchemyai.md",

@@ -29,6 +29,10 @@
       "score": 46,
       "tier": "Neutral"
     },
+    "naval-ravikant": {
+      "score": 55,
+      "tier": "Neutral"
+    },
     "paul-graham": {
       "score": 52,
       "tier": "Neutral"
@@ -49,19 +53,20 @@
   "consolidatedScores": {
     "CB": 37,
     "EG": 46,
-    "NR": null,
+    "NR": 55,
     "PG": 52,
     "PT": 35,
     "SL": 32,
     "VK": 44
   },
-  "consolidatedAvg": 41,
-  "consolidatedRank": 57,
+  "consolidatedAvg": 43,
+  "consolidatedRank": 48,
   "paths": {
     "memo": "spring2026/memos/datost.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/datost.md",
       "elad-gil": "spring2026/evals/elad-gil/datost.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/datost.md",
       "paul-graham": "spring2026/evals/paul-graham/datost.md",
       "peter-thiel": "spring2026/evals/peter-thiel/datost.md",
       "sam-lessin": "spring2026/evals/sam-lessin/datost.md",

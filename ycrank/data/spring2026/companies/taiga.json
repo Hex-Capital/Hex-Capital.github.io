@@ -23,6 +23,10 @@
       "score": 49,
       "tier": "Neutral"
     },
+    "elad-gil": {
+      "score": 40,
+      "tier": "Pass"
+    },
     "naval-ravikant": {
       "score": 49,
       "tier": "Neutral"
@@ -38,27 +42,33 @@
     "sam-lessin": {
       "score": 30,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 40,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 49,
-    "EG": null,
+    "EG": 40,
     "NR": 49,
     "PG": 53,
     "PT": 33,
     "SL": 30,
-    "VK": null
+    "VK": 40
   },
-  "consolidatedAvg": 42.8,
-  "consolidatedRank": 48,
+  "consolidatedAvg": 42,
+  "consolidatedRank": 59,
   "paths": {
     "memo": "spring2026/memos/taiga.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/taiga.md",
+      "elad-gil": "spring2026/evals/elad-gil/taiga.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/taiga.md",
       "paul-graham": "spring2026/evals/paul-graham/taiga.md",
       "peter-thiel": "spring2026/evals/peter-thiel/taiga.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/taiga.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/taiga.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/taiga.md"
     }
   }
 }

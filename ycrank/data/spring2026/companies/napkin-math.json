@@ -27,6 +27,10 @@
       "score": 35,
       "tier": "Pass"
     },
+    "elad-gil": {
+      "score": 29,
+      "tier": "Pass"
+    },
     "naval-ravikant": {
       "score": 38,
       "tier": "Pass"
@@ -50,19 +54,20 @@
   },
   "consolidatedScores": {
     "CB": 35,
-    "EG": null,
+    "EG": 29,
     "NR": 38,
     "PG": 42,
     "PT": 22,
     "SL": 32,
     "VK": 35
   },
-  "consolidatedAvg": 34,
-  "consolidatedRank": 99,
+  "consolidatedAvg": 33.29,
+  "consolidatedRank": 100,
   "paths": {
     "memo": "spring2026/memos/napkin-math.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/napkin-math.md",
+      "elad-gil": "spring2026/evals/elad-gil/napkin-math.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/napkin-math.md",
       "paul-graham": "spring2026/evals/paul-graham/napkin-math.md",
       "peter-thiel": "spring2026/evals/peter-thiel/napkin-math.md",

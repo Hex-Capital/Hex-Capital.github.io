@@ -30,6 +30,10 @@
       "score": 50,
       "tier": "Neutral"
     },
+    "naval-ravikant": {
+      "score": 66,
+      "tier": "Invest"
+    },
     "paul-graham": {
       "score": 63,
       "tier": "Neutral"
@@ -50,19 +54,20 @@
   "consolidatedScores": {
     "CB": 52,
     "EG": 50,
-    "NR": null,
+    "NR": 66,
     "PG": 63,
     "PT": 39,
     "SL": 46,
     "VK": 56
   },
-  "consolidatedAvg": 51,
-  "consolidatedRank": 14,
+  "consolidatedAvg": 53.14,
+  "consolidatedRank": 11,
   "paths": {
     "memo": "spring2026/memos/clara-2.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/clara-2.md",
       "elad-gil": "spring2026/evals/elad-gil/clara-2.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/clara-2.md",
       "paul-graham": "spring2026/evals/paul-graham/clara-2.md",
       "peter-thiel": "spring2026/evals/peter-thiel/clara-2.md",
       "sam-lessin": "spring2026/evals/sam-lessin/clara-2.md",

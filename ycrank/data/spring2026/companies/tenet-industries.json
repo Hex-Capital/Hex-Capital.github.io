@@ -26,6 +26,10 @@
       "score": 54,
       "tier": "Neutral"
     },
+    "elad-gil": {
+      "score": 47,
+      "tier": "Neutral"
+    },
     "naval-ravikant": {
       "score": 41,
       "tier": "Pass"
@@ -41,27 +45,33 @@
     "sam-lessin": {
       "score": 46,
       "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 59,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
     "CB": 54,
-    "EG": null,
+    "EG": 47,
     "NR": 41,
     "PG": 50,
     "PT": 44,
     "SL": 46,
-    "VK": null
+    "VK": 59
   },
-  "consolidatedAvg": 47,
-  "consolidatedRank": 26,
+  "consolidatedAvg": 48.71,
+  "consolidatedRank": 25,
   "paths": {
     "memo": "spring2026/memos/tenet-industries.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/tenet-industries.md",
+      "elad-gil": "spring2026/evals/elad-gil/tenet-industries.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/tenet-industries.md",
       "paul-graham": "spring2026/evals/paul-graham/tenet-industries.md",
       "peter-thiel": "spring2026/evals/peter-thiel/tenet-industries.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/tenet-industries.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/tenet-industries.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/tenet-industries.md"
     }
   }
 }

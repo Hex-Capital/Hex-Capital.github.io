@@ -20,6 +20,10 @@
       "score": 31,
       "tier": "Pass"
     },
+    "elad-gil": {
+      "score": 41,
+      "tier": "Pass"
+    },
     "naval-ravikant": {
       "score": 52,
       "tier": "Neutral"
@@ -35,27 +39,33 @@
     "sam-lessin": {
       "score": 31,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 41,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 31,
-    "EG": null,
+    "EG": 41,
     "NR": 52,
     "PG": 49,
     "PT": 33,
     "SL": 31,
-    "VK": null
+    "VK": 41
   },
-  "consolidatedAvg": 39.2,
-  "consolidatedRank": 81,
+  "consolidatedAvg": 39.71,
+  "consolidatedRank": 77,
   "paths": {
     "memo": "spring2026/memos/trybloom.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/trybloom.md",
+      "elad-gil": "spring2026/evals/elad-gil/trybloom.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/trybloom.md",
       "paul-graham": "spring2026/evals/paul-graham/trybloom.md",
       "peter-thiel": "spring2026/evals/peter-thiel/trybloom.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/trybloom.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/trybloom.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/trybloom.md"
     }
   }
 }

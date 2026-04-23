@@ -25,6 +25,10 @@
       "score": 51,
       "tier": "Neutral"
     },
+    "elad-gil": {
+      "score": 46,
+      "tier": "Neutral"
+    },
     "naval-ravikant": {
       "score": 58,
       "tier": "Neutral"
@@ -48,19 +52,20 @@
   },
   "consolidatedScores": {
     "CB": 51,
-    "EG": null,
+    "EG": 46,
     "NR": 58,
     "PG": 66,
     "PT": 40,
     "SL": 55,
     "VK": 38
   },
-  "consolidatedAvg": 51.33,
-  "consolidatedRank": 13,
+  "consolidatedAvg": 50.57,
+  "consolidatedRank": 20,
   "paths": {
     "memo": "spring2026/memos/nine-fives.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/nine-fives.md",
+      "elad-gil": "spring2026/evals/elad-gil/nine-fives.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/nine-fives.md",
       "paul-graham": "spring2026/evals/paul-graham/nine-fives.md",
       "peter-thiel": "spring2026/evals/peter-thiel/nine-fives.md",

@@ -28,6 +28,10 @@
       "score": 37,
       "tier": "Pass"
     },
+    "naval-ravikant": {
+      "score": 67,
+      "tier": "Invest"
+    },
     "paul-graham": {
       "score": 60,
       "tier": "Neutral"
@@ -48,19 +52,20 @@
   "consolidatedScores": {
     "CB": 37,
     "EG": 37,
-    "NR": null,
+    "NR": 67,
     "PG": 60,
     "PT": 30,
     "SL": 31,
     "VK": 68
   },
-  "consolidatedAvg": 43.83,
-  "consolidatedRank": 40,
+  "consolidatedAvg": 47.14,
+  "consolidatedRank": 28,
   "paths": {
     "memo": "spring2026/memos/asterlab.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/asterlab.md",
       "elad-gil": "spring2026/evals/elad-gil/asterlab.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/asterlab.md",
       "paul-graham": "spring2026/evals/paul-graham/asterlab.md",
       "peter-thiel": "spring2026/evals/peter-thiel/asterlab.md",
       "sam-lessin": "spring2026/evals/sam-lessin/asterlab.md",

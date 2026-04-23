@@ -25,6 +25,14 @@
       "score": 45,
       "tier": "Neutral"
     },
+    "elad-gil": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 61,
+      "tier": "Neutral"
+    },
     "paul-graham": {
       "score": 69,
       "tier": "Invest"
@@ -44,19 +52,21 @@
   },
   "consolidatedScores": {
     "CB": 45,
-    "EG": null,
-    "NR": null,
+    "EG": 57,
+    "NR": 61,
     "PG": 69,
     "PT": 39,
     "SL": 48,
     "VK": 40
   },
-  "consolidatedAvg": 48.2,
-  "consolidatedRank": 22,
+  "consolidatedAvg": 51.29,
+  "consolidatedRank": 17,
   "paths": {
     "memo": "spring2026/memos/dayjob.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/dayjob.md",
+      "elad-gil": "spring2026/evals/elad-gil/dayjob.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/dayjob.md",
       "paul-graham": "spring2026/evals/paul-graham/dayjob.md",
       "peter-thiel": "spring2026/evals/peter-thiel/dayjob.md",
       "sam-lessin": "spring2026/evals/sam-lessin/dayjob.md",

@@ -29,6 +29,10 @@
       "score": 37,
       "tier": "Pass"
     },
+    "naval-ravikant": {
+      "score": 59,
+      "tier": "Neutral"
+    },
     "paul-graham": {
       "score": 58,
       "tier": "Neutral"
@@ -49,19 +53,20 @@
   "consolidatedScores": {
     "CB": 37,
     "EG": 37,
-    "NR": null,
+    "NR": 59,
     "PG": 58,
     "PT": 32,
     "SL": 33,
     "VK": 42
   },
-  "consolidatedAvg": 39.83,
-  "consolidatedRank": 73,
+  "consolidatedAvg": 42.57,
+  "consolidatedRank": 53,
   "paths": {
     "memo": "spring2026/memos/amboras.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/amboras.md",
       "elad-gil": "spring2026/evals/elad-gil/amboras.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/amboras.md",
       "paul-graham": "spring2026/evals/paul-graham/amboras.md",
       "peter-thiel": "spring2026/evals/peter-thiel/amboras.md",
       "sam-lessin": "spring2026/evals/sam-lessin/amboras.md",

@@ -24,6 +24,10 @@
       "score": 33,
       "tier": "Pass"
     },
+    "elad-gil": {
+      "score": 35,
+      "tier": "Pass"
+    },
     "naval-ravikant": {
       "score": 58,
       "tier": "Neutral"
@@ -47,19 +51,20 @@
   },
   "consolidatedScores": {
     "CB": 33,
-    "EG": null,
+    "EG": 35,
     "NR": 58,
     "PG": 60,
     "PT": 32,
     "SL": 32,
     "VK": 44
   },
-  "consolidatedAvg": 43.17,
-  "consolidatedRank": 44,
+  "consolidatedAvg": 42,
+  "consolidatedRank": 57,
   "paths": {
     "memo": "spring2026/memos/revnu.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/revnu.md",
+      "elad-gil": "spring2026/evals/elad-gil/revnu.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/revnu.md",
       "paul-graham": "spring2026/evals/paul-graham/revnu.md",
       "peter-thiel": "spring2026/evals/peter-thiel/revnu.md",

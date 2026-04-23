@@ -25,6 +25,10 @@
       "score": 34,
       "tier": "Pass"
     },
+    "elad-gil": {
+      "score": 37,
+      "tier": "Pass"
+    },
     "naval-ravikant": {
       "score": 39,
       "tier": "Pass"
@@ -48,19 +52,20 @@
   },
   "consolidatedScores": {
     "CB": 34,
-    "EG": null,
+    "EG": 37,
     "NR": 39,
     "PG": 40,
     "PT": 27,
     "SL": 29,
     "VK": 40
   },
-  "consolidatedAvg": 34.83,
+  "consolidatedAvg": 35.14,
   "consolidatedRank": 97,
   "paths": {
     "memo": "spring2026/memos/refortifai.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/refortifai.md",
+      "elad-gil": "spring2026/evals/elad-gil/refortifai.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/refortifai.md",
       "paul-graham": "spring2026/evals/paul-graham/refortifai.md",
       "peter-thiel": "spring2026/evals/peter-thiel/refortifai.md",

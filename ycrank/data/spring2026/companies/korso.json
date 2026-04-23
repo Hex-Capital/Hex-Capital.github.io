@@ -25,6 +25,10 @@
       "score": 46,
       "tier": "Neutral"
     },
+    "elad-gil": {
+      "score": 57,
+      "tier": "Neutral"
+    },
     "naval-ravikant": {
       "score": 49,
       "tier": "Neutral"
@@ -48,19 +52,20 @@
   },
   "consolidatedScores": {
     "CB": 46,
-    "EG": null,
+    "EG": 57,
     "NR": 49,
     "PG": 44,
     "PT": 34,
     "SL": 33,
     "VK": 40
   },
-  "consolidatedAvg": 41,
-  "consolidatedRank": 59,
+  "consolidatedAvg": 43.29,
+  "consolidatedRank": 45,
   "paths": {
     "memo": "spring2026/memos/korso.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/korso.md",
+      "elad-gil": "spring2026/evals/elad-gil/korso.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/korso.md",
       "paul-graham": "spring2026/evals/paul-graham/korso.md",
       "peter-thiel": "spring2026/evals/peter-thiel/korso.md",

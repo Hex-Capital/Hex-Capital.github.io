@@ -25,6 +25,10 @@
       "score": 41,
       "tier": "Pass"
     },
+    "elad-gil": {
+      "score": 38,
+      "tier": "Pass"
+    },
     "naval-ravikant": {
       "score": 62,
       "tier": "Neutral"
@@ -48,19 +52,20 @@
   },
   "consolidatedScores": {
     "CB": 41,
-    "EG": null,
+    "EG": 38,
     "NR": 62,
     "PG": 41,
     "PT": 29,
     "SL": 44,
     "VK": 53
   },
-  "consolidatedAvg": 45,
-  "consolidatedRank": 32,
+  "consolidatedAvg": 44,
+  "consolidatedRank": 41,
   "paths": {
     "memo": "spring2026/memos/gikl-inc.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/gikl-inc.md",
+      "elad-gil": "spring2026/evals/elad-gil/gikl-inc.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/gikl-inc.md",
       "paul-graham": "spring2026/evals/paul-graham/gikl-inc.md",
       "peter-thiel": "spring2026/evals/peter-thiel/gikl-inc.md",

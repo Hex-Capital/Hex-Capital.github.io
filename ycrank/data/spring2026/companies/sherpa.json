@@ -27,6 +27,10 @@
       "score": 32,
       "tier": "Pass"
     },
+    "elad-gil": {
+      "score": 37,
+      "tier": "Pass"
+    },
     "naval-ravikant": {
       "score": 52,
       "tier": "Neutral"
@@ -42,27 +46,33 @@
     "sam-lessin": {
       "score": 29,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 38,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 32,
-    "EG": null,
+    "EG": 37,
     "NR": 52,
     "PG": 43,
     "PT": 32,
     "SL": 29,
-    "VK": null
+    "VK": 38
   },
-  "consolidatedAvg": 37.6,
-  "consolidatedRank": 87,
+  "consolidatedAvg": 37.57,
+  "consolidatedRank": 89,
   "paths": {
     "memo": "spring2026/memos/sherpa.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/sherpa.md",
+      "elad-gil": "spring2026/evals/elad-gil/sherpa.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/sherpa.md",
       "paul-graham": "spring2026/evals/paul-graham/sherpa.md",
       "peter-thiel": "spring2026/evals/peter-thiel/sherpa.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/sherpa.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/sherpa.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/sherpa.md"
     }
   }
 }

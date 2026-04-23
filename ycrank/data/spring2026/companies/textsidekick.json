@@ -25,6 +25,10 @@
       "score": 43,
       "tier": "Pass"
     },
+    "elad-gil": {
+      "score": 42,
+      "tier": "Pass"
+    },
     "naval-ravikant": {
       "score": 52,
       "tier": "Neutral"
@@ -40,27 +44,33 @@
     "sam-lessin": {
       "score": 35,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 40,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 43,
-    "EG": null,
+    "EG": 42,
     "NR": 52,
     "PG": 57,
     "PT": 33,
     "SL": 35,
-    "VK": null
+    "VK": 40
   },
-  "consolidatedAvg": 44,
-  "consolidatedRank": 37,
+  "consolidatedAvg": 43.14,
+  "consolidatedRank": 47,
   "paths": {
     "memo": "spring2026/memos/textsidekick.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/textsidekick.md",
+      "elad-gil": "spring2026/evals/elad-gil/textsidekick.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/textsidekick.md",
       "paul-graham": "spring2026/evals/paul-graham/textsidekick.md",
       "peter-thiel": "spring2026/evals/peter-thiel/textsidekick.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/textsidekick.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/textsidekick.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/textsidekick.md"
     }
   }
 }

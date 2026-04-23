@@ -20,6 +20,10 @@
       "score": 51,
       "tier": "Neutral"
     },
+    "elad-gil": {
+      "score": 64,
+      "tier": "Neutral"
+    },
     "naval-ravikant": {
       "score": 67,
       "tier": "Invest"
@@ -43,19 +47,20 @@
   },
   "consolidatedScores": {
     "CB": 51,
-    "EG": null,
+    "EG": 64,
     "NR": 67,
     "PG": 50,
     "PT": 42,
     "SL": 40,
     "VK": 45
   },
-  "consolidatedAvg": 49.17,
-  "consolidatedRank": 19,
+  "consolidatedAvg": 51.29,
+  "consolidatedRank": 18,
   "paths": {
     "memo": "spring2026/memos/kinro.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/kinro.md",
+      "elad-gil": "spring2026/evals/elad-gil/kinro.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/kinro.md",
       "paul-graham": "spring2026/evals/paul-graham/kinro.md",
       "peter-thiel": "spring2026/evals/peter-thiel/kinro.md",

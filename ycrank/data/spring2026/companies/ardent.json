@@ -29,6 +29,10 @@
       "score": 53,
       "tier": "Neutral"
     },
+    "naval-ravikant": {
+      "score": 59,
+      "tier": "Neutral"
+    },
     "paul-graham": {
       "score": 62,
       "tier": "Neutral"
@@ -49,19 +53,20 @@
   "consolidatedScores": {
     "CB": 42,
     "EG": 53,
-    "NR": null,
+    "NR": 59,
     "PG": 62,
     "PT": 36,
     "SL": 40,
     "VK": 41
   },
-  "consolidatedAvg": 45.67,
-  "consolidatedRank": 30,
+  "consolidatedAvg": 47.57,
+  "consolidatedRank": 27,
   "paths": {
     "memo": "spring2026/memos/ardent.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/ardent.md",
       "elad-gil": "spring2026/evals/elad-gil/ardent.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/ardent.md",
       "paul-graham": "spring2026/evals/paul-graham/ardent.md",
       "peter-thiel": "spring2026/evals/peter-thiel/ardent.md",
       "sam-lessin": "spring2026/evals/sam-lessin/ardent.md",

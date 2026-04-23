@@ -25,6 +25,10 @@
       "score": 40,
       "tier": "Pass"
     },
+    "elad-gil": {
+      "score": 48,
+      "tier": "Neutral"
+    },
     "naval-ravikant": {
       "score": 57,
       "tier": "Neutral"
@@ -48,19 +52,20 @@
   },
   "consolidatedScores": {
     "CB": 40,
-    "EG": null,
+    "EG": 48,
     "NR": 57,
     "PG": 51,
     "PT": 41,
     "SL": 33,
     "VK": 43
   },
-  "consolidatedAvg": 44.17,
-  "consolidatedRank": 36,
+  "consolidatedAvg": 44.71,
+  "consolidatedRank": 37,
   "paths": {
     "memo": "spring2026/memos/insforge.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/insforge.md",
+      "elad-gil": "spring2026/evals/elad-gil/insforge.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/insforge.md",
       "paul-graham": "spring2026/evals/paul-graham/insforge.md",
       "peter-thiel": "spring2026/evals/peter-thiel/insforge.md",

@@ -26,6 +26,10 @@
       "score": 39,
       "tier": "Pass"
     },
+    "elad-gil": {
+      "score": 41,
+      "tier": "Pass"
+    },
     "naval-ravikant": {
       "score": 48,
       "tier": "Neutral"
@@ -49,19 +53,20 @@
   },
   "consolidatedScores": {
     "CB": 39,
-    "EG": null,
+    "EG": 41,
     "NR": 48,
     "PG": 55,
     "PT": 32,
     "SL": 31,
     "VK": 40
   },
-  "consolidatedAvg": 40.83,
-  "consolidatedRank": 62,
+  "consolidatedAvg": 40.86,
+  "consolidatedRank": 68,
   "paths": {
     "memo": "spring2026/memos/imperfect.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/imperfect.md",
+      "elad-gil": "spring2026/evals/elad-gil/imperfect.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/imperfect.md",
       "paul-graham": "spring2026/evals/paul-graham/imperfect.md",
       "peter-thiel": "spring2026/evals/peter-thiel/imperfect.md",

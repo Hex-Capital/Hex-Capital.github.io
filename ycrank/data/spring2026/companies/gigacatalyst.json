@@ -26,6 +26,10 @@
       "score": 39,
       "tier": "Pass"
     },
+    "elad-gil": {
+      "score": 48,
+      "tier": "Neutral"
+    },
     "naval-ravikant": {
       "score": 54,
       "tier": "Neutral"
@@ -49,19 +53,20 @@
   },
   "consolidatedScores": {
     "CB": 39,
-    "EG": null,
+    "EG": 48,
     "NR": 54,
     "PG": 53,
     "PT": 33,
     "SL": 34,
     "VK": 40
   },
-  "consolidatedAvg": 42.17,
-  "consolidatedRank": 53,
+  "consolidatedAvg": 43,
+  "consolidatedRank": 49,
   "paths": {
     "memo": "spring2026/memos/gigacatalyst.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/gigacatalyst.md",
+      "elad-gil": "spring2026/evals/elad-gil/gigacatalyst.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/gigacatalyst.md",
       "paul-graham": "spring2026/evals/paul-graham/gigacatalyst.md",
       "peter-thiel": "spring2026/evals/peter-thiel/gigacatalyst.md",

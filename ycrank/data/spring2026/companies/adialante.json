@@ -29,6 +29,10 @@
       "score": 39,
       "tier": "Pass"
     },
+    "naval-ravikant": {
+      "score": 67,
+      "tier": "Invest"
+    },
     "paul-graham": {
       "score": 66,
       "tier": "Invest"
@@ -49,19 +53,20 @@
   "consolidatedScores": {
     "CB": 72,
     "EG": 39,
-    "NR": null,
+    "NR": 67,
     "PG": 66,
     "PT": 66,
     "SL": 66,
     "VK": 80
   },
-  "consolidatedAvg": 64.83,
+  "consolidatedAvg": 65.14,
   "consolidatedRank": 1,
   "paths": {
     "memo": "spring2026/memos/adialante.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/adialante.md",
       "elad-gil": "spring2026/evals/elad-gil/adialante.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/adialante.md",
       "paul-graham": "spring2026/evals/paul-graham/adialante.md",
       "peter-thiel": "spring2026/evals/peter-thiel/adialante.md",
       "sam-lessin": "spring2026/evals/sam-lessin/adialante.md",

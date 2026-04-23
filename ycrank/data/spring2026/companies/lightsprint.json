@@ -23,6 +23,10 @@
       "score": 35,
       "tier": "Pass"
     },
+    "elad-gil": {
+      "score": 38,
+      "tier": "Pass"
+    },
     "naval-ravikant": {
       "score": 50,
       "tier": "Neutral"
@@ -46,19 +50,20 @@
   },
   "consolidatedScores": {
     "CB": 35,
-    "EG": null,
+    "EG": 38,
     "NR": 50,
     "PG": 40,
     "PT": 29,
     "SL": 33,
     "VK": 46
   },
-  "consolidatedAvg": 38.83,
-  "consolidatedRank": 82,
+  "consolidatedAvg": 38.71,
+  "consolidatedRank": 85,
   "paths": {
     "memo": "spring2026/memos/lightsprint.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/lightsprint.md",
+      "elad-gil": "spring2026/evals/elad-gil/lightsprint.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/lightsprint.md",
       "paul-graham": "spring2026/evals/paul-graham/lightsprint.md",
       "peter-thiel": "spring2026/evals/peter-thiel/lightsprint.md",

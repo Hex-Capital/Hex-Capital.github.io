@@ -25,6 +25,10 @@
       "score": 38,
       "tier": "Pass"
     },
+    "elad-gil": {
+      "score": 40,
+      "tier": "Pass"
+    },
     "naval-ravikant": {
       "score": 59,
       "tier": "Neutral"
@@ -48,19 +52,20 @@
   },
   "consolidatedScores": {
     "CB": 38,
-    "EG": null,
+    "EG": 40,
     "NR": 59,
     "PG": 54,
     "PT": 37,
     "SL": 35,
     "VK": 48
   },
-  "consolidatedAvg": 45.17,
-  "consolidatedRank": 31,
+  "consolidatedAvg": 44.43,
+  "consolidatedRank": 38,
   "paths": {
     "memo": "spring2026/memos/playablai.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/playablai.md",
+      "elad-gil": "spring2026/evals/elad-gil/playablai.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/playablai.md",
       "paul-graham": "spring2026/evals/paul-graham/playablai.md",
       "peter-thiel": "spring2026/evals/peter-thiel/playablai.md",

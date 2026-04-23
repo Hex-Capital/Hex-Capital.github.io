@@ -24,6 +24,10 @@
       "score": 39,
       "tier": "Pass"
     },
+    "elad-gil": {
+      "score": 31,
+      "tier": "Pass"
+    },
     "naval-ravikant": {
       "score": 53,
       "tier": "Neutral"
@@ -39,27 +43,33 @@
     "sam-lessin": {
       "score": 37,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 43,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 39,
-    "EG": null,
+    "EG": 31,
     "NR": 53,
     "PG": 41,
     "PT": 33,
     "SL": 37,
-    "VK": null
+    "VK": 43
   },
-  "consolidatedAvg": 40.6,
-  "consolidatedRank": 64,
+  "consolidatedAvg": 39.57,
+  "consolidatedRank": 79,
   "paths": {
     "memo": "spring2026/memos/standard-signal.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/standard-signal.md",
+      "elad-gil": "spring2026/evals/elad-gil/standard-signal.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/standard-signal.md",
       "paul-graham": "spring2026/evals/paul-graham/standard-signal.md",
       "peter-thiel": "spring2026/evals/peter-thiel/standard-signal.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/standard-signal.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/standard-signal.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/standard-signal.md"
     }
   }
 }

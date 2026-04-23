@@ -25,6 +25,10 @@
       "score": 44,
       "tier": "Pass"
     },
+    "elad-gil": {
+      "score": 41,
+      "tier": "Pass"
+    },
     "naval-ravikant": {
       "score": 66,
       "tier": "Invest"
@@ -48,19 +52,20 @@
   },
   "consolidatedScores": {
     "CB": 44,
-    "EG": null,
+    "EG": 41,
     "NR": 66,
     "PG": 54,
     "PT": 41,
     "SL": 51,
     "VK": 44
   },
-  "consolidatedAvg": 50,
-  "consolidatedRank": 18,
+  "consolidatedAvg": 48.71,
+  "consolidatedRank": 24,
   "paths": {
     "memo": "spring2026/memos/mochatrade.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/mochatrade.md",
+      "elad-gil": "spring2026/evals/elad-gil/mochatrade.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/mochatrade.md",
       "paul-graham": "spring2026/evals/paul-graham/mochatrade.md",
       "peter-thiel": "spring2026/evals/peter-thiel/mochatrade.md",

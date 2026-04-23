@@ -23,6 +23,10 @@
       "score": 50,
       "tier": "Neutral"
     },
+    "elad-gil": {
+      "score": 61,
+      "tier": "Neutral"
+    },
     "naval-ravikant": {
       "score": 65,
       "tier": "Invest"
@@ -38,27 +42,33 @@
     "sam-lessin": {
       "score": 38,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 45,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
     "CB": 50,
-    "EG": null,
+    "EG": 61,
     "NR": 65,
     "PG": 71,
     "PT": 41,
     "SL": 38,
-    "VK": null
+    "VK": 45
   },
   "consolidatedAvg": 53,
-  "consolidatedRank": 10,
+  "consolidatedRank": 13,
   "paths": {
     "memo": "spring2026/memos/sazabi.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/sazabi.md",
+      "elad-gil": "spring2026/evals/elad-gil/sazabi.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/sazabi.md",
       "paul-graham": "spring2026/evals/paul-graham/sazabi.md",
       "peter-thiel": "spring2026/evals/peter-thiel/sazabi.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/sazabi.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/sazabi.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/sazabi.md"
     }
   }
 }

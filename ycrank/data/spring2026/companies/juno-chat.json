@@ -25,6 +25,10 @@
       "score": 60,
       "tier": "Neutral"
     },
+    "elad-gil": {
+      "score": 42,
+      "tier": "Pass"
+    },
     "naval-ravikant": {
       "score": 70,
       "tier": "Invest"
@@ -48,19 +52,20 @@
   },
   "consolidatedScores": {
     "CB": 60,
-    "EG": null,
+    "EG": 42,
     "NR": 70,
     "PG": 74,
     "PT": 38,
     "SL": 44,
     "VK": 45
   },
-  "consolidatedAvg": 55.17,
-  "consolidatedRank": 7,
+  "consolidatedAvg": 53.29,
+  "consolidatedRank": 9,
   "paths": {
     "memo": "spring2026/memos/juno-chat.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/juno-chat.md",
+      "elad-gil": "spring2026/evals/elad-gil/juno-chat.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/juno-chat.md",
       "paul-graham": "spring2026/evals/paul-graham/juno-chat.md",
       "peter-thiel": "spring2026/evals/peter-thiel/juno-chat.md",

@@ -25,6 +25,14 @@
       "score": 51,
       "tier": "Neutral"
     },
+    "elad-gil": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 55,
+      "tier": "Neutral"
+    },
     "paul-graham": {
       "score": 58,
       "tier": "Neutral"
@@ -44,19 +52,21 @@
   },
   "consolidatedScores": {
     "CB": 51,
-    "EG": null,
-    "NR": null,
+    "EG": 47,
+    "NR": 55,
     "PG": 58,
     "PT": 45,
     "SL": 56,
     "VK": 63
   },
-  "consolidatedAvg": 54.6,
+  "consolidatedAvg": 53.57,
   "consolidatedRank": 8,
   "paths": {
     "memo": "spring2026/memos/dispatch.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/dispatch.md",
+      "elad-gil": "spring2026/evals/elad-gil/dispatch.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/dispatch.md",
       "paul-graham": "spring2026/evals/paul-graham/dispatch.md",
       "peter-thiel": "spring2026/evals/peter-thiel/dispatch.md",
       "sam-lessin": "spring2026/evals/sam-lessin/dispatch.md",

@@ -20,6 +20,10 @@
       "score": 45,
       "tier": "Neutral"
     },
+    "elad-gil": {
+      "score": 59,
+      "tier": "Neutral"
+    },
     "naval-ravikant": {
       "score": 71,
       "tier": "Invest"
@@ -35,27 +39,33 @@
     "sam-lessin": {
       "score": 36,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 51,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
     "CB": 45,
-    "EG": null,
+    "EG": 59,
     "NR": 71,
     "PG": 71,
     "PT": 45,
     "SL": 36,
-    "VK": null
+    "VK": 51
   },
-  "consolidatedAvg": 53.6,
-  "consolidatedRank": 9,
+  "consolidatedAvg": 54,
+  "consolidatedRank": 7,
   "paths": {
     "memo": "spring2026/memos/tasklet-2.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/tasklet-2.md",
+      "elad-gil": "spring2026/evals/elad-gil/tasklet-2.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/tasklet-2.md",
       "paul-graham": "spring2026/evals/paul-graham/tasklet-2.md",
       "peter-thiel": "spring2026/evals/peter-thiel/tasklet-2.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/tasklet-2.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/tasklet-2.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/tasklet-2.md"
     }
   }
 }

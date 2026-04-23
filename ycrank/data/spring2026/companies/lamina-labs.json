@@ -25,6 +25,10 @@
       "score": 41,
       "tier": "Pass"
     },
+    "elad-gil": {
+      "score": 32,
+      "tier": "Pass"
+    },
     "naval-ravikant": {
       "score": 51,
       "tier": "Neutral"
@@ -48,19 +52,20 @@
   },
   "consolidatedScores": {
     "CB": 41,
-    "EG": null,
+    "EG": 32,
     "NR": 51,
     "PG": 43,
     "PT": 28,
     "SL": 34,
     "VK": 42
   },
-  "consolidatedAvg": 39.83,
-  "consolidatedRank": 74,
+  "consolidatedAvg": 38.71,
+  "consolidatedRank": 84,
   "paths": {
     "memo": "spring2026/memos/lamina-labs.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/lamina-labs.md",
+      "elad-gil": "spring2026/evals/elad-gil/lamina-labs.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/lamina-labs.md",
       "paul-graham": "spring2026/evals/paul-graham/lamina-labs.md",
       "peter-thiel": "spring2026/evals/peter-thiel/lamina-labs.md",

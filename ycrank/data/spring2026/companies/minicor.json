@@ -25,6 +25,10 @@
       "score": 51,
       "tier": "Neutral"
     },
+    "elad-gil": {
+      "score": 65,
+      "tier": "Invest"
+    },
     "naval-ravikant": {
       "score": 56,
       "tier": "Neutral"
@@ -48,19 +52,20 @@
   },
   "consolidatedScores": {
     "CB": 51,
-    "EG": null,
+    "EG": 65,
     "NR": 56,
     "PG": 67,
     "PT": 40,
     "SL": 37,
     "VK": 44
   },
-  "consolidatedAvg": 49.17,
-  "consolidatedRank": 20,
+  "consolidatedAvg": 51.43,
+  "consolidatedRank": 16,
   "paths": {
     "memo": "spring2026/memos/minicor.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/minicor.md",
+      "elad-gil": "spring2026/evals/elad-gil/minicor.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/minicor.md",
       "paul-graham": "spring2026/evals/paul-graham/minicor.md",
       "peter-thiel": "spring2026/evals/peter-thiel/minicor.md",

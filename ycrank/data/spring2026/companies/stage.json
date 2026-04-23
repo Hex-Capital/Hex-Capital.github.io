@@ -24,6 +24,10 @@
       "score": 32,
       "tier": "Pass"
     },
+    "elad-gil": {
+      "score": 37,
+      "tier": "Pass"
+    },
     "naval-ravikant": {
       "score": 47,
       "tier": "Neutral"
@@ -39,27 +43,33 @@
     "sam-lessin": {
       "score": 28,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 37,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 32,
-    "EG": null,
+    "EG": 37,
     "NR": 47,
     "PG": 47,
     "PT": 28,
     "SL": 28,
-    "VK": null
+    "VK": 37
   },
-  "consolidatedAvg": 36.4,
-  "consolidatedRank": 91,
+  "consolidatedAvg": 36.57,
+  "consolidatedRank": 94,
   "paths": {
     "memo": "spring2026/memos/stage.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/stage.md",
+      "elad-gil": "spring2026/evals/elad-gil/stage.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/stage.md",
       "paul-graham": "spring2026/evals/paul-graham/stage.md",
       "peter-thiel": "spring2026/evals/peter-thiel/stage.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/stage.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/stage.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/stage.md"
     }
   }
 }

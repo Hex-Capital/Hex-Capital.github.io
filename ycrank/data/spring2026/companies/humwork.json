@@ -20,6 +20,10 @@
       "score": 38,
       "tier": "Pass"
     },
+    "elad-gil": {
+      "score": 43,
+      "tier": "Pass"
+    },
     "naval-ravikant": {
       "score": 45,
       "tier": "Neutral"
@@ -43,19 +47,20 @@
   },
   "consolidatedScores": {
     "CB": 38,
-    "EG": null,
+    "EG": 43,
     "NR": 45,
     "PG": 55,
     "PT": 30,
     "SL": 36,
     "VK": 39
   },
-  "consolidatedAvg": 40.5,
-  "consolidatedRank": 65,
+  "consolidatedAvg": 40.86,
+  "consolidatedRank": 67,
   "paths": {
     "memo": "spring2026/memos/humwork.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/humwork.md",
+      "elad-gil": "spring2026/evals/elad-gil/humwork.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/humwork.md",
       "paul-graham": "spring2026/evals/paul-graham/humwork.md",
       "peter-thiel": "spring2026/evals/peter-thiel/humwork.md",

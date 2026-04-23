@@ -25,6 +25,10 @@
       "score": 52,
       "tier": "Neutral"
     },
+    "elad-gil": {
+      "score": 54,
+      "tier": "Neutral"
+    },
     "naval-ravikant": {
       "score": 63,
       "tier": "Neutral"
@@ -48,19 +52,20 @@
   },
   "consolidatedScores": {
     "CB": 52,
-    "EG": null,
+    "EG": 54,
     "NR": 63,
     "PG": 60,
     "PT": 36,
     "SL": 47,
     "VK": 43
   },
-  "consolidatedAvg": 50.17,
-  "consolidatedRank": 17,
+  "consolidatedAvg": 50.71,
+  "consolidatedRank": 19,
   "paths": {
     "memo": "spring2026/memos/huscarl.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/huscarl.md",
+      "elad-gil": "spring2026/evals/elad-gil/huscarl.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/huscarl.md",
       "paul-graham": "spring2026/evals/paul-graham/huscarl.md",
       "peter-thiel": "spring2026/evals/peter-thiel/huscarl.md",

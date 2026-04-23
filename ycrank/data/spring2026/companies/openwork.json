@@ -20,6 +20,10 @@
       "score": 38,
       "tier": "Pass"
     },
+    "elad-gil": {
+      "score": 35,
+      "tier": "Pass"
+    },
     "naval-ravikant": {
       "score": 51,
       "tier": "Neutral"
@@ -43,19 +47,20 @@
   },
   "consolidatedScores": {
     "CB": 38,
-    "EG": null,
+    "EG": 35,
     "NR": 51,
     "PG": 50,
     "PT": 31,
     "SL": 30,
     "VK": 41
   },
-  "consolidatedAvg": 40.17,
-  "consolidatedRank": 69,
+  "consolidatedAvg": 39.43,
+  "consolidatedRank": 81,
   "paths": {
     "memo": "spring2026/memos/openwork.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/openwork.md",
+      "elad-gil": "spring2026/evals/elad-gil/openwork.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/openwork.md",
       "paul-graham": "spring2026/evals/paul-graham/openwork.md",
       "peter-thiel": "spring2026/evals/peter-thiel/openwork.md",

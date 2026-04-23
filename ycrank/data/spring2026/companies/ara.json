@@ -29,6 +29,10 @@
       "score": 37,
       "tier": "Pass"
     },
+    "naval-ravikant": {
+      "score": 46,
+      "tier": "Neutral"
+    },
     "paul-graham": {
       "score": 43,
       "tier": "Pass"
@@ -49,19 +53,20 @@
   "consolidatedScores": {
     "CB": 33,
     "EG": 37,
-    "NR": null,
+    "NR": 46,
     "PG": 43,
     "PT": 30,
     "SL": 29,
     "VK": 41
   },
-  "consolidatedAvg": 35.5,
-  "consolidatedRank": 94,
+  "consolidatedAvg": 37,
+  "consolidatedRank": 90,
   "paths": {
     "memo": "spring2026/memos/ara.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/ara.md",
       "elad-gil": "spring2026/evals/elad-gil/ara.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/ara.md",
       "paul-graham": "spring2026/evals/paul-graham/ara.md",
       "peter-thiel": "spring2026/evals/peter-thiel/ara.md",
       "sam-lessin": "spring2026/evals/sam-lessin/ara.md",

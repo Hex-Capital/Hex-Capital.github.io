@@ -25,6 +25,10 @@
       "score": 36,
       "tier": "Pass"
     },
+    "elad-gil": {
+      "score": 48,
+      "tier": "Neutral"
+    },
     "naval-ravikant": {
       "score": 56,
       "tier": "Neutral"
@@ -48,19 +52,20 @@
   },
   "consolidatedScores": {
     "CB": 36,
-    "EG": null,
+    "EG": 48,
     "NR": 56,
     "PG": 51,
     "PT": 34,
     "SL": 34,
     "VK": 47
   },
-  "consolidatedAvg": 43,
-  "consolidatedRank": 45,
+  "consolidatedAvg": 43.71,
+  "consolidatedRank": 43,
   "paths": {
     "memo": "spring2026/memos/interfaze.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/interfaze.md",
+      "elad-gil": "spring2026/evals/elad-gil/interfaze.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/interfaze.md",
       "paul-graham": "spring2026/evals/paul-graham/interfaze.md",
       "peter-thiel": "spring2026/evals/peter-thiel/interfaze.md",

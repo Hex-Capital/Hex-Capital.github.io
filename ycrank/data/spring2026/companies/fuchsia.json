@@ -26,6 +26,14 @@
       "score": 47,
       "tier": "Neutral"
     },
+    "elad-gil": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 49,
+      "tier": "Neutral"
+    },
     "paul-graham": {
       "score": 46,
       "tier": "Neutral"
@@ -45,19 +53,21 @@
   },
   "consolidatedScores": {
     "CB": 47,
-    "EG": null,
-    "NR": null,
+    "EG": 48,
+    "NR": 49,
     "PG": 46,
     "PT": 33,
     "SL": 36,
     "VK": 39
   },
-  "consolidatedAvg": 40.2,
-  "consolidatedRank": 67,
+  "consolidatedAvg": 42.57,
+  "consolidatedRank": 54,
   "paths": {
     "memo": "spring2026/memos/fuchsia.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/fuchsia.md",
+      "elad-gil": "spring2026/evals/elad-gil/fuchsia.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/fuchsia.md",
       "paul-graham": "spring2026/evals/paul-graham/fuchsia.md",
       "peter-thiel": "spring2026/evals/peter-thiel/fuchsia.md",
       "sam-lessin": "spring2026/evals/sam-lessin/fuchsia.md",

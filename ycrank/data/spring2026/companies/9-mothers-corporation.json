@@ -31,6 +31,10 @@
       "score": 41,
       "tier": "Pass"
     },
+    "naval-ravikant": {
+      "score": 53,
+      "tier": "Neutral"
+    },
     "paul-graham": {
       "score": 68,
       "tier": "Invest"
@@ -51,19 +55,20 @@
   "consolidatedScores": {
     "CB": 67,
     "EG": 41,
-    "NR": null,
+    "NR": 53,
     "PG": 68,
     "PT": 48,
     "SL": 50,
     "VK": 66
   },
-  "consolidatedAvg": 56.67,
+  "consolidatedAvg": 56.14,
   "consolidatedRank": 4,
   "paths": {
     "memo": "spring2026/memos/9-mothers-corporation.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/9-mothers-corporation.md",
       "elad-gil": "spring2026/evals/elad-gil/9-mothers-corporation.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/9-mothers-corporation.md",
       "paul-graham": "spring2026/evals/paul-graham/9-mothers-corporation.md",
       "peter-thiel": "spring2026/evals/peter-thiel/9-mothers-corporation.md",
       "sam-lessin": "spring2026/evals/sam-lessin/9-mothers-corporation.md",

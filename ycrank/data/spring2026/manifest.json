@@ -1,6 +1,6 @@
 {
   "batch": "spring2026",
-  "companyCount": 101,
+  "companyCount": 102,
   "personas": [
     {
       "slug": "cyan-banister",
@@ -3696,6 +3696,42 @@
     },
     {
       "rank": 100,
+      "name": "Archer",
+      "slug": "archer",
+      "scores": {
+        "CB": 34,
+        "EG": 33,
+        "NR": 43,
+        "PG": 34,
+        "PT": 24,
+        "SL": 31,
+        "VK": 36
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 33.57,
+      "revenue": null,
+      "teamSize": 3,
+      "ycPartner": "Harj Taggar",
+      "oneLiner": "Instant payouts for work and incentives.",
+      "industry": "B2B / B2B -> Finance and Accounting",
+      "location": "New York, NY, USA",
+      "tags": [
+        "Crypto / Web3",
+        "Finance"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-23"
+    },
+    {
+      "rank": 101,
       "name": "Napkin Math",
       "slug": "napkin-math",
       "scores": {
@@ -3734,7 +3770,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 101,
+      "rank": 102,
       "name": "Pentagon",
       "slug": "pentagon",
       "scores": {
@@ -3779,7 +3815,7 @@
         "CB": null,
         "EG": 0.49,
         "NR": 0.43,
-        "PG": 0.54,
+        "PG": 0.55,
         "PT": 0.73,
         "SL": 0.65,
         "VK": 0.54
@@ -3790,44 +3826,44 @@
       "values": {
         "CB": 0.49,
         "EG": null,
-        "NR": 0.52,
-        "PG": 0.51,
-        "PT": 0.4,
-        "SL": 0.21,
-        "VK": 0.07
+        "NR": 0.53,
+        "PG": 0.52,
+        "PT": 0.42,
+        "SL": 0.22,
+        "VK": 0.08
       }
     },
     {
       "persona": "NR",
       "values": {
         "CB": 0.43,
-        "EG": 0.52,
+        "EG": 0.53,
         "NR": null,
-        "PG": 0.63,
-        "PT": 0.6,
-        "SL": 0.36,
-        "VK": 0.41
+        "PG": 0.64,
+        "PT": 0.61,
+        "SL": 0.37,
+        "VK": 0.42
       }
     },
     {
       "persona": "PG",
       "values": {
-        "CB": 0.54,
-        "EG": 0.51,
-        "NR": 0.63,
+        "CB": 0.55,
+        "EG": 0.52,
+        "NR": 0.64,
         "PG": null,
-        "PT": 0.6,
-        "SL": 0.4,
-        "VK": 0.29
+        "PT": 0.61,
+        "SL": 0.41,
+        "VK": 0.31
       }
     },
     {
       "persona": "PT",
       "values": {
         "CB": 0.73,
-        "EG": 0.4,
-        "NR": 0.6,
-        "PG": 0.6,
+        "EG": 0.42,
+        "NR": 0.61,
+        "PG": 0.61,
         "PT": null,
         "SL": 0.67,
         "VK": 0.7
@@ -3837,9 +3873,9 @@
       "persona": "SL",
       "values": {
         "CB": 0.65,
-        "EG": 0.21,
-        "NR": 0.36,
-        "PG": 0.4,
+        "EG": 0.22,
+        "NR": 0.37,
+        "PG": 0.41,
         "PT": 0.67,
         "SL": null,
         "VK": 0.55
@@ -3849,9 +3885,9 @@
       "persona": "VK",
       "values": {
         "CB": 0.54,
-        "EG": 0.07,
-        "NR": 0.41,
-        "PG": 0.29,
+        "EG": 0.08,
+        "NR": 0.42,
+        "PG": 0.31,
         "PT": 0.7,
         "SL": 0.55,
         "VK": null

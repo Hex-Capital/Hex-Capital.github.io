@@ -1,0 +1,77 @@
+{
+  "slug": "drippay",
+  "name": "Drip",
+  "oneLiner": "Infrastructure to replace most monetization tooling",
+  "metadata": {
+    "website": "https://drippay.dev/",
+    "yc_page": "https://www.ycombinator.com/companies/drippay",
+    "batch": "Spring 2026 (YC profile, via WebFetch)",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "0",
+    "location": "San Francisco, CA, USA",
+    "tags": "B2B, Sales Enablement, Billing, Infrastructure",
+    "yc_partner": "Harj Taggar (YC profile, via WebFetch)",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "B2B",
+    "Sales Enablement",
+    "Billing",
+    "Infrastructure"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-04-24T22:14:08.551Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 36,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 33,
+    "EG": 49,
+    "NR": 56,
+    "PG": 56,
+    "PT": 32,
+    "SL": 33,
+    "VK": 36
+  },
+  "consolidatedAvg": 42.14,
+  "consolidatedRank": 56,
+  "paths": {
+    "memo": "spring2026/memos/drippay.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/drippay.md",
+      "elad-gil": "spring2026/evals/elad-gil/drippay.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/drippay.md",
+      "paul-graham": "spring2026/evals/paul-graham/drippay.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/drippay.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/drippay.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/drippay.md"
+    }
+  }
+}

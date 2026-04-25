@@ -161,7 +161,12 @@
         <table class="w-full text-sm terminal-table">
           <thead class="sticky-thead">
             <tr class="border-b border-claude-border bg-claude-panel">
-              <th class="px-1 py-1 text-center text-claude-gray w-8 border border-claude-border" x-show="!staticMode">&#9733;</th>
+              <th class="px-1 py-1 text-center w-8 border border-claude-border cursor-pointer transition-colors"
+                  :class="watchlistFilter ? 'text-claude-amber' : 'text-claude-gray hover:text-claude-amber'"
+                  @click="watchlistFilter = !watchlistFilter"
+                  :title="watchlistFilter ? 'Showing watchlist only (click to show all)' : 'Click to filter by watchlist'"
+                  x-show="!staticMode"
+                  x-text="watchlistFilter ? '\u2605' : '\u2606'"></th>
               <th class="px-1.5 py-1 text-left text-claude-gray cursor-pointer hover:text-claude-orange border border-claude-border whitespace-nowrap"
                 @click="sortBy('name')">Company<span x-show="sortCol === 'name'" x-text="sortDir === 1 ? '\u25B2' : '\u25BC'" class="text-xs ml-0.5"></span>
               </th>

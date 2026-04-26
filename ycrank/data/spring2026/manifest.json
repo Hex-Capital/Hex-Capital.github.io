@@ -1,6 +1,6 @@
 {
   "batch": "spring2026",
-  "companyCount": 103,
+  "companyCount": 104,
   "personas": [
     {
       "slug": "cyan-banister",
@@ -3659,6 +3659,45 @@
     },
     {
       "rank": 99,
+      "name": "Chert",
+      "slug": "chert",
+      "scores": {
+        "CB": 30,
+        "EG": 30,
+        "NR": 34,
+        "PG": 49,
+        "PT": 30,
+        "SL": 36,
+        "VK": 36
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 35,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "David Lieb",
+      "oneLiner": "AI Agents for Automated iMessage Outbound",
+      "industry": "B2B / B2B -> Sales",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Artificial Intelligence",
+        "SaaS",
+        "B2B",
+        "Sales",
+        "AI Assistant"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-04-26"
+    },
+    {
+      "rank": 100,
       "name": "Kinect",
       "slug": "kinect",
       "scores": {
@@ -3695,7 +3734,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 100,
+      "rank": 101,
       "name": "Prism",
       "slug": "tryprism",
       "scores": {
@@ -3733,7 +3772,7 @@
       "memoDate": "2026-04-23"
     },
     {
-      "rank": 101,
+      "rank": 102,
       "name": "Archer",
       "slug": "archer",
       "scores": {
@@ -3769,7 +3808,7 @@
       "memoDate": "2026-04-23"
     },
     {
-      "rank": 102,
+      "rank": 103,
       "name": "Napkin Math",
       "slug": "napkin-math",
       "scores": {
@@ -3808,7 +3847,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 103,
+      "rank": 104,
       "name": "Pentagon",
       "slug": "pentagon",
       "scores": {
@@ -3851,8 +3890,8 @@
       "persona": "CB",
       "values": {
         "CB": null,
-        "EG": 0.49,
-        "NR": 0.43,
+        "EG": 0.5,
+        "NR": 0.44,
         "PG": 0.54,
         "PT": 0.73,
         "SL": 0.65,
@@ -3862,25 +3901,25 @@
     {
       "persona": "EG",
       "values": {
-        "CB": 0.49,
+        "CB": 0.5,
         "EG": null,
-        "NR": 0.53,
+        "NR": 0.54,
         "PG": 0.52,
-        "PT": 0.41,
+        "PT": 0.42,
         "SL": 0.22,
-        "VK": 0.08
+        "VK": 0.09
       }
     },
     {
       "persona": "NR",
       "values": {
-        "CB": 0.43,
-        "EG": 0.53,
+        "CB": 0.44,
+        "EG": 0.54,
         "NR": null,
-        "PG": 0.64,
+        "PG": 0.63,
         "PT": 0.61,
-        "SL": 0.37,
-        "VK": 0.41
+        "SL": 0.36,
+        "VK": 0.42
       }
     },
     {
@@ -3888,10 +3927,10 @@
       "values": {
         "CB": 0.54,
         "EG": 0.52,
-        "NR": 0.64,
+        "NR": 0.63,
         "PG": null,
         "PT": 0.6,
-        "SL": 0.4,
+        "SL": 0.41,
         "VK": 0.3
       }
     },
@@ -3899,7 +3938,7 @@
       "persona": "PT",
       "values": {
         "CB": 0.73,
-        "EG": 0.41,
+        "EG": 0.42,
         "NR": 0.61,
         "PG": 0.6,
         "PT": null,
@@ -3912,8 +3951,8 @@
       "values": {
         "CB": 0.65,
         "EG": 0.22,
-        "NR": 0.37,
-        "PG": 0.4,
+        "NR": 0.36,
+        "PG": 0.41,
         "PT": 0.67,
         "SL": null,
         "VK": 0.55
@@ -3923,8 +3962,8 @@
       "persona": "VK",
       "values": {
         "CB": 0.55,
-        "EG": 0.08,
-        "NR": 0.41,
+        "EG": 0.09,
+        "NR": 0.42,
         "PG": 0.3,
         "PT": 0.7,
         "SL": 0.55,

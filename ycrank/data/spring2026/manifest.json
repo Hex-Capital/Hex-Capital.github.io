@@ -1,6 +1,6 @@
 {
   "batch": "spring2026",
-  "companyCount": 120,
+  "companyCount": 122,
   "personas": [
     {
       "slug": "cyan-banister",
@@ -3695,6 +3695,44 @@
     },
     {
       "rank": 100,
+      "name": "Prototyping.io",
+      "slug": "prototypingio",
+      "scores": {
+        "CB": 38,
+        "EG": 39,
+        "NR": 39,
+        "PG": 42,
+        "PT": 33,
+        "SL": 34,
+        "VK": 42
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 38.14,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Nicolas Dessaigne",
+      "oneLiner": "Autonomous manufacturing for mechanical parts",
+      "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+      "location": "Sunnyvale, CA, USA",
+      "tags": [
+        "Artificial Intelligence",
+        "Hardware",
+        "Manufacturing",
+        "Automation"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-05-05"
+    },
+    {
+      "rank": 101,
       "name": "Intelligence Factory",
       "slug": "intelligence-factory",
       "scores": {
@@ -3730,7 +3768,7 @@
       "memoDate": "2026-05-05"
     },
     {
-      "rank": 101,
+      "rank": 102,
       "name": "Sherpa",
       "slug": "sherpa",
       "scores": {
@@ -3769,7 +3807,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 102,
+      "rank": 103,
       "name": "Ara",
       "slug": "ara",
       "scores": {
@@ -3806,7 +3844,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 103,
+      "rank": 104,
       "name": "Replicas",
       "slug": "replicas",
       "scores": {
@@ -3843,7 +3881,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 104,
+      "rank": 105,
       "name": "Salesgraph",
       "slug": "salesgraph",
       "scores": {
@@ -3880,7 +3918,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 105,
+      "rank": 106,
       "name": "Elyra",
       "slug": "elyra",
       "scores": {
@@ -3917,7 +3955,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 106,
+      "rank": 107,
       "name": "Stage",
       "slug": "stage",
       "scores": {
@@ -3953,7 +3991,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 107,
+      "rank": 108,
       "name": "Pulsent",
       "slug": "pulsent",
       "scores": {
@@ -3992,7 +4030,44 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 108,
+      "rank": 109,
+      "name": "Chronicle Labs",
+      "slug": "chronicle-labs",
+      "scores": {
+        "CB": 35,
+        "EG": 45,
+        "NR": 43,
+        "PG": 38,
+        "PT": 26,
+        "SL": 29,
+        "VK": 33
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 35.57,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Pete Koomen",
+      "oneLiner": "Staging Environments for Enterprise AI Agents",
+      "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "AIOps",
+        "SaaS",
+        "AI"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-05-05"
+    },
+    {
+      "rank": 110,
       "name": "Hub.xyz",
       "slug": "hubxyz",
       "scores": {
@@ -4030,7 +4105,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 109,
+      "rank": 111,
       "name": "Rudus",
       "slug": "rudus",
       "scores": {
@@ -4068,7 +4143,7 @@
       "memoDate": "2026-05-05"
     },
     {
-      "rank": 110,
+      "rank": 112,
       "name": "Refortifai",
       "slug": "refortifai",
       "scores": {
@@ -4105,7 +4180,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 111,
+      "rank": 113,
       "name": "Chert",
       "slug": "chert",
       "scores": {
@@ -4144,7 +4219,7 @@
       "memoDate": "2026-04-26"
     },
     {
-      "rank": 112,
+      "rank": 114,
       "name": "Kinect",
       "slug": "kinect",
       "scores": {
@@ -4181,7 +4256,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 113,
+      "rank": 115,
       "name": "jo",
       "slug": "jo",
       "scores": {
@@ -4219,7 +4294,7 @@
       "memoDate": "2026-05-05"
     },
     {
-      "rank": 114,
+      "rank": 116,
       "name": "YouArt",
       "slug": "youart",
       "scores": {
@@ -4256,7 +4331,7 @@
       "memoDate": "2026-05-05"
     },
     {
-      "rank": 115,
+      "rank": 117,
       "name": "Prism",
       "slug": "tryprism",
       "scores": {
@@ -4294,7 +4369,7 @@
       "memoDate": "2026-04-23"
     },
     {
-      "rank": 116,
+      "rank": 118,
       "name": "Light Anchor",
       "slug": "light-anchor",
       "scores": {
@@ -4330,7 +4405,7 @@
       "memoDate": "2026-05-05"
     },
     {
-      "rank": 117,
+      "rank": 119,
       "name": "ANORIA",
       "slug": "anoria",
       "scores": {
@@ -4369,7 +4444,7 @@
       "memoDate": "2026-05-05"
     },
     {
-      "rank": 118,
+      "rank": 120,
       "name": "Archer",
       "slug": "archer",
       "scores": {
@@ -4405,7 +4480,7 @@
       "memoDate": "2026-04-23"
     },
     {
-      "rank": 119,
+      "rank": 121,
       "name": "Napkin Math",
       "slug": "napkin-math",
       "scores": {
@@ -4444,7 +4519,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 120,
+      "rank": 122,
       "name": "Pentagon",
       "slug": "pentagon",
       "scores": {
@@ -4481,14 +4556,20 @@
     }
   ],
   "disagreements": [],
-  "convergenceWarnings": [],
+  "convergenceWarnings": [
+    {
+      "company": "Prototyping.io",
+      "avg": 38.14,
+      "range": 9
+    }
+  ],
   "correlationMatrix": [
     {
       "persona": "CB",
       "values": {
         "CB": null,
         "EG": 0.47,
-        "NR": 0.44,
+        "NR": 0.45,
         "PG": 0.59,
         "PT": 0.74,
         "SL": 0.64,
@@ -4510,10 +4591,10 @@
     {
       "persona": "NR",
       "values": {
-        "CB": 0.44,
+        "CB": 0.45,
         "EG": 0.52,
         "NR": null,
-        "PG": 0.62,
+        "PG": 0.63,
         "PT": 0.59,
         "SL": 0.37,
         "VK": 0.41
@@ -4524,11 +4605,11 @@
       "values": {
         "CB": 0.59,
         "EG": 0.51,
-        "NR": 0.62,
+        "NR": 0.63,
         "PG": null,
         "PT": 0.61,
-        "SL": 0.43,
-        "VK": 0.31
+        "SL": 0.44,
+        "VK": 0.32
       }
     },
     {
@@ -4540,7 +4621,7 @@
         "PG": 0.61,
         "PT": null,
         "SL": 0.67,
-        "VK": 0.68
+        "VK": 0.69
       }
     },
     {
@@ -4549,10 +4630,10 @@
         "CB": 0.64,
         "EG": 0.25,
         "NR": 0.37,
-        "PG": 0.43,
+        "PG": 0.44,
         "PT": 0.67,
         "SL": null,
-        "VK": 0.51
+        "VK": 0.52
       }
     },
     {
@@ -4561,9 +4642,9 @@
         "CB": 0.55,
         "EG": 0.07,
         "NR": 0.41,
-        "PG": 0.31,
-        "PT": 0.68,
-        "SL": 0.51,
+        "PG": 0.32,
+        "PT": 0.69,
+        "SL": 0.52,
         "VK": null
       }
     }

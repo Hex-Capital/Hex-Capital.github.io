@@ -1,0 +1,75 @@
+{
+  "slug": "andco",
+  "name": "Andco",
+  "oneLiner": "End-to-end case workups for personal injury firms.",
+  "metadata": {
+    "website": "http://www.useandco.com",
+    "yc_page": "https://www.ycombinator.com/companies/andco",
+    "batch": "Spring 2026 (X26)",
+    "industry": "B2B / B2B -> Legal",
+    "team_size": "0",
+    "location": "Not listed (case examples reference San Francisco/Bay Area, useandco.com)",
+    "tags": "Artificial Intelligence, Legal",
+    "yc_partner": "David Lieb (YC company page)",
+    "emails": "founders@useandco.com (YC company page)"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Legal"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-05T04:31:49.119Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 38,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 39,
+    "EG": 50,
+    "NR": 50,
+    "PG": 45,
+    "PT": 33,
+    "SL": 32,
+    "VK": 38
+  },
+  "consolidatedAvg": 41,
+  "consolidatedRank": 74,
+  "paths": {
+    "memo": "spring2026/memos/andco.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/andco.md",
+      "elad-gil": "spring2026/evals/elad-gil/andco.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/andco.md",
+      "paul-graham": "spring2026/evals/paul-graham/andco.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/andco.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/andco.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/andco.md"
+    }
+  }
+}

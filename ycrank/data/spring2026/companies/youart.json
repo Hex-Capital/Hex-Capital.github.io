@@ -1,0 +1,76 @@
+{
+  "slug": "youart",
+  "name": "YouArt",
+  "oneLiner": "Patreon for AI originals",
+  "metadata": {
+    "website": "https://youart.ai",
+    "yc_page": "https://www.ycombinator.com/companies/youart",
+    "batch": "Spring 2026 (YC company page)",
+    "industry": "Consumer / Consumer -> Content",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Generative AI, Video, Creator Economy",
+    "yc_partner": "David Lieb (YC company page)",
+    "emails": "support@youart.ai (youart.ai)"
+  },
+  "tags": [
+    "Generative AI",
+    "Video",
+    "Creator Economy"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-05T04:29:13.829Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 38,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 27,
+    "EG": 34,
+    "NR": 40,
+    "PG": 40,
+    "PT": 29,
+    "SL": 33,
+    "VK": 38
+  },
+  "consolidatedAvg": 34.43,
+  "consolidatedRank": 114,
+  "paths": {
+    "memo": "spring2026/memos/youart.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/youart.md",
+      "elad-gil": "spring2026/evals/elad-gil/youart.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/youart.md",
+      "paul-graham": "spring2026/evals/paul-graham/youart.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/youart.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/youart.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/youart.md"
+    }
+  }
+}

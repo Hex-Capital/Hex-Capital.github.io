@@ -1,0 +1,76 @@
+{
+  "slug": "reasonblocks",
+  "name": "ReasonBlocks",
+  "oneLiner": "Infra layer for smarter and cheaper AI agents",
+  "metadata": {
+    "website": "https://reasonblocks.com/",
+    "yc_page": "https://www.ycombinator.com/companies/reasonblocks",
+    "batch": "Spring 2026 (YC page)",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, SaaS, B2B",
+    "yc_partner": "Aaron Epstein (YC page)",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "SaaS",
+    "B2B"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-05T04:28:53.341Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 42,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 35,
+    "EG": 42,
+    "NR": 53,
+    "PG": 48,
+    "PT": 36,
+    "SL": 37,
+    "VK": 42
+  },
+  "consolidatedAvg": 41.86,
+  "consolidatedRank": 66,
+  "paths": {
+    "memo": "spring2026/memos/reasonblocks.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/reasonblocks.md",
+      "elad-gil": "spring2026/evals/elad-gil/reasonblocks.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/reasonblocks.md",
+      "paul-graham": "spring2026/evals/paul-graham/reasonblocks.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/reasonblocks.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/reasonblocks.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/reasonblocks.md"
+    }
+  }
+}

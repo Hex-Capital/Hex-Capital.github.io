@@ -1,0 +1,75 @@
+{
+  "slug": "light-anchor",
+  "name": "Light Anchor",
+  "oneLiner": "Autonomous e-commerce",
+  "metadata": {
+    "website": "https://lightanchor.ai",
+    "yc_page": "https://www.ycombinator.com/companies/light-anchor",
+    "batch": "Spring 2026 (YC P26)",
+    "industry": "Consumer / Consumer",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "E-commerce, AI",
+    "yc_partner": "Harj Taggar (YC company page)",
+    "emails": "No public data found (only booking link cal.com/team/light-anchor on website)"
+  },
+  "tags": [
+    "E-commerce",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-05T04:31:39.189Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 24,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 25,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 32,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 24,
+    "EG": 32,
+    "NR": 43,
+    "PG": 44,
+    "PT": 25,
+    "SL": 38,
+    "VK": 32
+  },
+  "consolidatedAvg": 34,
+  "consolidatedRank": 116,
+  "paths": {
+    "memo": "spring2026/memos/light-anchor.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/light-anchor.md",
+      "elad-gil": "spring2026/evals/elad-gil/light-anchor.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/light-anchor.md",
+      "paul-graham": "spring2026/evals/paul-graham/light-anchor.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/light-anchor.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/light-anchor.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/light-anchor.md"
+    }
+  }
+}

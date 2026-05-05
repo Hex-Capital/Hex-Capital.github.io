@@ -1,0 +1,28 @@
+﻿# Oddpool -- Naval Ravikant Evaluation
+
+Oddpool is a two-person SaaS pointed inward at quant desks rather than outward at the unserved — Avi Arora and Ritesh Malpani are running near the top of my Team-to-Value ladder while sitting near the bottom of my Access Democratization ladder, and that pairing tells me everything about what kind of company this is. A pure-code product with 700K+ contracts indexed and a $30/$100/mo SaaS ladder, built by two engineers, serving institutional flow that is already 40% of Kalshi's volume. It is the inverse of CoinList. It is closer to a Bloomberg terminal feed than to AngelList — and that placement is doing real work in my framework.
+
+On Team-to-Value Leverage, my high rung is Cursor at <50 people doing $500M ARR; my mid rung is Notion's small team rebuilding from scratch; my low rung is Poshmark, which needed marketplace operations headcount to scale. Oddpool sits between Cursor and Notion — two technical founders shipping a hosted API with WebSockets, S3 dumps, and a 750-dashboard product surface, no ops layer required. Avi's Microsoft Prompt Shields work at 20B classifications/yr and Ritesh's 100K-TPS Bloomberg infrastructure mean Oddpool can serve institutional traders without hiring a single SRE in year one. This is the shrinking-company thesis as designed.
+
+On Access Democratization, my high rung is AngelList and CoinList removing securities lawyers and accredited-investor gatekeepers; my mid rung is Polymarket itself, putting information markets in retail hands; my low rung is Clearview AI, an anti-democratizer that I excepted only because the leverage was unprecedented. Oddpool sits between Polymarket and Clearview, and not in the flattering direction — the pm.wiki tagline is literally "Bloomberg for prediction markets," and the pricing tiers escalate to "Enterprise custom + S3 dumps + dedicated support." Oddpool is a tool for the institutional 40% of Kalshi flow, not for the retail 60%. The free tier (1K req/mo) is a dev funnel, not a democratization mechanism. This is the structural opposite of the pattern I keep funding.
+
+Specific Knowledge Productization is where I'd anchor this against Perplexity at the high rung (Srinivas's years inside Google Brain were the company) and against the AI-wrapper MBAs at the low rung (no domain depth, fundable not obsessive). Oddpool sits below Notion and above the wrapper archetype: Ritesh's Bloomberg trading-systems background and Avi's 352-star Awesome-Prediction-Market-Tools repo plus the PredictionMarketBench paper are real domain immersion, but Oddpool is also a pivot from Benchspan inside the same P26 batch — the specific knowledge here is "how to build trading data infrastructure," not "how prediction markets actually work for the people trading them." The knowledge is adjacent, not native.
+
+Permissionless Leverage Architecture is where Oddpool gets interesting and worrying simultaneously — Twitter at the high rung is pure permissionless media, AngelList in the middle had network effects plus code, and the AI wrapper at the low rung was renting OpenAI's leverage. Oddpool is renting Kalshi's and Polymarket's APIs the same way. The code leverage is real (zero marginal cost per query, WebSocket multiplexing) but the upstream is permissioned, and Polymarket already demonstrated venue-side preference by absorbing Dome. Principal Authenticity is the dimension I weigh hardest: Sahil at Gumroad continuing solo after the failed Series A is my high rung, the wrapper MBAs my low rung. The pivot from Benchspan to Oddpool inside one batch — both founders' LinkedIn headlines still saying Benchspan — reads to me as an agent move, picking what's fundable rather than what they cannot stop building. Avi's pre-existing 352-star curated list partially rescues him on this axis. Ritesh I can't read.
+
+My 36-month forecast for Oddpool: acqui-hired by Kalshi or Polymarket for under $30M before reaching $3M ARR, or shut down when one venue restricts redistribution. The mechanism is the Dome precedent — venues prefer consolidation over neutral aggregation because exposing competing pricing is a channel conflict for them, and the moment Oddpool's institutional traction crosses a threshold visible to either venue, the acquisition or API throttle follows. Two engineers cannot out-leverage a venue's own build-vs-buy calculus when the venue holds the API keys.
+
+The strongest case against me is the bull mechanism: Dome exiting cleared the field, the historical orderbook archive from March 2026 compounds (you cannot rebuild past data forward), and at $44B+ in 2025 volume with Kalshi 40% institutional, the data-broker layer is genuinely undersupplied. The pitch writes itself — "Bloomberg for prediction markets" with first-mover archive and a 352-star content moat could plausibly do $5-15M ARR before any exit. The Bloomberg analogy is where it breaks: Bloomberg owns proprietary terminals and licensed feeds, while Oddpool resells public APIs that Kalshi or Polymarket can revoke or rate-limit unilaterally, and the only neutral-aggregator precedent in this exact market got absorbed twelve months ago. The flip condition is concrete: if Oddpool signs a 3+ year commercial redistribution license with either Kalshi or Polymarket — converting platform dependency into contract — I'd reopen the file. Without that, I pass.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Specific Knowledge Productization | 14/30 |
+| Permissionless Leverage Architecture | 13/25 |
+| Principal Authenticity Signal | 8/20 |
+| Team-to-Value Leverage | 12/15 |
+| Access Democratization Pattern | 4/10 |
+| **Total** | **51/100** |
+
+**Total Score: 51/100** (Neutral)

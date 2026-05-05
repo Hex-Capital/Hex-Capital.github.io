@@ -1,0 +1,77 @@
+{
+  "slug": "hedge",
+  "name": "Hedge",
+  "oneLiner": "AI native specialty insurance company",
+  "metadata": {
+    "website": "https://www.hedgespecialty.com/",
+    "yc_page": "https://www.ycombinator.com/companies/hedge",
+    "batch": "Spring 2026",
+    "industry": "Fintech / Fintech -> Insurance",
+    "team_size": "0",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Fintech, B2B, Insurance",
+    "yc_partner": "David Lieb (YC company page)",
+    "emails": "underwriting@hedgespecialty.com (company website)"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Fintech",
+    "B2B",
+    "Insurance"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-05T04:32:00.268Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 61,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 33,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 46,
+    "EG": 47,
+    "NR": 39,
+    "PG": 61,
+    "PT": 33,
+    "SL": 41,
+    "VK": 33
+  },
+  "consolidatedAvg": 42.86,
+  "consolidatedRank": 55,
+  "paths": {
+    "memo": "spring2026/memos/hedge.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/hedge.md",
+      "elad-gil": "spring2026/evals/elad-gil/hedge.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/hedge.md",
+      "paul-graham": "spring2026/evals/paul-graham/hedge.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/hedge.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/hedge.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/hedge.md"
+    }
+  }
+}

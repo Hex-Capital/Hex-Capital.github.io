@@ -1,0 +1,26 @@
+﻿# YouArt -- Sam Lessin Evaluation
+
+YouArt is a credentialed-founder bundle play in the most consensus-hot category of 2026 — Edward Ma scaled TikTok ads to $100M+, Harry Zheng grew TikTok Shop Ads 0-to-$100M, and they have pointed those growth-engine instincts at a recombination of Patreon and Runway called "Patreon for AI originals." Sanity is the highest dimension here. The lowest is structural durability, with consensus mispricing close behind. That pairing names the company: a feature dressed as a company, built by people who know how to scale features.
+
+On consensus mispricing, the ladder runs Solana-at-$0.04 at the top — Ethereum-won consensus drove SOL to essentially free — through Slack in the middle, where the price was hot but the primitive justified the override, down to the YC AI-wrapper pitch at the bottom where Adobe and Salesforce are already drafting the response feature. YouArt sits squarely on the bottom rung. AI video generation is the loudest category in venture in 2026 — Grand View clocks it at $946.4M for the year — and creator monetization is equally crowded with Passes raising $40M Series A and Patreon entrenched. Both halves of the YouArt bundle are consensus-priced. There is no "what if they're right?" here because everyone already thinks they're right.
+
+On structural durability, the ladder runs Metropolis at the top — physical parking assets that no LLM commoditizes — through Solana protocol-layer network effects in the middle, down to the GPT-4 wrapper at the bottom that any incumbent replicates in a sprint. YouArt sits between the wrapper and nothing. The dossier itself flags that the bundle is "replicable by a small team in 3-6 months." YouArt depends on Sora 2, Veo 3.1, Nano Banana, Seedream, Wan — every meaningful capability is rented from OpenAI, Google, ByteDance. Patreon adds AI generation; Runway adds tipping; YouArt is squeezed from both sides. This is exactly the Adobe-for-AI moment from the SafeGraph podcast, just in creator clothing.
+
+On primitive creation, the ladder is Venmo (a verb, a behavior) at the top, Patreon in the middle (direct creator payments — a real primitive but a known one), and the better-CRM pattern at the bottom. YouArt is named after the mid rung. "Patreon for AI originals" is a positioning sentence that admits no primitive — it is recombination. No one will say "YouArt me." On sanity-insanity, the Raj-on-Solana high rung gives way to Butterfield-on-Slack in the middle and the networking-event co-founder pairing at the bottom. Edward and Harry are clearly sane — TikTok ads-scaling and 1,500+ citations are real, and they share a prior venture in Speaking AI, which dodges the synthetic-cofounder red flag. But the idea is not insane. It is the most sensible YC pitch I will hear this batch. Sane person, sane idea — that is not the calibration I am paying for. On capital discipline, no evidence — 3-person team, pre-seed, default applies. The dossier shows nothing about burn or fundraising posture, so YouArt lands at the mid-default rung between Gusto's discipline and Allbirds' factory-farm collapse.
+
+YouArt in 36 months: dead or pivoted into a B2B AI-creator-tooling acqui-hire under $30M, most likely absorbed by Passes, Whop, or Fourthwall when one of them decides to add native AI generation and would rather buy the team than build the integrations. The mechanism is straightforward — the AI generation half gets disintermediated by frontier model providers shipping creator suites directly, and the fan-funding half cannot reach liquidity before an incumbent with 8M existing patrons or 1,000 onboarded Passes creators ships a competing feature.
+
+The bull case worth taking seriously: AI-native creators are a real cohort that incumbents haven't built for, and Slack overrode my consensus-mispricing rule because the primitive was real. Maybe "AI originals" becomes a genuine new behavioral category — synchronous Sora-driven serial fiction funded by patrons before frame one — and YouArt's two ex-TikTok scalers are exactly the right ads-and-growth machine to capture it. That stings because the founders' 0-to-$100M track record is not noise. But Slack worked because Butterfield had already shipped Flickr and the primitive — workplace real-time messaging replacing email — was net-new behavior. YouArt is not net-new behavior; it is Patreon's behavior layered on Runway's behavior. The founder credential is a growth credential, not a category-creation credential, and growth credentials lose to incumbents with distribution every time. I would flip the verdict if YouArt produced a single AI-native creator pulling >$50K/month exclusively through YouArt within twelve months — that would be evidence of liquidity formation that neither Patreon nor Passes could trivially recreate. Without it, this is a pass.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Consensus Mispricing ? Is the Market Wrong? | 6/30 |
+| Primitive Creation ? Does This Birth a New Category? | 7/25 |
+| Sanity-Insanity Calibration ? Sane Founder, Insane Idea | 10/20 |
+| Structural Durability ? Does It Survive the AI Kill Test? | 4/15 |
+| Capital Discipline ? Built to Survive, Not to Raise | 6/10 |
+| **Total** | **33/100** |
+
+**Total Score: 33/100** (Pass)

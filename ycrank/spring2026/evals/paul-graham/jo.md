@@ -1,0 +1,26 @@
+﻿# jo -- Paul Graham Evaluation
+
+Pradeep Elankumaran is a 3x YC founder and Kevin Li has been his co-founder for a decade — that pairing is the strongest thing about jo, and it sits opposite the weakest thing, which is that "personal AI that actually knows you" is the most consensus startup category of 2026. jo is what happens when seasoned consumer builders run at the hottest idea on the menu rather than the one their unconscious was hiding from them. The signature here — high founder continuity, low schlep blindness — describes a competent team aiming at a target every well-funded incumbent and YC batchmate is also aiming at.
+
+On the resourcefulness ladder, the high rung is Airbnb selling $40 cereal boxes, and the low rung is the McKinsey-deck team from my pass example. jo lands in the middle, closer to mid than high. Pradeep shipped Kicksend (S11) and Farmstead (S16) — Farmstead raised $14.9M and then retreated from four of five markets and went inactive per Tracxn. That is a real data point. It tells me Pradeep can raise and ship, but the dossier gives me no specific story of jo's two founders hacking around a wall — no "we indexed our first thousand users' photos by hand," no weekend-prototype anecdote. Repeat-founder track record is evidence of capacity; absence of a specific jo-era resourcefulness story is why I can't push this rung up to where Brian Chesky sat.
+
+The schlep-blindness ladder is where jo hurts. The high rung is Stripe — Patrick Collison wading into PCI compliance and bank integrations because everyone else found the work disgusting. The low rung is the consultants pitching B2B workflow automation that "sounds great to everyone." jo sits much closer to the consultants. The dossier names Limitless ($33M raised, acquired by Meta in Dec 2025), Personal.ai, Khoj, Screenpipe, plus ChatGPT, Claude, and Apple Intelligence as direct or adjacent overlaps. When I read the askjo.ai pitch, no one's first reaction is "that will never work." Their first reaction is "another one." That is the tell. Per my Black Swan framework, when consensus enthusiasm is this thick, the return premium has already been competed away.
+
+On organic problem discovery, the high rung is Drew Houston forgetting his USB drive; the mid rung is the Octopart physics students. jo's dossier contains no origin story — no moment where Pradeep or Kevin describe the specific frustration that made them build this. The framing is "mainstream chatbots lack persistent personal context," which reads as competitive positioning rather than personal pain. They are Mac users building for Mac users, which earns some credit, but absent a frustration narrative this falls below my default. On founder learning rate, mid rung is Patrick Collison shipping Auctomatic before Stripe; jo's pair has shipped together for a decade across Yahoo, Kicksend, and Farmstead — that's slope, but Farmstead's contraction means the slope is ambiguous. On earnest builder identity, the high rung is Watsi, and jo's marketing-forward "never shares your data" language while also routing prompts to OpenAI/Anthropic/Grok/Kimi reads as positioning rather than the obsessive-builder voice I'm listening for.
+
+My 36-month forecast for jo: pivots to a prosumer or B2B niche (most likely "personal AI for executive assistants" or a Notion/Raycast-style productivity wedge), gets acqui-hired in the $10–30M range, or shuts down — ARR stays below $2M at the consumer SKU because the per-user dedicated cloud machine architecture (askjo.ai) does not pencil against Apple Intelligence shipping free at the OS layer on the same Mac jo runs on. The mechanism is straightforward: Limitless raised $33M, ended up at Meta in December 2025, and that is the optimistic case for jo's category.
+
+The bull case that actually stings: Pradeep is the exact "follow the founder" pattern I'm supposed to back — a 3x YC founder paired with a decade-long collaborator, attacking a category where the agentic-LLM threshold genuinely crossed in 2024–2025, and the integration work across Safari, Notes, Slack, Photos, Telegram, and WhatsApp is real schlep that repels small teams. Replit looked like "another IDE" to most people in 2017, and I sent Sam a gold-plated note anyway because I trusted Amjad's slope. The dossier-grounded counter is that Replit had no Apple-Intelligence-equivalent shipping for free on every developer's machine, and Amjad's category was hackers-building-for-hackers — jo's category is consumers, where Apple's distribution is pre-installed. None of my Known Exceptions apply: jo is not Boom-scale ambitious, not Watsi-grade earnest, and not ClassDojo-level schlep (selling to school districts is a moat; indexing a Mac is not). I would flip to invest if jo shows >60% week-over-week retention on users past day-30 of memory accumulation paired with $30+/month willingness-to-pay validated by paid conversions — that would prove the per-user data graph is a real switching cost rather than a feature Apple ships in 14.5.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Resourcefulness Under Constraint | 13/30 |
+| Organic Problem Discovery | 8/25 |
+| Idea That Repels Before It Attracts | 5/20 |
+| Founder Learning Rate | 8/15 |
+| Earnest Builder Identity | 4/10 |
+| **Total** | **38/100** |
+
+**Total Score: 38/100** (Pass)

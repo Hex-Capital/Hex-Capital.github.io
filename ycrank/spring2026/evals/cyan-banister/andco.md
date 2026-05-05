@@ -1,0 +1,30 @@
+﻿# Andco -- Cyan Banister Evaluation
+
+Andco is a credentialed-founder, consensus-AI legal-tech bet — Lemm's Harvard Law JD and Kirkland & Ellis time give it a ribbon of genuine domain forge, but the company sits in the most crowded AI lane in venture right now, with EvenUp ($2B valuation, 2,000+ firms) and Supio ($91M raised, 4x ARR) already extending into the same pre-litigation territory. The signature here is "real legal context + zero contrarian signal." That's the exact pairing my Pass Example warned me about.
+
+When I run my biographical forge ladder, the HIGH rung is James Proud at Substrate — forged in fire, came out unbroken, building semiconductor infrastructure because his life left him no choice. The LOW rung is the founder I described in my Pass Example: "I was at Google and saw the opportunity." Andco's Michael Lemm sits between MID and LOW, lifted off the floor because Harvard Law plus actual Kirkland & Ellis litigation practice is real domain immersion — he sat inside the workup grind that PI firms run on. But Ryan Xue's path — Cornell, McKinsey, Google policy fellow, Layup (YC W23) acquired by Whatfix in November 2025 — reads as repeat-founder execution rather than biographical inevitability. They didn't get into PI because the system broke their family; they got into PI because the Layup→Whatfix exit gave them another swing and the legal-AI category is hot.
+
+Contrarian conviction is where Andco lives lowest, and this ladder is brutal. The HIGH rung is Anduril when defense was politically toxic in Silicon Valley, or Contraline when no VC wanted to write a check on male contraception. The LOW rung is the Pass Example AI wrapper — consensus product, consensus market, no courage required to say it out loud at a dinner party. Andco lands on the LOW rung. EvenUp closed a $150M Series E in October 2025 at a $2B valuation, Eve raised $47M from a16z in January 2025, Supio is doubling capital every cycle — when sophisticated investors are tripping over themselves to fund this category, I am not the first check, I am the seventh-best version of a check that's been written six times. Andco's "agentic across fax/voice/SMS" framing is differentiation, not contrarianism.
+
+Invisible system test: HIGH rung Uber attacked the taxi medallion cartel that extracted from drivers and riders. MID rung Carta exposed cap table opacity. LOW rung HQ Trivia disrupted nothing structural. Andco sits between MID and LOW — and here's the wrinkle that matters. The PI claims system IS opaque and extractive, with insurers low-balling injured plaintiffs who don't know what their case is worth. But Andco's customer is the law firm, not the injured person. Andco compresses paralegal hours; it doesn't put settlement-value transparency in a plaintiff's pocket. If Andco were routing carrier offer comparisons directly to claimants, I'd be on the phone. Instead, the "24+ hours saved per case" homepage claim is a firm-efficiency pitch.
+
+Defensibility at inflection — HIGH rung Flock Safety's camera network compounds with every install; LOW rung HQ Trivia had nothing structural underneath. Andco sits closer to LOW: the dossier explicitly states "no public IP, patents, regulatory licensing, or proprietary data assets disclosed," and the Filevine integration plus carrier-specific playbooks are real but replicable by EvenUp's $385M war chest in two quarters. Cascading real-world impact lands MID — Uber expanded transportation access at the HIGH rung, and Andco does plausibly accelerate settlements to working-class injury plaintiffs as a second-order effect, but the primary customer is the firm pocketing more cases per headcount, not the claimant.
+
+Forecast, 36 months: Andco gets acquired by EvenUp, Filevine, or Whatfix (the Layup acquirer is the obvious quiet relationship) for $40–120M, with the Xue/Lemm team landing in a workflow-product role. Not dead, not a unicorn — the Layup pattern, repeated. The mechanism is straightforward: consensus category + credentialed repeat founders + no structural moat = quick integration into a larger platform that needs the workflow surface area.
+
+The strongest case against me is the Layup-to-Whatfix exit itself. Xue and Lemm shipped, sold, and landed inside an acquirer in November 2025 — that's execution proof at a level most pre-seed founders can't claim. PI is genuinely an enormous market ($61B per Fortune), the buyers are real (the dossier cites "many high volume firms... hundreds of cases and thousands of requests each month"), and Lemm's K&E credentials let Andco walk into managing partner offices that EvenUp's enterprise reps can't reach the same way. RTFKT is my precedent for backing a non-contrarian consumer hype bet that worked because of cultural inflection — could PI legal-AI be that narrow window? No. RTFKT had a one-time category-defining moment with a clear acquirer landscape (Nike) before NFTs collapsed. Andco's acquirer landscape is also identifiable, but the outcome ceiling is bounded by the fact that EvenUp will likely BE the platform, not buy Andco for a category-defining premium. The dossier evidence that wins this argument is the explicit competitive disclosure: EvenUp's ARR is doubling annually and it raised at $2B six months before Andco's Spring 2026 batch — the window to become category-defining was already closed when Xue and Lemm started building. **The single condition that would flip my verdict:** Andco discloses a proprietary data asset (a settlement-outcome dataset by carrier and injury type, or a claimant-side transparency product) that EvenUp structurally cannot replicate from its demand-letter footprint.
+
+Pass — with respect for the founders. This isn't a Long Journey bet.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder's Biographical Forge | 14/30 |
+| Contrarian Conviction in Hard Spaces | 7/25 |
+| Invisible System Made Visible | 7/20 |
+| Infrastructure-Grade Defensibility at Inflection | 6/15 |
+| Cascading Real-World Impact | 5/10 |
+| **Total** | **39/100** |
+
+**Total Score: 39/100** (Pass)

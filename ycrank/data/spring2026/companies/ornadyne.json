@@ -1,0 +1,77 @@
+{
+  "slug": "ornadyne",
+  "name": "Ornadyne",
+  "oneLiner": "We're building robot birds for surveillance.",
+  "metadata": {
+    "website": "https://ornadyne.com/",
+    "yc_page": "https://www.ycombinator.com/companies/ornadyne",
+    "batch": "Spring 2026",
+    "industry": "Industrials / Industrials -> Drones",
+    "team_size": "2",
+    "location": "Los Angeles, CA, USA",
+    "tags": "Hard Tech, Robotics, Drones, Aerospace",
+    "yc_partner": "Aaron Epstein (YC company page)",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Hard Tech",
+    "Robotics",
+    "Drones",
+    "Aerospace"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-05T04:29:14.639Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 60,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 52,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 57,
+    "EG": 47,
+    "NR": 54,
+    "PG": 60,
+    "PT": 52,
+    "SL": 58,
+    "VK": 52
+  },
+  "consolidatedAvg": 54.29,
+  "consolidatedRank": 7,
+  "paths": {
+    "memo": "spring2026/memos/ornadyne.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/ornadyne.md",
+      "elad-gil": "spring2026/evals/elad-gil/ornadyne.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/ornadyne.md",
+      "paul-graham": "spring2026/evals/paul-graham/ornadyne.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/ornadyne.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/ornadyne.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/ornadyne.md"
+    }
+  }
+}

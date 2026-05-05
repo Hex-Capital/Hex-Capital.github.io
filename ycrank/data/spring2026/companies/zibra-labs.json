@@ -1,0 +1,77 @@
+{
+  "slug": "zibra-labs",
+  "name": "Zibra Labs",
+  "oneLiner": "HPC for Quant Trading Firms running backtesting at scale.",
+  "metadata": {
+    "website": "https://zibralabs.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/zibra-labs",
+    "batch": "Spring 2026 (YC page)",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Fintech, Cloud Computing, Infrastructure",
+    "yc_partner": "Tom Blomfield (YC page)",
+    "emails": "founders@zibralabs.ai (zibralabs.ai)"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Fintech",
+    "Cloud Computing",
+    "Infrastructure"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-05T04:29:29.237Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 34,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 29,
+    "EG": 56,
+    "NR": 58,
+    "PG": 41,
+    "PT": 35,
+    "SL": 39,
+    "VK": 34
+  },
+  "consolidatedAvg": 41.71,
+  "consolidatedRank": 68,
+  "paths": {
+    "memo": "spring2026/memos/zibra-labs.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/zibra-labs.md",
+      "elad-gil": "spring2026/evals/elad-gil/zibra-labs.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/zibra-labs.md",
+      "paul-graham": "spring2026/evals/paul-graham/zibra-labs.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/zibra-labs.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/zibra-labs.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/zibra-labs.md"
+    }
+  }
+}

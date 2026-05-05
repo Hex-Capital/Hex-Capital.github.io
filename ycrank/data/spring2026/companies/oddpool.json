@@ -1,0 +1,76 @@
+{
+  "slug": "oddpool",
+  "name": "Oddpool",
+  "oneLiner": "Institutional data broker for prediction markets",
+  "metadata": {
+    "website": "https://www.oddpool.com",
+    "yc_page": "https://www.ycombinator.com/companies/oddpool",
+    "batch": "Spring 2026 (P26) (YC page)",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Fintech, Finance, Analytics",
+    "yc_partner": "David Lieb (YC page)",
+    "emails": "avi@oddpool.com (oddpool.com support listing)"
+  },
+  "tags": [
+    "Fintech",
+    "Finance",
+    "Analytics"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-05T04:32:06.792Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 60,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 32,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 35,
+    "EG": 60,
+    "NR": 51,
+    "PG": 49,
+    "PT": 26,
+    "SL": 40,
+    "VK": 32
+  },
+  "consolidatedAvg": 41.86,
+  "consolidatedRank": 65,
+  "paths": {
+    "memo": "spring2026/memos/oddpool.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/oddpool.md",
+      "elad-gil": "spring2026/evals/elad-gil/oddpool.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/oddpool.md",
+      "paul-graham": "spring2026/evals/paul-graham/oddpool.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/oddpool.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/oddpool.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/oddpool.md"
+    }
+  }
+}

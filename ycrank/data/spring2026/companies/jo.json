@@ -1,0 +1,77 @@
+{
+  "slug": "jo",
+  "name": "jo",
+  "oneLiner": "A new personal AI that actually knows you.",
+  "metadata": {
+    "website": "https://askjo.ai",
+    "yc_page": "https://www.ycombinator.com/companies/jo",
+    "batch": "Spring 2026 (YC page); founder LinkedIn references \"jo (YC W24)\" (LinkedIn, May 2026)",
+    "industry": "Consumer / Consumer",
+    "team_size": "2",
+    "location": "Menlo Park, CA, USA; Remote",
+    "tags": "Artificial Intelligence, Consumer, AI, AI Assistant",
+    "yc_partner": "Garry Tan (YC company page)",
+    "emails": "hello@askjo.ai, privacy@askjo.ai (askjo.ai website)"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Consumer",
+    "AI",
+    "AI Assistant"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-05T04:31:54.326Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 34,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 37,
+    "EG": 34,
+    "NR": 44,
+    "PG": 38,
+    "PT": 27,
+    "SL": 27,
+    "VK": 34
+  },
+  "consolidatedAvg": 34.43,
+  "consolidatedRank": 113,
+  "paths": {
+    "memo": "spring2026/memos/jo.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/jo.md",
+      "elad-gil": "spring2026/evals/elad-gil/jo.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/jo.md",
+      "paul-graham": "spring2026/evals/paul-graham/jo.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/jo.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/jo.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/jo.md"
+    }
+  }
+}

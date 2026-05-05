@@ -1,0 +1,76 @@
+{
+  "slug": "kugelaudio",
+  "name": "KugelAudio",
+  "oneLiner": "Kugel is an on-prem enterprise TTS supporting 25+ languages",
+  "metadata": {
+    "website": "https://kugelaudio.com/en",
+    "yc_page": "https://www.ycombinator.com/companies/kugelaudio",
+    "batch": "Spring 2026 (YC P26) (YC page)",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "4",
+    "location": "Berlin, Berlin, Germany",
+    "tags": "Generative AI, API, Conversational AI",
+    "yc_partner": "Andrew Miklas (YC page)",
+    "emails": "kajo@kugelaudio.com (sonusahani.com blog citing repo)"
+  },
+  "tags": [
+    "Generative AI",
+    "API",
+    "Conversational AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-05T04:29:43.543Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 40,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 38,
+    "EG": 55,
+    "NR": 45,
+    "PG": 50,
+    "PT": 28,
+    "SL": 37,
+    "VK": 40
+  },
+  "consolidatedAvg": 41.86,
+  "consolidatedRank": 64,
+  "paths": {
+    "memo": "spring2026/memos/kugelaudio.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/kugelaudio.md",
+      "elad-gil": "spring2026/evals/elad-gil/kugelaudio.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/kugelaudio.md",
+      "paul-graham": "spring2026/evals/paul-graham/kugelaudio.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/kugelaudio.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/kugelaudio.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/kugelaudio.md"
+    }
+  }
+}

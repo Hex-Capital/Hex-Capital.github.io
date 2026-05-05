@@ -1,0 +1,75 @@
+{
+  "slug": "intelligence-factory",
+  "name": "Intelligence Factory",
+  "oneLiner": "Human Intelligence for Robots",
+  "metadata": {
+    "website": "https://intelligence-factory.com",
+    "yc_page": "https://www.ycombinator.com/companies/intelligence-factory",
+    "batch": "Spring 2026 (YC company page)",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+    "team_size": "5",
+    "location": "San Francisco, CA, USA",
+    "tags": "Robotics, AI",
+    "yc_partner": "Pete Koomen (YC company page)",
+    "emails": "yash@intelligence-factory.com (company website)"
+  },
+  "tags": [
+    "Robotics",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-05T04:29:12.972Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 59,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 30,
+    "EG": 36,
+    "NR": 42,
+    "PG": 37,
+    "PT": 27,
+    "SL": 32,
+    "VK": 59
+  },
+  "consolidatedAvg": 37.57,
+  "consolidatedRank": 100,
+  "paths": {
+    "memo": "spring2026/memos/intelligence-factory.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/intelligence-factory.md",
+      "elad-gil": "spring2026/evals/elad-gil/intelligence-factory.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/intelligence-factory.md",
+      "paul-graham": "spring2026/evals/paul-graham/intelligence-factory.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/intelligence-factory.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/intelligence-factory.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/intelligence-factory.md"
+    }
+  }
+}

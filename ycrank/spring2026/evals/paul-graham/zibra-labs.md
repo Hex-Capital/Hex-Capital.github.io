@@ -1,0 +1,28 @@
+﻿# Zibra Labs -- Paul Graham Evaluation
+
+Ibrahim Rabbani and Zac Policzer are Ray Core engineers who left Anyscale to sell HPC to hedge funds, and that one sentence is most of what I need to know about Zibra Labs. The signature is high technical pedigree paired with low organic problem discovery: two distributed-systems builders aiming a Ray-shaped scheduler at a customer segment ? quant trading firms ? where neither founder has worked a day, according to the dossier's own admission that "no public quant-domain experience surfaced for either founder." That is a familiar shape, and it is rarely the shape of the companies I get excited about.
+
+On organic problem discovery ? my lowest-scored dimension for Zibra Labs ? the high rung is Drew Houston building Dropbox because he kept forgetting his USB drive, and the low rung is the McKinsey pair I keep using as a pass example, the ones who "identified an opportunity" in B2B workflow automation through customer interviews. Zibra Labs sits closer to the McKinsey end. Rabbani and Policzer did not live in the future of a quant fund and notice backtests were slow; they lived at Anyscale, noticed Bridgewater and Two Sigma were Ray users, and reasoned outward toward a vertical. The "hundreds of signals per day" framing on zibralabs.ai is downstream of an LLM trend narrative, not a personal frustration. The way to get startup ideas is not to try to think of startup ideas, and "AI generates more strategies, therefore sell more compute" is exactly the shape of an idea you arrive at by trying.
+
+On founder resourcefulness ? where Zibra Labs places highest, though not high in absolute terms ? the high rung is the Airbnb founders selling $40 cereal boxes, the mid rung is Patrick Collison shipping Auctomatic before Stripe, and the low rung is a deck-first founder with no shipping evidence. Zibra Labs sits between mid and low. Rabbani contributed to ray-project/ray (42.4k stars upstream); Policzer was tech lead on LinkedIn's Venice derived-data platform. These are real ship records ? they have built hard distributed systems that other people use. But the dossier contains zero anecdotes of them clawing through a constraint: no scrappy pilot, no manual-service-before-software story, no founders-doing-things-that-don't-scale narrative. The pedigree carries them off the floor; the absence of texture keeps them out of the top quartile.
+
+Stripe is the high rung on schlep blindness ? PCI compliance and bank integrations repelled everyone ? and Zibra Labs gestures at this with multi-cloud spot scheduling at 6.4M parallel tasks, which is genuinely unpleasant to build. But the AWS+Coiled blog post documented in the dossier is the tell: this is not a schlep that repels competitors, it is a consensus AI-infra category with Coiled ($26M raised), Anyscale, and AWS Batch already published as reference architectures. Zibra Labs sits between Reddit (mid) and a generic infra pitch (low). On founder learning rate, the ship records on Ray and Venice put Zibra Labs above the no-iteration low rung but well below Sam Altman's Loopt-to-YC-president slope, because the dossier shows zero customer-iteration signal ? no design partners named, no pilot data, no weekly metric.
+
+Earnestness is where I get quietest about Zibra Labs. Watsi is the high rung; the low rung is the founder optimizing for valuation and press. Zibra Labs is selling compute to hedge funds, which is fine ? Stripe sold to merchants ? but the website's framing is throughput and cluster size, and the customer is a money manager. Nothing in the dossier suggests Rabbani or Policzer are obsessed with the problem itself rather than with the obvious revenue density of quant buyers. Default applies, slightly below.
+
+My 36-month forecast for Zibra Labs: acquired by Anyscale for $20?50M as a vertical wedge, or quietly pivoted to general AI compute after direct sales to hedge funds prove too slow without a quant-native founder. The mechanism is the founder-market gap. Quant infra sales are relationship-driven, and Anyscale itself ? Zibra Labs's alma mater ? owns the relationships their pitch leans on. Two distributed-systems builders without a quant on the cap table will discover that "we know Bridgewater uses Ray" is not the same as "Bridgewater will sign a six-figure contract with us instead of building it themselves or calling Anyscale."
+
+The bear case I have to take seriously is the Stripe analogy: Patrick and John Collison were not bankers, and they built payments anyway. If Rabbani and Policzer are to quant compute what the Collisons were to payments ? developers building for developers in a hairy regulated domain ? then Zibra Labs is exactly my kind of bet. The dossier even notes Ray's actual user list (xAI, Cursor, Bridgewater, Two Sigma), which is real warm distribution. But Stripe's customers were developers like the Collisons; Zibra Labs's customers are quants, who are not like Rabbani and Policzer. Payments was a schlep no one wanted; quant backtest compute is a category Coiled and AWS already have published playbooks for. The flip condition is concrete: a signed pilot with a named top-10 quant fund where the fund chose Zibra Labs over an in-house Ray cluster, before Series A. Show me that artifact and I revisit. Until then, Zibra Labs is competent people building from a market thesis rather than from a problem they live inside, and I pass.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Resourcefulness Under Constraint | 13/30 |
+| Organic Problem Discovery | 7/25 |
+| Idea That Repels Before It Attracts | 8/20 |
+| Founder Learning Rate | 9/15 |
+| Earnest Builder Identity | 4/10 |
+| **Total** | **41/100** |
+
+**Total Score: 41/100** (Pass)

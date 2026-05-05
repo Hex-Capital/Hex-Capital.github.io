@@ -1,0 +1,78 @@
+{
+  "slug": "plan0-ai",
+  "name": "PLAN0 AI",
+  "oneLiner": "AI powered construction cost estimation & analytics.",
+  "metadata": {
+    "website": "https://plan0.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/plan0-ai",
+    "batch": "Spring 2026 (YC company page)",
+    "industry": "Real Estate and Construction / Real Estate and Construction",
+    "team_size": "5",
+    "location": "Not listed on YC page",
+    "tags": "Artificial Intelligence, Computer Vision, Real Estate, Construction, Proptech",
+    "yc_partner": "Tom Blomfield (YC company page)",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Computer Vision",
+    "Real Estate",
+    "Construction",
+    "Proptech"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-05T04:29:29.231Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 37,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 39,
+    "EG": 46,
+    "NR": 50,
+    "PG": 39,
+    "PT": 30,
+    "SL": 35,
+    "VK": 37
+  },
+  "consolidatedAvg": 39.43,
+  "consolidatedRank": 92,
+  "paths": {
+    "memo": "spring2026/memos/plan0-ai.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/plan0-ai.md",
+      "elad-gil": "spring2026/evals/elad-gil/plan0-ai.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/plan0-ai.md",
+      "paul-graham": "spring2026/evals/paul-graham/plan0-ai.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/plan0-ai.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/plan0-ai.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/plan0-ai.md"
+    }
+  }
+}

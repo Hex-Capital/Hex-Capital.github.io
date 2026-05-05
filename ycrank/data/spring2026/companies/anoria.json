@@ -1,0 +1,78 @@
+{
+  "slug": "anoria",
+  "name": "ANORIA",
+  "oneLiner": "The first wearable that reads your emotions to enhance your EQ.",
+  "metadata": {
+    "website": "https://www.anoria.com",
+    "yc_page": "https://www.ycombinator.com/companies/anoria",
+    "batch": "Spring 2026",
+    "industry": "Consumer / Consumer -> Consumer Electronics",
+    "team_size": "5",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Hardware, Mental Health Tech, Consumer Health Services, Consumer Products",
+    "yc_partner": "Pete Koomen (YC company page)",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Hardware",
+    "Mental Health Tech",
+    "Consumer Health Services",
+    "Consumer Products"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-05T04:29:14.269Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 36,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 29,
+    "EG": 30,
+    "NR": 42,
+    "PG": 37,
+    "PT": 28,
+    "SL": 33,
+    "VK": 36
+  },
+  "consolidatedAvg": 33.57,
+  "consolidatedRank": 117,
+  "paths": {
+    "memo": "spring2026/memos/anoria.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/anoria.md",
+      "elad-gil": "spring2026/evals/elad-gil/anoria.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/anoria.md",
+      "paul-graham": "spring2026/evals/paul-graham/anoria.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/anoria.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/anoria.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/anoria.md"
+    }
+  }
+}

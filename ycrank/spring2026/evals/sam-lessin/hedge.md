@@ -1,0 +1,30 @@
+﻿# Hedge -- Sam Lessin Evaluation
+
+Hedge is a regulated middleman with a workflow-speed pitch ? a 30-minute median first response and 3? hit ratio claim grafted onto a CA surplus-lines license #6018729 ? which means its highest dimension is structural durability and its lowest is primitive creation. That pairing tells you exactly what Hedge is: a faster wholesale broker, not a new behavioral category. And in my framework, "faster wholesaler" is the thing CRC, Amwins, and RT Specialty already know how to fund internally.
+
+On the AI Kill Test ? Hedge's strongest axis ? the ladder runs from Metropolis (physical parking assets that no LLM can commoditize) at the top, through Solana (protocol-level consensus that compounds) in the middle, down to generic AI copilot wrappers at the bottom where Adobe and Salesforce eat your lunch. Hedge sits between Solana and the wrappers, closer to the wrappers: NPN 22154671 plus 30+ carrier appointments is real friction, but the dossier itself concedes "the structural moat is modest at pre-seed" and that funded incumbents can bolt AI ingestion onto existing books. Licensure slows the kill. It does not block it. CRC has billions of premium, the same carrier appointments Hedge is laboriously building, and the capital to hire fifty engineers tomorrow.
+
+On Primitive Creation, Hedge's weakest axis ? the ladder is Venmo (peer-to-peer mobile payments became a verb) at the top, Patreon (formalized direct-to-creator monetization) in the middle, and "better CRM" / "faster analytics" at the bottom where the upside is capped by an existing market's switching willingness. Hedge sits at the bottom rung. Wholesale brokerage has existed since the Lloyd's coffee house. Hedge's pitch is "we route hard-to-place E&S risk faster than the multi-day incumbent turnaround." That is execution in an existing market. Nobody will say "Hedge me this contractor's GL" the way they say "Venmo me." There is no new behavior here, no new financial primitive, no ISA-on-a-human, no protocol. It is a placement shop that responds to email faster.
+
+On Consensus Mispricing, Eaze sits at the top of the ladder (cannabis when every Sand Hill VC wouldn't touch it), Patreon in the middle, and the AI-copilot YC batch at the bottom. Hedge sits mid-low. E&S itself is genuinely unloved by venture ? a $90.3B premium pool that most generalist VCs find uncomfortably regulatory. That's the bull pricing argument. But "AI-native insurance brokerage" in 2026 is no longer contrarian: Federato, Sixfold, Cytora, Vouch, and Newfront are all in adjacent territory, and Luke Button himself just did this in YC F25 with Fernstone. The category has been discovered. The asymmetry is mostly priced in.
+
+On Sanity-Insanity, the ladder is Raj Dittmar pitching Solana at four cents (sane engineer, insane Layer-1 bet against Ethereum consensus) at the top, Stewart Butterfield at Slack in the middle (sane founder, sensible-ish primitive), and synthetic incubator-matched co-founders at the bottom. Hedge's two Lukes are sane operators ? Button shipped Fernstone, Rosa "replaced humans with AI agents to manage $20MM+ in revenue" at Traba ? but the idea is sane too. Sane person, sane idea is a boring trade. Worse, Luke Button is publicly listed as co-founder/CEO of Fernstone (F25) AND founder of Hedge (S26), with Fernstone's site still active. That is not the Raj-through-three-companies pattern I underwrite. That is back-to-back YC batches in the same vertical with unclear cap-table and IP relationships, which is a diligence yellow flag, not a conviction signal.
+
+On Capital Discipline, no public burn or runway data ? default mid score. Founding Underwriter at $125K?$200K plus 0.25?1.50% equity says they're hiring a licensed body, which is reasonable for a wholesale broker that needs underwriting talent, not engineers playing house. Reactive, not empire-building. Fine, but unremarkable.
+
+Forecast, 36 months: Hedge reaches $3?12M in commission revenue against a soft E&S market (AM Best revised the 2026 outlook from positive to stable; rates compress through Q1?Q2 2026), then gets acqui-hired by Newfront or a mid-tier wholesaler ? or merges back into Fernstone ? at $25?80M. Not zero. Not a fund-returner. The mechanism: workflow speed is a real wedge for 18 months until CRC ships its own intake LLM, at which point Hedge's only remaining edge is the 140-retail-agent relationship book, which is acquirable.
+
+The strongest bull case stings: Luke Button is a second-time founder in this exact vertical, Slack violated my Consensus Mispricing rule and printed billions on primitive strength alone, and a licensed wholesale broker with 30+ carrier appointments and 140+ retail agencies in 36 states at pre-seed is genuinely ahead of where most YC fintechs sit. The bull says: this is the Newfront of specialty wholesale before Newfront exists in specialty. I dismantle it with two facts. First, the Slack override required a genuine new primitive (real-time workplace messaging replacing email) ? Hedge is faster ACORD ingestion, not a behavioral primitive. Second, my own thesis: "AI is fuck yeah for the big companies." CRC and Amwins are the big companies here. The condition that flips my verdict: Hedge demonstrates delegated underwriting authority (true MGA status with binding capacity from a panel of carriers) rather than pure brokering, and reports >$5M in bound premium with >40% gross retention by month 18 ? that would convert workflow speed into a capital-and-data moat the incumbents cannot trivially replicate. Until then, pass.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Consensus Mispricing ? Is the Market Wrong? | 12/30 |
+| Primitive Creation ? Does This Birth a New Category? | 6/25 |
+| Sanity-Insanity Calibration ? Sane Founder, Insane Idea | 9/20 |
+| Structural Durability ? Does It Survive the AI Kill Test? | 8/15 |
+| Capital Discipline ? Built to Survive, Not to Raise | 6/10 |
+| **Total** | **41/100** |
+
+**Total Score: 41/100** (Pass)

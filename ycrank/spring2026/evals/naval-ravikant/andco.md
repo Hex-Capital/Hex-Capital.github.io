@@ -1,0 +1,30 @@
+﻿# Andco -- Naval Ravikant Evaluation
+
+Andco is a lean-team AI agentic workflow tool in a vertical that is already attracting $385M-Series-E money to the firm next door — high on the team-to-value axis, low on access democratization. Three repeat operators, an AI-native back-office product for plaintiff personal injury firms, and a category where EvenUp at a $2B valuation is the elephant. This signature — extreme operator density attacking a B2B niche with no end-consumer leverage — is what I have to underwrite.
+
+Andco's strongest dimension is team-to-value leverage. The HIGH rung here is Midjourney — ~163 people, $500M revenue, no salesforce, no ops army. The LOW rung is Poshmark, where every dollar of GMV growth dragged a marketplace ops team behind it. Andco sits closer to Midjourney than Poshmark: YC lists team size 0, three founders are doing the work, the product is AI agents over fax/voice/email/SMS — the workflow IS the workforce. "Hundreds of cases, thousands of requests each month" with three people is the leverage signal I look for. I would place Andco between the mid rung (Notion) and the high rung — it is a legitimate small-team execution profile, but the unit economics of voice agents and multi-channel orchestration are not Midjourney-grade zero-marginal-cost.
+
+Andco's weakest dimension is access democratization. The HIGH rung is AngelList — millions of LPs into venture, gatekeeper removed. The LOW rung is Clearview AI, structurally anti-democratization. Andco sits below the MID rung (Gumroad democratizing commerce for creators) and well above Clearview: Andco lets PI firms process more cases per paralegal, which marginally lowers the cost of taking small-claim plaintiffs, but the buyer is the law firm, not the injured person. There is no gatekeeper being removed for end users — Andco is a back-office multiplier for firms already serving claimants. The "$61B U.S. personal injury space" is being reshuffled among existing PI lawyers, not expanded to people locked out of representation. By my framework this is a B2B efficiency tool, not a democratization play, and I score it accordingly.
+
+On specific knowledge productization, the HIGH rung is Perplexity — Srinivas's Google Brain/OpenAI years productized into AI search; the LOW rung is the AI-wrapper MBAs from my pass example who chose meeting summaries because GPT-4 made it possible. Andco sits between the LOW and MID rungs (Notion). Michael Lemm's Harvard Law JD plus Kirkland & Ellis time is real legal credentialing — but Kirkland is BigLaw defense-side, not plaintiff PI pre-litigation, where the specific knowledge actually lives (the carrier-by-carrier UM/UIM playbooks, the provider intake quirks, the lien negotiation patterns). Ryan Xue's Layup (YC W23 → Whatfix Nov 2025) was a different vertical entirely. The specific knowledge here is borrowed credentialing, not lived plaintiff-firm operating knowledge.
+
+On permissionless leverage architecture, the HIGH rung is Twitter — zero marginal cost media to hundreds of millions; the LOW rung is Poshmark again. Andco sits at the mid rung (Stack Overflow) — AI agent calls have real per-case cost (LLM tokens, voice minutes, fax retries), and Andco is renting frontier-model leverage rather than owning any. The "3x faster attorney efficiency" claim is product-effect, not a structural moat. Software was eaten by AI, but Andco is downstream of that meal — the leverage belongs to OpenAI and Anthropic, and Andco is reselling it with workflow glue.
+
+On principal authenticity, the HIGH rung is Sahil Lavingia at Gumroad — kept coding alone after the Series A failed; the LOW rung is the AI-wrapper duo who chose because it was fundable. Andco's founders sit mid-rung. Xue and Lemm shipped Layup, exited to Whatfix on Nov 25, 2025 — and per the dossier, joined Whatfix "in an advisory capacity" while running a YC Spring 2026 batch. That is the red flag I watch for: founders who pivoted to PI tech months after an unrelated exit, with dual commitments. Repeat founders with execution scars, yes. Principals who could not stop thinking about plaintiff personal injury workflows? Not the evidence I see.
+
+My 36-month forecast: Andco reaches $3–10M ARR and is acquired by Filevine, EvenUp, or Supio as their agentic execution layer for pre-litigation workups, sometime between months 18 and 30. The mechanism: multi-channel agent orchestration is hard enough to build that incumbents will buy rather than build, and the Layup→Whatfix relationship signals founders who price acquisition optionality into their roadmap. The team is good enough to ship, the category is hot enough to consolidate, the founders have an exit reflex.
+
+The strongest case against this forecast is that Lemm's actual JD-holding presence in the room is genuinely rare in legal tech, and multi-channel voice/fax agent reliability is a real moat if Andco gets eighteen months of head start on EvenUp's roadmap — that combination could compound into $30–50M ARR and a real standalone business, not an acqui-tuck. The dossier evidence that defeats this case is EvenUp's $385M raised, $2B valuation, 2,000+ firms already paying, and an ARR doubling annually — incumbents with that much capital and seat penetration absorb adjacent workflows in twelve months, not eighteen, and Andco is not selling something a funded incumbent cannot bundle. The condition that flips my verdict: Andco discloses a named, paying, Tier-1 PI firm (Morgan & Morgan tier or equivalent) with multi-month retention and a retention rate above 90%, before EvenUp ships its own pre-lit agent suite. Without that, this is a competent team in a consensus market — and I get paid for being right first, not for backing the third-best-funded entrant.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Specific Knowledge Productization | 13/30 |
+| Permissionless Leverage Architecture | 14/25 |
+| Principal Authenticity Signal | 9/20 |
+| Team-to-Value Leverage | 11/15 |
+| Access Democratization Pattern | 3/10 |
+| **Total** | **50/100** |
+
+**Total Score: 50/100** (Neutral)

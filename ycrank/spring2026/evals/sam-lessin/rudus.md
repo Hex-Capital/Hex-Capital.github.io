@@ -1,0 +1,26 @@
+﻿# Rudus -- Sam Lessin Evaluation
+
+Rudus is what happens when two ex-big-tech engineers — Sahil Goel out of Amazon/NASA JPL/Northrop and Rishi Pankhaniya out of Airbnb/Apple — point a vision-language model at concrete plan sets and call it a wedge. The signature here is brutal: tight, disciplined, two-person team (high on capital efficiency by default) building exactly the kind of pure-SaaS AI-application layer that fails my AI kill test the hardest. Lean and disposable. That's the company.
+
+Structural Durability is where Rudus dies. The HIGH rung on this ladder is Solana — a Layer-1 consensus mechanism, protocol-level, AI cannot commoditize a chain. The MID rung is Patreon, where creator-audience relationships are the moat the algorithm can't replicate. The LOW rung is every "Adobe for AI" pitch I've watched die — fine-tuned wrapper, incumbent adds the feature, game over. Rudus pins to the LOW rung: pure browser SaaS, no proprietary dataset disclosed, no protocol layer, exporting into HCSS HeavyBid and Sage and B2W which means the *integration partners* sit at the choke point, not Rudus. Togal.AI is already at 97-98% accuracy on takeoffs with $17.2M raised, and ConstructConnect owns PlanSwift's installed base. Either of those parties adds a concrete-specific element detector in a quarter. This is fucking textbook for the AI kill test — and I apply it without sentimentality.
+
+Consensus Mispricing is where the contrarian thesis falls apart. HIGH rung is Solana at four cents when every smart crypto person told me Ethereum had won. MID rung is Slack — consensus-hot but the primitive justified the price. LOW rung is the half of the YC batch pitching me an AI copilot for industry X — every investor in the room is bidding, no asymmetry left. Rudus sits closer to the LOW rung than I'd like. Q4 2025 saw $124.5M into six contech startups; Togal, Beam AI, Handoff, Articulate, Boon are all running at the same buyer; "AI for construction" is a 2026 consensus category, not a dismissed one. The narrow concrete-only framing buys Rudus maybe a half-step of differentiation in a room of generalists, but the *category* is priced — there is no "what if they're right?" gap here because everyone already agrees.
+
+Primitive Creation: HIGH is Venmo (created the verb), MID is Metropolis (AI parking where the physical infrastructure is the primitive), LOW is "better CRM." Rudus is "better takeoff tool" — concrete subs already do takeoffs in PlanSwift and Bluebeam; Rudus is faster, not new. No new behavior, no new financial instrument, no new asset class. Sanity-Insanity: HIGH is Raj on Solana, sane engineer pitching a new L1; LOW is the volatile AI-hype founder with no domain context. Rudus founders read sane on paper — Rishi being the first new-grad engineer Airbnb hired in 2+ years is a real credential signal — but the idea is not insane. It's a sensible vertical SaaS bet. Sane founder, sane idea is boring; that's not the calibration I pay for. Capital Discipline is genuinely the strongest dimension: two-person team, founder-led sales through one Calendly link, no announced raise beyond YC, no signs of factory-farm scaling. Gusto-style efficient deployment by default — but mostly because they haven't had time to spend money yet.
+
+36-month forecast: Rudus gets acquired by HCSS, ConstructConnect, or Trimble for $10-25M as an aqui-hire to bolt concrete-specific element detection onto an incumbent estimating suite, or it stalls at $1-3M ARR while Togal.AI ships a concrete module. The mechanism producing this is the lowest-dimension/highest-dimension pairing exactly: a capital-efficient two-engineer shop with no structural moat is the perfect aqui-hire profile — small check, clean cap table, real engineering — but not a venture-scale outcome.
+
+Steel-man the bull: vertical AI for a specific trade with deep workflow integration into HCSS HeavyBid is genuinely sticky once an estimator's bid-day muscle memory routes through your tool, and concrete subcontractors are concentrated enough that founder-led sales can land 50-100 logos in 18 months. The Slack exception applies if Rudus actually creates a new estimator workflow primitive — a Plan Set Q&A layer that becomes the way concrete bids get assembled, not just a faster measuring tool. That sting is real. But the dossier shows no signed customer logos, no named LOIs, no revenue figures, no domain-insider on the team to navigate AEC workflow nuance, and a direct AI-native incumbent at $17.2M raised already on the same buyer. Slack had Stewart Butterfield with a Flickr exit and a clean primitive; Rudus has two great engineers and a vertical wrapper. Pass. Flip condition: a signed multi-year deal with a top-10 U.S. concrete subcontractor at $50K+ ACV, or a proprietary dataset of >100K labeled concrete plan sets that would be expensive for Togal to replicate. Either of those, I reopen.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Consensus Mispricing ? Is the Market Wrong? | 9/30 |
+| Primitive Creation ? Does This Birth a New Category? | 6/25 |
+| Sanity-Insanity Calibration ? Sane Founder, Insane Idea | 10/20 |
+| Structural Durability ? Does It Survive the AI Kill Test? | 4/15 |
+| Capital Discipline ? Built to Survive, Not to Raise | 7/10 |
+| **Total** | **36/100** |
+
+**Total Score: 36/100** (Pass)

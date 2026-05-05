@@ -1,0 +1,76 @@
+{
+  "slug": "memory-store",
+  "name": "Memory Store",
+  "oneLiner": "Shared context for all of your team's agents.",
+  "metadata": {
+    "website": "https://memory.store",
+    "yc_page": "https://www.ycombinator.com/companies/memory-store",
+    "batch": "Spring 2026 (YC P26) (YC company page)",
+    "industry": "B2B / B2B -> Productivity",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "Generative AI, SaaS, Consumer Products",
+    "yc_partner": "Tom Blomfield (YC company page)",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Generative AI",
+    "SaaS",
+    "Consumer Products"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-05T04:29:29.222Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 66,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 40,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 41,
+    "EG": 42,
+    "NR": 66,
+    "PG": 52,
+    "PT": 27,
+    "SL": 35,
+    "VK": 40
+  },
+  "consolidatedAvg": 43.29,
+  "consolidatedRank": 47,
+  "paths": {
+    "memo": "spring2026/memos/memory-store.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/memory-store.md",
+      "elad-gil": "spring2026/evals/elad-gil/memory-store.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/memory-store.md",
+      "paul-graham": "spring2026/evals/paul-graham/memory-store.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/memory-store.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/memory-store.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/memory-store.md"
+    }
+  }
+}

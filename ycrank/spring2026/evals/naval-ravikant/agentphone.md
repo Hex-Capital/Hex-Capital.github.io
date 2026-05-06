@@ -1,0 +1,28 @@
+﻿# AgentPhone -- Naval Ravikant Evaluation
+
+AgentPhone is a 2-person lean team selling telephony primitives to AI agents, where the team density is admirable and the knowledge stack is replaceable -- the exact shape of my Pass Example reframed for telephony. Manav Modi's documented background is a Vogue app redesign and UIUC's Rokwire mobile platform; there is no telephony, no carrier ops, no agent-runtime work in his public footprint. AgentPhone calls itself "Phone Numbers for AI Agents," but the founders did not arrive here from years of obsession with how phones should work for agents -- they arrived here from the same direction every Spring 2026 batch arrives from.
+
+Specific knowledge is where AgentPhone sits closest to my Pass Example and farthest from my anchor. Perplexity's Aravind Srinivas spent years at Google Brain and OpenAI building the actual systems that make AI search work -- that is specific knowledge productized. The AI-wrapper MBAs in my Pass Example chose their problem because it was fundable, not because they couldn't stop building it. AgentPhone's dossier puts Manav Modi between those rungs, much closer to the wrapper end: a competent consumer-mobile engineer with zero public history in 10DLC registration, STIR/SHAKEN, carrier interconnect, or agent runtime loops, and a co-founder Meet Modi with no verifiable public technical footprint at all. If AgentPhone's founders disappeared tomorrow, any competent Twilio engineer could rebuild this; that is the inverse of what I want to see.
+
+Team-to-value is where AgentPhone scores highest, and it is the only dimension where the dossier genuinely flatters them. Midjourney with ~163 employees and $500M revenue is the high rung; Cursor under 50 people at $500M ARR is the mid rung; Twilio with its army of carrier-relations and compliance staff is the low rung incumbent. AgentPhone with two engineers shipping SDKs for Python, Node, an MCP server, and framework integrations for CrewAI and OpenAI Agents SDK sits cleanly between Cursor and Midjourney on density alone. The honest caveat: telephony compliance overhead -- 10DLC, A2P, STIR/SHAKEN, spam abuse mitigation -- scales with customer count in ways pure-software businesses do not, so the 2-person leverage is structurally capped by regulatory exposure the dossier explicitly flags.
+
+Permissionless leverage at AgentPhone is code leverage rented from carriers. Twitter is my high rung -- pure code scaling to hundreds of millions. Notion is my mid rung -- code leverage but no underlying carrier dependency. Wish is the low rung where network effects evaporated when speculation ended. AgentPhone's MCP server has 13 stars and 1 fork on GitHub, MIT-licensed, sitting on top of Twilio-class carrier APIs anyone can call -- the leverage is real but rented, and the dossier itself states Twilio "could ship a competing MCP server in weeks." Innovation without a moat is consumer surplus.
+
+Principal authenticity at AgentPhone reads like an agent's pitch, not a principal's obsession. Sahil Lavingia at Gumroad kept building solo after the Series A failure -- principal-level commitment revealed by behavior. The AI-wrapper MBAs picked their problem off a trend list. AgentPhone's founders show no public artifact -- no prior telephony hack, no Discord rant about Twilio's webhook model, no half-finished open-source project from 2024 -- that suggests they were already living inside this problem before YC Spring 2026. Signals are what people do despite what they say; the signal here is silence. Access democratization is similarly thin: AngelList structurally removed gatekeepers from angel investing; Stack Overflow removed them from developer knowledge; Wish merely sold cheap goods. AgentPhone makes phone numbers slightly easier to provision for agents, but Twilio's API is already self-serve -- AgentPhone is improving developer ergonomics, not unlocking a previously gatekept population.
+
+My 36-month forecast: AgentPhone is either acqui-hired by Vapi or Retell for under $20M, or wound down once Twilio ships an official MCP server and Agents-SDK adapter -- the mechanism is incumbent commoditization of a thin protocol layer, exactly the dynamic the dossier itself describes when it flags that Vapi at $20M Series A and Retell at $50M ARR can expose phone-number-only APIs and squeeze AgentPhone from above while Twilio squeezes from below.
+
+The strongest bull case against my pass: MCP-first packaging is a genuine distribution insight, and whoever becomes the default phone primitive inside Cursor, Claude Code, and Windsurf could compound trust with agent developers faster than Twilio's enterprise sales motion can react -- the same principal-agent gap I exploited in the Perplexity-vs-Google thesis, where Google's ad-revenue P&L turned its engineers into agents. The bear-case rebuttal wins on the dossier's own numbers: 13 GitHub stars and 10 org followers is not a distribution flywheel, it is a starting line, and Twilio's principal-agent constraint is much weaker than Google's because telephony rate cards are not a sacred revenue model the way search ads are. Flip condition: if AgentPhone reports $1M+ ARR within 12 months sourced predominantly through MCP-driven adoption in agent IDEs with negligible paid CAC, the channel is real and I would re-underwrite. Until then, I pass.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Specific Knowledge Productization | 8/30 |
+| Permissionless Leverage Architecture | 12/25 |
+| Principal Authenticity Signal | 8/20 |
+| Team-to-Value Leverage | 10/15 |
+| Access Democratization Pattern | 4/10 |
+| **Total** | **42/100** |
+
+**Total Score: 42/100** (Pass)

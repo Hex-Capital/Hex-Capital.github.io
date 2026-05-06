@@ -1,0 +1,76 @@
+{
+  "slug": "pops",
+  "name": "Pops",
+  "oneLiner": "Create & play AI games with friends",
+  "metadata": {
+    "website": "https://pops.fyi",
+    "yc_page": "https://www.ycombinator.com/companies/pops",
+    "batch": "Spring 2026 (YC company page)",
+    "industry": "Consumer / Consumer -> Gaming",
+    "team_size": "1",
+    "location": "New York, NY, USA",
+    "tags": "Generative AI, Consumer, Gaming",
+    "yc_partner": "Garry Tan (YC company page)",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Generative AI",
+    "Consumer",
+    "Gaming"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-06T17:08:29.258Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 37,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 33,
+    "EG": 30,
+    "NR": 58,
+    "PG": 51,
+    "PT": 29,
+    "SL": 37,
+    "VK": 37
+  },
+  "consolidatedAvg": 39.29,
+  "consolidatedRank": 96,
+  "paths": {
+    "memo": "spring2026/memos/pops.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/pops.md",
+      "elad-gil": "spring2026/evals/elad-gil/pops.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/pops.md",
+      "paul-graham": "spring2026/evals/paul-graham/pops.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/pops.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/pops.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/pops.md"
+    }
+  }
+}

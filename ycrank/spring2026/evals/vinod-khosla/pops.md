@@ -1,0 +1,26 @@
+﻿# Pops -- Vinod Khosla Evaluation
+
+Pops is what I call my Pass Example in living form: a YC company offering a 40% efficiency gain on a workflow nobody outside Twitter calls a problem, dressed in the costume of a consumer-social feed. Alon Zuman ships well — six prototypes on his personal site, currently engineering at Playground, first hire at Alterya — but Pops is "create & play AI games with friends" running on third-party LLM codegen, with 8 App Store ratings and a stated business model of "everything is free." The dimensional signature is a high-velocity solo founder strapped to a non-differentiated wrapper. That's not the asymmetric option I write checks for.
+
+The lowest rung for Pops is **Non-Linear Technical Approach**, and the ladder is unkind. The HIGH rung on this axis is Rocket Lab — Peter Beck's Rutherford engine with electric turbopumps and 3D-printed combustion chambers, a non-linear cost reduction in a physical-world bottleneck. The LOW rung is the YC AI-copilot pattern I openly disparage: a wrapper around frontier LLMs with no proprietary architecture. The dossier is explicit: "the underlying LLM/codegen models are third-party" and "no defensibility signals found in public sources." Pops sits at the LOW rung. Mobile-feed framing is a UI choice, not a technology wedge — Rosebud AI ($9.2M raised), Playabl.ai (YC S26), CodeWisp, and Jabali.ai ($5M seed) are all converging on the same prompt-to-play substrate. A feature, not a moat.
+
+The highest rung for Pops is **Founder as Learning Machine**, and even here the placement is mid-ladder, not top. The HIGH rung is the 19-year-old MIT dropout at Mach Industries taking on Lockheed in defense hardware — irreverent, technical, and improbable in scope. The LOW rung is the credentialed founder reciting a playbook. Zuman lands in the middle: alonzuman.com lists Babble (Character.AI alt), Voxel (creative AI suite), ByteDate (GPT-3.5 + Stable Diffusion), Reeroll ("Cursor for Video"), and the Pops iOS app shipping at v1.0.144 with updates "1 day ago." That is a high cadence of consumer-AI iteration from one person. But shipping seven small prototypes is not the same as adapting hard-won lessons from one ambitious bet — it can also indicate a builder in love with shipping rather than with a single consequential problem.
+
+**Consequence Magnitude** is where Pops falls hardest against my entry-point question. The HIGH rung is OpenAI — civilizational. The MID rung is DoorDash — food access for hundreds of millions, where I overrode the technical-novelty filter precisely because the consequence of success was planetary. The LOW rung is "AI for recruiters" — a moderately profitable SaaS. Pops sits between LOW and MID, leaning LOW: if Pops fully works, teenagers share more AI-generated 30-second games on TikTok. That is entertainment substitution, not a basic human need collapsing in price. **Improbable Ambition** is similarly unimpressive — the HIGH rung is Commonwealth Fusion Systems; Pops's stated goal would not provoke incredulity from a single industry expert. **Path to Radical Affordability** maps Pops against Impossible Foods (HIGH, protein cheaper than animals) and Curai Health (HIGH, primary care at marginal cost); Pops makes amateur game creation free, but Roblox already made it cheap. The dossier's "everything is free" commitment isn't an affordability thesis on a basic need — it is an unmonetized consumer app deferring a business model.
+
+My 36-month forecast for Pops: dead or acqui-hired below $25M to TikTok, Snap, or Roblox — most likely dead, with a sub-cluster probability of pivoting Zuman's AI-codegen tooling into a B2B creator-tool sold to mobile game studios. The mechanism is structural: Pops is a consumer UGC feed competing against four funded peers and the platforms whose distribution it depends on, with no proprietary model layer and a solo team. K-factor is the only dial, and consumer virality without a technical wedge is precisely the asymmetric-loss profile I avoid.
+
+The strongest objection to my pass is the DoorDash precedent — I overrode "Non-Linear Technical Approach" once for Tony Xu because the consequence magnitude of food access was civilizational and the founder was a learning machine. Could Pops be the same exception? No. The override worked at DoorDash because logistics-at-scale was reshaping how hundreds of millions ate; entertainment substitution does not clear that bar regardless of how good Zuman is. The bull case has to argue that a creator-economy network effect compounds faster than Rosebud AI's $9.2M head start and Roblox's installed base — and the dossier offers 8 ratings and one quoted user. **One condition flips my verdict:** Pops crosses 1M DAU within six months of launch with a measured viral coefficient above 1.0, demonstrating that the mobile-feed framing produces a network effect the web-based peers cannot replicate. Short of that, this is exactly the bet where I'd rather lose my money or make 50x — and Pops offers neither tail.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Consequence Magnitude if Successful | 9/30 |
+| Non-Linear Technical Approach | 6/25 |
+| Founder as Learning Machine | 13/20 |
+| Improbable Ambition Level | 5/15 |
+| Path to Radical Affordability | 4/10 |
+| **Total** | **37/100** |
+
+**Total Score: 37/100** (Pass)

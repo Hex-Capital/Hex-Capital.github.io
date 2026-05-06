@@ -1,0 +1,77 @@
+{
+  "slug": "pavoot",
+  "name": "Pavoot",
+  "oneLiner": "AI that turns events into pipeline",
+  "metadata": {
+    "website": "https://pavoot.com",
+    "yc_page": "https://www.ycombinator.com/companies/pavoot",
+    "batch": "Spring 2026 (YC P26)",
+    "industry": "B2B / B2B -> Marketing",
+    "team_size": "0 (YC listing); 2 founders identified via LinkedIn",
+    "location": "San Francisco Bay Area (Gohar Tamrazyan LinkedIn)",
+    "tags": "B2B, Sales, Marketing, AI",
+    "yc_partner": "David Lieb (YC company page)",
+    "emails": "hello@pavoot.com (pavoot.com)"
+  },
+  "tags": [
+    "B2B",
+    "Sales",
+    "Marketing",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-06T17:08:09.552Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 25,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 23,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 31,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 25,
+    "EG": 36,
+    "NR": 36,
+    "PG": 41,
+    "PT": 23,
+    "SL": 32,
+    "VK": 31
+  },
+  "consolidatedAvg": 32,
+  "consolidatedRank": 128,
+  "paths": {
+    "memo": "spring2026/memos/pavoot.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/pavoot.md",
+      "elad-gil": "spring2026/evals/elad-gil/pavoot.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/pavoot.md",
+      "paul-graham": "spring2026/evals/paul-graham/pavoot.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/pavoot.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/pavoot.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/pavoot.md"
+    }
+  }
+}

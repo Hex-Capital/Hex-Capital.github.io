@@ -1,0 +1,28 @@
+﻿# Armature -- Cyan Banister Evaluation
+
+Armature is a strategy-consultant-built dev tool sitting in the middle of the agent-eval consensus boom, and what I see on the page is Louis Scremin's Roland Berger Paris/Singapore tenure followed by Joko business ops, paired with Théodore Otzenberger's five years at Palantir — a CV stack that reads as career optimization into a hot category, not a biographical crucible. The dossier names Braintrust, Langfuse, LangSmith, Latitude, and DeepEval as adjacent competitors, with DeepEval already shipping MCP metrics for args correctness, task completion, and tool correctness in 2025. That is the room my chair shifts in for the wrong reason — too many sophisticated investors are eagerly competing here, not too few.
+
+Tell me their story, not the business. Substrate sits at the top of my biographical-forge ladder because James Proud was forged in fire and came out unbroken, and I tattooed that conviction on my spine. The bottom rung is the founder from my Pass Example who said "I was at Google and saw the opportunity" — career optimization wearing the clothes of mission. Armature's founders sit closer to that bottom rung than to Substrate: Scremin moving from Lycée Sainte-Geneviève prep classes through CentraleSupélec into Roland Berger strategy consulting and then Joko BizOps is a textbook well-paved-path résumé, and Otzenberger's Palantir-to-Joko-to-Armature arc — with Joko itself listed among Armature's investors — tells me the network produced this company, not a problem that wouldn't let the founders sleep. There is no specific moment in the dossier where either founder lived inside the agent-test failure that supposedly motivated Armature.
+
+The contrarian-conviction ladder runs from Anduril and Contraline at the top — defense AI when the Valley wouldn't touch it, male birth control when VCs got squeamish — through Substrate in the middle (hard tech, but with a CHIPS-Act tailwind), down to my Pass Example's "consensus AI in a consensus market." Armature lands near the bottom of that ladder because the dossier itself enumerates the LLM-eval cohort already pivoting into MCP territory: agent eval is now the *fashionable* dev-tools wedge, not the stigmatized one. The 300-investor-pass test fails in the opposite direction — every YC Spring 2026 batch deck I'd see this season probably has an agent-eval slide.
+
+Invisible-system-made-visible is where Armature comes closest to flickering. Uber attacked the medallion cartel, Affirm attacked credit-card opacity, Carta attacked cap-table mystery — those were structures extracting value from people who didn't understand them. Armature's "invisible system" candidate is silent agent failures across Claude Code, Codex, OpenClaw, ChatGPT, and Gemini harnesses. That is real opacity, but it's *internal engineering opacity faced by enterprise product teams paying $49 to $149 a month*, not an opaque system grinding ordinary people down. HQ Trivia is my low rung here — no system to disrupt, just attention — and Armature lands above HQ Trivia but well below Affirm.
+
+Defensibility runs from Flock Safety's compounding camera network at the top, through Niantic's spatial data, down to IRL and HQ Trivia at the bottom. The dossier says plainly: "No defensibility signals... found." [Inferred] moats around test-corpus accumulation and harness-integration breadth are exactly the kind of moat that compounds *faster* for a well-funded Braintrust than for a three-person team running an integration treadmill across every harness and every frontier model. Cascading impact mirrors my Uber-to-enterprise-SaaS gradient: Armature serves product teams shipping MCPs to other companies — there is no Wonderschool-style expansion of access to a previously gatekept resource here.
+
+My 36-month forecast: Armature is acquired for $15M–$40M by Braintrust, LangSmith, or LangChain as an MCP-test-execution feature team, or quietly winds down once DeepEval/Latitude ship harness-multiplexed agent runs natively. The mechanism is the signature pairing — a low biographical forge plus a low contrarian conviction means there is no founder-driven reason Armature outlasts the better-capitalized incumbents commoditizing its wedge.
+
+The strongest bear-case-against-my-pass argument is that Otzenberger's five Palantir years are genuine forward-deployed-engineer experience selling testing infrastructure to enterprises, the Palantir/Joko/Tsuga investor network is a credible enterprise wedge, and "deployed MCPs used by millions of customers" hints at real prior-customer access — and YC Andrew Miklas plus the agent-eval gap (LangChain's 89% observability vs. 52% evals at 57% production-agent orgs) means timing is genuinely good. None of my Known Exceptions rescue this: HQ Trivia required a cultural-moment override that doesn't apply to B2B testing, RTFKT required a narrow timing window with identifiable acquirers (the acquirers here will *build*, not buy at premium), and Superplastic required genre-defying creative weirdness that Armature plainly lacks. I would flip to Invest if Armature shows me five named non-network enterprise customers (not Joko, not Palantir alumni) running production regression suites by month twelve, paired with a founder story explaining a specific agent-failure incident that personally cost Otzenberger or Scremin something they can name.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder's Biographical Forge | 8/30 |
+| Contrarian Conviction in Hard Spaces | 7/25 |
+| Invisible System Made Visible | 7/20 |
+| Infrastructure-Grade Defensibility at Inflection | 6/15 |
+| Cascading Real-World Impact | 3/10 |
+| **Total** | **31/100** |
+
+**Total Score: 31/100** (Pass)

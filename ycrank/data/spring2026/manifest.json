@@ -1,6 +1,6 @@
 {
   "batch": "spring2026",
-  "companyCount": 129,
+  "companyCount": 131,
   "personas": [
     {
       "slug": "cyan-banister",
@@ -4141,16 +4141,16 @@
     },
     {
       "rank": 112,
-      "name": "Pulsent",
-      "slug": "pulsent",
+      "name": "Hyper",
+      "slug": "hyper-4",
       "scores": {
-        "CB": 33,
-        "EG": 38,
-        "NR": 49,
-        "PG": 38,
-        "PT": 31,
-        "SL": 30,
-        "VK": 36
+        "CB": 30,
+        "EG": 39,
+        "NR": 50,
+        "PG": 40,
+        "PT": 25,
+        "SL": 33,
+        "VK": 38
       },
       "tiers": {
         "CB": "Pass",
@@ -4165,18 +4165,16 @@
       "revenue": null,
       "teamSize": 2,
       "ycPartner": "David Lieb",
-      "oneLiner": "AI Agents that watch, engage and convert your users.",
-      "industry": "B2B / B2B -> Sales",
+      "oneLiner": "The Self-Driving Company Brain",
+      "industry": "B2B / B2B -> Productivity",
       "location": "San Francisco, CA, USA",
       "tags": [
         "Artificial Intelligence",
-        "SaaS",
-        "B2B",
-        "Sales Enablement",
-        "Monitoring"
+        "Productivity",
+        "Team Collaboration"
       ],
       "scoreTips": {},
-      "memoDate": "2026-04-22"
+      "memoDate": "2026-05-07"
     },
     {
       "rank": 113,
@@ -4217,6 +4215,42 @@
     },
     {
       "rank": 114,
+      "name": "Armature",
+      "slug": "armature",
+      "scores": {
+        "CB": 31,
+        "EG": 48,
+        "NR": 41,
+        "PG": 35,
+        "PT": 30,
+        "SL": 32,
+        "VK": 32
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 35.57,
+      "revenue": null,
+      "teamSize": 3,
+      "ycPartner": "Andrew Miklas",
+      "oneLiner": "You used to test user flows. Now test agent flows.",
+      "industry": "B2B / B2B -> Engineering, Product and Design",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Enterprise Software",
+        "AI"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-05-07"
+    },
+    {
+      "rank": 115,
       "name": "Chronicle Labs",
       "slug": "chronicle-labs",
       "scores": {
@@ -4253,7 +4287,7 @@
       "memoDate": "2026-05-05"
     },
     {
-      "rank": 115,
+      "rank": 116,
       "name": "Hub.xyz",
       "slug": "hubxyz",
       "scores": {
@@ -4291,7 +4325,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 116,
+      "rank": 117,
       "name": "Rudus",
       "slug": "rudus",
       "scores": {
@@ -4329,7 +4363,7 @@
       "memoDate": "2026-05-05"
     },
     {
-      "rank": 117,
+      "rank": 118,
       "name": "Refortifai",
       "slug": "refortifai",
       "scores": {
@@ -4366,7 +4400,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 118,
+      "rank": 119,
       "name": "Chert",
       "slug": "chert",
       "scores": {
@@ -4405,7 +4439,7 @@
       "memoDate": "2026-04-26"
     },
     {
-      "rank": 119,
+      "rank": 120,
       "name": "Kinect",
       "slug": "kinect",
       "scores": {
@@ -4442,7 +4476,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 120,
+      "rank": 121,
       "name": "AgentPhone",
       "slug": "agentphone",
       "scores": {
@@ -4480,7 +4514,7 @@
       "memoDate": "2026-05-06"
     },
     {
-      "rank": 121,
+      "rank": 122,
       "name": "jo",
       "slug": "jo",
       "scores": {
@@ -4518,7 +4552,7 @@
       "memoDate": "2026-05-05"
     },
     {
-      "rank": 122,
+      "rank": 123,
       "name": "YouArt",
       "slug": "youart",
       "scores": {
@@ -4555,7 +4589,7 @@
       "memoDate": "2026-05-05"
     },
     {
-      "rank": 123,
+      "rank": 124,
       "name": "Prism",
       "slug": "tryprism",
       "scores": {
@@ -4593,7 +4627,7 @@
       "memoDate": "2026-04-23"
     },
     {
-      "rank": 124,
+      "rank": 125,
       "name": "Light Anchor",
       "slug": "light-anchor",
       "scores": {
@@ -4629,7 +4663,7 @@
       "memoDate": "2026-05-05"
     },
     {
-      "rank": 125,
+      "rank": 126,
       "name": "ANORIA",
       "slug": "anoria",
       "scores": {
@@ -4668,7 +4702,7 @@
       "memoDate": "2026-05-05"
     },
     {
-      "rank": 126,
+      "rank": 127,
       "name": "Archer",
       "slug": "archer",
       "scores": {
@@ -4704,7 +4738,46 @@
       "memoDate": "2026-04-23"
     },
     {
-      "rank": 127,
+      "rank": 128,
+      "name": "Superlog",
+      "slug": "superlog",
+      "scores": {
+        "CB": 23,
+        "EG": 36,
+        "NR": 43,
+        "PG": 40,
+        "PT": 25,
+        "SL": 36,
+        "VK": 32
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 33.57,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "David Lieb",
+      "oneLiner": "Observability that installs itself and fixes the bugs it finds.",
+      "industry": "B2B / B2B -> Engineering, Product and Design",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Artificial Intelligence",
+        "Developer Tools",
+        "Open Source",
+        "Monitoring",
+        "AI"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-05-07"
+    },
+    {
+      "rank": 129,
       "name": "Napkin Math",
       "slug": "napkin-math",
       "scores": {
@@ -4743,7 +4816,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 128,
+      "rank": 130,
       "name": "Pavoot",
       "slug": "pavoot",
       "scores": {
@@ -4781,7 +4854,7 @@
       "memoDate": "2026-05-06"
     },
     {
-      "rank": 129,
+      "rank": 131,
       "name": "Pentagon",
       "slug": "pentagon",
       "scores": {
@@ -4831,11 +4904,11 @@
       "values": {
         "CB": null,
         "EG": 0.46,
-        "NR": 0.45,
-        "PG": 0.6,
-        "PT": 0.75,
-        "SL": 0.64,
-        "VK": 0.58
+        "NR": 0.46,
+        "PG": 0.61,
+        "PT": 0.76,
+        "SL": 0.63,
+        "VK": 0.59
       }
     },
     {
@@ -4853,34 +4926,34 @@
     {
       "persona": "NR",
       "values": {
-        "CB": 0.45,
+        "CB": 0.46,
         "EG": 0.52,
         "NR": null,
-        "PG": 0.63,
+        "PG": 0.64,
         "PT": 0.59,
         "SL": 0.38,
-        "VK": 0.42
+        "VK": 0.43
       }
     },
     {
       "persona": "PG",
       "values": {
-        "CB": 0.6,
+        "CB": 0.61,
         "EG": 0.49,
-        "NR": 0.63,
+        "NR": 0.64,
         "PG": null,
-        "PT": 0.62,
+        "PT": 0.63,
         "SL": 0.45,
-        "VK": 0.35
+        "VK": 0.37
       }
     },
     {
       "persona": "PT",
       "values": {
-        "CB": 0.75,
+        "CB": 0.76,
         "EG": 0.41,
         "NR": 0.59,
-        "PG": 0.62,
+        "PG": 0.63,
         "PT": null,
         "SL": 0.67,
         "VK": 0.7
@@ -4889,7 +4962,7 @@
     {
       "persona": "SL",
       "values": {
-        "CB": 0.64,
+        "CB": 0.63,
         "EG": 0.25,
         "NR": 0.38,
         "PG": 0.45,
@@ -4901,10 +4974,10 @@
     {
       "persona": "VK",
       "values": {
-        "CB": 0.58,
+        "CB": 0.59,
         "EG": 0.08,
-        "NR": 0.42,
-        "PG": 0.35,
+        "NR": 0.43,
+        "PG": 0.37,
         "PT": 0.7,
         "SL": 0.52,
         "VK": null

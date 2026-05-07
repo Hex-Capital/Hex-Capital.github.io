@@ -1,0 +1,28 @@
+﻿# Armature -- Sam Lessin Evaluation
+
+Armature is a competent-operator wedge into the most consensus-hot category of 2026 -- AI agent eval -- pitched by two ex-Joko operators (Théodore Otzenberger, Louis Scremin) at exactly the moment Braintrust, Langfuse, LangSmith, Latitude and DeepEval are all racing into the same lane. Armature's signature in my book is sane founders / no mispricing -- the kind of company where the people are real, the market is real, and the price has already absorbed the upside before the check clears. That is the worst combination I see: nothing to disagree with, and nothing asymmetric to win on.
+
+Armature gets pinned hardest on Consensus Mispricing, my heaviest dimension. The high rung is Solana at four cents when every smart crypto person told me Ethereum had already won; the low rung is the YC AI wrapper -- "we fine-tuned GPT-4 for industry X" -- where Adobe is sitting in the audience nodding. Armature sits a hair above that low rung: the LLM observability market is $2.69B in 2026 growing 36.2% CAGR (Research and Markets), Braintrust closed a $36M a16z Series A, and DeepEval already shipped MCP metrics for args correctness, task completion, and tool correctness in 2025. There is no category discomfort here. No mainstream VC is saying "ew, agent eval." They are bidding it up. The risk is not baked into the price; the upside is.
+
+Armature's lowest placement is Structural Durability under the AI kill test, my ruthless filter. The high rung is Metropolis -- AI-powered parking with physical infrastructure no LLM can commoditize, now ~$5B from seed; the low rung is the Adobe-for-AI pitch where the incumbent adds the feature in a quarter. Armature sits flush with that low rung. Armature's own copy admits the value depends on integrating "every harness, every model" -- Claude Code, Codex, OpenClaw, ChatGPT, Gemini -- which is a treadmill, not a moat, and a 3-person team racing DeepEval and Braintrust on integration breadth is going to lose that race or get bought out of it. No proprietary data, no network effect, no protocol-level lock-in. It is pure SaaS in the era where I went on CNBC in February and said software companies that had moats are learning they aren't moats anymore.
+
+Armature scores least poorly on Sanity-Insanity Calibration, but the calibration is upside-down. The high rung is Raj on Solana -- engineer I'd watched through three companies pitching a new L1 consensus mechanism that sounded crazy. The mid rung is Butterfield at Slack -- proven, sane, primitive idea. The low rung is the incubator-matched cofounders with synthetic commitment. Otzenberger (5 years Palantir, then Joko) and Scremin (Roland Berger Paris/Singapore, then Joko) sit above the low rung -- they have a real shared Joko tenure, not a YC mixer handshake -- but the ratio is wrong. They are sane operators pitching a sensible idea. I want sane people pitching insane ideas. Two consultants and an FDE building agent QA is not fucking crazy. It is reasonable. Reasonable is boring.
+
+Primitive Creation -- Venmo as the high rung, "better CRM" as the low rung -- pins Armature near the bottom. Armature's tagline is "you used to test user flows, now test agent flows." That is testing-as-a-category being extended one surface to the right. Nobody will say "I'm going to Armature this MCP" the way they say "Venmo me." Capital Discipline I score at the default-mid Gusto-versus-Allbirds midpoint -- pricing is live at $49/$119/$149 with no free tier, the team is 3, and no public burn data exists either way. Fine. Not a thesis-mover.
+
+Armature in 36 months is an acqui-hire to Braintrust, DeepEval (Confident AI), or Langfuse for under $30M as the eval incumbents finish absorbing MCP testing as a feature -- or a quiet shutdown after a stalled Series A when DeepEval's MCP metrics suite commoditizes the wedge inside an existing CI integration. The mechanism is the AI kill test playing out exactly as I described it on the SafeGraph podcast: Adobe gets pitched, Adobe builds the feature, the wrapper becomes a feature.
+
+The bull case stings if MCP genuinely standardizes as the universal agent-tool surface and Armature becomes the Datadog-of-agent-runs at the moment of standardization. The LangChain stat is real -- 89% observability adoption versus 52% eval adoption with 57% running agents in production is a genuine gap, and Otzenberger's Palantir FDE muscle plus the Palantir/Joko/Tsuga investor network is real enterprise distribution. But this is the Slack exception, and it doesn't apply: Slack created a behavioral primitive replacing email; Armature is a regression suite for a tool surface that DeepEval already metricizes. The dossier evidence that wins the argument is one line -- DeepEval shipped MCP metrics for args correctness, task completion, and tool correctness in 2025. The incumbents are not theorizing about this lane; they are already in it. I would flip this verdict on one verifiable condition: $500K+ MRR by month 12 with three named Fortune 500 logos sourced outside the Palantir/Joko investor network -- proof the wedge survives outside the founders' rolodex. Absent that, pass.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Consensus Mispricing -- Is the Market Wrong? | 7/30 |
+| Primitive Creation -- Does This Birth a New Category? | 6/25 |
+| Sanity-Insanity Calibration -- Sane Founder, Insane Idea | 9/20 |
+| Structural Durability -- Does It Survive the AI Kill Test? | 4/15 |
+| Capital Discipline -- Built to Survive, Not to Raise | 6/10 |
+| **Total** | **32/100** |
+
+**Total Score: 32/100** (Pass)

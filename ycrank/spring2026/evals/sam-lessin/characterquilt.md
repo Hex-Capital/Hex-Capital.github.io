@@ -1,0 +1,30 @@
+﻿# CharacterQuilt -- Sam Lessin Evaluation
+
+CharacterQuilt is the canonical 2026 YC AI-SaaS pattern wrapped around a genuinely credentialed repeat founder — Bhairav Mehta is a 2x YC alum (Buzzle S21), MIT EECS PhD on leave, NVIDIA/NASA-JPL research stints, and his co-founder Clint Burgess spent ten years inside Bloomreach as SDR→Sales→PMM and then interviewed 51 CMOs in three months before the launch. The signature is high founder credibility paired with the lowest possible category-sleeve fit for my book: vertical AI SaaS for marketing is exactly what Joe Lonsdale and I were talking about when I said "AI is just more internet." Strong people, wrong shape.
+
+On my highest-placed dimension — founder conviction — CharacterQuilt sits between Robinhood (mid: real operator conviction even inside a consensus YC arc) and the Pass Example founder (low: sanitized playbook language, no public artifacts). Drop.io is my high rung for missionary temperament because I lived it. Mehta's Buzzle history and the 51-CMO interview discipline from Burgess pin CharacterQuilt above the Pass Example archetype — these two have done real customer-development reps — but neither founder has published opinionated long-form writing on why agentic deployment beats Jasper's "connected content pipelines" or where Typeface's Arc Graph is wrong. Without that writing, I can't tell if CharacterQuilt is missionary or merely well-prepared, and "Writing is thinking" is my filter, not a slogan.
+
+On my lowest-placed dimension — category sleeve — CharacterQuilt sits flush against the Pass Example floor. Solana at $0.05 is the high rung; Sublime Security is the mid rung (pre-consensus enterprise security before the next consolidation wave); the Pass Example "AI agent for [enterprise vertical], $30M post, four tier-1s in" is the low rung. CharacterQuilt is literally an AI agent for the marketing vertical, deploying into HubSpot/Marketo/Salesforce/LinkedIn, competing against Jasper ($131M raised, $88M ARR, 70K paying customers) and Copy.ai and Typeface — three funded incumbents all expanding into the deploy-orchestration wedge CharacterQuilt claims. This is not an illegible asset I get to price alone; this is a legible asset I'd be bidding against every AI-curious generalist seed fund to access.
+
+CharacterQuilt's financing structure (my Entry Point) is a vanilla SaaS cap table being pointed at an enterprise sales motion with no pricing page and demo-only CTAs — the Teamshares-style structure-first underwrite has no purchase here, because there's nothing about brand-corpus memory or martech connectors that wants a revenue-share or holdco wrapper. Compare to Allbirds (mid rung, capital-efficient consumer the SaaS crowd dismissed) and the Pass Example (low rung, needs five rounds to default-alive): CharacterQuilt is going to need every one of Jasper's $131M-equivalent rounds to compete on the regatta course, and I have no instrument-level edge.
+
+On round pricing, CharacterQuilt is the Pass Example's blood-brother — a Spring 2026 YC AI infrastructure pitch with logos already attached (1upHealth, ABC Fitness, Emplifi, Bloomreach, BigCommerce). That logo list at pre-seed is exactly what makes the round HOT, which under my "when people agree, it probably isn't" rule is deselection, not selection. Pinterest is my mid rung (consensus but operator-friend sourcing); Solana is my high rung. CharacterQuilt has neither the operator-friend channel (no shared Facebook IPG or Kortina-adjacent history in the dossier) nor the price discount.
+
+On founder-as-brand, CharacterQuilt sits near the Pass Example floor — Burgess has @ClintVanBurgess with retrievable-only-by-login follower counts and a LinkedIn launch post; Mehta has no Twitter handle surfaced at all. John Fish/Bookshelved is the high rung (YouTube-built distribution priced as the cap table itself); Marina Mogilko is the high-mid rung (30-year earnings as the asset). CharacterQuilt has zero owned distribution on the cap table, which is fine — most B2B doesn't need it — but it removes the override that lets me write into a consensus-priced category.
+
+CharacterQuilt in 36 months: $3–8M ARR, compressed between Jasper's deployment expansion and HubSpot/Salesforce's native agentic builders, ending in an acqui-hire to a tier-2 martech vendor (Bloomreach, Iterable, Klaviyo) at sub-$75M — Mehta's MIT/NVIDIA credentials make the team a clean engineering pickup, which is the most likely liquidity path. The mechanism is straightforward regatta math: CharacterQuilt needs four to five financing tacks to outrun Jasper's $88M ARR head start, and each tack will be priced against a public comp set that's already in the late-innings consolidation phase.
+
+The bull case that stings: Burgess is the ICP in human form — ten years inside Bloomreach as the exact marketer CharacterQuilt sells to — and 51 CMO interviews in three months is the Wizard-of-Oz signal I look for, the manual-process discipline I lived at Fin. The 21+ enterprise logos at pre-seed is not nothing; it's better evidence of demand than most YC S26 AI pitches will surface. Counter: none of that overrides that I'm being asked to pay a consensus AI-seed price for a SaaS cap table in a category Jasper already owns the brand position in, with no instrument I can structure to make my entry non-consensus. The verifiable condition that flips me: if CharacterQuilt's round were sub-$8M post with a revenue-share or campaign-volume-linked instrument tied to Burgess's services-led GTM — and Mehta wrote one essay explaining why deployment-first beats Jasper's connected-pipelines — I'd take the meeting. Absent that, I pass.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Round Is Mis-Priced or Non-Consensus, Not the Hot YC Deck | 6/30 |
+| Capital Structure Is Venture-Shaped, Not Founder-Drainage | 6/22 |
+| Founder Has Asymmetric Conviction Visible Pre-Pitch | 10/20 |
+| Founder-as-Brand or Owned Community Is on the Cap Table | 4/15 |
+| Category Lives in a Sleeve You're Already Convicted On | 3/13 |
+| **Total** | **29/100** |
+
+**Total Score: 29/100** (Pass)

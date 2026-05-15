@@ -1,0 +1,76 @@
+{
+  "slug": "arctic-health",
+  "name": "Arctic Health",
+  "oneLiner": "AI-native credentialing and contracting for healthcare",
+  "metadata": {
+    "website": "https://arctic.health",
+    "yc_page": "https://www.ycombinator.com/companies/arctic-health",
+    "batch": "Spring 2026 (YC company page)",
+    "industry": "Healthcare / Healthcare -> Healthcare Services",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "Healthcare, Healthcare IT, AI",
+    "yc_partner": "Aaron Epstein (YC company page)",
+    "emails": "No public data found (only an obfuscated \"[email protected]\" placeholder visible on arctic.health)"
+  },
+  "tags": [
+    "Healthcare",
+    "Healthcare IT",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-15T05:40:37.653Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 24,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 25,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 30,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 44,
+    "EG": 37,
+    "NR": 35,
+    "PG": 43,
+    "PT": 24,
+    "SL": 25,
+    "VK": 30
+  },
+  "consolidatedAvg": 34,
+  "consolidatedRank": 143,
+  "paths": {
+    "memo": "spring2026/memos/arctic-health.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/arctic-health.md",
+      "elad-gil": "spring2026/evals/elad-gil/arctic-health.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/arctic-health.md",
+      "paul-graham": "spring2026/evals/paul-graham/arctic-health.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/arctic-health.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/arctic-health.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/arctic-health.md"
+    }
+  }
+}

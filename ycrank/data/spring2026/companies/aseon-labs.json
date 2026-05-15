@@ -1,0 +1,78 @@
+{
+  "slug": "aseon-labs",
+  "name": "Aseon Labs",
+  "oneLiner": "Robotic pitstops for self-driving cars",
+  "metadata": {
+    "website": "https://www.aseonlabs.com/",
+    "yc_page": "https://www.ycombinator.com/companies/aseon-labs",
+    "batch": "Spring 2026 (YC page)",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+    "team_size": "5",
+    "location": "Redwood City, CA, USA",
+    "tags": "Artificial Intelligence, Hardware, Machine Learning, Robotics, Self-Driving Vehicles",
+    "yc_partner": "Pete Koomen (YC page)",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Hardware",
+    "Machine Learning",
+    "Robotics",
+    "Self-Driving Vehicles"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-15T05:41:38.314Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 70,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 73,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 46,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 70,
+    "EG": 59,
+    "NR": 44,
+    "PG": 73,
+    "PT": 52,
+    "SL": 41,
+    "VK": 46
+  },
+  "consolidatedAvg": 55,
+  "consolidatedRank": 7,
+  "paths": {
+    "memo": "spring2026/memos/aseon-labs.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/aseon-labs.md",
+      "elad-gil": "spring2026/evals/elad-gil/aseon-labs.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/aseon-labs.md",
+      "paul-graham": "spring2026/evals/paul-graham/aseon-labs.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/aseon-labs.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/aseon-labs.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/aseon-labs.md"
+    }
+  }
+}

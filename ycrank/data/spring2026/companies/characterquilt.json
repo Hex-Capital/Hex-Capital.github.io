@@ -1,0 +1,78 @@
+{
+  "slug": "characterquilt",
+  "name": "CharacterQuilt",
+  "oneLiner": "AI infrastructure for marketers. Ship campaigns in your tools in an?",
+  "metadata": {
+    "website": "https://characterquilt.com",
+    "yc_page": "https://www.ycombinator.com/companies/characterquilt",
+    "batch": "Spring 2026 (YC page)",
+    "industry": "B2B / B2B -> Marketing",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, SaaS, B2B, Marketing, AI",
+    "yc_partner": "Pete Koomen (YC page)",
+    "emails": "hello@characterquilt.com (company website)"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "SaaS",
+    "B2B",
+    "Marketing",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-15T05:40:08.538Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 60,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 28,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 38,
+    "EG": 47,
+    "NR": 41,
+    "PG": 60,
+    "PT": 28,
+    "SL": 29,
+    "VK": 28
+  },
+  "consolidatedAvg": 38.71,
+  "consolidatedRank": 109,
+  "paths": {
+    "memo": "spring2026/memos/characterquilt.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/characterquilt.md",
+      "elad-gil": "spring2026/evals/elad-gil/characterquilt.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/characterquilt.md",
+      "paul-graham": "spring2026/evals/paul-graham/characterquilt.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/characterquilt.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/characterquilt.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/characterquilt.md"
+    }
+  }
+}

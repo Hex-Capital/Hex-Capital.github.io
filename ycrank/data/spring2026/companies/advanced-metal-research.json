@@ -1,0 +1,76 @@
+{
+  "slug": "advanced-metal-research",
+  "name": "Advanced Metal Research",
+  "oneLiner": "Machine intelligence for American Welding",
+  "metadata": {
+    "website": "https://advancedmetalresearch.com/",
+    "yc_page": "https://www.ycombinator.com/companies/advanced-metal-research",
+    "batch": "Spring 2026 (YC company page)",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+    "team_size": "3",
+    "location": "Los Angeles, CA, USA (YC page); founder LinkedIn lists Hawthorne, CA",
+    "tags": "Hardware, Robotics, Manufacturing",
+    "yc_partner": "Garry Tan (YC company page)",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Hardware",
+    "Robotics",
+    "Manufacturing"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-15T05:43:45.261Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 38,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 52,
+    "EG": 40,
+    "NR": 41,
+    "PG": 42,
+    "PT": 34,
+    "SL": 30,
+    "VK": 38
+  },
+  "consolidatedAvg": 39.57,
+  "consolidatedRank": 98,
+  "paths": {
+    "memo": "spring2026/memos/advanced-metal-research.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/advanced-metal-research.md",
+      "elad-gil": "spring2026/evals/elad-gil/advanced-metal-research.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/advanced-metal-research.md",
+      "paul-graham": "spring2026/evals/paul-graham/advanced-metal-research.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/advanced-metal-research.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/advanced-metal-research.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/advanced-metal-research.md"
+    }
+  }
+}

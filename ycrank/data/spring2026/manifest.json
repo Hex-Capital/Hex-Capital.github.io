@@ -1,6 +1,6 @@
 {
   "batch": "spring2026",
-  "companyCount": 134,
+  "companyCount": 153,
   "personas": [
     {
       "slug": "cyan-banister",
@@ -272,6 +272,45 @@
     },
     {
       "rank": 7,
+      "name": "Aseon Labs",
+      "slug": "aseon-labs",
+      "scores": {
+        "CB": 70,
+        "EG": 59,
+        "NR": 44,
+        "PG": 73,
+        "PT": 52,
+        "SL": 41,
+        "VK": 46
+      },
+      "tiers": {
+        "CB": "Invest",
+        "EG": "Neutral",
+        "NR": "Pass",
+        "PG": "Invest",
+        "PT": "Neutral",
+        "SL": "Pass",
+        "VK": "Neutral"
+      },
+      "avg": 55,
+      "revenue": null,
+      "teamSize": 5,
+      "ycPartner": "Pete Koomen",
+      "oneLiner": "Robotic pitstops for self-driving cars",
+      "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+      "location": "Redwood City, CA, USA",
+      "tags": [
+        "Artificial Intelligence",
+        "Hardware",
+        "Machine Learning",
+        "Robotics",
+        "Self-Driving Vehicles"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-05-15"
+    },
+    {
+      "rank": 8,
       "name": "Ornadyne",
       "slug": "ornadyne",
       "scores": {
@@ -309,7 +348,7 @@
       "memoDate": "2026-05-05"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "name": "Tasklet",
       "slug": "tasklet-2",
       "scores": {
@@ -342,7 +381,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "name": "Dispatch",
       "slug": "dispatch",
       "scores": {
@@ -379,7 +418,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "name": "Juno",
       "slug": "juno-chat",
       "scores": {
@@ -416,7 +455,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "name": "Arzana",
       "slug": "arzana",
       "scores": {
@@ -455,7 +494,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "name": "Clara",
       "slug": "clara-2",
       "scores": {
@@ -493,7 +532,7 @@
       "memoDate": "2026-04-23"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "name": "Inth",
       "slug": "inth",
       "scores": {
@@ -529,7 +568,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "name": "Sazabi",
       "slug": "sazabi",
       "scores": {
@@ -564,7 +603,46 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 15,
+      "rank": 16,
+      "name": "General Aviation",
+      "slug": "general-aviation",
+      "scores": {
+        "CB": 63,
+        "EG": 47,
+        "NR": 42,
+        "PG": 58,
+        "PT": 53,
+        "SL": 46,
+        "VK": 52
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Neutral",
+        "SL": "Neutral",
+        "VK": "Neutral"
+      },
+      "avg": 51.57,
+      "revenue": null,
+      "teamSize": 0,
+      "ycPartner": "Pete Koomen",
+      "oneLiner": "Fix ATC by connecting aircraft to the internet",
+      "industry": "Industrials / Industrials -> Aviation and Space",
+      "location": "New York City, NY, USA",
+      "tags": [
+        "Hard Tech",
+        "Satellites",
+        "Transportation",
+        "Mobility",
+        "Aerospace"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-05-15"
+    },
+    {
+      "rank": 17,
       "name": "Keyframe Labs",
       "slug": "keyframe-labs",
       "scores": {
@@ -602,7 +680,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 16,
+      "rank": 18,
       "name": "Complir",
       "slug": "complir",
       "scores": {
@@ -639,7 +717,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 17,
+      "rank": 19,
       "name": "Minicor",
       "slug": "minicor",
       "scores": {
@@ -676,7 +754,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 18,
+      "rank": 20,
       "name": "Dayjob",
       "slug": "dayjob",
       "scores": {
@@ -713,7 +791,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 19,
+      "rank": 21,
       "name": "Kinro",
       "slug": "kinro",
       "scores": {
@@ -748,7 +826,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 20,
+      "rank": 22,
       "name": "Huscarl",
       "slug": "huscarl",
       "scores": {
@@ -785,7 +863,45 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 21,
+      "rank": 23,
+      "name": "FinalDose",
+      "slug": "finaldose",
+      "scores": {
+        "CB": 53,
+        "EG": 32,
+        "NR": 39,
+        "PG": 55,
+        "PT": 63,
+        "SL": 37,
+        "VK": 75
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Neutral",
+        "SL": "Pass",
+        "VK": "Invest"
+      },
+      "avg": 50.57,
+      "revenue": null,
+      "teamSize": 5,
+      "ycPartner": "Garry Tan",
+      "oneLiner": "Programmable DNA drug destroying all cancers, unlocking 80% of targets",
+      "industry": "Healthcare / Healthcare -> Therapeutics",
+      "location": "London, United Kingdom",
+      "tags": [
+        "Artificial Intelligence",
+        "Gene Therapy",
+        "Therapeutics",
+        "Genetic Engineering"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-05-15"
+    },
+    {
+      "rank": 24,
       "name": "Nine Fives",
       "slug": "nine-fives",
       "scores": {
@@ -822,7 +938,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 22,
+      "rank": 25,
       "name": "Klaimee",
       "slug": "klaimee",
       "scores": {
@@ -861,7 +977,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 23,
+      "rank": 26,
       "name": "Silmaril",
       "slug": "silmaril",
       "scores": {
@@ -896,7 +1012,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 24,
+      "rank": 27,
       "name": "Clawvisor",
       "slug": "clawvisor",
       "scores": {
@@ -933,7 +1049,7 @@
       "memoDate": "2026-05-06"
     },
     {
-      "rank": 25,
+      "rank": 28,
       "name": "Mochatrade",
       "slug": "mochatrade",
       "scores": {
@@ -970,7 +1086,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 26,
+      "rank": 29,
       "name": "Tenet Industries",
       "slug": "tenet-industries",
       "scores": {
@@ -1008,7 +1124,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 27,
+      "rank": 30,
       "name": "RentAHuman",
       "slug": "rentahuman",
       "scores": {
@@ -1044,7 +1160,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 28,
+      "rank": 31,
       "name": "Ardent",
       "slug": "ardent",
       "scores": {
@@ -1081,7 +1197,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 29,
+      "rank": 32,
       "name": "Aster",
       "slug": "asterlab",
       "scores": {
@@ -1117,7 +1233,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 30,
+      "rank": 33,
       "name": "Expanse",
       "slug": "expanse",
       "scores": {
@@ -1155,7 +1271,7 @@
       "memoDate": "2026-05-05"
     },
     {
-      "rank": 31,
+      "rank": 34,
       "name": "smol machines",
       "slug": "smol-machines",
       "scores": {
@@ -1191,7 +1307,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 32,
+      "rank": 35,
       "name": "Ontora",
       "slug": "ontora",
       "scores": {
@@ -1229,7 +1345,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 33,
+      "rank": 36,
       "name": "Regbase",
       "slug": "regbase",
       "scores": {
@@ -1267,7 +1383,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 34,
+      "rank": 37,
       "name": "Kimpton AI",
       "slug": "kimpton-ai",
       "scores": {
@@ -1304,7 +1420,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 35,
+      "rank": 38,
       "name": "Andustry",
       "slug": "andustry",
       "scores": {
@@ -1343,7 +1459,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 36,
+      "rank": 39,
       "name": "Lab0",
       "slug": "lab0",
       "scores": {
@@ -1379,7 +1495,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 37,
+      "rank": 40,
       "name": "Eden Robotics",
       "slug": "eden-robotics",
       "scores": {
@@ -1417,7 +1533,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 38,
+      "rank": 41,
       "name": "GovGuard",
       "slug": "govguard",
       "scores": {
@@ -1452,7 +1568,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 39,
+      "rank": 42,
       "name": "InsForge",
       "slug": "insforge",
       "scores": {
@@ -1489,7 +1605,43 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 40,
+      "rank": 43,
+      "name": "PerfectBit",
+      "slug": "perfectbit",
+      "scores": {
+        "CB": 41,
+        "EG": 53,
+        "NR": 47,
+        "PG": 52,
+        "PT": 47,
+        "SL": 33,
+        "VK": 40
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Neutral",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 44.71,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Garry Tan",
+      "oneLiner": "Training data for frontier AI labs",
+      "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Infrastructure",
+        "AI"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-05-15"
+    },
+    {
+      "rank": 44,
       "name": "Playabl.ai",
       "slug": "playablai",
       "scores": {
@@ -1526,7 +1678,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 41,
+      "rank": 45,
       "name": "Callab AI",
       "slug": "callab-ai",
       "scores": {
@@ -1563,7 +1715,42 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 42,
+      "rank": 46,
+      "name": "HeyClicky",
+      "slug": "heyclicky",
+      "scores": {
+        "CB": 57,
+        "EG": 44,
+        "NR": 61,
+        "PG": 53,
+        "PT": 26,
+        "SL": 41,
+        "VK": 28
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 44.29,
+      "revenue": null,
+      "teamSize": 0,
+      "ycPartner": "Aaron Epstein",
+      "oneLiner": "An AI buddy that lives on your Mac.",
+      "industry": "Consumer / Consumer",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Education"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-05-15"
+    },
+    {
+      "rank": 47,
       "name": "Zolvo",
       "slug": "zolvo",
       "scores": {
@@ -1600,44 +1787,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 43,
-      "name": "Gikl, Inc",
-      "slug": "gikl-inc",
-      "scores": {
-        "CB": 41,
-        "EG": 38,
-        "NR": 62,
-        "PG": 41,
-        "PT": 29,
-        "SL": 44,
-        "VK": 53
-      },
-      "tiers": {
-        "CB": "Pass",
-        "EG": "Pass",
-        "NR": "Neutral",
-        "PG": "Pass",
-        "PT": "Pass",
-        "SL": "Pass",
-        "VK": "Neutral"
-      },
-      "avg": 44,
-      "revenue": null,
-      "teamSize": 2,
-      "ycPartner": "Garry Tan",
-      "oneLiner": "Accelerating scientific discovery with AI",
-      "industry": "Consumer / Consumer",
-      "location": "San Francisco, CA, USA",
-      "tags": [
-        "Swarm AI",
-        "AI",
-        "AI Assistant"
-      ],
-      "scoreTips": {},
-      "memoDate": "2026-04-22"
-    },
-    {
-      "rank": 44,
+      "rank": 48,
       "name": "Arga Labs",
       "slug": "arga-labs",
       "scores": {
@@ -1674,7 +1824,79 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 45,
+      "rank": 49,
+      "name": "Surtr Defense Systems",
+      "slug": "surtr-defense-systems",
+      "scores": {
+        "CB": 49,
+        "EG": 51,
+        "NR": 39,
+        "PG": 54,
+        "PT": 44,
+        "SL": 31,
+        "VK": 39
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 43.86,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Andrew Miklas",
+      "oneLiner": "The open operating system for counter-UAS",
+      "industry": "Industrials / Industrials -> Defense",
+      "location": "Los Angeles, CA, USA",
+      "tags": [
+        "Computer Vision"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-05-15"
+    },
+    {
+      "rank": 50,
+      "name": "WithAI",
+      "slug": "withai",
+      "scores": {
+        "CB": 49,
+        "EG": 45,
+        "NR": 42,
+        "PG": 61,
+        "PT": 43,
+        "SL": 35,
+        "VK": 32
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 43.86,
+      "revenue": null,
+      "teamSize": 3,
+      "ycPartner": "David Lieb",
+      "oneLiner": "Custom command centers for hedge funds",
+      "industry": "B2B / B2B",
+      "location": "New York, NY, USA",
+      "tags": [
+        "Artificial Intelligence",
+        "Team Collaboration",
+        "Investing"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-05-15"
+    },
+    {
+      "rank": 51,
       "name": "Interfaze",
       "slug": "interfaze",
       "scores": {
@@ -1711,7 +1933,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 46,
+      "rank": 52,
       "name": "Kuli",
       "slug": "kuli",
       "scores": {
@@ -1749,7 +1971,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 47,
+      "rank": 53,
       "name": "Korso",
       "slug": "korso",
       "scores": {
@@ -1786,7 +2008,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 48,
+      "rank": 54,
       "name": "Memory Store",
       "slug": "memory-store",
       "scores": {
@@ -1823,7 +2045,7 @@
       "memoDate": "2026-05-05"
     },
     {
-      "rank": 49,
+      "rank": 55,
       "name": "AICE Power",
       "slug": "aice-power",
       "scores": {
@@ -1860,7 +2082,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 50,
+      "rank": 56,
       "name": "Sidekick",
       "slug": "textsidekick",
       "scores": {
@@ -1897,7 +2119,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 51,
+      "rank": 57,
       "name": "Datost",
       "slug": "datost",
       "scores": {
@@ -1934,7 +2156,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 52,
+      "rank": 58,
       "name": "Gigacatalyst",
       "slug": "gigacatalyst",
       "scores": {
@@ -1972,7 +2194,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 53,
+      "rank": 59,
       "name": "Smartbase",
       "slug": "smartbase",
       "scores": {
@@ -2011,7 +2233,7 @@
       "memoDate": "2026-04-23"
     },
     {
-      "rank": 54,
+      "rank": 60,
       "name": "Trellis",
       "slug": "trellistech",
       "scores": {
@@ -2044,7 +2266,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 55,
+      "rank": 61,
       "name": "Framewise Health",
       "slug": "framewise-health",
       "scores": {
@@ -2081,7 +2303,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 56,
+      "rank": 62,
       "name": "Hedge",
       "slug": "hedge",
       "scores": {
@@ -2119,7 +2341,7 @@
       "memoDate": "2026-05-05"
     },
     {
-      "rank": 57,
+      "rank": 63,
       "name": "Amboras",
       "slug": "amboras",
       "scores": {
@@ -2156,7 +2378,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 58,
+      "rank": 64,
       "name": "fuchsia",
       "slug": "fuchsia",
       "scores": {
@@ -2194,7 +2416,7 @@
       "memoDate": "2026-04-23"
     },
     {
-      "rank": 59,
+      "rank": 65,
       "name": "Superset",
       "slug": "superset",
       "scores": {
@@ -2229,7 +2451,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 60,
+      "rank": 66,
       "name": "Drip",
       "slug": "drippay",
       "scores": {
@@ -2267,7 +2489,7 @@
       "memoDate": "2026-04-24"
     },
     {
-      "rank": 61,
+      "rank": 67,
       "name": "primitive",
       "slug": "primitive",
       "scores": {
@@ -2306,7 +2528,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 62,
+      "rank": 68,
       "name": "Revnu",
       "slug": "revnu",
       "scores": {
@@ -2344,7 +2566,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 63,
+      "rank": 69,
       "name": "Runtime",
       "slug": "runtime",
       "scores": {
@@ -2380,7 +2602,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 64,
+      "rank": 70,
       "name": "Taiga",
       "slug": "taiga",
       "scores": {
@@ -2415,7 +2637,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 65,
+      "rank": 71,
       "name": "KugelAudio",
       "slug": "kugelaudio",
       "scores": {
@@ -2452,7 +2674,7 @@
       "memoDate": "2026-05-05"
     },
     {
-      "rank": 66,
+      "rank": 72,
       "name": "Oddpool",
       "slug": "oddpool",
       "scores": {
@@ -2489,7 +2711,7 @@
       "memoDate": "2026-05-05"
     },
     {
-      "rank": 67,
+      "rank": 73,
       "name": "ReasonBlocks",
       "slug": "reasonblocks",
       "scores": {
@@ -2526,7 +2748,7 @@
       "memoDate": "2026-05-05"
     },
     {
-      "rank": 68,
+      "rank": 74,
       "name": "BioStack Platforms",
       "slug": "biostack-platforms",
       "scores": {
@@ -2559,7 +2781,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 69,
+      "rank": 75,
       "name": "Zibra Labs",
       "slug": "zibra-labs",
       "scores": {
@@ -2597,7 +2819,7 @@
       "memoDate": "2026-05-05"
     },
     {
-      "rank": 70,
+      "rank": 76,
       "name": "Foaster",
       "slug": "foaster",
       "scores": {
@@ -2634,7 +2856,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 71,
+      "rank": 77,
       "name": "modern",
       "slug": "modern",
       "scores": {
@@ -2673,7 +2895,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 72,
+      "rank": 78,
       "name": "Cohesion",
       "slug": "cohesion",
       "scores": {
@@ -2710,7 +2932,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 73,
+      "rank": 79,
       "name": "Userlens",
       "slug": "userlens",
       "scores": {
@@ -2748,7 +2970,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 74,
+      "rank": 80,
       "name": "Pairio",
       "slug": "pairio",
       "scores": {
@@ -2785,7 +3007,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 75,
+      "rank": 81,
       "name": "Andco",
       "slug": "andco",
       "scores": {
@@ -2821,7 +3043,7 @@
       "memoDate": "2026-05-05"
     },
     {
-      "rank": 76,
+      "rank": 82,
       "name": "Cignara",
       "slug": "cignara",
       "scores": {
@@ -2857,7 +3079,7 @@
       "memoDate": "2026-04-23"
     },
     {
-      "rank": 77,
+      "rank": 83,
       "name": "Humwork",
       "slug": "humwork",
       "scores": {
@@ -2890,7 +3112,7 @@
       "memoDate": "2026-04-23"
     },
     {
-      "rank": 78,
+      "rank": 84,
       "name": "Imperfect",
       "slug": "imperfect",
       "scores": {
@@ -2928,7 +3150,7 @@
       "memoDate": "2026-04-23"
     },
     {
-      "rank": 79,
+      "rank": 85,
       "name": "Maquoketa Research",
       "slug": "maquoketa-research",
       "scores": {
@@ -2967,7 +3189,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 80,
+      "rank": 86,
       "name": "Standout",
       "slug": "standout",
       "scores": {
@@ -3005,7 +3227,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 81,
+      "rank": 87,
       "name": "InLoop Robotics",
       "slug": "inloop-robotics",
       "scores": {
@@ -3043,7 +3265,46 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 82,
+      "rank": 88,
+      "name": "Madrone",
+      "slug": "madrone",
+      "scores": {
+        "CB": 51,
+        "EG": 42,
+        "NR": 34,
+        "PG": 47,
+        "PT": 36,
+        "SL": 29,
+        "VK": 43
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 40.29,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Tom Blomfield",
+      "oneLiner": "Maximizing compute via hyper-efficient cooling",
+      "industry": "Industrials / Industrials -> Energy",
+      "location": "Mountain View, CA, USA",
+      "tags": [
+        "Hardware",
+        "Climate",
+        "Advanced Materials",
+        "AI",
+        "Industrial"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-05-15"
+    },
+    {
+      "rank": 89,
       "name": "HEVN, inc",
       "slug": "hevn-inc",
       "scores": {
@@ -3080,7 +3341,7 @@
       "memoDate": "2026-05-05"
     },
     {
-      "rank": 83,
+      "rank": 90,
       "name": "Manicule",
       "slug": "manicule",
       "scores": {
@@ -3117,7 +3378,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 84,
+      "rank": 91,
       "name": "Scope",
       "slug": "scope",
       "scores": {
@@ -3154,7 +3415,7 @@
       "memoDate": "2026-05-06"
     },
     {
-      "rank": 85,
+      "rank": 92,
       "name": "Totalis",
       "slug": "totalis",
       "scores": {
@@ -3190,7 +3451,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 86,
+      "rank": 93,
       "name": "Gojiberry AI",
       "slug": "gojiberry-ai",
       "scores": {
@@ -3223,7 +3484,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 87,
+      "rank": 94,
       "name": "Klarify",
       "slug": "klarify",
       "scores": {
@@ -3262,7 +3523,7 @@
       "memoDate": "2026-05-09"
     },
     {
-      "rank": 88,
+      "rank": 95,
       "name": "Mount",
       "slug": "mount",
       "scores": {
@@ -3301,7 +3562,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 89,
+      "rank": 96,
       "name": "TesterArmy",
       "slug": "testerarmy",
       "scores": {
@@ -3336,7 +3597,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 90,
+      "rank": 97,
       "name": "Bloom",
       "slug": "trybloom",
       "scores": {
@@ -3369,7 +3630,44 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 91,
+      "rank": 98,
+      "name": "Advanced Metal Research",
+      "slug": "advanced-metal-research",
+      "scores": {
+        "CB": 52,
+        "EG": 40,
+        "NR": 41,
+        "PG": 42,
+        "PT": 34,
+        "SL": 30,
+        "VK": 38
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 39.57,
+      "revenue": null,
+      "teamSize": 3,
+      "ycPartner": "Garry Tan",
+      "oneLiner": "Machine intelligence for American Welding",
+      "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+      "location": "Los Angeles, CA, USA (YC page); founder LinkedIn lists Hawthorne, CA",
+      "tags": [
+        "Hardware",
+        "Robotics",
+        "Manufacturing"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-05-15"
+    },
+    {
+      "rank": 99,
       "name": "ProjectX",
       "slug": "projectx",
       "scores": {
@@ -3402,7 +3700,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 92,
+      "rank": 100,
       "name": "Standard Signal",
       "slug": "standard-signal",
       "scores": {
@@ -3438,7 +3736,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 93,
+      "rank": 101,
       "name": "Synphony",
       "slug": "synphony",
       "scores": {
@@ -3476,7 +3774,7 @@
       "memoDate": "2026-05-09"
     },
     {
-      "rank": 94,
+      "rank": 102,
       "name": "Asendia AI",
       "slug": "asendia-ai",
       "scores": {
@@ -3513,7 +3811,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 95,
+      "rank": 103,
       "name": "OpenWork",
       "slug": "openwork",
       "scores": {
@@ -3546,7 +3844,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 96,
+      "rank": 104,
       "name": "PLAN0 AI",
       "slug": "plan0-ai",
       "scores": {
@@ -3585,7 +3883,7 @@
       "memoDate": "2026-05-05"
     },
     {
-      "rank": 97,
+      "rank": 105,
       "name": "Saffron",
       "slug": "saffron",
       "scores": {
@@ -3622,7 +3920,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 98,
+      "rank": 106,
       "name": "Pops",
       "slug": "pops",
       "scores": {
@@ -3659,7 +3957,7 @@
       "memoDate": "2026-05-06"
     },
     {
-      "rank": 99,
+      "rank": 107,
       "name": "StableBrowse",
       "slug": "stablebrowse",
       "scores": {
@@ -3697,7 +3995,83 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 100,
+      "rank": 108,
+      "name": "AbInitio Bio",
+      "slug": "abinitio-bio",
+      "scores": {
+        "CB": 44,
+        "EG": 32,
+        "NR": 44,
+        "PG": 44,
+        "PT": 34,
+        "SL": 31,
+        "VK": 42
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 38.71,
+      "revenue": null,
+      "teamSize": 1,
+      "ycPartner": "Nicolas Dessaigne",
+      "oneLiner": "The Intelligence layer for Drug Development",
+      "industry": "Healthcare / Healthcare -> Drug Discovery and Delivery",
+      "location": "No public data found",
+      "tags": [
+        "AI-powered Drug Discovery",
+        "Biotech",
+        "Manufacturing"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-05-15"
+    },
+    {
+      "rank": 109,
+      "name": "CharacterQuilt",
+      "slug": "characterquilt",
+      "scores": {
+        "CB": 38,
+        "EG": 47,
+        "NR": 41,
+        "PG": 60,
+        "PT": 28,
+        "SL": 29,
+        "VK": 28
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 38.71,
+      "revenue": null,
+      "teamSize": 4,
+      "ycPartner": "Pete Koomen",
+      "oneLiner": "AI infrastructure for marketers. Ship campaigns in your tools in an?",
+      "industry": "B2B / B2B -> Marketing",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Artificial Intelligence",
+        "SaaS",
+        "B2B",
+        "Marketing",
+        "AI"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-05-15"
+    },
+    {
+      "rank": 110,
       "name": "Lamina Labs",
       "slug": "lamina-labs",
       "scores": {
@@ -3734,7 +4108,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 101,
+      "rank": 111,
       "name": "Lightsprint",
       "slug": "lightsprint",
       "scores": {
@@ -3769,7 +4143,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 102,
+      "rank": 112,
       "name": "Alchemy",
       "slug": "alchemyai",
       "scores": {
@@ -3808,7 +4182,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 103,
+      "rank": 113,
       "name": "Netter",
       "slug": "netter",
       "scores": {
@@ -3846,7 +4220,7 @@
       "memoDate": "2026-05-06"
     },
     {
-      "rank": 104,
+      "rank": 114,
       "name": "qomplement",
       "slug": "qomplement",
       "scores": {
@@ -3883,7 +4257,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 105,
+      "rank": 115,
       "name": "Saudara AI",
       "slug": "saudara-ai",
       "scores": {
@@ -3920,7 +4294,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 106,
+      "rank": 116,
       "name": "Prototyping.io",
       "slug": "prototypingio",
       "scores": {
@@ -3958,7 +4332,7 @@
       "memoDate": "2026-05-05"
     },
     {
-      "rank": 107,
+      "rank": 117,
       "name": "Intelligence Factory",
       "slug": "intelligence-factory",
       "scores": {
@@ -3994,7 +4368,7 @@
       "memoDate": "2026-05-05"
     },
     {
-      "rank": 108,
+      "rank": 118,
       "name": "Sherpa",
       "slug": "sherpa",
       "scores": {
@@ -4033,7 +4407,46 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 109,
+      "rank": 119,
+      "name": "TakeCareOS",
+      "slug": "takecareos",
+      "scores": {
+        "CB": 44,
+        "EG": 42,
+        "NR": 37,
+        "PG": 51,
+        "PT": 28,
+        "SL": 29,
+        "VK": 32
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 37.57,
+      "revenue": null,
+      "teamSize": 1,
+      "ycPartner": "Andrew Miklas",
+      "oneLiner": "AI Operating System for Disability, Aged Care and Home Care Agencies",
+      "industry": "B2B / B2B",
+      "location": "Not specified on YC page; product supports US and Australian data residency (takecareos.com)",
+      "tags": [
+        "Artificial Intelligence",
+        "SaaS",
+        "Health Tech",
+        "B2B",
+        "Healthcare"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-05-15"
+    },
+    {
+      "rank": 120,
       "name": "Ara",
       "slug": "ara",
       "scores": {
@@ -4070,7 +4483,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 110,
+      "rank": 121,
       "name": "Replicas",
       "slug": "replicas",
       "scores": {
@@ -4107,7 +4520,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 111,
+      "rank": 122,
       "name": "Salesgraph",
       "slug": "salesgraph",
       "scores": {
@@ -4144,7 +4557,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 112,
+      "rank": 123,
       "name": "Elyra",
       "slug": "elyra",
       "scores": {
@@ -4181,7 +4594,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 113,
+      "rank": 124,
       "name": "Stage",
       "slug": "stage",
       "scores": {
@@ -4217,7 +4630,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 114,
+      "rank": 125,
       "name": "Hyper",
       "slug": "hyper-4",
       "scores": {
@@ -4254,7 +4667,7 @@
       "memoDate": "2026-05-07"
     },
     {
-      "rank": 115,
+      "rank": 126,
       "name": "Arden",
       "slug": "arden",
       "scores": {
@@ -4291,7 +4704,44 @@
       "memoDate": "2026-05-06"
     },
     {
-      "rank": 116,
+      "rank": 127,
+      "name": "flowscope",
+      "slug": "flowscope",
+      "scores": {
+        "CB": 32,
+        "EG": 47,
+        "NR": 37,
+        "PG": 43,
+        "PT": 30,
+        "SL": 28,
+        "VK": 34
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 35.86,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "David Lieb",
+      "oneLiner": "AI-native consulting to map and automate business processes",
+      "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Artificial Intelligence",
+        "B2B",
+        "Enterprise Software"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-05-15"
+    },
+    {
+      "rank": 128,
       "name": "Armature",
       "slug": "armature",
       "scores": {
@@ -4327,7 +4777,7 @@
       "memoDate": "2026-05-07"
     },
     {
-      "rank": 117,
+      "rank": 129,
       "name": "Chronicle Labs",
       "slug": "chronicle-labs",
       "scores": {
@@ -4364,7 +4814,7 @@
       "memoDate": "2026-05-05"
     },
     {
-      "rank": 118,
+      "rank": 130,
       "name": "Hub.xyz",
       "slug": "hubxyz",
       "scores": {
@@ -4402,7 +4852,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 119,
+      "rank": 131,
       "name": "Rudus",
       "slug": "rudus",
       "scores": {
@@ -4440,7 +4890,45 @@
       "memoDate": "2026-05-05"
     },
     {
-      "rank": 120,
+      "rank": 132,
+      "name": "Auxos",
+      "slug": "auxos",
+      "scores": {
+        "CB": 34,
+        "EG": 44,
+        "NR": 42,
+        "PG": 44,
+        "PT": 29,
+        "SL": 24,
+        "VK": 31
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 35.43,
+      "revenue": null,
+      "teamSize": 3,
+      "ycPartner": "David Lieb",
+      "oneLiner": "Simulated audiences for customer research",
+      "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "B2B",
+        "Marketing",
+        "Market Research",
+        "AI"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-05-15"
+    },
+    {
+      "rank": 133,
       "name": "InstaAgent",
       "slug": "instaagent",
       "scores": {
@@ -4478,7 +4966,42 @@
       "memoDate": "2026-05-09"
     },
     {
-      "rank": 121,
+      "rank": 134,
+      "name": "The Company Company",
+      "slug": "the-company-company",
+      "scores": {
+        "CB": 36,
+        "EG": 36,
+        "NR": 49,
+        "PG": 40,
+        "PT": 25,
+        "SL": 26,
+        "VK": 35
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 35.29,
+      "revenue": null,
+      "teamSize": 1,
+      "ycPartner": "Pete Koomen",
+      "oneLiner": "The last agent your company will ever need.",
+      "industry": "B2B / B2B",
+      "location": "San Francisco, CA / Remote (YC company page)",
+      "tags": [
+        "—"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-05-15"
+    },
+    {
+      "rank": 135,
       "name": "Refortifai",
       "slug": "refortifai",
       "scores": {
@@ -4515,7 +5038,7 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 122,
+      "rank": 136,
       "name": "Chert",
       "slug": "chert",
       "scores": {
@@ -4554,7 +5077,7 @@
       "memoDate": "2026-04-26"
     },
     {
-      "rank": 123,
+      "rank": 137,
       "name": "Kinect",
       "slug": "kinect",
       "scores": {
@@ -4591,7 +5114,43 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 124,
+      "rank": 138,
+      "name": "Incandor",
+      "slug": "incandor",
+      "scores": {
+        "CB": 40,
+        "EG": 31,
+        "NR": 34,
+        "PG": 39,
+        "PT": 36,
+        "SL": 27,
+        "VK": 35
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 34.57,
+      "revenue": null,
+      "teamSize": 0,
+      "ycPartner": "David Lieb",
+      "oneLiner": "Behavioral intelligence infrastructure for fraud and trust & safety",
+      "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Security",
+        "AI"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-05-15"
+    },
+    {
+      "rank": 139,
       "name": "AgentPhone",
       "slug": "agentphone",
       "scores": {
@@ -4629,7 +5188,7 @@
       "memoDate": "2026-05-06"
     },
     {
-      "rank": 125,
+      "rank": 140,
       "name": "jo",
       "slug": "jo",
       "scores": {
@@ -4667,7 +5226,7 @@
       "memoDate": "2026-05-05"
     },
     {
-      "rank": 126,
+      "rank": 141,
       "name": "YouArt",
       "slug": "youart",
       "scores": {
@@ -4704,7 +5263,7 @@
       "memoDate": "2026-05-05"
     },
     {
-      "rank": 127,
+      "rank": 142,
       "name": "Prism",
       "slug": "tryprism",
       "scores": {
@@ -4742,7 +5301,44 @@
       "memoDate": "2026-04-23"
     },
     {
-      "rank": 128,
+      "rank": 143,
+      "name": "Arctic Health",
+      "slug": "arctic-health",
+      "scores": {
+        "CB": 44,
+        "EG": 37,
+        "NR": 35,
+        "PG": 43,
+        "PT": 24,
+        "SL": 25,
+        "VK": 30
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 34,
+      "revenue": null,
+      "teamSize": 4,
+      "ycPartner": "Aaron Epstein",
+      "oneLiner": "AI-native credentialing and contracting for healthcare",
+      "industry": "Healthcare / Healthcare -> Healthcare Services",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Healthcare",
+        "Healthcare IT",
+        "AI"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-05-15"
+    },
+    {
+      "rank": 144,
       "name": "Light Anchor",
       "slug": "light-anchor",
       "scores": {
@@ -4778,7 +5374,7 @@
       "memoDate": "2026-05-05"
     },
     {
-      "rank": 129,
+      "rank": 145,
       "name": "ANORIA",
       "slug": "anoria",
       "scores": {
@@ -4817,7 +5413,7 @@
       "memoDate": "2026-05-05"
     },
     {
-      "rank": 130,
+      "rank": 146,
       "name": "Archer",
       "slug": "archer",
       "scores": {
@@ -4853,7 +5449,7 @@
       "memoDate": "2026-04-23"
     },
     {
-      "rank": 131,
+      "rank": 147,
       "name": "Superlog",
       "slug": "superlog",
       "scores": {
@@ -4892,7 +5488,7 @@
       "memoDate": "2026-05-07"
     },
     {
-      "rank": 132,
+      "rank": 148,
       "name": "Napkin Math",
       "slug": "napkin-math",
       "scores": {
@@ -4931,7 +5527,44 @@
       "memoDate": "2026-04-22"
     },
     {
-      "rank": 133,
+      "rank": 149,
+      "name": "Astraea",
+      "slug": "astraea",
+      "scores": {
+        "CB": 40,
+        "EG": 40,
+        "NR": 28,
+        "PG": 42,
+        "PT": 25,
+        "SL": 23,
+        "VK": 33
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 33,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "David Lieb",
+      "oneLiner": "Agents that accelerate clinical trials.",
+      "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "SaaS",
+        "Health Tech",
+        "AI"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-05-15"
+    },
+    {
+      "rank": 150,
       "name": "Pavoot",
       "slug": "pavoot",
       "scores": {
@@ -4969,7 +5602,7 @@
       "memoDate": "2026-05-06"
     },
     {
-      "rank": 134,
+      "rank": 151,
       "name": "Pentagon",
       "slug": "pentagon",
       "scores": {
@@ -5003,6 +5636,80 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-04-22"
+    },
+    {
+      "rank": 152,
+      "name": "Alchemize",
+      "slug": "alchemize",
+      "scores": {
+        "CB": 35,
+        "EG": 32,
+        "NR": 30,
+        "PG": 36,
+        "PT": 29,
+        "SL": 27,
+        "VK": 28
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 31,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Andrew Miklas",
+      "oneLiner": "AI-Native Customs Brokerage",
+      "industry": "B2B / B2B -> Supply Chain and Logistics",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Logistics",
+        "Supply Chain",
+        "AI"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-05-15"
+    },
+    {
+      "rank": 153,
+      "name": "Hexa",
+      "slug": "hexa",
+      "scores": {
+        "CB": 30,
+        "EG": 33,
+        "NR": 30,
+        "PG": 32,
+        "PT": 19,
+        "SL": 20,
+        "VK": 27
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Strong Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 27.29,
+      "revenue": null,
+      "teamSize": 3,
+      "ycPartner": "David Lieb",
+      "oneLiner": "The OS for Manufacturers and Distributors",
+      "industry": "B2B / B2B -> Supply Chain and Logistics",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "B2B",
+        "Workflow Automation",
+        "Supply Chain"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-05-15"
     }
   ],
   "disagreements": [],
@@ -5011,6 +5718,11 @@
       "company": "Prototyping.io",
       "avg": 38.14,
       "range": 9
+    },
+    {
+      "company": "Alchemize",
+      "avg": 31,
+      "range": 9
     }
   ],
   "correlationMatrix": [
@@ -5018,83 +5730,83 @@
       "persona": "CB",
       "values": {
         "CB": null,
-        "EG": 0.46,
-        "NR": 0.46,
+        "EG": 0.43,
+        "NR": 0.33,
         "PG": 0.61,
-        "PT": 0.75,
-        "SL": 0.63,
-        "VK": 0.59
+        "PT": 0.72,
+        "SL": 0.57,
+        "VK": 0.53
       }
     },
     {
       "persona": "EG",
       "values": {
-        "CB": 0.46,
+        "CB": 0.43,
         "EG": null,
-        "NR": 0.51,
-        "PG": 0.49,
-        "PT": 0.41,
-        "SL": 0.24,
-        "VK": 0.08
+        "NR": 0.5,
+        "PG": 0.51,
+        "PT": 0.37,
+        "SL": 0.28,
+        "VK": 0.09
       }
     },
     {
       "persona": "NR",
       "values": {
-        "CB": 0.46,
-        "EG": 0.51,
+        "CB": 0.33,
+        "EG": 0.5,
         "NR": null,
-        "PG": 0.64,
-        "PT": 0.59,
-        "SL": 0.36,
-        "VK": 0.43
+        "PG": 0.6,
+        "PT": 0.43,
+        "SL": 0.44,
+        "VK": 0.4
       }
     },
     {
       "persona": "PG",
       "values": {
         "CB": 0.61,
-        "EG": 0.49,
-        "NR": 0.64,
+        "EG": 0.51,
+        "NR": 0.6,
         "PG": null,
-        "PT": 0.63,
-        "SL": 0.43,
-        "VK": 0.37
+        "PT": 0.62,
+        "SL": 0.48,
+        "VK": 0.39
       }
     },
     {
       "persona": "PT",
       "values": {
-        "CB": 0.75,
-        "EG": 0.41,
-        "NR": 0.59,
-        "PG": 0.63,
+        "CB": 0.72,
+        "EG": 0.37,
+        "NR": 0.43,
+        "PG": 0.62,
         "PT": null,
-        "SL": 0.66,
-        "VK": 0.69
+        "SL": 0.6,
+        "VK": 0.71
       }
     },
     {
       "persona": "SL",
       "values": {
-        "CB": 0.63,
-        "EG": 0.24,
-        "NR": 0.36,
-        "PG": 0.43,
-        "PT": 0.66,
+        "CB": 0.57,
+        "EG": 0.28,
+        "NR": 0.44,
+        "PG": 0.48,
+        "PT": 0.6,
         "SL": null,
-        "VK": 0.52
+        "VK": 0.54
       }
     },
     {
       "persona": "VK",
       "values": {
-        "CB": 0.59,
-        "EG": 0.08,
-        "NR": 0.43,
-        "PG": 0.37,
-        "PT": 0.69,
-        "SL": 0.52,
+        "CB": 0.53,
+        "EG": 0.09,
+        "NR": 0.4,
+        "PG": 0.39,
+        "PT": 0.71,
+        "SL": 0.54,
         "VK": null
       }
     }

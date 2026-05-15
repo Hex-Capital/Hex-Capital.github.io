@@ -1,0 +1,76 @@
+{
+  "slug": "alchemize",
+  "name": "Alchemize",
+  "oneLiner": "AI-Native Customs Brokerage",
+  "metadata": {
+    "website": "https://tryalchemize.com",
+    "yc_page": "https://www.ycombinator.com/companies/alchemize",
+    "batch": "Spring 2026 (YC P26)",
+    "industry": "B2B / B2B -> Supply Chain and Logistics",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Logistics, Supply Chain, AI",
+    "yc_partner": "Andrew Miklas (YC company page)",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Logistics",
+    "Supply Chain",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-15T05:40:28.300Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 28,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 35,
+    "EG": 32,
+    "NR": 30,
+    "PG": 36,
+    "PT": 29,
+    "SL": 27,
+    "VK": 28
+  },
+  "consolidatedAvg": 31,
+  "consolidatedRank": 152,
+  "paths": {
+    "memo": "spring2026/memos/alchemize.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/alchemize.md",
+      "elad-gil": "spring2026/evals/elad-gil/alchemize.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/alchemize.md",
+      "paul-graham": "spring2026/evals/paul-graham/alchemize.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/alchemize.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/alchemize.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/alchemize.md"
+    }
+  }
+}

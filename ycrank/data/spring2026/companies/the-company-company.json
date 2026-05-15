@@ -1,0 +1,74 @@
+{
+  "slug": "the-company-company",
+  "name": "The Company Company",
+  "oneLiner": "The last agent your company will ever need.",
+  "metadata": {
+    "website": "https://www.thecompany.company",
+    "yc_page": "https://www.ycombinator.com/companies/the-company-company",
+    "batch": "Spring 2026 (YC company page)",
+    "industry": "B2B / B2B",
+    "team_size": "1",
+    "location": "San Francisco, CA / Remote (YC company page)",
+    "tags": "—",
+    "yc_partner": "Pete Koomen (YC company page)",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "—"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-15T05:42:25.410Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 25,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 35,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 36,
+    "EG": 36,
+    "NR": 49,
+    "PG": 40,
+    "PT": 25,
+    "SL": 26,
+    "VK": 35
+  },
+  "consolidatedAvg": 35.29,
+  "consolidatedRank": 134,
+  "paths": {
+    "memo": "spring2026/memos/the-company-company.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/the-company-company.md",
+      "elad-gil": "spring2026/evals/elad-gil/the-company-company.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/the-company-company.md",
+      "paul-graham": "spring2026/evals/paul-graham/the-company-company.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/the-company-company.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/the-company-company.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/the-company-company.md"
+    }
+  }
+}

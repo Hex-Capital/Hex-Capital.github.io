@@ -1,0 +1,78 @@
+{
+  "slug": "takecareos",
+  "name": "TakeCareOS",
+  "oneLiner": "AI Operating System for Disability, Aged Care and Home Care Agencies",
+  "metadata": {
+    "website": "https://takecareos.com",
+    "yc_page": "https://www.ycombinator.com/companies/takecareos",
+    "batch": "Spring 2026 (per YC page); founder's LinkedIn lists \"YC F25\" (Fall 2025) — conflict noted",
+    "industry": "B2B / B2B",
+    "team_size": "1",
+    "location": "Not specified on YC page; product supports US and Australian data residency (takecareos.com)",
+    "tags": "Artificial Intelligence, SaaS, Health Tech, B2B, Healthcare",
+    "yc_partner": "Andrew Miklas (YC page)",
+    "emails": "No public data found (site uses Tally form tally.so/r/Y5ZBXd)"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "SaaS",
+    "Health Tech",
+    "B2B",
+    "Healthcare"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-15T05:43:40.345Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 32,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 44,
+    "EG": 42,
+    "NR": 37,
+    "PG": 51,
+    "PT": 28,
+    "SL": 29,
+    "VK": 32
+  },
+  "consolidatedAvg": 37.57,
+  "consolidatedRank": 119,
+  "paths": {
+    "memo": "spring2026/memos/takecareos.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/takecareos.md",
+      "elad-gil": "spring2026/evals/elad-gil/takecareos.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/takecareos.md",
+      "paul-graham": "spring2026/evals/paul-graham/takecareos.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/takecareos.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/takecareos.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/takecareos.md"
+    }
+  }
+}

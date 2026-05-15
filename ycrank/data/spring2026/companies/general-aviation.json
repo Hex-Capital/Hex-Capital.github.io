@@ -1,0 +1,78 @@
+{
+  "slug": "general-aviation",
+  "name": "General Aviation",
+  "oneLiner": "Fix ATC by connecting aircraft to the internet",
+  "metadata": {
+    "website": "https://generalaviation.com",
+    "yc_page": "https://www.ycombinator.com/companies/general-aviation",
+    "batch": "Spring 2026 (YC company page)",
+    "industry": "Industrials / Industrials -> Aviation and Space",
+    "team_size": "0 (per YC company_data; founder Ben Frank confirmed via YC page)",
+    "location": "New York City, NY, USA",
+    "tags": "Hard Tech, Satellites, Transportation, Mobility, Aerospace",
+    "yc_partner": "Pete Koomen (YC company page)",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Hard Tech",
+    "Satellites",
+    "Transportation",
+    "Mobility",
+    "Aerospace"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-15T05:40:38.235Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 63,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 52,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 63,
+    "EG": 47,
+    "NR": 42,
+    "PG": 58,
+    "PT": 53,
+    "SL": 46,
+    "VK": 52
+  },
+  "consolidatedAvg": 51.57,
+  "consolidatedRank": 16,
+  "paths": {
+    "memo": "spring2026/memos/general-aviation.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/general-aviation.md",
+      "elad-gil": "spring2026/evals/elad-gil/general-aviation.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/general-aviation.md",
+      "paul-graham": "spring2026/evals/paul-graham/general-aviation.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/general-aviation.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/general-aviation.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/general-aviation.md"
+    }
+  }
+}

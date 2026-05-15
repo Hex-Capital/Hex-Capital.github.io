@@ -1,0 +1,28 @@
+﻿# Madrone -- Paul Graham Evaluation
+
+Madrone is a hardware company attacking a genuine schlep with founders who have not personally suffered the problem -- Akshay Trikha came from QuantumScape ML and Berkeley interatomic-potentials research, Erik Meike came from Apple's iPhone wireless power team, and neither has shipped a refrigeration cycle or stood inside a Texas data hall at 45°C. That pairing -- a real schlep without an organic origin story -- is the signature here, and it is the one that worries me. The 30% power-and-water-savings claim on madrone.cool is a marketing line, not a pilot.
+
+On schlep, the high rung is **Coinbase** (2012) and the compliance grind Brian Armstrong ran toward when nobody else in his batch would touch it; the low rung is the polished AI-wrapper pass example with no offline grind anywhere in the deck. Madrone sits closer to the **Coinbase** (2012) end of that ladder than almost anything I have read this batch: modular chiller-less units sold capex into hyperscaler facility teams, retrofits into live data centers, multi-year procurement cycles, and direct cannibalization of Johnson Controls' service revenue. That is unpleasant work, and the May 2026 Alloy Enterprises acquisition by Johnson Controls is evidence that incumbents already prefer to buy rather than build in this category. Madrone has chosen a fight where the schlep is the moat, the way it was for **Coinbase** (2012).
+
+On organic founder-pain, the high rung is **Dropbox** (2007) -- Drew Houston losing his USB stick at MIT and writing the thing for himself -- and the low rung is again the MBA AI-wrapper team that did a competitive analysis instead of suffering. Madrone sits much closer to the low rung. The dossier gives me an ML engineer who worked on solid-state battery vision and an Apple hardware engineer who worked on wireless charging coils; neither has disclosed a single hour of HVAC, refrigeration, or facility-engineering experience. This is the "spotted a market opportunity" pattern from "How to Get Startup Ideas" (November 2012), inverted. The Collisons at **Stripe** (2010) had been hacking commerce since **Auctomatic** (2007); Madrone's founders, as far as I can see, had been hacking lithium batteries and inductive coils.
+
+On animal resourcefulness, the high rung is the **Airbnb** (2009) cereal boxes and Armstrong's hand-built Android wallet that overturned his **Coinbase** (2012) rejection; the low rung is silence. Madrone's dossier is silence. No demo video, no pilot deployment, no signed LOI, no $40 stunt, no third-party validation of the dew-point claim. NVIDIA Inception is a partner program, not a check and not an animal moment. I assume animals leave tracks, and I do not see tracks here yet -- which puts Madrone near the absent-evidence default. The hacker-genealogy ladder runs from **Reddit** (2005)'s Aaron Swartz with the RSS specification down to a non-technical MBA team, and Madrone sits in the upper middle: Trikha has a GitHub with 25 repos and a Berkeley research line on ML interatomic potentials, Meike was Harvey Mudd's Rocketry Club president and Makerspace co-president 2019-2020, and they both come from Harvey Mudd. That is real hacker DNA, weaker than **Stripe** (2010)'s Young Scientist Lisp prize but well above the floor.
+
+Co-founder configuration is the cleanest dimension: two Harvey Mudd founders with overlapping cohort timing, complementary ML-and-hardware coverage. That sits between **Stripe** (2010)'s two-brother pair and a freshly-met hackathon dyad, comfortably above the latter. It is a pair I would not worry about in the interview room, though the dossier does not confirm how long they actually built together.
+
+My 36-month forecast on Madrone: acquired by Johnson Controls, Carrier, or Trane for under $75M in an Alloy-Enterprises-style tuck-in after one or two paid pilots with a single hyperscaler in Texas, with no standalone scaled revenue. The mechanism is the one the dossier itself names -- incumbents who sell the chillers Madrone is trying to eliminate prefer to acquire rather than be disrupted, and a two-person team without facility-domain credibility will not survive the multi-year hyperscaler procurement gauntlet alone. That is the **Kiko** (2005) eBay-sale shape, not the **Twitch** (2007) shape.
+
+The strongest bull case against my forecast is that Madrone is exactly the kind of bet where my own "Black Swan Farming" (September 2012) lesson applies: hardware-into-hyperscalers looks unfundable until it is **Stripe** (2010)-shaped, the 30% efficiency claim if real is enormous against a $4.07B liquid-cooling SAM growing at 31.5% CAGR, and Apple-trained hardware engineers shipping at iPhone scale is not a weak credential. The bear case still wins on the dossier as written, because the **Airbnb** (2009) exception required a stunt that overturned my idea-level skepticism and Madrone has not produced one yet -- no cereal box, no demo, no pilot. The condition that flips my verdict is concrete and verifiable: a signed paid pilot with a named hyperscaler or top-10 colocation operator with third-party measured efficiency numbers from a live Texas deployment. Until then, pass.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Demonstrates Animal Resourcefulness Pre-Funding | 12/35 |
+| Idea Is Organic to Founders' Own Pain | 7/25 |
+| Problem Sits in a Schlep Zone Mainstream Founders Avoid | 12/15 |
+| Hacker Genealogy in the Founder Team | 9/15 |
+| Co-founder Configuration Is a Strong Pair or Trio, Not Solo | 7/10 |
+| **Total** | **47/100** |
+
+**Total Score: 47/100** (Neutral)

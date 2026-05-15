@@ -1,0 +1,76 @@
+{
+  "slug": "flowscope",
+  "name": "flowscope",
+  "oneLiner": "AI-native consulting to map and automate business processes",
+  "metadata": {
+    "website": "https://flowscope.com",
+    "yc_page": "https://www.ycombinator.com/companies/flowscope",
+    "batch": "Spring 2026 (YC page)",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, B2B, Enterprise Software",
+    "yc_partner": "David Lieb (YC page)",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "B2B",
+    "Enterprise Software"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-15T05:40:07.927Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 34,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 32,
+    "EG": 47,
+    "NR": 37,
+    "PG": 43,
+    "PT": 30,
+    "SL": 28,
+    "VK": 34
+  },
+  "consolidatedAvg": 35.86,
+  "consolidatedRank": 127,
+  "paths": {
+    "memo": "spring2026/memos/flowscope.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/flowscope.md",
+      "elad-gil": "spring2026/evals/elad-gil/flowscope.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/flowscope.md",
+      "paul-graham": "spring2026/evals/paul-graham/flowscope.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/flowscope.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/flowscope.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/flowscope.md"
+    }
+  }
+}

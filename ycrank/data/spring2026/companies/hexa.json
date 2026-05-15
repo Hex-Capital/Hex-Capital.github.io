@@ -1,0 +1,76 @@
+{
+  "slug": "hexa",
+  "name": "Hexa",
+  "oneLiner": "The OS for Manufacturers and Distributors",
+  "metadata": {
+    "website": "https://www.hexaagents.com",
+    "yc_page": "https://www.ycombinator.com/companies/hexa",
+    "batch": "Spring 2026",
+    "industry": "B2B / B2B -> Supply Chain and Logistics",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "B2B, Workflow Automation, Supply Chain",
+    "yc_partner": "David Lieb (YC company page)",
+    "emails": "admin@hexaagents.com (hexaagents.com, May 2026)"
+  },
+  "tags": [
+    "B2B",
+    "Workflow Automation",
+    "Supply Chain"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-15T05:42:29.844Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 19,
+      "tier": "Strong Pass"
+    },
+    "sam-lessin": {
+      "score": 20,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 27,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 30,
+    "EG": 33,
+    "NR": 30,
+    "PG": 32,
+    "PT": 19,
+    "SL": 20,
+    "VK": 27
+  },
+  "consolidatedAvg": 27.29,
+  "consolidatedRank": 153,
+  "paths": {
+    "memo": "spring2026/memos/hexa.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/hexa.md",
+      "elad-gil": "spring2026/evals/elad-gil/hexa.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/hexa.md",
+      "paul-graham": "spring2026/evals/paul-graham/hexa.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/hexa.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/hexa.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/hexa.md"
+    }
+  }
+}

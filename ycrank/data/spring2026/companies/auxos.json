@@ -1,0 +1,77 @@
+{
+  "slug": "auxos",
+  "name": "Auxos",
+  "oneLiner": "Simulated audiences for customer research",
+  "metadata": {
+    "website": "https://www.useauxos.com",
+    "yc_page": "https://www.ycombinator.com/companies/auxos",
+    "batch": "Spring 2026 (P26)",
+    "industry": "B2B / B2B",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "B2B, Marketing, Market Research, AI",
+    "yc_partner": "David Lieb (YC company page)",
+    "emails": "contact@auxos.dev (useauxos.com)"
+  },
+  "tags": [
+    "B2B",
+    "Marketing",
+    "Market Research",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-15T05:41:05.133Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 24,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 31,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 34,
+    "EG": 44,
+    "NR": 42,
+    "PG": 44,
+    "PT": 29,
+    "SL": 24,
+    "VK": 31
+  },
+  "consolidatedAvg": 35.43,
+  "consolidatedRank": 132,
+  "paths": {
+    "memo": "spring2026/memos/auxos.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/auxos.md",
+      "elad-gil": "spring2026/evals/elad-gil/auxos.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/auxos.md",
+      "paul-graham": "spring2026/evals/paul-graham/auxos.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/auxos.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/auxos.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/auxos.md"
+    }
+  }
+}

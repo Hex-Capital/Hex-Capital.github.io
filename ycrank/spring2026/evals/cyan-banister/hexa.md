@@ -1,0 +1,28 @@
+﻿# Hexa -- Cyan Banister Evaluation
+
+Hexa is a sole-CEO consensus play with clean governance and no lived contact with the problem -- Ishaan Makkar's LinkedIn headline literally says "Stealth," and the dossier surfaces no manufacturing, distribution, or ERP employment anywhere in his trajectory. That pairing -- governance tidy, biography missing -- is the signature of a founder who read about 54% of manufacturers using spreadsheets, not one who watched a controller key invoices into Epicor at 11 p.m. on a Tuesday. Everything else in Hexa's profile follows from that one absence.
+
+Anduril-Luckey shipped VR from his parents' garage before pivoting to defense; DeepMind-Hassabis was already a chess prodigy and neuroscientist before the polymath thesis caught up to him; the consensus YC AI-agent darling I pass on opens with TAM and a four-logo team page. Hexa sits at the bottom rung. The dossier gives me one quote from Makkar about "54% of manufacturing companies still rely on spreadsheets" -- that is a statistic anyone with a search bar can find. There is no oilfield childhood, no family distributor, no prior stint at SAP or NetSuite, no confirmed FR8 history (the snippet referencing "Mann Patira" is explicitly flagged as unverified in the dossier). Hexa is the Stanford-deck pattern in vertical drag, and "the founder discovered the problem in a memo" is the line I wrote about the pass example. This is the dimension that decides Hexa.
+
+Crusoe-burning-flares was magically weird; Postmates delivering deli sandwiches was a quiet logistics bet hiding inside a consumer wrapper; the consensus YC AI-agent darling is what I pass on. Hexa lives one notch above the floor. The dossier lists Distro, Turian, Go Autonomous, Arphie, Altura, and Tessera as direct overlaps, plus SAP Joule and Dynamics Copilot bearing down from inside the very ERPs Hexa promises to integrate with. That is seven named competitors before we count the long tail. Hexa is not weird -- Hexa is in the most crowded YC lane of Spring 2026, and "find them before it becomes consensus" inverts here. The round will price as if the outcome is certain, which is the opposite of underpriced.
+
+Hexa's single bright spot is governance. Anduril had a clear CEO from Day 1; Crusoe had Chase Lochmiller unambiguous; HQ Trivia's Yusupov/Kroll partnership later imploded and contributed to the 2020-21 collapse. Hexa names Ishaan Makkar as the sole founder/CEO on the YC page with a three-person team behind him -- closer to the Anduril rung than to HQ Trivia. I will not punish Hexa here, but a clean cap table does not write a check by itself; it only removes a reason to pass.
+
+SpaceX is the capital-intensity anchor; Flock Safety hardware in cop cars sits mid-rung; the AI-app SaaS wrapper is the floor. Hexa is a software overlay calling SAP, Oracle NetSuite, Microsoft Dynamics, Epicor, Salesforce, HubSpot, Zoho, and Pipedrive APIs from three people in San Francisco -- the only "unsexy" texture is the customer vertical, not the product itself. Manufacturers are unsexy customers; an LLM-orchestrated quoting agent is the most sexy-investor-pitch category of 2026. Hexa is not Vigil Labs, not Mindbloom, not Crusoe. On physical verifiability the ladder runs Niantic-Ingress (I played it for three years before the check) to Postmates (watched it happen on my street) to the B2B API floor -- Hexa is demo-only via a Calendly link to "ishaan-hexaagents/30min," no Product Hunt, no public app, no observable artifact a normal human can install or photograph. Floor rung.
+
+Hexa in 36 months: no Series A from a tier-1 fund, under $1.5M ARR, squeezed between SAP Joule and Dynamics Copilot above and Distro/Turian below, ending in an acqui-hire by a mid-tier ERP integrator or a quiet wind-down. The mechanism is structural -- a founder with no autobiographical lock on manufacturing distribution cannot out-execute Distro's distributor-specialist depth and cannot out-distribute Microsoft's in-suite agent default. Hexa is the substitution layer that gets substituted.
+
+The strongest objection is HandUp -- I wrote that check for dental financing whose ceiling was modest because the founder mirrored my own homelessness origin, and Known Exception three says polymath credential plays like DeepMind-Hassabis can override the pedigree screen. Could Makkar be a hidden polymath whose stealth LinkedIn masks a family-owned distribution business in Ohio or a quant-to-operator pivot? Possible. But the dossier explicitly searched and surfaced nothing -- no education, no prior employers, no GitHub, no Twitter, and the one snippet that hinted at FR8 / Mann Patira is flagged as unverified. The HandUp override requires evidence of mirror-trajectory; Hexa offers an empty cell. The flip condition is concrete: if Makkar surfaces a verified 3+ year operator stint at a manufacturer, distributor, or ERP vendor (or the FR8 thread resolves to a real co-founder with that operator DNA), I re-open. Until that surfaces, this is "ex-FAANG PM Stanford CS identified market opportunity in [TAM]" in vertical clothing, and I am not the check.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Surfaced From Lived Experience, Not Market Analysis | 6/32 |
+| Magically Weird, Non-Consensus, Round Likely Underpriced | 5/24 |
+| Single Unambiguous CEO With Identifiable Tiebreaker Authority | 11/16 |
+| Capital-Intensive, Frontier-Hardware or Unsexy-Regulated Swing | 5/15 |
+| Physical-World Verifiability: You Can Touch, Use, Or Observe The Product | 3/13 |
+| **Total** | **30/100** |
+
+**Total Score: 30/100** (Pass)

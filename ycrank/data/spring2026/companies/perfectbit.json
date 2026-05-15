@@ -1,0 +1,75 @@
+{
+  "slug": "perfectbit",
+  "name": "PerfectBit",
+  "oneLiner": "Training data for frontier AI labs",
+  "metadata": {
+    "website": "https://perfectbit.ai",
+    "yc_page": "https://www.ycombinator.com/companies/perfectbit",
+    "batch": "Spring 2026 (YC company page)",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Infrastructure, AI",
+    "yc_partner": "Garry Tan (YC company page)",
+    "emails": "founders@perfectbit.ai (YC company page)"
+  },
+  "tags": [
+    "Infrastructure",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-15T05:43:55.125Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 40,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 41,
+    "EG": 53,
+    "NR": 47,
+    "PG": 52,
+    "PT": 47,
+    "SL": 33,
+    "VK": 40
+  },
+  "consolidatedAvg": 44.71,
+  "consolidatedRank": 43,
+  "paths": {
+    "memo": "spring2026/memos/perfectbit.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/perfectbit.md",
+      "elad-gil": "spring2026/evals/elad-gil/perfectbit.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/perfectbit.md",
+      "paul-graham": "spring2026/evals/paul-graham/perfectbit.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/perfectbit.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/perfectbit.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/perfectbit.md"
+    }
+  }
+}

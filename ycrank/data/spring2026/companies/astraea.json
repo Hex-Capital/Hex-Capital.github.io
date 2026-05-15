@@ -1,0 +1,76 @@
+{
+  "slug": "astraea",
+  "name": "Astraea",
+  "oneLiner": "Agents that accelerate clinical trials.",
+  "metadata": {
+    "website": "https://tryastraea.com",
+    "yc_page": "https://www.ycombinator.com/companies/astraea",
+    "batch": "Spring 2026 (YC page)",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "SaaS, Health Tech, AI",
+    "yc_partner": "David Lieb (YC page)",
+    "emails": "founders@tryastraea.com (YC page)"
+  },
+  "tags": [
+    "SaaS",
+    "Health Tech",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-15T05:40:48.329Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 25,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 23,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 33,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 40,
+    "EG": 40,
+    "NR": 28,
+    "PG": 42,
+    "PT": 25,
+    "SL": 23,
+    "VK": 33
+  },
+  "consolidatedAvg": 33,
+  "consolidatedRank": 149,
+  "paths": {
+    "memo": "spring2026/memos/astraea.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/astraea.md",
+      "elad-gil": "spring2026/evals/elad-gil/astraea.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/astraea.md",
+      "paul-graham": "spring2026/evals/paul-graham/astraea.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/astraea.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/astraea.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/astraea.md"
+    }
+  }
+}

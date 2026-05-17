@@ -1,0 +1,30 @@
+﻿# Arlo Industries -- Paul Graham Evaluation
+
+Arlo Industries is the rare pre-seed that sits high on schlep and low on team configuration in the same breath — Deo Arlo wants to sell a passive aerial sensing mesh to militaries fighting Shahed drones, which is exactly the kind of regulatory-and-hardware grind I love, but the YC page lists team size 2 and names only him, and that mismatch is the analytical signature here. A defense hardware company with one publicly identifiable founder is a company asking me to underwrite a hiring miracle.
+
+Schlep is where Arlo Industries scores best, and the ladder is clean. **Coinbase** (2012) sits at the top: Armstrong walked toward bitcoin compliance because nobody else in his batch would. **DoorDash** (2013) is the middle rung — last-mile delivery operations no software-first founder wanted. The AI-wrapper team from my pass example sits at the bottom, all software no grind. Arlo Industries sits closer to **Coinbase** (2012) than to **DoorDash** (2013): ITAR/EAR exposure, multi-year defense procurement, classified-contract overhead, and demos *on the frontlines in Ukraine* are all schleps a software-only YC applicant would route around unconsciously. Anduril's $20B Army C-UAS framework signals the schlep has a buyer; Arlo Industries is at least pointing the right direction.
+
+Co-founder configuration is where Arlo Industries scores worst, and this is the ladder rung that scares me. The **Stripe** (2010) Collison brothers — two of them, years of shared building since **Auctomatic** (2007) — are the high rung. **Reddit** (2005) with Huffman and Ohanian from the same dorm is the middle rung. The solo founder in "What We Look for in Founders" (October 2010), the one I explicitly said I avoid, is the bottom rung. Arlo Industries pins itself to the bottom by omission: the YC page claims a team of 2 but only Deo Arlo is publicly named, no co-founder relationship is described, no second LinkedIn surfaces. Defense hardware does not get built by one person, and the dossier itself flags "the absence of a publicly visible CTO/co-founder is a hiring and execution risk." That is my exact red flag from October 2010, restated in 2026.
+
+Organic-idea fit is real and underrated. **Dropbox** (2007)'s Drew Houston and the lost USB stick is the top rung; **Reddit** (2005) founders building the link aggregator they wanted to read is the middle; the AI-wrapper MBAs are the bottom. Arlo Industries sits between **Dropbox** (2007) and **Reddit** (2005): Deo Arlo's six years in the Israeli defense ecosystem with stated Iron Dome and Shahed exposure is the kind of biography that produces an organic idea, not a competitive-analysis idea. He is not pattern-matching a TAM slide; he is building the thing he watched fail to scale against drone swarms.
+
+Animal resourcefulness sits one rung below where I want it. **Coinbase** (2012)'s Armstrong building an Android wallet to overturn his rejection is the high rung. **Dropbox** (2007)'s Houston shipping a demo video to Hacker News is the middle. The MBA team with a deck and a TAM slide is the bottom. Arlo Industries places between **Dropbox** (2007) and the MBAs — flying to demo to Ukrainian operators on the frontline is a genuine unscalable stunt if true, but unlike Armstrong's prototype or Houston's video, no artifact is independently verifiable in the dossier. arlo1.com returned no extractable content. Animals leave tracks; Deo Arlo's tracks are mostly self-reported.
+
+Hacker genealogy is thin. The high rung is Patrick Collison's Young Scientist Lisp prize before **Stripe** (2010); the middle is Drew Houston's MIT hacker reputation; the bottom is the credential-only CS-degree founder with no shipped open source. Deo Arlo sits between middle and bottom — a Technion robotics patent on an end-effector is technical, but it is technical-by-credential rather than technical-by-shipped-artifact, and the dossier explicitly says "GitHub: No public repos found." Hackers leave GitHub trails; this one doesn't.
+
+In 36 months Arlo Industries is either acquihired into a tier-one prime — Anduril or Northrop — for under $15M as a passive-sensor IP tuck-in, or it has stalled below $1M in annualized contract value, having failed to win a single program of record against Anduril Lattice's $20B Army framework. The mechanism is the signature: real schlep zone, but a single named founder without a hacker-genealogy co-founder cannot personally win a multi-year MoD procurement cycle, run a hardware BoM, and out-execute a vertically integrated incumbent. The same configuration that makes Arlo Industries' problem moat real makes its team unable to mine it.
+
+The strongest bull case is **Loopt** (2005): Sam Altman, weak product-market timing, force-of-personality animal test overrode the rest, and I wrote the check anyway. Could Deo Arlo be a defense-industry Altman whose frontline relationships in Israel and Ukraine close a contract that bootstraps everything? Possibly — but the **Loopt** (2005) override required a visible force of personality at the YC interview, and the dossier gives me no visible force-of-personality evidence: no press, no detectable Twitter footprint, no recorded talks, no named operator endorsement. The Armstrong analog needed a working artifact to overturn rejection; the Altman analog needed a person in the room. Arlo Industries presents neither yet. The verdict flips if a named Western MoD contract with a dollar figure surfaces, or a technical co-founder with shipped defense-hardware history is named publicly — either would move Arlo Industries up two rungs at once.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Demonstrates Animal Resourcefulness Pre-Funding | 17/35 |
+| Idea Is Organic to Founders' Own Pain | 18/25 |
+| Problem Sits in a Schlep Zone Mainstream Founders Avoid | 12/15 |
+| Hacker Genealogy in the Founder Team | 7/15 |
+| Co-founder Configuration Is a Strong Pair or Trio, Not Solo | 4/10 |
+| **Total** | **58/100** |
+
+**Total Score: 58/100** (Neutral)

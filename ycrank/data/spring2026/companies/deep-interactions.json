@@ -1,0 +1,78 @@
+{
+  "slug": "deep-interactions",
+  "name": "Deep Interactions",
+  "oneLiner": "Collaborative AI app builder for teams",
+  "metadata": {
+    "website": "https://deepinteractions.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/deep-interactions",
+    "batch": "Spring 2026 (YC page)",
+    "industry": "B2B / B2B",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Developer Tools, Generative AI, SaaS, Team Collaboration",
+    "yc_partner": "Tom Blomfield (YC page)",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "Generative AI",
+    "SaaS",
+    "Team Collaboration"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-17T21:57:39.952Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 24,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 29,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 44,
+    "EG": 38,
+    "NR": 43,
+    "PG": 52,
+    "PT": 24,
+    "SL": 33,
+    "VK": 29
+  },
+  "consolidatedAvg": 37.57,
+  "consolidatedRank": 120,
+  "paths": {
+    "memo": "spring2026/memos/deep-interactions.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/deep-interactions.md",
+      "elad-gil": "spring2026/evals/elad-gil/deep-interactions.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/deep-interactions.md",
+      "paul-graham": "spring2026/evals/paul-graham/deep-interactions.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/deep-interactions.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/deep-interactions.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/deep-interactions.md"
+    }
+  }
+}

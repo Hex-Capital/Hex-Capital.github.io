@@ -1,0 +1,78 @@
+{
+  "slug": "panacea",
+  "name": "Panacea",
+  "oneLiner": "AI-Native FDA Regulatory Services",
+  "metadata": {
+    "website": "https://withpanacea.com",
+    "yc_page": "https://www.ycombinator.com/companies/panacea",
+    "batch": "Spring 2026 (YC page)",
+    "industry": "Healthcare / Healthcare -> Healthcare Services",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "B2B, Medical Devices, Biotech, Healthcare, AI",
+    "yc_partner": "Aaron Epstein (YC page)",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "B2B",
+    "Medical Devices",
+    "Biotech",
+    "Healthcare",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-17T21:56:59.272Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 29,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 41,
+    "EG": 41,
+    "NR": 37,
+    "PG": 44,
+    "PT": 36,
+    "SL": 33,
+    "VK": 29
+  },
+  "consolidatedAvg": 37.29,
+  "consolidatedRank": 124,
+  "paths": {
+    "memo": "spring2026/memos/panacea.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/panacea.md",
+      "elad-gil": "spring2026/evals/elad-gil/panacea.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/panacea.md",
+      "paul-graham": "spring2026/evals/paul-graham/panacea.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/panacea.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/panacea.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/panacea.md"
+    }
+  }
+}

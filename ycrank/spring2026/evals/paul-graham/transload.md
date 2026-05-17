@@ -1,0 +1,28 @@
+﻿# transload -- Paul Graham Evaluation
+
+transload is the cleanest schlep-zone setup I've read this batch paired with the thinnest pre-funding artifact, which is a specific and uncomfortable combination: the NMFTA's July 19, 2025 shift to density-based LTL pricing made every-shipment dimensioning revenue-affecting overnight, but Nils B?rner, Julius Scheel, and Jago Wahl-Schwentker have given me a one-line tagline at transload.io and no cereal-box moment. The market timing is the kind I'd normally lean into. The founders have not yet shown me what they are.
+
+The schlep dimension is where transload sits highest. **Coinbase** (2012) is my high rung -- Armstrong wanted the bitcoin compliance grind nobody in his batch would touch, and the regulatory drudgery became the moat. The low rung is the AI-wrapper team from my pass example, pure software with no offline grind. transload sits closer to **Coinbase** (2012) than to the middle: LTL dock floors, billing-grade accuracy that has to survive carrier-shipper chargeback disputes, integrations into WMS/TMS, and a regulatory clause (NMFTA Docket 2025-1) that converts measurement into class-of-billing. FreightSnap and vMeasure are channel-trapped on $2,200?$15,300 hardware ASPs; they cannot cannibalize themselves to chase transload. That is exactly the structural gap "Schlep Blindness" (January 2012) described, and Alexandr Wang cited Scale AI's origin as. I want this dimension to be true.
+
+The animal-resourcefulness dimension is where transload sits lowest, and it is the dimension I weight most. **Airbnb** (2009) is my high rung -- 1,000 boxes of Obama O's at $40 each before any check arrived. The low rung is the MBA AI-wrapper team with a deck and no shipped artifact. transload is closer to the low rung than I'd like: the dossier shows zero open job postings, no Product Hunt, no GitHub org, no press, no pilot revenue figure, and a website that is a single tagline as of May 2026. The $50k/site/month and the 15% under-declared-shipment number are framed as customer outcomes, not as transload-attributable bookings or pilots. Animals leave tracks. I can find Jago's Veli LinkedIn and Julius's McKinsey-Zurich fellowship, but I cannot find a demo video, a pilot logo, a CCTV-accuracy benchmark, or a stunt. Houston's pre-seed Hacker News demo for **Dropbox** (2007) is what should be sitting in this slot, and it isn't.
+
+The organic-idea dimension hurts more than it should. **Dropbox** (2007) and the Collisons at **Stripe** (2010) are the high rung -- they were the user before they were the founder. transload's team comes out of TUM, XPLORE, robo.innovate -- a robotics-incubator pipeline -- and Julius's most recent role is McKinsey consulting. No co-founder has a disclosed LTL carrier, 3PL, or NMFC-classification operating role per public sources. This reads as "spotted a market," not "I kept losing my USB stick." That is the inversion my "How to Get Startup Ideas" (November 2012) filter is designed to catch.
+
+Hacker genealogy is mid-low. Patrick Collison's Young Scientist Lisp prize before **Stripe** (2010) is the high rung; the MBA-only team is the low rung. Jago is a working software engineer with a TUM degree and a Veli tenure, which is real but not the same as a shipped open-source artifact, a CV-benchmark publication, or a competitive-programming record. No GitHub repos surfaced for any of the three. The robo.innovate path is hacker-adjacent and I'll give partial credit there, but I have no Lisp-tier marker. Co-founder configuration is the dimension I'm most willing to be neutral on -- three founders, all from the TUM/Munich ecosystem, which suggests an interview will confirm chemistry; better than **Loopt** (2005)'s solo Altman, weaker than **Airbnb** (2009)'s three roommates with a shared RISD-and-apartment history.
+
+Thirty-six month forecast: transload lands two or three mid-tier LTL carrier pilots on the NMFTA tailwind, reaches roughly $0.8M?$3M ARR, and gets absorbed as a feature acquisition by a WMS/TMS incumbent (Manhattan Associates, Project44) or by vMeasure protecting its hardware base, for a sub-$40M outcome that returns the YC check at 3?6x and does nothing for the fund-returning math "Black Swan Farming" (September 2012) is designed around. The mechanism is the dimensional signature: a real schlep with weak animal evidence produces a competent acquisition target, not a defining company.
+
+The bull case stings. NMFTA density-based pricing is a genuine forcing function -- the kind of regulatory cliff that produced **Coinbase** (2012)'s window. FreightSnap, vMeasure, and Cargo Spectre are structurally unable to follow transload into the CCTV-only model without destroying their own ASPs, which is the exact channel-trap that let **Stripe** (2010) walk past Authorize.Net. And the dossier may simply be silent on a pilot or a demo that exists privately -- pre-seed YC companies routinely under-disclose. If transload publishes a benchmark showing billing-grade accuracy from monocular CCTV against a named LTL carrier pilot in the next six months, I flip. That is the verifiable condition. Until then: pass, but the kind of pass where I keep the email thread warm and re-read after Demo Day.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Demonstrates Animal Resourcefulness Pre-Funding | 10/35 |
+| Idea Is Organic to Founders' Own Pain | 7/25 |
+| Problem Sits in a Schlep Zone Mainstream Founders Avoid | 11/15 |
+| Hacker Genealogy in the Founder Team | 6/15 |
+| Co-founder Configuration Is a Strong Pair or Trio, Not Solo | 6/10 |
+| **Total** | **40/100** |
+
+**Total Score: 40/100** (Pass)

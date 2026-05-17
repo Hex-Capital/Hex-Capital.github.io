@@ -1,0 +1,28 @@
+﻿# Panacea -- Cyan Banister Evaluation
+
+Panacea is a cleanly-titled, regulatorily-unsexy services arbitrage with no tactile artifact I can touch -- Haris Javed-Akhtar (CEO, MD) and Yaman Ziadeh (CTO, ex-Bloomberg, ex-Anterior) packaging Harun Sinha and other ex-FDA consultants behind a fixed-fee AI workflow, in the same lane where Weave Bio just closed a $20M Series A in October 2025. That sentence is the whole company on one line, and it tells me what kind of bet this is: governance is fine, the product is invisible to me, and the founders are *visiting* the FDA, not *of* it.
+
+Founder origin is the dimension I weight heaviest and the one Panacea most clearly underperforms on. The HIGH rung is **Anduril**-Luckey (2017), a kid who shipped Oculus out of his parents' garage before pivoting to defense -- biography fused to product. The LOW rung is the consensus YC AI-agent darling, two ex-FAANG PMs who discovered the problem in a memo. Panacea sits closer to the LOW rung than the middle: Haris's MD credential gives him clinical fluency and lets him *recruit* ex-FDA people, but the LinkedIn trail shows neither he nor Yaman has personally sat on the reviewer side of a 510(k) or shipped an IND. The lived experience here is rented from "Harun Sinha, Principal Consultant," and if Harun walks, the differentiation walks with him. That is the inverse of the Luckey pattern -- the founder is not the domain artifact.
+
+Physical-World Verifiability is where Panacea scores worst on my framework. The HIGH rung is **Flock Safety** (~2018), a camera I read off a Four Seasons Wi-Fi name and could photograph in the wild within a week. The LOW rung is a pure developer-tools abstraction whose value only exists in founder testimony. Panacea is a B2B regulatory back-office workflow with a cal.com booking link (cal.com/haris-panacea/call) and a "12x faster" customer testimonial I cannot independently observe -- I cannot install Panacea, I cannot ride it, I cannot hand it to a friend. That puts it adjacent to the LOW rung. My gift, such as it is, is making connections from things I can see and use; Panacea gives me nothing to see.
+
+The Magically Weird ladder pins this one hard. HIGH rung is **Crusoe** (~2018), burning gas flares for Bitcoin in North Dakota when every credible VC passed on aesthetic grounds. Panacea is in the same category as Weave Bio's $20M Series A (USVP, Innovation Endeavors), MDI Consultants since 1978, EAS, EMMA, The FDA Group, IQVIA -- six named alternatives in the dossier, with a tier-1 capitalized AI-only competitor already a year ahead. That is the *opposite* of "find them before it becomes consensus." Single CEO authority is where Panacea scores best against my ladder; Haris is named CEO, Yaman is CTO, clean titles, no co-CEO -- this is the structural inverse of the **HQ Trivia** (2017) Yusupov/Kroll feud, though the absence of public equity split or tiebreaker documentation keeps it from the HIGH rung. Capital-intensive-or-unsexy-regulated lands mid-ladder: FDA submissions are unambiguously regulated -- the **Vigil Labs** (August 2025) MID rung is the right comparison -- but Panacea is software-plus-services, not hardware, and the regulatory moat compounds on the *consultants* I don't own, not on the company.
+
+Thirty-six months out, Panacea is a $3-8M ARR boutique consultancy squeezed between Weave Bio's better-capitalized software pushing down-market and the structural scarcity of ex-FDA personnel willing to work under fixed fees -- a healthy small business, most likely acqui-hired into a mid-tier CRO like Premier Research or IQVIA's regulatory arm, not a venture outcome. The mechanism is unit-economics: every milestone overrun against an averaging 117.27-day FDA elapsed cycle eats Panacea's margin, while the talent layer (Harun Sinha and whoever else they sign) is the actual scarce input and is poacheable.
+
+The bull case stings on two facts I respect. First, the **HandUp** (~2014) exception is the one that could apply -- Haris is an MD who watched biotech founders bleed money on regulatory consultants, and if his autobiographical contact with the problem is real, the personal-mission-alignment override could fire. Second, the FY2025 510(k) volume of 4,049 submissions at +12.8% YoY is a real expanding base, and fixed-fee pricing genuinely disrupts the hourly cartel MDI has run since 1978. But neither argument survives the test I actually use: Haris's biography in the dossier is "MD credential per LinkedIn handle" with no specific moment he *felt* the FDA submission pain, and Yaman's Anterior tenure is healthcare-AI generally, not regulatory-submission specifically. I am being asked to extend Panacea the DeepMind polymath exception or the HandUp biography exception, and neither one passes the evidence bar in this dossier. I would flip this verdict on one condition: a verifiable disclosure that Haris was personally on the FDA reviewer side, or that Panacea has exclusively signed 3+ named ex-FDA division directors -- a labor monopoly, not a labor relationship.
+
+This is a pass. Not because Panacea is bad; because I cannot touch it, the founders did not live it, and Weave Bio already raised the round I would have considered.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Surfaced From Lived Experience, Not Market Analysis | 12/32 |
+| Magically Weird, Non-Consensus, Round Likely Underpriced | 7/24 |
+| Single Unambiguous CEO With Identifiable Tiebreaker Authority | 10/16 |
+| Capital-Intensive, Frontier-Hardware or Unsexy-Regulated Swing | 8/15 |
+| Physical-World Verifiability: You Can Touch, Use, Or Observe The Product | 4/13 |
+| **Total** | **41/100** |
+
+**Total Score: 41/100** (Pass)

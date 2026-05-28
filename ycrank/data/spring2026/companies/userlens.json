@@ -1,12 +1,12 @@
 {
   "slug": "userlens",
   "name": "Userlens",
-  "oneLiner": "AI agents that predicts churn months before it happens.",
+  "oneLiner": "AI CSM that never misses churn and upsells.",
   "metadata": {
     "website": "https://userlens.io",
     "yc_page": "https://www.ycombinator.com/companies/userlens",
     "batch": "Spring 2026 (P26)",
-    "industry": "B2B / B2B -> Operations",
+    "industry": "B2B / B2B -> Productivity",
     "team_size": "4",
     "location": "Helsinki, Finland",
     "tags": "SaaS, Customer Success, Enterprise Software, AI Assistant",
@@ -20,58 +20,28 @@
     "AI Assistant"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-22T23:47:06.065Z",
+  "memoGeneratedAt": "2026-05-28T02:56:27.629Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 50,
+      "score": 45,
       "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 56,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 40,
-      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 36,
-    "EG": 42,
-    "NR": 50,
-    "PG": 56,
-    "PT": 34,
-    "SL": 31,
-    "VK": 40
+    "CB": 45,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 41.29,
-  "consolidatedRank": 80,
+  "consolidatedAvg": 45,
+  "consolidatedRank": 83,
   "paths": {
     "memo": "spring2026/memos/userlens.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/userlens.md",
-      "elad-gil": "spring2026/evals/elad-gil/userlens.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/userlens.md",
-      "paul-graham": "spring2026/evals/paul-graham/userlens.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/userlens.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/userlens.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/userlens.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/userlens.md"
     }
   }
 }

@@ -1,138 +1,108 @@
 ﻿# Cignara
 
-> AI voice & chat agents for sales and customer support at large B2C?
+> AI agents for sales & customer support at large Fortune 500 companies
 
 | Field | Value |
 |-------|-------|
 | Website | https://cignara.com/ |
 | YC Page | https://www.ycombinator.com/companies/cignara |
-| Batch | Spring 2026 |
+| Batch | Spring 2026 (YC P26) |
 | Industry | B2B / B2B |
 | Team Size | 4 |
 | Location | San Francisco, CA, USA |
 | Tags | AI, AI Assistant |
 | YC Partner | Garry Tan |
-| Emails | hiring@getbujo.com (LinkedIn post by founder, April 2026) |
-
-**Note on naming:** Cignara was previously known as **Bujo AI** (YC X26/P26). The domain getbujo.com returns a 301 redirect to cignara.com (WebFetch, April 2026). The YC directory lists the company under both /companies/cignara and /companies/bujo. Founder Nalin Gupta's LinkedIn headline still reads "Bujo AI (YC X26)" as of April 2026 (LinkedIn via search snippet). The prior product iteration was **ShopAdvisor**, an AI shopping advice Chrome extension for e-commerce (LinkedIn post, September 2023).
-
----
+| Emails | No public data found |
 
 ## The Idea
 
-**Problem:** Large B2C enterprises (retail, banking, travel, telecom) operate high-volume contact centers with costly human agents, slow response times, and inconsistent CSAT scores across phone and chat channels (cignara.com). Existing solutions are either legacy IVR/chatbot systems or require extensive custom integration.
-
-**Approach:** Cignara deploys conversational AI voice and chat agents that handle end-to-end customer requests, including intent understanding, complex scenario resolution, and multi-language support (cignara.com). The platform includes: (1) an AI copilot that surfaces answers, policies, and next actions to human agents in real time; (2) an enterprise knowledge graph that consolidates product/service data across sources; and (3) documented call script execution for complex scenarios (cignara.com). [Inferred]: The company likely started by collecting human-agent interaction data through its earlier ShopAdvisor/Bujo incarnation, then used that data to train AI agents—moving from human-in-the-loop to fully automated voice and chat.
-
-**Differentiation:** Compared to developer-first platforms (Vapi, Bland AI), Cignara targets enterprise deployments with compliance-aligned, brand-voice-preserving agents rather than offering a generic API (cignara.com). Compared to horizontal AI support players like Sierra or Decagon, Cignara emphasizes large B2C verticals—retail, healthcare, telecom, fintech, travel—with a knowledge graph approach to enterprise data consolidation (cignara.com). [Inferred]: The human-to-AI data flywheel from the ShopAdvisor/Bujo era may provide a differentiated training dataset for retail and e-commerce use cases specifically.
-
-**Business Model:** No pricing page found on cignara.com. [Inferred]: Most likely monetization is enterprise SaaS contracts (annual subscriptions or per-minute/per-interaction usage-based pricing), given the Fortune 500 customer focus and B2B enterprise positioning.
-
-**TAM/SAM:**
-- Call center AI market: $2.41B in 2025, projected $13.52B by 2034, 20.8% CAGR (Fortune Business Insights via search snippet)
-- CCaaS market: $7.27B in 2025, projected $45.19B by 2035 (Precedence Research via search snippet)
-- AI for Customer Service market: projected $47.82B by 2030 (MarketsandMarkets via search snippet)
-- Voice AI Agents Market: $3.14B in 2024 to $47.5B by 2034, 34.8% CAGR (AssemblyAI/industry report via search snippet)
-
-**GTM / Distribution:** Founder's LinkedIn post states the company "works with Fortune 500 companies across retail, banking, travel and telecom" (LinkedIn, April 2026). The website offers a Calendly demo booking link (cignara.com). Job posting for a frontend engineer is India-based/remote (YC Work at a Startup). [Inferred]: GTM is direct enterprise sales, likely leveraging the founder's existing network from Auro Robotics/Ridecell and his BD experience.
-
----
+- **Problem:** Large Fortune 500 enterprises face high contact-center costs and slow response times across phone and chat support; current alternative is human-staffed contact centers (Cignara website).
+- **Approach:** Builds an enterprise "AI brain" by ingesting the customer's knowledge base, business logic, process workflows, and customer profile data to drive voice and chat agents that handle complex scenarios, scripts, and policy lookups (Cignara website; YC page).
+- **Differentiation:** Versus Sierra/Decagon (deflection-focused CX agents) and Cresta (human agent-assist hybrid), Cignara positions on revenue actions — upsells, cross-sells, churn prevention, LTV — via personalized, "compliant" actions tied to enterprise process data (YC page description).
+- **Business Model:** No pricing displayed on cignara.com (Cignara website, May 2026); [Inferred]: enterprise per-seat or per-conversation/consumption contracts targeting Fortune 500 buyers, consistent with peers like Sierra's outcome-based pricing.
+- **TAM/SAM:** Global AI customer service market projected at $15.12B in 2026; global AI agents market $10.9–12.06B in 2026 at 44–46% CAGR (Groove/ChatMaxima/Salesmate aggregations citing 2026 forecasts via search snippet).
+- **GTM / Distribution:** [Inferred]: Direct enterprise sales to Fortune 500 accounts via founder-led outbound and YC network, given Calendly demo-booking link on site and no self-serve signup (Cignara website).
 
 ## Defensibility
 
-- **Data flywheel:** The company's evolution from human-led ShopAdvisor consultations to AI-automated agents suggests a proprietary training dataset from real customer interactions (LinkedIn posts, 2023–2026). [Inferred]: Each enterprise deployment generates interaction data that can improve model quality, creating a compounding advantage over time.
-- **Enterprise knowledge graph:** The platform consolidates multi-source enterprise product/service data into a proprietary knowledge structure (cignara.com). [Inferred]: Once integrated into a large B2C enterprise's stack, switching costs increase due to data ingestion and workflow customization.
-- **Switching costs:** [Inferred]: Enterprise contact center integrations are sticky—migration costs, retraining, and compliance re-certification create meaningful switching friction once deployed.
-
-**Market structure:** Large incumbent CCaaS vendors (Genesys, Five9, NICE, Avaya) have existing enterprise relationships but are architecturally built around human-agent routing and traditional IVR, not LLM-native autonomous agents. NICE acquired Cognigy for $955M in 2025 (Synthflow blog via search snippet), signaling that incumbents are buying rather than building, which suggests internal technical and organizational barriers to AI-native development. [Inferred]: Incumbents risk cannibalizing their per-seat human-agent pricing by deploying fully autonomous AI agents.
-
-**Commoditization risk:** The AI voice/chat agent space is crowded: Sierra ($10B valuation), Parloa ($3B), Decagon ($4.5B), and PolyAI ($750M) are all well-funded competitors (multiple sources, 2025–2026). Developer platforms like Vapi and Retell AI lower the barrier to building custom voice agents. Open-source LLMs and speech models continue improving. [Inferred]: At the current stage, Cignara's defensibility rests primarily on enterprise customer relationships and domain-specific knowledge graphs rather than a deep technical moat.
-
----
+- **Moat today:** No defensibility signals (patents, customer counts, proprietary data) disclosed in public sources as of May 2026 (Cignara website; YC page).
+- **Future moat:** [Inferred]: Switching costs from the ingested "enterprise AI brain" (KB + workflows + customer profile graph) could create lock-in once embedded in Fortune 500 ops; unproven because no deployed customers are publicly named.
+- **Market structure:** [Inferred]: No structural barrier identified — Sierra ($1.585B raised, $150M ARR Jan 2026), Decagon ($4.5B valuation, $35M ARR Oct 2025) and Cresta ($282M raised, $52M ARR 2025) all serve the same enterprise voice+chat segment (Sacra; TechCrunch May 2026; Tracxn; getlatka).
+- **Commoditization risk:** Multiple well-funded incumbents (Sierra, Decagon, Cresta, Cognigy, Kore.ai, Forethought) plus newer voice-AI entrants (Retell, Parloa, Ringg) already ship the same voice+chat agent capabilities (cresta.com guides; quiq.com; rasa.com).
 
 ## Market & Traction
 
-**Traction signals:**
-- Revenue: Founder claims "multiple 6-figures in revenue" and the company is "profitable" (Nalin Gupta LinkedIn post, April 2026)
-- Customers: "Fortune 500 companies across retail, banking, travel and telecom sector" (Nalin Gupta LinkedIn post, April 2026); no specific customer names disclosed
-- LinkedIn post engagement: 394 reactions, 46 comments on stealth emergence announcement (LinkedIn, April 2026)
-- Hiring: 1 open role—Founding (Senior) Frontend Engineer, India/Remote, ₹4M–6M INR + 0.20%–1.00% equity (YC Work at a Startup)
-- Company Twitter/X: No dedicated company account found; founder account @nalingupta01 (X.com, follower count not retrievable)
-- Company LinkedIn: "Bujo AI" page exists (LinkedIn via search snippet); follower count not retrievable
-- Product Hunt: No launch found
-- Discord/Slack community: No public data found
-- App store/extension: No public data found
-- Web traffic estimates: No public data found
-
-**Competitive landscape:**
-
-| Competitor | Funding | Valuation | ARR | Key Differentiator vs. Cignara |
-|-----------|---------|-----------|-----|-------------------------------|
-| **Sierra** | $350M (Sept 2024) | $10B | $150M (Jan 2026) | Co-founded by Bret Taylor (ex-Salesforce CEO); broadest enterprise brand roster; brand-first experience agents (Sacra, TechCrunch via search snippets) |
-| **Parloa** | $560M total; $350M Series D (Jan 2026) | $3B | >$50M | German-founded; strong European enterprise footprint; native multi-language voice (TechCrunch, Jan 2026) |
-| **Decagon** | $381M total; $250M (Jan 2026) | $4.5B | 8-figure | AI concierge for customer experience; 100+ corporate customers including Avis and Deutsche Telekom (BusinessWire, TechCrunch via search snippets) |
-| **PolyAI** | $86M Series D (Dec 2025) | $750M | ~$40M projected 2025 | UK-based; voice-first approach; deep telephony integration (SiliconANGLE, Dec 2025) |
-| **Observe.AI** | $214M total | Not disclosed | Not disclosed | 350+ enterprises; analytics/QA/coaching focus alongside autonomous agents (search snippet) |
-
-**Why now:**
-- Voice AI VC investment grew from ~$315M in 2022 to $2.1B in 2024, nearly 7x in two years (AssemblyAI blog via search snippet)
-- LLM quality crossed a performance threshold in 2024–2025 that made autonomous voice agents commercially viable for complex enterprise scenarios
-- NICE's $955M acquisition of Cognigy in 2025 (Synthflow blog via search snippet) signals incumbents cannot build internally fast enough
-- [Inferred]: The convergence of near-human-quality speech synthesis, low-latency LLM inference, and enterprise willingness to automate post-COVID contact center staffing challenges created a window for AI-native entrants
-
----
+- **Traction signals:**
+  - LinkedIn company page exists at linkedin.com/company/cignara; follower count not retrievable (LinkedIn, May 2026).
+  - One LinkedIn post recorded with activity ID 7450632811402899456 (LinkedIn, 2026).
+  - "Trusted by industry leaders" claim on homepage with no named logos (Cignara website, May 2026).
+  - No Product Hunt launch found (Product Hunt search, May 2026).
+  - No press coverage, funding announcement, or revenue disclosure found beyond YC P26 participation (web search, May 2026).
+  - No active job postings located on YC jobs board (YC search, May 2026).
+- **Competitors:**
+  - Sierra AI ($1.585B raised, ~$150M ARR Jan 2026): broader CX deflection across chat/voice/email/SMS with outcome-based pricing (Sacra; TechCrunch, May 2026).
+  - Decagon ($250M Series D, $4.5B valuation Jan 2026, ~$35M ARR Oct 2025): concierge-style CX agents for digital-first consumer/SaaS brands (Sacra).
+  - Cresta ($282M raised, $1.6B valuation, $52M ARR 2025): contact-center hybrid combining AI voice agents with human agent-assist (Tracxn; getlatka; PR Newswire).
+  - Cognigy / Kore.ai: enterprise conversational AI platforms with structured workflows (cresta.com guides via search snippet).
+  - Forethought: multi-agent CX system across chat/email/voice requiring ~20K historical tickets to train (cresta.com guides via search snippet).
+- **Why now:** Gartner predicts 40% of enterprise applications will embed task-specific AI agents by 2026 vs. <5% in 2025, with 60% of brands expected to use agentic AI by 2028 (Gartner press release, Aug 2025 and Jan 2026).
 
 ## Founders & Team
 
-**Nalin Gupta** — Founder
-- **Education:** B.Tech + M.Tech, Electronics Engineering, IIT Kharagpur (2008–2013); internship at University of Tübingen in brain-computer interfaces (2011) (nalin-gupta.com/career/)
-- **Career:**
-  - Co-founded AGV Robotics Club at IIT Kharagpur; secured $400K research grant (nalin-gupta.com/career/)
-  - Co-founded AadhaarUp Payments (2011–2013), a POS terminal startup backed by GSF accelerator (nalin-gupta.com/career/)
-  - Co-founded Auro Robotics (2013–2017), self-driving shuttles for campus environments; YC S15; NHTSA purchased a vehicle as reference for federal safety regulations; acquired by Ridecell in Oct 2017 (~$20M all-stock) (TechCrunch, Aug 2015; Tracxn; Ridecell press release via search snippets; nalin-gupta.com/career/)
-  - Director of Business Development, Autonomous Driving Division, Ridecell (2017–2021) (nalin-gupta.com/career/)
-  - Senior Director of BD, Nemo (Ridecell) — video/laser data search engine using CV and AI (2020–2022) (nalin-gupta.com/career/)
-  - Released ShopAdvisor, AI shopping advice Chrome extension (LinkedIn post, September 2023)
-  - Founded Bujo/Cignara (2025–present)
-- **Recognition:** Forbes 30 Under 30 (Apollo.io, ContactOut via search snippets)
-- **Twitter/X:** @nalingupta01 (X.com; follower count not retrievable)
-- **LinkedIn:** linkedin.com/in/nalingupta01 — headline: "Bujo AI (YC X26)" (LinkedIn via search snippet)
-- **GitHub:** github.com/Nalin-Gupta — 11 public repos; star counts not retrieved
-
-No additional co-founders are listed on the YC page. The team is 4 people total (YC page, April 2026).
-
-**Co-founder relationship:** Only one founder listed; not applicable.
-
-**Founder-market fit:** Nalin Gupta has a prior YC exit (Auro Robotics → Ridecell acquisition), direct experience scaling an AI/robotics product through enterprise sales, and 4+ years in business development at Ridecell selling to enterprise customers. His trajectory from ShopAdvisor (AI for e-commerce shopping) to Bujo (human + AI sales consultation for e-commerce) to Cignara (AI voice/chat agents for enterprise B2C support) shows iterative convergence on the AI contact center opportunity through direct customer interaction data.
-
----
+- **Nalin Gupta (Founder):**
+  - Background: B.Tech + M.Tech Electronics Engineering, IIT Kharagpur 2008–2013; co-founder/CEO Auro Robotics (YC S15, autonomous shuttles, acquired by Ridecell 2017); Division Head and later Sr. Director of Business Development at Ridecell 2017–2022; previously co-founded AadhaarUp Payments (GSF accelerator) (nalin-gupta.com/career; YC Auro Robotics page; TechCrunch Aug 2015).
+  - Twitter/X: @nalingupta01 (YC page); count not retrievable.
+  - LinkedIn: "Cignara (YC P26)" — linkedin.com/in/nalingupta01 (LinkedIn).
+  - GitHub: No public repos found.
+- **Subham Kundu (Lead AI Engineer per LinkedIn; not confirmed as co-founder on YC page):**
+  - Background: Listed as Lead/Principal AI Engineer focused on knowledge graphs and production LLM products; affiliated with Cignara YC P26 (LinkedIn profile subham-kundu-2746b515b).
+  - Twitter/X: No public account found.
+  - LinkedIn: "Cignara (YC P26)" — linkedin.com/in/subham-kundu-2746b515b (LinkedIn).
+  - GitHub: No public repos found.
+- Remaining 2 team members of the 4-person team are not publicly named on the YC page or website (YC page; Cignara website, May 2026).
+- **Co-founder relationship:** YC page lists only Nalin Gupta as founder; no public data on a formal co-founder relationship with other team members.
+- **Founder-market fit:** [Inferred]: Nalin's prior YC exit (Auro → Ridecell, 2017) and 5+ years selling autonomous-driving products into enterprises at Ridecell provides enterprise-sales credibility; relevance to contact-center AI is adjacent rather than direct (nalin-gupta.com/career).
 
 ## Key Risks
 
-**1. Competitive intensity from heavily funded incumbents:** Sierra ($10B valuation, $150M ARR), Decagon ($4.5B), and Parloa ($3B) are all pursuing the same enterprise AI contact center market with 100–1000x more capital (multiple sources, 2025–2026). Cignara must win enterprise deals against sales teams backed by hundreds of millions in funding. Mitigation: founder claims existing Fortune 500 customers and profitability.
-
-**2. Product pivot history / brand confusion:** The company has iterated through ShopAdvisor (2023), Bujo Shopping, Bujo AI, and now Cignara within ~2 years (LinkedIn posts, YC pages, domain redirect). The getbujo.com domain still redirects to cignara.com, and the founder's LinkedIn still references Bujo AI. Enterprise buyers may perceive instability. The YC directory shows both /companies/bujo and /companies/cignara (YC, April 2026).
-
-**3. Solo-founder concentration risk:** Only one founder (Nalin Gupta) is listed on the YC page despite a team of 4 (YC page, April 2026). Key-person dependency is elevated: enterprise relationships, product vision, and BD all appear to rest with a single individual.
-
-**4. Name confusion with Cigna:** Search results for "Cignara" on LinkedIn returned Cigna Healthcare and related entities instead (LinkedIn search, April 2026). This creates SEO and brand discovery challenges for an enterprise product that relies on inbound and referral distribution.
-
-**5. Hiring in India while selling to US enterprises:** The sole open role is India-based at ₹4M–6M INR (YC Work at a Startup). [Inferred]: While cost-efficient, building the engineering team remotely in India while selling to Fortune 500 US enterprises may create timezone and context challenges for enterprise-grade support SLAs.
-
----
+- **Well-funded incumbent competition:** Sierra raised $950M Series E in May 2026 at $15.8B valuation and reports ~$150M ARR; Decagon raised $250M Series D Jan 2026 at $4.5B valuation (TechCrunch, May 2026; Sacra). A 4-person pre-seed entrant must displace these in Fortune 500 procurement cycles with no public differentiation evidence.
+- **Undifferentiated positioning:** Voice + chat enterprise agents grounded in KB and workflow data is the explicit pitch of Sierra, Decagon, Cresta, Cognigy, and Kore.ai (cresta.com guides; quiq.com), and Cignara's public materials do not show a technical or data moat.
+- **No disclosed customers or revenue:** Website states "Trusted by industry leaders" without named logos or testimonials (Cignara website, May 2026); no press, no public ARR, no Product Hunt presence found (web search, May 2026).
+- **Founder-domain adjacency:** Founder's prior operating experience is in autonomous-driving products at Auro/Ridecell, not in CCaaS or CX software (nalin-gupta.com/career); domain network into Fortune 500 contact-center buyers is unverified.
+- **Brand confusion with Cigna:** Name closely resembles "Cigna" (the $189K-follower healthcare insurer on LinkedIn surfaced in searches), which may impact SEO and brand recall for an enterprise sales motion (LinkedIn search results, May 2026).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Call center AI: $2.41B in 2025 → $13.52B by 2034, 20.8% CAGR (Fortune Business Insights via search snippet); Voice AI Agents: $3.14B → $47.5B by 2034, 34.8% CAGR (industry report via search snippet) |
+| TAM | Global AI customer service market $15.12B in 2026; global AI agents market $10.9–12.06B in 2026 at 44–46% CAGR (Groove/ChatMaxima/Salesmate aggregations, 2026) |
 | SAM | No public data found |
-| Traction | "Fortune 500 companies across retail, banking, travel and telecom" (founder LinkedIn post, April 2026); 394 reactions on launch post (LinkedIn, April 2026) |
-| Revenue Signal | "Multiple 6-figures in revenue" and "profitable" (founder LinkedIn post, April 2026) |
-| Founders | Nalin Gupta (Founder): IIT Kharagpur, Forbes 30U30, Auro Robotics exit (YC S15, acquired by Ridecell 2017), 2x YC founder |
-| Competitors | Sierra ($350M raised, $10B val, $150M ARR, broadest brand roster); Decagon ($381M raised, $4.5B val, 8-fig ARR, concierge CX focus); Parloa ($560M raised, $3B val, >$50M ARR, European multi-language); PolyAI ($86M raised, $750M val, ~$40M ARR, voice-first telephony) |
+| Traction | LinkedIn company page live at linkedin.com/company/cignara, follower count not retrievable (LinkedIn, May 2026); YC P26 batch participant (YC page); "Trusted by industry leaders" claim without named logos (Cignara website, May 2026); no Product Hunt launch found (Product Hunt, May 2026) |
+| Revenue Signal | No public data found |
+| Founders | Nalin Gupta (Founder): IIT Kharagpur B.Tech/M.Tech Electronics; co-founder/CEO Auro Robotics (YC S15, acquired by Ridecell 2017); ex-Sr. Director BD, Ridecell. |
+| Competitors | Sierra ($1.585B raised, ~$150M ARR Jan 2026, broader CX deflection with outcome pricing); Decagon ($250M Series D at $4.5B valuation Jan 2026, ~$35M ARR Oct 2025, concierge-style CX); Cresta ($282M raised, $1.6B valuation, $52M ARR 2025, contact-center agent-assist hybrid); Cognigy (revenue unknown, enterprise conversational AI workflows); Forethought (revenue unknown, multi-agent CX needing ~20K historical tickets) |
 | Moat Signals | No public data found |
-| Risk Factors | Extreme competitive funding disparity, product pivot / brand confusion history, solo-founder concentration |
-| Founder Reach | Nalin Gupta: Twitter @nalingupta01 (count not retrievable), LinkedIn linkedin.com/in/nalingupta01 (count not retrievable), GitHub github.com/Nalin-Gupta 11 repos (star count not retrievable) |
+| Risk Factors | Well-funded incumbents (Sierra/Decagon/Cresta), undifferentiated voice+chat agent positioning, no disclosed customers or revenue |
+| Founder Reach | Nalin Gupta: Twitter @nalingupta01 (count not retrievable), LinkedIn linkedin.com/in/nalingupta01 (count not retrievable), GitHub not found |
 | Distribution Signals | No public data found |
-| Emails | hiring@getbujo.com (founder LinkedIn post, April 2026) |
+| Emails | No public data found |
+
+Sources:
+- [Cignara](https://cignara.com/)
+- [Cignara YC page](https://www.ycombinator.com/companies/cignara)
+- [Nalin Gupta career page](https://nalin-gupta.com/career/)
+- [Cignara LinkedIn](https://www.linkedin.com/company/cignara)
+- [Nalin Gupta LinkedIn](https://www.linkedin.com/in/nalingupta01/)
+- [Subham Kundu LinkedIn](https://www.linkedin.com/in/subham-kundu-2746b515b/)
+- [Auro Robotics YC page](https://www.ycombinator.com/companies/auro-robotics)
+- [Auro Robotics TechCrunch Aug 2015](https://techcrunch.com/2015/08/13/auro-robotics-yc-s15-is-building-a-driverless-shuttle-system-for-college-campuses/)
+- [Sierra Sacra profile](https://sacra.com/c/sierra/)
+- [Sierra $950M Series E TechCrunch May 2026](https://techcrunch.com/2026/05/04/sierra-raises-950m-as-the-race-to-own-enterprise-ai-gets-serious/)
+- [Decagon Sacra profile](https://sacra.com/c/decagon/)
+- [Cresta Tracxn profile](https://tracxn.com/d/companies/cresta/__zjnOFlJnDhCAGTJryVLQ5Ii0rzodJMQK9LHhrDYCZkk)
+- [Cresta Series D PR Newswire Nov 2024](https://www.prnewswire.com/news-releases/cresta-closes-125m-series-d-to-accelerate-adoption-of-human-centric-ai-in-the-contact-center-302309858.html)
+- [Cresta getlatka revenue](https://getlatka.com/companies/cresta)
+- [Gartner 40% enterprise apps prediction Aug 2025](https://www.gartner.com/en/newsroom/press-releases/2025-08-26-gartner-predicts-40-percent-of-enterprise-apps-will-feature-task-specific-ai-agents-by-2026-up-from-less-than-5-percent-in-2025)
+- [Gartner 60% brands agentic AI prediction Jan 2026](https://www.gartner.com/en/newsroom/press-releases/2026-01-15-gartner-predicts-60-percent-of-brands-will-use-agentic-ai-to-deliver-streamlined-one-to-one-interactions-by-2028)
+- [Decagon vs Sierra vs Cresta buyer guide](https://cresta.com/guides/decagon-vs-sierra)
+- [Sierra AI competitors quiq](https://quiq.com/blog/sierra-ai-competitors/)

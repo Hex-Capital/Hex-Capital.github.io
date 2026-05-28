@@ -1,75 +1,51 @@
 {
   "slug": "archer",
   "name": "Archer",
-  "oneLiner": "Instant payouts for work and incentives.",
+  "oneLiner": "Reward. Anything.",
   "metadata": {
     "website": "https://archermoney.com/",
     "yc_page": "https://www.ycombinator.com/companies/archer",
-    "batch": "Spring 2026 (YC company page)",
+    "batch": "Spring 2026",
     "industry": "B2B / B2B -> Finance and Accounting",
-    "team_size": "3",
+    "team_size": "4",
     "location": "New York, NY, USA",
-    "tags": "Crypto / Web3, Finance",
-    "yc_partner": "Harj Taggar (YC company page)",
-    "emails": "No public data found"
+    "tags": "Artificial Intelligence, Finance, E-commerce",
+    "yc_partner": "Harj Taggar",
+    "emails": "ben@archermoney.com (YC page)"
   },
   "tags": [
-    "Crypto / Web3",
-    "Finance"
+    "Artificial Intelligence",
+    "Finance",
+    "E-commerce"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-23T21:42:07.499Z",
+  "memoGeneratedAt": "2026-05-28T02:46:48.194Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 34,
+      "score": 42,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 24,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 36,
+      "score": 38,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 34,
-    "EG": 33,
-    "NR": 43,
-    "PG": 34,
-    "PT": 24,
-    "SL": 31,
-    "VK": 36
+    "CB": 42,
+    "EG": 38,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 33.57,
-  "consolidatedRank": 151,
+  "consolidatedAvg": 40,
+  "consolidatedRank": 121,
   "paths": {
     "memo": "spring2026/memos/archer.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/archer.md",
-      "elad-gil": "spring2026/evals/elad-gil/archer.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/archer.md",
-      "paul-graham": "spring2026/evals/paul-graham/archer.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/archer.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/archer.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/archer.md"
+      "elad-gil": "spring2026/evals/elad-gil/archer.md"
     }
   }
 }

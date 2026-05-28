@@ -1,75 +1,50 @@
 {
   "slug": "armature",
   "name": "Armature",
-  "oneLiner": "You used to test user flows. Now test agent flows.",
+  "oneLiner": "Armature helps companies monitor and optimize the agent experience.",
   "metadata": {
     "website": "https://armature.tech",
     "yc_page": "https://www.ycombinator.com/companies/armature",
-    "batch": "Spring 2026 (YC page)",
+    "batch": "Spring 2026",
     "industry": "B2B / B2B -> Engineering, Product and Design",
     "team_size": "3",
     "location": "San Francisco, CA, USA",
-    "tags": "Enterprise Software, AI",
-    "yc_partner": "Andrew Miklas (YC page)",
-    "emails": "founders@armature.tech (armature.tech)"
+    "tags": "Artificial Intelligence, Enterprise Software",
+    "yc_partner": "Andrew Miklas",
+    "emails": "founders@armature.tech (armature.tech, May 2026)"
   },
   "tags": [
-    "Enterprise Software",
-    "AI"
+    "Artificial Intelligence",
+    "Enterprise Software"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-05-07T16:57:28.985Z",
+  "memoGeneratedAt": "2026-05-28T02:44:06.974Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 31,
+      "score": 42,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 48,
+      "score": 50,
       "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 32,
-      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 31,
-    "EG": 48,
-    "NR": 41,
-    "PG": 35,
-    "PT": 30,
-    "SL": 32,
-    "VK": 32
+    "CB": 42,
+    "EG": 50,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 35.57,
-  "consolidatedRank": 133,
+  "consolidatedAvg": 46,
+  "consolidatedRank": 74,
   "paths": {
     "memo": "spring2026/memos/armature.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/armature.md",
-      "elad-gil": "spring2026/evals/elad-gil/armature.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/armature.md",
-      "paul-graham": "spring2026/evals/paul-graham/armature.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/armature.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/armature.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/armature.md"
+      "elad-gil": "spring2026/evals/elad-gil/armature.md"
     }
   }
 }

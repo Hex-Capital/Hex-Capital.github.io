@@ -3,15 +3,15 @@
   "name": "AgentPhone",
   "oneLiner": "Phone Numbers for AI Agents",
   "metadata": {
-    "website": "https://www.agentphone.to/",
+    "website": "https://agentphone.ai/",
     "yc_page": "https://www.ycombinator.com/companies/agentphone",
-    "batch": "Spring 2026 (YC page)",
+    "batch": "Spring 2026",
     "industry": "B2B / B2B -> Infrastructure",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "Artificial Intelligence, Developer Tools, API, Telecommunications",
-    "yc_partner": "David Lieb (YC page)",
-    "emails": "No public data found (website lists a Discord and a mailto placeholder; no operational business email confirmed)"
+    "yc_partner": "David Lieb (YC company page)",
+    "emails": "No public data found (contact form only at agentphone.ai/contact)"
   },
   "tags": [
     "Artificial Intelligence",
@@ -20,58 +20,33 @@
     "Telecommunications"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-05-06T17:08:39.086Z",
+  "memoGeneratedAt": "2026-05-28T02:35:06.429Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 29,
+      "score": 44,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 27,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 35,
-      "tier": "Pass"
+      "score": 60,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 29,
-    "EG": 40,
-    "NR": 42,
-    "PG": 40,
-    "PT": 27,
-    "SL": 28,
-    "VK": 35
+    "CB": 44,
+    "EG": 60,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 34.43,
-  "consolidatedRank": 144,
+  "consolidatedAvg": 52,
+  "consolidatedRank": 41,
   "paths": {
     "memo": "spring2026/memos/agentphone.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/agentphone.md",
-      "elad-gil": "spring2026/evals/elad-gil/agentphone.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/agentphone.md",
-      "paul-graham": "spring2026/evals/paul-graham/agentphone.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/agentphone.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/agentphone.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/agentphone.md"
+      "elad-gil": "spring2026/evals/elad-gil/agentphone.md"
     }
   }
 }

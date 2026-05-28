@@ -6,72 +6,41 @@
     "website": "http://askclara.com",
     "yc_page": "https://www.ycombinator.com/companies/clara-2",
     "batch": "Spring 2026",
-    "industry": "Healthcare / Consumer Health and Wellness",
+    "industry": "Healthcare / Healthcare -> Consumer Health and Wellness",
     "team_size": "9",
-    "location": "San Francisco, CA, USA",
-    "tags": "Telehealth, Healthcare, Telemedicine, AI",
+    "location": "San Francisco, CA, US",
     "yc_partner": "Garry Tan",
     "emails": "No public data found"
   },
-  "tags": [
-    "Telehealth",
-    "Healthcare",
-    "Telemedicine",
-    "AI"
-  ],
+  "tags": [],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-23T00:00:45.127Z",
+  "memoGeneratedAt": "2026-05-28T03:08:54.321Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 50,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 66,
+      "score": 67,
       "tier": "Invest"
     },
-    "paul-graham": {
-      "score": 63,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "vinod-khosla": {
-      "score": 56,
+    "elad-gil": {
+      "score": 54,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 52,
-    "EG": 50,
-    "NR": 66,
-    "PG": 63,
-    "PT": 39,
-    "SL": 46,
-    "VK": 56
+    "CB": 67,
+    "EG": 54,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 53.14,
-  "consolidatedRank": 13,
+  "consolidatedAvg": 60.5,
+  "consolidatedRank": 8,
   "paths": {
     "memo": "spring2026/memos/clara-2.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/clara-2.md",
-      "elad-gil": "spring2026/evals/elad-gil/clara-2.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/clara-2.md",
-      "paul-graham": "spring2026/evals/paul-graham/clara-2.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/clara-2.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/clara-2.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/clara-2.md"
+      "elad-gil": "spring2026/evals/elad-gil/clara-2.md"
     }
   }
 }

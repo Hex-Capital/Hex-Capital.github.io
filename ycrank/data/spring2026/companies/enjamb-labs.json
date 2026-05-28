@@ -1,0 +1,52 @@
+{
+  "slug": "enjamb-labs",
+  "name": "Enjamb Labs",
+  "oneLiner": "Full stack AI Agents accelerating Biopharma R&D",
+  "metadata": {
+    "website": "https://www.enjamb.ai",
+    "yc_page": "https://www.ycombinator.com/companies/enjamb-labs",
+    "batch": "Spring 2026",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "AI-powered Drug Discovery, B2B, Biotech, AI",
+    "yc_partner": "Nicolas Dessaigne (YC page)",
+    "emails": "rayan@enjamb.ai (enjamb.ai homepage)"
+  },
+  "tags": [
+    "AI-powered Drug Discovery",
+    "B2B",
+    "Biotech",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-28T02:30:27.686Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 36,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 43,
+    "EG": 36,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
+  },
+  "consolidatedAvg": 39.5,
+  "consolidatedRank": 131,
+  "paths": {
+    "memo": "spring2026/memos/enjamb-labs.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/enjamb-labs.md",
+      "elad-gil": "spring2026/evals/elad-gil/enjamb-labs.md"
+    }
+  }
+}

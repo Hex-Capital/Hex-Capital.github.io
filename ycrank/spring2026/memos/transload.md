@@ -1,111 +1,103 @@
 ﻿# transload
 
-> Measure freight items with CCTV
+> Measure freight items with security cameras
 
 | Field | Value |
 |-------|-------|
 | Website | https://www.transload.io |
 | YC Page | https://www.ycombinator.com/companies/transload |
-| Batch | Spring 2026 (YC page) |
+| Batch | Spring 2026 |
 | Industry | B2B / B2B -> Supply Chain and Logistics |
 | Team Size | 3 |
 | Location | San Francisco, CA, USA |
 | Tags | Computer Vision, Logistics, Supply Chain |
-| YC Partner | David Lieb (YC page) |
+| YC Partner | David Lieb |
 | Emails | No public data found |
 
 ## The Idea
 
-**Problem:** LTL (less-than-truckload) carriers, freight forwarders, and 3PL warehouses must measure the dimensions of every shipment to bill correctly and plan trailer loads. Company-stated: "15% of shipments turn out to be bigger than what the sender claimed" and the gap is "worth ~$50k per site per month in rebillings and improved trailer utilization" (YC page, company self-reported, May 2026). Today these dimensions are captured manually by dock workers with tape measures, or by fixed-station dimensioners (laser/3D-camera kiosks) that require freight to be staged at a specific spot — e.g., FreightSnap and vMeasure hardware booths ([FreightSnap](https://freightsnap.com/), [vMeasure](https://vmeasure.ai/freight-dimensioning-system/)).
-
-**Approach:** Computer vision software that runs on the security cameras a warehouse already operates. The system measures pallets, furniture, tires, and other items as they move through the facility (YC page; transload.io tagline: "Computer vision for the loading dock," May 2026). No additional hardware sale required.
-
-**Differentiation:** Incumbents like vMeasure, FreightSnap, and Cargo Spectre sell purpose-built dimensioning hardware costing $2,200–$15,300+ per station that requires staging freight ([vMeasure pricing](https://vmeasure.ai/freight-dimensioning-system/) via search snippet; Cargo Spectre hardware "under $7,000" per [Cargo Spectre](https://www.cargospectre.com/) via search snippet). transload reuses existing CCTV, removing the capex and capture-point bottleneck (YC page).
-
-**Business Model:** No pricing page is published on transload.io as of May 2026 (WebFetch May 2026 returned only the tagline). [Inferred]: SaaS per-site or per-camera subscription, consistent with the $50k/site/month value claim cited by the company and how CV-software competitors monetize.
-
-**TAM/SAM:** Global LTL freight market estimated USD 245.56B–270B in 2025 (Business Research Insights, Mordor Intelligence, Technavio, 2025 via search snippet). LTL market CAGR 3.5%–6.8% through 2029–2034 (same sources via search snippet). No public TAM data found for the freight dimensioning sub-segment specifically. [Inferred]: SAM is North American LTL carrier and 3PL warehouse sites — a fraction of the LTL freight TAM, since transload sells software for measurement rather than transport itself.
-
-**GTM / Distribution:** [Inferred]: Direct sales to LTL carriers, freight forwarders, and 3PL warehouse operators in North America, consistent with the SF base and YC P26 demo-day buyer pool. The product's CCTV-reuse pitch is a natural displacement angle against the existing FreightSnap/vMeasure/Cargo Spectre buyer at sites that already have cameras installed.
+- **Problem:** Logistics operators (LTL carriers, 3PLs, freight forwarders) lose revenue because ~15% of shipments are larger than what the sender declared, leaving rebillings and trailer utilization on the table (company description, YC page).
+- **Approach:** Computer-vision pipeline that ingests video from a warehouse's existing CCTV/security cameras to capture true dimensions of pallets, couches, tires, etc., as they move through the dock — no dedicated dimensioner hardware required (company website tagline "Computer vision for the loading dock"; YC description).
+- **Differentiation:** Dedicated hardware vendors (vMeasure, FreightSnap FS 5000, Cubiscan, VITRONIC, Vimaan PalletSCAN 3D) require purpose-built drive-through scanners or fixed-mount sensors (vMeasure pallet dimensioner page; FreightSnap product page; Vimaan press release), whereas transload reuses installed CCTV [Inferred]: removing capex and integration time.
+- **Business Model:** No pricing page is reachable — site renders only a "0% BOOTING" animation (WebFetch, May 2026); [Inferred]: per-site SaaS subscription, anchored to the "$50k per site per month" value claim in the YC description.
+- **TAM/SAM:** No public TAM/SAM data found for this specific segment.
+- **GTM / Distribution:** [Inferred]: Direct sales to LTL carriers and 3PLs with multi-site warehouse footprints, given the "per site per month" rebilling framing in the YC description and SF/US regional listing.
 
 ## Defensibility
 
-No issued patents or proprietary datasets are disclosed in public sources. [Inferred]: Defensibility potential rests on (a) labeled freight-vision training data captured across customer sites as deployments scale, and (b) integrations into WMS/TMS/billing systems that create switching cost. Neither is established at pre-seed stage.
-
-**Market structure:** [Inferred]: Structural barrier vs. incumbents is business-model cannibalization — FreightSnap, vMeasure, and Cargo Spectre's revenue is tied to hardware unit sales and recurring service/lease on those units (FreightSnap revenue estimates of $1M–$4.6M and ~5–23 employees per PitchBook/ZoomInfo/Crunchbase via search snippet; Cargo Spectre "nearly 1,000 systems already working in the field," company site via search snippet). Adopting CCTV-only software would cannibalize their hardware ASP and channel margin. Not a barrier against a well-funded software-native entrant.
-
-**Commoditization risk:** [Inferred]: Pallet/freight detection and dimensioning from monocular or stereo CCTV is an applied CV problem that any competent team with warehouse access could attempt; the wedge is data access and accuracy thresholds at varying camera placements/lighting, not algorithmic novelty.
+- **Moat today:** No defensibility signals found in public sources (website not yet rendering content; no patents, customer logos, or published benchmarks located).
+- **Future moat:** [Inferred]: Proprietary training data of palletized freight under varied warehouse lighting/occlusion conditions could compound with each customer deployment, but unproven without disclosed model performance or customer count.
+- **Market structure:** [Inferred]: Incumbent hardware dimensioner vendors (FreightSnap, vMeasure, Cubiscan) sell capex devices and would cannibalize hardware revenue by shifting to camera-only software; a Loadsmart-style platform could integrate equivalent vision via its 2023 NavTrac acquisition (FreightWaves, Sep 2023), limiting the structural barrier.
+- **Commoditization risk:** Computer-vision dimensioning from RGB/depth video is an active vendor category (vMeasure, VITRONIC AI stackability, NavTrac, Vimaan), so other CV teams could build equivalent CCTV-fed pipelines (vendor pages cited above).
 
 ## Market & Traction
 
-**Traction signals:**
-- Company-stated customer outcome: "15% of shipments turn out to be bigger than what the sender claimed" and "~$50k per site per month in rebillings and improved trailer utilization" (YC page, company self-reported). Note: this is the company's framing of customer outcomes, not transload's own revenue.
-- Job postings: 0 open positions (YC page, May 2026).
-- YC P26 / Spring 2026 batch acceptance (YC page).
-- No public press coverage, Product Hunt launch, Twitter/X account, LinkedIn company-page follower count, Discord/Slack community, app store listing, GitHub organization, or web-traffic estimate found in searches conducted May 2026.
-- Website (transload.io) is a single-line tagline page as of May 2026 (WebFetch).
-
-**Competitive landscape:**
-- **FreightSnap** (Lenexa, KS): hardware-based pallet/parcel dimensioning kiosks. Funding: 1 institutional investor, Venture 53 (Crunchbase via search snippet). Revenue estimates $1M (RocketReach) to $4.6M with $14.8M estimated valuation (Prospeo/PitchBook via search snippet). ~5–23 employees (ZoomInfo/Tracxn via search snippet). Differentiator vs. transload: dedicated dimensioning station hardware sold to LTL carriers, Fortune 500 manufacturers, freight forwarders, ocean/air carriers (FreightSnap site via search snippet).
-- **vMeasure**: SaaS-plus-hardware dimensioning, entry systems from $2,200; freight dimensioner $12,300–$15,300; measures in <2 seconds (vMeasure site via search snippet). Funding not publicly disclosed. Differentiator vs. transload: hardware-anchored capture point requiring staged freight.
-- **Cargo Spectre** (Houston, TX, founded 2016 by Jason Joachim): unfunded, "Dimensioner as a Service," ~1,000 deployed systems, hardware <$7,000 (Crunchbase, Cargo Spectre site via search snippet). Differentiator vs. transload: 3D-scanner-based DaaS with pay-as-you-go pricing but still requires dedicated capture station.
-- **PackageX**: CV-based parcel scanning for label/dimension extraction (PackageX site via search snippet). Funding not retrieved. Differentiator vs. transload: scanner-based parcel workflows, not in-motion warehouse CCTV.
-- Adjacent: **Awake.AI** — maritime CV for ports, not LTL warehouse freight (StartUs Insights via search snippet).
-
-**Why now:** NMFTA transitioned LTL freight classification from commodity-based to density-based on July 19, 2025 (Docket 2025-1; ODFL, C.H. Robinson, NMFTA via search snippet). Under density-based pricing, accurate dimensions per shipment determine billing class — making measurement directly revenue-affecting. [Inferred]: This regulatory shift increases the willingness-to-pay of LTL carriers for accurate, every-shipment dimensioning, which is transload's core capture claim.
+- **Traction signals:**
+  - Customer testimonial: "15% of shipments turn out to be bigger than what the sender claimed … worth ~$50k per site per month in rebillings and improved trailer utilization" (YC company description, 2026).
+  - Website at https://www.transload.io returns a "0% BOOTING" placeholder with no public content (WebFetch, May 2026).
+  - No Product Hunt, press, Twitter/X, LinkedIn follower, Discord, or job-posting data located in search.
+- **Competitors:**
+  - FreightSnap (revenue unknown, funding not disclosed on Crunchbase result; founded 2013): sells FS 5000 fixed-position infrared pallet dimensioner hardware (Crunchbase listing; FreightSnap.com).
+  - vMeasure / Vimaan (revenue unknown, funding unknown from this search): AI pallet dimensioner and drive-through PalletSCAN 3D hardware solutions (vmeasure.ai; Vimaan press release).
+  - Cubiscan (revenue unknown): legacy LTL-carrier pallet dimensioner hardware (cubiscan.com).
+  - Loadsmart / NavTrac (Loadsmart raised >$200M historical; NavTrac acquired Sep 2023, terms undisclosed): camera-based yard/terminal vision platform now bundled with Opendock dock scheduling (FreightWaves, Sep 2023; DC Velocity, Sep 2023).
+  - VITRONIC (revenue unknown, private German industrial vendor): AI-powered pallet dimensioning with stackability analysis (vitronic.com).
+- **Why now:** [Inferred]: Improvements in monocular/multi-view 3D reconstruction and edge GPU inference have made dimensional measurement from standard CCTV feeds tractable, and Loadsmart's 2023 NavTrac acquisition signals carrier appetite for camera-based ops vision (FreightWaves, Sep 2023).
 
 ## Founders & Team
 
-**Nils Börner** — Co-founder
-- Connection to transload confirmed (YC page lists as co-founder); search results characterize him as "bringing AI into logistics operations with transload."
-- Education / prior employers: No public profile uniquely matched to this Nils Börner; multiple individuals with the same name appear on LinkedIn in Germany (search results May 2026). No public data found on specific prior companies or exits.
-- Twitter/X: No public account found.
-- LinkedIn: Specific profile not disambiguated in public search; count not retrievable.
-- GitHub: No public repos found.
-
-**Julius Scheel** — Co-founder
-- Background: Fellow at McKinsey & Company, Zurich office (LinkedIn headline via search snippet).
-- Education / domain expertise: Not directly retrievable (LinkedIn WebFetch returned status 999). Search-derived context places team in Munich's TUM ecosystem.
-- Twitter/X: No public account found.
-- LinkedIn: linkedin.com/in/juliusscheel (via search snippet); count not retrievable.
-- GitHub: No public repos found (GitHub user "julianscheel" appears in results but is a different person, Julian not Julius).
-
-**Jago Wahl-Schwentker** — Co-founder
-- Background: Software Engineer at Veli prior to transload (LinkedIn headline via search snippet, profile linkedin.com/in/jago-wahl-schwentker-79b126196).
-- Education: Technical University of Munich (TUM) (search snippet).
-- Domain entry: team "evolved through XPLORE, the TUM Incubator, robo.innovate and the TUM Venture Labs" (search snippet referencing transload's origin path).
-- Twitter/X: No public account found.
-- LinkedIn: linkedin.com/in/jagowahl (primary, listing "transload") and a secondary profile linkedin.com/in/jago-wahl-schwentker-79b126196 (Veli); count not retrievable (LinkedIn returned status 999).
-- GitHub: No public repos found.
-
-**Co-founder relationship:** Search results indicate the transload team "evolved through XPLORE, the TUM Incubator, robo.innovate and the TUM Venture Labs" (search snippet), suggesting overlap in the TUM/Munich entrepreneurial ecosystem. Julius Scheel's McKinsey Zurich tenure does not overlap with Jago's Veli engineering role per available data. No definitive shared employer surfaced.
-
-**Founder-market fit:** [Inferred]: Technical co-founder (Jago) provides applied software engineering capability; Julius brings consulting-trained commercial/structuring exposure from McKinsey; the TUM/robo.innovate incubator path indicates robotics/CV-adjacent academic environment. No founder has a disclosed prior LTL freight or warehouse-operations role in public sources. No advisors, board members, or investors beyond YC's standard deal are disclosed.
+- **Julius Scheel (Founder & CEO):**
+  - Background: Led a 9-person fundraising team at age 17 raising €300k in donations; scaled avi medical's virtual clinic to seven-figure ARR; McKinsey Fellow (Zurich office) with early promotion; distinction degrees from TU Munich and London Business School; researched causal ML for sequences at Cambridge (YC bio; LinkedIn via search snippet).
+  - Twitter/X: No public account found.
+  - LinkedIn: "McKinsey & Company" headline (linkedin.com/in/juliusscheel, via search snippet).
+  - GitHub: No public repos found.
+- **Nils Börner (Founder, CTO AI):**
+  - Background: Five years building computer-vision systems across deep-tech startups and academia; co-authored IEEE Transactions on Medical Imaging paper; top-5% MSc Computer Science, TU Munich; double-degree MSc in Data Science, University of Queensland, with Dean's Commendation (YC bio).
+  - Twitter/X: No public account found.
+  - LinkedIn: No public profile surfaced in search.
+  - GitHub: No public repos found.
+- **Jago Wahl-Schwentker (Founder, CTO Engineering):**
+  - Background: First software engineer at Veli, building AI emergency alerting from sensor data for care homes and a Bluetooth localization product that doubled ARR; Computer Science at TU Munich (YC bio; LinkedIn via search snippet).
+  - Twitter/X: No public account found.
+  - LinkedIn: "Software Engineer – veli" (linkedin.com/in/jagowahl, via search snippet).
+  - GitHub: No public repos found.
+- **Co-founder relationship:** All three founders studied at Technical University of Munich (YC bios).
+- **Founder-market fit:** Börner brings published computer-vision/deep-learning credentials, Wahl-Schwentker brings shipped sensor-data ML product experience at Veli, and Scheel brings commercial scaling experience from avi medical and McKinsey (YC bios; LinkedIn snippets); no investors or advisors publicly disclosed beyond Y Combinator Spring 2026.
 
 ## Key Risks
 
-**Camera-quality / accuracy ceiling:** transload's premise is that existing CCTV — typically deployed for security, varied resolution, lighting, mounting angles — can yield billing-grade dimensions. Incumbents use purpose-built hardware (3D, stereo, laser) at controlled stations (FreightSnap/vMeasure/Cargo Spectre product pages via search snippet). [Inferred]: Achieving the accuracy required for carrier billing (and standing up to chargeback disputes) on legacy CCTV is the core technical feasibility risk; no public benchmarks have been disclosed.
-
-**Buyer concentration with adversarial dynamics:** The $50k/site/month value cited by the company is rebillings to shippers (YC page). Shippers — also customers in the broader logistics tech market — have an incentive to dispute or de-adopt audit tooling. This creates a two-sided incentive issue if transload is sold to carriers that bill shippers, particularly post-NMFTA density-based pricing (NMFTA, July 19, 2025 via search snippet).
-
-**Commoditization by software-native entrants:** CV pallet measurement is not novel; Cargo Spectre, vMeasure, PackageX (cited above) and any well-funded WMS vendor could replicate CCTV-only inference. No patents, datasets, or integrations disclosed publicly to date.
-
-**Founder domain-experience gap:** No co-founder has a disclosed prior LTL carrier, 3PL operations, or NMFC classification role in public sources (LinkedIn, search results May 2026). Field deployments at LTL terminals require operational knowledge that is not evidenced in available profiles.
-
-**Single-channel website / no public presence:** transload.io carries only a one-line tagline; no LinkedIn company-page activity, Twitter/X, GitHub, or press surfaced as of May 2026. [Inferred]: Indicates pre-launch stealth posture rather than active risk, but limits diligence coverage.
+- **Technical feasibility from CCTV feeds:** Measuring pallet dimensions accurately from existing warehouse security cameras (variable mounting, lighting, occlusion) is materially harder than from dedicated drive-through rigs used by vMeasure and Vimaan (vendor product pages); no public accuracy benchmarks have been disclosed by transload, and no mitigation is published.
+- **Substitution by incumbent / adjacent vision platforms:** Loadsmart already owns NavTrac's camera-vision stack and distributes Opendock to ~110,000 carriers and ~3,000 warehouses (FreightWaves / Loadsmart blog, Sep 2023), giving a direct distribution path to add dimensioning; no mitigation disclosed.
+- **Hardware-vendor downmarket move:** FreightSnap, vMeasure/Vimaan, and VITRONIC sell software-plus-hardware bundles and could ship a CCTV-only SKU (vendor pages cited); no proprietary IP from transload is publicly disclosed.
+- **Name disambiguation / web presence:** Public website renders only a placeholder animation (WebFetch, May 2026) and the term "transload" is a common logistics noun (e.g., transloads.co, financialmodelslab), which limits inbound and complicates buyer discovery.
+- **Regulatory measurement standards:** LTL rebilling against shippers based on dimensions typically must satisfy NTEP / legal-for-trade certification for hardware dimensioners ([Inferred]: based on industry standards referenced on Cubiscan and FreightSnap pages); a camera-only system's path to certification is not publicly addressed by transload.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Global LTL freight market USD 245.56B (Business Research Insights, 2025 via search snippet); USD 270B (Technavio, 2025 via search snippet); CAGR 3.5%–6.8% through 2029–2034 (Business Research Insights/GMI, via search snippet). No TAM for freight-dimensioning sub-segment found. |
+| TAM | No public data found |
 | SAM | No public data found |
-| Traction | YC P26 / Spring 2026 batch (YC page, May 2026); 0 open job postings (YC page, May 2026); no public press, Product Hunt, social, or app listing found in searches May 2026 |
-| Revenue Signal | No public data found (no pricing page on transload.io as of May 2026, WebFetch) |
-| Founders | Nils Börner (Co-founder): role and prior background not disambiguated in public sources. Julius Scheel (Co-founder): Fellow, McKinsey & Company, Zurich (LinkedIn via search snippet). Jago Wahl-Schwentker (Co-founder): prior Software Engineer at Veli; TUM-Munich background (LinkedIn via search snippet). |
-| Competitors | FreightSnap (1 investor – Venture 53; revenue $1M–$4.6M; ~5–23 employees per PitchBook/ZoomInfo/Crunchbase via search snippet; hardware kiosk differentiator). vMeasure (funding not disclosed; hardware $2,200–$15,300+ per vMeasure site via search snippet; hardware + SaaS differentiator). Cargo Spectre (unfunded, founded 2016, ~1,000 deployed, hardware <$7,000 per Crunchbase / Cargo Spectre site via search snippet; 3D-scanner DaaS differentiator). PackageX (funding unknown; CV parcel scanning differentiator, PackageX site via search snippet). |
+| Traction | Customer-claimed value $50k/site/month in rebillings + trailer utilization; 15% of shipments larger than declared (YC company description, 2026); no users/revenue/press located |
+| Revenue Signal | No public data found (website not rendering content as of WebFetch, May 2026) |
+| Founders | Julius Scheel (CEO): ex-McKinsey Fellow, scaled avi medical to 7-figure ARR, TUM + LBS. Nils Börner (CTO AI): IEEE T-MI co-author, TUM MSc top 5%, UQ MSc Data Science. Jago Wahl-Schwentker (CTO Eng): first engineer at Veli, TUM CS. |
+| Competitors | FreightSnap (funding undisclosed in Crunchbase snippet, revenue unknown, infrared pallet dimensioner hardware); vMeasure/Vimaan (funding unknown, revenue unknown, drive-through 3D pallet dimensioner); Cubiscan (revenue unknown, legacy LTL dimensioner hardware); Loadsmart/NavTrac (Loadsmart historically raised >$200M, NavTrac acquired Sep 2023 terms undisclosed, camera-based yard vision tied to Opendock distribution); VITRONIC (revenue unknown, AI pallet dimensioner with stackability) |
 | Moat Signals | No public data found |
-| Risk Factors | Camera-accuracy/feasibility on legacy CCTV; commoditization by software-native entrants; founder LTL-domain experience gap |
-| Founder Reach | Nils Börner: Twitter not found, LinkedIn not disambiguated, GitHub not found. Julius Scheel: Twitter not found, LinkedIn linkedin.com/in/juliusscheel (count not retrievable), GitHub not found. Jago Wahl-Schwentker: Twitter not found, LinkedIn linkedin.com/in/jagowahl (count not retrievable), GitHub not found. |
+| Risk Factors | Technical feasibility from non-purpose-built CCTV, substitution by Loadsmart/NavTrac, hardware-vendor downmarket move |
+| Founder Reach | Julius Scheel: Twitter not found, LinkedIn present (count not retrievable), GitHub not found. Nils Börner: Twitter not found, LinkedIn not surfaced, GitHub not found. Jago Wahl-Schwentker: Twitter not found, LinkedIn present (count not retrievable), GitHub not found. |
 | Distribution Signals | No public data found |
 | Emails | No public data found |
+
+Sources:
+- [transload — Y Combinator](https://www.ycombinator.com/companies/transload)
+- [transload.io](https://www.transload.io)
+- [Julius Scheel — LinkedIn](https://www.linkedin.com/in/juliusscheel/)
+- [Jago Wahl-Schwentker — LinkedIn](https://de.linkedin.com/in/jagowahl)
+- [Loadsmart acquires NavTrac — FreightWaves](https://www.freightwaves.com/news/loadsmart-acquires-navtrac-to-bring-computer-vision-to-yard-management)
+- [Loadsmart acquires NavTrac — Loadsmart blog](https://blog.loadsmart.com/loadsmart-acquires-computer-vision-startup-navtrac)
+- [vMeasure Pallet Dimensioner](https://vmeasure.ai/pallet-dimensioner/)
+- [FreightSnap FS 5000](https://freightsnap.com/fs-5000-product/)
+- [Cubiscan LTL Carrier Pallet Dimensioners](https://cubiscan.com/ltl-carrier/)
+- [Vimaan PalletSCAN 3D](https://vimaan.ai/resources/press-release/drive-through-pallet-dimensioning-solution-for-warehouses-and-distribution-centers/)
+- [VITRONIC pallet dimensioning](https://www.vitronic.com/en-us/pallet-dimensioning-with-ai-powered-stackability-analysis)
+- [FreightSnap — Crunchbase](https://www.crunchbase.com/organization/freightsnap)

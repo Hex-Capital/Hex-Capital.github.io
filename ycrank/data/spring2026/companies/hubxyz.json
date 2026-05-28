@@ -1,7 +1,7 @@
 {
   "slug": "hubxyz",
   "name": "Hub.xyz",
-  "oneLiner": "API for real-world training data.",
+  "oneLiner": "The API for real-world training data.",
   "metadata": {
     "website": "http://hub.xyz",
     "yc_page": "https://www.ycombinator.com/companies/hubxyz",
@@ -9,69 +9,40 @@
     "industry": "B2B / B2B",
     "team_size": "10",
     "location": "Palo Alto, CA, USA",
-    "tags": "Artificial Intelligence, Data Labeling, Big Data, AI",
+    "tags": "Artificial Intelligence, Robotics, Data Labeling, Big Data, AI",
     "yc_partner": "Harj Taggar",
     "emails": "No public data found"
   },
   "tags": [
     "Artificial Intelligence",
+    "Robotics",
     "Data Labeling",
     "Big Data",
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-22T23:50:38.063Z",
+  "memoGeneratedAt": "2026-05-28T02:59:29.523Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 27,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 40,
+      "score": 39,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 34,
-    "EG": 34,
-    "NR": 38,
-    "PG": 36,
-    "PT": 27,
-    "SL": 40,
-    "VK": 40
+    "CB": 39,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 35.57,
-  "consolidatedRank": 135,
+  "consolidatedAvg": 39,
+  "consolidatedRank": 137,
   "paths": {
     "memo": "spring2026/memos/hubxyz.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/hubxyz.md",
-      "elad-gil": "spring2026/evals/elad-gil/hubxyz.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/hubxyz.md",
-      "paul-graham": "spring2026/evals/paul-graham/hubxyz.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/hubxyz.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/hubxyz.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/hubxyz.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/hubxyz.md"
     }
   }
 }

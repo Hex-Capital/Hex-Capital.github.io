@@ -5,7 +5,7 @@
   "metadata": {
     "website": "https://www.anoria.com",
     "yc_page": "https://www.ycombinator.com/companies/anoria",
-    "batch": "Spring 2026",
+    "batch": "Spring 2026 (YC P26)",
     "industry": "Consumer / Consumer -> Consumer Electronics",
     "team_size": "5",
     "location": "San Francisco, CA, USA",
@@ -21,58 +21,33 @@
     "Consumer Products"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-05-05T04:29:14.269Z",
+  "memoGeneratedAt": "2026-05-28T02:41:40.062Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 29,
-      "tier": "Pass"
+      "score": 48,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 36,
+      "score": 32,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 29,
-    "EG": 30,
-    "NR": 42,
-    "PG": 37,
-    "PT": 28,
-    "SL": 33,
-    "VK": 36
+    "CB": 48,
+    "EG": 32,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 33.57,
-  "consolidatedRank": 150,
+  "consolidatedAvg": 40,
+  "consolidatedRank": 119,
   "paths": {
     "memo": "spring2026/memos/anoria.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/anoria.md",
-      "elad-gil": "spring2026/evals/elad-gil/anoria.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/anoria.md",
-      "paul-graham": "spring2026/evals/paul-graham/anoria.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/anoria.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/anoria.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/anoria.md"
+      "elad-gil": "spring2026/evals/elad-gil/anoria.md"
     }
   }
 }

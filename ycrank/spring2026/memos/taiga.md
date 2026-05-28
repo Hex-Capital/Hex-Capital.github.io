@@ -4,121 +4,82 @@
 
 | Field | Value |
 |-------|-------|
-| Website | https://usetaiga.com |
+| Website | https://taigabilling.com |
 | YC Page | https://www.ycombinator.com/companies/taiga |
 | Batch | Spring 2026 |
-| Industry | Healthcare / Healthcare Services |
+| Industry | Healthcare / Healthcare -> Healthcare Services |
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
-| Tags | AI |
+| Tags | Artificial Intelligence |
 | YC Partner | Nicolas Dessaigne |
 | Emails | founders@usetaiga.com |
 
 ## The Idea
 
-**Problem:** Independent and small medical practices in the U.S. face significant administrative burden from medical billing. The U.S. healthcare system loses over $265 billion per year to billing errors, denied claims, and administrative overhead (usetaiga.com). Practices must manually generate ICD-10 and CPT codes from clinical notes, submit claims to payers, manage denials and appeals, and handle patient statements — processes that are error-prone and time-consuming. Today, practices either employ in-house billing staff, outsource to traditional revenue cycle management (RCM) companies, or use fragmented software tools. The company's legal entity is Bayes AI, Inc. (usetaiga.com).
-
-**Approach:** Taiga positions itself as an AI-native medical billing agency that handles the full revenue cycle from clinical notes to payment collection (usetaiga.com). Core capabilities include:
-- **Coding validation:** AI generates ICD-10 and CPT codes from clinical notes, with physician review/approval (usetaiga.com)
-- **Denial prevention:** Claims are scrubbed against payer-specific rules pre-submission using a denial-prediction engine that cross-references clinical documentation against coding rules in real time (usetaiga.com)
-- **Claims & appeals:** Automated claim submission (CMS-1500) and denial appeal letter generation grounded in clinical evidence, payer policy, and precedent (usetaiga.com)
-- **Patient billing:** Automated statement generation, balance tracking, and patient follow-up (usetaiga.com)
-- **Revenue dashboard:** Real-time visibility into collections, denials, and payer performance (usetaiga.com)
-- **EHR integrations:** Athenahealth, eClinicalWorks, NextGen Healthcare, AdvancedMD, Tebra, Elation Health, and Epic (usetaiga.com)
-- **Payer coverage:** Commercial carriers, Medicare, Medicaid, and TRICARE (usetaiga.com)
-- **Onboarding:** Live implementation within two weeks, no workflow changes required (usetaiga.com)
-
-**Differentiation:** Unlike traditional RCM outsourcers (e.g., R1 RCM, Waystar), Taiga uses post-trained AI models for coding, denial prediction, and appeals rather than human billing teams or rules-based automation (usetaiga.com). Compared to Candid Health (a YC-backed RCM SaaS platform), Taiga markets itself as a full-service agency rather than a software tool — the provider uploads visit data and Taiga handles everything downstream (YC company page). Compared to LunaBill (YC F25), which focuses specifically on AI voice agents for insurance follow-up calls, Taiga covers the entire billing workflow end-to-end (usetaiga.com). Compared to AKASA, which targets large health systems, Taiga targets small and independent practices (usetaiga.com, LinkedIn).
-
-**Business Model:** No pricing page or pricing tiers are publicly listed on usetaiga.com. [Inferred]: The most likely monetization path is a percentage-of-collections model (standard for medical billing agencies, typically 4-10% of collected revenue) or a per-claim fee, given the company's positioning as a full-service billing agency rather than a SaaS tool.
-
-**TAM/SAM:** The global RCM market was valued at $163.72 billion in 2025, projected to grow to $472.42 billion by 2034 at 12.70% CAGR (Fortune Business Insights, 2025). North America accounted for approximately $90.46 billion in 2025 (Fortune Business Insights, 2025). Alternative estimate: $86.45 billion globally in 2025 at 10.15% CAGR (Mordor Intelligence, 2025). [Inferred]: Taiga's serviceable market is the U.S. small/independent practice segment — there are approximately 200,000+ physician-owned practices in the U.S., but no public SAM figure specific to this sub-segment was found.
-
-**GTM / Distribution:** Taiga targets small and independent practices across the U.S., including family medicine, internal medicine, and specialty practices (LinkedIn company page). [Inferred]: Most likely initial distribution path is founder-led sales leveraging personal networks (both founders' parents are physicians with independent practices), followed by EHR integration partnerships and referral-based growth among practice owners.
+- **Problem:** Independent doctor's offices lose revenue to slow, manual, error-prone billing — coding, claim submission, and denial follow-up — currently handled by in-house staff or outsourced billing firms (YC company page; usetaiga.com).
+- **Approach:** AI pulls visit data from the EHR, generates billing codes, scrubs claims, submits to payers, and auto-appeals denials, with physician oversight of generated codes (usetaiga.com).
+- **Differentiation:** Versus Candid Health and Adonis (RCM software for multi-site groups), Taiga positions as a full-stack service for independent practices with two-week onboarding and AI-native operations; versus traditional billing firms, the pitch is AI automation over labor (usetaiga.com; YC company page).
+- **Business Model:** No public pricing page; [Inferred]: Percentage-of-collections fee typical of medical billing services, given they describe themselves as a "service" rather than SaaS (usetaiga.com).
+- **TAM/SAM:** U.S. Revenue Cycle Management market estimated at USD 60.69–63.32B in 2025, projected to USD 137.37B by 2033 at ~11.44% CAGR (Market Data Forecast, 2025; Precedence Research, 2025).
+- **GTM / Distribution:** [Inferred]: Direct outbound to independent practices, supported by named EHR integrations (DrChrono, athenahealth, eClinicalWorks, NextGen, Tebra, Elation, Greenway, Practice Fusion, Office Ally, Amazing Charts) acting as channel surface (usetaiga.com).
 
 ## Defensibility
 
-- **Data advantage (potential):** As Taiga processes claims across multiple payers and specialties, its denial-prediction models could improve with volume, creating a data flywheel. This is a potential future moat, not a current one.
-- **EHR integrations:** Seven named EHR integrations (usetaiga.com) create switching costs once a practice is live, as re-integrating with a competitor requires implementation effort.
-- **Full-stack lock-in:** By handling the entire revenue cycle rather than a single step, Taiga creates higher switching costs than point solutions.
-
-No defensibility signals found in public sources related to patents, proprietary datasets, or regulatory moats.
-
-**Market structure:** [Inferred]: Large incumbents like Waystar (publicly traded, ~$8B valuation) and R1 RCM focus on hospital systems and large health networks with enterprise sales motions. Serving small independent practices with a lean AI-first approach may be economically unattractive for these incumbents, whose cost structures are built around large-contract, high-touch service delivery. The structural barrier is unit economics incompatibility — incumbents' per-account costs make small practices unprofitable under their model.
-
-**Commoditization risk:** LLM-based medical coding and claims scrubbing are technically reproducible. Multiple startups (Candid Health, AKASA, LunaBill, Medbill AI) are building AI-powered RCM solutions (web search results, 2025-2026). The core AI capabilities (coding from notes, denial prediction) rely on foundation models accessible to any well-funded competitor. Differentiation depends on payer-specific data accumulation, EHR integration depth, and service quality — all buildable but slow to replicate at scale.
+- **Moat today:** Company-reported 98% touchless claim rate and integrations with 10 named EHRs plus 50+ payers (usetaiga.com); no third-party validation found.
+- **Future moat:** [Inferred]: Proprietary claim-denial feedback loop could compound coding accuracy per payer over time; unproven because the company is in YC Spring 2026 with only one named customer publicly listed.
+- **Market structure:** [Inferred]: Incumbent billing firms run on labor margins and cannot cannibalize that revenue by automating away their own billable hours, creating space for AI-native services priced on outcomes rather than headcount.
+- **Commoditization risk:** Multiple funded competitors (Candid Health $99.5M, Adonis $95M+, Akasa $205M) operate AI-powered RCM platforms, indicating the underlying ML capability is widely buildable (TechCrunch, Feb 2025; PRNewswire, Mar 2026; Tracxn, 2026).
 
 ## Market & Traction
 
-**Traction signals:**
-- No public revenue, user counts, or customer metrics disclosed (usetaiga.com, YC page)
-- LinkedIn: 63 followers, 4 employees listed (LinkedIn, April 2026)
-- GitHub (github.com/useTaiga): 3 public repositories, all forks or profile repos; no original repositories with meaningful star counts (GitHub, April 2026)
-- No Product Hunt launch found for usetaiga.com medical billing product (Product Hunt search returned only results for the unrelated Taiga.io project management tool)
-- Twitter/X: No company or founder accounts found
-- 0 open job postings (YC page)
-- No press coverage found in named publications
-- No app store presence found
-
-**Competitive landscape:**
-
-| Competitor | Funding | Key Differentiator vs. Taiga |
-|-----------|---------|------------------------------|
-| **Candid Health** (YC) | $99.5M total; $52.5M Series C (Feb 2025, TechCrunch) | SaaS platform for provider billing teams rather than full-service agency; revenue grew ~250% in 2024 (TechCrunch, Feb 2025); targets larger provider organizations |
-| **AKASA** | $205M total; $120M Series C (June 2024, Crunchbase) | Enterprise-focused AI automation for large health systems; claims 13% decrease in A/R days and $30M gross yield increase for clients (akasa.com) |
-| **LunaBill** (YC F25) | $100K seed (SignalBase) | Narrow focus on AI voice agents for insurance follow-up calls only, not full-cycle billing; $764K contracted ARR, $428K live revenue since July launch (YC launch page) |
-| **Medbill AI** | $16.3M total (Tracxn) | Revenue unknown; direct AI medical billing competitor |
-
-**Why now:**
-- [Inferred]: The primary catalyst is the maturation of large language models capable of parsing unstructured clinical notes and mapping them to billing codes (ICD-10, CPT) with sufficient accuracy, a capability that crossed a practical threshold in 2023-2024 with GPT-4-class models.
-- AI-enabled healthcare startups captured 62% of all digital health venture funding in the U.S. in H1 2025, raising an average of $34.4M per round — an 83% premium over non-AI startups (web search result citing industry data, 2025).
-- [Inferred]: CMS regulatory changes and increasing payer complexity (prior authorization requirements, documentation standards) continue to raise the administrative burden on small practices, creating urgency for automation.
+- **Traction signals:**
+  - Company-reported 98% clean/touchless claim rate (usetaiga.com).
+  - Customer testimonial: Neal Cheskis, owner of Cheskis Family Therapy, quoted on usetaiga.com.
+  - 10 named EHR integrations and 50+ payer connections (usetaiga.com).
+  - LinkedIn post by Y Combinator featuring Taiga (activity_7455692469058560000, via search snippet).
+  - No public revenue, customer count, funding announcement, Product Hunt launch, app downloads, or social follower data found.
+- **Competitors:**
+  - Candid Health ($99.5M total raised, revenue grew ~250% YoY in 2024, 200+ healthcare org customers): targets multi-site provider groups with a SaaS RCM platform (TechCrunch, Feb 12 2025; Oak HC/FT release).
+  - Adonis ($95M+ total raised, $40M Series C Mar 2026, 4x revenue growth in 2025, net retention >130%): AI orchestration platform for RCM, broader provider focus (PRNewswire, Mar 2026; citybiz).
+  - Akasa ($205M total raised, Series C $120M Jun 18 2024, serves 650+ hospitals and 6,500 outpatient sites): focuses on health systems and hospitals, not independent practices (Tracxn, 2026; CB Insights).
+  - Mandolin and Opkit listed as Candid Health alternatives, revenue unknown; Mandolin focuses on specialty drug administration (CB Insights, via search snippet).
+- **Why now:** [Inferred]: Generative-AI accuracy on structured medical coding has crossed a threshold sufficient for "touchless" claim submission, evidenced by Candid Health's GenAI Series C messaging and Adonis 4x growth, both in 2025 (HIT Consultant, Feb 2025; PRNewswire, Mar 2026).
 
 ## Founders & Team
 
-**Nanda Guntupalli** — Co-founder
-- Education: University of Pennsylvania, Computer Science (YC page: "Penn CS"; LinkedIn)
-- Board Member, Penn Engineering Student Activities Council (LinkedIn)
-- No prior companies or exits found
-- Twitter/X: No public account found
-- LinkedIn: linkedin.com/in/nanda-guntupalli/ — 500+ connections (LinkedIn)
-- GitHub: No personal public account found; organization account github.com/useTaiga has no original repos
-
-**Adam Wax** — Co-founder
-- Education: Lehigh University, Computer Science and Mathematics (LinkedIn search results)
-- Previous: SWE internship experience; accepted Goldman Sachs 2025 Possibilities Summit; accepted Summer 2025 Field Engineer Internship with Weeks Marine (LinkedIn search results)
-- Won "Best Visual Design" award at Lehigh Valley Hackathon; QuizWiz project won best overall at Lehigh Valley Collegiate Hackathon (LinkedIn search results)
-- Built an AI-powered study assistant using AWS Textract and AWS Bedrock (LinkedIn search results)
-- Twitter/X: No public account found
-- LinkedIn: linkedin.com/in/adam-wax-20a6012aa/ — ~2,000 followers (LinkedIn via WebFetch)
-- GitHub: No personal public account found
-
-**Co-founder relationship:** Both founders have been friends since 3rd grade (YC page). They attended different universities (Penn and Lehigh), so the relationship predates college. Both founders' parents are physicians who own independent practices (YC page).
-
-**Founder-market fit:** Both founders grew up in households where medical billing was a direct source of stress and lost revenue for their physician parents (YC page). This provides firsthand exposure to the problem from the practice-owner perspective. Nanda's Penn CS background and Adam's CS + Math background with AI project experience (AWS Bedrock/Textract) provide technical capability for building ML-based billing systems. Neither founder has prior healthcare industry work experience or previous startup exits found in public records.
+- **Nanda Guntupalli (Co-Founder):**
+  - Background: University of Pennsylvania, listed in search snippets as CS background and Penn Engineering Student Activities Council board member, Class of 2028 from Mullica Hill, NJ; parent is a physician with own practice (LinkedIn snippet; YC company page).
+  - Twitter/X: No public account found.
+  - LinkedIn: "Co-Founder @ Taiga (YC P26) | Penn" (linkedin.com/in/nanda-guntupalli, via search snippet).
+  - GitHub: No public account found.
+- **Adam Wax (Co-Founder):**
+  - Background: Described in search snippets as Penn CS; grew up at his father's medical practice (LinkedIn snippet; YC company page).
+  - Twitter/X: No public account found.
+  - LinkedIn: "Founder @ Taiga (YC P26) | AI-native medical billing" (linkedin.com/in/adam-wax-20a6012aa, via search snippet).
+  - GitHub: No public account found.
+- **Co-founder relationship:** Friends since 3rd grade; both attended/attend University of Pennsylvania per LinkedIn snippets (YC company page; LinkedIn).
+- **Founder-market fit:** Both founders' parents operate independent medical practices where billing was a documented source of revenue loss, giving direct exposure to the customer's pain (YC company page); no advisors, board members, or named investors beyond Y Combinator found.
 
 ## Key Risks
 
-**Name collision risk:** "Taiga" is shared with Taiga.io, a well-established open-source agile project management tool with significant presence on Product Hunt, G2, Capterra, and Software Advice (web search results). This creates SEO competition and brand confusion in search results, potentially hindering organic discovery. Additionally, Taiga Health (gotaiga.com) and The Taiga Group (taigahealth.com) operate in adjacent healthcare spaces, compounding the naming collision.
-
-**Well-funded direct competitors:** Candid Health ($99.5M raised, ~250% revenue growth in 2024) and AKASA ($205M raised) are pursuing AI-driven RCM with significantly more capital and established customer bases (TechCrunch, Feb 2025; Crunchbase). Even within YC, LunaBill (F25) is building AI voice agents for healthcare billing with reported traction ($764K contracted ARR) (YC launch page). Taiga enters a market with multiple well-capitalized competitors already demonstrating traction.
-
-**Regulatory and compliance exposure:** Medical billing involves HIPAA-protected health information, payer-specific compliance requirements, and potential liability for coding errors that could trigger fraud investigations (e.g., upcoding). AI-generated billing codes that are inaccurate could expose both Taiga and its practice clients to legal and financial risk. Taiga notes HIPAA compliance (usetaiga.com) but the regulatory surface area is broad.
-
-**Founder experience gap:** Neither founder has prior healthcare industry work experience, prior startup founding experience, or a prior exit found in public records (LinkedIn, web search). Both appear to be recent or current university students. The domain expertise is indirect — via their parents' practices rather than direct operational billing experience.
+- **Direct competition from well-funded incumbents:** Candid Health ($99.5M raised) and Adonis ($95M+ raised) target the same AI-native RCM problem with multi-year head starts and existing customer bases of 200+ organizations (TechCrunch, Feb 2025; PRNewswire, Mar 2026); mitigation: Taiga's stated focus on independent practices rather than multi-site groups (usetaiga.com).
+- **Clinical/regulatory liability on AI-generated codes:** Miscoding can constitute fraud under federal payer rules; Taiga's stated mitigation is "physician oversight of all generated codes" (usetaiga.com), but the 98% touchless rate implies most claims do not receive line-by-line review.
+- **Unverified performance claim:** The 98% touchless claim rate is self-reported on the company website with no third-party benchmark or customer-count denominator disclosed (usetaiga.com).
+- **EHR integration dependency:** The product relies on integrations with 10 named EHRs (usetaiga.com); platforms such as athenahealth and Tebra offer native billing modules and could restrict third-party data access, no public mitigation found.
+- **Single named customer:** Only Cheskis Family Therapy is identified publicly (usetaiga.com); concentration and reference risk remain until additional customer logos are disclosed.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $163.72B global RCM market in 2025, 12.70% CAGR to $472.42B by 2034 (Fortune Business Insights, 2025) |
+| TAM | U.S. RCM market USD 60.69–63.32B in 2025 → USD 137.37B by 2033 at ~11.44% CAGR (Market Data Forecast, 2025; Precedence Research, 2025) |
 | SAM | No public data found |
-| Traction | No public data found |
-| Revenue Signal | No public data found |
-| Founders | Nanda Guntupalli (Co-founder): Penn CS. Adam Wax (Co-founder): Lehigh CS + Math, hackathon wins, AI project experience. |
-| Competitors | Candid Health ($99.5M raised, ~250% rev growth 2024, SaaS platform vs. Taiga's agency model) (TechCrunch, Feb 2025); AKASA ($205M raised, enterprise health systems focus) (Crunchbase); LunaBill ($100K seed, $764K contracted ARR, voice-only billing calls) (YC/SignalBase); Medbill AI ($16.3M raised, revenue unknown) (Tracxn) |
-| Moat Signals | No public data found |
-| Risk Factors | Name collision with Taiga.io and Taiga Health, well-funded direct competitors (Candid Health $99.5M / AKASA $205M), regulatory/HIPAA compliance exposure |
-| Founder Reach | Nanda Guntupalli: Twitter not found, LinkedIn 500+, GitHub not found. Adam Wax: Twitter not found, LinkedIn ~2,000, GitHub not found. |
-| Distribution Signals | No public data found |
+| Traction | 98% touchless claim rate self-reported (usetaiga.com); 1 named customer — Cheskis Family Therapy (usetaiga.com); 10 EHR integrations, 50+ payers (usetaiga.com); featured in YC LinkedIn post (LinkedIn activity 7455692469058560000) |
+| Revenue Signal | No public data found (no pricing page on usetaiga.com) |
+| Founders | Nanda Guntupalli (Co-Founder): Penn CS/Engineering, parent is physician. Adam Wax (Co-Founder): Penn CS, parent is physician. |
+| Competitors | Candid Health ($99.5M raised, ~250% YoY revenue growth 2024, 200+ orgs — multi-site SaaS focus); Adonis ($95M+ raised, revenue unknown, 4x growth 2025 — broader AI orchestration platform); Akasa ($205M raised, revenue unknown, 650+ hospitals — health-system focus); Mandolin (funding unknown, revenue unknown — specialty drug billing); Opkit (funding unknown, revenue unknown — narrower workflow) |
+| Moat Signals | EHR integrations with 10 named systems + 50+ payers (usetaiga.com); 98% touchless claim rate self-reported (usetaiga.com) |
+| Risk Factors | Well-funded incumbent competition, AI coding liability, EHR platform dependency |
+| Founder Reach | Nanda Guntupalli: Twitter not found, LinkedIn count not retrievable, GitHub not found. Adam Wax: Twitter not found, LinkedIn count not retrievable, GitHub not found. |
+| Distribution Signals | YC Spring 2026 batch (ycombinator.com/companies/taiga); featured in Y Combinator LinkedIn post (LinkedIn activity 7455692469058560000); no Product Hunt launch found |
 | Emails | founders@usetaiga.com |

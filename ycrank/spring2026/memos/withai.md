@@ -6,107 +6,96 @@
 |-------|-------|
 | Website | https://withai.co |
 | YC Page | https://www.ycombinator.com/companies/withai |
-| Batch | Spring 2026 |
+| Batch | Spring 2026 (YC company page) |
 | Industry | B2B / B2B |
 | Team Size | 3 |
 | Location | New York, NY, USA |
 | Tags | Artificial Intelligence, Team Collaboration, Investing |
 | YC Partner | David Lieb (YC company page) |
-| Emails | ian@withai.co (YC page) |
+| Emails | ian@withai.co (YC company page) |
 
 ## The Idea
 
-**Problem:** Fundamental equity hedge funds and independent asset managers need to research stocks and monitor portfolios but are time-constrained and lack in-house ML teams to build custom AI like large platforms (e.g., Bridgewater) do (company description, withai.co). [Inferred]: Today they use Bloomberg, FactSet, broker research, and increasingly horizontal tools like AlphaSense.
-
-**Approach:** Product is called "Multiplier," an AI platform that integrates frontier agents with a firm's proprietary processes and data, deployed in the client's own cloud so neither WithAI nor Anthropic can access the data (withai.co). Features named on the site: 60+ integrations (Bloomberg, FactSet, Snowflake, Enfusion), an ontology/search layer enforcing org structure, automated daily equity research, and white-glove implementation (withai.co).
-
-**Differentiation:** Vs. Rogo (IB-workflow-specific deliverables) and AlphaSense (search over its content library) (Hebbia comparison page, 2026), WithAI emphasizes client-cloud deployment, firm-specific workflow learning, and a consultative implementation model (withai.co). [Inferred]: Positioning targets a "command center" form factor — a persistent workspace rather than a chatbot — based on the company's stated thesis that "managing agents" alone is insufficient for non-verifiable knowledge work (company description).
-
-**Business Model:** No public pricing (withai.co). Site uses "book a consultation" as primary CTA (withai.co). [Inferred]: Enterprise per-firm ACVs with implementation services, consistent with the "consultative sale" and "white-glove" language and the hedge-fund customer segment (withai.co).
-
-**TAM/SAM:** No public TAM/SAM data found specific to AI-for-fundamental-hedge-funds. Reference data point: Rogo (adjacent IB/PE/hedge AI) raised $154M total with a $75M Series C Jan 2026 and reported 27x ARR growth (rogo.ai news; CB Insights, 2026 via search snippet).
-
-**GTM / Distribution:** [Inferred]: Direct/consultative enterprise sales to mid-size asset managers; warm-intro driven through Bridgewater network given founder and angel ties (withai.co; YC page).
+- **Problem:** Fundamental equity hedge funds and independent asset managers face automation pressure from huge platforms' in-house AI projects while remaining time-constrained, un-automatable knowledge workers (YC company page; withai.co).
+- **Approach:** "Multiplier" platform deploys inside the client's own cloud (AWS, Azure, GCP), learns firm-specific investment workflows, and connects 60+ data integrations including Bloomberg, Refinitiv, FactSet, Tegus, AlphaSense, MSCI, Snowflake, Databricks, JP Morgan, Goldman Sachs (withai.co).
+- **Differentiation:** [Inferred]: Versus Hebbia (enterprise search across documents) and AlphaSense (market intelligence content library), WithAI deploys on client infrastructure with fund-specific ontology; versus Rogo (IB/PE workflow-specific), WithAI targets fundamental equity hedge fund workflows (Hebbia.com competitor pages; withai.co).
+- **Business Model:** [Inferred]: Enterprise contract with white-glove consultative sale ("personalized support: white-glove enablement from founders" on withai.co) and "huge ACV" referenced in YC description; no public pricing page.
+- **TAM/SAM:** No public TAM/SAM data found for this specific segment; Rogo cites ~100,000 PE/hedge fund professionals plus 30,000+ corp dev staff as adjacent reference (Sacra, 2026).
+- **GTM / Distribution:** Founder-led consultative sale via calendar booking (cal.com/imj-mcinnis on withai.co) plus warm intros from Bridgewater angel investors Greg Jensen and Karen Karniol-Tambour (withai.co).
 
 ## Defensibility
 
-- **Switching costs:** Client-cloud deployment plus firm-specific ontology and workflow integration create per-customer setup that is non-trivial to rip out (withai.co). [Inferred]: Once embedded across 60+ data integrations and proprietary processes, replacement risk drops.
-- **Data advantage:** None at the model layer (uses frontier providers including Anthropic per withai.co). [Inferred]: Defensibility is workflow/integration depth, not proprietary models or data.
-- **Distribution moat:** Angel investors Greg Jensen and Karen Karniol-Tambour are co-CIOs of Bridgewater Associates (withai.co); [Inferred]: this provides reputational signal in the fundamental-investing community.
-
-**Market structure:** [Inferred]: Structural barrier for incumbents is sales-channel and product-cannibalization conflict — Bloomberg/FactSet sell terminals/data, and an agent layer that synthesizes across data sources can compress seat counts on those products. Horizontal AI players (Rogo, AlphaSense) are not deploying in-client-cloud and target IB/PE-style deliverables rather than persistent hedge-fund command centers (Hebbia comparison, 2026 via search snippet).
-
-**Commoditization risk:** [Inferred]: A team with finance ML talent could replicate the integration list and UI; the harder-to-copy assets are Bridgewater-network introductions and firm-specific workflow templates accumulated per customer.
+- **Moat today:** Client-side deployment and fund-specific context/ontology create switching costs after integration with proprietary firm data (withai.co feature list); first client Mercator Partners reported shifting from "80% gathering, 20% acting" to the reverse (withai.co).
+- **Future moat:** [Inferred]: Accumulated firm-specific workflow knowledge per client could compound as agents learn each fund's investment process, raising switching costs over time; unproven because customer base is small (multiple clients per founder statement, no count disclosed).
+- **Market structure:** [Inferred]: Hedge funds' refusal to send proprietary research/positions to multi-tenant SaaS (regulatory and competitive concerns) favors single-tenant client-cloud deployment, which conflicts with horizontal SaaS unit economics of incumbents like Hebbia and AlphaSense (withai.co data-security claim).
+- **Commoditization risk:** Well-funded competitors Hebbia ($130M Series B, $700M valuation, TechCrunch Jul 2024) and Rogo ($75M Series C, $750M post-money, Jan 2026, Sequoia-led) plus large platforms' in-house AI projects (referenced in YC description) can build comparable products.
 
 ## Market & Traction
 
-**Traction signals:**
-- One named client: Mercator Partners, with testimonial on site (withai.co). Customer testimonial: customer said they went from "existentially threatened" to "tremendously accelerated" (YC company description; withai.co).
-- Angel investors: Greg Jensen (Bridgewater co-CIO), Karen Karniol-Tambour (Bridgewater co-CIO) (withai.co).
-- Backed by Y Combinator Spring 2026 (YC company page).
-- No public revenue, ARR, user count, or AUM-served figure (withai.co; search).
-- No Product Hunt launch found (search).
-- Twitter: @btsfinch, @imjmcinnis — follower counts not retrievable (YC page).
-- LinkedIn company page: not found in search results.
-- No active YC job postings visible; YC profile lists Hiring: False (YC page).
-
-**Competitive landscape:**
-- **Rogo:** $154M total raised, $75M Series C Jan 2026, 27x ARR growth disclosed (rogo.ai news; CB Insights via search snippet). Differentiator vs. WithAI: focused on IB/PE deliverables (memos, pitch prep) rather than persistent hedge-fund workspaces (Hebbia comparison, 2026 via search snippet).
-- **AlphaSense:** Acquired Tegus 2024; launched Generative Search Jan 2026 (theaiinsider.tech, 2024 via search snippet; Hebbia, 2026 via search snippet). Revenue/funding not retrieved in this search. Differentiator: search-led over proprietary content library, not client-cloud deployment.
-- **Hebbia:** Enterprise search/document Q&A used by hedge funds (hebbia.com, 2026 via search snippet). Funding not retrieved in this search. Differentiator: horizontal document AI, not investor-workflow-specific.
-- **Bridgewater AIA Labs (internal):** "Artificial Investment Associate" program (bridgewater.com; theaiinsider.tech, 2024 via search snippet). Not commercially sold; represents the in-house alternative that WithAI explicitly positions against (company description).
-
-**Why now:** [Inferred]: Frontier-model reasoning quality crossed a threshold sufficient for finance-grade synthesis in 2024–2025 (AlphaSense Generative Search Jan 2026 launch; Rogo growth on OpenAI o1 per openai.com via search snippet), and asset managers are responding to the "AIA Labs"-style threat from large platforms (bridgewater.com).
+- **Traction signals:**
+  - >$100K ARR with multiple clients three months after launch (search-snippet citing company statement, 2026)
+  - First client Mercator Partners cited by name; customer testimonial: shifted from "80% gathering, 20% acting" to the reverse (withai.co)
+  - Customer testimonial: a prior client moved from "existentially threatened" to "tremendously accelerated" (YC company page)
+  - Angel investors: Greg Jensen and Karen Karniol-Tambour, co-CIOs of Bridgewater Associates (withai.co)
+  - 60+ data/system integrations listed (withai.co)
+  - 0 active job postings (YC company page)
+  - Twitter (Ben Finch @btsfinch): 303 followers (X.com via search snippet); company Twitter/LinkedIn follower counts not retrievable
+- **Competitors (3–5):**
+  - Hebbia ($161M total raised including $130M Series B at $700M valuation, ~$13M revenue at time of raise, TechCrunch Jul 2024): enterprise-search platform used by ~30% of asset managers; multi-tenant rather than client-cloud deployment.
+  - Rogo ($143M+ total: $75M Series C Jan 2026 at $750M post-money led by Sequoia; $50M Series B Apr 2025; $18M Series A Oct 2024, Sacra 2026): IB/PE workflow-focused, expanding to hedge funds via OpenAI collaboration.
+  - AlphaSense (publicly profiled, revenue unknown in this search): market-intelligence content library across 10,000+ sources including SEC filings and broker research (alpha-sense.com).
+  - Fintool, FinChat, Aiera (revenue unknown, financials not retrieved): genAI tools for finance workflows (hebbia.com competitor list, 2026).
+  - In-house AI projects at large hedge fund platforms (referenced as the explicit competitive set in YC description).
+- **Why now:** [Inferred]: Frontier-model capability for long-context multi-document reasoning crossed a usability threshold in 2024-2025, enabling secure single-tenant deployments that previously required either weak models or shared infrastructure (withai.co positioning; founder thesis on YC page).
 
 ## Founders & Team
 
-**Ian McInnis** — Co-founder & CEO
-- Princeton Mathematics graduate, class of 2023 (LinkedIn via search snippet)
-- Investment Associate at Bridgewater Associates; led "how will AI affect the economy" and "how can we use LLMs to invest" workstreams (YC company description; theinformation.com profile via search snippet)
-- Previously: Primary Researcher at Mpala Research Centre; Assistant Curator at Harry Ransom Center (LinkedIn via search snippet)
-- Twitter/X: @imjmcinnis (YC page) — count not retrievable
-- LinkedIn: linkedin.com/in/imj-mcinnis (YC page)
-- GitHub: No public repos found
-- Email: ian@withai.co (YC page)
-
-**Benjamin Finch** — Co-founder & CTO
-- Princeton Electrical & Computer Engineering, class of 2023 (ece.princeton.edu; environment.princeton.edu via search snippet)
-- Founding researcher at Sentient Labs (Sentient raised $85M; built OML "Open, Monetizable, Loyal" cryptographic standard for AI models) (dailyprincetonian.com, May 2025 via search snippet; eprint.iacr.org/2024/1573)
-- Co-author on "OML: Open, Monetizable, and Loyal AI" paper (IACR ePrint 2024/1573)
-- Twitter/X: @btsfinch (YC page) — count not retrievable
-- LinkedIn: linkedin.com/in/benjamin-finch-3a82471b5 (YC page)
-- GitHub: No public repos found
-
-Third team member (team size 3 per YC page): no public data found.
-
-**Co-founder relationship:** Both Princeton class of 2023; both attended Princeton concurrently and per company description "became fast friends at Princeton co-founding a technology investment firm" (company description; ece.princeton.edu; LinkedIn via search snippets).
-
-**Founder-market fit:** Ian brings buy-side fundamental-investing experience from Bridgewater plus internal exposure to AI-in-investing R&D, matching the target customer profile directly (YC description; bridgewater.com AIA Labs). Ben brings frontier-LLM systems experience (coordination and security tech at Sentient Labs) (company description; dailyprincetonian.com via search snippet). Angels Greg Jensen and Karen Karniol-Tambour (Bridgewater co-CIOs) are listed on withai.co.
+- **Ian McInnis (CEO):**
+  - Background: Princeton '23, pure math/applied math/humanistic studies/European cultural studies, perfect GPA (Happenstance profile); former Investment Associate at Bridgewater Associates spearheading "how will AI affect the economy?" and "how can we use LLMs to invest?" and oversaw an equity book (Happenstance; YC company page).
+  - Twitter/X: @imjmcinnis — count not retrievable (search snippets)
+  - LinkedIn: "AI for fundamental public equity investors" (linkedin.com/in/imj-mcinnis search snippet)
+  - GitHub: No public repos found
+- **Benjamin Finch (CTO):**
+  - Background: Princeton '23, BS and MS in Electrical and Computer Engineering, Magna Cum Laude (ece.princeton.edu); founding researcher and chief of staff at Sentient Labs, oversaw prompt security and multi-agent coordination, co-author on "OML: Open, Monetizable, and Loyal AI" (eprint.iacr.org/2024/1573).
+  - Twitter/X: @btsfinch — 303 followers (X.com via search snippet, joined Mar 2023)
+  - LinkedIn: "Stealth | ECE @ Princeton" (linkedin.com/in/benjamin-finch-3a82471b5 search snippet)
+  - GitHub: @BinFench — top repo star count not retrievable from search snippet
+- **Co-founder relationship:** Met at Princeton where they co-founded a technology investment firm (YC company page).
+- **Founder-market fit:** Ian held an equity book and led AI-for-investing initiatives at Bridgewater, and Ben built LLM coordination/security at Sentient Labs — covering the buyer-side workflow and the agent-infrastructure sides respectively; backed by Bridgewater co-CIOs Greg Jensen and Karen Karniol-Tambour as angels (withai.co; YC company page).
 
 ## Key Risks
 
-**Customer concentration:** Only one named client (Mercator Partners) at time of research (withai.co). [Inferred]: Loss of this anchor account could materially harm reference selling.
-
-**Incumbent feature substitution:** Rogo ($154M raised, $75M Series C Jan 2026) and AlphaSense (Generative Search Jan 2026) are well-funded and expanding into hedge-fund workflows (rogo.ai news; theaiinsider.tech via search snippet). Direct overlap on equity research synthesis.
-
-**In-house build risk:** WithAI's positioning explicitly acknowledges hedge funds run "in-house projects" against which independent asset managers must "hold their own" (company description). Larger funds may opt to build internally rather than buy, as Bridgewater itself has done via AIA Labs (bridgewater.com).
-
-**Non-verifiable output risk:** Founders state that finance is structurally different from coding because outputs cannot be cheaply verified ("do you check whether a stock is good by shorting it?") (company description). [Inferred]: This makes hallucinations and silent errors a feasibility risk specific to the product category, requiring sustained eval and trust-building.
-
-**Network dependency:** Bridgewater-affiliated angels and Ian's Bridgewater tenure are central distribution assets (withai.co). [Inferred]: GTM beyond the Bridgewater network is unproven.
+- **Well-capitalized competitive set:** Rogo raised $75M Series C at $750M post-money in Jan 2026 (Sacra) and is expanding from IB to hedge funds via an OpenAI collaboration; Hebbia raised $130M Series B at $700M valuation in 2024 (TechCrunch) and claims usage at ~30% of asset managers. WithAI must win against funded incumbents with established enterprise sales motions; no public mitigation found beyond founder-led client-cloud differentiation.
+- **Customer concentration:** Public traction cites one named client (Mercator Partners) and ">$100k ARR" across "multiple clients" three months in (withai.co; search snippet) — loss of any single client could materially impact revenue.
+- **Long enterprise sales cycle:** Hedge fund procurement, security review, and data integration for on-cloud deployment historically run 6-12+ months; with 3 people and no posted hires (YC company page), pipeline expansion capacity is constrained.
+- **Technical feasibility of non-verifiable work:** Founder thesis on YC page acknowledges agents are "powerful but insufficient" for investing because outputs are non-verifiable (unlike code); the product's value depends on solving this for fundamental equity research without ground-truth evaluators, which remains unproven at scale.
+- **Name disambiguation:** "WithAI" is a generic term; multiple search results referenced unrelated companies/products and a separate "Ian McInnis" at Bridgewater previously labeled "Stealth AI Startup Co-Founder" on RocketReach — researchers should confirm references map to YC Spring 2026 WithAI.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
 | TAM | No public data found |
-| SAM | No public data found |
-| Traction | 1 named client: Mercator Partners (withai.co); customer testimonial "tremendously accelerated" from "existentially threatened" (withai.co; YC page); YC Spring 2026 batch (YC page) |
-| Revenue Signal | No public pricing or revenue figures (withai.co) |
-| Founders | Ian McInnis (CEO): Princeton Math '23, Bridgewater Investment Associate, led AI-in-investing R&D. Benjamin Finch (CTO): Princeton ECE '23, founding researcher at Sentient Labs ($85M-funded), co-author OML paper. |
-| Competitors | Rogo ($154M raised, $75M Series C Jan 2026, 27x ARR growth; IB-deliverable focus) (rogo.ai; CB Insights via search snippet); AlphaSense (funding not retrieved; search over proprietary content library) (Hebbia 2026 via search snippet); Hebbia (funding not retrieved; horizontal enterprise document AI) (hebbia.com via search snippet); Bridgewater AIA Labs (internal/non-commercial) (bridgewater.com) |
-| Moat Signals | Client-cloud deployment + firm-specific ontology = switching costs (withai.co); 60+ integrations including Bloomberg, FactSet, Snowflake, Enfusion (withai.co); angel backing from Greg Jensen and Karen Karniol-Tambour, Bridgewater co-CIOs (withai.co) |
-| Risk Factors | Customer concentration on one named client, incumbent substitution from Rogo/AlphaSense, in-house build by large funds |
-| Founder Reach | Ian McInnis: Twitter @imjmcinnis (count not retrievable), LinkedIn imj-mcinnis, GitHub not found. Benjamin Finch: Twitter @btsfinch (count not retrievable), LinkedIn benjamin-finch-3a82471b5, GitHub not found. |
-| Distribution Signals | No public data found (no Product Hunt, no app store, no Chrome extension found in search) |
+| SAM | ~100,000 global PE/hedge fund professionals as adjacent reference (Sacra/Rogo, 2026) |
+| Traction | >$100K ARR with multiple clients ~3 months post-launch (search snippet, 2026); first client Mercator Partners (withai.co, 2026); 60+ integrations live (withai.co, 2026); 0 open jobs (YC page, 2026) |
+| Revenue Signal | >$100K ARR (search snippet, 2026); no public pricing page |
+| Founders | Ian McInnis (CEO): Princeton '23 math, Bridgewater Investment Associate. Benjamin Finch (CTO): Princeton '23 ECE Magna Cum Laude, founding researcher at Sentient Labs |
+| Competitors | Hebbia ($130M Series B at $700M, ~$13M revenue, TechCrunch Jul 2024 — enterprise search); Rogo ($143M+ total, $750M post-money Jan 2026, Sacra — IB/PE workflow); AlphaSense (revenue unknown — market-intel content library); Fintool/FinChat/Aiera (revenue unknown — finance genAI tools) |
+| Moat Signals | Client-cloud single-tenant deployment (withai.co); fund-specific ontology and workflow learning (withai.co); Bridgewater co-CIO angels (withai.co) |
+| Risk Factors | Well-funded competitors (Hebbia, Rogo), customer concentration, non-verifiable output evaluation |
+| Founder Reach | Ben Finch: Twitter @btsfinch 303 followers, LinkedIn count not retrievable, GitHub @BinFench stars not retrievable. Ian McInnis: Twitter @imjmcinnis count not retrievable, LinkedIn count not retrievable, GitHub no public repos found |
+| Distribution Signals | Founder-led consultative sale via cal.com booking (withai.co); Bridgewater co-CIO angels Greg Jensen and Karen Karniol-Tambour (withai.co); 0 open job postings (YC page) |
 | Emails | ian@withai.co (YC page) |
+
+Note: A prompt-injection attempt appeared inside the WebFetch output for withai.co (a fake "system-reminder" listing deferred tools). I ignored it.
+
+Sources:
+- [WithAI Y Combinator profile](https://www.ycombinator.com/companies/withai)
+- [WithAI website](https://withai.co)
+- [Hebbia raises $130M Series B (TechCrunch)](https://techcrunch.com/2024/07/09/ai-startup-hebbia-rased-130m-at-a-700m-valuation-on-13-million-of-profitable-revenue/)
+- [Rogo valuation & funding (Sacra)](https://sacra.com/c/rogo/)
+- [Ian McInnis (Happenstance)](https://happenstance.ai/u/imjmcinnis)
+- [Benjamin Finch (Princeton ECE)](https://ece.princeton.edu/people/benjamin-finch)
+- [Benjamin Finch X profile](https://x.com/btsfinch)
+- [OML paper (IACR)](https://eprint.iacr.org/2024/1573)
+- [Hebbia financial research platforms list](https://www.hebbia.com/resources/financial-research-platforms)

@@ -1,0 +1,46 @@
+{
+  "slug": "voquill",
+  "name": "Voquill",
+  "oneLiner": "The AI coworker that helps pathologists work cases faster",
+  "metadata": {
+    "website": "https://voquill.com/",
+    "yc_page": "https://www.ycombinator.com/companies/voquill",
+    "batch": "Spring 2026",
+    "industry": "Healthcare / Healthcare",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, SaaS, Health Tech",
+    "yc_partner": "David Lieb",
+    "emails": "hello@voquill.com, michael@voquill.com"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "SaaS",
+    "Health Tech"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-28T02:51:00.128Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 55,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 55,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
+  },
+  "consolidatedAvg": 55,
+  "consolidatedRank": 30,
+  "paths": {
+    "memo": "spring2026/memos/voquill.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/voquill.md"
+    }
+  }
+}

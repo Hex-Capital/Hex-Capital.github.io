@@ -5,7 +5,7 @@
   "metadata": {
     "website": "https://silmaril.dev",
     "yc_page": "https://www.ycombinator.com/companies/silmaril",
-    "batch": "Spring 2026",
+    "batch": "Spring 2026 (P26)",
     "industry": "B2B / B2B",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
@@ -17,58 +17,28 @@
     "Security"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-22T23:32:48.475Z",
+  "memoGeneratedAt": "2026-05-28T02:42:15.604Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 61,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 66,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 48,
+      "score": 52,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 46,
-    "EG": 61,
-    "NR": 66,
-    "PG": 46,
-    "PT": 41,
-    "SL": 38,
-    "VK": 48
+    "CB": 52,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 49.43,
-  "consolidatedRank": 26,
+  "consolidatedAvg": 52,
+  "consolidatedRank": 46,
   "paths": {
     "memo": "spring2026/memos/silmaril.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/silmaril.md",
-      "elad-gil": "spring2026/evals/elad-gil/silmaril.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/silmaril.md",
-      "paul-graham": "spring2026/evals/paul-graham/silmaril.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/silmaril.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/silmaril.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/silmaril.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/silmaril.md"
     }
   }
 }

@@ -1,6 +1,6 @@
 ﻿# Klarify
 
-> AI-native operating system for mental health practices
+> AI Agent for Therapists
 
 | Field | Value |
 |-------|-------|
@@ -10,108 +10,95 @@
 | Industry | Healthcare / Healthcare -> Healthcare IT |
 | Team Size | 4 |
 | Location | San Francisco, CA, USA |
-| Tags | Mental Health Tech, SaaS, Health Tech, B2B, AI |
-| YC Partner | Andrew Miklas (YC company page) |
-| Emails | info@klarify.ca (klarify.ca contact), moody@klarify.ca (YC page) |
+| Tags | Artificial Intelligence, Mental Health Tech, SaaS, Health Tech, B2B |
+| YC Partner | Andrew Miklas |
+| Emails | info@klarify.ca, moody@klarify.ca (Klarify website + YC page) |
 
 ## The Idea
 
-**Problem:** Therapists in private practice spend hours after sessions on administrative work — clinical notes, treatment plans, insurance claims, supervision prep, marketing/profile pages — using legacy practice management software that "records what therapists do" but cannot perform the work (klarify.ca; YC page). Founder framing: "Practice management software has existed for decades. It records what therapists do. It can't actually do any of it" (YC description).
-
-**Approach:** "Klara," Klarify's AI agent, ingests session content (recording/transcription) and generates clinical notes across 20+ formats (SOAP, DAP, BIRP, CBT, EMDR), treatment plans, clinical letters, insurance claims, client homework, supervision prep, and marketing profile pages (klarify.ca features list). The pitch is workflow execution after the session, not just transcription.
-
-**Differentiation:** Closest direct comparables are AI-note tools for therapists (Mentalyc, Heidi, Upheal, Blueprint). Per Mentalyc's comparison content, Heidi is a generalist medical scribe; Mentalyc is mental-health-focused note generation; Blueprint pairs notes with measurement-based outcomes; Upheal positions as a full AI-native EHR for therapists (mentalyc.com; upheal.io). [Inferred]: Klarify's differentiation claim is breadth of post-session workflow coverage (claims, supervision, client homework, marketing profile) rather than notes alone — based on the feature list at klarify.ca.
-
-**Business Model:** Per-therapist SaaS subscription, 4 tiers visible on klarify.ca pricing: Seed $0/mo (10 sessions), Sprout $16/mo (70 sessions), Bloom $32/mo (130 sessions), Forest $71/mo (unlimited); group/clinic rates via info@klarify.ca (klarify.ca pricing, May 2026 fetch).
-
-**TAM/SAM:** Mental Health Practice Management Software estimated at USD 2.42B in 2025, projected to USD 7.81B by 2035 at 12.44% CAGR (Towards Healthcare, 2025 via search snippet). Broader behavioral/mental health software market projected to USD 14.6B by 2033 at 11.7% CAGR (Allied Market Research via search snippet). No public SAM data found specific to AI-native therapy workflow software.
-
-**GTM / Distribution:** Klarify produces the "Future of Therapy" podcast and newsletter, reported to reach "over 27,000 therapists across North America" (search snippet referencing klarify.ca podcast page). Sponsorship listing for Canadian Counselling & Psychotherapy Month 2026 (ccpa-accp.ca). [Inferred]: Primary acquisition is content-led (podcast/newsletter), bottoms-up self-serve via tiered pricing, with Canadian counselling association partnerships as an early channel — based on the podcast reach, pricing structure, and CCPA sponsorship.
+- **Problem:** Therapists spend hours nightly on clinical notes, treatment plans, insurance claims, supervision prep, and client acquisition outside of session time, with legacy practice management software only recording the work rather than performing it (klarify.ca, May 2026).
+- **Approach:** "Klara," an AI assistant, ingests session recordings/dictation and produces structured notes across 20+ formats (SOAP, BIRP, DAP, EMDR, CBT, ACT, IFS), drafts treatment plans, generates referral letters, extracts CPT codes for insurance claims, and creates between-session client worksheets, with HIPAA/PIPEDA/PHIPA compliance and no EHR integration required (klarify.ca, May 2026).
+- **Differentiation:** vs. Mentalyc/Upheal/Blueprint (note-taking + analytics tools), Klarify positions as full administrative agent including insurance claim filing and client acquisition rather than documentation-only (Klarify YC Launch, May 2026); vs. Heidi (medical-grade scribe), Klarify is psychotherapy-specific with format library spanning EMDR/IFS/EFT (klarify.ca).
+- **Business Model:** Freemium SaaS — Seed free (10 sessions/mo), Sprout $16/mo (70 sessions), Bloom $32/mo (130 sessions), Forest $71/mo unlimited (klarify.ca pricing page, May 2026).
+- **TAM/SAM:** Klarify cites "$40B US outpatient mental health market" (YC Launch page, May 2026); global AI medical scribing market estimated at $1.39B in 2025, projected $8.93B by 2035 at 20.48% CAGR (Towards Healthcare, 2025); global AI in mental health market $1.71B in 2025 (Grand View Research, 2025).
+- **GTM / Distribution:** [Inferred]: Bottom-up self-serve via free tier converting to paid, supported by Moody's "Future of Therapy Podcast" hosting (Klarify YC Launch, May 2026) and therapist word-of-mouth — reasoning: visible free plan, no enterprise sales hires noted, and 0 active YC job postings (YC page).
 
 ## Defensibility
 
-- **Workflow surface area:** Klarify covers notes, treatment plans, claims, supervision, homework, and profile pages (klarify.ca). [Inferred]: Switching costs grow with the number of workflows a therapist migrates onto a single tool, vs. point-solution AI scribes; unproven at this stage.
-- **Data/content asset:** "309,121 notes written by Klara" cited on klarify.ca. [Inferred]: Volume could enable model-tuning advantages over time, but no public evidence of proprietary fine-tuning.
-- **Audience asset:** 27,000+ therapist newsletter/podcast reach (search snippet) functions as an owned distribution channel.
-- **Regulatory:** Canadian data residency claim — "data stays in Canada, never trains on user information" (search snippet). No public data found on HIPAA/PHIPA certifications or audits.
-
-**Market structure:** No structural barrier identified at this stage. [Inferred]: Incumbent EHRs (SimplePractice, TherapyNotes, Jane) face workflow re-architecture and AI-cost integration friction rather than a hard structural block; risk that an incumbent ships a comparable AI module is real.
-
-**Commoditization risk:** Multiple well-funded competitors already shipping AI scribe + EHR functionality (Upheal $14.35M total funding, Series A Sep 2025; Mentalyc; Blueprint) (upheal.io blog; PitchBook via search snippet). [Inferred]: Core AI-note generation is rapidly commoditizing; durable advantage will depend on full-workflow depth, billing/claims integration, and therapist trust/distribution.
+- **Moat today:** Format breadth (20+ therapy-specific note formats including EMDR/IFS/EFT/Family) and tri-jurisdiction compliance (HIPAA, PIPEDA, PHIPA) (klarify.ca, May 2026); 309,121 notes generated forms an early data asset (klarify.ca traction widget, May 2026).
+- **Future moat:** [Inferred]: Cross-session memory ("Mindmaps tracking client patterns over time," klarify.ca) could become switching-cost moat as longitudinal client data accumulates within Klarify; unproven now because dataset is early and competitor Blueprint already claims "1M+ completed sessions" (Blueprint Series A announcement, 2023).
+- **Market structure:** [Inferred]: No clear structural barrier preventing incumbents from copying — practice management EHRs (SimplePractice, TherapyNotes) can bolt on AI scribe modules; differentiation rests on product breadth and execution speed rather than channel or unit-economics barriers.
+- **Commoditization risk:** AI scribe space is crowded with funded entrants — Mentalyc, Upheal ($14.35M total funding, Upheal blog), Blueprint ($9M Series A, PRNewswire 2023), Heidi, plus general medical scribes (Freed, DeepCura); LLM API access means technical barrier is low (search snippets, May 2026).
 
 ## Market & Traction
 
-**Traction signals:**
-- 5,200 therapists using Klarify (YC company page, May 2026)
-- 2,154 therapists shown as live counter on klarify.ca (May 2026 fetch) — discrepancy with YC's 5,200 figure; one of these may be cumulative vs. active. No public reconciliation found.
-- 309,121 notes written by Klara (klarify.ca, May 2026)
-- 31,696 hours "returned to care" (klarify.ca, May 2026)
-- "Future of Therapy" newsletter & podcast reaches 27,000+ therapists in North America (search snippet)
-- Earlier reference: "over 4,800 therapists" (search snippet, undated)
-- Sponsorship of Canadian Counselling & Psychotherapy Month 2026 (ccpa-accp.ca)
-- LinkedIn company page klarify-me — different entity (allergy company, 228 followers); no Klarify therapist company page found
-- No public data found on Product Hunt launch, Twitter/X follower count, Discord/Slack community, app store presence, or web traffic.
-- Customer testimonials on klarify.ca: Dennis Pusch, PhD, RPsych (Clinical Co-Leader); Kelly Copeland, M.Ed, RCT, CCC, CTRS.
-
-**Competitive landscape:**
-- **Upheal** — $14.35M total funding; Series A $10M led by Headline (Sep 2025); $3.25M seed prior (upheal.io blog). Differentiator vs. Klarify: positions as full AI-native EHR (notes + scheduling + billing + compliance) (upheal.io). Revenue/ARR: unknown.
-- **Mentalyc** — $105K raised from Berkeley SkyDeck, Berlin Innovation Agency, Entrepreneurs First (PitchBook via search snippet). Differentiator: deep template library across CBT, EMDR, ABA, play therapy; mental-health-only focus (mentalyc.com). Revenue/ARR: unknown.
-- **Blueprint (blueprint.ai)** — funding amount not found in search results. Differentiator: pairs documentation with measurement-based outcomes tracking; can plug into existing EHRs (mentalyc.com Blueprint review; blueprint.ai). Revenue/ARR: unknown.
-- **Heidi Health** — funding not searched here. Differentiator: generalist medical AI scribe across psychiatry, primary care, specialist settings — not mental-health-specific (mentalyc.com via search snippet). Revenue/ARR: unknown.
-- **Adjacent incumbents (not searched in detail):** SimplePractice, Jane, TherapyNotes — full PM/EHR suites without AI-native workflow execution per the comparative landscape framing in mentalyc.com guides.
-
-**Why now:** [Inferred]: GPT-class transcription and reasoning crossed accuracy thresholds for clinical-format note generation in 2023–2024, enabling AI-scribe products to ship at scale (evidenced by competitor ship/funding cadence: Upheal $3.25M seed → $10M Series A within ~24 months). [Inferred]: Therapist burnout post-COVID and continued provider shortages amplify willingness to adopt automation. No company-stated "why now" found.
+- **Traction signals:**
+  - ~6,000 therapists on platform (Klarify YC company page, May 2026)
+  - 2,154 therapists, 309,121 notes generated, 31,696 hours returned to clinical care (klarify.ca live counter, May 2026 — discrepancy with YC page figure noted)
+  - Launched YC Spring 2026, page indicates "16 days ago" at fetch time (Klarify YC Launch page, May 2026)
+  - LinkedIn company page: linkedin.com/company/klarifytherapy/ (YC page); follower count not retrievable
+  - Founder Twitter @MoodyAbdulf — count not retrievable (X.com)
+  - Future of Therapy Podcast hosted by Moody Abdul on Apple Podcasts (search snippet, May 2026)
+  - 0 active job postings on YC page (YC company page, May 2026)
+- **Competitors:**
+  - Blueprint ($9M Series A, co-led by Ensemble + Lightbank; ~4,500 clinicians across 34 states; 1M+ sessions analyzed): measurement-based care focus with pre-session assessments and outcome tracking (Blueprint.ai blog; PRNewswire 2023)
+  - Upheal ($14.35M total: $1.05M pre-seed + $3.25M seed led by Credo Ventures + $10M Series A led by Headline; 70,000+ providers): full EHR + AI notes + scheduling + billing (Upheal blog; PitchBook)
+  - Mentalyc (~$200K convertible note from Berkeley SkyDeck, 2022; 30,000+ therapists; ~$2.9M revenue with 26 employees per Latka): note-taking + automation focus, integrates with SimplePractice and TherapyNotes (Crunchbase; getlatka.com)
+  - Heidi Health (revenue unknown via this research): medical-grade general scribe used across psychiatry/primary care, not psychotherapy-specific (DeepCura comparison, 2026)
+  - Freed (revenue unknown via this research): general clinician AI scribe, not therapy-specialized (Upheal comparison page)
+- **Why now:** [Inferred]: LLM accuracy/cost crossed threshold for vertical-specific clinical documentation in 2023-2024 (multiple competitor seed rounds in this window: Upheal seed Feb 2024, Blueprint Series A 2023); telehealth utilization remained 38x pre-pandemic baseline driving therapist documentation load (search snippet citing industry reports, 2025).
 
 ## Founders & Team
 
-**Moody Abdul** — Founder & CEO
-- Education: BCom, University of British Columbia (LinkedIn via search snippet)
-- Prior: Enterprise Account Executive at LinkedIn (B2B marketing advisory); Product Manager / Management Consultant at Accenture (search snippet)
-- Prior ventures: Founder of CircleBack (took to $50K ARR in 4 months, search snippet); co-founder of RecruitHer (search snippet)
-- Hosts "Future of Therapy" podcast/newsletter (apple podcasts; klarify.ca)
-- LinkedIn: linkedin.com/in/moodyabdul (count not retrievable)
-- Personal site: moodyabdul.com
-- Twitter/X: No public account found in searches
-- GitHub: No public account found in searches
-
-**Alexander Bergholm** — Founder & CTO
-- Based in Toronto, ON, Canada (LinkedIn via search snippet)
-- Prior: Senior Associate ML Engineer → DevOps ML Engineer at Workday (built scalable ML recommendation system; oversaw ML inference deployment) (LinkedIn via search snippet)
-- Earlier: Finnish Defence Forces (Puolustusvoimat) (search snippet)
-- LinkedIn: ca.linkedin.com/in/bergholmalexander (count not retrievable)
-- GitHub: github.com/bergholmalexander — repo/star count not retrievable from search snippet
-- Twitter/X: No public account found in searches
-
-**Other team:** YC lists team size = 4 (YC page). ZoomInfo references "Klara Carames, Principal and Founder - Chief Operating Organizer" and "Mj Fadaee, Advisor" — unverified third-party data; not confirmed on klarify.ca or YC page (zoominfo.com via search snippet). The product's AI agent is also branded "Klara"; possible name overlap.
-
-**Co-founder relationship:** No shared employer or university overlap visible in Phase 3 data (Abdul: UBC/Accenture/LinkedIn; Bergholm: Workday/Finnish Defence Forces). No public data on co-founder history.
-
-**Founder-market fit:** Abdul brings B2B SaaS sales (LinkedIn), management consulting (Accenture), and a prior 0→$50K ARR founder loop (CircleBack), plus an owned distribution asset (Future of Therapy podcast/newsletter, 27K+ therapists). Bergholm brings ML engineering and ML-ops production experience from Workday. [Inferred]: Sales/distribution + ML production is a coherent split for a B2B AI-workflow product, though neither founder has documented prior clinical/mental-health domain experience per public sources.
+- **Moody Abdul (CEO):**
+  - Background: Previously co-founded Circleback.ai (YC W24, AI meeting notes), which raised $2.5M seed (LinkedIn YC post, Nov 2024); led Circleback to $50K ARR in 4 months (search snippet, Apollo.io); prior Enterprise Account Executive at LinkedIn where he "sold $20M in enterprise contracts" (Klarify YC Launch, May 2026); hosts "Future of Therapy Podcast" (Apple Podcasts).
+  - Twitter/X: @MoodyAbdulf — count not retrievable (x.com/moodyabdulf)
+  - LinkedIn: linkedin.com/in/moodyabdul/ — "Klarify" (LinkedIn search result)
+  - GitHub: No public account found in this research
+- **Alexander Bergholm "Bergie" (CTO):**
+  - Background: BSc Computer Science, University of British Columbia 2015-2020 (LinkedIn via search snippet); ML/DevOps engineer at Workday building LLM infrastructure (LinkedIn; Klarify YC Launch); published computer vision research and holds a patent from UBC related to self-driving cars (Klarify YC Launch, May 2026); prior research with Finnish Defence Forces Special Task Force on deep learning (Klarify YC Launch).
+  - Twitter/X: No public account found in this research
+  - LinkedIn: linkedin.com/in/bergholmalexander/ — "Klarify (YC P26)" (LinkedIn)
+  - GitHub: @bergholmalexander (github.com/bergholmalexander); top repo / star count not retrievable
+- **Co-founder relationship:** No public data on shared prior employer or university — Moody's prior company (Circleback) is in Toronto/SF orbit and Bergie was based in Toronto/Vancouver via UBC and Workday; specific connection not documented in public sources.
+- **Founder-market fit:** [Inferred]: Moody has repeat-founder experience in adjacent vertical (AI meeting notes at Circleback W24) plus enterprise SaaS sales background at LinkedIn (Klarify YC Launch); Bergie brings production LLM infrastructure experience from Workday (Klarify YC Launch) — combination maps to building + selling clinical AI software, though neither founder has documented clinical/therapy domain background.
 
 ## Key Risks
 
-**Competitive pressure from better-funded incumbents:** Upheal raised a $10M Series A in Sep 2025 (upheal.io) and pitches the same "AI-native EHR for therapists" positioning. Klarify must differentiate on workflow breadth (claims, supervision, marketing profile pages) before Upheal/Blueprint match feature surface.
-
-**Traction figure inconsistency:** klarify.ca shows 2,154 therapists while YC page states 5,200 therapists; an earlier search snippet cited "over 4,800." No public reconciliation. Risk that "users" definition is loose (free-tier signups vs. paying) — material to revenue model.
-
-**Regulated data handling without disclosed certifications:** Product handles session recordings and clinical content. Public site claims Canadian data residency but no public data found on HIPAA, PHIPA, SOC 2, or BAA availability — gating for US clinic/payer expansion.
-
-**Insurance claims execution risk:** "Insurance claim filing automation" is a feature claim (klarify.ca). [Inferred]: US payer claims involve 837P/EDI integration, clearinghouse contracts, and denials management — feasibility at promised quality with a 4-person team is unverified by public evidence.
-
-**Domain expertise gap:** Neither founder's documented background (LinkedIn sales/Accenture; Workday ML) shows clinical mental-health practice experience. [Inferred]: Mitigated partly by the "Future of Therapy" podcast network and named clinician testimonials (Pusch, Copeland), but no clinical co-founder or chief clinical officer disclosed.
+- **Crowded, well-funded competitive set:** Direct competitors Upheal ($14.35M raised, 70K providers — Upheal blog) and Blueprint ($9M Series A, 4,500 clinicians, 1M+ sessions — PRNewswire 2023) have multi-year head starts on user base, data, and capital; Klarify's differentiation (claims/client-acquisition/supervision) must scale before competitors close those feature gaps. No public mitigation found.
+- **Traction figure inconsistency:** Klarify YC page states "nearly 6,000 therapists" (YC company page, May 2026) while klarify.ca live counter shows 2,154 therapists (klarify.ca, May 2026); definition of "user" (free tier signups vs. active paying) is not disclosed, creating diligence uncertainty about actual paying base.
+- **Insurance claim accuracy / regulatory exposure:** Klarify states the product "extracts relevant codes and completes insurance claims" (klarify.ca) — incorrect CPT coding can trigger payer audits or fraud allegations against therapists; no public data on accuracy benchmarks, error liability terms, or clearinghouse partnerships.
+- **No EHR integration may become a ceiling:** Klarify markets "works with all EHRs and telehealth platforms with no integration needed" (klarify.ca/search snippet); group practices often require write-back into SimplePractice/TherapyNotes (which Mentalyc and Blueprint already integrate with per search snippets), capping expansion into group/enterprise accounts.
+- **Founder concentration on prior venture:** Moody co-founded Circleback (YC W24, raised $2.5M seed — LinkedIn YC, Nov 2024) approximately 12-18 months before Klarify's YC Spring 2026 batch; public sources do not clarify Moody's current status at Circleback or whether time-split exists between the two companies.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Mental Health Practice Management Software USD 2.42B in 2025, projected USD 7.81B by 2035 at 12.44% CAGR (Towards Healthcare, 2025 via search snippet); broader behavioral/mental health software USD 14.6B by 2033 at 11.7% CAGR (Allied Market Research via search snippet) |
-| SAM | No public data found |
-| Traction | 5,200 therapists (YC page, May 2026); 2,154 therapists (klarify.ca live counter, May 2026); 309,121 notes generated (klarify.ca, May 2026); 31,696 hours saved (klarify.ca, May 2026); 27,000+ therapist newsletter/podcast reach (klarify.ca podcast page via search snippet); Canadian Counselling & Psychotherapy Month 2026 sponsor (ccpa-accp.ca) |
-| Revenue Signal | Pricing tiers: Seed $0, Sprout $16/mo, Bloom $32/mo, Forest $71/mo per therapist (klarify.ca pricing page, May 2026); group/clinic rates via info@klarify.ca; no ARR disclosed |
-| Founders | Moody Abdul (CEO): BCom UBC; ex-LinkedIn AE, ex-Accenture PM/consultant; founded CircleBack ($50K ARR in 4 months) and RecruitHer (LinkedIn/search snippet). Alexander Bergholm (CTO): ex-Workday Sr. Associate ML Engineer / DevOps ML Engineer; Finnish Defence Forces (LinkedIn/search snippet) |
-| Competitors | Upheal ($14.35M raised, Sep 2025 Series A $10M led by Headline, ARR unknown — full AI-native EHR positioning, upheal.io); Mentalyc ($105K raised from Berkeley SkyDeck/Entrepreneurs First, ARR unknown — mental-health-only template depth, PitchBook via search snippet); Blueprint (funding not found, ARR unknown — AI documentation + measurement-based outcomes, blueprint.ai); Heidi Health (funding not searched, ARR unknown — generalist medical scribe, mentalyc.com via search snippet) |
-| Moat Signals | 309,121 notes generated as proprietary workflow data (klarify.ca); 27,000+ therapist owned audience via Future of Therapy podcast/newsletter (klarify.ca via search snippet); Canadian data residency claim (search snippet) |
-| Risk Factors | Better-funded direct competitor (Upheal $14.35M); user-count discrepancy across sources (2,154 vs 5,200); no public HIPAA/PHIPA/SOC 2 disclosures |
-| Founder Reach | Moody Abdul: Twitter not found, LinkedIn linkedin.com/in/moodyabdul (count not retrievable), GitHub not found. Alexander Bergholm: Twitter not found, LinkedIn ca.linkedin.com/in/bergholmalexander (count not retrievable), GitHub github.com/bergholmalexander (stars not retrievable) |
-| Distribution Signals | Future of Therapy podcast on Apple Podcasts (podcasts.apple.com/ca, id1745158439); 27,000+ newsletter/podcast reach (klarify.ca via search snippet); Canadian Counselling & Psychotherapy Month 2026 sponsor (ccpa-accp.ca); no Product Hunt launch found; no Klarify therapist LinkedIn company page found |
-| Emails | info@klarify.ca (klarify.ca), moody@klarify.ca (YC page) |
+| TAM | "$40B US outpatient mental health market" (Klarify YC Launch, May 2026); Global AI medical scribing $1.39B in 2025, 20.48% CAGR to $8.93B by 2035 (Towards Healthcare, 2025) |
+| SAM | Global AI in mental health $1.71B in 2025, projected $9.12B by 2033 at 23.29% CAGR (Grand View Research, 2025) |
+| Traction | ~6,000 therapists (YC page, May 2026); 2,154 therapists / 309,121 notes / 31,696 hours returned (klarify.ca, May 2026); Spring 2026 YC launch (YC Launch, May 2026) |
+| Revenue Signal | Free + $16/mo (70 sessions) + $32/mo (130 sessions) + $71/mo unlimited (klarify.ca pricing, May 2026); no public ARR disclosure |
+| Founders | Moody Abdul (CEO): Co-founder Circleback.ai (YC W24, $2.5M seed), ex-LinkedIn enterprise AE ($20M contracts). Alexander Bergholm "Bergie" (CTO): UBC CS, ex-Workday ML/LLM infra, CV patent + Finnish Defence Forces deep learning research. |
+| Competitors | Blueprint ($9M Series A, revenue unknown, measurement-based care focus, PRNewswire 2023); Upheal ($14.35M total, revenue unknown, full EHR + AI, Upheal blog); Mentalyc ($200K convertible, ~$2.9M revenue per Latka, SimplePractice/TherapyNotes integrations); Heidi (funding/revenue unknown, general medical scribe); Freed (funding/revenue unknown, general clinician scribe) |
+| Moat Signals | 20+ therapy-specific note formats incl. EMDR/IFS/EFT; HIPAA + PIPEDA + PHIPA compliance; 309,121 notes generated (klarify.ca, May 2026) |
+| Risk Factors | Crowded well-funded competitor set, traction figure inconsistency (2,154 vs 6,000), insurance-coding regulatory exposure |
+| Founder Reach | Moody Abdul: Twitter @MoodyAbdulf count not retrievable, LinkedIn /in/moodyabdul/ (count not retrievable), GitHub not found; Alexander Bergholm: Twitter not found, LinkedIn /in/bergholmalexander/ (count not retrievable), GitHub @bergholmalexander (star count not retrievable) |
+| Distribution Signals | YC Spring 2026 launch page (ycombinator.com/launches/QKh-klarify, May 2026); Future of Therapy Podcast on Apple Podcasts hosted by Moody Abdul; LinkedIn company page linkedin.com/company/klarifytherapy/; 0 active YC job postings |
+| Emails | info@klarify.ca (klarify.ca contact), moody@klarify.ca (YC page) |
+
+Sources:
+- [Klarify — klarify.ca](https://www.klarify.ca/)
+- [Klarify YC Company Page](https://www.ycombinator.com/companies/klarify)
+- [Klarify YC Launch Page](https://www.ycombinator.com/launches/QKh-klarify-ai-agent-for-therapists)
+- [Moody Abdul LinkedIn](https://www.linkedin.com/in/moodyabdul/)
+- [Alexander Bergholm LinkedIn](https://ca.linkedin.com/in/bergholmalexander)
+- [Alexander Bergholm GitHub](https://github.com/bergholmalexander)
+- [Circleback YC W24 Seed Announcement](https://www.linkedin.com/posts/y-combinator_circleback-yc-w24-has-raised-25-million-activity-7267243377115455488-Nrxl)
+- [Blueprint $9M Series A — PRNewswire](https://www.prnewswire.com/news-releases/blueprint-raises-9-million-series-a-to-help-mental-health-clinicians-deliver-higher-quality-care-in-less-time-301864811.html)
+- [Upheal $3.25M Seed Announcement](https://www.upheal.io/blog/upheal-secures-3-25-million-to-streamline-clinical-workflows-for-mental-health-professionals)
+- [Upheal $10M Series A Announcement](https://www.upheal.io/blog/upheal-secures-10m-to-help-reduce-clinician-burnout-and-improve-client-outcomes-with-their-ai-powered-platform)
+- [Mentalyc Crunchbase Profile](https://www.crunchbase.com/organization/mentalyc-inc)
+- [AI Medical Scribing Market — Towards Healthcare](https://www.towardshealthcare.com/insights/ai-in-medical-scribing-market-sizing)
+- [AI in Mental Health Market — Grand View Research](https://www.grandviewresearch.com/industry-analysis/ai-mental-health-market-report)
+- [DeepCura Best AI Scribe for Therapists 2026](https://www.deepcura.com/resources/best-ai-scribe-for-therapists)

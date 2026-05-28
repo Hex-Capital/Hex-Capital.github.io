@@ -1,6 +1,6 @@
 ﻿# Foaster
 
-> Your AI-native partner for AI transformation. 
+> The AI-native consulting firm for AI transformation.
 
 | Field | Value |
 |-------|-------|
@@ -10,115 +10,94 @@
 | Industry | B2B / B2B |
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
-| Tags | Artificial Intelligence, B2B, Enterprise Software |
+| Tags | B2B, Enterprise Software, AI |
 | YC Partner | Nicolas Dessaigne |
-| Emails | No public data found |
+| Emails | raphael.dabadie@foaster.ai (YC page) |
 
 ## The Idea
 
-**Problem:** Enterprises are struggling to operationalize AI. The Foaster website cites MIT (2025) data that a negligible share of enterprise GenAI pilots deliver measurable financial returns, S&P Global data that companies are abandoning most AI initiatives, and McKinsey data that few consider themselves mature in AI deployment (foaster.ai). The current solution set is traditional management consulting — expensive, slow, and reliant on human interviews that may not capture ground-truth workflows at scale.
-
-**Approach:** Foaster deploys AI agents that conduct parallel 45-minute interviews across an organization, capturing workflows, tools, handoffs, bottlenecks, and dependencies (foaster.ai). From these interviews it builds an operational map and produces a transformation blueprint. Three product tiers exist (foaster.ai):
-- **AI Transformation Assessment** (~10 days): one-time diagnostic with AI interviews, operational mapping, interactive dashboard, and prioritized roadmap.
-- **Continuous AI Transformation** (ongoing): adds monthly tracking, personalized employee upskilling briefings, and dedicated expert support.
-- **Enterprise Deployment** (custom): adds forward-deployed engineers and custom integrations.
-
-The company claims people are "surprisingly candid" with AI interviewers compared to human consultants, and that the process takes ~10 days versus months for traditional approaches (foaster.ai).
-
-**Differentiation:** vs. traditional consulting (McKinsey, BCG, Deloitte): Foaster automates the data-gathering phase via AI agents conducting hundreds of interviews in parallel, replacing large consulting teams. vs. Celonis/process mining tools: Foaster captures unstructured human knowledge (opinions, perceived bottlenecks, handoff pain) rather than mining system logs. vs. Wonderful AI / Ema: those companies deploy AI agents to execute tasks; Foaster maps operations and prescribes where AI should go. [Inferred]: The interview-based approach captures tacit organizational knowledge that process mining from IT systems cannot.
-
-**Business Model:** No public pricing page found. [Inferred]: Most likely a tiered subscription/engagement model — one-time assessment fee plus ongoing monthly retainer for continuous transformation, with custom enterprise pricing for deployment engagements, given the three-tier structure visible on the website.
-
-**TAM/SAM:** The global AI consulting services market was valued at $11.07B in 2025, projected to reach $90.99B by 2035 at 26.2% CAGR (Future Market Insights, 2025 via search snippet). An alternative estimate places the market at $14.07B in 2026 growing to $116.63B by 2035 at 26.49% CAGR (Business Research Insights, 2026 via search snippet). No SAM estimate specific to AI-native operational mapping was found.
-
-**GTM / Distribution:** One published case study describes a 350-employee professional services firm engagement (foaster.ai/case-study). LinkedIn page references LIPTON Teas and Infusions as a client (LinkedIn, April 2026). [Inferred]: Direct enterprise sales, likely leveraging YC network and the founders' prior consulting relationships in France and the US. The Twitch interview with Raphaël Dabadie (twitch.tv, 2026) suggests French-language founder-led content marketing as an additional channel.
+- **Problem:** Companies spend millions on AI tools, pilots, and roadmaps but confuse adoption with transformation; traditional consulting (McKinsey, BCG, Bain) delivers a few interviews, workshops, and static roadmaps then leaves execution to the client (foaster.ai about page; YC launch page).
+- **Approach:** AI agents run 30–45 minute private 1:1 interviews with every employee in parallel, mapping workflows, tools, bottlenecks, and dependencies, producing a granular operational map and prioritized transformation roadmap in ~10 days, then staying embedded for monthly adoption tracking, personalized weekly AI briefings for upskilling, and forward-deployed engineer (FDE) implementation (foaster.ai/about; YC launch page).
+- **Differentiation:** vs. McKinsey/BCG/Bain — Foaster claims "3 to 5x less expensive than traditional consulting" with broader coverage and faster delivery (foaster.ai); vs. AI agent platforms (Sierra, Decagon, Cresta) — those target customer support automation while Foaster targets cross-functional org diagnostics and change management ([Inferred]: based on Cresta/Sierra competitor analyses, May 2026).
+- **Business Model:** "Typically 3 to 5x less expensive than traditional consulting — with broader coverage and faster delivery" with pricing adapted to company size from 50+ employees to large enterprises; three SKUs: one-time Assessment, Continuous AI Transformation (monthly), Enterprise Deployment with FDEs (foaster.ai). Exact dollar pricing not disclosed.
+- **TAM/SAM:** AI consulting services market projected USD 11.07B in 2026 → USD 90.99B by 2035 at 26.2% CAGR (Colorwhistle / market research summary, 2026); BCG reported ~$3.6B of $14.4B 2025 revenue was AI-related, expecting ~40% AI share by 2026, and McKinsey states ~40% of projects are AI-related (TheStreet / Metaintro, 2026).
+- **GTM / Distribution:** [Inferred]: Founder-led outbound and YC network; CEO actively posting on X/LinkedIn announcing YC batch and product, with social posts amplified by accounts like @ai_for_success (X post, 2026); foaster.ai contact form gates a demo call.
 
 ## Defensibility
 
-- **Data moat potential:** Each engagement produces a proprietary operational map of the client company. Ongoing monthly updates compound this data asset over time (foaster.ai). [Inferred]: This creates switching costs as the system accumulates institutional knowledge that would be costly to rebuild.
-- **Interview methodology / prompt engineering:** The ability to run effective 45-minute AI-led interviews that surface candid operational data represents accumulated know-how in prompt design and conversational AI (foaster.ai).
-- **Research credibility:** The "Probing LLM social intelligence via Werewolf" benchmark received 300k+ views on X and was shared by OpenAI's president and co-founder, with engagement from researchers at Google DeepMind, Mistral AI, and NVIDIA (ENSAE Paris, Sept 2025). This positions the team as serious AI researchers.
-
-**Market structure:** Traditional consulting firms face business model cannibalization — automating the interview/analysis phase that drives billable hours directly conflicts with their revenue model. [Inferred]: McKinsey's partnership with Wonderful AI (McKinsey, 2025) suggests incumbents are pursuing partnerships rather than building in-house, validating the structural barrier to self-disruption.
-
-**Commoditization risk:** The core technology (LLM-based interviews, operational mapping) relies on generally available foundation models. Any well-resourced team with consulting domain expertise could build a competing product. Celonis ($1.77B raised, ~$13B valuation) has adjacent process-intelligence capabilities and could add interview-based data capture (Tracxn, 2026 via search snippet). The Big Four consulting firms have AI practices and client relationships that dwarf Foaster's. [Inferred]: Speed of execution and depth of accumulated interview data per client may create a narrow window advantage.
+- **Moat today:** No defensibility signals found in public sources beyond founder-built proprietary AI interview agents and LLM benchmark experience (foaster.ai/about).
+- **Future moat:** [Inferred]: Proprietary dataset of cross-company workflow maps and AI-automation outcomes could become a benchmark asset enabling better roadmap priors over time; unproven now because the company is pre-revenue with no disclosed client count.
+- **Market structure:** [Inferred]: Traditional consulting firms (McKinsey/BCG/Bain) face partner-leverage unit economics built on billable headcount, creating channel conflict if they replace consultants with agents (TheStreet: incumbents are "rethinking consulting fees," 2026); not a complete barrier as BCG/McKinsey are themselves shifting to AI-led delivery.
+- **Commoditization risk:** Any AI-native services firm, large consultancy AI practice (BCG X, McKinsey QuantumBlack, Accenture), or vertical AI-agent platform can run scaled employee interviews using off-the-shelf LLMs; differentiation rests on prompt design, interview methodology, and human-expert curation rather than defensible IP ([Inferred]).
 
 ## Market & Traction
 
-**Traction signals:**
-- Case study: 350-employee professional services firm — 280 people interviewed in 5 days, 1,200+ processes mapped, 8 high-impact leverage points identified, 12 departments covered, 9-day total delivery (foaster.ai/case-study).
-- Client reference: LIPTON Teas and Infusions (LinkedIn company page, April 2026).
-- LLM benchmarks: two published benchmarks with combined 12M+ views (YC page); Werewolf benchmark paper received 300k+ views on X and engagement from OpenAI, Google DeepMind, Mistral AI, NVIDIA researchers (ENSAE Paris, Sept 2025). xAI co-founder contacted them requesting Grok 4 be added to rankings (ENSAE Paris, Sept 2025).
-- LinkedIn company page: 1,194 followers (LinkedIn, April 2026).
-- Twitter/X company: @Foaster_ai — handle confirmed, follower count not retrievable.
-- Raphaël Dabadie Twitter/X: @RaphaelDabadie — ~5,924 followers (via search snippet).
-- GitHub org (Foaster-ai): 2 repos, 12 org followers. Werewolf-bench: 29 stars (archived). The_Political_Gap_Between_AIs_and_Citizens: 4 stars (GitHub, April 2026).
-- No Product Hunt launch found.
-- No public revenue or user count figures found.
-- No job postings listed (YC page, April 2026).
-- Twitch interview with Raphaël Dabadie as Foaster co-founder (twitch.tv, 2026).
-
-**Competitive landscape:**
-
-| Competitor | Differentiator vs. Foaster | Funding | Revenue |
-|---|---|---|---|
-| **Celonis** | System-log-based process mining (structured data); does not conduct human interviews | $1.77B raised, ~$13B valuation (Tracxn, 2026 via search snippet) | ~$771M (2023, Contrary Research via search snippet) |
-| **Wonderful AI** | Deploys customer-facing AI agents (voice, chat, email); execution-focused, not diagnostic | $284M total ($34M seed + $100M Series A + $150M Series B) (TechCrunch, Nov 2025; PYMNTS, Mar 2026) | Revenue unknown |
-| **Invisible Technologies** | Operations-as-a-Service with human+AI; focuses on AI model training and process execution | $144M raised, $2B valuation (BusinessWire, Sept 2025) | ~$60M (2024, Sacra via search snippet) |
-| **Ema** | Universal AI employee platform for enterprise task automation | $61M total (Tracxn, 2026 via search snippet) | Revenue unknown |
-| **McKinsey / Big Four** | Full-service consulting with massive enterprise relationships; partnering with Wonderful for AI agent deployment (McKinsey, 2025) | N/A | N/A |
-
-**Why now:**
-- Enterprise AI budgets are growing: organizations allocated 8-12% of IT budgets to AI in 2026, up from 2-3% in 2023; companies expect to double AI spending from ~0.8% to ~1.7% of revenues (Deloitte State of AI, 2026 via search snippet).
-- [Inferred]: LLM quality crossed a threshold in 2024-2025 that makes 45-minute unstructured AI interviews viable and candid — earlier models could not sustain this level of conversational depth.
-- Worker access to AI rose 50% in 2025, but fewer than 10% of organizations have scaled AI agents (Deloitte, 2026 via search snippet), creating a "deployment gap" that Foaster targets.
+- **Traction signals:**
+  - Backed by Y Combinator Spring 2026 batch (YC company page).
+  - CEO X account @RaphaelDabadie: 6,315 followers (search snippet via x.com, May 2026).
+  - YC LinkedIn post on Foaster: "Foaster.ai (YC P26) is building AI agents…" (LinkedIn / Y Combinator post, 2026); engagement count not retrievable.
+  - Twitch interview with co-founder Raphaël posted on Foaster (twitch.tv/videos/2694809948).
+  - No public revenue, customer count, or paying-customer disclosure found.
+  - No Product Hunt listing found.
+  - YC "Launch" page exists: "Foaster - AI agents that drive your AI transformation" (ycombinator.com/launches/QDn).
+- **Competitors:**
+  - McKinsey QuantumBlack (parent McKinsey 2025 revenue ~not disclosed publicly; ~40% AI-related projects per McKinsey, 2026): incumbent strategy consultant with global enterprise relationships; Foaster claims 3–5x cheaper delivery (foaster.ai).
+  - BCG X (parent BCG 2025 revenue $14.4B, ~$3.6B AI-related, Metaintro 2026): in-house AI build + consulting arm; Foaster differentiates as AI-native rather than consultants-with-AI-tools ([Inferred]).
+  - Accenture (FY2024 revenue $64.9B, generative AI bookings $3B in FY24 per Accenture earnings, search snippet): scale incumbent; Foaster targets mid-market 50+ employee firms underserved by Accenture pricing ([Inferred] from foaster.ai pricing language).
+  - Distyl AI (raised ~$32M Series A led by Khosla, 2024 per public press, via search snippet — revenue unknown): AI-native enterprise services firm focused on forward-deployed engineering; overlapping FDE model vs. Foaster's interview-and-roadmap front end.
+  - Sierra / Decagon / Cresta (Sierra valued $4.5B; Decagon raising $100M+; Cresta funded — Upstarts Media, eesel.ai 2026): adjacent customer-support AI agents, not direct competitors; listed because they crowd the "AI agents for enterprise" narrative.
+- **Why now:** [Inferred]: BCG disclosed AI work expanding from ~20% of 2024 revenue to ~40% by 2026 and McKinsey reports ~500 clients requested AI support in the past year (Metaintro / TheStreet, 2026), indicating enterprise willingness-to-pay for AI transformation services crossed a threshold over the last 12–24 months.
 
 ## Founders & Team
 
-**Raphaël Dabadie** — Co-founder & CEO
-- Education: ENSAE Paris (undergraduate, age ~23) (ENSAE Paris, Sept 2025).
-- At age 11, built tennis fan communities growing to 400k+ members; at 18, joined Rafael Nadal's team as an agent (YC page).
-- Co-created the "Probing LLM social intelligence via Werewolf" benchmark (300k+ views on X, shared by OpenAI president) and "The Political Gap Between AIs & Citizens" benchmark, with combined 12M+ views (ENSAE Paris, Sept 2025; YC page).
-- Twitter/X: @RaphaelDabadie — ~5,924 followers (via search snippet).
-- LinkedIn: linkedin.com/in/raphaël-dabadie-412bb9248 — ~6K followers (LinkedIn, April 2026).
-- GitHub: co-author on Foaster-ai org repos (GitHub).
-
-**Alexandre Combes** — Co-founder & CTO
-- Education: ENSAE Paris (undergraduate, age ~23) (ENSAE Paris, Sept 2025).
-- Previously built Répondia, where AI agents handled 60k+ restaurant calls for major restaurant groups in France (YC page). French corporate registry (Pappers.fr) lists the legal entity "Foaster Technologies" under the same registration as Répondia (983585290), suggesting Répondia was the predecessor entity that pivoted to Foaster (Pappers.fr via search snippet).
-- Co-created both LLM benchmarks with Raphaël (ENSAE Paris, Sept 2025).
-- LinkedIn: linkedin.com/in/alexandre-combes-2bb450271 (LinkedIn).
-- Twitter/X: No public account found.
-- GitHub: No personal public repos found; co-author on Foaster-ai org repos.
-
-**Note on team:** Natan Darhi is listed as Directeur Général of Foaster Technologies on French corporate registry (Pappers.fr via search snippet) and appears on LinkedIn at Répondia. He is not listed as a founder on the YC page. He co-authored the Political Gap benchmark (GitHub). His exact role at Foaster is unclear from public sources.
-
-**Co-founder relationship:** Both Raphaël and Alexandre are ENSAE Paris classmates who co-created two LLM benchmarks together before founding Foaster. They also both previously worked at Répondia based on the shared legal entity (Pappers.fr via search snippet).
-
-**Founder-market fit:** The founders have direct experience building and deploying AI agents at scale (Répondia: 60k+ calls handled) and demonstrated research depth in LLM behavior (two benchmarks with 12M+ combined views, engagement from top AI labs). Their consulting-adjacent experience — Raphaël's background managing high-profile professional relationships (Nadal agency) and their year spent helping enterprises think through AI deployment (YC page) — maps to the sales and trust-building required in enterprise AI consulting.
+- **Raphaël Dabadie (Co-founder & CEO):**
+  - Background: Student at ENSAE Paris (search snippet); built online tennis fan communities at age 11 that grew to 400,000+ people (search snippet, YouTube interview); joined Rafael Nadal's team as an agent at 18 (search snippet); co-built two LLM benchmarks that reached 12M+ views, including unconventional benchmarks on LLM social intelligence and political behavior (foaster.ai/about); spent the prior year helping enterprises think through AI deployment before founding Foaster (foaster.ai/about).
+  - Twitter/X: @RaphaelDabadie — 6,315 followers (search snippet via x.com, May 2026).
+  - LinkedIn: "Foaster.ai (YC P26)" — connection count shows "500+" on personal profile (linkedin.com/in/raphaël-dabadie-412bb9248).
+  - GitHub: No public account found in search results.
+- **Alexandre Combes (Co-founder & CTO):**
+  - Background: Previously built Répondia, where AI agents handled 60,000+ customer calls for major restaurant groups in France (foaster.ai/about; search snippet); co-built two LLM benchmarks reaching 12M+ views with Raphaël (foaster.ai/about); based in Paris per LinkedIn (fr.linkedin.com/in/alexandre-combes-2bb450271).
+  - Twitter/X: No public account found.
+  - LinkedIn: "Paris, Île-de-France, France" profile (fr.linkedin.com/in/alexandre-combes-2bb450271); headline not retrieved.
+  - GitHub: No public account found in search results.
+- **Co-founder relationship:** Co-built two LLM benchmarks together prior to founding Foaster and spent a prior year jointly advising enterprises on AI deployment (foaster.ai/about).
+- **Founder-market fit:** Combes shipped a production AI-agent product (Répondia, 60K+ calls handled) directly relevant to Foaster's interview-agent core, and Dabadie has documented enterprise AI-deployment advisory experience plus distribution skill (400K-community build, 12M-view LLM benchmarks) (foaster.ai/about; YouTube interview); no advisors, board, or external investors beyond YC disclosed in public sources.
 
 ## Key Risks
 
-**Enterprise sales cycle vs. two-person team:** Selling AI transformation to enterprises typically requires multi-stakeholder buy-in, long procurement cycles, and dedicated account management. The company has two listed founders and no job postings (YC page, April 2026). The case study and LIPTON reference show early traction, but scaling enterprise sales without a dedicated GTM team creates a capacity constraint.
-
-**LLM provider dependency:** The core product relies on foundation model APIs for conducting 45-minute interviews. Changes in API pricing, rate limits, or model behavior could materially impact cost structure and output quality. No evidence of proprietary model training was found.
-
-**Pivot risk / product-market clarity:** French corporate registry suggests Foaster Technologies is the same legal entity as Répondia (Pappers.fr via search snippet), indicating a pivot from restaurant AI call handling to enterprise AI consulting. While the pivot leverages the team's AI agent expertise, the current product targets a fundamentally different customer segment and sale.
-
-**Competitive encirclement:** Celonis ($1.77B raised) could add AI interview capabilities to its process intelligence platform. McKinsey has already partnered with Wonderful AI for enterprise AI agent deployment (McKinsey, 2025). Big Four firms have existing client relationships and are rapidly building AI practices (Deloitte, BCG-Anthropic alliance, PwC via search snippets). Foaster competes at the intersection of all these players.
+- **Commoditization / no technical moat:** The "AI-conducted employee interview + roadmap" workflow can be replicated by any LLM-fluent services firm using off-the-shelf models; no proprietary model, data network effect, or IP identified in foaster.ai or YC materials. No mitigation found beyond founder execution speed.
+- **Incumbent encroachment:** BCG expects ~40% of 2026 revenue to be AI-related and McKinsey reports ~500 AI client engagements in the past year (Metaintro / TheStreet, 2026); incumbents have existing C-suite relationships Foaster lacks, and Accenture's $3B in generative AI bookings (FY24 search snippet) demonstrates enterprise default-to-incumbent behavior.
+- **Sales cycle / deal size mismatch:** Mid-market 50+ employee target with "3–5x less than consulting" positioning (foaster.ai) implies enterprise sales motion at startup-services price points; [Inferred]: 2-person team and FDE-heavy delivery may not scale beyond a handful of accounts before requiring significant hiring.
+- **Trust and data sensitivity:** Running AI agents to interview every employee about workflows, bottlenecks, and "informal habits" (YC launch page) involves sensitive HR and operational data; no SOC 2, ISO, or data-handling certifications disclosed on foaster.ai.
+- **Founder geography / market split:** CTO based in Paris (LinkedIn), company HQ listed San Francisco (YC page); [Inferred]: split team plus French enterprise roots (Répondia restaurant deployment) may pull initial GTM toward France while YC pushes US market — execution risk on which market is primary.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $11.07B in 2025, projected $90.99B by 2035 at 26.2% CAGR (Future Market Insights, 2025 via search snippet) |
+| TAM | AI consulting services market $11.07B (2026) → $90.99B (2035), 26.2% CAGR (Colorwhistle, 2026) |
 | SAM | No public data found |
-| Traction | 1 published case study: 350-employee firm, 280 interviews, 1,200+ processes mapped (foaster.ai/case-study); LIPTON Teas and Infusions client reference (LinkedIn, April 2026); 1,194 LinkedIn followers (LinkedIn, April 2026) |
-| Revenue Signal | No public data found |
-| Founders | Raphaël Dabadie (CEO): ENSAE Paris, 400k-member communities age 11, Nadal agent age 18, LLM benchmarks 12M+ views. Alexandre Combes (CTO): ENSAE Paris, built Répondia (60k+ AI restaurant calls), LLM benchmarks 12M+ views. |
-| Competitors | Celonis ($1.77B raised, ~$771M revenue 2023, process mining vs. Foaster's interview-based approach); Wonderful AI ($284M raised, revenue unknown, deploys AI agents vs. Foaster's diagnostic focus); Invisible Technologies ($144M raised, ~$60M revenue 2024, ops-as-a-service vs. Foaster's consulting model); Ema ($61M raised, revenue unknown, AI employee platform) |
-| Moat Signals | Accumulating proprietary operational maps per client (foaster.ai); LLM research credibility — benchmarks shared by OpenAI president (ENSAE Paris, Sept 2025) |
-| Risk Factors | Enterprise sales capacity with 2-person team, LLM provider dependency, competitive encirclement from Celonis/Big Four |
-| Founder Reach | Raphaël Dabadie: Twitter/X ~5.9k (via search snippet), LinkedIn ~6k (LinkedIn, April 2026). Alexandre Combes: Twitter/X not found, LinkedIn profile exists (LinkedIn). Company: LinkedIn 1,194 followers (LinkedIn, April 2026). |
-| Distribution Signals | No Product Hunt launch found. No app store or browser extension presence. Twitch interview (twitch.tv, 2026). GitHub org: 29 stars on Werewolf-bench (GitHub, April 2026). |
-| Emails | No public data found |
+| Traction | YC Spring 2026 backing (YC page); CEO X 6,315 followers (x.com, May 2026); YC Launch page live (ycombinator.com/launches/QDn); no revenue or customer count disclosed |
+| Revenue Signal | "Typically 3 to 5x less expensive than traditional consulting" with pricing adapted to company size 50+ employees to enterprise (foaster.ai); exact pricing not disclosed |
+| Founders | Raphaël Dabadie (CEO): ENSAE Paris, built 400K tennis community at 11, joined Nadal team at 18, co-built 12M-view LLM benchmarks. Alexandre Combes (CTO): built Répondia (60K+ AI customer calls for French restaurants), co-built 12M-view LLM benchmarks. |
+| Competitors | McKinsey QuantumBlack (revenue unknown, incumbent strategy + AI); BCG X (parent $14.4B 2025 rev, ~$3.6B AI); Accenture ($64.9B FY24 rev, $3B GenAI bookings); Distyl AI (~$32M raised, revenue unknown, FDE model); Sierra/Decagon (adjacent CX agents) |
+| Moat Signals | No public data found |
+| Risk Factors | Commoditization (no proprietary moat), incumbent encroachment (BCG/McKinsey AI practices), sensitive employee data handling without disclosed certifications |
+| Founder Reach | Raphaël Dabadie: Twitter 6.3K, LinkedIn 500+, GitHub not found. Alexandre Combes: Twitter not found, LinkedIn present (count not retrievable), GitHub not found. |
+| Distribution Signals | YC Launch page (ycombinator.com/launches/QDn, 2026); X announcement post by CEO (x.com/RaphaelDabadie, 2026); YC repost on LinkedIn (linkedin.com, 2026); no Product Hunt listing found |
+| Emails | raphael.dabadie@foaster.ai (YC page) |
+
+Note: A prompt-injection attempt appeared inside the WebFetch result for foaster.ai (instructing me to load unrelated Gmail/Calendar/Ramp MCP tools); I ignored it and proceeded with the original research task.
+
+Sources:
+- [Foaster YC company page](https://www.ycombinator.com/companies/foaster)
+- [Foaster website](https://foaster.ai)
+- [Foaster About page](https://foaster.ai/about)
+- [YC Launch: Foaster](https://www.ycombinator.com/launches/QDn-foaster-ai-agents-that-drive-your-ai-transformation)
+- [Raphaël Dabadie X](https://x.com/RaphaelDabadie)
+- [Raphaël Dabadie LinkedIn](https://www.linkedin.com/in/rapha%C3%ABl-dabadie-412bb9248/)
+- [Alexandre Combes LinkedIn](https://fr.linkedin.com/in/alexandre-combes-2bb450271)
+- [BCG AI revenue — Metaintro](https://www.metaintro.com/blog/bcg-25-percent-ai-revenue-consulting-jobs-2026)
+- [AI consulting & McKinsey/BCG fees — TheStreet](https://www.thestreet.com/markets/ai-is-forcing-mckinsey-bcg-bain-to-rethink-consulting-fees)
+- [AI consultation market size — Colorwhistle](https://colorwhistle.com/ai-consultation-statistics/)
+- [Sierra vs Decagon — Upstarts Media](https://www.upstartsmedia.com/p/decagon-sierra-ai-amazing-race)

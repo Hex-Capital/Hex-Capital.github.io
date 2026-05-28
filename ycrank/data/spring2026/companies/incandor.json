@@ -1,75 +1,45 @@
 {
   "slug": "incandor",
   "name": "Incandor",
-  "oneLiner": "Behavioral intelligence infrastructure for fraud and trust & safety",
+  "oneLiner": "Behavioral intelligence infrastructure for anti-fraud",
   "metadata": {
     "website": "https://www.incandor.com",
     "yc_page": "https://www.ycombinator.com/companies/incandor",
-    "batch": "Spring 2026 (YC company page)",
+    "batch": "Spring 2026 (YC page, May 2026)",
     "industry": "B2B / B2B",
     "team_size": "0",
     "location": "San Francisco, CA, USA",
     "tags": "Security, AI",
-    "yc_partner": "David Lieb (YC company page)",
-    "emails": "info@incandor.com (company website)"
+    "yc_partner": "David Lieb (YC page, May 2026)",
+    "emails": "info@incandor.com, matthew@incandor.com, luc@incandor.com"
   },
   "tags": [
     "Security",
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-05-15T05:42:29.714Z",
+  "memoGeneratedAt": "2026-05-28T03:01:50.658Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 27,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 35,
+      "score": 38,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 40,
-    "EG": 31,
-    "NR": 34,
-    "PG": 39,
-    "PT": 36,
-    "SL": 27,
-    "VK": 35
+    "CB": 38,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 34.57,
-  "consolidatedRank": 143,
+  "consolidatedAvg": 38,
+  "consolidatedRank": 147,
   "paths": {
     "memo": "spring2026/memos/incandor.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/incandor.md",
-      "elad-gil": "spring2026/evals/elad-gil/incandor.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/incandor.md",
-      "paul-graham": "spring2026/evals/paul-graham/incandor.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/incandor.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/incandor.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/incandor.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/incandor.md"
     }
   }
 }

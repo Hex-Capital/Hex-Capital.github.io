@@ -1,6 +1,6 @@
 ﻿# Superset
 
-> IDE for the AI Agents Era
+> The IDE for the AI Agents Era
 
 | Field | Value |
 |-------|-------|
@@ -9,109 +9,103 @@
 | Batch | Spring 2026 |
 | Industry | B2B / B2B -> Engineering, Product and Design |
 | Team Size | 3 |
-| Location | San Francisco, CA, US |
-| Tags | AI |
+| Location | San Francisco, CA, USA |
+| Tags |  |
 | YC Partner | Nicolas Dessaigne |
-| Emails | No public data found |
+| Emails | hello@superset.sh |
 
 ## The Idea
 
-**Problem:** Developers using AI coding agents (Claude Code, Codex, Gemini CLI, etc.) run them sequentially, waiting for each to complete before starting the next. With agents becoming standard infrastructure for engineering teams, this serial workflow creates significant idle time. Existing IDEs (VS Code, Cursor) were designed for single-agent or single-developer use and lack native support for orchestrating many agents in parallel with proper isolation.
-
-**Approach:** Superset is a desktop code editor that orchestrates 100+ CLI-based coding agents in parallel (superset.sh). Each agent operates in an isolated Git worktree, preventing merge conflicts (superset.sh). The product provides centralized monitoring, a built-in diff viewer, PR review capabilities, and single-click worktree opening in VS Code, Cursor, Xcode, JetBrains IDEs, or Terminal (superset.sh). It is agent-agnostic, supporting Claude Code, Codex, Cursor Agent, Gemini CLI, GitHub Copilot, OpenCode, and others (superset.sh).
-
-**Differentiation:** Unlike Conductor (closed-source Mac app focused on Claude Code), Superset is open-source under Elastic License 2.0 (GitHub) and supports any CLI-based agent. Unlike Cmux (a Ghostty-based terminal with split panes, not an orchestrator), Superset provides full IDE functionality with workspace management, not just terminal multiplexing (x.com/melvynxdev). Unlike Composio's Agent Orchestrator (a CLI tool focused on autonomous task decomposition), Superset provides a GUI-based editor experience with visual monitoring and IDE integrations (GitHub ComposioHQ discussion #526).
-
-**Business Model:** Free tier ($0, 1 user, local workspaces only), Pro tier ($15/user/month billed yearly), Enterprise tier (custom pricing with SSO, audit logs, SLA) (superset.sh/pricing). All plans include unlimited workspaces and projects; Pro adds remote workspaces, unlimited users, and Linear integration (superset.sh/pricing). The job posting for a "Former Founder" role at $175K–$225K + 1–2% equity suggests active hiring and early-stage compensation benchmarks (YC page).
-
-**TAM/SAM:** The global AI orchestration market was valued at $11.65B in 2025 and is projected to reach $60.34B by 2034 at 20.05% CAGR (Fortune Business Insights, 2026 via search snippet). [Inferred]: The SAM for developer-facing multi-agent IDE tooling is a subset of this broader market; no public SAM estimate exists specific to this segment.
-
-**GTM / Distribution:** Open-source distribution via GitHub (9.9k stars) drives developer adoption (GitHub). Product Hunt launch achieved #1 Day Rank with 552 upvotes (Product Hunt, Feb 27, 2026). The website lists logos of Microsoft, OpenAI, Netflix, Google, Salesforce, Vercel, Cloudflare, Amazon, ByteDance, Ramp, Datadog, and others as trusted users (superset.sh). [Inferred]: Primary GTM is bottom-up developer adoption through open-source, converting teams to paid Pro/Enterprise tiers for remote workspaces and collaboration features.
+- **Problem:** Engineers using CLI coding agents (Claude Code, Codex, OpenCode) waste idle time waiting on long-running agent runs and struggle to manage parallel sessions across terminal tabs (Launch HN, news.ycombinator.com, Dec 2025).
+- **Approach:** Terminal-first IDE that spawns each agent in an isolated git worktree, provides a unified diff/PR review surface, persistent terminal sessions, and routes the issue→agent→diff→PR→review pipeline (Launch HN; superset.sh).
+- **Differentiation:** Conductor (Melty Labs) is macOS-only and focused on Claude Code + Codex; Superset is local-first across many CLI agents with chat/browser/MCP surfaces on top (morphllm.com comparison, 2026); Cursor is a chat-centric editor rather than a multi-agent orchestrator (superset.sh/compare).
+- **Business Model:** Free tier for individuals; Pro at $20/seat/month; Team at $15/user/month; custom Enterprise — Superset does not mark up model usage (superset.sh/pricing; Launch HN, Dec 2025).
+- **TAM/SAM:** No public TAM/SAM data found for this specific segment; comparable Cursor reported $2B ARR with $50B-valuation talks (TechFundingNews, Apr 2026).
+- **GTM / Distribution:** Open-source GitHub distribution (11.4k stars, github.com/superset-sh/superset) plus Product Hunt launch funneling to paid team tiers (producthunt.com, Mar 1, 2026).
 
 ## Defensibility
 
-- **Open-source community**: 9.9k GitHub stars and 817 forks create a contributor ecosystem and switching costs through integrations and workflows (GitHub).
-- **Agent-agnostic architecture**: Supporting any CLI-based agent positions Superset as a neutral orchestration layer, increasing lock-in as developers configure agent-specific workflows (superset.sh).
-- [Inferred]: Data advantages could develop as teams accumulate workflow configurations, agent performance data, and workspace templates, but no evidence of this moat existing today.
-
-**Market structure:** Cursor (the closest well-resourced incumbent at $1B+ ARR per Faros.ai, 2026 via search snippet) is optimized around its own integrated AI model and single-agent workflow. [Inferred]: Adding multi-agent orchestration with third-party CLI agents would cannibalize Cursor's own AI model revenue and fundamentally change its product architecture.
-
-**Commoditization risk:** Multiple competitors have emerged rapidly: Conductor, Cmux, Composio AO, and T3Code all launched in early 2026. The core concept of Git worktree isolation for parallel agents is technically reproducible. Elastic License 2.0 permits forks for internal use but restricts competing hosted services (GitHub).
+- **Moat today:** 11.4k GitHub stars and 952 forks on the open-source repo under Elastic License 2.0 (github.com/superset-sh/superset) plus reported usage by engineers at OpenAI, Google, Vercel, and OSS projects including Homebrew, Mastra, browser-use (search snippet via Tracxn/YC, May 2026).
+- **Future moat:** [Inferred]: Switching costs once teams adopt Superset as their orchestration layer across multiple agent CLIs and integrate Linear/Slack (Launch HN, Dec 2025); unproven because product launched ~5 months ago per YC page.
+- **Market structure:** [Inferred]: Cursor/Anysphere's revenue depends on its own first-party chat editor and proprietary models; building an agent-agnostic orchestrator that routes to Claude Code/Codex/Copilot would cannibalize Cursor's primary surface (TechFundingNews, Apr 2026).
+- **Commoditization risk:** Multiple open-source/closed alternatives already exist (Conductor, Crystal, Emdash, cmux, Vibe Kanban, Agentastic, FleetCode, Sculptor) all using git worktrees + agent CLIs (rywalker.com research, 2026).
 
 ## Market & Traction
 
-**Traction signals:**
-- 9.9k GitHub stars, 817 forks (GitHub, as of Apr 2026)
-- Product Hunt: 552 upvotes, #1 Day Rank (Product Hunt, Feb 27, 2026)
-- Garry Tan listed as a maker on the Product Hunt launch (Product Hunt)
-- Latest release: desktop-v1.5.8 (GitHub, Apr 21, 2026) — active development cadence
-- 387 open issues (GitHub, Apr 2026) — indicates active user engagement
-- Company logos on website: Microsoft, OpenAI, Netflix, Google, Salesforce, Vercel, Cloudflare, Amazon, ByteDance, Ramp, Datadog, Intercom, Perplexity, Wix (superset.sh)
-- 10+ user testimonials from founders/engineers at named companies (superset.sh)
-- Twitter/X: @superset_sh (x.com; follower count not retrievable)
-- LinkedIn: company page exists (linkedin.com/company/superset-sh; follower count not retrievable)
-- Hiring: 1 open role — "Former Founder," SF, $175K–$225K, 1–2% equity (YC page)
-- Kiet Ho's prior project Onlook has 25.6k GitHub stars (GitHub/Kitenite), indicating proven open-source distribution ability
-
-**Competitive landscape:**
-
-| Competitor | Differentiator vs. Superset | Funding |
-|---|---|---|
-| **Conductor** | Closed-source Mac app; deep Claude Code integration; Linear integration built-in | $22M Series A from Spark and Matrix (search snippet via morphllm.com) |
-| **Cmux (Manaflow)** | Native macOS terminal (Swift/Ghostty), not an IDE; GPU-accelerated; 9.5k GitHub stars in 2 weeks | YC S24; funding amount not found |
-| **Composio AO** | CLI-based autonomous orchestrator; handles CI fixes and merge conflicts autonomously; task decomposition | $29M total ($4M seed + $25M Series A from Lightspeed) (PR Newswire, 2026) |
-| **T3Code** | Requires Node + OpenAI key; backed by Theo/Ping | No public data found |
-
-**Why now:** [Inferred]: The convergence of several factors in 2025–2026 created this opportunity: (1) Claude Code, Codex, and Gemini CLI all launched as production-grade CLI coding agents, creating a multi-agent ecosystem for the first time; (2) Cursor crossed $1B ARR (Faros.ai, 2026 via search snippet), validating AI-native IDE spending; (3) AI agent adoption reached 85% of organizations in at least one workflow (search snippet via index.dev); (4) Git worktree support matured as a standard isolation primitive.
+- **Traction signals:**
+  - GitHub: 11.4k stars, 952 forks (github.com/superset-sh/superset, May 2026).
+  - Product Hunt: 512 upvotes, #1 Product of the Day (producthunt.com / launchllama.co / airudra.com, Mar 1, 2026).
+  - Customer logos displayed: Microsoft, OpenAI, Runway, Wordware, Salesforce, Wix, Datadog, Intercom, ByteDance, Toss, Google, Vercel, Cloudflare, Amazon (superset.sh, May 2026).
+  - Customer testimonial: Vlad Arbatov (Founding Engineer, Loyal) — "superset became my default tools" (superset.sh).
+  - Customer testimonial: Leo (Co-founder/CTO, Outlit) — "hasn't been a day i haven't used superset" (superset.sh).
+  - User report: "40-50 agent sessions over several repos simultaneously" (Launch HN comment, news.ycombinator.com, Dec 2025).
+  - Job posting: Former Founder (Technical), $175K–$225K + 1–2% equity (ycombinator.com/companies/superset/jobs).
+  - Vercel engineering blog feature on Superset architecture (vercel.com/blog, 2026).
+- **Competitors:**
+  - Conductor / Melty Labs ($24.5M raised per PitchBook; revenue unknown): macOS-only, narrower to Claude Code + Codex (pitchbook.com; madewithlove.com, 2026).
+  - Cursor / Anysphere ($2.3B Series D Nov 2025 at $29.3B; $2B ARR; talks at $50B val, Apr 2026): chat-centric proprietary editor rather than multi-agent CLI orchestrator (TechFundingNews; thenextweb.com, 2026).
+  - Crystal, Emdash, cmux, Vibe Kanban, Agentastic, FleetCode, Sculptor (funding/revenue unknown): GUI wrappers around git worktrees + agent CLIs (rywalker.com research, 2026).
+  - Container Use (cloud, revenue unknown): cloud-isolated containers running agents 24/7 vs. Superset's local-first model (search snippet, 2026).
+- **Why now:** [Inferred]: Mainstream CLI coding agents (Claude Code, Codex, OpenCode) reached usable autonomy in 2025, enabling parallel orchestration to overtake single-session chat as the bottleneck (Launch HN, Dec 2025; O'Reilly "Conductors to Orchestrators," 2026).
 
 ## Founders & Team
 
-**Kiet Ho** — Co-founder
-- Ex-CTO at Onlook (YC W25), prev software engineer at Amazon and ServiceNow (YC page, superset.sh/team)
-- Onlook ("The Cursor for Designers") reached 25.6k GitHub stars (GitHub/Kitenite)
-- Twitter/X: @kietho_ (superset.sh/team) / @FlyaKiet (YC page); follower count not retrievable
-- LinkedIn: linkedin.com/in/kiet-ho
-- GitHub: github.com/Kitenite — 502 followers, 66 public repos; notable: Superset (9.9k stars), Onlook (25.6k stars) (GitHub)
-
-**Satya Patel** — Co-founder
-- Ex-CTO at Untether Labs (YC W23), prev engineer at Google, Amazon, Facebook, and Scribe (YC page, superset.sh/team)
-- Twitter/X: @saddle_paddle; follower count not retrievable
-- LinkedIn: linkedin.com/in/saddlepaddle
-- GitHub: github.com/saddlepaddle — 49 followers, 6 public repos (GitHub)
-
-**Avi Peltz** — Co-founder
-- Ex-CTO at Adam (YC W25, AI-powered CAD), co-founded BioGlyph (biotech software, received investment from Dotmatics) (YC page, Crunchbase, PR Newswire)
-- Education: California Polytechnic State University, San Luis Obispo (Cal Poly Innovation Quest, via search snippet)
-- Twitter/X: @avimakesrobots; follower count not retrievable
-- LinkedIn: linkedin.com/in/avipeltz
-- GitHub: github.com/avipeltz — 57 followers, 63 public repos (GitHub)
-
-**Co-founder relationship:** All three are described as "ex-YC CTOs" (superset.sh/team). Kiet Ho (Onlook, W25) and Avi Peltz (Adam, W25) were in the same YC batch and likely connected through the YC network. All three are based in San Francisco (GitHub profiles).
-
-**Founder-market fit:** All three founders have direct experience building developer tools as YC-backed CTOs. Kiet Ho demonstrated open-source distribution expertise with Onlook (25.6k stars). Satya Patel brings large-company engineering experience from Google, Amazon, and Facebook. Avi Peltz brings CAD/robotics technical depth and prior startup founding experience (BioGlyph, Adam). Garry Tan (YC CEO) was listed as a maker on the Product Hunt launch (Product Hunt).
+- **Kiet Ho (Co-founder):**
+  - Background: Ex-CTO at Onlook (YC W25); prior SWE at Amazon and ServiceNow; co-founded Voy consulting in Minneapolis (superset.sh/team/kiet; LinkedIn).
+  - Twitter/X: Handle not found in search; count not retrievable.
+  - LinkedIn: "Superset" (linkedin.com/in/kiet-ho/, May 2026).
+  - GitHub: No public personal repos found in search results.
+- **Satya Patel (Co-founder):**
+  - Background: Ex-CTO at Untether Labs (YC W23); prior roles at Scribe, Google, Amazon, Facebook (superset.sh/team; YC page).
+  - Twitter/X: No public account found in search.
+  - LinkedIn: Not retrieved in search.
+  - GitHub: No public repos found in search.
+- **Avi Peltz (Co-founder):**
+  - Background: Ex-CTO at Adam (YC W25, AI-powered CAD); co-founder of BioGlyph (multispecific antibody visualization; Dotmatics investment); Cal Poly San Luis Obispo (crunchbase.com/person/avi-peltz; dotmatics.com).
+  - Twitter/X: @avimakesrobots (x.com/avimakesrobots); count not retrievable.
+  - LinkedIn: "Superset" (linkedin.com/in/avipeltz/).
+  - GitHub: No public repo with star data found in search.
+- **Co-founder relationship:** All three are ex-CTOs of YC-backed companies (Onlook W25, Untether Labs W23, Adam W25) (superset.sh/team; YC company page).
+- **Founder-market fit:** Three former YC CTOs who shipped agent/developer tooling at Onlook, Adam, and Untether Labs, building the orchestration tool for the agent stacks they previously used as operators (superset.sh/team; YC page).
 
 ## Key Risks
 
-**Name confusion and discoverability:** "Superset" conflicts with Apache Superset (popular open-source data visualization, ~62k GitHub stars), super{set} (SF startup studio, $90M fund per TechCrunch Mar 2024), and Superset Finance (stablecoin company). This creates SEO competition, brand confusion in searches, and potential investor confusion with funding data attributed to the wrong entity.
-
-**Rapidly crowding competitive space:** Conductor ($22M Series A), Cmux (9.5k GitHub stars in 2 weeks), and Composio AO ($29M total funding) all launched in the same window (early 2026). The core abstraction (Git worktree isolation + parallel agent sessions) is technically straightforward to replicate.
-
-**Platform dependency on upstream agents:** Superset's value is derived entirely from the quality and availability of third-party coding agents (Claude Code, Codex, Gemini CLI). Changes to agent pricing, API access, or capabilities are outside Superset's control. If a dominant agent provider (e.g., Anthropic, OpenAI) builds native parallelism into their own product, the orchestration layer becomes redundant.
-
-**Elastic License limitations:** ELv2 permits internal use and forking but restricts competing hosted services (GitHub). This hybrid license may deter some enterprise adopters who require permissive OSS licenses (Apache 2.0, MIT) and may limit community contributions compared to fully open-source competitors like Cmux (GPL).
+- **Crowded competitive set with funded incumbent:** Conductor (Melty Labs) has reportedly raised $24.5M and ships a similar git-worktree-based parallel agent runner (pitchbook.com profile 641785-69); Superset must out-execute on multi-agent breadth before Conductor expands beyond macOS.
+- **Platform/dependency risk on agent CLIs:** Product value depends on Claude Code, Codex, Copilot, Gemini remaining accessible CLI surfaces; any provider moving to closed proprietary IDEs (as Cursor does) could foreclose distribution (Launch HN; TechFundingNews Apr 2026 on Cursor's $2B ARR).
+- **Monetization unproven:** Free tier covers core orchestration; paid features are Linear ($20/mo), Slack, remote workspaces, and team seats ($15–$20/seat/mo) (Launch HN; superset.sh/pricing) — conversion from 11.4k OSS stars to paid teams is not publicly disclosed.
+- **Name collision risk:** Multiple unrelated entities use "Superset" (Apache Superset BI tool; super{set} startup studio at superset.com; Superset Partners) (search results, Tracxn/Crunchbase, 2026), creating SEO/brand confusion in search results.
+- **Open-source commoditization:** Eight-plus comparable GUI worktree+agent tools (Crystal, Emdash, cmux, Vibe Kanban, Agentastic, FleetCode, Sculptor, Conductor) already exist (rywalker.com, 2026), so the wrapper layer alone is not a durable moat.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $11.65B in 2025, projected $60.34B by 2034 at 20.05% CAGR (Fortune Business Insights, 2026 via search snippet) |
+| TAM | No public data found |
 | SAM | No public data found |
-| Traction | 9.9k GitHub stars, 817 forks (GitHub, Apr 2026); 552 upvotes #1 Day Rank (Product Hunt, Feb 27, 2026); logos from Microsoft, OpenAI, Netflix, Google, etc. on website (superset.sh) |
-| Revenue Signal | Free / $15 per user/month Pro / Custom Enterprise (superset.sh/pricing) |
-| Founders | Kiet Ho: ex-CTO Onlook (W25), Amazon, ServiceNow. Satya Patel: ex-CTO Untether Labs (W23), Google, Amazon, Facebook. Avi Peltz: ex-CTO Adam (W25), BioGlyph, Cal Poly SLO. |
-| Competitors | Conductor ($22M Series A via search snippet, revenue unknown, closed-source Claude Code focus); Composio AO ($29M total per PR Newswire, revenue unknown, autonomous CLI orchestrator); Cmux/Manaflow (YC S24, funding unknown, native macOS terminal) |
-| Moat Signals | 9.9k GitHub stars + 817 forks community (GitHub); agent-agnostic architecture (superset.sh) |
-| Risk Factors | Name collision with Apache Superset/super{set}/Superset Finance; rapidly crowding competitor space; platform dependency on third-party AI agents |
-| Founder Reach | Kiet Ho: Twitter @kietho_, GitHub 502 followers. Satya Patel: Twitter @saddle_paddle, GitHub 49 followers. Avi Peltz: Twitter @avimakesrobots, GitHub 57 followers. (GitHub; Twitter counts not retrievable) |
-| Distribution Signals | Product Hunt #1 Day Rank, 552 upvotes (Product Hunt, Feb 27, 2026); 9.9k GitHub stars (GitHub); Garry Tan listed as maker (Product Hunt) |
-| Emails | No public data found |
+| Traction | 11.4k GitHub stars, 952 forks (github.com/superset-sh, May 2026); Product Hunt #1 Product of the Day with 512 upvotes (producthunt.com, Mar 1, 2026); Launch HN Dec 2025; customer logos including Microsoft, OpenAI, Google, Vercel, Salesforce, Datadog displayed (superset.sh) |
+| Revenue Signal | Free for individuals; Pro $20/seat/month; Team $15/user/month; custom Enterprise (superset.sh/pricing); Linear integration $20/mo (Launch HN, Dec 2025) |
+| Founders | Kiet Ho (Co-founder): ex-CTO Onlook YC W25, ex-Amazon, ex-ServiceNow. Satya Patel (Co-founder): ex-CTO Untether Labs YC W23, ex-Google, ex-Amazon, ex-Facebook. Avi Peltz (Co-founder): ex-CTO Adam YC W25, co-founder BioGlyph. |
+| Competitors | Conductor/Melty Labs ($24.5M raised per PitchBook, revenue unknown; macOS-only, Claude Code/Codex focus); Cursor/Anysphere ($2.3B Series D Nov 2025, $2B ARR; chat-centric proprietary editor); Crystal, Emdash, cmux, Vibe Kanban, Agentastic, FleetCode, Sculptor (funding/revenue unknown; GUI worktree wrappers); Container Use (cloud-isolated container approach) |
+| Moat Signals | 11.4k GitHub stars under Elastic License 2.0 (github.com/superset-sh/superset); reported usage by engineers at OpenAI/Google/Vercel and OSS projects Homebrew, Mastra, browser-use (search snippet, May 2026) |
+| Risk Factors | Crowded competitor set with funded Conductor, platform dependency on third-party agent CLIs, name collision with Apache Superset and super{set} studio |
+| Founder Reach | Kiet Ho: Twitter not found, LinkedIn present (linkedin.com/in/kiet-ho/), GitHub not retrieved. Satya Patel: No public data found. Avi Peltz: Twitter @avimakesrobots (count not retrievable), LinkedIn present (linkedin.com/in/avipeltz/), GitHub not retrieved. |
+| Distribution Signals | Product Hunt #1 Product of the Day, 512 upvotes (producthunt.com, Mar 1, 2026); Launch HN (news.ycombinator.com/item?id=48236770, Dec 2025); Vercel engineering blog feature (vercel.com/blog, 2026); active "Former Founder (Technical)" job listing $175K–$225K + 1–2% equity (ycombinator.com/companies/superset/jobs) |
+| Emails | hello@superset.sh (ycombinator.com/companies/superset) |
+
+Sources:
+- [Superset YC page](https://www.ycombinator.com/companies/superset)
+- [Superset website](https://www.superset.sh/)
+- [Superset GitHub](https://github.com/superset-sh/superset)
+- [Launch HN: Superset](https://news.ycombinator.com/item?id=48236770)
+- [Superset on Product Hunt](https://www.producthunt.com/products/superset-5)
+- [Superset pricing](https://superset.sh/pricing)
+- [Superset team page](https://superset.sh/team)
+- [Kiet Ho LinkedIn](https://www.linkedin.com/in/kiet-ho/)
+- [Avi Peltz Crunchbase](https://www.crunchbase.com/person/avi-peltz)
+- [Avi Peltz X](https://x.com/avimakesrobots)
+- [Conductor PitchBook](https://pitchbook.com/profiles/company/641785-69)
+- [Cursor $2B/$50B talks](https://thenextweb.com/news/cursor-anysphere-2-billion-funding-50-billion-valuation-ai-coding)
+- [Superset vs Conductor vs Emdash](https://www.morphllm.com/comparisons/superset-vs-conductor-vs-emdash)
+- [Vercel blog: How Superset built on Vercel](https://vercel.com/blog/how-superset-built-the-ide-for-ai-agents-on-vercel)
+- [Superset jobs](https://www.ycombinator.com/companies/superset/jobs)
+- [Ry Walker Mac coding agent research](https://rywalker.com/research/mac-coding-agent-apps)

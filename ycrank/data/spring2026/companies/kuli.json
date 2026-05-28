@@ -1,77 +1,41 @@
 {
   "slug": "kuli",
   "name": "Kuli",
-  "oneLiner": "Claude Cowork for social media and creator marketers",
+  "oneLiner": "AI coworker for marketing teams",
   "metadata": {
     "website": "https://kuli.one",
     "yc_page": "https://www.ycombinator.com/companies/kuli",
-    "batch": "Spring 2026 (YC company page)",
-    "industry": "B2B / B2B -> Analytics",
+    "batch": "Spring 2026",
+    "industry": "B2B / B2B -> Marketing",
     "team_size": "3",
-    "location": "San Francisco, CA, USA",
-    "tags": "Artificial Intelligence, SaaS, B2B, Social Media",
+    "location": "San Francisco, CA (HQ) with operations in Paris (InfluencerMarketingHub, 2026)",
     "yc_partner": "David Lieb (YC company page)",
-    "emails": "No public data found"
+    "emails": "founders@kuli.one (YC page)"
   },
-  "tags": [
-    "Artificial Intelligence",
-    "SaaS",
-    "B2B",
-    "Social Media"
-  ],
+  "tags": [],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-22T23:33:38.391Z",
+  "memoGeneratedAt": "2026-05-28T02:43:20.923Z",
   "evalScores": {
     "cyan-banister": {
       "score": 39,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 57,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 55,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 38,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 39,
-    "EG": 46,
-    "NR": 57,
-    "PG": 55,
-    "PT": 36,
-    "SL": 34,
-    "VK": 38
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 43.57,
-  "consolidatedRank": 53,
+  "consolidatedAvg": 39,
+  "consolidatedRank": 140,
   "paths": {
     "memo": "spring2026/memos/kuli.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/kuli.md",
-      "elad-gil": "spring2026/evals/elad-gil/kuli.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/kuli.md",
-      "paul-graham": "spring2026/evals/paul-graham/kuli.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/kuli.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/kuli.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/kuli.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/kuli.md"
     }
   }
 }

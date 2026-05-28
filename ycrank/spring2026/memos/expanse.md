@@ -6,116 +6,90 @@
 |-------|-------|
 | Website | https://expanse.sh |
 | YC Page | https://www.ycombinator.com/companies/expanse |
-| Batch | Spring 2026 (YC page) |
+| Batch | Spring 2026 |
 | Industry | B2B / B2B -> Infrastructure |
 | Team Size | 4 |
 | Location | San Francisco, CA, USA |
 | Tags | AIOps, Developer Tools, Enterprise Software, Infrastructure |
-| YC Partner | David Lieb (YC page) |
-| Emails | founders@expanse.sh (YC page), founders@expanse.org.uk, contact@expanse.org.uk (expanse.sh) |
+| YC Partner | David Lieb |
+| Emails | founders@expanse.org.uk, contact@expanse.org.uk (expanse.sh, May 2026) |
 
 ## The Idea
 
-**Problem:** Expanse positions GPU/HPC over-provisioning as the target waste. The site states "30% of cloud spend is lost to over-allocation" and that researchers over-provision compute 2-3x to avoid failures (expanse.sh). The site's example is "a 32-GPU research cluster operating at 37% utilization" (expanse.sh). Customer segment named on site: HPC and GPU-cluster operators (expanse.sh). [Inferred]: target buyers are research universities, national supercomputing centres, and enterprise/quant ML training teams running Slurm or similar batch schedulers, based on the founders' stated background at "the largest quant funds and national supercomputing centres" (YC description).
-
-**Approach:** Three capabilities per the YC page and site: (1) resource prediction (right-sizing job submissions before scheduler), (2) optimisation suggestions (code/config changes), (3) failure prediction (catching jobs that will fail before consuming GPU hours) (YC page; expanse.sh). Site claims "passive telemetry collection (no user-side changes required)" and "one-click deployment" (expanse.sh). Onboarding offer: "Two-week evaluation period with no commitment" (expanse.sh).
-
-**Differentiation:** CEO Ismaeel Bashir's MSc dissertation at EPCC was titled "Multi-modal HPC Resource and Failure Prediction" (Bashir LinkedIn). YC description claims his predictor "beat every published baseline" (YC description) — no peer-reviewed citation found. [Inferred]: vs. built-in Slurm/PBS scheduler heuristics and academic prediction frameworks (e.g., the two-stage Slurm-feature framework on arXiv), Expanse packages prediction as deployable on-cluster software. Vs. NVIDIA Run:ai (Kubernetes-native GPU orchestration in cloud AI clusters, acquired by NVIDIA for $700M, closed Dec 2024 — VentureBeat, NVIDIA Blog), Expanse targets HPC/Slurm batch environments rather than Kubernetes.
-
-**Business Model:** No pricing page found on expanse.sh (expanse.sh). [Inferred]: most likely monetization is per-cluster or per-GPU-hour SaaS subscription with a "two-week eval, no commitment" land-and-expand motion, based on the trial language on the homepage.
-
-**TAM/SAM:** GPU-as-a-Service market estimates for 2025: USD 4.96B (Precedence Research), USD 8.21B (MarketsandMarkets), USD 4.37B (Grand View Research, all via search snippet). Mordor Intelligence projects USD 26.09B by 2031 at 28.73% CAGR (via search snippet). No public SAM figure found for HPC GPU-utilization optimization software specifically.
-
-**GTM / Distribution:** Public booking link `book.getexpanse.io` on YC page implies direct-sales meetings (YC page). [Inferred]: founder-led outbound to HPC centres and quant funds, leveraging EPCC and G-Research alumni networks; consistent with no current job postings found.
+- **Problem:** Organizations running HPC/GPU training clusters over-provision because researchers cannot accurately predict job resource needs or failures, leading to idle compute (expanse.sh, May 2026; YC company page, May 2026).
+- **Approach:** Intelligence layer that ingests passive cluster telemetry and applies multimodal ML to predict resource fit, surface code/config optimization suggestions, and predict job failure pre-submission (expanse.sh, May 2026).
+- **Differentiation:** Versus Run:ai/NVIDIA Run:ai (workload scheduler/GPU virtualization for K8s, run.ai) — Expanse predicts at submission rather than reschedules; versus WoolyAI (GPU sharing for ML dev/test, woolyai.com) — Expanse targets HPC research clusters with on-prem deep learning models for data sovereignty (Ismaeel Bashir LinkedIn via search snippet); versus Rafay (PaaS lifecycle orchestration, rafay.co) — Expanse focuses on prediction/optimization rather than orchestration.
+- **Business Model:** No public pricing page found on expanse.sh (May 2026); [Inferred]: Enterprise/per-cluster license given on-prem deployment model and HPC/national-lab customer profile described in YC blurb.
+- **TAM/SAM:** AI GPU Orchestration Platforms market projected to grow by $6.59B from 2026–2030 at 25.9% CAGR (Technavio, 2026); broader AI infrastructure market $142.8B in 2026 (Evolvance Market Research, 2026).
+- **GTM / Distribution:** [Inferred]: Direct sales to HPC centers and quant funds given founders' prior employers (national supercomputing centres, quant funds — YC description); booking link https://book.getexpanse.io found on YC page indicates outbound demo motion.
 
 ## Defensibility
 
-- Founder-built research IP: Bashir's master's thesis "Multi-modal HPC Resource and Failure Prediction" at EPCC (LinkedIn). Earlier dissertation "Training Machine Learning Models on Edge Devices" published to MobiUK '25 (LinkedIn).
-- Data flywheel claim: site references "deep learning models … deployed on your cluster" (LinkedIn snippet of company page). [Inferred]: per-cluster telemetry could yield a data advantage if Expanse aggregates patterns across many sites, but no evidence yet of multi-cluster deployment.
-
-**Market structure:** [Inferred]: NVIDIA now owns Run:ai (Dec 2024 close, VentureBeat) and is open-sourcing it, which is a structural pull toward Kubernetes/cloud GPU orchestration. Slurm-based national HPC and quant batch environments are an underserved adjacent segment because hyperscaler-aligned tooling does not natively address them — Expanse's HPC-first positioning is the structural barrier. Hyperscalers have weaker incentive to optimize away their own GPU billable hours.
-
-**Commoditization risk:** Academic literature on Slurm resource prediction is publicly available (arXiv 2604.02158, PMC8974354 via search snippet). Slurm itself is open-source and any HPC team or vendor (e.g., SchedMD, NVIDIA Run:ai post-open-source) could build similar prediction layers.
+- **Moat today:** Proprietary multimodal HPC resource predictor originally built by Ismaeel Bashir at EPCC, described in YC blurb as beating every published baseline (YC company page, May 2026).
+- **Future moat:** [Inferred]: Data network effect — each deployed cluster's telemetry could improve prediction models across customers, unproven now because customer count is undisclosed.
+- **Market structure:** [Inferred]: Cloud-hyperscaler GPU optimization products (AWS, Azure, NVIDIA Run:ai) have channel conflict incentivizing more GPU consumption, not less, leaving on-prem HPC waste reduction underserved.
+- **Commoditization risk:** Academic GPU scheduling research is active (MARBLE, Gavel, Sia referenced in 2025–2026 surveys; arxiv.org 2512.10271, 2512.10980), and large GPU orchestration vendors (Run:ai, Rafay) could extend into prediction.
 
 ## Market & Traction
 
-1. **Traction signals:**
-   - YC Spring 2026 batch (YC page).
-   - Company LinkedIn page exists (linkedin.com/company/expanse) — follower count not retrievable via search snippet.
-   - Twitter/X: no company account found in searches.
-   - Product Hunt / Hacker News launch: none found.
-   - Press coverage: none found.
-   - Hiring: YC profile lists hiring=False; no active job postings found.
-   - Founder Ismaeel Bashir LinkedIn: 2,000 followers, 500+ connections (LinkedIn).
-   - Customer logos on website: none displayed (expanse.sh).
-   - Revenue / paying customers: No public data found.
-   - Crunchbase shows an "Expanse Inc." profile but appears to refer to the Palo Alto Networks-acquired cybersecurity company, not this YC startup (Crunchbase via search snippet) — unconfirmed.
-
-2. **Competitive landscape:**
-   - **NVIDIA Run:ai** — Kubernetes-based GPU orchestration; acquired by NVIDIA for $700M, closed Dec 2024 (VentureBeat, NVIDIA Blog); being open-sourced. Differentiator vs. Expanse: cloud/Kubernetes-native, not HPC/Slurm-focused.
-   - **WoolyAI** — hardware-agnostic GPU hypervisor providing fractional/elastic GPU sharing across mixed clusters with no code changes (woolyai.com via search snippet). Funding: not disclosed in available sources. Differentiator: virtualization/hypervisor layer rather than predictive scheduling.
-   - **hosted.ai** — GPUaaS optimization claiming "5x more profit per GPU" for cloud providers (hosted.ai via search snippet). Funding/ARR: No public data found. Differentiator: targets GPU cloud operators' margin, not researcher workloads.
-   - **SchedMD / Slurm built-in heuristics + academic predictors** (arXiv 2604.02158; PMC8974354 via search snippet) — open-source and free; differentiator vs. Expanse: not productized, requires in-house ML ops.
-   - **Anyscale, CoreWeave, Lambda Labs, RunPod** (DigitalOcean, Northflank via search snippet) — GPUaaS / orchestration providers; adjacent rather than direct, since they sell or orchestrate GPUs rather than optimizing existing on-prem HPC clusters.
-
-3. **Why now:** [Inferred]: GPU scarcity and price (H100/B200 cycles) makes the cost of 30% over-allocation materially larger in absolute dollars than during the pre-LLM era; the NVIDIA Run:ai acquisition (Dec 2024, VentureBeat) consolidated cloud-GPU orchestration but left HPC/Slurm cluster optimization fragmented; ML-based job-resource prediction crossed published-baseline performance thresholds (Bashir's EPCC research, LinkedIn).
+- **Traction signals:**
+  - Example case shown on landing page: 32-GPU research cluster operating at 37% utilization (expanse.sh, May 2026).
+  - YC backing, Spring 2026 batch (YC company page, May 2026).
+  - Adjacent free tool offered: OS Wastage Scanner at wastage.expanse.sh (expanse.sh, May 2026).
+  - Twitter @ExpanseCompute exists per YC listing; follower count not retrievable (YC company page, May 2026).
+  - LinkedIn page expanse-compute exists per YC listing; follower count not retrievable (YC company page, May 2026).
+  - GitHub org expanse-labs listed (YC company page, May 2026); repo star counts not retrievable in search.
+  - Open positions: 0 (YC company page, May 2026).
+  - No public revenue, paying-customer count, press coverage, or Product Hunt launch found.
+- **Competitors:**
+  - NVIDIA Run:ai (acquired by NVIDIA 2024; revenue unknown post-acquisition, run.ai): Kubernetes GPU scheduler/virtualization for AI workloads, not a pre-submission predictor (run.ai).
+  - Rafay Systems (raised $89M+ across rounds per public disclosures; revenue unknown, rafay.co): Full lifecycle GPU PaaS and orchestration, broader scope than Expanse (rafay.co via search snippet).
+  - WoolyAI (funding/ARR unknown, woolyai.com): GPU sharing for ML dev/test claiming 3× capacity, targets ML notebooks rather than HPC schedulers (woolyai.com).
+  - Slurm (open source, no funding): Default HPC scheduler Expanse sits on top of, not a direct substitute (search snippet, devopsschool.com).
+  - Gavel/Sia (academic schedulers; no commercial entity): DL-focused predictive scheduling research projects (search snippet, devopsschool.com).
+- **Why now:** [Inferred]: Hyperscaler AI capex of >$320B in FY2025 (search snippet, evolvancemarketresearch.com) is forcing enterprises and labs to extract utilization from existing GPU fleets rather than buying more, per Dell'Oro's "from scale to optimization" framing of GTC 2026 (delloro.com, 2026).
 
 ## Founders & Team
 
-**Ismaeel Bashir** — Co-founder & CEO
-- University of Edinburgh, 2021-2026, Undergraduate Masters; bachelor's grade 86% (First class) (LinkedIn). Bachelor's dissertation: "Training Machine Learning Models on Edge Devices," published to MobiUK '25, 84% (LinkedIn). Master's dissertation: "Multi-modal HPC Resource and Failure Prediction" at EPCC (LinkedIn; YC description).
-- Twitter/X: No public account found.
-- LinkedIn: uk.linkedin.com/in/ismaeel-bashir — 2,000 followers, 500+ connections (LinkedIn).
-- GitHub: linked from LinkedIn (LinkedIn); handle and stars not retrieved.
-
-**Nikodem Bieniek** — Co-founder & CTO
-- Background: No public data found in searches; YC description states the four founders ran HPC and GPU training workloads "at the largest quant funds and national supercomputing centres" (YC page).
-- Twitter/X: No public account found.
-- LinkedIn: No specific profile match found in searches.
-- GitHub: No public data found.
-
-**Yafet Melake** — Co-founder & COO
-- University of Edinburgh, final-year Artificial Intelligence and Computer Science (LinkedIn via search snippet).
-- Prior roles per LinkedIn (via search snippet): SWE Intern at G-Research; previously at Bloomberg, Amazon, Goldman Sachs.
-- Twitter/X: No public account found.
-- LinkedIn: linkedin.com/in/yafet-melake (search snippet).
-- GitHub: No public data found.
-
-**Eren Mendi** — Co-founder & CPO
-- G-Research (LinkedIn via search snippet).
-- Won Marshall Wace's "Most scalable system" prize at HackTheBurgh X for a hedge-fund real-time data pipeline build (LinkedIn post via search snippet) — implies University of Edinburgh ties.
-- Twitter/X: No public account found.
-- LinkedIn: linkedin.com/in/eren-mendi-929b55138 (search snippet).
-- GitHub: No public data found.
-
-**Co-founder relationship:** Bashir, Melake, and Mendi all have University of Edinburgh ties (Bashir LinkedIn; Melake LinkedIn snippet; Mendi HackTheBurgh X via LinkedIn snippet). Melake and Mendi both list G-Research (LinkedIn snippets). No public data on Bieniek's overlap.
-
-**Founder-market fit:** Bashir's MSc thesis directly built the multimodal HPC prediction model that is the company's core capability (LinkedIn; YC description). Melake and Mendi at G-Research provide quant-fund HPC user perspective (LinkedIn snippets), matching the YC description claim that founders "ran HPC and GPU training workloads at the largest quant funds and national supercomputing centres." No advisors or investors named publicly beyond YC.
+- **Ismaeel Bashir (CEO):**
+  - Background: Built first multimodal HPC resource predictor as research at EPCC, Edinburgh's Parallel Computing Centre (YC company page, May 2026); LinkedIn confirms Expanse affiliation (uk.linkedin.com/in/ismaeel-bashir).
+  - Twitter/X: No public account found in search.
+  - LinkedIn: "Expanse" — full headline not retrievable, profile at uk.linkedin.com/in/ismaeel-bashir.
+  - GitHub: No public account confirmed via search.
+- **Nikodem Bieniek (CTO):**
+  - Background: Listed as CTO on YC company page (May 2026); no further public bio surfaced in search.
+  - Twitter/X: No public account found.
+  - LinkedIn: No public profile found via search (results returned unrelated names).
+  - GitHub: No public account confirmed.
+- **Yafet Melake (COO):**
+  - Background: Software Engineer at G-Research (uk.linkedin.com/in/yafet-melake via search snippet), matching YC description of team running workloads at "largest quant funds" (YC company page).
+  - Twitter/X: No public account found.
+  - LinkedIn: "Software Engineer - G-Research" (uk.linkedin.com/in/yafet-melake via search snippet).
+  - GitHub: No public account confirmed.
+- **Eren Mendi (CPO):** Educated at Imperial College London, San Francisco Bay Area, focused on next-generation HPC infrastructure at Expanse (linkedin.com/in/eren-mendi-929b55138 via search snippet); Kaggle profile at kaggle.com/erenmendi; UK Companies House officer record under name "Eren Ziya MENDI" (find-and-update.company-information.service.gov.uk via search snippet).
+- **Co-founder relationship:** [Inferred]: Edinburgh nexus — Bashir at EPCC and Mendi linked to Edinburgh University Trading and Investment Club (rocketreach.co via search snippet) suggest University of Edinburgh as a shared prior environment; not confirmed for all four.
+- **Founder-market fit:** Team's stated prior roles at national supercomputing centres and quant funds (YC company page, May 2026) plus Bashir's EPCC research on HPC resource prediction (YC company page) align with the on-prem HPC GPU customer profile.
 
 ## Key Risks
 
-**Incumbent open-sourcing of overlapping software:** NVIDIA is open-sourcing Run:ai post-acquisition (VentureBeat, Dec 2024). If Run:ai's open-source release extends to Slurm/HPC, Expanse's productization advantage compresses. Mitigation: Run:ai is Kubernetes-native, not Slurm-native (NVIDIA Blog).
-
-**Sales cycle to national supercomputing centres:** [Inferred]: national HPC centres procure on multi-quarter government cycles, mismatched with pre-seed runway; quant funds buy faster but are a smaller logo set.
-
-**Single-author research IP:** The "beat every published baseline" claim (YC description) rests on Bashir's master's dissertation; no peer-reviewed publication of the multimodal HPC predictor was located in searches, so external validation is unverified.
-
-**Domain inconsistency:** Site uses expanse.sh; contact emails on the site are @expanse.org.uk; YC contact email is @expanse.sh; booking is on getexpanse.io (expanse.sh; YC page). [Inferred]: brand/domain fragmentation could indicate unresolved naming/trademark issues, particularly given the prior Palo Alto Networks-acquired Expanse Inc. (Crunchbase via search snippet) and the SDSC "Expanse" supercomputer (expanse.sdsc.edu).
-
-**Co-founder public footprint asymmetry:** No public profile for CTO Nikodem Bieniek located in searches, limiting external validation of the technical co-founder.
+- **Incumbent substitution:** NVIDIA Run:ai is bundled with NVIDIA's GPU stack post-acquisition (run.ai) and could add prediction features, eroding Expanse's wedge; no mitigation publicly disclosed.
+- **Customer concentration in slow-procurement segment:** National supercomputing centres and quant funds (YC company page, May 2026) have long procurement cycles and limited buyer counts, capping early ARR velocity; no mitigation disclosed.
+- **Technical feasibility at production scale:** EPCC research predictor "beat every published baseline" (YC company page) on benchmarks, but generalization across heterogeneous GPU fleets and Slurm/Kubernetes variants is unproven publicly.
+- **Name collision / brand confusion:** "Expanse" is also the name of SDSC's supercomputer at UC San Diego (today.ucsd.edu, sdsc.edu), an Anthropic-era YC startup elsewhere, and a Palo Alto Networks product (formerly Expanse Inc., palo alto acquisition) — risks SEO and enterprise sales clarity; partially mitigated by .sh domain and "Expanse Compute Inc." legal name (expanse.sh, May 2026).
+- **Distribution sparse public footprint:** No Product Hunt launch, no press coverage, and no disclosed customer logos found as of May 2026 (search across producthunt.com, May 2026); social handles exist but follower counts not retrievable.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | GPUaaS USD 4.96B in 2025 (Precedence Research, via search snippet); USD 26.09B by 2031 at 28.73% CAGR (Mordor Intelligence, via search snippet) |
+| TAM | AI GPU Orchestration Platforms: +$6.59B 2026–2030 at 25.9% CAGR (Technavio, 2026); AI Infrastructure: $142.8B in 2026 (Evolvance Market Research, 2026) |
 | SAM | No public data found |
-| Traction | YC Spring 2026 batch (YC page); company LinkedIn page exists (LinkedIn search); no Product Hunt / press / customer logos found |
-| Revenue Signal | No public data found (no pricing on expanse.sh) |
-| Founders | Ismaeel Bashir (CEO): MSc Edinburgh/EPCC, multimodal HPC predictor thesis. Nikodem Bieniek (CTO): No public data found. Yafet Melake (COO): G-Research SWE Intern, ex-Bloomberg/Amazon/Goldman Sachs (LinkedIn snippet). Eren Mendi (CPO): G-Research, HackTheBurgh X Marshall Wace prize (LinkedIn snippet). |
-| Competitors | NVIDIA Run:ai ($700M acquisition closed Dec 2024, revenue undisclosed; Kubernetes GPU orchestration — VentureBeat). WoolyAI (funding undisclosed; GPU hypervisor — woolyai.com via snippet). hosted.ai (funding undisclosed; GPUaaS margin optimization — hosted.ai via snippet). SchedMD/Slurm + academic predictors (open-source, free — arXiv via snippet). |
-| Moat Signals | Founder research IP: Bashir EPCC MSc thesis on multimodal HPC resource/failure prediction (LinkedIn) |
-| Risk Factors | Run:ai open-sourcing overlap, slow HPC procurement cycles, unverified "beat every baseline" claim |
-| Founder Reach | Ismaeel Bashir: Twitter not found, LinkedIn 2,000 followers / 500+ connections, GitHub stars not retrieved (LinkedIn). Nikodem Bieniek: No public data found. Yafet Melake: Twitter not found, LinkedIn profile exists (search snippet), GitHub not found. Eren Mendi: Twitter not found, LinkedIn profile exists (search snippet), GitHub not found. |
-| Distribution Signals | YC Spring 2026 listing (YC page); booking link book.getexpanse.io (YC page); no Product Hunt / Hacker News / press launches found |
-| Emails | founders@expanse.sh (YC page), founders@expanse.org.uk, contact@expanse.org.uk (expanse.sh) |
+| Traction | 32-GPU customer example at 37% utilization shown on site (expanse.sh, May 2026); YC Spring 2026 batch (YC company page, May 2026); 0 open jobs (YC company page, May 2026) |
+| Revenue Signal | No public pricing or revenue disclosed (expanse.sh, May 2026) |
+| Founders | Ismaeel Bashir (CEO): EPCC HPC predictor research. Nikodem Bieniek (CTO): role per YC page. Yafet Melake (COO): software engineer at G-Research. Eren Mendi (CPO): Imperial College London, Expanse |
+| Competitors | NVIDIA Run:ai (acquired by NVIDIA, revenue unknown, K8s GPU scheduler); Rafay Systems ($89M+ raised per public sources, revenue unknown, GPU PaaS); WoolyAI (funding unknown, revenue unknown, GPU sharing for ML dev); Slurm (open source, default HPC scheduler) |
+| Moat Signals | EPCC-origin multimodal HPC resource predictor "beat every published baseline" (YC company page, May 2026) |
+| Risk Factors | NVIDIA Run:ai substitution, slow HPC procurement, "Expanse" name collision |
+| Founder Reach | Bashir: Twitter not found, LinkedIn count not retrievable, GitHub not found. Bieniek: not found. Melake: LinkedIn count not retrievable, others not found. Mendi: LinkedIn count not retrievable, Kaggle profile present |
+| Distribution Signals | Booking link book.getexpanse.io (YC company page, May 2026); free OS Wastage Scanner at wastage.expanse.sh (expanse.sh, May 2026); no Product Hunt launch found |
+| Emails | founders@expanse.org.uk, contact@expanse.org.uk (expanse.sh, May 2026) |

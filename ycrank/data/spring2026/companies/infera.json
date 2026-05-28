@@ -1,0 +1,48 @@
+{
+  "slug": "infera",
+  "name": "Infera",
+  "oneLiner": "Control lab instruments with natural language.",
+  "metadata": {
+    "website": "https://www.infera.bio",
+    "yc_page": "https://www.ycombinator.com/companies/infera",
+    "batch": "Spring 2026 (YC P26, per YC profile)",
+    "industry": "Healthcare / Healthcare -> Industrial Bio",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, SaaS, B2B, Biotech, Automation",
+    "yc_partner": "Nicolas Dessaigne (YC profile)",
+    "emails": "hello@infera.bio (infera.bio website)"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "SaaS",
+    "B2B",
+    "Biotech",
+    "Automation"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-28T02:48:44.015Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 42,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 42,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
+  },
+  "consolidatedAvg": 42,
+  "consolidatedRank": 104,
+  "paths": {
+    "memo": "spring2026/memos/infera.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/infera.md"
+    }
+  }
+}

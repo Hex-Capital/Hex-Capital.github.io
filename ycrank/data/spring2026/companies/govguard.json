@@ -5,70 +5,40 @@
   "metadata": {
     "website": "https://govguard.com",
     "yc_page": "https://www.ycombinator.com/companies/govguard",
-    "batch": "Spring 2026",
+    "batch": "Spring 2026 (YC P26)",
     "industry": "Government / Government",
     "team_size": "0",
-    "location": "No public data found",
+    "location": "San Francisco, CA, USA",
     "tags": "GovTech",
-    "yc_partner": "Tom Blomfield",
-    "emails": "support@govguard.com"
+    "yc_partner": "Tom Blomfield (YC company page)",
+    "emails": "support@govguard.com (govguard.com)"
   },
   "tags": [
     "GovTech"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-22T23:49:33.143Z",
+  "memoGeneratedAt": "2026-05-28T02:58:54.051Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 56,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 50,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 50,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 40,
+      "score": 43,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 56,
-    "EG": 50,
-    "NR": 50,
-    "PG": 47,
-    "PT": 31,
-    "SL": 39,
-    "VK": 40
+    "CB": 43,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 44.71,
-  "consolidatedRank": 42,
+  "consolidatedAvg": 43,
+  "consolidatedRank": 94,
   "paths": {
     "memo": "spring2026/memos/govguard.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/govguard.md",
-      "elad-gil": "spring2026/evals/elad-gil/govguard.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/govguard.md",
-      "paul-graham": "spring2026/evals/paul-graham/govguard.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/govguard.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/govguard.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/govguard.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/govguard.md"
     }
   }
 }

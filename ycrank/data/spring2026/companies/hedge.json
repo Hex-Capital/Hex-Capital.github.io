@@ -1,17 +1,17 @@
 {
   "slug": "hedge",
   "name": "Hedge",
-  "oneLiner": "AI native specialty insurance company",
+  "oneLiner": "AI-Native specialty insurance company",
   "metadata": {
     "website": "https://www.hedgespecialty.com/",
     "yc_page": "https://www.ycombinator.com/companies/hedge",
     "batch": "Spring 2026",
     "industry": "Fintech / Fintech -> Insurance",
-    "team_size": "0",
+    "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "Artificial Intelligence, Fintech, B2B, Insurance",
-    "yc_partner": "David Lieb (YC company page)",
-    "emails": "underwriting@hedgespecialty.com (company website)"
+    "yc_partner": "David Lieb (YC page, May 2026)",
+    "emails": "underwriting@hedgespecialty.com, submissions@hedgespecialty.com (hedgespecialty.com, May 2026)"
   },
   "tags": [
     "Artificial Intelligence",
@@ -20,58 +20,28 @@
     "Insurance"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-05-05T04:32:00.268Z",
+  "memoGeneratedAt": "2026-05-28T03:06:38.021Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 61,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 33,
+      "score": 38,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 46,
-    "EG": 47,
-    "NR": 39,
-    "PG": 61,
-    "PT": 33,
-    "SL": 41,
-    "VK": 33
+    "CB": 38,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 42.86,
-  "consolidatedRank": 63,
+  "consolidatedAvg": 38,
+  "consolidatedRank": 146,
   "paths": {
     "memo": "spring2026/memos/hedge.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/hedge.md",
-      "elad-gil": "spring2026/evals/elad-gil/hedge.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/hedge.md",
-      "paul-graham": "spring2026/evals/paul-graham/hedge.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/hedge.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/hedge.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/hedge.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/hedge.md"
     }
   }
 }

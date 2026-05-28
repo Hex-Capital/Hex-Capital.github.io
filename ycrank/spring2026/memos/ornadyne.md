@@ -11,104 +11,94 @@
 | Team Size | 2 |
 | Location | Los Angeles, CA, USA |
 | Tags | Hard Tech, Robotics, Drones, Aerospace |
-| YC Partner | Aaron Epstein (YC company page) |
+| YC Partner | Aaron Epstein |
 | Emails | No public data found |
 
 ## The Idea
 
-**Problem:** Traditional small UAS (quadcopters, fixed-wing) are detectable acoustically, visually, and electronically; counter-UAS systems are improving and degrading their effectiveness for close-range surveillance (company description, YC page). Customer segments implied by the messaging are reconnaissance/ISR users — defense, intelligence, law enforcement (company description).
-
-**Approach:** Flapping-wing (ornithopter) autonomous drones engineered to "look, fly, and sound like birds" with a focus on stealth, endurance, autonomy, and field reliability (company description). Founder Geourg Kivijian's Cal Poly MS thesis describes a "bio-mimetic novel drive mechanism that is cable-driven and can produce variable amplitude and frequency flapping stroke" (Cal Poly Digital Commons, thesis #3083), which appears to be the underlying mechanism. The product is described in search snippet as "near-silent, AI-powered, man-portable" (search snippet referencing ornadyne.com).
-
-**Differentiation:** Flapping-wing biomimicry vs. quadcopter/fixed-wing form factors used by Teledyne FLIR Black Hornet (Black Hornet Nano, Wikipedia), Skydio X10D, and Red Cat/Teal Black Widow (USNI Proceedings, Dec 2025). [Inferred]: Differentiation vs. existing ornithopter players (Flygildi, Flapper Drones, Aerium RoBird) is positioned around higher performance/endurance/control suitable for "real-world deployment" (company description).
-
-**Business Model:** No pricing page accessible (ornadyne.com returned HTTP 403 on WebFetch; website not accessible at time of research). [Inferred]: Most likely monetization is hardware unit sales plus support/software contracts to defense, intelligence, and law-enforcement buyers, given the reconnaissance/ISR positioning and LA-based hard-tech defense ecosystem.
-
-**TAM/SAM:**
-- Counter-UAS / C-UAS market: USD 6.64B in 2025 (MarketsandMarkets via search snippet); USD 8.40B in 2025 (Fortune Business Insights via search snippet); growing to USD 20.31B by 2030 (MarketsandMarkets via search snippet).
-- DroneShield 2025 TAM Report estimates total addressable C-UxS market at USD 63B, split USD 34.7B military/government/LE and USD 28.2B civilian (Unmanned Airspace via search snippet).
-- No public TAM/SAM data found for the ornithopter / biomimetic-drone sub-segment specifically (multiple market reports surveyed).
-
-**GTM / Distribution:** No public GTM data found. [Inferred]: Direct sales to U.S. DoD and federal customers via SBIR/OTA/program-of-record paths (e.g., Army Soldier-Borne Sensor and Short-Range Reconnaissance lineages — Black Hornet, SRR Tranche 2, USNI Proceedings Dec 2025), given the LA defense-tech cluster and founders' SpaceX/JPL/Astrolab pedigree.
+- **Problem:** Traditional quadcopter and fixed-wing UAS are easy to detect acoustically, visually, and electronically by improving counter-UAS systems, leaving military operators without effective close-range surveillance (YC company description; Atoms Not Bits / X, 2026).
+- **Approach:** Autonomous flapping-wing ornithopters with hour-class flight times, low acoustic signatures, and bird-like flight that present a different sensor signature than rotor/fixed-wing platforms (YC Launch page, 2026).
+- **Differentiation:** Versus AeroVironment's Nano Hummingbird (DARPA NAV legacy) and France's Bionic Bird-derived BIOFLY (50g consumer-derived), Ornadyne targets a "high-performance, stealth-optimized system built from first principles" with hour-class endurance rather than minutes (YC company description; Flying Magazine on BIOFLY; Military.com on AeroVironment).
+- **Business Model:** [Inferred]: Hardware sales and program contracts to U.S. defense/military customers, given the YC description explicitly frames the product as "drones with cameras for the military" (YC Launch page, 2026).
+- **TAM/SAM:** Global military drone market valued at $20.8B in 2026 growing to $30.9B by 2034 (Fortune Business Insights, 2026); ISR (intelligence, surveillance, reconnaissance) segment dominated 2025 share (Grand View Research, 2025); no public SAM data found for flapping-wing reconnaissance specifically.
+- **GTM / Distribution:** [Inferred]: Direct sales to U.S. DoD and allied militaries via SBIR/program offices, the standard path for early-stage defense hardware; no public contracts or pilots found.
 
 ## Defensibility
 
-- **Technical IP:** CEO authored a Cal Poly MS thesis on a "novel bio-mimetic ornithopter with variable flapping" (Cal Poly Digital Commons, thesis #3083) and won 1st place at AIAA Region VI Student Conference for "Aerodynamic Force Characterization of a Novel Variable Amplitude Flapping Wing Robot" (Aerospace America via search snippet). No patent filings located in public search.
-- **Talent depth:** CTO engineered Starship components at SpaceX and led machining at USC Rocket Propulsion Lab (which set student/amateur solid-rocket-motor world records, RocketReach via search snippet) (YC page; LinkedIn).
-- [Inferred]: Multi-year R&D head start on a hard mechatronics problem (flapping-wing aerodynamics, control, endurance) is the principal moat at this stage; no commercial moat (revenue, contracts, installed base) is identifiable from public sources.
-
-**Market structure:** [Inferred]: Structural barrier is technical complexity — flapping-wing aerodynamics, lightweight actuation, and autonomous bird-mimetic flight control are a discipline distinct from quadcopter/fixed-wing engineering, and a review article notes the field's challenges remain open (Sage Journals review on flapping-wing robots, 2025 via search snippet). Incumbents (Teledyne FLIR, Skydio, Red Cat/Teal) have product roadmaps and supply chains optimized around rotor/fixed-wing platforms.
-
-**Commoditization risk:** Active academic and state-backed competition: Northwestern Polytechnical University (China) has demonstrated a 4+ hour eagle-like flapping-wing drone (CGTN, Mar 2026 via search snippet); USAF/Airion Health prototypes (Military.com, Jun 2021 via search snippet); Rutgers motor-free flapping drone (Aerospace Testing International via search snippet); TU Delft DelFly/Flapper Drones (Wikipedia; flapper-drones.eu).
+- **Moat today:** Founder-specific technical IP — CEO's MS thesis "Development of a Novel Bio-Mimetic Ornithopter With Variable Flapping" (Cal Poly DigitalCommons) plus 2+ years of AIAA/IEEE-published flapping-wing R&D (YC Launch page; ResearchGate profile).
+- **Future moat:** [Inferred]: Accumulated flight data on bird-mimetic signatures and program-of-record integrations with DoD customers could create switching costs; unproven now because no contracts, fielded units, or flight-hour data are public.
+- **Market structure:** [Inferred]: ITAR/export-controlled defense procurement, classified mission requirements, and multi-year qualification cycles structurally limit fast-follower copying by consumer-drone incumbents whose channels (retail/commercial) and unit economics (low-cost rotor) are incompatible.
+- **Commoditization risk:** State-funded programs (China's Northwestern Polytechnical University ornithopter, France's BIOFLY, U.S. AFRL/Airion micro air vehicle program) have already built flapping-wing prototypes, indicating the underlying physics is reproducible by well-resourced labs (Eurasian Times, 2023; Flying Magazine; Military.com, 2021).
 
 ## Market & Traction
 
-**Traction signals:**
-- Company revenue, paying customers, contracts: No public data found.
-- Press: No TechCrunch, Bloomberg, Wired or named-publication coverage of Ornadyne found in search.
-- Product Hunt: No listing found.
-- LinkedIn company page: referenced on YC page, follower count not retrievable.
-- Twitter/X (company): No public data found.
-- Discord/Slack community: No public data found.
-- App store / extension: Not applicable (hardware).
-- Job postings: Hiring flag is False on YC profile (company_data); no public job posts found.
-- Funding: No public funding announcement found beyond [Inferred] standard YC deal (~$500K) for Spring 2026 batch.
-
-**Competitive landscape:**
-- **Teledyne FLIR Black Hornet 4** — Incumbent U.S. Army Soldier-Borne Sensor selection; pocket-sized rotor nano-UAV (Military Embedded Systems via search snippet; Wikipedia). Public-company subsidiary, revenue not separable. Differentiator vs. Ornadyne: production deployment at scale; rotorcraft form factor (acoustic/visual signature ornithopters target).
-- **Skydio (X10D)** — Awarded SRR Tranche 2 contract (USNI Proceedings, Dec 2025 via search snippet). Has raised >$340M historically (general public knowledge; not verified in this research). Differentiator: autonomy stack on quadcopter platform.
-- **Red Cat / Teal Drones (Black Widow)** — Awarded SRR Tranche 2; FY2025 Army budget request USD 21.1M for 270 systems (USNI Proceedings, Dec 2025 via search snippet). Public company (Red Cat). Differentiator: U.S.-built rotor sUAS with active programs of record.
-- **Flygildi / Silent Flyer (Iceland)** — Bird-like flapping-wing drone for covert/security; raised USD 2.2M Seed (Tech.eu, Sep 2023 via search snippet) plus prior 2019 angel round led by Spakur Finance (EU-Startups, 2019 via search snippet). Revenue unknown. Differentiator: closest direct ornithopter competitor; earlier go-to-market in Europe.
-- **Flapper Drones (TU Delft spinoff)** — Bio-inspired flapping-wing platforms targeting entertainment/research (flapper-drones.eu). Funding not disclosed. Revenue unknown. Differentiator: non-defense use cases (drone shows, research).
-- **Aerium Analytics / RoBird** — Bird-like drone for wildlife management (thedronebird.com via search snippet). Differentiator: bird-control vs. surveillance.
-
-**Why now:** [Inferred]: Improvements in counter-UAS detection (RF, acoustic, radar) over 2023-2026 have raised the detectability cost of conventional sUAS in contested environments (multiple C-UAS market reports, 2025); the Ukraine conflict's drone war has accelerated demand for low-signature ISR platforms (general public knowledge; not directly cited in research). [Inferred]: Improvements in lightweight actuators, embedded compute, and onboard autonomy (referenced as "AI-powered" in search snippet of ornadyne.com) make biomimetic flight more tractable than in prior decades.
+- **Traction signals:**
+  - $1M total funding raised (StartupHub.ai, 2026).
+  - YC Spring 2026 (P26) batch participation (YC company page).
+  - Public launch covered by Y Combinator's official X account and Atoms Not Bits on X (x.com/ycombinator, x.com/AtomsNotBits, 2026); follower counts for both founders not retrievable.
+  - CEO has multiple AIAA and IEEE conference publications on flapping-wing drones (YC Launch page; ResearchGate).
+  - No public revenue, customer count, DoD contract, or pilot announcement found.
+- **Competitors (closest set; direct commercial flapping-wing competitors are scarce):**
+  - AeroVironment (NYSE: AVAV, ~$717M FY2024 revenue per public filings; built DARPA Nano Hummingbird): incumbent military micro-UAV supplier with rotor/fixed-wing focus, not currently shipping flapping-wing recon (Military.com, 2021).
+  - Bionic Bird / XTIM (France, private, funding undisclosed): consumer-origin 50g flapping-wing platform now being explored by French military "BIOFLY" program; Ornadyne targets longer endurance, hour-class flight (Flying Magazine).
+  - Airion (private, funding undisclosed): U.S. Air Force Research Lab partner developing micro air vehicle prototypes since 2021 (Military.com, 2021).
+  - Northwestern Polytechnical University ornithopter team (China, state-funded, not commercial): falcon-sized flapping-wing UAV demonstrated for recon (Eurasian Times, 2023).
+  - [Inferred]: Direct commercial Western competitor set is small because flapping-wing has historically lacked endurance/control — most prior work sits in academic labs or government programs, not VC-backed startups.
+- **Why now:** Counter-UAS proliferation in active conflicts (Ukraine, Middle East) over 2024–2026 has degraded effectiveness of conventional small drones, increasing demand for low-signature alternatives (YC company description; Atoms Not Bits / X, 2026); [Inferred]: brushless micro-motor, battery energy density, and on-board AI compute improvements have crossed thresholds enabling hour-class autonomous ornithopter flight.
 
 ## Founders & Team
 
-**Geourg Kivijian** — Co-founder & CEO
-- MS Aerospace Engineering, California Polytechnic State University, San Luis Obispo; thesis on a bio-mimetic ornithopter with variable-amplitude flapping (Cal Poly Digital Commons, thesis #3083).
-- AIAA Region VI Student Conference 1st place winner for variable-amplitude flapping-wing-robot aerodynamic characterization (Aerospace America via search snippet).
-- Previously: NASA Jet Propulsion Laboratory (Mars Sample Return coordination); Astrolab (lunar rovers) (YC page).
-- Twitter/X: @geourgkivijian (YC page); follower count not retrievable.
-- LinkedIn: linkedin.com/in/geourg-kivijian-90215b200/ — headline "Ornadyne (YC P26)" (LinkedIn search snippet); connection count not retrievable.
-- GitHub: No public repos found.
-
-**Armen Arakelyan** — Co-founder & CTO
-- Astronautical engineering, USC; Machining Team Lead, USC Rocket Propulsion Laboratory, which set world records for most powerful student-fired solid-rocket motor and most powerful amateur composite-case solid-rocket motor (RocketReach via search snippet).
-- Previously: Engineer on Starship components at SpaceX (YC page; LinkedIn snippet).
-- Twitter/X: No public account found.
-- LinkedIn: linkedin.com/in/armen-arakelyan-171b71219/ — listed as SpaceX (LinkedIn search snippet); connection count not retrievable.
-- GitHub: No public repos found.
-
-**Co-founder relationship:** No public data on co-founder history; no shared employer or university surfaced in Phase 3 (Cal Poly vs. USC; JPL/Astrolab vs. SpaceX).
-
-**Founder-market fit:** [Inferred]: Strong technical fit — CEO's graduate research is directly on variable-amplitude flapping-wing aerodynamics (Cal Poly thesis), the precise mechanism the company is commercializing; CTO brings flight-hardware manufacturing experience from SpaceX Starship and high-performance propulsion (USC RPL), which maps to the production/reliability challenge the company explicitly cites. No advisors, board members, or named investors beyond YC (Aaron Epstein as Group Partner, YC page) found.
+- **Geourg Kivijian (Co-founder / CEO):**
+  - Background: MS Aerospace Engineering, California Polytechnic State University, San Luis Obispo, with thesis "Development of a Novel Bio-Mimetic Ornithopter With Variable Flapping" (Cal Poly DigitalCommons); previously led coordination systems for Mars Sample Return at NASA JPL and worked on lunar rovers at Astrolab; multiple AIAA/IEEE conference publications on flapping-wing robotics (YC Launch page; ResearchGate; LinkedIn).
+  - Twitter/X: @geourgkivijian (Y Combinator X post, 2026); follower count not retrievable.
+  - LinkedIn: "Co-Founder/CEO at Ornadyne" (linkedin.com/in/geourg-kivijian/).
+  - GitHub: No public repos found.
+- **Armen Arakelyan (Co-founder / CTO):**
+  - Background: Engineered Starship components at SpaceX; previously Machining Team Lead at USC Rocket Propulsion Laboratory, contributing to amateur rocketry altitude world record at 144 km (YC Launch page; RocketReach; LinkedIn).
+  - Twitter/X: @Armakelyan (Y Combinator X post, 2026); follower count not retrievable.
+  - LinkedIn: "Co-Founder / CTO @ Ornadyne" (linkedin.com/in/armen-arakelyan-171b71219/).
+  - GitHub: No public repos found.
+- **Co-founder relationship:** Founders have been best friends since middle school (YC Launch page, 2026).
+- **Founder-market fit:** CEO holds an MS-thesis-level specialization in bio-mimetic ornithopters plus NASA JPL/Astrolab spacecraft-systems experience, and CTO holds SpaceX Starship and USC RPL hardware/manufacturing experience — both directly applicable to building flight-qualified aerospace hardware (YC Launch page; Cal Poly DigitalCommons; LinkedIn); no advisors or investors publicly named.
 
 ## Key Risks
 
-**Technical feasibility at deployable performance:** Flapping-wing UAS have, per a 2025 Sage Journals review (search snippet), open challenges in endurance, payload, and control; the company's own description acknowledges "Flapping-wing aircraft have existed for years, but have lacked the performance, endurance, and control required for real-world deployment" (company description). Delivering a system that meaningfully exceeds the 4+ hour endurance demonstrated by Northwestern Polytechnical University (CGTN, Mar 2026 via search snippet) is unproven.
-
-**Defense procurement cycle:** [Inferred]: Programs of record like SBS and SRR have already selected Teledyne FLIR, Skydio, and Red Cat/Teal (USNI Proceedings, Dec 2025); displacing or coexisting with these awards typically requires multi-year SBIR-to-OTA progression and ITAR/export-control compliance.
-
-**ITAR / export-control regulatory burden:** [Inferred]: Surveillance/reconnaissance UAS sold to defense customers fall under ITAR/EAR controls, restricting GTM to vetted U.S./allied buyers and complicating hiring (citizenship requirements). No public evidence of compliance posture found.
-
-**International incumbent competition:** State-backed Chinese flapping-wing programs (Northwestern Polytechnical University, CGTN Mar 2026 via search snippet) and a funded European competitor with a 2-year head start (Flygildi $2.2M Seed, Tech.eu Sep 2023) constrain non-U.S. addressable market.
-
-**Two-person team for hardware scaling:** [Inferred]: Hardware companies typically require larger teams (mechanical, electrical, firmware, flight test, manufacturing) to reach production; the YC profile lists hiring as False (company_data), indicating capacity expansion has not yet begun.
+- **Technical feasibility at required performance:** Flapping-wing aircraft have historically "lacked the performance, endurance, and control required for real-world deployment" per Ornadyne's own description, and the hour-class endurance + autonomy target has not been independently demonstrated by any commercial flapping-wing platform; mitigation is CEO's 2+ years of published ornithopter R&D, but no public flight-hour data or independent benchmarks exist (YC company description; YC Launch page).
+- **Customer concentration / defense sales cycle:** Product is explicitly "for the military" (YC Launch page), exposing the company to long DoD procurement cycles, ITAR compliance burden, and dependence on a small set of program offices; no signed contracts or LOIs disclosed publicly.
+- **Sovereign and incumbent competition:** State-funded programs in China (Northwestern Polytechnical University) and France (BIOFLY) plus U.S. AFRL/Airion micro-UAV work are pursuing the same form factor with non-commercial funding, which could either crowd out a startup or set procurement standards before Ornadyne fields a product (Eurasian Times, 2023; Flying Magazine; Military.com, 2021).
+- **Capital intensity vs. funding raised:** $1M raised (StartupHub.ai, 2026) is small relative to aerospace hardware development cycles for flight-qualified autonomous systems; no Series A or follow-on round reported.
+- **Name/identity disambiguation:** "Armen Arakelyan" is a common Armenian name returning multiple unrelated LinkedIn profiles (Cisco Technical Lead, Senior Software Engineer in Armenia, etc.); cross-reference must rely on the YC-cited profile and SpaceX/USC RPL credentials (LinkedIn search results).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | C-UAS USD 6.64B (2025) → USD 20.31B (2030) (MarketsandMarkets via search snippet); USD 8.40B (2025) (Fortune Business Insights via search snippet); USD 63B C-UxS TAM (DroneShield 2025 TAM Report via search snippet) |
-| SAM | No public data found for ornithopter sub-segment |
-| Traction | No public data found |
-| Revenue Signal | No public data found (website returned 403, not accessible at time of research) |
-| Founders | Geourg Kivijian (CEO): MS Aerospace Cal Poly, ornithopter thesis, AIAA Region VI 1st place, ex-NASA JPL, ex-Astrolab. Armen Arakelyan (CTO): USC Astro, USC Rocket Propulsion Lab Machining Team Lead, ex-SpaceX Starship. |
-| Competitors | Teledyne FLIR Black Hornet (public co subsidiary, revenue unknown, incumbent SBS rotor nano-UAV); Skydio X10D (funding undisclosed in this research, revenue unknown, SRR Tranche 2 awardee); Red Cat/Teal Black Widow (public co, FY25 Army budget USD 21.1M for 540 aircraft per USNI Dec 2025, SRR awardee); Flygildi/Silent Flyer ($2.2M Seed Sep 2023 per Tech.eu, revenue unknown, direct ornithopter competitor); Flapper Drones (TU Delft spinoff, funding undisclosed, revenue unknown, entertainment/research focus) |
-| Moat Signals | CEO Cal Poly MS thesis on novel variable-amplitude flapping mechanism (Cal Poly Digital Commons #3083); AIAA Region VI 1st place (Aerospace America via search snippet); no patents located |
-| Risk Factors | Technical feasibility at deployable performance, defense procurement cycle vs. incumbents, ITAR/export-control burden |
-| Founder Reach | Geourg Kivijian: Twitter @geourgkivijian count not retrievable, LinkedIn count not retrievable, GitHub no public repos found. Armen Arakelyan: Twitter no public account found, LinkedIn count not retrievable, GitHub no public repos found |
-| Distribution Signals | No public data found |
+| TAM | Global military drone market $20.8B in 2026, $30.9B by 2034 (Fortune Business Insights, 2026); $20.8B 2026 base also per Persistence Market Research, 2026 |
+| SAM | No public data found |
+| Traction | $1M raised (StartupHub.ai, 2026); YC Spring 2026 launch covered by @ycombinator and @AtomsNotBits on X (Nov 2026); CEO multiple AIAA/IEEE flapping-wing publications (ResearchGate); no revenue, contracts, or units shipped publicly disclosed |
+| Revenue Signal | No public data found |
+| Founders | Geourg Kivijian (CEO): MS Aerospace Cal Poly SLO, ex-NASA JPL Mars Sample Return, ex-Astrolab, AIAA/IEEE ornithopter publications. Armen Arakelyan (CTO): ex-SpaceX Starship components, ex-USC Rocket Propulsion Lab Machining Team Lead (144 km altitude record). |
+| Competitors | AeroVironment (public, ~$717M FY24 rev, built DARPA Nano Hummingbird, rotor/fixed-wing focus); Bionic Bird/XTIM (France, funding undisclosed, consumer-origin 50g platform behind French BIOFLY); Airion (private, undisclosed, AFRL micro air vehicle partner); Northwestern Polytechnical University ornithopter (China, state-funded, non-commercial) |
+| Moat Signals | CEO's Cal Poly MS thesis on bio-mimetic ornithopter with variable flapping (Cal Poly DigitalCommons); 2+ years AIAA/IEEE publications (ResearchGate); [Inferred]: ITAR/defense procurement barriers — labeled inferred |
+| Risk Factors | Unproven flapping-wing endurance/control at deployment grade, DoD sales cycle and customer concentration, sovereign/state-funded competition |
+| Founder Reach | Geourg Kivijian: Twitter @geourgkivijian (count not retrievable), LinkedIn present (count not retrievable), GitHub not found. Armen Arakelyan: Twitter @Armakelyan (count not retrievable), LinkedIn present (count not retrievable), GitHub not found. |
+| Distribution Signals | YC Spring 2026 Launch post (ycombinator.com/launches/QAr-ornadyne-robot-birds-for-reconnaissance); @ycombinator X launch post (2026); @AtomsNotBits X coverage (2026) |
 | Emails | No public data found |
+
+Sources:
+- [Ornadyne YC Company Page](https://www.ycombinator.com/companies/ornadyne)
+- [Launch YC: Ornadyne - Robot Birds for Reconnaissance](https://www.ycombinator.com/launches/QAr-ornadyne-robot-birds-for-reconnaissance)
+- [Y Combinator X launch post](https://x.com/ycombinator/status/2051700953112584550)
+- [Atoms Not Bits X post on Ornadyne](https://x.com/AtomsNotBits/status/2051701771454894228)
+- [StartupHub.ai – Ornadyne $1M raised](https://www.startuphub.ai/startups/ornadyne)
+- [Geourg Kivijian LinkedIn](https://www.linkedin.com/in/geourg-kivijian/)
+- [Geourg Kivijian Cal Poly MS thesis](https://digitalcommons.calpoly.edu/theses/3083/)
+- [Geourg Kivijian ResearchGate profile](https://www.researchgate.net/profile/Geourg-Kivijian)
+- [Armen Arakelyan LinkedIn](https://www.linkedin.com/in/armen-arakelyan-171b71219/)
+- [Armen Arakelyan USC RPL profile (RocketReach)](https://rocketreach.co/armen-arakelyan-email_713875697)
+- [Fortune Business Insights – Military Drone Market](https://www.fortunebusinessinsights.com/military-drone-market-102181)
+- [Persistence Market Research – Military Drone Market](https://www.persistencemarketresearch.com/market-research/military-drone-market.asp)
+- [Grand View Research – Military Drone Market](https://www.grandviewresearch.com/industry-analysis/military-drone-market-report)
+- [Military.com – Air Force Bird-Like Microdrones / Airion](https://www.military.com/daily-news/2021/06/17/air-force-developing-bird-microdrones-flapping-wings.html)
+- [Flying Magazine – French BIOFLY / Bionic Bird](https://www.flyingmag.com/french-military-explores-use-of-wing-flapping-bird-drone/)
+- [Eurasian Times – Northwestern Polytechnical University ornithopter](https://www.eurasiantimes.com/chinas-pla-linked-university-develops-flapping-wing-bird-drones/)

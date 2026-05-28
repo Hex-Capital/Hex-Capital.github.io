@@ -10,8 +10,8 @@
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "Artificial Intelligence, Productivity, Team Collaboration",
-    "yc_partner": "David Lieb",
-    "emails": "kt@heyhyper.ai (YC company page)"
+    "yc_partner": "David Lieb (YC company page)",
+    "emails": "No public data found"
   },
   "tags": [
     "Artificial Intelligence",
@@ -19,58 +19,28 @@
     "Team Collaboration"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-05-07T16:58:28.931Z",
+  "memoGeneratedAt": "2026-05-28T02:32:19.058Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 50,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 25,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
       "score": 33,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 38,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 30,
-    "EG": 39,
-    "NR": 50,
-    "PG": 40,
-    "PT": 25,
-    "SL": 33,
-    "VK": 38
+    "CB": 33,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 36.43,
-  "consolidatedRank": 130,
+  "consolidatedAvg": 33,
+  "consolidatedRank": 171,
   "paths": {
     "memo": "spring2026/memos/hyper-4.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/hyper-4.md",
-      "elad-gil": "spring2026/evals/elad-gil/hyper-4.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/hyper-4.md",
-      "paul-graham": "spring2026/evals/paul-graham/hyper-4.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/hyper-4.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/hyper-4.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/hyper-4.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/hyper-4.md"
     }
   }
 }

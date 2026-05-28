@@ -1,76 +1,48 @@
 {
   "slug": "qomplement",
   "name": "qomplement",
-  "oneLiner": "AI Agents for Document Filling",
+  "oneLiner": "The Agentic ERP for supply chain operations",
   "metadata": {
-    "website": "https://qomplement.com/",
+    "website": "https://qomplement.com",
     "yc_page": "https://www.ycombinator.com/companies/qomplement",
-    "batch": "Spring 2026",
+    "batch": "Spring 2026 (YC company page)",
     "industry": "B2B / B2B",
     "team_size": "4",
     "location": "San Francisco, CA, USA",
-    "tags": "Documents, B2B, AI",
-    "yc_partner": "Tom Blomfield",
-    "emails": "No public data found"
+    "tags": "B2B, Logistics, Supply Chain, Enterprise Software, AI",
+    "yc_partner": "Tom Blomfield (YC company page)",
+    "emails": "No public data found (demo booking at qomplement.cal.com/kerim/20min, YC page)"
   },
   "tags": [
-    "Documents",
     "B2B",
+    "Logistics",
+    "Supply Chain",
+    "Enterprise Software",
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-22T23:47:36.458Z",
+  "memoGeneratedAt": "2026-05-28T02:57:23.084Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
       "score": 42,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 38,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 41,
-    "EG": 39,
-    "NR": 45,
-    "PG": 42,
-    "PT": 32,
-    "SL": 32,
-    "VK": 38
+    "CB": 42,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 38.43,
-  "consolidatedRank": 116,
+  "consolidatedAvg": 42,
+  "consolidatedRank": 107,
   "paths": {
     "memo": "spring2026/memos/qomplement.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/qomplement.md",
-      "elad-gil": "spring2026/evals/elad-gil/qomplement.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/qomplement.md",
-      "paul-graham": "spring2026/evals/paul-graham/qomplement.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/qomplement.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/qomplement.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/qomplement.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/qomplement.md"
     }
   }
 }

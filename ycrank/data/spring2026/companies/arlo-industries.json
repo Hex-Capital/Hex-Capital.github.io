@@ -5,12 +5,12 @@
   "metadata": {
     "website": "https://arlo1.com/",
     "yc_page": "https://www.ycombinator.com/companies/arlo-industries",
-    "batch": "Spring 2026 (YC page)",
+    "batch": "Spring 2026",
     "industry": "Industrials / Industrials -> Defense",
-    "team_size": "2",
+    "team_size": "3",
     "location": "San Francisco, CA, USA",
     "tags": "Hard Tech, Drones, Security, Radar, Aerospace",
-    "yc_partner": "Andrew Miklas (YC page)",
+    "yc_partner": "Andrew Miklas (YC company page)",
     "emails": "No public data found"
   },
   "tags": [
@@ -21,58 +21,33 @@
     "Aerospace"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-05-17T21:57:19.221Z",
+  "memoGeneratedAt": "2026-05-28T02:32:30.178Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 63,
+      "score": 64,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 58,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 55,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 45,
+      "score": 48,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 63,
-    "EG": 49,
-    "NR": 36,
-    "PG": 58,
-    "PT": 55,
-    "SL": 37,
-    "VK": 45
+    "CB": 64,
+    "EG": 48,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 49,
-  "consolidatedRank": 28,
+  "consolidatedAvg": 56,
+  "consolidatedRank": 23,
   "paths": {
     "memo": "spring2026/memos/arlo-industries.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/arlo-industries.md",
-      "elad-gil": "spring2026/evals/elad-gil/arlo-industries.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/arlo-industries.md",
-      "paul-graham": "spring2026/evals/paul-graham/arlo-industries.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/arlo-industries.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/arlo-industries.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/arlo-industries.md"
+      "elad-gil": "spring2026/evals/elad-gil/arlo-industries.md"
     }
   }
 }

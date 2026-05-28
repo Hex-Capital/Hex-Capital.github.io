@@ -1,6 +1,6 @@
 ﻿# Kinect
 
-> Personalized storefronts for every visitor
+> Storefronts that sell to humans and AI agents
 
 | Field | Value |
 |-------|-------|
@@ -12,120 +12,88 @@
 | Location | San Francisco, CA, USA |
 | Tags | B2B, E-commerce, Conversational AI |
 | YC Partner | David Lieb |
-| Emails | hello@trykinect.ai |
+| Emails | kratik@trykinect.ai, varun@trykinect.ai |
 
 ## The Idea
 
-**Problem:** The product detail page (PDP) in e-commerce is static and undifferentiated regardless of how a shopper arrived or what they need (company website). Brands invest heavily in driving traffic via ads, SEO, and social but the landing experience is identical for every visitor. Shoppers with unanswered questions, sizing concerns, or product-fit doubts leave without converting. Currently, brands rely on generic FAQ pages, basic chatbots, or human live-chat agents that do not scale.
-
-**Approach:** Kinect adds three capabilities to existing e-commerce stores without requiring replatforming (company website):
-- **AI Shopping Assistant** — a conversational agent with live access to the store's catalog, inventory, and policies that answers product questions, handles objections, and recommends products.
-- **Adaptive Product Pages** — dynamically changes on-page content (hero images, copy, recommendations) based on the ad the visitor clicked, their search terms, scroll behavior, and chat context.
-- **Intelligence Dashboard** — surfaces aggregated shopper questions, comparison patterns, and buying reasons to the merchant.
-
-Integrations include Shopify, Shopify Plus, and custom/headless platforms (company website).
-
-**Differentiation:**
-- vs. Rep AI: Rep AI focuses on proactive chat-based engagement and behavioral prediction to intercept abandoning shoppers (insiderone.com). Kinect goes beyond chat by also adapting the page layout and content itself based on visitor context.
-- vs. Alhena AI: Alhena AI (formerly Gleen AI) focuses on hallucination-free support and CX-to-revenue conversion across FAQs and chat (alhena.ai). Kinect's scope includes modifying the visual storefront, not just the conversational layer.
-- vs. Tolstoy: Tolstoy uses interactive shoppable video as the primary engagement medium (gotolstoy.com). Kinect is text/page-based rather than video-based.
-- vs. Amazon Rufus / Shop.app: These are owned by the marketplace/platform and work within their ecosystem. Kinect is merchant-installable and platform-agnostic across Shopify and headless stacks.
-
-**Business Model:** No pricing page is publicly available (company website, accessed April 2026). The website mentions "white-glove service" including dedicated onboarding, direct team access, quarterly performance reviews, and continuous weekly improvements, suggesting a managed/high-touch service model. [Inferred]: Most likely monetization path is a SaaS subscription with tiered pricing based on store traffic or conversation volume, potentially with a performance-based component given the emphasis on conversion lift metrics.
-
-**TAM/SAM:**
-- E-Commerce Personalization Software Market: $2.87B in 2025, projected $3.21B in 2026 (Global Growth Insights, 2025 via search snippet).
-- E-Commerce Personalization Platform Market: $7.12B in 2025, growing to $30B by 2035 at 15.5% CAGR (WiseGuy Reports, 2025 via search snippet).
-- [Inferred]: SAM is the subset of Shopify and headless commerce merchants spending on AI-powered conversion optimization tools. No public SAM estimate specific to this segment found.
-
-**GTM / Distribution:**
-- The Shopify integration provides a built-in distribution channel via the Shopify App Store ecosystem (company website).
-- The white-glove onboarding model suggests an initial high-touch, direct-sales GTM motion targeting mid-market DTC brands.
-- [Inferred]: Likely starting with Shopify Plus merchants who have sufficient traffic to demonstrate measurable conversion lift, then expanding to headless/custom stacks.
+- **Problem:** DTC e-commerce product pages are static grids that cannot answer shopper questions, surface fit/objection details, or convert AI-agent traffic from ChatGPT/Gemini/Perplexity (company website, trykinect.ai).
+- **Approach:** Plugs into a store's catalog, inventory, and policies to power an on-site shopping assistant, real-time-adaptive product pages, and a structured brand-owned data layer exposed to external agents (company website, trykinect.ai).
+- **Differentiation:** vs. Rep AI (Shopify-only chat widget per Alhena comparison) and Alhena (chat + support focus, alhena.ai); Kinect bundles chat + adaptive PDPs + agent-readable catalog feed in one layer (company website, trykinect.ai); vs. Daydream — Daydream is a consumer-facing fashion search destination (TechCrunch, Jun 2024), while Kinect is merchant-installed.
+- **Business Model:** [Inferred]: SaaS subscription with white-glove onboarding for DTC merchants — no pricing page is published (company website, trykinect.ai).
+- **TAM/SAM:** McKinsey projects agentic commerce will drive $3–5T globally by 2030 (Modern Retail, 2026, via search snippet); no Kinect-specific SAM published.
+- **GTM / Distribution:** [Inferred]: Direct sales to mid-market DTC Shopify brands — 10 named customer logos on homepage (Slumberkins, Sousa, Zupz, Ketro, ALC, Bloom, Hearthy Foods, Huppy, VapeTM, Loosey Goosey) suggest founder-led outbound (company website, trykinect.ai).
 
 ## Defensibility
 
-- **Data flywheel (potential, not yet proven):** Each conversation and page interaction generates shopper intent data (questions asked, objections raised, browsing patterns). Over time, this data could improve recommendations and page-adaptation logic across the merchant base.
-- **Integration depth:** Live access to catalog, inventory, and policies creates switching costs once configured, as the AI agent's answers depend on deep store data integration.
-
-No patents, network effects, or regulatory barriers identified in public sources.
-
-**Market structure:** Shopify's own Shop.app AI assistant operates within the Shop.app ecosystem and does not modify the merchant's own storefront. Amazon Rufus is confined to Amazon.com. [Inferred]: Platform incumbents face channel conflict — Shopify building a comparable on-site tool for merchant storefronts could conflict with its positioning as a neutral platform, and Amazon has no incentive to improve off-Amazon merchant sites. However, Shopify could integrate similar functionality natively if the category proves valuable.
-
-**Commoditization risk:** The core components — LLM-powered chat, behavioral targeting, and dynamic page rendering — are individually commoditized. Multiple startups (Rep AI, Alhena AI) already offer overlapping functionality. [Inferred]: Differentiation hinges on the combination of conversational AI plus adaptive page rendering, and on the quality of the intelligence dashboard's insights. The technical barrier is moderate — an experienced team could replicate the feature set in months.
+- **Moat today:** [Inferred]: Per-merchant intent data captured per shopper session ("buying intent data") that compounds with usage, per the YC announcement (X/@ycombinator post, Apr 2026, via search snippet).
+- **Future moat:** [Inferred]: If agentic commerce protocols (OpenAI checkout, Shopify Agentic Storefronts launched Mar 24, 2026, TechCrunch) standardize, the brand-owned data layer could become a switching-cost integration; unproven because protocols are nascent.
+- **Market structure:** [Inferred]: Shopify launched native Agentic Storefronts for all US merchants on Mar 24, 2026 (TechCrunch, Mar 2026), eliminating any platform-incumbent gap; no structural barrier identified at this stage.
+- **Commoditization risk:** OpenAI, Perplexity, Amazon Rufus, and Shopify itself shipped overlapping agentic shopping features in 2025–2026 (TechCrunch, Nov 2025; TechCrunch, Mar 2026); competing startups Alhena, Rep AI, Daydream, Phia, OneOff also operate in this space (Modern Retail, 2026).
 
 ## Market & Traction
 
-**Traction signals:**
-- The company website displays demo dashboard metrics: 1,247+ conversations, 4.2% conversion rate (+0.8% lift), $142 AOV (+$12 lift) (company website). These appear to be illustrative/demo figures rather than verified customer metrics, as the page also shows "0%" for Average Conversion Lift and AOV Increase in separate sections.
-- Twitter/X: @trykinect — handle confirmed (YC page); follower count not retrievable.
-- LinkedIn: linkedin.com/company/trykinect — confirmed via company post about "Adaptive Storefronts for Modern Brands" (LinkedIn); follower count not retrievable.
-- Facebook: profile confirmed (YC page); follower count not retrievable.
-- No press coverage found in any named publication.
-- No Product Hunt listing found.
-- 0 open job postings (YC page).
-- No app store ratings, Chrome extension installs, or web traffic estimates found.
-
-**Competitive landscape:**
-
-| Competitor | Funding | Key Differentiator vs. Kinect |
-|---|---|---|
-| Rep AI | $8.2M Series A (hellorep.ai, Aug 2024); up to $11.2M total (PitchBook) | Behavioral prediction engine proactively intercepts abandoning shoppers; 500+ merchants (hellorep.ai) |
-| Alhena AI | $4.9M seed led by Slow Ventures (Crunchbase via search snippet) | Hallucination-free guarantee; enterprise customers include Tatcha/Unilever (alhena.ai); rebranded from Gleen AI (Feb 2025) |
-| Tolstoy | $3.25M (PitchBook via search snippet) | Video-first approach with shoppable interactive video; 2,000+ brand partners (gotolstoy.com) |
-| Amazon Rufus | N/A (Amazon internal) | 250M+ active customers (search snippet); marketplace-native, not available to independent merchants |
-| Shop.app | N/A (Shopify internal) | Powered by ChatGPT; built into Shopify's shopping app, operates within the Shop.app experience rather than on the merchant's own site |
-
-**Why now:**
-- LLM capabilities crossed a quality threshold in 2024–2025 enabling real-time, context-aware product conversations that were previously not possible with rule-based chatbots (TechCrunch, Nov 2025).
-- OpenAI and Perplexity both launched AI shopping assistants in late 2025, validating the category and training consumer behavior (TechCrunch, Nov 2025).
-- [Inferred]: The cost of LLM inference has dropped substantially (GPT-4-class models now available at a fraction of 2023 pricing), making per-conversation economics viable for e-commerce use cases where average order values are $50–200.
+- **Traction signals:**
+  - Customer testimonials on homepage cite 20% conversion lift, 14% AOV increase, 24% time-on-page increase (company website, trykinect.ai)
+  - 10 named brand logos: Slumberkins, Sousa, Zupz, Ketro, ALC, Bloom, Hearthy Foods, Huppy, VapeTM, Loosey Goosey (company website, trykinect.ai)
+  - Y Combinator launch tweet from @ycombinator (X post 2047359851735486471, Apr 23, 2026)
+  - Twitter/LinkedIn follower counts: count not retrievable
+  - No Product Hunt launch found
+  - No press coverage found beyond YC's own channels
+- **Competitors:**
+  - Daydream ($50M seed, Forerunner + Index Ventures, Jun 2024, TechCrunch; revenue unknown): consumer fashion search destination, not a merchant plugin
+  - Alhena (~$13.9M seed through Sep 2023, alhena.ai; revenue unknown): cross-platform support + sales AI agent with agentic checkout
+  - Rep AI (funding unknown, Alhena comparison blog): Shopify-only chat assistant
+  - Shopify Agentic Storefronts (public-company native feature launched Mar 24, 2026, TechCrunch): platform-native substitute
+  - OpenAI ChatGPT checkout / Amazon Rufus auto-buy (TechCrunch, Nov 2025): destination-side agent buyers Kinect's "agent-readable" layer must address
+- **Why now:** Shopify rolled out Agentic Storefronts to all US merchants on Mar 24, 2026 and OpenAI embedded checkout in ChatGPT in 2025 (TechCrunch, Mar 2026; TechCrunch, Nov 2025), establishing the agent-shopping protocol surface Kinect targets.
 
 ## Founders & Team
 
-**Kratik Agrawal** — CEO & Co-Founder
-- BS Computer Science, UCLA (GitHub profile).
-- Previously: 2x Google intern; worked at Google Commerce, Anduril, and Verkada building enterprise features (GitHub profile, LinkedIn via search snippet).
-- Led Conversational Intelligence at Reevo, an AI-native GTM platform that raised $80M (LinkedIn via search snippet; BusinessWire, Nov 2025).
-- Twitter/X: @KratikAgrawal7 — count not retrievable.
-- LinkedIn: linkedin.com/in/kratikagrawal.
-- GitHub: github.com/kratik-agrawal — 14 public repos; no repos with significant star counts. Notable project: "WellPlated" (JavaScript), "Sweat — Get Paid to Workout" (LA Hacks 2022, 1 star).
-
-**Varun Kandula** — Co-Founder
-- Double major in Computer Science and Data Science, UC Berkeley (GitHub profile, LinkedIn via search snippet).
-- Previously: Software Engineer at MongoDB and Capital One; intern at Ford (robotics/controls); President of NextGen Consulting where he led projects with Sephora and Ralph Lauren and sourced $200K+ contracted ARR across 10+ brands (LinkedIn via search snippet).
-- Co-led Conversational Intelligence at Reevo (LinkedIn via search snippet).
-- Former D1 squash player at UC Berkeley (LinkedIn via search snippet; calsquash.org via search snippet).
-- Twitter/X: @VarunKandula3 — count not retrievable.
-- LinkedIn: linkedin.com/in/varunkandula.
-- GitHub: github.com/VarunKandula — 18 public repos; 3 followers. Notable: CalRAG (RAG chatbot for UC Berkeley course selection), DOMe-and-DOMer-2 (web agent evaluation benchmark, 1 star).
-
-**Co-founder relationship:** Both Kratik Agrawal and Varun Kandula co-led conversational intelligence at Reevo prior to founding Kinect (LinkedIn via search snippets), confirming a shared prior working relationship. Different universities (UCLA vs. UC Berkeley).
-
-**Founder-market fit:** Both founders have direct experience building conversational AI for commercial applications through their roles at Reevo. Varun's consulting work with Sephora and Ralph Lauren provides direct exposure to DTC/e-commerce brand needs and sales processes. Kratik's experience at Google Commerce provides familiarity with e-commerce infrastructure at scale. No advisors, board members, or notable investors identified beyond YC.
+- **Kratik Agrawal (Co-Founder, CEO):**
+  - Background: BS Computer Science, UCLA; prior roles at Google Commerce (Hotels & Ads), Anduril (ML clustering), Verkada (enterprise AI), and Reevo (led Conversational Intelligence) (LinkedIn /in/kratikagrawal, via search snippet)
+  - Twitter/X: @Kratik_ag (count not retrievable)
+  - LinkedIn: "Co-Founder, Kinect (YC P26)" (linkedin.com/in/kratikagrawal)
+  - GitHub: @kratik-agrawal — no notable repo star counts retrieved
+- **Varun Kandula (Co-Founder):**
+  - Background: BS Computer Science, UCLA; SWE at Capital One and MongoDB; co-led Conversational Intelligence at Reevo; President of NextGen Consulting (projects with Sephora, Ralph Lauren; sourced $200K+ contracted ARR across 10+ brands); former D1 squash player (LinkedIn /in/varunkandula, via search snippet)
+  - Twitter/X: @varunkand (count not retrievable)
+  - LinkedIn: "Co-Founder, Kinect (YC P26)" (linkedin.com/in/varunkandula)
+  - GitHub: @VarunKandula — no notable repo star counts retrieved
+- **Co-founder relationship:** Both hold CS degrees from UCLA and co-led Conversational Intelligence together at Reevo prior to founding Kinect (LinkedIn profiles, via search snippets).
+- **Founder-market fit:** [Inferred]: Direct conversational-AI-for-commerce experience at Reevo, Agrawal's Google Commerce tenure, and Kandula's documented DTC consulting revenue at Sephora/Ralph Lauren map to the Kinect ICP (LinkedIn profiles, via search snippets); no public advisors or investors beyond YC found.
 
 ## Key Risks
 
-**Name collision with Microsoft Kinect:** "Kinect" is strongly associated with Microsoft's discontinued motion-sensor product line. This creates SEO difficulty — search results for "Kinect" are dominated by Microsoft references. The company uses "trykinect.ai" as its domain, and also shares the name with a staffing company ("Kinect" on LinkedIn with 23,775 followers) (LinkedIn via search snippet). Brand discoverability and trademark risks are tangible at scale.
-
-**Crowded and converging competitive field:** Rep AI ($8.2M+), Alhena AI ($4.9M), and Tolstoy ($3.25M) are funded incumbents with established merchant bases (500+, enterprise logos, and 2,000+ respectively). OpenAI and Perplexity entered AI shopping in late 2025 (TechCrunch, Nov 2025). Shopify could build comparable functionality natively.
-
-**Platform dependency on Shopify:** The primary integration is Shopify/Shopify Plus (company website). Changes to Shopify's API, App Store policies, or native AI features could directly impact Kinect's distribution and functionality. Shopify's own Shop.app already uses ChatGPT-powered AI shopping assistance.
-
-**Unverified traction:** The dashboard metrics shown on the website (1,247+ conversations, 4.2% conversion rate) appear to be demo or illustrative figures. The same page shows "0%" for conversion lift and AOV increase. No named customers, case studies, or third-party-verified metrics are publicly available.
+- **Platform substitution by Shopify:** Shopify launched Agentic Storefronts natively to all US merchants on Mar 24, 2026 (TechCrunch, Mar 2026), creating a free or bundled substitute for Kinect's core merchant-side value proposition; no mitigation evidence published.
+- **Buyer-side agent capture by hyperscalers:** OpenAI embedded checkout in ChatGPT and Amazon expanded Rufus auto-buy in 2025 (TechCrunch, Nov 2025), meaning agent-shopper interaction may occur entirely off-merchant — eroding the "brand-owned data layer" pitch; competing startups state they are not deterred (TechCrunch, Nov 2025), but no Kinect-specific defense documented.
+- **Crowded competitive set with better-funded incumbents:** Daydream raised $50M seed (TechCrunch, Jun 2024) and Alhena raised ~$13.9M (alhena.ai); Kinect's public funding is the YC standard deal only (YC profile).
+- **Customer-cited metrics are unattributed:** The 20%/14%/24% lift figures on trykinect.ai (company website) carry no per-brand attribution, sample size, or methodology; underwriting risk if pitched as benchmark.
+- **Name disambiguation:** "Kinect" overlaps with Microsoft's discontinued Kinect sensor brand, complicating SEO and trademark search results (general search observation).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $7.12B in 2025, growing to $30B by 2035 at 15.5% CAGR for e-commerce personalization platforms (WiseGuy Reports, 2025 via search snippet) |
+| TAM | Agentic commerce $3–5T globally by 2030 (McKinsey, via Modern Retail 2026) |
 | SAM | No public data found |
-| Traction | No public data found |
+| Traction | 10 named customer logos (company website, May 2026); 20% conversion lift, 14% AOV, 24% time-on-page (company website, May 2026); YC launch tweet (@ycombinator, Apr 23 2026) |
 | Revenue Signal | No public data found |
-| Founders | Kratik Agrawal (CEO): UCLA CS, Google Commerce, Anduril, Verkada, Conversational Intelligence lead at Reevo. Varun Kandula (Co-Founder): UC Berkeley CS/DS, MongoDB, Capital One, NextGen Consulting (Sephora, Ralph Lauren, $200K+ ARR). |
-| Competitors | Rep AI ($8.2M–$11.2M raised, revenue unknown, behavioral prediction + proactive chat); Alhena AI ($4.9M seed, revenue unknown, hallucination-free CX + enterprise logos); Tolstoy ($3.25M raised, revenue unknown, shoppable video, 2,000+ brands) |
+| Founders | Kratik Agrawal (CEO): UCLA CS, ex-Google Commerce, Anduril, Verkada, Reevo. Varun Kandula (Co-Founder): UCLA CS, ex-MongoDB, Capital One, Reevo, NextGen Consulting. |
+| Competitors | Daydream ($50M seed Jun 2024, revenue unknown, consumer fashion search vs. Kinect's merchant plugin); Alhena (~$13.9M seed Sep 2023, revenue unknown, cross-platform support+sales agent); Rep AI (funding unknown, revenue unknown, Shopify-only chat); Shopify Agentic Storefronts (public co. native feature Mar 2026); OpenAI ChatGPT Checkout (public co. agent-side feature 2025) |
 | Moat Signals | No public data found |
-| Risk Factors | Name collision with Microsoft Kinect, crowded competitive field with funded incumbents, Shopify platform dependency |
-| Founder Reach | Kratik Agrawal: Twitter @KratikAgrawal7 (count not retrievable), LinkedIn linkedin.com/in/kratikagrawal, GitHub 14 repos / no significant stars. Varun Kandula: Twitter @VarunKandula3 (count not retrievable), LinkedIn linkedin.com/in/varunkandula, GitHub 18 repos / 1 star. |
-| Distribution Signals | No public data found |
-| Emails | hello@trykinect.ai |
+| Risk Factors | Shopify native substitution, hyperscaler buyer-agent capture, well-funded competitor set |
+| Founder Reach | Kratik Agrawal: Twitter @Kratik_ag count not retrievable, LinkedIn /in/kratikagrawal, GitHub @kratik-agrawal stars not retrievable. Varun Kandula: Twitter @varunkand count not retrievable, LinkedIn /in/varunkandula, GitHub @VarunKandula stars not retrievable. |
+| Distribution Signals | YC launch tweet (X/@ycombinator, Apr 23 2026); no Product Hunt launch found |
+| Emails | kratik@trykinect.ai, varun@trykinect.ai |
+
+Sources:
+- [Kinect — Y Combinator](https://www.ycombinator.com/companies/kinect)
+- [Kinect AI — trykinect.ai](https://trykinect.ai/)
+- [Kratik Agrawal — LinkedIn](https://www.linkedin.com/in/kratikagrawal/)
+- [Varun Kandula — LinkedIn](https://www.linkedin.com/in/varunkandula/)
+- [Y Combinator tweet on Kinect](https://x.com/ycombinator/status/2047359851735486471)
+- [Daydream raises $50M seed — TechCrunch](https://techcrunch.com/2024/06/20/former-stitch-fix-coo-julie-bornstein-secures-50m-to-build-a-new-age-e-commerce-search-engine/)
+- [Alhena AI](https://alhena.ai/)
+- [Shopify prepares for AI shopping agents — TechCrunch](https://techcrunch.com/2026/03/16/shopify-is-preparing-for-ai-shopping-agents-to-change-everything-exec-says/)
+- [OpenAI/Perplexity AI shopping assistants — TechCrunch](https://techcrunch.com/2025/11/25/openai-and-perplexity-are-launching-ai-shopping-assistants-but-competing-startups-arent-sweating-it/)
+- [Why AI shopping agent wars will heat up in 2026 — Modern Retail](https://www.modernretail.co/technology/why-the-ai-shopping-agent-wars-will-heat-up-in-2026/)

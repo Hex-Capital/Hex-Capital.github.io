@@ -1,16 +1,16 @@
 {
   "slug": "transload",
   "name": "transload",
-  "oneLiner": "Measure freight items with CCTV",
+  "oneLiner": "Measure freight items with security cameras",
   "metadata": {
     "website": "https://www.transload.io",
     "yc_page": "https://www.ycombinator.com/companies/transload",
-    "batch": "Spring 2026 (YC page)",
+    "batch": "Spring 2026",
     "industry": "B2B / B2B -> Supply Chain and Logistics",
     "team_size": "3",
     "location": "San Francisco, CA, USA",
     "tags": "Computer Vision, Logistics, Supply Chain",
-    "yc_partner": "David Lieb (YC page)",
+    "yc_partner": "David Lieb",
     "emails": "No public data found"
   },
   "tags": [
@@ -19,58 +19,28 @@
     "Supply Chain"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-05-17T21:57:39.683Z",
+  "memoGeneratedAt": "2026-05-28T02:55:37.650Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
       "score": 36,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 30,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 39,
-    "EG": 52,
-    "NR": 31,
-    "PG": 40,
-    "PT": 36,
-    "SL": 41,
-    "VK": 30
+    "CB": 36,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 38.43,
-  "consolidatedRank": 118,
+  "consolidatedAvg": 36,
+  "consolidatedRank": 161,
   "paths": {
     "memo": "spring2026/memos/transload.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/transload.md",
-      "elad-gil": "spring2026/evals/elad-gil/transload.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/transload.md",
-      "paul-graham": "spring2026/evals/paul-graham/transload.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/transload.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/transload.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/transload.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/transload.md"
     }
   }
 }

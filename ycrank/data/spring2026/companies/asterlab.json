@@ -18,58 +18,33 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-22T23:31:05.747Z",
+  "memoGeneratedAt": "2026-05-28T02:39:54.554Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 67,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 60,
+      "score": 58,
       "tier": "Neutral"
     },
-    "peter-thiel": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 68,
-      "tier": "Invest"
+    "elad-gil": {
+      "score": 51,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 37,
-    "EG": 37,
-    "NR": 67,
-    "PG": 60,
-    "PT": 30,
-    "SL": 31,
-    "VK": 68
+    "CB": 58,
+    "EG": 51,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 47.14,
-  "consolidatedRank": 33,
+  "consolidatedAvg": 54.5,
+  "consolidatedRank": 31,
   "paths": {
     "memo": "spring2026/memos/asterlab.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/asterlab.md",
-      "elad-gil": "spring2026/evals/elad-gil/asterlab.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/asterlab.md",
-      "paul-graham": "spring2026/evals/paul-graham/asterlab.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/asterlab.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/asterlab.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/asterlab.md"
+      "elad-gil": "spring2026/evals/elad-gil/asterlab.md"
     }
   }
 }

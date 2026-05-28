@@ -1,111 +1,106 @@
 ﻿# Chert
 
-> AI Agents for Automated iMessage Outbound
+> iMessage infrastructure for trusted communication at scale
 
 | Field | Value |
 |-------|-------|
 | Website | https://www.trychert.com/ |
 | YC Page | https://www.ycombinator.com/companies/chert |
-| Batch | Spring 2026 (YC P26) |
-| Industry | B2B / B2B -> Sales |
+| Batch | Spring 2026 (P26) |
+| Industry | B2B / B2B |
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
-| Tags | Artificial Intelligence, SaaS, B2B, Sales, AI Assistant |
-| YC Partner | David Lieb (YC company page) |
-| Emails | gary@trychert.com (search snippet, LinkedIn-linked) |
+| Tags | Artificial Intelligence, SaaS, API, Customer Support, Conversational AI |
+| YC Partner | David Lieb |
+| Emails | contact@trychert.com |
 
 ## The Idea
 
-**Problem:** B2B sales teams' email and LinkedIn outbound channels are saturated; reply rates have collapsed amid spam filters and inbox competition (company website, 2026). Target customers are early-stage to post-PMF B2B companies hiring SDRs (search snippet, trychert.com).
-
-**Approach:** Full-service AI agents that source leads with verified phone numbers matching customer ICP, initiate iMessage conversations, and book meetings to the customer's calendar; humans can intervene live via a monitoring dashboard (trychert.com, 2026). Site claims "127 new leads sourced" in a sample week and meetings booked within one week of onboarding (trychert.com).
-
-**Differentiation:** Channel choice (iMessage) vs. email/LinkedIn used by 11x, Artisan, AiSDR, Regie (search snippet, landbase.com 2026). Existing iMessage infrastructure providers (Sendblue, Project Blue) sell APIs/lines; Chert sells a managed outbound service rather than self-serve tooling (trychert.com; sendblue.com 2026).
-
-**Business Model:** No pricing page is public (trychert.com WebFetch, Apr 2026). [Inferred]: Likely managed-service retainer or per-meeting/per-lead pricing given "1-5 meetings per week" framing (YC description) and "full-service, not self-serve" positioning (trychert.com).
-
-**TAM/SAM:** AI SDR market USD 4.12B in 2025 → USD 15.01B by 2030, 29.5% CAGR (MarketsandMarkets via search snippet, 2025). Sales Engagement Platform market USD 11.1B in 2025 → USD 19.2B by 2034, 6.29% CAGR (Market Growth Reports via search snippet). No public iMessage-outbound-specific SAM found.
-
-**GTM / Distribution:** Customer logos shown include Tour, Symbal, DCNHC, Vela, Ivory Mind, Whop, Autosana; testimonials reference leaders at Databricks, Ramp, Corgi (trychert.com). [Inferred]: Founder network (YC, Wharton/Penn, NYU) plus YC batch peers as initial customer base; managed service is sold via direct booked calls (cal.com/team/chert/chert-call on site).
+- **Problem:** Teams that want to deploy conversational iMessage agents for customer service, lead capture, and outbound follow-up face difficult setup and unreliable scaling of the underlying iMessage infrastructure (Product Hunt Chert launch page, May 2026).
+- **Approach:** API-based platform delivering peer-to-peer iMessage threads with blue-bubble UX, verified senders, end-to-end encryption, typing indicators, tapbacks, group chats, SMS/RCS fallback, and webhooks (trychert.com, May 2026).
+- **Differentiation:** Versus Sendblue (broadest feature set, 5+ years) and LoopMessage (focused on ChatGPT-to-iMessage personal use), Chert positions itself as "Twilio for iMessage" with line-health checks aimed at safer outbound and CRM write-back to HubSpot/Close/GoHighLevel (Launch HN, May 2026; Product Hunt, May 2026).
+- **Business Model:** "Scalable pricing structure that lets teams scale to hundreds of lines and thousands of messages" with no public pricing page found on trychert.com; [Inferred]: consumption/per-line API pricing typical of CPaaS, gated to sales calls via cal.com/team/chert (Product Hunt, May 2026; trychert.com).
+- **TAM/SAM:** CPaaS market estimated at $21.27B in 2026 growing to $41.05B by 2031 at 14.05% CAGR (Mordor Intelligence, 2026); no public iMessage-API-specific SAM found.
+- **GTM / Distribution:** Direct sales via book-a-call funnel and CRM-integration partnerships (Salesforce, HubSpot, Slack, Attio, GoHighLevel, Close, Vapi) per trychert.com (May 2026); YC Launch HN and Product Hunt launches used as awareness channels (news.ycombinator.com/item?id=48267829).
 
 ## Defensibility
 
-No defensibility signals found in public sources beyond: (a) integration with Apple iMessage which has historically required Apple ID/Mac-based infrastructure (search snippet, photon-hq/imessage-kit, 2026), and (b) verified-phone-number lead database accumulating from campaigns (trychert.com).
-
-**Market structure:** [Inferred]: iMessage has no official business API from Apple (search snippet, sendblue.com 2026); operating it at scale requires bespoke Mac/relay infrastructure and tolerance for Apple's terms-of-service ambiguity, which structurally deters incumbents like Salesforce/Outreach/Salesloft from offering it natively. No regulatory or IP barrier identified at this stage.
-
-**Commoditization risk:** Sendblue and Project Blue already sell iMessage messaging primitives (sendblue.com 2026). [Inferred]: Any AI-SDR competitor (11x, Artisan, AiSDR) could layer iMessage on top of those APIs; the durable wedge would be lead-sourcing accuracy on phone numbers and deliverability, not the channel itself.
+- **Moat today:** No defensibility signals found in public sources beyond named integrations and "comprehensive line health checks" claim (Product Hunt, May 2026).
+- **Future moat:** [Inferred]: Switching costs from CRM write-back integrations and accumulated per-line deliverability/reputation data could compound; unproven at current 2-person, pre-seed scale.
+- **Market structure:** [Inferred]: No structural barrier identified at this stage — iMessage is an Apple-controlled protocol with no official business API, so all competitors rely on similar unofficial techniques (Sendblue compare page, 2026).
+- **Commoditization risk:** Multiple funded competitors (Sendblue, LoopMessage, Blooio, Linq) already operate in the same iMessage-API category, and Apple could disrupt all of them by formalizing or restricting iMessage access (Sendblue blog 2026; Blooio alternatives page).
 
 ## Market & Traction
 
-**Traction signals:**
-- Customer logos: Tour, Symbal, DCNHC, Vela, Ivory Mind, Whop, Autosana (trychert.com, Apr 2026).
-- Testimonials cite leaders at Databricks, Ramp, Corgi (trychert.com).
-- Claimed performance: "10× response rates" vs. email/LinkedIn; "127 new leads sourced" in a sample week; meetings booked within one week of onboarding (trychert.com — company-stated, not third-party).
-- Investor backing listed on site: Y Combinator, Z Fellows, Betafund, plus mentions of LinkedIn and Grafana (trychert.com). No funding amount disclosed; Crunchbase profile exists but no round detail surfaced (search snippet, crunchbase.com).
-- TechCrunch covered "16 of the most interesting startups from YC W26 Demo Day" Mar 26, 2026 (search snippet, techcrunch.com); inclusion of Chert in that piece not confirmed in snippet.
-- Twitter/X company account: not found.
-- LinkedIn company page: not retrievable; counts not retrievable.
-- Discord/Slack community: No public data found.
-- Job postings: Hiring=False (YC profile).
-- App/extension downloads: No public data found (no consumer app surfaced).
-- Gary Gao quoted "75% reply rates and 90% actions" on a personal page (search snippet, garyzgao.com).
-
-**Competitive landscape:**
-- **11x.ai** — $74M raised (Benchmark, a16z); ~$10M ARR Sep 2024 per CEO (TechCrunch, Sep 30 2024 via search snippet); reportedly lost 70-80% of customers within months (TechCrunch via search snippet). Differentiator vs. Chert: email/LinkedIn AI SDR ("Alice"), not iMessage.
-- **Artisan** — YC-backed, AI SDR "Ava"; funding/ARR not disclosed in retrieved snippets (artisan.co; quotaengine.com via search snippet). Differentiator vs. Chert: email-first AI SDR.
-- **AiSDR** — pricing from $900/mo, quarterly contracts (aisdr.com via search snippet); funding not disclosed. Differentiator vs. Chert: transparent pricing, email channel.
-- **Sendblue (YC)** — iMessage API/lines provider; differentiator vs. Chert: self-serve API/messaging platform, not managed AI outbound (ycombinator.com/companies/sendblue; sendblue.com 2026). Funding/ARR: No public data found.
-- **Project Blue** — newer entrant, iMessage messaging (tryprojectblue.com via search snippet). Funding/ARR: No public data found.
-
-**Why now:** [Inferred]: Two convergent shifts in 2024–2026 — (1) email/LinkedIn outbound saturation and AI-SDR backlash (11x churn reported by TechCrunch, 2024 via search snippet) creating demand for new channels; (2) open-source iMessage automation kits (e.g., photon-hq/imessage-kit on GitHub, 2025–2026 via search snippet) lowering the cost of running iMessage agents programmatically. No analyst-attributed catalyst found.
+- **Traction signals:**
+  - Customer logos listed on site: Tour, Symbal, DCNHC, Vela, Whop, Rubbrband, Blue Navy, Chasi, Fintech, Autosana (trychert.com, May 2026).
+  - Claimed performance: "up to 65% response rates and 90% action rates for outbound sales via iMessage" (trychert.com, May 2026).
+  - Product Hunt: 179 upvotes, ranked #7 in Day Rank (Product Hunt, May 2026).
+  - Hacker News: "Launch HN: Chert (YC P26) – Twilio for iMessage" posted May 2026 (news.ycombinator.com/item?id=48267829).
+  - Funding: $500K YC standard accelerator investment (Extruct AI / Dealroom, 2026).
+  - Backers listed on company site: Y Combinator, Z Fellows, Betafund, LinkedIn, Grafana (per trychert.com — note LinkedIn/Grafana listing may be partnership rather than direct investment; no public funding announcement confirms these).
+  - Company X handle: @Cherthq (x.com); follower count not retrievable.
+  - Hiring: Not hiring per YC company data (May 2026).
+- **Competitors:**
+  - Sendblue (revenue unknown, $500K reported via PitchBook — YC-backed, market-leading iMessage API with 5+ years, broadest feature set per its own comparison content): more mature feature set and longer track record than Chert (Sendblue.com 2026; PitchBook).
+  - LoopMessage (funding unknown, "delivers millions of messages monthly," 2–10 employees, Austin): targets ChatGPT-to-iMessage personal use and developers rather than Chert's customer-support/sales focus (loopmessage.com; Crunchbase).
+  - Blooio (funding unknown, revenue unknown): flat-rate $39/mo unlimited iMessage with RCS fallback and n8n/Zapier integrations, undercutting Chert/Sendblue on price (blooio.com/alternatives/sendblue, 2026).
+  - Linq (funding unknown, revenue unknown): described as "well-funded competitor focused on AI agents" on iMessage per Sendblue comparison content (Sendblue blog, 2026 — via search snippet).
+- **Why now:** [Inferred]: LLM-driven conversational agents have reached a quality threshold where automated iMessage dialogue can plausibly drive sales/support outcomes, paired with the Sendblue-led emergence of a commercial iMessage API category over the past 12-24 months (Sendblue best-iMessage-API comparison, 2026).
 
 ## Founders & Team
 
-**Ian Fong** — Co-founder
-- Mathematics and Economics undergraduate at NYU; incoming intern at JPMorgan Chase; self-described "8x hackathon winner" with wins at UPenn, MIT, Harvard, Princeton (LinkedIn linkedin.com/in/ianyfong via search snippet).
-- Twitter/X: No verified personal account confirmed for Chert founder; @ianfong68 and @perspectivejazz are other Ian Fongs (search snippet). Count not retrievable.
-- LinkedIn: linkedin.com/in/ianyfong — headline "math & econ @nyu | Incoming @ jpmc | 8x hackathons winner" (search snippet); connection count not retrievable.
-- GitHub: github.com/kingianfong (search snippet); notable repo / star count not retrievable from snippets.
-- Personal site: ianfong.space (search snippet).
-
-**Gary Gao** — Co-founder
-- Sophomore at University of Pennsylvania (CS) and Wharton (Business; also referenced as Physics and AI) (search snippet, curf.upenn.edu; LinkedIn).
-- Prior research: Penn Circuits Lab (Prof. Marc Miskin), oscillator-based physical learning network for energy-efficient AI (curf.upenn.edu via search snippet).
-- Email: gary@trychert.com (search snippet).
-- Twitter/X: No public account found.
-- LinkedIn: linkedin.com/in/gary-gao-b177932b0, "500+ connections," headline "Co-Founder @ Chert (YC P26) | CS & Wharton" (search snippet).
-- GitHub: github.com/garygao333 — 39 repositories (search snippet); a secondary account github.com/Gao-Gary also surfaced; aggregate star count not retrievable.
-- Personal site: garyzgao.com (search snippet).
-
-**Co-founder relationship:** No public data on co-founder history. Phase-3 evidence shows different undergraduate institutions (NYU vs. Penn/Wharton) and no shared employer. [Inferred]: Possible introduction via YC, Z Fellows, or hackathon circuit, but unverified.
-
-**Founder-market fit:** Both founders are current undergraduates. Gao has technical AI/circuits research credentials (Penn CURF) and Wharton business exposure; Fong has competition-programming track record (8x hackathon wins) and quant-finance trajectory (JPMC). Neither has a documented prior B2B sales-tooling or enterprise GTM role per retrieved profiles. Backers per company site: Y Combinator, Z Fellows, Betafund (trychert.com); no individual angels or advisors named publicly.
+- **Gary Gao (Co-Founder, CEO):**
+  - Background: Studied CS & Business (Wharton) at University of Pennsylvania; spent the past year researching ML model architectures and designing neuromorphic chips before building Chert with Ian (LinkedIn profile via search snippet, 2026; YC company page).
+  - Twitter/X: @GaryGao891219 (x.com); follower count not retrievable.
+  - LinkedIn: "Co-Founder @ Chert (YC P26) | CS & Wharton" (linkedin.com/in/gary-gao-b177932b0).
+  - GitHub: No public repos found.
+- **Ian Fong (Co-Founder):**
+  - Background: Studied Math and Economics at NYU; did fast-algorithm research at Courant; 8x hackathon winner (UPenn, MIT, Harvard, Princeton); was incoming at JP Morgan prior to Chert (ianfong.space; LinkedIn via search snippet, 2026).
+  - Twitter/X: @ianyfong (x.com); follower count not retrievable.
+  - LinkedIn: "Chert (YC P26)" (linkedin.com/in/ianyfong).
+  - GitHub: No public repos found.
+- **Co-founder relationship:** Per Ian's bio, the two "still hit random hackathons together for fun" and "started this journey last June [2025]" (search snippet from Ian Fong profile, 2026); no shared prior employer or university documented (Ian: NYU; Gary: Penn).
+- **Founder-market fit:** [Inferred]: Both founders are technical with quantitative/CS training, and the team reports spending "the last six months building projects on iMessage for leasing companies, DTC startups, and home service agencies" before launching Chert, which is the directly applicable domain experience (Product Hunt launch description, May 2026); no notable advisors or board members disclosed publicly.
 
 ## Key Risks
 
-**Apple platform/ToS risk:** Operating outbound iMessage at scale relies on infrastructure that runs against Apple's consumer-oriented messaging terms; Apple has no official business iMessage API (sendblue.com 2026 via search snippet). A change in Apple policy or enforcement could disable the core channel. No public mitigation disclosed.
-
-**Channel-spam backlash risk:** iMessage is a "trusted, personal channel" (trychert.com); scaling unsolicited B2B outreach could trigger user complaints, carrier blocks, or regulatory attention (TCPA in US covers SMS/MMS). No public compliance posture disclosed by Chert.
-
-**Customer-cohort fragility precedent:** Comparable AI-SDR leader 11x.ai reportedly lost 70-80% of customers within months despite $74M raised (TechCrunch via search snippet, 2024). Suggests retention risk in the AI-SDR category that Chert must structurally avoid.
-
-**Commoditization by API providers / incumbents:** Sendblue, Project Blue already sell iMessage messaging primitives (sendblue.com; tryprojectblue.com via search snippet). Existing AI-SDR vendors (Artisan, AiSDR, 11x) could plug those APIs into their pipelines, eroding Chert's channel-only differentiation.
-
-**Founder bandwidth / domain experience:** Both founders are current undergraduates (NYU, Penn) per LinkedIn snippets; one has a JPMC internship pending. No prior full-time enterprise sales-tooling experience surfaced. This is a focus/availability risk distinct from baseline pre-seed team size.
+- **Apple platform dependency:** Chert operates over iMessage, an Apple-controlled protocol with no official business API; Apple could restrict, deprecate, or directly compete by formalizing iMessage business access, killing the category — same risk faced by Sendblue, LoopMessage, Blooio, and Linq (Sendblue compare page, 2026). No public mitigation found beyond SMS/RCS fallback (trychert.com).
+- **Commoditization / category crowding:** At least four established iMessage-API competitors (Sendblue, LoopMessage, Blooio, Linq) already exist, with Blooio undercutting on price at $39/mo flat-rate (blooio.com, 2026) and Sendblue holding the feature-breadth lead (Sendblue blog, 2026).
+- **Outbound deliverability / abuse risk:** Heavy outbound iMessage usage for cold outreach (a stated Chert use case per trychert.com) historically triggers Apple's anti-spam line-banning; Chert's "line health checks" are presented as mitigation but performance is unverified externally (Product Hunt, May 2026).
+- **Traction claim verifiability:** "Up to 65% response rates and 90% action rates" are company-stated without third-party validation or named customer case studies (trychert.com, May 2026).
+- **Investor-list accuracy:** Company site lists LinkedIn and Grafana among "backers" alongside Y Combinator/Z Fellows/Betafund, which is inconsistent with how those organizations typically invest; no public funding announcement confirms direct investment from LinkedIn or Grafana (trychert.com vs. absence in news sources).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | AI SDR market $4.12B (2025) → $15.01B (2030), 29.5% CAGR (MarketsandMarkets via search snippet); Sales Engagement Platform market $11.1B (2025) → $19.2B (2034), 6.29% CAGR (Market Growth Reports via search snippet) |
+| TAM | CPaaS market $21.27B in 2026, growing to $41.05B by 2031 at 14.05% CAGR (Mordor Intelligence, 2026); alternative estimate $29.70B in 2026 → $215.36B by 2034 at 28.10% CAGR (Fortune Business Insights, 2026) |
 | SAM | No public data found |
-| Traction | Customer logos: Tour, Symbal, DCNHC, Vela, Ivory Mind, Whop, Autosana (trychert.com, Apr 2026); testimonials referencing leaders at Databricks, Ramp, Corgi (trychert.com); claimed "10× response rates," "127 leads/week sample" (trychert.com, company-stated); "75% reply rate, 90% actions" (garyzgao.com via search snippet) |
-| Revenue Signal | No pricing page found (trychert.com WebFetch, Apr 2026); no funding amount disclosed (Crunchbase profile exists, search snippet) |
-| Founders | Ian Fong (Co-founder): NYU math/econ undergrad, 8x hackathon winner, JPMC incoming intern (LinkedIn). Gary Gao (Co-founder): UPenn CS + Wharton sophomore, Penn Circuits Lab AI hardware research (LinkedIn; curf.upenn.edu) |
-| Competitors | 11x.ai ($74M raised Benchmark/a16z, ~$10M ARR Sep 2024 — TechCrunch; email/LinkedIn AI SDR); Artisan (YC, funding not disclosed; email AI SDR — artisan.co); AiSDR ($900/mo+, funding not disclosed — aisdr.com); Sendblue (YC, funding not disclosed; iMessage API not managed service — sendblue.com); Project Blue (funding not disclosed; iMessage messaging — tryprojectblue.com) |
-| Moat Signals | No public data found beyond managed-service positioning and proprietary lead-sourcing of verified phone numbers (trychert.com) |
-| Risk Factors | Apple ToS/platform risk, AI-SDR retention precedent (11x churn — TechCrunch), commoditization by iMessage API vendors |
-| Founder Reach | Ian Fong: Twitter not found, LinkedIn linkedin.com/in/ianyfong (count not retrievable), GitHub github.com/kingianfong (stars not retrievable). Gary Gao: Twitter not found, LinkedIn 500+ connections (search snippet), GitHub github.com/garygao333 39 repos (stars not retrievable) |
-| Distribution Signals | YC Spring 2026 (P26) batch listing (ycombinator.com/companies/chert); investors listed on site: Y Combinator, Z Fellows, Betafund (trychert.com); booking via cal.com/team/chert/chert-call (trychert.com); no Product Hunt, Chrome Web Store, or app-store presence found |
-| Emails | gary@trychert.com (search snippet, LinkedIn-linked); no other addresses surfaced |
+| Traction | 10 customer logos on site: Tour, Symbal, DCNHC, Vela, Whop, Rubbrband, Blue Navy, Chasi, Fintech, Autosana (trychert.com, May 2026); 179 Product Hunt upvotes, #7 Day Rank (Product Hunt, May 2026); Launch HN posted May 2026 (news.ycombinator.com/item?id=48267829) |
+| Revenue Signal | No public pricing or revenue figures found; sales gated to cal.com booking (trychert.com, May 2026) |
+| Founders | Gary Gao (Co-Founder/CEO): Penn CS & Wharton; ML architecture and neuromorphic chip research. Ian Fong (Co-Founder): NYU Math/Econ; Courant fast-algorithm research; 8x hackathon winner; ex-incoming JPMorgan. |
+| Competitors | Sendblue ($500K reported via PitchBook, revenue unknown, market-leading feature breadth and 5+ years); LoopMessage (funding unknown, revenue unknown, ChatGPT-to-iMessage personal-use focus); Blooio (funding unknown, revenue unknown, $39/mo flat-rate undercut); Linq (funding unknown, revenue unknown, "well-funded" AI-agents focus per Sendblue snippet) |
+| Moat Signals | No public data found |
+| Risk Factors | Apple iMessage platform dependency, category commoditization with 4+ competitors, outbound deliverability/spam risk |
+| Founder Reach | Gary Gao: Twitter @GaryGao891219 count not retrievable, LinkedIn present, GitHub not found. Ian Fong: Twitter @ianyfong count not retrievable, LinkedIn present, GitHub not found. Company: @Cherthq on X, count not retrievable. |
+| Distribution Signals | Product Hunt 179 upvotes / #7 Day Rank (May 2026); Launch HN May 2026; CRM integrations with Salesforce, HubSpot, Attio, GoHighLevel, Close, Vapi, Slack (trychert.com) |
+| Emails | contact@trychert.com (YC company page) |
+
+Sources:
+- [Chert — trychert.com](https://www.trychert.com/)
+- [Chert — Y Combinator](https://www.ycombinator.com/companies/chert)
+- [Launch HN: Chert (YC P26) – Twilio for iMessage](https://news.ycombinator.com/item?id=48267829)
+- [Chert — Product Hunt](https://www.producthunt.com/products/chert)
+- [Ian Fong personal site](https://www.ianfong.space/)
+- [Ian Fong LinkedIn](https://www.linkedin.com/in/ianyfong/)
+- [Gary Gao LinkedIn](https://www.linkedin.com/in/gary-gao-b177932b0/)
+- [Chert — Dealroom](https://app.dealroom.co/companies/chert)
+- [Chert — Extruct AI](https://www.extruct.ai/hub/trychert-com/)
+- [Sendblue iMessage API comparison (2026)](https://www.sendblue.com/blog/best-imessage-api-comparison)
+- [Sendblue — Crunchbase](https://www.crunchbase.com/organization/sendblue)
+- [SendBlue — PitchBook](https://pitchbook.com/profiles/company/534533-95)
+- [LoopMessage — Crunchbase](https://www.crunchbase.com/organization/loopmessage)
+- [Blooio — Sendblue Alternatives](https://blooio.com/alternatives/sendblue)
+- [CPaaS Market — Mordor Intelligence](https://www.mordorintelligence.com/industry-reports/communication-platform-as-a-service-cpaas-market)
+- [CPaaS Market — Fortune Business Insights](https://www.fortunebusinessinsights.com/communication-platform-as-a-service-cpaas-market-106471)

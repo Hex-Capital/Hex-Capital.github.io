@@ -6,121 +6,101 @@
 |-------|-------|
 | Website | https://tryardent.com |
 | YC Page | https://www.ycombinator.com/companies/ardent |
-| Batch | Spring 2026 (X26) |
+| Batch | Spring 2026 (YC X26/P26) |
 | Industry | B2B / B2B -> Infrastructure |
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
 | Tags | Data Engineering, Infrastructure, AI |
-| YC Partner | Aaron Epstein (YC company page) |
-| Emails | No public data found |
+| YC Partner | Aaron Epstein |
+| Emails | vikram@tryardent.com (YC page) |
 
 ## The Idea
 
-**Problem:** AI coding agents (e.g., Claude, Cursor) that modify databases risk destructive changes—broken migrations, bad backfills, data corruption—when tested against production. Traditional database cloning via replicas takes hours per terabyte, limits teams to 15–20 clones, and charges for full copies regardless of actual changes made (tryardent.com). The current workaround is either testing on shared staging (drift-prone) or spinning up slow, expensive replicas.
-
-**Approach:** Ardent provides copy-on-write Postgres database branching that creates full clones of any Postgres database in under 6 seconds regardless of size, charging only for changed data (tryardent.com). The architecture separates compute and storage at the infrastructure level, with compute auto-scaling to zero based on agent workloads (tryardent.com). The platform supports Supabase, AWS RDS Postgres, and PlanetScale integrations (tryardent.com). Ardent's GitHub organization includes a fork of the Neon (neondatabase/neon) open-source codebase (GitHub, ArdentAILabs), indicating the branching engine builds on or extends Neon's copy-on-write storage layer.
-
-**Note on product pivot:** Ardent originally launched in 2025 as an "AI Data Engineer"—an autonomous agent that created, managed, and repaired data pipelines across Databricks, Snowflake, and Airflow (SiliconANGLE, Sep 2025). Sandboxed testing environments were announced as a planned feature in that article. By the time of YC X26 (Spring 2026), the company had repositioned entirely around database sandboxing for coding agents. Prior-product metrics (ARR, profitability) are labeled separately below.
-
-**Differentiation:**
-- vs. Neon (acquired by Databricks, ~$1B, May 2025; CNBC): Neon offers database branching as one feature within a full serverless Postgres platform. Ardent positions as agent-first infrastructure—purpose-built for AI coding agent workflows rather than general developer use.
-- vs. E2B ($32M raised; e2b.dev) and Daytona ($31M raised; PR Newswire, Feb 2026): These provide general code-execution sandboxes (Firecracker microVMs), not database-specific branching. Ardent clones the data layer specifically.
-- vs. Supabase: Supabase branching provisions new empty databases with migrations and seed data rather than copy-on-write clones of production data (xata.io blog comparison).
-
-**Business Model:** Pricing page lists two tiers—Developer (250 branch compute hours, 100 GB storage) and Enterprise (custom compute/storage, data anonymization, VPC deployment, team-level access controls)—both requiring sales contact with no published dollar amounts (tryardent.com/pricing). [Inferred]: Likely consumption-based pricing (compute hours + storage delta), given the copy-on-write model and emphasis on "only charges for changes made."
-
-**TAM/SAM:** The data clone software market was valued at $4.05B in 2026 with a projected CAGR of 8.7% to $7.9B by 2035 (Business Research Insights, 2026 via search snippet). The broader database market was estimated at $171.36B in 2026 growing to $329.05B by 2031 at 13.95% CAGR (Mordor Intelligence via search snippet). [Inferred]: Ardent's SAM is the subset of Postgres-using teams deploying AI coding agents—a rapidly expanding but currently narrow segment within the data clone software market.
-
-**GTM / Distribution:** The website targets coding agent builders with integrations for Supabase and AWS RDS (tryardent.com). Customer logos include Zenn Agents, Harvest, Open Ledger, Rose AI, Robynn AI, and Clozers (tryardent.com). Endorsements from Zach Wilson (Dataexpert.io founder, also a pre-seed investor), Abhay Singh (Head of Data, Chevron), and Pryce Yebesi (CEO, Openledger) appear on the site (tryardent.com). [Inferred]: Bottom-up developer adoption via self-serve onboarding for agent builders, with enterprise upsell for VPC and anonymization features.
+- **Problem:** Coding agents writing data pipelines, migrations, and backfills have no safe place to test against production-like Postgres data — writing to prod is unacceptable and shared dev DBs cause write clashes between agents (Launch HN, YC P26, May 2026).
+- **Approach:** Writes a logical replication stream out of the target Postgres into Kafka, lands it on a read replica with copy-on-write enabled, and uses Neon as the primary branching engine to produce <6s clones at TB scale (Launch HN; tryardent.com).
+- **Differentiation:** Unlike Neon's native branching (requires migration to Neon), Ardent branches production-like data on existing RDS, Supabase, and PlanetScale databases without platform migration; supports anonymization via customizable SQL on branches (Launch HN, May 2026).
+- **Business Model:** No pricing tier visible on homepage; engagement via demo booking only (tryardent.com). [Inferred]: Consumption-based pricing on clone storage/compute given copy-on-write + autoscale-to-zero architecture described on site.
+- **TAM/SAM:** No public TAM/SAM data found for this specific segment; adjacent serverless Postgres validated by Databricks acquiring Neon for ~$1B (search snippet, 2025–2026).
+- **GTM / Distribution:** Single CLI command install, demo bookings via site, Launch HN post (May 2026), and YC LinkedIn promotion of the X26 batch entry (LinkedIn, y-combinator post Nov 2026 via search snippet).
 
 ## Defensibility
 
-The GitHub organization contains a fork of the Neon open-source codebase (Apache-2.0 licensed), suggesting Ardent builds on Neon's copy-on-write storage layer (GitHub, ArdentAILabs). The DE-Bench repo (35 stars; GitHub) is a benchmark for testing AI data engineering agents, which could serve as a community asset. No patents or proprietary IP signals found in public sources.
-
-[Inferred]: Potential moat could develop via: (1) integration depth with specific agent frameworks, creating switching costs; (2) accumulated branch metadata and usage patterns that optimize agent workflows; (3) first-mover brand association between "database safety" and "AI agents." However, none of these are proven at this stage.
-
-**Market structure:** Neon (now Databricks) could theoretically add an agent-specific branching layer, but Databricks' primary focus is on its lakehouse analytics platform and enterprise data workflows, not on developer tooling for AI coding agents. [Inferred]: The structural barrier, if any, is focus and distribution channel—Databricks sells to data teams via enterprise sales, while Ardent targets individual developers building AI agents via self-serve.
-
-**Commoditization risk:** The underlying technology (copy-on-write Postgres branching) is open source via Neon's codebase. Supabase, Xata, and any managed Postgres provider could replicate the core cloning capability. E2B and Daytona could add database-layer branching to their existing sandbox platforms. The differentiator is agent-specific workflow integration, which is replicable with moderate engineering effort.
+- **Moat today:** Technical complexity of building a logical-replication-to-Kafka-to-copy-on-write pipeline that works across RDS/Supabase/PlanetScale without migration (Launch HN, May 2026); no proprietary data or network effects cited.
+- **Future moat:** [Inferred]: Switching costs could grow as customer DDL trigger configurations, anonymization SQL rules, and CI/CD agent workflows become tied to Ardent's proxy layer; unproven because Ardent currently rides Neon's branching engine, which limits proprietary infra ownership.
+- **Market structure:** [Inferred]: Cloud-DB incumbents (RDS, Supabase, PlanetScale) face channel conflict in promoting a cross-platform branching tool that reduces lock-in to their own managed Postgres; Neon-Databricks combo is now incentivized to keep branching native (search snippet, 2026).
+- **Commoditization risk:** Neon, Supabase (already ships branching for AI agents per Supabase docs), and PlanetScale could replicate cross-platform branching; Ardent itself depends on Neon as backing engine (Launch HN, May 2026).
 
 ## Market & Traction
 
-**Traction signals:**
-
-*Prior product (AI Data Engineer, pre-pivot):*
-- $100K+ ARR, profitable, 70% month-over-month growth (SiliconANGLE, Sep 2025)
-- $200K ARR sold, 6M+ views (Vikram Chennai LinkedIn)
-- $60K ARR customer closed during alpha (Crane VC blog)
-
-*Current product (Database sandboxing):*
-- Customer logos on website: Zenn Agents, Harvest, Open Ledger, Rose AI, Robynn AI, Clozers (tryardent.com)
-- Customer testimonial: Akshendra Garg (CTO, Zennagents): "Ardent lets us test in seconds with zero drift" (tryardent.com)
-- Website claims: 0% downtime impact, increased release speed (tryardent.com)
-- No public revenue, user count, or growth metrics found for the current product.
-
-*Social/distribution signals:*
-- Twitter/X company account: @tryardent (follower count not retrievable)
-- Twitter/X founder account: @vchennai2 (follower count not retrievable)
-- LinkedIn company page: ardent-db (follower count not retrievable)
-- GitHub: ArdentAILabs—3 public repos; DE-Bench (35 stars), docs (0 stars), Neon fork (GitHub)
-- 0 open job postings (YC company page)
-
-**Competitive landscape:**
-
-| Competitor | Key Differentiator vs. Ardent | Funding | Revenue/ARR |
-|---|---|---|---|
-| Neon (now Databricks) | Full serverless Postgres platform with branching as one feature; enterprise-scale; acquired for ~$1B | ~$130M+ pre-acquisition (Crunchbase); acquired ~$1B (CNBC, May 2025) | Revenue unknown |
-| E2B | General-purpose code-execution sandboxes (Firecracker microVMs), not database-specific | $32M total (e2b.dev blog, Jul 2025) | Revenue unknown; 88% Fortune 100 signed up (VentureBeat, Jul 2025) |
-| Daytona | Composable computers for AI agents; millisecond sandbox launch; broader than database | $31M total ($24M Series A, Feb 2026; PR Newswire) | Revenue unknown |
-| Xata | Block-level snapshots for Postgres branching; spreadsheet-like UI | $35M total (Crunchbase) | $2.8M revenue in 2024 (getlatka.com) |
-| Supabase | Full-stack Postgres platform; Git-integrated branching with empty DB + migrations | $116M+ total (Crunchbase) | Revenue unknown |
-
-**Why now:** Databricks' $1B acquisition of Neon in May 2025 (CNBC) validated database branching as critical infrastructure. Simultaneously, AI coding agents (Claude, Cursor, Devin) proliferated through 2025–2026, creating a new class of user that programmatically modifies databases at high frequency. [Inferred]: The convergence of (1) proven copy-on-write Postgres branching technology becoming open-source via Neon, (2) explosion in autonomous coding agents needing safe database testing, and (3) Neon's absorption into Databricks leaving a gap in agent-focused tooling created the opening.
+- **Traction signals:**
+  - Pivot context: prior product "Ardent AI" (AI Data Engineer) raised $2.15M oversubscribed in Sept 2025 (Yahoo Finance / SiliconANGLE / BigDATAwire, Sept 25, 2025).
+  - Prior product revenue claim: "$100K+ ARR in 6 months with 0 funding" — refers to prior Ardent AI product, NOT current database sandboxes product (Vikram Chennai LinkedIn post, activity 7324857256792010752).
+  - Customer logos on homepage (current product): Zenn Agents, Harvest, Open Ledger, Rose AI, Robynn AI, Clozers (tryardent.com).
+  - Endorsements listed: Zach Wilson (Dataexpert.io), Abhay Singh (Head of Data, Chevron), Pryce Yebesi (CEO, Openledger) (tryardent.com).
+  - Launch HN post live (news.ycombinator.com/item?id=48124436, ~May 2026).
+  - Twitter @ArdentAI ~176 followers; @tryardent ~165 followers (X.com via search snippet).
+  - LinkedIn company page: linkedin.com/company/ardent-db (YC page).
+  - GitHub: github.com/ArdentAILabs with DE-Bench repo ("Can Agents Solve Real-World Data Engineering Problems?"); star count not retrievable via search (GitHub).
+  - Hiring: 0 open positions listed on YC page (YC page, 2026); prior LinkedIn post sought Founding Engineer (LinkedIn activity 7351284826802458624).
+  - Product Hunt: no current-product launch entry found (Product Hunt search).
+- **Competitors:**
+  - Neon (acquired by Databricks ~$1B, 2025–2026; revenue unknown): native copy-on-write Postgres branching but requires migration to Neon (search snippet).
+  - Supabase ($116M raised per search snippet; revenue unknown): ships dashboard + GitHub PR branching tailored to AI agents but only for Supabase-hosted Postgres (Supabase docs, 2026).
+  - PlanetScale (over $100M raised historically per public reporting; revenue unknown — no public data found for current ARR): launched Postgres-compatible product, positions on performance vs. Neon (search snippet, 2026).
+  - Tembo / simplyblock Vela (funding unknown): open-source Neon alternatives focused on self-hosted serverless Postgres (search snippet).
+- **Why now:** [Inferred]: Coding-agent adoption in 2025–2026 created demand for isolated, production-like DB sandboxes that scale per-agent; catalyst is the Databricks–Neon deal validating serverless branching as critical infra (search snippet, 2025–2026).
 
 ## Founders & Team
 
-**Vikram Chennai** — Founder
-- Cornell University, Computer Science (YC company page)
-- Former ML Engineer; previously worked at a startup where he spent time "firefighting broken data pipelines" (SiliconANGLE, Sep 2025)
-- Participated in On Deck Fellowship (ODF) 2023 (LinkedIn)
-- Solo founder; applied to YC 7 times before acceptance (LinkedIn)
-- Independently raised $2.15M pre-seed and reached $100K+ ARR before YC (SiliconANGLE, Sep 2025)
-- Closed a $60K ARR enterprise customer while still in alpha as a solo founder (Crane VC blog)
-- Twitter/X: @vchennai2 — count not retrievable
-- LinkedIn: linkedin.com/in/vikram-chennai — 500+ connections (LinkedIn)
-- GitHub: ArdentAILabs org (7 followers); personal GitHub handle not confirmed
-- Personal website: vikramchennai.com
-
-The second team member is not listed as a founder on the YC page. A LinkedIn search references a "Roshan Ravi" as having worked with Vikram Chennai on a prior project (MeetWise AI, via buildspace), and Crane VC's blog noted the team "expanded from one to two" during the alpha stage, but no second founder is named on the YC profile or company website.
-
-**Co-founder relationship:** No public data on co-founder history. The YC page lists only Vikram Chennai as founder; the second employee's identity and role are not publicly confirmed.
-
-**Founder-market fit:** Vikram's prior experience debugging broken data pipelines at a startup directly maps to the problem space. His ability to reach $100K+ ARR and profitability as a solo founder before any institutional backing, while iterating through seven YC rejections, demonstrates persistence and customer proximity. His ML background at Cornell aligns with the AI-agent focus of the current product.
+- **Vikram Chennai (Founder/CEO):**
+  - Background: Computer Science at Cornell University; previously built a Computer Vision Platform for Real Estate that was a finalist for Cornell Spinout Awards 2023 and received a YC S23 interview; founded Ardent AI (prior product) which raised $2.15M in Sept 2025 (LinkedIn, Yahoo Finance Sept 2025).
+  - Twitter/X: @vchennai2 (x.com/vchennai2); follower count not retrievable.
+  - LinkedIn: "Founder @ Ardent (YC X26)" — linkedin.com/in/vikram-chennai/ (LinkedIn).
+  - GitHub: organization github.com/ArdentAILabs hosts DE-Bench; personal handle not retrievable from search.
+- **Evan (Co-founder):**
+  - Background: "12 years in data engineering" per Launch HN; last name and prior employers not disclosed in public sources reviewed (Launch HN, May 2026).
+  - Twitter/X: No public account found.
+  - LinkedIn: No public profile found (only Vikram's profile surfaced in search).
+  - GitHub: No public handle found.
+- **Co-founder relationship:** No public data on co-founder history; Vikram described himself as solo founder pre-pivot (LinkedIn snippet) so Evan likely joined for the current Ardent product.
+- **Founder-market fit:** Vikram previously built an AI Data Engineer product and personally encountered the agent-DB-testing problem that became the pivot motivation, and Evan brings 12 years of data engineering experience (Launch HN, May 2026); endorsements from Zach Wilson (Dataexpert.io) and Abhay Singh (Chevron Head of Data) appear on the homepage (tryardent.com).
 
 ## Key Risks
 
-**Product pivot uncertainty:** Ardent shifted from an AI data pipeline agent (with $100K+ ARR and 70% MoM growth per SiliconANGLE, Sep 2025) to database sandboxing for coding agents. It is unclear whether prior-product customers and ARR carried over or were abandoned. No current-product revenue data is publicly available.
-
-**Neon/Databricks competitive pressure:** Ardent's GitHub shows a direct fork of Neon's open-source codebase (GitHub, ArdentAILabs). Databricks acquired Neon for ~$1B (CNBC, May 2025) and could add agent-specific branching features to Neon's existing platform with vastly greater engineering resources. Ardent's differentiation is positioning, not underlying technology.
-
-**Well-funded sandbox competitors:** E2B ($32M), Daytona ($31M), and Supabase ($116M+) all operate in adjacent or overlapping spaces. Any of these could add database-specific branching to their platforms with moderate engineering effort, given the open-source availability of the core technology.
-
-**Single-founder key-person risk:** The YC page lists only Vikram Chennai as founder, with a team of 2. The company's technical direction, customer relationships, and fundraising depend primarily on one person. No co-founder or senior technical hire is publicly identified.
-
-**Name collision:** "Ardent" is a common English word shared by Ardent Venture Partners (VC firm), Ardent Credit Union, Ardent Health Services, and multiple other entities. This creates SEO and brand-confusion challenges for an early-stage company.
+- **Backing-engine dependency:** Ardent currently uses Neon as its primary branching engine (Launch HN, May 2026); Neon was acquired by Databricks (search snippet, 2025–2026), creating risk that Databricks restricts or competes with third-party access to Neon's copy-on-write infra. No mitigation disclosed.
+- **Direct incumbent overlap:** Supabase already markets branching specifically for AI agents creating branches programmatically (Supabase docs, 2026), narrowing Ardent's wedge to non-Supabase Postgres customers.
+- **Pivot recency / unproven current-product traction:** Prior product Ardent AI hit a public revenue claim of "$100K+ ARR" (LinkedIn, Vikram Chennai) before pivoting; current database-sandboxes product has only six logo references on the homepage and no disclosed paying-customer count or revenue (tryardent.com; Launch HN).
+- **Technical feasibility at scale:** "<6s clone at TB scale" relies on logical replication + Kafka + DDL triggers across heterogeneous targets (RDS, Supabase, PlanetScale) per Launch HN; performance and correctness across customer schemas is unproven publicly — no third-party benchmarks found.
+- **Name disambiguation:** Multiple unrelated "Ardent" entities exist (Ardent Jewellery @ardent_aj, generic Twitter @THISISARDENT, PitchBook profile 607953-97); some funding/news results may need careful matching to this YC company.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $4.05B data clone software market in 2026, projected $7.9B by 2035 at 8.7% CAGR (Business Research Insights, 2026 via search snippet) |
+| TAM | No public data found |
 | SAM | No public data found |
-| Traction | Prior product: $100K+ ARR, profitable, 70% MoM growth (SiliconANGLE, Sep 2025). Current product: 6 customer logos on website (tryardent.com); DE-Bench repo 35 GitHub stars (GitHub) |
-| Revenue Signal | No published pricing; Developer and Enterprise tiers listed as "Talk to us" / "Custom" (tryardent.com/pricing). Prior product reached $100K+ ARR (SiliconANGLE, Sep 2025); current product revenue unknown |
-| Founders | Vikram Chennai (Founder): Cornell CS, former ML Engineer, 7x YC applicant, solo-raised $2.15M pre-seed, reached $100K+ ARR pre-YC (SiliconANGLE, Sep 2025) |
-| Competitors | Neon/Databricks (~$1B acquisition, revenue unknown, full serverless Postgres platform); E2B ($32M raised, revenue unknown, general agent sandboxes); Daytona ($31M raised, revenue unknown, composable agent computers); Xata ($35M raised, $2.8M revenue 2024 per getlatka.com, block-level Postgres snapshots) |
-| Moat Signals | No public data found |
-| Risk Factors | Product pivot with unclear ARR carryover, Neon/Databricks direct competitive overlap, well-funded adjacent competitors |
-| Founder Reach | Vikram Chennai: Twitter @vchennai2 (count not retrievable), LinkedIn 500+ connections (LinkedIn), GitHub ArdentAILabs 7 org followers (GitHub) |
-| Distribution Signals | 6 customer logos on website (tryardent.com); endorsements from Zach Wilson, Abhay Singh (Chevron), Pryce Yebesi (Openledger) on website (tryardent.com) |
-| Emails | No public data found |
+| Traction | Launch HN post live (HN item 48124436, May 2026); 6 customer logos on homepage — Zenn Agents, Harvest, Open Ledger, Rose AI, Robynn AI, Clozers (tryardent.com); @ArdentAI ~176 Twitter followers, @tryardent ~165 Twitter followers (X.com search snippet); 0 open YC jobs (YC page, 2026) |
+| Revenue Signal | No public data found for current product (pricing not on homepage; prior product Ardent AI claimed $100K+ ARR per Vikram LinkedIn post 7324857256792010752, not applicable to current product) |
+| Founders | Vikram Chennai (Founder/CEO): Cornell CS, prior YC S23 interview, raised $2.15M for prior Ardent AI product Sept 2025. Evan (Co-founder): 12 years data engineering per Launch HN. |
+| Competitors | Neon (acquired by Databricks ~$1B 2025–2026, revenue unknown, native branching but requires migration); Supabase ($116M raised per search snippet, revenue unknown, branching limited to Supabase-hosted Postgres); PlanetScale (revenue unknown, Postgres-compatible product, no cross-platform branching); Tembo/simplyblock Vela (funding unknown, OSS Neon alternatives) |
+| Moat Signals | Technical complexity of logical-replication + Kafka + copy-on-write pipeline across RDS/Supabase/PlanetScale without migration (Launch HN, May 2026); no IP, network-effect, or data-moat signals found |
+| Risk Factors | Neon/Databricks dependency, Supabase direct overlap on agent branching, post-pivot current-product traction unproven |
+| Founder Reach | Vikram Chennai: Twitter @vchennai2 (count not retrievable), LinkedIn linkedin.com/in/vikram-chennai/ (count not retrievable), GitHub org ArdentAILabs (stars not retrievable). Evan: No public data found. |
+| Distribution Signals | Launch HN post May 2026 (news.ycombinator.com/item?id=48124436); YC company page promotion via YC LinkedIn (post 7458576459859906560); no Product Hunt launch found |
+| Emails | vikram@tryardent.com (YC page) |
+
+Sources:
+- [Ardent — YC company page](https://www.ycombinator.com/companies/ardent)
+- [Ardent — tryardent.com homepage](https://www.tryardent.com/)
+- [Launch HN: Ardent (YC P26)](https://news.ycombinator.com/item?id=48124436)
+- [Vikram Chennai — LinkedIn](https://www.linkedin.com/in/vikram-chennai/)
+- [Ardent AI Raises $2.15M — Yahoo Finance](https://finance.yahoo.com/news/ardent-ai-raises-2-15m-130000357.html)
+- [Ardent AI Raises $2.15M — BigDATAwire](https://www.hpcwire.com/bigdatawire/this-just-in/ardent-ai-raises-2-15m-to-build-the-first-ai-data-engineer/)
+- [SiliconANGLE — Ardent AI agentic engineer launch](https://siliconangle.com/2025/09/25/ardent-ai-beats-odds-launch-worlds-first-agentic-engineer-data-pipeline-maintenance/)
+- [Vikram Chennai — $100K+ ARR LinkedIn post](https://www.linkedin.com/posts/vikram-chennai_i-scaled-ardent-ai-to-100k-arr-in-6-months-activity-7324857256792010752-o1qj)
+- [YC LinkedIn — Ardent X26 promotion](https://www.linkedin.com/posts/y-combinator_ardent-yc-x26-lets-you-clone-any-postgres-activity-7458576459859906560-U6k6)
+- [Ardent (@ArdentAI) / X](https://x.com/ArdentAI)
+- [Ardent AI (@tryardent) / X](https://x.com/tryardent)
+- [GitHub — ArdentAILabs/DE-Bench](https://github.com/ArdentAILabs/DE-Bench)
+- [Supabase Branching docs](https://supabase.com/docs/guides/deployment/branching)
+- [Neon vs Supabase (2026) — DEV Community](https://dev.to/thiago_alvarez_a7561753aa/neon-vs-supabase-2026-database-or-backend-the-real-tradeoffs-3ggn)

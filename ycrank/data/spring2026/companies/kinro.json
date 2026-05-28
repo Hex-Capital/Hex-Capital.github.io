@@ -5,67 +5,42 @@
   "metadata": {
     "website": "https://www.kinro.ai/",
     "yc_page": "https://www.ycombinator.com/companies/kinro",
-    "batch": "Spring 2026",
+    "batch": "Spring 2026 (YC P26)",
     "industry": "B2B / B2B -> Sales",
     "team_size": "3",
-    "location": "San Francisco, CA, US (kinro.ai; YC page)",
+    "location": "1885 Mission St, San Francisco, CA 94103 (kinro.ai)",
+    "tags": "Insurance, AI Agents, Sales",
     "yc_partner": "Nicolas Dessaigne (YC page)",
     "emails": "No public data found"
   },
-  "tags": [],
+  "tags": [
+    "Insurance",
+    "AI Agents",
+    "Sales"
+  ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-22T23:49:13.076Z",
+  "memoGeneratedAt": "2026-05-28T02:58:38.946Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 64,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 67,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 50,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
       "score": 40,
       "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 45,
-      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 51,
-    "EG": 64,
-    "NR": 67,
-    "PG": 50,
-    "PT": 42,
-    "SL": 40,
-    "VK": 45
+    "CB": 40,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 51.29,
-  "consolidatedRank": 21,
+  "consolidatedAvg": 40,
+  "consolidatedRank": 123,
   "paths": {
     "memo": "spring2026/memos/kinro.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/kinro.md",
-      "elad-gil": "spring2026/evals/elad-gil/kinro.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/kinro.md",
-      "paul-graham": "spring2026/evals/paul-graham/kinro.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/kinro.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/kinro.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/kinro.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/kinro.md"
     }
   }
 }

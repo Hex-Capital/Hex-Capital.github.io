@@ -1,141 +1,105 @@
 ﻿# KugelAudio
 
-> Kugel is an on-prem enterprise TTS supporting 25+ languages
+> Kugel is an on-prem enterprise TTS supporting 25+ languages 
 
 | Field | Value |
 |-------|-------|
 | Website | https://kugelaudio.com/en |
 | YC Page | https://www.ycombinator.com/companies/kugelaudio |
-| Batch | Spring 2026 (YC P26) (YC page) |
+| Batch | Spring 2026 (YC P26) |
 | Industry | B2B / B2B -> Infrastructure |
 | Team Size | 4 |
 | Location | Berlin, Berlin, Germany |
 | Tags | Generative AI, API, Conversational AI |
-| YC Partner | Andrew Miklas (YC page) |
-| Emails | kajo@kugelaudio.com (sonusahani.com blog citing repo) |
+| YC Partner | Andrew Miklas |
+| Emails | No public data found |
 
 ## The Idea
 
-**Problem:** European enterprises deploying voice AI / customer-support agents need (a) high-quality TTS in European languages and (b) GDPR-compliant deployment options. The company's LinkedIn page positions Kugel as "Europe's first production-ready TTS for voice AI ... developed and hosted in Europe, fully GDPR compliant" (LinkedIn company page via search snippet). Cloud-only US-headquartered TTS providers (e.g., ElevenLabs) raise data-residency concerns for EU customers. [Inferred]: Customers today either accept the residency risk of US APIs or use lower-quality regional/legacy TTS.
-
-**Approach:** Kugel ships an enterprise TTS model deployable on-prem. Architecture is hybrid AR + Diffusion with a Qwen2-based language model text encoder, transformer layers for speech representation, a diffusion head for predicting speech latents, and an acoustic decoder (lilting.ch article). The base model was trained on ~200,000 hours of speech from the YODAS2 dataset (lilting.ch). Two model tiers: "Kugel 1" (studio quality) and "Kugel 1 Turbo" with ~39ms time-to-first-audio (docs.kugelaudio.com). Features include WebSocket streaming, voice cloning, and Python/JS/cURL SDKs (docs.kugelaudio.com). Open-weights model `kugelaudio-0-open` is published on Hugging Face (huggingface.co/kugelaudio/kugelaudio-0-open).
-
-**Differentiation:** Coverage of 24 European languages including Polish, Ukrainian, Czech, Romanian, Hungarian, Bulgarian, Slovak, Croatian, Serbian, Turkish (lilting.ch); on-prem deployment + EU hosting + GDPR positioning (LinkedIn snippet); claimed win over ElevenLabs in a 339-evaluator human preference test (lilting.ch). Cartesia and Deepgram offer on-prem but are US-based; PlayHT supports on-prem via enterprise plans (ringly.io / deepgram.com listicles).
-
-**Business Model:** Docs reference a `/pricing/overview` page but rates were not retrievable in this research session (docs.kugelaudio.com). [Inferred]: Likely a tiered model — usage-based API for cloud + per-deployment / annual license for on-prem enterprise — given the on-prem + enterprise positioning and SDK availability. Open-source repo (MIT) functions as a developer top-of-funnel; commercial product sits behind `api.kugelaudio.com` (docs.kugelaudio.com).
-
-**TAM/SAM:** Global TTS market estimates for 2026 range $4.10B–$5.33B with CAGRs of ~12–23% to 2031–2035 (Mordor Intelligence; market.us; MarketsandMarkets via search snippets). MarketsandMarkets projects TTS reaching $7.6B by 2029 at 13.7% CAGR (search snippet). No public SAM for "EU on-prem enterprise TTS" specifically. [Inferred]: SAM is a fraction of the global figure tied to EU enterprise voice-AI workloads with data-residency requirements.
-
-**GTM / Distribution:** Open-source repo (246 stars, 38 forks, MIT, github.com/Kugelaudio/kugelaudio-open) and Hugging Face Space (huggingface.co/spaces/multimodalart/kugelaudio) drive developer awareness. Third-party ComfyUI nodes published by community contributors (github.com/Saganaki22/ComfyUI-KugelAudio; runcomfy.com). PyPI package `kugelaudio` exists (pypi.org/project/kugelaudio). [Inferred]: Direct enterprise sales to European customer-support / contact-center buyers; OSS + ComfyUI integrations seed bottom-up developer pipeline.
+- **Problem:** Enterprise voice AI users in Europe need TTS that pronounces domain-specific tokens (street names, postal codes, phone numbers, emails, brand names) correctly while keeping data within EU jurisdiction; current alternatives are cloud APIs like ElevenLabs (kugelaudio.com/en).
+- **Approach:** A foundational TTS model deployable on-prem in Kubernetes with IPA notation support, voice cloning, and "edge case" training data for customer-support utterances, achieving 39ms time-to-first-audio (kugelaudio.com/en).
+- **Differentiation:** Versus ElevenLabs — on-prem/EU-hosted GDPR-compliant deployment rather than US cloud API; versus Cartesia — broader European-language coverage (40+ on site, 25+ per YC page) vs. Cartesia's 15 languages (murf.ai/blog/cartesia-vs-elevenlabs).
+- **Business Model:** Usage-based with €0/month free tier and per-minute "agent minutes" billing, with custom pricing above 3,000 minutes (docs.kugelaudio.com/pricing/overview).
+- **TAM/SAM:** No public TAM/SAM data found for this specific segment.
+- **GTM / Distribution:** Direct enterprise sales with on-prem/Kubernetes deployments and "shared Slack channel" support, plus developer-led integration via Pipecat and LiveKit in "2 lines of code" (kugelaudio.com/en); workshop with sipgate cited as channel activity (LinkedIn company page).
 
 ## Defensibility
 
-- Open-source weights + 246 GitHub stars (github.com/Kugelaudio/kugelaudio-open) build mindshare but the MIT license itself is not a moat.
-- Training data scale: ~200K hours from YODAS2 (lilting.ch). [Inferred]: Replicable by others with comparable compute budgets.
-- Compute access: development used GPU resources from the AI Service Center Berlin-Brandenburg under a German Federal Ministry of Research, Technology and Space program (lilting.ch / sonusahani.com); this lowered training cost and ties the team to EU public-AI infrastructure.
-- On-prem deployment + EU hosting positioning supports switching costs once an enterprise integrates (LinkedIn snippet).
-
-**Market structure:** [Inferred]: Structural barrier for US incumbents like ElevenLabs is data-residency / GDPR compliance — sales-channel and architectural conflict with their US-cloud-first model. EU buyers requiring on-prem deployment fall outside the standard cloud SLA / unit economics of US incumbents. This is a real but narrow wedge; PlayHT, Deepgram, and Cartesia already advertise on-prem options (deepgram.com).
-
-**Commoditization risk:** TTS quality is converging across providers, and the company's own MIT-licensed open weights enable third parties to host competing endpoints. Any well-resourced EU lab (e.g., Mistral) or established TTS vendor could fine-tune or train a comparable model on European-language data. Industry articles in 2026 explicitly frame TTS as a competitive multi-vendor space (deepgram.com listicles).
+- **Moat today:** Open-source release (`kugelaudio-open`, 258 stars, 39 forks, github.com/Kugelaudio/kugelaudio-open) plus 100k+ monthly Hugging Face downloads of V1 (LinkedIn company page) create a developer-distribution wedge; training corpus of ~200,000 hours from YODAS2 on 8x H100 funded by the German Federal Ministry of Research (GitHub README).
+- **Future moat:** [Inferred]: Fine-tuned per-customer voice/lexicon models (e.g., the cited Swiss postal-code customization for "Thomas") could create switching costs, but no customer-count data is public.
+- **Market structure:** [Inferred]: GDPR/data-sovereignty requirements and on-prem Kubernetes delivery create a structural barrier to US cloud incumbents (ElevenLabs, Cartesia) whose unit economics and architecture are cloud-API native.
+- **Commoditization risk:** Mistral released open-weight Voxtral TTS in March 2026 positioned against ElevenLabs (venturebeat.com), and Cartesia already offers on-prem deployment (cartesia.ai/vs/cartesia-vs-elevenlabs), indicating the on-prem/open-weight European-TTS space has multiple well-funded entrants.
 
 ## Market & Traction
 
-**Traction signals:**
-- GitHub `Kugelaudio/kugelaudio-open`: 246 stars, 38 forks, 5 commits on main, 0 published releases (github.com, fetched May 2026).
-- Hugging Face: model card `kugelaudio/kugelaudio-0-open` and community Space `multimodalart/kugelaudio` (huggingface.co).
-- Third-party ecosystem: ComfyUI node integrations published (github.com/Saganaki22/ComfyUI-KugelAudio; runcomfy.com).
-- PyPI: `kugelaudio` package (pypi.org/project/kugelaudio).
-- LinkedIn company page exists at de.linkedin.com/company/kugelaudio (search result); follower count not retrievable.
-- LinkedIn announcement post about YC acceptance (linkedin.com/posts/kugelaudio_ activity-7452243633787023360).
-- Press / blog coverage: lilting.ch technical write-up; sonusahani.com blog ("European Open-Source TTS That Surpasses ElevenLabs").
-- Benchmark claim: state-of-the-art win over ElevenLabs in 339 human preference evaluations (lilting.ch).
-- Public research grant: GPU compute via AI Service Center Berlin-Brandenburg, German Federal Ministry of Research, Technology and Space (sonusahani.com / lilting.ch).
-- Founder Kratzenstein affiliated with Hasso-Plattner-Institut (osf.io/c23wj).
-- Open jobs: 0 (YC page).
-- Product Hunt launch: No public data found.
-- Twitter/X presence for company: No public account found in search results.
-- Funding announcement: No public data found beyond YC participation.
-
-**Competitive landscape:**
-- **ElevenLabs** — $500M Series D Feb 2026 at $11B valuation led by Sequoia (TechCrunch, Feb 4 2026; CNBC, Feb 4 2026); $330M+ ARR by end of 2025 (Sacra). Differentiator vs. Kugel: market leader in voice quality and ecosystem; US-headquartered, cloud-first — Kugel differentiates on EU on-prem + GDPR.
-- **Cartesia** — Index Ventures-backed; specific funding amount not surfaced; Sonic-3 model with ~90ms TTFB (search snippets; murf.ai). Differentiator: state-space-model architecture optimized for on-device/on-prem; US-based — Kugel differentiates on EU language depth (24 languages) + EU hosting.
-- **Deepgram** — $130M Series C Jan 2026 at $1.3B valuation, >$215M total funding (search snippet); offers shared cloud, dedicated single-tenant, and self-hosted on-prem tiers (deepgram.com). Differentiator: full speech stack (STT + TTS) and SOC2/HIPAA — Kugel narrower TTS-only EU focus.
-- **PlayHT** — Enterprise plans support on-prem; 600+ voices, 140+ languages (search snippets). Funding/ARR: revenue unknown. Differentiator: voice catalog breadth; Kugel differentiates on European-language quality and EU residency.
-- **Speechmatics** (UK; speechmatics.com pricing page found): adjacent — primarily STT — but EU-headquartered competitor for enterprise speech. Funding/ARR: revenue unknown in this research.
-
-**Why now:**
-- [Inferred]: Open-weights TTS architectures (e.g., VibeVoice, on which Kugel builds — sonusahani.com) crossed a quality threshold in 2024–2025 enabling smaller teams to ship competitive models.
-- [Inferred]: EU AI Act enforcement timeline (in force from Aug 2024, with phased obligations through 2026) increases enterprise demand for EU-hosted, auditable AI infrastructure.
-- Public-sector EU GPU access via programs like the AI Service Center Berlin-Brandenburg materially lowered training cost (sonusahani.com / lilting.ch).
-- Voice-AI market maturity: ElevenLabs scaled from $100M → $330M ARR in 15 months through end-2025 (Sacra), evidencing rapid enterprise adoption of TTS.
+- **Traction signals:**
+  - 100k+ monthly downloads of V1 model on Hugging Face (KugelAudio LinkedIn company page).
+  - 258 GitHub stars, 39 forks on `kugelaudio-open` (github.com/Kugelaudio/kugelaudio-open).
+  - 78% human-preference win rate over ElevenLabs across 339 evaluations using OpenSkill ranking (GitHub README; sonusahani.com/blogs/kugelaudio).
+  - LinkedIn company page: 214 followers (LinkedIn, fetched May 2026).
+  - 4 employees including Alexander Netz as founding engineer (LinkedIn company page).
+  - Launch event at CCW Berlin comparing V1 to ElevenLabs (LinkedIn company page).
+  - Workshop collaboration with sipgate on European voice AI (LinkedIn company page).
+  - Customer testimonial: "Thomas" cited Swiss postal-code fine-tuning (kugelaudio.com/en).
+- **Competitors (3-5):**
+  - ElevenLabs ($781M raised total, $500M Series D Feb 2026 at $11B valuation, $330M+ ARR end-2025; techcrunch.com, elevenlabs.io/blog/series-d): cloud-API leader, 70+ languages; KugelAudio differentiates on on-prem/EU hosting.
+  - Cartesia ($191M raised across seed/A/B through Oct 2025, $100M Series B Oct 2025, 50K+ customers as of March 2026; fortune.com, thesaasnews.com): supports on-prem but only 15 languages vs. KugelAudio's 25-40+.
+  - Mistral Voxtral (parent raised ~$1B+, revenue unknown; venturebeat.com, March 2026): open-weight TTS from European foundation-model leader; direct overlap on EU-sovereign positioning.
+  - Inworld AI (revenue unknown, listed as TTS platform; inworld.ai/resources): voice agent platform with built-in TTS, US-based, lacks EU on-prem focus.
+- **Why now:** [Inferred]: EU AI Act enforcement and GDPR sensitivity around US cloud voice APIs in 2025–2026, combined with the open-weight TTS cost-curve crossing (Mistral Voxtral release March 2026, venturebeat.com), create demand for EU-hosted on-prem TTS.
 
 ## Founders & Team
 
-**Kajo Kratzenstein** — Co-founder
-- Affiliated with Hasso-Plattner-Institut, Potsdam (GitHub profile; osf.io/c23wj).
-- Co-author with Carlos Menke (acknowledged in repo as dataset gathering / benchmarking lead) (github.com/Kugelaudio/kugelaudio-open).
-- Education: No public data found beyond HPI affiliation.
-- Twitter/X: No public account found.
-- LinkedIn: No public profile URL surfaced in search.
-- GitHub: github.com/kajode — 11 repos, 43 total stars, 23 followers; pinned repo `GorillaTracker` (Python, 9 stars) (GitHub profile, May 2026).
-- Email: kajo@kugelaudio.com (sonusahani.com).
-
-**Viktor Presber** — Co-founder
-- Education: The University of Texas at Austin (2024) (RocketReach / LinkedIn snippet).
-- Prior ventures: started a local video production company at 17; co-founded **full-house.io** (reached $300K ARR in six months with enterprise clients including Siemens Energy, Hitachi Rail, Barilla); co-founded **Sagemode** (partnerships with two esports teams) (LinkedIn profile snippet via search).
-- Twitter/X: No public account found in searches.
-- LinkedIn: linkedin.com/in/viktor-presber — count not retrievable.
-- GitHub: No public repos found tied to this name.
-
-**Other team members:** Team size is 4 per YC page; the remaining two members were not publicly identified in this research. Carlos Menke is acknowledged as a project contributor on the open repo (github.com/Kugelaudio/kugelaudio-open) but is not listed as a founder on the YC page.
-
-**Co-founder relationship:** No public data on co-founder history; Phase 3 surfaced no shared employer or university between Kratzenstein (HPI/Potsdam) and Presber (UT Austin). [Inferred]: Both Berlin-based at company formation.
-
-**Founder-market fit:** Kratzenstein brings academic ML proximity through HPI and direct authorship of the model architecture (lilting.ch lists him as primary author). Presber contributes commercial/founder experience with documented prior B2B revenue traction at full-house.io and enterprise account work (Siemens Energy, Hitachi Rail, Barilla per LinkedIn snippet). No advisors, board members, or notable investors beyond YC were surfaced in public sources.
+- **Kajo Kratzenstein (Co-founder):**
+  - Background: MA and BSc Computer Science, Hasso Plattner Institute; prior CTO at Sagemode (in-game AI coach scaled to 1,000+ users); built production aneurysm detection model at Floy GmbH (YC company page via search snippet; LinkedIn post linkedin.com/posts/kratzenstein).
+  - Twitter/X: No public account found.
+  - LinkedIn: Linked at linkedin.com/in/kratzenstein (Founder, KugelAudio YC P26); follower count not retrievable.
+  - GitHub: @kajode (github.com/kajode); top repo star count not retrievable from search snippet.
+- **Viktor Presber (Co-founder):**
+  - Background: Co-founded full-house.io, scaled to $300K ARR in six months with enterprise clients Siemens Energy, Hitachi Rail, Barilla; prior roles at SageMode, charles & charlotte, DIE KOLONIE; studied advertising at University of Texas (rocketreach.co/viktor-presber, happenstance.ai/u/e8a634b3, LinkedIn).
+  - Twitter/X: No public account found.
+  - LinkedIn: de.linkedin.com/in/viktor-presber/en ("KugelAudio (YC P26)"); follower count not retrievable.
+  - GitHub: No public repos found.
+- **Co-founder relationship:** [Inferred]: Both based in Berlin and joined YC together; conflicting source attributions (some search snippets conflate Sagemode/HPI credentials across both founders) suggest possible overlap at Sagemode, but no public data confirms shared prior employer or university.
+- **Founder-market fit:** Presber brings enterprise-sales track record (Siemens Energy, Hitachi Rail, Barilla via full-house.io; rocketreach.co/viktor-presber); Kratzenstein brings applied-ML model-deployment experience (Floy GmbH aneurysm detection, Sagemode AI coach; LinkedIn).
 
 ## Key Risks
 
-**Open-weights cannibalization:** The company released `kugelaudio-0-open` under MIT on GitHub (246 stars) and Hugging Face. Any vendor or customer can self-host the open model, reducing willingness to pay for the commercial API or on-prem license. Mitigation signals: separate "Kugel 1" / "Kugel 1 Turbo" commercial models referenced in docs.kugelaudio.com suggest a quality / latency gap is intended between open and closed tiers.
-
-**Incumbent capital asymmetry:** ElevenLabs raised $500M in Feb 2026 at an $11B valuation (TechCrunch) and Deepgram $130M Series C in Jan 2026 (search snippet); both already advertise on-prem deployment. A funded EU push (e.g., Sequoia-backed ElevenLabs opening EU data centers) could neutralize the GDPR wedge.
-
-**Benchmark generalization:** The "beats ElevenLabs" claim rests on 339 human-preference evaluations conducted by the team (lilting.ch). No third-party benchmark replication was surfaced; enterprise procurement typically requires independent validation.
-
-**Foundation-model dependency:** Architecture is built on the VibeVoice base from Microsoft (sonusahani.com) and uses a Qwen2-based encoder (lilting.ch). License terms and upstream changes from Microsoft / Alibaba could constrain commercial deployment.
-
-**Distribution / GTM unproven:** YC page lists 0 open jobs and no sales hires were identified; the company has not surfaced enterprise customer logos or signed LOIs in public sources.
+- **Well-funded incumbents:** ElevenLabs ($781M raised, $11B valuation, $330M+ ARR; techcrunch.com Feb 2026) and Cartesia ($191M raised, 50K+ customers, on-prem capable; fortune.com, thesaasnews.com) outscale KugelAudio's pre-seed funding by orders of magnitude and both target enterprise voice.
+- **Open-weight commoditization:** Mistral released open-weight Voxtral TTS positioned against ElevenLabs in March 2026 (venturebeat.com); a French EU-sovereign foundation-model lab releasing free weights directly threatens KugelAudio's EU-sovereign-TTS positioning.
+- **Open-source self-cannibalization:** KugelAudio's own `kugelaudio-open` (258 GitHub stars, 100k+ monthly HF downloads; github.com/Kugelaudio, LinkedIn) may erode willingness to pay for the hosted enterprise tier; no public mitigation found.
+- **Founder-team credential ambiguity:** Public sources conflict on which co-founder holds the Hasso Plattner Institute / Sagemode / Floy GmbH credentials (compare two WebSearch summaries above), creating uncertainty about technical-leadership attribution for diligence.
+- **Concentration in EU regulatory thesis:** Product positioning ("100% European infrastructure," "GDPR compliant," kugelaudio.com/en) depends on European buyers prioritizing data-sovereignty; no public customer-count or revenue data validates this demand yet.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Global TTS $4.10B–$5.33B in 2026, CAGR ~12–23% (Mordor Intelligence; market.us; MarketsandMarkets; MarketResearchFuture, all 2026 via search snippets) |
+| TAM | No public data found |
 | SAM | No public data found |
-| Traction | GitHub `kugelaudio-open` 246 stars / 38 forks (GitHub, May 2026); Hugging Face model + Space published (huggingface.co); ComfyUI third-party nodes (github.com/Saganaki22, 2025–2026); PyPI `kugelaudio` (pypi.org); LinkedIn YC announcement post (LinkedIn, 2026); benchmark win in 339-evaluator A/B vs. ElevenLabs (lilting.ch); 0 open jobs (YC page) |
-| Revenue Signal | Pricing page referenced at docs.kugelaudio.com/pricing/overview but rates not disclosed in this fetch (docs.kugelaudio.com, May 2026); no published ARR |
-| Founders | Kajo Kratzenstein (Co-founder): HPI Potsdam affiliation, primary model author. Viktor Presber (Co-founder): UT Austin 2024; prior co-founder full-house.io ($300K ARR, Siemens Energy / Hitachi Rail / Barilla clients), Sagemode |
-| Competitors | ElevenLabs ($500M Series D Feb 2026 at $11B val — TechCrunch; $330M ARR end-2025 — Sacra; cloud-first US TTS leader). Deepgram ($130M Series C Jan 2026, $1.3B val, >$215M total — search snippet; on-prem speech stack). Cartesia (Index Ventures-backed, funding undisclosed in this research; on-device/on-prem state-space TTS). PlayHT (funding/ARR not surfaced; 600+ voices, on-prem enterprise). Speechmatics (UK; STT-adjacent, revenue unknown) |
-| Moat Signals | Open-source repo + community ecosystem (246 GH stars, ComfyUI nodes); EU GPU compute access via AI Service Center Berlin-Brandenburg / BMFTR (sonusahani.com); 24 European-language coverage (lilting.ch); ~39ms TTFB on Kugel 1 Turbo (docs.kugelaudio.com) |
-| Risk Factors | Open-weights cannibalization, incumbent capital asymmetry (ElevenLabs $11B), upstream foundation-model dependency (VibeVoice / Qwen2) |
-| Founder Reach | Kratzenstein: Twitter not found, LinkedIn not surfaced, GitHub kajode 23 followers / 43 stars total. Presber: Twitter not found, LinkedIn linkedin.com/in/viktor-presber (count not retrievable), GitHub not found |
-| Distribution Signals | GitHub 246 stars (May 2026); Hugging Face model + Space (huggingface.co); third-party ComfyUI integration (runcomfy.com / github.com/Saganaki22); PyPI package (pypi.org); Product Hunt: no public data found |
-| Emails | kajo@kugelaudio.com (sonusahani.com citing open repo) |
+| Traction | 100k+ monthly Hugging Face downloads of V1 (LinkedIn, 2026); 258 GitHub stars / 39 forks (github.com/Kugelaudio, May 2026); 78% win rate vs. ElevenLabs across 339 evaluations (GitHub README); 214 LinkedIn followers (LinkedIn, May 2026); CCW Berlin launch and sipgate workshop (LinkedIn) |
+| Revenue Signal | €0/month free tier; usage-based "agent minutes"; custom pricing above 3,000 minutes (docs.kugelaudio.com/pricing/overview) |
+| Founders | Kajo Kratzenstein (Co-founder): HPI CS MA/BSc, ex-CTO Sagemode, ex-Floy GmbH ML. Viktor Presber (Co-founder): ex-full-house.io ($300K ARR, Siemens Energy/Hitachi Rail/Barilla), ex-Sagemode, studied advertising at UT. |
+| Competitors | ElevenLabs ($781M raised, $330M+ ARR, cloud API leader 70+ languages); Cartesia ($191M raised, 50K+ customers, on-prem but 15 languages); Mistral Voxtral (parent ~$1B+ raised, revenue unknown, open-weight EU TTS); Inworld AI (revenue unknown, voice-agent platform with built-in TTS) |
+| Moat Signals | German Federal Ministry of Research training grant (GitHub README); 8x H100 / 200k-hour YODAS2 training corpus (GitHub README); 100k+ HF monthly downloads (LinkedIn); Pipecat + LiveKit 2-line integration (kugelaudio.com/en) |
+| Risk Factors | Well-funded incumbents (ElevenLabs, Cartesia); open-weight commoditization (Mistral Voxtral); open-source self-cannibalization |
+| Founder Reach | Kajo Kratzenstein: Twitter not found, LinkedIn count not retrievable, GitHub @kajode (stars not retrievable). Viktor Presber: Twitter not found, LinkedIn count not retrievable, GitHub not found. |
+| Distribution Signals | 100k+ monthly Hugging Face downloads (LinkedIn, 2026); 258 GitHub stars (github.com/Kugelaudio, May 2026); CCW Berlin launch (LinkedIn); sipgate workshop (LinkedIn) |
+| Emails | No public data found |
 
 Sources:
-- [YC company page](https://www.ycombinator.com/companies/kugelaudio)
-- [GitHub: Kugelaudio/kugelaudio-open](https://github.com/Kugelaudio/kugelaudio-open)
-- [GitHub: kajode profile](https://github.com/kajode)
-- [docs.kugelaudio.com](https://docs.kugelaudio.com/)
-- [lilting.ch technical writeup](https://lilting.ch/en/articles/kugelaudio-comfyui-tts)
-- [sonusahani.com blog](https://sonusahani.com/blogs/kugelaudio)
-- [Hugging Face model](https://huggingface.co/kugelaudio/kugelaudio-0-open)
-- [Hugging Face Space](https://huggingface.co/spaces/multimodalart/kugelaudio)
-- [ComfyUI-KugelAudio nodes](https://github.com/Saganaki22/ComfyUI-KugelAudio)
-- [LinkedIn company page](https://de.linkedin.com/company/kugelaudio)
-- [TechCrunch: ElevenLabs $500M Series D](https://techcrunch.com/2026/02/04/elevenlabs-raises-500m-from-sequioia-at-a-11-billion-valuation/)
-- [CNBC: ElevenLabs $11B](https://www.cnbc.com/2026/02/04/nvidia-backed-ai-startup-elevenlabs-11-billion-valuation.html)
-- [Sacra: ElevenLabs at $90M ARR](https://sacra.com/research/elevenlabs-at-90m-arr/)
-- [Mordor Intelligence TTS market](https://www.mordorintelligence.com/industry-reports/text-to-speech-market)
-- [MarketsandMarkets TTS](https://www.marketsandmarkets.com/Market-Reports/text-to-speech-market-2434298.html)
-- [Deepgram TTS alternatives](https://deepgram.com/learn/text-to-speech-elevenlabs-alternatives-2026)
+- [KugelAudio YC page](https://www.ycombinator.com/companies/kugelaudio)
+- [KugelAudio website](https://kugelaudio.com/en)
+- [KugelAudio Pricing](https://docs.kugelaudio.com/pricing/overview)
+- [kugelaudio-open GitHub](https://github.com/Kugelaudio/kugelaudio-open)
+- [KugelAudio LinkedIn company page](https://www.linkedin.com/company/kugelaudio)
+- [Viktor Presber LinkedIn](https://de.linkedin.com/in/viktor-presber/en)
+- [Kajo Kratzenstein LinkedIn post](https://www.linkedin.com/posts/kratzenstein_super-excited-be-a-part-of-the-current-yc-activity-7452242224043696128-O4CG)
+- [RocketReach — Viktor Presber](https://rocketreach.co/viktor-presber-email_728336072)
+- [Cartesia Series A — Fortune](https://fortune.com/2025/03/11/exclusive-cartesia-voice-ai-startup-raises-64-million-series-a/)
+- [Cartesia Series B — The SaaS News](https://www.thesaasnews.com/news/cartesia-raises-64-million-in-series-a)
+- [ElevenLabs Series D — TechCrunch](https://techcrunch.com/2026/02/04/elevenlabs-raises-500m-from-sequioia-at-a-11-billion-valuation/)
+- [ElevenLabs Series D — elevenlabs.io](https://elevenlabs.io/blog/series-d)
+- [Mistral Voxtral — VentureBeat](https://venturebeat.com/orchestration/mistral-ai-just-released-a-text-to-speech-model-it-says-beats-elevenlabs-and)
+- [Cartesia vs ElevenLabs — Murf](https://murf.ai/blog/cartesia-vs-elevenlabs)
+- [KugelAudio Open review — sonusahani.com](https://sonusahani.com/blogs/kugelaudio)

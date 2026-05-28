@@ -1,7 +1,7 @@
 {
   "slug": "kinect",
   "name": "Kinect",
-  "oneLiner": "Personalized storefronts for every visitor",
+  "oneLiner": "Storefronts that sell to humans and AI agents",
   "metadata": {
     "website": "https://www.trykinect.ai/",
     "yc_page": "https://www.ycombinator.com/companies/kinect",
@@ -11,7 +11,7 @@
     "location": "San Francisco, CA, USA",
     "tags": "B2B, E-commerce, Conversational AI",
     "yc_partner": "David Lieb",
-    "emails": "hello@trykinect.ai"
+    "emails": "kratik@trykinect.ai, varun@trykinect.ai"
   },
   "tags": [
     "B2B",
@@ -19,58 +19,28 @@
     "Conversational AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-22T23:27:34.630Z",
+  "memoGeneratedAt": "2026-05-28T02:36:32.610Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 35,
+      "score": 39,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 33,
-    "EG": 35,
-    "NR": 44,
-    "PG": 37,
-    "PT": 30,
-    "SL": 31,
-    "VK": 35
+    "CB": 39,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 35,
-  "consolidatedRank": 142,
+  "consolidatedAvg": 39,
+  "consolidatedRank": 138,
   "paths": {
     "memo": "spring2026/memos/kinect.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/kinect.md",
-      "elad-gil": "spring2026/evals/elad-gil/kinect.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/kinect.md",
-      "paul-graham": "spring2026/evals/paul-graham/kinect.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/kinect.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/kinect.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/kinect.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/kinect.md"
     }
   }
 }

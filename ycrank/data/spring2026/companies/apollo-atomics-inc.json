@@ -1,0 +1,50 @@
+{
+  "slug": "apollo-atomics-inc",
+  "name": "Apollo Atomics, Inc.",
+  "oneLiner": "We make the most compact nuclear machines.",
+  "metadata": {
+    "website": "https://apolloatomics.com/",
+    "yc_page": "https://www.ycombinator.com/companies/apollo-atomics-inc",
+    "batch": "Spring 2026 (YC P26)",
+    "industry": "Industrials / Industrials -> Energy",
+    "team_size": "Not listed on YC page",
+    "location": "Cambridge, MA, USA",
+    "tags": "Small Modular Reactors, Manufacturing",
+    "yc_partner": "Tom Blomfield",
+    "emails": "contact@apolloatomics.com, ahalimi@apolloatomics.com, drew@apolloatomics.com"
+  },
+  "tags": [
+    "Small Modular Reactors",
+    "Manufacturing"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-28T02:39:13.751Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 61,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 37,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 61,
+    "EG": 37,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
+  },
+  "consolidatedAvg": 49,
+  "consolidatedRank": 53,
+  "paths": {
+    "memo": "spring2026/memos/apollo-atomics-inc.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/apollo-atomics-inc.md",
+      "elad-gil": "spring2026/evals/elad-gil/apollo-atomics-inc.md"
+    }
+  }
+}

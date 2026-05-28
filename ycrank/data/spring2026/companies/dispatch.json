@@ -8,7 +8,7 @@
     "batch": "Spring 2026",
     "industry": "Industrials / Industrials -> Aviation and Space",
     "team_size": "2",
-    "location": "No public data found",
+    "location": "San Francisco, CA, USA",
     "tags": "Manufacturing, Aerospace, Advanced Materials",
     "yc_partner": "Tom Blomfield",
     "emails": "No public data found"
@@ -19,58 +19,33 @@
     "Advanced Materials"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-22T23:56:32.344Z",
+  "memoGeneratedAt": "2026-05-28T03:06:13.121Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 51,
-      "tier": "Neutral"
+      "score": 68,
+      "tier": "Invest"
     },
     "elad-gil": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 55,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 58,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
       "score": 45,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 56,
-      "tier": "Neutral"
-    },
-    "vinod-khosla": {
-      "score": 63,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 51,
-    "EG": 47,
-    "NR": 55,
-    "PG": 58,
-    "PT": 45,
-    "SL": 56,
-    "VK": 63
+    "CB": 68,
+    "EG": 45,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 53.57,
-  "consolidatedRank": 10,
+  "consolidatedAvg": 56.5,
+  "consolidatedRank": 21,
   "paths": {
     "memo": "spring2026/memos/dispatch.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/dispatch.md",
-      "elad-gil": "spring2026/evals/elad-gil/dispatch.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/dispatch.md",
-      "paul-graham": "spring2026/evals/paul-graham/dispatch.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/dispatch.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/dispatch.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/dispatch.md"
+      "elad-gil": "spring2026/evals/elad-gil/dispatch.md"
     }
   }
 }

@@ -8,10 +8,10 @@
     "batch": "Spring 2026",
     "industry": "B2B / B2B -> Engineering, Product and Design",
     "team_size": "2",
-    "location": "No public data found",
+    "location": "San Francisco, CA, USA",
     "tags": "Education, Video, Edtech",
     "yc_partner": "Pete Koomen",
-    "emails": "founder@laminalabs.ai"
+    "emails": "No public data found"
   },
   "tags": [
     "Education",
@@ -19,58 +19,28 @@
     "Edtech"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-22T23:42:23.541Z",
+  "memoGeneratedAt": "2026-05-28T02:52:55.620Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 42,
+      "score": 35,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 41,
-    "EG": 32,
-    "NR": 51,
-    "PG": 43,
-    "PT": 28,
-    "SL": 34,
-    "VK": 42
+    "CB": 35,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 38.71,
-  "consolidatedRank": 112,
+  "consolidatedAvg": 35,
+  "consolidatedRank": 165,
   "paths": {
     "memo": "spring2026/memos/lamina-labs.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/lamina-labs.md",
-      "elad-gil": "spring2026/evals/elad-gil/lamina-labs.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/lamina-labs.md",
-      "paul-graham": "spring2026/evals/paul-graham/lamina-labs.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/lamina-labs.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/lamina-labs.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/lamina-labs.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/lamina-labs.md"
     }
   }
 }

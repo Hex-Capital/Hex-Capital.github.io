@@ -1,0 +1,30 @@
+﻿# Enjamb Labs -- Elad Gil Evaluation
+
+Enjamb Labs is what you get when a real catalyst -- frontier LLM tool-use crossing the regulated-document threshold around 2024-2025 -- meets a market where the incumbents already sit in the workflow path and the founders explicitly priced their product at "Free to use. Forever" (enjamb.ai, May 2026). Rayan Mubarak's biomedical-ML publications out of the University of Florida College of Medicine are the strongest thing on the dossier, and the strongest thing on the dossier is a credential, not a shipped artifact. That high-catalyst / zero-velocity pairing is Enjamb Labs's signature, and it's a profile I have passed on more often than I have backed.
+
+**Anduril** (2022) is the load-bearing comparison on market re-opening, because both Enjamb Labs and Anduril are pitching a software layer on top of a regulated, procurement-heavy market that a recent step-function arguably re-opened -- Ukraine for defense, agentic LLMs for biopharma R&D per McKinsey's "agentic era" framing (2025). The analogy breaks where it always breaks: Trae Stephens and Palmer Luckey had shipped Palantir's forward-deployed muscle and Oculus respectively, and Anduril contracts were compounding visibly when I led that round at $4.6B post. Enjamb Labs gives me a $650K pre-seed from YC and Founders, Inc., a McKinsey blog post as the catalyst evidence, and a "trusted by leading institutions" line with zero named institutions. The catalyst is real; Enjamb Labs's claim on the catalyst's window is not.
+
+The Lyft Series C pass was about a #2 in a winner-take-all dynamic; Enjamb Labs's revenue-velocity profile fails for a different but equally legible reason -- "if you're an AI company and you're not seeing explosive growth quickly, something's fundamentally broken" (Tim Ferriss Show #863). Enjamb Labs has chosen to disclose zero. "Free to use. Forever" is not a growth disclosure, it is a refusal to compete on revelation. Harvey's $3B → $5B → $8B in months is what just-working looks like in this cycle (TechCrunch, Nov 2025); Enjamb Labs's dossier names 250M+ papers integrated, 136+ databases, 700+ journal templates, which are integration receipts, not buying behavior. In an AI cycle where every real Series A on this thesis is leading with logos and ARR, Enjamb Labs's silence is the signal.
+
+On founder shipping rhythm -- compounding mechanism over 18 months -- Rayan Mubarak's ResearchGate footprint is publication output, which compounds in citations, not in user-feedback loops, and Maadhav Deekshitha's RocketReach trail through Broadcom, Dell, and FIRST tells me what employers he had, not what he built. No GitHub repos surface for either founder. Compare to Aravind Srinivas pinging me on LinkedIn and showing up with the thing built a week later: that's the artifact pattern I underwrite, and Enjamb Labs's dossier offers no equivalent. Eighteen months of this team without shipped-artifact rhythm and the company will look like a research project that raised a YC check, not a workspace pharma ops teams open every morning.
+
+Counterfactual on index-like position: Enjamb Labs scores a tier higher if Medidata, Veeva, and Saama were absent from the workflow path Enjamb Labs claims. They are not. PharmaVoice (2025) already has Medable deploying AI agents in trials, and Veeva sits inside biopharma procurement and compliance the way Stripe sits inside e-commerce checkout. Enjamb Labs is not an index on biopharma R&D the way **Stripe** (2010) was an index on e-commerce -- Enjamb Labs is asking to be inserted into a workflow path that incumbents already own and are agentifying from inside the perimeter. The wave exists; Enjamb Labs is not the surfboard.
+
+Single-miracle test, applied directly: Enjamb Labs needs LLM accuracy on FDA-regulated drafting *and* 21 CFR Part 11 / GxP validation posture *and* enterprise displacement of Veeva/Medidata *and* a monetization transition off "Free to use. Forever." That is a four-miracle chain, and the dossier names a two-person team with no disclosed quality/compliance hire. **Color Genomics** (2015) is the closest precedent in my own portfolio for software-on-top-of-a-regulated-domain, and the override there was that I co-founded and operated it -- Enjamb Labs has neither that operator structure nor co-founders with comparable scale-shipping history.
+
+36-month forecast: Enjamb Labs pivots to a broader academic-research workspace (the literature/grants/manuscript positioning already on the website is the tell) at sub-$500K ARR, or gets an acqui-hire by a tier-2 eClinical vendor for sub-$15M to plug an agentic-AI gap that Medidata and Veeva built natively. The mechanism is incumbent substitution compounding faster than a two-person team can ship validated regulatory output, with the free-pricing posture removing the data Enjamb Labs would need to prove otherwise.
+
+The bull case that stings: this is the **Decagon** (2023) workflow-infrastructure-in-an-open-market pattern, biopharma R&D documents are a multi-billion-dollar CRO labor pool ripe for agent displacement per McKinsey, and CROs face a channel-conflict opening for an independent SaaS vendor that the dossier correctly identifies. Rayan Mubarak's biomedical-ML domain proximity is non-trivial for a regulated workflow. What dismantles it: Decagon shipped paid logos fast and disclosed them; Enjamb Labs's website says "Free to use. Forever" and lists no named biopharma customer. I flip to Invest the moment Enjamb Labs publishes a named biopharma sponsor on a paid pilot with disclosed dollar value within 90 days. Until that fact exists, Enjamb Labs is a McKinsey-thesis bet without the velocity that makes McKinsey-thesis bets pay.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Market Re-Opening Via Specific Recent Catalyst | 13/28 |
+| Revenue Velocity or Usage Curve Already Visible | 4/25 |
+| Founder Ships Iteratively Between Conversations | 8/20 |
+| Index-Like Distribution Position On A Compounding Category | 6/15 |
+| Single-Miracle Architecture Rather Than Multi-Miracle Dependency | 5/12 |
+| **Total** | **36/100** |
+
+**Total Score: 36/100** (Pass)

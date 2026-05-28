@@ -6,124 +6,81 @@
 |-------|-------|
 | Website | https://superlog.sh/ |
 | YC Page | https://www.ycombinator.com/companies/superlog |
-| Batch | Spring 2026 (YC company page) |
+| Batch | Spring 2026 (P26) |
 | Industry | B2B / B2B -> Engineering, Product and Design |
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
 | Tags | Artificial Intelligence, Developer Tools, Open Source, Monitoring, AI |
-| YC Partner | David Lieb (YC company page) |
+| YC Partner | David Lieb |
 | Emails | No public data found |
 
 ## The Idea
 
-**Problem:** Engineering teams using incumbent observability tools (Sentry, Datadog) receive duplicate, low-context alerts and must still diagnose and write fixes themselves (company description, YC page). The customer segment is software engineering teams running production services.
-
-**Approach:** Superlog runs a wizard that scans the customer's repository and installs OpenTelemetry instrumentation, then re-runs daily to keep instrumentation current as new code ships (YC company page). When errors occur, it groups them into a single incident, investigates with logs, traces, recent deploys, and past Slack threads, and posts a single mergeable PR via Slack that the user can merge, ignore, or open in a Claude Code session (YC page). The GitHub org `superloglabs/skills` ships eight onboarding "skills" for OpenTelemetry across Python, FastAPI, Next.js, LiveKit, Expo, and Supabase Edge, installable via `npx skills add superloglabs/skills` (GitHub repo, May 2026).
-
-**Differentiation:** Vendor-neutral telemetry (OpenTelemetry) is portable across backends per the YC description ("you keep every log, trace, and metric we install, even if you leave"). The fix-as-PR workflow is shared by Middleware's OpsAI (auto-PR on GitHub root cause), Sentry Seer, and Datadog Bits AI Dev Agent (Better Stack 2026 comparison; Dash0 2026 comparison). Superlog's stated wedge is the auto-installing instrumentation wizard plus daily re-scan, not the AI investigator alone.
-
-**Business Model:** No pricing page is publicly accessible — superlog.sh returned HTTP 403 to WebFetch (May 2026). [Inferred]: Likely consumption- or seat-based SaaS with a free open-source onboarding tier (the `superloglabs/skills` repo is public on GitHub), given category norms among observability peers.
-
-**TAM/SAM:** No public TAM/SAM data found for AI-native observability specifically. The broader observability market is referenced across multiple 2026 trade pieces but no numeric figure is sourced in the results gathered.
-
-**GTM / Distribution:** [Inferred]: Bottom-up developer adoption via the open-source GitHub skills repo (`superloglabs/skills`) and Slack-native incident UX, given the npx install path documented in the README and Slack-first incident workflow described on the YC page.
+- **Problem:** Engineering teams using Sentry/Datadog receive duplicated, low-context alerts and must still investigate and write fixes themselves (Superlog YC page, 2026).
+- **Approach:** A wizard scans the repo, installs OpenTelemetry instrumentation, re-runs daily as code ships, groups errors into incidents, investigates with full context (logs, traces, deploys, past Slack threads) and posts a single mergeable PR in Slack (Superlog YC page, 2026; HN Show HN #48195021).
+- **Differentiation:** Vs. Sentry/Datadog — no manual instrumentation and ships PR fixes, not just alerts (Superlog YC page, 2026); vs. SigNoz — adds AI investigation and PR generation on top of vendor-neutral OTel (HN Show HN #48195021, May 2026).
+- **Business Model:** Usage-based pricing on traces, logs, metrics, and "investigation credits"; founder clarified on HN that pricing is "only by usage," not per-repo (HN #48195021, May 2026).
+- **TAM/SAM:** APM market estimated at $14.30B in 2026 (Research and Markets) and broader observability tools market at $3.35B in 2026 (Mordor Intelligence); Datadog's TAM projected $58–62B by 2026 (sergeycyw.substack.com via search snippet).
+- **GTM / Distribution:** [Inferred]: Bottom-up developer adoption via open-source CLI/skills on GitHub (superloglabs org) and HN launch (73 points, May 2026), with Slack-native PR delivery as the wedge.
 
 ## Defensibility
 
-- **OpenTelemetry portability as anti-moat:** Vendor-neutral telemetry is explicitly marketed as a customer-friendly feature ("you keep every log, trace, and metric we install, even if you leave," YC page) — which lowers switching costs *for* the customer.
-- **Onboarding skills library:** Eight framework-specific onboarding skills published on GitHub (`superloglabs/skills`, May 2026). The repo has 1 star and 0 forks (GitHub, May 2026).
-- **Founder domain expertise:** CTO Arseniy Shishaev's prior role at Datadog (LinkedIn) is a proprietary-knowledge signal in this category.
-
-[Inferred]: Potential moat could develop via accumulated repo-fingerprint data (knowing which instrumentation patterns work for which codebase shapes) and via Slack workflow integration depth; both unproven at this stage.
-
-**Market structure:** No structural barrier identified at this stage. Datadog has already shipped Bits AI SRE with native code-fix suggestions via Bits AI Dev Agent (Better Stack 2026), and Sentry has shipped Seer (Better Stack, 2026), demonstrating incumbents can and do build adjacent capabilities. The OpenTelemetry-vendor-neutral positioning is a marketing wedge, not a structural one — incumbents support OTel ingest.
-
-**Commoditization risk:** The "AI investigates and posts a fix PR" pattern has at least four named competitors as of 2026 (Middleware OpsAI, Sentry Seer, Datadog Bits AI Dev Agent, IncidentFox) per Better Stack and Dash0 2026 comparisons. Auto-instrumentation wizards are also offered by various OTel auto-instrumentation vendors. The category is contested.
+- **Moat today:** Open-source CLI and "skills" repos (cli 6 stars, skills 6 stars on github.com/superloglabs, May 2026) plus framework-specific instrumentation skills (NextJS, FastAPI, React Native/Expo) per HN thread (#48195021).
+- **Future moat:** [Inferred]: Compounding training/eval data on which auto-generated fix PRs get merged vs. rejected could improve fix accuracy over time; unproven because product is weeks old with no disclosed dataset size.
+- **Market structure:** [Inferred]: Sentry and Datadog monetize alert/event volume and human-in-the-loop dashboards; auto-fixing PRs that reduce incident counts would cannibalize that volume-based revenue, creating a strategic disincentive to replicate fully.
+- **Commoditization risk:** OpenTelemetry auto-instrumentation is already shipped by Datadog, Dynatrace and SigNoz (signoz.io, 2026 search snippet); the AI-fix-PR layer is replicable by any vendor with Claude/GPT API access.
 
 ## Market & Traction
 
-**Traction signals:**
-- GitHub `superloglabs/skills`: 1 star, 0 forks, HTML 100% (GitHub, May 2026).
-- Twitter/X: handle `@superlogyc` exists (YC page); follower count not retrievable.
-- LinkedIn: company page `linkedin.com/company/superlogyc` exists (YC page); follower count not retrievable.
-- No Product Hunt launch found in search results.
-- No press coverage of "Superlog" found in search results (May 2026).
-- No funding announcement found beyond YC Spring 2026 batch participation.
-- No revenue, user, or paying-customer disclosures found.
-- YC page lists hiring as inactive (YC page; company_data field).
-
-**Competitive landscape:**
-- **Resolve AI** — $125M raise at $1B valuation from Lightspeed Venture Partners (Feb 2026, total funding past $150M, per Better Stack 2026 / search snippet). Multi-agent AI SRE founded by OpenTelemetry co-creators Spiros Xanthos and Mayank Agarwal. Differentiator vs. Superlog: OTel-creator team and 100x funding scale.
-- **Middleware (OpsAI)** — funding amount not in retrieved sources. Full-stack APM/RUM/Kubernetes with auto-PR fix and Kubernetes auto-apply (Dash0, 2026 via search snippet). Differentiator: broader stack coverage including K8s auto-remediation.
-- **IncidentFox** — YC W26-backed, prior batch peer. Slack-native AI SRE with 300+ built-in tools, Apache 2.0 open core (Better Stack 2026; YC company page). Differentiator: open-source self-hosting; Slack-only.
-- **Sentry Seer** — Sentry's AI-powered incident investigation feature (Better Stack 2026 via search snippet). Differentiator: native to incumbent error-tracking platform with installed user base.
-- **Datadog Bits AI SRE / Dev Agent** — incumbent autonomous SRE agent with native access to Datadog's full telemetry dataset, suggests code fixes (Better Stack 2026 via search snippet). Differentiator: cross-signal corpus and existing enterprise distribution.
-
-**Why now:** [Inferred]: Coding-agent maturity in 2025–2026 (Claude Code referenced directly in Superlog's product description as an integration target) made auto-PR fixes practical. OpenTelemetry adoption reached "evolving standards" status for AI agent observability per OpenTelemetry blog (2025) — enabling vendor-neutral instrumentation as a differentiator. The Resolve AI $125M/$1B round (Feb 2026, search snippet) signals tier-1 VC validation of the AI-SRE category timing.
+- **Traction signals:**
+  - Show HN launch: 73 points, 49 comments, ~May 2026 (news.ycombinator.com/item?id=48195021).
+  - Twitter @superlogYC: 270 followers, joined April 2026, 0 posts at time of crawl (x.com/superlogYC via search snippet).
+  - GitHub org superloglabs: 11 followers, top repos cli (6★/3 forks), skills (6★/3 forks), agent (1★) (github.com/superloglabs, May 2026).
+  - Customer testimonial: "Top clients accept 80–90% of PRs," some requesting auto-merge (founder comment, HN #48195021, May 2026).
+  - LinkedIn post from YC: "Superlog (YC P26) is the observability tool you're not opening" (linkedin.com/y-combinator activity 7460018473205706752, 2026).
+- **Competitors:**
+  - Datadog (NASDAQ: DDOG, public, multi-$B ARR): incumbent full-stack observability with native OTel auto-instrumentation (signoz.io comparison, 2026).
+  - Sentry (raised >$200M, revenue undisclosed): error-tracking incumbent; Superlog explicitly positions against Sentry's alert-dump model (Superlog YC page, 2026).
+  - SigNoz (raised ~$7M total, $6.5M led by SignalFire Sep 2023, ARR undisclosed): OSS OpenTelemetry-native observability without AI fix-PRs (techcrunch.com, 2023).
+  - Dynatrace (NYSE: DT, public): OneAgent auto-instrumentation plus "Davis" AI for anomaly detection (signoz.io comparison, 2026).
+  - New Relic (taken private 2023, $6.5B deal, revenue undisclosed): APM incumbent with embedded error tracking (signoz.io comparison, 2026).
+- **Why now:** [Inferred]: Frontier coding models (Claude, GPT-class) crossed the threshold in 2024–2025 where autonomous code-fix PRs achieve usable accept rates, enabling fix-PR-as-a-product as a category distinct from alerting.
 
 ## Founders & Team
 
-**Nicolò Magnante** — Co-founder & CEO
-- Education: Master in Management, Digital Innovation & Acceleration, HEC Paris (HEC Paris alumni page).
-- Previously: Co-founder & CEO of **Bluco** (AI hiring tools, 2024, Station F-incubated; X post by @joinstationf and Crunchbase). Earlier roles at Ovrsea, BCG (BrightHouse Milan launch), Bain & Company, Accenture (HEC Paris page; LinkedIn).
-- LinkedIn: linkedin.com/in/nicolò-magnante — headline "Swish | Ex BCG | Ex Bluco" (LinkedIn search result).
-- Twitter/X: No public account found in searches.
-- GitHub: No public profile found in searches.
-
-**Arseniy Shishaev** — Co-founder & CTO
-- Education: Bac+5 Software Engineering, École 42 (2019–2022) (LinkedIn search snippet).
-- Previously: CTO at **Bluco** with Magnante; earlier engineer at **Datadog** (LinkedIn search snippet); also linked to **Swish** as Co-Founder & CTO (LinkedIn, RocketReach, Oct 2025 LinkedIn post "Swish: Meet the post-signup GTM agent").
-- Personal site: arseniy.wtf (search result).
-- LinkedIn: linkedin.com/in/arseniy-shishaev (LinkedIn).
-- Twitter/X: No public handle surfaced in searches.
-- GitHub: No personal handle confirmed; org `superloglabs` exists on GitHub (1 star on `skills` repo).
-
-**Prior-product context (pivot):** Bluco (AI recruitment, 2024, Station F, third co-founder Francisco Shirazi) preceded a venture branded **Swish** ("post-signup GTM agent," LinkedIn posts dated Oct 2025), which preceded Superlog. A Nov 2025 LinkedIn post by Magnante stated "we're building something new… Arseniy and I decided it's time" (LinkedIn, post 7403716228885790721). Bluco/Swish metrics (users, revenue) — no public data found and not transferable to Superlog.
-
-**Co-founder relationship:** Magnante and Shishaev co-founded Bluco together (Station F X post, Jan 2025) and continued through Swish into Superlog — multi-year co-founder history confirmed via LinkedIn and Crunchbase.
-
-**Founder-market fit:** Shishaev's prior tenure at Datadog (LinkedIn search snippet) gives direct incumbent-observability engineering exposure relevant to building an OpenTelemetry-based competitor. Magnante's BCG/Bain consulting background plus prior CEO seat at Bluco supplies the commercial role. No notable advisors or investors named beyond YC (Spring 2026, David Lieb partner).
+- **Nicolò Magnante (CEO):**
+  - Background: HEC Paris alumnus (hec.edu); began career at Bain & Company, then BCG Milan (BrightHouse division), then Ovrsea (Parisian scale-up); co-founder & CEO of Bluco, an AI hiring startup with clients including McDonald's, Volkswagen, Dufry (linkedin.com/in/nicolò-magnante; crunchbase.com/person/nicolò-magnante); math olympiad winner (YC page).
+  - Twitter/X: handle not surfaced in search; count not retrievable.
+  - LinkedIn: "Swish | Ex BCG | Ex Bluco" (linkedin.com/in/nicolò-magnante).
+  - GitHub: No public repos found.
+- **Arseniy Shishaev (CTO):**
+  - Background: CS degree École 42 Paris '22; built data pipelines/historical-metrics tooling at Datadog (linkedin.com/in/arseniy-shishaev); co-founder & CTO Bluco (top 40 SF F40 France 2025) (x.com/joinstationf/status/1884295079428542533).
+  - Twitter/X: @arseniycodes (x.com/arseniycodes, follower count not retrievable).
+  - LinkedIn: "Prev. CTO @ Bluco (SF F40), Datadog" (linkedin.com/in/arseniy-shishaev).
+  - GitHub: @dd-ashishaev (github.com/dd-ashishaev); top public repo star count not retrievable in search snippet; personal site arseniy.wtf.
+- **Co-founder relationship:** Previously co-founded Bluco together in 2024–2025, an AI hiring startup that reached STATION F's top 40 France ranking in 2025 (x.com/joinstationf/status/1884295079428542533).
+- **Founder-market fit:** CTO has direct Datadog engineering experience building telemetry data pipelines (linkedin.com/in/arseniy-shishaev) and CEO has prior B2B enterprise sales record (McDonald's, Volkswagen, Dufry at Bluco per linkedin/in/nicolò-magnante).
 
 ## Key Risks
 
-**Crowded AI-SRE category with funded incumbents:** Resolve AI raised $125M at $1B valuation in Feb 2026 (Better Stack 2026 / search snippet); Datadog and Sentry have shipped overlapping native features (Bits AI SRE, Seer per Better Stack 2026). Superlog must differentiate in a market where the autonomous-fix-PR workflow is no longer novel.
-
-**Incumbent platform substitution:** Datadog's Bits AI SRE has native access to Datadog's full observability dataset (Better Stack 2026 via search snippet). Customers already on Datadog/Sentry can adopt the incumbent feature without changing vendors, creating direct substitution risk.
-
-**Two prior products in 18 months:** Bluco (AI recruiting, 2024 per Station F X post) → Swish (post-signup GTM agent, Oct 2025 LinkedIn) → Superlog (Spring 2026 YC). Two pivots within ~18 months across unrelated categories (recruiting → GTM → observability). [Inferred]: raises ICP/durability questions; conviction in current thesis is unproven.
-
-**Vendor-neutrality undermines lock-in:** The marketed "you keep every log… even if you leave" (YC page) makes churn frictionless by design — a sales asset that simultaneously weakens retention defensibility.
-
-**Auto-PR correctness risk:** [Inferred]: An autonomous fix posted to Slack must clear a high correctness bar to gain merge trust at production engineering teams. No public benchmark data found on Superlog's PR accept rate.
+- **Incumbent commoditization:** Datadog, Dynatrace and New Relic already ship native OTel auto-instrumentation (signoz.io comparison, 2026) and could bolt on Claude-powered fix-PR features within a quarter; no patented mechanism disclosed. Mitigation: vendor-neutral telemetry stance lets users keep data even if they leave (Superlog YC page).
+- **Fix-PR accuracy risk:** Core value depends on AI-generated PRs being mergeable; only anecdotal "80–90% accept" claim from founder on HN (#48195021, May 2026), no third-party benchmark, no disclosed evaluation dataset.
+- **Telemetry cost/control liability:** Auto-instrumentation that runs daily can produce unbounded log/trace volume; HN commenters and pricing model both reference usage-based billing on traces/logs/metrics (HN #48195021), creating customer-bill-shock and trust risk if the wizard over-instruments.
+- **Distribution dependency on Slack + GitHub:** PR delivery flow assumes Slack + GitHub plus repo write access; no enterprise GitLab/Bitbucket/Azure DevOps support mentioned in launch materials (HN #48195021, Superlog YC page).
+- **Operational fragility at launch:** Site went down during the Show HN launch due to a Railway/Google Cloud outage (HN #48195021, May 2026), indicating reliance on a single PaaS for a product that markets itself as fixing reliability problems.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | No public data found |
+| TAM | APM $14.30B in 2026 (Research and Markets); observability tools $3.35B in 2026 (Mordor Intelligence); Datadog TAM $58–62B by 2026 (sergeycyw.substack.com) |
 | SAM | No public data found |
-| Traction | GitHub `superloglabs/skills` 1 star, 0 forks (GitHub, May 2026); Twitter/X @superlogyc and LinkedIn /company/superlogyc exist (YC page, follower counts not retrievable); no press, Product Hunt launch, or revenue disclosure found |
-| Revenue Signal | No public data found (superlog.sh returned HTTP 403 to fetch, May 2026; no pricing page accessible) |
-| Founders | Nicolò Magnante (CEO): HEC Paris MiM, ex-BCG, ex-Bain, ex-Bluco CEO. Arseniy Shishaev (CTO): École 42, ex-Datadog engineer, ex-Bluco CTO. |
-| Competitors | Resolve AI ($125M raised at $1B valuation Feb 2026 Lightspeed, ARR unknown — OTel-creator team, Better Stack 2026 via search snippet); Middleware (funding unknown, ARR unknown — full-stack incl. K8s auto-fix, Dash0 2026 via search snippet); IncidentFox YC W26 (funding unknown, ARR unknown — Apache 2.0 OSS Slack-native, Better Stack 2026); Sentry Seer (Sentry feature, Better Stack 2026 via search snippet); Datadog Bits AI SRE (Datadog feature, Better Stack 2026 via search snippet) |
-| Moat Signals | OpenTelemetry-native auto-instrumentation wizard + 8 framework skills published OSS (GitHub, May 2026); CTO ex-Datadog (LinkedIn) |
-| Risk Factors | Crowded AI-SRE category with $125M-funded competitor (Resolve AI, Feb 2026); incumbent substitution (Datadog Bits, Sentry Seer); two pivots in 18 months (Bluco → Swish → Superlog) |
-| Founder Reach | Magnante: Twitter not found, LinkedIn /in/nicolò-magnante (count not retrievable), GitHub not found. Shishaev: Twitter not found, LinkedIn /in/arseniy-shishaev (count not retrievable), GitHub `superloglabs` org 1 star (May 2026) |
-| Distribution Signals | GitHub OSS `superloglabs/skills` with 8 npx-installable framework skills (May 2026); no Product Hunt, no press, no Discord/Slack community size found |
+| Traction | Show HN 73 points / 49 comments May 2026 (news.ycombinator.com/item?id=48195021); Twitter @superlogYC 270 followers (x.com/superlogYC, Apr 2026 join); GitHub superloglabs 11 followers, top repo 6★ (github.com/superloglabs, May 2026); customer testimonial "80–90% PR accept rate" (HN #48195021) |
+| Revenue Signal | Usage-based pricing on traces, logs, metrics, and investigation credits; not per-repo (founder comment, HN #48195021, May 2026); no ARR disclosed |
+| Founders | Nicolò Magnante (CEO): HEC Paris, ex-BCG/Bain/Ovrsea, ex-Bluco CEO. Arseniy Shishaev (CTO): École 42 Paris '22, ex-Datadog data systems, ex-Bluco CTO |
+| Competitors | Datadog (public, multi-$B ARR, native OTel auto-instrumentation); Sentry ($200M+ raised, ARR n/a, error-tracking incumbent); SigNoz ($7M total, $6.5M Seed-II SignalFire Sep 2023, OSS OTel without AI fix-PRs); Dynatrace (public, OneAgent + Davis AI); New Relic (private post-$6.5B 2023, APM incumbent) |
+| Moat Signals | Open-source CLI (6★) and skills repos (6★) at github.com/superloglabs (May 2026); framework-specific instrumentation skills for NextJS/FastAPI/React Native (HN #48195021) |
+| Risk Factors | Incumbent commoditization (Datadog/Dynatrace already auto-instrument), unverified fix-PR accuracy, usage-based-billing bill-shock |
+| Founder Reach | Nicolò Magnante: Twitter not found, LinkedIn present (count not retrievable), GitHub not found. Arseniy Shishaev: Twitter @arseniycodes (count not retrievable), LinkedIn present (count not retrievable), GitHub @dd-ashishaev (star count not retrievable) |
+| Distribution Signals | Show HN 73 points May 2026 (news.ycombinator.com/item?id=48195021); YC LinkedIn promo post (linkedin.com activity 7460018473205706752, 2026); GitHub org superloglabs 11 followers May 2026; no Product Hunt launch found |
 | Emails | No public data found |
-
-Sources:
-- [Superlog YC company page](https://www.ycombinator.com/companies/superlog)
-- [superloglabs/skills GitHub](https://github.com/superloglabs/skills)
-- [Nicolò Magnante LinkedIn](https://www.linkedin.com/in/nicol%C3%B2-magnante/)
-- [Nicolò Magnante Crunchbase](https://www.crunchbase.com/person/nicol%C3%B2-magnante)
-- [Nicolò Magnante HEC Paris profile](https://www.hec.edu/en/innovation-entrepreneurship-institute/stories/nicolo-magnante)
-- [Arseniy Shishaev LinkedIn](https://www.linkedin.com/in/arseniy-shishaev/)
-- [Arseniy Shishaev personal site](https://arseniy.wtf/)
-- [Station F X post on Bluco co-founders](https://x.com/joinstationf/status/1884295079428542533)
-- [Magnante LinkedIn pivot post](https://www.linkedin.com/posts/nicol%C3%B2-magnante_were-building-something-new-everything-activity-7403716228885790721-vV-9)
-- [Better Stack — IncidentFox alternatives 2026](https://betterstack.com/community/comparisons/incidentfox-alternatives/)
-- [Better Stack — Sentry Seer alternatives 2026](https://betterstack.com/community/comparisons/sentry-seer-alternatives/)
-- [Dash0 — Top AI-Powered Observability Tools 2026](https://www.dash0.com/comparisons/ai-powered-observability-tools)
-- [IncidentFox YC page](https://www.ycombinator.com/companies/brownie)
-- [OpenTelemetry blog — AI agent observability 2025](https://opentelemetry.io/blog/2025/ai-agent-observability/)

@@ -9,68 +9,38 @@
     "industry": "Consumer / Consumer -> Gaming",
     "team_size": "9",
     "location": "San Francisco, CA, USA",
-    "tags": "Artificial Intelligence, B2B, Gaming",
-    "yc_partner": "Nicolas Dessaigne",
+    "tags": "Consumer, Gaming, AI",
+    "yc_partner": "Nicolas Dessaigne (YC company page)",
     "emails": "No public data found"
   },
   "tags": [
-    "Artificial Intelligence",
-    "B2B",
-    "Gaming"
+    "Consumer",
+    "Gaming",
+    "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-22T23:25:11.820Z",
+  "memoGeneratedAt": "2026-05-28T02:30:37.621Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 59,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 54,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 48,
+      "score": 55,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 38,
-    "EG": 40,
-    "NR": 59,
-    "PG": 54,
-    "PT": 37,
-    "SL": 35,
-    "VK": 48
+    "CB": 55,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 44.43,
-  "consolidatedRank": 45,
+  "consolidatedAvg": 55,
+  "consolidatedRank": 29,
   "paths": {
     "memo": "spring2026/memos/playablai.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/playablai.md",
-      "elad-gil": "spring2026/evals/elad-gil/playablai.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/playablai.md",
-      "paul-graham": "spring2026/evals/paul-graham/playablai.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/playablai.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/playablai.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/playablai.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/playablai.md"
     }
   }
 }

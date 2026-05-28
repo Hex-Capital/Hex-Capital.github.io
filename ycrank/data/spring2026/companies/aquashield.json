@@ -5,71 +5,46 @@
   "metadata": {
     "website": "https://aquashieldai.com",
     "yc_page": "https://www.ycombinator.com/companies/aquashield",
-    "batch": "Spring 2026 (YC page)",
+    "batch": "Spring 2026 (YC P26)",
     "industry": "Real Estate and Construction / Real Estate and Construction",
     "team_size": "3",
     "location": "San Francisco, CA, USA",
     "tags": "Real Estate, B2B",
-    "yc_partner": "Nicolas Dessaigne (YC page)",
-    "emails": "founders@aquashieldai.com (aquashieldai.com)"
+    "yc_partner": "Nicolas Dessaigne (YC company page)",
+    "emails": "founders@aquashieldai.com (company website)"
   },
   "tags": [
     "Real Estate",
     "B2B"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-05-17T21:57:09.386Z",
+  "memoGeneratedAt": "2026-05-28T02:41:34.746Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 50,
+      "score": 46,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
       "score": 33,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 27,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 36,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 50,
-    "EG": 37,
-    "NR": 39,
-    "PG": 51,
-    "PT": 33,
-    "SL": 27,
-    "VK": 36
+    "CB": 46,
+    "EG": 33,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 39,
-  "consolidatedRank": 108,
+  "consolidatedAvg": 39.5,
+  "consolidatedRank": 128,
   "paths": {
     "memo": "spring2026/memos/aquashield.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/aquashield.md",
-      "elad-gil": "spring2026/evals/elad-gil/aquashield.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/aquashield.md",
-      "paul-graham": "spring2026/evals/paul-graham/aquashield.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/aquashield.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/aquashield.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/aquashield.md"
+      "elad-gil": "spring2026/evals/elad-gil/aquashield.md"
     }
   }
 }

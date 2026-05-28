@@ -5,70 +5,40 @@
   "metadata": {
     "website": "https://heyclicky.com/",
     "yc_page": "https://www.ycombinator.com/companies/heyclicky",
-    "batch": "Spring 2026",
+    "batch": "Spring 2026 (YC page)",
     "industry": "Consumer / Consumer",
-    "team_size": "0 (per YC page)",
+    "team_size": "0 (YC page lists team size unspecified; sole founder Farza Majeed identified via Twitter/GitHub)",
     "location": "San Francisco, CA, USA",
     "tags": "Education",
-    "yc_partner": "Aaron Epstein",
+    "yc_partner": "Aaron Epstein (YC page)",
     "emails": "No public data found"
   },
   "tags": [
     "Education"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-05-15T05:40:27.616Z",
+  "memoGeneratedAt": "2026-05-28T02:30:07.115Z",
   "evalScores": {
     "cyan-banister": {
       "score": 57,
       "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 61,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 26,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 28,
-      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 57,
-    "EG": 44,
-    "NR": 61,
-    "PG": 53,
-    "PT": 26,
-    "SL": 41,
-    "VK": 28
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 44.29,
-  "consolidatedRank": 47,
+  "consolidatedAvg": 57,
+  "consolidatedRank": 17,
   "paths": {
     "memo": "spring2026/memos/heyclicky.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/heyclicky.md",
-      "elad-gil": "spring2026/evals/elad-gil/heyclicky.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/heyclicky.md",
-      "paul-graham": "spring2026/evals/paul-graham/heyclicky.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/heyclicky.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/heyclicky.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/heyclicky.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/heyclicky.md"
     }
   }
 }

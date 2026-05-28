@@ -3,15 +3,15 @@
   "name": "Arzana",
   "oneLiner": "AI automation for the manufacturing office",
   "metadata": {
-    "website": "https://arzana.ai",
+    "website": "https://www.arzana.com/",
     "yc_page": "https://www.ycombinator.com/companies/arzana",
-    "batch": "Spring 2026",
+    "batch": "Spring 2026 (P26)",
     "industry": "B2B / B2B -> Operations",
     "team_size": "5",
     "location": "San Francisco, CA, USA",
     "tags": "Manufacturing, Automation, Operations, AI, Industrial",
     "yc_partner": "Tom Blomfield",
-    "emails": "william@arzana.com, marshall@arzana.com, careers@arzana.com"
+    "emails": "william@arzana.com, marshall@arzana.com (YC page)"
   },
   "tags": [
     "Manufacturing",
@@ -21,58 +21,33 @@
     "Industrial"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-22T23:28:15.007Z",
+  "memoGeneratedAt": "2026-05-28T02:37:07.331Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 55,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 57,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 55,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 73,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
       "score": 44,
       "tier": "Pass"
     },
-    "vinod-khosla": {
-      "score": 46,
-      "tier": "Neutral"
+    "elad-gil": {
+      "score": 44,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 55,
-    "EG": 57,
-    "NR": 55,
-    "PG": 73,
-    "PT": 42,
-    "SL": 44,
-    "VK": 46
+    "CB": 44,
+    "EG": 44,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 53.14,
-  "consolidatedRank": 12,
+  "consolidatedAvg": 44,
+  "consolidatedRank": 86,
   "paths": {
     "memo": "spring2026/memos/arzana.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/arzana.md",
-      "elad-gil": "spring2026/evals/elad-gil/arzana.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/arzana.md",
-      "paul-graham": "spring2026/evals/paul-graham/arzana.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/arzana.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/arzana.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/arzana.md"
+      "elad-gil": "spring2026/evals/elad-gil/arzana.md"
     }
   }
 }

@@ -1,0 +1,30 @@
+﻿# Gravy -- Cyan Banister Evaluation
+
+Gravy is a tactile pre-seed artifact strapped to a founder pair with no documented biography in the problem -- a Mac app you can actually download from gravy.finance today, built by Ali Tabba (University of Warwick, prior "Stealth Startup") and Max Church (no public profile surfaced) whose dossiers contain not one sentence about why personal finance is *their* problem. That high/low pairing -- you can install it, but I cannot tell you why these two specifically had to build it -- is Gravy's analytical signature, and it is the wrong pairing for the kind of check I write.
+
+Flock Safety is the rung I reach for on physical-world verifiability, because the entire investment originated from reading the founder's Wi-Fi network name at a Four Seasons cafe -- the product was already in the room before the deck was. Gravy clears the first half of that test: a live Mac download (Windows on waitlist) with "3 connected accounts and 3 automations" visible in the demo means a normal human can install Gravy this afternoon and run it against their own Chase and Amex feeds. Where Gravy diverges from Flock is that the artifact is an Electron-class desktop shell wrapping Plaid plus an OpenAI key the user provides themselves -- I can touch Gravy, but I cannot touch a moat, because the dossier itself notes a solo developer could wire the same stack from commodity APIs.
+
+The pass-example AI darling -- two ex-FAANG PMs, Stanford CS, $200B TAM slide, found the problem in a memo -- is the failure mechanism I screen for hardest, and Gravy's founder section reads disturbingly close. Ali Tabba's LinkedIn says "Founder (YC P26)" and before that "Stealth Startup." That is the entire public record. Max Church does not surface at all. Neither founder is documented as having worked at Plaid, at a neobank, at a tax shop, or as having lived the immigrant-fragmented-accounts moment that makes Monarch or Copilot feel personal. I do not need a Palmer Luckey garage story for every check, but in a category where Cleo is at Series C and Monarch has raised $95.5M, the autobiographical edge is the *only* edge available to a 2-person team, and Gravy's dossier offers no such edge.
+
+On magically weird, the mechanism that matters over 18 months is whether the aesthetic transgression deepens or evaporates -- Crusoe's flare-burning got *weirder* before it became Stargate. Gravy's local-first BYO-LLM-key posture is mildly contrarian against the cloud-SaaS PFM stack, but it compounds backwards: every quarter that Monarch ships an on-device option or that Anthropic ships a hosted agent runtime, Gravy's differentiation collapses toward zero. The BYO-OpenAI-key onboarding step the dossier flags as friction is not "magically weird" -- it is the kind of weird that mainstream PFM users actively reject, which is the worst of both worlds.
+
+On single CEO, the counterfactual is straightforward: with Tabba labeled CEO and Church labeled CTO, Gravy is past the HQ Trivia / GameCrush trap on titles alone. To flip this dimension up a tier, I would need to see one of two things in diligence -- a documented founder-vesting and exit-conflict protocol, or evidence that Tabba and Church have shipped something hard together before. Neither is in the dossier. Clear titles are necessary; they are not sufficient when the partnership has no operating history I can verify.
+
+On capital intensity and unsexy-regulated swing, Vigil Labs is the single anchor that matters -- a regulated-finance bet where the moat compounds inside a domain other investors won't enter. Gravy gestures at this terrain (the dossier flags GLBA exposure once Gravy intermediates Plaid OAuth tokens, plus credentials stored locally) but does not lean into it. There is no SOC2, no privacy policy, no published compliance posture. Gravy is sitting on a regulated surface without claiming the regulatory moat -- the worst posture, because it inherits the burden without the defensibility.
+
+My 36-month forecast: Gravy is either dead or quietly acqui-hired into Monarch, Copilot, or Rocket Money for sub-$10M, with revenue never crossing $500K ARR, because the BYO-LLM-key onboarding wall converts at single-digit percent against an audience that already pays $10.99/month for a hosted experience that Just Works. The mechanism is the consumer-PFM funnel: every step of friction halves conversion, and asking for an OpenAI key is two or three halvings stacked.
+
+The bull case worth taking seriously is the HQ Trivia precedent -- tactile virality overrode my co-founder-governance heuristic because I could literally feel the pull. Could Gravy's Mac-first, local-first stance, in a moment of consumer AI privacy backlash, become a thing power-users evangelize the way Ingress players evangelized to me before Niantic? It could. But HQ Trivia had millions of nightly players, not "3 connected accounts and 3 automations" in a demo, and the friction direction is inverted -- HQ Trivia removed friction; Gravy adds an API key step. The dossier shows no Twitter handle for Gravy, no Product Hunt launch, no waitlist number. There is no virality signal yet, only an installable binary. The verifiable condition that flips my verdict: 10,000 Mac downloads with documented week-eight retention above 30%, OR Tabba's biography surfacing a specific autobiographical moment of personal-finance pain -- an immigrant family with seven cross-border accounts, a bankruptcy he watched up close. Until one of those arrives, Gravy is the consensus-shaped, pedigree-thin, software-only deck I pass on.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Surfaced From Lived Experience, Not Market Analysis | 8/32 |
+| Magically Weird, Non-Consensus, Round Likely Underpriced | 9/24 |
+| Single Unambiguous CEO With Identifiable Tiebreaker Authority | 9/16 |
+| Capital-Intensive, Frontier-Hardware or Unsexy-Regulated Swing | 4/15 |
+| Physical-World Verifiability: You Can Touch, Use, Or Observe The Product | 7/13 |
+| **Total** | **37/100** |
+
+**Total Score: 37/100** (Pass)

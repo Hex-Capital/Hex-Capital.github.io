@@ -1,6 +1,6 @@
 ﻿# Light Anchor
 
-> Autonomous e-commerce
+> AI-run consumer brands
 
 | Field | Value |
 |-------|-------|
@@ -10,119 +10,96 @@
 | Industry | Consumer / Consumer |
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
-| Tags | E-commerce, AI |
-| YC Partner | Harj Taggar (YC company page) |
-| Emails | No public data found (only booking link cal.com/team/light-anchor on website) |
+| Tags | Artificial Intelligence, E-commerce |
+| YC Partner | Harj Taggar |
+| Emails | founders@lightanchor.ai |
 
 ## The Idea
 
-**Problem:** Consumer brands have been bottlenecked by human operating capacity — marketing, sourcing, ops, and support require headcount that scales linearly with brand count (Light Anchor website). The thesis: each new brand adds personnel cost and slows iteration.
-
-**Approach:** Light Anchor owns and operates its own consumer brands on Shopify, where each brand is run by a stack of agents — a CEO agent (weekly priorities, budget), a GM agent (P&L, merchandising, sourcing, support), and a Marketing agent (creative, acquisition, content) (Light Anchor website; YC company page). 4 active brands disclosed: Slow Haste (K-beauty subscription), The Half Life (lifestyle supplements), The Stoic Supply (stoic apparel), Meme Tees (custom meme apparel) (Light Anchor website).
-
-**Differentiation:** Unlike AI-for-merchants tools (Gorgias, Zowie, Alhena, Triple Whale via search snippet) that sell agents into existing brands, Light Anchor itself is the brand owner — agents run *Light Anchor's own* P&Ls (Light Anchor website). Genstore raised $10M seed in Sept 2025 to let merchants spin up AI-run stores via prompt (GlobeNewswire, Sept 2025); Light Anchor instead operates a holdco of agent-run brands, with cross-brand data feeding subsequent launches (Light Anchor website).
-
-**Business Model:** [Inferred]: Direct consumer revenue from owned brands sold via Shopify, not SaaS pricing — no pricing page exists because customers buy products, not the platform. Disclosed brand activity-log metrics (Light Anchor website): Slow Haste $380.81 ad spend, 6 purchases; Stoic Supply "revenue up 149% week over week" (no absolute revenue figure); Meme Tees 18 active campaigns, $656 spent. No company-level revenue disclosed.
-
-**TAM/SAM:** McKinsey projects agentic commerce as a multi-trillion-dollar opportunity reshaping retail (McKinsey, 2025 via search snippet). One source cites US agentic-commerce projection of $1T by 2030, global $3-5T (search snippet, source not specifically named). No TAM figure for "AI-operated owned-brand holdcos" specifically found.
-
-**GTM / Distribution:** [Inferred]: Performance marketing on Meta (referenced in website's shared tooling) + Shopify storefronts for each owned brand; growth comes from launching more brands, not customer acquisition for a SaaS. Cross-brand creative and operating data is reused per the website.
+- **Problem:** Consumer brand operators are bottlenecked by human headcount across marketing, sourcing, ops, and support, with scaling capped by "hiring, coordinating, and sleeping" (lightanchor.ai, 2026).
+- **Approach:** Deploy specialized AI agents (CEO, GM, marketing, engineering functions) that run end-to-end Shopify brand operations 24/7, with each brand having "individual memory, policies, and decisions" while sharing tooling for Meta ads, creative generation, inventory, and consumer-behavior simulation (lightanchor.ai, 2026).
+- **Differentiation:** Versus DTC agent-software vendors (Alhena AI, Cotera, StoreClaw, Envive, Gorgias) that sell tools to existing brands, Light Anchor instead OWNS and operates the brands itself, capturing brand-level margin rather than SaaS fees (alhena.ai, swell.is, 2026).
+- **Business Model:** [Inferred]: Direct-to-consumer subscription and one-time-sale revenue from operated brands (e.g., Seoul Dispatch K-beauty subscription with "Full Care Box" and "Mask Box" tiers — seouldispatch.com, 2026); no SaaS pricing page on lightanchor.ai (WebFetch, 2026).
+- **TAM/SAM:** No public TAM/SAM data found for this specific segment (AI-operated brand portfolios); Shopify reported AI-driven orders increased 15-fold in 2025 (TechCrunch, Mar 2026).
+- **GTM / Distribution:** [Inferred]: Performance marketing via Meta ads (explicitly cited as shared tooling on lightanchor.ai) plus Shopify storefronts for each brand; agentic storefront channels (ChatGPT, Microsoft Copilot, Google AI mode) now available to Shopify merchants (TechCrunch, Mar 2026).
 
 ## Defensibility
 
-**Compounding operating data:** The company states each brand "feeds the platform with new operating data, so the next brand we launch starts smarter than the last" (Light Anchor website / YC page). [Inferred]: This is the claimed moat — proprietary multi-brand operating dataset (creatives, supplier outcomes, conversion patterns) that single-brand operators cannot accumulate.
-
-**Market structure:** [Inferred]: Incumbent e-commerce SaaS (Shopify, Klaviyo, Gorgias) sells tools to brand operators — selling against their own customers by becoming a brand operator would create channel conflict. Foundation model labs (OpenAI, Anthropic) are unlikely to operate consumer P&Ls. No structural barrier protects against another well-funded brand-holdco entrant (e.g., Genstore, agentic-commerce roll-ups).
-
-**Commoditization risk:** [Inferred]: The agent stack itself (CEO/GM/Marketing agents on Shopify) is replicable by any team with LLM API access and Shopify integration knowledge; barrier is operational excellence and brand portfolio P&L performance, not core tech.
+- **Moat today:** [Inferred]: A "shared platform that compounds with every new brand launched" (YC company description, 2026) suggests cross-brand data and tooling reuse, but no proprietary IP, network effects, or switching costs are publicly documented.
+- **Future moat:** [Inferred]: If the platform achieves materially lower brand-launch cost than human-operated DTC, cumulative experiment data across brands (consumer-behavior simulation cited on lightanchor.ai) could yield a data advantage; unproven because only 5 brands across 4 verticals operate today (lightanchor.ai, 2026).
+- **Market structure:** [Inferred]: Established brand holding companies (e.g., Pattern, Thrasio) have human-heavy ops models whose unit economics depend on existing headcount and acquisition playbooks, creating cannibalization friction for adopting an agent-first stack.
+- **Commoditization risk:** Foundation-model access plus Shopify APIs and Meta ad APIs are commodity inputs, and competing agent platforms (Alhena AI, Cotera, StoreClaw, Envive) already automate adjacent DTC functions (alhena.ai, 2026); replication risk by well-funded operators is material.
 
 ## Market & Traction
 
-**Traction signals (current product, all from Light Anchor website unless noted):**
-- 4 active owned brands on Shopify (Slow Haste, The Half Life, The Stoic Supply, Meme Tees)
-- Slow Haste: $380.81 spent, 6 purchases (activity log)
-- Stoic Supply: "revenue up 149% week over week" (activity log; no absolute figures)
-- Meme Tees: 18 active campaigns, $656 spent
-- YC Spring 2026 (P26) batch (YC company page)
-- Twitter/X: @lightanchor_ai handle exists (YC page); follower count not retrievable
-- LinkedIn: Light Anchor company page exists (YC page); follower count not retrievable
-- Press coverage: No public data found (no TechCrunch, no funding announcements located)
-- Product Hunt: No public data found
-- Discord/Slack community: No public data found
-- Job postings: Hiring=False per YC profile
-- Email list / waitlist: No public data found
-
-**Competitive landscape:**
-- **Genstore** ($10M seed, Sept 2025, led by Weimob with Lighthouse Founders' Fund; revenue unknown) (GlobeNewswire/Yahoo Finance, Sept 2025) — sells AI-store-builder to merchants; different model (tooling vs. owned brands). Named #1 Product of the Day on Product Hunt (search snippet).
-- **Gorgias** (funding/ARR unknown from this research) — AI agent for Shopify merchants handling support, returns, subscriptions (Triple Whale blog via search snippet); tooling to merchants, not brand operator.
-- **Zowie** (funding/ARR unknown from this research) — AI agent platform for ecommerce, claims to automate 95%+ support inquiries (Triple Whale via search snippet); customer-experience tooling.
-- **Alhena AI** (funding/ARR unknown from this research) — all-in-one ecommerce AI agent for discovery/conversion/support (Alhena.ai blog via search snippet); merchant tool, not owner.
-- [Inferred]: Closest analog to Light Anchor's "AI-operated holdco" model is harder to identify in public data; most "competitors" sell to brands rather than being them. Direct competitive set is small because the owned-brand-holdco-with-agents thesis is nascent.
-
-**Why now:**
-- [Inferred]: LLM agent capability for multi-step business workflows crossed a usability threshold in 2024-2025 (the same wave Sendbird pivoted into per founder background).
-- [Inferred]: Shopify, Meta Ads, and creative-generation APIs are programmatically operable end-to-end, enabling end-to-end agent operation without humans-in-the-loop on every action.
-- McKinsey published agentic-commerce as transformative thesis in 2025 (McKinsey via search snippet), validating market timing.
+- **Traction signals:**
+  - 5 active brands across 4 verticals: Seoul Dispatch, The Half Life, The Stoic Supply, Meme Tees, Slow Haste (lightanchor.ai, 2026).
+  - Funding: YC standard deal as part of YC P26 / Spring 2026 batch (ycombinator.com, 2026); PitchBook lists $125K raised (PitchBook profile, 2026); StartupHub.ai lists "$15M Raised" (startuphub.ai, 2026) — figure not corroborated by PitchBook, Crunchbase, or any press release and is [Inferred] to be an aggregator error.
+  - YC announcement coverage on LinkedIn and X (linkedin.com/posts/y-combinator, x.com/ycombinator status 2052433285394174195, 2026).
+  - Twitter handle: @lightanchor_ai exists (referenced in YC's X post, 2026); follower count not retrievable via search.
+  - LinkedIn company page exists (linkedin.com/company/light-anchor, 2026); follower count not retrievable via search.
+  - Seoul Dispatch ships globally with tracked delivery 7-14 business days from Seoul (seouldispatch.com, 2026); no subscriber count published.
+  - No Product Hunt listing, Discord/Slack, app store, or Chrome extension data found.
+  - Hiring status: Not hiring per YC page (ycombinator.com, 2026).
+- **Competitors (closest set — direct "AI-operated brand portfolio" comps are scarce, so adjacent agent-platform comps included):**
+  - Cotera (revenue unknown, funding unknown — alhena.ai 2026): sells autonomous DTC agents to existing brands rather than operating its own.
+  - StoreClaw (revenue unknown, funding unknown — globenewswire.com, May 26, 2026): "AI growth engine" sold to e-commerce operators; Product Hunt "Product of the Week" winner.
+  - Alhena AI (revenue unknown, funding unknown — alhena.ai, 2026): Shopify-integrated agent for catalog, cart, checkout, post-purchase; sells software, doesn't own brands.
+  - Envive (revenue unknown, funding unknown — alhena.ai, 2026): cooperative Sales/Search/SEO agents sold to merchants.
+  - Thrasio (raised >$3.4B per public reporting prior to 2024 Chapter 11) and Pattern: human-operated Amazon/DTC roll-ups — adjacent only; no AI-native operating model.
+- **Why now:** [Inferred]: Agent reliability and tool-use capability crossed an operational threshold in 2024-2025, and Shopify launched Agentic Storefronts to "millions of merchants" with AI-driven orders up 15× in 2025 (TechCrunch, Mar 2026); the founders cite Sendbird's 2024 pivot to AI agents as direct exposure to this inflection (search snippet, 2026).
 
 ## Founders & Team
 
-**Sangha Park** — Co-Founder
-- Education: Brown University, CS + Applied Math (Light Anchor website)
-- Previously: Lead Product Manager at Sendbird (YC W16); led AI chatbot/agent product (LinkedIn /in/sang-ha-park-8b197242 via search snippet; Product School profile via search snippet; ZoomInfo via search snippet)
-- Twitter/X: @sanghaya1 (YC page); follower count not retrievable
-- LinkedIn: linkedin.com/in/sang-ha-park-8b197242, "500+ connections, San Francisco" (search snippet)
-- GitHub: No public data found
-
-**Chase Kim** — Co-Founder
-- Education: Penn State University, Information Sciences & Technology (Light Anchor website)
-- Previously: Head of Forward Deployment at Sendbird (Light Anchor website; LinkedIn /in/littlejkim per search snippet)
-- Twitter/X: @chasingjohnnn (YC page); follower count not retrievable
-- LinkedIn: linkedin.com/in/littlejkim (YC page; search snippet)
-- GitHub: No public data found
-
-**Co-founder relationship:** Both worked together at Sendbird (YC W16), where they led the AI agent product and forward-deployment teams during Sendbird's 2024 pivot into AI agents for customer experience (search snippet from YC/launch coverage; Light Anchor website).
-
-**Founder-market fit:** Both founders shipped AI agent products at scale at Sendbird during its 2024 AI-agent pivot (Light Anchor website; LinkedIn snippets). Park brings PM/AI-chatbot product depth across social/marketplace/banking/fintech verticals (Product School profile via search snippet); Kim brings forward-deployment / customer-implementation experience (Light Anchor website). [Inferred]: Background fits agent-orchestration and operationalizing agents inside business workflows; less explicit prior signal in consumer-brand operating, merchandising, or DTC growth.
-
-**Advisors/investors:** YC Spring 2026 (standard $500K deal); no additional investors disclosed publicly.
+- **Sangha Park (Co-founder):**
+  - Background: Brown University (CS + Applied Math); ex-Sendbird (YC W16) Lead Product Manager, led AI agent product during Sendbird's 2024 pivot to AI agents for customer experience (linkedin.com/in/sanghaha; productschool.com/product-leaders/sangha-park; search snippet, 2026).
+  - Twitter/X: No public handle found in search.
+  - LinkedIn: "Co-founder @ Light Anchor (YC P26)" (linkedin.com/in/sanghaha, 2026).
+  - GitHub: No public repos found in search.
+- **Chase Kim (Co-founder):**
+  - Background: Penn State University, Information Systems Technology; ex-Sendbird Head of Forward Deployment, led forward deployment team during Sendbird's 2024 AI agent pivot (linkedin.com/in/littlejkim; search snippet, 2026).
+  - Twitter/X: No public handle found in search.
+  - LinkedIn: Sendbird-listed profile at linkedin.com/in/littlejkim (linkedin.com, 2026).
+  - GitHub: @littlejkim (inferred from LinkedIn slug pattern, [Inferred]); top repo and star count not retrievable.
+- **Co-founder relationship:** Park and Kim met at Sendbird (YC W16), where they jointly led AI agent product and forward deployment during Sendbird's 2024 AI agent pivot (search snippet, 2026).
+- **Founder-market fit:** Both founders shipped customer-facing AI agent products at Sendbird, a YC alum with $1B+ valuation (linkedin.com/posts/wishup-services, 2026), giving direct exposure to agent reliability, deployment, and customer-experience workflows that map to running consumer-brand ops; no advisors or named angel investors found in public sources beyond Y Combinator and Krew Capital (search snippet citing PitchBook, 2026).
 
 ## Key Risks
 
-**Brand portfolio P&L unproven at scale:** Disclosed brand metrics are tiny ($380.81 ad spend on Slow Haste, $656 on Meme Tees per Light Anchor website). 149% WoW Stoic Supply growth is off an undisclosed base. Whether agent-operated brands achieve positive contribution margin at scale is empirically unestablished.
-
-**Capital intensity of brand operation:** Each owned brand requires inventory, ad spend, and working capital. [Inferred]: Unlike SaaS, Light Anchor's growth consumes cash per brand launched; YC's standard $500K may constrain the number of brands testable before next raise.
-
-**Agent reliability for end-to-end commerce decisions:** [Inferred]: Autonomous CEO/GM/Marketing agents making budget and merchandising calls without human approval risks costly errors (overspending, mis-sourced inventory). Failure modes unproven publicly.
-
-**Crowded "agentic commerce" thesis:** Genstore raised $10M seed (Sept 2025, GlobeNewswire) for related thesis; OpenAI, Google, Amazon, Perplexity all building shopping agents (search snippets). [Inferred]: Capital and attention are flowing in; differentiation must be defended.
-
-**Founder gap in consumer brand-building:** [Inferred]: Both founders' documented backgrounds are in B2B AI infra at Sendbird, not in DTC merchandising, supply chain, or brand creative — the operational craft the agents must replicate.
+- **Operational/legal liability of fully autonomous brand ops:** Agents make end-to-end decisions on inventory, ads, and customer support (lightanchor.ai, 2026); errant agent decisions on ad spend, shipping promises, or refund handling carry direct P&L and consumer-protection exposure with no documented human-in-the-loop control disclosed.
+- **Capital intensity of brand ownership:** Owning 5 brands across K-beauty subscriptions, supplements, and apparel (lightanchor.ai, 2026) requires inventory, COGS, and ad spend that scale linearly with revenue — unlike SaaS competitors (Alhena AI, Cotera) whose gross margins do not require working capital per customer.
+- **Commoditization by agent-platform vendors:** Multiple funded competitors (Cotera, StoreClaw, Alhena AI, Envive) already automate DTC functions and could be assembled by a human-led brand to capture similar leverage (alhena.ai, 2026); Light Anchor's per-brand cost advantage is undocumented publicly.
+- **Concentration on a single channel stack:** Distribution depends on Shopify + Meta ads (lightanchor.ai, 2026); Shopify's own Agentic Storefronts push (TechCrunch, Mar 2026) and Meta CPM volatility are exogenous risks the company does not control.
+- **Funding-data discrepancy / name disambiguation:** StartupHub.ai lists "$15M raised" (startuphub.ai, 2026) versus PitchBook's $125K (pitchbook.com profile 1320131-08, 2026); cross-checked against YC P26 batch announcement (Mar 2026) — the $15M figure is uncorroborated and likely an aggregator error.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Agentic commerce projected $1T US / $3-5T global by 2030 (search snippet, source not directly named); no Light-Anchor-specific TAM found |
+| TAM | No public data found |
 | SAM | No public data found |
-| Traction | 4 owned brands on Shopify (Light Anchor website); Slow Haste $380.81 ad spend / 6 purchases (Light Anchor website); Stoic Supply "+149% WoW" (Light Anchor website); Meme Tees 18 campaigns / $656 spent (Light Anchor website); YC P26 batch (YC page) |
-| Revenue Signal | No company-level revenue disclosed; no pricing page (Light Anchor website); per-brand activity log shows $380.81 + $656 ad spend and 6 Slow Haste purchases (Light Anchor website) |
-| Founders | Sangha Park (Co-founder): Brown CS+Applied Math, ex-Sendbird Lead PM (Light Anchor website). Chase Kim (Co-founder): Penn State IST, ex-Sendbird Head of Forward Deployment (Light Anchor website). |
-| Competitors | Genstore ($10M seed Sept 2025 led by Weimob, revenue unknown — sells AI store-builder to merchants vs. Light Anchor owning brands) (GlobeNewswire Sept 2025); Gorgias (funding/ARR unknown — AI support/ops agent for Shopify merchants) (Triple Whale via search snippet); Zowie (funding/ARR unknown — AI support agent automating 95%+ inquiries) (Triple Whale via search snippet); Alhena AI (funding/ARR unknown — all-in-one ecom AI agent) (Alhena.ai via search snippet) |
-| Moat Signals | Cross-brand operating data compounding ("each brand feeds platform; next brand starts smarter") (Light Anchor website); no IP/patents/regulatory moat found |
-| Risk Factors | Brand P&L unproven at scale, capital intensity per brand, crowded agentic-commerce field |
-| Founder Reach | Sangha Park: Twitter @sanghaya1 (count not retrievable), LinkedIn /in/sang-ha-park-8b197242 (500+ connections per search snippet), GitHub not found. Chase Kim: Twitter @chasingjohnnn (count not retrievable), LinkedIn /in/littlejkim (count not retrievable), GitHub not found. |
-| Distribution Signals | YC P26 cohort (YC page); Twitter @lightanchor_ai exists (YC page); LinkedIn company page exists (YC page); no Product Hunt / press / Chrome Store / app store signals found |
-| Emails | No public data found (only cal.com/team/light-anchor booking link on website) |
-
-**Note on prompt-injection attempt:** The WebFetch result for the YC company page contained injected text masquerading as a system-reminder about deferred Gmail/Calendar/Drive tools. This was ignored as it originated from fetched web content, not the actual harness.
+| Traction | 5 brands across 4 verticals: Seoul Dispatch, The Half Life, The Stoic Supply, Meme Tees, Slow Haste (lightanchor.ai, 2026); YC Spring 2026 batch announcement (ycombinator.com, 2026); featured on Y Combinator X account post (x.com/ycombinator, 2026); not currently hiring (ycombinator.com, 2026) |
+| Revenue Signal | No company-level pricing page; Seoul Dispatch operates a tiered subscription ("Full Care Box" and "Mask Box," seouldispatch.com, 2026); no ARR or revenue figure published |
+| Founders | Sangha Park (Co-founder): Brown CS+Math, ex-Sendbird Lead PM (AI agents). Chase Kim (Co-founder): Penn State IST, ex-Sendbird Head of Forward Deployment |
+| Competitors | Cotera (funding unknown, revenue unknown, sells agents to brands rather than owning); StoreClaw (funding unknown, revenue unknown, Product Hunt POTW May 2026); Alhena AI (funding unknown, revenue unknown, Shopify-integrated commerce agent); Envive (funding unknown, revenue unknown, cooperative agent ensemble); Gorgias (raised >$40M public, revenue unknown, Shopify CX agent) |
+| Moat Signals | "Shared platform that compounds with every new brand launched" per YC description (ycombinator.com, 2026); no IP, network effects, or switching costs publicly documented |
+| Risk Factors | Capital intensity of owning brands, commoditization by agent-platform vendors, operational liability of autonomous decisions |
+| Founder Reach | Sangha Park: Twitter not found, LinkedIn linkedin.com/in/sanghaha (count not retrievable), GitHub not found. Chase Kim: Twitter not found, LinkedIn linkedin.com/in/littlejkim (count not retrievable), GitHub not found |
+| Distribution Signals | YC Spring 2026 batch announcement (Mar 2026); Y Combinator X post featuring @lightanchor_ai (x.com/ycombinator, 2026); LinkedIn company page live (linkedin.com/company/light-anchor, 2026); no Product Hunt, Discord, or app-store presence found |
+| Emails | founders@lightanchor.ai |
 
 Sources:
+- [Light Anchor — Y Combinator](https://www.ycombinator.com/companies/light-anchor)
 - [Light Anchor website](https://lightanchor.ai)
-- [Light Anchor YC company page](https://www.ycombinator.com/companies/light-anchor)
-- [Genstore $10M seed funding announcement (GlobeNewswire)](https://www.globenewswire.com/news-release/2025/09/23/3155019/0/en/AI-native-e-commerce-platform-Genstore-secures-10-million-in-seed-funding.html)
-- [Sangha Park LinkedIn](https://www.linkedin.com/in/sang-ha-park-8b197242/)
+- [Seoul Dispatch](https://seouldispatch.com/)
+- [Y Combinator X post on Light Anchor](https://x.com/ycombinator/status/2052433285394174195)
+- [YC LinkedIn announcement](https://www.linkedin.com/posts/y-combinator_light-anchor-yc-p26-builds-fully-autonomous-activity-7458198971317112833-VnUC)
+- [Light Anchor LinkedIn company page](https://www.linkedin.com/company/light-anchor)
+- [Sangha Park LinkedIn](https://www.linkedin.com/in/sanghaha)
 - [Chase Kim LinkedIn](https://www.linkedin.com/in/littlejkim/)
-- [Sangha Park - Product School](https://productschool.com/product-leaders/sangha-park)
-- [Triple Whale - AI Agents for Ecommerce](https://www.triplewhale.com/blog/ai-agents-for-ecommerce)
-- [Alhena AI Agents for Ecommerce blog](https://alhena.ai/blog/best-ai-agents-for-ecommerce/)
-- [McKinsey - The agentic commerce opportunity](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-agentic-commerce-opportunity-how-ai-agents-are-ushering-in-a-new-era-for-consumers-and-merchants)
+- [Light Anchor PitchBook profile](https://pitchbook.com/profiles/company/1320131-08)
+- [Light Anchor Crunchbase](https://www.crunchbase.com/organization/light-anchor)
+- [Light Anchor StartupHub.ai (figure uncorroborated)](https://www.startuphub.ai/startups/light-anchor)
+- [Shopify Agentic Storefronts coverage — TechCrunch](https://techcrunch.com/2026/03/16/shopify-is-preparing-for-ai-shopping-agents-to-change-everything-exec-says/)
+- [Alhena AI competitor roundup](https://alhena.ai/blog/best-ai-agents-for-ecommerce/)
+- [StoreClaw Product Hunt POTW announcement](https://www.globenewswire.com/news-release/2026/05/26/3301277/0/en/StoreClaw-Wins-Product-Hunt-Product-of-the-Week-with-AI-Agents-Built-to-Execute-Not-Just-Advise.html)

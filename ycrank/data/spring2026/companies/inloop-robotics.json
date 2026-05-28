@@ -1,77 +1,47 @@
 {
   "slug": "inloop-robotics",
   "name": "InLoop Robotics",
-  "oneLiner": "Deploying robots that ask for help!",
+  "oneLiner": "Staff your warehouse with robotic employees today",
   "metadata": {
     "website": "https://inloop-robotics.com/",
     "yc_page": "https://www.ycombinator.com/companies/inloop-robotics",
-    "batch": "Spring 2026",
-    "industry": "Industrials / Manufacturing and Robotics",
+    "batch": "Spring 2026 (P26)",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
     "team_size": "4",
-    "location": "San Francisco, US (company website); originally founded in Germany (Nordic 9)",
-    "tags": "Artificial Intelligence, Hard Tech, Robotics, Logistics",
+    "location": "San Francisco, CA, USA",
+    "tags": "Hard Tech, Robotics, Logistics, AI",
     "yc_partner": "Tom Blomfield",
-    "emails": "founders@inloop-robotics.com (company website)"
+    "emails": "founders@inloop-robotics.com"
   },
   "tags": [
-    "Artificial Intelligence",
     "Hard Tech",
     "Robotics",
-    "Logistics"
+    "Logistics",
+    "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-22T23:52:14.633Z",
+  "memoGeneratedAt": "2026-05-28T03:00:55.109Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "paul-graham": {
       "score": 43,
       "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 48,
-      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 41,
-    "EG": 36,
-    "NR": 40,
-    "PG": 43,
-    "PT": 35,
-    "SL": 39,
-    "VK": 48
+    "CB": 43,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 40.29,
-  "consolidatedRank": 88,
+  "consolidatedAvg": 43,
+  "consolidatedRank": 95,
   "paths": {
     "memo": "spring2026/memos/inloop-robotics.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/inloop-robotics.md",
-      "elad-gil": "spring2026/evals/elad-gil/inloop-robotics.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/inloop-robotics.md",
-      "paul-graham": "spring2026/evals/paul-graham/inloop-robotics.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/inloop-robotics.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/inloop-robotics.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/inloop-robotics.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/inloop-robotics.md"
     }
   }
 }

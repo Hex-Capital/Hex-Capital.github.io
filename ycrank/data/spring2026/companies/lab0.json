@@ -9,67 +9,40 @@
     "industry": "B2B / B2B",
     "team_size": "3",
     "location": "San Francisco, CA, USA",
-    "tags": "Artificial Intelligence, B2B",
+    "tags": "SaaS, B2B, Enterprise, Enterprise Software, AI",
     "yc_partner": "Nicolas Dessaigne",
     "emails": "No public data found"
   },
   "tags": [
-    "Artificial Intelligence",
-    "B2B"
+    "SaaS",
+    "B2B",
+    "Enterprise",
+    "Enterprise Software",
+    "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-22T23:43:13.314Z",
+  "memoGeneratedAt": "2026-05-28T02:51:00.424Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 61,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 37,
+      "score": 42,
       "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 45,
-      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 46,
-    "EG": 45,
-    "NR": 61,
-    "PG": 46,
-    "PT": 37,
-    "SL": 35,
-    "VK": 45
+    "CB": 42,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 45,
-  "consolidatedRank": 40,
+  "consolidatedAvg": 42,
+  "consolidatedRank": 105,
   "paths": {
     "memo": "spring2026/memos/lab0.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/lab0.md",
-      "elad-gil": "spring2026/evals/elad-gil/lab0.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/lab0.md",
-      "paul-graham": "spring2026/evals/paul-graham/lab0.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/lab0.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/lab0.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/lab0.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/lab0.md"
     }
   }
 }

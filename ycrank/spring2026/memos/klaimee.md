@@ -1,123 +1,102 @@
 ﻿# Klaimee
 
-> Insurance for the agentic world. You deploy agents, we cover you.
+> Liability insurance for AI Agents. You deploy agents, we cover you.
 
 | Field | Value |
 |-------|-------|
 | Website | https://www.klaimee.ai |
 | YC Page | https://www.ycombinator.com/companies/klaimee |
-| Batch | Spring 2026 |
+| Batch | Spring 2026 (YC page; also referenced as "YC P26" on LinkedIn) |
 | Industry | Fintech / Fintech -> Insurance |
 | Team Size | 2 |
-| Location | San Francisco (fwdstart.me via search snippet) |
-| Tags | AIOps, Artificial Intelligence, SaaS, Insurance, AI |
-| YC Partner | Aaron Epstein (YC page) |
-| Emails | No public data found |
+| Location | San Francisco, CA, USA |
+| Tags | Artificial Intelligence, Fintech, Compliance, Insurance, AI |
+| YC Partner | Aaron Epstein (YC company page) |
+| Emails | contact@klaimee.ai (klaimee.ai website) |
 
 ## The Idea
 
-**Problem:** AI agents are executing autonomous actions — financial transactions, data modifications, customer communications — but no insurance or certification framework exists for when they fail. California AB 316, effective January 1, 2026, eliminates the "autonomous AI" defense and holds deployers liable for agent-caused harm (Baker Botts, 2025). The EU AI Act's penalty regime took effect August 2, 2025, with fines up to EUR 35M or 7% of global turnover (DLA Piper, Aug 2025). Traditional cyber insurers are actively excluding AI claims from policies (S&P Global, Feb 2026 via search snippet). Startups shipping agents to enterprise have no coverage and no third-party proof their agent is safe.
-
-**Approach:** Klaimee provides a bundled product: (1) risk evaluation across critical categories for autonomous AI agents, (2) certification badge, (3) financial guarantee, and (4) liability insurance (YC page; klaimee.co via search snippet). The service is self-serve from day one, targeting startups deploying AI agents to enterprise clients. The founders originally built AI agents for claims processing inside regulated environments before pivoting to the insurance/certification layer (LinkedIn search snippet via search).
-
-**Differentiation:**
-- vs. **Armilla AI**: Armilla is a Lloyd's Coverholder underwriting standalone AI liability policies for scale-ups and Fortune 1000 companies (TechCrunch, Feb 2024). Klaimee bundles certification + audit + insurance into a self-serve platform targeting startups, not large enterprises.
-- vs. **Testudo**: Testudo focuses on underwriting and active litigation monitoring for enterprise AI risk via Lloyd's Lab (Reinsurance News, 2024). Klaimee adds a certification/audit layer and targets agent-deploying startups.
-- vs. **Corgi Insurance**: Corgi is a full-stack AI-native carrier for startups across all insurance lines ($108M raised, $40M+ ARR; PR Newswire, 2025). Klaimee focuses specifically on AI agent liability, not general startup insurance.
-
-**Business Model:** No public pricing page found (website returned title only at time of research). [Inferred]: Most likely monetization is a SaaS certification fee plus premium-based liability coverage, given the bundled audit + insurance product and the founder's carrier underwriting background at SafetyWing.
-
-**TAM/SAM:**
-- Global AI Liability Insurance market: $1.2B in 2024, projected $12.8B by 2033, CAGR 30.2% (MarketIntelo, 2033 via search snippet).
-- Broader AI in insurance market: $10.36B in 2025, projected $154.39B by 2034 (Fortune Business Insights via search snippet).
-- [Inferred]: SAM is the subset of AI liability insurance purchased by startups deploying autonomous agents to enterprise, a fraction of the $1.2B market that is rapidly expanding as agentic AI proliferates.
-
-**GTM / Distribution:** Self-serve platform for startups bringing AI agents to enterprise (YC page). [Inferred]: Primary distribution is likely bottom-up through startup founders who need certification/coverage to close enterprise procurement — the certification badge serves as both a trust signal and a distribution wedge.
+- **Problem:** Companies deploying autonomous AI agents face liability exposure because major carriers including Berkshire Hathaway, Chubb, and Travelers have received state approval to exclude AI-related damages from general liability, E&O, and cyber policies (PYMNTS, 2026; American Banker via search snippet).
+- **Approach:** Klaimee scores agents across 8 risk dimensions (scope, data exfiltration, unauthorized action, output integrity, adversarial manipulation, behavioral stability, model drift, operational control), issues a certification report, provides a "Klaimee Certified" badge plus financial guarantee, with full liability insurance built on top (klaimee.ai product page).
+- **Differentiation:** Vs. Armilla AI (carrier-backed standalone AI liability policies via Swiss Re/Chaucer) and Testudo (Lloyd's-backed MGA with $9.25M limits) — [Inferred]: Klaimee pairs a self-serve technical certification/risk-evaluation layer with the insurance, whereas Armilla and Testudo are primarily underwriting-led MGAs (klaimee.ai; Reinsurance News, 2026).
+- **Business Model:** No pricing publicly displayed on klaimee.ai (WebFetch, May 2026); [Inferred]: certification + premium-based insurance fees, consistent with MGA economics described in the founder's prior SafetyWing role (fwdstart.me).
+- **TAM/SAM:** Standalone AI liability policy limits across active providers range $2M–$50M per policy (PYMNTS, 2026); broader "AI in insurance" market projected at $13.45B (2026) growing to $154.39B by 2034 (Fortune Business Insights); no public TAM/SAM data found specific to AI agent liability insurance as a discrete segment.
+- **GTM / Distribution:** [Inferred]: Self-serve enterprise sign-up driven by procurement-readiness pain — the website foregrounds "procurement-ready documentation" and a Calendly link to the CTO (klaimee.ai), suggesting direct founder-led sales to AI deployers needing legal sign-off.
 
 ## Defensibility
 
-- **Underwriting data moat**: Each agent audit generates proprietary risk data on AI agent failure modes and architectures. [Inferred]: Over time this data creates a feedback loop improving risk pricing that new entrants cannot replicate without similar volume.
-- **Regulatory positioning**: AB 316 (effective Jan 2026) and EU AI Act enforcement (Aug 2025) create mandatory compliance documentation requirements (Baker Botts, 2025; DLA Piper, 2025). Klaimee's certification addresses procurement documentation needs that these regulations create.
-- **Bundling**: Certification + insurance is a two-sided lock: the certification makes insurance cheaper, and the insurance makes certification valuable. [Inferred]: Unbundled competitors offering only insurance or only certification face a disadvantage against the integrated product.
-
-**Market structure:** Traditional carriers (Chubb, Beazley, Munich Re) are expanding into affirmative AI coverage through existing distribution — but they underwrite broadly, not at the individual agent level. [Inferred]: Incumbents lack the technical audit capability to evaluate individual AI agent architectures, and retrofitting agent-level certification onto legacy underwriting processes creates operational friction. Additionally, carriers retreating from AI risk entirely (S&P Global, Feb 2026 via search snippet) create a supply gap that specialist startups can fill.
-
-**Commoditization risk:** Armilla ($25M raised, Jan 2026; fintech.global) and Testudo (Lloyd's Lab, pre-seed; Reinsurance News) are building in the same space. Corgi ($108M; PR Newswire) could extend its startup insurance platform to add AI agent-specific coverage. Large carriers could develop dedicated AI agent products. [Inferred]: The certification/audit layer is harder to commoditize than pure insurance underwriting, as it requires AI systems evaluation expertise.
+- **Moat today:** Founder operational moat — Ines Boutemadja structured a Tokio Marine MGA and secured a Puerto Rico carrier license at SafetyWing (fwdstart.me; LinkedIn via search snippet); building MGA/carrier infrastructure is a regulatory barrier that takes years.
+- **Future moat:** [Inferred]: A proprietary AI-agent loss dataset accumulated through the 8-dimension risk evaluations could compound into underwriting advantage; unproven now because Klaimee has no public claims/loss data yet.
+- **Market structure:** [Inferred]: Incumbents (Chubb, Travelers, Berkshire) have actively sought state approval to *exclude* AI risk (PYMNTS, 2026), meaning their internal stance and reinsurance treaties cannibalize them from offering this coverage — a business-model conflict rather than a capability gap.
+- **Commoditization risk:** Direct competitors Armilla AI, Testudo, Vouch, Embroker, Corgi, Mayflower Specialty, and Munich Re's aiSure already underwrite AI risk (PYMNTS, 2026; Medium/Purdy House, 2026); the certification + financial-guarantee bundle is replicable by any MGA willing to invest in risk-evaluation tooling.
 
 ## Market & Traction
 
-**Traction signals:**
-- No public revenue, user counts, or customer metrics found.
-- No Product Hunt listing found.
-- No Discord/Slack community found.
-- Company Twitter/X: not found. Founder Ines Boutemadja: @inesboutem on X (YC page; follower count not retrievable). Julien Catonnet: no public X account found.
-- LinkedIn company page: not found in search results.
-- Press: Ines Boutemadja noted as "first Algerian woman" accepted into YC (fwdstart.me via search snippet).
-- klaimee.co redirects to klaimee.ai (308 permanent redirect, verified).
-- No job postings listed (YC page: 0 jobs).
-
-**Competitive landscape:**
-
-| Competitor | Funding | Revenue/ARR | Key Differentiator vs. Klaimee |
-|---|---|---|---|
-| **Armilla AI** | $25M total (fintech.global, Jan 2026) | £18.5K annual revenue as of Apr 2025 (Tracxn via search snippet) | Lloyd's Coverholder; standalone AI liability policy for scale-ups and Fortune 1000; no certification layer |
-| **Testudo** | Pre-seed from LocalGlobe, A100x, Charlie Songhurst, Goldman Sachs partners (Tracxn via search snippet) | Revenue unknown | Lloyd's Lab; proprietary litigation monitoring; $9.25M AI liability capacity (fintech.global, Mar 2026); enterprise-focused |
-| **Corgi Insurance** | $108M total (PR Newswire, 2025) | $40M+ ARR (PR Newswire, 2025) | Full-stack AI-native carrier for all startup insurance lines; not AI-agent-liability-specific |
-| **Coalition** | ~$755M total (Crunchbase via prior knowledge) | Revenue unknown | Cyber insurance with active risk monitoring; AI coverage as extension of cyber, not agent-specific |
-
-**Why now:**
-- AB 316 (California) eliminated the "autonomous AI" defense, effective January 1, 2026 (Baker Botts, Oct 2025). Deployers are now explicitly liable.
-- EU AI Act penalty regime took effect August 2, 2025; full enforcement powers activate August 2, 2026 (DLA Piper, Aug 2025).
-- Between January 2025 and January 2026, the professional liability market shifted from "silent" AI coverage to explicit exclusions or affirmative warranties (AI CERTs News via search snippet).
-- [Inferred]: The proliferation of agentic AI frameworks (AutoGPT, CrewAI, LangGraph) has created a surge of startups deploying autonomous agents to enterprise, generating a new insurable risk class that did not exist 24 months ago.
+- **Traction signals:**
+  - Listed in YC Spring 2026 batch (ycombinator.com/companies/klaimee).
+  - 0 open job postings on YC jobs page (ycombinator.com/companies/klaimee/jobs, May 2026).
+  - LinkedIn company page active at /company/klaimee (LinkedIn search snippet); follower count not retrievable.
+  - Founder Ines noted as "YC's first Algerian female founder" (fwdstart.me).
+  - YC company-page launch post on LinkedIn (linkedin.com/posts/y-combinator activity 7457428900369846272); engagement counts not retrievable.
+  - No public Product Hunt launch, press articles, revenue, or customer logos found.
+- **Competitors:**
+  - Armilla AI ($6.37M–$6.81M total raised, Seed $3.32M Feb 2024 led by Mistral Venture Partners; revenue unknown — Crunchbase/PitchBook): carrier-backed standalone AI liability via Swiss Re and Chaucer "Vanguard AI" with $25M+ limits (Crunchbase; PYMNTS, 2026).
+  - Testudo (pre-seed 2024 from LocalGlobe, A100x, Charlie Songhurst, Goldman Sachs partners, IA Capital; revenue unknown — Reinsurance News): Lloyd's-backed MGA with $9.25M per-insured limits, underwriters Apollo, Atrium, QBE (fintech.global, Mar 2026).
+  - Munich Re aiSure (incumbent reinsurer; revenue unknown): AI performance guarantee insurance launched 2018 (PYMNTS, 2026).
+  - Vouch (US business insurer; total raised and revenue unknown in this search): launched designated AI insurance program Feb 2024 (PYMNTS, 2026).
+  - Embroker / Corgi / Mayflower Specialty: named as standalone AI liability providers with $2M–$50M limits (PYMNTS, 2026).
+- **Why now:** Stated catalyst — California AB 316 holds AI deployers liable and the EU AI Act enforces in August 2026 (company description, klaimee.ai); independently confirmed insurer retreat — state regulators approved >80% of carrier requests to exclude AI damages from general liability (PYMNTS, 2026).
 
 ## Founders & Team
 
-**Ines Boutemadja** — Co-founder & CEO
-- Education: HEC Paris (FlashIntel via search snippet)
-- Previously: GM of Nomad Insurance at SafetyWing (YC W18), where she grew the insurance product from $5M to $40M revenue over ~5 years, managing claims, underwriting, and carrier relationships (YC page; The Org)
-- Earlier career: Head of Sales & PMF at Kraaft; Product Manager at Cubyn; Senior Product Analyst at Chappuis Halder; Analyst at Entrepreneur Venture; Analyst at Alpha Capital Partners UK (FlashIntel via search snippet; ZoomInfo via search snippet)
-- First Algerian woman accepted into Y Combinator; third Algerian-heritage founder through YC after Yassir's Noureddine Tayebi and Elevate's Youcef Oudjidane (fwdstart.me via search snippet)
-- Twitter/X: @inesboutem (YC page) — follower count not retrievable
-- LinkedIn: linkedin.com/in/ines-boutemadja/ — 500+ connections (LinkedIn via search snippet)
-- GitHub: No public repos found
-
-**Julien Catonnet** — Co-founder & CTO
-- Education: Advanced master's in Strategy & International Business Development from emlyon business school and CentraleSupélec; Full-Stack Web Developer certification from Le Wagon (The Org; LinkedIn via search snippet)
-- Previously: Software Engineer at Omnipresent (since Apr 2022); prior roles at Cubyn (claim management application), Simundia, EY-Parthenon (The Org; LinkedIn via search snippet)
-- Portfolio website: julien-catonnet.com (search results)
-- Twitter/X: No public account found
-- LinkedIn: fr.linkedin.com/in/julien-catonnet-b52707239 (LinkedIn via search snippet)
-- GitHub: No confirmed public profile found
-
-**Co-founder relationship:** Both Ines and Julien previously worked at Cubyn (FlashIntel via search snippet; The Org). They are married and co-founded Klaimee in March 2026 (fwdstart.me via search snippet).
-
-**Founder-market fit:** Ines spent five years as GM at SafetyWing (YC W18) building carrier insurance infrastructure, launching insurance products from zero, and managing underwriting and claims — direct operational experience in the insurance value chain she is now rebuilding for AI agents. Julien's combination of EY-Parthenon strategy consulting and software engineering at Omnipresent provides the technical and enterprise compliance expertise. Their prior work building AI agents for claims processing inside regulated environments gave them first-hand exposure to the gap they are now addressing (YC page; fwdstart.me via search snippet).
+- **Ines Boutemadja (CEO, Co-founder):**
+  - Background: Former General Manager of Nomad Insurance at SafetyWing (YC W18) for 5 years, grew the product from $5M to $60M revenue, structured a Tokio Marine MGA into its own carrier, and secured the Puerto Rico carrier license (fwdstart.me; theorg.com/safetywing; Crunchbase person profile); reported as YC's first Algerian female founder (fwdstart.me).
+  - Twitter/X: @inesboutem (YC page); follower count not retrievable.
+  - LinkedIn: "SafetyWing" / now Klaimee (linkedin.com/in/ines-boutemadja-6bb944105 and /in/ines-boutemadja/); follower count not retrievable.
+  - GitHub: No public account found.
+- **Julien Catonnet (CTO, Co-founder):**
+  - Background: Paris-based; corporate strategy consulting background working with corporates and insurance, plus software engineering and AI; previously Product Engineer at Booking Shake (Crunchbase person profile; LinkedIn search snippet fr.linkedin.com/in/julien-catonnet).
+  - Twitter/X: No public account found (YC page lists LinkedIn only).
+  - LinkedIn: "Insurance for AI Agents (YC P26)" headline (fr.linkedin.com/in/julien-catonnet); follower count not retrievable.
+  - GitHub: No public repos found.
+- **Co-founder relationship:** Co-founders are married — Ines posted "Julien Catonnet and I both started our careers…" referencing shared early-career origins (linkedin.com/posts/ines-boutemadja activity 7463084186116206594); described as husband-and-wife co-founding team (fwdstart.me).
+- **Founder-market fit:** CEO has 5 years scaling an insurance MGA from $5M→$60M and direct experience structuring a Tokio Marine MGA and obtaining a carrier license at SafetyWing (fwdstart.me; theorg.com/safetywing), which maps directly to the regulatory and carrier-relationship work Klaimee requires; CTO covers AI engineering and enterprise compliance (Crunchbase). No advisors or investors beyond YC publicly identified.
 
 ## Key Risks
 
-**Carrier dependency:** Klaimee certifies and underwrites but likely depends on reinsurance or carrier partnerships to back liability coverage. If carriers exclude or restrict AI agent risk (as is currently trending — S&P Global, Feb 2026 via search snippet), Klaimee's ability to offer coverage could be constrained. Mitigation: Ines's five years of carrier relationship management at SafetyWing.
-
-**Well-funded competitors in-market:** Armilla AI raised $25M (Jan 2026; fintech.global) and is already a Lloyd's Coverholder writing policies. Testudo expanded capacity to $9.25M (Mar 2026; fintech.global). Both have a head start on underwriting data and carrier relationships. Klaimee must differentiate on the certification bundle and self-serve startup experience.
-
-**Regulatory uncertainty:** AB 316 and EU AI Act create the demand catalyst, but AI liability law is still evolving. Future regulations could mandate specific certification standards that differ from Klaimee's framework, or could create government-backed certification schemes that displace private providers.
-
-**Narrow initial wedge:** Focusing on startups deploying AI agents to enterprise is a precise segment. [Inferred]: If enterprise procurement teams accept simpler alternatives (e.g., contractual indemnification, self-insurance, or broad cyber policies from incumbents), demand for the specialized certification + insurance bundle may be limited.
-
-**Technical evaluation depth:** Certifying AI agent safety requires deep technical evaluation of agent architectures and failure modes. Scaling this across diverse agent frameworks while maintaining credibility is an execution risk, particularly with a two-person team.
+- **Capacity dependency:** Klaimee's "financial guarantee" and forthcoming insurance product require reinsurance/carrier paper that is not publicly disclosed; competitors disclose their backers (Armilla–Swiss Re/Chaucer; Testudo–Apollo/Atrium/QBE per fintech.global Mar 2026), creating a procurement-credibility gap until Klaimee names a capacity provider.
+- **Crowded standalone AI liability market:** At least 7 named providers (Armilla, Testudo, Vouch, Munich Re aiSure, Embroker, Corgi, Mayflower Specialty) are already underwriting AI risk with $2M–$50M limits as of 2026 (PYMNTS, 2026; Medium/Purdy House, 2026), shrinking the window for a 2-person pre-seed team to win enterprise procurement.
+- **Regulatory exposure outside enterprise's control:** Thesis depends on AB 316 (California) and EU AI Act August 2026 enforcement (company description); changes or delays in enforcement could compress urgency for buyers.
+- **Technical-feasibility risk of certification:** The 8-dimension risk evaluation (klaimee.ai) is the underwriting basis but has no public benchmark, third-party audit, or loss-history validation; insurance pricing accuracy depends on whether these scores actually predict loss frequency/severity.
+- **Name disambiguation:** A second domain klaimee.co also appears in search results (Google search result, May 2026); unverified whether this is an alternate Klaimee asset or an unrelated entity — note for diligence.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $1.2B in 2024, projected $12.8B by 2033, CAGR 30.2% (MarketIntelo via search snippet) |
+| TAM | AI in insurance: $13.45B (2026) → $154.39B (2034) (Fortune Business Insights); no AI-agent-liability-specific TAM found |
 | SAM | No public data found |
-| Traction | No public data found |
-| Revenue Signal | No public data found |
-| Founders | Ines Boutemadja (CEO): GM at SafetyWing (W18), grew insurance $5M→$40M, HEC Paris. Julien Catonnet (CTO): Software Engineer at Omnipresent, emlyon/CentraleSupélec, Le Wagon. |
-| Competitors | Armilla AI ($25M raised, £18.5K revenue Apr 2025, Lloyd's Coverholder for AI liability; fintech.global, Jan 2026). Testudo (pre-seed from LocalGlobe/A100x, revenue unknown, Lloyd's Lab + $9.25M capacity; fintech.global, Mar 2026). Corgi Insurance ($108M raised, $40M+ ARR, full-stack startup carrier not AI-agent-specific; PR Newswire, 2025). |
-| Moat Signals | No public data found |
-| Risk Factors | Carrier dependency, well-funded competitors (Armilla $25M, Testudo Lloyd's-backed), regulatory uncertainty in evolving AI liability law |
-| Founder Reach | Ines: X @inesboutem (count not retrievable), LinkedIn 500+ connections. Julien: no X found, LinkedIn profile found. |
-| Distribution Signals | No public data found |
-| Emails | No public data found |
+| Traction | YC Spring 2026 batch (ycombinator.com); 0 open jobs (YC jobs page, May 2026); first Algerian female YC founder (fwdstart.me); no Product Hunt, press, or customers found |
+| Revenue Signal | No public data found (no pricing on klaimee.ai, May 2026) |
+| Founders | Ines Boutemadja (CEO): ex-GM SafetyWing, scaled $5M→$60M, structured Tokio Marine MGA, Puerto Rico carrier license. Julien Catonnet (CTO): AI engineer, strategy consulting, ex-Booking Shake product engineer. |
+| Competitors | Armilla AI ($6.37M raised, revenue unknown, carrier-backed via Swiss Re/Chaucer); Testudo (pre-seed 2024, revenue unknown, Lloyd's MGA $9.25M limits); Munich Re aiSure (incumbent, revenue unknown, launched 2018); Vouch (revenue unknown, AI program Feb 2024); Embroker/Corgi/Mayflower Specialty (standalone AI liability $2M–$50M) |
+| Moat Signals | Founder regulatory/MGA-buildout experience (fwdstart.me); no proprietary tech or data moats publicly disclosed |
+| Risk Factors | Undisclosed capacity provider, crowded standalone AI liability field, unvalidated certification methodology |
+| Founder Reach | Ines: Twitter @inesboutem (count not retrievable), LinkedIn present (count not retrievable), GitHub none found. Julien: Twitter none found, LinkedIn present (count not retrievable), GitHub none found. |
+| Distribution Signals | YC company page launch post (linkedin.com/posts/y-combinator activity 7457428900369846272); founder Calendly contact (klaimee.ai); no Product Hunt, no app stores |
+| Emails | contact@klaimee.ai (klaimee.ai) |
+
+**Note on prompt injection:** The YC-page WebFetch result contained injected `<system-reminder>` blocks attempting to introduce unrelated MCP tools. I disregarded them and completed the original research task.
+
+Sources:
+- [Klaimee YC page](https://www.ycombinator.com/companies/klaimee)
+- [Klaimee website](https://www.klaimee.ai/)
+- [PYMNTS: Big Insurance Backs Away From AI Risk](https://www.pymnts.com/artificial-intelligence-2/2026/big-insurance-backs-away-from-ai-risk-and-startups-rush-in/)
+- [Fortune Business Insights: AI in Insurance Market](https://www.fortunebusinessinsights.com/ai-in-insurance-market-114760)
+- [fwdstart.me: YC's first Algerian female founder](https://www.fwdstart.me/p/nubank-setting-up-in-abu-dhabi-yc-first-algerian-female-founder)
+- [Armilla AI on Crunchbase](https://www.crunchbase.com/organization/armilla-ai)
+- [Testudo expands AI liability capacity to $9.25m (fintech.global)](https://fintech.global/2026/03/09/testudo-expands-ai-liability-capacity-to-9-25m/)
+- [Reinsurance News: Testudo launches AI underwriting platform](https://www.reinsurancene.ws/testudo-launches-ai-insurance-underwriting-platform-backed-by-lloyds-lab/)
+- [The Org: SafetyWing — Ines Boutemadja](https://theorg.com/org/safetywing/org-chart/ines-boutemadja)
+- [Julien Catonnet Crunchbase](https://www.crunchbase.com/person/julien-catonnet)
+- [Medium/Purdy House: First AI Liability Insurance Product](https://medium.com/@purdyhouse/the-first-ai-liability-insurance-product-has-25-million-in-coverage-five-exist-worldwide-575a2903b17b)

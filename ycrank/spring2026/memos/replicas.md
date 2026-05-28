@@ -6,111 +6,99 @@
 |-------|-------|
 | Website | https://replicas.dev |
 | YC Page | https://www.ycombinator.com/companies/replicas |
-| Batch | Spring 2026 |
+| Batch | Spring 2026 (P26) |
 | Industry | B2B / B2B -> Engineering, Product and Design |
-| Team Size | 1 |
-| Location | San Francisco, CA, US (YC page job listing) |
-| Tags | Developer Tools, API, AI |
+| Team Size | 1 (YC page; 2 founders publicly named — see Founders section) |
+| Location | San Francisco, CA, USA |
+| Tags | Artificial Intelligence, Developer Tools, API |
 | YC Partner | Harj Taggar |
-| Emails | connor@replicas.dev, founders@replicas.dev |
+| Emails | founders@replicas.dev (tryreplicas.com), loiconnor8@gmail.com (Connor Loi GitHub profile via search snippet) |
 
 ## The Idea
 
-**Problem:** Engineering teams face a growing backlog of tickets — bug fixes, small features, dependency upgrades, code reviews — that consume developer time but don't require continuous human oversight. Current solutions are either interactive (Cursor, Copilot inline) requiring a developer's IDE session, or heavyweight autonomous agents (Devin) priced at enterprise levels. Teams cannot easily parallelize coding work across many tasks simultaneously because each task occupies a developer's local environment. (replicas.dev)
-
-**Approach:** Replicas runs coding agents (Claude Code or Codex) in isolated, sandboxed virtual machines, triggered from tools engineers already use: Slack (@Replicas mention), Linear (issue assignment), GitHub (PR comment @tryreplicas), or a web dashboard. Each task gets its own VM with the full codebase, databases, and dependencies installed. The agent produces a pull request, automatically monitors CI, fixes failures, and responds to code review comments. An "Environments" feature lets teams configure local verification and generate preview URLs. An API endpoint (POST `/v1/replica`) enables custom automation workflows. (replicas.dev)
-
-**Differentiation:**
-- vs. Devin (Cognition AI): Replicas is multi-agent-model (Claude Code and Codex), integrates natively with Slack/Linear rather than requiring a dedicated Devin interface, and prices on a per-seat SaaS model starting at $30/seat/month vs. Devin's $500/month original price point (replicas.dev pricing page; TechCrunch, Apr 2025).
-- vs. GitHub Copilot Coding Agent: Copilot's autonomous agent is GitHub-native only; Replicas adds Slack and Linear as trigger surfaces and supports non-GitHub workflows via API (replicas.dev; GitHub Docs, 2026).
-- vs. Factory AI: Factory targets large enterprises (NVIDIA, Adobe clients); Replicas targets smaller engineering teams with self-serve onboarding (replicas.dev; TechCrunch, Apr 2026).
-- vs. OpenHands: OpenHands is open-source and self-hosted; Replicas is a managed SaaS with integrated VM sandboxing (replicas.dev; OpenHands blog, Nov 2025).
-
-**Business Model:** Per-seat SaaS with four tiers (replicas.dev/pricing):
-- Hobby: Free, 20 hours of usage
-- Developer: $30/seat/month, unlimited usage, API at $0.0166/min
-- Team: $120/seat/month, unlimited usage + automations, warm hooks/pool access, shared Slack support
-- Enterprise: Custom pricing, SOC 2 compliance
-
-**TAM/SAM:** The AI code tools market was valued at $7.37B in 2025, projected to reach $23.97B by 2030 at 26.60% CAGR (MarketsandMarkets, 2025). A separate MarketsandMarkets estimate sizes AI code assistants at $8.14B in 2025, growing to $127.05B by 2032 at 48.1% CAGR (MarketsandMarkets, 2025). [Inferred]: The serviceable market for background/autonomous coding agents is a subset; no standalone SAM estimate was found for this specific segment.
-
-**GTM / Distribution:** Replicas integrates into existing developer workflows (Slack, Linear, GitHub) as the primary distribution mechanism, enabling bottom-up adoption within engineering teams (replicas.dev). Named customers include Mintlify, Helicone, Moda, Dart, Sorce, and Bluma (replicas.dev). The founding engineer job posting ($150K-$250K, 2-4% equity) suggests active product-led growth investment (YC page). [Inferred]: Primary GTM is product-led, leveraging YC network and founder's prior connections at Helicone (a YC W23 company) for early customer acquisition.
+- **Problem:** Engineering teams want to parallelize routine ticket work to AI coding agents but existing CLI/IDE agents require an attended terminal session, limiting throughput per engineer (tryreplicas.com product page).
+- **Approach:** Each task spawns an isolated sandboxed VM that clones the codebase, installs deps, runs services locally, executes Claude Code or Codex against the work, auto-fixes CI failures and code-review feedback, and opens a PR (tryreplicas.com; YC Launch page).
+- **Differentiation:** Devin (Cognition) bundles its own model and IDE; Cursor Background Agents run inside the Cursor editor and bill on tokens (Cursor blog, Feb 24 2026); Replicas is bring-your-own-credentials for Claude Code/Codex and trigger-agnostic across Slack, Linear, GitHub PR reviews, dashboard, and API (YC Launch page).
+- **Business Model:** "Subscription or direct credit purchase model; users pay only for active compute time" with auto sleep/wake (tryreplicas.com via WebFetch); no public tier prices found.
+- **TAM/SAM:** No public TAM/SAM data found for this specific segment; comparable Cognition is at $492M ARR (TechCrunch, May 27 2026) and Anysphere/Cursor at $2B ARR (TechCrunch / Next Web, Feb–Apr 2026) as proxies.
+- **GTM / Distribution:** [Inferred]: Founder-led sales into the YC network — public customer list is dominated by YC companies (Mintlify, Composio, Helicone, Dart, Knowunity, Trellis, Chronicle Labs) per tryreplicas.com.
 
 ## Defensibility
 
-- **Integration surface area:** Multi-platform triggers (Slack, Linear, GitHub, API) create workflow lock-in as teams build processes around Replicas-specific automation patterns (replicas.dev). [Inferred]: Switching costs increase as teams configure Environments, hooks, and MCPs specific to their codebase.
-- **Sandboxed environment configuration:** The Environments feature — codebase-specific VM configurations with databases, dependencies, hooks, and MCPs — represents per-customer setup that would need to be rebuilt on a competing platform (replicas.dev).
-- No patents, proprietary models, or data moats identified in public sources.
-
-**Market structure:** GitHub Copilot Coding Agent is the most direct incumbent threat, shipping autonomous issue-to-PR workflows as of 2026 across Pro, Business, and Enterprise tiers (GitHub Docs, 2026). [Inferred]: GitHub's agent is GitHub-native only, which creates a structural gap for teams that want triggers from Slack, Linear, or custom APIs — GitHub would need to build integrations outside its platform, which conflicts with its walled-garden distribution model. However, this gap may narrow.
-
-**Commoditization risk:** The core workflow — send a task description to an LLM coding agent running in a sandboxed container, output a PR — is architecturally reproducible. Claude Code and Codex are third-party models available to any competitor. GitHub, Atlassian (Jira/Bitbucket), and Linear could each build native versions of this workflow. Open-source alternatives like OpenHands (60,000+ GitHub stars, BusinessWire, Nov 2025) offer self-hosted options. [Inferred]: Differentiation depends on execution quality of the sandboxing, CI feedback loops, and breadth of integrations rather than proprietary technology.
+- **Moat today:** No defensibility signals found in public sources beyond integration breadth (Slack, Linear, GitHub, dashboard, API per YC Launch page) and BYO-credential support for Claude Code and Codex (tryreplicas.com).
+- **Future moat:** [Inferred]: Switching costs from per-repo Environments configuration (custom files, env vars, start hooks, warm hooks, skills/MCPs per YC Launch page) plus learned feedback loops per codebase; unproven because the product launched in V1 form ~2 months before article publication (YC Launch page).
+- **Market structure:** No structural barrier identified at this stage — incumbents Cursor and Cognition have already shipped background-agent products (Cursor Background Agents Feb 24 2026; Claude Code Remote Tasks Mar 20 2026 per Blink Blog / search snippet).
+- **Commoditization risk:** Any team with sandbox-VM orchestration plus integrations to Slack/Linear/GitHub can replicate the wrapper; sandbox primitives are available from E2B, Daytona, Modal, and Anthropic's own Claude Code Remote Tasks (Blink Blog, 2026 via search snippet).
 
 ## Market & Traction
 
-**Traction signals:**
-- Named customers: Mintlify, Helicone, Moda, Dart, Sorce, Bluma (replicas.dev)
-- Website claim: "Engineering teams use Replicas to ship over 30% of pull requests" (replicas.dev)
-- Twitter/X: @tryreplicas, account created October 2025 (web search); follower count not retrievable
-- LinkedIn: company page exists (YC page); follower count not retrieved
-- Founding Engineer job posting active: $150K-$250K, 2-4% equity, San Francisco (YC page)
-- No Product Hunt launch found
-- No press coverage in named publications found
-- No app store or Chrome extension presence found
-- No Discord/Slack community member counts found
-
-**Competitive landscape:**
-
-| Competitor | Funding | Revenue/ARR | Key Differentiator vs. Replicas |
-|---|---|---|---|
-| Devin (Cognition AI) | $400M, $10.2B valuation (TechCrunch, Sep 2025) | $73M ARR as of Jun 2025; ~$150M combined with Windsurf (Cognition blog, 2025) | Full autonomous agent with own IDE/browser; enterprise-first (Goldman Sachs, Citi); significantly higher price point historically |
-| Factory AI | $150M, $1.5B valuation (TechCrunch, Apr 2026) | Revenue unknown | Enterprise-focused (NVIDIA, Adobe clients); agent-native SDLC platform rather than task-level delegation |
-| GitHub Copilot Coding Agent | Part of GitHub/Microsoft | Revenue unknown (bundled) | Native GitHub integration; $39/user/month Enterprise tier; coding agent available across Pro/Business/Enterprise plans; limited to GitHub-triggered workflows |
-| OpenHands | $23.8M total (BusinessWire, Nov 2025) | Revenue unknown | Open-source (60K GitHub stars); self-hosted option; enterprise containerized runtime; campaign-style batch operations |
-
-**Why now:**
-- Claude Code and OpenAI Codex reached production-grade quality for autonomous multi-file coding tasks in 2025, making background agent workflows viable for the first time (replicas.dev product description references both models).
-- GitHub shipped its own Copilot Coding Agent in 2025, validating the category of autonomous issue-to-PR workflows (GitHub Docs, 2025-2026).
-- 51% of professional developers now use AI tools daily, and 90% of Fortune 100 companies have deployed GitHub Copilot (getpanto.ai, 2025), indicating broad acceptance of AI-assisted development.
-- [Inferred]: The availability of high-quality coding models as APIs (rather than requiring proprietary model training) lowered the barrier for building orchestration-layer products like Replicas, enabling a solo founder to compete in a space previously requiring large ML teams.
+- **Traction signals:**
+  - Customer logos: Mintlify, Composio, Helicone, Moda, Dart, Chronicle Labs, Sorce, Bluma, Knowunity, Trellis, Hyperspell, Totalis (tryreplicas.com).
+  - "20+ YC startups" using Replicas (YC Launch page; Connor Loi LinkedIn via search snippet).
+  - Product claim: "Engineering teams ship over 30% of pull requests" via Replicas (tryreplicas.com).
+  - Active hiring: Founding Engineer, $150K–$250K + 2.00–4.00% equity (YC jobs page).
+  - Replicas V1 launch announced via Connor Loi on X (status 2032151022345601109; tweet date not retrievable).
+  - No Product Hunt listing surfaced for Replicas in 2026 search results.
+- **Competitors:**
+  - Cognition / Devin ($2.05B+ raised cumulatively, $492M ARR May 2026, $26B post-money — TechCrunch, May 27 2026): proprietary agent model + IDE, not BYO-credential.
+  - Anysphere / Cursor ($2B ARR Feb 2026, ~$29.3B post-money Nov 2025, talks for $50B pre-money — TechCrunch / Next Web): Background Agents tied to Cursor editor, token-priced.
+  - Factory.ai / Droids ($215M+ total raised, $150M Series C April 16 2026 at $1.5B post-money, led by Khosla — Factory.ai/news, BusinessWire): enterprise/compliance-focused droids.
+  - Codegen ($16.2M raised, revenue unknown; acquired by ClickUp Dec 24 2025 — Crunchbase / WebProNews): LLM ticket-resolution agent, now part of ClickUp.
+  - Claude Code Remote Tasks (Anthropic, shipped Mar 20 2026 per Blink Blog via search snippet): native background execution from the model vendor Replicas resells.
+- **Why now:** Frontier coding-agent capability crossed an autonomous-PR threshold in 2026 — Cursor Background Agents Feb 24 2026, Claude Code Remote Tasks Mar 20 2026, Cognition $492M ARR (13× YoY) reported May 27 2026 (TechCrunch).
 
 ## Founders & Team
 
-**Connor Loi** — Solo Founder & CEO
-- BSc Computer Science (in progress or recently completed), University of Waterloo (LinkedIn, GitHub)
-- Previously: Software Engineer Intern at Helicone (YC W23), ~8 months. Built the AI Gateway (573 GitHub stars) and Prompts features; maintained the LLM observability platform at scale (LinkedIn)
-- Winner, "Best Use of Vapi" at CalHacks 11.0 for LiveStory project (GitHub)
-- Built "stack" — a simple PR stacking tool in Rust, 8 GitHub stars (GitHub)
-- Twitter/X: No personal public account found; company account @tryreplicas
-- LinkedIn: ca.linkedin.com/in/connor-loi — 500+ connections (LinkedIn search snippet)
-- GitHub: github.com/connortbot — 36 followers, 21 public repos. Contributor to Helicone/helicone (5.5k stars) and Helicone/ai-gateway (573 stars). Personal repos: squeak (6 stars), stack (8 stars), starbit (5 stars), caitlyn (14 stars) (GitHub)
-
-**Co-founder relationship:** Solo founder; not applicable.
-
-**Founder-market fit:** Connor Loi's 8-month tenure at Helicone (YC W23) — an LLM observability platform — provided direct experience building developer tools for AI infrastructure, including the AI Gateway that proxies LLM API calls. His "stack" project (PR stacking tool) demonstrates familiarity with PR-centric developer workflows. His connection to Helicone likely contributed to it being a named customer. As a University of Waterloo CS student, he fits the profile of a technical solo founder at pre-seed, though he lacks prior founding or management experience in public records.
+- **Saai Arora (Founder/CTO):**
+  - Background: BCS, University of Waterloo; prior internships at Ramp (Applied AI Engineer Intern, NYC), Databricks (SWE Intern, Mountain View), Shopify (SWE Intern), IBM (8-month intern), General Context, Autotrader (LinkedIn via search snippet).
+  - Twitter/X: No public account found in search results.
+  - LinkedIn: "Building something new and Incoming @ ramp" (ca.linkedin.com/in/saaiarora via search snippet).
+  - GitHub: No public handle confirmed in search results.
+- **Connor Loi (Founder):**
+  - Background: BCS, University of Waterloo (2022–2027); 8 months at Helicone (YC W23) building AI Gateway and Prompts; prior roles at Cohere and TD Bank (LinkedIn, GitHub bio via search snippet); CalHacks 11.0 "Best Use of Vapi" win with LiveStory project.
+  - Twitter/X: @connortbot (status 2032151022345601109); follower count not retrievable.
+  - LinkedIn: "founder @ replicas.dev (YC P26)" (ca.linkedin.com/in/connor-loi via search snippet).
+  - GitHub: @connortbot, 30 followers (search snippet); projects include Squeak, Caitlyn Renderer, Starbit; individual repo star counts not retrievable.
+- **Co-founder relationship:** Both attended University of Waterloo Computer Science (LinkedIn data via search snippets).
+- **Founder-market fit:** Loi shipped Helicone's AI Gateway and Prompts (LLM observability infra, YC W23 — Helicone.ai / search snippet); Arora was Applied AI Engineer at Ramp and SWE intern at Databricks/Shopify (LinkedIn via search snippet), giving both founders direct production experience with LLM tooling that maps to Replicas' core stack.
 
 ## Key Risks
 
-**LLM platform dependency:** Replicas runs Claude Code and Codex as its agent backends. Pricing, rate limits, and capabilities are controlled by Anthropic and OpenAI respectively. A significant API price increase or capability regression would directly impact Replicas' unit economics and product quality. Mitigation: supporting multiple models (Claude Code and Codex) reduces single-vendor risk. (replicas.dev)
-
-**GitHub Copilot Coding Agent overlap:** GitHub shipped autonomous issue-to-PR coding agent functionality across Pro, Business, and Enterprise tiers in 2025-2026, directly overlapping with Replicas' core workflow. GitHub has distribution advantage (90% of Fortune 100 already on Copilot, getpanto.ai, 2025). Replicas' differentiation — Slack/Linear triggers, multi-model support — may not be sufficient if GitHub expands its integration surface. (GitHub Docs, 2026)
-
-**Solo founder execution risk at competitive intensity:** The autonomous coding agent market attracted $570M+ in disclosed funding in 2025-2026 across Cognition ($400M), Factory ($150M), and OpenHands ($23.8M). As a solo founder competing against teams with significant engineering and go-to-market resources, scaling product development, customer support, and sales simultaneously presents structural execution challenges. The active Founding Engineer job posting indicates awareness of this constraint. (TechCrunch; YC page)
-
-**Name disambiguation:** "Replicas" is a common English word. Search results frequently return unrelated results (Replica Studios, Replica 3D avatars, replica merchandise). This may hinder organic discoverability and SEO. The company uses "tryreplicas" as its Twitter handle, suggesting awareness of the issue. (web search results)
+- **Platform dependency on Anthropic and OpenAI:** Replicas wraps Claude Code and Codex (tryreplicas.com); Anthropic shipped Claude Code Remote Tasks on Mar 20 2026 (Blink Blog via search snippet), creating direct substitution risk from the underlying model vendor.
+- **Well-capitalized incumbents in the same workflow:** Cognition raised $1B at $26B post-money on May 27 2026 (TechCrunch); Anysphere/Cursor at $2B ARR pursuing $50B valuation (Next Web, Apr 2026); Factory.ai $150M Series C April 2026 (Factory.ai/news) — all shipping background-agent products. No public Replicas funding disclosed.
+- **Single-named-founder operating status:** YC page lists Team Size = 1 despite two publicly named founders (YC page; tryreplicas.com); a Founding Engineer search is open at $150K–$250K + 2–4% equity (YC jobs page).
+- **Customer concentration in YC network:** Named customers (Mintlify, Composio, Helicone, Dart, Knowunity, Trellis, Chronicle Labs) are YC alumni (tryreplicas.com), leaving non-YC enterprise validation undemonstrated in public sources.
+- **No disclosed revenue or pricing tiers:** Pricing page mentions subscription/credits and active-compute billing but no public dollar figures found (tryreplicas.com via WebFetch), limiting visibility into monetization traction.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $7.37B in 2025, projected $23.97B by 2030 at 26.60% CAGR (MarketsandMarkets, 2025) |
+| TAM | No public data found |
 | SAM | No public data found |
-| Traction | 6 named customers: Mintlify, Helicone, Moda, Dart, Sorce, Bluma (replicas.dev); "30% of PRs" claim (replicas.dev, unverified) |
-| Revenue Signal | Hobby: Free/20hrs; Developer: $30/seat/mo; Team: $120/seat/mo; Enterprise: custom; API: $0.0166/min (replicas.dev/pricing) |
-| Founders | Connor Loi (Solo Founder): UWaterloo CS, former SWE intern at Helicone (YC W23), built AI Gateway |
-| Competitors | Devin ($400M raised, $73M ARR, full autonomous agent); Factory ($150M raised, revenue unknown, enterprise-focused); GitHub Copilot Coding Agent (Microsoft-backed, bundled pricing, GitHub-native); OpenHands ($23.8M raised, revenue unknown, open-source) |
+| Traction | "20+ YC startups" using product (YC Launch page, 2026); 12 named customer logos including Mintlify, Composio, Helicone (tryreplicas.com, 2026); ">30% of pull requests" shipped via Replicas per company claim (tryreplicas.com, 2026) |
+| Revenue Signal | Subscription or credit-purchase model; pay-per-active-compute-time with auto sleep/wake; no dollar figures disclosed (tryreplicas.com, 2026) |
+| Founders | Saai Arora (Founder/CTO): UWaterloo CS, ex-Ramp/Databricks/Shopify/IBM intern. Connor Loi (Founder): UWaterloo CS, ex-Helicone (shipped AI Gateway), ex-Cohere, ex-TD Bank. |
+| Competitors | Cognition/Devin ($2B+ raised, $492M ARR, $26B post-money May 2026 — proprietary model + IDE, not BYO); Anysphere/Cursor ($2B ARR Feb 2026, in-editor background agents); Factory.ai ($215M+ raised, $1.5B post-money Apr 2026, enterprise droids); Codegen ($16.2M, acquired by ClickUp Dec 2025); Claude Code Remote Tasks (Anthropic, Mar 20 2026 native feature) |
 | Moat Signals | No public data found |
-| Risk Factors | LLM platform dependency (Anthropic/OpenAI), GitHub Copilot feature overlap, solo founder vs. heavily funded competitors |
-| Founder Reach | Connor Loi: Twitter/X personal not found, company @tryreplicas (count not retrievable); LinkedIn 500+ connections; GitHub 36 followers (GitHub, LinkedIn) |
-| Distribution Signals | No public data found |
-| Emails | connor@replicas.dev, founders@replicas.dev (replicas.dev, YC page) |
+| Risk Factors | Platform dependency on Anthropic/OpenAI; well-capitalized incumbents (Cognition $26B, Cursor $50B-target, Factory $1.5B); YC-network customer concentration |
+| Founder Reach | Connor Loi: Twitter @connortbot (count not retrievable), LinkedIn headline "founder @ replicas.dev (YC P26)", GitHub @connortbot 30 followers. Saai Arora: Twitter not found, LinkedIn "Building something new and Incoming @ ramp", GitHub not found. |
+| Distribution Signals | Replicas V1 launch tweet via @connortbot (X status 2032151022345601109); YC Launch page live (ycombinator.com/launches/PpP-replicas); active Founding Engineer posting at $150K–$250K + 2–4% equity (YC jobs page); no Product Hunt listing surfaced |
+| Emails | founders@replicas.dev (tryreplicas.com); loiconnor8@gmail.com (Connor Loi GitHub profile via search snippet) |
+
+Sources:
+- [Replicas YC Company Page](https://www.ycombinator.com/companies/replicas)
+- [Replicas YC Launch Page](https://www.ycombinator.com/launches/PpP-replicas-end-to-end-background-coding-agents)
+- [Replicas Website](https://tryreplicas.com/)
+- [Founding Engineer at Replicas](https://www.ycombinator.com/companies/replicas/jobs/1r7KcWj-founding-engineer)
+- [Connor Loi LinkedIn](https://ca.linkedin.com/in/connor-loi)
+- [Saai Arora LinkedIn](https://ca.linkedin.com/in/saaiarora)
+- [Connor Loi GitHub (@connortbot)](https://github.com/connortbot)
+- [Connor Loi V1 Launch Tweet](https://x.com/connortbot/status/2032151022345601109)
+- [Hiretop coverage of Replicas](https://hiretop.com/news-list/replicas-background-coding-agents/)
+- [TechCrunch — Cognition $1B at $25B](https://techcrunch.com/2026/05/27/ai-coding-startup-cognition-raises-1b-at-25b-pre-money-valuation/)
+- [Next Web — Cursor $2B ARR / $50B](https://thenextweb.com/news/cursor-anysphere-2-billion-funding-50-billion-valuation-ai-coding)
+- [Factory.ai Series C](https://factory.ai/news/series-c)
+- [Factory.ai Series B (BusinessWire)](https://www.businesswire.com/news/home/20250925993478/en/Factory-Unleashes-the-Droids-Raises-$50-Million-Series-B-from-NEA-Sequoia-Capital-NVIDIA-and-J.P.-Morgan)
+- [Codegen Crunchbase](https://www.crunchbase.com/organization/codegen-57c7)
+- [Blink Blog — AI Coding Agents 2026](https://blink.new/blog/best-ai-coding-agents-2026)

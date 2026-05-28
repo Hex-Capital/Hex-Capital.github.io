@@ -1,126 +1,105 @@
 ﻿# AICE Power
 
-> Smart energy monitoring for buildings.
+> Submarine drones for defense
 
 | Field | Value |
 |-------|-------|
 | Website | https://aicepower.com |
 | YC Page | https://www.ycombinator.com/companies/aice-power |
 | Batch | Spring 2026 |
-| Industry | Industrials / Industrials -> Energy |
+| Industry | Industrials / Industrials -> Defense |
 | Team Size | 2 |
-| Location | No public data found |
-| Tags | Batteryless IoT Sensors, Hardware, Climate |
-| YC Partner | Nicolas Dessaigne |
-| Emails | contact@aicepower.com |
+| Location | San Francisco, CA, USA |
+| Tags | Hardware, Swarm AI, Robotics, Drones |
+| YC Partner | Nicolas Dessaigne (YC page) |
+| Emails | contact@aicepower.com, greg@aicepower.com (aicepower.com, YC page) |
 
 ## The Idea
 
-**Problem:** Smaller commercial buildings—supermarkets, retail stores, fast food chains—lack visibility into energy consumption (YC page). Traditional Building Management Systems (BMS) are expensive, require specialized integrators, and only cover major loads (LinkedIn post, AICE Power). These sites have no monitoring at all, and inefficiencies go undetected until they appear on the bill (aicepower.com).
-
-**Approach:** AICE Power manufactures clip-on current sensors that install on electrical panels without cutting power (LinkedIn post, AICE Power). A 4G gateway comes online the same day and collects signals (LinkedIn post). The platform uses AI to disaggregate consumption by usage type and zone, applies weather-adjusted baselines to normalize across sites, and automatically detects anomalies with real-time alerts (aicepower.com). The company claims installation takes approximately 30 minutes per site and full deployment within one day (YC page).
-
-**Differentiation:**
-- vs. traditional BMS (Honeywell, Siemens Desigo CC): AICE claims 5% the cost and same-day deployment vs. weeks of installation and rewiring (YC page).
-- vs. Verdigris Technologies ($41.8M raised; Crunchbase): Both use clip-on CT sensors and AI disaggregation, but Verdigris targets large commercial/industrial buildings; AICE targets multi-site chains of smaller commercial venues with a multi-site comparison dashboard (aicepower.com).
-- vs. Infogrid ($148M raised; TechCrunch, Apr 2023): Infogrid covers broader building intelligence (occupancy, air quality, cleaning) while AICE focuses specifically on energy waste detection at lower cost (TechCrunch).
-
-**Business Model:** No public pricing page found. The company claims deployment at "5% the cost of traditional Building Management Systems" (YC page) and advertises "6-month ROI from electricity savings" (YC page). [Inferred]: Most likely monetization is hardware sales (sensors + gateway) plus a recurring SaaS subscription for the monitoring platform, given the multi-site dashboard and real-time alerting features.
-
-**TAM/SAM:** The Building Energy Management System (BEMS) market was valued at approximately $7.6B in 2025 and is projected to reach $26.1B by 2035 at a 13.2% CAGR (Market Research Future via search snippet). Another estimate places it at $10.3B in 2024 growing to $20.8B by 2030 (Strategic Market Research via search snippet). The commercial & institutional segment represents approximately 41% of the BEMS market (MarkNtel Advisors via search snippet). No public SAM estimate specific to AICE Power's sub-segment (small-format multi-site commercial) was found.
-
-**GTM / Distribution:** The company displays client logos including E.Leclerc (French supermarket chain), Accor (hospitality group), NASA, Station F, and EPFL (aicepower.com). The French phone number (+33) and AICE Sàrl registration in Lausanne in 2025 (Moneyhouse) suggest initial go-to-market in France and Switzerland. [Inferred]: Distribution likely follows a direct B2B sales motion targeting multi-site operators (retail chains, hospitality groups) where a single procurement decision scales across dozens or hundreds of locations.
+- **Problem:** Naval assets and coastal infrastructure face evolving underwater threats (mines, hostile UUVs, subsea cable sabotage) with current alternatives being crewed patrol vessels or single high-cost UUVs from primes like Kongsberg/Saab (YC page; UUV market report, Globe Newswire May 2026).
+- **Approach:** Autonomous swarms of modular subsea drones for surveillance, detection, and protection, with depth markers shown on the site spanning 100m–600m (aicepower.com).
+- **Differentiation:** [Inferred]: Vs. Anduril Dive-LD (6,000m, 10-day endurance, large-diameter single vehicle, anduril.com) and Saronic surface vessels (autonomous surface ships, prnewswire.com Mar 2026), AICE positions on swarm/modular subsea rather than monolithic platforms.
+- **Business Model:** No pricing page on aicepower.com; [Inferred]: defense procurement contracts and government program awards similar to DIU's $99M Anduril Dive-XL contract (Feb 2024, asdnews.com).
+- **TAM/SAM:** Global military UUV market $5.80B in 2024 projected to $13.40B by 2034 at 9.75% CAGR (Zion Market Research); Defense UUV $4.96B in 2025 at 10.8% CAGR through 2032 (Metastat Insights).
+- **GTM / Distribution:** [Inferred]: Direct sales to U.S. Navy / DoD programs and allied navies; manufacturing referenced as France per website coordinates (aicepower.com), with U.S. HQ in San Francisco (YC page).
 
 ## Defensibility
 
-- **Data moat (potential):** Each deployed site generates continuous electrical load signatures. Over time, disaggregation models trained on diverse building types and equipment could improve accuracy in ways new entrants cannot replicate without comparable installed base. This is unrealized at current scale (10+ sites; LinkedIn post).
-- **Hardware + software integration:** Manufacturing proprietary sensors and firmware creates a higher barrier than pure-software competitors, though clip-on CT sensors are a known technology (aicepower.com).
-- **Switching costs:** Once sensors are installed and baselines established, switching requires physical hardware removal and re-baselining. [Inferred]: Moderate switching costs for multi-site operators who integrate alerts into operational workflows.
-
-**Market structure:** Traditional BMS vendors (Honeywell, Siemens, Johnson Controls) sell high-cost systems through specialized integrator channels. [Inferred]: Serving small-format commercial sites at 5% of BMS cost would cannibalize their integrator relationships and compress margins on their existing product lines, creating business model conflict that slows incumbent response.
-
-**Commoditization risk:** Clip-on CT sensors are commodity hardware. Software disaggregation via NILM (non-intrusive load monitoring) is an active research area with open-source implementations. Verdigris Technologies has operated in this space since 2011 with $41.8M+ in funding (Crunchbase). [Inferred]: The technical approach is replicable; defensibility depends on execution speed in multi-site deployment and data accumulation rather than proprietary technology.
+- **Moat today:** No defensibility signals found in public sources for the current submarine-drone product; the company pivoted from energy sensors on May 16, 2026 (pivotarchive.com).
+- **Future moat:** [Inferred]: Swarm-coordination software combined with manufacturing IP could produce data/IP moats over deployment cycles; unproven now because hardware is pre-launch and no contracts are disclosed (aicepower.com).
+- **Market structure:** [Inferred]: Defense procurement creates regulatory/ITAR barriers (export controls, security clearances) that delay incumbents from copying via standard commercial channels; no AICE-specific structural barrier identified at this stage.
+- **Commoditization risk:** Anduril, Saronic, Saildrone, Kongsberg, Teledyne, Saab, L3Harris, HavocAI all build maritime autonomy products (Bloomberg Apr 2025; Globe Newswire May 2026), and UUV hardware can be assembled from commercially available subsea components.
 
 ## Market & Traction
 
-**Traction signals:**
-- Live on 10+ sites tracking 5+ MW (LinkedIn post, AICE Power)
-- Client logos displayed: E.Leclerc, Accor, NASA, Station F, EPFL, Pioneers (aicepower.com)
-- Claims "15-20% typical savings without investment" (aicepower.com)
-- AICE Sàrl registered in Lausanne, Switzerland in 2025 (Moneyhouse)
-- LinkedIn company page: AICE Power (YC P26) — follower count not retrievable (LinkedIn)
-- GitHub organization: 1 public repo, 1 star, 1 follower (GitHub)
-- Twitter/X: No dedicated company account found
-- Product Hunt: No listing found
-- Discord/Slack community: No public data found
-- App store/download counts: Not applicable (hardware + web platform)
-- Job postings: 0 active postings (YC page)
-
-**Competitive landscape:**
-
-| Competitor | Funding | Revenue/ARR | Key Differentiator vs. AICE |
-|---|---|---|---|
-| Verdigris Technologies | $41.8M+ (Crunchbase) | Revenue unknown | Similar CT sensor + AI approach but targets large C&I buildings, not multi-site small commercial |
-| Facilio | $45.9M (inc42, Feb 2022) | ~$6.4M (FY2024; Getlatka) | Software-only platform aggregating existing BMS data; no proprietary hardware; 25K+ buildings |
-| Infogrid | $148M total (TechCrunch, Apr 2023) | Revenue undisclosed | Broader scope (occupancy, air quality, cleaning, energy); higher price point; UK-focused |
-| Sensgreen | $520K (Crunchbase) | Revenue unknown | AI building analytics; similar stage; based in Abu Dhabi |
-| Enertiv | $18.4M (Dealroom) | Revenue unknown | Load disaggregation for commercial real estate; NYC-focused |
-
-**Why now:**
-- EU Energy Performance of Buildings Directive (EPBD) recast adopted in 2024 requires energy performance monitoring in commercial buildings (European Commission, 2024 via search snippet).
-- [Inferred]: Declining costs of IoT connectivity (4G/LTE-M modules) and edge computing make sub-$1K per-site monitoring economically viable for small commercial venues that were previously uneconomical to instrument.
-- [Inferred]: Rising electricity prices in Europe (post-2022 energy crisis) increase the financial incentive for commercial operators to identify and eliminate waste, shortening payback periods.
+- **Traction signals (current product — submarine drones):**
+  - Launched as YC Spring 2026 company (YC page); product page lists only category descriptors with no metrics (aicepower.com).
+  - Two team members (YC page).
+  - No revenue, customer, press, or social-follower data found for the submarine-drone product.
+- **Traction signals (prior product — energy-waste sensors, pre-May 2026 pivot):**
+  - "Six figures in ARR" with paying customers per Rémi Bouteiller's portfolio site (remi.bouteiller.org, via search snippet).
+  - YC launch post: "Sensors to cut energy bill by 30%" (YC page); YC tweet by @ycombinator referenced @remi_bouteiller and Gregoire on launch (x.com/ycombinator).
+- **Competitors:**
+  - Anduril (Dive-LD/Dive-XL): raised $4B at $60B valuation Mar 2026 (a16z/Thrive lead), $1B 2024 revenue (Sacra); $1.7B Royal Australian Navy Ghost Shark XL-AUV contract; $99M DIU Dive-XL contract Feb 2024 (anduril.com, asdnews.com) — large-diameter single-platform UUV vs. AICE's swarm approach.
+  - Saronic Technologies: $2.58B total raised, $1.75B Series D Mar 2026 at $9.25B valuation led by Kleiner Perkins (prnewswire.com), $12.5M 2024 revenue (Sacra) — surface vessels, not subsea.
+  - Saildrone: $43M 2024 revenue, +231% YoY (Sacra) — long-endurance surface sailing drones, not subsea attack/protection.
+  - HavocAI, Maritime Robotics, Open Ocean Robotics, EyeROV listed as adjacent maritime-autonomy players (cbinsights.com), revenue unknown.
+- **Why now:** [Inferred]: Pentagon's Replicator-era contracting and high-profile undersea-cable/pipeline sabotage incidents in 2023–2025 are pulling defense buyers toward distributed subsea autonomy, with naval/coastal defense forecast at 41.24% of UUV market share in 2026 (Globe Newswire May 2026).
 
 ## Founders & Team
 
-**Grégoire Chomette** — Co-founder & CEO
-- MS Aeronautics & Astronautics, Massachusetts Institute of Technology (ResearchGate)
-- Research at EPFL on biogas supply chain optimization (2018 publication in Computer Aided Chemical Engineering; Google Scholar)
-- Asteroid Risk Assessment Engineer at NASA Ames Research Center (Google Scholar; NASA Technical Reports Server)
-- 7 peer-reviewed publications, 78 total citations, h-index 4 (Google Scholar)
-- Lead author: "Machine learning for the prediction of local asteroid damages," *Acta Astronautica* (2024), 9 citations (Google Scholar)
-- Twitter/X: No public account found
-- LinkedIn: linkedin.com/in/gregoirechomette — "Co-founder @ AICE Power (YC P26)" (LinkedIn)
-- GitHub: No public repos found
-
-**Rémi Bouteiller** — Co-founder & CTO
-- ENS Paris-Saclay, EECS (2019-2021); Institut Polytechnique de Paris, MS Embedded Systems (2021-2022); ESSEC Business School, MS Management (2022-2023) (personal portfolio site)
-- Founding Engineer at Amira Health: led electronics and firmware for a wearable device, designed multi-chip PCBs, built BLE firmware with 2-week battery life, managed manufacturing in Shenzhen (personal portfolio site)
-- Prior: electronics engineer at Pulse Audition/EssilorLuxottica (AI hearing aid), Balyo (autonomous robots) (personal portfolio site)
-- French Eurobot Champion 2020 (personal portfolio site)
-- Winner, HEC-IP Paris Big Data Hackathon 2023; 1st place Data Science for Climate Hackathon 2023 (personal portfolio site)
-- Twitter/X: No public account found
-- LinkedIn: linkedin.com/in/remi-bouteiller (LinkedIn)
-- GitHub: github.com/rbouteiller — 10 repos; airplay-esp32 (223 stars), spotifydl (49 stars) (GitHub)
-
-**Co-founder relationship:** No shared employer or university found in Phase 3 research. Chomette's background is MIT/EPFL/NASA; Bouteiller's is ENS Paris-Saclay/IP Paris/ESSEC/Amira Health. Both are French. [Inferred]: Connection likely through French engineering school networks or the Paris/Station F startup ecosystem.
-
-**Founder-market fit:** Chomette brings energy domain research (biogas supply chain optimization at EPFL, published 2018) and computational modeling expertise from MIT/NASA. Bouteiller brings end-to-end hardware product experience: PCB design, embedded firmware, BLE, manufacturing operations in Shenzhen, and full-stack software—directly applicable to building a sensor-to-cloud energy monitoring system. The combination covers the hardware engineering, signal processing, and energy domain knowledge required.
+- **Grégoire Chomette (Co-founder, CEO):**
+  - Background: MIT AeroAstro MSc 2021 working with Prof. Raul Radovitzky on deep learning for jet-engine signals; EPFL 2013–2016; prior NASA research on asteroid risk assessment; 2 years in energy consulting (Google Scholar; ResearchGate; MIT AeroAstro news; whitebridge.ai).
+  - Twitter/X: No public account found in search.
+  - LinkedIn: "Co-founder @ AICE Power (YC P26)" (linkedin.com/in/gregoirechomette).
+  - GitHub: No public repos found.
+- **Rémi Bouteiller (Co-founder, Engineering):**
+  - Background: MSc Embedded Systems & Data Processing from ENS Paris-Saclay / Institut Polytechnique de Paris, dual degree with ESSEC Business School; Founding Engineer at Amira Health (wearable "Terra" predicting hot flashes); built AICE prior-product sensor stack and alerting platform (remi.bouteiller.org; linkedin.com/in/remi-bouteiller).
+  - Twitter/X: @remi_bouteiller (referenced by @ycombinator launch tweet, x.com/ycombinator/status/2041523894381920447); follower count not retrievable.
+  - LinkedIn: "AICE Power" (linkedin.com/in/remi-bouteiller).
+  - GitHub: @rbouteiller (github.com/rbouteiller); no top repo with notable star count found.
+- **Co-founder relationship:** Both founders are French and based in the SF/Paris axis; no public data found on a shared prior employer or university.
+- **Founder-market fit:** [Inferred]: Chomette's MIT AeroAstro and NASA background covers autonomous-vehicle research, and Bouteiller's embedded-systems/hardware track record applies to subsea hardware, but neither founder's public profile lists prior naval, defense, or marine-robotics experience (linkedin.com/in/gregoirechomette; remi.bouteiller.org).
 
 ## Key Risks
 
-**Verdigris overlap:** Verdigris Technologies has operated since 2011 with $41.8M+ in funding using a nearly identical technical approach (clip-on CT sensors + AI disaggregation) targeting commercial buildings (Crunchbase; TechCrunch, Mar 2016). AICE must demonstrate differentiation beyond targeting smaller venues. Mitigation: AICE's multi-site comparison features and lower price point target a segment Verdigris has not prioritized.
-
-**Hardware scaling complexity:** Manufacturing and deploying physical sensors across hundreds of sites requires supply chain management, quality control, and field support capabilities that are challenging for a 2-person team (aicepower.com; YC page). Bouteiller's Shenzhen manufacturing experience partially mitigates this (personal portfolio site).
-
-**Customer concentration risk:** With 10+ sites live and client logos including E.Leclerc and Accor (aicepower.com), a significant portion of current deployment may depend on one or two enterprise relationships. Loss of a key early customer could materially impact traction metrics.
-
-**Regulatory fragmentation:** Energy monitoring requirements and building codes vary across EU member states and between EU and US markets (European Commission). Multi-market expansion requires navigating different compliance regimes, potentially slowing geographic scaling.
-
-**Name confusion risk:** "AICE" returns results for multiple unrelated organizations (AICE union, AICE interpreters, AICE Indonesia ice cream brand) across web and social media searches, which could complicate brand building and SEO.
+- **Pivot risk and product immaturity:** AICE Power executed a "120° pivot" from building-energy sensors to submarine defense drones on May 16, 2026 (pivotarchive.com); the prior product's six-figure ARR (remi.bouteiller.org) does not transfer, and no hardware milestones, prototypes, or contracts are disclosed for the new product (aicepower.com).
+- **Domain experience gap:** [Inferred]: Neither founder's public record (Chomette: aerospace/NASA/energy consulting; Bouteiller: embedded systems / wearables) shows prior naval, subsea, or DoD-procurement experience (linkedin.com/in/gregoirechomette; remi.bouteiller.org), which matters given defense buyers' reliance on cleared-personnel relationships.
+- **Well-capitalized direct competition:** Anduril ($4B round at $60B, a16z/Thrive Mar 2026) and Saronic ($1.75B Series D at $9.25B, Kleiner Perkins Mar 2026) are both expanding into maritime/undersea autonomy with multi-year DoD contract pipelines (prnewswire.com; breakingdefense.com Mar 2026), narrowing room for a 2-person pre-seed entrant.
+- **Procurement cycle length:** [Inferred]: U.S. defense procurement for novel UUVs typically runs multi-year via DIU/SBIR/Navy channels (e.g., Anduril's Feb 2024 DIU contract → 2026 CAMP demo, asdnews.com), creating cash-burn risk before first revenue at a 2-person team funded on YC standard terms.
+- **Regulatory/ITAR exposure:** [Inferred]: Subsea defense hardware crossing France↔U.S. manufacturing borders (aicepower.com references France manufacturing; YC page lists SF) triggers ITAR/export-control compliance that adds time and legal cost.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $7.6B in 2025, projected $26.1B by 2035 at 13.2% CAGR (Market Research Future via search snippet) |
+| TAM | Military UUV $5.80B (2024) → $13.40B (2034) at 9.75% CAGR (Zion Market Research); Defense UUV $4.96B 2025 at 10.8% CAGR to 2032 (Metastat Insights) |
 | SAM | No public data found |
-| Traction | 10+ sites live tracking 5+ MW (LinkedIn post, AICE Power); client logos include E.Leclerc, Accor, NASA, Station F, EPFL (aicepower.com) |
-| Revenue Signal | No public data found |
-| Founders | Grégoire Chomette (CEO): MIT MS Aero/Astro, NASA researcher, EPFL energy research. Rémi Bouteiller (CTO): ENS Paris-Saclay + IP Paris embedded systems, ESSEC, founding engineer Amira Health. |
-| Competitors | Verdigris ($41.8M+ raised, revenue unknown, similar CT sensor + AI approach for larger buildings); Facilio ($45.9M raised, ~$6.4M revenue FY2024, software-only BMS aggregation); Infogrid ($148M raised, revenue unknown, broader smart building scope); Sensgreen ($520K raised, revenue unknown, AI building analytics); Enertiv ($18.4M raised, revenue unknown, load disaggregation) |
+| Traction | Current product (submarine drones): no public data found. Prior product (energy sensors, pre-May 2026 pivot): "six figures in ARR" with paying customers (remi.bouteiller.org via search snippet); YC launch post "Sensors to cut energy bill by 30%" (YC page) |
+| Revenue Signal | No pricing page on aicepower.com (aicepower.com, May 2026); no current-product revenue disclosed |
+| Founders | Grégoire Chomette (Co-founder, CEO): MIT AeroAstro MSc 2021, EPFL, ex-NASA asteroid-risk research, ex-energy consulting. Rémi Bouteiller (Co-founder, Engineering): MSc Embedded Systems ENS Paris-Saclay/IP Paris + ESSEC, Founding Engineer Amira Health |
+| Competitors | Anduril ($4B round Mar 2026 at $60B valuation, $1B 2024 revenue, Dive-LD/Dive-XL large-diameter UUV vs. AICE swarm); Saronic ($2.58B raised, $9.25B valuation Mar 2026, $12.5M 2024 revenue, surface vessels not subsea); Saildrone ($43M 2024 revenue, +231% YoY, long-endurance surface); HavocAI / Maritime Robotics / Kongsberg / Saab (revenue unknown for relevant segments, incumbent UUV primes) |
 | Moat Signals | No public data found |
-| Risk Factors | Verdigris technical overlap, hardware scaling with 2-person team, customer concentration |
-| Founder Reach | Chomette: Twitter not found, LinkedIn 500+ connections (LinkedIn), GitHub not found. Bouteiller: Twitter not found, LinkedIn (LinkedIn), GitHub 272+ stars across repos (GitHub). |
+| Risk Factors | Recent pivot from energy sensors (May 16, 2026), domain-experience gap in naval/defense, well-capitalized direct competitors (Anduril, Saronic) |
+| Founder Reach | Grégoire Chomette: Twitter not found, LinkedIn count not retrievable, GitHub none found. Rémi Bouteiller: Twitter @remi_bouteiller (count not retrievable), LinkedIn count not retrievable, GitHub @rbouteiller (no notable repo found) |
 | Distribution Signals | No public data found |
-| Emails | contact@aicepower.com (aicepower.com) |
+| Emails | contact@aicepower.com (aicepower.com), greg@aicepower.com (YC page) |
+
+Sources:
+- [AICE Power | Y Combinator](https://www.ycombinator.com/companies/aice-power)
+- [AICE Power website](https://aicepower.com/)
+- [AICE Power Pivot — Pivot Archive](https://www.pivotarchive.com/pivots/aice-power-sp26)
+- [Rémi Bouteiller portfolio](https://remi.bouteiller.org/)
+- [Rémi Bouteiller LinkedIn](https://www.linkedin.com/in/remi-bouteiller/en)
+- [Greg Chomette LinkedIn](https://www.linkedin.com/in/gregoirechomette/)
+- [Y Combinator launch tweet](https://x.com/ycombinator/status/2041523894381920447)
+- [Chomette MIT AeroAstro thesis](https://dspace.mit.edu/bitstream/handle/1721.1/138933/Chomette-chomette-MSc-AeroAstro-2021-thesis.pdf)
+- [Saronic Series D — PR Newswire](https://www.prnewswire.com/news-releases/saronic-closes-1-75b-series-d-at-9-25b-valuation-to-accelerate-a-new-era-of-maritime-autonomy-302729238.html)
+- [Saronic at $12.5M/year — Sacra](https://sacra.com/research/saronic-anduril-of-the-seas/)
+- [Saildrone at $43M/year — Sacra](https://sacra.com/research/saildrone-at-43m-yr/)
+- [Anduril Dive-XL](https://www.anduril.com/dive-xl)
+- [DIU and US Navy Select Anduril for XL-AUV — ASDNews](https://www.asdnews.com/news/defense/2026/03/12/diu-us-navy-select-anduril-xlauv-program)
+- [Bloomberg: Anduril, Saronic, Saildrone bring drones to the ocean](https://www.bloomberg.com/news/articles/2025-04-11/anduril-saronic-saildrone-aim-to-bring-drones-to-the-ocean)
+- [Military UUV Market — Zion Market Research](https://www.zionmarketresearch.com/report/military-unmanned-underwater-vehicles-uuv-market)
+- [Defense UUV Market — Metastat Insights](https://metastatinsight.com/report/defense-unmanned-undersea-vehicle-uuv-market)
+- [UUV Market Forecast 2026-2036 — GlobeNewswire](https://www.globenewswire.com/news-release/2026/05/08/3291171/28124/en/Unmanned-Underwater-Vehicle-UUV-Market-Forecast-Report-2026-2036-Featuring-Kongsberg-Maritime-Huntington-Ingalls-Industries-Teledyne-Technologies-Saab-Lockheed-Martin-and-More.html)

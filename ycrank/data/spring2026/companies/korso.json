@@ -5,72 +5,42 @@
   "metadata": {
     "website": "https://korsoai.com/",
     "yc_page": "https://www.ycombinator.com/companies/korso",
-    "batch": "Spring 2026",
+    "batch": "Spring 2026 (YC P26)",
     "industry": "B2B / B2B -> Operations",
     "team_size": "3",
     "location": "San Francisco, CA, USA",
-    "tags": "SaaS, Manufacturing, AI",
-    "yc_partner": "Andrew Miklas",
-    "emails": "support@korsoai.com"
+    "tags": "Artificial Intelligence, SaaS, Manufacturing",
+    "yc_partner": "Andrew Miklas (YC company page)",
+    "emails": "support@korsoai.com (korsoai.com)"
   },
   "tags": [
+    "Artificial Intelligence",
     "SaaS",
-    "Manufacturing",
-    "AI"
+    "Manufacturing"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-22T23:57:02.106Z",
+  "memoGeneratedAt": "2026-05-28T03:05:23.341Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 57,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 40,
+      "score": 41,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 46,
-    "EG": 57,
-    "NR": 49,
-    "PG": 44,
-    "PT": 34,
-    "SL": 33,
-    "VK": 40
+    "CB": 41,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 43.29,
-  "consolidatedRank": 54,
+  "consolidatedAvg": 41,
+  "consolidatedRank": 114,
   "paths": {
     "memo": "spring2026/memos/korso.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/korso.md",
-      "elad-gil": "spring2026/evals/elad-gil/korso.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/korso.md",
-      "paul-graham": "spring2026/evals/paul-graham/korso.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/korso.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/korso.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/korso.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/korso.md"
     }
   }
 }

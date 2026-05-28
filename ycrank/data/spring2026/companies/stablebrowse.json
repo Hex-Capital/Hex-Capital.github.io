@@ -10,8 +10,8 @@
     "team_size": "4",
     "location": "San Francisco, CA, USA",
     "tags": "API, Automation, Web Development, AI",
-    "yc_partner": "Tom Blomfield",
-    "emails": "No public data found"
+    "yc_partner": "Tom Blomfield (YC company page)",
+    "emails": "team@stablebrowse.ai (company website)"
   },
   "tags": [
     "API",
@@ -20,58 +20,28 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-22T23:43:58.906Z",
+  "memoGeneratedAt": "2026-05-28T02:52:41.253Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 50,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
       "score": 31,
       "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 47,
-      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 35,
-    "EG": 50,
-    "NR": 44,
-    "PG": 36,
-    "PT": 31,
-    "SL": 30,
-    "VK": 47
+    "CB": 31,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 39,
-  "consolidatedRank": 109,
+  "consolidatedAvg": 31,
+  "consolidatedRank": 180,
   "paths": {
     "memo": "spring2026/memos/stablebrowse.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/stablebrowse.md",
-      "elad-gil": "spring2026/evals/elad-gil/stablebrowse.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/stablebrowse.md",
-      "paul-graham": "spring2026/evals/paul-graham/stablebrowse.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/stablebrowse.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/stablebrowse.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/stablebrowse.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/stablebrowse.md"
     }
   }
 }

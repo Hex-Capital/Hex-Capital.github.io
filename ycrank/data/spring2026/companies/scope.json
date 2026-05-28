@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://tryscope.app",
     "yc_page": "https://www.ycombinator.com/companies/scope",
-    "batch": "Spring 2026 (YC company page)",
+    "batch": "Spring 2026 (YC page)",
     "industry": "B2B / B2B",
     "team_size": "1",
     "location": "San Francisco, CA, USA",
     "tags": "Generative AI, B2B, AI",
-    "yc_partner": "Nicolas Dessaigne (YC company page)",
-    "emails": "No public data found (demo booking: cal.com/anand-scope/demo per tryscope.app)"
+    "yc_partner": "Nicolas Dessaigne (YC page)",
+    "emails": "anand@tryscope.app (YC page)"
   },
   "tags": [
     "Generative AI",
@@ -19,58 +19,28 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-05-06T17:08:59.912Z",
+  "memoGeneratedAt": "2026-05-28T03:02:56.385Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 55,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 34,
+      "score": 44,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 36,
-    "EG": 51,
-    "NR": 55,
-    "PG": 38,
-    "PT": 31,
-    "SL": 34,
-    "VK": 34
+    "CB": 44,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 39.86,
-  "consolidatedRank": 92,
+  "consolidatedAvg": 44,
+  "consolidatedRank": 90,
   "paths": {
     "memo": "spring2026/memos/scope.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/scope.md",
-      "elad-gil": "spring2026/evals/elad-gil/scope.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/scope.md",
-      "paul-graham": "spring2026/evals/paul-graham/scope.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/scope.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/scope.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/scope.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/scope.md"
     }
   }
 }

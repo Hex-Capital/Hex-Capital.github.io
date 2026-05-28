@@ -1,0 +1,47 @@
+{
+  "slug": "hessian",
+  "name": "Hessian",
+  "oneLiner": "We forward deploy with AI agents to automate business operations",
+  "metadata": {
+    "website": "https://hessian.sh",
+    "yc_page": "https://www.ycombinator.com/companies/hessian",
+    "batch": "Spring 2026",
+    "industry": "B2B / B2B",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Developer Tools, Machine Learning, Workflow Automation, AI",
+    "yc_partner": "Garry Tan (YC company page)",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Developer Tools",
+    "Machine Learning",
+    "Workflow Automation",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-28T02:39:39.310Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 39,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 39,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
+  },
+  "consolidatedAvg": 39,
+  "consolidatedRank": 136,
+  "paths": {
+    "memo": "spring2026/memos/hessian.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/hessian.md"
+    }
+  }
+}

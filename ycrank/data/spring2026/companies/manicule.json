@@ -1,76 +1,46 @@
 {
   "slug": "manicule",
   "name": "Manicule",
-  "oneLiner": "AI Native Technical Documentation Studio",
+  "oneLiner": "AI Native Developer Relations",
   "metadata": {
     "website": "https://manicule.dev",
     "yc_page": "https://www.ycombinator.com/companies/manicule",
-    "batch": "Spring 2026",
-    "industry": "B2B / B2B",
-    "team_size": "2",
+    "batch": "Spring 2026 (YC P26)",
+    "industry": "B2B / B2B -> Marketing",
+    "team_size": "5",
     "location": "San Francisco, CA, USA",
-    "tags": "Developer Tools, B2B, AI",
+    "tags": "Artificial Intelligence, Developer Tools, B2B",
     "yc_partner": "Aaron Epstein",
-    "emails": "shreyans@shreyans.sh (personal site)"
+    "emails": "No public data found (manicule.dev returned 404 at time of research)"
   },
   "tags": [
+    "Artificial Intelligence",
     "Developer Tools",
-    "B2B",
-    "AI"
+    "B2B"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-22T23:23:43.645Z",
+  "memoGeneratedAt": "2026-05-28T02:35:00.461Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 63,
+      "score": 57,
       "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 38,
-      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 35,
-    "EG": 39,
-    "NR": 42,
-    "PG": 63,
-    "PT": 28,
-    "SL": 34,
-    "VK": 38
+    "CB": 57,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 39.86,
-  "consolidatedRank": 91,
+  "consolidatedAvg": 57,
+  "consolidatedRank": 18,
   "paths": {
     "memo": "spring2026/memos/manicule.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/manicule.md",
-      "elad-gil": "spring2026/evals/elad-gil/manicule.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/manicule.md",
-      "paul-graham": "spring2026/evals/paul-graham/manicule.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/manicule.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/manicule.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/manicule.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/manicule.md"
     }
   }
 }

@@ -1,77 +1,53 @@
 {
   "slug": "fuchsia",
-  "name": "fuchsia",
-  "oneLiner": "AI that gets hardware compliance done in weeks, not months.",
+  "name": "Fuchsia",
+  "oneLiner": "Hardware compliance done on your timeline",
   "metadata": {
     "website": "https://getfuchsia.ai/",
     "yc_page": "https://www.ycombinator.com/companies/fuchsia",
     "batch": "Spring 2026",
     "industry": "B2B / B2B",
-    "team_size": "1",
+    "team_size": "3",
     "location": "San Francisco, CA, USA",
-    "tags": "Hardware, Robotics, Compliance, AI",
-    "yc_partner": "Tyler Bosmeny",
-    "emails": "No public data found"
+    "tags": "Hardware, Robotics, Compliance, AI, Industrial",
+    "yc_partner": "Tyler Bosmeny (YC page, 2026)",
+    "emails": "No public data found (contact via cal.com/tony-gao-fuchsia, getfuchsia.ai)"
   },
   "tags": [
     "Hardware",
     "Robotics",
     "Compliance",
-    "AI"
+    "AI",
+    "Industrial"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-23T00:01:15.289Z",
+  "memoGeneratedAt": "2026-05-28T03:08:59.061Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 47,
-      "tier": "Neutral"
+      "score": 38,
+      "tier": "Pass"
     },
     "elad-gil": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 39,
+      "score": 41,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 47,
-    "EG": 48,
-    "NR": 49,
-    "PG": 46,
-    "PT": 33,
-    "SL": 36,
-    "VK": 39
+    "CB": 38,
+    "EG": 41,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 42.57,
-  "consolidatedRank": 65,
+  "consolidatedAvg": 39.5,
+  "consolidatedRank": 133,
   "paths": {
     "memo": "spring2026/memos/fuchsia.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/fuchsia.md",
-      "elad-gil": "spring2026/evals/elad-gil/fuchsia.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/fuchsia.md",
-      "paul-graham": "spring2026/evals/paul-graham/fuchsia.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/fuchsia.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/fuchsia.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/fuchsia.md"
+      "elad-gil": "spring2026/evals/elad-gil/fuchsia.md"
     }
   }
 }

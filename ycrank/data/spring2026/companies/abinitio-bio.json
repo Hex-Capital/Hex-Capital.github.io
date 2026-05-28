@@ -1,17 +1,17 @@
 {
   "slug": "abinitio-bio",
   "name": "AbInitio Bio",
-  "oneLiner": "The Intelligence layer for Drug Development",
+  "oneLiner": "The Intelligence layer for Drug Manufacturing",
   "metadata": {
     "website": "https://www.abinitio-bio.com",
     "yc_page": "https://www.ycombinator.com/companies/abinitio-bio",
-    "batch": "Spring 2026 (YC page)",
+    "batch": "Spring 2026",
     "industry": "Healthcare / Healthcare -> Drug Discovery and Delivery",
     "team_size": "1",
-    "location": "No public data found",
+    "location": "San Francisco, CA, USA",
     "tags": "AI-powered Drug Discovery, Biotech, Manufacturing",
-    "yc_partner": "Nicolas Dessaigne (YC page)",
-    "emails": "dmukasa@abinitio-bio.com (company website \"Get in Touch\")"
+    "yc_partner": "Nicolas Dessaigne (YC company page)",
+    "emails": "dmukasa@abinitio-bio.com, founders@abinitio-bio.com (company website + YC page)"
   },
   "tags": [
     "AI-powered Drug Discovery",
@@ -19,58 +19,33 @@
     "Manufacturing"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-05-15T05:41:28.356Z",
+  "memoGeneratedAt": "2026-05-28T02:41:10.092Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 44,
-      "tier": "Pass"
+      "score": 61,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 42,
+      "score": 30,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 44,
-    "EG": 32,
-    "NR": 44,
-    "PG": 44,
-    "PT": 34,
-    "SL": 31,
-    "VK": 42
+    "CB": 61,
+    "EG": 30,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 38.71,
-  "consolidatedRank": 110,
+  "consolidatedAvg": 45.5,
+  "consolidatedRank": 79,
   "paths": {
     "memo": "spring2026/memos/abinitio-bio.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/abinitio-bio.md",
-      "elad-gil": "spring2026/evals/elad-gil/abinitio-bio.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/abinitio-bio.md",
-      "paul-graham": "spring2026/evals/paul-graham/abinitio-bio.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/abinitio-bio.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/abinitio-bio.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/abinitio-bio.md"
+      "elad-gil": "spring2026/evals/elad-gil/abinitio-bio.md"
     }
   }
 }

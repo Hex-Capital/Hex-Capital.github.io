@@ -1,77 +1,45 @@
 {
   "slug": "tenet-industries",
   "name": "Tenet Industries",
-  "oneLiner": "Drones as ammunition.",
+  "oneLiner": "Low-cost, mass-produced strike drones",
   "metadata": {
     "website": "https://www.tenetindustries.com",
     "yc_page": "https://www.ycombinator.com/companies/tenet-industries",
     "batch": "Spring 2026",
     "industry": "Industrials / Industrials -> Defense",
-    "team_size": "4",
-    "location": "Stockholm, Stockholm County, Sweden",
-    "tags": "Hardware, Drones, Manufacturing, Industrial",
-    "yc_partner": "Pete Koomen",
-    "emails": "contact@tenetindustries.com (company website)"
+    "team_size": "4 (YC page); 5 reported (Nordic Defence Sector, Apr 2026)",
+    "location": "Stockholm, Sweden + San Francisco (tenetindustries.com)",
+    "tags": "Hardware, Manufacturing",
+    "yc_partner": "Pete Koomen (YC company page)",
+    "emails": "founders@tenetindustries.com (tenetindustries.com)"
   },
   "tags": [
     "Hardware",
-    "Drones",
-    "Manufacturing",
-    "Industrial"
+    "Manufacturing"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-22T23:50:44.441Z",
+  "memoGeneratedAt": "2026-05-28T02:59:19.592Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 54,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 50,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "vinod-khosla": {
-      "score": 59,
+      "score": 53,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 54,
-    "EG": 47,
-    "NR": 41,
-    "PG": 50,
-    "PT": 44,
-    "SL": 46,
-    "VK": 59
+    "CB": 53,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 48.71,
-  "consolidatedRank": 30,
+  "consolidatedAvg": 53,
+  "consolidatedRank": 39,
   "paths": {
     "memo": "spring2026/memos/tenet-industries.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/tenet-industries.md",
-      "elad-gil": "spring2026/evals/elad-gil/tenet-industries.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/tenet-industries.md",
-      "paul-graham": "spring2026/evals/paul-graham/tenet-industries.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/tenet-industries.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/tenet-industries.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/tenet-industries.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/tenet-industries.md"
     }
   }
 }

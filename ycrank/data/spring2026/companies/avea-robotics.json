@@ -1,0 +1,51 @@
+{
+  "slug": "avea-robotics",
+  "name": "Avea Robotics",
+  "oneLiner": "Control your robots from anywhere in the world.",
+  "metadata": {
+    "website": "https://www.avearobotics.com",
+    "yc_page": "https://www.ycombinator.com/companies/avea-robotics",
+    "batch": "Spring 2026 (YC P26)",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Hard Tech, Robotics, Infrastructure",
+    "yc_partner": "Harj Taggar",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Hard Tech",
+    "Robotics",
+    "Infrastructure"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-28T02:34:40.556Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 43,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 50,
+    "EG": 43,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
+  },
+  "consolidatedAvg": 46.5,
+  "consolidatedRank": 73,
+  "paths": {
+    "memo": "spring2026/memos/avea-robotics.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/avea-robotics.md",
+      "elad-gil": "spring2026/evals/elad-gil/avea-robotics.md"
+    }
+  }
+}

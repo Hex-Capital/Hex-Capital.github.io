@@ -9,115 +9,102 @@
 | Batch | Spring 2026 |
 | Industry | B2B / B2B |
 | Team Size | 2 |
-| Location | Remote (US) (YC job posting) |
-| Tags | |
-| YC Partner | Tyler Bosmeny |
-| Emails | founders@humwork.ai |
+| Location | San Francisco, CA, USA |
+| Tags |  |
+| YC Partner | Tyler Bosmeny (YC company page) |
+| Emails | founders@humwork.ai (humwork.ai contact) |
 
 ## The Idea
 
-**Problem:** AI agents (coding assistants, legal research agents, marketing agents) frequently stall on edge cases requiring human judgment — "the agent gets 80% of the way there, then loops on the same bug, makes the same bad architectural guess five times" (YC Launch page, April 2026). Users must manually rescue stuck agents, breaking workflow. [Inferred]: The current alternative is the user themselves intervening, consulting colleagues, or hiring freelancers through traditional marketplaces with multi-hour turnaround.
-
-**Approach:** Humwork operates an MCP (Model Context Protocol) server that intercepts agent failures and routes them to a vetted human expert within 30 seconds (humwork.ai). The expert receives full agent context — code, errors, previous attempts — with PII redacted, communicates directly with the agent (not the user), and pushes the solution back into the agent's context (YC Launch page). Integration requires 60 seconds of MCP setup (humwork.ai). Compatible platforms: Claude Code, Cursor, Codex, Lovable, ChatGPT, Gemini, OpenClaw, Replit, and any MCP-compatible agent (humwork.ai).
-
-**Differentiation:** vs. Tendem (Toloka/Nebius): Tendem offers a similar MCP-based expert network with 10,000+ experts and $72M in backing (Nebius blog, 2025), but positions primarily around research, data tasks, and general business workflows. Humwork targets real-time agent debugging specifically — coding agents, legal agents, marketing agents — with a 30-second matching SLA vs. Tendem's broader task orientation. vs. Invisible Technologies: Invisible ($144M raised, $134M revenue 2024; BusinessWire, Sep 2025) focuses on enterprise workflow automation with human-AI pipelines, not real-time MCP-native agent escalation. vs. traditional expert networks (Braintrust, Upwork): These marketplaces operate on hourly/project timelines, not sub-minute agent-to-expert handoffs.
-
-**Business Model:** No public pricing page found on humwork.ai. The legal entity is Orange AI Inc. (copyright notice, humwork.ai). [Inferred]: Most likely monetization path is per-resolution or per-minute billing to agent operators, given the real-time transactional nature of the service and the two-sided marketplace structure (separate signup flows for clients at app.humwork.ai and experts at expert.humwork.ai).
-
-**TAM/SAM:**
-- Human-in-the-loop AI market: $5.4B (2025) → $6.73B (2026), projected $16.4B by 2030 at 24.9% CAGR (EIN Presswire via search snippet)
-- AI agent market: $5.25B (2024) → $7.84B (2025), projected $52.62B by 2030 (search snippet, source unspecified)
-- [Inferred]: SAM is the intersection — agent operators willing to pay for real-time expert escalation — which is a fraction of both markets. No public SAM estimate found.
-
-**GTM / Distribution:** Active job posting for "Founding GTM Lead (AI-Native Outbound & Sales)" at $30K–$50K, remote US (YC page). [Inferred]: Initial distribution is likely developer-led via MCP server installation in coding tools (Claude Code, Cursor), leveraging YC network and demo-day visibility. The separate expert signup portal (expert.humwork.ai) suggests a supply-side acquisition motion in parallel.
+- **Problem:** AI coding/research/marketing agents (Claude Code, Cursor, Lovable, Replit, Cline, OpenClaw) "get 80% of the way there, then loop on the same bug, make the same bad architectural guess five times, hallucinate an important legal nuance, or quietly produce something that looks right but is subtly wrong" — affecting AI-first developers, engineering teams, and founders building with agentic tools (YC launch post, Apr 15 2026).
+- **Approach:** Humwork ships an MCP server that, when an agent hits a wall, routes the agent (not the user) to a verified human domain expert in under 30 seconds, sharing context (code, docs, errors) with PII redaction, and pushes the answer back into the agent's context window (humwork.ai; theagenttimes.com, Apr 2026).
+- **Differentiation:** Positioned as the "first Agent-to-Person (A2P) marketplace" vs. HumanLayer (human-approval/in-the-loop SDK for agents, not an expert marketplace — humanlayer.dev), Skills.sh and Agensi (paid skill/package marketplaces for agents, not live human experts — kdnuggets, 2026), and traditional Upwork-style platforms (human-to-human, not agent-initiated handoff) (testingcatalog.com, Apr 2026).
+- **Business Model:** Credit-based packages billed in advance in fixed time increments with a minimum credit charge per consultation; expert rate set by platform assessment plus expert input and disclosed before the consultation begins (humwork.ai/terms via search). [Inferred]: Humwork takes a marketplace take-rate spread between agent-paid credits and expert payout, given the A2P framing of "AI agents will pay you to chat with them" (YC tweet, Apr 15 2026).
+- **TAM/SAM:** Freelance platforms market $6.37B (2025) → $24.16B (2033) at 18.6% CAGR (Grand View Research, 2025); broader gig economy $674.1B in 2026 at 15.79% CAGR (DemandSage, 2026); 47% of freelancers (~30M) provide knowledge services (Upwork, 2024). No public TAM/SAM data found for the agent-to-person sub-segment specifically.
+- **GTM / Distribution:** Single-integration MCP server "plug and play in 60 seconds" embedded inside agent surfaces (Claude Code, Cursor, Lovable, Replit, Cline, OpenClaw) — distribution rides on top of those agent ecosystems (humwork.ai); reinforced by YC launch coverage in TestingCatalog, Analytics Drift, The Agent Times, blockchain.news, and the YC @ycombinator launch tweet (Apr 15 2026).
 
 ## Defensibility
 
-- **Expert supply network:** 1,000+ verified, skills-assessed, domain-tested experts across engineering, design, marketing, strategy, finance (humwork.ai). [Inferred]: Supply-side density and quality create a potential network effect — more experts enable faster matching, which attracts more agent operators, generating more demand for experts.
-- **Resolution data:** 87% resolution rate, 130% net retention in software engineering (humwork.ai). [Inferred]: Accumulated resolution data could train matching algorithms and build institutional knowledge over time, but this moat is nascent.
-
-**Market structure:** Tendem (Toloka) has structural advantages in expert supply (10,000+ experts, global multilingual coverage; toloka.ai) and $72M in funding (Nebius blog). [Inferred]: Incumbents like Upwork or Fiverr would face business model cannibalization in offering sub-minute, per-resolution pricing that undercuts their hourly/project fee structure. AI platform companies (Anthropic, OpenAI) could build first-party expert escalation, creating platform dependency risk.
-
-**Commoditization risk:** The MCP integration layer is technically replicable — any company with an expert network could build an MCP server. Tendem has already done so (toloka.ai). [Inferred]: The defensibility hinges on expert supply quality, matching speed, and resolution rate rather than proprietary technology.
+- **Moat today:** Two-sided marketplace liquidity — 3,000+ verified experts on the supply side and 2,858 questions resolved in beta on the demand side, with an 87% resolution rate and <2-min first-reply SLA cited at launch (humwork.ai; theagenttimes.com, Apr 2026).
+- **Future moat:** [Inferred]: Expert performance/routing data (which expert resolves which agent failure mode fastest) could compound into a proprietary matching dataset; unproven now because the marketplace is roughly six weeks post public launch (launch Apr 15 2026 vs. current date May 27 2026).
+- **Market structure:** [Inferred]: Vertical incumbents (Upwork, Toptal, Catalant) sell human-to-human contracted engagements priced in hours/projects; rebuilding for sub-30-second agent-initiated, credit-metered, MCP-routed consultations would cannibalize their existing per-project take-rate and SLA model, creating a unit-economics conflict rather than a feature-parity gap.
+- **Commoditization risk:** HumanLayer already ships an open-source SDK for agent ↔ human channels (github.com/humanlayer/humanlayer) and could add an expert pool; Upwork/Toptal/Fiverr could expose MCP endpoints over existing freelancer networks; expert-network incumbents (GLG, Silverlight) could productize per-minute consults for agents (humanlayer.dev; silverlightresearch.com).
 
 ## Market & Traction
 
-**Traction signals:**
-- 1,000+ verified experts on the platform (humwork.ai, April 2026)
-- 87% resolution rate (humwork.ai)
-- 130% net retention in software engineering domain (humwork.ai)
-- Avg. first reply: <2 minutes (humwork.ai)
-- YC Launch page: 11 upvotes (YC Launch, April 2026)
-- YC official tweet promoting launch (X.com/@ycombinator, April 2026) — engagement metrics not retrievable
-- Press coverage: Analytics Drift article covering the launch (analyticsdrift.com, April 2026)
-- YouTube intro video published (youtube.com, April 2026)
-- Company Twitter/X: @humworkai — follower count not retrievable
-- LinkedIn: linkedin.com/company/humwork — follower count not retrievable
-- No Product Hunt listing found
-- No Discord/Slack community found
-- No public revenue figures disclosed
-
-**Competitive landscape:**
-
-| Competitor | Funding | Revenue/ARR | Key Differentiator vs. Humwork |
-|-----------|---------|-------------|-------------------------------|
-| Tendem (Toloka/Nebius) | $72M (Bezos Expeditions, 2025; Nebius blog) | Revenue unknown | 10x larger expert network (10,000+), broader task scope beyond agent debugging, enterprise positioning |
-| Invisible Technologies | $144M total ($100M growth, Sep 2025; BusinessWire) | $134M (2024; BusinessWire) | Enterprise workflow automation platform, acquired by Perplexity Aug 2025; not MCP-native or real-time agent escalation |
-| Surge AI | Bootstrapped until 2025; seeking $1B raise at $15B+ valuation (Bloomberg, Jul 2025) | $1.2B (2024; Latka) | RLHF/data labeling for AI labs; not real-time agent-to-expert routing |
-| Braintrust | $242.5M ($80M Series B, Feb 2026; Crunchbase) | $1M+/mo freelancer payouts (Crunchbase) | Decentralized freelancer marketplace with 50K+ members; traditional project/hourly model, not MCP-native |
-
-**Why now:** Anthropic released the Model Context Protocol in late 2024 (anthropic.com), creating a standardized integration layer for AI agent tooling. [Inferred]: MCP adoption across Claude Code, Cursor, and other agents created a new distribution channel — a single MCP server install can reach users across multiple agent platforms simultaneously. The YC Spring 2026 batch was "dominated by autonomous agent pitches" (Analytics Drift, April 2026), reflecting a surge in agent deployment that increases demand for expert fallback mechanisms.
+- **Traction signals:**
+  - 3,000+ verified experts currently (humwork.ai homepage, May 2026); 1,000+ experts at launch (theagenttimes.com, Apr 15 2026).
+  - 83% resolution rate (humwork.ai, May 2026); 87% resolution rate cited at launch beta (theagenttimes.com, Apr 15 2026).
+  - Average first reply <2 minutes (humwork.ai; testingcatalog.com).
+  - 2,858 questions resolved in beta pre-launch (theagenttimes.com, Apr 15 2026).
+  - 130% net retention cited for Software Engineering domain (humwork.ai homepage).
+  - Press: TestingCatalog, Analytics Drift, The Agent Times, blockchain.news, Medium "Bootcamp" (analyticsdrift.com; theagenttimes.com; medium.com, Apr 2026).
+  - Y Combinator launch tweet from @ycombinator quoting @humworkai and @theyashgoenka (x.com/ycombinator/status/2044445649538809985, Apr 15 2026).
+  - Hiring: Founding Engineer ($120–150K, ~5% equity) and GTM Engineer ($20–40K, 0.10–1.00% equity) actively listed on YC jobs (ycombinator.com/companies/humwork).
+  - Company Twitter @humworkai (referenced in YC tweet, Apr 15 2026); follower count not retrievable.
+  - Discord/Slack community: No public data found.
+- **Competitors:**
+  - HumanLayer (~$500K raised per Crunchbase; $660K revenue per Getlatka, 6-person team): SDK/API for human-in-the-loop approval and channels for agents — does not provide a marketplace of paid domain experts on demand (crunchbase.com/organization/humanlayer; getlatka.com/companies/humanlayer.dev).
+  - Skills.sh (Vercel-backed; revenue unknown): npm-style installable agent skill packages across Claude Code/Codex/Cursor/OpenClaw — code/skills, not live humans (kdnuggets, 2026).
+  - Agensi (revenue unknown): security-reviewed paid skill marketplace, 80% creator payout — packaged software skills, not synchronous human consults (agensi.io, 2026).
+  - Upwork (public; ~$760M FY24 revenue per Upwork filings via search snippet): human-to-human contracted freelance work, not agent-initiated MCP routing.
+  - GLG / expert networks (revenue unknown for Humwork-overlap segment): per-minute domain consults but priced for institutional research, no MCP/agent integration (silverlightresearch.com, 2026).
+- **Why now:** Mass adoption of MCP as a cross-tool standard across Claude Code, Cursor, Lovable, Replit, Cline, and OpenClaw in the past 6–12 months created a uniform integration substrate that lets a single server expose human experts to every agent surface — Humwork itself frames the launch around MCP availability (testingcatalog.com, Apr 2026; theagenttimes.com, Apr 2026).
 
 ## Founders & Team
 
-**Yash Goenka** — Co-founder & CEO
-- UC Berkeley, BS Computer Science & Statistics/Data Science (yashgoenka.com)
-- Repeat YC founder: Qualify.bot (YC S25) — AI phone agents for commercial lenders that boosted loan conversion 4x (YC Launch page). Co-founded under Orange AI Inc.
-- Previously: AI engineer at EcoMap Technologies, leading GPT-based chatbot development (yashgoenka.com)
-- Additional startups: Instawrite.ai, Jarvys.ai, Iris BCI (assistive tech for Locked-in Syndrome), Phonecall.bot (yashgoenka.com)
-- Patent holder for graphene supercapacitor manufacturing (YC page)
-- Built first LLM startup in 2021 (YC page)
-- UC Berkeley rocketry team: avionics software for rocket reaching 11,193 ft altitude, Mach 1.2 (yashgoenka.com)
-- Twitter/X: @theyashgoenka — follower count not retrievable
-- LinkedIn: linkedin.com/in/yashvg/
-- GitHub: github.com/yashgoenka — 25 public repos, 719 total stars, 12 followers (GitHub profile). Notable: chat-apple-notes (RAG for Apple Notes, 13 stars)
-
-**Rohan Datta** — Co-founder & CTO
-- UC Berkeley, BS & MS Civil Engineering (YC Launch page)
-- Data Scientist at Microgrid Labs for ~5 years, building EV charging optimization systems (YC page; LinkedIn)
-- Drone imaging research at UC Berkeley (YC page)
-- Built AI voice platform automating 1M+ phone call minutes (YC page); conversational AI handling 100K+ calls/month (LinkedIn/YC S25 context)
-- HL7 Fellow and Engineering Teaching Faculty at UC Berkeley (search snippet)
-- Twitter/X: No public account found
-- LinkedIn: linkedin.com/in/rohan-datta-2500/
-- GitHub: github.com/Rohan-Datta — 19 public repos, 3 total stars, 2 followers (GitHub profile). Repos in knowledge distillation, NLP, recommender systems.
-
-**Co-founder relationship:** 16-year friendship; both UC Berkeley alumni and former roommates (YC page; YC Launch page).
-
-**Founder-market fit:** Yash brings repeat YC experience (S25 → P26), serial AI/LLM product building since 2021, and conversational AI expertise from Phonecall.bot/Qualify.bot. Rohan brings data science depth, AI voice platform engineering (1M+ call minutes), and ML research experience. Their prior product (Qualify.bot) involved real-time AI-to-human interaction in a time-sensitive domain (loan qualification), which is structurally similar to Humwork's agent-to-expert matching problem.
+- **Yash Goenka (Co-founder & CEO):**
+  - Background: UC Berkeley, B.A. Data Science / CS / Statistics; previously co-founder/CEO Qualify.bot (YC S25, AI phone agents for commercial lenders) and co-founder Orange AI / Phonecall.bot and Instawrite.ai; software engineer at EcoMap Technologies (GPT-3 chatbot) and AllSides (NLP); patent holder for graphene supercapacitor manufacturing; built first LLM startup in 2021; "2x founder" (YC page; yashgoenka.com/about; ycombinator.com/launches/O4z; theorg.com). Humwork is registered under Orange AI Inc. (humwork.ai footer).
+  - Twitter/X: @theyashgoenka (referenced in YC launch tweet, Apr 15 2026) and @yashgoenka; follower count not retrievable.
+  - LinkedIn: "Co-founder at Humwork (YC P26)" — linkedin.com/in/yashvg/.
+  - GitHub: @yashgoenka, 25 public repos; no top-repo star count retrievable (github.com/yashgoenka).
+- **Rohan Datta (Co-founder & CTO):**
+  - Background: UC Berkeley BS and MS in Civil Engineering — Energy, Civil Infrastructure and Climate (2019–2020); Data Scientist at MicroGrid Labs; drone-imagery research at Berkeley; previously built an AI voice-calling platform that automated >1M call minutes (YC page; linkedin.com/in/rohan-datta-2500).
+  - Twitter/X: No public account found.
+  - LinkedIn: "Humwork (YC P26)" — linkedin.com/in/rohan-datta-2500.
+  - GitHub: No public account found in search results.
+- **Co-founder relationship:** Yash and Rohan have been friends for 16 years and both attended UC Berkeley (YC company page; analyticsdrift.com, 2026).
+- **Founder-market fit:** Both founders have shipped prior production AI/voice systems at scale (Yash: Qualify.bot YC S25 phone agents; Rohan: >1M-minute AI voice platform) — directly applicable to building real-time, low-latency agent ↔ human routing over MCP (YC page; ycombinator.com/launches/O4z). No public data found on advisors, board members, or named angel investors beyond YC's standard deal.
 
 ## Key Risks
 
-**Direct, well-funded competitor:** Tendem (Toloka/Nebius) offers the same core product — MCP-based human expert access for AI agents — with 10x the expert supply (10,000+ vs. 1,000+) and $72M in funding (Nebius blog, 2025). Toloka has existing relationships with Anthropic and Shopify (toloka.ai). Mitigation: Humwork's narrower focus on real-time agent debugging may enable faster iteration in that niche.
-
-**Platform dependency:** Distribution depends on MCP adoption by agent platforms (Claude Code, Cursor, etc.). If a major platform builds native expert escalation or deprecates third-party MCP servers, Humwork loses its integration channel. Anthropic, which created MCP, could build first-party expert escalation into Claude. No mitigation found.
-
-**Founder pivot pattern:** Yash pivoted from Qualify.bot (YC S25, launched July 2025) to Humwork (YC P26, launched April 2026) within ~9 months. While pivots are common, the rapid transition raises questions about conviction and product-market fit iteration speed. Both companies operate under Orange AI Inc. (humwork.ai copyright). Mitigation: acceptance into a second YC batch suggests YC partner confidence.
-
-**Expert supply-side liquidity:** Matching quality depends on maintaining a sufficiently deep bench of experts across multiple domains and time zones. At 1,000+ experts (humwork.ai), thin domains (e.g., niche legal specialties) may have limited coverage, leading to match failures that erode the resolution rate. No mitigation found.
+- **Marketplace cold-start on the demand side:** Supply is currently 3,000+ experts (humwork.ai) but public demand metric is 2,858 beta resolutions cumulatively (theagenttimes.com, Apr 15 2026), implying <1 resolution per expert pre-launch — expert utilization and retention will compress payouts and could collapse supply if demand does not scale.
+- **MCP platform dependency:** Distribution and integration depend entirely on the Model Context Protocol surface inside third-party agent products (Claude Code, Cursor, Lovable, Replit, Cline, OpenClaw) (humwork.ai). If Anthropic, OpenAI, or Cursor ship a first-party "ask a human" provider or restrict third-party MCP servers, Humwork's wedge narrows.
+- **Latency/quality SLA at scale:** The "<30 seconds to match, <2 minutes to first reply" claim is from beta volume of 2,858 questions (theagenttimes.com, Apr 15 2026); maintaining sub-2-minute response across legal/marketing/strategy domains under load is unproven technically and operationally.
+- **Founder bandwidth across two YC companies:** Yash Goenka is publicly listed as Co-founder & CEO of Qualify.bot (YC S25) and Co-founder & CEO of Humwork (YC S26) (theorg.com; ycombinator.com/launches/O4z; ycombinator.com/companies/humwork). Status of Qualify.bot relative to Humwork is not publicly clarified.
+- **Liability and trust on expert advice:** Routing legal, financial, and engineering judgments from agents to humans creates downstream liability if an expert's answer is wrong and ingested by the agent's automated workflow — humwork.ai/terms requires per-consultation acceptance but no public data found on insurance/indemnity structure.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $16.4B by 2030, 24.9% CAGR — human-in-the-loop AI market (EIN Presswire via search snippet) |
+| TAM | Freelance platforms $6.37B (2025) → $24.16B (2033), 18.6% CAGR (Grand View Research, 2025); gig economy $674.1B (2026), 15.79% CAGR (DemandSage, 2026) |
 | SAM | No public data found |
-| Traction | 1,000+ verified experts, 87% resolution rate, 130% net retention in software engineering, <2 min avg first reply (humwork.ai, April 2026); 11 upvotes on YC Launch (YC, April 2026) |
-| Revenue Signal | No public data found |
-| Founders | Yash Goenka (CEO): repeat YC founder (S25, P26), serial AI/LLM builder since 2021, UC Berkeley CS. Rohan Datta (CTO): 5yr data scientist at Microgrid Labs, built AI voice platform (1M+ call minutes), UC Berkeley BS/MS. |
-| Competitors | Tendem/Toloka ($72M raised, revenue unknown, 10K+ expert network with MCP integration); Invisible Technologies ($144M raised, $134M revenue 2024, enterprise AI+human workflows); Surge AI (bootstrapped, $1.2B revenue 2024, RLHF data labeling); Braintrust ($242.5M raised, $1M+/mo payouts, decentralized freelancer marketplace) |
-| Moat Signals | 1,000+ verified experts, 87% resolution rate, 130% net retention in software engineering (humwork.ai) |
-| Risk Factors | Well-funded direct competitor (Tendem/Toloka, $72M), MCP platform dependency, rapid founder pivot from prior YC company |
-| Founder Reach | Yash Goenka: Twitter @theyashgoenka (count not retrievable), LinkedIn linkedin.com/in/yashvg/, GitHub 719 stars. Rohan Datta: Twitter not found, LinkedIn linkedin.com/in/rohan-datta-2500/, GitHub 3 stars. |
-| Distribution Signals | YC Launch 11 upvotes (YC, April 2026); YC official tweet (X.com/@ycombinator, April 2026); Analytics Drift article (analyticsdrift.com, April 2026); YouTube intro video (YouTube, April 2026) |
-| Emails | founders@humwork.ai (humwork.ai) |
+| Traction | 3,000+ verified experts (humwork.ai, May 2026); 1,000+ experts at launch (The Agent Times, Apr 15 2026); 87% resolution rate, <2-min first reply, 2,858 questions resolved in beta (The Agent Times, Apr 15 2026); 130% NRR for Software Engineering domain (humwork.ai); YC launch tweet from @ycombinator (x.com, Apr 15 2026); press in TestingCatalog, Analytics Drift, The Agent Times, blockchain.news (Apr 2026) |
+| Revenue Signal | Credit-package pricing billed in fixed time increments; expert rate set per-consultation by platform + expert and disclosed pre-call (humwork.ai/terms via search, 2026); specific tier prices not publicly listed |
+| Founders | Yash Goenka (CEO): UC Berkeley Data Science; prior Qualify.bot (YC S25), Phonecall.bot/Orange AI, Instawrite; graphene supercapacitor patent. Rohan Datta (CTO): UC Berkeley BS+MS Civil Engineering; ex-MicroGrid Labs DS; prior AI voice platform >1M minutes |
+| Competitors | HumanLayer ($500K seed per Crunchbase, $660K revenue per Getlatka — HITL SDK, not human marketplace); Skills.sh (Vercel-backed, revenue unknown — agent skill packages, not humans); Agensi (revenue unknown — paid skill marketplace, not humans); Upwork (~$760M FY24 revenue via search snippet — human-to-human, not agent-MCP); GLG/expert networks (revenue unknown — no MCP/agent integration) |
+| Moat Signals | Two-sided marketplace with 3,000+ verified experts (humwork.ai); first mover on A2P framing per launch press (testingcatalog.com, Apr 2026); MCP-native single-integration distribution across major agent surfaces (humwork.ai) |
+| Risk Factors | MCP platform/distribution dependency, marketplace cold-start (low pre-launch demand per expert), founder bandwidth across Qualify.bot and Humwork |
+| Founder Reach | Yash Goenka: Twitter @theyashgoenka / @yashgoenka count not retrievable, LinkedIn /in/yashvg/ count not retrievable, GitHub @yashgoenka 25 repos. Rohan Datta: Twitter not found, LinkedIn /in/rohan-datta-2500/ count not retrievable, GitHub not found |
+| Distribution Signals | YC launch Apr 15 2026 (ycombinator.com/launches/PxH); YC official tweet @ycombinator (x.com, Apr 15 2026); press in TestingCatalog, Analytics Drift, The Agent Times, blockchain.news, Medium Bootcamp (Apr 2026); 2 open jobs on YC jobs board (ycombinator.com/companies/humwork) |
+| Emails | founders@humwork.ai (humwork.ai; YC page) |
+
+Sources:
+- [Humwork — YC company page](https://www.ycombinator.com/companies/humwork)
+- [Humwork.ai homepage](https://humwork.ai)
+- [Launch YC: Humwork](https://www.ycombinator.com/launches/PxH-humwork-connect-ai-agents-with-human-experts-in-30-seconds)
+- [The Agent Times — Humwork launches A2P marketplace](https://theagenttimes.com/articles/humwork-launches-agent-to-person-marketplace-so-we-never-deb-65cd81b5)
+- [TestingCatalog — Humwork A2P marketplace](https://www.testingcatalog.com/humwork-a2p-marketplace-connects-ai-agents-with-experts/)
+- [Analytics Drift — Inside the Humwork YC Launch](https://analyticsdrift.com/an-ai-agent-will-pay-you-inside-the-humwork-yc-launch/)
+- [blockchain.news — AI Agents Hiring Humans business model](https://blockchain.news/ainews/ai-agents-hiring-humans-y-combinator-backs-humwork-s-30-second-expert-hand-off-business-model-analysis)
+- [Y Combinator launch tweet](https://x.com/ycombinator/status/2044445649538809985)
+- [Yash Goenka — LinkedIn](https://www.linkedin.com/in/yashvg/)
+- [Yash Goenka — personal site](https://www.yashgoenka.com/about)
+- [Yash Goenka — GitHub](https://github.com/yashgoenka)
+- [Rohan Datta — LinkedIn](https://www.linkedin.com/in/rohan-datta-2500/)
+- [Qualify.bot YC launch (Yash Goenka)](https://www.ycombinator.com/launches/O4z-qualify-bot-ai-phone-agents-for-commercial-lenders)
+- [HumanLayer — Crunchbase](https://www.crunchbase.com/organization/humanlayer)
+- [HumanLayer — Getlatka revenue profile](https://getlatka.com/companies/humanlayer.dev)
+- [Grand View Research — Freelance Platforms Market](https://www.grandviewresearch.com/industry-analysis/freelance-platforms-market-report)
+- [DemandSage — Gig Economy Statistics 2026](https://www.demandsage.com/gig-economy-statistics/)

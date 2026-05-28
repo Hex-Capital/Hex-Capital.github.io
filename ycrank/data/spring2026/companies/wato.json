@@ -1,0 +1,45 @@
+{
+  "slug": "wato",
+  "name": "Wato",
+  "oneLiner": "Shared memory, tools, and workflows for agents across teams",
+  "metadata": {
+    "website": "https://www.watolabs.com/",
+    "yc_page": "https://www.ycombinator.com/companies/wato",
+    "batch": "Spring 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Enterprise Software, AI",
+    "yc_partner": "Nicolas Dessaigne",
+    "emails": "rahul@watolabs.com"
+  },
+  "tags": [
+    "Enterprise Software",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-28T02:43:46.381Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 26,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 26,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
+  },
+  "consolidatedAvg": 26,
+  "consolidatedRank": 183,
+  "paths": {
+    "memo": "spring2026/memos/wato.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/wato.md"
+    }
+  }
+}

@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://ardentech.ai/",
     "yc_page": "https://www.ycombinator.com/companies/arden",
-    "batch": "Spring 2026 (YC P26)",
+    "batch": "Spring 2026 (P26)",
     "industry": "B2B / B2B -> Finance and Accounting",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "Finance, B2B, AI",
-    "yc_partner": "David Lieb (YC company page)",
-    "emails": "founders@ardentech.ai (ardentech.ai)"
+    "yc_partner": "David Lieb",
+    "emails": "founders@ardentech.ai"
   },
   "tags": [
     "Finance",
@@ -19,58 +19,33 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-05-06T17:08:28.803Z",
+  "memoGeneratedAt": "2026-05-28T02:35:16.302Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 34,
+      "score": 37,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
       "score": 42,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 25,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 38,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 34,
-    "EG": 41,
-    "NR": 42,
-    "PG": 41,
-    "PT": 25,
-    "SL": 32,
-    "VK": 38
+    "CB": 37,
+    "EG": 42,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 36.14,
-  "consolidatedRank": 131,
+  "consolidatedAvg": 39.5,
+  "consolidatedRank": 129,
   "paths": {
     "memo": "spring2026/memos/arden.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/arden.md",
-      "elad-gil": "spring2026/evals/elad-gil/arden.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/arden.md",
-      "paul-graham": "spring2026/evals/paul-graham/arden.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/arden.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/arden.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/arden.md"
+      "elad-gil": "spring2026/evals/elad-gil/arden.md"
     }
   }
 }

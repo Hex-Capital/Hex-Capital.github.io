@@ -5,72 +5,42 @@
   "metadata": {
     "website": "https://replicas.dev",
     "yc_page": "https://www.ycombinator.com/companies/replicas",
-    "batch": "Spring 2026",
+    "batch": "Spring 2026 (P26)",
     "industry": "B2B / B2B -> Engineering, Product and Design",
-    "team_size": "1",
-    "location": "San Francisco, CA, US (YC page job listing)",
-    "tags": "Developer Tools, API, AI",
+    "team_size": "1 (YC page; 2 founders publicly named — see Founders section)",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Developer Tools, API",
     "yc_partner": "Harj Taggar",
-    "emails": "connor@replicas.dev, founders@replicas.dev"
+    "emails": "founders@replicas.dev (tryreplicas.com), loiconnor8@gmail.com (Connor Loi GitHub profile via search snippet)"
   },
   "tags": [
+    "Artificial Intelligence",
     "Developer Tools",
-    "API",
-    "AI"
+    "API"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-22T23:54:31.155Z",
+  "memoGeneratedAt": "2026-05-28T03:04:01.595Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "elad-gil": {
       "score": 36,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 42,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 29,
-    "EG": 36,
-    "NR": 49,
-    "PG": 43,
-    "PT": 28,
-    "SL": 31,
-    "VK": 42
+    "CB": 36,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 36.86,
-  "consolidatedRank": 126,
+  "consolidatedAvg": 36,
+  "consolidatedRank": 160,
   "paths": {
     "memo": "spring2026/memos/replicas.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/replicas.md",
-      "elad-gil": "spring2026/evals/elad-gil/replicas.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/replicas.md",
-      "paul-graham": "spring2026/evals/paul-graham/replicas.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/replicas.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/replicas.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/replicas.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/replicas.md"
     }
   }
 }

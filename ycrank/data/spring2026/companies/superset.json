@@ -1,74 +1,41 @@
 {
   "slug": "superset",
   "name": "Superset",
-  "oneLiner": "IDE for the AI Agents Era",
+  "oneLiner": "The IDE for the AI Agents Era",
   "metadata": {
     "website": "https://www.superset.sh/",
     "yc_page": "https://www.ycombinator.com/companies/superset",
     "batch": "Spring 2026",
     "industry": "B2B / B2B -> Engineering, Product and Design",
     "team_size": "3",
-    "location": "San Francisco, CA, US",
-    "tags": "AI",
+    "location": "San Francisco, CA, USA",
     "yc_partner": "Nicolas Dessaigne",
-    "emails": "No public data found"
+    "emails": "hello@superset.sh"
   },
-  "tags": [
-    "AI"
-  ],
+  "tags": [],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-22T23:59:18.622Z",
+  "memoGeneratedAt": "2026-05-28T03:07:23.509Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 55,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 54,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
       "score": 43,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 36,
-    "EG": 43,
-    "NR": 55,
-    "PG": 54,
-    "PT": 36,
-    "SL": 31,
-    "VK": 43
+    "CB": 43,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 42.57,
-  "consolidatedRank": 66,
+  "consolidatedAvg": 43,
+  "consolidatedRank": 100,
   "paths": {
     "memo": "spring2026/memos/superset.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/superset.md",
-      "elad-gil": "spring2026/evals/elad-gil/superset.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/superset.md",
-      "paul-graham": "spring2026/evals/paul-graham/superset.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/superset.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/superset.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/superset.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/superset.md"
     }
   }
 }

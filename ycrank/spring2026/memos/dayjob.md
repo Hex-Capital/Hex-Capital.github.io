@@ -7,113 +7,96 @@
 | Website | https://www.getdayjob.ai |
 | YC Page | https://www.ycombinator.com/companies/dayjob |
 | Batch | Spring 2026 |
-| Industry | B2B / Supply Chain and Logistics |
+| Industry | B2B / B2B -> Supply Chain and Logistics |
 | Team Size | 5 |
-| Location | London, England, United Kingdom |
-| Tags | Logistics, Transportation, AI |
-| YC Partner | Tom Blomfield |
-| Emails | info@getdayjob.ai |
+| Location | London, United Kingdom |
+| Tags | |
+| YC Partner | Tom Blomfield (YC page) |
+| Emails | info@getdayjob.ai (company website) |
 
 ## The Idea
 
-**Problem:** Waste management and skip hire operators schedule vehicle routes manually, often using spreadsheets or systems "built originally for parcels, not skips" (LinkedIn post by George Postlethwaite, May 2025). Planners juggle cancellations, urgent jobs, driver changes, and vehicle constraints in real time. The company website claims planning teams lose 65 hours weekly to admin (getdayjob.ai).
-
-**Approach:** An AI scheduling agent that plugs into existing ERP systems (Weighsoft, PurGo, Wastelogics) and continuously re-optimises routes in real time, handling new jobs, driver changes, and exceptions automatically (YC page). The system generates optimal schedules factoring travel times, skip sizes, driver schedules, and live job updates (getdayjob.ai). Setup claims "most businesses operational within one day" (getdayjob.ai).
-
-**Differentiation:** Unlike general-purpose route optimisation tools (Routific, OptimoRoute), Dayjob is purpose-built for skip hire and waste collection operations, addressing domain-specific constraints like delivery stacking and skip size management (LinkedIn post, May 2025). Unlike AMCS, which offers a full-stack waste ERP, Dayjob integrates with existing ERPs rather than replacing them (YC page). VWS Software Solutions (maker of PurGo) announced a partnership with Dayjob for joint integration (VWS blog, Jan 2026).
-
-**Business Model:** No public pricing page found. [Inferred]: Most likely monetization path is a SaaS subscription, possibly per-vehicle or per-route, given the ERP-integration model and B2B waste management customer base.
-
-**TAM/SAM:**
-- Route optimisation software market: $8.51B in 2023, projected $21.46B by 2030, CAGR 14.4% (Grand View Research via search snippet)
-- Waste management software market: $11.13B in 2025, projected $15.45B by 2029, CAGR 8.5% (Verified Market Reports via search snippet)
-- No company-specific SAM estimate found.
-
-**GTM / Distribution:** The VWS/PurGo partnership provides a channel into PurGo's existing customer base of waste operators (VWS blog, Jan 2026). Integrations with Weighsoft and Wastelogics suggest a similar channel strategy via ERP vendors (getdayjob.ai). [Inferred]: Distribution likely follows an ERP-partnership-led model, where waste management ERP vendors refer or co-sell Dayjob to their installed base, supplemented by direct sales in the UK waste sector.
+- **Problem:** Waste management and skip hire fleets rely on manual schedulers who plan ~100 daily jobs across drivers and skip sizes amid constant in-day changes (Dayjob website, 2026).
+- **Approach:** A scheduling agent that plugs into existing waste-operator ERPs and continuously re-optimises routes in real time, handling new jobs, driver swaps, and exceptions (YC page, 2026).
+- **Differentiation:** Versus AMCS and Routeware (entrenched waste-ERP/route platforms — Slashdot/SoftwareWorld), Dayjob does not replace the ERP but layers an autonomous agent on top of it (YC page, 2026); [Inferred]: this avoids rip-and-replace switching cost that incumbents impose.
+- **Business Model:** No public pricing page; [Inferred]: per-fleet or per-vehicle SaaS subscription, given $496K ARR reported across a small UK customer set including Allstone and Coastal Recycling (Dayjob website; YC launch post, 2026).
+- **TAM/SAM:** No public TAM/SAM data found for this specific segment; comparable incumbents AMCS ($273.1M revenue — Growjo) and Routeware ($25–100M revenue range — Owler) operate in the broader waste-software market.
+- **GTM / Distribution:** Founder-led direct sales to UK waste/skip-hire fleets, with US expansion underway (YC page; LinkedIn launch post, 2026); [Inferred]: depot-level relationships built during 2022–2024 Gaea ERP work seed the pipeline.
 
 ## Defensibility
 
-- **ERP integration depth:** Integrations with three named waste ERPs (Weighsoft, PurGo, Wastelogics) create switching costs once deployed (getdayjob.ai). The VWS partnership formalises the PurGo integration as a co-marketed product (VWS blog, Jan 2026).
-- **Domain-specific optimisation:** The scheduling engine is tuned for skip hire operations specifically, not general delivery routing (LinkedIn post, May 2025).
-- **Operational data accumulation:** [Inferred]: As the agent handles daily scheduling decisions, it accumulates fleet and route performance data that could improve optimisation over time, though this is unproven at this stage.
-
-**Market structure:** AMCS, the incumbent waste management software provider ($225M raised, Tracxn via search snippet), offers route optimisation as one module within a full-stack ERP. Replacing only the scheduling component with Dayjob avoids a full ERP migration. [Inferred]: AMCS faces business model conflict in unbundling its route optimisation from its ERP suite, as doing so would cannibalise its platform lock-in strategy.
-
-**Commoditization risk:** General-purpose route optimisation vendors (Routific, FarEye, Descartes) could add waste-management-specific features. The core AI scheduling technology is not inherently defensible; the moat depends on ERP integration depth and domain-specific tuning accumulated over deployments.
+- **Moat today:** ERP integration into operator back-ends and depot-level workflow data captured during prior Gaea ERP work since 2022 (YC page, 2026).
+- **Future moat:** [Inferred]: Proprietary scheduling decision dataset across UK/US fleets could train models that improve route optimisation accuracy as customer count grows; unproven at five customers' scale.
+- **Market structure:** [Inferred]: Incumbents AMCS and Routeware sell perpetual/multi-year ERP licenses (CBInsights/PitchBook) — overlaying an autonomous agent that cannibalises their planning module would conflict with their core license revenue.
+- **Commoditization risk:** Route-optimisation algorithms are well-known (OptimoRoute, Route4Me, Samsara already ship them — SoftwareWorld); [Inferred]: defensibility hinges on workflow integration depth rather than the optimisation model itself.
 
 ## Market & Traction
 
-**Traction signals:**
-- $450K+ ARR as of approximately March 2026, seven months after first sales in August 2025 (YC page)
-- **Prior product (Gaea):** $150K in revenue from ERP and inventory software for waste/recycling before pivoting to Dayjob in January 2025 (YC page, Pre-Seed Now article on Gaea, Mar 2024)
-- Named customers: Allstone, Coastal Recycling (getdayjob.ai)
-- Customer testimonial: "5-10% increase in jobs per driver hour" — Marc Williamson, Transport Manager, Coastal Recycling (VWS blog)
-- Customer testimonial: "Best route-planning software I've used in 10 years" — Stuart Pearce, Transport Planner, Coastal Recycling (VWS blog)
-- Website claims: 11% annual revenue boost, 66% fewer late deliveries, 25% less admin time, £100K additional yearly revenue potential (getdayjob.ai)
-- VWS Software Solutions partnership announced (VWS blog, Jan 2026)
-- LinkedIn company page: uk.linkedin.com/company/dayjob-ai (follower count not retrievable)
-- No Product Hunt launch found
-- No Discord/Slack community found
-- No mobile app found (desktop-only per website FAQ)
-
-**Competitive landscape:**
-
-| Competitor | Funding | Revenue | Key Differentiator vs. Dayjob |
-|---|---|---|---|
-| AMCS | $225M (Tracxn via search snippet) | Revenue unknown | Full-stack waste ERP with embedded route optimisation; requires platform commitment vs. Dayjob's ERP-agnostic overlay |
-| Routific | $1.8M (Crunchbase via search snippet) | $100K–$5M est. (Owler via search snippet) | General-purpose delivery route optimisation; not waste-management-specific |
-| Vorto | Undisclosed (Tracxn via search snippet) | ~$210.6M (Growjo, 2026 via search snippet) | End-to-end supply chain automation for trucking/commodities; targets different segment (long-haul/procurement) |
-| FarEye | $152M (Tracxn via search snippet) | ~$23.7M FY25 (Getlatka via search snippet) | Last-mile delivery management for enterprise (DHL, UPS); broader delivery focus, not waste-specific |
-
-**Why now:** [Inferred]: Two enabling changes — (1) LLM and AI agent capabilities reached a threshold in 2024–2025 that makes real-time, autonomous rescheduling feasible at low cost; (2) waste management operators, historically slow technology adopters, are under increasing margin pressure from fuel costs and labour shortages, creating urgency to optimise fleet utilisation.
+- **Traction signals:**
+  - $496K ARR as of YC launch (YC page, 2026).
+  - $359K+ ARR reached within seven months of August 2025 product launch (YC page, 2026).
+  - Named customers: Allstone, Coastal Recycling, and one additional partner (Dayjob website, 2026).
+  - Customer testimonial: 8%+ efficiency gains from day one in waste management (YC page, 2026); company website cites 11% annual revenue boost, 50% improvement in customer time-window hits, 25% admin time reduction, £100,000 additional yearly revenue potential per customer (Dayjob website, 2026).
+  - YC LinkedIn launch post published (LinkedIn, activity-7453096249261592577).
+  - Founder Twitter: @georgepos6 (Twitter, count not retrievable).
+  - Office address: Collective Camden Auction Rooms, 5-7 Buck St, London NW1 8NJ (Dayjob website, 2026).
+- **Competitors:**
+  - AMCS Group ($225M+ raised, $273.1M revenue — Tracxn/Growjo): incumbent end-to-end waste ERP plus routing; Dayjob is an agent overlaying existing ERPs rather than replacing them.
+  - Routeware ($123M raised, $25–100M revenue range — PitchBook/Owler): 20-year incumbent serving 1,000+ haulers via Routeware Elements and acquired RUBICONSmartCity/Pro (Waste Dive, 2024); Dayjob targets real-time autonomous re-optimisation versus Routeware's broader back-office suite.
+  - RouteSmart (revenue unknown — SoftwareWorld): GIS-based route optimisation specialist for waste; Dayjob differentiates on agentic real-time exception handling.
+  - OptimoRoute (revenue unknown — SoftwareWorld): horizontal route optimisation SaaS; Dayjob is vertical-specific to waste/industrial logistics.
+  - Samsara (public, ~$1B+ revenue — public filings via search snippet): fleet telematics with routing features; Dayjob layers scheduling agents above ERPs rather than competing on telematics hardware.
+- **Why now:** [Inferred]: LLM-based agent frameworks reaching production reliability in 2024–2025 enable autonomous exception-handling at the scheduler workflow layer, which prior rules-based route optimisers could not perform.
 
 ## Founders & Team
 
-**George Postlethwaite** — Co-founder & CEO
-- University of Oxford (Pre-Seed Now, Mar 2024)
-- 5 years at Deliveroo, where he launched the grocery business in the UK (LinkedIn via search snippet)
-- Head of Sales at Otta, a job search startup (LinkedIn)
-- Co-founded Gaea (waste/recycling ERP) in late 2023 with Fred Fooks, pivoted to Dayjob in Jan 2025 (Pre-Seed Now, Mar 2024; YC page)
-- Twitter/X: No confirmed public account found (the @georgepos6 handle belongs to a different individual based on biographical mismatch)
-- LinkedIn: linkedin.com/in/georgepos
-- GitHub: No public repos found
-
-**Fred Fooks** — Co-founder & CTO
-- Engineering Science, University of Oxford (Pre-Seed Now, Mar 2024)
-- Manager at Deloitte UK, ESG & Supply Chain Analytics — leadership roles in data science, product, and strategy (Pre-Seed Now, Mar 2024)
-- Co-founded Gaea with George Postlethwaite (Pre-Seed Now, Mar 2024)
-- Twitter/X: @fredskoof (count not retrievable)
-- LinkedIn: linkedin.com/in/frederic-fooks
-- GitHub: No public repos found
-
-**Joe Walton** — Lead Engineer (getdayjob.ai). LinkedIn: linkedin.com/in/joetwalton. No additional background data gathered.
-
-**Co-founder relationship:** Both founders attended the University of Oxford (Pre-Seed Now, Mar 2024). Pre-Seed Now describes Fred Fooks as a "long-time friend" of Postlethwaite (Pre-Seed Now, Mar 2024).
-
-**Founder-market fit:** George Postlethwaite's 5 years at Deliveroo (logistics operations, grocery launch) provide direct domain experience in fleet scheduling and last-mile delivery. Fred Fooks' background in supply chain analytics at Deloitte and data science gives technical grounding in optimisation. Their prior company Gaea gave them 18+ months of direct exposure to waste industry operations, ERP systems, and customer relationships before pivoting to Dayjob.
+- **George Postlethwaite (CEO and Co-Founder):**
+  - Background: University of Oxford; 5 years at Deliveroo where he launched the UK grocery business; led sales at Otta (LocalGlobe-backed); previously built Gaea, an ERP for e-waste recyclers (LinkedIn /in/georgepos; YC page, 2026).
+  - Twitter/X: @georgepos6 (Twitter, count not retrievable).
+  - LinkedIn: "Co-Founder at Dayjob (YC P26)" (LinkedIn /in/georgepos).
+  - GitHub: No public account found.
+- **Fred Fooks (CTO and Co-Founder):**
+  - Background: Oxford Engineering Science; Manager, ESG & Supply Chain Analytics at Deloitte UK; prior AI/data science at Capgemini; co-built Gaea ERP for e-waste recyclers (LinkedIn /in/frederic-fooks; ResearchGate; YC page).
+  - Twitter/X: No public account found.
+  - LinkedIn: "Dayjob" (LinkedIn /in/frederic-fooks).
+  - GitHub: No public account found.
+- **Other team:** Joe Walton, Founding Engineer (LinkedIn /in/joetwalton); team size five (YC page, 2026).
+- **Co-founder relationship:** Postlethwaite and Fooks met at Oxford ~13 years ago, lived in five houses together, and were ushers at each other's weddings; co-founded Gaea ERP in 2022 before pivoting to Dayjob in January 2025 (LinkedIn launch post; YC page, 2026).
+- **Founder-market fit:** [Inferred]: Three years building Gaea ERP for waste/e-waste recyclers since 2022, including depot ride-alongs with planners and schedulers (YC page, 2026), gives direct workflow exposure to the customer they now sell to; no advisors or named investors publicly disclosed.
 
 ## Key Risks
 
-**ERP vendor dependency:** Distribution relies on partnerships with waste management ERP providers (VWS/PurGo, Weighsoft, Wastelogics). If any partner builds native scheduling or signs an exclusive with a competitor, Dayjob loses a channel and integration surface. Mitigation: multiple ERP integrations reduce single-vendor risk (getdayjob.ai).
-
-**Narrow vertical entry point:** Initial product is purpose-built for skip hire within waste management — a small subsegment of the broader logistics market. Expansion to adjacent verticals (general waste collection, recycling, bulk haulage) requires new domain-specific tuning and ERP integrations. The prior pivot from Gaea (waste ERP) to Dayjob (scheduling agent) already represents one scope change (YC page).
-
-**Incumbent response from AMCS:** AMCS ($225M raised, Tracxn via search snippet) already offers route optimisation within its waste management ERP suite. If AMCS invests in AI-driven real-time rescheduling as a feature upgrade, Dayjob's differentiation narrows to ERP-agnostic deployment — which matters less for AMCS's own installed base.
-
-**UK geographic concentration:** All named customers and ERP partners are UK-based. Expansion to other European markets or North America would require new ERP integrations, regulatory knowledge, and sales infrastructure (getdayjob.ai, VWS blog).
+- **Pivot history and concentrated revenue:** Company pivoted from Gaea ERP to Dayjob in January 2025 and began selling current product August 2025, reaching $496K ARR (YC page, 2026); [Inferred]: ARR is concentrated across three named UK customers (Allstone, Coastal Recycling, plus one — Dayjob website), creating single-logo churn exposure.
+- **Incumbent substitution risk:** AMCS ($225M+ raised, AI-driven routing built into platform — Tracxn) and Routeware (acquired RUBICONSmartCity/Pro in 2024 — Waste Dive) already ship AI routing inside their ERPs; an overlay agent risks being copied as a native ERP feature.
+- **Vertical narrowness vs. positioning:** Public messaging is "AI Agents for Industrial Logistics" (YC page) but every cited customer and metric is waste/skip-hire (Dayjob website, 2026); [Inferred]: expansion beyond waste to broader industrial logistics is unproven.
+- **Technical feasibility at scale:** Real-time agentic re-optimisation across exceptions and driver changes is unproven beyond the three named UK fleets (Dayjob website); [Inferred]: scaling beyond ~100-jobs-per-day fleets may surface latency or determinism issues not visible today.
+- **Geographic expansion execution:** US launch underway (YC page, 2026); [Inferred]: US waste market is dominated by Routeware's 1,000+ hauler base (Waste Dive, 2024), requiring a distinct GTM motion from UK direct sales.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Route optimisation software: $8.51B in 2023, projected $21.46B by 2030, CAGR 14.4% (Grand View Research via search snippet); Waste management software: $11.13B in 2025 (Verified Market Reports via search snippet) |
+| TAM | No public data found |
 | SAM | No public data found |
-| Traction | $450K+ ARR ~7 months post-launch (YC page); named customers: Allstone, Coastal Recycling (getdayjob.ai); VWS partnership (VWS blog, Jan 2026) |
-| Revenue Signal | $450K+ ARR (YC page); prior product Gaea: $150K revenue (YC page). No public pricing page found |
-| Founders | George Postlethwaite (CEO): Oxford, 5yr Deliveroo, Head of Sales at Otta. Fred Fooks (CTO): Oxford Engineering Science, Deloitte ESG & Supply Chain Analytics |
-| Competitors | AMCS ($225M raised, revenue unknown, full-stack waste ERP with route optimisation; Tracxn via search snippet); Routific ($1.8M raised, $100K–$5M est. revenue, general delivery routing; Crunchbase/Owler via search snippet); Vorto (funding undisclosed, ~$210.6M revenue, supply chain automation; Growjo via search snippet); FarEye ($152M raised, ~$23.7M FY25 revenue, last-mile delivery; Tracxn/Getlatka via search snippet) |
-| Moat Signals | Three named ERP integrations (getdayjob.ai); VWS co-marketing partnership (VWS blog, Jan 2026); domain-specific skip hire optimisation (LinkedIn post, May 2025) |
-| Risk Factors | ERP vendor dependency, narrow vertical entry point, AMCS incumbent response, UK geographic concentration |
-| Founder Reach | George Postlethwaite: Twitter not confirmed, LinkedIn linkedin.com/in/georgepos. Fred Fooks: Twitter @fredskoof (count not retrievable), LinkedIn linkedin.com/in/frederic-fooks. No public GitHub repos found for either founder |
-| Distribution Signals | VWS/PurGo partnership (VWS blog, Jan 2026); ERP integrations with Weighsoft, PurGo, Wastelogics (getdayjob.ai). No Product Hunt launch, app store, or Chrome extension found |
-| Emails | info@getdayjob.ai (getdayjob.ai) |
+| Traction | $496K ARR (YC page, 2026); $359K+ ARR in 7 months post-Aug 2025 launch (YC page, 2026); customers Allstone, Coastal Recycling + 1 (Dayjob website, 2026); customer-reported 8%+ efficiency gains (YC page, 2026) |
+| Revenue Signal | $496K ARR (YC page, 2026); pricing not disclosed on Dayjob website |
+| Founders | George Postlethwaite (CEO): Oxford, 5y Deliveroo (launched UK grocery), Otta sales lead, co-built Gaea ERP. Fred Fooks (CTO): Oxford Engineering Science, Deloitte ESG/Supply Chain Analytics, Capgemini AI/Data, co-built Gaea ERP. |
+| Competitors | AMCS ($225M+ raised, $273.1M revenue — Tracxn/Growjo, incumbent waste ERP); Routeware ($123M raised, $25–100M revenue — PitchBook/Owler, 1,000+ haulers); RouteSmart (revenue unknown — SoftwareWorld, GIS routing); OptimoRoute (revenue unknown — SoftwareWorld, horizontal routing); Samsara (public — search snippet, fleet telematics) |
+| Moat Signals | ERP integration into existing waste-operator back-ends (YC page, 2026); ~3 years of depot/scheduler workflow exposure via prior Gaea ERP since 2022 (YC page, 2026) |
+| Risk Factors | Incumbent substitution by AMCS/Routeware AI routing modules, vertical narrowness vs. "industrial logistics" positioning, concentrated customer base |
+| Founder Reach | George Postlethwaite: Twitter @georgepos6 (count not retrievable), LinkedIn /in/georgepos, GitHub not found. Fred Fooks: Twitter not found, LinkedIn /in/frederic-fooks, GitHub not found. |
+| Distribution Signals | YC launch post on LinkedIn (LinkedIn activity-7453096249261592577); named customers Allstone, Coastal Recycling (Dayjob website, 2026); US market expansion in progress (YC page, 2026) |
+| Emails | info@getdayjob.ai (Dayjob website, 2026) |
+
+Sources:
+- [Dayjob YC company page](https://www.ycombinator.com/companies/dayjob)
+- [Dayjob website](https://www.getdayjob.ai)
+- [George Postlethwaite LinkedIn](https://www.linkedin.com/in/georgepos/)
+- [Fred Fooks LinkedIn](https://www.linkedin.com/in/frederic-fooks/)
+- [Joe Walton LinkedIn](https://uk.linkedin.com/in/joetwalton)
+- [Dayjob launch LinkedIn post](https://www.linkedin.com/posts/y-combinator_dayjob-is-ai-scheduling-for-waste-trucks-activity-7453096249261592577-iYd2)
+- [AMCS Tracxn profile](https://tracxn.com/d/companies/amcs/__5dYbiJH0GtkirPoLaF6KSeFM0PuuA3aTy4rf2gY0LV0)
+- [AMCS Growjo](https://growjo.com/company/AMCS)
+- [Routeware PitchBook](https://pitchbook.com/profiles/company/55228-06)
+- [Routeware Rubicon acquisition - Waste Dive](https://www.wastedive.com/news/routeware-acquires-recently-spun-off-rubicon-fleet-tech-business/725404/)
+- [AMCS alternatives - SoftwareWorld](https://www.softwareworld.co/competitors/amcs-alternatives/)

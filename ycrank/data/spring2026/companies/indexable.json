@@ -10,65 +10,35 @@
     "team_size": "3",
     "location": "San Francisco, CA, USA",
     "tags": "Artificial Intelligence",
-    "yc_partner": "Pete Koomen",
-    "emails": "andrew@ix.dev (GitHub bio)"
+    "yc_partner": "Pete Koomen (YC company page)",
+    "emails": "andrew@ix.dev (GitHub bio pattern \"{first}@ix.dev\", github.com/andrewgazelka)"
   },
   "tags": [
     "Artificial Intelligence"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-22T23:27:18.803Z",
+  "memoGeneratedAt": "2026-05-28T02:36:51.405Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 58,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 75,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 62,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 43,
+      "score": 36,
       "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 50,
-      "tier": "Neutral"
-    },
-    "vinod-khosla": {
-      "score": 59,
-      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 47,
-    "EG": 58,
-    "NR": 75,
-    "PG": 62,
-    "PT": 43,
-    "SL": 50,
-    "VK": 59
+    "CB": 36,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 56.29,
-  "consolidatedRank": 3,
+  "consolidatedAvg": 36,
+  "consolidatedRank": 157,
   "paths": {
     "memo": "spring2026/memos/indexable.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/indexable.md",
-      "elad-gil": "spring2026/evals/elad-gil/indexable.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/indexable.md",
-      "paul-graham": "spring2026/evals/paul-graham/indexable.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/indexable.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/indexable.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/indexable.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/indexable.md"
     }
   }
 }

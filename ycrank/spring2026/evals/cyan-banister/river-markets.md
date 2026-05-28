@@ -1,0 +1,30 @@
+﻿# River Markets -- Cyan Banister Evaluation
+
+River Markets is a regulated-fintech wrapper with one half-visible founder, sitting in a YC race that has already produced an acquisition and a 1B-contract competitor before the Spring 2026 batch even closed — that pairing, the regulated lane plus the opaque co-founder, is the whole signature. Antonin Parrot has a real Valkyrie Trading quant pedigree and presented at the Kalshi research conference; Oscar Levy has no LinkedIn, no Twitter, no GitHub, no biographical line in the dossier. I'm looking at a two-person team where one person is a ghost and the other is selling a prime brokerage to four named desks — Chimera, Game Point, Cleat Street, Skywalk — in a category Polymarket has already started absorbing.
+
+Anduril-Luckey is the high rung on lived founder origin: Palmer shipped Oculus from his garage before he ever pitched defense hardware, and the biography was the moat. River Markets does not load that analogy. Parrot is closer to the DeepMind-Hassabis rung — a credentialed quant who studied the problem from inside Valkyrie and presented research at Kalshi's conference, which is domain proximity but not the autobiographical contact I look for. River Markets diverges from the Anduril template the moment I notice Oscar Levy has no public footprint at all; I cannot evaluate the second founder's relationship to prediction markets, and "half the team is unsearchable" is not a feature of any portfolio company I've written into. The Parrot side is real; the Levy side is a hole the dossier cannot fill.
+
+HQ Trivia is the failure mechanism on co-founder governance: Yusupov and Kroll were a 50/50 partnership with no tiebreaker, and the company imploded when the personalities split. River Markets does not name a CEO, does not document equity split, and one of the two founders has zero public presence to even diligence — that is the exact configuration I have explicitly said is "a recipe for disaster" on Tim Ferriss. I cannot apply the HQ Trivia override here either, because the override required tactile viral product-pull I could literally feel; a Python SDK for institutional desks does not let me feel anything.
+
+On magically weird (mechanism over 18 months): the prediction-markets aggregation thesis is the opposite of weird in Spring 2026. Dome was YC F25 and got bought by Polymarket in February 2026 for an estimated $10–20M; Valence is YC W26 with $200M+ monthly volume already; PolyRouter, pmxt, FinFeedAPI, Prediction Hunt are all wrapping the same public venue APIs. The "find them before it becomes consensus" filter inverts when River Markets is the fourth or fifth named entrant into a YC-funded category with a precedent acquisition in the same partner batch. That is the AI-agent-darling pass-shape applied to fintech.
+
+On capital-intensive/regulated swing (counterfactual to flip a tier): River Markets would need to actually hold an FCM license, broker-dealer registration, or at minimum a money-transmitter license to qualify as a real prime broker rather than a routing layer. The dossier says "no public data found on River holding broker-dealer, FCM, or money-transmitter licenses." If Oscar Levy turned out to be a former Clear Street or Goldman PB operator who brought regulatory credentials, the regulated-fintech lane I scored Vigil Labs in would open up — without that, River Markets is software-on-public-APIs with a CFTC/crypto dual-regime risk it cannot price.
+
+On physical verifiability (single-anchor parallel to Niantic): I sat outside John Hanke's door because I had been playing Ingress obsessively since 2012 — I felt the product in my hands for three years before the check. River Markets is a B2B execution platform; the app at app.rivermarkets.com exists but the only humans who can meaningfully touch it are professional trading desks. I can play with Polymarket. I cannot play with a Python SDK that signs Ed25519 calls to route Iceberg orders across Kalshi.
+
+Forecast, 36 months: River Markets is acqui-hired by Kalshi, Clear Street, or a second-mover venue for $10–25M as a routing-engine team purchase, or it is dead and Valence absorbed the customer list. The mechanism is the one Polymarket already demonstrated in February 2026 with Dome — venues buy the aggregation layer to control distribution, and the independent neutral broker thesis dies in the margin between venue acquisition prices and what the institutional desks will actually pay in commissions.
+
+The strongest bull case is that Polymarket's Dome acquisition is bullish, not bearish — it proves the layer has strategic value and creates an opening for an *independent* prime broker because the buy-side desks will not want their order flow seen by a competing venue, which is the antitrust/neutrality argument the dossier raises. Four named institutional clients at pre-seed is not nothing; Parrot's Kalshi-conference relationships are real distribution; the prime-brokerage framing genuinely differentiates from the data-API pack. That case stings because it is the Crusoe-shaped "passed for aesthetic reasons" inversion — except the aesthetic objection here is not "this is uninvestable," it is "this is over-investable," six teams chasing the same wrap. Dome's $10–20M acquisition is the exit ceiling, not the floor, and the founder-lived-it test the Crusoe override required is satisfied by Parrot alone, not by the pair. I would flip to Invest if Oscar Levy surfaces as a credentialed prime-brokerage operator with a regulatory license attached and one founder is named CEO with majority operating control in writing.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Surfaced From Lived Experience, Not Market Analysis | 12/32 |
+| Magically Weird, Non-Consensus, Round Likely Underpriced | 6/24 |
+| Single Unambiguous CEO With Identifiable Tiebreaker Authority | 4/16 |
+| Capital-Intensive, Frontier-Hardware or Unsexy-Regulated Swing | 7/15 |
+| Physical-World Verifiability: You Can Touch, Use, Or Observe The Product | 5/13 |
+| **Total** | **34/100** |
+
+**Total Score: 34/100** (Pass)

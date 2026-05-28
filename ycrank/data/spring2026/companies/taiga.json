@@ -3,72 +3,42 @@
   "name": "Taiga",
   "oneLiner": "Full-stack Medical Billing Services",
   "metadata": {
-    "website": "https://usetaiga.com",
+    "website": "https://taigabilling.com",
     "yc_page": "https://www.ycombinator.com/companies/taiga",
     "batch": "Spring 2026",
-    "industry": "Healthcare / Healthcare Services",
+    "industry": "Healthcare / Healthcare -> Healthcare Services",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "AI",
+    "tags": "Artificial Intelligence",
     "yc_partner": "Nicolas Dessaigne",
     "emails": "founders@usetaiga.com"
   },
   "tags": [
-    "AI"
+    "Artificial Intelligence"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-22T23:42:44.634Z",
+  "memoGeneratedAt": "2026-05-28T02:53:26.376Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 49,
+      "score": 51,
       "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 40,
-      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 49,
-    "EG": 40,
-    "NR": 49,
-    "PG": 53,
-    "PT": 33,
-    "SL": 30,
-    "VK": 40
+    "CB": 51,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 42,
-  "consolidatedRank": 71,
+  "consolidatedAvg": 51,
+  "consolidatedRank": 50,
   "paths": {
     "memo": "spring2026/memos/taiga.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/taiga.md",
-      "elad-gil": "spring2026/evals/elad-gil/taiga.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/taiga.md",
-      "paul-graham": "spring2026/evals/paul-graham/taiga.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/taiga.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/taiga.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/taiga.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/taiga.md"
     }
   }
 }

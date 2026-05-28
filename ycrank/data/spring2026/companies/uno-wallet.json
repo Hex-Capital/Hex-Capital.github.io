@@ -1,0 +1,46 @@
+{
+  "slug": "uno-wallet",
+  "name": "Uno Wallet",
+  "oneLiner": "The AI wallet that picks the best card at checkout.",
+  "metadata": {
+    "website": "https://myunowallet.com/",
+    "yc_page": "https://www.ycombinator.com/companies/uno-wallet",
+    "batch": "Spring 2026",
+    "industry": "Consumer / Consumer",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Payments, Consumer Finance",
+    "yc_partner": "Andrew Miklas (YC company page)",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Payments",
+    "Consumer Finance"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-28T02:35:06.151Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 32,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 32,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
+  },
+  "consolidatedAvg": 32,
+  "consolidatedRank": 175,
+  "paths": {
+    "memo": "spring2026/memos/uno-wallet.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/uno-wallet.md"
+    }
+  }
+}

@@ -1,14 +1,14 @@
 {
   "slug": "stage",
   "name": "Stage",
-  "oneLiner": "Code review platform for today's engineers",
+  "oneLiner": "Code review platform for AI generated code",
   "metadata": {
     "website": "https://www.stagereview.app/",
     "yc_page": "https://www.ycombinator.com/companies/stage",
     "batch": "Spring 2026",
     "industry": "B2B / B2B -> Engineering, Product and Design",
     "team_size": "2",
-    "location": "Not listed",
+    "location": "San Francisco, CA, USA",
     "tags": "Developer Tools, SaaS",
     "yc_partner": "Pete Koomen",
     "emails": "No public data found"
@@ -18,58 +18,28 @@
     "SaaS"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-22T23:55:41.716Z",
+  "memoGeneratedAt": "2026-05-28T03:05:17.318Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 37,
+      "score": 40,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 32,
-    "EG": 37,
-    "NR": 47,
-    "PG": 47,
-    "PT": 28,
-    "SL": 28,
-    "VK": 37
+    "CB": 40,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 36.57,
-  "consolidatedRank": 129,
+  "consolidatedAvg": 40,
+  "consolidatedRank": 126,
   "paths": {
     "memo": "spring2026/memos/stage.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/stage.md",
-      "elad-gil": "spring2026/evals/elad-gil/stage.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/stage.md",
-      "paul-graham": "spring2026/evals/paul-graham/stage.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/stage.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/stage.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/stage.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/stage.md"
     }
   }
 }

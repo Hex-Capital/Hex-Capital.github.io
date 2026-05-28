@@ -1,7 +1,7 @@
 {
   "slug": "standout",
   "name": "Standout",
-  "oneLiner": "The Hollywood agent for startup talent",
+  "oneLiner": "Agentic hiring marketplace",
   "metadata": {
     "website": "https://standout.work",
     "yc_page": "https://www.ycombinator.com/companies/standout",
@@ -9,69 +9,38 @@
     "industry": "Consumer / Consumer -> Job and Career Services",
     "team_size": "3",
     "location": "San Francisco, CA, USA",
-    "tags": "Artificial Intelligence, Consumer, Recruiting, Careers",
-    "yc_partner": "Aaron Epstein",
-    "emails": "No public data found"
+    "tags": "Marketplace, AI, Careers",
+    "yc_partner": "Aaron Epstein (YC company page)",
+    "emails": "No public data found (booking link: cal.com/team/standout/hire per YC page)"
   },
   "tags": [
-    "Artificial Intelligence",
-    "Consumer",
-    "Recruiting",
+    "Marketplace",
+    "AI",
     "Careers"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-22T23:46:26.140Z",
+  "memoGeneratedAt": "2026-05-28T02:55:47.774Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 47,
+      "score": 46,
       "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 39,
-      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 42,
-    "EG": 38,
-    "NR": 47,
-    "PG": 52,
-    "PT": 34,
-    "SL": 33,
-    "VK": 39
+    "CB": 46,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 40.71,
-  "consolidatedRank": 87,
+  "consolidatedAvg": 46,
+  "consolidatedRank": 77,
   "paths": {
     "memo": "spring2026/memos/standout.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/standout.md",
-      "elad-gil": "spring2026/evals/elad-gil/standout.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/standout.md",
-      "paul-graham": "spring2026/evals/paul-graham/standout.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/standout.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/standout.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/standout.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/standout.md"
     }
   }
 }

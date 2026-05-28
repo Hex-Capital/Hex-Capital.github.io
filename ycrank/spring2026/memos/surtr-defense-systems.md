@@ -6,118 +6,94 @@
 |-------|-------|
 | Website | https://surtrdefense.com |
 | YC Page | https://www.ycombinator.com/companies/surtr-defense-systems |
-| Batch | Spring 2026 (YC page) |
+| Batch | Spring 2026 |
 | Industry | Industrials / Industrials -> Defense |
 | Team Size | 2 |
 | Location | Los Angeles, CA, USA |
 | Tags | Computer Vision |
-| YC Partner | Andrew Miklas (YC page) |
+| YC Partner | Andrew Miklas |
 | Emails | No public data found |
 
 ## The Idea
 
-**Problem:** Counter-UAS (C-UAS) operators run a fragmented stack: separate radars, RF detectors, EO/IR cameras, and acoustic arrays, each with its own console. Per WebSearch results, current production C-UAS deployments are dominated by closed, vendor-specific systems (Anduril, BlueHalo, Dedrone, DroneShield, D-Fend, Fortem, Rafael, L3Harris) (GlobeNewswire "Counter-UAS Solutions Company Radar Report 2025"). [Inferred]: Operators today switch between OEM consoles or buy single-vendor stacks because no neutral fusion layer exists.
-
-**Approach:** ParallaxOS, a software-only operating system that ingests data from any radar, RF sensor, EO/IR camera, or acoustic array and fuses tracks into a single common operating picture, with AI threat classification and engagement recommendations subject to a human-in-the-loop authorization (YC page; WebSearch snippet citing surtrdefense.com). Out-of-the-box integrations cited: SAPIENT (NATO AEDP-4869), Link 16, Cursor on Target, and NATS (WebSearch snippet citing surtrdefense.com). Stated latency: "millisecond" multi-sensor track correlation (WebSearch snippet citing surtrdefense.com).
-
-**Differentiation:** Marketed as the "open" OS, hardware-agnostic across sensors and effectors, vs. vertically integrated platforms from Anduril (Lattice), Dedrone, Fortem, and D-Fend (WebSearch results above). [Inferred]: Differentiation hinges on neutrality across sensor/effector OEMs and adherence to NATO/DoD interop standards (SAPIENT, Link 16, CoT) rather than proprietary protocols.
-
-**Business Model:** No pricing page accessible (surtrdefense.com returned HTTP 403 on WebFetch). [Inferred]: Most likely monetization is enterprise/government software licensing (per-site or per-operator) plus integration services, given the C-UAS buyer set (DoD, federal LE, critical infrastructure) and the OS framing.
-
-**TAM/SAM:** Global C-UAS market estimates: $5.12B (2025) growing to $27.98B by 2032 (Yahoo Finance summarizing market report, via search snippet); alternative estimate $3.8B (2025) → $27.4B (2034) at 25.2% CAGR (Marketintelo, via search snippet). DroneShield-cited "global addressable C-UAS market" pegged at USD 63M historically per unmannedairspace.info (via search snippet) — figure refers to a narrower addressable segment. No SAM-specific estimate for C-UAS command-and-control software found.
-
-**GTM / Distribution:** No public GTM data found. [Inferred]: Most likely path is direct sales to DoD program offices and prime integrators, leveraging founders' Shield AI/Anduril relationships, plus pursuit of SBIR/STRATFI and PEO Missiles & Space C-UAS programs (the same office that awarded Anduril its C-UAS Fire Control Solution win in Oct 2025 per WebSearch).
+- **Problem:** Counter-UAS operators run fragmented sensor stacks (radar, RF, EO/IR, acoustic) from multiple vendors with bespoke integrations that take months; this fragmentation is acute as drone incursions surge — global government C-UAS spending exceeded $29B in publicly announced contracts in Q1 2026 (MarketsandMarkets / PRNewswire, 2026).
+- **Approach:** ParallaxOS ingests data from any radar, RF detector, camera, or acoustic array and fuses it into a single unified picture with AI-driven threat classification and engagement recommendations on a human-in-the-loop interface (YC company page, 2026).
+- **Differentiation:** vs. Anduril Lattice — built on open standards so partners own integrations and customers own data, and Surtr does not compete with hardware partners on contracts (YC launch tweet, May 13 2026); vs. Dedrone/Axon — vendor-neutral C2 layer rather than a paired hardware+software stack (company website, 2026).
+- **Business Model:** No pricing data on website (website returned 403 at time of research). [Inferred]: Software licensing / per-deployment contracts to DoD primes and allied-nation MoDs, given the "partners own integrations, customers own data" positioning.
+- **TAM/SAM:** Counter-UAS systems market projected at $20.31B by 2030 (MarketsandMarkets, Oct 2025); $2.6B in 2026 growing to $19.06B by 2035 (Precedence Research, 2025); DroneShield cites a $63B total addressable counter-UxS TAM (Unmanned Airspace / DroneShield 2025 TAM Report).
+- **GTM / Distribution:** [Inferred]: Direct sales to DoD and allied-nation buyers via hardware-partner channel, leveraging founders' Shield AI / Anduril relationships; YC launch tagline "unite the West" suggests NATO/Five Eyes positioning (surtrdefense.com tagline, 2026).
 
 ## Defensibility
 
-No defensibility signals (patents, customer contracts, proprietary datasets) found in public sources. [Inferred]: Potential moats include (a) accumulated multi-sensor fusion training data from deployments, (b) certified integrations against classified/ITAR-controlled radios and effectors, and (c) DoD authority-to-operate (ATO) accreditations, none of which are visible today.
-
-**Market structure:** [Inferred]: The structural barrier facing incumbents is sales-channel and business-model cannibalization — Anduril (Lattice), Dedrone, Fortem, and D-Fend sell integrated hardware+software bundles; a credible "open" OS endorsement would commoditize their proprietary sensor margins. Adopting an open OS therefore conflicts with their hardware revenue model. This is unproven for Surtr at this stage.
-
-**Commoditization risk:** [Inferred]: The fusion-layer concept can be replicated by well-funded primes (Anduril Lattice already markets cross-sensor fusion; Palantir MetaConstellation and similar C2 layers compete adjacent). Build cost is software-heavy and addressable by 5–20-engineer teams; the durable barrier will be integrations, certifications, and program-of-record placement, not raw code.
+- **Moat today:** No defensibility signals found in public sources beyond founders' domain expertise from Shield AI and Anduril autonomy programs (LinkedIn, 2026).
+- **Future moat:** [Inferred]: Sensor-integration network effects — each new radar/RF/EO partner integration increases value of the platform for every customer, plus accumulated multi-sensor fusion training data; unproven now because no integrations or customers are publicly disclosed.
+- **Market structure:** [Inferred]: Channel conflict barrier — incumbents like Anduril (Lattice) and Dedrone/Axon sell paired hardware, so a vendor-neutral C2 layer would cannibalize their hardware attach; Anduril was selected by U.S. Army PEO Missiles and Space for the C-UAS Fire Control Solution in Oct 2025 (MarketsandMarkets, 2025), reinforcing their closed-stack incentive.
+- **Commoditization risk:** Open-architecture C-UAS C2 is a stated DoD modernization priority (MarketsandMarkets, 2025), so primes (RTX, Lockheed, Thales) and well-funded startups (Anduril, Shield AI) can build competing fusion layers.
 
 ## Market & Traction
 
-**1. Traction signals:**
-- Funding/launch: Listed in YC Spring 2026 batch (YC page). No funding announcement beyond standard YC deal found.
-- Press coverage: No dedicated press coverage found beyond YC directory listings (WebSearch).
-- Product Hunt: No public data found.
-- Social media: Company Twitter/X — No public account found. LinkedIn company page — No public data found.
-- Community (Discord/Slack): No public data found.
-- Customers / LOIs / partnerships: No public data found.
-- Hiring: Hiring flag = False (company_data).
-- Web traffic / app installs: Not applicable (enterprise software); no public data found.
-
-**2. Competitive landscape:**
-- **Anduril Industries** — Lattice OS provides integrated C2 across Anduril-owned and partner sensors/effectors; won U.S. Army PEO Missiles & Space C-UAS Fire Control Solution Oct 2025 (WebSearch via Yahoo Finance/MarketsandMarkets snippet). Funding: multi-billion; differentiator vs. Surtr: vertically integrated hardware+software, deep DoD program-of-record footprint.
-- **Dedrone (Axon)** — Acquired by Axon Enterprise Oct 2024; raised $60.5M Series C/C-1 in 2021–2022 led by Axon (Wikipedia/Tracxn via search snippet). Revenue/ARR: unknown. Differentiator: RF-detection-focused; now part of public-safety platform; less hardware-agnostic.
-- **Fortem Technologies** — Received $25M from Lockheed Martin (initial Series B tranche) Apr 2026; $18M 3-yr U.S. Army contract (Lockheed Martin newsroom, Apr 22, 2026, via search snippet). Revenue/ARR: unknown. Differentiator: radar + interceptor drone hardware; not an open OS.
-- **D-Fend Solutions** — Israeli, EnforceAir RF takeover system; named in Gartner top-funded cyber electronic defense report (cuashub.com via search snippet); funding figure not retrieved. Differentiator: cyber/RF takeover, proprietary effector.
-- **Epirus** — Raised $250M to scale directed-energy drone neutralization; Leonidas HPM integrated on Stryker via General Dynamics (WebSearch via Yahoo Finance/MarketsandMarkets snippet). Differentiator: effector (high-power microwave), not C2 fusion software.
-
-**3. Why now:**
-- [Inferred]: Three catalysts in the past 12–24 months: (a) sustained battlefield use of small UAS in Ukraine and the Red Sea has shifted U.S. DoD procurement toward fielded C-UAS systems (Oct 2025 PEO Missiles & Space award to Anduril; Apr 2026 Lockheed/Fortem deal — both per search snippets); (b) NATO adoption of SAPIENT (AEDP-4869) as the cross-vendor C-UAS data standard creates a defined integration target (WebSearch snippet citing surtrdefense.com); (c) OpenAI/Anduril Dec 2024 partnership signals AI-fusion as the de facto C-UAS interface layer (WebSearch via Yahoo Finance snippet).
+- **Traction signals:**
+  - Public launch via YC on X: May 13, 2026 (Y Combinator @ycombinator tweet, status 2054637808258818253)
+  - Company X handle: @surtrdefense (YC launch tweet, 2026) — follower count not retrievable
+  - LinkedIn / Discord / Product Hunt / Press: No public data found
+  - YC jobs page: 0 open positions (YC company page, 2026)
+- **Competitors:**
+  - Anduril Industries (Lattice; selected by U.S. Army for C-UAS Fire Control, Oct 2025; revenue not separately disclosed): closed, vertically integrated hardware+software stack vs. Surtr's vendor-neutral OS (MarketsandMarkets, 2025).
+  - Epirus ($595M raised, Series D, $1.35B valuation; revenue unknown): high-power microwave effector hardware focus, not a sensor-fusion OS (Tracxn, 2026).
+  - Dedrone (acquired by Axon Oct 2024, terms undisclosed; >$127M raised pre-acquisition): drone-detection software paired with Axon hardware ecosystem vs. Surtr's hardware-agnostic stance (Wikipedia / CNBC, May 2024).
+  - DroneShield (ASX-listed, AU$92.9M Q3 2025 revenue, up 1,091% YoY; AU$2.55B sales pipeline): handheld + DroneSentry-C2 platform tied to own hardware (Investing.com / Streetwise Reports, Oct 2025).
+  - Shield AI (founders' former employer; private, multi-billion valuation): autonomy stack for own aircraft, not third-party sensor C2 (LinkedIn, 2026).
+- **Why now:** [Inferred]: U.S. Army's Oct 2025 C-UAS Fire Control Solution award and explicit DoD push for "open-system and common-architecture compliance" (MarketsandMarkets, 2025) creates a procurement window for open C2 layers; Ukraine and Red Sea drone warfare have driven >$29B in publicly announced C-UAS contracts in Q1 2026 (PRNewswire, 2026).
 
 ## Founders & Team
 
-**Anshul Ahluwalia** — Co-founder
-- Education: MS and BS, Georgia Institute of Technology (WebSearch / LinkedIn snippet)
-- Prior roles: Senior Robotics Engineer / Autonomy Engineer at Shield AI (planning & controls; forward-deployed engineer) (LinkedIn snippet, ZoomInfo snippet, Contrary Research). Prior ML internship at Skylark Labs (LinkedIn snippet).
-- Twitter/X: No public account found
-- LinkedIn: linkedin.com/in/anshul-ahluwalia-17658264 (count not retrievable)
-- GitHub: No public repos found
-
-**Cameron Fiore** — Co-founder
-- Education: Brown University (LinkedIn snippet)
-- Prior roles: Shield AI (LinkedIn snippet). Description also cites prior Anduril autonomy engineering experience (company_data Description); Anduril tenure not separately corroborated in search snippets retrieved.
-- Twitter/X: No public account found
-- LinkedIn: linkedin.com/in/camfiore — 500+ connections (LinkedIn snippet)
-- GitHub: No public repos found
-
-**Co-founder relationship:** Both founders show Shield AI tenure as autonomy engineers (LinkedIn/ZoomInfo/Contrary Research snippets), indicating prior shared employer. No public data on whether tenures overlapped chronologically.
-
-**Founder-market fit:** [Inferred]: Both founders' Shield AI autonomy backgrounds (and Fiore's stated Anduril history per company description) put them inside the two largest U.S. defense-AI companies covering the C-UAS adjacency. Their network and security-clearance posture are typically required for selling into DoD program offices. No advisors, board members, or notable investors beyond YC found in public sources.
+- **Anshul Ahluwalia (Co-founder & CEO):**
+  - Background: BS & MS Computer Science, Georgia Tech; previously forward-deployed / robotics engineer at Shield AI on planning and controls for Group 3 & 5 aircraft; prior interns at Meta, Dropbox, Skylark Labs (LinkedIn / ZoomInfo, 2026).
+  - Twitter/X: @anshulwalia95 (search results, 2026) — count not retrievable
+  - LinkedIn: "Surtr Defense Systems" (linkedin.com/in/anshul-ahluwalia-17658264, 2026)
+  - GitHub: No public repos found
+- **Cameron Fiore (Co-founder & CTO):**
+  - Background: BS & MS Computer Engineering, Brown University; previously autonomy engineer at Anduril on aircraft autonomy and at Shield AI on planning and controls / missile defense and robot teaming in contested environments (LinkedIn, 2026).
+  - Twitter/X: @cam_fiore (Y Combinator launch tweet, May 13 2026) — count not retrievable
+  - LinkedIn: "Shield AI" headline (linkedin.com/in/cameron-fiore-ab726b191, 2026)
+  - GitHub: No public repos found
+- **Co-founder relationship:** Both founders previously worked together at Shield AI in planning and controls for autonomous aircraft (LinkedIn / search results, 2026).
+- **Founder-market fit:** Both founders shipped autonomy software at the two leading U.S. defense-tech autonomy companies (Anduril, Shield AI) directly relevant to multi-sensor fusion and engagement decisioning for C-UAS (LinkedIn, 2026); no advisors or investors beyond YC publicly listed.
 
 ## Key Risks
 
-**Incumbent platform substitution:** Anduril Lattice already markets multi-sensor fusion and won the Army's Oct 2025 C-UAS Fire Control Solution competition (WebSearch via Yahoo Finance/MarketsandMarkets snippet). A 2-person team must outpace Lattice on integration breadth before Anduril locks in programs of record.
-
-**OEM cooperation risk:** ParallaxOS depends on access to proprietary sensor and effector interfaces from Dedrone, Fortem, D-Fend, DroneShield, etc. (WebSearch). [Inferred]: These vendors have business-model incentive to withhold API access from a neutral OS that would commoditize their software margins; SAPIENT compliance mitigates partially but not for non-compliant legacy gear.
-
-**Procurement-cycle risk:** [Inferred]: DoD C-UAS procurement runs on multi-year cycles (SBIR → STRATFI → POR). A pre-seed team with no disclosed contracts (no public data found on LOIs, SBIRs, or pilots) faces a long path to first revenue typical of defense software.
-
-**Founder-channel concentration:** Both founders come from Shield AI; Fiore additionally from Anduril per company description. [Inferred]: Selling against former employers (Anduril Lattice in particular) creates non-compete, IP-overlap, and relationship-conflict exposure.
-
-**Technical feasibility — millisecond multi-sensor fusion at scale:** Stated "millisecond-latency" track correlation across heterogeneous sensors (WebSearch snippet citing surtrdefense.com) is an aggressive claim; not independently benchmarked in public materials.
+- **Procurement cycle risk:** DoD and allied C-UAS sales typically require years-long programs of record; Anduril already won the Army's C-UAS Fire Control Solution in Oct 2025 (MarketsandMarkets, 2025), so Surtr must displace or layer beneath an incumbent with deep program relationships. No mitigation found publicly.
+- **Channel conflict risk:** The "open OS" thesis depends on hardware partners (radar/RF/EO vendors) integrating with Surtr rather than with incumbent C2 stacks like Lattice; if Anduril/Dedrone bundle integrations with hardware contracts, partner pull diminishes. No mitigation disclosed.
+- **Technical feasibility risk:** Real-time sensor fusion + AI threat classification across heterogeneous radar/RF/EO/acoustic feeds with low false-positive rates at engagement-decision quality is unproven publicly; the founders have relevant autonomy backgrounds (LinkedIn, 2026) but no third-party performance benchmarks exist.
+- **Concentration / customer access risk:** Two-person team selling to defense buyers requires cleared personnel, ITAR compliance, and FOCI considerations; no public evidence of clearances, prime partnerships, or signed LOIs (YC page, 2026).
+- **Name disambiguation risk:** "Surtr" is a common Norse mythology reference and appears in unrelated contexts; researchers must cross-check against founders Ahluwalia/Fiore and Spring 2026 batch (YC page, 2026).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Global C-UAS $5.12B (2025) → $27.98B by 2032 (Yahoo Finance summarizing market report, 2025, via search snippet); alt: $3.8B (2025) → $27.4B (2034) at 25.2% CAGR (Marketintelo, via search snippet) |
+| TAM | $20.31B by 2030 (MarketsandMarkets, Oct 2025); $19.06B by 2035 (Precedence Research, 2025); $63B total addressable counter-UxS (DroneShield 2025 TAM Report) |
 | SAM | No public data found |
-| Traction | YC Spring 2026 batch listing (YC page); no funding announcement, customers, press, social, or community data publicly found |
-| Revenue Signal | No public data found (surtrdefense.com returned HTTP 403; no pricing page accessible) |
-| Founders | Anshul Ahluwalia (Co-founder): ex-Shield AI autonomy engineer, MS/BS Georgia Tech (LinkedIn/ZoomInfo via search snippet). Cameron Fiore (Co-founder): ex-Shield AI; Anduril per company description; Brown University (LinkedIn via search snippet) |
-| Competitors | Anduril (multi-billion raised, revenue unknown, vertically integrated Lattice OS + Oct 2025 Army C-UAS win — Yahoo Finance/MarketsandMarkets snippet); Dedrone/Axon ($60.5M raised pre-acquisition, revenue unknown, acquired by Axon Oct 2024 — Wikipedia/Tracxn snippet); Fortem ($25M from Lockheed Apr 2026 + $18M Army contract, revenue unknown, radar+interceptor hardware — Lockheed Martin newsroom snippet); D-Fend (funding unknown, revenue unknown, RF cyber takeover — cuashub.com snippet); Epirus ($250M raised, revenue unknown, HPM effector not C2 — Yahoo Finance/MarketsandMarkets snippet) |
-| Moat Signals | No public data found |
-| Risk Factors | Incumbent platform substitution (Anduril Lattice), OEM cooperation risk, DoD procurement cycle length |
-| Founder Reach | Anshul Ahluwalia: Twitter not found, LinkedIn count not retrievable (linkedin.com/in/anshul-ahluwalia-17658264), GitHub not found. Cameron Fiore: Twitter not found, LinkedIn 500+ connections (linkedin.com/in/camfiore), GitHub not found (LinkedIn snippets) |
-| Distribution Signals | No public data found (no Product Hunt launch, no app/extension, no press) |
+| Traction | YC public launch May 13, 2026 (Y Combinator tweet); 0 job postings (YC page, 2026); company X handle @surtrdefense, count not retrievable |
+| Revenue Signal | No public data found (website returned 403 at fetch time; no pricing page accessible) |
+| Founders | Anshul Ahluwalia (CEO): GT BS/MS CS, ex-Shield AI autonomy. Cameron Fiore (CTO): Brown BS/MS CompE, ex-Anduril aircraft autonomy, ex-Shield AI. |
+| Competitors | Anduril (private, multi-B valuation, revenue unknown, closed Lattice stack); Epirus ($595M raised, $1.35B val, revenue unknown, HPM effectors); Dedrone (acquired by Axon Oct 2024, $127M+ raised, paired w/ Axon hardware); DroneShield (ASX-listed, AU$92.9M Q3 2025 rev, own-hardware C2); Shield AI (private, autonomy for own aircraft) |
+| Moat Signals | No public data found beyond founder domain expertise at Shield AI / Anduril (LinkedIn, 2026) |
+| Risk Factors | Procurement cycle vs. Anduril incumbency, channel conflict with hardware partners, multi-sensor fusion technical feasibility unproven |
+| Founder Reach | Anshul Ahluwalia: Twitter @anshulwalia95 count not retrievable, LinkedIn anshul-ahluwalia-17658264, GitHub not found. Cameron Fiore: Twitter @cam_fiore count not retrievable, LinkedIn cameron-fiore-ab726b191, GitHub not found. |
+| Distribution Signals | YC launch tweet May 13, 2026 (Y Combinator @ycombinator); no Product Hunt, app store, or Chrome listing applicable |
 | Emails | No public data found |
 
 Sources:
-- [Surtr Defense Systems – Y Combinator](https://www.ycombinator.com/companies/surtr-defense-systems)
-- [Anshul Ahluwalia – LinkedIn](https://www.linkedin.com/in/anshul-ahluwalia-17658264/)
-- [Anshul Ahluwalia – ZoomInfo](https://www.zoominfo.com/p/Anshul-Ahluwalia/5328629935)
-- [Cameron Fiore – LinkedIn](https://www.linkedin.com/in/camfiore/)
-- [Shield AI – Wikipedia](https://en.wikipedia.org/wiki/Shield_AI)
-- [Counter-UAS Solutions Company Radar Report 2025 – GlobeNewswire](https://www.globenewswire.com/news-release/2025/08/13/3132391/28124/en/Counter-UAS-Solutions-Company-Radar-Report-2025-Anduril-BlueHalo-D-Fend-Dedrone-by-Axon-DroneShield-ELTA-Fortem-Honeywell-L3Harris-Rafael-Advanced-Defense-Systems-SAIC-Sentrycs.html)
-- [Counter-UAS Systems Market 2025-2033 – Yahoo Finance](https://finance.yahoo.com/news/counter-uas-c-uas-systems-095400618.html)
-- [Counter-UAS Market Report 2025-2030 – MarketsandMarkets](https://www.marketsandmarkets.com/Market-Reports/counter-cuas-systems-market-4197284.html)
-- [Counter-Drone and C-UAS Technology Market – Marketintelo](https://marketintelo.com/report/counter-drone-and-c-uas-technology-market)
-- [Lockheed Martin Invests $25M in Fortem Technologies](https://news.lockheedmartin.com/2026-04-22-Lockheed-Martin-Invests-25M-in-Fortem-Technologies-to-Meet-Urgent-Demand-for-Countering-UAS-Threats)
-- [Dedrone – Tracxn](https://tracxn.com/d/companies/dedrone/__E95q_KlJ1KC2UCOfpKyeixrQL9DBR9wshWvVUkCmjsk)
-- [Dedrone Holdings – Wikipedia](https://en.wikipedia.org/wiki/Dedrone_Holdings)
-- [D-Fend – cuashub.com](https://cuashub.com/en/content/d-fend-named-in-gartner-report-on-top-funded-cyber-electronic-defense-startups/)
-- [Global addressable C-UAS market – unmannedairspace.info](https://www.unmannedairspace.info/counter-uas-systems-and-policies/global-addressable-c-uas-market-worth-usd63-million-droneshield/)
+- [Surtr Defense Systems YC page](https://www.ycombinator.com/companies/surtr-defense-systems)
+- [Surtr Defense website](https://surtrdefense.com/)
+- [Y Combinator launch tweet](https://x.com/ycombinator/status/2054637808258818253)
+- [Anshul Ahluwalia LinkedIn](https://www.linkedin.com/in/anshul-ahluwalia-17658264/)
+- [Cameron Fiore LinkedIn](https://www.linkedin.com/in/cameron-fiore-ab726b191/)
+- [MarketsandMarkets C-UAS forecast](https://www.marketsandmarkets.com/PressReleases/counter-cuas-systems.asp)
+- [Precedence Research C-UAS market](https://www.precedenceresearch.com/counter-unmanned-aerial-system-market)
+- [DroneShield TAM via Unmanned Airspace](https://www.unmannedairspace.info/counter-uas-systems-and-policies/global-addressable-c-uas-market-worth-usd63-million-droneshield/)
+- [Epirus profile (Tracxn)](https://tracxn.com/d/companies/epirus/__0cPK3oBGPHlUN-KnCTIQqC8VPNYb-1liyNJLU_-eiQA)
+- [Dedrone Wikipedia](https://en.wikipedia.org/wiki/Dedrone_Holdings)
+- [Axon completes Dedrone acquisition](https://www.axon.com/blog/axon-completes-acquisition-of-dedrone)
+- [DroneShield Q3 2025 results](https://www.streetwisereports.com/article/2025/10/22/record-breaking-quarter-signals-major-shift-in-counter-drone-industry.html)

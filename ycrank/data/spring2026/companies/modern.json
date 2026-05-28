@@ -1,7 +1,7 @@
 {
   "slug": "modern",
-  "name": "modern",
-  "oneLiner": "AI agents for IT, HR & Operations teams",
+  "name": "Modern",
+  "oneLiner": "The AI-native OS for IT",
   "metadata": {
     "website": "https://getmodern.ai",
     "yc_page": "https://www.ycombinator.com/companies/modern",
@@ -9,70 +9,40 @@
     "industry": "B2B / B2B -> Operations",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "AIOps, Artificial Intelligence, SaaS, B2B, Healthcare IT",
+    "tags": "AIOps, SaaS, B2B, Healthcare IT, AI",
     "yc_partner": "Aaron Epstein",
     "emails": "No public data found"
   },
   "tags": [
     "AIOps",
-    "Artificial Intelligence",
     "SaaS",
     "B2B",
-    "Healthcare IT"
+    "Healthcare IT",
+    "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-22T23:25:33.583Z",
+  "memoGeneratedAt": "2026-05-28T02:32:44.367Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 41,
+      "score": 40,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 42,
-    "EG": 49,
-    "NR": 48,
-    "PG": 45,
-    "PT": 32,
-    "SL": 33,
-    "VK": 41
+    "CB": 40,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 41.43,
-  "consolidatedRank": 78,
+  "consolidatedAvg": 40,
+  "consolidatedRank": 124,
   "paths": {
     "memo": "spring2026/memos/modern.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/modern.md",
-      "elad-gil": "spring2026/evals/elad-gil/modern.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/modern.md",
-      "paul-graham": "spring2026/evals/paul-graham/modern.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/modern.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/modern.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/modern.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/modern.md"
     }
   }
 }

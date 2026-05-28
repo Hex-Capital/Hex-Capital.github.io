@@ -9,117 +9,102 @@
 | Batch | Spring 2026 |
 | Industry | B2B / B2B -> Productivity |
 | Team Size | 8 |
-| Location | San Francisco, CA |
+| Location | San Francisco, CA, USA |
 | Tags |  |
 | YC Partner | Andrew Miklas |
-| Emails | sales@shortwave.com (Shortwave blog); no Tasklet-specific email found |
+| Emails | No public data found |
 
 ## The Idea
 
-**Problem:** Knowledge workers spend most of their day switching between dozens of SaaS apps, manually stitching together workflows (YC page). Existing AI chatbots can answer questions but cannot take actions across tools, are not connected to enterprise systems, and stop running when the browser tab closes (YC page).
-
-**Approach:** Tasklet provides a chat interface where users describe tasks in natural language, and an AI agent executes them autonomously. The agent connects via thousands of built-in integrations through Pipedream, any HTTP API, MCP servers, or a full cloud browser using Ubuntu VMs on Google Cloud with computer vision (The New Stack, Apr 2026). It runs 24/7 in the cloud with triggers (schedules, emails, Slack messages, webhooks) and can write/execute code in a sandboxed Linux environment (YC Launch page). When a UI is needed, the agent generates dashboards, forms, and visualizations on demand (YC Launch page).
-
-**Differentiation:**
-- vs. Zapier/Make: Those require explicit workflow construction via drag-and-drop; Tasklet uses natural language and agent reasoning to determine steps (The New Stack, Apr 2026). CEO Andrew Lee: "what if the workflow goes away? And you just let the agent reason about what to do" (The New Stack).
-- vs. Lindy AI: Lindy focuses on pre-built AI assistants for specific tasks; Tasklet emphasizes a general-purpose agent runtime with code execution and browser automation (The New Stack).
-- vs. Relevance AI: Relevance targets multi-agent orchestration for teams; Tasklet positions as a single-agent "operating system" with persistent cloud execution (YC page).
-
-**Business Model:** Tiered SaaS subscription (The New Stack, Oct 2025):
-- Free: limited daily usage, no computer access, data sharing required
-- $35/month: higher limits, one computer instance, data-sharing opt-out
-- $100/month and $250/month: progressively higher limits, future advanced model access
-
-CEO acknowledged high operational costs: "it is super expensive to run...we just charge a lot" (The New Stack).
-
-**TAM/SAM:** Global AI agents market estimated at $7.63B in 2025, projected to reach $182.97B by 2033 at 49.6% CAGR (Grand View Research, 2025 via search snippet). Near-term growth from $8.29B to $12.06B in 2026 at 45.5% CAGR (Grand View Research via search snippet). No specific SAM estimate found for the knowledge-work agent subsegment.
-
-**GTM / Distribution:** [Inferred]: Product-led growth via free tier and self-serve subscription, supplemented by direct sales for higher tiers. Job postings include Growth Marketing Lead and Customer Success roles (YC page), indicating investment in both PLG and account expansion motions.
+- **Problem:** Knowledge workers spend most of their day switching between dozens of SaaS apps and stitching together workflows that should be automated, while AI chatbots cannot take real actions, are not connected to tools, and stop running when the tab closes (YC company description, 2026).
+- **Approach:** A chat-based cloud agent runtime that connects via thousands of built-in integrations, any HTTP API, MCP servers, code execution in a cloud sandbox, and computer-use via a real browser, with trigger-based 24/7 operation (YC launch page; The New Stack, 2026).
+- **Differentiation:** Vs. Lindy/Gumloop/Relay/Zapier visual workflow builders, Tasklet uses fully agentic execution from plain-English chat instead of predefined node graphs (Lindy blog; usecarly.com, 2026); vs. ChatGPT/Claude consumer chatbots, Tasklet runs in the cloud 24/7 with triggers and persistent tool connections (Shortwave blog "Introducing Tasklet," 2025).
+- **Business Model:** Free tier with limited runs, Pro at $35/month, additional $100/month and $250/month tiers, plus contact-only Enterprise (tasklet.ai/pricing via search snippet; "AI Software Pricing 2026" via thecrunch.io).
+- **TAM/SAM:** No public TAM/SAM data found for this specific segment.
+- **GTM / Distribution:** Founder-led launch via @startupandrew on X plus Shortwave's existing user base, who asked for the agent without the email client (Shortwave blog, 2025); Product Hunt launch and podcast coverage (Cognitive Revolution, 2025-2026).
 
 ## Defensibility
 
-- **Context engineering and agent runtime:** The company cites "cloud-native agent runtime, best-in-class context engineering, a universal connections layer, and multi-model support" as technical infrastructure (YC page). The team has deep infrastructure experience from building Firebase's real-time database and Google Cloud Firestore (YC Launch page).
-- **Integration breadth:** Thousands of integrations via Pipedream, plus HTTP API and MCP server support, create switching costs as users build workflows dependent on the platform (YC page).
-- **Pivot from Shortwave:** Technology and context engineering originally developed for Shortwave's AI email features were redeployed into Tasklet (Shortwave blog, Oct 2025).
-
-**Market structure:** [Inferred]: Zapier and Make face business model cannibalization risk — their revenue depends on per-workflow/per-operation pricing tied to explicit automation construction. Shifting to an agent-first model that abstracts away workflow building would undermine their existing revenue streams and confuse their established user base.
-
-**Commoditization risk:** The core technology (LLM-based agent with tool integrations) is reproducible. Multiple well-funded competitors (Lindy at ~$50M raised, Relevance AI at $37M) are building similar products. Foundation model providers (OpenAI, Anthropic, Google) could integrate agent capabilities directly. The barrier is execution quality in context engineering, reliability, and integration depth rather than unique IP.
+- **Moat today:** $5M ARR with >1,200% growth since Jan 1, 2026 and a multi-year agent runtime previously developed inside Shortwave provide an engineering lead in cloud-native agent infrastructure (USV blog "Tasklet"; ARR Club, 2026).
+- **Future moat:** [Inferred]: Switching costs could compound as customers configure triggers, integrations, and persistent agents that "take ongoing responsibility" for workflows (YC description) — unproven now because the product is <12 months out of beta (launched Oct 2025).
+- **Market structure:** [Inferred]: No structural barrier identified at this stage — horizontal automation platforms (Zapier, Make, n8n, Gumloop, Lindy, Relay) can all add agentic execution layers; Andrew Lee himself frames the category as a race to be "a horizontal platform" (Cognitive Revolution newsletter, 2026).
+- **Commoditization risk:** OpenAI, Anthropic, Google, and well-funded peers (Lindy $53.6M raised, Gumloop $20M raised) can build comparable chat-driven agent runtimes; the underlying models, MCP standard, and computer-use primitives are commoditizing (Crunchbase; americanbazaaronline.com, 2025).
 
 ## Market & Traction
 
-**Traction signals:**
-- $5M ARR (YC page, Apr 2026)
-- >1,200% growth since January 1, 2026 (YC page, Apr 2026)
-- By January 2026, Tasklet was adding more monthly revenue than Shortwave had accumulated in its first 4 years (search snippet citing YC/Shortwave sources)
-- $20M Series A at $175M valuation from USV, Lightspeed, Jeff Dean, Patrick & John Collison (YC page)
-- 11 open positions with salaries $125K–$350K and equity 0.10%–0.70%, $20K referral bonus (YC page)
-- Twitter/X: @TaskletAI, 2,238 followers, joined June 2025 (X.com)
-- LinkedIn: linkedin.com/company/taskletai/ (follower count not retrieved)
-- Press: "Tasklet Is IFTTT for the Agentic Age" (The New Stack, Apr 2026)
-- Podcast: "Always Bet on the Models" (Cognitive Revolution podcast)
-- Investor endorsement: Nick Grossman (USV GP) tweeted "Tasklet just keeps getting better...Fully addictive once you get going" (X.com)
-- Product Hunt launch: No public data found
-
-**Competitive landscape:**
-
-| Competitor | Funding | Revenue/ARR | Key Differentiator vs. Tasklet |
-|-----------|---------|-------------|-------------------------------|
-| Zapier | ~$1.3B valuation ($5B est.) | $310M (2024, Getlatka) | 7,000+ integrations, 100K+ paying customers; explicit workflow builder, not agent-first |
-| Lindy AI | ~$50M total (Tracxn) | $5.1M (2024, Getlatka) | Pre-built AI assistants for specific use cases; more task-specific vs. Tasklet's general-purpose agent |
-| Relevance AI | $37M total, $24M Series B (TechCrunch, May 2025) | Revenue unknown | Multi-agent orchestration for teams; 40K agents registered Jan 2025 |
-| Make (Celonis) | Acquired >$100M (Celonis, 2020) | Not separately disclosed | Visual workflow builder; subsidiary of $11B+ Celonis |
-
-**Why now:** [Inferred]: Foundation model capabilities crossed a reliability threshold in 2024-2025 enabling autonomous multi-step task execution. MCP (Model Context Protocol) standardized tool connectivity for agents. IDC projects AI copilots embedded in ~80% of enterprise workplace apps by 2026 (IDC via search snippet). The confluence of reliable reasoning, standardized integrations, and enterprise readiness created the opening for an agent OS.
+- **Traction signals:**
+  - $5M ARR (USV blog; ARR Club, 2026).
+  - >1,200% revenue growth since January 1, 2026 (USV blog, 2026).
+  - $20M Series A at $175M valuation led by USV and Lightspeed, with YC, Jeff Dean, Patrick Collison, John Collison (USV blog; Fundup AI, 2026).
+  - Launched out of beta October 2025; standalone product reached more monthly revenue by Jan 2026 than Shortwave had in its first 4 years (Shortwave blog, 2026).
+  - Product Hunt: 4.8 rating with 144 reviews (Product Hunt via search snippet, 2026).
+  - Press: TechCrunch, The New Stack ("Tasklet Is IFTTT for the Agentic Age"), Cognitive Revolution podcast (multiple episodes), Ry Walker Research (2025-2026).
+  - 9 open job postings on YC company page including Staff Software Engineer ($280-380K) and Principal Design Engineer (up to $410K + 1.2% equity) (YC page; @startupandrew on X, 2026).
+  - 32 new integrations shipped in a single release including Microsoft apps (LinkedIn @taskletai post, 2026).
+  - Andrew Lee X follower count: 7,376 (x.com/startupandrew via search snippet, 2026).
+- **Competitors:**
+  - Lindy ($53.6M raised, $5.1M 2024 ARR): visual workflow builder + AI personal assistant; more controllable, less conversational than Tasklet (Crunchbase; getlatka.com).
+  - Gumloop ($20M raised across $3.1M seed + $17M Series A led by Nexus, YC W24, revenue unknown): drag-and-drop no-code agent builder vs. Tasklet's chat-first agentic execution (BetaKit; T-Net News, 2025).
+  - Relay.app ($8.2M seed from Khosla, a16z, Neo; revenue unknown): visual workflow with human-in-the-loop across 200+ apps (Crunchbase via search snippet).
+  - Zapier (private, ~$300M+ ARR per public reporting; revenue unknown for Zapier Agents specifically): largest integration library, mature workflow engine; Tasklet "is leaner and faster but covers fewer connectors" (Lindy blog, 2026).
+  - n8n / Make: open-source and visual workflow incumbents pivoting to agents (Gumloop blog, 2026).
+- **Why now:** Andrew Lee states that frontier model quality crossed a threshold where on-the-fly UI generation and computer-use replace dedicated SaaS interfaces, citing his own decision to fold the AI email client into a horizontal agent (Cognitive Revolution podcast "Always Bet on the Models," 2026).
 
 ## Founders & Team
 
-**Andrew Lee** — Co-founder & CEO
-- BS Computer Science & Electrical Engineering, Rose-Hulman Institute of Technology, 2006 (startupandrew.com)
-- Co-founded Firebase (YC S11), served as CTO; Firebase acquired by Google in 2014; became engineering lead for Firebase at Google (startupandrew.com, GCP Podcast)
-- Firebase is now used by ~15% of all developers (search snippet)
-- Co-founded Shortwave (2020), AI email client, with ex-Firebase team (AI Summer)
-- Twitter/X: @startupandrew (follower count not retrieved)
-- LinkedIn: linkedin.com/in/startupandrew/
-- Blog: startupandrew.com
-- GitHub: No public repos found under this identity
-
-**Jonny Dimond** — Co-founder
-- Education: Karlsruhe Institute of Technology (search snippet)
-- Early Firebase employee; technical lead for Google Cloud Firestore (YC Launch page)
-- Co-founded Shortwave (Shortwave about page)
-- Twitter/X: @JonnyDiamond (handle found; follower count not retrieved — note: handle may be a different person, unconfirmed match)
-- LinkedIn: linkedin.com/in/jonnydimond/
-- GitHub: github.com/jdimond — 13 public repos; notable: "firehose" (Haskell Firebase clone). Star counts not retrieved.
-
-**Co-founder relationship:** Both Andrew Lee and Jonny Dimond worked together at Firebase, then at Google post-acquisition, then co-founded Shortwave in 2020, and now co-founded Tasklet — over a decade of shared working history (YC Launch page, Shortwave about page).
-
-**Founder-market fit:** Andrew Lee built Firebase, one of the most widely adopted developer platforms, through YC S11 to Google acquisition — directly relevant experience in building infrastructure platforms with massive integration surfaces. Jonny Dimond led Google Cloud Firestore, giving deep cloud infrastructure expertise. The team includes people from Firebase, Google, Amazon, and OpenAI (YC Launch page). The pivot from Shortwave to Tasklet demonstrates pattern recognition: seeing agent demand emerge from their own user base.
+- **Andrew Lee (Co-founder, CEO):**
+  - Background: BS double major EECS, Rose-Hulman Institute of Technology; co-founder & CTO of Firebase (YC S11), acquired by Google 2014, then Director of Engineering at Google; co-founder/CEO of Shortwave (raised $9M, TechCrunch 2022); founded Tasklet 2025 (LinkedIn; TechCrunch; Wellfound).
+  - Twitter/X: @startupandrew, 7,376 followers (x.com via search snippet, 2026).
+  - LinkedIn: "Founder & CEO at Tasklet.ai & Shortwave" (linkedin.com/in/startupandrew).
+  - GitHub: No public data found; cited contributions to GeoFire and AngularFire OSS (Wellfound profile).
+- **Jonny Dimond (Co-founder, CTO):**
+  - Background: Early Firebase engineer, tech lead for Google Cloud Firestore at Google post-acquisition; co-founder/CTO Shortwave 2020; led agent infrastructure that became Tasklet (Shortwave About page; YC page).
+  - Twitter/X: No public account found.
+  - LinkedIn: "Making agents @ Tasklet" (linkedin.com/in/jonnydimond).
+  - GitHub: @jdimond — repos include firehose (Haskell Firebase clone), countdown-timer, tipfield; star counts not retrievable (github.com/jdimond via search snippet).
+- **Co-founder relationship:** Met at Firebase, continued together at Google after the 2014 acquisition, then co-founded Shortwave in 2020 and Tasklet in 2025 — ~12 years working together (USV blog; Cognitive Revolution, 2026).
+- **Founder-market fit:** Built and operated Firebase (developer-facing cloud runtime at Google scale) and Shortwave (AI email client with the agent stack Tasklet was carved out of); investors include Jeff Dean, Patrick Collison, John Collison, USV, and Lightspeed (USV blog; Fundup AI, 2026).
 
 ## Key Risks
 
-**LLM cost and margin pressure:** CEO explicitly stated "it is super expensive to run" (The New Stack). At $35–$250/month price points with compute-intensive agent execution (Ubuntu VMs, browser automation, code sandboxes), unit economics may be challenging. Mitigation: tiered pricing and model cost declines over time.
-
-**Platform dependency on Pipedream:** Integrations are built through Pipedream's infrastructure (The New Stack). If Pipedream changes terms, pricing, or is acquired, Tasklet's integration layer faces disruption. Mitigation: HTTP API and MCP server support provide alternative connectivity paths.
-
-**Agent reliability and trust:** Autonomous agents taking real actions (updating CRMs, sending emails, processing data) carry execution risk. A single agent error in a business-critical workflow could cause customer churn and reputational damage. No public data on error rates or guardrails found.
-
-**Shortwave legacy and focus dilution:** Tasklet and Shortwave remain distinct products with an integration between them (Shortwave blog). Running two products with an 8-9 person team risks splitting engineering focus. The Shortwave email address (sales@shortwave.com) is still the listed contact.
-
-**Foundation model provider competition:** Google (Gemini + Workspace), Microsoft (Copilot + M365), and OpenAI (Operator) are building agent capabilities integrated with incumbent productivity suites that have hundreds of millions of existing users.
+- **Pivot recency and concentration:** Tasklet was carved out of Shortwave in 2025 and launched out of beta October 2025; prior-product (Shortwave email client) metrics should not be conflated with current-product traction — the $5M ARR and 1,200% growth figures are post-pivot Tasklet only (Shortwave blog "Introducing Tasklet," 2025; USV blog, 2026).
+- **Commoditization by model providers:** Andrew Lee publicly argues a chatbot like ChatGPT will generate UIs on the fly once models improve, the same logic he applied to kill the email client — that thesis applies equally to Tasklet's horizontal agent UI (Cognitive Revolution podcast, 2026).
+- **Crowded, well-funded competitive set:** Lindy ($53.6M), Gumloop ($20M), Relay.app ($8.2M+), plus Zapier Agents and OpenAI/Anthropic native agent products all overlap directly (Crunchbase; Lindy blog, 2026).
+- **Technical feasibility of computer-use at production reliability:** Core capability depends on browser-based computer-use for sites without APIs, an industry-wide unsolved reliability problem; mitigation cited is multi-model support and fallback to code execution (YC description; The New Stack, 2026).
+- **Enterprise readiness gap:** Logging, security controls, and cost management are "on the roadmap" rather than GA per a pricing-comparison source, limiting enterprise deal velocity at the implied $175M valuation (thecrunch.io via search snippet, 2026).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $7.63B in 2025, projected $182.97B by 2033 at 49.6% CAGR (Grand View Research via search snippet) |
+| TAM | No public data found |
 | SAM | No public data found |
-| Traction | $5M ARR (YC page, Apr 2026); >1,200% growth since Jan 1, 2026 (YC page); 2,238 Twitter followers (X.com, Apr 2026); 11 open roles (YC page) |
-| Revenue Signal | Free/$35/$100/$250 per month tiers (The New Stack, Oct 2025); $5M ARR (YC page, Apr 2026) |
-| Founders | Andrew Lee (CEO): Firebase co-founder/CTO (YC S11, acq. by Google 2014), Shortwave co-founder. Jonny Dimond (Co-founder): Firebase early employee, Google Cloud Firestore tech lead, Shortwave co-founder. |
-| Competitors | Zapier ($5B est. valuation, $310M revenue, workflow builder not agent-first); Lindy AI (~$50M raised, $5.1M revenue, task-specific assistants); Relevance AI ($37M raised, revenue unknown, multi-agent orchestration); Make (Celonis subsidiary, >$100M acq., visual workflow builder) |
-| Moat Signals | Decade+ infrastructure engineering pedigree (Firebase/Google); integration layer via Pipedream + MCP + HTTP APIs (YC page); context engineering from Shortwave AI development (Shortwave blog) |
-| Risk Factors | LLM cost pressure on margins, Pipedream platform dependency, foundation model provider competition |
-| Founder Reach | Andrew Lee: @startupandrew (X.com, count not retrieved), LinkedIn 500+ (LinkedIn). Jonny Dimond: LinkedIn (linkedin.com/in/jonnydimond/), GitHub jdimond 13 repos (GitHub) |
-| Distribution Signals | The New Stack coverage (Apr 2026); Cognitive Revolution podcast appearance; USV GP public endorsement on X.com; 11 job postings including Growth Marketing Lead (YC page) |
-| Emails | sales@shortwave.com (Shortwave blog); no Tasklet-specific address found |
+| Traction | $5M ARR (USV blog, 2026); >1,200% growth since Jan 1 (USV blog, 2026); $20M Series A at $175M valuation (Fundup AI, 2026); Product Hunt 4.8 rating, 144 reviews (Product Hunt, 2026); launched out of beta Oct 2025 (LinkedIn @taskletai); 9 open roles (YC page, 2026) |
+| Revenue Signal | Free tier; Pro $35/month; additional $100/month and $250/month tiers; Enterprise contact-sales (tasklet.ai/pricing via search snippet, 2026) |
+| Founders | Andrew Lee (CEO): Firebase co-founder/CTO (YC S11, acq. Google 2014), Shortwave CEO. Jonny Dimond (CTO): Early Firebase, Google Cloud Firestore tech lead, Shortwave CTO. |
+| Competitors | Lindy ($53.6M raised, $5.1M 2024 ARR, visual builder + assistant); Gumloop ($20M raised, revenue unknown, no-code drag-and-drop); Relay.app ($8.2M seed, revenue unknown, human-in-the-loop workflow); Zapier (private, Zapier Agents ARR unknown, largest integration library); n8n/Make (open-source workflow incumbents, revenue unknown) |
+| Moat Signals | Multi-year agent runtime carried over from Shortwave (USV blog, 2026); investor syndicate including Jeff Dean, Collison brothers, USV, Lightspeed (Fundup AI, 2026) |
+| Risk Factors | Model-provider commoditization, crowded competitive set (Lindy/Gumloop/Relay/Zapier), enterprise readiness gap |
+| Founder Reach | Andrew Lee: X @startupandrew 7,376 followers, LinkedIn /in/startupandrew (count not retrievable), GitHub stars not retrievable. Jonny Dimond: X not found, LinkedIn /in/jonnydimond (count not retrievable), GitHub @jdimond (stars not retrievable) |
+| Distribution Signals | Product Hunt 4.8/144 reviews (Product Hunt, 2026); TechCrunch + The New Stack coverage (2026); Cognitive Revolution podcast features (2025-2026); 32 new integrations shipped (LinkedIn @taskletai, 2026) |
+| Emails | No public data found |
+
+Sources:
+- [Tasklet YC Page](https://www.ycombinator.com/companies/tasklet-2)
+- [Tasklet YC Launch](https://www.ycombinator.com/launches/PsX-tasklet-the-cloud-agent-os-for-knowledge-work)
+- [USV blog – Tasklet](https://blog.usv.com/tasklet)
+- [Fundup AI – Tasklet $20M Series A](https://fundup.ai/recently-funded-startups/company/76686a7478d405ed528c35785cdda8ec4269bc726fde3e9be84e7257692155dd/tasklet)
+- [ARR Club – Tasklet $5M ARR](https://www.arr.club/tasklet/tasklet-hits-5m-arr-with-1-200-growth-raises-20m)
+- [Shortwave blog – Introducing Tasklet](https://www.shortwave.com/blog/introducing-tasklet-ai-automation/)
+- [The New Stack – Tasklet Is IFTTT for the Agentic Age](https://thenewstack.io/tasklet-is-ifttt-for-the-agentic-age/)
+- [Product Hunt – Tasklet](https://www.producthunt.com/products/tasklet)
+- [Cognitive Revolution – Always Bet on the Models](https://www.cognitiverevolution.ai/always-bet-on-the-models-how-tasklet-puts-the-agency-in-agents-with-ceo-andrew-lee/)
+- [Cognitive Revolution – Three Kinds of Software Survive](https://www.cognitiverevolution.ai/three-kinds-of-software-survive-tasklet-s-andrew-lee-on-competing-to-be-a-horizontal-platform/)
+- [Andrew Lee LinkedIn](https://www.linkedin.com/in/startupandrew/)
+- [Jonny Dimond LinkedIn](https://www.linkedin.com/in/jonnydimond/)
+- [Jonny Dimond GitHub](https://github.com/jdimond)
+- [Andrew Lee X](https://x.com/startupandrew)
+- [Lindy Crunchbase](https://www.crunchbase.com/organization/lindy)
+- [Gumloop Series A – American Bazaar](https://americanbazaaronline.com/2025/01/13/gumloop-secures-17-million-in-series-a-funding-to-make-ai-automation-accessible458294/)
+- [Relay.app Crunchbase](https://www.crunchbase.com/organization/relay-app)
+- [Tasklet LinkedIn](https://www.linkedin.com/company/taskletai)

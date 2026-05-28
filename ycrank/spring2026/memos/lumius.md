@@ -7,150 +7,104 @@
 | Website | https://www.lumius-imaging.com |
 | YC Page | https://www.ycombinator.com/companies/lumius |
 | Batch | Spring 2026 (P26) |
-| Industry | Healthcare / Medical Devices |
+| Industry | Healthcare / Healthcare -> Medical Devices |
 | Team Size | 4 |
 | Location | Durham, NC, USA |
 | Tags | Hard Tech, Medical Devices, Digital Health |
-| YC Partner | Nicolas Dessaigne |
-| Emails | No public data found |
-
-Note: The company website's About page lists four co-founders plus four advisors (lumius-imaging.com/about). The YC page lists three co-founders (Chenhang Li, Luca Menozzi, Tri Vu) and omits the fourth, Junjie Yao, who holds the title "President, Scientific Advisor & Co-Founder" (lumius-imaging.com/about). The website carries an FDA disclaimer: "These statements and products have not been evaluated by the FDA. They are not intended for medical use" (lumius-imaging.com).
-
----
+| YC Partner | Nicolas Dessaigne (YC page) |
+| Emails | contact@lumius-imaging.com (YC page) |
 
 ## The Idea
 
-**Problem:** Ultrasound imaging today is predominantly 2D (YC page). Clinicians must mentally reconstruct 3D anatomy while simultaneously manipulating the probe, making procedures like vascular access difficult to learn and perform consistently (YC page). Approximately 50% of vascular access attempts fail on the first try (YC page). Hospitals spend millions annually on 2D ultrasound training (YC page). Existing 3D ultrasound devices cost over 10x as much as 2D systems (YC page).
-
-**Approach:** Lumius builds a real-time 3D ultrasound system that displays a volumetric view of subsurface anatomy—working over a large volume rather than a thin 2D slice (YC page). The device is designed to be affordable, compact, and portable (YC page). The initial clinical application is vascular access, specifically central line placement (YC page). The underlying technology draws on diffractive acoustic tomography (3D-DAT), developed in the Duke Photoacoustic Imaging Lab, which uses an off-the-shelf linear-array transducer with single-slit acoustic diffraction to achieve simultaneous 3D photoacoustic and ultrasound imaging with near-isotropic resolution and a large field of view (2023 BMES Annual Meeting abstract). Future use cases include blood clot detection, tumor diagnosis, and biopsy guidance (YC page).
-
-**Differentiation:**
-- vs. **Butterfly Network** ($2,000–$3,000 handheld probe, 2D imaging): Butterfly offers AI-assisted 2D POCUS; Lumius provides native real-time 3D volumetric imaging (YC page, Butterfly product page).
-- vs. **Exo** (handheld 2D POCUS with AI workflow tools): Exo focuses on AI-enhanced 2D imaging and workflow; Lumius differentiates on 3D volumetric reconstruction at an affordable form factor (Exo product page, YC page).
-- vs. **GE Vscan Air** (pocket-sized 2D): Incumbent portable product remains 2D; a dual-probe system for cardiac and vascular assessments but no real-time 3D (GE HealthCare product page).
-- vs. legacy 3D/4D ultrasound systems (GE Voluson, Philips EPIQ): These offer 3D but are cart-based, expensive (>10x cost), and designed for radiology suites rather than point-of-care bedside use (YC page).
-
-**Business Model:** No pricing page or revenue figures are publicly available (lumius-imaging.com). The website offers a "Book a Demo" CTA, suggesting a direct sales or field-sales engagement model (lumius-imaging.com). [Inferred]: Most likely monetization path is hardware device sales to hospitals and clinics, potentially with recurring software/service subscriptions, given the medical device category and the "Book a Demo" go-to-market motion.
-
-**TAM/SAM:**
-- 3D Vascular Ultrasound Imaging Market: $525.1M in 2025, projected to $894.7M by 2035 at 5.6% CAGR (OMR Global, 2025 via search snippet).
-- Broader 3D Ultrasound Market: $4.26B in 2025, projected to $7.21B by 2032 at 7.8% CAGR (Coherent Market Insights, 2025 via search snippet).
-- Point-of-Care Ultrasound Market: $1.5B in 2025, projected to $5.56B by 2034 (Fortune Business Insights, 2025 via search snippet).
-
-**GTM / Distribution:** [Inferred]: Most likely distribution path is direct sales to hospital systems and academic medical centers, starting with anesthesiology and critical care departments that perform central line placements. The "Book a Demo" model and Durham, NC location (adjacent to Duke Health) suggest an initial land-and-expand strategy through Duke-affiliated clinical networks.
-
----
+- **Problem:** ~50% of first-attempt central line/vascular access procedures fail because clinicians mentally reconstruct 3D anatomy from 2D ultrasound slices while moving the probe (YC company description; Lumius launch page).
+- **Approach:** Real-time volumetric ultrasound over a large volume (not a single 2D slice) using a compact/portable device, with AI assistance for anatomical detection (YC page; lumius-imaging.com).
+- **Differentiation:** Existing 3D ultrasound systems cost ~10× more than 2D systems (YC company description); vs. Butterfly iQ (~$4,000 handheld 2D, MedTech Dive) and Clarius HD (wireless 2D handheld), Lumius offers real-time 3D volumetric imaging rather than 2D slices (YC description).
+- **Business Model:** No pricing disclosed on website or launch page (lumius-imaging.com; YC launch page, May 2026). [Inferred]: capital-equipment device sale to hospitals plus likely software/subscription, given product is "affordable, compact, portable" hardware (YC description).
+- **TAM/SAM:** Global point-of-care ultrasound market $4.16B in 2025 → $6.35B by 2030 at 7.1% CAGR (Mordor Intelligence, 2025); 3D/4D ultrasound segment $134.1M in 2023 and fastest-growing technology segment (Grand View Research, 2024).
+- **GTM / Distribution:** [Inferred]: Direct enterprise sales to U.S. hospitals starting with vascular-access/central-line use case, leveraging Duke/Columbia academic relationships listed as supporters (lumius-imaging.com).
 
 ## Defensibility
 
-- **IP/Technical complexity:** The core technology—3D diffractive acoustic tomography (3D-DAT)—was developed in the Duke Photoacoustic Imaging Lab under Prof. Junjie Yao, a Lumius co-founder (Duke PAI Lab). Building real-time volumetric reconstruction from a linear-array transducer with single-slit acoustic diffraction requires specialized expertise in acoustic physics, signal processing, and hardware design (2023 BMES abstract). [Inferred]: Duke-originated IP likely includes patentable methods around the diffraction grating and reconstruction algorithms.
-- **Regulatory barriers:** FDA clearance (510(k) or de novo) is required before commercial medical use; the current product has not been evaluated by the FDA (lumius-imaging.com disclaimer). This creates a barrier to entry for any follower once Lumius obtains clearance.
-- **Founder-domain lock-in:** Three of four co-founders hold PhDs from Duke's photoacoustic imaging program, and the fourth (Junjie Yao) leads the lab (Duke PAI Lab, Duke BME). This team has multi-year head start in the specific imaging modality.
-
-**Market structure:** [Inferred]: Large incumbents (GE, Philips, Siemens) sell premium cart-based 3D systems at high price points ($50K–$200K+). Introducing an affordable, portable 3D device would cannibalize their high-margin product lines—a classic innovator's dilemma. Incumbents' sales channels are optimized for radiology departments and capital equipment procurement, not bedside point-of-care adoption.
-
-**Commoditization risk:** Butterfly Network and Exo have significant engineering teams and capital ($353.5M and $428M raised respectively) (Crunchbase, Fierce Biotech). Both could pursue 3D capabilities. Clarius is actively developing 3D volume registration using IMU data (Clarius blog). However, achieving real-time volumetric imaging at low cost from a single transducer requires the specific DAT approach that Lumius's team invented. [Inferred]: Commoditization risk is moderate—well-funded competitors could pursue alternative 3D approaches, but replicating the specific DAT method would require licensing or independent invention.
-
----
+- **Moat today:** Founding-team IP rooted in Duke Photoacoustic Imaging Lab, including "Three-dimensional diffractive acoustic tomography" published in Nature Communications, Jan 2025 (PubMed 39880853), authored by co-founders Menozzi and Vu, achieving 3D imaging with off-the-shelf linear-array transducers and 50× faster reconstruction.
+- **Future moat:** [Inferred]: FDA 510(k) clearance for vascular-access indication plus proprietary 3D reconstruction algorithms could create regulatory + technical barrier, unproven now because website states product "has not been evaluated by the FDA" (lumius-imaging.com).
+- **Market structure:** [Inferred]: Incumbents (GE, Philips, Siemens, Butterfly) have invested in 2D handheld/ultrasound-on-chip architectures; pivoting to a low-cost real-time 3D volumetric platform would cannibalize installed 2D base and existing 3D cart-system pricing (~10× premium per YC description).
+- **Commoditization risk:** Academic 3D photoacoustic/ultrasound reconstruction is an active research field at multiple labs; the founders' Nature Communications method itself relies on "off-the-shelf linear-array transducer" hardware (PubMed 39880853), lowering hardware barriers for replication.
 
 ## Market & Traction
 
-**Traction signals:**
-- No public revenue, user counts, or customer metrics found.
-- No Product Hunt launch found.
-- No app store presence found.
-- No GitHub repositories found.
-- LinkedIn company page exists at linkedin.com/company/lumius-imaging (LinkedIn); follower count not retrievable.
-- No company Twitter/X account found; no Discord/Slack community found.
-- No job postings listed on YC page (YC page).
-- Website offers "Book a Demo" as only conversion point (lumius-imaging.com).
-
-**Competitive landscape:**
-
-| Competitor | Funding | Revenue/ARR | Key Differentiator vs. Lumius |
-|---|---|---|---|
-| Butterfly Network | $353.5M; public via SPAC (Crunchbase) | $97.6M TTM (PitchBook, Dec 2025) | Chip-based 2D POCUS; mass-market pricing (~$2K); no native 3D |
-| Exo | $428M total (Crunchbase, Fierce Biotech) | Revenue unknown | Handheld 2D POCUS with AI workflow platform; no real-time 3D volumetric |
-| EchoNous | $60M raised (search snippet) | Revenue unknown | AI-enhanced Kosmos platform <$12K; Color Doppler for vascular access; 2D only |
-| Clarius | $39.1M raised; Series B Mar 2022 (Crunchbase) | Revenue unknown | Wireless portable 2D with developing 3D via IMU-based volume registration |
-| Rivanna Medical | $3.25M raised (Tracxn) | Revenue unknown | Accuro 3S with SpineNav-AI for neuraxial procedures; FDA 510(k) cleared Jul 2025; niche focus on spinal needle guidance |
-
-**Why now:**
-- [Inferred]: Advances in computational power and GPU-accelerated signal processing have made real-time 3D reconstruction from acoustic diffraction data feasible on portable hardware—a threshold that was not practical five years ago.
-- Point-of-care ultrasound adoption has accelerated: the POCUS market is projected to grow from $1.5B to $5.56B by 2034 (Fortune Business Insights, 2025 via search snippet).
-- Exo's $220M Series C (Jul 2021) and Samsung's potential $100M investment in Exo (TechCrunch, May 2025) signal strong investor conviction in next-generation portable ultrasound.
-
----
+- **Traction signals:**
+  - YC Spring 2026 (P26) batch participant (YC page).
+  - Launched via YC Launch page ~early May 2026 (YC launch page accessed May 2026).
+  - Supporters/affiliations listed: Duke University, Columbia University (lumius-imaging.com).
+  - Co-founder Luca Menozzi LinkedIn profile listed publicly (LinkedIn, via search snippet); company LinkedIn page exists at linkedin.com/company/lumius-imaging (search result).
+  - "Book a Demo" CTA live on website (lumius-imaging.com, May 2026).
+  - No revenue, customer count, pilot count, FDA clearance, Product Hunt listing, Twitter/X account, or press coverage found (multi-source search, May 2026).
+- **Competitors (top 5):**
+  - Butterfly Network ($350M+ raised pre-IPO; 2025 revenue guidance $91–95M; MedTech Dive, BusinessWire 2025): handheld 2D ultrasound-on-chip, ~$4,000 — Lumius differs by offering real-time 3D volumetric imaging.
+  - Exo Imaging (~$100M raised total; Rising Tide / TDK Ventures): pMUT-based handheld with stated 3D imaging ambitions — direct competitor on form factor and 3D claims.
+  - Clarius Mobile Health ($27.3M raised per CB Insights / $39.1M per PitchBook; revenue unknown): wireless 2D handheld POCUS — Lumius differs by 3D volumetric output.
+  - Pulsify Medical (~$9.3M raised; EUR 6.35M Series A; imec/KU Leuven 2024): wearable ultrasound patch for 3D cardiac imaging — adjacent (cardiac, wearable) rather than procedural vascular access.
+  - GE HealthCare / Philips / Siemens Healthineers / Fujifilm Sonosite (Grand View Research 2024): incumbent cart-based 3D ultrasound systems priced ~10× standard 2D per YC description.
+- **Why now:** [Inferred]: Co-founders' Nature Communications publication (Jan 2025) demonstrated 3D photoacoustic/ultrasound tomography on off-the-shelf linear-array transducers with 50× faster reconstruction (PubMed 39880853), crossing a cost-performance threshold for portable 3D; American Society of Echocardiography new guidelines formalize ultrasound-guided vascular cannulation (Mordor Intelligence, 2025).
 
 ## Founders & Team
 
-**Tri Vu, PhD** — CEO & Co-Founder
-- PhD, Duke University (Photoacoustic Imaging Lab) (Duke PAI Lab)
-- BS Biomedical Engineering, University at Buffalo (Duke PAI Lab)
-- Research Assistant Professor, University of Oklahoma (LinkedIn)
-- Research focus: high-intensity focused ultrasound (HIFU) and deep-learning applications in photoacoustic computed tomography (Duke PAI Lab)
-- Prior experience at Philips (search snippet, unconfirmed via direct source)
-- Twitter/X: No public account found
-- LinkedIn: linkedin.com/in/tri-vu-pilab/ — "Research Asst. Professor | Entrepreneur | Research Scientist | Photoacoustic & Ultrasound Imaging"
-- GitHub: No public repos found
-
-**Luca Menozzi** — CTO & Co-Founder
-- PhD candidate, Biomedical Engineering, Duke University (Duke PAI Lab)
-- NSF Graduate Research Fellow (LinkedIn)
-- BS Biomedical Engineering, UNC Chapel Hill / NC State joint program; BA Mathematics, UNC Chapel Hill (Duke PAI Lab)
-- Developed 3D diffractive acoustic tomography (3D-DAT) — the core technology behind Lumius (2023 BMES abstract)
-- Published on PAUSAT system for 3D brain imaging of ischemic stroke (PubMed)
-- Twitter/X: No public account found
-- LinkedIn: linkedin.com/in/luca-menozzi-7490a6154 — "BME PhD Candidate @ Duke || NSF Graduate Research Fellow"
-- GitHub: No public repos found
-
-**Chenhang Li** — COO/CFO & Co-Founder
-- PhD candidate, Duke University (Ni Lab — epidermal electronics, programmable materials, soft robotics) (Duke Ni Lab)
-- MS Theoretical and Applied Mechanics, Northwestern University (ResearchGate)
-- BE Civil and Environmental Engineering, Rutgers University (ResearchGate)
-- Research focus: wearable electronics, mechano-acoustic wave sensing, multiphysics modeling of bioelectronics (ResearchGate)
-- Twitter/X: @lichenhang1225 (YC page); follower count not retrievable
-- LinkedIn: linkedin.com/in/chenhang-li-00330632b/ — "Co-Founder - Lumius Imaging"
-- GitHub: No public repos found
-
-**Junjie Yao, PhD** — President, Scientific Advisor & Co-Founder
-- Jeffrey N. Vinik Associate Professor of Biomedical Engineering, Duke University (Duke BME)
-- Google Scholar: 11,000+ citations, H-index 50 (Google Scholar)
-- Awards: 2019 IEEE Photonic Society Young Investigator Award; 2022 NSF CAREER Award; 2023 OPTICA Fellow (Duke BME)
-- Leads the Photoacoustic Imaging Lab at Duke; affiliated with Duke Cancer Institute, Duke Institute of Brain Sciences (Duke BME)
-
-**Advisors:** Jun Xia, PhD (Scientific); Jeffrey Lawson, MD, PhD (Clinical); Keith Hemmert, MD (Clinical); Barry Myers, MD, PhD (Business); Shayne Messerly (Industry) (lumius-imaging.com/about).
-
-**Co-founder relationship:** All four co-founders are affiliated with Duke University — Tri Vu and Luca Menozzi both worked in Prof. Junjie Yao's Photoacoustic Imaging Lab, while Chenhang Li is in a different Duke lab (Ni Lab). Junjie Yao is the PI who supervised the research underlying the company's technology. The three junior co-founders share the common thread of Duke doctoral programs.
-
-**Founder-market fit:** The team is directly responsible for inventing the core imaging technology (3D-DAT) at Duke. Tri Vu brings industry experience (Philips, per search snippet) and academic research leadership. Luca Menozzi developed the specific diffractive acoustic tomography system. Chenhang Li adds hardware/electronics expertise from wearable device research. Junjie Yao, with 11,000+ citations and multiple national awards in photoacoustic imaging, provides deep scientific credibility and likely IP ownership through Duke.
-
----
+- **Tri Vu (CEO):**
+  - Background: PhD in Biomedical Engineering, Duke University; BS Biomedical Engineering, University at Buffalo; Research Scientist at Duke and Research Assistant Professor at University of Oklahoma; research focus on high-intensity focused ultrasound and deep-learning photoacoustic computed tomography (Duke Photoacoustic Imaging Lab; University of Oklahoma SBME page; Scholars@Duke).
+  - Twitter/X: No public account found.
+  - LinkedIn: "Research Asst. Professor | Entrepreneur | Research Scientist | Photoacoustic & Ultrasound Imaging" (linkedin.com/in/tri-vu-pilab).
+  - GitHub: No public repos found.
+- **Luca Menozzi (CTO):**
+  - Background: PhD, Duke University in ultrasound and photoacoustic imaging at the Photoacoustic Imaging Lab; first author on "Three-dimensional diffractive acoustic tomography" in Nature Communications, Jan 2025 (PubMed 39880853); co-author on PAUSAT 3D stroke-imaging work, Photoacoustics, Feb 2023.
+  - Twitter/X: No public account found.
+  - LinkedIn: "Co-Founder @ Lumius (YC P26)" (linkedin.com/in/luca-menozzi-7490a6154).
+  - GitHub: No public repos found.
+- **Chenhang Li (COO/CFO):**
+  - Background: PhD, Duke University (Mechanical Engineering & Materials Science, Ni Lab); dissertation "Wearable Electronics for Mechanical and Acoustic Assessment of Deep Tissues"; first PhD from the Ni Group (Duke Ni Lab news; Scholar profile).
+  - Twitter/X: No public account found.
+  - LinkedIn: "Co-Founder - Lumius Imaging" (linkedin.com/in/chenhang-li-00330632b).
+  - GitHub: No public repos found.
+- **Co-founder relationship:** All three founders did doctoral research at Duke; Menozzi and Vu co-authored Duke Photoacoustic Imaging Lab work (Nature Communications, Jan 2025; PAUSAT, 2023), and a Duke Pratt feature describes the BME "Innovative Ultrasound Trio" (Duke Pratt News).
+- **Founder-market fit:** Three Duke PhDs whose theses and peer-reviewed publications (Nature Communications, Photoacoustics) center on 3D ultrasound/photoacoustic imaging reconstruction — the exact technical domain of the product (Duke Photoacoustic Imaging Lab; Ni Lab; PubMed 39880853).
 
 ## Key Risks
 
-**FDA regulatory timeline:** The product explicitly has not been evaluated by the FDA (lumius-imaging.com). Medical device clearance (510(k) or de novo) is required before commercial sale for clinical use. Timelines for novel imaging modalities can extend 12–24+ months and require clinical validation studies. No public information on submission status was found.
-
-**Well-funded competitors pursuing 3D:** Butterfly Network ($353.5M raised, public company) and Exo ($428M raised) have substantial resources to develop 3D capabilities (Crunchbase, Fierce Biotech). Clarius is actively developing 3D volume reconstruction (Clarius blog). If any of these companies delivers an adequate 3D solution first, Lumius's window narrows.
-
-**Academic-to-commercial transition:** All four co-founders come from academic research at Duke, with no publicly documented prior startup operating experience or exits. The transition from lab prototype to manufactured, FDA-cleared, commercially distributed medical device requires supply chain, manufacturing, regulatory, and sales capabilities not evidenced in the current team's public profiles.
-
-**Name confusion risk:** "Lumius" is phonetically similar to "Lumus" (an Australian radiology services company with its own Crunchbase and PitchBook profiles) and "Lumus" (an Israeli AR optics company with a Wikipedia page). This could create brand confusion in investor searches, press coverage, and SEO.
-
----
+- **FDA clearance not yet obtained:** Company website explicitly states "These statements and products have not been evaluated by the FDA. They are not intended for medical use and should not be used to diagnose or treat any medical condition" (lumius-imaging.com, May 2026). No 510(k) timeline disclosed.
+- **Well-capitalized incumbent competition:** Butterfly Network ($91–95M 2025 revenue guidance, BusinessWire 2025) and Exo Imaging (~$100M raised, Rising Tide) are already commercializing handheld ultrasound platforms with 3D ambitions; Lumius (4-person, P26) enters a market with multi-hundred-million-dollar capitalized competitors.
+- **Technical feasibility at clinical performance:** Core technology rests on diffractive acoustic tomography demonstrated in a Jan 2025 Nature Communications paper using "off-the-shelf linear-array transducer" (PubMed 39880853); translating lab reconstruction performance into a real-time, clinically robust central-line product is unproven.
+- **Hospital capital-equipment sales cycle:** No disclosed pilots, LOIs, or hospital design partners (lumius-imaging.com; YC launch page, May 2026), and U.S. hospital procurement cycles for novel imaging devices are long.
+- **Name disambiguation:** Multiple unrelated products use "Lumi", "Lumio", and "Lumius" branding in tech (Product Hunt search returned Lumi.new, Lumio Spotlight — no Lumius listings); search-result hygiene needs care in diligence.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | 3D Vascular Ultrasound Imaging: $525.1M in 2025 (OMR Global, 2025 via search snippet); Broader 3D Ultrasound: $4.26B in 2025 (Coherent Market Insights, 2025 via search snippet) |
-| SAM | Point-of-Care Ultrasound Market: $1.5B in 2025 (Fortune Business Insights, 2025 via search snippet) |
-| Traction | No public data found |
-| Revenue Signal | No public data found |
-| Founders | Tri Vu (CEO): PhD Duke, Photoacoustic/Ultrasound imaging, Research Asst. Prof at OU. Luca Menozzi (CTO): PhD candidate Duke, NSF Fellow, invented 3D-DAT. Chenhang Li (COO/CFO): PhD candidate Duke, wearable electronics. Junjie Yao (President/Advisor): Duke Assoc. Prof, 11K+ citations, OPTICA Fellow. |
-| Competitors | Butterfly Network ($353.5M raised, $97.6M TTM revenue, 2D chip-based POCUS); Exo ($428M raised, revenue unknown, 2D handheld with AI); EchoNous ($60M raised, revenue unknown, AI POCUS <$12K); Clarius ($39.1M raised, revenue unknown, wireless 2D developing 3D); Rivanna Medical ($3.25M raised, revenue unknown, spinal needle guidance) |
-| Moat Signals | Duke-originated 3D-DAT technology; founding team includes lab PI (Junjie Yao, 11K+ citations, Google Scholar); FDA regulatory barrier once cleared |
-| Risk Factors | FDA clearance not yet obtained, well-funded competitors pursuing 3D, academic-to-commercial transition |
-| Founder Reach | Chenhang Li: Twitter @lichenhang1225 (count not retrievable), LinkedIn 1 profile. Luca Menozzi: LinkedIn 1 profile. Tri Vu: LinkedIn 1 profile. Junjie Yao: Google Scholar 11K+ citations. No company social accounts found. |
-| Distribution Signals | No public data found |
-| Emails | No public data found |
+| TAM | Global point-of-care ultrasound $4.16B in 2025, $6.35B by 2030, 7.1% CAGR (Mordor Intelligence, 2025); broader ultrasound devices market also tracked by Grand View Research, 2024. |
+| SAM | 3D/4D ultrasound segment $134.1M in 2023, fastest-growing technology sub-segment (Grand View Research, 2024). |
+| Traction | YC Spring 2026 (P26) batch (YC page); YC Launch page live ~early May 2026; Duke and Columbia listed as supporters (lumius-imaging.com); Book-a-Demo CTA live; no public users/revenue/pilots found. |
+| Revenue Signal | No public data found. |
+| Founders | Tri Vu (CEO): Duke BME PhD, Research Scientist Duke, Research Asst. Professor Univ. of Oklahoma. Luca Menozzi (CTO): Duke PhD, first author Nature Communications Jan 2025 on 3D diffractive acoustic tomography. Chenhang Li (COO/CFO): Duke MEMS PhD, Ni Lab, wearable acoustic sensing. |
+| Competitors | Butterfly Network ($350M+ raised, $91–95M 2025 revenue guidance, 2D handheld on-chip — Lumius differs by real-time 3D); Exo Imaging (~$100M raised, revenue unknown, pMUT handheld with 3D claims — closest competitor); Clarius ($27–39M raised, revenue unknown, wireless 2D handheld); Pulsify Medical (~$9.3M raised, wearable 3D cardiac patch, adjacent); GE/Philips/Siemens (incumbent 3D cart systems at ~10× cost premium). |
+| Moat Signals | Nature Communications publication on 3D diffractive acoustic tomography by co-founders Menozzi and Vu, Jan 2025 (PubMed 39880853); Duke Photoacoustic Imaging Lab IP heritage. |
+| Risk Factors | No FDA clearance, capitalized incumbents (Butterfly, Exo), unproven clinical translation of lab reconstruction method. |
+| Founder Reach | Tri Vu: Twitter not found, LinkedIn present (count not retrievable), GitHub not found. Luca Menozzi: Twitter not found, LinkedIn present (count not retrievable), GitHub not found. Chenhang Li: Twitter not found, LinkedIn present (count not retrievable), GitHub not found. |
+| Distribution Signals | YC P26 batch listing (ycombinator.com/companies/lumius); YC Launch page (ycombinator.com/launches/QI0-lumius-the-3d-camera-for-the-body); company LinkedIn page (linkedin.com/company/lumius-imaging); no Product Hunt, Twitter, Discord, app store, or press coverage found. |
+| Emails | contact@lumius-imaging.com (YC page). |
+
+Sources:
+- [Lumius YC company page](https://www.ycombinator.com/companies/lumius)
+- [Lumius YC Launch page](https://www.ycombinator.com/launches/QI0-lumius-the-3d-camera-for-the-body)
+- [Lumius company website](https://www.lumius-imaging.com/)
+- [Luca Menozzi — Duke Photoacoustic Imaging Lab](https://photoacoustics.pratt.duke.edu/people/luca-menozzi)
+- [Tri Vu — Duke Photoacoustic Imaging Lab](https://photoacoustics.pratt.duke.edu/people/tri-vu)
+- [Tri Vu — University of Oklahoma SBME](https://www.ou.edu/coe/sbme/people/faculty/tri-vu)
+- [Chenhang Li — Duke Ni Lab](https://ni.pratt.duke.edu/people/chenhang-li)
+- [Three-dimensional diffractive acoustic tomography (Nature Communications, 2025)](https://pubmed.ncbi.nlm.nih.gov/39880853/)
+- [Meet Duke BME's Innovative Ultrasound Trio](https://pratt.duke.edu/news/meet-duke-bmes-innovative-ultrasound-trio/)
+- [Mordor Intelligence — Point-of-Care Ultrasound Market](https://www.mordorintelligence.com/industry-reports/point-of-care-ultrasound-market)
+- [Grand View Research — Ultrasound Devices Market](https://www.grandviewresearch.com/market-trends/ultrasound-devices-market-competitive-landscape)
+- [Butterfly Network Q3 2025 results (MobiHealthNews)](https://www.mobihealthnews.com/news/butterfly-network-reports-5-revenue-increase-q3-2025)
+- [Butterfly raises $250M (MedTech Dive)](https://www.medtechdive.com/news/butterfly-raises-250m-in-bid-to-upend-ultrasound-market/533473/)
+- [Clarius Mobile Health — Crunchbase](https://www.crunchbase.com/organization/clarius-corp)
+- [Exo Imaging — Rising Tide investment note](https://rtf.vc/blogs/our-investment-in-high-performance-handheld-ultrasound-exo-raises-40-million-to-bring-diagnostic-grade-medical-imaging-to-the-pocket-of-every-caregiver-and-clinician-worldwide/)
+- [Pulsify Medical Series A — imec](https://www.imec-int.com/en/press/pulsify-medical-closes-second-round-series-funding-eur-54-million-wearable-ultrasound-heart)

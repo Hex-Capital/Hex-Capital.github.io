@@ -1,0 +1,47 @@
+{
+  "slug": "limrun",
+  "name": "Limrun",
+  "oneLiner": "Extend your cloud agent with XCode, Android and more",
+  "metadata": {
+    "website": "https://lim.run",
+    "yc_page": "https://www.ycombinator.com/companies/limrun",
+    "batch": "Spring 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "1",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, B2B, Enterprise Software, Cloud Computing",
+    "yc_partner": "Harj Taggar",
+    "emails": "contact@limrun.com (lim.run website)"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "B2B",
+    "Enterprise Software",
+    "Cloud Computing"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-28T02:59:34.343Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 66,
+      "tier": "Invest"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 66,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
+  },
+  "consolidatedAvg": 66,
+  "consolidatedRank": 4,
+  "paths": {
+    "memo": "spring2026/memos/limrun.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/limrun.md"
+    }
+  }
+}

@@ -1,115 +1,88 @@
 ﻿# Auxos
 
-> Simulated audiences for customer research
+> Digital twins for customer research
 
 | Field | Value |
 |-------|-------|
 | Website | https://www.useauxos.com |
 | YC Page | https://www.ycombinator.com/companies/auxos |
-| Batch | Spring 2026 (P26) |
+| Batch | Spring 2026 |
 | Industry | B2B / B2B |
 | Team Size | 3 |
 | Location | San Francisco, CA, USA |
 | Tags | B2B, Marketing, Market Research, AI |
-| YC Partner | David Lieb (YC company page) |
-| Emails | contact@auxos.dev (useauxos.com) |
+| YC Partner | David Lieb |
+| Emails | ashton@useauxos.com, contact@auxos.dev |
 
 ## The Idea
 
-**Problem:** Marketing, product, and research teams running customer research via traditional surveys, panels, and interviews face slow turnaround and high cost. Auxos's website states traditional research takes "2-6 weeks" with sample sizes of "50-100" (useauxos.com). CEO Ashton Daniel encountered this pain point at BCG, where Fortune 500 clients "spend a fortune for insights" (LinkedIn / YC bio via search snippet).
-
-**Approach:** Auxos builds custom simulated audiences for each customer to validate product, pricing, and positioning decisions before going live (YC company page). Site features: (1) Reach — generate populations for specific segments (enterprise, SMB, lapsed users); (2) Simulate — test messaging, pricing, feature concepts; (3) Learn — return population-scale insights with qualitative reasoning (useauxos.com).
-
-**Differentiation:** Auxos claims sample sizes of 1,000+ vs. 50-100 traditional, results "in minutes" vs. 2-6 weeks, and the ability to test 10+ variants simultaneously (useauxos.com). Positioning vs. named competitors below in Market & Traction.
-
-**Business Model:** No public pricing on the site; the $29/$49/$79 tiers shown are example test scenarios, not Auxos's own SKUs (useauxos.com). [Inferred]: Likely SaaS subscription priced per workspace/seat or consumption (per simulation/study), based on common pricing in adjacent synthetic-research tools (e.g., Synthelos publicly lists from $49/mo per its homepage via search snippet).
-
-**TAM/SAM:** No directly named "simulated audiences" market estimate exists. Adjacent: "Audience growth forecasting AI" market projected at $1.86B (2025) → $2.36B (2026), 27% CAGR (norfolkdailynews.com / wfxg.com press release via search snippet). Broader AI-in-marketing market: $24.03B (2025) → $215.03B (2035), 24.5% CAGR (Market Research Future via search snippet). No public SAM data found for the synthetic-audience subcategory.
-
-**GTM / Distribution:** No public GTM data found. [Inferred]: Founder-led outbound to enterprise marketing/product teams (consistent with Daniel's BCG Fortune 500 network) plus YC demo day distribution to other YC portfolio companies, mirroring early GTM patterns of Synthetic Users and Viewpoints.ai.
+- **Problem:** Marketing, product, and research teams find customer research "too slow and expensive" (surveys/panels cost "a fortune" and take "weeks to recruit, moderate, and gather insights"), restricting rigorous validation to large decisions only (YC company page).
+- **Approach:** Auxos sources and interviews real ICP individuals, then constructs 1:1 digital twin replicas of those people that can be queried 24/7 to return population-scale insights "in minutes" with sample sizes of "1,000+" (useauxos.com).
+- **Differentiation:** vs. Aaru (entirely synthetic AI populations without direct human data, TechCrunch Dec 2025) and Artificial Societies (network simulations of stakeholder opinions, EU-Startups Aug 2025) Auxos anchors each twin to a recruited real person; vs. Synthetic Users (multi-LLM general-purpose synthetic participants, aimultiple.com) Auxos builds custom per-company audiences from interview data (useauxos.com).
+- **Business Model:** No pricing page disclosed (useauxos.com). [Inferred]: Enterprise/per-seat or per-study contract sold via founder-led sales given a Cal.com demo-booking link to the CEO (cal.com/ashton-daniel) and no self-serve checkout.
+- **TAM/SAM:** Global insights industry "surpassed US$150 billion" in 2024 with the market research sector at "$56 billion" (ESOMAR Global Market Research 2025 via Research World).
+- **GTM / Distribution:** [Inferred]: Founder-led outbound and YC network, based on the public CEO demo-booking link and YC Spring 2026 launch tweet from @ycombinator (x.com/ycombinator status 2054971250762465784).
 
 ## Defensibility
 
-No defensibility signals (patents, proprietary datasets, network effects) explicitly disclosed in public sources. [Inferred]: Potential moat could develop via per-customer custom audience calibration data (each customer's simulated audience tuned on their own first-party survey/CRM data creates switching costs), but unproven at this stage.
-
-**Market structure:** No structural barrier identified at this stage. The underlying technology (LLM-based persona simulation) is widely available; competitors include bootstrapped (Evidenza) and venture-funded ($1B-valuation Aaru) entrants.
-
-**Commoditization risk:** High. Multiple direct competitors (Synthetic Users, Evidenza, Viewpoints.ai, Aaru, Brox.ai, Synthelos) already exist and offer overlapping functionality (aimultiple.com; Greylock essay; pymc-labs.com via search snippets). NN/g notes synthetic users are best for "hypothesis generation and early-stage testing, not final design decisions" (nngroup.com via search snippet), constraining the addressable use cases.
+- **Moat today:** Proprietary first-party interview data from recruited ICP customers feeding each twin ("one real person behind every digital twin," YC search result snippet); no public scale figures.
+- **Future moat:** [Inferred]: Per-customer audience datasets and longitudinal recalibration against real-world outcomes could create switching costs, unproven at three months post-YC.
+- **Market structure:** [Inferred]: Established panel providers (e.g., Qualtrics, Dynata) face channel conflict displacing their own human-panel revenue with twin-based simulation; no public statement confirms this.
+- **Commoditization risk:** Multiple funded entrants (Aaru $50M+ Series A at $1B headline valuation, TechCrunch Dec 2025; Simile $100M Series A, ai2.work 2026; Artificial Societies $7.3M total, Startup Intros) target the same simulated-audience category, and core LLM persona-prompting is replicable.
 
 ## Market & Traction
 
-**Traction signals:**
-- No customer logos, customer count, revenue, or testimonials disclosed on website (useauxos.com).
-- LinkedIn: linkedin.com/company/auxos exists; follower count not retrievable.
-- Twitter/X: x.com/UseAuxos exists; follower count not retrievable. (A separate @Auxos_ account from 2016 in Georgia is unrelated — search snippet.)
-- No Product Hunt launch found (producthunt.com search via web search).
-- No press coverage found in major tech publications.
-- No Discord/Slack community references found.
-- No job postings found on YC Work at a Startup.
-- No mobile app or browser extension; web app only.
-
-**Competitive landscape:**
-- **Aaru** — AI synthetic research startup; raised Series A at $1B "headline" valuation, Dec 2025 (TechCrunch). Differentiator: largest funding/valuation in the category; built around election/polling-grade simulation.
-- **Synthetic Users** (syntheticusers.com) — multi-agent architecture with OCEAN-model personality profiles and continuity across interviews (syntheticusers.com via search snippet). Funding: not disclosed publicly (Crunchbase profile referenced; specific round not found). Differentiator: focused on qualitative interview-style research vs. Auxos's quantitative survey/variant-testing framing.
-- **Evidenza** (evidenza.ai) — bootstrapped, $0 external funding, 100+ clients including Salesforce and GE (Tracxn / evidenza.ai via search snippet). Differentiator: enterprise-focused "synthetic CMO/C-suite" personas; profitable.
-- **Viewpoints.ai** — backed by Pear VC and Sarah Smith Fund (Crunchbase / PitchBook via search snippet). Claims Stanford-validated 88% accuracy; patent-pending synthetic respondent tech (viewpoints.ai via search snippet). Differentiator: ad/creative testing across image, video, audio formats.
-- **Brox.ai** — focuses on product testing and UX validation through AI persona simulation (Greylock essay via search snippet). Funding/ARR: not found.
-
-**Why now:** [Inferred]: LLM capability threshold crossed in 2023-2024 enables persona simulation at sufficient fidelity for aggregate-level marketing decisions; PyMC Labs and others now report 85-95% aggregate-level accuracy at ~10% of traditional cost (pymc-labs.com via search snippet). HBR validated the category in November 2025 ("The AI Tools That Are Transforming Market Research" — hbr.org via search snippet). Aaru's $1B Series A in Dec 2025 (TechCrunch) signals investor conviction the category is venture-scale.
+- **Traction signals:**
+  - Launch announcement by Y Combinator on X tagging @UseAuxos, @TheAshtonDaniel, @kerry_lu_, @jwoobers (x.com/ycombinator status 2054971250762465784, 2026).
+  - Marketing copy cites example study volumes: "847 packaging tests, 2,104 ad creative A/B tests, 312 product concepts, 1,486 pricing tiers" (useauxos.com) — labeled as illustrative example metrics, not disclosed customer counts.
+  - No public revenue, paying customer count, waitlist size, Product Hunt rank, or follower counts found across WebSearch results.
+- **Competitors:**
+  - Aaru ($50M+ Series A at $1B headline valuation, revenue unknown, TechCrunch Dec 5 2025): generates synthetic populations from public/proprietary data without recruiting real people; clients include Accenture, EY, IPG.
+  - Evidenza (bootstrapped, $0 external funding, "seven figures in revenue" pre-stealth per FishDog 2026; clients BlackRock, Microsoft, JP Morgan): targets enterprise via "Synthetic CMOs" personas of named marketing luminaries.
+  - Artificial Societies ($7.3M total, $5.3M Seed Aug 2025, EU-Startups; revenue unknown): UK-based, simulates networks of personas for stakeholder/societal modeling.
+  - Synthetic Users (syntheticusers.com; funding not found in search results; revenue unknown): multi-LLM general-purpose synthetic research participants.
+  - Simile ($100M Series A, ai2.work 2026; revenue unknown): AI digital twins simulating human behavior for market research.
+- **Why now:** [Inferred]: LLM persona fidelity crossed a usability threshold in 2024–2025, evidenced by Aaru's Dec 2025 $1B-headline Series A (TechCrunch) and Simile's $100M Series A (ai2.work 2026) inside an 18-month window.
 
 ## Founders & Team
 
-**Ashton Daniel** — Co-founder & CEO
-- BS Computer Science, Columbia University (LinkedIn / YC bio).
-- Previously: Consultant at Boston Consulting Group, working on Agentic AI deployments for Fortune 500 companies and PE due diligence; ran customer research surveys, panels, interviews (LinkedIn; RocketReach lists "Incoming Associate" at BCG).
-- 2022 NCAA individual fencing champion; 2022 Ivy League champion; ranked #1 nationally; Team USA member ranked #1 in world (YC bio / LinkedIn).
-- LinkedIn: linkedin.com/in/ashton-daniel — listed as "Auxos (YC P26)."
-- Twitter/X: No public account found.
-- GitHub: No public repos found.
-
-**Kerry Lu** — Co-founder & CTO
-- BS Mathematics & Computer Science, Duke University (2019-2023) (LinkedIn).
-- Previously: Software Engineer at Amazon Ads, building infrastructure for ad simulations modeling 40% of US e-commerce traffic (LinkedIn / YC bio).
-- Earlier: built "fastest seismic wave simulator in the world" at Vorticity (YC S19) (search snippet from LinkedIn).
-- Team USA fencer; D1 fencing for Duke (goduke.com roster).
-- LinkedIn: linkedin.com/in/kerry-lu — "Co-Founder @ Auxos (YC P26)."
-- Twitter/X: No public account found.
-- GitHub: No public repos found.
-
-**Jerry Wu** — Co-founder & CPO
-- BS Computer Science, University of Pennsylvania (LinkedIn / YC bio).
-- Previously: Software Engineer at Meta/Instagram, building model infrastructure for Reels, ads, and Facebook Feed; cited as generating $100M+ incremental annual revenue (LinkedIn / YC bio).
-- Team USA fencer; D1 fencing for UPenn.
-- LinkedIn: linkedin.com/in/jerrywuprofile — "Software Engineer @ Meta."
-- Twitter/X: No public account found.
-- GitHub: No public repos found.
-
-**Co-founder relationship:** All three founders are Team USA fencers from D1 fencing programs (Columbia, Duke, UPenn) — strong indicator of prior acquaintance through the U.S. competitive fencing circuit. No shared employer overlap visible.
-
-**Founder-market fit:** Daniel directly experienced the customer-research cost/speed pain at BCG (Fortune 500 clients buying expensive panels). Lu brings directly applicable simulation infrastructure experience from Amazon Ads (modeling 40% of US e-commerce traffic) and Vorticity. Wu brings ML model/infrastructure experience from Meta's ranking systems. Combination maps to the product: simulation infrastructure (Lu) + ML modeling for personas (Wu) + sales/insight framing for enterprise marketing buyers (Daniel). No advisors or investors disclosed publicly beyond YC.
+- **Ashton Daniel (Co-Founder, CEO):**
+  - Background: Columbia University CS major; 2022 NCAA and Ivy League fencing champion; consultant at BCG on "Agentic AI transformations and PE due diligence for Fortune 500 companies" where he "ran surveys, panels, and interviews" (search snippet from LinkedIn/YC).
+  - Twitter/X: @TheAshtonDaniel (count not retrievable).
+  - LinkedIn: "Auxos (YC P26)" (linkedin.com/in/ashton-daniel/).
+  - GitHub: No public repos found.
+- **Kerry Lu (Co-Founder, CTO):**
+  - Background: Duke University CS & Math; software engineer at Amazon Ads where he "built the infra for ad simulations modeling 40% of US e-commerce traffic"; previously built "the fastest seismic wave simulator in the world" at Vorticity (YC S19) (search snippet from LinkedIn).
+  - Twitter/X: @kerry_lu_ (count not retrievable).
+  - LinkedIn: "Co-Founder @ Auxos (YC P26)" (linkedin.com/in/kerry-lu/).
+  - GitHub: No public repos found.
+- **Jerry Wu (Co-Founder, CPO):**
+  - Background: University of Pennsylvania CS, Division 1 athlete; software engineer at Meta/Instagram building "infrastructure for models powering Instagram reels, ads, and Facebook feed," credited with "$100M+ of incremental revenue per year"; cites A/B-testing latency at Instagram as founding inspiration (search snippet from LinkedIn).
+  - Twitter/X: @jwoobers (count not retrievable).
+  - LinkedIn: Profile referenced via YC page; headline not retrievable.
+  - GitHub: No public repos found.
+- **Co-founder relationship:** The three met "fencing for Team USA" and "have known each other for 15 years" (search snippet from LinkedIn).
+- **Founder-market fit:** CEO ran panels/surveys for Fortune 500s at BCG, CTO built large-scale ad simulation infra at Amazon Ads, CPO built recommendation/ads infrastructure at Meta — pairing the research-buyer perspective with simulation- and ads-infra engineering (search snippets from LinkedIn/YC); no advisors or named investors beyond YC found in public sources.
 
 ## Key Risks
 
-**Crowded, well-funded competitive set:** At least 6 direct competitors identified, including Aaru at a $1B Series A valuation (TechCrunch, Dec 2025) and Evidenza with 100+ enterprise customers including Salesforce and GE (Tracxn via search snippet). Auxos enters as a 3-person pre-seed without disclosed traction, requiring a clear wedge against entrenched players.
-
-**Validity ceiling on synthetic research:** Nielsen Norman Group explicitly warns synthetic users are appropriate only for "hypothesis generation and early-stage testing, not final design decisions" (nngroup.com via search snippet). This caps willingness-to-pay vs. traditional research and limits use to upper-funnel decisions, constraining contract size.
-
-**No disclosed traction:** No customer logos, revenue, user counts, press, Product Hunt launch, or community signals found in public sources at time of research. Standard for pre-seed but notable given multiple direct competitors are already publicly citing customer counts (Evidenza: 100+).
-
-**Technical commoditization:** Underlying capability (LLM-driven persona simulation) is reproducible by any team with frontier-model API access; PyMC Labs has published practical guides (pymc-labs.com via search snippet) and free ChatGPT-based recipes exist (weavely.ai via search snippet), lowering the barrier to alternative offerings.
+- **Crowded, well-capitalized competitive set:** Aaru raised $50M+ at $1B headline valuation in Dec 2025 (TechCrunch) and Simile raised $100M Series A (ai2.work 2026) targeting the same digital-twin/market-research category, both with materially more capital than a pre-seed YC company.
+- **Real-person-recruitment unit economics:** The differentiator is "sourcing and interviewing real people" per ICP (YC page), which is the same cost driver Auxos cites as broken in legacy research ("weeks to recruit, moderate"); whether per-twin recruitment amortizes across enough queries to undercut panels is unverified in public sources.
+- **Validation/fidelity risk:** No published benchmarks comparing Auxos twin responses to real respondent outcomes; the syntheticusers.com "Synthetic Users vs digital twins" post and MeasuringU "Review of Experiments with Synthetic Users" indicate the category broadly lacks settled accuracy benchmarks.
+- **No disclosed paying customers or revenue:** WebSearch returned no named customer logos, ARR, or pilot announcements as of May 2026; marketing-page numerics ("847 packaging tests," useauxos.com) appear illustrative rather than disclosed usage.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Adjacent: Audience growth forecasting AI $2.36B in 2026 at 27% CAGR (norfolkdailynews.com press release, 2026 via search snippet); AI in marketing $24.03B (2025) → $215.03B (2035) at 24.5% CAGR (Market Research Future via search snippet) |
-| SAM | No public data found |
-| Traction | Website lists no customers/revenue (useauxos.com); no Product Hunt launch found (producthunt.com search); no press coverage found; LinkedIn and X accounts exist but follower counts not retrievable |
-| Revenue Signal | No pricing page; example test tiers shown ($29/$49/$79) are demo content not Auxos's own pricing (useauxos.com); no funding announcement found |
-| Founders | Ashton Daniel (CEO): Columbia CS, ex-BCG consultant, NCAA fencing champion. Kerry Lu (CTO): Duke CS/Math, ex-Amazon Ads simulation infra, ex-Vorticity (YC S19). Jerry Wu (CPO): UPenn CS, ex-Meta/Instagram ranking infra. |
-| Competitors | Aaru ($1B Series A valuation, revenue unknown — TechCrunch Dec 2025; election/polling-grade simulation). Evidenza ($0 external funding, 100+ clients incl. Salesforce/GE — Tracxn via snippet; enterprise C-suite personas, bootstrapped/profitable). Viewpoints.ai (Pear VC + Sarah Smith Fund, ARR unknown — Crunchbase via snippet; ad/creative testing with claimed 88% accuracy). Synthetic Users (funding undisclosed; qualitative interview-focused multi-agent personas). Brox.ai (funding unknown; product testing & UX validation). |
-| Moat Signals | No public data found |
-| Risk Factors | Crowded well-funded competitor set including $1B-valuation Aaru, validity ceiling per NN/g, no disclosed traction |
-| Founder Reach | Ashton Daniel: Twitter not found, LinkedIn /in/ashton-daniel (count not retrievable), GitHub not found. Kerry Lu: Twitter not found, LinkedIn /in/kerry-lu (count not retrievable), GitHub not found. Jerry Wu: Twitter not found, LinkedIn /in/jerrywuprofile (count not retrievable), GitHub not found. |
-| Distribution Signals | No public data found (no Product Hunt launch, no press, no app store presence, no public job postings) |
-| Emails | contact@auxos.dev (useauxos.com) |
+| TAM | Global insights industry "surpassed US$150 billion" in 2024, projected to "surpass US$160 billion" by end of 2025 (ESOMAR Global Market Research 2025 via Research World) |
+| SAM | Market research sector "$56 billion" within the insights industry (ESOMAR via Research World, 2025) |
+| Traction | YC launch tweet by @ycombinator (X, 2026); no public revenue, customers, waitlist, Product Hunt rank, or follower counts found |
+| Revenue Signal | No public data found (no pricing page on useauxos.com) |
+| Founders | Ashton Daniel (CEO): Columbia CS, BCG consultant, NCAA fencing champion. Kerry Lu (CTO): Duke CS/Math, Amazon Ads simulation infra, ex-Vorticity (YC S19). Jerry Wu (CPO): UPenn CS, Meta/Instagram ads & feed infra. |
+| Competitors | Aaru ($50M+ Series A at $1B headline valuation, revenue unknown, fully synthetic populations, TechCrunch Dec 2025); Evidenza ($0 external, "seven figures in revenue" per FishDog 2026, enterprise Synthetic CMOs); Artificial Societies ($7.3M total / $5.3M Seed Aug 2025, revenue unknown, persona networks, EU-Startups); Synthetic Users (funding not found, revenue unknown, multi-LLM general participants); Simile ($100M Series A, revenue unknown, AI digital twins, ai2.work 2026) |
+| Moat Signals | First-party interview-based recruitment of one real person per twin (YC company description, useauxos.com); no scale, retention, or proprietary-dataset figures disclosed |
+| Risk Factors | Crowded well-funded competitive set (Aaru, Simile); real-person recruitment unit economics unverified; no public accuracy benchmarks vs. real respondents |
+| Founder Reach | Ashton Daniel: Twitter @TheAshtonDaniel (count not retrievable), LinkedIn linkedin.com/in/ashton-daniel/ (count not retrievable), GitHub none found. Kerry Lu: Twitter @kerry_lu_ (count not retrievable), LinkedIn linkedin.com/in/kerry-lu/ (count not retrievable), GitHub none found. Jerry Wu: Twitter @jwoobers (count not retrievable), LinkedIn referenced via YC page (count not retrievable), GitHub none found. |
+| Distribution Signals | Y Combinator launch tweet (x.com/ycombinator status 2054971250762465784, 2026); CEO demo-booking link cal.com/ashton-daniel; LinkedIn company page linkedin.com/company/auxos; no Product Hunt, Chrome Web Store, or app-store presence found |
+| Emails | ashton@useauxos.com (useauxos.com); contact@auxos.dev (useauxos.com) |

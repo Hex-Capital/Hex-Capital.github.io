@@ -11,7 +11,7 @@
     "location": "New York, NY, USA",
     "tags": "Legal, Sales Enablement, LegalTech, Regtech",
     "yc_partner": "Andrew Miklas",
-    "emails": "info@regbase.com"
+    "emails": "founders@regbase.com"
   },
   "tags": [
     "Legal",
@@ -20,58 +20,28 @@
     "Regtech"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-22T23:58:03.174Z",
+  "memoGeneratedAt": "2026-05-28T03:07:03.309Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 48,
+      "score": 52,
       "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 57,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 55,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 37,
-      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 48,
-    "EG": 57,
-    "NR": 53,
-    "PG": 55,
-    "PT": 36,
-    "SL": 39,
-    "VK": 37
+    "CB": 52,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 46.43,
-  "consolidatedRank": 37,
+  "consolidatedAvg": 52,
+  "consolidatedRank": 44,
   "paths": {
     "memo": "spring2026/memos/regbase.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/regbase.md",
-      "elad-gil": "spring2026/evals/elad-gil/regbase.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/regbase.md",
-      "paul-graham": "spring2026/evals/paul-graham/regbase.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/regbase.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/regbase.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/regbase.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/regbase.md"
     }
   }
 }

@@ -5,67 +5,37 @@
   "metadata": {
     "website": "https://openworklabs.com",
     "yc_page": "https://www.ycombinator.com/companies/openwork",
-    "batch": "Spring 2026",
+    "batch": "Spring 2026 (X26)",
     "industry": "B2B / B2B -> Productivity",
     "team_size": "4",
-    "location": "San Francisco, CA, US / Remote",
+    "location": "San Francisco, CA, USA",
     "yc_partner": "Aaron Epstein",
-    "emails": "ben@openworklabs.com"
+    "emails": "No public data found (sales contact via cal.com/potato/openwork-discovery, openworklabs.com)"
   },
   "tags": [],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-22T23:29:45.543Z",
+  "memoGeneratedAt": "2026-05-28T02:39:07.720Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 50,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 41,
+      "score": 42,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 38,
-    "EG": 35,
-    "NR": 51,
-    "PG": 50,
-    "PT": 31,
-    "SL": 30,
-    "VK": 41
+    "CB": 42,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 39.43,
-  "consolidatedRank": 104,
+  "consolidatedAvg": 42,
+  "consolidatedRank": 106,
   "paths": {
     "memo": "spring2026/memos/openwork.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/openwork.md",
-      "elad-gil": "spring2026/evals/elad-gil/openwork.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/openwork.md",
-      "paul-graham": "spring2026/evals/paul-graham/openwork.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/openwork.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/openwork.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/openwork.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/openwork.md"
     }
   }
 }

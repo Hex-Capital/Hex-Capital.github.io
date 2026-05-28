@@ -5,12 +5,12 @@
   "metadata": {
     "website": "https://superlog.sh/",
     "yc_page": "https://www.ycombinator.com/companies/superlog",
-    "batch": "Spring 2026 (YC company page)",
+    "batch": "Spring 2026 (P26)",
     "industry": "B2B / B2B -> Engineering, Product and Design",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "Artificial Intelligence, Developer Tools, Open Source, Monitoring, AI",
-    "yc_partner": "David Lieb (YC company page)",
+    "yc_partner": "David Lieb",
     "emails": "No public data found"
   },
   "tags": [
@@ -21,58 +21,28 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-05-07T16:57:49.118Z",
+  "memoGeneratedAt": "2026-05-28T02:59:34.210Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 23,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 25,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 32,
+      "score": 39,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 23,
-    "EG": 36,
-    "NR": 43,
-    "PG": 40,
-    "PT": 25,
-    "SL": 36,
-    "VK": 32
+    "CB": 39,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 33.57,
-  "consolidatedRank": 152,
+  "consolidatedAvg": 39,
+  "consolidatedRank": 143,
   "paths": {
     "memo": "spring2026/memos/superlog.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/superlog.md",
-      "elad-gil": "spring2026/evals/elad-gil/superlog.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/superlog.md",
-      "paul-graham": "spring2026/evals/paul-graham/superlog.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/superlog.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/superlog.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/superlog.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/superlog.md"
     }
   }
 }

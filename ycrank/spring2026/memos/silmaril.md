@@ -6,7 +6,7 @@
 |-------|-------|
 | Website | https://silmaril.dev |
 | YC Page | https://www.ycombinator.com/companies/silmaril |
-| Batch | Spring 2026 |
+| Batch | Spring 2026 (P26) |
 | Industry | B2B / B2B |
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
@@ -16,106 +16,88 @@
 
 ## The Idea
 
-**Problem:** AI-native applications and agents are vulnerable to prompt injection attacks — adversarial inputs that hijack model behavior to exfiltrate data, execute unauthorized actions, or bypass safety controls. Current defenses (pattern-matching guardrails) catch "at best, 61% of real-world attacks" (YC LinkedIn post, 2026). Attacks span direct injection, indirect injection via tool calls, multi-turn chains, context poisoning, and confused-deputy patterns. Customers today use static guardrail layers (e.g., Lakera Guard, Prompt Security) that rely on input-pattern matching and do not adapt to novel attack vectors autonomously.
-
-**Approach:** Silmaril uses a "multihead classifier" that evaluates user intent, application context, and execution states together, rather than screening inputs alone (Extruct AI profile). The system asks "does this execution lead to a harmful outcome?" instead of "does this input look malicious?" (LinkedIn search snippet). Silmaril deploys autonomous agents that continuously probe customer applications to discover and verify attack chains, generating synthetic attack data via "simulations and nested RL environments" to train a compact classifier (Aum Upadhyay comment on YC LinkedIn post). The system blocks novel attack patterns "in under an hour" (YC LinkedIn post). Coverage extends to inputs, tool calls, MCP, connectors, and internal agents (YC LinkedIn post). Integration requires 5 lines of code into agentic frameworks such as LangGraph (YC company description). Deployment options include managed SaaS and self-hosted (Extruct AI profile).
-
-**Differentiation:** Silmaril claims 99% attack detection rate versus ~50% for "leading guardrails," with 20ms latency overhead — described as 10x lower latency than current SOTA (YC page; YC LinkedIn post). Lakera Guard, prior to its acquisition by Check Point, reported 98%+ detection with sub-50ms latency (Lakera blog). Silmaril's self-healing mechanism — autonomous red-teaming that continuously generates new threat intelligence — differs from static or periodically updated classifier approaches. The open-source GreenDragon project (github.com/Silmaril-Security/GreenDragon, 10 stars) functions as an intentionally vulnerable AI application for security training, inspired by OWASP Juice Shop (GitHub).
-
-**Business Model:** No public pricing page was accessible at time of research (website returned HTTP 429). [Inferred]: Most likely monetization is usage-based or tiered SaaS pricing for API calls/protected endpoints, consistent with B2B developer infrastructure norms in the guardrails space. Competitors like Prompt Security and Lakera used per-API-call or per-seat enterprise pricing.
-
-**TAM/SAM:**
-- AI in cybersecurity market: $34.09B in 2025, projected to $213.17B by 2034 (Fortune Business Insights, 2025).
-- Generative AI cybersecurity segment: $8.65B in 2025, projected to $35.50B by 2031 at 26.5% CAGR (MarketsandMarkets, 2025).
-- Only 13 companies focus specifically on securing AI systems, LLMs, and agentic applications, with combined funding of $414M (Software Strategies Blog, Dec 2025).
-- [Inferred]: Silmaril's SAM is the prompt injection / runtime AI guardrails sub-segment within generative AI cybersecurity — likely low single-digit billions today, given the small vendor count and early market formation.
-
-**GTM / Distribution:**
-- Cal.com booking page (cal.com/silmaril/15min) indicates founder-led sales (Cal.com listing).
-- 5-line SDK integration into LangGraph targets bottom-up developer adoption (YC company description).
-- [Inferred]: Primary GTM is developer-led adoption via SDK integration, converting to enterprise contracts as usage scales — a PLG-to-sales motion common in developer infrastructure.
+- **Problem:** AI-native applications and agents are exposed to prompt injection, context poisoning, and confused-deputy attacks; the company cites $68M and $20M damages prevented in two case studies and "millions of users protected" via a Microsoft Copilot vulnerability patch (silmaril.dev, 2026).
+- **Approach:** A firewall classifier wrapping inference calls — built on a ModernBERT variant — combined with autonomous threat-hunting agents that probe customer apps and trigger automatic retraining + redeployment of weights within one hour of attack discovery (silmaril.dev, 2026).
+- **Differentiation:** [Inferred]: Vs. Lakera Guard (sub-50ms API), Silmaril claims P90 20ms latency and 95.60% accuracy across 131 attack techniques (silmaril.dev, 2026); vs. Promptfoo (test-time red-teaming) and HiddenLayer (broad AI-security suite), Silmaril positions as runtime defense with continuous self-retraining (appsecsanta.com, 2026).
+- **Business Model:** [Inferred]: SaaS or self-hosted deployment with SDK plug-in to agent frameworks like LangGraph in "5 lines of code"; no pricing page is published (silmaril.dev, 2026).
+- **TAM/SAM:** Inference Guardrails for LLMs market projected to reach $7.99B by 2030 at 32.5% CAGR (The Business Research Company, 2026); adjacent LLM Observability market estimated $2.69B in 2026 → $9.26B by 2030 at 36.2% CAGR (Research and Markets, 2026).
+- **GTM / Distribution:** [Inferred]: Developer-led SDK integration into agentic frameworks (LangGraph cited) plus YC launch amplification via @ycombinator and Garry Tan posts on X (x.com/ycombinator, Apr 14 2026; x.com/garrytan, Apr 14 2026).
 
 ## Defensibility
 
-- **Data flywheel:** Silmaril's autonomous red-teaming agents generate proprietary attack data from each customer deployment, which trains the classifier. [Inferred]: Over time this creates a compounding data advantage — more deployments yield more diverse attack patterns, improving detection for all customers.
-- **Switching costs:** Once integrated into agentic frameworks and tuned to application-specific context, replacing Silmaril requires re-integration and loss of accumulated threat intelligence. [Inferred]: Switching costs are moderate — the 5-line integration is lightweight in both directions.
-- **Open-source community building:** GreenDragon (GitHub, 10 stars) is early-stage but positions Silmaril as a thought leader in AI security education.
-
-**Market structure:** Four major AI security startups were acquired by incumbents in 2024–2025: Protect AI by Palo Alto Networks for $500M (GeekWire, Apr 2025), Robust Intelligence by Cisco for $400M (Crunchbase, Aug 2024), Prompt Security by SentinelOne for $180M (Yahoo Finance, Aug 2025), and Lakera by Check Point (SecurityWeek, Sep 2025), and CalypsoAI by F5 for $180M (SiliconANGLE, Sep 2025). These acquisitions removed four independent competitors from the market, creating a window for a new standalone entrant. [Inferred]: Incumbents acquiring rather than building suggests the technical complexity of real-time, adaptive prompt injection defense is high enough that build-vs-buy favors buy — but once integrated into platform security suites, these acquirers become potential competitors to standalone vendors like Silmaril.
-
-**Commoditization risk:** LLM providers (OpenAI, Anthropic, Google) could embed native guardrails. Cloud security platforms (Palo Alto, CrowdStrike, SentinelOne) now own acquired AI security capabilities. Open-source alternatives (e.g., LLM Guard) exist but lack the self-healing/adaptive component. [Inferred]: The self-healing, RL-based approach adds technical complexity that raises the bar for commoditization, but the core classification task is well-understood in ML and could be replicated by well-resourced teams.
+- **Moat today:** Claimed technical edge — ModernBERT-variant classifier at P90 20ms, 95.60% accuracy on 131 attack techniques, plus SOC, ISO 27001, CSA, and NVIDIA Inception affiliations (silmaril.dev, 2026).
+- **Future moat:** [Inferred]: A proprietary corpus of customer attack traces feeding the self-retraining loop could create data-network effects, but the loop's effectiveness at scale is unproven publicly.
+- **Market structure:** [Inferred]: No structural barrier identified — incumbents Lakera (acquired by Check Point, 2025) and Promptfoo (reported acquired by OpenAI per thenextweb.com snippet) and HiddenLayer are well-capitalized and offer overlapping runtime defenses (appsecsanta.com, 2026).
+- **Commoditization risk:** Open-source guardrails (LLM Guard, NVIDIA NeMo Guardrails) and well-funded competitors lower the cost to replicate a classifier-based defense; "over a dozen guardrail providers" exist per market reviews (truefoundry.com, 2026).
 
 ## Market & Traction
 
-**Traction signals:**
-- Customer testimonial: "prevented 8 breaches, blocking $28M in damages" in two months (YC LinkedIn post, 2026). This reflects customer-side outcomes, not Silmaril's own revenue.
-- YC LinkedIn launch post: 1,250 reactions, 235 comments (LinkedIn, 2026).
-- Garry Tan (YC CEO) shared a separate post about Silmaril (LinkedIn, 2026).
-- GitHub: Silmaril-Security/GreenDragon — 10 stars, 0 forks (GitHub).
-- Twitter/X: @aumup001 (Aum Upadhyay, handle from YC page — follower count not retrievable). @EduardoVel36291 (Eduardo Velasco, handle from YC page — follower count not retrievable).
-- LinkedIn: Eduardo Velasco — 2,000+ followers, 500+ connections (LinkedIn). Aum Upadhyay — 1,000+ followers, 500+ connections (LinkedIn).
-- Revenue signal: No public pricing or revenue data found.
-- No Product Hunt launch found. No app store or Chrome extension presence found.
-
-**Competitive landscape:**
-
-| Competitor | Key Differentiator vs. Silmaril | Funding | Revenue/ARR |
-|---|---|---|---|
-| Prompt Security (acq. SentinelOne) | Broader GenAI security platform; now part of endpoint security suite | $23M raised; acquired for ~$180M (Yahoo Finance, Aug 2025) | "Multi-million ARR" (Calcalist, 2025) |
-| Lakera (acq. Check Point) | 100K+ adversarial samples/day training data; 98%+ detection; network firewall integration | $30M raised; acquired by Check Point (SecurityWeek, Sep 2025) | Revenue unknown |
-| Straiker AI | Dual product (Ascend AI attack simulation + Defend AI runtime); targets frontier AI labs | $21M seed (Lightspeed, Bain Capital Ventures; SecurityWeek, Mar 2025) | Revenue unknown |
-| HiddenLayer | Model-level security (MLDR); noninvasive monitoring of model inputs/outputs | $56M raised (TechCrunch, Sep 2023) | Revenue unknown |
-| Protect AI (acq. Palo Alto Networks) | ML supply-chain security (model scanning, dependency auditing) | $108.5M raised; acquired for $500M (Bloomberg/GeekWire, 2025) | Revenue unknown |
-
-**Why now:**
-- Wave of incumbent acquisitions in 2024–2025 removed four independent AI security vendors from the market, creating a gap for new standalone entrants (multiple sources cited above).
-- Agentic AI adoption accelerated in 2025–2026 with frameworks like LangGraph, CrewAI, and AutoGen, expanding the attack surface beyond simple chatbots to multi-step tool-calling agents (YC LinkedIn post references MCP, connectors, internal agents).
-- [Inferred]: The shift from single-turn LLM calls to multi-agent workflows with tool access (MCP, function calling) creates novel attack vectors (confused deputy, indirect injection via tool results) that static input-pattern guardrails were not designed to address, opening a market for context-aware, execution-state-monitoring defenses.
+- **Traction signals:**
+  - Customer logos displayed: Microsoft, OpenAI, Anthropic, Google, Perplexity, Dropbox (silmaril.dev, 2026).
+  - $28M cumulative damages prevented for customers (YC page, 2026); $68M + $20M in two named case studies (silmaril.dev, 2026).
+  - Launched on YC site and X on April 14, 2026 (x.com/ycombinator status 2044170078942605395).
+  - Customer testimonial: "millions of users protected" via Microsoft Copilot vulnerability patch (silmaril.dev, 2026).
+  - Twitter handle @Silmarildev — follower count not retrievable (x.com).
+  - LinkedIn company page exists at linkedin.com/company/silmarilsecurity — follower count not retrievable.
+  - No public Product Hunt launch found.
+- **Competitors:**
+  - Lakera ($30M total raised; $20M Series A led by Atomico, Jul 2024; acquired by Check Point 2025; revenue unknown): managed API with sub-50ms latency and 98%+ detection across 100+ languages (techcrunch.com, 2024; appsecsanta.com, 2026).
+  - HiddenLayer ($56M total raised; $50M Series A led by M12, Sep 2023; revenue unknown): broader AI-security platform covering model scanning, runtime defense, shadow-AI discovery, MITRE ATLAS red-teaming (hiddenlayer.com, 2023; appsecsanta.com, 2026).
+  - Promptfoo ($23.6M total raised; $18.4M Series A led by Insight Partners, Jul 2025; revenue unknown): open-source red-teaming + CI/CD eval tool, positioned as testing rather than runtime defense (promptfoo.dev, 2025).
+  - Protect AI Guardian (acquired by Palo Alto Networks, 2025; revenue unknown): runtime AI firewall now bundled in PANW platform (appsecsanta.com, 2026).
+- **Why now:** [Inferred]: Production rollouts of agentic frameworks (LangGraph, Claude Code) in 2025–2026 expanded the prompt-injection attack surface, while incumbents Lakera and Protect AI Guardian were acquired in 2025 — creating displacement opportunities (appsecsanta.com, 2026).
 
 ## Founders & Team
 
-**Aum Upadhyay** — Co-Founder & CEO
-- Built the security and privacy framework at AWS that "prevented over $1.8B in damages" (YC page).
-- Ex-Amazon, Expedia Group (LinkedIn headline).
-- Listed as Egleston Scholar at Columbia Engineering (Columbia Engineering website — page returned 403, details not accessible).
-- Twitter/X: @aumup001 (YC page) — follower count not retrievable.
-- LinkedIn: linkedin.com/in/aumupadhyay — 1,000+ followers, 500+ connections (LinkedIn).
-- GitHub: aumupadhyay.github.io exists (GitHub Pages) — no public repos with notable star counts found.
-
-**Eduardo Velasco** — Co-Founder & CTO
-- Ex-Amazon tech lead; specialized in "low latency ML models that generated $400M in annual revenue" (YC page via search snippet).
-- Education: University of Texas at Arlington (LinkedIn).
-- Native Spanish speaker (LinkedIn).
-- Twitter/X: @EduardoVel36291 (YC page) — follower count not retrievable.
-- LinkedIn: linkedin.com/in/ejvelasco — 2,000+ followers, 500+ connections (LinkedIn).
-- GitHub: No public repos found.
-
-**Co-founder relationship:** Both founders have Amazon as a shared prior employer (YC page, LinkedIn). Both have ties to Texas-based universities — UT Arlington (Eduardo) and possibly UT Dallas (Aum, per one LinkedIn profile interpretation). [Inferred]: The shared Amazon tenure likely provided the working relationship and domain exposure to cloud security that motivated the company.
-
-**Founder-market fit:** Aum's claim of building AWS's security/privacy framework directly maps to the problem space of defending AI applications at scale. Eduardo's low-latency ML model experience at Amazon is directly relevant to building a fast classifier that adds minimal overhead (20ms) to production AI workloads. The YC page notes "$2.2B in combined impact" across both founders' prior work at AWS and Amazon (YC page).
+- **Aum Upadhyay (Co-Founder & CEO):**
+  - Background: Columbia University (started a company as a freshman, hired by Andrew Rodriguez of Side Door Ventures); previously built the security and privacy framework at AWS that the company says prevented over $1.8B in damages (LinkedIn; YC search snippet, 2026).
+  - Twitter/X: @aumup001 — count not retrievable (x.com).
+  - LinkedIn: "AI Security @ Silmaril (YC P26)" (linkedin.com/in/aum-upadhyay-517016269).
+  - GitHub: No public repos found.
+- **Eduardo Velasco (Co-Founder & CTO):**
+  - Background: University of Texas at Arlington; ex-Amazon tech lead on low-latency ML models cited as generating $400M annual revenue; chained a prompt injection to root access inside ChatGPT (LinkedIn; arion-research LinkedIn post 7366096839613317120, 2026).
+  - Twitter/X: @EduardoVel36291 — count not retrievable (x.com).
+  - LinkedIn: "CTO @ Silmaril (YC P26)" (linkedin.com/in/ejvelasco).
+  - GitHub: No public repos found.
+- **Co-founder relationship:** [Inferred]: No public data on shared prior employer or university; the LinkedIn arion-research post states the pair "became whitehat hackers and hacked OpenAI, Anthropic, Google, and Microsoft 15 times in two weeks" after Velasco left Amazon (LinkedIn post 7366096839613317120, 2026).
+- **Founder-market fit:** Aum's AWS security/privacy work and Eduardo's low-latency ML background at Amazon map directly to a low-latency security classifier product; YC Group Partner is Garry Tan (YC page, 2026).
 
 ## Key Risks
 
-**Post-acquisition incumbent competition:** Five AI security startups were acquired by major cybersecurity platforms (Palo Alto Networks, Cisco, SentinelOne, Check Point, F5) in 2024–2025 for a combined $1.4B+ (multiple sources cited above). These acquirers now have AI security capabilities integrated into existing enterprise security suites with established sales channels. Silmaril must compete as a standalone point solution against bundled platform offerings. Mitigation: Silmaril's self-healing/adaptive approach may differentiate from acquired-and-integrated products that slow innovation post-acquisition.
-
-**LLM provider native guardrails:** OpenAI, Anthropic, and Google are investing in built-in safety layers. If model providers ship effective native prompt injection defense, the need for a third-party guardrail layer diminishes. [Inferred]: This risk is partially mitigated by the multi-model, multi-framework nature of enterprise deployments — a vendor-neutral defense layer retains value in heterogeneous environments.
-
-**Validation methodology concerns:** Security professionals raised concerns in the YC LinkedIn post comments about "validation methodology and deterministic reproducibility in an adaptive system" (LinkedIn, 2026). The claimed 99% detection rate vs. 50% for competitors lacks independent third-party verification. Mitigation: The GreenDragon open-source project may serve as a public benchmarking vehicle over time.
-
-**Name disambiguation:** "Silmaril" is a common word (Tolkien's *The Silmarillion*). Multiple unrelated entities share the name across Twitter, GitHub, and web search, which may complicate brand discovery and SEO.
+- **Incumbent encroachment via M&A:** Lakera was acquired by Check Point (2025) and Protect AI Guardian by Palo Alto Networks (2025) (appsecsanta.com, 2026); these distribution channels can bundle prompt-injection defense into existing enterprise platforms — no mitigation found.
+- **Well-funded direct competition:** HiddenLayer ($56M) and Promptfoo ($23.6M) have multi-year head starts in product, marketing budget, and design partners (techcrunch.com, 2023; promptfoo.dev, 2025).
+- **Technical feasibility / claim verification:** The "2x more threats / 10x lower latency" and 95.60% accuracy claims are self-published with no third-party benchmark cited (silmaril.dev, 2026); independent benchmarks of guardrail providers note significant variance in latency and coverage (truefoundry.com, 2026).
+- **Customer logo ambiguity:** Microsoft/OpenAI/Anthropic/Google/Perplexity/Dropbox shown on the homepage are described in narrative as targets of whitehat findings rather than paying customers (silmaril.dev, 2026; LinkedIn post 7366096839613317120, 2026) — commercial relationship status is unconfirmed.
+- **Category absorption risk:** Reviewers question whether LLM-security remains standalone or gets absorbed into broader AppSec/observability platforms (truefoundry.com, 2026).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | AI in cybersecurity: $34.09B in 2025, projected $213.17B by 2034 (Fortune Business Insights, 2025). GenAI cybersecurity: $8.65B in 2025, projected $35.50B by 2031 at 26.5% CAGR (MarketsandMarkets, 2025). |
+| TAM | Inference Guardrails for LLMs: $7.99B by 2030, 32.5% CAGR (The Business Research Company, 2026) |
 | SAM | No public data found |
-| Traction | Customer testimonial: 8 breaches prevented, $28M damages blocked in 2 months (YC LinkedIn post, 2026). YC LinkedIn post: 1,250 reactions, 235 comments (LinkedIn, 2026). GreenDragon GitHub: 10 stars (GitHub, 2026). |
+| Traction | $28M cumulative damages prevented (YC page, 2026); $68M and $20M case studies (silmaril.dev, 2026); launched Apr 14, 2026 (x.com/ycombinator) |
 | Revenue Signal | No public data found |
-| Founders | Aum Upadhyay (CEO): Ex-AWS, built security framework preventing $1.8B in damages (YC page). Eduardo Velasco (CTO): Ex-Amazon tech lead, low-latency ML models generating $400M revenue (YC page). |
-| Competitors | Prompt Security ($23M raised, ~$180M acq. by SentinelOne, "multi-million ARR," broad GenAI security; Yahoo Finance 2025). Lakera ($30M raised, acq. by Check Point, revenue unknown, 98%+ detection; TechCrunch 2024). Straiker AI ($21M raised, revenue unknown, dual attack-sim + runtime defense; SecurityWeek 2025). HiddenLayer ($56M raised, revenue unknown, model-level MLDR; TechCrunch 2023). Protect AI ($108.5M raised, $500M acq. by Palo Alto Networks, revenue unknown, ML supply-chain; Bloomberg 2024). |
-| Moat Signals | Proprietary attack data from autonomous red-teaming per deployment (YC LinkedIn post, 2026). 20ms latency overhead claimed (YC page). |
-| Risk Factors | Post-acquisition incumbent bundling, LLM provider native guardrails, unverified detection benchmarks |
-| Founder Reach | Aum Upadhyay: Twitter @aumup001 (count not retrievable), LinkedIn 1,000+ followers. Eduardo Velasco: Twitter @EduardoVel36291 (count not retrievable), LinkedIn 2,000+ followers. (YC page; LinkedIn) |
-| Distribution Signals | YC LinkedIn launch post 1,250 reactions (LinkedIn, 2026). Garry Tan shared post (LinkedIn, 2026). Cal.com founder booking page (Cal.com). No Product Hunt launch found. |
-| Emails | aum@silmaril.dev (YC page) |
+| Founders | Aum Upadhyay (CEO): ex-AWS security/privacy framework, Columbia. Eduardo Velasco (CTO): ex-Amazon low-latency ML tech lead, UT Arlington. |
+| Competitors | Lakera ($30M raised, revenue unknown, acquired by Check Point 2025, managed API sub-50ms); HiddenLayer ($56M raised, revenue unknown, broader AI-security platform); Promptfoo ($23.6M raised, revenue unknown, OSS red-teaming/eval); Protect AI Guardian (acquired by Palo Alto Networks 2025, revenue unknown, bundled AI firewall) |
+| Moat Signals | ModernBERT-variant classifier at P90 20ms, 95.60% accuracy on 131 attack techniques; SOC, ISO 27001, CSA, NVIDIA Inception (silmaril.dev, 2026) |
+| Risk Factors | Incumbent M&A encroachment, well-funded direct competition, self-published benchmarks unverified |
+| Founder Reach | Aum Upadhyay: Twitter @aumup001 count not retrievable, LinkedIn aum-upadhyay-517016269, GitHub not found. Eduardo Velasco: Twitter @EduardoVel36291 count not retrievable, LinkedIn ejvelasco, GitHub not found. |
+| Distribution Signals | YC X launch post Apr 14, 2026 (x.com/ycombinator); Garry Tan endorsement post (x.com/garrytan, Apr 14 2026); No public Product Hunt launch found |
+| Emails | aum@silmaril.dev |
+
+Sources:
+- [Silmaril | Prompt Injection Defense](https://silmaril.dev)
+- [Silmaril YC company page](https://www.ycombinator.com/companies/silmaril)
+- [Y Combinator launch post on X](https://x.com/ycombinator/status/2044170078942605395)
+- [Garry Tan post on X](https://x.com/garrytan/status/2044182160207425857)
+- [Aum Upadhyay LinkedIn](https://www.linkedin.com/in/aum-upadhyay-517016269)
+- [Eduardo Velasco LinkedIn](https://www.linkedin.com/in/ejvelasco/)
+- [Lakera $20M Series A — TechCrunch](https://techcrunch.com/2024/07/24/lakera-which-protects-enterprises-from-llm-vulnerabilities-raises-20m/)
+- [HiddenLayer $50M Series A](https://hiddenlayer.com/company/newsroom/hiddenlayer-raises-series-a-to-safeguard-ai/)
+- [Promptfoo $18.4M Series A](https://www.promptfoo.dev/blog/series-a-announcement/)
+- [Inference Guardrails LLM market report — TBRC](https://www.thebusinessresearchcompany.com/report/inference-guardrails-for-large-language-models-llms-market-report)
+- [LLM Observability Platform Market — Research and Markets](https://www.researchandmarkets.com/reports/6215671/large-language-model-llm-observability)
+- [Benchmarking LLM Guardrail Providers — TrueFoundry](https://www.truefoundry.com/blog/benchmarking-llm-guardrail-providers)
+- [Lakera Alternatives — AppSecSanta](https://appsecsanta.com/ai-security-tools/lakera-alternatives)
+- [Extruct AI Silmaril profile](https://www.extruct.ai/hub/silmaril-dev/)

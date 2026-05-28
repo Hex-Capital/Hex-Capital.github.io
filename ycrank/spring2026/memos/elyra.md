@@ -1,6 +1,6 @@
 ﻿# Elyra
 
-> AI for Restaurant Reservations
+> AI Reservation System for Restaurants
 
 | Field | Value |
 |-------|-------|
@@ -16,105 +16,88 @@
 
 ## The Idea
 
-**Problem:** Restaurants lose reservations and revenue when phone calls go unanswered during busy service hours. Front-of-house staff are pulled between greeting guests in-person and handling inbound calls, emails, and booking requests. The company's website frames the problem as turning "every interaction into a personal experience, from the first call to the last course" (elyrasystems.com). Current solutions are either legacy reservation platforms (OpenTable, Resy) that lack integrated AI communication agents, or standalone voice AI add-ons (Slang AI, Hostie AI) that do not include guest intelligence or table optimization.
-
-**Approach:** Elyra provides an AI reservation system with built-in voice and email agents that handle bookings end-to-end (YC company page). The platform includes six core modules: an AI voice agent for phone reservations, an AI email concierge, guest intelligence (profiles built from preferences and booking history), table allocation optimization, analytics, and campaign outreach (elyrasystems.com). SSE Business Lab described Elyra as "the AI operating system for restaurants," consolidating booking management, guest engagement, and revenue optimization into a single platform (LinkedIn, SSE Business Lab, 2026).
-
-**Differentiation:** Unlike OpenTable (32.46% market share, 6sense) or Resy, which are primarily booking marketplaces that integrate third-party AI voice tools (OpenTable partners with Slang AI, VOICEplug, SoundHound, Maple, Loman per opentable.com), Elyra bundles AI communication agents natively with guest CRM, table management, and marketing tools. Unlike Slang AI ($68M raised, voice-only, PRNewswire Feb 2026) or Hostie AI ($4M seed, voice-focused, SF Standard May 2025), Elyra aims to replace the full reservation stack rather than augment an existing one. Yelp Host offers AI phone answering at $149/month but is tightly coupled to the Yelp Guest Manager ecosystem (business.yelp.com).
-
-**Business Model:** No pricing page is visible on elyrasystems.com. [Inferred]: Most likely monetization path is a SaaS subscription tiered by restaurant size or call volume, consistent with competitor pricing models (Yelp Host at $149/mo, Slang AI and Hostie AI using per-seat or per-location SaaS).
-
-**TAM/SAM:** The global restaurant reservations software market was valued at approximately $2.2B in 2024, with projections to reach $12.2B by 2033 at a 14.3% CAGR (Business Research Insights, 2024 via search snippet). Grand View Research estimated the broader restaurant management software market at $7.25B in 2024, projected to reach $14.70B by 2030 (Grand View Research, 2024 via search snippet). [Inferred]: SAM for AI-native reservation platforms serving mid-to-upscale restaurants is a fraction of the full market—likely in the low hundreds of millions—given that most restaurants still use manual booking or incumbent platforms without AI agents.
-
-**GTM / Distribution:** The company website displays logos of six restaurant groups as clients: Shuffle Group, ESS Group, Kasai, O'Learys Group, Cheri-lee, and The Kitchin (elyrasystems.com). O'Learys Group is a multi-brand Swedish restaurant chain operating sports bar and entertainment concepts (olearys.com). The Kitchin is a Michelin-starred restaurant in Edinburgh (thekitchin.com). The phone number on the website is Swedish (+46), and the company originated from KTH Innovation in Stockholm (KTH, Oct 2025). [Inferred]: Initial GTM was direct sales to Nordic and UK restaurant groups; YC acceptance signals intent to expand into the US market.
+- **Problem:** Mid-sized restaurants miss ~40% of incoming phone calls and let emails sit for days, leaving over $100,000/year in unbooked revenue on the table (YC Launch page, May 2026; elyrasystems.com).
+- **Approach:** AI voice agent answers every call 24/7 handling reservations/modifications/menu/dietary/policy questions, AI email concierge replies instantly in the restaurant's tone, all connected to a real-time table-allocation engine that optimizes seat placement (elyrasystems.com, May 2026).
+- **Differentiation:** Versus Slang.ai (voice-only phone agent, integrates with OpenTable/Resy at ~$450–$600/mo per location, hostie.ai pricing comparison 2025) Elyra bundles call + email + native table allocation; versus Newo.ai (general SMB receptionist across dental/home services/restaurants, SiliconANGLE Feb 2026) Elyra is restaurant-vertical with table-placement logic; versus OpenTable Voice AI (add-on to existing reservation platform, opentable.com) Elyra ships its own reservation/allocation layer.
+- **Business Model:** No pricing page on elyrasystems.com (May 2026); [Inferred]: per-location SaaS subscription based on company's stated "$10B+ market at our current pricing" framing across 1M restaurants implying ~$10K/year/location (YC company description).
+- **TAM/SAM:** Company-stated "$10B+ market opportunity" against "over 1 million restaurants in the US and Europe" at current pricing (YC company description, May 2026); no independent analyst TAM citation found.
+- **GTM / Distribution:** Already deployed across named restaurant groups Shuffle Group, ESS Group, Kasai, O'Learys Group, Cheri-lee, The Kitchin (elyrasystems.com, May 2026); [Inferred]: founder-led direct sales to Nordic restaurant groups leveraging Stockholm origin, expanding via group-account land-and-expand.
 
 ## Defensibility
 
-- **Data advantage (potential):** Guest intelligence profiles built from reservation, call, and email data could create switching costs if restaurants accumulate significant guest history within the platform. This does not exist at scale today.
-- **Bundling moat (potential):** Combining voice AI, email AI, CRM, table management, and marketing campaigns in a single platform could create higher switching costs than point solutions. [Inferred]: This is unproven at this stage and depends on execution across multiple product surfaces.
-
-**Market structure:** OpenTable and Resy are marketplace-model businesses that derive revenue from diner-facing discovery and per-cover fees; building a deep AI communication stack that replaces their core revenue model would cannibalize their per-cover economics. They have instead chosen to integrate third-party AI voice partners (OpenTable integrates Slang AI, VOICEplug, SoundHound, Maple, Loman per opentable.com). [Inferred]: This integration-over-build approach creates a window for a vertically integrated entrant, though it could close if incumbents decide to acquire or build native AI capabilities.
-
-**Commoditization risk:** Voice AI for restaurants is an increasingly crowded space. Slang AI ($68M raised, 2,000+ locations, PRNewswire Feb 2026), Hostie AI ($4M seed, 100+ restaurants, SF Standard May 2025), Yelp Host (public company resources), and multiple OpenTable integration partners all offer AI phone answering for restaurants. The underlying LLM and voice synthesis technologies are available via APIs (OpenAI, ElevenLabs, Deepgram). [Inferred]: Differentiation will depend on product breadth (full-stack vs. voice-only) and vertical depth rather than the AI voice technology itself.
+- **Moat today:** Guest-intelligence data layer building profiles from booking history, preferences, and call interactions creates per-restaurant proprietary data (elyrasystems.com feature list, May 2026).
+- **Future moat:** [Inferred]: Switching costs grow as restaurant groups onboard menu/dietary/policy knowledge bases and accumulate guest-profile history that competitors would have to rebuild.
+- **Market structure:** [Inferred]: Reservation incumbents (OpenTable, Resy) face channel-conflict risk if they sell voice AI that disintermediates phone bookings from their marketplace listings, leaving room for an integrated vertical entrant; no structural barrier verified in public sources.
+- **Commoditization risk:** Slang.ai ($68M total raised, PRNewswire Feb 2026), Newo.ai (~$32M total, SiliconANGLE Feb 2026), Loman.ai ($3.5M seed, Restaurant Technology News Aug 2025), Hostie.ai ($4M seed Gradient Ventures), and OpenTable Voice AI are all shipping overlapping voice-AI products into the same restaurant ICP.
 
 ## Market & Traction
 
-**Traction signals:**
-- Six restaurant group logos displayed on the company website: Shuffle Group, ESS Group, Kasai, O'Learys Group, Cheri-lee, The Kitchin (elyrasystems.com)
-- Website displays "92.4% guest satisfaction" and "+12% increase since launch" — other dashboard metrics appear as placeholders ($0, 0+) (elyrasystems.com)
-- KTH Innovation Launch Batch 21 participant (KTH, Oct 2025)
-- SSE Business Lab Spring 2026 batch (LinkedIn, SSE Business Lab, 2026)
-- Top 10 finalist in Lovable Shipped program (2025) under prior name Cresnd (Lovable via X/Threads, 2025)
-- Breakit (Swedish tech news) covered the YC acceptance (Breakit, 2026; article body not retrievable)
-- Mentioned in Swedish Tech Weekly #352 (swedishtechnews.com)
-- LinkedIn company page: linkedin.com/company/elyrasystems (follower count not retrievable)
-- No company Twitter/X account found for Elyra Systems
-- No Product Hunt launch found
-- No app store listings found
-- No public revenue figures found
-
-**Competitive landscape:**
-
-| Competitor | Funding | Key differentiator vs. Elyra |
-|------------|---------|------------------------------|
-| **Slang AI** | $68M total ($36M Series B, Feb 2026; PRNewswire) | Voice-only platform serving 2,000+ restaurant locations; more established US market presence but lacks integrated CRM/table management |
-| **Hostie AI** | $4M seed (Gradient/Google AI fund; SF Standard, May 2025) | Voice AI built by restaurant operators; 100+ restaurants in Bay Area/NYC; focused on independent restaurants |
-| **Yelp Host** | Public company (Yelp Inc.) | $149/mo AI phone agent bundled with Yelp Guest Manager; distribution advantage via Yelp's restaurant directory; limited to Yelp ecosystem |
-| **OpenTable** | Public (Booking Holdings; NASDAQ: BKNG) | 32.46% market share (6sense); integrates third-party AI voice partners rather than building native AI; marketplace/discovery model |
-| **Eat App** | $23M+ total ($10M Series B extension, Jan 2026; Wamda) | 5,000+ restaurants in 92 countries; strong in Middle East/India; reservation + table management but AI features less prominent |
-
-**Why now:** OpenTable announced global integrations with AI voice partners (VOICEplug, Nov 2025) and SoundHound (Dec 2025), signaling that the incumbent reservation platforms view AI phone agents as infrastructure they integrate rather than build (opentable.com, investors.soundhound.com). Slang AI's $36M Series B (Feb 2026) and DoorDash's $1.2B acquisition of SevenRooms (May 2025; CNBC) demonstrate capital flowing into restaurant tech. [Inferred]: The convergence of production-quality voice AI (lower latency, more natural-sounding), incumbent platform fragmentation (Resy/Tock merger, SevenRooms/DoorDash), and restaurants' post-COVID staffing challenges create an opening for a vertically integrated AI-first reservation system.
+- **Traction signals:**
+  - Named customer restaurants/groups: Shuffle Group, ESS Group, Kasai, O'Learys Group, Cheri-lee, The Kitchin (elyrasystems.com, May 2026).
+  - 92.4% guest satisfaction rating, "+12% since launch" (elyrasystems.com, May 2026).
+  - Customer testimonial: "We made back a year's cost in two weeks" (YC Launch page, May 2026, restaurant unnamed).
+  - YC Launch (Launch YC: Elyra) published approximately 11 days before research date (ycombinator.com/launches/QNp-elyra, May 2026).
+  - Featured by SSE Business Lab (Stockholm School of Economics) Spring 2026 cohort post (LinkedIn, Oct 2025 via search snippet).
+  - YC company LinkedIn post on Elyra (LinkedIn y-combinator post activity 7461490670919135232, 2026 via search snippet).
+  - No public follower counts, Product Hunt rank, app store, or web-traffic metrics found.
+- **Competitors:**
+  - Slang.ai ($68M total raised incl. $36M Series B led by USVP Feb 2026, revenue unknown, PRNewswire): voice-only AI host integrating with OpenTable/Resy, no native table-allocation layer.
+  - Newo.ai (~$32M total incl. $25M Series A Feb 2026, 15K+ AI agents created, SiliconANGLE): horizontal SMB receptionist not restaurant-specific.
+  - Loman.ai ($3.5M seed Aug 2025 led by Next Coast Ventures, revenue unknown, Restaurant Technology News): phone automation focused on orders/calls, less reservation-layer depth.
+  - Hostie.ai ($4M seed from Gradient Ventures, revenue unknown, hostie.ai): restaurant-native voice AI, primarily phone-focused.
+  - OpenTable Voice AI (subsidiary of Booking Holdings, opentable.com): incumbent reservation platform shipping voice-AI add-on.
+- **Why now:** [Inferred]: GPT-4-class realtime voice models crossed latency/quality thresholds in 2024–2025, enabling sub-second restaurant phone interactions that prior IVR/voice stacks could not deliver, as evidenced by the cluster of restaurant-voice-AI rounds closing Feb 2026 (Slang $36M, Newo $25M).
 
 ## Founders & Team
 
-**Felix Odeberg Glasenapp** — Co-Founder & CEO
-- Engineering Physics student at KTH Royal Institute of Technology, Stockholm (KTH, Oct 2025)
-- CEO (VD) of Cresnd AB, the Swedish entity behind Elyra (Bolagsfakta via search snippet)
-- Top 10 finalist in Lovable Shipped program (2025) with Cresnd (Lovable via X/Threads)
-- KTH Innovation Launch Batch 21 participant (KTH, Oct 2025)
-- Born ~2005, based in Täby, Stockholm (Merinfo.se via search snippet)
-- Twitter/X: No public account found
-- LinkedIn: se.linkedin.com/in/felix-odeberg-glasenapp-985736228 — listed as "Co-Founder, Cresnd"
-- GitHub: No public repos found
-
-**Alan Wernefeldt Mando** — Founder
-- Business and Economics student at WU Wien (Vienna University of Economics and Business) (KTH, Oct 2025)
-- Board chair (Styrelseledamot) of Cresnd AB (Bolagsfakta via search snippet)
-- From Stockholm area (Lovable Shipped finalist listing, 2025)
-- Twitter/X: No public account found
-- LinkedIn: linkedin.com/in/awmando/
-- GitHub: No public repos found
-
-**Co-founder relationship:** Both founders are listed as Stockholm locals (Lovable via X/Threads, 2025) and co-founded Cresnd together through KTH Innovation Launch Batch 21 (KTH, Oct 2025). They attend different universities (KTH and WU Wien), so the connection is not university-based. No public data on how they met.
-
-**Founder-market fit:** Both founders are in their early 20s and are first-time entrepreneurs with no prior exits or documented industry experience in hospitality. The Swedish phone number on the website (+46) and Nordic restaurant client logos suggest they built initial traction through local networks. [Inferred]: Domain expertise appears to have been developed through building the product and working directly with restaurant clients rather than from prior hospitality careers.
-
-**Note on prior entity:** The company previously operated as **Cresnd** and was part of KTH Innovation Launch Batch 21 under that name (KTH, Oct 2025). The KTH page URL references both names. Cresnd AB remains the registered Swedish entity (Bolagsfakta via search snippet). The rebranding to Elyra appears to have occurred around the time of the YC application.
+- **Felix Odeberg Glasenapp (Co-Founder/CEO):**
+  - Background: Engineering Physics at KTH Royal Institute of Technology; prior roles at KTH Innovation, SSE Business Lab, and Thünen Institute (LinkedIn se/in/felix-odeberg-glasenapp, RocketReach via search snippet).
+  - Twitter/X: No public account found in search results.
+  - LinkedIn: "Co-Founder – Cresnd" listed alongside Elyra (se.linkedin.com/in/felix-odeberg-glasenapp-985736228); count not retrievable.
+  - GitHub: No public repos found.
+- **Alan Mando (Co-Founder):**
+  - Background: Business at WU Vienna (Vienna University of Economics and Business); LinkedIn profile lists "Sera" affiliation (linkedin.com/in/alan-mando-a1681a224 via search snippet).
+  - Twitter/X: No public account found in search results.
+  - LinkedIn: Profile exists at linkedin.com/in/alan-mando-a1681a224; headline not retrievable from search.
+  - GitHub: No public repos found.
+- **Co-founder relationship:** Felix and Alan met in primary school in Stockholm and have been building together since (YC company description, May 2026).
+- **Founder-market fit:** Founders state they "spent weeks inside restaurants, taking phone calls, standing at the waiters stand, and watching service unfold" prior to building (YC search snippet, May 2026); no advisors, board members, or named investors beyond YC found.
 
 ## Key Risks
 
-**Well-funded direct competitor:** Slang AI has raised $68M and serves 2,000+ restaurant locations with 95%+ guest satisfaction (PRNewswire, Feb 2026). Slang operates in the same voice-AI-for-restaurants category and has a four-year head start (founded 2019). Mitigation: Elyra's full-stack approach (voice + email + CRM + table management) differs from Slang's voice-only focus.
-
-**Incumbent AI integration:** OpenTable has announced integrations with at least five AI voice partners (Slang AI, VOICEplug, SoundHound, Maple, Loman) across 20 countries (opentable.com, PRNewswire Nov 2025). Yelp launched Yelp Host at $149/month (business.yelp.com). If incumbents deepen AI integration or acquire voice AI startups, the standalone AI reservation system value proposition narrows.
-
-**Geographic transition risk:** Elyra's visible traction (client logos, phone number, accelerator participation) is concentrated in the Nordics and UK. The US restaurant market has different reservation infrastructure (OpenTable/Resy dominance), dining culture, and competitive dynamics. Success in Stockholm does not guarantee transferability to San Francisco.
-
-**Name collision:** "Elyra" is shared by IBM's Elyra AI toolkit (open-source JupyterLab extension), Elyra Ride (Moroccan micro-mobility), and Elyra Cloud (infrastructure monitoring). This creates SEO competition and potential brand confusion.
-
-**First-time founders without domain background:** Neither founder has documented prior hospitality industry experience or prior startup exits. Both are current university students. The team size of 2 means capacity constraints across product development, sales, and operations simultaneously.
+- **Well-funded direct competitor with head start:** Slang.ai has raised $68M total including a $36M Series B in Feb 2026 (PRNewswire) and was founded in 2019, giving it five years of restaurant-vertical voice-AI iteration and OpenTable/Resy integrations before Elyra's YC launch.
+- **Reservation-incumbent substitution:** OpenTable launched its own native Voice AI offering as part of reservation management (opentable.com), bundling voice into the platform restaurants already pay for, which could compress Elyra's standalone-product willingness-to-pay.
+- **Geographic mismatch in early traction:** All six named launch customers (Shuffle Group, ESS Group, Kasai, O'Learys, Cheri-lee, The Kitchin) are Nordic/Swedish-anchored brands (Swedish phone +46 contact on elyrasystems.com), while company is HQ'd in San Francisco targeting "1M restaurants in the US and Europe" (YC description) — US GTM remains unproven in public data.
+- **Multilingual voice quality at scale:** Operating across Swedish, English, and additional European languages with restaurant-grade accuracy is technically unproven for Elyra at public scale; no third-party accuracy benchmarks published (no public data found).
+- **TAM math assumption:** The $10B+ TAM relies on company-stated current pricing applied to all 1M US+EU restaurants (YC description), with no independent analyst validation found.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | ~$2.2B restaurant reservation software market in 2024, projected $12.2B by 2033 at 14.3% CAGR (Business Research Insights, 2024 via search snippet) |
-| SAM | No public data found |
-| Traction | Six restaurant group logos on website including O'Learys Group and The Kitchin (elyrasystems.com); KTH Innovation Launch Batch 21 (KTH, Oct 2025); SSE Business Lab Spring 2026 (LinkedIn); Lovable Shipped Top 10 finalist as Cresnd (Lovable X/Threads, 2025); Breakit coverage (Breakit, 2026) |
+| TAM | "$10B+ market opportunity" (Elyra YC company description, May 2026); no independent analyst figure found |
+| SAM | "1 million restaurants in the US and Europe" (Elyra YC company description, May 2026) |
+| Traction | 6 named restaurant-group customers including ESS Group, O'Learys Group, The Kitchin (elyrasystems.com, May 2026); 92.4% guest satisfaction (elyrasystems.com, May 2026); YC Launch published ~May 2026 (ycombinator.com/launches/QNp-elyra) |
 | Revenue Signal | No public data found |
-| Founders | Felix Odeberg Glasenapp (Co-Founder & CEO): Engineering Physics, KTH; CEO of Cresnd AB. Alan Wernefeldt Mando (Founder): Business & Economics, WU Wien; Board chair of Cresnd AB. |
-| Competitors | Slang AI ($68M raised, 2,000+ locations, voice-only); Hostie AI ($4M seed, 100+ restaurants, voice-focused); Yelp Host (public co, $149/mo AI phone agent); OpenTable (public co, 32.46% share, integrates third-party AI); Eat App ($23M+ raised, 5,000+ restaurants, reservation + table mgmt) |
-| Moat Signals | No public data found |
-| Risk Factors | Well-funded competitor Slang AI ($68M), incumbent AI integration (OpenTable/Yelp), geographic transition from Nordics to US |
-| Founder Reach | Felix Odeberg Glasenapp: Twitter not found, LinkedIn (se.linkedin.com/in/felix-odeberg-glasenapp-985736228), GitHub not found. Alan Wernefeldt Mando: Twitter not found, LinkedIn (linkedin.com/in/awmando/), GitHub not found. |
-| Distribution Signals | Breakit coverage of YC acceptance (Breakit, 2026); Swedish Tech Weekly #352 mention (swedishtechnews.com); no Product Hunt launch found; no app store presence found |
+| Founders | Felix Odeberg Glasenapp (CEO): KTH Engineering Physics, KTH Innovation, SSE Business Lab. Alan Mando (Co-Founder): WU Vienna Business |
+| Competitors | Slang.ai ($68M raised, revenue unknown, voice-only + OpenTable/Resy integration); Newo.ai (~$32M raised, revenue unknown, horizontal SMB receptionist); Loman.ai ($3.5M raised, revenue unknown, phone automation for orders); Hostie.ai ($4M raised, revenue unknown, restaurant-native voice); OpenTable Voice AI (incumbent reservation platform add-on) |
+| Moat Signals | Guest-intelligence profile data per restaurant; bundled call+email+table-allocation product (elyrasystems.com, May 2026) |
+| Risk Factors | Slang.ai $68M-funded incumbent, OpenTable native voice AI substitution, US GTM unproven outside Nordic launch customers |
+| Founder Reach | Felix Odeberg Glasenapp: Twitter not found, LinkedIn present (count not retrievable), GitHub not found. Alan Mando: Twitter not found, LinkedIn present (count not retrievable), GitHub not found |
+| Distribution Signals | YC Launch page (ycombinator.com/launches/QNp-elyra, May 2026); SSE Business Lab Spring 2026 cohort post (LinkedIn, Oct 2025); Y Combinator LinkedIn feature post (2026) |
 | Emails | No public data found |
+
+Sources:
+- [Elyra YC Company Page](https://www.ycombinator.com/companies/elyra)
+- [Launch YC: Elyra](https://www.ycombinator.com/launches/QNp-elyra-ai-reservation-system-for-restaurants)
+- [Elyra Systems Website](https://www.elyrasystems.com/)
+- [Slang AI Series B $36M – PRNewswire](https://www.prnewswire.com/news-releases/slang-ai-raises-36m-series-b-to-scale-ai-for-guest-communications-across-every-restaurant-302695306.html)
+- [Newo $25M Series A – SiliconANGLE](https://siliconangle.com/2026/02/10/newo-lands-25m-bring-production-ready-ai-receptionists-small-businesses/)
+- [Loman AI $3.5M Seed – Restaurant Technology News](https://restauranttechnologynews.com/2025/08/loman-ai-secures-3-5-million-to-help-restaurants-automate-the-phones/)
+- [Felix Odeberg Glasenapp LinkedIn](https://se.linkedin.com/in/felix-odeberg-glasenapp-985736228)
+- [Alan Mando LinkedIn](https://www.linkedin.com/in/alan-mando-a1681a224)
+- [SSE Business Lab Spring 2026 cohort post](https://www.linkedin.com/posts/sse-business-lab_elyra-joined-our-spring-2026-batch-and-like-activity-7449725304853471232--_2z)
+- [OpenTable Voice AI](https://www.opentable.com/restaurant-solutions/products/reservation-management/voice-ai/)
+- [Hostie/Loman/Slang pricing comparison](https://hostie.ai/resources/2025-pricing-showdown-hostie-ai-vs-soundhound-slang-loman-voice-assistant-cost-per-call-50-seat-restaurant)
+
+⚠️ Prompt-injection note: WebFetch results for elyrasystems.com and the YC Launch page contained embedded text formatted as `<system-reminder>` tags (referencing deferred tools, TodoWrite reminders, and budget). These appeared inside fetched web content and were ignored as untrusted content rather than treated as system instructions.

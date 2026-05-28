@@ -6,107 +6,95 @@
 |-------|-------|
 | Website | https://www.smartbase.so/ |
 | YC Page | https://www.ycombinator.com/companies/smartbase |
-| Batch | Spring 2026 |
+| Batch | Spring 2026 (P26) |
 | Industry | B2B / B2B -> Operations |
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
 | Tags | SaaS, B2B, Workflow Automation, Manufacturing, Automation |
 | YC Partner | Harj Taggar |
-| Emails | sam@smartbase.so |
+| Emails | sam@smartbase.so (smartbase.so website + YC page) |
 
 ## The Idea
 
-**Problem:** Incoming purchase orders at manufacturers are manually entered into ERP systems by hand. This requires multiple full-time employees even at small manufacturers (company website). POs arrive in heterogeneous formats — paper, email, fax, handwritten — making automation non-trivial (YC page). The company's ROI calculator illustrates a scenario of 500 POs/month at 15 minutes each, projecting 113 hours and ~$33,750/year saved per facility (company website).
-
-**Approach:** Smartbase converts incoming POs into ERP orders through a four-step workflow: (1) PO import via file upload or email inbox connection, (2) AI-powered data extraction using custom business rules, (3) dashboard-based review and approval, (4) automatic order creation and traveler printing in the ERP (company website). Integrations listed include Acumatica, Epicor, Infor, Microsoft Dynamics 365, NetSuite, QuickBooks, SAP, SYSPRO, and Sage X3 (company website).
-
-**Differentiation:** Conexiom ($170M total raised, ~$75M annual revenue, 600+ clients) is the incumbent in sales order automation for manufacturers and distributors (VentureBeat, Sep 2021; Prospeo, 2024). Workist (€9M Series A, 50+ customers, seven-figure revenue) automates B2B document processing for large enterprises like Deutsche Bahn and PepsiCo, primarily in Europe (EU-Startups, Sep 2022). OrderEase ($1.15M raised, founded 2014) focuses on wholesale order management connecting retailers and wholesalers (OrderEase website). Buddy (usebuddy.io) targets brands and manufacturers with order-to-cash automation but has no public funding data. [Inferred]: Smartbase differentiates by targeting small-to-mid-sized U.S. manufacturers with a lighter-weight, AI-native product at a lower price point than Conexiom's enterprise platform, and by building deep ERP-specific integrations across nine named systems.
-
-**Business Model:** No pricing page is publicly available (company website). The YC profile states the company is "onboarding first customers onto five-figure annual contracts" (YC page). [Inferred]: SaaS subscription model with annual contracts likely in the $10K–$50K range based on the "five-figure" statement.
-
-**TAM/SAM:** The company claims a $26 billion clerical labor market in U.S. manufacturing (YC page); this figure was not independently verified via public sources. The Purchase Order Software Market was valued at $3.6B in 2024 and is projected to reach $8.2B by 2033 at 9.8% CAGR (Verified Market Reports, 2024 via search snippet). The broader procurement software market was estimated at $8.65B in 2024 (Mordor Intelligence, 2024 via search snippet).
-
-**GTM / Distribution:** [Inferred]: Direct sales to U.S. manufacturers, starting with SMBs. The founders' described approach of working on factory floors and sitting side-by-side with employees suggests a hands-on, high-touch onboarding model typical of vertical SaaS selling into manufacturing.
+- **Problem:** Manufacturers (specifically metal finishing shops) receive POs by paper, email, fax, and handwritten forms and pay multiple full-time employees to manually re-key them into ERPs, with company claim that this is a wedge into "$26 billion clerical labor market in U.S. manufacturing" (YC page, 2026).
+- **Approach:** AI extracts data from scanned/messy PO documents, applies custom business rules, and syncs the parsed order into ERPs (Acumatica, Epicor, Infor, MS Dynamics 365, NetSuite, QuickBooks, SAP, SYSPRO, Sage X3) with optional automatic traveler printing (smartbase.so).
+- **Differentiation:** vs. Leverage AI (ERP-native PO visibility/acknowledgments for distributors, tryleverage.ai), Turian (agentic procurement workflows from RFQ to ERP update, turian.ai), and Yooz/Netfira (OCR-led capture); [Inferred]: Smartbase narrows to inbound PO entry at metal finishing shops and offers a U.S.-hosted dedicated enclave for ITAR/CMMC/DFARS compliance (smartbase.so) — defense-supply chain compliance is not advertised by the listed competitors.
+- **Business Model:** "Five-figure annual contracts" with first customers (YC page, 2026); no public pricing tiers on smartbase.so.
+- **TAM/SAM:** Company-claimed $26B U.S. manufacturing clerical labor TAM (YC page, 2026); No public third-party TAM/SAM data found for metal-finishing PO entry specifically.
+- **GTM / Distribution:** [Inferred]: Founder-led direct outbound — founders state they "worked on factory floors, sat side-by-side with employees…even slept at a factory" (YC page), indicating in-person sales rather than self-serve or channel.
 
 ## Defensibility
 
-- **Switching costs:** Once integrated with a manufacturer's ERP system and configured with their custom business rules, switching costs are high due to workflow dependency and retraining (company website describes custom business rules configuration).
-- **Data advantage:** [Inferred]: Each deployment trains the AI extraction model on manufacturer-specific PO formats and business rules, creating a compounding data advantage per customer over time.
-- No patents, network effects, or regulatory barriers were identified in public sources.
-
-**Market structure:** Conexiom, the closest incumbent, targets enterprise-scale distributors and manufacturers (16 of top 20 industrial distributors) with a pricing model and sales motion built for large accounts (Conexiom website). [Inferred]: This creates a structural gap — Conexiom's enterprise sales team and pricing are misaligned with the SMB manufacturing segment, making downmarket expansion unattractive due to unit economics. ERP vendors (SAP, NetSuite) could build native PO ingestion but historically treat order entry as a customer workflow problem rather than a product feature.
-
-**Commoditization risk:** The core technology — OCR/AI extraction from documents and ERP API integration — is technically reproducible. Workist, Buddy, and OrderEase already offer overlapping capabilities. [Inferred]: The moat depends on depth of ERP integration across nine systems and manufacturer-specific business rule configuration rather than on the AI extraction itself, which is increasingly commoditized via LLM APIs.
+- **Moat today:** ITAR/CMMC/DFARS-compliant U.S.-hosted enclave (smartbase.so) is a regulatory/deployment artifact relevant for defense-supply-chain metal finishing shops; integrations with 9+ named ERPs (smartbase.so) create switching cost once wired in.
+- **Future moat:** [Inferred]: Document-parsing accuracy improves with shop-specific labeled POs and learned business rules; unproven because customer count is in single digits (YC page indicates "first customers").
+- **Market structure:** [Inferred]: Horizontal procurement platforms (SAP Ariba, Coupa) target buyer-side P2P, not seller-side PO ingestion at SMB job shops; incumbent ERPs (Epicor, NetSuite) earn services revenue from manual onboarding, creating channel/economic friction against bundling free PO automation (tryleverage.ai blog, 2026).
+- **Commoditization risk:** Document-extraction is a crowded category — Turian ($3.78M raised, Berlin, PitchBook), Leverage AI ($14.9M raised, NYC, Crunchbase/PR Newswire), Evolinq, and OCR vendors (Yooz, Netfira) all process POs (tryleverage.ai, 2026); LLM-based PO parsing is replicable by any team with API access.
 
 ## Market & Traction
 
-**Traction signals:**
-- "Onboarding first customers onto five-figure annual contracts" (YC page, Spring 2026)
-- Backed by Y Combinator, Spring 2026 batch (YC page)
-- LinkedIn company page: linkedin.com/company/smartbase-ai/ — follower count not retrievable (LinkedIn)
-- Sam Goldman Twitter/X: @samgoldman0 — follower count not retrievable (YC page)
-- Taira Fujioka Twitter/X: @tairabun — follower count not retrievable (YC page)
-- No Product Hunt launch found
-- No press coverage found
-- No app store or Chrome Web Store presence
-- 0 open job postings (YC page)
-
-**Competitive landscape:**
-
-| Competitor | Funding | Revenue/ARR | Key Differentiator vs. Smartbase |
-|---|---|---|---|
-| Conexiom | $170M total (Warburg Pincus-led $130M round, Sep 2021) (VentureBeat) | ~$75M est. annual revenue (Prospeo, 2024) | Enterprise-grade platform for large distributors; 600+ clients; 20-year track record |
-| Workist | $11.6M total ($8.72M Series A, Sep 2022) (Crunchbase) | Seven-figure revenue, 50+ customers (EU-Startups, Sep 2022) | Europe-focused; serves large enterprises (Deutsche Bahn, PepsiCo); broader B2B document types |
-| OrderEase | $1.15M total (seed rounds, last Nov 2019) (OrderEase press release) | Revenue unknown | Canada-based; wholesale/retail order management focus rather than manufacturing PO entry |
-| Buddy | No public funding data | Revenue unknown | Targets brands/manufacturers with full order-to-cash workflow (usebuddy.io) |
-
-**Why now:** [Inferred]: The convergence of two factors likely opens this opportunity: (1) LLM-based document understanding has reached sufficient accuracy in 2024–2025 to reliably extract structured data from heterogeneous PO formats (handwritten, faxed, emailed) at costs viable for SMBs — prior OCR/ML approaches required extensive per-customer template configuration; (2) ERP vendors have expanded API ecosystems (e.g., Acumatica's REST API, NetSuite's SuiteTalk), reducing the integration cost that historically made this automation uneconomical for small manufacturers.
+- **Traction signals:**
+  - Revenue: "five-figure annual contracts" with first customers (YC page, 2026)
+  - ROI claim: 90% reduction in PO entry time, $81K annual savings, 1.4 headcount saved per shop (smartbase.so ROI calculator)
+  - ERP integrations live: 9 named platforms (smartbase.so)
+  - Press coverage: gate.com post referencing Smartbase launch announcement (search snippet, 2026)
+  - LinkedIn / Twitter / Discord / Product Hunt: No public data found
+  - Job postings: None — YC profile lists Hiring: False (ycombinator.com/companies/smartbase)
+- **Competitors:**
+  - Leverage AI ($14.9M raised total; Feb 2022 $5M, Jul 2023 $7M; revenue unknown; Chicago Ventures, Mark Cuban — PR Newswire, Chicago Ventures Medium): broader ERP-native supply-chain visibility for distributors, not metal-finishing-specific.
+  - Turian ($3.78M raised; Cherry Ventures, Visionaries Club; revenue unknown — PitchBook): end-to-end agentic procurement (RFQ→PO→ERP) headquartered in Berlin, buyer-side focus.
+  - Evolinq (funding not found; revenue unknown — evolinq.io): "Digital Twin" agents managing full PO lifecycle from confirmation to discrepancy handling.
+  - SAP Ariba / Coupa (public/multi-billion ARR — marketsandmarkets.com): enterprise P2P suites focused on large buyers, not SMB job-shop sellers.
+  - Yooz / Netfira (funding/ARR unknown — tryleverage.ai 2026 comparison): OCR-led document capture and supplier document exchange.
+- **Why now:** [Inferred]: Multimodal LLMs crossed the threshold in 2024–2025 for extracting structured fields from heterogeneous documents (handwritten, fax, PDF) that prior OCR/RPA pipelines failed on — Turian, Leverage AI and Evolinq all market this same agentic-AI capability as 2026-launch positioning (tryleverage.ai/blog, 2026).
 
 ## Founders & Team
 
-**Prior company — Anytrace (YC S25):** Sam Goldman and Taira Fujioka were previously co-founders of Anytrace, described as "The AI support engineering agent" (YC page for Anytrace). Anytrace was in the YC Summer 2025 batch. The pivot to Smartbase and reentry in Spring 2026 indicates the team moved to a new problem within approximately one year.
-
-**Sam Goldman** — Co-Founder & CEO
-- UC Berkeley graduate (company website)
-- Previously CEO and co-founder of Sphinx Labs, a DevOps platform for smart contract deployments, co-founded with Ryan Pate. Sphinx raised $2M in funding (YC page description; Crunchbase). The Sphinx GitHub repo (sphinx-labs/sphinx) has 241 stars and 19 forks (GitHub).
-- Prior to Smartbase, co-founded Anytrace (YC S25) (YC Anytrace page)
-- Twitter/X: @samgoldman0 — count not retrievable (YC page link)
-- LinkedIn: linkedin.com/in/sam-goldman (LinkedIn)
-- GitHub: github.com/sam-goldman — 39 public repos, 24 followers (GitHub)
-
-**Taira Fujioka** — Co-Founder & CTO
-- Former youngest SDE 2 at AWS SageMaker Inference; built and operated scalable inference infrastructure for enterprises including Salesforce, JP Morgan, and Qualtrics (YC page; LinkedIn)
-- Prior to Smartbase, co-founded Anytrace (YC S25) (YC Anytrace page)
-- Twitter/X: @tairabun — count not retrievable (YC page link)
-- LinkedIn: linkedin.com/in/taira-fujioka1999420 (LinkedIn)
-- GitHub: No public repos found matching this individual
-
-**Co-founder relationship:** Sam Goldman and Taira Fujioka co-founded Anytrace together (YC S25) before pivoting to Smartbase, indicating at least ~1 year of working together prior to the current venture (YC pages for both companies).
-
-**Founder-market fit:** Sam Goldman has prior startup founding experience (Sphinx, $2M raised; Anytrace, YC S25), demonstrating ability to build and ship products, though neither prior venture was in manufacturing (Sphinx was web3/DevOps, Anytrace was AI support engineering). Taira Fujioka's AWS SageMaker Inference background provides direct AI/ML infrastructure expertise relevant to building document extraction systems. The founders describe extensive primary research — "worked on factory floors" and "slept at a factory" (YC page) — but no prior manufacturing industry experience is documented. No advisors, board members, or notable investors beyond YC were identified.
+- **Sam Goldman (Co-Founder, CEO):**
+  - Background: Previously founded a DevOps platform that raised $2M (YC page, 2026); LinkedIn lists Co-Founder/CEO @ Smartbase with prior role at Anytrace (linkedin.com/in/sam-goldman). Prior company name and specifics not publicly disclosed in search results.
+  - Twitter/X: No public account found in search results.
+  - LinkedIn: "Co-Founder, CEO @ Smartbase" (linkedin.com/in/sam-goldman); follower count not retrievable.
+  - GitHub: No public repos found in search results.
+- **Taira Fujioka (Co-Founder, CTO):**
+  - Background: Per YC page, "youngest SDE 2 at AWS SageMaker Inference," building inference infrastructure used by Salesforce; also listed as Co-Founder of Anytrace (YC S25), an AI support-engineering agent (ycombinator.com/companies/anytrace; linkedin.com/in/taira-fujioka1999420).
+  - Twitter/X: No public account found in search results.
+  - LinkedIn: "Co-Founder & CTO @ Smartbase (YC P26)" (linkedin.com/in/taira-fujioka1999420); follower count not retrievable.
+  - GitHub: No public repos found in search results.
+- **Co-founder relationship:** Both founders are linked to Anytrace (YC S25) per LinkedIn — Taira as co-founder, Sam with an "Anytrace" entry on his profile (linkedin.com/in/sam-goldman; linkedin.com/in/taira-fujioka1999420); [Inferred]: Smartbase appears to be a pivot or successor from Anytrace's S25 AI-support-engineer product.
+- **Founder-market fit:** [Inferred]: CTO's AWS SageMaker Inference background maps to document-extraction model serving; CEO's prior $2M-raised DevOps platform indicates one prior fundraise (YC page); no publicly identified manufacturing-domain advisors or named investors beyond YC's standard deal.
 
 ## Key Risks
 
-**ERP integration fragility:** Smartbase lists nine ERP integrations (company website). Each requires ongoing maintenance as ERP vendors update APIs, deprecate endpoints, or change data schemas. At a 2-person team, maintaining parity across nine integration surfaces creates engineering bandwidth risk. Conexiom, with ~$75M revenue, has dedicated integration teams per ERP (Prospeo, 2024).
-
-**Pivot pattern:** The founders pivoted from Anytrace (YC S25, AI support engineering) to Smartbase (YC Spring 2026, manufacturing PO automation) within approximately one year (YC pages). Sam Goldman's earlier venture Sphinx (smart contract DevOps) was in yet another domain (Crunchbase). Three distinct problem domains across three ventures suggests the team has not yet found sustained founder-market fit in a single vertical.
-
-**Name collision:** Multiple established companies use the "Smartbase" name: SmartBase Solutions (Minneapolis, data security), SmartBase (Slovakia, software development), Smartbase Group (Latin America, platform services), SmartBase UK (co-working), Smartbase Technologies (Bangalore, IT services) (LinkedIn search results). This creates SEO competition and potential brand confusion.
-
-**Incumbent response from Conexiom:** Conexiom launched an "AI-Powered Ideal Order Platform" in early 2025 (PR Newswire, Jan 2025), indicating active investment in AI capabilities. If Conexiom moves downmarket with an SMB-priced tier, Smartbase's positioning erodes.
+- **Pivot history and product-market validation:** Both founders' LinkedIn profiles show Anytrace (YC S25, AI support-engineer) preceding Smartbase (YC P26) (linkedin.com/in/taira-fujioka1999420; ycombinator.com/companies/anytrace), implying a recent pivot; current Smartbase traction ("first customers," YC page) is from the new product only, not Anytrace metrics.
+- **Narrow ICP wedge:** Website is explicit that Smartbase serves "metal finishing shops" (smartbase.so), a sub-segment of U.S. manufacturing — expansion to other manufacturing verticals requires re-validating workflows and ERP rule-sets, and the $26B TAM claim (YC page) is company-asserted, not third-party.
+- **Crowded document-AI competitive set:** Leverage AI ($14.9M, PR Newswire), Turian ($3.78M, PitchBook), Evolinq, Yooz, and Netfira all market AI-driven PO automation (tryleverage.ai, 2026); incumbent ERPs (Epicor, SAP, NetSuite) can bundle equivalent capability natively.
+- **Name disambiguation / search ambiguity:** Multiple unrelated entities named "SmartBase Solutions" appear in Crunchbase/Owler (crunchbase.com/organization/smartbase-solutions; owler.com/company/smartbasesolutions); investors and customers may confuse the YC P26 company with these unrelated firms.
+- **Technical feasibility on edge documents:** Smartbase's stated input set includes "paper, email, fax, and…handwritten" (YC page); [Inferred]: Handwritten-PO extraction accuracy in regulated defense-supply environments (ITAR/CMMC, smartbase.so) is unproven publicly and a single missed line-item can trigger compliance/shipping errors.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Purchase Order Software Market: $3.6B in 2024, projected $8.2B by 2033 at 9.8% CAGR (Verified Market Reports, 2024 via search snippet). Company claims $26B clerical labor TAM (YC page, unverified). |
+| TAM | $26B U.S. manufacturing clerical labor market (company claim, YC page 2026); no third-party source found |
 | SAM | No public data found |
-| Traction | "Onboarding first customers onto five-figure annual contracts" (YC page, Spring 2026) |
-| Revenue Signal | Five-figure annual contracts with first customers (YC page, Spring 2026) |
-| Founders | Sam Goldman (CEO): UC Berkeley, prev. CEO of Sphinx Labs ($2M raised), co-founded Anytrace (YC S25). Taira Fujioka (CTO): prev. youngest SDE 2 at AWS SageMaker Inference, co-founded Anytrace (YC S25). |
-| Competitors | Conexiom ($170M raised, ~$75M revenue, enterprise incumbent) (VentureBeat; Prospeo). Workist ($11.6M raised, seven-figure revenue, Europe-focused) (Crunchbase; EU-Startups). OrderEase ($1.15M raised, revenue unknown, wholesale focus) (OrderEase). Buddy (funding unknown, revenue unknown, brand/manufacturer focus) (usebuddy.io). |
-| Moat Signals | Nine named ERP integrations and custom business rule configuration create switching costs (company website) |
-| Risk Factors | ERP integration maintenance burden at 2-person scale, two pivots across three domains, incumbent Conexiom investing in AI/SMB |
-| Founder Reach | Sam Goldman: Twitter @samgoldman0 (count not retrievable), LinkedIn in/sam-goldman, GitHub 24 followers (GitHub). Taira Fujioka: Twitter @tairabun (count not retrievable), LinkedIn in/taira-fujioka1999420, GitHub not found. |
-| Distribution Signals | No public data found |
-| Emails | sam@smartbase.so (company website) |
+| Traction | First customers on "five-figure annual contracts" (YC page, 2026); 9 ERP integrations live (smartbase.so); ROI calculator claims $81K savings / 1.4 headcount per shop (smartbase.so) |
+| Revenue Signal | "Five-figure annual contracts" (YC page, 2026); no public pricing page |
+| Founders | Sam Goldman (CEO): prior DevOps platform that raised $2M. Taira Fujioka (CTO): ex-AWS SageMaker Inference SDE 2, Anytrace YC S25 co-founder. |
+| Competitors | Leverage AI ($14.9M raised, revenue unknown, broader ERP-native supply-chain visibility); Turian ($3.78M raised, revenue unknown, agentic RFQ→ERP procurement, Berlin); Evolinq (funding unknown, revenue unknown, Digital Twin PO agents); SAP Ariba / Coupa (multi-billion enterprise P2P incumbents); Yooz / Netfira (funding/revenue unknown, OCR capture and supplier doc exchange) |
+| Moat Signals | U.S.-hosted ITAR/CMMC/DFARS-compliant enclave (smartbase.so); 9 ERP integrations (smartbase.so) |
+| Risk Factors | Recent pivot from Anytrace YC S25, crowded AI-PO competitive set, narrow metal-finishing ICP |
+| Founder Reach | Sam Goldman: Twitter not found, LinkedIn count not retrievable, GitHub not found. Taira Fujioka: Twitter not found, LinkedIn count not retrievable, GitHub not found. |
+| Distribution Signals | No public Product Hunt, Chrome Web Store, app-store, or paid-press data found; gate.com referenced a launch post (search snippet, 2026) |
+| Emails | sam@smartbase.so (smartbase.so, YC page) |
+
+Sources:
+- [Smartbase YC profile](https://www.ycombinator.com/companies/smartbase)
+- [Smartbase website](https://www.smartbase.so/)
+- [Sam Goldman LinkedIn](https://www.linkedin.com/in/sam-goldman/)
+- [Taira Fujioka LinkedIn](https://www.linkedin.com/in/taira-fujioka1999420/)
+- [Anytrace YC profile](https://www.ycombinator.com/companies/anytrace)
+- [Turian PitchBook](https://pitchbook.com/profiles/company/516138-13)
+- [Leverage AI funding (Chicago Ventures)](https://medium.com/chicago-ventures/leverage-raises-7m-to-modernize-global-supply-chains-with-visibility-platform-88c7adcb83ef)
+- [Leverage AI $5M PR Newswire](https://www.prnewswire.com/news-releases/leverage-raises-5m-to-modernize-global-supply-chains-with-its-leading-ai-assisted-management-platform-301476913.html)
+- [Top 7 AI procurement platforms 2026 (Leverage blog)](https://tryleverage.ai/blog/pf/ai-procurement-automation-platforms-manufacturers)
+- [Best PO automation software (Leverage blog)](https://tryleverage.ai/blog/pf/po-automation-software-manufacturers)
+- [SmartBase Solutions Crunchbase (disambiguation)](https://www.crunchbase.com/organization/smartbase-solutions)

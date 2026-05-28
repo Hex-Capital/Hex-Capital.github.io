@@ -1,7 +1,7 @@
 {
   "slug": "foaster",
   "name": "Foaster",
-  "oneLiner": "Your AI-native partner for AI transformation.",
+  "oneLiner": "The AI-native consulting firm for AI transformation.",
   "metadata": {
     "website": "https://foaster.ai",
     "yc_page": "https://www.ycombinator.com/companies/foaster",
@@ -9,68 +9,43 @@
     "industry": "B2B / B2B",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Artificial Intelligence, B2B, Enterprise Software",
+    "tags": "B2B, Enterprise Software, AI",
     "yc_partner": "Nicolas Dessaigne",
-    "emails": "No public data found"
+    "emails": "raphael.dabadie@foaster.ai (YC page)"
   },
   "tags": [
-    "Artificial Intelligence",
     "B2B",
-    "Enterprise Software"
+    "Enterprise Software",
+    "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-22T23:31:52.040Z",
+  "memoGeneratedAt": "2026-05-28T02:41:24.692Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 39,
+      "score": 38,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
       "score": 47,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 48,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 39,
-    "EG": 39,
-    "NR": 52,
-    "PG": 47,
-    "PT": 32,
-    "SL": 34,
-    "VK": 48
+    "CB": 38,
+    "EG": 47,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 41.57,
-  "consolidatedRank": 77,
+  "consolidatedAvg": 42.5,
+  "consolidatedRank": 102,
   "paths": {
     "memo": "spring2026/memos/foaster.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/foaster.md",
-      "elad-gil": "spring2026/evals/elad-gil/foaster.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/foaster.md",
-      "paul-graham": "spring2026/evals/paul-graham/foaster.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/foaster.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/foaster.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/foaster.md"
+      "elad-gil": "spring2026/evals/elad-gil/foaster.md"
     }
   }
 }

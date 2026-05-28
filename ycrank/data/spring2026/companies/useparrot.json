@@ -1,0 +1,47 @@
+{
+  "slug": "useparrot",
+  "name": "Parrot",
+  "oneLiner": "AI-native operating system for auto shops",
+  "metadata": {
+    "website": "https://www.useparrot.com/",
+    "yc_page": "https://www.ycombinator.com/companies/useparrot",
+    "batch": "Spring 2026",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "SaaS, Workflow Automation, Automation, Automotive",
+    "yc_partner": "Aaron Epstein",
+    "emails": "phillip@useparrot.com"
+  },
+  "tags": [
+    "SaaS",
+    "Workflow Automation",
+    "Automation",
+    "Automotive"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-28T02:49:09.218Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 42,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 42,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
+  },
+  "consolidatedAvg": 42,
+  "consolidatedRank": 111,
+  "paths": {
+    "memo": "spring2026/memos/useparrot.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/useparrot.md"
+    }
+  }
+}

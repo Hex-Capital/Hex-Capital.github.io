@@ -4,7 +4,7 @@
 
 | Field | Value |
 |-------|-------|
-| Website | https://revnu.app/ |
+| Website | https://revnu.com |
 | YC Page | https://www.ycombinator.com/companies/revnu |
 | Batch | Spring 2026 |
 | Industry | B2B / B2B |
@@ -12,118 +12,89 @@
 | Location | San Francisco, CA, USA |
 | Tags | Developer Tools, Marketing |
 | YC Partner | Tom Blomfield |
-| Emails | support@revnu.app (revnu.app/contact via search snippet) |
+| Emails | No public data found |
 
 ## The Idea
 
-**Problem:** Technical founders spend disproportionate time on non-core growth activities — content creation, experiment setup, pricing decisions, ad campaigns, and cold outreach — rather than product development. Existing solutions require hiring a growth team or contracting agencies, both costly and slow at pre-seed/seed stage. Current tools address individual channels (SEO, ads, email) in isolation, requiring manual coordination across them.
-
-**Approach:** Revnu deploys autonomous AI agents that execute across multiple growth channels — SEO content creation, paid advertising (Meta, LinkedIn, Reddit), cold email outreach, A/B testing (pricing and landing pages), competitor research, and site audits — all connected by a shared intelligence layer so data from one channel informs decisions in others (revnu.app). The integration mechanism is code-native: founders connect their repository, review a single AI-generated PR, and merge to activate the system (revnu.app). The company claims results are visible within 48 hours with daily automated reports (revnu.app).
-
-**Differentiation:**
-- vs. Jasper AI ($131M raised; Jasper blog): Jasper focuses on content generation and creative workflows; Revnu targets full-funnel growth execution across SEO, ads, outreach, and experimentation simultaneously with a unified data layer.
-- vs. Albert.ai ($70.4M raised, acquired by Zoomd; Tracxn): Albert focuses on autonomous paid media optimization for enterprise; Revnu targets early-stage founders and includes non-paid channels (SEO, cold email, A/B testing).
-- vs. Gumloop ($70.6M raised; Tracxn): Gumloop is a horizontal no-code AI workflow builder; Revnu is a vertical, opinionated growth product specifically for software founders requiring no workflow design.
-- vs. Fiber AI ($500K raised; Crunchbase): Fiber focuses specifically on prospecting and outbound; Revnu bundles outbound with SEO, ads, and experimentation.
-
-**Business Model:** No public pricing page; the site directs visitors to "Book a demo" (revnu.app/pricing). [Inferred]: Most likely monetization path is a monthly SaaS subscription tiered by usage volume or number of active channels, given the product's autonomous agent model and the "MRR" framing in the product dashboard.
-
-**TAM/SAM:**
-- AI agents market: $7.84B in 2025, projected to $52.62B by 2030 at 46.3% CAGR (MarketsandMarkets, 2025).
-- Global AI marketing market: $47.32B in 2026, projected to $107.5B by 2028 at 36.6% CAGR (ALM Corp, 2026 via search snippet).
-- No public SAM estimate specific to "autonomous growth platforms for software startups" found.
-
-**GTM / Distribution:**
-- The product integrates via GitHub repository connection, which creates a developer-native distribution path (revnu.app).
-- [Inferred]: Most likely initial distribution is founder communities (YC network, Twitter/X, Hacker News) and direct outreach to technical founders, given the team's presence in YC S26 batch and active Twitter accounts.
+- **Problem:** Technical founders are "addicted to building" and treat growth execution (SEO, ads, cold outreach, A/B tests, content) as the bottleneck blocking distribution (revnu.com).
+- **Approach:** Autonomous agents take ownership of multiple growth channels — cold outbound that finds leads and drafts emails in the founder's voice, ad operations across Meta, LinkedIn, Reddit, TikTok, SEO content, short-form video, and A/B tests — sharing "a single intelligence layer, so every channel makes the others smarter" (YC page; revnu.com).
+- **Differentiation:** vs. Jasper/Copy.ai (content/copy generation tools requiring human GTM operators) — Revnu pitches end-to-end execution including paid ads and outbound (revnu.com); vs. 11x and Artisan (single-channel AI SDRs) — Revnu spans paid + organic + outbound in one orchestrator (revnu.com; Artisan.co; 11x.ai).
+- **Business Model:** [Inferred]: SaaS/managed-service subscription; pricing is gated behind "Book a demo" with no public tier disclosed (revnu.com).
+- **TAM/SAM:** No public TAM/SAM data found for this specific segment.
+- **GTM / Distribution:** [Inferred]: Founder-led demos via revnu.com CTA and YC network distribution to other Spring 2026 batchmates; no paid-channel or partnership data disclosed (revnu.com; YC page).
 
 ## Defensibility
 
-- **Cross-channel intelligence layer:** The shared data layer across SEO, ads, outreach, and experimentation means each customer's data compounds across channels, potentially creating switching costs as the system accumulates optimization history (revnu.app).
-- [Inferred]: Potential moat could develop via proprietary performance data across many founder accounts enabling superior optimization over time, but is unproven at this stage.
-
-**Market structure:** [Inferred]: Large marketing incumbents (HubSpot, Salesforce Marketing Cloud) are structured around enterprise sales teams and per-seat pricing — serving 2-person pre-seed startups with autonomous agents would cannibalize their existing high-ACV sales motion. However, no structural barrier prevents a well-funded startup from replicating this approach.
-
-**Commoditization risk:** The underlying capabilities (LLM-generated content, programmatic ad management, email automation) are individually available via APIs and existing tools. The integration and unified intelligence layer is the differentiator, but multiple startups (NoimosAI, Fiber AI) are pursuing adjacent approaches. Barrier to replication is moderate — the technical complexity is in orchestration and optimization, not in any single channel.
+- **Moat today:** No defensibility signals found in public sources; product references a cross-channel "single intelligence layer" but no proprietary data assets, patents, or integrations are disclosed (revnu.com).
+- **Future moat:** [Inferred]: Cross-channel performance data from running concurrent SEO/ads/outbound for many startups could create a learning loop where each customer's outcomes improve targeting for others; unproven because customer count, data volume, and lift metrics are not public.
+- **Market structure:** No structural barrier identified at this stage; incumbents (Jasper, Copy.ai, 11x, Artisan) and other YC batchmates can build adjacent multi-agent stacks.
+- **Commoditization risk:** Multi-agent growth stacks are being shipped by well-funded incumbents (11x raised $76M total per Benchmark/a16z reports; Artisan raised $25M Series A — TechCrunch, 2025) and by indie builders, so the orchestration layer is replicable.
 
 ## Market & Traction
 
-**Traction signals:**
-- No public Revnu-specific revenue, user count, or growth metrics found.
-- The product homepage displays a demo dashboard showing illustrative metrics (MRR $12,847, conversion rate 4.2%, organic traffic 8,429); these appear to be product UI examples, not verified company traction (revnu.app).
-- The about page claims "$15M in transactions processed" and "$7M+ managed" across the founders' previous ventures, not Revnu itself (revnu.app/about).
-- No Product Hunt launch found for "Revnu" (Product Hunt search, April 2026).
-- No press coverage in named publications found.
-- Twitter/X: George Jefferson @GeorgeJeffersn — approximately 1,023 followers (X.com via search snippet). Art Freebrey @artfreebrey — handle listed on YC page, count not retrievable.
-- LinkedIn: Company page not confirmed for the YC entity; a "Revnu Consultancy" page exists on LinkedIn (uk.linkedin.com/company/revnu) but appears to be a separate UK B2B consultancy.
-- Discord: referenced on contact page (revnu.app/contact via search snippet), member count unknown.
-- No app store listings, Chrome extension, or web traffic estimates found.
-- 0 open job postings (YC page, April 2026).
-
-**Competitive landscape:**
-
-| Competitor | Funding | Revenue/ARR | Key Differentiator vs. Revnu |
-|---|---|---|---|
-| Jasper AI | $131M raised, $1.5B valuation (Jasper blog) | $88M revenue, 100K customers (Getlatka, 2025) | Content/creative focus; enterprise positioning; not full-funnel autonomous |
-| Albert.ai | $70.4M raised, acquired by Zoomd (Tracxn) | $4.6M revenue (Prospeo via search snippet) | Enterprise-only autonomous paid media; no SEO/outreach/A/B testing |
-| Gumloop | $70.6M raised, $50M Series B Mar 2026 (TAMradar) | Revenue unknown | Horizontal no-code workflow builder; requires user-designed workflows |
-| Fiber AI | $500K raised (Crunchbase) | $303.6K revenue (Getlatka, 2024) | Prospecting/outbound only; no content, ads, or experimentation |
-
-**Why now:**
-- [Inferred]: The catalyst is the sharp improvement in LLM capabilities (GPT-4, Claude, Gemini) during 2023–2025, which crossed the quality threshold needed for autonomous content generation, ad copy, and outreach personalization without human review. Simultaneously, Gartner forecasts 40% of enterprise applications will embed AI agents by end of 2026, up from less than 5% in 2025 (Gartner via search snippet), indicating broad market acceptance of autonomous agent architectures.
+- **Traction signals:**
+  - Team size: 2 (YC page).
+  - Funding: standard YC deal of $500K ($125K post-money SAFE + $375K MFN SAFE) implied by Spring 2026 batch participation; no additional round disclosed (YC standard deal terms; YC page).
+  - Press coverage: No public press coverage found.
+  - Product Hunt: No public Product Hunt launch found.
+  - Customers/Revenue: No public customer count or revenue figure found.
+  - Social: George Jefferson — X handle @GeorgeJeffersn, follower count not retrievable (x.com/GeorgeJeffersn); Art Freebrey — X handle @artfreebrey, follower count not retrievable (x.com/artfreebrey).
+  - Job postings: Hiring flag is False (company_data); no public roles listed.
+- **Competitors:**
+  - 11x ($76M raised total per Benchmark/a16z reporting; ~$10M ARR claimed 2024 with disputed actual ~$3M, TechCrunch/CheckThat.ai): single-vertical AI SDR (Alice for outbound, Julian for voice) vs. Revnu's multi-channel scope.
+  - Artisan ($36.5M raised total: $11.5M seed + $25M Series A — artisan.co/blog; $1M ARR in 3 months post-launch per artisan.co): focused on AI BDR "Ava" for outbound; Revnu adds paid ads, SEO, and content.
+  - Jasper (raised $125M Series A in 2022 per public reporting; revenue unknown current): content/copy generation with "Advanced Agents" tier (jasper.ai); requires human operator, vs. Revnu's autonomous execution claim.
+  - Copy.ai (raised $13.9M Series A 2022 per public reporting; revenue unknown): rebranded as "AI-Native GTM Platform" with workflow builder (copy.ai); workflow/templates vs. Revnu's claim of autonomous channel ownership.
+  - Workfx AI (funding unknown): AI visibility / Reddit-and-social organic distribution (blogs.workfx.ai); narrower channel set than Revnu.
+- **Why now:** [Inferred]: The 2024–2025 emergence of agentic frameworks plus the visible scaling struggles of single-channel AI SDR incumbents (LinkedIn rate-limiting of Ava-driven activity in Q1 2026 per the-ai-corner.com) create an opening for orchestrated multi-channel agents; founders also frame "distribution is now the competitive advantage since AI has democratized product development" (revnu.com).
 
 ## Founders & Team
 
-**George Jefferson** — Co-founder
-- Interned at iterate.com (ginger.sh portfolio).
-- Bootstrapped three software businesses to £100K+ during university (YC page).
-- Prior products with stated metrics (ginger.sh portfolio):
-  - artomate.app — Etsy AI automation tool; 1K MRR within 24 hours; 25,000 posts/month.
-  - resold.app — Vinted sniping bot; 1,000+ paying users; over £10M transacted.
-  - vinta.app — Accounting software for Vinted sellers; 1,000+ paying users.
-  - ottur.com — Prompt-to-merchandise tool.
-  - accelerateme.co — Student business mentorship program.
-- Generated over £100,000 selling AI posters on Etsy (artomate.app/about via search snippet).
-- Hackathons: 2026 Grokathon xAI Hackathon winner; 2025 London Cursor Hackathon winner; 2025 Lisbon v0 × Vercel Hackathon 2nd place (ginger.sh).
-- Twitter/X: @GeorgeJeffersn — ~1,023 followers (X.com via search snippet).
-- LinkedIn: uk.linkedin.com/in/georgejeffers (LinkedIn search result).
-- GitHub: github.com/georgejeffers — 8 public repositories (GitHub via search snippet); star counts not retrievable.
-
-**Art Freebrey** — Co-founder & CTO
-- 21-year-old software engineer based in the UK (freebrey.art via search snippet).
-- Specializes in building agents, reverse engineering antibots, and shipping products (freebrey.art via search snippet).
-- Grew and bootstrapped multiple businesses to $100K+ (YC page).
-- Mistral worldwide hackathon winner (YC page).
-- Twitter/X: @artfreebrey (YC page) — follower count not retrievable.
-- LinkedIn: linkedin.com/in/artfreebrey (YC page).
-- GitHub: No public profile found via search.
-
-**Co-founder relationship:** Both founders are listed as UK-based (George's LinkedIn shows UK; Art's personal site states UK), and both participated in hackathons and bootstrapped e-commerce/automation businesses during university. The about page references launching products "from a university bedroom" together (revnu.app/about). [Inferred]: They likely attended the same UK university and collaborated on prior ventures before Revnu.
-
-**Founder-market fit:** Both founders have direct experience building and selling software products independently — George operated four revenue-generating products with 1,000+ paying users across multiple (ginger.sh), and Art brings deep technical expertise in agent architectures (freebrey.art via search snippet). Their stated frustration — that AI made building easy but growth remained manual — emerged from firsthand experience shipping products without dedicated marketing resources (revnu.app/about). No advisors, board members, or notable angel investors identified beyond YC partner Tom Blomfield.
+- **George Jefferson (Co-founder):**
+  - Background: From the UK; met co-founder Art Freebrey in school at age 14; dropped out of university the same day as Art to join YC Spring 2026 (P26) and relocated to San Francisco; bootstrapped 3 software businesses to £100K+ each while at university (LinkedIn headline + search snippets via linkedin.com/in/georgejeffers, linkedin.com/in/george-jefferson-a17198215).
+  - Twitter/X: @GeorgeJeffersn — count not retrievable (x.com/GeorgeJeffersn).
+  - LinkedIn: "founder @ revnu.com (yc p26)" (linkedin.com/in/georgejeffers).
+  - GitHub: No public repos found.
+- **Art Freebrey (Co-founder, CTO):**
+  - Background: 21-year-old software engineer; from the UK; school friend of George since age 14; dropped out of university the same day; bootstrapped 3 software businesses to £100K+ during university; won the xAI London Hackathon (freebrey.art via search snippet; search snippets on YC profile).
+  - Twitter/X: @artfreebrey — count not retrievable (x.com/artfreebrey).
+  - LinkedIn: profile referenced but headline not retrieved; listed as "CTO @ Revnu" on personal site (freebrey.art via search snippet).
+  - GitHub: No public repos found.
+- **Co-founder relationship:** Met in school at age 14 in the UK; co-bootstrapped multiple software businesses through university; dropped out together the same day to join YC Spring 2026 (search snippets via ycombinator.com/companies/revnu and freebrey.art).
+- **Founder-market fit:** [Inferred]: Both founders cite that across the prior bootstrapped businesses, "growth was the bottleneck," giving them first-person exposure to the pain Revnu addresses; YC Group Partner Tom Blomfield (Monzo, GoCardless) is the assigned partner (YC page).
 
 ## Key Risks
 
-**Name collision:** Multiple entities use "Revnu" as a brand — Revnu Consultancy (UK B2B consulting, LinkedIn), revnu.io (India), revnu.ai (Google Ads tool), and Revnu Labs (Brazil) (LinkedIn search results). This creates SEO competition and potential brand confusion, particularly problematic for a company whose product includes SEO services.
-
-**Incumbent replication via AI features:** Major marketing platforms (HubSpot, Salesforce, Braze) are actively embedding AI agent capabilities into existing products. Braze acquired OfferFit for agentic marketing decisioning (noimosai.com via search snippet). Gumloop raised $50M in March 2026 for horizontal AI automation (TAMradar). The window for a vertical autonomous growth product may narrow as incumbents add similar capabilities to platforms with existing distribution.
-
-**Single-repo integration surface:** The product's activation mechanism — connecting a GitHub repo and merging a PR — assumes the founder's product is code-deployed and repo-accessible. This excludes no-code products, mobile apps distributed via app stores, and platforms where marketing assets are decoupled from the codebase. [Inferred]: This constrains the initial addressable market to developer-tool and web-app founders specifically.
-
-**Founder relocation risk:** Both founders appear to be UK-based (LinkedIn, personal sites) and recently relocated to San Francisco for YC. Long-term US presence and ability to hire a US-based team are unconfirmed. The company is not currently hiring (YC page, April 2026).
+- **Incumbent crowding with capital advantage:** Direct adjacent competitors are funded an order of magnitude above the YC standard $500K — 11x has $76M total and Artisan has $36.5M (Benchmark/a16z reporting; artisan.co/blog) — and could subsume Revnu's multi-channel positioning before Revnu reaches commercial scale.
+- **Channel platform dependency / detection risk:** Outbound and ad-automation agents face platform countermeasures; LinkedIn began rate-limiting Artisan's Ava-driven activity in Q1 2026 (the-ai-corner.com), implying any cold-outreach-at-scale agent inherits platform-policy exposure that can throttle the product overnight; no mitigation disclosed.
+- **Unverified efficacy of "single intelligence layer" claim:** The cross-channel learning loop is the central differentiation claim (revnu.com) but no customer count, lift metric, case study, or third-party validation has been published; technical feasibility at the promised "autonomous" level is unproven publicly.
+- **Trust gap for revenue-critical execution:** Customers (founders) are being asked to hand over ad spend, brand voice, and CRM access to autonomous agents; the disputed 11x ARR episode (claimed $14M vs. ~$3M actual post-trial, per TechCrunch/CheckThat.ai) and G2 collapse in the AI-SDR category (the-ai-corner.com) suggest buyer skepticism is elevated heading into 2026.
+- **Name collision / brand discoverability:** "Revnu" returns competing entities including revnu.app and the unrelated character "George Jefferson" in search; SEO/brand discovery is contested and may complicate the inbound funnel that the demo CTA relies on (search results).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | AI agents market $7.84B in 2025 → $52.62B by 2030, 46.3% CAGR (MarketsandMarkets, 2025); AI marketing market $47.32B in 2026 (ALM Corp, 2026 via search snippet) |
+| TAM | No public data found |
 | SAM | No public data found |
-| Traction | No public data found for Revnu itself; founders claim $15M transactions across prior ventures (revnu.app/about) |
-| Revenue Signal | No public data found; pricing page redirects to "Book a demo" (revnu.app/pricing, April 2026) |
-| Founders | George Jefferson: 3+ bootstrapped products to £100K+, 1,000+ paying users across prior ventures (ginger.sh, YC page). Art Freebrey: CTO, agent/antibot engineering, Mistral hackathon winner, multiple businesses to $100K+ (YC page, freebrey.art via search snippet) |
-| Competitors | Jasper AI ($131M raised, $88M revenue, content/creative focus; Jasper blog, Getlatka 2025); Albert.ai ($70.4M raised, $4.6M revenue, enterprise paid media; Tracxn, Prospeo via search snippet); Gumloop ($70.6M raised, revenue unknown, horizontal no-code automation; Tracxn, TAMradar); Fiber AI ($500K raised, $303.6K revenue, outbound-only; Crunchbase, Getlatka 2024) |
+| Traction | Team of 2 (YC page); no customer count, revenue, Product Hunt, or press coverage publicly disclosed; founders previously bootstrapped 3 software businesses each to £100K+ during university (prior-product, not Revnu) (search snippets) |
+| Revenue Signal | No public data found (pricing gated behind "Book a demo" on revnu.com) |
+| Founders | George Jefferson (Co-founder): UK, university dropout, bootstrapped 3 software businesses to £100K+. Art Freebrey (CTO/Co-founder): 21, UK, university dropout, bootstrapped 3 software businesses to £100K+, won xAI London Hackathon. |
+| Competitors | 11x ($76M raised, ~$10M claimed / ~$3M disputed actual ARR, single-channel AI SDR); Artisan ($36.5M raised, $1M ARR in 3 months post-launch, AI BDR Ava); Jasper ($125M Series A 2022, revenue unknown, content/copy + agents); Copy.ai ($13.9M Series A 2022, revenue unknown, AI-Native GTM workflow platform); Workfx AI (funding unknown, AI visibility + Reddit/social) |
 | Moat Signals | No public data found |
-| Risk Factors | Brand name collision with multiple "Revnu" entities, incumbent AI feature replication, narrow repo-based integration surface |
-| Founder Reach | George Jefferson: Twitter/X ~1,023 followers (X.com via search snippet), LinkedIn uk.linkedin.com/in/georgejeffers, GitHub 8 repos (GitHub via search snippet). Art Freebrey: Twitter/X @artfreebrey handle confirmed (YC page) count not retrievable, LinkedIn linkedin.com/in/artfreebrey |
-| Distribution Signals | No public data found |
-| Emails | support@revnu.app (revnu.app/contact via search snippet) |
+| Risk Factors | Heavily funded incumbents in adjacent AI SDR/marketing-agent space, platform-policy/rate-limit dependency for outbound and ads, unverified efficacy claims |
+| Founder Reach | George Jefferson: Twitter @GeorgeJeffersn (count not retrievable), LinkedIn /in/georgejeffers, GitHub not found. Art Freebrey: Twitter @artfreebrey (count not retrievable), LinkedIn referenced via freebrey.art, GitHub not found. |
+| Distribution Signals | "Book a demo" CTA on revnu.com; YC Spring 2026 batch distribution (YC page); no Product Hunt, Chrome Store, or app store presence found |
+| Emails | No public data found |
+
+Sources:
+- [Revnu YC Page](https://www.ycombinator.com/companies/revnu)
+- [Revnu Website](https://revnu.com/)
+- [George Jefferson LinkedIn](https://www.linkedin.com/in/georgejeffers)
+- [Art Freebrey Personal Site](https://freebrey.art/)
+- [Artisan Series A Announcement](https://www.artisan.co/blog/artisan-series-a)
+- [Artisan Seed Announcement](https://www.artisan.co/blog/artisan-seed-round)
+- [11x Funding Profile](https://startupintros.com/orgs/11x)
+- [Artisan vs 11x Comparison](https://agent.nexus/blog/artisan-vs-11x)
+- [Jasper AI](https://www.jasper.ai/)
+- [Growth Agents Compared (Workfx)](https://blogs.workfx.ai/2026/05/04/ai-growth-agents-for-startups/)

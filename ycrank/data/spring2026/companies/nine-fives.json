@@ -8,7 +8,7 @@
     "batch": "Spring 2026",
     "industry": "Industrials / Industrials -> Manufacturing and Robotics",
     "team_size": "2",
-    "location": "No public data found",
+    "location": "San Francisco, CA, USA",
     "tags": "Radar, Telecommunications, Electronics",
     "yc_partner": "Tom Blomfield",
     "emails": "No public data found"
@@ -19,58 +19,28 @@
     "Electronics"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-22T23:52:54.968Z",
+  "memoGeneratedAt": "2026-05-28T03:02:30.541Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 58,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 66,
+      "score": 79,
       "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 55,
-      "tier": "Neutral"
-    },
-    "vinod-khosla": {
-      "score": 38,
-      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 51,
-    "EG": 46,
-    "NR": 58,
-    "PG": 66,
-    "PT": 40,
-    "SL": 55,
-    "VK": 38
+    "CB": 79,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 50.57,
-  "consolidatedRank": 24,
+  "consolidatedAvg": 79,
+  "consolidatedRank": 1,
   "paths": {
     "memo": "spring2026/memos/nine-fives.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/nine-fives.md",
-      "elad-gil": "spring2026/evals/elad-gil/nine-fives.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/nine-fives.md",
-      "paul-graham": "spring2026/evals/paul-graham/nine-fives.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/nine-fives.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/nine-fives.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/nine-fives.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/nine-fives.md"
     }
   }
 }

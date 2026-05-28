@@ -10,111 +10,92 @@
 | Industry | Industrials / Industrials -> Manufacturing and Robotics |
 | Team Size | 4 |
 | Location | San Francisco, CA, USA |
-| Tags | Artificial Intelligence, Robotic Process Automation, Robotics, Automation |
+| Tags | Robotic Process Automation, Robotics, Automation, AI |
 | YC Partner | Nicolas Dessaigne (YC company page) |
 | Emails | No public data found |
 
 ## The Idea
 
-**Problem:** Manufacturing and logistics companies face labor shortages and high upfront capital costs when adopting robotic automation. Traditional industrial robots require six- or seven-figure purchases plus integration costs, limiting adoption to large enterprises (YC company page). Small and mid-size manufacturers lack access to robotic labor because the barrier to entry is too high (YC company page).
-
-**Approach:** Eden Robotics builds semi-humanoid robots and deploys them under a usage-based "physical agents for hire" model — companies pay per unit of work rather than purchasing hardware (YC company page). The company develops its own robot hardware and software stack, including a product called "Theta OS" (company website). [Inferred]: The semi-humanoid form factor likely targets tasks requiring upper-body manipulation in environments designed for human workers, reducing facility retrofit costs.
-
-**Differentiation:** Unlike traditional robotics OEMs (e.g., Fanuc, ABB) that sell capital equipment, Eden retains ownership of its robots and charges for usage (YC company page). Compared to RaaS competitors like Formic — which deploys third-party robot arms under a service model (Formic press release, June 2024) — Eden builds its own semi-humanoid hardware. Compared to humanoid startups like Figure ($1.75B raised; Tracxn, 2026), which sell or license robots, Eden's service model shifts the economics.
-
-**Business Model:** Usage-based pricing; companies pay for robotic labor by consumption rather than purchasing (YC company page). No public pricing page or rate card was found on the company website. [Inferred]: Most likely monetization is an hourly or per-task rate billed to manufacturers, analogous to Formic's hourly model or Rapid Robotics' $25K/year subscription (TechCrunch, Aug 2021).
-
-**TAM/SAM:**
-- Global Robot-as-a-Service market: ~$34B in 2025, projected ~$132B by 2032 at 21.4% CAGR (Coherent Market Insights, 2025).
-- Global humanoid robot market: $2.92B in 2025, projected $15.26B by 2030 at 39.2% CAGR (MarketsandMarkets, 2025).
-- Long-term humanoid TAM: ~$9 trillion by 2050 (RBC Capital Markets, Mar 2026).
-- [Inferred]: SAM is the intersection — humanoid/semi-humanoid RaaS for manufacturing and logistics. No public SAM estimate found for this specific segment.
-
-**GTM / Distribution:** Eden is hiring a Founding Communications Engineer in San Francisco or London ($65K–$120K, 0.25%–2.00% equity) (YC company page). [Inferred]: Most likely initial distribution is direct enterprise sales to manufacturing and logistics facilities, starting with pilot deployments to prove reliability before scaling fleet.
+- **Problem:** Manufacturers and logistics operators face labor shortages and high capex for traditional fixed automation, forcing reliance on temp staffing or six-figure integrated robotic cells (Eden Robotics website, May 2026).
+- **Approach:** Eden deploys "Eden-1" semi-humanoid robots running its proprietary "Theta OS," billed by the hour with no setup fee and no on-site engineering required (edenrobotics.ai, May 2026).
+- **Differentiation:** Versus Figure AI ($39B valuation, $1B Series C) and Apptronik ($5.5B valuation, $935M raised) — Eden's stated differentiator is a usage-based RaaS model with a $200 deposit and $10/hour pricing rather than enterprise-scale pilots (edenrobotics.ai; TechCrunch, Feb 2026); versus Agility Robotics, which also offers RaaS but is integrated with Amazon/Toyota fulfillment (Standard Bots, 2026), Eden targets smaller-deployment customers per its low entry price.
+- **Business Model:** "$10/hour, $0 Setup Fee, $200 Deposit" with enterprise fleet tier (edenrobotics.ai pricing page, May 2026).
+- **TAM/SAM:** Humanoid robot market projected at $8.32B in 2026 growing from $5.44B in 2025 at 52.9% CAGR (MarketsandMarkets, 2026); Morgan Stanley projects $5T by 2050 (Morgan Stanley, 2024).
+- **GTM / Distribution:** [Inferred]: Direct outbound sales to manufacturing and logistics SMBs via the website contact form (/about/contact) given absence of channel partners or marketplace listings in public sources; one open Founding Communications Engineer role is the only listed hire (YC jobs page, May 2026).
 
 ## Defensibility
 
-- **Vertical integration:** Eden builds its own semi-humanoid hardware and Theta OS software stack (company website, YC company page), creating a proprietary hardware-software loop.
-- **Data flywheel potential:** [Inferred]: Each deployment generates task-performance data that can improve autonomy over time, but this flywheel is unproven at this stage.
-- **Business model as moat:** The RaaS model creates switching costs once robots are integrated into production workflows. Formic reports 97% renewal rates on its RaaS contracts (Formic press release, June 2024), suggesting stickiness is achievable in this model.
-
-**Market structure:** Traditional robot OEMs (Fanuc, ABB, KUKA) sell capital equipment through distributor channels. Offering robots-as-a-service would cannibalize their hardware revenue and require building operations/fleet-management capabilities orthogonal to their existing business. [Inferred]: This business model conflict creates a structural window, though incumbents could acquire RaaS startups (as demonstrated by RobCo's acquisition of Rapid Robotics in September 2025; PitchBook).
-
-**Commoditization risk:** Multiple well-funded competitors operate RaaS models with conventional robot arms (Formic, GrayMatter, RobCo). The semi-humanoid form factor is a differentiator, but Figure, Tesla (Optimus), and other humanoid companies could pivot to service models. The core technical challenge — reliable autonomous manipulation in unstructured environments — remains difficult, providing some protection.
+- **Moat today:** Co-founder Joseph Humphreys holds a PhD in Dynamic Motion Generation of Multi-link Robots from University of Leeds (2022–2025) with a Nature publication and prior rocket-engine work (University of Leeds PGR page; YC company page).
+- **Future moat:** [Inferred]: Operational data from fleet deployments could feed Theta OS policy training, creating a data flywheel — unproven at present given no disclosed customers or fleet size.
+- **Market structure:** [Inferred]: Incumbents Figure AI and Apptronik are committed to enterprise capex sales motions with Mercedes, GXO, and Amazon (Standard Bots, 2026), so pivoting to $10/hour SMB RaaS would cannibalize existing pilot revenue and salesforce compensation structures.
+- **Commoditization risk:** Hardware platform (semi-humanoid) is being independently built by 30+ companies (Robozaps, 2026); the RaaS billing model is also used by Agility Robotics and Apptronik (PitchBook, Feb 2026).
 
 ## Market & Traction
 
-**Traction signals:**
-- No public revenue, customer count, or deployment metrics found.
-- Company Twitter/X: @eden_robotics (count not retrievable).
-- Founder Twitter/X: @StamatisTWIY — 198 followers (search snippet, Apr 2026).
-- LinkedIn company page exists at linkedin.com/company/eden-robotics (follower count not retrievable).
-- Crunchbase profile exists (crunchbase.com/organization/eden-robotics); page returned 403 error.
-- One active job posting: Founding Communications Engineer (YC company page).
-- No Product Hunt launch found. No press coverage in named publications found.
-- Company website displays a countdown timer showing ~624 hours (company website, Apr 2026).
-
-**Competitive landscape:**
-
-| Competitor | Funding | Model | Key Differentiator vs. Eden |
-|---|---|---|---|
-| **Formic** | $59.1M+ raised; Series A $27.4M (BusinessWire, June 2024) | RaaS with third-party robot arms | 60+ facility deployments, $20M+ contract value, 97% renewal rate; uses off-the-shelf arms rather than custom hardware |
-| **GrayMatter Robotics** | $70.36M total; $45M Series B (PR Newswire, June 2024) | AI-powered RaaS for high-mix manufacturing | Physics-informed AI for surface finishing; narrower task focus vs. Eden's general manufacturing/logistics scope |
-| **RobCo** | $100M Series C (BusinessWire, Jan 2026) | Physical AI industrial robotics platform, RaaS delivery | BMW and enterprise customers; acquired Rapid Robotics (Sept 2025); vertically integrated hardware + software |
-| **Figure** | $1.75B total (Tracxn, 2026) | Full humanoid robot, hardware sales model | General-purpose humanoid; hardware sales rather than RaaS; substantially more capital |
-
-**Why now:**
-- Global venture investment in robotics surpassed $6.2B in 2025, up ~20% from 2023 (Marion Street Capital, 2025).
-- Automotive OEMs (BMW, Mercedes, BYD, Toyota) began piloting humanoid robots on production lines in 2024–2025 (humanoidroboticstechnology.com, 2025).
-- [Inferred]: Advances in reinforcement learning for robot locomotion and manipulation (e.g., Joseph Humphreys' Nature Machine Intelligence publication on adaptive gait strategies, 2025) have brought semi-humanoid platforms closer to deployment readiness. The convergence of mature RL-based control with falling hardware costs creates a window for the RaaS model applied to humanoid-class robots.
+- **Traction signals:**
+  - Pricing page live with consumption rate of $10/hour (edenrobotics.ai, May 2026).
+  - One active job posting: Founding Communications Engineer, $65K–$120K, 0.25%–2.00% equity (YC jobs page, May 2026).
+  - Company LinkedIn page exists (linkedin.com/company/105689991); follower count not retrievable.
+  - Company X/Twitter handle @thefinalcompany (edenrobotics.ai); follower count not retrievable.
+  - No press coverage, Product Hunt launch, revenue figures, customer logos, or user counts found in public sources (WebSearch, May 2026).
+- **Competitors:**
+  - Figure AI (>$1B raised, $39B valuation Sept 2025, revenue unknown): general-purpose humanoid sold to enterprise pilots vs. Eden's hourly SMB RaaS (The Robot Report, 2025).
+  - Apptronik ($935M raised, $5.5B valuation Feb 2026, revenue unknown): Apollo robot deployed at Mercedes-Benz and GXO under RaaS (TechCrunch, Feb 2026); direct model overlap with Eden but at enterprise scale.
+  - Agility Robotics (~$400M raised in early 2025, revenue unknown): Digit deployed by Amazon, Toyota, Mercado Libre on RaaS contracts (Standard Bots, 2026); RoboFab targeting 10,000 units/year.
+  - 1X, UBTECH, Sanctuary AI and Tesla Optimus are adjacent humanoid competitors (Built In, 2026); the direct semi-humanoid RaaS-for-SMB set is small because most humanoid startups are pursuing enterprise capex or consumer markets (Robozaps, 2026).
+- **Why now:** Humanoid robotics VC funding rose from $1.5B in 2024 to $6.1B in 2025 across 139 deals (+300% YoY) (PitchBook, Feb 2026), and Q1 2026 added $2.37B across 11 rounds (+288% YoY) (Crunchbase News, 2026) — indicating capital and component-cost availability for new humanoid entrants in the past 12 months.
 
 ## Founders & Team
 
-**Stamatios Floratos** — Co-founder
-- Bootstrapped a 7-figure B2B adtech company at age 13 (YC company page).
-- No additional education or work history found in public sources.
-- Twitter/X: @StamatisTWIY — 198 followers (search snippet, Apr 2026).
-- LinkedIn: Not found via search (no direct profile match confirmed).
-- GitHub: No public repos found (floratos-lab on GitHub belongs to a different person).
-
-**Joseph Humphreys** — Co-founder & CTO (LinkedIn)
-- PhD candidate, School of Mechanical Engineering, University of Leeds (University of Leeds profile).
-- M.S. Mechatronics and Robotics, University of Leeds, 2022 (University of Leeds profile).
-- B.E. Mechanical Engineering, Coventry University, 2020 (University of Leeds profile).
-- First author, "Learning to Adapt through Bio-Inspired Gait Strategies for Versatile Quadruped Locomotion," Nature Machine Intelligence, 2025 (Nature, TechXplore, July 2025).
-- Created DRACO, a unified robotics simulator integrating MuJoCo, Drake, and ROS 2 (search snippet).
-- Prior experience with rocket engines (YC company page).
-- Twitter/X: No public account found.
-- LinkedIn: uk.linkedin.com/in/joseph-humphreys-1163b8150 — headline: CTO and Co-founder at Eden (LinkedIn search snippet).
-- GitHub: No confirmed personal GitHub account found.
-- Google Scholar: scholar.google.com/citations?user=HA9vTCQAAAAJ (Google Scholar).
-
-**Co-founder relationship:** No shared prior employer or university identified between the founders from available data. Stamatios's background is in adtech entrepreneurship; Joseph's is in academic robotics at UK universities.
-
-**Founder-market fit:** Joseph Humphreys brings deep robotics research credentials — a PhD focused on legged robot control, a first-author Nature Machine Intelligence publication, and experience across multiple robot morphologies including work with rocket engines (YC company page). Stamatios Floratos brings early entrepreneurial experience, having built a 7-figure B2B business as a teenager (YC company page). [Inferred]: The pairing covers technical depth (robotics PhD) and commercial instinct (prior revenue-generating business), though neither founder has documented experience in manufacturing/logistics operations or enterprise sales.
+- **Stamatis Floratos (Co-founder & CEO):**
+  - Background: Hellenic American Education Foundation (academic scholarship), London School of Economics (edenrobotics.ai/stamatis-floratos); built a B2B advertising platform from age 13 reaching seven-figure revenue with Netflix, ByteDance, Amazon as clients by age 16; later founded a mobile app studio to six-figure ARR before exiting (edenrobotics.ai founder bio).
+  - Twitter/X: @StamatisTWIY (YC company page); follower count not retrievable.
+  - LinkedIn: "CEO & Co-founder Eden (YC P26)" (linkedin.com/in/stamatis-floratos-535b19244).
+  - GitHub: No public account found.
+- **Joseph Humphreys (Co-founder):**
+  - Background: PhD in Dynamic Motion Generation of Multi-link Robots, University of Leeds 2022–2025 (University of Leeds School of Mechanical Engineering PGR page); Nature publication and prior rocket engine work cited on YC page; co-authored "High Utility Teleoperation Framework for Legged Manipulators" (ResearchGate, 2023).
+  - Twitter/X: No public account found.
+  - LinkedIn: profile at linkedin.com/in/joseph-humphreys-1163b8150; headline not retrievable.
+  - GitHub: No public account found.
+- **Co-founder relationship:** No public data on co-founder history; education and prior-employer overlap not found between LSE/adtech (Floratos) and Leeds/robotics academia (Humphreys).
+- **Founder-market fit:** Humphreys provides robotics PhD-level technical depth in legged-robot motion generation directly relevant to semi-humanoid hardware (University of Leeds, 2025); Floratos provides prior bootstrapped commercial scaling experience from teenage B2B adtech (edenrobotics.ai founder bio); no public advisors, board members, or named investors beyond Y Combinator found.
 
 ## Key Risks
 
-**Name confusion with existing "Eden Robotics" entity:** A separate company called "Eden Robotics" (edenrobotic.com) manufactures humanoid android robots, led by CEO Roberto Cardenas, and has existing LinkedIn/Facebook pages (LinkedIn search results). This creates brand confusion in search results and could complicate trademark positioning.
-
-**Hardware + service model capital intensity:** Building proprietary semi-humanoid robots and deploying them as a fleet under RaaS requires significant upfront capital for manufacturing, maintenance, and field operations. Formic raised $59M+ and RobCo $100M+ to scale similar fleet models with simpler robot hardware (BusinessWire, June 2024; BusinessWire, Jan 2026). Eden's 4-person team and pre-seed capital may face scaling constraints.
-
-**Unproven autonomous capability in production environments:** Semi-humanoid robots operating autonomously in manufacturing/logistics settings represents a technical frontier. No public deployment data, uptime metrics, or customer testimonials were found. Competitors like Formic have demonstrated 99%+ uptime across 100,000+ production hours (Formic press release, June 2024).
-
-**Competitive density in RaaS and humanoid segments:** The RaaS space includes well-funded players (Formic, GrayMatter, RobCo), while the humanoid segment has attracted billions in capital (Figure alone at $1.75B). A convergence — humanoid companies adopting RaaS models — would directly challenge Eden's positioning.
+- **Capital scale mismatch:** Direct competitors Figure AI, Apptronik, and Agility have raised >$1.9B combined in 2025–early 2026 (TechCrunch Feb 2026; The Robot Report 2025); humanoid robotics is a capex-heavy category and a YC-batch entrant must compete on cost-per-deployment-hour against firms with order-of-magnitude more BOM and manufacturing capital.
+- **Technical feasibility at $10/hour unit economics:** No public data found on Eden-1 build cost, MTBF, or duty-cycle; humanoid platforms across the sector are still in "pilot and small-scale production with reliability validation ongoing" per 2026 industry assessments (Robotics and Automation News, Feb 2026), making a $10/hour profitable rate unverified.
+- **No disclosed customers or pilots:** Public sources surface no named customers, LOIs, or pilot deployments as of May 2026, while Apptronik (Mercedes, GXO), Agility (Amazon, Toyota), and Figure (BMW) have publicized pilot logos (Standard Bots, 2026).
+- **Hardware supply and manufacturing risk:** [Inferred]: A 4-person team in San Francisco operating Eden Robotics Ltd has not disclosed a contract manufacturer or production facility (edenrobotics.ai); humanoid scaling typically requires dedicated factories such as Agility's RoboFab targeting 10,000 units/year (Standard Bots, 2026).
+- **Name disambiguation risk:** "Eden Robotics" is also referenced via edenrobotinnovation.com and there is a separate Crunchbase profile (crunchbase.com/organization/eden-robotics-d0ec versus eden-robotics); some search snippets conflated Floratos' adtech background with Humphreys' bio (WebSearch, May 2026), so third-party records should be cross-checked.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Global RaaS: ~$34B in 2025, ~$132B by 2032 at 21.4% CAGR (Coherent Market Insights, 2025). Humanoid robots: $2.92B in 2025, $15.26B by 2030 at 39.2% CAGR (MarketsandMarkets, 2025). |
+| TAM | Humanoid robot market $8.32B in 2026, growing from $5.44B in 2025 at 52.9% CAGR (MarketsandMarkets, 2026); $5T by 2050 (Morgan Stanley, 2024) |
 | SAM | No public data found |
-| Traction | No public data found |
-| Revenue Signal | No public data found |
-| Founders | Stamatios Floratos (Co-founder): bootstrapped 7-figure B2B adtech company at 13 (YC page). Joseph Humphreys (Co-founder & CTO): PhD candidate at U. of Leeds, first-author Nature Machine Intelligence publication (Nature, 2025). |
-| Competitors | Formic ($59M+ raised, $20M+ TCV, RaaS with third-party arms). GrayMatter Robotics ($70M raised, revenue unknown, AI-powered RaaS for surface finishing). RobCo ($100M Series C, revenue unknown, Physical AI platform with BMW as customer). Figure ($1.75B raised, revenue unknown, general-purpose humanoid hardware sales). |
-| Moat Signals | No public data found |
-| Risk Factors | Name confusion with separate "Eden Robotics" entity, capital intensity of hardware+fleet model, unproven autonomous deployment capability |
-| Founder Reach | Stamatios Floratos: Twitter/X 198 followers (search snippet, Apr 2026). Joseph Humphreys: Google Scholar profile (scholar.google.com). No other public social data found. |
-| Distribution Signals | No public data found |
+| Traction | Pricing live at $10/hr, $200 deposit (edenrobotics.ai, May 2026); 1 open job — Founding Communications Engineer (YC jobs page, May 2026); no disclosed users, revenue, or customers |
+| Revenue Signal | $10/hour usage rate, $0 setup fee, $200 deposit, enterprise fleet tier available (edenrobotics.ai pricing page, May 2026) |
+| Founders | Stamatis Floratos (CEO): LSE; bootstrapped B2B adtech to 7-figure revenue at 16; sold a mobile app studio. Joseph Humphreys (Co-founder): PhD Robotics, University of Leeds 2022–2025; Nature publication; legged-robot teleoperation research |
+| Competitors | Figure AI ($1B+ raised, $39B valuation Sept 2025, revenue unknown; enterprise pilots, not RaaS-SMB); Apptronik ($935M raised, $5.5B valuation Feb 2026, revenue unknown; Mercedes & GXO RaaS pilots); Agility Robotics (~$400M raised 2025, revenue unknown; Amazon/Toyota RaaS); 1X, UBTECH, Sanctuary AI, Tesla Optimus (adjacent humanoid platforms) |
+| Moat Signals | Co-founder PhD in multi-link robot dynamic motion (University of Leeds, 2025); Nature publication; proprietary "Theta OS" referenced on website |
+| Risk Factors | Capital scale mismatch vs. funded incumbents, unverified unit economics at $10/hr, no disclosed customers |
+| Founder Reach | Stamatis Floratos: Twitter @StamatisTWIY (count not retrievable), LinkedIn profile present, GitHub not found. Joseph Humphreys: Twitter not found, LinkedIn profile present, GitHub not found |
+| Distribution Signals | Company LinkedIn page (linkedin.com/company/105689991, count not retrievable); X handle @thefinalcompany (count not retrievable); 1 YC-listed job (May 2026); no Product Hunt launch found |
 | Emails | No public data found |
+
+Sources:
+- [Eden Robotics — YC company page](https://www.ycombinator.com/companies/eden-robotics)
+- [Eden Robotics website](https://www.edenrobotics.ai)
+- [Stamatis Floratos founder bio](https://edenrobotics.ai/stamatis-floratos)
+- [Stamatis Floratos LinkedIn](https://uk.linkedin.com/in/stamatis-floratos-535b19244)
+- [Joseph Humphreys — University of Leeds PGR page](https://eps.leeds.ac.uk/mechanical-engineering/pgr/10726/joseph-humphreys)
+- [Joseph Humphreys LinkedIn](https://uk.linkedin.com/in/joseph-humphreys-1163b8150)
+- [Apptronik $520M Series A extension — TechCrunch](https://techcrunch.com/2026/02/11/humanoid-robot-startup-apptronik-has-now-raised-935m-at-a-5b-valuation/)
+- [Apptronik funding analysis — PitchBook](https://pitchbook.com/news/articles/apptronik-raises-520m-as-vc-funding-for-humanoid-robotics-explodes-300)
+- [Figure AI $1B Series C — The Robot Report](https://www.therobotreport.com/figure-ai-raises-1b-in-series-c-funding-toward-humanoid-robot-development/)
+- [Top humanoid robotics companies — Standard Bots](https://standardbots.com/blog/humanoid-robotics-companies)
+- [Humanoid Robot Market — MarketsandMarkets](https://www.marketsandmarkets.com/Market-Reports/humanoid-robot-market-99567653.html)
+- [Humanoid Robot Market $5T by 2050 — Morgan Stanley](https://www.morganstanley.com/insights/articles/humanoid-robot-market-5-trillion-by-2050)
+- [State of humanoid robotics 2026 — Robotics and Automation News](https://roboticsandautomationnews.com/2026/02/07/the-state-of-humanoid-robotics-from-research-labs-to-real-world-potential/98732/)
+- [Humanoid robot funding 2025 — Crunchbase News](https://news.crunchbase.com/venture/ai-humanoid-robot-funding-apptronik/)

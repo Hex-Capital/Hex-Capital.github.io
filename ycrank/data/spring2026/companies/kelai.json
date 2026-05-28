@@ -1,0 +1,48 @@
+{
+  "slug": "kelai",
+  "name": "KelAI",
+  "oneLiner": "Intelligence platform for systematic market insights",
+  "metadata": {
+    "website": "https://kelaitech.com/",
+    "yc_page": "https://www.ycombinator.com/companies/kelai",
+    "batch": "Spring 2026",
+    "industry": "Fintech / Fintech",
+    "team_size": "3",
+    "location": "New York, NY, USA",
+    "tags": "Generative AI, Swarm AI, Finance, Market Research, Investments",
+    "yc_partner": "Harj Taggar",
+    "emails": "contact@kelaicapital.com (YC page)"
+  },
+  "tags": [
+    "Generative AI",
+    "Swarm AI",
+    "Finance",
+    "Market Research",
+    "Investments"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-28T02:57:23.308Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 52,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 52,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
+  },
+  "consolidatedAvg": 52,
+  "consolidatedRank": 42,
+  "paths": {
+    "memo": "spring2026/memos/kelai.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/kelai.md"
+    }
+  }
+}

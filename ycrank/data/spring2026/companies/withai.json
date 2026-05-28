@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://withai.co",
     "yc_page": "https://www.ycombinator.com/companies/withai",
-    "batch": "Spring 2026",
+    "batch": "Spring 2026 (YC company page)",
     "industry": "B2B / B2B",
     "team_size": "3",
     "location": "New York, NY, USA",
     "tags": "Artificial Intelligence, Team Collaboration, Investing",
     "yc_partner": "David Lieb (YC company page)",
-    "emails": "ian@withai.co (YC page)"
+    "emails": "ian@withai.co (YC company page)"
   },
   "tags": [
     "Artificial Intelligence",
@@ -19,58 +19,28 @@
     "Investing"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-05-15T05:42:34.945Z",
+  "memoGeneratedAt": "2026-05-28T03:03:56.848Z",
   "evalScores": {
     "cyan-banister": {
       "score": 49,
       "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 61,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 32,
-      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 49,
-    "EG": 45,
-    "NR": 42,
-    "PG": 61,
-    "PT": 43,
-    "SL": 35,
-    "VK": 32
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 43.86,
-  "consolidatedRank": 51,
+  "consolidatedAvg": 49,
+  "consolidatedRank": 58,
   "paths": {
     "memo": "spring2026/memos/withai.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/withai.md",
-      "elad-gil": "spring2026/evals/elad-gil/withai.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/withai.md",
-      "paul-graham": "spring2026/evals/paul-graham/withai.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/withai.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/withai.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/withai.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/withai.md"
     }
   }
 }

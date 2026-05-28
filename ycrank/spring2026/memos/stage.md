@@ -1,6 +1,6 @@
 ﻿# Stage
 
-> Code review platform for today's engineers
+> Code review platform for AI generated code
 
 | Field | Value |
 |-------|-------|
@@ -9,114 +9,94 @@
 | Batch | Spring 2026 |
 | Industry | B2B / B2B -> Engineering, Product and Design |
 | Team Size | 2 |
-| Location | Not listed |
+| Location | San Francisco, CA, USA |
 | Tags | Developer Tools, SaaS |
 | YC Partner | Pete Koomen |
 | Emails | No public data found |
 
 ## The Idea
 
-**Problem:** Engineering teams shipping AI-generated code are merging changes that "neither they nor their reviewers fully understand," leading to production bugs and cognitive debt (YC company page). Traditional code review tools present unorganized diffs that force reviewers to mentally reconstruct the logic of changes. The customer segment is software engineering teams at companies using AI coding assistants (Copilot, Cursor, Claude Code), where the volume and opacity of code changes has increased. Current tools include GitHub's built-in PR review, GitLab merge requests, and third-party AI reviewers like CodeRabbit and Graphite.
-
-**Approach:** Stage breaks code changes into "structured chapters" rather than presenting raw diffs (YC company page). This organizes a pull request into a narrative sequence so reviewers can understand changes in a logical order rather than file-by-file. The website was not accessible for detailed feature extraction at time of research (JS-rendered SPA returned minimal content).
-
-**Differentiation:** Existing code review tools fall into two categories: (1) traditional diff viewers (GitHub, GitLab) that show file-level changes without narrative structure, and (2) AI-powered reviewers (CodeRabbit, Greptile, Qodo) that auto-generate comments on diffs but still present changes in unstructured form. Stage's "chapters" approach targets the comprehension layer — organizing *how* humans read changes — rather than adding AI commentary on top of existing diff formats. [Inferred]: This positions Stage as complementary to AI reviewers rather than directly competing with them, though AI reviewers may add similar structuring features over time.
-
-**Business Model:** No pricing page was accessible at time of research. [Inferred]: Most likely monetization path is per-seat SaaS subscription (standard for developer tools in this category), potentially with a free tier for small teams/open-source and paid tiers for team features, given the B2B SaaS tags and competitive landscape norms.
-
-**TAM/SAM:**
-- Global code review tools market: $1.61B in 2025, projected to $2.46B by 2034 at 6.3% CAGR (IntelMarketResearch, 2026 via search snippet).
-- AI code review tools subset: projected $750M in 2025, 9.2% CAGR to 2033 (Virtue Market Research via search snippet).
-- Broader estimates range up to $4.0B–$14.0B when including licenses, cloud subscriptions, and professional services (Research and Markets via search snippet).
-- [Inferred]: SAM for a tool targeting mid-market and enterprise teams using AI coding assistants is a subset of the broader code review market, likely in the hundreds of millions, but no specific SAM estimate exists for "structured code review" as a category.
-
-**GTM / Distribution:** [Inferred]: Most likely distribution path is bottom-up developer adoption via GitHub/GitLab integrations, given the 2-person team size and developer tool category. YC network provides initial distribution to batch-mates and YC alumni companies. No evidence of enterprise sales motion or channel partnerships at this stage.
+- **Problem:** Engineering teams using coding agents are accumulating large PR backlogs that humans must review, with reviewers struggling to parse unorganized AI-generated diffs (YC company page; Show HN post, news.ycombinator.com/item?id=47796818).
+- **Approach:** Stage uses AI to break each PR into ordered "chapters" of logically grouped changes that reviewers step through sequentially, claiming ~5x faster review than GitHub (YC page; stagereview.app).
+- **Differentiation:** vs. CodeRabbit/Greptile/cubic — those auto-comment as AI reviewers, while Stage restructures the diff for human reviewers ("Putting humans back in control of code review," Show HN title, HN, Oct 2025); vs. Graphite — Graphite focuses on stacked PRs, Stage on diff comprehension (TechCrunch on Cursor/Graphite, Dec 2025).
+- **Business Model:** SaaS with 14-day free trial and "LAUNCH" promo code for 25% off for 3 months (YC page); explicit tier pricing not retrievable (sign-in gated pricing page, stagereview.app/pricing).
+- **TAM/SAM:** No public TAM/SAM data found for this specific segment.
+- **GTM / Distribution:** Open-source CLI (`ReviewStage/stage-cli`, 204 stars, GitHub) + Show HN launch (HN id 47796818) + YC network distribution ("YC Startup's Painful Code Review Experience..." LinkedIn post from a YC batchmate, Sep 2025).
 
 ## Defensibility
 
-No defensibility signals found in public sources at this stage.
-
-- [Inferred]: Potential moat could develop via (1) workflow lock-in if teams build review processes around the "chapters" paradigm, creating switching costs; (2) data advantage from learning how teams structure and review code, enabling better auto-organization over time. Neither is proven at this stage.
-
-**Market structure:** GitHub (Microsoft) dominates code review as the default PR interface. [Inferred]: GitHub's structural constraint is that reorganizing the diff view into "chapters" would break backwards compatibility with established workflows for 100M+ developers and could disrupt their extension ecosystem. However, GitHub has historically added features incrementally (e.g., suggested changes, code owners), and a "chapters" view could be added as an optional mode without cannibalization — meaning the structural barrier is weak. GitLab and Atlassian (Bitbucket) face similar low barriers to adding structured diff views.
-
-**Commoditization risk:** AI code review is a crowded and rapidly consolidating space. CodeRabbit, Greptile, Qodo, and Anthropic's Claude Code Review all shipped structured review features in 2025–2026. The "chapters" concept is a UX innovation rather than a deep technical moat, making it reproducible by any competitor with front-end engineering resources. The key differentiator would need to be execution quality and user experience rather than the concept itself.
+- **Moat today:** No defensibility signals found in public sources beyond a 204-star open-source CLI (GitHub, ReviewStage/stage-cli) and YC association.
+- **Future moat:** [Inferred]: Repository-level review-pattern data and reviewer-feedback loops could train chapter-segmentation models; unproven because the product is weeks old at the Show HN launch (HN, Oct 2025) and no usage data is public.
+- **Market structure:** [Inferred]: No structural barrier identified at this stage — GitHub, CodeRabbit ($60M Series B, $550M val, TechCrunch Sep 2025), and Cursor (acquired Graphite Dec 2025, TechCrunch) can ship overlapping PR-chunking UX without channel conflict.
+- **Commoditization risk:** GitHub, GitLab, Cursor/Graphite, CodeRabbit, Greptile and cubic all have the engineering capability to add AI-organized diff views (TechCrunch, SiliconANGLE, 2025).
 
 ## Market & Traction
 
-**Traction signals:**
-- No public revenue, user counts, or growth metrics found.
-- No Product Hunt launch found for Stage (stagereview.app). A different product named "Stage" (wireframe tool) exists on Product Hunt.
-- No press coverage in named publications found.
-- No app store listings, Chrome extension installs, or web traffic estimates found.
-- Company Twitter/X account: not found. Company LinkedIn: listed on YC page but follower count not retrievable.
-- Job postings: 0 active listings (YC company page).
-- Website not fully accessible at time of research (JS-rendered SPA).
-
-**Competitive landscape:**
-
-| Competitor | Funding | Revenue/ARR | Key Differentiator vs. Stage |
-|-----------|---------|-------------|------------------------------|
-| **CodeRabbit** | $88M total ($60M Series B, Sep 2025) at $550M valuation (TechCrunch, Sep 2025) | $15M ARR, 8,000+ paying customers (GetLatka, 2025) | AI-generated PR comments with auto-fix suggestions; broad adoption at scale |
-| **Graphite** | $81M total, acquired by Cursor Dec 2025 at $290M valuation (Fortune, Dec 2025) | Revenue not disclosed; 500+ companies, 20x growth in 2024 (TechCrunch, Mar 2025) | Stacking workflow (dependent PRs) plus AI review; now integrated into Cursor |
-| **Greptile** | ~$45.5M total ($25M Series A, Sep 2025) at $180M valuation (TechCrunch, Jul 2025) | Revenue not disclosed | Codebase-aware AI review — indexes full repo for deeper context |
-| **Qodo** (fka CodiumAI) | $120M total ($70M Series B, Mar 2026) (SiliconANGLE, Mar 2026) | $1M+ ARR within 3 months of enterprise launch in 2024 (PRNewswire, Sep 2024) | Multi-agent review architecture combined with AI test generation |
-
-**Why now:**
-- AI coding assistants (GitHub Copilot, Cursor, Claude Code) reached mass adoption in 2024–2025, increasing the volume and complexity of code changes per PR (Panto blog, 2026 via search snippet).
-- Anthropic launched Claude Code Review as a dedicated multi-agent PR reviewer in March 2026 (search snippet), validating "AI-era code review" as a category.
-- Cursor's acquisition of Graphite in December 2025 for $290M (Fortune, Dec 2025) signals that code review is a strategic acquisition target for AI coding platforms.
-- [Inferred]: The catalyst is specifically that AI-generated code creates a comprehension gap — reviewers cannot rely on author intent when code is machine-generated, making structured presentation of changes more valuable than in a purely human-authored codebase.
+- **Traction signals:**
+  - GitHub: `ReviewStage/stage-cli` — 204 stars, 13 forks, MIT, TypeScript 97% (GitHub, retrieved May 2026).
+  - Show HN post live (news.ycombinator.com/item?id=47796818, Oct 2025); points/comments not retrievable (HN page returned 429).
+  - LinkedIn company page exists at linkedin.com/company/stagereview (YC page); follower count not retrievable.
+  - X/Twitter: @StageReviewApp (YC page); follower count not retrievable (WebFetch 402).
+  - Y Combinator LinkedIn post promoting "Stage (YC P26)" (linkedin.com/posts/y-combinator..._activity-7462864738247532545, 2026).
+  - Featured in third-party LinkedIn post by YC batchmate Paul Sanglé-Ferrière (cubic) referencing Stage (LinkedIn, activity-7415078326396010496).
+  - No public revenue, paying-customer, or signed-LOI data found.
+- **Competitors:**
+  - CodeRabbit ($96M+ total raised incl. $60M Series B at $550M val, $15M+ ARR, growing ~20%/mo — TechCrunch, Sep 2025): AI auto-reviewer commenting on PRs; differs from Stage's human-reviewer-first chapter UX.
+  - Greptile ($25M Series A led by Benchmark — SiliconANGLE, Sep 2025): AI code reviewer agent on GitHub; differs from Stage's diff-restructuring focus.
+  - Graphite ($52M total raised; acquired by Cursor Dec 2025 — TechCrunch): stacked PRs + AI review; differs by workflow scope (branching model vs. diff organization).
+  - cubic (YC X25, $500K raised — startupintros.com): AI code review agents commenting on PRs; closest YC peer, differs by being AI-reviewer-led rather than human-reviewer-led.
+  - GitHub native PR review (incumbent, owned by Microsoft): default tool Stage explicitly benchmarks against ("5x faster than GitHub," YC page).
+- **Why now:** [Inferred]: Adoption of coding agents (Cursor, Claude Code, Devin) in 2024–2025 has shifted the bottleneck from code generation to code review, validated by CodeRabbit's 20%/month growth and Cursor's Graphite acquisition (TechCrunch, Sep/Dec 2025).
 
 ## Founders & Team
 
-**Charles Pan** — Co-founder & CEO
-- B.S. Computer Science, Stanford University, Class of 2022 (Stanford Athletics roster).
-- Varsity Fencing (Saber) at Stanford; MPSF team champion 2022, MPSF All-Academic (Stanford Athletics).
-- Previously: developer at Five Rings; early engineer at Yuzu Health (YC company page).
-- Yuzu Health is a next-generation health insurance company backed by top VCs and 10+ unicorn founders (yuzu.health via search snippet).
-- Author at The Stanford Daily (Stanford Daily).
-- From Livingston, New Jersey; attended Newark Academy (Stanford Athletics).
-- Twitter/X: @ceefryingpan (YC company page); follower count not retrievable.
-- LinkedIn: linkedin.com/in/charlespan/ — currently shows "Revel Street" (LinkedIn via search snippet); may not yet be updated to reflect Stage.
-- GitHub: No public repos found under this name.
-
-**Dean Stratakos** — Co-founder & CTO
-- M.S. Computer Science (AI) and B.S. Computer Science (Systems), Stanford University (personal website, dastratakos.github.io).
-- Stanford varsity tennis, Division I (Stanford Athletics; Q&A profile, Sep 2020).
-- Previously: Software Developer at Five Rings (Aug 2023–present per personal site) — led company-wide AI initiative, built internal coding agent, designed high-performance trading systems in C++ and Python (personal website).
-- Internships: Apple (3x — Siri Intelligence, Advanced Computation Group/LiDAR, Platform Triage/ML), Citadel (TCP recovery for trading), Quadric (CNN backend in C++) (personal website).
-- Technical skills: Python, C++, TypeScript, Go, Swift, React, Next.js, AWS/Azure/GCP, PyTorch, TensorFlow (personal website).
-- Twitter/X: No public account found.
-- LinkedIn: linkedin.com/in/dean-stratakos-8b338b149/ (LinkedIn via search).
-- GitHub: github.com/dastratakos — 22 followers; repos include Face-Mask-Detection, Photo-Sharing-Web-Application, Optimized-Task-Scheduling (GitHub). No repos with 100+ stars found.
-
-**Co-founder relationship:** Both Charles Pan and Dean Stratakos attended Stanford (Pan BS CS '22; Stratakos BS/MS CS, with varsity athletics overlapping years). Both worked at Five Rings — Pan as a developer and Stratakos as a software developer starting August 2023 (YC company page; personal website). Shared employer and shared university confirm prior professional acquaintance.
-
-**Founder-market fit:** Both founders have direct experience as software engineers at a quantitative trading firm (Five Rings) where code quality and review speed are critical in fast-moving codebases. Stratakos's experience building an in-house coding agent at Five Rings and leading AI initiatives provides direct domain expertise in the AI-generated code review problem. Pan's experience as an early engineer at a startup (Yuzu Health) provides exposure to fast-shipping team dynamics. No advisors, board members, or notable investors beyond YC found.
+- **Charles Pan (Co-founder, CEO):**
+  - Background: Stanford BS Computer Science 2022 (Stanford Daily, gostanford.com fencing roster 2021–22); early engineer at Yuzu Health (YC W22 health-insurance TPA, yuzu.health); developer at Five Rings Capital (quant trading firm); cites fragmentation observed at both large firm and startup as Stage's origin (WebSearch synthesis of YC/LinkedIn sources).
+  - Twitter/X: No public account found tied to Stage co-founder.
+  - LinkedIn: No public profile found (multiple homonyms returned; correct profile not disambiguated).
+  - GitHub: No public repos found under verified handle.
+- **Dean Stratakos (Co-founder, CTO):**
+  - Background: Stanford MS CS (AI) and BS CS (Systems), Division I tennis (gostanford.com mens-tennis roster 2018–19); Software Developer at Five Rings since Aug 2023, led firm-wide AI initiative and built in-house coding agent (dastratakos.github.io); prior internships at Apple (Siri personalization, LiDAR) and Citadel (TCP recovery for trading platforms) (dastratakos.github.io).
+  - Twitter/X: No public account found.
+  - LinkedIn: "Five Rings" (linkedin.com/in/dean-stratakos-8b338b149).
+  - GitHub: @dastratakos; notable repo `ReviewStage/stage-cli` (org) — 204 stars (GitHub).
+- **Co-founder relationship:** Both Charles Pan and Dean Stratakos attended Stanford and both worked at Five Rings Capital (gostanford.com; dastratakos.github.io; WebSearch).
+- **Founder-market fit:** Stratakos built an internal coding agent and led AI work at Five Rings, giving direct exposure to AI-generated-code review pain (dastratakos.github.io); Pan describes encountering review fragmentation at both a large firm and a startup (Yuzu Health) (WebSearch synthesis).
 
 ## Key Risks
 
-**Name collision:** "Stage" is a common English word shared with multiple existing products on Product Hunt (a wireframe tool called "Stage"), general software terminology (staging environments), and other companies. This creates SEO/discoverability challenges and potential brand confusion that could impede organic acquisition.
-
-**Heavily funded competitive field:** The four leading AI code review startups (CodeRabbit, Graphite/Cursor, Greptile, Qodo) have raised a combined $334.5M+ and have shipped structured review features. CodeRabbit alone has $15M ARR and 8,000+ paying customers (GetLatka, 2025; TechCrunch, Sep 2025). Stage enters with a 2-person team against well-capitalized incumbents who are actively expanding feature sets.
-
-**Platform dependency:** Stage's value proposition requires integration with GitHub, GitLab, or similar SCM platforms. Any of these platforms could add native "structured diff" or "chapter" views, directly commoditizing Stage's core feature. GitHub in particular has been expanding its AI-native code review capabilities.
-
-**UX-layer vulnerability:** The "chapters" concept is a presentation-layer innovation rather than a deep technical or data moat. Competitors with existing user bases could replicate the UX pattern with relatively low engineering effort, reducing Stage's differentiation window.
+- **Direct competition from better-funded incumbents:** CodeRabbit ($60M Series B, $550M val, $15M+ ARR, TechCrunch Sep 2025), Greptile ($25M Series A, Benchmark, SiliconANGLE Sep 2025), and Cursor (post-Graphite acquisition, TechCrunch Dec 2025) all target the AI-code-review wedge with materially larger capital and existing distribution; no mitigation publicly documented.
+- **Platform dependency on GitHub:** Stage is positioned against GitHub PR review UX ("5x faster than GitHub," YC page); GitHub Copilot's expanding PR review features (Microsoft, 2024–2025) create direct substitution risk.
+- **Category framing risk vs. AI-reviewer narrative:** Show HN positioning "Putting humans back in control of code review" (HN, Oct 2025) bets on human-reviewer UX while customers and investors are funding AI-auto-reviewer products (CodeRabbit, Greptile, cubic); if buyers consolidate around auto-review, Stage's wedge narrows.
+- **Name disambiguation / SEO risk:** "Stage" is a generic term producing significant noise in search (Yamaha YC88 Stage Piano, etc.), and multiple "Charles Pan" Stanford profiles exist (Stanford Daily, fencing roster, LinkedIn homonyms), which complicates inbound discovery and founder identification.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $1.61B in 2025, projected $2.46B by 2034 at 6.3% CAGR (IntelMarketResearch, 2026 via search snippet) |
+| TAM | No public data found |
 | SAM | No public data found |
-| Traction | No public data found |
-| Revenue Signal | No public data found |
-| Founders | Charles Pan (CEO): Stanford CS '22, Five Rings, Yuzu Health. Dean Stratakos (CTO): Stanford MS/BS CS, Five Rings AI lead, 3x Apple intern. |
-| Competitors | CodeRabbit ($88M raised, $15M ARR, AI PR comments), Graphite ($81M raised, acquired by Cursor at $290M, stacking + AI review), Greptile ($45.5M raised, revenue unknown, codebase-aware AI review), Qodo ($120M raised, $1M+ ARR, multi-agent review + test gen) |
+| Traction | GitHub stage-cli 204 stars / 13 forks (GitHub, May 2026); Show HN post live (news.ycombinator.com/item?id=47796818, Oct 2025); YC LinkedIn promo post (LinkedIn activity-7462864738247532545, 2026) |
+| Revenue Signal | 14-day free trial; "LAUNCH" promo code = 25% off for 3 months (YC company page, 2026); tier pricing gated behind sign-in (stagereview.app/pricing) |
+| Founders | Charles Pan (CEO): Stanford CS 2022, ex-Yuzu Health early engineer, ex-Five Rings dev. Dean Stratakos (CTO): Stanford BS+MS CS, D1 tennis, led AI initiative at Five Rings, ex-Apple/Citadel intern. |
+| Competitors | CodeRabbit ($96M+ raised, $15M+ ARR — AI auto-reviewer); Greptile ($25M Series A, revenue unknown — AI reviewer agent); Graphite ($52M, acquired by Cursor Dec 2025 — stacked PRs + AI); cubic (YC X25, $500K, revenue unknown — AI review agents); GitHub native (incumbent) |
 | Moat Signals | No public data found |
-| Risk Factors | Name collision/SEO risk, heavily funded competitive field, platform dependency on GitHub/GitLab |
-| Founder Reach | Charles Pan: Twitter @ceefryingpan (count not retrievable), LinkedIn charlespan. Dean Stratakos: Twitter not found, LinkedIn dean-stratakos, GitHub dastratakos (22 followers). |
-| Distribution Signals | No public data found |
+| Risk Factors | Direct competition from well-funded AI code-review incumbents, GitHub platform dependency, category framing vs. AI-auto-review trend |
+| Founder Reach | Charles Pan: Twitter not found, LinkedIn not disambiguated, GitHub not found. Dean Stratakos: Twitter not found, LinkedIn linkedin.com/in/dean-stratakos-8b338b149, GitHub @dastratakos (stage-cli 204 stars) |
+| Distribution Signals | Show HN launch (news.ycombinator.com/item?id=47796818, Oct 2025); open-source CLI 204 stars (GitHub); YC LinkedIn promotion (LinkedIn activity-7462864738247532545, 2026) |
 | Emails | No public data found |
+
+Sources:
+- [Stage YC company page](https://www.ycombinator.com/companies/stage)
+- [Stage website](https://www.stagereview.app/)
+- [Show HN: Stage](https://news.ycombinator.com/item?id=47796818)
+- [ReviewStage/stage-cli GitHub](https://github.com/ReviewStage/stage-cli)
+- [Dean Stratakos site](https://dastratakos.github.io/)
+- [Dean Stratakos LinkedIn](https://www.linkedin.com/in/dean-stratakos-8b338b149/)
+- [Dean Stratakos Stanford Tennis](https://gostanford.com/sports/mens-tennis/roster/player/dean-stratakos)
+- [Charles Pan Stanford Fencing](https://gostanford.com/sports/fencing/roster/player/charles-pan)
+- [CodeRabbit $60M (TechCrunch)](https://techcrunch.com/2025/09/16/coderabbit-raises-60m-valuing-the-2-year-old-ai-code-review-startup-at-550m/)
+- [Greptile $25M (SiliconANGLE)](https://siliconangle.com/2025/09/23/greptile-bags-25m-funding-take-coderabbit-graphite-ai-code-validation/)
+- [Cursor acquires Graphite](https://techcrunch.com/2025/12/19/cursor-continues-acquisition-spree-with-graphite-deal/)
+- [cubic YC X25](https://www.ycombinator.com/companies/cubic)
+- [YC LinkedIn promo for Stage](https://www.linkedin.com/posts/y-combinator_stage-yc-p26-is-a-code-review-platform-activity-7462864738247532545-2SM8)

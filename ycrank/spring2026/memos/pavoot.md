@@ -6,107 +6,94 @@
 |-------|-------|
 | Website | https://pavoot.com |
 | YC Page | https://www.ycombinator.com/companies/pavoot |
-| Batch | Spring 2026 (YC P26) |
+| Batch | Spring 2026 (P26) |
 | Industry | B2B / B2B -> Marketing |
-| Team Size | 0 (YC listing); 2 founders identified via LinkedIn |
-| Location | San Francisco Bay Area (Gohar Tamrazyan LinkedIn) |
-| Tags | B2B, Sales, Marketing, AI |
-| YC Partner | David Lieb (YC company page) |
-| Emails | hello@pavoot.com (pavoot.com) |
+| Team Size | 0 |
+| Location | San Francisco, CA, USA |
+| Tags | Artificial Intelligence, B2B, Sales, Marketing |
+| YC Partner | David Lieb |
+| Emails | hello@pavoot.com |
 
 ## The Idea
 
-**Problem:** Marketing and sales teams spend millions on events because relationships drive revenue, yet most interactions are never captured, event experiences remain generic, and standard follow-ups fail to convert high-potential attendees (YC company page).
-
-**Approach:** Pavoot is an AI agent that operates across the event lifecycle: pre-event it identifies attendee profiles likely to convert and sends personalized invitations; during the event it creates relevant introductions and captures conversations; post-event it identifies top leads, generates personalized follow-ups, and syncs engagement to CRM (YC company page). Website lists features: "Automated event execution (planning, inviting, follow-ups), Content capture and instant delivery, ROI tracking and engagement measurement, CRM sync" (pavoot.com).
-
-**Product pivot note:** Earlier-stage descriptions (Spring 2026 launch) framed Pavoot as an AI-assisted media hub — automatic tagging, logo detection, and people recognition to distribute photos/videos to speakers, partners, attendees in real time, demonstrated at START Summit (pavoot.com customer quote, growthlist.co snippet). The current YC page positioning emphasizes pipeline conversion (attendee sourcing → follow-ups → CRM). [Inferred]: Pavoot expanded scope from media distribution into full pre/during/post-event GTM workflow within the YC batch.
-
-**Differentiation:** Pavoot positions as full lifecycle AI agent vs. point tools. Vendelux focuses on pre-event intelligence (which events to attend, predicted attendees) (vendelux.com); Grip and Brella focus on in-event matchmaking/networking (grip.events, search snippet); Lensmor focuses on exhibitor intelligence (search snippet). [Inferred]: Pavoot differentiates by spanning sourcing, in-event capture, and CRM-synced post-event follow-up in one agent.
-
-**Business Model:** No public pricing page. Website CTA is "Book a demo" via cal.com/team/pavoot/quick-chat (pavoot.com). [Inferred]: Annual SaaS contracts sold to enterprise marketing/sales teams, likely seat- or event-based pricing, given B2B event marketing comparables and demo-led sales motion.
-
-**TAM/SAM:** No company-disclosed TAM. Vendelux operates across "200K+ global B2B events" as a reference point (search snippet). No public TAM/SAM data found for the AI-event-agent segment specifically.
-
-**GTM / Distribution:** Visible reference customer is START Global / START Summit (pavoot.com testimonial from Leo Braun, MD Marketing). YC P26 batch placement provides Demo Day distribution. [Inferred]: Direct enterprise sales to marketing/sales operations buyers, with conference/summit organizers as initial wedge given the START Summit deployment.
+- **Problem:** B2B marketing/sales teams spend millions on events, but interactions go uncaptured, experiences are generic, and standard follow-ups fail to convert high-potential attendees (YC company page, 2026).
+- **Approach:** AI agent that operates across the full event lifecycle — pre-event attendee sourcing and personalized invitations, on-site notetaker/voice capture and introductions, and post-event lead scoring with CRM sync (pavoot.com, 2026).
+- **Differentiation:** [Inferred]: Versus Goldcast/Bizzabo/Zuddl (virtual/hybrid event platforms with webinar production focus), Pavoot positions as an AI agent layer focused on in-person attendee intelligence + conversation capture + CRM-based pipeline attribution rather than streaming infrastructure (pavoot.com feature list, 2026).
+- **Business Model:** No public pricing — demo-gated via cal.com/team/pavoot/30min (pavoot.com, 2026); [Inferred]: per-event or seat-based SaaS for marketing/sales orgs.
+- **TAM/SAM:** No public TAM/SAM data found for this specific segment; adjacent context: Bizzabo reached $43.9M revenue at ~$800M valuation in 2024 (getlatka.com).
+- **GTM / Distribution:** [Inferred]: Direct outbound to B2B marketing/RevOps buyers; founder-led LinkedIn content (Gohar Tamrazyan and Ana Yoon Faria de Lima posting from-chess-to-startup and pre-YC update posts on LinkedIn, 2025-2026).
 
 ## Defensibility
 
-No defensibility signals (patents, network data, switching cost evidence) found in public sources. [Inferred]: Potential moat could develop via (a) accumulated training data from event interactions tagged across customers, (b) deep CRM integration switching costs (Salesforce/HubSpot sync), and (c) historical attendee graph effects across recurring events; all are unproven at this stage.
-
-**Market structure:** No structural barrier identified at this stage. [Inferred]: Salesforce, HubSpot, Cvent, Bizzabo each have distribution and product surface area to launch overlapping features; Pavoot's structural advantage if any is speed of agentic execution rather than channel or unit-economics protection.
-
-**Commoditization risk:** Underlying components (LLM-based personalization, CRM sync, photo recognition) are widely available via OpenAI/Anthropic APIs and existing CRM SDKs. [Inferred]: Other YC P26 teams or established event-tech vendors (Vendelux, Grip, Cvent) could replicate the core workflow within 6–12 months; defensibility depends on customer lock-in via integrations and proprietary attendee data.
+- **Moat today:** No defensibility signals found in public sources beyond a sample case study showing 47 attendees → 24 meetings → 11 qualified leads → $48K pipeline (pavoot.com, 2026).
+- **Future moat:** [Inferred]: Proprietary cross-event attendee graph + conversation dataset feeding personalization models could compound; unproven now given pre-launch stage and no disclosed customer count.
+- **Market structure:** [Inferred]: Incumbent webinar/event platforms (Goldcast, Bizzabo, Cvent) are anchored to streaming/registration infrastructure and per-event production revenue; an agent-layer that disintermediates follow-up could face channel conflict for them — but they could also acquire (Cvent acquired Goldcast Dec 2025 for ~$300M per prnewswire.com / search snippet).
+- **Commoditization risk:** Foundation-model APIs make the core capabilities (lookalike sourcing, transcription, follow-up generation) replicable by any well-resourced event platform or AI SDR vendor (factual, based on widely available LLM/ASR APIs).
 
 ## Market & Traction
 
-**Traction signals:**
-- Reference customer: START Global / START Summit, photo distribution executed live during the event (pavoot.com testimonial, Leo Braun, MD Marketing).
-- Company Twitter/X: @pavoot_com (YC page); follower count not retrievable.
-- Company LinkedIn: linkedin.com/company/pavoot/ (YC page); follower count not retrievable.
-- YC P26 batch acceptance, batch active 2026 (YC company page).
-- ETH AI Center listed Pavoot among affiliated startups (ai.ethz.ch search snippet).
-- No Product Hunt launch found.
-- No public revenue, ARR, paying customer count, or user count disclosed.
-- No press coverage in named tier-1 publications found.
-- No active job postings found on YC jobs page (hiring flag false in company data).
-
-**Competitive landscape:**
-- **Vendelux** — $16.4M raised total ($14M Series A led by FirstMark, Nov 2023; $2.4M seed Jan 2022) (AlleyWatch, Nov 2023; Crunchbase). Revenue $2.1M in 2024, up from $889.4K in 2023 (GetLatka). Differentiator: predictive event intelligence across 200K+ events for "which events to attend"; Pavoot focuses on lifecycle execution post-decision.
-- **Grip** — $14.5M raised total; latest $13M Series A led by Kennet Partners, Feb 2021 (TechCrunch, Feb 2021). Revenue/ARR not disclosed. Differentiator: in-event AI matchmaking/networking app for organizers; Pavoot extends pre- and post-event into CRM pipeline.
-- **Brella** — Funding/ARR not searched directly; positioned as conference networking with AI meeting scheduling (search snippet). Differentiator: networking-app for attendees; Pavoot positions to organizer/marketer buyer.
-- **Lensmor** — Funding/ARR not found; differentiator is exhibitor intelligence ("which companies exhibit") (search snippet); Pavoot focuses on attendee/lead conversion vs. exhibitor identification.
-- **Cvent / Bizzabo (adjacent incumbents)** — Established event management platforms with growing AI features; not direct startup competitors but distribution incumbents.
-
-**Why now:** [Inferred]: LLM agent capabilities crossed the threshold in 2024–2025 to autonomously handle multi-step workflows (drafting invitations, summarizing conversations, generating personalized follow-ups) at production quality, enabling end-to-end event automation. [Inferred]: Post-pandemic in-person event spend has rebounded with heightened ROI scrutiny from CFOs (eventmarketer.com 2026 perspectives, search snippet), creating buyer demand for measurable pipeline attribution from events.
+- **Traction signals:**
+  - YC Spring 2026 (P26) batch participation (ycombinator.com/companies/pavoot)
+  - Launch YC post live as of ~21 days before research (ycombinator.com/launches/QFK, 2026)
+  - Sample event metric on site: 47 attendees, 24 meetings, 11 qualified leads, $48K pipeline (pavoot.com, 2026) — source unspecified as customer vs. internal
+  - Founder LinkedIn engagement: Gohar Tamrazyan "From chess champion to co-founding a startup" post (linkedin.com activity 7427832240333684737, 2025)
+  - Ana Yoon Faria de Lima post "what pavoot YC P26 was doing before YC" (linkedin.com activity 7455296634260717568, 2026)
+  - No public Twitter/X, Discord, Slack, or web-traffic data found
+  - No active YC job postings found
+- **Competitors:**
+  - Goldcast ($42M raised, ~$10M+ ARR; acquired by Cvent Dec 2025 for ~$300M, prnewswire.com / getlatka.com): B2B webinar/video-first event platform with content repurposing — broader stack than Pavoot's agent-layer pitch.
+  - Bizzabo ($226M raised per Tracxn, $43.9M revenue 2024 per getlatka.com): enterprise multi-event management suite; Gartner Magic Quadrant Leader (search snippet) — full-stack event ops vs. Pavoot's AI follow-up focus.
+  - Zuddl ($15.5M total raised across 3 rounds per Tracxn; ARR not disclosed): all-in-one virtual/hybrid events for SMB–enterprise — broader functionality, less AI agent specialization.
+  - Splash (funding/ARR not retrieved in this research): event marketing creation tool focused on branded event pages and on-brand templates (eventx.io / splashthat.com search snippets).
+  - Cvent (post-Goldcast acquisition, public-to-private at $4.6B in 2023 per search snippets): enterprise event management incumbent — distribution and AppExchange-style integrations exceed Pavoot's current reach.
+- **Why now:** [Inferred]: LLMs + ASR crossed a threshold in 2024-2025 enabling real-time conversation capture and personalized outbound at per-attendee unit economics; Cvent's Dec 2025 Goldcast acquisition (~$300M, prnewswire.com / search snippet) signals incumbents adding "AI for event-driven pipeline."
 
 ## Founders & Team
 
-**Gohar Tamrazyan** — Co-founder
-- Computer Science graduate, ETH Zürich (YC page; ai.ethz.ch).
-- 6-time Swiss Chess Champion, former Swiss Women's National Team member (pavoot.com; chessbase.com).
-- Recognized in 2023 ETH VIS Teaching Awards as a favorite teaching assistant (ETH Department of Computer Science news, Dec 2023).
-- Based in San Francisco Bay Area (LinkedIn search snippet).
-- Twitter/X: @gohar_tamrazyan (YC page); follower count not retrievable.
-- LinkedIn: linkedin.com/in/gohar-tamrazyan-401860293 (search result); connection count not retrievable.
-- GitHub: No public repos found.
-
-**Ana Yoon Faria de Lima** — Co-founder
-- MS Computer Science, ETH Zürich, 2024–2026 (LinkedIn search snippet).
-- Prior experience: KOF Swiss Economic Institute (ETH Zurich), Banco Itaú, Universidade de São Paulo, Eindhoven University of Technology (LinkedIn search snippet).
-- Described as AI engineer with 20+ Scientific Olympiad medals (pavoot.com).
-- Twitter/X: No public account found.
-- LinkedIn: linkedin.com/in/ana-yoon-faria-de-lima (search result); connection count not retrievable.
-- GitHub: No public repos found.
-
-**Co-founder relationship:** Both founders studied at ETH Zürich (Gohar CS undergrad; Ana MS CS 2024–2026), and Pavoot was founded in 2025 after a course at the ETH AI Center (search snippet from ETH AI Center affiliated startups page) — indicating shared ETH/ETH AI Center origin.
-
-**Founder-market fit:** [Inferred]: Both founders have deep technical/ML backgrounds (ETH CS, AI engineering, ETH AI Center course origin), aligning with the AI-agent technical build. Neither founder shows prior B2B enterprise sales/marketing leadership in public profiles, which is the buyer persona; START Summit/ETH ecosystem provided the initial design-partner channel. No advisors, board members, or named investors beyond YC found in public sources.
+- **Gohar Tamrazyan (Co-founder):**
+  - Background: Computer Science at ETH Zurich; 6-time Swiss Chess Champion and former Women's National Team member; met co-founder in ETH AI Center Technology and Entrepreneurship course (linkedin.com/in/gohar-tamrazyan; pavoot.com; gtamrazyan.ch).
+  - Twitter/X: No public account found.
+  - LinkedIn: "Co-Founder @ Pavoot (YC P26)" (linkedin.com/in/gohar-tamrazyan); follower count not retrievable.
+  - GitHub: No public repos found.
+- **Ana Yoon Faria de Lima (Co-founder):**
+  - Background: MSc Computer Science ETH Zürich (2024-2026); BS Computer Science IME-USP (2023); prior AI Engineer at BTG Pactual and Itaú Unibanco in São Paulo; 20+ Scientific Olympiad medals (linkedin.com/in/ana-yoon-faria-de-lima; researchgate.net profile).
+  - Twitter/X: No public account found.
+  - LinkedIn: "Pavoot (YC P26)" — co-founder (linkedin.com/in/ana-yoon-faria-de-lima); follower count not retrievable.
+  - GitHub: No public repos found.
+- **Co-founder relationship:** Met in the Technology and Entrepreneurship course at the ETH AI Center where they had 3 days to develop a startup idea and pitch it on day 4 (linkedin.com post by Gohar Tamrazyan, 2025).
+- **Founder-market fit:** [Inferred]: Both founders are technical (ETH CS / IME-USP CS, AI engineering at Brazilian banks) — strong on AI model implementation; no documented prior experience in events, B2B marketing, or sales tooling found in public sources (LinkedIn profiles, 2026).
 
 ## Key Risks
 
-**Product positioning churn from media-hub to pipeline-agent:** Earlier product descriptions and the START Summit testimonial center on real-time photo distribution and AI media tagging (pavoot.com; ai.ethz.ch search snippet); current YC framing centers on attendee sourcing → CRM-synced pipeline. [Inferred]: This scope expansion mid-batch can dilute focus, customer fit, and ICP definition.
-
-**Crowded incumbent and well-funded competitor field:** Vendelux ($16.4M raised, $2.1M 2024 revenue) and Grip ($14.5M raised) have multi-year head starts and existing event-organizer relationships (AlleyWatch; TechCrunch); Cvent/Bizzabo are entrenched buyer incumbents. Pavoot must displace or layer onto these established workflows.
-
-**CRM integration dependency:** Post-event value claim depends on syncing engagement to CRM (YC company description). [Inferred]: Salesforce/HubSpot can ship overlapping native features (Einstein, Breeze) that reduce buyer willingness to add a third-party agent.
-
-**Buyer-side founder gap:** [Inferred]: Founder backgrounds are deeply technical (ETH CS, AI engineering) without observed prior enterprise marketing/RevOps leadership; selling to CMO/Demand Gen buyers with six-figure ACVs typically requires founder-led enterprise selling experience or an early sales hire — no GTM hire is publicly visible.
-
-**Single visible reference customer:** Only START Global is identifiable as a deployed customer (pavoot.com testimonial); no second logo, ARR, or customer count published — concentration risk and unclear repeatability.
+- **Domain expertise gap:** Neither founder has documented prior B2B marketing, RevOps, or event-industry operating experience based on LinkedIn profiles (linkedin.com/in/gohar-tamrazyan; linkedin.com/in/ana-yoon-faria-de-lima); buyer empathy and ICP definition will require external hires or design partners that are not yet disclosed.
+- **Incumbent consolidation:** Cvent acquired Goldcast in December 2025 for ~$300M (prnewswire.com / search snippet) and is bundling AI-powered post-event activation — same wedge Pavoot is targeting; incumbents now sell "AI event-to-pipeline" inside multi-product suites with installed CRM integrations.
+- **Commoditization / thin technical moat:** Core capabilities (lookalike attendee sourcing, ASR transcription, LLM follow-up) rest on commodity foundation-model APIs (no proprietary model or proprietary data disclosed at pavoot.com or YC page); AI SDR vendors (e.g., 11x, Regie, Clay) and event incumbents can re-create features.
+- **Traction unverified:** The $48K-pipeline example on the homepage (pavoot.com, 2026) is not attributed to a named customer; no paying customers, ARR, design partners, or waitlist numbers are publicly disclosed.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
 | TAM | No public data found |
-| SAM | "200K+ global B2B events" reference frame (Vendelux marketing copy, search snippet); no Pavoot-specific SAM disclosed |
-| Traction | Reference customer START Global / START Summit (pavoot.com testimonial); ETH AI Center affiliated startup (ai.ethz.ch, search snippet); YC Spring 2026 batch (YC page); Twitter @pavoot_com count not retrievable; LinkedIn company page count not retrievable; no Product Hunt launch found |
-| Revenue Signal | No public data found (no pricing page; demo-only CTA on pavoot.com) |
-| Founders | Gohar Tamrazyan (Co-founder): ETH Zürich CS, 6-time Swiss Chess Champion, 2023 ETH VIS Teaching Award. Ana Yoon Faria de Lima (Co-founder): ETH Zürich MS CS 2024–2026, prior KOF/Banco Itaú/USP/TU Eindhoven, 20+ Scientific Olympiad medals |
-| Competitors | Vendelux ($16.4M raised, $2.1M 2024 revenue per GetLatka; predictive event intelligence). Grip ($14.5M raised per TechCrunch Feb 2021, ARR unknown; in-event AI matchmaking). Brella (funding unknown, ARR unknown; conference networking app). Lensmor (funding unknown, ARR unknown; exhibitor intelligence) |
+| SAM | No public data found |
+| Traction | YC P26 batch (ycombinator.com); Launch YC live ~21 days before research (ycombinator.com/launches/QFK); homepage sample event 47 attendees/24 meetings/11 leads/$48K pipeline (pavoot.com, 2026) |
+| Revenue Signal | No public data found (demo-gated, no pricing page) |
+| Founders | Gohar Tamrazyan (Co-founder): ETH Zurich CS, 6-time Swiss Chess Champion. Ana Yoon Faria de Lima (Co-founder): MSc CS ETH Zürich, BS CS IME-USP, ex-AI Engineer BTG Pactual & Itaú Unibanco, 20+ Olympiad medals. |
+| Competitors | Goldcast ($42M raised, $10M+ ARR, acquired by Cvent Dec 2025 ~$300M; broader webinar/video stack); Bizzabo ($226M raised, $43.9M revenue 2024; enterprise event management suite); Zuddl ($15.5M raised, ARR unknown; all-in-one virtual/hybrid events); Splash (funding unknown, ARR unknown; branded event pages); Cvent (public-acquired ~$4.6B 2023; enterprise incumbent post-Goldcast). |
 | Moat Signals | No public data found |
-| Risk Factors | Product scope shift from media hub to pipeline agent; well-funded incumbents (Vendelux, Grip); CRM-platform substitution risk |
-| Founder Reach | Gohar Tamrazyan: Twitter @gohar_tamrazyan (count not retrievable), LinkedIn linkedin.com/in/gohar-tamrazyan-401860293 (count not retrievable), GitHub not found. Ana Yoon Faria de Lima: Twitter not found, LinkedIn linkedin.com/in/ana-yoon-faria-de-lima (count not retrievable), GitHub not found |
-| Distribution Signals | YC Spring 2026 batch (YC page); ETH AI Center affiliated startup (ai.ethz.ch, search snippet); START Summit deployment (pavoot.com); no Product Hunt, no Chrome Web Store, no app store presence found |
-| Emails | hello@pavoot.com (pavoot.com) |
+| Risk Factors | Domain-expertise gap, incumbent consolidation (Cvent+Goldcast), commodity AI primitives |
+| Founder Reach | Gohar Tamrazyan: Twitter not found, LinkedIn count not retrievable, GitHub not found. Ana Yoon Faria de Lima: Twitter not found, LinkedIn count not retrievable, GitHub not found. |
+| Distribution Signals | YC Launch page (ycombinator.com/launches/QFK, 2026); founder LinkedIn posts (linkedin.com activity 7427832240333684737, 2025; activity 7455296634260717568, 2026) |
+| Emails | hello@pavoot.com (pavoot.com, 2026) |
+
+Sources:
+- [Pavoot YC company page](https://www.ycombinator.com/companies/pavoot)
+- [Pavoot Launch YC](https://www.ycombinator.com/launches/QFK-pavoot-create-event-experiences-that-convert)
+- [Pavoot website](https://pavoot.com/)
+- [Gohar Tamrazyan LinkedIn](https://www.linkedin.com/in/gohar-tamrazyan)
+- [Ana Yoon Faria de Lima LinkedIn](https://www.linkedin.com/in/ana-yoon-faria-de-lima/)
+- [Goldcast Series A PRNewswire](https://www.prnewswire.com/news-releases/goldcast-closes-28m-series-a-continues-expanding-to-empower-b2b-marketers-to-turn-events-into-revenue-301611870.html)
+- [Goldcast revenue Latka](https://getlatka.com/blog/goldcast-revenue/)
+- [Bizzabo revenue Latka](https://getlatka.com/companies/bizzabo)
+- [Zuddl Series A](https://www.zuddl.com/newsroom/zuddl-raises-13-35-mn-in-series-a-led-by-alpha-wave-incubation-and-qualcomm-ventures)
+- [Zuddl Tracxn](https://tracxn.com/d/companies/zuddl/__q8P6JxTyVH81KunBF1bafkDSWI-kEGI65X5oT6uB6yE)

@@ -10,7 +10,7 @@
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "Artificial Intelligence, Advanced Materials, Semiconductors, AI",
-    "yc_partner": "Aaron Epstein",
+    "yc_partner": "Aaron Epstein (YC company page)",
     "emails": "No public data found"
   },
   "tags": [
@@ -20,58 +20,28 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-22T23:53:45.413Z",
+  "memoGeneratedAt": "2026-05-28T03:02:20.879Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 54,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 67,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 62,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 63,
+      "score": 57,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 53,
-    "EG": 54,
-    "NR": 67,
-    "PG": 62,
-    "PT": 53,
-    "SL": 41,
-    "VK": 63
+    "CB": 57,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 56.14,
-  "consolidatedRank": 5,
+  "consolidatedAvg": 57,
+  "consolidatedRank": 19,
   "paths": {
     "memo": "spring2026/memos/matforge.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/matforge.md",
-      "elad-gil": "spring2026/evals/elad-gil/matforge.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/matforge.md",
-      "paul-graham": "spring2026/evals/paul-graham/matforge.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/matforge.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/matforge.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/matforge.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/matforge.md"
     }
   }
 }

@@ -1,75 +1,50 @@
 {
   "slug": "cignara",
   "name": "Cignara",
-  "oneLiner": "AI voice & chat agents for sales and customer support at large B2C?",
+  "oneLiner": "AI agents for sales & customer support at large Fortune 500 companies",
   "metadata": {
     "website": "https://cignara.com/",
     "yc_page": "https://www.ycombinator.com/companies/cignara",
-    "batch": "Spring 2026",
+    "batch": "Spring 2026 (YC P26)",
     "industry": "B2B / B2B",
     "team_size": "4",
     "location": "San Francisco, CA, USA",
     "tags": "AI, AI Assistant",
     "yc_partner": "Garry Tan",
-    "emails": "hiring@getbujo.com (LinkedIn post by founder, April 2026)"
+    "emails": "No public data found"
   },
   "tags": [
     "AI",
     "AI Assistant"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-23T00:00:04.216Z",
+  "memoGeneratedAt": "2026-05-28T03:08:14.174Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 38,
+      "score": 36,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 43,
+      "score": 39,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 38,
-    "EG": 47,
-    "NR": 48,
-    "PG": 47,
-    "PT": 33,
-    "SL": 30,
-    "VK": 43
+    "CB": 36,
+    "EG": 39,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 40.86,
-  "consolidatedRank": 83,
+  "consolidatedAvg": 37.5,
+  "consolidatedRank": 151,
   "paths": {
     "memo": "spring2026/memos/cignara.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/cignara.md",
-      "elad-gil": "spring2026/evals/elad-gil/cignara.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/cignara.md",
-      "paul-graham": "spring2026/evals/paul-graham/cignara.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/cignara.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/cignara.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/cignara.md"
+      "elad-gil": "spring2026/evals/elad-gil/cignara.md"
     }
   }
 }

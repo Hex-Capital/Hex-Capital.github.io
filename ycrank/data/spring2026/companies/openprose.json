@@ -1,0 +1,48 @@
+{
+  "slug": "openprose",
+  "name": "OpenProse",
+  "oneLiner": "A natural language agent framework: write the future into existence.",
+  "metadata": {
+    "website": "https://prose.md",
+    "yc_page": "https://www.ycombinator.com/companies/openprose",
+    "batch": "Spring 2026 (YC page)",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA; Remote",
+    "tags": "AIOps, Artificial Intelligence, Developer Tools, Swarm AI, AI Assistant",
+    "yc_partner": "Pete Koomen (YC page)",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "AIOps",
+    "Artificial Intelligence",
+    "Developer Tools",
+    "Swarm AI",
+    "AI Assistant"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-28T02:39:34.216Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 39,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 39,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
+  },
+  "consolidatedAvg": 39,
+  "consolidatedRank": 142,
+  "paths": {
+    "memo": "spring2026/memos/openprose.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/openprose.md"
+    }
+  }
+}

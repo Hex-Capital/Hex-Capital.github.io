@@ -12,113 +12,92 @@
 | Location | San Francisco, CA, USA |
 | Tags | Deep Learning, Developer Tools, Generative AI |
 | YC Partner | Aaron Epstein |
-| Emails | interfaze@jigsawstack.com (company website) |
+| Emails | support@interfaze.ai |
 
 ## The Idea
 
-**Problem:** Developers building pipelines for OCR, web scraping, document classification, and speech-to-text face a choice between general-purpose LLMs (expensive, non-deterministic, inconsistent structured output) and standalone specialized models (fragmented, require separate infrastructure per task). The current approach requires stitching together multiple services, each with its own API, pricing, and failure modes.
-
-**Approach:** Interfaze is a hybrid model architecture that routes queries through specialized DNN/CNN perception modules (for OCR, speech recognition, object detection) and a context-construction layer, forwarding distilled context to LLMs only for final response generation (arXiv:2602.04101, Feb 2026). This shifts computational load from large transformer models to smaller specialized components. The system exposes an OpenAI-compatible API, claims 98–99% structured output accuracy, supports a 1M token context window, and delivers sub-5-second response times for specialized tasks (interfaze.ai). The paper was accepted at IEEE CAI 2026 (YC page).
-
-**Differentiation:** Unlike general-purpose LLMs (GPT, Claude, Gemini) that treat OCR/scraping as secondary capabilities, Interfaze architecturally separates perception from reasoning. Unlike point solutions (Firecrawl for scraping, Tesseract/Surya for OCR, Whisper for STT), Interfaze bundles these behind a single API with a unified model. The system includes a custom web engine for bot-protected sites and built-in code sandbox (interfaze.ai).
-
-**Business Model:** Consumption-based pricing: $1.50/M input tokens, $3.50/M output tokens, with caching included (interfaze.ai pricing page). Rate limit of 50 requests/second. No freemium tier or per-seat pricing visible.
-
-**TAM/SAM:** The global Document AI market is estimated at $14.66B in 2025, projected to reach $27.62B by 2030 at 13.5% CAGR (MarketsandMarkets, 2025 via search snippet). The AI-driven web scraping market was valued at $10.2B in 2026, projected to reach $23.7B by 2030 at 23.5% CAGR (Research and Markets, 2026 via search snippet). [Inferred]: The SAM is the subset of developers who programmatically consume OCR, scraping, classification, and STT via API — likely a fraction of these broader markets, but no public SAM estimate exists for this specific multi-task API segment.
-
-**GTM / Distribution:** OpenAI API compatibility enables drop-in adoption for developers already using standard AI SDKs (interfaze.ai). JigsawStack (prior brand) was part of the Vercel AI Accelerator (Vercel, 2025 via search snippet). [Inferred]: Primary distribution is developer self-serve via API, leveraging existing SDK integrations and developer community.
+- **Problem:** Production developer workflows using LLMs for OCR, web scraping, and structured extraction face hallucinated keys, broken JSON, hidden inaccuracies, and latency spikes (interfaze.ai blog, 2026).
+- **Approach:** Hybrid architecture merging specialized DNN/CNN models with LLMs to produce "98%-99% structured output accuracy" for deterministic developer tasks (interfaze.ai, 2026).
+- **Differentiation:** [Inferred]: Differs from general LLM APIs (OpenAI, Anthropic) by routing vision/audio tasks to specialized small models; differs from pure OCR APIs (Mistral OCR, Reducto, LlamaParse) by exposing an OpenAI-compatible Chat Completions interface with built-in tools, web search, and code sandbox (interfaze.ai, 2026).
+- **Business Model:** Usage-based pricing at $1.50 per million input tokens and $3.50 per million output tokens, caching included (interfaze.ai pricing, 2026).
+- **TAM/SAM:** No public TAM/SAM data found for this specific segment.
+- **GTM / Distribution:** [Inferred]: Self-serve developer adoption via OpenAI-compatible API ("any AI SDK that supports OpenAI works out of the box," interfaze.ai, 2026) and founder community presence (SF Developer Meetup co-host, luma.com/agents-ai-api-may, May 2026).
 
 ## Defensibility
 
-- **IP/Technical complexity:** Peer-reviewed architecture paper accepted at IEEE CAI 2026 (YC page). The hybrid DNN/CNN + LLM routing system is a non-trivial engineering artifact.
-- **Custom web engine:** Proprietary scraping engine for bot-protected sites (interfaze.ai) — a continuously evolving technical moat.
-- **Data advantage:** [Inferred]: Accumulated fine-tuning data across multiple specialized tasks (OCR, STT, classification) could compound over time, but no public evidence of data flywheel effects yet.
-
-**Market structure:** [Inferred]: Cloud incumbents (Google Document AI, Amazon Textract, Azure Document Intelligence) sell these capabilities as standalone services within their cloud ecosystems. Bundling OCR + scraping + STT + classification into a single model with unified pricing conflicts with their per-service revenue model. However, incumbents could replicate this if the market proves large enough.
-
-**Commoditization risk:** Individual capabilities (OCR, STT, scraping) are available from multiple open-source and commercial providers. The differentiation lies in the unified architecture and deterministic output guarantees. Firecrawl (scraping), Whisper (STT), and Surya (OCR) are open-source alternatives for individual tasks. A well-resourced team could assemble a comparable pipeline, though the routing and optimization layer adds complexity.
+- **Moat today:** Research paper accepted to IEEE CAI 2026 describing the task-specific small-model architecture (arxiv.org/abs/2602.04101); founder claims benchmark leadership on OCRBench, olmOCR, RefCOCO, GPQA Diamond (interfaze.ai, 2026).
+- **Future moat:** [Inferred]: Proprietary task-routing data from production developer traffic could improve model selection and accuracy, but unproven given no disclosed usage volume on the current product.
+- **Market structure:** [Inferred]: Frontier LLM providers (OpenAI, Anthropic, Google) are optimized for general-purpose generative tasks; routing-to-specialized-small-models cannibalizes their token-revenue economics, creating a structural disincentive to fully replicate.
+- **Commoditization risk:** Open-source specialist OCR/vision models (Marker, Docling, Unstructured, olmOCR) and parser platforms (Reducto, LlamaParse) can be assembled by competent ML teams (reducto.ai/document-parser-comparison, 2025).
 
 ## Market & Traction
 
-**Traction signals:**
-- Company Twitter/X (@interfaze_ai): 654 followers (X, as of research date)
-- Founder Twitter/X (@yoeven): 822 followers (X, as of research date)
-- Discord: 239 members (Discord invite page, as of research date)
-- GitHub org (jigsawstack): 39 repositories; top repos: deep-research (173 stars), omiai (122 stars) (GitHub)
-- Groq partnership announced (Groq on X, 2026)
-- Accepted into Vercel AI Accelerator (Vercel, 2025)
-- Featured on Software Engineering Daily podcast (Jul 2025)
-- Hugging Face presence: interfaze-ai org (Hugging Face)
-- Research paper: arXiv:2602.04101, accepted IEEE CAI 2026
-- No public revenue, user count, or customer count data found
-- No Product Hunt launch found
-
-**Note on prior product:** Interfaze was previously branded as JigsawStack, an AI API platform. The rebrand occurred in late 2025/early 2026 (Hashnode blog post; GitHub org description). Prior-product traction (JigsawStack SDKs, GitHub stars) is reported above and should not be conflated with Interfaze-specific model adoption.
-
-**Competitive landscape:**
-
-| Competitor | Key Differentiator vs. Interfaze | Funding | Revenue/ARR |
-|---|---|---|---|
-| **Firecrawl** | Open-source web scraping focused; single-task (no OCR/STT); 25 people | $16.2M (Aug 2025, Nexus Venture Partners) (search snippet) | Revenue unknown |
-| **Apify** | Established web scraping platform (founded 2015); broader automation; YC-backed | ~$3.3M total (Tracxn via search snippet) | $13.3M revenue in 2024 (Latka via search snippet) |
-| **Google Document AI** | Part of GCP ecosystem; enterprise-grade SLA; single-task per API | N/A (Google product) | Revenue unknown (part of GCP) |
-| **Amazon Textract** | AWS ecosystem integration; enterprise adoption; document-focused | N/A (AWS product) | Revenue unknown (part of AWS) |
-| **Datalab Marker/Surya** | Open-source OCR pipeline; free; no API hosting | N/A (open-source) | N/A |
-
-**Why now:**
-- [Inferred]: The emergence of small, specialized models that match or exceed large LLMs on specific tasks (demonstrated in the paper's benchmarks) enables the architectural approach of routing to specialized components rather than a single monolithic model.
-- [Inferred]: The proliferation of LLM-powered developer tools has created a large developer audience accustomed to consuming AI via API, establishing the distribution channel.
+- **Traction signals:**
+  - Backed by Y Combinator Spring 2026 batch (ycombinator.com/companies/interfaze).
+  - Research paper accepted to IEEE CAI 2026 (arxiv.org/abs/2602.04101).
+  - Self-reported benchmark scores: Interfaze-Beta 83.6% MMLU-Pro, 91.4% MMLU, 81.3% GPQA-Diamond, 57.8% LiveCodeBench v5, 90.0% AIME-2025, 77.3% MMMU val, 91.5% AI2D, 90.9% ChartQA, 90.8% Common Voice v16 (interfaze.ai, 2026).
+  - Stated API throughput "up to 50 requests per second" (interfaze.ai, 2026).
+  - Founder co-hosting "Agents & APIs SF Developer Meetup," May 28, 2026 (luma.com/agents-ai-api-may).
+  - Twitter/X handle @yoeven confirmed (x.com/yoeven); follower count not retrievable.
+  - LinkedIn company presence under "Interfaze (YC P26)" (linkedin.com/in/harsha-vardhan-khurdula/); follower count not retrievable.
+  - Zero open job postings on YC page (ycombinator.com/companies/interfaze).
+  - No Product Hunt launch found in search results.
+- **Competitors:**
+  - Reducto (revenue unknown, total raised unknown via search): agentic document platform with 12+ orchestrated models for enterprise document workflows (llms.reducto.ai, 2025).
+  - LlamaParse / LlamaIndex (LlamaIndex raised $19M Series A reported in 2024, revenue unknown): AI-driven context-aware document parsing inside the LlamaIndex framework (llamaindex.ai/insights, 2026).
+  - Mistral OCR (Mistral AI raised €1B+ across multiple rounds, revenue unknown): general OCR API from frontier model lab; scored ~45% on Reducto's RD-FormsBench vs. ~80% for Gemini 2.0 Flash (reducto.ai, March 2025).
+  - Unstructured.io (raised $65M Series B, 2024 reports; revenue unknown): open-source-rooted document parsing API for unstructured data (reducto.ai/document-parser-comparison, 2025).
+  - JigsawStack (raised $1.5M pre-seed from Antler and Ada Ventures, revenue unknown; e27.co, March 2025): unified AI API suite — founder Yoeven Khemlani's prior company; overlap in mission of task-specific developer AI APIs.
+- **Why now:** [Inferred]: Reducto's March 2025 benchmarks documented frontier OCR models hallucinating on dense tables/handwriting (reducto.ai, 2025), establishing measured failure modes that justify the case for specialist-model architectures over monolithic LLMs.
 
 ## Founders & Team
 
-**Yoeven D Khemlani** — Founder
-- Imperial College London (Innovation Design Engineering & Computer Science) (Peerlist via search snippet)
-- Previously: Senior Technical Lead at UOB; Technical Lead at Noah (Peerlist via search snippet)
-- Co-founded Stayr (May 2020–Jun 2022), a Singapore prop-tech startup; claimed $1M ARR in year one, $3M in year two (Peerlist via search snippet). Became Head of Technology & Product at Staytion Singapore (Aug 2022–Dec 2023) (LinkedIn via search snippet). Acquisition mentioned on Peerlist but not independently confirmed.
-- Founded JigsawStack (Jul 2024), moved to US in 2025 (Software Engineering Daily, Jul 2025)
-- Twitter/X: @yoeven — 822 followers (X)
-- LinkedIn: linkedin.com/in/yoeven/ — "Founder at JigsawStack" (LinkedIn via search snippet)
-- GitHub: github.com/yoeven (GitHub)
-
-**Harsha Vardhan Khurdula** — Co-Founder
-- M.Sc. Computer Science, Purdue University (LinkedIn via search snippet)
-- AI Scientist; research interests in Computer Vision, NLP, Reinforcement Learning (Google Scholar)
-- Led Competitive Programming division of Google Developer Student Club at university (LinkedIn via search snippet)
-- Co-author on Interfaze architecture paper (arXiv:2602.04101)
-- Twitter/X: No public account found
-- LinkedIn: linkedin.com/in/harsha-vardhan-khurdula/ — "Founding Member @JigsawStack | AI Scientist" (LinkedIn via search snippet)
-- GitHub: github.com/Khurdhula-Harshavardhan — bio: "I have a dream, NLP for everyone!" (GitHub via search snippet)
-
-**Additional team member:** Vineet Agarwal is listed as a co-author on the arXiv paper (arXiv:2602.04101). Role and background not publicly detailed.
-
-**Co-founder relationship:** No shared prior employer or university identified between Yoeven (Imperial College London, Singapore-based career) and Harsha (Purdue University). No public data on how they connected.
-
-**Founder-market fit:** Yoeven brings production engineering experience (UOB, Noah) and prior startup experience with a claimed exit (Stayr). Harsha brings academic ML research credentials (Purdue, Google Scholar publications, CV/NLP specialization). The combination of infrastructure engineering and ML research aligns with building a hybrid model system that requires both systems engineering and model development.
+- **Yoeven D Khemlani (Co-Founder):**
+  - Background: Singapore-based developer/ML engineer for 8 years; prior CEO/Co-Founder of JigsawStack (AI API suite, $1.5M pre-seed from Antler and Ada Ventures, e27.co March 2025); earlier launched a Singapore property/travel startup that reached US$1M ARR in year one and US$3M in year two before acquisition (adaventures.com).
+  - Twitter/X: @yoeven (x.com/yoeven); count not retrievable.
+  - LinkedIn: "Co-Founder at Interfaze.ai" (linkedin.com/in/yoeven/).
+  - GitHub: No public repo verified in search results.
+- **Harsha Vardhan Khurdula (Co-Founder):**
+  - Background: M.Sc. Computer Science, Purdue University; 5+ years in computer vision, reinforcement learning for SLMs, and AI research with multiple peer-reviewed papers (scholar.google.com/citations?user=lFBRPGgAAAAJ); previously Founding Member at JigsawStack (linkedin.com/in/harsha-vardhan-khurdula-99b400183/).
+  - Twitter/X: No public account found in search results.
+  - LinkedIn: "Interfaze (YC P26)" (linkedin.com/in/harsha-vardhan-khurdula/).
+  - GitHub: @Khurdhula-Harshavardhan (github.com/Khurdhula-Harshavardhan); no top repo star count retrieved.
+- **Co-founder relationship:** Both worked together at JigsawStack — Yoeven as Co-Founder/CEO, Harsha as Founding Member (linkedin.com profiles).
+- **Founder-market fit:** Yoeven has 8 years building edge-ML and OCR/scraping pipelines and a prior $1M+ ARR exit plus a funded AI API company (adaventures.com; e27.co); Harsha brings academic computer vision research credentials with IEEE CAI 2026 acceptance (arxiv.org/abs/2602.04101).
 
 ## Key Risks
 
-**1. Brand fragmentation from rebrand:** The transition from JigsawStack to Interfaze (late 2025/early 2026, Hashnode blog; GitHub org) means existing developer adoption under the JigsawStack brand must be migrated. The email domain remains jigsawstack.com (interfaze.ai), suggesting the transition is incomplete.
-
-**2. Architectural replicability:** The hybrid DNN/CNN + LLM routing approach is documented in a public paper (arXiv:2602.04101). While execution matters, the architecture is not secret. Well-funded competitors (Firecrawl at $16.2M) or cloud providers could implement similar routing systems.
-
-**3. Multi-task breadth vs. depth trade-off:** Competing simultaneously against specialized tools in OCR (Google Document AI), scraping (Firecrawl, Apify), STT (Whisper/AssemblyAI), and classification requires maintaining parity across multiple rapidly evolving domains. Each domain has dedicated teams and communities optimizing for that single task.
-
-**4. Benchmark context:** Published benchmarks (MMLU-Pro 83.6%, GPQA-Diamond 81.3%) measure general reasoning, not the deterministic task accuracy that is the core value proposition (arXiv:2602.04101). The claimed 98–99% structured output accuracy (interfaze.ai) lacks independent verification or methodology disclosure.
+- **Technical feasibility of universal hybrid architecture:** Claim of "98%-99% structured output accuracy" across OCR, scraping, classification, and STT (interfaze.ai, 2026) is self-reported; independent third-party benchmarks like Reducto's RD-FormsBench show frontier OCR models below 80% accuracy on dense tables (reducto.ai, March 2025), so Interfaze's numbers require external validation.
+- **Crowded specialist OCR/parsing market:** Reducto, LlamaParse, Unstructured, Docling, Marker, Mistral OCR, and Nanonets all target document parsing (reducto.ai/document-parser-comparison, 2025); differentiation against funded incumbents is unproven.
+- **Frontier model substitution:** Gemini 2.0 Flash scored ~80% on RD-FormsBench (reducto.ai, March 2025); if general-purpose frontier models continue closing the deterministic-output gap, the specialist-routing thesis weakens.
+- **Founder concentration on prior company:** Yoeven remains publicly identified as JigsawStack founder (linkedin.com/in/yoeven/, adaventures.com), and Interfaze's deterministic-AI thesis overlaps JigsawStack's positioning; risk of split focus or unclear corporate boundary.
+- **Name/asset disambiguation:** Multiple unrelated companies share similar names ("Interfere" YC company, "Interface" energy SaaS), and the cited arxiv paper ID 2602.04101 is a future-dated identifier requiring verification (tracxn.com; thesaasnews.com; arxiv.org/abs/2602.04101).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Document AI: $14.66B in 2025 → $27.62B by 2030, 13.5% CAGR (MarketsandMarkets, 2025 via search snippet); AI-driven web scraping: $10.2B in 2026, 23.5% CAGR (Research and Markets, 2026 via search snippet) |
+| TAM | No public data found |
 | SAM | No public data found |
-| Traction | 654 Twitter followers (X); 239 Discord members (Discord); 173 GitHub stars on top repo (GitHub); Groq partnership (X, 2026); Vercel AI Accelerator participant (Vercel, 2025) |
-| Revenue Signal | $1.50/M input tokens, $3.50/M output tokens (interfaze.ai pricing page). No public revenue figures found |
-| Founders | Yoeven D Khemlani (Founder): Imperial College London, prior prop-tech startup (Stayr), Sr. Tech Lead at UOB. Harsha Vardhan Khurdula (Co-Founder): M.Sc. CS Purdue, AI Scientist, CV/NLP researcher |
-| Competitors | Firecrawl ($16.2M raised, revenue unknown, scraping-focused); Apify (~$3.3M raised, $13.3M 2024 revenue via Latka, broad scraping platform); Google Document AI (GCP product, enterprise OCR) |
-| Moat Signals | Peer-reviewed architecture paper at IEEE CAI 2026 (YC page); proprietary bot-protected scraping engine (interfaze.ai) |
-| Risk Factors | Incomplete rebrand from JigsawStack, public architecture paper enables replication, multi-task breadth vs. specialized depth |
-| Founder Reach | Yoeven: Twitter 822 followers (X), LinkedIn (LinkedIn); Harsha: LinkedIn (LinkedIn), no Twitter found |
-| Distribution Signals | OpenAI API compatibility (interfaze.ai); Vercel AI Accelerator (Vercel, 2025); Groq partnership (X, 2026) |
-| Emails | interfaze@jigsawstack.com (interfaze.ai) |
+| Traction | YC Spring 2026 batch (ycombinator.com); IEEE CAI 2026 paper accepted (arxiv.org/abs/2602.04101); self-reported benchmarks incl. 91.4% MMLU, 90.0% AIME-2025, 90.8% Common Voice v16 (interfaze.ai, 2026); stated 50 req/sec capacity (interfaze.ai, 2026); 0 job postings (ycombinator.com) |
+| Revenue Signal | $1.50/M input tokens, $3.50/M output tokens, caching included (interfaze.ai pricing, 2026) |
+| Founders | Yoeven D Khemlani (Co-Founder): 2nd-time founder, prior CEO of JigsawStack ($1.5M pre-seed), prior travel startup acquired after $3M ARR. Harsha Vardhan Khurdula (Co-Founder): M.Sc. CS Purdue, computer vision researcher, prior Founding Member at JigsawStack. |
+| Competitors | Reducto (raised unknown, revenue unknown, agentic enterprise document platform); LlamaParse/LlamaIndex (LlamaIndex $19M Series A 2024, revenue unknown, framework-embedded parser); Mistral OCR (Mistral €1B+, revenue unknown, frontier-lab OCR); Unstructured.io ($65M Series B 2024, revenue unknown, open-source-rooted parsing API); JigsawStack ($1.5M pre-seed, revenue unknown, unified AI API suite — founder's prior company) |
+| Moat Signals | IEEE CAI 2026 paper acceptance (arxiv.org/abs/2602.04101); self-reported benchmark leadership on OCRBench, olmOCR, RefCOCO, GPQA Diamond (interfaze.ai, 2026) |
+| Risk Factors | Self-reported benchmarks unvalidated externally, crowded OCR/parser competitive set, frontier-model substitution risk |
+| Founder Reach | Yoeven: Twitter @yoeven (count not retrievable), LinkedIn linkedin.com/in/yoeven (count not retrievable), GitHub not found. Harsha: Twitter not found, LinkedIn linkedin.com/in/harsha-vardhan-khurdula (count not retrievable), GitHub @Khurdhula-Harshavardhan (star count not retrievable) |
+| Distribution Signals | OpenAI Chat Completions API compatibility (interfaze.ai, 2026); founder co-hosting Agents & APIs SF Developer Meetup May 28, 2026 (luma.com/agents-ai-api-may); no Product Hunt launch found |
+| Emails | support@interfaze.ai (interfaze.ai, 2026) |
 
-**Funding history (pre-YC):** $500K seed from Antler (Oct 2024, Fundz via search snippet); $1M pre-seed from Ada Ventures (Mar 2025, e27 via search snippet). Total raised: $1.5M (Yoeven on X, 2025). YC Spring 2026 participation adds standard YC deal terms.
+Sources:
+- [Interfaze YC Page](https://www.ycombinator.com/companies/interfaze)
+- [Interfaze website](https://interfaze.ai/)
+- [Interfaze paper](https://arxiv.org/abs/2602.04101)
+- [Yoeven LinkedIn](https://www.linkedin.com/in/yoeven/)
+- [Harsha LinkedIn](https://www.linkedin.com/in/harsha-vardhan-khurdula/)
+- [Harsha GitHub](https://github.com/Khurdhula-Harshavardhan)
+- [JigsawStack pre-seed (e27)](https://e27.co/jigsawstack-closes-us1m-pre-seed-round-to-transform-ai-deployment-20250312/)
+- [Ada Ventures on JigsawStack](https://www.adaventures.com/post/why-we-invested-jigsawstack)
+- [Reducto OCR comparison](https://llms.reducto.ai/document-parser-comparison)
+- [LlamaIndex on parsers](https://www.llamaindex.ai/insights/best-document-parsing-software)
+- [Agents & APIs SF Meetup](https://luma.com/agents-ai-api-may)

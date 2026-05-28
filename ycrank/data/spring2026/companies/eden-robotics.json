@@ -9,69 +9,44 @@
     "industry": "Industrials / Industrials -> Manufacturing and Robotics",
     "team_size": "4",
     "location": "San Francisco, CA, USA",
-    "tags": "Artificial Intelligence, Robotic Process Automation, Robotics, Automation",
+    "tags": "Robotic Process Automation, Robotics, Automation, AI",
     "yc_partner": "Nicolas Dessaigne (YC company page)",
     "emails": "No public data found"
   },
   "tags": [
-    "Artificial Intelligence",
     "Robotic Process Automation",
     "Robotics",
-    "Automation"
+    "Automation",
+    "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-22T23:31:21.514Z",
+  "memoGeneratedAt": "2026-05-28T02:40:54.470Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 46,
+      "score": 49,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
       "score": 40,
       "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 64,
-      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 46,
-    "EG": 34,
-    "NR": 47,
-    "PG": 45,
-    "PT": 38,
-    "SL": 40,
-    "VK": 64
+    "CB": 49,
+    "EG": 40,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 44.86,
-  "consolidatedRank": 41,
+  "consolidatedAvg": 44.5,
+  "consolidatedRank": 85,
   "paths": {
     "memo": "spring2026/memos/eden-robotics.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/eden-robotics.md",
-      "elad-gil": "spring2026/evals/elad-gil/eden-robotics.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/eden-robotics.md",
-      "paul-graham": "spring2026/evals/paul-graham/eden-robotics.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/eden-robotics.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/eden-robotics.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/eden-robotics.md"
+      "elad-gil": "spring2026/evals/elad-gil/eden-robotics.md"
     }
   }
 }

@@ -11,115 +11,96 @@
 | Team Size | 5 |
 | Location | San Francisco, CA, USA; Remote |
 | Tags | Fintech, Investing, AI |
-| YC Partner | Aaron Epstein |
-| Emails | demo@kimpton.ai, info@kimpton.ai (kimpton.ai website) |
+| YC Partner | Aaron Epstein (YC company page) |
+| Emails | info@kimpton.ai (kimpton.ai website) |
 
 ## The Idea
 
-**Problem:** Buy-side portfolio managers spend the majority of their working hours on non-investment tasks: SEC filings review, earnings prep, 13F analysis, peer benchmarking, thesis validation, and trade writeups (kimpton.ai). Current workflows require stitching together 6+ data vendor contracts and 3–5 quants/data engineers at an annual cost of $1–3M+ to build comparable tooling in-house (kimpton.ai, "Build vs. Buy" section). Testimonials on the website from PMs at hedge funds and mutual funds describe fragmented tooling, hallucination-prone general LLMs, and limited bandwidth for deep dives (kimpton.ai).
-
-**Approach:** Kimpton runs autonomous agentic workflows across the PM's full research cycle and delivers structured Trade Proposals fitted to the PM's mandate and strategy, which are stored in plain-text `mandate.md` and `strategy.md` files (kimpton.ai). The platform integrates FactSet pricing, fundamentals, estimates, transcripts, ownership, and M&A data, plus Polymarket prediction markets (kimpton.ai). Features include Deep Research cited to source, natural-language Dashboards, Agentic Charting & Backtests, scheduled Skills for recurring workflows, and auto-generated Reports (kimpton.ai). Portfolio connectivity is provided via Plaid across 2,500+ brokerages (kimpton.ai).
-
-**Differentiation:** Unlike general-purpose AI research tools (AlphaSense, Hebbia), Kimpton is purpose-built for the investment decision workflow — it produces structured trade proposals with targets, stops, and conviction levels rather than search results or document summaries (kimpton.ai). Unlike Bloomberg Terminal or FactSet workstations, Kimpton wraps data in an agentic layer that executes multi-step research autonomously. The founders' four years operating a hedge fund with this stack as internal tooling differentiates from teams building from outside the buy-side workflow (L3cap.com launch post, Oct 2025).
-
-**Business Model:** No pricing is publicly disclosed on the website (kimpton.ai). The "Build vs. Buy" comparison positions Kimpton's cost as "a fraction of one quant hire" against the $1–3M+ annual cost of building in-house (kimpton.ai). [Inferred]: Most likely monetization path is a SaaS subscription (per-seat or per-fund) given the PM-centric product design, FactSet data licensing costs, and enterprise security positioning (SOC 2 Type II in review).
-
-**TAM/SAM:** The global AI in asset management market was valued at $4.62B in 2024 and is projected to reach $38.94B by 2034 at a 23.76% CAGR (Precedence Research, 2025). The U.S. segment was $1.65B in 2024, projected to reach $14.17B by 2034 at 23.99% CAGR (Precedence Research, 2025). [Inferred]: The serviceable market narrows to buy-side PMs at hedge funds, mutual funds, and asset managers actively using AI-augmented research — a subset of the broader AI-in-asset-management TAM.
-
-**GTM / Distribution:** [Inferred]: Most likely distribution path is direct sales to hedge funds and asset managers, leveraging the founders' buy-side network from operating Level III Capital. The website offers a "Request Demo" flow (kimpton.ai). Testimonials reference PMs at hedge funds, mutual funds, and a $40B+ sustainable equity fund, suggesting early enterprise engagement (kimpton.ai).
+- **Problem:** Portfolio managers spend most of their day on non-investing work — filings, earnings prep, 13Fs, peer benchmarking, thesis validation, trade writeups (company description, YC page).
+- **Approach:** Autonomous AI agents driven by plain-text `mandate.md` and `strategy.md` files that encode each PM's risk profile, style, and constraints to produce structured Trade Proposals with full rationale (company description).
+- **Differentiation:** vs. AlphaSense/Hebbia (document search and synthesis) and Rogo (chat for finance professionals) — Kimpton outputs actionable trade proposals fitted to a stated mandate, integrating FactSet pricing/fundamentals/estimates/transcripts/ownership/M&A plus Polymarket prediction markets (kimpton.ai, company description).
+- **Business Model:** No public data found on pricing — site routes to "discovery calls" with the CEO rather than a self-serve pricing page (kimpton.ai). [Inferred]: Enterprise seat-based SaaS to hedge funds, family offices, and RIAs given the named ICPs (kimpton.ai/home).
+- **TAM/SAM:** AI in Asset Management market projected at $107.7B in 2025 growing to $1.168T by 2035 at 26.92% CAGR (Market Research Future, 2025); no public SAM data found for the specific buy-side PM workflow segment.
+- **GTM / Distribution:** [Inferred]: Founder-led direct sales — the site offers "discovery calls through co-founder Jack Zumwalt" and the company is not publicly hiring (kimpton.ai; YC page, hiring=False).
 
 ## Defensibility
 
-- **Data integration moat (developing):** FactSet, Plaid (2,500+ brokerages), Massive, and Polymarket integrations create a unified data layer across 120K+ assets (kimpton.ai). Each additional data vendor contract increases switching costs.
-- **Workflow lock-in (developing):** PM mandates and strategies stored in plain-text files (`mandate.md`, `strategy.md`) create personalized context that deepens over time (kimpton.ai).
-- **Domain-specific tooling:** 27 financial tools and agentic orchestration purpose-built for investment research workflows (x.com/KimptonAI).
-- **Founder domain knowledge:** Four years operating a hedge fund with $10M AUM produced proprietary understanding of PM workflows that is difficult to replicate without equivalent operating experience (L3cap.com).
-
-**Market structure:** [Inferred]: Bloomberg and FactSet face business model cannibalization risk — their revenue model is built on terminal/data subscriptions, not autonomous research agents that reduce the need for analyst headcount. Building an agentic layer that automates PM workflows could undercut their existing product value proposition. Additionally, their sales channel is oriented toward data delivery rather than workflow automation.
-
-**Commoditization risk:** General-purpose AI providers (OpenAI, Anthropic) and large platforms (Bloomberg, FactSet) could add agentic investment research features. AlphaSense ($500M+ ARR) and Hebbia ($161M raised) are well-funded adjacent competitors expanding into buy-side workflows (AlphaSense press release, Oct 2025; TechCrunch, Jul 2024). The data vendor integrations are licensable by any competitor with capital.
+- **Moat today:** Operator-built product — founders ran Level III Capital, a digital-asset systematic hedge fund, for ~4 years and "built every research tool they couldn't buy" before productizing (kimpton.ai/about; l3cap.com).
+- **Future moat:** [Inferred]: Switching costs from PM-specific `mandate.md`/`strategy.md` files plus integrations into custodian/PMS systems could create stickiness once mandates are encoded; unproven because no public customer count exists.
+- **Market structure:** [Inferred]: No structural barrier identified at this stage — incumbents (FactSet, AlphaSense, Hebbia) have data and distribution; Kimpton is a thin agentic layer on top of FactSet data it licenses (kimpton.ai data coverage page).
+- **Commoditization risk:** Multiple well-funded competitors (Rogo $165M, Hebbia $159M, AlphaSense $1.39B) and several YC-batch peers are building agentic finance research; LLM + FactSet API is replicable by any team with data licensing (PitchBook; Sacra; CB Insights).
 
 ## Market & Traction
 
-**Traction signals:**
-- Platform launched October 28, 2025 (L3cap.com)
-- Accepted into YC Spring 2026 batch, announced March 4, 2026 (kimpton.ai/news)
-- Twitter/X @KimptonAI: 571 followers, joined October 2025 (x.com/KimptonAI via search snippet)
-- LinkedIn company page: linkedin.com/company/kimptonai (LinkedIn)
-- 120K+ assets covered, 21K+ tickers tracked (kimpton.ai)
-- Regular product updates from October 2025 through March 2026 (kimpton.ai/news): portfolio integration (Jan 2026), chart workspace (Feb 2026), context references (Feb 2026)
-- Customer testimonials from PMs at a hedge fund, mutual fund, and $40B+ sustainable equity fund (kimpton.ai) — no specific user count or revenue disclosed
-- SOC 2 Type II certification in review (kimpton.ai)
-- No Product Hunt listing found
-- No public Discord/Slack community found
-- No public download counts, app store listings, or web traffic estimates found
-
-**Competitive landscape:**
-
-| Competitor | Key differentiator vs. Kimpton | Funding | Revenue/ARR |
-|---|---|---|---|
-| AlphaSense | Broad market intelligence search across 10K+ sources; serves both buy-side and sell-side, corporates | $1.63B total, $650M Series F (Jun 2024) | $500M+ ARR (AlphaSense press release, Oct 2025) |
-| Hebbia | AI knowledge work platform for finance & legal; document analysis focus; not trade-proposal-oriented | $161.1M total, $130M Series B at $700M valuation (TechCrunch, Jul 2024) | $13M ARR (TechCrunch, Jul 2024) |
-| Fintool (acquired by Microsoft, Jan 2026) | Agentic financial document analysis with Excel/PowerPoint/Word output; YC-backed | $7.24M total (Tracxn) | $440K revenue (GetLatka, Sep 2025) |
-| Milemarker Navigator | Wealth management data unification platform; serves RIAs/advisors, not hedge fund PMs | Not disclosed | Not disclosed |
-| Bloomberg Terminal | Incumbent data/analytics terminal; breadth of data but no agentic research automation | N/A (public company) | N/A |
-
-**Why now:**
-- [Inferred]: The enabling catalyst is the maturation of LLM reasoning capabilities (GPT-4 class and beyond, 2023–2025) sufficient to perform multi-step financial analysis — prior LLM generations could not reliably handle quantitative reasoning, as referenced by the mutual fund PM testimonial on hallucination (kimpton.ai).
-- [Inferred]: FactSet and similar data providers have made their data available via APIs, enabling startups to build integrated platforms without the capital expenditure historically required for data licensing.
-- Microsoft's acquisition of Fintool in January 2026 signals large-platform interest in agentic financial AI, validating the category (fintool.com).
+- **Traction signals:**
+  - Data/integration partnerships: FactSet, Tiingo, Massive, Plaid (kimpton.ai).
+  - Coverage breadth: 21,000+ US and international equity tickers, 10+ years fundamental data (kimpton.ai).
+  - YC backing: Spring 2026 (P26) batch (YC company page).
+  - Hiring: False on YC page (YC company page).
+  - No public data found on revenue, paying customers, user counts, social follower counts, Product Hunt launch, or press coverage as of 2026-05-27.
+- **Competitors:**
+  - AlphaSense ($1.39B raised, ~$4B valuation Series E Jun 2024, revenue unknown publicly): broad market-intelligence search over filings, transcripts, broker research; not mandate-driven trade generation (Sacra; CB Insights).
+  - Hebbia ($159M raised, revenue unknown): agentic document analysis at sentence-level proof, used across diligence — horizontal vs. Kimpton's PM-vertical (PitchBook; hebbia.com).
+  - Rogo ($165M raised, $750M post-money Series C Jan 2026, revenue unknown): chat-style finance copilot; broader IB/finance audience vs. Kimpton's buy-side PM focus (Sacra).
+  - Aiera ($25M Series B Jun 2025): transcript/earnings AI; backed by 10 Wall Street banks + Microsoft + Third Bridge (FinTech Global, Jun 2025).
+  - Fintool (acquired by Microsoft, $440K revenue with 4-person team in 2025): equity research AI copilot (GetLatka; fintool.com).
+- **Why now:** [Inferred]: LLM agent reliability crossed a usable threshold for multi-step financial workflows in 2024-2025, and FactSet/data vendors opened programmatic access enabling thin agentic layers — the founders explicitly cite turning their internal stack into a product "in 2025" (kimpton.ai/about).
 
 ## Founders & Team
 
-**Jack Zumwalt** — Co-founder & CEO
-- BS, University of Texas at Dallas; studied Computer Science at University of Oxford (L3cap.com)
-- Summer Analyst at Goldman Sachs (May–Aug 2019); Technology Risk Analyst at Goldman Sachs (Feb 2020–Feb 2021) (search results via Crunchbase, L3cap.com)
-- Founded Level III Capital as CEO & Co-CIO (March 2021), a systematic digital asset trading firm that ran for four years with $10M AUM (L3cap.com, YC page)
-- Twitter/X: @jackszumwalt — follower count not retrievable (x.com)
-- LinkedIn: linkedin.com/in/jack-zumwalt/ (LinkedIn)
-- GitHub: No public repos found
-
-**Mauricio Ortiz** — Co-founder & CTO
-- Engineer on the Critical Infrastructure team at Goldman Sachs, Consumer Wealth Management division (Marcus) (L3cap.com)
-- Co-founded Level III Capital as CTO & Co-CIO; directed development of trading systems and systematic investment strategies (L3cap.com)
-- Twitter/X: No public account found
-- LinkedIn: Not directly confirmed in search results
-- GitHub: No public repos found
-
-**Adrian Del Bosque** — Co-founder & Founding Engineer
-- Partner & Principal Engineer at Level III Capital; leads trading infrastructure and data processing systems (L3cap.com)
-- Prior experience at SpaceX and Vistra Corp (search results via L3cap.com)
-- Education: University of Texas Rio Grande Valley (search results via L3cap.com)
-- Twitter/X: No public account found
-- LinkedIn: linkedin.com/in/adriandelbosque (LinkedIn)
-- GitHub: No public repos found
-
-**Co-founder relationship:** All three co-founders worked together at Level III Capital from its founding (~2021) through the launch of Kimpton (2025) (L3cap.com, YC page). Zumwalt and Ortiz met at a Goldman Sachs intern event approximately 7 years prior to founding Level III (search results via L3cap.com).
-
-**Founder-market fit:** The team spent four years building and operating a quantitative hedge fund (Level III Capital), during which they built the internal technology stack that became Kimpton (L3cap.com launch post, Oct 2025). Zumwalt and Ortiz both held engineering roles at Goldman Sachs. Del Bosque brings infrastructure experience from SpaceX and energy (Vistra Corp). The combination of hands-on PM workflow experience and engineering backgrounds positions the team to build for the buy-side user they previously were.
+- **Jack Zumwalt (Co-founder & CEO):**
+  - Background: Joined Goldman Sachs full-time February 2020 building algorithms to detect cyberattackers; left in 2021 at age 21-22 with Ortiz to co-found Level III Capital (digital-asset systematic hedge fund, Dallas TX, ~$10M raised, ran ~4 years) (kimpton.ai/about; l3cap.com).
+  - Twitter/X: No public account found in search results.
+  - LinkedIn: "Kimpton AI (YC P26)" (linkedin.com/in/jack-zumwalt/, count not retrievable).
+  - GitHub: No public repos found in search results.
+- **Mauricio Ortiz (Co-founder & CTO):**
+  - Background: CS at Goldman Sachs Marcus (Critical Infrastructure / DevOps, joined Feb 2020); Co-founder, CTO & Co-CIO of Level III Capital architecting systematic trading systems for digital assets (l3cap.com; RocketReach).
+  - Twitter/X: No public account found.
+  - LinkedIn: CTO at Kimpton AI / formerly CTO & Co-CIO Level III Capital (linkedin.com Level III Capital posts, count not retrievable).
+  - GitHub: No public repos found in search results.
+- **Adrian Del Bosque (Founding Engineer):**
+  - Background: Founding engineer at Level III Capital, architected systematic trading systems for digital assets prior to Kimpton (linkedin.com/in/adrian-del-bosque-127b49157/).
+  - Twitter/X: No public account found.
+  - LinkedIn: Level III Capital (linkedin.com, count not retrievable).
+  - GitHub: No public repos found in search results.
+- **Co-founder relationship:** Zumwalt and Ortiz met at a Goldman Sachs intern event ~7 years prior to 2025 and both joined Goldman full-time February 2020; Del Bosque joined them at Level III Capital (kimpton.ai/about).
+- **Founder-market fit:** Founders ran a $10M systematic hedge fund for four years and built the internal research stack they are now productizing — direct operator experience as the target user (kimpton.ai/about; l3cap.com). Level III Capital has a separate advisory board (Stuart MacDonald) but no Kimpton-specific advisors or investors beyond YC were found (l3cap.com news post).
 
 ## Key Risks
 
-**Name collision with Kimpton Hotels & Restaurants:** "Kimpton" is a well-known IHG hotel brand. Search results consistently surface Kimpton Hotels Twitter, LinkedIn, and web pages alongside the AI company. This creates SEO/brand confusion and may increase customer acquisition costs or cause trademark friction (observed in Twitter/X search results returning @Kimpton hotel account).
-
-**FactSet data dependency:** Core product functionality relies on FactSet for pricing, fundamentals, estimates, transcripts, ownership, and M&A data (kimpton.ai). FactSet could restrict API access, raise licensing costs, or build competing agentic features. A single data-vendor dependency creates both pricing risk and feature-parity risk.
-
-**Well-funded competitive encroachment:** AlphaSense ($1.63B raised, $500M+ ARR) and Hebbia ($161M raised, a]16 Horowitz-backed) are expanding AI capabilities for buy-side users (AlphaSense press release, Oct 2025; TechCrunch, Jul 2024). Microsoft's acquisition of Fintool signals intent to embed agentic financial AI into Office 365 (fintool.com, Jan 2026). Bloomberg and FactSet have the data assets and distribution to add agentic layers.
-
-**Regulatory and compliance risk in agentic trade proposals:** Generating structured Trade Proposals with targets, stops, and conviction levels may trigger investment adviser registration requirements or fiduciary obligations under SEC/FINRA rules, depending on how the output is framed and used (kimpton.ai). The "Humans make the decisions" positioning mitigates but does not eliminate this risk.
+- **Well-funded incumbents and adjacent competitors:** AlphaSense ($1.39B raised, $4B valuation), Hebbia ($159M), Rogo ($165M, $750M val), and Microsoft (via Fintool acquisition) operate in adjacent buy-side AI research workflows (Sacra; PitchBook; CB Insights). No mitigation found beyond the PM-mandate verticalization.
+- **Data-vendor dependency:** Coverage and product utility hinge on FactSet, Tiingo, Massive, Plaid, and Polymarket licensing terms (kimpton.ai); a price hike or revoked agentic API access by FactSet would directly impair the product.
+- **Regulatory/compliance risk for autonomous trade proposals:** Generating "Trade Proposals" for fiduciary asset managers carries SEC investment-advice and recordkeeping exposure (kimpton.ai product description); the company states "humans make the decisions," but no public data found on compliance certifications (SOC 2, SEC IA registration).
+- **Founder track record unverified externally:** The $10M raise and 4-year run at Level III Capital are sourced to the founders' own about page; no public AUM, performance, or LP disclosures were located in PitchBook/Crunchbase search results (Crunchbase Level III Capital profile; PitchBook).
+- **Distribution risk:** No public Product Hunt launch, press coverage, hiring posts, or social-media presence was found as of 2026-05-27, and the site routes interest to a founder discovery call — limiting top-of-funnel beyond direct outreach (kimpton.ai; YC page).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $4.62B in 2024, projected $38.94B by 2034, 23.76% CAGR (Precedence Research, 2025) |
+| TAM | AI in Asset Management $107.7B in 2025 → $1.168T by 2035, 26.92% CAGR (Market Research Future, 2025) |
 | SAM | No public data found |
-| Traction | 571 Twitter followers (x.com/KimptonAI via search snippet, Apr 2026); YC P26 acceptance (kimpton.ai/news, Mar 2026); platform launched Oct 28, 2025 (L3cap.com); testimonials from PMs at hedge fund, mutual fund, $40B+ equity fund (kimpton.ai) |
-| Revenue Signal | No public data found |
-| Founders | Jack Zumwalt (CEO): Goldman Sachs, Oxford CS, 4-yr hedge fund operator. Mauricio Ortiz (CTO): Goldman Sachs infra engineer, 4-yr hedge fund operator. Adrian Del Bosque (Founding Engineer): SpaceX, Vistra Corp, Level III Capital principal engineer. |
-| Competitors | AlphaSense ($1.63B raised, $500M+ ARR, broad market intelligence vs. Kimpton's PM-specific trade proposals); Hebbia ($161.1M raised, $13M ARR, document analysis vs. Kimpton's agentic workflow); Fintool ($7.24M raised, $440K revenue, acquired by Microsoft Jan 2026, Office-native output vs. Kimpton's standalone platform); Bloomberg Terminal (incumbent, no agentic automation) |
-| Moat Signals | No public data found |
-| Risk Factors | Name collision with Kimpton Hotels brand, FactSet data-vendor dependency, well-funded competitive encroachment from AlphaSense/Hebbia/Microsoft |
-| Founder Reach | Jack Zumwalt: Twitter @jackszumwalt (count not retrievable), LinkedIn linkedin.com/in/jack-zumwalt/. Mauricio Ortiz: no public social accounts found. Adrian Del Bosque: LinkedIn linkedin.com/in/adriandelbosque, no Twitter found. |
-| Distribution Signals | No public data found |
-| Emails | demo@kimpton.ai, info@kimpton.ai (kimpton.ai website) |
+| Traction | YC Spring 2026 (P26) batch (YC page); FactSet, Tiingo, Massive, Plaid data partnerships (kimpton.ai); 21,000+ ticker coverage (kimpton.ai); no public revenue, user, social, or press data found |
+| Revenue Signal | No public data found (no pricing page on kimpton.ai; sales via founder discovery call) |
+| Founders | Jack Zumwalt (CEO): ex-Goldman Sachs, co-founder Level III Capital. Mauricio Ortiz (CTO): ex-Goldman Marcus DevOps, CTO/Co-CIO Level III Capital. Adrian Del Bosque (Founding Engineer): founding engineer Level III Capital. |
+| Competitors | AlphaSense ($1.39B raised, ~$4B val, revenue unknown, broad search platform); Hebbia ($159M raised, revenue unknown, horizontal agentic docs); Rogo ($165M raised, $750M val, revenue unknown, chat copilot for finance); Aiera ($25M Series B 2025, revenue unknown, earnings/transcript AI); Fintool ($440K rev 2025, acquired by Microsoft) |
+| Moat Signals | Operator-built (founders ran Level III Capital $10M hedge fund ~4 years before productizing) (kimpton.ai/about) |
+| Risk Factors | Well-funded incumbents (AlphaSense/Hebbia/Rogo), FactSet data-vendor dependency, regulatory exposure on autonomous trade proposals |
+| Founder Reach | Jack Zumwalt: Twitter not found, LinkedIn count not retrievable, GitHub not found. Mauricio Ortiz: Twitter not found, LinkedIn count not retrievable, GitHub not found. Adrian Del Bosque: Twitter not found, LinkedIn count not retrievable, GitHub not found. |
+| Distribution Signals | No public data found (no Product Hunt, Chrome store, app store, or press signals located) |
+| Emails | info@kimpton.ai (kimpton.ai) |
+
+Sources:
+- [Kimpton AI YC page](https://www.ycombinator.com/companies/kimpton-ai)
+- [Kimpton AI website](https://kimpton.ai)
+- [Kimpton About](https://kimpton.ai/about)
+- [Jack Zumwalt LinkedIn](https://www.linkedin.com/in/jack-zumwalt/)
+- [Level III Capital](https://www.l3cap.com/about)
+- [Mauricio Ortiz profile](https://www.l3cap.com/mauricio-ortiz)
+- [Adrian Del Bosque LinkedIn](https://www.linkedin.com/in/adrian-del-bosque-127b49157/)
+- [Rogo valuation - Sacra](https://sacra.com/c/rogo/)
+- [AlphaSense funding - Sacra](https://sacra.com/c/alphasense/)
+- [Hebbia PitchBook](https://pitchbook.com/profiles/company/439260-40)
+- [Aiera Series B - FinTech Global](https://fintech.global/2025/06/10/generative-ai-platform-aiera-raises-25m-series-b-round/)
+- [Fintool revenue - GetLatka](https://getlatka.com/companies/fintool.com)
+- [AI in Asset Management market - MRFR](https://www.marketresearchfuture.com/reports/ai-in-asset-management-market-26543)

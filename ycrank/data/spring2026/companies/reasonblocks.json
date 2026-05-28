@@ -1,76 +1,46 @@
 {
   "slug": "reasonblocks",
   "name": "ReasonBlocks",
-  "oneLiner": "Infra layer for smarter and cheaper AI agents",
+  "oneLiner": "The runtime layer that makes AI agents cheaper and more reliable",
   "metadata": {
     "website": "https://reasonblocks.com/",
     "yc_page": "https://www.ycombinator.com/companies/reasonblocks",
-    "batch": "Spring 2026 (YC page)",
+    "batch": "Spring 2026",
     "industry": "B2B / B2B",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Artificial Intelligence, SaaS, B2B",
-    "yc_partner": "Aaron Epstein (YC page)",
+    "tags": "SaaS, B2B, AI",
+    "yc_partner": "Aaron Epstein",
     "emails": "No public data found"
   },
   "tags": [
-    "Artificial Intelligence",
     "SaaS",
-    "B2B"
+    "B2B",
+    "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-05-05T04:28:53.341Z",
+  "memoGeneratedAt": "2026-05-28T02:32:40.226Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 42,
+      "score": 31,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 35,
-    "EG": 42,
-    "NR": 53,
-    "PG": 48,
-    "PT": 36,
-    "SL": 37,
-    "VK": 42
+    "CB": 31,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 41.86,
-  "consolidatedRank": 74,
+  "consolidatedAvg": 31,
+  "consolidatedRank": 179,
   "paths": {
     "memo": "spring2026/memos/reasonblocks.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/reasonblocks.md",
-      "elad-gil": "spring2026/evals/elad-gil/reasonblocks.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/reasonblocks.md",
-      "paul-graham": "spring2026/evals/paul-graham/reasonblocks.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/reasonblocks.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/reasonblocks.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/reasonblocks.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/reasonblocks.md"
     }
   }
 }

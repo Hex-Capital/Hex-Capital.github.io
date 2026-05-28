@@ -9,112 +9,91 @@
 | Batch | Spring 2026 |
 | Industry | B2B / B2B -> Engineering, Product and Design |
 | Team Size | 2 |
-| Location | No public data found |
+| Location | San Francisco, CA, USA |
 | Tags | Education, Video, Edtech |
 | YC Partner | Pete Koomen |
-| Emails | founder@laminalabs.ai |
+| Emails | No public data found |
 
 ## The Idea
 
-**Problem:** Creating visual educational content (animated explainers, whiteboard-style walkthroughs) is slow and expensive. Traditional tools like Manim (the open-source Python library used by 3Blue1Brown) require programming expertise; After Effects and similar tools require design skills. Educators, students, and course creators who want step-by-step visual explanations must either invest significant time in manual animation or pay for professional production. The company's website states: "the only way to learn a difficult thing is to watch someone else draw it" (laminalabs.ai).
-
-**Approach:** Lamina Labs' product, Simi (previously called Pictor), converts a single text prompt into a whiteboard-style animated explainer video in seconds (laminalabs.ai). The system generates deterministic animations described as "mathematically precise," prioritizing accuracy over cinematic polish (Facebook/Nepali media posts via search snippet). The workflow is: type a prompt → Simi generates the animation → watch → share. The product is accessible at app.laminalabs.ai and is currently waitlist-gated (laminalabs.ai).
-
-**Differentiation:** Versus Manim (open-source): Simi requires no code — prompt-to-video vs. Python scripting. Versus Knowlify (YC S25, $3M seed): Knowlify targets enterprise teams for training/product explainer videos from uploaded documents; Lamina Labs targets educational content with whiteboard-style step-by-step animations (YC page, Knowlify YC page). Versus TMA.live: TMA.live also generates 3Blue1Brown-style videos using Manim + LLMs but faced accuracy issues noted by Hacker News commenters (93 upvotes, 46 comments; HN, Jan 2025). Lamina Labs emphasizes deterministic, mathematically precise output rather than LLM-generated Manim code. Versus Synthesia/HeyGen/Colossyan: those platforms focus on avatar-based talking-head videos for enterprise communications rather than step-by-step educational diagramming.
-
-**Business Model:** No pricing page found on laminalabs.ai. The product is currently in waitlist-based early access. [Inferred]: Most likely monetization path is a SaaS subscription model (freemium or tiered), given the B2B EdTech positioning and the precedent set by competitors like Knowlify and Synthesia.
-
-**TAM/SAM:**
-- AI in education market: $5.88B in 2024, projected $32.27B by 2030, CAGR 31.2% (Grand View Research via search snippet)
-- Generative AI in EdTech: $0.53B in 2025, projected $2.24B by 2029, CAGR 43.7% (Research and Markets via search snippet)
-- Educational video licensing market: $3.99B in 2025, growing to $4.62B in 2026 at 15.9% CAGR (GlobeNewsWire, Mar 2026 via search snippet)
-
-**GTM / Distribution:** The website offers a "Get Started" flow directing to app.laminalabs.ai with a waitlist. The company also offers a "Book a Call" page, suggesting a sales-assisted motion for larger accounts (laminalabs.ai). [Inferred]: Initial distribution likely through direct outreach to EdTech platforms and educational institutions, leveraging YC network and the MIT/education community.
+- **Problem:** Educators, course creators, and students lack a way to produce accurate visual explanations quickly; existing manual tools like Manim and After Effects "can be slow and expensive for creating educational content" (search snippet via Lamina Labs marketing material).
+- **Approach:** Simi (and a related product "Pictor") converts text prompts and documents (PowerPoint, PDF, Word, TXT, Markdown) into whiteboard-style explainer videos using deterministic animation said to render in under 8–11 seconds (laminalabs.ai; aaronsiim post on X, status 2045493855496323248).
+- **Differentiation:** Versus Golpo AI (whiteboard explainer videos for education/training) the cited differentiator is generation speed; versus Manim/After Effects the difference is automation from a prompt rather than manual coding/animation (search snippets, laminalabs.ai).
+- **Business Model:** Website offers a free trial via app.laminalabs.ai/simi with no pricing tier published (laminalabs.ai fetch, May 2026); [Inferred]: SaaS subscription targeting course creators and customer-training teams listed as personas on the homepage.
+- **TAM/SAM:** No public TAM/SAM data found for this specific segment.
+- **GTM / Distribution:** [Inferred]: Direct-to-creator/educator self-serve via the web app plus founder-led sales (homepage links to "lamina-labs.cal.com/lamina" for founder calls), reinforced by founder posts on LinkedIn/X (laminalabs.ai; LinkedIn posts by Mishra activity 7450392800271175680 and Rokaya activity 7438096805084495872).
 
 ## Defensibility
 
-- **Speed:** An X/Twitter user (@aaronsiim) described Lamina Labs delivering a whiteboard explainer in 11 seconds while competitors took 15+ minutes (X.com via search snippet). Speed advantage implies a custom rendering pipeline rather than off-the-shelf Manim + LLM approach.
-- **Deterministic accuracy:** The company emphasizes mathematically precise, deterministic animation — a direct response to the accuracy problems plaguing LLM-to-Manim competitors like TMA.live (HN discussion, Jan 2025).
-- [Inferred]: Potential moat could develop via a proprietary animation engine optimized for educational content and an accumulating dataset of prompt-to-animation mappings, but this is unproven at this stage.
-
-**Market structure:** Synthesia ($4B valuation, $146M ARR; Synthesia blog, Jan 2026) and HeyGen (~$95M ARR; Sacra, Sep 2025) dominate avatar-based enterprise video but serve a different use case (corporate communications, not step-by-step educational diagramming). [Inferred]: These incumbents' product architecture (avatar/talking-head video) and enterprise GTM do not naturally extend to whiteboard-style educational animation, creating a structural gap rather than direct competition.
-
-**Commoditization risk:** The approach of prompt-to-educational-animation is being attempted by multiple startups (TMA.live, Knowlify, Leap MCP tool) and is achievable by combining open-source Manim with commercial LLMs. The barrier is accuracy and speed at scale, not conceptual novelty.
+- **Moat today:** No defensibility signals found in public sources beyond a stated "deterministic" rendering approach that claims "every frame is mathematically precise" (search snippet attributed to Lamina Labs materials).
+- **Future moat:** [Inferred]: If the deterministic visual generation engine becomes an API/infrastructure layer used by other EdTech applications (per the YC tagline "visual infrastructure for EdTech AI applications"), embedded integration and library of education-specific primitives could create switching costs; unproven now because no API customers or integrations are disclosed.
+- **Market structure:** [Inferred]: No structural barrier identified at this stage; horizontal AI video tools (Synthesia, Pictory) and well-funded education-specific entrants (Golpo AI) can target the same buyer.
+- **Commoditization risk:** Multiple funded and unfunded entrants—Golpo AI ($4.1M seed, Oct 2025; The SaaS News), Samvity AI, X-Pilot, Mootion, and Manim-based open-source workflows—are pursuing AI explainer video generation (search snippets).
 
 ## Market & Traction
 
-**Traction signals:**
-- Currently waitlist-based; the company uses waitlist responses to decide onboarding order (laminalabs.ai)
-- No public user counts, revenue, or download numbers found
-- YouTube channel exists: @LaminaLabs (youtube.com) — no subscriber count retrievable
-- Company Twitter/X: @laminalabs (YC page) — follower count not retrievable
-- Company LinkedIn: lamina-labs (YC page) — follower count not retrievable
-- Founder Twitter/X: @mk314k (Kartikesh Mishra), @itsrealranky (Sudip Rokaya) — counts not retrievable
-- X post from @aaronsiim praised 11-second generation speed (X.com via search snippet)
-- Featured on f4.fund startup directory (f4.fund/startups/laminalabs)
-- Listed on Dealroom (app.dealroom.co/companies/lamina_labs) and Crunchbase (crunchbase.com/organization/lamina-labs)
-- 0 open job postings (YC page)
-- Product renamed from Pictor to Simi at an unconfirmed date, indicating iteration
-
-**Competitive landscape:**
-
-| Competitor | Funding | Revenue/ARR | Key Differentiator vs. Lamina Labs |
-|---|---|---|---|
-| Knowlify (YC S25) | $3M seed (American Bazaar, Oct 2025) | Revenue unknown | Enterprise focus; document-to-video; customers include Google, Amazon teams (Knowlify YC launch page) |
-| Synthesia | $530M+ total, $4B valuation (Synthesia blog, Jan 2026) | $146M ARR (Sep 2025; Sacra) | Avatar-based talking-head video, not educational diagramming |
-| TMA.live | No public data found | No public data found | Manim-based 3B1B-style; accuracy issues noted (HN, Jan 2025) |
-| Colossyan | $22M Series A (2023 via search snippet) | Revenue unknown | Education/SMB avatar video; more polished UX vs. whiteboard style |
-| VidRush | No public data found | No public data found | YouTube long-form video production; $99/mo pricing (vidrush.ai) |
-
-**Why now:** [Inferred]: The catalyst is the convergence of LLM capability improvements (GPT-4, Claude, Gemini enabling reliable structured output for animation parameters) with the cost collapse of inference, making real-time prompt-to-animation feasible at consumer-grade price points. The 3Blue1Brown style of visual education has proven massive audience demand (YouTube channel: 6M+ subscribers), but the creation tooling has remained code-heavy until 2024–2025.
+- **Traction signals:**
+  - Founder testimonial post on X by Aaron Siim: "Watching Lamina Labs deliver a whiteboard explainer in 11 seconds while others are still generating 15 minutes later" (x.com/aaronsiim/status/2045493855496323248).
+  - Kartikesh Mishra LinkedIn post about building Simi at Lamina Labs (LinkedIn activity 7450392800271175680).
+  - Sudip Rokaya LinkedIn post "Leaving MIT to build the next generation…" (LinkedIn activity 7438096805084495872) and "You don't need a $2M pre-seed to start building" (activity 7441358175095635968).
+  - Company Twitter/X handle @laminalabs and LinkedIn page linkedin.com/company/lamina-labs exist; follower counts not retrievable.
+  - No Product Hunt launch found for the current company (the producthunt.com/products/lamina entry is an unrelated 2018 "Lamina" deep-learning API by Yan Chummar — name collision noted).
+  - No press coverage, app store, Chrome extension, Discord, or job postings found in public sources.
+- **Competitors:**
+  - Golpo AI ($4.1M seed Oct 2025 led by BNVT Capital with Emergence, YC, Afore; revenue unknown; The SaaS News, Finsmes): AI-native explainer video platform also targeting education/training, more funding and enterprise integration focus.
+  - Synthesia (raised >$150M per public reporting; revenue unknown in this search): avatar-led corporate video, not whiteboard/education-math focus (search snippet).
+  - Pictory (funding/revenue unknown in this search): script/article-to-video aimed at marketing aesthetics rather than deterministic educational explainers (search snippet).
+  - Samvity AI (funding unknown; samvity.com): YouTube-style educational explainer animations positioned explicitly against Manim/After Effects (samvity.com snippet).
+  - Mootion (funding unknown): professional explainer video production with 4K and editing controls, broader use-case scope (search snippet).
+- **Why now:** [Inferred]: Diffusion/LLM-driven generative video crossed a usable-quality threshold in 2024–2025, and the launch of Golpo 2.0 plus its $4.1M seed in October 2025 signals capital and buyer attention concentrating on the AI explainer-video category (The SaaS News, Oct 2025).
 
 ## Founders & Team
 
-**Kartikesh Mishra** — Co-founder
-- MIT BS '24 (Computer Science & Engineering and Mathematics), MIT MEng '25 (YC page)
-- Research at MIT CSAIL under Prof. Daniela Rus on drone natural language command-following using images and reinforcement learning (GitHub search results via search snippet)
-- Teaching assistant for ML and Computer Vision courses at MIT; mentored high school students via Momentum AI (GitHub search results via search snippet)
-- Twitter/X: @mk314k — follower count not retrievable
-- LinkedIn: linkedin.com/in/mk314k — "MIT BS '24, MEng '25 | CSE and Mathematics | Software Developer | ML Researcher" (LinkedIn via search snippet)
-- GitHub: github.com/mk314k — 17 followers; notable projects include 3DAttnVAE-GAN (VAE-GAN for 3D shape from 2D images), Gemini-Hack-2025-SpecForge (GitHub)
-
-**Sudip Rokaya** — Co-founder
-- MIT CS & Math (on leave) (YC page)
-- From Nepal; accepted to MIT for undergraduate education (Facebook/NASO Nepal post via search snippet)
-- Previously: Co-Founder at Harmonic (Whitebridge.AI via search snippet)
-- LinkedIn post: "Leaving MIT to build the next generation" (LinkedIn, via search snippet)
-- Twitter/X: @itsrealranky — follower count not retrievable
-- LinkedIn: linkedin.com/in/sudip-rokaya-675604279 — listed as "CEO - Stealth Startup" / Lamina Labs (LinkedIn via search snippet)
-- GitHub: github.com/itsrealranky — ghostclaw repo ("Grandfather of Openclaw," AI agent project) (GitHub)
-
-**Additional team context:** Multiple Nepali media posts reference "Sudip Rokaya from MIT and Rohan Bhattarai from Caltech" in connection with Lamina Labs and YC acceptance (Facebook/Nepali media via search snippet). Rohan Bhattarai is not listed as a founder on the YC page (which lists only Kartikesh Mishra and Sudip Rokaya), but may be a team member or advisor. His LinkedIn indicates a Caltech affiliation (LinkedIn via search snippet).
-
-**Co-founder relationship:** Both Kartikesh Mishra and Sudip Rokaya attended MIT, with overlapping time periods (Kartikesh BS '24 / MEng '25; Sudip on leave from MIT CS & Math), indicating they likely met at MIT.
-
-**Founder-market fit:** Both founders have MIT computer science backgrounds with coursework and research relevant to ML, computer vision, and 3D/visual generation — directly applicable to building an AI animation engine. Kartikesh's CSAIL research on visual-language models and his 3D shape generation project align with the visual infrastructure challenge. Sudip's prior startup experience (Harmonic) provides entrepreneurial context.
+- **Kartikesh Mishra (Co-founder):**
+  - Background: MIT EECS BS'24, MEng'25; MIT CSAIL research under Prof. Daniela Rus on training drones to follow natural-language commands via images and RL; finalist Google PM Hackathon 2024 (LinkedIn linkedin.com/in/mk314k; mk314k.github.io).
+  - Twitter/X: @mk314k (count not retrievable); also @Kartikeshmishr4 listed on X (search results).
+  - LinkedIn: "MIT BS '24, MEng '25 | CSE and Mathematics | Software Developer | ML Researcher" (linkedin.com/in/mk314k).
+  - GitHub: @mk314k, 22 followers; top repo 3DAttnVAE-GAN 14 stars (github.com/mk314k).
+- **Sudip Rokaya (Co-founder):**
+  - Background: MIT CS & Math, on leave (YC page); originally from Nepal per public Facebook coverage of Nepali MIT students (facebook.com/officialroutineofnepalbanda post 1331808938980999).
+  - Twitter/X: @itsrealranky (count not retrievable) (YC page links).
+  - LinkedIn: linkedin.com/in/sudip-rokaya-675604279 (headline not captured in search snippet).
+  - GitHub: No public repos found.
+- **Co-founder relationship:** Both attended MIT (YC page, LinkedIn profiles).
+- **Founder-market fit:** Mishra's MIT EECS/CSAIL ML research background aligns with the deterministic generative-video core, and Rokaya is the public-facing builder ("Leaving MIT to build the next generation…", LinkedIn activity 7438096805084495872); no advisors or named investors beyond YC found in public sources.
 
 ## Key Risks
 
-**Commoditization via LLM + Manim stacks:** Multiple projects (TMA.live, Leap, MathMatrixMovies) already combine open-source Manim with commercial LLMs to achieve similar prompt-to-animation output. If the deterministic accuracy advantage does not hold or cannot be sustained, the product becomes one of many wrappers. Mitigation: the company claims a proprietary rendering approach emphasizing speed and mathematical precision.
-
-**Knowlify competitive overlap:** Knowlify (YC S25) raised $3M, has enterprise customers (Google, Amazon, Supabase teams), and targets a similar space — AI-generated explainer videos from prompts/documents (American Bazaar, Oct 2025). Knowlify's head start in funding, batch timing, and enterprise traction creates direct competitive pressure. Mitigation: Lamina Labs' whiteboard/educational focus may differentiate from Knowlify's enterprise training focus.
-
-**Name confusion with Lamin Labs:** "Lamin Labs" (lamin.ai, YC S22) is a separate, well-established company building open-source data infrastructure for biology with significant GitHub presence. Search results frequently conflate the two. This could cause discoverability and branding challenges.
-
-**Product pivot signal:** The product was previously called Pictor and has been renamed to Simi, with the tagline shifting. Frequent renaming at pre-seed can indicate ongoing product-market fit exploration. The prior product description ("high-quality explainer videos in under 8 seconds") differs from the current framing ("whiteboard-style explainer videos").
+- **Better-funded direct competitor:** Golpo AI raised $4.1M seed in October 2025 from BNVT Capital, Emergence Capital, YC, and Afore Capital and launched Golpo 2.0 explicitly targeting "education, training, and technical content" (The SaaS News; Finsmes), overlapping Lamina's stated buyer set; no mitigation disclosed publicly.
+- **Name collision and brand discoverability:** "Lamina" is shared with an unrelated 2018 Product Hunt deep-learning-API project (producthunt.com/products/lamina) and is near-identical to Lamini ($25M+ funded LLM-platform company; lamini.ai), which can dilute search and PR (search results).
+- **Unverifiable traction:** No public revenue, user counts, waitlist size, app-store metrics, or press coverage were located; the only public engagement signals are individual LinkedIn/X posts by the founders and one third-party X mention (aaronsiim status 2045493855496323248).
+- **Technical positioning depends on continued speed advantage:** Marketing claim of 8–11-second generation (laminalabs.ai; aaronsiim X post) is the primary stated differentiator versus competitors; [Inferred]: if rivals reach comparable latency, the deterministic-rendering claim alone may not anchor the wedge.
+- **Two-person team executing both infrastructure and application layers:** YC description frames the company as "visual infrastructure" while the live product is a vertical application (Simi), creating scope split between API/platform and end-user product with no third hire indicated (YC page; laminalabs.ai).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | AI in education: $5.88B (2024), projected $32.27B by 2030, CAGR 31.2% (Grand View Research via search snippet) |
-| SAM | Generative AI in EdTech: $0.53B (2025), projected $2.24B by 2029, CAGR 43.7% (Research and Markets via search snippet) |
-| Traction | No public data found |
-| Revenue Signal | No public data found |
-| Founders | Kartikesh Mishra (Co-founder): MIT BS '24 / MEng '25, CSAIL ML research. Sudip Rokaya (Co-founder): MIT CS & Math (on leave), prev. Co-founder at Harmonic |
-| Competitors | Knowlify ($3M seed, revenue unknown, enterprise doc-to-video; American Bazaar, Oct 2025), Synthesia ($530M+ raised, $146M ARR, avatar enterprise video; Sacra/Synthesia blog), TMA.live (funding unknown, revenue unknown, Manim-based 3B1B-style; HN Jan 2025), Colossyan ($22M Series A, revenue unknown, education/SMB avatar video; search snippet) |
-| Moat Signals | No public data found |
-| Risk Factors | Commoditization via open-source Manim + LLM stacks, direct competition from better-funded Knowlify (YC S25), brand confusion with Lamin Labs (YC S22) |
-| Founder Reach | No public data found (Twitter/LinkedIn follower counts not retrievable for either founder or company accounts) |
-| Distribution Signals | No public data found |
-| Emails | founder@laminalabs.ai (laminalabs.ai) |
+| TAM | No public data found |
+| SAM | No public data found |
+| Traction | Third-party X testimonial on speed (aaronsiim X status 2045493855496323248); founder LinkedIn posts (Mishra activity 7450392800271175680; Rokaya activities 7438096805084495872 and 7441358175095635968); no Product Hunt, press, or user-count data found |
+| Revenue Signal | Free trial at app.laminalabs.ai/simi; no pricing published (laminalabs.ai, May 2026) |
+| Founders | Kartikesh Mishra (Co-founder): MIT EECS BS'24/MEng'25, MIT CSAIL ML research. Sudip Rokaya (Co-founder): MIT CS & Math on leave |
+| Competitors | Golpo AI ($4.1M seed Oct 2025, revenue unknown, better-funded education explainer video; The SaaS News); Synthesia (>$150M raised per public reporting, revenue unknown, avatar/corporate focus); Pictory (funding unknown, revenue unknown, marketing video focus); Samvity AI (funding unknown, revenue unknown, YouTube-style educational animations); Mootion (funding unknown, revenue unknown, broader explainer use cases) |
+| Moat Signals | Stated "deterministic" frame-accurate animation engine (search snippets attributed to Lamina materials); no IP, data, or network-effect evidence found |
+| Risk Factors | Better-funded direct competitor (Golpo AI), name collision with Lamini/2018 Lamina, no verifiable traction metrics |
+| Founder Reach | Kartikesh Mishra: Twitter @mk314k count not retrievable, LinkedIn linkedin.com/in/mk314k, GitHub @mk314k 22 followers / top repo 14 stars. Sudip Rokaya: Twitter @itsrealranky count not retrievable, LinkedIn linkedin.com/in/sudip-rokaya-675604279, GitHub no public repos found |
+| Distribution Signals | Company X account @laminalabs and LinkedIn linkedin.com/company/lamina-labs exist (follower counts not retrievable); founder call booking at lamina-labs.cal.com/lamina (laminalabs.ai); no Product Hunt, Chrome Web Store, or app store presence found |
+| Emails | No public data found |
+
+Sources:
+- [Lamina Labs – Y Combinator](https://www.ycombinator.com/companies/lamina-labs)
+- [Simi by Lamina Labs](https://laminalabs.ai/)
+- [Kartikesh Mishra GitHub](https://github.com/mk314k)
+- [Kartikesh Mishra LinkedIn](https://www.linkedin.com/in/mk314k/)
+- [Sudip Rokaya LinkedIn](https://www.linkedin.com/in/sudip-rokaya-675604279/)
+- [Aaron Siim on X re: Lamina Labs](https://x.com/aaronsiim/status/2045493855496323248)
+- [Golpo AI Raises $4.1M – The SaaS News](https://www.thesaasnews.com/news/golpo-ai-raises-4-1-million-in-seed-round)
+- [Golpo Raises $4.1M – Finsmes](https://www.finsmes.com/2025/10/golpo-raises-4-1m-in-seed-funding.html)
+- [Samvity AI](https://www.samvity.com/)
+- [Product Hunt – unrelated 2018 "Lamina"](https://www.producthunt.com/products/lamina?launch=lamina)

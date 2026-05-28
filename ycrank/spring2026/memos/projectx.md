@@ -1,132 +1,111 @@
 ﻿# ProjectX
 
-> Building Infinity: the computer that does everything at once.
+> Infinity: the first OS where humans and agents work with no limits.
 
 | Field | Value |
 |-------|-------|
 | Website | https://www.projectx.cloud/ |
 | YC Page | https://www.ycombinator.com/companies/projectx |
-| Batch | Spring 2026 |
+| Batch | Spring 2026 (YC P26) |
 | Industry | B2B / B2B -> Infrastructure |
-| Team Size | 6 |
-| Location | Kalyani, West Bengal, India (Startup Story Media); San Francisco also listed (@ProjectX_Cloud X bio) |
-| Tags | |
-| YC Partner | Andrew Miklas |
-| Emails | bishal@projectx.cloud (GitHub profile of CTO) |
+| Team Size | 6 (YC page); Tracxn reports 26 as of Apr 2026 |
+| Location | San Francisco, CA, USA |
+| Tags | Marketplace, DevOps, Cloud Computing, Infrastructure, AI |
+| YC Partner | Andrew Miklas (YC page) |
+| Emails | b***@projectx.cloud (ZoomInfo, redacted); no other public emails found |
 
 ## The Idea
 
-**Problem:** Every conventional computer restricts users to a single-focus model — one cursor, one keyboard, one app in focus (YC page). Users needing high-performance computing are constrained by local hardware costs, and running heterogeneous workloads (Windows + Linux, human + AI agent) requires separate machines or complex virtualization. Current solutions include traditional VDI (Citrix, VMware), cloud desktops (Azure Virtual Desktop, Amazon WorkSpaces), and emerging browser-based platforms (Neverinstall, Vagon), all of which impose single-session or single-OS paradigms.
-
-**Approach:** Infinity is a cloud-based operating system accessible via a single URL that runs every application in its own independent virtual computer, each with dedicated GPU, input, and environment (YC page). It supports Windows and Linux applications in the same session, enables human and AI agent workflows side by side, with cold start in seconds (YC page). The public beta was announced on June 28, 2024 (Business Standard, July 2024).
-
-**Differentiation:** Unlike traditional DaaS providers (Citrix, Workspot, Azure Virtual Desktop) that provision a single virtual desktop per session, Infinity provisions per-application isolated compute environments with dedicated GPUs within one browser session (YC page). Unlike Neverinstall and Vagon, which stream a single desktop or application, Infinity's architecture supports concurrent multi-OS execution and native agent co-working. [Inferred]: The per-app isolation model could reduce blast radius from crashes and enable finer-grained resource allocation compared to monolithic desktop approaches.
-
-**Business Model:** No public pricing page was found; the website returned a minimal/loading page at time of research. [Inferred]: Most likely monetization path is consumption-based SaaS pricing (per-GPU-hour or per-seat subscription) given the cloud compute infrastructure underpinning the product, consistent with the "flexible billing" language used in press materials (Business Standard, July 2024).
-
-**TAM/SAM:** The global Desktop-as-a-Service (DaaS) market was estimated at USD 4.5–9.82 billion in 2025, depending on analyst scope, growing at 11.67–19.4% CAGR (OpenPR, 2026; Research Nester, 2025). The broader desktop virtualization market was valued at USD 33.39 billion in 2025 and projected to reach USD 174.29 billion by 2034 (Fortune Business Insights via search snippet). [Inferred]: ProjectX's SAM is the subset of DaaS targeting power users, developers, and enterprises requiring multi-app GPU workloads — likely a fraction of the total DaaS market.
-
-**GTM / Distribution:** [Inferred]: Distribution is likely product-led via the browser-based single-URL access model, targeting developers and technical users initially. The company's India origins and grants from Indian government ministries suggest early traction may come from Indian enterprise and education markets. The YC batch and San Francisco presence indicate a pivot toward US enterprise distribution.
+- **Problem:** Conventional OSes constrain users to "one cursor, one keyboard, one hardware, one app in focus," which the company frames as a constraint for emerging human + AI-agent workflows where agents need parallel compute (company description, YC page).
+- **Approach:** InfinityOS runs each application in its own cloud "computer" with dedicated GPU, input, and environment, mixing Windows and Linux in a single browser-accessed session with cold start in seconds (company description, YC page).
+- **Differentiation:** Tracxn lists Canonical, OpenStack, and Neverinstall as top competitors; vs. Amazon WorkSpaces / Nutanix Frame / Neverinstall which stream a single OS desktop, ProjectX claims per-app isolated VMs with independent GPUs concurrent in one session (Tracxn 2026; G2 alternatives listing).
+- **Business Model:** No pricing page accessible at time of research — website returned a loading screen on WebFetch; [Inferred]: consumption / per-session GPU compute billing given the per-app dedicated-GPU architecture described on the YC page.
+- **TAM/SAM:** Desktop-as-a-Service market projected at $10.5B (Gartner, 2026, via search snippet) and $9.82B in 2025 growing 19.4% CAGR (Research Nester, via search snippet); no public SAM figure tied to "agent-native OS" segment.
+- **GTM / Distribution:** [Inferred]: Browser-delivered self-serve trial given "runs on the browser of any device" (YC page); no public GTM or partnership data found.
 
 ## Defensibility
 
-- **Technical complexity:** Building a per-app isolated cloud OS with independent GPU allocation, sub-second cold starts, and cross-OS (Windows + Linux) support in a single session represents substantial systems engineering (YC page). [Inferred]: The GPU orchestration and multi-OS container orchestration layer is non-trivial to replicate, providing a temporary technical moat.
-- **No public IP/patent data found.**
-- [Inferred]: Potential defensibility could develop via data/usage advantages (workload optimization from aggregate usage patterns) and switching costs (users building workflows around the multi-app paradigm), but these are unproven at this stage.
-
-**Market structure:** Large incumbents (Microsoft, Amazon, Citrix) offer single-desktop VDI/DaaS. [Inferred]: A per-app isolation model with mixed OS support would require incumbents to re-architect their desktop streaming stacks, which conflicts with their existing per-desktop licensing models. Microsoft's Windows 365 is built around streaming a full Windows desktop — offering per-app Linux+Windows compute would cannibalize Azure Virtual Desktop's positioning. However, no structural barrier prevents a greenfield competitor from building a similar architecture.
-
-**Commoditization risk:** Neverinstall and Vagon are building adjacent browser-based cloud compute products with modest funding ($1.21M and $542K respectively) (Tracxn; Crunchbase). A well-funded new entrant or an incumbent extending their platform could replicate the per-app model. [Inferred]: The primary differentiation hinges on execution quality of GPU orchestration and cold-start performance, which are reproducible given sufficient engineering investment.
+- **Moat today:** No defensibility signals (patents, exclusive partnerships, scaled customer base) found in public sources at time of research.
+- **Future moat:** [Inferred]: Per-app GPU virtualization stack and low-latency multi-VM session orchestration could become a technical moat if "cold start in seconds" performance claim (YC page) holds at scale; unproven publicly today.
+- **Market structure:** [Inferred]: Hyperscaler DaaS offerings (AWS WorkSpaces, Azure Virtual Desktop) optimize whole-desktop streaming and would need to re-architect billing and session models to support per-app GPU isolation, but no structural barrier preventing this is documented.
+- **Commoditization risk:** Established cloud-desktop vendors (Kasm, Neverinstall, Frame, Shadow.tech) and hyperscaler GPU pools could replicate per-app session orchestration; Paperspace was acquired by DigitalOcean for $111M in cash (TechCrunch, Jul 2023), showing incumbents are actively buying into the GPU-cloud workspace space.
 
 ## Market & Traction
 
-**Traction signals:**
-- $204K seed funding from Google Cloud (December 29, 2023) (Crunchbase; The Company Check Blog)
-- Rs 10 lakh (~$12K) in grants from India's Ministry of Commerce and Ministry of Electronics and IT (LinkedIn company page; Startup Story Media)
-- Over Rs 50 lakh (~$60K) in grants/credits from Microsoft Founder's Programme and AWS Activate (LinkedIn company page; Startup Story Media)
-- Winner, Tiger Launch Global Finals at Princeton University — recognized as India's best student startup (Startup Story Media)
-- Winner, World Trade Center Innovation Award at Eureka IIT Bombay, among 17,000 competing startups (Startup Story Media)
-- Pursuing $3M seed round (Startup Story Media)
-- LinkedIn: 1,542 followers (LinkedIn company page)
-- Twitter/X: @ProjectX_Cloud (joined February 2024) — follower count not retrievable
-- GitHub organization: github.com/projectXcloud — repo count and stars not retrieved
-- Instagram: @projectx.cloud — follower count not retrieved
-- Press: Business Standard coverage (July 6, 2024, via ANI press release); Startup Story Media coverage of Google Cloud grant and WTC Innovation Award
-- No Product Hunt listing found
-- No Discord or Slack community found
-- No app store listing found
-- Website not fully accessible at time of research (returned loading/minimal page)
-- No active job postings (YC page: 0 jobs listed)
-
-**Competitive landscape:**
-
-| Competitor | Funding | Key Differentiator vs. ProjectX |
-|---|---|---|
-| **Neverinstall** (Bengaluru) | $1.21M total, Seed (Tracxn) | Browser-based cloud PC with pre-installed apps; single-desktop model, no per-app GPU isolation or multi-OS support |
-| **Vagon** (California) | $542K total, Seed (Crunchbase) | Cloud streaming workstations with Unity partnership (August 2024); focuses on GPU-heavy creative apps, not multi-OS or agent workflows |
-| **Workspot** (Menlo Park) | $84.65M total, Series E (Tracxn) | Enterprise cloud-native DaaS with global scale; traditional per-desktop model, targets large enterprise IT departments |
-| **Microsoft Azure Virtual Desktop / Windows 365** | N/A (incumbent) | Full Windows desktop streaming backed by Azure infrastructure; no Linux co-execution or per-app GPU isolation in same session |
-| **Amazon WorkSpaces** | N/A (incumbent) | AWS-native managed DaaS; single-OS desktop per workspace, no per-app isolation model |
-
-**Why now:** [Inferred]: GPU cloud costs have dropped significantly with increased supply from hyperscalers (AWS, GCP, Azure) expanding GPU fleets for AI workloads in 2023–2025, making per-app GPU allocation economically feasible. The rise of AI agent workflows (2024–2025) creates demand for human-agent co-working environments that traditional single-cursor desktops cannot serve. Container orchestration maturity (Kubernetes GPU support improvements in 2023–2024) enables the per-app isolation architecture at production quality.
+- **Traction signals:**
+  - Total funding $704K across 2 rounds, first round Dec 29, 2023, latest Seed Apr 2026 amount undisclosed (Tracxn, 2026 via search snippet).
+  - Recognition: World Trade Center Innovation Award 2024 at Eureka! / IIT Bombay (~17,000 startups) (search snippet on Rounak Adhikary).
+  - Represented India at Tiger Launch student-entrepreneurship competition, Princeton (search snippet).
+  - Part of IIM Bangalore Launchpad accelerator; named investor/affiliate interest reported includes IFC, Elevation Capital, Campus Fund, Kalaari Capital (Inc42 via search snippet — not confirmed as closed rounds).
+  - Twitter @ProjectXcloud: 14 followers, joined Oct 2022 (X.com via search snippet).
+  - LinkedIn: company page linkedin.com/company/projectx-cloud exists (LinkedIn); follower count not retrievable.
+  - No Product Hunt launch found; no Discord/Slack community data found; no press coverage in named tier-1 publications found.
+- **Competitors:**
+  - Paperspace (raised $35M total; acquired by DigitalOcean for $111M cash, Jul 2023 — TechCrunch): GPU cloud + virtual desktops, single-OS streaming model.
+  - Neverinstall (funding not found in this search): browser-delivered virtual desktops connected to AWS/Azure/GCP/Oracle backends (search snippet); single-workspace model vs. per-app VM.
+  - Shadow.tech (Blade/Shadow, revenue unknown; emerged from bankruptcy 2021): consumer-focused full-PC streaming via browser at pc.shadow.tech (Shadow blog).
+  - Amazon WorkSpaces (part of AWS, revenue unknown standalone): managed Windows/Linux cloud desktops at scale (AWS).
+  - Kasm Workspaces (funding/revenue not found in this search): containerized browser/desktop streaming (Kasm.com).
+- **Why now:** [Inferred]: Rise of AI coding/computer-use agents in 2024-2026 (e.g., agent benchmarks requiring sandboxed desktop environments) creates demand for multi-session isolated compute, which the company explicitly frames as "when half the users of a computer are not people" (Inc42 description via search snippet).
 
 ## Founders & Team
 
-**Note on team composition:** Crunchbase lists original co-founders as Rounak Adhikary, Ronit Banerjee, and Suvrakamal Das (founded 2022) (Crunchbase). The current YC page lists Rounak Adhikary, Bishal Karmakar, and Sourya Majumder as the founding team (YC page). This indicates a team change between founding and YC acceptance.
-
-**Rounak Adhikary** — Founder & CEO
-- BSc Computer Science, Lovely Professional University (2021–2024) (LPU Happenings, May 2023)
-- Stanford ASES, Draper University (YC page) — likely fellowship/accelerator programs
-- Founded Woldix (web development agency) in 2021 at age 19; used revenue to fund early ProjectX development (Wellfound; Crunchbase)
-- Entrepreneur in Residence, Ministry of Electronics and IT, India (2023) (Wellfound)
-- Born July 18, 2002, in Kalyani, West Bengal (Wellfound)
-- Twitter/X: No personal account found (company account @ProjectX_Cloud)
-- LinkedIn: linkedin.com/in/rounakadhikary — "Founder & CEO, ProjectX (YC P26)"
-- GitHub: github.com/rounak-adhikary — 3 repositories (GitHub)
-
-**Bishal Karmakar** — CTO / Founding Engineer
-- Based in Kalyani, West Bengal (GitHub)
-- Expertise in Golang, Rust, C++, TypeScript, Docker, Kubernetes, Flutter; cloud platforms (AWS, GCP, Azure) (GitHub)
-- Twitter/X: @BishalK_ — follower count not retrievable
-- LinkedIn: linkedin.com/in/bishal-123-karmakar (GitHub profile link)
-- GitHub: github.com/BishalK007 — 29 repositories, 23 stars, 3 followers (GitHub)
-- Email: bishal@projectx.cloud (GitHub)
-
-**Sourya Majumder** — COO
-- Previously scaled IT consulting operations to ~120K MRR (YC page)
-- BTech, West Bengal University of Technology; MBA, Manonmaniam Sundaranar University (ZoomInfo — note: may refer to a different Sourya Majumder)
-- Twitter/X: No public account found
-- LinkedIn: Not confirmed (multiple profiles with similar names)
-- GitHub: No public repos found
-
-**Co-founder relationship:** Rounak Adhikary and Bishal Karmakar are both based in Kalyani, West Bengal (Wellfound; GitHub), suggesting geographic proximity as a connection. No shared prior employer or university overlap was identified from available data.
-
-**Founder-market fit:** Rounak has been building ProjectX since 2022 (age 20), demonstrating sustained commitment to the cloud computing problem over 4 years (Crunchbase; Wellfound). Bishal brings systems-level engineering depth in Rust, Go, and container orchestration relevant to building a cloud OS (GitHub). Sourya's IT consulting operations experience is relevant to enterprise sales and scaling. The team has attracted grants from Google Cloud, Microsoft, and AWS, indicating technical credibility with hyperscaler programs. The YC page mentions team expertise from CISCO, NVIDIA, Wharton, and IITs (YC page), though it is unclear which team members this refers to — it may reference advisors or broader team beyond the three founders.
+- **Rounak Adhikary (Co-founder, CEO):**
+  - Background: Bachelor's in Interaction Design, Lovely Professional University 2021-2024; founded Woldix (tech consulting) at age 19, which funded ProjectX's initial stages; born Jul 18, 2002 (Crunchbase, Highperformr, search snippets).
+  - Twitter/X: handle not found in searches.
+  - LinkedIn: "ProjectX (YC P26)" — linkedin.com/in/rounakadhikary (LinkedIn).
+  - GitHub: No public repos found.
+- **Bishal Karmakar (Co-founder, CTO):**
+  - Background: Bachelor's from Academy of Technology; affiliations listed include Stanford ASES, Draper U, IIT Bombay; specializes in systems, streaming, cloud infra (LinkedIn, search snippet).
+  - Twitter/X: No public account found.
+  - LinkedIn: "Co-Founder, CTO @ ProjectX.cloud (YC ...)" — linkedin.com/in/bishal-karmakar-2a234623a (LinkedIn).
+  - GitHub: No public repos found.
+- **Sourya Majumder (Co-founder, COO):**
+  - Background: Prior experience scaling an IT consulting team to ~120K MRR (LinkedIn snippet); based in Bengaluru (LinkedIn).
+  - Twitter/X: No public account found.
+  - LinkedIn: "Redefining Enterprise HPC" — in.linkedin.com/in/souryapx (LinkedIn).
+  - GitHub: No public repos found.
+- **Co-founder relationship:** No public data on shared prior employer or university across the three current co-founders; original 2022 incorporation included Rounak Adhikary plus Ronit Banerjee and Suvrakamal Das (Tracxn/search snippet), suggesting a co-founder change before the YC P26 batch.
+- **Founder-market fit:** Rounak's prior tech-consulting venture (Woldix) self-funded the company through 2023-2024 (search snippet on Rounak Adhikary); Bishal's stated focus on "systems, streaming, cloud infra" (LinkedIn snippet) aligns with the per-app GPU VM technical approach; no notable advisors, board members, or named lead investors confirmed for closed rounds.
 
 ## Key Risks
 
-**Name collision and brand confusion:** "ProjectX" is an extremely common name shared by a trading platform (ProjectX Trading), multiple other startups, and generic project codenames. This creates SEO challenges, investor confusion, and potential trademark disputes. Mitigation: the company uses "projectx.cloud" as its domain and "ProjectX_Cloud" as social handles.
-
-**Founding team turnover:** Two of three original co-founders (Ronit Banerjee, Suvrakamal Das) listed on Crunchbase are no longer on the YC page, replaced by Bishal Karmakar and Sourya Majumder (Crunchbase; YC page). Early co-founder departures at pre-seed may indicate founder disagreements or equity complications.
-
-**GPU unit economics:** Per-app dedicated GPU allocation is computationally expensive. At pre-seed scale, the company must demonstrate that per-app GPU utilization rates can support viable margins against hyperscaler compute costs. The $200K Google Cloud grant provides infrastructure credits, not recurring revenue (Startup Story Media). [Inferred]: When credits expire, the company will face full compute costs, which could pressure margins before reaching sufficient user density for GPU multiplexing efficiency.
-
-**Product maturity and website state:** The company website returned a minimal/loading page at time of research, and the public beta was announced nearly two years ago (June 2024) with no publicly visible traction metrics since (Business Standard, July 2024). No user counts, download numbers, or customer logos are publicly available.
-
-**Hyperscaler platform risk:** The product depends on cloud GPU infrastructure from AWS, GCP, and Azure. These providers could build competing per-app streaming features or change GPU pricing/availability. Google Cloud is both an investor/grantor and a potential competitor.
+- **Hyperscaler substitution:** AWS WorkSpaces, Azure Virtual Desktop, and Google's cloud workstations already serve browser-delivered Windows/Linux desktops at scale (AWS; G2 alternatives listing). DigitalOcean's $111M Paperspace acquisition (TechCrunch, Jul 2023) signals incumbents are buying rather than ceding GPU-workspace share.
+- **Technical feasibility at unit economics:** "Each app in its own independent computer — own GPU" (YC page) implies high per-session GPU cost; the company has not published benchmarks, density numbers, or pricing showing the model is viable below incumbent VDI cost curves. No public data found on margins or COGS.
+- **Founder transition risk:** Founding team listed in 2022 search snippets (Adhikary, Ronit Banerjee, Suvrakamal Das) differs from the YC P26 founding team (Adhikary, Karmakar, Majumder), indicating co-founder turnover between original incorporation and the YC batch; no public explanation found.
+- **Name disambiguation / brand collisions:** Multiple unrelated entities use the "ProjectX" name (a prop-firm trading tool at propfirmapp.com/projectx; @ProjectX, @ProjectXNetwork, @prjx_hl handles on X), creating discoverability and SEO friction (search results).
+- **Geographic / entity complexity:** Delaware C-corp HQ in San Francisco with India engineering subsidiary (search snippet on Rounak Adhikary / Tracxn); creates IP, hiring, and regulatory coordination requirements not yet documented publicly.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | DaaS market USD 4.5–9.82B in 2025, 11.67–19.4% CAGR (OpenPR, 2026; Research Nester, 2025) |
+| TAM | DaaS market $10.5B 2026 (Gartner, via search snippet); $9.82B 2025 at 19.4% CAGR (Research Nester, via search snippet) |
 | SAM | No public data found |
-| Traction | 1,542 LinkedIn followers (LinkedIn); Tiger Launch Princeton winner (Startup Story Media); WTC Innovation Award at IIT Bombay Eureka among 17,000 startups (Startup Story Media) |
+| Traction | Total funding $704K over 2 rounds (Tracxn, 2026); Twitter @ProjectXcloud 14 followers (X, joined Oct 2022); WTC Innovation Award 2024 at IIT Bombay Eureka! (search snippet); IIM Bangalore Launchpad affiliate (Inc42, via search snippet) |
 | Revenue Signal | No public data found |
-| Founders | Rounak Adhikary (CEO): BSc CS from LPU, Stanford ASES, Draper U, founded Woldix at 19. Bishal Karmakar (CTO): systems engineer, Go/Rust/C++/K8s. Sourya Majumder (COO): scaled IT consulting to ~120K MRR |
-| Competitors | Neverinstall ($1.21M raised, revenue unknown, browser cloud PC — no per-app isolation); Vagon ($542K raised, revenue unknown, GPU streaming workstations — no multi-OS); Workspot ($84.65M raised, revenue unknown, enterprise DaaS — traditional per-desktop model) |
+| Founders | Rounak Adhikary (CEO): Lovely Professional University, prior founder of Woldix consulting. Bishal Karmakar (CTO): Academy of Technology grad, Stanford ASES / Draper U / IIT Bombay affiliations, systems & streaming focus. Sourya Majumder (COO): scaled prior IT consulting team to ~120K MRR. |
+| Competitors | Paperspace ($35M raised, acquired by DigitalOcean for $111M cash Jul 2023, single-OS GPU cloud — TechCrunch); Neverinstall (funding unknown, revenue unknown, browser DaaS on hyperscaler backends — G2); Shadow.tech (funding/revenue unknown, consumer full-PC streaming — Shadow blog); Amazon WorkSpaces (part of AWS, standalone revenue unknown, managed cloud desktops — AWS); Kasm Workspaces (funding/revenue unknown, containerized browser/desktop streaming — Kasm.com) |
 | Moat Signals | No public data found |
-| Risk Factors | Founding team turnover, GPU unit economics at scale, name collision/brand confusion |
-| Founder Reach | Rounak: LinkedIn (YC P26 headline), GitHub 3 repos. Bishal: Twitter @BishalK_ (count not retrievable), GitHub 23 stars. Sourya: No public data found |
-| Distribution Signals | No public data found |
-| Emails | bishal@projectx.cloud (GitHub profile of CTO) |
+| Risk Factors | Hyperscaler substitution, per-app GPU unit economics unproven, co-founder transition between 2022 and YC P26 |
+| Founder Reach | Rounak Adhikary: Twitter not found, LinkedIn present (count not retrievable), GitHub none found. Bishal Karmakar: Twitter not found, LinkedIn present (count not retrievable), GitHub none found. Sourya Majumder: Twitter not found, LinkedIn present (count not retrievable), GitHub none found. |
+| Distribution Signals | Company Twitter @ProjectXcloud 14 followers (X, joined Oct 2022); no Product Hunt launch found; no Chrome extension or app-store presence found |
+| Emails | b***@projectx.cloud (ZoomInfo redacted, Bishal Karmakar); no other public emails found |
+
+Sources:
+- [ProjectX YC company page](https://www.ycombinator.com/companies/projectx)
+- [ProjectX.cloud website](https://www.projectx.cloud/)
+- [ProjectX Crunchbase](https://www.crunchbase.com/organization/project-x-6465)
+- [ProjectX Tracxn profile](https://tracxn.com/d/companies/projectx/__XosquKSmlTS0Wov4knnKUuqgdos-Kig0Yi7_tgHhO3o)
+- [ProjectX Inc42 profile](https://inc42.com/company/projectx-cloud/)
+- [Rounak Adhikary Crunchbase](https://www.crunchbase.com/person/rounak-adhikari)
+- [Rounak Adhikary LinkedIn](https://www.linkedin.com/in/rounakadhikary/)
+- [Bishal Karmakar LinkedIn](https://www.linkedin.com/in/bishal-karmakar-2a234623a/)
+- [Sourya Majumder LinkedIn](https://in.linkedin.com/in/souryapx)
+- [@ProjectXcloud on X](https://x.com/ProjectXcloud)
+- [DigitalOcean acquires Paperspace for $111M — TechCrunch](https://techcrunch.com/2023/07/06/digitalocean-acquires-cloud-computing-startup-paperspace-for-111m-in-cash/)
+- [Gartner IT Spending Forecast Feb 2026](https://www.gartner.com/en/newsroom/press-releases/2026-02-03-gartner-forecasts-worldwide-it-spending-to-grow-10-point-8-percent-in-2026-totaling-6-point-15-trillion-dollars)
+- [Research Nester DaaS Market](https://www.researchnester.com/reports/desktop-as-a-service-daas-market/4123)
+- [G2 Cloud OS alternatives](https://www.g2.com/products/cloud-os/competitors/alternatives)
+- [Neverinstall](https://neverinstall.com/)
+- [Shadow PC in Browser](https://shadow.tech/us/blog/shadow-browser/)

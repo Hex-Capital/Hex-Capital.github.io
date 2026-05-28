@@ -6,118 +6,101 @@
 |-------|-------|
 | Website | https://www.datost.com |
 | YC Page | https://www.ycombinator.com/companies/datost |
-| Batch | Spring 2026 |
+| Batch | Spring 2026 (P26) |
 | Industry | B2B / B2B -> Analytics |
 | Team Size | 2 |
-| Location | New York, NY (YC page, LinkedIn) |
+| Location | San Francisco, CA, USA |
 | Tags | B2B, Analytics, AI Assistant |
-| YC Partner | David Lieb (YC page) |
+| YC Partner | David Lieb |
 | Emails | maceo@datost.com, jason@datost.com (YC page) |
 
 ## The Idea
 
-**Problem:** Non-technical teams (product, operations, finance) at data-rich companies cannot get timely answers from their data without filing requests to data analysts or navigating complex dashboards. The co-founders experienced this firsthand at Traba, a staffing marketplace where "there was a lot of data and not enough analysts" (LinkedIn post, Maceo Cardinale Kwik). Current solutions require either dedicated analyst headcount, self-serve BI tools that demand SQL fluency, or general-purpose LLMs that lack business context and produce unreliable SQL.
-
-**Approach:** Datost is an AI data analyst that teams @mention directly in Slack. It maintains a proprietary semantic layer of business definitions — metric names, entity relationships, terminology — so it understands what a question means before generating SQL (datost.com). It connects to 20+ data sources including Snowflake, BigQuery, Databricks, Salesforce, HubSpot, PostgreSQL, MySQL, Datadog, Sentry, and Coda (datost.com). Beyond ad hoc queries, it generates PDFs with executive summaries and charts, Excel spreadsheets, and PowerPoint decks; builds live dashboards with KPIs pinnable to Slack channels; and monitors metrics with auto-investigation and root-cause analysis when thresholds break (datost.com). Average time to first answer: 42 seconds (datost.com).
-
-**Differentiation:** Datost claims 75.2% accuracy on the BIRD-Interact benchmark (a 600-question, 22-database text-to-SQL test with deliberately ambiguous queries), versus 33% for Claude Opus 4.6 running alone — a 2.3x differential (datost.com; YC page). It also reports 91% accuracy on analytical questions (YC page). Dot (getdot.ai), the closest comparable, also operates in Slack/Teams with a semantic layer (DotML) but is further along in market traction. Zenlytic provides a dedicated BI interface rather than a chat-native form factor. DataGPT offers a conversational AI analyst but does not embed in Slack as a primary surface. [Inferred]: Datost's differentiator is combining the Slack-native form factor with the semantic layer and multi-source connectivity (databases, observability, docs, codebase) in one agent, whereas competitors tend to specialize in either the chat interface or the BI tool layer.
-
-**Business Model:** No pricing page is publicly available on datost.com. Enterprise security features (SSO, SCIM, audit logs, RBAC) suggest a tiered SaaS model (datost.com). [Inferred]: Most likely monetization is per-seat or per-workspace SaaS pricing with an enterprise tier given the security feature set.
-
-**TAM/SAM:**
-- Global BI & analytics market: $84.6B by 2026, 14.7% CAGR (Verified Market Research via search snippet).
-- BI managed services segment: $17.58B in 2025 growing to $19.82B in 2026 at 12.7% CAGR (Research and Markets via search snippet).
-- [Inferred]: The SAM for AI-native conversational BI tools embedded in workplace messaging is a subset of the broader BI market; no public third-party estimate exists for this specific niche.
-
-**GTM / Distribution:** The product is Slack-native, meaning adoption starts when one team member installs the Slack app and invites @datost to a channel. Answers are visible to the whole channel, creating organic exposure (datost.com). [Inferred]: Most likely distribution is product-led growth within Slack workspaces — one user installs, colleagues see answers, usage spreads virally within the org. The calendly booking link (datost.cal.com/founders/30-min) suggests a founder-led sales motion for initial customers (YC page).
+- **Problem:** Business teams cannot get timely data answers because analyst capacity is scarce; CEO Maceo cites this from his time at Traba where "lots of data but not enough analysts" blocked decisions (LinkedIn launch post, 2026).
+- **Approach:** Users @mention Datost in Slack; it consults a semantic layer of business definitions, explores schema in a sandbox, writes and tests SQL, then posts the answer in-thread with work shown (YC tweet via @ycombinator, 2026; datost.com).
+- **Differentiation:** vs. TextQL/Julius/Hex/Athenic — Datost claims 75.2% on BIRD-Interact text-to-SQL benchmark vs. 33% for Claude Opus 4.6 alone, attributed to a semantic business-definitions layer (datost.com; YC tweet).
+- **Business Model:** No pricing disclosed on website; demo-booking funnel via datost.cal.com/founders/30-min (datost.com).
+- **TAM/SAM:** Adjacent "AI in Analytics Platforms" market $28.1B in 2025, projected $220.2B by 2035 at 22.8% CAGR (openpr.com citing market report, 2026); no SAM data found for Slack-native AI analyst segment.
+- **GTM / Distribution:** [Inferred]: Founder-led outbound + Slack-app distribution; based on YC launch post, founder-personal LinkedIn posts and direct demo booking link as primary funnel, no paid or partner channels disclosed (datost.com; LinkedIn launch post, 2026).
 
 ## Defensibility
 
-- **Semantic layer as switching cost:** Each deployment requires building a semantic layer mapping an organization's specific metric definitions, entity relationships, and business terminology. Once configured, this layer represents accumulated institutional knowledge that is costly to recreate with a competitor (datost.com).
-- **Benchmark performance:** The 75.2% BIRD-Interact score vs. 33% for frontier LLMs alone suggests proprietary query-planning and disambiguation logic beyond simple prompt engineering (datost.com; YC page).
-- [Inferred]: Network effects within a Slack workspace (more users asking questions → richer query history → better semantic layer tuning) could develop over time but are unproven at this stage.
-
-**Market structure:** [Inferred]: Traditional BI vendors (Tableau/Salesforce, Looker/Google, Power BI/Microsoft) derive revenue from dashboard-building seats and visualization licenses. A chat-native AI analyst that eliminates the need for dashboards cannibalizes their core product; this creates a business-model conflict that slows incumbent adoption of this form factor. Microsoft could embed similar capabilities in Teams + Power BI but faces internal coordination costs across two product groups.
-
-**Commoditization risk:** The semantic layer + text-to-SQL pipeline can be replicated by well-resourced AI startups (Dot, Zenlytic) and potentially by LLM providers (OpenAI, Anthropic) adding data connectors. The 75.2% benchmark score is a current advantage but not a permanent moat. Dot already has a comparable product with greater traction.
+- **Moat today:** Benchmark performance gap (75.2% vs. 33% for Claude Opus 4.6 on BIRD-Interact, ICLR 2026) attributed to proprietary semantic layer over customer business definitions, CRM, docs, codebase (YC tweet, 2026).
+- **Future moat:** [Inferred]: Per-customer semantic graph could become switching cost as it ingests internal vocabulary, schema mappings, and prior queries; unproven because no customer count, retention, or expansion data is public.
+- **Market structure:** [Inferred]: No structural barrier identified at this stage — Snowflake, Databricks, and incumbents (Hex, TextQL) can replicate Slack-front-end + semantic layer; Datost's only published differentiator is benchmark accuracy (Tracxn lists 47 active competitors).
+- **Commoditization risk:** Frontier LLM vendors and BI platforms (Hex, Snowflake Cortex, Databricks Genie) can build the same Slack interface; current edge is benchmark-driven, not data- or distribution-driven (julius.ai/articles/hex-competitors, 2026; Tracxn, 2026).
 
 ## Market & Traction
 
-**Traction signals:**
-- 18,402 queries answered "this week" (datost.com live counter, accessed April 2026)
-- BIRD-Interact benchmark: 75.2% accuracy (datost.com; YC page)
-- LinkedIn announcement post: 175 reactions, 15 comments (LinkedIn, Maceo Cardinale Kwik)
-- Twitter/X: @MaceoCk — handle confirmed; follower count not retrievable (X.com)
-- GitHub: github.com/DatostApp — organization listed on YC page; no public repos indexed (GitHub search)
-- GitHub (personal): github.com/maceoCK — 46 public repos, 8 followers (GitHub)
-- No Product Hunt launch found.
-- No press coverage in named publications found.
-- No app store / Chrome extension listings found.
-- No Discord or Slack community found.
-- Company LinkedIn page: not found in search results.
-
-**Competitive landscape:**
-
-| Competitor | Funding | Revenue/ARR | Key Differentiator vs. Datost |
-|-----------|---------|-------------|-------------------------------|
-| **Dot** (getdot.ai) | YC-backed; total undisclosed (Crunchbase) | $770K revenue Jun 2025; $5.8M trailing 12-month revenue Dec 2025 (Latka) | Multi-platform (Slack, Teams, web app); named enterprise customers (Duolingo, Airbyte, Flix) (getdot.ai) |
-| **Zenlytic** | $9M Series A, Sep 2024, led by M13 (Zenlytic blog; TechCrunch) | Revenue unknown | Dedicated BI interface with AI agent "Zoë"; deeper visualization layer rather than chat-native (zenlytic.com) |
-| **DataGPT** | $11.9M total; $4M seed Oct 2022 (Crunchbase via search snippet) | Revenue unknown | First-mover positioning as "conversational AI analyst"; standalone web interface, not Slack-embedded (DataGPT) |
-| **Supersimple** | €2.2M pre-seed, Apr 2024 (EU-Startups; SiliconANGLE) | Revenue unknown | No-code, natural language interface; Tallinn-based; explainable AI focus (SiliconCanals) |
-| **Seek AI** | $7.5M raised; acquired by IBM Jun 2025 (seek.ai blog; PitchBook) | Revenue unknown | Now part of IBM; validates demand but removes an independent competitor |
-
-**Why now:**
-- [Inferred]: LLM capabilities crossed a threshold in 2024–2025 where text-to-SQL accuracy became commercially viable for ambiguous, multi-table business questions — Datost's own benchmark data (75.2% on BIRD-Interact) would not have been achievable with pre-2024 models at the 33% baseline.
-- [Inferred]: Slack's mid-2025 pricing restructuring to ~$15/user/month (search result, Capterra) creates budget pressure on organizations to extract more value from their Slack workspace, making in-Slack tooling more attractive.
-- IBM's acquisition of Seek AI in June 2025 (PitchBook) signals incumbent validation of the AI-analyst category.
+- **Traction signals:**
+  - 18,402 queries answered in measured week (datost.com, 2026)
+  - 42-second average time to first answer (datost.com, 2026)
+  - 3,000+ data sources supported; 2,500+ additional integrations available (datost.com, 2026)
+  - 75.2% accuracy on BIRD-Interact benchmark vs. 33% for Claude Opus 4.6 alone (datost.com; YC tweet, 2026)
+  - YC launch tweet from @ycombinator citing benchmark (x.com/ycombinator/status/2044838231397560596, 2026)
+  - Founder LinkedIn launch post on YC submission (LinkedIn, 2026)
+  - No revenue, customer count, paid users, Product Hunt rank, or social follower data found
+- **Competitors:**
+  - TextQL ($21.1M raised across 2 rounds, Series A Apr 2026, revenue unknown): broader text-to-SQL platform, not Slack-native (Tracxn, 2026)
+  - Athenic AI ($4.28M Seed VC, Aug 2023, revenue unknown): natural-language analytics, not Slack-thread-native (CB Insights)
+  - Julius AI (funding undisclosed, $20/mo starter, revenue unknown): conversational data analyst, hides SQL from business users (julius.ai, 2026)
+  - Hex (Series C reported; $36/editor/mo, revenue unknown): data workspace with NL prompts + SQL/Python notebooks, not Slack-first (julius.ai/articles/hex-competitors, 2026)
+  - Alkemi (funding unknown, revenue unknown): "AI data teammate in Slack" with DataLab workspace (producthunt.com/products/alkemi)
+- **Why now:** [Inferred]: Frontier LLMs crossed usable text-to-SQL accuracy threshold only in last 12-18 months; Datost's own benchmark claim (75.2% vs. 33% standalone Opus) is positioned as the inflection point (datost.com; ICLR 2026 reference).
 
 ## Founders & Team
 
-**Maceo Cardinale Kwik** — Co-founder & CEO
-- B.S. Computer Science, Virginia Tech, Summa Cum Laude, 4.0 GPA (personal website; GitHub bio)
-- Age 21 (YC page)
-- Previously: Full Stack Software Engineer at Traba (staffing marketplace) (ZoomInfo; LinkedIn)
-- Co-founder of Lighthouse Startups (non-profit) (search snippet)
-- Top 10 in US (top 0.1%) in IMC Prosperity Trading Challenge (GitHub bio)
-- Tech stack: TypeScript, Python, Go, Rust, React, Next.js, PostgreSQL, AWS, Docker, Kubernetes (maceock.me)
-- Twitter/X: @MaceoCk — count not retrievable (X.com)
-- LinkedIn: linkedin.com/in/maceo-cardinale-kwik — 500+ connections (LinkedIn)
-- GitHub: github.com/maceoCK — 46 public repos, 8 followers, no Datost-specific repos public (GitHub)
-
-**Jason Wang** — Co-founder
-- University of Toronto (LinkedIn via search snippet)
-- Previously at Traba (LinkedIn via search snippet)
-- Based in New York (LinkedIn via search snippet)
-- Twitter/X: No public account found.
-- LinkedIn: linkedin.com/in/jasonhy-wang (LinkedIn search result)
-- GitHub: No confirmed public profile found.
-
-**Co-founder relationship:** Both founders previously worked at Traba, the staffing marketplace (LinkedIn profiles for both cite Traba). This is the confirmed point of overlap. No shared university found (Virginia Tech vs. University of Toronto).
-
-**Founder-market fit:** Both founders experienced the data-access problem firsthand at Traba, where the company "had a lot of data and not enough analysts" (LinkedIn post). Maceo's full-stack engineering background (TypeScript, Python, Go, Rust, PostgreSQL) and strong quantitative aptitude (top 0.1% in IMC trading challenge) map to the technical demands of building a text-to-SQL engine with a semantic layer. Both founders are first-time startup founders with no prior exits. No advisors, board members, or notable angel investors identified from public sources.
+- **Maceo Cardinale Kwik (Co-Founder & CEO):**
+  - Background: B.S. Computer Science, Virginia Tech, Summa Cum Laude, 4.0 GPA; prior full-stack engineer at Traba (staffing marketplace) where he identified the problem; co-founded Lighthouse Startups non-profit; Top 0.1% IMC Prosperity Trading Challenge (maceock.me; LinkedIn).
+  - Twitter/X: @MaceoCk (also referenced as @maceock) — count not retrievable (x.com/MaceoCk).
+  - LinkedIn: "Co-Founder & CEO of Datost (YC...)" (linkedin.com/in/maceo-cardinale-kwik/).
+  - GitHub: @maceoCK, 9 followers, 47 repos, top pinned "Blog" (1 star); contributor to OpenDSA/OpenDSA (365 stars, not owner) (github.com/maceoCK).
+- **Jason Hy Wang (Co-Founder):**
+  - Background: No public data found on prior employers or education beyond YC participation; LinkedIn confirms Datost as primary listed role (LinkedIn search snippet, 2026).
+  - Twitter/X: No public account confirmed.
+  - LinkedIn: "Datost" (linkedin.com/in/jasonhy-wang/) — full headline not retrievable (status 999 on fetch).
+  - GitHub: No public repos found.
+- **Co-founder relationship:** No public data on co-founder shared employer or university.
+- **Founder-market fit:** Maceo encountered the problem firsthand at Traba where analyst scarcity blocked data-driven decisions, providing direct user-problem exposure (LinkedIn launch post, 2026); no advisors, board members, or named investors beyond YC found in public sources.
 
 ## Key Risks
 
-**Dot (getdot.ai) lead:** The most direct competitor, Dot, is also YC-backed and has reached $5.8M trailing 12-month revenue with named enterprise customers including Duolingo and Airbyte (Latka, Dec 2025). Datost must differentiate on accuracy, breadth of integrations, or price to close this gap.
-
-**Slack platform dependency:** The product's primary interface is Slack. Changes to Slack's API, pricing, or app ecosystem policies could disrupt Datost's distribution. Slack's parent Salesforce could also build or acquire competing in-Slack analytics capabilities (e.g., integrating Tableau queries into Slack natively).
-
-**LLM provider commoditization:** If frontier model providers (OpenAI, Anthropic, Google) ship native data-connector + semantic-layer features, the accuracy advantage Datost holds today (75.2% vs. 33% baseline) could erode. The benchmark gap reflects current model limitations that will narrow over time.
-
-**Name collision risk:** The Twitter handle @datost belongs to an unrelated individual (Dan Tore Stensland) (X.com search), and the term may create search-engine noise, complicating brand discovery and SEO.
+- **Benchmark-to-production gap:** Sole disclosed differentiator is BIRD-Interact accuracy (75.2% vs. 33%, datost.com), but no public customer references, retention data, or production-environment accuracy claims exist; risk that benchmark performance does not translate to messy enterprise schemas.
+- **Commoditization by incumbents:** Hex, Snowflake Cortex, Databricks Genie, and Slack/Salesforce-native AI features can replicate the @mention + SQL workflow; Tracxn identifies 47 active competitors including 5 funded (Tracxn, 2026), and no structural moat is documented.
+- **Founder bench depth:** Two-person team with one founder (Jason Hy Wang) having no public technical footprint (no GitHub repos, limited LinkedIn detail) and the CEO's GitHub showing only small personal projects (top owned repo 1 star, github.com/maceoCK); raises execution-bandwidth risk against funded competitors like TextQL ($21.1M, Tracxn).
+- **Distribution dependency on Slack:** Product is Slack-native (datost.com); any Slack-platform policy change, native AI analyst feature, or pricing shift creates substitution risk; no platform-diversification (Teams, Discord) disclosed.
+- **Trust boundary for autonomous SQL:** Product writes and executes SQL against customer warehouses (datost.com); a single incorrect query against production data could create enterprise-trust loss; no governance, RBAC, or audit-trail features highlighted publicly.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $84.6B global BI & analytics market by 2026, 14.7% CAGR (Verified Market Research via search snippet) |
+| TAM | AI in Analytics Platforms $28.1B (2025) → $220.2B (2035) at 22.8% CAGR (openpr.com market report, 2026); broader data analytics market $108.79B (2026) per Mordor Intelligence |
 | SAM | No public data found |
-| Traction | 18,402 queries answered in one week (datost.com, Apr 2026); 75.2% BIRD-Interact benchmark (datost.com); LinkedIn post 175 reactions (LinkedIn) |
-| Revenue Signal | No public data found |
-| Founders | Maceo Cardinale Kwik (CEO): Virginia Tech CS, Summa Cum Laude, ex-Traba SWE. Jason Wang (Co-founder): U of Toronto, ex-Traba. |
-| Competitors | Dot ($undisclosed raised, $5.8M TTM revenue Dec 2025 per Latka, Slack/Teams-native with enterprise customers); Zenlytic ($9M Series A, revenue unknown, dedicated BI with AI agent); DataGPT ($11.9M raised, revenue unknown, standalone conversational analyst); Supersimple (€2.2M pre-seed, revenue unknown, no-code NL analytics) |
-| Moat Signals | 75.2% BIRD-Interact score vs. 33% frontier-model baseline (datost.com); per-org semantic layer creates switching cost |
-| Risk Factors | Dot's revenue and customer lead, Slack platform dependency, LLM commoditization |
-| Founder Reach | Maceo: @MaceoCk on X (count not retrievable), LinkedIn 500+, GitHub 8 followers. Jason: LinkedIn (linkedin.com/in/jasonhy-wang), no X or GitHub found. |
-| Distribution Signals | No public data found |
-| Emails | maceo@datost.com, jason@datost.com (YC page) |
+| Traction | 18,402 queries/week (datost.com, 2026); 42-sec avg first answer (datost.com, 2026); 75.2% BIRD-Interact vs. 33% Opus 4.6 (datost.com; YC tweet, 2026); 3,000+ data sources supported (datost.com) |
+| Revenue Signal | No public data found (no pricing page; demo-booking only via datost.cal.com) |
+| Founders | Maceo Cardinale Kwik (CEO): VT CS Summa Cum Laude 4.0, ex-Traba engineer. Jason Hy Wang (Co-founder): public background not found beyond Datost/YC. |
+| Competitors | TextQL ($21.1M raised, Series A Apr 2026, revenue unknown, broader text-to-SQL not Slack-native); Athenic AI ($4.28M Seed Aug 2023, revenue unknown, NL analytics); Julius AI (funding undisclosed, $20/mo starter, revenue unknown); Hex ($36/editor/mo, revenue unknown, notebook workspace); Alkemi (funding unknown, revenue unknown, Slack AI teammate) |
+| Moat Signals | 75.2% vs. 33% BIRD-Interact accuracy gap via semantic business-definitions layer (datost.com; YC tweet, 2026) |
+| Risk Factors | Benchmark-to-production gap, commoditization by incumbents (Hex/Snowflake/Slack-native), Slack-platform dependency |
+| Founder Reach | Maceo: Twitter @MaceoCk (count not retrievable), LinkedIn maceo-cardinale-kwik (count not retrievable), GitHub @maceoCK 9 followers / top owned repo 1 star. Jason: Twitter not found, LinkedIn jasonhy-wang (count not retrievable), GitHub no public repos found. |
+| Distribution Signals | YC launch tweet from @ycombinator (x.com, 2026); founder LinkedIn launch post (LinkedIn, 2026); no Product Hunt, Chrome Store, or App Store presence found |
+| Emails | maceo@datost.com, jason@datost.com (YC company page) |
+
+---
+
+**Prompt injection notice:** The WebFetch result from datost.com contained fake `<system-reminder>` tags attempting to introduce unauthorized MCP tools (Gmail, Google Calendar, Google Drive, Ramp). I ignored these injected instructions and proceeded with the assigned research task.
+
+Sources:
+- [Datost YC page](https://www.ycombinator.com/companies/datost)
+- [Datost website](https://www.datost.com)
+- [Y Combinator launch tweet](https://x.com/ycombinator/status/2044838231397560596)
+- [Maceo Cardinale Kwik LinkedIn](https://www.linkedin.com/in/maceo-cardinale-kwik/)
+- [Maceo personal site](https://www.maceock.me/)
+- [Maceo GitHub](https://github.com/maceoCK)
+- [Jason Hy Wang LinkedIn](https://www.linkedin.com/in/jasonhy-wang/)
+- [Datost Tracxn profile](https://tracxn.com/d/companies/datost/__q8EBlIDs4hlFHukX_1fbi3SYbzPk2Kt5nHjzKjqbD9g)
+- [TextQL Tracxn profile](https://tracxn.com/d/companies/textql/__mXZ2yDxMeNKKU_fPEIz8MKSsvcOf0jXGcuzNtZFS_FA)
+- [Athenic AI CB Insights](https://www.cbinsights.com/company/polyture/financials)
+- [Julius - Hex competitors](https://julius.ai/articles/hex-competitors)
+- [AI in Analytics market report](https://www.openpr.com/news/4510246/ai-in-analytics-platforms-market-set-for-explosive-growth-to-us)

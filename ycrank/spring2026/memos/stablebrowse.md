@@ -11,113 +11,93 @@
 | Team Size | 4 |
 | Location | San Francisco, CA, USA |
 | Tags | API, Automation, Web Development, AI |
-| YC Partner | Tom Blomfield |
-| Emails | No public data found |
+| YC Partner | Tom Blomfield (YC company page) |
+| Emails | team@stablebrowse.ai (company website) |
 
 ## The Idea
 
-**Problem:** AI agents that need to interact with the web currently rely on conventional headless browsers (Chromium/Playwright) that were designed for human visual rendering. This imposes large memory footprints, high token costs when converting screenshots or DOM to LLM-consumable formats, and brittle CSS/DOM selectors that break across site changes (stablebrowse.com). Existing solutions feed raw pixels or full DOM trees to LLMs, resulting in high latency and low reliability.
-
-**Approach:** StableBrowse removes the visual rendering stack entirely and replaces it with a "machine-native web engine" that outputs accessibility trees, semantic markdown, and knowledge/workflow graphs instead of pixels (stablebrowse.com). The engine preserves JavaScript execution and exposes deterministic actions with binary validation of state transitions. It claims 130.6 MB per instance, 4ms cold start, and 85% token reduction versus conventional browsers (stablebrowse.com). The engine is CDP-compatible, allowing drop-in replacement with existing Playwright/Puppeteer tooling (stablebrowse.com).
-
-**Differentiation:** Versus Browserbase (cloud-hosted full Chromium instances) and Browser Use (structured text overlays on standard browsers), StableBrowse strips the rendering engine itself rather than wrapping or augmenting a full browser. Versus Steel.dev (open-source headless browser API), StableBrowse emphasizes semantic output and built-in anti-detection fingerprints at the engine layer rather than at the proxy/session level (stablebrowse.com). Versus consumer AI browsers (Perplexity Comet, ChatGPT Atlas), StableBrowse targets developer/infrastructure use cases, not end-user browsing.
-
-**Business Model:** No pricing page is published (stablebrowse.com, April 2026). [Inferred]: Most likely monetization path is usage-based API pricing (per session or per page load), consistent with competitors Browserbase and Hyperbrowser, given the infrastructure-layer positioning and API-first product design.
-
-**TAM/SAM:** The global AI agents market was estimated at $7.63B in 2025, projected to reach $182.97B by 2033 at 49.6% CAGR (Grand View Research, 2025 via search snippet). The agentic AI browser market specifically was estimated at $4.5B in 2024, projected to reach $76.8B by 2034 at 32.8% CAGR (Market.us via search snippet). No SAM estimate specific to headless/machine-native browser infrastructure was found.
-
-**GTM / Distribution:** [Inferred]: Most likely distribution path is developer-first adoption via API documentation, CDP compatibility as a migration path from existing Playwright/Puppeteer workflows, and YC network distribution to other YC-batch companies building agents. The calendly link on the website suggests a sales-assisted motion for early customers.
+- **Problem:** AI agents performing web automation rely on brittle visual/HTML parsing of UIs designed for humans, causing failures on UI changes for use cases like insurance quote binding, healthcare prior authorization, and mortgage processing (stablebrowse.com).
+- **Approach:** Converts websites into structured execution graphs and persistent semantic knowledge graphs encoding page semantics and actions, letting agents reuse learned site workflows across runs instead of starting from raw HTML each time (stablebrowse.com).
+- **Differentiation:** vs. Browserbase/Hyperbrowser/Steel (headless browser infrastructure providers) — [Inferred]: StableBrowse adds a semantic graph/persistence layer above raw browser sessions rather than just providing managed browsers (stablebrowse.com product description + Firecrawl competitor list, 2026).
+- **Business Model:** [Inferred]: Consumption/API pricing typical of browser-infrastructure peers; no pricing page exposed on stablebrowse.com at time of research.
+- **TAM/SAM:** No public TAM/SAM data found for this specific segment; adjacent browser-infrastructure category context: Browserbase reached "$3M revenue" with "20,000 developer signups" running "50 million browser sessions" in ~16 months (Upstarts Media, 2025).
+- **GTM / Distribution:** [Inferred]: Developer-led, API-based adoption targeting AI-agent builders, plus regulated verticals (insurance, healthcare, mortgage) given HIPAA-compliance claim and listed use cases (stablebrowse.com).
 
 ## Defensibility
 
-- **Technical complexity:** Building a browser engine from scratch (or deeply forking one) that strips rendering while preserving JavaScript execution and web compatibility is a substantial engineering undertaking (stablebrowse.com).
-- **Data advantage:** [Inferred]: Over time, processing agent sessions could build proprietary data on site structures, anti-bot patterns, and semantic mappings, but this is unproven at this stage.
-- **CDP compatibility as switching-cost mechanism:** Drop-in compatibility with existing tooling lowers initial adoption friction but also lowers switching costs to/from competitors (stablebrowse.com).
-
-**Market structure:** Browserbase and similar infrastructure providers build on top of standard Chromium, inheriting its full rendering overhead. Rebuilding their stack around a rendering-free engine would require re-architecting their core product. [Inferred]: This creates a potential structural barrier, but only if StableBrowse's rendering-free approach proves reliably compatible across the modern web — an unproven claim at scale.
-
-**Commoditization risk:** Browser Use (50K GitHub stars, $17M seed; TechCrunch, March 2025) and Steel.dev ($17M raised; StartupHub.ai) demonstrate that well-funded competitors are converging on similar semantic-output approaches. Open-source alternatives (Browser Use, Steel Browser) lower barriers to entry. LLM providers (OpenAI, Google) are building their own browsing infrastructure, which could commoditize the standalone layer.
+- **Moat today:** [Inferred]: Accumulated per-site knowledge graphs ("persistent site memory") could create data-network effects as more agents traverse the same sites, but no usage data is public to confirm (stablebrowse.com).
+- **Future moat:** [Inferred]: A cross-customer graph of verified execution patterns for high-value sites (insurance carriers, EHRs, lender portals) could become a switching cost; unproven because customer count and graph coverage are undisclosed.
+- **Market structure:** [Inferred]: Headless-browser incumbents (Browserbase, Kernel) sell session infrastructure and would need to build a separate semantic-graph product layer; no structural barrier preventing them from doing so identified at this stage.
+- **Commoditization risk:** Open-source frameworks (Browser Use) and well-funded incumbents (Browserbase $67.5M raised, Kernel $22M Series A, TinyFish $47M Series A) are building toward overlapping agent-browser capabilities (Upstarts Media; Firecrawl, 2026).
 
 ## Market & Traction
 
-**Traction signals:**
-- Y Combinator Spring 2026 batch member (YC page)
-- No revenue, user counts, app store presence, Product Hunt launch, press coverage, Chrome extension, or social media accounts found
-- No GitHub repositories found under "StableBrowse"
-- No company Twitter/X or LinkedIn page found
-- 0 open job postings (YC page)
-
-**Competitive landscape:**
-
-| Competitor | Funding | Key Differentiator vs. StableBrowse |
-|------------|---------|-------------------------------------|
-| Browserbase | $40M Series B, $300M valuation (June 2025; Firecrawl blog) | Cloud-hosted full Chromium instances with session management; 50M sessions processed, 1,000+ customers (Firecrawl blog). Wraps rather than replaces the browser engine. |
-| Browser Use | $17M seed led by Felicis (TechCrunch, March 2025) | Open-source (50K GitHub stars); converts web interfaces to structured text atop standard browsers. YC W25 batch. |
-| Steel.dev | $17M raised (StartupHub.ai) | Open-source headless browser API with self-hosting option. Emphasizes transparency and developer control. |
-| Hyperbrowser | YC S21; backed by Accel, SV Angel (YC page) | Built-in CAPTCHA solving and proxy management; amount raised not disclosed. |
-| Kernel | $22M Series A (onkernel.com blog) | Browser infrastructure platform for AI agents; scale-focused. |
-
-**Why now:** [Inferred]: The explosion of autonomous AI agent frameworks (LangChain, CrewAI, AutoGPT) in 2024–2025, combined with production deployments of tool-using LLMs (GPT-4o, Claude 3.5+), created demand for web-interaction infrastructure that is cheaper and more reliable than screenshot-based approaches. Browserbase processing 50M sessions in 2025 (Firecrawl blog) and Browser Use reaching 15K+ developer users (TechCrunch, March 2025) confirm the market has moved from experimental to production-grade.
+- **Traction signals:**
+  - Performance claims: "70–80% fewer tokens," "3–4× faster execution," "98% success rate" (stablebrowse.com, self-reported).
+  - Social proof: "Trusted by engineers at Meta, Google, Amazon, Citi, Ernst & Young, Purdue, Stanford, and UC San Diego" (stablebrowse.com, self-reported affiliations).
+  - Compliance: "HIPAA compliant" claimed; "SOC 2 Type I and Type II certifications in progress" (stablebrowse.com).
+  - YC backing announced via founder LinkedIn post (Jay Mehta LinkedIn, activity 7455364995850182657).
+  - No Product Hunt launch, press coverage, Discord, app-store, or follower-count data found in public sources.
+- **Competitors:**
+  - Browserbase ($67.5M raised across three rounds incl. $40M Series B led by Notable Capital at $300M valuation; ~$3M revenue, 20K developer signups): managed headless browser cloud without a semantic-graph layer (Upstarts Media, 2025).
+  - Kernel/Onkernel ($22M Series A led by Accel, revenue unknown): unikernel-based headless browsers with <325ms startup vs. infrastructure-only positioning (Firecrawl, 2026).
+  - Hyperbrowser (YC-backed, funding undisclosed, revenue unknown): scalable headless browsers with stealth/proxy/CAPTCHA features, no graph/memory layer (Firecrawl, 2026).
+  - TinyFish ($47M Series A led by ICONIQ Capital, revenue unknown): policy-aware long-running browser agents at the application layer rather than infrastructure (Firecrawl, 2026).
+  - Browser Use (open-source, no funding disclosed): agent framework controlling browsers via chain-of-thought, no managed semantic graph (Firecrawl/Respan, 2026).
+- **Why now:** [Inferred]: LLM-driven agent adoption crossed a usability threshold in 2024–2025 (multimodal models, tool-use APIs), creating demand for reliable web-action infrastructure — evidenced by Browserbase Series B and TinyFish/Kernel rounds within the last ~12 months (Upstarts Media; Firecrawl, 2026).
 
 ## Founders & Team
 
-**Somansh Shah** — Founder
-- Purdue University, Data Science major (2021–2025) (LinkedIn)
-- Data Science Intern at Lenovo (LinkedIn via search snippet)
-- Won 1st Place JMEC Start Up Expo, $6,600 prize (Dec 2023) (LinkedIn)
-- Co-founded Learn2Grow AI community; built WiseBucks.ai (ML stock recommendations) and RBH Neobank (LinkedIn)
-- Certifications: IBM Full Stack Developer, Stanford Supervised ML (LinkedIn)
-- Twitter/X: No public account found
-- LinkedIn: linkedin.com/in/somanshshah
-- GitHub: No public repos found
-
-**Deepit Shah** — Founder
-- University of Illinois Urbana-Champaign, BS/MS Computer Science (LinkedIn via search snippet)
-- Interned at Amazon (scalable backend systems) (LinkedIn via search snippet)
-- New Venture Development certification, UIUC Grainger College of Engineering (2025) (LinkedIn via search snippet)
-- Top 20 of 220 applicants to UIUC's premier consulting organization; led cross-functional teams on NSF grant commercialization (LinkedIn via search snippet)
-- Twitter/X: No public account found
-- LinkedIn: linkedin.com/in/deepit-shah
-- GitHub: No public repos found
-
-**Sarthak Awasthi** — Founder
-- A Devpost profile (sa3655) based in Philadelphia lists hackathon wins including Hummingbird (automated companion drone) and DynamicUI (AI-powered accessible React Native) (Devpost). Confirmation that this is the same individual is not established.
-- Twitter/X: No public account found
-- LinkedIn: Not confirmed (multiple profiles with this name exist)
-- GitHub: github.com/awasthisarthak (not confirmed as same individual)
-
-**Jay Mehta** — Founder
-- A personal portfolio site (jay-mehta.vercel.app) lists B.Tech in CS from Lakshmi Narain College of Technology (2020–2024) and full-stack development experience at Flutteryourway and Metamorph. Confirmation that this is the same individual is not established.
-- Twitter/X: No public account found
-- LinkedIn: Not confirmed (1,300+ profiles with this name on LinkedIn)
-- GitHub: No confirmed public repos found
-
-**Co-founder relationship:** Deepit Shah (UIUC) and Somansh Shah (Purdue) share the Shah surname but attended different universities. No shared employer or university overlap is visible among the four founders from available data. No public data on co-founder history.
-
-**Founder-market fit:** Somansh Shah's AI/ML background (Lenovo data science internship, WiseBucks.ai, Stanford ML coursework) and Deepit Shah's systems engineering experience (Amazon internship, UIUC CS MS, Google ML/Systems/Cloud AI) provide relevant technical grounding for building browser infrastructure for AI agents. The team's hackathon track record and venture development training suggest execution orientation. No advisors, board members, or notable investors beyond YC and Tom Blomfield were found.
+- **Sarthak Awasthi (Co-founder):**
+  - Background: No public data found beyond founder listing on YC page (ycombinator.com/companies/stablebrowse).
+  - Twitter/X: No public account found.
+  - LinkedIn: Multiple "Sarthak Awasthi" profiles surfaced (Amazon, AWS, Capgemini Invent) but none confirmed as the StableBrowse founder via search snippet (LinkedIn search results).
+  - GitHub: No public repos found.
+- **Jay Mehta (Co-founder):**
+  - Background: "Senior software engineer with 8+ years of experience building scalable, high-performance software," expertise in "distributed systems and full-stack development," prior startup co-founder experience per his resume site (jaymehta.online via search snippet).
+  - Twitter/X: No public account found.
+  - LinkedIn: Profile confirmed via post "StableBrowse is now backed by Y Combinator" (linkedin.com/posts/jaymehta003); follower count not retrievable.
+  - GitHub: No public repos found.
+- **Deepit Shah (Co-founder):**
+  - Background: "Bachelor's degree in Computer Science from the University of Illinois Urbana-Champaign"; prior roles at "Amazon, OTCR Consulting and Disruption Lab at Gies"; co-authored research on adaptive RBF numerical methods (LinkedIn/Happenstance/ResearchGate via search snippet).
+  - Twitter/X: No public account found.
+  - LinkedIn: "StableBrowse" (linkedin.com/in/deepit-shah/); follower count not retrievable.
+  - GitHub: No public repos found.
+- **Somansh Shah (Co-founder):** Confirmed as fourth co-founder per YC page and Dealroom; no further public background data found via search.
+- **Co-founder relationship:** No public data on co-founder history (shared employer/university not confirmed in retrieved snippets).
+- **Founder-market fit:** [Inferred]: Technical backgrounds in distributed systems (Mehta) and prior Amazon engineering (Shah) align with browser-infrastructure work; founders described starting StableBrowse after "frustrations themselves while building browser agents" (search snippet attributed to company narrative).
 
 ## Key Risks
 
-**Intense, well-funded competition:** Browserbase ($40M, $300M valuation; Firecrawl blog), Browser Use ($17M; TechCrunch, March 2025), Steel.dev ($17M; StartupHub.ai), and Kernel ($22M; onkernel.com) collectively represent >$96M in funding targeting the same buyer persona. StableBrowse enters with standard YC funding against established competitors with production customers.
-
-**Web compatibility at scale:** Stripping the rendering engine while preserving JavaScript execution and site compatibility across the modern web is technically unproven at scale. Sites using rendering-dependent anti-bot detection, dynamic CSS-based layouts, or canvas/WebGL elements may not function correctly without the visual stack, limiting the addressable surface of the web.
-
-**Platform risk from LLM providers:** OpenAI (ChatGPT Atlas/Operator), Google (Disco/Gemini), and Anthropic are building native browsing capabilities into their agent infrastructure. If LLM providers bundle browser infrastructure, the standalone market for third-party browser engines could shrink.
-
-**Founder verification gap:** Two of four founders (Sarthak Awasthi, Jay Mehta) have common names with no publicly confirmed professional profiles linked to StableBrowse. Deepit Shah's LinkedIn indicated he was returning to Google full-time (LinkedIn via search snippet), raising a question about full-time commitment that cannot be resolved from public data.
+- **Well-funded incumbent competition:** Browserbase ($67.5M total raised, $300M valuation, $3M revenue per Upstarts Media 2025), Kernel ($22M Series A), and TinyFish ($47M Series A) are scaled in the same agent-browser-infrastructure category; no mitigation evidence found beyond StableBrowse's differentiated semantic-graph positioning (stablebrowse.com).
+- **Technical feasibility of self-reported metrics:** "98% success rate" and "70–80% token reduction" are unaudited company claims with no third-party benchmark or customer case study published (stablebrowse.com).
+- **Regulated-vertical compliance gap:** Marketing targets HIPAA-regulated healthcare and financial-services use cases, but "SOC 2 Type I and Type II certifications [are] in progress," not complete (stablebrowse.com) — limiting addressable enterprise pipeline until certified.
+- **Founder identity ambiguity:** Multiple unrelated public figures share founder names (e.g., a different "Jay Mehta" is a prominent Indian businessman; multiple "Sarthak Awasthi" LinkedIn profiles), complicating background verification (search results across LinkedIn/Crunchbase).
+- **No public traction data:** No revenue, user count, paying customer, press, Product Hunt, or social-following metrics found beyond self-listed engineer affiliations (multiple searches).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | AI agents market: $7.63B in 2025, $182.97B by 2033, 49.6% CAGR (Grand View Research via search snippet); AI browser market: $4.5B in 2024, $76.8B by 2034, 32.8% CAGR (Market.us via search snippet) |
+| TAM | No public data found |
 | SAM | No public data found |
-| Traction | No public data found |
-| Revenue Signal | No public data found |
-| Founders | Somansh Shah (Founder): Purdue DS '25, Lenovo intern, JMEC 1st place. Deepit Shah (Founder): UIUC CS BS/MS, Amazon intern, Google SWE. Sarthak Awasthi (Founder): hackathon winner (Devpost, unconfirmed). Jay Mehta (Founder): full-stack developer (portfolio site, unconfirmed). |
-| Competitors | Browserbase ($40M raised, $300M valuation, revenue unknown, cloud-hosted full Chromium; Firecrawl blog); Browser Use ($17M raised, revenue unknown, open-source 50K stars; TechCrunch Mar 2025); Steel.dev ($17M raised, revenue unknown, open-source self-hosted; StartupHub.ai); Hyperbrowser (YC S21, amount undisclosed, revenue unknown, CAPTCHA/proxy built-in; YC page); Kernel ($22M raised, revenue unknown, scale-focused infra; onkernel.com blog) |
-| Moat Signals | No public data found |
-| Risk Factors | Intense well-funded competition (>$96M aggregate competitor funding), unproven web compatibility at scale, platform risk from LLM providers building native browsing |
-| Founder Reach | No public data found |
-| Distribution Signals | No public data found |
-| Emails | No public data found |
+| Traction | Self-reported "70-80% fewer tokens, 3-4× faster, 98% success rate" (stablebrowse.com); engineer affiliations listed: Meta, Google, Amazon, Citi, EY, Purdue, Stanford, UCSD (stablebrowse.com); YC Spring 2026 backing (ycombinator.com/companies/stablebrowse) |
+| Revenue Signal | No public data found (no pricing page exposed at stablebrowse.com at time of research) |
+| Founders | Sarthak Awasthi (Co-founder): YC-listed, further background not public. Jay Mehta (Co-founder): 8+ yrs SWE, distributed systems, prior startup co-founder (jaymehta.online). Deepit Shah (Co-founder): CS BS UIUC, prior Amazon, published RBF numerical-methods researcher (LinkedIn/ResearchGate). Somansh Shah (Co-founder): YC-listed, further background not public. |
+| Competitors | Browserbase ($67.5M raised, ~$3M revenue, managed headless browser cloud, Upstarts Media 2025); Kernel ($22M Series A Accel, revenue unknown, unikernel browser, Firecrawl 2026); Hyperbrowser (YC, funding undisclosed, revenue unknown, headless browser API, Firecrawl 2026); TinyFish ($47M Series A ICONIQ, revenue unknown, application-layer browser agents, Firecrawl 2026); Browser Use (open-source, no funding disclosed, agent framework, Respan 2026) |
+| Moat Signals | Persistent per-site knowledge graphs / "execution patterns" claimed (stablebrowse.com); no usage or customer data published to validate network effects |
+| Risk Factors | Well-funded incumbents (Browserbase/Kernel/TinyFish), unaudited performance claims, SOC 2 not yet certified |
+| Founder Reach | Sarthak Awasthi: Twitter not found, LinkedIn not confirmed, GitHub not found. Jay Mehta: Twitter not found, LinkedIn jaymehta003 (count not retrievable), GitHub not found. Deepit Shah: Twitter not found, LinkedIn deepit-shah (count not retrievable), GitHub not found. Somansh Shah: No public data found. |
+| Distribution Signals | No public data found (no Product Hunt, Chrome Web Store, or app-store presence located) |
+| Emails | team@stablebrowse.ai (stablebrowse.com) |
+
+Sources:
+- [StableBrowse YC page](https://www.ycombinator.com/companies/stablebrowse)
+- [StableBrowse website](https://stablebrowse.com/)
+- [Browserbase Raises $40M – Upstarts Media](https://www.upstartsmedia.com/p/browserbase-raises-40m-and-launches-director)
+- [11 Best AI Browser Agents 2026 – Firecrawl](https://www.firecrawl.dev/blog/best-browser-agents)
+- [Browser Use vs Browserbase – Respan](https://www.respan.ai/market-map/compare/browser-use-vs-browserbase)
+- [Deepit Shah LinkedIn](https://www.linkedin.com/in/deepit-shah/)
+- [Jay Mehta LinkedIn post](https://www.linkedin.com/posts/jaymehta003_stablebrowse-is-now-backed-by-y-combinator-activity-7455364995850182657-vjPR)
+- [Jay Mehta resume](https://jaymehta.online/)
+- [StableBrowse – Dealroom](https://app.dealroom.co/companies/stablebrowse)

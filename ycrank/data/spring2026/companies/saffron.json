@@ -1,7 +1,7 @@
 {
   "slug": "saffron",
   "name": "Saffron",
-  "oneLiner": "AI-Native Technical Assessments and Work Trials.",
+  "oneLiner": "Helping your company find 10x engineers.",
   "metadata": {
     "website": "https://www.trysaffron.ai/",
     "yc_page": "https://www.ycombinator.com/companies/saffron",
@@ -10,8 +10,8 @@
     "team_size": "3",
     "location": "San Francisco, CA, USA",
     "tags": "SaaS, Human Resources, HR Tech",
-    "yc_partner": "David Lieb",
-    "emails": "rchondro@mit.edu (founder, via LinkedIn)"
+    "yc_partner": "David Lieb (YC company page)",
+    "emails": "No public data found (only Calendly link: calendly.com/robert-trysaffron/demo, per trysaffron.ai)"
   },
   "tags": [
     "SaaS",
@@ -19,58 +19,28 @@
     "HR Tech"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-22T23:52:55.166Z",
+  "memoGeneratedAt": "2026-05-28T03:01:41.017Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 50,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
       "score": 33,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 39,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 38,
-    "EG": 43,
-    "NR": 50,
-    "PG": 44,
-    "PT": 29,
-    "SL": 33,
-    "VK": 39
+    "CB": 33,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 39.43,
-  "consolidatedRank": 106,
+  "consolidatedAvg": 33,
+  "consolidatedRank": 172,
   "paths": {
     "memo": "spring2026/memos/saffron.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/saffron.md",
-      "elad-gil": "spring2026/evals/elad-gil/saffron.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/saffron.md",
-      "paul-graham": "spring2026/evals/paul-graham/saffron.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/saffron.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/saffron.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/saffron.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/saffron.md"
     }
   }
 }

@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://instaagent.com",
     "yc_page": "https://www.ycombinator.com/companies/instaagent",
-    "batch": "Spring 2026 (YC P26)",
+    "batch": "Spring 2026",
     "industry": "B2B / B2B -> Marketing",
     "team_size": "6",
     "location": "San Francisco, CA, USA",
     "tags": "Generative AI, B2B, Social Media, Marketing",
-    "yc_partner": "Andrew Miklas (YC company page)",
-    "emails": "No public data found"
+    "yc_partner": "Andrew Miklas",
+    "emails": "kyle@instaagent.com (YC page)"
   },
   "tags": [
     "Generative AI",
@@ -20,58 +20,28 @@
     "Marketing"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-05-09T22:32:05.024Z",
+  "memoGeneratedAt": "2026-05-28T02:55:27.190Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 31,
+      "score": 35,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 28,
-    "EG": 42,
-    "NR": 43,
-    "PG": 41,
-    "PT": 31,
-    "SL": 32,
-    "VK": 31
+    "CB": 35,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 35.43,
-  "consolidatedRank": 138,
+  "consolidatedAvg": 35,
+  "consolidatedRank": 164,
   "paths": {
     "memo": "spring2026/memos/instaagent.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/instaagent.md",
-      "elad-gil": "spring2026/evals/elad-gil/instaagent.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/instaagent.md",
-      "paul-graham": "spring2026/evals/paul-graham/instaagent.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/instaagent.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/instaagent.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/instaagent.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/instaagent.md"
     }
   }
 }

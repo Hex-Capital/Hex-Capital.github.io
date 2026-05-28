@@ -1,16 +1,16 @@
 {
   "slug": "drippay",
   "name": "Drip",
-  "oneLiner": "Infrastructure to replace most monetization tooling",
+  "oneLiner": "The operating system for enterprise deal execution",
   "metadata": {
-    "website": "https://drippay.dev/",
+    "website": "https://usedrip.ai",
     "yc_page": "https://www.ycombinator.com/companies/drippay",
-    "batch": "Spring 2026 (YC profile, via WebFetch)",
+    "batch": "Spring 2026",
     "industry": "B2B / B2B -> Infrastructure",
-    "team_size": "0",
+    "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "B2B, Sales Enablement, Billing, Infrastructure",
-    "yc_partner": "Harj Taggar (YC profile, via WebFetch)",
+    "yc_partner": "Harj Taggar",
     "emails": "No public data found"
   },
   "tags": [
@@ -20,58 +20,33 @@
     "Infrastructure"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-24T22:14:08.551Z",
+  "memoGeneratedAt": "2026-05-28T02:54:41.823Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 33,
+      "score": 37,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 56,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 56,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 36,
+      "score": 42,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 33,
-    "EG": 49,
-    "NR": 56,
-    "PG": 56,
-    "PT": 32,
-    "SL": 33,
-    "VK": 36
+    "CB": 37,
+    "EG": 42,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 42.14,
-  "consolidatedRank": 67,
+  "consolidatedAvg": 39.5,
+  "consolidatedRank": 130,
   "paths": {
     "memo": "spring2026/memos/drippay.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/drippay.md",
-      "elad-gil": "spring2026/evals/elad-gil/drippay.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/drippay.md",
-      "paul-graham": "spring2026/evals/paul-graham/drippay.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/drippay.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/drippay.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/drippay.md"
+      "elad-gil": "spring2026/evals/elad-gil/drippay.md"
     }
   }
 }

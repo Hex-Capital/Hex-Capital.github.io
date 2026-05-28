@@ -6,104 +6,97 @@
 |-------|-------|
 | Website | https://gigacatalyst.com/ |
 | YC Page | https://www.ycombinator.com/companies/gigacatalyst |
-| Batch | Spring 2026 |
+| Batch | Spring 2026 (P26) |
 | Industry | B2B / B2B -> Engineering, Product and Design |
-| Team Size | 3 |
+| Team Size | 4 |
 | Location | San Francisco, CA, USA |
-| Tags | Artificial Intelligence, SaaS, Enterprise, No-code |
+| Tags | SaaS, Enterprise, No-code, AI |
 | YC Partner | Andrew Miklas |
-| Emails | hello@gigacatalyst.com |
+| Emails | No public data found (website contact email obfuscated via Cloudflare) |
 
 ## The Idea
 
-**Problem:** B2B vertical SaaS products serve diverse customer bases whose operational workflows vary per organization. Engineering teams cannot build per-customer customizations at scale, leading to workflow mismatch, churn, and stalled expansion. Customers today rely on feature requests, professional services, or building workarounds outside the platform (gigacatalyst.com).
-
-**Approach:** Gigacatalyst provides a white-label AI app builder that embeds directly inside a SaaS product. It connects to the host platform's APIs, data models, and security rules, then lets end-users describe workflows in natural language to generate production-ready microapps. These apps persist inside the SaaS platform with versioning and governance. A built-in app store allows users to share apps across their team. Implementation requires ~2 days for white-label installation, with full setup within 2 weeks (gigacatalyst.com).
-
-**Differentiation:** Unlike developer-focused tools such as Cursor or GitHub Copilot, Gigacatalyst targets non-technical end-users (operations teams, field workers, CS managers) who build for themselves rather than engineers building for customers (gigacatalyst.com/blog). Unlike Glean (enterprise search), it generates persistent workflow applications rather than retrieving information (gigacatalyst.com/blog). Unlike digital adoption platforms (WalkMe, Whatfix), it enables customers to create net-new applications rather than guiding them through existing UI. Unlike embeddable iPaaS solutions (Activepieces, Paragon), it generates complete apps from natural language rather than requiring connector configuration.
-
-**Business Model:** Pricing is custom/quote-based; no public pricing tiers found (gigacatalyst.com). The company states implementations "typically pay for themselves within four weeks through increased close rates and churn prevention" (gigacatalyst.com). [Inferred]: Most likely monetization is platform-fee or usage-based pricing charged to the SaaS vendor, given the B2B2B model and white-label positioning.
-
-**TAM/SAM:** The global low-code development platform market was valued at USD 37.39B in 2025, projected to reach USD 376.92B by 2034 at 29.10% CAGR (Fortune Business Insights, 2025). Grand View Research estimated USD 24.8B in 2023, projected to USD 101.68B by 2030 at 22.5% CAGR (Grand View Research, 2024 via search snippet). [Inferred]: The serviceable segment is the subset of B2B vertical SaaS companies (Series A–D) seeking embeddable customization layers — a fraction of the broader low-code market. No public SAM estimate found for this specific niche.
-
-**GTM / Distribution:** Gigacatalyst targets B2B vertical SaaS companies, starting with YC-network companies at Series B stage (gigacatalyst.com, YC page). Named customers include UpKeep (YC W17, Series B CMMS) and Scalio.app (gigacatalyst.com). [Inferred]: Distribution is founder-led direct sales leveraging YC network proximity, with white-glove onboarding as the initial GTM motion.
+- **Problem:** B2B SaaS sales and CS teams lose deals and expansion revenue due to missing customer-specific features, with current workarounds being engineering backlog requests or churn (gigacatalyst.com; YC page).
+- **Approach:** Embedded white-label AI builder that learns the host SaaS's APIs and lets end-customers describe workflows in natural language to generate custom apps/dashboards/automations, sharable through an in-product app store (gigacatalyst.com).
+- **Differentiation:** Versus Retool/ToolJet (standalone internal-tool builders), Gigacatalyst embeds inside the vendor's SaaS so customizations use the host product's APIs and UI; versus white-label analytics (Luzmo, Qrvey), it generates functional apps and automations rather than charts (Superblocks Retool Alternatives; Holistics; gigacatalyst.com).
+- **Business Model:** Custom-quote pricing tied to expected usage, with claim of "pay for themselves within the first four weeks" (gigacatalyst.com pricing copy).
+- **TAM/SAM:** No public TAM/SAM data found for this specific segment.
+- **GTM / Distribution:** [Inferred]: Direct sales to Series B+ SaaS vendors, evidenced by named deployments at UpKeep (YC W17, Series B) and Scalio.app (gigacatalyst.com).
 
 ## Defensibility
 
-- **Data advantage (developing):** Each deployment trains on the host platform's API surface and accumulates user-generated workflow apps, creating a per-customer data flywheel (gigacatalyst.com).
-- **Switching costs (developing):** Once end-users build 670+ workflow apps on a deployment (gigacatalyst.com/blog), migrating away requires recreating those apps.
-- **Network effects (emerging):** The built-in app store creates within-customer network effects as teams share and build on each other's apps (gigacatalyst.com).
-
-**Market structure:** [Inferred]: SaaS vendors themselves could build native AI customization features, but this requires diverting engineering from core product roadmap. The structural barrier is prioritization: customization tooling is adjacent to but not core to most vertical SaaS companies' value propositions, making a third-party embedded solution a faster path. No structural barrier from incumbents in the low-code space was identified, as they could add embeddable white-label offerings.
-
-**Commoditization risk:** The core technology (LLM-powered app generation from API specs) is reproducible by well-funded competitors. CopilotKit (28K+ GitHub stars) offers open-source in-app AI copilot infrastructure (GitHub, 2026). Differentiation depends on depth of API integration, governance features, and accumulated deployment expertise rather than proprietary model technology.
+- **Moat today:** API-learning layer per host SaaS plus customer-built "microapp" libraries (670+ microapps built inside one customer per gigacatalyst.com blog) could create switching costs once embedded.
+- **Future moat:** [Inferred]: Two-sided lock-in could develop — host SaaS vendors integrate Gigacatalyst deeply into their product, and end-customers accumulate microapps that would have to be rebuilt elsewhere; unproven at four-customer scale.
+- **Market structure:** [Inferred]: Host SaaS vendors face a build-vs-buy decision where building an internal customization layer cannibalizes their roadmap velocity, creating a buy preference for an embedded provider; not validated by public statements from buyers.
+- **Commoditization risk:** Retool ($165M raised; Tracxn/Clay) and ToolJet (open-source AI app builder; Superblocks) could extend toward embedded/white-label use; OpenAI/Anthropic agent-builder primitives lower the build floor for in-house equivalents.
 
 ## Market & Traction
 
-**Traction signals:**
-- UpKeep deployment: 1,000+ daily active users (Ryan Chan, CEO UpKeep, testimonial on gigacatalyst.com)
-- Scalio.app deployment: 500 DAU within one month of implementation (Tanay Rajoria, CEO Scalio.app, testimonial on gigacatalyst.com)
-- Blog-reported first-party deployment metrics: 670+ custom workflow apps built by non-technical users, 90.8% adoption rate among 946 users, 89% retention at 30 days (gigacatalyst.com/blog)
-- 90% repeat usage rate across deployments (YC page)
-- Company Twitter/X: No dedicated company account found; founder @NamanyayG (follower count not retrievable)
-- LinkedIn: Company page exists at linkedin.com/company/gigacatalyst (follower count not retrievable)
-- Product Hunt: No launch found
-- No app store listings, Chrome extension, or Discord/Slack community found
-- 0 open job postings (YC page)
-
-**Competitive landscape:**
-
-| Competitor | Funding | Key Differentiator vs. Gigacatalyst |
-|-----------|---------|-------------------------------------|
-| Command AI (CommandBar) | $23.8M raised; acquired by Amplitude for ~$45M+ (TechCrunch, Oct 2024) | In-app user assistance/nudges and copilot; focuses on guiding users through existing UI rather than enabling them to build new apps. Now part of Amplitude. |
-| CopilotKit | Funding not public; 28K+ GitHub stars (GitHub, 2026) | Open-source SDK for developers to build in-app AI copilots; developer-focused framework vs. Gigacatalyst's turnkey white-label product for non-technical users. |
-| Activepieces | YC-backed; embed plan at $30K/yr (activepieces.com) | Open-source workflow automation with embeddable option; focuses on integration/automation flows rather than natural-language app generation. |
-| Whatfix | $125M Series E (Sep 2024, via search snippet) | Digital adoption platform for user onboarding and guidance; does not enable users to build custom workflow apps. |
-
-**Why now:** [Inferred]: LLM capabilities crossed a quality threshold in 2024–2025 enabling reliable natural-language-to-application generation from API specifications. Simultaneously, B2B SaaS companies face increasing pressure on net revenue retention, making customer-facing customization tools a competitive necessity rather than a nice-to-have. The convergence of capable LLMs and retention pressure creates the opening for an embedded AI app-builder category.
+- **Traction signals:**
+  - $1M sales pipeline unblocked for customers in 6 weeks (YC page; gigacatalyst.com).
+  - 90% repeat usage rate at Series B customers (YC page).
+  - 800+ features shipped in 6 weeks across customer base, ~2,400 engineering hours equivalent (YC page).
+  - 70% day-30 retention (YC page); separately, 89% day-30 retention cited in one customer case (gigacatalyst.com blog).
+  - 1,000+ daily users at UpKeep deployment (gigacatalyst.com).
+  - 500 DAU within first month at Scalio.app deployment (gigacatalyst.com).
+  - Customer testimonial: 946 users with 90.8% adoption and 670+ microapps built at one HR-software customer (gigacatalyst.com blog, April 14, 2026).
+  - Customer testimonial: $100K churn prevented; +31% win-rate improvement (gigacatalyst.com).
+  - Founder editorial reach: 4M+ readers in 2025, coverage in New York Times, Futurism, Inc. Magazine (nmn.gl; via search snippet).
+  - Named customers: UpKeep (YC W17), Scalio.app (gigacatalyst.com).
+  - No public data found on company Twitter/LinkedIn follower counts, Discord/Slack size, Product Hunt launch, or press coverage of Gigacatalyst itself.
+- **Competitors:**
+  - Retool ($165M raised, Sequoia/YC; ARR unknown; Tracxn/Clay): standalone internal-tool builder, not embedded in third-party SaaS.
+  - Airkit ($68M raised, EQT/Accel/Emergence; revenue unknown; Tracxn/Crunchbase): low-code CX automation, not embedded customer-facing customization.
+  - Glide ($23.8M raised; revenue unknown; Tracxn/PitchBook): no-code app builder targeting end-users directly rather than host SaaS vendors.
+  - ToolJet (funding unknown; open-source AI app builder; Superblocks): horizontal builder; lacks white-label embed-in-vendor model.
+  - Luzmo / Qrvey (revenue unknown; Holistics; Qrvey): embedded analytics for SaaS vendors, scope limited to BI dashboards, not functional apps.
+- **Why now:** [Inferred]: LLM code-generation crossed a reliability threshold in 2024–2025 making natural-language-to-app feasible inside a host product's API surface; evidenced by founder's own blog framing "vibe coding on legacy codebases" (gigacatalyst.com blog) and broader Retool 2026 "Build vs Buy Shift" report citing AI/SaaS-replacement era (retool.com).
 
 ## Founders & Team
 
-**Namanyay Goel** — Founder & CEO
-- Started programming at age 13; 13+ years of software development experience (nmn.gl)
-- Built and operated a development agency for 10 years (GitHub bio)
-- Articles accumulated 4M+ views in 2025; featured in New York Times, Futurism, Inc. Magazine (nmn.gl)
-- Previously CEO of GigaMind (gigamind.dev), an AI tool for large codebases, from mid-September 2025 (nmn.gl). GigaMind appears to be a prior product; Namanyay's LinkedIn now shows Gigacatalyst (YC P26), indicating a pivot.
-- Education: No public data found
-- Twitter/X: @NamanyayG — follower count not retrievable
-- LinkedIn: linkedin.com/in/namanyayg — 500+ connections (LinkedIn via search snippet)
-- GitHub: github.com/namanyayg — 76 public repos, 172 followers; pinned repo "webstiles" (99 stars) (GitHub)
-
-**Other team members:** The company lists a team size of 3 (YC page), but only Namanyay Goel is publicly identified. No other co-founders or team members found in public sources.
-
-**Co-founder relationship:** No public data on co-founder history (only one founder publicly identified).
-
-**Founder-market fit:** Namanyay has 13+ years of software development experience and ran a dev agency for 10 years, providing direct exposure to building custom software for diverse client needs — the core problem Gigacatalyst addresses. His content reach (4M+ views, NYT/Inc. coverage) provides a distribution advantage for thought leadership in the B2B SaaS buyer persona. His prior product GigaMind (AI for codebases) demonstrates domain familiarity with AI-assisted development tooling.
+- **Namanyay Goel (Founder/CEO):**
+  - Background: Founder of Giga AI ("second brain for engineering teams"); prior roles include Dyeus, Metric Books, Ayom; ran an agency for eight years; coding since age 13; AI writing reached 4M+ readers in 2025 with features in NYT, Futurism, Inc. Magazine (nmn.gl; getprog.ai profile; via search snippet).
+  - Twitter/X: @NamanyayG (x.com/namanyayg); follower count not retrievable.
+  - LinkedIn: "Gigacatalyst (YC P26)" (linkedin.com/in/namanyayg); follower count not retrievable.
+  - GitHub: @namanyayg (github.com/namanyayg); top repo and star count not retrievable in search results.
+- **Other team members:** YC lists team size 4 but only Namanyay Goel is identified by name on the YC page and website; no other founder or employee names found in public sources.
+- **Co-founder relationship:** No public data on co-founder history (single named founder).
+- **Founder-market fit:** Founder previously built Giga AI, a developer-tools AI product (getprog.ai), giving direct prior experience embedding AI into engineering workflows that map to Gigacatalyst's "AI that learns your APIs" thesis; no advisor or investor names beyond Y Combinator surfaced in public sources.
 
 ## Key Risks
 
-**Single identified founder with a team of 3:** Only one founder is publicly named despite a 3-person team listing. The absence of a publicly identified technical co-founder creates key-person risk. Mitigation: none found.
-
-**Recent pivot from GigaMind:** Namanyay's personal site (nmn.gl) lists him as "CEO of GigaMind" (a developer tool for codebases) as of September 2025, while his LinkedIn now shows Gigacatalyst (YC P26). The pivot timeline suggests Gigacatalyst in its current form is likely less than 6 months old. Prior-product metrics (GigaMind) should not be conflated with current-product traction.
-
-**Customer concentration:** Two named customers (UpKeep, Scalio.app) account for all publicly reported traction. Loss of either deployment would materially impact reported metrics. The blog-reported deployment data (946 users, 670+ apps) appears to correspond to the UpKeep deployment specifically (gigacatalyst.com/blog references "a YC-backed CMMS platform").
-
-**Platform dependency on LLM providers:** Natural-language app generation depends on third-party LLM APIs. Changes in LLM pricing, rate limits, or capability could directly impact product quality and unit economics. No proprietary model or fine-tuning was mentioned.
-
-**Commoditization from SaaS vendors:** The host SaaS platforms themselves (Gigacatalyst's customers) could build native AI customization features, eliminating the need for a third-party layer. UpKeep or similar platforms adding native AI app-building would be a direct substitution risk.
+- **Single-named-founder execution risk:** Public sources identify only Namanyay Goel by name despite a stated team size of 4 (YC page; gigacatalyst.com), concentrating delivery risk on one individual; no mitigation found.
+- **Embedded-distribution dependency:** Revenue requires host SaaS vendors integrating Gigacatalyst into their own product surface, a long enterprise sales cycle evidenced by only two publicly named deployments (UpKeep, Scalio per gigacatalyst.com) after the cited 6-week traction window.
+- **Platform substitution by Retool/agent platforms:** Retool's 2026 "Build vs Buy Shift" positioning and AI agent builders (retool.com blog) plus open-source ToolJet AI builder (Superblocks) lower the barrier for host SaaS vendors to build in-house; no contractual or technical lock-in disclosed publicly.
+- **LLM cost/quality regression:** Product depends on natural-language-to-app generation against host APIs; pricing claim of "pay for themselves in four weeks" (gigacatalyst.com) implies usage-based costs that scale with LLM inference, exposing margin to model pricing changes; no mitigation disclosed.
+- **Traction-metric heterogeneity:** Day-30 retention is cited at 70% on the YC page and 89% in a customer blog post (gigacatalyst.com), and "$1M unblocked in 6 weeks" is a customer outcome not Gigacatalyst revenue — investors should verify which figure represents portfolio-wide reality.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $37.39B in 2025, projected $376.92B by 2034 at 29.10% CAGR (Fortune Business Insights, 2025) |
+| TAM | No public data found |
 | SAM | No public data found |
-| Traction | 1,000+ DAU on UpKeep deployment (gigacatalyst.com testimonial); 500 DAU on Scalio.app within 1 month (gigacatalyst.com testimonial); 670+ apps built, 90.8% adoption among 946 users, 89% 30-day retention on a single deployment (gigacatalyst.com/blog); 90% repeat usage rate (YC page) |
-| Revenue Signal | No public data found |
-| Founders | Namanyay Goel (Founder/CEO): 13+ yr dev experience, ran dev agency 10 yr, 4M+ article views, NYT/Inc./Futurism press (nmn.gl). Two other team members not publicly identified. |
-| Competitors | Command AI ($23.8M raised, acquired by Amplitude ~$45M+, in-app user guidance vs. app building) (TechCrunch, Oct 2024); CopilotKit (funding not public, 28K+ GitHub stars, open-source dev SDK vs. turnkey white-label) (GitHub, 2026); Activepieces (YC-backed, $30K/yr embed plan, workflow automation vs. NL app generation) (activepieces.com); Whatfix ($125M Series E, digital adoption vs. app building) (search snippet, Sep 2024) |
-| Moat Signals | Per-deployment data accumulation and user-generated app library create switching costs (gigacatalyst.com/blog — 670+ apps on one deployment) |
-| Risk Factors | Recent pivot from GigaMind, customer concentration (2 named customers), LLM provider dependency |
-| Founder Reach | Namanyay Goel: Twitter @NamanyayG (count not retrievable), LinkedIn 500+ connections (LinkedIn via search snippet), GitHub 172 followers / 99 stars on top repo (GitHub) |
-| Distribution Signals | No public data found |
-| Emails | hello@gigacatalyst.com (gigacatalyst.com) |
+| Traction | $1M customer pipeline unblocked in 6 weeks (YC page); 90% repeat usage at Series B customers (YC page); 800+ features shipped in 6 weeks (YC page); 70% day-30 retention (YC page); 1,000+ DAU at UpKeep (gigacatalyst.com); 500 DAU first month at Scalio (gigacatalyst.com); 946 users / 90.8% adoption / 670+ microapps at one HR customer (gigacatalyst.com blog, Apr 14 2026) |
+| Revenue Signal | Custom-quote pricing tied to expected usage (gigacatalyst.com); no ARR or paying-customer count disclosed |
+| Founders | Namanyay Goel (Founder/CEO): prior founder of Giga AI; ex-Dyeus, Metric Books, Ayom; 4M+ readers in 2025 with NYT/Inc./Futurism features (nmn.gl; getprog.ai) |
+| Competitors | Retool ($165M raised, Sequoia/YC, ARR unknown, standalone not embedded); Airkit ($68M raised, EQT/Accel/Emergence, revenue unknown, CX automation focus); Glide ($23.8M raised, revenue unknown, end-user app builder); ToolJet (funding unknown, open-source horizontal builder); Luzmo/Qrvey (revenue unknown, embedded analytics only) |
+| Moat Signals | Per-customer API-learning layer plus 670+ accumulated microapps at one customer (gigacatalyst.com blog); no contractual lock-in disclosed |
+| Risk Factors | Single named founder vs. team-of-4 listing, embedded-distribution dependency on host SaaS vendors, LLM-cost margin exposure |
+| Founder Reach | Namanyay Goel: Twitter @NamanyayG (count not retrievable), LinkedIn /in/namanyayg (count not retrievable), GitHub @namanyayg (star count not retrievable); editorial reach 4M+ readers 2025 (nmn.gl) |
+| Distribution Signals | Named deployments at UpKeep and Scalio.app (gigacatalyst.com); Spring 2026 YC batch (P26) listing (ycombinator.com/companies/gigacatalyst); no Product Hunt or Chrome Store presence found |
+| Emails | No public data found (website contact obfuscated via Cloudflare) |
+
+Sources:
+- [Gigacatalyst YC Page](https://www.ycombinator.com/companies/gigacatalyst)
+- [Gigacatalyst Website](https://gigacatalyst.com/)
+- [Namanyay Goel LinkedIn](https://www.linkedin.com/in/namanyayg/)
+- [Namanyay Goel Personal Site](https://nmn.gl/)
+- [Namanyay Goel GitHub](https://github.com/namanyayg)
+- [Namanyay Goel on X](https://x.com/namanyayg)
+- [Gigacatalyst HR AI Blog](https://gigacatalyst.com/blog/hr-software-ai-features-2026)
+- [Retool Funding (Clay)](https://www.clay.com/dossier/retool-funding)
+- [Airkit Profile (Tracxn)](https://tracxn.com/d/companies/airkit/__wA8ppOxxbV7WFyoAuc4MrsKxhCU3fHSddwnZXeCiaN0)
+- [Glide Profile (PitchBook)](https://pitchbook.com/profiles/company/265401-10)
+- [Retool Alternatives (Superblocks)](https://www.superblocks.com/retool-alternatives)
+- [Getprog Founder Profile](https://www.getprog.ai/profile/2727051)

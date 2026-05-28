@@ -8,7 +8,7 @@
     "batch": "Spring 2026",
     "industry": "B2B / B2B",
     "team_size": "2",
-    "location": "No public data found",
+    "location": "San Francisco, CA, USA",
     "tags": "B2B, Video, API, AI",
     "yc_partner": "David Lieb",
     "emails": "No public data found"
@@ -20,58 +20,28 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-22T23:39:21.933Z",
+  "memoGeneratedAt": "2026-05-28T02:50:50.081Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 56,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 76,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 56,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 50,
+      "score": 58,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 43,
-    "EG": 56,
-    "NR": 76,
-    "PG": 56,
-    "PT": 40,
-    "SL": 40,
-    "VK": 50
+    "CB": 58,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 51.57,
-  "consolidatedRank": 17,
+  "consolidatedAvg": 58,
+  "consolidatedRank": 14,
   "paths": {
     "memo": "spring2026/memos/keyframe-labs.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/keyframe-labs.md",
-      "elad-gil": "spring2026/evals/elad-gil/keyframe-labs.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/keyframe-labs.md",
-      "paul-graham": "spring2026/evals/paul-graham/keyframe-labs.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/keyframe-labs.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/keyframe-labs.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/keyframe-labs.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/keyframe-labs.md"
     }
   }
 }

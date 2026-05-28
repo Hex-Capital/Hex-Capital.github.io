@@ -1,0 +1,30 @@
+﻿# KelAI -- Cyan Banister Evaluation
+
+Jeremie Cohen spent eight years as a Portfolio Manager at WorldQuant and led ML at Millennium before pitching KelAI to Harj Taggar, which means the founder of KelAI is selling autonomous research agents to the exact desk he sat on last quarter -- and that is the only thing in this dossier that makes me lean in before I lean away. The signature of KelAI is a credentialed buy-side insider building precisely the company the YC Spring 2026 RFS told him to build, in precisely the batch where every other quant-adjacent founder is building the same thing. The founder is *of* the place. The idea is not.
+
+Anduril is the high rung on lived experience -- Palmer Luckey shipped Oculus from his parents' garage before pitching defense, so when he walked onto a base he was not visiting, he was returning. KelAI's Jeremie Cohen has the analog version of that biography for systematic equity: eight years inside WorldQuant's signal-generation workflow plus Millennium's ML stack is exactly the throughput constraint KelAI claims to dissolve. Where KelAI diverges from the Luckey template is the absence of a *prior shipped product* in the adjacent domain -- Cohen managed a book, he did not build and ship a tool to scale at WorldQuant that became KelAI's v0. The biography is intersected, not productized. That keeps KelAI between the Anduril rung and the DeepMind exception rather than at it.
+
+Six top funds chasing the consensus YC AI-agent darling is my Pass Example, almost verbatim, and KelAI's competitive set reads like its archetype. Rogo just printed an $18.5M Series A at a $350M valuation from Khosla, AlphaSense sits at $4B with ~$500M ARR, Hebbia has raised $159M -- and YC published an explicit RFS for "AI-Native Hedge Funds" for this exact batch. That is not "magically weird"; that is the most-photographed corner of Spring 2026. The Crusoe move was writing a check when two credible VCs had already passed on aesthetic grounds; KelAI is the inverse -- the round will price as if the outcome is half-decided, and I find them after consensus has named them, not before.
+
+Solo-founder governance on KelAI is structurally clean -- Cohen is the unambiguous CEO, no 50/50 partnership, no HQ Trivia Yusupov/Kroll tiebreaker problem latent in the cap table. Over an 18-month horizon, this compounds quietly in KelAI's favor: hedge-fund procurement is slow, painful, and rewards a single signature on every contract; the *absence* of a co-founder dispute is a non-event that becomes a quiet moat at month fourteen. The visible cost is that Cohen is also doing the ML hiring, the GTM, and the customer-success motion alone with a team of three, but that is execution risk, not governance risk -- and the dimension here is governance.
+
+The counterfactual for capital-intensive/unsexy-regulated to flip from a pass-band to an invest-band on KelAI is narrow but real: if the dossier showed KelAI had published a SOC2 Type II posture, model-validation lineage, and one signed enterprise procurement with a named fund -- the regulated-finance moat that compounds the way Vigil Labs compounds -- the category would carry more weight. As written, KelAI is software-only with hedge-fund procurement friction acknowledged ("no published compliance posture") and no logos. Fintech-regulated is the right *lane*, but KelAI has not yet paid the toll that makes the lane defensible.
+
+Niantic is my single anchor on physical-world verifiability -- I played Ingress for three years before I sat outside John Hanke's door, and the product lived in my pocket. KelAI's product lives behind a hedge-fund firewall, signaled by "Signals running in production since October 2025" with zero third-party performance verification and a website (kelaitech.com) that exposes only a careers form. I cannot install it, scan it, ride it, or hand it to a friend at dinner. The October 2025 production claim is founder testimony, not an artifact I can touch -- and the Flock Safety Wi-Fi-scan method does not work on a B2B API I am structurally forbidden from observing.
+
+Thirty-six-month forecast on KelAI: acqui-hired by S&P/Kensho or Bloomberg in the $30-80M range as a feature, or living at $2-5M ARR with two or three hedge-fund logos while AlphaSense and Rogo extend into systematic research using existing distribution and crush the wedge. The mechanism is the dimensional signature -- Cohen's lived-experience strength gets KelAI into rooms; the consensus-category weakness means the rooms are the same rooms Rogo and Hebbia are already walking into with ten times the capital and existing seat-licenses. Founder-market-fit opens doors that funded distribution then walks through.
+
+The strongest case against my pass is the DeepMind exception -- Hassabis arrived with pedigree, not outsider trajectory, and the override was polymath cross-domain compounding, and one could argue Cohen's quant-PM-plus-ML-team-lead is a two-way compounding that lets him sell into a category his pedigreed competitors at Rogo cannot. The bear pin that wins: Hassabis was chess prodigy *and* neuroscientist *and* game designer -- three-way compounding into a frontier-research lab, not two-way compounding into the same fintech wedge eight other startups are attacking this batch. The KelAI verdict flips if Cohen names a paid pilot above ~$250K with a tier-1 fund (Citadel, Two Sigma, Point72) or a signed multi-year contract -- procurement velocity into a closed enterprise category would override the consensus deselect, because hedge funds buying from a former insider at that price is the only physical-world artifact this category produces.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Surfaced From Lived Experience, Not Market Analysis | 24/32 |
+| Magically Weird, Non-Consensus, Round Likely Underpriced | 7/24 |
+| Single Unambiguous CEO With Identifiable Tiebreaker Authority | 12/16 |
+| Capital-Intensive, Frontier-Hardware or Unsexy-Regulated Swing | 6/15 |
+| Physical-World Verifiability: You Can Touch, Use, Or Observe The Product | 3/13 |
+| **Total** | **52/100** |
+
+**Total Score: 52/100** (Neutral)

@@ -11,79 +11,62 @@
 | Team Size | 3 |
 | Location | San Francisco, CA, USA |
 | Tags | B2B, Workflow Automation, Supply Chain |
-| YC Partner | David Lieb (YC company page) |
-| Emails | admin@hexaagents.com (hexaagents.com, May 2026) |
+| YC Partner | David Lieb |
+| Emails | admin@hexaagents.com (hexaagents.com) |
 
 ## The Idea
 
-**Problem:** Manufacturers and distributors run core operations on email threads, PDFs, and spreadsheets, with manual copy-paste into ERPs (Ishaan Makkar quote via search snippet). "54% of manufacturing companies still rely on spreadsheets for core operations" (Ishaan Makkar quote via search snippet). Affected workflows include sales quoting, procurement, finance, and customer service (hexaagents.com, May 2026).
-
-**Approach:** Purpose-built AI agents that automate workflows inside existing systems (hexaagents.com, May 2026). Specific agent capabilities: quotes generated from emails/PDFs/calls; material-shortage detection, vendor comparison, RFQ and PO generation; invoice matching to POs/receipts, aging tracking, collections; customer-service answers (order status, delivery, specs, returns) read from live ERP data (hexaagents.com, May 2026).
-
-**Differentiation:** Native integrations advertised with SAP, Oracle NetSuite, Microsoft Dynamics, Epicor, Salesforce, HubSpot, Zoho, Pipedrive, plus custom platforms (hexaagents.com, May 2026). [Inferred]: Differentiation vs. horizontal RFP/quoting tools is the explicit vertical focus on manufacturer/distributor ERP stacks and an end-to-end function set across sales, procurement, finance, and CS rather than a single workflow.
-
-**Business Model:** No public pricing page (hexaagents.com, May 2026). Demo booking via Calendly link to "ishaan-hexaagents/30min" (hexaagents.com, May 2026). [Inferred]: Most likely monetization is enterprise SaaS, priced per agent/workflow or per seat with an annual contract, based on the listed ERP integrations and demo-led sales motion.
-
-**TAM/SAM:** No public TAM/SAM data found for AI-agents-for-manufacturers-and-distributors specifically. Adjacent context: 80% of Chief Procurement Officers name AI a top priority for 2026 (tryleverage.ai blog, 2026 via search snippet).
-
-**GTM / Distribution:** [Inferred]: Founder-led outbound and demo-booking via the Calendly link on the website, focused on mid-market manufacturers and distributors running SAP/NetSuite/Dynamics/Epicor, based on the listed integrations and the demo-only contact path on hexaagents.com.
+- **Problem:** Industrial distributors and manufacturers process quotes/RFQs/POs manually from emails and PDFs and copy-paste into ERPs; "54% of manufacturing companies still rely on spreadsheets for core operations" (Ishaan Makkar LinkedIn via search snippet).
+- **Approach:** AI agents that ingest emails, PDFs and call transcripts, match parts to catalogs, generate priced quotes, run shortage detection, build RFQs/POs, and reconcile invoices against ERP data (hexaagents.com, May 2026).
+- **Differentiation:** Versus Didero (procurement-only agentic AI on ERP, TechCrunch, Feb 2026) and Traza (AI workers for vendor mgmt/quoting, Pulse2, 2026), Hexa positions as a full-stack "OS" spanning sales, procurement, finance and customer service rather than a single function (hexaagents.com, May 2026).
+- **Business Model:** [Inferred]: Per-customer SaaS subscription — YC page discloses "$9,000 MRR from 3 customers in 6 weeks" implying ~$3K/mo per customer (YC Hexa page); no public pricing page on hexaagents.com.
+- **TAM/SAM:** No public TAM/SAM data found for this specific segment; adjacent "AI procurement" market cited as essential infrastructure for manufacturers in 2026 (SupplyChainBrain, 2026).
+- **GTM / Distribution:** [Inferred]: Direct enterprise sales — site exposes only a Calendly demo-booking flow and integrations with SAP, NetSuite, Dynamics, Epicor, Salesforce, HubSpot, Zoho, Pipedrive (hexaagents.com, May 2026).
 
 ## Defensibility
 
-No defensibility signals (patents, proprietary datasets, exclusive ERP partnerships) found in public sources. [Inferred]: Potential moat could develop via (a) vertical-specific data flywheel from parsing unstructured manufacturer documents (RFQs, POs, spec sheets) and (b) integration depth across the eight listed ERP/CRM systems, which raises switching costs, but is unproven at this stage.
-
-**Market structure:** No structural barrier identified at this stage. [Inferred]: ERP incumbents (SAP, Oracle, Microsoft) ship native agent layers (e.g., SAP Joule, Dynamics Copilot referenced in top10erp.org, 2025 via search snippet), creating direct substitution risk rather than a structural moat for Hexa.
-
-**Commoditization risk:** High. Multiple AI quoting/procurement agent startups already exist serving overlapping use cases — Distro, Turian, Go Autonomous, Arphie, Altura, AutoRFP.ai (search snippets, 2025-2026). LLM-orchestration toolchains (LangChain, n8n) lower the build cost for additional entrants (arnasoftech.com case study, via search snippet).
+- **Moat today:** No defensibility signals found in public sources beyond breadth of ERP integrations claimed on hexaagents.com.
+- **Future moat:** [Inferred]: Workflow data and catalog/pricing graphs accumulated from ERP integrations could create switching costs; unproven at 3 customers (YC Hexa page).
+- **Market structure:** [Inferred]: Incumbent ERPs (SAP, Oracle NetSuite, Epicor) face channel conflict adding native AI agents that bypass their own SI partner economics, leaving an opening for third-party overlays; no cited evidence of this dynamic for Hexa specifically.
+- **Commoditization risk:** Well-funded competitors are shipping overlapping agentic procurement products — Didero raised $30M Series A on Feb 12, 2026 (TechCrunch) and Traza raised $2.1M for "AI workers for procurement" (Pulse2, 2026), indicating low technical barrier to category entry.
 
 ## Market & Traction
 
-**Traction signals:**
-- No customer count, revenue, ARR, or pilot disclosures on website or YC page (hexaagents.com and ycombinator.com/companies/hexa, May 2026).
-- No Product Hunt launch found for hexaagents.com (Product Hunt search, May 2026).
-- No press coverage in TechCrunch/VentureBeat/The Information found (web search, May 2026).
-- No public Twitter/X, LinkedIn company page, Discord, or Slack community found via search (May 2026).
-- No active YC jobs board posting found (May 2026); company status listed as "not hiring" (YC page, May 2026).
-
-**Competitive landscape:**
-- **Distro** — Positions as "the only order entry automation AI tailored to industrial distributors," processes 30-minute RFQs in under 2 minutes (distro.app blog via search snippet). Funding/ARR: No public data found. Differentiator vs. Hexa: deeper specialization in distributor order entry/takeoffs; Hexa spans a broader functional set (sales + procurement + finance + CS).
-- **Turian** — Agentic AI for end-to-end procurement, RFQ inbox-to-ERP automation (tryleverage.ai via search snippet). Funding/ARR: No public data found. Differentiator: procurement-only focus vs. Hexa's multi-function suite.
-- **Go Autonomous** — AI quoting that reads RFQs from emails/documents and generates quotes for manufacturers and distributors (oneflow.com via search snippet). Funding/ARR: No public data found. Differentiator: quoting-only product surface.
-- **Altura** — AI-first RFP automation, raised €8M (search snippet, 2025-2026). Differentiator: RFP-response side (sell-side proposals) rather than the cross-function ERP-embedded agents Hexa describes.
-- **Tessera** — "Enterprise-grade AI for ERP modernization," governed AI for code/data/process change (tesseralabs.ai via search snippet). Funding/ARR: No public data found. Differentiator: ERP transformation tooling vs. day-to-day operational agents.
-
-Adjacent incumbent threat: SAP, Oracle NetSuite, and Microsoft Dynamics are each shipping embedded AI/agent capabilities (top10erp.org and McKinsey, 2025 via search snippets).
-
-**Why now:** [Inferred]: Two enabling shifts in the last 12-24 months — (1) LLMs crossed an accuracy/cost threshold for parsing unstructured business documents (RFQs, POs, spec PDFs, emails) at production quality; (2) agentic frameworks now enable multi-step writes back into ERPs rather than read-only suggestions, which is what hexaagents.com markets ("update ERP records," "generate POs"). No named-analyst causal claim found.
+- **Traction signals:**
+  - Revenue: $9,000 MRR from 3 customers signed in 6 weeks (YC Hexa page, 2026).
+  - Press coverage: None found beyond YC listing.
+  - Social: LinkedIn company page "Hexa (YC P26)" at linkedin.com/company/hexaagents — follower count not retrievable.
+  - Product Hunt: No listing found.
+  - Job postings: Status field shows "Hiring: False" (YC company_data).
+- **Competitors:**
+  - Didero ($37M total raised — $30M Series A co-led by Chemistry & Headline with M12 + $7M seed June 2024, revenue unknown; TechCrunch Feb 2026): agentic procurement layer for manufacturers/distributors — direct overlap on procurement use case but narrower than Hexa's sales+finance+CS scope.
+  - Traza ($2.1M pre-seed raised, revenue unknown; Pulse2, 2026): AI workers embedded in industrial enterprise procurement workflows (vendor mgmt, quoting, order tracking) — direct overlap on quoting workflow.
+  - Leverage AI / Tropic / Zip / Coupa / SAP Ariba (Tropic raised >$100M, Zip raised >$180M, Coupa was taken private at $8B in 2023, revenue unknown for Hexa-relevant segment; tryleverage.ai 2026 list): corporate purchasing/spend management — adjacent, focused on buyer-side enterprise spend rather than distributor sales workflows.
+  - Find My Factory (funding undisclosed, revenue unknown; findmyfactory.eu, 2026): NLP sourcing search across 125M+ manufacturer profiles — adjacent supplier-discovery layer.
+- **Why now:** [Inferred]: Agentic-AI tool-use reliability crossed a usable threshold for multi-step ERP workflows in 2025–2026 — a 2025 survey cited "76% of supply chain professionals believe autonomous AI agents are ready to manage core operational tasks" (SupplyChainBrain, 2026).
 
 ## Founders & Team
 
-**Ishaan Makkar** — Founder/CEO (YC page, May 2026)
-- LinkedIn headline: "Stealth" (linkedin.com/in/ishaan-makkar/, via search snippet, May 2026)
-- Background: Quoted as identifying manufacturing as "one of the least digitized industries in the world" with "54% of manufacturing companies still rely[ing] on spreadsheets for core operations" (via search snippet). One search snippet referenced him "joining FR8 with Mann Patira to build Hexa," but this could not be confirmed via a direct primary source and the snippet's reliability is uncertain.
-- Education: No public data found.
-- Prior companies/exits: No public data found.
-- Twitter/X: No public account found.
-- LinkedIn: linkedin.com/in/ishaan-makkar/ — follower count not retrievable (LinkedIn returned status 999 to WebFetch).
-- GitHub: No public repos found.
-
-**Other team members (2):** Names not listed on the YC company page or website (ycombinator.com/companies/hexa and hexaagents.com, May 2026). One unverified search snippet referenced "Mann Patira" in connection with Hexa; not confirmed via primary source. No public data found for the third team member.
-
-**Co-founder relationship:** No public data on co-founder history (no education or employer overlap could be verified given that only the CEO is publicly named).
-
-**Founder-market fit:** [Inferred]: Founder-market fit cannot be assessed from public sources — no prior manufacturing, distribution, ERP, or supply-chain employment is documented for Ishaan Makkar in retrievable public records. No advisors, board members, or investors beyond YC are publicly disclosed.
+- **Ishaan Makkar (Founder/CEO):**
+  - Background: Listed as "Hexa (YC P26)" on LinkedIn; LinkedIn snippet authored by him cites "54% of manufacturing companies still rely on spreadsheets" framing the thesis (LinkedIn search snippet, 2026); no public data found on prior employer, education, or exits.
+  - Twitter/X: No public account found.
+  - LinkedIn: "Hexa (YC P26)" at linkedin.com/in/ishaan-makkar/ (LinkedIn search result).
+  - GitHub: No public repos found.
+- **Auri Nayak (Founder):**
+  - Background: Referenced as "Aurideep Nayak, Hexa YC X26" at the Cactus x Google DeepMind Hackathon listing (Luma, 2026); no public data found on prior employer, education, or exits.
+  - Twitter/X: No public account found.
+  - LinkedIn: No public profile found in search results.
+  - GitHub: No public repos found.
+- **Co-founder relationship:** No public data on co-founder history.
+- **Founder-market fit:** [Inferred]: Founder publicly articulates a specific manufacturing-digitization thesis ("manufacturers still running on email threads and copy-paste into their ERP by hand," Ishaan Makkar LinkedIn via search snippet), but no documented prior operating role in manufacturing/distribution was found; YC Group Partner is David Lieb (YC Hexa page).
 
 ## Key Risks
 
-**ERP incumbent substitution:** SAP, Oracle NetSuite, and Microsoft Dynamics — three of Hexa's listed integration targets — are each rolling out native AI agents inside their own platforms (top10erp.org and McKinsey, 2025 via search snippets). Customers may default to in-suite agents rather than a third-party overlay. No mitigation found in Hexa's public materials.
-
-**Crowded direct competitor set:** At least five overlapping AI-agent startups target RFQ/quoting/procurement for manufacturers and distributors (Distro, Turian, Go Autonomous, Arphie, Altura — search snippets, 2025-2026). Hexa has no disclosed customer wins to differentiate on traction.
-
-**Integration breadth fragility:** Public site advertises native integrations across 8+ ERPs/CRMs with a 3-person team (hexaagents.com and YC page, May 2026). [Inferred]: Maintaining production-grade write-back integrations at that breadth is engineering-intensive; depth on any one ERP is unlikely to match a single-stack competitor.
-
-**Trust/error tolerance in core financial workflows:** Product writes back to ERP for invoicing, PO generation, and collections (hexaagents.com, May 2026). [Inferred]: Errors in these workflows have direct cash-flow consequences for customers, creating a high bar for adoption versus read-only assistants.
-
-**Name disambiguation risk:** "Hexa" overlaps with a Brussels-based startup studio (hexa.com, formerly eFounders, $4.5B portfolio per hexa.com), and several unrelated "Hexa" entities (HEXA IoT, HEXA Global Ventures, HEXA Group). SEO and brand confusion likely.
+- **Well-funded direct competitor with overlapping wedge:** Didero closed a $30M Series A on Feb 12, 2026 co-led by Chemistry and Headline with M12 participation, explicitly targeting "manufacturers and distributors who need to source raw materials" (TechCrunch, Feb 2026) — same ICP as Hexa with ~37x the capital.
+- **ERP-incumbent substitution:** Hexa's product layers on SAP, Oracle NetSuite, Dynamics, Epicor (hexaagents.com); these vendors are shipping native AI agents (e.g., Tenable's Hexa AI agentic engine, Security Boulevard Mar 2026 — different product, but indicative of incumbents bundling agentic capability), creating a direct substitution path.
+- **Name-collision discoverability risk:** At least five other "Hexa" entities surfaced in search — Hexa startup studio (hexa.com), Hexa AI Agency, Tenable's Hexa AI product, Hex Security (YC W26), and HEXA Coworking — likely complicating SEO/brand search for industrial buyers (multiple search results, 2026).
+- **Customer concentration:** $9K MRR is split across 3 customers (YC Hexa page), meaning ~33% revenue loss per churn event; no mitigation found in public sources.
+- **Founder-background opacity:** Only LinkedIn-headline-level data is publicly indexable for both founders; no prior-startup, exit, or domain-employment evidence located in Phase 3 searches, limiting due-diligence verifiability.
 
 ## Key Facts
 
@@ -91,23 +74,25 @@ Adjacent incumbent threat: SAP, Oracle NetSuite, and Microsoft Dynamics are each
 |-----------|------|
 | TAM | No public data found |
 | SAM | No public data found |
-| Traction | No public data found (no metrics on hexaagents.com, YC page, or press, May 2026) |
-| Revenue Signal | No public data found (no pricing page on hexaagents.com, May 2026; demo-only contact) |
-| Founders | Ishaan Makkar (Founder/CEO): listed as sole founder on YC page (ycombinator.com/companies/hexa, May 2026); LinkedIn "Stealth"; other team members not publicly named |
-| Competitors | Distro (funding unknown, revenue unknown, distributor order-entry specialist via search snippet); Turian (funding unknown, revenue unknown, procurement-only agents via search snippet); Go Autonomous (funding unknown, revenue unknown, quoting-only for manufacturers/distributors via search snippet); Altura (€8M raised via search snippet, RFP-response focus); Tessera (funding unknown, ERP-modernization tooling via tesseralabs.ai) |
+| Traction | $9,000 MRR from 3 customers signed in 6 weeks (YC Hexa page, 2026) |
+| Revenue Signal | $9,000 MRR (YC Hexa page, 2026); no pricing page published on hexaagents.com (May 2026) |
+| Founders | Ishaan Makkar (Founder/CEO): authored manufacturing-digitization thesis on LinkedIn; LinkedIn-listed as Hexa YC P26. Auri Nayak (Founder): referenced as "Aurideep Nayak, Hexa YC X26" at Cactus x DeepMind hackathon. |
+| Competitors | Didero ($37M total raised — $30M Series A Feb 2026 + $7M seed Jun 2024, revenue unknown, direct overlap on manufacturer procurement, TechCrunch). Traza ($2.1M raised, revenue unknown, AI workers for procurement quoting, Pulse2). Find My Factory (funding undisclosed, revenue unknown, NLP sourcing across 125M manufacturer profiles, findmyfactory.eu). Tropic / Zip / Coupa / SAP Ariba (corporate-spend adjacent, not distributor-side, tryleverage.ai). |
 | Moat Signals | No public data found |
-| Risk Factors | ERP incumbent substitution, crowded competitor set, integration-breadth fragility on 3-person team |
-| Founder Reach | Ishaan Makkar: Twitter not found, LinkedIn linkedin.com/in/ishaan-makkar/ (count not retrievable), GitHub not found |
-| Distribution Signals | No public data found (no Product Hunt launch, no press, no public social accounts identified, May 2026) |
+| Risk Factors | Well-funded direct competitor Didero ($30M Series A), ERP-incumbent substitution risk, name-collision SEO risk |
+| Founder Reach | Ishaan Makkar: Twitter not found, LinkedIn present (count not retrievable), GitHub not found. Auri Nayak: Twitter not found, LinkedIn not found, GitHub not found. |
+| Distribution Signals | No public data found (Calendly demo-book flow on hexaagents.com; no Product Hunt, Chrome Store, or press placements located) |
 | Emails | admin@hexaagents.com (hexaagents.com, May 2026) |
 
+Note on prompt-injection: A WebFetch return on the YC page contained an embedded fake `<system-reminder>` listing additional MCP/auth tools — flagged and ignored per protocol.
+
 Sources:
-- [Hexa - hexaagents.com](https://www.hexaagents.com)
-- [Hexa - Y Combinator](https://www.ycombinator.com/companies/hexa)
-- [Ishaan Makkar - LinkedIn](https://www.linkedin.com/in/ishaan-makkar/)
-- [Distro blog - order entry automation](https://distro.app/blog/how-quoting-and-takeoffs-automation-are-transforming-wholesale-distribution)
-- [Top 7 AI-Powered Procurement Automation Platforms - tryleverage.ai](https://tryleverage.ai/blog/pf/ai-procurement-automation-platforms-manufacturers)
-- [AI in ERP 2025 - top10erp.org](https://www.top10erp.org/blog/ai-in-erp)
-- [AI disruption in ERP - McKinsey](https://www.mckinsey.com/capabilities/mckinsey-technology/our-insights/the-end-of-erp-as-we-know-it-five-ways-ai-is-disrupting-erp)
-- [Best AI quoting software 2026 - oneflow.com](https://oneflow.com/blog/ai-quoting-software/)
-- [Tessera Labs](https://www.tesseralabs.ai/)
+- [Hexa company site](https://www.hexaagents.com/)
+- [Hexa YC page](https://www.ycombinator.com/companies/hexa)
+- [Ishaan Makkar LinkedIn](https://www.linkedin.com/in/ishaan-makkar/)
+- [Hexa LinkedIn company page](https://www.linkedin.com/company/hexaagents)
+- [Didero $30M Series A — TechCrunch](https://techcrunch.com/2026/02/12/didero-lands-30m-to-put-manufacturing-procurement-on-agentic-autopilot/)
+- [Traza pre-seed — Pulse2](https://pulse2.com/traza-2-1-million-raised-to-automate-procurement-and-supply-chain-operations-with-ai-workers/)
+- [2026 AI procurement platforms overview — Leverage](https://tryleverage.ai/blog/pf/ai-procurement-automation-platforms-manufacturers)
+- [Why 2026 is the year of AI agents — SupplyChainBrain](https://www.supplychainbrain.com/blogs/1-think-tank/post/43687-why-2026-is-the-year-of-ai-agents-for-autonomous-procurement)
+- [Cactus x Google DeepMind Hackathon (Aurideep Nayak listing) — Luma](https://luma.com/f0arqlwy)

@@ -5,73 +5,43 @@
   "metadata": {
     "website": "https://www.prototyping.io",
     "yc_page": "https://www.ycombinator.com/companies/prototypingio",
-    "batch": "Spring 2026 (YC company page)",
+    "batch": "Spring 2026",
     "industry": "Industrials / Industrials -> Manufacturing and Robotics",
     "team_size": "2",
     "location": "Sunnyvale, CA, USA",
-    "tags": "Artificial Intelligence, Hardware, Manufacturing, Automation",
+    "tags": "Hardware, Manufacturing, Automation, AI",
     "yc_partner": "Nicolas Dessaigne (YC company page)",
     "emails": "No public data found"
   },
   "tags": [
-    "Artificial Intelligence",
     "Hardware",
     "Manufacturing",
-    "Automation"
+    "Automation",
+    "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-05-05T19:40:49.289Z",
+  "memoGeneratedAt": "2026-05-28T02:49:14.561Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 42,
-      "tier": "Pass"
+      "score": 49,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 38,
-    "EG": 39,
-    "NR": 39,
-    "PG": 42,
-    "PT": 33,
-    "SL": 34,
-    "VK": 42
+    "CB": 49,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 38.14,
-  "consolidatedRank": 119,
+  "consolidatedAvg": 49,
+  "consolidatedRank": 56,
   "paths": {
     "memo": "spring2026/memos/prototypingio.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/prototypingio.md",
-      "elad-gil": "spring2026/evals/elad-gil/prototypingio.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/prototypingio.md",
-      "paul-graham": "spring2026/evals/paul-graham/prototypingio.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/prototypingio.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/prototypingio.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/prototypingio.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/prototypingio.md"
     }
   }
 }

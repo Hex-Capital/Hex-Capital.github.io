@@ -21,58 +21,28 @@
     "Infrastructure"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-22T23:56:39.730Z",
+  "memoGeneratedAt": "2026-05-28T03:04:58.504Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 57,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 50,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 40,
+      "score": 38,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 37,
-    "EG": 57,
-    "NR": 50,
-    "PG": 45,
-    "PT": 28,
-    "SL": 37,
-    "VK": 40
+    "CB": 38,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 42,
-  "consolidatedRank": 68,
+  "consolidatedAvg": 38,
+  "consolidatedRank": 148,
   "paths": {
     "memo": "spring2026/memos/primitive.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/primitive.md",
-      "elad-gil": "spring2026/evals/elad-gil/primitive.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/primitive.md",
-      "paul-graham": "spring2026/evals/paul-graham/primitive.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/primitive.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/primitive.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/primitive.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/primitive.md"
     }
   }
 }

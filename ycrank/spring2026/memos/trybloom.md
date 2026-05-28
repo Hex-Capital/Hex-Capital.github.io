@@ -1,121 +1,99 @@
 ﻿# Bloom
 
-> Bloom is the Brand OS for your business.
+> The brand layer for agents
 
 | Field | Value |
 |-------|-------|
 | Website | https://trybloom.ai |
 | YC Page | https://www.ycombinator.com/companies/trybloom |
-| Batch | Spring 2026 |
+| Batch | Spring 2026 (YC page) |
 | Industry | B2B / B2B |
-| Team Size | 2 |
-| Location | San Francisco, CA, US |
+| Team Size | 3 |
+| Location | San Francisco, CA, USA |
 | Tags |  |
-| YC Partner | Pete Koomen |
-| Emails | support@trybloom.ai, ray@rayfitzgerald.io |
+| YC Partner | Pete Koomen (YC page) |
+| Emails | support@trybloom.ai (trybloom.ai, 2026) |
 
 ## The Idea
 
-**Problem:** Businesses need on-brand marketing assets (social posts, ads, banners, product shots) at volume. Current options are hiring freelance designers ($3K+/month per one customer testimonial on the website) or using template-based tools like Canva that produce generic output not calibrated to a specific brand's visual identity. The gap is between expensive bespoke design and cheap but off-brand templates.
-
-**Approach:** Users paste a website URL or Instagram profile. Bloom scrapes and extracts the brand's visual identity — logo, colors, fonts, design aesthetic — then generates on-brand images using AI (trybloom.ai). The system offers creation, editing, AI-powered resizing across platform formats (Instagram Stories, Facebook, Google Ads), photo-to-branded-asset transformation, and 4K output (trybloom.ai). An API with 11 endpoints and MCP integration enable programmatic brand asset generation at scale (trybloom.ai/developers).
-
-**Differentiation:** vs. **Canva**: Canva is a general-purpose design tool where users manually select templates and apply brand kits; Bloom auto-extracts brand identity and generates assets without manual template selection (trybloom.ai comparison page). vs. **AdCreative.ai**: AdCreative focused on ad performance optimization; Bloom focuses on brand-consistent visual identity across all marketing surfaces (trybloom.ai). vs. **Looka**: Looka centers on logo and initial brand kit creation; Bloom targets ongoing asset production post-brand-establishment (trybloom.ai).
-
-**Business Model:** Freemium with credit-based pricing (trybloom.ai):
-- Plus Plan: $20/month (50 on-brand assets), with a $5/3-day trial offer
-- Scale Plan: $90/month or $1,080/year (500 credits/month), unlimited team members, no per-seat fees
-- Credit tiers available: 300, 500, 1,000, 2,000 credits
-
-**TAM/SAM:** The AI Creativity and Art Generation market was valued at $13.5B in 2024 with a 26.5% CAGR (Market.us, 2024 via search snippet). The AI in Creator Economy segment was valued at $3.31B in 2024 with a 31.4% CAGR (The Business Research Company, 2025 via search snippet). Advertising and marketing applications accounted for 30.7% of generative AI market revenue (Grand View Research, 2025 via search snippet). No SAM estimate specific to AI brand-asset generation was found.
-
-**GTM / Distribution:** Initial growth was organic/viral: 1.4M views and 14K users in the first week with zero paid marketing (trybloom.ai/careers). Currently hiring a Founding Growth/Marketing role (YC jobs page). [Inferred]: Primary distribution path is likely product-led growth via the free trial and self-serve pricing, supplemented by API/MCP integrations for developer-led adoption within marketing teams.
+- **Problem:** AI agents and creative tools generate off-brand outputs because brand assets (decks, websites, Figma, social) are scattered and not machine-readable, forcing teams to either manually correct outputs or maintain bespoke prompt libraries (trybloom.ai, 2026).
+- **Approach:** Bloom ingests brand assets from multiple sources, systematizes them into a "Brand OS," and exposes the brand via web app, REST API, and MCP server so any agent (Claude, ChatGPT, Cursor, Codex, Manus) can call it for on-brand images, video, and copy (trybloom.ai, 2026).
+- **Differentiation:** vs. Marq/Canva — Bloom is API/MCP-first for agent consumption rather than human design templating (trybloom.ai features page; Marq.com, 2026); vs. Jasper Brand Voice — Bloom covers multimodal output (image, video, copy) rather than copy-only (Marq blog, 2026); vs. Ad Legends/uBrand kit generators — Bloom is a callable runtime, not a one-time brand-kit extraction (adlegends.ai, 2026).
+- **Business Model:** Scale plan at $90/month (or $1,080 annual, 28% discount) including 500 credits, with consumption tiers at 300/500/1,000/2,000 credits, unlimited seats, API+MCP in all plans (trybloom.ai pricing, 2026).
+- **TAM/SAM:** Generative AI in creative industries projected to grow from $4.06B (2025) to $5.38B (2026) at 32.3% CAGR (DesignRush/market report via search snippet, 2026); no public SAM data found for agent-callable brand infrastructure specifically.
+- **GTM / Distribution:** Founder-led organic social distribution (launch tweet "World's first on-brand AI" on X, Dec 2, 2025, via @rincidium) plus MCP server distribution across major AI coding/agent platforms (x.com/rincidium/status/1995946528343818656; trybloom.ai integrations, 2026).
 
 ## Defensibility
 
-- **Data moat (emerging):** Each user's brand identity extraction builds a proprietary understanding of that brand; switching costs increase as workflows and team members depend on Bloom's brand model (trybloom.ai).
-- **API/MCP lock-in (emerging):** Developer integrations via 11 API endpoints create programmatic dependencies that increase switching costs (trybloom.ai/developers).
-- No patents, network effects, or regulatory barriers identified in public sources.
-
-**Market structure:** Canva ($42B valuation, $4B ARR; Canva newsroom, Aug 2025) could build similar brand-extraction features — and launched Brand Kits 2.0 for enterprise brand guideline enforcement (Canva, 2025 via search snippet). [Inferred]: The structural barrier is that Canva's business model is built around manual template selection and broad horizontal design; deeply automating asset generation from brand extraction could cannibalize their per-user engagement model and reduce time-in-tool.
-
-**Commoditization risk:** The core capability — scraping a website for brand elements and prompting an image model — is technically reproducible. Multiple startups (AdCreative.ai, Kittl) operate in adjacent spaces. [Inferred]: Differentiation depends on generation quality, brand fidelity, and workflow integrations rather than algorithmic uniqueness.
+- **Moat today:** Multi-surface integration footprint across Claude Desktop, ChatGPT, Claude Code, OpenCode, Cursor, VS Code, OpenAI Codex, and Manus via MCP (trybloom.ai, 2026); reported 50k+ images generated in launch week implies early generation-data accumulation (search snippet, Dec 2025).
+- **Future moat:** [Inferred]: Switching costs as brands ingest assets into Bloom and downstream agents/workflows are wired to its API/MCP endpoints; unproven now because customer-base size and integration depth are not publicly disclosed.
+- **Market structure:** [Inferred]: Incumbent design tools (Canva, Adobe, Figma) monetize human-seat licensing, so an API/MCP, no-seat, consumption model would cannibalize per-seat revenue if launched natively; this creates channel-conflict friction rather than a hard technical barrier.
+- **Commoditization risk:** Brand-kit extraction is already offered free by Ad Legends and as part of Canva AI 2.0 Brand Intelligence launched April 2026 (flatlineagency.com; adlegends.ai, 2026); core ingestion step is replicable, making the agent-callable runtime + integration distribution the principal differentiator.
 
 ## Market & Traction
 
-**Traction signals:**
-- 40,000+ users (trybloom.ai, as of time of research)
-- 1.4M views on launch day, 14K users in first week, 50K+ images generated in first week, zero paid marketing (trybloom.ai/careers)
-- $1M raised from investors including Guillermo Rauch, founder of Vercel (trybloom.ai/careers)
-- Backed by Nebular VC (Tracxn via search snippet)
-- Twitter/X: @trybloomai, 840 followers (X.com, as of research date)
-- YouTube channel: @trybloomai (YouTube)
-- Discord community exists (referenced in @trybloomai pinned post, Dec 2, 2025); member count not retrievable
-- LinkedIn company page: linkedin.com/company/aibloom (LinkedIn); follower count not retrievable
-- 2 active job postings: Founding Product Engineer ($120K-$200K, 1-5% equity) and Founding Growth/Marketing ($120K-$180K, 1-5% equity) (YC jobs page)
-- Product Hunt: A page exists at producthunt.com/products/bloom-23/launches (Product Hunt via search snippet) but launch details (upvotes, ranking) could not be confirmed due to disambiguation with an unrelated blockchain company also named "Bloom"
-
-**Customer testimonials from website** (these reflect customer outcomes, not Bloom's own revenue):
-- "I replaced my freelance designer and honestly the output is better" — Sarah K., Founder, Glow Beauty Co. (trybloom.ai)
-- "Our social team was spending $3K/month on a freelancer for Instagram content. Bloom replaced that entirely" — Tomas L., Head of Growth, Solara Drinks (trybloom.ai)
-
-**Competitive landscape:**
-
-| Competitor | Funding | Revenue/ARR | Key Differentiator vs. Bloom |
-|-----------|---------|-------------|------------------------------|
-| **Canva** | $42B valuation (Canva newsroom, Aug 2025) | $4B ARR (end 2025; Sacra/getlatka) | Horizontal design platform; manual template selection vs. Bloom's auto brand extraction |
-| **AdCreative.ai** | $585K seed; acquired by Appier for $38.7M (Feb 2025; Crunchbase/Tracxn) | €24.3M annual revenue (Dec 2024; Tracxn via search snippet) | Focused on ad performance optimization, not full brand identity system |
-| **Looka** | $6M Series A (Nov 2018; Crunchbase) | $8M revenue (2024; getlatka) | Logo-and-brand-kit creation tool; 20M+ users; focuses on initial brand creation vs. ongoing asset production |
-| **Kittl** | $36M Series B (Jan 2024; TechCrunch) | Revenue unknown | AI-first graphic design platform for creators; broader design focus, not brand-specific generation |
-
-**Why now:** [Inferred]: The enabling catalyst is the maturation of image generation models (DALL-E 3, Stable Diffusion XL, Flux) reaching sufficient quality for commercial marketing assets in 2024-2025, combined with multimodal models capable of extracting and reasoning about brand identity from visual inputs. AI usage in Canva alone grew 700% YoY to 800M tool uses/month (Canva, 2025), indicating broad behavioral adoption of AI for creative work.
+- **Traction signals:**
+  - 1.4M views, 14K users, 50k+ images generated in first week of launch with zero paid marketing (search snippet, Dec 2025).
+  - $1M raised from Guillermo Rauch (founder of Vercel) and Nebular VC (search snippet, 2026).
+  - Launch tweet from founder Dec 2, 2025 (x.com/rincidium/status/1995946528343818656).
+  - Roman Kolesov LinkedIn post promoting "Bloom AI Brandbook Generator," 2025 (linkedin.com search result).
+  - Medium write-up: "The New AI Branding Superpower! Bloom.ai Generates a Full Brand System From Your Website" (medium.com/@breezen100, 2025).
+  - YouTube channel @trybloomai active (youtube.com, 2026).
+  - 2 active job postings: Founding Growth/Marketing ($120K-$180K) and Founding Engineer ($120K-$200K) (ycombinator.com/companies/trybloom/jobs, 2026).
+  - Twitter/LinkedIn follower counts not retrievable via WebFetch (count not retrievable).
+- **Competitors (3-5):**
+  - Marq ("trusted by over 7 million people," revenue unknown, raised unknown): human-seat design templating for distributed teams vs. Bloom's API/MCP agent runtime (marq.com, 2026).
+  - Jasper AI (raised $131M Series A 2022 per public reporting via search snippet, revenue unknown): copy-focused Brand Voice at $69/mo per seat vs. Bloom's multimodal, unlimited-seat consumption model (designrush.com, 2026).
+  - Canva (private, $40B valuation per public reporting via search snippet): Canva AI 2.0 Brand Intelligence launched April 2026 applies brand fonts/colors to designs vs. Bloom's headless API/MCP for any agent (flatlineagency.com, April 2026).
+  - uBrand (funding unknown, revenue unknown): entrepreneur-focused brand creation UI vs. Bloom's agent-callable infrastructure (ubrand.com, 2026).
+  - Ad Legends AI Brand Kit Generator (funding unknown, revenue unknown): free one-shot brand-kit extraction vs. Bloom's persistent, callable brand system (adlegends.ai, 2026).
+- **Why now:** MCP protocol adoption by Anthropic, OpenAI, Cursor, and Codex through 2025 created a standard hook for agents to call external brand context, enabling the "callable brand" pattern (trybloom.ai integrations list, 2026; [Inferred] from MCP rollout timing).
 
 ## Founders & Team
 
-**Ray Fitzgerald** — Founder & CEO
-- BSc Computer Science (First Class Honors), University College Cork (2017-2021); Machine Learning Certification, Stanford University (2020) (rayfitzgerald.io)
-- Previously founded Lucid, an AI-native word processor: 400K+ launch views, 3K+ sign-ups, 100+ DAU (rayfitzgerald.io). Note: these are Lucid metrics, a prior product, not Bloom
-- Senior Software Engineer at Inscribe (YC S18), Mar 2023-Feb 2025: co-founded their AI Agents platform, reducing manual review time by 80% (rayfitzgerald.io)
-- Software Engineer at Layer (Nov 2021-Feb 2023): digital banking APIs in Golang (rayfitzgerald.io)
-- Co-founder of Servuss (Jul 2020-Mar 2021): B2B SaaS restaurant ordering (rayfitzgerald.io)
-- Side project "Chat with Site": 350+ users, recurring revenue (rayfitzgerald.io)
-- Twitter/X: @rincidium — follower count not retrievable
-- LinkedIn: linkedin.com/in/ray-fitzgerald-86b451148
-- GitHub: github.com/TheRayFitzgerald — 20 repositories; notable repos include Annie (NLP chatbot) and Scrape with Screenshot (rayfitzgerald.io, GitHub)
-
-**Siddharth Borderwala** — Design Engineer (not listed as co-founder on YC page)
-- Full-stack engineer, 3+ years experience; specializes in TypeScript, React, Node.js, Rails, Golang (siddharthborderwala.com via search snippet)
-- Previously at Gumroad and Leap Wallet (search snippet)
-- Twitter/X: @sidborderwala — follower count not retrievable
-- LinkedIn: linkedin.com/in/siddharthborderwala
-- GitHub: github.com/siddharthborderwala
-
-**Co-founder relationship:** The YC page lists only Ray Fitzgerald as founder. Siddharth Borderwala appears to be an early employee (Design Engineer), not a co-founder. No shared prior employer or university overlap between them is visible in public data.
-
-**Founder-market fit:** Ray Fitzgerald has a pattern of building AI-powered product tools (Lucid, Chat with Site, Inscribe AI agents) and demonstrated ability to generate viral launches (400K views for Lucid, 1.4M views for Bloom) (rayfitzgerald.io, trybloom.ai/careers). His work at Inscribe (YC S18) provides direct YC ecosystem experience. [Inferred]: His repeated pattern of building AI products with strong initial traction signals product intuition, though Bloom is his first venture in the brand/marketing domain specifically.
+- **Ray Fitzgerald (Founder/CEO):**
+  - Background: Cork, Ireland native; previously founded Lucid, an AI-native word processor (thinkbusiness.ie; crunchbase.com/organization/lucid-237d); prior to Lucid, founding engineer at Inscribe (YC S18) on AI Agents platform, reportedly reducing manual review time by 80% (search snippet).
+  - Twitter/X: @rincidium (twitter.com/rincidium) — follower count not retrievable.
+  - LinkedIn: "Bloom" (ie.linkedin.com/in/ray-fitzgerald-86b451148).
+  - GitHub: No public repos found in search results.
+- **Co-founder relationship:** No public data on co-founder identities; YC page lists only Ray Fitzgerald though team size is 3, and the company is hiring a Founding Engineer and Founding Growth role (ycombinator.com/companies/trybloom; jobs page, 2026).
+- **Founder-market fit:** Documented track record building AI-native creative software (Lucid word processor) and shipping AI agents in production (Inscribe S18) maps directly to Bloom's agent-runtime + creative-output thesis (thinkbusiness.ie; YC page); backing from Guillermo Rauch (Vercel) signals developer-tools network access (search snippet).
 
 ## Key Risks
 
-**Name disambiguation:** "Bloom" is an extremely common company name. Search results surface Bloom Energy (public company), Bloom Nutrition, Bloom (blockchain/credit scoring), Bloom AI (enterprise data), and others. This creates brand confusion and SEO competition, and complicates due diligence (observed across all search phases).
-
-**Solo founder with prior incomplete ventures:** Ray Fitzgerald's prior venture Lucid (AI word processor, Feb 2025) was launched months before Bloom (Dec 2025), suggesting a rapid pivot. Lucid metrics (100+ DAU; rayfitzgerald.io) indicate limited traction before the shift to Bloom. The pattern of Servuss (2020-2021), Lucid (early 2025), then Bloom (late 2025) raises execution continuity questions.
-
-**Canva platform risk:** Canva launched Brand Kits 2.0 for enterprise brand guideline enforcement (Canva, 2025) and has 800M AI tool uses/month (Canva, 2025). Direct feature overlap with Bloom's core value proposition is possible from a $42B incumbent with 200M+ monthly active users (Canva statistics, 2025 via search snippet).
-
-**Generative AI quality dependency:** Bloom's output quality depends on third-party image generation models. Changes in model APIs, pricing, or output quality directly impact the product. No evidence of proprietary model training was found in public sources.
+- **Platform substitution risk:** Canva AI 2.0 Brand Intelligence (launched April 2026) and Adobe's brand-aware AI overlap directly with Bloom's "auto-apply brand" value prop on the design surface (flatlineagency.com, 2026); mitigation is Bloom's headless API/MCP positioning targeting agents rather than designers.
+- **Commoditization of ingestion:** Free brand-kit extractors (Ad Legends, Magnt) demonstrate the ingestion step is low-defensibility (adlegends.ai; magnt.com, 2026); Bloom's moat thesis depends on runtime usage, not extraction, but no public retention/ARR data confirms runtime stickiness.
+- **Name collision risk:** Multiple unrelated entities use "Bloom" (Bloom Finder app, Trybloom skincare at trybloom.store, Bloom health app at trybloom.app, Bloom Ventures VC) creating search-discovery and trademark friction (search results, 2026).
+- **Team concentration:** Only one founder is publicly identified (Ray Fitzgerald) despite team-size 3 and two open founding-role hires, creating single-founder execution and key-person concentration (YC page; jobs page, 2026).
+- **Unverified traction figures:** The 1.4M views / 14K users / 50K images / $1M raised figures appear only in search snippets and are not corroborated by named press outlets (TechCrunch, Forbes, etc.) in retrieved results; verification with founder is warranted before underwriting.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $13.5B AI Creativity & Art Generation market in 2024, 26.5% CAGR (Market.us, 2024 via search snippet) |
+| TAM | Generative AI in creative industries: $4.06B in 2025 → $5.38B in 2026, 32.3% CAGR (market report via search snippet, 2026) |
 | SAM | No public data found |
-| Traction | 40K+ users (trybloom.ai); 1.4M launch views, 14K users in first week, 50K+ images in first week (trybloom.ai/careers); 840 Twitter followers (X.com) |
-| Revenue Signal | $20/mo Plus plan, $90/mo Scale plan (trybloom.ai pricing page) |
-| Founders | Ray Fitzgerald (Founder): BSc CS UCC, Stanford ML cert, Sr. Eng at Inscribe (YC S18), founded Lucid |
-| Competitors | Canva ($42B valuation, $4B ARR, horizontal design platform), AdCreative.ai ($38.7M acquisition, €24.3M revenue, ad-focused), Looka ($6M raised, $8M revenue, brand kit creation), Kittl ($36M Series B, revenue unknown, AI design platform) |
-| Moat Signals | No public data found |
-| Risk Factors | Name disambiguation, solo founder with rapid pivots, Canva feature encroachment |
-| Founder Reach | Ray Fitzgerald: Twitter @rincidium (count not retrievable), LinkedIn ray-fitzgerald-86b451148, GitHub TheRayFitzgerald 20 repos |
-| Distribution Signals | 1.4M organic launch views (trybloom.ai/careers, Dec 2025); Product Hunt page exists but launch metrics unconfirmed (producthunt.com) |
-| Emails | support@trybloom.ai (trybloom.ai), ray@rayfitzgerald.io (rayfitzgerald.io) |
+| Traction | 1.4M views, 14K users, 50K+ images in launch week (search snippet, Dec 2025); $1M raised from Guillermo Rauch + Nebular VC (search snippet, 2026); 2 open founding-role jobs (YC jobs page, 2026); Medium feature (medium.com/@breezen100, 2025) |
+| Revenue Signal | Scale plan $90/mo, $1,080 annual (28% discount), 500 credits; tiered 300/500/1,000/2,000 credits; unlimited seats; API+MCP in all plans (trybloom.ai pricing, 2026) |
+| Founders | Ray Fitzgerald (Founder/CEO): founded Lucid (AI word processor); founding engineer at Inscribe YC S18 AI Agents platform; Cork, Ireland native |
+| Competitors | Marq (raised unknown, revenue unknown, human-seat brand templating); Jasper AI ($131M raised per public reporting via search snippet, revenue unknown, copy-focused Brand Voice); Canva (private $40B valuation per public reporting via search snippet, Brand Intelligence launched April 2026); uBrand (funding unknown, entrepreneur UI); Ad Legends (funding unknown, free brand-kit extraction) |
+| Moat Signals | MCP/API integrations with Claude Desktop, ChatGPT, Claude Code, OpenCode, Cursor, VS Code, OpenAI Codex, Manus (trybloom.ai, 2026); 50K+ images generated in launch week (search snippet) |
+| Risk Factors | Canva/Adobe platform substitution, commoditized brand-kit extraction, name collision, single publicly-identified founder |
+| Founder Reach | Ray Fitzgerald: Twitter @rincidium (count not retrievable), LinkedIn ray-fitzgerald-86b451148 (count not retrievable), GitHub not found |
+| Distribution Signals | Founder launch tweet Dec 2, 2025 (x.com/rincidium/status/1995946528343818656); MCP server distribution across 8 AI platforms (trybloom.ai, 2026); YouTube @trybloomai active; Medium write-up (2025); no Product Hunt launch found in search results |
+| Emails | support@trybloom.ai (trybloom.ai, 2026) |
+
+Sources:
+- [Bloom — trybloom.ai](https://trybloom.ai/)
+- [Bloom YC profile](https://www.ycombinator.com/companies/trybloom)
+- [Bloom jobs](https://www.ycombinator.com/companies/trybloom/jobs/)
+- [Ray Fitzgerald X launch](https://x.com/rincidium/status/1995946528343818656)
+- [Ray Fitzgerald LinkedIn](https://ie.linkedin.com/in/ray-fitzgerald-86b451148)
+- [Lucid Crunchbase](https://www.crunchbase.com/organization/lucid-237d)
+- [Lucid feature — ThinkBusiness](https://www.thinkbusiness.ie/articles/lucid-ai-text-editor-reimagines-word-processing/)
+- [Medium write-up on Bloom](https://medium.com/@breezen100/the-new-ai-branding-superpower-7c0662c05646)
+- [DesignRush AI branding tools 2026](https://www.designrush.com/agency/logo-branding/trends/ai-branding-tools)
+- [Marq AI brand management](https://www.marq.com/blog/ai-tools-for-brand-management/)
+- [Flatline Agency — Canva AI 2.0](https://www.flatlineagency.com/blog/ai-design-tools-for-brands-2026/)
+- [Ad Legends Brand Kit Generator](https://www.adlegends.ai/ai-brand-kit-generator)
+- [uBrand](https://ubrand.com/)

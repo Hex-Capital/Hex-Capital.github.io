@@ -1,6 +1,6 @@
 ﻿# Framewise Health
 
-> AI-personalized patient recovery videos
+> AI-native patient engagement
 
 | Field | Value |
 |-------|-------|
@@ -12,110 +12,94 @@
 | Location | San Francisco, CA, USA |
 | Tags | SaaS, Health Tech, B2B |
 | YC Partner | Aaron Epstein |
-| Emails | contact@framewisehealth.com |
+| Emails | contact@framewisehealth.com, tane@framewisehealth.com |
 
 ## The Idea
 
-**Problem:** Hospitals face Medicare readmission penalties under the CMS Hospital Readmissions Reduction Program (HRRP); in FY 2023, 2,273 hospitals (74.7% of those subject to HRRP) were penalized, totaling $320M in payment reductions (CMS, FY2023). David Cui stated: "The average hospital pays $1M/year in Medicare readmission penalties" (LinkedIn post, April 2026). Current discharge education relies on printed packets that patients frequently do not read or understand, particularly when there is a language barrier. Nurses spend significant time on discharge education, reducing availability for clinical care. The company website frames the value proposition as: "give your nurses their shift back" (framewisehealth.com).
-
-**Approach:** Framewise generates personalized AI video content for each patient by pulling de-identified patient details from the EHR via FHIR standards — including diagnosis, medications, language preference, and discharge plan (framewisehealth.com). Videos are customized by avatar, language, medical history, and discharge plan, reviewed by clinicians, and delivered via SMS before hospital discharge and throughout recovery (framewisehealth.com). No app download or login is required. The website example shows a cardiac patient (CHF + Type 2 diabetes, Spanish-preferred) receiving a personalized discharge video (framewisehealth.com).
-
-**Differentiation:** Compared to Synthesia (general-purpose AI video, $4B valuation; Synthesia Series E, Jan 2026) and KreadoAI/VidifyAI (generic healthcare video generators), Framewise is purpose-built for the hospital discharge workflow with direct EHR integration via FHIR. Compared to Mytonomy (acquired by Elsevier, March 2026; MobiHealthNews, 2021) which offers a library of pre-made educational videos, Framewise generates patient-specific content from EHR data. Compared to Health Recovery Solutions ($84.7M raised; Crunchbase) which focuses on remote patient monitoring post-discharge, Framewise targets the education gap at the point of discharge. Framewise is HIPAA-compliant with a signed AWS BAA and end-to-end encryption (framewisehealth.com).
-
-**Business Model:** Pricing is "anchored to the hospital's readmission volume and CMS HRRP penalty, so every quote is tied directly to the savings Framewise unlocks" (framewisehealth.com via search snippet). No fixed pricing tiers are published. [Inferred]: This is a value-based pricing model where contract size scales with the hospital's penalty exposure, likely making it an enterprise SaaS sale with variable deal sizes.
-
-**TAM/SAM:**
-- Patient Experience Technology Market: $0.59B in 2024, projected $1.16B by 2030, 11.8% CAGR (MarketsandMarkets, 2025).
-- U.S. Patient Engagement Solutions Market: $7.59B in 2024, 19.77% CAGR to 2030 (Grand View Research, 2024).
-- CMS HRRP penalty pool: $320M in FY2023 across 2,273 penalized hospitals (CMS, FY2023). [Inferred]: The direct SAM could be estimated from the ~3,000 hospitals subject to HRRP, but no company-published SAM figure was found.
-
-**GTM / Distribution:** The website includes a demo booking link via cal.com (framewisehealth.com). [Inferred]: Most likely distribution path is direct sales to hospital quality/patient safety officers and CMOs, anchored by ROI conversations around HRRP penalty reduction. The value-based pricing model creates a natural pilot-to-enterprise expansion path within health systems.
+- **Problem:** Hospitals discharge patients with paper instructions in English that patients cannot understand across 75+ languages, with no scalable alternative beyond manual nurse calls or printed handouts (Framewise website).
+- **Approach:** Pulls medical record data via FHIR integrations (Epic, Oracle/Cerner, athenahealth, ModMed, eClinicalWorks, NextGen), auto-generates a personalized video reviewed by clinicians, and delivers it via SMS with no app or login (Framewise website).
+- **Differentiation:** Memora Health automates care via text messaging without auto-generated personalized video (CB Insights); Klara is HIPAA-compliant secure messaging and video calls between staff and patients, not AI-generated patient-specific content (SelectHub); [Inferred]: PatientPoint and CipherHealth deliver standardized non-personalized educational content versus per-patient generated video.
+- **Business Model:** No pricing disclosed on the website; demo booking via Calendly (Framewise website); [Inferred]: B2B SaaS sold to hospitals, specialty groups, and pharma per stated customer segments (Framewise website).
+- **TAM/SAM:** US Patient Engagement Solutions Market $14.55B in 2025 projected to $25.01B by 2030 at 11.4% CAGR (MarketsandMarkets, 2025); global patient engagement solutions $29.33B in 2025 to $51.69B by 2030 (Grand View Research, 2025).
+- **GTM / Distribution:** [Inferred]: Direct sales to hospitals, specialty groups, medical devices, and pharma based on stated target segments (Framewise website + YC page); no public partnerships, pilots, or signed customer announcements found.
 
 ## Defensibility
 
-- **EHR integration via FHIR:** Technical integration with hospital EHR systems creates switching costs once deployed (framewisehealth.com). Each deployment requires mapping to the hospital's specific data schema and clinical workflows.
-- **Clinical validation workflow:** Videos are clinician-reviewed before delivery (framewisehealth.com), requiring domain-specific quality processes that general-purpose AI video tools lack.
-- [Inferred]: Data flywheel potential exists — as more patient encounters are processed, the system could improve personalization quality and build a corpus of clinically validated video templates across conditions and languages. This is unproven at this stage.
-
-**Market structure:** General-purpose AI video platforms (Synthesia, HeyGen) lack EHR integration, HIPAA infrastructure, and clinical review workflows. Building these would require significant healthcare-specific investment that does not serve their core enterprise/marketing customer base. Incumbent patient engagement platforms (Epic MyChart, Cerner) deliver text-based education; generating personalized AI video content would require building or acquiring an AI video generation stack. [Inferred]: The structural barrier is that incumbents' existing revenue comes from text/document-based workflows, and pivoting to AI-generated video requires a different technical stack and clinical validation process.
-
-**Commoditization risk:** The core technology (LLM + video generation + FHIR integration) uses components that are increasingly commoditized. VidifyAI already advertises HIPAA-compliant healthcare video generation with BAA and SOC 2 Type II (vidifyaistudio.com via search snippet). [Inferred]: The defensibility rests more on clinical workflow integration and hospital sales relationships than on the underlying AI technology.
+- **Moat today:** FHIR-native integrations live with 6 named EHRs (Epic, Oracle/Cerner, athenahealth, ModMed, eClinicalWorks, NextGen) plus HIPAA and SOC 2 compliance (Framewise website); no proprietary dataset, customer count, or contract evidence found in public sources.
+- **Future moat:** [Inferred]: Engagement data collected across patients could train downstream personalization models per company description (YC page), unproven now because no traction metrics are public.
+- **Market structure:** [Inferred]: EHR-integrated SMS-delivered video personalization combines clinical-content liability, FHIR plumbing, and per-patient generative pipeline that EHR incumbents have not bundled, but no structural barrier is documented in public sources.
+- **Commoditization risk:** Memora Health (acquired by Commure Dec 2024 per Tracxn), CipherHealth, and Hyro operate adjacent patient-communication infrastructure (CB Insights, SelectHub) and could add AI-video personalization on top of existing customer bases.
 
 ## Market & Traction
 
-**Traction signals:**
-- Y Combinator Spring 2026 batch member (YC company page).
-- David Cui's LinkedIn post announcing YC acceptance received 257 reactions and 60 comments (LinkedIn, April 2026).
-- David Cui: 1,273 LinkedIn followers (LinkedIn, April 2026).
-- Tane Kim: 454 LinkedIn connections (LinkedIn via search snippet).
-- No public revenue, user counts, customer names, or partnership announcements found.
-- No Product Hunt launch found.
-- No mobile app or browser extension found.
-- Company Twitter/X account: not confirmed. Handles @framehealth and @framewise exist on X but could not be verified as belonging to this company.
-
-**Competitive landscape:**
-
-| Competitor | Funding | Revenue/ARR | Key Differentiator vs. Framewise |
-|---|---|---|---|
-| **Synthesia** | $536.6M raised, $4B valuation (Yahoo Finance, Jan 2026) | $146M ARR (Sacra/Latka, Sep 2025) | General-purpose AI video platform; healthcare is one of many verticals; no EHR integration |
-| **Mytonomy** | $46.48M raised (Crunchbase); acquired by Elsevier, March 2026 | Revenue not disclosed | Pre-made video library + patient engagement platform; not AI-generated per-patient content |
-| **GetWellNetwork (Get Well)** | $19M raised (Crunchbase); acquired by SAIGroup, Jul 2024 | Revenue not disclosed; 10M+ annual patient interactions (company website) | Broad patient engagement platform (education, entertainment, communication); not video-generation-focused |
-| **Health Recovery Solutions** | ~$84.7M raised (Crunchbase/Tracxn) | $23.5M revenue (Growjo) | Remote patient monitoring platform; video is one component of broader RPM solution |
-| **Tine Health** | No public funding data found | No public data found | Video-based patient education + messaging platform; focused on staff training and patient engagement |
-
-**Why now:**
-- Generative AI video quality crossed a usability threshold in 2024-2025, enabling realistic avatar-based patient education videos at low marginal cost (Synthesia reached $146M ARR by Sep 2025, indicating broad market validation of AI video; Sacra/Latka).
-- CMS HRRP penalties continue to affect ~75% of eligible hospitals (CMS, FY2023), maintaining financial pressure on hospitals to invest in readmission reduction.
-- FHIR (Fast Healthcare Interoperability Resources) adoption has increased via the CMS Interoperability and Patient Access final rule, making EHR data extraction more standardized.
-- [Inferred]: The convergence of production-quality AI video generation, standardized EHR interoperability via FHIR, and persistent HRRP penalty pressure creates a window where personalized video discharge education becomes technically feasible and economically justified.
+- **Traction signals:**
+  - $500K raised, standard YC investment (PitchBook profile via search snippet).
+  - Y Combinator launch tweet posted with co-founder handles @tanekimm and @sourdoggy8 (Y Combinator X post).
+  - LinkedIn company page exists at linkedin.com/company/framewise-health (LinkedIn search result); follower count not retrievable.
+  - X/Twitter account @FramewiseHealth created January 2026 (X profile via search snippet); follower count not retrievable.
+  - Founderland article: "YC-Backed Framewise Health Turns Medical Records Into Patient Videos" (Founderland.ai).
+  - No revenue, customer count, paying-customer disclosure, Product Hunt listing, or app store data found.
+- **Competitors:**
+  - Memora Health ($80.6M raised across 5 rounds, latest $30M Apr 2023, revenue unknown, acquired by Commure Dec 2024 — Tracxn, FinSMEs): text-based complex-care messaging without auto-generated personalized video.
+  - Klara (~$32M raised across 8 rounds including $11.5M Series A led by FirstMark and $15M from Gradient Ventures, revenue unknown — Tracxn, TechCrunch, Fierce Healthcare): secure provider-patient messaging and telehealth, not AI-generated video education.
+  - Hyro (raised unknown total, revenue unknown — CB Insights): AI healthcare conversational automation for call centers/mobile, not video.
+  - PatientPoint (raised unknown, revenue unknown — CB Insights): point-of-care educational content distribution; non-personalized.
+  - CipherHealth (raised unknown, revenue unknown — SelectHub): patient outreach/rounding software, not AI-video personalization.
+- **Why now:** [Inferred]: Text-to-video generative models crossed a quality threshold in 2024–2025 enabling clinician-reviewable personalized medical video at scale; no analyst statement found tying this specifically to patient education.
 
 ## Founders & Team
 
-**David Cui** — Co-founder
-- Brown University, Computer Science & Economics (LinkedIn).
-- Software Engineering Intern at SOTATEK., JSC (LinkedIn).
-- LinkedIn: linkedin.com/in/david-cui-589a20228/ — 1,273 followers, 7 posts (LinkedIn, April 2026).
-- Twitter/X: No confirmed public account found.
-- GitHub: No confirmed public repos found. A github.com/davidcui1225 account exists (AWS OpenSearch affiliation) but is unverified as the same person.
-
-**Tane Kim** — Co-founder
-- Described as "medical school dropout" on YC page (YC company page).
-- Brown University (LinkedIn via search snippet).
-- Previously at The Lundquist Institute for Biomedical Innovation at Harbor-UCLA Medical Center (LinkedIn via search snippet).
-- Previously at Sarepta Therapeutics, Translational Biology department (LinkedIn via search snippet).
-- Healthcare field work in Guatemala: medical consultations, dental work, vision screenings, health education workshops (LinkedIn via search snippet).
-- LinkedIn: linkedin.com/in/tanekim/ — 454 connections (LinkedIn via search snippet).
-- Twitter/X: No confirmed public account found.
-- GitHub: No confirmed public repos found.
-
-**Co-founder relationship:** Both David Cui and Tane Kim attended Brown University (LinkedIn via search snippets), indicating a shared educational background.
-
-**Founder-market fit:** Tane Kim brings direct clinical and biomedical research experience from Harbor-UCLA/Lundquist Institute and Sarepta Therapeutics, plus medical school training, providing domain credibility for a healthcare product requiring clinical validation workflows. David Cui brings software engineering skills for building the technical platform. Their combination covers the clinical-technical divide needed for a health tech product targeting hospital systems. No advisors, board members, or notable investors beyond Y Combinator were found in public sources.
+- **Tane Kim (CEO):**
+  - Background: Dropped out of Brown's BS/MD program; observed 500+ patient interactions across a dozen-plus institutions (YC page).
+  - Twitter/X: @tanekimm (Y Combinator X launch post); follower count not retrievable.
+  - LinkedIn: "Framewise Health" headline at linkedin.com/in/tanekim/ (LinkedIn search result).
+  - GitHub: No public repos found.
+- **David Cui (CTO):**
+  - Background: Computer vision research at Brown; prior engineering intern at Freya (YC S25 voice AI company) per YC page bio.
+  - Twitter/X: @sourdoggy8 (Y Combinator X launch post); follower count not retrievable.
+  - LinkedIn: "Co-founder @ Framewise Health | Building AI-generated patient education tools" at linkedin.com/in/david-cui-589a20228/ (LinkedIn search result).
+  - GitHub: No public repos confirmed for this individual (search returned unrelated "David Cui" profiles).
+- **Co-founder relationship:** Tane Kim and David Cui met during Brown University freshman orientation (search snippet).
+- **Founder-market fit:** CEO has direct clinical exposure via Brown BS/MD program and 500+ patient interactions, and CTO contributes computer-vision research plus YC voice-AI engineering experience at Freya S25 (YC page); no advisors, board members, or investors beyond YC are publicly named.
 
 ## Key Risks
 
-**Clinical validation and liability exposure:** AI-generated medical content carries risk if a video contains inaccurate medication instructions or contraindicated advice. While videos are described as "clinician-reviewed" (framewisehealth.com), scaling review across thousands of personalized videos per hospital could bottleneck growth or introduce errors. Mitigation: the clinician review step is built into the workflow.
-
-**Hospital sales cycle length:** Enterprise sales to hospitals typically involve procurement, compliance, IT security review, and clinical committee approval. A 2-person pre-seed team selling into this cycle faces resource constraints. The value-based pricing model (tied to HRRP penalties) may help justify ROI but does not shorten the procurement process.
-
-**Regulatory and reimbursement dependency:** The core value proposition is tied to CMS HRRP penalties. Changes to the HRRP program structure, penalty calculations, or covered conditions could alter the economic justification. In 2024, research identified significant issues with penalty calculations related to Medicare Advantage penetration, potentially redistributing $284M–$297M annually (PMC, 2024), indicating the penalty framework is subject to ongoing policy revision.
-
-**EHR integration complexity:** While FHIR provides a standard, real-world EHR deployments vary significantly across Epic, Cerner/Oracle Health, Meditech, and others. Each hospital integration may require custom work, creating a services-heavy deployment model that is difficult to scale at pre-seed stage.
-
-**Name confusion:** "Framewise" and "Frame Health" overlap with other entities: FrameWise AI (India-based, Tracxn), Frame Health (@framehealth on Twitter, since 2013), and NITRC's Framewise Integrated Real-time MRI Monitoring tool. This may cause search and brand confusion.
+- **No documented paying customers or pilots:** Website lists six EHR integrations and target segments but discloses zero customer logos, pilot announcements, or revenue figures (Framewise website); pre-revenue at time of research with no mitigating disclosed letters of intent.
+- **Clinical liability and regulatory exposure:** AI-generated medical discharge instructions delivered to patients carry FDA software-as-medical-device and malpractice exposure; mitigation per website is "Reviewed by clinicians" in the workflow (Framewise website), but the regulatory posture (e.g., FDA classification) is not publicly clarified.
+- **Incumbent substitution after Commure–Memora consolidation:** Commure acquired Memora Health on 2024-12-20 (Tracxn), concentrating an EHR-adjacent patient-communication incumbent that could bundle AI video personalization into existing hospital contracts.
+- **EHR integration dependency:** Distribution depends on FHIR access through Epic, Oracle/Cerner, athenahealth, ModMed, eClinicalWorks, NextGen (Framewise website); any of these vendors shipping native AI patient-education video creates direct substitution risk.
+- **Technical feasibility of clinical-grade auto-generated video at scale:** 75+ language personalized clinical video with clinician review is unproven at hospital volume in public sources; no third-party accuracy, safety, or comprehension metrics published.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Patient Experience Technology: $0.59B in 2024, $1.16B by 2030, 11.8% CAGR (MarketsandMarkets, 2025); U.S. Patient Engagement Solutions: $7.59B in 2024, 19.77% CAGR (Grand View Research, 2024) |
+| TAM | US Patient Engagement Solutions $14.55B (2025) → $25.01B (2030), 11.4% CAGR (MarketsandMarkets, 2025); global $29.33B (2025) → $51.69B (2030) (Grand View Research, 2025) |
 | SAM | No public data found |
-| Traction | YC Spring 2026 batch (YC company page); LinkedIn announcement: 257 reactions, 60 comments (LinkedIn, April 2026) |
+| Traction | $500K YC investment (PitchBook via search snippet); LinkedIn company page live (LinkedIn, 2026); X account @FramewiseHealth created Jan 2026 (X profile via search snippet); Founderland feature article (Founderland.ai); YC launch tweet (Y Combinator X, 2026) |
 | Revenue Signal | No public data found |
-| Founders | David Cui (Co-founder): Brown University CS & Economics, software engineering background. Tane Kim (Co-founder): Brown University, Lundquist Institute/Harbor-UCLA, Sarepta Therapeutics, medical school background. |
-| Competitors | Synthesia ($536.6M raised, $146M ARR, general-purpose AI video); Mytonomy ($46.48M raised, revenue unknown, acquired by Elsevier Mar 2026, pre-made video library); GetWellNetwork ($19M raised, revenue unknown, acquired by SAIGroup Jul 2024, broad patient engagement); Health Recovery Solutions (~$84.7M raised, $23.5M revenue, RPM platform) |
-| Moat Signals | EHR/FHIR integration + clinician review workflow create switching costs (framewisehealth.com) |
-| Risk Factors | Clinical liability from AI-generated medical content, long hospital sales cycles, CMS HRRP policy dependency |
-| Founder Reach | David Cui: LinkedIn 1,273 followers (LinkedIn, April 2026); Tane Kim: LinkedIn 454 connections (LinkedIn via search snippet); Twitter/GitHub: no confirmed accounts for either founder |
-| Distribution Signals | No public data found |
-| Emails | contact@framewisehealth.com (framewisehealth.com) |
+| Founders | Tane Kim (CEO): Brown BS/MD dropout, 500+ patient interactions observed. David Cui (CTO): Brown computer vision researcher, prior engineering intern at Freya (YC S25). |
+| Competitors | Memora Health ($80.6M raised, revenue unknown — text-based care messaging without auto-generated video, acquired by Commure Dec 2024); Klara ($32M raised, revenue unknown — secure provider-patient messaging, not AI video); Hyro (raised unknown, revenue unknown — AI call-center automation, not video); PatientPoint (raised unknown, revenue unknown — non-personalized point-of-care content); CipherHealth (raised unknown, revenue unknown — patient outreach/rounding, not AI video) |
+| Moat Signals | FHIR integrations with 6 EHRs (Epic, Oracle/Cerner, athenahealth, ModMed, eClinicalWorks, NextGen); HIPAA + SOC 2 compliant (Framewise website) |
+| Risk Factors | No public customer/revenue traction, clinical/FDA regulatory exposure on AI-generated medical instructions, EHR-vendor substitution risk |
+| Founder Reach | Tane Kim: Twitter @tanekimm (count not retrievable), LinkedIn /in/tanekim/ (count not retrievable), GitHub not found. David Cui: Twitter @sourdoggy8 (count not retrievable), LinkedIn /in/david-cui-589a20228/ (count not retrievable), GitHub not found. |
+| Distribution Signals | Y Combinator launch tweet (Y Combinator X, 2026); Founderland article (Founderland.ai); LinkedIn YC post on Framewise patient adherence (LinkedIn, 2026) |
+| Emails | contact@framewisehealth.com (Framewise website), tane@framewisehealth.com (YC page) |
+
+Sources:
+- [Framewise Health YC page](https://www.ycombinator.com/companies/framewise-health)
+- [Framewise Health website](https://framewisehealth.com)
+- [Framewise Health PitchBook](https://pitchbook.com/profiles/company/1389034-27)
+- [Founderland article](https://www.founderland.ai/articles/yc-backed-framewise-health-turns-medical-records-into-patien-mp5lsoc6)
+- [Y Combinator launch tweet](https://x.com/ycombinator/status/2053934029175660642)
+- [Tane Kim LinkedIn](https://www.linkedin.com/in/tanekim/)
+- [David Cui LinkedIn](https://www.linkedin.com/in/david-cui-589a20228/)
+- [Framewise Health LinkedIn](https://www.linkedin.com/company/framewise-health/)
+- [Memora Health Tracxn](https://tracxn.com/d/companies/memora-health/__bHY6JT6r_fUCHM3Rki9LHrIRyECDaXUPI_xqNtMh73g/funding-and-investors)
+- [Memora Health $30M FinSMEs](https://www.finsmes.com/2023/04/memora-health-raises-30m-in-funding.html)
+- [Klara $11.5M Series A TechCrunch](https://techcrunch.com/2018/08/07/klara-picks-up-11-5-million-to-improve-communication-in-healthcare/)
+- [Klara $15M Gradient Ventures Fierce Healthcare](https://www.fiercehealthcare.com/tech/google-s-ai-focused-venture-fund-invests-digital-health-company-klara)
+- [Memora competitors CB Insights](https://www.cbinsights.com/company/memora-health/alternatives-competitors)
+- [Klara alternatives SelectHub](https://www.selecthub.com/patient-engagement-software/klara/alternatives/)
+- [MarketsandMarkets US patient engagement](https://www.marketsandmarkets.com/PressReleases/us-patient-engagement-solutions.asp)
+- [Grand View Research patient engagement](https://www.grandviewresearch.com/industry-analysis/patient-engagement-solutions-market)

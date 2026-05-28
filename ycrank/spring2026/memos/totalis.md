@@ -9,109 +9,96 @@
 | Batch | Spring 2026 |
 | Industry | Fintech / Fintech -> Consumer Finance |
 | Team Size | 0 |
-| Location | No public data found |
+| Location | San Francisco, CA, USA |
 | Tags | DeFi, APIs |
 | YC Partner | Andrew Miklas |
-| Emails | pravesh@totalis.trade |
+| Emails | No public data found |
 
 ## The Idea
 
-**Problem:** Existing prediction market platforms (Polymarket, Kalshi) restrict users to single-outcome bets, suffer from fragmented liquidity across venues, and tie up capital inefficiently (Crowdfund Insider, April 2026). Traders who want to express multi-variable views — e.g., combining a geopolitical outcome with a crypto price movement — cannot do so within a single position on current platforms.
-
-**Approach:** Totalis is an onchain derivatives layer built on Solana that enables parlay-style (multi-leg) portfolios combining prediction market positions across categories including geopolitics, crypto, and sports into a single unified trade (YC company page; Crowdfund Insider, April 2026). The platform introduces financial primitives for capital efficiency, liquidity aggregation, and structured products for bundling positions and hedging (Crowdfund Insider, April 2026). Treasury operations use USDC via Ramp, with no fiat conversion required (Crowdfund Insider, April 2026).
-
-**Differentiation:** Polymarket and Kalshi are primary venues — they originate binary outcome markets. Totalis positions itself as a derivatives layer on top of these venues, not a competing exchange. Fanatics Markets launched "Combos" (a parlay feature) for sports prediction markets (USI Gaming Hub, April 2026), but Totalis targets cross-category, cross-venue parlays. Polymarket launched perpetual futures contracts on April 22, 2026 (CNBC, April 2026), moving into derivatives but focused on leverage on single markets rather than multi-leg cross-category combinations.
-
-**Business Model:** No pricing page found on the website. [Inferred]: Most likely monetization path is transaction fees on parlay trades and/or spread on derivative positions, consistent with DeFi protocol economics.
-
-**TAM/SAM:** Prediction market trading volume reached $44 billion in 2025, with monthly volume exceeding $20 billion by January 2026 (TRM Labs, 2026). Bernstein projects prediction market trading volume reaching $1 trillion annually by 2030 at ~80% CAGR (CNBC, April 2026). Citizens Financial Group projects prediction market firm revenues exceeding $10 billion by 2030, up from ~$2 billion currently (CNBC, April 2026 via search snippet). No public SAM estimate specific to the derivatives/parlay sub-segment found.
-
-**GTM / Distribution:** The company is currently opening early access for select users before broader rollout (Crowdfund Insider, April 2026). [Inferred]: Most likely distribution path is crypto-native trader communities, given the Solana-based architecture and DeFi positioning, with potential API-based distribution to aggregators given the "APIs" tag.
+- **Problem:** Prediction-market traders on Kalshi and Polymarket can only trade single events at a time, capping capital efficiency for multi-leg theses (Crypto Briefing, May 2026); existing alternatives are manual rollover trades (covers.com, 2026).
+- **Approach:** Request-for-quote derivatives layer where market makers compete to price 2–5-leg parlays spanning politics, sports, crypto, stocks, weather, and macro events, with onchain settlement via Solana vaults (docs.totalis.trade; KuCoin, May 2026).
+- **Differentiation:** Kalshi launched a native combo feature inside its order book in 2026 (si.com, 2026), Polymarket has no native combo (covers.com, 2026); Totalis is multi-venue (Kalshi live, Polymarket planned) and pays 3.1% yield on locked capital (Crypto Briefing, May 2026).
+- **Business Model:** [Inferred]: RFQ spread / market-maker rebate model — no pricing page disclosed in docs (docs.totalis.trade); fee schedule not published.
+- **TAM/SAM:** Combined Kalshi + Polymarket monthly volume rose from <$5B (Sep 2025) to ~$24B (Apr 2026) (TRM Labs, 2026); 2025 industry notional volume exceeded $63B (TRM Labs, 2026).
+- **GTM / Distribution:** Product is available outside the US for regulatory reasons (YC page, 2026); [Inferred]: crypto-native distribution via Solana ecosystem and X/Crypto Twitter, given USDC-funded raise and Solana settlement.
 
 ## Defensibility
 
-No defensibility signals found in public sources at this stage. [Inferred]: Potential moat could develop via liquidity network effects (more traders → tighter spreads → more traders) and cross-venue aggregation complexity, but is unproven at pre-launch.
-
-**Market structure:** Polymarket and Kalshi are primary venue operators; building a derivatives layer on top of their markets is structurally different from competing for order flow. Both platforms simultaneously launched perpetual futures (April 2026), indicating they are moving toward derivatives themselves (CNBC, April 2026; Yahoo Finance, April 2026). [Inferred]: The structural barrier is limited — primary venues can vertically integrate derivatives, as Polymarket's perps launch demonstrates.
-
-**Commoditization risk:** Cross-venue parlay aggregation requires integrations with multiple prediction market platforms and real-time pricing. Polymarket and Kalshi are both building their own derivatives products (CNBC, April 2026; PANews, April 2026). DraftKings acquired Railbird (a CFTC-licensed derivatives exchange) in December 2025 (search snippet). [Inferred]: Technical barriers to building parlays are moderate; the primary challenge is liquidity and venue integration agreements.
+- **Moat today:** Two-sided RFQ network — market makers quoting against retail parlay flow — but liquidity depth is unverified in public sources (docs.totalis.trade).
+- **Future moat:** [Inferred]: Cross-venue aggregation (Kalshi + Polymarket + others) could become a structural data + routing moat if Totalis becomes the canonical multi-venue parlay book; unproven because only Kalshi is currently integrated (Crypto Briefing, May 2026).
+- **Market structure:** [Inferred]: Kalshi's CFTC DCM status (si.com, 2026) constrains it from offering crypto-settled or offshore products, creating a regulatory wedge Totalis exploits by operating outside the US on Solana (YC page; KuCoin, 2026).
+- **Commoditization risk:** Kalshi already ships native combos inside its order book (si.com, 2026); any offshore prediction venue (Polymarket, OG.com, Novig) could add an RFQ parlay layer with comparable engineering effort.
 
 ## Market & Traction
 
-**Traction signals:**
-- Funding: $500,000 in USDC from Y Combinator, settled on Solana in three transactions ($1 test, $124,999, $375,000) — the first all-stablecoin investment by YC (The Block, April 2026; Crowdfund Insider, April 2026)
-- Product status: Early access opening for select users; no public launch yet (Crowdfund Insider, April 2026)
-- Twitter/X: @totalistrading — follower count not retrievable
-- LinkedIn: linkedin.com/company/totalistrading — follower count not retrievable
-- GitHub: github.com/totalistrading — 2 public repos (landing-new: 1 star; docs: 0 stars), 2 org followers (GitHub, April 2026)
-- Product Hunt: No launch found
-- App/extension: No public data found
-- Job postings: 0 open positions (YC company page)
-- Pravesh Mansharamani's personal site states "Currently hiring at Totalis" (praveshm.com)
-
-**Competitive landscape:**
-
-| Competitor | Funding | Key Differentiator vs. Totalis |
-|---|---|---|
-| **Polymarket** | ~$2.3B total; seeking $400M at $15B valuation (Bloomberg, April 2026) | Primary venue operator; launched perps April 2026; crypto-native, permissionless |
-| **Kalshi** | ~$2.9B total; $22B valuation (Crowdfund Insider, March 2026) | CFTC-regulated centralized exchange; launched perps April 2026 |
-| **Fanatics Markets** | Not disclosed (subsidiary of Fanatics) | Launched "Combos" parlay feature for sports; massive existing sports bettor user base (USI Gaming Hub, 2026) |
-| **DraftKings (via Railbird)** | Public company; acquired Railbird Dec 2025 | CFTC-licensed derivatives exchange; existing sportsbook distribution |
-| **SX Bet / Azuro / Overtime** | Funding not confirmed | Decentralized prediction/sports betting protocols; varied chain deployments |
-
-**Why now:**
-- Prediction market trading volume scaled from $1.2B/month in early 2025 to $20B+/month by January 2026 (TRM Labs, 2026). This volume surge creates sufficient underlying liquidity to support a derivatives layer.
-- Polymarket and Kalshi both announced perpetual futures products on April 21–22, 2026 (CNBC, April 2026), validating market demand for prediction market derivatives.
-- CFTC regulatory clarity: Kalshi's legal victory and subsequent regulatory acceptance expanded the addressable market for US-facing prediction market products (search snippets from multiple sources).
-- [Inferred]: The entry of traditional finance firms (Robinhood, DraftKings, ICE/NYSE) into prediction markets in 2025–2026 signals mainstream acceptance and expands the potential user base for derivative products.
+- **Traction signals:**
+  - $500K seed raised from Y Combinator, paid entirely in USDC on Solana, custodied via Ramp (Crowdfund Insider, Apr 2026; PANews, Apr 2026).
+  - First YC investment ever disbursed entirely in stablecoins (Tekedia, Apr 2026; Bitcoin Foundation, 2026).
+  - Press coverage in Crypto Briefing, KuCoin, Crowdfund Insider, Tekedia, PANews, WEEX, RWA Times (Apr–May 2026).
+  - Parlay product went live on May 25, 2026, ~6 weeks after funding announcement (~Apr 13, 2026) (Crypto Briefing, May 2026).
+  - 3.1% yield on locked capital advertised (Crypto Briefing, May 2026).
+  - Eric Liu LinkedIn post announcing the USDC-funding milestone (LinkedIn, Jan 2026 — date per URL slug `7454977035527004179`).
+  - Trading volume, user counts, Twitter/Discord follower counts: count not retrievable from public search.
+- **Competitors:**
+  - Kalshi (funding undisclosed in retrieved results; revenue unknown; $5.42B April 2026 taker volume per Bitcoin.com, 2026): incumbent CFTC-regulated exchange that ships native combo contracts inside its order book (si.com, 2026).
+  - Polymarket (revenue unknown; $1.99B April 2026 taker volume per Bitcoin.com, 2026): largest offshore venue, no native combo builder (covers.com, 2026); Totalis depends on it as a planned upstream venue.
+  - Novig (funding/revenue unknown per retrieved results): peer-to-peer prediction/sports exchange listed among Polymarket alternatives (covers.com, 2026).
+  - OG.com (funding/revenue unknown per retrieved results): launched Feb 2026, still building liquidity (si.com, 2026).
+  - Sporttrade, FanDuel Predicts, DraftKings Predictions, Fanatics Markets (funding/revenue unknown per retrieved results): adjacent sportsbook-style prediction venues (si.com, 2026).
+- **Why now:** Combined Kalshi + Polymarket monthly volume scaled ~5x from <$5B (Sep 2025) to ~$24B (Apr 2026) (TRM Labs, 2026), and Kalshi's CFTC DCM status plus Polymarket US beta (late 2025) brought regulated prediction-market liquidity to scale (si.com, 2026).
 
 ## Founders & Team
 
-**Eric Liu** — Co-founder
-- Education: Math and Business, University of Waterloo & Wilfrid Laurier University (UWaterloo CS News, 2025)
-- Member of Waterloo Blockchain club (UWaterloo Math News, 2025)
-- ETHDenver 2025: Built "Cyspace" (blockchain social platform with AI), won $8,500 in prizes (UWaterloo CS News, 2025)
-- ETHGlobal Buenos Aires: Built "goddid.money" (converts Polymarket trading history into on-chain credit scores) with Pravesh Mansharamani, won $7,600 in prizes (UWaterloo CS News, 2025)
-- Twitter/X: No confirmed public account found
-- LinkedIn: linkedin.com/in/ericliujt — "Math @ University of Waterloo"
-- GitHub: github.com/ericliujt — 7 followers; bio: "Building Totalis - Parlay engine for prediction markets"; notable repos include goddid-polymarket (3 forks) and PolkaSub (1 star) (GitHub)
-
-**Pravesh Mansharamani** — Co-founder
-- Education: Math, University of Waterloo (on leave) (praveshm.com)
-- Vice-President, Waterloo Blockchain (search snippet)
-- Won 11+ hackathons, earning ~$55,000 in prizes (GitHub bio)
-- ETHDenver 2025: Built "EigenBets" (prediction market with AI-agent oracle verification), won $16,000 in prizes including EigenLayer AI track first place (UWaterloo CS News, 2025)
-- Prior engineering experience: EigenLabs (AI agents for cloud infra, Sep–Dec 2025), SquidRouter (cross-chain DeFi, May–Aug 2025), EasyLabs (stablecoin payments, Jan–Apr 2025), Nethermind (Ethereum client, May–Aug 2024), Rivvi (B2B payroll, May–Aug 2023) (praveshm.com)
-- Twitter/X: @ImTheBigP — follower count not retrievable
-- LinkedIn: linkedin.com/in/pravesh-mansharamani/
-- GitHub: github.com/Pravesh-mansharamani — 33 followers, 51 repos, 46 stars; pinned repos include EigenBets (3 stars, 5 forks), goddid-polymarket, momentum-trading (GitHub)
-
-**Co-founder relationship:** Both founders studied math at University of Waterloo and were members of Waterloo Blockchain. They collaborated on "goddid.money" at ETHGlobal Buenos Aires 2025, a Polymarket-related project (UWaterloo CS News, 2025). Pravesh's ETHDenver 2025 project "EigenBets" was a prediction market platform, directly presaging Totalis.
-
-**Founder-market fit:** Both founders have direct, documented experience building prediction market products. Pravesh built EigenBets (a prediction market with automated market making) and worked at EigenLabs and SquidRouter (DeFi infrastructure). Eric and Pravesh together built goddid.money, which converted Polymarket trading history into credit scores. Their quantitative math backgrounds at Waterloo and extensive hackathon track record in DeFi/prediction markets demonstrate domain-specific technical capability.
+- **Eric Liu (Co-founder):**
+  - Background: University of Waterloo mathematics; prior roles at Coinbase (data), Faire (ML engineering), and Notion (search snippet, 2026; LinkedIn profile `erictliu`).
+  - Twitter/X: @ericliujt (per YC page); follower count not retrievable.
+  - LinkedIn: "Notion" headline per search snippet (linkedin.com/in/erictliu, 2026).
+  - GitHub: No public handle surfaced in retrieved results.
+- **Pravesh Mansharamani (Co-founder):**
+  - Background: University of Waterloo mathematics (search snippet, 2026); prior crypto/blockchain hackathon and development work (search snippet, 2026); personal site praveshm.com.
+  - Twitter/X: @ImTheBigP (per YC page); follower count not retrievable.
+  - LinkedIn: "founder @ totalis (yc p26)" (linkedin.com/in/pravesh-mansharamani, 2026).
+  - GitHub: @Pravesh-mansharamani (github.com); top repo and star count not retrievable from search snippet.
+- **Co-founder relationship:** Both studied mathematics at the University of Waterloo (search snippets, 2026).
+- **Founder-market fit:** Liu's Coinbase data and Faire ML background spans crypto-native data infra and quantitative pricing (LinkedIn, 2026), matching an RFQ derivatives venue settled in USDC on Solana; no advisors, board members, or outside investors beyond Y Combinator surfaced in public sources.
 
 ## Key Risks
 
-**Primary venue dependency:** Totalis's value proposition depends on integrating with prediction market venues (Polymarket, Kalshi). These venues can restrict API access, change terms, or build competing derivatives products. Polymarket launched its own perpetual futures on April 22, 2026 (CNBC, April 2026), and Kalshi announced perps simultaneously (Yahoo Finance, April 2026), demonstrating willingness to vertically integrate into derivatives.
-
-**Regulatory ambiguity for derivatives on prediction markets:** Prediction market derivatives may face regulatory scrutiny distinct from the underlying markets. Kalshi operates under CFTC regulation; layering derivatives on top of CFTC-regulated products or unregulated crypto markets creates unclear jurisdictional exposure. No public data found on Totalis's regulatory strategy or legal structure.
-
-**Pre-product timing vs. well-funded incumbents:** Totalis is pre-launch with early access only (Crowdfund Insider, April 2026), while Polymarket ($15B valuation, Bloomberg April 2026) and Kalshi ($22B valuation, Crowdfund Insider March 2026) are simultaneously entering derivatives with billions in capital and existing user bases. Fanatics and DraftKings also offer parlay features with massive sports bettor distribution.
-
-**Name collision risk:** "Totalis" shares its name with multiple unrelated entities (insurance companies, ERP software), which could complicate brand building and SEO.
+- **Incumbent product substitution:** Kalshi already ships native combo contracts inside its CFTC-regulated order book (si.com, 2026), giving US users a one-click parlay without leaving the venue and removing the need for an external derivatives layer; no mitigation documented.
+- **US regulatory exclusion:** Totalis is "currently available outside the US for regulatory reasons" (YC page, 2026), excluding the bulk of Kalshi's ~$5.42B April 2026 taker volume (Bitcoin.com, 2026); no mitigation documented.
+- **Upstream venue dependency:** Liquidity depends on Kalshi (live) and Polymarket (planned) APIs and pricing (docs.totalis.trade); either venue could rate-limit, block, or replicate the integration, as Kalshi has already done internally with combos (si.com, 2026).
+- **Market-maker concentration:** RFQ model requires competing market makers to price multi-leg payouts (docs.totalis.trade); no public data on number or identity of liquidity providers, creating concentration / liquidity-dry-up risk.
+- **Onchain custody risk:** Settlement via Solana onchain vaults (docs.totalis.trade) plus Ramp-custodied USDC treasury (PANews, Apr 2026) expose users to smart-contract and stablecoin de-peg failure modes not present on Kalshi's fiat rails.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $44B annual prediction market trading volume in 2025; projected $1T by 2030 at ~80% CAGR (Bernstein via CNBC, April 2026) |
+| TAM | Combined Kalshi + Polymarket monthly volume ~$24B in April 2026, up from <$5B in Sep 2025 (TRM Labs, 2026); 2025 industry notional >$63B (TRM Labs, 2026) |
 | SAM | No public data found |
-| Traction | Early access opening for select users (Crowdfund Insider, April 2026); 2 public GitHub repos with 1 star total (GitHub, April 2026) |
+| Traction | $500K seed in USDC (Crowdfund Insider, Apr 2026); parlay product launched May 25, 2026 (Crypto Briefing, May 2026); 3.1% yield on locked capital (Crypto Briefing, May 2026); first-ever YC stablecoin investment (Tekedia, Apr 2026); press in KuCoin, PANews, WEEX, RWA Times (Apr–May 2026) |
 | Revenue Signal | No public data found |
-| Founders | Eric Liu (Co-founder): Math & Business, UWaterloo/Laurier; hackathon winner. Pravesh Mansharamani (Co-founder): Math, UWaterloo; VP Waterloo Blockchain; 5 engineering internships in DeFi/crypto; 11+ hackathon wins |
-| Competitors | Polymarket (~$2.3B raised, revenue unknown, primary venue + perps launched); Kalshi (~$2.9B raised, revenue unknown, CFTC-regulated + perps); Fanatics Markets (funding undisclosed, parlay "Combos" feature); DraftKings (public, acquired Railbird derivatives exchange) |
-| Moat Signals | No public data found |
-| Risk Factors | Primary venue dependency and vertical integration threat, regulatory ambiguity for prediction market derivatives, pre-launch timing against well-capitalized incumbents |
-| Founder Reach | Eric Liu: Twitter not confirmed, LinkedIn linkedin.com/in/ericliujt, GitHub 7 followers. Pravesh Mansharamani: Twitter @ImTheBigP (count not retrievable), LinkedIn linkedin.com/in/pravesh-mansharamani, GitHub 33 followers / 46 stars (GitHub, April 2026) |
-| Distribution Signals | No public data found |
-| Emails | pravesh@totalis.trade (praveshm.com) |
+| Founders | Eric Liu (Co-founder): Waterloo math; ex-Coinbase, Faire, Notion. Pravesh Mansharamani (Co-founder): Waterloo math; crypto/blockchain hackathon background |
+| Competitors | Kalshi (funding undisclosed, revenue unknown, $5.42B Apr 2026 taker volume — native combos in order book); Polymarket (revenue unknown, $1.99B Apr 2026 taker volume — no native combo); Novig (funding/revenue unknown — P2P sports exchange); OG.com (funding/revenue unknown — Feb 2026 launch); Sporttrade/FanDuel Predicts/DraftKings Predictions (funding/revenue unknown — adjacent sportsbook predictions) |
+| Moat Signals | Two-sided RFQ network with competing market makers; multi-venue aggregation (Kalshi live, Polymarket planned) (docs.totalis.trade) |
+| Risk Factors | Kalshi native combos substitute the product; US regulatory exclusion; upstream venue dependency on Kalshi/Polymarket |
+| Founder Reach | Eric Liu: Twitter @ericliujt (count not retrievable), LinkedIn "Notion" (count not retrievable), GitHub not found. Pravesh Mansharamani: Twitter @ImTheBigP (count not retrievable), LinkedIn "founder @ totalis (yc p26)" (count not retrievable), GitHub @Pravesh-mansharamani (stars not retrievable) |
+| Distribution Signals | YC Spring 2026 batch launch (YC page); press coverage in Crypto Briefing, KuCoin, Crowdfund Insider, Tekedia, PANews, WEEX, Bitcoin Foundation (Apr–May 2026); product gated outside US (YC page, 2026) |
+| Emails | No public data found |
+
+Sources:
+- [Totalis YC Page](https://www.ycombinator.com/companies/totalis)
+- [Totalis Docs](https://docs.totalis.trade/)
+- [Crypto Briefing — Totalis launches prediction market parlays on Solana](https://cryptobriefing.com/totalis-prediction-market-parlays-solana/)
+- [KuCoin — Totalis launches parlay feature on Solana](https://www.kucoin.com/news/flash/totalis-launches-parlay-feature-on-solana-prediction-market-platform)
+- [Crowdfund Insider — YC stablecoin investment in Totalis](https://www.crowdfundinsider.com/2026/04/273245-y-combinator-completes-stablecoin-investment-in-prediction-markets-startup-totalis/)
+- [Tekedia — YC first stablecoin investment $500K](https://www.tekedia.com/y-combinator-completes-first-ever-investment-paid-entirely-in-stablecoins-disbursing-500k-to-totalis/)
+- [PANews — Totalis $500K USDC seed](https://www.panewslab.com/en/articles/019d89bd-beb3-7268-8572-b71123b79f51)
+- [TRM Labs — Prediction markets to $21B monthly volume](https://www.trmlabs.com/resources/blog/how-prediction-markets-scaled-to-usd-21b-in-monthly-volume-in-2026)
+- [Bitcoin.com — April 2026 prediction market volume $8.6B, Kalshi leads](https://news.bitcoin.com/prediction-market-traders-push-april-2026-volume-to-8-6b-kalshi-takes-the-lead/)
+- [SI.com — Kalshi vs Polymarket 2026](https://www.si.com/betting/prediction-market/prediction-markets-101/the-difference-between-kalshi-vs-polymarket-what-us-traders-actually-need-to-know-in-2026)
+- [Covers.com — Prediction market combos explained](https://www.covers.com/betting/prediction-sites/guides/prediction-market-combos-explained)
+- [Pravesh Mansharamani LinkedIn](https://www.linkedin.com/in/pravesh-mansharamani/)
+- [Eric Liu LinkedIn (Notion)](https://www.linkedin.com/in/erictliu/)
+- [Pravesh Mansharamani GitHub](https://github.com/Pravesh-mansharamani)

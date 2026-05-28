@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://finaldose.ai/",
     "yc_page": "https://www.ycombinator.com/companies/finaldose",
-    "batch": "Spring 2026",
+    "batch": "Spring 2026 (YC company page)",
     "industry": "Healthcare / Healthcare -> Therapeutics",
     "team_size": "5",
     "location": "London, United Kingdom",
     "tags": "Artificial Intelligence, Gene Therapy, Therapeutics, Genetic Engineering",
-    "yc_partner": "Garry Tan (YC company page)",
-    "emails": "founders@finaldose.ai (YC company page)"
+    "yc_partner": "Garry Tan (per YC company page)",
+    "emails": "founders@finaldose.ai (finaldose.ai website)"
   },
   "tags": [
     "Artificial Intelligence",
@@ -20,58 +20,33 @@
     "Genetic Engineering"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-05-15T05:44:15.432Z",
+  "memoGeneratedAt": "2026-05-28T03:09:44.852Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 53,
+      "score": 51,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 32,
+      "score": 28,
       "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 55,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 63,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 75,
-      "tier": "Invest"
     }
   },
   "consolidatedScores": {
-    "CB": 53,
-    "EG": 32,
-    "NR": 39,
-    "PG": 55,
-    "PT": 63,
-    "SL": 37,
-    "VK": 75
+    "CB": 51,
+    "EG": 28,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 50.57,
-  "consolidatedRank": 23,
+  "consolidatedAvg": 39.5,
+  "consolidatedRank": 132,
   "paths": {
     "memo": "spring2026/memos/finaldose.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/finaldose.md",
-      "elad-gil": "spring2026/evals/elad-gil/finaldose.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/finaldose.md",
-      "paul-graham": "spring2026/evals/paul-graham/finaldose.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/finaldose.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/finaldose.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/finaldose.md"
+      "elad-gil": "spring2026/evals/elad-gil/finaldose.md"
     }
   }
 }

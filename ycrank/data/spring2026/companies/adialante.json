@@ -5,13 +5,13 @@
   "metadata": {
     "website": "http://www.adialante.com",
     "yc_page": "https://www.ycombinator.com/companies/adialante",
-    "batch": "Spring 2026",
+    "batch": "Spring 2026 (YC S26/P26)",
     "industry": "Healthcare / Healthcare -> Diagnostics",
-    "team_size": "4 (per YC page; company website lists 7 team members)",
-    "location": "Redwood City, CA, USA (originally founded in Minneapolis, MN)",
+    "team_size": "4 (YC listing); company website lists 6 named team members",
+    "location": "Redwood City, CA, USA",
     "tags": "Hardware, Medical Devices, Health & Wellness",
-    "yc_partner": "Nicolas Dessaigne",
-    "emails": "clinics@adialante.com (company website)"
+    "yc_partner": "Nicolas Dessaigne (YC company page)",
+    "emails": "clinics@adialante.com (adialante.com)"
   },
   "tags": [
     "Hardware",
@@ -19,58 +19,33 @@
     "Health & Wellness"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-22T23:39:06.151Z",
+  "memoGeneratedAt": "2026-05-28T02:50:44.711Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 72,
+      "score": 74,
       "tier": "Invest"
     },
     "elad-gil": {
       "score": 39,
       "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 67,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 66,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 66,
-      "tier": "Invest"
-    },
-    "sam-lessin": {
-      "score": 66,
-      "tier": "Invest"
-    },
-    "vinod-khosla": {
-      "score": 80,
-      "tier": "Invest"
     }
   },
   "consolidatedScores": {
-    "CB": 72,
+    "CB": 74,
     "EG": 39,
-    "NR": 67,
-    "PG": 66,
-    "PT": 66,
-    "SL": 66,
-    "VK": 80
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 65.14,
-  "consolidatedRank": 1,
+  "consolidatedAvg": 56.5,
+  "consolidatedRank": 20,
   "paths": {
     "memo": "spring2026/memos/adialante.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/adialante.md",
-      "elad-gil": "spring2026/evals/elad-gil/adialante.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/adialante.md",
-      "paul-graham": "spring2026/evals/paul-graham/adialante.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/adialante.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/adialante.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/adialante.md"
+      "elad-gil": "spring2026/evals/elad-gil/adialante.md"
     }
   }
 }

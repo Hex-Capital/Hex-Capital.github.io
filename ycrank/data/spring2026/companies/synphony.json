@@ -5,12 +5,12 @@
   "metadata": {
     "website": "https://www.synphony.co/",
     "yc_page": "https://www.ycombinator.com/companies/synphony",
-    "batch": "Spring 2026 (YC page)",
+    "batch": "Spring 2026 (YC company page)",
     "industry": "Industrials / Industrials -> Manufacturing and Robotics",
     "team_size": "10",
     "location": "San Carlos, CA, USA",
     "tags": "Food Service Robots & Machines, SaaS, Robotics, Agriculture",
-    "yc_partner": "Andrew Miklas (YC page)",
+    "yc_partner": "Andrew Miklas (YC company page)",
     "emails": "No public data found"
   },
   "tags": [
@@ -20,58 +20,28 @@
     "Agriculture"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-05-09T22:32:45.033Z",
+  "memoGeneratedAt": "2026-05-28T02:55:21.773Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 48,
+      "score": 46,
       "tier": "Neutral"
-    },
-    "vinod-khosla": {
-      "score": 44,
-      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 41,
-    "EG": 41,
-    "NR": 33,
-    "PG": 41,
-    "PT": 29,
-    "SL": 48,
-    "VK": 44
+    "CB": 46,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 39.57,
-  "consolidatedRank": 102,
+  "consolidatedAvg": 46,
+  "consolidatedRank": 78,
   "paths": {
     "memo": "spring2026/memos/synphony.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/synphony.md",
-      "elad-gil": "spring2026/evals/elad-gil/synphony.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/synphony.md",
-      "paul-graham": "spring2026/evals/paul-graham/synphony.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/synphony.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/synphony.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/synphony.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/synphony.md"
     }
   }
 }

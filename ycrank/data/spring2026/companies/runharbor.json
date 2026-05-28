@@ -11,7 +11,7 @@
     "location": "San Diego, CA, USA",
     "tags": "SaaS, Health Tech, B2B, Healthcare",
     "yc_partner": "Nicolas Dessaigne",
-    "emails": "hello@runharbor.com"
+    "emails": "hello@runharbor.com, albert@runharbor.com"
   },
   "tags": [
     "SaaS",
@@ -20,58 +20,28 @@
     "Healthcare"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-22T23:35:34.194Z",
+  "memoGeneratedAt": "2026-05-28T02:47:53.415Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 65,
-      "tier": "Invest"
-    },
-    "elad-gil": {
-      "score": 72,
-      "tier": "Invest"
-    },
-    "naval-ravikant": {
-      "score": 69,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 72,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 46,
+      "score": 61,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 65,
-    "EG": 72,
-    "NR": 69,
-    "PG": 72,
-    "PT": 47,
-    "SL": 44,
-    "VK": 46
+    "CB": 61,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 59.29,
-  "consolidatedRank": 2,
+  "consolidatedAvg": 61,
+  "consolidatedRank": 7,
   "paths": {
     "memo": "spring2026/memos/runharbor.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/runharbor.md",
-      "elad-gil": "spring2026/evals/elad-gil/runharbor.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/runharbor.md",
-      "paul-graham": "spring2026/evals/paul-graham/runharbor.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/runharbor.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/runharbor.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/runharbor.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/runharbor.md"
     }
   }
 }

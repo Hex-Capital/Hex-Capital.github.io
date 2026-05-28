@@ -1,0 +1,44 @@
+{
+  "slug": "lattice-health",
+  "name": "Lattice Health",
+  "oneLiner": "The operating system for clinical AI in imaging",
+  "metadata": {
+    "yc_page": "https://www.ycombinator.com/companies/lattice-health",
+    "batch": "Spring 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "1",
+    "location": "San Francisco, CA, USA",
+    "tags": "Healthcare, Healthcare IT",
+    "yc_partner": "Harj Taggar",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Healthcare",
+    "Healthcare IT"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-28T02:34:25.767Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 59,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 59,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
+  },
+  "consolidatedAvg": 59,
+  "consolidatedRank": 12,
+  "paths": {
+    "memo": "spring2026/memos/lattice-health.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/lattice-health.md"
+    }
+  }
+}

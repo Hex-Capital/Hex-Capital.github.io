@@ -5,7 +5,7 @@
   "metadata": {
     "website": "https://www.withsherpa.ai/",
     "yc_page": "https://www.ycombinator.com/companies/sherpa",
-    "batch": "Spring 2026",
+    "batch": "Spring 2026 (YC X26/P26)",
     "industry": "B2B / B2B",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
@@ -21,58 +21,28 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-22T23:45:41.435Z",
+  "memoGeneratedAt": "2026-05-28T02:55:32.322Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
       "score": 43,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 38,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 32,
-    "EG": 37,
-    "NR": 52,
-    "PG": 43,
-    "PT": 32,
-    "SL": 29,
-    "VK": 38
+    "CB": 43,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 37.57,
-  "consolidatedRank": 122,
+  "consolidatedAvg": 43,
+  "consolidatedRank": 99,
   "paths": {
     "memo": "spring2026/memos/sherpa.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/sherpa.md",
-      "elad-gil": "spring2026/evals/elad-gil/sherpa.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/sherpa.md",
-      "paul-graham": "spring2026/evals/paul-graham/sherpa.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/sherpa.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/sherpa.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/sherpa.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/sherpa.md"
     }
   }
 }

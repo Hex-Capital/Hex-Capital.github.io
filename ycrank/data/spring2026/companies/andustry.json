@@ -1,17 +1,17 @@
 {
   "slug": "andustry",
   "name": "Andustry",
-  "oneLiner": "AI to source and sell industrial products",
+  "oneLiner": "We help manufacturers find suppliers for industrial goods.",
   "metadata": {
     "website": "http://andustry.com/",
     "yc_page": "https://www.ycombinator.com/companies/andustry",
-    "batch": "Spring 2026",
+    "batch": "Spring 2026 (YC P26)",
     "industry": "B2B / B2B -> Supply Chain and Logistics",
     "team_size": "2",
-    "location": "No public data found",
+    "location": "San Francisco, CA, USA",
     "tags": "Marketplace, Sales, Manufacturing, Procurement, Industrial",
     "yc_partner": "Tom Blomfield (YC company page)",
-    "emails": "founders@andustry.com (YC company page)"
+    "emails": "sourcing@andustry.com, founders@andustry.com (andustry.com, YC page)"
   },
   "tags": [
     "Marketplace",
@@ -21,58 +21,33 @@
     "Industrial"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-22T23:52:44.687Z",
+  "memoGeneratedAt": "2026-05-28T03:01:25.464Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 52,
-      "tier": "Neutral"
+      "score": 38,
+      "tier": "Pass"
     },
     "elad-gil": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 55,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 44,
+      "score": 41,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 52,
-    "EG": 44,
-    "NR": 55,
-    "PG": 49,
-    "PT": 35,
-    "SL": 39,
-    "VK": 44
+    "CB": 38,
+    "EG": 41,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 45.43,
-  "consolidatedRank": 39,
+  "consolidatedAvg": 39.5,
+  "consolidatedRank": 127,
   "paths": {
     "memo": "spring2026/memos/andustry.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/andustry.md",
-      "elad-gil": "spring2026/evals/elad-gil/andustry.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/andustry.md",
-      "paul-graham": "spring2026/evals/paul-graham/andustry.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/andustry.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/andustry.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/andustry.md"
+      "elad-gil": "spring2026/evals/elad-gil/andustry.md"
     }
   }
 }

@@ -6,7 +6,7 @@
 |-------|-------|
 | Website | https://ontora.com |
 | YC Page | https://www.ycombinator.com/companies/ontora |
-| Batch | Spring 2026 |
+| Batch | Spring 2026 (P26) |
 | Industry | B2B / B2B -> Operations |
 | Team Size | 3 |
 | Location | San Francisco, CA, USA |
@@ -16,113 +16,97 @@
 
 ## The Idea
 
-**Problem:** C-suite leaders lack visibility into how work actually happens across their organizations. Per Ontora's YC launch page, 80% of operational knowledge is tacit and undocumented, employees waste 5.3 hours weekly searching for information, and a 1,000-person company loses an estimated $2.4M yearly to productivity gaps (YC launch page). Poor knowledge sharing costs Fortune 500 companies $31.5 billion annually (YC launch page). The current solution is management consulting engagements (McKinsey, BCG, Bain) that cost $500K+ and take 3–6 months, sampling roughly 10% of employees (ontora.com). Additionally, 95% of enterprise GenAI pilots deliver zero measurable business impact because agents lack operational context (YC launch page).
-
-**Approach:** Ontora deploys AI agents that conduct structured conversational interviews with every employee in an organization, completing hundreds of conversations simultaneously within hours (ontora.com). The platform then synthesizes findings with themed insights and impact ratings, generates visual process maps showing cross-team workflows, and produces automation roadmaps with ROI estimates (YC launch page). It also creates a proprietary context layer that feeds operational knowledge into other AI tools (ontora.com). Core product modules include a Process Discovery Agent (crawls processes, maps dependencies, identifies root causes), a Meeting Agent (conducts stakeholder interviews or guides real-time meetings), a Unified Context Layer (connects CRM, email, documents), and an API/MCP Server for integrations (ontora.com).
-
-**Differentiation:** Unlike Celonis, Skan AI, and traditional process mining tools that rely on system event logs or computer-vision screen capture, Ontora's approach extracts tacit knowledge through direct employee conversation — capturing undocumented processes that never appear in system logs. Unlike Glean or Guru, which organize existing documented knowledge, Ontora surfaces knowledge that was never written down. Unlike McKinsey-style consulting, Ontora achieves 100% employee coverage in hours rather than a 10% sample over months, at ~$50K vs. $500K+ (ontora.com).
-
-**Business Model:** No public pricing tiers or revenue figures disclosed. The website references a ~$50K engagement cost compared to $500K+ for traditional consulting (ontora.com). [Inferred]: Most likely monetization path is per-engagement or subscription SaaS pricing targeting enterprise operations teams, given the consulting-replacement positioning and C-suite buyer persona.
-
-**TAM/SAM:**
-- Process mining software market: $1.4B in 2024, projected to $21.9B by 2030 (Grand View Research, 2024 via search snippet).
-- AI consulting market: $8.75B in 2024 to $11.07B in 2025, projected $90.99B by 2035 at 26.2% CAGR (search snippet, source unspecified).
-- [Inferred]: Ontora's SAM straddles both process intelligence software and management consulting automation; the directly addressable segment is the operational diagnostics slice of management consulting ($500K+ engagements at Fortune 500 companies), but no public SAM estimate specific to this niche was found.
-
-**GTM / Distribution:** The Ontora website features a testimonial from a Strategy Manager at Vertiv (ontora.com). Max Arnold's personal website describes Ontora as "enabling consultancies to identify and deliver client projects faster" (maximilianarnold.com), suggesting a possible channel strategy selling through consultancies in addition to direct enterprise sales. [Inferred]: Most likely initial distribution is direct outreach to C-suite and operations leaders at large enterprises, potentially leveraging Max Arnold's Porsche/VW network and Leon Iwanowitsch's consulting connections.
+- **Problem:** Fortune 500 enterprises lose ~$31.5B/year to poor knowledge sharing, with 80% of operational knowledge tacit and undocumented, and 5.3 hours/employee/week lost searching for information (Ontora Launch YC page, Apr 2026).
+- **Approach:** Parallel AI voice agents conduct up to 100 simultaneous ~20-minute structured employee interviews, then synthesize transcripts into process maps, bottleneck/handoff analysis, and automation roadmaps with ROI estimates (ontora.com, May 2026).
+- **Differentiation:** vs. McKinsey/BCG-style consultants — Ontora charges ~$50K per engagement vs. $500K+ and delivers in 4 hours vs. 3–6 months (ontora.com pricing/feature page, May 2026); vs. Celonis-style process mining — Ontora sources tacit knowledge via interviews rather than system event logs ([Inferred]: based on Celonis "20B process events daily" model, Tracxn 2026 and Ontora interview-based mechanism, ontora.com).
+- **Business Model:** ~$50K per engagement, positioned against $500K+ consulting projects (ontora.com, May 2026); no per-seat or subscription tier publicly disclosed.
+- **TAM/SAM:** Process mining software market estimated USD 5.45B in 2026 growing to USD 58.18B by 2034 at 34.4% CAGR (Fortune Business Insights, 2026); a separate estimate places it at USD 0.85B in 2026 (Mordor Intelligence, 2026); no public TAM/SAM data found for the AI-employee-interview sub-segment specifically.
+- **GTM / Distribution:** [Inferred]: Direct C-suite enterprise sales, given $50K engagement-style pricing and named customer Vertiv being a Fortune 1000 industrial (ontora.com customer quote, May 2026); YC Launch + YC X post amplification used at launch (x.com/ycombinator, Apr 2026).
 
 ## Defensibility
 
-- **Data moat potential:** Each deployment captures proprietary organizational process maps and tacit knowledge. [Inferred]: Over time, aggregated anonymized process data across clients could create benchmarking advantages, but no evidence of this capability today.
-- **Switching costs:** Once Ontora's context layer is integrated into a company's AI stack (via API/MCP server), migrating away would require rebuilding the operational knowledge base (ontora.com).
-- No patents, open-source repos, or regulatory barriers identified in public sources.
-
-**Market structure:** Traditional consulting firms (McKinsey, BCG, Bain) face business model cannibalization: automating a $500K, 3-month engagement into a $50K, 4-hour process eliminates the billable-hour revenue model that underpins their operations. McKinsey reported ~40% of projects are AI-related and BCG derived 20% of 2024 revenue from AI consulting (Medium, Fast Company via search snippets), indicating they are investing in AI *for clients* rather than automating their own diagnostic methodology. [Inferred]: This business model conflict — cannibalizing high-margin engagements — creates a structural barrier for incumbents to replicate Ontora's approach directly.
-
-**Commoditization risk:** The core capability (LLM-driven structured interviews + synthesis) could be replicated by any team with access to frontier LLMs. Celonis ($2.4B raised, $13B peak valuation) or Skan AI ($57.6M raised) could add conversational process discovery to their existing platforms. Management consulting firms could build internal tools. The technical barrier is moderate; the go-to-market and trust barrier with C-suite buyers is higher.
+- **Moat today:** Proprietary corpus of structured employee-interview transcripts per customer engagement — Ontora frames this as "turning what your people know into a proprietary data source your AI stack can finally work with" (Launch YC page, Apr 2026).
+- **Future moat:** [Inferred]: Cross-customer benchmarks on process patterns and interview-prompting playbooks could accumulate with engagement volume; unproven now given customer count not disclosed beyond one named logo (Vertiv testimonial, ontora.com).
+- **Market structure:** [Inferred]: Incumbent consultancies (McKinsey/BCG) face direct revenue cannibalization on $500K+ engagements if they ship a 10× cheaper AI-interview product, creating channel/margin conflict (reasoning grounded in price differential cited on ontora.com).
+- **Commoditization risk:** Voice-agent interview pipelines are buildable on commodity LLM + TTS/STT stacks; KYP.ai and ProcessMaker already market "Agentic Process Intelligence" platforms (aimultiple, KYP.ai 2026), and Celonis has shipped AI features on its PI Graph since 2023 (celonis.com blog).
 
 ## Market & Traction
 
-**Traction signals:**
-- Customer testimonial: Strategy Manager at Vertiv stated "What used to take our operating team months of interviews and analysis, Ontora delivered in a single afternoon" (ontora.com).
-- YC Launch post published: "Ontora - Read your company like a book" (ycombinator.com/launches).
-- Y Combinator promoted the launch via their X/Twitter account (x.com/ycombinator).
-- Company Twitter/X: @ontoratech — follower count not retrievable.
-- LinkedIn: company page exists — follower count not retrievable.
-- GitHub: github.com/ontora-main listed on YC page — no public repo data found.
-- No Product Hunt launch found.
-- No app store presence, Chrome extension, or Discord/Slack community found.
-- 0 open job positions (YC page).
-
-**Competitive landscape:**
-
-| Competitor | Key Differentiator vs. Ontora | Funding | Revenue |
-|---|---|---|---|
-| **Celonis** | Log-based process mining from enterprise system data; no conversational/tacit knowledge capture | $2.4B total (Crunchbase) | ~$771M (getlatka.com, 2023) |
-| **Skan AI** | Computer-vision task mining observing user screens; passive observation vs. active interviews | $57.6M total (Crunchbase) | $22.2M (getlatka.com, 2025) |
-| **Workfellow** (acquired by ProcessMaker, Apr 2024) | Hybrid process + task mining; acquired before developing conversational features | Acquired (ProcessMaker, 2024) | Revenue unknown |
-| **Glean** | Enterprise AI search across existing documents; does not surface undocumented tacit knowledge | ~$800M total (via search snippet) | Revenue unknown |
-| **McKinsey/BCG/Bain** | Manual consultant interviews; high cost ($500K+), months-long timelines, ~10% employee sample | N/A | N/A |
-
-**Why now:**
-- LLM capabilities crossed a quality threshold enabling structured conversational interviews at scale — prior NLP could not conduct nuanced follow-up questioning (YC launch page references simultaneous "hundreds of structured conversations").
-- McKinsey announced layoffs attributed to AI disruption of consulting workflows (Fast Company, 2025 via search snippet).
-- [Inferred]: The convergence of enterprise AI adoption (95% of GenAI pilots failing per Ontora's cited stat) creates demand for operational context layers that make AI deployments effective — positioning Ontora as infrastructure for successful enterprise AI, not just a consulting replacement.
+- **Traction signals:**
+  - Customer testimonial: Vertiv (NYSE: VRT) Strategy Manager Julien Kang quoted on the website — "What used to take our operating team months of interviews and analysis, Ontora delivered in a single afternoon" (ontora.com, May 2026).
+  - "Already onboarding first customers" at YC (search snippet referencing Leon Iwanowitsch profile, May 2026 via search snippet).
+  - Y Combinator Launch YC post published Apr 17, 2026 (ycombinator.com/launches/PyU-ontora, 2026).
+  - YC X/Twitter shoutout naming @ontoratech, @dav1dk0rn, @LeonIwanowitsch, @maxonary (x.com/ycombinator, Apr 2026).
+  - Launch video on YouTube dated Apr 15, 2026 (youtube.com/@ontoratech, 2026).
+  - Press coverage: OK Reporter feature "How Maximilian Arnold Built Ontora..." (okreporter.com, 2026).
+  - Revenue, paying-customer count, Product Hunt rank, social follower counts: count not retrievable / no public data found.
+- **Competitors:**
+  - Celonis ($1.77B–$2.4B raised, €1.3B ARR FY2025, $16B valuation Feb 2026; Tracxn / PitchBook 2026): system-log-based process mining at enterprise scale vs. Ontora's interview-based tacit-knowledge capture.
+  - UiPath (public, NYSE: PATH; acquired ProcessGold for process mining per aimultiple): RPA + process mining bundle vs. Ontora's standalone qualitative-interview product.
+  - Skan AI (revenue unknown; skan.ai 2026): computer-vision task mining of desktop activity vs. Ontora's voice-interview approach.
+  - KYP.ai (revenue unknown; kyp.ai 2026): "Agentic Process Intelligence" positioning overlaps Ontora's agent framing but is task/event-driven.
+  - McKinsey / BCG / Bain (consulting incumbents, revenue not directly comparable): the explicit category Ontora positions against on its homepage at $500K+ vs. $50K (ontora.com, May 2026).
+- **Why now:** [Inferred]: Voice-LLM agents crossed a usability threshold in 2024–2025 enabling 100 parallel ~20-minute natural-language interviews at low marginal cost — Ontora's core mechanism — paired with C-suite pressure to feed enterprise AI stacks with proprietary tacit data (ontora.com framing, May 2026).
 
 ## Founders & Team
 
-**Maximilian Arnold** — Co-Founder & COO
-- B.Sc. Software Engineering, CODE University of Applied Sciences (Sep 2021–Feb 2026); top 1% student; DAAD Scholarship; Student Council President (maximilianarnold.com).
-- Exchange semester in CS at Stanford University (Jun–Aug 2024); established CODE-Stanford partnership (maximilianarnold.com).
-- Porsche AG (Sep 2024–Sep 2025): Project lead; developed agentic SAP process mining for procurement, now used at 4 Volkswagen subsidiaries (maximilianarnold.com).
-- sterna.studio (Aug 2022–Dec 2023): Built vertical SaaS for renewable energy; led 7 engineers (maximilianarnold.com).
-- Awards: ETH InCube x Roche winner, Telekom XR Challenge 2nd place (€50,000), Intel Liftoff winner, Samsung Solve for Tomorrow Top 10, Berlin Senate Honor for STEM education (maximilianarnold.com).
-- Twitter/X: @maxonary — count not retrievable.
-- LinkedIn: linkedin.com/in/arnold-max — 500+ connections.
-- GitHub: github.com/maxonary — 1 public repo (convitelist, a Minecraft server tool); star count not retrieved.
-
-**Leon Iwanowitsch** — Co-Founder & CEO
-- Universität St.Gallen (HSG) (LinkedIn via search snippet).
-- Built AI automations at consultancies (YC page description via search snippet).
-- Twitter/X: @LeonIwanowitsch — count not retrievable.
-- LinkedIn: linkedin.com/in/leon-j-iwanowitsch — 500+ connections.
-- GitHub: No public repos found.
-
-**David Korn** — Co-Founder
-- CODE University of Applied Sciences (LinkedIn via search snippet).
-- Built data pipelines in finance (YC page description via search snippet).
-- Twitter/X: @dav1dk0rn — count not retrievable.
-- LinkedIn: linkedin.com/in/korn-david.
-- GitHub: No public repos found.
-
-**Co-founder relationship:** Max Arnold and David Korn both attended CODE University of Applied Sciences in Berlin. Per search snippets, the three co-founders quit their jobs after a trip to Stockholm's fastest-scaling startups organized by Max.
-
-**Founder-market fit:** Max Arnold built agentic SAP process mining at Porsche deployed across 4 VW subsidiaries — direct domain experience in enterprise process discovery. Leon Iwanowitsch built AI automations at consultancies — direct experience with the buyer persona and delivery model Ontora replaces. David Korn built data pipelines in finance — relevant to Ontora's data integration layer. The team combines process mining engineering, consulting-domain AI, and data infrastructure.
+- **Leon Johannes Iwanowitsch (Co-Founder & CEO):**
+  - Background: M.A. Business Innovation, Universität St.Gallen (HSG); prior roles at Robin Capital, Founderful Campus, START Global, Yttrium; built AI automations at consultancies (LinkedIn/in/leon-j-iwanowitsch, RocketReach 2026; search snippet via okreporter 2026).
+  - Twitter/X: @LeonIwanowitsch (x.com/ycombinator post, Apr 2026); follower count not retrievable.
+  - LinkedIn: "Ontora (YC P26)" (linkedin.com/in/leon-j-iwanowitsch).
+  - GitHub: No public account found.
+- **Maximilian "Max" Arnold (Co-Founder):**
+  - Background: CODE University of Applied Sciences alum (linkedin.com/posts/codeuniversity, 2026); led process optimization at Porsche (ycombinator.com/companies/ontora search snippet, 2026); profiles tie him to CODE and Stanford (okreporter.com 2026 via search snippet).
+  - Twitter/X: @maxonary (x.com/ycombinator, Apr 2026); follower count not retrievable.
+  - LinkedIn: "Co-Founder Ontora (YC P26)" (linkedin.com/in/arnold-max).
+  - GitHub: No public account found.
+- **David Korn (Co-Founder & CTO):**
+  - Background: Built data pipelines in finance prior to Ontora (ycombinator.com/companies/ontora; okreporter.com 2026 via search snippet).
+  - Twitter/X: @dav1dk0rn (x.com/ycombinator, Apr 2026); follower count not retrievable.
+  - LinkedIn: "Co-Founder Ontora (YC P26)" (linkedin.com/in/korn-david).
+  - GitHub: No public account found.
+- **Co-founder relationship:** Trio coalesced after a Max-organized tour of Stockholm's fastest-scaling startups, after which all three quit their jobs to start the company together (okreporter.com 2026 via search snippet); no shared prior employer or university documented.
+- **Founder-market fit:** Max's Porsche process-optimization experience, Leon's AI-automation consulting work, and David's finance data-pipeline engineering align with Ontora's three-part product surface — process analysis, agent orchestration, and transcript/data pipeline (ycombinator.com/companies/ontora; okreporter.com 2026 via search snippet); no advisors or named investors beyond YC found.
 
 ## Key Risks
 
-**LLM dependency and interview quality:** Ontora's core value depends on LLMs conducting nuanced, structured interviews that extract tacit knowledge accurately. Hallucinated synthesis or shallow follow-up questions could produce misleading process maps, with consequences at the C-suite decision level. No public information on validation methodology or accuracy benchmarks.
-
-**Enterprise sales cycle vs. runway:** Selling to C-suite leaders at large enterprises typically involves 6–12 month sales cycles, procurement reviews, and security audits. As a 3-person pre-seed team, Ontora must close enterprise deals before exhausting YC-stage capital. The Vertiv testimonial (ontora.com) suggests at least one enterprise engagement.
-
-**Data sensitivity and compliance:** Interviewing every employee surfaces sensitive operational data, internal politics, and potentially regulated information. Enterprise buyers in healthcare, finance, or government may require SOC 2, HIPAA, or GDPR compliance before deployment. No compliance certifications found in public sources.
-
-**Competitive response from process mining incumbents:** Celonis ($2.4B raised) or Skan AI ($57.6M raised) could add LLM-based conversational discovery to their existing platforms, combining it with their established log-based and vision-based capabilities. This would create a more comprehensive offering than Ontora's standalone conversational approach.
-
-**Name collision:** "Ontora" shares a name with multiple social media accounts (individuals named Nusrat Jahan Ontora on X/Twitter). Co-founder David Korn shares a name with the well-known computer scientist who created the Korn Shell. Neither creates business risk but may complicate search visibility and due diligence.
+- **Incumbent encroachment by Celonis/UiPath:** Celonis already operates an AI-enabled "Process Intelligence Graph" across 2,000+ enterprise implementations and €1.3B ARR (Tracxn, celonis.com 2026), and could add an interview-agent feature on top of its existing distribution to the same C-suite buyer Ontora targets; no mitigation publicly disclosed.
+- **Consulting-firm counter-offer risk:** McKinsey/BCG/Bain own the buyer relationship that Ontora's $50K engagement undercuts (ontora.com pricing, 2026), and can bundle similar AI-interview tooling into existing $500K+ engagements; no exclusivity or channel lock-in found.
+- **Employee/works-council adoption risk:** [Inferred]: AI-conducted interviews of "every employee" face workforce-trust and works-council/GDPR friction, particularly given founders' European backgrounds and likely European enterprise targets (HSG, Porsche, CODE per LinkedIn 2026); no privacy/consent framework documented on ontora.com.
+- **Single named customer concentration:** Only Vertiv is publicly cited as a customer (ontora.com, May 2026); no second named logo or paying-customer count disclosed.
+- **Technical feasibility at promised scale:** Claim of 100 parallel ~20-minute voice interviews with real-time synthesis (ontora.com) is unproven at multi-thousand-employee Fortune 500 scale in public sources; no benchmark or case study with employee count published.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Process mining software: $1.4B in 2024, projected $21.9B by 2030 (Grand View Research, 2024 via search snippet) |
+| TAM | Process mining software: USD 5.45B in 2026 → USD 58.18B by 2034, 34.4% CAGR (Fortune Business Insights, 2026); alternative estimate USD 0.85B in 2026 (Mordor Intelligence, 2026) |
 | SAM | No public data found |
-| Traction | Vertiv customer testimonial (ontora.com); YC launch post (ycombinator.com); YC Twitter promotion (x.com/ycombinator) |
-| Revenue Signal | No public data found |
-| Founders | Max Arnold (COO): Porsche process mining lead, Stanford, CODE Univ. Leon Iwanowitsch (CEO): St.Gallen, AI automations at consultancies. David Korn: CODE Univ, data pipelines in finance. |
-| Competitors | Celonis ($2.4B raised, ~$771M revenue (getlatka.com, 2023), log-based process mining); Skan AI ($57.6M raised, $22.2M revenue (getlatka.com, 2025), vision-based task mining); Workfellow (acquired by ProcessMaker Apr 2024, revenue unknown, hybrid process+task mining); Glean (~$800M raised (search snippet), revenue unknown, enterprise AI search) |
-| Moat Signals | No public data found |
-| Risk Factors | LLM interview quality/accuracy, enterprise sales cycle vs. pre-seed runway, data sensitivity compliance requirements |
-| Founder Reach | Max Arnold: Twitter @maxonary (count not retrievable), LinkedIn 500+ connections, GitHub 1 public repo. Leon Iwanowitsch: Twitter @LeonIwanowitsch (count not retrievable), LinkedIn 500+ connections. David Korn: Twitter @dav1dk0rn (count not retrievable), LinkedIn profile exists. |
-| Distribution Signals | No public data found |
+| Traction | Vertiv customer testimonial (ontora.com, May 2026); YC Launch Apr 17 2026 (ycombinator.com/launches/PyU-ontora); Launch video Apr 15 2026 (youtube.com/@ontoratech); YC X post tagging founders (x.com/ycombinator, Apr 2026); press feature (okreporter.com, 2026) |
+| Revenue Signal | ~$50K per engagement vs. $500K+ consulting alternative (ontora.com, May 2026) |
+| Founders | Leon Iwanowitsch (CEO): HSG M.A. Business Innovation, ex-Robin Capital/Founderful/Yttrium, AI automations at consultancies. Maximilian Arnold (Co-Founder): CODE University alum, led process optimization at Porsche. David Korn (CTO): finance data pipelines. |
+| Competitors | Celonis ($1.77B–$2.4B raised, €1.3B ARR FY2025, $16B valuation Feb 2026; system-log process mining). UiPath (public NYSE:PATH; RPA + process mining via ProcessGold). Skan AI (revenue unknown; desktop task mining). KYP.ai (revenue unknown; Agentic Process Intelligence). McKinsey/BCG/Bain (consulting incumbents at $500K+). |
+| Moat Signals | Proprietary per-customer interview-transcript corpus framed as a data source for the customer's AI stack (Launch YC page, Apr 2026) |
+| Risk Factors | Celonis/UiPath encroachment, consulting-firm counter-offer, employee/works-council and privacy friction |
+| Founder Reach | Leon Iwanowitsch: Twitter @LeonIwanowitsch (count not retrievable), LinkedIn present, GitHub not found. Maximilian Arnold: Twitter @maxonary (count not retrievable), LinkedIn present, GitHub not found. David Korn: Twitter @dav1dk0rn (count not retrievable), LinkedIn present, GitHub not found. |
+| Distribution Signals | YC Launch page Apr 17 2026 (ycombinator.com/launches/PyU-ontora); YC X post Apr 2026 (x.com/ycombinator); Launch YouTube Apr 15 2026 (youtube.com/@ontoratech); cal.com/ontora/30min demo booking (cal.com, 2026) |
 | Emails | No public data found |
+
+Sources:
+- [Ontora — YC Company Page](https://www.ycombinator.com/companies/ontora)
+- [Launch YC: Ontora — Read your company like a book](https://www.ycombinator.com/launches/PyU-ontora-read-your-company-like-a-book)
+- [Ontora homepage](https://ontora.com/)
+- [Ontora Launch — YouTube](https://www.youtube.com/watch?v=JPk4_Nx31nU)
+- [Y Combinator X post tagging Ontora founders](https://x.com/ycombinator/status/2046242485467250717)
+- [Leon Iwanowitsch — LinkedIn](https://www.linkedin.com/in/leon-j-iwanowitsch/)
+- [Maximilian Arnold — LinkedIn](https://www.linkedin.com/in/arnold-max/)
+- [David Korn — LinkedIn](https://www.linkedin.com/in/korn-david/)
+- [OK Reporter — How Maximilian Arnold Built Ontora](https://www.okreporter.com/how-maximilian-arnold-built-ontora-into-a-y-combinator-backed-ai-operations-startup/)
+- [Celonis — Tracxn profile](https://tracxn.com/d/companies/celonis/__urB5xFYRh07I9OiGj7ECQA0dCmwZ3bVs1o4NXwhqSBg)
+- [Celonis — Wikipedia](https://en.wikipedia.org/wiki/Celonis)
+- [Process Mining Software Market — Fortune Business Insights](https://www.fortunebusinessinsights.com/process-mining-software-market-104792)
+- [Process Mining Software Market — Mordor Intelligence](https://www.mordorintelligence.com/industry-reports/process-mining-software-market)
+- [Celonis Competitors — AIMultiple](https://research.aimultiple.com/celonis/)
+- [KYP.ai — Celonis Alternatives](https://kyp.ai/celonis-alternatives/)
+- [Skan AI vs. Celonis](https://www.skan.ai/the-celonis-alternative-for-process-intelligence)
+- [Ontora Cal.com booking](https://cal.com/ontora/30min)

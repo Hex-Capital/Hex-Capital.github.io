@@ -6,112 +6,101 @@
 |-------|-------|
 | Website | https://korsoai.com/ |
 | YC Page | https://www.ycombinator.com/companies/korso |
-| Batch | Spring 2026 |
+| Batch | Spring 2026 (YC P26) |
 | Industry | B2B / B2B -> Operations |
 | Team Size | 3 |
 | Location | San Francisco, CA, USA |
-| Tags | SaaS, Manufacturing, AI |
-| YC Partner | Andrew Miklas |
-| Emails | support@korsoai.com |
+| Tags | Artificial Intelligence, SaaS, Manufacturing |
+| YC Partner | Andrew Miklas (YC company page) |
+| Emails | support@korsoai.com (korsoai.com) |
 
 ## The Idea
 
-**Problem:** Manufacturers handle critical operational workflows—RFQ processing, quote generation, supplier follow-ups, purchase order tracking, and exception management—through manual effort in email, WhatsApp, and spreadsheets layered over ERP/CRM systems (korsoai.com). The company frames this as: "the great inefficiency of modern manufacturing is not on the shop floor, it's in the office" (korsoai.com/thesis). Information delays, manual data retrieval, and knowledge loss when employees depart compound the problem (korsoai.com/thesis). Existing solutions are either full ERP replacements (high switching cost) or brittle RPA tools that break at the ERP integration layer (YC page).
-
-**Approach:** Korso deploys AI agents that plug into existing ERP and CRM systems to autonomously triage incoming RFQs, extract line items, generate quotes, chase delayed orders, notify customers, and escalate only when human judgment is needed (YC page). The system uses verification layers, scoped tool access, dry-run validation, and secondary review before critical operations, with full audit trails (YC page). Long-running workflow orchestration with checkpointing handles multi-week manufacturing processes (YC page). Two named products exist: "Atlas" (the platform, described as built on frontier AI research) and "Hermes" (no public details) (korsoai.com).
-
-**Differentiation:** Unlike RPA-based procurement tools (e.g., Turian), Korso's agents are built for multi-week manufacturing workflows with checkpointing, not discrete transaction automation (YC page). Unlike CPQ platforms (e.g., Tacton, Paperless Parts), Korso acts autonomously across the full quote-to-order cycle rather than providing a configure-price-quote interface for human operators (YC page). Unlike ERP-native AI features (e.g., Epicor Prism), Korso is ERP-agnostic and sits as a layer across systems (YC page). SOC 2 Type 1 and ISO 27001 certifications are in progress, signaling enterprise-readiness intent (korsoai.com).
-
-**Business Model:** No pricing page is public (korsoai.com). A "Contact Sales" option is available (korsoai.com). [Inferred]: Most likely monetization path is SaaS subscription (per-seat or per-workflow) sold via direct sales to mid-market manufacturers, based on the enterprise positioning and "Contact Sales" flow.
-
-**TAM/SAM:** The global AI in manufacturing market was valued at $34.18B in 2025 and is projected to reach $155.04B by 2030 at 35.3% CAGR (MarketsandMarkets, 2025 via search snippet). An alternative estimate values the market at $7.6B in 2025 growing to $128.81B by 2034 at 37.90% CAGR (Fortune Business Insights, 2025 via search snippet). No public SAM data specific to AI-powered manufacturing operations/quoting automation was found.
-
-**GTM / Distribution:** The founders "spent time traveling across Asia, talking directly to clients and fine-tuning products" shortly after YC acceptance (LinkedIn/Alex Liu via search snippet). [Inferred]: Most likely distribution path is founder-led direct sales to small and mid-market manufacturers, leveraging Martin Pan's General Motors network and Daichi Hiraoka's engineering background for domain credibility.
+- **Problem:** Manufacturers manually process RFQs, follow up on quotes, coordinate suppliers, and respond to production disruptions across ERP/CRM systems (YC company page; korsoai.com).
+- **Approach:** "Atlas" AI agents plug into ERP/CRM (SAP, NetSuite, Dynamics 365, Sage, SYSPRO, Plex, Acumatica) and communication tools (Gmail, WhatsApp, WeChat, Slack, Teams) to triage requests, chase orders, and execute via verification layers, dry-run validation, and audit trails (korsoai.com).
+- **Differentiation:** Lumari (YC) deploys hundreds of AI agents for RFQs/PO expediting and supplier comms (ycombinator.com/companies/lumari); Turian provides agentic AI for RFQs/POs/sales orders targeting mid-sized manufacturers (turian.ai); [Inferred]: Korso's stated wedge vs. these is "long-running workflows that span weeks and checkpointing that never loses progress" plus broader ERP coverage (YC company description).
+- **Business Model:** No public pricing page found on korsoai.com; [Inferred]: B2B SaaS subscription tied to ERP/CRM seat or workflow consumption, given enterprise ERP integration scope (korsoai.com feature set).
+- **TAM/SAM:** Global AI agents market projected USD 11.55B (2026) to USD 294.66B (2035) per Precedence Research; industrial end-use AI automation forecast at 49.2% CAGR 2026-2033 per Grand View Research; no public TAM/SAM data found for the specific manufacturing-ERP-agent segment.
+- **GTM / Distribution:** [Inferred]: Direct enterprise sales into mid-market manufacturers, given the listed ERP integrations (SAP, NetSuite, Plex, SYSPRO) and YC backing (korsoai.com; YC company page); no public GTM data found.
 
 ## Defensibility
 
-- **Switching costs:** Once integrated with a manufacturer's ERP/CRM and trained on their workflows, pricing history, and supplier relationships, switching to a competitor would require re-integration and re-training (YC page). The system converts "tribal knowledge into data" (korsoai.com/thesis), creating a proprietary data layer.
-- **Technical complexity:** Long-running workflow orchestration with checkpointing across messy ERP systems is architecturally non-trivial (YC page). Multi-week stateful workflows with audit trails require purpose-built infrastructure.
-- **Data advantage:** [Inferred]: As agents process more RFQs and supplier interactions for a customer, accumulated context (pricing history, supplier patterns, customer preferences) creates a compounding data moat per account.
-
-**Market structure:** ERP incumbents (SAP, Epicor, Oracle) face business model conflict: their revenue depends on seat-based licensing for manual workflows; automating those workflows cannibalizes their own user-seat economics. Epicor has launched Prism as a native AI agent for RFQ workflows (search snippet, 2026), indicating incumbents are responding but within the constraints of their existing platform architecture. [Inferred]: ERP vendors are structurally incentivized to add AI as a feature upsell rather than build a standalone autonomous agent layer that reduces the need for their core product seats.
-
-**Commoditization risk:** The core capability—LLM-based document parsing, email triage, and ERP API integration—uses generally available AI infrastructure. Turian (Berlin, 17 employees) already offers agentic AI for procurement workflows (turian.ai). Paperless Parts has launched AI-supported quoting (paperlessparts.com). Leverage AI provides AI-driven purchase order automation ($14.9M raised) (search snippet). The barrier is not the AI model but the ERP integration depth and manufacturing domain specificity. Multiple funded startups could converge on this space.
+- **Moat today:** No defensibility signals found in public sources; korsoai.com describes verification layers, scoped tools, dry-run validation, and audit trails as architecture features, not proprietary IP.
+- **Future moat:** [Inferred]: Switching costs from deep ERP integration plus accumulated workflow/exception data per customer could compound, but unproven given pre-seed stage and no disclosed customers (korsoai.com).
+- **Market structure:** [Inferred]: ERP incumbents (SAP, Oracle, Microsoft) face channel conflict between selling agent layers and protecting existing implementation-partner revenue, and their roadmaps target single-ERP buyers rather than cross-ERP orchestration (korsoai.com integration list spans 7 ERPs).
+- **Commoditization risk:** Lumari (YC), Turian ($3.78M raised, Berlin), Smartbase, and qomplement target overlapping RFQ/PO/supplier-coordination workflows (tryleverage.ai; ycombinator.com/companies/lumari; pitchbook.com Turian profile).
 
 ## Market & Traction
 
-**Traction signals:**
-- No public revenue, user counts, or growth metrics found.
-- No Product Hunt launch found.
-- No press coverage in named publications found.
-- No company Twitter/X account found.
-- LinkedIn company page: linkedin.com/company/korsoai/ (follower count not retrievable).
-- No Discord or Slack community found.
-- 0 job postings listed on YC page (YC page).
-- No app store or Chrome Web Store presence found.
-
-**Competitive landscape:**
-
-| Competitor | Founded | Funding | Key Differentiator vs. Korso |
-|-----------|---------|---------|------------------------------|
-| Paperless Parts | 2017, Boston | $45.5–51.1M total, $30M Series B (OpenView, 2021) (Startup Savant; Crunchbase via search snippet) | CPQ tool for job shops; human-operated quoting interface vs. Korso's autonomous agents |
-| Turian | 2022, Berlin | Not publicly disclosed; 17 employees (PitchBook via search snippet) | Agentic AI for procurement/sales/compliance across industries vs. Korso's manufacturing-specific focus |
-| Leverage AI | Chicago | $14.9M total from 26 investors (Crunchbase via search snippet) | AI-driven PO drafting and vendor cost updates for manufacturers/distributors; narrower scope than Korso's full quote-to-order workflow |
-| Tacton | 1998, Stockholm | $12M+ (GRO Capital, 2017); strategic PE investment from Rubicon Technology Partners (2023) (Nordic 9; Tacton press release via search snippet) | Established CPQ platform for complex configured products; rule-based vs. Korso's AI-agent approach |
-
-**Why now:** [Inferred]: The convergence of two factors opened this window: (1) frontier LLMs crossed the capability threshold for reliably parsing unstructured manufacturing documents (RFQs, POs, technical drawings) and maintaining multi-step reasoning across complex workflows—capabilities unavailable before 2024-era models; (2) 80% of CPOs now name AI a top priority (search snippet, 2026), indicating buyer readiness in industrial procurement that did not exist 24 months ago.
+- **Traction signals:**
+  - Backed by Y Combinator, Spring 2026 batch / P26 (ycombinator.com/companies/korso).
+  - Sample dashboard on korsoai.com shows "$2.4M pipeline, 47 active quotes, 89% close rate" but references fictional companies "Northbridge Metals" and "Blue Harbor Components" — appears to be product mockup, not customer data (korsoai.com).
+  - Featured in Menlo Times "Y Combinator Launches of the Week #99" (menlotimes.com).
+  - Coverage in OK Reporter on founder/company narrative (okreporter.com).
+  - No public revenue, paying customers, user counts, Product Hunt, GitHub, or social follower data found.
+- **Competitors:**
+  - Lumari (YC, $500K raised, revenue unknown): YC-backed direct competitor — AI agents for RFQ automation, quote extraction, PO tracking; founded by ex-Google/Tesla/Amazon/Stripe engineers (ycombinator.com/companies/lumari; lumari.io/about-us).
+  - Turian ($3.78M raised, revenue unknown): Berlin-based, founded 2022, agentic AI for RFQs/POs/sales orders aimed at mid-sized manufacturers; investors include Cherry Ventures, Everywhere Ventures, Visionaries Club (pitchbook.com Turian profile; turian.ai).
+  - Smartbase (funding not found, revenue unknown): Automates order entry into ERPs for manufacturers (tryleverage.ai, 2026).
+  - qomplement (funding not found, revenue unknown): Deploys AI agents into existing tools to do manual work without migration (tryleverage.ai, 2026).
+  - SAP Ariba / Coupa / Zip (incumbents): Established procurement suites cited as competitors; differ in being procurement-buyer-side platforms rather than agent layers across ERP/CRM (tryleverage.ai, 2026).
+- **Why now:** [Inferred]: LLM tool-use and agent-orchestration maturity in 2024-2025 (function calling, long-context, MCP) made ERP-spanning agents technically feasible, evidenced by simultaneous launches of Lumari, Turian, Smartbase, and Korso in this window (tryleverage.ai 2026 landscape; ycombinator.com/companies/lumari).
 
 ## Founders & Team
 
-**Daichi Hiraoka** — Co-founder
-- Electrical Engineering, University of Pennsylvania (LinkedIn).
-- Electrical Hardware Engineer at Penn Electric Racing: led redesign of accumulator charger system, improving safety features by 150%; designed circuits/PCBs in Altium with $3,300 budget (LinkedIn via search snippet).
-- Developed ML model for radiotherapy treatment planning, reducing dose prediction discrepancies by 97% and planning time by 35% (LinkedIn via search snippet).
-- Twitter/X: No public account found.
-- LinkedIn: linkedin.com/in/daichihiraoka/ — "Electrical Hardware Engineer - Penn Electric Racing," 240 connections (LinkedIn via search snippet).
-- GitHub: No confirmed public repos found.
-
-**Alex Liu** — Co-founder
-- UC Irvine (search snippet). Previous experience at Notre Dame Research and Gatekeeper Systems, Inc. (RocketReach via search snippet).
-- Based in Irvine, CA (RocketReach via search snippet).
-- Twitter/X: No public account confirmed.
-- LinkedIn: linkedin.com/in/alexdliu7/ — "Korso (YC P26)" (LinkedIn).
-- GitHub: No confirmed public repos found.
-
-**Martin Pan** — Co-founder
-- University of Michigan College of Engineering; UC Irvine (RocketReach via search snippet).
-- Previous experience at General Motors and Penn Electric Racing (YC page; RocketReach via search snippet).
-- Based in Irvine, CA (RocketReach via search snippet).
-- Twitter/X: No public account found.
-- LinkedIn: Not directly found; referenced via RocketReach directory listing.
-- GitHub: No confirmed public repos found.
-
-**Co-founder relationship:** Daichi Hiraoka and Martin Pan were both members of Penn Electric Racing at the University of Pennsylvania (LinkedIn via search snippet; RocketReach via search snippet). Alex Liu and Martin Pan both attended UC Irvine (search snippets). These overlaps indicate prior acquaintance before founding Korso.
-
-**Founder-market fit:** Martin Pan's experience at General Motors provides direct domain exposure to automotive manufacturing operations and supply chain workflows. Daichi Hiraoka's electrical engineering and hardware background at Penn Electric Racing gives hands-on experience with manufacturing processes and technical documentation. Alex Liu's research background (Notre Dame Research) and systems experience (Gatekeeper Systems) contribute technical depth. [Inferred]: The team combines manufacturing domain experience (Pan/GM) with engineering execution capability, though none of the founders appear to have prior startup founding experience or enterprise software sales backgrounds.
+- **Daichi Hiraoka (Co-founder):**
+  - Background: Electrical Engineering at the University of Pennsylvania; member of Penn Electric Racing formula team (linkedin.com/in/daichihiraoka; okreporter.com); no prior employer or exit found in public sources.
+  - Twitter/X: No public account found.
+  - LinkedIn: "Co-founder at Korso (YC P26)" (linkedin.com/in/daichihiraoka).
+  - GitHub: No public repos found.
+- **Alex Liu (Co-founder):**
+  - Background: UC Irvine; prior roles at Notre Dame Research and Gatekeeper Systems, Inc.; based in Irvine, CA (linkedin.com/in/alexdliu7; rocketreach.co profile).
+  - Twitter/X: No public account found.
+  - LinkedIn: "Korso (YC P26)" (linkedin.com/in/alexdliu7).
+  - GitHub: No public repos found.
+- **Martin Pan (Co-founder):**
+  - Background: BS and MS in Mechanical Engineering/Robotics at the University of Pennsylvania; prior automations engineer at General Motors; Penn Electric Racing alum (linkedin.com/in/martin-pan-42bb20244; rocketreach.co Martin Pan profile).
+  - Twitter/X: No public account found.
+  - LinkedIn: "Co-founder at Korso" (linkedin.com/in/martin-pan-42bb20244).
+  - GitHub: No public repos found.
+- **Co-founder relationship:** Daichi Hiraoka and Martin Pan both attended UPenn and were both on Penn Electric Racing, indicating prior collaboration on a formula-style engineering team (LinkedIn profiles, okreporter.com).
+- **Founder-market fit:** Martin Pan's prior GM automations-engineering role provides direct manufacturing-floor exposure; Daichi Hiraoka and Martin Pan's hardware/EE backgrounds map to the ERP/manufacturing-systems domain Korso targets (LinkedIn profiles; korsoai.com product scope); no advisors, board members, or non-YC investors disclosed publicly.
 
 ## Key Risks
 
-**ERP integration fragmentation:** Manufacturing ERP systems (SAP, Epicor, Oracle, JobBOSS, etc.) have heterogeneous APIs, data models, and customization layers. Each customer deployment may require significant integration engineering. The company acknowledges this difficulty: "Most AI automation breaks down at the ERP integration layer" (YC page). Mitigation: Korso claims purpose-built orchestration for "messy" manufacturing systems (YC page), but no public evidence of specific ERP integrations completed.
-
-**Incumbent response velocity:** Epicor has already launched Prism, an AI agent for automating RFQ workflows within its ERP (search snippet, 2026). SAP and Oracle have active AI agent roadmaps. Incumbents with existing ERP installations have a distribution advantage and can bundle AI features at marginal cost. Mitigation: Korso's ERP-agnostic positioning could appeal to manufacturers on legacy or multi-ERP environments where incumbents' native tools don't reach.
-
-**Name collision / discoverability:** "Korso" is a common word in Finnish (a Helsinki suburb, a K-supermarket chain) and appears as a character name across media. Multiple unrelated Twitter/X accounts, companies, and search results share the name (search results). This creates SEO/brand competition and complicates inbound discovery.
-
-**No visible traction or market validation:** No public customers, revenue signals, user metrics, press coverage, or community presence were found despite the product being described as functional (korsoai.com). [Inferred]: The company is very early, even by pre-seed standards, and may still be in pilot or pre-launch phase. The risk is that the product's enterprise-safety architecture (verification layers, dry-run validation) may slow time-to-first-customer relative to less cautious competitors.
+- **Crowded direct-competitive field:** Lumari (YC), Turian ($3.78M), Smartbase, and qomplement target overlapping RFQ/PO/supplier-coordination workflows in manufacturing (tryleverage.ai 2026; ycombinator.com/companies/lumari; pitchbook.com Turian profile). No disclosed customers or revenue from Korso publicly to demonstrate wedge differentiation.
+- **ERP incumbent encroachment:** SAP, Oracle, and Microsoft Dynamics — all listed as Korso integration targets (korsoai.com) — are shipping native agentic features (e.g., AWS Bedrock AgentCore procurement agents, per aws.amazon.com 2025-2026), which could compress Korso's value layer.
+- **Enterprise sales cycle vs. team scale:** Selling into manufacturers running SAP/Oracle/NetSuite typically requires implementation partners and IT-security review; the founding team is three engineers with no disclosed enterprise-sales hire (YC company page team size 3; no jobs listings noted).
+- **No verified traction:** Korso's homepage dashboards reference fictional sample companies ("Northbridge Metals," "Blue Harbor Components") with no real customer logos or named pilots found in public sources (korsoai.com).
+- **Technical feasibility on long-running ERP workflows:** Korso's stated differentiator is multi-week checkpointed workflows acting on production ERPs (korsoai.com) — a class of agent reliability problem unproven publicly at scale by any vendor (tryleverage.ai 2026 landscape).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $34.18B in 2025, projected $155.04B by 2030 at 35.3% CAGR (MarketsandMarkets, 2025 via search snippet) |
+| TAM | Global AI agents market USD 11.55B (2026) → USD 294.66B (2035), Precedence Research; AI automation USD 129.92B (2025) at 31.4% CAGR 2026-2033, Grand View Research |
 | SAM | No public data found |
-| Traction | No public data found |
-| Revenue Signal | No public data found |
-| Founders | Daichi Hiraoka (Co-founder): UPenn EE, Penn Electric Racing, ML research. Alex Liu (Co-founder): UC Irvine, Notre Dame Research, Gatekeeper Systems. Martin Pan (Co-founder): U Michigan, UC Irvine, General Motors, Penn Electric Racing. |
-| Competitors | Paperless Parts ($45.5–51.1M raised, revenue unknown, CPQ quoting tool vs. autonomous agents) (Crunchbase via search snippet); Turian (funding undisclosed, revenue unknown, cross-industry agentic AI vs. manufacturing-specific) (PitchBook via search snippet); Leverage AI ($14.9M raised, revenue unknown, PO/RFQ automation for manufacturers) (Crunchbase via search snippet); Tacton ($12M+, revenue unknown, established CPQ platform vs. AI-agent approach) (Nordic 9 via search snippet) |
-| Moat Signals | ERP integration depth + per-account data accumulation + long-running workflow state (YC page; korsoai.com/thesis) |
-| Risk Factors | ERP integration fragmentation, incumbent AI feature launches (Epicor Prism), name collision / discoverability |
-| Founder Reach | No public data found |
-| Distribution Signals | No public data found |
+| Traction | YC Spring 2026 / P26 batch (ycombinator.com/companies/korso); featured in Menlo Times YC Launches of the Week #99 (menlotimes.com); OK Reporter founder profile (okreporter.com); no public revenue, customer, or user data found |
+| Revenue Signal | No public data found (no pricing page on korsoai.com) |
+| Founders | Daichi Hiraoka (Co-founder): UPenn EE, Penn Electric Racing. Alex Liu (Co-founder): UC Irvine, prior Notre Dame Research and Gatekeeper Systems. Martin Pan (Co-founder): UPenn BS+MS Mechanical/Robotics, prior automations engineer at General Motors, Penn Electric Racing. |
+| Competitors | Lumari ($500K raised, revenue unknown, YC-backed direct competitor on RFQ/PO/supplier agents); Turian ($3.78M raised, revenue unknown, Berlin, manufacturing RFQ/PO/sales-order agents); Smartbase (funding unknown, revenue unknown, ERP order-entry automation); qomplement (funding unknown, revenue unknown, AI agents over existing tools); SAP Ariba / Coupa / Zip (incumbent procurement suites) |
+| Moat Signals | No public data found |
+| Risk Factors | Crowded RFQ-agent field (Lumari, Turian, Smartbase); ERP incumbent encroachment; unverified traction (sample dashboard uses fictional companies) |
+| Founder Reach | Daichi Hiraoka: Twitter not found, LinkedIn count not retrievable, GitHub not found. Alex Liu: Twitter not found, LinkedIn count not retrievable, GitHub not found. Martin Pan: Twitter not found, LinkedIn count not retrievable, GitHub not found. |
+| Distribution Signals | Menlo Times YC Launches of the Week #99 (menlotimes.com); OK Reporter profile (okreporter.com); no Product Hunt, Chrome Web Store, app store, or social-follower data found |
 | Emails | support@korsoai.com (korsoai.com) |
+
+Sources:
+- [Korso – YC company page](https://www.ycombinator.com/companies/korso)
+- [Korso – company website](https://korsoai.com/)
+- [Daichi Hiraoka LinkedIn](https://www.linkedin.com/in/daichihiraoka/)
+- [Alex Liu LinkedIn](https://www.linkedin.com/in/alexdliu7/)
+- [Martin Pan LinkedIn](https://www.linkedin.com/in/martin-pan-42bb20244/)
+- [OK Reporter profile of Daichi Hiraoka / Korso](https://www.okreporter.com/how-daichi-hiraoka-took-korso-from-manufacturing-pain-points-to-y-combinator-backing/)
+- [Menlo Times – YC Launches of the Week #99](https://www.menlotimes.com/post/y-combinator-launches-of-the-week-99)
+- [Lumari – YC company page](https://www.ycombinator.com/companies/lumari)
+- [Turian PitchBook profile](https://pitchbook.com/profiles/company/516138-13)
+- [Turian website](https://www.turian.ai/)
+- [Top 7 AI Procurement Automation Platforms 2026 (tryleverage)](https://tryleverage.ai/blog/pf/ai-procurement-automation-platforms-manufacturers)
+- [Precedence Research – AI Agents Market](https://www.precedenceresearch.com/ai-agents-market)
+- [Grand View Research – AI Automation Market](https://www.grandviewresearch.com/industry-analysis/ai-automation-market-report)

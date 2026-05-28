@@ -11,96 +11,84 @@
 | Team Size | 1 |
 | Location | San Francisco, CA, USA |
 | Tags | Artificial Intelligence, Security, Open Source |
-| YC Partner | Garry Tan (per YC page) |
-| Emails | sales@clawvisor.com (clawvisor.com) |
+| YC Partner | Garry Tan |
+| Emails | sales@clawvisor.com |
 
 ## The Idea
 
-**Problem:** AI agents acting on user data via apps like Gmail, Slack, Google Drive, GitHub, Stripe, and Notion require credentials/OAuth tokens to call APIs (clawvisor.com). Today, agent runtimes typically receive tokens directly, expanding the blast radius of prompt injection or scope creep. Industry survey data states that for agent-to-agent interactions teams rely on API Keys (45.6%) and Generic Tokens (44.4%); secure standards like mTLS are used by only 17.8% (Gravitee "State of AI Agent Security Report" via search snippet).
-
-**Approach:** Clawvisor positions as an "AI Agent Gatekeeper" / API gateway for purpose-based authorization (clawvisor.com; github.com/clawvisor README). Mechanism: user approves a task once; Clawvisor enforces purpose verification on every API call, vaults credentials so the agent never sees them, runs risk assessment for anomalies/scope creep, blocks prompt injection attempts, and writes a full audit trail of requests, approvals, and credential injections (clawvisor.com features list).
-
-**Differentiation:** Adapters published for 14+ services — Gmail, Google Calendar/Drive/Contacts, GitHub, Slack, Notion, Linear, Stripe, Twilio, Dropbox, Granola, Perplexity, iMessage bridge — with SendGrid, Jira, Salesforce, Airtable listed "coming soon" (clawvisor.com). Vs. Composio (500+ integrations + auth, composio.dev) and Nango (700+ APIs, nango.dev/blog): broader tool catalogs but integration-first framing. Vs. Arcade.dev: closest comp — Arcade markets itself as "MCP runtime" with task-time authorization (arcade.dev; dev.to/composiodev "4 Best AI Agent Authentication platforms 2026"). Vs. Anon: SDK-based authentication layer for agents (TechCrunch, Apr 24 2024). Vs. Auth0 for AI Agents Token Vault and WorkOS FGA: incumbent identity vendors shipping agent-specific auth modules (auth0.com/ai; workos.com/blog).
-
-**Business Model:** No pricing tiers disclosed on the site; free trial available with no credit card required (clawvisor.com). [Inferred]: Likely usage- or seat-based SaaS with an enterprise tier, given gateway/audit-trail framing and the open-source core repo (github.com/clawvisor/clawvisor) suggesting an open-core model.
-
-**TAM/SAM:** Agentic AI in cybersecurity market estimated at $22.56B in 2024, projected to $322.39B by 2033 at 34.4% CAGR (Grand View Research via search snippet). Broader agentic AI market grew from $5.25B (2024) to $7.84B (2025), projected $52.62B by 2030 (aifundingtracker.com via search snippet). No SAM data found for the agent-authorization sub-segment specifically.
-
-**GTM / Distribution:** [Inferred]: Open-source repo (86 stars, github.com/clawvisor/clawvisor) + Discord community + direct dev outreach as top-of-funnel; sales@clawvisor.com indicates direct enterprise sales motion. A "Clawvisor" skill is published on Termo with 247 downloads, last updated 2026-03-16 (termo.ai/skills/clawvisor via search snippet), and "Official Clawvisor plugins for Claude Code" repo exists (github.com/clawvisor/cowork-plugins).
+- **Problem:** AI agents being given access to apps like Gmail, Slack, and Google Drive can "go rogue" or expose user credentials, and currently require direct credential or OAuth token handoff to the agent itself (YC page; clawvisor.com).
+- **Approach:** API gateway that vaults credentials so the agent never sees them, performs purpose-based verification on every request, scores anomalous parameters, detects injection attacks, and routes approvals via Telegram/dashboard before execution (clawvisor.com, May 2026).
+- **Differentiation:** Versus Arcade.dev and Composio (tool/integration layers with built-in auth) — Clawvisor positions as a separate "authorization gateway" enforcing per-request purpose checks; versus Permit.io/Oso (general policy engines) — ships pre-built adapters for 14+ end-user SaaS apps (Gmail, GitHub, Slack, Notion, Linear, Stripe) (clawvisor.com).
+- **Business Model:** Free trial, no credit card required; no public tier pricing on site (clawvisor.com, May 2026). [Inferred]: usage- or seat-based SaaS gateway pricing, given the per-request enforcement model.
+- **TAM/SAM:** No public TAM/SAM data found for this specific segment.
+- **GTM / Distribution:** Open-source core repo on GitHub (202 stars, github.com/clawvisor) plus direct sales via sales@clawvisor.com (clawvisor.com). [Inferred]: developer-led / OSS-to-paid motion, given Go codebase and public repo.
 
 ## Defensibility
 
-- **Code/early traction:** Public Go repo at 86 stars / 11 forks (github.com/clawvisor/clawvisor, last updated May 6 2026).
-- **Adapter breadth:** 14+ shipped integrations (clawvisor.com).
-- **Founder network:** Solo founder is a YC alum (Berbix S18) and former YC Visiting Group Partner (ycombinator.com/people/eric-levine).
-
-**Market structure:** [Inferred]: No structural barrier identified at this stage. Auth0 (Okta), WorkOS, and HashiCorp Vault are all shipping AI-agent auth/credential products (auth0.com/ai; workos.com/blog; developer.hashicorp.com); their distribution and identity-graph data are competitive advantages. Clawvisor's potential structural lever is purpose-based per-call enforcement at the gateway layer — but this is an architecture choice, not a regulatory/data moat.
-
-**Commoditization risk:** Adapter integrations are replicable; Composio (500+) and Nango (700+) already have larger libraries (composio.dev; nango.dev). [Inferred]: Defensibility, if any, would derive from policy/audit data (proprietary risk-scoring corpus) accumulated over time — not present today.
+- **Moat today:** 14+ pre-built service adapters and an open-source core with 202 GitHub stars (github.com/clawvisor, May 2026); founder is ex-YC Visiting Group Partner and prior YC founder (Berbix S18, acquired by Socure for $70M, 2023) (LinkedIn; Crunchbase).
+- **Future moat:** [Inferred]: switching costs from accumulated per-customer purpose/approval policies and audit logs, plus a growing adapter library; unproven because the customer base and policy depth are not publicly disclosed.
+- **Market structure:** [Inferred]: identity/OAuth incumbents (Okta, Auth0) target human SSO and lack per-request, purpose-scoped enforcement for agent traffic; rebuilding would require a new gateway product line rather than a feature extension.
+- **Commoditization risk:** Adjacent funded players (Arcade.dev $12M seed, Composio $29M total, Permit.io $14M total) ship overlapping agent-auth functionality and could extend into purpose-based enforcement (BusinessWire, Mar 2025; SiliconANGLE, Jul 2025; Crunchbase).
 
 ## Market & Traction
 
-**Traction signals:**
-- GitHub: clawvisor/clawvisor 86 stars, 11 forks, Go (github.com, May 6 2026); 4 public repos in org.
-- Termo skill: 247 downloads, updated 2026-03-16 (termo.ai via search snippet).
-- Twitter/X: @clawvisor account exists (x.com/clawvisor); follower count not retrievable (WebFetch HTTP 402).
-- Discord community linked from clawvisor.com; member count not retrievable.
-- LinkedIn company page: not retrievable in search results — no public data found on follower count.
-- Product Hunt: no public data found for a "Clawvisor" launch.
-- Press / funding announcement: no public data found beyond YC directory listing.
-- Revenue, paying customers, customer logos: none disclosed (clawvisor.com).
-- Job postings: hiring=false per company_data; no postings on YC jobs page found.
-
-**Competitive landscape:**
-- **Arcade.dev** — $12M seed Mar 2025, led by Laude Ventures (BusinessWire, Mar 18 2025); revenue unknown. Differentiator: positions as MCP runtime with task-time authorization, Linux Foundation Agentic AI Foundation Gold member (BusinessWire, Dec 9 2025).
-- **Composio** — $25M Series A Jul 2025 led by Lightspeed, $29M total (PRNewswire, Jul 22 2025; composio.dev/blog/series-a); revenue unknown. Differentiator: 500+ integrations and a reinforcement-learning "skills" layer (composio.dev).
-- **Nango** — $7.5M seed led by Gradient (nango.dev/blog), prior $2M seed (W23 batch, ycombinator.com/companies/nango); revenue unknown. Differentiator: 700+ APIs, open-source unified API + OAuth (nango.dev).
-- **Anon** — $6.5M seed Apr 2024 led by Union Square Ventures and Abstract Ventures (TechCrunch, Apr 24 2024; finsmes.com); revenue unknown. Differentiator: SDK-based automated authentication layer for AI agents.
-- **Auth0 / WorkOS / HashiCorp Vault** — incumbents shipping agent-specific auth (Auth0 Token Vault for AI Agents, auth0.com/ai; WorkOS FGA, workos.com/blog; HashiCorp Vault dynamic secrets, developer.hashicorp.com). Funding: parent companies are mature/public.
-
-**Why now:** [Inferred]: The 2024–2026 surge in production AI agent deployments (Composio raise Jul 2025; Arcade raise Mar 2025; Auth0 launching agent-specific Token Vault) reflects MCP standardization and growing tool-use reliability in frontier LLMs (Claude, GPT-5 era). McKinsey and Insight Partners both published 2025–2026 pieces flagging agentic-AI security as a new budget category (mckinsey.com "Securing the agentic enterprise"; insightpartners.com/ideas/securing-agentic-ai). Surveys cite that "existing identity and authorization frameworks [are] not built for autonomous, agentic systems" (CSA, cloudsecurityalliance.org via search snippet).
+- **Traction signals:**
+  - GitHub: 202 stars, 27 forks on `clawvisor/clawvisor` (github.com/clawvisor, May 2026); website previously cited 186 stars (clawvisor.com).
+  - 14+ service adapters live (clawvisor.com, May 2026).
+  - Twitter/X: @clawvisor account exists (YC page); follower count not retrievable.
+  - Founder Twitter @ericlevine: 419 followers (X.com via search, May 2026).
+  - No public revenue, customer count, press coverage, or Product Hunt launch found.
+- **Competitors:**
+  - Arcade.dev ($12M seed, Mar 2025, led by Laude Ventures; revenue unknown): hundreds of pre-built agent tools across Gmail/Slack/GitHub/Salesforce; positions as agent action layer rather than separate authorization gateway (BusinessWire, Mar 2025).
+  - Composio ($29M total, $25M Series A led by Lightspeed, Jul 2025; $1M+ ARR, 200+ paying customers, 100K developers): 500+ integrations exposed as agent actions; broader integration scope (SiliconANGLE, Jul 2025).
+  - Permit.io ($14M total, $8M Series A led by Scale Venture Partners, Feb 2024; revenue unknown): policy-based fine-grained authorization built on OPA/OPAL; general-purpose vs. Clawvisor's agent-specific app adapters (BusinessWire, Feb 2024; Crunchbase).
+  - Oso (revenue/raise not retrieved in this research): developer-friendly authorization platform, microservices-first; general authz vs. agent-specific (osohq.com).
+  - Nango (revenue/raise not retrieved): open-source integration/credential vault, self-hosted option; lacks purpose-based per-request enforcement layer (Composio comparison, 2026).
+- **Why now:** [Inferred]: 2024–2026 deployment of AI agents with write-access to Gmail/Slack/Drive (e.g., Composio's 100K developers, Jul 2025; Arcade.dev's $12M seed thesis, Mar 2025) created acute demand for credential isolation and per-request scoping that existing IAM/OAuth stacks do not provide.
 
 ## Founders & Team
 
-**Eric Levine** — Solo Founder
-- BS Computer Science, UC San Diego (linkedin.com/in/levineericj via search snippet).
-- Software Engineer, Google (2010–2012); Software Engineer / Engineering Manager, Trust & Safety at Airbnb (2012–2017) (search snippets, theorg.com, linkedin.com/in/levineericj).
-- Co-Founder & CEO, Berbix (YC S18); Berbix acquired by Socure for ~$70M in June 2023 (BusinessWire, Jun 27 2023; bankinfosecurity.com).
-- Post-acquisition: SVP and Head of DocV at Socure (BusinessWire, Jun 2023).
-- Visiting Group Partner at Y Combinator (ycombinator.com/people/eric-levine).
-- Twitter/X: @ericlevine (x.com/ericlevine); follower count not retrievable.
-- LinkedIn: linkedin.com/in/levineericj — headline "Previously Co-Founder & CEO at Berbix (acq'd by Socure)"; connection count not retrievable.
-- GitHub: github.com/ericlevine — 70 followers, repos include dubiosity (JS), attic (Go), berbix-android-prealpha (Java), bash-git-prompt (Shell); individual repo star counts not retrievable in search snippets.
-- Clawvisor org: github.com/clawvisor — main `clawvisor` Go repo at 86 stars, 11 forks (May 6 2026).
-
-**Co-founder relationship:** Solo founder; not applicable.
-
-**Founder-market fit:** Levine's Airbnb tenure was specifically on Trust & Safety engineering (search snippets), and Berbix's product was identity-document verification with a forensics engine for spoofed/AI-generated IDs (BusinessWire, Jun 27 2023) — both adjacent to the credential-handling and abuse-detection problems Clawvisor targets. Berbix-to-Socure $70M exit demonstrates one prior outcome at YC scale (BusinessWire). YC Visiting Group Partner role (ycombinator.com/people/eric-levine) gives Garry Tan — listed as the company's Group Partner (ycombinator.com/companies/clawvisor) — direct prior context on the founder.
-
-No public data found on advisors, board members, or named investors beyond the standard YC deal.
+- **Eric Levine (Founder, sole founder):**
+  - Background: BS Computer Science, UC San Diego; Software Engineer at Google 2010–2012; Engineering Manager, Trust & Safety at Airbnb 2012–2017; Co-founder/CEO of Berbix (YC S18), acquired by Socure in June 2023 for $70M; Visiting Group Partner at Y Combinator (LinkedIn; Crunchbase; YC).
+  - Twitter/X: @ericlevine — 419 followers (X.com via search, May 2026).
+  - LinkedIn: "Clawvisor" (linkedin.com/in/levineericj).
+  - GitHub: @ericlevine exists (github.com/ericlevine); top repo / star count not retrieved in this research.
+- **Co-founder relationship:** Solo founder; no co-founders listed on YC page.
+- **Founder-market fit:** Levine led Trust & Safety engineering at Airbnb (2012–2017) and built Berbix, an identity verification company acquired by Socure for $70M (2023), giving direct identity/security domain background relevant to AI agent authorization (LinkedIn; Crunchbase). No public advisors or external investors beyond YC standard deal disclosed.
 
 ## Key Risks
 
-**Well-funded direct competitors with larger feature surfaces:** Composio ($29M total, 500+ integrations, composio.dev) and Nango ($7.5M+, 700+ APIs, nango.dev) ship broader catalogs; Arcade ($12M seed, BusinessWire Mar 2025) is the closest positioning twin marketing "secure auth for AI agents." Clawvisor's 14+ adapters trail materially.
-
-**Incumbent platform encroachment:** Auth0 launched Token Vault for AI Agents (auth0.com/ai), WorkOS launched FGA for agents (workos.com/blog), HashiCorp Vault published an agent-identity validated pattern (developer.hashicorp.com). These vendors have existing identity-platform distribution into the same enterprise buyer.
-
-**Solo-founder execution bandwidth:** Team size is 1 (ycombinator.com/companies/clawvisor); hiring=false per company_data. Building gateway adapters across 14+ APIs while maintaining policy/audit infrastructure against multi-engineer competitors is execution-heavy. [Inferred]: This is calibration-relevant only insofar as competitors are 10–50+ headcount, not as a baseline pre-seed concern.
-
-**Standardization risk from MCP:** Anthropic's Model Context Protocol is gaining adoption (Arcade authored "Core MCP Capability," BusinessWire Nov 25 2025). [Inferred]: If MCP runtimes standardize an authorization spec, custom gateway approaches may be commoditized into protocol-level features.
+- **Well-funded direct competition:** Arcade.dev ($12M seed, Mar 2025) and Composio ($29M total, $1M+ ARR, 200+ paying customers, Jul 2025) are shipping overlapping agent-auth/integration features with materially larger teams and capital (BusinessWire; SiliconANGLE); no public mitigation found.
+- **Solo founder execution risk:** Team size of 1 (YC page) against multi-engineer competitors with 25+ headcount (Composio headcount via SiliconANGLE, Jul 2025); mitigation is founder's prior exit and YC partner experience (LinkedIn).
+- **Category overlap with general authz platforms:** Permit.io ($14M raised, Crunchbase) and Oso position as general-purpose policy engines and could extend to AI-agent purpose-based enforcement, eroding Clawvisor's differentiation.
+- **Distribution dependence on third-party SaaS APIs:** Product value depends on adapter coverage for Gmail, Slack, Google Drive, Stripe, etc. (clawvisor.com); upstream API/policy changes from those providers (e.g., native agent-permission features) could displace gateway middleware.
+- **Unproven enforcement layer:** Purpose-based verification and injection-attack scoring are advertised on clawvisor.com but no public benchmarks, third-party audits, or customer deployments are disclosed.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Agentic AI in cybersecurity: $22.56B (2024) → $322.39B (2033) at 34.4% CAGR (Grand View Research, 2024 via search snippet); broader agentic AI: $5.25B (2024) → $52.62B (2030) (aifundingtracker.com via search snippet) |
+| TAM | No public data found |
 | SAM | No public data found |
-| Traction | GitHub clawvisor/clawvisor 86 stars, 11 forks (github.com, May 6 2026); 4 public repos in org; Termo skill 247 downloads (termo.ai via search snippet, Mar 16 2026); 14+ shipped service adapters (clawvisor.com); Twitter @clawvisor exists, count not retrievable |
-| Revenue Signal | No public data found (no pricing page disclosed; free trial, no credit card per clawvisor.com) |
-| Founders | Eric Levine (Solo Founder): Co-founder/CEO Berbix YC S18, acq. by Socure ~$70M Jun 2023 (BusinessWire); ex-Airbnb Trust & Safety eng/EM 2012–2017; ex-Google SWE 2010–2012; YC Visiting Group Partner (ycombinator.com/people/eric-levine) |
-| Competitors | Arcade.dev ($12M seed Mar 2025, BusinessWire; revenue unknown; MCP runtime/task-time authz), Composio ($29M total incl. $25M Series A Jul 2025 Lightspeed, PRNewswire; revenue unknown; 500+ integrations + skills RL), Nango ($7.5M seed Gradient + $2M prior YC W23, nango.dev/ycombinator.com; revenue unknown; 700+ APIs OSS), Anon ($6.5M seed Apr 2024 USV/Abstract, TechCrunch; revenue unknown; SDK auth layer), Auth0 Token Vault for AI Agents (auth0.com/ai; incumbent), WorkOS FGA (workos.com/blog; incumbent) |
-| Moat Signals | No public data found (open-source core github.com/clawvisor/clawvisor 86 stars; no proprietary data, patents, or named enterprise customers disclosed) |
-| Risk Factors | Well-funded direct competitors (Composio $29M, Arcade $12M), incumbent encroachment (Auth0/WorkOS/HashiCorp), solo-founder bandwidth |
-| Founder Reach | Eric Levine: Twitter @ericlevine count not retrievable (x.com/ericlevine); LinkedIn linkedin.com/in/levineericj count not retrievable; GitHub github.com/ericlevine 70 followers, individual repo stars not retrievable |
-| Distribution Signals | GitHub OSS repo 86 stars (github.com/clawvisor/clawvisor, May 6 2026); Termo skill 247 downloads (termo.ai via search snippet, Mar 16 2026); Discord linked (clawvisor.com); Claude Code plugins repo published (github.com/clawvisor/cowork-plugins) |
-| Emails | sales@clawvisor.com (clawvisor.com) |
+| Traction | 202 GitHub stars, 27 forks (github.com/clawvisor, May 2026); 14+ service adapters live (clawvisor.com, May 2026); @ericlevine 419 X followers (X.com, May 2026) |
+| Revenue Signal | Free trial, no credit card required; no public pricing tiers (clawvisor.com, May 2026) |
+| Founders | Eric Levine (Founder): Co-founder/CEO Berbix (YC S18, acq. Socure $70M, 2023); Airbnb Trust & Safety Eng Mgr; ex-Google; YC Visiting Group Partner |
+| Competitors | Arcade.dev ($12M seed Mar 2025, revenue unknown, agent tool layer); Composio ($29M raised, $1M+ ARR, broader integration platform); Permit.io ($14M raised, revenue unknown, general policy engine); Oso (raise/revenue unknown, general authz); Nango (raise/revenue unknown, OSS integration/credential vault) |
+| Moat Signals | 202-star OSS repo (github.com/clawvisor); 14+ adapter library (clawvisor.com); founder prior $70M exit (Berbix → Socure, 2023, Crunchbase) |
+| Risk Factors | Well-funded direct competitors (Arcade.dev, Composio); solo founder vs. larger teams; commoditization by general authz platforms |
+| Founder Reach | Eric Levine: Twitter 419 (X.com); LinkedIn linkedin.com/in/levineericj; GitHub @ericlevine, stars not retrieved |
+| Distribution Signals | OSS repo 202 stars (github.com/clawvisor, May 2026); no Product Hunt launch found; no press coverage found |
+| Emails | sales@clawvisor.com |
+
+Sources:
+- [Clawvisor – YC Company Page](https://www.ycombinator.com/companies/clawvisor)
+- [Clawvisor website](https://clawvisor.com)
+- [Clawvisor GitHub org](https://github.com/clawvisor)
+- [Eric Levine – LinkedIn](https://www.linkedin.com/in/levineericj)
+- [Eric Levine – Crunchbase](https://www.crunchbase.com/person/eric-levine-766e)
+- [Berbix – YC](https://www.ycombinator.com/companies/berbix)
+- [Arcade.dev $12M seed – BusinessWire](https://www.businesswire.com/news/home/20250318815130/en/Arcade.dev-Scores-$12M-to-Solve-the-Biggest-Security-Problem-with-AI-Agents)
+- [Composio $25M Series A – SiliconANGLE](https://siliconangle.com/2025/07/22/composio-raises-25m-funding-ease-ai-agent-development/)
+- [Permit.io $8M Series A – BusinessWire](https://www.businesswire.com/news/home/20240213359627/en/Permit.io-Raises-$8-Million-to-Free-Engineers-to-Write-Code-Not-Policies)
+- [Permit.io – Crunchbase](https://www.crunchbase.com/organization/permit-io)
+- [Eric Levine – X](https://x.com/ericlevine)

@@ -1,0 +1,51 @@
+{
+  "slug": "allowance",
+  "name": "Allowance",
+  "oneLiner": "Scoped payment credentials for AI agents",
+  "metadata": {
+    "website": "https://useallowance.com/",
+    "yc_page": "https://www.ycombinator.com/companies/allowance",
+    "batch": "Spring 2026",
+    "industry": "Fintech / Fintech -> Payments",
+    "team_size": "1",
+    "location": "San Francisco, CA, USA",
+    "tags": "Fintech, Generative AI, Payments",
+    "yc_partner": "Harj Taggar",
+    "emails": "hello@useallowance.com, dasmersingh@gmail.com (founder personal, dasmer.com)"
+  },
+  "tags": [
+    "Fintech",
+    "Generative AI",
+    "Payments"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-28T02:47:03.380Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 60,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 52,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 60,
+    "EG": 52,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
+  },
+  "consolidatedAvg": 56,
+  "consolidatedRank": 22,
+  "paths": {
+    "memo": "spring2026/memos/allowance.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/allowance.md",
+      "elad-gil": "spring2026/evals/elad-gil/allowance.md"
+    }
+  }
+}

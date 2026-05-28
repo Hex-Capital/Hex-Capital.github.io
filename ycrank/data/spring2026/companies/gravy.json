@@ -1,0 +1,47 @@
+{
+  "slug": "gravy",
+  "name": "Gravy",
+  "oneLiner": "AI Agent for your personal finances.",
+  "metadata": {
+    "website": "https://gravy.finance",
+    "yc_page": "https://www.ycombinator.com/companies/gravy",
+    "batch": "Spring 2026",
+    "industry": "Fintech / Fintech -> Consumer Finance",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Fintech, Consumer, Consumer Finance",
+    "yc_partner": "Andrew Miklas",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Fintech",
+    "Consumer",
+    "Consumer Finance"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-28T02:37:02.681Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 37,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 37,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
+  },
+  "consolidatedAvg": 37,
+  "consolidatedRank": 153,
+  "paths": {
+    "memo": "spring2026/memos/gravy.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/gravy.md"
+    }
+  }
+}

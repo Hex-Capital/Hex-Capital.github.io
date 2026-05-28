@@ -6,102 +6,96 @@
 |-------|-------|
 | Website | https://flowscope.com |
 | YC Page | https://www.ycombinator.com/companies/flowscope |
-| Batch | Spring 2026 (YC page) |
+| Batch | Spring 2026 |
 | Industry | B2B / B2B |
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
 | Tags | Artificial Intelligence, B2B, Enterprise Software |
-| YC Partner | David Lieb (YC page) |
+| YC Partner | David Lieb |
 | Emails | No public data found |
 
 ## The Idea
 
-**Problem:** Mid-market and enterprise companies have manual finance, admin, and ops processes that stall on handoffs and pure repetition (YC page). Traditional consulting (e.g., McKinsey, Bain) maps these processes over months and delivers recommendations rather than shipped automation. [Inferred]: Customers today rely on a mix of human consultants, RPA tools (UiPath), or in-house ops teams to address the same pain.
-
-**Approach:** Per the company website, AI agents "shadow employees for two weeks" to document processes, then automate repetitive tasks on the customer's existing systems, with ongoing maintenance afterward (flowscope.com). Stated cycle time is "days, not months" (flowscope.com, YC page). Target buyers are CFOs or COOs at mid-market or enterprise companies with manual finance, admin or ops processes (YC page via search snippet).
-
-**Differentiation:** Versus pure process-mining platforms (Celonis, KYP.ai), flowscope bundles the consulting/diagnosis step with the build/ship step. Versus traditional consulting (McKinsey QuantumBlack, BCG), the deliverable is shipped automation on customer systems rather than a recommendation deck. [Inferred]: Versus horizontal RPA (UiPath, Microsoft Power Automate), flowscope is positioned as a done-for-you service rather than a tool the customer must staff.
-
-**Business Model:** No pricing page is published on flowscope.com (WebFetch, May 2026). [Inferred]: Most likely monetization is a fixed-fee or retainer consulting engagement per process automated, plus an ongoing maintenance fee, based on the website's three-phase framing (shadow → automate → maintain). No revenue figures, customer counts, or job postings disclosing comp/ARR were located in public search.
-
-**TAM/SAM:** No public TAM/SAM data found specific to "AI-native consulting." Adjacent market reference: process mining platform market and agentic process intelligence is a converging category with Celonis, UiPath, ServiceNow, SAP Signavio, IBM Process Mining as named players (Constellation Research, 2026 via search snippet; G2, 2026 via search snippet). KYP.ai claims "$2.5M–$3M in annual savings per customer" as a customer-outcome figure (KYP.ai site, 2026 via search snippet) — not flowscope's metric.
-
-**GTM / Distribution:** [Inferred]: Founder-led outbound sales to CFOs/COOs at mid-market/enterprise accounts, leveraging Samuel Mirpuri's McKinsey QuantumBlack network and Javier Leguina's Model ML (YC W24) network in financial services. No public case studies, customer logos, or partnership announcements on flowscope.com (WebFetch, May 2026).
+- **Problem:** Mid-market and enterprise CFOs/COOs run manual finance, admin, and ops processes whose true workflow is undocumented and ridden with repetition, currently addressed through traditional consultancies or RPA implementations (YC company page; flowscope.com).
+- **Approach:** Agents shadow employees for ~2 weeks to map who touches what, where work stalls, and what is repetitive, then redesign and ship automations into production on existing systems (flowscope.com).
+- **Differentiation:** Versus McKinsey/Accenture-style consulting it ships working software not decks; versus pure-play RPA (UiPath/Automation Anywhere) it claims AI-native discovery and "days not months" deployment (flowscope.com; YC page).
+- **Business Model:** No pricing disclosed on flowscope.com; [Inferred]: project-based consulting fees plus an automation-deployment/maintenance retainer, consistent with the "AI-native consulting" framing on the YC page.
+- **TAM/SAM:** Adjacent RPA market estimated at USD 35.27B in 2026 growing 24.2% CAGR to USD 247.34B by 2035 (Precedence Research via GlobeNewswire, Dec 2025); AI-in-RPA segment USD 5.6B in 2026, 17% CAGR (The Business Research Company, 2026).
+- **GTM / Distribution:** [Inferred]: founder-led direct sales to CFOs, COOs, and PE operating partners as named on YC listing, leveraging McKinsey/QuantumBlack network of co-founder Mirpuri.
 
 ## Defensibility
 
-No defensibility signals (patents, proprietary data set, network effects, exclusivity deals) found in public sources as of May 2026. The website lists a trust portal at trust.flowscope.com (WebFetch) — [Inferred]: SOC 2 / security posture to clear enterprise procurement, not a moat per se.
-
-[Inferred]: Potential moat could develop via (a) a proprietary library of pre-built process automations across recurring finance/ops workflows, (b) accumulated playbooks of shadow-to-ship engagements, and (c) integration depth into common back-office stacks (NetSuite, SAP, Workday). None are demonstrated publicly today.
-
-**Market structure:** No structural barrier identified at this stage. The "AI-native consulting" wedge is delivery-model arbitrage rather than a structurally defensible position. [Inferred]: Big-four consultancies (McKinsey, Deloitte, Accenture) face partial channel conflict — billable-hour cannibalization — when shipping automation that compresses engagement length, which may slow their pursuit of the same model, but does not prevent it.
-
-**Commoditization risk:** [Inferred]: Other YC-backed agent-consulting firms, boutique automation shops, and platform vendors (Celonis AgentC launched 2024 per Celonis materials via search snippet; ServiceNow Zurich release with embedded agentic AI per Constellation Research via search snippet) can replicate the agent-shadowing + auto-build approach. Foundation-model commoditization means any team with mid-tier engineers can stand up a comparable offering.
+- **Moat today:** No defensibility signals found in public sources beyond the process-mapping data captured during 2-week shadowing engagements (flowscope.com).
+- **Future moat:** [Inferred]: a proprietary library of mapped process templates and reusable agent components across customers could lower marginal cost per deployment; unproven now given 2-person team and Spring 2026 batch with no disclosed customers.
+- **Market structure:** [Inferred]: Big-4/MBB consultancies face margin cannibalization if they replace billable hours with automation software, creating a partial structural disincentive; pure RPA incumbents (UiPath, Automation Anywhere) have shifted to platform sales rather than services-led delivery.
+- **Commoditization risk:** GenAI-powered process mining and agent-builder tooling is widely available (Adept, Cresta, 11x.ai, Sierra), and an AI consulting offering can be replicated by any boutique or systems integrator; the moat depends on execution speed and trust with operating-executive buyers (search snippet, multiple competitor pages).
 
 ## Market & Traction
 
-**Traction signals (company's own):**
-- Founded 2025 (YC page).
-- YC Spring 2026 batch (YC page).
-- Team size: 2 (YC page).
-- No customer logos, revenue, user counts, press coverage, Product Hunt launch, Discord/Slack community, app store data, or web traffic data located via WebSearch as of May 2026.
-- Company Twitter/X and LinkedIn company-page follower counts: not retrievable via search; no flowscope-branded handles surfaced in WebSearch results.
-- Active job postings on YC: none surfaced (YC company status field: "Hiring: False").
-- Website lists trust portal subdomain trust.flowscope.com (WebFetch).
-
-**Competitive landscape:**
-1. **Celonis** — Process intelligence platform; launched AgentC suite in 2024 to embed agentic AI on top of process mining (Constellation Research, 2026 via search snippet). Funding: prior public reporting put Celonis at ~$13B valuation, >$1B raised; revenue/ARR not retrieved in this research pass — "revenue unknown" from current searches. Differentiator vs. flowscope: platform/software product sold to customers' own teams, not a done-for-you consulting delivery.
-2. **UiPath (Agentic Automation)** — Public company; named the top Celonis alternative (G2, 2026 via search snippet). Public 10-Q level financials not pulled in this research. Differentiator: horizontal RPA platform with broad partner ecosystem; customer must staff implementation.
-3. **KYP.ai** — "Agentic Process Intelligence" platform; claims $2.5M–$3M customer annual savings with 90-day ROI (KYP.ai site, 2026 via search snippet). Funding not retrieved. Differentiator: positions as the dedicated agentic process intelligence platform.
-4. **ServiceNow** — Public; acquired UltimateSuite (late 2023) to build native process/task mining; Zurich release embeds agentic AI with process automation (Constellation Research, 2026 via search snippet). Differentiator: distribution via existing enterprise ITSM footprint.
-5. **McKinsey QuantumBlack / Big-four consulting AI practices** — Incumbent service providers running manual AI/process engagements (McKinsey website via search snippet). Differentiator: senior partner relationships, multi-year contracts; slower delivery; bills hours rather than shipping software.
-
-**Why now:** [Inferred]: Frontier LLMs crossed a threshold in 2024–2025 enabling agents to perform multi-step office work reliably enough to be sold as a service. Concurrently, Celonis AgentC (2024) and ServiceNow's Zurich release (2026, per Constellation Research via search snippet) validate enterprise demand for agentic process automation. [Inferred]: The convergence of process mining + agents into a single market (Constellation Research, 2026 via search snippet) creates the wedge flowscope is targeting.
+- **Traction signals:**
+  - No revenue, customer, or user numbers publicly disclosed (flowscope.com; YC page).
+  - Company founded 2025; YC Spring 2026 batch (YC page).
+  - No Product Hunt launch found for "flowscope" in 2026 (Product Hunt search, May 2026).
+  - LinkedIn: Javier Leguina lists "flowscope (YC P26)" headline (LinkedIn search result, 2026); company LinkedIn page follower count not retrievable.
+  - No press coverage, Twitter/X presence, or Discord/Slack community located in public sources.
+  - YC page lists Hiring: False — no job postings found.
+- **Competitors:**
+  - Adept AI ($415M raised across Series A/B, revenue unknown; Amazon acqui-hired top talent June 2024 and returned ~$25M to Adept — Semafor, Aug 2024): broader general-purpose software agent platform vs. flowscope's vertical "consulting + delivery" model.
+  - 11x.ai ($76M raised across pre-seed/A/B, revenue unknown publicly; Series B led by a16z Nov 2024 — TechCrunch): SaaS AI SDR/digital workers vs. flowscope's bespoke ops-process automation.
+  - Cresta ($276M raised, $52M ARR, $1.6B valuation — Getlatka 2025; Series D $125M led by WiL/QIA Nov 2024 — Cresta press release): contact-center-specific real-time agent AI vs. flowscope's general finance/admin/ops processes.
+  - UiPath (public, NYSE: PATH, revenue unknown in this search): incumbent RPA platform sold as licensed software vs. flowscope's consulting-led delivery.
+  - [Inferred]: closest direct competitive set (AI-native consulting boutiques such as Distyl AI, Crew AI services arms) is small because the category fuses services and software in a way pure RPA and pure agent platforms do not.
+- **Why now:** [Inferred]: LLM-driven agent reliability crossed a usable threshold in 2024–2025 (GPT-4-class function calling, computer-use models), enabling end-to-end task execution on existing enterprise systems without bespoke RPA scripting — referenced as the driver of AI-in-RPA growth (The Business Research Company, 2026).
 
 ## Founders & Team
 
-**Javier Leguina** — Co-founder
-- Background: 2x founder; founding engineer at Model ML (YC W24); previously ML Engineer at Encord (YC W21) (WebSearch synthesis from LinkedIn snippets).
-- Education: MSc Machine Learning, UCL; Aeronautical Engineering, Imperial College London (YC page via WebFetch).
-- LinkedIn: uk.linkedin.com/in/jleguina0 — headline "Stealth Startup" per search snippet; connection/follower count not retrievable via WebSearch.
-- Twitter/X: @JavierLegG (twitter.com/javierlegg per search result); follower count not retrievable.
-- GitHub: github.com/jleguina — 8 repositories per search snippet; star counts not retrievable in this research pass. Search snippet references ML work on Segment Anything Model (SAM).
-
-**Samuel Mirpuri** — Co-founder
-- Background: Previously at QuantumBlack (McKinsey's AI division); prior experience as a Platoon Commander in the Singapore Armed Forces; described as Satellite Engineer in one search snippet (WebSearch synthesis).
-- Education: MBA, Harvard Business School; degrees from MIT and Imperial College London (YC page via WebFetch).
-- LinkedIn: profile referenced in WebSearch (linkedin.com/pub/dir/Samuel/Mirpuri search disambiguation result); direct URL and follower count not retrievable.
-- Twitter/X: No public account found.
-- GitHub: No public repos found.
-
-**Co-founder relationship:** Both founders attended Imperial College London (YC page via WebFetch) — indicating a likely prior acquaintance vector. No other publicly visible shared employer.
-
-**Founder-market fit:** [Inferred]: The pairing maps directly to the offering — Leguina brings shipped-AI engineering experience from Model ML (a financial-services-focused AI YC company) and Encord (data infrastructure for ML), and Mirpuri brings consulting delivery experience from McKinsey QuantumBlack plus an HBS MBA. The combination of "ex-McKinsey consultant + ex-AI-startup engineer" matches the "AI replaces the consultant" wedge described on the YC page. No advisors, board members, or named investors beyond Y Combinator surfaced in public search.
+- **Javier Leguina (Co-founder):**
+  - Background: MSc Machine Learning, UCL; Aeronautical Engineering, Imperial College; Founding Engineer at Model ML (YC W24); previously ML Engineer at Encord (YC W21) (LinkedIn search snippet, 2026).
+  - Twitter/X: No public account found.
+  - LinkedIn: "flowscope (YC P26)" (linkedin.com/in/jleguina0).
+  - GitHub: @jleguina, 8 public repositories; no notable star counts surfaced in search (github.com/jleguina).
+- **Samuel Mirpuri (Co-founder):**
+  - Background: Harvard MBA; MIT; Imperial College; prior roles at QuantumBlack (AI by McKinsey), satellite engineer, Platoon Commander in Singapore Armed Forces (search snippet, 2026 — not directly verifiable from LinkedIn public search).
+  - Twitter/X: No public account found.
+  - LinkedIn: No public profile retrievable from search (LinkedIn directory shows multiple "Samuel Mirpuri" entries without flowscope linkage).
+  - GitHub: No public repos found.
+- **Co-founder relationship:** No public data on co-founder history; both based in San Francisco for YC Spring 2026 batch (YC page).
+- **Founder-market fit:** [Inferred]: Mirpuri's QuantumBlack/McKinsey background maps to the enterprise-consulting buyer (CFO/COO/PE operating partners listed on YC page) while Leguina's Model ML and Encord engineering background covers agent/ML delivery; no advisors or investors beyond YC disclosed publicly.
 
 ## Key Risks
 
-**Channel conflict and big-four counter-move:** [Inferred]: McKinsey QuantumBlack, Deloitte, Accenture have established CFO/COO relationships at the target buyer profile (YC page) and are spinning up agentic-AI delivery practices. They can match the technical offering by acquiring or building agent tooling while leveraging existing master service agreements. flowscope must win deals before incumbents bundle equivalents into existing engagements.
-
-**Platform-vendor substitution:** Celonis launched AgentC in 2024 and ServiceNow's Zurich release embeds agentic AI process automation (Constellation Research, 2026 via search snippet). If platform vendors deliver "good-enough" agent-driven process redesign as a product feature, the standalone consulting wedge compresses.
-
-**Services-business unit economics:** [Inferred]: The "shadow employees for two weeks" then ship model (flowscope.com) is human-time intensive at the discovery phase. Margin expansion requires productizing the shadowing step. Until then, the company faces classic services-business scalability constraints (linear revenue-per-headcount), regardless of AI in delivery.
-
-**Customer trust / data access for shadowing:** [Inferred]: Letting agents observe employee workflows requires deep system access (email, ERP, ticketing). Procurement, security, and works-council/GDPR review cycles in target geographies can extend sales cycles materially. trust.flowscope.com exists (WebFetch) but no published certifications.
-
-**Concentration of execution on 2 founders:** Team size of 2 (YC page) with `Hiring: False` (company_data). Delivery-heavy model requires future hires; current hiring posture is not signaling rapid scale-up.
+- **Services-revenue scalability:** "AI-native consulting" model couples revenue to engagement throughput of a 2-person team; without a productized layer, gross margins and growth rate may track services-firm economics rather than SaaS (flowscope.com positioning; no productized pricing disclosed).
+- **Direct competition from well-capitalized agent platforms:** Adept ($415M), 11x ($76M), and Cresta ($276M, $52M ARR) are building horizontal/vertical agent platforms that could subsume process-mapping consulting if delivery becomes self-serve (Crunchbase/TechCrunch/Getlatka, 2024–2025).
+- **Incumbent encroachment:** McKinsey/QuantumBlack, Accenture, and Deloitte are explicitly building GenAI delivery practices (QuantumBlack page, mckinsey.com); flowscope's "ship code in days" advantage erodes if Big-4 hybrid teams match cycle time.
+- **Technical feasibility of 2-week shadow-to-production:** No public case studies or customer logos validate that agents reliably map and automate full ops processes within the claimed timeframe (flowscope.com).
+- **Name collision:** "Flowscope" also refers to an unrelated petroleum-engineering research entity at KNUST and a separate "Flowscape" Swedish company (LinkedIn search, 2026), creating brand-search noise.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | No public TAM/SAM data found for "AI-native consulting"; adjacent process-mining/agentic-automation category cited by Constellation Research, 2026 (via search snippet) without size figure retrieved |
-| SAM | No public data found |
-| Traction | No public data found (no revenue, customers, press, Product Hunt, social follower counts retrievable as of May 2026) |
-| Revenue Signal | No public data found (no pricing page on flowscope.com per WebFetch, May 2026) |
-| Founders | Javier Leguina (Co-founder): ex-Model ML (YC W24) founding engineer, ex-Encord ML eng, MSc ML UCL, Imperial College (YC page). Samuel Mirpuri (Co-founder): ex-McKinsey QuantumBlack, Singapore Armed Forces Platoon Commander, Harvard MBA, MIT, Imperial College (YC page) |
-| Competitors | Celonis (>$1B raised historically per general press, revenue unknown from this pass; platform vs. flowscope's done-for-you service); UiPath (public co., financials not pulled here; horizontal RPA platform); KYP.ai (funding unknown, "$2.5M–$3M customer savings" per KYP.ai site via search snippet; agentic process intelligence platform); ServiceNow (public, financials not pulled here; embedded agentic AI via Zurich release per Constellation Research via search snippet); McKinsey QuantumBlack (incumbent consulting practice; bills hours vs. shipping automation) |
-| Moat Signals | No public data found (trust.flowscope.com subdomain exists per WebFetch but no certifications disclosed) |
-| Risk Factors | Big-four channel conflict / counter-move; platform-vendor substitution (Celonis AgentC, ServiceNow Zurich); services unit economics |
-| Founder Reach | Javier Leguina: Twitter @JavierLegG (count not retrievable), LinkedIn /in/jleguina0 (count not retrievable), GitHub jleguina 8 repos (stars not retrievable). Samuel Mirpuri: Twitter no public account found, LinkedIn profile referenced but URL not confirmed, GitHub no public repos found |
-| Distribution Signals | No public data found (no Product Hunt, app store, or press coverage surfaced via WebSearch, May 2026) |
+| TAM | RPA market USD 35.27B in 2026, CAGR 24.2% to USD 247.34B by 2035 (Precedence Research via GlobeNewswire, Dec 2025) |
+| SAM | AI-in-RPA segment USD 5.6B in 2026, CAGR 17% (The Business Research Company, 2026) |
+| Traction | No public data found |
+| Revenue Signal | No public data found (no pricing page on flowscope.com, May 2026) |
+| Founders | Javier Leguina (Co-founder): ex-Founding Engineer Model ML (YC W24), ex-Encord ML Eng, MSc ML UCL, Imperial Aero. Samuel Mirpuri (Co-founder): ex-QuantumBlack/McKinsey, Harvard MBA, MIT, Imperial (LinkedIn/search snippets, 2026) |
+| Competitors | Adept AI ($415M raised, revenue unknown; horizontal agent platform — Crunchbase). 11x.ai ($76M raised, revenue unknown; AI SDR/digital workers — TechCrunch). Cresta ($276M raised, $52M ARR; contact-center agent AI — Getlatka 2025). UiPath (public NYSE:PATH; incumbent RPA platform). |
+| Moat Signals | No public data found |
+| Risk Factors | Services-revenue scalability, well-funded agent-platform competition, Big-4/MBB GenAI encroachment |
+| Founder Reach | Javier Leguina: Twitter not found, LinkedIn headline "flowscope (YC P26)" (count not retrievable), GitHub @jleguina 8 repos (no notable stars). Samuel Mirpuri: Twitter not found, LinkedIn count not retrievable, GitHub not found. |
+| Distribution Signals | No public data found |
 | Emails | No public data found |
+
+Sources:
+- [flowscope · AI agents, delivered.](https://www.flowscope.com/)
+- [flowscope — Y Combinator](https://www.ycombinator.com/companies/flowscope)
+- [Javier Leguina — flowscope (YC P26) | LinkedIn](https://www.linkedin.com/in/jleguina0/)
+- [jleguina · GitHub](https://github.com/jleguina)
+- [Adept AI — Crunchbase](https://www.crunchbase.com/organization/adept-48e7)
+- [Investors in Adept AI will be paid back after Amazon hires startup's top talent — Semafor](https://www.semafor.com/article/08/02/2024/investors-in-adept-ai-will-be-paid-back-after-amazon-hires-startups-top-talent)
+- [11x.ai raises $24M led by Benchmark — TechCrunch](https://techcrunch.com/2024/09/16/ai-digital-employee-startup-11xai-raises-24m-led-by-benchmark/)
+- [11x.ai $50M Series B led by a16z — TechCrunch](https://techcrunch.com/2024/09/30/11x-ai-a-developer-of-ai-sales-reps-has-raised-50m-series-b-led-by-a16z-sources-say/)
+- [Cresta Revenue 2025: $52M ARR, $1.6B Valuation — Getlatka](https://getlatka.com/companies/cresta)
+- [Cresta Closes $125M Series D — Cresta press release](https://cresta.com/press/cresta-closes-125m-series-d-to-accelerate-adoption-of-human-centric-ai-in-the-contact-center)
+- [RPA Market Size 2026–2035 — GlobeNewswire / Precedence Research](https://www.globenewswire.com/news-release/2025/12/16/3206126/0/en/Robotic-Process-Automation-RPA-Market-Size-Expands-from-USD-35-27-Bn-in-2026-to-USD-247-34-Bn-by-2035-Fueled-by-AI-Powered-Automation-and-Digitalization.html)
+- [AI in RPA Market Report 2026 — Research and Markets](https://www.researchandmarkets.com/reports/6225965/ai-in-robotic-process-automation-rpa-market)

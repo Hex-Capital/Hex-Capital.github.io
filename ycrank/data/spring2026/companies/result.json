@@ -1,0 +1,44 @@
+{
+  "slug": "result",
+  "name": "Result",
+  "oneLiner": "Where new internet entrepreneurs build and run their companies",
+  "metadata": {
+    "website": "https://result.dev/",
+    "yc_page": "https://www.ycombinator.com/companies/result",
+    "batch": "Spring 2026",
+    "industry": "Consumer / Consumer",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Consumer",
+    "yc_partner": "Aaron Epstein (YC company page)",
+    "emails": "savio@result.dev (result.dev website)"
+  },
+  "tags": [
+    "Consumer"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-28T02:49:09.307Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 42,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 42,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
+  },
+  "consolidatedAvg": 42,
+  "consolidatedRank": 108,
+  "paths": {
+    "memo": "spring2026/memos/result.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/result.md"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "general-instinct",
+  "name": "General Instinct",
+  "oneLiner": "Deploy AI into any edge device, fully offline, maximum performance.",
+  "metadata": {
+    "website": "https://general-instinct.com/",
+    "yc_page": "https://www.ycombinator.com/companies/general-instinct",
+    "batch": "Spring 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Robotics, Drones, Manufacturing",
+    "yc_partner": "Nicolas Dessaigne",
+    "emails": "founders@general-instinct.com"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Robotics",
+    "Drones",
+    "Manufacturing"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-28T02:46:27.643Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 33,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 33,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
+  },
+  "consolidatedAvg": 33,
+  "consolidatedRank": 170,
+  "paths": {
+    "memo": "spring2026/memos/general-instinct.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/general-instinct.md"
+    }
+  }
+}

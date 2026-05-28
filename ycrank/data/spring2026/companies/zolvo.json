@@ -6,71 +6,36 @@
     "website": "https://zolvo.com/",
     "yc_page": "https://www.ycombinator.com/companies/zolvo",
     "batch": "Spring 2026",
-    "industry": "Fintech / Credit and Lending",
+    "industry": "Fintech / Fintech -> Credit and Lending",
     "team_size": "4",
     "location": "San Francisco, CA, USA",
-    "tags": "Artificial Intelligence, B2B, Lending",
     "yc_partner": "Tom Blomfield",
-    "emails": "No public data found"
+    "emails": "isa@zolvo.com"
   },
-  "tags": [
-    "Artificial Intelligence",
-    "B2B",
-    "Lending"
-  ],
+  "tags": [],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-22T23:47:52.474Z",
+  "memoGeneratedAt": "2026-05-28T02:58:13.708Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 49,
+      "score": 56,
       "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 57,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 54,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 42,
-      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 37,
-    "EG": 49,
-    "NR": 57,
-    "PG": 54,
-    "PT": 36,
-    "SL": 35,
-    "VK": 42
+    "CB": 56,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 44.29,
-  "consolidatedRank": 48,
+  "consolidatedAvg": 56,
+  "consolidatedRank": 26,
   "paths": {
     "memo": "spring2026/memos/zolvo.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/zolvo.md",
-      "elad-gil": "spring2026/evals/elad-gil/zolvo.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/zolvo.md",
-      "paul-graham": "spring2026/evals/paul-graham/zolvo.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/zolvo.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/zolvo.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/zolvo.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/zolvo.md"
     }
   }
 }

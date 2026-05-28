@@ -1,6 +1,6 @@
 ﻿# Inth
 
-> Privacy Infrastructure for Developers
+> Privacy compliance, enforced in code
 
 | Field | Value |
 |-------|-------|
@@ -10,112 +10,100 @@
 | Industry | B2B / B2B -> Infrastructure |
 | Team Size | 3 |
 | Location | London, England, United Kingdom |
-| Tags | Compliance, Web Development |
+| Tags | Developer Tools, Compliance, Open Source, Web Development |
 | YC Partner | Andrew Miklas |
 | Emails | No public data found |
 
 ## The Idea
 
-**Problem:** Websites must collect user consent for cookies and tracking under GDPR, CCPA, ePrivacy, IAB TCF 2.3, UK GDPR, Quebec Law 25, and other regulations (inth.com). Existing consent management platforms (CMPs) such as OneTrust, Usercentrics, and Cookiebot rely on external third-party scripts that degrade site performance — benchmarked at 445ms (Usercentrics), 514ms (OneTrust), and 709ms (Ketch) of overhead (c15t.com). These tools are dashboard-driven, offer limited developer control, and create layout shifts and bundle bloat of 50–100KB (Roboto Studio blog, July 2025). Developers currently choose between compliance and site performance.
-
-**Approach:** Inth's core product is **c15t**, a headless, composable consent engine that runs natively inside the application rather than loading external scripts (inth.com). It is TypeScript-native with SDKs for React, Next.js, Svelte, and Node.js (GitHub, c15t/c15t). The system provides server-side rendering with geolocation-based jurisdiction detection, eliminating manual code branching per region (inth.com). It operates in three modes: c15t mode (hosted), offline mode, and custom mode (Heavybit podcast, July 2025). A DSAR (Data Subject Access Request) SDK is in alpha (inth.com). CookieBench, a companion open-source benchmarking tool at cookiebench.com, measures real-world CMP performance impact (cookiebench.com). c15t achieves 30ms FCP, 30ms LCP, and 0.6KB total size on CookieBench (cookiebench.com).
-
-**Differentiation:**
-- vs. OneTrust/Usercentrics: No external scripts, no vendor lock-in, fully open-source (Apache 2.0 license) (GitHub). OneTrust is enterprise-priced at $10K+ minimum ACV (Enzuzo, 2026). c15t is embeddable code, not a SaaS dashboard.
-- vs. CookieYes/Cookiebot: These are plug-and-play widgets; c15t provides headless, composable components with full UI ownership — described by Vercel CEO Guillermo Rauch as "@shadcn for Consent Management" (X.com, June 10, 2025).
-- vs. all incumbents: Zero network overhead architecture; 89ms total consent runtime vs. 445–709ms for legacy CMPs (inth.com).
-
-**Business Model:** No public pricing page found on inth.com or c15t.com as of April 2026. The product offers a hosted mode (consent.io dashboard sign-up exists) alongside the open-source self-hosted option (inth.com). [Inferred]: Most likely monetization path is a hosted/managed SaaS tier (similar to the Better Auth / Clerk model referenced in the Heavybit podcast) layered on top of the open-source core, potentially with usage-based or per-domain pricing.
-
-**TAM/SAM:** The consent management platform market was valued at $732.2M in 2025 (OMR Global via search snippet) to $1.82B in 2025 (Market Reports World via search snippet), with CAGR estimates of 11.2%–21.9% depending on scope (OMR Global, Roboto Studio blog via search snippet). One estimate projects the market reaching $11.59B by 2034 (Roboto Studio blog, July 2025). [Inferred]: The SAM for developer-focused CMP tooling targeting modern web frameworks is a subset of the broader CMP market — likely the segment of sites built on React, Next.js, and similar frameworks where performance is a buying criterion.
-
-**GTM / Distribution:** The open-source GitHub repository (1,678 stars, 132 forks as of April 2026; c15t.com/stats) and npm ecosystem (1.8M total downloads, 4.9K daily average, 388.3K in April 2026; c15t.com/stats) serve as the primary distribution channels. Prebuilt script integrations for Google Tag Manager, Meta Pixel, PostHog, TikTok, and LinkedIn lower adoption friction (GitHub). A BigCommerce Catalyst integration exists (developer.bigcommerce.com). [Inferred]: Bottom-up developer adoption via open-source, converting to paid hosted tier for teams needing managed infrastructure.
+- **Problem:** Engineering teams must comply with GDPR/CCPA/ePrivacy/Quebec Law 25, but consent, deletion, vendors, logs, AI systems and agent-written code changes all move user data inside the codebase, while companies still rely on dashboards, questionnaires and policy docs (inth.com, YC page).
+- **Approach:** Inth sits inside the repo, detects user-data privacy risk, maps it to files and owners, and generates regulator/buyer evidence; consent layer is c15t, a headless SDK with native React/Next.js bindings, region-split hosting and "declarative policy packs" (inth.com).
+- **Differentiation:** vs. OneTrust/Usercentrics — Inth advertises 89ms consent runtime overhead with c15t and a "tree-shakable" headless model "significantly faster" than those incumbents (inth.com; openalternative.co); vs. Transcend/DataGrail/Ketch (DSAR/workflow vendors) — Inth wedges via an OSS developer-installed SDK rather than a privacy-ops dashboard (inth.com); vs. Privado/Relyance AI (code-level scanning) — Inth pairs scanning with an installed runtime consent layer rather than scan-only (privado.ai; ketch.com).
+- **Business Model:** Pricing page exists at /pricing but no tier details surfaced via fetch (inth.com); [Inferred]: freemium OSS c15t funneling to paid managed Inth DSAR + hosted consent, given LinkedIn lists "Inth DSAR — managed platform … (in development)" and the cookie-banner SaaS comp set (OneTrust/Osano) charges per domain/seat.
+- **TAM/SAM:** No public TAM/SAM data found for this specific segment.
+- **GTM / Distribution:** Bottom-up developer adoption via the c15t OSS package — 2.6M npm downloads, 1,691 GitHub stars, used by Vercel, Expo, Zed, Infisical, Unkey, Chelsea Piers and Mario Testino (inth.com; github.com/c15t/c15t); founder podcasts on Heavybit Scaling DevTools and Open Source Ready (scalingdevtools.com; heavybit.com).
 
 ## Defensibility
 
-- **Open-source community:** 1,678 GitHub stars, 132 forks, 411 releases, and contributors from Expo, Adobe, Vercel, and Google (c15t.com/stats). 1.8M npm downloads over 365 days (c15t.com/stats).
-- **Performance benchmark ownership:** CookieBench (cookiebench.com) was created by the same team, establishing c15t as the reference standard for CMP performance measurement. Note: this is a self-created benchmark.
-- **Framework ecosystem integrations:** Native SDKs for React, Next.js, Svelte, Node.js, and BigCommerce Catalyst create switching costs once embedded in application code (GitHub, developer.bigcommerce.com).
-- **Endorsement network:** Guillermo Rauch (Vercel CEO) publicly endorsed c15t (X.com, June 10, 2025, ~79K views). Listed customers include Vercel, Expo, Zed, Infisical, and Unkey (inth.com).
-
-**Market structure:** Incumbent CMPs (OneTrust, Usercentrics) are built around dashboard-driven, script-injection architectures sold to legal/compliance buyers, not developers. [Inferred]: Rebuilding as a headless, embeddable SDK would cannibalize their existing external-script delivery model and require re-architecting their core product. Their sales channels target compliance officers, not engineering teams, creating a channel conflict for developer-first distribution.
-
-**Commoditization risk:** The core consent UI layer is technically reproducible. However, the combination of jurisdiction-aware server-side logic, framework-native SDKs, compliance regulation coverage (GDPR, CCPA, IAB TCF 2.3, etc.), and the growing open-source contributor base increases replication effort over time. [Inferred]: A well-resourced developer tools company (e.g., Vercel, Netlify) could build a competing solution, though the regulatory domain expertise and ongoing maintenance burden across jurisdictions serves as a deterrent.
+- **Moat today:** Installed OSS distribution — c15t is embedded in production apps at named devtool companies (Vercel, Expo, Zed, Infisical, Unkey) with 2.6M npm downloads and ~6.5K/day (npmjs.com; openalternative.co), creating per-app integration switching cost.
+- **Future moat:** [Inferred]: A repo-resident agent that maps user-data flows to files/owners over time accumulates a customer-specific data-lineage graph that competitors arriving later cannot reconstruct; unproven because the repo-scanning and evidence-generation product is described on the YC page as the company's next layer beyond c15t, not yet a shipped paid SKU.
+- **Market structure:** [Inferred]: Incumbent CMPs (OneTrust, Usercentrics) sell to legal/privacy buyers with no-code dashboards and tag-manager scripts; rebuilding as a headless OSS SDK installed in the codebase would cannibalize their script-loader telemetry/agency channel and pricing model (openalternative.co; ketch.com).
+- **Commoditization risk:** Consent SDKs are buildable — Apache 2.0 license on c15t means any vendor (Ketch, Transcend, Privado, a shadcn-style fork) can copy the OSS layer (github.com/c15t/c15t; github.com/shadcn/c15t shows an existing fork).
 
 ## Market & Traction
 
-**Traction signals:**
-- GitHub: 1,678 stars, 132 forks, 411 releases (c15t.com/stats, April 2026)
-- npm ecosystem: 1.8M total downloads, 388.3K monthly (April 2026), 4.9K daily average, +26.9% growth rate (c15t.com/stats)
-- Listed customers: Vercel, Expo, Zed, Infisical, Unkey, Chelsea Piers, Get Vocal, L+R Group, Mario Testino, Roboto Studio (inth.com)
-- Stargazers from employees at Expo, Adobe, Vercel, Google (c15t.com/stats)
-- Guillermo Rauch (Vercel CEO) endorsement tweet, ~79K views (X.com, June 10, 2025)
-- Heavybit "Open Source Ready" podcast appearance (July 17, 2025)
-- Scaling DevTools podcast appearance (scalingdevtools.com)
-- Vercel Community Session hosted (community.vercel.com)
-- BigCommerce Catalyst integration (developer.bigcommerce.com)
-- c15t v1.0 launched early May 2025 (Heavybit podcast); v2.0 launched April 14, 2026 (c15t.com)
-- Early adopters included a Hilton hotel location and Finnish e-commerce companies (Heavybit podcast, July 2025)
-- Twitter/X: @BurnedChris (founder), @c15tdev (product), @consentdotio (company) — follower counts not retrievable
-- Revenue signal: No public data found
-
-**Competitive landscape:**
-
-| Competitor | Funding | Revenue/ARR | Key Differentiator vs. Inth/c15t |
-|---|---|---|---|
-| OneTrust | $1.13B raised (Crunchbase) | $500M (Getlatka, 2024) | Full enterprise privacy platform (DSARs, assessments, vendor monitoring); dashboard-driven, $10K+ ACV minimum |
-| Usercentrics / Cookiebot | $41.7M raised; Cookiebot acquired 2021 (PRNewswire) | $117M (Getlatka, 2025) | Dual-brand strategy (enterprise + SMB plug-and-play); 1.4M websites using Cookiebot |
-| Osano | $44.4M raised (TechCrunch, Aug 2023) | $5.9M (Getlatka, 2024) | Mid-market SaaS with "No Fines" pledge; 750K customers; compliance-officer-focused |
-| CookieYes | Bootstrapped (Crunchbase) | $523K (Getlatka, 2024) | 1M customers; lowest-cost self-serve; freemium from €9/mo |
-| Ketch | — | — | Programmatic privacy platform; 709ms benchmark (c15t.com) |
-
-**Why now:**
-- The EU Digital Markets Act enforcement began March 2024, expanding consent requirements beyond cookies to gatekeeper platforms (publicly reported regulation timeline).
-- India's DPDP Act and Canada's CPPA are creating new jurisdiction-specific compliance demands referenced by the company (inth.com).
-- [Inferred]: The proliferation of React/Next.js as dominant web frameworks (Next.js surpassing 6M weekly npm downloads) creates a large addressable developer population that prefers native SDK integrations over external script injections. Simultaneously, Core Web Vitals as a Google ranking factor makes CMP performance directly impact SEO, creating urgency for performance-optimized consent solutions.
+- **Traction signals:**
+  - c15t: 2.6M npm downloads cumulative; "2.4M downloads over the past 365 days, average 6.5K/day" (npmjs.com; openalternative.co).
+  - c15t: 1,691 GitHub stars, 141 forks (github.com/c15t/c15t).
+  - Named adopters: Vercel, Expo, Zed, Infisical, Unkey, Chelsea Piers, Mario Testino (inth.com, Apr 24 2026).
+  - Performance claim: 89ms c15t consent runtime overhead vs legacy CMPs (inth.com).
+  - LinkedIn (Consent / Inth company page): 223 followers (linkedin.com/company/consentdotio).
+  - Founder X @BurnedChris: 1,252 followers (x.com/burnedchris via search snippet).
+  - Rebrand: Consent.io → Inth announced Launch Week Day 1 (linkedin.com post by burnedchris, ID 7449578563323928576).
+  - DSAR SDK in Alpha; "Inth DSAR" managed platform "in development" (inth.com; linkedin.com/company/consentdotio).
+  - No public revenue, ARR, paying-customer count, or funding round beyond YC standard deal found.
+- **Competitors (5):**
+  - OneTrust ($1.144B raised, last round $150M Jul 2023, $5.1B valuation at 2020 Series C, revenue undisclosed publicly; cbinsights.com): no-code enterprise CMP/GRC suite — Inth differentiates as OSS, code-resident, headless.
+  - Transcend (~$90M raised, $40M Series B May 2024 led by StepStone; transcend.io/blog; axios.com): DSAR automation and AI governance for engineering teams — overlapping wedge, larger and better funded.
+  - DataGrail ($84.2M raised, $45M Series C; datagrail.io/press): automated DSARs/privacy ops, dashboard-first vs. Inth's repo-first install.
+  - Ketch ($43M raised; tracxn.com): no-code privacy orchestration — opposite philosophy to Inth's developer-installed SDK.
+  - Privado ($17.5M raised, founded 2020, Series A Jan 2022 with Insight/Peak XV; dealroom.co): code-scanning data maps — closest direct overlap on "compliance in the codebase," but scan-only vs. Inth's scan+runtime consent.
+  - Osano ($19.4M raised, $5.9M revenue 2024 vs $3.2M 2023; getlatka.com): lightweight SMB CMP — overlaps c15t price tier.
+- **Why now:** [Inferred]: Two compounding catalysts in the last 12–24 months — (1) AI agents writing code that moves user data (cited verbatim on the YC page and inth.com rebrand post as the motivation for the new product), and (2) the May 2024 EU AI Act and ongoing GDPR enforcement raising the bar on auditable evidence (axios.com referenced Transcend's $40M raise on the same thesis).
 
 ## Founders & Team
 
-**Christopher Burns** — Founder
-- Second-time founder; previously Co-founder & CTO of Everfund, a nonprofit donation platform that raised $2.15M from investors including Netlify and Diaspora Ventures, scaled to 7 people, and processed payments across 33+ countries (Crunchbase; burnedchris.com; Heavybit podcast)
-- 10 years of TypeScript web platform experience (burnedchris.com)
-- Host of the FSJam podcast; contributed Magic Link authentication to RedwoodJS (burnedchris.com)
-- Spent time in San Francisco's tech scene before returning to the UK (burnedchris.com)
-- Education: No public data found
-- Twitter/X: @BurnedChris — count not retrievable
-- LinkedIn: linkedin.com/in/burnedchris — listed as "Christopher Burns - Consent"
-- GitHub: BurnedChris — 48 followers, 54 public repos; pinned repo c15t/c15t (1.7K stars) (GitHub)
-
-The YC page lists only Christopher Burns as founder despite a team size of 3 (YC page). No other team members are named in public sources.
-
-**Co-founder relationship:** Only one founder listed; not applicable.
-
-**Founder-market fit:** Burns built a payments/compliance platform at Everfund processing donations across 33+ countries, requiring multi-jurisdiction regulatory handling (burnedchris.com). His decade of TypeScript experience and framework-level open-source contributions (RedwoodJS) align directly with building developer-first SDKs for web compliance. The Guillermo Rauch endorsement and Vercel community session suggest established relationships in the Next.js/Vercel ecosystem, which is the primary target developer community.
+- **Christopher Burns (Founder / sole founder listed on YC page):**
+  - Background: Previously co-founder & CTO of Everfund, a UK nonprofit donation platform that "raised $2M, scaled a 7-person team, architected a multi-tenant donation platform processing payments across 33+ countries"; Everfund is now wound down ("Thank You For Being Part of Our Journey," everfund.com); creator of c15t OSS (crunchbase.com; burnedchris.com; heavybit.com Jamstack Radio Ep. 107).
+  - Twitter/X: @BurnedChris — ~1,252 followers (x.com/burnedchris via search snippet; count not retrievable via direct fetch).
+  - LinkedIn: "Technical Founder & Early Engineering Leader" / "Founder of Consent.io & Author of c15t" (burnedchris.com/about; uk.linkedin.com).
+  - GitHub: @burnedchris; top repo via the c15t org is c15t/c15t — 1,691 stars (github.com/burnedchris; github.com/c15t/c15t).
+- **Other team (YC lists 1 founder; LinkedIn company page lists 3 employees, 2 named):** Will De Ath — "Head of Growth @ Consent.io" (uk.linkedin.com/in/willdeath); De Ath is also listed as Everfund co-founder per Everfund team page (search snippet, everfund.com). Third employee not publicly named.
+- **Co-founder relationship:** Burns and De Ath previously worked together at Everfund (crunchbase.com; everfund.com search snippet).
+- **Founder-market fit:** Burns built and operated GDPR-regulated UK donation infrastructure for 7 years at Everfund and then authored the OSS consent SDK now adopted by Vercel/Expo/Zed before launching Inth (burnedchris.com; heavybit.com; inth.com); no advisors, board members or non-YC investors disclosed publicly.
 
 ## Key Risks
 
-**Open-source monetization uncertainty:** No public pricing exists as of April 2026. The hosted mode (consent.io dashboard) exists but pricing is not disclosed. Competitors like CookieYes offer paid tiers starting at €9/mo. Without a visible revenue model, conversion from open-source users to paying customers is unproven.
-
-**Benchmark credibility:** CookieBench (cookiebench.com), the primary performance benchmark cited by c15t, was created by the same team. While open-source and reproducible, this self-benchmarking arrangement may face skepticism from enterprise buyers evaluating CMP performance claims.
-
-**Incumbent response at scale:** OneTrust ($500M revenue, 14K customers per Getlatka 2024) and Usercentrics ($117M revenue per Getlatka 2025) have resources to build developer-focused offerings. Usercentrics already acquired Cookiebot to cover the SMB segment (PRNewswire, September 2021). An incumbent acquiring or replicating a lightweight SDK layer is feasible.
-
-**Single named founder with a 3-person team:** Only Christopher Burns is listed as founder on the YC page despite a stated team size of 3. The identities, roles, and backgrounds of the other two team members are not publicly available, limiting assessment of team composition.
-
-**Regulatory complexity as ongoing cost:** Supporting GDPR, CCPA, UK GDPR, ePrivacy, IAB TCF 2.3, GPC, Quebec Law 25, DPDP Act, PIPL, and CPPA (inth.com; Roboto Studio blog) requires continuous legal/regulatory monitoring. Each new jurisdiction adds maintenance burden that scales linearly with coverage — a resource challenge at a 3-person team size.
+- **OSS-to-paid conversion unproven:** Inth's wedge is OSS c15t (2.6M npm downloads, Apache 2.0; github.com/c15t/c15t), but no paid Inth product is publicly priced and the Inth DSAR managed platform is still "in development" (linkedin.com/company/consentdotio); revenue conversion from free OSS users to enterprise contracts is not yet demonstrated.
+- **Fork/copy risk on the wedge:** A shadcn/c15t fork already exists on GitHub (github.com/shadcn/c15t) and the Apache 2.0 license permits competitors (Ketch, Transcend, Privado) to embed or fork the SDK without payment.
+- **Better-capitalized direct competitor on code-level mapping:** Privado ($17.5M, Series A; dealroom.co) ships "dynamic data maps, auto-risk discovery, risk prevention in dev process, auto-populated RoPAs/PIAs/DPIAs" — the same product Inth is moving toward — and Transcend's $40M Series B (axios.com, May 2024) targets engineering-led DSAR automation.
+- **Single-founder execution risk:** YC page lists Christopher Burns as the only founder (ycombinator.com/companies/inth); team of 3 includes a Head of Growth (Will De Ath, uk.linkedin.com/in/willdeath) rather than a co-founder CTO, concentrating technical risk on one person while expanding from a consent SDK to a repo-scanning evidence platform.
+- **Name ambiguity:** "Inth" is a short, recently-rebranded mark (Consent.io → Inth, Oct 2025 LinkedIn post, id 7449578563323928576); search results frequently confuse with unrelated entities and prior-product Consent.io metrics — care needed not to conflate prior-brand traction with current-brand traction (all c15t metrics above predate and survive the rebrand).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $732.2M–$1.82B in 2025 depending on source (OMR Global; Market Reports World via search snippets); CAGR 11.2%–21.9% |
+| TAM | No public data found |
 | SAM | No public data found |
-| Traction | 1,678 GitHub stars, 132 forks (c15t.com/stats, April 2026); 1.8M npm downloads / 388.3K monthly (c15t.com/stats, April 2026); 11 listed customers including Vercel, Expo, Zed (inth.com) |
-| Revenue Signal | No public data found |
-| Founders | Christopher Burns (Founder): 2nd-time founder, ex-CTO Everfund ($2.15M raised), 10yr TypeScript, FSJam podcast host |
-| Competitors | OneTrust ($1.13B raised, $500M revenue, enterprise privacy suite); Usercentrics/Cookiebot ($41.7M raised, $117M revenue, dual enterprise+SMB); Osano ($44.4M raised, $5.9M revenue, mid-market compliance); CookieYes (bootstrapped, $523K revenue, 1M customers, low-cost self-serve) |
-| Moat Signals | 1,678 GitHub stars + 1.8M npm downloads (c15t.com/stats, April 2026); Guillermo Rauch endorsement ~79K views (X.com, June 2025); framework-native SDKs for React/Next.js/Svelte (GitHub) |
-| Risk Factors | No public pricing/monetization, self-created performance benchmark, incumbent replication capacity |
-| Founder Reach | Christopher Burns: Twitter @BurnedChris (count not retrievable), LinkedIn linkedin.com/in/burnedchris, GitHub BurnedChris 48 followers (GitHub) |
-| Distribution Signals | 1.8M npm downloads (c15t.com/stats, April 2026); BigCommerce Catalyst integration (developer.bigcommerce.com); Vercel Community Session (community.vercel.com); Heavybit podcast (July 2025); Scaling DevTools podcast (scalingdevtools.com) |
-| Emails | No public data found |
+| Traction | c15t 2.6M cumulative npm downloads, 6.5K/day (npmjs.com; openalternative.co); 1,691 GitHub stars, 141 forks (github.com/c15t/c15t); adopters Vercel, Expo, Zed, Infisical, Unkey, Chelsea Piers, Mario Testino (inth.com, Apr 2026); LinkedIn 223 followers (linkedin.com/company/consentdotio) |
+| Revenue Signal | Pricing page exists at inth.com/pricing but tiers not retrievable; no public ARR or paying-customer count found |
+| Founders | Christopher Burns (Founder): ex co-founder/CTO Everfund (raised $2M, 33+ countries; crunchbase.com), creator of c15t OSS; team also includes Will De Ath (Head of Growth, ex-Everfund co-founder; uk.linkedin.com) and one unnamed employee |
+| Competitors | OneTrust ($1.144B raised, revenue undisclosed publicly; no-code enterprise CMP/GRC); Transcend ($90M raised, $40M Series B May 2024; engineering-led DSAR); DataGrail ($84.2M raised; automated DSAR/privacy ops); Ketch ($43M raised; no-code orchestration); Privado ($17.5M raised; code-scan data maps — closest direct); Osano ($19.4M raised, $5.9M 2024 revenue; SMB CMP) |
+| Moat Signals | OSS install base in named devtool prod apps (Vercel/Expo/Zed/Infisical/Unkey, inth.com); 2.6M npm downloads (openalternative.co); 1,691 GitHub stars (github.com/c15t/c15t) |
+| Risk Factors | OSS-to-paid conversion unproven; fork/copy risk (Apache 2.0, shadcn/c15t fork exists); larger-funded direct competitors (Privado, Transcend); single-founder execution risk |
+| Founder Reach | Christopher Burns: X @BurnedChris ~1,252 followers (x.com search snippet, count not retrievable via fetch), LinkedIn /in/burnedchris (count not retrievable), GitHub @burnedchris (org repo c15t/c15t 1,691 stars) |
+| Distribution Signals | c15t live on Product Hunt page producthunt.com/products/c15t (launch rank not retrievable); founder podcast appearances on Heavybit Scaling DevTools and Open Source Ready Ep. 18 (scalingdevtools.com; heavybit.com); rebrand "Launch Week" on LinkedIn Oct 2025 (post 7449578563323928576) |
+| Emails | No public data found (contact via cal.com/team/inth/chat-with-inth; inth.com) |
+
+Sources:
+- [Inth website](https://inth.com)
+- [Inth YC page](https://www.ycombinator.com/companies/inth)
+- [c15t on GitHub](https://github.com/c15t/c15t)
+- [c15t on npm](https://www.npmjs.com/package/c15t)
+- [c15t on OpenAlternative](https://openalternative.co/c15t)
+- [Christopher Burns personal site](https://burnedchris.com/about)
+- [Christopher Burns on Crunchbase](https://www.crunchbase.com/person/christopher-burns)
+- [Consent / Inth LinkedIn](https://www.linkedin.com/company/consentdotio)
+- [Will De Ath LinkedIn](https://uk.linkedin.com/in/willdeath)
+- [Inth rebrand LinkedIn post](https://www.linkedin.com/posts/burnedchris_launch-week-day-1-consentio-is-now-inth-activity-7449578563323928576-F0JD)
+- [Transcend Series B (Axios)](https://www.axios.com/2024/05/28/transcend-data-privacy-series-b-funding)
+- [Transcend Crunchbase](https://www.crunchbase.com/organization/transcend)
+- [DataGrail Series C](https://www.datagrail.io/press/datagrail-raises-45-million/)
+- [Ketch Crunchbase](https://www.crunchbase.com/organization/ketch)
+- [Privado on Dealroom](https://app.dealroom.co/companies/privado_1)
+- [OneTrust on CB Insights](https://www.cbinsights.com/company/onetrust)
+- [Osano on Latka](https://getlatka.com/companies/osano)
+- [Heavybit Open Source Ready Ep. 18](https://www.heavybit.com/library/podcasts/open-source-ready/ep-18-consent-management-with-christopher-burns)
+- [Scaling DevTools podcast — Burns/c15t](https://scalingdevtools.com/podcast/episodes/christopher-burns-creator-of-c15t-the-developer-first-cookie-banner)
+- [shadcn/c15t fork](https://github.com/shadcn/c15t)

@@ -6,107 +6,96 @@
 |-------|-------|
 | Website | https://openworklabs.com |
 | YC Page | https://www.ycombinator.com/companies/openwork |
-| Batch | Spring 2026 |
+| Batch | Spring 2026 (X26) |
 | Industry | B2B / B2B -> Productivity |
 | Team Size | 4 |
-| Location | San Francisco, CA, US / Remote |
+| Location | San Francisco, CA, USA |
 | Tags | |
 | YC Partner | Aaron Epstein |
-| Emails | ben@openworklabs.com |
+| Emails | No public data found (sales contact via cal.com/potato/openwork-discovery, openworklabs.com) |
 
 ## The Idea
 
-**Problem:** Anthropic's Claude Cowork is a proprietary desktop AI agent requiring a $100–$200/month Claude subscription (UC Strategies, Jan 2026). Users are locked into a single model provider, cannot run models locally, and have limited ability to share agent workflows across teams. Non-technical team members cannot easily adopt agentic AI workflows without terminal expertise.
-
-**Approach:** OpenWork is a free, MIT-licensed desktop application built on the OpenCode engine and Tauri (TypeScript 83.6%, Rust 4.5%) that wraps terminal-based AI agents in a GUI with a permission system, execution plan visualization, and workflow template saving (GitHub README). It supports 50+ model providers including local models via Ollama, operates local-first with optional cloud mode, and enables one-click sharing of agent setups via shareable links (openworklabs.com). Features include browser automation, document processing ("Digital Twin"), sales inbound lead qualification, and team sharing (AI for Automation, Mar 2026).
-
-**Differentiation:** vs. Claude Cowork: model-agnostic (supports Claude, GPT, Gemini, Llama, Mistral), free/open-source, BYOK, and team-shareable workflows (openworklabs.com). vs. Eigent: OpenWork uses a single-agent architecture with OpenCode engine rather than Eigent's CAMEL-AI multi-agent parallel framework (eigent.ai). vs. Kuse: OpenWork is TypeScript/Tauri-based vs. Kuse's Rust-native approach; OpenWork has broader community traction (14.1k vs. Kuse's smaller GitHub presence) (GitHub). vs. Devin: OpenWork targets general desktop productivity and non-developer workflows, while Devin focuses on software engineering tasks (cognition.ai).
-
-**Business Model:** The core product is free and open-source under MIT license (GitHub). An enterprise tier exists with a sales contact via cal.com/team/openwork/enterprise (openworklabs.com). A job posting for "Founding Member" lists $150K–$200K salary and 3–5% equity (YC page). [Inferred]: Most likely monetization path is open-core — free OSS desktop app with paid enterprise features (team management, hosted cloud, priority support), consistent with the enterprise sales link and job posting budget implying external funding.
-
-**TAM/SAM:** The AI Code Tools market is projected at $8.14B in 2025 growing to $127.05B by 2032 at 48.1% CAGR (MarketsandMarkets via search snippet). An alternative estimate sizes AI code tools at $4.3B in 2023 growing to $12.6B by 2028 at 24.0% CAGR (MarketsandMarkets via search snippet). [Inferred]: OpenWork's SAM is narrower — the desktop AI agent/cowork segment for non-developer productivity users, a subset of the broader AI coding tools market. No public SAM estimate specific to this segment was found.
-
-**GTM / Distribution:** GitHub open-source distribution is the primary channel, with 14.1k stars and 1.3k forks (GitHub, Apr 2026). Press coverage across GIGAZINE (Apr 2026), UC Strategies (Jan 2026), and Julian Goldie (Jan 2026) drives awareness. The shareable setup links create a viral team adoption mechanism (openworklabs.com). Enterprise sales via direct contact (cal.com). [Inferred]: Bottom-up open-source adoption within developer teams, expanding to enterprise deals as teams scale.
+- **Problem:** Enterprises want to deploy Claude Cowork-style agentic desktop workflows but require on-prem deployment, choice of LLM, and compliance posture not offered by Anthropic's hosted Cowork product (Ben Shafii LinkedIn post, Nov 2026; Anthropic Cowork product page).
+- **Approach:** Desktop app that wraps SST's OpenCode CLI in a native GUI, letting users bring their own API keys across 50+ model providers and share "skills/MCPs/plugins" setups via single-link import (openworklabs.com; HN Show post, Jan 2026).
+- **Differentiation:** vs. Claude Cowork (Anthropic) — open-source/MIT, multi-model, self-hostable instead of Anthropic-only managed SaaS (Anthropic Cowork page; GitHub different-ai/openwork); vs. OpenCode (SST) — native desktop GUI for non-technical users rather than terminal/TUI (HN Show post: "an (alternative) gui for opencode, which has mostly been for technical folks"); vs. Microsoft Copilot Cowork — independent of M365 stack (Yahoo Finance, 2026).
+- **Business Model:** Free desktop app; $50/mo per seat for cloud workers; custom enterprise pricing with self-hosted deployment, gateway/MCP/skills integration (openworklabs.com/pricing; openworklabs.com/enterprise via search snippet).
+- **TAM/SAM:** No public TAM/SAM data found for this specific segment.
+- **GTM / Distribution:** Open-source viral distribution via GitHub plus HN/X launch — 15.6K stars and 150K+ downloads in ~3 months (github.com/different-ai/openwork; YC page, May 2026); [Inferred]: top-down enterprise sales motion layered on bottom-up OSS adoption, given published enterprise self-host plan and a "Founding Member" job posting (ycombinator.com/companies/openwork/jobs).
 
 ## Defensibility
 
-- **Open-source community moat:** 14.1k GitHub stars and 1.3k forks create contributor lock-in and distribution (GitHub, Apr 2026). The skills/workflow sharing system creates a nascent ecosystem of reusable agent templates.
-- **Multi-model flexibility:** Supporting 50+ providers including local models via Ollama creates switching cost for users who build workflows across multiple models (openworklabs.com).
-- [Inferred]: Potential network effects could develop via the shared skills/workflow marketplace as more teams publish and consume agent setups, but this is unproven at this stage.
-
-**Market structure:** Claude Cowork is tied to Anthropic's proprietary Claude models, creating a business model conflict — Anthropic cannot offer a model-agnostic open-source competitor without undermining their API revenue. Similarly, Devin's $10.2B valuation (TechCrunch, Sep 2025) is predicated on a proprietary SaaS model incompatible with open-source distribution. [Inferred]: Incumbents face revenue cannibalization risk in offering a free, model-agnostic alternative.
-
-**Commoditization risk:** The barrier to building a comparable open-source desktop AI agent wrapper is moderate. Eigent and Kuse already exist as direct competitors. The core OpenCode engine dependency means any improvements to OpenCode benefit all downstream projects. [Inferred]: Differentiation likely depends on execution speed, community size, and enterprise feature depth rather than technical barriers.
+- **Moat today:** 15.6K GitHub stars and 150K+ downloads in ~3 months create a distribution lead and contributor mindshare ahead of other Claude Cowork OSS clones (github.com/different-ai/openwork; YC page).
+- **Future moat:** [Inferred]: Switching costs from accumulated team-specific skills/MCPs/plugins shared inside an organization could harden over time; unproven now because the shareable-setup feature is new and no published retention data exists.
+- **Market structure:** [Inferred]: Anthropic structurally cannot ship a multi-model, self-hosted version of Cowork without cannibalizing its first-party model revenue, since Cowork is the consumption surface that drives Claude API usage on paid plans (Anthropic Cowork GA announcement, testingcatalog.com).
+- **Commoditization risk:** OpenWork itself is a thin native GUI on top of SST's OpenCode (160K+ stars, MIT) — any party can fork OpenCode and ship a competing desktop wrapper (paperclipped.de OpenCode review, 2026; GitHub repo description).
 
 ## Market & Traction
 
-**Traction signals:**
-- 14.1k GitHub stars, 1.3k forks, 67 watchers (GitHub, Apr 2026)
-- 12,200 stars and 1,800+ commits as of Mar 22, 2026 (AI for Automation)
-- 1,062 total releases; latest v0.11.212 on Apr 21, 2026 (GitHub)
-- Company X/Twitter: @getopenwork (follower count not retrievable)
-- LinkedIn: linkedin.com/company/different-ai (follower count not retrievable)
-- Press: GIGAZINE review (Apr 2026), UC Strategies review (Jan 2026), Julian Goldie review (Jan 2026), DEV Community "Open Source Project of the Day" feature
-- 1 active job posting: Founding Member, $150K–$200K, 3–5% equity (YC page)
-- No Product Hunt listing found
-- No Discord/Slack community member counts found
-- No public revenue or user count data found
-
-**Prior product context:** The different-ai GitHub organization previously shipped Embedbase (LLM API tool, 522 stars), Note Companion / File Organizer 2000 (Obsidian AI plugin, 831 stars), and Inbox (modern email, 1.7k stars) (GitHub/benjaminshafii). Ben Shafii states he raised $3M+ through YC in a prior venture (LinkedIn). OpenWork's current traction metrics (14.1k stars) should be understood as specific to the current product, launched in early 2026.
-
-**Competitive landscape:**
-
-| Competitor | Key Differentiator vs. OpenWork | Funding | Revenue |
-|---|---|---|---|
-| **Claude Cowork** (Anthropic) | Proprietary, deeply integrated with Claude models, polished UX, single-vendor lock-in | Anthropic: $30B+ raised (Crunchbase via search snippet) | Revenue unknown (bundled in Claude subscription) |
-| **Devin** (Cognition Labs) | Full SDLC automation focused on software engineering, not general productivity | $400M at $10.2B valuation (TechCrunch, Sep 2025) | ~$150M ARR combined with Windsurf (Cognition blog) |
-| **Eigent** | Multi-agent parallel execution via CAMEL-AI framework; multiple specialized agents vs. OpenWork's single-agent approach | No public funding data found | No public data found |
-| **Kuse** | Rust-native architecture for performance; lightweight agent framework | No public funding data found | No public data found |
-| **OpenHands** | Code-focused autonomous software engineering; 65k GitHub stars; 50%+ SWE-bench score | Seed round raised, amount undisclosed (search snippet) | No public data found |
-
-**Why now:** Anthropic launched Claude Cowork in early 2026, establishing the "AI coworker desktop" category (AI for Automation, Mar 2026). OpenWork launched three days after Claude Cowork (AI for Automation, Mar 2026). [Inferred]: The catalyst is Anthropic's category creation plus the maturation of open-source LLM infrastructure (Ollama, OpenCode, MCP protocol) enabling a credible open-source alternative. The $100–$200/month Claude pricing creates price-sensitive demand for free alternatives among individual developers and small teams.
+- **Traction signals:**
+  - 15.6K GitHub stars (github.com/different-ai/openwork, May 2026).
+  - 150K+ downloads since launch (YC company page, May 2026).
+  - Show HN "OpenWork — An open-source alternative to Claude Cowork": 231 upvotes, 60 comments (news.ycombinator.com/item?id=46612494, ~Jan 2026).
+  - Latest release v0.14.0 shipped May 27, 2026 (github.com/different-ai/openwork/releases).
+  - Active job posting: "Founding Member" at OpenWork (ycombinator.com/companies/openwork/jobs).
+  - Coverage: aiforautomation.io ("This YC startup just cloned Claude Cowork — for free", Mar 2026); ht-x.com (Jan 2026); funblocks.net review; ucstrategies.com review.
+  - Founder Twitter @benjaminshafii (x.com/benjaminshafii) — follower count not retrievable.
+  - Founder GitHub @benjaminshafii: 192 followers (github.com/benjaminshafii via search snippet).
+- **Competitors:**
+  - Claude Cowork (Anthropic, raised ~$18B+ cumulative, revenue unknown for Cowork SKU; Anthropic Cowork GA, thenewstack.io): first-party closed-source incumbent, Anthropic models only.
+  - OpenCode by SST/Anomaly Innovations (funding unknown, no subscription revenue; 160K+ GitHub stars, 7.5M monthly active developers per paperclipped.de, May 2026): underlying engine OpenWork wraps; CLI/TUI-first, dev-focused.
+  - Microsoft Copilot Cowork (Microsoft, M365 distribution; finance.yahoo.com, 2026): bundled with Microsoft 365, ships Claude inside Microsoft stack.
+  - Claude Code (Anthropic, revenue unknown; Medium/unicodeveloper review, May 2026): adjacent agentic coding tool, dev-focused, Anthropic-only.
+- **Why now:** Anthropic took Claude Cowork from preview to GA and announced Microsoft Copilot Cowork integration within the last ~6 months (thenewstack.io; Yahoo Finance, 2026), creating an enterprise demand surface for an OSS/self-hosted equivalent.
 
 ## Founders & Team
 
-**Ben Shafii** — Founder & CEO
-- Associate's degree in Computer Science, SUPINFO (2013–2016) (RocketReach via search snippet)
-- Previously: Orange DAO (VC, reviewed 8,000+ startup applications), Embedbase, prologe.io, Request (LinkedIn)
-- Built prior YC-backed startup(s), raised $3M+ (LinkedIn)
-- Rejected by YC 10 times before acceptance into Spring 2026 batch (LinkedIn post)
-- Twitter/X: @hotkartoffel1 — bio: "ben shafii | oss + fintech" (follower count not retrievable)
-- LinkedIn: linkedin.com/in/ben-shafii-450039107/ — 500+ connections
-- GitHub: github.com/benjaminshafii — 77 repos, 205 followers; pinned repos include openwork (14.1k stars), inbox (1.7k stars), note-companion (831 stars), obsidian-ava (661 stars), embedbase (522 stars), agent-bank (220 stars)
-
-**Alexandre Shafii** — appears as Product Engineer associated with different-ai and Note Companion (LinkedIn). Listed as TypeScript freelancer based in Berlin (LinkedIn). Not listed as a co-founder on the YC page.
-
-**Co-founder relationship:** Only one founder (Ben Shafii) is listed on the YC page. Alexandre Shafii shares the surname and is associated with the different-ai organization, suggesting a family connection, but no co-founder relationship is formally documented.
-
-**Founder-market fit:** Ben Shafii has a track record of building open-source developer tools — six pinned GitHub repos collectively totaling ~18k stars. His prior experience at Orange DAO reviewing 8,000+ startup applications and raising $3M+ through YC provides fundraising and ecosystem familiarity. His history of building Obsidian plugins (Note Companion, obsidian-ava) and developer APIs (Embedbase) demonstrates iterative product development in adjacent AI tooling categories.
+- **Ben Shafii (Founder):**
+  - Background: Previously built a startup and raised $3M+ through Y Combinator, then moved to the VC side and reviewed 8,000+ startup applications (Ben Shafii LinkedIn posts via search snippets); current company listed as "Different AI" (LinkedIn; openworklabs.com © 2026 Different AI). No public data found on university.
+  - Twitter/X: @benjaminshafii (x.com/benjaminshafii); count not retrievable.
+  - LinkedIn: "openwork (YC X26)" (linkedin.com/in/ben-shafii-450039107).
+  - GitHub: @benjaminshafii, 192 followers; top repo different-ai/openwork at 15.6K stars (github.com/benjaminshafii; github.com/different-ai/openwork).
+- **Co-founder relationship:** YC page lists Ben Shafii as the only named founder despite team size of 4 (ycombinator.com/companies/openwork); no public data on other team members or co-founder history.
+- **Founder-market fit:** [Inferred]: Prior YC founder experience plus 8,000+ application reviews on the VC side (LinkedIn snippets) gives operational exposure to enterprise SaaS GTM; no public data found on advisors or post-YC outside investors.
 
 ## Key Risks
 
-**Name collision:** "OpenWork" is shared with OpenWork Inc., a major Japanese job review platform, and OpenWork Partnership (UK staffing firm). This creates SEO competition and brand confusion, potentially limiting organic discoverability and complicating trademark protection. The company uses "openworklabs.com" as its domain rather than "openwork.com."
-
-**Platform dependency on OpenCode engine:** OpenWork is "powered by OpenCode" (GitHub README). Changes to the OpenCode project's direction, licensing, or maintenance could directly impact OpenWork's core functionality. The team does not appear to control the upstream engine.
-
-**Single listed founder with broad product surface:** The YC page lists one founder with a team of four, while the product spans desktop app, browser automation, document processing, sales automation, and enterprise features. The prior product history (Embedbase → Note Companion → Inbox → OpenWork) shows multiple pivots across different-ai, raising questions about sustained focus on the current product direction.
-
-**Incumbent fast-follow risk:** Claude Cowork's category lead, Anthropic's resources ($30B+ raised), and the relative ease of building model-agnostic wrappers mean Anthropic could add multi-model support or open-source components. Other well-resourced competitors (OpenHands at 65k stars, Devin at $10.2B valuation) could expand into general desktop productivity.
-
-**Monetization uncertainty:** The core product is free and MIT-licensed. No pricing page exists. Enterprise sales are the only visible revenue path. Converting open-source users to paying enterprise customers is a well-documented challenge in open-core models, and no revenue signals are publicly available.
+- **Upstream dependency on OpenCode/SST:** OpenWork's GitHub README states it "requires OpenCode CLI installed and available on PATH" and uses OpenCode as its core orchestration engine (github.com/different-ai/openwork); if SST changes OpenCode's license, roadmap, or ships its own desktop GUI, OpenWork's core stack is exposed. No public mitigation found.
+- **Direct competition from the named target:** Anthropic moved Claude Cowork to GA on all paid plans with role-based access controls and admin analytics aimed at enterprises (thenewstack.io, 2026), narrowing the "enterprise needs Anthropic-grade Cowork" gap OpenWork is selling into.
+- **Thin technical differentiation / commoditization:** Reviewers describe OpenWork as "an (alternative) gui for opencode" by the founder himself (HN Show post) and one head-to-head test reported OpenWork "struggled to show progress and appeared to stall" vs. Claude Cowork on the same workflow (funblocks.net review).
+- **Single named founder at team-size 4:** YC lists only Ben Shafii as founder while team size is 4 (ycombinator.com/companies/openwork); no public data on technical co-founder, creating key-person concentration on the founder/CEO.
+- **Monetization unproven at OSS-distribution scale:** 150K+ downloads vs. paid tier starting at $50/mo cloud (openworklabs.com/pricing); no public ARR, paying-customer count, or enterprise logo disclosure as of May 2026.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $8.14B in 2025 → $127.05B by 2032 at 48.1% CAGR for AI code tools (MarketsandMarkets via search snippet) |
+| TAM | No public data found |
 | SAM | No public data found |
-| Traction | 14.1k GitHub stars, 1.3k forks (GitHub, Apr 2026); 12.2k stars and 1,800+ commits (AI for Automation, Mar 2026); press in GIGAZINE (Apr 2026), UC Strategies (Jan 2026), Julian Goldie (Jan 2026) |
-| Revenue Signal | No public data found |
-| Founders | Ben Shafii (Founder): prior $3M+ YC raise, Orange DAO VC (8k+ apps reviewed), 6 open-source projects totaling ~18k GitHub stars (LinkedIn, GitHub) |
-| Competitors | Devin ($400M raised, ~$150M ARR, full SDLC automation) (TechCrunch, Sep 2025); Eigent (funding unknown, revenue unknown, multi-agent CAMEL-AI framework); Kuse (funding unknown, revenue unknown, Rust-native agent); OpenHands (seed raised, revenue unknown, 65k GitHub stars, code-focused) |
-| Moat Signals | 14.1k GitHub stars / 1.3k forks community (GitHub, Apr 2026); shareable workflow/skills system (openworklabs.com) |
-| Risk Factors | Name collision with Japanese OpenWork Inc., OpenCode engine dependency, monetization uncertainty |
-| Founder Reach | Ben Shafii: Twitter @hotkartoffel1 (count not retrievable), LinkedIn 500+ connections, GitHub 205 followers / 77 repos (GitHub, LinkedIn) |
-| Distribution Signals | 14.1k GitHub stars (GitHub, Apr 2026); press coverage in 3+ publications (GIGAZINE, UC Strategies, Julian Goldie); DEV Community feature; no Product Hunt listing found |
-| Emails | ben@openworklabs.com |
+| Traction | 15.6K GitHub stars (github.com/different-ai/openwork, May 2026); 150K+ downloads (YC page, May 2026); Show HN 231 upvotes, 60 comments (news.ycombinator.com/item?id=46612494, ~Jan 2026); v0.14.0 release (GitHub releases, May 27 2026) |
+| Revenue Signal | Free desktop; $50/mo per seat cloud workers; custom enterprise pricing (openworklabs.com/pricing via search snippet); no ARR disclosed |
+| Founders | Ben Shafii (Founder): prior YC founder (raised $3M+), prior VC reviewing 8,000+ applications, operates as "Different AI" |
+| Competitors | Claude Cowork (Anthropic, revenue unknown, first-party closed-source incumbent); OpenCode/SST (funding unknown, 160K stars, CLI-first dev tool that OpenWork wraps); Microsoft Copilot Cowork (Microsoft, bundled M365 distribution); Claude Code (Anthropic, revenue unknown, dev-focused agentic coding) |
+| Moat Signals | 15.6K GitHub stars, 150K+ downloads in ~3 months, MIT license, top-10 of YC Spring 2026 batch per search snippet (github.com/different-ai/openwork; YC page) |
+| Risk Factors | Upstream OpenCode dependency, direct Anthropic Cowork GA competition, thin GUI-on-OpenCode differentiation |
+| Founder Reach | Ben Shafii: Twitter @benjaminshafii (count not retrievable), LinkedIn ben-shafii-450039107 (count not retrievable), GitHub @benjaminshafii 192 followers, top repo different-ai/openwork 15.6K stars |
+| Distribution Signals | Show HN 231 upvotes/60 comments (Jan 2026); 15.6K GitHub stars (May 2026); 150K+ downloads (YC page, May 2026); press in aiforautomation.io (Mar 2026), ht-x.com (Jan 2026), funblocks.net, ucstrategies.com |
+| Emails | No public data found (sales via cal.com/potato/openwork-discovery, openworklabs.com) |
+
+Sources:
+- [OpenWork on Y Combinator](https://www.ycombinator.com/companies/openwork)
+- [OpenWork website](https://openworklabs.com)
+- [GitHub different-ai/openwork](https://github.com/different-ai/openwork)
+- [Show HN: OpenWork](https://news.ycombinator.com/item?id=46612494)
+- [Ben Shafii LinkedIn](https://www.linkedin.com/in/ben-shafii-450039107/)
+- [Ben Shafii X/Twitter](https://x.com/benjaminshafii)
+- [Ben Shafii GitHub](https://github.com/benjaminshafii)
+- [Anthropic Claude Cowork](https://www.anthropic.com/product/claude-cowork)
+- [Anthropic takes Claude Cowork GA — The New Stack](https://thenewstack.io/anthropic-takes-claude-cowork-out-of-preview-and-straight-into-the-enterprise/)
+- [Microsoft + Anthropic Copilot Cowork — Yahoo Finance](https://finance.yahoo.com/news/microsoft-and-anthropic-team-up-to-bring-claude-cowork-to-microsoft-365-130001836.html)
+- [OpenCode by SST review — paperclipped.de](https://www.paperclipped.de/en/blog/opencode-open-source-coding-agent/)
+- [aiforautomation.io coverage](https://aiforautomation.io/news/2026-03-22-openwork-free-claude-cowork-alternative-yc-12k-stars)
+- [ht-x.com coverage](https://ht-x.com/posts/2026/01/github-different-ai-openwork-an-open-source-altern/)
+- [FunBlocks OpenWork review](https://www.funblocks.net/aitools/reviews/openwork)
+- [ucstrategies OpenWork test](https://ucstrategies.com/news/is-this-free-open-source-ai-agent-really-a-claude-cowork-killer-i-tested-openwork/)
+- [OpenWork Founding Member job posting](https://www.ycombinator.com/companies/openwork/jobs/pYPx6Dn-founding-member)

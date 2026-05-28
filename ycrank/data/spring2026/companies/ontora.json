@@ -5,7 +5,7 @@
   "metadata": {
     "website": "https://ontora.com",
     "yc_page": "https://www.ycombinator.com/companies/ontora",
-    "batch": "Spring 2026",
+    "batch": "Spring 2026 (P26)",
     "industry": "B2B / B2B -> Operations",
     "team_size": "3",
     "location": "San Francisco, CA, USA",
@@ -20,58 +20,28 @@
     "Operations"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-22T23:40:06.959Z",
+  "memoGeneratedAt": "2026-05-28T02:51:15.154Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 41,
+      "score": 36,
       "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 59,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 58,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 47,
-      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 41,
-    "EG": 59,
-    "NR": 58,
-    "PG": 52,
-    "PT": 38,
-    "SL": 33,
-    "VK": 47
+    "CB": 36,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 46.86,
-  "consolidatedRank": 36,
+  "consolidatedAvg": 36,
+  "consolidatedRank": 159,
   "paths": {
     "memo": "spring2026/memos/ontora.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/ontora.md",
-      "elad-gil": "spring2026/evals/elad-gil/ontora.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/ontora.md",
-      "paul-graham": "spring2026/evals/paul-graham/ontora.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/ontora.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/ontora.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/ontora.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/ontora.md"
     }
   }
 }

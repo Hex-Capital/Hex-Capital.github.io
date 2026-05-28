@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://tryardent.com",
     "yc_page": "https://www.ycombinator.com/companies/ardent",
-    "batch": "Spring 2026 (X26)",
+    "batch": "Spring 2026 (YC X26/P26)",
     "industry": "B2B / B2B -> Infrastructure",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "Data Engineering, Infrastructure, AI",
-    "yc_partner": "Aaron Epstein (YC company page)",
-    "emails": "No public data found"
+    "yc_partner": "Aaron Epstein",
+    "emails": "vikram@tryardent.com (YC page)"
   },
   "tags": [
     "Data Engineering",
@@ -19,58 +19,33 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-22T23:33:38.788Z",
+  "memoGeneratedAt": "2026-05-28T02:43:36.302Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 42,
-      "tier": "Pass"
+      "score": 48,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 53,
+      "score": 58,
       "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 59,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 62,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 41,
-      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 42,
-    "EG": 53,
-    "NR": 59,
-    "PG": 62,
-    "PT": 36,
-    "SL": 40,
-    "VK": 41
+    "CB": 48,
+    "EG": 58,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 47.57,
-  "consolidatedRank": 32,
+  "consolidatedAvg": 53,
+  "consolidatedRank": 35,
   "paths": {
     "memo": "spring2026/memos/ardent.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/ardent.md",
-      "elad-gil": "spring2026/evals/elad-gil/ardent.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/ardent.md",
-      "paul-graham": "spring2026/evals/paul-graham/ardent.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/ardent.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/ardent.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/ardent.md"
+      "elad-gil": "spring2026/evals/elad-gil/ardent.md"
     }
   }
 }

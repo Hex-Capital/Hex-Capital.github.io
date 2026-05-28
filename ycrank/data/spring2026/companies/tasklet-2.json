@@ -8,64 +8,34 @@
     "batch": "Spring 2026",
     "industry": "B2B / B2B -> Productivity",
     "team_size": "8",
-    "location": "San Francisco, CA",
+    "location": "San Francisco, CA, USA",
     "yc_partner": "Andrew Miklas",
-    "emails": "sales@shortwave.com (Shortwave blog); no Tasklet-specific email found"
+    "emails": "No public data found"
   },
   "tags": [],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-22T23:35:34.715Z",
+  "memoGeneratedAt": "2026-05-28T02:44:16.569Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 59,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 71,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 71,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 51,
+      "score": 52,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 45,
-    "EG": 59,
-    "NR": 71,
-    "PG": 71,
-    "PT": 45,
-    "SL": 36,
-    "VK": 51
+    "CB": 52,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 54,
-  "consolidatedRank": 9,
+  "consolidatedAvg": 52,
+  "consolidatedRank": 47,
   "paths": {
     "memo": "spring2026/memos/tasklet-2.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/tasklet-2.md",
-      "elad-gil": "spring2026/evals/elad-gil/tasklet-2.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/tasklet-2.md",
-      "paul-graham": "spring2026/evals/paul-graham/tasklet-2.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/tasklet-2.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/tasklet-2.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/tasklet-2.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/tasklet-2.md"
     }
   }
 }

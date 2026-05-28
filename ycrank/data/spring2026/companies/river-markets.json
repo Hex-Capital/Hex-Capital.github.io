@@ -1,0 +1,44 @@
+{
+  "slug": "river-markets",
+  "name": "River Markets",
+  "oneLiner": "Prime brokerage for prediction markets",
+  "metadata": {
+    "website": "https://www.rivermarkets.com",
+    "yc_page": "https://www.ycombinator.com/companies/river-markets",
+    "batch": "Spring 2026",
+    "industry": "Fintech / Fintech",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Trading",
+    "yc_partner": "Harj Taggar",
+    "emails": "contact@rivermarkets.com, oscar@rivermarkets.com"
+  },
+  "tags": [
+    "Trading"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-28T02:46:28.319Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 34,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 34,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
+  },
+  "consolidatedAvg": 34,
+  "consolidatedRank": 169,
+  "paths": {
+    "memo": "spring2026/memos/river-markets.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/river-markets.md"
+    }
+  }
+}

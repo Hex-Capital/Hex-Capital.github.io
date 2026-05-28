@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://tryprism.com/",
     "yc_page": "https://www.ycombinator.com/companies/tryprism",
-    "batch": "Spring 2026",
+    "batch": "Spring 2026 (YC P26)",
     "industry": "B2B / B2B -> Recruiting and Talent",
     "team_size": "4",
-    "location": "San Francisco, CA, USA",
+    "location": "London, United Kingdom",
     "tags": "Recruiting, HR Tech, Talent Acquisition, AI",
     "yc_partner": "Tom Blomfield",
-    "emails": "founders@hireglide.ai, axel.lapira@gmail.com"
+    "emails": "No public data found"
   },
   "tags": [
     "Recruiting",
@@ -20,58 +20,28 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-23T00:01:41.911Z",
+  "memoGeneratedAt": "2026-05-28T03:10:19.776Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 27,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 37,
-      "tier": "Pass"
+      "score": 48,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 32,
-    "EG": 32,
-    "NR": 44,
-    "PG": 38,
-    "PT": 27,
-    "SL": 29,
-    "VK": 37
+    "CB": 48,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 34.14,
-  "consolidatedRank": 147,
+  "consolidatedAvg": 48,
+  "consolidatedRank": 67,
   "paths": {
     "memo": "spring2026/memos/tryprism.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/tryprism.md",
-      "elad-gil": "spring2026/evals/elad-gil/tryprism.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/tryprism.md",
-      "paul-graham": "spring2026/evals/paul-graham/tryprism.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/tryprism.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/tryprism.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/tryprism.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/tryprism.md"
     }
   }
 }

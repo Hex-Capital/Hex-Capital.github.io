@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://expanse.sh",
     "yc_page": "https://www.ycombinator.com/companies/expanse",
-    "batch": "Spring 2026 (YC page)",
+    "batch": "Spring 2026",
     "industry": "B2B / B2B -> Infrastructure",
     "team_size": "4",
     "location": "San Francisco, CA, USA",
     "tags": "AIOps, Developer Tools, Enterprise Software, Infrastructure",
-    "yc_partner": "David Lieb (YC page)",
-    "emails": "founders@expanse.sh (YC page), founders@expanse.org.uk, contact@expanse.org.uk (expanse.sh)"
+    "yc_partner": "David Lieb",
+    "emails": "founders@expanse.org.uk, contact@expanse.org.uk (expanse.sh, May 2026)"
   },
   "tags": [
     "AIOps",
@@ -20,58 +20,33 @@
     "Infrastructure"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-05-05T04:29:14.281Z",
+  "memoGeneratedAt": "2026-05-28T02:37:12.380Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 44,
-      "tier": "Pass"
+      "score": 56,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 48,
+      "score": 52,
       "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 61,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 58,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 43,
-      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 44,
-    "EG": 48,
-    "NR": 61,
-    "PG": 58,
-    "PT": 31,
-    "SL": 44,
-    "VK": 43
+    "CB": 56,
+    "EG": 52,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 47,
-  "consolidatedRank": 34,
+  "consolidatedAvg": 54,
+  "consolidatedRank": 32,
   "paths": {
     "memo": "spring2026/memos/expanse.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/expanse.md",
-      "elad-gil": "spring2026/evals/elad-gil/expanse.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/expanse.md",
-      "paul-graham": "spring2026/evals/paul-graham/expanse.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/expanse.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/expanse.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/expanse.md"
+      "elad-gil": "spring2026/evals/elad-gil/expanse.md"
     }
   }
 }

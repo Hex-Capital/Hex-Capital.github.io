@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://www.smartbase.so/",
     "yc_page": "https://www.ycombinator.com/companies/smartbase",
-    "batch": "Spring 2026",
+    "batch": "Spring 2026 (P26)",
     "industry": "B2B / B2B -> Operations",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "SaaS, B2B, Workflow Automation, Manufacturing, Automation",
     "yc_partner": "Harj Taggar",
-    "emails": "sam@smartbase.so"
+    "emails": "sam@smartbase.so (smartbase.so website + YC page)"
   },
   "tags": [
     "SaaS",
@@ -21,58 +21,28 @@
     "Automation"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-23T00:01:34.920Z",
+  "memoGeneratedAt": "2026-05-28T03:10:34.999Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 55,
+      "score": 47,
       "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 57,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 27,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 40,
-      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 39,
-    "EG": 55,
-    "NR": 46,
-    "PG": 57,
-    "PT": 27,
-    "SL": 37,
-    "VK": 40
+    "CB": 47,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 43,
-  "consolidatedRank": 60,
+  "consolidatedAvg": 47,
+  "consolidatedRank": 72,
   "paths": {
     "memo": "spring2026/memos/smartbase.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/smartbase.md",
-      "elad-gil": "spring2026/evals/elad-gil/smartbase.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/smartbase.md",
-      "paul-graham": "spring2026/evals/paul-graham/smartbase.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/smartbase.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/smartbase.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/smartbase.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/smartbase.md"
     }
   }
 }

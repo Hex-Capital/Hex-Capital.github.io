@@ -5,13 +5,13 @@
   "metadata": {
     "website": "http://rudus.ai/",
     "yc_page": "https://www.ycombinator.com/companies/rudus",
-    "batch": "Spring 2026 (YC company page)",
+    "batch": "Spring 2026",
     "industry": "Real Estate and Construction / Real Estate and Construction -> Construction",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "Artificial Intelligence, SaaS, Construction, B2B",
     "yc_partner": "David Lieb (YC company page)",
-    "emails": "No public data found"
+    "emails": "No public data found (only Calendly link: calendly.com/rishi-rudus/30min, rudus.ai)"
   },
   "tags": [
     "Artificial Intelligence",
@@ -20,58 +20,28 @@
     "B2B"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-05-05T04:31:39.429Z",
+  "memoGeneratedAt": "2026-05-28T03:03:46.552Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 26,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 30,
+      "score": 41,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 29,
-    "EG": 44,
-    "NR": 44,
-    "PG": 40,
-    "PT": 26,
-    "SL": 36,
-    "VK": 30
+    "CB": 41,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 35.57,
-  "consolidatedRank": 136,
+  "consolidatedAvg": 41,
+  "consolidatedRank": 117,
   "paths": {
     "memo": "spring2026/memos/rudus.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/rudus.md",
-      "elad-gil": "spring2026/evals/elad-gil/rudus.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/rudus.md",
-      "paul-graham": "spring2026/evals/paul-graham/rudus.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/rudus.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/rudus.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/rudus.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/rudus.md"
     }
   }
 }

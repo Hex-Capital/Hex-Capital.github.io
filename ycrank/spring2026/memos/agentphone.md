@@ -4,100 +4,98 @@
 
 | Field | Value |
 |-------|-------|
-| Website | https://www.agentphone.to/ |
+| Website | https://agentphone.ai/ |
 | YC Page | https://www.ycombinator.com/companies/agentphone |
-| Batch | Spring 2026 (YC page) |
+| Batch | Spring 2026 |
 | Industry | B2B / B2B -> Infrastructure |
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
 | Tags | Artificial Intelligence, Developer Tools, API, Telecommunications |
-| YC Partner | David Lieb (YC page) |
-| Emails | No public data found (website lists a Discord and a mailto placeholder; no operational business email confirmed) |
+| YC Partner | David Lieb (YC company page) |
+| Emails | No public data found (contact form only at agentphone.ai/contact) |
 
 ## The Idea
 
-**Problem:** AI agents (voice receptionists, autonomous outbound workers, on-call alert handlers, coding agents) need to make and receive phone calls and SMS, but legacy telephony APIs (Twilio, Bandwidth) were built for human-developer-facing IVR flows, not for LLM agent loops with single-webhook event streams (agentphone.to website).
-
-**Approach:** Provisions US/Canadian phone numbers on demand via API that route both voice and SMS through one unified webhook, with real-time voice-to-text transcription streamed to that webhook (agentphone.to website). Ships SDKs for Python and Node.js, a REST API, and an MCP server for native integration with Claude Code, Cursor, OpenClaw, and Windsurf (agentphone.to website).
-
-**Differentiation:** Vapi, Retell AI, and Bland AI provide full voice-agent platforms (LLM + TTS + telephony bundled); AgentPhone instead provides the telephony layer with a developer-agent-native interface (single webhook, MCP server, SDK integrations with CrewAI and OpenAI Agents SDK per its GitHub org). Twilio is the underlying-style alternative but lacks MCP/agent-framework integrations (agentphone.to website; github.com/AgentPhone-AI).
-
-**Business Model:** No public pricing. The website navigation links to a `/pricing` page that returned no extractable content on WebFetch. [Inferred]: Most likely consumption-based pricing (per-number monthly + per-minute voice + per-message SMS) given the telephony-infrastructure category and competitor norms (Vapi at ~$0.05/min per Lindy review).
-
-**TAM/SAM:** Global Voice AI Agents market estimated at $2.4B in 2024 growing to $47.5B by 2034 at 34.8% CAGR (market.us, 2025 via search snippet). Conversational AI market $13.64B in 2025 → $42.51B by 2030 at 25.5% CAGR (Research and Markets via search snippet). No public SAM data found for the agent-telephony-infrastructure sub-segment.
-
-**GTM / Distribution:** [Inferred]: Bottom-up developer adoption via MCP server in Claude Code/Cursor/Windsurf and SDK integrations with agent frameworks (CrewAI, OpenAI Agents SDK), evidenced by the published repos at github.com/AgentPhone-AI. No paid GTM data found.
+- **Problem:** AI agents have no phone identity, so they cannot place/receive voice calls or SMS to humans and businesses; developers currently stitch together Twilio + STT + TTS + LLM orchestration (company website; agentphone.ai, May 2026).
+- **Approach:** Single API/SDK + MCP server that provisions US/Canada numbers and routes both voice (auto-transcribed) and SMS into one unified webhook, with TTS handled on the egress side (agentphone.ai, May 2026).
+- **Differentiation:** vs. Twilio — agent-native unified webhook with built-in transcription/TTS rather than raw telephony primitives (agentphone.ai); vs. Vapi/Retell/Bland — focuses on giving an agent a persistent phone-number identity for inbound/outbound voice + SMS rather than orchestrating outbound voice-only call campaigns (competitor positioning per retellai.com, superdupr.com, May 2026).
+- **Business Model:** [Inferred]: Consumption-based per-number + per-minute/per-message pricing, standard for telephony APIs; no pricing page is publicly exposed (agentphone.ai, May 2026).
+- **TAM/SAM:** Company cites "$2T global telecom industry" (agentphone.ai, May 2026); global telecom services market estimated at $2.10T in 2025 (Grand View Research, 2025); no public TAM/SAM data found for agent-specific telephony segment.
+- **GTM / Distribution:** Developer-led — Python/Node SDKs, REST API, and native MCP integration with Claude Code/Cursor; early users include teams at Google's Agent Development Kit, Replit, LangChain, Alchemy, Sim AI, and YC (agentphone.ai; YC company page, May 2026).
 
 ## Defensibility
 
-No defensibility signals found in public sources beyond early ecosystem placement (MCP integrations into 4 AI coding environments, GitHub org with 6 repos including framework-specific SDKs — github.com/AgentPhone-AI). [Inferred]: Potential moat could develop via switching costs (phone numbers tied to agent identities once provisioned and trusted by callers), regulatory carrier relationships (10DLC SMS registration, A2P compliance), and an integration network across agent frameworks — but none are proven at this stage.
-
-**Market structure:** No structural barrier identified at this stage. Twilio, Vonage, and Bandwidth own the underlying carrier relationships and could ship agent-native SDKs and MCP servers. [Inferred]: The structural question is whether agent-native packaging is a thin wrapper over Twilio (commoditizable) or a different product surface (webhook unification, transcription, MCP) that incumbents are slow to ship because their APIs are rate-card commitments to enterprise customers.
-
-**Commoditization risk:** High. The MCP server (13 stars, github.com/AgentPhone-AI/agentphone-mcp) is a thin protocol layer that any telephony provider or independent developer could replicate. Vapi, Retell, and Bland could add per-number provisioning APIs.
+- **Moat today:** No defensibility signals found in public sources beyond customer-logo concentration in agent-tooling vendors (Google ADK, LangChain, Replit per agentphone.ai).
+- **Future moat:** [Inferred]: Regulatory/compliance posture (KYC, A2P 10DLC registration, anti-fraud controls for autonomous callers) and an agent-identity reputation graph across carriers could harden over time; unproven now because the agent-calling category lacks established carrier policies.
+- **Market structure:** [Inferred]: Incumbents (Twilio) can replicate the unified webhook quickly, but carrier-level rules treating autonomous AI calls as a distinct compliance class would create a barrier that favors a purpose-built provider; no current regulation cited.
+- **Commoditization risk:** Bland AI ($65M raised, school of marketing, 2024), Vapi ($20M Series A, $130M valuation, bvp.com, Dec 2024), Retell AI ($5.1M raised, $50M ARR, arr.club), and Twilio (NYSE:TWLO, $5.1B FY25 revenue, futurumgroup.com) can all extend into agent-number provisioning using existing telephony stacks.
 
 ## Market & Traction
 
-**Traction signals:**
-- GitHub org github.com/AgentPhone-AI: 10 followers; flagship `agentphone-mcp` repo 13 stars / 1 fork; `skills` (Claude Code plugin) 2 stars; additional repos `crewai-agentphone`, `openai-agents-agentphone` (github.com/AgentPhone-AI, fetched May 2026).
-- Discord community at discord.gg/tmF9ZqcuFj (agentphone.to website); member count not retrievable.
-- No Product Hunt launch found in searches.
-- No press coverage found in TechCrunch, The Information, or other named publications via search.
-- Company Twitter/X, LinkedIn page: no public data found via search.
-- No revenue, user count, or paying customer data disclosed publicly.
-- Active job postings: no public data found.
-
-**Competitive landscape:**
-- **Vapi** ($20M Series A Dec 2024 at ~$130M post-money valuation, Sacra/Crunchbase via search snippet; 100K+ developers as of Dec 2024 per Vapi blog via search snippet) — full voice-agent platform bundling LLM+TTS+telephony; AgentPhone differentiates as telephony-only with agent-framework SDKs.
-- **Retell AI** ($5.1M+ raised as of early 2026 per search snippet; $50M ARR 2025, 50M+ calls/month per AgentMarketCap, Apr 2026 via search snippet) — voice agent platform focused on appointment scheduling and IVR navigation.
-- **Bland AI** ($40M Series B Jan 2025 per search snippet) — developer-first platform supporting self-hosted models; competes on infra control.
-- **Twilio** (NYSE: TWLO; revenue unknown specific to agent segment) — incumbent telephony API; lacks MCP/agent-framework integrations but owns carrier relationships.
-- **telli** (YC company; funding unknown) — AI phone agents focused on conversion; YC-portfolio adjacent (ycombinator.com/companies/telli).
-
-**Why now:** [Inferred]: Three enabling shifts in 12-24 months: (1) MCP protocol standardization (Anthropic, late 2024) making telephony-as-tool callable from agent IDEs; (2) AI agent frameworks (CrewAI, OpenAI Agents SDK released 2025) creating a developer surface that needs telephony primitives; (3) Voice AI agent market growing from $2.4B (2024) toward $47.5B (2034) at 34.8% CAGR (market.us via search snippet). No company-stated "why now" found.
+- **Traction signals:**
+  - Spring 2026 YC batch company, launched via YC Launch page "QNE-agentphone" (ycombinator.com/launches, 2026).
+  - Customer logos: Google Agent Development Kit, Replit, Y Combinator, Sim AI, LangChain, Alchemy building on AgentPhone (agentphone.ai; YC page, May 2026).
+  - Founder X follower counts not retrievable via WebFetch; handles @manav2modi and @themeetmodi confirmed (YC page, May 2026).
+  - No public revenue, user count, GitHub star count, Discord member count, or Product Hunt rank found.
+  - Hiring status listed as Not Hiring (YC page, May 2026).
+- **Competitors:**
+  - Bland AI ($65M total raised across 3 rounds incl. $40M Series B led by Emergence Capital; $3.8M revenue June 2024, getlatka.com): outbound voice-call platform with proprietary in-house speech models, not focused on agent-as-phone-identity.
+  - Vapi ($20M Series A led by Bessemer, $130M valuation, Dec 2024, bvp.com; "millions in revenue within 6 months"): bring-your-own-LLM/TTS/telephony orchestration layer, not a number-issuing identity layer.
+  - Retell AI ($5.1M seed led by Alt Capital, Crunchbase; $50M ARR per arr.club, $7.2M revenue per getlatka.com 2025): drag-and-drop voice agent builder integrating with Twilio for telephony rather than provisioning its own agent-identity numbers.
+  - Twilio (public, $5.1B FY25 revenue, +14% YoY; voice AI revenue +60% YoY in Q4 FY25, futurumgroup.com): underlying telephony incumbent and likely supplier, not agent-native.
+  - Synthflow (in-house telephony, sub-100ms latency claim, synthflow.ai/blog): full-stack voice agent platform overlapping on inbound voice.
+- **Why now:** [Inferred]: 2024–2026 emergence of agent runtimes (Google ADK, Claude Code/MCP, Cursor agents) crossed a usability threshold for agents to autonomously take real-world actions — Twilio reported voice AI revenue up 60% YoY in Q4 FY25 (futurumgroup.com), signaling production-scale agent telephony demand.
 
 ## Founders & Team
 
-**Manav Modi** — Co-founder
-- BS in Computer Engineering, University of Illinois Urbana-Champaign (UIUC) (YC page).
-- Per YC bio: led a major redesign of the Vogue app, scaling its user base from ~100K to over 1M (ycombinator.com/companies/agentphone).
-- Twitter/X: No public account found via search.
-- LinkedIn: linkedin.com/in/manavmodi1629 (associated with ROKMETRO per search snippet); headline not retrievable directly.
-- GitHub: github.com/manav2modi — 0 followers, 4 pinned repos, all contributions to UIUC's Rokwire/Rokmetro mobile platform (Illinois App, NEOM U app, in Dart/Go); personal site listed as www.manav2modi.com (returned ECONNREFUSED on fetch). Location listed: NYC.
-- Org GitHub: github.com/AgentPhone-AI/agentphone-mcp 13 stars (sole listed member: manav2modi).
-
-**Meet Modi** — Co-founder
-- YC bio: limited biographical details provided (ycombinator.com/companies/agentphone).
-- Twitter/X: No public account found via search.
-- LinkedIn: No public profile confirmed via search (multiple "Meet Modi" results not verifiable as this person).
-- GitHub: No public profile confirmed.
-
-**Co-founder relationship:** Shared surname "Modi"; no public data confirms whether they are siblings, relatives, or unrelated. No public data on co-founder history beyond shared listing as 2-person Spring 2026 YC team.
-
-**Founder-market fit:** [Inferred]: Manav Modi's documented experience scaling the Vogue consumer app 10x and working on UIUC's Rokwire mobile/services platform (Go backend, Flutter front-end) provides full-stack consumer-mobile and platform engineering background relevant to building telephony SDKs and webhook infrastructure. No domain-specific telephony or carrier-industry experience documented for either founder. No advisors, board members, or notable investors disclosed publicly beyond YC.
+- **Manav Modi (Co-founder):**
+  - Background: BS Computer Engineering, UIUC Grainger College (graduated 2023); engineer at Rokmetro shipping the Vogue app revamp that grew users from ~100K to 1M+, including Met Gala livestream feature credited in a Webby Award (manav2modi.com; YC page, 2026); also worked on GrayKea alumni-giving project (manav2modi.com).
+  - Twitter/X: @manav2modi (YC page); count not retrievable.
+  - LinkedIn: "AgentPhone" (linkedin.com/in/manav2modi/, headline per Bing snippet).
+  - GitHub: No public repo with notable star count found.
+- **Meet Modi (Co-founder):**
+  - Background: BS Computer Science & Linguistics, UCLA; All India Rank #1 in Computer Science; previously built AI Agent infrastructure on WhatsApp serving 280M+ businesses at Meta (YC company page, May 2026).
+  - Twitter/X: @themeetmodi (YC page); count not retrievable.
+  - LinkedIn: "AgentPhone" (linkedin.com/in/meetmodi-/).
+  - GitHub: No public repo with notable star count found.
+- **Co-founder relationship:** Brothers (per manav2modi.com personal site, "building AgentPhone with my co-founder (and brother) Meet").
+- **Founder-market fit:** Meet's prior role building AI-agent infrastructure on WhatsApp at Meta covers the messaging/agent-platform side; Manav's consumer-app scaling at Vogue covers the developer-product/scaling side (YC page; manav2modi.com, 2026); no advisors or named investors beyond YC found.
 
 ## Key Risks
 
-**Incumbent commoditization (Twilio, Vonage, Bandwidth):** The agent-native packaging (MCP server, unified webhook, framework SDKs) is a thin protocol layer over carrier APIs. Twilio could ship a competing MCP server in weeks. No structural carrier moat identified for AgentPhone (github.com/AgentPhone-AI repos are all open-source, MIT-style).
-
-**Voice-agent platform encroachment:** Vapi ($20M Series A, 100K developers per search snippet) and Retell ($50M ARR per search snippet) could expose phone-number-only APIs and use existing distribution to attack the telephony-infra segment. AgentPhone's per-number-only positioning may be squeezed between full-stack platforms above and Twilio below.
-
-**Telecom regulatory exposure:** US 10DLC SMS registration, STIR/SHAKEN voice attestation, and A2P compliance create operational overhead that scales with customer count. [Inferred]: A 2-person team will face capacity constraints managing carrier relationships, spam/fraud abuse, and emergency service compliance as volume grows. No public data on AgentPhone's compliance posture.
-
-**Founder name disambiguation / public footprint:** Meet Modi has no verifiable public footprint (LinkedIn, GitHub, Twitter) found in research. Manav Modi's GitHub shows 0 followers and prior work limited to UIUC platform projects, not telephony or AI infrastructure (github.com/manav2modi). Limited public technical track record on the agent/telephony domain.
+- **Incumbent substitution by Twilio:** Twilio supplies the underlying numbers and reported voice AI revenue +60% YoY in Q4 FY25 (futurumgroup.com); a Twilio-issued "agent number" SKU with a unified webhook would directly substitute the product. No mitigation cited.
+- **Crowded well-funded competitive set:** Bland ($65M), Vapi ($20M Series A at $130M), and Retell ($50M ARR) are already in market with overlapping telephony+agent offerings (sources above) and can extend into agent-identity numbering before AgentPhone establishes share.
+- **Regulatory/compliance exposure for autonomous calling:** US A2P 10DLC, STIR/SHAKEN, and carrier anti-spam rules treat unsolicited automated voice/SMS as high-risk; agent-driven outbound at scale risks number deregistration or carrier blocks. No mitigation publicly described on agentphone.ai.
+- **Name collision / brand ambiguity:** Multiple unrelated products use "AgentPhone" / "AI Phone Number" branding (e.g., AgenticCalling AI, PollyReach on Product Hunt; agentph.one, agentphone.to domains seen in search), creating SEO and trademark contention. No mitigation found.
+- **Pricing opacity / unproven monetization:** No public pricing or revenue figures available (agentphone.ai, May 2026), so unit economics and willingness-to-pay vs. Twilio passthrough costs are unverified.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $2.4B (2024) → $47.5B (2034) at 34.8% CAGR — Voice AI Agents Market (market.us, 2025 via search snippet); Conversational AI $13.64B (2025) → $42.51B (2030) at 25.5% CAGR (Research and Markets via search snippet) |
+| TAM | $2.10T global telecom services market 2025 (Grand View Research, 2025); company cites "$2T global telecom industry" (agentphone.ai, May 2026) |
 | SAM | No public data found |
-| Traction | GitHub org 10 followers, agentphone-mcp 13 stars / 1 fork (github.com/AgentPhone-AI, May 2026); skills repo 2 stars (github.com/AgentPhone-AI/skills); Discord community present, member count not retrievable (agentphone.to) |
-| Revenue Signal | No public data found (pricing page exists at /pricing but content not extractable on WebFetch) |
-| Founders | Manav Modi (Co-founder): BS Computer Engineering UIUC, led Vogue app redesign 100K→1M users (YC page). Meet Modi (Co-founder): no public bio details (YC page). |
-| Competitors | Vapi ($20M Series A Dec 2024 at ~$130M post-money, ARR unknown, 100K+ developers — Sacra via search snippet; full voice-agent platform); Retell AI ($5.1M+ raised, $50M ARR 2025 — search snippets; voice-agent platform for scheduling/IVR); Bland AI ($40M Series B Jan 2025, ARR unknown — search snippet; self-hosted voice infra); Twilio (NYSE: TWLO; agent-segment revenue unknown; incumbent telephony API); telli (YC; funding unknown; AI phone agents for conversion) |
-| Moat Signals | No public data found (early MCP integrations with Claude Code/Cursor/Windsurf/OpenClaw and SDKs for CrewAI/OpenAI Agents SDK per github.com/AgentPhone-AI, but no defensibility evidence) |
-| Risk Factors | Incumbent commoditization by Twilio/Vonage; voice-agent platform encroachment from Vapi/Retell/Bland; thin co-founder public technical footprint |
-| Founder Reach | Manav Modi: Twitter not found, LinkedIn linkedin.com/in/manavmodi1629 (count not retrievable), GitHub manav2modi 0 followers / agentphone-mcp 13 stars. Meet Modi: No public data found across Twitter, LinkedIn, GitHub. |
-| Distribution Signals | No Product Hunt launch found; no press coverage found in named publications; Discord community present (agentphone.to); MCP server published on GitHub for Claude Code/Cursor/Windsurf integration (github.com/AgentPhone-AI/agentphone-mcp, 13 stars) |
+| Traction | Customer logos: Google Agent Development Kit, Replit, Y Combinator, Sim AI, LangChain, Alchemy (agentphone.ai; YC page, May 2026); Spring 2026 YC Launch page live (ycombinator.com/launches/QNE, 2026) |
+| Revenue Signal | No public data found (no pricing page; agentphone.ai, May 2026) |
+| Founders | Manav Modi (Co-founder): UIUC CompE 2023, Vogue app 100K→1M+ users at Rokmetro, Webby. Meet Modi (Co-founder): UCLA CS & Linguistics, All India Rank #1 CS, ex-Meta WhatsApp AI agent infra for 280M+ businesses. |
+| Competitors | Bland AI ($65M raised, $3.8M revenue June 2024, outbound voice with proprietary speech models); Vapi ($20M Series A at $130M val, voice-agent orchestration layer); Retell AI ($5.1M raised, $50M ARR, drag-and-drop voice agent builder); Twilio (public, $5.1B FY25 revenue, telephony incumbent); Synthflow (in-house telephony, voice-agent platform) |
+| Moat Signals | No public data found |
+| Risk Factors | Twilio substitution, crowded funded competitors (Bland/Vapi/Retell), A2P/STIR-SHAKEN compliance for autonomous calls |
+| Founder Reach | Manav Modi: X @manav2modi (count not retrievable), LinkedIn /in/manav2modi (count not retrievable), GitHub not found; Meet Modi: X @themeetmodi (count not retrievable), LinkedIn /in/meetmodi- (count not retrievable), GitHub not found |
+| Distribution Signals | YC Launch page "QNE-agentphone" (ycombinator.com/launches, 2026); Python SDK, Node SDK, REST API, MCP server (agentphone.ai); Discord and GitHub linked from site (counts not retrievable); no Product Hunt page for AgentPhone itself found |
 | Emails | No public data found |
+
+Sources:
+- [AgentPhone YC company page](https://www.ycombinator.com/companies/agentphone)
+- [AgentPhone YC Launch page](https://www.ycombinator.com/launches/QNE-agentphone-phone-numbers-for-ai-agents)
+- [agentphone.ai](https://agentphone.ai/)
+- [Manav Modi personal site](https://manav2modi.com/)
+- [Bland AI Series B announcement](https://www.bland.ai/blogs/bland-raises-a-40m-series-b)
+- [Getlatka — Bland AI revenue](https://getlatka.com/companies/bland.com)
+- [Bessemer — Vapi Series A](https://www.bvp.com/news/our-investment-in-vapi-the-voice-ai-developer-platform)
+- [Vapi $20M Series A blog](https://vapi.ai/blog/vapi-secures-20m-to-start-the-voice-revolution-2)
+- [Retell AI seed announcement](https://www.retellai.com/blog/seed-announcement)
+- [Retell AI $50M ARR](https://www.arr.club/retell/retell-scales-to-50m-arr-with-a-team-of-30-people)
+- [Getlatka — Retell AI revenue](https://getlatka.com/companies/retellai.com)
+- [Futurum — Twilio Q4 FY25](https://futurumgroup.com/insights/twilio-q4-fy-2025-revenue-beat-margin-expansion-ai-voice-momentum/)
+- [Grand View Research — telecom services market](https://www.grandviewresearch.com/industry-analysis/global-telecom-services-market)

@@ -1,0 +1,47 @@
+{
+  "slug": "memoir",
+  "name": "Memoir",
+  "oneLiner": "AI-Native Marketing for Developer Tools",
+  "metadata": {
+    "website": "https://www.trymemoir.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/memoir",
+    "batch": "Spring 2026 (P26, formerly X26) (YC page)",
+    "industry": "B2B / B2B -> Marketing",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Developer Tools, Analytics, Marketing, AI",
+    "yc_partner": "Andrew Miklas (YC page)",
+    "emails": "No public data found (only Calendly link `calendly.com/maanavagrawal` listed on trymemoir.ai)"
+  },
+  "tags": [
+    "Developer Tools",
+    "Analytics",
+    "Marketing",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-28T03:04:36.911Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 28,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 28,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
+  },
+  "consolidatedAvg": 28,
+  "consolidatedRank": 181,
+  "paths": {
+    "memo": "spring2026/memos/memoir.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/memoir.md"
+    }
+  }
+}

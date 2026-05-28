@@ -10,8 +10,8 @@
     "team_size": "5",
     "location": "San Francisco, CA, USA; Remote",
     "tags": "Fintech, Investing, AI",
-    "yc_partner": "Aaron Epstein",
-    "emails": "demo@kimpton.ai, info@kimpton.ai (kimpton.ai website)"
+    "yc_partner": "Aaron Epstein (YC company page)",
+    "emails": "info@kimpton.ai (kimpton.ai website)"
   },
   "tags": [
     "Fintech",
@@ -19,58 +19,28 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-22T23:42:08.901Z",
+  "memoGeneratedAt": "2026-05-28T02:53:01.150Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 66,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 59,
+      "score": 51,
       "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 41,
-      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 38,
-    "EG": 44,
-    "NR": 66,
-    "PG": 59,
-    "PT": 40,
-    "SL": 35,
-    "VK": 41
+    "CB": 51,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 46.14,
-  "consolidatedRank": 38,
+  "consolidatedAvg": 51,
+  "consolidatedRank": 49,
   "paths": {
     "memo": "spring2026/memos/kimpton-ai.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/kimpton-ai.md",
-      "elad-gil": "spring2026/evals/elad-gil/kimpton-ai.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/kimpton-ai.md",
-      "paul-graham": "spring2026/evals/paul-graham/kimpton-ai.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/kimpton-ai.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/kimpton-ai.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/kimpton-ai.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/kimpton-ai.md"
     }
   }
 }

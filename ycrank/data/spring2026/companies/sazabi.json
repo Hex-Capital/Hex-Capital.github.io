@@ -5,7 +5,7 @@
   "metadata": {
     "website": "https://www.sazabi.com/",
     "yc_page": "https://www.ycombinator.com/companies/sazabi",
-    "batch": "Spring 2026",
+    "batch": "Spring 2026 (P26)",
     "industry": "B2B / B2B -> Infrastructure",
     "team_size": "10",
     "location": "San Francisco, CA, USA",
@@ -17,58 +17,28 @@
     "Developer Tools"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-22T23:59:48.928Z",
+  "memoGeneratedAt": "2026-05-28T03:07:38.670Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 50,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 61,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 65,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 71,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 45,
+      "score": 48,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 50,
-    "EG": 61,
-    "NR": 65,
-    "PG": 71,
-    "PT": 41,
-    "SL": 38,
-    "VK": 45
+    "CB": 48,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 53,
-  "consolidatedRank": 15,
+  "consolidatedAvg": 48,
+  "consolidatedRank": 64,
   "paths": {
     "memo": "spring2026/memos/sazabi.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/sazabi.md",
-      "elad-gil": "spring2026/evals/elad-gil/sazabi.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/sazabi.md",
-      "paul-graham": "spring2026/evals/paul-graham/sazabi.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/sazabi.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/sazabi.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/sazabi.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/sazabi.md"
     }
   }
 }

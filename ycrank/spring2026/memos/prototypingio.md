@@ -6,107 +6,98 @@
 |-------|-------|
 | Website | https://www.prototyping.io |
 | YC Page | https://www.ycombinator.com/companies/prototypingio |
-| Batch | Spring 2026 (YC company page) |
+| Batch | Spring 2026 |
 | Industry | Industrials / Industrials -> Manufacturing and Robotics |
 | Team Size | 2 |
 | Location | Sunnyvale, CA, USA |
-| Tags | Artificial Intelligence, Hardware, Manufacturing, Automation |
+| Tags | Hardware, Manufacturing, Automation, AI |
 | YC Partner | Nicolas Dessaigne (YC company page) |
 | Emails | No public data found |
 
 ## The Idea
 
-**Problem:** Mechanical engineers face slow, fragmented workflows moving from CAD design to a usable prototype part (Prerit Oberai, via search snippet of YC profile). Per the YC Spring 2026 RFS framing referenced by Group Partner Nicolas Dessaigne, "the next generation of great hardware companies will be built on much faster iteration loops" and the underlying infrastructure does not yet exist (search snippet from YC RFS coverage). Today, hardware teams source CNC parts via brokers/marketplaces (Xometry, Fictiv, Protolabs Network) or local job shops, with quote and DFM cycles often taking days.
-
-**Approach:** A platform that ingests a CAD upload and runs an AI-driven workflow: design-intent capture, manufacturability review, automated process/machine selection, and automated machine programming with QC (prototyping.io homepage). Stated capabilities: 3/4/5-axis milling, turning, and EDM; 40+ materials including aluminum alloys, stainless, titanium, plastics; tolerances down to ±0.0001"; no minimum order quantity (prototyping.io homepage).
-
-**Differentiation:** Versus marketplace incumbents (Xometry, Fictiv, Hubs) that route jobs to a partner-shop network, Prototyping.io positions itself as an "AI-native manufacturing platform" automating the full design→production pipeline (search snippet, Prerit Oberai bio). Versus vertically integrated AI-factory operators like Hadrian and VulcanForms, the public site does not disclose whether Prototyping.io owns its production floor or operates an asset-light model. [Inferred]: Based on the "no minimums" and software-first language on the homepage, the company likely runs a hybrid model coordinating partner CNC shops with proprietary DFM/CAM software, but this is not confirmed.
-
-**Business Model:** No pricing page is published (prototyping.io homepage; site uses a contact/waitlist form). [Inferred]: Most likely monetization is per-part transactional pricing (quote-to-order) consistent with peers Xometry/Fictiv, with margin captured between customer quote and shop-floor cost.
-
-**TAM/SAM:** Online CNC Machining Service Market estimated at USD 1.77B in 2026, projected USD 3.56B by 2035 at 7.4% CAGR (Business Research Insights / market report, via search snippet). Broader global CNC machine tool market USD 79–108B in 2026 (Mordor Intelligence; Cognitive Market Research, via search snippets). US Machine Shop Services industry covered by IBISWorld 2026 report (no figure retrieved).
-
-**GTM / Distribution:** No public GTM data. [Inferred]: Likely inbound waitlist + founder-led outbound to hardware startups and prototyping engineers, given YC P26 timing, the waitlist-only website, and Nicolas Dessaigne's public RFS targeting hardware-iteration infrastructure (YC RFS, via search snippet).
+- **Problem:** Hardware engineers needing CNC-machined, sheet metal, 3D-printed, injection-molded, extrusion, and die-cast prototypes face slow, expensive sourcing via traditional shops or marketplaces (prototyping.io website).
+- **Approach:** AI system that ingests CAD, performs manufacturability analysis, then automates production planning, machine program generation, and quality control across multiple processes with quoted ±0.0002" minimum tolerances and no MOQ (prototyping.io website).
+- **Differentiation:** vs. Xometry/Fictiv (managed marketplace of 250-300+ vendor partners per Fictiv/Protolabs Network pages, RapidDirect 2025) and Protolabs (in-house factories, founded 1999, Maple Plain MN, Pernas Research) — [Inferred]: Prototyping.io is positioning as AI-native end-to-end automation of design intent → machine program rather than a quoting/marketplace layer (prototyping.io website).
+- **Business Model:** No pricing disclosed; site is gated as "early access" waitlist (prototyping.io website); [Inferred]: per-part consumption pricing comparable to Xometry/Protolabs given parts-on-demand model.
+- **TAM/SAM:** Global Online CNC Machining Service Market est. $1.77B in 2026, $3.56B by 2035, 7.4% CAGR (Business Research Insights, 2025); broader CNC Machine market $81B–$109B in 2025 (Fortune Business Insights, SkyQuest, 2025).
+- **GTM / Distribution:** Waitlist signup on prototyping.io (website); [Inferred]: direct-to-engineer self-serve uploader (CAD → instant quote) consistent with Xometry/Fictiv playbook, supported by YC SUS network introductions given Spring 2026 batch membership (YC page).
 
 ## Defensibility
 
-No defensibility signals (patents, proprietary data, exclusive supply) found in public sources. [Inferred]: Potential moats could develop via (a) a proprietary DFM/CAM dataset built from accumulated CAD uploads and shop outcomes, (b) lock-in with a managed shop network, or (c) automated machine programming reducing per-part variable cost — none are validated at this stage.
-
-**Market structure:** No structural barrier identified at this stage. Marketplace incumbents (Xometry $686.6M FY2025 revenue, Xometry investor release via search snippet) and vertically-integrated AI-factory operators (Hadrian, $730M raised, $1.6B valuation, The Robot Report / TechCrunch July 2025) operate adjacent models that could expand into the AI-native quoting/automation segment without channel conflict.
-
-**Commoditization risk:** AI-driven DFM and instant-quoting features have been launched by multiple incumbents (e.g., MakerVerse "AI price calculation with manual engineering review," via search snippet). [Inferred]: A two-person team can build a CAD-upload + LLM-DFM frontend in months; durable advantage will depend on shop integration and pricing accuracy, neither of which is publicly demonstrated.
+- **Moat today:** No defensibility signals found in public sources; product is in early-access waitlist (prototyping.io website).
+- **Future moat:** [Inferred]: Proprietary dataset of CAD → manufacturability outcomes and machine program traces, building a feedback loop that improves auto-DFM and toolpath generation as throughput grows; unproven now because no order volume is disclosed.
+- **Market structure:** [Inferred]: Incumbent marketplaces (Xometry, Fictiv) rely on third-party vendor networks (250–300+ partners per Protolabs Network, Fictiv pages, RapidDirect 2025) — fully automating machine-program generation cannibalizes the human estimator/CAM-programmer labor that anchors their unit economics, creating channel conflict; Protolabs owns in-house fleet but is built around its proprietary quoting stack (Pernas Research).
+- **Commoditization risk:** Factorem already markets itself as "AI-native full-stack" combining manufacturing, fulfillment, and logistics (Factorem.co), and Xometry's AI quoting engine is in production (RapidDirect 2025) — the AI-quoting layer is replicable; defensibility hinges on closing the loop to machine programs.
 
 ## Market & Traction
 
-**Traction signals:**
-- Backed by Y Combinator, Spring 2026 batch (YC company page).
-- Mentioned in YC RFS coverage as an example of P26 hardware-manufacturing infrastructure: "Hlabs building actuators, Prototyping.io turning designs into mechanical parts in days" (search snippet, YC RFS coverage).
-- Website is in waitlist mode; no customer logos, testimonials, or revenue figures disclosed (prototyping.io homepage).
-- No Product Hunt launch found ("Prototyping.io" Product Hunt search returned unrelated results).
-- No press coverage found in TechCrunch, The Information, or trade press as of search date.
-- Twitter/X follower counts and LinkedIn company-page follower counts: not retrievable via search.
-- No active job postings located on YC jobs.
-- No Discord/Slack community found.
-
-**Competitive landscape:**
-- **Xometry** ($200M raised over 11 rounds, latest $250M Feb 2022, Tracxn via search snippet; FY2025 revenue $686.6M, +25.9% YoY, Xometry investor release via search snippet) — public marketplace routing jobs to partner shops; broadest material/process coverage. Differs from Prototyping.io by relying on shop-side quoting rather than AI-native automation.
-- **Hadrian** ($730M total raised across 8 rounds; $260M round July 2025, TechCrunch; $1.6B valuation Jan 2026, The Robot Report; ~$3M revenue 2024, search snippet) — vertically integrated autonomous factories for aerospace/defense parts via "Opus" software stack. Differs by owning physical factories and targeting regulated end-markets.
-- **Fictiv** — partner-shop marketplace; "premium pricing model with higher costs but closer support for complex projects" (Unionfab/Haizol comparisons via search snippet). Funding/revenue: no public data found in this search.
-- **Protolabs / Protolabs Network (Hubs)** — incumbent rapid-prototyping operator with public-company financials; CNC, injection molding, 3D printing in days (search snippet).
-- **VulcanForms** — additive-manufacturing focused; "secured the most recent funding round in February 2026" (search snippet, no figure retrieved).
-- **MakerVerse** — "combines AI price calculation with manual engineering review" (search snippet); Europe-centric.
-
-**Why now:** [Inferred]: Specific catalysts cited indirectly via YC's Spring 2026 RFS framing — (1) LLM/multimodal models reaching a threshold where geometric DFM analysis from CAD is tractable without per-part human engineering, (2) renewed US industrial-policy interest in domestic hardware manufacturing reflected in Hadrian's $260M July 2025 round and Mesa expansion (TechCrunch July 2025), (3) Nicolas Dessaigne explicitly soliciting startups that "produce parts dramatically faster" in the YC RFS (search snippet). Not stated as causal by the company itself.
+- **Traction signals:**
+  - Y Combinator backing, Spring 2026 batch (YC company page).
+  - Twitter/X: @prototyping_io exists (YC company page); follower count not retrievable.
+  - LinkedIn: linkedin.com/company/prototyping-io exists (YC company page); follower count not retrievable.
+  - Website in "early access" waitlist state; no customer logos, no public revenue, no press coverage found (prototyping.io website; web search May 2026).
+  - No Product Hunt launch found; search returned only unrelated "Proto.io" (Product Hunt search, May 2026).
+- **Competitors:**
+  - Xometry ($687M total revenue FY2025, $630M marketplace +30% YoY, NASDAQ:XMTR; VoxelMatters, 2025): public AI-powered marketplace with 250+ vendor network — broader scale, but human-mediated quoting and fulfillment.
+  - Protolabs ($533M revenue 2026, 12.1% YoY growth, 44.5% gross margin; PitchGrade 2026): in-house automated factories in US/EU — owns fleet but legacy quoting stack predates LLM-era DFM.
+  - Fictiv ($200M raised, >$300M post-money valuation, agreement to join MISUMI; web search 2025): global multi-region managed marketplace, 300+ manufacturers — service-led with project management overlay.
+  - Factorem (revenue unknown; Factorem.co 2025): self-described "AI-native full-stack" on-demand manufacturer — closest direct positioning to Prototyping.io's stated thesis.
+  - Geomiq, RapidDirect, MakerVerse, Hubs/Protolabs Network (revenue unknown; RapidDirect 2025, MakerVerse 2026): regional/vertical marketplaces.
+- **Why now:** [Inferred]: LLM/vision model capability now sufficient to parse CAD geometry and generate manufacturability feedback at quoting speed — Xometry shipped AI-driven instant quoting (RapidDirect 2025) and Factorem launched as AI-native (Factorem.co 2025), indicating the technical threshold was crossed in the prior 12–24 months.
 
 ## Founders & Team
 
-**Revanth Bodepudi** — Founder & CEO
-- MS Aerospace Engineering, University of Texas at Austin, May 2019, advised by Dr. Kenneth Liechti (UT Austin AE news; UT MRSEC profile via search snippet).
-- Graduate research at NSF MRSEC on Germanium Nanowire Membrane/Aerogel mechanical properties; developed bulge-test experiment for porous nanonetwork structures (UT MRSEC profile, via search snippet).
-- Originally from India; undergraduate at IIT Bhubaneswar (IITBBS Alumni Network listing, via search snippet).
-- Previously at Schlumberger, Houston after UT graduation (search snippet).
-- Twitter/X: @revanth279 — follower count not retrievable (YC profile).
-- LinkedIn: linkedin.com/in/revanth279 — headline not retrievable (YC profile).
-- GitHub: github.com/Revanth listed in search results — notable repo / star count not retrievable.
-- Personal blog: revanthp.github.io (search snippet).
-
-**Prerit Oberai** — Cofounder & CTO
-- Education: University of Illinois at Urbana-Champaign (search snippet of LinkedIn). One secondary aggregator (getprog.ai via search snippet) lists BS Electrical & Computer Engineering at CU Boulder, MS Electrical Engineering, and PhD work in Computer Engineering at UIUC; cross-source consistency not verified.
-- Previously: Software Engineer at Microsoft, including AI systems work; prior roles cited at Arista and University of Colorado (search snippets).
-- Self-describes as a mechanical engineer who has "worked across different industries" observing fragmented hardware-build processes (search snippet of YC bio).
-- Twitter/X: @ThePreritOberai — follower count not retrievable (YC profile).
-- LinkedIn: linkedin.com/in/preritoberai — headline "Prototyping.io" (search snippet).
-- GitHub: github.com/PreritO — notable repo / star count not retrievable.
-- Personal site: prerit.website (search snippet).
-
-**Co-founder relationship:** No public data on prior shared employer or university overlap from the Phase 3 evidence (Bodepudi: UT Austin / Schlumberger; Oberai: UIUC / Microsoft).
-
-**Founder-market fit:** Bodepudi brings mechanical/aerospace research credentials (UT Austin MS, MRSEC nanomaterials) and oilfield-services hardware experience (Schlumberger), aligned with the CAD-to-CNC problem domain. Oberai contributes software/AI engineering depth from Microsoft alongside a mechanical-engineering background. The pairing maps to the company's "AI-native manufacturing" positioning. No advisors, board members, or named angels disclosed in public sources beyond YC.
+- **Revanth Bodepudi (Founder & CEO):**
+  - Background: B.Tech from IIT Bhubaneswar (IITBBS Alumni Network); MS in Aerospace Engineering, UT Austin, May 2019, advised by Prof. Kenneth M. Liechti, NSF MRSEC graduate research assistant, thesis on Germanium Nanowire Membrane and Aerogel (UT Austin AE news 2019; UT Austin thesis repository); joined Schlumberger in Houston post-graduation (UT Austin news 2019).
+  - Twitter/X: No public account found.
+  - LinkedIn: linkedin.com/in/revanth279 (search result); headline not retrievable.
+  - GitHub: No public repos confirmed under this name (search result).
+- **Prerit Oberai (Cofounder & CTO):**
+  - Background: BS Electrical & Computer Engineering and MS Electrical Engineering, University of Colorado Boulder, Presidents Leadership Class (CU Boulder PLC page); prior roles include containerized datacenter networking research at CU Boulder, embedded systems and Flutter mobile development at POSSIBLE Mobile, and NASA satellite mission-operations tooling (getprog.ai profile).
+  - Twitter/X: No public account found.
+  - LinkedIn: linkedin.com/in/preritoberai — "Prototyping.io" (LinkedIn search result).
+  - GitHub: @PreritO (github.com/PreritO); top repo/star count not retrievable from search.
+- **Co-founder relationship:** No public data on co-founder history; their educational tracks (IIT Bhubaneswar/UT Austin vs. CU Boulder) and prior employers (Schlumberger vs. POSSIBLE Mobile/NASA tooling) do not overlap in retrieved sources.
+- **Founder-market fit:** CEO has aerospace-mechanical research and oilfield-services engineering background (UT Austin 2019; Schlumberger), and CTO has shipped embedded, mobile, and satellite mission-ops software (getprog.ai) — pairing aligns with the mechanical-domain + AI/automation thesis; no advisors, board members, or non-YC investors found in public sources.
 
 ## Key Risks
 
-**Incumbent feature replication:** Xometry (FY2025 revenue $686.6M, investor release via search snippet) and MakerVerse (search snippet) already ship AI-driven instant quoting and DFM. Prototyping.io's stated automation surface (DFM + machine programming + QC) overlaps with capabilities incumbents have been building since 2022; no public differentiator (proprietary dataset, exclusive shop network, patents) was identified.
-
-**Capital intensity vs. peers:** If the company chooses vertical integration, Hadrian's $730M raised and $200M Mesa facility (Arizona Commerce, July 2025) sets a steep capital bar. If asset-light, the company competes on margin against Xometry's mature shop network. The chosen model is not disclosed publicly.
-
-**Technical feasibility of full automation:** Public claim is "automated machine programming and quality control" with ±0.0001" tolerance across 3/4/5-axis milling, turning, and EDM (prototyping.io homepage). End-to-end CAM automation across multi-axis processes at production tolerance is unproven publicly by the team; no demos, case studies, or part galleries are shown on the site.
-
-**No public traction signal:** Site is in waitlist state with no customers, revenue, press, or community footprint identified — limits ability to validate demand at the time of research.
-
-**Founder execution scope:** Two founders covering CAD ingestion, CAM/DFM ML, shop-floor integration, sales, and operations. [Inferred]: Likely requires near-term hiring across mechanical and ML engineering; YC profile lists "Hiring: False" at time of capture.
+- **Incumbent AI-quoting parity:** Xometry has already deployed AI-powered real-time pricing/DFM (RapidDirect 2025) and Factorem markets an AI-native full-stack (Factorem.co 2025), so the "AI-driven manufacturing" positioning is not unique; mitigation requires Prototyping.io to extend automation past quoting into machine program generation (claimed on prototyping.io website but unverified).
+- **Capacity / fulfillment risk:** Site lists CNC, sheet metal, 3D printing, injection molding, extrusion, die casting with 40+ materials (prototyping.io website) but team is 2 people (YC page) with no disclosed factory partners or owned equipment — execution depends on yet-unannounced supplier network or contract shops; no public data on signed capacity.
+- **Capital intensity vs. funded competitors:** Fictiv has raised $200M and is joining MISUMI (web search 2025), Protolabs operates owned in-house factories (Pernas Research), and Xometry holds $219M cash + $250M convertible notes (VoxelMatters 2025) — competitive working capital and vendor onboarding requirements may outpace a YC pre-seed round.
+- **Technical feasibility (auto-CAM):** Automated generation of production-grade CNC machine programs across diverse geometries and processes (CNC + sheet metal + injection molding + die casting) is not a solved problem in public literature; no benchmark, demo, or customer-validated tolerance/yield data is published (prototyping.io website shows ±0.0002" claim without third-party validation).
+- **Name disambiguation:** "Proto.io" is an unrelated UI prototyping product with active Product Hunt presence (Product Hunt) — risks SEO/brand collision and confounds traction tracking.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Online CNC Machining Service Market $1.77B in 2026 → $3.56B by 2035 at 7.4% CAGR (Business Research Insights via search snippet); broader CNC machine tool market $79–108B in 2026 (Mordor Intelligence; Cognitive Market Research, via search snippets) |
+| TAM | Online CNC Machining Service Market $1.77B (2026), $3.56B by 2035, 7.4% CAGR (Business Research Insights, 2025); broader CNC Machine market $81B–$109B in 2025 (Fortune Business Insights / SkyQuest, 2025) |
 | SAM | No public data found |
-| Traction | YC Spring 2026 batch (YC company page); referenced in YC RFS coverage as P26 example (search snippet); waitlist-only homepage with no customer logos (prototyping.io); no Product Hunt launch found; social follower counts not retrievable |
-| Revenue Signal | No public data found (no pricing page; waitlist signup only — prototyping.io homepage) |
-| Founders | Revanth Bodepudi (CEO): MS Aerospace Engineering UT Austin 2019, ex-Schlumberger, IIT Bhubaneswar undergrad. Prerit Oberai (CTO): UIUC (and per aggregator CU Boulder undergrad), ex-Microsoft software/AI engineer. |
-| Competitors | Xometry ($200M raised, $686.6M FY2025 revenue — Tracxn / Xometry investor release via search snippets; partner-shop marketplace), Hadrian ($730M raised, $1.6B valuation Jan 2026, ~$3M revenue 2024 — TechCrunch / The Robot Report via search snippets; vertically integrated autonomous factories), Fictiv (funding/revenue: no public data found; partner-shop marketplace with premium positioning per Unionfab via search snippet), Protolabs (public co; rapid prototyping incumbent per search snippet), VulcanForms (Feb 2026 funding round — amount not retrieved per search snippet; additive focus) |
+| Traction | YC Spring 2026 batch (YC page); early-access waitlist live (prototyping.io website, May 2026); no users, revenue, or press disclosed |
+| Revenue Signal | No public data found (no pricing page; waitlist gate) |
+| Founders | Revanth Bodepudi (CEO): IIT Bhubaneswar; MS Aerospace UT Austin 2019; ex-Schlumberger Houston. Prerit Oberai (CTO): BS ECE + MS EE CU Boulder; ex-POSSIBLE Mobile, NASA satellite mission-ops tooling. |
+| Competitors | Xometry ($687M FY2025 revenue, NASDAQ:XMTR, marketplace + AI quoting); Protolabs ($533M revenue 2026, in-house factories); Fictiv ($200M raised, $300M+ post-money, joining MISUMI, managed marketplace); Factorem (revenue unknown, AI-native full-stack); Geomiq/RapidDirect/MakerVerse (revenue unknown, regional marketplaces) |
 | Moat Signals | No public data found |
-| Risk Factors | Feature replication by Xometry/MakerVerse, capital-intensity vs. Hadrian, unproven full multi-axis CAM automation at ±0.0001" |
-| Founder Reach | Revanth Bodepudi: Twitter @revanth279 count not retrievable, LinkedIn /in/revanth279 count not retrievable, GitHub github.com/Revanth stars not retrievable. Prerit Oberai: Twitter @ThePreritOberai count not retrievable, LinkedIn /in/preritoberai count not retrievable, GitHub github.com/PreritO stars not retrievable (all per YC profile and search snippets) |
-| Distribution Signals | No public data found (no Product Hunt launch, no press coverage, no Discord/Slack community, no active YC job postings located) |
+| Risk Factors | Incumbent AI-quoting parity, fulfillment capacity unproven, auto-CAM technical feasibility |
+| Founder Reach | Bodepudi: Twitter not found, LinkedIn /in/revanth279, GitHub not confirmed. Oberai: Twitter not found, LinkedIn /in/preritoberai, GitHub @PreritO (stars not retrievable) |
+| Distribution Signals | Waitlist on prototyping.io (May 2026); @prototyping_io on X and linkedin.com/company/prototyping-io exist (YC page, follower counts not retrievable); no Product Hunt launch found |
 | Emails | No public data found |
+
+Sources:
+- [Prototyping.io – Y Combinator](https://www.ycombinator.com/companies/prototypingio)
+- [Prototyping.io website](https://www.prototyping.io)
+- [Prerit Oberai – LinkedIn](https://www.linkedin.com/in/preritoberai/)
+- [Prerit Oberai – CU Boulder PLC](https://www.colorado.edu/plc/prerit-oberai)
+- [PreritO – GitHub](https://github.com/PreritO)
+- [Revanth Bodepudi – UT Austin MRSEC](https://mrsec.utexas.edu/profiles/revanth-bodepudi)
+- [Class of 2019 – UT Austin Aerospace Engineering](https://www.ae.utexas.edu/news/congratulations-class-of-2019)
+- [Bodepudi Revanth – IIT Bhubaneswar Alumni](https://alumni.iitbbs.ac.in/p/bodepudi-revanth.dz)
+- [Xometry FY2025 results – VoxelMatters](https://www.voxelmatters.com/xometry-reports-record-q4-and-strong-fy-2025-results/)
+- [Xometry – Pernas Research](https://pernasresearch.com/research-vault/xmtr-xometry-the-future-digital-manufacturing-leviathan/)
+- [Protolabs – PitchGrade 2026](https://pitchgrade.com/companies/proto-labs-inc)
+- [Top 13 Xometry Alternatives – RapidDirect 2025](https://www.rapiddirect.com/blog/top-13-xometry-competitors/)
+- [Fictiv – Protolabs Competitor](https://www.fictiv.com/protolabs-competitor-alternative)
+- [Online CNC Machining Service Market – Business Research Insights](https://www.businessresearchinsights.com/market-reports/online-cnc-machining-service-market-113348)
+- [CNC Machine Market – Fortune Business Insights](https://www.fortunebusinessinsights.com/industry-reports/computer-numerical-controls-cnc-machine-tools-market-101707)

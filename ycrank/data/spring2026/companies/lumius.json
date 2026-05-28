@@ -6,12 +6,12 @@
     "website": "https://www.lumius-imaging.com",
     "yc_page": "https://www.ycombinator.com/companies/lumius",
     "batch": "Spring 2026 (P26)",
-    "industry": "Healthcare / Medical Devices",
+    "industry": "Healthcare / Healthcare -> Medical Devices",
     "team_size": "4",
     "location": "Durham, NC, USA",
     "tags": "Hard Tech, Medical Devices, Digital Health",
-    "yc_partner": "Nicolas Dessaigne",
-    "emails": "No public data found"
+    "yc_partner": "Nicolas Dessaigne (YC page)",
+    "emails": "contact@lumius-imaging.com (YC page)"
   },
   "tags": [
     "Hard Tech",
@@ -19,58 +19,28 @@
     "Digital Health"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-22T23:39:16.090Z",
+  "memoGeneratedAt": "2026-05-28T02:50:24.662Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 62,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 56,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 54,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 67,
-      "tier": "Invest"
-    },
-    "vinod-khosla": {
       "score": 62,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 53,
-    "EG": 34,
-    "NR": 62,
-    "PG": 56,
-    "PT": 54,
-    "SL": 67,
-    "VK": 62
+    "CB": 62,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 55.43,
-  "consolidatedRank": 6,
+  "consolidatedAvg": 62,
+  "consolidatedRank": 5,
   "paths": {
     "memo": "spring2026/memos/lumius.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/lumius.md",
-      "elad-gil": "spring2026/evals/elad-gil/lumius.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/lumius.md",
-      "paul-graham": "spring2026/evals/paul-graham/lumius.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/lumius.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/lumius.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/lumius.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/lumius.md"
     }
   }
 }

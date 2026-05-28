@@ -1,14 +1,14 @@
 {
   "slug": "callab-ai",
   "name": "Callab AI",
-  "oneLiner": "AI voice agents for on-prem PBX stacks.",
+  "oneLiner": "AI voice agents for legacy telephony systems.",
   "metadata": {
     "website": "https://callab.ai",
     "yc_page": "https://www.ycombinator.com/companies/callab-ai",
-    "batch": "Spring 2026",
+    "batch": "Spring 2026 (P26)",
     "industry": "B2B / B2B -> Operations",
     "team_size": "7",
-    "location": "UAE / Tunisia (Wamda, Mar 2024)",
+    "location": "San Francisco, CA, USA",
     "tags": "Artificial Intelligence, B2B, Call Center",
     "yc_partner": "Tom Blomfield",
     "emails": "No public data found"
@@ -19,58 +19,33 @@
     "Call Center"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-22T23:44:00.205Z",
+  "memoGeneratedAt": "2026-05-28T02:53:26.648Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 46,
+      "score": 55,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
       "score": 43,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 41,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 46,
-    "EG": 40,
-    "NR": 53,
-    "PG": 52,
-    "PT": 35,
-    "SL": 43,
-    "VK": 41
+    "CB": 55,
+    "EG": 43,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 44.29,
-  "consolidatedRank": 46,
+  "consolidatedAvg": 49,
+  "consolidatedRank": 54,
   "paths": {
     "memo": "spring2026/memos/callab-ai.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/callab-ai.md",
-      "elad-gil": "spring2026/evals/elad-gil/callab-ai.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/callab-ai.md",
-      "paul-graham": "spring2026/evals/paul-graham/callab-ai.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/callab-ai.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/callab-ai.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/callab-ai.md"
+      "elad-gil": "spring2026/evals/elad-gil/callab-ai.md"
     }
   }
 }

@@ -1,76 +1,48 @@
 {
   "slug": "saudara-ai",
   "name": "Saudara AI",
-  "oneLiner": "AI-native Sourcing Agency",
+  "oneLiner": "AI sourcing broker connecting brands with vetted overseas factories",
   "metadata": {
     "website": "https://saudara.ai",
     "yc_page": "https://www.ycombinator.com/companies/saudara-ai",
-    "batch": "Spring 2026",
+    "batch": "Spring 2026 (P26)",
     "industry": "B2B / B2B",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Marketplace, B2B, AI",
+    "tags": "B2B, Logistics, Manufacturing, Procurement, AI",
     "yc_partner": "David Lieb",
     "emails": "No public data found"
   },
   "tags": [
-    "Marketplace",
     "B2B",
+    "Logistics",
+    "Manufacturing",
+    "Procurement",
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-22T23:31:17.153Z",
+  "memoGeneratedAt": "2026-05-28T02:41:45.314Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 54,
+      "score": 60,
       "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 27,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 31,
-      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 42,
-    "EG": 39,
-    "NR": 39,
-    "PG": 54,
-    "PT": 27,
-    "SL": 37,
-    "VK": 31
+    "CB": 60,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 38.43,
-  "consolidatedRank": 117,
+  "consolidatedAvg": 60,
+  "consolidatedRank": 10,
   "paths": {
     "memo": "spring2026/memos/saudara-ai.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/saudara-ai.md",
-      "elad-gil": "spring2026/evals/elad-gil/saudara-ai.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/saudara-ai.md",
-      "paul-graham": "spring2026/evals/paul-graham/saudara-ai.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/saudara-ai.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/saudara-ai.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/saudara-ai.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/saudara-ai.md"
     }
   }
 }

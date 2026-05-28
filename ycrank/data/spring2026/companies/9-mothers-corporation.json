@@ -5,74 +5,49 @@
   "metadata": {
     "website": "https://9mothers.com",
     "yc_page": "https://www.ycombinator.com/companies/9-mothers-corporation",
-    "batch": "Spring 2026",
+    "batch": "Spring 2026 (P26)",
     "industry": "Industrials / Industrials -> Defense",
-    "team_size": "No public data found",
-    "location": "Austin, TX, USA",
-    "tags": "Hard Tech, Hardware, Drones, GovTech, Aerospace",
-    "yc_partner": "Garry Tan",
-    "emails": "No public data found"
+    "team_size": "Small; 8+ open roles posted (YC jobs page, 2026)",
+    "location": "Austin, Texas (YC page, 2026)",
+    "tags": "Counter-UAS, Defense, AI, Robotics, Hardware",
+    "yc_partner": "Garry Tan (YC page, 2026)",
+    "emails": "jobs@9mothers.com [Inferred from career links on 9mothers.com]"
   },
   "tags": [
-    "Hard Tech",
-    "Hardware",
-    "Drones",
-    "GovTech",
-    "Aerospace"
+    "Counter-UAS",
+    "Defense",
+    "AI",
+    "Robotics",
+    "Hardware"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-23T00:00:19.286Z",
+  "memoGeneratedAt": "2026-05-28T03:08:34.051Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 67,
-      "tier": "Invest"
+      "score": 55,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 53,
+      "score": 51,
       "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 68,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 50,
-      "tier": "Neutral"
-    },
-    "vinod-khosla": {
-      "score": 66,
-      "tier": "Invest"
     }
   },
   "consolidatedScores": {
-    "CB": 67,
-    "EG": 41,
-    "NR": 53,
-    "PG": 68,
-    "PT": 48,
-    "SL": 50,
-    "VK": 66
+    "CB": 55,
+    "EG": 51,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 56.14,
-  "consolidatedRank": 4,
+  "consolidatedAvg": 53,
+  "consolidatedRank": 34,
   "paths": {
     "memo": "spring2026/memos/9-mothers-corporation.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/9-mothers-corporation.md",
-      "elad-gil": "spring2026/evals/elad-gil/9-mothers-corporation.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/9-mothers-corporation.md",
-      "paul-graham": "spring2026/evals/paul-graham/9-mothers-corporation.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/9-mothers-corporation.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/9-mothers-corporation.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/9-mothers-corporation.md"
+      "elad-gil": "spring2026/evals/elad-gil/9-mothers-corporation.md"
     }
   }
 }

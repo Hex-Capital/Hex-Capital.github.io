@@ -10,8 +10,8 @@
     "team_size": "1",
     "location": "San Francisco, CA, USA",
     "tags": "Artificial Intelligence, Security, Open Source",
-    "yc_partner": "Garry Tan (per YC page)",
-    "emails": "sales@clawvisor.com (clawvisor.com)"
+    "yc_partner": "Garry Tan",
+    "emails": "sales@clawvisor.com"
   },
   "tags": [
     "Artificial Intelligence",
@@ -19,58 +19,33 @@
     "Open Source"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-05-06T17:08:28.677Z",
+  "memoGeneratedAt": "2026-05-28T02:30:13.699Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 40,
-      "tier": "Pass"
+      "score": 56,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 58,
+      "score": 55,
       "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 72,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 57,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 44,
-      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 40,
-    "EG": 58,
-    "NR": 72,
-    "PG": 57,
-    "PT": 34,
-    "SL": 39,
-    "VK": 44
+    "CB": 56,
+    "EG": 55,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 49.14,
-  "consolidatedRank": 27,
+  "consolidatedAvg": 55.5,
+  "consolidatedRank": 28,
   "paths": {
     "memo": "spring2026/memos/clawvisor.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/clawvisor.md",
-      "elad-gil": "spring2026/evals/elad-gil/clawvisor.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/clawvisor.md",
-      "paul-graham": "spring2026/evals/paul-graham/clawvisor.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/clawvisor.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/clawvisor.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/clawvisor.md"
+      "elad-gil": "spring2026/evals/elad-gil/clawvisor.md"
     }
   }
 }

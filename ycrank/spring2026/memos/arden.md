@@ -6,125 +6,97 @@
 |-------|-------|
 | Website | https://ardentech.ai/ |
 | YC Page | https://www.ycombinator.com/companies/arden |
-| Batch | Spring 2026 (YC P26) |
+| Batch | Spring 2026 (P26) |
 | Industry | B2B / B2B -> Finance and Accounting |
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
 | Tags | Finance, B2B, AI |
-| YC Partner | David Lieb (YC company page) |
-| Emails | founders@ardentech.ai (ardentech.ai) |
+| YC Partner | David Lieb |
+| Emails | founders@ardentech.ai |
 
 ## The Idea
 
-**Problem:** Every U.S. public company is required to perform Sarbanes-Oxley (SOX) testing of internal controls; teams currently execute this work via spreadsheets, screenshots, and manual evidence collection across enterprise systems (YC company page; ardentech.ai). The 2025 KPMG SOX Survey identifies rising audit complexity, talent shortages, and mounting compliance costs as ongoing pressures (KPMG, 2025 via search snippet).
-
-**Approach:** Computer-use AI agents pull evidence from Workday, Okta, NetSuite, ServiceNow, Active Directory, AuditBoard, and 15+ other systems via read-only API; perform identity resolution/reconciliation across systems; execute end-to-end control testing on full populations; and produce reviewer-ready workpapers with sample bundles, evidence trails, and reviewer sign-offs aligned to PCAOB AS 2201 and COSO frameworks (ardentech.ai). Setup time stated as ~1 hour; testing time stated as "minutes, not weeks" (ardentech.ai).
-
-**Differentiation:** Arden positions against legacy GRC/workflow incumbents (AuditBoard/Optro, Workiva) which "track the administration of a SOX program" while still relying on manual inputs and periodic testing (Scytale comparison; CPA Practice Advisor, Jan 2026 via search snippet). Arden integrates directly with AuditBoard via API rather than replacing it (ardentech.ai). Closest direct competitor is Midship (also AI-native SOX agents, $4.15M seed Jan 2026) (PRNewswire, Jan 2026) and YC-backed Oxus (Launch YC page).
-
-**Business Model:** Pricing not disclosed on ardentech.ai. [Inferred]: Most likely monetization is annual SaaS contract per public-company customer, given the enterprise SOX buyer profile and the AuditBoard/Workiva precedent of seat- or entity-based annual licensing.
-
-**TAM/SAM:** Internal Audit Services Market valued at USD $74.83B in 2025, projected to reach USD $112.23B by 2032 at 5.9% CAGR (Research and Markets via search snippet). SOX Compliance for Financial Institutions market reached USD $2.37B in 2024, projected USD $5.74B by 2033 at 10.4% CAGR (Growth Market Reports via search snippet). Broader Auditing Services Market: USD $292.26B in 2025 (Research and Markets via search snippet).
-
-**GTM / Distribution:** [Inferred]: Direct outbound to internal audit / SOX program leads at U.S. public companies; founder-led sales. Supported by anecdote that founders performed in-person customer discovery in San Francisco's Financial District audit firm lobbies (search snippet, source uncited beyond aggregation).
+- **Problem:** Public-company internal audit and SOX teams "still run [testing] through spreadsheets and screenshots" with KPMG's 2025 SOX Survey reporting average annual SOX spend of $2.3M and 45% YoY cost increases (KPMG 2025 SOX Survey, via Grant Thornton/Fieldguide).
+- **Approach:** Autonomous agents connect to 20+ systems (Workday, Okta, NetSuite, SAP, Salesforce, ServiceNow, Azure AD, AWS, Snowflake, GitHub) via APIs and computer-use navigation to pull evidence, run full-population testing, and produce reviewer-ready workpapers linked to source evidence (ardentech.ai, May 2026).
+- **Differentiation:** Versus Optro (formerly AuditBoard) and Workiva — which the company frames as "spreadsheet-replacement" workflow tools — Arden positions on end-to-end automated test execution rather than workflow management (ardentech.ai); versus Fieldguide and Petual, which target external audit/advisory firms and "agentic AI" broadly, Arden is positioned at the internal SOX/audit function (Fieldguide Series C announcement, Feb 2026; International Accounting Bulletin, Apr 2026).
+- **Business Model:** No pricing disclosed on ardentech.ai (ardentech.ai, May 2026); [Inferred]: enterprise SaaS subscription to public-company internal audit functions, given the SOC 2 effort and "approximately one hour" enterprise setup described on the site.
+- **TAM/SAM:** Audit software market USD 3.81B (2025) → USD 4.31B (2026) per Research and Markets; broader internal audit software market USD 77.92B (2024) → USD 163.89B (2032), 9.74% CAGR (Verified Market Research / Business Research Insights); SAM proxy: every US public company is required to perform SOX testing (company description, YC page).
+- **GTM / Distribution:** [Inferred]: Direct enterprise sales to US public-company internal audit and SOX teams, supported by listed integrations with Workday/SAP/NetSuite and SOC 2 Type I in progress (ardentech.ai); founders@ardentech.ai is the only published contact (ardentech.ai).
 
 ## Defensibility
 
-- **Integrations breadth:** 15+ enterprise integrations covering Workday, Okta, NetSuite, ServiceNow, Active Directory, AuditBoard (ardentech.ai). Switching/setup cost compounds as more source systems are wired in.
-- **Compliance posture:** Read-only-by-default access, AES-256 encryption, TLS 1.2+, US-region Supabase/AWS, SOC 2 Type I "in progress," no model training on customer data (ardentech.ai).
-- **Workpaper format alignment:** Output aligned to PCAOB AS 2201 and COSO (ardentech.ai).
-
-**Market structure:** [Inferred]: AuditBoard and Workiva monetize as systems-of-record/workflow platforms; building agents that fully automate testing partially cannibalizes seat-based GRC pricing and substitutes work that consultancies (Big Four advisory) bill hourly. This creates a channel/pricing-model conflict for incumbents that does not bind a startup. No structural regulatory moat identified at this stage.
-
-**Commoditization risk:** Direct competitor Midship is shipping an overlapping agentic SOX product with $4.15M seed and named public-company customers (PRNewswire, Jan 2026). Oxus (YC) targets the same SOX automation use case (Launch YC page). [Inferred]: The technical core (LLM agents + connector library + workpaper generation) is replicable by any well-resourced compliance-software team; defensibility likely turns on integrations depth, audited reliability, and Big Four channel partnerships rather than core IP.
+- **Moat today:** 20+ enterprise system integrations and SOC 2 Type I in progress (ardentech.ai, May 2026); no publicly disclosed customers, patents, or proprietary data assets.
+- **Future moat:** [Inferred]: Switching costs from embedding into a public company's annual SOX cycle (control libraries, signed-off workpapers, auditor-accepted templates) and accumulated control-test patterns across customers — unproven at 2 employees with no disclosed deployments.
+- **Market structure:** [Inferred]: Incumbents Optro (SOXHUB origin) and Workiva sell workflow/documentation seats; replacing those seats with autonomous agents that execute tests cannibalizes their per-seat revenue model, a known channel/pricing conflict (Optro $300M ARR, Workiva $884.6M 2025 revenue — SEC FY2025 filing).
+- **Commoditization risk:** Fieldguide ($125M raised, $700M valuation, $75M Series C Feb 2026 — Fieldguide blog) and Petual ($20M led by a16z, Apr 2026 — International Accounting Bulletin) are well-funded agentic-AI entrants attacking adjacent audit workflows; major incumbents (Optro, Workiva) are ARR leaders and have announced AI initiatives (Optro blog).
 
 ## Market & Traction
 
-**Traction signals:**
-- "Backed by Y Combinator," batch Spring 2026 / P26 (YC company page).
-- Customer or pilot logos: MIT and Cal logos shown on ardentech.ai under partnerships (ardentech.ai). No paying-customer count, ARR, or named public-company customer disclosed.
-- LinkedIn: linkedin.com/company/ardeninc (YC page); follower count not retrievable.
-- Founder Twitter/X: @aryamank24 (Aryaman Khanna, per YC page); @david_loom (David Lomelin, X.com); follower counts not retrievable.
-- No Product Hunt launch found for Arden (search returned Oxus, a different YC SOX product).
-- No press coverage of Arden funding announcement found in the TechCrunch W26 demo-day roundup (TechCrunch, Mar 2026 via search snippet) — Arden not specifically named in the snippet returned.
-- Hiring: company_data flag = False; no public job postings located.
-- Anecdotal: founders described as "19 year olds" who "applied to Y Combinator three weeks past the deadline" (search snippet aggregator, primary source uncited).
-
-**Competitive landscape:**
-- **Midship** — $4.15M seed Jan 2026, led by Costanoa Ventures with Seguin Ventures and angels (PRNewswire, Jan 2026); founders ex-Instacart/Deloitte/Amazon/Lyft/Faire/PayPal, product trio from Dashworks (acquired by HubSpot); states "leading public companies, including a top social media platform and major fintechs" as users (PRNewswire, Jan 2026). ARR not disclosed. Differentiator vs. Arden: more senior, audit-domain-experienced founding team and disclosed enterprise logos; Arden differentiator: deeper read-only computer-use connector breadth claimed (15+ systems on ardentech.ai).
-- **Oxus (YC)** — AI-native SOX audit automation, Launch YC listing (Y Combinator). Funding/ARR not disclosed in search results. Differentiator vs. Arden: explicit pitch on audit scoping and process flowchart generation (Launch YC page).
-- **AuditBoard / Optro** — Established GRC workflow incumbent; per Scytale comparison "continues to rely on manual inputs and periodic testing" (Scytale via search snippet). Funding: no figure retrieved in this research; AuditBoard widely reported acquired by Hg Capital in 2024 (not verified in current search results — omitted from key-facts to avoid uncited claim). Differentiator: system-of-record + program management; Arden integrates with rather than replaces it (ardentech.ai).
-- **Workiva** — Public company (NYSE: WK); reporting/disclosure-first GRC platform (Workiva.com via search snippet). Differentiator: financial-reporting and ESG disclosure breadth, not agentic testing.
-- **Scytale, Drata, Vanta, Secureframe** — Adjacent compliance automation (SOC 2/ISO 27001/HIPAA-leaning); Scytale markets ITGC/SOX automation (Scytale.ai via search snippet). Differentiator: SOC 2-anchored GTM versus Arden's pure SOX/internal-audit focus.
-
-**Why now:** [Inferred]: Three concurrent shifts cited across vendor materials — (a) LLM tool-use/computer-use capability matured to where agents can navigate enterprise UIs and perform multi-step evidence retrieval reliably; (b) audit-team talent shortages and rising compliance costs flagged in the 2025 KPMG SOX Survey (KPMG, 2025 via search snippet); (c) acceptance of AI-generated workpapers within PCAOB AS 2201 documentation norms is being tested commercially by Midship and peers (CPA Practice Advisor, Jan 2026 via search snippet). No explicit regulatory catalyst dated in 2024–2026 is cited by Arden.
+- **Traction signals:**
+  - Revenue/customers: No public data found.
+  - Press coverage: No public press coverage found beyond YC company page.
+  - SOC 2 Type I in progress (ardentech.ai, May 2026).
+  - Integrations: 20+ systems listed including Workday, Okta, NetSuite, SAP, Salesforce, ServiceNow, Azure AD, AWS, Snowflake, GitHub (ardentech.ai).
+  - Founder social post: Aryaman Khanna LinkedIn post "Arden YC P26 is backed by Y Combinator" (LinkedIn activity 7450643893903208448).
+  - Company Twitter/X, LinkedIn company page, Discord/Slack, Product Hunt, app installs: No public data found.
+  - YC jobs: Hiring flag = False (company_data).
+- **Competitors:**
+  - Optro / formerly AuditBoard ($535M total raised; $300M+ ARR as of Oct 2025 — Optro blog; acquired by Hg for >$3B in May 2024 — Crunchbase; ~2,000 enterprise customers including ~50% of Fortune 500 — Optro): incumbent SOXHUB workflow platform, AI features layered onto existing seat-based product.
+  - Workiva ($884.6M revenue FY2025 — SEC FY2025 filing; publicly traded NYSE: WK): connected reporting / SOX documentation platform, broader ESG and SEC-filing footprint than Arden.
+  - Fieldguide ($125M total raised, $700M valuation, $75M Series C Feb 2026 led by Goldman Sachs Growth — Fieldguide blog; Protiviti alliance Mar 2026 — PRNewswire): agentic AI for external audit firms and advisory, not internal SOX teams.
+  - Petual ($20M raised Apr 2026, led by a16z with First Round, Cowboy, Elad Gil — International Accounting Bulletin Apr 2026; Yahoo Finance Apr 2026): agentic AI directly for SOX procedures and internal audit work — most direct overlap.
+  - Scytale (revenue unknown — Scytale.ai/RiscLens): AI GRC platform marketed for SOX ITGC automation and continuous monitoring; smaller scope than Arden's evidence/testing focus.
+- **Why now:** Petual's $20M a16z round (Apr 2026) and Fieldguide's $75M Series C (Feb 2026) demonstrate a 12-month investor catalyst around agentic-AI audit automation; technology threshold cited is multi-step computer-use agents capable of navigating enterprise SaaS — labelled "[Inferred]:" causation as the company has not published a why-now statement.
 
 ## Founders & Team
 
-**Aryaman Khanna** — Co-Founder & CEO
-- Studied CS at UC Berkeley (YC company page).
-- Previously worked on AI at Databricks (YC company page).
-- Twitter/X: @aryamank24 (per YC page); follower count not retrievable.
-- LinkedIn: linkedin.com/in/aryaman-khanna-210a9121b — headline "Co-Founder @ Arden (YC P26)" (LinkedIn search result).
-- GitHub: No public repos found in search.
-
-**David Lomelin** — Co-Founder & CTO
-- Studied Artificial Intelligence at MIT, focus on mechanistic interpretability (YC company page; LinkedIn search snippet).
-- Previously built Blueprint, "automated UGC marketing platform for 2,500+ businesses" (LinkedIn search snippet).
-- Twitter/X: @david_loom (X.com search result); follower count not retrievable.
-- LinkedIn: linkedin.com/in/david-lom — "Building Arden | Prev @ MIT" (LinkedIn search result).
-- GitHub: github.com/jdl20515 (GitHub search result); notable repo / star count not retrieved.
-- Personal site: davidlomelin.com (search result).
-
-Search-snippet-level claim that both founders are "19 year olds" who applied to YC three weeks past the deadline (aggregator search snippet; primary source uncited) — flagged for verification.
-
-**Co-founder relationship:** No shared employer or university visible in Phase 3 data (Berkeley CS vs. MIT AI; Databricks vs. Blueprint/MIT CSAIL). No public data on co-founder history.
-
-**Founder-market fit:** [Inferred]: Khanna brings ML/data-platform engineering exposure from Databricks; Lomelin brings AI research depth from MIT plus prior shipped product (Blueprint, 2,500+ business users per LinkedIn snippet). Neither founder has documented SOX, internal audit, or Big Four advisory background based on Phase 3 search results — domain knowledge appears to be acquired post-hoc via customer discovery (search snippet about audit-firm lobby visits). No advisors, board members, or notable angels disclosed in public sources.
+- **Aryaman Khanna (Co-Founder & CEO):**
+  - Background: B.S. CS & Data Science, UC Berkeley; prior role on AI at Databricks; co-author of NeurIPS 2025 research on privacy-preserving ML for autonomous systems (HypeFL — blockchain-based federated learning for LiDAR cooperative perception) (YC page; LinkedIn aryaman-khanna-210a9121b).
+  - Twitter/X: No public account found in search.
+  - LinkedIn: "Co-Founder @ Arden (YC P26)" (linkedin.com/in/aryaman-khanna-210a9121b); follower count not retrievable.
+  - GitHub: No public account confirmed (a `aryamankukal` account exists but is a different person — Aryaman Kukal — per aryamankukal.com).
+- **David Lomelin (Co-Founder & CTO):**
+  - Background: MIT undergraduate in AI & Decision Making; research at MIT CSAIL and DUSP on LLM post-training and applied AI; previously co-founded Blueprint (UGC marketing automation, "2,500+ businesses" per his LinkedIn post) and Nivaro (AI education, "1,000+ students" per LinkedIn); IEEE-listed computer vision research on disease detection (LinkedIn david-lom; davidlomelin.com).
+  - Twitter/X: No public account found in search.
+  - LinkedIn: "Building Arden | Prev @ MIT" (linkedin.com/in/david-lom); follower count not retrievable.
+  - GitHub: @jdl20515 (github.com/jdl20515); top repo star count not retrievable from search.
+- **Co-founder relationship:** No public data on co-founder history — Khanna's prior affiliations (Berkeley, Databricks) and Lomelin's (MIT, Blueprint) do not visibly overlap in search results.
+- **Founder-market fit:** [Inferred]: Both founders have AI/ML research backgrounds (Databricks + NeurIPS for Khanna; MIT CSAIL LLM post-training for Lomelin) relevant to building agent systems, but neither has disclosed prior internal-audit, SOX, or accounting domain experience per LinkedIn and YC page content; no advisors, board members, or named investors beyond Y Combinator disclosed.
 
 ## Key Risks
 
-**Direct AI-native competitor with audit-domain founding team and disclosed logos:** Midship raised $4.15M seed Jan 2026 from Costanoa Ventures with founders drawn from Instacart/Deloitte/Amazon/Lyft/Faire/PayPal audit and compliance functions, and references named public-company users including "a top social media platform and major fintechs" (PRNewswire, Jan 2026). Arden's two-person team enters the same workflow without disclosed comparable customer references.
-
-**Domain expertise gap on founding team:** Neither founder's public profile lists Big Four, SOX, or internal-audit operating experience (YC page; LinkedIn snippets). PCAOB AS 2201/COSO alignment claims (ardentech.ai) require sustained engagement with external auditors and audit committees; risk that workpapers fail external auditor review at customer year-end. No public mitigation (no senior audit-domain advisor disclosed in search).
-
-**Trust/regulatory acceptance for AI-generated workpapers:** External auditors (Big Four) must accept agent-produced workpapers as audit evidence. SOC 2 Type I is "in progress" rather than complete (ardentech.ai); SOC 2 Type II not stated. Risk that enterprise buyers gate procurement on completed Type II.
-
-**Connector breakage / silent-failure risk:** Computer-use agents pulling from Workday, Okta, NetSuite, ServiceNow are sensitive to UI/API changes; an undetected evidence-collection failure during SOX testing could produce materially wrong control conclusions. No public reliability metric or attestation found.
-
-**Concentration on integrations Arden does not own:** Distribution/utility depends on read-only access to AuditBoard and other GRC systems whose vendors compete for the same SOX-automation budget (ardentech.ai). API access policies at those vendors could change.
+- **Domain expertise gap:** Neither co-founder shows disclosed audit/SOX/CPA background in LinkedIn or YC page content (LinkedIn david-lom; LinkedIn aryaman-khanna-210a9121b; YC page) — material because audit-ready workpapers require PCAOB-acceptable evidence formatting; no mitigation (advisors, audit-firm partnerships) publicly disclosed.
+- **Direct competitor with $20M and a16z backing:** Petual targets the same SOX/internal audit workflow with agentic AI and raised $20M in April 2026 led by Andreessen Horowitz (International Accounting Bulletin, Apr 2026; Yahoo Finance, Apr 2026); Arden enters with a 2-person team and YC standard funding.
+- **Incumbent AI response:** Optro (>$300M ARR, ~50% Fortune 500 penetration — Optro blog) and Workiva ($884.6M FY2025 revenue — SEC filing) have installed-base distribution into the exact buyer; both have publicly announced AI investments (Optro blog).
+- **Technical feasibility — auditor acceptance:** Product claims "audit-ready workpapers" that "external auditors can accept" (ardentech.ai), but no Big Four or mid-tier audit firm acceptance, PCAOB position, or customer attestation is publicly disclosed; SOC 2 Type I is only "in progress" (ardentech.ai).
+- **Name collision:** "Arden" overlaps with Ardent Venture Partners (ardent.vc) and a Pitchbook-listed "Ardent" — search disambiguation required and may affect SEO/brand surface (search results, May 2026).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Internal Audit Services Market $74.83B 2025 → $112.23B 2032, 5.9% CAGR (Research and Markets via search snippet); Auditing Services Market $292.26B 2025 (Research and Markets via search snippet) |
-| SAM | SOX Compliance for Financial Institutions $2.37B 2024 → $5.74B 2033, 10.4% CAGR (Growth Market Reports via search snippet) |
-| Traction | YC Spring 2026 batch (YC company page); MIT and Cal logos shown as partnerships (ardentech.ai); SOC 2 Type I in progress (ardentech.ai); no customer count, ARR, or press funding announcement found |
-| Revenue Signal | No public data found (no pricing page on ardentech.ai; no funding announcement located) |
-| Founders | Aryaman Khanna (CEO): UC Berkeley CS, prior AI at Databricks (YC page). David Lomelin (CTO): MIT AI / mechanistic interpretability, prior built Blueprint UGC marketing platform for 2,500+ businesses (YC page; LinkedIn snippet) |
-| Competitors | Midship ($4.15M seed Jan 2026 led by Costanoa, ARR undisclosed, audit-domain founders w/ named public-co customers — PRNewswire Jan 2026); Oxus (YC, funding undisclosed, SOX audit scoping & flowcharting — Launch YC); AuditBoard/Optro (funding not retrieved, ARR undisclosed, GRC system-of-record — Scytale via search snippet); Workiva (NYSE: WK, public, reporting-first GRC — Workiva.com via search snippet); Scytale (funding not retrieved, AI GRC w/ SOC 2 lean — Scytale.ai via search snippet) |
-| Moat Signals | 15+ enterprise integrations claimed (ardentech.ai); read-only-by-default + AES-256 + TLS 1.2+ (ardentech.ai); PCAOB AS 2201/COSO alignment (ardentech.ai); SOC 2 Type I in progress (ardentech.ai) |
-| Risk Factors | Direct AI-native competitor (Midship) with disclosed logos; founder audit-domain experience gap; SOC 2 Type II not stated |
-| Founder Reach | Aryaman Khanna: Twitter @aryamank24 count not retrievable, LinkedIn aryaman-khanna-210a9121b count not retrievable, GitHub no public repos found. David Lomelin: Twitter @david_loom count not retrievable, LinkedIn david-lom count not retrievable, GitHub jdl20515 stars not retrieved |
-| Distribution Signals | No Product Hunt launch found for Arden (search returned different YC product Oxus); no press funding announcement located; hiring flag = False (company_data); Arden not specifically named in TechCrunch W26 demo-day roundup snippet returned (TechCrunch, Mar 2026 via search snippet) |
-| Emails | founders@ardentech.ai (ardentech.ai) |
+| TAM | Audit software market USD 4.31B in 2026 (Research and Markets, 2026); broader internal audit software market USD 77.92B (2024) projected USD 163.89B (2032), 9.74% CAGR (Verified Market Research) |
+| SAM | No public data found |
+| Traction | 20+ enterprise integrations listed (ardentech.ai, May 2026); SOC 2 Type I in progress (ardentech.ai, May 2026); LinkedIn launch post by Khanna (LinkedIn activity 7450643893903208448) |
+| Revenue Signal | No public data found |
+| Founders | Aryaman Khanna (CEO): UC Berkeley CS & Data Science, ex-Databricks AI, NeurIPS 2025 co-author. David Lomelin (CTO): MIT AI & Decision Making, MIT CSAIL LLM research, co-founder Blueprint. |
+| Competitors | Optro/AuditBoard ($535M raised, $300M+ ARR, acquired by Hg >$3B 2024, incumbent SOXHUB workflow); Workiva ($884.6M FY2025 revenue, connected reporting); Fieldguide ($125M raised, $700M val, external audit/advisory focus); Petual ($20M a16z Apr 2026, direct overlap on SOX); Scytale (revenue unknown, AI GRC) |
+| Moat Signals | 20+ system integrations (ardentech.ai); SOC 2 Type I in progress (ardentech.ai); no patents, customer logos, or proprietary data disclosed |
+| Risk Factors | No disclosed audit/SOX domain expertise on team, a16z-backed direct competitor Petual, incumbent AI response from Optro/Workiva |
+| Founder Reach | Aryaman Khanna: Twitter not found, LinkedIn linkedin.com/in/aryaman-khanna-210a9121b (count not retrievable), GitHub not found. David Lomelin: Twitter not found, LinkedIn linkedin.com/in/david-lom (count not retrievable), GitHub @jdl20515 (star count not retrievable) |
+| Distribution Signals | No public data found |
+| Emails | founders@ardentech.ai (ardentech.ai; YC page) |
 
 Sources:
-- [Arden | SOX Testing, Fully Automated](https://ardentech.ai/)
-- [Arden — Y Combinator](https://www.ycombinator.com/companies/arden)
+- [Arden YC page](https://www.ycombinator.com/companies/arden)
+- [ardentech.ai](https://ardentech.ai/)
 - [Aryaman Khanna LinkedIn](https://www.linkedin.com/in/aryaman-khanna-210a9121b/)
 - [David Lomelin LinkedIn](https://www.linkedin.com/in/david-lom/)
 - [David Lomelin GitHub](https://github.com/jdl20515)
-- [David Lomelin X](https://x.com/david_loom)
-- [Arden LinkedIn company page](https://www.linkedin.com/company/ardeninc)
-- [Midship Raises $4.15M to Automate SOX Testing with Agentic AI (PRNewswire)](https://www.prnewswire.com/news-releases/midship-raises-4-15m-to-automate-sox-testing-with-agentic-ai-302670608.html)
-- [Midship Raises $4.15M Seed (CPA Practice Advisor)](https://www.cpapracticeadvisor.com/2026/01/27/midship-raises-4-15m-to-automate-sox-testing-with-agentic-ai/176932/)
-- [Launch YC: Oxus — AI-native automation for SOX audits](https://www.ycombinator.com/launches/P5u-oxus-ai-native-automation-for-sox-audits)
-- [Scytale vs Optro (AuditBoard) vs Workiva](https://scytale.ai/resources/scytale-vs-optro-vs-workiva/)
-- [Workiva vs AuditBoard](https://www.workiva.com/compare/workiva-vs-auditboard)
-- [Internal Audit Services Market — Research and Markets](https://www.researchandmarkets.com/report/internal-audit)
-- [SOX Compliance for Financial Institutions Market — Growth Market Reports](https://growthmarketreports.com/report/sox-compliance-for-financial-institutions-market)
-- [Auditing Services Market — Research and Markets](https://www.researchandmarkets.com/report/auditing)
-- [2025 KPMG SOX Survey](https://kpmg.com/us/en/articles/2025/2025-kpmg-sox-survey.html)
-- [16 of the most interesting startups from YC W26 Demo Day — TechCrunch](https://techcrunch.com/2026/03/26/16-of-the-most-interesting-startups-from-yc-w26-demo-day/)
+- [Optro $300M ARR blog](https://optro.ai/blog/auditboard-surpasses-300-million-in-arr-accelerates-growth-trajectory)
+- [Optro/Hg acquisition (Crunchbase)](https://www.crunchbase.com/acquisition/hgcapital-acquires-auditboard--a8add90e)
+- [Fieldguide $75M Series C](https://www.fieldguide.io/blog/series-c-announcement)
+- [Petual $20M a16z](https://www.internationalaccountingbulletin.com/news/petual-raises-20m-to-automate-sox-compliance-using-agentic-ai/)
+- [Workiva FY2025 10-K (SEC)](https://www.sec.gov/Archives/edgar/data/1445305/000144530526000029/wk2025annualreport.pdf)
+- [Audit software market size (Research and Markets)](https://www.researchandmarkets.com/report/audit-software)
+- [Internal audit software market (Verified Market Research)](https://www.verifiedmarketresearch.com/product/internal-audit-software-market/)

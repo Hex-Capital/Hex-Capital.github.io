@@ -1,0 +1,46 @@
+{
+  "slug": "soria",
+  "name": "Soria",
+  "oneLiner": "AI Bloomberg Terminal built for Healthcare (and beyond)",
+  "metadata": {
+    "website": "https://www.soriaanalytics.com/",
+    "yc_page": "https://www.ycombinator.com/companies/soria",
+    "batch": "Spring 2026 (YC company page)",
+    "industry": "Fintech / Fintech -> Asset Management",
+    "team_size": "3",
+    "location": "New York, NY, USA",
+    "tags": "Fintech, AI, Stocks",
+    "yc_partner": "Harj Taggar (YC company page)",
+    "emails": "No full public addresses found; ZoomInfo lists pattern \"a***@soriaanalytics.com\" for Adam Ron (ZoomInfo)"
+  },
+  "tags": [
+    "Fintech",
+    "AI",
+    "Stocks"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-28T02:44:01.864Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 48,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 48,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
+  },
+  "consolidatedAvg": 48,
+  "consolidatedRank": 66,
+  "paths": {
+    "memo": "spring2026/memos/soria.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/soria.md"
+    }
+  }
+}

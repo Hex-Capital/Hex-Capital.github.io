@@ -1,120 +1,110 @@
 ﻿# Minicor
 
-> Managed, self healing desktop automation at scale
+> RPA platform for deploying AI into legacy desktop systems
 
 | Field | Value |
 |-------|-------|
 | Website | https://minicor.com |
 | YC Page | https://www.ycombinator.com/companies/minicor |
-| Batch | Spring 2026 |
+| Batch | Spring 2026 (P26) |
 | Industry | B2B / B2B -> Infrastructure |
-| Team Size | 5 |
+| Team Size | 7 |
 | Location | San Francisco, CA, USA |
-| Tags | Generative AI, B2B, Infrastructure |
+| Tags |  |
 | YC Partner | Tom Blomfield |
-| Emails | connect@minicor.com, faiz@minicor.com |
+| Emails | faiz@minicor.com, connect@minicor.com |
 
 ## The Idea
 
-**Problem:** AI companies selling into healthcare, automotive, logistics, and financial services must read/write data in their customers' systems of record — legacy Windows desktop apps (EHRs, ERPs, DMS, PMS) with no writable APIs (YC page). Some vendors are actively restricting third-party API access (minicor.com). The only integration path is UI-level interaction, which breaks when vendors ship updates. Current solutions: traditional RPA (UiPath-style brittle scripts that require rebuilding on every UI change) or raw LLM computer-use APIs (Anthropic/OpenAI), which deliver 80–85% click accuracy per Minicor's website claims (minicor.com).
-
-**Approach:** Minicor deploys self-healing computer-use agents on Windows VMs. One API call triggers a full desktop workflow. A reflection agent verifies each action against screen content and self-corrects before the workflow breaks (minicor.com). The platform claims 93–96% click accuracy and 11–12 second typical execution time (minicor.com). Automations can be spoken into existence via MCP integration with coding agents (YC page). Deployment options: on-premise, cloud, or Citrix (minicor.com). SOC 2 Type II certified and HIPAA compliant (minicor.com).
-
-**Differentiation:** vs. UiPath/traditional RPA: self-healing agents eliminate script maintenance when UIs change (minicor.com). vs. raw LLM computer-use (Anthropic, OpenAI): higher claimed accuracy (93–96% vs. 80–85%) plus managed infrastructure, observability, and scaling (minicor.com). vs. Skyvern/Induced AI: those focus on browser-based automation; Minicor targets native Windows desktop applications and Citrix environments (minicor.com, skyvern.com).
-
-**Business Model:** No public pricing page found. [Inferred]: API-call-based consumption or per-VM/per-workflow SaaS pricing is the most likely model given the "one API call triggers a workflow" architecture and enterprise deployment model.
-
-**TAM/SAM:** Global RPA market estimated at $35.27B in 2026, projected to $247.34B by 2035 at 24.20% CAGR (Precedence Research via GlobeNewsWire, Dec 2025). Grand View Research projects $35.84B by 2033 at 29.0% CAGR (Grand View Research, 2026 via search snippet). No public SAM estimate specific to desktop-only (non-browser) legacy system automation found.
-
-**GTM / Distribution:** Supported systems listed on website: Athena, Epic, Cerner, PS Suite, Open Dental, Dental Vision, Wellsky, Home Care HomeBase (healthcare); CDK Global (automotive); SAP, HighJump (supply chain) (minicor.com). [Inferred]: Primary GTM is selling to AI companies and system integrators who need to connect to their end-customers' legacy desktop systems, rather than selling directly to the legacy-system end-users.
+- **Problem:** AI vendors selling into legacy industries (healthcare, automotive, logistics, financial services) cannot integrate with customers' Windows desktop systems of record because those systems have no APIs, forcing brittle UI clickthroughs (Minicor website; YC page).
+- **Approach:** Combines deterministic Python-based automation with AI "reflection" agents that detect UI changes and adapt, exposing each desktop workflow as an API endpoint triggered via MCP or direct call (Minicor website; TechPlanet, 2026).
+- **Differentiation:** Versus pure computer-use agents Minicor claims "93-96% click accuracy vs 80-85% for other approaches"; versus traditional RPA (UiPath, Automation Anywhere) the differentiator is self-healing recovery when UIs change rather than script failure (Minicor website; TechPlanet, 2026).
+- **Business Model:** No pricing page found on website; [Inferred]: usage/seat-based enterprise contracts given Windows VM hosting, on-prem/Citrix deployment options, and SOC 2/HIPAA positioning (Minicor website).
+- **TAM/SAM:** Global RPA software market $3.6B in 2024 growing 14.5% YoY (Gartner via press release, 2024); broader RPA market projected $35.27B in 2026 → $247.34B by 2035 at 24.2% CAGR (GlobeNewswire, Dec 2025).
+- **GTM / Distribution:** [Inferred]: Direct enterprise sales to AI vendors needing legacy integrations, evidenced by active hiring of Forward Deployed Engineer ($125K-$200K) and Product Engineer roles (YC page).
 
 ## Defensibility
 
-- **Technical complexity:** Self-healing desktop automation at production scale across heterogeneous Windows desktop UIs requires specialized computer-vision + agent orchestration that goes beyond general-purpose LLM computer-use (minicor.com).
-- **Compliance moat:** SOC 2 Type II and HIPAA compliance are time- and cost-intensive certifications that create a barrier for new entrants targeting healthcare (minicor.com).
-- **Switching costs:** [Inferred]: Once workflows are built and integrated via API into customer production systems (e.g., 25,000 patients/day), switching costs increase due to workflow re-creation and validation overhead.
-
-**Market structure:** Large RPA incumbents (UiPath, Automation Anywhere) have legacy architectures built around deterministic, script-based automation. [Inferred]: Rebuilding around AI-agent-based self-healing would cannibalize their existing professional services and maintenance revenue streams. Microsoft Power Automate is tightly coupled to its own ecosystem and has less incentive to optimize for third-party legacy Windows desktop apps.
-
-**Commoditization risk:** Anthropic, OpenAI, and Google are all shipping computer-use capabilities in their foundation models (minicor.com references these as 80–85% accuracy baseline). [Inferred]: As foundation model accuracy improves, the raw computer-use layer commoditizes; Minicor's value depends on the managed infrastructure, self-healing orchestration, observability, and compliance layers remaining differentiated.
+- **Moat today:** SOC 2 Type II and HIPAA compliance plus deployment across on-prem/cloud/Citrix raise integration switching costs once embedded (Minicor website).
+- **Future moat:** [Inferred]: Accumulated UI-change recovery telemetry across customer Windows VMs could train better self-healing models; unproven without disclosed dataset size or accuracy benchmarks beyond company-reported 93-96%.
+- **Market structure:** [Inferred]: Incumbents like UiPath have brittle script-based architectures and large existing customer bases on legacy products, creating cannibalization friction when shifting to agent-based recovery; no structural lock observed at this stage.
+- **Commoditization risk:** Anthropic, OpenAI computer-use APIs plus open-source Skyvern (YC, $2.7M raised, blog post) lower the build barrier for desktop agents; Minicor's edge depends on its accuracy delta and ops layer (video replay, scaling, error logging).
 
 ## Market & Traction
 
-**Traction signals:**
-- One customer processing 25,000 patients/day (minicor.com)
-- Six customer logos displayed on website (minicor.com)
-- Pre-seed investment from NOMO Ventures (Rahul Prakash and Kate R.) (LinkedIn, Mark Bailey profile via search snippet)
-- Company Twitter/X: @minicor_ (YC page); follower count not retrievable
-- Company LinkedIn: linkedin.com/company/minicor-automations (LinkedIn via search snippet); follower count not retrievable
-- GitHub org: github.com/laminar-run — public repos include hookmock (3 stars), beautiful-mermaid (3 stars) (GitHub)
-- YC LinkedIn post announcing Minicor (YC P26) — activity ID 7442601243564408832 (LinkedIn via search snippet)
-- No Product Hunt launch found
-- 0 open job postings (YC page)
-- No public revenue figures found
-
-**Pivot note:** The company previously operated as Laminar, a low-code integration platform. Legal entity remains Laminar Run, Inc. (minicor.com copyright notice). The pivot to desktop automation occurred after encountering a need to connect to an on-premise Windows-based medical record system with no API (LinkedIn, Mark Bailey profile via search snippet). Prior-product metrics (Laminar integration platform) should not be conflated with current Minicor traction.
-
-**Competitive landscape:**
-
-| Competitor | Funding | Key Differentiator vs. Minicor |
-|---|---|---|
-| **UiPath** | Public company (NYSE: PATH) | Incumbent enterprise RPA; script-based, not AI-agent self-healing; massive existing customer base and ecosystem |
-| **Automation Anywhere** | $6.8B+ total raised (Crunchbase via search snippet) | Cloud-native RPA with agentic AI additions; broader automation platform but legacy architecture |
-| **Skyvern** | $2.7M seed (skyvern.com blog, Dec 2025) | Open-source AI browser automation (YC company); browser-focused, not native Windows desktop |
-| **Induced AI** | $2.3M seed (TechCrunch, Oct 2023) | Browser-based workflow automation backed by Sam Altman; browser-only, not desktop-native |
-| **Browserbase** | $40M Series B at $300M valuation (Upstarts Media, Jun 2025) | Headless browser infrastructure; platform layer, not end-to-end desktop automation |
-
-**Why now:** [Inferred]: Foundation model computer-use capabilities (Anthropic Claude computer use launched Oct 2024, OpenAI followed) crossed a usability threshold, making AI-driven UI interaction viable for production use cases. Simultaneously, legacy system vendors are increasingly restricting third-party API access (minicor.com), making UI automation the only viable integration path.
+- **Traction signals:**
+  - "Processing 25,000 patients/day in production" (Minicor website, 2026).
+  - SOC 2 Type II and HIPAA certified (Minicor website, 2026).
+  - Customer logos displayed on homepage; specific names not extracted (Minicor website).
+  - 2 active job postings: Forward Deployed Engineer, Product Engineer (YC page, 2026).
+  - LinkedIn post from CEO referencing urgent hiring at "Minicor (YC P26)" (LinkedIn, activity 7455280315461210112).
+  - No Product Hunt launch found (Product Hunt search, 2026).
+  - Company Twitter/X follower count: No public data found.
+  - Discord/Slack community: No public data found.
+- **Competitors:**
+  - UiPath (public, ~$1.5B ARR FY24, ranked #1 RPA in Gartner Magic Quadrant 2025): legacy script-based RPA without AI-native self-healing recovery (Gartner via processexcellencenetwork, 2025).
+  - Automation Anywhere (raised $1B+, revenue unknown publicly): cloud-native RPA adding GenAI agents, broader process discovery suite vs. Minicor's desktop-app focus (improvado, 2026).
+  - Microsoft Power Automate (part of Microsoft, revenue unknown standalone): bundled with M365, weaker on non-Microsoft legacy desktop apps like EHRs and Citrix-only systems (Zoho RPA comparison, 2026).
+  - Skyvern ($2.7M seed, ~$900K revenue per Extruct AI): YC open-source browser automation, focused on web not Windows desktop apps (Skyvern blog; Extruct AI).
+  - Browserbase ($68M total raised, revenue unknown): browser-as-a-service for AI agents, web-only vs. Minicor's Windows/Citrix scope (StartupHub.ai, 2026).
+  - TinyFish ($47M total raised, Series A led by ICONIQ, revenue unknown): enterprise web agent platform, web-focused vs. desktop (aiworld.eu; MarkTechPost, Apr 2026).
+- **Why now:** [Inferred]: Computer-use models (Anthropic claude-computer-use, OpenAI Operator) crossed accuracy thresholds in 2024-2025 making desktop-agent recovery feasible, and Gartner predicts 40% of enterprise apps will embed task-specific AI agents by 2026 vs. <5% in 2025 (Gartner via search snippet, Aug 2025).
 
 ## Founders & Team
 
-**Faizaan Chishtie** — Co-Founder & CEO
-- B.A.Sc. Software Engineering, University of Ottawa (LinkedIn)
-- Prior: software engineer at Phoenix (YC W21), shipped integrations and MVPs at Typecast and Secoda (getprog.ai profile)
-- Co-founded Homeboard Technologies (incorporated Feb 2021), grew to mid five figures in ARR (getprog.ai profile; OpenGovCA)
-- Founded Software For Love (nonprofit mobilizing student volunteers) (getprog.ai profile)
-- Founder in Residence at ASCENT by McMillan; Next Canada and Antler cohort participant (getprog.ai profile)
-- Twitter/X: @faizchishtie (GitHub profile); follower count not retrievable
-- LinkedIn: linkedin.com/in/fchishtie — CEO & Co-Founder at Minicor (YC P26)
-- GitHub: github.com/FaizChishtie — 49 repos, 108 stars total; pinned repo vemcache (in-memory vector DB, Rust, 38 stars) (GitHub)
-
-**Saheed Akinbile** — Co-Founder & CTO
-- B.A.Sc. Software Engineering with option in Technology Management & Entrepreneurship, University of Ottawa (saheedakinbile.com)
-- Born and raised in Lagos, Nigeria (saheedakinbile.com)
-- Prior: Senior Software Engineer at Ford Motor Company (2022–2025, Android Auto); Morgan Stanley; Kinaxis (LinkedIn via search snippet)
-- Co-founded Software For Love; served as Software Engineering Advisor (2020–2023) (search snippet)
-- Twitter/X: No public account found
-- LinkedIn: linkedin.com/in/saheed-akinbile — CTO & Co-Founder at Laminar | Ex-Morgan Stanley / Ex-Ford
-- GitHub: github.com/sakin070 — 43 repositories (GitHub); star counts not retrievable
-
-**Mark Bailey** — Revenue executive at Minicor; described as having "a record of scaling SaaS and AI companies from early traction" (LinkedIn via search snippet). Not listed as a founder on the YC page.
-
-**Co-founder relationship:** Both Faizaan and Saheed graduated from University of Ottawa in Software Engineering and both co-founded Software For Love (getprog.ai, saheedakinbile.com).
-
-**Founder-market fit:** Faizaan has prior YC experience (Phoenix, W21), startup operating experience (Homeboard to mid-five-figure ARR), and integration-building experience at Typecast and Secoda. Saheed brings enterprise engineering experience from Ford (desktop-adjacent automotive software) and Morgan Stanley (financial services — a target vertical). The pivot from Laminar (integration platform) to Minicor (desktop automation) originated from a direct customer encounter with the legacy-desktop problem (LinkedIn, Mark Bailey).
+- **Faizaan Chishtie (Co-Founder & CEO):**
+  - Background: B.A.Sc. Software Engineering, University of Ottawa; prior CEO/Co-Founder of Laminar Run (low-code integration platform); engineering stints at Phoenix (YC W21), Typecast, Secoda; co-founded Homeboard (grew to mid-five-figure ARR); Founder in Residence at ASCENT by McMillan; Next Canada and Antler cohorts (getprog.ai; LinkedIn).
+  - Twitter/X: No public account confirmed in search.
+  - LinkedIn: "CEO & Co-Founder at Minicor (YC P26)" (linkedin.com/in/fchishtie).
+  - GitHub: @FaizChishtie (github.com/FaizChishtie); top repo star count not retrievable from search.
+- **Saheed Akinbile (Co-Founder & CTO):**
+  - Background: B.A.Sc. Software Engineering with Technology Management & Entrepreneurship option, University of Ottawa (2016-2020); prior engineer at Morgan Stanley (2020-2022, built Java apps cited as saving $30M/year in fees) and Ford; prior CTO/Co-Founder of Laminar; domain expertise in RPA (QuickBooks/Sage/Citrix) and browser automation (saheedakinbile.com; rocketreach; LinkedIn).
+  - Twitter/X: No public account confirmed in search.
+  - LinkedIn: "CTO & Co-Founder at Minicor (YC P26)" (linkedin.com/in/saheed-akinbile).
+  - GitHub: @sakin070, 43 repositories (github.com/sakin070); top repo star count not retrievable.
+- **Co-founder relationship:** Met in 2019 in a UX class at University of Ottawa, built a non-profit (Software For Love) together during the pandemic, then co-founded Laminar Run before pivoting/rebranding into Minicor in 2023-2024 (search snippet via getprog.ai; LinkedIn).
+- **Founder-market fit:** Both founders previously built Laminar, a low-code integration/data-migration platform for legacy systems, giving direct experience with bespoke legacy-system integration which is the same problem Minicor targets (laminar.run; getprog.ai).
 
 ## Key Risks
 
-**Foundation model commoditization:** Anthropic, OpenAI, and Google are rapidly improving computer-use accuracy in their base models. As accuracy approaches Minicor's claimed 93–96%, the core agent capability commoditizes, pressuring Minicor to differentiate on infrastructure, orchestration, and compliance alone (minicor.com accuracy claims).
-
-**Pivot recency:** The company pivoted from Laminar (low-code integration platform) to Minicor (desktop automation). The legal entity remains Laminar Run, Inc. (minicor.com). This pivot means current-product traction is early, and prior Laminar metrics do not transfer.
-
-**Vendor countermeasures:** Legacy system vendors (Epic, Cerner, etc.) could detect and block automated UI interaction, or open APIs that eliminate the need for UI automation entirely. Epic has historically been restrictive about third-party integrations (industry knowledge).
-
-**Single-vertical concentration:** Website customer logos and supported systems skew heavily toward healthcare (6 of 8 named systems are healthcare EHRs/practice management) (minicor.com). Revenue concentration in one regulated vertical creates regulatory and customer-concentration risk.
+- **Pivot continuity:** Minicor appears to be a rebrand/pivot from prior product Laminar Run, with laminar.run now redirecting to Minicor branding (laminar.run); traction signals like "25,000 patients/day" cannot be confirmed as current-product vs. carry-over from prior Laminar deployments.
+- **Foundation-model commoditization:** Anthropic computer-use, OpenAI Operator, and open-source Skyvern (YC, $2.7M, GitHub repo public) are converging on the same self-healing UI automation primitive, threatening the 93-96% accuracy edge if base models improve (Skyvern blog; competitor scan).
+- **Incumbent encroachment:** UiPath and Automation Anywhere both announced agentic RPA features in 2025 (improvado, 2026; G2, 2026), and their existing enterprise contracts in healthcare/financial services could foreclose Minicor's GTM motion.
+- **Regulatory/compliance exposure in healthcare:** Processing "25,000 patients/day" implies PHI handling under HIPAA (Minicor website); any breach or audit failure would materially impair the cited customer concentration.
+- **Self-reported accuracy benchmark:** The 93-96% click accuracy claim is unbenchmarked against third-party evaluations (Minicor website); buyers may discount until independently verified.
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $35.27B in 2026, $247.34B by 2035 at 24.20% CAGR (Precedence Research via GlobeNewsWire, Dec 2025) |
+| TAM | Global RPA software market $3.6B in 2024 (Gartner, 2024 press release); broader RPA market projected $35.27B in 2026, 24.2% CAGR to 2035 (GlobeNewswire, Dec 2025) |
 | SAM | No public data found |
-| Traction | 1 customer at 25,000 patients/day (minicor.com); 6 customer logos on website (minicor.com); YC S26/P26 batch (YC page) |
-| Revenue Signal | No public data found |
-| Founders | Faizaan Chishtie (CEO): Phoenix (YC W21), Homeboard (mid-5-fig ARR), U of Ottawa. Saheed Akinbile (CTO): Ex-Ford, Ex-Morgan Stanley, U of Ottawa. |
-| Competitors | UiPath (public, NYSE: PATH, incumbent RPA); Automation Anywhere ($6.8B+ raised via search snippet, cloud-native RPA); Skyvern ($2.7M seed, browser-only AI automation); Induced AI ($2.3M seed, browser-only); Browserbase ($40M Series B, browser infrastructure) |
-| Moat Signals | SOC 2 Type II + HIPAA compliance (minicor.com); self-healing agent orchestration layer (minicor.com) |
-| Risk Factors | Foundation model commoditization, pivot recency, vendor countermeasures, single-vertical concentration |
-| Founder Reach | Faizaan: X @faizchishtie (count not retrievable), LinkedIn linkedin.com/in/fchishtie, GitHub 108 stars (GitHub). Saheed: X not found, LinkedIn linkedin.com/in/saheed-akinbile, GitHub 43 repos (GitHub). |
-| Distribution Signals | No public data found |
-| Emails | connect@minicor.com (minicor.com), faiz@minicor.com (YC page) |
+| Traction | "25,000 patients/day in production" (Minicor website, 2026); SOC 2 Type II + HIPAA certified (Minicor website, 2026); 2 active job openings (YC page, 2026) |
+| Revenue Signal | No public data found (no pricing page on Minicor website) |
+| Founders | Faizaan Chishtie (CEO): U Ottawa Software Eng, prior CEO Laminar Run, Phoenix YC W21 engineer. Saheed Akinbile (CTO): U Ottawa Software Eng, prior CTO Laminar, ex-Morgan Stanley & Ford engineer |
+| Competitors | UiPath (public, ~$1.5B ARR FY24, legacy script RPA without self-healing); Automation Anywhere ($1B+ raised, revenue unknown, broader GenAI RPA suite); Microsoft Power Automate (part of MSFT, bundled with M365); Skyvern ($2.7M seed, ~$900K revenue per Extruct, web-only OSS); Browserbase ($68M raised, revenue unknown, web-only); TinyFish ($47M raised, revenue unknown, enterprise web agents) |
+| Moat Signals | SOC 2 Type II + HIPAA compliance (Minicor website); claimed 93-96% click accuracy vs 80-85% baseline (Minicor website) |
+| Risk Factors | Pivot from prior product Laminar (traction attribution unclear), foundation-model commoditization, incumbent RPA vendors adding agentic features |
+| Founder Reach | Faizaan Chishtie: LinkedIn linkedin.com/in/fchishtie, GitHub @FaizChishtie, follower counts not retrievable. Saheed Akinbile: LinkedIn linkedin.com/in/saheed-akinbile, GitHub @sakin070 (43 repos), follower counts not retrievable |
+| Distribution Signals | YC P26 batch (YC page); 2 active job postings on YC (YC page, 2026); LinkedIn hiring post by CEO (LinkedIn activity 7455280315461210112); no Product Hunt launch found |
+| Emails | faiz@minicor.com, connect@minicor.com |
+
+Sources:
+- [Minicor YC Company Page](https://www.ycombinator.com/companies/minicor)
+- [Minicor Website](https://minicor.com)
+- [Minicor Launch on YC](https://www.ycombinator.com/launches/Pkq-minicor-self-healing-desktop-automations-that-scale)
+- [Faizaan Chishtie LinkedIn](https://www.linkedin.com/in/fchishtie/)
+- [Saheed Akinbile LinkedIn](https://www.linkedin.com/in/saheed-akinbile/)
+- [Faizaan Chishtie GitHub](https://github.com/FaizChishtie)
+- [Saheed Akinbile GitHub](https://github.com/sakin070)
+- [Faizaan Chishtie getprog.ai profile](https://www.getprog.ai/profile/31967593)
+- [Saheed Akinbile personal site](https://www.saheedakinbile.com/)
+- [Laminar Run (prior product)](https://laminar.run/)
+- [TechPlanet Minicor profile](https://techplanet.today/post/minicor-bridging-the-gap-between-ai-and-legacy-systems-with-self-healing-desktop-automation)
+- [Skyvern $2.7M raise](https://www.skyvern.com/blog/skyvern-we-raised-2-7m-to-fix-browser-automation-open-source/)
+- [Skyvern YC page](https://www.ycombinator.com/companies/skyvern)
+- [Browserbase funding](https://www.startuphub.ai/startups/browserbase)
+- [TinyFish $47M raise](https://www.aiworld.eu/story/tinyfish-raises-47m-to-scale-ai-powered-web-agents)
+- [Gartner RPA Market Share 2024](https://www.gartner.com/en/documents/6842834)
+- [RPA Market Size 2026-2035](https://www.globenewswire.com/news-release/2025/12/16/3206126/0/en/Robotic-Process-Automation-RPA-Market-Size-Expands-from-USD-35-27-Bn-in-2026-to-USD-247-34-Bn-by-2035-Fueled-by-AI-Powered-Automation-and-Digitalization.html)
+- [UiPath competitors analysis](https://improvado.io/blog/uipath-competitors)

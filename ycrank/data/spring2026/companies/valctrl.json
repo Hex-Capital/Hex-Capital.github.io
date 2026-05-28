@@ -1,0 +1,48 @@
+{
+  "slug": "valctrl",
+  "name": "ValCtrl",
+  "oneLiner": "ValCtrl is the world model for Prediction Finance, and Kassandre?",
+  "metadata": {
+    "website": "https://valctrl.com",
+    "yc_page": "https://www.ycombinator.com/companies/valctrl",
+    "batch": "Spring 2026",
+    "industry": "Fintech / Fintech -> Banking and Exchange",
+    "team_size": "2",
+    "location": "New York, NY, USA",
+    "tags": "Artificial Intelligence, Fintech, Finance, Analytics, Data Engineering",
+    "yc_partner": "Nicolas Dessaigne",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Fintech",
+    "Finance",
+    "Analytics",
+    "Data Engineering"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-28T02:46:47.503Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 32,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 32,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
+  },
+  "consolidatedAvg": 32,
+  "consolidatedRank": 176,
+  "paths": {
+    "memo": "spring2026/memos/valctrl.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/valctrl.md"
+    }
+  }
+}

@@ -5,10 +5,10 @@
   "metadata": {
     "website": "https://www.textsidekick.com/",
     "yc_page": "https://www.ycombinator.com/companies/textsidekick",
-    "batch": "Spring 2026",
+    "batch": "Spring 2026 (YC P26)",
     "industry": "B2B / B2B -> Operations",
     "team_size": "1",
-    "location": "Saratoga, CA, USA",
+    "location": "San Francisco, CA, USA",
     "tags": "SaaS, B2B, AI Assistant",
     "yc_partner": "Aaron Epstein",
     "emails": "hello@textsidekick.com"
@@ -19,58 +19,28 @@
     "AI Assistant"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-04-22T23:38:30.758Z",
+  "memoGeneratedAt": "2026-05-28T02:49:04.431Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 52,
+      "score": 54,
       "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 57,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 40,
-      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 43,
-    "EG": 42,
-    "NR": 52,
-    "PG": 57,
-    "PT": 33,
-    "SL": 35,
-    "VK": 40
+    "CB": 54,
+    "EG": null,
+    "NR": null,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
   },
-  "consolidatedAvg": 43.14,
-  "consolidatedRank": 57,
+  "consolidatedAvg": 54,
+  "consolidatedRank": 33,
   "paths": {
     "memo": "spring2026/memos/textsidekick.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/textsidekick.md",
-      "elad-gil": "spring2026/evals/elad-gil/textsidekick.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/textsidekick.md",
-      "paul-graham": "spring2026/evals/paul-graham/textsidekick.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/textsidekick.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/textsidekick.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/textsidekick.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/textsidekick.md"
     }
   }
 }

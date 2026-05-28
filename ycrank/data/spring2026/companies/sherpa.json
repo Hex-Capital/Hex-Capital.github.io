@@ -26,23 +26,33 @@
     "cyan-banister": {
       "score": 43,
       "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 43,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 43,
-    "EG": null,
-    "NR": null,
+    "EG": 55,
+    "NR": 43,
     "PG": null,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 43,
-  "consolidatedRank": 99,
+  "consolidatedAvg": 47,
+  "consolidatedRank": 61,
   "paths": {
     "memo": "spring2026/memos/sherpa.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/sherpa.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/sherpa.md",
+      "elad-gil": "spring2026/evals/elad-gil/sherpa.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/sherpa.md"
     }
   }
 }

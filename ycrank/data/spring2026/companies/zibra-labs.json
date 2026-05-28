@@ -25,23 +25,28 @@
     "cyan-banister": {
       "score": 49,
       "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 50,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
     "CB": 49,
-    "EG": null,
+    "EG": 50,
     "NR": null,
     "PG": null,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 49,
-  "consolidatedRank": 59,
+  "consolidatedAvg": 49.5,
+  "consolidatedRank": 44,
   "paths": {
     "memo": "spring2026/memos/zibra-labs.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/zibra-labs.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/zibra-labs.md",
+      "elad-gil": "spring2026/evals/elad-gil/zibra-labs.md"
     }
   }
 }

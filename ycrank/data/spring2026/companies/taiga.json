@@ -22,23 +22,33 @@
     "cyan-banister": {
       "score": 51,
       "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 34,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 51,
-    "EG": null,
-    "NR": null,
+    "EG": 40,
+    "NR": 34,
     "PG": null,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 51,
-  "consolidatedRank": 50,
+  "consolidatedAvg": 41.67,
+  "consolidatedRank": 124,
   "paths": {
     "memo": "spring2026/memos/taiga.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/taiga.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/taiga.md",
+      "elad-gil": "spring2026/evals/elad-gil/taiga.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/taiga.md"
     }
   }
 }

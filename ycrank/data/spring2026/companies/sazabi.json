@@ -22,23 +22,33 @@
     "cyan-banister": {
       "score": 48,
       "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 54,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
     "CB": 48,
-    "EG": null,
-    "NR": null,
+    "EG": 52,
+    "NR": 54,
     "PG": null,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 48,
-  "consolidatedRank": 64,
+  "consolidatedAvg": 51.33,
+  "consolidatedRank": 33,
   "paths": {
     "memo": "spring2026/memos/sazabi.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/sazabi.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/sazabi.md",
+      "elad-gil": "spring2026/evals/elad-gil/sazabi.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/sazabi.md"
     }
   }
 }

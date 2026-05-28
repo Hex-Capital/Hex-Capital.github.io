@@ -23,23 +23,33 @@
     "cyan-banister": {
       "score": 53,
       "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 29,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 53,
-    "EG": null,
-    "NR": null,
+    "EG": 42,
+    "NR": 29,
     "PG": null,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 53,
-  "consolidatedRank": 39,
+  "consolidatedAvg": 41.33,
+  "consolidatedRank": 125,
   "paths": {
     "memo": "spring2026/memos/tenet-industries.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/tenet-industries.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/tenet-industries.md",
+      "elad-gil": "spring2026/evals/elad-gil/tenet-industries.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/tenet-industries.md"
     }
   }
 }

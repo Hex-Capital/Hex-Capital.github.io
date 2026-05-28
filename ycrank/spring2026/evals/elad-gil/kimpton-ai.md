@@ -1,0 +1,30 @@
+﻿# Kimpton AI -- Elad Gil Evaluation
+
+Kimpton AI is the archetype I see twenty times a batch in this AI cycle: operators who productized their own internal tool, strong on shipping-history-as-credential, conspicuously silent on the curve. Jack Zumwalt and Mauricio Ortiz ran a $10M digital-asset systematic fund at Level III Capital for four years and built every research tool they couldn't buy -- that operator-built provenance is the highest-loaded dimension in the dossier. The lowest is the one that matters most in 2026: the dossier says "No public data found on revenue, paying customers, user counts" for an AI company in a hot category. That high/low pairing tells me what Kimpton AI is -- a credible-founder, no-buyer-pull product looking for the catalyst that turns a personal toolkit into a market.
+
+**Perplexity** (2022) is my reference rung for founder shipping rhythm -- Aravind Srinivas pinging me on LinkedIn and showing up a week later with the thing we'd discussed built. The mechanism is the same one I score here: shipping artifacts predict execution under chaos. Zumwalt and Ortiz cleared the operator bar -- four years running a systematic fund, building the research stack they're now productizing, an artifact that survived contact with their own P&L (kimpton.ai/about, l3cap.com). But Kimpton AI's dossier names no between-meetings shipping rhythm, no public GitHub, no Twitter, no Product Hunt, no Chrome extension, no demo loop. Zumwalt and Ortiz read as disciplined operators in the **Brex** (2017) mold, not as the Aravind-pattern founder who would have already shoved three iterations of `mandate.md` into a prospect's inbox by week two. That's why this dimension lands above MID but well shy of the Perplexity rung.
+
+**Lyft** Series C is the failure-mechanism I keep coming back to on index-position: a #2 seat in a market with declared leaders pays you a fraction of the obvious bet's economics (20VC). The same pattern is visible in Kimpton AI's competitive map: AlphaSense at $1.39B raised and ~$4B valuation, Hebbia at $159M, Rogo at $165M and $750M post-money on a Series C closed January 2026, Aiera with 10 Wall Street bank LPs, Fintool already absorbed by Microsoft. Per my own *AI Market Clarity* (blog.eladgil.com, Nov 2025), the buy-side research-agent category is closer to "winners declaring themselves" than "wide open," and Kimpton AI's pitch -- thin agentic layer on a FactSet license -- is structurally the worse-version-of-the-obvious-bet I described in the Lyft pass. The `mandate.md` verticalization is a real wedge, but it's the kind of wedge AlphaSense or Rogo will ship in a sprint once it shows traction.
+
+On market re-opening, Kimpton AI fails the *Stripe* (2010) / *Coinbase* (2013) / *Anduril* (2022) test mechanically: the dossier names no specific 24-month catalyst beyond "LLM agent reliability crossed a usable threshold" -- which is the entire AI cycle's catalyst, not Kimpton AI's. Asset management is not a re-opening market; it's a steady-state market where FactSet, AlphaSense, and Hebbia have lived for years. Compound that over 18 months and the dimension worsens, not improves -- the more reliable agents become, the more the incumbents ship them themselves.
+
+The counterfactual for revenue velocity is sharp: to flip this dimension a tier, Kimpton AI's dossier would need named hedge-fund or RIA logos signed in the last 90 days plus a month-over-month seat-count or ARR figure. The dossier offers neither -- the site routes to "discovery calls through co-founder Jack Zumwalt" rather than a pricing page. In the cycle where Harvey ran $3B → $5B → $8B in months and the disclosure was trivial, silence on the curve is not a stage default; it's the absence of the thing that would justify writing a check.
+
+Compare Kimpton AI's miracle architecture to **Color Genomics** (2015), which I co-founded specifically as a workflow layer on top of commodity sequencing -- one miracle, isolated, surrounded by GTM execution. Kimpton AI stacks at least two: LLM-agent reliability for multi-step trade rationale (not yet a settled capability for fiduciary use), and durable programmatic access to FactSet/Tiingo/Polymarket at economics that survive a vendor renegotiation. Add SEC investment-advice exposure on autonomous "Trade Proposals" and the chain lengthens. That's not a single-miracle bet; it's a margin-compression bet with regulatory edge.
+
+My 36-month forecast on Kimpton AI: under $3M ARR, no Series A from a top-decile fund, and an acqui-hire into FactSet, Rogo, or a mid-tier wealth platform at sub-$50M -- the operator quality of Zumwalt and Ortiz makes a soft landing likely, but the index-position math doesn't pencil into an independent outcome.
+
+The strongest bull case against me: Kimpton AI's `mandate.md` / `strategy.md` primitive is a genuinely PM-shaped abstraction that AlphaSense and Hebbia, being horizontal, will not ship natively -- and operator-founders running founder-led sales into hedge funds and family offices can compound annual-contract revenue fast once the first three logos close, the same way **Decagon** (2023) did in post-LLM CX. The bear answer is that Decagon shipped into a wide-open category per *AI Market Clarity* (blog.eladgil.com); Kimpton AI is shipping into one where Rogo just priced at $750M and Microsoft already bought Fintool. The verifiable condition that would flip my verdict: three named hedge-fund or family-office logos on annual contracts above $50K each, with month-over-month seat expansion disclosed within 90 days. Absent that, this is a pass -- the founders are good enough that I'd take the next meeting, not this round.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Market Re-Opening Via Specific Recent Catalyst | 9/28 |
+| Revenue Velocity or Usage Curve Already Visible | 6/25 |
+| Founder Ships Iteratively Between Conversations | 13/20 |
+| Index-Like Distribution Position On A Compounding Category | 5/15 |
+| Single-Miracle Architecture Rather Than Multi-Miracle Dependency | 5/12 |
+| **Total** | **38/100** |
+
+**Total Score: 38/100** (Pass)

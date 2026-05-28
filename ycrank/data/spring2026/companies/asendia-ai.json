@@ -29,24 +29,29 @@
     "elad-gil": {
       "score": 52,
       "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 41,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 33,
     "EG": 52,
-    "NR": null,
+    "NR": 41,
     "PG": null,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 42.5,
-  "consolidatedRank": 101,
+  "consolidatedAvg": 42,
+  "consolidatedRank": 113,
   "paths": {
     "memo": "spring2026/memos/asendia-ai.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/asendia-ai.md",
-      "elad-gil": "spring2026/evals/elad-gil/asendia-ai.md"
+      "elad-gil": "spring2026/evals/elad-gil/asendia-ai.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/asendia-ai.md"
     }
   }
 }

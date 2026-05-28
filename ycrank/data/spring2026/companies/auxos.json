@@ -29,24 +29,29 @@
     "elad-gil": {
       "score": 41,
       "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 44,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 34,
     "EG": 41,
-    "NR": null,
+    "NR": 44,
     "PG": null,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 37.5,
-  "consolidatedRank": 150,
+  "consolidatedAvg": 39.67,
+  "consolidatedRank": 140,
   "paths": {
     "memo": "spring2026/memos/auxos.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/auxos.md",
-      "elad-gil": "spring2026/evals/elad-gil/auxos.md"
+      "elad-gil": "spring2026/evals/elad-gil/auxos.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/auxos.md"
     }
   }
 }

@@ -24,23 +24,33 @@
     "cyan-banister": {
       "score": 41,
       "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 34,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 41,
-    "EG": null,
-    "NR": null,
+    "EG": 42,
+    "NR": 34,
     "PG": null,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 41,
-  "consolidatedRank": 116,
+  "consolidatedAvg": 39,
+  "consolidatedRank": 151,
   "paths": {
     "memo": "spring2026/memos/pentagon.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/pentagon.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/pentagon.md",
+      "elad-gil": "spring2026/evals/elad-gil/pentagon.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/pentagon.md"
     }
   }
 }

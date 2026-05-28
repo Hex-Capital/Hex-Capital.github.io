@@ -25,23 +25,33 @@
     "cyan-banister": {
       "score": 47,
       "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 49,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
     "CB": 47,
-    "EG": null,
-    "NR": null,
+    "EG": 49,
+    "NR": 49,
     "PG": null,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 47,
-  "consolidatedRank": 69,
+  "consolidatedAvg": 48.33,
+  "consolidatedRank": 54,
   "paths": {
     "memo": "spring2026/memos/gigacatalyst.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/gigacatalyst.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/gigacatalyst.md",
+      "elad-gil": "spring2026/evals/elad-gil/gigacatalyst.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/gigacatalyst.md"
     }
   }
 }

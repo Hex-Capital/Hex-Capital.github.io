@@ -19,23 +19,33 @@
     "cyan-banister": {
       "score": 39,
       "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 62,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 42,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 39,
-    "EG": null,
-    "NR": null,
+    "EG": 62,
+    "NR": 42,
     "PG": null,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 39,
-  "consolidatedRank": 135,
+  "consolidatedAvg": 47.67,
+  "consolidatedRank": 58,
   "paths": {
     "memo": "spring2026/memos/gojiberry-ai.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/gojiberry-ai.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/gojiberry-ai.md",
+      "elad-gil": "spring2026/evals/elad-gil/gojiberry-ai.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/gojiberry-ai.md"
     }
   }
 }

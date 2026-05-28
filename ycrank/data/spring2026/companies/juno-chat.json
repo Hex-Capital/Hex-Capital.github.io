@@ -24,23 +24,33 @@
     "cyan-banister": {
       "score": 59,
       "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 57,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
     "CB": 59,
-    "EG": null,
-    "NR": null,
+    "EG": 49,
+    "NR": 57,
     "PG": null,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 59,
-  "consolidatedRank": 11,
+  "consolidatedAvg": 55,
+  "consolidatedRank": 14,
   "paths": {
     "memo": "spring2026/memos/juno-chat.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/juno-chat.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/juno-chat.md",
+      "elad-gil": "spring2026/evals/elad-gil/juno-chat.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/juno-chat.md"
     }
   }
 }

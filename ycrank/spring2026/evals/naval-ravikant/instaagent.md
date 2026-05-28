@@ -1,0 +1,28 @@
+﻿# InstaAgent -- Naval Ravikant Evaluation
+
+InstaAgent is a services-margin agency selling persona creative into Meta and TikTok auctions, dressed as a generative-AI infrastructure bet — that pairing of a real-feeling $1M ARR in 10 months against a distribution architecture built on "hundreds of social accounts engineered to reach each niche" is the analytical signature, and it is the exact inversion of what I fund. The dimension where InstaAgent ranks highest is market size; the dimension where it ranks lowest is the only one I read first, leverage architecture. When the architecture is upside-down, the revenue velocity is the trap, not the signal.
+
+Twitter (2007) is the canonical permissionless-media-leverage rung — anyone posts, the platform charges nothing, marginal cost of replication is zero, and the founder's specific knowledge compounds without asking Meta or Apple for permission. InstaAgent inverts that mechanism on every axis. The InstaAgent distribution layer is account farms on Meta and TikTok, which is the most permissioned media surface that exists; both platforms have a documented history of deplatforming exactly this pattern, and the dossier flags it as platform-dependency risk with no disclosed mitigation. Anchorage Digital is the one exception in my ledger where a permissioned business cleared the bar — and it cleared because the OCC charter became the moat. InstaAgent's permission dependency is not a moat; it is a liability whose counterparty is the same algorithm InstaAgent is gaming. The $1M ARR is real, and it is real on rented land.
+
+Perplexity is the closest comparable on the network-compounding axis — single-sided app, no Nth-user-helps-(N-1) mechanic, waived because criterion #1, criterion #3, and category-timing all hit top quartile simultaneously. InstaAgent fails the same network test (each consumer-brand customer is economically independent of the next, no compounding creative-performance dataset disclosed) but fails it without any of the three Perplexity overrides. The known exception does not extend. The mechanism that would compound — a proprietary cross-brand creative-performance dataset — is asserted on the YC page and unverified anywhere else; AdCreative.ai built a comparable feedback loop and exited at $38.7M to Appier, which sets the ceiling for what this mechanic underwrites.
+
+Kyle Wong's profile — Cornell triple major, ex-Goldman Sachs China TMT, an unnamed prior consumer product credited with "1M+ users in 1 month" only via paraphrased search snippet — sits on the wrong side of the specific-knowledge filter. Atwood and Spolsky were practicing developers writing for developers; Ivan Zhao had been rebuilding personal productivity tools since adolescence; Aravind Srinivas brought a Berkeley retrieval PhD. The InstaAgent claim that the founding team "burned millions on paid social" is exactly the kind of lived-problem origin I weight heavily, but the dossier itself flags it as unverified and points at the same gap I'd flag — no named prior company, no documented budget scale. Colin Tseung's ~1y 8mo average tenure across 6 prior companies is the inverse of the 10-year-partner signal.
+
+The market itself is large enough — paid social creative is consumer media, platform-shaped, and InstaAgent has pivot vectors into video generation (Creatify's lane) or creative SaaS (AdCreative's lane). Counterfactual: if InstaAgent had been built as an open-source creative-evaluation library with API distribution, the same six-person team and the same $1M ARR would put this in the 65+ range. The market is not the problem. The leverage architecture chosen against the market is the problem.
+
+Forecast at 36 months: InstaAgent reaches $5-12M ARR as a boutique AI creative agency and is acqui-hired by a holding company on the Brandtech-buys-Pencil template, or stalls when Meta and TikTok tighten enforcement on coordinated-account distribution. The 10,000x geometry is not in this business — agency multiples and platform-policy risk cap the upside at roughly the AdCreative.ai exit, which is a fine outcome for the founders and the wrong outcome for the asymmetric-payoff math that underwrites a Naval check.
+
+The strongest bull case is the one Elad Gil would write: $1M ARR in 10 months is exceptional pre-seed velocity, the pivot from self-serve to agency reflects honest customer discovery ("customers do not just want AI tools; they need help producing quality creatives"), and the Perplexity Known Exception establishes that I have waived the network-compounding criterion before when other gates clear emphatically. The dismantling is that Perplexity cleared three gates at top quartile — permissionless API distribution, deep ML specific knowledge, pre-consensus category timing — and InstaAgent clears zero of those three. AdCreative.ai's $38.7M exit and Pencil's holdco absorption already priced this category. One verifiable condition would flip the verdict: a named prior venture for Wong with audited evidence of running paid social at $10M+ budget scale, paired with a public migration of distribution off platform-gated account farms onto a permissionless creator network.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Permissionless Leverage Architecture (Code or Media as Primary Distribution) | 5/28 |
+| Marketplace or Network with Compounding User-Added Value | 6/22 |
+| Founder Has Non-Trainable Specific Knowledge in the Domain | 8/20 |
+| Big Market with Room for Multiple Pivots Without Refinancing | 8/16 |
+| Founder Trio (Intelligence + Energy + Integrity) Reads as a 10-Year Partner | 7/14 |
+| **Total** | **34/100** |
+
+**Total Score: 34/100** (Pass)

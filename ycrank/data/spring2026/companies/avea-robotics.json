@@ -28,24 +28,29 @@
     "elad-gil": {
       "score": 43,
       "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 42,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 50,
     "EG": 43,
-    "NR": null,
+    "NR": 42,
     "PG": null,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 46.5,
-  "consolidatedRank": 73,
+  "consolidatedAvg": 45,
+  "consolidatedRank": 78,
   "paths": {
     "memo": "spring2026/memos/avea-robotics.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/avea-robotics.md",
-      "elad-gil": "spring2026/evals/elad-gil/avea-robotics.md"
+      "elad-gil": "spring2026/evals/elad-gil/avea-robotics.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/avea-robotics.md"
     }
   }
 }

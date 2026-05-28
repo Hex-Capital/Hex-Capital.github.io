@@ -19,23 +19,28 @@
     "cyan-banister": {
       "score": 56,
       "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 53,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
     "CB": 56,
-    "EG": null,
+    "EG": 53,
     "NR": null,
     "PG": null,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 56,
-  "consolidatedRank": 26,
+  "consolidatedAvg": 54.5,
+  "consolidatedRank": 16,
   "paths": {
     "memo": "spring2026/memos/zolvo.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/zolvo.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/zolvo.md",
+      "elad-gil": "spring2026/evals/elad-gil/zolvo.md"
     }
   }
 }

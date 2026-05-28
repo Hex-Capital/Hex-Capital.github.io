@@ -24,23 +24,33 @@
     "cyan-banister": {
       "score": 32,
       "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 36,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 32,
-    "EG": null,
-    "NR": null,
+    "EG": 31,
+    "NR": 36,
     "PG": null,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 32,
-  "consolidatedRank": 175,
+  "consolidatedAvg": 33,
+  "consolidatedRank": 185,
   "paths": {
     "memo": "spring2026/memos/uno-wallet.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/uno-wallet.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/uno-wallet.md",
+      "elad-gil": "spring2026/evals/elad-gil/uno-wallet.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/uno-wallet.md"
     }
   }
 }

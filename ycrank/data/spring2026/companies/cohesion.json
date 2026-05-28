@@ -28,24 +28,29 @@
     "elad-gil": {
       "score": 41,
       "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 41,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 43,
     "EG": 41,
-    "NR": null,
+    "NR": 41,
     "PG": null,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 42,
-  "consolidatedRank": 103,
+  "consolidatedAvg": 41.67,
+  "consolidatedRank": 120,
   "paths": {
     "memo": "spring2026/memos/cohesion.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/cohesion.md",
-      "elad-gil": "spring2026/evals/elad-gil/cohesion.md"
+      "elad-gil": "spring2026/evals/elad-gil/cohesion.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/cohesion.md"
     }
   }
 }

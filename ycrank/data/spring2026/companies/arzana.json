@@ -30,24 +30,29 @@
     "elad-gil": {
       "score": 44,
       "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 33,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 44,
     "EG": 44,
-    "NR": null,
+    "NR": 33,
     "PG": null,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 44,
-  "consolidatedRank": 86,
+  "consolidatedAvg": 40.33,
+  "consolidatedRank": 133,
   "paths": {
     "memo": "spring2026/memos/arzana.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/arzana.md",
-      "elad-gil": "spring2026/evals/elad-gil/arzana.md"
+      "elad-gil": "spring2026/evals/elad-gil/arzana.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/arzana.md"
     }
   }
 }

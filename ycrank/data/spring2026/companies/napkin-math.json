@@ -26,23 +26,33 @@
     "cyan-banister": {
       "score": 31,
       "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 44,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 31,
-    "EG": null,
-    "NR": null,
+    "EG": 39,
+    "NR": 44,
     "PG": null,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 31,
-  "consolidatedRank": 178,
+  "consolidatedAvg": 38,
+  "consolidatedRank": 159,
   "paths": {
     "memo": "spring2026/memos/napkin-math.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/napkin-math.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/napkin-math.md",
+      "elad-gil": "spring2026/evals/elad-gil/napkin-math.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/napkin-math.md"
     }
   }
 }

@@ -25,23 +25,33 @@
     "cyan-banister": {
       "score": 53,
       "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 61,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
     "CB": 53,
-    "EG": null,
-    "NR": null,
+    "EG": 37,
+    "NR": 61,
     "PG": null,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 53,
-  "consolidatedRank": 38,
+  "consolidatedAvg": 50.33,
+  "consolidatedRank": 39,
   "paths": {
     "memo": "spring2026/memos/pops.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/pops.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/pops.md",
+      "elad-gil": "spring2026/evals/elad-gil/pops.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/pops.md"
     }
   }
 }

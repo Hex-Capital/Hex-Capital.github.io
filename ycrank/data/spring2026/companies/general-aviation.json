@@ -26,23 +26,33 @@
     "cyan-banister": {
       "score": 77,
       "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 41,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 77,
-    "EG": null,
-    "NR": null,
+    "EG": 46,
+    "NR": 41,
     "PG": null,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 77,
-  "consolidatedRank": 2,
+  "consolidatedAvg": 54.67,
+  "consolidatedRank": 15,
   "paths": {
     "memo": "spring2026/memos/general-aviation.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/general-aviation.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/general-aviation.md",
+      "elad-gil": "spring2026/evals/elad-gil/general-aviation.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/general-aviation.md"
     }
   }
 }

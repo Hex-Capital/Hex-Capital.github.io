@@ -30,24 +30,29 @@
     "elad-gil": {
       "score": 48,
       "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 43,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 64,
     "EG": 48,
-    "NR": null,
+    "NR": 43,
     "PG": null,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 56,
-  "consolidatedRank": 23,
+  "consolidatedAvg": 51.67,
+  "consolidatedRank": 32,
   "paths": {
     "memo": "spring2026/memos/arlo-industries.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/arlo-industries.md",
-      "elad-gil": "spring2026/evals/elad-gil/arlo-industries.md"
+      "elad-gil": "spring2026/evals/elad-gil/arlo-industries.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/arlo-industries.md"
     }
   }
 }

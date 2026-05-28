@@ -19,23 +19,33 @@
     "cyan-banister": {
       "score": 41,
       "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 42,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 41,
-    "EG": null,
-    "NR": null,
+    "EG": 34,
+    "NR": 42,
     "PG": null,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 41,
-  "consolidatedRank": 118,
+  "consolidatedAvg": 39,
+  "consolidatedRank": 152,
   "paths": {
     "memo": "spring2026/memos/the-company-company.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/the-company-company.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/the-company-company.md",
+      "elad-gil": "spring2026/evals/elad-gil/the-company-company.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/the-company-company.md"
     }
   }
 }

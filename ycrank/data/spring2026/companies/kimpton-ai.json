@@ -24,23 +24,33 @@
     "cyan-banister": {
       "score": 51,
       "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 38,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 51,
-    "EG": null,
-    "NR": null,
+    "EG": 38,
+    "NR": 38,
     "PG": null,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 51,
-  "consolidatedRank": 49,
+  "consolidatedAvg": 42.33,
+  "consolidatedRank": 109,
   "paths": {
     "memo": "spring2026/memos/kimpton-ai.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/kimpton-ai.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/kimpton-ai.md",
+      "elad-gil": "spring2026/evals/elad-gil/kimpton-ai.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/kimpton-ai.md"
     }
   }
 }

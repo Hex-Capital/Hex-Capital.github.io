@@ -26,23 +26,33 @@
     "cyan-banister": {
       "score": 52,
       "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 44,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 52,
-    "EG": null,
-    "NR": null,
+    "EG": 40,
+    "NR": 44,
     "PG": null,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 52,
-  "consolidatedRank": 42,
+  "consolidatedAvg": 45.33,
+  "consolidatedRank": 76,
   "paths": {
     "memo": "spring2026/memos/kelai.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/kelai.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/kelai.md",
+      "elad-gil": "spring2026/evals/elad-gil/kelai.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/kelai.md"
     }
   }
 }

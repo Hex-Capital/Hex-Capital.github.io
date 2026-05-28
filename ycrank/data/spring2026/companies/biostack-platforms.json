@@ -23,24 +23,29 @@
     "elad-gil": {
       "score": 46,
       "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 44,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 54,
     "EG": 46,
-    "NR": null,
+    "NR": 44,
     "PG": null,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 50,
-  "consolidatedRank": 52,
+  "consolidatedAvg": 48,
+  "consolidatedRank": 56,
   "paths": {
     "memo": "spring2026/memos/biostack-platforms.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/biostack-platforms.md",
-      "elad-gil": "spring2026/evals/elad-gil/biostack-platforms.md"
+      "elad-gil": "spring2026/evals/elad-gil/biostack-platforms.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/biostack-platforms.md"
     }
   }
 }

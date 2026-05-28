@@ -23,23 +23,33 @@
     "cyan-banister": {
       "score": 45,
       "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 47,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
     "CB": 45,
-    "EG": null,
-    "NR": null,
+    "EG": 47,
+    "NR": 47,
     "PG": null,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 45,
-  "consolidatedRank": 82,
+  "consolidatedAvg": 46.33,
+  "consolidatedRank": 66,
   "paths": {
     "memo": "spring2026/memos/perfectbit.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/perfectbit.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/perfectbit.md",
+      "elad-gil": "spring2026/evals/elad-gil/perfectbit.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/perfectbit.md"
     }
   }
 }

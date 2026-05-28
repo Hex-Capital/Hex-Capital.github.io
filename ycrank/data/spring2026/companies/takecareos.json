@@ -26,23 +26,33 @@
     "cyan-banister": {
       "score": 42,
       "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 37,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 42,
-    "EG": null,
-    "NR": null,
+    "EG": 39,
+    "NR": 37,
     "PG": null,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 42,
-  "consolidatedRank": 109,
+  "consolidatedAvg": 39.33,
+  "consolidatedRank": 148,
   "paths": {
     "memo": "spring2026/memos/takecareos.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/takecareos.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/takecareos.md",
+      "elad-gil": "spring2026/evals/elad-gil/takecareos.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/takecareos.md"
     }
   }
 }

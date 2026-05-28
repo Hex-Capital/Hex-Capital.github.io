@@ -22,23 +22,33 @@
     "cyan-banister": {
       "score": 59,
       "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 44,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 59,
-    "EG": null,
-    "NR": null,
+    "EG": 45,
+    "NR": 44,
     "PG": null,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 59,
-  "consolidatedRank": 12,
+  "consolidatedAvg": 49.33,
+  "consolidatedRank": 46,
   "paths": {
     "memo": "spring2026/memos/lattice-health.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/lattice-health.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/lattice-health.md",
+      "elad-gil": "spring2026/evals/elad-gil/lattice-health.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/lattice-health.md"
     }
   }
 }

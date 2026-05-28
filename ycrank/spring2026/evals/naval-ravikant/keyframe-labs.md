@@ -1,0 +1,30 @@
+﻿# Keyframe Labs -- Naval Ravikant Evaluation
+
+Keyframe Labs is a deep-tech infrastructure bet where Parth Radia's five years leading thirty engineers on voice/video foundation models at Ericsson IS the moat, but the business architecture beneath that moat is a single-sided $0.06/minute API — high on specific knowledge, low on the network compounding that underwrites 10,000x outcomes. That high-low signature is the entire analytical shape of Keyframe Labs.
+
+Stack Overflow (2008) is the HIGH rung on specific knowledge — Atwood and Spolsky were practicing developers writing for developers, and the founder-product fit was load-bearing before any revenue existed. Keyframe Labs sits adjacent to that rung, not below it: Parth Radia shipped Cosmo 1.5 in October 2025 and Persona-1 in January 2026 as in-house foundation models, with prior research at AT&T Labs on "the world's first 3D call over production networks," and Kaahan Radia brought five years of real-time perception engineering at Zipline plus CVPR publications. This is the rarest kind of specific knowledge — generative video at petascale is not trainable by reading papers, and a Stanford CS clone cannot replicate it in eighteen months. Keyframe Labs diverges from Stack Overflow only in that the artifact is a model, not a community — the knowledge is deeper but the distribution surface is narrower.
+
+Perplexity (2022) is the LOW rung I had to walk through to write a check anyway — single-sided foundation-model API where each user's value does not compound the prior user's, waived only because criterion #1 and #3 cleared at top quartile and the AI category was pre-consensus. Keyframe Labs replicates that exact failure mechanism on criterion #2: the avatar API is consumption-priced at $0.06/minute, every customer is economically independent of every other, and adding the hundredth corporate-training buyer makes the ninety-ninth buyer no more valuable. The eight unattributed testimonials on keyframelabs.com are a one-sided customer list, not a network. The data-flywheel argument is real but weak — frontier compute and synthetic data have collapsed proprietary-dataset moats across the AI stack, and Tavus's $24.1M Series A from Scale Venture Partners is already training on comparable data.
+
+On permissionless leverage, the architecture is genuinely split: Keyframe Labs ships "a few lines of embed code" and self-serve signup at platform.keyframelabs.com, which is the Twilio-shaped developer-pull pattern I underwrote in **Replit** (April 2023), but the backend is GPU-heavy real-time generation where every minute of inference costs capital. Code distributes the product permissionlessly; capital powers it. Eighteen months out, that compounds favorably only if the consumption price holds while inference cost drops faster than HeyGen ($95–100M ARR) and Synthesia ($146M ARR) can subsidize entry into the real-time tier.
+
+For the trio test, what would have to be true for Keyframe Labs to score top-quartile here is independent evidence of partnership durability — public technical writing with depth, a clean prior exit, a multi-year operator track record together. Parth Radia and Kaahan Radia present as engineering-credible brothers with no integrity flags and no scar tissue, but also no public depth — no X presence found, no GitHub found, no essays. That is the absent-evidence default, not a positive signal. The 50/50 sibling structure with CEO/CTO authority resolved is fine; the silence on long-form thinking is the gap.
+
+On big-market pivot room, Keyframe Labs is closer to **Notion** (2013) than to vertical SaaS — the dossier names corporate training, interview practice, telehealth, customer support, and digital twins as live use cases off the same model, and the AI avatar market projects $12.9B in 2026 to $142.6B by 2035 at 30.73% CAGR. Two-to-three pivots fit inside a seed round here; the constraint is competitive density, not market size.
+
+Thirty-six months out, Keyframe Labs reaches $8–20M ARR as a developer-API alternative to Tavus and gets acquired by HeyGen, ElevenLabs, or a hyperscaler for $80–250M — not because the founders fail but because the single-sided API architecture caps upside at "good infrastructure exit" rather than platform-scale, and Tavus, already at $24.1M raised with overlapping real-time positioning, forces a converged-feature, margin-compressed endgame before any data flywheel kicks in.
+
+The bull case that stings: this is the Twilio-for-avatars play, where consumption pricing at $0.06/minute structurally breaks subscription incumbents whose ARR depends on $2K–$10K/month enterprise seats they cannot cannibalize, and Parth Radia's specific knowledge in petascale generative video IS the kind of non-trainable edge that produced **Perplexity**'s exception override. If Persona-1 holds a real latency lead through 2027, developer-pull compounds API revenue past the network-effect gap. The dossier evidence that wins against this case: HeyGen and Synthesia have $241M combined ARR and full freedom to launch a real-time tier under a new SKU, Tavus is already there with Sequoia and Scale capital, and the "~500ms latency at hundreds of simultaneous connections" claim has zero third-party verification. One verifiable condition flips this to Invest: a single named enterprise customer at $500K+ ACV using Keyframe Labs in production for a non-training use case, which would prove the consumption-pricing wedge is doing real work against incumbents rather than testimonial-collecting.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Permissionless Leverage Architecture (Code or Media as Primary Distribution) | 17/28 |
+| Marketplace or Network with Compounding User-Added Value | 6/22 |
+| Founder Has Non-Trainable Specific Knowledge in the Domain | 17/20 |
+| Big Market with Room for Multiple Pivots Without Refinancing | 12/16 |
+| Founder Trio (Intelligence + Energy + Integrity) Reads as a 10-Year Partner | 8/14 |
+| **Total** | **60/100** |
+
+**Total Score: 60/100** (Neutral)

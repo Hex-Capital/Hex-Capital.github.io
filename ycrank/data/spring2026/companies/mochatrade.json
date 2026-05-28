@@ -24,23 +24,33 @@
     "cyan-banister": {
       "score": 56,
       "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 43,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 56,
-    "EG": null,
-    "NR": null,
+    "EG": 41,
+    "NR": 43,
     "PG": null,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 56,
-  "consolidatedRank": 24,
+  "consolidatedAvg": 46.67,
+  "consolidatedRank": 63,
   "paths": {
     "memo": "spring2026/memos/mochatrade.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/mochatrade.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/mochatrade.md",
+      "elad-gil": "spring2026/evals/elad-gil/mochatrade.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/mochatrade.md"
     }
   }
 }

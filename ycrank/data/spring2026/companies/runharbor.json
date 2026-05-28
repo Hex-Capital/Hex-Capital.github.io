@@ -25,23 +25,33 @@
     "cyan-banister": {
       "score": 61,
       "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 43,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 61,
-    "EG": null,
-    "NR": null,
+    "EG": 57,
+    "NR": 43,
     "PG": null,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 61,
-  "consolidatedRank": 7,
+  "consolidatedAvg": 53.67,
+  "consolidatedRank": 22,
   "paths": {
     "memo": "spring2026/memos/runharbor.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/runharbor.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/runharbor.md",
+      "elad-gil": "spring2026/evals/elad-gil/runharbor.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/runharbor.md"
     }
   }
 }

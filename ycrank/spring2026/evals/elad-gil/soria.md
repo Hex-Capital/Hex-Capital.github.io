@@ -1,0 +1,30 @@
+﻿# Soria -- Elad Gil Evaluation
+
+Soria is a clean single-miracle vertical-workflow play with no disclosed revenue velocity -- which in 2026 is the exact silhouette I've learned to walk away from, because Adam Ron's "trusted by Bulge Bracket Banks, Boutique Research Firms and the Largest Hedge Funds" line without a single named logo is the textbook *false signal* pattern I flagged in TechCrunch (Nov 2025). The healthcare-analyst-workflow thesis is real, but Soria's dossier reads as architecture without a curve.
+
+**Anduril** (2022) is the high rung on my catalyst ladder because Ukraine was a named, dated, procurement-altering event that re-opened defense in a specific 24-month window. Soria's "why now" is **[Inferred]: LLM-based extraction crossed the accuracy threshold for parsing heterogeneous healthcare regulatory/public data... within the last 12-18 months** -- inference, not a named catalyst, and the same inference applies to every horizontal AI-finance entrant (Hebbia, Rogo, Daloopa). Anduril had Ukraine; Soria has "LLMs got better," which is a margin-compression bet dressed up as a market re-opening. The healthcare sell-side research budget has not visibly re-opened in the last 24 months -- if anything, sell-side equity research headcount has been compressing for a decade. This is steady-state market disguised as catalyst-driven, and per *First Round Review* that is where great teams die.
+
+The low rung on my velocity ladder is the generic "enterprise pilots, can't name them" pitch -- the failure mechanism is that pilot tourism converts at single-digit rates and the founder mistakes meeting volume for buying behavior. Soria's dossier shows exactly that pattern: customer claim is self-reported on soriaanalytics.com, **no named logos, no ARR, no seat counts, no Product Hunt or TechCrunch presence**, and YC lists Hiring: False. Compare to **Harvey** (2023) where the $3B → $5B → $8B valuation arc tracked disclosable revenue I could triangulate. In the AI cycle silence is itself the signal -- real growth is easy to disclose, and Adam Ron is a former BofA VP with a FINRA Series 7 who knows exactly how to present numbers if they exist.
+
+On founder-shipping rhythm, the mechanism that matters is artifact production between conversations -- Aravind at **Perplexity** (2022) shipped a built thing a week after each call. Soria's CEO Adam Ron is a sell-side equity analyst by training, not a product builder, and CTO Cameron Spiller is an engineer at Pinwheel/Findigs with **no public GitHub, no Twitter, no shipped independent artifact named in the dossier**. Founder-market fit is genuinely high on the *buyer-empathy* axis (Adam covered healthcare facilities and managed care at BofA, which is the literal buyer persona), but buyer-empathy is not shipping rhythm, and over 18 months the company that wins this category will be defined by how fast it iterates the Excel add-in and MCP layer against analyst workflows, not by how well the CEO understands the customer.
+
+Counterfactual on index position: for Soria to score a tier higher here, the dossier would need to show Soria as the workflow layer that horizontal players (Hebbia, Daloopa, AlphaSense) *route through* rather than compete with -- e.g., an MCP server that Bloomberg or Hebbia distributes for healthcare-vertical depth. Today's evidence (125+ healthcare-specific sources, Excel add-in, MCP server, DBOS-based pipeline) puts Soria *adjacent to* the workflow path rather than *in* it; analysts still choose Soria vs. Bloomberg-plus-BloombergGPT, which is share-fighting, not indexing. **Stripe** (2010) didn't fight Braintree for share -- it became the default new merchants reached for. Soria has to displace a habit.
+
+Single-miracle is where Soria scores best. The miracle is bounded: LLM-driven extraction across heterogeneous healthcare public/private data, normalized into a sector model. No new physics, no regulatory approval, no consumer behavior shift required -- remaining work is GTM and product. This is structurally closer to **Decagon** (2023) than to a science project. If the velocity were there, this would be a very different conversation.
+
+**36-month forecast**: Soria reaches $2-6M ARR as a healthcare-vertical analyst tool, then gets acqui-hired by Hebbia, AlphaSense, or Daloopa for $30-80M as those horizontal players bolt on vertical depth -- the single-miracle architecture survives, the standalone velocity does not, and the founder-market fit pays out as a soft landing rather than as an index position.
+
+The strongest bull case is the **Color Genomics** (2015) parallel: workflow infrastructure on top of a hard data layer, owned by an operator with genuine domain access, in a category where generalist incumbents (Bloomberg, FactSet) are economically blocked from going sector-by-sector. Adam Ron's BofA managed-care network is a real distribution wedge most YC pre-seeds don't have, and the 125+ aggregated sources plus DBOS-published architecture is more technical substance than most Spring 2026 dossiers show. The bear case wins on one fact: in *AI Market Clarity* I wrote that AI companies without screaming growth are fundamentally broken, and Soria's dossier doesn't disclose a single ARR figure, a single named hedge fund, or a single MoM number -- Adam Ron knows how to present financials, so the absence is the answer. **Flip condition**: a named Tier-1 hedge fund or bulge-bracket healthcare desk as a seat-counted, paid customer plus disclosed >20% MoM revenue growth -- show me that within 90 days and I re-underwrite at consensus seed pricing.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Market Re-Opening Via Specific Recent Catalyst | 10/28 |
+| Revenue Velocity or Usage Curve Already Visible | 6/25 |
+| Founder Ships Iteratively Between Conversations | 9/20 |
+| Index-Like Distribution Position On A Compounding Category | 8/15 |
+| Single-Miracle Architecture Rather Than Multi-Miracle Dependency | 8/12 |
+| **Total** | **41/100** |
+
+**Total Score: 41/100** (Pass)

@@ -29,24 +29,29 @@
     "elad-gil": {
       "score": 43,
       "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 29,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 44,
     "EG": 43,
-    "NR": null,
+    "NR": 29,
     "PG": null,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 43.5,
-  "consolidatedRank": 92,
+  "consolidatedAvg": 38.67,
+  "consolidatedRank": 153,
   "paths": {
     "memo": "spring2026/memos/aice-power.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/aice-power.md",
-      "elad-gil": "spring2026/evals/elad-gil/aice-power.md"
+      "elad-gil": "spring2026/evals/elad-gil/aice-power.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/aice-power.md"
     }
   }
 }

@@ -24,23 +24,33 @@
     "cyan-banister": {
       "score": 33,
       "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 42,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 33,
-    "EG": null,
-    "NR": null,
+    "EG": 50,
+    "NR": 42,
     "PG": null,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 33,
-  "consolidatedRank": 172,
+  "consolidatedAvg": 41.67,
+  "consolidatedRank": 123,
   "paths": {
     "memo": "spring2026/memos/saffron.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/saffron.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/saffron.md",
+      "elad-gil": "spring2026/evals/elad-gil/saffron.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/saffron.md"
     }
   }
 }

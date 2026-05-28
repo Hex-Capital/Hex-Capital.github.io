@@ -29,24 +29,29 @@
     "elad-gil": {
       "score": 60,
       "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 58,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
     "CB": 44,
     "EG": 60,
-    "NR": null,
+    "NR": 58,
     "PG": null,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 52,
-  "consolidatedRank": 41,
+  "consolidatedAvg": 54,
+  "consolidatedRank": 19,
   "paths": {
     "memo": "spring2026/memos/agentphone.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/agentphone.md",
-      "elad-gil": "spring2026/evals/elad-gil/agentphone.md"
+      "elad-gil": "spring2026/evals/elad-gil/agentphone.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/agentphone.md"
     }
   }
 }

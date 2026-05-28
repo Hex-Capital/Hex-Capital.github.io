@@ -29,24 +29,29 @@
     "elad-gil": {
       "score": 52,
       "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 44,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 56,
     "EG": 52,
-    "NR": null,
+    "NR": 44,
     "PG": null,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 54,
-  "consolidatedRank": 32,
+  "consolidatedAvg": 50.67,
+  "consolidatedRank": 36,
   "paths": {
     "memo": "spring2026/memos/expanse.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/expanse.md",
-      "elad-gil": "spring2026/evals/elad-gil/expanse.md"
+      "elad-gil": "spring2026/evals/elad-gil/expanse.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/expanse.md"
     }
   }
 }

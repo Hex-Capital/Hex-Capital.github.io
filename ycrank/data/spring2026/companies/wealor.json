@@ -1,0 +1,54 @@
+{
+  "slug": "wealor",
+  "name": "Wealor",
+  "oneLiner": "AI-native platform for wealth managers",
+  "metadata": {
+    "website": "https://wealor.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/wealor",
+    "batch": "Spring 2026 (YC P26)",
+    "industry": "Fintech / Fintech -> Asset Management",
+    "team_size": "0",
+    "location": "San Francisco, CA, USA",
+    "tags": "Fintech",
+    "yc_partner": "Andrew Miklas",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Fintech"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-28T17:52:58.507Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 36,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 37,
+    "EG": 39,
+    "NR": 36,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
+  },
+  "consolidatedAvg": 37.33,
+  "consolidatedRank": 167,
+  "paths": {
+    "memo": "spring2026/memos/wealor.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/wealor.md",
+      "elad-gil": "spring2026/evals/elad-gil/wealor.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/wealor.md"
+    }
+  }
+}

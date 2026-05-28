@@ -1,0 +1,30 @@
+﻿# GovGuard -- Naval Ravikant Evaluation
+
+GovGuard is a municipal-FOIA SaaS sold via "Contact Sales" to city clerk offices that run RFPs -- the cleanest anti-template to permissionless leverage I have seen this batch, paired with a founder duo (Aditya Sabharwal, Gleb Hulting) whose integrity reads neutral but whose specific knowledge of public-records law reads as zero. The dimensional signature is a quiet-founder / permissioned-distribution pairing, and that pairing is what determines the check, not the aggregate.
+
+The leverage architecture is where GovGuard fails my opening question. Stack Overflow distributed by code -- Atwood and Spolsky wrote a developer Q&A site that developers found through Google because developers were already writing the answers, marginal cost of acquisition was zero, no gatekeeper between product and user. GovGuard's distribution path is the inverse: every dollar of revenue runs through a municipal procurement officer, a city-council RFP, and a Laserfiche or M365 integration the clerk's IT department has to bless. That is the textbook capital-and-labor leverage that nav.al/product-media specifically files under "requires permission," and the dossier's Team Size: 0 plus "Contact Sales"-gated pricing at govguard.com/contactus is exactly the shape a code-leverage business does not take.
+
+GovWell raised $25M from Insight Partners to be the "AI operating system for modern government" -- that is the LOW-rung mechanism on the founder-specific-knowledge axis playing out in real time against GovGuard. The pattern I avoid is the founder who discovered the problem as a market analyst rather than as a user; Sabharwal's BioE/CS at UIUC plus Centene plus BoardWatch (a LinkedIn-snippet aggregator) and Hulting's BoardWatch + EGO Logistics do not contain a single artifact of FOIA practice, municipal-clerk operation, or public-records law. The dossier's own "No public evidence found that founders have prior government, legal, or FOIA-domain operating experience" is the disqualifying line on the criterion that Stack Overflow's founders cleared by being the user.
+
+On the network-effects axis, GovGuard's per-city deployment compounds nothing across the customer base over an 18-month horizon -- the Nth municipality buying GovGuard does not make the (N-1)th city's product more valuable, because state exemption codes are jurisdiction-local and clerk workflows do not cross city lines. The compounding asset GovGuard could build is the per-state exemption-code library, but that is content, not network -- one funded competitor with a $25M Series A can rebuild it inside two quarters. Without the asymmetric-user-value math, the upside geometry caps in the low hundreds of millions, which is the wrong shape for the 1x-downside / 10,000x-upside frame.
+
+The market dimension would have to be re-described entirely for GovGuard's score to flip up a tier -- the company would need to credibly position FOIA-clerking as the wedge into a broader municipal-AI-agent surface (permitting, council minutes, code enforcement) with at least two adjacent pivot vectors named in the founder narrative. The dossier instead pins GovGuard to a single workflow inside a single buyer-persona, and "first idea never works" leaves no pivot-room when the second idea has to be re-procured through a different department head at the same city.
+
+GovGuard's founder trio is the dimension where I do not penalize and do not reward -- Sabharwal and Hulting have co-founded once before (BoardWatch), no contested exits, no self-promotional ethics signaling, integrity reads clean by absence. This is the Notion-Ivan-Zhao slot before there is anything to evaluate against, except Zhao had a decade of personal-productivity-tool obsession before the seed and GovGuard's founders have a LinkedIn-scraper and a logistics startup. Quiet is not bad here; it is just not enough to override criteria 1 through 4.
+
+GovGuard in 36 months is most likely a sub-$20M tuck-in acquisition by Granicus or CivicPlus for the per-state exemption-code library, or an acqui-hire into GovWell once Insight pushes GovWell to bundle FOIA into the broader GovOS suite -- the procurement velocity GovGuard needs to outrun a funded incumbent is structurally unavailable to a 0-headcount team running outbound to clerk offices.
+
+The bull case worth steel-manning is the Anchorage Digital exception: regulated-domain knowledge can flip from "permissionless distribution" failure to "permission-as-moat" if the regulatory surface is deep enough that one team accumulates compounding compliance-as-product. GovGuard's per-state exemption-code library is the analog, and a city CIO who has integrated GovGuard into Laserfiche has real switching cost. The reason the Anchorage exception does not transfer is that Anchorage's moat is an OCC Treasury charter granted January 2021 -- a single permission no competitor can clone -- whereas GovGuard's "moat" is fifty state statutes that GovWell's $25M can hire three paralegals to encode in a quarter. The verifiable condition that would flip my verdict: GovGuard publishes signed contracts with five named top-50 US cities within twelve months at disclosed ACVs above $50K, demonstrating that the procurement motion actually closes faster than GovWell can bundle. Until then, this is the pitch where slide one is "local governments spend billions" and slide two is a competitive matrix against NextRequest, GovQA, JustFOIA -- which by my own framework is the generic-VC frame I score down before the founder section loads. Pass.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Permissionless Leverage Architecture (Code or Media as Primary Distribution) | 5/28 |
+| Marketplace or Network with Compounding User-Added Value | 5/22 |
+| Founder Has Non-Trainable Specific Knowledge in the Domain | 5/20 |
+| Big Market with Room for Multiple Pivots Without Refinancing | 5/16 |
+| Founder Trio (Intelligence + Energy + Integrity) Reads as a 10-Year Partner | 7/14 |
+| **Total** | **27/100** |
+
+**Total Score: 27/100** (Pass)

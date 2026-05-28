@@ -1,0 +1,30 @@
+﻿# Imperfect -- Elad Gil Evaluation
+
+Matin Tamizi shipped Garth, a Python Garmin-Connect client with 813 stars on GitHub, then ran Balanced (YC, a16z, $500M card volume in 2014) and Cuenca ($7.4M Series A led by Stripe) -- so Imperfect is the rare pre-seed where the *founder execution rhythm* dimension is genuinely the highest-scoring axis. The problem is the lowest axis: Imperfect sits in a distribution position where Strava acquired Runna in April 2025 and Garmin shipped Active Intelligence months later. A real shipper, wrong rail. That pairing is the signature -- this is a Lyft-shaped problem with a Perplexity-shaped founder, and in my framework the rail wins.
+
+**Perplexity** (2022) is my reference point on the founder-ships dimension: Aravind would ping me on LinkedIn and a week later the thing we discussed was built. Tamizi's Garth repo, the DZone piece "Building a Modern Training Assistant With Claude and Garmin," and two prior venture-backed CEO tours load the analogy -- he ships, and he was shipping on this specific stack before Imperfect existed. Where Imperfect diverges from the Perplexity rung is that Garth is marked **DEPRECATED** in its own readme because Garmin changed auth flows. That is not a cosmetic detail. The founder's own shipping artifact has already been killed once by the platform he is now building a consumer app on top of, and "founder ships" doesn't help you when the API counterparty unilaterally invalidates the integration on a quarterly cadence.
+
+I passed on **Lyft** Series C because rideshare was winner-take-all and #2 in a network-effect market captures a fraction of #1's economics (20VC interview) -- and Imperfect's distribution position is structurally the same failure mode dressed differently. Strava owns the social graph and now owns Runna's AI coaching; Garmin owns the device and now ships Active Intelligence natively; Apple Health is the third gravity well. Imperfect must pull data *from* the same platforms that are bundling the same AI coaching for free or near-free into the surfaces athletes already open daily. Per my *AI Market Clarity* taxonomy, this is closer to a "winners declared" sub-market with two incumbent distributions and Humango/TriDot (existing multi-sport AI coaches) sitting in the middle -- Imperfect is the fourth seat at a three-seat table.
+
+On *Market Re-Opening* (mechanism mode): the dossier names a real catalyst -- LLMs crossing the adaptive-coaching threshold plus wearable-API maturity in the last 12-24 months -- but the catalyst's value is accruing to the platforms, not to new entrants. Strava's Runna acquisition in April 2025 is itself the evidence that the window opened *and closed* in the same cycle. Compounded over 18 months, this dimension worsens for Imperfect, not improves: every quarter Strava and Garmin ship more native AI features, the wedge narrows. This is the opposite of the **Anduril** (2022) pattern where the catalyst kept widening for years post-Ukraine.
+
+On *Revenue Velocity* (counterfactual mode): the dossier shows no MRR, no MoM, no pricing, just three named beta athletes including a professional ultramarathoner who placed 2nd at a 50-miler in Puerto Vallarta. For Imperfect to flip this dimension a tier, I'd need to see something like $30K MRR at 30%+ MoM within two batches of the launch, with named retention past month three on a paid SKU -- the Harvey 2023 "just working" signature in miniature. Without it, "if you're an AI company and you're not seeing explosive growth quickly, something's fundamentally broken" is the lens I'm forced to apply (Tim Ferriss Show #863, April 2026).
+
+On *Single Miracle* (single-anchor parallel to **Color Genomics** 2015): Color worked because the chemistry was commodity and the miracle was workflow on top. Imperfect tries the same move -- LLM + wearable data is commodity, the miracle is daily adaptive coaching workflow -- and on the *technical* axis I'll grant it one clean miracle. But Imperfect layers a second, independent miracle: consumer willingness-to-pay for a standalone app when Strava+Runna and Garmin Connect+ deliver overlapping value bundled. Two independent miracles compounded is the structure I pass on.
+
+My 36-month forecast: Imperfect gets acqui-hired by Strava, Garmin, or Whoop for under $30M as an AI-coaching team -- with Tamizi's prior Balanced-to-Stripe transition pattern as the template -- *or* it winds down sub-$1M ARR as Active Intelligence and Strava-Runna absorb the daily-adaptation use case. Probability mass on (a). Fine founder outcome; mediocre angel return at any consensus seed price.
+
+The strongest bull case stings: Tamizi authored *the* open-source Garmin library, multi-sport breadth is a real wedge against running-only Runna, and a professional ultramarathoner adopting in beta is the kind of athlete-influencer seed that compounds in endurance communities the way Strava itself originally compounded. If Imperfect lands $5M ARR in 18 months via influencer-driven athlete word-of-mouth, Strava buys at $100M+ and this is a respectable angel. The dossier evidence that wins for the bear case: Garth being **DEPRECATED** because Garmin unilaterally changed auth (GitHub readme) is a *concrete* platform-risk precedent on this exact stack, not a theoretical one -- you cannot build a daily-biometric-adaptation product on a counterparty that has already killed your previous integration. The condition that flips my verdict: Imperfect discloses $200K+ MRR growing 25%+ MoM within the next two quarters on a paid SKU with named >60% month-three retention. Absent that, this is the Lyft pass, not the Anduril override.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Market Re-Opening Via Specific Recent Catalyst | 10/28 |
+| Revenue Velocity or Usage Curve Already Visible | 6/25 |
+| Founder Ships Iteratively Between Conversations | 15/20 |
+| Index-Like Distribution Position On A Compounding Category | 3/15 |
+| Single-Miracle Architecture Rather Than Multi-Miracle Dependency | 7/12 |
+| **Total** | **41/100** |
+
+**Total Score: 41/100** (Pass)

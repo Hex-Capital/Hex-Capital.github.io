@@ -27,24 +27,29 @@
     "elad-gil": {
       "score": 33,
       "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 40,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 46,
     "EG": 33,
-    "NR": null,
+    "NR": 40,
     "PG": null,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 39.5,
-  "consolidatedRank": 128,
+  "consolidatedAvg": 39.67,
+  "consolidatedRank": 139,
   "paths": {
     "memo": "spring2026/memos/aquashield.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/aquashield.md",
-      "elad-gil": "spring2026/evals/elad-gil/aquashield.md"
+      "elad-gil": "spring2026/evals/elad-gil/aquashield.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/aquashield.md"
     }
   }
 }

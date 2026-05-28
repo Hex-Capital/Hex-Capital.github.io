@@ -28,24 +28,29 @@
     "elad-gil": {
       "score": 45,
       "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 27,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 30,
     "EG": 45,
-    "NR": null,
+    "NR": 27,
     "PG": null,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 37.5,
-  "consolidatedRank": 149,
+  "consolidatedAvg": 34,
+  "consolidatedRank": 182,
   "paths": {
     "memo": "spring2026/memos/alchemize.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/alchemize.md",
-      "elad-gil": "spring2026/evals/elad-gil/alchemize.md"
+      "elad-gil": "spring2026/evals/elad-gil/alchemize.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/alchemize.md"
     }
   }
 }

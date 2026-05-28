@@ -1,0 +1,30 @@
+﻿# Scope -- Elad Gil Evaluation
+
+Scope is a real-catalyst, no-curve company — Anand-Arnaud Pajaniradjane has identified the right window (MCP server directory at 22,775 listings by May 2026, Claude Code/Codex/Cursor mainstream in 2025) but is one person staring across a moat at Profound's $1B Series C and shipped "Agent runs" feature. That high-catalyst / low-velocity pairing is the analytical signature, and in this AI cycle that pairing has a specific failure mode: the catalyst gets harvested by whoever has distribution before the solo founder gets to a curve.
+
+**Anduril** (2022) is the load-bearing comp on Scope's strongest axis. The mechanism that made Anduril work was a specific 24-month catalyst (Ukraine exposing Pentagon software inadequacy) opening a window peers misread as steady-state — and Scope's dossier names a structurally similar catalyst: MCP went from spec to 22,775 listed servers in roughly a year, and Claude Code / Codex / Cursor crossed mainstream developer adoption in 2025, creating, for the first time, agent-mediated product usage that is *measurable* and therefore a budget line. That is a re-opening, not a TAM. Where Scope diverges from the Anduril template is that Trae Stephens had Palantir's forward-deployed muscle priced into the entry; Scope's catalyst is real but the founder's "uniquely positioned for the window" claim leans on Princeton interpretability research and GEO/AEO ML engineering rather than prior shipped product, which is the thinner half of the same template.
+
+**Harvey** (2023) is the inverse mirror on Scope's weakest axis — the failure mechanism on revenue velocity is not absence of revenue, it's silence on revenue in a cycle where real growth is trivially disclosable. Harvey ran $3B→$5B→$8B in months because the curve was screaming and the company let it scream (TechCrunch, Nov 2025). Scope's dossier shows zero customer logos, zero pricing, zero LOI, and a cal.com/anand-scope/demo link as the only entry point. Pre-seed earns absence-of-revenue grace, but "if you're an AI company and you're not seeing explosive growth quickly, something's fundamentally broken" (Tim Ferriss Show #863) applies harder when the adjacent category (AEO) is publishing $155M+ raises and Profound is shipping Agent runs *already*. The dossier's silence is the signal.
+
+On founder shipping rhythm — the mechanism that produced the **Perplexity** (2022) check was Aravind showing up a week later with the thing we discussed built, which compounds across 18 months into "this founder will be three product cycles ahead of any funded competitor." Scope's dossier gives me a HuggingFace profile (huggingface.co/anand94ap), no public GitHub handle, and Princeton + GEO/AEO résumé lines. That is pedigree, not artifact. In a solo-founder, multi-surface integration product (Claude Code + Codex + Cursor + customer APIs + MCP), the only compounding I underwrite is shipping velocity I can see, and I cannot see it here.
+
+On index position, the counterfactual is what would flip Scope from "fighting Profound for share" to "in the workflow path every entrant must touch." Profound, AthenaHQ, Bluefish, Peec.ai, and Azoma all sit on the *brand-mention-in-AI-answer* surface; Scope claims the *agent-task-execution-against-the-product* surface (API/CLI/MCP). For Scope to be an index on agent-mediated commerce rather than a feature Profound ships in Q3, Anand would need to land 2–3 named MCP-vendor design partners and publish a failure-mode dataset that becomes the benchmark — neither is in the dossier. Without that, Scope is adjacent to an open market, not seated in it.
+
+The single-miracle structure is the cleanest dimension on Scope, comparable to **Decagon** (2023): one assumption — that agents become primary consumers of APIs/CLIs/MCPs at scale — and the rest is GTM and product execution. No new physics, no regulatory unlock, no behavioral leap. That is the right architecture; it is also the architecture every AEO competitor already operates inside, which is why this dimension alone does not trigger a check.
+
+My 36-month forecast on Scope: acqui-hired into Profound, Datadog, or Vercel for under $30M, with the dataset and the founder absorbed and the brand retired, because solo execution against a $155M-funded category leader that is already shipping the adjacent "Agent runs" feature does not survive a competitive cycle without a visible revenue curve to attract a defensive Series A. The signature — right catalyst, no curve, one person — converges to acqui-hire, not zero and not Anduril.
+
+The strongest objection is the **Anduril** (2022) override pattern: I have publicly waived "I avoid X" when (a) the catalyst is unambiguous, (b) the founder maps to the catalyst's specific shape, and (c) the structure isolates the miracle. Scope arguably hits all three — MCP adoption is the catalyst, Anand's interpretability-plus-GEO/AEO background is unusually narrow founder-market fit for instrumenting *why* an agent picked a tool, and the miracle is isolated to GTM. The bear answer is that the Anduril override was paid for by Trae Stephens having shipped Palantir's forward-deployed organization at scale, which is a different category of evidence than a Princeton research line; and Profound shipping Agent runs in 2026 (per the dossier) means the window is being harvested in real time by a $1B-valuation incumbent. The verdict flips to Invest if Scope publishes 5+ named API/MCP-vendor customers with month-over-month usage growth in the next 90 days — that single condition is verifiable and would convert this from a thesis-shaped bet into the **Decagon**-template check.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Market Re-Opening Via Specific Recent Catalyst | 17/28 |
+| Revenue Velocity or Usage Curve Already Visible | 6/25 |
+| Founder Ships Iteratively Between Conversations | 8/20 |
+| Index-Like Distribution Position On A Compounding Category | 6/15 |
+| Single-Miracle Architecture Rather Than Multi-Miracle Dependency | 7/12 |
+| **Total** | **44/100** |
+
+**Total Score: 44/100** (Pass)

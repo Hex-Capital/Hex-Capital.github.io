@@ -28,24 +28,29 @@
     "elad-gil": {
       "score": 39,
       "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 38,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 43,
     "EG": 39,
-    "NR": null,
+    "NR": 38,
     "PG": null,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 41,
-  "consolidatedRank": 112,
+  "consolidatedAvg": 40,
+  "consolidatedRank": 137,
   "paths": {
     "memo": "spring2026/memos/astraea.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/astraea.md",
-      "elad-gil": "spring2026/evals/elad-gil/astraea.md"
+      "elad-gil": "spring2026/evals/elad-gil/astraea.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/astraea.md"
     }
   }
 }

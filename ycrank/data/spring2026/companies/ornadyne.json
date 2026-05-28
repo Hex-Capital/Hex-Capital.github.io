@@ -25,23 +25,33 @@
     "cyan-banister": {
       "score": 74,
       "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 41,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 74,
-    "EG": null,
-    "NR": null,
+    "EG": 44,
+    "NR": 41,
     "PG": null,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 74,
-  "consolidatedRank": 3,
+  "consolidatedAvg": 53,
+  "consolidatedRank": 28,
   "paths": {
     "memo": "spring2026/memos/ornadyne.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/ornadyne.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/ornadyne.md",
+      "elad-gil": "spring2026/evals/elad-gil/ornadyne.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/ornadyne.md"
     }
   }
 }

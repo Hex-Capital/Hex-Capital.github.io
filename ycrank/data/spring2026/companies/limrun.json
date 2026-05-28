@@ -25,23 +25,33 @@
     "cyan-banister": {
       "score": 66,
       "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 62,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 50,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
     "CB": 66,
-    "EG": null,
-    "NR": null,
+    "EG": 62,
+    "NR": 50,
     "PG": null,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 66,
-  "consolidatedRank": 4,
+  "consolidatedAvg": 59.33,
+  "consolidatedRank": 2,
   "paths": {
     "memo": "spring2026/memos/limrun.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/limrun.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/limrun.md",
+      "elad-gil": "spring2026/evals/elad-gil/limrun.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/limrun.md"
     }
   }
 }

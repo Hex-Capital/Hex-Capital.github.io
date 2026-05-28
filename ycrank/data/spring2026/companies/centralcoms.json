@@ -1,0 +1,56 @@
+{
+  "slug": "centralcoms",
+  "name": "CentralComs",
+  "oneLiner": "Property Management AI Agents that automate leasing and maintenance.",
+  "metadata": {
+    "website": "https://centralcoms.com",
+    "yc_page": "https://www.ycombinator.com/companies/centralcoms",
+    "batch": "Spring 2026",
+    "industry": "Real Estate and Construction / Real Estate and Construction -> Housing and Real Estate",
+    "team_size": "0 (YC page); 2 co-founders identified via LinkedIn",
+    "location": "San Francisco, CA, USA",
+    "tags": "Real Estate, B2B, Proptech",
+    "yc_partner": "Aaron Epstein (YC page)",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Real Estate",
+    "B2B",
+    "Proptech"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-28T17:52:48.368Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 35,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 40,
+    "EG": 41,
+    "NR": 35,
+    "PG": null,
+    "PT": null,
+    "SL": null,
+    "VK": null
+  },
+  "consolidatedAvg": 38.67,
+  "consolidatedRank": 154,
+  "paths": {
+    "memo": "spring2026/memos/centralcoms.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/centralcoms.md",
+      "elad-gil": "spring2026/evals/elad-gil/centralcoms.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/centralcoms.md"
+    }
+  }
+}

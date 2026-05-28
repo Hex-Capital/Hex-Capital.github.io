@@ -23,23 +23,33 @@
     "cyan-banister": {
       "score": 41,
       "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 39,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 41,
-    "EG": null,
-    "NR": null,
+    "EG": 41,
+    "NR": 39,
     "PG": null,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 41,
-  "consolidatedRank": 115,
+  "consolidatedAvg": 40.33,
+  "consolidatedRank": 135,
   "paths": {
     "memo": "spring2026/memos/light-anchor.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/light-anchor.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/light-anchor.md",
+      "elad-gil": "spring2026/evals/elad-gil/light-anchor.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/light-anchor.md"
     }
   }
 }

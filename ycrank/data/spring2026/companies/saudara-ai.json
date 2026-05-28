@@ -26,23 +26,33 @@
     "cyan-banister": {
       "score": 60,
       "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 44,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 60,
-    "EG": null,
-    "NR": null,
+    "EG": 30,
+    "NR": 44,
     "PG": null,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 60,
-  "consolidatedRank": 10,
+  "consolidatedAvg": 44.67,
+  "consolidatedRank": 84,
   "paths": {
     "memo": "spring2026/memos/saudara-ai.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/saudara-ai.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/saudara-ai.md",
+      "elad-gil": "spring2026/evals/elad-gil/saudara-ai.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/saudara-ai.md"
     }
   }
 }

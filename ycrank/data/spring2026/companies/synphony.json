@@ -25,23 +25,33 @@
     "cyan-banister": {
       "score": 46,
       "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 40,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 46,
-    "EG": null,
-    "NR": null,
+    "EG": 40,
+    "NR": 40,
     "PG": null,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 46,
-  "consolidatedRank": 78,
+  "consolidatedAvg": 42,
+  "consolidatedRank": 118,
   "paths": {
     "memo": "spring2026/memos/synphony.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/synphony.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/synphony.md",
+      "elad-gil": "spring2026/evals/elad-gil/synphony.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/synphony.md"
     }
   }
 }

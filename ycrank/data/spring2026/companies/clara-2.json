@@ -23,24 +23,29 @@
     "elad-gil": {
       "score": 54,
       "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 51,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
     "CB": 67,
     "EG": 54,
-    "NR": null,
+    "NR": 51,
     "PG": null,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 60.5,
-  "consolidatedRank": 8,
+  "consolidatedAvg": 57.33,
+  "consolidatedRank": 6,
   "paths": {
     "memo": "spring2026/memos/clara-2.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/clara-2.md",
-      "elad-gil": "spring2026/evals/elad-gil/clara-2.md"
+      "elad-gil": "spring2026/evals/elad-gil/clara-2.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/clara-2.md"
     }
   }
 }

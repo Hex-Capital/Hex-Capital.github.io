@@ -25,23 +25,33 @@
     "cyan-banister": {
       "score": 37,
       "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 38,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 37,
-    "EG": null,
-    "NR": null,
+    "EG": 36,
+    "NR": 38,
     "PG": null,
     "PT": null,
     "SL": null,
     "VK": null
   },
   "consolidatedAvg": 37,
-  "consolidatedRank": 155,
+  "consolidatedRank": 170,
   "paths": {
     "memo": "spring2026/memos/netter.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/netter.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/netter.md",
+      "elad-gil": "spring2026/evals/elad-gil/netter.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/netter.md"
     }
   }
 }

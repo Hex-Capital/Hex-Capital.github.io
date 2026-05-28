@@ -24,23 +24,33 @@
     "cyan-banister": {
       "score": 79,
       "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 47,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
     "CB": 79,
-    "EG": null,
-    "NR": null,
+    "EG": 45,
+    "NR": 47,
     "PG": null,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 79,
-  "consolidatedRank": 1,
+  "consolidatedAvg": 57,
+  "consolidatedRank": 8,
   "paths": {
     "memo": "spring2026/memos/nine-fives.md",
     "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/nine-fives.md"
+      "cyan-banister": "spring2026/evals/cyan-banister/nine-fives.md",
+      "elad-gil": "spring2026/evals/elad-gil/nine-fives.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/nine-fives.md"
     }
   }
 }

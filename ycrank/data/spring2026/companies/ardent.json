@@ -28,24 +28,29 @@
     "elad-gil": {
       "score": 58,
       "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 51,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
     "CB": 48,
     "EG": 58,
-    "NR": null,
+    "NR": 51,
     "PG": null,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 53,
-  "consolidatedRank": 35,
+  "consolidatedAvg": 52.33,
+  "consolidatedRank": 30,
   "paths": {
     "memo": "spring2026/memos/ardent.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/ardent.md",
-      "elad-gil": "spring2026/evals/elad-gil/ardent.md"
+      "elad-gil": "spring2026/evals/elad-gil/ardent.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/ardent.md"
     }
   }
 }

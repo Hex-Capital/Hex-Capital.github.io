@@ -31,25 +31,35 @@
     "naval-ravikant": {
       "score": 65,
       "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 66,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 31,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 58,
     "EG": 51,
     "NR": 65,
-    "PG": null,
-    "PT": null,
+    "PG": 66,
+    "PT": 31,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 58,
-  "consolidatedRank": 5,
+  "consolidatedAvg": 54.2,
+  "consolidatedRank": 22,
   "paths": {
     "memo": "spring2026/memos/asterlab.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/asterlab.md",
       "elad-gil": "spring2026/evals/elad-gil/asterlab.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/asterlab.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/asterlab.md",
+      "paul-graham": "spring2026/evals/paul-graham/asterlab.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/asterlab.md"
     }
   }
 }

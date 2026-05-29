@@ -30,25 +30,30 @@
     "naval-ravikant": {
       "score": 41,
       "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 59,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
     "CB": 34,
     "EG": 60,
     "NR": 41,
-    "PG": null,
+    "PG": 59,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 45,
-  "consolidatedRank": 80,
+  "consolidatedAvg": 48.5,
+  "consolidatedRank": 65,
   "paths": {
     "memo": "spring2026/memos/river-markets.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/river-markets.md",
       "elad-gil": "spring2026/evals/elad-gil/river-markets.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/river-markets.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/river-markets.md",
+      "paul-graham": "spring2026/evals/paul-graham/river-markets.md"
     }
   }
 }

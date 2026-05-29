@@ -32,25 +32,30 @@
     "naval-ravikant": {
       "score": 57,
       "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 57,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
     "CB": 43,
     "EG": 52,
     "NR": 57,
-    "PG": null,
+    "PG": 57,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 50.67,
-  "consolidatedRank": 37,
+  "consolidatedAvg": 52.25,
+  "consolidatedRank": 35,
   "paths": {
     "memo": "spring2026/memos/memory-store.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/memory-store.md",
       "elad-gil": "spring2026/evals/elad-gil/memory-store.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/memory-store.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/memory-store.md",
+      "paul-graham": "spring2026/evals/paul-graham/memory-store.md"
     }
   }
 }

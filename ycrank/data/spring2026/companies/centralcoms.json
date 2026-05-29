@@ -32,25 +32,35 @@
     "naval-ravikant": {
       "score": 35,
       "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 23,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 40,
     "EG": 41,
     "NR": 35,
-    "PG": null,
-    "PT": null,
+    "PG": 42,
+    "PT": 23,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 38.67,
-  "consolidatedRank": 154,
+  "consolidatedAvg": 36.2,
+  "consolidatedRank": 180,
   "paths": {
     "memo": "spring2026/memos/centralcoms.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/centralcoms.md",
       "elad-gil": "spring2026/evals/elad-gil/centralcoms.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/centralcoms.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/centralcoms.md",
+      "paul-graham": "spring2026/evals/paul-graham/centralcoms.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/centralcoms.md"
     }
   }
 }

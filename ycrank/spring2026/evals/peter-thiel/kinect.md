@@ -1,0 +1,30 @@
+﻿# Kinect -- Peter Thiel Evaluation
+
+Kinect is the canonical 2026 YC archetype: a competent two-person Reevo-alumni team — Kratik Agrawal and Varun Kandula, both UCLA CS — building "storefronts that sell to humans and AI agents" in the exact week Shopify shipped Agentic Storefronts natively to every US merchant. The dimensional signature is a passable operator pedigree wrapped around an absent contrarian secret, which is the failure mode Zero to One was written against. Kinect's highest axis is team; its lowest is thesis; and when the team is the only thing carrying a deal at pre-seed, you are buying mimetic energy, not signal.
+
+Stripe (2010) is the load-bearing analogy on contrarian secret: Patrick Collison named a specific incumbent failure mode — PayPal's hostility to developers — that the entire industry had agreed was solved. Kinect's tagline names no incumbent and no blind spot. The dossier frames the problem as static product pages and the opportunity as ChatGPT/Gemini/Perplexity traffic — this is consensus restated, not a secret. Worse, the named substitute is the platform itself: Shopify's Agentic Storefronts rolled out March 24, 2026, which means Kinect's "brand-owned data layer" is a feature Shopify is bundling free for every US merchant. The Stripe analogy fails at the most important joint — Collison's secret terminated at a specific blind spot legacy processors structurally could not fix; Kinect's "secret" terminates at a roadmap Tobi Lütke is already shipping.
+
+Palantir (2003) is the monopoly anchor — government-as-customer moats compounded for fifteen years because the integration depth was irreproducible. Kinect's moat hypothesis is the inverse: "buying intent data" captured per shopper session, in a category where OpenAI, Amazon Rufus, Perplexity, Shopify, Daydream ($50M seed), and Alhena (~$13.9M) are all shipping overlapping product. The pricing-power test is "how many years of pricing power does this moat sustain?" — and when the buyer-side agent (ChatGPT checkout) and the merchant-side platform (Shopify) both internalize the layer, Kinect's pricing power converges to zero before the seed round is deployed.
+
+The definite-plan dimension compounds against Kinect over eighteen months in a specific way: the dossier surfaces no two-year technical commitment the founders will not pivot from, only a feature stack (chat + adaptive PDPs + agent feed) that maps to whichever sub-segment converts first. In a category where the protocol surface itself is being rewritten quarterly by OpenAI and Shopify, the absence of a definite architectural bet is not neutrality — it is structural exposure. Kinect will be forced into iteration mode by the market, which is the modal path to a pivot at month eighteen, not to a monopoly at year five.
+
+Founder lineage is where Kinect earns its only meaningful points and where the counterfactual matters most. Kratik Agrawal's resume includes Anduril — a Founders Fund portfolio company — plus Google Commerce, Verkada, and Reevo's Conversational Intelligence lead; Kandula sourced $200K+ ARR across ten DTC brands at NextGen Consulting. That is real, but it is IC-tenure-at-good-companies, not shipped-to-scale operator pedigree of the Levchin or Moskovitz form that has historically overridden a missing moat. For the lineage score to flip a tier, one of these founders would need to have shipped a product to material scale and owned the P&L — Kandula's Sephora/Ralph Lauren consulting revenue is the closest signal, and it is not close enough.
+
+Anduril (2017) is the single-anchor parallel on the atoms-and-regulation axis, and the comparison is unflattering: Luckey's defense thesis worked because the customer was structurally regulated and the capex was structurally heavy. Kinect is a pure-software Shopify-app-layer business with no regulated customer, no certification depth, no hardware. The Founders Fund manifesto exists to direct capital away from exactly this shape of company. Kratik's Anduril line on his LinkedIn is a sourcing-channel artifact, not a thesis inheritance.
+
+Thirty-six-month forecast: Kinect either acqui-hires into Shopify's app ecosystem or an adjacent martech roll-up (Klaviyo, Attentive, Yotpo) for under $25M with the founders absorbed as PMs on agentic-commerce surfaces, or the company runs out of differentiation against Shopify-native features by month twenty-four and pivots to a vertical agent-tooling adjacency — most likely conversational analytics for Shopify Plus brands. Independent path to $10M ARR is unlikely because the customer's platform is shipping the substitute free.
+
+The strongest objection: Kratik's Anduril and Google Commerce tenure plus Kandula's documented DTC consulting revenue is real operator depth at pre-seed, and ten named brand logos including Slumberkins and Hearthy Foods at this stage is non-trivial pull. The bull case is that agentic-commerce protocols fragment rather than consolidate, and Kinect becomes the neutral brand-owned data layer that no single hyperscaler can own — a Stripe-shaped wedge between merchants and a Cambrian set of agent buyers. The bear case wins on a single dossier fact: Shopify's March 24, 2026 native launch is not a future risk, it is a present substitute, and Kinect has documented no defense against it. The verdict flips on one verifiable condition: a signed integration designating Kinect as the brand-data layer for OpenAI's ChatGPT checkout or Perplexity's shopping surface, written before the seed extension. Absent that, this is the indefinite-optimism pattern the Founders Fund manifesto was written to refuse. Pass.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Contrarian Secret with Named Incumbent Failure Mode | 7/35 |
+| Monopoly Trajectory with Pricing Power Hypothesis | 5/25 |
+| Definite Founder Plan vs Indefinite Iteration | 5/15 |
+| Founder Lineage / Verified Operator Pedigree | 6/15 |
+| Atoms-Heavy or Regulated-Sector Structural Moat | 2/10 |
+| **Total** | **25/100** |
+
+**Total Score: 25/100** (Pass)

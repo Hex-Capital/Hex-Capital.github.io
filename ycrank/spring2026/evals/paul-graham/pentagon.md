@@ -1,0 +1,30 @@
+﻿# Pentagon -- Paul Graham Evaluation
+
+Edgar Pavlovsky has shipped real artifacts -- marginfi on Solana that peaked north of $130M TVL, the mtndao builder community, core contributor work on Paladin -- and he's doing Pentagon alone. That pairing is Pentagon's whole signature: a builder with combat scars who has nobody in the room with him. The dossier shows team size of 1 at YC Spring 2026, and the prior cofounder configuration at marginfi ended in a public dispute that preceded ~$100-130M of capital walking out the door (CoinDesk, April 2024). Pentagon is therefore the opposite shape from the bets I usually like: the founder passes the animal test, but the team passes nothing because there is no team.
+
+**Airbnb** (2009)'s cereal boxes are the high rung on animal resourcefulness because Chesky's team improvised revenue out of nothing when no investor would write the check. Pentagon's Edgar earns a place near that rung on a different mechanism -- not a stunt, but a track record of shipping nontrivial infrastructure (a Solana lending protocol, a builder community, a validator MEV client) before he ever showed up at Pentagon. The marginfi resignation is the divergence: where Chesky's hustle compounded into trust, Edgar's previous org ended in a public fight, which is animal energy pointed in a direction enterprise buyers will notice during diligence. The 8,500 deployed agents and 8,000 completed tasks on pentagon.run are self-reported, but I weight the prior shipped work more than the landing-page numbers anyway.
+
+My **Pass Example** is the MBA pair with a glossy deck and no shipped code -- they fail organic-idea origin because the product is downstream of a market scan, not their own life. Does that pattern show up in Pentagon? Partially. Edgar ran a multi-team protocol and a community, so coordination overhead is a problem he personally lived. But Pentagon is a coordination layer for *AI agents*, not for humans, and the dossier doesn't show Edgar got fed up running agents himself and built Pentagon to scratch his own itch the way Drew Houston was annoyed by his MIT USB stick. The "founder-market fit" in the dossier is marked [Inferred] and that's exactly where I get cautious -- the inference is from adjacent experience, not from the founder's own daily pain.
+
+Schlep blindness, mechanism over 18 months: the schleps inside Pentagon are real -- sandboxing is listed as "coming soon," enterprise security audits are not on the page, and a hosted multi-tenant agent workspace requires permissions plumbing the OSS frameworks duck. But CrewAI just raised $18M from Insight, Relevance AI raised $24M from Bessemer in May 2025, and Lindy is at $49.9M cumulative. That is not a schlep zone mainstream founders are avoiding; that is a zone they are funded to fight inside. **Coinbase** (2012)'s compliance grind was a moat because nobody else wanted it -- Pentagon's grind is a tax everyone is already paying.
+
+Counterfactual on hacker genealogy: Edgar's @edgarpavlovsky GitHub and the @arlington-labs org exist, and marginfi plus Paladin is real Solana systems work -- that's a builder. To flip this dimension up a tier I'd need Pentagon Studio's runtime itself to show a recognizable hacker artifact -- an open-source core, a clever sandbox primitive, an HN-front-page demo. The dossier shows none of that yet; the GitHub star counts weren't even retrievable. Edgar is technical; Pentagon hasn't shown its hack yet.
+
+Single-anchor parallel on cofounder configuration: **Stripe** (2010) is two brothers who had been hacking commerce together since **Auctomatic** (2007), and the reason the Collisons survived the schlep of payments was that they had each other when the regulatory and bank-integration grind got ugly. Pentagon's Edgar is solo, and the one prior cofounder relationship publicly ended in dispute (Blockworks; Unchained, April 2024). My "What We Look for in Founders" (October 2010) rule that solo founders are a structural avoid was written exactly for the case where the work gets hard and there is nobody to argue with at midnight. Pentagon is that case.
+
+My 36-month forecast: Pentagon stalls under ~$500K ARR as enterprise sandboxing and SOC2 grind out-runs a solo operator, and Edgar either open-sources the framework to compete with CrewAI/LangGraph, or accepts an acquihire into Lindy/Relevance AI/Sierra for under $15M. The mechanism is straightforward -- a hosted multi-tenant agent workspace needs sales, security, and product simultaneously, and one person plus self-evolving agent memory does not cover all three lanes against $50M-funded competitors.
+
+The strongest opposing case is **Loopt** (2005) -- my Known Exception where I funded Sam Altman before mobile location was usable infrastructure, on force-of-personality animal test alone. Edgar's marginfi/mtndao/Paladin run is closer to that profile than to the MBA-pair pattern -- this is a builder with output, and "Black Swan Farming" (September 2012) warns me that "AI agents need their own Slack with sticky notes" is exactly the kind of idea that reads dumb today. The bear case wins because Loopt actually failed -- the override was a mistake I learned from -- and because Pentagon's red flag isn't idea-shape, it's the solo configuration plus a prior co-founder rupture, which is the most reliable predictor I have for companies that fall apart between Series A and B. Verifiable flip: a technical cofounder with shipping history joins Pentagon in the next six months and Edgar publishes a real open-source primitive on the @arlington-labs org. Without that, I pass.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Demonstrates Animal Resourcefulness Pre-Funding | 23/35 |
+| Idea Is Organic to Founders' Own Pain | 11/25 |
+| Problem Sits in a Schlep Zone Mainstream Founders Avoid | 6/15 |
+| Hacker Genealogy in the Founder Team | 9/15 |
+| Co-founder Configuration Is a Strong Pair or Trio, Not Solo | 2/10 |
+| **Total** | **51/100** |
+
+**Total Score: 51/100** (Neutral)

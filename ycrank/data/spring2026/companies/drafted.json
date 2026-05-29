@@ -1,0 +1,68 @@
+{
+  "slug": "drafted",
+  "name": "Drafted",
+  "oneLiner": "Design your home instantly with AI",
+  "metadata": {
+    "website": "https://www.drafted.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/drafted",
+    "batch": "Spring 2026",
+    "industry": "Consumer / Consumer",
+    "team_size": "9",
+    "location": "San Francisco, CA, USA",
+    "tags": "Machine Learning, Real Estate, Design, Architecture, AI",
+    "yc_partner": "Aaron Epstein",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Machine Learning",
+    "Real Estate",
+    "Design",
+    "Architecture",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-29T04:15:18.575Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 66,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 62,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 65,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 36,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 66,
+    "EG": 51,
+    "NR": 62,
+    "PG": 65,
+    "PT": 36,
+    "SL": null,
+    "VK": null
+  },
+  "consolidatedAvg": 56,
+  "consolidatedRank": 14,
+  "paths": {
+    "memo": "spring2026/memos/drafted.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/drafted.md",
+      "elad-gil": "spring2026/evals/elad-gil/drafted.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/drafted.md",
+      "paul-graham": "spring2026/evals/paul-graham/drafted.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/drafted.md"
+    }
+  }
+}

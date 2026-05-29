@@ -33,25 +33,35 @@
     "naval-ravikant": {
       "score": 41,
       "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 33,
     "EG": 52,
     "NR": 41,
-    "PG": null,
-    "PT": null,
+    "PG": 58,
+    "PT": 28,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 42,
-  "consolidatedRank": 113,
+  "consolidatedAvg": 42.4,
+  "consolidatedRank": 122,
   "paths": {
     "memo": "spring2026/memos/asendia-ai.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/asendia-ai.md",
       "elad-gil": "spring2026/evals/elad-gil/asendia-ai.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/asendia-ai.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/asendia-ai.md",
+      "paul-graham": "spring2026/evals/paul-graham/asendia-ai.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/asendia-ai.md"
     }
   }
 }

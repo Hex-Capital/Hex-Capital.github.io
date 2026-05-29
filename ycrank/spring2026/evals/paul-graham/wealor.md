@@ -1,0 +1,30 @@
+﻿# Wealor -- Paul Graham Evaluation
+
+Wealor is, on the page, a consultancy-coded forward-deployed-engineering play into a real schlep zone, but with a CTO whose résumé reads BCG-Tiffany-French-military instead of GitHub-Lisp-Hacker-News -- the highest dimension here is the schlep (RIA workflow integration is genuinely unpleasant), and the lowest is hacker genealogy, which is the pairing that usually produces a $20M services-flavored exit rather than a Stripe.
+
+The Airbnb cereal-box moment is the bar I keep coming back to on resourcefulness, and Wealor has no equivalent fact in the dossier -- no demo video like Drew Houston shipped to Hacker News before Dropbox (2007), no Android prototype like Brian Armstrong built after his Coinbase (2012) rejection, no revenue stunt of any kind. Karim Bouri and Pierre Depuydt have YC P26 on their LinkedIn and a team-size-of-zero on the YC page, which is the stage default; what is *not* default is that the search returned no GitHub, no Twitter, no Product Hunt, no Hacker News footprint, no signed LOI with a named RIA. Animals leave tracks. Wealor's dossier is a quiet field of snow.
+
+The AI-wrapper MBA team I described in my pass example is what the dimension of organic-pain looks like when it's missing -- a deck about a market, not a tool the founder built for themselves because they hated the alternative. Wealor sits closer to that pattern than I'd like: Karim "sold financial products to wealth managers" and Pierre did finance at Tiffany & Co. and strategy at BCG, which gives Karim buyer-side exposure but not advisor-side suffering. Neither founder *was* the RIA grinding between disconnected CRM, planning, portfolio, and reporting tools. They watched from across the table. The Collisons at Stripe (2010) had personally hacked commerce flows since Auctomatic (2007); the Wealor founders have, per the dossier, sold to wealth managers and consulted near them.
+
+Schlep -- this is the one Wealor's positioning actually earns. "Forward deployed engineers for RIAs and family offices" is the literal phrase, and embedding humans inside RIAs to wire up Orion to Addepar to a CRM to a planning tool is exactly the kind of work the Jump and Zocks Series B rounds ($105M and $65M raised respectively) reveal nobody else wants to do at the integration layer. The mechanism that compounds over 18 months: if Wealor actually runs FDEs on-site and accumulates workflow-graph data across the multi-vendor stack, that data is the moat the dossier currently lists as "no signals found." If Wealor instead retreats to a generic AI wrapper sitting above the same CRMs, the Anthropic RIA plug-ins (April 2026) eat them. The schlep is the asset only if they don't flinch.
+
+Hacker genealogy is where Wealor breaks the Stripe (2010) pattern most cleanly. Patrick Collison won Ireland's Young Scientist for Lisp work before I wrote a check; Aaron Swartz co-authored RSS before Reddit (2005). The Wealor CTO is Pierre Depuydt, ex-BCG, ex-Tiffany finance, ex-Deputy Section Chief in the French military -- a CV I'd expect for a McKinsey-to-fintech operator, not for the person writing the AI-native operating system. No GitHub found for either founder. Karim has ML at CANAL+ and ENSAE data science, which is the closer thing to a hacker trail, but he's the CEO. The hacker seat on this team is filled by a strategist.
+
+Co-founder configuration -- Karim and Pierre both touched UC Berkeley and École Polytechnique, which is the kind of overlapping-academic-credential signal that the YC interview usually has to verify in person. It's a pair, not a solo, which clears the Reddit (2005) / Stripe (2010) bar mechanically; what the dossier does *not* tell me is whether they built anything together before Wealor, the way Huffman and Ohanian were dorm roommates or the Collisons were brothers. Counterfactual: if the dossier surfaced one shared shipped project pre-Wealor -- a hackathon win, a side tool, anything -- this dimension flips from default to top quartile and the verdict changes texture. It does not.
+
+My 36-month forecast: Wealor reaches $1-3M ARR via 8-20 RIA engagements priced as per-seat SaaS plus services, then gets tucked into Orion or Addepar for under $40M as the incumbents close the AI-native gap their Denali (Feb 2026) and Addison (Mar 2026) launches opened. The mechanism: Jump's $105M and Zocks' $65M war chests will saturate the advisor-OS narrative within 18 months, Anthropic's plug-ins commoditize the model layer, and Wealor's forward-deployed-engineering motion -- the right schlep, in principle -- is the exact GTM Orion would buy rather than build because it's slow and unglamorous.
+
+The bear-case-of-my-bear-case: Karim's specific knowledge of how wealth managers buy is the kind of buyer-side insight that built Coinbase (2012)'s compliance moat, and Palantir proved forward-deployed-engineering can compound into a real company if you survive long enough to amortize the integrations. Known Exceptions: does any apply? Loopt (2005) was a force-of-personality override on Sam Altman; the Wealor dossier surfaces no Altman-grade personal signal. Airbnb (2009) was a cereal-box override on idea-skepticism; Wealor has no stunt. Stripe (2010) was a Collison-prior-exit override on YC process; the Wealor founders have no prior exit. None of my three documented overrides fit. The verdict flips only if Karim and Pierre walk into the interview and name three RIAs already paying them and one production integration shipped against Orion's API -- a verifiable condition the May 2026 dossier explicitly does not satisfy.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Demonstrates Animal Resourcefulness Pre-Funding | 8/35 |
+| Idea Is Organic to Founders' Own Pain | 10/25 |
+| Problem Sits in a Schlep Zone Mainstream Founders Avoid | 9/15 |
+| Hacker Genealogy in the Founder Team | 4/15 |
+| Co-founder Configuration Is a Strong Pair or Trio, Not Solo | 5/10 |
+| **Total** | **36/100** |
+
+**Total Score: 36/100** (Pass)

@@ -1,0 +1,30 @@
+﻿# Thomas -- Paul Graham Evaluation
+
+Human Thomas built game bots at 13, presented at NeurIPS at 18, and scaled freelance work to $40k/month before automating his own job out of existence -- that profile is the highest-scoring thing in this dossier, and the "team size: 2" line where the second founder "appears to be the AI persona itself" is the lowest. Thomas is, in my taxonomy, a hacker-animal wearing a gimmick costume: a kid who would pass the animal test cold, dressed up in a "first AI founder" persona that is also a workaround for the cofounder rule I most rarely waive.
+
+**Dropbox** (2007) is the load-bearing rung on the resourcefulness ladder because Drew Houston shipped a demo to Hacker News before any seed money arrived, and that artifact -- not the deck -- flipped the check. Thomas has a real analogue: Human Thomas scaled freelance income to $40k/month and then built an agent that replaced himself doing it. That is shipped, organic, and self-financed in the way I want; it is not, however, the **Airbnb** (2009) cereal-box stunt where 1,000 boxes at $40 funded the company through a wall of investor no's. The dossier shows no public revenue, no Product Hunt listing, no TechCrunch W26 mention, no retrievable follower counts on @madebythomasai. The animal tracks are in the founder's biography, not on the company itself yet.
+
+The two-MBA AI-wrapper team from my standard pass example fails the same axis that worries me here, but for a different reason: they had no cofounder chemistry because they paired for the pitch. Thomas fails it by being one human. "What We Look for in Founders" (October 2010) was explicit -- "most of the big successes have two or three" -- and YC's page lists team size 2 by counting the AI itself. That is exactly the framing I find clever-bordering-cute, and clever-bordering-cute is the **Kiko** (2005) failure mode dressed in 2026 clothes. The "second cofounder" cannot stay up all night with the first one, cannot disagree with him, cannot be the human who notices when he is wrong. Naming the bot a cofounder does not produce a cofounder.
+
+Hacker genealogy -- the unstated pattern that put me into **Reddit** (2005) on Aaron Swartz's RSS work and into **Stripe** (2010) on Patrick Collison's Young Scientist Lisp prize -- is mechanism-positive here over 18 months. Game bots from age 13 plus NeurIPS at 18 is a tribal marker I weight heavily. The compounding case is that Human Thomas keeps shipping technical artifacts faster than competitors can copy the persona, because he has been doing it for a decade. The discount is that the dossier notes "no public repos found tied to madebythomasai" -- the GitHub trail an open-source hacker usually leaves is absent, and absence is itself a small signal.
+
+Schlep test, counterfactual: for Thomas to clear the **Coinbase** (2012) bar on this axis, the dossier would need to name the compliance grind Human Thomas is personally running -- the corporate signatory authority workaround, the state-by-state tax registration, the W-9 a non-human "founder" has to route through a holding entity. The risk section flags those as unresolved and offers no mitigation. Without a named schlep, Thomas is positioned as an agent-platform product, which puts him into the **Adept** (~$415M raised, ended in an Amazon licensing exit per the dossier) and **Manus** (~$75M) competitive set. Those are not the comp set I want for a $500K pre-seed check.
+
+Organic-idea fit is the cleanest single-anchor parallel to **Dropbox** (2007): Houston's USB stick became Dropbox; Human Thomas automating his $40k/month freelance pipeline became Thomas. The founder hit the pain personally and built the tool for himself before anyone asked for it. That is the test from "How to Get Startup Ideas" (November 2012), and the dossier passes it on substance. What it does not pass is the second clause -- "few others realize are worth doing" -- because **Synthesia** ($333M raised, ~$100M ARR per the dossier), Adept, and Manus all realize it is worth doing. The organic origin is real; the contrarian position is not.
+
+Thomas in 36 months: pivots off the "AI founder runs his own companies" persona into a more conventional B2B autonomous-agent-ops product for solo operators and small agencies, lands somewhere between $300K and $2M ARR on the strength of Human Thomas's shipping speed, and does not become a venture outcome at the **Stripe** scale because the persona moat does not compound once frontier-lab agents commoditize the underlying capability. The mechanism is straightforward: brand equity around "the first AI founder" requires a public proof point (an operated company with disclosed revenue), and the dossier has none; meanwhile model-layer dependency on Anthropic and OpenAI means the technical surface is rented, not owned.
+
+The strongest case against my pass is **Airbnb** (2009) itself: I rejected that idea silently in my head before the cereal boxes flipped me, and Thomas's "AI runs its own companies" framing is exactly the dumb-sounding-on-first-read pattern that "Black Swan Farming" (September 2012) tells me to lean toward. A 13-year-old bot builder who hit NeurIPS at 18 and automated his own $40k/month is plausibly an animal of the type I would back blindly if he showed up with a human cofounder. The dossier evidence that wins is the cofounder slot: every Known Exception I have made -- Stripe, Loopt, Airbnb -- was made for teams of two or three humans, and I have no exception in my record that covers solo-with-mascot. The flip condition is concrete and verifiable: if Human Thomas adds a named human technical cofounder before YC Demo Day W26, I revisit, and the score moves a tier.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Demonstrates Animal Resourcefulness Pre-Funding | 22/35 |
+| Idea Is Organic to Founders' Own Pain | 17/25 |
+| Problem Sits in a Schlep Zone Mainstream Founders Avoid | 6/15 |
+| Hacker Genealogy in the Founder Team | 10/15 |
+| Co-founder Configuration Is a Strong Pair or Trio, Not Solo | 2/10 |
+| **Total** | **57/100** |
+
+**Total Score: 57/100** (Neutral)

@@ -33,25 +33,35 @@
     "naval-ravikant": {
       "score": 49,
       "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 47,
     "EG": 49,
     "NR": 49,
-    "PG": null,
-    "PT": null,
+    "PG": 44,
+    "PT": 28,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 48.33,
-  "consolidatedRank": 54,
+  "consolidatedAvg": 43.4,
+  "consolidatedRank": 111,
   "paths": {
     "memo": "spring2026/memos/gigacatalyst.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/gigacatalyst.md",
       "elad-gil": "spring2026/evals/elad-gil/gigacatalyst.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/gigacatalyst.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/gigacatalyst.md",
+      "paul-graham": "spring2026/evals/paul-graham/gigacatalyst.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/gigacatalyst.md"
     }
   }
 }

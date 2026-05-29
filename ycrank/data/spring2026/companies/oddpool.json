@@ -32,25 +32,30 @@
     "naval-ravikant": {
       "score": 38,
       "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 56,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
     "CB": 39,
     "EG": 58,
     "NR": 38,
-    "PG": null,
+    "PG": 56,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 45,
-  "consolidatedRank": 79,
+  "consolidatedAvg": 47.75,
+  "consolidatedRank": 75,
   "paths": {
     "memo": "spring2026/memos/oddpool.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/oddpool.md",
       "elad-gil": "spring2026/evals/elad-gil/oddpool.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/oddpool.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/oddpool.md",
+      "paul-graham": "spring2026/evals/paul-graham/oddpool.md"
     }
   }
 }

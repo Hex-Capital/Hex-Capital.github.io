@@ -34,25 +34,30 @@
     "naval-ravikant": {
       "score": 60,
       "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 56,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
     "CB": 39,
     "EG": 48,
     "NR": 60,
-    "PG": null,
+    "PG": 56,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 49,
-  "consolidatedRank": 50,
+  "consolidatedAvg": 50.75,
+  "consolidatedRank": 45,
   "paths": {
     "memo": "spring2026/memos/openprose.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/openprose.md",
       "elad-gil": "spring2026/evals/elad-gil/openprose.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/openprose.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/openprose.md",
+      "paul-graham": "spring2026/evals/paul-graham/openprose.md"
     }
   }
 }

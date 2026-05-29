@@ -27,25 +27,35 @@
     "naval-ravikant": {
       "score": 63,
       "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 39,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 44,
     "EG": 52,
     "NR": 63,
-    "PG": null,
-    "PT": null,
+    "PG": 58,
+    "PT": 39,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 53,
-  "consolidatedRank": 25,
+  "consolidatedAvg": 51.2,
+  "consolidatedRank": 43,
   "paths": {
     "memo": "spring2026/memos/humwork.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/humwork.md",
       "elad-gil": "spring2026/evals/elad-gil/humwork.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/humwork.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/humwork.md",
+      "paul-graham": "spring2026/evals/paul-graham/humwork.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/humwork.md"
     }
   }
 }

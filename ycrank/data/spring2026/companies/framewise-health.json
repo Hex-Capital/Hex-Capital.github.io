@@ -32,25 +32,35 @@
     "naval-ravikant": {
       "score": 40,
       "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 33,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 56,
     "EG": 36,
     "NR": 40,
-    "PG": null,
-    "PT": null,
+    "PG": 53,
+    "PT": 33,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 44,
-  "consolidatedRank": 93,
+  "consolidatedAvg": 43.6,
+  "consolidatedRank": 108,
   "paths": {
     "memo": "spring2026/memos/framewise-health.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/framewise-health.md",
       "elad-gil": "spring2026/evals/elad-gil/framewise-health.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/framewise-health.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/framewise-health.md",
+      "paul-graham": "spring2026/evals/paul-graham/framewise-health.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/framewise-health.md"
     }
   }
 }

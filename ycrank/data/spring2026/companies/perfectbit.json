@@ -31,25 +31,30 @@
     "naval-ravikant": {
       "score": 47,
       "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 54,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
     "CB": 45,
     "EG": 47,
     "NR": 47,
-    "PG": null,
+    "PG": 54,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 46.33,
-  "consolidatedRank": 66,
+  "consolidatedAvg": 48.25,
+  "consolidatedRank": 68,
   "paths": {
     "memo": "spring2026/memos/perfectbit.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/perfectbit.md",
       "elad-gil": "spring2026/evals/elad-gil/perfectbit.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/perfectbit.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/perfectbit.md",
+      "paul-graham": "spring2026/evals/paul-graham/perfectbit.md"
     }
   }
 }

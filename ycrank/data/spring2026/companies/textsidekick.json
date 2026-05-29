@@ -32,25 +32,30 @@
     "naval-ravikant": {
       "score": 35,
       "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 44,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 54,
     "EG": 41,
     "NR": 35,
-    "PG": null,
+    "PG": 44,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 43.33,
-  "consolidatedRank": 101,
+  "consolidatedAvg": 43.5,
+  "consolidatedRank": 110,
   "paths": {
     "memo": "spring2026/memos/textsidekick.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/textsidekick.md",
       "elad-gil": "spring2026/evals/elad-gil/textsidekick.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/textsidekick.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/textsidekick.md",
+      "paul-graham": "spring2026/evals/paul-graham/textsidekick.md"
     }
   }
 }

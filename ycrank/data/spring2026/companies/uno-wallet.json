@@ -32,25 +32,30 @@
     "naval-ravikant": {
       "score": 36,
       "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 50,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
     "CB": 32,
     "EG": 31,
     "NR": 36,
-    "PG": null,
+    "PG": 50,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 33,
-  "consolidatedRank": 185,
+  "consolidatedAvg": 37.25,
+  "consolidatedRank": 170,
   "paths": {
     "memo": "spring2026/memos/uno-wallet.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/uno-wallet.md",
       "elad-gil": "spring2026/evals/elad-gil/uno-wallet.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/uno-wallet.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/uno-wallet.md",
+      "paul-graham": "spring2026/evals/paul-graham/uno-wallet.md"
     }
   }
 }

@@ -1,0 +1,30 @@
+﻿# Datost -- Peter Thiel Evaluation
+
+Maceo Cardinale Kwik is a 4.0 Virginia Tech CS graduate who watched analyst scarcity block decisions at Traba and decided to build Datost — "AI data analyst in Slack." That sentence is the dossier and the problem with the dossier. Datost's analytical signature is a respectable-but-not-shipped-to-scale founder pair executing the most consensus-shaped pitch of the 2026 YC batch: founder-market-fit on the high end, contrarian-secret near the floor. This is the exact pairing the Pass Example was written about.
+
+**Stripe** (2010) is the load-bearing analogy on the contrarian-secret dimension, because Patrick Collison named a specific incumbent failure mode — PayPal and the legacy processors had treated developers as second-class users of payment infrastructure, and the architectural reason they could not fix it was their merchant-acquirer business model. Datost names no equivalent. The dossier frames the differentiator as a 75.2% versus 33% accuracy gap on BIRD-Interact against Claude Opus 4.6 — a benchmark number, not a secret. Snowflake Cortex, Databricks Genie, and Hex are not structurally prevented from shipping a Slack-native @-mention analyst; the dossier explicitly concedes Tracxn lists 47 active competitors and TextQL has already raised $21.1M for the broader category. A benchmark lead is a feature with a nine-month half-life, not a thesis hidden from the market for five years.
+
+The pass example I keep on the wall is "AI-powered platform for [vertical X]" with no named incumbent and no architectural blind spot — and Datost reads like the analytics-vertical instantiation of exactly that template. The failure mechanism there is not that the founders are wrong about the problem; Maceo is correct that analyst capacity is scarce. The failure mechanism is that the moat hypothesis terminates at "we have a better model and a semantic layer," which is what every competitor will claim by Q3 2026. Datost's dossier does not surface a single named incumbent whose business model structurally prevents them from shipping the same Slack workflow — and that absence, in the Straussian read, is the signal.
+
+On monopoly trajectory, the dimension compounds or fails over 18 months on whether Datost's per-customer semantic graph becomes a real switching cost or stays a marketing claim. The mechanism would need ingested business vocabulary, query history, and schema mappings to produce 10x retention versus rip-and-replace — and the dossier shows zero customer-count, retention, or expansion data, only 18,402 queries in "a measured week" with no denominator of paying accounts. Hex at $36/editor and Snowflake bundling Cortex into existing warehouse contracts will compress Datost's pricing power before the semantic-layer flywheel can spin. There is no government customer, no certification depth, no integration moat the dossier names.
+
+Counterfactually on the definite-plan dimension: Datost's score would flip a tier if Maceo had published a 3-year roadmap committing to, say, a specific warehouse-native semantic-IR standard or a regulated-vertical certification path the team will not pivot from. **SpaceX** (2008) had reusability as a non-negotiable architectural commitment for fifteen years. Datost's public artifacts are a demo-booking calendar link and a benchmark number. That is iteration-mode optionality dressed as launch.
+
+Comparing Datost's founder lineage to **Asana** (2010) on a single axis: Asana was the canonical override where Dustin Moskovitz had already shipped **Facebook** (2004) to scale, and that operator-pedigree alone overrode a missing structural moat. Maceo's prior was a full-stack engineering role at Traba — direct exposure to the problem, which is real founder-market fit, but not shipped-to-scale operator weight. Jason Hy Wang has no public technical footprint, no GitHub repos, no detailed LinkedIn beyond Datost. The Asana override does not extend here because the lineage half of the trade is not actually paid for.
+
+My 36-month forecast: Datost is acqui-hired by a BI or warehouse incumbent — Hex, Snowflake, or Databricks — at under $25M, never crosses $5M ARR, and the semantic-layer codebase is folded into a larger NL-to-SQL product line. The mechanism is straightforward: the benchmark gap collapses by mid-2027 as frontier models close it for free, the 47-competitor field consolidates around distribution-advantaged incumbents, and Datost's Slack-app dependency leaves no defensible surface when Slack's own AI features and Salesforce's Agentforce ship native versions.
+
+The strongest bull case against my forecast is that the per-customer semantic graph genuinely compounds: every business definition, every CRM mapping, every prior query trains a customer-specific asset that incumbents cannot replicate because incumbents do not own the integration depth into a particular company's vocabulary. Maceo's Traba-grounded insight about analyst scarcity is real demand, and 18,402 weekly queries — if those are production queries from paying enterprises — is not a vanity number. The dismantle is that the dossier provides no customer count, no logo, no signed enterprise contract, no retention cohort, no pricing page; "queries per week" without an account denominator is the kind of metric a founder publishes precisely because the revenue number would be smaller. The verifiable condition that flips my verdict: three named Fortune 500 logos in regulated verticals — finance, healthcare, defense — under paid annual contracts with documented switching costs from the semantic layer. Absent that within 12 months, this is the canonical indefinite-optimism check that Founders Fund was built to refuse. Pass.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Contrarian Secret with Named Incumbent Failure Mode | 7/35 |
+| Monopoly Trajectory with Pricing Power Hypothesis | 6/25 |
+| Definite Founder Plan vs Indefinite Iteration | 4/15 |
+| Founder Lineage / Verified Operator Pedigree | 6/15 |
+| Atoms-Heavy or Regulated-Sector Structural Moat | 2/10 |
+| **Total** | **25/100** |
+
+**Total Score: 25/100** (Pass)

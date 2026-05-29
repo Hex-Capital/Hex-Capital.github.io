@@ -23,24 +23,34 @@
     "elad-gil": {
       "score": 53,
       "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 69,
+      "tier": "Invest"
     }
   },
   "consolidatedScores": {
     "CB": 56,
     "EG": 53,
-    "NR": null,
-    "PG": null,
+    "NR": 45,
+    "PG": 69,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 54.5,
-  "consolidatedRank": 16,
+  "consolidatedAvg": 55.75,
+  "consolidatedRank": 15,
   "paths": {
     "memo": "spring2026/memos/zolvo.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/zolvo.md",
-      "elad-gil": "spring2026/evals/elad-gil/zolvo.md"
+      "elad-gil": "spring2026/evals/elad-gil/zolvo.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/zolvo.md",
+      "paul-graham": "spring2026/evals/paul-graham/zolvo.md"
     }
   }
 }

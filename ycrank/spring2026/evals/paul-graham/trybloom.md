@@ -1,0 +1,30 @@
+﻿# Bloom -- Paul Graham Evaluation
+
+Ray Fitzgerald shipped Bloom to 1.4M views and 14K users in launch week with zero paid spend, then hangs the entire team on a YC page that names exactly one founder while hiring "Founding Engineer" and "Founding Growth" -- that pairing is Bloom's signature, an animal launch on top of a co-founder configuration that reads as solo. Bloom is the kind of company where the artifact is loud and the team is quiet, and in my experience that asymmetry tells you what the next eighteen months will actually feel like.
+
+The 1.4M views / 14K users / 50K images in launch week pulls Bloom into the same ladder as **Dropbox** (2007)'s Hacker News demo -- a pre-funding artifact doing the marketing for you, no ad spend, attention purely as a function of the thing working. The mechanism is identical: Ray built Bloom, posted the launch tweet from @rincidium on Dec 2, 2025, and the artifact propagated. Where Bloom diverges from Drew Houston is that Houston's video was the *product* working; Bloom's launch was a viral demo with no public retention number behind it, and the $1M from Guillermo Rauch and Nebular VC reads as a serious developer-tools network vote but stops short of the cereal-box stunt that flipped **Airbnb** (2009) for me. Animal-adjacent, not yet Brian Armstrong rebuilding the Android wallet after rejection.
+
+The pattern that kills companies like Bloom in this dimension is the **Kiko** (2005) failure mode -- not the founders' fault, but timing where a larger platform absorbs the use case before the startup can wedge in. Canva AI 2.0 Brand Intelligence launched in April 2026, applying brand fonts and colors to designs on the design surface. Bloom's organic-idea story is thin in the dossier: Ray previously founded Lucid, an AI-native word processor, and was founding engineer at Inscribe (YC S18), which gives him adjacent creative-AI tooling lineage, but the dossier contains no "Ray was building agents and his outputs kept coming back off-brand" anecdote. That is the **Dropbox** (2007) USB-stick moment Bloom is missing, and without it the Canva-substitution risk grows teeth.
+
+Bloom's schlep posture is the part I keep re-reading. Brand-asset ingestion across decks, websites, Figma, and social is unpleasant integration work, and exposing the result as a callable MCP server across Claude Desktop, ChatGPT, Cursor, Codex, OpenCode, VS Code, and Manus is the kind of multi-surface plumbing most YC applicants would route around. Over eighteen months this compounds the way **Stripe** (2010)'s seven-line integration compounded -- each new MCP host Bloom supports raises the cost for an agent developer to leave. The failure mode is that Ad Legends already extracts brand kits for free and Canva ships it natively, meaning Bloom's schlep is the *runtime*, not the ingestion, and the dossier offers no retention number to confirm the runtime sticks.
+
+On hacker genealogy Bloom looks like a softer **Stripe** (2010) -- Ray's Lucid build and his founding-engineer role at Inscribe S18 reducing manual review time by 80% are real shipping evidence, the kind of trail a hacker leaves. Patrick Collison had the Lisp prize before **Stripe** (2010); Ray has two AI-product builds behind him. The gap: no GitHub found in search, no open-source artifact, no Hacker News presence prior to the Dec 2025 launch tweet. The technical taste is there in the integration list; the public hacker tribal marker is not.
+
+Bloom's co-founder configuration would have to look meaningfully different from the dossier for me to write a check. "What We Look for in Founders" (October 2010) was explicit that solo founders are the avoidance pattern, and Bloom's YC page identifies only Ray with two open founding-role hires advertised between $120K-$200K. The score flips a tier only if the other two team members turn out to be co-founders YC simply hasn't surfaced publicly, with a multi-year working relationship behind them. As the dossier stands -- one named founder, two roles being recruited at salary -- this is the configuration I've watched fail more times than any other.
+
+My 36-month forecast for Bloom: acquired by Canva or Adobe in the $30-80M range as a brand-runtime acqui-hire for Ray and the MCP integration footprint, or stalled below $2M ARR as Canva AI 2.0 Brand Intelligence absorbs the design-surface use case and agent developers route brand context through Anthropic-native or OpenAI-native primitives. The mechanism is the **Kiko** (2005) shape -- right idea, wrong platform timing -- accelerated by the solo-founder configuration that historically cannot outrun a platform incumbent.
+
+The strongest bear-case I have to dismantle is my own bull-case: Ray Fitzgerald is exactly the developer-tools founder Guillermo Rauch backs, the MCP-first thesis is genuinely contrarian against Canva's seat-licensing channel-conflict, and 50K images in launch week is the kind of artifact-as-marketing that flipped **Dropbox** (2007). Known Exception territory -- I funded **Loopt** (2005) on Sam Altman's force-of-personality before the infrastructure was ready, and Ray's viral launch plus Rauch's name is the closest analog Bloom offers. What dismantles it for me is the single-founder fact combined with the absence of an organic-pain story: Altman was a force I'd met in the room, and Bloom is a dossier where the room contains one named person. The condition that flips my verdict to invest: confirmation that Bloom has two technical co-founders with a 2+ year working relationship pre-Bloom, plus a retention cohort from the 14K launch-week users showing >30% week-four return -- either alone is insufficient.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Demonstrates Animal Resourcefulness Pre-Funding | 23/35 |
+| Idea Is Organic to Founders' Own Pain | 12/25 |
+| Problem Sits in a Schlep Zone Mainstream Founders Avoid | 8/15 |
+| Hacker Genealogy in the Founder Team | 10/15 |
+| Co-founder Configuration Is a Strong Pair or Trio, Not Solo | 4/10 |
+| **Total** | **57/100** |
+
+**Total Score: 57/100** (Neutral)

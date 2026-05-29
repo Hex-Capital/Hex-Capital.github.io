@@ -33,25 +33,30 @@
     "naval-ravikant": {
       "score": 40,
       "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 44,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 49,
     "EG": 32,
     "NR": 40,
-    "PG": null,
+    "PG": 44,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 40.33,
-  "consolidatedRank": 136,
+  "consolidatedAvg": 41.25,
+  "consolidatedRank": 135,
   "paths": {
     "memo": "spring2026/memos/prototypingio.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/prototypingio.md",
       "elad-gil": "spring2026/evals/elad-gil/prototypingio.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/prototypingio.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/prototypingio.md",
+      "paul-graham": "spring2026/evals/paul-graham/prototypingio.md"
     }
   }
 }

@@ -1,0 +1,30 @@
+﻿# Sazabi -- Paul Graham Evaluation
+
+Sherwood Callaway led AI infrastructure at 11x for the "Alice" agentic system before starting Sazabi, and that single biographical fact is the most interesting thing in this dossier -- it places Sazabi at the top of my "organic idea" ladder while simultaneously placing it at the bottom of my "co-founder configuration" ladder. The Zypsy memo and SiliconANGLE both describe Callaway as the sole founder of Sazabi. That high/low pairing -- a domain-bonded solo operator shipping into a category where Dash0 already has $155M and a $1B mark -- is the analytical signature here, and it is not a signature that historically produces an Airbnb.
+
+Drew Houston kept forgetting his USB stick at MIT, built Dropbox for himself, then shipped the demo to Hacker News before the check. That is the mechanism that makes the organic-idea axis load-bearing: the founder was the first user, not the first marketer. Sazabi shares the front half of that mechanism. Callaway ran production AI infra for "one of the largest agentic systems in production" (Zypsy) at 11x, which is precisely the surface area Sazabi now claims to instrument -- "AI behavior as a new class of telemetry." That is not a competitive-analysis idea; it is a Callaway-lived-this idea. Where Sazabi diverges from the Dropbox rung is the artifact: Houston had a working demo on Hacker News. Sazabi has a waitlist page and "platform delivery scheduled by end of 2026." The pain is real; the shipped object is not yet there.
+
+The thing I keep coming back to is Kiko -- Justin Kan and Emmett Shear failed their first YC company, sold it on eBay, and the partnership is what I re-funded into Twitch. Two founders. The Kiko-to-Twitch pattern is not "I re-fund failed YC founders"; it is "I re-fund failed YC pairs." Sazabi has the front half -- Callaway is a 2x YC founder, Opkit (W23) sold to 11x, that is a real prior-rep signal -- but he is alone. Zypsy explicitly says sole founder. Ed Carrel and Henry Ventura appear in the demo chat on sazabi.com with no documented roles. "What We Look for in Founders" (October 2010) was not coy about this: most of the big successes have two or three. Sazabi presents one, and the dossier offers nothing to suggest a co-founder relationship that would survive an interview.
+
+Mechanism, on schlep: observability is technically tedious, and Sazabi has stacked SOC 2, SOC 1, ISO 27017, ISO 27001, and GDPR before shipping product, which is the kind of unglamorous work that Coinbase's compliance grind taught me to read as moat-in-progress. But the log-only thesis -- "logs are just events, metrics are aggregated events, traces are correlated events" -- is a cleverness claim, not a schlep claim. Cleverness arguments compound badly over 18 months because Datadog can copy a pricing model faster than Sazabi can copy 47,431 customer relationships. The schlep here is real but software-shaped; it is not the offline grind that made DoorDash unfair.
+
+Counterfactual on hacker genealogy: Callaway's GitHub at @shcallaway shows 68 followers and repos like react-node-skeleton, semantic-cache-chatbot, dspy-gepa-example -- competent, not Aaron Swartz writing the RSS spec before Reddit. Dev Bootcamp 2014 is honest engineering schooling, not a Patrick Collison Young Scientist Lisp prize. For this dimension to flip a tier on Sazabi, I would need to see a non-trivial open-source artifact with real adoption, or Ed Carrel / Henry Ventura turning out to be a serious systems hacker with a public trail. The dossier surfaces neither.
+
+Single anchor on resourcefulness: compare Sazabi to Airbnb at the cereal-box moment. Chesky and Gebbia funded the company by selling 1,000 boxes at $40 each because no investor would write them a check. Sazabi instead has named backers from Vercel, Graphite, Daytona, Browserbase, LangChain, Mastra, Replit, plus Village Global and Agent Fund -- the tastemaker network distribution. That is a different signal. It says the SF infrastructure tribe likes Callaway, which is real but not animal. Animals do not need their friends at Replit to vouch for them; animals sell cereal.
+
+Sazabi over 36 months gets acquihired by Datadog or New Relic in the $40-100M range as a tuck-in for their AI-observability roadmap. The mechanism: Dash0's $1B mark sets the ceiling for the category's standalone outcome, so Sazabi cannot win the category, but Callaway's 11x exit pattern means he knows how to negotiate a soft landing. Solo founders with prior exits in hot categories against well-funded incumbents do not become Stripe -- they become tuck-ins. That is consistent with the signature.
+
+Strongest bull case against my forecast: Callaway maps onto my Stripe Known Exception. The Collisons had already done YC once with Auctomatic before Stripe, and I bent my normal process-completion expectation because the prior outcome at ages 19/17 outweighed it. Callaway has done YC once with Opkit and shipped a real acquisition. The 2x YC founder with prior exit is exactly the Auctomatic-to-Stripe shape. The bear-case dismantle: Stripe was two Collison brothers who had been hacking commerce together since childhood; Sazabi is one Callaway with two unnamed teammates. I funded Stripe despite the process violation because the pair was load-bearing, not because the prior exit was. Remove the brother, and Auctomatic-to-Stripe becomes Loopt-to-mediocre. The verifiable condition that flips my verdict: a named technical co-founder with a multi-year working relationship to Callaway and a non-trivial open-source footprint, disclosed before the seed closes. Until then, Sazabi is a Neutral, leaning toward acquihire.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Demonstrates Animal Resourcefulness Pre-Funding | 15/35 |
+| Idea Is Organic to Founders' Own Pain | 18/25 |
+| Problem Sits in a Schlep Zone Mainstream Founders Avoid | 7/15 |
+| Hacker Genealogy in the Founder Team | 7/15 |
+| Co-founder Configuration Is a Strong Pair or Trio, Not Solo | 3/10 |
+| **Total** | **50/100** |
+
+**Total Score: 50/100** (Neutral)

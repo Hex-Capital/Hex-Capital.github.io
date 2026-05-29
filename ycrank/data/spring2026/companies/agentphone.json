@@ -33,25 +33,35 @@
     "naval-ravikant": {
       "score": 58,
       "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 65,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 36,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 44,
     "EG": 60,
     "NR": 58,
-    "PG": null,
-    "PT": null,
+    "PG": 65,
+    "PT": 36,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 54,
-  "consolidatedRank": 19,
+  "consolidatedAvg": 52.6,
+  "consolidatedRank": 30,
   "paths": {
     "memo": "spring2026/memos/agentphone.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/agentphone.md",
       "elad-gil": "spring2026/evals/elad-gil/agentphone.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/agentphone.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/agentphone.md",
+      "paul-graham": "spring2026/evals/paul-graham/agentphone.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/agentphone.md"
     }
   }
 }

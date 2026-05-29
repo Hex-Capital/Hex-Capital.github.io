@@ -34,25 +34,35 @@
     "naval-ravikant": {
       "score": 38,
       "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 35,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 38,
     "EG": 41,
     "NR": 38,
-    "PG": null,
-    "PT": null,
+    "PG": 51,
+    "PT": 35,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 39,
-  "consolidatedRank": 149,
+  "consolidatedAvg": 40.6,
+  "consolidatedRank": 142,
   "paths": {
     "memo": "spring2026/memos/fuchsia.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/fuchsia.md",
       "elad-gil": "spring2026/evals/elad-gil/fuchsia.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/fuchsia.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/fuchsia.md",
+      "paul-graham": "spring2026/evals/paul-graham/fuchsia.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/fuchsia.md"
     }
   }
 }

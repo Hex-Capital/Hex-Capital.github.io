@@ -1,0 +1,30 @@
+﻿# Andustry -- Paul Graham Evaluation
+
+Andustry is a real schlep wrapped around a McKinsey-shaped team, which is the most diagnostic pairing you can have in a manufacturing-brokerage pitch: the highest dimension here is the schlep zone — customs, freight, QC, supplier verification across Europe, China, India and the US — and the lowest is hacker genealogy, where Johann Stürken's McKinsey line and the absence of any GitHub trail for either founder do the damage. The Airbnb shape is when founders are animals and the idea looks dumb. Andustry is closer to the inverse: the work is real, the founders read like analysts.
+
+Coinbase (2012) is the load-bearing analogy on schlep. Brian Armstrong ran toward bitcoin compliance because the grind was exactly what scared other YC applicants away, and that grind compounded into the moat. Andustry's surface — "agents negotiate with suppliers, handle customs, QC a $1.2M CNC order, sort freight from a smelter doing 2,000 tonnes/month" — is the same shape of unpleasant work that mainstream YC software teams unconsciously route around. The divergence from Coinbase is that Andustry's schlep is not regulatory in the way KYC/AML was; it is operational and physical, which is closer to DoorDash than Coinbase, and DoorDash needed founders who would personally drive the deliveries. Nothing in the Andustry dossier shows Het Dave or Stürken personally sitting in a Shenzhen QC bay or chasing a customs broker in Hamburg. The schlep is named; whether they will run at it the way Armstrong did is unproven.
+
+The MBA-team-with-no-shipped-artifact is my standard pass pattern, and the failure mechanism is that consulting brains optimize the deck rather than the demo. Andustry's dossier has Stürken at McKinsey and Het Dave at CDTM — a TUM/LMU honors program that's prestigious in Munich and invisible on Hacker News — and neither founder has a public GitHub, a Twitter/X, or a shipped open-source artifact. The Collison brothers had a Young Scientist Lisp prize before Stripe; Aaron Swartz co-wrote RSS before Reddit; Drew Houston's Dropbox demo was the screening filter. Andustry has the andustry.com marketing site and customer testimonials, which is closer to "we'll hire engineers post-funding" than to a hacker leaving tracks. This is the single dimension that most pulls Andustry away from my portfolio.
+
+On animal resourcefulness, Andustry's website cites $400K saved on a $1.2M CNC machine and $800K on automotive castings, which is a real transaction surface rather than a TAM slide — that beats the AI-wrapper pass example outright. But testimonials on a marketing page are not cereal boxes. Cereal boxes were a stunt founders ran when no investor would write a check; the Andustry numbers compound in 18 months only if Het Dave and Stürken are personally sourcing those quotes, hand-qualifying suppliers, and eating the QC liability on million-dollar first orders. If they have been doing that, the dossier should have surfaced it and didn't.
+
+The organic-pain dimension flips Neutral only if Stürken's family trading-goods business is the real backstory. That single sentence in the YC LinkedIn post — "founders' family runs a trading-goods business" — is the only thing in this dossier that reads like Drew Houston's USB stick. For the score to flip a tier, that family business needs to be a German industrial-goods trader where Stürken grew up watching his father chase quotes across continents, and Andustry needs to be the tool he wished he had. If it is a generic import/export shop, the organic-pain claim collapses into "spotted a market opportunity" and I am back at pass.
+
+Xometry is the single anchor on competitive structure. Xometry did $687M in 2025 revenue on custom-parts marketplace, and Fictiv just sold to MISUMI for $350M in April 2025. Both have AI-quoting in production. Andustry's "Alibaba on AI" framing is a phrase, not a moat — the supplier dataset they will accumulate is the only durable asset, and at 2 founders with no disclosed transaction volume, the dataset compounds slowly relative to a public company with a $200M raise behind it. The unstated-pattern test for consumer marketplaces with regulatory-grey-zone exposure does not apply here; this is B2B brokerage where the incumbents are already armed.
+
+My 36-month forecast: Andustry gets acquired by a European industrial distributor or by Xometry for $15-40M as a regional brokerage book around 2028, with a high probability of dying before that if they cannot land 10+ repeat SME buyers in the first 12 months. This is the Kiko outcome shape, not the Twitch shape, because the founder profile does not yet show the animal signature that would let me re-fund them after the first failure.
+
+The strongest bull case is that I am pattern-matching McKinsey to soft and missing the Airbnb known exception — the team I mentally rejected because the idea seemed wrong, then funded because the cereal boxes were an animal tell I had not invented yet. Stürken's family business plus the cited $400K and $800K customer outcomes plus the dual-continent phone coverage from two people could be the same shape of buried hustle. The bull case stings. What dismantles it is the McKinsey line plus the zero GitHub plus the unresolved third-founder name discrepancy (Nikolas Keller) on a 2-person team — three small tells in the same direction. The condition that flips my verdict: one of the founders posts a public artifact — a working agent demo, an open-source quote-normalizer, a Hacker News thread of them debugging a Chinese supplier's PDF schema at 2am — and the third-name discrepancy resolves to a real co-founder who codes. Until then, pass with regret if it works.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Demonstrates Animal Resourcefulness Pre-Funding | 15/35 |
+| Idea Is Organic to Founders' Own Pain | 13/25 |
+| Problem Sits in a Schlep Zone Mainstream Founders Avoid | 10/15 |
+| Hacker Genealogy in the Founder Team | 3/15 |
+| Co-founder Configuration Is a Strong Pair or Trio, Not Solo | 4/10 |
+| **Total** | **45/100** |
+
+**Total Score: 45/100** (Neutral)

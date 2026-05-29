@@ -31,25 +31,35 @@
     "naval-ravikant": {
       "score": 38,
       "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 68,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 37,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 39,
     "EG": 61,
     "NR": 38,
-    "PG": null,
-    "PT": null,
+    "PG": 68,
+    "PT": 37,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 46,
-  "consolidatedRank": 69,
+  "consolidatedAvg": 48.6,
+  "consolidatedRank": 64,
   "paths": {
     "memo": "spring2026/memos/andco.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/andco.md",
       "elad-gil": "spring2026/evals/elad-gil/andco.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/andco.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/andco.md",
+      "paul-graham": "spring2026/evals/paul-graham/andco.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/andco.md"
     }
   }
 }

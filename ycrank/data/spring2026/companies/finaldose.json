@@ -33,25 +33,35 @@
     "naval-ravikant": {
       "score": 44,
       "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 67,
+      "tier": "Invest"
     }
   },
   "consolidatedScores": {
     "CB": 51,
     "EG": 28,
     "NR": 44,
-    "PG": null,
-    "PT": null,
+    "PG": 57,
+    "PT": 67,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 41,
-  "consolidatedRank": 126,
+  "consolidatedAvg": 49.4,
+  "consolidatedRank": 58,
   "paths": {
     "memo": "spring2026/memos/finaldose.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/finaldose.md",
       "elad-gil": "spring2026/evals/elad-gil/finaldose.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/finaldose.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/finaldose.md",
+      "paul-graham": "spring2026/evals/paul-graham/finaldose.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/finaldose.md"
     }
   }
 }

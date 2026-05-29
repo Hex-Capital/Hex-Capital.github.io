@@ -1,0 +1,62 @@
+{
+  "slug": "thomas",
+  "name": "Thomas",
+  "oneLiner": "The first AI founder: a virtual human who runs his own companies.",
+  "metadata": {
+    "website": "https://madebythomas.ai",
+    "yc_page": "https://www.ycombinator.com/companies/thomas",
+    "batch": "Spring 2026",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, SaaS, B2B, AI",
+    "yc_partner": "Nicolas Dessaigne (YC company page)",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "SaaS",
+    "B2B",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-29T04:14:48.319Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 60,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 69,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 57,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 60,
+    "EG": 34,
+    "NR": 69,
+    "PG": 57,
+    "PT": null,
+    "SL": null,
+    "VK": null
+  },
+  "consolidatedAvg": 55,
+  "consolidatedRank": 16,
+  "paths": {
+    "memo": "spring2026/memos/thomas.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/thomas.md",
+      "elad-gil": "spring2026/evals/elad-gil/thomas.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/thomas.md",
+      "paul-graham": "spring2026/evals/paul-graham/thomas.md"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+﻿# Napkin Math -- Paul Graham Evaluation
+
+Napkin Math is three MIT alums who met roughly a decade ago shipping a consumer iOS app into the single most-crowded AI category of Spring 2026 -- one where MyFitnessPal just bought Cal AI in March 2026 to absorb the photo-to-calorie play -- and the most thesis-relevant fact in the dossier is what is missing: any pre-funding artifact of founder resourcefulness beyond "we shipped the app." The trio is strong on paper -- Manuel Castro (Sonos, Verkada), Claire Nord (MIT 6-3 + MEng, Apple, Samsara), Jynnie Tang (MIT Web Programming Competition 1st place 2018, Retool) -- but the high-low signature of Napkin Math is a top-rung cofounder configuration paired with a bottom-rung schlep score. That pairing is what I have to evaluate.
+
+Drew Houston shipped a demo video of **Dropbox** (2007) to Hacker News before the seed check, and the video itself -- not the deck, not the TAM -- was what flipped the conversation. Brian Armstrong hand-built an Android Bitcoin wallet to overturn his rejection from **Coinbase** (2012). Napkin Math has shipped an iOS app to TestFlight and the App Store under the legal entity Paper Star, Corp., which sits well above the MBA-team-with-deck floor, but the App Store listing explicitly shows "not enough ratings or reviews to display," there is no stunt, no unscalable manual onboarding cited, no Obama O's equivalent that Napkin Math's founders did to get to YC Spring 2026. Shipping a TestFlight build in 2026 is table stakes; it is not an animal moment. The dossier reads like a competent product team executing, not like three founders who would not take no for an answer.
+
+The classic schlep-blindness failure mode is the inverse of **Coinbase** (2012) -- a software-only consumer app where the entire workflow is in the cloud, no regulatory grind, no offline ops, no manual integration that scares smart founders away. Napkin Math fits that inverse profile exactly. The product is AI-vision food logging plus a social "share your table with friends" feature; MyFitnessPal's 14M+ item database is the actual schlep in this category and Napkin Math is routing around it via LLM inference rather than running toward it. There is no compliance overhead, no door-to-door operations like the Airbnb photographers, no manual sales motion in the dossier. Napkin Math has chosen the easy half of a category that just had its hard half acquired for an undisclosed sum by Francisco Partners' MyFitnessPal.
+
+On organic-idea fit, Napkin Math's positioning is "Strava for food" with personalized insights instead of calorie targets -- and nothing in the dossier says Manuel Castro, Claire Nord, or Jynnie Tang personally suffered MyFitnessPal-fatigue and built Napkin Math for themselves the way Drew Houston forgot his USB stick. The narrative reads like market positioning against MacroFactor (~$500K MRR) and Cal AI ($34M-$50M ARR), not like founder pain. That is the silence I penalize. If one of them had said "I tracked macros for two years, hated it, quit, and built Napkin Math for myself" -- with the iOS history to prove it -- that single sentence would flip this dimension a full tier. It is not in the dossier.
+
+On hacker genealogy, Jynnie Tang's 2018 MIT Web Programming Competition first-place finish is precisely the tribal marker I over-index on -- it is the **Reddit** (2005)/Aaron Swartz pattern of competitive-programming-before-startup that I have backed repeatedly without writing it down as a thesis. Claire Nord's @cmnord GitHub and MEng add a second hacker tell. Manuel Castro shows no GitHub trail, which is a wash rather than a negative given the Sonos/Verkada hardware product history. Two of three Napkin Math founders leave hacker tracks; that is enough.
+
+Cofounder configuration is the cleanest signal in the Napkin Math dossier. Three founders, met at MIT roughly a decade ago, complementary coverage across consumer iOS hardware (Castro), data/tracking systems (Nord), and gaming/social UX (Tang). This is the **Airbnb** (2009) three-person, long-prior-relationship pattern, not the hackathon-pair red flag. The team is the asset.
+
+My 36-month forecast on Napkin Math: acquihired by MyFitnessPal or Strava for under $25M, or dead, because the Cal AI absorption in March 2026 closes the AI-photo-logging differentiation window before Napkin Math can build a defensible social graph at consumer-app retention rates. The mechanism is straightforward -- MyFitnessPal has 30M MAU and just added the photo-AI capability; "no-calorie-counting mode" ships as a toggle in their next release, and Napkin Math's positioning collapses into a brand stance.
+
+The strongest case against my pass is the **Airbnb** (2009) precedent itself -- I mentally rejected Airbnb as a non-business and the cereal-box stunt overrode my idea-skepticism. "Strava for food" sounds exactly like the kind of dumb-on-its-face consumer social idea that "Black Swan Farming" (September 2012) tells me to lean into, and the three-MIT-founders-met-a-decade-ago profile is the **Airbnb** (2009) team shape. Napkin Math could be the cereal-box company I am about to misread. The dismantling is that in the actual Airbnb interview, the cereal boxes existed on the table -- the founders had already done the thing. Napkin Math's dossier contains no cereal boxes. The TestFlight app is not a stunt, it is the median Spring 2026 YC consumer artifact. One verifiable condition flips this: if Napkin Math posts 50K+ DAU with organic week-4 retention above 25% within 12 months of YC demo day, the social-graph thesis is live and I would chase the next round at any price. Absent that, this is a pass.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Demonstrates Animal Resourcefulness Pre-Funding | 15/35 |
+| Idea Is Organic to Founders' Own Pain | 8/25 |
+| Problem Sits in a Schlep Zone Mainstream Founders Avoid | 4/15 |
+| Hacker Genealogy in the Founder Team | 10/15 |
+| Co-founder Configuration Is a Strong Pair or Trio, Not Solo | 9/10 |
+| **Total** | **46/100** |
+
+**Total Score: 46/100** (Neutral)

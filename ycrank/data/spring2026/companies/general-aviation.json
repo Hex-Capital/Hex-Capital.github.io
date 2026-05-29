@@ -34,25 +34,35 @@
     "naval-ravikant": {
       "score": 41,
       "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 51,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
     "CB": 77,
     "EG": 46,
     "NR": 41,
-    "PG": null,
-    "PT": null,
+    "PG": 53,
+    "PT": 51,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 54.67,
-  "consolidatedRank": 15,
+  "consolidatedAvg": 53.6,
+  "consolidatedRank": 27,
   "paths": {
     "memo": "spring2026/memos/general-aviation.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/general-aviation.md",
       "elad-gil": "spring2026/evals/elad-gil/general-aviation.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/general-aviation.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/general-aviation.md",
+      "paul-graham": "spring2026/evals/paul-graham/general-aviation.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/general-aviation.md"
     }
   }
 }

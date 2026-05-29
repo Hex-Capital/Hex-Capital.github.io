@@ -32,25 +32,30 @@
     "naval-ravikant": {
       "score": 47,
       "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 76,
+      "tier": "Invest"
     }
   },
   "consolidatedScores": {
     "CB": 79,
     "EG": 45,
     "NR": 47,
-    "PG": null,
+    "PG": 76,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 57,
-  "consolidatedRank": 8,
+  "consolidatedAvg": 61.75,
+  "consolidatedRank": 2,
   "paths": {
     "memo": "spring2026/memos/nine-fives.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/nine-fives.md",
       "elad-gil": "spring2026/evals/elad-gil/nine-fives.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/nine-fives.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/nine-fives.md",
+      "paul-graham": "spring2026/evals/paul-graham/nine-fives.md"
     }
   }
 }

@@ -1,0 +1,30 @@
+﻿# jo -- Paul Graham Evaluation
+
+Pradeep Elankumaran is on his third YC bat (Kicksend S11, Farmstead S16, jo W24) and Kevin Li is on his second with him, which means jo's signature is the inverse of what I usually fund: the strongest dimension is the cofounder bond, the weakest is the schlep. A long-paired repeat-PM duo aiming a "personal AI that actually knows you" at the most consensus consumer-AI category of 2026 -- against Apple Intelligence, Limitless (acquired by Meta Dec 2025), Pi, and open-source Screenpipe -- is the clever-idea / soft-founders shape, not the dumb-idea / animal-founders shape that "Black Swan Farming" (September 2012) taught me to chase.
+
+The cofounder ladder is where jo looks best. Patrick and John Collison shipping **Stripe** (2010) had years of joint commerce hacking through **Auctomatic** (2007); Pradeep and Kevin were Yahoo PMs together, then co-founded Farmstead (S16), and are now on jo together -- that's roughly a decade of paired work, the kind of long-relationship signal "What We Look for in Founders" (October 2010) actually rewards. Where jo diverges from the Collison rung is the artifact: the Collisons were hackers who shipped code as their cofounder language, while Pradeep and Kevin's joint language is consumer PM at Yahoo and a grocery-delivery operation that has no public exit. The pair is real. The pair is just a PM pair, not a hacker pair.
+
+Schlep blindness is where jo collapses, and the LOW rung is my own Pass Example: the polished AI-wrapper with a glossy deck and a TAM slide. **Coinbase** (2012) won me over because Brian Armstrong wanted to eat the compliance grind nobody else in the batch would touch; jo's dossier names a "dedicated cloud machine we host for you" per user under a "free during beta" model, which is not a schlep moat -- it is a burn liability dressed up as architecture. The actual schleps in personal AI -- on-device inference, OS-level entitlements, the privacy audit jo would need to back its "never leaves your Mac" claim against a hosted inference machine -- are unaddressed in the dossier. jo is routing around the schleps, not toward them.
+
+On animal resourcefulness, the mechanism I look for compounds: a pre-funding stunt (Chesky's cereal boxes, Armstrong's Android wallet) becomes a habit, and the habit becomes the company's metabolism. The jo dossier contains no such stunt -- no waitlist conversion number, no hand-built ingestion pipeline jo's founders ran for the first 100 users, no revenue improvisation, just "free during the beta." Pradeep's 3x-YC status is a process credential, not an animal one; the absence of a named pre-funding artifact for jo, three months past the "jo 1.0" relaunch, is itself the signal. Animals leave tracks, and jo's dossier shows footprints from a YC Launch post and a Taro Fukuyama LinkedIn announcement, not from the founders themselves.
+
+For organic founder-pain, the counterfactual is clean: jo would clear this dimension if Pradeep or Kevin had a Drew-Houston-USB-stick moment -- a specific story about their own life that the product is the answer to. Kevin's "why I'm working on jo" LinkedIn post exists, but the dossier surfaces no concrete personal-pain origin; the framing is the generic "knowledge workers lack a personal AI that retains long-term context," which is the market-spotted-an-opportunity register that "How to Get Startup Ideas" (November 2012) warns against. To flip from a default-penalty score into the upper half of this dimension, jo would need a founder-biography artifact that the dossier doesn't carry.
+
+On hacker genealogy, the single-anchor parallel is **Reddit** (2005): Swartz had the RSS spec, Huffman had the code, the team's hacker register preceded the company. jo's CEO studied computational astrophysics, which is hacker-adjacent, but the dossier explicitly notes "No public repos found" for Pradeep and no GitHub for Kevin; the github.com/jo-inc org exists with no surfaced star data. Two PMs without visible code lineage building against Apple Intelligence and an open-source competitor (Screenpipe) is the wrong tribal posture for the category.
+
+My 36-month forecast for jo: acquihired into Meta, OpenAI, or a Series-A consumer-AI consolidator at sub-$50M with ARR under $2M, or quietly shut down when the per-user dedicated cloud machine breaks the free-beta unit economics. The mechanism is straightforward -- consensus category, no schlep moat, no animal pre-funding artifact, hyperscaler substitution from Apple Intelligence on the exact macOS surface jo targets -- which is the same shape that produced the Pi-AI-to-Microsoft outcome the dossier itself cites.
+
+The strongest case against my pass is the Kan/Shear precedent: **Kiko** (2005) failed, Kan and Shear came back, and **Twitch** (2007) sold to Amazon for ~$970M -- repeat YC founders with a long working relationship are exactly my re-fund signal. Pradeep and Kevin fit that template structurally, and Taro Fukuyama writing a check is a YC-alumni vouch. The reason the analogy fails: Kan and Shear pivoted *toward* a schlep (live video infrastructure nobody wanted to operate) the second time, while jo is pivoting *into* the most crowded consumer-AI lane on the board, behind better-funded incumbents and against OS-level defaults. The verdict flips if jo ships a verifiable, audited on-device inference stack that demonstrably eats a schlep Apple Intelligence cannot -- a privacy posture Apple structurally can't match because of their cloud architecture -- and shows 30-day retention from a named cohort of paid users. Until then, pass.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Demonstrates Animal Resourcefulness Pre-Funding | 12/35 |
+| Idea Is Organic to Founders' Own Pain | 9/25 |
+| Problem Sits in a Schlep Zone Mainstream Founders Avoid | 4/15 |
+| Hacker Genealogy in the Founder Team | 5/15 |
+| Co-founder Configuration Is a Strong Pair or Trio, Not Solo | 8/10 |
+| **Total** | **38/100** |
+
+**Total Score: 38/100** (Pass)

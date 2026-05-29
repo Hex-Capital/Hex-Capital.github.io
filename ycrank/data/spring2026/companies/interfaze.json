@@ -32,25 +32,35 @@
     "naval-ravikant": {
       "score": 60,
       "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 33,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 37,
     "EG": 48,
     "NR": 60,
-    "PG": null,
-    "PT": null,
+    "PG": 56,
+    "PT": 33,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 48.33,
-  "consolidatedRank": 55,
+  "consolidatedAvg": 46.8,
+  "consolidatedRank": 78,
   "paths": {
     "memo": "spring2026/memos/interfaze.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/interfaze.md",
       "elad-gil": "spring2026/evals/elad-gil/interfaze.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/interfaze.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/interfaze.md",
+      "paul-graham": "spring2026/evals/paul-graham/interfaze.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/interfaze.md"
     }
   }
 }

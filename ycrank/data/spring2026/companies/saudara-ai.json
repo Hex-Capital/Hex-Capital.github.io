@@ -34,25 +34,30 @@
     "naval-ravikant": {
       "score": 44,
       "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 52,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
     "CB": 60,
     "EG": 30,
     "NR": 44,
-    "PG": null,
+    "PG": 52,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 44.67,
+  "consolidatedAvg": 46.5,
   "consolidatedRank": 84,
   "paths": {
     "memo": "spring2026/memos/saudara-ai.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/saudara-ai.md",
       "elad-gil": "spring2026/evals/elad-gil/saudara-ai.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/saudara-ai.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/saudara-ai.md",
+      "paul-graham": "spring2026/evals/paul-graham/saudara-ai.md"
     }
   }
 }

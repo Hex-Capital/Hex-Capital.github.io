@@ -1,0 +1,30 @@
+﻿# Alchemize -- Paul Graham Evaluation
+
+Alchemize is a schlep-zone bet with no animal evidence — the inverse of the **Coinbase** (2012) pattern, where Brian Armstrong's hand-built Android Bitcoin wallet arrived *with* the regulatory grind. Sam Fu and Robert Hou have picked an honest schlep — CBP entry filing, HTS classification, tariff math under a Trump-era regime the *Washington Post* (Nov 2025) described as "vague executive orders" — but the dossier names no demo, no licensing status, no pre-funding revenue stunt, and no GitHub trail. The category is right. The founders are unproven on every axis I check first.
+
+Customs brokerage as a category sits where **Coinbase** (2012) sat in 2012: regulated, paperwork-heavy, unpleasant enough that most smart YC applicants in the Spring 2026 batch are routing around it toward another AI-wrapper. That is the load-bearing analogy for Alchemize. But **Coinbase** (2012) had Armstrong's Android wallet prototype — the artifact that overturned a written YC rejection — and Caspian (BusinessWire, Jul 2025) explicitly markets itself as "a rare CBP-approved tech company and licensed customs broker," which means the schlep has a gate, and Alchemize's dossier does not say whether Fu and Hou have walked through it. A schlep you have not yet personally suffered is not a moat; it is a roadmap competitors with $5.4M seeds are already executing against you.
+
+Animal resourcefulness is where Alchemize fails the test I run before reading anything else. The **Airbnb** (2009) interview turned on the Obama O's and Cap'n McCain's cereal boxes — over 1,000 sold at $40 each to fund the company — and the dossier on Fu and Hou contains no equivalent. No revenue. No customer count. No Product Hunt launch. No press. No public GitHub. No Twitter. "LinkedIn follower count not retrievable." Animals leave tracks; Alchemize's two founders have left almost none that are visible to me from the outside, and the absence of tracks during a 2025 tariff regime that the NCBFAA called a workload crisis is itself the signal — this is exactly when an animal in customs would have been shipping entries by hand for ten importers and bragging about it on Hacker News.
+
+The organic-idea filter from "How to Get Startup Ideas" (November 2012) asks whether Fu and Hou themselves wished someone would build Alchemize. Drew Houston forgot his USB stick at MIT before **Dropbox** (2007); Patrick and John Collison had hacked commerce flows since **Auctomatic** (2007) before **Stripe** (2010). Neither Fu (Columbia graduate) nor Hou shows public evidence of having imported a single container, filed a single 7501, or sat inside a freight forwarder. Eighteen months in, this dimension compounds against Alchemize: every operational surprise — surety bonds, ACE portal quirks, broker-of-record disputes — is something Amari AI's team (which TechCrunch Feb 2026 noted includes a former senior LinkedIn engineer paired with an operator) will absorb faster because at least one of them lived it.
+
+Hacker genealogy would have to be true at a level the dossier presently does not document for the Alchemize score to flip a tier. Aaron Swartz co-authored RSS before **Reddit** (2005); Patrick Collison won Ireland's Young Scientist (2005) for Lisp work before **Stripe** (2010). For Alchemize to land in Invest territory, Fu or Hou would need a named open-source project filing customs entries via the ACE API, a competitive-programming history, or a working demo that does the duty calculation end-to-end for one importer. None of those appear in the dossier. The counterfactual is concrete and the dossier has not filled it.
+
+On the cofounder axis, Alchemize parallels the **Reddit** (2005) configuration in headcount — Huffman and Ohanian were two — but **Reddit** (2005) carried something Alchemize does not: dorm-roommate history and a Lisp-literate hacker (Aaron Swartz) joining shortly after. The Alchemize dossier reports two founders with no described prior working relationship and no verified backgrounds, because multiple same-name LinkedIn profiles for "Robert Hou" could not be reliably matched. Neutral by default, pulled slightly down by the absence of any anecdote about why these two specifically chose each other for a regulated, license-gated business.
+
+My 36-month forecast for Alchemize: dead or acquihired into Flexport or Amari for under $10M by mid-2029, because Amari AI already had 30+ customers and $15B in goods cleared at Feb 2026 launch with $4.5M from First Round and Pear, and Caspian already holds the CBP license, leaving Alchemize sandwiched between a funded peer with traction and a licensed peer with regulatory standing, with no disclosed artifact of its own. The mechanism is not category failure — customs AI is a real category — it is being late to a schlep without the animal evidence that justified the late entry.
+
+The bull case stings if I run it honestly: **Airbnb** (2009) is my Known Exception for a reason. Chesky and Gebbia walked in with an idea I had rejected silently, and the cereal-box stunt flipped me at the end of the interview. The Alchemize dossier is a pre-interview document, not the interview itself, and Fu and Hou may walk into the YC office with a working filing engine, three importer LOIs, and a CBP license application in flight — exactly the kind of late-stage-of-interview artifact the dossier cannot capture. The condition that would flip my verdict is specific: Alchemize shows a working entry-filing demo cleared for a named importer, or a CBP broker license in Fu or Hou's name, before Demo Day. Until one of those two facts arrives, Alchemize is a schlep without an animal, and that is the reverse of the pattern I fund.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Demonstrates Animal Resourcefulness Pre-Funding | 9/35 |
+| Idea Is Organic to Founders' Own Pain | 7/25 |
+| Problem Sits in a Schlep Zone Mainstream Founders Avoid | 11/15 |
+| Hacker Genealogy in the Founder Team | 5/15 |
+| Co-founder Configuration Is a Strong Pair or Trio, Not Solo | 5/10 |
+| **Total** | **37/100** |
+
+**Total Score: 37/100** (Pass)

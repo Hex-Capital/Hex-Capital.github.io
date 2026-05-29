@@ -34,25 +34,35 @@
     "naval-ravikant": {
       "score": 33,
       "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 64,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 27,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 44,
     "EG": 44,
     "NR": 33,
-    "PG": null,
-    "PT": null,
+    "PG": 64,
+    "PT": 27,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 40.33,
-  "consolidatedRank": 133,
+  "consolidatedAvg": 42.4,
+  "consolidatedRank": 121,
   "paths": {
     "memo": "spring2026/memos/arzana.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/arzana.md",
       "elad-gil": "spring2026/evals/elad-gil/arzana.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/arzana.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/arzana.md",
+      "paul-graham": "spring2026/evals/paul-graham/arzana.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/arzana.md"
     }
   }
 }

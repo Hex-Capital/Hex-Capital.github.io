@@ -33,25 +33,30 @@
     "naval-ravikant": {
       "score": 43,
       "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 69,
+      "tier": "Invest"
     }
   },
   "consolidatedScores": {
     "CB": 61,
     "EG": 57,
     "NR": 43,
-    "PG": null,
+    "PG": 69,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 53.67,
-  "consolidatedRank": 22,
+  "consolidatedAvg": 57.5,
+  "consolidatedRank": 9,
   "paths": {
     "memo": "spring2026/memos/runharbor.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/runharbor.md",
       "elad-gil": "spring2026/evals/elad-gil/runharbor.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/runharbor.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/runharbor.md",
+      "paul-graham": "spring2026/evals/paul-graham/runharbor.md"
     }
   }
 }

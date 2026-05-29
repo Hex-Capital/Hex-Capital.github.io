@@ -30,25 +30,35 @@
     "naval-ravikant": {
       "score": 44,
       "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 33,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 59,
     "EG": 45,
     "NR": 44,
-    "PG": null,
-    "PT": null,
+    "PG": 53,
+    "PT": 33,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 49.33,
-  "consolidatedRank": 46,
+  "consolidatedAvg": 46.8,
+  "consolidatedRank": 79,
   "paths": {
     "memo": "spring2026/memos/lattice-health.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/lattice-health.md",
       "elad-gil": "spring2026/evals/elad-gil/lattice-health.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/lattice-health.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/lattice-health.md",
+      "paul-graham": "spring2026/evals/paul-graham/lattice-health.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/lattice-health.md"
     }
   }
 }

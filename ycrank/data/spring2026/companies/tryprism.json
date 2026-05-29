@@ -33,25 +33,30 @@
     "naval-ravikant": {
       "score": 44,
       "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 60,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
     "CB": 48,
     "EG": 42,
     "NR": 44,
-    "PG": null,
+    "PG": 60,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 44.67,
-  "consolidatedRank": 85,
+  "consolidatedAvg": 48.5,
+  "consolidatedRank": 66,
   "paths": {
     "memo": "spring2026/memos/tryprism.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/tryprism.md",
       "elad-gil": "spring2026/evals/elad-gil/tryprism.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/tryprism.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/tryprism.md",
+      "paul-graham": "spring2026/evals/paul-graham/tryprism.md"
     }
   }
 }

@@ -33,25 +33,35 @@
     "naval-ravikant": {
       "score": 44,
       "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 42,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 33,
     "EG": 42,
     "NR": 44,
-    "PG": null,
-    "PT": null,
+    "PG": 48,
+    "PT": 42,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 39.67,
-  "consolidatedRank": 142,
+  "consolidatedAvg": 41.8,
+  "consolidatedRank": 130,
   "paths": {
     "memo": "spring2026/memos/general-instinct.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/general-instinct.md",
       "elad-gil": "spring2026/evals/elad-gil/general-instinct.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/general-instinct.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/general-instinct.md",
+      "paul-graham": "spring2026/evals/paul-graham/general-instinct.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/general-instinct.md"
     }
   }
 }

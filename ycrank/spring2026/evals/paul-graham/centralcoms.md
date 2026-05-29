@@ -1,0 +1,30 @@
+﻿# CentralComs -- Paul Graham Evaluation
+
+CentralComs is the inverse of the pattern I keep getting paid on: the problem -- chasing lost maintenance tickets through AppFolio, Buildium, and Yardi for landlords nobody wants to call -- has real schlep texture, but Kyle Chang and Kevin Wong arrive without the pre-funding artifact that makes me lean in. The dossier names zero stunts, zero shipped side-channel revenue, zero Hacker News demo. That asymmetry -- decent schlep, invisible founders -- is what I am scoring.
+
+On animal resourcefulness, the rung I anchor to is **Airbnb** (2009): Chesky and Gebbia sold over a thousand $40 cereal boxes to fund themselves when nobody would write a check, and that stunt was the entire reason I wrote the $20K. The mechanism is not the cereal -- it is that the founders generated revenue from nothing using a method I would not have thought of, before the institutional money arrived. CentralComs's dossier names a Twitter handle (@KevinWo34812328) with unretrievable follower count and "No public data found" on revenue, users, Product Hunt, app stores, or press. Kyle's Indoor Finders work shipping facility-management AI to NASA JPL and NVIDIA is a real artifact, but it is an employer's artifact, not Kyle's pre-funding hustle. Brian Armstrong's Android Bitcoin wallet rescued **Coinbase** (2012) precisely because he built it after rejection, for himself, against the grain. I have no equivalent moment for CentralComs in the dossier.
+
+The lowest rung on organic-idea fit is the polished AI-wrapper pitched by founders who "spotted a market opportunity" -- the pass I described in my own pass example. The mechanism that kills those: founder distance from the pain means the product gets rebuilt against feedback rather than against memory. CentralComs is not quite that low. Kyle Chang did spend ~3 years building facility-management AI at Indoor Finders for Cushman & Wakefield and Samsung -- adjacent territory. But adjacent is not organic. Drew Houston actually forgot his USB stick; the Collisons actually hacked commerce since **Auctomatic** (2007). The CentralComs dossier does not say Kyle or Kevin ever managed a property, lost a maintenance ticket, or chased a vendor at 11pm. Without that, "we noticed property managers lose tickets" reads market-spotted, not lived.
+
+Schlep zone is where CentralComs is strongest, and the analogy that loads is **Coinbase** (2012): the compliance grind nobody else wanted became the moat. Multi-tenant integration across AppFolio Realm-X, Buildium Lumina, and Yardi -- three vendors with their own first-party AI and obvious channel-conflict incentive to revoke API access -- is genuinely unpleasant work. The eighteen-month mechanism: if CentralComs survives one platform deprecating their integration, the survivor's cross-PMS workflow corpus becomes a real asset; if they cannot survive that, the schlep was a trap rather than a moat. Coinbase's regulators could not turn off Coinbase. AppFolio can turn off CentralComs with a ToS update. That asymmetry caps the schlep score.
+
+Hacker genealogy is the dimension where eighteen months of compounding matters most and CentralComs is thinnest. The pattern: hackers leave GitHub trails, HN comments, open-source commits, competitive-programming results. Patrick Collison won Ireland's Young Scientist for Lisp work before I'd heard of Stripe. The CentralComs dossier says "GitHub: No public repos found" for both Kyle and Kevin. Berkeley Data Science is a credential, not a hacker tribal marker. Without that footprint, the only technical-taste evidence I have is Kyle's employer-shipped FM AI -- which I cannot inspect.
+
+Co-founder configuration is a counterfactual: for this score to flip a tier, the dossier would need to name a multi-year prior collaboration -- a dorm, a previous failed company, a shared open-source project. What I have is "Both founders affiliated with UC Berkeley per LinkedIn." Two-person team is the right shape. Shared university is weak glue compared to the Collison brothers or Huffman/Ohanian as **Reddit** (2005) roommates. I stay near the default.
+
+My 36-month forecast: CentralComs gets acquired by AppFolio or Buildium for under $25M as a feature-tuck, or shuts down quietly after EliseAI -- already at ~$100M ARR with $250M Series E at $2.2B -- extends from leasing into the maintenance lifecycle CentralComs targets. The mechanism is the integration-dependency clause in the dossier: when a vendor whose product you live inside ships the same feature natively, you either get bought as a shortcut or die as a redundancy.
+
+The strongest bull case against my forecast runs through Kyle Chang's Indoor Finders track record. Three years shipping facility-management AI to NASA JPL, NVIDIA, Cushman & Wakefield, and Samsung is not nothing -- that is enterprise-grade delivery against real customers, and **Stripe** (2010) was a Known Exception where the Collisons' prior $5M Auctomatic outcome overrode my normal process expectations. Could Kyle's prior shipping be the equivalent override here? The dossier cuts against it: Auctomatic was the Collisons' own company at ages 19 and 17, sold for their own account. Indoor Finders is Kyle's employer. The animal test is about what founders did when nothing was guaranteed, not what they delivered against a salary. One verifiable condition flips my verdict: a dossier update showing CentralComs has shipped a working agent into a paying property-management firm before the YC check cleared, with the firm named -- the demo-before-deck pattern that flipped **Dropbox** (2007). Absent that, I pass.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Demonstrates Animal Resourcefulness Pre-Funding | 11/35 |
+| Idea Is Organic to Founders' Own Pain | 11/25 |
+| Problem Sits in a Schlep Zone Mainstream Founders Avoid | 8/15 |
+| Hacker Genealogy in the Founder Team | 6/15 |
+| Co-founder Configuration Is a Strong Pair or Trio, Not Solo | 6/10 |
+| **Total** | **42/100** |
+
+**Total Score: 42/100** (Pass)

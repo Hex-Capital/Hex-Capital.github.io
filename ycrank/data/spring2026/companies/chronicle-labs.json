@@ -32,25 +32,35 @@
     "naval-ravikant": {
       "score": 41,
       "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 33,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 42,
     "EG": 47,
     "NR": 41,
-    "PG": null,
-    "PT": null,
+    "PG": 46,
+    "PT": 33,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 43.33,
-  "consolidatedRank": 99,
+  "consolidatedAvg": 41.8,
+  "consolidatedRank": 129,
   "paths": {
     "memo": "spring2026/memos/chronicle-labs.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/chronicle-labs.md",
       "elad-gil": "spring2026/evals/elad-gil/chronicle-labs.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/chronicle-labs.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/chronicle-labs.md",
+      "paul-graham": "spring2026/evals/paul-graham/chronicle-labs.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/chronicle-labs.md"
     }
   }
 }

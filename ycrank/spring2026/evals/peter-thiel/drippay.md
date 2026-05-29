@@ -1,0 +1,30 @@
+﻿# Drip -- Peter Thiel Evaluation
+
+Mike Levin's Drip is a company whose highest dimension is a modest GitHub-metered-billing operator footprint and whose lowest is the definite-plan axis, and that pairing is itself the verdict: Drip is the canonical indefinite-optimism iteration vehicle the Zero to One chapter "You Are Not a Lottery Ticket" was written against, betrayed by the fact that its YC page sells "enterprise contract operations," its live site usedrip.ai sells a Mac app indexing Gmail/Slack/iMessage, and its drippay.dev domain now redirects to "Memra: customer memory for B2B founders." Three positionings, one quarter, two founders. That is not a secret being prosecuted; that is a search being narrated.
+
+Stripe (2010) is the load-bearing analogy on the contrarian-secret axis because Patrick Collison named developer experience as the specific architectural failure mode of legacy processors at a moment PayPal had been declared the category winner -- the secret terminated at a named incumbent and a named blind spot the market had misread for a decade. Drip names incumbents -- Salesforce Revenue Cloud, Conga at $198.2M ARR, Ironclad at $200M+ ARR, DealHub at $61.6M revenue -- but the failure mode Drip articulates is "4-9 month implementations," which is a procurement complaint, not a structural blind spot. Salesforce ships slow because procurement and legal want it slow; that is the product, not the bug. Drip has identified friction, not a secret hidden from the outside world.
+
+"We'll iterate to product-market fit" is the indefinite-optimism failure mode, and the way it shows up in real dossiers is exactly what Drip's three-URL footprint shows: YC page targets enterprise procurement, usedrip.ai targets the founder-as-power-user, drippay.dev targets early-stage B2B founders as "Memra." Three distinct buyers, three distinct ACVs, three distinct sales motions, and the dossier explicitly flags this as "possible pivot / scope ambiguity." SpaceX (2008) was a 15-year reusability commitment Elon would not pivot from when the second rocket exploded; Drip pivoted before shipping. The dossier surfaces zero named multi-year technical milestone Mike Levin and Lucas He have committed not to abandon.
+
+On monopoly trajectory, the eighteen-month compounding mechanism is the question of whether Drip's local-index-over-Gmail-Slack-Stripe accumulates switching cost faster than Salesforce Agentforce Revenue Management ships the same context layer natively. The dossier answers itself: "A small team can replicate a local Mac index over Gmail/Slack/Stripe APIs; the same dataset is also addressable by incumbent CRMs and by other Spring 2026 YC AI-CRM peers." When the moat is "we indexed your inbox," every YC batchmate and every incumbent is on the same dataset within nine months. No pricing-power hypothesis survives that.
+
+On founder lineage, the counterfactual that would flip Drip a tier is straightforward: if Lucas He were a disambiguated ex-Stripe or ex-Plaid billing-systems lead, this becomes an Affirm-shaped operator re-up worth a meeting. Instead, the dossier reads "Lucas He's prior employers, education, and GitHub were not disambiguable from public sources" -- and Mike Levin is UCLA class of 2026 with an IC stint on GitHub's metered billing platform. GitHub metered billing is real founder-market fit for the entitlements pillar; it is not Levchin shipping PayPal. The pedigree is non-zero but does not carry an Asana-style override.
+
+The single-anchor parallel on the atoms-heavy axis is Modern Meadow versus Drip: Modern Meadow had biofabrication capex creating barriers pure-software competitors could not match; Drip is a Mac app reading chat.db and the Gmail API. The platform-dependency risk the dossier names -- Apple, Google, or Slack changing ingestion policy -- is the opposite of a moat; it is a kill switch held by three companies that are not Drip. No regulated customer, no hardware, no certification depth. This is the YC batch default.
+
+My 36-month forecast on Drip: pivots fully into the "Memra customer memory for B2B founders" SMB positioning visible on drippay.dev, lands at $1-3M ARR off self-serve Mac-app distribution, and is acquired by Attio, Clay, or HubSpot for talent-plus-modest-multiple by mid-2029, or dies in the AI-CRM consolidation wave first. The mechanism is the dimensional signature: indefinite iteration plus competent-but-junior founder lineage plus zero atoms produces a company that finds a small wedge and is absorbed by a distribution-rich incumbent before pricing power crystallizes.
+
+The strongest objection comes from the Asana (2010) exception: Dustin Moskovitz had no contrarian secret and no atoms-heavy moat, and the override was pure operator pedigree from having shipped Facebook to scale. Could Mike Levin's GitHub-metered-billing stint play that role for Drip? It cannot. The Asana override required Moskovitz to have co-built a company that defined a category; Levin contributed to a subsystem inside a mature platform as an IC. The Quora (2010) override required Adam D'Angelo's Facebook CTO title, not a junior backend role. Drip does not clear the pedigree threshold the Known Exceptions actually require. The verifiable condition that would flip my verdict: Drip ships one named multi-year architectural commitment -- an entitlements graph, a procurement-integration depth play, a defense or regulated-finance customer -- and Mike Levin and Lucas He publicly refuse to pivot off it for twelve months. Until then, this is the indefinite-optimism check Zero to One was written against. Pass.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Contrarian Secret with Named Incumbent Failure Mode | 10/35 |
+| Monopoly Trajectory with Pricing Power Hypothesis | 6/25 |
+| Definite Founder Plan vs Indefinite Iteration | 3/15 |
+| Founder Lineage / Verified Operator Pedigree | 7/15 |
+| Atoms-Heavy or Regulated-Sector Structural Moat | 2/10 |
+| **Total** | **28/100** |
+
+**Total Score: 28/100** (Pass)

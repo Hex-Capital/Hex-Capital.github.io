@@ -34,25 +34,30 @@
     "naval-ravikant": {
       "score": 43,
       "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 62,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
     "CB": 43,
     "EG": 55,
     "NR": 43,
-    "PG": null,
+    "PG": 62,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 47,
-  "consolidatedRank": 61,
+  "consolidatedAvg": 50.75,
+  "consolidatedRank": 46,
   "paths": {
     "memo": "spring2026/memos/sherpa.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/sherpa.md",
       "elad-gil": "spring2026/evals/elad-gil/sherpa.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/sherpa.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/sherpa.md",
+      "paul-graham": "spring2026/evals/paul-graham/sherpa.md"
     }
   }
 }

@@ -33,25 +33,35 @@
     "naval-ravikant": {
       "score": 60,
       "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 35,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 58,
     "EG": 50,
     "NR": 60,
-    "PG": null,
-    "PT": null,
+    "PG": 55,
+    "PT": 35,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 56,
-  "consolidatedRank": 11,
+  "consolidatedAvg": 51.6,
+  "consolidatedRank": 39,
   "paths": {
     "memo": "spring2026/memos/keyframe-labs.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/keyframe-labs.md",
       "elad-gil": "spring2026/evals/elad-gil/keyframe-labs.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/keyframe-labs.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/keyframe-labs.md",
+      "paul-graham": "spring2026/evals/paul-graham/keyframe-labs.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/keyframe-labs.md"
     }
   }
 }

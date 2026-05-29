@@ -32,25 +32,30 @@
     "naval-ravikant": {
       "score": 43,
       "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 56,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
     "CB": 56,
     "EG": 41,
     "NR": 43,
-    "PG": null,
+    "PG": 56,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 46.67,
-  "consolidatedRank": 63,
+  "consolidatedAvg": 49,
+  "consolidatedRank": 61,
   "paths": {
     "memo": "spring2026/memos/mochatrade.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/mochatrade.md",
       "elad-gil": "spring2026/evals/elad-gil/mochatrade.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/mochatrade.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/mochatrade.md",
+      "paul-graham": "spring2026/evals/paul-graham/mochatrade.md"
     }
   }
 }

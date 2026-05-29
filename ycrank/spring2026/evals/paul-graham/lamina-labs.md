@@ -1,0 +1,30 @@
+﻿# Lamina Labs -- Paul Graham Evaluation
+
+Lamina Labs is a credentialed MIT pair — Kartikesh Mishra (EECS BS'24/MEng'25, CSAIL) and Sudip Rokaya (MIT CS, on leave) — pointing modest hacker lineage at the most consensus AI category of the 2026 batch, AI explainer video, where Golpo AI already closed $4.1M in October 2025 from BNVT, Emergence, and YC itself. The signature is hacker credentials high, schlep low; that is the inversion of the Coinbase profile, and I have learned to be careful when those two dimensions point opposite directions.
+
+Airbnb is the ladder rung I keep returning to for animal resourcefulness — Brian and Joe sold over 1,000 cereal boxes at $40 each before any investor would touch them, and that pre-funding stunt was the entire reason I wrote the check. Lamina Labs's closest analogue in the dossier is Rokaya's LinkedIn post "You don't need a $2M pre-seed to start building" (activity 7441358175095635968) and the "Leaving MIT to build the next generation" post — these are LinkedIn-essay vibes, not cereal-box vibes. Lamina Labs has not, on the record, sold anything weird to anyone, hand-built any unscalable manual operation, or financed itself off-channel; the dossier shows a free trial at app.laminalabs.ai/simi with no pricing and one third-party tweet from Aaron Siim about an 11-second render. Animals leave tracks; I do not see the tracks yet.
+
+The pass example I wrote down — the polished AI-wrapper pitched by two MBAs against a $50B TAM slide — fails because everyone is routing toward that category at once, not away from it. Lamina Labs is not MBA-coded; Mishra did real CSAIL work training drones on natural-language commands under Daniela Rus. But the schlep test is structural, not personal. AI explainer video in 2026 has Golpo AI ($4.1M, YC-backed), Synthesia (>$150M), Pictory, Samvity, Mootion, and Manim open-source workflows all swinging at the same buyer. Lamina Labs's stated differentiator is an 8–11 second deterministic render — that is a latency claim, not a schlep. Coinbase's moat was that Brian Armstrong wanted to do the bitcoin compliance grind nobody else would touch; Lamina Labs is doing the work everyone else in the batch also wants to do.
+
+Mechanism analysis on the organic-idea dimension: Dropbox worked because Drew Houston kept forgetting his USB stick at MIT and built the thing for himself, so every product decision over 18 months compounded against his own daily friction. Lamina Labs's founders are an ML researcher and a CS undergrad on leave; the dossier contains no evidence either Mishra or Rokaya was producing educational video, teaching a class, or suffering Manim's render times before founding the company. Without that organic anchor, the product roadmap over 18 months gets steered by customer interviews and competitor feature-matching against Golpo 2.0, which is how you end up shipping the same thing as everyone else by month 14.
+
+Counterfactual on hacker genealogy: Mishra's GitHub @mk314k shows 22 followers and a 14-star top repo (3DAttnVAE-GAN), and Rokaya has no public repos found. For this dimension to flip from mid-low into the Stripe/Collison-Lisp tier, I would need to see a published research artifact from CSAIL with non-trivial citations, an open-source rendering library Lamina Labs maintains with external contributors, or a Hacker News front-page demo of the deterministic engine. The MIT credential is real; the hacker tribal markers are quieter than the credential implies.
+
+Single-anchor parallel on cofounder configuration: the Collison brothers had been hacking commerce together since Auctomatic in 2007, three years before Stripe. Lamina Labs's Mishra and Rokaya both attended MIT and that is essentially all the dossier says about their working relationship — no roommate history, no prior shipped project together, no described division of labor beyond Rokaya being "the public-facing builder." A two-person MIT pair clears my solo-founder red flag, but it does not clear the bar that Stripe set on co-founder chemistry; the in-person interview would be where this gets settled.
+
+My 36-month forecast for Lamina Labs: dead or acquihired sub-$10M by mid-2029, with a probable 12-month pivot away from the "visual infrastructure for EdTech AI applications" framing once it becomes clear no third-party EdTech application is going to integrate against Simi's API while Golpo eats the direct-to-creator buyer with its $4.1M war chest. The mechanism is the schlep-low signature — when the category is consensus and the wedge is a latency number, the better-capitalized competitor matches the latency by month 9 and the wedge evaporates.
+
+The strongest bull case for Lamina Labs is the Auctomatic exception: Patrick Collison was 19 when I funded Stripe, and I bent my YC-process rule because the prior technical artifact was real. Mishra's CSAIL drone-RL work under Daniela Rus is a non-trivial ML artifact, and a deterministic mathematically-precise animation engine — if it actually exists and actually generalizes — could become the Manim-for-AI primitive other EdTech apps build on, which is the YC tagline's bet. That bull case stings because Pete Koomen accepted them and YC sees the codebase I do not. It loses to the Golpo data point: YC also funded Golpo AI's $4.1M round, meaning the partnership is not betting on Lamina Labs as the category winner — they are spreading risk across the category. One verifiable condition flips my verdict: a signed integration with a named EdTech buyer (Khan Academy, Coursera, Duolingo, or a top-50 LMS) using Lamina Labs's engine as an API rather than Simi as an end-user product. Until then, pass.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Demonstrates Animal Resourcefulness Pre-Funding | 13/35 |
+| Idea Is Organic to Founders' Own Pain | 7/25 |
+| Problem Sits in a Schlep Zone Mainstream Founders Avoid | 4/15 |
+| Hacker Genealogy in the Founder Team | 8/15 |
+| Co-founder Configuration Is a Strong Pair or Trio, Not Solo | 6/10 |
+| **Total** | **38/100** |
+
+**Total Score: 38/100** (Pass)

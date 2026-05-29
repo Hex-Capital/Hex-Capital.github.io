@@ -32,25 +32,35 @@
     "naval-ravikant": {
       "score": 37,
       "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 33,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 57,
     "EG": 38,
     "NR": 37,
-    "PG": null,
-    "PT": null,
+    "PG": 50,
+    "PT": 33,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 44,
-  "consolidatedRank": 90,
+  "consolidatedAvg": 43,
+  "consolidatedRank": 116,
   "paths": {
     "memo": "spring2026/memos/advanced-metal-research.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/advanced-metal-research.md",
       "elad-gil": "spring2026/evals/elad-gil/advanced-metal-research.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/advanced-metal-research.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/advanced-metal-research.md",
+      "paul-graham": "spring2026/evals/paul-graham/advanced-metal-research.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/advanced-metal-research.md"
     }
   }
 }

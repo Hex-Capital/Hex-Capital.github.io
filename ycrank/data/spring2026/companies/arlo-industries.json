@@ -34,25 +34,35 @@
     "naval-ravikant": {
       "score": 43,
       "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 75,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 54,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
     "CB": 64,
     "EG": 48,
     "NR": 43,
-    "PG": null,
-    "PT": null,
+    "PG": 75,
+    "PT": 54,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 51.67,
-  "consolidatedRank": 32,
+  "consolidatedAvg": 56.8,
+  "consolidatedRank": 11,
   "paths": {
     "memo": "spring2026/memos/arlo-industries.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/arlo-industries.md",
       "elad-gil": "spring2026/evals/elad-gil/arlo-industries.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/arlo-industries.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/arlo-industries.md",
+      "paul-graham": "spring2026/evals/paul-graham/arlo-industries.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/arlo-industries.md"
     }
   }
 }

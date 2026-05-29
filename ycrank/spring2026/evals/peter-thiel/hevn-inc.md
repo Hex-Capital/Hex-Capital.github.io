@@ -1,0 +1,30 @@
+﻿# HEVN, inc -- Peter Thiel Evaluation
+
+Peter Volnov shipped HOT Labs to 15M users and $100M TVL before pivoting his four-person team into HEVN, inc, and that operator-pedigree-meeting-commoditizing-infra is the analytical signature here: a credentialed team has correctly identified a real eligibility gap (Mercury, Brex, Ramp all require a US EIN per the Slash blog citation), but the moat they propose to build on top of it is the same stablecoin-rails layer BVNK is already selling to Deel and Fasset just raised $51M to attack. HEVN, inc is the rare pre-seed where the founder dimension outruns the monopoly dimension, and that inversion is what I weigh.
+
+Affirm (2014) is the load-bearing comparison on founder lineage -- Levchin had shipped PayPal to scale, so Founders Fund underwrote the operator before underwriting the BNPL thesis. HEVN, inc's Volnov, Briuzgin, Zhevlakov, and Mitsevich co-built HOT Labs together for four years and reached #1 on DappRadar for eight months -- shipped-to-scale evidence in a category (crypto consumer wallets) that is adjacent-but-not-identical to fintech B2B. The divergence from the Affirm rung is the category transfer: Levchin's PayPal scar tissue mapped directly onto Affirm's payment-credit problem, whereas HEVN, inc's HOT Wallet distribution playbook for retail crypto users does not obviously transfer to selling regulated USD accounts to non-US internet companies. The lineage is real; the lineage-to-problem mapping is one inferential step softer than the Affirm precedent.
+
+The pass-example archetype I keep returning to is the "AI for X" pitch whose moat hypothesis terminates at "we have a better model." HEVN, inc's monopoly story has the same shape one layer down: its moat terminates at "we have stablecoin rails plus local bank partners in 82 countries," and the dossier itself flags that BVNK already powers Deel, Worldpay, and Flywire on those rails. Mercury just hit $650M ARR at a $5.2B valuation (CNBC, May 2026) and Capital One bought Brex for $5.15B in April 2026 -- two capital-rich incumbents who can extend non-US-entity coverage by writing a check to BVNK rather than rebuilding from scratch. The pattern from the pass example does appear in HEVN, inc's dossier: the moat is borrowed infra, and the buyers of that infra include HEVN, inc's competitors.
+
+On the contrarian secret, HEVN, inc does name an incumbent and a specific blind spot -- the US-EIN eligibility wall at Mercury/Brex/Ramp -- which is more than the median YC fintech offers. But the secret degrades on inspection: an eligibility gap is a regulatory accident, not an architectural blind spot the incumbent cannot fix, and Mercury at $5.2B has the balance sheet to fix it the moment the segment proves out. This is not Stripe's developer-experience secret (which required rewriting the payments stack) -- it is a market-coverage secret, and market-coverage secrets compound for eighteen months, not for ten years of pricing power.
+
+The definite-plan dimension compounds poorly over 18 months for HEVN, inc because "waitlist for EU/US/Swiss/UAE bank accounts" is a coverage roadmap, not a technical commitment. Compare the mechanism: SpaceX (2008) committed to reusability and could not pivot off it without burning years of capex; HEVN, inc's "built for humans and AI agents" framing on the YC page is precisely the indefinite-optimism language Zero to One (2014) was written against -- the team can ship contractor payouts, then payroll, then cards, then agent-driven treasury, in any order the market rewards. That is iteration mode dressed in a roadmap.
+
+Palantir (2003) is the single-anchor parallel on regulated-sector moat: government certification depth compounded into a 15-year monopoly because the regulatory surface was deep, narrow, and rewarded integration. HEVN, inc's regulatory surface across stablecoin banking in EU/US/Switzerland/UAE is wide and shallow -- four jurisdictions with four different stablecoin postures, mediated by local bank partners HEVN, inc does not own. The regulatory exposure is real, but it is risk surface, not moat surface; Palantir owned its certifications, HEVN, inc rents them.
+
+My 36-month forecast for HEVN, inc: acquired by Mercury, Capital One/Brex, or BVNK for $30-80M as a talent-and-jurisdictional-KYC tuck-in, or pivoted into an AI-agent payment-ops layer riding on top of BVNK/Fasset rails. The mechanism is the signature from above -- a capable operator team in a commoditizing infra category gets bought for the team and the regulatory paperwork before the moat materializes, because the incumbents acquiring them have already decided the rails are a buy-not-build decision.
+
+The bull case that stings: Volnov's 463K X followers plus the HOT Labs distribution muscle plus YC's February 2026 decision to fund batches in USDC means HEVN, inc is launching into the exact window where stablecoin operationalization at the startup-finance layer becomes default, and Fasset's $51M raise is evidence of market formation, not commoditization. The four-cofounder team with four shared years is genuinely rare at pre-seed. The rebuttal: Fasset raising $51M is the bear signal disguised as bull -- when consensus capital arrives at a category, the contrarian window has already closed, and Founders Fund's 2011 manifesto attacked exactly this pattern. The verdict flips if HEVN, inc secures a direct banking license (not a partnership) in two of EU/US/Switzerland/UAE within twelve months -- owned regulatory surface rather than rented would convert the borrowed moat into a Palantir-shaped one. Absent that, HEVN, inc is a competent team on commodity rails, and competition is for losers.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Contrarian Secret with Named Incumbent Failure Mode | 18/35 |
+| Monopoly Trajectory with Pricing Power Hypothesis | 9/25 |
+| Definite Founder Plan vs Indefinite Iteration | 7/15 |
+| Founder Lineage / Verified Operator Pedigree | 10/15 |
+| Atoms-Heavy or Regulated-Sector Structural Moat | 5/10 |
+| **Total** | **49/100** |
+
+**Total Score: 49/100** (Neutral)

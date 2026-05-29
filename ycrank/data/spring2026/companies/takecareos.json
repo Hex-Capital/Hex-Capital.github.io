@@ -34,25 +34,30 @@
     "naval-ravikant": {
       "score": 37,
       "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 49,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
     "CB": 42,
     "EG": 39,
     "NR": 37,
-    "PG": null,
+    "PG": 49,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 39.33,
-  "consolidatedRank": 148,
+  "consolidatedAvg": 41.75,
+  "consolidatedRank": 131,
   "paths": {
     "memo": "spring2026/memos/takecareos.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/takecareos.md",
       "elad-gil": "spring2026/evals/elad-gil/takecareos.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/takecareos.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/takecareos.md",
+      "paul-graham": "spring2026/evals/paul-graham/takecareos.md"
     }
   }
 }

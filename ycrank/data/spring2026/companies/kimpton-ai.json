@@ -32,25 +32,35 @@
     "naval-ravikant": {
       "score": 38,
       "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 33,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 51,
     "EG": 38,
     "NR": 38,
-    "PG": null,
-    "PT": null,
+    "PG": 50,
+    "PT": 33,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 42.33,
-  "consolidatedRank": 109,
+  "consolidatedAvg": 42,
+  "consolidatedRank": 127,
   "paths": {
     "memo": "spring2026/memos/kimpton-ai.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/kimpton-ai.md",
       "elad-gil": "spring2026/evals/elad-gil/kimpton-ai.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/kimpton-ai.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/kimpton-ai.md",
+      "paul-graham": "spring2026/evals/paul-graham/kimpton-ai.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/kimpton-ai.md"
     }
   }
 }

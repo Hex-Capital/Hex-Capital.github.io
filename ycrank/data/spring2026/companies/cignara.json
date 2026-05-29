@@ -31,25 +31,35 @@
     "naval-ravikant": {
       "score": 37,
       "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 27,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 36,
     "EG": 39,
     "NR": 37,
-    "PG": null,
-    "PT": null,
+    "PG": 33,
+    "PT": 27,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 37.33,
-  "consolidatedRank": 165,
+  "consolidatedAvg": 34.4,
+  "consolidatedRank": 184,
   "paths": {
     "memo": "spring2026/memos/cignara.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/cignara.md",
       "elad-gil": "spring2026/evals/elad-gil/cignara.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/cignara.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/cignara.md",
+      "paul-graham": "spring2026/evals/paul-graham/cignara.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/cignara.md"
     }
   }
 }

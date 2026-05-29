@@ -32,25 +32,35 @@
     "naval-ravikant": {
       "score": 42,
       "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 32,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 50,
     "EG": 43,
     "NR": 42,
-    "PG": null,
-    "PT": null,
+    "PG": 52,
+    "PT": 32,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 45,
-  "consolidatedRank": 78,
+  "consolidatedAvg": 43.8,
+  "consolidatedRank": 104,
   "paths": {
     "memo": "spring2026/memos/avea-robotics.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/avea-robotics.md",
       "elad-gil": "spring2026/evals/elad-gil/avea-robotics.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/avea-robotics.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/avea-robotics.md",
+      "paul-graham": "spring2026/evals/paul-graham/avea-robotics.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/avea-robotics.md"
     }
   }
 }

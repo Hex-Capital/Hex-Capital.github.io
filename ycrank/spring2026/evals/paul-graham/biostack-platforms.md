@@ -1,0 +1,30 @@
+﻿# BioStack Platforms -- Paul Graham Evaluation
+
+Sanat Mishra spent years inside cancer genomics at Stanford, Yale, CMU, and Max-Planck, which means BioStack Platforms is the rare healthcare-AI pitch where the CEO actually lived in the swamp the company drains -- fragmented multimodal biomedical data locked inside labs. The signature pairing for BioStack Platforms is high organic-idea fit against low animal-resourcefulness: a credentialed researcher's company, not a Brian-Armstrong-rebuilds-the-wallet-after-rejection company. That pairing tells me what I'm looking at before I read another line.
+
+Drew Houston shipped the **Dropbox** (2007) demo to Hacker News before the seed check arrived -- that is what HIGH on animal resourcefulness looks like. BioStack Platforms's nearest analog in the dossier is a single sentence claiming "unprecedented zero-shot generalization on genomic regulatory expression," with no benchmark, no paper, no public artifact, no Armstrong-style Android wallet built after a rejection. A claim is not a demo. Sanat and Parth Patwa have Y Combinator, Afore, Heroic, and Verdict already on the cap table, but the dossier is silent on what either founder did pre-check that I would describe as animal -- no cereal-box stunt, no unscalable manual sale to a named hospital, no Hacker News thread. Absence of tracks where I expect tracks; I apply the default and nudge it up only because they did train *some* model.
+
+Patrick Collison was hacking commerce flows for **Auctomatic** (2007) years before **Stripe** (2010) existed, and Drew Houston kept forgetting his USB stick at MIT -- the founders had the problem in their hands. Sanat at BioStack Platforms is the closest thing in this Spring 2026 batch to that pattern in biomedical data: a cancer genomics researcher who passed through four serious labs touching exactly the data fragmentation the company now sells a fix for. This is where BioStack Platforms earns its highest score. The gap from the **Stripe** (2010) HIGH rung is that Parth Patwa came from AWS GenAI and 40+ NeurIPS/CVPR/EMNLP papers, not from suffering inside hospital data pipelines -- the organic pain lives in one founder, not both.
+
+Healthcare data access is a schlep the way **Coinbase** (2012)'s bitcoin compliance was a schlep -- HIPAA, IRB, data-use agreements, hospital legal teams, CRO contracting cycles measured in quarters. Over 18 months this dimension compounds in exactly one way: every signed source institution is a contract a horizontal vendor like Mercor (~$10B) has to redo from zero. The risk is that BioStack Platforms hasn't actually started the schlep yet -- the dossier names zero signed hospitals, labs, or CROs. Armstrong was already eating compliance when I funded him; BioStack Platforms is pointing at the schlep, not buried in it. Score reflects the pointing, not the eating.
+
+Parth Patwa's 1,800+ citations and ex-AWS GenAI title are the academic-credential version of hacker genealogy, not the Aaron-Swartz-co-authored-RSS-before-**Reddit** (2005) version. The counterfactual for moving BioStack Platforms up a tier here is concrete: a public GitHub repo with the genomic-regulatory-expression model weights and eval harness, or a named open-source environment SDK the AI labs are already forking. Neither exists in the dossier. Sanat's GitHub handle resolves but star count "not retrievable" is itself a tell -- hackers leave loud trails, and these two leave paper trails.
+
+Brian Chesky, Joe Gebbia, and Nathan Blecharczyk had lived together before **Airbnb** (2009), which is the cofounder-chemistry HIGH rung. BioStack Platforms is two founders with no surfaced shared history -- CMU/IISER on one side, UCLA/MIT/AWS on the other, no overlapping employer or lab. That's not disqualifying; the YC interview surfaces chemistry better than a dossier does. I stay at the default and move on.
+
+The 36-month forecast for BioStack Platforms: $2-4M of services-flavored ARR from two or three frontier AI lab contracts, then acquired by a horizontal RL-environments vendor (Mercor is the obvious buyer given the September 2025 TechCrunch piece naming healthcare as a vertical they're already pitching) or absorbed by Truveta ($515M raised) for the data-pipeline IP. Not zero, not a fund-returner -- a sober researcher exit. The mechanism is straightforward: Sanat's genuine domain depth gets them their first lab contracts, but without the Armstrong-grade animal signal the company doesn't generate enough velocity to outrun a $10B Mercor extending sideways into healthcare environments.
+
+The strongest objection is that I'm under-pricing the schlep. **Coinbase** (2012) looked like a Stripe-for-bitcoin services shop in its first year; the compliance grind only revealed itself as a moat once Armstrong was three quarters into it, and from the outside in 2012 it would have read exactly like BioStack Platforms reads now -- "no signed institutions disclosed." If Sanat's IISER-Stanford-Yale-CMU-Max-Planck network converts into exclusive data-use agreements with two academic medical centers in the next twelve months, the horizontal-RL-environment substitution risk from Mercor evaporates because Mercor cannot fast-follow a DUA. The dossier evidence that wins against this objection today is the silence: no named hospital, no named CRO, no founder anecdote of personally closing the first one. The verifiable condition that flips my verdict is one I can check: two signed, named source-institution data partnerships announced within twelve months of the Spring 2026 batch ending. If that happens, the schlep score moves from defensive to load-bearing and I want back in.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Demonstrates Animal Resourcefulness Pre-Funding | 13/35 |
+| Idea Is Organic to Founders' Own Pain | 17/25 |
+| Problem Sits in a Schlep Zone Mainstream Founders Avoid | 10/15 |
+| Hacker Genealogy in the Founder Team | 8/15 |
+| Co-founder Configuration Is a Strong Pair or Trio, Not Solo | 5/10 |
+| **Total** | **53/100** |
+
+**Total Score: 53/100** (Neutral)

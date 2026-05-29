@@ -34,25 +34,30 @@
     "naval-ravikant": {
       "score": 39,
       "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 43,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 44,
     "EG": 43,
     "NR": 39,
-    "PG": null,
+    "PG": 43,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 42,
-  "consolidatedRank": 117,
+  "consolidatedAvg": 42.25,
+  "consolidatedRank": 123,
   "paths": {
     "memo": "spring2026/memos/maquoketa-research.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/maquoketa-research.md",
       "elad-gil": "spring2026/evals/elad-gil/maquoketa-research.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/maquoketa-research.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/maquoketa-research.md",
+      "paul-graham": "spring2026/evals/paul-graham/maquoketa-research.md"
     }
   }
 }

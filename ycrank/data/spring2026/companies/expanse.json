@@ -33,25 +33,35 @@
     "naval-ravikant": {
       "score": 44,
       "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 64,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 49,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
     "CB": 56,
     "EG": 52,
     "NR": 44,
-    "PG": null,
-    "PT": null,
+    "PG": 64,
+    "PT": 49,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 50.67,
-  "consolidatedRank": 36,
+  "consolidatedAvg": 53,
+  "consolidatedRank": 29,
   "paths": {
     "memo": "spring2026/memos/expanse.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/expanse.md",
       "elad-gil": "spring2026/evals/elad-gil/expanse.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/expanse.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/expanse.md",
+      "paul-graham": "spring2026/evals/paul-graham/expanse.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/expanse.md"
     }
   }
 }

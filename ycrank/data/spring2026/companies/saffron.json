@@ -32,25 +32,30 @@
     "naval-ravikant": {
       "score": 42,
       "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 53,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
     "CB": 33,
     "EG": 50,
     "NR": 42,
-    "PG": null,
+    "PG": 53,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 41.67,
-  "consolidatedRank": 123,
+  "consolidatedAvg": 44.5,
+  "consolidatedRank": 96,
   "paths": {
     "memo": "spring2026/memos/saffron.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/saffron.md",
       "elad-gil": "spring2026/evals/elad-gil/saffron.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/saffron.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/saffron.md",
+      "paul-graham": "spring2026/evals/paul-graham/saffron.md"
     }
   }
 }

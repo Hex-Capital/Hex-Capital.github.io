@@ -32,25 +32,35 @@
     "naval-ravikant": {
       "score": 39,
       "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 29,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 28,
     "EG": 34,
     "NR": 39,
-    "PG": null,
-    "PT": null,
+    "PG": 41,
+    "PT": 29,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 33.67,
-  "consolidatedRank": 184,
+  "consolidatedAvg": 34.2,
+  "consolidatedRank": 185,
   "paths": {
     "memo": "spring2026/memos/flowscope.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/flowscope.md",
       "elad-gil": "spring2026/evals/elad-gil/flowscope.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/flowscope.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/flowscope.md",
+      "paul-graham": "spring2026/evals/paul-graham/flowscope.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/flowscope.md"
     }
   }
 }

@@ -1,0 +1,30 @@
+﻿# HeyClicky -- Paul Graham Evaluation
+
+Farza Majeed shipped HeyClicky as a native Swift Mac app in roughly four weeks, open-sourced the whole thing under MIT, and pushed it to 5.8K?6.1K GitHub stars on the back of a 108.6K-follower X account -- that is the animal moving, and it is also the only thing moving. HeyClicky is a solo hacker with distribution attacking a soft-software surface he himself does not obviously use, and the gap between how loud the launch is and how thin the rest of the dossier reads is the whole story.
+
+**Dropbox** (2007) is the right comparison on resourcefulness, because Drew Houston put a demo on Hacker News before any check arrived, and HeyClicky did the analogous 2026 move -- a working macOS binary plus an open repo plus a YouTube demo at youtu.be/ER8TCqFjaYI, all visible before the seed. The mechanism is identical: artifact first, narrative second. Where HeyClicky diverges from the Dropbox rung is that Houston's demo was load-bearing because the product was hard to build and easy to want; Farza's open-sourcing of farzaa/clicky under MIT and his public invitation to fork it ("Go forth into the wild") inverts the moat that Houston's binary carried. The animal is real -- the shipping cadence, the 5.8K stars, the second YC entry after a $10M-raised buildspace -- but an animal that publishes its own claws is not the same animal.
+
+Solo. HeyClicky lists Farza Majeed as the only founder, and "What We Look for in Founders" (October 2010) was explicit that solo is where the big outcomes are not. The failure mechanism I have watched play out -- in **Kiko** (2005) before the re-fund, in dozens of unnamed first-batch passes -- is that the solo founder hits the morale trough alone, and the absence of a cofounder argument is the absence of the thing that keeps the company alive at month 14. HeyClicky's dossier compounds this: Farza voluntarily shut down buildspace in August 2024 despite $10M raised at $100M, with the public letter citing inability "to craft an updated direction that feels worth pursuing." That is taste, and I respect it -- but pattern-wise, a solo founder with a documented prior voluntary-close, no named cofounder, and an MIT-licensed core is structurally the most fragile configuration in my framework.
+
+On organic-idea fit, HeyClicky reads as adjacent to Farza's biography but not born from his own daily friction the way the Collisons' commerce hacking was born from **Stripe** (2010). The dossier frames HeyClicky's README as "AI teacher," which echoes buildspace's education-distribution work, but nowhere does Farza describe himself switching between Notion, Gmail, DaVinci Resolve, and After Effects and getting fed up -- the dossier reaches for "[Inferred]" rather than a Houston-style USB-stick story. Over 18 months, organic ideas compound because the founder keeps finding the next unobvious feature from their own use; non-organic ideas plateau at the demo, and HeyClicky is currently still at the demo.
+
+The schlep score is low because HeyClicky is pure consumer software with no regulatory grind, no offline operation, no unpleasant manual integration -- the exact profile **Coinbase** (2012) was not. Counterfactually, HeyClicky would jump a tier here only if the dossier described Farza personally chasing app-vendor partnerships, doing manual deal-by-deal integrations with Notion and Linear, or eating an Apple App Store policy fight on screen-capture entitlements. None of that appears. The work HeyClicky has done so far is the pleasant work; every other applicant in Spring 2026 with an OpenAI key can do the pleasant work too.
+
+Hacker genealogy is HeyClicky's second-strongest dimension, and the single-anchor parallel is **Reddit** (2005)'s Swartz -- a founder whose public artifact trail predated the company. Farza's farzaa/clicky repo, the Swift codebase, and the prior buildspace builder community are real hacker tribal markers; this is not an MBA team. HeyClicky earns the credit. But hacker-genealogy alone has never been a check-writing dimension for me -- it's a necessary condition, not a sufficient one, and on its own it cannot carry a solo founder past the configuration penalty.
+
+My 36-month forecast on HeyClicky: under $2M ARR, no Series A, and either a voluntary wind-down echoing the buildspace pattern or a pivot back into Farza's native education lane (an "AI teacher" product spun out of the same Swift surface), with Apple Intelligence absorbing the cursor-side agent category at the OS layer by late 2027. The mechanism is the stack: solo founder + MIT-licensed core + pure-software schlep zone + platform-substitution risk + a documented founder preference for closing rather than grinding through the trough.
+
+The strongest case against my pass is that HeyClicky's distribution is real and Cluely raised $20.3M with no obviously stronger founder profile -- 108.6K followers plus 5.8K GitHub stars plus a YC partner in Aaron Epstein is not nothing, and second-time YC founders who voluntarily closed prior companies are exactly the **Twitch** (2007) re-fund pattern I claim to value. The bear-dismantle is that Kan and Shear came back as a *pair* from **Kiko** (2005) and re-fund hustle was the signal; Farza is coming back solo with a publicly forkable codebase, and the buildspace closing letter cited loss of conviction rather than market timing -- a different failure mode than Kiko's, and the one I cannot underwrite at pre-seed. HeyClicky flips to an invest if Farza ships a named technical cofounder and posts $50K MRR within six months of YC Demo Day; absent both, the configuration does not clear the bar.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Demonstrates Animal Resourcefulness Pre-Funding | 25/35 |
+| Idea Is Organic to Founders' Own Pain | 11/25 |
+| Problem Sits in a Schlep Zone Mainstream Founders Avoid | 5/15 |
+| Hacker Genealogy in the Founder Team | 11/15 |
+| Co-founder Configuration Is a Strong Pair or Trio, Not Solo | 2/10 |
+| **Total** | **54/100** |
+
+**Total Score: 54/100** (Neutral)

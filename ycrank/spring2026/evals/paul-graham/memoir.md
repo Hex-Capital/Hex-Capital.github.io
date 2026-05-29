@@ -1,0 +1,30 @@
+﻿# Memoir -- Paul Graham Evaluation
+
+Memoir is a company with a UIUC-CS, quant-and-consulting founder pointed at the lowest-schlep corner of the AI-marketing map — the highest dimension here is a thin baseline of hacker credentialing, and the lowest is the absence of any unpleasant offline work, which together describes a clever pure-software wrapper rather than a Stripe-grade grind. Maanav Agrawal's bio reads IMC Trading and PwC, the landing page reads "A marketing team that ships while your product moves" (trymemoir.ai, May 2026), and nothing in between reads animal.
+
+Brian Armstrong's rejected-then-rebuilt **Coinbase** (2012) Android wallet is the canonical pre-funding artifact — the thing the founder did when no institution would pay him to do it. I scan Memoir for the equivalent and what I find is a Calendly link at calendly.com/maanavagrawal and four sample metrics on the landing page ("+38% qualified profile visits, 17 technical conversations, 6 follow-ups, 12 qualified replies") that the dossier explicitly cannot confirm are customer outcomes. There is no demo on Hacker News, no founder thread on X (the search couldn't locate a handle), no cereal-box equivalent. Maanav Agrawal may well be an animal in the interview room, but animals leave tracks, and Memoir's public surface area has none.
+
+Drew Houston shipped **Dropbox** (2007) because he kept forgetting his USB stick at MIT — the idea was downstream of his own life. I run the same test on Memoir and ask what part of "AI-generated demo videos with voice-cloned founder narration for developer-tool companies" came out of Maanav Agrawal's IMC Trading desk or his PwC engagement letters. The dossier names no prior devrel role, no marketing exit, no founder-built tool that grew into Memoir. The product is plausibly something developer-tool founders would want — but the founder did not, by the evidence available, suffer from missing it before building it. That is the "spotted a market opportunity" pattern from my Pass Example, not the Houston pattern.
+
+**Coinbase** (2012)'s moat ended up being the bitcoin compliance grind nobody else in the batch wanted. Memoir's work, by contrast, is voice cloning (ElevenLabs is a vendor), repo-reading agents (commoditizing weekly), and X/HN trend scraping — none of which require a founder to do anything other smart founders are unconsciously routing around. The dossier names Notra, CharacterQuilt, Uplane, and Kuli all attacking adjacent slices in the same P26/W26 window. When five YC teams converge on a niche in one cycle, that is the opposite of schlep blindness — that is schlep visibility, and the moat thesis disappears with it.
+
+On hacker genealogy, the eighteen-month compounding question is whether Memoir ships technical artifacts the dev-tools audience respects, because the customer here is the most credential-skeptical buyer on earth — a founder being sold marketing services by another founder. UIUC BS/MCS plus IMC quant is a real technical baseline, but the dossier turns up no GitHub handle for Maanav Agrawal, no open-source footprint, no Hacker News presence. Selling to developers without a hacker reputation is a compounding tax on every cold demo; eighteen months in, that tax is the difference between Memoir's Calendly converting and Memoir's Calendly going quiet.
+
+For the co-founder dimension, the score would flip a tier if the second founder were publicly named with a complementary technical-or-marketing track record and a documented prior working relationship with Maanav Agrawal — Collison-brothers-grade, or even Huffman-Ohanian-dorm-roommate-grade. The dossier states team size of 2 and then cannot find founder #2 on the YC page, on trymemoir.ai, or anywhere in public search. That is not stage-default opacity; YC pages typically list both. The asymmetry — one founder fully visible, the other absent — is itself the signal, and it is not a good one.
+
+My 36-month forecast on Memoir is acquihire into a larger marketing-AI platform (Jasper-scale or one of the YC P26 peers that consolidates) at sub-$10M, or quiet shutdown, driven by foundation-model commoditization of voice-cloned demo generation collapsing the differentiation against Notra and CharacterQuilt before Memoir secures a defensible install base. The mechanism is straightforward: when the moat is "we wired ElevenLabs plus a repo agent plus an X scraper together cleverly," the moat is a quarter of OpenAI roadmap away from disappearing, and the dossier surfaces no proprietary data, no named launch customer, no signed LOI to anchor switching costs before that happens.
+
+The bear case I have to steel-man is **Airbnb** (2009) — I rejected the idea silently and the cereal boxes flipped me. Could Memoir be the same shape? The bull would say: crowded YC batches are bullish (Airbnb had Couchsurfing), the positioning ambiguity between "knowledge base your agents trust" and "marketing team that ships" is just a founder iterating in public, and Maanav Agrawal may have done something extraordinary that simply doesn't show up in WebSearch. Fair. But Airbnb flipped on a *visible* stunt I could touch — Obama O's on the table, 1,000 boxes at $40 each. Memoir's dossier offers no equivalent artifact, just a Calendly link and four unattributed metrics. The condition that flips my verdict is concrete: a named developer-tool customer of recognizable quality (Vercel, Resend, Supabase, Linear) publicly attributing pipeline to Memoir, or a Maanav-Agrawal-shipped demo on Hacker News that the dev community responds to. Until then, this is the clever-idea-soft-founders pattern where I lose money.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Demonstrates Animal Resourcefulness Pre-Funding | 8/35 |
+| Idea Is Organic to Founders' Own Pain | 6/25 |
+| Problem Sits in a Schlep Zone Mainstream Founders Avoid | 4/15 |
+| Hacker Genealogy in the Founder Team | 7/15 |
+| Co-founder Configuration Is a Strong Pair or Trio, Not Solo | 4/10 |
+| **Total** | **29/100** |
+
+**Total Score: 29/100** (Pass)

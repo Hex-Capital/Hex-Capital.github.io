@@ -1,0 +1,30 @@
+﻿# Complir -- Paul Graham Evaluation
+
+Complir is a Coinbase-shaped problem attacked by a non-Coinbase team — the schlep is real (GPSR enforceable since 13 December 2024, declarations of conformity across 40+ markets, ECHA/FDA/CPSC monitoring), but the founders Gustav Bang, Marc Kaa Brejner, and Tine Köhnel arrive without the hacker tribal markers that usually pair with a regulatory grind. €1.7M pre-seed, 109,886 SKUs under live monitoring, and Flying Tiger Copenhagen as a named anchor — that's a competent European B2B SaaS shape, not the animal shape.
+
+The schlep dimension is where Complir sits highest, and the right comparison is **Coinbase** (2012) — Armstrong's appetite for the bitcoin compliance grind was the moat, not the wallet code. Complir is doing the EU-retailer analogue: auto-generating risk matrices, translations, and technical files against an ECHA/FDA/CPSC update stream nobody at a normal YC batch wants to wake up and own. Where Complir diverges from the Coinbase rung is that Armstrong personally hand-built an Android wallet to overturn a written YC rejection ("Schlep Blindness," January 2012 is named in my essays for a reason); Complir's dossier shows 13 employees and an opened France office before the €1.7M is even fully deployed — that is the EU-startup motion, not the founder-grinds-the-schlep-personally motion. The schlep is theirs to lose, not theirs to win on dossier alone.
+
+The Pass Example I keep returning to is the polished AI-wrapper team with no shipped open source and no GitHub trail, and Complir's founders read closer to that profile than I'd like on hacker genealogy. Bang's bio is "10 years in startups, Head of Denmark at Legora" — Legora is a legal-AI scaleup, which is good adjacent context, but it's a commercial role, not a Lisp-prize role. Brejner is a DTU engineer who consulted for Danish authorities on system architecture; competent, but the Collisons at **Stripe** (2010) had Patrick's Young Scientist Lisp prize visible before the check, and Aaron Swartz had co-authored RSS before **Reddit** (2005). The Complir dossier explicitly returns "No public repos found" for all three founders — hackers leave GitHub trails, and the absence is the signal.
+
+On the organic-idea axis, Complir fails the **Dropbox** (2007) USB-stick test in a specific way: the product was "born out of a concrete problem at Flying Tiger Copenhagen," but none of Bang, Brejner, or Köhnel worked at Flying Tiger. Drew Houston forgot his own USB stick; the Collisons hacked their own commerce flows at **Auctomatic** (2007). Complir's founders observed somebody else's pain and built a tool for it — that's a respectable B2B origin story, but it isn't the organic-idea pattern from "How to Get Startup Ideas" (November 2012). It is "spotted a real customer problem," which my essay explicitly flagged as the weaker variant.
+
+On animal resourcefulness, the 18-month mechanism question is whether Complir compounds the Flying Tiger anchor into a referenceable Scandinavian beachhead before Assent ($350M raised, unicorn since 2022) ships an AI document-generation module. 45% MoM growth and a customer list of Matas, COOP, Konges Sløjd, and Stronger is genuine pre-seed traction — more than most YC pre-seeds bring — but it is institutionally-acquired traction (angel cap-table includes the former Coop Group CEO Kraen Østergaard Nielsen and GS1 board member Per Thau), not stunt-acquired traction. There is no cereal-box moment in this dossier. The angels opened the doors.
+
+The counterfactual on co-founder configuration: Brejner and Köhnel share DTU, but no public data confirms any of the three worked together before Complir — for this to flip from neutral to strong, the dossier would need to show a 2+ year prior collaboration like Huffman/Ohanian's dorm at **Reddit** (2005) or the Collison brothers at **Stripe** (2010). What's there is fine — a trio with partial overlap and complementary CEO/CTO/CPO coverage — but I'm using the absent-evidence default, not crediting a strong prior bond.
+
+My 36-month forecast for Complir: €3-8M ARR riding the GPSR enforcement wave, then an acquisition in the $30-80M range by Assent or Trace One who bolt the AI-document-generation layer onto their existing manufacturer/PLM distribution. Not a zero, not a Stripe — a respectable European compliance exit. The mechanism: the regulatory tailwind is real and the schlep is real, but the founders' resourcefulness profile and the absence of hacker genealogy mean Complir wins the EU-retailer wedge and then gets bought rather than expanding into the frighteningly ambitious version of itself.
+
+The strongest objection to my pass-leaning Neutral is the **Coinbase** (2012) parallel pushed all the way: Armstrong wasn't a famous hacker either — he was an ex-Airbnb engineer who liked bitcoin compliance, and the schlep itself was the moat. Maybe Complir's GPSR enforcement on 13 December 2024 is the bitcoin-genesis-block equivalent for EU product compliance, and the Flying Tiger anchor is the equivalent of Coinbase's early-mover license advantage. The dossier evidence that wins against this: Armstrong rebuilt the wallet *after* the YC rejection to force a reconsideration — that is the artifact the Coinbase story turns on, and Complir's dossier shows institutional-angel-led traction, not founder-stunt traction. The condition that flips my verdict: if Bang or Brejner ships, publicly, an artifact they personally hand-built that overturns my read — a working open-source EU-GPSR declaration-of-conformity generator on their GitHub, used by 500+ retailers before the next funding round, with Bang's name on the commits. Then I'm in.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Demonstrates Animal Resourcefulness Pre-Funding | 18/35 |
+| Idea Is Organic to Founders' Own Pain | 11/25 |
+| Problem Sits in a Schlep Zone Mainstream Founders Avoid | 12/15 |
+| Hacker Genealogy in the Founder Team | 5/15 |
+| Co-founder Configuration Is a Strong Pair or Trio, Not Solo | 7/10 |
+| **Total** | **53/100** |
+
+**Total Score: 53/100** (Neutral)

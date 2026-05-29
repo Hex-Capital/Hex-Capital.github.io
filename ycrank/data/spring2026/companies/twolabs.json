@@ -31,25 +31,30 @@
     "naval-ravikant": {
       "score": 33,
       "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 40,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 52,
     "EG": 34,
     "NR": 33,
-    "PG": null,
+    "PG": 40,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 39.67,
-  "consolidatedRank": 146,
+  "consolidatedAvg": 39.75,
+  "consolidatedRank": 151,
   "paths": {
     "memo": "spring2026/memos/twolabs.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/twolabs.md",
       "elad-gil": "spring2026/evals/elad-gil/twolabs.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/twolabs.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/twolabs.md",
+      "paul-graham": "spring2026/evals/paul-graham/twolabs.md"
     }
   }
 }

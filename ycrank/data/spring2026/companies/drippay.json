@@ -33,25 +33,35 @@
     "naval-ravikant": {
       "score": 35,
       "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 37,
     "EG": 42,
     "NR": 35,
-    "PG": null,
-    "PT": null,
+    "PG": 40,
+    "PT": 28,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 38,
-  "consolidatedRank": 158,
+  "consolidatedAvg": 36.4,
+  "consolidatedRank": 179,
   "paths": {
     "memo": "spring2026/memos/drippay.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/drippay.md",
       "elad-gil": "spring2026/evals/elad-gil/drippay.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/drippay.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/drippay.md",
+      "paul-graham": "spring2026/evals/paul-graham/drippay.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/drippay.md"
     }
   }
 }

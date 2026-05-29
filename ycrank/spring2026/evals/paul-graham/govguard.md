@@ -1,0 +1,30 @@
+﻿# GovGuard -- Paul Graham Evaluation
+
+GovGuard is a schlep-rich problem found by outsiders who haven't lived the pain -- the highest-scoring axis is that municipal FOIA processing genuinely sits in the zone other YC P26 applicants are routing around (state-by-state exemption codes, Laserfiche integrations, city procurement), and the lowest is that neither Aditya Sabharwal nor Gleb Hulting has any traceable connection to a clerk's office, a public-records desk, or the grind they're proposing to automate. That pairing -- real schlep, absentee founders -- is the analytical signature, and it's the inverse of the Coinbase (2012) shape where Brian Armstrong was already living inside crypto compliance before he shipped the Android wallet that rescued his rejected application.
+
+Coinbase (2012) is the load-bearing analogy for GovGuard's strongest dimension, because Armstrong picked a regulatory grind every other batchmate was unconsciously avoiding -- bitcoin KYC, money-transmitter licensing -- and that grind became the moat. GovGuard's dossier names the equivalent schlep honestly: NextRequest, GovQA, JustFOIA are "basically Jira" because nobody wants to encode 50 states' exemption codes and integrate Laserfiche, and "Schlep Blindness" (January 2012) is the essay Alexandr Wang publicly cited as his trigger. Where GovGuard diverges from the Coinbase rung is the absence of any pre-funding artifact that proves the founders will personally eat the schlep -- Armstrong shipped a working wallet; GovGuard ships marketing copy ("20x faster FOIA response") on govguard.com with no city pilot named, no redaction-accuracy benchmark, no clerk testimonial.
+
+The MBA-deck pass example I keep on file -- glossy slides, $50B TAM, no founder who has personally suffered the problem -- is the failure pattern for GovGuard's weakest dimension. Drew Houston forgot his USB stick at MIT before Dropbox (2007); the Collisons had been hacking commerce flows since Auctomatic (2007) before Stripe (2010); both built tools for themselves. GovGuard's dossier explicitly states "No public evidence found that founders have prior government, legal, or FOIA-domain operating experience," and the prior co-founded company BoardWatch was a LinkedIn search-snippet aggregator, which is roughly the maximum biographical distance from a city clerk wielding a Sharpie. This is the "spotted a market opportunity" origin story, not the organic one.
+
+Animal resourcefulness compounds or fails over the next eighteen months in exactly one place for GovGuard: city-by-city procurement. The dossier reports Team Size: 0 on the YC page, no customer logos on govguard.com, and pricing gated behind "Contact Sales." Eighteen months from a P26 start, GovGuard either has Sabharwal personally sitting in clerk offices in five named municipalities running unscalable pilots -- the Chesky-photographing-Airbnb-listings move from "Do Things that Don't Scale" (July 2013) -- or it has a polished demo and no signed contracts. Nothing in the dossier yet tells me which.
+
+Hacker genealogy: GovGuard fails the GitHub-trail test I lean on. Neither Sabharwal (UIUC BioE/CS, Centene) nor Hulting (BoardWatch, EGO Logistics) has any public repos, any open-source artifact, any competitive-programming result, any Hacker News footprint. Patrick Collison won the Young Scientist prize in 2005 with Lisp work; Aaron Swartz co-wrote the RSS spec before Reddit (2005). GovGuard's counterfactual: if one of these founders had shipped a working FOIA-redaction CLI as an open-source side project last year and it had 200 stars, the score on this dimension flips a tier. They didn't.
+
+The cofounder configuration is the one place GovGuard cleanly beats my pass example. Sabharwal and Hulting previously co-founded BoardWatch together -- a prior working relationship, not a hackathon-weekend pairing -- which puts GovGuard adjacent to the Collison-brothers pattern at Stripe (2010) on this axis alone. A pair with prior shipping history is the configuration I want; the question this dimension cannot answer is whether they're the right pair for *this* problem.
+
+GovGuard's 36-month forecast: bolted onto GovWell or Granicus for under $15M as the FOIA wedge inside a broader GovOS rollup, with ARR under $1M at the time of sale; not dead, not independent, not Stripe. The mechanism is straightforward -- GovWell's $25M Insight Partners Series A funds the salesforce that closes municipalities while GovGuard's two-person team is still hand-coding state exemption tables, and the acquihire-coded outcome is what "frighteningly ambitious" (March 2012) and "Founder Mode" (September 2024) both warn against. This is the Kiko (2005)-to-eBay shape, not the Twitch (2007)-from-Kiko reincarnation shape.
+
+The bull case that should sting: "Schlep Blindness" (January 2012) describes GovGuard almost literally -- a regulatory grind every batchmate is unconsciously avoiding, a pair of cofounders with prior shipping history together, a YC partner (Tom Blomfield) signing off, and a "why now" tied to LLM-generated FOIA requests doubling clerk workloads. Known Exception territory? I check Airbnb (2009): the override there was the cereal-box stunt -- $40,000 in revenue from a stunt I would not have thought of -- which overrode my idea-level skepticism. GovGuard's dossier contains no equivalent stunt; "20x faster" is a marketing claim, not Obama O's. The bull case loses on the artifact test. The single verifiable condition that flips my verdict inside 90 days: GovGuard publishes five named city pilots with usage data and a redaction-accuracy benchmark beating NextRequest's AI-powered redaction. Until then, pass.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Demonstrates Animal Resourcefulness Pre-Funding | 11/35 |
+| Idea Is Organic to Founders' Own Pain | 6/25 |
+| Problem Sits in a Schlep Zone Mainstream Founders Avoid | 11/15 |
+| Hacker Genealogy in the Founder Team | 5/15 |
+| Co-founder Configuration Is a Strong Pair or Trio, Not Solo | 7/10 |
+| **Total** | **40/100** |
+
+**Total Score: 40/100** (Pass)

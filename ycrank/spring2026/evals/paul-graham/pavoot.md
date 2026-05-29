@@ -1,0 +1,30 @@
+﻿# Pavoot -- Paul Graham Evaluation
+
+Pavoot is a credentialed-hacker pair attacking a B2B revenue-ops problem neither of them has lived inside, with the highest signal sitting in olympiad pedigree and the weakest sitting in any pre-funding artifact a stranger would remember. Gohar Tamrazyan is a 6-time Swiss Chess Champion out of ETH; Ana Yoon Faria de Lima carries 20+ Olympiad medals and built AI systems at BTG Pactual. Then I read what Pavoot does -- "AI that turns events into pipeline" -- and the distance between who they are and what they're selling is the whole evaluation.
+
+On hacker genealogy, the load-bearing analogy is **Stripe** (2010): Patrick Collison's Ireland Young Scientist prize at 16 was the tell that the Collisons could build commerce primitives nobody else could, before any business model existed. Pavoot's founders pattern-match: ETH CS, IME-USP CS, an Olympiad medal cabinet, the chess title that takes the same neurology as competitive programming. Where Pavoot diverges from the Stripe rung is the absence of a public hacker trail -- no GitHub repos surfaced for either founder, no open-source artifact, no shipped non-trivial technical object I can read before the YC interview. The Collisons had **Auctomatic** (2007) and a $5M exit at 19/17 by the time I wrote the **Stripe** (2010) check. Pavoot has medals.
+
+Pavoot's weakest dimension is animal resourcefulness pre-funding, and the failure mechanism I keep losing money on is "polished founders, no stunt." The pass example I wrote into the persona was the two-MBA AI-wrapper team with the glossy deck and no shipped artifact; Pavoot is not that team -- they're technical -- but the dossier shape rhymes. The homepage cites 47 attendees, 24 meetings, $48K pipeline, and the dossier flags it as "source unspecified as customer vs. internal." That's the opposite of the **Airbnb** (2009) cereal boxes, where the number ($40 × 1,000 boxes) was specific, attributable, and weird enough that I remembered it sixteen years later. Pavoot has LinkedIn posts. I have not seen the cereal box.
+
+On organic-idea fit, the mechanism that compounds over 18 months is whether the founder keeps discovering true edges of the problem because they're already inside it -- Drew Houston losing his USB stick at MIT for the fifth time at **Dropbox** (2007). Pavoot's founders met in a 3-day Technology and Entrepreneurship course at the ETH AI Center where they had to pitch on day 4. Nothing in the dossier suggests either founder ran B2B events, sat in RevOps, or got burned by a Salesforce sync. That means every product decision over the next 18 months has to come from design-partner interviews rather than founder intuition, which is slower and tends to converge on the same feature set the incumbents are already building.
+
+For Pavoot to flip a tier on the schlep dimension, the dossier would have to name a specific schlep the founders are personally running -- standing in a conference booth in Vegas at 11pm reconciling badge scans with HubSpot, or hand-writing the CRM ontology for one design partner's eight pipeline stages. The pitch is "AI agent across the full event lifecycle," which is the pure-software framing that **Coinbase** (2012) Armstrong did *not* use -- he led with the compliance grind. Pavoot's category has real schlep buried in it (on-site capture, CRM mapping, security review for recording attendee conversations under GDPR), but the founders haven't volunteered that they want to do it. Cvent paid roughly $300M for Goldcast in December 2025 specifically because they've decided to do this schlep themselves, in-suite, with an installed sales force.
+
+The co-founder configuration is the **Reddit** (2005) anti-pattern: Huffman and Ohanian were dorm roommates at UVA for years before the first batch; Pavoot's pair met in a course where the explicit assignment was "produce a startup in 72 hours." That is the closest thing in the founders' dossier to the red flag I wrote about pairs meeting for the purpose of the startup. The mitigation is that they've now been working together through the ETH program through 2026 and into YC, so it's no longer 3 days -- but the relationship was forged inside the startup, not before it, which is the inverse of every top-decile outcome in the YC portfolio.
+
+36-month forecast: Pavoot gets acquired by Cvent, HubSpot, or 6sense for $15-40M as an AI-feature tuck-in by mid-2028, or it pivots away from events into generic AI SDR / RevOps copilot territory after design-partner conversion stalls below $300K ARR. The mechanism is the dimensional signature: a technically capable pair without organic founder-market fit, in a category where the incumbent just paid $300M for the adjacent wedge, defaults to feature acquisition long before it reaches "next Google" scale.
+
+The bull case that should sting: the ETH AI Center + Olympiad + Chess Champion pairing is exactly the kind of high-g-load technical pedigree I've historically over-indexed on, and Spring 2026 may be the moment where event-attendee-graph + ASR + LLM follow-up actually becomes a new category rather than a Cvent feature. The Collisons also "met" their commerce problem academically before living inside it. The reason this objection does not flip the verdict is that **Auctomatic** (2007) was shipped code with $5M attached before I met them, and Pavoot's equivalent artifact is a homepage case study with no named customer -- the demo-first filter that flipped **Dropbox** (2007) is doing no work here. The single condition that would flip me to Invest: Pavoot names two paying B2B customers with seat counts and a founder-run on-site deployment story by their next update.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Demonstrates Animal Resourcefulness Pre-Funding | 10/35 |
+| Idea Is Organic to Founders' Own Pain | 6/25 |
+| Problem Sits in a Schlep Zone Mainstream Founders Avoid | 6/15 |
+| Hacker Genealogy in the Founder Team | 10/15 |
+| Co-founder Configuration Is a Strong Pair or Trio, Not Solo | 4/10 |
+| **Total** | **36/100** |
+
+**Total Score: 36/100** (Pass)

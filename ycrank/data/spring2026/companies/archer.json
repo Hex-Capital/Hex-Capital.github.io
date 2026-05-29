@@ -32,25 +32,35 @@
     "naval-ravikant": {
       "score": 42,
       "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 42,
     "EG": 38,
     "NR": 42,
-    "PG": null,
-    "PT": null,
+    "PG": 48,
+    "PT": 30,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 40.67,
-  "consolidatedRank": 130,
+  "consolidatedAvg": 40,
+  "consolidatedRank": 147,
   "paths": {
     "memo": "spring2026/memos/archer.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/archer.md",
       "elad-gil": "spring2026/evals/elad-gil/archer.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/archer.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/archer.md",
+      "paul-graham": "spring2026/evals/paul-graham/archer.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/archer.md"
     }
   }
 }

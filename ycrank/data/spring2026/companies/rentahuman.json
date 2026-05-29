@@ -31,25 +31,30 @@
     "naval-ravikant": {
       "score": 71,
       "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 65,
+      "tier": "Invest"
     }
   },
   "consolidatedScores": {
     "CB": 43,
     "EG": 53,
     "NR": 71,
-    "PG": null,
+    "PG": 65,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 55.67,
-  "consolidatedRank": 13,
+  "consolidatedAvg": 58,
+  "consolidatedRank": 8,
   "paths": {
     "memo": "spring2026/memos/rentahuman.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/rentahuman.md",
       "elad-gil": "spring2026/evals/elad-gil/rentahuman.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/rentahuman.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/rentahuman.md",
+      "paul-graham": "spring2026/evals/paul-graham/rentahuman.md"
     }
   }
 }

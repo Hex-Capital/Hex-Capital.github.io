@@ -34,25 +34,35 @@
     "naval-ravikant": {
       "score": 32,
       "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 61,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 52,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
     "CB": 55,
     "EG": 51,
     "NR": 32,
-    "PG": null,
-    "PT": null,
+    "PG": 61,
+    "PT": 52,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 46,
-  "consolidatedRank": 67,
+  "consolidatedAvg": 50.2,
+  "consolidatedRank": 52,
   "paths": {
     "memo": "spring2026/memos/9-mothers-corporation.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/9-mothers-corporation.md",
       "elad-gil": "spring2026/evals/elad-gil/9-mothers-corporation.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/9-mothers-corporation.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/9-mothers-corporation.md",
+      "paul-graham": "spring2026/evals/paul-graham/9-mothers-corporation.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/9-mothers-corporation.md"
     }
   }
 }

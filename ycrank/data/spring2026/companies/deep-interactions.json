@@ -34,25 +34,35 @@
     "naval-ravikant": {
       "score": 47,
       "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 32,
     "EG": 32,
     "NR": 47,
-    "PG": null,
-    "PT": null,
+    "PG": 49,
+    "PT": 30,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 37,
-  "consolidatedRank": 169,
+  "consolidatedAvg": 38,
+  "consolidatedRank": 164,
   "paths": {
     "memo": "spring2026/memos/deep-interactions.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/deep-interactions.md",
       "elad-gil": "spring2026/evals/elad-gil/deep-interactions.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/deep-interactions.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/deep-interactions.md",
+      "paul-graham": "spring2026/evals/paul-graham/deep-interactions.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/deep-interactions.md"
     }
   }
 }

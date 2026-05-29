@@ -33,25 +33,30 @@
     "naval-ravikant": {
       "score": 49,
       "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 70,
+      "tier": "Invest"
     }
   },
   "consolidatedScores": {
     "CB": 57,
     "EG": 42,
     "NR": 49,
-    "PG": null,
+    "PG": 70,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 49.33,
-  "consolidatedRank": 47,
+  "consolidatedAvg": 54.5,
+  "consolidatedRank": 18,
   "paths": {
     "memo": "spring2026/memos/matforge.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/matforge.md",
       "elad-gil": "spring2026/evals/elad-gil/matforge.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/matforge.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/matforge.md",
+      "paul-graham": "spring2026/evals/paul-graham/matforge.md"
     }
   }
 }

@@ -1,0 +1,30 @@
+﻿# ReasonBlocks -- Paul Graham Evaluation
+
+Sajeev Magesh and Rohan Vij have been collaborating since the 2nd grade -- that is the single most interesting line in the **ReasonBlocks** dossier, and it is doing almost all of the work holding my attention. The shape of **ReasonBlocks** is an 11-year co-founder pair with a credible middleware pitch and a self-reported SWE-Bench Pro number, but no cereal boxes, no Hacker News demo video, no Brian Armstrong-style post-rejection prototype. It is a Reddit-grade friendship welded to a Dropbox-grade absent artifact, and the asymmetry is the whole story.
+
+On the animal-resourcefulness axis, the rung I keep looking at is **Dropbox** (2007) -- Drew Houston shipped a demo video to Hacker News before the seed check, and the video itself was the resourcefulness. **ReasonBlocks** has nothing in that slot. The dossier offers a SWE-Bench Pro benchmark -- 42% accuracy lift, 52% token reduction, 70% fewer budget cap-hits -- all internally generated, none third-party reproduced, no paying customer named, no GitHub repo for the runtime itself, no Product Hunt launch, no Discord. The website returned only a page title to WebFetch on 2026-05-27. A benchmark on a coding eval is not a cereal box; it is a slide. Animals leave tracks, and **ReasonBlocks** has left a LinkedIn company page.
+
+The clever-idea-soft-founders pattern from my Pass Example is what sits at the LOW rung of the organic-pain ladder -- two-MBA AI-wrapper teams whose product is at a great distance from their own biographies. **ReasonBlocks** is not that team, but the dossier does not put it adjacent to **Dropbox**'s USB-stick origin either. Magesh published ML work for Nature Sustainable Agriculture; Vij did molecular dynamics and ENGIE energy AI. Neither founder, anywhere in the dossier, is described as having operated a production agent that burned tokens on the same loop and forced them to build **ReasonBlocks** for themselves. The pitch reads as "we noticed agents are inefficient" rather than "we kept hitting this wall ourselves." That is the inversion of the **Stripe** (2010) Collisons-hacking-commerce-since-Auctomatic pattern.
+
+**Coinbase** (2012)'s moat compounded because Brian Armstrong was willing to do the bitcoin compliance grind that every other YC applicant in the batch routed around. Eighteen months out, schlep moats compound because incumbents *still* won't touch the unpleasant work. **ReasonBlocks** sits in pure software middleware between an agent and a model API -- no regulator to call, no operations to staff, no manual integration the founders must personally do at a customer site. That is exactly the surface area OpenAI and Anthropic absorb natively when they ship the next caching or reasoning feature, and Mem0 already claims 72% token reduction from its memory SDK (mem0.ai). The schlep is not named because the schlep is not there.
+
+For the hacker-genealogy dimension to flip **ReasonBlocks** a tier, I would need Vij's @Rohan-Vij GitHub (20 followers, 46 repos, 41 stars total, top pinned repos including a Discord meme bot and a remote_keylogger) to instead show a non-trivial open-source runtime, an agent framework with traction, or a Lisp/competitive-systems artifact in Patrick Collison's Young Scientist register. Magesh's USAMO qualifier is real and counts -- it is the kind of marker I over-index on. But the technical lineage of **ReasonBlocks** as a pair is thinner than the dossier framing suggests; CMU Information Systems plus a meme repo is not the Aaron Swartz-co-authored-RSS-before-**Reddit** profile.
+
+The 11-year collaboration is where **ReasonBlocks** earns its highest mark, and it earns it cleanly. Steve Huffman and Alexis Ohanian were dorm roommates before **Reddit** (2005); the Collisons are brothers. Since-2nd-grade beats both on raw duration. Two founders, complementary CEO/CTO split, no third-cofounder-met-at-a-hackathon red flag, no solo-founder red flag. This is the one dimension where **ReasonBlocks** would survive a YC interview without follow-up questions.
+
+My 36-month forecast for **ReasonBlocks**: acquihired by LangChain, Anthropic, or a mid-tier orchestration vendor at sub-$25M by spring 2029, with the runtime folded into an existing observability or caching SKU. The mechanism is the signature -- a strong pair with weak pre-funding tracks tends to ship a competent product that gets out-distributed by the $125M-Series-B **LangChain** and the $24M-Series-A Mem0, both of whom occupy adjacent territory and have already shipped token-reduction claims of their own. The friendship survives; the runtime gets absorbed.
+
+The bull case stings on one specific point: an 11-year hacker friendship with a USAMO qualifier shipping a runtime that compounds a "private reasoning library" across runs is structurally how the **Stripe** (2010) Collisons looked at the **Auctomatic** (2007) stage -- young, technical, paired, with an idea that looked like middleware until it became infrastructure. If **ReasonBlocks**'s reasoning library actually transfers across customer agent runs, the per-customer data accumulation could be the moat the dossier only gestures at. The dismantling evidence is that Mem0 has 41K GitHub stars and 14M downloads and the same compounding pitch, and **ReasonBlocks** has none of that distribution -- which is exactly the asymmetry that gets a runtime absorbed, not the asymmetry that builds Stripe. The verdict flips if Magesh and Vij ship a public open-source runtime with non-trivial GitHub traction (say 1K+ stars from real users, not benchmarks) within six months -- that would be the demo-video moment **ReasonBlocks** is missing today.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Demonstrates Animal Resourcefulness Pre-Funding | 10/35 |
+| Idea Is Organic to Founders' Own Pain | 8/25 |
+| Problem Sits in a Schlep Zone Mainstream Founders Avoid | 5/15 |
+| Hacker Genealogy in the Founder Team | 7/15 |
+| Co-founder Configuration Is a Strong Pair or Trio, Not Solo | 9/10 |
+| **Total** | **39/100** |
+
+**Total Score: 39/100** (Pass)

@@ -32,25 +32,35 @@
     "naval-ravikant": {
       "score": 32,
       "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 35,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 40,
     "EG": 50,
     "NR": 32,
-    "PG": null,
-    "PT": null,
+    "PG": 43,
+    "PT": 35,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 40.67,
-  "consolidatedRank": 131,
+  "consolidatedAvg": 40,
+  "consolidatedRank": 148,
   "paths": {
     "memo": "spring2026/memos/arctic-health.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/arctic-health.md",
       "elad-gil": "spring2026/evals/elad-gil/arctic-health.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/arctic-health.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/arctic-health.md",
+      "paul-graham": "spring2026/evals/paul-graham/arctic-health.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/arctic-health.md"
     }
   }
 }

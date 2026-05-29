@@ -27,25 +27,35 @@
     "naval-ravikant": {
       "score": 42,
       "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 39,
     "EG": 62,
     "NR": 42,
-    "PG": null,
-    "PT": null,
+    "PG": 54,
+    "PT": 30,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 47.67,
-  "consolidatedRank": 58,
+  "consolidatedAvg": 45.4,
+  "consolidatedRank": 90,
   "paths": {
     "memo": "spring2026/memos/gojiberry-ai.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/gojiberry-ai.md",
       "elad-gil": "spring2026/evals/elad-gil/gojiberry-ai.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/gojiberry-ai.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/gojiberry-ai.md",
+      "paul-graham": "spring2026/evals/paul-graham/gojiberry-ai.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/gojiberry-ai.md"
     }
   }
 }

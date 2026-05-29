@@ -32,25 +32,35 @@
     "naval-ravikant": {
       "score": 38,
       "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 35,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 43,
     "EG": 39,
     "NR": 38,
-    "PG": null,
-    "PT": null,
+    "PG": 42,
+    "PT": 35,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 40,
-  "consolidatedRank": 137,
+  "consolidatedAvg": 39.4,
+  "consolidatedRank": 153,
   "paths": {
     "memo": "spring2026/memos/astraea.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/astraea.md",
       "elad-gil": "spring2026/evals/elad-gil/astraea.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/astraea.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/astraea.md",
+      "paul-graham": "spring2026/evals/paul-graham/astraea.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/astraea.md"
     }
   }
 }

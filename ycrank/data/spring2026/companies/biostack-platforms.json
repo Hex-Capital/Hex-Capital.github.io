@@ -27,25 +27,35 @@
     "naval-ravikant": {
       "score": 44,
       "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 36,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 54,
     "EG": 46,
     "NR": 44,
-    "PG": null,
-    "PT": null,
+    "PG": 53,
+    "PT": 36,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 48,
-  "consolidatedRank": 56,
+  "consolidatedAvg": 46.6,
+  "consolidatedRank": 82,
   "paths": {
     "memo": "spring2026/memos/biostack-platforms.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/biostack-platforms.md",
       "elad-gil": "spring2026/evals/elad-gil/biostack-platforms.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/biostack-platforms.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/biostack-platforms.md",
+      "paul-graham": "spring2026/evals/paul-graham/biostack-platforms.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/biostack-platforms.md"
     }
   }
 }

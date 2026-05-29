@@ -1,0 +1,63 @@
+{
+  "slug": "raspire",
+  "name": "RASPIRE",
+  "oneLiner": "No-code runtime app security with AI",
+  "metadata": {
+    "website": "https://raspire.com/",
+    "yc_page": "https://www.ycombinator.com/companies/raspire",
+    "batch": "Spring 2026 (YC P26)",
+    "industry": "B2B / B2B -> Security",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA (founded in Cairo, Egypt)",
+    "tags": "SaaS, B2B, Cybersecurity, No-code, AI",
+    "yc_partner": "Andrew Miklas",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "SaaS",
+    "B2B",
+    "Cybersecurity",
+    "No-code",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-29T04:15:18.406Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 68,
+      "tier": "Invest"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 54,
+    "EG": 41,
+    "NR": 38,
+    "PG": 68,
+    "PT": null,
+    "SL": null,
+    "VK": null
+  },
+  "consolidatedAvg": 50.25,
+  "consolidatedRank": 51,
+  "paths": {
+    "memo": "spring2026/memos/raspire.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/raspire.md",
+      "elad-gil": "spring2026/evals/elad-gil/raspire.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/raspire.md",
+      "paul-graham": "spring2026/evals/paul-graham/raspire.md"
+    }
+  }
+}

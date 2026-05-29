@@ -27,25 +27,30 @@
     "naval-ravikant": {
       "score": 42,
       "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 62,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
     "CB": 48,
     "EG": 56,
     "NR": 42,
-    "PG": null,
+    "PG": 62,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 48.67,
-  "consolidatedRank": 52,
+  "consolidatedAvg": 52,
+  "consolidatedRank": 37,
   "paths": {
     "memo": "spring2026/memos/minicor.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/minicor.md",
       "elad-gil": "spring2026/evals/elad-gil/minicor.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/minicor.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/minicor.md",
+      "paul-graham": "spring2026/evals/paul-graham/minicor.md"
     }
   }
 }

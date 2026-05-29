@@ -32,25 +32,35 @@
     "naval-ravikant": {
       "score": 43,
       "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 27,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 35,
     "EG": 41,
     "NR": 43,
-    "PG": null,
-    "PT": null,
+    "PG": 38,
+    "PT": 27,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 39.67,
-  "consolidatedRank": 144,
+  "consolidatedAvg": 36.8,
+  "consolidatedRank": 174,
   "paths": {
     "memo": "spring2026/memos/lamina-labs.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/lamina-labs.md",
       "elad-gil": "spring2026/evals/elad-gil/lamina-labs.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/lamina-labs.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/lamina-labs.md",
+      "paul-graham": "spring2026/evals/paul-graham/lamina-labs.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/lamina-labs.md"
     }
   }
 }

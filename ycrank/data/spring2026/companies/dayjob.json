@@ -27,25 +27,35 @@
     "naval-ravikant": {
       "score": 42,
       "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 71,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 33,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 59,
     "EG": 58,
     "NR": 42,
-    "PG": null,
-    "PT": null,
+    "PG": 71,
+    "PT": 33,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 53,
-  "consolidatedRank": 24,
+  "consolidatedAvg": 52.6,
+  "consolidatedRank": 32,
   "paths": {
     "memo": "spring2026/memos/dayjob.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/dayjob.md",
       "elad-gil": "spring2026/evals/elad-gil/dayjob.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/dayjob.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/dayjob.md",
+      "paul-graham": "spring2026/evals/paul-graham/dayjob.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/dayjob.md"
     }
   }
 }

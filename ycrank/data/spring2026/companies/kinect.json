@@ -32,25 +32,35 @@
     "naval-ravikant": {
       "score": 44,
       "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 25,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 39,
     "EG": 44,
     "NR": 44,
-    "PG": null,
-    "PT": null,
+    "PG": 50,
+    "PT": 25,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 42.33,
-  "consolidatedRank": 110,
+  "consolidatedAvg": 40.4,
+  "consolidatedRank": 144,
   "paths": {
     "memo": "spring2026/memos/kinect.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/kinect.md",
       "elad-gil": "spring2026/evals/elad-gil/kinect.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/kinect.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/kinect.md",
+      "paul-graham": "spring2026/evals/paul-graham/kinect.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/kinect.md"
     }
   }
 }

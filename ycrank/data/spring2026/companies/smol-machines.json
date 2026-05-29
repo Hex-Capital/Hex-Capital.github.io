@@ -31,25 +31,30 @@
     "naval-ravikant": {
       "score": 65,
       "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 55,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
     "CB": 48,
     "EG": 50,
     "NR": 65,
-    "PG": null,
+    "PG": 55,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 54.33,
-  "consolidatedRank": 18,
+  "consolidatedAvg": 54.5,
+  "consolidatedRank": 19,
   "paths": {
     "memo": "spring2026/memos/smol-machines.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/smol-machines.md",
       "elad-gil": "spring2026/evals/elad-gil/smol-machines.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/smol-machines.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/smol-machines.md",
+      "paul-graham": "spring2026/evals/paul-graham/smol-machines.md"
     }
   }
 }

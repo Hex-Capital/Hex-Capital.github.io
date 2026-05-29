@@ -34,25 +34,35 @@
     "naval-ravikant": {
       "score": 45,
       "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 46,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
     "CB": 64,
     "EG": 50,
     "NR": 45,
-    "PG": null,
-    "PT": null,
+    "PG": 58,
+    "PT": 46,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 53,
-  "consolidatedRank": 23,
+  "consolidatedAvg": 52.6,
+  "consolidatedRank": 31,
   "paths": {
     "memo": "spring2026/memos/aseon-labs.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/aseon-labs.md",
       "elad-gil": "spring2026/evals/elad-gil/aseon-labs.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/aseon-labs.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/aseon-labs.md",
+      "paul-graham": "spring2026/evals/paul-graham/aseon-labs.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/aseon-labs.md"
     }
   }
 }

@@ -27,25 +27,30 @@
     "naval-ravikant": {
       "score": 33,
       "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 55,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
     "CB": 36,
     "EG": 54,
     "NR": 33,
-    "PG": null,
+    "PG": 55,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 41,
-  "consolidatedRank": 128,
+  "consolidatedAvg": 44.5,
+  "consolidatedRank": 94,
   "paths": {
     "memo": "spring2026/memos/mount.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/mount.md",
       "elad-gil": "spring2026/evals/elad-gil/mount.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/mount.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/mount.md",
+      "paul-graham": "spring2026/evals/paul-graham/mount.md"
     }
   }
 }

@@ -34,25 +34,35 @@
     "naval-ravikant": {
       "score": 55,
       "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 70,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 49,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
     "CB": 47,
     "EG": 51,
     "NR": 55,
-    "PG": null,
-    "PT": null,
+    "PG": 70,
+    "PT": 49,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 51,
-  "consolidatedRank": 34,
+  "consolidatedAvg": 54.4,
+  "consolidatedRank": 20,
   "paths": {
     "memo": "spring2026/memos/hevn-inc.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/hevn-inc.md",
       "elad-gil": "spring2026/evals/elad-gil/hevn-inc.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/hevn-inc.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/hevn-inc.md",
+      "paul-graham": "spring2026/evals/paul-graham/hevn-inc.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/hevn-inc.md"
     }
   }
 }

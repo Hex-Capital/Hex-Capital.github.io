@@ -32,25 +32,35 @@
     "naval-ravikant": {
       "score": 45,
       "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 60,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 41,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 52,
     "EG": 54,
     "NR": 45,
-    "PG": null,
-    "PT": null,
+    "PG": 60,
+    "PT": 41,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 50.33,
-  "consolidatedRank": 38,
+  "consolidatedAvg": 50.4,
+  "consolidatedRank": 50,
   "paths": {
     "memo": "spring2026/memos/kugelaudio.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/kugelaudio.md",
       "elad-gil": "spring2026/evals/elad-gil/kugelaudio.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/kugelaudio.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/kugelaudio.md",
+      "paul-graham": "spring2026/evals/paul-graham/kugelaudio.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/kugelaudio.md"
     }
   }
 }

@@ -34,25 +34,30 @@
     "naval-ravikant": {
       "score": 37,
       "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 46,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
     "CB": 58,
     "EG": 36,
     "NR": 37,
-    "PG": null,
+    "PG": 46,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 43.67,
-  "consolidatedRank": 96,
+  "consolidatedAvg": 44.25,
+  "consolidatedRank": 98,
   "paths": {
     "memo": "spring2026/memos/madrone.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/madrone.md",
       "elad-gil": "spring2026/evals/elad-gil/madrone.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/madrone.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/madrone.md",
+      "paul-graham": "spring2026/evals/paul-graham/madrone.md"
     }
   }
 }

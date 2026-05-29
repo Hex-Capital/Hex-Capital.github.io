@@ -33,25 +33,30 @@
     "naval-ravikant": {
       "score": 41,
       "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 66,
+      "tier": "Invest"
     }
   },
   "consolidatedScores": {
     "CB": 74,
     "EG": 44,
     "NR": 41,
-    "PG": null,
+    "PG": 66,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 53,
-  "consolidatedRank": 28,
+  "consolidatedAvg": 56.25,
+  "consolidatedRank": 13,
   "paths": {
     "memo": "spring2026/memos/ornadyne.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/ornadyne.md",
       "elad-gil": "spring2026/evals/elad-gil/ornadyne.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/ornadyne.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/ornadyne.md",
+      "paul-graham": "spring2026/evals/paul-graham/ornadyne.md"
     }
   }
 }

@@ -32,25 +32,30 @@
     "naval-ravikant": {
       "score": 43,
       "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 66,
+      "tier": "Invest"
     }
   },
   "consolidatedScores": {
     "CB": 55,
     "EG": 52,
     "NR": 43,
-    "PG": null,
+    "PG": 66,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 50,
-  "consolidatedRank": 42,
+  "consolidatedAvg": 54,
+  "consolidatedRank": 24,
   "paths": {
     "memo": "spring2026/memos/voquill.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/voquill.md",
       "elad-gil": "spring2026/evals/elad-gil/voquill.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/voquill.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/voquill.md",
+      "paul-graham": "spring2026/evals/paul-graham/voquill.md"
     }
   }
 }

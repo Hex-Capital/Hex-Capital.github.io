@@ -1,0 +1,30 @@
+﻿# Sidekick -- Paul Graham Evaluation
+
+Sidekick is a solo schlepper: Justin So is one person selling SMS-based SOP retrieval to SMB manufacturers like Halverson Mfg and Ironwood Steel out of his father's facility, which means the highest dimension here is the schlep zone and the lowest is the cofounder slot left empty. That pairing -- real unpleasant work, no second animal in the room -- is the analytical signature, and it is not a profile I have historically funded except as a known exception.
+
+**Coinbase** (2012) is the ladder rung Sidekick is reaching for on the schlep dimension. Armstrong picked bitcoin compliance because nobody else in his batch wanted to do KYC paperwork; Sidekick's analog is the A2P 10DLC registration, TCPA consent capture for workers who never opted in directly, plus ingesting messy SOP binders from SMB manufacturers whose IT stack is a shared desktop. The mechanism is the same -- unpleasant offline integration that incumbents like Beekeeper (acquired by LumApps for ~$1B in July 2025) cannot economically chase because their per-seat app sales motion does not pencil for a 40-person pallet shop. Where Sidekick diverges from the Coinbase rung is that Armstrong personally ground through the compliance work and documented it; Justin So has six logos on a homepage and no public narrative of what specifically he ate to land Cascade Plastics or Monarch Pallet. The schlep is real; the schlep story is missing.
+
+A solo founder pitching a multi-vertical GTM is the failure mechanism I associate with the pass profile from my own writing -- the team that tells me they'll cover manufacturing, auto dealerships, and retail while team size on the YC page reads "1." Sidekick fits that pattern almost exactly: Justin So is listed alone, the YC partner is Aaron Epstein, and the homepage already implies three industry verticals. "What We Look for in Founders" (October 2010) was explicit that the empirical record favors pairs and trios, and the closest exception I have -- **Loopt** (2005), Altman essentially carrying the weight -- required a force-of-personality signal I do not see in Sidekick's dossier: no Twitter account, no GitHub, no HN presence, no public writing, just a UPenn MS and a stint at Arm.
+
+Justin So's family origin -- father owns the manufacturing facility that became the first customer -- is the organic-idea seed, and it compounds differently than Drew Houston forgetting his USB stick. The mechanism over the next 18 months: family proximity gives Sidekick one zero-CAC reference customer and a credible introduction into the regional SMB manufacturing network, but Justin himself has never punched in on a frontline shift, so the product roadmap will be filtered through father-as-proxy rather than personal pain. That degrades over time as Sidekick tries to extend into auto dealerships and retail, where there is no analogous family channel. Organic-ish, not organic.
+
+For the score to flip a tier on animal resourcefulness, Sidekick would need to name the specific unscalable thing Justin did to land Westfield Foods or Riverton Tool -- the SMB manufacturing equivalent of the Obama O's cereal boxes. The dossier offers six logos and no stunt. Counterfactually, if the YC page noted that Justin had driven to each plant, sat in the break room photographing binders, and hand-loaded the corpus before the first invoice, I would move him from default-territory toward the Coinbase rung. Absent that, shipping a working product with six SMB customers is above the AI-wrapper-MBA floor but below the Houston demo-on-Hacker-News bar.
+
+**Stripe** (2010) is the single anchor for hacker genealogy, and Sidekick does not rhyme with it. Patrick Collison won the Young Scientist for Lisp work at 16; Aaron Swartz co-authored the RSS spec before Reddit; Justin So has a UPenn MS in CS and prior Arm employment, both credentialed signals rather than hacker tracks. The dossier explicitly notes no public GitHub and no Twitter for Sidekick's founder. Credentials are hireable; the hacker trail is the thing I over-index on, and Sidekick's is absent.
+
+My 36-month forecast for Sidekick: $300K-$900K ARR across roughly 25-50 SMB manufacturing accounts, no Series A, and either an acqui-hire by Yourco or LumApps/Beekeeper for low single-digit millions, or Justin shuts it down and joins a larger AI company. The mechanism is the solo bottleneck colliding with multi-vertical GTM -- Sidekick's per-customer ACV in pallet-shop manufacturing cannot fund the sales muscle to also penetrate auto dealerships, and a Twilio-plus-LLM-plus-RAG stack is reproducible by Yourco in a quarter once they see Sidekick's wedge working.
+
+The bull case stings here, and it is essentially the **Coinbase** (2012) template: Armstrong was effectively a solo operator in a regulatory-grey schlep zone, and I funded him anyway because the schlep itself was the moat. If Sidekick's escalation-learning loop genuinely compounds -- each manager answer training the per-customer knowledge base -- then switching costs rise faster than commoditization, and the solo-founder concern matters less because the moat is in the data, not the headcount. The dossier evidence that defeats this case is the silence on Justin's animal moment combined with the documented absence of a cofounder pipeline: Armstrong had Fred Ehrsam join Coinbase early; Sidekick's dossier names zero advisors, zero board members, zero co-founder candidates. The verifiable condition that flips my verdict: Justin recruits a technical cofounder during the W26 batch and exits demo day at $15K+ MRR with named retention data on the original father-facility cohort. Until then, pass.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Demonstrates Animal Resourcefulness Pre-Funding | 13/35 |
+| Idea Is Organic to Founders' Own Pain | 13/25 |
+| Problem Sits in a Schlep Zone Mainstream Founders Avoid | 10/15 |
+| Hacker Genealogy in the Founder Team | 6/15 |
+| Co-founder Configuration Is a Strong Pair or Trio, Not Solo | 2/10 |
+| **Total** | **44/100** |
+
+**Total Score: 44/100** (Pass)

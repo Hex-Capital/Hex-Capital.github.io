@@ -30,25 +30,30 @@
     "naval-ravikant": {
       "score": 50,
       "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 65,
+      "tier": "Invest"
     }
   },
   "consolidatedScores": {
     "CB": 52,
     "EG": 48,
     "NR": 50,
-    "PG": null,
+    "PG": 65,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 50,
-  "consolidatedRank": 41,
+  "consolidatedAvg": 53.75,
+  "consolidatedRank": 26,
   "paths": {
     "memo": "spring2026/memos/silmaril.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/silmaril.md",
       "elad-gil": "spring2026/evals/elad-gil/silmaril.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/silmaril.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/silmaril.md",
+      "paul-graham": "spring2026/evals/paul-graham/silmaril.md"
     }
   }
 }

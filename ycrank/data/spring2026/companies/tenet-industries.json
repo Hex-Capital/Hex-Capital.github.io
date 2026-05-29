@@ -31,25 +31,30 @@
     "naval-ravikant": {
       "score": 29,
       "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 52,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
     "CB": 53,
     "EG": 42,
     "NR": 29,
-    "PG": null,
+    "PG": 52,
     "PT": null,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 41.33,
-  "consolidatedRank": 125,
+  "consolidatedAvg": 44,
+  "consolidatedRank": 103,
   "paths": {
     "memo": "spring2026/memos/tenet-industries.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/tenet-industries.md",
       "elad-gil": "spring2026/evals/elad-gil/tenet-industries.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/tenet-industries.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/tenet-industries.md",
+      "paul-graham": "spring2026/evals/paul-graham/tenet-industries.md"
     }
   }
 }

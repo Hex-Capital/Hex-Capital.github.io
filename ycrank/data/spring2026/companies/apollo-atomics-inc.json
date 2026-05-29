@@ -31,25 +31,35 @@
     "naval-ravikant": {
       "score": 40,
       "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 62,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 57,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
     "CB": 61,
     "EG": 37,
     "NR": 40,
-    "PG": null,
-    "PT": null,
+    "PG": 62,
+    "PT": 57,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 46,
-  "consolidatedRank": 70,
+  "consolidatedAvg": 51.4,
+  "consolidatedRank": 40,
   "paths": {
     "memo": "spring2026/memos/apollo-atomics-inc.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/apollo-atomics-inc.md",
       "elad-gil": "spring2026/evals/elad-gil/apollo-atomics-inc.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/apollo-atomics-inc.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/apollo-atomics-inc.md",
+      "paul-graham": "spring2026/evals/paul-graham/apollo-atomics-inc.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/apollo-atomics-inc.md"
     }
   }
 }

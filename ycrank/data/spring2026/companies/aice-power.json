@@ -33,25 +33,35 @@
     "naval-ravikant": {
       "score": 29,
       "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 27,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 44,
     "EG": 43,
     "NR": 29,
-    "PG": null,
-    "PT": null,
+    "PG": 40,
+    "PT": 27,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 38.67,
-  "consolidatedRank": 153,
+  "consolidatedAvg": 36.6,
+  "consolidatedRank": 177,
   "paths": {
     "memo": "spring2026/memos/aice-power.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/aice-power.md",
       "elad-gil": "spring2026/evals/elad-gil/aice-power.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/aice-power.md"
+      "naval-ravikant": "spring2026/evals/naval-ravikant/aice-power.md",
+      "paul-graham": "spring2026/evals/paul-graham/aice-power.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/aice-power.md"
     }
   }
 }

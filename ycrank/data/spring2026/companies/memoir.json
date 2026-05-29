@@ -37,6 +37,14 @@
     "paul-graham": {
       "score": 29,
       "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 24,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 19,
+      "tier": "Strong Pass"
     }
   },
   "consolidatedScores": {
@@ -44,11 +52,11 @@
     "EG": 31,
     "NR": 30,
     "PG": 29,
-    "PT": null,
-    "SL": null,
+    "PT": 24,
+    "SL": 19,
     "VK": null
   },
-  "consolidatedAvg": 29.5,
+  "consolidatedAvg": 26.83,
   "consolidatedRank": 189,
   "paths": {
     "memo": "spring2026/memos/memoir.md",
@@ -56,7 +64,9 @@
       "cyan-banister": "spring2026/evals/cyan-banister/memoir.md",
       "elad-gil": "spring2026/evals/elad-gil/memoir.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/memoir.md",
-      "paul-graham": "spring2026/evals/paul-graham/memoir.md"
+      "paul-graham": "spring2026/evals/paul-graham/memoir.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/memoir.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/memoir.md"
     }
   }
 }

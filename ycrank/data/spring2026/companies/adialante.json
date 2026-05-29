@@ -40,6 +40,10 @@
     "peter-thiel": {
       "score": 53,
       "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 54,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
@@ -48,11 +52,11 @@
     "NR": 43,
     "PG": 58,
     "PT": 53,
-    "SL": null,
+    "SL": 54,
     "VK": null
   },
-  "consolidatedAvg": 53.4,
-  "consolidatedRank": 28,
+  "consolidatedAvg": 53.5,
+  "consolidatedRank": 12,
   "paths": {
     "memo": "spring2026/memos/adialante.md",
     "evals": {
@@ -60,7 +64,8 @@
       "elad-gil": "spring2026/evals/elad-gil/adialante.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/adialante.md",
       "paul-graham": "spring2026/evals/paul-graham/adialante.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/adialante.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/adialante.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/adialante.md"
     }
   }
 }

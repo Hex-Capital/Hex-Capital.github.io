@@ -37,6 +37,10 @@
     "paul-graham": {
       "score": 69,
       "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 53,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
@@ -44,19 +48,20 @@
     "EG": 57,
     "NR": 43,
     "PG": 69,
-    "PT": null,
+    "PT": 53,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 57.5,
-  "consolidatedRank": 9,
+  "consolidatedAvg": 56.6,
+  "consolidatedRank": 4,
   "paths": {
     "memo": "spring2026/memos/runharbor.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/runharbor.md",
       "elad-gil": "spring2026/evals/elad-gil/runharbor.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/runharbor.md",
-      "paul-graham": "spring2026/evals/paul-graham/runharbor.md"
+      "paul-graham": "spring2026/evals/paul-graham/runharbor.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/runharbor.md"
     }
   }
 }

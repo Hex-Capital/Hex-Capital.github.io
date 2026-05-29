@@ -41,6 +41,10 @@
     "peter-thiel": {
       "score": 42,
       "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -49,11 +53,11 @@
     "NR": 42,
     "PG": 54,
     "PT": 42,
-    "SL": null,
+    "SL": 31,
     "VK": null
   },
-  "consolidatedAvg": 43,
-  "consolidatedRank": 117,
+  "consolidatedAvg": 41,
+  "consolidatedRank": 111,
   "paths": {
     "memo": "spring2026/memos/inloop-robotics.md",
     "evals": {
@@ -61,7 +65,8 @@
       "elad-gil": "spring2026/evals/elad-gil/inloop-robotics.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/inloop-robotics.md",
       "paul-graham": "spring2026/evals/paul-graham/inloop-robotics.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/inloop-robotics.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/inloop-robotics.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/inloop-robotics.md"
     }
   }
 }

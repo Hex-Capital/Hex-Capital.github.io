@@ -37,6 +37,10 @@
     "paul-graham": {
       "score": 36,
       "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -44,11 +48,11 @@
     "EG": 40,
     "NR": 36,
     "PG": 36,
-    "PT": null,
+    "PT": 28,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 35,
+  "consolidatedAvg": 33.6,
   "consolidatedRank": 183,
   "paths": {
     "memo": "spring2026/memos/pavoot.md",
@@ -56,7 +60,8 @@
       "cyan-banister": "spring2026/evals/cyan-banister/pavoot.md",
       "elad-gil": "spring2026/evals/elad-gil/pavoot.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/pavoot.md",
-      "paul-graham": "spring2026/evals/paul-graham/pavoot.md"
+      "paul-graham": "spring2026/evals/paul-graham/pavoot.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/pavoot.md"
     }
   }
 }

@@ -36,6 +36,14 @@
     "paul-graham": {
       "score": 57,
       "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 33,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -43,19 +51,21 @@
     "EG": 52,
     "NR": 57,
     "PG": 57,
-    "PT": null,
-    "SL": null,
+    "PT": 32,
+    "SL": 33,
     "VK": null
   },
-  "consolidatedAvg": 52.25,
-  "consolidatedRank": 35,
+  "consolidatedAvg": 45.67,
+  "consolidatedRank": 66,
   "paths": {
     "memo": "spring2026/memos/memory-store.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/memory-store.md",
       "elad-gil": "spring2026/evals/elad-gil/memory-store.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/memory-store.md",
-      "paul-graham": "spring2026/evals/paul-graham/memory-store.md"
+      "paul-graham": "spring2026/evals/paul-graham/memory-store.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/memory-store.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/memory-store.md"
     }
   }
 }

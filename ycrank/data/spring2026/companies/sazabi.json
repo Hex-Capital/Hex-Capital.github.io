@@ -34,6 +34,10 @@
     "paul-graham": {
       "score": 50,
       "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 33,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -41,19 +45,20 @@
     "EG": 52,
     "NR": 54,
     "PG": 50,
-    "PT": null,
+    "PT": 33,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 51,
-  "consolidatedRank": 44,
+  "consolidatedAvg": 47.4,
+  "consolidatedRank": 51,
   "paths": {
     "memo": "spring2026/memos/sazabi.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/sazabi.md",
       "elad-gil": "spring2026/evals/elad-gil/sazabi.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/sazabi.md",
-      "paul-graham": "spring2026/evals/paul-graham/sazabi.md"
+      "paul-graham": "spring2026/evals/paul-graham/sazabi.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/sazabi.md"
     }
   }
 }

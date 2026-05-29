@@ -37,6 +37,14 @@
     "paul-graham": {
       "score": 48,
       "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 26,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -44,19 +52,21 @@
     "EG": 36,
     "NR": 38,
     "PG": 48,
-    "PT": null,
-    "SL": null,
+    "PT": 31,
+    "SL": 26,
     "VK": null
   },
-  "consolidatedAvg": 39.75,
-  "consolidatedRank": 150,
+  "consolidatedAvg": 36,
+  "consolidatedRank": 166,
   "paths": {
     "memo": "spring2026/memos/netter.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/netter.md",
       "elad-gil": "spring2026/evals/elad-gil/netter.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/netter.md",
-      "paul-graham": "spring2026/evals/paul-graham/netter.md"
+      "paul-graham": "spring2026/evals/paul-graham/netter.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/netter.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/netter.md"
     }
   }
 }

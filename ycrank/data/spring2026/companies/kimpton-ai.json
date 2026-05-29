@@ -40,6 +40,10 @@
     "peter-thiel": {
       "score": 33,
       "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 32,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -48,11 +52,11 @@
     "NR": 38,
     "PG": 50,
     "PT": 33,
-    "SL": null,
+    "SL": 32,
     "VK": null
   },
-  "consolidatedAvg": 42,
-  "consolidatedRank": 127,
+  "consolidatedAvg": 40.33,
+  "consolidatedRank": 121,
   "paths": {
     "memo": "spring2026/memos/kimpton-ai.md",
     "evals": {
@@ -60,7 +64,8 @@
       "elad-gil": "spring2026/evals/elad-gil/kimpton-ai.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/kimpton-ai.md",
       "paul-graham": "spring2026/evals/paul-graham/kimpton-ai.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/kimpton-ai.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/kimpton-ai.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/kimpton-ai.md"
     }
   }
 }

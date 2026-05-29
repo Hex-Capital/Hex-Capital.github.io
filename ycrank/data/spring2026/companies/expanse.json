@@ -41,6 +41,10 @@
     "peter-thiel": {
       "score": 49,
       "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 32,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -49,11 +53,11 @@
     "NR": 44,
     "PG": 64,
     "PT": 49,
-    "SL": null,
+    "SL": 32,
     "VK": null
   },
-  "consolidatedAvg": 53,
-  "consolidatedRank": 29,
+  "consolidatedAvg": 49.5,
+  "consolidatedRank": 33,
   "paths": {
     "memo": "spring2026/memos/expanse.md",
     "evals": {
@@ -61,7 +65,8 @@
       "elad-gil": "spring2026/evals/elad-gil/expanse.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/expanse.md",
       "paul-graham": "spring2026/evals/paul-graham/expanse.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/expanse.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/expanse.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/expanse.md"
     }
   }
 }

@@ -39,6 +39,10 @@
     "peter-thiel": {
       "score": 31,
       "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -47,11 +51,11 @@
     "NR": 65,
     "PG": 66,
     "PT": 31,
-    "SL": null,
+    "SL": 29,
     "VK": null
   },
-  "consolidatedAvg": 54.2,
-  "consolidatedRank": 22,
+  "consolidatedAvg": 50,
+  "consolidatedRank": 28,
   "paths": {
     "memo": "spring2026/memos/asterlab.md",
     "evals": {
@@ -59,7 +63,8 @@
       "elad-gil": "spring2026/evals/elad-gil/asterlab.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/asterlab.md",
       "paul-graham": "spring2026/evals/paul-graham/asterlab.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/asterlab.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/asterlab.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/asterlab.md"
     }
   }
 }

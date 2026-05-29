@@ -40,6 +40,10 @@
     "peter-thiel": {
       "score": 24,
       "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 24,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -48,11 +52,11 @@
     "NR": 35,
     "PG": 48,
     "PT": 24,
-    "SL": null,
+    "SL": 24,
     "VK": null
   },
-  "consolidatedAvg": 38.4,
-  "consolidatedRank": 160,
+  "consolidatedAvg": 36,
+  "consolidatedRank": 165,
   "paths": {
     "memo": "spring2026/memos/hexa.md",
     "evals": {
@@ -60,7 +64,8 @@
       "elad-gil": "spring2026/evals/elad-gil/hexa.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/hexa.md",
       "paul-graham": "spring2026/evals/paul-graham/hexa.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/hexa.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/hexa.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/hexa.md"
     }
   }
 }

@@ -40,6 +40,10 @@
     "peter-thiel": {
       "score": 35,
       "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 25,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -48,10 +52,10 @@
     "NR": 32,
     "PG": 45,
     "PT": 35,
-    "SL": null,
+    "SL": 25,
     "VK": null
   },
-  "consolidatedAvg": 38.2,
+  "consolidatedAvg": 36,
   "consolidatedRank": 163,
   "paths": {
     "memo": "spring2026/memos/arden.md",
@@ -60,7 +64,8 @@
       "elad-gil": "spring2026/evals/elad-gil/arden.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/arden.md",
       "paul-graham": "spring2026/evals/paul-graham/arden.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/arden.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/arden.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/arden.md"
     }
   }
 }

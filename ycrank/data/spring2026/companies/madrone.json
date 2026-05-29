@@ -38,6 +38,14 @@
     "paul-graham": {
       "score": 46,
       "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -45,19 +53,21 @@
     "EG": 36,
     "NR": 37,
     "PG": 46,
-    "PT": null,
-    "SL": null,
+    "PT": 48,
+    "SL": 30,
     "VK": null
   },
-  "consolidatedAvg": 44.25,
-  "consolidatedRank": 98,
+  "consolidatedAvg": 42.5,
+  "consolidatedRank": 97,
   "paths": {
     "memo": "spring2026/memos/madrone.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/madrone.md",
       "elad-gil": "spring2026/evals/elad-gil/madrone.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/madrone.md",
-      "paul-graham": "spring2026/evals/paul-graham/madrone.md"
+      "paul-graham": "spring2026/evals/paul-graham/madrone.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/madrone.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/madrone.md"
     }
   }
 }

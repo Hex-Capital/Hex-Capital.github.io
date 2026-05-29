@@ -42,6 +42,10 @@
     "peter-thiel": {
       "score": 52,
       "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -50,11 +54,11 @@
     "NR": 32,
     "PG": 61,
     "PT": 52,
-    "SL": null,
+    "SL": 31,
     "VK": null
   },
-  "consolidatedAvg": 50.2,
-  "consolidatedRank": 52,
+  "consolidatedAvg": 47,
+  "consolidatedRank": 54,
   "paths": {
     "memo": "spring2026/memos/9-mothers-corporation.md",
     "evals": {
@@ -62,7 +66,8 @@
       "elad-gil": "spring2026/evals/elad-gil/9-mothers-corporation.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/9-mothers-corporation.md",
       "paul-graham": "spring2026/evals/paul-graham/9-mothers-corporation.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/9-mothers-corporation.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/9-mothers-corporation.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/9-mothers-corporation.md"
     }
   }
 }

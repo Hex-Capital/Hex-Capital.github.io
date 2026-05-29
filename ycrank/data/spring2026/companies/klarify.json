@@ -42,6 +42,10 @@
     "peter-thiel": {
       "score": 30,
       "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 33,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -50,11 +54,11 @@
     "NR": 44,
     "PG": 57,
     "PT": 30,
-    "SL": null,
+    "SL": 33,
     "VK": null
   },
-  "consolidatedAvg": 43.2,
-  "consolidatedRank": 115,
+  "consolidatedAvg": 41.5,
+  "consolidatedRank": 106,
   "paths": {
     "memo": "spring2026/memos/klarify.md",
     "evals": {
@@ -62,7 +66,8 @@
       "elad-gil": "spring2026/evals/elad-gil/klarify.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/klarify.md",
       "paul-graham": "spring2026/evals/paul-graham/klarify.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/klarify.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/klarify.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/klarify.md"
     }
   }
 }

@@ -41,6 +41,10 @@
     "peter-thiel": {
       "score": 35,
       "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -49,11 +53,11 @@
     "NR": 60,
     "PG": 55,
     "PT": 35,
-    "SL": null,
+    "SL": 30,
     "VK": null
   },
-  "consolidatedAvg": 51.6,
-  "consolidatedRank": 39,
+  "consolidatedAvg": 48,
+  "consolidatedRank": 49,
   "paths": {
     "memo": "spring2026/memos/keyframe-labs.md",
     "evals": {
@@ -61,7 +65,8 @@
       "elad-gil": "spring2026/evals/elad-gil/keyframe-labs.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/keyframe-labs.md",
       "paul-graham": "spring2026/evals/paul-graham/keyframe-labs.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/keyframe-labs.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/keyframe-labs.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/keyframe-labs.md"
     }
   }
 }

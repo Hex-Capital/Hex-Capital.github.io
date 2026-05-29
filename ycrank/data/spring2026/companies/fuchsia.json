@@ -42,6 +42,10 @@
     "peter-thiel": {
       "score": 35,
       "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 26,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -50,11 +54,11 @@
     "NR": 38,
     "PG": 51,
     "PT": 35,
-    "SL": null,
+    "SL": 26,
     "VK": null
   },
-  "consolidatedAvg": 40.6,
-  "consolidatedRank": 142,
+  "consolidatedAvg": 38.17,
+  "consolidatedRank": 144,
   "paths": {
     "memo": "spring2026/memos/fuchsia.md",
     "evals": {
@@ -62,7 +66,8 @@
       "elad-gil": "spring2026/evals/elad-gil/fuchsia.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/fuchsia.md",
       "paul-graham": "spring2026/evals/paul-graham/fuchsia.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/fuchsia.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/fuchsia.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/fuchsia.md"
     }
   }
 }

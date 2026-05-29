@@ -39,6 +39,10 @@
     "peter-thiel": {
       "score": 35,
       "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 26,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -47,11 +51,11 @@
     "NR": 39,
     "PG": 42,
     "PT": 35,
-    "SL": null,
+    "SL": 26,
     "VK": null
   },
-  "consolidatedAvg": 38.8,
-  "consolidatedRank": 157,
+  "consolidatedAvg": 36.67,
+  "consolidatedRank": 156,
   "paths": {
     "memo": "spring2026/memos/incandor.md",
     "evals": {
@@ -59,7 +63,8 @@
       "elad-gil": "spring2026/evals/elad-gil/incandor.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/incandor.md",
       "paul-graham": "spring2026/evals/paul-graham/incandor.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/incandor.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/incandor.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/incandor.md"
     }
   }
 }

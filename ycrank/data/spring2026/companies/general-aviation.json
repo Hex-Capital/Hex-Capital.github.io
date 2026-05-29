@@ -42,6 +42,10 @@
     "peter-thiel": {
       "score": 51,
       "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 49,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
@@ -50,11 +54,11 @@
     "NR": 41,
     "PG": 53,
     "PT": 51,
-    "SL": null,
+    "SL": 49,
     "VK": null
   },
-  "consolidatedAvg": 53.6,
-  "consolidatedRank": 27,
+  "consolidatedAvg": 52.83,
+  "consolidatedRank": 16,
   "paths": {
     "memo": "spring2026/memos/general-aviation.md",
     "evals": {
@@ -62,7 +66,8 @@
       "elad-gil": "spring2026/evals/elad-gil/general-aviation.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/general-aviation.md",
       "paul-graham": "spring2026/evals/paul-graham/general-aviation.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/general-aviation.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/general-aviation.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/general-aviation.md"
     }
   }
 }

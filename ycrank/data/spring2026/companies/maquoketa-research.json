@@ -38,6 +38,14 @@
     "paul-graham": {
       "score": 43,
       "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -45,19 +53,21 @@
     "EG": 43,
     "NR": 39,
     "PG": 43,
-    "PT": null,
-    "SL": null,
+    "PT": 58,
+    "SL": 31,
     "VK": null
   },
-  "consolidatedAvg": 42.25,
-  "consolidatedRank": 123,
+  "consolidatedAvg": 43,
+  "consolidatedRank": 87,
   "paths": {
     "memo": "spring2026/memos/maquoketa-research.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/maquoketa-research.md",
       "elad-gil": "spring2026/evals/elad-gil/maquoketa-research.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/maquoketa-research.md",
-      "paul-graham": "spring2026/evals/paul-graham/maquoketa-research.md"
+      "paul-graham": "spring2026/evals/paul-graham/maquoketa-research.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/maquoketa-research.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/maquoketa-research.md"
     }
   }
 }

@@ -39,6 +39,10 @@
     "peter-thiel": {
       "score": 27,
       "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 22,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -47,11 +51,11 @@
     "NR": 37,
     "PG": 33,
     "PT": 27,
-    "SL": null,
+    "SL": 22,
     "VK": null
   },
-  "consolidatedAvg": 34.4,
-  "consolidatedRank": 184,
+  "consolidatedAvg": 32.33,
+  "consolidatedRank": 185,
   "paths": {
     "memo": "spring2026/memos/cignara.md",
     "evals": {
@@ -59,7 +63,8 @@
       "elad-gil": "spring2026/evals/elad-gil/cignara.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/cignara.md",
       "paul-graham": "spring2026/evals/paul-graham/cignara.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/cignara.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/cignara.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/cignara.md"
     }
   }
 }

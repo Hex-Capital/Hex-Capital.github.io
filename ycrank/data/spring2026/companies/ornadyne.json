@@ -37,6 +37,14 @@
     "paul-graham": {
       "score": 66,
       "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 60,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 47,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
@@ -44,19 +52,21 @@
     "EG": 44,
     "NR": 41,
     "PG": 66,
-    "PT": null,
-    "SL": null,
+    "PT": 60,
+    "SL": 47,
     "VK": null
   },
-  "consolidatedAvg": 56.25,
-  "consolidatedRank": 13,
+  "consolidatedAvg": 55.33,
+  "consolidatedRank": 7,
   "paths": {
     "memo": "spring2026/memos/ornadyne.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/ornadyne.md",
       "elad-gil": "spring2026/evals/elad-gil/ornadyne.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/ornadyne.md",
-      "paul-graham": "spring2026/evals/paul-graham/ornadyne.md"
+      "paul-graham": "spring2026/evals/paul-graham/ornadyne.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/ornadyne.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/ornadyne.md"
     }
   }
 }

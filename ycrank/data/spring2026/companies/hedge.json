@@ -41,6 +41,10 @@
     "peter-thiel": {
       "score": 39,
       "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 34,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -49,11 +53,11 @@
     "NR": 39,
     "PG": 54,
     "PT": 39,
-    "SL": null,
+    "SL": 34,
     "VK": null
   },
-  "consolidatedAvg": 44.4,
-  "consolidatedRank": 97,
+  "consolidatedAvg": 42.67,
+  "consolidatedRank": 90,
   "paths": {
     "memo": "spring2026/memos/hedge.md",
     "evals": {
@@ -61,7 +65,8 @@
       "elad-gil": "spring2026/evals/elad-gil/hedge.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/hedge.md",
       "paul-graham": "spring2026/evals/paul-graham/hedge.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/hedge.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/hedge.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/hedge.md"
     }
   }
 }

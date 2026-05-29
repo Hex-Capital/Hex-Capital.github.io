@@ -31,6 +31,10 @@
     "paul-graham": {
       "score": 61,
       "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 32,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -38,19 +42,20 @@
     "EG": 61,
     "NR": 72,
     "PG": 61,
-    "PT": null,
+    "PT": 32,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 59.25,
-  "consolidatedRank": 6,
+  "consolidatedAvg": 53.8,
+  "consolidatedRank": 11,
   "paths": {
     "memo": "spring2026/memos/superset.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/superset.md",
       "elad-gil": "spring2026/evals/elad-gil/superset.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/superset.md",
-      "paul-graham": "spring2026/evals/paul-graham/superset.md"
+      "paul-graham": "spring2026/evals/paul-graham/superset.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/superset.md"
     }
   }
 }

@@ -42,6 +42,10 @@
     "peter-thiel": {
       "score": 28,
       "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 28,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -50,11 +54,11 @@
     "NR": 41,
     "PG": 66,
     "PT": 28,
-    "SL": null,
+    "SL": 28,
     "VK": null
   },
-  "consolidatedAvg": 45.2,
-  "consolidatedRank": 91,
+  "consolidatedAvg": 42.33,
+  "consolidatedRank": 99,
   "paths": {
     "memo": "spring2026/memos/characterquilt.md",
     "evals": {
@@ -62,7 +66,8 @@
       "elad-gil": "spring2026/evals/elad-gil/characterquilt.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/characterquilt.md",
       "paul-graham": "spring2026/evals/paul-graham/characterquilt.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/characterquilt.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/characterquilt.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/characterquilt.md"
     }
   }
 }

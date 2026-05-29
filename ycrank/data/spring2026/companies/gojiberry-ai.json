@@ -35,6 +35,10 @@
     "peter-thiel": {
       "score": 30,
       "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -43,11 +47,11 @@
     "NR": 42,
     "PG": 54,
     "PT": 30,
-    "SL": null,
+    "SL": 29,
     "VK": null
   },
-  "consolidatedAvg": 45.4,
-  "consolidatedRank": 90,
+  "consolidatedAvg": 42.67,
+  "consolidatedRank": 89,
   "paths": {
     "memo": "spring2026/memos/gojiberry-ai.md",
     "evals": {
@@ -55,7 +59,8 @@
       "elad-gil": "spring2026/evals/elad-gil/gojiberry-ai.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/gojiberry-ai.md",
       "paul-graham": "spring2026/evals/paul-graham/gojiberry-ai.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/gojiberry-ai.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/gojiberry-ai.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/gojiberry-ai.md"
     }
   }
 }

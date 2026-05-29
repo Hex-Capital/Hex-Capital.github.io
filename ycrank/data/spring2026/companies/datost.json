@@ -40,6 +40,10 @@
     "peter-thiel": {
       "score": 25,
       "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 23,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -48,11 +52,11 @@
     "NR": 43,
     "PG": 46,
     "PT": 25,
-    "SL": null,
+    "SL": 23,
     "VK": null
   },
-  "consolidatedAvg": 39.2,
-  "consolidatedRank": 154,
+  "consolidatedAvg": 36.5,
+  "consolidatedRank": 158,
   "paths": {
     "memo": "spring2026/memos/datost.md",
     "evals": {
@@ -60,7 +64,8 @@
       "elad-gil": "spring2026/evals/elad-gil/datost.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/datost.md",
       "paul-graham": "spring2026/evals/paul-graham/datost.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/datost.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/datost.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/datost.md"
     }
   }
 }

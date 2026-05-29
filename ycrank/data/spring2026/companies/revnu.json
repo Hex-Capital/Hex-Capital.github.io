@@ -35,6 +35,10 @@
     "paul-graham": {
       "score": 69,
       "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 29,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -42,19 +46,20 @@
     "EG": 33,
     "NR": 40,
     "PG": 69,
-    "PT": null,
+    "PT": 29,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 44.25,
-  "consolidatedRank": 99,
+  "consolidatedAvg": 41.2,
+  "consolidatedRank": 109,
   "paths": {
     "memo": "spring2026/memos/revnu.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/revnu.md",
       "elad-gil": "spring2026/evals/elad-gil/revnu.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/revnu.md",
-      "paul-graham": "spring2026/evals/paul-graham/revnu.md"
+      "paul-graham": "spring2026/evals/paul-graham/revnu.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/revnu.md"
     }
   }
 }

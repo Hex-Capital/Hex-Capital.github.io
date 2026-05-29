@@ -36,6 +36,10 @@
     "paul-graham": {
       "score": 53,
       "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 31,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -43,19 +47,20 @@
     "EG": 50,
     "NR": 42,
     "PG": 53,
-    "PT": null,
+    "PT": 31,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 44.5,
-  "consolidatedRank": 96,
+  "consolidatedAvg": 41.8,
+  "consolidatedRank": 101,
   "paths": {
     "memo": "spring2026/memos/saffron.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/saffron.md",
       "elad-gil": "spring2026/evals/elad-gil/saffron.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/saffron.md",
-      "paul-graham": "spring2026/evals/paul-graham/saffron.md"
+      "paul-graham": "spring2026/evals/paul-graham/saffron.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/saffron.md"
     }
   }
 }

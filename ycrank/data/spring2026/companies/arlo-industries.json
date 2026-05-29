@@ -42,6 +42,10 @@
     "peter-thiel": {
       "score": 54,
       "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 45,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
@@ -50,11 +54,11 @@
     "NR": 43,
     "PG": 75,
     "PT": 54,
-    "SL": null,
+    "SL": 45,
     "VK": null
   },
-  "consolidatedAvg": 56.8,
-  "consolidatedRank": 11,
+  "consolidatedAvg": 54.83,
+  "consolidatedRank": 9,
   "paths": {
     "memo": "spring2026/memos/arlo-industries.md",
     "evals": {
@@ -62,7 +66,8 @@
       "elad-gil": "spring2026/evals/elad-gil/arlo-industries.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/arlo-industries.md",
       "paul-graham": "spring2026/evals/paul-graham/arlo-industries.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/arlo-industries.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/arlo-industries.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/arlo-industries.md"
     }
   }
 }

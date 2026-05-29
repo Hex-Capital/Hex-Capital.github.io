@@ -36,6 +36,10 @@
     "paul-graham": {
       "score": 56,
       "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -43,19 +47,20 @@
     "EG": 44,
     "NR": 60,
     "PG": 56,
-    "PT": null,
+    "PT": 30,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 53.75,
-  "consolidatedRank": 25,
+  "consolidatedAvg": 49,
+  "consolidatedRank": 38,
   "paths": {
     "memo": "spring2026/memos/playablai.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/playablai.md",
       "elad-gil": "spring2026/evals/elad-gil/playablai.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/playablai.md",
-      "paul-graham": "spring2026/evals/paul-graham/playablai.md"
+      "paul-graham": "spring2026/evals/paul-graham/playablai.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/playablai.md"
     }
   }
 }

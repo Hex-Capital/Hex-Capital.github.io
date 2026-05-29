@@ -35,6 +35,10 @@
     "paul-graham": {
       "score": 54,
       "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 56,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
@@ -42,19 +46,20 @@
     "EG": 47,
     "NR": 47,
     "PG": 54,
-    "PT": null,
+    "PT": 56,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 48.25,
-  "consolidatedRank": 68,
+  "consolidatedAvg": 49.8,
+  "consolidatedRank": 32,
   "paths": {
     "memo": "spring2026/memos/perfectbit.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/perfectbit.md",
       "elad-gil": "spring2026/evals/elad-gil/perfectbit.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/perfectbit.md",
-      "paul-graham": "spring2026/evals/paul-graham/perfectbit.md"
+      "paul-graham": "spring2026/evals/paul-graham/perfectbit.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/perfectbit.md"
     }
   }
 }

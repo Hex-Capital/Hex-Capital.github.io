@@ -35,6 +35,10 @@
     "peter-thiel": {
       "score": 36,
       "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 36,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -43,11 +47,11 @@
     "NR": 44,
     "PG": 53,
     "PT": 36,
-    "SL": null,
+    "SL": 36,
     "VK": null
   },
-  "consolidatedAvg": 46.6,
-  "consolidatedRank": 82,
+  "consolidatedAvg": 44.83,
+  "consolidatedRank": 69,
   "paths": {
     "memo": "spring2026/memos/biostack-platforms.md",
     "evals": {
@@ -55,7 +59,8 @@
       "elad-gil": "spring2026/evals/elad-gil/biostack-platforms.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/biostack-platforms.md",
       "paul-graham": "spring2026/evals/paul-graham/biostack-platforms.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/biostack-platforms.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/biostack-platforms.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/biostack-platforms.md"
     }
   }
 }

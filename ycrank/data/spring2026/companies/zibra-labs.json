@@ -37,6 +37,10 @@
     "paul-graham": {
       "score": 51,
       "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 42,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -44,19 +48,20 @@
     "EG": 50,
     "NR": 44,
     "PG": 51,
-    "PT": null,
+    "PT": 42,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 48.5,
-  "consolidatedRank": 67,
+  "consolidatedAvg": 47.2,
+  "consolidatedRank": 53,
   "paths": {
     "memo": "spring2026/memos/zibra-labs.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/zibra-labs.md",
       "elad-gil": "spring2026/evals/elad-gil/zibra-labs.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/zibra-labs.md",
-      "paul-graham": "spring2026/evals/paul-graham/zibra-labs.md"
+      "paul-graham": "spring2026/evals/paul-graham/zibra-labs.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/zibra-labs.md"
     }
   }
 }

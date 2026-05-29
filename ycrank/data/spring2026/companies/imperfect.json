@@ -41,6 +41,10 @@
     "peter-thiel": {
       "score": 28,
       "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 38,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -49,11 +53,11 @@
     "NR": 45,
     "PG": 57,
     "PT": 28,
-    "SL": null,
+    "SL": 38,
     "VK": null
   },
-  "consolidatedAvg": 44.8,
-  "consolidatedRank": 92,
+  "consolidatedAvg": 43.67,
+  "consolidatedRank": 82,
   "paths": {
     "memo": "spring2026/memos/imperfect.md",
     "evals": {
@@ -61,7 +65,8 @@
       "elad-gil": "spring2026/evals/elad-gil/imperfect.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/imperfect.md",
       "paul-graham": "spring2026/evals/paul-graham/imperfect.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/imperfect.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/imperfect.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/imperfect.md"
     }
   }
 }

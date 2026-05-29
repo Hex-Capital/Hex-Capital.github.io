@@ -38,6 +38,14 @@
     "paul-graham": {
       "score": 47,
       "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 23,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -45,19 +53,21 @@
     "EG": 47,
     "NR": 42,
     "PG": 47,
-    "PT": null,
-    "SL": null,
+    "PT": 29,
+    "SL": 23,
     "VK": null
   },
-  "consolidatedAvg": 44,
-  "consolidatedRank": 102,
+  "consolidatedAvg": 38,
+  "consolidatedRank": 147,
   "paths": {
     "memo": "spring2026/memos/modern.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/modern.md",
       "elad-gil": "spring2026/evals/elad-gil/modern.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/modern.md",
-      "paul-graham": "spring2026/evals/paul-graham/modern.md"
+      "paul-graham": "spring2026/evals/paul-graham/modern.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/modern.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/modern.md"
     }
   }
 }

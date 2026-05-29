@@ -38,6 +38,10 @@
     "peter-thiel": {
       "score": 26,
       "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 35,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -46,11 +50,11 @@
     "NR": 60,
     "PG": 54,
     "PT": 26,
-    "SL": null,
+    "SL": 35,
     "VK": null
   },
-  "consolidatedAvg": 48.2,
-  "consolidatedRank": 71,
+  "consolidatedAvg": 46,
+  "consolidatedRank": 62,
   "paths": {
     "memo": "spring2026/memos/heyclicky.md",
     "evals": {
@@ -58,7 +62,8 @@
       "elad-gil": "spring2026/evals/elad-gil/heyclicky.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/heyclicky.md",
       "paul-graham": "spring2026/evals/paul-graham/heyclicky.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/heyclicky.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/heyclicky.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/heyclicky.md"
     }
   }
 }

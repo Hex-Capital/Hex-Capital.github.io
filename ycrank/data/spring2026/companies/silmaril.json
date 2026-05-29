@@ -34,6 +34,10 @@
     "paul-graham": {
       "score": 65,
       "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 31,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -41,19 +45,20 @@
     "EG": 48,
     "NR": 50,
     "PG": 65,
-    "PT": null,
+    "PT": 31,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 53.75,
-  "consolidatedRank": 26,
+  "consolidatedAvg": 49.2,
+  "consolidatedRank": 35,
   "paths": {
     "memo": "spring2026/memos/silmaril.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/silmaril.md",
       "elad-gil": "spring2026/evals/elad-gil/silmaril.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/silmaril.md",
-      "paul-graham": "spring2026/evals/paul-graham/silmaril.md"
+      "paul-graham": "spring2026/evals/paul-graham/silmaril.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/silmaril.md"
     }
   }
 }

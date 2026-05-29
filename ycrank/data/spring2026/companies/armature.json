@@ -39,6 +39,10 @@
     "peter-thiel": {
       "score": 35,
       "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 24,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -47,11 +51,11 @@
     "NR": 40,
     "PG": 47,
     "PT": 35,
-    "SL": null,
+    "SL": 24,
     "VK": null
   },
-  "consolidatedAvg": 42.8,
-  "consolidatedRank": 118,
+  "consolidatedAvg": 39.67,
+  "consolidatedRank": 128,
   "paths": {
     "memo": "spring2026/memos/armature.md",
     "evals": {
@@ -59,7 +63,8 @@
       "elad-gil": "spring2026/evals/elad-gil/armature.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/armature.md",
       "paul-graham": "spring2026/evals/paul-graham/armature.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/armature.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/armature.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/armature.md"
     }
   }
 }

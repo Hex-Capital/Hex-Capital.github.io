@@ -36,6 +36,14 @@
     "paul-graham": {
       "score": 54,
       "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 63,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 39,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -43,19 +51,21 @@
     "EG": 35,
     "NR": 40,
     "PG": 54,
-    "PT": null,
-    "SL": null,
+    "PT": 63,
+    "SL": 39,
     "VK": null
   },
-  "consolidatedAvg": 47.75,
-  "consolidatedRank": 74,
+  "consolidatedAvg": 48.83,
+  "consolidatedRank": 41,
   "paths": {
     "memo": "spring2026/memos/lumius.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/lumius.md",
       "elad-gil": "spring2026/evals/elad-gil/lumius.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/lumius.md",
-      "paul-graham": "spring2026/evals/paul-graham/lumius.md"
+      "paul-graham": "spring2026/evals/paul-graham/lumius.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/lumius.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/lumius.md"
     }
   }
 }

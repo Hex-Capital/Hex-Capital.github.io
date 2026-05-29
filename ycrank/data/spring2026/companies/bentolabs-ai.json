@@ -41,6 +41,10 @@
     "peter-thiel": {
       "score": 37,
       "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -49,11 +53,11 @@
     "NR": 53,
     "PG": 62,
     "PT": 37,
-    "SL": null,
+    "SL": 31,
     "VK": null
   },
-  "consolidatedAvg": 49.6,
-  "consolidatedRank": 56,
+  "consolidatedAvg": 46.5,
+  "consolidatedRank": 57,
   "paths": {
     "memo": "spring2026/memos/bentolabs-ai.md",
     "evals": {
@@ -61,7 +65,8 @@
       "elad-gil": "spring2026/evals/elad-gil/bentolabs-ai.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/bentolabs-ai.md",
       "paul-graham": "spring2026/evals/paul-graham/bentolabs-ai.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/bentolabs-ai.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/bentolabs-ai.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/bentolabs-ai.md"
     }
   }
 }

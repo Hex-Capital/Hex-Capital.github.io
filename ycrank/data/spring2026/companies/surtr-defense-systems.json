@@ -34,6 +34,10 @@
     "paul-graham": {
       "score": 52,
       "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 53,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
@@ -41,19 +45,20 @@
     "EG": 54,
     "NR": 43,
     "PG": 52,
-    "PT": null,
+    "PT": 53,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 51.25,
-  "consolidatedRank": 41,
+  "consolidatedAvg": 51.6,
+  "consolidatedRank": 22,
   "paths": {
     "memo": "spring2026/memos/surtr-defense-systems.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/surtr-defense-systems.md",
       "elad-gil": "spring2026/evals/elad-gil/surtr-defense-systems.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/surtr-defense-systems.md",
-      "paul-graham": "spring2026/evals/paul-graham/surtr-defense-systems.md"
+      "paul-graham": "spring2026/evals/paul-graham/surtr-defense-systems.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/surtr-defense-systems.md"
     }
   }
 }

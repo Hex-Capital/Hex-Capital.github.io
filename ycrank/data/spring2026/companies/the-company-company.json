@@ -31,6 +31,10 @@
     "paul-graham": {
       "score": 44,
       "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 21,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -38,19 +42,20 @@
     "EG": 34,
     "NR": 42,
     "PG": 44,
-    "PT": null,
+    "PT": 21,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 40.25,
-  "consolidatedRank": 145,
+  "consolidatedAvg": 36.4,
+  "consolidatedRank": 159,
   "paths": {
     "memo": "spring2026/memos/the-company-company.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/the-company-company.md",
       "elad-gil": "spring2026/evals/elad-gil/the-company-company.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/the-company-company.md",
-      "paul-graham": "spring2026/evals/paul-graham/the-company-company.md"
+      "paul-graham": "spring2026/evals/paul-graham/the-company-company.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/the-company-company.md"
     }
   }
 }

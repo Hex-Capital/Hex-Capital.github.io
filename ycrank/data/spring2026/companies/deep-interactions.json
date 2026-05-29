@@ -42,6 +42,10 @@
     "peter-thiel": {
       "score": 30,
       "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -50,11 +54,11 @@
     "NR": 47,
     "PG": 49,
     "PT": 30,
-    "SL": null,
+    "SL": 30,
     "VK": null
   },
-  "consolidatedAvg": 38,
-  "consolidatedRank": 164,
+  "consolidatedAvg": 36.67,
+  "consolidatedRank": 155,
   "paths": {
     "memo": "spring2026/memos/deep-interactions.md",
     "evals": {
@@ -62,7 +66,8 @@
       "elad-gil": "spring2026/evals/elad-gil/deep-interactions.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/deep-interactions.md",
       "paul-graham": "spring2026/evals/paul-graham/deep-interactions.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/deep-interactions.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/deep-interactions.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/deep-interactions.md"
     }
   }
 }

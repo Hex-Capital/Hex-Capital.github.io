@@ -42,6 +42,10 @@
     "peter-thiel": {
       "score": 31,
       "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -50,11 +54,11 @@
     "NR": 34,
     "PG": 41,
     "PT": 31,
-    "SL": null,
+    "SL": 29,
     "VK": null
   },
-  "consolidatedAvg": 37.2,
-  "consolidatedRank": 171,
+  "consolidatedAvg": 35.83,
+  "consolidatedRank": 168,
   "paths": {
     "memo": "spring2026/memos/anoria.md",
     "evals": {
@@ -62,7 +66,8 @@
       "elad-gil": "spring2026/evals/elad-gil/anoria.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/anoria.md",
       "paul-graham": "spring2026/evals/paul-graham/anoria.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/anoria.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/anoria.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/anoria.md"
     }
   }
 }

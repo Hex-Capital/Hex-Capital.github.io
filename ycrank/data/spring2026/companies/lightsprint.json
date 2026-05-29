@@ -42,6 +42,10 @@
     "peter-thiel": {
       "score": 35,
       "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 28,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -50,11 +54,11 @@
     "NR": 51,
     "PG": 44,
     "PT": 35,
-    "SL": null,
+    "SL": 28,
     "VK": null
   },
-  "consolidatedAvg": 41.2,
-  "consolidatedRank": 138,
+  "consolidatedAvg": 39,
+  "consolidatedRank": 136,
   "paths": {
     "memo": "spring2026/memos/lightsprint.md",
     "evals": {
@@ -62,7 +66,8 @@
       "elad-gil": "spring2026/evals/elad-gil/lightsprint.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/lightsprint.md",
       "paul-graham": "spring2026/evals/paul-graham/lightsprint.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/lightsprint.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/lightsprint.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/lightsprint.md"
     }
   }
 }

@@ -36,6 +36,14 @@
     "paul-graham": {
       "score": 56,
       "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 46,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
@@ -43,19 +51,21 @@
     "EG": 41,
     "NR": 43,
     "PG": 56,
-    "PT": null,
-    "SL": null,
+    "PT": 38,
+    "SL": 46,
     "VK": null
   },
-  "consolidatedAvg": 49,
-  "consolidatedRank": 61,
+  "consolidatedAvg": 46.67,
+  "consolidatedRank": 56,
   "paths": {
     "memo": "spring2026/memos/mochatrade.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/mochatrade.md",
       "elad-gil": "spring2026/evals/elad-gil/mochatrade.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/mochatrade.md",
-      "paul-graham": "spring2026/evals/paul-graham/mochatrade.md"
+      "paul-graham": "spring2026/evals/paul-graham/mochatrade.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/mochatrade.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/mochatrade.md"
     }
   }
 }

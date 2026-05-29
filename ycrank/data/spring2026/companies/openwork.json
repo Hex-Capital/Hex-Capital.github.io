@@ -31,6 +31,14 @@
     "paul-graham": {
       "score": 53,
       "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 33,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -38,19 +46,21 @@
     "EG": 50,
     "NR": 54,
     "PG": 53,
-    "PT": null,
-    "SL": null,
+    "PT": 31,
+    "SL": 33,
     "VK": null
   },
-  "consolidatedAvg": 49.75,
-  "consolidatedRank": 55,
+  "consolidatedAvg": 43.83,
+  "consolidatedRank": 80,
   "paths": {
     "memo": "spring2026/memos/openwork.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/openwork.md",
       "elad-gil": "spring2026/evals/elad-gil/openwork.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/openwork.md",
-      "paul-graham": "spring2026/evals/paul-graham/openwork.md"
+      "paul-graham": "spring2026/evals/paul-graham/openwork.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/openwork.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/openwork.md"
     }
   }
 }

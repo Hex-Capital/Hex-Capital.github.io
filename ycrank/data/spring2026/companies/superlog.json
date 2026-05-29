@@ -38,6 +38,10 @@
     "paul-graham": {
       "score": 61,
       "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 35,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -45,19 +49,20 @@
     "EG": 49,
     "NR": 59,
     "PG": 61,
-    "PT": null,
+    "PT": 35,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 52,
-  "consolidatedRank": 38,
+  "consolidatedAvg": 48.6,
+  "consolidatedRank": 43,
   "paths": {
     "memo": "spring2026/memos/superlog.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/superlog.md",
       "elad-gil": "spring2026/evals/elad-gil/superlog.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/superlog.md",
-      "paul-graham": "spring2026/evals/paul-graham/superlog.md"
+      "paul-graham": "spring2026/evals/paul-graham/superlog.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/superlog.md"
     }
   }
 }

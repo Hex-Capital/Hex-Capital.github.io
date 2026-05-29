@@ -37,6 +37,14 @@
     "paul-graham": {
       "score": 52,
       "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -44,19 +52,21 @@
     "EG": 37,
     "NR": 40,
     "PG": 52,
-    "PT": null,
-    "SL": null,
+    "PT": 32,
+    "SL": 31,
     "VK": null
   },
-  "consolidatedAvg": 41.25,
-  "consolidatedRank": 134,
+  "consolidatedAvg": 38,
+  "consolidatedRank": 148,
   "paths": {
     "memo": "spring2026/memos/ontora.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/ontora.md",
       "elad-gil": "spring2026/evals/elad-gil/ontora.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/ontora.md",
-      "paul-graham": "spring2026/evals/paul-graham/ontora.md"
+      "paul-graham": "spring2026/evals/paul-graham/ontora.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/ontora.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/ontora.md"
     }
   }
 }

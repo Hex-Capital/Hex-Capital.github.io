@@ -37,6 +37,10 @@
     "paul-graham": {
       "score": 44,
       "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 31,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -44,19 +48,20 @@
     "EG": 32,
     "NR": 40,
     "PG": 44,
-    "PT": null,
+    "PT": 31,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 41.25,
-  "consolidatedRank": 135,
+  "consolidatedAvg": 39.2,
+  "consolidatedRank": 134,
   "paths": {
     "memo": "spring2026/memos/prototypingio.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/prototypingio.md",
       "elad-gil": "spring2026/evals/elad-gil/prototypingio.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/prototypingio.md",
-      "paul-graham": "spring2026/evals/paul-graham/prototypingio.md"
+      "paul-graham": "spring2026/evals/paul-graham/prototypingio.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/prototypingio.md"
     }
   }
 }

@@ -42,6 +42,10 @@
     "peter-thiel": {
       "score": 35,
       "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 28,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -50,11 +54,11 @@
     "NR": 48,
     "PG": 49,
     "PT": 35,
-    "SL": null,
+    "SL": 28,
     "VK": null
   },
-  "consolidatedAvg": 43.4,
-  "consolidatedRank": 112,
+  "consolidatedAvg": 40.83,
+  "consolidatedRank": 114,
   "paths": {
     "memo": "spring2026/memos/infera.md",
     "evals": {
@@ -62,7 +66,8 @@
       "elad-gil": "spring2026/evals/elad-gil/infera.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/infera.md",
       "paul-graham": "spring2026/evals/paul-graham/infera.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/infera.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/infera.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/infera.md"
     }
   }
 }

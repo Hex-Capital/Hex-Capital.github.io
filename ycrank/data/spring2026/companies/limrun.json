@@ -37,6 +37,14 @@
     "paul-graham": {
       "score": 61,
       "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 38,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -44,19 +52,21 @@
     "EG": 62,
     "NR": 50,
     "PG": 61,
-    "PT": null,
-    "SL": null,
+    "PT": 51,
+    "SL": 38,
     "VK": null
   },
-  "consolidatedAvg": 59.75,
-  "consolidatedRank": 3,
+  "consolidatedAvg": 54.67,
+  "consolidatedRank": 10,
   "paths": {
     "memo": "spring2026/memos/limrun.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/limrun.md",
       "elad-gil": "spring2026/evals/elad-gil/limrun.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/limrun.md",
-      "paul-graham": "spring2026/evals/paul-graham/limrun.md"
+      "paul-graham": "spring2026/evals/paul-graham/limrun.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/limrun.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/limrun.md"
     }
   }
 }

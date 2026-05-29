@@ -41,6 +41,10 @@
     "peter-thiel": {
       "score": 46,
       "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 50,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
@@ -49,11 +53,11 @@
     "NR": 65,
     "PG": 75,
     "PT": 46,
-    "SL": null,
+    "SL": 50,
     "VK": null
   },
-  "consolidatedAvg": 59.2,
-  "consolidatedRank": 7,
+  "consolidatedAvg": 57.67,
+  "consolidatedRank": 3,
   "paths": {
     "memo": "spring2026/memos/inth.md",
     "evals": {
@@ -61,7 +65,8 @@
       "elad-gil": "spring2026/evals/elad-gil/inth.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/inth.md",
       "paul-graham": "spring2026/evals/paul-graham/inth.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/inth.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/inth.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/inth.md"
     }
   }
 }

@@ -38,6 +38,10 @@
     "paul-graham": {
       "score": 44,
       "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 31,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -45,19 +49,20 @@
     "EG": 33,
     "NR": 40,
     "PG": 44,
-    "PT": null,
+    "PT": 31,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 37.25,
-  "consolidatedRank": 169,
+  "consolidatedAvg": 36,
+  "consolidatedRank": 167,
   "paths": {
     "memo": "spring2026/memos/projectx.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/projectx.md",
       "elad-gil": "spring2026/evals/elad-gil/projectx.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/projectx.md",
-      "paul-graham": "spring2026/evals/paul-graham/projectx.md"
+      "paul-graham": "spring2026/evals/paul-graham/projectx.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/projectx.md"
     }
   }
 }

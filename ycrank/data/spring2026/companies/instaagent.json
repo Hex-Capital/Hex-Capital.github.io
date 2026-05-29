@@ -41,6 +41,10 @@
     "peter-thiel": {
       "score": 27,
       "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 28,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -49,11 +53,11 @@
     "NR": 34,
     "PG": 55,
     "PT": 27,
-    "SL": null,
+    "SL": 28,
     "VK": null
   },
-  "consolidatedAvg": 39,
-  "consolidatedRank": 155,
+  "consolidatedAvg": 37.17,
+  "consolidatedRank": 152,
   "paths": {
     "memo": "spring2026/memos/instaagent.md",
     "evals": {
@@ -61,7 +65,8 @@
       "elad-gil": "spring2026/evals/elad-gil/instaagent.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/instaagent.md",
       "paul-graham": "spring2026/evals/paul-graham/instaagent.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/instaagent.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/instaagent.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/instaagent.md"
     }
   }
 }

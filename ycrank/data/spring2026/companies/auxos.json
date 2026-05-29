@@ -41,6 +41,10 @@
     "peter-thiel": {
       "score": 27,
       "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -49,11 +53,11 @@
     "NR": 44,
     "PG": 55,
     "PT": 27,
-    "SL": null,
+    "SL": 31,
     "VK": null
   },
-  "consolidatedAvg": 40.2,
-  "consolidatedRank": 146,
+  "consolidatedAvg": 38.67,
+  "consolidatedRank": 139,
   "paths": {
     "memo": "spring2026/memos/auxos.md",
     "evals": {
@@ -61,7 +65,8 @@
       "elad-gil": "spring2026/evals/elad-gil/auxos.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/auxos.md",
       "paul-graham": "spring2026/evals/paul-graham/auxos.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/auxos.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/auxos.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/auxos.md"
     }
   }
 }

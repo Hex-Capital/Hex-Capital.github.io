@@ -40,6 +40,10 @@
     "peter-thiel": {
       "score": 44,
       "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 50,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
@@ -48,11 +52,11 @@
     "NR": 43,
     "PG": 53,
     "PT": 44,
-    "SL": null,
+    "SL": 50,
     "VK": null
   },
-  "consolidatedAvg": 49,
-  "consolidatedRank": 60,
+  "consolidatedAvg": 49.17,
+  "consolidatedRank": 36,
   "paths": {
     "memo": "spring2026/memos/complir.md",
     "evals": {
@@ -60,7 +64,8 @@
       "elad-gil": "spring2026/evals/elad-gil/complir.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/complir.md",
       "paul-graham": "spring2026/evals/paul-graham/complir.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/complir.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/complir.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/complir.md"
     }
   }
 }

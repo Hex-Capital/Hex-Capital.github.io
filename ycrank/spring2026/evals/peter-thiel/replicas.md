@@ -1,0 +1,30 @@
+﻿# Replicas -- Peter Thiel Evaluation
+
+Replicas is a wrapper on Claude Code and Codex sold as a background-agent dispatcher, and the dimensional signature is the one I see in roughly half the Spring 2026 YC batch: founder lineage above the mean (Connor Loi shipped Helicone's AI Gateway, Saai Arora was Applied AI at Ramp), contrarian secret essentially at the floor. That pairing is the analytical fingerprint of a competent build-out of a consensus thesis, and the consensus thesis here was already explicitly named by Anthropic itself on March 20, 2026 when they shipped Claude Code Remote Tasks.
+
+Stripe in 2010 is the HIGH rung on contrarian secret -- Patrick Collison named a specific incumbent failure mode (PayPal's developer experience was indefensible at the API layer) that the incumbent could not fix because their distribution-side moat structurally prevented it. Replicas does not name an incumbent failure mode of that kind. The dossier surfaces "BYO Claude Code/Codex credentials" and "trigger-agnostic across Slack/Linear/GitHub" as the differentiation against Cursor Background Agents and Cognition's Devin -- but those are SKU deltas, not secrets. The deepest tell is that Replicas resells the same model surface that Anthropic now ships natively as Remote Tasks. A secret should be something the incumbent rejects; here the incumbent has already shipped it.
+
+The pure-software, no-regulated-customer floor -- the Founders Fund 2011 manifesto's "140 characters" failure mode -- is where Replicas sits on the atoms-heavy dimension, and the question is whether that absence is overridden by anything else in the dossier. It is not. Replicas has no hardware capex, no government customer, no regulated certification depth, no integration moat into a system-of-record that would take quarters to rip out. The customer list (Mintlify, Composio, Helicone, Dart, Knowunity, Trellis, Chronicle Labs) is twelve YC companies whose switching cost is, charitably, an afternoon of replumbing a GitHub webhook.
+
+On monopoly trajectory -- mechanism analysis over 18 months -- Replicas's pricing-power story degrades, it does not compound. Cognition at $492M ARR and Anysphere/Cursor at $2B ARR are not competitors Replicas displaces; they are competitors whose existence proves the workflow has a category leader on both the model-bundled side (Devin) and the IDE-bundled side (Cursor). When Anthropic itself ships the same dispatcher natively, the "BYO Claude credentials" wedge inverts: the model vendor captures the margin that Replicas was renting. One year of pricing power, not ten.
+
+The definite-plan dimension fails by counterfactual: for Replicas to score in the Invest tier here, the dossier would need to surface a 2-5 year architectural commitment Connor Loi has named publicly that he will not pivot from -- something on the order of SpaceX's reusability roadmap reframed for code execution. There is no such commitment. There is a V1 launched ~2 months before article publication, a founding-engineer search at $150K-$250K plus 2-4% equity, and a product surface that has already absorbed Slack, Linear, GitHub, dashboard, and API integrations in version one. That is iteration mode, not definite optimism.
+
+Founder lineage is the single dimension where Replicas scores meaningfully above the absent-evidence default, and the single-anchor parallel is Affirm (2014) -- Levchin was a re-up because he had shipped PayPal to scale, the canonical operator pedigree. Loi shipping Helicone's AI Gateway (YC W23) and Arora's Ramp Applied AI tour are real signals on the same axis, one rung lower: neither founder has shipped to scale, but both have shipped LLM infrastructure inside YC-adjacent companies that matter to this exact workflow. This is the Asana exception structure -- founder pedigree as the override for missing structural moat -- except Moskovitz had already shipped Facebook to the social graph, and Loi has shipped a YC W23 product whose ARR is not public.
+
+My 36-month forecast on Replicas: acquired by Anysphere, Cognition, or a Tier-2 dev-tools roll-up for under $40M as an acqui-hire of the Waterloo founders, or quietly wound down once Anthropic's Claude Code Remote Tasks plus Cursor Background Agents capture the YC-startup tier that currently makes up the entire named customer list. The mechanism is platform substitution from the model vendor Replicas resells, compounded by the absence of any switching cost beyond per-repo environment configuration.
+
+The strongest case against my pass -- the bull read -- is that Cognition went from launch to $492M ARR in roughly eighteen months at 13x YoY, which means the background-coding-agent category is expanding fast enough that a competent number-three player riding Anthropic's compute could hit $20M-$50M ARR before substitution catches up, and that Loi's Helicone-pedigree plus the "30% of pull requests" claim at named YC customers is exactly the early-traction shape Stripe had in 2010 before the developer channel compounded. It stings, but it does not survive the dossier. Stripe's 2010 secret was that payments would be sold to developers at the API layer for fifteen years; Replicas's "secret" is being resold by Anthropic in March 2026, two months after Cursor Background Agents shipped in February. The verdict flips only if Replicas signs a non-YC enterprise customer at six-figure ACV with disclosed switching costs into Replicas's per-repo Environments configuration -- a single named Fortune 500 logo on a paid contract would force me to re-underwrite the integration-moat hypothesis. Absent that, this is the 2026 batch's modal "AI for engineering workflows" company, and I pass.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Contrarian Secret with Named Incumbent Failure Mode | 6/35 |
+| Monopoly Trajectory with Pricing Power Hypothesis | 5/25 |
+| Definite Founder Plan vs Indefinite Iteration | 4/15 |
+| Founder Lineage / Verified Operator Pedigree | 8/15 |
+| Atoms-Heavy or Regulated-Sector Structural Moat | 2/10 |
+| **Total** | **25/100** |
+
+**Total Score: 25/100** (Pass)

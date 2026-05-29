@@ -31,6 +31,14 @@
     "paul-graham": {
       "score": 55,
       "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -38,19 +46,21 @@
     "EG": 54,
     "NR": 33,
     "PG": 55,
-    "PT": null,
-    "SL": null,
+    "PT": 28,
+    "SL": 30,
     "VK": null
   },
-  "consolidatedAvg": 44.5,
-  "consolidatedRank": 94,
+  "consolidatedAvg": 39.33,
+  "consolidatedRank": 133,
   "paths": {
     "memo": "spring2026/memos/mount.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/mount.md",
       "elad-gil": "spring2026/evals/elad-gil/mount.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/mount.md",
-      "paul-graham": "spring2026/evals/paul-graham/mount.md"
+      "paul-graham": "spring2026/evals/paul-graham/mount.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/mount.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/mount.md"
     }
   }
 }

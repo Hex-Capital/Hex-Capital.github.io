@@ -1,0 +1,30 @@
+﻿# Superset -- Peter Thiel Evaluation
+
+Superset is the canonical 2026 archetype I have been passing on for two years: three ex-CTOs of small YC companies — Kiet Ho (Onlook W25), Satya Patel (Untether W23), Avi Peltz (Adam W25) — wrapping git worktrees around Claude Code and Codex, alongside Conductor, Crystal, Emdash, cmux, Vibe Kanban, Agentastic, FleetCode, and Sculptor all doing the same thing. The dimensional signature is operator-pedigree-high paired with contrarian-secret-low, which is the exact profile of mimetic consensus dressed in repeat-founder credibility. That pairing has a name in my notebook: indefinite optimism with a résumé.
+
+Stripe is the load-bearing analogy on contrarian secret, and the comparison is unkind to Superset. Patrick Collison's secret in 2010 was that PayPal had won consumer payments but had structurally abandoned developers — a named incumbent, a named architectural blind spot, seven words of thesis. Superset's analog would need to name why Cursor at $2B ARR or Anthropic shipping Claude Code structurally cannot ship multi-agent orchestration; the Launch HN and superset.sh/compare pages instead position Superset against Conductor's macOS limitation and Cursor's "chat-centric" framing. That is feature differentiation, not a secret. Eight competitors in the rywalker.com survey using the identical git-worktree-per-agent primitive is the tell — when the contrarian thesis is independently arrived at by eight teams in twelve months, it is no longer contrarian, it is the consensus implementation of the parallel-agent wave.
+
+The Pass Example in my own file is the LOW rung here: "AI-powered platform for vertical X" with no named incumbent failure mode. Superset's mechanism of failure on the monopoly axis is the same — the moat hypothesis terminates at switching costs from Linear/Slack integrations at $20/seat/month, which Cursor, GitHub, or Anthropic can replicate as a feature in a quarter. 11.4k GitHub stars under Elastic License 2.0 is distribution, not defensibility; Apache Superset (the BI tool) had more stars and never produced pricing power. When Anthropic ships native multi-Claude-Code session management — a six-engineer project at most — the moat collapses to UX preference.
+
+Definite plan versus indefinite iteration: the mechanism analysis over 18 months is that orchestrator categories compound through opinionated workflow lock-in (Linear's project model, Figma's file primitive) or they get absorbed into the substrate. Superset's dossier surfaces no 2-5 year architectural commitment the founders will refuse to pivot from — the roadmap reads as "more integrations, remote workspaces, team seats." That is iteration-mode product management, not the 15-year reusability commitment SpaceX made in 2008. The Vercel engineering blog feature is a distribution win, not a definite-plan signal.
+
+Founder lineage is where Superset scores highest, and the counterfactual exposes how thin the rung is. For this dimension to flip from mid to high, one of the three would need to have shipped a product to genuine scale — Moskovitz-at-Facebook scale, Levchin-at-PayPal scale — not CTO at Onlook (W25, ~12 months old) or Untether Labs (W23, no public scale signal) or Adam (W25, CAD startup). Three YC CTO seats stacked is a credential, not a Mafia re-up. The Asana exception applied to Moskovitz because he had shipped the social graph for a billion users; nothing in the Superset dossier crosses that threshold, including Patel's earlier IC roles at Google, Amazon, and Facebook.
+
+Single-anchor parallel on atoms-heavy moat: Anduril's structural barrier was the cost-plus contracting regime that Lockheed could not escape and the capex of building solid-state radar. Superset is pure TypeScript over CLI subprocesses with an Elastic License 2.0 repo; there is no regulatory certification depth, no capex barrier, no government customer creating switching costs. This is the "140 characters, not flying cars" category my 2011 manifesto attacked, and the default 2/10 applies.
+
+The 36-month forecast: Superset is acquired for $30-80M by GitHub, Vercel, or a second-tier agent platform within 24 months as an acqui-hire-plus-product, or it persists as a $4-12M ARR dev tool that never breaks out, while Anthropic and Cursor ship native multi-session orchestration as a feature in 2026-2027 and compress the category. The mechanism is straightforward: wrapper-layer companies in front of foundation-model-vendor CLIs have a maximum durable margin equal to whatever the vendor chooses not to ship, and Anthropic has every incentive to ship it.
+
+The strongest bull case invokes the Asana exception: Moskovitz violated the atoms-heavy criterion and the contrarian-secret criterion, and the operator-pedigree override carried the check to a public-company outcome. The bull would argue Superset is the same shape — three repeat YC operators in a category that looks consensus but compounds via workflow lock-in, with 11.4k stars in five months as the early Asana-shaped signal. The bear dismantling is that Moskovitz had shipped Facebook to ~500M users before starting Asana; Ho, Patel, and Peltz have shipped three early-stage YC companies whose scale is not publicly verified, and the Adam (CAD), Onlook (visual editor), and Untether Labs companies do not produce the Facebook-grade operator signal the exception requires. The verdict flips to invest if a single fact appears: Anthropic, OpenAI, or GitHub publicly commits to keeping their agent CLIs open and refuses to ship native multi-agent orchestration — that vendor-non-aggression pact would transform Superset's platform-dependency risk into a structural moat. Absent that, this is a pass.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Contrarian Secret with Named Incumbent Failure Mode | 9/35 |
+| Monopoly Trajectory with Pricing Power Hypothesis | 8/25 |
+| Definite Founder Plan vs Indefinite Iteration | 5/15 |
+| Founder Lineage / Verified Operator Pedigree | 8/15 |
+| Atoms-Heavy or Regulated-Sector Structural Moat | 2/10 |
+| **Total** | **32/100** |
+
+**Total Score: 32/100** (Pass)

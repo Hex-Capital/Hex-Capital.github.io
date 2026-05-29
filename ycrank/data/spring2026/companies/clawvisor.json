@@ -40,6 +40,10 @@
     "peter-thiel": {
       "score": 38,
       "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -48,11 +52,11 @@
     "NR": 57,
     "PG": 56,
     "PT": 38,
-    "SL": null,
+    "SL": 31,
     "VK": null
   },
-  "consolidatedAvg": 52.4,
-  "consolidatedRank": 34,
+  "consolidatedAvg": 48.83,
+  "consolidatedRank": 40,
   "paths": {
     "memo": "spring2026/memos/clawvisor.md",
     "evals": {
@@ -60,7 +64,8 @@
       "elad-gil": "spring2026/evals/elad-gil/clawvisor.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/clawvisor.md",
       "paul-graham": "spring2026/evals/paul-graham/clawvisor.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/clawvisor.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/clawvisor.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/clawvisor.md"
     }
   }
 }

@@ -40,6 +40,10 @@
     "peter-thiel": {
       "score": 33,
       "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 36,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -48,11 +52,11 @@
     "NR": 37,
     "PG": 50,
     "PT": 33,
-    "SL": null,
+    "SL": 36,
     "VK": null
   },
-  "consolidatedAvg": 43,
-  "consolidatedRank": 116,
+  "consolidatedAvg": 41.83,
+  "consolidatedRank": 100,
   "paths": {
     "memo": "spring2026/memos/advanced-metal-research.md",
     "evals": {
@@ -60,7 +64,8 @@
       "elad-gil": "spring2026/evals/elad-gil/advanced-metal-research.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/advanced-metal-research.md",
       "paul-graham": "spring2026/evals/paul-graham/advanced-metal-research.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/advanced-metal-research.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/advanced-metal-research.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/advanced-metal-research.md"
     }
   }
 }

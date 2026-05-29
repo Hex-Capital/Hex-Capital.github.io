@@ -38,6 +38,10 @@
     "paul-graham": {
       "score": 52,
       "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 31,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -45,11 +49,11 @@
     "EG": 30,
     "NR": 44,
     "PG": 52,
-    "PT": null,
+    "PT": 31,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 46.5,
+  "consolidatedAvg": 43.4,
   "consolidatedRank": 84,
   "paths": {
     "memo": "spring2026/memos/saudara-ai.md",
@@ -57,7 +61,8 @@
       "cyan-banister": "spring2026/evals/cyan-banister/saudara-ai.md",
       "elad-gil": "spring2026/evals/elad-gil/saudara-ai.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/saudara-ai.md",
-      "paul-graham": "spring2026/evals/paul-graham/saudara-ai.md"
+      "paul-graham": "spring2026/evals/paul-graham/saudara-ai.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/saudara-ai.md"
     }
   }
 }

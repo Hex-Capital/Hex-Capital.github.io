@@ -36,6 +36,10 @@
     "paul-graham": {
       "score": 41,
       "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 25,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -43,19 +47,20 @@
     "EG": 38,
     "NR": 49,
     "PG": 41,
-    "PT": null,
+    "PT": 25,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 41.75,
-  "consolidatedRank": 133,
+  "consolidatedAvg": 38.4,
+  "consolidatedRank": 141,
   "paths": {
     "memo": "spring2026/memos/youart.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/youart.md",
       "elad-gil": "spring2026/evals/elad-gil/youart.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/youart.md",
-      "paul-graham": "spring2026/evals/paul-graham/youart.md"
+      "paul-graham": "spring2026/evals/paul-graham/youart.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/youart.md"
     }
   }
 }

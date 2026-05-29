@@ -39,6 +39,10 @@
     "peter-thiel": {
       "score": 57,
       "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 39,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -47,11 +51,11 @@
     "NR": 40,
     "PG": 62,
     "PT": 57,
-    "SL": null,
+    "SL": 39,
     "VK": null
   },
-  "consolidatedAvg": 51.4,
-  "consolidatedRank": 40,
+  "consolidatedAvg": 49.33,
+  "consolidatedRank": 34,
   "paths": {
     "memo": "spring2026/memos/apollo-atomics-inc.md",
     "evals": {
@@ -59,7 +63,8 @@
       "elad-gil": "spring2026/evals/elad-gil/apollo-atomics-inc.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/apollo-atomics-inc.md",
       "paul-graham": "spring2026/evals/paul-graham/apollo-atomics-inc.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/apollo-atomics-inc.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/apollo-atomics-inc.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/apollo-atomics-inc.md"
     }
   }
 }

@@ -40,6 +40,10 @@
     "peter-thiel": {
       "score": 56,
       "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 35,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -48,11 +52,11 @@
     "NR": 48,
     "PG": 57,
     "PT": 56,
-    "SL": null,
+    "SL": 35,
     "VK": null
   },
-  "consolidatedAvg": 54.4,
-  "consolidatedRank": 21,
+  "consolidatedAvg": 51.17,
+  "consolidatedRank": 23,
   "paths": {
     "memo": "spring2026/memos/huscarl.md",
     "evals": {
@@ -60,7 +64,8 @@
       "elad-gil": "spring2026/evals/elad-gil/huscarl.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/huscarl.md",
       "paul-graham": "spring2026/evals/paul-graham/huscarl.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/huscarl.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/huscarl.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/huscarl.md"
     }
   }
 }

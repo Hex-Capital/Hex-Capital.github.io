@@ -1,0 +1,30 @@
+﻿# Result -- Peter Thiel Evaluation
+
+Result is a credentialed-outsider-led consumer SaaS bundle — Savio Martin is exactly the Thiel-Fellowship-shaped founder my filter is trained to over-weight (19, skipped college, Product Hunt Maker of the Year 2021, top GitHub repo at 961 stars), and yet Result the company is the canonical pure-software bundle with no atoms, no regulated moat, and no named incumbent failure mode. The dimensional signature is high lineage paired with low structural moat and a missing contrarian secret. That is the Asana-shaped profile without the Moskovitz-shaped override.
+
+**Stripe** (2010) is the high rung on the contrarian-secret ladder I care about: Patrick Collison named a specific incumbent failure mode — PayPal could not ship developer-first payments because its merchant-side organization was structurally allergic to seven lines of curl. Result's analogous secret would need to name why Stripe Atlas, Mercury, and Doola cannot ship operational AI agents. The dossier instead reads "Stripe Atlas/Clerky/Doola only handle incorporation + banking; Result adds product launch + ongoing operational AI agents" — that is a feature-list expansion, not a secret. Mercury at $650M ARR with 300K customers and $700M raised can bundle operational agents next quarter; the dossier itself flags this as the central risk. The Collison-shaped move is absent.
+
+**Quora** (2010) is the low rung on the monopoly-trajectory ladder — Adam D'Angelo built into a category structurally crowded by Stack Overflow and Yahoo Answers and the moat thesis terminated at "knowledge graph compounds." Result presents the same shape: a 2-person team attacking the surface area of Doola, Mercury, Firstbase, Clerky, and Stripe Atlas simultaneously, with the moat hypothesis terminating at "workflow lock-in if a founder's incorporation, banking, payments, support history, and content all live in Result." The Quora override was D'Angelo's Facebook-CTO pedigree; Result has Savio Martin's Product Hunt resume, which is not the same instrument. The pattern is present and not overridden.
+
+On definite-plan-vs-iteration, Result fails by direct enumeration. The dossier lists seven surfaces — incorporation, banking, payments, product hosting, marketing, support, content, growth — bundled by a two-person team with no public technical milestone, no partner BaaS disclosed, no pricing, only a waitlist. **SpaceX** (2008) was a 15-year reusability roadmap I could draw on a napkin; Result over 18 months compounds the opposite — each new surface dilutes shipping velocity, each unshipped surface invites Mercury or Doola to claim the operational-agent layer first. This is the indefinite-optimism shape Zero to One was written against.
+
+On founder lineage, Result's score is carried entirely by Savio Martin and partly undone by his co-founder. Savio at 19 with a #5-in-App-Store ship, 961-star `codehouse` repo, 50.5K X followers, and Maker of the Year is exactly the credentialed-outsider signal the Thiel Fellowship was designed to surface — not PayPal Mafia, but the adjacent pattern. Aaryan Kushwah is 17, runs 90nine.in, won TreeHacks 2026, and has a Coinbase Crypternship in Summer 2026 overlapping the YC batch — that last fact is the tell. The counterfactual for a tier-flip here: if the co-founder were a shipped-to-scale operator from Stripe, Mercury, or a prior YC fintech, this dimension lands at Affirm-Levchin territory and the whole evaluation re-rates. It does not.
+
+On atoms-heavy or regulated structural moat, Result is the pure-software default. Banking and payments touch regulation only through partner BaaS providers, none disclosed on result.dev as of May 2026. Compare to **Affirm** (2014), where regulated-lending capital requirements and a state-by-state licensing surface created a moat Levchin could compound for a decade. Result has none of that. The "we wanted flying cars" lens applies cleanly here — this is 140-characters-shaped capital, not atoms-shaped.
+
+The 36-month forecast: Result reaches under $3M ARR on a narrowed AI-marketing-or-support agent for solo founders, or shuts down, with no acquirer interest from Mercury or Stripe because the bundle is replicable in a quarter. The mechanism is the dimensional signature — credentialed-outsider founders with real distribution can ship a consumer product, but a consumer-SaaS bundle with no contrarian secret and no atoms-moat compounds into either a feature inside Mercury's roadmap or a tab in Stripe Atlas, not a monopoly.
+
+The strongest opposing case rhymes with **Asana** (2010), my own Known Exception: pure SaaS, weak structural moat, consensus category, override carried by founder lineage. Savio Martin has the distribution — 50.5K X followers, a #5 App Store ship, Maker of the Year — to run a Product-Hunt-shaped consumer loop into the long tail of micro-founders that Mercury structurally cannot serve at unit economics. The bull case stings because Thiel-Fellowship-archetype founders are exactly the population I have over-weighted for fifteen years. It loses on the specific evidence: Moskovitz had shipped Facebook to a billion users before Asana; Savio has shipped consumer side projects with no exit, and the override bar is shipped-to-scale, not shipped-to-traction. Verifiable flip condition: if Result shows 10,000 paying founder-customers actively using AI operational agents with measurable retention within 18 months — real workflow lock-in beyond what Mercury/Doola have demonstrated — I re-rate. Absent that, the consensus AI-agent-layer wave funds this and I pass.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Contrarian Secret with Named Incumbent Failure Mode | 9/35 |
+| Monopoly Trajectory with Pricing Power Hypothesis | 6/25 |
+| Definite Founder Plan vs Indefinite Iteration | 4/15 |
+| Founder Lineage / Verified Operator Pedigree | 8/15 |
+| Atoms-Heavy or Regulated-Sector Structural Moat | 2/10 |
+| **Total** | **29/100** |
+
+**Total Score: 29/100** (Pass)

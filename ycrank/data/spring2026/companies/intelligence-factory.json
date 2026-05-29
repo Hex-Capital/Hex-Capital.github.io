@@ -39,6 +39,10 @@
     "peter-thiel": {
       "score": 43,
       "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 24,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -47,11 +51,11 @@
     "NR": 48,
     "PG": 54,
     "PT": 43,
-    "SL": null,
+    "SL": 24,
     "VK": null
   },
-  "consolidatedAvg": 46.6,
-  "consolidatedRank": 83,
+  "consolidatedAvg": 42.83,
+  "consolidatedRank": 88,
   "paths": {
     "memo": "spring2026/memos/intelligence-factory.md",
     "evals": {
@@ -59,7 +63,8 @@
       "elad-gil": "spring2026/evals/elad-gil/intelligence-factory.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/intelligence-factory.md",
       "paul-graham": "spring2026/evals/paul-graham/intelligence-factory.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/intelligence-factory.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/intelligence-factory.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/intelligence-factory.md"
     }
   }
 }

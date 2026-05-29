@@ -38,6 +38,10 @@
     "paul-graham": {
       "score": 61,
       "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 39,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -45,19 +49,20 @@
     "EG": 48,
     "NR": 36,
     "PG": 61,
-    "PT": null,
+    "PT": 39,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 48,
-  "consolidatedRank": 72,
+  "consolidatedAvg": 46.2,
+  "consolidatedRank": 59,
   "paths": {
     "memo": "spring2026/memos/smartbase.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/smartbase.md",
       "elad-gil": "spring2026/evals/elad-gil/smartbase.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/smartbase.md",
-      "paul-graham": "spring2026/evals/paul-graham/smartbase.md"
+      "paul-graham": "spring2026/evals/paul-graham/smartbase.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/smartbase.md"
     }
   }
 }

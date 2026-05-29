@@ -42,6 +42,10 @@
     "peter-thiel": {
       "score": 31,
       "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 28,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -50,11 +54,11 @@
     "NR": 44,
     "PG": 51,
     "PT": 31,
-    "SL": null,
+    "SL": 28,
     "VK": null
   },
-  "consolidatedAvg": 43.6,
-  "consolidatedRank": 109,
+  "consolidatedAvg": 41,
+  "consolidatedRank": 112,
   "paths": {
     "memo": "spring2026/memos/kelai.md",
     "evals": {
@@ -62,7 +66,8 @@
       "elad-gil": "spring2026/evals/elad-gil/kelai.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/kelai.md",
       "paul-graham": "spring2026/evals/paul-graham/kelai.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/kelai.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/kelai.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/kelai.md"
     }
   }
 }

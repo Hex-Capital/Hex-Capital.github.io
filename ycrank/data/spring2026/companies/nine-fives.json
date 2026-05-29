@@ -36,6 +36,14 @@
     "paul-graham": {
       "score": 76,
       "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 61,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 44,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -43,19 +51,21 @@
     "EG": 45,
     "NR": 47,
     "PG": 76,
-    "PT": null,
-    "SL": null,
+    "PT": 61,
+    "SL": 44,
     "VK": null
   },
-  "consolidatedAvg": 61.75,
-  "consolidatedRank": 2,
+  "consolidatedAvg": 58.67,
+  "consolidatedRank": 1,
   "paths": {
     "memo": "spring2026/memos/nine-fives.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/nine-fives.md",
       "elad-gil": "spring2026/evals/elad-gil/nine-fives.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/nine-fives.md",
-      "paul-graham": "spring2026/evals/paul-graham/nine-fives.md"
+      "paul-graham": "spring2026/evals/paul-graham/nine-fives.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/nine-fives.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/nine-fives.md"
     }
   }
 }

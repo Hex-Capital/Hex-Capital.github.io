@@ -36,6 +36,14 @@
     "paul-graham": {
       "score": 71,
       "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 65,
+      "tier": "Invest"
     }
   },
   "consolidatedScores": {
@@ -43,11 +51,11 @@
     "EG": 59,
     "NR": 51,
     "PG": 71,
-    "PT": null,
-    "SL": null,
+    "PT": 34,
+    "SL": 65,
     "VK": null
   },
-  "consolidatedAvg": 59.5,
+  "consolidatedAvg": 56.17,
   "consolidatedRank": 5,
   "paths": {
     "memo": "spring2026/memos/manicule.md",
@@ -55,7 +63,9 @@
       "cyan-banister": "spring2026/evals/cyan-banister/manicule.md",
       "elad-gil": "spring2026/evals/elad-gil/manicule.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/manicule.md",
-      "paul-graham": "spring2026/evals/paul-graham/manicule.md"
+      "paul-graham": "spring2026/evals/paul-graham/manicule.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/manicule.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/manicule.md"
     }
   }
 }

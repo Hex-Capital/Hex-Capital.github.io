@@ -36,6 +36,10 @@
     "paul-graham": {
       "score": 50,
       "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 26,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -43,19 +47,20 @@
     "EG": 31,
     "NR": 36,
     "PG": 50,
-    "PT": null,
+    "PT": 26,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 37.25,
-  "consolidatedRank": 170,
+  "consolidatedAvg": 35,
+  "consolidatedRank": 172,
   "paths": {
     "memo": "spring2026/memos/uno-wallet.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/uno-wallet.md",
       "elad-gil": "spring2026/evals/elad-gil/uno-wallet.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/uno-wallet.md",
-      "paul-graham": "spring2026/evals/paul-graham/uno-wallet.md"
+      "paul-graham": "spring2026/evals/paul-graham/uno-wallet.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/uno-wallet.md"
     }
   }
 }

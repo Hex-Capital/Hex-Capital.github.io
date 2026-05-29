@@ -38,6 +38,10 @@
     "paul-graham": {
       "score": 32,
       "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 29,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -45,19 +49,20 @@
     "EG": 40,
     "NR": 42,
     "PG": 32,
-    "PT": null,
+    "PT": 29,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 36.5,
-  "consolidatedRank": 178,
+  "consolidatedAvg": 35,
+  "consolidatedRank": 173,
   "paths": {
     "memo": "spring2026/memos/valctrl.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/valctrl.md",
       "elad-gil": "spring2026/evals/elad-gil/valctrl.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/valctrl.md",
-      "paul-graham": "spring2026/evals/paul-graham/valctrl.md"
+      "paul-graham": "spring2026/evals/paul-graham/valctrl.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/valctrl.md"
     }
   }
 }

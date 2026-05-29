@@ -38,6 +38,10 @@
     "paul-graham": {
       "score": 62,
       "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 34,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -45,19 +49,20 @@
     "EG": 55,
     "NR": 43,
     "PG": 62,
-    "PT": null,
+    "PT": 34,
     "SL": null,
     "VK": null
   },
-  "consolidatedAvg": 50.75,
-  "consolidatedRank": 46,
+  "consolidatedAvg": 47.4,
+  "consolidatedRank": 52,
   "paths": {
     "memo": "spring2026/memos/sherpa.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/sherpa.md",
       "elad-gil": "spring2026/evals/elad-gil/sherpa.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/sherpa.md",
-      "paul-graham": "spring2026/evals/paul-graham/sherpa.md"
+      "paul-graham": "spring2026/evals/paul-graham/sherpa.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/sherpa.md"
     }
   }
 }

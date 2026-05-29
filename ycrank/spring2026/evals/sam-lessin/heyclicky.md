@@ -1,0 +1,30 @@
+﻿# HeyClicky -- Sam Lessin Evaluation
+
+HeyClicky is what happens when a creator-distribution asset (Farza Majeed, 108.6K followers @FarzaTV, 5.8K GitHub stars on farzaa/clicky) gets jammed into the most consensus YC category of Spring 2026 (general-purpose macOS AI agents, adjacent to Cluely's $20.3M raise and Granola's $1.5B valuation). The asset hiding in this dossier is Farza, not Clicky. The wrapper around the asset is exactly the wrapper I won't pay for.
+
+On the founder-as-brand axis HeyClicky is the dimension where this dossier actually loads. John Fish / Bookshelved is the right reference rung -- a creator with owned literary distribution that I underwrote in January 2024 because the audience pre-existed the company and was the cap-table asset. Farza brings 108.6K X followers, an MIT-licensed repo at ~5.8K-6.1K stars, a YouTube demo, and an alumni graph from buildspace's $10M-funded edu-community that he ran before voluntarily shutting it down in August 2024. That is genuinely venture-shaped distribution at pre-seed. Where HeyClicky diverges from the Bookshelved frame is that John's audience attaches to a niche entrepreneurial vertical I could story-broker into a holdco-style asset; Farza's audience is a generalist builder following attached to whatever Farza ships next -- which is closer to the Mogilko / LinguaTrip diagnosis than the YC seed diagnosis, and the dossier shows zero indication HeyClicky's round is structured to capture that.
+
+The category sleeve is where HeyClicky fails the screen hardest, and the failure mechanism is the canonical Pass Example. "We're building an AI agent" priced at the YC consensus, into a market where Cluely already pulled $15M Series A from a16z in June 2025 and Granola crossed $1.5B post-$125M Series C in March 2026, with Apple Intelligence sitting as the platform substitution risk and an MIT-licensed open-source repo that Farza himself invited the public to fork ("Go forth into the wild...") -- that is the AI-as-more-internet sleeve I said on the Lonsdale pod is structurally not a venture sleeve. Every dollar that flows into HeyClicky's category at seed pricing in 2026 is, in my frame, paying Series-B prices for commodity exposure.
+
+Round dynamics on HeyClicky: the dossier is silent on price and syndicate, but I'm not going to give silence the benefit of the doubt here. A second-time YC founder with 108.6K followers, a viral open-source repo, and a four-week-old product in the hottest YC category of the batch produces an oversubscribed round at a premium -- that is the regatta-starting-line at exactly the price I cannot underwrite. The mechanism compounds the wrong way over 18 months: Farza's distribution drives signups, signups drive a markup, the markup locks HeyClicky into a SaaS cap table requiring five tacks to default-alive against incumbents with 10-50x the capital.
+
+Capital structure: HeyClicky is free-Mac-download with no pricing on heyclicky.com, an open-source MIT codebase, and per-call LLM costs that scale linearly with usage. The counterfactual that flips this dimension up a tier is straightforward and specific: HeyClicky is structured as a Farza-holdco position -- 5% of Farza's next decade of company outputs, not equity in Clicky-the-product. That instrument would underwrite the buildspace shutdown as a feature (he returns capital when the idea is dead, which is the right behavior) rather than a red flag. Absent that structure, HeyClicky is a generic SaaS cap table with a four-week-old product and a founder who already proved he'll voluntarily wind down a $100M-post company when the conviction breaks.
+
+Founder conviction on HeyClicky cuts both directions and lands net-negative for me. Farza writes publicly, ships in the open, has missionary range on education-as-distribution -- the buildspace community + OpenAI sponsorships arc is real pre-pitch evidence. But the August 2024 shutdown letter -- "unable to craft an updated direction that feels worth pursuing" after $10M raised at $100M -- is the exact pattern I screen against: the founder who doesn't "weather the downs" but instead returns the keys when the narrative dims. For Clicky-the-product specifically, four weeks of work plus an MIT release that invites forks reads as Farza exploring rather than Farza committed for the seven-year regatta.
+
+Forecast for HeyClicky over 36 months: shuts down voluntarily or quietly pivots out of the macOS-agent thesis within 24 months, with Farza redirecting to a fourth project, repeating the buildspace pattern; alternatively, sub-$30M acqui-hire into Granola or a Mac-utility roll-up. I do not see the $50M+ revenue path against Cluely, Granola, and Apple Intelligence with an MIT-licensed codebase as the differentiation surface.
+
+The strongest bull case against my forecast on HeyClicky is the Mogilko/John Fish override -- back the person at any price because Farza's owned distribution compounds across whatever he builds next, and the buildspace shutdown is evidence of intellectual honesty rather than fragility (he returned capital rather than zombie-walked, which is the behavior I claim to want). That sting is real. What kills it is the dossier showing zero evidence of a non-standard instrument: HeyClicky is being financed as Clicky-the-Mac-app equity, not as Farza-the-asset. The condition that would flip my verdict is verifiable and specific: HeyClicky's round is structured as a Slow-Creator-Fund-style holdco position on Farza personally, priced below the YC batch median, with the AI Mac agent treated as one tack in a multi-decade regatta. Until that term sheet exists, I'm out.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Round Is Mis-Priced or Non-Consensus, Not the Hot YC Deck | 6/30 |
+| Capital Structure Is Venture-Shaped, Not Founder-Drainage | 6/22 |
+| Founder Has Asymmetric Conviction Visible Pre-Pitch | 9/20 |
+| Founder-as-Brand or Owned Community Is on the Cap Table | 11/15 |
+| Category Lives in a Sleeve You're Already Convicted On | 3/13 |
+| **Total** | **35/100** |
+
+**Total Score: 35/100** (Pass)

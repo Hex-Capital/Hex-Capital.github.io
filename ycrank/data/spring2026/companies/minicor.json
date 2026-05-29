@@ -31,6 +31,14 @@
     "paul-graham": {
       "score": 62,
       "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -38,19 +46,21 @@
     "EG": 56,
     "NR": 42,
     "PG": 62,
-    "PT": null,
-    "SL": null,
+    "PT": 37,
+    "SL": 31,
     "VK": null
   },
-  "consolidatedAvg": 52,
-  "consolidatedRank": 37,
+  "consolidatedAvg": 46,
+  "consolidatedRank": 63,
   "paths": {
     "memo": "spring2026/memos/minicor.md",
     "evals": {
       "cyan-banister": "spring2026/evals/cyan-banister/minicor.md",
       "elad-gil": "spring2026/evals/elad-gil/minicor.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/minicor.md",
-      "paul-graham": "spring2026/evals/paul-graham/minicor.md"
+      "paul-graham": "spring2026/evals/paul-graham/minicor.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/minicor.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/minicor.md"
     }
   }
 }

@@ -39,6 +39,10 @@
     "sam-lessin": {
       "score": 29,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 33,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -48,10 +52,10 @@
     "PG": 54,
     "PT": 30,
     "SL": 29,
-    "VK": null
+    "VK": 33
   },
-  "consolidatedAvg": 42.67,
-  "consolidatedRank": 89,
+  "consolidatedAvg": 41.29,
+  "consolidatedRank": 87,
   "paths": {
     "memo": "spring2026/memos/gojiberry-ai.md",
     "evals": {
@@ -60,7 +64,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/gojiberry-ai.md",
       "paul-graham": "spring2026/evals/paul-graham/gojiberry-ai.md",
       "peter-thiel": "spring2026/evals/peter-thiel/gojiberry-ai.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/gojiberry-ai.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/gojiberry-ai.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/gojiberry-ai.md"
     }
   }
 }

@@ -45,6 +45,10 @@
     "sam-lessin": {
       "score": 26,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 28,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -54,9 +58,9 @@
     "PG": 38,
     "PT": 23,
     "SL": 26,
-    "VK": null
+    "VK": 28
   },
-  "consolidatedAvg": 31.83,
+  "consolidatedAvg": 31.29,
   "consolidatedRank": 187,
   "paths": {
     "memo": "spring2026/memos/gravy.md",
@@ -66,7 +70,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/gravy.md",
       "paul-graham": "spring2026/evals/paul-graham/gravy.md",
       "peter-thiel": "spring2026/evals/peter-thiel/gravy.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/gravy.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/gravy.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/gravy.md"
     }
   }
 }

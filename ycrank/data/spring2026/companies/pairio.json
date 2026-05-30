@@ -44,6 +44,10 @@
     "sam-lessin": {
       "score": 32,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 33,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -53,10 +57,10 @@
     "PG": 59,
     "PT": 33,
     "SL": 32,
-    "VK": null
+    "VK": 33
   },
-  "consolidatedAvg": 40.5,
-  "consolidatedRank": 119,
+  "consolidatedAvg": 39.43,
+  "consolidatedRank": 108,
   "paths": {
     "memo": "spring2026/memos/pairio.md",
     "evals": {
@@ -65,7 +69,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/pairio.md",
       "paul-graham": "spring2026/evals/paul-graham/pairio.md",
       "peter-thiel": "spring2026/evals/peter-thiel/pairio.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/pairio.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/pairio.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/pairio.md"
     }
   }
 }

@@ -39,6 +39,10 @@
     "sam-lessin": {
       "score": 46,
       "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 46,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
@@ -48,10 +52,10 @@
     "PG": 71,
     "PT": 41,
     "SL": 46,
-    "VK": null
+    "VK": 46
   },
-  "consolidatedAvg": 55,
-  "consolidatedRank": 8,
+  "consolidatedAvg": 53.71,
+  "consolidatedRank": 6,
   "paths": {
     "memo": "spring2026/memos/clara-2.md",
     "evals": {
@@ -60,7 +64,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/clara-2.md",
       "paul-graham": "spring2026/evals/paul-graham/clara-2.md",
       "peter-thiel": "spring2026/evals/peter-thiel/clara-2.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/clara-2.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/clara-2.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/clara-2.md"
     }
   }
 }

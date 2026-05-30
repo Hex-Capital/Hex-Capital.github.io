@@ -44,6 +44,10 @@
     "sam-lessin": {
       "score": 29,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 31,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -53,10 +57,10 @@
     "PG": 59,
     "PT": 39,
     "SL": 29,
-    "VK": null
+    "VK": 31
   },
-  "consolidatedAvg": 48.33,
-  "consolidatedRank": 45,
+  "consolidatedAvg": 45.86,
+  "consolidatedRank": 41,
   "paths": {
     "memo": "spring2026/memos/arga-labs.md",
     "evals": {
@@ -65,7 +69,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/arga-labs.md",
       "paul-graham": "spring2026/evals/paul-graham/arga-labs.md",
       "peter-thiel": "spring2026/evals/peter-thiel/arga-labs.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/arga-labs.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/arga-labs.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/arga-labs.md"
     }
   }
 }

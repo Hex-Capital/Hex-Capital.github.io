@@ -41,6 +41,14 @@
     "peter-thiel": {
       "score": 53,
       "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 34,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -49,11 +57,11 @@
     "NR": 43,
     "PG": 69,
     "PT": 53,
-    "SL": null,
-    "VK": null
+    "SL": 44,
+    "VK": 34
   },
-  "consolidatedAvg": 56.6,
-  "consolidatedRank": 4,
+  "consolidatedAvg": 51.57,
+  "consolidatedRank": 14,
   "paths": {
     "memo": "spring2026/memos/runharbor.md",
     "evals": {
@@ -61,7 +69,9 @@
       "elad-gil": "spring2026/evals/elad-gil/runharbor.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/runharbor.md",
       "paul-graham": "spring2026/evals/paul-graham/runharbor.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/runharbor.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/runharbor.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/runharbor.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/runharbor.md"
     }
   }
 }

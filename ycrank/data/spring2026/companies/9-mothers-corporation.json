@@ -46,6 +46,10 @@
     "sam-lessin": {
       "score": 31,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 43,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -55,10 +59,10 @@
     "PG": 61,
     "PT": 52,
     "SL": 31,
-    "VK": null
+    "VK": 43
   },
-  "consolidatedAvg": 47,
-  "consolidatedRank": 54,
+  "consolidatedAvg": 46.43,
+  "consolidatedRank": 37,
   "paths": {
     "memo": "spring2026/memos/9-mothers-corporation.md",
     "evals": {
@@ -67,7 +71,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/9-mothers-corporation.md",
       "paul-graham": "spring2026/evals/paul-graham/9-mothers-corporation.md",
       "peter-thiel": "spring2026/evals/peter-thiel/9-mothers-corporation.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/9-mothers-corporation.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/9-mothers-corporation.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/9-mothers-corporation.md"
     }
   }
 }

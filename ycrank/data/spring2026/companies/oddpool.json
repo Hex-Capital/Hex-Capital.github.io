@@ -44,6 +44,10 @@
     "sam-lessin": {
       "score": 36,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 21,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -53,10 +57,10 @@
     "PG": 56,
     "PT": 37,
     "SL": 36,
-    "VK": null
+    "VK": 21
   },
-  "consolidatedAvg": 44,
-  "consolidatedRank": 78,
+  "consolidatedAvg": 40.71,
+  "consolidatedRank": 95,
   "paths": {
     "memo": "spring2026/memos/oddpool.md",
     "evals": {
@@ -65,7 +69,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/oddpool.md",
       "paul-graham": "spring2026/evals/paul-graham/oddpool.md",
       "peter-thiel": "spring2026/evals/peter-thiel/oddpool.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/oddpool.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/oddpool.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/oddpool.md"
     }
   }
 }

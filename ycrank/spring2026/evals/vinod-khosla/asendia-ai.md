@@ -1,0 +1,30 @@
+﻿# Asendia AI -- Vinod Khosla Evaluation
+
+Asendia AI is a commodity-LLM wrapper sold into the recruiter seat of a $178.7B staffing market -- a company whose highest score on my framework is the labor-displacement consequence and whose lowest is the absence of any technical miracle the consensus VC pool would not also underwrite. Rihab Lajmi and Badis Zormati are cloud engineers from Microsoft and Google building voice/SMS agents on top of off-the-shelf models with 50+ ATS connectors. That is a product. It is not a science bet, and the success-state does not redraw an incumbent regime -- it makes Bullhorn and JobDiva customers slightly faster.
+
+**OpenAI** (2019) is the consequence-magnitude HIGH rung I keep coming back to: a no-revenue check where the success-state was civilizational reallocation of cognitive labor. Asendia AI gestures at the same $15T labor-displacement frame I laid out in Fortune (2026-03-06) -- "doubled hires per recruiter" at FSTAFF, "3-week to same-day shortlist" on asendia.ai -- but the mechanism that breaks if Asendia AI wins is recruiter headcount inside staffing agencies, not the staffing market itself. SGF Global still places candidates; the agency still collects margin; the only thing that disappears is the human screener. That is real but bounded. **DoorDash** (2013) reshaped consumer-commerce flow; Asendia AI reshapes a back-office cost line. The dossier never names an incumbent system that collapses -- it names percentage improvements inside one. That is the inversion of my Outlook Business directive.
+
+The pass example I gave -- "GPT-4 to summarize sales calls, integrates with HubSpot" -- is structurally the same shape as Asendia AI, just pointed at recruiters instead of AEs. Off-the-shelf LLM, vertical workflow, integration surface area as the supposed moat. Asendia AI lists HIPAA, GDPR, SOC 2 Type I, ISO 27001 and 50+ ATS integrations as the moat on asendia.ai. Those are checklists, not miracles. Mercor closed a $350M Series C at a $10B valuation in October 2025 (CNBC); Paradox.ai and Moonhub sit in the same product polygon. None of them required a fusion-magnet breakthrough or a catalyst-yield miracle. Any Tier-1 generalist can fund Asendia AI -- which is the precise condition under which I am over-resourced and add no edge.
+
+On founder profile, Asendia AI is closer to the **Glean** exception than to the **Physical Intelligence** (2024) Levine/Finn pattern -- but without the Glean override. Lajmi and Zormati are ex-Microsoft Munich and ex-Google cloud engineers with six years at Infineon between them and zero documented years inside the staffing industry. There is no Sergey Levine here, no publicly contradicted field, no "too important not to do" framing. The closest signal -- Lajmi as "first Tunisian woman accepted into Y Combinator" -- is a credential, not a defied-consensus position. My TED Talk skepticism of expert continuity applies in the inverse direction: they are not domain experts continuing a playbook, but they are also not domain-defiers; they are engineers picking a vertical.
+
+On learning rate, the **Slash** (2024) pattern that justified the $100M Series C was a publicly told pivot -- Kanye West, the real story, the visible thesis update. Asendia AI's dossier shows a single linear plan since the September 2024 pre-seed: clone recruiter, sell to staffing agency, integrate ATS. No pivot, no public thesis update, no "we were wrong about X" moment from Lajmi or Zormati. I do not penalize aggressively for an 18-month-old company, but I cannot apply the Slash override without the override's load-bearing fact.
+
+On capital fit, Asendia AI's economics over 36 months will look like commodity SaaS -- $5-10M to scale a sales motion against Mercor, Paradox.ai, and Moonhub. The undisclosed pre-seed closed November 2024 with six angels and a Founding Engineer posted at $150-180K. That is not a check Khosla Ventures writes; that is a check any seed fund writes. **Commonwealth Fusion** (2019) needed $115M to get to a working tokamak. Asendia AI needs a GTM hire.
+
+My 36-month forecast: Asendia AI reaches $3-8M ARR inside the staffing-agency channel, faces Mercor and Paradox.ai pricing pressure, and is acquired by Bullhorn or JobDiva for under $100M as a defensive feature buy -- or, the more likely outcome on my failure-tolerant prior, sub-scales and shuts down quietly in 2028 as Mercor's $10B-valuation distribution swallows the wedge. The mechanism is straightforward: when the moat is integration breadth on commodity LLMs, the player with the largest distribution and the lowest cost of capital wins, and that is not Asendia AI.
+
+The strongest bull case against me is the Slash exception transplanted: YC pedigree (P26, Tom Blomfield partner), a real customer with named revenue ($500K+ within months), and the labor-displacement frame that I myself argued in Fortune (2025-07-01) covers 80% of jobs by 2030. If Lajmi and Zormati show a documented pivot in the next twelve months -- moving from "recruiter clone" to, say, a recruiter-replacement marketplace that disintermediates SGF Global entirely -- the consequence-magnitude tier flips. The dismantling fact is that the override Slash needed was a *prior* pivot already in the record; Asendia AI has not earned that override yet. The single verifiable condition that would flip my verdict: Asendia AI publicly walks away from selling into staffing agencies and instead places candidates itself, taking the agency's margin rather than the recruiter's seat -- because then the incumbent regime collapsing is staffing agencies, and that is a different consequence variable entirely.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Consequence Magnitude If Company Wins | 11/30 |
+| Technical or Capital Risk That Repels Consensus VCs | 6/25 |
+| Founder Defies Documented Expert Consensus | 6/20 |
+| Founder Learning Rate, Demonstrated By Prior Pivot Or Thesis Update | 6/15 |
+| Required-Capital Profile Matches Khosla Check Size | 3/10 |
+| **Total** | **32/100** |
+
+**Total Score: 32/100** (Pass)

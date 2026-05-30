@@ -43,6 +43,10 @@
     "sam-lessin": {
       "score": 39,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 71,
+      "tier": "Invest"
     }
   },
   "consolidatedScores": {
@@ -52,10 +56,10 @@
     "PG": 62,
     "PT": 57,
     "SL": 39,
-    "VK": null
+    "VK": 71
   },
-  "consolidatedAvg": 49.33,
-  "consolidatedRank": 34,
+  "consolidatedAvg": 52.43,
+  "consolidatedRank": 11,
   "paths": {
     "memo": "spring2026/memos/apollo-atomics-inc.md",
     "evals": {
@@ -64,7 +68,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/apollo-atomics-inc.md",
       "paul-graham": "spring2026/evals/paul-graham/apollo-atomics-inc.md",
       "peter-thiel": "spring2026/evals/peter-thiel/apollo-atomics-inc.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/apollo-atomics-inc.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/apollo-atomics-inc.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/apollo-atomics-inc.md"
     }
   }
 }

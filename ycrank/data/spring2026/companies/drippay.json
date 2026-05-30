@@ -45,6 +45,10 @@
     "sam-lessin": {
       "score": 25,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 23,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -54,10 +58,10 @@
     "PG": 40,
     "PT": 28,
     "SL": 25,
-    "VK": null
+    "VK": 23
   },
-  "consolidatedAvg": 34.5,
-  "consolidatedRank": 178,
+  "consolidatedAvg": 32.86,
+  "consolidatedRank": 177,
   "paths": {
     "memo": "spring2026/memos/drippay.md",
     "evals": {
@@ -66,7 +70,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/drippay.md",
       "paul-graham": "spring2026/evals/paul-graham/drippay.md",
       "peter-thiel": "spring2026/evals/peter-thiel/drippay.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/drippay.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/drippay.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/drippay.md"
     }
   }
 }

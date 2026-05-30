@@ -44,6 +44,10 @@
     "sam-lessin": {
       "score": 25,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 26,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -53,10 +57,10 @@
     "PG": 42,
     "PT": 23,
     "SL": 25,
-    "VK": null
+    "VK": 26
   },
-  "consolidatedAvg": 34.33,
-  "consolidatedRank": 179,
+  "consolidatedAvg": 33.14,
+  "consolidatedRank": 176,
   "paths": {
     "memo": "spring2026/memos/centralcoms.md",
     "evals": {
@@ -65,7 +69,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/centralcoms.md",
       "paul-graham": "spring2026/evals/paul-graham/centralcoms.md",
       "peter-thiel": "spring2026/evals/peter-thiel/centralcoms.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/centralcoms.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/centralcoms.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/centralcoms.md"
     }
   }
 }

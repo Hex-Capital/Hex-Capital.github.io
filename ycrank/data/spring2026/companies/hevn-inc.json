@@ -46,6 +46,10 @@
     "sam-lessin": {
       "score": 45,
       "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 43,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -55,10 +59,10 @@
     "PG": 70,
     "PT": 49,
     "SL": 45,
-    "VK": null
+    "VK": 43
   },
-  "consolidatedAvg": 52.83,
-  "consolidatedRank": 17,
+  "consolidatedAvg": 51.43,
+  "consolidatedRank": 16,
   "paths": {
     "memo": "spring2026/memos/hevn-inc.md",
     "evals": {
@@ -67,7 +71,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/hevn-inc.md",
       "paul-graham": "spring2026/evals/paul-graham/hevn-inc.md",
       "peter-thiel": "spring2026/evals/peter-thiel/hevn-inc.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/hevn-inc.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/hevn-inc.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/hevn-inc.md"
     }
   }
 }

@@ -45,6 +45,10 @@
     "sam-lessin": {
       "score": 26,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 30,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -54,10 +58,10 @@
     "PG": 48,
     "PT": 31,
     "SL": 26,
-    "VK": null
+    "VK": 30
   },
-  "consolidatedAvg": 36,
-  "consolidatedRank": 166,
+  "consolidatedAvg": 35.14,
+  "consolidatedRank": 167,
   "paths": {
     "memo": "spring2026/memos/netter.md",
     "evals": {
@@ -66,7 +70,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/netter.md",
       "paul-graham": "spring2026/evals/paul-graham/netter.md",
       "peter-thiel": "spring2026/evals/peter-thiel/netter.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/netter.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/netter.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/netter.md"
     }
   }
 }

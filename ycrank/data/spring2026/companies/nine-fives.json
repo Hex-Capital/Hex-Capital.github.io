@@ -44,6 +44,10 @@
     "sam-lessin": {
       "score": 44,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 32,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -53,10 +57,10 @@
     "PG": 76,
     "PT": 61,
     "SL": 44,
-    "VK": null
+    "VK": 32
   },
-  "consolidatedAvg": 58.67,
-  "consolidatedRank": 1,
+  "consolidatedAvg": 54.86,
+  "consolidatedRank": 2,
   "paths": {
     "memo": "spring2026/memos/nine-fives.md",
     "evals": {
@@ -65,7 +69,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/nine-fives.md",
       "paul-graham": "spring2026/evals/paul-graham/nine-fives.md",
       "peter-thiel": "spring2026/evals/peter-thiel/nine-fives.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/nine-fives.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/nine-fives.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/nine-fives.md"
     }
   }
 }

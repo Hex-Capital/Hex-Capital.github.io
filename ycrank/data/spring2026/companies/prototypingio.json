@@ -41,6 +41,14 @@
     "peter-thiel": {
       "score": 31,
       "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 36,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -49,11 +57,11 @@
     "NR": 40,
     "PG": 44,
     "PT": 31,
-    "SL": null,
-    "VK": null
+    "SL": 26,
+    "VK": 36
   },
-  "consolidatedAvg": 39.2,
-  "consolidatedRank": 134,
+  "consolidatedAvg": 36.86,
+  "consolidatedRank": 141,
   "paths": {
     "memo": "spring2026/memos/prototypingio.md",
     "evals": {
@@ -61,7 +69,9 @@
       "elad-gil": "spring2026/evals/elad-gil/prototypingio.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/prototypingio.md",
       "paul-graham": "spring2026/evals/paul-graham/prototypingio.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/prototypingio.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/prototypingio.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/prototypingio.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/prototypingio.md"
     }
   }
 }

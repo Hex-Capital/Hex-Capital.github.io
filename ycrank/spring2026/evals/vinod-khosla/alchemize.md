@@ -1,0 +1,30 @@
+﻿# Alchemize -- Vinod Khosla Evaluation
+
+Alchemize is, in my framework, a 2026 reincarnation of the **Pass Example** I keep on my desk -- the "GPT-4 wrapper that summarizes sales calls" pattern, only the workflow this time is HTS classification instead of HubSpot. Samuel Fu and Robert Hou are two Columbia-adjacent founders building automation on top of a regulated $5.17B U.S. customs brokerage market growing 4.95% (datainsightsmarket.com, 2025). The success-state is a faster broker. That is not a civilizational variable; that is a margin recovery inside an existing system, and my entry point screens it out before I get to the team.
+
+On consequence magnitude, **Impossible Foods** (2011) is the HIGH rung -- the success-state collapses animal protein production, a named incumbent regime. Alchemize's success-state is "importers face fewer delays and lower fees from legacy customs brokers" per the YC page. The mechanism is not collapse, it is substitution within a licensed-broker oligopoly that still exists after Alchemize wins. The dossier names no incumbent system that disappears; KlearNow's 2,000+ customers and Flexport's bundled customs suite still exist in the success-state. That is the inverse of the Impossible pattern -- Alchemize takes share inside a category, it does not eliminate the category.
+
+The KiOR-style failure mode for the **Technical/Capital Risk** axis is "capital adequacy misjudged on the way to plant closure" -- a science bet where required miracles were enumerable and falsifiable. Trace the same pattern through Alchemize and the line goes flat. There is no catalyst-yield analog, no refinery-integration analog, no thermodynamic claim being defied. Alchemize's stack is LLM duties calculation and paperwork filing per the YC page, an automation layer the dossier itself flags as commoditizing -- Amari AI ($4.5M seed, TechCrunch Feb 2026), Caspian ($5.4M seed, BusinessWire Jul 2025), Digicust (€2.3M, 500K declarations), and Flexport's in-house AI auditor (0.2% error rate, flexport.com 2025) are all building the same wedge. When five competitors ship the same automation in twelve months, the "miracle" was never one.
+
+Founder-defies-expert-consensus is where Alchemize's dossier is loudest by its silence. **Physical Intelligence** (2024) had Sergey Levine and Chelsea Finn publicly committed to end-to-end robot learning when half of robotics still bet on classical control -- a documented field-level defiance. Alchemize gives me Columbia grads, no prior customs operating experience, no public thesis, no Twitter, no GitHub, no contrarian position staked in trade compliance. The McKinsey-1986-cellphone problem does not even apply here, because Fu and Hou have not made a forecast anyone can be wrong about. Counterfactual: if either founder had run a CBP-licensed brokerage and pivoted publicly on what licensure should mean in an LLM era, Alchemize moves a full tier on this dimension. The dossier rules that out.
+
+Learning rate gets my absent-evidence default of 7/15 -- the Spring 2026 batch timing means there is no track record to update against, and I do not penalize aggressively without evidence. But the **Slash** (2024) exception does not rescue Alchemize the way it rescued a YC consumer-banking play, because Slash had a publicly told Kanye-pivot moment that made the founder learning rate legible. Alchemize's two-person team and the absence of any prior-company narrative in the dossier means the learning-rate signal is null, not positive.
+
+Required-capital is where Alchemize is most clearly mis-shaped for my check. **Commonwealth Fusion** (2019) required a $115M Series A because tokamak hardware does not care about your runway. A two-person SF brokerage automation team is a $3-5M seed, fundable by any Tier-1 generalist, and Amari AI's $4.5M seed co-led by First Round and Pear is the comp. I am over-resourced for Alchemize. That is not a fatal flaw on its own -- DoorDash was over-resourced for me too -- but DoorDash had the consumer-commerce reshaping consequence that justified the override. Alchemize does not.
+
+My 36-month forecast: Alchemize is dead or sub-$500K ARR acquihired into KlearNow or Flexport by mid-2029, having lost the U.S. mid-market importer wedge to Amari AI -- which already cleared $15B in goods with 30+ customers as of February 2026 -- and to Caspian, which holds the CBP license Alchemize's dossier does not disclose. The mechanism is not technology failure; it is that the regulatory moat lives at the broker-licensure layer and the distribution moat lives at the freight-forwarder layer, and Alchemize sits between both without owning either.
+
+The strongest bull case is the Washington Post (Nov 2025) tariff-chaos demand surge: Trump-era executive orders quadrupled broker workload, NCBFAA (Jun 2025) documented importers paying premiums for compliance help, and a fast YC team can win share in a disorganized market before incumbents respond. It is a real mechanism -- I have funded distribution bets in chaotic markets before. It loses to two dossier facts: Amari AI's 30+ customers and $15B cleared were booked into that same tariff chaos three months before Alchemize's batch even started, and Caspian explicitly marketed CBP-licensed-broker status in July 2025 because licensure is the gating constraint. Alchemize starts the race behind on both the customer count and the regulatory primitive. Flip condition: if Alchemize publicly disclosed CBP brokerage licensure plus signed LOIs with two named Fortune-500 importers in the next six months, I would re-open the file. Absent that, this is the Salesforce-wrapper pass at 30 seconds.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Consequence Magnitude If Company Wins | 7/30 |
+| Technical or Capital Risk That Repels Consensus VCs | 5/25 |
+| Founder Defies Documented Expert Consensus | 5/20 |
+| Founder Learning Rate, Demonstrated By Prior Pivot Or Thesis Update | 7/15 |
+| Required-Capital Profile Matches Khosla Check Size | 3/10 |
+| **Total** | **27/100** |
+
+**Total Score: 27/100** (Pass)

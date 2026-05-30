@@ -45,6 +45,10 @@
     "sam-lessin": {
       "score": 32,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 32,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -54,9 +58,9 @@
     "PG": 64,
     "PT": 49,
     "SL": 32,
-    "VK": null
+    "VK": 32
   },
-  "consolidatedAvg": 49.5,
+  "consolidatedAvg": 47,
   "consolidatedRank": 33,
   "paths": {
     "memo": "spring2026/memos/expanse.md",
@@ -66,7 +70,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/expanse.md",
       "paul-graham": "spring2026/evals/paul-graham/expanse.md",
       "peter-thiel": "spring2026/evals/peter-thiel/expanse.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/expanse.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/expanse.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/expanse.md"
     }
   }
 }

@@ -38,6 +38,14 @@
     "peter-thiel": {
       "score": 53,
       "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 49,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
@@ -46,11 +54,11 @@
     "NR": 43,
     "PG": 52,
     "PT": 53,
-    "SL": null,
-    "VK": null
+    "SL": 33,
+    "VK": 49
   },
-  "consolidatedAvg": 51.6,
-  "consolidatedRank": 22,
+  "consolidatedAvg": 48.57,
+  "consolidatedRank": 24,
   "paths": {
     "memo": "spring2026/memos/surtr-defense-systems.md",
     "evals": {
@@ -58,7 +66,9 @@
       "elad-gil": "spring2026/evals/elad-gil/surtr-defense-systems.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/surtr-defense-systems.md",
       "paul-graham": "spring2026/evals/paul-graham/surtr-defense-systems.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/surtr-defense-systems.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/surtr-defense-systems.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/surtr-defense-systems.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/surtr-defense-systems.md"
     }
   }
 }

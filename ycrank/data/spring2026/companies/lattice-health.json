@@ -42,6 +42,10 @@
     "sam-lessin": {
       "score": 36,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 38,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -51,10 +55,10 @@
     "PG": 53,
     "PT": 33,
     "SL": 36,
-    "VK": null
+    "VK": 38
   },
-  "consolidatedAvg": 45,
-  "consolidatedRank": 67,
+  "consolidatedAvg": 44,
+  "consolidatedRank": 62,
   "paths": {
     "memo": "spring2026/memos/lattice-health.md",
     "evals": {
@@ -63,7 +67,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/lattice-health.md",
       "paul-graham": "spring2026/evals/paul-graham/lattice-health.md",
       "peter-thiel": "spring2026/evals/peter-thiel/lattice-health.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/lattice-health.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/lattice-health.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/lattice-health.md"
     }
   }
 }

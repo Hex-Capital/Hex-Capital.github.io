@@ -1,0 +1,30 @@
+﻿# Gravy -- Vinod Khosla Evaluation
+
+Gravy is the pass-example archetype I described in my own framework -- a YC pre-seed AI agent on top of Plaid and a BYO OpenAI key, sitting in a PFM market where Monarch already raised $75M on 2025-05-23 and Copilot already charges $10.99/mo. The dimensional signature is unmistakable: Gravy's relatively least-bad axis is consequence (consumer finance can theoretically scale, see **DoorDash** (2013)), and its worst axis is technical/capital risk -- two founders, commodity APIs, a desktop Electron-class shell, and inference cost externalized to the user. That pairing diagnoses Gravy as an optimization play on an existing category, not a category collapse.
+
+On consequence, the HIGH rung is **OpenAI** (2019) -- a $50M first check because the success-state redrew the labor market against my "$15 trillion of U.S. GDP is labor" frame (Fortune 2026-03-06). Gravy's maximum-ambition success-state, by contrast, is "Mint replacement that runs locally and reads your inbox," which lands closer to my pass-example (sales-call summarizer with HubSpot integration) than to any anchor in my portfolio. The mechanism that makes **OpenAI** load-bearing as the analogy is consequence-at-scale -- and Gravy's dossier explicitly bounds itself to a $3.03B PFM SAM (Market Growth Reports 2026), not the labor-displacement variable. Nothing in Ali Tabba's gravy.finance landing copy names an incumbent regime that disappears; Monarch, Copilot, and Cleo merely lose share -- the inverse of the **Impossible Foods** (2011) "displaces animal protein production" pattern I underwrite.
+
+On technical/capital risk, the LOW rung's failure mechanism is exactly the one Gravy embodies: a stack any Tier-1 generalist can fund because the science risk is zero. **Commonwealth Fusion** (2019) required $115M to a first commercial milestone because the physics was the moat; Gravy requires Plaid + Anthropic function calling + Ollama + Electron, all of which the dossier itself flags as "commodity APIs." A solo developer can ship Gravy in a weekend -- the dossier says so in plain English under Commoditization Risk. That is the textbook anti-pattern to my **Genesis AI** (2025) co-led $105M seed, where stack-depth was the entire underwriting case.
+
+Founder-defies-expert -- mechanism over 18 months. Ali Tabba's public surface is "Founder (YC P26)" out of Warwick with a prior "Stealth Startup" listing, and Max Church has no public profile data surfaced at all. There is no defied-expert moment in either bio, no controversial public position in the PFM field, no "instigator" posture from my TED Talk frame. Over 18 months this compounds against Gravy because the AI-PFM category will be defined by founders who are either ex-banking-infrastructure (defying it) or ex-LLM-research (defying PFM orthodoxy) -- Gravy is neither, so the differentiation gap widens rather than closes as Cleo's Series C team and Monarch's post-$75M team out-ship them.
+
+Founder learning rate -- counterfactual. To flip Gravy from a default 7/15 to a 12/15 I would need the dossier to document a specific prior pivot with stated reasoning, the **Slash** (2024) Kanye-moment pattern that justified my $100M Series C into a YC-pedigreed fintech. What is present instead: Tabba's prior "Stealth Startup" line on LinkedIn with no public outcome, no public thesis update, no "we were wrong about X." Absent the pivot evidence, Gravy cannot trigger the Slash exception even though it shares the YC pedigree -- the Slash override required learning-rate evidence, not pedigree alone.
+
+Required-capital profile -- single-anchor parallel. Against **Cognition** ($175M Series B April 2024) on this axis: Cognition's roadmap requires capital depth because training and inference at the SWE-agent frontier is capital-intensive and the team is research-PI dense. Gravy's roadmap requires almost no capital -- the inference is paid by the user via their own OpenAI key, the storage is local on the user's Mac, and the team is two people in San Francisco. I am over-resourced for Gravy by an order of magnitude; a $25K angel check from a consumer-fintech operator is the natural funder, not a Khosla check.
+
+36-month forecast: Gravy is dead or quietly acqui-hired below $10M by 2029, with the most probable failure mode being BYO-LLM-key activation collapse -- mainstream Rocket Money users will not paste an OpenAI key, and the dossier already flags this as "documented onboarding friction." The mechanism is straightforward: with two founders, no disclosed users, no pricing page, and Monarch's $75M war chest, Gravy runs out of differentiation before it runs out of cash.
+
+The strongest bull case borrows the **DoorDash** (2013) exception: capital-light consumer with founder ambition can return $72B despite zero science risk, and Gravy's local-first + agentic positioning could be the wedge that defines post-Mint PFM the way DoorDash defined post-Seamless delivery. The sting is real -- I have written this exception once and would be a hypocrite to dismiss it categorically. But the **DoorDash** override required a consequence-magnitude reshape of consumer-commerce flow and a founder with documented ambition framing; Gravy's dossier gives me neither -- no 10-year horizon language, no labor-displacement frame, no civilizational variable, and a TAM defined defensively against Monarch rather than offensively against the financial-advisor labor pool. The verdict flips only if Gravy publishes evidence that its agent automates a labor category I can price -- e.g., signed pilots displacing $X of bookkeeper or financial-advisor hours with named counterparties -- not if it merely adds users to a Mint-replacement funnel.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Consequence Magnitude If Company Wins | 8/30 |
+| Technical or Capital Risk That Repels Consensus VCs | 5/25 |
+| Founder Defies Documented Expert Consensus | 6/20 |
+| Founder Learning Rate, Demonstrated By Prior Pivot Or Thesis Update | 6/15 |
+| Required-Capital Profile Matches Khosla Check Size | 3/10 |
+| **Total** | **28/100** |
+
+**Total Score: 28/100** (Pass)

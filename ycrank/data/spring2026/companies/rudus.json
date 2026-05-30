@@ -41,6 +41,14 @@
     "peter-thiel": {
       "score": 29,
       "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 23,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 29,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -49,11 +57,11 @@
     "NR": 26,
     "PG": 47,
     "PT": 29,
-    "SL": null,
-    "VK": null
+    "SL": 23,
+    "VK": 29
   },
-  "consolidatedAvg": 36.2,
-  "consolidatedRank": 160,
+  "consolidatedAvg": 33.29,
+  "consolidatedRank": 175,
   "paths": {
     "memo": "spring2026/memos/rudus.md",
     "evals": {
@@ -61,7 +69,9 @@
       "elad-gil": "spring2026/evals/elad-gil/rudus.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/rudus.md",
       "paul-graham": "spring2026/evals/paul-graham/rudus.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/rudus.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/rudus.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/rudus.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/rudus.md"
     }
   }
 }

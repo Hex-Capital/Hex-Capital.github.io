@@ -44,6 +44,10 @@
     "sam-lessin": {
       "score": 23,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 27,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -53,10 +57,10 @@
     "PG": 37,
     "PT": 25,
     "SL": 23,
-    "VK": null
+    "VK": 27
   },
-  "consolidatedAvg": 31.17,
-  "consolidatedRank": 188,
+  "consolidatedAvg": 30.57,
+  "consolidatedRank": 189,
   "paths": {
     "memo": "spring2026/memos/alchemize.md",
     "evals": {
@@ -65,7 +69,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/alchemize.md",
       "paul-graham": "spring2026/evals/paul-graham/alchemize.md",
       "peter-thiel": "spring2026/evals/peter-thiel/alchemize.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/alchemize.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/alchemize.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/alchemize.md"
     }
   }
 }

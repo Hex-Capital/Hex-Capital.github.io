@@ -46,6 +46,10 @@
     "sam-lessin": {
       "score": 28,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 29,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -55,10 +59,10 @@
     "PG": 51,
     "PT": 31,
     "SL": 28,
-    "VK": null
+    "VK": 29
   },
-  "consolidatedAvg": 41,
-  "consolidatedRank": 112,
+  "consolidatedAvg": 39.29,
+  "consolidatedRank": 109,
   "paths": {
     "memo": "spring2026/memos/kelai.md",
     "evals": {
@@ -67,7 +71,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/kelai.md",
       "paul-graham": "spring2026/evals/paul-graham/kelai.md",
       "peter-thiel": "spring2026/evals/peter-thiel/kelai.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/kelai.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/kelai.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/kelai.md"
     }
   }
 }

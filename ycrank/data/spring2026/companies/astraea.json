@@ -44,6 +44,10 @@
     "sam-lessin": {
       "score": 23,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 33,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -53,10 +57,10 @@
     "PG": 42,
     "PT": 35,
     "SL": 23,
-    "VK": null
+    "VK": 33
   },
-  "consolidatedAvg": 36.67,
-  "consolidatedRank": 154,
+  "consolidatedAvg": 36.14,
+  "consolidatedRank": 153,
   "paths": {
     "memo": "spring2026/memos/astraea.md",
     "evals": {
@@ -65,7 +69,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/astraea.md",
       "paul-graham": "spring2026/evals/paul-graham/astraea.md",
       "peter-thiel": "spring2026/evals/peter-thiel/astraea.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/astraea.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/astraea.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/astraea.md"
     }
   }
 }

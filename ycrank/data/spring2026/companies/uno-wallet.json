@@ -40,6 +40,14 @@
     "peter-thiel": {
       "score": 26,
       "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 20,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -48,11 +56,11 @@
     "NR": 36,
     "PG": 50,
     "PT": 26,
-    "SL": null,
-    "VK": null
+    "SL": 32,
+    "VK": 20
   },
-  "consolidatedAvg": 35,
-  "consolidatedRank": 172,
+  "consolidatedAvg": 32.43,
+  "consolidatedRank": 182,
   "paths": {
     "memo": "spring2026/memos/uno-wallet.md",
     "evals": {
@@ -60,7 +68,9 @@
       "elad-gil": "spring2026/evals/elad-gil/uno-wallet.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/uno-wallet.md",
       "paul-graham": "spring2026/evals/paul-graham/uno-wallet.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/uno-wallet.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/uno-wallet.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/uno-wallet.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/uno-wallet.md"
     }
   }
 }

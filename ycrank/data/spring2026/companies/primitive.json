@@ -42,6 +42,14 @@
     "peter-thiel": {
       "score": 25,
       "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 24,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 30,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -50,11 +58,11 @@
     "NR": 49,
     "PG": 38,
     "PT": 25,
-    "SL": null,
-    "VK": null
+    "SL": 24,
+    "VK": 30
   },
-  "consolidatedAvg": 38.8,
-  "consolidatedRank": 137,
+  "consolidatedAvg": 35.43,
+  "consolidatedRank": 164,
   "paths": {
     "memo": "spring2026/memos/primitive.md",
     "evals": {
@@ -62,7 +70,9 @@
       "elad-gil": "spring2026/evals/elad-gil/primitive.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/primitive.md",
       "paul-graham": "spring2026/evals/paul-graham/primitive.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/primitive.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/primitive.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/primitive.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/primitive.md"
     }
   }
 }

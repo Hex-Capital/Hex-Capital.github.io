@@ -45,6 +45,10 @@
     "sam-lessin": {
       "score": 30,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 39,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -54,10 +58,10 @@
     "PG": 55,
     "PT": 35,
     "SL": 30,
-    "VK": null
+    "VK": 39
   },
-  "consolidatedAvg": 48,
-  "consolidatedRank": 49,
+  "consolidatedAvg": 46.71,
+  "consolidatedRank": 36,
   "paths": {
     "memo": "spring2026/memos/keyframe-labs.md",
     "evals": {
@@ -66,7 +70,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/keyframe-labs.md",
       "paul-graham": "spring2026/evals/paul-graham/keyframe-labs.md",
       "peter-thiel": "spring2026/evals/peter-thiel/keyframe-labs.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/keyframe-labs.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/keyframe-labs.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/keyframe-labs.md"
     }
   }
 }

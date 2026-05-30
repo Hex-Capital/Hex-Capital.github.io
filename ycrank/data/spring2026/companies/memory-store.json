@@ -44,6 +44,10 @@
     "sam-lessin": {
       "score": 33,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 41,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -53,10 +57,10 @@
     "PG": 57,
     "PT": 32,
     "SL": 33,
-    "VK": null
+    "VK": 41
   },
-  "consolidatedAvg": 45.67,
-  "consolidatedRank": 66,
+  "consolidatedAvg": 45,
+  "consolidatedRank": 50,
   "paths": {
     "memo": "spring2026/memos/memory-store.md",
     "evals": {
@@ -65,7 +69,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/memory-store.md",
       "paul-graham": "spring2026/evals/paul-graham/memory-store.md",
       "peter-thiel": "spring2026/evals/peter-thiel/memory-store.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/memory-store.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/memory-store.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/memory-store.md"
     }
   }
 }

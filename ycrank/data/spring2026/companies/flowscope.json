@@ -44,6 +44,10 @@
     "sam-lessin": {
       "score": 22,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 34,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -53,10 +57,10 @@
     "PG": 41,
     "PT": 29,
     "SL": 22,
-    "VK": null
+    "VK": 34
   },
-  "consolidatedAvg": 32.17,
-  "consolidatedRank": 186,
+  "consolidatedAvg": 32.43,
+  "consolidatedRank": 181,
   "paths": {
     "memo": "spring2026/memos/flowscope.md",
     "evals": {
@@ -65,7 +69,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/flowscope.md",
       "paul-graham": "spring2026/evals/paul-graham/flowscope.md",
       "peter-thiel": "spring2026/evals/peter-thiel/flowscope.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/flowscope.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/flowscope.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/flowscope.md"
     }
   }
 }

@@ -42,6 +42,14 @@
     "peter-thiel": {
       "score": 30,
       "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 24,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 28,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -50,11 +58,11 @@
     "NR": 37,
     "PG": 49,
     "PT": 30,
-    "SL": null,
-    "VK": null
+    "SL": 24,
+    "VK": 28
   },
-  "consolidatedAvg": 39.4,
-  "consolidatedRank": 132,
+  "consolidatedAvg": 35.57,
+  "consolidatedRank": 161,
   "paths": {
     "memo": "spring2026/memos/takecareos.md",
     "evals": {
@@ -62,7 +70,9 @@
       "elad-gil": "spring2026/evals/elad-gil/takecareos.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/takecareos.md",
       "paul-graham": "spring2026/evals/paul-graham/takecareos.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/takecareos.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/takecareos.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/takecareos.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/takecareos.md"
     }
   }
 }

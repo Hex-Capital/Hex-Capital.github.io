@@ -46,6 +46,10 @@
     "sam-lessin": {
       "score": 31,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 50,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
@@ -55,10 +59,10 @@
     "PG": 43,
     "PT": 58,
     "SL": 31,
-    "VK": null
+    "VK": 50
   },
-  "consolidatedAvg": 43,
-  "consolidatedRank": 87,
+  "consolidatedAvg": 44,
+  "consolidatedRank": 63,
   "paths": {
     "memo": "spring2026/memos/maquoketa-research.md",
     "evals": {
@@ -67,7 +71,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/maquoketa-research.md",
       "paul-graham": "spring2026/evals/paul-graham/maquoketa-research.md",
       "peter-thiel": "spring2026/evals/peter-thiel/maquoketa-research.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/maquoketa-research.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/maquoketa-research.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/maquoketa-research.md"
     }
   }
 }

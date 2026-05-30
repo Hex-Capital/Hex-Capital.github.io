@@ -45,6 +45,10 @@
     "sam-lessin": {
       "score": 38,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 38,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -54,10 +58,10 @@
     "PG": 61,
     "PT": 51,
     "SL": 38,
-    "VK": null
+    "VK": 38
   },
-  "consolidatedAvg": 54.67,
-  "consolidatedRank": 10,
+  "consolidatedAvg": 52.29,
+  "consolidatedRank": 12,
   "paths": {
     "memo": "spring2026/memos/limrun.md",
     "evals": {
@@ -66,7 +70,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/limrun.md",
       "paul-graham": "spring2026/evals/paul-graham/limrun.md",
       "peter-thiel": "spring2026/evals/peter-thiel/limrun.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/limrun.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/limrun.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/limrun.md"
     }
   }
 }

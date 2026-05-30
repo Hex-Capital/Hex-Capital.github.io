@@ -1,0 +1,77 @@
+{
+  "slug": "aice",
+  "name": "AICE",
+  "oneLiner": "Submarine drones for defense",
+  "metadata": {
+    "website": "https://aicepower.com",
+    "yc_page": "https://www.ycombinator.com/companies/aice",
+    "batch": "Spring 2026 (YC page)",
+    "industry": "Industrials / Industrials -> Defense",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA (hardware manufactured in France per aicepower.com)",
+    "tags": "Hardware, Swarm AI, Robotics, Drones",
+    "yc_partner": "Nicolas Dessaigne (YC page)",
+    "emails": "contact@aicepower.com (website), greg@aicepower.com (YC page)"
+  },
+  "tags": [
+    "Hardware",
+    "Swarm AI",
+    "Robotics",
+    "Drones"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-05-30T22:54:25.964Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 22,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 49,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 39,
+    "EG": 39,
+    "NR": 31,
+    "PG": 39,
+    "PT": 32,
+    "SL": 22,
+    "VK": 49
+  },
+  "consolidatedAvg": 35.86,
+  "consolidatedRank": 154,
+  "paths": {
+    "memo": "spring2026/memos/aice.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/aice.md",
+      "elad-gil": "spring2026/evals/elad-gil/aice.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/aice.md",
+      "paul-graham": "spring2026/evals/paul-graham/aice.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/aice.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/aice.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/aice.md"
+    }
+  }
+}

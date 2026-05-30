@@ -44,6 +44,10 @@
     "sam-lessin": {
       "score": 28,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 37,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -53,10 +57,10 @@
     "PG": 55,
     "PT": 35,
     "SL": 28,
-    "VK": null
+    "VK": 37
   },
-  "consolidatedAvg": 46.17,
-  "consolidatedRank": 61,
+  "consolidatedAvg": 44.86,
+  "consolidatedRank": 52,
   "paths": {
     "memo": "spring2026/memos/insforge.md",
     "evals": {
@@ -65,7 +69,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/insforge.md",
       "paul-graham": "spring2026/evals/paul-graham/insforge.md",
       "peter-thiel": "spring2026/evals/peter-thiel/insforge.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/insforge.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/insforge.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/insforge.md"
     }
   }
 }

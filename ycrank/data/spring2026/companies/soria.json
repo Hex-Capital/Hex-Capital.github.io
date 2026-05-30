@@ -40,6 +40,14 @@
     "peter-thiel": {
       "score": 38,
       "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 30,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -48,11 +56,11 @@
     "NR": 44,
     "PG": 53,
     "PT": 38,
-    "SL": null,
-    "VK": null
+    "SL": 34,
+    "VK": 30
   },
-  "consolidatedAvg": 44.8,
-  "consolidatedRank": 71,
+  "consolidatedAvg": 41.14,
+  "consolidatedRank": 92,
   "paths": {
     "memo": "spring2026/memos/soria.md",
     "evals": {
@@ -60,7 +68,9 @@
       "elad-gil": "spring2026/evals/elad-gil/soria.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/soria.md",
       "paul-graham": "spring2026/evals/paul-graham/soria.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/soria.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/soria.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/soria.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/soria.md"
     }
   }
 }

@@ -44,6 +44,10 @@
     "sam-lessin": {
       "score": 39,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 45,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
@@ -53,10 +57,10 @@
     "PG": 54,
     "PT": 63,
     "SL": 39,
-    "VK": null
+    "VK": 45
   },
-  "consolidatedAvg": 48.83,
-  "consolidatedRank": 41,
+  "consolidatedAvg": 48.29,
+  "consolidatedRank": 26,
   "paths": {
     "memo": "spring2026/memos/lumius.md",
     "evals": {
@@ -65,7 +69,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/lumius.md",
       "paul-graham": "spring2026/evals/paul-graham/lumius.md",
       "peter-thiel": "spring2026/evals/peter-thiel/lumius.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/lumius.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/lumius.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/lumius.md"
     }
   }
 }

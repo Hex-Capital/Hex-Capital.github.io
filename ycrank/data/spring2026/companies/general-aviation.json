@@ -46,6 +46,10 @@
     "sam-lessin": {
       "score": 49,
       "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 55,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
@@ -55,10 +59,10 @@
     "PG": 53,
     "PT": 51,
     "SL": 49,
-    "VK": null
+    "VK": 55
   },
-  "consolidatedAvg": 52.83,
-  "consolidatedRank": 16,
+  "consolidatedAvg": 53.14,
+  "consolidatedRank": 7,
   "paths": {
     "memo": "spring2026/memos/general-aviation.md",
     "evals": {
@@ -67,7 +71,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/general-aviation.md",
       "paul-graham": "spring2026/evals/paul-graham/general-aviation.md",
       "peter-thiel": "spring2026/evals/peter-thiel/general-aviation.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/general-aviation.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/general-aviation.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/general-aviation.md"
     }
   }
 }

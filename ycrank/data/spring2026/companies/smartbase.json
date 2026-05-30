@@ -42,6 +42,14 @@
     "peter-thiel": {
       "score": 39,
       "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 37,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -50,11 +58,11 @@
     "NR": 36,
     "PG": 61,
     "PT": 39,
-    "SL": null,
-    "VK": null
+    "SL": 38,
+    "VK": 37
   },
-  "consolidatedAvg": 46.2,
-  "consolidatedRank": 59,
+  "consolidatedAvg": 43.71,
+  "consolidatedRank": 66,
   "paths": {
     "memo": "spring2026/memos/smartbase.md",
     "evals": {
@@ -62,7 +70,9 @@
       "elad-gil": "spring2026/evals/elad-gil/smartbase.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/smartbase.md",
       "paul-graham": "spring2026/evals/paul-graham/smartbase.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/smartbase.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/smartbase.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/smartbase.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/smartbase.md"
     }
   }
 }

@@ -44,6 +44,10 @@
     "sam-lessin": {
       "score": 36,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 38,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -53,10 +57,10 @@
     "PG": 52,
     "PT": 32,
     "SL": 36,
-    "VK": null
+    "VK": 38
   },
-  "consolidatedAvg": 42.5,
-  "consolidatedRank": 95,
+  "consolidatedAvg": 41.86,
+  "consolidatedRank": 81,
   "paths": {
     "memo": "spring2026/memos/avea-robotics.md",
     "evals": {
@@ -65,7 +69,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/avea-robotics.md",
       "paul-graham": "spring2026/evals/paul-graham/avea-robotics.md",
       "peter-thiel": "spring2026/evals/peter-thiel/avea-robotics.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/avea-robotics.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/avea-robotics.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/avea-robotics.md"
     }
   }
 }

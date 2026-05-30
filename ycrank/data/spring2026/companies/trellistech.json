@@ -35,6 +35,14 @@
     "peter-thiel": {
       "score": 34,
       "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 28,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -43,11 +51,11 @@
     "NR": 49,
     "PG": 62,
     "PT": 34,
-    "SL": null,
-    "VK": null
+    "SL": 41,
+    "VK": 28
   },
-  "consolidatedAvg": 48.8,
-  "consolidatedRank": 42,
+  "consolidatedAvg": 44.71,
+  "consolidatedRank": 54,
   "paths": {
     "memo": "spring2026/memos/trellistech.md",
     "evals": {
@@ -55,7 +63,9 @@
       "elad-gil": "spring2026/evals/elad-gil/trellistech.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/trellistech.md",
       "paul-graham": "spring2026/evals/paul-graham/trellistech.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/trellistech.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/trellistech.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/trellistech.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/trellistech.md"
     }
   }
 }

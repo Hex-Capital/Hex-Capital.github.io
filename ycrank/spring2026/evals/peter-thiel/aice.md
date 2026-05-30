@@ -1,0 +1,30 @@
+﻿# AICE -- Peter Thiel Evaluation
+
+AICE is a category-right, conviction-light bet: Grégoire Chomette and Rémi Bouteiller picked the correct sector — subsea defense autonomy, atoms-heavy and regulated — but the dossier's own "[Inferred]" tag on the modular-swarm differentiation tells me the founders themselves have not yet named the incumbent failure mode in a way the Pivot Archive could quote. AICE pivoted from energy-bill sensors to submarine drones approximately two weeks before the dossier was assembled. The sector is Founders Fund-shaped. The thesis behind entering it is not.
+
+**Anduril** (2017) is the load-bearing analogy on the contrarian-secret axis, and that is exactly why AICE underperforms here. Palmer Luckey named the failure mode in one sentence: Lockheed and Raytheon cost-plus structures cannot ship software-defined defense at startup velocity. The secret was Straussian — defense procurement rewards complexity, not iteration, so a consumer-hardware operator wins on integration cadence. When I read AICE's dossier, the equivalent sentence is missing. Anduril already ships Dive-LD and Dive-XL, acquired Dive Technologies in February 2022, and the AICE differentiator against them is "modular swarm at the small-form-factor end" — flagged as inferred, not as founder-stated. A swarm-versus-monolith hypothesis is a form-factor claim, not a secret. The market has not misread modular swarms for five years; Helsing's SG-1 Fathom and Anduril's Dive line are well-funded interpretations of the same hardware space. AICE does not name what Anduril structurally cannot do.
+
+The lowest dimension is the definite-plan axis, and the failure mechanism here is the canonical one from Zero to One: pivoting two weeks before YC research is, almost by definition, indefinite optimism in its purest form. AICE was sensors-to-cut-energy-bill-by-30% and then became 600m subsea drones for grey-zone conflict, and the path between those two products is not a roadmap, it is an exploration. SpaceX in 2008 had a fifteen-year reusability commitment. AICE in May 2026 has a two-week-old product category and no announced milestones. That is exactly the iterate-to-PMF profile the Founders Fund manifesto attacked in 2011.
+
+On monopoly trajectory, the mechanism analysis is brutal over an 18-month horizon: Anduril at $60B, Helsing at $18B, and Saronic at $9.25B are each capitalized to outspend AICE on hardware iteration, ITAR certification depth, and navy relationship-building by three to four orders of magnitude. AICE enters with two engineers and YC pre-seed. The moat in subsea defense compounds with integration depth and clearance, both of which favor the incumbent that started six years earlier and acquired Dive Technologies. AICE does not have a pricing-power hypothesis the dossier can surface.
+
+Founder lineage for AICE flips a tier only under a specific counterfactual: if Chomette had spent his NASA years on autonomous-systems flight software for JPL rather than asteroid risk assessment, or if Bouteiller's airplay-esp32 (282 stars) were instead a shipped commercial product at a defense supplier, the operator-pedigree weight would resemble Moskovitz at Asana — the Known Exception where Facebook-scale shipping overrode missing structural moat. MIT AeroAstro 2021 plus NASA 2019–2021 plus French embedded-systems credentials is real intellectual signal, but it is credentialed-generalist, not domain-shipped. Neither founder has touched a naval program.
+
+The atoms-heavy/regulated dimension is where AICE places highest, and the single-anchor parallel is **Anduril** again — hardware manufactured in Paris, 600m-rated submersibles, defense procurement as the only viable customer. This is the right sector. The Founders Fund manifesto explicitly directs capital here. But sector-rightness without a named secret is what cleantech 1.0 looked like in 2008: correct atoms, indefinite plan, capital-intensive losses. AICE is in the right room with no thesis worth the rent.
+
+My 36-month forecast for AICE: acqui-hired by a European defense prime — most plausibly Naval Group or Thales — for under $30M, or dead. The mechanism is straightforward: Anduril and Helsing close any form-factor gap with capital AICE cannot match, and the only durable wedge AICE has is French manufacturing plus YC Group Partner Nicolas Dessaigne's France ties, which routes the exit through European sovereign procurement rather than a US-side win. No fund-returner shape.
+
+The strongest case against my pass is the French-sovereignty steel-man: Defense News reported in May 2024 that France launched AI signals analysis for underwater acoustics warfare, AICE manufactures in Paris, and European navies have explicit non-American-prime procurement mandates that Anduril and Saronic structurally cannot serve. This is the unstated secret AICE may actually hold — sovereign subsea autonomy for the DGA and adjacent European procurement, a regulated-customer monopoly the Anglo defense primes are locked out of by clause, not by capability. If that is the real thesis, the dimensional profile starts to resemble Anduril's 2017 setup more than it first appears. But the founders do not lead with it. Chomette and Bouteiller pivoted two weeks ago; a five-year held conviction about French sovereign undersea autonomy would be visible in the founding story, the website, the YC blurb. It is not. The flip condition is verifiable: a signed contract or named LOI with the DGA or any NATO-member navy within twelve months would invert this evaluation. Absent that, AICE is the indefinite-optimism shape in defense clothing. Pass.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Contrarian Secret with Named Incumbent Failure Mode | 9/35 |
+| Monopoly Trajectory with Pricing Power Hypothesis | 7/25 |
+| Definite Founder Plan vs Indefinite Iteration | 3/15 |
+| Founder Lineage / Verified Operator Pedigree | 6/15 |
+| Atoms-Heavy or Regulated-Sector Structural Moat | 7/10 |
+| **Total** | **32/100** |
+
+**Total Score: 32/100** (Pass)

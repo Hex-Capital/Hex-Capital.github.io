@@ -1,0 +1,30 @@
+﻿# Result -- Vinod Khosla Evaluation
+
+Result is a precocious-founder consumer bundler whose highest dimension is the age/credential defiance of its 19-year-old CTO Savio Martin skipping college after Product Hunt Maker of the Year 2021, and whose lowest dimension is technical risk -- the substrate is incorporation forms plus BaaS plumbing plus LLM agents wrapped around Stripe Atlas, Mercury, and Doola's existing scope. That pairing -- defiant on biography, conformist on stack -- is the analytical signature, and it is the same signature that every YC consumer-tools pre-seed in the last six batches has carried into my inbox.
+
+**OpenAI** (2019) is the consequence anchor I keep returning to: the success-state was a civilizational redirection of cognitive labor, which is why I wrote $50M into a no-revenue, unconventional-structure entity. Result's success-state, even at maximum ambition, is that more new-internet founders incorporate, bank, and ship marketing copy inside one tab instead of five -- the success-state is a workflow consolidation, not a regime collapse. The dossier names Mercury at 300,000+ customers and $650M ARR (Crunchbase News, May 2026) as the anchor of the addressable founder base, which tells me the entire ceiling is the founder-tooling category itself -- a category that, fully captured, does not move my $15T-of-GDP-is-labor variable from Fortune 2026-03-06 by a measurable amount.
+
+**KiOR** (~2008) is where I park the technical-risk ladder, because the catalytic biomass-to-crude science required three falsifiable miracles that no consensus VC would underwrite. Result's dossier names zero miracles. Incorporation is paperwork; banking is a BaaS partnership Result has not even disclosed yet (result.dev, May 2026); payments are Stripe; the "AI agents" are LLM calls against tasks that Mercury, Doola ($12M raised, Tracxn), or Firstbase can bolt on as a feature next quarter. This is the SaaS-wrapper profile I described in my pass example -- any Tier-1 generalist can fund it, which means I am structurally over-resourced for the deal.
+
+Savio Martin's profile -- coding since 12, Codehouse at 961 GitHub stars, one product hitting #5 in the App Store inside a month, ~50.5K X followers at @saviomartin7 -- is genuine founder-defiance evidence on the credential axis, the same way my $100M Series C into **Slash** (2024) rewarded a YC founder whose public pivot story was the signal. The 17-year-old CEO Aaryan Kushwah won "Best Overall AI Agent Solution" at TreeHacks 2026 and is a beVisioneers Fellow, which is real, but his concurrent Summer 2026 Coinbase Crypternship commitment during the YC batch is the kind of bandwidth fragmentation that my Outlook Business "too important not to do" frame treats as a tell -- if Result were civilizationally important to Kushwah, the Crypternship does not happen.
+
+Learning rate compounds over 18 months only if Result's founders demonstrate the **Slash**-style Kanye-pivot moment when their first thesis breaks, and Savio Martin's track record of shipping Codehouse, Slickr, Moodly, and Gradientking is genuine multi-shot iteration evidence -- not a pivot per se, but a higher-than-default learning-rate signal for a 19-year-old. The dossier shows no thesis-update moment on Result itself because Result has not launched; the waitlist is still up at result.dev as of May 2026. I weight this dimension at the higher end of its default band on the strength of Savio's prior-product cadence, not on anything Result has done.
+
+Required-capital profile is where the deal misaligns with my check architecture: my $115M Series A into **Commonwealth Fusion** (2019) and my $105M co-led seed into **Genesis AI** (2025) reveal the shape I am built to write, and a 2-person San Francisco consumer-tooling pre-seed needs roughly $500K-$2M to reach MVP -- I am the wrong investor by check size, and the dossier shows no roadmap line item requiring depth I am uniquely positioned to provide.
+
+My 36-month forecast on Result: alive but sub-$1M ARR with the bundle quietly narrowed to one wedge (most likely AI-ops-agents for solo creators or for the YC-network founder cohort), or acqui-hired into Mercury or Doola in the $5-20M range to absorb Savio's distribution and the agent layer. The mechanism producing this is scope sprawl on a 2-person team against five incumbents who each own one slice of the bundle and can ship agents as a feature in twelve months -- the exact failure mode the dossier itself flags.
+
+The strongest bull case is the **DoorDash** (2013) exception: consumer-consensus deal, capital-light, no science miracle, founder ambition compounding through distribution -- and Savio Martin's ~50.5K X audience plus Product Hunt pedigree is real founder-led distribution that could front-load the waitlist into a sticky cohort. The counter is that **DoorDash**'s success-state reshaped national consumer-commerce flow into a $72B IPO -- the consequence was already there at decision time, only the probability was uncertain. Result's consequence ceiling is bounded by the founder-tooling category itself, which Mercury has already shown caps at roughly $650M ARR for the leader. The verifiable condition that flips my verdict: a disclosed BaaS partner plus 1,000+ paying founder accounts within 120 days of public launch, demonstrating the agent layer produces measurable founder-hour displacement that Mercury and Doola cannot match without rebuilding their product. Until then this is a pass -- not because the founders lack talent but because the success-state is too small for my framework, exactly as the GPT-4-sales-call-summarizer pass example predicts.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Consequence Magnitude If Company Wins | 8/30 |
+| Technical or Capital Risk That Repels Consensus VCs | 5/25 |
+| Founder Defies Documented Expert Consensus | 11/20 |
+| Founder Learning Rate, Demonstrated By Prior Pivot Or Thesis Update | 9/15 |
+| Required-Capital Profile Matches Khosla Check Size | 3/10 |
+| **Total** | **36/100** |
+
+**Total Score: 36/100** (Pass)

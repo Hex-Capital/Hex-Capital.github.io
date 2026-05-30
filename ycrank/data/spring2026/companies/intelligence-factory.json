@@ -43,6 +43,10 @@
     "sam-lessin": {
       "score": 24,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 60,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
@@ -52,10 +56,10 @@
     "PG": 54,
     "PT": 43,
     "SL": 24,
-    "VK": null
+    "VK": 60
   },
-  "consolidatedAvg": 42.83,
-  "consolidatedRank": 88,
+  "consolidatedAvg": 45.29,
+  "consolidatedRank": 47,
   "paths": {
     "memo": "spring2026/memos/intelligence-factory.md",
     "evals": {
@@ -64,7 +68,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/intelligence-factory.md",
       "paul-graham": "spring2026/evals/paul-graham/intelligence-factory.md",
       "peter-thiel": "spring2026/evals/peter-thiel/intelligence-factory.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/intelligence-factory.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/intelligence-factory.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/intelligence-factory.md"
     }
   }
 }

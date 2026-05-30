@@ -39,6 +39,14 @@
     "peter-thiel": {
       "score": 56,
       "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 38,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -47,11 +55,11 @@
     "NR": 47,
     "PG": 54,
     "PT": 56,
-    "SL": null,
-    "VK": null
+    "SL": 29,
+    "VK": 38
   },
-  "consolidatedAvg": 49.8,
-  "consolidatedRank": 32,
+  "consolidatedAvg": 45.14,
+  "consolidatedRank": 49,
   "paths": {
     "memo": "spring2026/memos/perfectbit.md",
     "evals": {
@@ -59,7 +67,9 @@
       "elad-gil": "spring2026/evals/elad-gil/perfectbit.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/perfectbit.md",
       "paul-graham": "spring2026/evals/paul-graham/perfectbit.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/perfectbit.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/perfectbit.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/perfectbit.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/perfectbit.md"
     }
   }
 }

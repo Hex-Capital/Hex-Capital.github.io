@@ -46,6 +46,10 @@
     "sam-lessin": {
       "score": 26,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 28,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -55,10 +59,10 @@
     "PG": 51,
     "PT": 35,
     "SL": 26,
-    "VK": null
+    "VK": 28
   },
-  "consolidatedAvg": 38.17,
-  "consolidatedRank": 144,
+  "consolidatedAvg": 36.71,
+  "consolidatedRank": 142,
   "paths": {
     "memo": "spring2026/memos/fuchsia.md",
     "evals": {
@@ -67,7 +71,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/fuchsia.md",
       "paul-graham": "spring2026/evals/paul-graham/fuchsia.md",
       "peter-thiel": "spring2026/evals/peter-thiel/fuchsia.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/fuchsia.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/fuchsia.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/fuchsia.md"
     }
   }
 }

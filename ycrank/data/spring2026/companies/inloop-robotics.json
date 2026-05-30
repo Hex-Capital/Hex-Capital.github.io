@@ -45,6 +45,10 @@
     "sam-lessin": {
       "score": 31,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 51,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
@@ -54,10 +58,10 @@
     "PG": 54,
     "PT": 42,
     "SL": 31,
-    "VK": null
+    "VK": 51
   },
-  "consolidatedAvg": 41,
-  "consolidatedRank": 111,
+  "consolidatedAvg": 42.43,
+  "consolidatedRank": 74,
   "paths": {
     "memo": "spring2026/memos/inloop-robotics.md",
     "evals": {
@@ -66,7 +70,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/inloop-robotics.md",
       "paul-graham": "spring2026/evals/paul-graham/inloop-robotics.md",
       "peter-thiel": "spring2026/evals/peter-thiel/inloop-robotics.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/inloop-robotics.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/inloop-robotics.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/inloop-robotics.md"
     }
   }
 }

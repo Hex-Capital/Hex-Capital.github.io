@@ -39,6 +39,10 @@
     "sam-lessin": {
       "score": 40,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 37,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -48,10 +52,10 @@
     "PG": 71,
     "PT": 33,
     "SL": 40,
-    "VK": null
+    "VK": 37
   },
-  "consolidatedAvg": 50.5,
-  "consolidatedRank": 26,
+  "consolidatedAvg": 48.57,
+  "consolidatedRank": 23,
   "paths": {
     "memo": "spring2026/memos/dayjob.md",
     "evals": {
@@ -60,7 +64,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/dayjob.md",
       "paul-graham": "spring2026/evals/paul-graham/dayjob.md",
       "peter-thiel": "spring2026/evals/peter-thiel/dayjob.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/dayjob.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/dayjob.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/dayjob.md"
     }
   }
 }

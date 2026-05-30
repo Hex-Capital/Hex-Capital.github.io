@@ -46,6 +46,10 @@
     "sam-lessin": {
       "score": 36,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 32,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -55,10 +59,10 @@
     "PG": 48,
     "PT": 30,
     "SL": 36,
-    "VK": null
+    "VK": 32
   },
-  "consolidatedAvg": 40.17,
-  "consolidatedRank": 122,
+  "consolidatedAvg": 39,
+  "consolidatedRank": 119,
   "paths": {
     "memo": "spring2026/memos/panacea.md",
     "evals": {
@@ -67,7 +71,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/panacea.md",
       "paul-graham": "spring2026/evals/paul-graham/panacea.md",
       "peter-thiel": "spring2026/evals/peter-thiel/panacea.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/panacea.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/panacea.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/panacea.md"
     }
   }
 }

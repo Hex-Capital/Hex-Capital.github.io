@@ -42,6 +42,10 @@
     "sam-lessin": {
       "score": 26,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 39,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -51,10 +55,10 @@
     "PG": 55,
     "PT": 22,
     "SL": 26,
-    "VK": null
+    "VK": 39
   },
-  "consolidatedAvg": 39.83,
-  "consolidatedRank": 125,
+  "consolidatedAvg": 39.71,
+  "consolidatedRank": 107,
   "paths": {
     "memo": "spring2026/memos/ara.md",
     "evals": {
@@ -63,7 +67,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/ara.md",
       "paul-graham": "spring2026/evals/paul-graham/ara.md",
       "peter-thiel": "spring2026/evals/peter-thiel/ara.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/ara.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/ara.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/ara.md"
     }
   }
 }

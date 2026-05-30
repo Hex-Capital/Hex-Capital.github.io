@@ -46,6 +46,10 @@
     "sam-lessin": {
       "score": 29,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 28,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -55,9 +59,9 @@
     "PG": 46,
     "PT": 26,
     "SL": 29,
-    "VK": null
+    "VK": 28
   },
-  "consolidatedAvg": 35.83,
+  "consolidatedAvg": 34.71,
   "consolidatedRank": 169,
   "paths": {
     "memo": "spring2026/memos/napkin-math.md",
@@ -67,7 +71,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/napkin-math.md",
       "paul-graham": "spring2026/evals/paul-graham/napkin-math.md",
       "peter-thiel": "spring2026/evals/peter-thiel/napkin-math.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/napkin-math.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/napkin-math.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/napkin-math.md"
     }
   }
 }

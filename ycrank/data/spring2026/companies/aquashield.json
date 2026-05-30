@@ -43,6 +43,10 @@
     "sam-lessin": {
       "score": 42,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 36,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -52,10 +56,10 @@
     "PG": 51,
     "PT": 33,
     "SL": 42,
-    "VK": null
+    "VK": 36
   },
-  "consolidatedAvg": 40.83,
-  "consolidatedRank": 113,
+  "consolidatedAvg": 40.14,
+  "consolidatedRank": 99,
   "paths": {
     "memo": "spring2026/memos/aquashield.md",
     "evals": {
@@ -64,7 +68,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/aquashield.md",
       "paul-graham": "spring2026/evals/paul-graham/aquashield.md",
       "peter-thiel": "spring2026/evals/peter-thiel/aquashield.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/aquashield.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/aquashield.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/aquashield.md"
     }
   }
 }

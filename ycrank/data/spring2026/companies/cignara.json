@@ -43,6 +43,10 @@
     "sam-lessin": {
       "score": 22,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 35,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -52,10 +56,10 @@
     "PG": 33,
     "PT": 27,
     "SL": 22,
-    "VK": null
+    "VK": 35
   },
-  "consolidatedAvg": 32.33,
-  "consolidatedRank": 185,
+  "consolidatedAvg": 32.71,
+  "consolidatedRank": 178,
   "paths": {
     "memo": "spring2026/memos/cignara.md",
     "evals": {
@@ -64,7 +68,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/cignara.md",
       "paul-graham": "spring2026/evals/paul-graham/cignara.md",
       "peter-thiel": "spring2026/evals/peter-thiel/cignara.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/cignara.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/cignara.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/cignara.md"
     }
   }
 }

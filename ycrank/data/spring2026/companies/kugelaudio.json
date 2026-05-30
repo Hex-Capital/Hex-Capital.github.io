@@ -44,6 +44,10 @@
     "sam-lessin": {
       "score": 48,
       "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 34,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -53,10 +57,10 @@
     "PG": 60,
     "PT": 41,
     "SL": 48,
-    "VK": null
+    "VK": 34
   },
-  "consolidatedAvg": 50,
-  "consolidatedRank": 29,
+  "consolidatedAvg": 47.71,
+  "consolidatedRank": 31,
   "paths": {
     "memo": "spring2026/memos/kugelaudio.md",
     "evals": {
@@ -65,7 +69,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/kugelaudio.md",
       "paul-graham": "spring2026/evals/paul-graham/kugelaudio.md",
       "peter-thiel": "spring2026/evals/peter-thiel/kugelaudio.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/kugelaudio.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/kugelaudio.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/kugelaudio.md"
     }
   }
 }

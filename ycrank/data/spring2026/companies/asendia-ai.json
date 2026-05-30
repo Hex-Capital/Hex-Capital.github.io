@@ -45,6 +45,10 @@
     "sam-lessin": {
       "score": 30,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 32,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -54,10 +58,10 @@
     "PG": 58,
     "PT": 28,
     "SL": 30,
-    "VK": null
+    "VK": 32
   },
-  "consolidatedAvg": 40.33,
-  "consolidatedRank": 120,
+  "consolidatedAvg": 39.14,
+  "consolidatedRank": 113,
   "paths": {
     "memo": "spring2026/memos/asendia-ai.md",
     "evals": {
@@ -66,7 +70,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/asendia-ai.md",
       "paul-graham": "spring2026/evals/paul-graham/asendia-ai.md",
       "peter-thiel": "spring2026/evals/peter-thiel/asendia-ai.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/asendia-ai.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/asendia-ai.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/asendia-ai.md"
     }
   }
 }

@@ -45,6 +45,10 @@
     "sam-lessin": {
       "score": 27,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 60,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
@@ -54,10 +58,10 @@
     "PG": 55,
     "PT": 37,
     "SL": 27,
-    "VK": null
+    "VK": 60
   },
-  "consolidatedAvg": 41.67,
-  "consolidatedRank": 103,
+  "consolidatedAvg": 44.29,
+  "consolidatedRank": 60,
   "paths": {
     "memo": "spring2026/memos/eden-robotics.md",
     "evals": {
@@ -66,7 +70,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/eden-robotics.md",
       "paul-graham": "spring2026/evals/paul-graham/eden-robotics.md",
       "peter-thiel": "spring2026/evals/peter-thiel/eden-robotics.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/eden-robotics.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/eden-robotics.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/eden-robotics.md"
     }
   }
 }

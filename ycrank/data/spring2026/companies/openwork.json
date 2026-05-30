@@ -39,6 +39,10 @@
     "sam-lessin": {
       "score": 33,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 32,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -48,10 +52,10 @@
     "PG": 53,
     "PT": 31,
     "SL": 33,
-    "VK": null
+    "VK": 32
   },
-  "consolidatedAvg": 43.83,
-  "consolidatedRank": 80,
+  "consolidatedAvg": 42.14,
+  "consolidatedRank": 77,
   "paths": {
     "memo": "spring2026/memos/openwork.md",
     "evals": {
@@ -60,7 +64,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/openwork.md",
       "paul-graham": "spring2026/evals/paul-graham/openwork.md",
       "peter-thiel": "spring2026/evals/peter-thiel/openwork.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/openwork.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/openwork.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/openwork.md"
     }
   }
 }

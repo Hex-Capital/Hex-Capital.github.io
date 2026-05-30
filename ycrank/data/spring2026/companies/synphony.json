@@ -41,6 +41,14 @@
     "peter-thiel": {
       "score": 37,
       "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 42,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -49,11 +57,11 @@
     "NR": 40,
     "PG": 58,
     "PT": 37,
-    "SL": null,
-    "VK": null
+    "SL": 27,
+    "VK": 42
   },
-  "consolidatedAvg": 44.2,
-  "consolidatedRank": 76,
+  "consolidatedAvg": 41.43,
+  "consolidatedRank": 86,
   "paths": {
     "memo": "spring2026/memos/synphony.md",
     "evals": {
@@ -61,7 +69,9 @@
       "elad-gil": "spring2026/evals/elad-gil/synphony.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/synphony.md",
       "paul-graham": "spring2026/evals/paul-graham/synphony.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/synphony.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/synphony.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/synphony.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/synphony.md"
     }
   }
 }

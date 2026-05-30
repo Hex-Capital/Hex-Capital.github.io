@@ -43,6 +43,10 @@
     "sam-lessin": {
       "score": 26,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 28,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -52,10 +56,10 @@
     "PG": 42,
     "PT": 35,
     "SL": 26,
-    "VK": null
+    "VK": 28
   },
-  "consolidatedAvg": 36.67,
-  "consolidatedRank": 156,
+  "consolidatedAvg": 35.43,
+  "consolidatedRank": 163,
   "paths": {
     "memo": "spring2026/memos/incandor.md",
     "evals": {
@@ -64,7 +68,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/incandor.md",
       "paul-graham": "spring2026/evals/paul-graham/incandor.md",
       "peter-thiel": "spring2026/evals/peter-thiel/incandor.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/incandor.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/incandor.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/incandor.md"
     }
   }
 }

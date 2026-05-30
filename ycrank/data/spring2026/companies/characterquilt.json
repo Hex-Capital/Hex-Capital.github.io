@@ -46,6 +46,10 @@
     "sam-lessin": {
       "score": 28,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 27,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -55,10 +59,10 @@
     "PG": 66,
     "PT": 28,
     "SL": 28,
-    "VK": null
+    "VK": 27
   },
-  "consolidatedAvg": 42.33,
-  "consolidatedRank": 99,
+  "consolidatedAvg": 40.14,
+  "consolidatedRank": 100,
   "paths": {
     "memo": "spring2026/memos/characterquilt.md",
     "evals": {
@@ -67,7 +71,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/characterquilt.md",
       "paul-graham": "spring2026/evals/paul-graham/characterquilt.md",
       "peter-thiel": "spring2026/evals/peter-thiel/characterquilt.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/characterquilt.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/characterquilt.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/characterquilt.md"
     }
   }
 }

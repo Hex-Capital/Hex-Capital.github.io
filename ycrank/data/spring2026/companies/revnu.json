@@ -39,6 +39,14 @@
     "peter-thiel": {
       "score": 29,
       "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 31,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -47,11 +55,11 @@
     "NR": 40,
     "PG": 69,
     "PT": 29,
-    "SL": null,
-    "VK": null
+    "SL": 28,
+    "VK": 31
   },
-  "consolidatedAvg": 41.2,
-  "consolidatedRank": 109,
+  "consolidatedAvg": 37.86,
+  "consolidatedRank": 133,
   "paths": {
     "memo": "spring2026/memos/revnu.md",
     "evals": {
@@ -59,7 +67,9 @@
       "elad-gil": "spring2026/evals/elad-gil/revnu.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/revnu.md",
       "paul-graham": "spring2026/evals/paul-graham/revnu.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/revnu.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/revnu.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/revnu.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/revnu.md"
     }
   }
 }

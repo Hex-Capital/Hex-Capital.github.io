@@ -39,6 +39,10 @@
     "sam-lessin": {
       "score": 29,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 33,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -48,10 +52,10 @@
     "PG": 58,
     "PT": 39,
     "SL": 29,
-    "VK": null
+    "VK": 33
   },
-  "consolidatedAvg": 47.5,
-  "consolidatedRank": 50,
+  "consolidatedAvg": 45.43,
+  "consolidatedRank": 45,
   "paths": {
     "memo": "spring2026/memos/humwork.md",
     "evals": {
@@ -60,7 +64,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/humwork.md",
       "paul-graham": "spring2026/evals/paul-graham/humwork.md",
       "peter-thiel": "spring2026/evals/peter-thiel/humwork.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/humwork.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/humwork.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/humwork.md"
     }
   }
 }

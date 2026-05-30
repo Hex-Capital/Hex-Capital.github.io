@@ -46,6 +46,10 @@
     "sam-lessin": {
       "score": 23,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 40,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -55,10 +59,10 @@
     "PG": 47,
     "PT": 29,
     "SL": 23,
-    "VK": null
+    "VK": 40
   },
-  "consolidatedAvg": 38,
-  "consolidatedRank": 147,
+  "consolidatedAvg": 38.29,
+  "consolidatedRank": 129,
   "paths": {
     "memo": "spring2026/memos/modern.md",
     "evals": {
@@ -67,7 +71,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/modern.md",
       "paul-graham": "spring2026/evals/paul-graham/modern.md",
       "peter-thiel": "spring2026/evals/peter-thiel/modern.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/modern.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/modern.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/modern.md"
     }
   }
 }

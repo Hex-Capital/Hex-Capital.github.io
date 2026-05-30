@@ -44,6 +44,10 @@
     "sam-lessin": {
       "score": 34,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 32,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -53,10 +57,10 @@
     "PG": 55,
     "PT": 31,
     "SL": 34,
-    "VK": null
+    "VK": 32
   },
-  "consolidatedAvg": 41.33,
-  "consolidatedRank": 107,
+  "consolidatedAvg": 40,
+  "consolidatedRank": 104,
   "paths": {
     "memo": "spring2026/memos/foaster.md",
     "evals": {
@@ -65,7 +69,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/foaster.md",
       "paul-graham": "spring2026/evals/paul-graham/foaster.md",
       "peter-thiel": "spring2026/evals/peter-thiel/foaster.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/foaster.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/foaster.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/foaster.md"
     }
   }
 }

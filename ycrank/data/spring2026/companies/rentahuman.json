@@ -39,6 +39,14 @@
     "peter-thiel": {
       "score": 35,
       "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 38,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -47,11 +55,11 @@
     "NR": 71,
     "PG": 65,
     "PT": 35,
-    "SL": null,
-    "VK": null
+    "SL": 30,
+    "VK": 38
   },
-  "consolidatedAvg": 53.4,
-  "consolidatedRank": 13,
+  "consolidatedAvg": 47.86,
+  "consolidatedRank": 30,
   "paths": {
     "memo": "spring2026/memos/rentahuman.md",
     "evals": {
@@ -59,7 +67,9 @@
       "elad-gil": "spring2026/evals/elad-gil/rentahuman.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/rentahuman.md",
       "paul-graham": "spring2026/evals/paul-graham/rentahuman.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/rentahuman.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/rentahuman.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/rentahuman.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/rentahuman.md"
     }
   }
 }

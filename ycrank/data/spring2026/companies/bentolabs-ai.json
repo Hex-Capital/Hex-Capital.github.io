@@ -45,6 +45,10 @@
     "sam-lessin": {
       "score": 31,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 31,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -54,10 +58,10 @@
     "PG": 62,
     "PT": 37,
     "SL": 31,
-    "VK": null
+    "VK": 31
   },
-  "consolidatedAvg": 46.5,
-  "consolidatedRank": 57,
+  "consolidatedAvg": 44.29,
+  "consolidatedRank": 58,
   "paths": {
     "memo": "spring2026/memos/bentolabs-ai.md",
     "evals": {
@@ -66,7 +70,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/bentolabs-ai.md",
       "paul-graham": "spring2026/evals/paul-graham/bentolabs-ai.md",
       "peter-thiel": "spring2026/evals/peter-thiel/bentolabs-ai.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/bentolabs-ai.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/bentolabs-ai.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/bentolabs-ai.md"
     }
   }
 }

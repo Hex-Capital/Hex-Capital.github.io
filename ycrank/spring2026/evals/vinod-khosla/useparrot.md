@@ -1,0 +1,30 @@
+﻿# Parrot -- Vinod Khosla Evaluation
+
+Parrot is a Pass Example with a paint-booth coat -- two founders out of biomedical engineering and computer engineering wiring voice agents into CCC ONE, Audatex, and Mitchell 1 so collision shops answer phones faster and turn supplements in two days instead of five. The signature here is a documented founder pivot from Alchemy AI (life-sciences computer vision) into auto body workflow software, paired with a success-state that, at maximum ambition, makes the ~$2B collision repair management market modestly more efficient. The pivot is the most interesting fact in the dossier. The success-state is the least interesting.
+
+**OpenAI** (2019) sits at the top of my consequence ladder because the success-state was "the labor frontier moves" -- a $15T variable. **DoorDash** (2013) sits at the mid rung because consumer-commerce flow genuinely reshaped, even without a science miracle. The Pass Example -- "GPT-4 summarizes sales calls into HubSpot" -- sits at the bottom because the success-state is a 20-30% efficiency gain inside one workflow at one persona. Parrot's pilot numbers -- $150K→$180K monthly revenue at one shop, supplement turnaround 5→2 days, $2,800/month parts savings -- are the literal artifact of that bottom rung dressed up in vertical clothing. Phillip Baek and Liam McBride are not collapsing the collision-repair regime; they are letting CCC ONE keep its estimating monopoly while skimming the phone-and-email layer. That is a feature CCC ONE ships in eighteen months, not a category that disappears.
+
+**KiOR** (~2008) sits at the bottom of my technical-risk ladder for the reasons everyone knows -- catalyst, feedstock, refinery integration, three falsifiable miracles, ~$160M of fund and personal capital burned by the 2014 bankruptcy, and a thesis I would write again. The failure mechanism that ladder exposes is the inverse of Parrot: KiOR repelled consensus VCs because the science was hostile; Parrot attracts consensus VCs because the stack is voice-agents-plus-RPA-plus-integrations, which any Tier-1 generalist or YC-batch peer can underwrite. Rote (YC) is already in the supplement-negotiation slice; Better Collision Centers and The Crash Co. are building in-house (Autobody News, 2026). Parrot's "moat today" line in the dossier reads "no defensibility signals found." That is not a sourcing gap. That is the answer.
+
+Founder-defies-expert: Phillip Baek's last role was EP Mapping Specialist at Boston Scientific and Liam McBride just finished a UIUC MS in Computer Engineering. Neither has publicly contradicted collision-repair orthodoxy, neither has shipped against insurance-supplement domain experts, and neither has the "too important not to do" framing in the dossier. The mechanism here compounds badly over eighteen months -- supplement negotiation is a state-by-state regulatory craft (Autobody News, 2026), and adjacency-naive founders learn the cost of that the hard way, the way Range Fuels (~2007) learned that biofuel logistics was not a software problem.
+
+Founder learning rate is the one dimension where Parrot scores above default. Both founders co-founded Alchemy AI in life-sciences computer vision and pivoted into auto body collision repair -- a documented thesis change, the kind I look for. To flip this to the **Slash** (2024) tier, the pivot would need to be customer-validated -- Slash's Kanye pivot came out of usage data, not founder restlessness. Parrot's pivot reads as throwing a dart from one adjacency-blind market into another, with the LinkedIn titles still listing "Alchemy" at the time of research. Pivot present, pivot mechanism unproven.
+
+Compared to **Cognition** (2024) on capital fit -- Cognition raised $175M because training agent-developer foundation models required the depth. Parrot's roadmap is per-shop SaaS plus voice-call usage. Any check I write here is over-resourced for the deal; the company can reach product-market fit on $2-5M and the consequence of my dollar is rounding error against the success-state.
+
+Thirty-six month forecast: Parrot reaches $1-4M ARR across a few dozen MSO and independent shops, gets acquired in a sub-$50M deal by CCC, Solera, or Mitchell as a phone-and-email feature, or merges with Rote (YC) into a single supplement-and-comms agent. The mechanism is straightforward -- the incumbents control API access and are already shipping AI; the moment Parrot's pilot data becomes a category signal, CCC ONE ships the same feature inside its estimating workflow, and Parrot's "OS layer" becomes a button.
+
+The strongest bull case borrows from **DoorDash** (2013), my own consensus-bet exception -- capital-light consumer logistics with no science miracle, $72B IPO. Could Parrot be the collision-repair DoorDash, a workflow-aggregation play where the pilot's +18% repair-orders-booked-MoM is the early signal of category reshape? No. DoorDash was reshaping a flow that did not have an incumbent platform monopoly -- restaurants did not have CCC ONE. Parrot lives downstream of three incumbents with insurer relationships and API control, plus a direct YC competitor (Rote) targeting the same shops. The Known Exception requires that the founder ambition framing collapse a flow that has no platform owner; collision repair has three platform owners and a fourth YC entrant. The exception does not load. The verdict flips only on one verifiable condition: Parrot reports ten-plus paying multi-location MSO contracts with 90%+ net retention within twelve months, demonstrating that the integration layer is sticky against CCC ONE's own AI rollout. Until then, this is the workflow-summarizer pass I run in thirty seconds.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Consequence Magnitude If Company Wins | 7/30 |
+| Technical or Capital Risk That Repels Consensus VCs | 6/25 |
+| Founder Defies Documented Expert Consensus | 6/20 |
+| Founder Learning Rate, Demonstrated By Prior Pivot Or Thesis Update | 9/15 |
+| Required-Capital Profile Matches Khosla Check Size | 3/10 |
+| **Total** | **31/100** |
+
+**Total Score: 31/100** (Pass)

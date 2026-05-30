@@ -44,6 +44,10 @@
     "sam-lessin": {
       "score": 30,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 24,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -53,10 +57,10 @@
     "PG": 43,
     "PT": 35,
     "SL": 30,
-    "VK": null
+    "VK": 24
   },
-  "consolidatedAvg": 38.33,
-  "consolidatedRank": 142,
+  "consolidatedAvg": 36.29,
+  "consolidatedRank": 147,
   "paths": {
     "memo": "spring2026/memos/arctic-health.md",
     "evals": {
@@ -65,7 +69,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/arctic-health.md",
       "paul-graham": "spring2026/evals/paul-graham/arctic-health.md",
       "peter-thiel": "spring2026/evals/peter-thiel/arctic-health.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/arctic-health.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/arctic-health.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/arctic-health.md"
     }
   }
 }

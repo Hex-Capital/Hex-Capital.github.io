@@ -45,6 +45,10 @@
     "sam-lessin": {
       "score": 43,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 78,
+      "tier": "Invest"
     }
   },
   "consolidatedScores": {
@@ -54,10 +58,10 @@
     "PG": 57,
     "PT": 67,
     "SL": 43,
-    "VK": null
+    "VK": 78
   },
-  "consolidatedAvg": 48.33,
-  "consolidatedRank": 46,
+  "consolidatedAvg": 52.57,
+  "consolidatedRank": 10,
   "paths": {
     "memo": "spring2026/memos/finaldose.md",
     "evals": {
@@ -66,7 +70,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/finaldose.md",
       "paul-graham": "spring2026/evals/paul-graham/finaldose.md",
       "peter-thiel": "spring2026/evals/peter-thiel/finaldose.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/finaldose.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/finaldose.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/finaldose.md"
     }
   }
 }

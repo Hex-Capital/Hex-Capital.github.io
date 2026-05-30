@@ -41,6 +41,14 @@
     "peter-thiel": {
       "score": 42,
       "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 36,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -49,11 +57,11 @@
     "NR": 44,
     "PG": 51,
     "PT": 42,
-    "SL": null,
-    "VK": null
+    "SL": 40,
+    "VK": 36
   },
-  "consolidatedAvg": 47.2,
-  "consolidatedRank": 53,
+  "consolidatedAvg": 44.57,
+  "consolidatedRank": 56,
   "paths": {
     "memo": "spring2026/memos/zibra-labs.md",
     "evals": {
@@ -61,7 +69,9 @@
       "elad-gil": "spring2026/evals/elad-gil/zibra-labs.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/zibra-labs.md",
       "paul-graham": "spring2026/evals/paul-graham/zibra-labs.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/zibra-labs.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/zibra-labs.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/zibra-labs.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/zibra-labs.md"
     }
   }
 }

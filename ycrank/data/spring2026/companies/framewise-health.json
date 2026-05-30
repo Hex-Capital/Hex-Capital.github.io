@@ -44,6 +44,10 @@
     "sam-lessin": {
       "score": 31,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 31,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -53,9 +57,9 @@
     "PG": 53,
     "PT": 33,
     "SL": 31,
-    "VK": null
+    "VK": 31
   },
-  "consolidatedAvg": 41.5,
+  "consolidatedAvg": 40,
   "consolidatedRank": 105,
   "paths": {
     "memo": "spring2026/memos/framewise-health.md",
@@ -65,7 +69,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/framewise-health.md",
       "paul-graham": "spring2026/evals/paul-graham/framewise-health.md",
       "peter-thiel": "spring2026/evals/peter-thiel/framewise-health.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/framewise-health.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/framewise-health.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/framewise-health.md"
     }
   }
 }

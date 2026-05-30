@@ -46,6 +46,10 @@
     "sam-lessin": {
       "score": 33,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 32,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -55,10 +59,10 @@
     "PG": 57,
     "PT": 30,
     "SL": 33,
-    "VK": null
+    "VK": 32
   },
-  "consolidatedAvg": 41.5,
-  "consolidatedRank": 106,
+  "consolidatedAvg": 40.14,
+  "consolidatedRank": 102,
   "paths": {
     "memo": "spring2026/memos/klarify.md",
     "evals": {
@@ -67,7 +71,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/klarify.md",
       "paul-graham": "spring2026/evals/paul-graham/klarify.md",
       "peter-thiel": "spring2026/evals/peter-thiel/klarify.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/klarify.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/klarify.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/klarify.md"
     }
   }
 }

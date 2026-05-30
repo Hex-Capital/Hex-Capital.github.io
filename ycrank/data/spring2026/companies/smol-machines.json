@@ -39,6 +39,14 @@
     "peter-thiel": {
       "score": 35,
       "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 34,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -47,11 +55,11 @@
     "NR": 65,
     "PG": 55,
     "PT": 35,
-    "SL": null,
-    "VK": null
+    "SL": 35,
+    "VK": 34
   },
-  "consolidatedAvg": 50.6,
-  "consolidatedRank": 25,
+  "consolidatedAvg": 46,
+  "consolidatedRank": 39,
   "paths": {
     "memo": "spring2026/memos/smol-machines.md",
     "evals": {
@@ -59,7 +67,9 @@
       "elad-gil": "spring2026/evals/elad-gil/smol-machines.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/smol-machines.md",
       "paul-graham": "spring2026/evals/paul-graham/smol-machines.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/smol-machines.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/smol-machines.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/smol-machines.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/smol-machines.md"
     }
   }
 }

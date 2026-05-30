@@ -46,6 +46,10 @@
     "sam-lessin": {
       "score": 29,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 36,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -55,10 +59,10 @@
     "PG": 41,
     "PT": 31,
     "SL": 29,
-    "VK": null
+    "VK": 36
   },
-  "consolidatedAvg": 35.83,
-  "consolidatedRank": 168,
+  "consolidatedAvg": 35.86,
+  "consolidatedRank": 156,
   "paths": {
     "memo": "spring2026/memos/anoria.md",
     "evals": {
@@ -67,7 +71,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/anoria.md",
       "paul-graham": "spring2026/evals/paul-graham/anoria.md",
       "peter-thiel": "spring2026/evals/peter-thiel/anoria.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/anoria.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/anoria.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/anoria.md"
     }
   }
 }

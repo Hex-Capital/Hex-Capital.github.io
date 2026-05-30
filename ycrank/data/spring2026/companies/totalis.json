@@ -39,6 +39,14 @@
     "peter-thiel": {
       "score": 34,
       "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 26,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -47,11 +55,11 @@
     "NR": 53,
     "PG": 42,
     "PT": 34,
-    "SL": null,
-    "VK": null
+    "SL": 38,
+    "VK": 26
   },
-  "consolidatedAvg": 43.2,
-  "consolidatedRank": 86,
+  "consolidatedAvg": 40,
+  "consolidatedRank": 106,
   "paths": {
     "memo": "spring2026/memos/totalis.md",
     "evals": {
@@ -59,7 +67,9 @@
       "elad-gil": "spring2026/evals/elad-gil/totalis.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/totalis.md",
       "paul-graham": "spring2026/evals/paul-graham/totalis.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/totalis.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/totalis.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/totalis.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/totalis.md"
     }
   }
 }

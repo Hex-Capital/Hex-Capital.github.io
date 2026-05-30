@@ -1,0 +1,30 @@
+﻿# flowscope -- Vinod Khosla Evaluation
+
+Flowscope is the Pass Example with a consulting wrapper -- Javier Leguina and Samuel Mirpuri have built the GPT-4-summarizes-sales-calls business and rebranded the delivery model as "AI-native consulting" against a $35.27B RPA TAM. The dimensional signature is unambiguous: founder credibility (Mirpuri ex-QuantumBlack/McKinsey, Leguina ex-Model ML YC W24) is the only dimension above default, while technical risk and capital intensity sit at the floor. That pairing -- competent operators, no miracles required -- defines a services boutique, not a Khosla bet.
+
+**OpenAI** (2019) is the high rung on consequence because the success-state collapses the cost of cognition itself; the $15T labor-displacement number I cited to Fortune (2026-03-06) is downstream of that civilizational shift. Flowscope gestures at the same labor thesis -- automating "finance, admin, and ops processes" for CFOs and COOs -- but the success-state described on flowscope.com is "ship working software not decks" faster than McKinsey. That is not the collapse of an incumbent regime; that is McKinsey with better margins. The dossier never names a category that disappears if flowscope wins. When I evaluated **Impossible Foods** (2011) the success-state was the elimination of animal protein production; flowscope's maximum-ambition success-state is a faster Accenture engagement, which is exactly the "20-30% optimization play" my framework explicitly rejects.
+
+The low rung on technical/capital risk is the sales-call summarizer I pass on in thirty seconds, and flowscope's stack sits on the same rung. **Commonwealth Fusion** (2019) required tokamak physics that no consensus VC would underwrite at $115M; **Genesis AI** (2025) required robot foundation models my co-lead and I priced at $105M because the science is real. Flowscope requires GPT-4-class function calling -- which the dossier itself credits to 2024-2025 as the "why now" -- plus two engineers shadowing employees for two weeks. Adept ($415M), 11x.ai ($76M), and Cresta ($276M / $52M ARR) are already in the agent-platform fight with capital flowscope cannot match, and any of the three could subsume the process-mapping layer in a quarter. There is no miracle to underwrite here, which means there is no edge for me over any Tier-1 generalist.
+
+Mirpuri's QuantumBlack/McKinsey/Harvard MBA profile is the exact expert-continuity pattern my TED Talk warns against -- the UC Berkeley 28,000-prediction study showed experts beat chance "only slightly," and consulting credentials are the most consensus credential in enterprise. Flowscope's founder narrative reads as "McKinsey-trained operator applies AI to McKinsey-style engagements," which is not the **Physical Intelligence** (2024) Sergey Levine pattern of a research PI defying their field; it is the playbook of the field, repackaged. The dossier surfaces no public position either founder has taken that the consulting industry would dispute.
+
+Counterfactual on founder learning rate: for flowscope to clear the **Slash** (2024) bar that justified my $100M Series C, the dossier would need a documented pivot -- a Kanye-moment thesis change, a prior company sold, a public "we were wrong about X." Leguina was a founding engineer at Model ML (YC W24), which is prior employment, not a pivot; Mirpuri's path from Singapore Armed Forces to QuantumBlack to flowscope is linear credential accumulation. Eighteen months of compounding here looks like a services firm that has learned how to land logos, not a team that has rewritten its own thesis under pressure.
+
+Mechanism on capital fit: my checks compound when the roadmap forces $50M+ to first commercial milestone -- the $50M into **OpenAI** (2019), the $115M into **Commonwealth Fusion** (2019), the $405M OpenAI SPV (October 2024). Flowscope's roadmap is two engineers billing CFOs; the marginal next dollar buys another engagement, not another order of magnitude. I am structurally over-resourced for this deal, and the implied seed round is a check any generalist seed fund writes without me.
+
+Thirty-six month forecast: flowscope reaches $1-3M of services revenue with five to ten mid-market logos sourced through Mirpuri's QuantumBlack network, fails to productize the process-template layer fast enough to escape services economics, and is acqui-hired into Accenture's or Deloitte's GenAI delivery practice for a sub-$50M outcome -- or quietly winds down when the founders take Adept-style offers from a frontier lab. The mechanism is the one flowscope.com already encodes: a 2-person team with no productized pricing cannot outrun Cresta-scale capital ($276M) or McKinsey-scale distribution, and the middle gets squeezed.
+
+The bull case I owe this deal: Mirpuri's QuantumBlack rolodex lands a Fortune 500 CFO inside six months, the engagement converts to a multi-year automation retainer, and flowscope walks the Palantir Forward-Deployed-Engineer path -- services as a wedge into a proprietary process-template product, exactly the **Glean** Known Exception where domain-expert credentials and enterprise consequence overrode my founder-defiance prior. The dossier dismantles it: Glean had Arvind Jain's Google-search depth plus a stack-deep product on day one; flowscope has no productized layer, no disclosed customer, no signed LOI, and a name collision with a KNUST petroleum entity that will tax distribution. The verifiable condition that flips my verdict is a signed multi-year enterprise contract above $2M ACV with a named F500 CFO inside twelve months -- absent that, flowscope is the optimization play my framework was built to refuse.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Consequence Magnitude If Company Wins | 11/30 |
+| Technical or Capital Risk That Repels Consensus VCs | 6/25 |
+| Founder Defies Documented Expert Consensus | 6/20 |
+| Founder Learning Rate, Demonstrated By Prior Pivot Or Thesis Update | 7/15 |
+| Required-Capital Profile Matches Khosla Check Size | 4/10 |
+| **Total** | **34/100** |
+
+**Total Score: 34/100** (Pass)

@@ -43,6 +43,10 @@
     "sam-lessin": {
       "score": 24,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 29,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -52,10 +56,10 @@
     "PG": 47,
     "PT": 35,
     "SL": 24,
-    "VK": null
+    "VK": 29
   },
-  "consolidatedAvg": 39.67,
-  "consolidatedRank": 128,
+  "consolidatedAvg": 38.14,
+  "consolidatedRank": 130,
   "paths": {
     "memo": "spring2026/memos/armature.md",
     "evals": {
@@ -64,7 +68,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/armature.md",
       "paul-graham": "spring2026/evals/paul-graham/armature.md",
       "peter-thiel": "spring2026/evals/peter-thiel/armature.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/armature.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/armature.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/armature.md"
     }
   }
 }

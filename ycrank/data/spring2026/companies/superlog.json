@@ -42,6 +42,14 @@
     "peter-thiel": {
       "score": 35,
       "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 31,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -50,11 +58,11 @@
     "NR": 59,
     "PG": 61,
     "PT": 35,
-    "SL": null,
-    "VK": null
+    "SL": 28,
+    "VK": 31
   },
-  "consolidatedAvg": 48.6,
-  "consolidatedRank": 43,
+  "consolidatedAvg": 43.14,
+  "consolidatedRank": 68,
   "paths": {
     "memo": "spring2026/memos/superlog.md",
     "evals": {
@@ -62,7 +70,9 @@
       "elad-gil": "spring2026/evals/elad-gil/superlog.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/superlog.md",
       "paul-graham": "spring2026/evals/paul-graham/superlog.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/superlog.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/superlog.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/superlog.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/superlog.md"
     }
   }
 }

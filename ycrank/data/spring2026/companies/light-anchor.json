@@ -43,6 +43,10 @@
     "sam-lessin": {
       "score": 37,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 30,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -52,9 +56,9 @@
     "PG": 51,
     "PT": 34,
     "SL": 37,
-    "VK": null
+    "VK": 30
   },
-  "consolidatedAvg": 40.5,
+  "consolidatedAvg": 39,
   "consolidatedRank": 118,
   "paths": {
     "memo": "spring2026/memos/light-anchor.md",
@@ -64,7 +68,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/light-anchor.md",
       "paul-graham": "spring2026/evals/paul-graham/light-anchor.md",
       "peter-thiel": "spring2026/evals/peter-thiel/light-anchor.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/light-anchor.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/light-anchor.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/light-anchor.md"
     }
   }
 }

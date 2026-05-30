@@ -40,6 +40,14 @@
     "peter-thiel": {
       "score": 42,
       "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 31,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -48,11 +56,11 @@
     "NR": 37,
     "PG": 51,
     "PT": 42,
-    "SL": null,
-    "VK": null
+    "SL": 35,
+    "VK": 31
   },
-  "consolidatedAvg": 41.8,
-  "consolidatedRank": 102,
+  "consolidatedAvg": 39.29,
+  "consolidatedRank": 112,
   "paths": {
     "memo": "spring2026/memos/transload.md",
     "evals": {
@@ -60,7 +68,9 @@
       "elad-gil": "spring2026/evals/elad-gil/transload.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/transload.md",
       "paul-graham": "spring2026/evals/paul-graham/transload.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/transload.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/transload.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/transload.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/transload.md"
     }
   }
 }

@@ -44,6 +44,10 @@
     "sam-lessin": {
       "score": 33,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 40,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -53,10 +57,10 @@
     "PG": 63,
     "PT": 36,
     "SL": 33,
-    "VK": null
+    "VK": 40
   },
-  "consolidatedAvg": 48.17,
-  "consolidatedRank": 48,
+  "consolidatedAvg": 47,
+  "consolidatedRank": 32,
   "paths": {
     "memo": "spring2026/memos/ardent.md",
     "evals": {
@@ -65,7 +69,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/ardent.md",
       "paul-graham": "spring2026/evals/paul-graham/ardent.md",
       "peter-thiel": "spring2026/evals/peter-thiel/ardent.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/ardent.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/ardent.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/ardent.md"
     }
   }
 }

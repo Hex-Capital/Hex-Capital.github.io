@@ -45,6 +45,10 @@
     "sam-lessin": {
       "score": 38,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 32,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -54,10 +58,10 @@
     "PG": 44,
     "PT": 28,
     "SL": 38,
-    "VK": null
+    "VK": 32
   },
-  "consolidatedAvg": 42.5,
-  "consolidatedRank": 96,
+  "consolidatedAvg": 41,
+  "consolidatedRank": 93,
   "paths": {
     "memo": "spring2026/memos/gigacatalyst.md",
     "evals": {
@@ -66,7 +70,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/gigacatalyst.md",
       "paul-graham": "spring2026/evals/paul-graham/gigacatalyst.md",
       "peter-thiel": "spring2026/evals/peter-thiel/gigacatalyst.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/gigacatalyst.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/gigacatalyst.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/gigacatalyst.md"
     }
   }
 }

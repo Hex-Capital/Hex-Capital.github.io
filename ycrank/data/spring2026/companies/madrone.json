@@ -46,6 +46,10 @@
     "sam-lessin": {
       "score": 30,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 41,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -55,10 +59,10 @@
     "PG": 46,
     "PT": 48,
     "SL": 30,
-    "VK": null
+    "VK": 41
   },
-  "consolidatedAvg": 42.5,
-  "consolidatedRank": 97,
+  "consolidatedAvg": 42.29,
+  "consolidatedRank": 76,
   "paths": {
     "memo": "spring2026/memos/madrone.md",
     "evals": {
@@ -67,7 +71,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/madrone.md",
       "paul-graham": "spring2026/evals/paul-graham/madrone.md",
       "peter-thiel": "spring2026/evals/peter-thiel/madrone.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/madrone.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/madrone.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/madrone.md"
     }
   }
 }

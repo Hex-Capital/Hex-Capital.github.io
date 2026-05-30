@@ -46,6 +46,10 @@
     "sam-lessin": {
       "score": 28,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 32,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -55,10 +59,10 @@
     "PG": 44,
     "PT": 35,
     "SL": 28,
-    "VK": null
+    "VK": 32
   },
-  "consolidatedAvg": 39,
-  "consolidatedRank": 136,
+  "consolidatedAvg": 38,
+  "consolidatedRank": 132,
   "paths": {
     "memo": "spring2026/memos/lightsprint.md",
     "evals": {
@@ -67,7 +71,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/lightsprint.md",
       "paul-graham": "spring2026/evals/paul-graham/lightsprint.md",
       "peter-thiel": "spring2026/evals/peter-thiel/lightsprint.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/lightsprint.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/lightsprint.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/lightsprint.md"
     }
   }
 }

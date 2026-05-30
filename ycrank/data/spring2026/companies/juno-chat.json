@@ -44,6 +44,10 @@
     "sam-lessin": {
       "score": 50,
       "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 31,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -53,10 +57,10 @@
     "PG": 71,
     "PT": 34,
     "SL": 50,
-    "VK": null
+    "VK": 31
   },
-  "consolidatedAvg": 53.33,
-  "consolidatedRank": 14,
+  "consolidatedAvg": 50.14,
+  "consolidatedRank": 19,
   "paths": {
     "memo": "spring2026/memos/juno-chat.md",
     "evals": {
@@ -65,7 +69,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/juno-chat.md",
       "paul-graham": "spring2026/evals/paul-graham/juno-chat.md",
       "peter-thiel": "spring2026/evals/peter-thiel/juno-chat.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/juno-chat.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/juno-chat.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/juno-chat.md"
     }
   }
 }

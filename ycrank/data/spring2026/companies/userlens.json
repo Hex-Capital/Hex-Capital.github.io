@@ -41,6 +41,14 @@
     "peter-thiel": {
       "score": 28,
       "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 30,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -49,11 +57,11 @@
     "NR": 39,
     "PG": 57,
     "PT": 28,
-    "SL": null,
-    "VK": null
+    "SL": 28,
+    "VK": 30
   },
-  "consolidatedAvg": 42.6,
-  "consolidatedRank": 94,
+  "consolidatedAvg": 38.71,
+  "consolidatedRank": 125,
   "paths": {
     "memo": "spring2026/memos/userlens.md",
     "evals": {
@@ -61,7 +69,9 @@
       "elad-gil": "spring2026/evals/elad-gil/userlens.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/userlens.md",
       "paul-graham": "spring2026/evals/paul-graham/userlens.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/userlens.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/userlens.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/userlens.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/userlens.md"
     }
   }
 }

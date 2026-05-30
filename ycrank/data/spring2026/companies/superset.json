@@ -35,6 +35,14 @@
     "peter-thiel": {
       "score": 32,
       "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 33,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -43,11 +51,11 @@
     "NR": 72,
     "PG": 61,
     "PT": 32,
-    "SL": null,
-    "VK": null
+    "SL": 34,
+    "VK": 33
   },
-  "consolidatedAvg": 53.8,
-  "consolidatedRank": 11,
+  "consolidatedAvg": 48,
+  "consolidatedRank": 28,
   "paths": {
     "memo": "spring2026/memos/superset.md",
     "evals": {
@@ -55,7 +63,9 @@
       "elad-gil": "spring2026/evals/elad-gil/superset.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/superset.md",
       "paul-graham": "spring2026/evals/paul-graham/superset.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/superset.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/superset.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/superset.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/superset.md"
     }
   }
 }

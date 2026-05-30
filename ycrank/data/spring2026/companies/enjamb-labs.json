@@ -45,6 +45,10 @@
     "sam-lessin": {
       "score": 24,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 34,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -54,10 +58,10 @@
     "PG": 42,
     "PT": 31,
     "SL": 24,
-    "VK": null
+    "VK": 34
   },
-  "consolidatedAvg": 36,
-  "consolidatedRank": 164,
+  "consolidatedAvg": 35.71,
+  "consolidatedRank": 157,
   "paths": {
     "memo": "spring2026/memos/enjamb-labs.md",
     "evals": {
@@ -66,7 +70,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/enjamb-labs.md",
       "paul-graham": "spring2026/evals/paul-graham/enjamb-labs.md",
       "peter-thiel": "spring2026/evals/peter-thiel/enjamb-labs.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/enjamb-labs.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/enjamb-labs.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/enjamb-labs.md"
     }
   }
 }

@@ -39,6 +39,14 @@
     "peter-thiel": {
       "score": 31,
       "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 24,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 47,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
@@ -47,11 +55,11 @@
     "NR": 33,
     "PG": 40,
     "PT": 31,
-    "SL": null,
-    "VK": null
+    "SL": 24,
+    "VK": 47
   },
-  "consolidatedAvg": 38,
-  "consolidatedRank": 149,
+  "consolidatedAvg": 37.29,
+  "consolidatedRank": 134,
   "paths": {
     "memo": "spring2026/memos/twolabs.md",
     "evals": {
@@ -59,7 +67,9 @@
       "elad-gil": "spring2026/evals/elad-gil/twolabs.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/twolabs.md",
       "paul-graham": "spring2026/evals/paul-graham/twolabs.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/twolabs.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/twolabs.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/twolabs.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/twolabs.md"
     }
   }
 }

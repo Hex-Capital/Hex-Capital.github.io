@@ -1,0 +1,30 @@
+﻿# Mount -- Vinod Khosla Evaluation
+
+Mount is a meta-bet on someone else's revolution dressed up in insurance language -- two Swiss first-time founders, Fabian Amherd and John Bachmann, neither with a day of underwriting experience, trying to become the "carrier" for AI-agent liability while AIUC sits with a $15M Nat Friedman-led seed and Klaimee shares the same YC P26 batch with a CEO who already scaled SafetyWing insurance from $5M to $60M ARR. The signature is high accidental-outsider profile against a low consequence ceiling -- Mount captures premium on a wave it does not generate, which is exactly the inversion of how I read **OpenAI** (2019).
+
+Consequence magnitude is where Mount earns its low score. **OpenAI** (2019) at $50M was a check on the success-state in which the labor mechanism of the global economy bends -- the $15T of U.S. GDP labor frame I gave Fortune (2026-03-06). Mount's maximum-ambition success-state is becoming the default underwriter on the autonomous-agent stack as it grows from $7.6B to $183B by 2033 per the dossier's cited insurtech coverage. That is a real business. It is not a civilizational variable. No incumbent regime collapses if Mount wins; in fact the dossier tells me the opposite is already happening on its own -- Berkshire, Chubb, and Travelers have had 80%+ of their AI-exclusion filings approved by state regulators per PYMNTS (2026), which means the gap exists with or without Mount. Mount is a toll booth on a highway someone else is paving, and toll booths do not score like **Impossible Foods** (2011).
+
+KiOR (~2008) is the wrong analogy on capital and technical risk -- and Mount sits at the opposite pole. KiOR demanded three falsifiable miracles (catalyst yield, feedstock economics, refinery integration), Mississippi's $75M state loan plus our capital, and a deployment scale no consensus VC would touch. Mount requires none of that. The dossier shows no proprietary actuarial model, no reinsurance backing disclosed, no admitted-lines licensing, no Lloyd's syndicate paper of the kind Armilla runs through Chaucer or Testudo runs through Atrium/QBE per Reinsurance News (2026). What's left is software plus regulatory plumbing -- a profile any Tier-1 generalist or Lloyd's-native insurtech investor can fund, and several already are.
+
+On founder-defies-expert: Amherd built CNNs at the ETH spin-off MESH and ran a web dev company starting at 16; Bachmann founded Horizonn at 18 and ran five magazines to $400K annual revenue. Over 18 months that "outsider entering insurance" posture either compounds into a genuinely re-architected underwriting stack -- the **Cognition** (2024) pattern of stack-deep AI against incumbent workflow -- or it collapses into the reason capacity providers will not back them, which is exactly what the dossier flags as the carrier-vs-MGA capital gap. The compounding requires at least one insurance-native hire that the dossier does not show. Without it, "outsider" decays into "naive" by month 12.
+
+Learning rate is the absent-evidence default for Mount. Counterfactual: to flip this from a 6 to a 12, the dossier would need to show one of the founders publicly pivoting -- Amherd abandoning robotics for insurance with a stated thesis change, or Bachmann selling Horizonn after a documented failure mode in magazine economics. What I have instead is two linear founder arcs that ended when YC started. That is not Kanye-pivot **Slash** (2024); it is two young operators on their first real swing at scale.
+
+Required-capital profile is the only dimension where Mount sniffs my check size -- and only conditionally. To become a real carrier, not an MGA, Mount needs reinsurance capacity, statutory reserves, and surplus-lines licensing across states, which is a $50M+ path before the first material policy is bound. Compare to **Cognition** (2024) where the $175M round was deployed against training capex. Mount's capital story is plumbing, not science. I am over-resourced for the seed and under-convinced for the Series B that actually requires my check size.
+
+Mount is dead, acquired for talent, or pivoted to pure red-teaming SaaS within 36 months -- most likely acqui-hired by AIUC or Klaimee, who both enter the race with either capital depth (Nat Friedman's $15M) or domain depth (SafetyWing $5M→$60M ARR operator) that Mount lacks. The mechanism is straightforward: in a category being attacked by four well-funded teams plus Munich Re's eight-year aiSure program, the team without capacity providers, without insurance operators, and without differentiated loss data loses the enterprise pilots that determine which one carrier becomes default.
+
+The bull case stings and I want to be honest about it: incumbents retreating at 80%+ approval rates is exactly the regulatory-vacuum pattern that made **DoorDash** (2013) work -- a category opening where the consensus VCs see only mess. Mount could be the **Slash** (2024) exception, where YC pedigree plus founder learning rate overrides the consequence-magnitude prior. But **Slash** had a documented pivot story; Mount has none. **DoorDash** had Tony Xu's specific distribution insight; Mount has a calendar-booking quote flow. The dossier evidence that wins is this: when the same YC batch contains a direct competitor (Klaimee) whose CEO has already executed the exact operational playbook Mount needs to learn, my check goes to the operator, not the outsider. I flip my verdict if Mount announces a named reinsurance capacity partner (Munich Re, Swiss Re, or a Lloyd's syndicate) within 9 months -- that single fact would mean someone with actuarial discipline has underwritten the founders, and I would reread the deal.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Consequence Magnitude If Company Wins | 9/30 |
+| Technical or Capital Risk That Repels Consensus VCs | 8/25 |
+| Founder Defies Documented Expert Consensus | 8/20 |
+| Founder Learning Rate, Demonstrated By Prior Pivot Or Thesis Update | 6/15 |
+| Required-Capital Profile Matches Khosla Check Size | 5/10 |
+| **Total** | **36/100** |
+
+**Total Score: 36/100** (Pass)

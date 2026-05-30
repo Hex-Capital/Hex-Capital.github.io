@@ -45,6 +45,10 @@
     "sam-lessin": {
       "score": 29,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 29,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -54,10 +58,10 @@
     "PG": 43,
     "PT": 26,
     "SL": 29,
-    "VK": null
+    "VK": 29
   },
-  "consolidatedAvg": 34,
-  "consolidatedRank": 182,
+  "consolidatedAvg": 33.29,
+  "consolidatedRank": 174,
   "paths": {
     "memo": "spring2026/memos/foresight.md",
     "evals": {
@@ -66,7 +70,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/foresight.md",
       "paul-graham": "spring2026/evals/paul-graham/foresight.md",
       "peter-thiel": "spring2026/evals/peter-thiel/foresight.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/foresight.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/foresight.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/foresight.md"
     }
   }
 }

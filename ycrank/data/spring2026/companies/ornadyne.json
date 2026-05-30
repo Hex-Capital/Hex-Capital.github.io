@@ -45,6 +45,10 @@
     "sam-lessin": {
       "score": 47,
       "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 48,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
@@ -54,10 +58,10 @@
     "PG": 66,
     "PT": 60,
     "SL": 47,
-    "VK": null
+    "VK": 48
   },
-  "consolidatedAvg": 55.33,
-  "consolidatedRank": 7,
+  "consolidatedAvg": 54.29,
+  "consolidatedRank": 4,
   "paths": {
     "memo": "spring2026/memos/ornadyne.md",
     "evals": {
@@ -66,7 +70,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/ornadyne.md",
       "paul-graham": "spring2026/evals/paul-graham/ornadyne.md",
       "peter-thiel": "spring2026/evals/peter-thiel/ornadyne.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/ornadyne.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/ornadyne.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/ornadyne.md"
     }
   }
 }

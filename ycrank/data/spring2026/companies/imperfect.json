@@ -45,6 +45,10 @@
     "sam-lessin": {
       "score": 38,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 35,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -54,10 +58,10 @@
     "PG": 57,
     "PT": 28,
     "SL": 38,
-    "VK": null
+    "VK": 35
   },
-  "consolidatedAvg": 43.67,
-  "consolidatedRank": 82,
+  "consolidatedAvg": 42.43,
+  "consolidatedRank": 73,
   "paths": {
     "memo": "spring2026/memos/imperfect.md",
     "evals": {
@@ -66,7 +70,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/imperfect.md",
       "paul-graham": "spring2026/evals/paul-graham/imperfect.md",
       "peter-thiel": "spring2026/evals/peter-thiel/imperfect.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/imperfect.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/imperfect.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/imperfect.md"
     }
   }
 }

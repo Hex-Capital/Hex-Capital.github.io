@@ -45,6 +45,10 @@
     "sam-lessin": {
       "score": 28,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 28,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -54,9 +58,9 @@
     "PG": 65,
     "PT": 36,
     "SL": 28,
-    "VK": null
+    "VK": 28
   },
-  "consolidatedAvg": 48.5,
+  "consolidatedAvg": 45.57,
   "consolidatedRank": 44,
   "paths": {
     "memo": "spring2026/memos/agentphone.md",
@@ -66,7 +70,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/agentphone.md",
       "paul-graham": "spring2026/evals/paul-graham/agentphone.md",
       "peter-thiel": "spring2026/evals/peter-thiel/agentphone.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/agentphone.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/agentphone.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/agentphone.md"
     }
   }
 }

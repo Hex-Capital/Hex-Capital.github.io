@@ -44,6 +44,10 @@
     "sam-lessin": {
       "score": 36,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 41,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -53,10 +57,10 @@
     "PG": 50,
     "PT": 33,
     "SL": 36,
-    "VK": null
+    "VK": 41
   },
-  "consolidatedAvg": 41.83,
-  "consolidatedRank": 100,
+  "consolidatedAvg": 41.71,
+  "consolidatedRank": 82,
   "paths": {
     "memo": "spring2026/memos/advanced-metal-research.md",
     "evals": {
@@ -65,7 +69,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/advanced-metal-research.md",
       "paul-graham": "spring2026/evals/paul-graham/advanced-metal-research.md",
       "peter-thiel": "spring2026/evals/peter-thiel/advanced-metal-research.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/advanced-metal-research.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/advanced-metal-research.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/advanced-metal-research.md"
     }
   }
 }

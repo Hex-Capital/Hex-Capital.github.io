@@ -1,0 +1,30 @@
+﻿# Trellis -- Sam Lessin Evaluation
+
+Trellis is two genuine STR operators — Benvenuti scaled a property management company to ~$2M revenue across 150+ listings, Sahagun runs the STR Tech Report media platform — force-fit into the exact "AI agent for [enterprise vertical]" template I wrote the Pass Example about. The dimensional signature here is loud: the highest rung is founder distribution (Sahagun owns the audience), the lowest is category sleeve (this is the canonical 2026 YC AI-agent pitch). That pairing tells me there's a real asset buried in Trellis, but the wrapper I'm being asked to buy isn't the one that prices it.
+
+Sahagun's STR Tech Report is the dimension where Trellis climbs highest on my ladder, and the relevant comparison is John Fish / Bookshelved — niche entrepreneurial creator, owned audience, distribution that pre-existed the company. The mechanism that made Bookshelved underwritable was that Fish's distribution was the asset and the equity was structured around the person, not the LLC. Trellis diverges from that rung at exactly the cap-table layer: Sahagun's "thousands of property-manager relationships" and the STR Tech Report platform get rolled into a generic YC SAFE on a six-person software co., not carved into a creator-shaped instrument. That's a real owned-distribution asset being securitized as commodity vertical SaaS, which is the wrong financing tack and the reason the Slow Creator Fund exists in the first place.
+
+The canonical Pass Example failure mode — "AI agent for [enterprise vertical], standard SaaS cap table, will need five more rounds to reach default-alive" — is the lowest rung on the category sleeve dimension, and Trellis matches it almost line-for-line. "AI is just more internet" (Lonsdale podcast, 2024) is the re-weighting frame, and Trellis is literally branded "Autonomous Agents for Short Term Rentals" against Guesty ($409M raised, $900M valuation) and Hostaway ($543M raised, $925M valuation). Benvenuti's own admission that the team "reached feature parity with competitors in two weeks" is the confession that the AI-native layer is replicable, including by his prior employer HostAI/Conduit (YC W24, $3.1M raised) — that's not a moat statement, that's the commoditization red flag spoken out loud.
+
+The capital-structure dimension fails on mechanism analysis over 18 months: Trellis is selling per-listing SaaS against two incumbents with combined ~$952M of dry powder who own the existing PMS relationships. The 200+ integrations claim is integration debt, not moat — Airbnb, VRBO, Guesty, and Hostaway each control API access, and the moment Trellis becomes a competitive threat to the latter two, the connectors get throttled. This is the opposite of capital efficiency; it's a war-of-attrition cap table that needs four more rounds before "default-alive" is even a sentence the founders can say with a straight face.
+
+Counterfactual on the round-pricing dimension: the score flips a tier if Trellis came in at a sub-batch-median pre-money with at least one tier-1 visibly passing on the basis of "AI agent vertical fatigue." No such signal in the dossier — no disclosed round size, no named pass, no pricing artifact at all — and per my absent-evidence default, silence on round dynamics reads as consensus pricing in a hot category. The Spring 2026 batch is going to be wall-to-wall vertical AI agents and Trellis will price like the rest of them.
+
+Benvenuti's founder-conviction profile is the single-anchor parallel to Drop.io — I bootstrapped a file-sharing primitive against free incumbents because I'd lived the problem. Benvenuti lived the 150-listing operator life and then went and built AI agents at the YC W24 STR shop before starting Trellis. That's real founder-market fit, not sanitized strategic-consulting language. But conviction without public writing is half the filter — there's no Benvenuti essay on why agents fail in STR, no opinionated artifact for me to read pre-meeting, just resume points. Sahagun has the media platform but the STR Tech Report is industry-newsletter shaped, not founder-thesis shaped.
+
+My 36-month forecast on Trellis: $1-4M ARR, then acqui-hired by Hostaway or Guesty in the $15-40M range for the integration footprint and the Sahagun audience, with the AI-agent layer absorbed into the incumbent's existing automation suite. The mechanism is simple — the incumbents will either build the same agent layer internally (Benvenuti said it took two weeks) or buy the team cheap once Trellis runs out of runway competing with a $543M war chest, and the STR Tech Report distribution is more valuable to them than to Trellis-standalone.
+
+The strongest bear-case-on-my-pass: Benvenuti is the Wizard-of-Oz template I explicitly hunt for — he ran the manual STR operation before automating it, which is the Fin / Latitud Podcast signal I claim to weight heavily. Combined with Sahagun's owned distribution, this is structurally the operator-plus-distribution combo that should make me lean in. I'm dismantling that with the cap-table fact: the asset is the people and the audience, but I'm being offered equity in a software company that will get crushed by API gatekeepers and outspent by PE-backed incumbents. The Wizard-of-Oz signal applies to the operating history, not to the financing structure I have to underwrite today. The condition that flips my verdict: Sahagun carves the STR Tech Report audience into a separate royalty / creator-fund instrument (5% of media earnings + IP across 10 years, Mogilko-shaped), and I write into the person rather than the LLC — then I'm in tomorrow. Until that structure exists, Trellis is a pass.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Round Is Mis-Priced or Non-Consensus, Not the Hot YC Deck | 8/30 |
+| Capital Structure Is Venture-Shaped, Not Founder-Drainage | 6/22 |
+| Founder Has Asymmetric Conviction Visible Pre-Pitch | 13/20 |
+| Founder-as-Brand or Owned Community Is on the Cap Table | 10/15 |
+| Category Lives in a Sleeve You're Already Convicted On | 4/13 |
+| **Total** | **41/100** |
+
+**Total Score: 41/100** (Pass)

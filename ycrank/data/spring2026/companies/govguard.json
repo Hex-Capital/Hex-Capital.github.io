@@ -42,6 +42,10 @@
     "sam-lessin": {
       "score": 24,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 28,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -51,10 +55,10 @@
     "PG": 40,
     "PT": 38,
     "SL": 24,
-    "VK": null
+    "VK": 28
   },
-  "consolidatedAvg": 35,
-  "consolidatedRank": 171,
+  "consolidatedAvg": 34,
+  "consolidatedRank": 172,
   "paths": {
     "memo": "spring2026/memos/govguard.md",
     "evals": {
@@ -63,7 +67,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/govguard.md",
       "paul-graham": "spring2026/evals/paul-graham/govguard.md",
       "peter-thiel": "spring2026/evals/peter-thiel/govguard.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/govguard.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/govguard.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/govguard.md"
     }
   }
 }

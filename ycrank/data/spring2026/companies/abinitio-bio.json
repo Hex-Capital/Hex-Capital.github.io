@@ -44,6 +44,10 @@
     "sam-lessin": {
       "score": 33,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 37,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -53,10 +57,10 @@
     "PG": 42,
     "PT": 45,
     "SL": 33,
-    "VK": null
+    "VK": 37
   },
-  "consolidatedAvg": 42.33,
-  "consolidatedRank": 98,
+  "consolidatedAvg": 41.57,
+  "consolidatedRank": 85,
   "paths": {
     "memo": "spring2026/memos/abinitio-bio.md",
     "evals": {
@@ -65,7 +69,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/abinitio-bio.md",
       "paul-graham": "spring2026/evals/paul-graham/abinitio-bio.md",
       "peter-thiel": "spring2026/evals/peter-thiel/abinitio-bio.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/abinitio-bio.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/abinitio-bio.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/abinitio-bio.md"
     }
   }
 }

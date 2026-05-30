@@ -44,6 +44,10 @@
     "sam-lessin": {
       "score": 46,
       "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 40,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -53,10 +57,10 @@
     "PG": 56,
     "PT": 38,
     "SL": 46,
-    "VK": null
+    "VK": 40
   },
-  "consolidatedAvg": 46.67,
-  "consolidatedRank": 56,
+  "consolidatedAvg": 45.71,
+  "consolidatedRank": 43,
   "paths": {
     "memo": "spring2026/memos/mochatrade.md",
     "evals": {
@@ -65,7 +69,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/mochatrade.md",
       "paul-graham": "spring2026/evals/paul-graham/mochatrade.md",
       "peter-thiel": "spring2026/evals/peter-thiel/mochatrade.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/mochatrade.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/mochatrade.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/mochatrade.md"
     }
   }
 }

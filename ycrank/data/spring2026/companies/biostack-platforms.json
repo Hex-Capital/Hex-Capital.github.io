@@ -39,6 +39,10 @@
     "sam-lessin": {
       "score": 36,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 41,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -48,10 +52,10 @@
     "PG": 53,
     "PT": 36,
     "SL": 36,
-    "VK": null
+    "VK": 41
   },
-  "consolidatedAvg": 44.83,
-  "consolidatedRank": 69,
+  "consolidatedAvg": 44.29,
+  "consolidatedRank": 59,
   "paths": {
     "memo": "spring2026/memos/biostack-platforms.md",
     "evals": {
@@ -60,7 +64,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/biostack-platforms.md",
       "paul-graham": "spring2026/evals/paul-graham/biostack-platforms.md",
       "peter-thiel": "spring2026/evals/peter-thiel/biostack-platforms.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/biostack-platforms.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/biostack-platforms.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/biostack-platforms.md"
     }
   }
 }

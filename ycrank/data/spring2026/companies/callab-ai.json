@@ -44,6 +44,10 @@
     "sam-lessin": {
       "score": 41,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 44,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -53,10 +57,10 @@
     "PG": 69,
     "PT": 43,
     "SL": 41,
-    "VK": null
+    "VK": 44
   },
-  "consolidatedAvg": 48.83,
-  "consolidatedRank": 39,
+  "consolidatedAvg": 48.14,
+  "consolidatedRank": 27,
   "paths": {
     "memo": "spring2026/memos/callab-ai.md",
     "evals": {
@@ -65,7 +69,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/callab-ai.md",
       "paul-graham": "spring2026/evals/paul-graham/callab-ai.md",
       "peter-thiel": "spring2026/evals/peter-thiel/callab-ai.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/callab-ai.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/callab-ai.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/callab-ai.md"
     }
   }
 }

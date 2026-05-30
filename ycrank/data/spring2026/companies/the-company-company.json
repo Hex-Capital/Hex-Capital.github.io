@@ -35,6 +35,14 @@
     "peter-thiel": {
       "score": 21,
       "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 41,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -43,11 +51,11 @@
     "NR": 42,
     "PG": 44,
     "PT": 21,
-    "SL": null,
-    "VK": null
+    "SL": 31,
+    "VK": 41
   },
-  "consolidatedAvg": 36.4,
-  "consolidatedRank": 159,
+  "consolidatedAvg": 36.29,
+  "consolidatedRank": 150,
   "paths": {
     "memo": "spring2026/memos/the-company-company.md",
     "evals": {
@@ -55,7 +63,9 @@
       "elad-gil": "spring2026/evals/elad-gil/the-company-company.md",
       "naval-ravikant": "spring2026/evals/naval-ravikant/the-company-company.md",
       "paul-graham": "spring2026/evals/paul-graham/the-company-company.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/the-company-company.md"
+      "peter-thiel": "spring2026/evals/peter-thiel/the-company-company.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/the-company-company.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/the-company-company.md"
     }
   }
 }

@@ -44,6 +44,10 @@
     "sam-lessin": {
       "score": 33,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 54,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
@@ -53,10 +57,10 @@
     "PG": 67,
     "PT": 56,
     "SL": 33,
-    "VK": null
+    "VK": 54
   },
-  "consolidatedAvg": 51,
-  "consolidatedRank": 24,
+  "consolidatedAvg": 51.43,
+  "consolidatedRank": 15,
   "paths": {
     "memo": "spring2026/memos/dispatch.md",
     "evals": {
@@ -65,7 +69,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/dispatch.md",
       "paul-graham": "spring2026/evals/paul-graham/dispatch.md",
       "peter-thiel": "spring2026/evals/peter-thiel/dispatch.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/dispatch.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/dispatch.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/dispatch.md"
     }
   }
 }

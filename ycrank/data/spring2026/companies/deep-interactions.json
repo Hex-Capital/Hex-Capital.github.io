@@ -46,6 +46,10 @@
     "sam-lessin": {
       "score": 30,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 29,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -55,10 +59,10 @@
     "PG": 49,
     "PT": 30,
     "SL": 30,
-    "VK": null
+    "VK": 29
   },
-  "consolidatedAvg": 36.67,
-  "consolidatedRank": 155,
+  "consolidatedAvg": 35.57,
+  "consolidatedRank": 159,
   "paths": {
     "memo": "spring2026/memos/deep-interactions.md",
     "evals": {
@@ -67,7 +71,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/deep-interactions.md",
       "paul-graham": "spring2026/evals/paul-graham/deep-interactions.md",
       "peter-thiel": "spring2026/evals/peter-thiel/deep-interactions.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/deep-interactions.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/deep-interactions.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/deep-interactions.md"
     }
   }
 }

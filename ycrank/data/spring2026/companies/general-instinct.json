@@ -45,6 +45,10 @@
     "sam-lessin": {
       "score": 35,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 38,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -54,10 +58,10 @@
     "PG": 48,
     "PT": 42,
     "SL": 35,
-    "VK": null
+    "VK": 38
   },
-  "consolidatedAvg": 40.67,
-  "consolidatedRank": 115,
+  "consolidatedAvg": 40.29,
+  "consolidatedRank": 98,
   "paths": {
     "memo": "spring2026/memos/general-instinct.md",
     "evals": {
@@ -66,7 +70,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/general-instinct.md",
       "paul-graham": "spring2026/evals/paul-graham/general-instinct.md",
       "peter-thiel": "spring2026/evals/peter-thiel/general-instinct.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/general-instinct.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/general-instinct.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/general-instinct.md"
     }
   }
 }

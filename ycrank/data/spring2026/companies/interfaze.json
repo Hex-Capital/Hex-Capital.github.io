@@ -44,6 +44,10 @@
     "sam-lessin": {
       "score": 32,
       "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 34,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
@@ -53,10 +57,10 @@
     "PG": 56,
     "PT": 33,
     "SL": 32,
-    "VK": null
+    "VK": 34
   },
-  "consolidatedAvg": 44.33,
-  "consolidatedRank": 75,
+  "consolidatedAvg": 42.86,
+  "consolidatedRank": 69,
   "paths": {
     "memo": "spring2026/memos/interfaze.md",
     "evals": {
@@ -65,7 +69,8 @@
       "naval-ravikant": "spring2026/evals/naval-ravikant/interfaze.md",
       "paul-graham": "spring2026/evals/paul-graham/interfaze.md",
       "peter-thiel": "spring2026/evals/peter-thiel/interfaze.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/interfaze.md"
+      "sam-lessin": "spring2026/evals/sam-lessin/interfaze.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/interfaze.md"
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "batch": "spring2026",
-  "companyCount": 192,
+  "companyCount": 191,
   "personas": [
     {
       "slug": "cyan-banister",
@@ -2800,43 +2800,6 @@
     },
     {
       "rank": 76,
-      "name": "Superfruits Inc.",
-      "slug": "superfruits-inc",
-      "scores": {
-        "CB": 39,
-        "EG": 58,
-        "NR": 46,
-        "PG": 57,
-        "PT": 29,
-        "SL": 35,
-        "VK": 33
-      },
-      "tiers": {
-        "CB": "Pass",
-        "EG": "Neutral",
-        "NR": "Neutral",
-        "PG": "Neutral",
-        "PT": "Pass",
-        "SL": "Pass",
-        "VK": "Pass"
-      },
-      "avg": 42.43,
-      "revenue": null,
-      "teamSize": 7,
-      "ycPartner": "Andrew Miklas",
-      "oneLiner": "AI GTM agents for B2B teams",
-      "industry": "B2B / B2B -> Sales",
-      "location": "San Francisco, CA, USA; Remote",
-      "tags": [
-        "B2B",
-        "Sales",
-        "AI"
-      ],
-      "scoreTips": {},
-      "memoDate": "2026-06-01"
-    },
-    {
-      "rank": 77,
       "name": "Prism",
       "slug": "tryprism",
       "scores": {
@@ -2874,7 +2837,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 78,
+      "rank": 77,
       "name": "Madrone",
       "slug": "madrone",
       "scores": {
@@ -2913,7 +2876,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 79,
+      "rank": 78,
       "name": "OpenWork",
       "slug": "openwork",
       "scores": {
@@ -2946,7 +2909,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 80,
+      "rank": 79,
       "name": "PLAN0 AI",
       "slug": "plan0-ai",
       "scores": {
@@ -2985,7 +2948,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 81,
+      "rank": 80,
       "name": "Sherpa",
       "slug": "sherpa",
       "scores": {
@@ -3024,7 +2987,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 82,
+      "rank": 81,
       "name": "Standout",
       "slug": "standout",
       "scores": {
@@ -3061,7 +3024,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 83,
+      "rank": 82,
       "name": "Avea Robotics",
       "slug": "avea-robotics",
       "scores": {
@@ -3098,7 +3061,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 84,
+      "rank": 83,
       "name": "Advanced Metal Research",
       "slug": "advanced-metal-research",
       "scores": {
@@ -3135,7 +3098,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 85,
+      "rank": 84,
       "name": "Hedge",
       "slug": "hedge",
       "scores": {
@@ -3173,7 +3136,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 86,
+      "rank": 85,
       "name": "Result",
       "slug": "result",
       "scores": {
@@ -3208,7 +3171,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 87,
+      "rank": 86,
       "name": "AbInitio Bio",
       "slug": "abinitio-bio",
       "scores": {
@@ -3245,7 +3208,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 88,
+      "rank": 87,
       "name": "Synphony",
       "slug": "synphony",
       "scores": {
@@ -3283,7 +3246,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 89,
+      "rank": 88,
       "name": "OpenProse",
       "slug": "openprose",
       "scores": {
@@ -3322,7 +3285,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 90,
+      "rank": 89,
       "name": "qomplement",
       "slug": "qomplement",
       "scores": {
@@ -3361,7 +3324,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 91,
+      "rank": 90,
       "name": "Lab0",
       "slug": "lab0",
       "scores": {
@@ -3400,7 +3363,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 92,
+      "rank": 91,
       "name": "River Markets",
       "slug": "river-markets",
       "scores": {
@@ -3435,7 +3398,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 93,
+      "rank": 92,
       "name": "Soria",
       "slug": "soria",
       "scores": {
@@ -3472,7 +3435,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 94,
+      "rank": 93,
       "name": "Gigacatalyst",
       "slug": "gigacatalyst",
       "scores": {
@@ -3510,7 +3473,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 95,
+      "rank": 94,
       "name": "Stage",
       "slug": "stage",
       "scores": {
@@ -3546,7 +3509,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 96,
+      "rank": 95,
       "name": "Oddpool",
       "slug": "oddpool",
       "scores": {
@@ -3583,7 +3546,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 97,
+      "rank": 96,
       "name": "Pops",
       "slug": "pops",
       "scores": {
@@ -3621,7 +3584,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 98,
+      "rank": 97,
       "name": "Amboras",
       "slug": "amboras",
       "scores": {
@@ -3658,7 +3621,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 99,
+      "rank": 98,
       "name": "General Instinct",
       "slug": "general-instinct",
       "scores": {
@@ -3696,7 +3659,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 100,
+      "rank": 99,
       "name": "AquaShield",
       "slug": "aquashield",
       "scores": {
@@ -3732,7 +3695,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 101,
+      "rank": 100,
       "name": "CharacterQuilt",
       "slug": "characterquilt",
       "scores": {
@@ -3771,7 +3734,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 102,
+      "rank": 101,
       "name": "Infera",
       "slug": "infera",
       "scores": {
@@ -3810,7 +3773,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 103,
+      "rank": 102,
       "name": "Klarify",
       "slug": "klarify",
       "scores": {
@@ -3849,7 +3812,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 104,
+      "rank": 103,
       "name": "Plena Health",
       "slug": "plena-health",
       "scores": {
@@ -3885,7 +3848,7 @@
       "memoDate": "2026-05-30"
     },
     {
-      "rank": 105,
+      "rank": 104,
       "name": "Foaster",
       "slug": "foaster",
       "scores": {
@@ -3922,7 +3885,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 106,
+      "rank": 105,
       "name": "Framewise Health",
       "slug": "framewise-health",
       "scores": {
@@ -3959,7 +3922,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 107,
+      "rank": 106,
       "name": "Totalis",
       "slug": "totalis",
       "scores": {
@@ -3995,7 +3958,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 108,
+      "rank": 107,
       "name": "Ara",
       "slug": "ara",
       "scores": {
@@ -4030,7 +3993,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 109,
+      "rank": 108,
       "name": "Pairio",
       "slug": "pairio",
       "scores": {
@@ -4067,7 +4030,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 110,
+      "rank": 109,
       "name": "KelAI",
       "slug": "kelai",
       "scores": {
@@ -4106,7 +4069,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 111,
+      "rank": 110,
       "name": "Kinro",
       "slug": "kinro",
       "scores": {
@@ -4143,7 +4106,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 112,
+      "rank": 111,
       "name": "Replicas",
       "slug": "replicas",
       "scores": {
@@ -4180,7 +4143,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 113,
+      "rank": 112,
       "name": "transload",
       "slug": "transload",
       "scores": {
@@ -4217,7 +4180,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 114,
+      "rank": 113,
       "name": "Asendia AI",
       "slug": "asendia-ai",
       "scores": {
@@ -4255,7 +4218,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 115,
+      "rank": 114,
       "name": "Hessian",
       "slug": "hessian",
       "scores": {
@@ -4293,7 +4256,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 116,
+      "rank": 115,
       "name": "Kimpton AI",
       "slug": "kimpton-ai",
       "scores": {
@@ -4330,7 +4293,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 117,
+      "rank": 116,
       "name": "Arzana",
       "slug": "arzana",
       "scores": {
@@ -4369,7 +4332,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 118,
+      "rank": 117,
       "name": "Kuli",
       "slug": "kuli",
       "scores": {
@@ -4402,7 +4365,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 119,
+      "rank": 118,
       "name": "Light Anchor",
       "slug": "light-anchor",
       "scores": {
@@ -4438,7 +4401,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 120,
+      "rank": 119,
       "name": "Panacea",
       "slug": "panacea",
       "scores": {
@@ -4477,7 +4440,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 121,
+      "rank": 120,
       "name": "Mount",
       "slug": "mount",
       "scores": {
@@ -4510,7 +4473,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 122,
+      "rank": 121,
       "name": "Chronicle Labs",
       "slug": "chronicle-labs",
       "scores": {
@@ -4547,7 +4510,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 123,
+      "rank": 122,
       "name": "Pentagon",
       "slug": "pentagon",
       "scores": {
@@ -4584,7 +4547,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 124,
+      "rank": 123,
       "name": "Taiga",
       "slug": "taiga",
       "scores": {
@@ -4619,7 +4582,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 125,
+      "rank": 124,
       "name": "TesterArmy",
       "slug": "testerarmy",
       "scores": {
@@ -4656,7 +4619,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 126,
+      "rank": 125,
       "name": "Userlens",
       "slug": "userlens",
       "scores": {
@@ -4694,7 +4657,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 127,
+      "rank": 126,
       "name": "Elyra",
       "slug": "elyra",
       "scores": {
@@ -4731,7 +4694,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 128,
+      "rank": 127,
       "name": "Scope",
       "slug": "scope",
       "scores": {
@@ -4768,7 +4731,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 129,
+      "rank": 128,
       "name": "Hub.xyz",
       "slug": "hubxyz",
       "scores": {
@@ -4807,7 +4770,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 130,
+      "rank": 129,
       "name": "Modern",
       "slug": "modern",
       "scores": {
@@ -4846,7 +4809,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 131,
+      "rank": 130,
       "name": "Armature",
       "slug": "armature",
       "scores": {
@@ -4882,7 +4845,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 132,
+      "rank": 131,
       "name": "Saffron",
       "slug": "saffron",
       "scores": {
@@ -4919,7 +4882,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 133,
+      "rank": 132,
       "name": "Lightsprint",
       "slug": "lightsprint",
       "scores": {
@@ -4958,7 +4921,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 134,
+      "rank": 133,
       "name": "Revnu",
       "slug": "revnu",
       "scores": {
@@ -4994,7 +4957,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 135,
+      "rank": 134,
       "name": "Twolabs",
       "slug": "twolabs",
       "scores": {
@@ -5030,7 +4993,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 136,
+      "rank": 135,
       "name": "Auxos",
       "slug": "auxos",
       "scores": {
@@ -5068,7 +5031,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 137,
+      "rank": 136,
       "name": "Cohesion",
       "slug": "cohesion",
       "scores": {
@@ -5105,7 +5068,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 138,
+      "rank": 137,
       "name": "Ontora",
       "slug": "ontora",
       "scores": {
@@ -5143,7 +5106,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 139,
+      "rank": 138,
       "name": "Sidekick",
       "slug": "textsidekick",
       "scores": {
@@ -5180,7 +5143,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 140,
+      "rank": 139,
       "name": "Archer",
       "slug": "archer",
       "scores": {
@@ -5217,7 +5180,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 141,
+      "rank": 140,
       "name": "Standard Signal",
       "slug": "standard-signal",
       "scores": {
@@ -5253,7 +5216,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 142,
+      "rank": 141,
       "name": "Prototyping.io",
       "slug": "prototypingio",
       "scores": {
@@ -5291,7 +5254,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 143,
+      "rank": 142,
       "name": "Fuchsia",
       "slug": "fuchsia",
       "scores": {
@@ -5330,7 +5293,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 144,
+      "rank": 143,
       "name": "Datost",
       "slug": "datost",
       "scores": {
@@ -5367,7 +5330,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 145,
+      "rank": 144,
       "name": "Hyper",
       "slug": "hyper-4",
       "scores": {
@@ -5404,7 +5367,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 146,
+      "rank": 145,
       "name": "InstaAgent",
       "slug": "instaagent",
       "scores": {
@@ -5442,7 +5405,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 147,
+      "rank": 146,
       "name": "Kinect",
       "slug": "kinect",
       "scores": {
@@ -5479,7 +5442,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 148,
+      "rank": 147,
       "name": "Arctic Health",
       "slug": "arctic-health",
       "scores": {
@@ -5516,7 +5479,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 149,
+      "rank": 148,
       "name": "Refortifai",
       "slug": "refortifai",
       "scores": {
@@ -5555,7 +5518,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 150,
+      "rank": 149,
       "name": "StableBrowse",
       "slug": "stablebrowse",
       "scores": {
@@ -5593,7 +5556,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 151,
+      "rank": 150,
       "name": "The Company Company",
       "slug": "the-company-company",
       "scores": {
@@ -5626,7 +5589,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 152,
+      "rank": 151,
       "name": "Parrot",
       "slug": "useparrot",
       "scores": {
@@ -5664,7 +5627,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 153,
+      "rank": 152,
       "name": "YouArt",
       "slug": "youart",
       "scores": {
@@ -5701,7 +5664,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 154,
+      "rank": 153,
       "name": "Astraea",
       "slug": "astraea",
       "scores": {
@@ -5738,7 +5701,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 155,
+      "rank": 154,
       "name": "AICE",
       "slug": "aice",
       "scores": {
@@ -5776,7 +5739,7 @@
       "memoDate": "2026-05-30"
     },
     {
-      "rank": 156,
+      "rank": 155,
       "name": "Andustry",
       "slug": "andustry",
       "scores": {
@@ -5815,7 +5778,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 157,
+      "rank": 156,
       "name": "ANORIA",
       "slug": "anoria",
       "scores": {
@@ -5854,7 +5817,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 158,
+      "rank": 157,
       "name": "Enjamb Labs",
       "slug": "enjamb-labs",
       "scores": {
@@ -5892,7 +5855,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 159,
+      "rank": 158,
       "name": "jo",
       "slug": "jo",
       "scores": {
@@ -5930,7 +5893,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 160,
+      "rank": 159,
       "name": "Deep Interactions",
       "slug": "deep-interactions",
       "scores": {
@@ -5969,7 +5932,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 161,
+      "rank": 160,
       "name": "Salesgraph",
       "slug": "salesgraph",
       "scores": {
@@ -6006,7 +5969,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 162,
+      "rank": 161,
       "name": "TakeCareOS",
       "slug": "takecareos",
       "scores": {
@@ -6045,7 +6008,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 163,
+      "rank": 162,
       "name": "Arden",
       "slug": "arden",
       "scores": {
@@ -6082,7 +6045,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 164,
+      "rank": 163,
       "name": "Incandor",
       "slug": "incandor",
       "scores": {
@@ -6118,7 +6081,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 165,
+      "rank": 164,
       "name": "primitive",
       "slug": "primitive",
       "scores": {
@@ -6157,7 +6120,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 166,
+      "rank": 165,
       "name": "ProjectX",
       "slug": "projectx",
       "scores": {
@@ -6196,7 +6159,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 167,
+      "rank": 166,
       "name": "Walter",
       "slug": "walter",
       "scores": {
@@ -6231,7 +6194,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 168,
+      "rank": 167,
       "name": "Netter",
       "slug": "netter",
       "scores": {
@@ -6269,7 +6232,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 169,
+      "rank": 168,
       "name": "tday.com",
       "slug": "tdaycom",
       "scores": {
@@ -6308,7 +6271,7 @@
       "memoDate": "2026-06-01"
     },
     {
-      "rank": 170,
+      "rank": 169,
       "name": "Autostep",
       "slug": "autostep",
       "scores": {
@@ -6341,7 +6304,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 171,
+      "rank": 170,
       "name": "Napkin Math",
       "slug": "napkin-math",
       "scores": {
@@ -6380,7 +6343,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 172,
+      "rank": 171,
       "name": "Hexa",
       "slug": "hexa",
       "scores": {
@@ -6417,7 +6380,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 173,
+      "rank": 172,
       "name": "Lamina Labs",
       "slug": "lamina-labs",
       "scores": {
@@ -6454,7 +6417,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 174,
+      "rank": 173,
       "name": "GovGuard",
       "slug": "govguard",
       "scores": {
@@ -6489,7 +6452,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 175,
+      "rank": 174,
       "name": "Korso",
       "slug": "korso",
       "scores": {
@@ -6526,7 +6489,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 176,
+      "rank": 175,
       "name": "Foresight",
       "slug": "foresight",
       "scores": {
@@ -6564,7 +6527,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 177,
+      "rank": 176,
       "name": "Rudus",
       "slug": "rudus",
       "scores": {
@@ -6602,7 +6565,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 178,
+      "rank": 177,
       "name": "CentralComs",
       "slug": "centralcoms",
       "scores": {
@@ -6639,7 +6602,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 179,
+      "rank": 178,
       "name": "Drip",
       "slug": "drippay",
       "scores": {
@@ -6677,7 +6640,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 180,
+      "rank": 179,
       "name": "Cignara",
       "slug": "cignara",
       "scores": {
@@ -6713,7 +6676,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 181,
+      "rank": 180,
       "name": "ValCtrl",
       "slug": "valctrl",
       "scores": {
@@ -6752,7 +6715,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 182,
+      "rank": 181,
       "name": "Wealor",
       "slug": "wealor",
       "scores": {
@@ -6787,7 +6750,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 183,
+      "rank": 182,
       "name": "flowscope",
       "slug": "flowscope",
       "scores": {
@@ -6824,7 +6787,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 184,
+      "rank": 183,
       "name": "Uno Wallet",
       "slug": "uno-wallet",
       "scores": {
@@ -6861,7 +6824,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 185,
+      "rank": 184,
       "name": "Wato",
       "slug": "wato",
       "scores": {
@@ -6897,7 +6860,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 186,
+      "rank": 185,
       "name": "Chert",
       "slug": "chert",
       "scores": {
@@ -6936,7 +6899,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 187,
+      "rank": 186,
       "name": "Probe",
       "slug": "probe",
       "scores": {
@@ -6975,7 +6938,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 188,
+      "rank": 187,
       "name": "ReasonBlocks",
       "slug": "reasonblocks",
       "scores": {
@@ -7012,7 +6975,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 189,
+      "rank": 188,
       "name": "Gravy",
       "slug": "gravy",
       "scores": {
@@ -7050,7 +7013,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 190,
+      "rank": 189,
       "name": "Pavoot",
       "slug": "pavoot",
       "scores": {
@@ -7088,7 +7051,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 191,
+      "rank": 190,
       "name": "Alchemize",
       "slug": "alchemize",
       "scores": {
@@ -7125,7 +7088,7 @@
       "memoDate": "2026-05-28"
     },
     {
-      "rank": 192,
+      "rank": 191,
       "name": "Memoir",
       "slug": "memoir",
       "scores": {
@@ -7185,9 +7148,9 @@
         "EG": null,
         "NR": 0.42,
         "PG": 0.52,
-        "PT": 0.18,
-        "SL": 0.25,
-        "VK": -0.08
+        "PT": 0.19,
+        "SL": 0.24,
+        "VK": -0.07
       }
     },
     {
@@ -7218,7 +7181,7 @@
       "persona": "PT",
       "values": {
         "CB": 0.6,
-        "EG": 0.18,
+        "EG": 0.19,
         "NR": 0.1,
         "PG": 0.43,
         "PT": null,
@@ -7230,23 +7193,23 @@
       "persona": "SL",
       "values": {
         "CB": 0.63,
-        "EG": 0.25,
+        "EG": 0.24,
         "NR": 0.28,
         "PG": 0.54,
         "PT": 0.49,
         "SL": null,
-        "VK": 0.27
+        "VK": 0.28
       }
     },
     {
       "persona": "VK",
       "values": {
         "CB": 0.48,
-        "EG": -0.08,
+        "EG": -0.07,
         "NR": 0.1,
         "PG": 0.27,
         "PT": 0.57,
-        "SL": 0.27,
+        "SL": 0.28,
         "VK": null
       }
     }

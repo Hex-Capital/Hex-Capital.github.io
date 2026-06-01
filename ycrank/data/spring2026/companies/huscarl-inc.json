@@ -1,0 +1,71 @@
+{
+  "slug": "huscarl-inc",
+  "name": "Huscarl Inc.",
+  "oneLiner": "Actuarial intelligence for corporate risk managers",
+  "metadata": {
+    "website": "https://www.huscarl.io/",
+    "yc_page": "https://www.ycombinator.com/companies/huscarl-inc",
+    "batch": "Spring 2026 (P26)",
+    "industry": "Fintech / Fintech -> Insurance",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA; Remote",
+    "yc_partner": "Pete Koomen (YC company page)",
+    "emails": "No public data found"
+  },
+  "tags": [],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-06-01T21:08:54.771Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 32,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 50,
+    "EG": 44,
+    "NR": 45,
+    "PG": 54,
+    "PT": 54,
+    "SL": 42,
+    "VK": 32
+  },
+  "consolidatedAvg": 45.86,
+  "consolidatedRank": 43,
+  "paths": {
+    "memo": "spring2026/memos/huscarl-inc.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/huscarl-inc.md",
+      "elad-gil": "spring2026/evals/elad-gil/huscarl-inc.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/huscarl-inc.md",
+      "paul-graham": "spring2026/evals/paul-graham/huscarl-inc.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/huscarl-inc.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/huscarl-inc.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/huscarl-inc.md"
+    }
+  }
+}

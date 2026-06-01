@@ -1,0 +1,30 @@
+﻿# tday.com -- Peter Thiel Evaluation
+
+tday.com's analytical signature is a mimetic AI-marketing wrapper around two genuinely odd credentialed-outsiders: Cyrus Kelly graduated Adelaide's BMaCS at 18 and runs the university's Chief Student Entrepreneur post mentoring 300+ founders, but the product itself ? "AI that turns your product into on-brand marketing content" against Arcade, AdCreative.ai, Omneky, Pencil, and Lapis ? is the 2026 YC archetype the Founders Fund manifesto (2011) was written against. The founders are more interesting than the company, which is the inverse of what a power-law check requires.
+
+**Stripe** (2010) is the load-bearing analogy on the contrarian-secret axis: Patrick Collison named the developer-experience failure mode of legacy processors so specifically that the secret was almost a product spec. tday.com gestures at something adjacent ? a git-repo trigger that auto-regenerates creative when the UI changes ? but the dossier never names which incumbent structurally cannot ship this. Arcade's screen-recording pipeline, AdCreative.ai's feed-driven ad generator, Omneky's multi-channel loop with performance feedback ? these are not five failure modes, they are five companies already inside the wedge tday.com claims. Shrestha's "fully deterministic" creative-pipeline claim from the Adelaide newsroom is the closest thing to a secret in the dossier, and a technical claim with no third-party verification, no benchmark, and no shipped customer count is not yet a secret ? it is a hypothesis.
+
+The pass archetype on the monopoly axis is the undifferentiated SaaS pattern Zero to One (2014) attacks: tday.com sits there cleanly. Five named competitors ? Arcade at ~$11.5M Series A, AdCreative.ai at reported >$10M ARR, Omneky at ~$10M raised, Pencil already absorbed by Brandtech in 2023, Lapis inside YC ? means the category has commodity-pricing math written into it before tday.com ships its first paying customer. The dossier explicitly notes "no clear structural barrier preventing well-funded incumbents (Canva, Adobe, Figma, Arcade) from building git-triggered product-to-creative pipelines." Pricing-power five years out terminates at "we have a better creative pipeline," which Canva will replicate in two quarters once the category proves itself.
+
+On the definite-plan axis: indefinite optimism compounds the wrong way over 18 months because every iteration cycle in a crowded category is a cycle the better-capitalized competitor is also running. tday.com's dossier shows a rebrand from markup.one ? itself an evolution from communities.one ? which is the three-product silhouette of founders searching for a wedge rather than committing to one. No multi-year named milestone, no architectural commitment they refuse to pivot from, no public roadmap. The $500K YC check buys 12-18 months of runway in San Francisco for a team of three; the pivot odds are structurally high.
+
+Counterfactually, what would have to be true for tday.com's founder-lineage score to flip a tier? Kelly would need to have shipped communities.one to a verifiable scale outcome ? six-figure users, a real acquisition, a documented ARR ? rather than the dossier's silence on its metrics. The credentialed-outsider quirk is real and rhymes with the Thiel Fellowship thesis: 18-year-old Adelaide graduate, Chief Student Entrepreneur, Shrestha out of Nepal via ThincLab. That biographical texture is exactly what I overweight relative to Paul Graham. But credentialed-outsider without shipped-to-scale is the **Asana** (2010) exception inverted ? Moskovitz's override worked because Facebook was already at scale when he left. communities.one is not Facebook.
+
+**Modern Meadow** is the single-anchor parallel on the atoms-heavy axis, and tday.com is its photographic negative: pure software, no capex moat, no regulated customer, no certification depth, no hardware barrier to entry. Marketing content generation is the canonical bits-not-atoms category the Founders Fund manifesto (2011) flagged as the misallocation pattern of the post-1973 productivity stagnation. The default score is the score.
+
+Forecast for tday.com over 36 months: dead or absorbed into a larger creative-tooling stack at <$2M ARR by mid-2029, with the more interesting tail outcome being a pivot away from social-channel publishing toward a developer-marketing-tools adjacency where the git-trigger wedge is the actual product ? a hypothesis the founders have not yet committed to in any public artifact. The mechanism is competitive density compressing margins before tday.com can find a switching-cost moat, with Canva or Adobe replicating the git-trigger feature once Arcade proves the category.
+
+The strongest objection is the **Asana** (2010) precedent ? operator pedigree as override for missing structural moat ? rephrased as a Thiel Fellowship precedent: Kelly is exactly the credentialed-outsider archetype the Fellowship was designed to identify, and the contrarian-credentialed-outsider weight in my framework is real. The objection stings because I have written checks on weaker founder profiles when the biographical anomaly was load-bearing. But it loses to the dossier: Moskovitz had shipped Facebook to scale before Asana; Kelly has shipped communities.one with no public metric and rebranded twice. The override requires verified prior-scale, not verified prior-attempt. The verdict flips if tday.com produces, within 12 months, either a signed enterprise contract with a named Fortune-500 customer creating integration switching costs, or third-party verification of the deterministic-design technical claim that closes off the Canva replication path. Until one of those, this is the pass example, not the exception.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Contrarian Secret with Named Incumbent Failure Mode | 9/35 |
+| Monopoly Trajectory with Pricing Power Hypothesis | 6/25 |
+| Definite Founder Plan vs Indefinite Iteration | 4/15 |
+| Founder Lineage / Verified Operator Pedigree | 7/15 |
+| Atoms-Heavy or Regulated-Sector Structural Moat | 2/10 |
+| **Total** | **28/100** |
+
+**Total Score: 28/100** (Pass)

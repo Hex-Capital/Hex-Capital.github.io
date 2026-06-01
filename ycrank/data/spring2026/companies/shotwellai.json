@@ -1,0 +1,77 @@
+{
+  "slug": "shotwellai",
+  "name": "shotwell.ai",
+  "oneLiner": "Automated Scale AI for robotics data",
+  "metadata": {
+    "website": "http://shotwell.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/shotwellai",
+    "batch": "Spring 2026",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "Robotics, Data Labeling, Data Visualization, AI",
+    "yc_partner": "Andrew Miklas",
+    "emails": "hello@shotwell.ai (company website)"
+  },
+  "tags": [
+    "Robotics",
+    "Data Labeling",
+    "Data Visualization",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-06-01T21:09:15.615Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 68,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 33,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 54,
+    "EG": 59,
+    "NR": 52,
+    "PG": 68,
+    "PT": 34,
+    "SL": 40,
+    "VK": 33
+  },
+  "consolidatedAvg": 48.57,
+  "consolidatedRank": 24,
+  "paths": {
+    "memo": "spring2026/memos/shotwellai.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/shotwellai.md",
+      "elad-gil": "spring2026/evals/elad-gil/shotwellai.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/shotwellai.md",
+      "paul-graham": "spring2026/evals/paul-graham/shotwellai.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/shotwellai.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/shotwellai.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/shotwellai.md"
+    }
+  }
+}

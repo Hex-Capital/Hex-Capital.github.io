@@ -1,0 +1,78 @@
+{
+  "slug": "tdaycom",
+  "name": "tday.com",
+  "oneLiner": "AI that turns your product into on-brand marketing content",
+  "metadata": {
+    "website": "https://tday.com",
+    "yc_page": "https://www.ycombinator.com/companies/tdaycom",
+    "batch": "Spring 2026 (YC P26)",
+    "industry": "B2B / B2B -> Marketing",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Generative AI, B2B, Design Tools, Marketing, Advertising",
+    "yc_partner": "Tom Blomfield (YC company page)",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Generative AI",
+    "B2B",
+    "Design Tools",
+    "Marketing",
+    "Advertising"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-06-01T21:09:05.176Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 30,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 37,
+    "EG": 38,
+    "NR": 42,
+    "PG": 45,
+    "PT": 28,
+    "SL": 26,
+    "VK": 30
+  },
+  "consolidatedAvg": 35.14,
+  "consolidatedRank": 169,
+  "paths": {
+    "memo": "spring2026/memos/tdaycom.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/tdaycom.md",
+      "elad-gil": "spring2026/evals/elad-gil/tdaycom.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/tdaycom.md",
+      "paul-graham": "spring2026/evals/paul-graham/tdaycom.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/tdaycom.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/tdaycom.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/tdaycom.md"
+    }
+  }
+}

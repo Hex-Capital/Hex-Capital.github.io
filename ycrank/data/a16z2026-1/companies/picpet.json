@@ -59,6 +59,7 @@
   },
   "consolidatedAvg": 36.14,
   "consolidatedRank": 60,
+  "traction": null,
   "paths": {
     "memo": "a16z2026-1/memos/picpet.md",
     "evals": {

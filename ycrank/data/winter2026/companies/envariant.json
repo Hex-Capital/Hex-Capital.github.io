@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 33.29,
   "consolidatedRank": 165,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/envariant.md",
     "evals": {

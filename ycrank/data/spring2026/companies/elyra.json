@@ -61,6 +61,11 @@
   },
   "consolidatedAvg": 38.57,
   "consolidatedRank": 127,
+  "traction": {
+    "tractionRank": 51,
+    "tractionScore": 45,
+    "tractionReason": "6 groups, \"year's cost back in 2 weeks\""
+  },
   "paths": {
     "memo": "spring2026/memos/elyra.md",
     "evals": {

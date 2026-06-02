@@ -63,6 +63,7 @@
   },
   "consolidatedAvg": 37.71,
   "consolidatedRank": 131,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/polymath.md",
     "evals": {

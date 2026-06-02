@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 31.29,
   "consolidatedRank": 182,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/bubble-lab.md",
     "evals": {

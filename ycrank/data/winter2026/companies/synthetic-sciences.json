@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 38.43,
   "consolidatedRank": 125,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/synthetic-sciences.md",
     "evals": {

@@ -61,6 +61,11 @@
   },
   "consolidatedAvg": 38.43,
   "consolidatedRank": 128,
+  "traction": {
+    "tractionRank": 172,
+    "tractionScore": 18,
+    "tractionReason": "Solo team, demo-gated"
+  },
   "paths": {
     "memo": "spring2026/memos/scope.md",
     "evals": {

@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 43.71,
   "consolidatedRank": 67,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/byteport.md",
     "evals": {

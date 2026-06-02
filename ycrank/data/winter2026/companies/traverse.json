@@ -60,6 +60,7 @@
   },
   "consolidatedAvg": 33.86,
   "consolidatedRank": 162,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/traverse.md",
     "evals": {

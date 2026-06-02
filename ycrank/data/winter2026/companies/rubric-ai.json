@@ -63,6 +63,7 @@
   },
   "consolidatedAvg": 26.29,
   "consolidatedRank": 197,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/rubric-ai.md",
     "evals": {

@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 62,
   "consolidatedRank": 4,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/voltair.md",
     "evals": {

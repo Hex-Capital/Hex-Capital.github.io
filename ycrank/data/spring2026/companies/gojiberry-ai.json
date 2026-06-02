@@ -10,7 +10,7 @@
     "team_size": "7",
     "location": "San Francisco, CA, USA; Remote",
     "tags": "Artificial Intelligence, B2B, Sales",
-    "yc_partner": "Andrew Miklas (YC page)",
+    "yc_partner": "Andrew Miklas",
     "emails": "No public data found"
   },
   "tags": [
@@ -19,26 +19,26 @@
     "Sales"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-06-02T16:05:33.423Z",
+  "memoGeneratedAt": "2026-06-02T18:49:56.602Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 49,
-      "tier": "Neutral"
+      "score": 43,
+      "tier": "Pass"
     },
     "elad-gil": {
-      "score": 65,
-      "tier": "Invest"
-    },
-    "naval-ravikant": {
-      "score": 53,
+      "score": 63,
       "tier": "Neutral"
     },
+    "naval-ravikant": {
+      "score": 41,
+      "tier": "Pass"
+    },
     "paul-graham": {
-      "score": 62,
+      "score": 54,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 32,
+      "score": 29,
       "tier": "Pass"
     },
     "sam-lessin": {
@@ -46,21 +46,26 @@
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 30,
+      "score": 32,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 49,
-    "EG": 65,
-    "NR": 53,
-    "PG": 62,
-    "PT": 32,
+    "CB": 43,
+    "EG": 63,
+    "NR": 41,
+    "PG": 54,
+    "PT": 29,
     "SL": 39,
-    "VK": 30
+    "VK": 32
   },
-  "consolidatedAvg": 47.14,
-  "consolidatedRank": 32,
+  "consolidatedAvg": 43,
+  "consolidatedRank": 70,
+  "traction": {
+    "tractionRank": 2,
+    "tractionScore": 95,
+    "tractionReason": "$2.5M ARR, 2,000+ customers, 35% MoM"
+  },
   "paths": {
     "memo": "spring2026/memos/gojiberry-ai.md",
     "evals": {

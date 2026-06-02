@@ -62,6 +62,11 @@
   },
   "consolidatedAvg": 35.71,
   "consolidatedRank": 158,
+  "traction": {
+    "tractionRank": 130,
+    "tractionScore": 25,
+    "tractionReason": "$650K pre-seed, model claims"
+  },
   "paths": {
     "memo": "spring2026/memos/enjamb-labs.md",
     "evals": {

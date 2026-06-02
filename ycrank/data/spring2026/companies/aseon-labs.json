@@ -63,6 +63,11 @@
   },
   "consolidatedAvg": 48.57,
   "consolidatedRank": 22,
+  "traction": {
+    "tractionRank": 75,
+    "tractionScore": 36,
+    "tractionReason": "Stealth-exit press coverage May 2026"
+  },
   "paths": {
     "memo": "spring2026/memos/aseon-labs.md",
     "evals": {

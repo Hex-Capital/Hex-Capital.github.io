@@ -58,7 +58,12 @@
     "VK": 35
   },
   "consolidatedAvg": 45,
-  "consolidatedRank": 53,
+  "consolidatedRank": 52,
+  "traction": {
+    "tractionRank": 56,
+    "tractionScore": 42,
+    "tractionReason": "$28M damages prevented for customers"
+  },
   "paths": {
     "memo": "spring2026/memos/silmaril.md",
     "evals": {

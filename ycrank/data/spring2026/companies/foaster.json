@@ -61,6 +61,11 @@
   },
   "consolidatedAvg": 40,
   "consolidatedRank": 105,
+  "traction": {
+    "tractionRank": 136,
+    "tractionScore": 24,
+    "tractionReason": "YC backing, 6.3K Twitter"
+  },
   "paths": {
     "memo": "spring2026/memos/foaster.md",
     "evals": {

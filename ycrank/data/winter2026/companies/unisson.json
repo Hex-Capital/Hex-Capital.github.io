@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 35,
   "consolidatedRank": 154,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/unisson.md",
     "evals": {

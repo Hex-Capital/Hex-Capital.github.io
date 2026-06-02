@@ -63,6 +63,7 @@
   },
   "consolidatedAvg": 40.86,
   "consolidatedRank": 96,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/terminal-use.md",
     "evals": {

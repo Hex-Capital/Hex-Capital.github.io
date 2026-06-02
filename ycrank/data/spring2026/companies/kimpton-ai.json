@@ -61,6 +61,11 @@
   },
   "consolidatedAvg": 39.14,
   "consolidatedRank": 116,
+  "traction": {
+    "tractionRank": 137,
+    "tractionScore": 24,
+    "tractionReason": "21K tickers, FactSet/Plaid partners"
+  },
   "paths": {
     "memo": "spring2026/memos/kimpton-ai.md",
     "evals": {

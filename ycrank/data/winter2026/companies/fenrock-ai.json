@@ -62,6 +62,7 @@
   },
   "consolidatedAvg": 31.86,
   "consolidatedRank": 178,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/fenrock-ai.md",
     "evals": {

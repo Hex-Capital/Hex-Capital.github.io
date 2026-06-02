@@ -62,6 +62,11 @@
   },
   "consolidatedAvg": 33.29,
   "consolidatedRank": 176,
+  "traction": {
+    "tractionRank": 53,
+    "tractionScore": 44,
+    "tractionReason": "Caudalie 15 tests/week"
+  },
   "paths": {
     "memo": "spring2026/memos/foresight.md",
     "evals": {

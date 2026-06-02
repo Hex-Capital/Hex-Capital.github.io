@@ -63,6 +63,7 @@
   },
   "consolidatedAvg": 45.43,
   "consolidatedRank": 57,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/sponge.md",
     "evals": {

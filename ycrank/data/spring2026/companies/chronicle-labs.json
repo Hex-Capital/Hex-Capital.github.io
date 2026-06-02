@@ -61,6 +61,11 @@
   },
   "consolidatedAvg": 38.71,
   "consolidatedRank": 122,
+  "traction": {
+    "tractionRank": 106,
+    "tractionScore": 29,
+    "tractionReason": "1 Remedy Meds testimonial"
+  },
   "paths": {
     "memo": "spring2026/memos/chronicle-labs.md",
     "evals": {

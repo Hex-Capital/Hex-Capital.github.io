@@ -60,6 +60,7 @@
   },
   "consolidatedAvg": 38.57,
   "consolidatedRank": 121,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/haladir.md",
     "evals": {

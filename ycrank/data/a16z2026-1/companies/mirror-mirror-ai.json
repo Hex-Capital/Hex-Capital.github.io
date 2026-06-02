@@ -60,6 +60,7 @@
   },
   "consolidatedAvg": 49,
   "consolidatedRank": 20,
+  "traction": null,
   "paths": {
     "memo": "a16z2026-1/memos/mirror-mirror-ai.md",
     "evals": {

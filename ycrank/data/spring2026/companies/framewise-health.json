@@ -61,6 +61,11 @@
   },
   "consolidatedAvg": 40,
   "consolidatedRank": 106,
+  "traction": {
+    "tractionRank": 131,
+    "tractionScore": 25,
+    "tractionReason": "$500K raised, no public traction"
+  },
   "paths": {
     "memo": "spring2026/memos/framewise-health.md",
     "evals": {

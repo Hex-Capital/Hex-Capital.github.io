@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 43.71,
   "consolidatedRank": 68,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/robby.md",
     "evals": {

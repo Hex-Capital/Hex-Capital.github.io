@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 35.57,
   "consolidatedRank": 147,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/catchback-cards.md",
     "evals": {

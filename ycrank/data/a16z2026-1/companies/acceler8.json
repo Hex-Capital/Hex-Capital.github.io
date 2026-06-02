@@ -60,6 +60,7 @@
   },
   "consolidatedAvg": 50.86,
   "consolidatedRank": 15,
+  "traction": null,
   "paths": {
     "memo": "a16z2026-1/memos/acceler8.md",
     "evals": {

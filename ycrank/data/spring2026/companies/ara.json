@@ -59,6 +59,11 @@
   },
   "consolidatedAvg": 39.71,
   "consolidatedRank": 108,
+  "traction": {
+    "tractionRank": 126,
+    "tractionScore": 25,
+    "tractionReason": "4 PH launches, brand pivot"
+  },
   "paths": {
     "memo": "spring2026/memos/ara.md",
     "evals": {

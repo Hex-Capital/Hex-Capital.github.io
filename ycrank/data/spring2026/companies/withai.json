@@ -60,7 +60,12 @@
     "VK": 33
   },
   "consolidatedAvg": 44.57,
-  "consolidatedRank": 57,
+  "consolidatedRank": 56,
+  "traction": {
+    "tractionRank": 19,
+    "tractionScore": 67,
+    "tractionReason": ">$100K ARR, Bridgewater angels"
+  },
   "paths": {
     "memo": "spring2026/memos/withai.md",
     "evals": {

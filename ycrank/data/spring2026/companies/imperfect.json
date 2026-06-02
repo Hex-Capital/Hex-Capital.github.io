@@ -62,6 +62,11 @@
   },
   "consolidatedAvg": 42.43,
   "consolidatedRank": 75,
+  "traction": {
+    "tractionRank": 120,
+    "tractionScore": 26,
+    "tractionReason": "3 beta athletes, founder 813 stars"
+  },
   "paths": {
     "memo": "spring2026/memos/imperfect.md",
     "evals": {

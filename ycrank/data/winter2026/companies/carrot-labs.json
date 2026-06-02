@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 31.43,
   "consolidatedRank": 181,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/carrot-labs.md",
     "evals": {

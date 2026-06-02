@@ -60,6 +60,11 @@
   },
   "consolidatedAvg": 35.43,
   "consolidatedRank": 164,
+  "traction": {
+    "tractionRank": 170,
+    "tractionScore": 18,
+    "tractionReason": "No public traction data"
+  },
   "paths": {
     "memo": "spring2026/memos/incandor.md",
     "evals": {

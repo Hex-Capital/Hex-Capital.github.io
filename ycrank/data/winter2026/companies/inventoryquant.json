@@ -60,6 +60,7 @@
   },
   "consolidatedAvg": 37,
   "consolidatedRank": 137,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/inventoryquant.md",
     "evals": {

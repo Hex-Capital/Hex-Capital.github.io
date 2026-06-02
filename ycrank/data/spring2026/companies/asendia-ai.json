@@ -62,6 +62,11 @@
   },
   "consolidatedAvg": 39.14,
   "consolidatedRank": 114,
+  "traction": {
+    "tractionRank": 10,
+    "tractionScore": 80,
+    "tractionReason": "$500K+ revenue, named customers"
+  },
   "paths": {
     "memo": "spring2026/memos/asendia-ai.md",
     "evals": {

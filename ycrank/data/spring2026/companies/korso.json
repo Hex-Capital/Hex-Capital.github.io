@@ -61,6 +61,11 @@
   },
   "consolidatedAvg": 33.86,
   "consolidatedRank": 175,
+  "traction": {
+    "tractionRank": 142,
+    "tractionScore": 23,
+    "tractionReason": "Mockup dashboards on site"
+  },
   "paths": {
     "memo": "spring2026/memos/korso.md",
     "evals": {

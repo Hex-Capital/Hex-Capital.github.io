@@ -56,6 +56,11 @@
   },
   "consolidatedAvg": 38.86,
   "consolidatedRank": 121,
+  "traction": {
+    "tractionRank": 117,
+    "tractionScore": 27,
+    "tractionReason": "YC P26 launch, X promo"
+  },
   "paths": {
     "memo": "spring2026/memos/mount.md",
     "evals": {

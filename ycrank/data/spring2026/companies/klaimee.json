@@ -62,7 +62,12 @@
     "VK": 30
   },
   "consolidatedAvg": 46.29,
-  "consolidatedRank": 39,
+  "consolidatedRank": 38,
+  "traction": {
+    "tractionRank": 179,
+    "tractionScore": 16,
+    "tractionReason": "YC P26, no public traction"
+  },
   "paths": {
     "memo": "spring2026/memos/klaimee.md",
     "evals": {

@@ -63,6 +63,7 @@
   },
   "consolidatedAvg": 50.86,
   "consolidatedRank": 31,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/robodock.md",
     "evals": {

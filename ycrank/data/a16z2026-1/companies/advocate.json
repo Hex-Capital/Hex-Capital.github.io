@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 43.86,
   "consolidatedRank": 36,
+  "traction": null,
   "paths": {
     "memo": "a16z2026-1/memos/advocate.md",
     "evals": {

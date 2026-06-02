@@ -61,6 +61,11 @@
   },
   "consolidatedAvg": 38.14,
   "consolidatedRank": 132,
+  "traction": {
+    "tractionRank": 114,
+    "tractionScore": 27,
+    "tractionReason": "Paid pricing tiers live"
+  },
   "paths": {
     "memo": "spring2026/memos/saffron.md",
     "evals": {

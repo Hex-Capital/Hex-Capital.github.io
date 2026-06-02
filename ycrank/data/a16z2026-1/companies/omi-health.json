@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 40.71,
   "consolidatedRank": 47,
+  "traction": null,
   "paths": {
     "memo": "a16z2026-1/memos/omi-health.md",
     "evals": {

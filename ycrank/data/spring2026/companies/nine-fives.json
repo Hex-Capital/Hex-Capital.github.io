@@ -61,6 +61,11 @@
   },
   "consolidatedAvg": 54.86,
   "consolidatedRank": 2,
+  "traction": {
+    "tractionRank": 145,
+    "tractionScore": 23,
+    "tractionReason": "4 SKUs listed, 2-yr warranty"
+  },
   "paths": {
     "memo": "spring2026/memos/nine-fives.md",
     "evals": {

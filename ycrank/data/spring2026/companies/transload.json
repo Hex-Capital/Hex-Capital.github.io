@@ -61,6 +61,11 @@
   },
   "consolidatedAvg": 39.29,
   "consolidatedRank": 113,
+  "traction": {
+    "tractionRank": 159,
+    "tractionScore": 21,
+    "tractionReason": "1 customer outcome claim"
+  },
   "paths": {
     "memo": "spring2026/memos/transload.md",
     "evals": {

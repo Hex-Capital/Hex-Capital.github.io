@@ -62,6 +62,7 @@
   },
   "consolidatedAvg": 52,
   "consolidatedRank": 28,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/octapulse.md",
     "evals": {

@@ -59,6 +59,7 @@
   },
   "consolidatedAvg": 55.71,
   "consolidatedRank": 7,
+  "traction": null,
   "paths": {
     "memo": "a16z2026-1/memos/prior-foundry.md",
     "evals": {

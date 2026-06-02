@@ -63,6 +63,7 @@
   },
   "consolidatedAvg": 29.57,
   "consolidatedRank": 190,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/crow.md",
     "evals": {

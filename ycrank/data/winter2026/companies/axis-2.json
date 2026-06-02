@@ -63,6 +63,7 @@
   },
   "consolidatedAvg": 32,
   "consolidatedRank": 177,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/axis-2.md",
     "evals": {

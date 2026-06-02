@@ -59,6 +59,7 @@
   },
   "consolidatedAvg": 30.71,
   "consolidatedRank": 185,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/talking-computers.md",
     "evals": {

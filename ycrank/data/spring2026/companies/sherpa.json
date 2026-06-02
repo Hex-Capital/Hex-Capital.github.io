@@ -63,6 +63,11 @@
   },
   "consolidatedAvg": 42,
   "consolidatedRank": 81,
+  "traction": {
+    "tractionRank": 43,
+    "tractionScore": 49,
+    "tractionReason": "7M+ sessions, Lindy +30% conversion"
+  },
   "paths": {
     "memo": "spring2026/memos/sherpa.md",
     "evals": {

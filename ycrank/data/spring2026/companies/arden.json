@@ -61,6 +61,11 @@
   },
   "consolidatedAvg": 35.43,
   "consolidatedRank": 163,
+  "traction": {
+    "tractionRank": 119,
+    "tractionScore": 27,
+    "tractionReason": "20+ integrations listed"
+  },
   "paths": {
     "memo": "spring2026/memos/arden.md",
     "evals": {

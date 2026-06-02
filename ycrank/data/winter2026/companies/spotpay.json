@@ -59,6 +59,7 @@
   },
   "consolidatedAvg": 42.86,
   "consolidatedRank": 75,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/spotpay.md",
     "evals": {

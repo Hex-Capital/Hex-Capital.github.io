@@ -63,6 +63,7 @@
   },
   "consolidatedAvg": 26.71,
   "consolidatedRank": 196,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/syntropy.md",
     "evals": {

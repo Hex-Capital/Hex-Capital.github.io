@@ -61,6 +61,11 @@
   },
   "consolidatedAvg": 35.57,
   "consolidatedRank": 161,
+  "traction": {
+    "tractionRank": 125,
+    "tractionScore": 26,
+    "tractionReason": "Live site with 12+ integrations"
+  },
   "paths": {
     "memo": "spring2026/memos/salesgraph.md",
     "evals": {

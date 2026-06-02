@@ -61,7 +61,12 @@
     "VK": 36
   },
   "consolidatedAvg": 44.57,
-  "consolidatedRank": 58,
+  "consolidatedRank": 57,
+  "traction": {
+    "tractionRank": 183,
+    "tractionScore": 16,
+    "tractionReason": "YC backing only"
+  },
   "paths": {
     "memo": "spring2026/memos/zibra-labs.md",
     "evals": {

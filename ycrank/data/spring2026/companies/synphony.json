@@ -62,6 +62,11 @@
   },
   "consolidatedAvg": 41.43,
   "consolidatedRank": 88,
+  "traction": {
+    "tractionRank": 157,
+    "tractionScore": 21,
+    "tractionReason": "Partner logos (NVIDIA, OpenAI)"
+  },
   "paths": {
     "memo": "spring2026/memos/synphony.md",
     "evals": {

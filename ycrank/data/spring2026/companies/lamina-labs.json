@@ -61,6 +61,11 @@
   },
   "consolidatedAvg": 34.43,
   "consolidatedRank": 173,
+  "traction": {
+    "tractionRank": 96,
+    "tractionScore": 31,
+    "tractionReason": "Testimonial X post on speed"
+  },
   "paths": {
     "memo": "spring2026/memos/lamina-labs.md",
     "evals": {

@@ -63,6 +63,11 @@
   },
   "consolidatedAvg": 40.14,
   "consolidatedRank": 102,
+  "traction": {
+    "tractionRank": 169,
+    "tractionScore": 18,
+    "tractionReason": "Pilot program open, no metrics"
+  },
   "paths": {
     "memo": "spring2026/memos/infera.md",
     "evals": {

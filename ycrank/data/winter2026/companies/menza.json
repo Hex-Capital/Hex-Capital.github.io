@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 38.86,
   "consolidatedRank": 119,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/menza.md",
     "evals": {

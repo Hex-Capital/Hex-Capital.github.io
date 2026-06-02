@@ -62,6 +62,7 @@
   },
   "consolidatedAvg": 52.86,
   "consolidatedRank": 25,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/unifold.md",
     "evals": {

@@ -60,6 +60,7 @@
   },
   "consolidatedAvg": 35.14,
   "consolidatedRank": 150,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/alt-x.md",
     "evals": {

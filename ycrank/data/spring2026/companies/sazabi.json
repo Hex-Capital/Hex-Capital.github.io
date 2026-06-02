@@ -58,7 +58,12 @@
     "VK": 38
   },
   "consolidatedAvg": 43.43,
-  "consolidatedRank": 69,
+  "consolidatedRank": 68,
+  "traction": {
+    "tractionRank": 84,
+    "tractionScore": 34,
+    "tractionReason": "Stealth exit, SiliconANGLE coverage"
+  },
   "paths": {
     "memo": "spring2026/memos/sazabi.md",
     "evals": {

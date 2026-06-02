@@ -60,6 +60,7 @@
   },
   "consolidatedAvg": 35.29,
   "consolidatedRank": 149,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/stilta.md",
     "evals": {

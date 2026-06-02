@@ -61,6 +61,11 @@
   },
   "consolidatedAvg": 41.14,
   "consolidatedRank": 93,
+  "traction": {
+    "tractionRank": 102,
+    "tractionScore": 30,
+    "tractionReason": "Vague \"bulge bracket\" claim"
+  },
   "paths": {
     "memo": "spring2026/memos/soria.md",
     "evals": {

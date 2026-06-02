@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 42.29,
   "consolidatedRank": 80,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/visibl-semiconductors.md",
     "evals": {

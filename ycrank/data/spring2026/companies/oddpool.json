@@ -61,6 +61,11 @@
   },
   "consolidatedAvg": 40.71,
   "consolidatedRank": 96,
+  "traction": {
+    "tractionRank": 46,
+    "tractionScore": 47,
+    "tractionReason": "\"Several K MRR\", 700K markets indexed"
+  },
   "paths": {
     "memo": "spring2026/memos/oddpool.md",
     "evals": {

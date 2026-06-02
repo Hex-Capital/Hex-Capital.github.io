@@ -62,6 +62,11 @@
   },
   "consolidatedAvg": 33.29,
   "consolidatedRank": 177,
+  "traction": {
+    "tractionRank": 110,
+    "tractionScore": 28,
+    "tractionReason": "Unattributed customer metrics"
+  },
   "paths": {
     "memo": "spring2026/memos/rudus.md",
     "evals": {

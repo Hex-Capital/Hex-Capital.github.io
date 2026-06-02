@@ -63,6 +63,7 @@
   },
   "consolidatedAvg": 54.14,
   "consolidatedRank": 17,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/voxel-energy.md",
     "evals": {

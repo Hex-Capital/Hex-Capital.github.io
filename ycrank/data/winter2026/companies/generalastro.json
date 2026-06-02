@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 39.43,
   "consolidatedRank": 113,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/generalastro.md",
     "evals": {

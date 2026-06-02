@@ -59,6 +59,7 @@
   },
   "consolidatedAvg": 45,
   "consolidatedRank": 32,
+  "traction": null,
   "paths": {
     "memo": "a16z2026-1/memos/idilio.md",
     "evals": {

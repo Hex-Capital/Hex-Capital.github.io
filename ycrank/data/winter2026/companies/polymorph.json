@@ -63,6 +63,7 @@
   },
   "consolidatedAvg": 32.43,
   "consolidatedRank": 174,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/polymorph.md",
     "evals": {

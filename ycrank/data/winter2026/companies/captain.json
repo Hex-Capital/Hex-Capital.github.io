@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 35.29,
   "consolidatedRank": 148,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/captain.md",
     "evals": {

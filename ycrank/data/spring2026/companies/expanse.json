@@ -61,7 +61,12 @@
     "VK": 32
   },
   "consolidatedAvg": 47,
-  "consolidatedRank": 34,
+  "consolidatedRank": 33,
+  "traction": {
+    "tractionRank": 141,
+    "tractionScore": 23,
+    "tractionReason": "Sample 32-GPU case"
+  },
   "paths": {
     "memo": "spring2026/memos/expanse.md",
     "evals": {

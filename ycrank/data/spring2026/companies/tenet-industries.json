@@ -60,6 +60,11 @@
   },
   "consolidatedAvg": 42.57,
   "consolidatedRank": 74,
+  "traction": {
+    "tractionRank": 99,
+    "tractionScore": 31,
+    "tractionReason": "$500K YC, customer discussions"
+  },
   "paths": {
     "memo": "spring2026/memos/tenet-industries.md",
     "evals": {

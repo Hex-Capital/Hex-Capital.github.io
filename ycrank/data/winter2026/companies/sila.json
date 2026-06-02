@@ -60,6 +60,7 @@
   },
   "consolidatedAvg": 29.86,
   "consolidatedRank": 189,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/sila.md",
     "evals": {

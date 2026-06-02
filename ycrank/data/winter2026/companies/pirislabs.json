@@ -63,6 +63,7 @@
   },
   "consolidatedAvg": 54.29,
   "consolidatedRank": 16,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/pirislabs.md",
     "evals": {

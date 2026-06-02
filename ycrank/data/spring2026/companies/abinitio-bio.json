@@ -61,6 +61,11 @@
   },
   "consolidatedAvg": 41.57,
   "consolidatedRank": 87,
+  "traction": {
+    "tractionRank": 165,
+    "tractionScore": 19,
+    "tractionReason": "Under-construction site"
+  },
   "paths": {
     "memo": "spring2026/memos/abinitio-bio.md",
     "evals": {

@@ -61,7 +61,12 @@
     "VK": 28
   },
   "consolidatedAvg": 45.57,
-  "consolidatedRank": 46,
+  "consolidatedRank": 45,
+  "traction": {
+    "tractionRank": 107,
+    "tractionScore": 29,
+    "tractionReason": "Integrator logos (Google ADK, LangChain)"
+  },
   "paths": {
     "memo": "spring2026/memos/agentphone.md",
     "evals": {

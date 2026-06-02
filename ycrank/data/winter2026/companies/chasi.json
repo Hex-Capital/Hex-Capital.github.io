@@ -60,6 +60,7 @@
   },
   "consolidatedAvg": 48.86,
   "consolidatedRank": 38,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/chasi.md",
     "evals": {

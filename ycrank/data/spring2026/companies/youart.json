@@ -61,6 +61,11 @@
   },
   "consolidatedAvg": 36.29,
   "consolidatedRank": 153,
+  "traction": {
+    "tractionRank": 94,
+    "tractionScore": 32,
+    "tractionReason": "PH 4.7/35, 4,490 X followers"
+  },
   "paths": {
     "memo": "spring2026/memos/youart.md",
     "evals": {

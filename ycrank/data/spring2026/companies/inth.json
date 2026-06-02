@@ -62,6 +62,11 @@
   },
   "consolidatedAvg": 54.43,
   "consolidatedRank": 3,
+  "traction": {
+    "tractionRank": 15,
+    "tractionScore": 71,
+    "tractionReason": "2.6M downloads, Vercel/Expo adopters"
+  },
   "paths": {
     "memo": "spring2026/memos/inth.md",
     "evals": {

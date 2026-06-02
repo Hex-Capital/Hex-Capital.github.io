@@ -59,6 +59,7 @@
   },
   "consolidatedAvg": 47.43,
   "consolidatedRank": 24,
+  "traction": null,
   "paths": {
     "memo": "a16z2026-1/memos/crebit.md",
     "evals": {

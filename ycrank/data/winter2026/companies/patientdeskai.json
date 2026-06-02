@@ -62,6 +62,7 @@
   },
   "consolidatedAvg": 38.57,
   "consolidatedRank": 123,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/patientdeskai.md",
     "evals": {

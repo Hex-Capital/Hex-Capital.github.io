@@ -62,6 +62,11 @@
   },
   "consolidatedAvg": 38.71,
   "consolidatedRank": 126,
+  "traction": {
+    "tractionRank": 8,
+    "tractionScore": 83,
+    "tractionReason": "$660K 2025 revenue, 8 named logos"
+  },
   "paths": {
     "memo": "spring2026/memos/userlens.md",
     "evals": {

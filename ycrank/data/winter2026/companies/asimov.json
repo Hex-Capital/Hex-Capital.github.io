@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 42.57,
   "consolidatedRank": 78,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/asimov.md",
     "evals": {

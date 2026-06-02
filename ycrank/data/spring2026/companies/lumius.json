@@ -61,6 +61,11 @@
   },
   "consolidatedAvg": 48.29,
   "consolidatedRank": 26,
+  "traction": {
+    "tractionRank": 168,
+    "tractionScore": 19,
+    "tractionReason": "Duke/Columbia supporters listed"
+  },
   "paths": {
     "memo": "spring2026/memos/lumius.md",
     "evals": {

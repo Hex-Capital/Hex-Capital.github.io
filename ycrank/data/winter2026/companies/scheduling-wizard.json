@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 44.43,
   "consolidatedRank": 65,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/scheduling-wizard.md",
     "evals": {

@@ -60,6 +60,7 @@
   },
   "consolidatedAvg": 53,
   "consolidatedRank": 23,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/kyten-technologies.md",
     "evals": {

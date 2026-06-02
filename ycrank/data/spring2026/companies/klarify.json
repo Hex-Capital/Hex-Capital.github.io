@@ -63,6 +63,11 @@
   },
   "consolidatedAvg": 40.14,
   "consolidatedRank": 103,
+  "traction": {
+    "tractionRank": 12,
+    "tractionScore": 76,
+    "tractionReason": "6,000 therapists, paid tiers live"
+  },
   "paths": {
     "memo": "spring2026/memos/klarify.md",
     "evals": {

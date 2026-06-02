@@ -61,6 +61,11 @@
   },
   "consolidatedAvg": 38.71,
   "consolidatedRank": 125,
+  "traction": {
+    "tractionRank": 158,
+    "tractionScore": 21,
+    "tractionReason": "YC $500K, \"LAUNCH30\" promo"
+  },
   "paths": {
     "memo": "spring2026/memos/testerarmy.md",
     "evals": {

@@ -56,6 +56,11 @@
   },
   "consolidatedAvg": 53.71,
   "consolidatedRank": 6,
+  "traction": {
+    "tractionRank": 26,
+    "tractionScore": 60,
+    "tractionReason": "$12M pre-seed, licensed 50 states"
+  },
   "paths": {
     "memo": "spring2026/memos/clara-2.md",
     "evals": {

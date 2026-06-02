@@ -61,6 +61,11 @@
   },
   "consolidatedAvg": 39.43,
   "consolidatedRank": 109,
+  "traction": {
+    "tractionRank": 47,
+    "tractionScore": 47,
+    "tractionReason": "4 German plants, KNIPPING customer"
+  },
   "paths": {
     "memo": "spring2026/memos/pairio.md",
     "evals": {

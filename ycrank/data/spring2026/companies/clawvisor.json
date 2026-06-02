@@ -61,6 +61,11 @@
   },
   "consolidatedAvg": 47.86,
   "consolidatedRank": 29,
+  "traction": {
+    "tractionRank": 80,
+    "tractionScore": 35,
+    "tractionReason": "202 GitHub stars, 14+ adapters"
+  },
   "paths": {
     "memo": "spring2026/memos/clawvisor.md",
     "evals": {

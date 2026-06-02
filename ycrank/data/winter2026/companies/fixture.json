@@ -55,6 +55,7 @@
   },
   "consolidatedAvg": 40.86,
   "consolidatedRank": 95,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/fixture.md",
     "evals": {

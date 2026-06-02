@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 60.29,
   "consolidatedRank": 7,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/ditto-biosciences.md",
     "evals": {

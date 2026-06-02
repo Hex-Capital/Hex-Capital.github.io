@@ -63,6 +63,11 @@
   },
   "consolidatedAvg": 35.57,
   "consolidatedRank": 160,
+  "traction": {
+    "tractionRank": 98,
+    "tractionScore": 31,
+    "tractionReason": "12 businesses, 50K+ hits"
+  },
   "paths": {
     "memo": "spring2026/memos/deep-interactions.md",
     "evals": {

@@ -60,7 +60,12 @@
     "VK": 31
   },
   "consolidatedAvg": 45.86,
-  "consolidatedRank": 42,
+  "consolidatedRank": 41,
+  "traction": {
+    "tractionRank": 74,
+    "tractionScore": 36,
+    "tractionReason": "Hyperspell + Seed-to-B onboards"
+  },
   "paths": {
     "memo": "spring2026/memos/arga-labs.md",
     "evals": {

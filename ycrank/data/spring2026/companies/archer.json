@@ -61,6 +61,11 @@
   },
   "consolidatedAvg": 37,
   "consolidatedRank": 140,
+  "traction": {
+    "tractionRank": 132,
+    "tractionScore": 25,
+    "tractionReason": "Investors listed, demo payouts only"
+  },
   "paths": {
     "memo": "spring2026/memos/archer.md",
     "evals": {

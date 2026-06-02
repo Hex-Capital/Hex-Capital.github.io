@@ -62,6 +62,7 @@
   },
   "consolidatedAvg": 56.43,
   "consolidatedRank": 11,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/aurorin-cad.md",
     "evals": {

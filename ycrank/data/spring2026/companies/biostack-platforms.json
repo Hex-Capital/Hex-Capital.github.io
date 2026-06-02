@@ -55,7 +55,12 @@
     "VK": 41
   },
   "consolidatedAvg": 44.29,
-  "consolidatedRank": 61,
+  "consolidatedRank": 60,
+  "traction": {
+    "tractionRank": 160,
+    "tractionScore": 20,
+    "tractionReason": "Model claims, named backers"
+  },
   "paths": {
     "memo": "spring2026/memos/biostack-platforms.md",
     "evals": {

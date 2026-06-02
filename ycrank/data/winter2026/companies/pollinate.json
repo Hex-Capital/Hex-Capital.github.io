@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 38.43,
   "consolidatedRank": 124,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/pollinate.md",
     "evals": {

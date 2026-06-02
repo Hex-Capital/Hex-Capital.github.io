@@ -63,6 +63,7 @@
   },
   "consolidatedAvg": 47.71,
   "consolidatedRank": 43,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/end-close.md",
     "evals": {

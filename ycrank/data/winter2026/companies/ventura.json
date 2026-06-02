@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 46.29,
   "consolidatedRank": 52,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/ventura.md",
     "evals": {

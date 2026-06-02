@@ -62,7 +62,12 @@
     "VK": 43
   },
   "consolidatedAvg": 46.43,
-  "consolidatedRank": 38,
+  "consolidatedRank": 37,
+  "traction": {
+    "tractionRank": 103,
+    "tractionScore": 30,
+    "tractionReason": "\"Shipping\" to USG/primes"
+  },
   "paths": {
     "memo": "spring2026/memos/9-mothers-corporation.md",
     "evals": {

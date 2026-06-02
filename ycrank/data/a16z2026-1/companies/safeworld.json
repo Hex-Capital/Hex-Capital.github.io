@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 50.43,
   "consolidatedRank": 17,
+  "traction": null,
   "paths": {
     "memo": "a16z2026-1/memos/safeworld.md",
     "evals": {

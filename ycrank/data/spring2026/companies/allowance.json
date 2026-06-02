@@ -60,7 +60,12 @@
     "VK": 30
   },
   "consolidatedAvg": 43.86,
-  "consolidatedRank": 66,
+  "consolidatedRank": 65,
+  "traction": {
+    "tractionRank": 149,
+    "tractionScore": 22,
+    "tractionReason": "Early public beta iOS"
+  },
   "paths": {
     "memo": "spring2026/memos/allowance.md",
     "evals": {

@@ -170,9 +170,6 @@
               <th class="px-1.5 py-1 text-left text-claude-gray cursor-pointer hover:text-claude-orange border border-claude-border whitespace-nowrap"
                 @click="sortBy('name')">Company<span x-show="sortCol === 'name'" x-text="sortDir === 1 ? '\u25B2' : '\u25BC'" class="text-xs ml-0.5"></span>
               </th>
-              <th class="px-1.5 py-1 text-center text-claude-gray cursor-pointer hover:text-claude-orange w-14 border border-claude-border whitespace-nowrap"
-                @click="sortBy('teamSize')">Team Size<span x-show="sortCol === 'teamSize'" x-text="sortDir === 1 ? '\u25B2' : '\u25BC'" class="text-xs ml-0.5"></span>
-              </th>
               <th class="px-1.5 py-1 text-center text-claude-gray cursor-pointer hover:text-claude-orange w-24 border border-claude-border whitespace-nowrap"
                 @click="sortBy('revenue')"><span class="hidden sm:inline">Annual Revenue</span><span class="sm:hidden">ARR</span><span x-show="sortCol === 'revenue'" x-text="sortDir === 1 ? '\u25B2' : '\u25BC'" class="text-xs ml-0.5"></span>
               </th>
@@ -191,7 +188,12 @@
               <th class="px-1.5 py-1 text-center text-claude-gray cursor-pointer hover:text-claude-orange w-12 border border-claude-border whitespace-nowrap"
                 @click="sortBy('avg')">Avg<span x-show="sortCol === 'avg'" x-text="sortDir === 1 ? '\u25B2' : '\u25BC'" class="text-xs ml-0.5"></span>
               </th>
-              <th class="px-1 py-1 text-center text-claude-gray w-12 border border-claude-border whitespace-nowrap" x-show="!staticMode">Stage</th>
+              <th class="px-1.5 py-1 text-center text-claude-gray cursor-pointer hover:text-claude-orange w-14 border border-claude-border whitespace-nowrap"
+                @click="sortBy('teamSize')">Team Size<span x-show="sortCol === 'teamSize'" x-text="sortDir === 1 ? '\u25B2' : '\u25BC'" class="text-xs ml-0.5"></span>
+              </th>
+              <th class="px-1 py-1 text-center text-claude-gray cursor-pointer hover:text-claude-orange w-16 border border-claude-border whitespace-nowrap"
+                @click="sortBy('tractionRank')" title="Traction stack-rank (Opus, memo-based)">Traction<span x-show="sortCol === 'tractionRank'" x-text="sortDir === 1 ? '▲' : '▼'" class="text-xs ml-0.5"></span>
+              </th>
             </tr>
           </thead>
           <!-- MOBILE-SCORES: Each company is a <tbody> so Alpine can render two rows (data + mobile scores).
@@ -216,8 +218,6 @@
                   <div class="text-xs text-claude-dim truncate max-w-[100px] xs:max-w-[150px] sm:max-w-xs md:max-w-md hidden xs:block" x-text="row.oneLiner"></div>
                 </td>
                 <td class="px-1.5 py-1 text-center tabular-nums text-claude-dim border border-claude-border"
-                  x-text="row.teamSize != null ? row.teamSize : '-'"></td>
-                <td class="px-1.5 py-1 text-center tabular-nums text-claude-dim border border-claude-border"
                   x-text="formatRevenue(row.revenue)"></td>
                 <td class="px-1.5 py-1 text-center tabular-nums text-claude-dim border border-claude-border hidden lg:table-cell whitespace-nowrap"
                   x-text="formatMemoDate(row.memoDate)"></td>
@@ -232,9 +232,12 @@
                 <td class="px-1.5 py-1 text-center font-bold tabular-nums border border-claude-border"
                   :class="avgColor(row.avg)"
                   x-text="row.avg != null ? row.avg.toFixed(2) : '-'"></td>
-                <td class="px-1 py-1 text-center border border-claude-border text-[10px] font-mono" x-show="!staticMode"
-                    :class="pipelineColor(getPipelineStage(row.slug))">
-                  <span x-text="pipelineBadge(getPipelineStage(row.slug)) || '-'"></span>
+                <td class="px-1.5 py-1 text-center tabular-nums text-claude-dim border border-claude-border"
+                  x-text="row.teamSize != null ? row.teamSize : '-'"></td>
+                <td class="px-1 py-1 text-center tabular-nums font-medium border border-claude-border"
+                    :class="tractionRankColor(row.tractionRank)"
+                    :title="row.tractionRank != null ? ('#' + row.tractionRank + ' by traction' + (row.tractionReason ? ' — ' + row.tractionReason : '')) : 'No traction rank'">
+                  <span x-text="row.tractionRank != null ? ('#' + row.tractionRank) : '-'"></span>
                 </td>
               </tr>
               <tr class="sm:hidden border-b border-claude-border cursor-pointer transition-colors mobile-scores-row"

@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 35.14,
   "consolidatedRank": 151,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/eigenpal.md",
     "evals": {

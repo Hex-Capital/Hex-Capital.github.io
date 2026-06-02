@@ -62,6 +62,7 @@
   },
   "consolidatedAvg": 37.71,
   "consolidatedRank": 132,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/ressl-ai.md",
     "evals": {

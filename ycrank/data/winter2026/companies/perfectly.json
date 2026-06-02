@@ -60,6 +60,7 @@
   },
   "consolidatedAvg": 40.14,
   "consolidatedRank": 106,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/perfectly.md",
     "evals": {

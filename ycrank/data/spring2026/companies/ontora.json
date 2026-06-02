@@ -62,6 +62,11 @@
   },
   "consolidatedAvg": 37.14,
   "consolidatedRank": 138,
+  "traction": {
+    "tractionRank": 52,
+    "tractionScore": 44,
+    "tractionReason": "Vertiv testimonial, ~$50K engagements"
+  },
   "paths": {
     "memo": "spring2026/memos/ontora.md",
     "evals": {

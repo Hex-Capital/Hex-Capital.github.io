@@ -60,6 +60,7 @@
   },
   "consolidatedAvg": 44,
   "consolidatedRank": 66,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/confluence-labs.md",
     "evals": {

@@ -60,6 +60,11 @@
   },
   "consolidatedAvg": 38.14,
   "consolidatedRank": 131,
+  "traction": {
+    "tractionRank": 116,
+    "tractionScore": 27,
+    "tractionReason": "Palantir/Joko backers, tiered pricing"
+  },
   "paths": {
     "memo": "spring2026/memos/armature.md",
     "evals": {

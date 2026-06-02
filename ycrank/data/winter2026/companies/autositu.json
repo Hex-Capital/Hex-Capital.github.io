@@ -62,6 +62,7 @@
   },
   "consolidatedAvg": 49,
   "consolidatedRank": 37,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/autositu.md",
     "evals": {

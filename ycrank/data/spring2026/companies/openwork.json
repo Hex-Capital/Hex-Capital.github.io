@@ -56,6 +56,11 @@
   },
   "consolidatedAvg": 42.14,
   "consolidatedRank": 79,
+  "traction": {
+    "tractionRank": 16,
+    "tractionScore": 70,
+    "tractionReason": "15.6K stars, 150K+ downloads"
+  },
   "paths": {
     "memo": "spring2026/memos/openwork.md",
     "evals": {

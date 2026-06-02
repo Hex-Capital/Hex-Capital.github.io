@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 45.43,
   "consolidatedRank": 56,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/overshoot.md",
     "evals": {

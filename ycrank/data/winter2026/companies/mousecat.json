@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 49.14,
   "consolidatedRank": 36,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/mousecat.md",
     "evals": {

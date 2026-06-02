@@ -56,6 +56,11 @@
   },
   "consolidatedAvg": 52.14,
   "consolidatedRank": 13,
+  "traction": {
+    "tractionRank": 1,
+    "tractionScore": 99,
+    "tractionReason": "$5M ARR, 1,200% growth since Jan"
+  },
   "paths": {
     "memo": "spring2026/memos/tasklet-2.md",
     "evals": {

@@ -62,6 +62,7 @@
   },
   "consolidatedAvg": 41.14,
   "consolidatedRank": 94,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/remy-ai.md",
     "evals": {

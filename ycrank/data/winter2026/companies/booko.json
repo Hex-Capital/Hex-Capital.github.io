@@ -62,6 +62,7 @@
   },
   "consolidatedAvg": 31.14,
   "consolidatedRank": 183,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/booko.md",
     "evals": {

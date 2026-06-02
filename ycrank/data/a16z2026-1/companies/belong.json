@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 44.29,
   "consolidatedRank": 35,
+  "traction": null,
   "paths": {
     "memo": "a16z2026-1/memos/belong.md",
     "evals": {

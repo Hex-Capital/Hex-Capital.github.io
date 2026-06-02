@@ -60,6 +60,7 @@
   },
   "consolidatedAvg": 27.14,
   "consolidatedRank": 195,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/klaus-ai.md",
     "evals": {

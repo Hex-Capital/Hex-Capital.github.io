@@ -61,6 +61,11 @@
   },
   "consolidatedAvg": 37.14,
   "consolidatedRank": 137,
+  "traction": {
+    "tractionRank": 20,
+    "tractionScore": 66,
+    "tractionReason": "10+ funds, $10B+ AUM"
+  },
   "paths": {
     "memo": "spring2026/memos/cohesion.md",
     "evals": {

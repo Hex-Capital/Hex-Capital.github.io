@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 46.86,
   "consolidatedRank": 47,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/zymbly.md",
     "evals": {

@@ -62,6 +62,7 @@
   },
   "consolidatedAvg": 50.57,
   "consolidatedRank": 33,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/opalite-health.md",
     "evals": {

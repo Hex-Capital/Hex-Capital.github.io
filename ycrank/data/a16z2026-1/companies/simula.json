@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 36.29,
   "consolidatedRank": 59,
+  "traction": null,
   "paths": {
     "memo": "a16z2026-1/memos/simula.md",
     "evals": {

@@ -62,6 +62,11 @@
   },
   "consolidatedAvg": 42.86,
   "consolidatedRank": 72,
+  "traction": {
+    "tractionRank": 154,
+    "tractionScore": 22,
+    "tractionReason": "Vague Fortune 500 claim"
+  },
   "paths": {
     "memo": "spring2026/memos/regbase.md",
     "evals": {

@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 50.43,
   "consolidatedRank": 18,
+  "traction": null,
   "paths": {
     "memo": "a16z2026-1/memos/zerodrift.md",
     "evals": {

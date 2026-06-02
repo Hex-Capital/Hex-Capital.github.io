@@ -61,6 +61,11 @@
   },
   "consolidatedAvg": 37.14,
   "consolidatedRank": 139,
+  "traction": {
+    "tractionRank": 97,
+    "tractionScore": 31,
+    "tractionReason": "6 named customer logos"
+  },
   "paths": {
     "memo": "spring2026/memos/textsidekick.md",
     "evals": {

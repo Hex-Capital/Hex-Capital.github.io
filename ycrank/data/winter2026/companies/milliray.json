@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 54,
   "consolidatedRank": 18,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/milliray.md",
     "evals": {

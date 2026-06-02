@@ -60,6 +60,7 @@
   },
   "consolidatedAvg": 56.57,
   "consolidatedRank": 10,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/rhizome-ai.md",
     "evals": {

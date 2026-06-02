@@ -60,7 +60,12 @@
     "VK": 40
   },
   "consolidatedAvg": 47,
-  "consolidatedRank": 33,
+  "consolidatedRank": 32,
+  "traction": {
+    "tractionRank": 66,
+    "tractionScore": 38,
+    "tractionReason": "6 customer logos, Launch HN"
+  },
   "paths": {
     "memo": "spring2026/memos/ardent.md",
     "evals": {

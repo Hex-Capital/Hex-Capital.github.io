@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 41.86,
   "consolidatedRank": 44,
+  "traction": null,
   "paths": {
     "memo": "a16z2026-1/memos/sirius-technology.md",
     "evals": {

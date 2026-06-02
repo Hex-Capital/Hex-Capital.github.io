@@ -60,6 +60,7 @@
   },
   "consolidatedAvg": 43.14,
   "consolidatedRank": 72,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/aemon.md",
     "evals": {

@@ -63,6 +63,11 @@
   },
   "consolidatedAvg": 42.29,
   "consolidatedRank": 78,
+  "traction": {
+    "tractionRank": 91,
+    "tractionScore": 32,
+    "tractionReason": "Nvidia Inception, YC Launch"
+  },
   "paths": {
     "memo": "spring2026/memos/madrone.md",
     "evals": {

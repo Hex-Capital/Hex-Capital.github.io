@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 41.14,
   "consolidatedRank": 45,
+  "traction": null,
   "paths": {
     "memo": "a16z2026-1/memos/sparta.md",
     "evals": {

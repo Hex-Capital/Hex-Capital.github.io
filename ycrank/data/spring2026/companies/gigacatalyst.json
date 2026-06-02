@@ -62,6 +62,11 @@
   },
   "consolidatedAvg": 41,
   "consolidatedRank": 94,
+  "traction": {
+    "tractionRank": 27,
+    "tractionScore": 59,
+    "tractionReason": "1000+ DAU customer, 89% D30 retention"
+  },
   "paths": {
     "memo": "spring2026/memos/gigacatalyst.md",
     "evals": {

@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 51.71,
   "consolidatedRank": 30,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/strand-ai.md",
     "evals": {

@@ -60,6 +60,7 @@
   },
   "consolidatedAvg": 44.43,
   "consolidatedRank": 34,
+  "traction": null,
   "paths": {
     "memo": "a16z2026-1/memos/modern-industrials.md",
     "evals": {

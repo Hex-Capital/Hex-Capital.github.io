@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 46,
   "consolidatedRank": 28,
+  "traction": null,
   "paths": {
     "memo": "a16z2026-1/memos/oasiz.md",
     "evals": {

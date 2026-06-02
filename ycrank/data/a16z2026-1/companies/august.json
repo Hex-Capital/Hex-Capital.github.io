@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 55.43,
   "consolidatedRank": 8,
+  "traction": null,
   "paths": {
     "memo": "a16z2026-1/memos/august.md",
     "evals": {

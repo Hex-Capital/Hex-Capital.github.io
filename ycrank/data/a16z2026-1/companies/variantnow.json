@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 41.14,
   "consolidatedRank": 46,
+  "traction": null,
   "paths": {
     "memo": "a16z2026-1/memos/variantnow.md",
     "evals": {

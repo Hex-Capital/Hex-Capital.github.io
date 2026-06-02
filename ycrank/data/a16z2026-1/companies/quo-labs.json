@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 44.71,
   "consolidatedRank": 33,
+  "traction": null,
   "paths": {
     "memo": "a16z2026-1/memos/quo-labs.md",
     "evals": {

@@ -63,6 +63,11 @@
   },
   "consolidatedAvg": 35.57,
   "consolidatedRank": 162,
+  "traction": {
+    "tractionRank": 40,
+    "tractionScore": 50,
+    "tractionReason": "6 agencies signed, 200+ employees"
+  },
   "paths": {
     "memo": "spring2026/memos/takecareos.md",
     "evals": {

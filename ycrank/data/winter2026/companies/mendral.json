@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 57.14,
   "consolidatedRank": 9,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/mendral.md",
     "evals": {

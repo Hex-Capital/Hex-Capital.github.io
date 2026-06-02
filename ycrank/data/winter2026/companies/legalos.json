@@ -63,6 +63,7 @@
   },
   "consolidatedAvg": 49.57,
   "consolidatedRank": 34,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/legalos.md",
     "evals": {

@@ -56,6 +56,11 @@
   },
   "consolidatedAvg": 48,
   "consolidatedRank": 28,
+  "traction": {
+    "tractionRank": 18,
+    "tractionScore": 68,
+    "tractionReason": "11.4K stars, PH #1 day, big logos"
+  },
   "paths": {
     "memo": "spring2026/memos/superset.md",
     "evals": {

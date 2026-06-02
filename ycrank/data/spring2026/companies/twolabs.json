@@ -60,6 +60,11 @@
   },
   "consolidatedAvg": 37.29,
   "consolidatedRank": 135,
+  "traction": {
+    "tractionRank": 184,
+    "tractionScore": 15,
+    "tractionReason": "Founder press only"
+  },
   "paths": {
     "memo": "spring2026/memos/twolabs.md",
     "evals": {

@@ -56,6 +56,7 @@
   },
   "consolidatedAvg": 42.57,
   "consolidatedRank": 77,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/arcline.md",
     "evals": {

@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 46.14,
   "consolidatedRank": 53,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/origami-robotics.md",
     "evals": {

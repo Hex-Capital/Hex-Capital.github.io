@@ -61,6 +61,11 @@
   },
   "consolidatedAvg": 42.86,
   "consolidatedRank": 71,
+  "traction": {
+    "tractionRank": 113,
+    "tractionScore": 27,
+    "tractionReason": "IEEE CAI 2026 paper, benchmarks"
+  },
   "paths": {
     "memo": "spring2026/memos/interfaze.md",
     "evals": {

@@ -63,6 +63,7 @@
   },
   "consolidatedAvg": 42.86,
   "consolidatedRank": 74,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/cardboard.md",
     "evals": {

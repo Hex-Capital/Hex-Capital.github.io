@@ -63,6 +63,11 @@
   },
   "consolidatedAvg": 35.86,
   "consolidatedRank": 157,
+  "traction": {
+    "tractionRank": 143,
+    "tractionScore": 23,
+    "tractionReason": "Two-month prototype, ex-Apple/Meta"
+  },
   "paths": {
     "memo": "spring2026/memos/anoria.md",
     "evals": {

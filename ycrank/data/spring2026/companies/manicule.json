@@ -61,6 +61,11 @@
   },
   "consolidatedAvg": 53,
   "consolidatedRank": 8,
+  "traction": {
+    "tractionRank": 9,
+    "tractionScore": 81,
+    "tractionReason": "$58K MRR, 100% MoM, 6 logos"
+  },
   "paths": {
     "memo": "spring2026/memos/manicule.md",
     "evals": {

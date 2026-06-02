@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 45.71,
   "consolidatedRank": 29,
+  "traction": null,
   "paths": {
     "memo": "a16z2026-1/memos/hotbox.md",
     "evals": {

@@ -61,6 +61,11 @@
   },
   "consolidatedAvg": 30.57,
   "consolidatedRank": 191,
+  "traction": {
+    "tractionRank": 167,
+    "tractionScore": 19,
+    "tractionReason": "No public traction data"
+  },
   "paths": {
     "memo": "spring2026/memos/alchemize.md",
     "evals": {

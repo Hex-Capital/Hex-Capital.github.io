@@ -56,6 +56,7 @@
   },
   "consolidatedAvg": 47.29,
   "consolidatedRank": 46,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/pocket.md",
     "evals": {

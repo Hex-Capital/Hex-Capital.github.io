@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 39.71,
   "consolidatedRank": 110,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/getbalance.md",
     "evals": {

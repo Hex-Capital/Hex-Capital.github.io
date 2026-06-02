@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 31.57,
   "consolidatedRank": 180,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/sitefire.md",
     "evals": {

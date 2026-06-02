@@ -60,6 +60,11 @@
   },
   "consolidatedAvg": 37.86,
   "consolidatedRank": 134,
+  "traction": {
+    "tractionRank": 176,
+    "tractionScore": 17,
+    "tractionReason": "Team of 2, no metrics"
+  },
   "paths": {
     "memo": "spring2026/memos/revnu.md",
     "evals": {

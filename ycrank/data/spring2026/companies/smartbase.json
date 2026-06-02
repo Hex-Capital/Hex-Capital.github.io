@@ -62,7 +62,12 @@
     "VK": 37
   },
   "consolidatedAvg": 43.71,
-  "consolidatedRank": 68,
+  "consolidatedRank": 67,
+  "traction": {
+    "tractionRank": 54,
+    "tractionScore": 43,
+    "tractionReason": "Five-figure annual contracts"
+  },
   "paths": {
     "memo": "spring2026/memos/smartbase.md",
     "evals": {

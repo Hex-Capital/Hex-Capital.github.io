@@ -58,7 +58,12 @@
     "VK": 33
   },
   "consolidatedAvg": 44.14,
-  "consolidatedRank": 63,
+  "consolidatedRank": 62,
+  "traction": {
+    "tractionRank": 64,
+    "tractionScore": 39,
+    "tractionReason": "5.8K stars on clicky, Mac app live"
+  },
   "paths": {
     "memo": "spring2026/memos/heyclicky.md",
     "evals": {

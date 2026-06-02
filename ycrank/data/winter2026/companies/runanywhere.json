@@ -63,6 +63,7 @@
   },
   "consolidatedAvg": 43.71,
   "consolidatedRank": 69,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/runanywhere.md",
     "evals": {

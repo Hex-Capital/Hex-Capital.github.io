@@ -60,6 +60,11 @@
   },
   "consolidatedAvg": 49.86,
   "consolidatedRank": 20,
+  "traction": {
+    "tractionRank": 62,
+    "tractionScore": 40,
+    "tractionReason": "40+ countries, 119 GitHub stars"
+  },
   "paths": {
     "memo": "spring2026/memos/runtime.md",
     "evals": {

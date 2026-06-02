@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 40.57,
   "consolidatedRank": 49,
+  "traction": null,
   "paths": {
     "memo": "a16z2026-1/memos/alike.md",
     "evals": {

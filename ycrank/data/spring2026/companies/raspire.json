@@ -62,7 +62,12 @@
     "VK": 31
   },
   "consolidatedAvg": 43.71,
-  "consolidatedRank": 67,
+  "consolidatedRank": 66,
+  "traction": {
+    "tractionRank": 72,
+    "tractionScore": 37,
+    "tractionReason": "Apps protect 20M+ end users"
+  },
   "paths": {
     "memo": "spring2026/memos/raspire.md",
     "evals": {

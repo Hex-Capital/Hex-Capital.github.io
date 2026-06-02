@@ -63,6 +63,11 @@
   },
   "consolidatedAvg": 53.14,
   "consolidatedRank": 7,
+  "traction": {
+    "tractionRank": 192,
+    "tractionScore": 12,
+    "tractionReason": "Team 0, founder 85 followers"
+  },
   "paths": {
     "memo": "spring2026/memos/general-aviation.md",
     "evals": {

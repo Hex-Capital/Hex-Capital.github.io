@@ -63,6 +63,11 @@
   },
   "consolidatedAvg": 40.14,
   "consolidatedRank": 101,
+  "traction": {
+    "tractionRank": 29,
+    "tractionScore": 57,
+    "tractionReason": "21+ named customer logos"
+  },
   "paths": {
     "memo": "spring2026/memos/characterquilt.md",
     "evals": {

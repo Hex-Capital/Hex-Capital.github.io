@@ -63,6 +63,7 @@
   },
   "consolidatedAvg": 43.43,
   "consolidatedRank": 70,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/eos-ai.md",
     "evals": {

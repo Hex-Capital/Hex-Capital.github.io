@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 52.43,
   "consolidatedRank": 27,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/seeing-systems.md",
     "evals": {

@@ -63,6 +63,7 @@
   },
   "consolidatedAvg": 44.43,
   "consolidatedRank": 64,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/proximitty.md",
     "evals": {

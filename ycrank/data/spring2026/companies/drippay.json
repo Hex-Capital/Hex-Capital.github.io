@@ -62,6 +62,11 @@
   },
   "consolidatedAvg": 32.86,
   "consolidatedRank": 179,
+  "traction": {
+    "tractionRank": 134,
+    "tractionScore": 24,
+    "tractionReason": "Team of 2, PH profile only"
+  },
   "paths": {
     "memo": "spring2026/memos/drippay.md",
     "evals": {

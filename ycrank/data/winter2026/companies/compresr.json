@@ -62,6 +62,7 @@
   },
   "consolidatedAvg": 36.14,
   "consolidatedRank": 142,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/compresr.md",
     "evals": {

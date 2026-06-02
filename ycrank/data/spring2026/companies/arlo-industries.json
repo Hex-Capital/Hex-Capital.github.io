@@ -63,6 +63,11 @@
   },
   "consolidatedAvg": 54,
   "consolidatedRank": 5,
+  "traction": {
+    "tractionRank": 124,
+    "tractionScore": 26,
+    "tractionReason": "Field demos to Ukrainian forces"
+  },
   "paths": {
     "memo": "spring2026/memos/arlo-industries.md",
     "evals": {

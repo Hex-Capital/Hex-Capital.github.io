@@ -60,6 +60,11 @@
   },
   "consolidatedAvg": 47.86,
   "consolidatedRank": 30,
+  "traction": {
+    "tractionRank": 7,
+    "tractionScore": 85,
+    "tractionReason": "500K users, $20K MRR, WIRED/Forbes"
+  },
   "paths": {
     "memo": "spring2026/memos/rentahuman.md",
     "evals": {

@@ -60,6 +60,11 @@
   },
   "consolidatedAvg": 40.86,
   "consolidatedRank": 95,
+  "traction": {
+    "tractionRank": 61,
+    "tractionScore": 40,
+    "tractionReason": "204 stars, Show HN, paid trial"
+  },
   "paths": {
     "memo": "spring2026/memos/stage.md",
     "evals": {

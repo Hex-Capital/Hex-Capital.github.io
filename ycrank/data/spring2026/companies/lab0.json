@@ -63,6 +63,11 @@
   },
   "consolidatedAvg": 41.14,
   "consolidatedRank": 91,
+  "traction": {
+    "tractionRank": 140,
+    "tractionScore": 24,
+    "tractionReason": "Adobe + SI partnerships"
+  },
   "paths": {
     "memo": "spring2026/memos/lab0.md",
     "evals": {

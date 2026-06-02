@@ -60,6 +60,7 @@
   },
   "consolidatedAvg": 51.86,
   "consolidatedRank": 29,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/panta.md",
     "evals": {

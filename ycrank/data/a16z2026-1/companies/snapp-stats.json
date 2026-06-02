@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 40.71,
   "consolidatedRank": 48,
+  "traction": null,
   "paths": {
     "memo": "a16z2026-1/memos/snapp-stats.md",
     "evals": {

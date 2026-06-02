@@ -60,6 +60,7 @@
   },
   "consolidatedAvg": 54.14,
   "consolidatedRank": 9,
+  "traction": null,
   "paths": {
     "memo": "a16z2026-1/memos/miraka.md",
     "evals": {

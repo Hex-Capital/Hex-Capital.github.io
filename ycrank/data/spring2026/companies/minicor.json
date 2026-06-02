@@ -55,7 +55,12 @@
     "VK": 40
   },
   "consolidatedAvg": 45.14,
-  "consolidatedRank": 50,
+  "consolidatedRank": 49,
+  "traction": {
+    "tractionRank": 42,
+    "tractionScore": 49,
+    "tractionReason": "25K patients/day in production, SOC2 II"
+  },
   "paths": {
     "memo": "spring2026/memos/minicor.md",
     "evals": {

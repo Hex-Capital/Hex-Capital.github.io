@@ -63,6 +63,11 @@
   },
   "consolidatedAvg": 32.14,
   "consolidatedRank": 187,
+  "traction": {
+    "tractionRank": 189,
+    "tractionScore": 14,
+    "tractionReason": "No public data found"
+  },
   "paths": {
     "memo": "spring2026/memos/probe.md",
     "evals": {

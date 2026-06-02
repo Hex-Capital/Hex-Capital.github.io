@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 40.43,
   "consolidatedRank": 50,
+  "traction": null,
   "paths": {
     "memo": "a16z2026-1/memos/mercury.md",
     "evals": {

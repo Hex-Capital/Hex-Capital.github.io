@@ -61,7 +61,12 @@
     "VK": 31
   },
   "consolidatedAvg": 44.29,
-  "consolidatedRank": 60,
+  "consolidatedRank": 59,
+  "traction": {
+    "tractionRank": 122,
+    "tractionScore": 26,
+    "tractionReason": "Internal benchmarks blog"
+  },
   "paths": {
     "memo": "spring2026/memos/bentolabs-ai.md",
     "evals": {

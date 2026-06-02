@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 29.29,
   "consolidatedRank": 193,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/lucent.md",
     "evals": {

@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 37.14,
   "consolidatedRank": 57,
+  "traction": null,
   "paths": {
     "memo": "a16z2026-1/memos/sun.md",
     "evals": {

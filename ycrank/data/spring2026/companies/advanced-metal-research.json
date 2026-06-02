@@ -61,6 +61,11 @@
   },
   "consolidatedAvg": 41.71,
   "consolidatedRank": 84,
+  "traction": {
+    "tractionRank": 166,
+    "tractionScore": 19,
+    "tractionReason": "No public traction data"
+  },
   "paths": {
     "memo": "spring2026/memos/advanced-metal-research.md",
     "evals": {

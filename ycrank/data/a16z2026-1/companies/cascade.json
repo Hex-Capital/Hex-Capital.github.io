@@ -60,6 +60,7 @@
   },
   "consolidatedAvg": 50.57,
   "consolidatedRank": 16,
+  "traction": null,
   "paths": {
     "memo": "a16z2026-1/memos/cascade.md",
     "evals": {

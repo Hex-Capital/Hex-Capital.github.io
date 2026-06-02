@@ -62,6 +62,11 @@
   },
   "consolidatedAvg": 36.86,
   "consolidatedRank": 142,
+  "traction": {
+    "tractionRank": 173,
+    "tractionScore": 18,
+    "tractionReason": "Waitlist only"
+  },
   "paths": {
     "memo": "spring2026/memos/prototypingio.md",
     "evals": {

@@ -63,6 +63,7 @@
   },
   "consolidatedAvg": 32.86,
   "consolidatedRank": 170,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/ashr.md",
     "evals": {

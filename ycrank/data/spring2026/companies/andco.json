@@ -59,7 +59,12 @@
     "VK": 36
   },
   "consolidatedAvg": 44.29,
-  "consolidatedRank": 59,
+  "consolidatedRank": 58,
+  "traction": {
+    "tractionRank": 14,
+    "tractionScore": 73,
+    "tractionReason": "$12M raise, hundreds of cases monthly"
+  },
   "paths": {
     "memo": "spring2026/memos/andco.md",
     "evals": {

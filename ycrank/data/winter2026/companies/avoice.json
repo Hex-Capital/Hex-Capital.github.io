@@ -62,6 +62,7 @@
   },
   "consolidatedAvg": 44.57,
   "consolidatedRank": 63,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/avoice.md",
     "evals": {

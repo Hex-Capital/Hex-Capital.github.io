@@ -63,6 +63,7 @@
   },
   "consolidatedAvg": 39.57,
   "consolidatedRank": 112,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/servo7.md",
     "evals": {

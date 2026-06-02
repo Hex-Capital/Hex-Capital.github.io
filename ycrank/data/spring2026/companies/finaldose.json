@@ -62,6 +62,11 @@
   },
   "consolidatedAvg": 52.57,
   "consolidatedRank": 10,
+  "traction": {
+    "tractionRank": 147,
+    "tractionScore": 22,
+    "tractionReason": "YC Launch, UK entity registered"
+  },
   "paths": {
     "memo": "spring2026/memos/finaldose.md",
     "evals": {

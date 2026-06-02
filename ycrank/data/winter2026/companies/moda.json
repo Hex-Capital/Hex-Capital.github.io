@@ -62,6 +62,7 @@
   },
   "consolidatedAvg": 32.29,
   "consolidatedRank": 175,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/moda.md",
     "evals": {

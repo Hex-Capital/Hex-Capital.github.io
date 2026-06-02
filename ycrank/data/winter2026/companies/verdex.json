@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 40.57,
   "consolidatedRank": 100,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/verdex.md",
     "evals": {

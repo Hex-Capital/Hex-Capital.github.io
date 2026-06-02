@@ -63,6 +63,7 @@
   },
   "consolidatedAvg": 42.57,
   "consolidatedRank": 79,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/voygr.md",
     "evals": {

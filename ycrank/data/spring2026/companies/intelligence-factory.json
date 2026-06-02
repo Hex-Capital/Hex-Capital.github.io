@@ -59,7 +59,12 @@
     "VK": 60
   },
   "consolidatedAvg": 45.29,
-  "consolidatedRank": 49,
+  "consolidatedRank": 48,
+  "traction": {
+    "tractionRank": 128,
+    "tractionScore": 25,
+    "tractionReason": "Comma + Allen Gannett backers"
+  },
   "paths": {
     "memo": "spring2026/memos/intelligence-factory.md",
     "evals": {

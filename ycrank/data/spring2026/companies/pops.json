@@ -62,6 +62,11 @@
   },
   "consolidatedAvg": 40.57,
   "consolidatedRank": 97,
+  "traction": {
+    "tractionRank": 151,
+    "tractionScore": 22,
+    "tractionReason": "iOS + Google Play apps live"
+  },
   "paths": {
     "memo": "spring2026/memos/pops.md",
     "evals": {

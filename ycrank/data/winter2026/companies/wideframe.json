@@ -60,6 +60,7 @@
   },
   "consolidatedAvg": 49.29,
   "consolidatedRank": 35,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/wideframe.md",
     "evals": {

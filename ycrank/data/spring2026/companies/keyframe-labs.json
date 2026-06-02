@@ -61,7 +61,12 @@
     "VK": 39
   },
   "consolidatedAvg": 46.71,
-  "consolidatedRank": 37,
+  "consolidatedRank": 36,
+  "traction": {
+    "tractionRank": 70,
+    "tractionScore": 38,
+    "tractionReason": "8 testimonials, $0.06/min usage live"
+  },
   "paths": {
     "memo": "spring2026/memos/keyframe-labs.md",
     "evals": {

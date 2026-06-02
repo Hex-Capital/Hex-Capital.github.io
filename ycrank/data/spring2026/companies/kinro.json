@@ -61,6 +61,11 @@
   },
   "consolidatedAvg": 39.29,
   "consolidatedRank": 111,
+  "traction": {
+    "tractionRank": 77,
+    "tractionScore": 36,
+    "tractionReason": "The Zebra customer named"
+  },
   "paths": {
     "memo": "spring2026/memos/kinro.md",
     "evals": {

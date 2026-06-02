@@ -60,6 +60,7 @@
   },
   "consolidatedAvg": 45.71,
   "consolidatedRank": 30,
+  "traction": null,
   "paths": {
     "memo": "a16z2026-1/memos/taxnova.md",
     "evals": {

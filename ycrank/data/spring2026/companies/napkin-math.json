@@ -63,6 +63,11 @@
   },
   "consolidatedAvg": 34.71,
   "consolidatedRank": 171,
+  "traction": {
+    "tractionRank": 144,
+    "tractionScore": 23,
+    "tractionReason": "iOS app live, TestFlight beta"
+  },
   "paths": {
     "memo": "spring2026/memos/napkin-math.md",
     "evals": {

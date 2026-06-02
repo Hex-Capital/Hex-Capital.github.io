@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 37.29,
   "consolidatedRank": 135,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/veriad.md",
     "evals": {

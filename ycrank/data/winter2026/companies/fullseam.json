@@ -62,6 +62,7 @@
   },
   "consolidatedAvg": 40.71,
   "consolidatedRank": 97,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/fullseam.md",
     "evals": {

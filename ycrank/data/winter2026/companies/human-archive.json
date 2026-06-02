@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 38.29,
   "consolidatedRank": 127,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/human-archive.md",
     "evals": {

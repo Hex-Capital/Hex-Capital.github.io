@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 32.29,
   "consolidatedRank": 176,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/travo.md",
     "evals": {

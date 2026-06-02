@@ -63,6 +63,11 @@
   },
   "consolidatedAvg": 42.57,
   "consolidatedRank": 73,
+  "traction": {
+    "tractionRank": 129,
+    "tractionScore": 25,
+    "tractionReason": "Launch YC live ~29 days"
+  },
   "paths": {
     "memo": "spring2026/memos/saudara-ai.md",
     "evals": {

@@ -55,7 +55,12 @@
     "VK": 32
   },
   "consolidatedAvg": 45.86,
-  "consolidatedRank": 44,
+  "consolidatedRank": 43,
+  "traction": {
+    "tractionRank": 76,
+    "tractionScore": 36,
+    "tractionReason": "$2M+ premiums optimized, FAANG pipeline"
+  },
   "paths": {
     "memo": "spring2026/memos/huscarl-inc.md",
     "evals": {

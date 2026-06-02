@@ -62,6 +62,7 @@
   },
   "consolidatedAvg": 33.14,
   "consolidatedRank": 168,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/emdash.md",
     "evals": {

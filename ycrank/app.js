@@ -388,6 +388,10 @@ function app() {
           va = (a.ycPartner || '').toLowerCase();
           vb = (b.ycPartner || '').toLowerCase();
           return va < vb ? -dir : va > vb ? dir : 0;
+        } else if (col === 'tractionRank') {
+          // Unranked companies always sort last regardless of direction
+          va = a.tractionRank != null ? a.tractionRank : Infinity;
+          vb = b.tractionRank != null ? b.tractionRank : Infinity;
         } else if (a.scores && a.scores[col] !== undefined) {
           // Persona abbreviation column (CB, EG, NR, PG, PT, SL, VK)
           va = a.scores[col] != null ? a.scores[col] : -1;
@@ -580,8 +584,8 @@ function app() {
         this.sortDir *= -1;
       } else {
         this.sortCol = col;
-        // Default ascending for rank/name, descending for scores/avg
-        this.sortDir = (col === 'rank' || col === 'name' || col === 'ycPartner') ? 1 : -1;
+        // Default ascending for rank/name/tractionRank, descending for scores/avg
+        this.sortDir = (col === 'rank' || col === 'name' || col === 'ycPartner' || col === 'tractionRank') ? 1 : -1;
       }
     },
 
@@ -976,6 +980,15 @@ function app() {
       const cat = this.avgTierCategory(avg);
       const entry = cat ? this.COLOR_PALETTE[cat] : null;
       return entry ? entry.cls.split(' ')[0] : 'text-claude-dim';
+    },
+
+    // Color the traction stack-rank cell: top ranks green, mid orange, tail dim.
+    tractionRankColor(rank) {
+      if (rank == null) return 'text-claude-dim';
+      if (rank <= 10) return this.COLOR_PALETTE['strong-invest'].cls.split(' ')[0];
+      if (rank <= 25) return this.COLOR_PALETTE['invest'].cls.split(' ')[0];
+      if (rank <= 60) return this.COLOR_PALETTE['neutral'].cls.split(' ')[0];
+      return 'text-claude-dim';
     },
 
     corrColor(val) {

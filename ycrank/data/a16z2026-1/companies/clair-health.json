@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 52,
   "consolidatedRank": 11,
+  "traction": null,
   "paths": {
     "memo": "a16z2026-1/memos/clair-health.md",
     "evals": {

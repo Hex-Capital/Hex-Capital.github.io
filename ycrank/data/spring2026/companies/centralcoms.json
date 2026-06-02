@@ -61,6 +61,11 @@
   },
   "consolidatedAvg": 33.14,
   "consolidatedRank": 178,
+  "traction": {
+    "tractionRank": 177,
+    "tractionScore": 16,
+    "tractionReason": "No public data"
+  },
   "paths": {
     "memo": "spring2026/memos/centralcoms.md",
     "evals": {

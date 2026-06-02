@@ -59,6 +59,7 @@
   },
   "consolidatedAvg": 46.71,
   "consolidatedRank": 27,
+  "traction": null,
   "paths": {
     "memo": "a16z2026-1/memos/antihero-studios.md",
     "evals": {

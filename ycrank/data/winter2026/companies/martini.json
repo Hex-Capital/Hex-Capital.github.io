@@ -63,6 +63,7 @@
   },
   "consolidatedAvg": 41.86,
   "consolidatedRank": 81,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/martini.md",
     "evals": {

@@ -60,6 +60,7 @@
   },
   "consolidatedAvg": 36.29,
   "consolidatedRank": 58,
+  "traction": null,
   "paths": {
     "memo": "a16z2026-1/memos/partyhat.md",
     "evals": {

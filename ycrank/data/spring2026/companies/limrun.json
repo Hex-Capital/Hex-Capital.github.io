@@ -62,6 +62,11 @@
   },
   "consolidatedAvg": 52.29,
   "consolidatedRank": 12,
+  "traction": {
+    "tractionRank": 37,
+    "tractionScore": 52,
+    "tractionReason": "7 platform customers (Replit, Vibecode)"
+  },
   "paths": {
     "memo": "spring2026/memos/limrun.md",
     "evals": {

@@ -61,6 +61,7 @@
   },
   "consolidatedAvg": 44.71,
   "consolidatedRank": 61,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/luel.md",
     "evals": {

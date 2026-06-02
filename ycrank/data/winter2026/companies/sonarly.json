@@ -60,6 +60,7 @@
   },
   "consolidatedAvg": 33.29,
   "consolidatedRank": 166,
+  "traction": null,
   "paths": {
     "memo": "winter2026/memos/sonarly.md",
     "evals": {

@@ -56,6 +56,11 @@
   },
   "consolidatedAvg": 36.29,
   "consolidatedRank": 151,
+  "traction": {
+    "tractionRank": 190,
+    "tractionScore": 13,
+    "tractionReason": "2 roles posted, no traction"
+  },
   "paths": {
     "memo": "spring2026/memos/the-company-company.md",
     "evals": {

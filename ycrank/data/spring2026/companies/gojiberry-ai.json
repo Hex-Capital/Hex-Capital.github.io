@@ -1,7 +1,7 @@
 {
   "slug": "gojiberry-ai",
   "name": "Gojiberry AI",
-  "oneLiner": "GTM Brain for small sales teams",
+  "oneLiner": "AI GTM agents for B2B teams",
   "metadata": {
     "website": "https://www.gojiberry.ai",
     "yc_page": "https://www.ycombinator.com/companies/gojiberry-ai",
@@ -9,53 +9,58 @@
     "industry": "B2B / B2B -> Sales",
     "team_size": "7",
     "location": "San Francisco, CA, USA; Remote",
+    "tags": "Artificial Intelligence, B2B, Sales",
     "yc_partner": "Andrew Miklas (YC page)",
-    "emails": "pe@gojiberry.ai (YC page)"
+    "emails": "No public data found"
   },
-  "tags": [],
+  "tags": [
+    "Artificial Intelligence",
+    "B2B",
+    "Sales"
+  ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-05-28T02:51:30.382Z",
+  "memoGeneratedAt": "2026-06-02T16:05:33.423Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 39,
-      "tier": "Pass"
+      "score": 49,
+      "tier": "Neutral"
     },
     "elad-gil": {
+      "score": 65,
+      "tier": "Invest"
+    },
+    "naval-ravikant": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
       "score": 62,
       "tier": "Neutral"
     },
-    "naval-ravikant": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 54,
-      "tier": "Neutral"
-    },
     "peter-thiel": {
-      "score": 30,
+      "score": 32,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 29,
+      "score": 39,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 33,
+      "score": 30,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 39,
-    "EG": 62,
-    "NR": 42,
-    "PG": 54,
-    "PT": 30,
-    "SL": 29,
-    "VK": 33
+    "CB": 49,
+    "EG": 65,
+    "NR": 53,
+    "PG": 62,
+    "PT": 32,
+    "SL": 39,
+    "VK": 30
   },
-  "consolidatedAvg": 41.29,
-  "consolidatedRank": 87,
+  "consolidatedAvg": 47.14,
+  "consolidatedRank": 32,
   "paths": {
     "memo": "spring2026/memos/gojiberry-ai.md",
     "evals": {

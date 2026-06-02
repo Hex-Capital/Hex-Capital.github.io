@@ -194,6 +194,7 @@
               <th class="px-1 py-1 text-center text-claude-gray cursor-pointer hover:text-claude-orange w-16 border border-claude-border whitespace-nowrap"
                 @click="sortBy('tractionRank')" title="Traction stack-rank (Opus, memo-based)">Traction<span x-show="sortCol === 'tractionRank'" x-text="sortDir === 1 ? '▲' : '▼'" class="text-xs ml-0.5"></span>
               </th>
+              <th class="px-1.5 py-1 text-left text-claude-gray border border-claude-border whitespace-nowrap hidden lg:table-cell">Traction Details</th>
             </tr>
           </thead>
           <!-- MOBILE-SCORES: Each company is a <tbody> so Alpine can render two rows (data + mobile scores).
@@ -239,6 +240,9 @@
                     :title="row.tractionRank != null ? ('#' + row.tractionRank + ' by traction' + (row.tractionReason ? ' — ' + row.tractionReason : '')) : 'No traction rank'">
                   <span x-text="row.tractionRank != null ? ('#' + row.tractionRank) : '-'"></span>
                 </td>
+                <td class="px-1.5 py-1 text-claude-dim border border-claude-border hidden lg:table-cell truncate max-w-[240px]"
+                  :title="row.tractionReason || ''"
+                  x-text="row.tractionReason || '-'"></td>
               </tr>
               <tr class="sm:hidden border-b border-claude-border cursor-pointer transition-colors mobile-scores-row"
                 @click="row.slug && navigate('company/' + row.slug)">

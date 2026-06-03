@@ -63,9 +63,9 @@
   "consolidatedAvg": 54.29,
   "consolidatedRank": 4,
   "traction": {
-    "tractionRank": 108,
-    "tractionScore": 28,
-    "tractionReason": "$1M raised, launch coverage"
+    "tractionRank": 122,
+    "tractionScore": 18,
+    "tractionReason": "$1M raised, AIAA pubs"
   },
   "paths": {
     "memo": "spring2026/memos/ornadyne.md",

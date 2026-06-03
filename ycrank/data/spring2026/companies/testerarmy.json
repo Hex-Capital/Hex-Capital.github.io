@@ -60,11 +60,11 @@
     "VK": 25
   },
   "consolidatedAvg": 38.71,
-  "consolidatedRank": 125,
+  "consolidatedRank": 126,
   "traction": {
-    "tractionRank": 158,
-    "tractionScore": 21,
-    "tractionReason": "YC $500K, \"LAUNCH30\" promo"
+    "tractionRank": 149,
+    "tractionScore": 13,
+    "tractionReason": "YC standard $500K, promo code"
   },
   "paths": {
     "memo": "spring2026/memos/testerarmy.md",

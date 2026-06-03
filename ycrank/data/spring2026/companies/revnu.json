@@ -59,11 +59,11 @@
     "VK": 31
   },
   "consolidatedAvg": 37.86,
-  "consolidatedRank": 134,
+  "consolidatedRank": 135,
   "traction": {
-    "tractionRank": 176,
-    "tractionScore": 17,
-    "tractionReason": "Team of 2, no metrics"
+    "tractionRank": 166,
+    "tractionScore": 10,
+    "tractionReason": "Team of 2, no public press"
   },
   "paths": {
     "memo": "spring2026/memos/revnu.md",

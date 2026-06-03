@@ -64,9 +64,9 @@
   "consolidatedAvg": 51,
   "consolidatedRank": 17,
   "traction": {
-    "tractionRank": 3,
-    "tractionScore": 92,
-    "tractionReason": "120K MAU, 325K plans, $1.65M round"
+    "tractionRank": 8,
+    "tractionScore": 79,
+    "tractionReason": "120K MAU, 325K+ plans generated"
   },
   "paths": {
     "memo": "spring2026/memos/drafted.md",

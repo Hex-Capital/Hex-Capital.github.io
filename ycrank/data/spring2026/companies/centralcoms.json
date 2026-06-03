@@ -60,11 +60,11 @@
     "VK": 26
   },
   "consolidatedAvg": 33.14,
-  "consolidatedRank": 178,
+  "consolidatedRank": 179,
   "traction": {
-    "tractionRank": 177,
-    "tractionScore": 16,
-    "tractionReason": "No public data"
+    "tractionRank": 183,
+    "tractionScore": 8,
+    "tractionReason": "No public data found"
   },
   "paths": {
     "memo": "spring2026/memos/centralcoms.md",

@@ -58,11 +58,11 @@
     "VK": 33
   },
   "consolidatedAvg": 44.14,
-  "consolidatedRank": 62,
+  "consolidatedRank": 63,
   "traction": {
-    "tractionRank": 64,
-    "tractionScore": 39,
-    "tractionReason": "5.8K stars on clicky, Mac app live"
+    "tractionRank": 72,
+    "tractionScore": 34,
+    "tractionReason": "5.8K GitHub stars, viral founder"
   },
   "paths": {
     "memo": "spring2026/memos/heyclicky.md",

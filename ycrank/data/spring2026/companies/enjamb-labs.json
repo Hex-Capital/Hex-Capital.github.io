@@ -61,11 +61,11 @@
     "VK": 34
   },
   "consolidatedAvg": 35.71,
-  "consolidatedRank": 158,
+  "consolidatedRank": 159,
   "traction": {
-    "tractionRank": 130,
-    "tractionScore": 25,
-    "tractionReason": "$650K pre-seed, model claims"
+    "tractionRank": 114,
+    "tractionScore": 20,
+    "tractionReason": "$650K pre-seed from YC + Founders Inc"
   },
   "paths": {
     "memo": "spring2026/memos/enjamb-labs.md",

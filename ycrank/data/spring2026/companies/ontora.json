@@ -61,11 +61,11 @@
     "VK": 32
   },
   "consolidatedAvg": 37.14,
-  "consolidatedRank": 138,
+  "consolidatedRank": 139,
   "traction": {
-    "tractionRank": 52,
+    "tractionRank": 50,
     "tractionScore": 44,
-    "tractionReason": "Vertiv testimonial, ~$50K engagements"
+    "tractionReason": "Vertiv (NYSE:VRT) named customer quote"
   },
   "paths": {
     "memo": "spring2026/memos/ontora.md",

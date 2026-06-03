@@ -60,11 +60,11 @@
     "VK": 28
   },
   "consolidatedAvg": 37.14,
-  "consolidatedRank": 137,
+  "consolidatedRank": 138,
   "traction": {
-    "tractionRank": 20,
-    "tractionScore": 66,
-    "tractionReason": "10+ funds, $10B+ AUM"
+    "tractionRank": 14,
+    "tractionScore": 71,
+    "tractionReason": "10+ funds, $10B+ AUM customers"
   },
   "paths": {
     "memo": "spring2026/memos/cohesion.md",

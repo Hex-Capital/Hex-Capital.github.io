@@ -58,10 +58,10 @@
     "VK": 38
   },
   "consolidatedAvg": 44,
-  "consolidatedRank": 63,
+  "consolidatedRank": 64,
   "traction": {
-    "tractionRank": 188,
-    "tractionScore": 14,
+    "tractionRank": 186,
+    "tractionScore": 7,
     "tractionReason": "No public data found"
   },
   "paths": {

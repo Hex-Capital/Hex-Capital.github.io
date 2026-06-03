@@ -62,11 +62,11 @@
     "VK": 36
   },
   "consolidatedAvg": 40.14,
-  "consolidatedRank": 102,
+  "consolidatedRank": 103,
   "traction": {
-    "tractionRank": 169,
-    "tractionScore": 18,
-    "tractionReason": "Pilot program open, no metrics"
+    "tractionRank": 161,
+    "tractionScore": 11,
+    "tractionReason": "Early-access pilot program open"
   },
   "paths": {
     "memo": "spring2026/memos/infera.md",

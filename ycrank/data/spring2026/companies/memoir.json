@@ -61,11 +61,11 @@
     "VK": 25
   },
   "consolidatedAvg": 26.57,
-  "consolidatedRank": 192,
+  "consolidatedRank": 193,
   "traction": {
-    "tractionRank": 79,
-    "tractionScore": 35,
-    "tractionReason": "Sample metrics on landing page"
+    "tractionRank": 102,
+    "tractionScore": 23,
+    "tractionReason": "Vague landing-page conversion sample"
   },
   "paths": {
     "memo": "spring2026/memos/memoir.md",

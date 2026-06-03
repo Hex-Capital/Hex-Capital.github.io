@@ -60,11 +60,7 @@
   },
   "consolidatedAvg": 50.14,
   "consolidatedRank": 18,
-  "traction": {
-    "tractionRank": 121,
-    "tractionScore": 26,
-    "tractionReason": "arXiv paper, NanoGPT speedrun record"
-  },
+  "traction": null,
   "paths": {
     "memo": "spring2026/memos/asterlab.md",
     "evals": {

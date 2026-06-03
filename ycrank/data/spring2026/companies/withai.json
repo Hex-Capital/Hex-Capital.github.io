@@ -60,11 +60,11 @@
     "VK": 33
   },
   "consolidatedAvg": 44.57,
-  "consolidatedRank": 56,
+  "consolidatedRank": 57,
   "traction": {
-    "tractionRank": 19,
-    "tractionScore": 67,
-    "tractionReason": ">$100K ARR, Bridgewater angels"
+    "tractionRank": 13,
+    "tractionScore": 72,
+    "tractionReason": ">$100K ARR, Mercator Partners client"
   },
   "paths": {
     "memo": "spring2026/memos/withai.md",

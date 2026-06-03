@@ -61,10 +61,10 @@
     "VK": 32
   },
   "consolidatedAvg": 36.43,
-  "consolidatedRank": 146,
+  "consolidatedRank": 147,
   "traction": {
-    "tractionRank": 5,
-    "tractionScore": 89,
+    "tractionRank": 3,
+    "tractionScore": 87,
     "tractionReason": "$1M ARR in 10 months"
   },
   "paths": {

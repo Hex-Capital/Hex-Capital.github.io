@@ -60,11 +60,11 @@
     "VK": 37
   },
   "consolidatedAvg": 41.57,
-  "consolidatedRank": 87,
+  "consolidatedRank": 88,
   "traction": {
-    "tractionRank": 165,
-    "tractionScore": 19,
-    "tractionReason": "Under-construction site"
+    "tractionRank": 151,
+    "tractionScore": 13,
+    "tractionReason": "MIT Heals + Fifty Years selections"
   },
   "paths": {
     "memo": "spring2026/memos/abinitio-bio.md",

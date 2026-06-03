@@ -60,11 +60,11 @@
     "VK": 31
   },
   "consolidatedAvg": 38.14,
-  "consolidatedRank": 132,
+  "consolidatedRank": 133,
   "traction": {
-    "tractionRank": 114,
-    "tractionScore": 27,
-    "tractionReason": "Paid pricing tiers live"
+    "tractionRank": 107,
+    "tractionScore": 21,
+    "tractionReason": "Pricing live $199-$499/mo, no customers"
   },
   "paths": {
     "memo": "spring2026/memos/saffron.md",

@@ -62,9 +62,9 @@
   "consolidatedAvg": 45.86,
   "consolidatedRank": 41,
   "traction": {
-    "tractionRank": 74,
-    "tractionScore": 36,
-    "tractionReason": "Hyperspell + Seed-to-B onboards"
+    "tractionRank": 62,
+    "tractionScore": 38,
+    "tractionReason": "Hyperspell + Seed-B customers onboarded"
   },
   "paths": {
     "memo": "spring2026/memos/arga-labs.md",

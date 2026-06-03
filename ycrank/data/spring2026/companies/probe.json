@@ -62,11 +62,11 @@
     "VK": 29
   },
   "consolidatedAvg": 32.14,
-  "consolidatedRank": 187,
+  "consolidatedRank": 188,
   "traction": {
-    "tractionRank": 189,
-    "tractionScore": 14,
-    "tractionReason": "No public data found"
+    "tractionRank": 171,
+    "tractionScore": 10,
+    "tractionReason": "0 disclosed data, team 3"
   },
   "paths": {
     "memo": "spring2026/memos/probe.md",

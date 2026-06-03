@@ -61,11 +61,11 @@
     "VK": 36
   },
   "consolidatedAvg": 41.71,
-  "consolidatedRank": 85,
+  "consolidatedRank": 86,
   "traction": {
-    "tractionRank": 112,
-    "tractionScore": 28,
-    "tractionReason": "Broker license, 30-min response claim"
+    "tractionRank": 80,
+    "tractionScore": 30,
+    "tractionReason": "3 broker testimonials, 30-min response"
   },
   "paths": {
     "memo": "spring2026/memos/hedge.md",

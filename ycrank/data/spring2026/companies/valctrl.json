@@ -62,11 +62,11 @@
     "VK": 29
   },
   "consolidatedAvg": 32.71,
-  "consolidatedRank": 181,
+  "consolidatedRank": 182,
   "traction": {
-    "tractionRank": 186,
-    "tractionScore": 15,
-    "tractionReason": "No public traction data"
+    "tractionRank": 181,
+    "tractionScore": 8,
+    "tractionReason": "No public data found"
   },
   "paths": {
     "memo": "spring2026/memos/valctrl.md",

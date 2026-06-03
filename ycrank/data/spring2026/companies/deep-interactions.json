@@ -62,11 +62,11 @@
     "VK": 29
   },
   "consolidatedAvg": 35.57,
-  "consolidatedRank": 160,
+  "consolidatedRank": 161,
   "traction": {
-    "tractionRank": 98,
-    "tractionScore": 31,
-    "tractionReason": "12 businesses, 50K+ hits"
+    "tractionRank": 87,
+    "tractionScore": 27,
+    "tractionReason": "12 businesses live, 50K+ hits"
   },
   "paths": {
     "memo": "spring2026/memos/deep-interactions.md",

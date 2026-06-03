@@ -62,11 +62,11 @@
     "VK": 32
   },
   "consolidatedAvg": 40.14,
-  "consolidatedRank": 103,
+  "consolidatedRank": 104,
   "traction": {
-    "tractionRank": 12,
-    "tractionScore": 76,
-    "tractionReason": "6,000 therapists, paid tiers live"
+    "tractionRank": 15,
+    "tractionScore": 70,
+    "tractionReason": "~6,000 therapists on paid tiers"
   },
   "paths": {
     "memo": "spring2026/memos/klarify.md",

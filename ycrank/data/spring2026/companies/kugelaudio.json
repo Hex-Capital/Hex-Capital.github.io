@@ -62,9 +62,9 @@
   "consolidatedAvg": 47.71,
   "consolidatedRank": 31,
   "traction": {
-    "tractionRank": 35,
-    "tractionScore": 53,
-    "tractionReason": "100K+ HF downloads, 78% win rate"
+    "tractionRank": 22,
+    "tractionScore": 64,
+    "tractionReason": "100K+ monthly HF downloads of V1"
   },
   "paths": {
     "memo": "spring2026/memos/kugelaudio.md",

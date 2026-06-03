@@ -61,11 +61,11 @@
     "VK": 32
   },
   "consolidatedAvg": 41,
-  "consolidatedRank": 94,
+  "consolidatedRank": 95,
   "traction": {
-    "tractionRank": 27,
-    "tractionScore": 59,
-    "tractionReason": "1000+ DAU customer, 89% D30 retention"
+    "tractionRank": 44,
+    "tractionScore": 47,
+    "tractionReason": "1,000+ DAU at UpKeep deployment"
   },
   "paths": {
     "memo": "spring2026/memos/gigacatalyst.md",

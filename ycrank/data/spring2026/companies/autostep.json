@@ -55,11 +55,11 @@
     "VK": 28
   },
   "consolidatedAvg": 35,
-  "consolidatedRank": 170,
+  "consolidatedRank": 171,
   "traction": {
-    "tractionRank": 127,
-    "tractionScore": 25,
-    "tractionReason": "Marketing claim only, no customers"
+    "tractionRank": 101,
+    "tractionScore": 23,
+    "tractionReason": "\"$100K+ uncovered\" marketing claim"
   },
   "paths": {
     "memo": "spring2026/memos/autostep.md",

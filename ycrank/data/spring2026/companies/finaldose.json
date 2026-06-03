@@ -63,9 +63,9 @@
   "consolidatedAvg": 52.57,
   "consolidatedRank": 10,
   "traction": {
-    "tractionRank": 147,
-    "tractionScore": 22,
-    "tractionReason": "YC Launch, UK entity registered"
+    "tractionRank": 182,
+    "tractionScore": 8,
+    "tractionReason": "YC Launch post, pre-clinical"
   },
   "paths": {
     "memo": "spring2026/memos/finaldose.md",

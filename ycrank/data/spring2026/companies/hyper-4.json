@@ -60,11 +60,11 @@
     "VK": 25
   },
   "consolidatedAvg": 36.43,
-  "consolidatedRank": 145,
+  "consolidatedRank": 146,
   "traction": {
-    "tractionRank": 178,
-    "tractionScore": 16,
-    "tractionReason": "No public traction data"
+    "tractionRank": 188,
+    "tractionScore": 6,
+    "tractionReason": "No public data, not hiring"
   },
   "paths": {
     "memo": "spring2026/memos/hyper-4.md",

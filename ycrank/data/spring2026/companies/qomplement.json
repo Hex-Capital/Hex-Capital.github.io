@@ -62,10 +62,10 @@
     "VK": 37
   },
   "consolidatedAvg": 41.29,
-  "consolidatedRank": 90,
+  "consolidatedRank": 91,
   "traction": {
-    "tractionRank": 38,
-    "tractionScore": 51,
+    "tractionRank": 23,
+    "tractionScore": 63,
     "tractionReason": "10K docs/day across 20+ companies"
   },
   "paths": {

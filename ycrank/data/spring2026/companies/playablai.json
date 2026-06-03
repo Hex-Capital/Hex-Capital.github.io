@@ -60,10 +60,10 @@
     "VK": 33
   },
   "consolidatedAvg": 44.71,
-  "consolidatedRank": 54,
+  "consolidatedRank": 55,
   "traction": {
-    "tractionRank": 39,
-    "tractionScore": 51,
+    "tractionRank": 88,
+    "tractionScore": 27,
     "tractionReason": "40K users in first month of beta"
   },
   "paths": {

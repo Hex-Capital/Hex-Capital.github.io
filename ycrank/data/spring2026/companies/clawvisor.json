@@ -62,8 +62,8 @@
   "consolidatedAvg": 47.86,
   "consolidatedRank": 29,
   "traction": {
-    "tractionRank": 80,
-    "tractionScore": 35,
+    "tractionRank": 86,
+    "tractionScore": 28,
     "tractionReason": "202 GitHub stars, 14+ adapters"
   },
   "paths": {

@@ -58,11 +58,11 @@
     "VK": 27
   },
   "consolidatedAvg": 32.57,
-  "consolidatedRank": 182,
+  "consolidatedRank": 183,
   "traction": {
-    "tractionRank": 185,
-    "tractionScore": 15,
-    "tractionReason": "Active YC, no public data"
+    "tractionRank": 179,
+    "tractionScore": 8,
+    "tractionReason": "YC active, team 0"
   },
   "paths": {
     "memo": "spring2026/memos/wealor.md",

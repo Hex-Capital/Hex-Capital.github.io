@@ -62,10 +62,10 @@
     "VK": 30
   },
   "consolidatedAvg": 35.43,
-  "consolidatedRank": 165,
+  "consolidatedRank": 166,
   "traction": {
     "tractionRank": 163,
-    "tractionScore": 20,
+    "tractionScore": 11,
     "tractionReason": "Beta, 2 founding engineer roles"
   },
   "paths": {

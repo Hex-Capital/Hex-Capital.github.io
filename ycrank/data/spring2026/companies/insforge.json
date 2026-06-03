@@ -60,11 +60,11 @@
     "VK": 37
   },
   "consolidatedAvg": 44.86,
-  "consolidatedRank": 53,
+  "consolidatedRank": 54,
   "traction": {
-    "tractionRank": 17,
-    "tractionScore": 69,
-    "tractionReason": "10.7K stars, 2,000+ DBs hosted"
+    "tractionRank": 28,
+    "tractionScore": 58,
+    "tractionReason": "10.7k stars, 198 PH upvotes"
   },
   "paths": {
     "memo": "spring2026/memos/insforge.md",

@@ -62,11 +62,11 @@
     "VK": 28
   },
   "consolidatedAvg": 42,
-  "consolidatedRank": 81,
+  "consolidatedRank": 82,
   "traction": {
-    "tractionRank": 43,
-    "tractionScore": 49,
-    "tractionReason": "7M+ sessions, Lindy +30% conversion"
+    "tractionRank": 25,
+    "tractionScore": 61,
+    "tractionReason": "7.3M sessions, 3 named customers"
   },
   "paths": {
     "memo": "spring2026/memos/sherpa.md",

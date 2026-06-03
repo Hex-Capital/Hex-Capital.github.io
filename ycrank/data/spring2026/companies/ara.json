@@ -58,11 +58,11 @@
     "VK": 39
   },
   "consolidatedAvg": 39.71,
-  "consolidatedRank": 108,
+  "consolidatedRank": 109,
   "traction": {
-    "tractionRank": 126,
-    "tractionScore": 25,
-    "tractionReason": "4 PH launches, brand pivot"
+    "tractionRank": 129,
+    "tractionScore": 17,
+    "tractionReason": "4th PH launch as \"openclaw replacement\""
   },
   "paths": {
     "memo": "spring2026/memos/ara.md",

@@ -61,11 +61,11 @@
     "VK": 41
   },
   "consolidatedAvg": 42.43,
-  "consolidatedRank": 77,
+  "consolidatedRank": 78,
   "traction": {
-    "tractionRank": 49,
-    "tractionScore": 46,
-    "tractionReason": "PH #3 Day, retainer+15% model"
+    "tractionRank": 79,
+    "tractionScore": 30,
+    "tractionReason": "224 PH upvotes, #3 Day Rank"
   },
   "paths": {
     "memo": "spring2026/memos/tryprism.md",

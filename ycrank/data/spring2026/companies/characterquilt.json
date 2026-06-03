@@ -62,10 +62,10 @@
     "VK": 27
   },
   "consolidatedAvg": 40.14,
-  "consolidatedRank": 101,
+  "consolidatedRank": 102,
   "traction": {
-    "tractionRank": 29,
-    "tractionScore": 57,
+    "tractionRank": 19,
+    "tractionScore": 67,
     "tractionReason": "21+ named customer logos"
   },
   "paths": {

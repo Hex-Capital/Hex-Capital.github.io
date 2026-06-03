@@ -59,11 +59,11 @@
     "VK": 28
   },
   "consolidatedAvg": 35.43,
-  "consolidatedRank": 164,
+  "consolidatedRank": 165,
   "traction": {
-    "tractionRank": 170,
-    "tractionScore": 18,
-    "tractionReason": "No public traction data"
+    "tractionRank": 173,
+    "tractionScore": 10,
+    "tractionReason": "No public data, YC active"
   },
   "paths": {
     "memo": "spring2026/memos/incandor.md",

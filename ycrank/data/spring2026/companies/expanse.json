@@ -63,9 +63,9 @@
   "consolidatedAvg": 47,
   "consolidatedRank": 33,
   "traction": {
-    "tractionRank": 141,
-    "tractionScore": 23,
-    "tractionReason": "Sample 32-GPU case"
+    "tractionRank": 147,
+    "tractionScore": 13,
+    "tractionReason": "32-GPU example case, YC backing"
   },
   "paths": {
     "memo": "spring2026/memos/expanse.md",

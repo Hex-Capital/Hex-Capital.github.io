@@ -60,11 +60,11 @@
     "VK": 31
   },
   "consolidatedAvg": 38.43,
-  "consolidatedRank": 128,
+  "consolidatedRank": 129,
   "traction": {
-    "tractionRank": 172,
-    "tractionScore": 18,
-    "tractionReason": "Solo team, demo-gated"
+    "tractionRank": 176,
+    "tractionScore": 9,
+    "tractionReason": "Team 1, demo-gated"
   },
   "paths": {
     "memo": "spring2026/memos/scope.md",

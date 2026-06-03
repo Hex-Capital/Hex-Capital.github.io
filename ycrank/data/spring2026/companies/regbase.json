@@ -61,11 +61,11 @@
     "VK": 27
   },
   "consolidatedAvg": 42.86,
-  "consolidatedRank": 72,
+  "consolidatedRank": 73,
   "traction": {
-    "tractionRank": 154,
-    "tractionScore": 22,
-    "tractionReason": "Vague Fortune 500 claim"
+    "tractionRank": 144,
+    "tractionScore": 14,
+    "tractionReason": "\"F500\" claim, no named logos"
   },
   "paths": {
     "memo": "spring2026/memos/regbase.md",

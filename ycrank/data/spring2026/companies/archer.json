@@ -60,10 +60,10 @@
     "VK": 31
   },
   "consolidatedAvg": 37,
-  "consolidatedRank": 140,
+  "consolidatedRank": 141,
   "traction": {
-    "tractionRank": 132,
-    "tractionScore": 25,
+    "tractionRank": 118,
+    "tractionScore": 19,
     "tractionReason": "Investors listed, demo payouts only"
   },
   "paths": {

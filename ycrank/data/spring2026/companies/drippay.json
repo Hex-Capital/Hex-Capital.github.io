@@ -61,11 +61,11 @@
     "VK": 23
   },
   "consolidatedAvg": 32.86,
-  "consolidatedRank": 179,
+  "consolidatedRank": 180,
   "traction": {
-    "tractionRank": 134,
-    "tractionScore": 24,
-    "tractionReason": "Team of 2, PH profile only"
+    "tractionRank": 152,
+    "tractionScore": 12,
+    "tractionReason": "Team of 2, PH profile exists"
   },
   "paths": {
     "memo": "spring2026/memos/drippay.md",

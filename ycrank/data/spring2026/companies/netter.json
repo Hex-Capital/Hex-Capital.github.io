@@ -61,11 +61,11 @@
     "VK": 30
   },
   "consolidatedAvg": 35.14,
-  "consolidatedRank": 168,
+  "consolidatedRank": 169,
   "traction": {
-    "tractionRank": 59,
-    "tractionScore": 41,
-    "tractionReason": "Carrefour/Tesco/Auchan logos"
+    "tractionRank": 40,
+    "tractionScore": 49,
+    "tractionReason": "Carrefour/Tesco/Auchan customer logos"
   },
   "paths": {
     "memo": "spring2026/memos/netter.md",

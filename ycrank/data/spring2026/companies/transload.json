@@ -60,11 +60,11 @@
     "VK": 31
   },
   "consolidatedAvg": 39.29,
-  "consolidatedRank": 113,
+  "consolidatedRank": 114,
   "traction": {
-    "tractionRank": 159,
-    "tractionScore": 21,
-    "tractionReason": "1 customer outcome claim"
+    "tractionRank": 157,
+    "tractionScore": 12,
+    "tractionReason": "Customer claim only, site not rendering"
   },
   "paths": {
     "memo": "spring2026/memos/transload.md",

@@ -62,9 +62,9 @@
   "consolidatedAvg": 48.14,
   "consolidatedRank": 27,
   "traction": {
-    "tractionRank": 78,
-    "tractionScore": 36,
-    "tractionReason": "Dunkin Donuts customer named"
+    "tractionRank": 54,
+    "tractionScore": 42,
+    "tractionReason": "Dunkin Donuts named customer"
   },
   "paths": {
     "memo": "spring2026/memos/callab-ai.md",

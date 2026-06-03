@@ -55,11 +55,11 @@
     "VK": 36
   },
   "consolidatedAvg": 38.86,
-  "consolidatedRank": 121,
+  "consolidatedRank": 122,
   "traction": {
-    "tractionRank": 117,
-    "tractionScore": 27,
-    "tractionReason": "YC P26 launch, X promo"
+    "tractionRank": 116,
+    "tractionScore": 19,
+    "tractionReason": "YC P26 acceptance, active hiring"
   },
   "paths": {
     "memo": "spring2026/memos/mount.md",

@@ -60,11 +60,11 @@
     "VK": 41
   },
   "consolidatedAvg": 41.71,
-  "consolidatedRank": 84,
+  "consolidatedRank": 85,
   "traction": {
-    "tractionRank": 166,
-    "tractionScore": 19,
-    "tractionReason": "No public traction data"
+    "tractionRank": 184,
+    "tractionScore": 7,
+    "tractionReason": "0 data, launched 2025"
   },
   "paths": {
     "memo": "spring2026/memos/advanced-metal-research.md",

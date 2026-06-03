@@ -59,11 +59,11 @@
     "VK": 38
   },
   "consolidatedAvg": 45.14,
-  "consolidatedRank": 50,
+  "consolidatedRank": 51,
   "traction": {
-    "tractionRank": 174,
-    "tractionScore": 18,
-    "tractionReason": "No public data"
+    "tractionRank": 189,
+    "tractionScore": 6,
+    "tractionReason": "No public data found"
   },
   "paths": {
     "memo": "spring2026/memos/perfectbit.md",

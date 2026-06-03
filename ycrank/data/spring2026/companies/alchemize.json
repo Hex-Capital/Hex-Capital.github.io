@@ -60,11 +60,11 @@
     "VK": 27
   },
   "consolidatedAvg": 30.57,
-  "consolidatedRank": 191,
+  "consolidatedRank": 192,
   "traction": {
-    "tractionRank": 167,
-    "tractionScore": 19,
-    "tractionReason": "No public traction data"
+    "tractionRank": 169,
+    "tractionScore": 10,
+    "tractionReason": "LinkedIn page only"
   },
   "paths": {
     "memo": "spring2026/memos/alchemize.md",

@@ -61,11 +61,11 @@
     "VK": 60
   },
   "consolidatedAvg": 44.29,
-  "consolidatedRank": 61,
+  "consolidatedRank": 62,
   "traction": {
-    "tractionRank": 146,
-    "tractionScore": 23,
-    "tractionReason": "Pricing live, 1 job posting"
+    "tractionRank": 92,
+    "tractionScore": 26,
+    "tractionReason": "$10/hr pricing live, 1 job posting"
   },
   "paths": {
     "memo": "spring2026/memos/eden-robotics.md",

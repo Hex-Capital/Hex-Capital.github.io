@@ -61,9 +61,9 @@
   "consolidatedAvg": 45.29,
   "consolidatedRank": 48,
   "traction": {
-    "tractionRank": 128,
-    "tractionScore": 25,
-    "tractionReason": "Comma + Allen Gannett backers"
+    "tractionRank": 170,
+    "tractionScore": 10,
+    "tractionReason": "YC backing, 1 job posting"
   },
   "paths": {
     "memo": "spring2026/memos/intelligence-factory.md",

@@ -59,11 +59,11 @@
     "VK": 26
   },
   "consolidatedAvg": 40,
-  "consolidatedRank": 107,
+  "consolidatedRank": 108,
   "traction": {
-    "tractionRank": 86,
-    "tractionScore": 34,
-    "tractionReason": "$500K USDC, parlay live May 2026"
+    "tractionRank": 94,
+    "tractionScore": 25,
+    "tractionReason": "$500K USDC raise, parlay launched"
   },
   "paths": {
     "memo": "spring2026/memos/totalis.md",

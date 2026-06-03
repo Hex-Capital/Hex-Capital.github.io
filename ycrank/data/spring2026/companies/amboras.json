@@ -60,11 +60,11 @@
     "VK": 34
   },
   "consolidatedAvg": 40.43,
-  "consolidatedRank": 98,
+  "consolidatedRank": 99,
   "traction": {
-    "tractionRank": 89,
-    "tractionScore": 33,
-    "tractionReason": "+80% CVR beta merchants, 5 stores"
+    "tractionRank": 111,
+    "tractionScore": 21,
+    "tractionReason": "$500K raised, +80% CVR beta claim"
   },
   "paths": {
     "memo": "spring2026/memos/amboras.md",

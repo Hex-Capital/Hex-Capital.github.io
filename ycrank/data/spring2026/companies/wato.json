@@ -59,11 +59,11 @@
     "VK": 29
   },
   "consolidatedAvg": 32.29,
-  "consolidatedRank": 185,
+  "consolidatedRank": 186,
   "traction": {
-    "tractionRank": 161,
-    "tractionScore": 20,
-    "tractionReason": "Private beta open"
+    "tractionRank": 154,
+    "tractionScore": 12,
+    "tractionReason": "Private beta open, 0 jobs"
   },
   "paths": {
     "memo": "spring2026/memos/wato.md",

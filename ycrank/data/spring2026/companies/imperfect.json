@@ -61,11 +61,11 @@
     "VK": 35
   },
   "consolidatedAvg": 42.43,
-  "consolidatedRank": 75,
+  "consolidatedRank": 76,
   "traction": {
-    "tractionRank": 120,
-    "tractionScore": 26,
-    "tractionReason": "3 beta athletes, founder 813 stars"
+    "tractionRank": 139,
+    "tractionScore": 15,
+    "tractionReason": "Beta athletes named, founder 813 stars"
   },
   "paths": {
     "memo": "spring2026/memos/imperfect.md",

@@ -62,11 +62,11 @@
     "VK": 38
   },
   "consolidatedAvg": 35.43,
-  "consolidatedRank": 166,
+  "consolidatedRank": 167,
   "traction": {
-    "tractionRank": 148,
-    "tractionScore": 22,
-    "tractionReason": "$704K Tracxn, IIM accelerator"
+    "tractionRank": 138,
+    "tractionScore": 16,
+    "tractionReason": "$704K raised, IIT/IIM awards"
   },
   "paths": {
     "memo": "spring2026/memos/projectx.md",

@@ -61,11 +61,11 @@
     "VK": 51
   },
   "consolidatedAvg": 42.43,
-  "consolidatedRank": 76,
+  "consolidatedRank": 77,
   "traction": {
-    "tractionRank": 50,
-    "tractionScore": 45,
-    "tractionReason": "Paid pilots, 300+ picks/hour"
+    "tractionRank": 61,
+    "tractionScore": 39,
+    "tractionReason": "300+ picks/hr in paid pilots"
   },
   "paths": {
     "memo": "spring2026/memos/inloop-robotics.md",

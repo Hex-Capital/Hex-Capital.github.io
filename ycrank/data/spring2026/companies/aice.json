@@ -61,11 +61,11 @@
     "VK": 49
   },
   "consolidatedAvg": 35.86,
-  "consolidatedRank": 155,
+  "consolidatedRank": 156,
   "traction": {
-    "tractionRank": 180,
-    "tractionScore": 16,
-    "tractionReason": "Pivoted, no current data"
+    "tractionRank": 153,
+    "tractionScore": 12,
+    "tractionReason": "Pivot 2 weeks before research, no traction"
   },
   "paths": {
     "memo": "spring2026/memos/aice.md",

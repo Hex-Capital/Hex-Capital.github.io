@@ -61,11 +61,11 @@
     "VK": 34
   },
   "consolidatedAvg": 39.14,
-  "consolidatedRank": 115,
+  "consolidatedRank": 116,
   "traction": {
-    "tractionRank": 68,
-    "tractionScore": 38,
-    "tractionReason": "Fazeshift customer + live telemetry"
+    "tractionRank": 55,
+    "tractionScore": 41,
+    "tractionReason": "Fazeshift customer, 15 runs/24h live"
   },
   "paths": {
     "memo": "spring2026/memos/hessian.md",

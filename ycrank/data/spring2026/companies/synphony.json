@@ -61,11 +61,11 @@
     "VK": 42
   },
   "consolidatedAvg": 41.43,
-  "consolidatedRank": 88,
+  "consolidatedRank": 89,
   "traction": {
-    "tractionRank": 157,
-    "tractionScore": 21,
-    "tractionReason": "Partner logos (NVIDIA, OpenAI)"
+    "tractionRank": 174,
+    "tractionScore": 10,
+    "tractionReason": "Team 10, partner logos only"
   },
   "paths": {
     "memo": "spring2026/memos/synphony.md",

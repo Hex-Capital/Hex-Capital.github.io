@@ -61,10 +61,10 @@
     "VK": 28
   },
   "consolidatedAvg": 37.14,
-  "consolidatedRank": 136,
+  "consolidatedRank": 137,
   "traction": {
-    "tractionRank": 155,
-    "tractionScore": 21,
+    "tractionRank": 165,
+    "tractionScore": 10,
     "tractionReason": "YC launch tweet only"
   },
   "paths": {

@@ -60,11 +60,11 @@
     "VK": 31
   },
   "consolidatedAvg": 38.57,
-  "consolidatedRank": 127,
+  "consolidatedRank": 128,
   "traction": {
-    "tractionRank": 51,
-    "tractionScore": 45,
-    "tractionReason": "6 groups, \"year's cost back in 2 weeks\""
+    "tractionRank": 31,
+    "tractionScore": 55,
+    "tractionReason": "6 named restaurant groups (ESS/O'Learys)"
   },
   "paths": {
     "memo": "spring2026/memos/elyra.md",

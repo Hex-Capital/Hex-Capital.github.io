@@ -62,11 +62,11 @@
     "VK": 31
   },
   "consolidatedAvg": 43.14,
-  "consolidatedRank": 69,
+  "consolidatedRank": 70,
   "traction": {
-    "tractionRank": 115,
-    "tractionScore": 27,
-    "tractionReason": "Show HN 73 points, customer PR claim"
+    "tractionRank": 103,
+    "tractionScore": 22,
+    "tractionReason": "73 HN points, \"80-90% PR accept rate\""
   },
   "paths": {
     "memo": "spring2026/memos/superlog.md",

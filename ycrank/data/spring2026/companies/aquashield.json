@@ -59,11 +59,11 @@
     "VK": 36
   },
   "consolidatedAvg": 40.14,
-  "consolidatedRank": 100,
+  "consolidatedRank": 101,
   "traction": {
-    "tractionRank": 83,
-    "tractionScore": 34,
-    "tractionReason": "MIT Facilities + German RE pilots"
+    "tractionRank": 100,
+    "tractionScore": 24,
+    "tractionReason": "MIT Facilities + German real-estate pilot"
   },
   "paths": {
     "memo": "spring2026/memos/aquashield.md",

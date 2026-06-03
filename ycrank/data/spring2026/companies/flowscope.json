@@ -60,11 +60,11 @@
     "VK": 34
   },
   "consolidatedAvg": 32.43,
-  "consolidatedRank": 183,
+  "consolidatedRank": 184,
   "traction": {
-    "tractionRank": 175,
-    "tractionScore": 17,
-    "tractionReason": "No public traction data"
+    "tractionRank": 168,
+    "tractionScore": 10,
+    "tractionReason": "No public data found"
   },
   "paths": {
     "memo": "spring2026/memos/flowscope.md",

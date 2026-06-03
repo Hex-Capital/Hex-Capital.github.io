@@ -62,10 +62,10 @@
     "VK": 32
   },
   "consolidatedAvg": 39,
-  "consolidatedRank": 120,
+  "consolidatedRank": 121,
   "traction": {
-    "tractionRank": 152,
-    "tractionScore": 22,
+    "tractionRank": 160,
+    "tractionScore": 11,
     "tractionReason": "\"12x faster\" internal claim only"
   },
   "paths": {

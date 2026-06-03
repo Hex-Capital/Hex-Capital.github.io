@@ -62,11 +62,11 @@
     "VK": 29
   },
   "consolidatedAvg": 35.86,
-  "consolidatedRank": 156,
+  "consolidatedRank": 157,
   "traction": {
-    "tractionRank": 69,
-    "tractionScore": 38,
-    "tractionReason": "$400K/$800K customer savings testimonials"
+    "tractionRank": 41,
+    "tractionScore": 48,
+    "tractionReason": "$400K saved on $1.2M order, 2,000T/mo"
   },
   "paths": {
     "memo": "spring2026/memos/andustry.md",

@@ -60,11 +60,11 @@
     "VK": 21
   },
   "consolidatedAvg": 40.71,
-  "consolidatedRank": 96,
+  "consolidatedRank": 97,
   "traction": {
-    "tractionRank": 46,
-    "tractionScore": 47,
-    "tractionReason": "\"Several K MRR\", 700K markets indexed"
+    "tractionRank": 42,
+    "tractionScore": 48,
+    "tractionReason": "Several thousand $ MRR from prosumer"
   },
   "paths": {
     "memo": "spring2026/memos/oddpool.md",

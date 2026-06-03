@@ -58,11 +58,11 @@
     "VK": 30
   },
   "consolidatedAvg": 40.14,
-  "consolidatedRank": 104,
+  "consolidatedRank": 105,
   "traction": {
     "tractionRank": 4,
-    "tractionScore": 91,
-    "tractionReason": "Seven-figure committed ARR, 17x growth"
+    "tractionScore": 85,
+    "tractionReason": "Seven-figure committed ARR, 17x in 10 months"
   },
   "paths": {
     "memo": "spring2026/memos/plena-health.md",

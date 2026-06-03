@@ -62,11 +62,11 @@
     "VK": 27
   },
   "consolidatedAvg": 32.14,
-  "consolidatedRank": 186,
+  "consolidatedRank": 187,
   "traction": {
-    "tractionRank": 32,
-    "tractionScore": 55,
-    "tractionReason": "179 PH upvotes, 10 named logos"
+    "tractionRank": 47,
+    "tractionScore": 45,
+    "tractionReason": "10 customer logos, 179 PH upvotes"
   },
   "paths": {
     "memo": "spring2026/memos/chert.md",

@@ -62,11 +62,11 @@
     "VK": 40
   },
   "consolidatedAvg": 41.14,
-  "consolidatedRank": 91,
+  "consolidatedRank": 92,
   "traction": {
-    "tractionRank": 140,
-    "tractionScore": 24,
-    "tractionReason": "Adobe + SI partnerships"
+    "tractionRank": 56,
+    "tractionScore": 41,
+    "tractionReason": "Adobe customer + system integrators"
   },
   "paths": {
     "memo": "spring2026/memos/lab0.md",

@@ -55,11 +55,11 @@
     "VK": 41
   },
   "consolidatedAvg": 44.29,
-  "consolidatedRank": 60,
+  "consolidatedRank": 61,
   "traction": {
-    "tractionRank": 160,
-    "tractionScore": 20,
-    "tractionReason": "Model claims, named backers"
+    "tractionRank": 143,
+    "tractionScore": 14,
+    "tractionReason": "YC + Afore + Heroic investors only"
   },
   "paths": {
     "memo": "spring2026/memos/biostack-platforms.md",

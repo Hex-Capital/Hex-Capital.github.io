@@ -62,11 +62,11 @@
     "VK": 50
   },
   "consolidatedAvg": 44,
-  "consolidatedRank": 64,
+  "consolidatedRank": 65,
   "traction": {
-    "tractionRank": 171,
-    "tractionScore": 18,
-    "tractionReason": "Claim only, no metrics"
+    "tractionRank": 185,
+    "tractionScore": 7,
+    "tractionReason": "No public data, claim only"
   },
   "paths": {
     "memo": "spring2026/memos/maquoketa-research.md",

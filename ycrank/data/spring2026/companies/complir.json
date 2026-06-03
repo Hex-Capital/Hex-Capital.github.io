@@ -62,9 +62,9 @@
   "consolidatedAvg": 45.86,
   "consolidatedRank": 42,
   "traction": {
-    "tractionRank": 25,
-    "tractionScore": 61,
-    "tractionReason": "?1.7M raise, 109K products, 45% MoM"
+    "tractionRank": 16,
+    "tractionScore": 70,
+    "tractionReason": "109K products, 45% MoM, Tesco/COOP"
   },
   "paths": {
     "memo": "spring2026/memos/complir.md",

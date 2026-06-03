@@ -59,11 +59,11 @@
     "VK": 28
   },
   "consolidatedAvg": 40.86,
-  "consolidatedRank": 95,
+  "consolidatedRank": 96,
   "traction": {
-    "tractionRank": 61,
-    "tractionScore": 40,
-    "tractionReason": "204 stars, Show HN, paid trial"
+    "tractionRank": 91,
+    "tractionScore": 26,
+    "tractionReason": "204 GitHub stars, Show HN launch"
   },
   "paths": {
     "memo": "spring2026/memos/stage.md",

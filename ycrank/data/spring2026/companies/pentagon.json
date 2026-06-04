@@ -60,11 +60,11 @@
     "VK": 37
   },
   "consolidatedAvg": 38.71,
-  "consolidatedRank": 124,
+  "consolidatedRank": 125,
   "traction": {
-    "tractionRank": 76,
-    "tractionScore": 32,
-    "tractionReason": "8,500+ persistent agents (self-reported)"
+    "tractionRank": 82,
+    "tractionScore": 29,
+    "tractionReason": "8,500+ persistent agents self-reported"
   },
   "paths": {
     "memo": "spring2026/memos/pentagon.md",

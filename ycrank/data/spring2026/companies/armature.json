@@ -59,11 +59,11 @@
     "VK": 29
   },
   "consolidatedAvg": 38.14,
-  "consolidatedRank": 132,
+  "consolidatedRank": 133,
   "traction": {
-    "tractionRank": 119,
-    "tractionScore": 19,
-    "tractionReason": "Pricing live $79-$159/mo, no customers"
+    "tractionRank": 173,
+    "tractionScore": 14,
+    "tractionReason": "$79/mo pricing live, no customers"
   },
   "paths": {
     "memo": "spring2026/memos/armature.md",

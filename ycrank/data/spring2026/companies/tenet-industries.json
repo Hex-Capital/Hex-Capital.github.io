@@ -61,9 +61,9 @@
   "consolidatedAvg": 42.57,
   "consolidatedRank": 75,
   "traction": {
-    "tractionRank": 123,
-    "tractionScore": 18,
-    "tractionReason": "YC discussions w/ Sweden/Ukraine"
+    "tractionRank": 105,
+    "tractionScore": 23,
+    "tractionReason": "Customer discussions Swedish defense, Ukrainian"
   },
   "paths": {
     "memo": "spring2026/memos/tenet-industries.md",

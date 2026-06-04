@@ -62,11 +62,11 @@
     "VK": 40
   },
   "consolidatedAvg": 38.29,
-  "consolidatedRank": 131,
+  "consolidatedRank": 132,
   "traction": {
-    "tractionRank": 49,
-    "tractionScore": 44,
-    "tractionReason": "\"80%+ automation\" multiple customer quotes"
+    "tractionRank": 26,
+    "tractionScore": 58,
+    "tractionReason": "80%+ automation, multiple named customer testimonials"
   },
   "paths": {
     "memo": "spring2026/memos/modern.md",

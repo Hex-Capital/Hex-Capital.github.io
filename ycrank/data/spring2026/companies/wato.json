@@ -59,11 +59,11 @@
     "VK": 29
   },
   "consolidatedAvg": 32.29,
-  "consolidatedRank": 186,
+  "consolidatedRank": 187,
   "traction": {
-    "tractionRank": 154,
-    "tractionScore": 12,
-    "tractionReason": "Private beta open, 0 jobs"
+    "tractionRank": 159,
+    "tractionScore": 15,
+    "tractionReason": "Private beta, Cloud Agents launched"
   },
   "paths": {
     "memo": "spring2026/memos/wato.md",

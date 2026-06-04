@@ -61,10 +61,10 @@
     "VK": 30
   },
   "consolidatedAvg": 38.71,
-  "consolidatedRank": 127,
+  "consolidatedRank": 128,
   "traction": {
-    "tractionRank": 11,
-    "tractionScore": 75,
+    "tractionRank": 7,
+    "tractionScore": 78,
     "tractionReason": "$660K self-reported revenue 2025"
   },
   "paths": {

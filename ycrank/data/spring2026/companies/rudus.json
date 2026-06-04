@@ -61,11 +61,11 @@
     "VK": 29
   },
   "consolidatedAvg": 33.29,
-  "consolidatedRank": 178,
+  "consolidatedRank": 179,
   "traction": {
-    "tractionRank": 131,
+    "tractionRank": 144,
     "tractionScore": 17,
-    "tractionReason": "Landing claims, no named customers"
+    "tractionReason": "Landing-page metrics, no named customers"
   },
   "paths": {
     "memo": "spring2026/memos/rudus.md",

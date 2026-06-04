@@ -63,9 +63,9 @@
   "consolidatedAvg": 31.29,
   "consolidatedRank": 191,
   "traction": {
-    "tractionRank": 145,
-    "tractionScore": 14,
-    "tractionReason": "YC Launch, sample event metrics"
+    "tractionRank": 137,
+    "tractionScore": 18,
+    "tractionReason": "Sample event metrics on homepage"
   },
   "paths": {
     "memo": "spring2026/memos/pavoot.md",

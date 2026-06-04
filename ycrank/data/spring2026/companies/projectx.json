@@ -62,11 +62,11 @@
     "VK": 38
   },
   "consolidatedAvg": 35.43,
-  "consolidatedRank": 167,
+  "consolidatedRank": 168,
   "traction": {
-    "tractionRank": 138,
-    "tractionScore": 16,
-    "tractionReason": "$704K raised, IIT/IIM awards"
+    "tractionRank": 112,
+    "tractionScore": 22,
+    "tractionReason": "$704K raised, awards, no users"
   },
   "paths": {
     "memo": "spring2026/memos/projectx.md",

@@ -60,9 +60,9 @@
   "consolidatedAvg": 39.71,
   "consolidatedRank": 109,
   "traction": {
-    "tractionRank": 129,
-    "tractionScore": 17,
-    "tractionReason": "4th PH launch as \"openclaw replacement\""
+    "tractionRank": 176,
+    "tractionScore": 13,
+    "tractionReason": "4th Product Hunt launch, pivot"
   },
   "paths": {
     "memo": "spring2026/memos/ara.md",

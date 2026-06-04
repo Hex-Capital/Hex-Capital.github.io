@@ -60,9 +60,9 @@
   "consolidatedAvg": 43.43,
   "consolidatedRank": 69,
   "traction": {
-    "tractionRank": 148,
-    "tractionScore": 13,
-    "tractionReason": "Stealth-exit press, waitlist"
+    "tractionRank": 103,
+    "tractionScore": 24,
+    "tractionReason": "Waitlist plus pilot, SiliconANGLE coverage"
   },
   "paths": {
     "memo": "spring2026/memos/sazabi.md",

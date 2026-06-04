@@ -64,9 +64,9 @@
   "consolidatedAvg": 42,
   "consolidatedRank": 82,
   "traction": {
-    "tractionRank": 25,
-    "tractionScore": 61,
-    "tractionReason": "7.3M sessions, 3 named customers"
+    "tractionRank": 28,
+    "tractionScore": 57,
+    "tractionReason": "7.3M sessions analyzed, 3 named customers"
   },
   "paths": {
     "memo": "spring2026/memos/sherpa.md",

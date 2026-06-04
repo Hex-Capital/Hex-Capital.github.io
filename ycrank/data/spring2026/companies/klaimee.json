@@ -64,9 +64,9 @@
   "consolidatedAvg": 46.29,
   "consolidatedRank": 38,
   "traction": {
-    "tractionRank": 162,
-    "tractionScore": 11,
-    "tractionReason": "First Algerian female founder, 0 jobs"
+    "tractionRank": 149,
+    "tractionScore": 17,
+    "tractionReason": "YC P26 batch, no customers"
   },
   "paths": {
     "memo": "spring2026/memos/klaimee.md",

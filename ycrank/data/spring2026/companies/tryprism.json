@@ -63,9 +63,9 @@
   "consolidatedAvg": 42.43,
   "consolidatedRank": 78,
   "traction": {
-    "tractionRank": 79,
-    "tractionScore": 30,
-    "tractionReason": "224 PH upvotes, #3 Day Rank"
+    "tractionRank": 73,
+    "tractionScore": 33,
+    "tractionReason": "224 Product Hunt upvotes, #3 day rank"
   },
   "paths": {
     "memo": "spring2026/memos/tryprism.md",

@@ -64,9 +64,9 @@
   "consolidatedAvg": 44,
   "consolidatedRank": 65,
   "traction": {
-    "tractionRank": 185,
-    "tractionScore": 7,
-    "tractionReason": "No public data, claim only"
+    "tractionRank": 109,
+    "tractionScore": 23,
+    "tractionReason": "Company claim only, no customers"
   },
   "paths": {
     "memo": "spring2026/memos/maquoketa-research.md",

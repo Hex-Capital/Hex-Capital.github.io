@@ -60,11 +60,11 @@
     "VK": 27
   },
   "consolidatedAvg": 35.57,
-  "consolidatedRank": 162,
+  "consolidatedRank": 163,
   "traction": {
-    "tractionRank": 158,
-    "tractionScore": 12,
-    "tractionReason": "Live site, no metrics disclosed"
+    "tractionRank": 145,
+    "tractionScore": 17,
+    "tractionReason": "YC announcement only, no customers"
   },
   "paths": {
     "memo": "spring2026/memos/salesgraph.md",

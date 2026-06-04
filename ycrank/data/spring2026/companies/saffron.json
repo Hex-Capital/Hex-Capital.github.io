@@ -60,11 +60,11 @@
     "VK": 31
   },
   "consolidatedAvg": 38.14,
-  "consolidatedRank": 133,
+  "consolidatedRank": 134,
   "traction": {
-    "tractionRank": 107,
-    "tractionScore": 21,
-    "tractionReason": "Pricing live $199-$499/mo, no customers"
+    "tractionRank": 129,
+    "tractionScore": 19,
+    "tractionReason": "YC and Afore Capital backing"
   },
   "paths": {
     "memo": "spring2026/memos/saffron.md",

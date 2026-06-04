@@ -59,11 +59,11 @@
     "VK": 35
   },
   "consolidatedAvg": 32.71,
-  "consolidatedRank": 181,
+  "consolidatedRank": 182,
   "traction": {
-    "tractionRank": 159,
-    "tractionScore": 11,
-    "tractionReason": "LinkedIn page only, no named logos"
+    "tractionRank": 134,
+    "tractionScore": 18,
+    "tractionReason": "\"Trusted by industry leaders\" unnamed"
   },
   "paths": {
     "memo": "spring2026/memos/cignara.md",

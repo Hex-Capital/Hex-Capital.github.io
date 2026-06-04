@@ -60,11 +60,11 @@
     "VK": 31
   },
   "consolidatedAvg": 33.86,
-  "consolidatedRank": 176,
+  "consolidatedRank": 177,
   "traction": {
-    "tractionRank": 141,
-    "tractionScore": 14,
-    "tractionReason": "YC backing, mockup dashboards only"
+    "tractionRank": 147,
+    "tractionScore": 17,
+    "tractionReason": "YC launch, sample dashboard mockup"
   },
   "paths": {
     "memo": "spring2026/memos/korso.md",

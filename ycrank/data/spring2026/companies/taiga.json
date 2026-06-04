@@ -58,11 +58,11 @@
     "VK": 29
   },
   "consolidatedAvg": 38.71,
-  "consolidatedRank": 125,
+  "consolidatedRank": 126,
   "traction": {
-    "tractionRank": 71,
-    "tractionScore": 34,
-    "tractionReason": "1 named customer (Cheskis), 98% touchless"
+    "tractionRank": 49,
+    "tractionScore": 44,
+    "tractionReason": "1 named customer, 10 EHR integrations"
   },
   "paths": {
     "memo": "spring2026/memos/taiga.md",

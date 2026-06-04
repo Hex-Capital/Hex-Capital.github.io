@@ -63,9 +63,9 @@
   "consolidatedAvg": 39.14,
   "consolidatedRank": 115,
   "traction": {
-    "tractionRank": 7,
-    "tractionScore": 80,
-    "tractionReason": "$500K+ revenue, named SGF Global customer"
+    "tractionRank": 8,
+    "tractionScore": 77,
+    "tractionReason": "$500K+ revenue stated on YC page"
   },
   "paths": {
     "memo": "spring2026/memos/asendia-ai.md",

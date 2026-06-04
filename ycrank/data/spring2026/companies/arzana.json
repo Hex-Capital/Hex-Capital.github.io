@@ -62,11 +62,11 @@
     "VK": 35
   },
   "consolidatedAvg": 39,
-  "consolidatedRank": 118,
+  "consolidatedRank": 119,
   "traction": {
-    "tractionRank": 18,
-    "tractionScore": 68,
-    "tractionReason": "8 named customers (Zeiss/Tecton), NYT"
+    "tractionRank": 23,
+    "tractionScore": 60,
+    "tractionReason": "NYT feature, 8 named manufacturing customers"
   },
   "paths": {
     "memo": "spring2026/memos/arzana.md",

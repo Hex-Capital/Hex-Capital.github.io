@@ -62,8 +62,8 @@
   "consolidatedAvg": 43.86,
   "consolidatedRank": 66,
   "traction": {
-    "tractionRank": 130,
-    "tractionScore": 17,
+    "tractionRank": 123,
+    "tractionScore": 20,
     "tractionReason": "iPhone app in early public beta"
   },
   "paths": {

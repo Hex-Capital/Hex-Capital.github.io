@@ -63,9 +63,9 @@
   "consolidatedAvg": 41.43,
   "consolidatedRank": 89,
   "traction": {
-    "tractionRank": 174,
-    "tractionScore": 10,
-    "tractionReason": "Team 10, partner logos only"
+    "tractionRank": 157,
+    "tractionScore": 16,
+    "tractionReason": "15+ hackathon wins, partner logos"
   },
   "paths": {
     "memo": "spring2026/memos/synphony.md",

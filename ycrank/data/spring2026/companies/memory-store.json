@@ -62,9 +62,9 @@
   "consolidatedAvg": 45,
   "consolidatedRank": 52,
   "traction": {
-    "tractionRank": 109,
-    "tractionScore": 21,
-    "tractionReason": "$150/seat tier, prior Julep 6.6k stars"
+    "tractionRank": 104,
+    "tractionScore": 24,
+    "tractionReason": "Prior Julep repo 6.6K stars"
   },
   "paths": {
     "memo": "spring2026/memos/memory-store.md",

@@ -61,11 +61,11 @@
     "VK": 33
   },
   "consolidatedAvg": 35.71,
-  "consolidatedRank": 160,
+  "consolidatedRank": 161,
   "traction": {
     "tractionRank": 128,
-    "tractionScore": 17,
-    "tractionReason": "YC W24 launch, prior PitchBook profile"
+    "tractionScore": 19,
+    "tractionReason": "Prior W24 product, current Spring 2026 launch"
   },
   "paths": {
     "memo": "spring2026/memos/jo.md",

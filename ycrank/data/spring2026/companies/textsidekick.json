@@ -60,11 +60,11 @@
     "VK": 28
   },
   "consolidatedAvg": 37.14,
-  "consolidatedRank": 140,
+  "consolidatedRank": 141,
   "traction": {
-    "tractionRank": 69,
-    "tractionScore": 35,
-    "tractionReason": "6 named customer logos on homepage"
+    "tractionRank": 62,
+    "tractionScore": 37,
+    "tractionReason": "6 named manufacturing customer logos"
   },
   "paths": {
     "memo": "spring2026/memos/textsidekick.md",

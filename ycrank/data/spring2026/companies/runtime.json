@@ -61,9 +61,9 @@
   "consolidatedAvg": 49.86,
   "consolidatedRank": 20,
   "traction": {
-    "tractionRank": 74,
-    "tractionScore": 33,
-    "tractionReason": "40+ countries, 119 stars, PH launch"
+    "tractionRank": 116,
+    "tractionScore": 22,
+    "tractionReason": "40+ countries, 119 GitHub stars"
   },
   "paths": {
     "memo": "spring2026/memos/runtime.md",

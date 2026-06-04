@@ -60,11 +60,11 @@
     "VK": 31
   },
   "consolidatedAvg": 38.57,
-  "consolidatedRank": 128,
+  "consolidatedRank": 129,
   "traction": {
-    "tractionRank": 31,
-    "tractionScore": 55,
-    "tractionReason": "6 named restaurant groups (ESS/O'Learys)"
+    "tractionRank": 64,
+    "tractionScore": 37,
+    "tractionReason": "6 named restaurant group customers"
   },
   "paths": {
     "memo": "spring2026/memos/elyra.md",

@@ -62,8 +62,8 @@
   "consolidatedAvg": 44.71,
   "consolidatedRank": 55,
   "traction": {
-    "tractionRank": 88,
-    "tractionScore": 27,
+    "tractionRank": 52,
+    "tractionScore": 42,
     "tractionReason": "40K users in first month of beta"
   },
   "paths": {

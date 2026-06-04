@@ -62,9 +62,9 @@
   "consolidatedAvg": 42.86,
   "consolidatedRank": 72,
   "traction": {
-    "tractionRank": 106,
-    "tractionScore": 22,
-    "tractionReason": "IEEE CAI paper, self-reported benchmarks"
+    "tractionRank": 154,
+    "tractionScore": 16,
+    "tractionReason": "Self-reported benchmarks, no customers"
   },
   "paths": {
     "memo": "spring2026/memos/interfaze.md",

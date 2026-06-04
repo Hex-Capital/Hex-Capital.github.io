@@ -62,9 +62,9 @@
   "consolidatedAvg": 45.86,
   "consolidatedRank": 42,
   "traction": {
-    "tractionRank": 16,
-    "tractionScore": 70,
-    "tractionReason": "109K products, 45% MoM, Tesco/COOP"
+    "tractionRank": 14,
+    "tractionScore": 69,
+    "tractionReason": "109K products monitored, 45% MoM growth"
   },
   "paths": {
     "memo": "spring2026/memos/complir.md",

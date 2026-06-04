@@ -61,9 +61,9 @@
   "consolidatedAvg": 47.86,
   "consolidatedRank": 30,
   "traction": {
-    "tractionRank": 12,
-    "tractionScore": 74,
-    "tractionReason": "500K users, $20K MRR in 2 weeks"
+    "tractionRank": 15,
+    "tractionScore": 68,
+    "tractionReason": "$20K MRR + 500K users in two weeks"
   },
   "paths": {
     "memo": "spring2026/memos/rentahuman.md",

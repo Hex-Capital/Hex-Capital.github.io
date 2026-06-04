@@ -55,11 +55,11 @@
     "VK": 26
   },
   "consolidatedAvg": 39,
-  "consolidatedRank": 119,
+  "consolidatedRank": 120,
   "traction": {
-    "tractionRank": 52,
-    "tractionScore": 43,
-    "tractionReason": "F100 entertainment \"3x campaigns\" customer"
+    "tractionRank": 39,
+    "tractionScore": 49,
+    "tractionReason": "Fortune 100 entertainment customer, 5 months operating"
   },
   "paths": {
     "memo": "spring2026/memos/kuli.md",

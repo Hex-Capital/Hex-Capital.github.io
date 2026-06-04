@@ -62,9 +62,9 @@
   "consolidatedAvg": 47,
   "consolidatedRank": 32,
   "traction": {
-    "tractionRank": 57,
-    "tractionScore": 40,
-    "tractionReason": "6 customer logos (Zenn, Harvest, Reducto)"
+    "tractionRank": 81,
+    "tractionScore": 29,
+    "tractionReason": "6 customer logos current product, pivot"
   },
   "paths": {
     "memo": "spring2026/memos/ardent.md",

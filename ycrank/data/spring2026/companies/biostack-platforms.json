@@ -57,9 +57,9 @@
   "consolidatedAvg": 44.29,
   "consolidatedRank": 61,
   "traction": {
-    "tractionRank": 143,
+    "tractionRank": 170,
     "tractionScore": 14,
-    "tractionReason": "YC + Afore + Heroic investors only"
+    "tractionReason": "$500K from YC/Afore, model claim"
   },
   "paths": {
     "memo": "spring2026/memos/biostack-platforms.md",

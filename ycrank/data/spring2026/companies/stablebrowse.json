@@ -61,11 +61,11 @@
     "VK": 32
   },
   "consolidatedAvg": 36.29,
-  "consolidatedRank": 151,
+  "consolidatedRank": 152,
   "traction": {
-    "tractionRank": 110,
-    "tractionScore": 21,
-    "tractionReason": "Self-reported claims, no customers"
+    "tractionRank": 124,
+    "tractionScore": 20,
+    "tractionReason": "Self-reported performance claims, no customers"
   },
   "paths": {
     "memo": "spring2026/memos/stablebrowse.md",

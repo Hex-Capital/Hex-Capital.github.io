@@ -62,9 +62,9 @@
   "consolidatedAvg": 30.57,
   "consolidatedRank": 192,
   "traction": {
-    "tractionRank": 169,
-    "tractionScore": 10,
-    "tractionReason": "LinkedIn page only"
+    "tractionRank": 177,
+    "tractionScore": 13,
+    "tractionReason": "LinkedIn page only, no data"
   },
   "paths": {
     "memo": "spring2026/memos/alchemize.md",

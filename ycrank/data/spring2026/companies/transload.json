@@ -62,9 +62,9 @@
   "consolidatedAvg": 39.29,
   "consolidatedRank": 114,
   "traction": {
-    "tractionRank": 157,
-    "tractionScore": 12,
-    "tractionReason": "Customer claim only, site not rendering"
+    "tractionRank": 70,
+    "tractionScore": 34,
+    "tractionReason": "Customer testimonial, $50K/site/month rebillings"
   },
   "paths": {
     "memo": "spring2026/memos/transload.md",

@@ -60,11 +60,11 @@
     "VK": 36
   },
   "consolidatedAvg": 36.43,
-  "consolidatedRank": 145,
+  "consolidatedRank": 146,
   "traction": {
-    "tractionRank": 32,
-    "tractionScore": 54,
-    "tractionReason": "18K queries/wk, beats Opus on benchmark"
+    "tractionRank": 35,
+    "tractionScore": 51,
+    "tractionReason": "18K queries/week, 75.2% BIRD benchmark lead"
   },
   "paths": {
     "memo": "spring2026/memos/datost.md",

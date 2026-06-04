@@ -57,9 +57,9 @@
   "consolidatedAvg": 48,
   "consolidatedRank": 28,
   "traction": {
-    "tractionRank": 20,
-    "tractionScore": 67,
-    "tractionReason": "11.4k stars, F500 logos (MSFT/OpenAI)"
+    "tractionRank": 19,
+    "tractionScore": 64,
+    "tractionReason": "11.4K stars, PH #1, Microsoft/OpenAI logos"
   },
   "paths": {
     "memo": "spring2026/memos/superset.md",

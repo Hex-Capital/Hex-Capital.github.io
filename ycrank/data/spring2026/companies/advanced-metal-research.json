@@ -62,9 +62,9 @@
   "consolidatedAvg": 41.71,
   "consolidatedRank": 85,
   "traction": {
-    "tractionRank": 184,
-    "tractionScore": 7,
-    "tractionReason": "0 data, launched 2025"
+    "tractionRank": 162,
+    "tractionScore": 15,
+    "tractionReason": "Launched 2025, 0 YC jobs"
   },
   "paths": {
     "memo": "spring2026/memos/advanced-metal-research.md",

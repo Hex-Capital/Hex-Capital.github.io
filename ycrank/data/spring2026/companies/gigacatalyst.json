@@ -63,9 +63,9 @@
   "consolidatedAvg": 41,
   "consolidatedRank": 95,
   "traction": {
-    "tractionRank": 44,
-    "tractionScore": 47,
-    "tractionReason": "1,000+ DAU at UpKeep deployment"
+    "tractionRank": 27,
+    "tractionScore": 58,
+    "tractionReason": "1,000+ DAU at UpKeep, 90% repeat usage"
   },
   "paths": {
     "memo": "spring2026/memos/gigacatalyst.md",

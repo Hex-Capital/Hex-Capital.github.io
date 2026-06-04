@@ -1,0 +1,79 @@
+{
+  "slug": "miso-labs",
+  "name": "Miso Labs",
+  "oneLiner": "The most emotive foundation models for voice",
+  "metadata": {
+    "website": "https://misolabs.ai",
+    "yc_page": "https://www.ycombinator.com/companies/miso-labs",
+    "batch": "Spring 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "AI",
+    "yc_partner": "Harj Taggar (YC company page)",
+    "emails": "cassidy@misolabs.ai (misolabs.ai)"
+  },
+  "tags": [
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-06-04T16:09:41.575Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 30,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 39,
+    "EG": 43,
+    "NR": 57,
+    "PG": 50,
+    "PT": 29,
+    "SL": 26,
+    "VK": 30
+  },
+  "consolidatedAvg": 39.14,
+  "consolidatedRank": 118,
+  "traction": {
+    "tractionRank": 125,
+    "tractionScore": 20,
+    "tractionReason": "66 GitHub stars, press coverage"
+  },
+  "paths": {
+    "memo": "spring2026/memos/miso-labs.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/miso-labs.md",
+      "elad-gil": "spring2026/evals/elad-gil/miso-labs.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/miso-labs.md",
+      "paul-graham": "spring2026/evals/paul-graham/miso-labs.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/miso-labs.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/miso-labs.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/miso-labs.md"
+    }
+  }
+}

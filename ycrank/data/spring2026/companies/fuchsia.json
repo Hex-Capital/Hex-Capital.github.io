@@ -62,11 +62,11 @@
     "VK": 28
   },
   "consolidatedAvg": 36.71,
-  "consolidatedRank": 144,
+  "consolidatedRank": 145,
   "traction": {
-    "tractionRank": 77,
-    "tractionScore": 31,
-    "tractionReason": "Amazon/Apple/Walmart certified claim"
+    "tractionRank": 90,
+    "tractionScore": 27,
+    "tractionReason": "Amazon/Apple/Walmart certification customer claim"
   },
   "paths": {
     "memo": "spring2026/memos/fuchsia.md",

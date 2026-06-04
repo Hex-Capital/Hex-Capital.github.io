@@ -60,11 +60,11 @@
     "VK": 34
   },
   "consolidatedAvg": 38.71,
-  "consolidatedRank": 123,
+  "consolidatedRank": 124,
   "traction": {
-    "tractionRank": 59,
-    "tractionScore": 40,
-    "tractionReason": "Remedy Meds named customer testimonial"
+    "tractionRank": 120,
+    "tractionScore": 21,
+    "tractionReason": "Remedy Meds testimonial only"
   },
   "paths": {
     "memo": "spring2026/memos/chronicle-labs.md",

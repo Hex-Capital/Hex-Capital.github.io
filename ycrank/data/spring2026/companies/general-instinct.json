@@ -63,9 +63,9 @@
   "consolidatedAvg": 40.29,
   "consolidatedRank": 100,
   "traction": {
-    "tractionRank": 133,
-    "tractionScore": 16,
-    "tractionReason": "Jetson Orin demo, $500K YC"
+    "tractionRank": 115,
+    "tractionScore": 22,
+    "tractionReason": "$500K, Jetson Orin production demo"
   },
   "paths": {
     "memo": "spring2026/memos/general-instinct.md",

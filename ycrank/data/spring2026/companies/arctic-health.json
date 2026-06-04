@@ -60,11 +60,11 @@
     "VK": 24
   },
   "consolidatedAvg": 36.29,
-  "consolidatedRank": 149,
+  "consolidatedRank": 150,
   "traction": {
-    "tractionRank": 117,
-    "tractionScore": 19,
-    "tractionReason": "$500K raise, no named customers"
+    "tractionRank": 79,
+    "tractionScore": 30,
+    "tractionReason": "$500K raised, 300+ insurance networks"
   },
   "paths": {
     "memo": "spring2026/memos/arctic-health.md",

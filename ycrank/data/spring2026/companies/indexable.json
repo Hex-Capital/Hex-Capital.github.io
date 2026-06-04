@@ -60,9 +60,9 @@
   "consolidatedAvg": 45.29,
   "consolidatedRank": 47,
   "traction": {
-    "tractionRank": 164,
-    "tractionScore": 11,
-    "tractionReason": "11 GitHub stars, 1 founding role"
+    "tractionRank": 181,
+    "tractionScore": 12,
+    "tractionReason": "11 GitHub stars, 1 founding engineer role"
   },
   "paths": {
     "memo": "spring2026/memos/indexable.md",

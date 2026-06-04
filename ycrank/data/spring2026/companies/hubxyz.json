@@ -62,8 +62,12 @@
     "VK": 34
   },
   "consolidatedAvg": 38.29,
-  "consolidatedRank": 130,
-  "traction": null,
+  "consolidatedRank": 131,
+  "traction": {
+    "tractionRank": 88,
+    "tractionScore": 27,
+    "tractionReason": "$1.7M raised, 500K+ contributors network"
+  },
   "paths": {
     "memo": "spring2026/memos/hubxyz.md",
     "evals": {

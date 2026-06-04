@@ -58,10 +58,10 @@
     "VK": 28
   },
   "consolidatedAvg": 34,
-  "consolidatedRank": 175,
+  "consolidatedRank": 176,
   "traction": {
-    "tractionRank": 108,
-    "tractionScore": 21,
+    "tractionRank": 136,
+    "tractionScore": 18,
     "tractionReason": "\"20x faster FOIA\" claim, no customers"
   },
   "paths": {

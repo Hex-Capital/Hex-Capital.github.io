@@ -63,9 +63,9 @@
   "consolidatedAvg": 44.57,
   "consolidatedRank": 58,
   "traction": {
-    "tractionRank": 175,
-    "tractionScore": 9,
-    "tractionReason": "YC backing only, Ray ecosystem ref"
+    "tractionRank": 193,
+    "tractionScore": 8,
+    "tractionReason": "YC Spring 2026 only, no customers"
   },
   "paths": {
     "memo": "spring2026/memos/zibra-labs.md",

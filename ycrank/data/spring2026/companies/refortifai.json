@@ -62,11 +62,11 @@
     "VK": 44
   },
   "consolidatedAvg": 36.29,
-  "consolidatedRank": 150,
+  "consolidatedRank": 151,
   "traction": {
-    "tractionRank": 190,
-    "tractionScore": 5,
-    "tractionReason": "Site returned 403, no data"
+    "tractionRank": 186,
+    "tractionScore": 11,
+    "tractionReason": "Website 403, no public data"
   },
   "paths": {
     "memo": "spring2026/memos/refortifai.md",

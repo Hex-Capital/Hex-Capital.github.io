@@ -62,9 +62,9 @@
   "consolidatedAvg": 40,
   "consolidatedRank": 107,
   "traction": {
-    "tractionRank": 127,
+    "tractionRank": 133,
     "tractionScore": 18,
-    "tractionReason": "$500K YC, Founderland feature"
+    "tractionReason": "$500K raised, Founderland coverage"
   },
   "paths": {
     "memo": "spring2026/memos/framewise-health.md",

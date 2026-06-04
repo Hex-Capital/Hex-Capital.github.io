@@ -61,11 +61,11 @@
     "VK": 29
   },
   "consolidatedAvg": 33.29,
-  "consolidatedRank": 177,
+  "consolidatedRank": 178,
   "traction": {
-    "tractionRank": 43,
-    "tractionScore": 47,
-    "tractionReason": "Caudalie running 15 tests/week"
+    "tractionRank": 60,
+    "tractionScore": 38,
+    "tractionReason": "Caudalie testimonial, 15 tests/week"
   },
   "paths": {
     "memo": "spring2026/memos/foresight.md",

@@ -59,11 +59,11 @@
     "VK": 42
   },
   "consolidatedAvg": 37,
-  "consolidatedRank": 142,
+  "consolidatedRank": 143,
   "traction": {
-    "tractionRank": 172,
-    "tractionScore": 10,
-    "tractionReason": "Solo team, no AUM disclosed"
+    "tractionRank": 132,
+    "tractionScore": 19,
+    "tractionReason": "Solo founder, no AUM disclosed"
   },
   "paths": {
     "memo": "spring2026/memos/standard-signal.md",

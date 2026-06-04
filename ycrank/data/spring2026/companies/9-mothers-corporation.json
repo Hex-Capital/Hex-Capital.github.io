@@ -64,9 +64,9 @@
   "consolidatedAvg": 46.43,
   "consolidatedRank": 37,
   "traction": {
-    "tractionRank": 93,
-    "tractionScore": 26,
-    "tractionReason": "EDDA \"shipping now\" to US Government"
+    "tractionRank": 47,
+    "tractionScore": 45,
+    "tractionReason": "EDDA shipping to US Government, prime contractors"
   },
   "paths": {
     "memo": "spring2026/memos/9-mothers-corporation.md",

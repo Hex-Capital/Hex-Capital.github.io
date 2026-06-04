@@ -60,11 +60,11 @@
     "VK": 25
   },
   "consolidatedAvg": 38.71,
-  "consolidatedRank": 126,
+  "consolidatedRank": 127,
   "traction": {
-    "tractionRank": 149,
-    "tractionScore": 13,
-    "tractionReason": "YC standard $500K, promo code"
+    "tractionRank": 158,
+    "tractionScore": 16,
+    "tractionReason": "YC Spring 2026, Discord live"
   },
   "paths": {
     "memo": "spring2026/memos/testerarmy.md",

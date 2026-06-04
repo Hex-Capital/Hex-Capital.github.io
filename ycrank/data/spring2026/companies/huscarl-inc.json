@@ -57,9 +57,9 @@
   "consolidatedAvg": 45.86,
   "consolidatedRank": 43,
   "traction": {
-    "tractionRank": 104,
+    "tractionRank": 111,
     "tractionScore": 22,
-    "tractionReason": "$2M+ premiums optimized (customer outcome)"
+    "tractionReason": "$2M premiums optimized customer outcome"
   },
   "paths": {
     "memo": "spring2026/memos/huscarl-inc.md",

@@ -60,11 +60,11 @@
     "VK": 31
   },
   "consolidatedAvg": 37,
-  "consolidatedRank": 141,
+  "consolidatedRank": 142,
   "traction": {
-    "tractionRank": 118,
-    "tractionScore": 19,
-    "tractionReason": "Investors listed, demo payouts only"
+    "tractionRank": 172,
+    "tractionScore": 14,
+    "tractionReason": "Investors listed, demo payouts on site"
   },
   "paths": {
     "memo": "spring2026/memos/archer.md",

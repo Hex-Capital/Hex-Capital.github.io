@@ -62,9 +62,9 @@
   "consolidatedAvg": 39.29,
   "consolidatedRank": 113,
   "traction": {
-    "tractionRank": 33,
-    "tractionScore": 53,
-    "tractionReason": "20+ YC startups, 12 customer logos"
+    "tractionRank": 24,
+    "tractionScore": 60,
+    "tractionReason": "20+ YC startups, 12 named customer logos"
   },
   "paths": {
     "memo": "spring2026/memos/replicas.md",

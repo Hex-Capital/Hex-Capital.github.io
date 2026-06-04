@@ -60,11 +60,11 @@
     "VK": 30
   },
   "consolidatedAvg": 34.43,
-  "consolidatedRank": 174,
+  "consolidatedRank": 175,
   "traction": {
     "tractionRank": 140,
-    "tractionScore": 15,
-    "tractionReason": "Single founder X testimonial"
+    "tractionScore": 18,
+    "tractionReason": "Third-party X testimonial only"
   },
   "paths": {
     "memo": "spring2026/memos/lamina-labs.md",

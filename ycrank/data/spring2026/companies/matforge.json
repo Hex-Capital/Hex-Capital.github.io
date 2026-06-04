@@ -63,9 +63,9 @@
   "consolidatedAvg": 52.86,
   "consolidatedRank": 9,
   "traction": {
-    "tractionRank": 150,
-    "tractionScore": 13,
-    "tractionReason": "Founder publications, YC announcement"
+    "tractionRank": 148,
+    "tractionScore": 17,
+    "tractionReason": "134 LinkedIn comments on launch"
   },
   "paths": {
     "memo": "spring2026/memos/matforge.md",

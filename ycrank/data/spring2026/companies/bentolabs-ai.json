@@ -63,9 +63,9 @@
   "consolidatedAvg": 44.29,
   "consolidatedRank": 60,
   "traction": {
-    "tractionRank": 124,
-    "tractionScore": 18,
-    "tractionReason": "Internal benchmark claims only"
+    "tractionRank": 113,
+    "tractionScore": 22,
+    "tractionReason": "Internal benchmark wins, no customers"
   },
   "paths": {
     "memo": "spring2026/memos/bentolabs-ai.md",

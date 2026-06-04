@@ -57,9 +57,9 @@
   "consolidatedAvg": 42.14,
   "consolidatedRank": 80,
   "traction": {
-    "tractionRank": 21,
-    "tractionScore": 65,
-    "tractionReason": "15.6k stars, 150K+ downloads"
+    "tractionRank": 20,
+    "tractionScore": 62,
+    "tractionReason": "15.6K GitHub stars, 150K+ downloads"
   },
   "paths": {
     "memo": "spring2026/memos/openwork.md",

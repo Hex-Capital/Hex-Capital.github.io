@@ -62,9 +62,9 @@
   "consolidatedAvg": 40.71,
   "consolidatedRank": 97,
   "traction": {
-    "tractionRank": 42,
-    "tractionScore": 48,
-    "tractionReason": "Several thousand $ MRR from prosumer"
+    "tractionRank": 87,
+    "tractionScore": 28,
+    "tractionReason": "700K markets, several-K MRR prosumer"
   },
   "paths": {
     "memo": "spring2026/memos/oddpool.md",

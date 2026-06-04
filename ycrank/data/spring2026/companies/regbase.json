@@ -63,9 +63,9 @@
   "consolidatedAvg": 42.86,
   "consolidatedRank": 73,
   "traction": {
-    "tractionRank": 144,
-    "tractionScore": 14,
-    "tractionReason": "\"F500\" claim, no named logos"
+    "tractionRank": 180,
+    "tractionScore": 13,
+    "tractionReason": "F500 customer claim unnamed"
   },
   "paths": {
     "memo": "spring2026/memos/regbase.md",

@@ -60,11 +60,11 @@
     "VK": 27
   },
   "consolidatedAvg": 36.43,
-  "consolidatedRank": 148,
+  "consolidatedRank": 149,
   "traction": {
-    "tractionRank": 63,
-    "tractionScore": 38,
-    "tractionReason": "10 named brand logos (Slumberkins/Sousa)"
+    "tractionRank": 66,
+    "tractionScore": 36,
+    "tractionReason": "10 named brand customer logos"
   },
   "paths": {
     "memo": "spring2026/memos/kinect.md",

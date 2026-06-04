@@ -64,9 +64,9 @@
   "consolidatedAvg": 40.14,
   "consolidatedRank": 102,
   "traction": {
-    "tractionRank": 19,
-    "tractionScore": 67,
-    "tractionReason": "21+ named customer logos"
+    "tractionRank": 18,
+    "tractionScore": 64,
+    "tractionReason": "21+ named customer logos including Bloomreach"
   },
   "paths": {
     "memo": "spring2026/memos/characterquilt.md",

@@ -61,11 +61,11 @@
     "VK": 23
   },
   "consolidatedAvg": 32.86,
-  "consolidatedRank": 180,
+  "consolidatedRank": 181,
   "traction": {
     "tractionRank": 152,
-    "tractionScore": 12,
-    "tractionReason": "Team of 2, PH profile exists"
+    "tractionScore": 16,
+    "tractionReason": "Team of 2, Mac app"
   },
   "paths": {
     "memo": "spring2026/memos/drippay.md",

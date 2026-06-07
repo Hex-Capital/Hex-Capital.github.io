@@ -60,11 +60,11 @@
     "VK": 37
   },
   "consolidatedAvg": 41.57,
-  "consolidatedRank": 88,
+  "consolidatedRank": 87,
   "traction": {
-    "tractionRank": 127,
-    "tractionScore": 20,
-    "tractionReason": "MIT Heals and Fifty Years acceptance"
+    "tractionRank": 164,
+    "tractionScore": 11,
+    "tractionReason": "YC + MIT Heals accelerator selections"
   },
   "paths": {
     "memo": "spring2026/memos/abinitio-bio.md",

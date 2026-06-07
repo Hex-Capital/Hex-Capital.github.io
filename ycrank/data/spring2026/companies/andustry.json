@@ -62,11 +62,11 @@
     "VK": 29
   },
   "consolidatedAvg": 35.86,
-  "consolidatedRank": 158,
+  "consolidatedRank": 157,
   "traction": {
-    "tractionRank": 160,
-    "tractionScore": 15,
-    "tractionReason": "Customer testimonials unnamed, commission only"
+    "tractionRank": 99,
+    "tractionScore": 22,
+    "tractionReason": "Customer testimonials with $400K/$800K saved"
   },
   "paths": {
     "memo": "spring2026/memos/andustry.md",

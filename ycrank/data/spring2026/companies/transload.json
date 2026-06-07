@@ -62,9 +62,9 @@
   "consolidatedAvg": 39.29,
   "consolidatedRank": 114,
   "traction": {
-    "tractionRank": 70,
-    "tractionScore": 34,
-    "tractionReason": "Customer testimonial, $50K/site/month rebillings"
+    "tractionRank": 147,
+    "tractionScore": 14,
+    "tractionReason": "One customer-cited $50K/site/month claim"
   },
   "paths": {
     "memo": "spring2026/memos/transload.md",

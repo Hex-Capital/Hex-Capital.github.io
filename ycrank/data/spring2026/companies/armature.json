@@ -61,9 +61,9 @@
   "consolidatedAvg": 38.14,
   "consolidatedRank": 133,
   "traction": {
-    "tractionRank": 173,
-    "tractionScore": 14,
-    "tractionReason": "$79/mo pricing live, no customers"
+    "tractionRank": 118,
+    "tractionScore": 18,
+    "tractionReason": "Investors named (Palantir, Joko), MCP claim"
   },
   "paths": {
     "memo": "spring2026/memos/armature.md",

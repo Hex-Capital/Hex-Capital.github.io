@@ -60,9 +60,9 @@
   "consolidatedAvg": 32.57,
   "consolidatedRank": 184,
   "traction": {
-    "tractionRank": 187,
-    "tractionScore": 11,
-    "tractionReason": "No public users, revenue, customers"
+    "tractionRank": 189,
+    "tractionScore": 6,
+    "tractionReason": "Team size 0 on YC page"
   },
   "paths": {
     "memo": "spring2026/memos/wealor.md",

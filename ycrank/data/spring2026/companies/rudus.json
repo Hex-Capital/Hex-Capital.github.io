@@ -63,9 +63,9 @@
   "consolidatedAvg": 33.29,
   "consolidatedRank": 179,
   "traction": {
-    "tractionRank": 144,
-    "tractionScore": 17,
-    "tractionReason": "Landing-page metrics, no named customers"
+    "tractionRank": 149,
+    "tractionScore": 13,
+    "tractionReason": "Unnamed testimonials on landing page"
   },
   "paths": {
     "memo": "spring2026/memos/rudus.md",

@@ -64,9 +64,9 @@
   "consolidatedAvg": 40.14,
   "consolidatedRank": 104,
   "traction": {
-    "tractionRank": 17,
-    "tractionScore": 65,
-    "tractionReason": "~6,000 therapists on platform"
+    "tractionRank": 16,
+    "tractionScore": 62,
+    "tractionReason": "6,000 therapists on platform"
   },
   "paths": {
     "memo": "spring2026/memos/klarify.md",

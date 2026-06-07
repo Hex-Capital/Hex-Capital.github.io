@@ -62,9 +62,9 @@
   "consolidatedAvg": 33.86,
   "consolidatedRank": 177,
   "traction": {
-    "tractionRank": 147,
-    "tractionScore": 17,
-    "tractionReason": "YC launch, sample dashboard mockup"
+    "tractionRank": 151,
+    "tractionScore": 13,
+    "tractionReason": "Mockup dashboard with fictional companies"
   },
   "paths": {
     "memo": "spring2026/memos/korso.md",

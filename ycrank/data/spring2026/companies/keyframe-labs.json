@@ -63,9 +63,9 @@
   "consolidatedAvg": 46.71,
   "consolidatedRank": 36,
   "traction": {
-    "tractionRank": 72,
-    "tractionScore": 33,
-    "tractionReason": "Shipping models, 8 unnamed customer testimonials"
+    "tractionRank": 86,
+    "tractionScore": 25,
+    "tractionReason": "Persona-1/Cosmo 1.5 shipped, $0.06/min pricing"
   },
   "paths": {
     "memo": "spring2026/memos/keyframe-labs.md",

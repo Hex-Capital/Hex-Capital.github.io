@@ -62,11 +62,11 @@
     "VK": 31
   },
   "consolidatedAvg": 43.71,
-  "consolidatedRank": 67,
+  "consolidatedRank": 66,
   "traction": {
-    "tractionRank": 53,
+    "tractionRank": 43,
     "tractionScore": 42,
-    "tractionReason": "20M end users via deployed apps"
+    "tractionReason": "20M end users protected, Sadq partnership"
   },
   "paths": {
     "memo": "spring2026/memos/raspire.md",

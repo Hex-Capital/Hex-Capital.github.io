@@ -64,9 +64,9 @@
   "consolidatedAvg": 38.29,
   "consolidatedRank": 132,
   "traction": {
-    "tractionRank": 26,
-    "tractionScore": 58,
-    "tractionReason": "80%+ automation, multiple named customer testimonials"
+    "tractionRank": 46,
+    "tractionScore": 40,
+    "tractionReason": "80%+ automation, multiple enterprise testimonials"
   },
   "paths": {
     "memo": "spring2026/memos/modern.md",

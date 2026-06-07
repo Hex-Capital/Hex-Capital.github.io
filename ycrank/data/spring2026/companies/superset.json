@@ -57,9 +57,9 @@
   "consolidatedAvg": 48,
   "consolidatedRank": 28,
   "traction": {
-    "tractionRank": 19,
-    "tractionScore": 64,
-    "tractionReason": "11.4K stars, PH #1, Microsoft/OpenAI logos"
+    "tractionRank": 30,
+    "tractionScore": 48,
+    "tractionReason": "11.4K GitHub stars, PH #1, blue-chip logos"
   },
   "paths": {
     "memo": "spring2026/memos/superset.md",

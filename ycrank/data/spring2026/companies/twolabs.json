@@ -61,9 +61,9 @@
   "consolidatedAvg": 37.29,
   "consolidatedRank": 137,
   "traction": {
-    "tractionRank": 142,
-    "tractionScore": 17,
-    "tractionReason": "Founder press as first Uzbek YC"
+    "tractionRank": 187,
+    "tractionScore": 7,
+    "tractionReason": "Founder press only"
   },
   "paths": {
     "memo": "spring2026/memos/twolabs.md",

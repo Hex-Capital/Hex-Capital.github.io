@@ -60,10 +60,10 @@
     "VK": 30
   },
   "consolidatedAvg": 43.86,
-  "consolidatedRank": 66,
+  "consolidatedRank": 65,
   "traction": {
     "tractionRank": 123,
-    "tractionScore": 20,
+    "tractionScore": 17,
     "tractionReason": "iPhone app in early public beta"
   },
   "paths": {

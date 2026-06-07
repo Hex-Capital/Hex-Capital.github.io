@@ -62,9 +62,9 @@
   "consolidatedAvg": 37.14,
   "consolidatedRank": 139,
   "traction": {
-    "tractionRank": 11,
-    "tractionScore": 72,
-    "tractionReason": "10+ fund customers, $10Bn+ combined AUM"
+    "tractionRank": 22,
+    "tractionScore": 56,
+    "tractionReason": "10+ funds, $10B+ AUM"
   },
   "paths": {
     "memo": "spring2026/memos/cohesion.md",

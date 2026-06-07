@@ -64,8 +64,8 @@
   "consolidatedAvg": 53.14,
   "consolidatedRank": 7,
   "traction": {
-    "tractionRank": 192,
-    "tractionScore": 9,
+    "tractionRank": 191,
+    "tractionScore": 4,
     "tractionReason": "Team size 0, placeholder website"
   },
   "paths": {

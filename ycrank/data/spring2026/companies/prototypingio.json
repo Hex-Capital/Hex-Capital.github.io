@@ -63,9 +63,9 @@
   "consolidatedAvg": 36.86,
   "consolidatedRank": 144,
   "traction": {
-    "tractionRank": 161,
-    "tractionScore": 15,
-    "tractionReason": "Early-access waitlist gate"
+    "tractionRank": 166,
+    "tractionScore": 10,
+    "tractionReason": "Early-access waitlist only"
   },
   "paths": {
     "memo": "spring2026/memos/prototypingio.md",

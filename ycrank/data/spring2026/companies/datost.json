@@ -62,9 +62,9 @@
   "consolidatedAvg": 36.43,
   "consolidatedRank": 146,
   "traction": {
-    "tractionRank": 35,
-    "tractionScore": 51,
-    "tractionReason": "18K queries/week, 75.2% BIRD benchmark lead"
+    "tractionRank": 53,
+    "tractionScore": 37,
+    "tractionReason": "18,402 queries/week"
   },
   "paths": {
     "memo": "spring2026/memos/datost.md",

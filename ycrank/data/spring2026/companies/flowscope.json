@@ -62,9 +62,9 @@
   "consolidatedAvg": 32.43,
   "consolidatedRank": 185,
   "traction": {
-    "tractionRank": 183,
-    "tractionScore": 12,
-    "tractionReason": "No public data found"
+    "tractionRank": 165,
+    "tractionScore": 11,
+    "tractionReason": "No public data"
   },
   "paths": {
     "memo": "spring2026/memos/flowscope.md",

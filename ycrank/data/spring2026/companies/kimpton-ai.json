@@ -62,9 +62,9 @@
   "consolidatedAvg": 39.14,
   "consolidatedRank": 117,
   "traction": {
-    "tractionRank": 100,
-    "tractionScore": 24,
-    "tractionReason": "FactSet/Tiingo/Plaid data partnerships"
+    "tractionRank": 131,
+    "tractionScore": 16,
+    "tractionReason": "FactSet/Tiingo/Plaid partnerships"
   },
   "paths": {
     "memo": "spring2026/memos/kimpton-ai.md",

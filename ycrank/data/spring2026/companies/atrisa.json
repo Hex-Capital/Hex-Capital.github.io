@@ -1,0 +1,83 @@
+{
+  "slug": "atrisa",
+  "name": "Atrisa (formerly Refortifai)",
+  "oneLiner": "AI Agents for Analog Circuit Design",
+  "metadata": {
+    "website": "https://atrisa.ai",
+    "yc_page": "https://www.ycombinator.com/companies/atrisa",
+    "batch": "Spring 2026",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Generative AI, Reinforcement Learning, B2B, Semiconductors, AI",
+    "yc_partner": "Nicolas Dessaigne (YC company page)",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Generative AI",
+    "Reinforcement Learning",
+    "B2B",
+    "Semiconductors",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-06-07T22:27:57.221Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 32,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 43,
+    "EG": 41,
+    "NR": 35,
+    "PG": 40,
+    "PT": 29,
+    "SL": 26,
+    "VK": 32
+  },
+  "consolidatedAvg": 35.14,
+  "consolidatedRank": 169,
+  "traction": {
+    "tractionRank": 159,
+    "tractionScore": 11,
+    "tractionReason": "Spring 2026 YC launch only"
+  },
+  "paths": {
+    "memo": "spring2026/memos/atrisa.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/atrisa.md",
+      "elad-gil": "spring2026/evals/elad-gil/atrisa.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/atrisa.md",
+      "paul-graham": "spring2026/evals/paul-graham/atrisa.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/atrisa.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/atrisa.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/atrisa.md"
+    }
+  }
+}

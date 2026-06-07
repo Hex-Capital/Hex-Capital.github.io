@@ -62,9 +62,9 @@
   "consolidatedAvg": 36.43,
   "consolidatedRank": 149,
   "traction": {
-    "tractionRank": 66,
-    "tractionScore": 36,
-    "tractionReason": "10 named brand customer logos"
+    "tractionRank": 35,
+    "tractionScore": 45,
+    "tractionReason": "10 named brand logos"
   },
   "paths": {
     "memo": "spring2026/memos/kinect.md",

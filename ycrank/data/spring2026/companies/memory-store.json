@@ -60,11 +60,11 @@
     "VK": 41
   },
   "consolidatedAvg": 45,
-  "consolidatedRank": 52,
+  "consolidatedRank": 51,
   "traction": {
-    "tractionRank": 104,
-    "tractionScore": 24,
-    "tractionReason": "Prior Julep repo 6.6K stars"
+    "tractionRank": 81,
+    "tractionScore": 26,
+    "tractionReason": "6.6K GitHub stars on prior Julep"
   },
   "paths": {
     "memo": "spring2026/memos/memory-store.md",

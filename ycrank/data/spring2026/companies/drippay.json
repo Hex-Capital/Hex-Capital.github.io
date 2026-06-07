@@ -63,9 +63,9 @@
   "consolidatedAvg": 32.86,
   "consolidatedRank": 181,
   "traction": {
-    "tractionRank": 152,
-    "tractionScore": 16,
-    "tractionReason": "Team of 2, Mac app"
+    "tractionRank": 175,
+    "tractionScore": 9,
+    "tractionReason": "Team of 2, no traction"
   },
   "paths": {
     "memo": "spring2026/memos/drippay.md",

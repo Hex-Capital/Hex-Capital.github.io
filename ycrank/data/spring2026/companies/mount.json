@@ -57,9 +57,9 @@
   "consolidatedAvg": 38.86,
   "consolidatedRank": 123,
   "traction": {
-    "tractionRank": 135,
-    "tractionScore": 18,
-    "tractionReason": "YC P26 launch only, no customers"
+    "tractionRank": 121,
+    "tractionScore": 17,
+    "tractionReason": "YC P26 launch, active job postings"
   },
   "paths": {
     "memo": "spring2026/memos/mount.md",

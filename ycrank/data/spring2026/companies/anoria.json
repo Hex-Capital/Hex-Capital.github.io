@@ -62,11 +62,11 @@
     "VK": 36
   },
   "consolidatedAvg": 35.86,
-  "consolidatedRank": 159,
+  "consolidatedRank": 158,
   "traction": {
-    "tractionRank": 143,
-    "tractionScore": 17,
-    "tractionReason": "Prototype testing, no users disclosed"
+    "tractionRank": 161,
+    "tractionScore": 11,
+    "tractionReason": "Two-month-old prototype in testing"
   },
   "paths": {
     "memo": "spring2026/memos/anoria.md",

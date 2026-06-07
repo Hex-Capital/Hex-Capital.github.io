@@ -60,11 +60,11 @@
     "VK": 33
   },
   "consolidatedAvg": 44.71,
-  "consolidatedRank": 55,
+  "consolidatedRank": 54,
   "traction": {
-    "tractionRank": 52,
-    "tractionScore": 42,
-    "tractionReason": "40K users in first month of beta"
+    "tractionRank": 63,
+    "tractionScore": 32,
+    "tractionReason": "40,000 users in first month of beta"
   },
   "paths": {
     "memo": "spring2026/memos/playablai.md",

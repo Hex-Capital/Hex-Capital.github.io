@@ -60,11 +60,11 @@
     "VK": 32
   },
   "consolidatedAvg": 43,
-  "consolidatedRank": 71,
+  "consolidatedRank": 70,
   "traction": {
     "tractionRank": 2,
-    "tractionScore": 91,
-    "tractionReason": "$2.5M ARR, 2000+ customers, 35% MoM"
+    "tractionScore": 94,
+    "tractionReason": "$2.5M ARR, 2,000+ customers, 35% MoM"
   },
   "paths": {
     "memo": "spring2026/memos/gojiberry-ai.md",

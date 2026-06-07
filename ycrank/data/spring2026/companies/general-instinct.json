@@ -63,9 +63,9 @@
   "consolidatedAvg": 40.29,
   "consolidatedRank": 100,
   "traction": {
-    "tractionRank": 115,
-    "tractionScore": 22,
-    "tractionReason": "$500K, Jetson Orin production demo"
+    "tractionRank": 85,
+    "tractionScore": 25,
+    "tractionReason": "Production Jetson demo, 111ms cold start"
   },
   "paths": {
     "memo": "spring2026/memos/general-instinct.md",

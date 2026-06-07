@@ -62,9 +62,9 @@
   "consolidatedAvg": 40.43,
   "consolidatedRank": 99,
   "traction": {
-    "tractionRank": 174,
-    "tractionScore": 13,
-    "tractionReason": "+80% CVR beta claim, 5 example stores"
+    "tractionRank": 76,
+    "tractionScore": 27,
+    "tractionReason": "+80% CVR for beta merchants"
   },
   "paths": {
     "memo": "spring2026/memos/amboras.md",

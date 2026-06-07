@@ -55,11 +55,11 @@
     "VK": 41
   },
   "consolidatedAvg": 44.29,
-  "consolidatedRank": 61,
+  "consolidatedRank": 60,
   "traction": {
-    "tractionRank": 170,
-    "tractionScore": 14,
-    "tractionReason": "$500K from YC/Afore, model claim"
+    "tractionRank": 155,
+    "tractionScore": 12,
+    "tractionReason": "Investors named, in-house model claim"
   },
   "paths": {
     "memo": "spring2026/memos/biostack-platforms.md",

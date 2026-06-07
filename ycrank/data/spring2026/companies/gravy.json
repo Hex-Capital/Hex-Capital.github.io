@@ -63,8 +63,8 @@
   "consolidatedAvg": 31.29,
   "consolidatedRank": 190,
   "traction": {
-    "tractionRank": 141,
-    "tractionScore": 18,
+    "tractionRank": 130,
+    "tractionScore": 16,
     "tractionReason": "Mac app live, Windows waitlist"
   },
   "paths": {

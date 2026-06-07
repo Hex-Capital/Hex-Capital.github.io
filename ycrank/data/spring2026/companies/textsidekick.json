@@ -62,9 +62,9 @@
   "consolidatedAvg": 37.14,
   "consolidatedRank": 141,
   "traction": {
-    "tractionRank": 62,
-    "tractionScore": 37,
-    "tractionReason": "6 named manufacturing customer logos"
+    "tractionRank": 58,
+    "tractionScore": 34,
+    "tractionReason": "6 named manufacturer customer logos"
   },
   "paths": {
     "memo": "spring2026/memos/textsidekick.md",

@@ -60,11 +60,11 @@
     "VK": 33
   },
   "consolidatedAvg": 44.57,
-  "consolidatedRank": 57,
+  "consolidatedRank": 56,
   "traction": {
-    "tractionRank": 21,
-    "tractionScore": 62,
-    "tractionReason": ">$100K ARR, Bridgewater co-CIO angels"
+    "tractionRank": 10,
+    "tractionScore": 70,
+    "tractionReason": "$100K+ ARR with multiple clients"
   },
   "paths": {
     "memo": "spring2026/memos/withai.md",

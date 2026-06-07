@@ -59,11 +59,11 @@
     "VK": 50
   },
   "consolidatedAvg": 42.57,
-  "consolidatedRank": 75,
+  "consolidatedRank": 74,
   "traction": {
-    "tractionRank": 105,
-    "tractionScore": 23,
-    "tractionReason": "Customer discussions Swedish defense, Ukrainian"
+    "tractionRank": 110,
+    "tractionScore": 19,
+    "tractionReason": "$500K YC, customer discussions Sweden/Ukraine"
   },
   "paths": {
     "memo": "spring2026/memos/tenet-industries.md",

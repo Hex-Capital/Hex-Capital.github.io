@@ -60,11 +60,11 @@
     "VK": 30
   },
   "consolidatedAvg": 45.29,
-  "consolidatedRank": 49,
+  "consolidatedRank": 48,
   "traction": {
-    "tractionRank": 114,
-    "tractionScore": 22,
-    "tractionReason": "222 stars, founder prior 22K react-scan"
+    "tractionRank": 94,
+    "tractionScore": 23,
+    "tractionReason": "222 stars + founder's 22K-star React Scan"
   },
   "paths": {
     "memo": "spring2026/memos/zenbu-2.md",

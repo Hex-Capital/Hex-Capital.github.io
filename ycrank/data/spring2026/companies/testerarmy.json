@@ -62,9 +62,9 @@
   "consolidatedAvg": 38.71,
   "consolidatedRank": 127,
   "traction": {
-    "tractionRank": 158,
-    "tractionScore": 16,
-    "tractionReason": "YC Spring 2026, Discord live"
+    "tractionRank": 163,
+    "tractionScore": 11,
+    "tractionReason": "YC launch + Discord/community live"
   },
   "paths": {
     "memo": "spring2026/memos/testerarmy.md",

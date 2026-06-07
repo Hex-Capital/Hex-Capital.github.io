@@ -63,9 +63,9 @@
   "consolidatedAvg": 52.57,
   "consolidatedRank": 10,
   "traction": {
-    "tractionRank": 167,
-    "tractionScore": 14,
-    "tractionReason": "YC Launch page only"
+    "tractionRank": 162,
+    "tractionScore": 11,
+    "tractionReason": "YC Spring 2026 launch only"
   },
   "paths": {
     "memo": "spring2026/memos/finaldose.md",

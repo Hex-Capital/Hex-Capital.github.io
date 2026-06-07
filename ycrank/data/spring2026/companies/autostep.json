@@ -57,9 +57,9 @@
   "consolidatedAvg": 35,
   "consolidatedRank": 172,
   "traction": {
-    "tractionRank": 175,
-    "tractionScore": 13,
-    "tractionReason": "YC + Neo, $100K savings claim"
+    "tractionRank": 116,
+    "tractionScore": 18,
+    "tractionReason": "\"$100K+ uncovered\" customer claim"
   },
   "paths": {
     "memo": "spring2026/memos/autostep.md",

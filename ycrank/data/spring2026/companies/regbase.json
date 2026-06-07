@@ -61,11 +61,11 @@
     "VK": 27
   },
   "consolidatedAvg": 42.86,
-  "consolidatedRank": 73,
+  "consolidatedRank": 72,
   "traction": {
-    "tractionRank": 180,
-    "tractionScore": 13,
-    "tractionReason": "F500 customer claim unnamed"
+    "tractionRank": 139,
+    "tractionScore": 14,
+    "tractionReason": "\"Fortune 500\" claim with no named logos"
   },
   "paths": {
     "memo": "spring2026/memos/regbase.md",

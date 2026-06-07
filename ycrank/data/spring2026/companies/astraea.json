@@ -60,11 +60,11 @@
     "VK": 33
   },
   "consolidatedAvg": 36.14,
-  "consolidatedRank": 156,
+  "consolidatedRank": 155,
   "traction": {
     "tractionRank": 55,
-    "tractionScore": 41,
-    "tractionReason": "10+ pharma/biotech sponsors trusted claim"
+    "tractionScore": 36,
+    "tractionReason": "10+ pharma/biotech sponsors"
   },
   "paths": {
     "memo": "spring2026/memos/astraea.md",

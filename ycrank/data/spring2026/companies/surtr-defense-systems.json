@@ -60,9 +60,9 @@
   "consolidatedAvg": 48.57,
   "consolidatedRank": 25,
   "traction": {
-    "tractionRank": 153,
-    "tractionScore": 16,
-    "tractionReason": "YC May 2026 launch tweet only"
+    "tractionRank": 167,
+    "tractionScore": 10,
+    "tractionReason": "YC launch tweet, 0 jobs"
   },
   "paths": {
     "memo": "spring2026/memos/surtr-defense-systems.md",

@@ -62,11 +62,11 @@
     "VK": 37
   },
   "consolidatedAvg": 43.71,
-  "consolidatedRank": 68,
+  "consolidatedRank": 67,
   "traction": {
-    "tractionRank": 38,
-    "tractionScore": 50,
-    "tractionReason": "Five-figure annual contracts with first customers"
+    "tractionRank": 18,
+    "tractionScore": 60,
+    "tractionReason": "Five-figure annual contracts from first customers"
   },
   "paths": {
     "memo": "spring2026/memos/smartbase.md",

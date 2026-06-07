@@ -55,11 +55,11 @@
     "VK": 28
   },
   "consolidatedAvg": 44.71,
-  "consolidatedRank": 56,
+  "consolidatedRank": 55,
   "traction": {
-    "tractionRank": 45,
+    "tractionRank": 33,
     "tractionScore": 46,
-    "tractionReason": "100+ unit operator testimonial, 84.5% automation"
+    "tractionReason": "Customer with 100+ units, 84.5% automation"
   },
   "paths": {
     "memo": "spring2026/memos/trellistech.md",

@@ -64,9 +64,9 @@
   "consolidatedAvg": 32.71,
   "consolidatedRank": 183,
   "traction": {
-    "tractionRank": 184,
-    "tractionScore": 12,
-    "tractionReason": "No public data found"
+    "tractionRank": 188,
+    "tractionScore": 7,
+    "tractionReason": "No public data on Kassandre product"
   },
   "paths": {
     "memo": "spring2026/memos/valctrl.md",

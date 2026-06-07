@@ -55,10 +55,10 @@
     "VK": 40
   },
   "consolidatedAvg": 45.14,
-  "consolidatedRank": 50,
+  "consolidatedRank": 49,
   "traction": {
-    "tractionRank": 46,
-    "tractionScore": 46,
+    "tractionRank": 20,
+    "tractionScore": 58,
     "tractionReason": "25,000 patients/day in production"
   },
   "paths": {

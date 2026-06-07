@@ -60,11 +60,11 @@
     "VK": 32
   },
   "consolidatedAvg": 35.43,
-  "consolidatedRank": 165,
+  "consolidatedRank": 164,
   "traction": {
-    "tractionRank": 108,
-    "tractionScore": 23,
-    "tractionReason": "SOC 2 in progress, 20+ integrations"
+    "tractionRank": 119,
+    "tractionScore": 17,
+    "tractionReason": "20+ enterprise integrations, SOC 2 in progress"
   },
   "paths": {
     "memo": "spring2026/memos/arden.md",

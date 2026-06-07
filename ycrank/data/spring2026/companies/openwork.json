@@ -55,10 +55,10 @@
     "VK": 32
   },
   "consolidatedAvg": 42.14,
-  "consolidatedRank": 80,
+  "consolidatedRank": 79,
   "traction": {
-    "tractionRank": 20,
-    "tractionScore": 62,
+    "tractionRank": 40,
+    "tractionScore": 43,
     "tractionReason": "15.6K GitHub stars, 150K+ downloads"
   },
   "paths": {

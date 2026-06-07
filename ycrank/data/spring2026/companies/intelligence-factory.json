@@ -59,11 +59,11 @@
     "VK": 60
   },
   "consolidatedAvg": 45.29,
-  "consolidatedRank": 48,
+  "consolidatedRank": 47,
   "traction": {
-    "tractionRank": 189,
-    "tractionScore": 10,
-    "tractionReason": "1 open role, no data"
+    "tractionRank": 160,
+    "tractionScore": 11,
+    "tractionReason": "1 open job, named angel investor"
   },
   "paths": {
     "memo": "spring2026/memos/intelligence-factory.md",

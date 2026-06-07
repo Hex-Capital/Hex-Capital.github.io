@@ -62,9 +62,9 @@
   "consolidatedAvg": 39.43,
   "consolidatedRank": 110,
   "traction": {
-    "tractionRank": 33,
-    "tractionScore": 53,
-    "tractionReason": "4 German plants live, named KNIPPING customer"
+    "tractionRank": 49,
+    "tractionScore": 39,
+    "tractionReason": "4 German plants live, KNIPPING customer"
   },
   "paths": {
     "memo": "spring2026/memos/pairio.md",

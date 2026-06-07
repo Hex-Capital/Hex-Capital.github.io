@@ -64,9 +64,9 @@
   "consolidatedAvg": 32.14,
   "consolidatedRank": 188,
   "traction": {
-    "tractionRank": 80,
-    "tractionScore": 30,
-    "tractionReason": "10 customer logos, 179 PH upvotes"
+    "tractionRank": 54,
+    "tractionScore": 36,
+    "tractionReason": "10 named customers, Launch HN"
   },
   "paths": {
     "memo": "spring2026/memos/chert.md",

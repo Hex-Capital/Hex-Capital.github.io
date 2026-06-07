@@ -61,11 +61,11 @@
     "VK": 49
   },
   "consolidatedAvg": 35.86,
-  "consolidatedRank": 157,
+  "consolidatedRank": 156,
   "traction": {
-    "tractionRank": 155,
-    "tractionScore": 16,
-    "tractionReason": "Pivoted 2 weeks ago to submarines"
+    "tractionRank": 173,
+    "tractionScore": 9,
+    "tractionReason": "Pivoted ~2 weeks before May 2026"
   },
   "paths": {
     "memo": "spring2026/memos/aice.md",

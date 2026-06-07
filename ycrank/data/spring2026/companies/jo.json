@@ -61,11 +61,11 @@
     "VK": 33
   },
   "consolidatedAvg": 35.71,
-  "consolidatedRank": 161,
+  "consolidatedRank": 160,
   "traction": {
-    "tractionRank": 128,
-    "tractionScore": 19,
-    "tractionReason": "Prior W24 product, current Spring 2026 launch"
+    "tractionRank": 122,
+    "tractionScore": 17,
+    "tractionReason": "W24 launch, named investor (Taro Fukuyama)"
   },
   "paths": {
     "memo": "spring2026/memos/jo.md",

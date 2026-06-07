@@ -61,11 +61,11 @@
     "VK": 36
   },
   "consolidatedAvg": 41.71,
-  "consolidatedRank": 86,
+  "consolidatedRank": 85,
   "traction": {
-    "tractionRank": 126,
-    "tractionScore": 20,
-    "tractionReason": "\"Collaborating with brokerages\" unnamed claim"
+    "tractionRank": 124,
+    "tractionScore": 17,
+    "tractionReason": "\"Collaborating with fastest-growing brokerages\""
   },
   "paths": {
     "memo": "spring2026/memos/hedge.md",

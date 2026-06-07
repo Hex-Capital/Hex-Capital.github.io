@@ -61,9 +61,9 @@
   "consolidatedAvg": 40,
   "consolidatedRank": 108,
   "traction": {
-    "tractionRank": 94,
-    "tractionScore": 26,
-    "tractionReason": "$500K USDC, parlay product launched May"
+    "tractionRank": 90,
+    "tractionScore": 24,
+    "tractionReason": "Parlay live May 25, USDC funding press"
   },
   "paths": {
     "memo": "spring2026/memos/totalis.md",

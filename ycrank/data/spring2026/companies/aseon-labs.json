@@ -64,9 +64,9 @@
   "consolidatedAvg": 48.57,
   "consolidatedRank": 22,
   "traction": {
-    "tractionRank": 98,
-    "tractionScore": 25,
-    "tractionReason": "Stealth emergence press May 2026"
+    "tractionRank": 64,
+    "tractionScore": 31,
+    "tractionReason": "Stealth exit with coordinated press"
   },
   "paths": {
     "memo": "spring2026/memos/aseon-labs.md",

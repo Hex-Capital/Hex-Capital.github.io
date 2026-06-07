@@ -58,11 +58,11 @@
     "VK": 33
   },
   "consolidatedAvg": 44.14,
-  "consolidatedRank": 63,
+  "consolidatedRank": 62,
   "traction": {
-    "tractionRank": 57,
-    "tractionScore": 40,
-    "tractionReason": "6.1K GitHub stars, 108K founder X followers"
+    "tractionRank": 89,
+    "tractionScore": 24,
+    "tractionReason": "5.8K-6.1K GitHub stars on Mac app"
   },
   "paths": {
     "memo": "spring2026/memos/heyclicky.md",

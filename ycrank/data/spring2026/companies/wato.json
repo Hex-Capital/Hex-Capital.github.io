@@ -61,9 +61,9 @@
   "consolidatedAvg": 32.29,
   "consolidatedRank": 187,
   "traction": {
-    "tractionRank": 159,
-    "tractionScore": 15,
-    "tractionReason": "Private beta, Cloud Agents launched"
+    "tractionRank": 168,
+    "tractionScore": 10,
+    "tractionReason": "Private beta open"
   },
   "paths": {
     "memo": "spring2026/memos/wato.md",

@@ -61,11 +61,11 @@
     "VK": 34
   },
   "consolidatedAvg": 35.71,
-  "consolidatedRank": 160,
+  "consolidatedRank": 159,
   "traction": {
-    "tractionRank": 119,
-    "tractionScore": 21,
-    "tractionReason": "$650K pre-seed, \"Free Forever\" no customers"
+    "tractionRank": 109,
+    "tractionScore": 19,
+    "tractionReason": "$650K pre-seed"
   },
   "paths": {
     "memo": "spring2026/memos/enjamb-labs.md",

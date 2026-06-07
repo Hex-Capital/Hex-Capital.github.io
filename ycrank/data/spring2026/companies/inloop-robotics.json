@@ -61,10 +61,10 @@
     "VK": 51
   },
   "consolidatedAvg": 42.43,
-  "consolidatedRank": 77,
+  "consolidatedRank": 76,
   "traction": {
-    "tractionRank": 32,
-    "tractionScore": 54,
+    "tractionRank": 52,
+    "tractionScore": 37,
     "tractionReason": "300+ picks/hour in paid pilots"
   },
   "paths": {

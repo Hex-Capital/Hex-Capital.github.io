@@ -63,11 +63,7 @@
   },
   "consolidatedAvg": 38.29,
   "consolidatedRank": 131,
-  "traction": {
-    "tractionRank": 88,
-    "tractionScore": 27,
-    "tractionReason": "$1.7M raised, 500K+ contributors network"
-  },
+  "traction": null,
   "paths": {
     "memo": "spring2026/memos/hubxyz.md",
     "evals": {

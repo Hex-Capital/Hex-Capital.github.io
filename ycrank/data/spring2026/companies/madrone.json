@@ -62,11 +62,11 @@
     "VK": 41
   },
   "consolidatedAvg": 42.29,
-  "consolidatedRank": 79,
+  "consolidatedRank": 78,
   "traction": {
-    "tractionRank": 93,
-    "tractionScore": 26,
-    "tractionReason": "NVIDIA Inception member, no customers"
+    "tractionRank": 141,
+    "tractionScore": 14,
+    "tractionReason": "NVIDIA Inception Program member"
   },
   "paths": {
     "memo": "spring2026/memos/madrone.md",

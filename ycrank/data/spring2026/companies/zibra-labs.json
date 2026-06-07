@@ -61,11 +61,11 @@
     "VK": 36
   },
   "consolidatedAvg": 44.57,
-  "consolidatedRank": 58,
+  "consolidatedRank": 57,
   "traction": {
-    "tractionRank": 193,
-    "tractionScore": 8,
-    "tractionReason": "YC Spring 2026 only, no customers"
+    "tractionRank": 186,
+    "tractionScore": 7,
+    "tractionReason": "No traction beyond YC batch"
   },
   "paths": {
     "memo": "spring2026/memos/zibra-labs.md",

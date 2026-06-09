@@ -58,11 +58,11 @@
     "VK": 36
   },
   "consolidatedAvg": 41.71,
-  "consolidatedRank": 86,
+  "consolidatedRank": 87,
   "traction": {
-    "tractionRank": 169,
-    "tractionScore": 10,
-    "tractionReason": "Pre-launch waitlist"
+    "tractionRank": 159,
+    "tractionScore": 4,
+    "tractionReason": "Pre-launch waitlist on result.dev"
   },
   "paths": {
     "memo": "spring2026/memos/result.md",

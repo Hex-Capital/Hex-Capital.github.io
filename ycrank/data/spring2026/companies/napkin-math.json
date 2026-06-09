@@ -62,11 +62,11 @@
     "VK": 28
   },
   "consolidatedAvg": 34.71,
-  "consolidatedRank": 173,
+  "consolidatedRank": 174,
   "traction": {
-    "tractionRank": 128,
-    "tractionScore": 16,
-    "tractionReason": "iOS app live in App Store"
+    "tractionRank": 179,
+    "tractionScore": 3,
+    "tractionReason": "iOS app live, insufficient ratings"
   },
   "paths": {
     "memo": "spring2026/memos/napkin-math.md",

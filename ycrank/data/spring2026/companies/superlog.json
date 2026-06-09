@@ -64,9 +64,9 @@
   "consolidatedAvg": 43.14,
   "consolidatedRank": 69,
   "traction": {
-    "tractionRank": 97,
-    "tractionScore": 22,
-    "tractionReason": "Show HN 73 points, \"80-90% PR accept rate\""
+    "tractionRank": 142,
+    "tractionScore": 5,
+    "tractionReason": "Show HN 73 points, GH 6-star repos"
   },
   "paths": {
     "memo": "spring2026/memos/superlog.md",

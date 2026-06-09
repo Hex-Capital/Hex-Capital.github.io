@@ -60,7 +60,11 @@
   },
   "consolidatedAvg": 50.14,
   "consolidatedRank": 18,
-  "traction": null,
+  "traction": {
+    "tractionRank": 49,
+    "tractionScore": 30,
+    "tractionReason": "SOTA benchmarks, NanoGPT record, METR citation"
+  },
   "paths": {
     "memo": "spring2026/memos/asterlab.md",
     "evals": {

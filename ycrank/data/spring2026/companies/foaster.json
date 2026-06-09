@@ -60,11 +60,11 @@
     "VK": 32
   },
   "consolidatedAvg": 40,
-  "consolidatedRank": 106,
+  "consolidatedRank": 107,
   "traction": {
-    "tractionRank": 134,
-    "tractionScore": 15,
-    "tractionReason": "Twitch interview, CEO 6.3K X followers"
+    "tractionRank": 145,
+    "tractionScore": 5,
+    "tractionReason": "YC backing, 6.3K founder X followers"
   },
   "paths": {
     "memo": "spring2026/memos/foaster.md",

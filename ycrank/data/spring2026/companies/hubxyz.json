@@ -62,8 +62,12 @@
     "VK": 34
   },
   "consolidatedAvg": 38.29,
-  "consolidatedRank": 131,
-  "traction": null,
+  "consolidatedRank": 132,
+  "traction": {
+    "tractionRank": 14,
+    "tractionScore": 67,
+    "tractionReason": "500K contributors, $1.7M, Fortune 50"
+  },
   "paths": {
     "memo": "spring2026/memos/hubxyz.md",
     "evals": {

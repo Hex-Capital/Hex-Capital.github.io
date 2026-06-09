@@ -58,11 +58,11 @@
     "VK": 30
   },
   "consolidatedAvg": 39.14,
-  "consolidatedRank": 118,
+  "consolidatedRank": 119,
   "traction": {
-    "tractionRank": 95,
-    "tractionScore": 22,
-    "tractionReason": "66 GitHub stars, 312K view launch tweet"
+    "tractionRank": 118,
+    "tractionScore": 7,
+    "tractionReason": "312K tweet views, 66 GH stars, HF model"
   },
   "paths": {
     "memo": "spring2026/memos/miso-labs.md",

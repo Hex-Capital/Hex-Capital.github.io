@@ -58,11 +58,11 @@
     "VK": 39
   },
   "consolidatedAvg": 39.71,
-  "consolidatedRank": 109,
+  "consolidatedRank": 110,
   "traction": {
-    "tractionRank": 103,
-    "tractionScore": 21,
-    "tractionReason": "4th PH launch, prior Dereference traction"
+    "tractionRank": 149,
+    "tractionScore": 4,
+    "tractionReason": "4th Product Hunt launch, no users"
   },
   "paths": {
     "memo": "spring2026/memos/ara.md",

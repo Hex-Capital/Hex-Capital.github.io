@@ -61,11 +61,11 @@
     "VK": 33
   },
   "consolidatedAvg": 35.71,
-  "consolidatedRank": 160,
+  "consolidatedRank": 161,
   "traction": {
-    "tractionRank": 122,
-    "tractionScore": 17,
-    "tractionReason": "W24 launch, named investor (Taro Fukuyama)"
+    "tractionRank": 128,
+    "tractionScore": 6,
+    "tractionReason": "YC Launch published, prior W24 product"
   },
   "paths": {
     "memo": "spring2026/memos/jo.md",

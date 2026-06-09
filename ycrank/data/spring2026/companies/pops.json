@@ -61,11 +61,11 @@
     "VK": 27
   },
   "consolidatedAvg": 40.57,
-  "consolidatedRank": 98,
+  "consolidatedRank": 99,
   "traction": {
-    "tractionRank": 129,
-    "tractionScore": 16,
-    "tractionReason": "iOS + Google Play apps live"
+    "tractionRank": 109,
+    "tractionScore": 8,
+    "tractionReason": "iOS+Android apps live, no metrics"
   },
   "paths": {
     "memo": "spring2026/memos/pops.md",

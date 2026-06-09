@@ -58,11 +58,11 @@
     "VK": 26
   },
   "consolidatedAvg": 41.14,
-  "consolidatedRank": 93,
+  "consolidatedRank": 94,
   "traction": {
-    "tractionRank": 51,
-    "tractionScore": 38,
-    "tractionReason": "4 named hedge fund clients live"
+    "tractionRank": 56,
+    "tractionScore": 24,
+    "tractionReason": "4 named live clients (Chimera, Cleat)"
   },
   "paths": {
     "memo": "spring2026/memos/river-markets.md",

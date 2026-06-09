@@ -62,11 +62,11 @@
     "VK": 40
   },
   "consolidatedAvg": 41.14,
-  "consolidatedRank": 92,
+  "consolidatedRank": 93,
   "traction": {
-    "tractionRank": 50,
-    "tractionScore": 38,
-    "tractionReason": "Adobe as customer"
+    "tractionRank": 88,
+    "tractionScore": 12,
+    "tractionReason": "Working with Adobe (no detail)"
   },
   "paths": {
     "memo": "spring2026/memos/lab0.md",

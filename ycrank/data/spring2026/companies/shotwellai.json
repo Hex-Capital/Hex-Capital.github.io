@@ -63,9 +63,9 @@
   "consolidatedAvg": 48.57,
   "consolidatedRank": 24,
   "traction": {
-    "tractionRank": 71,
-    "tractionScore": 29,
-    "tractionReason": "Ultra and Parametric customer logos"
+    "tractionRank": 78,
+    "tractionScore": 15,
+    "tractionReason": "Ultra + Parametric customer logos"
   },
   "paths": {
     "memo": "spring2026/memos/shotwellai.md",

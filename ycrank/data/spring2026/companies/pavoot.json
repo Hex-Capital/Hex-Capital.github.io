@@ -61,11 +61,11 @@
     "VK": 26
   },
   "consolidatedAvg": 31.29,
-  "consolidatedRank": 191,
+  "consolidatedRank": 192,
   "traction": {
-    "tractionRank": 142,
-    "tractionScore": 14,
-    "tractionReason": "Sample event metric on homepage"
+    "tractionRank": 70,
+    "tractionScore": 18,
+    "tractionReason": "Illustrative event metrics on landing"
   },
   "paths": {
     "memo": "spring2026/memos/pavoot.md",

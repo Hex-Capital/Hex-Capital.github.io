@@ -61,11 +61,11 @@
     "VK": 30
   },
   "consolidatedAvg": 35.14,
-  "consolidatedRank": 170,
+  "consolidatedRank": 171,
   "traction": {
-    "tractionRank": 44,
-    "tractionScore": 41,
-    "tractionReason": "Carrefour, Tesco, Auchan named logos"
+    "tractionRank": 180,
+    "tractionScore": 3,
+    "tractionReason": "Customer logos Carrefour/Tesco unverified"
   },
   "paths": {
     "memo": "spring2026/memos/netter.md",

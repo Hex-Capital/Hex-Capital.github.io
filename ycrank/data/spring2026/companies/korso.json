@@ -60,11 +60,11 @@
     "VK": 31
   },
   "consolidatedAvg": 33.86,
-  "consolidatedRank": 177,
+  "consolidatedRank": 178,
   "traction": {
-    "tractionRank": 151,
-    "tractionScore": 13,
-    "tractionReason": "Mockup dashboard with fictional companies"
+    "tractionRank": 86,
+    "tractionScore": 12,
+    "tractionReason": "YC P26, dashboard appears to be mockup"
   },
   "paths": {
     "memo": "spring2026/memos/korso.md",

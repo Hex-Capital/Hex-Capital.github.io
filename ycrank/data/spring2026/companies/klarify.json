@@ -62,11 +62,11 @@
     "VK": 32
   },
   "consolidatedAvg": 40.14,
-  "consolidatedRank": 104,
+  "consolidatedRank": 105,
   "traction": {
-    "tractionRank": 16,
-    "tractionScore": 62,
-    "tractionReason": "6,000 therapists on platform"
+    "tractionRank": 12,
+    "tractionScore": 70,
+    "tractionReason": "~6,000 therapists on paid plans"
   },
   "paths": {
     "memo": "spring2026/memos/klarify.md",

@@ -62,9 +62,9 @@
   "consolidatedAvg": 45,
   "consolidatedRank": 51,
   "traction": {
-    "tractionRank": 81,
-    "tractionScore": 26,
-    "tractionReason": "6.6K GitHub stars on prior Julep"
+    "tractionRank": 48,
+    "tractionScore": 31,
+    "tractionReason": "$150/seat plan, Julep prior 6.6K stars"
   },
   "paths": {
     "memo": "spring2026/memos/memory-store.md",

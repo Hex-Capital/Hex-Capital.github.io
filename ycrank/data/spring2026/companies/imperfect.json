@@ -63,9 +63,9 @@
   "consolidatedAvg": 42.43,
   "consolidatedRank": 75,
   "traction": {
-    "tractionRank": 114,
-    "tractionScore": 18,
-    "tractionReason": "813 stars on founder's Garmin library"
+    "tractionRank": 172,
+    "tractionScore": 3,
+    "tractionReason": "Few-athlete beta cohort, founder library"
   },
   "paths": {
     "memo": "spring2026/memos/imperfect.md",

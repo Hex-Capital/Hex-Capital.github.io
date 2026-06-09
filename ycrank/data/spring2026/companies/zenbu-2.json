@@ -62,9 +62,9 @@
   "consolidatedAvg": 45.29,
   "consolidatedRank": 48,
   "traction": {
-    "tractionRank": 94,
-    "tractionScore": 23,
-    "tractionReason": "222 stars + founder's 22K-star React Scan"
+    "tractionRank": 133,
+    "tractionScore": 6,
+    "tractionReason": "222 stars; founder's prior 22K stars"
   },
   "paths": {
     "memo": "spring2026/memos/zenbu-2.md",

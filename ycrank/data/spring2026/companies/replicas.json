@@ -60,11 +60,11 @@
     "VK": 34
   },
   "consolidatedAvg": 39.29,
-  "consolidatedRank": 113,
+  "consolidatedRank": 114,
   "traction": {
-    "tractionRank": 29,
-    "tractionScore": 49,
-    "tractionReason": "20+ YC startups, 12 named logos"
+    "tractionRank": 26,
+    "tractionScore": 53,
+    "tractionReason": "20+ YC startups, 12 named customer logos"
   },
   "paths": {
     "memo": "spring2026/memos/replicas.md",

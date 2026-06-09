@@ -60,11 +60,11 @@
     "VK": 31
   },
   "consolidatedAvg": 38.43,
-  "consolidatedRank": 130,
+  "consolidatedRank": 131,
   "traction": {
-    "tractionRank": 179,
-    "tractionScore": 8,
-    "tractionReason": "Team of 1, no metrics"
+    "tractionRank": 153,
+    "tractionScore": 4,
+    "tractionReason": "YC + F4 backing, team of 1"
   },
   "paths": {
     "memo": "spring2026/memos/scope.md",

@@ -61,11 +61,11 @@
     "VK": 28
   },
   "consolidatedAvg": 31.29,
-  "consolidatedRank": 190,
+  "consolidatedRank": 191,
   "traction": {
-    "tractionRank": 130,
-    "tractionScore": 16,
-    "tractionReason": "Mac app live, Windows waitlist"
+    "tractionRank": 193,
+    "tractionScore": 2,
+    "tractionReason": "Mac app + Windows waitlist"
   },
   "paths": {
     "memo": "spring2026/memos/gravy.md",

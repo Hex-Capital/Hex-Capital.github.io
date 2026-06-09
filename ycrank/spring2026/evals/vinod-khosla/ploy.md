@@ -1,0 +1,30 @@
+﻿# Ploy -- Vinod Khosla Evaluation
+
+Bryant Chou spent twelve years building Webflow into roughly 1% of the most active sites on the internet, and now Ploy is the adjacent extension of that exact stack -- a Web Engine, a Grow Engine, an Ads Engine, bundled. That high/low pairing is Ploy's signature in my portfolio: the highest dimension is founder-market fit by credential, and the lowest is consequence magnitude. When the strongest thing a dossier can say is "the CEO already built the thing he is now extending," I am looking at competence, not at the success-state I underwrite to. McKinsey predicted under 1M U.S. cellphones by 2000 and the actual was 109M -- that is the kind of gap I am hunting for, and Ploy does not pose a world-state question of that shape.
+
+**OpenAI** (2019) is the high rung on consequence: $50M into a no-revenue structure because the success-state collapsed the entire knowledge-work cost curve. Ploy's success-state, by contrast, is "B2B marketing teams stop juggling Webflow plus Warmly plus Default plus HubSpot Breeze." The dossier's own demo numbers -- "23 visitors identified, 12 ICP matches, $1K pipeline, 3 deals" -- describe a workflow improvement, not an economic mechanism that breaks. No incumbent regime disappears if Ploy wins; HubSpot still exists, Webflow still exists, the labor inside marketing departments is reorganized rather than displaced. This is exactly the inversion of my Fortune 2026-03-06 frame -- "$15 trillion of U.S. GDP is labor" -- collapsed into "20-30% efficiency gain inside one persona's workflow." That is my Pass Example almost verbatim.
+
+The low rung on technical risk is my own Pass Example -- the GPT-4 sales-call summarizer with HubSpot integration -- and Ploy's failure mode rhymes with it precisely. **Commonwealth Fusion** (2019) needed magnet physics that consensus VCs would not underwrite; Ploy needs three commoditizing layers (AI site builder, visitor de-anonymization, AI ad creative) where each layer is already being independently rebuilt by Mutiny's April 2026 agent pivot, Default's $4M-from-8VC AI routing agent, and Webflow's own "agentic web marketing platform" rebrand with AI credits added May 13, 2026. The capital risk that repels consensus VCs is absent -- a Founding Engineer slot at $150K-$250K and a 14-person team is the burn profile of any Tier-1 generalist's portfolio. There is no falsifiable miracle here; there is execution.
+
+On founder-defies-expert-consensus, Ploy maps onto the **Glean** known exception structurally -- Arvind Jain was ex-Google search building enterprise search, Bryant Chou is ex-Webflow CTO building a Webflow-adjacent platform -- but the override signal that justified my Glean check is missing. Glean cleared the consequence-magnitude bar at Fortune-500 information-asymmetry scale and required capital depth to train against enterprise corpora; Ploy clears neither, so the same domain-expert-continuity profile reads as the pattern my TED Talk warned about rather than the exception I tolerated. Credentials without consequence is not the trade I make.
+
+Counterfactually, founder learning rate would flip a tier if the dossier described a Bryant Chou thesis update -- a public "I was wrong about how Webflow scaled into the marketing stack" moment of the **Slash** (2024) Kanye-pivot variety. Instead the dossier shows linear continuity: Intuit to Vungle to Webflow to Ploy, each step adjacent, no documented pivot, no public contradiction of his own field. I default to 7/15 here because pre-seed dossiers are short, but I am not lifting it -- there is nothing to lift on.
+
+Required-capital profile is where Ploy diverges most cleanly from my check pattern: **Genesis AI** (2025) deployed a $105M co-led seed against robot foundation models because the roadmap demanded it; Ploy's roadmap is a waitlist gate and a YC-only access page. I am over-resourced for this deal by an order of magnitude, which means any Tier-1 generalist can fund it -- and when any Tier-1 can fund it, my edge is zero.
+
+My 36-month forecast: Ploy is acquired by Webflow for $40-120M between 2027 and 2028 as Bryant Chou's network and Webflow's agentic-platform rebrand make the reverse-acquihire structurally clean, with Ploy's standalone ARR plateauing somewhere between $3M and $8M before the deal closes. The mechanism is the channel conflict the dossier names but underweights -- Webflow built its GTM on agencies and designers, the same wedge Ploy's white-label tier targets, which makes Ploy worth more inside Webflow than outside it.
+
+The bear-case objection I would steel-man against my own forecast is the **DoorDash** (2013) known exception: capital-light consumer logistics, no science risk, consensus market, $72B IPO 2020. Could Ploy be the DoorDash analog inside B2B marketing -- a consensus-bet exception where founder ambition and category reshaping override my consequence prior? The dossier does not support it. DoorDash's success-state reorganized the flow of consumer commerce across millions of restaurants and tens of millions of consumers; Ploy's success-state reorganizes four SaaS subscriptions inside one marketing team. The ambition signal is absent -- no 10-year framing, no "too important not to do" language, no labor-displacement number. The verifiable condition that would flip my verdict is Ploy shipping a single autonomous agent that closes the loop from site visit to outbound to ad spend to closed-won pipeline at named Fortune-500 logos within 18 months -- if that loop runs end-to-end without a human, Ploy is no longer optimization, it is replacing the marketing org, and the consequence dimension rerates. Until then I pass, and I pass in 30 seconds.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Consequence Magnitude If Company Wins | 9/30 |
+| Technical or Capital Risk That Repels Consensus VCs | 6/25 |
+| Founder Defies Documented Expert Consensus | 6/20 |
+| Founder Learning Rate, Demonstrated By Prior Pivot Or Thesis Update | 7/15 |
+| Required-Capital Profile Matches Khosla Check Size | 3/10 |
+| **Total** | **31/100** |
+
+**Total Score: 31/100** (Pass)

@@ -62,11 +62,11 @@
     "VK": 36
   },
   "consolidatedAvg": 41.43,
-  "consolidatedRank": 88,
+  "consolidatedRank": 89,
   "traction": {
-    "tractionRank": 120,
-    "tractionScore": 17,
-    "tractionReason": "Notable investor list (Fidji Simo, Tony Xu)"
+    "tractionRank": 93,
+    "tractionScore": 11,
+    "tractionReason": "Investors Fidji Simo, Tony Xu only"
   },
   "paths": {
     "memo": "spring2026/memos/akkari.md",

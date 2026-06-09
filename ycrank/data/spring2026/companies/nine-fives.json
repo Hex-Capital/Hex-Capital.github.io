@@ -62,9 +62,9 @@
   "consolidatedAvg": 54.86,
   "consolidatedRank": 2,
   "traction": {
-    "tractionRank": 137,
-    "tractionScore": 15,
-    "tractionReason": "4 SKUs listed, YC Launch"
+    "tractionRank": 135,
+    "tractionScore": 6,
+    "tractionReason": "4 SKUs live, YC Launch live"
   },
   "paths": {
     "memo": "spring2026/memos/nine-fives.md",

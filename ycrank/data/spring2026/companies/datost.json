@@ -60,11 +60,11 @@
     "VK": 36
   },
   "consolidatedAvg": 36.43,
-  "consolidatedRank": 146,
+  "consolidatedRank": 147,
   "traction": {
-    "tractionRank": 53,
-    "tractionScore": 37,
-    "tractionReason": "18,402 queries/week"
+    "tractionRank": 40,
+    "tractionScore": 39,
+    "tractionReason": "18,402 queries/week, 75% benchmark"
   },
   "paths": {
     "memo": "spring2026/memos/datost.md",

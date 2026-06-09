@@ -62,10 +62,10 @@
     "VK": 29
   },
   "consolidatedAvg": 39.29,
-  "consolidatedRank": 111,
+  "consolidatedRank": 112,
   "traction": {
-    "tractionRank": 105,
-    "tractionScore": 20,
+    "tractionRank": 147,
+    "tractionScore": 4,
     "tractionReason": "Signals in production since Oct 2025"
   },
   "paths": {

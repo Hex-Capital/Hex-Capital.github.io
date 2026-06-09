@@ -64,9 +64,9 @@
   "consolidatedAvg": 46.43,
   "consolidatedRank": 37,
   "traction": {
-    "tractionRank": 84,
-    "tractionScore": 25,
-    "tractionReason": "EDDA \"shipping now\" to US Government"
+    "tractionRank": 124,
+    "tractionScore": 7,
+    "tractionReason": "\"Shipping now\" to USG, 8+ open roles"
   },
   "paths": {
     "memo": "spring2026/memos/9-mothers-corporation.md",

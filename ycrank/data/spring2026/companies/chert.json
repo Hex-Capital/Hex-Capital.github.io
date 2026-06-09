@@ -62,11 +62,11 @@
     "VK": 27
   },
   "consolidatedAvg": 32.14,
-  "consolidatedRank": 188,
+  "consolidatedRank": 189,
   "traction": {
-    "tractionRank": 54,
-    "tractionScore": 36,
-    "tractionReason": "10 named customers, Launch HN"
+    "tractionRank": 27,
+    "tractionScore": 52,
+    "tractionReason": "10 customer logos, 179 Product Hunt upvotes"
   },
   "paths": {
     "memo": "spring2026/memos/chert.md",

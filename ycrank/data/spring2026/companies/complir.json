@@ -62,9 +62,9 @@
   "consolidatedAvg": 45.86,
   "consolidatedRank": 42,
   "traction": {
-    "tractionRank": 15,
-    "tractionScore": 63,
-    "tractionReason": "109K products, named retailers, 45% MoM"
+    "tractionRank": 22,
+    "tractionScore": 57,
+    "tractionReason": "109K products, 7 named retailers, 45% MoM"
   },
   "paths": {
     "memo": "spring2026/memos/complir.md",

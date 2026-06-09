@@ -63,9 +63,9 @@
   "consolidatedAvg": 42.86,
   "consolidatedRank": 72,
   "traction": {
-    "tractionRank": 139,
-    "tractionScore": 14,
-    "tractionReason": "\"Fortune 500\" claim with no named logos"
+    "tractionRank": 185,
+    "tractionScore": 2,
+    "tractionReason": "\"F500 + global consultancies\" vague"
   },
   "paths": {
     "memo": "spring2026/memos/regbase.md",

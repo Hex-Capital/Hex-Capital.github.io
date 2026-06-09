@@ -60,11 +60,11 @@
     "VK": 30
   },
   "consolidatedAvg": 34.43,
-  "consolidatedRank": 175,
+  "consolidatedRank": 176,
   "traction": {
-    "tractionRank": 143,
-    "tractionScore": 14,
-    "tractionReason": "Single founder X testimonial post"
+    "tractionRank": 132,
+    "tractionScore": 6,
+    "tractionReason": "One X user testimonial, free trial"
   },
   "paths": {
     "memo": "spring2026/memos/lamina-labs.md",

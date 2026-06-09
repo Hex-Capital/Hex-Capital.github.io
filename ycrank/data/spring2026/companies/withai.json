@@ -62,9 +62,9 @@
   "consolidatedAvg": 44.57,
   "consolidatedRank": 56,
   "traction": {
-    "tractionRank": 10,
-    "tractionScore": 70,
-    "tractionReason": "$100K+ ARR with multiple clients"
+    "tractionRank": 16,
+    "tractionScore": 64,
+    "tractionReason": ">$100K ARR, Mercator Partners client"
   },
   "paths": {
     "memo": "spring2026/memos/withai.md",

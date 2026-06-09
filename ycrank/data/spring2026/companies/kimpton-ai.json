@@ -60,11 +60,11 @@
     "VK": 32
   },
   "consolidatedAvg": 39.14,
-  "consolidatedRank": 117,
+  "consolidatedRank": 118,
   "traction": {
-    "tractionRank": 131,
-    "tractionScore": 16,
-    "tractionReason": "FactSet/Tiingo/Plaid partnerships"
+    "tractionRank": 148,
+    "tractionScore": 4,
+    "tractionReason": "Data partnerships (FactSet, Plaid) only"
   },
   "paths": {
     "memo": "spring2026/memos/kimpton-ai.md",

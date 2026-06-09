@@ -57,9 +57,9 @@
   "consolidatedAvg": 48.57,
   "consolidatedRank": 23,
   "traction": {
-    "tractionRank": 9,
-    "tractionScore": 76,
-    "tractionReason": "$496K ARR"
+    "tractionRank": 8,
+    "tractionScore": 77,
+    "tractionReason": "$496K ARR, 3 named customers"
   },
   "paths": {
     "memo": "spring2026/memos/dayjob.md",

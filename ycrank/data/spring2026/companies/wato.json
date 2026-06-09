@@ -59,11 +59,11 @@
     "VK": 29
   },
   "consolidatedAvg": 32.29,
-  "consolidatedRank": 187,
+  "consolidatedRank": 188,
   "traction": {
-    "tractionRank": 168,
-    "tractionScore": 10,
-    "tractionReason": "Private beta open"
+    "tractionRank": 152,
+    "tractionScore": 4,
+    "tractionReason": "Private beta only, launched May 17"
   },
   "paths": {
     "memo": "spring2026/memos/wato.md",

@@ -63,9 +63,9 @@
   "consolidatedAvg": 44.57,
   "consolidatedRank": 57,
   "traction": {
-    "tractionRank": 186,
-    "tractionScore": 7,
-    "tractionReason": "No traction beyond YC batch"
+    "tractionRank": 194,
+    "tractionScore": 2,
+    "tractionReason": "YC P26 backing only, Ray users cited"
   },
   "paths": {
     "memo": "spring2026/memos/zibra-labs.md",

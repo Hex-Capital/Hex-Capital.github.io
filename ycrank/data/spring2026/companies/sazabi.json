@@ -60,9 +60,9 @@
   "consolidatedAvg": 43.43,
   "consolidatedRank": 68,
   "traction": {
-    "tractionRank": 135,
-    "tractionScore": 15,
-    "tractionReason": "Stealth exit press coverage"
+    "tractionRank": 154,
+    "tractionScore": 4,
+    "tractionReason": "Stealth exit, waitlist, pre-revenue"
   },
   "paths": {
     "memo": "spring2026/memos/sazabi.md",

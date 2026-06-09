@@ -61,11 +61,11 @@
     "VK": 23
   },
   "consolidatedAvg": 32.86,
-  "consolidatedRank": 181,
+  "consolidatedRank": 182,
   "traction": {
-    "tractionRank": 175,
-    "tractionScore": 9,
-    "tractionReason": "Team of 2, no traction"
+    "tractionRank": 99,
+    "tractionScore": 10,
+    "tractionReason": "Team of 2, free + paid plans available"
   },
   "paths": {
     "memo": "spring2026/memos/drippay.md",

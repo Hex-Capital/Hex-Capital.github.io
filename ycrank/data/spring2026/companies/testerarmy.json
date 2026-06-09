@@ -60,11 +60,11 @@
     "VK": 25
   },
   "consolidatedAvg": 38.71,
-  "consolidatedRank": 127,
+  "consolidatedRank": 128,
   "traction": {
-    "tractionRank": 163,
-    "tractionScore": 11,
-    "tractionReason": "YC launch + Discord/community live"
+    "tractionRank": 119,
+    "tractionScore": 7,
+    "tractionReason": "YC + LAUNCH30 promo, pricing tiers live"
   },
   "paths": {
     "memo": "spring2026/memos/testerarmy.md",

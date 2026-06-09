@@ -1,0 +1,82 @@
+{
+  "slug": "ploy",
+  "name": "Ploy",
+  "oneLiner": "Ploy turns your website into your company's growth engine.",
+  "metadata": {
+    "website": "https://ploy.ai",
+    "yc_page": "https://www.ycombinator.com/companies/ploy",
+    "batch": "Spring 2026",
+    "industry": "B2B / B2B",
+    "team_size": "14",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Marketing, Enterprise Software, Web Development",
+    "yc_partner": "Garry Tan (per YC company page)",
+    "emails": "hello@ploy.ai"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Marketing",
+    "Enterprise Software",
+    "Web Development"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-06-09T16:10:30.250Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 31,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 50,
+    "EG": 44,
+    "NR": 50,
+    "PG": 50,
+    "PT": 34,
+    "SL": 34,
+    "VK": 31
+  },
+  "consolidatedAvg": 41.86,
+  "consolidatedRank": 84,
+  "traction": {
+    "tractionRank": 150,
+    "tractionScore": 4,
+    "tractionReason": "Waitlist only, team of 14"
+  },
+  "paths": {
+    "memo": "spring2026/memos/ploy.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/ploy.md",
+      "elad-gil": "spring2026/evals/elad-gil/ploy.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/ploy.md",
+      "paul-graham": "spring2026/evals/paul-graham/ploy.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/ploy.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/ploy.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/ploy.md"
+    }
+  }
+}

@@ -60,11 +60,11 @@
     "VK": 31
   },
   "consolidatedAvg": 39.29,
-  "consolidatedRank": 114,
+  "consolidatedRank": 115,
   "traction": {
-    "tractionRank": 147,
-    "tractionScore": 14,
-    "tractionReason": "One customer-cited $50K/site/month claim"
+    "tractionRank": 190,
+    "tractionScore": 2,
+    "tractionReason": "Website not rendering, one quote"
   },
   "paths": {
     "memo": "spring2026/memos/transload.md",

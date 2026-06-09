@@ -57,9 +57,9 @@
   "consolidatedAvg": 44.29,
   "consolidatedRank": 60,
   "traction": {
-    "tractionRank": 155,
-    "tractionScore": 12,
-    "tractionReason": "Investors named, in-house model claim"
+    "tractionRank": 157,
+    "tractionScore": 4,
+    "tractionReason": "Investor list only, hiring open"
   },
   "paths": {
     "memo": "spring2026/memos/biostack-platforms.md",

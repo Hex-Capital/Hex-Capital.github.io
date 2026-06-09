@@ -63,9 +63,9 @@
   "consolidatedAvg": 45.57,
   "consolidatedRank": 45,
   "traction": {
-    "tractionRank": 25,
-    "tractionScore": 53,
-    "tractionReason": "Google, Replit, YC, LangChain as customers"
+    "tractionRank": 59,
+    "tractionScore": 22,
+    "tractionReason": "6 customer logos (Google ADK, LangChain)"
   },
   "paths": {
     "memo": "spring2026/memos/agentphone.md",

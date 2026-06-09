@@ -59,11 +59,11 @@
     "VK": 29
   },
   "consolidatedAvg": 38.14,
-  "consolidatedRank": 133,
+  "consolidatedRank": 134,
   "traction": {
-    "tractionRank": 118,
-    "tractionScore": 18,
-    "tractionReason": "Investors named (Palantir, Joko), MCP claim"
+    "tractionRank": 80,
+    "tractionScore": 14,
+    "tractionReason": "Palantir-backed, pricing live, no users"
   },
   "paths": {
     "memo": "spring2026/memos/armature.md",

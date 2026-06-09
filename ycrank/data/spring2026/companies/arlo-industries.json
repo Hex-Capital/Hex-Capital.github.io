@@ -64,9 +64,9 @@
   "consolidatedAvg": 54,
   "consolidatedRank": 5,
   "traction": {
-    "tractionRank": 83,
-    "tractionScore": 25,
-    "tractionReason": "Field demos to Ukrainian frontline militaries"
+    "tractionRank": 125,
+    "tractionScore": 7,
+    "tractionReason": "Field demos to Ukrainian militaries"
   },
   "paths": {
     "memo": "spring2026/memos/arlo-industries.md",

@@ -57,9 +57,9 @@
   "consolidatedAvg": 45.14,
   "consolidatedRank": 49,
   "traction": {
-    "tractionRank": 20,
-    "tractionScore": 58,
-    "tractionReason": "25,000 patients/day in production"
+    "tractionRank": 33,
+    "tractionScore": 46,
+    "tractionReason": "Claimed 25,000 patients/day in production"
   },
   "paths": {
     "memo": "spring2026/memos/minicor.md",

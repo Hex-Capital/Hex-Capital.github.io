@@ -62,9 +62,9 @@
   "consolidatedAvg": 45.71,
   "consolidatedRank": 44,
   "traction": {
-    "tractionRank": 111,
-    "tractionScore": 19,
-    "tractionReason": "Pre-seed from YC + Pioneer, launched May 2026"
+    "tractionRank": 92,
+    "tractionScore": 11,
+    "tractionReason": "YC + Pioneer pre-seed, press blitz"
   },
   "paths": {
     "memo": "spring2026/memos/mochatrade.md",

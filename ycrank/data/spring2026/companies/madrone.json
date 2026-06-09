@@ -64,9 +64,9 @@
   "consolidatedAvg": 42.29,
   "consolidatedRank": 78,
   "traction": {
-    "tractionRank": 141,
-    "tractionScore": 14,
-    "tractionReason": "NVIDIA Inception Program member"
+    "tractionRank": 130,
+    "tractionScore": 6,
+    "tractionReason": "NVIDIA Inception, YC P26 launch post"
   },
   "paths": {
     "memo": "spring2026/memos/madrone.md",

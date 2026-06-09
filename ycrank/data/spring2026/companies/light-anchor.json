@@ -59,11 +59,11 @@
     "VK": 30
   },
   "consolidatedAvg": 39,
-  "consolidatedRank": 121,
+  "consolidatedRank": 122,
   "traction": {
-    "tractionRank": 145,
-    "tractionScore": 14,
-    "tractionReason": "5 brands across 4 verticals"
+    "tractionRank": 46,
+    "tractionScore": 33,
+    "tractionReason": "5 brands across 4 verticals live"
   },
   "paths": {
     "memo": "spring2026/memos/light-anchor.md",

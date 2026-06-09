@@ -63,9 +63,9 @@
   "consolidatedAvg": 47,
   "consolidatedRank": 33,
   "traction": {
-    "tractionRank": 152,
-    "tractionScore": 13,
-    "tractionReason": "Example case shown on landing page"
+    "tractionRank": 110,
+    "tractionScore": 8,
+    "tractionReason": "32-GPU example case, OS scanner tool"
   },
   "paths": {
     "memo": "spring2026/memos/expanse.md",

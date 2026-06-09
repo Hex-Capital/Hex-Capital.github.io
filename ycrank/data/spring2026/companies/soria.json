@@ -60,11 +60,11 @@
     "VK": 30
   },
   "consolidatedAvg": 41.14,
-  "consolidatedRank": 94,
+  "consolidatedRank": 95,
   "traction": {
-    "tractionRank": 78,
-    "tractionScore": 27,
-    "tractionReason": "\"Bulge bracket banks\" claim, 125+ data sources"
+    "tractionRank": 66,
+    "tractionScore": 19,
+    "tractionReason": "Claims \"Bulge Bracket Banks\" customers"
   },
   "paths": {
     "memo": "spring2026/memos/soria.md",

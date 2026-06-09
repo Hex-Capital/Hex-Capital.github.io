@@ -63,9 +63,9 @@
   "consolidatedAvg": 52.29,
   "consolidatedRank": 12,
   "traction": {
-    "tractionRank": 34,
-    "tractionScore": 46,
-    "tractionReason": "7 named platform customers (Replit, Rork etc.)"
+    "tractionRank": 58,
+    "tractionScore": 23,
+    "tractionReason": "7 platform customers (Replit, Rork)"
   },
   "paths": {
     "memo": "spring2026/memos/limrun.md",

@@ -62,9 +62,9 @@
   "consolidatedAvg": 53,
   "consolidatedRank": 8,
   "traction": {
-    "tractionRank": 7,
-    "tractionScore": 78,
-    "tractionReason": "$58K MRR, 100% MoM growth"
+    "tractionRank": 6,
+    "tractionScore": 81,
+    "tractionReason": "$58K MRR, 100% MoM, named customers"
   },
   "paths": {
     "memo": "spring2026/memos/manicule.md",

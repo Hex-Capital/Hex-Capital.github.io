@@ -60,11 +60,11 @@
     "VK": 31
   },
   "consolidatedAvg": 40,
-  "consolidatedRank": 107,
+  "consolidatedRank": 108,
   "traction": {
-    "tractionRank": 133,
-    "tractionScore": 15,
-    "tractionReason": "$500K YC, launch tweet"
+    "tractionRank": 168,
+    "tractionScore": 3,
+    "tractionReason": "$500K YC standard, Founderland article"
   },
   "paths": {
     "memo": "spring2026/memos/framewise-health.md",

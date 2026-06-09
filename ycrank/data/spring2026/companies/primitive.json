@@ -62,11 +62,11 @@
     "VK": 30
   },
   "consolidatedAvg": 35.43,
-  "consolidatedRank": 166,
+  "consolidatedRank": 167,
   "traction": {
-    "tractionRank": 157,
-    "tractionScore": 12,
-    "tractionReason": "2 open founding engineer roles"
+    "tractionRank": 155,
+    "tractionScore": 4,
+    "tractionReason": "Beta product, 2 founding engineer roles"
   },
   "paths": {
     "memo": "spring2026/memos/primitive.md",

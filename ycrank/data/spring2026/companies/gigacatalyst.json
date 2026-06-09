@@ -61,11 +61,11 @@
     "VK": 32
   },
   "consolidatedAvg": 41,
-  "consolidatedRank": 95,
+  "consolidatedRank": 96,
   "traction": {
-    "tractionRank": 27,
-    "tractionScore": 51,
-    "tractionReason": "1,000+ DAU at UpKeep, $1M pipeline unblocked"
+    "tractionRank": 94,
+    "tractionScore": 11,
+    "tractionReason": "$1M customer pipeline, 1K DAU claims"
   },
   "paths": {
     "memo": "spring2026/memos/gigacatalyst.md",

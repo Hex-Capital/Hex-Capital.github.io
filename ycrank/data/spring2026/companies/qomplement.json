@@ -62,11 +62,11 @@
     "VK": 37
   },
   "consolidatedAvg": 41.29,
-  "consolidatedRank": 91,
+  "consolidatedRank": 92,
   "traction": {
-    "tractionRank": 39,
-    "tractionScore": 44,
-    "tractionReason": "10K+ docs/day across 20+ companies"
+    "tractionRank": 21,
+    "tractionScore": 58,
+    "tractionReason": "20+ companies, 10K docs/day, grocery chains"
   },
   "paths": {
     "memo": "spring2026/memos/qomplement.md",

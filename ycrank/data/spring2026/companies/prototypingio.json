@@ -61,11 +61,11 @@
     "VK": 36
   },
   "consolidatedAvg": 36.86,
-  "consolidatedRank": 144,
+  "consolidatedRank": 145,
   "traction": {
-    "tractionRank": 166,
-    "tractionScore": 10,
-    "tractionReason": "Early-access waitlist only"
+    "tractionRank": 184,
+    "tractionScore": 2,
+    "tractionReason": "Waitlist only, no traction"
   },
   "paths": {
     "memo": "spring2026/memos/prototypingio.md",

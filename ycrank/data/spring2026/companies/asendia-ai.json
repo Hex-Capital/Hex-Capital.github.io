@@ -61,11 +61,11 @@
     "VK": 32
   },
   "consolidatedAvg": 39.14,
-  "consolidatedRank": 115,
+  "consolidatedRank": 116,
   "traction": {
-    "tractionRank": 8,
-    "tractionScore": 77,
-    "tractionReason": "$500K+ revenue"
+    "tractionRank": 9,
+    "tractionScore": 75,
+    "tractionReason": "$500K+ revenue, SGF Global 2x hires"
   },
   "paths": {
     "memo": "spring2026/memos/asendia-ai.md",

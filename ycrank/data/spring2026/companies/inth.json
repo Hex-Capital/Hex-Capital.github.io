@@ -64,7 +64,7 @@
   "consolidatedRank": 3,
   "traction": {
     "tractionRank": 42,
-    "tractionScore": 42,
+    "tractionScore": 37,
     "tractionReason": "2.6M npm downloads, Vercel/Expo adopters"
   },
   "paths": {

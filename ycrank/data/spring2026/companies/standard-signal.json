@@ -59,11 +59,11 @@
     "VK": 42
   },
   "consolidatedAvg": 37,
-  "consolidatedRank": 143,
+  "consolidatedRank": 144,
   "traction": {
-    "tractionRank": 176,
-    "tractionScore": 9,
-    "tractionReason": "Solo team, no AUM disclosed"
+    "tractionRank": 161,
+    "tractionScore": 4,
+    "tractionReason": "YC P26, solo team, no AUM"
   },
   "paths": {
     "memo": "spring2026/memos/standard-signal.md",

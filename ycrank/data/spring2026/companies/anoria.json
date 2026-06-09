@@ -62,11 +62,11 @@
     "VK": 36
   },
   "consolidatedAvg": 35.86,
-  "consolidatedRank": 158,
+  "consolidatedRank": 159,
   "traction": {
-    "tractionRank": 161,
-    "tractionScore": 11,
-    "tractionReason": "Two-month-old prototype in testing"
+    "tractionRank": 129,
+    "tractionScore": 6,
+    "tractionReason": "Prototype testing, ex-Apple team press"
   },
   "paths": {
     "memo": "spring2026/memos/anoria.md",

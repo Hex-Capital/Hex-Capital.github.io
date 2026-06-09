@@ -60,11 +60,11 @@
     "VK": 37
   },
   "consolidatedAvg": 41.57,
-  "consolidatedRank": 87,
+  "consolidatedRank": 88,
   "traction": {
-    "tractionRank": 164,
-    "tractionScore": 11,
-    "tractionReason": "YC + MIT Heals accelerator selections"
+    "tractionRank": 186,
+    "tractionScore": 2,
+    "tractionReason": "Website under construction, accelerator picks"
   },
   "paths": {
     "memo": "spring2026/memos/abinitio-bio.md",

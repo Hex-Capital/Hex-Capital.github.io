@@ -62,9 +62,9 @@
   "consolidatedAvg": 44.86,
   "consolidatedRank": 53,
   "traction": {
-    "tractionRank": 41,
-    "tractionScore": 43,
-    "tractionReason": "10.7K stars, 2,000+ DBs hosted"
+    "tractionRank": 44,
+    "tractionScore": 35,
+    "tractionReason": "10.7K stars, 198 PH, 2,000 databases"
   },
   "paths": {
     "memo": "spring2026/memos/insforge.md",

@@ -64,9 +64,9 @@
   "consolidatedAvg": 43.71,
   "consolidatedRank": 66,
   "traction": {
-    "tractionRank": 43,
-    "tractionScore": 42,
-    "tractionReason": "20M end users protected, Sadq partnership"
+    "tractionRank": 67,
+    "tractionScore": 19,
+    "tractionReason": "Apps with 20M end users, Sadq partnership"
   },
   "paths": {
     "memo": "spring2026/memos/raspire.md",

@@ -64,9 +64,9 @@
   "consolidatedAvg": 48.57,
   "consolidatedRank": 22,
   "traction": {
-    "tractionRank": 64,
-    "tractionScore": 31,
-    "tractionReason": "Stealth exit with coordinated press"
+    "tractionRank": 120,
+    "tractionScore": 7,
+    "tractionReason": "Stealth-exit press, 4 open roles"
   },
   "paths": {
     "memo": "spring2026/memos/aseon-labs.md",

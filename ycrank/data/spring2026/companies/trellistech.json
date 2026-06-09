@@ -57,9 +57,9 @@
   "consolidatedAvg": 44.71,
   "consolidatedRank": 55,
   "traction": {
-    "tractionRank": 33,
-    "tractionScore": 46,
-    "tractionReason": "Customer with 100+ units, 84.5% automation"
+    "tractionRank": 29,
+    "tractionScore": 50,
+    "tractionReason": "100+ unit operator customer, 200+ integrations"
   },
   "paths": {
     "memo": "spring2026/memos/trellistech.md",

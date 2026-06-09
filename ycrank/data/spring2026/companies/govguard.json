@@ -58,11 +58,11 @@
     "VK": 28
   },
   "consolidatedAvg": 34,
-  "consolidatedRank": 176,
+  "consolidatedRank": 177,
   "traction": {
-    "tractionRank": 144,
-    "tractionScore": 14,
-    "tractionReason": "\"20x faster FOIA\" claim only"
+    "tractionRank": 169,
+    "tractionScore": 3,
+    "tractionReason": "YC P26 launch post, no customers"
   },
   "paths": {
     "memo": "spring2026/memos/govguard.md",

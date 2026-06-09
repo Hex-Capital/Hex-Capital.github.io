@@ -61,11 +61,11 @@
     "VK": 31
   },
   "consolidatedAvg": 36.29,
-  "consolidatedRank": 153,
+  "consolidatedRank": 154,
   "traction": {
-    "tractionRank": 75,
-    "tractionScore": 28,
-    "tractionReason": "90-day pilot shop with $150K-$180K monthly revenue"
+    "tractionRank": 71,
+    "tractionScore": 17,
+    "tractionReason": "1 pilot shop $150K-$180K monthly revenue"
   },
   "paths": {
     "memo": "spring2026/memos/useparrot.md",

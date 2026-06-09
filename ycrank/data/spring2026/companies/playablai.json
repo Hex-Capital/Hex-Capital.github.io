@@ -62,9 +62,9 @@
   "consolidatedAvg": 44.71,
   "consolidatedRank": 54,
   "traction": {
-    "tractionRank": 63,
-    "tractionScore": 32,
-    "tractionReason": "40,000 users in first month of beta"
+    "tractionRank": 61,
+    "tractionScore": 22,
+    "tractionReason": "40,000 users in first month beta"
   },
   "paths": {
     "memo": "spring2026/memos/playablai.md",

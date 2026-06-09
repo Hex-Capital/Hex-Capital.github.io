@@ -61,11 +61,11 @@
     "VK": 34
   },
   "consolidatedAvg": 35.71,
-  "consolidatedRank": 159,
+  "consolidatedRank": 160,
   "traction": {
-    "tractionRank": 109,
-    "tractionScore": 19,
-    "tractionReason": "$650K pre-seed"
+    "tractionRank": 113,
+    "tractionScore": 8,
+    "tractionReason": "$650K pre-seed, no users disclosed"
   },
   "paths": {
     "memo": "spring2026/memos/enjamb-labs.md",

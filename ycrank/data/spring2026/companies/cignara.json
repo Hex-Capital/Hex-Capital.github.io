@@ -59,11 +59,11 @@
     "VK": 35
   },
   "consolidatedAvg": 32.71,
-  "consolidatedRank": 182,
+  "consolidatedRank": 183,
   "traction": {
-    "tractionRank": 180,
-    "tractionScore": 8,
-    "tractionReason": "No named logos or metrics"
+    "tractionRank": 89,
+    "tractionScore": 12,
+    "tractionReason": "Vague \"industry leaders\" claim"
   },
   "paths": {
     "memo": "spring2026/memos/cignara.md",

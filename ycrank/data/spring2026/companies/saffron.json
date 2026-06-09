@@ -60,11 +60,11 @@
     "VK": 31
   },
   "consolidatedAvg": 38.14,
-  "consolidatedRank": 134,
+  "consolidatedRank": 135,
   "traction": {
-    "tractionRank": 117,
-    "tractionScore": 18,
-    "tractionReason": "Pricing live ($199-$499/mo), Afore backing"
+    "tractionRank": 104,
+    "tractionScore": 9,
+    "tractionReason": "YC + Afore backing, pricing live"
   },
   "paths": {
     "memo": "spring2026/memos/saffron.md",

@@ -61,11 +61,11 @@
     "VK": 28
   },
   "consolidatedAvg": 37.14,
-  "consolidatedRank": 138,
+  "consolidatedRank": 139,
   "traction": {
-    "tractionRank": 182,
-    "tractionScore": 8,
-    "tractionReason": "YC launch tweet only"
+    "tractionRank": 96,
+    "tractionScore": 10,
+    "tractionReason": "Illustrative example study metrics"
   },
   "paths": {
     "memo": "spring2026/memos/auxos.md",

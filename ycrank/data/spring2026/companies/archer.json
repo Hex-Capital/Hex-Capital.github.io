@@ -60,11 +60,11 @@
     "VK": 31
   },
   "consolidatedAvg": 37,
-  "consolidatedRank": 142,
+  "consolidatedRank": 143,
   "traction": {
-    "tractionRank": 126,
-    "tractionScore": 16,
-    "tractionReason": "Named investors only, no metrics"
+    "tractionRank": 112,
+    "tractionScore": 8,
+    "tractionReason": "YC investor logos only"
   },
   "paths": {
     "memo": "spring2026/memos/archer.md",

@@ -8,12 +8,11 @@ Hex Capital is a static venture capital portfolio site hosted on GitHub Pages at
 
 ## Running Locally
 
-Any static file server works:
+Always serve the site at `http://localhost:3000/hex-capital/`:
 ```
-python -m http.server 5000
-npx http-server -p 5000
+node _serve.js
 ```
-Then open `http://localhost:5000`. There is no build step.
+`_serve.js` is a front router on port 3000: it serves this repo's static files under the `/hex-capital` path prefix, and proxies all other paths — `/ycrank` plus ycrank's absolute root paths (`/login`, `/web/*`, `/api/*`, batch data) — to the ycrank dev server on port 3001. Start that one from the ycrank source repo with `PORT=3001 node web/server.js` (`C:\AnkurPrograms\ycrank`); the Hex-Capital pages still work when it's down. There is no build step.
 
 ## Deployment
 

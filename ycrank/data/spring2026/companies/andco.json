@@ -59,11 +59,11 @@
     "VK": 36
   },
   "consolidatedAvg": 44.29,
-  "consolidatedRank": 58,
+  "consolidatedRank": 59,
   "traction": {
-    "tractionRank": 13,
-    "tractionScore": 68,
-    "tractionReason": "Hundreds of cases live, $12M pre-seed"
+    "tractionRank": 14,
+    "tractionScore": 64,
+    "tractionReason": "$12M pre-seed, hundreds of cases monthly live"
   },
   "paths": {
     "memo": "spring2026/memos/andco.md",

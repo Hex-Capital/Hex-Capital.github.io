@@ -62,11 +62,11 @@
     "VK": 38
   },
   "consolidatedAvg": 35.43,
-  "consolidatedRank": 168,
+  "consolidatedRank": 169,
   "traction": {
-    "tractionRank": 106,
-    "tractionScore": 9,
-    "tractionReason": "$704K raised, WTC + Tiger Launch awards"
+    "tractionRank": 148,
+    "tractionScore": 8,
+    "tractionReason": "$704K total, hackathon awards, 14 followers"
   },
   "paths": {
     "memo": "spring2026/memos/projectx.md",

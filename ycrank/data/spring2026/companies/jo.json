@@ -61,11 +61,11 @@
     "VK": 33
   },
   "consolidatedAvg": 35.71,
-  "consolidatedRank": 161,
+  "consolidatedRank": 162,
   "traction": {
-    "tractionRank": 128,
-    "tractionScore": 6,
-    "tractionReason": "YC Launch published, prior W24 product"
+    "tractionRank": 179,
+    "tractionScore": 4,
+    "tractionReason": "Free during beta, no disclosed users"
   },
   "paths": {
     "memo": "spring2026/memos/jo.md",

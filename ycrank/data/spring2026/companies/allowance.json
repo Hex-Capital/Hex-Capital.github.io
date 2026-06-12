@@ -60,11 +60,11 @@
     "VK": 30
   },
   "consolidatedAvg": 43.86,
-  "consolidatedRank": 65,
+  "consolidatedRank": 66,
   "traction": {
-    "tractionRank": 100,
-    "tractionScore": 10,
-    "tractionReason": "iPhone early public beta"
+    "tractionRank": 94,
+    "tractionScore": 19,
+    "tractionReason": "iPhone app in early public beta"
   },
   "paths": {
     "memo": "spring2026/memos/allowance.md",

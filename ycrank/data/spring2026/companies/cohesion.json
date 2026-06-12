@@ -60,11 +60,11 @@
     "VK": 28
   },
   "consolidatedAvg": 37.14,
-  "consolidatedRank": 140,
+  "consolidatedRank": 141,
   "traction": {
-    "tractionRank": 30,
-    "tractionScore": 49,
-    "tractionReason": "10+ funds, $10Bn combined AUM"
+    "tractionRank": 27,
+    "tractionScore": 50,
+    "tractionReason": "10+ hedge fund customers, $10B+ combined AUM"
   },
   "paths": {
     "memo": "spring2026/memos/cohesion.md",

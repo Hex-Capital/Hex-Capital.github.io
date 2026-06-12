@@ -60,11 +60,11 @@
     "VK": 25
   },
   "consolidatedAvg": 31.43,
-  "consolidatedRank": 190,
+  "consolidatedRank": 191,
   "traction": {
-    "tractionRank": 158,
-    "tractionScore": 4,
-    "tractionReason": "SWE-Bench Pro internal benchmark"
+    "tractionRank": 138,
+    "tractionScore": 10,
+    "tractionReason": "Internal SWE-Bench benchmark only"
   },
   "paths": {
     "memo": "spring2026/memos/reasonblocks.md",

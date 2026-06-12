@@ -60,11 +60,11 @@
     "VK": 26
   },
   "consolidatedAvg": 34.57,
-  "consolidatedRank": 175,
+  "consolidatedRank": 176,
   "traction": {
     "tractionRank": 17,
-    "tractionScore": 63,
-    "tractionReason": "$9K MRR from 3 customers in 6 weeks"
+    "tractionScore": 60,
+    "tractionReason": "$9K MRR, 3 customers in 6 weeks"
   },
   "paths": {
     "memo": "spring2026/memos/hexa.md",

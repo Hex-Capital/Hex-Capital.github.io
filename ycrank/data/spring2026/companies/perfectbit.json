@@ -61,9 +61,9 @@
   "consolidatedAvg": 45.14,
   "consolidatedRank": 50,
   "traction": {
-    "tractionRank": 183,
-    "tractionScore": 3,
-    "tractionReason": "No public data found"
+    "tractionRank": 150,
+    "tractionScore": 7,
+    "tractionReason": "Social handles only, no disclosed traction"
   },
   "paths": {
     "memo": "spring2026/memos/perfectbit.md",

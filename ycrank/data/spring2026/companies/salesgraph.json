@@ -60,11 +60,11 @@
     "VK": 27
   },
   "consolidatedAvg": 35.57,
-  "consolidatedRank": 163,
+  "consolidatedRank": 164,
   "traction": {
-    "tractionRank": 91,
-    "tractionScore": 11,
-    "tractionReason": "12+ integrations live, no users"
+    "tractionRank": 128,
+    "tractionScore": 12,
+    "tractionReason": "Live website with 12+ integrations, no customers"
   },
   "paths": {
     "memo": "spring2026/memos/salesgraph.md",

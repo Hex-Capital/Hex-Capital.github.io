@@ -61,9 +61,9 @@
   "consolidatedAvg": 46,
   "consolidatedRank": 39,
   "traction": {
-    "tractionRank": 57,
-    "tractionScore": 23,
-    "tractionReason": "3.4K stars, 499 HN points"
+    "tractionRank": 55,
+    "tractionScore": 33,
+    "tractionReason": "3.4K stars, Show HN 499 points"
   },
   "paths": {
     "memo": "spring2026/memos/smol-machines.md",

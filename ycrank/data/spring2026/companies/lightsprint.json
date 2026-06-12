@@ -62,11 +62,11 @@
     "VK": 32
   },
   "consolidatedAvg": 38,
-  "consolidatedRank": 136,
+  "consolidatedRank": 137,
   "traction": {
-    "tractionRank": 136,
-    "tractionScore": 6,
-    "tractionReason": "Warmly.ai single customer testimonial"
+    "tractionRank": 104,
+    "tractionScore": 17,
+    "tractionReason": "Warmly.ai VP Eng testimonial only"
   },
   "paths": {
     "memo": "spring2026/memos/lightsprint.md",

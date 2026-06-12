@@ -1,0 +1,79 @@
+{
+  "slug": "savant",
+  "name": "Savant",
+  "oneLiner": "Company brain every AI-native enterprise runs on",
+  "metadata": {
+    "website": "https://heysavant.com/",
+    "yc_page": "https://www.ycombinator.com/companies/savant",
+    "batch": "Spring 2026 (YC company page)",
+    "industry": "B2B / B2B -> Productivity",
+    "team_size": "2",
+    "location": "Not listed on YC page",
+    "tags": "None listed",
+    "yc_partner": "Harj Taggar (YC company page)",
+    "emails": "contact@heysavant.com (heysavant.com)"
+  },
+  "tags": [
+    "None listed"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-06-12T19:10:37.727Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 21,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 32,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 29,
+    "EG": 34,
+    "NR": 33,
+    "PG": 35,
+    "PT": 27,
+    "SL": 21,
+    "VK": 32
+  },
+  "consolidatedAvg": 30.14,
+  "consolidatedRank": 195,
+  "traction": {
+    "tractionRank": 184,
+    "tractionScore": 4,
+    "tractionReason": "YC backing only, no public traction data"
+  },
+  "paths": {
+    "memo": "spring2026/memos/savant.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/savant.md",
+      "elad-gil": "spring2026/evals/elad-gil/savant.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/savant.md",
+      "paul-graham": "spring2026/evals/paul-graham/savant.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/savant.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/savant.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/savant.md"
+    }
+  }
+}

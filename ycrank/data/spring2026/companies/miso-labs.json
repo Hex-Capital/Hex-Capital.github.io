@@ -58,11 +58,11 @@
     "VK": 30
   },
   "consolidatedAvg": 39.14,
-  "consolidatedRank": 119,
+  "consolidatedRank": 120,
   "traction": {
-    "tractionRank": 118,
-    "tractionScore": 7,
-    "tractionReason": "312K tweet views, 66 GH stars, HF model"
+    "tractionRank": 53,
+    "tractionScore": 34,
+    "tractionReason": "312K+ launch tweet views, press coverage"
   },
   "paths": {
     "memo": "spring2026/memos/miso-labs.md",

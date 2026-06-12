@@ -59,11 +59,11 @@
     "VK": 29
   },
   "consolidatedAvg": 38.14,
-  "consolidatedRank": 134,
+  "consolidatedRank": 135,
   "traction": {
-    "tractionRank": 80,
-    "tractionScore": 14,
-    "tractionReason": "Palantir-backed, pricing live, no users"
+    "tractionRank": 113,
+    "tractionScore": 15,
+    "tractionReason": "Palantir investor, paid tiers live, no customers"
   },
   "paths": {
     "memo": "spring2026/memos/armature.md",

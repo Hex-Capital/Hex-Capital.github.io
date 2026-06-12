@@ -61,11 +61,11 @@
     "VK": 32
   },
   "consolidatedAvg": 41,
-  "consolidatedRank": 96,
+  "consolidatedRank": 97,
   "traction": {
-    "tractionRank": 94,
-    "tractionScore": 11,
-    "tractionReason": "$1M customer pipeline, 1K DAU claims"
+    "tractionRank": 32,
+    "tractionScore": 46,
+    "tractionReason": "Multiple customer wins with detailed adoption metrics"
   },
   "paths": {
     "memo": "spring2026/memos/gigacatalyst.md",

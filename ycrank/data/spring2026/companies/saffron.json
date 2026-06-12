@@ -60,11 +60,11 @@
     "VK": 31
   },
   "consolidatedAvg": 38.14,
-  "consolidatedRank": 135,
+  "consolidatedRank": 136,
   "traction": {
-    "tractionRank": 104,
-    "tractionScore": 9,
-    "tractionReason": "YC + Afore backing, pricing live"
+    "tractionRank": 98,
+    "tractionScore": 18,
+    "tractionReason": "Paid tiers $199-$499/mo live, no customers disclosed"
   },
   "paths": {
     "memo": "spring2026/memos/saffron.md",

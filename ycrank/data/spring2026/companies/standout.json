@@ -60,11 +60,11 @@
     "VK": 37
   },
   "consolidatedAvg": 42,
-  "consolidatedRank": 82,
+  "consolidatedRank": 83,
   "traction": {
-    "tractionRank": 25,
-    "tractionScore": 54,
-    "tractionReason": "10K talent, 60+ companies, 100 intros"
+    "tractionRank": 41,
+    "tractionScore": 40,
+    "tractionReason": "10K talent, 60+ companies, 100 intros first month"
   },
   "paths": {
     "memo": "spring2026/memos/standout.md",

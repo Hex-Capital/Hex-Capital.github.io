@@ -62,9 +62,9 @@
   "consolidatedAvg": 50.14,
   "consolidatedRank": 19,
   "traction": {
-    "tractionRank": 7,
-    "tractionScore": 79,
-    "tractionReason": "$65K MRR, 90K+ patients globally"
+    "tractionRank": 9,
+    "tractionScore": 72,
+    "tractionReason": "$65K MRR, 90K+ paying patients"
   },
   "paths": {
     "memo": "spring2026/memos/juno-chat.md",

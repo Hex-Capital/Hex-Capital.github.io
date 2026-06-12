@@ -58,11 +58,11 @@
     "VK": 36
   },
   "consolidatedAvg": 35.43,
-  "consolidatedRank": 169,
+  "consolidatedRank": 170,
   "traction": {
-    "tractionRank": 37,
-    "tractionScore": 42,
-    "tractionReason": "Claims multiple 9-figure customers"
+    "tractionRank": 34,
+    "tractionScore": 44,
+    "tractionReason": "Multiple \"9-figure\" customers in packaging/defense"
   },
   "paths": {
     "memo": "spring2026/memos/walter.md",

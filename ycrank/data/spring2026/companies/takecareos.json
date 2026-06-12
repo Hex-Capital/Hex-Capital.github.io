@@ -62,10 +62,10 @@
     "VK": 28
   },
   "consolidatedAvg": 35.57,
-  "consolidatedRank": 164,
+  "consolidatedRank": 165,
   "traction": {
-    "tractionRank": 34,
-    "tractionScore": 45,
+    "tractionRank": 50,
+    "tractionScore": 36,
     "tractionReason": "6 agencies signed, 200+ employees onboarded"
   },
   "paths": {

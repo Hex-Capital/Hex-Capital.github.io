@@ -1,0 +1,30 @@
+﻿# Savant -- Vinod Khosla Evaluation
+
+Savant pitches itself as the "company brain every AI-native enterprise runs on," and that framing is the only thing in the dossier that brushes against my $15T labor-displacement thesis -- everything else reads like a Glean skin built by two first-time founders, Anthony Kim (Yale EECS) and Kevin Yu (Cornell CS), against an incumbent already at $300M ARR (TechCrunch May 2026). The dimensional signature is a Savant with relatively-elevated consequence rhetoric paired with rock-bottom technical and capital risk -- a software memory layer dressed in civilizational language. That pairing is the exact profile my Pass Example was written to dispatch.
+
+**OpenAI** (2019) is the load-bearing analogy on consequence because the success-state was a world where reasoning itself is rented by the second; Savant gestures at the adjacent mechanism -- be the substrate the agents reason against -- and Dust's 300K deployed agents (theaiinsider.tech May 2026) is genuine evidence the substrate market is forming. But the OpenAI check was written into a no-revenue lab redrawing intelligence; Savant is written into an integration layer plugging into Google Workspace, Office 365, Salesforce, Slack, and Zendesk (heysavant.com). The success-state on the dossier's own terms is "employees and AI agents get better context at decision time" -- a 20-30% productivity wedge inside existing workflows, not the collapse of a named regime. Consequence sits well above the HubSpot-summarizer pass case but nowhere near OpenAI or **Impossible Foods** (2011), and the dossier does not name the incumbent regime that disappears.
+
+**Range Fuels** (~2007) failed because the capital adequacy was misjudged against the science -- the failure mode I respect, because the science was real. Savant's lowest-dimension failure mode is the inverted one: there is no science to misjudge. The integration set on heysavant.com is the same surface Glean ($600M+ raised, $7.2B valuation), Dust ($60M Series B from Sequoia), Guru ($63M revenue per GetLatka), Notion AI, and Microsoft 365 Copilot Agents already index. A two-person Savant pre-seed deploying $500K of YC money against that stack is not a capital-risk profile that repels consensus VCs; it is the capital-risk profile consensus VCs were built for. Any Tier-1 generalist funds this round before I finish the dossier.
+
+On founder-defiance, the mechanism analysis: an "AI-native enterprise" memory layer needs a founder with a publicly committed thesis on what undocumented procedural knowledge actually *is* -- ontology, capture mechanism, retrieval semantics -- because the 18-month compounding is whether the corpus becomes proprietary or commoditizes against Glean's index. The dossier surfaces no public writing, no GitHub, no X presence, no contrarian position from either Anthony Kim or Kevin Yu (heysavant.com search yielded none). My UC Berkeley 28,000-prediction prior says credentials alone are noise; absent any defied-expert signal, Savant earns the default and no more.
+
+Counterfactually on learning rate: for Savant to clear the **Slash** (2024) bar that justified my $100M Series C, the dossier would need a documented prior pivot with stated reasoning -- a "we built Savant as X, watched it fail, pivoted to memory-layer because Y." The dossier contains a single linear plan and no pivot history for either founder. That is stage-appropriate, not damning, but it removes the override that rescued the Slash thesis from a sub-civilizational consequence score.
+
+The single-anchor parallel on capital is **Genesis AI** (July 2025), where the $105M co-led seed mapped to a foundation-model-for-robots roadmap with named deployment of capital across training, sim, and hardware. Savant's roadmap, as dossier-described, requires connectors to ~7 SaaS APIs and an LLM call -- a $5-10M-to-$1M-ARR profile. I am structurally over-resourced for this deal; Khosla Ventures does not write $500K checks where Sequoia, a16z, and First Round are equally suitable.
+
+**Forecast (36 months):** Savant is either dead, sub-$3M ARR and quietly acqui-hired by Glean, Notion, or Atlassian for under $40M, or pivoted into a vertical agent-memory wedge (most likely customer support ops, where Intercom and Zendesk integrations already point) -- the consequence/capital signature does not support a standalone trajectory against Glean at $300M ARR and Dust at 3,000+ orgs.
+
+**Steel-man:** **Glean** is my own Known Exception -- Arvind Jain was a paradigmatic ex-Google search domain expert and I funded him anyway because the consequence magnitude on Fortune-500 information asymmetry overrode the credential profile, and Glean now prints $300M ARR. If the memory-layer-for-agents market is genuinely separable from the search-layer-for-humans market that Glean owns, Savant is plausibly the Glean of agent context, and the 300K-agents-deployed datapoint at Dust says the substrate demand is real. The bear case wins anyway: Glean had Jain's specific search-systems pedigree and raised capital at a scale that Savant's two-person dossier cannot remotely access; the Unstated Pattern that I "quietly favor founders who already had one exit or one publicly known intellectual reputation" cuts directly against Anthony Kim and Kevin Yu, who have neither. The verdict flips only on one verifiable condition: a signed, named deployment at a frontier AI-native enterprise (Anthropic, Cursor, Perplexity, Harvey) demonstrating that Savant's undocumented-procedure capture is a measurable, defensible primitive -- not another wrapper on the same integration set. Until then, this is the deal my pass example was written about.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Consequence Magnitude If Company Wins | 11/30 |
+| Technical or Capital Risk That Repels Consensus VCs | 6/25 |
+| Founder Defies Documented Expert Consensus | 6/20 |
+| Founder Learning Rate, Demonstrated By Prior Pivot Or Thesis Update | 6/15 |
+| Required-Capital Profile Matches Khosla Check Size | 3/10 |
+| **Total** | **32/100** |
+
+**Total Score: 32/100** (Pass)

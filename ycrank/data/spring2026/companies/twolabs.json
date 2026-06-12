@@ -59,11 +59,11 @@
     "VK": 47
   },
   "consolidatedAvg": 37.29,
-  "consolidatedRank": 138,
+  "consolidatedRank": 139,
   "traction": {
-    "tractionRank": 191,
-    "tractionScore": 2,
-    "tractionReason": "First Uzbek YC press, pivoted"
+    "tractionRank": 189,
+    "tractionScore": 3,
+    "tractionReason": "Founder press only, no customers or pilots"
   },
   "paths": {
     "memo": "spring2026/memos/twolabs.md",

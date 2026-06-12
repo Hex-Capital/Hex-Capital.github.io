@@ -62,11 +62,11 @@
     "VK": 28
   },
   "consolidatedAvg": 42,
-  "consolidatedRank": 81,
+  "consolidatedRank": 82,
   "traction": {
-    "tractionRank": 31,
+    "tractionRank": 29,
     "tractionScore": 48,
-    "tractionReason": "3 named customers, 7M sessions analyzed"
+    "tractionReason": "7.3M sessions analyzed, named customers Lindy/Gauge"
   },
   "paths": {
     "memo": "spring2026/memos/sherpa.md",

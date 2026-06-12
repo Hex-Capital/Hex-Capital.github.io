@@ -61,11 +61,11 @@
     "VK": 49
   },
   "consolidatedAvg": 35.86,
-  "consolidatedRank": 157,
+  "consolidatedRank": 158,
   "traction": {
-    "tractionRank": 188,
-    "tractionScore": 2,
-    "tractionReason": "Pivot 2 weeks before research"
+    "tractionRank": 167,
+    "tractionScore": 5,
+    "tractionReason": "Pivoted to subsea drones ~2 weeks pre-research"
   },
   "paths": {
     "memo": "spring2026/memos/aice.md",

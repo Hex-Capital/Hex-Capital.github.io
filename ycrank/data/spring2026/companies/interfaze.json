@@ -60,11 +60,11 @@
     "VK": 34
   },
   "consolidatedAvg": 42.86,
-  "consolidatedRank": 71,
+  "consolidatedRank": 72,
   "traction": {
-    "tractionRank": 114,
-    "tractionScore": 8,
-    "tractionReason": "IEEE CAI paper, self-reported benchmarks"
+    "tractionRank": 72,
+    "tractionScore": 26,
+    "tractionReason": "IEEE paper accepted, public pricing live"
   },
   "paths": {
     "memo": "spring2026/memos/interfaze.md",

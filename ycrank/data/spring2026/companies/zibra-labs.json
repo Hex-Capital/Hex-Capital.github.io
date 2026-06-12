@@ -61,11 +61,11 @@
     "VK": 36
   },
   "consolidatedAvg": 44.57,
-  "consolidatedRank": 57,
+  "consolidatedRank": 58,
   "traction": {
-    "tractionRank": 194,
-    "tractionScore": 2,
-    "tractionReason": "YC P26 backing only, Ray users cited"
+    "tractionRank": 165,
+    "tractionScore": 5,
+    "tractionReason": "YC backing + Ray ecosystem reference only"
   },
   "paths": {
     "memo": "spring2026/memos/zibra-labs.md",

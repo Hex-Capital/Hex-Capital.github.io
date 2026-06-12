@@ -60,11 +60,11 @@
     "VK": 41
   },
   "consolidatedAvg": 45,
-  "consolidatedRank": 51,
+  "consolidatedRank": 52,
   "traction": {
-    "tractionRank": 48,
-    "tractionScore": 31,
-    "tractionReason": "$150/seat plan, Julep prior 6.6K stars"
+    "tractionRank": 64,
+    "tractionScore": 29,
+    "tractionReason": "Prior Julep 6.6K stars, paid tiers live"
   },
   "paths": {
     "memo": "spring2026/memos/memory-store.md",

@@ -62,11 +62,11 @@
     "VK": 29
   },
   "consolidatedAvg": 42.57,
-  "consolidatedRank": 73,
+  "consolidatedRank": 74,
   "traction": {
-    "tractionRank": 68,
-    "tractionScore": 18,
-    "tractionReason": "Launched 29 days ago, 100K founder reach"
+    "tractionRank": 90,
+    "tractionScore": 20,
+    "tractionReason": "Founder 100K+ social following, YC launch"
   },
   "paths": {
     "memo": "spring2026/memos/saudara-ai.md",

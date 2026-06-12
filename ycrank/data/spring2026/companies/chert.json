@@ -62,10 +62,10 @@
     "VK": 27
   },
   "consolidatedAvg": 32.14,
-  "consolidatedRank": 189,
+  "consolidatedRank": 190,
   "traction": {
-    "tractionRank": 27,
-    "tractionScore": 52,
+    "tractionRank": 59,
+    "tractionScore": 31,
     "tractionReason": "10 customer logos, 179 Product Hunt upvotes"
   },
   "paths": {

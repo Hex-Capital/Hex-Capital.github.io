@@ -61,11 +61,11 @@
     "VK": 42
   },
   "consolidatedAvg": 41.43,
-  "consolidatedRank": 90,
+  "consolidatedRank": 91,
   "traction": {
-    "tractionRank": 143,
-    "tractionScore": 5,
-    "tractionReason": "Partner logos only, 15+ hackathon wins"
+    "tractionRank": 186,
+    "tractionScore": 3,
+    "tractionReason": "Backer logos only, no customers disclosed"
   },
   "paths": {
     "memo": "spring2026/memos/synphony.md",

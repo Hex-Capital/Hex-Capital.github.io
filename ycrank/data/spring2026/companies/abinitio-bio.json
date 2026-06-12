@@ -60,11 +60,11 @@
     "VK": 37
   },
   "consolidatedAvg": 41.57,
-  "consolidatedRank": 88,
+  "consolidatedRank": 89,
   "traction": {
-    "tractionRank": 186,
-    "tractionScore": 2,
-    "tractionReason": "Website under construction, accelerator picks"
+    "tractionRank": 154,
+    "tractionScore": 7,
+    "tractionReason": "Website \"Under Construction,\" accelerator selections only"
   },
   "paths": {
     "memo": "spring2026/memos/abinitio-bio.md",

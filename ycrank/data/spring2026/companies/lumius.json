@@ -62,9 +62,9 @@
   "consolidatedAvg": 48.29,
   "consolidatedRank": 26,
   "traction": {
-    "tractionRank": 138,
-    "tractionScore": 6,
-    "tractionReason": "YC P26, Duke/Columbia supporters listed"
+    "tractionRank": 121,
+    "tractionScore": 13,
+    "tractionReason": "YC Launch, Duke + Columbia supporters only"
   },
   "paths": {
     "memo": "spring2026/memos/lumius.md",

@@ -55,11 +55,11 @@
     "VK": 28
   },
   "consolidatedAvg": 35,
-  "consolidatedRank": 173,
+  "consolidatedRank": 174,
   "traction": {
-    "tractionRank": 105,
-    "tractionScore": 9,
-    "tractionReason": "\"$100K uncovered\" vague claim"
+    "tractionRank": 107,
+    "tractionScore": 16,
+    "tractionReason": "SOC 2 + HIPAA claimed, $100K savings claim"
   },
   "paths": {
     "memo": "spring2026/memos/autostep.md",

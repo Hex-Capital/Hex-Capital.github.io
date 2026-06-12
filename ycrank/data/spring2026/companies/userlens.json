@@ -61,11 +61,11 @@
     "VK": 30
   },
   "consolidatedAvg": 38.71,
-  "consolidatedRank": 129,
+  "consolidatedRank": 130,
   "traction": {
-    "tractionRank": 10,
-    "tractionScore": 73,
-    "tractionReason": "$660K 2025 revenue, named customer logos"
+    "tractionRank": 5,
+    "tractionScore": 80,
+    "tractionReason": "$660K self-reported 2025 revenue, paid tiers"
   },
   "paths": {
     "memo": "spring2026/memos/userlens.md",

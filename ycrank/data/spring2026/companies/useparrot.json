@@ -61,11 +61,11 @@
     "VK": 31
   },
   "consolidatedAvg": 36.29,
-  "consolidatedRank": 154,
+  "consolidatedRank": 155,
   "traction": {
-    "tractionRank": 71,
-    "tractionScore": 17,
-    "tractionReason": "1 pilot shop $150K-$180K monthly revenue"
+    "tractionRank": 35,
+    "tractionScore": 43,
+    "tractionReason": "Pilot shop revenue $150K→$180K monthly"
   },
   "paths": {
     "memo": "spring2026/memos/useparrot.md",

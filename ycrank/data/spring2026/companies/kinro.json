@@ -60,11 +60,11 @@
     "VK": 32
   },
   "consolidatedAvg": 39.29,
-  "consolidatedRank": 113,
+  "consolidatedRank": 114,
   "traction": {
-    "tractionRank": 72,
-    "tractionScore": 17,
-    "tractionReason": "The Zebra named customer"
+    "tractionRank": 87,
+    "tractionScore": 21,
+    "tractionReason": "The Zebra named as customer logo"
   },
   "paths": {
     "memo": "spring2026/memos/kinro.md",

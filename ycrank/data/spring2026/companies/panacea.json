@@ -62,11 +62,11 @@
     "VK": 32
   },
   "consolidatedAvg": 39,
-  "consolidatedRank": 123,
+  "consolidatedRank": 124,
   "traction": {
-    "tractionRank": 182,
-    "tractionScore": 3,
-    "tractionReason": "Internal \"12x faster\" claim only"
+    "tractionRank": 143,
+    "tractionScore": 9,
+    "tractionReason": "\"12x faster\" internal claim, no customers"
   },
   "paths": {
     "memo": "spring2026/memos/panacea.md",

@@ -58,11 +58,11 @@
     "VK": 29
   },
   "consolidatedAvg": 38.71,
-  "consolidatedRank": 127,
+  "consolidatedRank": 128,
   "traction": {
-    "tractionRank": 82,
-    "tractionScore": 13,
-    "tractionReason": "1 named customer Cheskis Family Therapy"
+    "tractionRank": 93,
+    "tractionScore": 19,
+    "tractionReason": "Cheskis Family Therapy named customer, 10 EHRs"
   },
   "paths": {
     "memo": "spring2026/memos/taiga.md",

@@ -1,0 +1,81 @@
+{
+  "slug": "linzumi",
+  "name": "Linzumi",
+  "oneLiner": "Direct your AI engineering team from one team chat",
+  "metadata": {
+    "website": "https://linzumi.com",
+    "yc_page": "https://www.ycombinator.com/companies/linzumi",
+    "batch": "Spring 2026 (YC page)",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Developer Tools, Chat, AI",
+    "yc_partner": "Garry Tan (YC page)",
+    "emails": "hello@linzumi.com (linzumi.com)"
+  },
+  "tags": [
+    "Developer Tools",
+    "Chat",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-06-12T19:11:17.812Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 43,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 43,
+    "EG": 40,
+    "NR": 56,
+    "PG": 55,
+    "PT": 40,
+    "SL": 38,
+    "VK": 43
+  },
+  "consolidatedAvg": 45,
+  "consolidatedRank": 51,
+  "traction": {
+    "tractionRank": 125,
+    "tractionScore": 12,
+    "tractionReason": "79 LinkedIn followers, waitlist coming-soon"
+  },
+  "paths": {
+    "memo": "spring2026/memos/linzumi.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/linzumi.md",
+      "elad-gil": "spring2026/evals/elad-gil/linzumi.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/linzumi.md",
+      "paul-graham": "spring2026/evals/paul-graham/linzumi.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/linzumi.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/linzumi.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/linzumi.md"
+    }
+  }
+}

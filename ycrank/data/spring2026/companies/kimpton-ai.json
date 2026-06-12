@@ -60,11 +60,11 @@
     "VK": 32
   },
   "consolidatedAvg": 39.14,
-  "consolidatedRank": 118,
+  "consolidatedRank": 119,
   "traction": {
-    "tractionRank": 148,
-    "tractionScore": 4,
-    "tractionReason": "Data partnerships (FactSet, Plaid) only"
+    "tractionRank": 133,
+    "tractionScore": 10,
+    "tractionReason": "Data partnerships listed, no customers or revenue"
   },
   "paths": {
     "memo": "spring2026/memos/kimpton-ai.md",

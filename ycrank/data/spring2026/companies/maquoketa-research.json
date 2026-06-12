@@ -62,11 +62,11 @@
     "VK": 50
   },
   "consolidatedAvg": 44,
-  "consolidatedRank": 64,
+  "consolidatedRank": 65,
   "traction": {
-    "tractionRank": 178,
-    "tractionScore": 3,
-    "tractionReason": "\"Quadruple mission success\" claim only"
+    "tractionRank": 181,
+    "tractionScore": 4,
+    "tractionReason": "\"Quadrupled mission success rates\" claim only"
   },
   "paths": {
     "memo": "spring2026/memos/maquoketa-research.md",

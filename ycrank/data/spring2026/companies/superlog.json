@@ -62,11 +62,11 @@
     "VK": 31
   },
   "consolidatedAvg": 43.14,
-  "consolidatedRank": 69,
+  "consolidatedRank": 70,
   "traction": {
-    "tractionRank": 142,
-    "tractionScore": 5,
-    "tractionReason": "Show HN 73 points, GH 6-star repos"
+    "tractionRank": 147,
+    "tractionScore": 8,
+    "tractionReason": "73 HN points, 270 Twitter followers"
   },
   "paths": {
     "memo": "spring2026/memos/superlog.md",

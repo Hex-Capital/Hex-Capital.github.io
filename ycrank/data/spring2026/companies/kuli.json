@@ -55,11 +55,11 @@
     "VK": 26
   },
   "consolidatedAvg": 39,
-  "consolidatedRank": 121,
+  "consolidatedRank": 122,
   "traction": {
-    "tractionRank": 35,
-    "tractionScore": 44,
-    "tractionReason": "Fortune 100, Disney/Nivea/Havas customers"
+    "tractionRank": 45,
+    "tractionScore": 38,
+    "tractionReason": "Fortune 100 customer, 5 months operating"
   },
   "paths": {
     "memo": "spring2026/memos/kuli.md",

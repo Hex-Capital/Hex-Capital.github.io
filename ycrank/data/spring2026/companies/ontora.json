@@ -61,11 +61,11 @@
     "VK": 32
   },
   "consolidatedAvg": 37.14,
-  "consolidatedRank": 141,
+  "consolidatedRank": 142,
   "traction": {
-    "tractionRank": 28,
-    "tractionScore": 51,
-    "tractionReason": "Vertiv customer, ~$50K per engagement"
+    "tractionRank": 48,
+    "tractionScore": 37,
+    "tractionReason": "Vertiv customer testimonial, ~$50K engagement pricing"
   },
   "paths": {
     "memo": "spring2026/memos/ontora.md",

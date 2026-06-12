@@ -62,11 +62,11 @@
     "VK": 27
   },
   "consolidatedAvg": 40.14,
-  "consolidatedRank": 103,
+  "consolidatedRank": 104,
   "traction": {
-    "tractionRank": 38,
-    "tractionScore": 41,
-    "tractionReason": "21+ named customer logos"
+    "tractionRank": 36,
+    "tractionScore": 43,
+    "tractionReason": "21+ named customer logos including BigCommerce"
   },
   "paths": {
     "memo": "spring2026/memos/characterquilt.md",

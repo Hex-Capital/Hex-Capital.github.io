@@ -61,10 +61,10 @@
     "VK": 34
   },
   "consolidatedAvg": 39.14,
-  "consolidatedRank": 117,
+  "consolidatedRank": 118,
   "traction": {
-    "tractionRank": 74,
-    "tractionScore": 16,
+    "tractionRank": 49,
+    "tractionScore": 36,
     "tractionReason": "Fazeshift customer, live workflow telemetry"
   },
   "paths": {

@@ -62,11 +62,11 @@
     "VK": 36
   },
   "consolidatedAvg": 41.43,
-  "consolidatedRank": 89,
+  "consolidatedRank": 90,
   "traction": {
-    "tractionRank": 93,
-    "tractionScore": 11,
-    "tractionReason": "Investors Fidji Simo, Tony Xu only"
+    "tractionRank": 106,
+    "tractionScore": 16,
+    "tractionReason": "Tier-1 angels only, no traction data"
   },
   "paths": {
     "memo": "spring2026/memos/akkari.md",

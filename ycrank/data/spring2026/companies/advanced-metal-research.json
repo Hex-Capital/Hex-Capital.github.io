@@ -60,11 +60,11 @@
     "VK": 41
   },
   "consolidatedAvg": 41.71,
-  "consolidatedRank": 85,
+  "consolidatedRank": 86,
   "traction": {
-    "tractionRank": 187,
+    "tractionRank": 191,
     "tractionScore": 2,
-    "tractionReason": "Twitter handle exists, nothing else"
+    "tractionReason": "No revenue, customers, or press found"
   },
   "paths": {
     "memo": "spring2026/memos/advanced-metal-research.md",

@@ -59,11 +59,11 @@
     "VK": 36
   },
   "consolidatedAvg": 40.14,
-  "consolidatedRank": 102,
+  "consolidatedRank": 103,
   "traction": {
-    "tractionRank": 123,
-    "tractionScore": 7,
-    "tractionReason": "MIT facilities pilot, German RE deployment"
+    "tractionRank": 194,
+    "tractionScore": 2,
+    "tractionReason": "MIT pilot, German real-estate sensors only"
   },
   "paths": {
     "memo": "spring2026/memos/aquashield.md",

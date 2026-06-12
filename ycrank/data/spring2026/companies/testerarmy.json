@@ -60,11 +60,11 @@
     "VK": 25
   },
   "consolidatedAvg": 38.71,
-  "consolidatedRank": 128,
+  "consolidatedRank": 129,
   "traction": {
-    "tractionRank": 119,
-    "tractionScore": 7,
-    "tractionReason": "YC + LAUNCH30 promo, pricing tiers live"
+    "tractionRank": 97,
+    "tractionScore": 18,
+    "tractionReason": "Paid tiers $99-$299/mo live, no customers disclosed"
   },
   "paths": {
     "memo": "spring2026/memos/testerarmy.md",

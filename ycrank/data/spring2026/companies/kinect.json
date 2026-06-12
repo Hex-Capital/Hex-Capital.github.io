@@ -60,11 +60,11 @@
     "VK": 27
   },
   "consolidatedAvg": 36.43,
-  "consolidatedRank": 150,
+  "consolidatedRank": 151,
   "traction": {
-    "tractionRank": 63,
-    "tractionScore": 21,
-    "tractionReason": "10 named brand logos"
+    "tractionRank": 43,
+    "tractionScore": 39,
+    "tractionReason": "10 named brand logos, 20% conversion lift"
   },
   "paths": {
     "memo": "spring2026/memos/kinect.md",

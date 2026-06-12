@@ -57,9 +57,9 @@
   "consolidatedAvg": 45.43,
   "consolidatedRank": 46,
   "traction": {
-    "tractionRank": 20,
-    "tractionScore": 59,
-    "tractionReason": "3,000+ experts, 2,858 resolved, 130% NRR"
+    "tractionRank": 26,
+    "tractionScore": 51,
+    "tractionReason": "3,000+ experts, 2,858 questions resolved beta"
   },
   "paths": {
     "memo": "spring2026/memos/humwork.md",

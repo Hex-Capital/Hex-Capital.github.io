@@ -61,11 +61,11 @@
     "VK": 31
   },
   "consolidatedAvg": 41.86,
-  "consolidatedRank": 84,
+  "consolidatedRank": 85,
   "traction": {
-    "tractionRank": 150,
-    "tractionScore": 4,
-    "tractionReason": "Waitlist only, team of 14"
+    "tractionRank": 119,
+    "tractionScore": 13,
+    "tractionReason": "14 employees, waitlist phase only"
   },
   "paths": {
     "memo": "spring2026/memos/ploy.md",

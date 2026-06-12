@@ -62,11 +62,11 @@
     "VK": 32
   },
   "consolidatedAvg": 35.14,
-  "consolidatedRank": 170,
+  "consolidatedRank": 171,
   "traction": {
-    "tractionRank": 164,
-    "tractionScore": 3,
-    "tractionReason": "YC Spring 2026 batch only"
+    "tractionRank": 129,
+    "tractionScore": 11,
+    "tractionReason": "YC launch only, no customers or revenue"
   },
   "paths": {
     "memo": "spring2026/memos/atrisa.md",

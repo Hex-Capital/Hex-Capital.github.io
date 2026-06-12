@@ -62,11 +62,11 @@
     "VK": 29
   },
   "consolidatedAvg": 39.29,
-  "consolidatedRank": 112,
+  "consolidatedRank": 113,
   "traction": {
-    "tractionRank": 147,
-    "tractionScore": 4,
-    "tractionReason": "Signals in production since Oct 2025"
+    "tractionRank": 86,
+    "tractionScore": 21,
+    "tractionReason": "Signals running in production since October 2025"
   },
   "paths": {
     "memo": "spring2026/memos/kelai.md",

@@ -60,11 +60,11 @@
     "VK": 34
   },
   "consolidatedAvg": 32.43,
-  "consolidatedRank": 186,
+  "consolidatedRank": 187,
   "traction": {
-    "tractionRank": 144,
+    "tractionRank": 161,
     "tractionScore": 5,
-    "tractionReason": "YC P26 batch, no public data"
+    "tractionReason": "No disclosed customers, revenue, or users"
   },
   "paths": {
     "memo": "spring2026/memos/flowscope.md",

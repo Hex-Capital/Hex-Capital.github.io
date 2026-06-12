@@ -62,11 +62,11 @@
     "VK": 41
   },
   "consolidatedAvg": 42.29,
-  "consolidatedRank": 78,
+  "consolidatedRank": 79,
   "traction": {
-    "tractionRank": 130,
-    "tractionScore": 6,
-    "tractionReason": "NVIDIA Inception, YC P26 launch post"
+    "tractionRank": 120,
+    "tractionScore": 13,
+    "tractionReason": "NVIDIA Inception member, no customers disclosed"
   },
   "paths": {
     "memo": "spring2026/memos/madrone.md",

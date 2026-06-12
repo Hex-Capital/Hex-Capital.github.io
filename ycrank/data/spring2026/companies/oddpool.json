@@ -60,11 +60,11 @@
     "VK": 21
   },
   "consolidatedAvg": 40.71,
-  "consolidatedRank": 98,
+  "consolidatedRank": 99,
   "traction": {
-    "tractionRank": 45,
-    "tractionScore": 34,
-    "tractionReason": "700K markets, several thousand MRR"
+    "tractionRank": 20,
+    "tractionScore": 57,
+    "tractionReason": "\"Several thousand $ MRR\" on paid tiers"
   },
   "paths": {
     "memo": "spring2026/memos/oddpool.md",

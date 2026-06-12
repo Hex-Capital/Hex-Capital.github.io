@@ -58,11 +58,11 @@
     "VK": 38
   },
   "consolidatedAvg": 44,
-  "consolidatedRank": 63,
+  "consolidatedRank": 64,
   "traction": {
-    "tractionRank": 177,
-    "tractionScore": 3,
-    "tractionReason": "No public data found"
+    "tractionRank": 163,
+    "tractionScore": 5,
+    "tractionReason": "No public traction data found"
   },
   "paths": {
     "memo": "spring2026/memos/lattice-health.md",

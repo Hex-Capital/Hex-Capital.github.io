@@ -61,11 +61,11 @@
     "VK": 60
   },
   "consolidatedAvg": 44.29,
-  "consolidatedRank": 61,
+  "consolidatedRank": 62,
   "traction": {
-    "tractionRank": 140,
-    "tractionScore": 5,
-    "tractionReason": "$10/hr pricing live, no customers"
+    "tractionRank": 130,
+    "tractionScore": 11,
+    "tractionReason": "$10/hour pricing live, no disclosed customers"
   },
   "paths": {
     "memo": "spring2026/memos/eden-robotics.md",

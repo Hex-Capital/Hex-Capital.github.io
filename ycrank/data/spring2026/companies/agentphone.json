@@ -63,9 +63,9 @@
   "consolidatedAvg": 45.57,
   "consolidatedRank": 45,
   "traction": {
-    "tractionRank": 59,
-    "tractionScore": 22,
-    "tractionReason": "6 customer logos (Google ADK, LangChain)"
+    "tractionRank": 71,
+    "tractionScore": 27,
+    "tractionReason": "Google ADK, Replit, LangChain logos building"
   },
   "paths": {
     "memo": "spring2026/memos/agentphone.md",

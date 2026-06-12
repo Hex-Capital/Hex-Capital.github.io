@@ -63,9 +63,9 @@
   "consolidatedAvg": 48.86,
   "consolidatedRank": 21,
   "traction": {
-    "tractionRank": 163,
-    "tractionScore": 4,
-    "tractionReason": "No public data found at all"
+    "tractionRank": 187,
+    "tractionScore": 3,
+    "tractionReason": "No disclosed users, revenue, or press"
   },
   "paths": {
     "memo": "spring2026/memos/thomas.md",

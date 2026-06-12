@@ -61,11 +61,11 @@
     "VK": 38
   },
   "consolidatedAvg": 40.29,
-  "consolidatedRank": 101,
+  "consolidatedRank": 102,
   "traction": {
-    "tractionRank": 115,
-    "tractionScore": 8,
-    "tractionReason": "$500K YC, Jetson production demo"
+    "tractionRank": 175,
+    "tractionScore": 4,
+    "tractionReason": "Production demo only, no customers"
   },
   "paths": {
     "memo": "spring2026/memos/general-instinct.md",

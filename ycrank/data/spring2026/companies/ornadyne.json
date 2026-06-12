@@ -63,9 +63,9 @@
   "consolidatedAvg": 54.29,
   "consolidatedRank": 4,
   "traction": {
-    "tractionRank": 181,
-    "tractionScore": 3,
-    "tractionReason": "$1M raised, YC launch only"
+    "tractionRank": 144,
+    "tractionScore": 9,
+    "tractionReason": "$1M raised, YC launch coverage only"
   },
   "paths": {
     "memo": "spring2026/memos/ornadyne.md",

@@ -60,11 +60,11 @@
     "VK": 32
   },
   "consolidatedAvg": 40,
-  "consolidatedRank": 107,
+  "consolidatedRank": 108,
   "traction": {
-    "tractionRank": 145,
+    "tractionRank": 162,
     "tractionScore": 5,
-    "tractionReason": "YC backing, 6.3K founder X followers"
+    "tractionReason": "No disclosed customers, YC launch only"
   },
   "paths": {
     "memo": "spring2026/memos/foaster.md",

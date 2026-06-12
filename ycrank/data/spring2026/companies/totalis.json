@@ -59,10 +59,10 @@
     "VK": 26
   },
   "consolidatedAvg": 40,
-  "consolidatedRank": 109,
+  "consolidatedRank": 110,
   "traction": {
-    "tractionRank": 107,
-    "tractionScore": 9,
+    "tractionRank": 92,
+    "tractionScore": 20,
     "tractionReason": "$500K USDC seed, parlay product launched"
   },
   "paths": {

@@ -55,11 +55,11 @@
     "VK": 41
   },
   "consolidatedAvg": 44.29,
-  "consolidatedRank": 60,
+  "consolidatedRank": 61,
   "traction": {
-    "tractionRank": 157,
+    "tractionRank": 174,
     "tractionScore": 4,
-    "tractionReason": "Investor list only, hiring open"
+    "tractionReason": "Investors named, no customers or revenue"
   },
   "paths": {
     "memo": "spring2026/memos/biostack-platforms.md",

@@ -55,11 +55,11 @@
     "VK": 36
   },
   "consolidatedAvg": 38.86,
-  "consolidatedRank": 124,
+  "consolidatedRank": 125,
   "traction": {
-    "tractionRank": 101,
-    "tractionScore": 9,
-    "tractionReason": "YC P26 backing, demo CTA only"
+    "tractionRank": 88,
+    "tractionScore": 21,
+    "tractionReason": "YC P26 with active hiring, pre-revenue"
   },
   "paths": {
     "memo": "spring2026/memos/mount.md",

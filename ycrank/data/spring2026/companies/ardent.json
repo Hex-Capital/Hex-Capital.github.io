@@ -62,9 +62,9 @@
   "consolidatedAvg": 47,
   "consolidatedRank": 32,
   "traction": {
-    "tractionRank": 87,
-    "tractionScore": 12,
-    "tractionReason": "6 customer logos (Zenn, Harvest, Openledger)"
+    "tractionRank": 58,
+    "tractionScore": 32,
+    "tractionReason": "6 named customer logos for current product"
   },
   "paths": {
     "memo": "spring2026/memos/ardent.md",

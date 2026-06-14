@@ -61,9 +61,9 @@
   "consolidatedAvg": 40,
   "consolidatedRank": 110,
   "traction": {
-    "tractionRank": 92,
-    "tractionScore": 20,
-    "tractionReason": "$500K USDC seed, parlay product launched"
+    "tractionRank": 144,
+    "tractionScore": 28,
+    "tractionReason": "$500K USDC, parlay launched May"
   },
   "paths": {
     "memo": "spring2026/memos/totalis.md",

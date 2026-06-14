@@ -62,9 +62,9 @@
   "consolidatedAvg": 48.29,
   "consolidatedRank": 26,
   "traction": {
-    "tractionRank": 121,
-    "tractionScore": 13,
-    "tractionReason": "YC Launch, Duke + Columbia supporters only"
+    "tractionRank": 167,
+    "tractionScore": 24,
+    "tractionReason": "Duke and Columbia supporters only"
   },
   "paths": {
     "memo": "spring2026/memos/lumius.md",

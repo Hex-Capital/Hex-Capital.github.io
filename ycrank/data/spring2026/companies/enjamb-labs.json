@@ -63,9 +63,9 @@
   "consolidatedAvg": 35.71,
   "consolidatedRank": 161,
   "traction": {
-    "tractionRank": 85,
-    "tractionScore": 22,
-    "tractionReason": "$650K pre-seed from YC + Founders Inc"
+    "tractionRank": 154,
+    "tractionScore": 26,
+    "tractionReason": "$650K pre-seed, no users"
   },
   "paths": {
     "memo": "spring2026/memos/enjamb-labs.md",

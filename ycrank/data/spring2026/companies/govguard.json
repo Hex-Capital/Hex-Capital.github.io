@@ -60,9 +60,9 @@
   "consolidatedAvg": 34,
   "consolidatedRank": 178,
   "traction": {
-    "tractionRank": 126,
-    "tractionScore": 12,
-    "tractionReason": "\"20x faster FOIA\" product claim only"
+    "tractionRank": 175,
+    "tractionScore": 24,
+    "tractionReason": "Product claim only, no logos"
   },
   "paths": {
     "memo": "spring2026/memos/govguard.md",

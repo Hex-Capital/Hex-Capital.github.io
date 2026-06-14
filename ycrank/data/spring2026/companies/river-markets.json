@@ -60,9 +60,9 @@
   "consolidatedAvg": 41.14,
   "consolidatedRank": 95,
   "traction": {
-    "tractionRank": 68,
-    "tractionScore": 28,
-    "tractionReason": "4 named live hedge-fund clients"
+    "tractionRank": 58,
+    "tractionScore": 41,
+    "tractionReason": "4 named hedge fund clients live"
   },
   "paths": {
     "memo": "spring2026/memos/river-markets.md",

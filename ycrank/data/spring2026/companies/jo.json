@@ -63,9 +63,9 @@
   "consolidatedAvg": 35.71,
   "consolidatedRank": 162,
   "traction": {
-    "tractionRank": 179,
-    "tractionScore": 4,
-    "tractionReason": "Free during beta, no disclosed users"
+    "tractionRank": 178,
+    "tractionScore": 24,
+    "tractionReason": "YC W24 relaunch, free beta"
   },
   "paths": {
     "memo": "spring2026/memos/jo.md",

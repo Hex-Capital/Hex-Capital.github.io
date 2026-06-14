@@ -62,9 +62,9 @@
   "consolidatedAvg": 41.86,
   "consolidatedRank": 84,
   "traction": {
-    "tractionRank": 76,
-    "tractionScore": 25,
-    "tractionReason": "3 customers post-launch, $1.01M raised"
+    "tractionRank": 89,
+    "tractionScore": 35,
+    "tractionReason": "$1M raised, 3 customers onboarded"
   },
   "paths": {
     "memo": "spring2026/memos/avea-robotics.md",

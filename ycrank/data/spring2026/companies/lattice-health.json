@@ -60,8 +60,8 @@
   "consolidatedAvg": 44,
   "consolidatedRank": 64,
   "traction": {
-    "tractionRank": 163,
-    "tractionScore": 5,
+    "tractionRank": 166,
+    "tractionScore": 24,
     "tractionReason": "No public traction data found"
   },
   "paths": {

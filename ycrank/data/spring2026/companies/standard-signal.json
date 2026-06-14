@@ -61,9 +61,9 @@
   "consolidatedAvg": 37,
   "consolidatedRank": 145,
   "traction": {
-    "tractionRank": 185,
-    "tractionScore": 4,
-    "tractionReason": "Solo team, no AUM or performance disclosed"
+    "tractionRank": 128,
+    "tractionScore": 30,
+    "tractionReason": "Solo founder, no live AUM"
   },
   "paths": {
     "memo": "spring2026/memos/standard-signal.md",

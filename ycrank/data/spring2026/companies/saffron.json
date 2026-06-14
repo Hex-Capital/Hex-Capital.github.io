@@ -62,9 +62,9 @@
   "consolidatedAvg": 38.14,
   "consolidatedRank": 136,
   "traction": {
-    "tractionRank": 98,
-    "tractionScore": 18,
-    "tractionReason": "Paid tiers $199-$499/mo live, no customers disclosed"
+    "tractionRank": 96,
+    "tractionScore": 34,
+    "tractionReason": "YC and Afore Capital backing"
   },
   "paths": {
     "memo": "spring2026/memos/saffron.md",

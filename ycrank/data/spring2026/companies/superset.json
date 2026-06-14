@@ -57,9 +57,9 @@
   "consolidatedAvg": 48,
   "consolidatedRank": 28,
   "traction": {
-    "tractionRank": 23,
-    "tractionScore": 54,
-    "tractionReason": "11.4K GitHub stars, Product Hunt #1, paid tiers"
+    "tractionRank": 17,
+    "tractionScore": 63,
+    "tractionReason": "11.4K stars, F500 customer logos"
   },
   "paths": {
     "memo": "spring2026/memos/superset.md",

@@ -63,9 +63,9 @@
   "consolidatedAvg": 26.57,
   "consolidatedRank": 196,
   "traction": {
-    "tractionRank": 114,
-    "tractionScore": 14,
-    "tractionReason": "Landing-page sample metrics only, no disclosed revenue"
+    "tractionRank": 83,
+    "tractionScore": 36,
+    "tractionReason": "Sample profile-visit metrics only"
   },
   "paths": {
     "memo": "spring2026/memos/memoir.md",

@@ -62,9 +62,9 @@
   "consolidatedAvg": 44.71,
   "consolidatedRank": 55,
   "traction": {
-    "tractionRank": 149,
-    "tractionScore": 8,
-    "tractionReason": "40K users free beta, no revenue disclosed"
+    "tractionRank": 77,
+    "tractionScore": 38,
+    "tractionReason": "40,000 users in first month"
   },
   "paths": {
     "memo": "spring2026/memos/playablai.md",

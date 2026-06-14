@@ -63,9 +63,9 @@
   "consolidatedAvg": 41.43,
   "consolidatedRank": 91,
   "traction": {
-    "tractionRank": 186,
-    "tractionScore": 3,
-    "tractionReason": "Backer logos only, no customers disclosed"
+    "tractionRank": 143,
+    "tractionScore": 28,
+    "tractionReason": "Partner logos only, no customers"
   },
   "paths": {
     "memo": "spring2026/memos/synphony.md",

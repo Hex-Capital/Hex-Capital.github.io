@@ -62,9 +62,9 @@
   "consolidatedAvg": 41.14,
   "consolidatedRank": 96,
   "traction": {
-    "tractionRank": 100,
-    "tractionScore": 18,
-    "tractionReason": "\"Bulge bracket\" customer claim without named logos"
+    "tractionRank": 85,
+    "tractionScore": 36,
+    "tractionReason": "\"Bulge bracket banks\" claim, no names"
   },
   "paths": {
     "memo": "spring2026/memos/soria.md",

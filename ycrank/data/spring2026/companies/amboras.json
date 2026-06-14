@@ -62,9 +62,9 @@
   "consolidatedAvg": 40.43,
   "consolidatedRank": 101,
   "traction": {
-    "tractionRank": 110,
-    "tractionScore": 16,
-    "tractionReason": "$500K raised, +80% CVR beta-claim"
+    "tractionRank": 95,
+    "tractionScore": 35,
+    "tractionReason": "+80% CVR beta lift, $500K raised"
   },
   "paths": {
     "memo": "spring2026/memos/amboras.md",

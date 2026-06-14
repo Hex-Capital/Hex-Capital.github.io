@@ -59,11 +59,11 @@
     "VK": 60
   },
   "consolidatedAvg": 45.29,
-  "consolidatedRank": 47,
+  "consolidatedRank": 48,
   "traction": {
     "tractionRank": 177,
-    "tractionScore": 4,
-    "tractionReason": "One job posting, single-page placeholder website"
+    "tractionScore": 24,
+    "tractionReason": "One open job, no customers"
   },
   "paths": {
     "memo": "spring2026/memos/intelligence-factory.md",

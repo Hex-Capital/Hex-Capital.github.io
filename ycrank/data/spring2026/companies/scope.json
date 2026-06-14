@@ -62,9 +62,9 @@
   "consolidatedAvg": 38.43,
   "consolidatedRank": 132,
   "traction": {
-    "tractionRank": 159,
-    "tractionScore": 6,
-    "tractionReason": "Team size 1, demo-gated, no metrics"
+    "tractionRank": 187,
+    "tractionScore": 22,
+    "tractionReason": "Team of 1, no customers"
   },
   "paths": {
     "memo": "spring2026/memos/scope.md",

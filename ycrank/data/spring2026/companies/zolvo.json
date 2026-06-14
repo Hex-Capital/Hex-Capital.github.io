@@ -55,11 +55,11 @@
     "VK": 28
   },
   "consolidatedAvg": 46,
-  "consolidatedRank": 40,
+  "consolidatedRank": 41,
   "traction": {
-    "tractionRank": 78,
-    "tractionScore": 24,
-    "tractionReason": "One annual contract signed pre-product"
+    "tractionRank": 69,
+    "tractionScore": 40,
+    "tractionReason": "Annual contract signed pre-product"
   },
   "paths": {
     "memo": "spring2026/memos/zolvo.md",

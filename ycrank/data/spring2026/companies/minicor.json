@@ -55,11 +55,11 @@
     "VK": 40
   },
   "consolidatedAvg": 45.14,
-  "consolidatedRank": 49,
+  "consolidatedRank": 50,
   "traction": {
-    "tractionRank": 46,
-    "tractionScore": 38,
-    "tractionReason": "25,000 patients/day processed in production"
+    "tractionRank": 34,
+    "tractionScore": 50,
+    "tractionReason": "25,000 patients/day in production"
   },
   "paths": {
     "memo": "spring2026/memos/minicor.md",

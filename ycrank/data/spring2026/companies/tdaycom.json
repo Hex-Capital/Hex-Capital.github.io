@@ -64,9 +64,9 @@
   "consolidatedAvg": 35.14,
   "consolidatedRank": 173,
   "traction": {
-    "tractionRank": 70,
-    "tractionScore": 27,
-    "tractionReason": "$500K YC, 5 customer logos displayed"
+    "tractionRank": 100,
+    "tractionScore": 34,
+    "tractionReason": "5 customer logos, $500K YC"
   },
   "paths": {
     "memo": "spring2026/memos/tdaycom.md",

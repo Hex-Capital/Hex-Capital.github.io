@@ -64,9 +64,9 @@
   "consolidatedAvg": 39.29,
   "consolidatedRank": 113,
   "traction": {
-    "tractionRank": 86,
-    "tractionScore": 21,
-    "tractionReason": "Signals running in production since October 2025"
+    "tractionRank": 115,
+    "tractionScore": 32,
+    "tractionReason": "Signals in production since October 2025"
   },
   "paths": {
     "memo": "spring2026/memos/kelai.md",

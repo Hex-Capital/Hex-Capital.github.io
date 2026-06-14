@@ -64,9 +64,9 @@
   "consolidatedAvg": 41.14,
   "consolidatedRank": 94,
   "traction": {
-    "tractionRank": 56,
-    "tractionScore": 33,
-    "tractionReason": "Adobe and system integrators as customers"
+    "tractionRank": 70,
+    "tractionScore": 39,
+    "tractionReason": "Adobe and system-integrator pilots"
   },
   "paths": {
     "memo": "spring2026/memos/lab0.md",

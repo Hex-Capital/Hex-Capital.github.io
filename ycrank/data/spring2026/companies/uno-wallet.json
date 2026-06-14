@@ -62,9 +62,9 @@
   "consolidatedAvg": 32.43,
   "consolidatedRank": 188,
   "traction": {
-    "tractionRank": 96,
-    "tractionScore": 19,
-    "tractionReason": "20,456 waitlist signups, private iOS beta"
+    "tractionRank": 90,
+    "tractionScore": 35,
+    "tractionReason": "20,456 waitlist signups"
   },
   "paths": {
     "memo": "spring2026/memos/uno-wallet.md",

@@ -63,9 +63,9 @@
   "consolidatedAvg": 37.14,
   "consolidatedRank": 140,
   "traction": {
-    "tractionRank": 135,
-    "tractionScore": 10,
-    "tractionReason": "YC launch tweet, illustrative metrics only"
+    "tractionRank": 127,
+    "tractionScore": 30,
+    "tractionReason": "YC launch tweet, no customers disclosed"
   },
   "paths": {
     "memo": "spring2026/memos/auxos.md",

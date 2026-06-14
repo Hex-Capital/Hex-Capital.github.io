@@ -60,9 +60,9 @@
   "consolidatedAvg": 32.57,
   "consolidatedRank": 186,
   "traction": {
-    "tractionRank": 160,
-    "tractionScore": 6,
-    "tractionReason": "Active YC P26 only, no traction data"
+    "tractionRank": 196,
+    "tractionScore": 14,
+    "tractionReason": "Team 0, no traction disclosed"
   },
   "paths": {
     "memo": "spring2026/memos/wealor.md",

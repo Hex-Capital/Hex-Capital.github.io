@@ -64,9 +64,9 @@
   "consolidatedAvg": 40.14,
   "consolidatedRank": 105,
   "traction": {
-    "tractionRank": 173,
-    "tractionScore": 4,
-    "tractionReason": "Early-access pilot program open, no customers"
+    "tractionRank": 170,
+    "tractionScore": 24,
+    "tractionReason": "Early-access pilot only"
   },
   "paths": {
     "memo": "spring2026/memos/infera.md",

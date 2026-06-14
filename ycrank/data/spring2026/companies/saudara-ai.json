@@ -64,9 +64,9 @@
   "consolidatedAvg": 42.57,
   "consolidatedRank": 74,
   "traction": {
-    "tractionRank": 90,
-    "tractionScore": 20,
-    "tractionReason": "Founder 100K+ social following, YC launch"
+    "tractionRank": 59,
+    "tractionScore": 40,
+    "tractionReason": "Founder 100K+ followers, launched"
   },
   "paths": {
     "memo": "spring2026/memos/saudara-ai.md",

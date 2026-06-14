@@ -62,9 +62,9 @@
   "consolidatedAvg": 38.57,
   "consolidatedRank": 131,
   "traction": {
-    "tractionRank": 44,
-    "tractionScore": 39,
-    "tractionReason": "6 named restaurant groups, 92% guest satisfaction"
+    "tractionRank": 56,
+    "tractionScore": 42,
+    "tractionReason": "6 named restaurant-group customers"
   },
   "paths": {
     "memo": "spring2026/memos/elyra.md",

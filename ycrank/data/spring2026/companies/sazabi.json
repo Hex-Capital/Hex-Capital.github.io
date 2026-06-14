@@ -60,9 +60,9 @@
   "consolidatedAvg": 43.43,
   "consolidatedRank": 69,
   "traction": {
-    "tractionRank": 95,
-    "tractionScore": 19,
-    "tractionReason": "SiliconANGLE press at stealth exit, pre-revenue"
+    "tractionRank": 125,
+    "tractionScore": 31,
+    "tractionReason": "SiliconANGLE stealth-exit coverage"
   },
   "paths": {
     "memo": "spring2026/memos/sazabi.md",

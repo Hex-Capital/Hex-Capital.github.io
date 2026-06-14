@@ -63,9 +63,9 @@
   "consolidatedAvg": 42.43,
   "consolidatedRank": 77,
   "traction": {
-    "tractionRank": 47,
-    "tractionScore": 37,
-    "tractionReason": "300+ picks/hour in paid pilots, multiple deployments"
+    "tractionRank": 72,
+    "tractionScore": 39,
+    "tractionReason": "300+ picks/hour in paid pilots"
   },
   "paths": {
     "memo": "spring2026/memos/inloop-robotics.md",

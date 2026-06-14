@@ -62,9 +62,9 @@
   "consolidatedAvg": 36.14,
   "consolidatedRank": 157,
   "traction": {
-    "tractionRank": 61,
-    "tractionScore": 30,
-    "tractionReason": "Claim \"10+ global pharma sponsors\""
+    "tractionRank": 37,
+    "tractionScore": 48,
+    "tractionReason": "10+ global pharma/biotech sponsors"
   },
   "paths": {
     "memo": "spring2026/memos/astraea.md",

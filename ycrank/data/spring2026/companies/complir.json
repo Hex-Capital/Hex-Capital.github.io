@@ -60,11 +60,11 @@
     "VK": 26
   },
   "consolidatedAvg": 45.86,
-  "consolidatedRank": 42,
+  "consolidatedRank": 43,
   "traction": {
-    "tractionRank": 16,
+    "tractionRank": 20,
     "tractionScore": 61,
-    "tractionReason": "109K products monitored, named customers, 45% MoM"
+    "tractionReason": "109K products monitored, 45% MoM growth"
   },
   "paths": {
     "memo": "spring2026/memos/complir.md",

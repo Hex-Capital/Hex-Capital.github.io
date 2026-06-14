@@ -57,9 +57,9 @@
   "consolidatedAvg": 36.29,
   "consolidatedRank": 154,
   "traction": {
-    "tractionRank": 188,
-    "tractionScore": 3,
-    "tractionReason": "2 open roles, no customers or revenue"
+    "tractionRank": 192,
+    "tractionScore": 20,
+    "tractionReason": "473 founder followers, hiring"
   },
   "paths": {
     "memo": "spring2026/memos/the-company-company.md",

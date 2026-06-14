@@ -64,9 +64,9 @@
   "consolidatedAvg": 48.57,
   "consolidatedRank": 22,
   "traction": {
-    "tractionRank": 108,
-    "tractionScore": 16,
-    "tractionReason": "Stealth-emergence press, no disclosed revenue"
+    "tractionRank": 76,
+    "tractionScore": 38,
+    "tractionReason": "Coordinated stealth-emergence press"
   },
   "paths": {
     "memo": "spring2026/memos/aseon-labs.md",

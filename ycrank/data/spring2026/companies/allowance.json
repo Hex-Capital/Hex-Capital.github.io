@@ -62,9 +62,9 @@
   "consolidatedAvg": 43.86,
   "consolidatedRank": 66,
   "traction": {
-    "tractionRank": 94,
-    "tractionScore": 19,
-    "tractionReason": "iPhone app in early public beta"
+    "tractionRank": 157,
+    "tractionScore": 25,
+    "tractionReason": "iPhone early beta, no users disclosed"
   },
   "paths": {
     "memo": "spring2026/memos/allowance.md",

@@ -64,9 +64,9 @@
   "consolidatedAvg": 41.29,
   "consolidatedRank": 93,
   "traction": {
-    "tractionRank": 82,
-    "tractionScore": 23,
-    "tractionReason": "10,000+ documents/day across 20+ companies"
+    "tractionRank": 61,
+    "tractionScore": 40,
+    "tractionReason": "10K docs/day across 20+ companies"
   },
   "paths": {
     "memo": "spring2026/memos/qomplement.md",

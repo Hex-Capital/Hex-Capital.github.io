@@ -62,9 +62,9 @@
   "consolidatedAvg": 33.86,
   "consolidatedRank": 179,
   "traction": {
-    "tractionRank": 145,
-    "tractionScore": 8,
-    "tractionReason": "YC launch + Menlo Times mention only"
+    "tractionRank": 57,
+    "tractionScore": 41,
+    "tractionReason": "Menlo Times launches-of-the-week feature"
   },
   "paths": {
     "memo": "spring2026/memos/korso.md",

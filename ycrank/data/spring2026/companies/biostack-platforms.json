@@ -57,9 +57,9 @@
   "consolidatedAvg": 44.29,
   "consolidatedRank": 61,
   "traction": {
-    "tractionRank": 174,
-    "tractionScore": 4,
-    "tractionReason": "Investors named, no customers or revenue"
+    "tractionRank": 168,
+    "tractionScore": 24,
+    "tractionReason": "Investors named, no customers"
   },
   "paths": {
     "memo": "spring2026/memos/biostack-platforms.md",

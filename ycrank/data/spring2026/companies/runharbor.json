@@ -63,9 +63,9 @@
   "consolidatedAvg": 51.57,
   "consolidatedRank": 14,
   "traction": {
-    "tractionRank": 39,
-    "tractionScore": 41,
-    "tractionReason": "5 clinical studies live, 7 named customers, paid"
+    "tractionRank": 50,
+    "tractionScore": 43,
+    "tractionReason": "5 trials live, 7 named customers"
   },
   "paths": {
     "memo": "spring2026/memos/runharbor.md",

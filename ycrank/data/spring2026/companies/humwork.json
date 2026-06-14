@@ -55,11 +55,11 @@
     "VK": 33
   },
   "consolidatedAvg": 45.43,
-  "consolidatedRank": 46,
+  "consolidatedRank": 47,
   "traction": {
-    "tractionRank": 26,
-    "tractionScore": 51,
-    "tractionReason": "3,000+ experts, 2,858 questions resolved beta"
+    "tractionRank": 29,
+    "tractionScore": 54,
+    "tractionReason": "3,000+ experts, 2,858 questions resolved"
   },
   "paths": {
     "memo": "spring2026/memos/humwork.md",

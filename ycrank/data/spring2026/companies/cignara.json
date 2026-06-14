@@ -61,9 +61,9 @@
   "consolidatedAvg": 32.71,
   "consolidatedRank": 184,
   "traction": {
-    "tractionRank": 155,
-    "tractionScore": 6,
-    "tractionReason": "LinkedIn page only, no disclosed traction"
+    "tractionRank": 137,
+    "tractionScore": 28,
+    "tractionReason": "No public users, revenue, or customers"
   },
   "paths": {
     "memo": "spring2026/memos/cignara.md",

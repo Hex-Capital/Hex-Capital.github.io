@@ -63,9 +63,9 @@
   "consolidatedAvg": 31.29,
   "consolidatedRank": 192,
   "traction": {
-    "tractionRank": 169,
-    "tractionScore": 5,
-    "tractionReason": "Mac app live, Windows waitlist, no metrics"
+    "tractionRank": 176,
+    "tractionScore": 24,
+    "tractionReason": "Mac app + Windows waitlist"
   },
   "paths": {
     "memo": "spring2026/memos/gravy.md",

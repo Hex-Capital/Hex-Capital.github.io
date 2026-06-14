@@ -62,9 +62,9 @@
   "consolidatedAvg": 51.43,
   "consolidatedRank": 15,
   "traction": {
-    "tractionRank": 91,
-    "tractionScore": 20,
-    "tractionReason": "$500K, full-scale heat shield ground test"
+    "tractionRank": 120,
+    "tractionScore": 32,
+    "tractionReason": "$500K raise, heat-shield ground test"
   },
   "paths": {
     "memo": "spring2026/memos/dispatch.md",

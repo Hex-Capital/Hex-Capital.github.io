@@ -64,9 +64,9 @@
   "consolidatedAvg": 39,
   "consolidatedRank": 121,
   "traction": {
-    "tractionRank": 31,
-    "tractionScore": 47,
-    "tractionReason": "NYT feature, 8 named customers including Zeiss"
+    "tractionRank": 23,
+    "tractionScore": 58,
+    "tractionReason": "8 named customers, NYT feature"
   },
   "paths": {
     "memo": "spring2026/memos/arzana.md",

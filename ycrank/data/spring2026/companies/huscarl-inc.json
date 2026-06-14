@@ -55,11 +55,11 @@
     "VK": 32
   },
   "consolidatedAvg": 45.86,
-  "consolidatedRank": 43,
+  "consolidatedRank": 44,
   "traction": {
-    "tractionRank": 171,
-    "tractionScore": 5,
-    "tractionReason": "Customer-outcomes only, FAANG is pipeline lead"
+    "tractionRank": 68,
+    "tractionScore": 40,
+    "tractionReason": "$2M+ customer premiums optimized, FAANG lead"
   },
   "paths": {
     "memo": "spring2026/memos/huscarl-inc.md",

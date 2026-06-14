@@ -61,9 +61,9 @@
   "consolidatedAvg": 50.14,
   "consolidatedRank": 18,
   "traction": {
-    "tractionRank": 84,
-    "tractionScore": 22,
-    "tractionReason": "arXiv paper, NanoGPT speedrun world record"
+    "tractionRank": 135,
+    "tractionScore": 29,
+    "tractionReason": "SOTA NanoGPT and ZAPBench benchmarks"
   },
   "paths": {
     "memo": "spring2026/memos/asterlab.md",

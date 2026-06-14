@@ -64,9 +64,9 @@
   "consolidatedAvg": 38.29,
   "consolidatedRank": 133,
   "traction": {
-    "tractionRank": 22,
-    "tractionScore": 55,
-    "tractionReason": "500K+ contributors, $1.7M raised"
+    "tractionRank": 43,
+    "tractionScore": 45,
+    "tractionReason": "$1.7M raised, 500K+ contributors"
   },
   "paths": {
     "memo": "spring2026/memos/hubxyz.md",

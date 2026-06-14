@@ -63,9 +63,9 @@
   "consolidatedAvg": 39.14,
   "consolidatedRank": 117,
   "traction": {
-    "tractionRank": 7,
-    "tractionScore": 76,
-    "tractionReason": "$500K+ revenue with named customers"
+    "tractionRank": 9,
+    "tractionScore": 75,
+    "tractionReason": "$500K+ revenue stated on YC page"
   },
   "paths": {
     "memo": "spring2026/memos/asendia-ai.md",

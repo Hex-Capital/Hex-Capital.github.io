@@ -63,9 +63,9 @@
   "consolidatedAvg": 46.71,
   "consolidatedRank": 36,
   "traction": {
-    "tractionRank": 132,
-    "tractionScore": 11,
-    "tractionReason": "Models shipped, 8 unattributed testimonials"
+    "tractionRank": 82,
+    "tractionScore": 37,
+    "tractionReason": "8 customer testimonials, $0.06/min live"
   },
   "paths": {
     "memo": "spring2026/memos/keyframe-labs.md",

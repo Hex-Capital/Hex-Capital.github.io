@@ -62,9 +62,9 @@
   "consolidatedAvg": 40,
   "consolidatedRank": 108,
   "traction": {
-    "tractionRank": 162,
-    "tractionScore": 5,
-    "tractionReason": "No disclosed customers, YC launch only"
+    "tractionRank": 88,
+    "tractionScore": 35,
+    "tractionReason": "YC backing, CEO 6,315 X followers"
   },
   "paths": {
     "memo": "spring2026/memos/foaster.md",

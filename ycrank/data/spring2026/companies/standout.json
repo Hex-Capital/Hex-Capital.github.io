@@ -62,9 +62,9 @@
   "consolidatedAvg": 42,
   "consolidatedRank": 83,
   "traction": {
-    "tractionRank": 41,
-    "tractionScore": 40,
-    "tractionReason": "10K talent, 60+ companies, 100 intros first month"
+    "tractionRank": 31,
+    "tractionScore": 52,
+    "tractionReason": "10,000+ talent, 60+ companies, 100 intros"
   },
   "paths": {
     "memo": "spring2026/memos/standout.md",

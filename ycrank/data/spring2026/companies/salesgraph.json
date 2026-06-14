@@ -62,9 +62,9 @@
   "consolidatedAvg": 35.57,
   "consolidatedRank": 164,
   "traction": {
-    "tractionRank": 128,
-    "tractionScore": 12,
-    "tractionReason": "Live website with 12+ integrations, no customers"
+    "tractionRank": 102,
+    "tractionScore": 33,
+    "tractionReason": "Live site, YC P26 backing"
   },
   "paths": {
     "memo": "spring2026/memos/salesgraph.md",

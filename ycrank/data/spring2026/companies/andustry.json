@@ -64,9 +64,9 @@
   "consolidatedAvg": 35.86,
   "consolidatedRank": 159,
   "traction": {
-    "tractionRank": 74,
-    "tractionScore": 25,
-    "tractionReason": "Customer testimonials, $400K+ savings, commission model"
+    "tractionRank": 53,
+    "tractionScore": 42,
+    "tractionReason": "$400K customer-savings testimonials"
   },
   "paths": {
     "memo": "spring2026/memos/andustry.md",

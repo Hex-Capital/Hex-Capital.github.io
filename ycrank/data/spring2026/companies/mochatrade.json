@@ -60,11 +60,11 @@
     "VK": 40
   },
   "consolidatedAvg": 45.71,
-  "consolidatedRank": 44,
+  "consolidatedRank": 45,
   "traction": {
-    "tractionRank": 75,
-    "tractionScore": 25,
-    "tractionReason": "YC + Pioneer pre-seed, broad press"
+    "tractionRank": 126,
+    "tractionScore": 30,
+    "tractionReason": "YC + Pioneer pre-seed, launched May"
   },
   "paths": {
     "memo": "spring2026/memos/mochatrade.md",

@@ -62,9 +62,9 @@
   "consolidatedAvg": 39.43,
   "consolidatedRank": 112,
   "traction": {
-    "tractionRank": 37,
-    "tractionScore": 42,
-    "tractionReason": "4 German plants live, KNIPPING Plastics customer"
+    "tractionRank": 48,
+    "tractionScore": 44,
+    "tractionReason": "4 German plants live, KNIPPING customer"
   },
   "paths": {
     "memo": "spring2026/memos/pairio.md",

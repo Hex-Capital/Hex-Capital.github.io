@@ -64,9 +64,9 @@
   "consolidatedAvg": 42.29,
   "consolidatedRank": 79,
   "traction": {
-    "tractionRank": 120,
-    "tractionScore": 13,
-    "tractionReason": "NVIDIA Inception member, no customers disclosed"
+    "tractionRank": 116,
+    "tractionScore": 32,
+    "tractionReason": "NVIDIA Inception Program member"
   },
   "paths": {
     "memo": "spring2026/memos/madrone.md",

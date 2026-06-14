@@ -62,9 +62,9 @@
   "consolidatedAvg": 39.14,
   "consolidatedRank": 119,
   "traction": {
-    "tractionRank": 133,
-    "tractionScore": 10,
-    "tractionReason": "Data partnerships listed, no customers or revenue"
+    "tractionRank": 84,
+    "tractionScore": 36,
+    "tractionReason": "FactSet, Tiingo data partnerships"
   },
   "paths": {
     "memo": "spring2026/memos/kimpton-ai.md",

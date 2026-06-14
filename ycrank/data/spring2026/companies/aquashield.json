@@ -61,9 +61,9 @@
   "consolidatedAvg": 40.14,
   "consolidatedRank": 103,
   "traction": {
-    "tractionRank": 194,
-    "tractionScore": 2,
-    "tractionReason": "MIT pilot, German real-estate sensors only"
+    "tractionRank": 93,
+    "tractionScore": 35,
+    "tractionReason": "MIT Facilities and German RE pilots"
   },
   "paths": {
     "memo": "spring2026/memos/aquashield.md",

@@ -62,9 +62,9 @@
   "consolidatedAvg": 47.71,
   "consolidatedRank": 31,
   "traction": {
-    "tractionRank": 52,
-    "tractionScore": 35,
-    "tractionReason": "100K+ HuggingFace downloads/month"
+    "tractionRank": 38,
+    "tractionScore": 48,
+    "tractionReason": "100K+ monthly Hugging Face downloads"
   },
   "paths": {
     "memo": "spring2026/memos/kugelaudio.md",

@@ -64,9 +64,9 @@
   "consolidatedAvg": 44,
   "consolidatedRank": 65,
   "traction": {
-    "tractionRank": 181,
-    "tractionScore": 4,
-    "tractionReason": "\"Quadrupled mission success rates\" claim only"
+    "tractionRank": 117,
+    "tractionScore": 32,
+    "tractionReason": "\"Quadrupled mission success\" claim"
   },
   "paths": {
     "memo": "spring2026/memos/maquoketa-research.md",

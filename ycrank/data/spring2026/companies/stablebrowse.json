@@ -63,9 +63,9 @@
   "consolidatedAvg": 36.29,
   "consolidatedRank": 153,
   "traction": {
-    "tractionRank": 142,
-    "tractionScore": 9,
-    "tractionReason": "Self-reported performance claims only"
+    "tractionRank": 190,
+    "tractionScore": 22,
+    "tractionReason": "Self-reported claims, no customers"
   },
   "paths": {
     "memo": "spring2026/memos/stablebrowse.md",

@@ -61,11 +61,11 @@
     "VK": 28
   },
   "consolidatedAvg": 45.57,
-  "consolidatedRank": 45,
+  "consolidatedRank": 46,
   "traction": {
-    "tractionRank": 71,
-    "tractionScore": 27,
-    "tractionReason": "Google ADK, Replit, LangChain logos building"
+    "tractionRank": 81,
+    "tractionScore": 37,
+    "tractionReason": "Google, Replit, LangChain customer logos"
   },
   "paths": {
     "memo": "spring2026/memos/agentphone.md",

@@ -63,9 +63,9 @@
   "consolidatedAvg": 35.86,
   "consolidatedRank": 158,
   "traction": {
-    "tractionRank": 167,
-    "tractionScore": 5,
-    "tractionReason": "Pivoted to subsea drones ~2 weeks pre-research"
+    "tractionRank": 163,
+    "tractionScore": 24,
+    "tractionReason": "2-week-old pivot, no current traction"
   },
   "paths": {
     "memo": "spring2026/memos/aice.md",

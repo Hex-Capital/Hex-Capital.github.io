@@ -62,9 +62,9 @@
   "consolidatedAvg": 42.86,
   "consolidatedRank": 72,
   "traction": {
-    "tractionRank": 72,
-    "tractionScore": 26,
-    "tractionReason": "IEEE paper accepted, public pricing live"
+    "tractionRank": 111,
+    "tractionScore": 32,
+    "tractionReason": "IEEE paper, self-reported benchmarks"
   },
   "paths": {
     "memo": "spring2026/memos/interfaze.md",

@@ -57,9 +57,9 @@
   "consolidatedAvg": 38.86,
   "consolidatedRank": 125,
   "traction": {
-    "tractionRank": 88,
-    "tractionScore": 21,
-    "tractionReason": "YC P26 with active hiring, pre-revenue"
+    "tractionRank": 104,
+    "tractionScore": 33,
+    "tractionReason": "YC P26, active jobs posted"
   },
   "paths": {
     "memo": "spring2026/memos/mount.md",

@@ -61,9 +61,9 @@
   "consolidatedAvg": 35.43,
   "consolidatedRank": 167,
   "traction": {
-    "tractionRank": 176,
-    "tractionScore": 4,
-    "tractionReason": "No revenue, customers, or social-follower data"
+    "tractionRank": 171,
+    "tractionScore": 24,
+    "tractionReason": "YC launch, no public metrics"
   },
   "paths": {
     "memo": "spring2026/memos/incandor.md",

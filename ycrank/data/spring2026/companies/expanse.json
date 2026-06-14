@@ -63,9 +63,9 @@
   "consolidatedAvg": 47,
   "consolidatedRank": 33,
   "traction": {
-    "tractionRank": 101,
-    "tractionScore": 17,
-    "tractionReason": "One 32-GPU customer example on landing"
+    "tractionRank": 174,
+    "tractionScore": 24,
+    "tractionReason": "Sample 32-GPU case only"
   },
   "paths": {
     "memo": "spring2026/memos/expanse.md",

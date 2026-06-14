@@ -60,9 +60,9 @@
   "consolidatedAvg": 45,
   "consolidatedRank": 53,
   "traction": {
-    "tractionRank": 80,
-    "tractionScore": 23,
-    "tractionReason": "\"$28M damages prevented\" customer-claim metric"
+    "tractionRank": 62,
+    "tractionScore": 40,
+    "tractionReason": "$28M cumulative damages prevented claim"
   },
   "paths": {
     "memo": "spring2026/memos/silmaril.md",

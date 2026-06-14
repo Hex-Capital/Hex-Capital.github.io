@@ -62,9 +62,9 @@
   "consolidatedAvg": 32.43,
   "consolidatedRank": 187,
   "traction": {
-    "tractionRank": 161,
-    "tractionScore": 5,
-    "tractionReason": "No disclosed customers, revenue, or users"
+    "tractionRank": 173,
+    "tractionScore": 24,
+    "tractionReason": "No public traction found"
   },
   "paths": {
     "memo": "spring2026/memos/flowscope.md",

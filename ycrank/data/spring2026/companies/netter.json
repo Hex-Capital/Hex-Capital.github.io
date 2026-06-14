@@ -63,9 +63,9 @@
   "consolidatedAvg": 35.14,
   "consolidatedRank": 172,
   "traction": {
-    "tractionRank": 67,
-    "tractionScore": 28,
-    "tractionReason": "Carrefour, Tesco, Auchan customer logos displayed"
+    "tractionRank": 103,
+    "tractionScore": 33,
+    "tractionReason": "Carrefour, Tesco, Auchan logos"
   },
   "paths": {
     "memo": "spring2026/memos/netter.md",

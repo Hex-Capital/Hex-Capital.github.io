@@ -60,9 +60,9 @@
   "consolidatedAvg": 41.71,
   "consolidatedRank": 88,
   "traction": {
-    "tractionRank": 168,
-    "tractionScore": 5,
-    "tractionReason": "Pre-launch waitlist, no signup count"
+    "tractionRank": 160,
+    "tractionScore": 24,
+    "tractionReason": "Pre-launch waitlist only"
   },
   "paths": {
     "memo": "spring2026/memos/result.md",

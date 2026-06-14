@@ -60,11 +60,11 @@
     "VK": 31
   },
   "consolidatedAvg": 45.86,
-  "consolidatedRank": 41,
+  "consolidatedRank": 42,
   "traction": {
-    "tractionRank": 60,
-    "tractionScore": 31,
-    "tractionReason": "Hyperspell customer, 1,001 LinkedIn followers"
+    "tractionRank": 67,
+    "tractionScore": 40,
+    "tractionReason": "Hyperspell customer, 1K LinkedIn followers"
   },
   "paths": {
     "memo": "spring2026/memos/arga-labs.md",

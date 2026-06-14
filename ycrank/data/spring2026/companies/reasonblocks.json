@@ -62,9 +62,9 @@
   "consolidatedAvg": 31.43,
   "consolidatedRank": 191,
   "traction": {
-    "tractionRank": 138,
-    "tractionScore": 10,
-    "tractionReason": "Internal SWE-Bench benchmark only"
+    "tractionRank": 140,
+    "tractionScore": 28,
+    "tractionReason": "Internal SWE-Bench Pro benchmarks only"
   },
   "paths": {
     "memo": "spring2026/memos/reasonblocks.md",

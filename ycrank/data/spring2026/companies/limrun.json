@@ -63,9 +63,9 @@
   "consolidatedAvg": 52.29,
   "consolidatedRank": 12,
   "traction": {
-    "tractionRank": 40,
-    "tractionScore": 41,
-    "tractionReason": "7 platform customers including Replit, Rork"
+    "tractionRank": 28,
+    "tractionScore": 54,
+    "tractionReason": "7 platform customers including Replit"
   },
   "paths": {
     "memo": "spring2026/memos/limrun.md",

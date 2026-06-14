@@ -62,9 +62,9 @@
   "consolidatedAvg": 38.71,
   "consolidatedRank": 129,
   "traction": {
-    "tractionRank": 97,
-    "tractionScore": 18,
-    "tractionReason": "Paid tiers $99-$299/mo live, no customers disclosed"
+    "tractionRank": 193,
+    "tractionScore": 20,
+    "tractionReason": "YC launch only, Discord live"
   },
   "paths": {
     "memo": "spring2026/memos/testerarmy.md",

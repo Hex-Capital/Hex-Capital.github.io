@@ -61,9 +61,9 @@
   "consolidatedAvg": 44.29,
   "consolidatedRank": 59,
   "traction": {
-    "tractionRank": 14,
+    "tractionRank": 16,
     "tractionScore": 64,
-    "tractionReason": "$12M pre-seed, hundreds of cases monthly live"
+    "tractionReason": "$12M raise, hundreds of cases monthly"
   },
   "paths": {
     "memo": "spring2026/memos/andco.md",

@@ -62,9 +62,9 @@
   "consolidatedAvg": 38.71,
   "consolidatedRank": 127,
   "traction": {
-    "tractionRank": 102,
-    "tractionScore": 17,
-    "tractionReason": "8,500+ persistent agents self-reported"
+    "tractionRank": 49,
+    "tractionScore": 43,
+    "tractionReason": "8,500+ persistent agents (self-reported)"
   },
   "paths": {
     "memo": "spring2026/memos/pentagon.md",

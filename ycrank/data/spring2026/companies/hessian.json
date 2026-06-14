@@ -63,9 +63,9 @@
   "consolidatedAvg": 39.14,
   "consolidatedRank": 118,
   "traction": {
-    "tractionRank": 49,
-    "tractionScore": 36,
-    "tractionReason": "Fazeshift customer, live workflow telemetry"
+    "tractionRank": 74,
+    "tractionScore": 38,
+    "tractionReason": "Fazeshift customer, 15 runs/24h telemetry"
   },
   "paths": {
     "memo": "spring2026/memos/hessian.md",

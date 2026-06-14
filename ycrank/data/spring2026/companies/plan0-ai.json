@@ -64,8 +64,8 @@
   "consolidatedAvg": 42,
   "consolidatedRank": 81,
   "traction": {
-    "tractionRank": 62,
-    "tractionScore": 30,
+    "tractionRank": 60,
+    "tractionScore": 40,
     "tractionReason": "$20B projects on platform, $4M raised"
   },
   "paths": {

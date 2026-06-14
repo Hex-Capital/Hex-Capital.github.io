@@ -64,9 +64,9 @@
   "consolidatedAvg": 35.14,
   "consolidatedRank": 171,
   "traction": {
-    "tractionRank": 129,
-    "tractionScore": 11,
-    "tractionReason": "YC launch only, no customers or revenue"
+    "tractionRank": 149,
+    "tractionScore": 26,
+    "tractionReason": "Recent Refortifai pivot, no customers"
   },
   "paths": {
     "memo": "spring2026/memos/atrisa.md",

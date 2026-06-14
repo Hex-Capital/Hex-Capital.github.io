@@ -61,9 +61,9 @@
   "consolidatedAvg": 52.43,
   "consolidatedRank": 11,
   "traction": {
-    "tractionRank": 81,
-    "tractionScore": 23,
-    "tractionReason": "MIT NSE collaboration, future 2028 pilot"
+    "tractionRank": 64,
+    "tractionScore": 40,
+    "tractionReason": "MIT NSE research collaboration"
   },
   "paths": {
     "memo": "spring2026/memos/apollo-atomics-inc.md",

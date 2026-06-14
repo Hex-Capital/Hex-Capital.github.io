@@ -57,9 +57,9 @@
   "consolidatedAvg": 35,
   "consolidatedRank": 174,
   "traction": {
-    "tractionRank": 107,
-    "tractionScore": 16,
-    "tractionReason": "SOC 2 + HIPAA claimed, $100K savings claim"
+    "tractionRank": 150,
+    "tractionScore": 26,
+    "tractionReason": "SOC 2 claim, no customers disclosed"
   },
   "paths": {
     "memo": "spring2026/memos/autostep.md",

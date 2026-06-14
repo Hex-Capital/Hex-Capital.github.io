@@ -62,9 +62,9 @@
   "consolidatedAvg": 41.71,
   "consolidatedRank": 86,
   "traction": {
-    "tractionRank": 191,
-    "tractionScore": 2,
-    "tractionReason": "No revenue, customers, or press found"
+    "tractionRank": 194,
+    "tractionScore": 18,
+    "tractionReason": "No public revenue or customers"
   },
   "paths": {
     "memo": "spring2026/memos/advanced-metal-research.md",

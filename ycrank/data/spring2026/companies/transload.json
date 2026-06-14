@@ -62,9 +62,9 @@
   "consolidatedAvg": 39.29,
   "consolidatedRank": 116,
   "traction": {
-    "tractionRank": 172,
-    "tractionScore": 5,
-    "tractionReason": "Customer outcome quote, website placeholder only"
+    "tractionRank": 145,
+    "tractionScore": 28,
+    "tractionReason": "One customer testimonial, website down"
   },
   "paths": {
     "memo": "spring2026/memos/transload.md",

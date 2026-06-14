@@ -63,9 +63,9 @@
   "consolidatedAvg": 33.29,
   "consolidatedRank": 181,
   "traction": {
-    "tractionRank": 137,
-    "tractionScore": 10,
-    "tractionReason": "YC launch, unattributed landing-page customer claims"
+    "tractionRank": 141,
+    "tractionScore": 28,
+    "tractionReason": "Testimonials with no customer names"
   },
   "paths": {
     "memo": "spring2026/memos/rudus.md",

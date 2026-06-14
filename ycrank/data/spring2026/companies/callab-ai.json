@@ -62,9 +62,9 @@
   "consolidatedAvg": 48.14,
   "consolidatedRank": 27,
   "traction": {
-    "tractionRank": 57,
-    "tractionScore": 32,
-    "tractionReason": "Dunkin Donuts customer across three continents"
+    "tractionRank": 105,
+    "tractionScore": 33,
+    "tractionReason": "Dunkin Donuts named customer"
   },
   "paths": {
     "memo": "spring2026/memos/callab-ai.md",

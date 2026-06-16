@@ -109,7 +109,7 @@
         "VK": "Pass"
       },
       "avg": 54.86,
-      "revenue": null,
+      "revenue": 22000,
       "teamSize": 2,
       "ycPartner": "Tom Blomfield",
       "oneLiner": "Simple, Networked, Driverless, RF Test Equipment",
@@ -351,7 +351,7 @@
         "VK": "Pass"
       },
       "avg": 53,
-      "revenue": null,
+      "revenue": 643000,
       "teamSize": 5,
       "ycPartner": "Aaron Epstein",
       "oneLiner": "AI Native Developer Relations",
@@ -512,7 +512,7 @@
         "VK": "Pass"
       },
       "avg": 52.29,
-      "revenue": null,
+      "revenue": 1740000,
       "teamSize": 1,
       "ycPartner": "Harj Taggar",
       "oneLiner": "Extend your cloud agent with XCode, Android and more",
@@ -589,7 +589,7 @@
         "VK": "Pass"
       },
       "avg": 51.57,
-      "revenue": null,
+      "revenue": 1930000,
       "teamSize": 2,
       "ycPartner": "Nicolas Dessaigne",
       "oneLiner": "AI system-of-record for clinical trial data",
@@ -793,7 +793,7 @@
         "VK": "Pass"
       },
       "avg": 50.14,
-      "revenue": null,
+      "revenue": 1020000,
       "teamSize": 2,
       "ycPartner": "David Lieb",
       "oneLiner": "AI Health Assistant for Chronic Illness",
@@ -872,7 +872,7 @@
         "VK": "Neutral"
       },
       "avg": 48.86,
-      "revenue": null,
+      "revenue": 17000,
       "teamSize": 2,
       "ycPartner": "Nicolas Dessaigne",
       "oneLiner": "The first AI founder: a virtual human who runs his own companies.",
@@ -991,7 +991,7 @@
         "VK": "Pass"
       },
       "avg": 48.57,
-      "revenue": null,
+      "revenue": 296000,
       "teamSize": 4,
       "ycPartner": "Andrew Miklas",
       "oneLiner": "Automated Scale AI for robotics data",
@@ -1070,7 +1070,7 @@
         "VK": "Neutral"
       },
       "avg": 48.29,
-      "revenue": null,
+      "revenue": 370000,
       "teamSize": 4,
       "ycPartner": "Nicolas Dessaigne",
       "oneLiner": "Fast, smart, accessible 3D ultrasound for everyone",
@@ -1150,7 +1150,7 @@
         "VK": "Pass"
       },
       "avg": 48,
-      "revenue": null,
+      "revenue": 168000,
       "teamSize": 3,
       "ycPartner": "Nicolas Dessaigne",
       "oneLiner": "The IDE for the AI Agents Era",
@@ -1265,7 +1265,7 @@
         "VK": "Pass"
       },
       "avg": 47.71,
-      "revenue": null,
+      "revenue": 100000,
       "teamSize": 4,
       "ycPartner": "Andrew Miklas",
       "oneLiner": "Kugel is an on-prem enterprise TTS supporting 25+ languages",
@@ -1458,7 +1458,7 @@
         "VK": "Pass"
       },
       "avg": 47,
-      "revenue": null,
+      "revenue": 72000,
       "teamSize": 3,
       "ycPartner": "David Lieb",
       "oneLiner": "The AI coworker that helps pathologists work cases faster",
@@ -1498,7 +1498,7 @@
         "VK": "Pass"
       },
       "avg": 46.71,
-      "revenue": null,
+      "revenue": 180000,
       "teamSize": 2,
       "ycPartner": "David Lieb",
       "oneLiner": "Turn agents into lifelike video calls. $0.06 a minute.",
@@ -1659,7 +1659,7 @@
         "VK": "Pass"
       },
       "avg": 46,
-      "revenue": null,
+      "revenue": 130000,
       "teamSize": 1,
       "ycPartner": "Pete Koomen",
       "oneLiner": "Ship software faster with portable, self contained virtual machines.",
@@ -1698,7 +1698,7 @@
         "VK": "Pass"
       },
       "avg": 46,
-      "revenue": null,
+      "revenue": 75000,
       "teamSize": 4,
       "ycPartner": "Tom Blomfield",
       "oneLiner": "AI that automates servicing for commercial lenders",
@@ -2010,7 +2010,7 @@
         "VK": "Pass"
       },
       "avg": 45.14,
-      "revenue": null,
+      "revenue": 516000,
       "teamSize": 7,
       "ycPartner": "Tom Blomfield",
       "oneLiner": "RPA platform for deploying AI into legacy desktop systems",
@@ -2086,7 +2086,7 @@
         "VK": "Pass"
       },
       "avg": 45,
-      "revenue": null,
+      "revenue": 156000,
       "teamSize": 4,
       "ycPartner": "Tom Blomfield",
       "oneLiner": "Shared context for all of your team's agents.",
@@ -2126,7 +2126,7 @@
         "VK": "Pass"
       },
       "avg": 45,
-      "revenue": null,
+      "revenue": 444000,
       "teamSize": 2,
       "ycPartner": "Garry Tan",
       "oneLiner": "Prompt injection defense that is self-healing",
@@ -2164,7 +2164,7 @@
         "VK": "Pass"
       },
       "avg": 44.86,
-      "revenue": null,
+      "revenue": 48000,
       "teamSize": 6,
       "ycPartner": "Andrew Miklas",
       "oneLiner": "The agent-native cloud infrastructure platform",
@@ -2244,7 +2244,7 @@
         "VK": "Pass"
       },
       "avg": 44.71,
-      "revenue": null,
+      "revenue": 613000,
       "teamSize": 6,
       "ycPartner": "Nicolas Dessaigne",
       "oneLiner": "Autonomous Agents for Short Term Rentals",
@@ -2280,7 +2280,7 @@
         "VK": "Pass"
       },
       "avg": 44.57,
-      "revenue": null,
+      "revenue": 160000,
       "teamSize": 3,
       "ycPartner": "David Lieb",
       "oneLiner": "Custom command centers for hedge funds",
@@ -2719,7 +2719,7 @@
         "VK": "Pass"
       },
       "avg": 43.71,
-      "revenue": null,
+      "revenue": 171000,
       "teamSize": 2,
       "ycPartner": "Harj Taggar",
       "oneLiner": "Automated order entry for manufacturers",
@@ -2841,7 +2841,7 @@
         "VK": "Pass"
       },
       "avg": 43.14,
-      "revenue": null,
+      "revenue": 75000,
       "teamSize": 2,
       "ycPartner": "David Lieb",
       "oneLiner": "Observability that installs itself and fixes the bugs it finds.",
@@ -2923,7 +2923,7 @@
         "VK": "Pass"
       },
       "avg": 42.86,
-      "revenue": null,
+      "revenue": 96000,
       "teamSize": 5,
       "ycPartner": "Aaron Epstein",
       "oneLiner": "AI model built for deterministic developer tasks",
@@ -2963,7 +2963,7 @@
         "VK": "Pass"
       },
       "avg": 42.86,
-      "revenue": null,
+      "revenue": 204000,
       "teamSize": 3,
       "ycPartner": "Andrew Miklas",
       "oneLiner": "Tracking global laws, grants and consultations",
@@ -3004,7 +3004,7 @@
         "VK": "Pass"
       },
       "avg": 42.57,
-      "revenue": null,
+      "revenue": 252000,
       "teamSize": 2,
       "ycPartner": "David Lieb",
       "oneLiner": "AI sourcing broker connecting brands with vetted overseas factories",
@@ -3046,7 +3046,7 @@
         "VK": "Neutral"
       },
       "avg": 42.57,
-      "revenue": null,
+      "revenue": 150000,
       "teamSize": 4,
       "ycPartner": "Pete Koomen",
       "oneLiner": "Low-cost, mass-produced strike drones",
@@ -3126,7 +3126,7 @@
         "VK": "Neutral"
       },
       "avg": 42.43,
-      "revenue": null,
+      "revenue": 22000,
       "teamSize": 4,
       "ycPartner": "Tom Blomfield",
       "oneLiner": "Staff your warehouse with robotic employees today",
@@ -3167,7 +3167,7 @@
         "VK": "Pass"
       },
       "avg": 42.43,
-      "revenue": null,
+      "revenue": 1250000,
       "teamSize": 4,
       "ycPartner": "Tom Blomfield",
       "oneLiner": "AI-native recruiting agency",
@@ -3286,7 +3286,7 @@
         "VK": "Pass"
       },
       "avg": 42,
-      "revenue": null,
+      "revenue": 240000,
       "teamSize": 5,
       "ycPartner": "Tom Blomfield",
       "oneLiner": "AI powered construction cost estimation & analytics.",
@@ -3328,7 +3328,7 @@
         "VK": "Pass"
       },
       "avg": 42,
-      "revenue": null,
+      "revenue": 240000,
       "teamSize": 2,
       "ycPartner": "Andrew Miklas",
       "oneLiner": "Turn more website visitors into customers",
@@ -3370,7 +3370,7 @@
         "VK": "Pass"
       },
       "avg": 42,
-      "revenue": null,
+      "revenue": 792000,
       "teamSize": 3,
       "ycPartner": "Aaron Epstein",
       "oneLiner": "Agentic hiring marketplace",
@@ -3572,7 +3572,7 @@
         "VK": "Pass"
       },
       "avg": 41.71,
-      "revenue": null,
+      "revenue": 14400,
       "teamSize": 2,
       "ycPartner": "Aaron Epstein",
       "oneLiner": "Where new internet entrepreneurs build and run their companies",
@@ -3692,7 +3692,7 @@
         "VK": "Pass"
       },
       "avg": 41.43,
-      "revenue": null,
+      "revenue": 1000000,
       "teamSize": 10,
       "ycPartner": "Andrew Miklas",
       "oneLiner": "robots & software for farms",
@@ -3733,7 +3733,7 @@
         "VK": "Pass"
       },
       "avg": 41.29,
-      "revenue": null,
+      "revenue": 10000,
       "teamSize": 3,
       "ycPartner": "Pete Koomen",
       "oneLiner": "A natural language agent framework: write the future into existence.",
@@ -3775,7 +3775,7 @@
         "VK": "Pass"
       },
       "avg": 41.29,
-      "revenue": null,
+      "revenue": 804000,
       "teamSize": 4,
       "ycPartner": "Tom Blomfield",
       "oneLiner": "The Agentic ERP for supply chain operations",
@@ -3817,7 +3817,7 @@
         "VK": "Pass"
       },
       "avg": 41.14,
-      "revenue": null,
+      "revenue": 400000,
       "teamSize": 3,
       "ycPartner": "Nicolas Dessaigne",
       "oneLiner": "Automated forward-deployed engineers (AI FDEs)",
@@ -3897,7 +3897,7 @@
         "VK": "Pass"
       },
       "avg": 41.14,
-      "revenue": null,
+      "revenue": 20000,
       "teamSize": 3,
       "ycPartner": "Harj Taggar",
       "oneLiner": "AI Bloomberg Terminal built for Healthcare (and beyond)",
@@ -3978,7 +3978,7 @@
         "VK": "Pass"
       },
       "avg": 40.86,
-      "revenue": null,
+      "revenue": 30000,
       "teamSize": 2,
       "ycPartner": "Pete Koomen",
       "oneLiner": "Code review platform for AI generated code",
@@ -4017,7 +4017,7 @@
         "VK": "Pass"
       },
       "avg": 40.71,
-      "revenue": null,
+      "revenue": 96000,
       "teamSize": 2,
       "ycPartner": "David Lieb",
       "oneLiner": "Institutional data layer for prediction markets",
@@ -4302,7 +4302,7 @@
         "VK": "Pass"
       },
       "avg": 40.14,
-      "revenue": null,
+      "revenue": 430000,
       "teamSize": 4,
       "ycPartner": "Andrew Miklas",
       "oneLiner": "AI Agent for Therapists",
@@ -4344,7 +4344,7 @@
         "VK": "Pass"
       },
       "avg": 40.14,
-      "revenue": null,
+      "revenue": 1000000,
       "teamSize": null,
       "ycPartner": "Andrew Miklas",
       "oneLiner": "Plena is the AI operating system for specialty medical practices",
@@ -4540,7 +4540,7 @@
         "VK": "Pass"
       },
       "avg": 39.43,
-      "revenue": null,
+      "revenue": 28000,
       "teamSize": 3,
       "ycPartner": "Tom Blomfield",
       "oneLiner": "AI-native industrial maintenance software",
@@ -4662,7 +4662,7 @@
         "VK": "Pass"
       },
       "avg": 39.29,
-      "revenue": null,
+      "revenue": 288000,
       "teamSize": 1,
       "ycPartner": "Harj Taggar",
       "oneLiner": "Background coding agents for engineering teams",
@@ -4702,7 +4702,7 @@
         "VK": "Pass"
       },
       "avg": 39.29,
-      "revenue": null,
+      "revenue": 450,
       "teamSize": 3,
       "ycPartner": "David Lieb",
       "oneLiner": "Measure freight items with security cameras",
@@ -4944,7 +4944,7 @@
         "VK": "Pass"
       },
       "avg": 39,
-      "revenue": null,
+      "revenue": 282000,
       "teamSize": 3,
       "ycPartner": "David Lieb",
       "oneLiner": "AI coworker for marketing teams",
@@ -5019,7 +5019,7 @@
         "VK": "Pass"
       },
       "avg": 39,
-      "revenue": null,
+      "revenue": 500000,
       "teamSize": 2,
       "ycPartner": "Aaron Epstein",
       "oneLiner": "AI-Native FDA Regulatory Services",
@@ -5137,7 +5137,7 @@
         "VK": "Pass"
       },
       "avg": 38.71,
-      "revenue": null,
+      "revenue": 240000,
       "teamSize": 1,
       "ycPartner": "Tom Blomfield",
       "oneLiner": "Your AI agents, working as a team.",
@@ -5177,7 +5177,7 @@
         "VK": "Pass"
       },
       "avg": 38.71,
-      "revenue": null,
+      "revenue": 2100000,
       "teamSize": 2,
       "ycPartner": "Nicolas Dessaigne",
       "oneLiner": "Full-stack Medical Billing Services",
@@ -5215,7 +5215,7 @@
         "VK": "Pass"
       },
       "avg": 38.71,
-      "revenue": null,
+      "revenue": 84000,
       "teamSize": 4,
       "ycPartner": "Pete Koomen",
       "oneLiner": "Test your app with AI, catch bugs before users do",
@@ -5255,7 +5255,7 @@
         "VK": "Pass"
       },
       "avg": 38.71,
-      "revenue": null,
+      "revenue": 307000,
       "teamSize": 4,
       "ycPartner": "Andrew Miklas",
       "oneLiner": "AI CSM that never misses churn and upsells.",
@@ -5336,7 +5336,7 @@
         "VK": "Pass"
       },
       "avg": 38.43,
-      "revenue": null,
+      "revenue": 288000,
       "teamSize": 1,
       "ycPartner": "Nicolas Dessaigne",
       "oneLiner": "We make your product discoverable and usable by any AI agent",
@@ -5376,7 +5376,7 @@
         "VK": "Pass"
       },
       "avg": 38.29,
-      "revenue": null,
+      "revenue": 55000,
       "teamSize": 2,
       "ycPartner": "Aaron Epstein",
       "oneLiner": "The AI-native OS for IT",
@@ -5539,7 +5539,7 @@
         "VK": "Pass"
       },
       "avg": 37.86,
-      "revenue": null,
+      "revenue": 312000,
       "teamSize": 2,
       "ycPartner": "Tom Blomfield",
       "oneLiner": "Everything but the app itself",
@@ -5698,7 +5698,7 @@
         "VK": "Pass"
       },
       "avg": 37.14,
-      "revenue": null,
+      "revenue": 108000,
       "teamSize": 3,
       "ycPartner": "Tom Blomfield",
       "oneLiner": "AI agents that interview every employee to map how work gets done.",
@@ -5858,7 +5858,7 @@
         "VK": "Pass"
       },
       "avg": 36.86,
-      "revenue": null,
+      "revenue": 3840000,
       "teamSize": 2,
       "ycPartner": "Nicolas Dessaigne",
       "oneLiner": "Autonomous manufacturing for mechanical parts",
@@ -5981,7 +5981,7 @@
         "VK": "Pass"
       },
       "avg": 36.43,
-      "revenue": null,
+      "revenue": 12000,
       "teamSize": 2,
       "ycPartner": "David Lieb",
       "oneLiner": "The Self-Driving Company Brain",
@@ -6021,7 +6021,7 @@
         "VK": "Pass"
       },
       "avg": 36.43,
-      "revenue": null,
+      "revenue": 2000000,
       "teamSize": 6,
       "ycPartner": "Andrew Miklas",
       "oneLiner": "Scale marketing campaigns across hundreds of personas",
@@ -6062,7 +6062,7 @@
         "VK": "Pass"
       },
       "avg": 36.43,
-      "revenue": null,
+      "revenue": 268000,
       "teamSize": 2,
       "ycPartner": "David Lieb",
       "oneLiner": "Storefronts that sell to humans and AI agents",
@@ -6219,7 +6219,7 @@
         "VK": "Pass"
       },
       "avg": 36.29,
-      "revenue": null,
+      "revenue": 108000,
       "teamSize": 2,
       "ycPartner": "Aaron Epstein",
       "oneLiner": "AI-native operating system for auto shops",
@@ -6260,7 +6260,7 @@
         "VK": "Pass"
       },
       "avg": 36.29,
-      "revenue": null,
+      "revenue": 1440000,
       "teamSize": 3,
       "ycPartner": "David Lieb",
       "oneLiner": "Patreon for AI originals",
@@ -6589,7 +6589,7 @@
         "VK": "Pass"
       },
       "avg": 35.57,
-      "revenue": null,
+      "revenue": 96000,
       "teamSize": 2,
       "ycPartner": "Andrew Miklas",
       "oneLiner": "the context layer for fast moving sales teams",
@@ -6629,7 +6629,7 @@
         "VK": "Pass"
       },
       "avg": 35.57,
-      "revenue": null,
+      "revenue": 24000,
       "teamSize": 1,
       "ycPartner": "Andrew Miklas",
       "oneLiner": "Building infrastructure for AI-native care providers",
@@ -6834,7 +6834,7 @@
         "VK": "Pass"
       },
       "avg": 35.43,
-      "revenue": null,
+      "revenue": 216000,
       "teamSize": 0,
       "ycPartner": "Harj Taggar",
       "oneLiner": "Autonomous Manufacturing Operations",
@@ -6914,7 +6914,7 @@
         "VK": "Pass"
       },
       "avg": 35.14,
-      "revenue": null,
+      "revenue": 160000,
       "teamSize": 4,
       "ycPartner": "Nicolas Dessaigne",
       "oneLiner": "Data Science Autopilot for the real economy.",
@@ -6955,7 +6955,7 @@
         "VK": "Pass"
       },
       "avg": 35.14,
-      "revenue": null,
+      "revenue": 180000,
       "teamSize": 3,
       "ycPartner": "Tom Blomfield",
       "oneLiner": "AI that turns your product into on-brand marketing content",
@@ -7115,7 +7115,7 @@
         "VK": "Pass"
       },
       "avg": 34.43,
-      "revenue": null,
+      "revenue": 63000,
       "teamSize": 2,
       "ycPartner": "Pete Koomen",
       "oneLiner": "Visual infrastructure for EdTech AI applications",
@@ -7274,7 +7274,7 @@
         "VK": "Pass"
       },
       "avg": 33.29,
-      "revenue": null,
+      "revenue": 350000,
       "teamSize": 2,
       "ycPartner": "David Lieb",
       "oneLiner": "AI Takeoffs Built for Concrete",
@@ -7477,7 +7477,7 @@
         "VK": "Pass"
       },
       "avg": 32.57,
-      "revenue": null,
+      "revenue": 550000,
       "teamSize": 0,
       "ycPartner": "Andrew Miklas",
       "oneLiner": "AI-native platform for wealth managers",
@@ -7595,7 +7595,7 @@
         "VK": "Pass"
       },
       "avg": 32.29,
-      "revenue": null,
+      "revenue": 96000,
       "teamSize": 2,
       "ycPartner": "Nicolas Dessaigne",
       "oneLiner": "Shared memory, tools, and workflows for agents across teams",
@@ -7676,7 +7676,7 @@
         "VK": "Pass"
       },
       "avg": 31.43,
-      "revenue": null,
+      "revenue": 60000,
       "teamSize": 2,
       "ycPartner": "Aaron Epstein",
       "oneLiner": "The runtime layer that makes AI agents cheaper and more reliable",
@@ -7757,7 +7757,7 @@
         "VK": "Pass"
       },
       "avg": 31.29,
-      "revenue": null,
+      "revenue": 888000,
       "teamSize": 0,
       "ycPartner": "David Lieb",
       "oneLiner": "AI that turns events into pipeline",
@@ -7838,7 +7838,7 @@
         "VK": "Pass"
       },
       "avg": 30.14,
-      "revenue": null,
+      "revenue": 1400000,
       "teamSize": 2,
       "ycPartner": "Harj Taggar",
       "oneLiner": "Company brain every AI-native enterprise runs on",
@@ -7876,7 +7876,7 @@
         "VK": "Pass"
       },
       "avg": 26.57,
-      "revenue": null,
+      "revenue": 216000,
       "teamSize": 2,
       "ycPartner": "Andrew Miklas",
       "oneLiner": "AI-Native Marketing for Developer Tools",

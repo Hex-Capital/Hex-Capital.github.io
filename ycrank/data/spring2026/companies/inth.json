@@ -63,9 +63,9 @@
   "consolidatedAvg": 54.43,
   "consolidatedRank": 3,
   "traction": {
-    "tractionRank": 14,
-    "tractionScore": 66,
-    "tractionReason": "2.6M npm downloads, Vercel/Expo adopters"
+    "tractionRank": 36,
+    "tractionScore": 52,
+    "tractionReason": "2.6M npm downloads, Vercel/Expo/Zed adopters"
   },
   "paths": {
     "memo": "spring2026/memos/inth.md",

@@ -63,9 +63,9 @@
   "consolidatedAvg": 37.14,
   "consolidatedRank": 142,
   "traction": {
-    "tractionRank": 45,
-    "tractionScore": 45,
-    "tractionReason": "Vertiv (NYSE: VRT) customer testimonial"
+    "tractionRank": 75,
+    "tractionScore": 33,
+    "tractionReason": "Vertiv (NYSE:VRT) customer testimonial"
   },
   "paths": {
     "memo": "spring2026/memos/ontora.md",

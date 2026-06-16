@@ -63,9 +63,9 @@
   "consolidatedAvg": 41.71,
   "consolidatedRank": 87,
   "traction": {
-    "tractionRank": 99,
-    "tractionScore": 34,
-    "tractionReason": "Unnamed brokerage testimonials"
+    "tractionRank": 142,
+    "tractionScore": 7,
+    "tractionReason": "30-min response claim, no named accounts"
   },
   "paths": {
     "memo": "spring2026/memos/hedge.md",

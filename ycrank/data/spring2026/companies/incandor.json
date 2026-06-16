@@ -61,9 +61,9 @@
   "consolidatedAvg": 35.43,
   "consolidatedRank": 167,
   "traction": {
-    "tractionRank": 171,
-    "tractionScore": 24,
-    "tractionReason": "YC launch, no public metrics"
+    "tractionRank": 176,
+    "tractionScore": 3,
+    "tractionReason": "launch video only, unverified claim"
   },
   "paths": {
     "memo": "spring2026/memos/incandor.md",

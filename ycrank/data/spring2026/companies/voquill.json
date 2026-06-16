@@ -60,11 +60,11 @@
     "VK": 34
   },
   "consolidatedAvg": 47,
-  "consolidatedRank": 35,
+  "consolidatedRank": 36,
   "traction": {
-    "tractionRank": 33,
-    "tractionScore": 51,
-    "tractionReason": "25 pathologists onboarded at F500 lab"
+    "tractionRank": 28,
+    "tractionScore": 56,
+    "tractionReason": "25 pathologists at F500 lab onboarded"
   },
   "paths": {
     "memo": "spring2026/memos/voquill.md",

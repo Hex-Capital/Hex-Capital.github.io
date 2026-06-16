@@ -63,9 +63,9 @@
   "consolidatedAvg": 44.29,
   "consolidatedRank": 60,
   "traction": {
-    "tractionRank": 92,
-    "tractionScore": 35,
-    "tractionReason": "Internal ARC-AGI-3 benchmark lift"
+    "tractionRank": 128,
+    "tractionScore": 9,
+    "tractionReason": "internal benchmarks, launch post"
   },
   "paths": {
     "memo": "spring2026/memos/bentolabs-ai.md",

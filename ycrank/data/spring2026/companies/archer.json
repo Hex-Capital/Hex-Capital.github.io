@@ -62,9 +62,9 @@
   "consolidatedAvg": 37,
   "consolidatedRank": 144,
   "traction": {
-    "tractionRank": 164,
-    "tractionScore": 24,
-    "tractionReason": "Investors listed, no customers"
+    "tractionRank": 143,
+    "tractionScore": 6,
+    "tractionReason": "investors listed, no customers/revenue"
   },
   "paths": {
     "memo": "spring2026/memos/archer.md",

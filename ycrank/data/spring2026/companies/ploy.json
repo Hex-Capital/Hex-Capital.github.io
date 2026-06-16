@@ -63,9 +63,9 @@
   "consolidatedAvg": 41.86,
   "consolidatedRank": 85,
   "traction": {
-    "tractionRank": 183,
-    "tractionScore": 22,
-    "tractionReason": "Waitlist only, illustrative metrics"
+    "tractionRank": 120,
+    "tractionScore": 12,
+    "tractionReason": "14 employees, waitlist/early-access only"
   },
   "paths": {
     "memo": "spring2026/memos/ploy.md",

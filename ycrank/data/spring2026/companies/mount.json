@@ -57,9 +57,9 @@
   "consolidatedAvg": 38.86,
   "consolidatedRank": 125,
   "traction": {
-    "tractionRank": 104,
-    "tractionScore": 33,
-    "tractionReason": "YC P26, active jobs posted"
+    "tractionRank": 154,
+    "tractionScore": 5,
+    "tractionReason": "YC X launch post, hiring"
   },
   "paths": {
     "memo": "spring2026/memos/mount.md",

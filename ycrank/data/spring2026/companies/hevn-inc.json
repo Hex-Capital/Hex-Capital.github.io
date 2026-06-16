@@ -64,9 +64,9 @@
   "consolidatedAvg": 51.43,
   "consolidatedRank": 16,
   "traction": {
-    "tractionRank": 73,
-    "tractionScore": 39,
-    "tractionReason": "Waitlist live, prior product 15M users"
+    "tractionRank": 102,
+    "tractionScore": 19,
+    "tractionReason": "waitlist only; prior HOT Labs 15M users"
   },
   "paths": {
     "memo": "spring2026/memos/hevn-inc.md",

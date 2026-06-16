@@ -62,9 +62,9 @@
   "consolidatedAvg": 44.86,
   "consolidatedRank": 54,
   "traction": {
-    "tractionRank": 21,
-    "tractionScore": 60,
-    "tractionReason": "10.7K stars, 198 Product Hunt upvotes"
+    "tractionRank": 35,
+    "tractionScore": 52,
+    "tractionReason": "10.7K stars, 2,000+ databases, 198 PH upvotes"
   },
   "paths": {
     "memo": "spring2026/memos/insforge.md",

@@ -64,9 +64,9 @@
   "consolidatedAvg": 35.14,
   "consolidatedRank": 173,
   "traction": {
-    "tractionRank": 100,
-    "tractionScore": 34,
-    "tractionReason": "5 customer logos, $500K YC"
+    "tractionRank": 90,
+    "tractionScore": 25,
+    "tractionReason": "Relay/Drift/Slate/Forge/Inkwell customer logos"
   },
   "paths": {
     "memo": "spring2026/memos/tdaycom.md",

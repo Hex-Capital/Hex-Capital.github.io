@@ -63,9 +63,9 @@
   "consolidatedAvg": 42.43,
   "consolidatedRank": 76,
   "traction": {
-    "tractionRank": 91,
-    "tractionScore": 35,
-    "tractionReason": "Named professional beta athletes"
+    "tractionRank": 129,
+    "tractionScore": 9,
+    "tractionReason": "beta cohort with named ultramarathoner"
   },
   "paths": {
     "memo": "spring2026/memos/imperfect.md",

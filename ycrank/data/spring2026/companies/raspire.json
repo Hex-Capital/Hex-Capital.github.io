@@ -64,9 +64,9 @@
   "consolidatedAvg": 43.71,
   "consolidatedRank": 67,
   "traction": {
-    "tractionRank": 54,
-    "tractionScore": 42,
-    "tractionReason": "Apps protecting 20M+ end users globally"
+    "tractionRank": 84,
+    "tractionScore": 28,
+    "tractionReason": "20M+ end users via customer apps"
   },
   "paths": {
     "memo": "spring2026/memos/raspire.md",

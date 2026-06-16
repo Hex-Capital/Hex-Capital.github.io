@@ -64,9 +64,9 @@
   "consolidatedAvg": 42,
   "consolidatedRank": 82,
   "traction": {
-    "tractionRank": 30,
-    "tractionScore": 53,
-    "tractionReason": "7.3M sessions analyzed, named customers"
+    "tractionRank": 38,
+    "tractionScore": 51,
+    "tractionReason": "7.3M sessions analyzed, Lindy/Gauge testimonials"
   },
   "paths": {
     "memo": "spring2026/memos/sherpa.md",

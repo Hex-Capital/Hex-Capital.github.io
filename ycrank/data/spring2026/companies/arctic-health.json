@@ -62,9 +62,9 @@
   "consolidatedAvg": 36.29,
   "consolidatedRank": 152,
   "traction": {
-    "tractionRank": 65,
-    "tractionScore": 40,
-    "tractionReason": "$500K raised, \"300+ networks\" claim"
+    "tractionRank": 139,
+    "tractionScore": 7,
+    "tractionReason": "$500K raised, 300+ network coverage claim"
   },
   "paths": {
     "memo": "spring2026/memos/arctic-health.md",

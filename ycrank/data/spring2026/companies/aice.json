@@ -63,9 +63,9 @@
   "consolidatedAvg": 35.86,
   "consolidatedRank": 158,
   "traction": {
-    "tractionRank": 163,
-    "tractionScore": 24,
-    "tractionReason": "2-week-old pivot, no current traction"
+    "tractionRank": 168,
+    "tractionScore": 4,
+    "tractionReason": "pivoted ~2 weeks before research, no traction"
   },
   "paths": {
     "memo": "spring2026/memos/aice.md",

@@ -64,9 +64,9 @@
   "consolidatedAvg": 42.57,
   "consolidatedRank": 74,
   "traction": {
-    "tractionRank": 59,
-    "tractionScore": 40,
-    "tractionReason": "Founder 100K+ followers, launched"
+    "tractionRank": 100,
+    "tractionScore": 20,
+    "tractionReason": "founder @jenandtech 100K+ followers, launched"
   },
   "paths": {
     "memo": "spring2026/memos/saudara-ai.md",

@@ -62,9 +62,9 @@
   "consolidatedAvg": 40.43,
   "consolidatedRank": 101,
   "traction": {
-    "tractionRank": 95,
-    "tractionScore": 35,
-    "tractionReason": "+80% CVR beta lift, $500K raised"
+    "tractionRank": 107,
+    "tractionScore": 17,
+    "tractionReason": "'+80% CVR' claim for beta merchants, $500K"
   },
   "paths": {
     "memo": "spring2026/memos/amboras.md",

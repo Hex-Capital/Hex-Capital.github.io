@@ -61,9 +61,9 @@
   "consolidatedAvg": 38.14,
   "consolidatedRank": 135,
   "traction": {
-    "tractionRank": 165,
-    "tractionScore": 24,
-    "tractionReason": "Investors only, no customers"
+    "tractionRank": 152,
+    "tractionScore": 5,
+    "tractionReason": "$79-$159/mo pricing, no customer data"
   },
   "paths": {
     "memo": "spring2026/memos/armature.md",

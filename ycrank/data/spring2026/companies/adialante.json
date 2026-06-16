@@ -62,9 +62,9 @@
   "consolidatedAvg": 55,
   "consolidatedRank": 1,
   "traction": {
-    "tractionRank": 22,
-    "tractionScore": 59,
-    "tractionReason": "$12.75M LOIs, $30K deposits taken"
+    "tractionRank": 20,
+    "tractionScore": 61,
+    "tractionReason": "$12.75M LOIs, 6 clinics, $30K deposits"
   },
   "paths": {
     "memo": "spring2026/memos/adialante.md",

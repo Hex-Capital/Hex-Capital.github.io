@@ -62,9 +62,9 @@
   "consolidatedAvg": 38.71,
   "consolidatedRank": 129,
   "traction": {
-    "tractionRank": 193,
-    "tractionScore": 20,
-    "tractionReason": "YC launch only, Discord live"
+    "tractionRank": 118,
+    "tractionScore": 12,
+    "tractionReason": "$500K YC, pricing live, no customers"
   },
   "paths": {
     "memo": "spring2026/memos/testerarmy.md",

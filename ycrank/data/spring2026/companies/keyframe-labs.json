@@ -61,11 +61,11 @@
     "VK": 39
   },
   "consolidatedAvg": 46.71,
-  "consolidatedRank": 36,
+  "consolidatedRank": 37,
   "traction": {
-    "tractionRank": 82,
-    "tractionScore": 37,
-    "tractionReason": "8 customer testimonials, $0.06/min live"
+    "tractionRank": 76,
+    "tractionScore": 32,
+    "tractionReason": "Persona-1 launched, $0.06/min pricing"
   },
   "paths": {
     "memo": "spring2026/memos/keyframe-labs.md",

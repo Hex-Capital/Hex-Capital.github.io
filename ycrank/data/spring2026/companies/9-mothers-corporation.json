@@ -62,11 +62,11 @@
     "VK": 43
   },
   "consolidatedAvg": 46.43,
-  "consolidatedRank": 37,
+  "consolidatedRank": 38,
   "traction": {
-    "tractionRank": 71,
-    "tractionScore": 39,
-    "tractionReason": "EDDA shipping to US Government"
+    "tractionRank": 58,
+    "tractionScore": 41,
+    "tractionReason": "EDDA shipping to US Government and primes"
   },
   "paths": {
     "memo": "spring2026/memos/9-mothers-corporation.md",

@@ -64,9 +64,9 @@
   "consolidatedAvg": 35.86,
   "consolidatedRank": 160,
   "traction": {
-    "tractionRank": 113,
-    "tractionScore": 32,
-    "tractionReason": "Prototype in testing, ex-Apple team"
+    "tractionRank": 126,
+    "tractionScore": 10,
+    "tractionReason": "two-month-old prototype in testing"
   },
   "paths": {
     "memo": "spring2026/memos/anoria.md",

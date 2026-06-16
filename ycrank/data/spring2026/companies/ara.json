@@ -60,9 +60,9 @@
   "consolidatedAvg": 39.71,
   "consolidatedRank": 111,
   "traction": {
-    "tractionRank": 131,
-    "tractionScore": 30,
-    "tractionReason": "4th Product Hunt launch"
+    "tractionRank": 145,
+    "tractionScore": 6,
+    "tractionReason": "Product Hunt 4th launch, no metrics"
   },
   "paths": {
     "memo": "spring2026/memos/ara.md",

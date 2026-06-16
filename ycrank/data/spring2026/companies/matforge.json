@@ -63,9 +63,9 @@
   "consolidatedAvg": 52.86,
   "consolidatedRank": 9,
   "traction": {
-    "tractionRank": 130,
-    "tractionScore": 30,
-    "tractionReason": "LinkedIn post with 134 comments"
+    "tractionRank": 169,
+    "tractionScore": 3,
+    "tractionReason": "LinkedIn post 134 comments only"
   },
   "paths": {
     "memo": "spring2026/memos/matforge.md",

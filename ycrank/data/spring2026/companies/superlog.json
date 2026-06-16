@@ -64,9 +64,9 @@
   "consolidatedAvg": 43.14,
   "consolidatedRank": 70,
   "traction": {
-    "tractionRank": 142,
-    "tractionScore": 28,
-    "tractionReason": "Show HN 73 points, customer quote"
+    "tractionRank": 164,
+    "tractionScore": 4,
+    "tractionReason": "Show HN 73 pts, '80-90% PR' anon claim"
   },
   "paths": {
     "memo": "spring2026/memos/superlog.md",

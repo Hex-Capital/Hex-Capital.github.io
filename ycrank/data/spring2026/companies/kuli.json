@@ -57,9 +57,9 @@
   "consolidatedAvg": 39,
   "consolidatedRank": 122,
   "traction": {
-    "tractionRank": 46,
-    "tractionScore": 44,
-    "tractionReason": "Disney, Nivea, Havas customers, 5 months"
+    "tractionRank": 48,
+    "tractionScore": 46,
+    "tractionReason": "Disney/Nivea/Havas customers, Fortune 100 testimonial"
   },
   "paths": {
     "memo": "spring2026/memos/kuli.md",

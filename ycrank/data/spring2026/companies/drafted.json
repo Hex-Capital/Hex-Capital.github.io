@@ -64,9 +64,9 @@
   "consolidatedAvg": 51,
   "consolidatedRank": 17,
   "traction": {
-    "tractionRank": 7,
-    "tractionScore": 77,
-    "tractionReason": "120K monthly users, 325K plans generated"
+    "tractionRank": 9,
+    "tractionScore": 72,
+    "tractionReason": "120K monthly users, $17.5M raised, 325K plans"
   },
   "paths": {
     "memo": "spring2026/memos/drafted.md",

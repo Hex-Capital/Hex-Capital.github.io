@@ -63,9 +63,9 @@
   "consolidatedAvg": 44.29,
   "consolidatedRank": 62,
   "traction": {
-    "tractionRank": 155,
-    "tractionScore": 25,
-    "tractionReason": "Pricing live, 1 job, no customers"
+    "tractionRank": 80,
+    "tractionScore": 30,
+    "tractionReason": "$10/hr RaaS pricing live, no customers disclosed"
   },
   "paths": {
     "memo": "spring2026/memos/eden-robotics.md",

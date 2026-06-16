@@ -62,9 +62,9 @@
   "consolidatedAvg": 40,
   "consolidatedRank": 109,
   "traction": {
-    "tractionRank": 123,
-    "tractionScore": 32,
-    "tractionReason": "$500K, Founderland press feature"
+    "tractionRank": 151,
+    "tractionScore": 5,
+    "tractionReason": "$500K YC, launch tweet only"
   },
   "paths": {
     "memo": "spring2026/memos/framewise-health.md",

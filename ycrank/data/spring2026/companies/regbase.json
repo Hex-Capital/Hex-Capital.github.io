@@ -63,9 +63,9 @@
   "consolidatedAvg": 42.86,
   "consolidatedRank": 73,
   "traction": {
-    "tractionRank": 129,
-    "tractionScore": 30,
-    "tractionReason": "\"Fortune 500\" claim, no named logos"
+    "tractionRank": 138,
+    "tractionScore": 7,
+    "tractionReason": "'Fortune 500 clients' claim, no logos"
   },
   "paths": {
     "memo": "spring2026/memos/regbase.md",

@@ -62,11 +62,11 @@
     "VK": 30
   },
   "consolidatedAvg": 46.29,
-  "consolidatedRank": 38,
+  "consolidatedRank": 39,
   "traction": {
-    "tractionRank": 138,
-    "tractionScore": 28,
-    "tractionReason": "No public data, no customers"
+    "tractionRank": 157,
+    "tractionScore": 5,
+    "tractionReason": "YC P26 listing, no traction data"
   },
   "paths": {
     "memo": "spring2026/memos/klaimee.md",

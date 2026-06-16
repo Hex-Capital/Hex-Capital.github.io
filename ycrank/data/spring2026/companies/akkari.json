@@ -64,9 +64,9 @@
   "consolidatedAvg": 41.43,
   "consolidatedRank": 90,
   "traction": {
-    "tractionRank": 87,
-    "tractionScore": 35,
-    "tractionReason": "Fidji Simo, Tony Xu angel investors"
+    "tractionRank": 153,
+    "tractionScore": 5,
+    "tractionReason": "investor list disclosed, no customers"
   },
   "paths": {
     "memo": "spring2026/memos/akkari.md",

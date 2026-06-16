@@ -64,9 +64,9 @@
   "consolidatedAvg": 53.14,
   "consolidatedRank": 7,
   "traction": {
-    "tractionRank": 195,
-    "tractionScore": 16,
-    "tractionReason": "Team size 0, placeholder website"
+    "tractionRank": 196,
+    "tractionScore": 1,
+    "tractionReason": "0 team, placeholder site, 85 followers"
   },
   "paths": {
     "memo": "spring2026/memos/general-aviation.md",

@@ -64,9 +64,9 @@
   "consolidatedAvg": 40.14,
   "consolidatedRank": 106,
   "traction": {
-    "tractionRank": 12,
-    "tractionScore": 69,
-    "tractionReason": "~6,000 therapists on paid plans"
+    "tractionRank": 13,
+    "tractionScore": 67,
+    "tractionReason": "~6,000 therapists, 309K notes generated"
   },
   "paths": {
     "memo": "spring2026/memos/klarify.md",

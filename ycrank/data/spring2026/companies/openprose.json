@@ -64,9 +64,9 @@
   "consolidatedAvg": 41.29,
   "consolidatedRank": 92,
   "traction": {
-    "tractionRank": 110,
-    "tractionScore": 32,
-    "tractionReason": "1.3K GitHub stars, 7,000+ installs"
+    "tractionRank": 74,
+    "tractionScore": 33,
+    "tractionReason": "1.3K stars, 7,000+ installs self-reported"
   },
   "paths": {
     "memo": "spring2026/memos/openprose.md",

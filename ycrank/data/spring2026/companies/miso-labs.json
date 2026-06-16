@@ -60,9 +60,9 @@
   "consolidatedAvg": 39.14,
   "consolidatedRank": 120,
   "traction": {
-    "tractionRank": 108,
-    "tractionScore": 33,
-    "tractionReason": "66 stars, 312K-view launch tweet"
+    "tractionRank": 89,
+    "tractionScore": 26,
+    "tractionReason": "66 GitHub stars, 312K tweet views"
   },
   "paths": {
     "memo": "spring2026/memos/miso-labs.md",

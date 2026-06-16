@@ -61,9 +61,9 @@
   "consolidatedAvg": 40.86,
   "consolidatedRank": 98,
   "traction": {
-    "tractionRank": 94,
-    "tractionScore": 35,
-    "tractionReason": "204 GitHub stars, Show HN live"
+    "tractionRank": 86,
+    "tractionScore": 27,
+    "tractionReason": "204 GitHub stars, Show HN posted"
   },
   "paths": {
     "memo": "spring2026/memos/stage.md",

@@ -62,9 +62,9 @@
   "consolidatedAvg": 38.14,
   "consolidatedRank": 136,
   "traction": {
-    "tractionRank": 96,
-    "tractionScore": 34,
-    "tractionReason": "YC and Afore Capital backing"
+    "tractionRank": 119,
+    "tractionScore": 12,
+    "tractionReason": "$199-$499 pricing, no customer count"
   },
   "paths": {
     "memo": "spring2026/memos/saffron.md",

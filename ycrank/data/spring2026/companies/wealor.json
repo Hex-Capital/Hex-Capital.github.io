@@ -60,9 +60,9 @@
   "consolidatedAvg": 32.57,
   "consolidatedRank": 186,
   "traction": {
-    "tractionRank": 196,
-    "tractionScore": 14,
-    "tractionReason": "Team 0, no traction disclosed"
+    "tractionRank": 192,
+    "tractionScore": 1,
+    "tractionReason": "0 team listed, active status only"
   },
   "paths": {
     "memo": "spring2026/memos/wealor.md",

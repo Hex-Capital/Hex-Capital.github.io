@@ -61,9 +61,9 @@
   "consolidatedAvg": 45.29,
   "consolidatedRank": 48,
   "traction": {
-    "tractionRank": 177,
-    "tractionScore": 24,
-    "tractionReason": "One open job, no customers"
+    "tractionRank": 174,
+    "tractionScore": 3,
+    "tractionReason": "1 job posting, placeholder site"
   },
   "paths": {
     "memo": "spring2026/memos/intelligence-factory.md",

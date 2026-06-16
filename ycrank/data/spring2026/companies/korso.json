@@ -62,9 +62,9 @@
   "consolidatedAvg": 33.86,
   "consolidatedRank": 179,
   "traction": {
-    "tractionRank": 57,
-    "tractionScore": 41,
-    "tractionReason": "Menlo Times launches-of-the-week feature"
+    "tractionRank": 161,
+    "tractionScore": 4,
+    "tractionReason": "dashboard mockup with fictional companies"
   },
   "paths": {
     "memo": "spring2026/memos/korso.md",

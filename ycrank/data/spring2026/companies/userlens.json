@@ -63,9 +63,9 @@
   "consolidatedAvg": 38.71,
   "consolidatedRank": 130,
   "traction": {
-    "tractionRank": 10,
-    "tractionScore": 72,
-    "tractionReason": "$660K self-reported 2025 revenue"
+    "tractionRank": 5,
+    "tractionScore": 82,
+    "tractionReason": "$660K self-reported revenue, named customers"
   },
   "paths": {
     "memo": "spring2026/memos/userlens.md",

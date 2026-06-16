@@ -64,9 +64,9 @@
   "consolidatedAvg": 35.14,
   "consolidatedRank": 171,
   "traction": {
-    "tractionRank": 149,
-    "tractionScore": 26,
-    "tractionReason": "Recent Refortifai pivot, no customers"
+    "tractionRank": 178,
+    "tractionScore": 3,
+    "tractionReason": "Spring 2026 launch, 0 job postings"
   },
   "paths": {
     "memo": "spring2026/memos/atrisa.md",

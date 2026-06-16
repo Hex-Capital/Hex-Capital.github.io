@@ -64,8 +64,8 @@
   "consolidatedAvg": 34.71,
   "consolidatedRank": 175,
   "traction": {
-    "tractionRank": 134,
-    "tractionScore": 29,
+    "tractionRank": 130,
+    "tractionScore": 9,
     "tractionReason": "iOS app live, insufficient ratings"
   },
   "paths": {

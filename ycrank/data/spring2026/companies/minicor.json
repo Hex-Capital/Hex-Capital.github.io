@@ -57,8 +57,8 @@
   "consolidatedAvg": 45.14,
   "consolidatedRank": 50,
   "traction": {
-    "tractionRank": 34,
-    "tractionScore": 50,
+    "tractionRank": 23,
+    "tractionScore": 59,
     "tractionReason": "25,000 patients/day in production"
   },
   "paths": {

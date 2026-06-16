@@ -60,9 +60,9 @@
   "consolidatedAvg": 30.14,
   "consolidatedRank": 195,
   "traction": {
-    "tractionRank": 186,
-    "tractionScore": 22,
-    "tractionReason": "No public traction data"
+    "tractionRank": 191,
+    "tractionScore": 1,
+    "tractionReason": "YC backing only, no public traction data"
   },
   "paths": {
     "memo": "spring2026/memos/savant.md",

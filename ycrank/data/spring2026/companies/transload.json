@@ -62,9 +62,9 @@
   "consolidatedAvg": 39.29,
   "consolidatedRank": 116,
   "traction": {
-    "tractionRank": 145,
-    "tractionScore": 28,
-    "tractionReason": "One customer testimonial, website down"
+    "tractionRank": 115,
+    "tractionScore": 13,
+    "tractionReason": "customer testimonial '$50K/site/month'"
   },
   "paths": {
     "memo": "spring2026/memos/transload.md",

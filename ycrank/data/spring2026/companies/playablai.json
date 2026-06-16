@@ -63,8 +63,8 @@
   "consolidatedRank": 55,
   "traction": {
     "tractionRank": 77,
-    "tractionScore": 38,
-    "tractionReason": "40,000 users in first month"
+    "tractionScore": 32,
+    "tractionReason": "40,000 users in first month of beta"
   },
   "paths": {
     "memo": "spring2026/memos/playablai.md",

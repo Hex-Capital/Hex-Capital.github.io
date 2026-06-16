@@ -63,9 +63,9 @@
   "consolidatedAvg": 36.29,
   "consolidatedRank": 153,
   "traction": {
-    "tractionRank": 190,
-    "tractionScore": 22,
-    "tractionReason": "Self-reported claims, no customers"
+    "tractionRank": 116,
+    "tractionScore": 13,
+    "tractionReason": "self-reported '70-80% fewer tokens' claims"
   },
   "paths": {
     "memo": "spring2026/memos/stablebrowse.md",

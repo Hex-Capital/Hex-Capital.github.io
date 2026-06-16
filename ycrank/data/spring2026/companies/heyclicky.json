@@ -60,9 +60,9 @@
   "consolidatedAvg": 44.14,
   "consolidatedRank": 63,
   "traction": {
-    "tractionRank": 40,
-    "tractionScore": 47,
-    "tractionReason": "5.8K GitHub stars, 108K founder followers"
+    "tractionRank": 62,
+    "tractionScore": 39,
+    "tractionReason": "~6K GitHub stars, Mac app live"
   },
   "paths": {
     "memo": "spring2026/memos/heyclicky.md",

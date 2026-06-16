@@ -63,9 +63,9 @@
   "consolidatedAvg": 32.86,
   "consolidatedRank": 183,
   "traction": {
-    "tractionRank": 156,
-    "tractionScore": 25,
-    "tractionReason": "Team of 2, no public data"
+    "tractionRank": 94,
+    "tractionScore": 23,
+    "tractionReason": "free + paid AI tier pricing, no customers"
   },
   "paths": {
     "memo": "spring2026/memos/drippay.md",

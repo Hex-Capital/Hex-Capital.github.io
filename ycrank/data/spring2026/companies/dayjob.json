@@ -57,9 +57,9 @@
   "consolidatedAvg": 48.57,
   "consolidatedRank": 23,
   "traction": {
-    "tractionRank": 8,
-    "tractionScore": 76,
-    "tractionReason": "$496K ARR, named customers"
+    "tractionRank": 6,
+    "tractionScore": 79,
+    "tractionReason": "$496K ARR, named waste-mgmt customers"
   },
   "paths": {
     "memo": "spring2026/memos/dayjob.md",

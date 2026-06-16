@@ -1,66 +1,66 @@
 {
   "slug": "huscarl",
   "name": "Huscarl",
-  "oneLiner": "Actuarial intelligence for corporate risk managers",
+  "oneLiner": "AI-native actuary enabling self-insurance for corporations",
   "metadata": {
     "website": "https://www.huscarl.io/",
     "yc_page": "https://www.ycombinator.com/companies/huscarl",
     "batch": "Spring 2026 (YC page)",
     "industry": "Fintech / Fintech -> Insurance",
     "team_size": "2",
-    "location": "San Francisco, CA, USA; Remote",
-    "tags": "Generative AI, Insurance, Customization",
+    "location": "Remote (company_data); YC page lists Paris, Île-de-France, France",
     "yc_partner": "Pete Koomen (YC page)",
     "emails": "No public data found"
   },
-  "tags": [
-    "Generative AI",
-    "Insurance",
-    "Customization"
-  ],
+  "tags": [],
   "slideImage": null,
-  "memoGeneratedAt": "2026-05-28T02:30:17.120Z",
+  "memoGeneratedAt": "2026-06-16T04:31:59.420Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 60,
+      "score": 63,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 51,
-      "tier": "Neutral"
+      "score": 42,
+      "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 48,
-      "tier": "Neutral"
+      "score": 44,
+      "tier": "Pass"
     },
     "paul-graham": {
-      "score": 57,
+      "score": 58,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 56,
+      "score": 47,
       "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 35,
+      "score": 39,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 32,
+      "score": 36,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 60,
-    "EG": 51,
-    "NR": 48,
-    "PG": 57,
-    "PT": 56,
-    "SL": 35,
-    "VK": 32
+    "CB": 63,
+    "EG": 42,
+    "NR": 44,
+    "PG": 58,
+    "PT": 47,
+    "SL": 39,
+    "VK": 36
   },
-  "consolidatedAvg": 48.43,
-  "consolidatedRank": 25,
+  "consolidatedAvg": 47,
+  "consolidatedRank": 34,
+  "traction": {
+    "tractionRank": 158,
+    "tractionScore": 5,
+    "tractionReason": "2 Paris job openings only"
+  },
   "paths": {
     "memo": "spring2026/memos/huscarl.md",
     "evals": {

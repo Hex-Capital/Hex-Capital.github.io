@@ -62,9 +62,9 @@
   "consolidatedAvg": 41.57,
   "consolidatedRank": 89,
   "traction": {
-    "tractionRank": 162,
-    "tractionScore": 24,
-    "tractionReason": "MIT Heals accelerator, site under construction"
+    "tractionRank": 182,
+    "tractionScore": 2,
+    "tractionReason": "website under construction"
   },
   "paths": {
     "memo": "spring2026/memos/abinitio-bio.md",

@@ -62,9 +62,9 @@
   "consolidatedAvg": 41.71,
   "consolidatedRank": 86,
   "traction": {
-    "tractionRank": 194,
-    "tractionScore": 18,
-    "tractionReason": "No public revenue or customers"
+    "tractionRank": 183,
+    "tractionScore": 2,
+    "tractionReason": "Twitter handle exists, 0 jobs"
   },
   "paths": {
     "memo": "spring2026/memos/advanced-metal-research.md",

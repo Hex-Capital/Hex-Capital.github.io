@@ -64,9 +64,9 @@
   "consolidatedAvg": 43.71,
   "consolidatedRank": 68,
   "traction": {
-    "tractionRank": 35,
-    "tractionScore": 49,
-    "tractionReason": "Five-figure annual contracts, first customers"
+    "tractionRank": 19,
+    "tractionScore": 62,
+    "tractionReason": "five-figure annual contracts, first customers"
   },
   "paths": {
     "memo": "spring2026/memos/smartbase.md",

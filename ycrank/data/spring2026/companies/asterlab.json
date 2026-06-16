@@ -61,9 +61,9 @@
   "consolidatedAvg": 50.14,
   "consolidatedRank": 18,
   "traction": {
-    "tractionRank": 135,
-    "tractionScore": 29,
-    "tractionReason": "SOTA NanoGPT and ZAPBench benchmarks"
+    "tractionRank": 67,
+    "tractionScore": 36,
+    "tractionReason": "SOTA benchmarks, METR citation, arXiv paper"
   },
   "paths": {
     "memo": "spring2026/memos/asterlab.md",

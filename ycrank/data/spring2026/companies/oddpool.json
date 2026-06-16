@@ -62,9 +62,9 @@
   "consolidatedAvg": 40.71,
   "consolidatedRank": 99,
   "traction": {
-    "tractionRank": 78,
-    "tractionScore": 38,
-    "tractionReason": "Several-thousand MRR, 700K markets indexed"
+    "tractionRank": 25,
+    "tractionScore": 57,
+    "tractionReason": "several thousand MRR, 700K+ markets indexed"
   },
   "paths": {
     "memo": "spring2026/memos/oddpool.md",

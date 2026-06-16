@@ -63,9 +63,9 @@
   "consolidatedAvg": 41.43,
   "consolidatedRank": 91,
   "traction": {
-    "tractionRank": 143,
-    "tractionScore": 28,
-    "tractionReason": "Partner logos only, no customers"
+    "tractionRank": 156,
+    "tractionScore": 5,
+    "tractionReason": "partner logos only (YC/NVIDIA/OpenAI)"
   },
   "paths": {
     "memo": "spring2026/memos/synphony.md",

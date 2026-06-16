@@ -63,9 +63,9 @@
   "consolidatedAvg": 33.29,
   "consolidatedRank": 180,
   "traction": {
-    "tractionRank": 51,
-    "tractionScore": 43,
-    "tractionReason": "Caudalie 15 tests/week customer"
+    "tractionRank": 61,
+    "tractionScore": 39,
+    "tractionReason": "Caudalie 15 tests/week, 25x lower cost"
   },
   "paths": {
     "memo": "spring2026/memos/foresight.md",

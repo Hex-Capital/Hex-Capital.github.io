@@ -62,9 +62,9 @@
   "consolidatedAvg": 47,
   "consolidatedRank": 32,
   "traction": {
-    "tractionRank": 80,
+    "tractionRank": 65,
     "tractionScore": 37,
-    "tractionReason": "6 customer logos, Launch HN"
+    "tractionReason": "6 customer logos including Openledger"
   },
   "paths": {
     "memo": "spring2026/memos/ardent.md",

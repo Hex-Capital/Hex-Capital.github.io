@@ -64,9 +64,9 @@
   "consolidatedAvg": 42,
   "consolidatedRank": 81,
   "traction": {
-    "tractionRank": 60,
-    "tractionScore": 40,
-    "tractionReason": "$20B projects on platform, $4M raised"
+    "tractionRank": 51,
+    "tractionScore": 44,
+    "tractionReason": "$20B of projects on platform, $4M seed"
   },
   "paths": {
     "memo": "spring2026/memos/plan0-ai.md",

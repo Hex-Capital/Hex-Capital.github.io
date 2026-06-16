@@ -55,11 +55,11 @@
     "VK": 46
   },
   "consolidatedAvg": 46.14,
-  "consolidatedRank": 39,
+  "consolidatedRank": 40,
   "traction": {
-    "tractionRank": 151,
-    "tractionScore": 26,
-    "tractionReason": "Pilot program offered, no customers"
+    "tractionRank": 187,
+    "tractionScore": 2,
+    "tractionReason": "pilot program offered, no customers"
   },
   "paths": {
     "memo": "spring2026/memos/perfectbit-inc.md",

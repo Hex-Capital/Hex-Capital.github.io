@@ -57,8 +57,8 @@
   "consolidatedAvg": 42.14,
   "consolidatedRank": 80,
   "traction": {
-    "tractionRank": 15,
-    "tractionScore": 65,
+    "tractionRank": 40,
+    "tractionScore": 50,
     "tractionReason": "15.6K stars, 150K+ downloads"
   },
   "paths": {

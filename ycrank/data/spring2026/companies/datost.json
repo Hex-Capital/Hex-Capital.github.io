@@ -63,8 +63,8 @@
   "consolidatedRank": 148,
   "traction": {
     "tractionRank": 42,
-    "tractionScore": 46,
-    "tractionReason": "18,402 queries/week measured"
+    "tractionScore": 49,
+    "tractionReason": "18,402 queries/week, 42-sec avg answer"
   },
   "paths": {
     "memo": "spring2026/memos/datost.md",

@@ -63,9 +63,9 @@
   "consolidatedAvg": 35.71,
   "consolidatedRank": 161,
   "traction": {
-    "tractionRank": 154,
-    "tractionScore": 26,
-    "tractionReason": "$650K pre-seed, no users"
+    "tractionRank": 132,
+    "tractionScore": 9,
+    "tractionReason": "$650K pre-seed, 'free forever' tier"
   },
   "paths": {
     "memo": "spring2026/memos/enjamb-labs.md",

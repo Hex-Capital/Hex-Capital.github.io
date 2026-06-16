@@ -64,9 +64,9 @@
   "consolidatedAvg": 39,
   "consolidatedRank": 121,
   "traction": {
-    "tractionRank": 23,
-    "tractionScore": 58,
-    "tractionReason": "8 named customers, NYT feature"
+    "tractionRank": 18,
+    "tractionScore": 62,
+    "tractionReason": "NYT feature, 8 named manufacturing customers"
   },
   "paths": {
     "memo": "spring2026/memos/arzana.md",

@@ -62,9 +62,9 @@
   "consolidatedAvg": 35.43,
   "consolidatedRank": 166,
   "traction": {
-    "tractionRank": 79,
-    "tractionScore": 37,
-    "tractionReason": "20+ enterprise system integrations"
+    "tractionRank": 140,
+    "tractionScore": 7,
+    "tractionReason": "20+ integrations, SOC 2 in progress"
   },
   "paths": {
     "memo": "spring2026/memos/arden.md",

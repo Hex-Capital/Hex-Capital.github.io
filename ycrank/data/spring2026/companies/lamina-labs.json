@@ -62,9 +62,9 @@
   "consolidatedAvg": 34.43,
   "consolidatedRank": 177,
   "traction": {
-    "tractionRank": 179,
-    "tractionScore": 23,
-    "tractionReason": "One X testimonial post"
+    "tractionRank": 148,
+    "tractionScore": 6,
+    "tractionReason": "third-party speed testimonial post only"
   },
   "paths": {
     "memo": "spring2026/memos/lamina-labs.md",

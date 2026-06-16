@@ -62,8 +62,8 @@
   "consolidatedAvg": 47.71,
   "consolidatedRank": 31,
   "traction": {
-    "tractionRank": 38,
-    "tractionScore": 48,
+    "tractionRank": 49,
+    "tractionScore": 45,
     "tractionReason": "100K+ monthly Hugging Face downloads"
   },
   "paths": {

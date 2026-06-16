@@ -18,7 +18,7 @@
     "Developer Tools",
     "B2B"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/manicule.jpg",
   "memoGeneratedAt": "2026-05-28T02:35:00.461Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,9 +62,9 @@
   "consolidatedAvg": 53,
   "consolidatedRank": 8,
   "traction": {
-    "tractionRank": 10,
-    "tractionScore": 71,
-    "tractionReason": "$58K MRR, 100% MoM growth, $150K+ ARR"
+    "tractionRank": 6,
+    "tractionScore": 81,
+    "tractionReason": "$58K MRR, 100% MoM growth"
   },
   "paths": {
     "memo": "spring2026/memos/manicule.md",

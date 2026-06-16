@@ -18,7 +18,7 @@
     "B2B",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/arden.jpg",
   "memoGeneratedAt": "2026-05-28T02:35:16.302Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,9 +62,9 @@
   "consolidatedAvg": 35.43,
   "consolidatedRank": 166,
   "traction": {
-    "tractionRank": 140,
-    "tractionScore": 7,
-    "tractionReason": "20+ integrations, SOC 2 in progress"
+    "tractionRank": 73,
+    "tractionScore": 17,
+    "tractionReason": "20+ integrations, SOC 2 Type I in progress"
   },
   "paths": {
     "memo": "spring2026/memos/arden.md",

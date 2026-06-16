@@ -20,7 +20,7 @@
     "Computer Vision",
     "Aerospace"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/maquoketa-research.jpg",
   "memoGeneratedAt": "2026-05-28T02:30:17.577Z",
   "evalScores": {
     "cyan-banister": {
@@ -64,9 +64,9 @@
   "consolidatedAvg": 44,
   "consolidatedRank": 65,
   "traction": {
-    "tractionRank": 186,
-    "tractionScore": 2,
-    "tractionReason": "'quadrupled mission success' claim only"
+    "tractionRank": 168,
+    "tractionScore": 5,
+    "tractionReason": "Quadruple mission success Ukraine claim"
   },
   "paths": {
     "memo": "spring2026/memos/maquoketa-research.md",

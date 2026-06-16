@@ -16,7 +16,7 @@
   "tags": [
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/miso-labs.jpg",
   "memoGeneratedAt": "2026-06-04T16:09:41.575Z",
   "evalScores": {
     "cyan-banister": {
@@ -58,11 +58,11 @@
     "VK": 30
   },
   "consolidatedAvg": 39.14,
-  "consolidatedRank": 120,
+  "consolidatedRank": 121,
   "traction": {
-    "tractionRank": 89,
-    "tractionScore": 26,
-    "tractionReason": "66 GitHub stars, 312K tweet views"
+    "tractionRank": 78,
+    "tractionScore": 16,
+    "tractionReason": "312K+ tweet views, 66 GitHub stars"
   },
   "paths": {
     "memo": "spring2026/memos/miso-labs.md",

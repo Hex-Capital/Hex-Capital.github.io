@@ -16,7 +16,7 @@
   "tags": [
     "Education"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/heyclicky.jpg",
   "memoGeneratedAt": "2026-05-28T02:30:07.115Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,9 +60,9 @@
   "consolidatedAvg": 44.14,
   "consolidatedRank": 63,
   "traction": {
-    "tractionRank": 62,
-    "tractionScore": 39,
-    "tractionReason": "~6K GitHub stars, Mac app live"
+    "tractionRank": 45,
+    "tractionScore": 31,
+    "tractionReason": "5.8K GitHub stars, founder 108K X followers"
   },
   "paths": {
     "memo": "spring2026/memos/heyclicky.md",

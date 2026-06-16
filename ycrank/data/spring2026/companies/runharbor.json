@@ -19,7 +19,7 @@
     "B2B",
     "Healthcare"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/runharbor.jpg",
   "memoGeneratedAt": "2026-05-28T02:47:53.415Z",
   "evalScores": {
     "cyan-banister": {
@@ -63,8 +63,8 @@
   "consolidatedAvg": 51.57,
   "consolidatedRank": 14,
   "traction": {
-    "tractionRank": 31,
-    "tractionScore": 54,
+    "tractionRank": 37,
+    "tractionScore": 39,
     "tractionReason": "5 clinical studies live, 7 named customers"
   },
   "paths": {

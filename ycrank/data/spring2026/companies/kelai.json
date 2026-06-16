@@ -20,7 +20,7 @@
     "Market Research",
     "Investments"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/kelai.jpg",
   "memoGeneratedAt": "2026-05-28T02:57:23.308Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,11 +62,11 @@
     "VK": 29
   },
   "consolidatedAvg": 39.29,
-  "consolidatedRank": 113,
+  "consolidatedRank": 114,
   "traction": {
-    "tractionRank": 122,
-    "tractionScore": 11,
-    "tractionReason": "signals running in production October 2025"
+    "tractionRank": 83,
+    "tractionScore": 14,
+    "tractionReason": "Signals running in production since October"
   },
   "paths": {
     "memo": "spring2026/memos/kelai.md",

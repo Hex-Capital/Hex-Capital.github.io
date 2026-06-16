@@ -18,7 +18,7 @@
     "Enterprise Software",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/pentagon.jpg",
   "memoGeneratedAt": "2026-05-28T02:37:12.739Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,10 +60,10 @@
     "VK": 37
   },
   "consolidatedAvg": 38.71,
-  "consolidatedRank": 127,
+  "consolidatedRank": 128,
   "traction": {
-    "tractionRank": 41,
-    "tractionScore": 49,
+    "tractionRank": 69,
+    "tractionScore": 18,
     "tractionReason": "8,500+ persistent agents self-reported"
   },
   "paths": {

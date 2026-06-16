@@ -18,7 +18,7 @@
     "Regtech",
     "Consumer Products"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/complir.jpg",
   "memoGeneratedAt": "2026-05-28T02:48:33.709Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,9 +62,9 @@
   "consolidatedAvg": 45.86,
   "consolidatedRank": 44,
   "traction": {
-    "tractionRank": 12,
-    "tractionScore": 68,
-    "tractionReason": "109,886 products monitored, 45% MoM, retailers"
+    "tractionRank": 28,
+    "tractionScore": 48,
+    "tractionReason": "109,886 products monitored, 45% MoM, named retailers"
   },
   "paths": {
     "memo": "spring2026/memos/complir.md",

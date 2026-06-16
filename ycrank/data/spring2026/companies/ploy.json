@@ -19,7 +19,7 @@
     "Enterprise Software",
     "Web Development"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/ploy.jpg",
   "memoGeneratedAt": "2026-06-09T16:10:30.250Z",
   "evalScores": {
     "cyan-banister": {
@@ -61,11 +61,11 @@
     "VK": 31
   },
   "consolidatedAvg": 41.86,
-  "consolidatedRank": 85,
+  "consolidatedRank": 86,
   "traction": {
-    "tractionRank": 120,
-    "tractionScore": 12,
-    "tractionReason": "14 employees, waitlist/early-access only"
+    "tractionRank": 103,
+    "tractionScore": 11,
+    "tractionReason": "Team of 14, founding engineer role open"
   },
   "paths": {
     "memo": "spring2026/memos/ploy.md",

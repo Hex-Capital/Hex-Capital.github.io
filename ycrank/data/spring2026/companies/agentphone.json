@@ -19,7 +19,7 @@
     "API",
     "Telecommunications"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/agentphone.jpg",
   "memoGeneratedAt": "2026-05-28T02:35:06.429Z",
   "evalScores": {
     "cyan-banister": {
@@ -63,9 +63,9 @@
   "consolidatedAvg": 45.57,
   "consolidatedRank": 46,
   "traction": {
-    "tractionRank": 37,
-    "tractionScore": 51,
-    "tractionReason": "Google/Replit/YC/LangChain as customer logos"
+    "tractionRank": 95,
+    "tractionScore": 12,
+    "tractionReason": "6 customer logos including Google/Replit/LangChain"
   },
   "paths": {
     "memo": "spring2026/memos/agentphone.md",

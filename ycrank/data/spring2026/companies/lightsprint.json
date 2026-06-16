@@ -20,7 +20,7 @@
     "Enterprise Software",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/lightsprint.jpg",
   "memoGeneratedAt": "2026-05-28T03:02:46.102Z",
   "evalScores": {
     "cyan-banister": {
@@ -64,9 +64,9 @@
   "consolidatedAvg": 38,
   "consolidatedRank": 137,
   "traction": {
-    "tractionRank": 92,
-    "tractionScore": 24,
-    "tractionReason": "single Warmly.ai customer testimonial"
+    "tractionRank": 61,
+    "tractionScore": 21,
+    "tractionReason": "Single Warmly.ai VP testimonial, waitlist"
   },
   "paths": {
     "memo": "spring2026/memos/lightsprint.md",

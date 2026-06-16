@@ -19,7 +19,7 @@
     "Social Media",
     "Marketing"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/instaagent.jpg",
   "memoGeneratedAt": "2026-05-28T02:55:27.190Z",
   "evalScores": {
     "cyan-banister": {
@@ -63,8 +63,8 @@
   "consolidatedAvg": 36.43,
   "consolidatedRank": 150,
   "traction": {
-    "tractionRank": 3,
-    "tractionScore": 88,
+    "tractionRank": 4,
+    "tractionScore": 85,
     "tractionReason": "$1M ARR in 10 months"
   },
   "paths": {

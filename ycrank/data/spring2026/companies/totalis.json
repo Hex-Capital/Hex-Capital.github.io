@@ -17,7 +17,7 @@
     "DeFi",
     "APIs"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/totalis.jpg",
   "memoGeneratedAt": "2026-05-28T03:03:56.727Z",
   "evalScores": {
     "cyan-banister": {
@@ -59,10 +59,10 @@
     "VK": 26
   },
   "consolidatedAvg": 40,
-  "consolidatedRank": 110,
+  "consolidatedRank": 111,
   "traction": {
-    "tractionRank": 96,
-    "tractionScore": 22,
+    "tractionRank": 138,
+    "tractionScore": 8,
     "tractionReason": "$500K USDC seed, parlay launched May 25"
   },
   "paths": {

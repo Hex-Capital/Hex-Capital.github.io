@@ -18,7 +18,7 @@
     "Payments",
     "Consumer Finance"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/uno-wallet.jpg",
   "memoGeneratedAt": "2026-05-28T02:35:06.151Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,8 +62,8 @@
   "consolidatedAvg": 32.43,
   "consolidatedRank": 188,
   "traction": {
-    "tractionRank": 103,
-    "tractionScore": 19,
+    "tractionRank": 117,
+    "tractionScore": 9,
     "tractionReason": "20,456 waitlist signups, private iOS beta"
   },
   "paths": {

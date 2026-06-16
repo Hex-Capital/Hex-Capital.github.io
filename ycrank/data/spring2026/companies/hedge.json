@@ -19,7 +19,7 @@
     "B2B",
     "Insurance"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/hedge.jpg",
   "memoGeneratedAt": "2026-05-28T03:06:38.021Z",
   "evalScores": {
     "cyan-banister": {
@@ -61,11 +61,11 @@
     "VK": 36
   },
   "consolidatedAvg": 41.71,
-  "consolidatedRank": 87,
+  "consolidatedRank": 88,
   "traction": {
-    "tractionRank": 142,
-    "tractionScore": 7,
-    "tractionReason": "30-min response claim, no named accounts"
+    "tractionRank": 106,
+    "tractionScore": 10,
+    "tractionReason": "\"Fastest-growing brokerages\" claim, no named accounts"
   },
   "paths": {
     "memo": "spring2026/memos/hedge.md",

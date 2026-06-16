@@ -20,7 +20,7 @@
     "Marketing",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/sherpa.jpg",
   "memoGeneratedAt": "2026-05-28T02:55:32.322Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,11 +62,11 @@
     "VK": 28
   },
   "consolidatedAvg": 42,
-  "consolidatedRank": 82,
+  "consolidatedRank": 83,
   "traction": {
-    "tractionRank": 38,
-    "tractionScore": 51,
-    "tractionReason": "7.3M sessions analyzed, Lindy/Gauge testimonials"
+    "tractionRank": 40,
+    "tractionScore": 36,
+    "tractionReason": "7.3M sessions analyzed, 3 named customers"
   },
   "paths": {
     "memo": "spring2026/memos/sherpa.md",

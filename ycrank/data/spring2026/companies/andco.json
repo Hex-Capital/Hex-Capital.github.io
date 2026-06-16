@@ -17,7 +17,7 @@
     "Artificial Intelligence",
     "Legal"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/andco.jpg",
   "memoGeneratedAt": "2026-05-28T02:53:36.906Z",
   "evalScores": {
     "cyan-banister": {
@@ -61,9 +61,9 @@
   "consolidatedAvg": 44.29,
   "consolidatedRank": 59,
   "traction": {
-    "tractionRank": 11,
-    "tractionScore": 70,
-    "tractionReason": "$12M pre-seed, hundreds of cases monthly"
+    "tractionRank": 17,
+    "tractionScore": 60,
+    "tractionReason": "$12M oversubscribed pre-seed, hundreds of cases monthly"
   },
   "paths": {
     "memo": "spring2026/memos/andco.md",

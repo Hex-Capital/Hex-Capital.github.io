@@ -16,7 +16,7 @@
   "tags": [
     "Fintech"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/wealor.jpg",
   "memoGeneratedAt": "2026-05-28T17:52:58.507Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,9 +60,9 @@
   "consolidatedAvg": 32.57,
   "consolidatedRank": 186,
   "traction": {
-    "tractionRank": 192,
-    "tractionScore": 1,
-    "tractionReason": "0 team listed, active status only"
+    "tractionRank": 131,
+    "tractionScore": 8,
+    "tractionReason": "YC P26 active, no public traction data"
   },
   "paths": {
     "memo": "spring2026/memos/wealor.md",

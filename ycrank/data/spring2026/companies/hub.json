@@ -1,0 +1,83 @@
+{
+  "slug": "hub",
+  "name": "Hub",
+  "oneLiner": "Real-world training data for frontier AI labs and robotics.",
+  "metadata": {
+    "website": "https://hub.xyz",
+    "yc_page": "https://www.ycombinator.com/companies/hub",
+    "batch": "Spring 2026 (YC P26)",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "10",
+    "location": "San Francisco, CA, USA (Palo Alto per BusinessWire, Sep 2025)",
+    "tags": "Robotics, Crowdsourcing, Big Data, Infrastructure, AI",
+    "yc_partner": "Harj Taggar (YC page)",
+    "emails": "founders@hub.xyz (YC page)"
+  },
+  "tags": [
+    "Robotics",
+    "Crowdsourcing",
+    "Big Data",
+    "Infrastructure",
+    "AI"
+  ],
+  "slideImage": "spring2026/slides/images/hub.jpg",
+  "memoGeneratedAt": "2026-06-16T14:58:15.684Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 41,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 56,
+    "EG": 43,
+    "NR": 48,
+    "PG": 37,
+    "PT": 40,
+    "SL": 40,
+    "VK": 41
+  },
+  "consolidatedAvg": 43.57,
+  "consolidatedRank": 69,
+  "traction": {
+    "tractionRank": 7,
+    "tractionScore": 78,
+    "tractionReason": "5- to 7-figure revenue agreements, 500K contributors"
+  },
+  "paths": {
+    "memo": "spring2026/memos/hub.md",
+    "evals": {
+      "cyan-banister": "spring2026/evals/cyan-banister/hub.md",
+      "elad-gil": "spring2026/evals/elad-gil/hub.md",
+      "naval-ravikant": "spring2026/evals/naval-ravikant/hub.md",
+      "paul-graham": "spring2026/evals/paul-graham/hub.md",
+      "peter-thiel": "spring2026/evals/peter-thiel/hub.md",
+      "sam-lessin": "spring2026/evals/sam-lessin/hub.md",
+      "vinod-khosla": "spring2026/evals/vinod-khosla/hub.md"
+    }
+  }
+}

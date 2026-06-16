@@ -18,7 +18,7 @@
     "Open Source",
     "Infrastructure"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/insforge.jpg",
   "memoGeneratedAt": "2026-05-28T02:32:19.977Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,9 +62,9 @@
   "consolidatedAvg": 44.86,
   "consolidatedRank": 54,
   "traction": {
-    "tractionRank": 35,
-    "tractionScore": 52,
-    "tractionReason": "10.7K stars, 2,000+ databases, 198 PH upvotes"
+    "tractionRank": 43,
+    "tractionScore": 33,
+    "tractionReason": "10.7k GitHub stars, 2,000+ databases hosted"
   },
   "paths": {
     "memo": "spring2026/memos/insforge.md",

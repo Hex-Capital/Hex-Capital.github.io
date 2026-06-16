@@ -13,7 +13,7 @@
     "emails": "faiz@minicor.com, connect@minicor.com"
   },
   "tags": [],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/minicor.jpg",
   "memoGeneratedAt": "2026-05-28T02:46:28.043Z",
   "evalScores": {
     "cyan-banister": {
@@ -57,9 +57,9 @@
   "consolidatedAvg": 45.14,
   "consolidatedRank": 50,
   "traction": {
-    "tractionRank": 23,
-    "tractionScore": 59,
-    "tractionReason": "25,000 patients/day in production"
+    "tractionRank": 21,
+    "tractionScore": 55,
+    "tractionReason": "25,000 patients/day in production, SOC 2 Type II"
   },
   "paths": {
     "memo": "spring2026/memos/minicor.md",

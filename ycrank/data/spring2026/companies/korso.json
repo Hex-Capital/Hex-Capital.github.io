@@ -62,9 +62,9 @@
   "consolidatedAvg": 33.86,
   "consolidatedRank": 179,
   "traction": {
-    "tractionRank": 161,
-    "tractionScore": 4,
-    "tractionReason": "dashboard mockup with fictional companies"
+    "tractionRank": 159,
+    "tractionScore": 6,
+    "tractionReason": "YC launch, Menlo Times feature"
   },
   "paths": {
     "memo": "spring2026/memos/korso.md",

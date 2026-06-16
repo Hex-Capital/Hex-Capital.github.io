@@ -18,7 +18,7 @@
     "Video",
     "Edtech"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/lamina-labs.jpg",
   "memoGeneratedAt": "2026-05-28T02:52:55.620Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,9 +62,9 @@
   "consolidatedAvg": 34.43,
   "consolidatedRank": 177,
   "traction": {
-    "tractionRank": 148,
+    "tractionRank": 156,
     "tractionScore": 6,
-    "tractionReason": "third-party speed testimonial post only"
+    "tractionReason": "Single founder X testimonial post"
   },
   "paths": {
     "memo": "spring2026/memos/lamina-labs.md",

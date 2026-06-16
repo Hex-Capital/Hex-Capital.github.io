@@ -13,7 +13,7 @@
     "emails": "founders@perfectbit.ai (YC company page)"
   },
   "tags": [],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/perfectbit-inc.jpg",
   "memoGeneratedAt": "2026-06-14T23:01:15.937Z",
   "evalScores": {
     "cyan-banister": {
@@ -57,9 +57,9 @@
   "consolidatedAvg": 46.14,
   "consolidatedRank": 40,
   "traction": {
-    "tractionRank": 187,
-    "tractionScore": 2,
-    "tractionReason": "pilot program offered, no customers"
+    "tractionRank": 121,
+    "tractionScore": 9,
+    "tractionReason": "Pilot program open, no public customers"
   },
   "paths": {
     "memo": "spring2026/memos/perfectbit-inc.md",

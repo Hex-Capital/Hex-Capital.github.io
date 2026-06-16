@@ -13,7 +13,7 @@
     "emails": "No public data found (sales contact via cal.com/potato/openwork-discovery, openworklabs.com)"
   },
   "tags": [],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/openwork.jpg",
   "memoGeneratedAt": "2026-05-28T02:39:07.720Z",
   "evalScores": {
     "cyan-banister": {
@@ -55,11 +55,11 @@
     "VK": 32
   },
   "consolidatedAvg": 42.14,
-  "consolidatedRank": 80,
+  "consolidatedRank": 81,
   "traction": {
-    "tractionRank": 40,
-    "tractionScore": 50,
-    "tractionReason": "15.6K stars, 150K+ downloads"
+    "tractionRank": 42,
+    "tractionScore": 34,
+    "tractionReason": "15.6K GitHub stars, 150K+ downloads since launch"
   },
   "paths": {
     "memo": "spring2026/memos/openwork.md",

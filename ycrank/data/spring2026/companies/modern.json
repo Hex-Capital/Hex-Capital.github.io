@@ -20,7 +20,7 @@
     "Healthcare IT",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/modern.jpg",
   "memoGeneratedAt": "2026-05-28T02:32:44.367Z",
   "evalScores": {
     "cyan-banister": {
@@ -64,9 +64,9 @@
   "consolidatedAvg": 38.29,
   "consolidatedRank": 134,
   "traction": {
-    "tractionRank": 30,
-    "tractionScore": 55,
-    "tractionReason": "80%+ automation, multiple customer testimonials"
+    "tractionRank": 24,
+    "tractionScore": 52,
+    "tractionReason": "80%+ automation, named-customer percentage testimonials"
   },
   "paths": {
     "memo": "spring2026/memos/modern.md",

@@ -18,7 +18,7 @@
     "Security",
     "Open Source"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/clawvisor.jpg",
   "memoGeneratedAt": "2026-05-28T02:30:13.699Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,8 +62,8 @@
   "consolidatedAvg": 47.86,
   "consolidatedRank": 29,
   "traction": {
-    "tractionRank": 83,
-    "tractionScore": 29,
+    "tractionRank": 75,
+    "tractionScore": 17,
     "tractionReason": "202 GitHub stars, 14+ adapters live"
   },
   "paths": {

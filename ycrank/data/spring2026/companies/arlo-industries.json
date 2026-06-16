@@ -20,7 +20,7 @@
     "Radar",
     "Aerospace"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/arlo-industries.jpg",
   "memoGeneratedAt": "2026-05-28T02:32:30.178Z",
   "evalScores": {
     "cyan-banister": {
@@ -64,9 +64,9 @@
   "consolidatedAvg": 54,
   "consolidatedRank": 5,
   "traction": {
-    "tractionRank": 109,
-    "tractionScore": 16,
-    "tractionReason": "field demos to Ukrainian/European/US operators"
+    "tractionRank": 140,
+    "tractionScore": 7,
+    "tractionReason": "Field demos to Ukrainian frontline militaries"
   },
   "paths": {
     "memo": "spring2026/memos/arlo-industries.md",

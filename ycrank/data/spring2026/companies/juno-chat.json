@@ -18,7 +18,7 @@
     "Health & Wellness",
     "Consumer Products"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/juno-chat.jpg",
   "memoGeneratedAt": "2026-05-28T02:58:48.849Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,9 +62,9 @@
   "consolidatedAvg": 50.14,
   "consolidatedRank": 19,
   "traction": {
-    "tractionRank": 8,
-    "tractionScore": 73,
-    "tractionReason": "$65K MRR, 90,000+ patients, 4.8 App Store"
+    "tractionRank": 5,
+    "tractionScore": 83,
+    "tractionReason": "$65K MRR, 90,000+ chronic-illness patients"
   },
   "paths": {
     "memo": "spring2026/memos/juno-chat.md",

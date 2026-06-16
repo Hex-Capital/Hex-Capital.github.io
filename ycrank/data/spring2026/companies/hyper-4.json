@@ -18,7 +18,7 @@
     "Productivity",
     "Team Collaboration"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/hyper-4.jpg",
   "memoGeneratedAt": "2026-05-28T02:32:19.058Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,9 +62,9 @@
   "consolidatedAvg": 36.43,
   "consolidatedRank": 149,
   "traction": {
-    "tractionRank": 190,
-    "tractionScore": 2,
-    "tractionReason": "no traction, no customer logos"
+    "tractionRank": 189,
+    "tractionScore": 3,
+    "tractionReason": "No public data found"
   },
   "paths": {
     "memo": "spring2026/memos/hyper-4.md",

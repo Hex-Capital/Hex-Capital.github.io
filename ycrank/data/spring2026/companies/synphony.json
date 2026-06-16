@@ -19,7 +19,7 @@
     "Robotics",
     "Agriculture"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/synphony.jpg",
   "memoGeneratedAt": "2026-05-28T02:55:21.773Z",
   "evalScores": {
     "cyan-banister": {
@@ -61,11 +61,11 @@
     "VK": 42
   },
   "consolidatedAvg": 41.43,
-  "consolidatedRank": 91,
+  "consolidatedRank": 92,
   "traction": {
-    "tractionRank": 156,
-    "tractionScore": 5,
-    "tractionReason": "partner logos only (YC/NVIDIA/OpenAI)"
+    "tractionRank": 155,
+    "tractionScore": 6,
+    "tractionReason": "15+ hackathon wins, partner logos only"
   },
   "paths": {
     "memo": "spring2026/memos/synphony.md",

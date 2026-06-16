@@ -17,7 +17,7 @@
     "Developer Tools",
     "SaaS"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/stage.jpg",
   "memoGeneratedAt": "2026-05-28T03:05:17.318Z",
   "evalScores": {
     "cyan-banister": {
@@ -59,11 +59,11 @@
     "VK": 28
   },
   "consolidatedAvg": 40.86,
-  "consolidatedRank": 98,
+  "consolidatedRank": 99,
   "traction": {
-    "tractionRank": 86,
-    "tractionScore": 27,
-    "tractionReason": "204 GitHub stars, Show HN posted"
+    "tractionRank": 55,
+    "tractionScore": 24,
+    "tractionReason": "204 GitHub stars, Show HN launch"
   },
   "paths": {
     "memo": "spring2026/memos/stage.md",

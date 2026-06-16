@@ -19,7 +19,7 @@
     "Data Visualization",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/shotwellai.jpg",
   "memoGeneratedAt": "2026-06-01T21:09:15.615Z",
   "evalScores": {
     "cyan-banister": {
@@ -63,8 +63,8 @@
   "consolidatedAvg": 48.57,
   "consolidatedRank": 24,
   "traction": {
-    "tractionRank": 108,
-    "tractionScore": 17,
+    "tractionRank": 115,
+    "tractionScore": 10,
     "tractionReason": "Ultra and Parametric customer logos"
   },
   "paths": {

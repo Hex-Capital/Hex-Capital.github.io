@@ -18,7 +18,7 @@
     "B2B",
     "E-commerce"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/amboras.jpg",
   "memoGeneratedAt": "2026-05-28T02:39:19.192Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,11 +60,11 @@
     "VK": 34
   },
   "consolidatedAvg": 40.43,
-  "consolidatedRank": 101,
+  "consolidatedRank": 102,
   "traction": {
-    "tractionRank": 107,
-    "tractionScore": 17,
-    "tractionReason": "'+80% CVR' claim for beta merchants, $500K"
+    "tractionRank": 89,
+    "tractionScore": 13,
+    "tractionReason": "+80% CVR lift on first beta version"
   },
   "paths": {
     "memo": "spring2026/memos/amboras.md",

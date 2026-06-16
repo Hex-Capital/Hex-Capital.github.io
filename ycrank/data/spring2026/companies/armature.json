@@ -17,7 +17,7 @@
     "Artificial Intelligence",
     "Enterprise Software"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/armature.jpg",
   "memoGeneratedAt": "2026-05-28T02:44:06.974Z",
   "evalScores": {
     "cyan-banister": {
@@ -61,9 +61,9 @@
   "consolidatedAvg": 38.14,
   "consolidatedRank": 135,
   "traction": {
-    "tractionRank": 152,
-    "tractionScore": 5,
-    "tractionReason": "$79-$159/mo pricing, no customer data"
+    "tractionRank": 93,
+    "tractionScore": 12,
+    "tractionReason": "YC+Palantir investors, tiered pricing live"
   },
   "paths": {
     "memo": "spring2026/memos/armature.md",

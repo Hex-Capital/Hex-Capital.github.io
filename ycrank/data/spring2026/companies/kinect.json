@@ -18,7 +18,7 @@
     "E-commerce",
     "Conversational AI"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/kinect.jpg",
   "memoGeneratedAt": "2026-05-28T02:36:32.610Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,9 +62,9 @@
   "consolidatedAvg": 36.43,
   "consolidatedRank": 151,
   "traction": {
-    "tractionRank": 45,
-    "tractionScore": 47,
-    "tractionReason": "10 named brand logos, 20% conversion lift"
+    "tractionRank": 60,
+    "tractionScore": 22,
+    "tractionReason": "10 named brand logos, YC launch tweet"
   },
   "paths": {
     "memo": "spring2026/memos/kinect.md",

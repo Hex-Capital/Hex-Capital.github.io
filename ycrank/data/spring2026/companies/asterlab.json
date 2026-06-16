@@ -17,7 +17,7 @@
     "Artificial Intelligence",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/asterlab.jpg",
   "memoGeneratedAt": "2026-05-28T02:39:54.554Z",
   "evalScores": {
     "cyan-banister": {
@@ -61,9 +61,9 @@
   "consolidatedAvg": 50.14,
   "consolidatedRank": 18,
   "traction": {
-    "tractionRank": 67,
-    "tractionScore": 36,
-    "tractionReason": "SOTA benchmarks, METR citation, arXiv paper"
+    "tractionRank": 97,
+    "tractionScore": 12,
+    "tractionReason": "NanoGPT speedrun record, arXiv paper"
   },
   "paths": {
     "memo": "spring2026/memos/asterlab.md",

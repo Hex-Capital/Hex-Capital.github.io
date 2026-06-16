@@ -20,7 +20,7 @@
     "Robotics",
     "Self-Driving Vehicles"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/aseon-labs.jpg",
   "memoGeneratedAt": "2026-05-28T02:44:17.020Z",
   "evalScores": {
     "cyan-banister": {
@@ -64,9 +64,9 @@
   "consolidatedAvg": 48.57,
   "consolidatedRank": 22,
   "traction": {
-    "tractionRank": 88,
-    "tractionScore": 26,
-    "tractionReason": "stealth-exit press, no customers disclosed"
+    "tractionRank": 54,
+    "tractionScore": 25,
+    "tractionReason": "Stealth exit with coordinated press, $50K/vehicle claim"
   },
   "paths": {
     "memo": "spring2026/memos/aseon-labs.md",

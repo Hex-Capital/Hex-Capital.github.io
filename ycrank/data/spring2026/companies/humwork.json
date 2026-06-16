@@ -13,7 +13,7 @@
     "emails": "founders@humwork.ai (humwork.ai contact)"
   },
   "tags": [],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/humwork.jpg",
   "memoGeneratedAt": "2026-05-28T03:11:25.192Z",
   "evalScores": {
     "cyan-banister": {
@@ -57,9 +57,9 @@
   "consolidatedAvg": 45.43,
   "consolidatedRank": 47,
   "traction": {
-    "tractionRank": 24,
-    "tractionScore": 58,
-    "tractionReason": "3,000+ experts, 2,858 questions resolved"
+    "tractionRank": 34,
+    "tractionScore": 42,
+    "tractionReason": "3,000+ verified experts, 2,858 questions resolved beta"
   },
   "paths": {
     "memo": "spring2026/memos/humwork.md",

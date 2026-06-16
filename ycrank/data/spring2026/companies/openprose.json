@@ -20,7 +20,7 @@
     "Swarm AI",
     "AI Assistant"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/openprose.jpg",
   "memoGeneratedAt": "2026-05-28T02:39:34.216Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,11 +62,11 @@
     "VK": 28
   },
   "consolidatedAvg": 41.29,
-  "consolidatedRank": 92,
+  "consolidatedRank": 93,
   "traction": {
-    "tractionRank": 74,
-    "tractionScore": 33,
-    "tractionReason": "1.3K stars, 7,000+ installs self-reported"
+    "tractionRank": 81,
+    "tractionScore": 15,
+    "tractionReason": "1.3k GitHub stars, 7,000+ installs claimed"
   },
   "paths": {
     "memo": "spring2026/memos/openprose.md",

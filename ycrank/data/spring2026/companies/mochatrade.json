@@ -18,7 +18,7 @@
     "Crypto / Web3",
     "Consumer Finance"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/mochatrade.jpg",
   "memoGeneratedAt": "2026-05-28T02:34:40.674Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,9 +62,9 @@
   "consolidatedAvg": 45.71,
   "consolidatedRank": 45,
   "traction": {
-    "tractionRank": 95,
-    "tractionScore": 23,
-    "tractionReason": "pre-seed YC + Pioneer, broad press"
+    "tractionRank": 99,
+    "tractionScore": 11,
+    "tractionReason": "YC+Pioneer Fund pre-seed, press launch"
   },
   "paths": {
     "memo": "spring2026/memos/mochatrade.md",

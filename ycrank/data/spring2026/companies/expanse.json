@@ -19,7 +19,7 @@
     "Enterprise Software",
     "Infrastructure"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/expanse.jpg",
   "memoGeneratedAt": "2026-05-28T02:37:12.380Z",
   "evalScores": {
     "cyan-banister": {
@@ -63,9 +63,9 @@
   "consolidatedAvg": 47,
   "consolidatedRank": 33,
   "traction": {
-    "tractionRank": 144,
-    "tractionScore": 6,
-    "tractionReason": "32-GPU example case, no customers"
+    "tractionRank": 118,
+    "tractionScore": 9,
+    "tractionReason": "32-GPU customer example, YC backing"
   },
   "paths": {
     "memo": "spring2026/memos/expanse.md",

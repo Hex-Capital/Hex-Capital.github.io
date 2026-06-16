@@ -18,7 +18,7 @@
     "Telecommunications",
     "Electronics"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/nine-fives.jpg",
   "memoGeneratedAt": "2026-05-28T03:02:30.541Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,9 +62,9 @@
   "consolidatedAvg": 54.86,
   "consolidatedRank": 2,
   "traction": {
-    "tractionRank": 124,
-    "tractionScore": 10,
-    "tractionReason": "4 SKUs listed, YC Launch posted"
+    "tractionRank": 125,
+    "tractionScore": 9,
+    "tractionReason": "4 SKUs published, YC Launch live"
   },
   "paths": {
     "memo": "spring2026/memos/nine-fives.md",

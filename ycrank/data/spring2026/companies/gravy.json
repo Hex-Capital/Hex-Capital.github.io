@@ -19,7 +19,7 @@
     "Consumer",
     "Consumer Finance"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/gravy.jpg",
   "memoGeneratedAt": "2026-05-28T02:37:02.681Z",
   "evalScores": {
     "cyan-banister": {
@@ -63,9 +63,9 @@
   "consolidatedAvg": 31.29,
   "consolidatedRank": 192,
   "traction": {
-    "tractionRank": 134,
-    "tractionScore": 8,
-    "tractionReason": "Mac app live, Windows waitlist"
+    "tractionRank": 179,
+    "tractionScore": 4,
+    "tractionReason": "Mac app live, Windows on waitlist"
   },
   "paths": {
     "memo": "spring2026/memos/gravy.md",

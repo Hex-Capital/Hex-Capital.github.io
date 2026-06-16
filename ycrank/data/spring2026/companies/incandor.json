@@ -17,7 +17,7 @@
     "Security",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/incandor.jpg",
   "memoGeneratedAt": "2026-05-28T03:01:50.658Z",
   "evalScores": {
     "cyan-banister": {
@@ -61,9 +61,9 @@
   "consolidatedAvg": 35.43,
   "consolidatedRank": 167,
   "traction": {
-    "tractionRank": 176,
+    "tractionRank": 191,
     "tractionScore": 3,
-    "tractionReason": "launch video only, unverified claim"
+    "tractionReason": "YC active, no public data"
   },
   "paths": {
     "memo": "spring2026/memos/incandor.md",

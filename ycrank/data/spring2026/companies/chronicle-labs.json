@@ -18,7 +18,7 @@
     "SaaS",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/chronicle-labs.jpg",
   "memoGeneratedAt": "2026-05-28T02:44:06.670Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,11 +60,11 @@
     "VK": 34
   },
   "consolidatedAvg": 38.71,
-  "consolidatedRank": 126,
+  "consolidatedRank": 127,
   "traction": {
-    "tractionRank": 113,
-    "tractionScore": 14,
-    "tractionReason": "Remedy Meds customer testimonial"
+    "tractionRank": 76,
+    "tractionScore": 16,
+    "tractionReason": "Remedy Meds testimonial with metric claims"
   },
   "paths": {
     "memo": "spring2026/memos/chronicle-labs.md",

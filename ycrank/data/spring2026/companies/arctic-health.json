@@ -18,7 +18,7 @@
     "Healthcare IT",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/arctic-health.jpg",
   "memoGeneratedAt": "2026-05-28T02:30:27.735Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,9 +62,9 @@
   "consolidatedAvg": 36.29,
   "consolidatedRank": 152,
   "traction": {
-    "tractionRank": 139,
-    "tractionScore": 7,
-    "tractionReason": "$500K raised, 300+ network coverage claim"
+    "tractionRank": 77,
+    "tractionScore": 16,
+    "tractionReason": "$500K raised, 300+ insurance networks coverage"
   },
   "paths": {
     "memo": "spring2026/memos/arctic-health.md",

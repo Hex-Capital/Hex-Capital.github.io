@@ -18,7 +18,7 @@
     "Supply Chain",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/alchemize.jpg",
   "memoGeneratedAt": "2026-05-28T02:48:38.595Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,9 +62,9 @@
   "consolidatedAvg": 30.57,
   "consolidatedRank": 194,
   "traction": {
-    "tractionRank": 184,
-    "tractionScore": 2,
-    "tractionReason": "LinkedIn page only, no metrics"
+    "tractionRank": 185,
+    "tractionScore": 3,
+    "tractionReason": "LinkedIn page exists, no other data"
   },
   "paths": {
     "memo": "spring2026/memos/alchemize.md",

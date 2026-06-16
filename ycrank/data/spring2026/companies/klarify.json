@@ -20,7 +20,7 @@
     "Health Tech",
     "B2B"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/klarify.jpg",
   "memoGeneratedAt": "2026-05-28T03:06:17.747Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,11 +62,11 @@
     "VK": 32
   },
   "consolidatedAvg": 40.14,
-  "consolidatedRank": 106,
+  "consolidatedRank": 107,
   "traction": {
-    "tractionRank": 13,
-    "tractionScore": 67,
-    "tractionReason": "~6,000 therapists, 309K notes generated"
+    "tractionRank": 18,
+    "tractionScore": 58,
+    "tractionReason": "6,000 therapists, paid tiers up to $71/mo"
   },
   "paths": {
     "memo": "spring2026/memos/klarify.md",

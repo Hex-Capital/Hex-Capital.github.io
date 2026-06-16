@@ -19,7 +19,7 @@
     "Market Research",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/auxos.jpg",
   "memoGeneratedAt": "2026-05-28T02:38:42.496Z",
   "evalScores": {
     "cyan-banister": {
@@ -63,7 +63,7 @@
   "consolidatedAvg": 37.14,
   "consolidatedRank": 140,
   "traction": {
-    "tractionRank": 179,
+    "tractionRank": 184,
     "tractionScore": 3,
     "tractionReason": "YC launch tweet, illustrative metrics only"
   },

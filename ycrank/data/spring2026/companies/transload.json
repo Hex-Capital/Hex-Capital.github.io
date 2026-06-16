@@ -18,7 +18,7 @@
     "Logistics",
     "Supply Chain"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/transload.jpg",
   "memoGeneratedAt": "2026-05-28T02:55:37.650Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,11 +60,11 @@
     "VK": 31
   },
   "consolidatedAvg": 39.29,
-  "consolidatedRank": 116,
+  "consolidatedRank": 117,
   "traction": {
-    "tractionRank": 115,
-    "tractionScore": 13,
-    "tractionReason": "customer testimonial '$50K/site/month'"
+    "tractionRank": 157,
+    "tractionScore": 6,
+    "tractionReason": "\"$50K/site/month\" customer claim only"
   },
   "paths": {
     "memo": "spring2026/memos/transload.md",

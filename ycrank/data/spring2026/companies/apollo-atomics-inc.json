@@ -17,7 +17,7 @@
     "Small Modular Reactors",
     "Manufacturing"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/apollo-atomics-inc.jpg",
   "memoGeneratedAt": "2026-05-28T02:39:13.751Z",
   "evalScores": {
     "cyan-banister": {
@@ -61,9 +61,9 @@
   "consolidatedAvg": 52.43,
   "consolidatedRank": 11,
   "traction": {
-    "tractionRank": 110,
-    "tractionScore": 16,
-    "tractionReason": "MIT collaboration, 10MWe pilot targeted 2028"
+    "tractionRank": 96,
+    "tractionScore": 12,
+    "tractionReason": "MIT NSE collaboration, pilot targeted 2028"
   },
   "paths": {
     "memo": "spring2026/memos/apollo-atomics-inc.md",

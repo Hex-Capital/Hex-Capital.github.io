@@ -13,7 +13,7 @@
     "emails": "sanat@getbiostack.com, parth@getbiostack.com (YC page)"
   },
   "tags": [],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/biostack-platforms.jpg",
   "memoGeneratedAt": "2026-05-28T02:42:50.530Z",
   "evalScores": {
     "cyan-banister": {
@@ -57,9 +57,9 @@
   "consolidatedAvg": 44.29,
   "consolidatedRank": 61,
   "traction": {
-    "tractionRank": 162,
-    "tractionScore": 4,
-    "tractionReason": "model claim, free consultation CTA"
+    "tractionRank": 170,
+    "tractionScore": 5,
+    "tractionReason": "YC + Afore/Heroic/Verdict investors"
   },
   "paths": {
     "memo": "spring2026/memos/biostack-platforms.md",

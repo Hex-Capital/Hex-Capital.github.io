@@ -20,7 +20,7 @@
     "Healthcare",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/panacea.jpg",
   "memoGeneratedAt": "2026-05-28T02:32:34.521Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,11 +62,11 @@
     "VK": 32
   },
   "consolidatedAvg": 39,
-  "consolidatedRank": 124,
+  "consolidatedRank": 125,
   "traction": {
-    "tractionRank": 159,
-    "tractionScore": 4,
-    "tractionReason": "'12x faster client work' internal claim"
+    "tractionRank": 150,
+    "tractionScore": 6,
+    "tractionReason": "\"12x faster client work\" internal claim"
   },
   "paths": {
     "memo": "spring2026/memos/panacea.md",

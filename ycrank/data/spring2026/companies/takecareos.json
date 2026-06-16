@@ -20,7 +20,7 @@
     "Healthcare",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/takecareos.jpg",
   "memoGeneratedAt": "2026-05-28T03:09:29.618Z",
   "evalScores": {
     "cyan-banister": {
@@ -64,8 +64,8 @@
   "consolidatedAvg": 35.57,
   "consolidatedRank": 165,
   "traction": {
-    "tractionRank": 59,
-    "tractionScore": 40,
+    "tractionRank": 51,
+    "tractionScore": 27,
     "tractionReason": "6 agencies signed, 200+ employees onboarded"
   },
   "paths": {

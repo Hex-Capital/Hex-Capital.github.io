@@ -20,7 +20,7 @@
     "Monitoring",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/superlog.jpg",
   "memoGeneratedAt": "2026-05-28T02:59:34.210Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,11 +62,11 @@
     "VK": 31
   },
   "consolidatedAvg": 43.14,
-  "consolidatedRank": 70,
+  "consolidatedRank": 71,
   "traction": {
-    "tractionRank": 164,
-    "tractionScore": 4,
-    "tractionReason": "Show HN 73 pts, '80-90% PR' anon claim"
+    "tractionRank": 142,
+    "tractionScore": 7,
+    "tractionReason": "Show HN 73 points, customer 80-90% PR accept"
   },
   "paths": {
     "memo": "spring2026/memos/superlog.md",

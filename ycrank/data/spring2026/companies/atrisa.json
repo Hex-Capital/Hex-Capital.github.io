@@ -20,7 +20,7 @@
     "Semiconductors",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/atrisa.jpg",
   "memoGeneratedAt": "2026-06-07T22:27:57.221Z",
   "evalScores": {
     "cyan-banister": {
@@ -64,9 +64,9 @@
   "consolidatedAvg": 35.14,
   "consolidatedRank": 171,
   "traction": {
-    "tractionRank": 178,
-    "tractionScore": 3,
-    "tractionReason": "Spring 2026 launch, 0 job postings"
+    "tractionRank": 108,
+    "tractionScore": 10,
+    "tractionReason": "YC launch, no other public traction"
   },
   "paths": {
     "memo": "spring2026/memos/atrisa.md",

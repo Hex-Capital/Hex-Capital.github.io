@@ -19,7 +19,7 @@
     "AI",
     "AI Assistant"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/jo.jpg",
   "memoGeneratedAt": "2026-05-28T03:11:20.255Z",
   "evalScores": {
     "cyan-banister": {
@@ -63,9 +63,9 @@
   "consolidatedAvg": 35.71,
   "consolidatedRank": 162,
   "traction": {
-    "tractionRank": 123,
-    "tractionScore": 11,
-    "tractionReason": "YC W24 relaunch, free beta, no metrics"
+    "tractionRank": 147,
+    "tractionScore": 6,
+    "tractionReason": "YC W24/Launch page live, no traction data"
   },
   "paths": {
     "memo": "spring2026/memos/jo.md",

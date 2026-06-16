@@ -13,7 +13,7 @@
     "emails": "isa@zolvo.com"
   },
   "tags": [],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/zolvo.jpg",
   "memoGeneratedAt": "2026-05-28T02:58:13.708Z",
   "evalScores": {
     "cyan-banister": {
@@ -57,9 +57,9 @@
   "consolidatedAvg": 46,
   "consolidatedRank": 42,
   "traction": {
-    "tractionRank": 70,
-    "tractionScore": 35,
-    "tractionReason": "1 signed annual contract pre-product"
+    "tractionRank": 49,
+    "tractionScore": 28,
+    "tractionReason": "First client signed annual contract pre-product"
   },
   "paths": {
     "memo": "spring2026/memos/zolvo.md",

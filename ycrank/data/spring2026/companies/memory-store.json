@@ -18,7 +18,7 @@
     "SaaS",
     "B2B"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/memory-store.jpg",
   "memoGeneratedAt": "2026-05-28T02:41:55.146Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,9 +62,9 @@
   "consolidatedAvg": 45,
   "consolidatedRank": 52,
   "traction": {
-    "tractionRank": 73,
-    "tractionScore": 33,
-    "tractionReason": "prior Julep 6.6K stars, $150/seat tier"
+    "tractionRank": 105,
+    "tractionScore": 11,
+    "tractionReason": "YC Launch posted, prior Julep 6.6K stars"
   },
   "paths": {
     "memo": "spring2026/memos/memory-store.md",

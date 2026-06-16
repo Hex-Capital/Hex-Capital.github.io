@@ -18,7 +18,7 @@
     "B2B",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/scope.jpg",
   "memoGeneratedAt": "2026-05-28T03:02:56.385Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,11 +60,11 @@
     "VK": 31
   },
   "consolidatedAvg": 38.43,
-  "consolidatedRank": 132,
+  "consolidatedRank": 133,
   "traction": {
-    "tractionRank": 195,
-    "tractionScore": 1,
-    "tractionReason": "team size 1, F4 listing only"
+    "tractionRank": 164,
+    "tractionScore": 5,
+    "tractionReason": "YC + F4 Fund portfolio listing"
   },
   "paths": {
     "memo": "spring2026/memos/scope.md",

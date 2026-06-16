@@ -19,7 +19,7 @@
     "Staffing",
     "Agentic AI"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/asendia-ai.jpg",
   "memoGeneratedAt": "2026-05-28T02:35:05.775Z",
   "evalScores": {
     "cyan-banister": {
@@ -61,11 +61,11 @@
     "VK": 32
   },
   "consolidatedAvg": 39.14,
-  "consolidatedRank": 117,
+  "consolidatedRank": 118,
   "traction": {
-    "tractionRank": 7,
-    "tractionScore": 76,
-    "tractionReason": "$500K+ revenue, customer doubled hires"
+    "tractionRank": 9,
+    "tractionScore": 74,
+    "tractionReason": "$500K+ revenue, doubled hires at SGF Global"
   },
   "paths": {
     "memo": "spring2026/memos/asendia-ai.md",

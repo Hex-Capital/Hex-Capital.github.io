@@ -57,9 +57,9 @@
   "consolidatedAvg": 47,
   "consolidatedRank": 35,
   "traction": {
-    "tractionRank": 43,
-    "tractionScore": 48,
-    "tractionReason": "1.4M views, 14K users in launch week"
+    "tractionRank": 19,
+    "tractionScore": 57,
+    "tractionReason": "14K users launch week, $1M raised"
   },
   "paths": {
     "memo": "spring2026/memos/trybloom.md",

@@ -19,7 +19,7 @@
     "Analytics",
     "Operations"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/ontora.jpg",
   "memoGeneratedAt": "2026-05-28T02:51:15.154Z",
   "evalScores": {
     "cyan-banister": {
@@ -63,9 +63,9 @@
   "consolidatedAvg": 37.14,
   "consolidatedRank": 142,
   "traction": {
-    "tractionRank": 75,
-    "tractionScore": 33,
-    "tractionReason": "Vertiv (NYSE:VRT) customer testimonial"
+    "tractionRank": 50,
+    "tractionScore": 28,
+    "tractionReason": "Vertiv testimonial, ~$50K per engagement"
   },
   "paths": {
     "memo": "spring2026/memos/ontora.md",

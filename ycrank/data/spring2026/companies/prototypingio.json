@@ -19,7 +19,7 @@
     "Automation",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/prototypingio.jpg",
   "memoGeneratedAt": "2026-05-28T02:49:14.561Z",
   "evalScores": {
     "cyan-banister": {
@@ -63,9 +63,9 @@
   "consolidatedAvg": 36.86,
   "consolidatedRank": 146,
   "traction": {
-    "tractionRank": 173,
+    "tractionRank": 192,
     "tractionScore": 3,
-    "tractionReason": "early-access waitlist, no metrics"
+    "tractionReason": "Waitlist gate, YC backing"
   },
   "paths": {
     "memo": "spring2026/memos/prototypingio.md",

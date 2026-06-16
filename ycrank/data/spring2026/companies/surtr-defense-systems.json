@@ -16,7 +16,7 @@
   "tags": [
     "Computer Vision"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/surtr-defense-systems.jpg",
   "memoGeneratedAt": "2026-05-28T03:06:07.846Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,9 +60,9 @@
   "consolidatedAvg": 48.57,
   "consolidatedRank": 25,
   "traction": {
-    "tractionRank": 167,
-    "tractionScore": 4,
-    "tractionReason": "May 2026 YC launch tweet only"
+    "tractionRank": 130,
+    "tractionScore": 8,
+    "tractionReason": "Launched May 13, 2026 via YC"
   },
   "paths": {
     "memo": "spring2026/memos/surtr-defense-systems.md",

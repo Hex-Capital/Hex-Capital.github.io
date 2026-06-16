@@ -19,7 +19,7 @@
     "LegalTech",
     "Regtech"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/regbase.jpg",
   "memoGeneratedAt": "2026-05-28T03:07:03.309Z",
   "evalScores": {
     "cyan-banister": {
@@ -61,11 +61,11 @@
     "VK": 27
   },
   "consolidatedAvg": 42.86,
-  "consolidatedRank": 73,
+  "consolidatedRank": 74,
   "traction": {
-    "tractionRank": 138,
-    "tractionScore": 7,
-    "tractionReason": "'Fortune 500 clients' claim, no logos"
+    "tractionRank": 174,
+    "tractionScore": 5,
+    "tractionReason": "\"Fortune 500\" claim, no named customers"
   },
   "paths": {
     "memo": "spring2026/memos/regbase.md",

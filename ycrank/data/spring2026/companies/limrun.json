@@ -19,7 +19,7 @@
     "Enterprise Software",
     "Cloud Computing"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/limrun.jpg",
   "memoGeneratedAt": "2026-05-28T02:59:34.343Z",
   "evalScores": {
     "cyan-banister": {
@@ -63,9 +63,9 @@
   "consolidatedAvg": 52.29,
   "consolidatedRank": 12,
   "traction": {
-    "tractionRank": 47,
-    "tractionScore": 46,
-    "tractionReason": "7 named platform customers including Replit"
+    "tractionRank": 46,
+    "tractionScore": 30,
+    "tractionReason": "7 named platform customers (Replit, Rork, Momentic)"
   },
   "paths": {
     "memo": "spring2026/memos/limrun.md",

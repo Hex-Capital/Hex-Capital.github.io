@@ -18,7 +18,7 @@
     "SaaS",
     "Health Tech"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/voquill.jpg",
   "memoGeneratedAt": "2026-05-28T02:51:00.128Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,9 +62,9 @@
   "consolidatedAvg": 47,
   "consolidatedRank": 36,
   "traction": {
-    "tractionRank": 28,
-    "tractionScore": 56,
-    "tractionReason": "25 pathologists at F500 lab onboarded"
+    "tractionRank": 23,
+    "tractionScore": 53,
+    "tractionReason": "25 pathologists onboarded at F500 lab"
   },
   "paths": {
     "memo": "spring2026/memos/voquill.md",

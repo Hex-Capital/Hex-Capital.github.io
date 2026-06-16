@@ -16,7 +16,7 @@
   "tags": [
     "None listed"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/savant.jpg",
   "memoGeneratedAt": "2026-06-12T19:10:37.727Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,9 +60,9 @@
   "consolidatedAvg": 30.14,
   "consolidatedRank": 195,
   "traction": {
-    "tractionRank": 191,
-    "tractionScore": 1,
-    "tractionReason": "YC backing only, no public traction data"
+    "tractionRank": 194,
+    "tractionScore": 2,
+    "tractionReason": "YC P26 backing, nothing else"
   },
   "paths": {
     "memo": "spring2026/memos/savant.md",

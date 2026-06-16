@@ -19,7 +19,7 @@
     "Automation",
     "Automotive"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/useparrot.jpg",
   "memoGeneratedAt": "2026-05-28T02:49:09.218Z",
   "evalScores": {
     "cyan-banister": {
@@ -63,9 +63,9 @@
   "consolidatedAvg": 36.29,
   "consolidatedRank": 155,
   "traction": {
-    "tractionRank": 66,
-    "tractionScore": 37,
-    "tractionReason": "90-day pilot $150K→$180K monthly revenue"
+    "tractionRank": 135,
+    "tractionScore": 8,
+    "tractionReason": "90-day pilot shop customer revenue outcome shown"
   },
   "paths": {
     "memo": "spring2026/memos/useparrot.md",

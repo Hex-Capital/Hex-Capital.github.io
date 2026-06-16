@@ -16,7 +16,7 @@
   "tags": [
     "Developer Tools"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/sazabi.jpg",
   "memoGeneratedAt": "2026-05-28T03:07:38.670Z",
   "evalScores": {
     "cyan-banister": {
@@ -58,11 +58,11 @@
     "VK": 38
   },
   "consolidatedAvg": 43.43,
-  "consolidatedRank": 69,
+  "consolidatedRank": 70,
   "traction": {
-    "tractionRank": 127,
-    "tractionScore": 10,
-    "tractionReason": "press, pre-revenue waitlist + pilot"
+    "tractionRank": 163,
+    "tractionScore": 5,
+    "tractionReason": "Waitlist + SiliconANGLE stealth-exit coverage"
   },
   "paths": {
     "memo": "spring2026/memos/sazabi.md",

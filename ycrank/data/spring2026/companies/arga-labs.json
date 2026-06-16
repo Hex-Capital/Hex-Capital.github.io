@@ -18,7 +18,7 @@
     "SaaS",
     "Infrastructure"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/arga-labs.jpg",
   "memoGeneratedAt": "2026-05-28T02:53:21.892Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,9 +62,9 @@
   "consolidatedAvg": 45.86,
   "consolidatedRank": 43,
   "traction": {
-    "tractionRank": 64,
-    "tractionScore": 38,
-    "tractionReason": "Hyperspell + Seed-to-Series-B customers onboarded"
+    "tractionRank": 62,
+    "tractionScore": 21,
+    "tractionReason": "Hyperspell customer, seed-B onboarded in 6 weeks"
   },
   "paths": {
     "memo": "spring2026/memos/arga-labs.md",

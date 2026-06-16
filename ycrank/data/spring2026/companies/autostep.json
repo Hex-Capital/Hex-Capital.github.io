@@ -13,7 +13,7 @@
     "emails": "aidan@autostep.ai"
   },
   "tags": [],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/autostep.jpg",
   "memoGeneratedAt": "2026-05-28T03:11:10.225Z",
   "evalScores": {
     "cyan-banister": {
@@ -57,9 +57,9 @@
   "consolidatedAvg": 35,
   "consolidatedRank": 174,
   "traction": {
-    "tractionRank": 125,
-    "tractionScore": 10,
-    "tractionReason": "'$100K savings' marketing claim, SOC2/HIPAA"
+    "tractionRank": 90,
+    "tractionScore": 13,
+    "tractionReason": "YC+Neo backing, free pricing live"
   },
   "paths": {
     "memo": "spring2026/memos/autostep.md",

@@ -16,7 +16,7 @@
   "tags": [
     "Security"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/silmaril.jpg",
   "memoGeneratedAt": "2026-05-28T02:42:15.604Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,9 +60,9 @@
   "consolidatedAvg": 45,
   "consolidatedRank": 53,
   "traction": {
-    "tractionRank": 93,
-    "tractionScore": 24,
-    "tractionReason": "$28M cumulative damages prevented claim"
+    "tractionRank": 98,
+    "tractionScore": 11,
+    "tractionReason": "$28M cumulative damages prevented customer outcome"
   },
   "paths": {
     "memo": "spring2026/memos/silmaril.md",

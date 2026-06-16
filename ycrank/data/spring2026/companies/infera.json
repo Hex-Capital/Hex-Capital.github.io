@@ -20,7 +20,7 @@
     "Biotech",
     "Automation"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/infera.jpg",
   "memoGeneratedAt": "2026-05-28T02:48:44.015Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,11 +62,11 @@
     "VK": 36
   },
   "consolidatedAvg": 40.14,
-  "consolidatedRank": 105,
+  "consolidatedRank": 106,
   "traction": {
-    "tractionRank": 163,
+    "tractionRank": 176,
     "tractionScore": 4,
-    "tractionReason": "early-access pilot program open"
+    "tractionReason": "Early-access pilot open, no customers disclosed"
   },
   "paths": {
     "memo": "spring2026/memos/infera.md",

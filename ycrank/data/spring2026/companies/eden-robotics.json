@@ -19,7 +19,7 @@
     "Automation",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/eden-robotics.jpg",
   "memoGeneratedAt": "2026-05-28T02:40:54.470Z",
   "evalScores": {
     "cyan-banister": {
@@ -63,9 +63,9 @@
   "consolidatedAvg": 44.29,
   "consolidatedRank": 62,
   "traction": {
-    "tractionRank": 80,
-    "tractionScore": 30,
-    "tractionReason": "$10/hr RaaS pricing live, no customers disclosed"
+    "tractionRank": 111,
+    "tractionScore": 10,
+    "tractionReason": "$10/hour pricing live, 1 open role"
   },
   "paths": {
     "memo": "spring2026/memos/eden-robotics.md",

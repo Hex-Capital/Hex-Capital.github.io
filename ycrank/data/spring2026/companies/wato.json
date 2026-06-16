@@ -17,7 +17,7 @@
     "Enterprise Software",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/wato.jpg",
   "memoGeneratedAt": "2026-05-28T02:43:46.381Z",
   "evalScores": {
     "cyan-banister": {
@@ -61,9 +61,9 @@
   "consolidatedAvg": 32.29,
   "consolidatedRank": 189,
   "traction": {
-    "tractionRank": 146,
-    "tractionScore": 6,
-    "tractionReason": "private beta, no customers disclosed"
+    "tractionRank": 124,
+    "tractionScore": 9,
+    "tractionReason": "Private beta open, Cloud Agents launched"
   },
   "paths": {
     "memo": "spring2026/memos/wato.md",

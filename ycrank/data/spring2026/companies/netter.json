@@ -19,7 +19,7 @@
     "AI",
     "ML"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/netter.jpg",
   "memoGeneratedAt": "2026-05-28T03:07:28.689Z",
   "evalScores": {
     "cyan-banister": {
@@ -63,9 +63,9 @@
   "consolidatedAvg": 35.14,
   "consolidatedRank": 172,
   "traction": {
-    "tractionRank": 69,
-    "tractionScore": 35,
-    "tractionReason": "Carrefour/Tesco/Auchan named customer logos"
+    "tractionRank": 116,
+    "tractionScore": 10,
+    "tractionReason": "Carrefour/Tesco/Auchan logos, no counts"
   },
   "paths": {
     "memo": "spring2026/memos/netter.md",

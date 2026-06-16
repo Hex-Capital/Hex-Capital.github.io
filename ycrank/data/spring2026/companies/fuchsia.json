@@ -20,7 +20,7 @@
     "AI",
     "Industrial"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/fuchsia.jpg",
   "memoGeneratedAt": "2026-05-28T03:08:59.061Z",
   "evalScores": {
     "cyan-banister": {
@@ -64,9 +64,9 @@
   "consolidatedAvg": 36.71,
   "consolidatedRank": 147,
   "traction": {
-    "tractionRank": 98,
-    "tractionScore": 21,
-    "tractionReason": "Amazon/Apple/Walmart certification customer claim"
+    "tractionRank": 70,
+    "tractionScore": 18,
+    "tractionReason": "Amazon/Apple/Walmart cert claim, no counts"
   },
   "paths": {
     "memo": "spring2026/memos/fuchsia.md",

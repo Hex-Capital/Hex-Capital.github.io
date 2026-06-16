@@ -19,7 +19,7 @@
     "Construction",
     "B2B"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/rudus.jpg",
   "memoGeneratedAt": "2026-05-28T03:03:46.552Z",
   "evalScores": {
     "cyan-banister": {
@@ -63,9 +63,9 @@
   "consolidatedAvg": 33.29,
   "consolidatedRank": 181,
   "traction": {
-    "tractionRank": 135,
-    "tractionScore": 8,
-    "tractionReason": "landing-page testimonials, unnamed customers"
+    "tractionRank": 160,
+    "tractionScore": 6,
+    "tractionReason": "YC launch, landing-page claim only"
   },
   "paths": {
     "memo": "spring2026/memos/rudus.md",

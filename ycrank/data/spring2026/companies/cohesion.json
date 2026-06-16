@@ -18,7 +18,7 @@
     "SaaS",
     "Investing"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/cohesion.jpg",
   "memoGeneratedAt": "2026-05-28T02:30:07.529Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,9 +62,9 @@
   "consolidatedAvg": 37.14,
   "consolidatedRank": 141,
   "traction": {
-    "tractionRank": 15,
-    "tractionScore": 65,
-    "tractionReason": "10+ funds managing $10B+ AUM"
+    "tractionRank": 25,
+    "tractionScore": 51,
+    "tractionReason": "10+ fundamental equity funds, $10Bn combined AUM"
   },
   "paths": {
     "memo": "spring2026/memos/cohesion.md",

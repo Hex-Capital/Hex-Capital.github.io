@@ -16,7 +16,7 @@
     "Healthcare",
     "Healthcare IT"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/plena-health.jpg",
   "memoGeneratedAt": "2026-05-30T22:53:55.923Z",
   "evalScores": {
     "cyan-banister": {
@@ -58,11 +58,11 @@
     "VK": 30
   },
   "consolidatedAvg": 40.14,
-  "consolidatedRank": 107,
+  "consolidatedRank": 108,
   "traction": {
-    "tractionRank": 4,
-    "tractionScore": 85,
-    "tractionReason": "seven-figure committed ARR, 17x growth"
+    "tractionRank": 3,
+    "tractionScore": 88,
+    "tractionReason": "Seven-figure committed ARR, 17x growth in 10 months"
   },
   "paths": {
     "memo": "spring2026/memos/plena-health.md",

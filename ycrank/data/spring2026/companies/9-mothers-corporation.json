@@ -20,7 +20,7 @@
     "Robotics",
     "Hardware"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/9-mothers-corporation.jpg",
   "memoGeneratedAt": "2026-05-28T03:08:34.051Z",
   "evalScores": {
     "cyan-banister": {
@@ -64,9 +64,9 @@
   "consolidatedAvg": 46.43,
   "consolidatedRank": 38,
   "traction": {
-    "tractionRank": 58,
-    "tractionScore": 41,
-    "tractionReason": "EDDA shipping to US Government and primes"
+    "tractionRank": 181,
+    "tractionScore": 4,
+    "tractionReason": "\"Shipping now\" claim, no detail"
   },
   "paths": {
     "memo": "spring2026/memos/9-mothers-corporation.md",

@@ -18,7 +18,7 @@
     "Developer Tools",
     "API"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/replicas.jpg",
   "memoGeneratedAt": "2026-05-28T03:04:01.595Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,11 +60,11 @@
     "VK": 34
   },
   "consolidatedAvg": 39.29,
-  "consolidatedRank": 115,
+  "consolidatedRank": 116,
   "traction": {
-    "tractionRank": 26,
-    "tractionScore": 57,
-    "tractionReason": "20+ YC startups, 12 named customer logos"
+    "tractionRank": 27,
+    "tractionScore": 49,
+    "tractionReason": "20+ YC customers, 12 named logos"
   },
   "paths": {
     "memo": "spring2026/memos/replicas.md",

@@ -20,7 +20,7 @@
     "Marketing",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/characterquilt.jpg",
   "memoGeneratedAt": "2026-05-28T02:37:32.299Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,11 +62,11 @@
     "VK": 27
   },
   "consolidatedAvg": 40.14,
-  "consolidatedRank": 104,
+  "consolidatedRank": 105,
   "traction": {
-    "tractionRank": 34,
-    "tractionScore": 53,
-    "tractionReason": "21+ named customer logos including BigCommerce"
+    "tractionRank": 26,
+    "tractionScore": 50,
+    "tractionReason": "21+ named customer logos including 1upHealth, Bloomreach"
   },
   "paths": {
     "memo": "spring2026/memos/characterquilt.md",

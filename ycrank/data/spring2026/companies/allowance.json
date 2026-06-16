@@ -18,7 +18,7 @@
     "Generative AI",
     "Payments"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/allowance.jpg",
   "memoGeneratedAt": "2026-05-28T02:47:03.380Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,8 +62,8 @@
   "consolidatedAvg": 43.86,
   "consolidatedRank": 66,
   "traction": {
-    "tractionRank": 147,
-    "tractionScore": 6,
+    "tractionRank": 74,
+    "tractionScore": 17,
     "tractionReason": "iPhone app in early public beta"
   },
   "paths": {

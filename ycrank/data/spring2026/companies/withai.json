@@ -18,7 +18,7 @@
     "Team Collaboration",
     "Investing"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/withai.jpg",
   "memoGeneratedAt": "2026-05-28T03:03:56.848Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,9 +62,9 @@
   "consolidatedAvg": 44.57,
   "consolidatedRank": 57,
   "traction": {
-    "tractionRank": 17,
-    "tractionScore": 63,
-    "tractionReason": ">$100K ARR, Bridgewater CIO angels"
+    "tractionRank": 11,
+    "tractionScore": 70,
+    "tractionReason": ">$100K ARR, Mercator client, Bridgewater co-CIO angels"
   },
   "paths": {
     "memo": "spring2026/memos/withai.md",

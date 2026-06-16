@@ -18,7 +18,7 @@
     "Gaming",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/playablai.jpg",
   "memoGeneratedAt": "2026-05-28T02:30:37.621Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,8 +62,8 @@
   "consolidatedAvg": 44.71,
   "consolidatedRank": 55,
   "traction": {
-    "tractionRank": 77,
-    "tractionScore": 32,
+    "tractionRank": 82,
+    "tractionScore": 15,
     "tractionReason": "40,000 users in first month of beta"
   },
   "paths": {

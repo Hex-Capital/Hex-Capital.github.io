@@ -13,7 +13,7 @@
     "emails": "No public data found"
   },
   "tags": [],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/clara-2.jpg",
   "memoGeneratedAt": "2026-05-28T03:08:54.321Z",
   "evalScores": {
     "cyan-banister": {
@@ -57,9 +57,9 @@
   "consolidatedAvg": 53.71,
   "consolidatedRank": 6,
   "traction": {
-    "tractionRank": 21,
-    "tractionScore": 60,
-    "tractionReason": "$12M pre-seed, primary care 50 states"
+    "tractionRank": 32,
+    "tractionScore": 44,
+    "tractionReason": "$12M pre-seed, licensed primary care in 50 states"
   },
   "paths": {
     "memo": "spring2026/memos/clara-2.md",

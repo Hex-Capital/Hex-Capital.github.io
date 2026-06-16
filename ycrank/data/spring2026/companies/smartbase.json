@@ -20,7 +20,7 @@
     "Manufacturing",
     "Automation"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/smartbase.jpg",
   "memoGeneratedAt": "2026-05-28T03:10:34.999Z",
   "evalScores": {
     "cyan-banister": {
@@ -64,9 +64,9 @@
   "consolidatedAvg": 43.71,
   "consolidatedRank": 68,
   "traction": {
-    "tractionRank": 19,
+    "tractionRank": 15,
     "tractionScore": 62,
-    "tractionReason": "five-figure annual contracts, first customers"
+    "tractionReason": "First customers on five-figure annual contracts"
   },
   "paths": {
     "memo": "spring2026/memos/smartbase.md",

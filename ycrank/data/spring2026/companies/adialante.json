@@ -18,7 +18,7 @@
     "Medical Devices",
     "Health & Wellness"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/adialante.jpg",
   "memoGeneratedAt": "2026-05-28T02:50:44.711Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,9 +62,9 @@
   "consolidatedAvg": 55,
   "consolidatedRank": 1,
   "traction": {
-    "tractionRank": 20,
+    "tractionRank": 16,
     "tractionScore": 61,
-    "tractionReason": "$12.75M LOIs, 6 clinics, $30K deposits"
+    "tractionReason": "$12.75M LOIs, $30K deposits, 6 clinics signed"
   },
   "paths": {
     "memo": "spring2026/memos/adialante.md",

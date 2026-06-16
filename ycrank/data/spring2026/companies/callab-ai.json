@@ -18,7 +18,7 @@
     "B2B",
     "Call Center"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/callab-ai.jpg",
   "memoGeneratedAt": "2026-05-28T02:53:26.648Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,9 +62,9 @@
   "consolidatedAvg": 48.14,
   "consolidatedRank": 27,
   "traction": {
-    "tractionRank": 97,
-    "tractionScore": 22,
-    "tractionReason": "Dunkin customer claim, three continents"
+    "tractionRank": 87,
+    "tractionScore": 14,
+    "tractionReason": "Dunkin Donuts customer, three continents"
   },
   "paths": {
     "memo": "spring2026/memos/callab-ai.md",

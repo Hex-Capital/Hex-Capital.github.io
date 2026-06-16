@@ -18,7 +18,7 @@
     "Video",
     "Creator Economy"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/youart.jpg",
   "memoGeneratedAt": "2026-05-28T02:37:21.985Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,9 +62,9 @@
   "consolidatedAvg": 36.29,
   "consolidatedRank": 156,
   "traction": {
-    "tractionRank": 99,
-    "tractionScore": 21,
-    "tractionReason": "PH launch 4.7/35, 4,490 X followers"
+    "tractionRank": 119,
+    "tractionScore": 9,
+    "tractionReason": "Product Hunt 4.7/35 reviews, 4,490 followers"
   },
   "paths": {
     "memo": "spring2026/memos/youart.md",

@@ -18,7 +18,7 @@
     "Infrastructure",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/ardent.jpg",
   "memoGeneratedAt": "2026-05-28T02:43:36.302Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,9 +62,9 @@
   "consolidatedAvg": 47,
   "consolidatedRank": 32,
   "traction": {
-    "tractionRank": 65,
-    "tractionScore": 37,
-    "tractionReason": "6 customer logos including Openledger"
+    "tractionRank": 72,
+    "tractionScore": 17,
+    "tractionReason": "6 customer logos for new sandboxes product"
   },
   "paths": {
     "memo": "spring2026/memos/ardent.md",

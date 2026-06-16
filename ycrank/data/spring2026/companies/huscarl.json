@@ -13,7 +13,7 @@
     "emails": "No public data found"
   },
   "tags": [],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/huscarl.jpg",
   "memoGeneratedAt": "2026-06-16T04:31:59.420Z",
   "evalScores": {
     "cyan-banister": {
@@ -57,9 +57,9 @@
   "consolidatedAvg": 47,
   "consolidatedRank": 34,
   "traction": {
-    "tractionRank": 158,
+    "tractionRank": 171,
     "tractionScore": 5,
-    "tractionReason": "2 Paris job openings only"
+    "tractionReason": "YC Launch live, 2 Paris roles open"
   },
   "paths": {
     "memo": "spring2026/memos/huscarl.md",

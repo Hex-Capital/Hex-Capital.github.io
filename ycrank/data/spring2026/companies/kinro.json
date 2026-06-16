@@ -18,7 +18,7 @@
     "AI Agents",
     "Sales"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/kinro.jpg",
   "memoGeneratedAt": "2026-05-28T02:58:38.946Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,11 +60,11 @@
     "VK": 32
   },
   "consolidatedAvg": 39.29,
-  "consolidatedRank": 114,
+  "consolidatedRank": 115,
   "traction": {
-    "tractionRank": 71,
-    "tractionScore": 34,
-    "tractionReason": "The Zebra named customer, unverified claims"
+    "tractionRank": 59,
+    "tractionScore": 22,
+    "tractionReason": "The Zebra customer, claimed 48s time-to-quote"
   },
   "paths": {
     "memo": "spring2026/memos/kinro.md",

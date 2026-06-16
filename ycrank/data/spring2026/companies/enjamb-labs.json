@@ -19,7 +19,7 @@
     "Biotech",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/enjamb-labs.jpg",
   "memoGeneratedAt": "2026-05-28T02:30:27.686Z",
   "evalScores": {
     "cyan-banister": {
@@ -63,9 +63,9 @@
   "consolidatedAvg": 35.71,
   "consolidatedRank": 161,
   "traction": {
-    "tractionRank": 132,
-    "tractionScore": 9,
-    "tractionReason": "$650K pre-seed, 'free forever' tier"
+    "tractionRank": 101,
+    "tractionScore": 11,
+    "tractionReason": "$650K pre-seed from YC and Founders Inc"
   },
   "paths": {
     "memo": "spring2026/memos/enjamb-labs.md",

@@ -18,7 +18,7 @@
     "Aerospace",
     "Advanced Materials"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/dispatch.jpg",
   "memoGeneratedAt": "2026-05-28T03:06:13.121Z",
   "evalScores": {
     "cyan-banister": {
@@ -63,8 +63,8 @@
   "consolidatedRank": 15,
   "traction": {
     "tractionRank": 112,
-    "tractionScore": 15,
-    "tractionReason": "$500K, heat shield ground test passed"
+    "tractionScore": 10,
+    "tractionReason": "$500K raise at stealth, Mojave heat-shield test"
   },
   "paths": {
     "memo": "spring2026/memos/dispatch.md",

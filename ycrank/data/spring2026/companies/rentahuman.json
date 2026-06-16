@@ -17,7 +17,7 @@
     "Artificial Intelligence",
     "Marketplace"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/rentahuman.jpg",
   "memoGeneratedAt": "2026-05-28T02:55:22.058Z",
   "evalScores": {
     "cyan-banister": {
@@ -61,9 +61,9 @@
   "consolidatedAvg": 47.86,
   "consolidatedRank": 30,
   "traction": {
-    "tractionRank": 14,
-    "tractionScore": 66,
-    "tractionReason": "$20K MRR, 500K users, $4M visits"
+    "tractionRank": 13,
+    "tractionScore": 67,
+    "tractionReason": "500K users, $20K MRR, 30+ press hits"
   },
   "paths": {
     "memo": "spring2026/memos/rentahuman.md",

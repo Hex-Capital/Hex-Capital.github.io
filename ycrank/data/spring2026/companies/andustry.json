@@ -20,7 +20,7 @@
     "Procurement",
     "Industrial"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/andustry.jpg",
   "memoGeneratedAt": "2026-05-28T03:01:25.464Z",
   "evalScores": {
     "cyan-banister": {
@@ -64,9 +64,9 @@
   "consolidatedAvg": 35.86,
   "consolidatedRank": 159,
   "traction": {
-    "tractionRank": 55,
-    "tractionScore": 42,
-    "tractionReason": "$400K and $800K savings customer testimonials"
+    "tractionRank": 38,
+    "tractionScore": 38,
+    "tractionReason": "$400K customer savings testimonial, 2,000 tonnes/month"
   },
   "paths": {
     "memo": "spring2026/memos/andustry.md",

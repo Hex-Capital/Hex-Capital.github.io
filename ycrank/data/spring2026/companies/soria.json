@@ -18,7 +18,7 @@
     "AI",
     "Stocks"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/soria.jpg",
   "memoGeneratedAt": "2026-05-28T02:44:01.864Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,11 +60,11 @@
     "VK": 30
   },
   "consolidatedAvg": 41.14,
-  "consolidatedRank": 96,
+  "consolidatedRank": 97,
   "traction": {
-    "tractionRank": 53,
-    "tractionScore": 43,
-    "tractionReason": "'trusted by bulge bracket banks' unverified claim"
+    "tractionRank": 66,
+    "tractionScore": 19,
+    "tractionReason": "\"Trusted by bulge bracket\" claim, no logos"
   },
   "paths": {
     "memo": "spring2026/memos/soria.md",

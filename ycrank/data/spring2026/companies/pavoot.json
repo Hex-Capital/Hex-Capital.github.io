@@ -19,7 +19,7 @@
     "Sales",
     "Marketing"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/pavoot.jpg",
   "memoGeneratedAt": "2026-05-28T02:56:42.955Z",
   "evalScores": {
     "cyan-banister": {
@@ -63,9 +63,9 @@
   "consolidatedAvg": 31.29,
   "consolidatedRank": 193,
   "traction": {
-    "tractionRank": 117,
-    "tractionScore": 13,
-    "tractionReason": "sample event data, no real customers"
+    "tractionRank": 91,
+    "tractionScore": 12,
+    "tractionReason": "YC Launch live, sample event metrics"
   },
   "paths": {
     "memo": "spring2026/memos/pavoot.md",

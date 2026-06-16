@@ -18,7 +18,7 @@
     "API",
     "Conversational AI"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/kugelaudio.jpg",
   "memoGeneratedAt": "2026-05-28T02:32:34.656Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,8 +62,8 @@
   "consolidatedAvg": 47.71,
   "consolidatedRank": 31,
   "traction": {
-    "tractionRank": 49,
-    "tractionScore": 45,
+    "tractionRank": 71,
+    "tractionScore": 18,
     "tractionReason": "100K+ monthly Hugging Face downloads"
   },
   "paths": {

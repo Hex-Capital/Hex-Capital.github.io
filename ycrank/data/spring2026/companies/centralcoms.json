@@ -18,7 +18,7 @@
     "B2B",
     "Proptech"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/centralcoms.jpg",
   "memoGeneratedAt": "2026-05-28T17:52:48.368Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,9 +62,9 @@
   "consolidatedAvg": 33.14,
   "consolidatedRank": 182,
   "traction": {
-    "tractionRank": 194,
-    "tractionScore": 1,
-    "tractionReason": "no public traction data found"
+    "tractionRank": 187,
+    "tractionScore": 3,
+    "tractionReason": "No public data found"
   },
   "paths": {
     "memo": "spring2026/memos/centralcoms.md",

@@ -18,7 +18,7 @@
     "SaaS",
     "Restaurant Tech"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/elyra.jpg",
   "memoGeneratedAt": "2026-05-28T02:57:38.565Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,11 +60,11 @@
     "VK": 31
   },
   "consolidatedAvg": 38.57,
-  "consolidatedRank": 131,
+  "consolidatedRank": 132,
   "traction": {
-    "tractionRank": 44,
-    "tractionScore": 48,
-    "tractionReason": "6 named restaurant groups, 92.4% satisfaction"
+    "tractionRank": 68,
+    "tractionScore": 19,
+    "tractionReason": "6 named restaurant-group customers, 92.4% satisfaction"
   },
   "paths": {
     "memo": "spring2026/memos/elyra.md",

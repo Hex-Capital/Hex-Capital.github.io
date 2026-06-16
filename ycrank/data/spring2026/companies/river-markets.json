@@ -16,7 +16,7 @@
   "tags": [
     "Trading"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/river-markets.jpg",
   "memoGeneratedAt": "2026-05-28T02:46:28.319Z",
   "evalScores": {
     "cyan-banister": {
@@ -58,11 +58,11 @@
     "VK": 26
   },
   "consolidatedAvg": 41.14,
-  "consolidatedRank": 95,
+  "consolidatedRank": 96,
   "traction": {
-    "tractionRank": 50,
-    "tractionScore": 45,
-    "tractionReason": "4 named live clients including Chimera Capital"
+    "tractionRank": 47,
+    "tractionScore": 30,
+    "tractionReason": "4 named live hedge-fund clients"
   },
   "paths": {
     "memo": "spring2026/memos/river-markets.md",

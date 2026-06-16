@@ -16,7 +16,7 @@
   "tags": [
     "None listed"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/walter.jpg",
   "memoGeneratedAt": "2026-05-28T02:44:06.826Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,9 +60,9 @@
   "consolidatedAvg": 35.43,
   "consolidatedRank": 170,
   "traction": {
-    "tractionRank": 29,
-    "tractionScore": 55,
-    "tractionReason": "multiple 9-figure customers in packaging/defense"
+    "tractionRank": 22,
+    "tractionScore": 54,
+    "tractionReason": "\"Multiple 9-figure customers\" in packaging and defense"
   },
   "paths": {
     "memo": "spring2026/memos/walter.md",

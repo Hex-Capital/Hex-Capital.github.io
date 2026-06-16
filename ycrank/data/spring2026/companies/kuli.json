@@ -13,7 +13,7 @@
     "emails": "founders@kuli.one (YC page)"
   },
   "tags": [],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/kuli.jpg",
   "memoGeneratedAt": "2026-05-28T02:43:20.923Z",
   "evalScores": {
     "cyan-banister": {
@@ -55,11 +55,11 @@
     "VK": 26
   },
   "consolidatedAvg": 39,
-  "consolidatedRank": 122,
+  "consolidatedRank": 123,
   "traction": {
-    "tractionRank": 48,
-    "tractionScore": 46,
-    "tractionReason": "Disney/Nivea/Havas customers, Fortune 100 testimonial"
+    "tractionRank": 58,
+    "tractionScore": 23,
+    "tractionReason": "Fortune 100 entertainment customer, 5 months operating"
   },
   "paths": {
     "memo": "spring2026/memos/kuli.md",

@@ -17,7 +17,7 @@
     "Hardware",
     "Manufacturing"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/tenet-industries.jpg",
   "memoGeneratedAt": "2026-05-28T02:59:19.592Z",
   "evalScores": {
     "cyan-banister": {
@@ -59,11 +59,11 @@
     "VK": 50
   },
   "consolidatedAvg": 42.57,
-  "consolidatedRank": 75,
+  "consolidatedRank": 76,
   "traction": {
-    "tractionRank": 111,
-    "tractionScore": 15,
-    "tractionReason": "$500K YC, customer discussions Sweden/Ukraine"
+    "tractionRank": 110,
+    "tractionScore": 10,
+    "tractionReason": "$500K YC, ~3,000 SEK target price"
   },
   "paths": {
     "memo": "spring2026/memos/tenet-industries.md",

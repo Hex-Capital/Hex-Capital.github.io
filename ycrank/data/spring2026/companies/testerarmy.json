@@ -18,7 +18,7 @@
     "Developer Tools",
     "B2B"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/testerarmy.jpg",
   "memoGeneratedAt": "2026-05-28T02:40:04.435Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,11 +60,11 @@
     "VK": 25
   },
   "consolidatedAvg": 38.71,
-  "consolidatedRank": 129,
+  "consolidatedRank": 130,
   "traction": {
-    "tractionRank": 118,
-    "tractionScore": 12,
-    "tractionReason": "$500K YC, pricing live, no customers"
+    "tractionRank": 143,
+    "tractionScore": 7,
+    "tractionReason": "$500K YC, LAUNCH30 promo code"
   },
   "paths": {
     "memo": "spring2026/memos/testerarmy.md",

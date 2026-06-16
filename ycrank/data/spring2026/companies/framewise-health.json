@@ -60,10 +60,10 @@
     "VK": 31
   },
   "consolidatedAvg": 40,
-  "consolidatedRank": 109,
+  "consolidatedRank": 110,
   "traction": {
-    "tractionRank": 151,
-    "tractionScore": 5,
+    "tractionRank": 178,
+    "tractionScore": 4,
     "tractionReason": "$500K YC, launch tweet only"
   },
   "paths": {

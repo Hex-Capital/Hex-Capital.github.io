@@ -16,7 +16,7 @@
   "tags": [
     "Artificial Intelligence"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/taiga.jpg",
   "memoGeneratedAt": "2026-05-28T02:53:26.376Z",
   "evalScores": {
     "cyan-banister": {
@@ -58,11 +58,11 @@
     "VK": 29
   },
   "consolidatedAvg": 38.71,
-  "consolidatedRank": 128,
+  "consolidatedRank": 129,
   "traction": {
-    "tractionRank": 78,
-    "tractionScore": 31,
-    "tractionReason": "1 named customer Cheskis, 98% touchless claim"
+    "tractionRank": 100,
+    "tractionScore": 11,
+    "tractionReason": "One named customer (Cheskis), 10 EHR integrations"
   },
   "paths": {
     "memo": "spring2026/memos/taiga.md",

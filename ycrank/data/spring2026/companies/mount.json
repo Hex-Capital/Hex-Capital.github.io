@@ -13,7 +13,7 @@
     "emails": "fabian@mount.insure (YC page)"
   },
   "tags": [],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/mount.jpg",
   "memoGeneratedAt": "2026-05-28T02:48:34.177Z",
   "evalScores": {
     "cyan-banister": {
@@ -55,11 +55,11 @@
     "VK": 36
   },
   "consolidatedAvg": 38.86,
-  "consolidatedRank": 125,
+  "consolidatedRank": 126,
   "traction": {
-    "tractionRank": 154,
-    "tractionScore": 5,
-    "tractionReason": "YC X launch post, hiring"
+    "tractionRank": 122,
+    "tractionScore": 9,
+    "tractionReason": "YC P26 batch, active job postings"
   },
   "paths": {
     "memo": "spring2026/memos/mount.md",

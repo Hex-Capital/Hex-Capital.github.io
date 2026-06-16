@@ -19,7 +19,7 @@
     "Marketing",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/memoir.jpg",
   "memoGeneratedAt": "2026-05-28T03:04:36.911Z",
   "evalScores": {
     "cyan-banister": {
@@ -63,9 +63,9 @@
   "consolidatedAvg": 26.57,
   "consolidatedRank": 196,
   "traction": {
-    "tractionRank": 114,
-    "tractionScore": 14,
-    "tractionReason": "self-reported landing-page metrics only"
+    "tractionRank": 64,
+    "tractionScore": 20,
+    "tractionReason": "Only landing-page sample metrics, no named customers"
   },
   "paths": {
     "memo": "spring2026/memos/memoir.md",

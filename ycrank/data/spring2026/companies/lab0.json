@@ -20,7 +20,7 @@
     "Enterprise Software",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/lab0.jpg",
   "memoGeneratedAt": "2026-05-28T02:51:00.424Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,11 +62,11 @@
     "VK": 40
   },
   "consolidatedAvg": 41.14,
-  "consolidatedRank": 94,
+  "consolidatedRank": 95,
   "traction": {
-    "tractionRank": 91,
-    "tractionScore": 25,
-    "tractionReason": "Adobe customer plus 'couple of system integrators'"
+    "tractionRank": 139,
+    "tractionScore": 7,
+    "tractionReason": "Adobe pilot and \"couple of SIs\""
   },
   "paths": {
     "memo": "spring2026/memos/lab0.md",

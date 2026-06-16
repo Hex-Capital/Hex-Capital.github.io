@@ -19,7 +19,7 @@
     "B2B",
     "Monitoring"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/bentolabs-ai.jpg",
   "memoGeneratedAt": "2026-05-28T02:51:20.559Z",
   "evalScores": {
     "cyan-banister": {
@@ -63,9 +63,9 @@
   "consolidatedAvg": 44.29,
   "consolidatedRank": 60,
   "traction": {
-    "tractionRank": 128,
-    "tractionScore": 9,
-    "tractionReason": "internal benchmarks, launch post"
+    "tractionRank": 167,
+    "tractionScore": 5,
+    "tractionReason": "Internal benchmarks only, no customers"
   },
   "paths": {
     "memo": "spring2026/memos/bentolabs-ai.md",

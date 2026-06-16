@@ -58,11 +58,11 @@
     "VK": 39
   },
   "consolidatedAvg": 39.71,
-  "consolidatedRank": 111,
+  "consolidatedRank": 112,
   "traction": {
-    "tractionRank": 145,
-    "tractionScore": 6,
-    "tractionReason": "Product Hunt 4th launch, no metrics"
+    "tractionRank": 146,
+    "tractionScore": 7,
+    "tractionReason": "4th Product Hunt launch, YC backing"
   },
   "paths": {
     "memo": "spring2026/memos/ara.md",

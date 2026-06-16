@@ -20,7 +20,7 @@
     "No-code",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/raspire.jpg",
   "memoGeneratedAt": "2026-05-29T04:15:18.406Z",
   "evalScores": {
     "cyan-banister": {
@@ -64,9 +64,9 @@
   "consolidatedAvg": 43.71,
   "consolidatedRank": 67,
   "traction": {
-    "tractionRank": 84,
-    "tractionScore": 28,
-    "tractionReason": "20M+ end users via customer apps"
+    "tractionRank": 92,
+    "tractionScore": 12,
+    "tractionReason": "Apps protect 20M+ users, Sadq partnership"
   },
   "paths": {
     "memo": "spring2026/memos/raspire.md",

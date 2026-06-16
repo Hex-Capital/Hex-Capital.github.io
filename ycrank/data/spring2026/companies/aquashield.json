@@ -17,7 +17,7 @@
     "Real Estate",
     "B2B"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/aquashield.jpg",
   "memoGeneratedAt": "2026-05-28T02:41:34.746Z",
   "evalScores": {
     "cyan-banister": {
@@ -59,11 +59,11 @@
     "VK": 36
   },
   "consolidatedAvg": 40.14,
-  "consolidatedRank": 103,
+  "consolidatedRank": 104,
   "traction": {
-    "tractionRank": 63,
-    "tractionScore": 38,
-    "tractionReason": "MIT Facilities pilot, German real-estate deployment"
+    "tractionRank": 141,
+    "tractionScore": 7,
+    "tractionReason": "MIT Facilities pilot, German real-estate sensors"
   },
   "paths": {
     "memo": "spring2026/memos/aquashield.md",

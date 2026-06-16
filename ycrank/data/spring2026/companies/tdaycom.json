@@ -20,7 +20,7 @@
     "Marketing",
     "Advertising"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/tdaycom.jpg",
   "memoGeneratedAt": "2026-06-01T21:09:05.176Z",
   "evalScores": {
     "cyan-banister": {
@@ -64,9 +64,9 @@
   "consolidatedAvg": 35.14,
   "consolidatedRank": 173,
   "traction": {
-    "tractionRank": 90,
-    "tractionScore": 25,
-    "tractionReason": "Relay/Drift/Slate/Forge/Inkwell customer logos"
+    "tractionRank": 126,
+    "tractionScore": 9,
+    "tractionReason": "$500K YC investment, 5 customer logos"
   },
   "paths": {
     "memo": "spring2026/memos/tdaycom.md",

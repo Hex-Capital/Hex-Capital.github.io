@@ -20,7 +20,7 @@
     "Email",
     "Infrastructure"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/primitive.jpg",
   "memoGeneratedAt": "2026-05-28T03:04:58.504Z",
   "evalScores": {
     "cyan-banister": {
@@ -64,9 +64,9 @@
   "consolidatedAvg": 35.43,
   "consolidatedRank": 168,
   "traction": {
-    "tractionRank": 160,
-    "tractionScore": 4,
-    "tractionReason": "beta status, 2 founding-engineer openings"
+    "tractionRank": 165,
+    "tractionScore": 5,
+    "tractionReason": "2 founding engineer roles, beta product"
   },
   "paths": {
     "memo": "spring2026/memos/primitive.md",

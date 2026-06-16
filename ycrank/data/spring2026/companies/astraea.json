@@ -18,7 +18,7 @@
     "SaaS",
     "Health Tech"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/astraea.jpg",
   "memoGeneratedAt": "2026-05-28T02:36:55.865Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,9 +62,9 @@
   "consolidatedAvg": 36.14,
   "consolidatedRank": 157,
   "traction": {
-    "tractionRank": 85,
-    "tractionScore": 28,
-    "tractionReason": "'10+ pharma sponsors' claim, no names"
+    "tractionRank": 102,
+    "tractionScore": 11,
+    "tractionReason": "\"10+ global pharma sponsors\" unnamed claim"
   },
   "paths": {
     "memo": "spring2026/memos/astraea.md",

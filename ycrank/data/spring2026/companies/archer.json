@@ -18,7 +18,7 @@
     "Finance",
     "E-commerce"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/archer.jpg",
   "memoGeneratedAt": "2026-05-28T02:46:48.194Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,9 +62,9 @@
   "consolidatedAvg": 37,
   "consolidatedRank": 144,
   "traction": {
-    "tractionRank": 143,
-    "tractionScore": 6,
-    "tractionReason": "investors listed, no customers/revenue"
+    "tractionRank": 114,
+    "tractionScore": 10,
+    "tractionReason": "YC+Frachtis+PL+Rule30 investors, demo only"
   },
   "paths": {
     "memo": "spring2026/memos/archer.md",

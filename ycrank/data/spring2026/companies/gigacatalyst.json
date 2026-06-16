@@ -19,7 +19,7 @@
     "No-code",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/gigacatalyst.jpg",
   "memoGeneratedAt": "2026-05-28T02:32:40.041Z",
   "evalScores": {
     "cyan-banister": {
@@ -61,11 +61,11 @@
     "VK": 32
   },
   "consolidatedAvg": 41,
-  "consolidatedRank": 97,
+  "consolidatedRank": 98,
   "traction": {
-    "tractionRank": 22,
-    "tractionScore": 59,
-    "tractionReason": "1,000+ DAU at UpKeep, $1M pipeline unblocked"
+    "tractionRank": 35,
+    "tractionScore": 41,
+    "tractionReason": "$1M pipeline unblocked, 1,000+ DAU at UpKeep"
   },
   "paths": {
     "memo": "spring2026/memos/gigacatalyst.md",

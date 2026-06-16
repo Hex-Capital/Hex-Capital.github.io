@@ -18,7 +18,7 @@
     "B2B",
     "Sales"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/gojiberry-ai.jpg",
   "memoGeneratedAt": "2026-06-02T18:49:56.602Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,11 +60,11 @@
     "VK": 32
   },
   "consolidatedAvg": 43,
-  "consolidatedRank": 71,
+  "consolidatedRank": 72,
   "traction": {
     "tractionRank": 2,
     "tractionScore": 92,
-    "tractionReason": "$2.5M ARR, 2,000+ customers, 35% MoM, profitable"
+    "tractionReason": "$2.5M ARR, 2,000+ customers, 35% MoM"
   },
   "paths": {
     "memo": "spring2026/memos/gojiberry-ai.md",

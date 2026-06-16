@@ -20,7 +20,7 @@
     "Mobility",
     "Aerospace"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/general-aviation.jpg",
   "memoGeneratedAt": "2026-05-28T02:39:23.962Z",
   "evalScores": {
     "cyan-banister": {
@@ -66,7 +66,7 @@
   "traction": {
     "tractionRank": 196,
     "tractionScore": 1,
-    "tractionReason": "0 team, placeholder site, 85 followers"
+    "tractionReason": "Team size 0, placeholder website"
   },
   "paths": {
     "memo": "spring2026/memos/general-aviation.md",

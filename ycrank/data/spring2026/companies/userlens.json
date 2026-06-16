@@ -19,7 +19,7 @@
     "Enterprise Software",
     "AI Assistant"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/userlens.jpg",
   "memoGeneratedAt": "2026-05-28T02:56:27.629Z",
   "evalScores": {
     "cyan-banister": {
@@ -61,11 +61,11 @@
     "VK": 30
   },
   "consolidatedAvg": 38.71,
-  "consolidatedRank": 130,
+  "consolidatedRank": 131,
   "traction": {
-    "tractionRank": 5,
-    "tractionScore": 82,
-    "tractionReason": "$660K self-reported revenue, named customers"
+    "tractionRank": 10,
+    "tractionScore": 72,
+    "tractionReason": "$660K self-reported 2025 revenue, named logos"
   },
   "paths": {
     "memo": "spring2026/memos/userlens.md",

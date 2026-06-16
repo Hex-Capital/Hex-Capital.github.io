@@ -19,7 +19,7 @@
     "Cloud Computing",
     "Infrastructure"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/zibra-labs.jpg",
   "memoGeneratedAt": "2026-05-28T02:45:32.165Z",
   "evalScores": {
     "cyan-banister": {
@@ -63,9 +63,9 @@
   "consolidatedAvg": 44.57,
   "consolidatedRank": 58,
   "traction": {
-    "tractionRank": 188,
-    "tractionScore": 2,
-    "tractionReason": "YC backing, Ray ecosystem references only"
+    "tractionRank": 162,
+    "tractionScore": 5,
+    "tractionReason": "YC backing, Ray ecosystem references"
   },
   "paths": {
     "memo": "spring2026/memos/zibra-labs.md",

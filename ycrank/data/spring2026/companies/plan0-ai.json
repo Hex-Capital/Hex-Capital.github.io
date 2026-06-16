@@ -20,7 +20,7 @@
     "Proptech",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/plan0-ai.jpg",
   "memoGeneratedAt": "2026-05-28T02:45:02.092Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,11 +62,11 @@
     "VK": 30
   },
   "consolidatedAvg": 42,
-  "consolidatedRank": 81,
+  "consolidatedRank": 82,
   "traction": {
-    "tractionRank": 51,
-    "tractionScore": 44,
-    "tractionReason": "$20B of projects on platform, $4M seed"
+    "tractionRank": 31,
+    "tractionScore": 45,
+    "tractionReason": "$20B of projects on platform, $4M Seed"
   },
   "paths": {
     "memo": "spring2026/memos/plan0-ai.md",

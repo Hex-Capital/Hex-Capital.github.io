@@ -63,9 +63,9 @@
   "consolidatedAvg": 36.29,
   "consolidatedRank": 153,
   "traction": {
-    "tractionRank": 116,
-    "tractionScore": 13,
-    "tractionReason": "self-reported '70-80% fewer tokens' claims"
+    "tractionRank": 177,
+    "tractionScore": 4,
+    "tractionReason": "HIPAA claim, self-reported perf metrics"
   },
   "paths": {
     "memo": "spring2026/memos/stablebrowse.md",

@@ -20,7 +20,7 @@
     "Insurance",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/klaimee.jpg",
   "memoGeneratedAt": "2026-05-28T02:32:44.781Z",
   "evalScores": {
     "cyan-banister": {
@@ -64,9 +64,9 @@
   "consolidatedAvg": 46.29,
   "consolidatedRank": 39,
   "traction": {
-    "tractionRank": 157,
+    "tractionRank": 173,
     "tractionScore": 5,
-    "tractionReason": "YC P26 listing, no traction data"
+    "tractionReason": "YC P26, first Algerian female founder"
   },
   "paths": {
     "memo": "spring2026/memos/klaimee.md",

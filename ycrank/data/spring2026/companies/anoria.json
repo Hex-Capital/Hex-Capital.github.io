@@ -20,7 +20,7 @@
     "Consumer Health Services",
     "Consumer Products"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/anoria.jpg",
   "memoGeneratedAt": "2026-05-28T02:41:40.062Z",
   "evalScores": {
     "cyan-banister": {
@@ -64,9 +64,9 @@
   "consolidatedAvg": 35.86,
   "consolidatedRank": 160,
   "traction": {
-    "tractionRank": 126,
-    "tractionScore": 10,
-    "tractionReason": "two-month-old prototype in testing"
+    "tractionRank": 133,
+    "tractionScore": 8,
+    "tractionReason": "Two-month prototype in testing, hiring"
   },
   "paths": {
     "memo": "spring2026/memos/anoria.md",

@@ -19,7 +19,7 @@
     "Drones",
     "Aerospace"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/ornadyne.jpg",
   "memoGeneratedAt": "2026-05-28T02:41:39.984Z",
   "evalScores": {
     "cyan-banister": {
@@ -63,9 +63,9 @@
   "consolidatedAvg": 54.29,
   "consolidatedRank": 4,
   "traction": {
-    "tractionRank": 131,
-    "tractionScore": 9,
-    "tractionReason": "$1M raised, YC launch coverage"
+    "tractionRank": 109,
+    "tractionScore": 10,
+    "tractionReason": "$1M raised, public X launch coverage"
   },
   "paths": {
     "memo": "spring2026/memos/ornadyne.md",

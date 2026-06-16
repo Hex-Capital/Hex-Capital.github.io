@@ -61,8 +61,8 @@
   "consolidatedRank": 64,
   "traction": {
     "tractionRank": 193,
-    "tractionScore": 1,
-    "tractionReason": "no public traction data found"
+    "tractionScore": 2,
+    "tractionReason": "Founder Twitter only"
   },
   "paths": {
     "memo": "spring2026/memos/lattice-health.md",

@@ -18,7 +18,7 @@
     "Enterprise Software",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/foaster.jpg",
   "memoGeneratedAt": "2026-05-28T02:41:24.692Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,11 +60,11 @@
     "VK": 32
   },
   "consolidatedAvg": 40,
-  "consolidatedRank": 108,
+  "consolidatedRank": 109,
   "traction": {
-    "tractionRank": 106,
-    "tractionScore": 18,
-    "tractionReason": "CEO 6.3K followers, launch, no customers"
+    "tractionRank": 104,
+    "tractionScore": 11,
+    "tractionReason": "YC backing, founder 6,315 X followers"
   },
   "paths": {
     "memo": "spring2026/memos/foaster.md",

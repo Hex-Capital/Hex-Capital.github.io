@@ -19,7 +19,7 @@
     "Robotics",
     "Drones"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/aice.jpg",
   "memoGeneratedAt": "2026-05-30T22:54:25.964Z",
   "evalScores": {
     "cyan-banister": {
@@ -63,9 +63,9 @@
   "consolidatedAvg": 35.86,
   "consolidatedRank": 158,
   "traction": {
-    "tractionRank": 168,
+    "tractionRank": 182,
     "tractionScore": 4,
-    "tractionReason": "pivoted ~2 weeks before research, no traction"
+    "tractionReason": "Pivot from energy sensors ~2 weeks pre-research"
   },
   "paths": {
     "memo": "spring2026/memos/aice.md",

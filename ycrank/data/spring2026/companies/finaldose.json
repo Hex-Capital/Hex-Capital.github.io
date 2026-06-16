@@ -63,9 +63,9 @@
   "consolidatedAvg": 52.57,
   "consolidatedRank": 10,
   "traction": {
-    "tractionRank": 177,
-    "tractionScore": 3,
-    "tractionReason": "YC Launch post, no customers"
+    "tractionRank": 149,
+    "tractionScore": 6,
+    "tractionReason": "YC Launch published, no traction data"
   },
   "paths": {
     "memo": "spring2026/memos/finaldose.md",

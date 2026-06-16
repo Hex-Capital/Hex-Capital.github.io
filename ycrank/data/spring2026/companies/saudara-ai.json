@@ -20,7 +20,7 @@
     "Procurement",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/saudara-ai.jpg",
   "memoGeneratedAt": "2026-05-28T02:41:45.314Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,11 +62,11 @@
     "VK": 29
   },
   "consolidatedAvg": 42.57,
-  "consolidatedRank": 74,
+  "consolidatedRank": 75,
   "traction": {
-    "tractionRank": 100,
-    "tractionScore": 20,
-    "tractionReason": "founder @jenandtech 100K+ followers, launched"
+    "tractionRank": 88,
+    "tractionScore": 13,
+    "tractionReason": "YC launch, founder 100K+ Instagram followers"
   },
   "paths": {
     "memo": "spring2026/memos/saudara-ai.md",

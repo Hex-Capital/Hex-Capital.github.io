@@ -20,7 +20,7 @@
     "SaaS",
     "Team Collaboration"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/deep-interactions.jpg",
   "memoGeneratedAt": "2026-05-28T02:57:23.199Z",
   "evalScores": {
     "cyan-banister": {
@@ -64,9 +64,9 @@
   "consolidatedAvg": 35.57,
   "consolidatedRank": 163,
   "traction": {
-    "tractionRank": 79,
-    "tractionScore": 31,
-    "tractionReason": "12 businesses live, 50K usage hits"
+    "tractionRank": 145,
+    "tractionScore": 7,
+    "tractionReason": "12 businesses live, 50K+ usage hits"
   },
   "paths": {
     "memo": "spring2026/memos/deep-interactions.md",

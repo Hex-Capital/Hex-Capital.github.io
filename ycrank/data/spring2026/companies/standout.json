@@ -18,7 +18,7 @@
     "AI",
     "Careers"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/standout.jpg",
   "memoGeneratedAt": "2026-05-28T02:55:47.774Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,10 +60,10 @@
     "VK": 37
   },
   "consolidatedAvg": 42,
-  "consolidatedRank": 83,
+  "consolidatedRank": 84,
   "traction": {
-    "tractionRank": 39,
-    "tractionScore": 50,
+    "tractionRank": 33,
+    "tractionScore": 43,
     "tractionReason": "10K talent, 60+ companies, 100 intros first month"
   },
   "paths": {

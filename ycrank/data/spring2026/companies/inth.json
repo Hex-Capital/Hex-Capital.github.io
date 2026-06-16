@@ -19,7 +19,7 @@
     "Open Source",
     "Web Development"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/inth.jpg",
   "memoGeneratedAt": "2026-05-28T03:08:03.422Z",
   "evalScores": {
     "cyan-banister": {
@@ -63,8 +63,8 @@
   "consolidatedAvg": 54.43,
   "consolidatedRank": 3,
   "traction": {
-    "tractionRank": 36,
-    "tractionScore": 52,
+    "tractionRank": 20,
+    "tractionScore": 56,
     "tractionReason": "2.6M npm downloads, Vercel/Expo/Zed adopters"
   },
   "paths": {

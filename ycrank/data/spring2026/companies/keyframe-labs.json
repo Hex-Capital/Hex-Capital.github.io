@@ -19,7 +19,7 @@
     "API",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/keyframe-labs.jpg",
   "memoGeneratedAt": "2026-05-28T02:50:50.081Z",
   "evalScores": {
     "cyan-banister": {
@@ -63,9 +63,9 @@
   "consolidatedAvg": 46.71,
   "consolidatedRank": 37,
   "traction": {
-    "tractionRank": 76,
-    "tractionScore": 32,
-    "tractionReason": "Persona-1 launched, $0.06/min pricing"
+    "tractionRank": 134,
+    "tractionScore": 8,
+    "tractionReason": "8 customer testimonials, $0.06/min pricing live"
   },
   "paths": {
     "memo": "spring2026/memos/keyframe-labs.md",

@@ -13,7 +13,7 @@
     "emails": "hello@superset.sh"
   },
   "tags": [],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/superset.jpg",
   "memoGeneratedAt": "2026-05-28T03:07:23.509Z",
   "evalScores": {
     "cyan-banister": {
@@ -57,9 +57,9 @@
   "consolidatedAvg": 48,
   "consolidatedRank": 28,
   "traction": {
-    "tractionRank": 32,
-    "tractionScore": 54,
-    "tractionReason": "11.4K stars, PH #1 with 512 upvotes"
+    "tractionRank": 41,
+    "tractionScore": 35,
+    "tractionReason": "11.4k GitHub stars, Microsoft/OpenAI customer logos"
   },
   "paths": {
     "memo": "spring2026/memos/superset.md",

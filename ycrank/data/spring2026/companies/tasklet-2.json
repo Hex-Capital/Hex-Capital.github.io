@@ -13,7 +13,7 @@
     "emails": "No public data found"
   },
   "tags": [],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/tasklet-2.jpg",
   "memoGeneratedAt": "2026-05-28T02:44:16.569Z",
   "evalScores": {
     "cyan-banister": {
@@ -59,7 +59,7 @@
   "traction": {
     "tractionRank": 1,
     "tractionScore": 96,
-    "tractionReason": "$5M ARR, 1200% growth, $20M Series A"
+    "tractionReason": "$5M ARR, 1,200% growth since Jan"
   },
   "paths": {
     "memo": "spring2026/memos/tasklet-2.md",

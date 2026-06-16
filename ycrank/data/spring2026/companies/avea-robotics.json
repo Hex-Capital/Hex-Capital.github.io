@@ -18,7 +18,7 @@
     "Robotics",
     "Infrastructure"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/avea-robotics.jpg",
   "memoGeneratedAt": "2026-05-28T02:34:40.556Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,11 +60,11 @@
     "VK": 38
   },
   "consolidatedAvg": 41.86,
-  "consolidatedRank": 84,
+  "consolidatedRank": 85,
   "traction": {
-    "tractionRank": 72,
-    "tractionScore": 34,
-    "tractionReason": "$1M raised, 3 customers post-Sentinel launch"
+    "tractionRank": 53,
+    "tractionScore": 25,
+    "tractionReason": "3 customers post-launch, $1.01M raised"
   },
   "paths": {
     "memo": "spring2026/memos/avea-robotics.md",

@@ -20,7 +20,7 @@
     "Advanced Materials",
     "Industrial"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/madrone.jpg",
   "memoGeneratedAt": "2026-05-28T02:55:57.966Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,11 +62,11 @@
     "VK": 41
   },
   "consolidatedAvg": 42.29,
-  "consolidatedRank": 79,
+  "consolidatedRank": 80,
   "traction": {
-    "tractionRank": 150,
-    "tractionScore": 5,
-    "tractionReason": "NVIDIA Inception member, no customers"
+    "tractionRank": 107,
+    "tractionScore": 10,
+    "tractionReason": "NVIDIA Inception member, YC P26"
   },
   "paths": {
     "memo": "spring2026/memos/madrone.md",

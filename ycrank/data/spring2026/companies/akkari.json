@@ -20,7 +20,7 @@
     "Infrastructure",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/akkari.jpg",
   "memoGeneratedAt": "2026-06-07T22:27:47.223Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,11 +62,11 @@
     "VK": 36
   },
   "consolidatedAvg": 41.43,
-  "consolidatedRank": 90,
+  "consolidatedRank": 91,
   "traction": {
-    "tractionRank": 153,
+    "tractionRank": 172,
     "tractionScore": 5,
-    "tractionReason": "investor list disclosed, no customers"
+    "tractionReason": "Notable investors (Fidji Simo, Tony Xu)"
   },
   "paths": {
     "memo": "spring2026/memos/akkari.md",

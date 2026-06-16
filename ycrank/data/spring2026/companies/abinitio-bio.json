@@ -18,7 +18,7 @@
     "Biotech",
     "Manufacturing"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/abinitio-bio.jpg",
   "memoGeneratedAt": "2026-05-28T02:41:10.092Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,11 +60,11 @@
     "VK": 37
   },
   "consolidatedAvg": 41.57,
-  "consolidatedRank": 89,
+  "consolidatedRank": 90,
   "traction": {
-    "tractionRank": 182,
-    "tractionScore": 2,
-    "tractionReason": "website under construction"
+    "tractionRank": 127,
+    "tractionScore": 8,
+    "tractionReason": "MIT Heals R2E + Fifty Years selections"
   },
   "paths": {
     "memo": "spring2026/memos/abinitio-bio.md",

@@ -18,7 +18,7 @@
     "Developer Tools",
     "Generative AI"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/interfaze.jpg",
   "memoGeneratedAt": "2026-05-28T02:57:28.697Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,11 +60,11 @@
     "VK": 34
   },
   "consolidatedAvg": 42.86,
-  "consolidatedRank": 72,
+  "consolidatedRank": 73,
   "traction": {
-    "tractionRank": 81,
-    "tractionScore": 30,
-    "tractionReason": "$1.50/M token pricing, IEEE CAI paper"
+    "tractionRank": 48,
+    "tractionScore": 29,
+    "tractionReason": "IEEE CAI 2026 paper, self-reported benchmarks"
   },
   "paths": {
     "memo": "spring2026/memos/interfaze.md",

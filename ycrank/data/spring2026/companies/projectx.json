@@ -20,7 +20,7 @@
     "Infrastructure",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/projectx.jpg",
   "memoGeneratedAt": "2026-05-28T02:39:17.649Z",
   "evalScores": {
     "cyan-banister": {
@@ -64,9 +64,9 @@
   "consolidatedAvg": 35.43,
   "consolidatedRank": 169,
   "traction": {
-    "tractionRank": 136,
-    "tractionScore": 8,
-    "tractionReason": "$704K raised, 14 Twitter followers"
+    "tractionRank": 166,
+    "tractionScore": 5,
+    "tractionReason": "$704K funding across two rounds, awards"
   },
   "paths": {
     "memo": "spring2026/memos/projectx.md",

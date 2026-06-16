@@ -18,7 +18,7 @@
     "Workflow Automation",
     "Supply Chain"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/hexa.jpg",
   "memoGeneratedAt": "2026-05-28T03:02:56.513Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,7 +62,7 @@
   "consolidatedAvg": 34.57,
   "consolidatedRank": 176,
   "traction": {
-    "tractionRank": 16,
+    "tractionRank": 14,
     "tractionScore": 64,
     "tractionReason": "$9K MRR from 3 customers in 6 weeks"
   },

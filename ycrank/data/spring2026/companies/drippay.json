@@ -64,8 +64,8 @@
   "consolidatedRank": 183,
   "traction": {
     "tractionRank": 94,
-    "tractionScore": 23,
-    "tractionReason": "free + paid AI tier pricing, no customers"
+    "tractionScore": 12,
+    "tractionReason": "Team of 2, free + paid tiers"
   },
   "paths": {
     "memo": "spring2026/memos/drippay.md",

@@ -20,7 +20,7 @@
     "AI",
     "Industrial"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/arzana.jpg",
   "memoGeneratedAt": "2026-05-28T02:37:07.331Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,11 +62,11 @@
     "VK": 35
   },
   "consolidatedAvg": 39,
-  "consolidatedRank": 121,
+  "consolidatedRank": 122,
   "traction": {
-    "tractionRank": 18,
-    "tractionScore": 62,
-    "tractionReason": "NYT feature, 8 named manufacturing customers"
+    "tractionRank": 30,
+    "tractionScore": 46,
+    "tractionReason": "NYT feature, eight named manufacturing customers"
   },
   "paths": {
     "memo": "spring2026/memos/arzana.md",

@@ -16,7 +16,7 @@
   "tags": [
     "Consumer"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/result.jpg",
   "memoGeneratedAt": "2026-05-28T02:49:09.307Z",
   "evalScores": {
     "cyan-banister": {
@@ -58,11 +58,11 @@
     "VK": 36
   },
   "consolidatedAvg": 41.71,
-  "consolidatedRank": 88,
+  "consolidatedRank": 89,
   "traction": {
-    "tractionRank": 170,
-    "tractionScore": 3,
-    "tractionReason": "pre-launch waitlist, no signup count"
+    "tractionRank": 132,
+    "tractionScore": 8,
+    "tractionReason": "Pre-launch waitlist only on result.dev"
   },
   "paths": {
     "memo": "spring2026/memos/result.md",

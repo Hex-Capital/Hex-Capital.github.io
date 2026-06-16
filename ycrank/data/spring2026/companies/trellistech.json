@@ -13,7 +13,7 @@
     "emails": "Obfuscated contact email on trellistech.com; no public address found"
   },
   "tags": [],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/trellistech.jpg",
   "memoGeneratedAt": "2026-05-28T03:00:04.769Z",
   "evalScores": {
     "cyan-banister": {
@@ -57,9 +57,9 @@
   "consolidatedAvg": 44.71,
   "consolidatedRank": 56,
   "traction": {
-    "tractionRank": 27,
-    "tractionScore": 56,
-    "tractionReason": "84.5% automation, 100+ unit operator testimonial"
+    "tractionRank": 36,
+    "tractionScore": 40,
+    "tractionReason": "84.5% automation, \"100+ unit\" operator testimonial"
   },
   "paths": {
     "memo": "spring2026/memos/trellistech.md",

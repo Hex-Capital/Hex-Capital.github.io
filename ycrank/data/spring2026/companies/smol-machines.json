@@ -17,7 +17,7 @@
     "Cloud Computing",
     "Infrastructure"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/smol-machines.jpg",
   "memoGeneratedAt": "2026-05-28T02:46:28.621Z",
   "evalScores": {
     "cyan-banister": {
@@ -61,9 +61,9 @@
   "consolidatedAvg": 46,
   "consolidatedRank": 41,
   "traction": {
-    "tractionRank": 60,
-    "tractionScore": 40,
-    "tractionReason": "3.4K stars, 499 HN points, 150K downloads"
+    "tractionRank": 79,
+    "tractionScore": 16,
+    "tractionReason": "3.4k stars, 499 HN points on Show HN"
   },
   "paths": {
     "memo": "spring2026/memos/smol-machines.md",

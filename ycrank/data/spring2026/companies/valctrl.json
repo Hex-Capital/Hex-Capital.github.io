@@ -20,7 +20,7 @@
     "Analytics",
     "Data Engineering"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/valctrl.jpg",
   "memoGeneratedAt": "2026-05-28T02:46:47.503Z",
   "evalScores": {
     "cyan-banister": {
@@ -64,9 +64,9 @@
   "consolidatedAvg": 32.71,
   "consolidatedRank": 185,
   "traction": {
-    "tractionRank": 185,
-    "tractionScore": 2,
-    "tractionReason": "no traction for Kassandre Search"
+    "tractionRank": 158,
+    "tractionScore": 6,
+    "tractionReason": "Prior Analyst Copilot surface, no Kassandre metrics"
   },
   "paths": {
     "memo": "spring2026/memos/valctrl.md",

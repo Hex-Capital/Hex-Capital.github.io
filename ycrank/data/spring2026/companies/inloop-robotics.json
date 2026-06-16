@@ -19,7 +19,7 @@
     "Logistics",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "spring2026/slides/images/inloop-robotics.jpg",
   "memoGeneratedAt": "2026-05-28T03:00:55.109Z",
   "evalScores": {
     "cyan-banister": {
@@ -61,11 +61,11 @@
     "VK": 51
   },
   "consolidatedAvg": 42.43,
-  "consolidatedRank": 77,
+  "consolidatedRank": 78,
   "traction": {
-    "tractionRank": 54,
-    "tractionScore": 43,
-    "tractionReason": "300+ picks/hour in paid pilots, zero breakage"
+    "tractionRank": 52,
+    "tractionScore": 26,
+    "tractionReason": "300+ picks/hour in paid pilots, $500K YC"
   },
   "paths": {
     "memo": "spring2026/memos/inloop-robotics.md",

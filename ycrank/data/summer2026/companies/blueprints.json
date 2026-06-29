@@ -1,0 +1,81 @@
+{
+  "slug": "blueprints",
+  "name": "Blueprints",
+  "oneLiner": "Agentic harness for financial markets",
+  "metadata": {
+    "website": "https://useblueprints.ai",
+    "yc_page": "https://www.ycombinator.com/companies/blueprints",
+    "batch": "Summer 2026",
+    "industry": "Fintech / Fintech -> Consumer Finance",
+    "team_size": "2",
+    "location": "San Francisco (YC page); Dublin, Ireland origin (Silicon Republic, 2026)",
+    "tags": "Fintech, Generative AI, Consumer",
+    "yc_partner": "Vivian Midha Shen",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Fintech",
+    "Generative AI",
+    "Consumer"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-06-29T06:10:48.449Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 31,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 38,
+    "EG": 51,
+    "NR": 36,
+    "PG": 47,
+    "PT": 28,
+    "SL": 30,
+    "VK": 31
+  },
+  "consolidatedAvg": 37.29,
+  "consolidatedRank": 25,
+  "traction": {
+    "tractionRank": 8,
+    "tractionScore": 57,
+    "tractionReason": "$500K+ trading volume, 250+ public beta users"
+  },
+  "paths": {
+    "memo": "summer2026/memos/blueprints.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/blueprints.md",
+      "elad-gil": "summer2026/evals/elad-gil/blueprints.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/blueprints.md",
+      "paul-graham": "summer2026/evals/paul-graham/blueprints.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/blueprints.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/blueprints.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/blueprints.md"
+    }
+  }
+}

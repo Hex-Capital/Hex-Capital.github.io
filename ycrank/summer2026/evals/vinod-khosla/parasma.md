@@ -1,0 +1,30 @@
+﻿# Parasma -- Vinod Khosla Evaluation
+
+Sean Cole made 200,000 human neurons play Doom in one week using somebody else's wetware, and that single sentence is Parasma's entire analytical signature: civilizational consequence vector stapled to a capital-light algorithm layer running on Cortical Labs' CL1. The highest dimension and the lowest dimension are pointing in opposite directions, and that mismatch is the company.
+
+**OpenAI** (2019) sits at the top of my consequence ladder because the success-state was the displacement of cognitive labor at $15T scale, and I wrote $50M without a moat thesis precisely because the world-state at maximum success was civilizationally distinct. Parasma reaches for the same shape -- the FinalSpark claim of "one million times less energy" than conventional data centers (thesmallbusinesscybersecurityguy.co.uk, 2025) is the kind of consequence variable that, if it holds within an order of magnitude, collapses the GPU-and-grid regime that my Fortune 2025-07-01 thesis depends on. But Parasma does not own that number -- FinalSpark does, and Parasma sits one layer up writing stimulation protocols against it. The success-state of Parasma specifically is "the algorithm layer for biocompute" not "biocompute exists" -- which is closer to selling shovels into someone else's gold rush than to redrawing the energy curve myself.
+
+The **KiOR** (~2008) failure mechanism I lost ~$160M on was capital adequacy misjudged against the science -- not lack of consequence, lack of structural control over the miracles. Parasma exhibits the same exposure inverted: there is no capital intensity at all on Parasma's side, because the wetware is leased from Cortical Labs (CL1 hardware ~$35K/unit, Cortical Cloud Python interface) and from FinalSpark's 16-organoid Neuroplatform. Sean Cole's Doom demo ran on Cortical Cloud (Scientific American, 2026). That is the **Range Fuels** (~2007) pattern of dependency on infrastructure you do not own -- except here it is a software vendor's API, and Cortical Labs can extend upstream into the algorithm layer in a quarter. Solo founder, no wet lab, no proprietary substrate; the moat the dossier gestures at is "accumulated stimulation-protocol data" which is [Inferred] and unbuilt.
+
+On founder-defies-expert-consensus: the mechanism here is interesting and it compounds rather than fails over 18 months if it holds. Sean Cole has "little experience in biological computing" per ZME Science (2026) and shipped a working biocompute artifact in one week with an AI MS from Sussex -- that is the exact outsider pattern my TED Talk venerates over the McKinsey 1986 cellphone forecast (predicted <1M U.S. cellphones by 2000; actual 109M). Parasma's founder did not extrapolate the past; he ignored the field's gatekeeping and shipped. That is real, and it is the single dimension where Parasma genuinely activates my framework.
+
+On founder learning rate, the counterfactual: for Parasma to flip a tier on this axis, Sean Cole would need a documented prior pivot or a "we were wrong about X" public moment, not a fast cross-domain shipping artifact. The Doom demo is impressive throughput, not learning-rate evidence in the **Slash** (2024) Kanye-pivot sense that justified my $100M Series C. A one-week sprint into a new substrate is closer to founder velocity than to founder thesis-update. Pin Parasma at the absent-evidence default, slightly elevated for the domain crossover.
+
+On required-capital profile, the single-anchor parallel is **Cognition** (2024) where I underwrote $175M into a Series B because the foundation-model roadmap demanded capital depth no Tier-1 generalist could match. Parasma is the inverse: a solo founder writing Python against rented neurons needs a YC pre-seed and maybe a seed, not a Khosla concentrated check. I am over-resourced for this deal, which means my edge does not apply.
+
+The 36-month forecast: Parasma is acqui-hired by Cortical Labs or FinalSpark for under $15M as their algorithm team, or pivots into selling neural-stimulation training protocols as a research-services contract to academic labs and DARPA's O-CIRCUIT participants at sub-$500K ARR. The mechanism is structural -- the wetware vendor owns the substrate, the Python interface, and the customer relationship, and the algorithm layer is the cheapest piece to internalize. This is the **KiOR** dependency pattern without the consequence-justified capital scale that made KiOR worth losing $160M on.
+
+The bull case that should sting: Sean Cole is exactly the "earned the right" outsider from my 2013 TechCrunch op-ed, the press wave (Scientific American, Tom's Hardware, Popular Science, Interesting Engineering, ZME Science, 80.lv) is the consequence-narrative my Outlook Business framing rewards over traction metrics, and a $500K YC check into a civilizationally-shaped bet at the inception of biocompute is structurally identical to the **OpenAI** (2019) entry point before the moat was clear. I should be writing this check on consequence-first principles. What dismantles it: Parasma's algorithm does not own the substrate, and my framework rewards consequence at scale only when the founder holds the miracle, not when the founder rents it -- **Impossible Foods** (2011) owned the heme; **Commonwealth Fusion** (2019) owned the magnets; Parasma owns Python on Cortical Cloud. The single verifiable condition that flips me to Invest: Sean Cole hires a wet-lab co-founder and secures rights to either grow his own organoids or a long-dated exclusive on a substrate Cortical Labs cannot replicate -- the day that LOI exists, I take the meeting.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Consequence Magnitude If Company Wins | 21/30 |
+| Technical or Capital Risk That Repels Consensus VCs | 10/25 |
+| Founder Defies Documented Expert Consensus | 13/20 |
+| Founder Learning Rate, Demonstrated By Prior Pivot Or Thesis Update | 8/15 |
+| Required-Capital Profile Matches Khosla Check Size | 3/10 |
+| **Total** | **55/100** |
+
+**Total Score: 55/100** (Neutral)

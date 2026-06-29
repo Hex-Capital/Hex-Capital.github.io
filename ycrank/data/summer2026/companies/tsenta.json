@@ -1,0 +1,79 @@
+{
+  "slug": "tsenta",
+  "name": "Tsenta",
+  "oneLiner": "We match you with jobs and apply automatically",
+  "metadata": {
+    "website": "https://tsenta.com",
+    "yc_page": "https://www.ycombinator.com/companies/tsenta",
+    "batch": "Summer 2026",
+    "industry": "Consumer / Consumer -> Job and Career Services",
+    "team_size": "2",
+    "location": "San Francisco (YC page); Indianapolis listed on StartupHub.ai and Tracxn",
+    "tags": "—",
+    "yc_partner": "Jared Friedman",
+    "emails": "founders@tsenta.com"
+  },
+  "tags": [
+    "—"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-06-29T06:12:24.216Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 64,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 23,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 33,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 44,
+    "EG": 35,
+    "NR": 39,
+    "PG": 64,
+    "PT": 23,
+    "SL": 32,
+    "VK": 33
+  },
+  "consolidatedAvg": 38.57,
+  "consolidatedRank": 18,
+  "traction": {
+    "tractionRank": 15,
+    "tractionScore": 37,
+    "tractionReason": "353 Chrome installs, paid tiers, press coverage"
+  },
+  "paths": {
+    "memo": "summer2026/memos/tsenta.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/tsenta.md",
+      "elad-gil": "summer2026/evals/elad-gil/tsenta.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/tsenta.md",
+      "paul-graham": "summer2026/evals/paul-graham/tsenta.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/tsenta.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/tsenta.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/tsenta.md"
+    }
+  }
+}

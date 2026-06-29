@@ -1,0 +1,30 @@
+﻿# Insurf -- Naval Ravikant Evaluation
+
+Insurf is the inverse of the architecture I fund: the lowest dimension is leverage and the highest dimension is just market size, which means Insurf is selling labor-substitution software into specialty practices via Calendly demos against $35B of prior-auth admin spend -- a real market, but one where every dollar of distribution requires permission from a HIPAA-bound clinic buyer and every dollar of value requires permission from a payer who is shipping counter-AI on the other side of the wire. Chang Lu and Bryan Chung have no GitHub, no Twitter, no retrievable LinkedIn -- I am reading a dossier where the founder signal is opacity and the moat signal is a "coverage-decision graph" with no disclosed claim volume.
+
+On the leverage ladder, **Anchorage Digital** is the canonical case of me funding a permission-gated business -- regulated crypto custody, the structural opposite of permissionless distribution -- and the override was a pre-consensus crypto-category bet from my **MetaStable** (2014) accumulation plus an advisor role I personally took. Insurf has neither. Inveto reads the EHR, generates a physician-attested appeal, and submits into payer adjudication queues -- three gatekeepers in a row (clinic, EHR vendor, payer), all of whom can throttle Insurf without explanation. There is no open-source repo, no public technical writing, no founder-as-media-distribution -- the entry funnel is calendly.com/chang-insurf/30min, which is the exact signature of labor leverage hiring more labor. Anchorage cleared my exception because the regulatory moat itself became leverage; Insurf has no analogous moat-as-leverage flip because Claimable, Counterforce, Fight Health Insurance, PenguinAI, and Aegis Health are already in the water.
+
+**Twitter** (2007) is my big-market anchor not because the consumer-media TAM was large on a slide but because Odeo could pivot to twttr without refinancing -- the market absorbed the pivot. Insurf's $35B prior-auth spend is genuinely big, and the Surely cross-sell into broker/employer plan-pricing is a real adjacent vector, but the pivot path is contingent on Inveto generating enough resolved-claim volume to populate the coverage-decision graph first -- two-product execution risk inside one seed runway, with zero disclosed pilot count. Twitter pivoted with one product surviving; Insurf needs two products to survive in sequence.
+
+Insurf's network claim -- the coverage-decision graph -- is the **Perplexity** (2022) shape without the **Perplexity** override: single-sided product, each customer's resolved claim is supposed to compound the next customer's appeal targeting. I waived criterion #2 for **Perplexity** because criterion #1 (permissionless API/product distribution), criterion #3 (Aravind Srinivas's Berkeley ML retrieval PhD), and AI-cycle pre-consensus timing all cleared at top quartile. Insurf clears none of those three. The graph thesis without permissionless distribution and without specific-knowledge founders is a slide, not a flywheel.
+
+On specific knowledge, the counterfactual is sharp: if Chang Lu were a former specialty-practice billing director who had personally written 500 appeals and built Inveto as the tool she wished she had, or if Bryan Chung had three years of payer-adjudication ML at Optum or UnitedHealth, the score flips a tier on this dimension alone -- the **Stack Overflow** (2008) pattern of practitioners building for practitioners. The dossier surfaces neither. LinkedIn returns status 999, GitHub returns nothing, search surfaces an unrelated Bryan Ye-Chung. I apply the absent-evidence default and treat opacity as below-neutral, because in a 500-word dossier on a denial-mgmt product, a founder with lived specific knowledge would have left a trace.
+
+The Buffett trio on Insurf is just absence -- no contested exits, no self-promotion about ethics, no track record at all. That's not a red flag, it's a null. I would rather false-negative a quiet founder than punish someone for not performing integrity, so the default sits at midpoint -- but a default on the most personal of my five dimensions is not the same as a positive signal, and it cannot carry the check.
+
+Thirty-six month forecast: Insurf either gets acquihired by a tier-two RCM vendor (Waystar, R1, Athenahealth) in the $3-15M total-consideration range as the AI-appeals category consolidates, or it dies absorbed by Claimable's $10M-funded patient-side wedge moving up-market into providers -- the asymmetric upside geometry I size for at angel stage does not exist here because the ceiling is RCM-vendor multiples, not media-protocol multiples.
+
+The bull case is **Tennr** -- $162M raised, $605M valuation, an adjacent document-parsing thesis that proves healthcare admin AI can clear unicorn velocity from a YC-shaped origin. If Insurf's coverage-decision graph compounds into proprietary payer-behavior data that Tennr and Waystar cannot replicate, the asymmetric math reopens. The dossier disarms this: Tennr's wedge was referral parsing where the data trail is structured and the buyer is unified; Insurf's wedge is appeals where the data is unstructured, the buyer is fragmented across specialty practices, and five funded competitors are already mining the same data. The condition that flips my verdict: Insurf discloses 50+ specialty-practice pilots with measured appeal-overturn lift versus Counterforce's 70% baseline, AND one of the founders publishes a technical artifact -- a paper, a repo, a deep essay -- proving specific knowledge that the dossier currently cannot find. Until then this is a pass.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Permissionless Leverage Architecture (Code or Media as Primary Distribution) | 5/28 |
+| Marketplace or Network with Compounding User-Added Value | 7/22 |
+| Founder Has Non-Trainable Specific Knowledge in the Domain | 6/20 |
+| Big Market with Room for Multiple Pivots Without Refinancing | 8/16 |
+| Founder Trio (Intelligence + Energy + Integrity) Reads as a 10-Year Partner | 7/14 |
+| **Total** | **33/100** |
+
+**Total Score: 33/100** (Pass)

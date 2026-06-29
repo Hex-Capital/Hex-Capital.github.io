@@ -1,0 +1,81 @@
+{
+  "slug": "care-gp",
+  "name": "Care GP",
+  "oneLiner": "AI agents to run primary healthcare operations",
+  "metadata": {
+    "website": "https://caregp.com.au/",
+    "yc_page": "https://www.ycombinator.com/companies/care-gp",
+    "batch": "Summer 2026 (S26)",
+    "industry": "Healthcare / Healthcare",
+    "team_size": "10",
+    "location": "Sydney, NSW, Australia",
+    "tags": "SaaS, Healthcare, AI",
+    "yc_partner": "Tyler Bosmeny",
+    "emails": "melvin@caregp.com.au (company website)"
+  },
+  "tags": [
+    "SaaS",
+    "Healthcare",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-06-29T06:03:19.814Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 29,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 41,
+    "EG": 53,
+    "NR": 27,
+    "PG": 41,
+    "PT": 35,
+    "SL": 39,
+    "VK": 29
+  },
+  "consolidatedAvg": 37.86,
+  "consolidatedRank": 22,
+  "traction": {
+    "tractionRank": 1,
+    "tractionScore": 88,
+    "tractionReason": "150+ clinics, profitable, 140% MoM, zero churn"
+  },
+  "paths": {
+    "memo": "summer2026/memos/care-gp.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/care-gp.md",
+      "elad-gil": "summer2026/evals/elad-gil/care-gp.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/care-gp.md",
+      "paul-graham": "summer2026/evals/paul-graham/care-gp.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/care-gp.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/care-gp.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/care-gp.md"
+    }
+  }
+}

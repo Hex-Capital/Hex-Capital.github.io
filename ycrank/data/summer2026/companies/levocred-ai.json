@@ -1,0 +1,80 @@
+{
+  "slug": "levocred-ai",
+  "name": "Levocred AI",
+  "oneLiner": "AI for every workflow inside a credit team",
+  "metadata": {
+    "website": "https://levocred.com/",
+    "yc_page": "https://www.ycombinator.com/companies/levocred-ai",
+    "batch": "Summer 2026",
+    "industry": "Fintech / Fintech",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Lending, Investments",
+    "yc_partner": "Brad Flora",
+    "emails": "info@levocred.com"
+  },
+  "tags": [
+    "Lending",
+    "Investments"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-06-29T06:03:34.240Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 61,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 31,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 52,
+    "EG": 47,
+    "NR": 44,
+    "PG": 61,
+    "PT": 30,
+    "SL": 28,
+    "VK": 31
+  },
+  "consolidatedAvg": 41.86,
+  "consolidatedRank": 11,
+  "traction": {
+    "tractionRank": 6,
+    "tractionScore": 64,
+    "tractionReason": "$500M capital monitored, 10+ facilities, named customer"
+  },
+  "paths": {
+    "memo": "summer2026/memos/levocred-ai.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/levocred-ai.md",
+      "elad-gil": "summer2026/evals/elad-gil/levocred-ai.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/levocred-ai.md",
+      "paul-graham": "summer2026/evals/paul-graham/levocred-ai.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/levocred-ai.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/levocred-ai.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/levocred-ai.md"
+    }
+  }
+}

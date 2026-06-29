@@ -1,0 +1,81 @@
+{
+  "slug": "glen",
+  "name": "Glen",
+  "oneLiner": "Unified organizational context for agents and humans",
+  "metadata": {
+    "website": "https://www.tryglen.com/",
+    "yc_page": "https://www.ycombinator.com/companies/glen",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Productivity",
+    "team_size": "1",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Generative AI, B2B",
+    "yc_partner": "Jared Friedman (YC company page)",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Generative AI",
+    "B2B"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-06-29T06:08:22.306Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 35,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 42,
+    "EG": 49,
+    "NR": 43,
+    "PG": 41,
+    "PT": 30,
+    "SL": 26,
+    "VK": 35
+  },
+  "consolidatedAvg": 38,
+  "consolidatedRank": 21,
+  "traction": {
+    "tractionRank": 24,
+    "tractionScore": 17,
+    "tractionReason": "\"In production\", waitlist wave onboarding"
+  },
+  "paths": {
+    "memo": "summer2026/memos/glen.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/glen.md",
+      "elad-gil": "summer2026/evals/elad-gil/glen.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/glen.md",
+      "paul-graham": "summer2026/evals/paul-graham/glen.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/glen.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/glen.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/glen.md"
+    }
+  }
+}

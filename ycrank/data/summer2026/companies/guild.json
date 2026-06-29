@@ -1,0 +1,83 @@
+{
+  "slug": "guild",
+  "name": "GUILD",
+  "oneLiner": "Neoprime Reshaping Defense Supply Chain",
+  "metadata": {
+    "website": "https://www.guildai.co",
+    "yc_page": "https://www.ycombinator.com/companies/guild",
+    "batch": "Summer 2026",
+    "industry": "Industrials / Industrials -> Defense",
+    "team_size": "2",
+    "location": "New York, NY, USA",
+    "tags": "Artificial Intelligence, GovTech, Compliance, Manufacturing, Supply Chain",
+    "yc_partner": "Diana Hu",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "GovTech",
+    "Compliance",
+    "Manufacturing",
+    "Supply Chain"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-06-29T06:08:47.741Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 21,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 41,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 39,
+    "EG": 34,
+    "NR": 33,
+    "PG": 39,
+    "PT": 26,
+    "SL": 21,
+    "VK": 41
+  },
+  "consolidatedAvg": 33.29,
+  "consolidatedRank": 39,
+  "traction": {
+    "tractionRank": 42,
+    "tractionScore": 2,
+    "tractionReason": "Single-page website, no metrics disclosed"
+  },
+  "paths": {
+    "memo": "summer2026/memos/guild.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/guild.md",
+      "elad-gil": "summer2026/evals/elad-gil/guild.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/guild.md",
+      "paul-graham": "summer2026/evals/paul-graham/guild.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/guild.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/guild.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/guild.md"
+    }
+  }
+}

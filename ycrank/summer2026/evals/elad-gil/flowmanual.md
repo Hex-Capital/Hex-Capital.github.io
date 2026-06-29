@@ -1,0 +1,32 @@
+﻿# FlowManual -- Elad Gil Evaluation
+
+FlowManual is what happens when a real category re-opening (LLM accuracy on long-form construction documents crossing a usable threshold in 2024–25, evidenced by Trunk Tools' $40M Series B in Jul 2025 and Document Crunch's $21.5M Series B in Oct 2024) gets attacked by two Harvard dropouts — David Shijoon Bae and Michael Lin — with zero documented construction-industry employment and one named customer, Cedar Ridge Mechanical. Catalyst real, shipping signal blank: that pairing is the entire FlowManual diagnosis.
+
+**Anduril** (2022) is the load-bearing analogy on Market Re-Opening, and the mechanism that matters is *named, recent, dossier-specific catalyst* — Ukraine had revealed Pentagon software inadequacy inside a 24-month window. FlowManual has a structurally similar setup: frontier LLMs only became reliable on RFI/submittal/spec corpora in the last 18 months, and the two best-funded AI-document-for-construction peers both raised Series B inside the catalyst window. Where FlowManual diverges from the Anduril rung is that the catalyst is not *peer-misread as dead* — Trunk Tools and Document Crunch have already collectively absorbed $100M+ of growth capital into this exact thesis, so FlowManual is consensus-entering a window that consensus already noticed. That's the **Harvey**-clone problem from my *AI Market Clarity* piece, not the Anduril problem.
+
+The Lyft Series C pass turned on a single mechanism — being #2 in a market where #1 captures the economics — and that failure pattern is exactly what FlowManual's dossier triggers. Trunk Tools at $70M raised is doing "project document AI agent across drawings/specs/RFIs" and Document Crunch at $30.5M raised is doing "contract risk/compliance review"; FlowManual's bid-vs-contract delta detection is a feature that sits inside the surface area both incumbents will cover by default. The dossier itself concedes "any well-funded competitor with prompt engineering and retrieval architecture could replicate the bid-vs-contract diff feature." That is the Lyft pattern wearing a construction hat — a #3 entrant in a category where #1 and #2 already have multi-year head starts on labeled data, GC integrations, and customer references.
+
+On Revenue Velocity, the **Harvey** test is binary: in this AI cycle, if the curve exists you disclose it. FlowManual discloses Cedar Ridge Mechanical as a single named case study and a no-credit-card free trial — no MRR, no ACV, no pipeline count, no logo wall. In an 18-month compounding window where Trunk Tools "scaled revenue 5x over past six months" per CNBC (Aug 2025), FlowManual's silence is itself the signal. Something is either fundamentally broken or hasn't started; either reading is bad at this stage of the AI cycle.
+
+On Founder Ships Iteratively — the **Perplexity** (2022) cold-inbound test — the counterfactual is what would flip FlowManual a tier here. I would need to see Michael Lin's GitHub with a shipped construction-document parser, or David Bae's prior product with paying contractors, or a named ENR-top-100 GC pilot signed inside the YC batch. The dossier gives me CASC National President 2024-25 and HCS Tech for Social Good — pedigree-and-leadership artifacts, not shipping artifacts. Aravind Srinivas pinged me on LinkedIn and showed up a week later with the thing built; FlowManual's dossier shows no equivalent shipping rhythm, and at pre-seed shipping is the only legible signal.
+
+On Index Position, compare FlowManual to **Decagon** (2023) on a single axis: Decagon sits in the workflow path every post-LLM customer-support buyer must touch, which is why I funded it inside my *AI Market Clarity* "still wide open" sub-category. FlowManual's bid-vs-contract diff is workflow-adjacent — it lives inside the contractor back office — but the air-gapped/on-prem AES-256-GCM deployment, while a genuine wedge against cloud-multi-tenant Procore, is a *unit-economics conflict* for a 2-person team, not a distribution moat. On-prem buyers want high-touch implementation that FlowManual cannot staff.
+
+FlowManual's single-miracle architecture is actually clean — assume LLM accuracy on construction documents is solved (it is), and the remaining work is GTM into slow-cycle GC buyers and labeled-corpus accumulation. That's the **Color Genomics** (2015) shape: workflow infrastructure on top of a hard-tech layer someone else built. But the GTM miracle into ENR contractors is not trivial for founders with no domain employment, and the Color override was that I *operated* it — FlowManual has no equivalent operator backstop in the dossier.
+
+Forecast: 36 months out, FlowManual is either sub-$500K ARR and quietly winding down, or acqui-hired by Constructable or a mid-tier construction-tech roll-up for under $10M — the squeeze comes from Trunk Tools and Document Crunch expanding their document surface area to absorb bid-vs-contract delta detection as a feature, not a product. The mechanism is the Lyft pattern compounded with the AI-clone pattern: #3 entrants in catalyzed categories get acquired for the team, not the index position.
+
+The strongest case against the forecast is the air-gapped wedge — security-sensitive buyers (federal construction, DoD facilities, nuclear, certain healthcare GCs) genuinely cannot purchase cloud-multi-tenant Trunk Tools, and FlowManual's containerized on-prem with SHA-256 audit digests is a real distribution moat in that segment. If FlowManual lands two ENR-top-50 contractors with classified or secure-facility work at $50K+ ACV in the next six months, the niche-acquisition floor becomes a $20M+ ARR vertical-security-SaaS outcome. Dismantle: that playbook requires a forward-deployed implementation muscle that two Harvard dropouts with no construction employment cannot stand up at a 2-person team, and the dossier names no veteran advisor or named angel filling that gap. **Verifiable flip condition**: a signed pilot with a top-25 ENR contractor at disclosed $50K+ ACV inside 6 months — until then, FlowManual is a pass.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Market Re-Opening Via Specific Recent Catalyst | 17/28 |
+| Revenue Velocity or Usage Curve Already Visible | 6/25 |
+| Founder Ships Iteratively Between Conversations | 6/20 |
+| Index-Like Distribution Position On A Compounding Category | 7/15 |
+| Single-Miracle Architecture Rather Than Multi-Miracle Dependency | 7/12 |
+| **Total** | **43/100** |
+
+**Total Score: 43/100** (Pass)

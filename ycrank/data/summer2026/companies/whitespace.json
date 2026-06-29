@@ -1,0 +1,82 @@
+{
+  "slug": "whitespace",
+  "name": "Whitespace",
+  "oneLiner": "AI Operating System for Wholesale Distributors",
+  "metadata": {
+    "website": "https://whitespacehq.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/whitespace",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Supply Chain and Logistics",
+    "team_size": "2",
+    "location": "London, United Kingdom",
+    "tags": "Artificial Intelligence, SaaS, B2B, Supply Chain",
+    "yc_partner": "Jon Xu (YC company page)",
+    "emails": "team@whitespacehq.ai (company website)"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "SaaS",
+    "B2B",
+    "Supply Chain"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-06-29T06:06:10.860Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 29,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 43,
+    "EG": 37,
+    "NR": 42,
+    "PG": 46,
+    "PT": 29,
+    "SL": 29,
+    "VK": 29
+  },
+  "consolidatedAvg": 36.43,
+  "consolidatedRank": 29,
+  "traction": {
+    "tractionRank": 20,
+    "tractionScore": 25,
+    "tractionReason": "Unverified metric claims, no confirmed paying customers"
+  },
+  "paths": {
+    "memo": "summer2026/memos/whitespace.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/whitespace.md",
+      "elad-gil": "summer2026/evals/elad-gil/whitespace.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/whitespace.md",
+      "paul-graham": "summer2026/evals/paul-graham/whitespace.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/whitespace.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/whitespace.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/whitespace.md"
+    }
+  }
+}

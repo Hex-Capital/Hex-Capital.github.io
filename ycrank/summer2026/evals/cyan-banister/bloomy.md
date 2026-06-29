@@ -1,0 +1,30 @@
+﻿# Bloomy -- Cyan Banister Evaluation
+
+Alex Southmayd taught 7th-grade ELA through Teach For America before stacking Boston University's M.Ed., Stanford GSB, McKinsey, Lyft New England, and a Pear VC tour — and Bloomy is a solo-founder K-12 ELA tool competing against a Khan Academy product that is free to families as of May 2026. That pairing — clean governance on top, consensus-and-free-incumbent underneath — is Bloomy's signature, and it's the inverse of the shape I write checks into.
+
+Anduril (2017) is the HIGH rung on the founder-lived-experience axis: Palmer Luckey shipped Oculus from his parents' garage before he ever opened a defense slide. Bloomy's founder did stand in a 7th-grade ELA classroom, which is real, not theoretical — that is the load-bearing piece of the analogy and the only reason Bloomy clears my opening filter at all. But the analogy breaks where Luckey's post-Oculus arc was *more* building, and Alex Southmayd's post-TFA arc was Manhattan Prep, McKinsey, Lyft, Pear VC, Stanford GSB co-presidency of the VC Club — the exact "Stanford or Harvard, Goldman Sachs or McKinsey" credential stack the Hustle Fund profile flags as a deselection. Two years in a classroom a decade ago is lived experience; the resume since then is the lived experience of how to *pitch* a Stanford GSB cap table, which is a different muscle.
+
+The consensus YC AI-agent darling — six top funds chasing, $200B TAM slide one, four-logo team slide two — is the rung Bloomy collapses toward on magical weirdness. The failure mechanism on that rung is that the moat is the model, the category is crowded, and a polymath generalist could rebuild it in a quarter. Trace it through Bloomy: Khanmigo offers Socratic AI tutoring for free, IXL ($570M raised) and i-Ready (in 9 of 10 largest U.S. districts per NBC News 2024) already adapt to assessment data, and Bloomy's stated differentiation is ingesting i-Ready and NWEA MAP scores — both vendors are direct competitors who can revoke the data pipe whenever they choose. Nothing about Bloomy is laughed at the way Crusoe burning gas flares for Bitcoin was laughed at. It is the most legible bet on the slate, and legibility is the inverse of my edge.
+
+Solo founder, team size one per the YC page — this is the dimension where Bloomy scores highest, and the mechanism compounds cleanly: no HQ Trivia (2017) Yusupov-versus-Kroll tiebreaker problem, no GameCrush (~2011) activist-investor coup vector, no 50/50 partnership "who's the CEO" question to ask. Alex Southmayd is unambiguously the CEO. Over 18 months that clarity accelerates decision velocity, but it also concentrates execution risk — solo on K-12 curriculum (700+ standards-aligned lessons), solo on the adaptive AI engine, and solo on district procurement cycles is a three-fronts-at-once posture that I would normally want a co-founder for, except that the persona rule says I prefer the solo posture and accept the risk.
+
+For Bloomy to flip a tier on capital intensity, the dossier would need a regulated-finance or hardware-or-energy moat — Vigil Labs (August 2025) in regulated finance, Crusoe (~2018) on flare gas, Anduril (2017) on defense hardware. Bloomy has district procurement friction and standards-alignment certification, which is regulatory drag but not regulatory moat — incumbents IXL and i-Ready already own those channel relationships. K-12 EdTech SaaS is software-only by default, and the persona default down-weights when frontier signal is absent. No counterfactual in the dossier closes that gap.
+
+Flock Safety (~2018) is the single-anchor parallel on physical verifiability — I read the founder's Wi-Fi network name at a Four Seasons café and the camera was an object I could later see bolted to a pole. Bloomy fails the 48-hour-touch test in the opposite direction: the site has a "Request a demo (30-minute consultation)" CTA, no self-serve pricing, no Product Hunt launch found as of June 2026, and the product only renders inside a school's intervention block. A normal human cannot install Bloomy, photograph Bloomy, or hand Bloomy to a friend. The named Baystate Academy testimonial from Kellie Carlucci is sincere but it is *testimony*, not artifact.
+
+Thirty-six months out, Bloomy is at $300K–$1M ARR across a long tail of small-district pilots and gets quietly acqui-hired by Carnegie Learning or Discovery Education (which already absorbed DreamBox in October 2023) for a single-digit-million outcome — the McKinsey-plus-TFA founder profile is exactly the operator that mid-tier EdTech rollups acquire, and Khanmigo's free Socratic tutor plus i-Ready's incumbent district lock-in compresses the standalone ceiling.
+
+The bull case worth steel-manning runs through the DeepMind (~2013) exception: Hassabis was a polymath compounding chess, neuroscience, and game design, and I overrode my anti-pedigree bias because the cross-domain stack was the moat. Could Alex Southmayd be the polymath stack — TFA classroom teacher plus M.Ed. plus McKinsey operator plus Stanford GSB plus Pear VC sourcing instinct — wrapped around the K-12 ELA problem? Possibly. But Hassabis had shipped commercial games and published in *Nature* before raising; Southmayd's compounding artifact is a credential résumé and a 700-lesson library inside a category where Khanmigo is free. The DeepMind override required the polymath to have produced a load-bearing technical artifact before the check; Bloomy hasn't. I'd flip my verdict if Bloomy posts a signed district contract north of $100K with a top-50 U.S. district inside the next nine months — until then this is a rebuttal I'm comfortable holding as a hard no.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Surfaced From Lived Experience, Not Market Analysis | 14/32 |
+| Magically Weird, Non-Consensus, Round Likely Underpriced | 6/24 |
+| Single Unambiguous CEO With Identifiable Tiebreaker Authority | 14/16 |
+| Capital-Intensive, Frontier-Hardware or Unsexy-Regulated Swing | 5/15 |
+| Physical-World Verifiability: You Can Touch, Use, Or Observe The Product | 4/13 |
+| **Total** | **43/100** |
+
+**Total Score: 43/100** (Pass)

@@ -1,0 +1,30 @@
+﻿# Codag -- Sam Lessin Evaluation
+
+Michael Zhou is a gritty solo founder — turned down 7-figure new grad offers, bootstrapped Codag until his bank account hit zero, pivoted 5 times, did door-to-door sales — running into the most consensus possible 2026 category: AI dev-tools infrastructure that plugs into Claude Code and Codex via MCP. That is the dimensional signature for Codag in my book: a high-grit operator with a low-sleeve-fit product. The temperament is the most interesting thing in the dossier; the category is the least interesting thing on my map.
+
+On founder conviction, the rung I keep coming back to is my own arc at Drop.io — bootstrapping a primitive against free incumbents until somebody had to buy it — because that's the temperament I look for, the "weather the downs and not get manic at the ups" thing. Michael Zhou's "5 pivots, bank account at zero, door-to-door" history at least clears the missionary bar, and ex-Shopify / ex-Okta production logs gives him real exposure to the pain Codag claims to solve. Where Codag diverges from the Drop.io rung is the absence of any public writing — 976 X followers, no essays, no opinionated thread on why every other log-compression approach is wrong. I cannot find the artifact that tells me Michael Zhou will not be talked out of Codag the sixth time the wind shifts.
+
+The canonical pass for me is the "AI agent for [enterprise vertical], MCP-integrated, $30M post, four tier-1s in" YC seed deck — the failure mechanism is that the category is consensus-priced commodity exposure dressed as a venture moment, with no path to alpha from the SAFE cap. Codag is not yet priced that aggressively in the dossier, but the category vector is identical: "Log compression for AI agents," MCP plugins for Claude Code and Codex, YC S26, Rust-wrapper-on-Drain3. Drain3 is IBM-originated open source; `codag-megalith/codag-drain` is itself MIT on GitHub at 42 stars. The sleeve is "AI is just more internet" — not the crypto / DTC / creator / holdco sleeves I'm convicted on — and ClickHouse already publicly shipped log clustering for compression. Codag sits one tack away from the pass pattern, not three.
+
+Round dynamics — no evidence in the dossier, applying the absent-evidence default. Silence on price for a YC S26 AI dev-tools company in mid-2026 almost always resolves to "standard YC SAFE at standard YC post," and Codag is exactly the archetype the consensus crowd is currently bidding up. If the dossier had named one tier-1 visibly passing, or a sub-batch-median post, Codag would jump a tier; without that, I assume the round is shaped like every other agent-infra MCP seed in the batch.
+
+Capital structure compounds the wrong way on an 18-month horizon for Codag. The pricing page reads Hobby $19/month, Team $199/month plus usage, "priced by compute not seats" — a generic land-and-expand devtools SaaS template, with the core engine open-sourced on the founder's own GitHub. That's the worst of both worlds: open source that won't attract real OSS-community contribution at 42 stars, and pricing that won't clear a bottoms-up Series A on its own without 5+ rounds to default-alive. There is no unusual instrument here — no holdco, no royalty, no employee equity — and nothing about Codag forces me to underwrite a structure other funds can't.
+
+The single-anchor parallel for founder-as-brand is John Fish / Bookshelved, where the entire underwriting decision was the named creator's owned distribution. Codag has none of that gravity — Michael Zhou at 976 X followers and a 346-star prior repo (`michaelzixizhou/codag`, a VSCode workflow visualizer, i.e., the pre-pivot product) is a credible builder but not a distribution-on-the-cap-table founder. Codag is going to have to win on either paid sales or organic dev adoption against Drain3-for-free and Datadog-already-installed, neither of which Michael Zhou's audience moves.
+
+36-month forecast for Codag: acqui-hired by an observability incumbent (most likely Datadog, ClickHouse, or Grafana) for sub-$15M and rolled into an existing log product, with standalone ARR never crossing $1M — because the algorithm is Drain3, the implementation is the founder's own MIT repo, and the MCP-to-Claude-Code integration is a feature any incumbent ships in a sprint once agent-log billing becomes a procurement line item. The mechanism is commoditization racing customer acquisition; Codag loses that race because the moat surface area is one Rust pipeline on top of public IP.
+
+The bull case that genuinely stings: Sublime Security is in my book as a pre-consensus enterprise security seed I wrote into, and Michael Zhou's profile — Shopify and Okta infra tenure, Z Fellows, missionary grit, early MCP integrations with both Claude Code and Codex before the agent-observability category consolidated — looks superficially like that pattern. If agent log volume becomes the binding cost constraint on every Claude Code / Cursor / Codex deployment by 2027, and Codag is the default MCP primitive embedded in those products, the 8,021x compression ratio on the homepage demo becomes a procurement-grade number and Codag prints. The bear evidence wins: Sublime had a category-structural moat (email is bespoke per tenant) and Codag's moat is a public algorithm with the implementation open-sourced under the founder's own org. The condition that flips my verdict is concrete — a signed multi-year integration contract with at least two of {Anthropic, OpenAI, Cursor} naming Codag as the default agent-log primitive, plus a non-standard financing instrument (revenue share against agent-vendor pass-through, not a SAFE). Absent that, Codag is a pass.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Round Is Mis-Priced or Non-Consensus, Not the Hot YC Deck | 7/30 |
+| Capital Structure Is Venture-Shaped, Not Founder-Drainage | 7/22 |
+| Founder Has Asymmetric Conviction Visible Pre-Pitch | 10/20 |
+| Founder-as-Brand or Owned Community Is on the Cap Table | 4/15 |
+| Category Lives in a Sleeve You're Already Convicted On | 3/13 |
+| **Total** | **31/100** |
+
+**Total Score: 31/100** (Pass)

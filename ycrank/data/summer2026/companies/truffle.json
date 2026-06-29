@@ -1,0 +1,81 @@
+{
+  "slug": "truffle",
+  "name": "Truffle",
+  "oneLiner": "The autonomous back-of-house for restaurants.",
+  "metadata": {
+    "website": "https://usetruffle.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/truffle",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "New York City, NY, USA",
+    "tags": "SaaS, Restaurant Tech, AI",
+    "yc_partner": "Brad Flora (YC company page)",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "SaaS",
+    "Restaurant Tech",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-06-29T06:08:02.387Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 34,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 50,
+    "EG": 35,
+    "NR": 41,
+    "PG": 53,
+    "PT": 32,
+    "SL": 29,
+    "VK": 34
+  },
+  "consolidatedAvg": 39.14,
+  "consolidatedRank": 16,
+  "traction": {
+    "tractionRank": 45,
+    "tractionScore": 1,
+    "tractionReason": "No public data, landing page only"
+  },
+  "paths": {
+    "memo": "summer2026/memos/truffle.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/truffle.md",
+      "elad-gil": "summer2026/evals/elad-gil/truffle.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/truffle.md",
+      "paul-graham": "summer2026/evals/paul-graham/truffle.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/truffle.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/truffle.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/truffle.md"
+    }
+  }
+}

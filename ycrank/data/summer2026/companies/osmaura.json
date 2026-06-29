@@ -1,0 +1,81 @@
+{
+  "slug": "osmaura",
+  "name": "Osmaura",
+  "oneLiner": "We find new matter opportunities for law firms.",
+  "metadata": {
+    "website": "https://osmaura.com",
+    "yc_page": "https://www.ycombinator.com/companies/osmaura",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Sales Enablement, LegalTech, AI",
+    "yc_partner": "Jon Xu",
+    "emails": "founders@osmaura.com"
+  },
+  "tags": [
+    "Sales Enablement",
+    "LegalTech",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-06-29T06:11:08.885Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 27,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 33,
+    "EG": 36,
+    "NR": 34,
+    "PG": 41,
+    "PT": 27,
+    "SL": 27,
+    "VK": 27
+  },
+  "consolidatedAvg": 32.14,
+  "consolidatedRank": 42,
+  "traction": {
+    "tractionRank": 30,
+    "tractionScore": 9,
+    "tractionReason": "100+ partner discovery interviews, pre-launch"
+  },
+  "paths": {
+    "memo": "summer2026/memos/osmaura.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/osmaura.md",
+      "elad-gil": "summer2026/evals/elad-gil/osmaura.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/osmaura.md",
+      "paul-graham": "summer2026/evals/paul-graham/osmaura.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/osmaura.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/osmaura.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/osmaura.md"
+    }
+  }
+}

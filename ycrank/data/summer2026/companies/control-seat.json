@@ -1,0 +1,81 @@
+{
+  "slug": "control-seat",
+  "name": "Control Seat",
+  "oneLiner": "Control and Monitoring of Industrial Operations",
+  "metadata": {
+    "website": "https://www.controlseat.com",
+    "yc_page": "https://www.ycombinator.com/companies/control-seat",
+    "batch": "Summer 2026",
+    "industry": "Industrials / Industrials",
+    "team_size": "2",
+    "location": "San Francisco",
+    "tags": "Workflow Automation, Monitoring, Industrial",
+    "yc_partner": "Jared Friedman",
+    "emails": "founders@controlseat.com"
+  },
+  "tags": [
+    "Workflow Automation",
+    "Monitoring",
+    "Industrial"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-06-29T06:11:59.085Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 29,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 47,
+    "EG": 37,
+    "NR": 34,
+    "PG": 48,
+    "PT": 32,
+    "SL": 40,
+    "VK": 29
+  },
+  "consolidatedAvg": 38.14,
+  "consolidatedRank": 19,
+  "traction": {
+    "tractionRank": 34,
+    "tractionScore": 5,
+    "tractionReason": "Launch video, $500K YC deal only"
+  },
+  "paths": {
+    "memo": "summer2026/memos/control-seat.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/control-seat.md",
+      "elad-gil": "summer2026/evals/elad-gil/control-seat.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/control-seat.md",
+      "paul-graham": "summer2026/evals/paul-graham/control-seat.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/control-seat.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/control-seat.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/control-seat.md"
+    }
+  }
+}

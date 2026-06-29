@@ -1,0 +1,82 @@
+{
+  "slug": "lato",
+  "name": "LATO",
+  "oneLiner": "Agent-native research and simulation platform for investors",
+  "metadata": {
+    "website": "https://www.latolabs.io/",
+    "yc_page": "https://www.ycombinator.com/companies/lato",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco (YC page)",
+    "tags": "B2B, Investing, Market Research, AI",
+    "yc_partner": "Gustaf Alstromer (YC page)",
+    "emails": "founders@latolabs.io (latolabs.io)"
+  },
+  "tags": [
+    "B2B",
+    "Investing",
+    "Market Research",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-06-29T06:05:47.756Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 29,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 43,
+    "EG": 41,
+    "NR": 42,
+    "PG": 53,
+    "PT": 30,
+    "SL": 33,
+    "VK": 29
+  },
+  "consolidatedAvg": 38.71,
+  "consolidatedRank": 17,
+  "traction": {
+    "tractionRank": 11,
+    "tractionScore": 49,
+    "tractionReason": "4 named VC customers including Blume Equity"
+  },
+  "paths": {
+    "memo": "summer2026/memos/lato.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/lato.md",
+      "elad-gil": "summer2026/evals/elad-gil/lato.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/lato.md",
+      "paul-graham": "summer2026/evals/paul-graham/lato.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/lato.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/lato.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/lato.md"
+    }
+  }
+}

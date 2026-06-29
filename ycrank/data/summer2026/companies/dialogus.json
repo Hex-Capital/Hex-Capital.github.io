@@ -1,0 +1,80 @@
+{
+  "slug": "dialogus",
+  "name": "Dialogus",
+  "oneLiner": "Infra for enterprise voice agents.",
+  "metadata": {
+    "website": "https://www.dialoguslabs.com/",
+    "yc_page": "https://www.ycombinator.com/companies/dialogus",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "B2B, Customer Support",
+    "yc_partner": "Ankit Gupta",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "B2B",
+    "Customer Support"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-06-29T06:08:47.494Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 24,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 33,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 32,
+    "EG": 40,
+    "NR": 37,
+    "PG": 33,
+    "PT": 24,
+    "SL": 26,
+    "VK": 33
+  },
+  "consolidatedAvg": 32.14,
+  "consolidatedRank": 41,
+  "traction": {
+    "tractionRank": 41,
+    "tractionScore": 2,
+    "tractionReason": "YC S26 backing, no public metrics"
+  },
+  "paths": {
+    "memo": "summer2026/memos/dialogus.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/dialogus.md",
+      "elad-gil": "summer2026/evals/elad-gil/dialogus.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/dialogus.md",
+      "paul-graham": "summer2026/evals/paul-graham/dialogus.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/dialogus.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/dialogus.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/dialogus.md"
+    }
+  }
+}

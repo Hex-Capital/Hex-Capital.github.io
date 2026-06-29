@@ -1,0 +1,82 @@
+{
+  "slug": "pango",
+  "name": "Pango",
+  "oneLiner": "Agentic OS for e-commerce operations",
+  "metadata": {
+    "website": "https://pango.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/pango",
+    "batch": "Summer 2026 (YC company page)",
+    "industry": "B2B / B2B -> Retail",
+    "team_size": "5",
+    "location": "Stockholm, Stockholm County, Sweden",
+    "tags": "Logistics, E-commerce, Retail, AI",
+    "yc_partner": "Gustaf Alstromer (YC company page)",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Logistics",
+    "E-commerce",
+    "Retail",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-06-29T06:10:48.579Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 29,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 52,
+    "EG": 48,
+    "NR": 37,
+    "PG": 59,
+    "PT": 30,
+    "SL": 30,
+    "VK": 29
+  },
+  "consolidatedAvg": 40.71,
+  "consolidatedRank": 15,
+  "traction": {
+    "tractionRank": 5,
+    "tractionScore": 68,
+    "tractionReason": "6 named brand customers, PMF post-launch"
+  },
+  "paths": {
+    "memo": "summer2026/memos/pango.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/pango.md",
+      "elad-gil": "summer2026/evals/elad-gil/pango.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/pango.md",
+      "paul-graham": "summer2026/evals/paul-graham/pango.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/pango.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/pango.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/pango.md"
+    }
+  }
+}

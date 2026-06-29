@@ -1,0 +1,81 @@
+{
+  "slug": "perceptron-ml",
+  "name": "Perceptron ML",
+  "oneLiner": "An event-driven AI engine that turns real-world signals into action.",
+  "metadata": {
+    "website": "https://perceptronml.com",
+    "yc_page": "https://www.ycombinator.com/companies/perceptron-ml",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "B2B, Automation, AI",
+    "yc_partner": "Jared Friedman",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "B2B",
+    "Automation",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-06-29T06:10:33.327Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 25,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 30,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 37,
+    "EG": 39,
+    "NR": 39,
+    "PG": 43,
+    "PT": 31,
+    "SL": 25,
+    "VK": 30
+  },
+  "consolidatedAvg": 34.86,
+  "consolidatedRank": 32,
+  "traction": {
+    "tractionRank": 44,
+    "tractionScore": 1,
+    "tractionReason": "Demo gated, website 403, no signals"
+  },
+  "paths": {
+    "memo": "summer2026/memos/perceptron-ml.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/perceptron-ml.md",
+      "elad-gil": "summer2026/evals/elad-gil/perceptron-ml.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/perceptron-ml.md",
+      "paul-graham": "summer2026/evals/paul-graham/perceptron-ml.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/perceptron-ml.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/perceptron-ml.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/perceptron-ml.md"
+    }
+  }
+}

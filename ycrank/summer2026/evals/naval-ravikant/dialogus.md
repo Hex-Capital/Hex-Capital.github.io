@@ -1,0 +1,30 @@
+﻿# Dialogus -- Naval Ravikant Evaluation
+
+Dialogus sells enterprise voice infra with a "Book a demo" cal.com link as its only front door -- a $6.8B-to-$62.4B market (MarketIntelo, 2026) with plenty of pivot room, wrapped in the exact distribution architecture I score down by default. That high-market / low-leverage pairing is the whole signature: Hans Ibarra, Juberth Rodriguez, and Rodrigo Terán have picked a category big enough to absorb three pivots and a go-to-market that requires permission from every enterprise procurement office in the Fortune 1000. This is a capital-and-labor leverage business hiding inside an AI dossier.
+
+Stack Overflow (2008) is the load-bearing analogy for the leverage dimension -- Atwood and Spolsky shipped code that developers pulled into their workflow with zero gatekeepers, and the distribution was the product. Dialogus diverges from that rung at the most visible surface: dialoguslabs.com has no docs page, no SDK, no GitHub org, no free tier, no open-source repo with stars accumulating in public -- the CTA is a calendar link to a sales conversation. Vapi, the comparable I'd actually fund on this axis, runs 62M monthly calls at $0.05/min self-serve (TechCrunch, May 2026); Dialogus runs zero disclosed calls and asks you to book a meeting. That is the inverse of permissionless code leverage. It's the Red Flag I flag in deck-slide-1-is-TAM pitches, except here the deck IS the website.
+
+The network-effects ladder runs through Twitter (2007), where user N made user N-1 more valuable on a one-to-many media graph. Dialogus has no such mechanic in its description -- each enterprise customer's voice agent is a closed-loop integration to their own CRM, their own telephony stack, their own compliance schema; customer two does not make customer one's deployment more useful. The Perplexity exception (single-sided builder product, waived because criteria #1 and #3 cleared at top quartile) does not rescue Dialogus, because criteria #1 and #3 do not clear here. This is single-sided B2B infra, full stop.
+
+On specific knowledge, the counterfactual is what would have to be true for this score to flip a tier: one of the three founders would need a multi-year shipped artifact in real-time voice, telephony stacks, or enterprise compliance logging -- a published paper on streaming STT, a high-star OSS contribution to LiveKit or Pipecat, a prior production deployment at scale. Instead Dialogus offers a stack of internship logos -- Google, Amazon, Microsoft, Meta -- and Rodrigo Terán's prior CTO role at NeoJaus, a Mexican real estate platform that is not voice infra. This is exactly the "ex-FAANG, world-class team via four logos with no shipped artifacts named" pattern I flag -- pedigree as thesis, which is the *absence* of specific knowledge under a friendlier vocabulary.
+
+Big market is where Dialogus actually scores. The mechanism: voice agent infra is platform-shaped, the 29.5% CAGR through 2034 is real, and the pivot vectors are visible -- Dialogus could move from horizontal enterprise to a regulated vertical (healthcare intake, insurance claims, financial servicing), from infra-for-buyers to white-label-for-BPOs, or from voice runtime to voice-agent observability. Over 18 months the market keeps expanding faster than the team needs to grow into it, which is the Twitter-pivoted-from-Odeo (2007) property I underwrite to. This dimension alone won't trigger a check, but it prevents the company from dying for lack of room.
+
+Ev Williams cleared the integrity leg at Twitter (2007) through a Blogger-to-Google exit that closed cleanly years earlier; Dialogus offers no such track record one way or the other, because Hans Ibarra is a current Georgia Tech student and Juberth Rodriguez and Rodrigo Terán graduated ITESM in 2025. I default to neutral here -- silence on integrity isn't a negative for quiet founders in their first venture, but neither is it the multi-year ethical accumulation that lets me upgrade. The 10-year-partner question is genuinely unanswerable from this dossier.
+
+In 36 months Dialogus is acqui-hired by Vapi, Retell, or Twilio for $15-40M, or it is quietly dead after Bland's 250+ enterprise customers and Vapi's Amazon Ring win (TechCrunch, May 2026) compress the middle of the market the team is trying to enter. The mechanism is straightforward: when three undifferentiated competitors have $70M, $5M, and $100M in the bank and a 1-3 year head start, the founder either has specific knowledge that produces a 10x-better product on one axis, or the company is sold for the engineering team. Dialogus's dossier shows no axis of 10x advantage.
+
+The bull case worth taking seriously is the Anchorage Digital exception -- permission-as-moat. If "policy-constrained reasoning" and "audit-ready transcripts plus compliance logging" mean Dialogus is positioning into regulated verticals (healthcare HIPAA, financial-services call recording, insurance claims) where Vapi's horizontal $0.05/min commodity layer cannot credibly ship, then the regulatory friction Vapi avoids becomes Dialogus's moat. That argument would sting if the dossier named even one regulated-vertical pilot, one named-counterparty LOI, or one founder with prior compliance-domain shipped work. It names none -- the differentiation is "[Inferred]" from a feature-list scrape of dialoguslabs.com, and YC's Summer 2026 RFS dropped voice agents from the priority list (TheNextWeb, 2026). The verdict flips if Dialogus discloses a named enterprise deployment in a regulated vertical within the next 6 months. Until then this is a pass.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Permissionless Leverage Architecture (Code or Media as Primary Distribution) | 7/28 |
+| Marketplace or Network with Compounding User-Added Value | 6/22 |
+| Founder Has Non-Trainable Specific Knowledge in the Domain | 6/20 |
+| Big Market with Room for Multiple Pivots Without Refinancing | 11/16 |
+| Founder Trio (Intelligence + Energy + Integrity) Reads as a 10-Year Partner | 7/14 |
+| **Total** | **37/100** |
+
+**Total Score: 37/100** (Pass)

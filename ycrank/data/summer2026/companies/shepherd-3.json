@@ -1,0 +1,81 @@
+{
+  "slug": "shepherd-3",
+  "name": "Shepherd",
+  "oneLiner": "Your company memory, one text away",
+  "metadata": {
+    "website": "https://askshepherd.ai",
+    "yc_page": "https://www.ycombinator.com/companies/shepherd-3",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Enterprise, Search, AI Assistant",
+    "yc_partner": "Diana Hu",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Enterprise",
+    "Search",
+    "AI Assistant"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-06-29T06:10:53.771Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 25,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 32,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 34,
+    "EG": 37,
+    "NR": 44,
+    "PG": 46,
+    "PT": 26,
+    "SL": 25,
+    "VK": 32
+  },
+  "consolidatedAvg": 34.86,
+  "consolidatedRank": 33,
+  "traction": {
+    "tractionRank": 36,
+    "tractionScore": 4,
+    "tractionReason": "YC S26 acceptance, $500K standard deal only"
+  },
+  "paths": {
+    "memo": "summer2026/memos/shepherd-3.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/shepherd-3.md",
+      "elad-gil": "summer2026/evals/elad-gil/shepherd-3.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/shepherd-3.md",
+      "paul-graham": "summer2026/evals/paul-graham/shepherd-3.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/shepherd-3.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/shepherd-3.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/shepherd-3.md"
+    }
+  }
+}

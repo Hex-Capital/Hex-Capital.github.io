@@ -1,0 +1,81 @@
+{
+  "slug": "operon",
+  "name": "Operon",
+  "oneLiner": "Agentic data layer for manufacturing & process industries.",
+  "metadata": {
+    "website": "https://operonsolutions.com/en",
+    "yc_page": "https://www.ycombinator.com/companies/operon",
+    "batch": "Summer 2026",
+    "industry": "Industrials / Industrials",
+    "team_size": "0 (YC listing); LinkedIn shows ~3 employees",
+    "location": "San Francisco, CA, USA",
+    "tags": "Computer Vision, Manufacturing, Infrastructure",
+    "yc_partner": "Jon Xu",
+    "emails": "anderson@operonsolutions.com (careers page)"
+  },
+  "tags": [
+    "Computer Vision",
+    "Manufacturing",
+    "Infrastructure"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-06-29T06:04:04.173Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 32,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 42,
+    "EG": 32,
+    "NR": 31,
+    "PG": 30,
+    "PT": 28,
+    "SL": 29,
+    "VK": 32
+  },
+  "consolidatedAvg": 32,
+  "consolidatedRank": 43,
+  "traction": {
+    "tractionRank": 27,
+    "tractionScore": 12,
+    "tractionReason": "549 LinkedIn followers, 1 open role"
+  },
+  "paths": {
+    "memo": "summer2026/memos/operon.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/operon.md",
+      "elad-gil": "summer2026/evals/elad-gil/operon.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/operon.md",
+      "paul-graham": "summer2026/evals/paul-graham/operon.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/operon.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/operon.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/operon.md"
+    }
+  }
+}

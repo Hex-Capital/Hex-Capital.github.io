@@ -1,0 +1,81 @@
+{
+  "slug": "talentpluto",
+  "name": "Talentpluto",
+  "oneLiner": "Voice agents that represent people's careers",
+  "metadata": {
+    "website": "https://talentpluto.com",
+    "yc_page": "https://www.ycombinator.com/companies/talentpluto",
+    "batch": "Summer 2026 (YC page)",
+    "industry": "B2B / B2B -> Recruiting and Talent",
+    "team_size": "5",
+    "location": "New York City, NY, USA",
+    "tags": "Marketplace, AI, Careers",
+    "yc_partner": "Brad Flora (YC page)",
+    "emails": "No public data found (only cal.com/team/talentpluto/discovery-call listed on site)"
+  },
+  "tags": [
+    "Marketplace",
+    "AI",
+    "Careers"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-06-29T06:06:16.510Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 33,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 41,
+    "EG": 43,
+    "NR": 50,
+    "PG": 40,
+    "PT": 28,
+    "SL": 30,
+    "VK": 33
+  },
+  "consolidatedAvg": 37.86,
+  "consolidatedRank": 23,
+  "traction": {
+    "tractionRank": 3,
+    "tractionScore": 76,
+    "tractionReason": "15K convos, 100+ partners, 30% MoM growth"
+  },
+  "paths": {
+    "memo": "summer2026/memos/talentpluto.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/talentpluto.md",
+      "elad-gil": "summer2026/evals/elad-gil/talentpluto.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/talentpluto.md",
+      "paul-graham": "summer2026/evals/paul-graham/talentpluto.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/talentpluto.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/talentpluto.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/talentpluto.md"
+    }
+  }
+}

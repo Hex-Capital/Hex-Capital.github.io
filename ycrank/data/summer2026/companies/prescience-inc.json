@@ -1,0 +1,80 @@
+{
+  "slug": "prescience-inc",
+  "name": "Prescience, Inc.",
+  "oneLiner": "Healthcare for the age of abundant intelligence.",
+  "metadata": {
+    "website": "https://www.getprescience.com/",
+    "yc_page": "https://www.ycombinator.com/companies/prescience-inc",
+    "batch": "Summer 2026",
+    "industry": "Healthcare / Healthcare",
+    "team_size": "2",
+    "location": "Boston, MA, USA",
+    "tags": "Health Insurance, Insurance",
+    "yc_partner": "Ankit Gupta",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Health Insurance",
+    "Insurance"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-06-29T06:12:49.609Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 47,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 43,
+    "EG": 38,
+    "NR": 38,
+    "PG": 53,
+    "PT": 41,
+    "SL": 40,
+    "VK": 47
+  },
+  "consolidatedAvg": 42.86,
+  "consolidatedRank": 9,
+  "traction": {
+    "tractionRank": 19,
+    "tractionScore": 28,
+    "tractionReason": "Anonymous case studies, Rippling partnership"
+  },
+  "paths": {
+    "memo": "summer2026/memos/prescience-inc.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/prescience-inc.md",
+      "elad-gil": "summer2026/evals/elad-gil/prescience-inc.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/prescience-inc.md",
+      "paul-graham": "summer2026/evals/paul-graham/prescience-inc.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/prescience-inc.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/prescience-inc.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/prescience-inc.md"
+    }
+  }
+}

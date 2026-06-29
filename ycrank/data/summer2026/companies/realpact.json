@@ -1,0 +1,81 @@
+{
+  "slug": "realpact",
+  "name": "RealPact",
+  "oneLiner": "AI-native OS for Real Estate Brokerages",
+  "metadata": {
+    "website": "https://realpact.ai",
+    "yc_page": "https://www.ycombinator.com/companies/realpact",
+    "batch": "Summer 2026",
+    "industry": "Real Estate and Construction / Real Estate and Construction -> Housing and Real Estate",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Real Estate, Enterprise Software",
+    "yc_partner": "Jon Xu (YC company page)",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Real Estate",
+    "Enterprise Software"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-06-29T06:08:27.650Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 31,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 38,
+    "EG": 45,
+    "NR": 35,
+    "PG": 57,
+    "PT": 28,
+    "SL": 30,
+    "VK": 31
+  },
+  "consolidatedAvg": 37.71,
+  "consolidatedRank": 24,
+  "traction": {
+    "tractionRank": 10,
+    "tractionScore": 52,
+    "tractionReason": "4 brokerage customers including Sotheby's"
+  },
+  "paths": {
+    "memo": "summer2026/memos/realpact.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/realpact.md",
+      "elad-gil": "summer2026/evals/elad-gil/realpact.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/realpact.md",
+      "paul-graham": "summer2026/evals/paul-graham/realpact.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/realpact.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/realpact.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/realpact.md"
+    }
+  }
+}

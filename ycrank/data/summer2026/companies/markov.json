@@ -1,0 +1,81 @@
+{
+  "slug": "markov",
+  "name": "Markov",
+  "oneLiner": "Data for computer-use ai",
+  "metadata": {
+    "website": "https://www.markovstudios.com/",
+    "yc_page": "https://www.ycombinator.com/companies/markov",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Reinforcement Learning, Data Labeling, Data Engineering",
+    "yc_partner": "Harshita Arora (YC company page)",
+    "emails": "No public data found (only cal.com/dev-markov/30min booking link on website)"
+  },
+  "tags": [
+    "Reinforcement Learning",
+    "Data Labeling",
+    "Data Engineering"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-06-29T06:03:24.080Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 22,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 35,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 37,
+    "EG": 49,
+    "NR": 38,
+    "PG": 51,
+    "PT": 22,
+    "SL": 29,
+    "VK": 35
+  },
+  "consolidatedAvg": 37.29,
+  "consolidatedRank": 26,
+  "traction": {
+    "tractionRank": 21,
+    "tractionScore": 22,
+    "tractionReason": "1,122 Twitter followers, no revenue disclosed"
+  },
+  "paths": {
+    "memo": "summer2026/memos/markov.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/markov.md",
+      "elad-gil": "summer2026/evals/elad-gil/markov.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/markov.md",
+      "paul-graham": "summer2026/evals/paul-graham/markov.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/markov.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/markov.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/markov.md"
+    }
+  }
+}

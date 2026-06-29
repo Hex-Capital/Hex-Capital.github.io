@@ -1,0 +1,30 @@
+﻿# Levocred AI -- Elad Gil Evaluation
+
+Mohit Gupta and Saksham Gupta are running a clean single-miracle architecture at Levocred AI — credit-agreement LLM extraction plus GTM — but the dossier shows zero revenue curve and no specific 24-month catalyst, which is the exact pairing that produces "competent founders, mature market, no signal to chase." $500M monitored across 10+ facilities and a single named customer (Pier Asset Management) is not a wedge that opens an investment; it's a pilot footprint that an Allvue salesperson could overrun in two quarters.
+
+**Decagon** (2023) is the load-bearing analogy on the single-miracle axis: one validated capability (LLM accuracy on a structured enterprise workflow) plus GTM, and you funded it. Levocred AI sits inside that same architectural shape — Mohit Gupta's claim that the models are trained on credit agreements and loan tapes with cited audit-ready outputs is, structurally, the same bet Decagon made on contact-center transcripts. Where Levocred AI diverges from the Decagon template is that Decagon's open-market was *post-LLM customer support* in 2023 — wide open per *AI Market Clarity*. Levocred AI's open-market claim is contested on day one by Finley's "AI-Powered Back Office: Agents for Banks and Funds" launch and Allvue's Andi, both shipping into the same workflow surface.
+
+The revenue-velocity ladder is where Levocred AI's silence is loudest. **Harvey** (2023) is the template — "$3B → $5B → $8B in months" because the curve was easy to disclose when it was real. Pre-seed companies don't owe me an ARR number, but they do owe me a usage shape, and Levocred AI's dossier substitutes "$500M capital monitored" — a vanity metric that doesn't tell me whether Pier Asset Management is paying, whether the 10+ facilities are one customer or ten, or whether anything is compounding month-over-month. In the AI cycle, silence on the curve is itself a negative signal because real growth at this stage is the cheapest thing to disclose.
+
+Levocred AI's market-re-opening case is *real expansion, not a re-opening*. Private credit AUM at $3.5T growing 14% CAGR with 78% YoY deployment in 2024 is a tailwind, not a catalyst — there's no Ukraine-equivalent moment that broke the prior workflow vendor lock. Compare to **Stripe** (2010), where merchant accounts collapsing in front of developer-facing APIs was the *named* step-function; Levocred AI's "why now" is "analysts are overloaded and LLMs are better" which is the generic AI-workflow pitch I see fifty times a batch. The Concord Servicing acquisition of Finley in March 2026 is closer to a market signal than anything Levocred AI cites — and it cuts against them, because it tells me a distribution-equipped incumbent now owns the adjacent wedge.
+
+Counterfactual on founder execution: if Mohit Gupta or Saksham Gupta had shipped an *independent* product — a side project credit-agreement parser, an open-source loan-tape tool, a GitHub repo with users — Levocred AI moves from neutral into invest range on this dimension alone. What the dossier shows is shipping *inside* employers: Mohit ran ML enabling $1B in lending at a credit hedge fund, Saksham scaled trading infrastructure as Edge Focus grew $150M → $1B+ AUM. That's strong founder-market fit, but it's not the **Perplexity** (2022) Aravind cold-inbound rhythm of building-between-meetings. No Twitter, no GitHub I can confirm, no public artifacts — I'd want one phone call to test cadence before deciding this is execution-machine or institutional-lifer.
+
+The index-position parallel to **Stripe** (2010) does not hold for Levocred AI. Stripe sat in the workflow path of *every* new e-commerce entrant by default; Levocred AI sits in a workflow path that Allvue, Finley/Concord, Setpoint, Termgrid, and Cascade Debt are all reaching into from adjacent positions. Allvue at $63.9M ARR bootstrapped is the real test — they own the fund-accounting seat and are extending into AI assistance. Levocred AI's bet is that *lender-side credit workflow* is structurally distinct enough to resist that extension, and the dossier gives me no evidence either way.
+
+**Forecast (36 months):** Levocred AI reaches $1–4M ARR with 8–15 mid-market credit-fund customers and is acquired by Allvue, Concord Servicing (via Finley), or Setpoint for under $50M, or it stalls below $1M ARR and quietly winds down as Finley's bank/fund AI agents capture the same buyer. The mechanism: single-miracle architecture means they will ship a working product, but no revenue velocity disclosed at pre-seed plus three credible incumbents launching overlapping AI agents means the distribution race is already lost before it starts.
+
+**Strongest objection:** the bull case is that Mohit Gupta's MFE + quant-credit-fund pedigree is unusually deep founder-market fit for fintech YC, private credit is genuinely the fastest-growing institutional asset class, and Pier Asset Management's testimonial about "intuitive" adoption signals that the lender-workflow wedge is real and the incumbents are too encumbered by legacy fund-accounting customers to pivot quickly — same dynamic that let **Brex** (2017) carve a startup-card wedge out from under Amex. The dossier evidence that wins against this is the March 2026 Concord-Finley acquisition explicitly announcing "AI agents for banks and funds": the distribution-equipped incumbent is moving on the same workflow surface *now*, not in two years. **Flip condition:** if Levocred AI discloses three named credit-fund logos signed in the last 90 days with combined ACV >$300K and >20% MoM growth, I re-underwrite — that's the Decagon shape and I'd take the meeting.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Market Re-Opening Via Specific Recent Catalyst | 13/28 |
+| Revenue Velocity or Usage Curve Already Visible | 7/25 |
+| Founder Ships Iteratively Between Conversations | 10/20 |
+| Index-Like Distribution Position On A Compounding Category | 8/15 |
+| Single-Miracle Architecture Rather Than Multi-Miracle Dependency | 9/12 |
+| **Total** | **47/100** |
+
+**Total Score: 47/100** (Neutral)

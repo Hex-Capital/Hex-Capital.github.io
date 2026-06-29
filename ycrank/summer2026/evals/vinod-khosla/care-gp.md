@@ -1,0 +1,30 @@
+﻿# Care GP -- Vinod Khosla Evaluation
+
+Melvin Chen has built a profitable AI admin SaaS that does Australian GP back-office work — Samantha files documents, Veronica answers phones, Bill handles billing — and the dimensional signature is what tells me to pass: Care GP scores highest on the softest read of founder learning rate (Oxford-valedictorian PE operator pivoting into healthcare ops) and lowest on technical/capital risk that repels consensus VCs (commodity LLM OCR on a 10-person team already calling itself profitable). That pairing describes a competent operator running an efficient AU SaaS, not the **OpenAI** (2019) or **Commonwealth Fusion** (2019) shape my fund exists to underwrite.
+
+Consequence-first, the way I learned to read it at the MIT Rose Lecture: the success-state of Care GP at maximum ambition is 7,000 Australian GP clinics offloading roughly 4.3 hours of daily admin — Sonya at Yarrawonga compresses 6 hours of reception into 30 minutes. That is a real productivity number. It is not a civilizational variable. **Impossible Foods** (2011) was the HIGH rung on this ladder because the success-state collapsed animal-protein production; **OpenAI** (2019) collapsed the labor-cost curve I keep citing at $15T. Care GP sits well below my **DoorDash** (2013) consensus-bet exception, because DoorDash at least restructured consumer-commerce flow nationally — Care GP restructures the filing tray at 7,800 practices in one geography. No incumbent regime disappears when Samantha works.
+
+**KiOR** (~2008) is the LOW rung I want to inspect on technical-and-capital risk, because KiOR's failure mode — three required miracles, $160M of conviction, public humiliation — is the failure mode I am paid to take. Care GP inverts every coordinate of that bet. Care GP requires zero scientific miracles: it is GPT-4-class OCR routing into Best Practice Software's PMS, ISO27001 certified, with "human oversight for exceptions" — exactly the architecture any Tier-1 generalist or any vertical-SaaS shop can fund and ship. Heidi Health has already raised ~$138M at ~$700M and claims 50% GP share; Lyrebird is bundled free with Best Practice Premier. Care GP is profitable on a 10-person team. Those are signals of a healthy small business, and they are also the precise signals that tell me my capital is the wrong capital.
+
+Founder-defies-expert-consensus is a counterfactual exercise on Melvin Chen. To flip this dimension a tier, Chen's dossier would need a publicly contradicted position in primary care, a "too important not to do" framing, or the **Physical Intelligence** (2024) research-PI shape — Levine and Finn shipping work the field disputed. Care GP gives me the inverse: Oxford triple-major Valedictorian, Goldman Sachs, Terra Firma, Samena Capital, Forbes 30 Under 30. Pure expert-continuity credentials, the exact profile my TED Talk warned against when I cited the UC Berkeley 28,000-prediction study. Strong human, wrong-shaped human for the consequence I underwrite.
+
+Founder learning rate is where Care GP earns its highest mark, and it earns it on mechanism rather than legend. Chen pivoted out of a PE seat at Goldman and Terra Firma into Australian primary-care admin — that is a real sector dislocation, the kind of thing that compounds over 18 months because someone who left compounding finance equity to file pathology reports has revealed his utility function. But it is not the **Slash** (2024) Kanye pivot — there is no documented public thesis change, no "we were wrong about X" moment, no prior company sold and redeployed into a harder problem. Over 18 months this dimension compounds only if Chen surfaces a thesis update; today it reads as a sabbatical-to-SaaS arc, not a learning-rate signal strong enough to override the consequence floor.
+
+Required-capital, a single-anchor parallel to my **OpenAI** (2019) first check at $50M: that check existed because OpenAI's roadmap could not be funded by anything smaller, and the capital depth was itself a moat. Care GP's roadmap is the opposite — already profitable, 10 people, SaaS subscription economics against 7,000 AU clinics. Any seed fund in Sydney can fund this to $5M ARR. I am over-resourced for Care GP, which means even if I am wrong about consequence, the deal is still mismatched to the check I write.
+
+My 36-month forecast for Care GP: acquired by Best Practice Software or a PMS consolidator for under $100M as a strategic tuck-in, OR ARR plateau under AUD $10M as Heidi Health and Lyrebird's admin-agent expansions arrive bundled with the scribe seat. The mechanism is the channel-conflict observation from Medical Republic (2026) — Care GP rents distribution from Best Practice, which now ships its own AI admin agent and natively integrates Lyrebird. You cannot rent distribution from your substitute.
+
+The strongest bear-case-against-the-bear is the traction signature: 150+ clinics, zero churn, 140% average MoM usage growth, 175% MoM on Samantha for five months post-beta, profitable — and a **DoorDash** (2013) precedent exists in my own portfolio for backing capital-light consumer-style operations when the founder ambition framing carries it. The dossier evidence that wins against that objection is Heidi at ~$138M raised and Lyrebird bundled into the very PMS Care GP partners with: the curve bends when the substitute ships free. The verifiable condition that flips my verdict: Care GP signs a non-Best-Practice PMS exclusive in a second geography (US or UK) with a named counterparty inside 12 months, demonstrating Chen has solved the channel-substitute problem before Heidi's admin SKU lands at scale. Until then, this is a healthy AU SaaS and not Khosla capital.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Consequence Magnitude If Company Wins | 8/30 |
+| Technical or Capital Risk That Repels Consensus VCs | 6/25 |
+| Founder Defies Documented Expert Consensus | 5/20 |
+| Founder Learning Rate, Demonstrated By Prior Pivot Or Thesis Update | 7/15 |
+| Required-Capital Profile Matches Khosla Check Size | 3/10 |
+| **Total** | **29/100** |
+
+**Total Score: 29/100** (Pass)

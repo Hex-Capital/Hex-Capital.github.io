@@ -1,0 +1,81 @@
+{
+  "slug": "cova",
+  "name": "Cova",
+  "oneLiner": "AI-Native Home Care Agency",
+  "metadata": {
+    "website": "https://cova.care/",
+    "yc_page": "https://www.ycombinator.com/companies/cova",
+    "batch": "Summer 2026",
+    "industry": "Healthcare / Healthcare",
+    "team_size": "2",
+    "location": "Detroit, MI, USA",
+    "tags": "Artificial Intelligence, Consumer Health Services, Healthcare",
+    "yc_partner": "Jared Friedman",
+    "emails": "questions@cova.care"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Consumer Health Services",
+    "Healthcare"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-06-29T06:11:44.009Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 31,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 47,
+    "EG": 29,
+    "NR": 34,
+    "PG": 42,
+    "PT": 30,
+    "SL": 42,
+    "VK": 31
+  },
+  "consolidatedAvg": 36.43,
+  "consolidatedRank": 28,
+  "traction": {
+    "tractionRank": 32,
+    "tractionScore": 7,
+    "tractionReason": "Operational contact only, no metrics"
+  },
+  "paths": {
+    "memo": "summer2026/memos/cova.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/cova.md",
+      "elad-gil": "summer2026/evals/elad-gil/cova.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/cova.md",
+      "paul-graham": "summer2026/evals/paul-graham/cova.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/cova.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/cova.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/cova.md"
+    }
+  }
+}

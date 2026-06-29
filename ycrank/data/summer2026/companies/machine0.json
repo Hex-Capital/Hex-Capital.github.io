@@ -1,0 +1,80 @@
+{
+  "slug": "machine0",
+  "name": "machine0",
+  "oneLiner": "Persistent & powerful cloud VMs from your CLI",
+  "metadata": {
+    "website": "https://machine0.io",
+    "yc_page": "https://www.ycombinator.com/companies/machine0",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "1",
+    "location": "San Francisco, CA, USA",
+    "tags": "Developer Tools, Cloud Computing",
+    "yc_partner": "Brad Flora",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Developer Tools",
+    "Cloud Computing"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-06-29T06:06:16.352Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 33,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 48,
+    "EG": 52,
+    "NR": 52,
+    "PG": 52,
+    "PT": 33,
+    "SL": 28,
+    "VK": 33
+  },
+  "consolidatedAvg": 42.57,
+  "consolidatedRank": 10,
+  "traction": {
+    "tractionRank": 23,
+    "tractionScore": 18,
+    "tractionReason": "Show HN posted, paid per-minute pricing live"
+  },
+  "paths": {
+    "memo": "summer2026/memos/machine0.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/machine0.md",
+      "elad-gil": "summer2026/evals/elad-gil/machine0.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/machine0.md",
+      "paul-graham": "summer2026/evals/paul-graham/machine0.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/machine0.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/machine0.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/machine0.md"
+    }
+  }
+}

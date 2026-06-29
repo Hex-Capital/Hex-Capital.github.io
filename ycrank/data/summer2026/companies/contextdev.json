@@ -1,0 +1,80 @@
+{
+  "slug": "contextdev",
+  "name": "Context.dev",
+  "oneLiner": "We give AI agents realtime web context.",
+  "metadata": {
+    "website": "https://context.dev",
+    "yc_page": "https://www.ycombinator.com/companies/contextdev",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "1",
+    "location": "New York City, NY, USA",
+    "tags": "B2B, APIs",
+    "yc_partner": "Jon Xu",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "B2B",
+    "APIs"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-06-29T06:08:12.191Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 31,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 39,
+    "EG": 52,
+    "NR": 51,
+    "PG": 52,
+    "PT": 30,
+    "SL": 35,
+    "VK": 31
+  },
+  "consolidatedAvg": 41.43,
+  "consolidatedRank": 12,
+  "traction": {
+    "tractionRank": 4,
+    "tractionScore": 74,
+    "tractionReason": "250+ paying companies incl. Klarna, Mintlify"
+  },
+  "paths": {
+    "memo": "summer2026/memos/contextdev.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/contextdev.md",
+      "elad-gil": "summer2026/evals/elad-gil/contextdev.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/contextdev.md",
+      "paul-graham": "summer2026/evals/paul-graham/contextdev.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/contextdev.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/contextdev.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/contextdev.md"
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "slug": "bloomy",
+  "name": "Bloomy",
+  "oneLiner": "AI-powered mastery learning for K-12",
+  "metadata": {
+    "website": "https://bloomylearning.com/",
+    "yc_page": "https://www.ycombinator.com/companies/bloomy",
+    "batch": "Summer 2026",
+    "industry": "Education / Education",
+    "team_size": "1",
+    "location": "San Francisco, CA, USA",
+    "tags": "AI-Enhanced Learning, Education, eLearning, Personalization, AI",
+    "yc_partner": "Tyler Bosmeny (YC company page)",
+    "emails": "hello@bloomylearning.com (company website)"
+  },
+  "tags": [
+    "AI-Enhanced Learning",
+    "Education",
+    "eLearning",
+    "Personalization",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-06-29T06:05:56.197Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 26,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 43,
+    "EG": 29,
+    "NR": 38,
+    "PG": 41,
+    "PT": 31,
+    "SL": 27,
+    "VK": 26
+  },
+  "consolidatedAvg": 33.57,
+  "consolidatedRank": 35,
+  "traction": {
+    "tractionRank": 16,
+    "tractionScore": 34,
+    "tractionReason": "3 named school testimonials, 700+ lessons"
+  },
+  "paths": {
+    "memo": "summer2026/memos/bloomy.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/bloomy.md",
+      "elad-gil": "summer2026/evals/elad-gil/bloomy.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/bloomy.md",
+      "paul-graham": "summer2026/evals/paul-graham/bloomy.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/bloomy.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/bloomy.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/bloomy.md"
+    }
+  }
+}

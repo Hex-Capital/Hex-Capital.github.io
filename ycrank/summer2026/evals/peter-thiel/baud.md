@@ -1,0 +1,30 @@
+﻿# Baud -- Peter Thiel Evaluation
+
+Baud's signature in my portfolio is an atoms-heavy hardware bet (9/10 on structural moat) entering a monopoly window already occupied by $2B+ of consensus capital — Etched at a $5B valuation, MatX at $600M+ raised, Taalas at $219M, Cerebras at $1B in 2026 alone. Sarang Zambare and Eric Taylor have built the right shape of company on the wrong rung of timing. The ASIC has the atoms; the category has the crowd.
+
+SpaceX (2008) is the ladder rung that makes Baud legible — both bets argue that a math/physics-level reframing collapses an incumbent's cost structure by an order of magnitude, and both demand multi-year capex commitments that pure-software competitors structurally cannot match. The mechanism that loaded Musk's check was that reusability was not a feature NVIDIA-equivalent (Lockheed) could ship — cost-plus contracting actively rewarded the opposite. Baud's analogous claim — "losslessly eliminates multiplications" yielding "100x more efficient at the same process node" — is a real technical secret, and Taylor's three-plus tape-outs at NVIDIA and Enfabrica make the execution claim credible. Where Baud diverges from the SpaceX rung is the incumbent failure mode: NVIDIA *can* cannibalize CUDA if forced, and the dossier offers no structural reason it won't beyond inferred reluctance. The secret is technical, not institutional, and technical secrets get fast-followed.
+
+Cleantech 1.0 is the canonical failure mode of the crowded contrarian sector: ten well-funded teams all pursuing the same architectural insight, none reaching escape velocity because the customer set was too narrow to support the parallel capex. Baud's competitor stack reproduces that pattern with disturbing fidelity — MatX founded by ex-Google TPU alumni, Taalas pursuing model-hardwired silicon, Cerebras with wafer-scale, plus Tenstorrent and Etched. The buyer set is a handful of frontier labs, three of which (Google TPU, Meta MTIA, Amazon Trainium) are vertically integrating against external silicon. Baud's monopoly trajectory requires it to be one of one, not one of five, and the dossier surfaces no thesis for why this category collapses to a single winner rather than splintering across hyperscaler captives.
+
+Baud's definite-plan score compounds over 18 months in a way pure software cannot — an ASIC roadmap is forced into definite optimism because you cannot lean-startup a tape-out. The 50M-parameter model running at 1000+ tokens/sec on FPGA emulation is a concrete milestone, not an OKR; the open "Founding ASIC Architect / RTL & FPGA Lead" role at Baud signals a specific next step toward silicon. Hardware founders who pivot die at the mask cost, which means Zambare and Taylor will either ship the thesis they pitched or fail visibly.
+
+Counterfactual on founder lineage: for Baud's 10/15 pedigree score to flip to 13+, Zambare or Taylor would need a PayPal Mafia tie or a prior chip company exit. What the dossier actually shows is Zambare as ML lead on Peloton Guide shipping vision models to 100K+ devices on Qualcomm silicon, and Taylor with three-plus tape-outs across NVIDIA, NXP, Arteris, and Enfabrica. This is the Moskovitz-at-Asana profile — verified shipped-to-scale operator, not Levchin-at-Affirm operator-friend re-up. Strong, not load-bearing.
+
+The Anduril (2017) parallel on atoms-heavy moat is the only axis where Baud sits cleanly at the top rung — ASIC tape-outs at a competitive process node create capex barriers no software-only competitor can clear, and the "4 patents + 2 patents + a publication" between the two founders is a defensible technical-IP floor. Where Anduril compounded this into a fund-returner was the regulated-customer overlay (DoD switching costs, integration depth, certification trust) that Baud entirely lacks — frontier AI labs will rip-and-replace silicon the moment a competitor ships better tokens-per-dollar.
+
+My 36-month forecast: Baud raises a $30-60M Series A in 2027 on the strength of Taylor's tape-out credibility, reaches first silicon in 2028, and is acqui-hired by AMD or a hyperscaler (Meta or Google) for $80-250M for the compiler IP and ASIC team — not a fund-returner, not a zero, a strategic absorption into someone else's chip roadmap. The mechanism is straightforward: in a five-way race against better-capitalized incumbents (Etched, MatX, Cerebras), the second-tier finisher with real IP gets bought, not crowned.
+
+The bull case that stings: Etched raised at a $5B valuation on a *narrower* thesis (transformer inference only), which means the market is pricing math-architecture ASIC bets at fund-returner multiples right now, and Baud covers training + fine-tuning + deployment with what it claims is a more fundamental representational insight. If even 30% of the 100x claim holds at frontier scale, Baud's economics dominate Etched's, and Taylor's NVIDIA-plus-Enfabrica tape-out history materially de-risks the execution. The Asana (2010) exception is the precedent — operator pedigree overrode missing thesis-fit when Moskovitz had shipped Facebook to scale. The counter that wins is the absence: Zambare and Taylor are not in the PayPal Mafia, the dossier names no anchor investor signaling a Series A bridge, and the four-way competitor stack is exactly the consensus chip wave the Founders Fund manifesto warned against. I would flip my verdict if a frontier lab (OpenAI, Anthropic, xAI) signs a public training-compute LOI on Baud silicon before Demo Day — that single fact would convert this from a crowded-category bet into a customer-locked monopoly trajectory.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Contrarian Secret with Named Incumbent Failure Mode | 19/35 |
+| Monopoly Trajectory with Pricing Power Hypothesis | 10/25 |
+| Definite Founder Plan vs Indefinite Iteration | 11/15 |
+| Founder Lineage / Verified Operator Pedigree | 10/15 |
+| Atoms-Heavy or Regulated-Sector Structural Moat | 9/10 |
+| **Total** | **59/100** |
+
+**Total Score: 59/100** (Neutral)

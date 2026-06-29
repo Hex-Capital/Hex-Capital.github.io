@@ -1,0 +1,30 @@
+﻿# FlowManual -- Peter Thiel Evaluation
+
+FlowManual is a consensus-shaped YC wedge — "AI for Construction's Back Office" — wrapped around one faintly interesting differentiator (air-gapped on-prem with AES-256-GCM) and built by two Harvard dropouts, David Shijoon Bae and Michael Lin, with zero documented construction-industry employment between them. The dimensional signature is the absence of signature: a slightly-above-floor contrarian wedge paired with a floor-level atoms-heavy moat, which is exactly the profile Zero to One was written against. Cedar Ridge Mechanical as the sole named customer does not change the diagnosis.
+
+**Stripe** in 2010 named a specific incumbent failure mode — PayPal's developer experience — and the secret terminated at an architectural blind spot the incumbent could not fix without cannibalizing its consumer-checkout business. FlowManual's analogous claim is that Procore's cloud-multi-tenant architecture cannot ship air-gapped on-prem, which is true but thin: the named competitors are not Procore but Trunk Tools ($70M raised, Insight-led Series B July 2025) and Document Crunch ($30.5M raised, Titanium-led Series B October 2024), both AI-native, both already selling document workflows to GCs, both able to ship a single-tenant VPC deployment within a quarter if a defense-adjacent buyer asked. The FlowManual secret as stated in the dossier is "cross-document delta detection across the full bid-to-closeout workflow" — that is a feature description, not a hidden truth the market actively rejects. The Stripe analogy fails at the point where the secret should hurt to say out loud.
+
+**Asana** is the cautionary lowest-rung parallel on monopoly trajectory: pure SaaS workflow with no atoms-heavy moat, saved at evaluation only because Moskovitz had already shipped Facebook to scale. The Asana failure mechanism — feature-replicable software in a category competitors can clone in nine months — is the dominant FlowManual risk pattern in the dossier. Document Crunch already runs on OpenAI and Anthropic; the bid-vs-contract diff is a retrieval-plus-prompt problem any well-capitalized peer can ship. FlowManual has no Moskovitz override. The mechanism that rescued the Asana check is structurally absent here.
+
+On the definite-plan dimension, the dossier surfaces a free trial, a demo-booking CTA, and no named multi-year technical milestones — the absence of a 2-5 year architectural commitment is itself the data. Over 18 months this compounds the wrong direction: a two-person team running self-serve free trials AND high-touch air-gapped installations will be forced to pick one motion, and whichever they pick will look like a pivot rather than a plan. This is the indefinite-optimism failure mode the Founders Fund manifesto attacked in 2011, transposed to construction.
+
+Counterfactually, FlowManual's founder-lineage score would flip a tier if the dossier surfaced a named construction-industry advisor of Trimble or Bechtel pedigree, or if David Bae or Michael Lin had shipped a prior product with documented enterprise revenue. Neither exists. Bae's signal is California Association of Student Councils national presidency and a Harvard Class of 2029 admit; Lin's is Harvard CS-and-Stats with HCS Tech for Social Good involvement. Thiel Fellowship pattern-matching on "Harvard dropout" does fire faintly — credentialed-outsider, technical, young — but the pattern requires a contrarian intellectual identity the dossier does not document, and student-government national presidency is the opposite of contrarian intellectual identity. It is mimetic excellence.
+
+The single-anchor parallel on atoms-heavy moat is **Palantir**: regulated-customer integration depth becomes the moat over a decade, not the software. FlowManual's air-gapped containerized deployment is the right shape but the wrong customer — Cedar Ridge Mechanical is HVAC, not an intelligence customer, and there is no DoD, no nuclear contractor, no critical-infrastructure GC named in the dossier. The on-prem feature without the regulated-customer base is cost without the moat: high-touch installation burning cycles of a two-person team, with no Palantir-shaped switching-cost compound at the end of it.
+
+Forecast: FlowManual is acquihired by Trunk Tools or Document Crunch within 36 months at under $2M ARR, or shuts down. The mechanism is the one Document Crunch's $30.5M war chest and Trunk Tools' "5x revenue in six months" velocity (CNBC, August 2025) produce structurally — they will out-distribute a two-person team to every mid-market GC that matters before FlowManual builds a labeled-data corpus deep enough to defend the bid-vs-contract diff.
+
+The strongest bull case is the Anduril-shaped twist: air-gapped on-prem with SHA-256 audit digests is the exact spec a Army Corps of Engineers or DOE-facility GC would require, and Trunk Tools' cloud-first architecture cannot ship that without rebuilding. If FlowManual lands one ACOE-adjacent GC in the next twelve months, the deployment-as-moat thesis becomes real and the Cedar Ridge case study reframes as the wrong logo to lead with. That is the Known Exception shape — defense-adjacent customer override on otherwise-thin software. But the dossier names zero defense, federal, or critical-infrastructure customer; the marketing copy emphasizes "files never leave your server" as a generic security claim, not a regulated-buyer thesis; and David Bae and Michael Lin have no documented path into that buyer. One verifiable signed contract with a federal contractor or top-tier defense GC inside twelve months flips the verdict; absent it, FlowManual is the indefinite-optimism YC AI wedge Zero to One was written to filter out.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Contrarian Secret with Named Incumbent Failure Mode | 11/35 |
+| Monopoly Trajectory with Pricing Power Hypothesis | 7/25 |
+| Definite Founder Plan vs Indefinite Iteration | 4/15 |
+| Founder Lineage / Verified Operator Pedigree | 5/15 |
+| Atoms-Heavy or Regulated-Sector Structural Moat | 3/10 |
+| **Total** | **30/100** |
+
+**Total Score: 30/100** (Pass)

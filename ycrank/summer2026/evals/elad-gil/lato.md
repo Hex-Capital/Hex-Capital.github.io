@@ -1,0 +1,30 @@
+﻿# LATO -- Elad Gil Evaluation
+
+LATO is a workflow tool riding a real voice-AI catalyst into the most cyclical and concentrated buyer pool in tech -- VC and PE funds -- which is the structural inverse of an index position. Tymek Staniszewski's six years at Verdane ($11B AUM) plus Tien Chu's ML background land LATO inside a credible adjacent-to-Harvey thesis -- *AI Market Clarity* (blog.eladgil.com, Nov 2025) had investment-workflow AI on the "open" list -- but the buyer count is bounded and the competitor stack is already capitalized at Series A. That high-catalyst / low-distribution pairing is LATO's signature in my book, and it's the pairing that decides this.
+
+**Anduril (2022)** is the HIGH rung on catalyst because Ukraine produced a specific, dateable Pentagon-software reopening inside a 24-month window. LATO is reaching for the same template -- voice-LLM quality crossing a usability threshold in 2024-2025 plus the dossier's "85% of private-capital dealmakers now use AI" vs. 76% a year earlier -- and the catalyst is real. But it isn't Anduril-grade reopening; it's the same catalyst that funded **Decagon** (2023) on the CX side, which lands LATO in a consensus AI-agents category where Bridgetown Research already cleared $19M Series A (Accel, Lightspeed, Feb 2026 -- TechCrunch). The catalyst exists; LATO is not uniquely positioned for the window, which is the whole test from *First Round Review*.
+
+**Lyft Series C** is the LOW rung on index position -- a structurally #2 seat in a buyer pool that doesn't expand as the underlying category grows. The same failure mechanism appears in LATO's distribution: named customers Blume Equity, FoodLabs, Montis VC, Concept Ventures are all venture funds, and global VC/PE buyers number in the low thousands with budgets that contract on LP cycles. LATO doesn't sit in the workflow path of a compounding category the way **Stripe** (2010) sits on e-commerce or **Coinbase** (2013) sits on crypto -- LATO sits on the diligence spend of one of the most cyclical professional-services buyers in the economy, and that is the inverse of an index bet.
+
+On revenue velocity (mechanism analysis), LATO has four named fund logos and zero disclosed dollars -- no pricing page, no MRR, no month-over-month curve, just a self-reported "$400k+" displacement claim on the latolabs.io site. In an AI cycle where real velocity is the easiest thing to disclose, LATO's silence compounds the wrong way over the next 18 months: AlphaSense ($600M ARR per Sacra, Mar 2026) and the Tegus archive ship an AI-voice-interview module from inside existing fund relationships, and LATO's pilots churn to the incumbent bundle before the velocity curve ever gets visible. This is the "false signal vs. just working" distinction (TechCrunch, Nov 2025) and LATO hasn't produced the signal either way.
+
+On founder shipping rhythm (counterfactual), Tymek's six years at Verdane is buyer-side context, not shipping history; Tien Chu's GitHub @chutien shows 8 repos with no notable stars, and the dossier names no prior product either co-founder built and iterated to users. The score flips a tier if the dossier instead names a Tien-built voice-agent prototype with a usage curve, or a Tymek-built diligence tool he ran inside Verdane that funds asked to keep using -- the **Perplexity** (2022) pattern is shipped artifacts between conversations, not Verdane tenure plus a brother at ElevenLabs.
+
+On single-miracle architecture (single-anchor parallel to **Color Genomics**, 2015), LATO has the shape of workflow-on-top-of-a-hard-thing -- voice-LLM is the commodity layer, the fund-specific "Company Brain" is the workflow on top. But LATO's pitch adds a second miracle the dossier flags explicitly: a "market simulation that predicts how market participants behave," which is an unvalidated research problem at investor-grade accuracy. Color isolated its miracle to workflow; LATO's homepage promises both the workflow and a digital-twin prediction layer, which is the multi-miracle compound NFX (*Unusual Signs*) tells me to discount.
+
+36-month forecast: LATO ends up sub-$3M ARR with three to six fund logos, AlphaSense ships its own AI-interview module on the Tegus base, Bridgetown Research consolidates the investor-diligence-agent buyer pool, and LATO either acqui-hires into AlphaSense/Bridgetown for under $30M or pivots from VC diligence into corporate-strategy/M&A buyer adjacency (the Listen Labs path, but late). The mechanism producing it is the index/distribution failure -- a concentrated cyclical buyer pool cannot support four funded entrants, and LATO is the smallest check at the table.
+
+Bull case worth taking seriously: Tymek's Verdane network is the kind of warm-buyer access that produced **Brex** (2017) from the Stripe alumni graph, voice-AI quality genuinely did step-function in 2024-2025, and a per-fund "Company Brain" that compounds with every interview becomes a real switching-cost moat -- the Bridgetown Series A is itself evidence the buyer is real. The reason this case doesn't win: **Brex** rode a buyer pool (startups) that was expanding 10x; LATO's buyer pool is contracting through an LP-cycle downturn, and at YC default check size against a Series A-funded direct competitor in **Bridgetown**, LATO has neither the catalyst-uniqueness of **Anduril** (2022) nor the velocity-already-printing of **Harvey** (2023). Verdict flips to Invest if LATO discloses $500K+ ARR within 6 months at >40% MoM, or signs a top-decile fund (Sequoia/Benchmark/a16z) as a paying customer -- absent that, this is a pass and a watch.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Market Re-Opening Via Specific Recent Catalyst | 16/28 |
+| Revenue Velocity or Usage Curve Already Visible | 7/25 |
+| Founder Ships Iteratively Between Conversations | 8/20 |
+| Index-Like Distribution Position On A Compounding Category | 5/15 |
+| Single-Miracle Architecture Rather Than Multi-Miracle Dependency | 5/12 |
+| **Total** | **41/100** |
+
+**Total Score: 41/100** (Pass)

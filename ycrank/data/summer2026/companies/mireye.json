@@ -1,0 +1,81 @@
+{
+  "slug": "mireye",
+  "name": "Mireye",
+  "oneLiner": "Infrastructure for Physical World AI Agents",
+  "metadata": {
+    "website": "https://www.mireye.com/",
+    "yc_page": "https://www.ycombinator.com/companies/mireye",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Geographic Information System, Location-based",
+    "yc_partner": "Jon Xu",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Geographic Information System",
+    "Location-based"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-06-29T06:03:03.795Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 32,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 33,
+    "EG": 44,
+    "NR": 52,
+    "PG": 45,
+    "PT": 28,
+    "SL": 27,
+    "VK": 32
+  },
+  "consolidatedAvg": 37.29,
+  "consolidatedRank": 27,
+  "traction": {
+    "tractionRank": 43,
+    "tractionScore": 1,
+    "tractionReason": "No public data found on any traction signal"
+  },
+  "paths": {
+    "memo": "summer2026/memos/mireye.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/mireye.md",
+      "elad-gil": "summer2026/evals/elad-gil/mireye.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/mireye.md",
+      "paul-graham": "summer2026/evals/paul-graham/mireye.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/mireye.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/mireye.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/mireye.md"
+    }
+  }
+}

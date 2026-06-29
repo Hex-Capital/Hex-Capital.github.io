@@ -1,0 +1,83 @@
+{
+  "slug": "florin",
+  "name": "Florin",
+  "oneLiner": "The financial operating system for the companies building the future.",
+  "metadata": {
+    "website": "https://florin.inc",
+    "yc_page": "https://www.ycombinator.com/companies/florin",
+    "batch": "Summer 2026",
+    "industry": "Fintech / Fintech",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Banking as a Service, Fintech, Finance, Neobank",
+    "yc_partner": "Ankit Gupta",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Banking as a Service",
+    "Fintech",
+    "Finance",
+    "Neobank"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-06-29T06:03:33.232Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 24,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 34,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 40,
+    "EG": 31,
+    "NR": 33,
+    "PG": 41,
+    "PT": 44,
+    "SL": 24,
+    "VK": 34
+  },
+  "consolidatedAvg": 35.29,
+  "consolidatedRank": 30,
+  "traction": {
+    "tractionRank": 35,
+    "tractionScore": 4,
+    "tractionReason": "Team of 3, just launched 2026"
+  },
+  "paths": {
+    "memo": "summer2026/memos/florin.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/florin.md",
+      "elad-gil": "summer2026/evals/elad-gil/florin.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/florin.md",
+      "paul-graham": "summer2026/evals/paul-graham/florin.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/florin.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/florin.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/florin.md"
+    }
+  }
+}

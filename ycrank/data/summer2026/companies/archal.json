@@ -1,0 +1,82 @@
+{
+  "slug": "archal",
+  "name": "Archal",
+  "oneLiner": "The eval platform for autonomous software",
+  "metadata": {
+    "website": "https://www.archal.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/archal",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Developer Tools, API, Infrastructure, AI",
+    "yc_partner": "Ankit Gupta",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Developer Tools",
+    "API",
+    "Infrastructure",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-06-29T06:12:54.370Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 19,
+      "tier": "Strong Pass"
+    },
+    "vinod-khosla": {
+      "score": 33,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 26,
+    "EG": 43,
+    "NR": 43,
+    "PG": 43,
+    "PT": 31,
+    "SL": 19,
+    "VK": 33
+  },
+  "consolidatedAvg": 34,
+  "consolidatedRank": 34,
+  "traction": {
+    "tractionRank": 39,
+    "tractionScore": 2,
+    "tractionReason": "No revenue, no customer logos disclosed"
+  },
+  "paths": {
+    "memo": "summer2026/memos/archal.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/archal.md",
+      "elad-gil": "summer2026/evals/elad-gil/archal.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/archal.md",
+      "paul-graham": "summer2026/evals/paul-graham/archal.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/archal.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/archal.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/archal.md"
+    }
+  }
+}

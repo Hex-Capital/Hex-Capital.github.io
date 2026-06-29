@@ -1,0 +1,81 @@
+{
+  "slug": "6thsense",
+  "name": "6thSense",
+  "oneLiner": "A nervous system for physical AI",
+  "metadata": {
+    "website": "https://6thsense.dev",
+    "yc_page": "https://www.ycombinator.com/companies/6thsense",
+    "batch": "Summer 2026",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+    "team_size": "0 (4 founders listed on YC page)",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Robotics, Data Engineering",
+    "yc_partner": "Tyler Bosmeny",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Robotics",
+    "Data Engineering"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-06-29T06:05:41.032Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 23,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 36,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 41,
+    "EG": 40,
+    "NR": 30,
+    "PG": 38,
+    "PT": 23,
+    "SL": 26,
+    "VK": 36
+  },
+  "consolidatedAvg": 33.43,
+  "consolidatedRank": 36,
+  "traction": {
+    "tractionRank": 38,
+    "tractionScore": 3,
+    "tractionReason": "No public revenue, customer, or user counts"
+  },
+  "paths": {
+    "memo": "summer2026/memos/6thsense.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/6thsense.md",
+      "elad-gil": "summer2026/evals/elad-gil/6thsense.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/6thsense.md",
+      "paul-graham": "summer2026/evals/paul-graham/6thsense.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/6thsense.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/6thsense.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/6thsense.md"
+    }
+  }
+}

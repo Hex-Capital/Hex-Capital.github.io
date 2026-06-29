@@ -1,0 +1,81 @@
+{
+  "slug": "parasma",
+  "name": "Parasma",
+  "oneLiner": "Training human brain cells for AI compute",
+  "metadata": {
+    "website": "https://parasma.com",
+    "yc_page": "https://www.ycombinator.com/companies/parasma",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "1",
+    "location": "San Francisco, CA, USA",
+    "tags": "Machine Learning, Neurotechnology, AI",
+    "yc_partner": "Tyler Bosmeny (YC company page)",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Machine Learning",
+    "Neurotechnology",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-06-29T06:09:47.941Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 73,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 60,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 55,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 73,
+    "EG": 37,
+    "NR": 43,
+    "PG": 60,
+    "PT": 27,
+    "SL": 59,
+    "VK": 55
+  },
+  "consolidatedAvg": 50.57,
+  "consolidatedRank": 2,
+  "traction": {
+    "tractionRank": 26,
+    "tractionScore": 13,
+    "tractionReason": "Founder press coverage, no company revenue"
+  },
+  "paths": {
+    "memo": "summer2026/memos/parasma.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/parasma.md",
+      "elad-gil": "summer2026/evals/elad-gil/parasma.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/parasma.md",
+      "paul-graham": "summer2026/evals/paul-graham/parasma.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/parasma.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/parasma.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/parasma.md"
+    }
+  }
+}

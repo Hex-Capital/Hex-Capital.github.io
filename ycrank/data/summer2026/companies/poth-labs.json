@@ -1,0 +1,83 @@
+{
+  "slug": "poth-labs",
+  "name": "Poth Labs",
+  "oneLiner": "Helping companies understand why users behave the way they do",
+  "metadata": {
+    "website": "https://pothlabs.com",
+    "yc_page": "https://www.ycombinator.com/companies/poth-labs",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, SaaS, B2B, Workflow Automation, Market Research",
+    "yc_partner": "Ankit Gupta",
+    "emails": "contact@pothlabs.com"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "SaaS",
+    "B2B",
+    "Workflow Automation",
+    "Market Research"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-06-29T06:11:09.025Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 29,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 32,
+    "EG": 32,
+    "NR": 37,
+    "PG": 41,
+    "PT": 34,
+    "SL": 26,
+    "VK": 29
+  },
+  "consolidatedAvg": 33,
+  "consolidatedRank": 40,
+  "traction": {
+    "tractionRank": 33,
+    "tractionScore": 6,
+    "tractionReason": "German founder press, no company metrics"
+  },
+  "paths": {
+    "memo": "summer2026/memos/poth-labs.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/poth-labs.md",
+      "elad-gil": "summer2026/evals/elad-gil/poth-labs.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/poth-labs.md",
+      "paul-graham": "summer2026/evals/paul-graham/poth-labs.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/poth-labs.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/poth-labs.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/poth-labs.md"
+    }
+  }
+}

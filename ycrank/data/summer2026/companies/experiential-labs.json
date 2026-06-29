@@ -1,0 +1,80 @@
+{
+  "slug": "experiential-labs",
+  "name": "Experiential Labs",
+  "oneLiner": "World models for AI agents",
+  "metadata": {
+    "website": "https://experientiallabs.ai",
+    "yc_page": "https://www.ycombinator.com/companies/experiential-labs",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Infrastructure, AI",
+    "yc_partner": "Diana Hu",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Infrastructure",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-06-29T06:03:12.493Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 39,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 48,
+    "EG": 44,
+    "NR": 50,
+    "PG": 53,
+    "PT": 39,
+    "SL": 36,
+    "VK": 39
+  },
+  "consolidatedAvg": 44.14,
+  "consolidatedRank": 7,
+  "traction": {
+    "tractionRank": 25,
+    "tractionScore": 15,
+    "tractionReason": "83 combined GitHub stars across repos"
+  },
+  "paths": {
+    "memo": "summer2026/memos/experiential-labs.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/experiential-labs.md",
+      "elad-gil": "summer2026/evals/elad-gil/experiential-labs.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/experiential-labs.md",
+      "paul-graham": "summer2026/evals/paul-graham/experiential-labs.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/experiential-labs.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/experiential-labs.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/experiential-labs.md"
+    }
+  }
+}

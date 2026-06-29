@@ -1,0 +1,76 @@
+{
+  "slug": "hop-aero",
+  "name": "Hop Aero",
+  "oneLiner": "Rocket cargo delivery to contested environments",
+  "metadata": {
+    "website": "https://hop-aero.com",
+    "yc_page": "https://www.ycombinator.com/companies/hop-aero",
+    "batch": "Summer 2026",
+    "industry": "Industrials / Industrials -> Defense",
+    "team_size": "6",
+    "location": "Los Angeles, CA, USA",
+    "yc_partner": "Tyler Bosmeny",
+    "emails": "No public data found"
+  },
+  "tags": [],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-06-29T06:03:43.453Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 62,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 63,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 62,
+    "EG": 41,
+    "NR": 34,
+    "PG": 49,
+    "PT": 44,
+    "SL": 39,
+    "VK": 63
+  },
+  "consolidatedAvg": 47.43,
+  "consolidatedRank": 4,
+  "traction": {
+    "tractionRank": 7,
+    "tractionScore": 60,
+    "tractionReason": "$1.25M USAF SBIR contract, $3M pre-seed"
+  },
+  "paths": {
+    "memo": "summer2026/memos/hop-aero.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/hop-aero.md",
+      "elad-gil": "summer2026/evals/elad-gil/hop-aero.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/hop-aero.md",
+      "paul-graham": "summer2026/evals/paul-graham/hop-aero.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/hop-aero.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/hop-aero.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/hop-aero.md"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+﻿# GUILD -- Naval Ravikant Evaluation
+
+Kaya Celebi and Erim Gurlemis are two ex-Morgan-Stanley / ex-Hartree ML engineers proposing to become a prime contractor to the DoD with a 2-person team and the standard YC $500K -- and that sentence is already the dimensional signature. GUILD's highest dimension is market size ($300B+ obligated annually to the top 25 primes, fed-spend.com); GUILD's lowest is leverage architecture, because every dollar of that $300B flows through CAGE codes, CMMC, ITAR, security clearances, and program-office relationships. GUILD is, structurally, the inverse of what I fund -- a capital-and-labor-leverage business wearing an AI-Native tagline.
+
+**Twitter** in 2007 is the high rung on leverage architecture: anyone could post, the platform charged nothing, the marginal cost of replication was zero, and distribution was the product. GUILD shares none of that mechanism. The YC page describes GUILD as orchestrating suppliers to "source, fund, produce, and deliver defense contracts end-to-end" -- that is working-capital leverage gated by DoD permission, the exact pattern nav.al/product-media calls out as requiring permission. Even **Anchorage Digital**, my one Known Exception where permission became the moat, only cleared because I had been compounding crypto-category conviction since co-founding **MetaStable** in 2014 and the founders carried domain-native specific knowledge. GUILD's founders carry neither analogue -- I have no defense-procurement portfolio sleeve, and the dossier shows no CAGE code, no past-performance history, no cleared facility. Permission without pre-consensus category conviction is not a moat, it is a tax.
+
+**Pinterest** is my low rung on this axis but inverted -- I passed *despite* the architecture being right; here I would pass *because* the architecture is wrong. The dossier names no open-source artifact, no GitHub stars retrievable for @kcelebi, no organic X following on either founder, no developer pull, no creator pull. GUILD's go-to-market is direct sales to DoD program offices and NATO ministries -- the labor-leverage SDR motion that nav.al/product-media flags as requiring permission from every gatekeeper in the stack. The Cipher Brief Neoprime tailwind is real, but tailwinds do not retrofit permissionless distribution onto a contracting integrator.
+
+**Stack Overflow** (2008) is the single-anchor parallel for specific knowledge: Atwood and Spolsky were practicing developers writing for developers, and the founder-product-market fit was load-bearing. Kaya Celebi and Erim Gurlemis are practicing ML engineers writing AI for... defense procurement, a domain neither has shipped into. Hartree Partners is commodities; Morgan Stanley is a bank; Columbia CS is Columbia CS. The dossier contains zero evidence of DIU rotations, DoD program-office experience, CMMC auditor exposure, or supplier-quality engineering history. Specific knowledge here is *AI*, not *defense supply chains* -- and the load-bearing knowledge for a Neoprime is the latter.
+
+GUILD's market dimension compounds the wrong way over 18 months. The $300B TAM is real, but the pivot vectors inside regulated defense procurement are narrow -- every adjacent move (FedCiv contracting, NATO ministries, dual-use manufacturing) still requires the same compliance stack GUILD has not yet built. **Twitter** (2007) had Odeo's runway to pivot from podcasting because media is permissionless; GUILD has YC's $500K and a 2-person team to qualify as a prime in a domain where Hadrian raised $476.5M and Anduril is at $30.5B post -- the capital-intensity mismatch the dossier flags explicitly is the gating issue, not the TAM.
+
+Founder integrity reads clean -- Erim Gurlemis is registered with Series 66 on the SEC IAPD, no contested exits, no self-promotion about ethics. That is a neutral 7/14, not a negative. The trio gates pass; the leverage gate does not.
+
+GUILD's 36-month forecast: GUILD pivots away from being the prime and toward selling AI-procurement *software* to existing primes and Neoprimes -- the **Procurement Sciences** lane -- reaching $0.5-2M ARR by mid-2029 or shutting down for working-capital reasons before the first Phase III award lands. The mechanism is the signature: a big-market thesis without permissionless distribution forces founders to either acquire the permission stack (impossible on $500K and 2 heads) or to retreat to the software layer where their actual specific knowledge (AI/ML) compounds.
+
+The strongest bull case is **Anchorage Digital** as precedent: regulated moats can flip permissioned into permission-as-moat, and the Neoprime category is growing 5-20x faster than legacy primes per Cipher Brief (2025). The case stings because the tailwind is genuine. It loses on two counts: Anchorage cleared because I had compounded crypto-category conviction since 2014 *and* the founders carried extreme specific knowledge in custody architecture -- GUILD's founders carry neither a defense thesis I have been quietly accumulating into nor lived domain knowledge in procurement compliance. The verdict flips if GUILD adds a co-founder or first hire who carries CMMC/ITAR auditing experience or a DoD program-office past-performance history within 12 months, AND ships a visible AI-procurement artifact (open-source, public benchmark, or named-supplier LOI) that demonstrates the orchestration layer actually works. Absent both, GUILD is the inverse of my **Notion** (2013) and **Replit** (2023) entries -- right founders, wrong leverage architecture, in a category I have never funded.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Permissionless Leverage Architecture (Code or Media as Primary Distribution) | 5/28 |
+| Marketplace or Network with Compounding User-Added Value | 7/22 |
+| Founder Has Non-Trainable Specific Knowledge in the Domain | 6/20 |
+| Big Market with Room for Multiple Pivots Without Refinancing | 8/16 |
+| Founder Trio (Intelligence + Energy + Integrity) Reads as a 10-Year Partner | 7/14 |
+| **Total** | **33/100** |
+
+**Total Score: 33/100** (Pass)

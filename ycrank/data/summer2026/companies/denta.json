@@ -1,0 +1,81 @@
+{
+  "slug": "denta",
+  "name": "Denta",
+  "oneLiner": "The dental practice that runs itself",
+  "metadata": {
+    "website": "https://trydenta.com",
+    "yc_page": "https://www.ycombinator.com/companies/denta",
+    "batch": "Summer 2026",
+    "industry": "Healthcare / Healthcare -> Healthcare IT",
+    "team_size": "1",
+    "location": "San Francisco, CA, USA",
+    "tags": "Dental, Healthcare IT, AI",
+    "yc_partner": "Jared Friedman",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Dental",
+    "Healthcare IT",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-06-29T06:05:15.363Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 60,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 31,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 58,
+    "EG": 38,
+    "NR": 39,
+    "PG": 60,
+    "PT": 29,
+    "SL": 33,
+    "VK": 31
+  },
+  "consolidatedAvg": 41.14,
+  "consolidatedRank": 14,
+  "traction": {
+    "tractionRank": 12,
+    "tractionScore": 46,
+    "tractionReason": "$3K MRR, 60 practices piloting"
+  },
+  "paths": {
+    "memo": "summer2026/memos/denta.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/denta.md",
+      "elad-gil": "summer2026/evals/elad-gil/denta.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/denta.md",
+      "paul-graham": "summer2026/evals/paul-graham/denta.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/denta.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/denta.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/denta.md"
+    }
+  }
+}

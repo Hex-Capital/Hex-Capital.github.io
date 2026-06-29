@@ -1,0 +1,30 @@
+﻿# Dialogus -- Paul Graham Evaluation
+
+Dialogus is three FAANG interns -- Hans Ibarra (Google), Juberth Rodriguez (Amazon), Rodrigo Terán (Microsoft, Google, Meta) -- pointing a clean enterprise-voice-infra deck at a category where Bland is already doing 3.5M calls a week and Vapi just took $50M at a $500M valuation. The signature is a respectable trio configuration paired with a near-total absence of pre-funding animal evidence, and that pairing is the entire problem. This is the Pass Example I wrote down years ago, only with better internships.
+
+On animal resourcefulness, the high rung in my head is **Airbnb** (2009) selling 1,000 boxes of Obama O's at $40 each to fund the company when nobody else would. The mechanism is that the cereal boxes weren't a fundraising tactic, they were a revealed character test -- people who'll do that will also fly to New York and photograph hosts' apartments door to door. I look at Dialogus and ask what the cereal boxes are, and the dossier returns a "Book a demo" cal.com link and "zero public traction surface" -- no Product Hunt, no GitHub stars retrievable, no HN demo, no signed LOI, no $2K MRR from a hand-built pilot. Dialogus may have done something resourceful in private, but animals leave tracks, and I don't see tracks.
+
+The Pass Example failure mechanism is "two MBAs, glossy deck, $50B TAM slide, we'll hire engineers post-funding" -- credentials standing in for shipped artifacts. Dialogus isn't quite that; these are real engineers from real teams. But the dossier's founder section reads like a LinkedIn export -- "SWE Intern @ Google," "SDE Intern @ Amazon," "Ex-Microsoft, Google, Meta" -- and the Idea section is one layer up from Vapi/Retell/Bland, which is exactly the framing a strategy consultant would land on after a competitive analysis. Drew Houston had a USB stick he kept forgetting; the Collisons had been hacking commerce since they were teenagers. I cannot find the equivalent biographical fact pinning Dialogus to enterprise voice infra. The closest is Rodrigo Terán's prior CTO role at NeoJaus, a Mexican real estate platform -- adjacent to no part of the current product.
+
+The schlep dimension is the one place Dialogus has a real argument, and over 18 months the mechanism would compound if the team genuinely runs toward CRM integration, telephony, and compliance logging the way **Coinbase** (2012) ran toward bitcoin KYC. The problem is that the schlep is no longer contrarian -- Vapi, Retell, and Bland have been grinding through enterprise telephony for two-plus years, and Amazon Ring picked Vapi over 40 rivals because compliance and SLA work was already done. Schleps stop being moats once five well-funded teams are publicly inside them. Dialogus is entering a schlep zone that has already been claimed; the asymmetry I price into Coinbase isn't available here.
+
+The hacker-genealogy counterfactual: what would have to be true for this dimension to flip a tier? One named open-source project with non-trivial stars from any of the three founders, or a competitive-programming finish, or an HN-visible side artifact. The dossier reports Ibarra's GitHub at @Falaxsa13 with stars "not retrievable via search snippet," and nothing at all for Rodriguez or Terán. CS degrees plus FAANG internships are credentials, not lineage; Patrick Collison won the Young Scientist prize for Lisp work before he was old enough to drink. I can't find the equivalent fact for Dialogus, and absence of GitHub is itself a signal for a team building infrastructure.
+
+On co-founder configuration, the single-anchor parallel is **Airbnb** (2009)'s three-person team -- Chesky/Gebbia/Blecharczyk -- where two had roomed together at RISD for years before Blecharczyk joined. Dialogus has three, with Rodriguez and Terán inferred to share ITESM as alma mater and Ibarra coming in from Georgia Tech. That's the strongest dimension here, and it clears my bar -- not solo, not strangers from a hackathon -- but it's load-bearing only if the other dimensions support it, and they don't.
+
+My 36-month forecast for Dialogus: small acquihire to a Vapi or Retell-tier competitor for under $10M, having reached under $500K ARR, because the well-funded incumbents close the workflow-execution gap before Dialogus differentiates on it. The mechanism is straightforward -- Bland has 250+ enterprise customers paying real money today, Vapi has 62M monthly calls and an Amazon Ring logo, and any of them can ship CRM connectors in a quarter. Dialogus is positioned "one layer up" from infra, but that layer is a feature on the incumbents' roadmap, not a category.
+
+The strongest bull case for Dialogus is that Rodrigo Terán has already been a startup CTO at NeoJaus, the combined Google/Amazon/Microsoft/Meta engineering exposure across three founders is genuinely rare for a pre-seed team, and enterprise voice is one of the few 2026 markets with Gartner-validated 29.5% CAGR tailwinds. **Stripe** (2010) is the Known Exception that almost rhymes -- the Collisons came in with prior-company credentials (Auctomatic, $5M exit) and I bent my rules. But the bend was justified by Patrick's Lisp prize and the brothers' organic commerce-hacking biography -- the technical lineage was unmistakable. Dialogus has the credentialed-prior-startup half of the Stripe exception (Terán/NeoJaus) without the hacker-lineage half, and credentials alone don't trigger the override. One condition would flip my verdict: a Dialogus-shipped artifact -- a real voice agent in production at a named enterprise, even unpaid -- demonstrating the team will personally do the unscalable integration work. Until then, this is the clever-idea, soft-founders pattern where I lose money.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Demonstrates Animal Resourcefulness Pre-Funding | 9/35 |
+| Idea Is Organic to Founders' Own Pain | 6/25 |
+| Problem Sits in a Schlep Zone Mainstream Founders Avoid | 7/15 |
+| Hacker Genealogy in the Founder Team | 5/15 |
+| Co-founder Configuration Is a Strong Pair or Trio, Not Solo | 6/10 |
+| **Total** | **33/100** |
+
+**Total Score: 33/100** (Pass)

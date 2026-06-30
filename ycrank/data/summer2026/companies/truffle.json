@@ -62,9 +62,9 @@
   "consolidatedAvg": 39.14,
   "consolidatedRank": 16,
   "traction": {
-    "tractionRank": 45,
-    "tractionScore": 1,
-    "tractionReason": "No public data, landing page only"
+    "tractionRank": 30,
+    "tractionScore": 15,
+    "tractionReason": "Landing page live; no metrics disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/truffle.md",

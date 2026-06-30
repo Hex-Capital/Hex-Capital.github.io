@@ -62,9 +62,9 @@
   "consolidatedAvg": 37.29,
   "consolidatedRank": 27,
   "traction": {
-    "tractionRank": 43,
-    "tractionScore": 1,
-    "tractionReason": "No public data found on any traction signal"
+    "tractionRank": 38,
+    "tractionScore": 9,
+    "tractionReason": "Founder Twitter handles only; no public data"
   },
   "paths": {
     "memo": "summer2026/memos/mireye.md",

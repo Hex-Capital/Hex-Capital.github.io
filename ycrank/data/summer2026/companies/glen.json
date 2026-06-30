@@ -62,9 +62,9 @@
   "consolidatedAvg": 38,
   "consolidatedRank": 21,
   "traction": {
-    "tractionRank": 24,
-    "tractionScore": 17,
-    "tractionReason": "\"In production\", waitlist wave onboarding"
+    "tractionRank": 17,
+    "tractionScore": 36,
+    "tractionReason": "In production with waitlist wave onboarding"
   },
   "paths": {
     "memo": "summer2026/memos/glen.md",

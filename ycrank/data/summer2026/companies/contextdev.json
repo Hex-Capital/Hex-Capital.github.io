@@ -61,9 +61,9 @@
   "consolidatedAvg": 41.43,
   "consolidatedRank": 12,
   "traction": {
-    "tractionRank": 4,
-    "tractionScore": 74,
-    "tractionReason": "250+ paying companies incl. Klarna, Mintlify"
+    "tractionRank": 3,
+    "tractionScore": 78,
+    "tractionReason": "250+ companies powered including Mintlify, Klarna; paid tiers"
   },
   "paths": {
     "memo": "summer2026/memos/contextdev.md",

@@ -1,0 +1,83 @@
+{
+  "slug": "molagri",
+  "name": "Molagri",
+  "oneLiner": "Biopesticides that are safe for humans and bees.",
+  "metadata": {
+    "website": "https://molagri.com",
+    "yc_page": "https://www.ycombinator.com/companies/molagri",
+    "batch": "Summer 2026",
+    "industry": "Industrials / Industrials -> Agriculture",
+    "team_size": "4",
+    "location": "Toronto, ON, Canada",
+    "tags": "Synthetic Biology, Biotech, Sustainability, Climate, Agriculture",
+    "yc_partner": "Tyler Bosmeny",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Synthetic Biology",
+    "Biotech",
+    "Sustainability",
+    "Climate",
+    "Agriculture"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-06-30T04:52:35.148Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 51,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 44,
+    "EG": 28,
+    "NR": 32,
+    "PG": 41,
+    "PT": 28,
+    "SL": 29,
+    "VK": 51
+  },
+  "consolidatedAvg": 36.14,
+  "consolidatedRank": 31,
+  "traction": {
+    "tractionRank": 49,
+    "tractionScore": 3,
+    "tractionReason": "Website 403; no public data found"
+  },
+  "paths": {
+    "memo": "summer2026/memos/molagri.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/molagri.md",
+      "elad-gil": "summer2026/evals/elad-gil/molagri.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/molagri.md",
+      "paul-graham": "summer2026/evals/paul-graham/molagri.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/molagri.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/molagri.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/molagri.md"
+    }
+  }
+}

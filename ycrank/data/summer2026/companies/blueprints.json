@@ -62,9 +62,9 @@
   "consolidatedAvg": 37.29,
   "consolidatedRank": 25,
   "traction": {
-    "tractionRank": 8,
-    "tractionScore": 57,
-    "tractionReason": "$500K+ trading volume, 250+ public beta users"
+    "tractionRank": 12,
+    "tractionScore": 50,
+    "tractionReason": "$500K trading volume processed; 250+ public beta users"
   },
   "paths": {
     "memo": "summer2026/memos/blueprints.md",

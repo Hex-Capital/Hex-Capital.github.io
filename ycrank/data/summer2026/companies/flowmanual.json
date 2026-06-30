@@ -59,11 +59,11 @@
     "VK": 29
   },
   "consolidatedAvg": 33.43,
-  "consolidatedRank": 38,
+  "consolidatedRank": 40,
   "traction": {
-    "tractionRank": 17,
-    "tractionScore": 32,
-    "tractionReason": "Cedar Ridge Mechanical case study, free trial live"
+    "tractionRank": 21,
+    "tractionScore": 28,
+    "tractionReason": "Cedar Ridge Mechanical case study; free trial live"
   },
   "paths": {
     "memo": "summer2026/memos/flowmanual.md",

@@ -1,0 +1,79 @@
+{
+  "slug": "verdant",
+  "name": "Verdant",
+  "oneLiner": "AI-native land-use permit management for local gov",
+  "metadata": {
+    "website": "https://www.verdantapp.com/",
+    "yc_page": "https://www.ycombinator.com/companies/verdant",
+    "batch": "Summer 2026 (YC company page)",
+    "industry": "Government / Government",
+    "team_size": "2",
+    "location": "Not listed on YC page",
+    "tags": "GovTech",
+    "yc_partner": "Jared Friedman (YC company page)",
+    "emails": "aidan@verdantapp.com (verdantapp.com)"
+  },
+  "tags": [
+    "GovTech"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-06-30T04:52:15.242Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 25,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 25,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 30,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 42,
+    "EG": 31,
+    "NR": 29,
+    "PG": 36,
+    "PT": 25,
+    "SL": 25,
+    "VK": 30
+  },
+  "consolidatedAvg": 31.14,
+  "consolidatedRank": 48,
+  "traction": {
+    "tractionRank": 48,
+    "tractionScore": 4,
+    "tractionReason": "YC S26 backing only; zero open positions"
+  },
+  "paths": {
+    "memo": "summer2026/memos/verdant.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/verdant.md",
+      "elad-gil": "summer2026/evals/elad-gil/verdant.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/verdant.md",
+      "paul-graham": "summer2026/evals/paul-graham/verdant.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/verdant.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/verdant.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/verdant.md"
+    }
+  }
+}

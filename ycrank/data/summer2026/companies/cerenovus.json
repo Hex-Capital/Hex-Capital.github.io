@@ -58,11 +58,11 @@
     "VK": 32
   },
   "consolidatedAvg": 29,
-  "consolidatedRank": 45,
+  "consolidatedRank": 49,
   "traction": {
-    "tractionRank": 18,
-    "tractionScore": 30,
-    "tractionReason": "Pilot customers live, no metrics disclosed"
+    "tractionRank": 16,
+    "tractionScore": 38,
+    "tractionReason": "Pilot customers live; 2 founding engineer roles"
   },
   "paths": {
     "memo": "summer2026/memos/cerenovus.md",

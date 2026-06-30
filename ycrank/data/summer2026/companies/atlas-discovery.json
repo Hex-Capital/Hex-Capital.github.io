@@ -62,9 +62,9 @@
   "consolidatedAvg": 38,
   "consolidatedRank": 20,
   "traction": {
-    "tractionRank": 29,
-    "tractionScore": 10,
-    "tractionReason": "Named investors, bioRxiv paper, no revenue"
+    "tractionRank": 28,
+    "tractionScore": 17,
+    "tractionReason": "bioRxiv paper; YC, Pear, Glasswing backing"
   },
   "paths": {
     "memo": "summer2026/memos/atlas-discovery.md",

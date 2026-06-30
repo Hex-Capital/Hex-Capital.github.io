@@ -1,0 +1,83 @@
+{
+  "slug": "greypoint-industries",
+  "name": "Greypoint Industries",
+  "oneLiner": "Manufacturing the future of autonomous swarm warfare.",
+  "metadata": {
+    "website": "https://greypointindustries.ca/",
+    "yc_page": "https://www.ycombinator.com/companies/greypoint-industries",
+    "batch": "Summer 2026",
+    "industry": "Industrials / Industrials -> Defense",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "Hardware, Robotics, Drones, Manufacturing, Defense",
+    "yc_partner": "Tyler Bosmeny",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Hardware",
+    "Robotics",
+    "Drones",
+    "Manufacturing",
+    "Defense"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-06-30T04:52:55.177Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 50,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 38,
+    "EG": 43,
+    "NR": 27,
+    "PG": 41,
+    "PT": 29,
+    "SL": 26,
+    "VK": 50
+  },
+  "consolidatedAvg": 36.29,
+  "consolidatedRank": 30,
+  "traction": {
+    "tractionRank": 26,
+    "tractionScore": 19,
+    "tractionReason": "Defence Tech Hackathon 1st place, $5,000 prize"
+  },
+  "paths": {
+    "memo": "summer2026/memos/greypoint-industries.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/greypoint-industries.md",
+      "elad-gil": "summer2026/evals/elad-gil/greypoint-industries.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/greypoint-industries.md",
+      "paul-graham": "summer2026/evals/paul-graham/greypoint-industries.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/greypoint-industries.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/greypoint-industries.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/greypoint-industries.md"
+    }
+  }
+}

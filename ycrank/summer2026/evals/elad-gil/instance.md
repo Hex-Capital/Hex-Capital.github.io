@@ -1,0 +1,30 @@
+﻿# Instance -- Elad Gil Evaluation
+
+Instance is a real-catalyst, zero-velocity pre-seed: the NVIDIA Cosmos launch (Jan 2025) and the wave of world-model output that followed is a genuine 24-month re-opening, but Lucy Cai and Claire Mao are bringing an empty traction file and a January-2026 pivot off a text-to-SQL product into a category where four academic benchmarks (T2VPhysBench, WorldModelBench, VideoPhy-2, LikePhys) are already shipping the core capability for free. That mismatch -- catalyst real, curve absent, miracle count high -- is Instance's signature, and it's the kind of profile I've learned to walk past even when I like the market.
+
+The catalyst test is where Instance scores best, and the right comparison is **Anduril** (2022): defense reopened because Ukraine exposed Pentagon software inadequacy on a 24-month clock, and the mechanism that made Anduril load-bearing was that the catalyst created a buyer that didn't previously exist at scale. Instance has an analogous structural setup -- NVIDIA Cosmos (Jan 2025) plus Genie/Veo-class systems crossing usability for robotics synthetic data is a specific step-function, not a steady-state market. But Anduril showed up with Trae Stephens and Palmer Luckey already shipping into the catalyst's buyer; Instance shows up with a landing page and a pivot. The catalyst is real, the position on the catalyst is speculative -- which is why Instance lands closer to the middle of this ladder, not the top.
+
+On revenue velocity, the failure mechanism to keep in mind is the generic AI pitch I pass on weekly: vision deck, no curve, founder narrative substituting for buying behavior -- "if you're an AI company and you're not seeing explosive growth quickly, something's fundamentally broken." Instance's dossier is explicit: no pricing page on tryinstance.app as of June 2026, no disclosed customers, no MRR, and the previous Instance product (the text-to-SQL one Lucy described on LinkedIn in January 2026) didn't survive to produce a logo Instance can carry forward. The pivot resets the clock; the silence on growth six months into a YC batch is the negative signal, not stage default.
+
+Founder execution rhythm compounds or fails over 18 months based on whether the founders have a demonstrated public shipping cadence I can underwrite. Lucy Cai's MIT Lincoln Lab work on ML-driven 2D-to-3D point clouds is genuinely adjacent to world models, which is the strongest single fact in this dossier -- but there's no public GitHub for either Lucy or Claire, no shipped artifact I can point to other than the abandoned text-to-SQL product, and no Twitter presence for either founder. **Perplexity** (2022) entered my portfolio because Aravind pinged me on LinkedIn and showed up a week later with the thing built; the Instance dossier gives me no equivalent rhythm signal to underwrite at this stage.
+
+The index-position question would flip a tier if Instance had even one named frontier lab -- the NVIDIA Cosmos team, a Genie/Veo group, a robotics foundation-model startup -- using the benchmark as a quality gate in their training loop. That's the counterfactual that would convert Instance from "narrow tool" into "the eval layer every video model must touch," which is structurally the **Decagon** (2023) workflow-infrastructure shape in my *AI Market Clarity* taxonomy. Without that anchor customer, Instance's buyer set is small (handful of frontier labs), most of whom build eval in-house, and Encord is already selling into Woven by Toyota and Skydio -- the distribution wedge is hypothetical, not visible.
+
+Single-miracle: compare to **Color Genomics** (2015), where I architected the company as workflow on top of commodity sequencing precisely to isolate the miracle to operational execution, not chemistry. Instance is the inverse architecture -- the dossier itself cites LikePhys (Oct 2025) framing reliable automated physics-violation detection as an open research problem, which means Instance needs (a) a research-grade detector to work, (b) a human-in-the-loop scaling layer that beats Surge's annotator network, and (c) frontier-lab buyers who don't build it themselves. That's three miracles compounded, and the math doesn't survive it.
+
+My 36-month forecast on Instance: pivots again within 12 months or gets acqui-hired by Encord or a Meta-adjacent labeling team for under $30M with ARR below $1M -- the catalyst is real but the eval layer commoditizes before Instance can monetize it, and the founders' MIT vision-ML credentials are worth more to an acquirer than the standalone company. Forecast follows the signature: catalyst-without-curve in a pre-paradigmatic category usually ends as talent value, not enterprise value.
+
+The strongest bull case against that forecast is the **Decagon**/**Abridge** (2023) template: workflow infrastructure on top of a catalyzed model category, where the early eval/scribe layer became the durable buy. Steel-manned, Instance could be the Abridge of synthetic video -- physics-eval as the wedge into a broader quality and data-curation platform every world-model lab eventually standardizes on. The reason I don't take that bet here: Abridge had Shiv Rao shipping a working product into health systems with named pilot customers when I underwrote it, and the medical scribe category had no free academic substitute. Instance has neither -- four open-source benchmarks already cover the core capability, and the dossier names zero customers. One verifiable condition would flip me: a signed paid contract with the NVIDIA Cosmos team or a top-three video-model lab within 90 days. Until then, this is a pass on revenue silence in an AI category, per my standard rule.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Market Re-Opening Via Specific Recent Catalyst | 16/28 |
+| Revenue Velocity or Usage Curve Already Visible | 5/25 |
+| Founder Ships Iteratively Between Conversations | 8/20 |
+| Index-Like Distribution Position On A Compounding Category | 6/15 |
+| Single-Miracle Architecture Rather Than Multi-Miracle Dependency | 4/12 |
+| **Total** | **39/100** |
+
+**Total Score: 39/100** (Pass)

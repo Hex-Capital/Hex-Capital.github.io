@@ -64,8 +64,8 @@
   "consolidatedRank": 29,
   "traction": {
     "tractionRank": 20,
-    "tractionScore": 25,
-    "tractionReason": "Unverified metric claims, no confirmed paying customers"
+    "tractionScore": 30,
+    "tractionReason": "Three demo customer logos; usage-based pricing claims"
   },
   "paths": {
     "memo": "summer2026/memos/whitespace.md",

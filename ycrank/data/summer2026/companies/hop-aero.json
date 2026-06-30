@@ -57,9 +57,9 @@
   "consolidatedAvg": 47.43,
   "consolidatedRank": 4,
   "traction": {
-    "tractionRank": 7,
-    "tractionScore": 60,
-    "tractionReason": "$1.25M USAF SBIR contract, $3M pre-seed"
+    "tractionRank": 10,
+    "tractionScore": 55,
+    "tractionReason": "$1.25M USAF SBIR contract awarded"
   },
   "paths": {
     "memo": "summer2026/memos/hop-aero.md",

@@ -64,7 +64,7 @@
   "traction": {
     "tractionRank": 1,
     "tractionScore": 88,
-    "tractionReason": "150+ clinics, profitable, 140% MoM, zero churn"
+    "tractionReason": "150+ GP clinics, profitable, zero churn, 140% MoM"
   },
   "paths": {
     "memo": "summer2026/memos/care-gp.md",

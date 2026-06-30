@@ -62,9 +62,9 @@
   "consolidatedAvg": 37.29,
   "consolidatedRank": 26,
   "traction": {
-    "tractionRank": 21,
-    "tractionScore": 22,
-    "tractionReason": "1,122 Twitter followers, no revenue disclosed"
+    "tractionRank": 27,
+    "tractionScore": 18,
+    "tractionReason": "1,122 Twitter followers; cal.com booking link live"
   },
   "paths": {
     "memo": "summer2026/memos/markov.md",

@@ -60,11 +60,11 @@
     "VK": 30
   },
   "consolidatedAvg": 34.86,
-  "consolidatedRank": 32,
+  "consolidatedRank": 34,
   "traction": {
-    "tractionRank": 44,
-    "tractionScore": 1,
-    "tractionReason": "Demo gated, website 403, no signals"
+    "tractionRank": 47,
+    "tractionScore": 4,
+    "tractionReason": "Demo/waitlist gated; website returned 403"
   },
   "paths": {
     "memo": "summer2026/memos/perceptron-ml.md",

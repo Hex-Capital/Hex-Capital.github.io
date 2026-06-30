@@ -60,11 +60,11 @@
     "VK": 27
   },
   "consolidatedAvg": 32.14,
-  "consolidatedRank": 42,
+  "consolidatedRank": 45,
   "traction": {
-    "tractionRank": 30,
-    "tractionScore": 9,
-    "tractionReason": "100+ partner discovery interviews, pre-launch"
+    "tractionRank": 36,
+    "tractionScore": 10,
+    "tractionReason": "100+ partner customer-discovery interviews; no customers"
   },
   "paths": {
     "memo": "summer2026/memos/osmaura.md",

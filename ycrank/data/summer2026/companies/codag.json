@@ -60,9 +60,9 @@
   "consolidatedAvg": 43.57,
   "consolidatedRank": 8,
   "traction": {
-    "tractionRank": 22,
-    "tractionScore": 20,
-    "tractionReason": "42 GitHub stars, MCP integrations live"
+    "tractionRank": 24,
+    "tractionScore": 22,
+    "tractionReason": "42 GitHub stars; MCP integrations with Claude Code"
   },
   "paths": {
     "memo": "summer2026/memos/codag.md",

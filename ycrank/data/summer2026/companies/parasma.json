@@ -62,9 +62,9 @@
   "consolidatedAvg": 50.57,
   "consolidatedRank": 2,
   "traction": {
-    "tractionRank": 26,
-    "tractionScore": 13,
-    "tractionReason": "Founder press coverage, no company revenue"
+    "tractionRank": 33,
+    "tractionScore": 12,
+    "tractionReason": "Founder Doom-on-neurons press; no company traction"
   },
   "paths": {
     "memo": "summer2026/memos/parasma.md",

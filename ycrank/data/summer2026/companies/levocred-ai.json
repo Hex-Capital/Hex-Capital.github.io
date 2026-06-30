@@ -61,8 +61,8 @@
   "consolidatedAvg": 41.86,
   "consolidatedRank": 11,
   "traction": {
-    "tractionRank": 6,
-    "tractionScore": 64,
+    "tractionRank": 8,
+    "tractionScore": 60,
     "tractionReason": "$500M capital monitored, 10+ facilities, named customer"
   },
   "paths": {

@@ -60,11 +60,11 @@
     "VK": 31
   },
   "consolidatedAvg": 37.71,
-  "consolidatedRank": 24,
+  "consolidatedRank": 25,
   "traction": {
     "tractionRank": 7,
     "tractionScore": 62,
-    "tractionReason": "4 brokerage customers including Four Seasons Sotheby's"
+    "tractionReason": "4 brokerages incl. Four Seasons Sotheby's"
   },
   "paths": {
     "memo": "summer2026/memos/realpact.md",

@@ -62,11 +62,11 @@
     "VK": 34
   },
   "consolidatedAvg": 35.29,
-  "consolidatedRank": 32,
+  "consolidatedRank": 33,
   "traction": {
-    "tractionRank": 43,
-    "tractionScore": 6,
-    "tractionReason": "Team of 3; invite-only, no metrics"
+    "tractionRank": 41,
+    "tractionScore": 5,
+    "tractionReason": "Team of 3, landing page live, no metrics"
   },
   "paths": {
     "memo": "summer2026/memos/florin.md",

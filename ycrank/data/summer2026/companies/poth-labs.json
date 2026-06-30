@@ -62,11 +62,11 @@
     "VK": 29
   },
   "consolidatedAvg": 33,
-  "consolidatedRank": 42,
+  "consolidatedRank": 44,
   "traction": {
-    "tractionRank": 35,
-    "tractionScore": 10,
-    "tractionReason": "German press profiling founder; no customer data"
+    "tractionRank": 31,
+    "tractionScore": 12,
+    "tractionReason": "German press of founder, no customers"
   },
   "paths": {
     "memo": "summer2026/memos/poth-labs.md",

@@ -60,9 +60,9 @@
   "consolidatedAvg": 46,
   "consolidatedRank": 6,
   "traction": {
-    "tractionRank": 15,
-    "tractionScore": 42,
-    "tractionReason": "Product Hunt 176 upvotes; DoorDash integration live"
+    "tractionRank": 11,
+    "tractionScore": 50,
+    "tractionReason": "DoorDash integration live, 176 PH upvotes"
   },
   "paths": {
     "memo": "summer2026/memos/agentcard.md",

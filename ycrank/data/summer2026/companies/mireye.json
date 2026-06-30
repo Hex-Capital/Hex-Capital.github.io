@@ -60,11 +60,11 @@
     "VK": 32
   },
   "consolidatedAvg": 37.29,
-  "consolidatedRank": 27,
+  "consolidatedRank": 28,
   "traction": {
-    "tractionRank": 38,
-    "tractionScore": 9,
-    "tractionReason": "Founder Twitter handles only; no public data"
+    "tractionRank": 48,
+    "tractionScore": 3,
+    "tractionReason": "No revenue, user, or customer data"
   },
   "paths": {
     "memo": "summer2026/memos/mireye.md",

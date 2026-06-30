@@ -60,11 +60,11 @@
     "VK": 29
   },
   "consolidatedAvg": 37.86,
-  "consolidatedRank": 22,
+  "consolidatedRank": 23,
   "traction": {
     "tractionRank": 1,
     "tractionScore": 88,
-    "tractionReason": "150+ GP clinics, profitable, zero churn, 140% MoM"
+    "tractionReason": "150+ clinics, profitable, zero churn, 140% MoM"
   },
   "paths": {
     "memo": "summer2026/memos/care-gp.md",

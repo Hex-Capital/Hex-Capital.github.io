@@ -60,11 +60,11 @@
     "VK": 26
   },
   "consolidatedAvg": 31.29,
-  "consolidatedRank": 47,
+  "consolidatedRank": 49,
   "traction": {
-    "tractionRank": 25,
-    "tractionScore": 20,
-    "tractionReason": "90-day Access Recovery pilot actively recruiting practices"
+    "tractionRank": 32,
+    "tractionScore": 11,
+    "tractionReason": "90-day Access Recovery pilot recruiting"
   },
   "paths": {
     "memo": "summer2026/memos/insurf.md",

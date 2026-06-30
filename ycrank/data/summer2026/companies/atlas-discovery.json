@@ -60,11 +60,11 @@
     "VK": 47
   },
   "consolidatedAvg": 38,
-  "consolidatedRank": 20,
+  "consolidatedRank": 21,
   "traction": {
-    "tractionRank": 28,
-    "tractionScore": 17,
-    "tractionReason": "bioRxiv paper; YC, Pear, Glasswing backing"
+    "tractionRank": 38,
+    "tractionScore": 7,
+    "tractionReason": "YC + Pear + Glasswing, bioRxiv paper"
   },
   "paths": {
     "memo": "summer2026/memos/atlas-discovery.md",

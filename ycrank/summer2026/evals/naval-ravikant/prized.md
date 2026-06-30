@@ -1,0 +1,30 @@
+﻿# Prized -- Naval Ravikant Evaluation
+
+Prized is a competent-builder team running a permission-required business — that is the signature. Hudson Griffith shipped through a YC F24 acquisition at Gander and then engineered at Suno, Marinos Eliades came out of Stanford CS+ME and TA'd CS198; these are real makers. But the thing Prized is making — "Schedule a call" as the only CTA on prized.dev, governance-as-wedge against Retool and Superblocks, table-scoped credentials across 15+ enterprise connectors — is structurally a labor-and-capital-leverage business wearing a code-leverage costume. The pairing matters more than the average: specific knowledge present, leverage architecture inverted.
+
+**Twitter** in 2007 is the canonical permissionless-media bet — anyone could post, the platform charged nothing, the marginal cost of replication was zero, and distribution traveled on the user's own back. The shared mechanism with any legitimate code-leverage bet is the same: the product compounds without asking a gatekeeper for permission. Prized inverts it. The Prized GTM, per the dossier, is "Schedule a call" plus "/sign-in" — no Product Hunt launch, no press, no community, no public GitHub from either founder, no organic-distribution mechanic anywhere in sight. Worse, Prized's stated *value* is itself a permission system: "workspace-scoped credentials" and "explicitly granted tables" mean Prized's job is to install gatekeepers between an employee and their data. The Superblocks May 2025 $23M Series A extension shows the category exists, but it also confirms the category is sold by sales teams, not pulled by code. Prized is closer to the bottom rung than the middle.
+
+**Stack Overflow** in 2008 is the developer-product-by-developers anchor on the specific-knowledge axis — Atwood and Spolsky had been writing for and shipping to developers for years, and that lived ownership of the problem is what made the bet underwriteable before any monetization existed. Prized has builders, not problem-owners. Hudson Griffith was a founding engineer at Gander and an engineer at Suno; Marinos Eliades did CS+ME at Stanford. Neither dossier line says either founder was the non-engineer at sales/ops/CS who got blocked by engineering bandwidth and pasted company data into Cursor without permission — the problem statement on prized.dev. The specific knowledge they have is "we can ship a YC product"; the specific knowledge the thesis demands is "we are the user." Prized lands mid-ladder — above the ex-McKinsey-PM floor, well below the Atwood/Spolsky / Ivan-Zhao ceiling.
+
+The network dimension fails by *mechanism*: Prized's "library of governed tools it actually owns" is an intra-company catalog, which means the Nth Prized customer does not make the (N-1)th Prized customer more valuable. Each Acme is economically independent of each other Acme — the exact single-sided SaaS shape that doesn't underwrite the 10,000x math. Eighteen months of compounding here looks like 18 months of per-seat ARR, not a network curve.
+
+The market dimension is a *counterfactual*: the $52.3B low-code TAM is real, but the pivot vectors from "governed internal tools for non-engineers" are thin — agent platform, vertical workflow tool, or BI co-pilot, all of them crowded by funded incumbents. For Prized to clear the pivot-room bar a tier, the dossier would need to name at least two adjacent expansion paths Hudson Griffith and Marinos Eliades are actually positioned to execute on; it names none, and Retool's AppGen (April 2025) plus Agents (May 2025) plus Superblocks' $60M of capital already occupy the obvious adjacencies.
+
+Founder trio reads clean as a *single-anchor parallel* to early **Notion**: two builders, prior project shipped together, no integrity flags, no self-promotion, the quiet-execution profile I prefer to false-negative on. Ivan Zhao's edge at Notion wasn't the trio — it was the adolescent-onward obsession with productivity tools. Hudson Griffith and Marinos Eliades pass the partner test; they don't yet pass the founder-product-market-fit test the dossier would need to surface.
+
+36-month forecast: Prized gets acqui-hired by Retool, Superblocks, or a mid-market workflow platform (ServiceNow, Workato, Airtable) for sub-$30M total consideration, or pivots into a vertical AI-agent product for one ops function, with ARR under $2M at the inflection. The mechanism producing this is the signature — sales-led GTM with a 2-person team against Retool's $120M ARR and Superblocks' $60M of capital, while the founders are technically credible enough that an acquirer will pay for the team.
+
+The strongest bull case borrows my own **Anchorage Digital** exception: governance-as-moat can flip "permissioned" from disqualifying to defensible when the regulatory layer itself becomes the leverage. Superblocks' May 2025 $23M extension and Retool's defensive AppGen launch both confirm a buyer wants the governance story; if Hudson Griffith and Marinos Eliades land three Fortune 500 governance customers in 12 months, the architecture argument inverts. The bull case stings — but Anchorage required an OCC charter (January 2021), a real regulatory moat. Prized's governance is product configuration, replicable by anyone with $23M, and Superblocks is already that anyone. The flip condition I'd accept: Prized ships an open-source connector framework that earns 1,000+ GitHub stars within nine months, OR posts three named enterprise customers with disclosed seat counts. Until one of those lands, Prized is competent builders pointed at the wrong leverage architecture, and the angel pass is the correct call.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Permissionless Leverage Architecture (Code or Media as Primary Distribution) | 7/28 |
+| Marketplace or Network with Compounding User-Added Value | 7/22 |
+| Founder Has Non-Trainable Specific Knowledge in the Domain | 11/20 |
+| Big Market with Room for Multiple Pivots Without Refinancing | 8/16 |
+| Founder Trio (Intelligence + Energy + Integrity) Reads as a 10-Year Partner | 8/14 |
+| **Total** | **41/100** |
+
+**Total Score: 41/100** (Pass)

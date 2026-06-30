@@ -60,11 +60,11 @@
     "VK": 32
   },
   "consolidatedAvg": 34.86,
-  "consolidatedRank": 35,
+  "consolidatedRank": 36,
   "traction": {
-    "tractionRank": 37,
-    "tractionScore": 9,
-    "tractionReason": "YC $500K; high-school-founder LinkedIn press"
+    "tractionRank": 35,
+    "tractionScore": 8,
+    "tractionReason": "YC S26 + $500K standard deal only"
   },
   "paths": {
     "memo": "summer2026/memos/shepherd-3.md",

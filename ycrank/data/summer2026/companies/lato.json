@@ -61,11 +61,11 @@
     "VK": 29
   },
   "consolidatedAvg": 38.71,
-  "consolidatedRank": 17,
+  "consolidatedRank": 18,
   "traction": {
-    "tractionRank": 9,
-    "tractionScore": 58,
-    "tractionReason": "4 named VC customers: Blume, FoodLabs, Montis, Concept"
+    "tractionRank": 6,
+    "tractionScore": 64,
+    "tractionReason": "4 named VC customers including Blume Equity"
   },
   "paths": {
     "memo": "summer2026/memos/lato.md",

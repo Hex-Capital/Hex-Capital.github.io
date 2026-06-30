@@ -1,0 +1,81 @@
+{
+  "slug": "edviro",
+  "name": "Edviro",
+  "oneLiner": "Energy world models that fix energy waste before it becomes expensive.",
+  "metadata": {
+    "website": "https://edviroenergy.com",
+    "yc_page": "https://www.ycombinator.com/companies/edviro",
+    "batch": "Summer 2026 (YC company page)",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Deep Learning, B2B, Energy",
+    "yc_partner": "Jared Friedman (YC company page)",
+    "emails": "partnerships@edviroenergy.com (edviroenergy.com)"
+  },
+  "tags": [
+    "Deep Learning",
+    "B2B",
+    "Energy"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-06-30T17:20:10.798Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 37,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 43,
+    "EG": 40,
+    "NR": 34,
+    "PG": 59,
+    "PT": 31,
+    "SL": 29,
+    "VK": 37
+  },
+  "consolidatedAvg": 39,
+  "consolidatedRank": 17,
+  "traction": {
+    "tractionRank": 9,
+    "tractionScore": 56,
+    "tractionReason": "$400K customer savings, 7 school sites"
+  },
+  "paths": {
+    "memo": "summer2026/memos/edviro.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/edviro.md",
+      "elad-gil": "summer2026/evals/elad-gil/edviro.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/edviro.md",
+      "paul-graham": "summer2026/evals/paul-graham/edviro.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/edviro.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/edviro.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/edviro.md"
+    }
+  }
+}

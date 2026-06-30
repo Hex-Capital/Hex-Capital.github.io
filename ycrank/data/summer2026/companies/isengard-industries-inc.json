@@ -62,9 +62,9 @@
   "consolidatedAvg": 57,
   "consolidatedRank": 1,
   "traction": {
-    "tractionRank": 6,
-    "tractionScore": 66,
-    "tractionReason": "Six systems in production, combat-deployed Ukrainian front"
+    "tractionRank": 15,
+    "tractionScore": 40,
+    "tractionReason": "Six systems combat-deployed in Ukraine"
   },
   "paths": {
     "memo": "summer2026/memos/isengard-industries-inc.md",

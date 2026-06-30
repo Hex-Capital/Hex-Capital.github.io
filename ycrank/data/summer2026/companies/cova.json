@@ -60,11 +60,11 @@
     "VK": 31
   },
   "consolidatedAvg": 36.43,
-  "consolidatedRank": 28,
+  "consolidatedRank": 29,
   "traction": {
-    "tractionRank": 29,
-    "tractionScore": 16,
-    "tractionReason": "Operational phone/email channels; no metrics disclosed"
+    "tractionRank": 46,
+    "tractionScore": 3,
+    "tractionReason": "Operational phone/email, no metrics"
   },
   "paths": {
     "memo": "summer2026/memos/cova.md",

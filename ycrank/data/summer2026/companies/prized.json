@@ -1,0 +1,81 @@
+{
+  "slug": "prized",
+  "name": "Prized",
+  "oneLiner": "Internal tools, built by the people who use them.",
+  "metadata": {
+    "website": "https://prized.dev",
+    "yc_page": "https://www.ycombinator.com/companies/prized",
+    "batch": "Summer 2026 (YC page)",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Developer Tools, SaaS, Productivity",
+    "yc_partner": "Ankit Gupta (YC page)",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Developer Tools",
+    "SaaS",
+    "Productivity"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-06-30T17:20:10.815Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 31,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 32,
+    "EG": 38,
+    "NR": 41,
+    "PG": 42,
+    "PT": 30,
+    "SL": 27,
+    "VK": 31
+  },
+  "consolidatedAvg": 34.43,
+  "consolidatedRank": 37,
+  "traction": {
+    "tractionRank": 36,
+    "tractionScore": 8,
+    "tractionReason": "YC backing, 15+ connectors, fictional demo"
+  },
+  "paths": {
+    "memo": "summer2026/memos/prized.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/prized.md",
+      "elad-gil": "summer2026/evals/elad-gil/prized.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/prized.md",
+      "paul-graham": "summer2026/evals/paul-graham/prized.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/prized.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/prized.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/prized.md"
+    }
+  }
+}

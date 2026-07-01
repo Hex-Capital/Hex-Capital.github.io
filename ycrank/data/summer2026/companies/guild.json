@@ -62,11 +62,11 @@
     "VK": 41
   },
   "consolidatedAvg": 33.29,
-  "consolidatedRank": 43,
+  "consolidatedRank": 45,
   "traction": {
-    "tractionRank": 43,
+    "tractionRank": 44,
     "tractionScore": 4,
-    "tractionReason": "YC S26 single-page tagline website"
+    "tractionReason": "Single-page website, no metrics disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/guild.md",

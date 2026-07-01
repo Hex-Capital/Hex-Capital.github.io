@@ -60,11 +60,11 @@
     "VK": 31
   },
   "consolidatedAvg": 34.43,
-  "consolidatedRank": 37,
+  "consolidatedRank": 39,
   "traction": {
-    "tractionRank": 36,
-    "tractionScore": 8,
-    "tractionReason": "YC backing, 15+ connectors, fictional demo"
+    "tractionRank": 45,
+    "tractionScore": 4,
+    "tractionReason": "Fictional \"Acme\" demo scenario only"
   },
   "paths": {
     "memo": "summer2026/memos/prized.md",

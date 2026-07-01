@@ -62,11 +62,11 @@
     "VK": 50
   },
   "consolidatedAvg": 36.29,
-  "consolidatedRank": 31,
+  "consolidatedRank": 33,
   "traction": {
-    "tractionRank": 25,
-    "tractionScore": 18,
-    "tractionReason": "Defence Tech Hackathon $5K first place"
+    "tractionRank": 18,
+    "tractionScore": 28,
+    "tractionReason": "Hackathon 1st prize, UBC cohort, no customers"
   },
   "paths": {
     "memo": "summer2026/memos/greypoint-industries.md",

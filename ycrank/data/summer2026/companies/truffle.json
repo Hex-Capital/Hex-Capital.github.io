@@ -63,8 +63,8 @@
   "consolidatedRank": 16,
   "traction": {
     "tractionRank": 47,
-    "tractionScore": 3,
-    "tractionReason": "YC page only, no customer data"
+    "tractionScore": 4,
+    "tractionReason": "No disclosed traction, landing page only"
   },
   "paths": {
     "memo": "summer2026/memos/truffle.md",

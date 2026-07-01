@@ -1,0 +1,82 @@
+{
+  "slug": "os3",
+  "name": "OS3",
+  "oneLiner": "Intelligence and Machines for Physical Labor",
+  "metadata": {
+    "website": "https://os3robotics.com/",
+    "yc_page": "https://www.ycombinator.com/companies/os3",
+    "batch": "Summer 2026",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Hardware, Robotics, B2B",
+    "yc_partner": "Gustaf Alstromer",
+    "emails": "hi@os3robotics.com"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Hardware",
+    "Robotics",
+    "B2B"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-01T19:08:46.519Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 23,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 43,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 46,
+    "EG": 40,
+    "NR": 34,
+    "PG": 43,
+    "PT": 31,
+    "SL": 23,
+    "VK": 43
+  },
+  "consolidatedAvg": 37.14,
+  "consolidatedRank": 30,
+  "traction": {
+    "tractionRank": 30,
+    "tractionScore": 10,
+    "tractionReason": "Vague \"deploying in hospitality\" claim"
+  },
+  "paths": {
+    "memo": "summer2026/memos/os3.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/os3.md",
+      "elad-gil": "summer2026/evals/elad-gil/os3.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/os3.md",
+      "paul-graham": "summer2026/evals/paul-graham/os3.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/os3.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/os3.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/os3.md"
+    }
+  }
+}

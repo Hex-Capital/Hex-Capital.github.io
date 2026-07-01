@@ -60,11 +60,11 @@
     "VK": 32
   },
   "consolidatedAvg": 32,
-  "consolidatedRank": 48,
+  "consolidatedRank": 50,
   "traction": {
-    "tractionRank": 19,
-    "tractionScore": 28,
-    "tractionReason": "549 LinkedIn followers, 1 FDE role open"
+    "tractionRank": 31,
+    "tractionScore": 9,
+    "tractionReason": "549 LinkedIn followers, one open role"
   },
   "paths": {
     "memo": "summer2026/memos/operon.md",

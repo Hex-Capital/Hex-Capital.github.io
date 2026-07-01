@@ -61,11 +61,11 @@
     "VK": 29
   },
   "consolidatedAvg": 38.71,
-  "consolidatedRank": 18,
+  "consolidatedRank": 19,
   "traction": {
-    "tractionRank": 6,
-    "tractionScore": 64,
-    "tractionReason": "4 named VC customers including Blume Equity"
+    "tractionRank": 14,
+    "tractionScore": 38,
+    "tractionReason": "4 named VC customer logos"
   },
   "paths": {
     "memo": "summer2026/memos/lato.md",

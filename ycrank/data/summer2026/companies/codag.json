@@ -60,9 +60,9 @@
   "consolidatedAvg": 43.57,
   "consolidatedRank": 8,
   "traction": {
-    "tractionRank": 18,
-    "tractionScore": 32,
-    "tractionReason": "42 GitHub stars, MCP integrations, paid tier"
+    "tractionRank": 23,
+    "tractionScore": 18,
+    "tractionReason": "42 GitHub stars, MCP integrations live"
   },
   "paths": {
     "memo": "summer2026/memos/codag.md",

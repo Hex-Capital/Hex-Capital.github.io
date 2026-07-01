@@ -62,11 +62,11 @@
     "VK": 26
   },
   "consolidatedAvg": 33.57,
-  "consolidatedRank": 39,
+  "consolidatedRank": 41,
   "traction": {
-    "tractionRank": 21,
-    "tractionScore": 24,
-    "tractionReason": "3 named school testimonials, 700+ lessons"
+    "tractionRank": 19,
+    "tractionScore": 26,
+    "tractionReason": "3 named school testimonials, no revenue"
   },
   "paths": {
     "memo": "summer2026/memos/bloomy.md",

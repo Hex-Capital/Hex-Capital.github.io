@@ -59,11 +59,11 @@
     "VK": 33
   },
   "consolidatedAvg": 32.14,
-  "consolidatedRank": 46,
+  "consolidatedRank": 48,
   "traction": {
-    "tractionRank": 44,
-    "tractionScore": 4,
-    "tractionReason": "YC S26, no revenue/users/press found"
+    "tractionRank": 40,
+    "tractionScore": 5,
+    "tractionReason": "No disclosed revenue, users, or press"
   },
   "paths": {
     "memo": "summer2026/memos/dialogus.md",

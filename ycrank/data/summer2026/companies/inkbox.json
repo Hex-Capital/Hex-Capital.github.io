@@ -1,0 +1,81 @@
+{
+  "slug": "inkbox",
+  "name": "Inkbox",
+  "oneLiner": "Give your AI agents email, phone, iMessage and an internet address",
+  "metadata": {
+    "website": "https://inkbox.ai",
+    "yc_page": "https://www.ycombinator.com/companies/inkbox",
+    "batch": "Summer 2026 (S26)",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "3",
+    "location": "Boston, MA, USA (website footer lists 313 Potrero Ave, Unit B, San Francisco, CA 94103; inkbox.ai)",
+    "tags": "Developer Tools, Infrastructure, AI",
+    "yc_partner": "Tyler Bosmeny (YC page)",
+    "emails": "hello@inkbox.ai (inkbox.ai)"
+  },
+  "tags": [
+    "Developer Tools",
+    "Infrastructure",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-01T19:09:06.437Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 34,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 42,
+    "EG": 44,
+    "NR": 49,
+    "PG": 47,
+    "PT": 28,
+    "SL": 27,
+    "VK": 34
+  },
+  "consolidatedAvg": 38.71,
+  "consolidatedRank": 18,
+  "traction": {
+    "tractionRank": 28,
+    "tractionScore": 12,
+    "tractionReason": "18 GitHub stars, third-party SDK exists"
+  },
+  "paths": {
+    "memo": "summer2026/memos/inkbox.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/inkbox.md",
+      "elad-gil": "summer2026/evals/elad-gil/inkbox.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/inkbox.md",
+      "paul-graham": "summer2026/evals/paul-graham/inkbox.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/inkbox.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/inkbox.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/inkbox.md"
+    }
+  }
+}

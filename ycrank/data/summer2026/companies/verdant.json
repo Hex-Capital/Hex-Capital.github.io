@@ -58,11 +58,11 @@
     "VK": 30
   },
   "consolidatedAvg": 31.14,
-  "consolidatedRank": 50,
+  "consolidatedRank": 52,
   "traction": {
-    "tractionRank": 40,
-    "tractionScore": 6,
-    "tractionReason": "YC Summer 2026 backing only"
+    "tractionRank": 43,
+    "tractionScore": 5,
+    "tractionReason": "No revenue, customer, or press data"
   },
   "paths": {
     "memo": "summer2026/memos/verdant.md",

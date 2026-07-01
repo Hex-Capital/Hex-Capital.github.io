@@ -62,9 +62,9 @@
   "consolidatedAvg": 50.57,
   "consolidatedRank": 2,
   "traction": {
-    "tractionRank": 27,
-    "tractionScore": 16,
-    "tractionReason": "Founder press only, no company revenue"
+    "tractionRank": 32,
+    "tractionScore": 9,
+    "tractionReason": "Founder press only, no company traction"
   },
   "paths": {
     "memo": "summer2026/memos/parasma.md",

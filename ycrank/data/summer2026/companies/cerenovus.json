@@ -58,11 +58,11 @@
     "VK": 32
   },
   "consolidatedAvg": 29,
-  "consolidatedRank": 51,
+  "consolidatedRank": 53,
   "traction": {
-    "tractionRank": 22,
-    "tractionScore": 23,
-    "tractionReason": "\"Pilot customers are live\" per YC snippet"
+    "tractionRank": 20,
+    "tractionScore": 24,
+    "tractionReason": "\"Pilot customers live,\" no counts disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/cerenovus.md",

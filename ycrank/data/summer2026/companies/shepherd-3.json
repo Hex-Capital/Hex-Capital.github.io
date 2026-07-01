@@ -60,11 +60,11 @@
     "VK": 32
   },
   "consolidatedAvg": 34.86,
-  "consolidatedRank": 36,
+  "consolidatedRank": 38,
   "traction": {
-    "tractionRank": 35,
-    "tractionScore": 8,
-    "tractionReason": "YC S26 + $500K standard deal only"
+    "tractionRank": 36,
+    "tractionScore": 7,
+    "tractionReason": "YC S26 acceptance, no other metrics"
   },
   "paths": {
     "memo": "summer2026/memos/shepherd-3.md",

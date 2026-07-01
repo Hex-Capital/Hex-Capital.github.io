@@ -60,11 +60,11 @@
     "VK": 32
   },
   "consolidatedAvg": 37.29,
-  "consolidatedRank": 28,
+  "consolidatedRank": 29,
   "traction": {
-    "tractionRank": 48,
+    "tractionRank": 49,
     "tractionScore": 3,
-    "tractionReason": "No revenue, user, or customer data"
+    "tractionReason": "No public revenue, user, or customer data"
   },
   "paths": {
     "memo": "summer2026/memos/mireye.md",

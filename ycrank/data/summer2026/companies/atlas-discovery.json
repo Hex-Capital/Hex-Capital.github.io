@@ -60,11 +60,11 @@
     "VK": 47
   },
   "consolidatedAvg": 38,
-  "consolidatedRank": 21,
+  "consolidatedRank": 22,
   "traction": {
-    "tractionRank": 38,
-    "tractionScore": 7,
-    "tractionReason": "YC + Pear + Glasswing, bioRxiv paper"
+    "tractionRank": 52,
+    "tractionScore": 2,
+    "tractionReason": "Investors listed, no revenue or customers"
   },
   "paths": {
     "memo": "summer2026/memos/atlas-discovery.md",

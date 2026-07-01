@@ -61,9 +61,9 @@
   "consolidatedAvg": 41.43,
   "consolidatedRank": 12,
   "traction": {
-    "tractionRank": 3,
-    "tractionScore": 80,
-    "tractionReason": "250+ companies powered, Product Hunt #4"
+    "tractionRank": 4,
+    "tractionScore": 74,
+    "tractionReason": "250+ companies incl. Klarna, Mintlify, Daily.dev"
   },
   "paths": {
     "memo": "summer2026/memos/contextdev.md",

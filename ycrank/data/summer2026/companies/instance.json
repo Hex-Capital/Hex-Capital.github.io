@@ -61,11 +61,11 @@
     "VK": 37
   },
   "consolidatedAvg": 32.43,
-  "consolidatedRank": 45,
+  "consolidatedRank": 47,
   "traction": {
-    "tractionRank": 34,
-    "tractionScore": 9,
-    "tractionReason": "Pre-pivot landing page, no metrics"
+    "tractionRank": 35,
+    "tractionScore": 7,
+    "tractionReason": "Minimal landing page, post-pivot"
   },
   "paths": {
     "memo": "summer2026/memos/instance.md",

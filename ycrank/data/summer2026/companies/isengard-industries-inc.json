@@ -62,9 +62,9 @@
   "consolidatedAvg": 57,
   "consolidatedRank": 1,
   "traction": {
-    "tractionRank": 15,
-    "tractionScore": 40,
-    "tractionReason": "Six systems combat-deployed in Ukraine"
+    "tractionRank": 16,
+    "tractionScore": 32,
+    "tractionReason": "Claimed combat deployment, no company revenue disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/isengard-industries-inc.md",

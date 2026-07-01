@@ -62,9 +62,9 @@
   "consolidatedAvg": 49.29,
   "consolidatedRank": 3,
   "traction": {
-    "tractionRank": 30,
-    "tractionScore": 13,
-    "tractionReason": "FPGA demo, private beta waitlist only"
+    "tractionRank": 29,
+    "tractionScore": 11,
+    "tractionReason": "FPGA demo only, waitlist gated"
   },
   "paths": {
     "memo": "summer2026/memos/baud.md",

@@ -1,0 +1,58 @@
+# Deploy site to GitHub Pages.
+# Mirrors GitHub's default "pages build and deployment" (Jekyll build) but as a
+# custom workflow so we can raise the deploy step's timeout. The auto-generated
+# legacy deploy has a fixed 10-minute limit; with ~5,000 files the Pages CDN sync
+# exceeds it and fails with "Timeout reached, aborting!". We bump it to 30 min.
+#
+# Requires: Settings -> Pages -> Build and deployment -> Source = "GitHub Actions".
+name: Deploy site to Pages
+
+on:
+  push:
+    branches: ["master"]
+  workflow_dispatch:
+
+# Grant GITHUB_TOKEN the permissions required to deploy to Pages.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow one concurrent deployment; don't cancel an in-progress one.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+        with:
+          # Raise the Pages backend polling window from the default 10 min
+          # (600000 ms) to 30 min so the CDN sync of ~5,000 files can finish.
+          timeout: 1800000
+          # Tolerate more transient polling errors before giving up.
+          error_count: 20

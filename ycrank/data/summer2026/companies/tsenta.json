@@ -58,11 +58,11 @@
     "VK": 33
   },
   "consolidatedAvg": 38.57,
-  "consolidatedRank": 20,
+  "consolidatedRank": 22,
   "traction": {
-    "tractionRank": 5,
-    "tractionScore": 62,
-    "tractionReason": "353 Chrome installs, paid tiers live, press coverage"
+    "tractionRank": 13,
+    "tractionScore": 44,
+    "tractionReason": "353 Chrome installs, paid tiers live"
   },
   "paths": {
     "memo": "summer2026/memos/tsenta.md",

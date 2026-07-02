@@ -1,0 +1,80 @@
+{
+  "slug": "nebula-security",
+  "name": "Nebula Security",
+  "oneLiner": "An AI-native cybersecurity company",
+  "metadata": {
+    "website": "https://nebusec.ai",
+    "yc_page": "https://www.ycombinator.com/companies/nebula-security",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Security",
+    "team_size": "2",
+    "location": "Vancouver, WA, USA; Remote",
+    "tags": "Cybersecurity, AI",
+    "yc_partner": "Ankit Gupta",
+    "emails": "root@nebusec.ai, info@nebusec.ai"
+  },
+  "tags": [
+    "Cybersecurity",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-02T16:36:23.572Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 65,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 36,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 34,
+    "EG": 42,
+    "NR": 38,
+    "PG": 65,
+    "PT": 26,
+    "SL": 31,
+    "VK": 36
+  },
+  "consolidatedAvg": 38.86,
+  "consolidatedRank": 19,
+  "traction": {
+    "tractionRank": 20,
+    "tractionScore": 30,
+    "tractionReason": "729 vulnerabilities catalogued, $10.5K bounty"
+  },
+  "paths": {
+    "memo": "summer2026/memos/nebula-security.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/nebula-security.md",
+      "elad-gil": "summer2026/evals/elad-gil/nebula-security.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/nebula-security.md",
+      "paul-graham": "summer2026/evals/paul-graham/nebula-security.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/nebula-security.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/nebula-security.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/nebula-security.md"
+    }
+  }
+}

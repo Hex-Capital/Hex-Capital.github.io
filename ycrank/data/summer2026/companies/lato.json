@@ -61,11 +61,11 @@
     "VK": 29
   },
   "consolidatedAvg": 38.71,
-  "consolidatedRank": 19,
+  "consolidatedRank": 21,
   "traction": {
-    "tractionRank": 14,
-    "tractionScore": 38,
-    "tractionReason": "4 named VC customer logos"
+    "tractionRank": 9,
+    "tractionScore": 52,
+    "tractionReason": "4 named VC customers with testimonial"
   },
   "paths": {
     "memo": "summer2026/memos/lato.md",

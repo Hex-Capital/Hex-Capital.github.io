@@ -60,11 +60,11 @@
     "VK": 35
   },
   "consolidatedAvg": 37.29,
-  "consolidatedRank": 28,
+  "consolidatedRank": 30,
   "traction": {
-    "tractionRank": 26,
-    "tractionScore": 14,
-    "tractionReason": "1,122 Twitter followers, no revenue"
+    "tractionRank": 35,
+    "tractionScore": 12,
+    "tractionReason": "1,122 X followers, no revenue disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/markov.md",

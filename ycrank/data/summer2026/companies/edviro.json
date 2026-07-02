@@ -60,11 +60,11 @@
     "VK": 37
   },
   "consolidatedAvg": 39,
-  "consolidatedRank": 17,
+  "consolidatedRank": 18,
   "traction": {
-    "tractionRank": 13,
-    "tractionScore": 40,
-    "tractionReason": "$400K+ savings, 1 district, 7 sites"
+    "tractionRank": 16,
+    "tractionScore": 38,
+    "tractionReason": "$400K customer savings, 1 district/7 sites"
   },
   "paths": {
     "memo": "summer2026/memos/edviro.md",

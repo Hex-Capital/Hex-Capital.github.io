@@ -62,8 +62,8 @@
   "consolidatedRank": 12,
   "traction": {
     "tractionRank": 4,
-    "tractionScore": 74,
-    "tractionReason": "250+ companies incl. Klarna, Mintlify, Daily.dev"
+    "tractionScore": 72,
+    "tractionReason": "250+ paying companies incl. Klarna, Mintlify"
   },
   "paths": {
     "memo": "summer2026/memos/contextdev.md",

@@ -60,11 +60,11 @@
     "VK": 26
   },
   "consolidatedAvg": 31.29,
-  "consolidatedRank": 51,
+  "consolidatedRank": 54,
   "traction": {
-    "tractionRank": 46,
-    "tractionScore": 4,
-    "tractionReason": "Recruiting pilot participants, no customers"
+    "tractionRank": 38,
+    "tractionScore": 9,
+    "tractionReason": "90-day pilot program actively recruiting"
   },
   "paths": {
     "memo": "summer2026/memos/insurf.md",

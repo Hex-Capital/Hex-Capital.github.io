@@ -61,9 +61,9 @@
   "consolidatedAvg": 42.57,
   "consolidatedRank": 10,
   "traction": {
-    "tractionRank": 27,
-    "tractionScore": 13,
-    "tractionReason": "Show HN launched, per-minute pricing live"
+    "tractionRank": 28,
+    "tractionScore": 19,
+    "tractionReason": "Show HN posted, pricing live, no customers"
   },
   "paths": {
     "memo": "summer2026/memos/machine0.md",

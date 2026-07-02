@@ -1,0 +1,81 @@
+{
+  "slug": "praxis-ai-2",
+  "name": "Praxis AI",
+  "oneLiner": "Turns every company into a data vendor",
+  "metadata": {
+    "website": "https://www.praxisrobotics.io",
+    "yc_page": "https://www.ycombinator.com/companies/praxis-ai-2",
+    "batch": "Summer 2026 (YC page)",
+    "industry": "Industrials / Industrials",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Hard Tech, Reinforcement Learning, Robotic Process Automation",
+    "yc_partner": "Diana Hu (YC page)",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Hard Tech",
+    "Reinforcement Learning",
+    "Robotic Process Automation"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-02T16:35:33.381Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 32,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 39,
+    "EG": 53,
+    "NR": 41,
+    "PG": 47,
+    "PT": 34,
+    "SL": 34,
+    "VK": 32
+  },
+  "consolidatedAvg": 40,
+  "consolidatedRank": 16,
+  "traction": {
+    "tractionRank": 12,
+    "tractionScore": 46,
+    "tractionReason": "60k workers reached across 5 continents"
+  },
+  "paths": {
+    "memo": "summer2026/memos/praxis-ai-2.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/praxis-ai-2.md",
+      "elad-gil": "summer2026/evals/elad-gil/praxis-ai-2.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/praxis-ai-2.md",
+      "paul-graham": "summer2026/evals/paul-graham/praxis-ai-2.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/praxis-ai-2.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/praxis-ai-2.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/praxis-ai-2.md"
+    }
+  }
+}

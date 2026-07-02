@@ -61,11 +61,11 @@
     "VK": 33
   },
   "consolidatedAvg": 34,
-  "consolidatedRank": 40,
+  "consolidatedRank": 42,
   "traction": {
-    "tractionRank": 51,
-    "tractionScore": 2,
-    "tractionReason": "No press, revenue, or user disclosures"
+    "tractionRank": 44,
+    "tractionScore": 5,
+    "tractionReason": "YC S26 only, no disclosed metrics"
   },
   "paths": {
     "memo": "summer2026/memos/archal.md",

@@ -60,11 +60,11 @@
     "VK": 32
   },
   "consolidatedAvg": 34.86,
-  "consolidatedRank": 38,
+  "consolidatedRank": 40,
   "traction": {
-    "tractionRank": 36,
-    "tractionScore": 7,
-    "tractionReason": "YC S26 acceptance, no other metrics"
+    "tractionRank": 39,
+    "tractionScore": 8,
+    "tractionReason": "YC S26 acceptance only, no metrics"
   },
   "paths": {
     "memo": "summer2026/memos/shepherd-3.md",

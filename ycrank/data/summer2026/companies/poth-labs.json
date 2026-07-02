@@ -62,11 +62,11 @@
     "VK": 29
   },
   "consolidatedAvg": 33,
-  "consolidatedRank": 46,
+  "consolidatedRank": 49,
   "traction": {
-    "tractionRank": 33,
-    "tractionScore": 8,
-    "tractionReason": "German press coverage only"
+    "tractionRank": 30,
+    "tractionScore": 17,
+    "tractionReason": "German press coverage, no customers"
   },
   "paths": {
     "memo": "summer2026/memos/poth-labs.md",

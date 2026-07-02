@@ -62,9 +62,9 @@
   "consolidatedAvg": 41.14,
   "consolidatedRank": 13,
   "traction": {
-    "tractionRank": 12,
-    "tractionScore": 44,
-    "tractionReason": "OSWorld #1 benchmark, PH launch, pricing live"
+    "tractionRank": 15,
+    "tractionScore": 40,
+    "tractionReason": "OSWorld #1 self-reported, PH launch, paid tiers"
   },
   "paths": {
     "memo": "summer2026/memos/coasty.md",

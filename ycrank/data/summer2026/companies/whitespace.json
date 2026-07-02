@@ -61,11 +61,11 @@
     "VK": 29
   },
   "consolidatedAvg": 36.43,
-  "consolidatedRank": 32,
+  "consolidatedRank": 34,
   "traction": {
-    "tractionRank": 24,
-    "tractionScore": 16,
-    "tractionReason": "Unnamed customer logos, demo claims only"
+    "tractionRank": 22,
+    "tractionScore": 26,
+    "tractionReason": "unattributed metrics, demo customer logos"
   },
   "paths": {
     "memo": "summer2026/memos/whitespace.md",

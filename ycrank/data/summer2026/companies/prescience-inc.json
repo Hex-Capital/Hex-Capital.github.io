@@ -61,9 +61,9 @@
   "consolidatedAvg": 42.86,
   "consolidatedRank": 9,
   "traction": {
-    "tractionRank": 22,
-    "tractionScore": 20,
-    "tractionReason": "Unnamed customer logos, illustrative case studies"
+    "tractionRank": 18,
+    "tractionScore": 34,
+    "tractionReason": "Rippling partnership, no named customers"
   },
   "paths": {
     "memo": "summer2026/memos/prescience-inc.md",

@@ -60,11 +60,11 @@
     "VK": 29
   },
   "consolidatedAvg": 38.14,
-  "consolidatedRank": 21,
+  "consolidatedRank": 23,
   "traction": {
-    "tractionRank": 39,
-    "tractionScore": 6,
-    "tractionReason": "Incorporated Jan 2026, no customers"
+    "tractionRank": 31,
+    "tractionScore": 16,
+    "tractionReason": "YC $500K standard deal, launch video only"
   },
   "paths": {
     "memo": "summer2026/memos/control-seat.md",

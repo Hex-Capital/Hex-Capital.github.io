@@ -60,11 +60,11 @@
     "VK": 35
   },
   "consolidatedAvg": 38,
-  "consolidatedRank": 23,
+  "consolidatedRank": 25,
   "traction": {
-    "tractionRank": 21,
-    "tractionScore": 22,
-    "tractionReason": "\"In production\" with waitlist onboarding"
+    "tractionRank": 23,
+    "tractionScore": 25,
+    "tractionReason": "\"in production\" but waitlist-gated onboarding"
   },
   "paths": {
     "memo": "summer2026/memos/glen.md",

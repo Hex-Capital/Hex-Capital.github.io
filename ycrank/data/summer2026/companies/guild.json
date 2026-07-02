@@ -62,11 +62,11 @@
     "VK": 41
   },
   "consolidatedAvg": 33.29,
-  "consolidatedRank": 45,
+  "consolidatedRank": 48,
   "traction": {
-    "tractionRank": 44,
-    "tractionScore": 4,
-    "tractionReason": "Single-page website, no metrics disclosed"
+    "tractionRank": 50,
+    "tractionScore": 2,
+    "tractionReason": "single-page website, no metrics"
   },
   "paths": {
     "memo": "summer2026/memos/guild.md",

@@ -60,11 +60,11 @@
     "VK": 47
   },
   "consolidatedAvg": 38,
-  "consolidatedRank": 22,
+  "consolidatedRank": 24,
   "traction": {
-    "tractionRank": 52,
+    "tractionRank": 51,
     "tractionScore": 2,
-    "tractionReason": "Investors listed, no revenue or customers"
+    "tractionReason": "investors named, no traction data"
   },
   "paths": {
     "memo": "summer2026/memos/atlas-discovery.md",

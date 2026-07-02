@@ -60,11 +60,11 @@
     "VK": 31
   },
   "consolidatedAvg": 34.43,
-  "consolidatedRank": 39,
+  "consolidatedRank": 41,
   "traction": {
-    "tractionRank": 45,
-    "tractionScore": 4,
-    "tractionReason": "Fictional \"Acme\" demo scenario only"
+    "tractionRank": 26,
+    "tractionScore": 21,
+    "tractionReason": "15+ connectors live, no disclosed customers"
   },
   "paths": {
     "memo": "summer2026/memos/prized.md",

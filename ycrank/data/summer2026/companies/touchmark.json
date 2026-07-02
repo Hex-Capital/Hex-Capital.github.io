@@ -59,11 +59,11 @@
     "VK": 25
   },
   "consolidatedAvg": 35.29,
-  "consolidatedRank": 36,
+  "consolidatedRank": 38,
   "traction": {
-    "tractionRank": 38,
+    "tractionRank": 41,
     "tractionScore": 6,
-    "tractionReason": "No disclosed traction beyond YC batch"
+    "tractionReason": "YC S26 only, no traction disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/touchmark.md",

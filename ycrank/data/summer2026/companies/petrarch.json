@@ -1,0 +1,81 @@
+{
+  "slug": "petrarch",
+  "name": "Petrarch",
+  "oneLiner": "Marketplace for specialized data assets",
+  "metadata": {
+    "website": "https://petrarch.co/",
+    "yc_page": "https://www.ycombinator.com/companies/petrarch",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Marketplace, B2B, Data Engineering",
+    "yc_partner": "Vivian Midha Shen",
+    "emails": "founders@petrarch.co"
+  },
+  "tags": [
+    "Marketplace",
+    "B2B",
+    "Data Engineering"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-02T16:35:23.265Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 28,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 37,
+    "EG": 34,
+    "NR": 35,
+    "PG": 39,
+    "PT": 35,
+    "SL": 30,
+    "VK": 28
+  },
+  "consolidatedAvg": 34,
+  "consolidatedRank": 43,
+  "traction": {
+    "tractionRank": 46,
+    "tractionScore": 4,
+    "tractionReason": "pre-launch \"Coming 2026\" landing page"
+  },
+  "paths": {
+    "memo": "summer2026/memos/petrarch.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/petrarch.md",
+      "elad-gil": "summer2026/evals/elad-gil/petrarch.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/petrarch.md",
+      "paul-graham": "summer2026/evals/paul-graham/petrarch.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/petrarch.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/petrarch.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/petrarch.md"
+    }
+  }
+}

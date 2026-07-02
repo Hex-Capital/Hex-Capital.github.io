@@ -63,9 +63,9 @@
   "consolidatedAvg": 40.71,
   "consolidatedRank": 15,
   "traction": {
-    "tractionRank": 6,
-    "tractionScore": 60,
-    "tractionReason": "6 named brand customers, PMF claimed"
+    "tractionRank": 5,
+    "tractionScore": 65,
+    "tractionReason": "6 named brand customers, claimed PMF"
   },
   "paths": {
     "memo": "summer2026/memos/pango.md",

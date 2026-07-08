@@ -59,11 +59,11 @@
     "VK": 31
   },
   "consolidatedAvg": 41.86,
-  "consolidatedRank": 11,
+  "consolidatedRank": 18,
   "traction": {
-    "tractionRank": 8,
-    "tractionScore": 55,
-    "tractionReason": "$500M capital monitored, Pier Asset customer"
+    "tractionRank": 13,
+    "tractionScore": 45,
+    "tractionReason": "$500M capital monitored, 10+ facilities, Pier testimonial"
   },
   "paths": {
     "memo": "summer2026/memos/levocred-ai.md",

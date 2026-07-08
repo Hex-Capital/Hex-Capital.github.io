@@ -1,0 +1,83 @@
+{
+  "slug": "robocurve",
+  "name": "Robocurve",
+  "oneLiner": "We measure how well robots can do real-world jobs.",
+  "metadata": {
+    "website": "https://robocurve.org",
+    "yc_page": "https://www.ycombinator.com/companies/robocurve",
+    "batch": "Summer 2026 (YC company page)",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Hard Tech, Hardware, Robotics, Open Source, AI",
+    "yc_partner": "Ankit Gupta (YC company page)",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Hard Tech",
+    "Hardware",
+    "Robotics",
+    "Open Source",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-08T04:50:46.119Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 60,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 63,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 33,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 60,
+    "EG": 53,
+    "NR": 54,
+    "PG": 63,
+    "PT": 49,
+    "SL": 53,
+    "VK": 33
+  },
+  "consolidatedAvg": 52.14,
+  "consolidatedRank": 4,
+  "traction": {
+    "tractionRank": 49,
+    "tractionScore": 7,
+    "tractionReason": "v1 shipped, WorldEvals on PyPI, one pilot"
+  },
+  "paths": {
+    "memo": "summer2026/memos/robocurve.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/robocurve.md",
+      "elad-gil": "summer2026/evals/elad-gil/robocurve.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/robocurve.md",
+      "paul-graham": "summer2026/evals/paul-graham/robocurve.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/robocurve.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/robocurve.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/robocurve.md"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+﻿# Robocurve -- Paul Graham Evaluation
+
+Jay Chooi shipped v1 of "Inspect Robots" and ran his first pilot scoring a frontier model on real hardware before the YC check cleared, and that single artifact is what Robocurve has going for it -- a hacker-evals founder who extended the UK AISI Inspect framework (where he's a top-7% contributor) into the messiest possible substrate, physical robots. Robocurve is a schlep-heavy, hacker-genealogy-strong bet whose weakest joint is that neither Chooi nor Aris Zhu has ever been the *buyer* of a robot benchmark, only the builder of one.
+
+**Dropbox** (2007) is the load-bearing analogy for what Robocurve got right on the pre-funding-artifact axis: Drew Houston posted his demo video to Hacker News before the seed, and that video was the thing I bought, not the deck. Chooi did the equivalent -- Inspect Robots v1 is on GitHub, `worldevals` is on PyPI, and a real robot pilot has been run. The divergence from the **Dropbox** (2007) rung is that Houston shipped a product users wanted for themselves, whereas Robocurve shipped infrastructure whose users are five frontier labs (Physical Intelligence, Skild, 1X, Figure) who have not yet been named as paying customers or even LOI counterparties. Shipping the artifact is the top-quartile move; shipping it without a named buyer is why Robocurve lands between the mid and high rung, not at it.
+
+The pattern I lose money on is the **Airbnb** (2009)-inverse: clever idea, soft founders, no organic pain. Robocurve is not that -- Chooi is not soft -- but it does trip the "founders haven't personally suffered the problem" wire. Houston forgot his USB stick; the Collisons had been hacking commerce APIs since **Auctomatic** (2007). Robocurve's founders came to robot benchmarking through *adjacent* pain -- Chooi through AI-safety evals infrastructure at MATS and Inspect, Zhu through his GPC paper in IEEE RAL 2025 on generative robot policies. Nobody in the Robocurve dossier is a robotics *buyer* who got burned by an unverified demo video and decided to build the score they wished existed. That's a real gap, and it's the reason Robocurve reads as "correct market observation" rather than "founder scratching own itch."
+
+The schlep dimension is where Robocurve actually compounds. "Operating and maintaining physical hardware and real-world setups" is the crux the YC page itself flags -- and that is exactly the sentence other Summer 2026 applicants read and route around. **Coinbase** (2012) compounded because Brian Armstrong ran toward bitcoin compliance while every other batchmate wanted a clean software wrapper; over 18 months, the moat wasn't the wallet, it was the accumulated regulatory relationships. Robocurve's analogous compounding path is that every additional real-world task rig Chooi and Zhu stand up is a rig **ManipulationNet** (Rice/NIST/MIT/Berkeley/CMU) does not have as a *continuously operated commercial service*, and rigs are expensive enough that academic consortia won't replicate them at scale.
+
+Counterfactual on hacker genealogy: for Robocurve to move from strong to elite on this axis, Zhu would need a shipped open-source robotics artifact with public stars, not just the IEEE RAL 2025 co-authorship on GPC. As is, Chooi's Inspect Evals contributions and Astronomy Olympiad gold plus Zhu's peer-reviewed robotics policy paper already put Robocurve above the Reddit-2005 dorm-roommate hacker baseline -- this is a stronger technical lineage than most Summer 2026 applicants I'd see.
+
+Robocurve's two-person Harvard-adjacent configuration parallels the **Collison brothers** at **Stripe** (2010) structurally -- a technical pair, complementary coverage (evals engineering plus robotics research) -- but the dossier explicitly labels the Harvard connection as "[Inferred]" rather than confirmed, and I don't see the pre-startup years of joint building that made the Collisons legible to me. Neutral placement, not the elite rung.
+
+Thirty-six-month forecast for Robocurve: $800K-$2M ARR from three to five frontier-lab benchmarking contracts, no venture-scale outcome, most likely acquired by an AI-safety org (METR, Apollo, or UK AISI itself) or by a frontier lab wanting to internalize the score. The mechanism is the PBC registration plus "Forecasting Physical Automation for Societal Preparedness" framing -- that's not a **Stripe** (2010) ceiling, that's a mission-org ceiling, and it correlates with the Rhodes Scholar 2026 credential in a way that suggests Chooi's animal energy may split between Oxford and Robocurve rather than concentrate.
+
+The bull case that stings: **Scale AI** started as a schlep-blindness bet (Alexandr Wang publicly cited my January 2012 essay as the trigger) on unglamorous human labeling, and became the picks-and-shovels layer for the AI wave. If robotics really does hit its 2028 general-purpose inflection, the independent third-party score becomes the reference every acquirer, investor, and regulator cites -- and Robocurve owns it because Chooi shipped Inspect Robots v1 first. That's the **Coinbase** (2012) compliance-moat outcome on a robotics substrate, and it's not fanciful. What dismantles it in the dossier: the PBC structure and the mission-preparedness framing are the acquihire-coded tells my **Kiko** (2005)-**Twitch** (2007) instinct reads as insufficient ambition, and no paying customer is named. The verifiable condition that flips me to Invest: Robocurve names one signed frontier-lab contract (Physical Intelligence, Skild, 1X, or Figure) with real dollars attached within six months, and Chooi confirms he's deferring or declining the Rhodes to run this full-time. Absent that, Neutral.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Demonstrates Animal Resourcefulness Pre-Funding | 22/35 |
+| Idea Is Organic to Founders' Own Pain | 13/25 |
+| Problem Sits in a Schlep Zone Mainstream Founders Avoid | 11/15 |
+| Hacker Genealogy in the Founder Team | 11/15 |
+| Co-founder Configuration Is a Strong Pair or Trio, Not Solo | 6/10 |
+| **Total** | **63/100** |
+
+**Total Score: 63/100** (Neutral)

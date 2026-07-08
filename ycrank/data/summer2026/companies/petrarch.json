@@ -60,11 +60,11 @@
     "VK": 28
   },
   "consolidatedAvg": 34,
-  "consolidatedRank": 43,
+  "consolidatedRank": 59,
   "traction": {
-    "tractionRank": 46,
+    "tractionRank": 57,
     "tractionScore": 4,
-    "tractionReason": "pre-launch \"Coming 2026\" landing page"
+    "tractionReason": "Pre-launch \"Coming 2026\", 1 intern posting"
   },
   "paths": {
     "memo": "summer2026/memos/petrarch.md",

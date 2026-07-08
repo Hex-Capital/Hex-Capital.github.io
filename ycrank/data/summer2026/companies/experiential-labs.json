@@ -59,11 +59,11 @@
     "VK": 39
   },
   "consolidatedAvg": 44.14,
-  "consolidatedRank": 7,
+  "consolidatedRank": 12,
   "traction": {
-    "tractionRank": 33,
-    "tractionScore": 14,
-    "tractionReason": "GitHub stars 21+54+8 across three repos"
+    "tractionRank": 52,
+    "tractionScore": 6,
+    "tractionReason": "21+54+8 GitHub stars across three repos"
   },
   "paths": {
     "memo": "summer2026/memos/experiential-labs.md",

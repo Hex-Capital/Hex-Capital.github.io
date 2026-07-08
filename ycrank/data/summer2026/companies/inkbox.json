@@ -60,11 +60,11 @@
     "VK": 34
   },
   "consolidatedAvg": 38.71,
-  "consolidatedRank": 20,
+  "consolidatedRank": 31,
   "traction": {
-    "tractionRank": 34,
-    "tractionScore": 13,
-    "tractionReason": "18 GitHub stars, pricing live"
+    "tractionRank": 42,
+    "tractionScore": 10,
+    "tractionReason": "18 GitHub stars, third-party SDK exists"
   },
   "paths": {
     "memo": "summer2026/memos/inkbox.md",

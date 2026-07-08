@@ -1,0 +1,30 @@
+﻿# Justinian -- Elad Gil Evaluation
+
+Parth Badhwar's Justinian is what I'd call a *plausible catalyst, invisible curve* company -- the market re-opening thesis (AI labs pushing federal lobbying spend from a rounding error to OpenAI's $2.99M and Anthropic's $3.13M in 2025 per Forbes) is real enough to fund a conversation, but Justinian has disclosed zero revenue, zero named logos, and zero waitlist figures against four already-shipping competitors including a same-named Vulcan Technologies agent at vulcan.ai/agents/justinian. That pairing -- catalyst present, velocity absent -- is the signature of a services firm wearing AI-infra clothing, not a Harvey-shaped compounder.
+
+**Anduril** (2022) is the load-bearing analogy for Justinian's strongest dimension: both bet that a specific two-year federal-procurement window had opened (Ukraine for Anduril; the AI-lab lobbying explosion for Justinian) and both propose to sell into an incumbent-heavy services market. But when I led Anduril's Series D at $4.6B post, contracts were already compounding visibly and Trae Stephens brought Palantir's forward-deployed shipping muscle -- Justinian's dossier gives me a founder whose government tenure was Biden-Harris White House and Harris for President staffing, not the "delivered a policy-tech product to scale" artifact I need. The catalyst is credible; the wedge into it, at a 2-person team recruiting both a Technical Staff and a Policy Staff hire simultaneously on the YC job board, is not.
+
+**Harvey** (2023) is what real revenue velocity looks like -- $3B → $5B → $8B in months, the "just working" pattern I described in TechCrunch (Nov 2025). Justinian's dossier is the inverse: no pricing page, a demo flow routed through Parth's personal Cal.com link, and a founder X account at 38 followers as of July 2026. In the AI cycle silence on growth is itself a negative signal, because real growth is trivially easy to disclose, and Justinian's failure to name a single retainer client -- even one YC-batchmate lighthouse -- against a category where FiscalNote is publicly traded (NYSE: NOTE) and Quorum raised its $10M Series A back in 2019 tells me the "AI-native government affairs firm" positioning is still a deck, not a book of business.
+
+Founder-ships-between-meetings is where Justinian's dossier reads most thinly relative to my **Perplexity** (2022) origin pattern -- Aravind pinged me on LinkedIn and showed up a week later with the thing built. Parth Badhwar's shipped-artifact resume in the dossier is Head of GTM at Clipbook for ~1.5 years, a Deloitte stint, and campaign/White House staffing; no GitHub repos, no named prior product, and a still-unnamed second team member while Justinian is *actively* recruiting a Technical Staff hire at 0.50%–3.00% equity. That's a founder-market-fit story (policy Rolodex is real) grafted onto a founder-execution-rhythm gap (no independent build history).
+
+Index position: **Stripe** (2010) is an index on e-commerce because every entrant must touch the rail. Justinian, by contrast, is a hybrid GA firm competing head-on with FiscalNote's software+analyst blend, Quorum's CRM, POLITICO Pro's newsroom, Parsagon's synthesis layer, and Vulcan's YC-2026 "Justinian" agent -- five named competitors, one of which literally shares the product name. Justinian does not sit in a workflow path every AI-lab must integrate against; Justinian is one of several boutiques asking to be hired.
+
+Single-miracle test: Justinian requires (a) LLM accuracy sufficient to draft credible federal policy briefs, (b) recruiting and retaining an "elite lobbyist" bench at services margins while pricing at "fraction of the cost" of incumbents, and (c) early-stage-company willingness to pay real retainers for GA that Anthropic and OpenAI only started paying seriously in 2025. That's three miracles compounded, and it's the exact multi-dependency architecture I use to pass on science-adjacent deals -- except here the "science" is services-scaling economics, which historically compresses margins rather than expanding them (FiscalNote's own analyst-blend margin structure is the reference case).
+
+Forecast: In 36 months Justinian is a sub-$3M ARR boutique GA shop with 15–40 YC-network clients, either quietly acqui-hired by FiscalNote or Vulcan Technologies for the client book and the Parth-Rolodex, or pivoted into a pure-software "policy copilot" competing at a discount to Parsagon. Justinian does not become the index on AI-era government affairs; the name collision alone with Vulcan's "Justinian" agent and HAQQ's "Justinian Legal AI Engine" will taint SEO and enterprise search before revenue can accumulate.
+
+The strongest bull case against my pass is my own **Color Genomics** Known Exception -- I've backed workflow-plus-services businesses when the workflow layer sat atop a commodified hard layer, and one could argue Justinian is doing exactly that with LLMs-as-commodity and lobbying-as-workflow. It stings because the *AI Market Clarity* piece explicitly named compliance and financial tooling as "wide open," and government affairs rhymes. But Color I *co-founded and operated* -- the exception was operational, not passive-check, and Justinian would be a passive angel check on a 2-person team with no technical co-founder disclosed and a founder whose LinkedIn tenure at Clipbook was 18 months of GTM, not product. I'd flip to Invest on one verifiable condition: three signed retainers at $250K+ annual with named AI-lab or defense-tech counterparties within 90 days of YC Demo Day. Absent that, Justinian is a policy consultancy with an AI wrapper competing against a public company that already blends both.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Market Re-Opening Via Specific Recent Catalyst | 14/28 |
+| Revenue Velocity or Usage Curve Already Visible | 5/25 |
+| Founder Ships Iteratively Between Conversations | 7/20 |
+| Index-Like Distribution Position On A Compounding Category | 5/15 |
+| Single-Miracle Architecture Rather Than Multi-Miracle Dependency | 5/12 |
+| **Total** | **36/100** |
+
+**Total Score: 36/100** (Pass)

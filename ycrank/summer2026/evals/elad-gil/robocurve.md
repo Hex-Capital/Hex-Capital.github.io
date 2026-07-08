@@ -1,0 +1,32 @@
+﻿# Robocurve -- Elad Gil Evaluation
+
+Robocurve is a founder-shipping story attached to a revenue-velocity vacuum, and that pairing is the whole diagnosis: Jay Chooi's top-7% contributor status on UKGovernmentBEIS/inspect_evals is the strongest single dossier fact, and the "first pilot scored a frontier model on a real robot" line -- one pilot, no ARR, PBC footer -- is the weakest. This is a credentialed evals-infrastructure team building the AISI-analogue for robotics before the buyer has agreed to pay for it.
+
+Perplexity (2022) is the load-bearing analogy for Robocurve on the shipping-rhythm axis. Aravind pinged me on LinkedIn and showed up a week later with the thing built; that pattern is what I'm looking for and Chooi has the closest pre-seed version of it in this batch -- he shipped Inspect Robots v1, he already sits in the top-7% of contributors to UK AISI's Inspect Evals, and Aris Zhu is co-author on GPC in IEEE RAL 2025 out of Heng Yang's lab at Harvard SEAS. Where Robocurve diverges from the Perplexity template is that Aravind was shipping a *product users could hit today*; Chooi has shipped a *framework labs might submit to eventually*. The artifact-per-week rhythm is present in the code graph but the artifact-to-user loop is not, which is why Robocurve sits below Perplexity on this ladder rather than next to it.
+
+Lyft Series C is where I put the failure pattern for Robocurve's weakest axis. Lyft failed my revenue-velocity test not because usage was zero but because the curve didn't imply category ownership -- one pilot with a frontier model and a PyPI package for `worldevals` is the pre-seed equivalent, and the dossier is explicit that "no revenue, no paying customers, no Product Hunt, no press" surfaced in the search. In an AI cycle where real growth is easy to disclose, Robocurve disclosed a *pilot*, and the PBC registration with the "Societal Preparedness" mission framing is the tell that this team is optimizing for AISI-adjacent credibility, not for the "$3B ? $5B ? $8B in months" **Harvey** (2023) curve I'm actually paying up for. Silence on the growth axis for a robotics-evals company probably means the labs haven't yet decided to buy.
+
+Anduril (2022) is the closest single-anchor parallel for Robocurve's catalyst. Ukraine re-opened defense on a 24-month clock; the robotics catalyst here is Physical Intelligence, Skild, 1X, and Figure raising at multi-billion valuations with a self-declared 2028 general-purpose target and no independent scoring layer beneath them. That's a real re-opening, but it's a *derivative* re-opening -- Robocurve is one layer removed from the catalyst, betting that the foundation-model-robotics wave will spawn a third-party evals market the way LLMs spawned Scale/Surge/AISI. Anduril was the wave; Robocurve is the referee for the wave, and referees historically get paid less than participants.
+
+Over the next 18 months the compounding question for Robocurve is whether "Inspect Robots" pulls submissions the way `inspect_evals` pulled the LLM safety community, or whether Physical Intelligence and Skild just publish their own numbers and the market shrugs. The dossier's mechanism -- open-source framework as demand pull, hardware-in-the-loop as the moat -- is coherent, but the same mechanism failed for RobotPerf and ManipulationNet, both of which have Rice/NIST/MIT/Berkeley/CMU behind them and neither of which produced a commercial pull for Robocurve to now displace. The compounding only starts when one frontier lab publicly cites a Robocurve score.
+
+The counterfactual that would flip Robocurve from Neutral to Invest is narrow and nameable: a signed paid pilot with Physical Intelligence, Skild, 1X, or Figure disclosed at the level of "$X per benchmark run, Y runs per quarter." Absent that, Robocurve is a Rhodes Scholar's AI-safety side of the house wearing a robotics jersey -- credentialed, framework-fluent, but not yet inside anyone's procurement flow. Same axis that made me pass on most pre-2022 ML infra: the pioneers had the arrows and the buyers hadn't shown up.
+
+Robocurve's single-miracle test doesn't cleanly pass. I need to compound *labs will pay a third party to score them* with *cross-hardware reproducibility is achievable at commercial cadence* -- the RoboEval and ManipulationNet literature explicitly flags hardware standardization as unsolved (arXiv 2507.00435). That's two independent miracles, and the pattern in my file is to compound the odds and move on. It's not fusion, but it's not **Decagon** (2023) either, where the single miracle was "LLMs handle CS tickets" and everything else was GTM.
+
+My 36-month forecast for Robocurve: sub-$1M ARR, one or two named lab contracts, then either absorbed as the eval arm of a US/UK AI safety institute or wound down as a PBC when the venture math doesn't pencil -- with a low-probability tail where mandatory third-party robotics evals become regulation and Robocurve becomes the reference operator. The forecast tracks the signature: shipping-strong founders in a category where buyer willingness-to-pay is the actual miracle, not the framework.
+
+The bull case that stings: regulatory mandate. If US or EU AI safety regimes require third-party evaluation of embodied models the way we're heading toward model cards and red-team requirements for LLMs, Chooi's AISI lineage and the Inspect framework fluency become the incumbent position -- and Robocurve's PBC structure, which I flagged as a returns cap, converts into the *credibility* the regulator wants. That is the **Anduril** (2022) known-exception shape: a science-adjacent thing where the market re-opens via policy rather than product. What kills the bull case in this specific dossier is that the catalyst is 24 months away at best, and Robocurve has one pilot and no disclosed government contract to bridge the gap. Flip condition, verifiable: a signed evaluation contract with NIST, UK AISI, or a named frontier lab at disclosed dollar terms within 12 months.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Market Re-Opening Via Specific Recent Catalyst | 17/28 |
+| Revenue Velocity or Usage Curve Already Visible | 6/25 |
+| Founder Ships Iteratively Between Conversations | 15/20 |
+| Index-Like Distribution Position On A Compounding Category | 9/15 |
+| Single-Miracle Architecture Rather Than Multi-Miracle Dependency | 6/12 |
+| **Total** | **53/100** |
+
+**Total Score: 53/100** (Neutral)

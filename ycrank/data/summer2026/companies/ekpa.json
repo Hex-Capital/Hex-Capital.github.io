@@ -1,0 +1,79 @@
+{
+  "slug": "ekpa",
+  "name": "Ekpa",
+  "oneLiner": "Building Autonomous Research Agents for Trading",
+  "metadata": {
+    "website": "https://goekpa.com/",
+    "yc_page": "https://www.ycombinator.com/companies/ekpa",
+    "batch": "Summer 2026 (YC page)",
+    "industry": "Fintech / Fintech -> Asset Management",
+    "team_size": "2",
+    "location": "Boston, MA, USA",
+    "tags": "Consumer Finance",
+    "yc_partner": "Ankit Gupta (YC page)",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Consumer Finance"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-08T04:53:07.829Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 20,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 23,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 29,
+    "EG": 28,
+    "NR": 34,
+    "PG": 35,
+    "PT": 20,
+    "SL": 26,
+    "VK": 23
+  },
+  "consolidatedAvg": 27.86,
+  "consolidatedRank": 76,
+  "traction": {
+    "tractionRank": 61,
+    "tractionScore": 3,
+    "tractionReason": "Pre-launch waitlist, pricing \"forthcoming\""
+  },
+  "paths": {
+    "memo": "summer2026/memos/ekpa.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/ekpa.md",
+      "elad-gil": "summer2026/evals/elad-gil/ekpa.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/ekpa.md",
+      "paul-graham": "summer2026/evals/paul-graham/ekpa.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/ekpa.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/ekpa.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/ekpa.md"
+    }
+  }
+}

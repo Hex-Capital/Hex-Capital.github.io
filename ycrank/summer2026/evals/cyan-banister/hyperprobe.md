@@ -1,0 +1,30 @@
+﻿# HyperProbe -- Cyan Banister Evaluation
+
+HyperProbe is a repeat DX founder — Shailendra Singh, ten years running HyperTest with paying logos like Nykaa, Groww, and Urbancompany — parked in the single most consensus lane of YC S26: an AI-coding-agent tool that "fixes prod too." The signature is competent-adjacent-founder inside a category where Lightrun just closed a $70M Series B in April 2025 and Dynatrace already owns Rookout since July 2023 for $33.9M. I've seen this exact shape before and I passed on it.
+
+Anduril-Luckey (2017) is the load-bearing analogue on founder-lived-experience: Palmer shipped Oculus to scale in an adjacent domain before he ever pitched defense, and the biography was the moat. HyperProbe's Shailendra Singh is genuinely adjacent — HyperTest was API testing sold to backend engineering teams from 2015 through 2025, $2.13M raised, Better Capital-led seed in December 2022 — so he has spent a decade in the room where the buyer of HyperProbe lives. That's real. Where HyperProbe diverges from the Anduril rung is the origin story: Palmer felt VR in his parents' garage; Shailendra pivoted HyperTest into HyperProbe upon YC S26 admission, which reads as a founder chasing the AI-agent wave rather than a founder who woke up one morning unable to debug his own prod incident. Adjacent, not autobiographical.
+
+The consensus YC AI-agent darling from my pass example — two ex-FAANG PMs, $20M oversubscribed seed, $200B TAM slide — failed because the round was priced as if the outcome were already certain and the moat was the model, not the founders. HyperProbe's dossier drips with the same signature on the market-weirdness axis: Lightrun at $110M total funding on the identical "AI-SRE dynamic instrumentation" primitive, Sentry Seer, Datadog Bits AI SRE, Rookout inside Dynatrace, and a Latitude 2026 comparison piece already ranking them all against each other. When four incumbents and a $70M-Series-B private competitor cover the same wedge, "find them before it becomes consensus" is not the game HyperProbe is in. HyperProbe is at the consensus table asking for a seat.
+
+On CEO clarity: the YC page names Shailendra Singh alone, team size 8, but Karan Raina co-founded HyperTest with him and his HyperProbe role is publicly undisclosed — that's the ambiguity I want resolved before I sign, because the HQ Trivia (2017) Yusupov/Kroll post-mortem started as an undisclosed second-chair. Eighteen months out, this either compounds into a clean single-CEO cap table or it fractures the way GameCrush (~2011) did. The dossier gives me one named CEO with plausible authority, but the prior-company co-founder question is a live wire.
+
+Counterfactual on capital-intensity: for HyperProbe to flip a tier on my "too hard or too unsexy" axis, Shailendra would have to be shipping a runtime agent into regulated verticals — SOC2-scoped healthcare backends, defense-cleared environments, ITAR-locked SCIFs — where the moat compounds with certification time. Instead HyperProbe ships to Node.js, TypeScript, Java, Scala, Kotlin, the most-contested runtime surface in software. This is the exact opposite of the Vigil Labs (August 2025) and Mindbloom lane I fund. There is no version of the current dossier where HyperProbe becomes structurally unsexy.
+
+Postmates (2011) is the single-anchor parallel on tactile verifiability: I bet Postmates because the deli-counter delivery happened in front of me on my own sidewalk. HyperProbe cites two testimonials — Aishwarya Maurya at CheQ Digital and Bhagwan Bansal at Housing.com — self-reported MTTR going from 3–4 hours to ~9 minutes and a <1% CPU overhead claim, no third-party benchmark. A developer can install it in the claimed 60 seconds, but I am not a developer walking into prod at midnight, and the artifact is a probe injected into a running JVM. There is nothing here I can touch the way I touched an Uber ride in 2010.
+
+Thirty-six months out: HyperProbe gets acquired by Datadog or Dynatrace in the $25–60M range — the Rookout $33.9M comp is the gravitational center — after reaching roughly $1–3M ARR selling to mid-market backend teams already using coding agents. A small, sensible strategic exit, not a Long Journey outcome. The mechanism is that Lightrun's $110M war chest and Dynatrace's owned-Rookout distribution collapse the wedge before HyperProbe reaches $5M ARR, and Shailendra sells because he's done this movie once already with HyperTest and knows when the acqui-hire clock has run out.
+
+The bull case that stings: Shailendra is a genuine repeat DX founder with a decade of paying B2B logos, and my DeepMind (~2013) exception exists precisely for domain-compounding operators — Hassabis was pedigreed but polymath, and I paid the check anyway. Bull argues HyperProbe is the Affirm-Levchin move: a Max Levchin-shaped repeat operator who deserves the check on trajectory alone regardless of category consensus. My rebuttal is that Levchin lived the payments problem across PayPal and Slide before Affirm, and the category (subprime consumer credit at point-of-sale) was aesthetically transgressive when he started. HyperProbe is Shailendra pivoting from HyperTest into the hottest lane in YC S26 with Lightrun already at Series B on the same primitive — that's not the Levchin shape, that's the Pass Example shape. **Verdict flips to Invest if Shailendra can show me one signed enterprise LOI from a regulated backend — a healthcare, defense, or fintech buyer — where the probe injection has to survive a compliance audit Lightrun and Rookout cannot pass.**
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Surfaced From Lived Experience, Not Market Analysis | 18/32 |
+| Magically Weird, Non-Consensus, Round Likely Underpriced | 6/24 |
+| Single Unambiguous CEO With Identifiable Tiebreaker Authority | 11/16 |
+| Capital-Intensive, Frontier-Hardware or Unsexy-Regulated Swing | 4/15 |
+| Physical-World Verifiability: You Can Touch, Use, Or Observe The Product | 5/13 |
+| **Total** | **44/100** |
+
+**Total Score: 44/100** (Pass)

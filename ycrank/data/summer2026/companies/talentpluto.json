@@ -60,11 +60,11 @@
     "VK": 33
   },
   "consolidatedAvg": 37.86,
-  "consolidatedRank": 27,
+  "consolidatedRank": 39,
   "traction": {
-    "tractionRank": 3,
-    "tractionScore": 76,
-    "tractionReason": "100+ partner companies, 30% MoM growth"
+    "tractionRank": 5,
+    "tractionScore": 70,
+    "tractionReason": "100+ partners, 15k+ conversations, 30% MoM"
   },
   "paths": {
     "memo": "summer2026/memos/talentpluto.md",

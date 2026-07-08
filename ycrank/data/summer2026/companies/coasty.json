@@ -60,11 +60,11 @@
     "VK": 32
   },
   "consolidatedAvg": 41.14,
-  "consolidatedRank": 13,
+  "consolidatedRank": 20,
   "traction": {
-    "tractionRank": 15,
-    "tractionScore": 40,
-    "tractionReason": "OSWorld #1 self-reported, PH launch, paid tiers"
+    "tractionRank": 26,
+    "tractionScore": 26,
+    "tractionReason": "Paid tiers $19-$99/mo, #1 OSWorld self-reported"
   },
   "paths": {
     "memo": "summer2026/memos/coasty.md",

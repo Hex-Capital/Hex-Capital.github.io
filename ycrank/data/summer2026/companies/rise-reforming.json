@@ -1,0 +1,83 @@
+{
+  "slug": "rise-reforming",
+  "name": "Rise Reforming",
+  "oneLiner": "We turn waste gases into valuable, supply-secure liquid chemicals",
+  "metadata": {
+    "website": "https://rise-reforming.com/home",
+    "yc_page": "https://www.ycombinator.com/companies/rise-reforming",
+    "batch": "Summer 2026",
+    "industry": "Industrials / Industrials -> Climate",
+    "team_size": "4",
+    "location": "Chicago, IL, USA",
+    "tags": "Hard Tech, Smart Waste Management, Alternative Fuels, Renewable Energy, ClimateTech",
+    "yc_partner": "Jared Friedman (YC company page)",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Hard Tech",
+    "Smart Waste Management",
+    "Alternative Fuels",
+    "Renewable Energy",
+    "ClimateTech"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-08T04:53:12.360Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 60,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 49,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 49,
+    "EG": 35,
+    "NR": 32,
+    "PG": 60,
+    "PT": 38,
+    "SL": 43,
+    "VK": 49
+  },
+  "consolidatedAvg": 43.71,
+  "consolidatedRank": 13,
+  "traction": {
+    "tractionRank": 11,
+    "tractionScore": 50,
+    "tractionReason": "7 supply MOUs ($14M-$92M pipeline ARR), $1.06M raised"
+  },
+  "paths": {
+    "memo": "summer2026/memos/rise-reforming.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/rise-reforming.md",
+      "elad-gil": "summer2026/evals/elad-gil/rise-reforming.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/rise-reforming.md",
+      "paul-graham": "summer2026/evals/paul-graham/rise-reforming.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/rise-reforming.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/rise-reforming.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/rise-reforming.md"
+    }
+  }
+}

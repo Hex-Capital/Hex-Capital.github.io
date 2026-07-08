@@ -1,0 +1,30 @@
+﻿# Agnost AI -- Naval Ravikant Evaluation
+
+Agnost AI is a developer tool built by two observability-OSS-native founders into a category whose independent vendors are being rolled up in real time -- Shubham Palriwala's GSoC/GSoD/LFX ledger across Kyverno and OpenMined is the specific-knowledge signal, and the single-sided B2B SaaS shape at $499/mo Pro is the leverage-architecture ceiling. The signature is high specific knowledge into a low-network-compounding surface, which is the Perplexity shape without Perplexity's category-timing moat.
+
+Stack Overflow (2008) is the load-bearing analogy for Agnost AI's founder-market fit -- Atwood and Spolsky were practicing developers writing for developers, and Palriwala's five years shipping into OWASP Juice Shop, OpenMined, and Kyverno is the same "builder building for builders" pattern that made me write the Stack Overflow check before any monetization existed. Where Agnost AI diverges is that Stack Overflow's specific knowledge distributed itself through search-indexed developer content with zero marginal cost, while Agnost AI's specific knowledge is expressed through a Python SDK with TypeScript and Go still on the roadmap per WorkOS Nov 2025 -- and TypeScript is where the MCP agent-runtime population actually lives. The depth is real; the compounding surface for that depth is narrower than the Stack Overflow template.
+
+Perplexity (2022) is the reference point for Agnost AI's weakest dimension, and Perplexity is a Known Exception precisely because it violates the network-compounding rule. Agnost AI is single-sided: the 1,247 feature requests Odysser surfaced do not make the Lopus AI deployment better, and the 16/18 autonomous PRs Lopus merged do not compound value for Google or Exa. Perplexity got the network-compounding waiver because criterion #1 (permissionless API distribution), criterion #3 (Aravind's Berkeley retrieval PhD), and pre-consensus AI timing all cleared at top quartile -- Agnost AI has one of those three at mid-quartile and the other two are contested, which does not earn the same override.
+
+The leverage architecture on Agnost AI is code-native at the SDK layer but capital-permissioned at the distribution layer -- OpenTelemetry-native "2-minute setup" is genuine developer pull, but Pro tier at $499/mo with Enterprise-custom above it means the revenue mechanic requires a sales motion the dossier does not describe. Over 18 months this compounds badly against Braintrust's $80M Series B war chest at an $800M Feb 2026 valuation and LangSmith's $70M Series B -- they can ship auto-PR generation on top of trace data they already own, and Agnost AI's SDK-integration lead shrinks the moment a Sequoia-backed incumbent decides to close the gap.
+
+For the market-and-pivot-room dimension, the counterfactual is instructive: the score would flip a tier upward if Agnost AI's product-scope ambiguity between "conversational agent analytics" (YC page) and "MCP server analytics" (WorkOS blog, Nov 10 2025) were framed as an optionality feature rather than a positioning risk. The MCP protocol at 97M downloads with 10K+ active servers by 2026 is a real second surface, and dual-track scope on a growing agent-tooling category is exactly the pivot-room the "first idea never works" axiom asks for. What would have to be true: Palriwala and Ajmera would need to declare the MCP surface primary and let the conversational-agent framing become a wedge, not a hedge.
+
+The founder trio reads clean on the Buffett axes -- Ajmera's IIT Madras CS with Microsoft and Cisco, then Entrepreneurs First with the earliest-in-batch $250K investment committee decision, then YC S26 is three sequential gatekeepers voting yes. No integrity red flags, no unprompted honesty signaling, no partner litigation, no contested prior exits. This is the quiet founder profile my absent-evidence default is designed to protect rather than punish; the ten-year test passes without drama.
+
+My 36-month forecast for Agnost AI is acqui-hire or small-strategic acquisition in the $20M-$60M range by Braintrust, LangSmith, or Datadog -- the mechanism is the consolidation already visible in Langfuse-into-Clickhouse (Jan 2026) and Helicone-into-Mintlify (Mar 2026), where standalone AI observability vendors without network compounding get rolled into platforms that already own the trace data and the enterprise contract. Agnost AI's auto-PR generation is a feature, not a product, and features get absorbed.
+
+The strongest bull case against that forecast: Palriwala's OpenTelemetry OSS depth is a distribution primitive I am underweighting, the Google and Exa logos on the landing page are pre-seed anomalies most YC S26 companies do not have, and MCP-analytics is a genuinely new surface where a two-person team can outship a $800M-post Braintrust that has an existing eval roadmap to defend. If the MCP ecosystem compounds at the rate Requesty's 97M downloads suggests, Agnost AI could hit $8M-$15M ARR before consolidation catches them and command a $150M+ acquisition or a Series A at a real markup. The dossier evidence that wins the argument against this: Braintrust and LangSmith have the exact same trace ingestion pipeline plus 20-100x the engineering headcount, and auto-PR-on-top-of-traces is a quarter of eng-work for them, not a company. The verifiable condition that would flip my verdict: Agnost AI ships TypeScript and Go MCP SDKs and reaches 500+ paying Pro accounts before either LangSmith or Braintrust ships auto-PR -- if that footrace is winnable, the leverage architecture becomes real and I re-underwrite.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Permissionless Leverage Architecture (Code or Media as Primary Distribution) | 14/28 |
+| Marketplace or Network with Compounding User-Added Value | 6/22 |
+| Founder Has Non-Trainable Specific Knowledge in the Domain | 12/20 |
+| Big Market with Room for Multiple Pivots Without Refinancing | 9/16 |
+| Founder Trio (Intelligence + Energy + Integrity) Reads as a 10-Year Partner | 9/14 |
+| **Total** | **50/100** |
+
+**Total Score: 50/100** (Neutral)

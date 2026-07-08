@@ -1,0 +1,79 @@
+{
+  "slug": "rindler",
+  "name": "Rindler",
+  "oneLiner": "Middleware making websites readable for AI agents",
+  "metadata": {
+    "website": "https://rindler.ai",
+    "yc_page": "https://www.ycombinator.com/companies/rindler",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "2",
+    "location": "Boston, MA, USA",
+    "tags": "Infrastructure",
+    "yc_partner": "Ankit Gupta",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Infrastructure"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-08T04:53:17.737Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 25,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 34,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 32,
+    "EG": 48,
+    "NR": 53,
+    "PG": 43,
+    "PT": 26,
+    "SL": 25,
+    "VK": 34
+  },
+  "consolidatedAvg": 37.29,
+  "consolidatedRank": 44,
+  "traction": {
+    "tractionRank": 58,
+    "tractionScore": 4,
+    "tractionReason": "X account exists, no other public signal"
+  },
+  "paths": {
+    "memo": "summer2026/memos/rindler.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/rindler.md",
+      "elad-gil": "summer2026/evals/elad-gil/rindler.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/rindler.md",
+      "paul-graham": "summer2026/evals/paul-graham/rindler.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/rindler.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/rindler.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/rindler.md"
+    }
+  }
+}

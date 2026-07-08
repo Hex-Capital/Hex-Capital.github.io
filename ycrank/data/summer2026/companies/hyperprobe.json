@@ -1,0 +1,81 @@
+{
+  "slug": "hyperprobe",
+  "name": "HyperProbe",
+  "oneLiner": "Your coding agent writes code. Now let it fix prod too.",
+  "metadata": {
+    "website": "http://hyperprobe.co",
+    "yc_page": "https://www.ycombinator.com/companies/hyperprobe",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "8",
+    "location": "San Francisco, CA, USA",
+    "tags": "Developer Tools, DevSecOps, SaaS",
+    "yc_partner": "Brad Flora (YC company page)",
+    "emails": "No public data found (demo booking via calendly.com/shailendra-hyperprobe/30min listed on hyperprobe.co)"
+  },
+  "tags": [
+    "Developer Tools",
+    "DevSecOps",
+    "SaaS"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-08T04:51:06.474Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 37,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 44,
+    "EG": 53,
+    "NR": 44,
+    "PG": 44,
+    "PT": 34,
+    "SL": 28,
+    "VK": 37
+  },
+  "consolidatedAvg": 40.57,
+  "consolidatedRank": 24,
+  "traction": {
+    "tractionRank": 18,
+    "tractionScore": 36,
+    "tractionReason": "2 named customer testimonials (CheQ Digital, Housing.com)"
+  },
+  "paths": {
+    "memo": "summer2026/memos/hyperprobe.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/hyperprobe.md",
+      "elad-gil": "summer2026/evals/elad-gil/hyperprobe.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/hyperprobe.md",
+      "paul-graham": "summer2026/evals/paul-graham/hyperprobe.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/hyperprobe.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/hyperprobe.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/hyperprobe.md"
+    }
+  }
+}

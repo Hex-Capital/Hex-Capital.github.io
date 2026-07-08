@@ -1,0 +1,81 @@
+{
+  "slug": "salem-robotics-inc",
+  "name": "Salem Robotics Inc",
+  "oneLiner": "We deploy robots for inspections in hazardous spaces, like nuclear.",
+  "metadata": {
+    "website": "https://salemroboticsinc.com",
+    "yc_page": "https://www.ycombinator.com/companies/salem-robotics-inc",
+    "batch": "Summer 2026 (YC page)",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+    "team_size": "2",
+    "location": "Austin, TX, USA",
+    "tags": "Hard Tech, Robotics, Industrial",
+    "yc_partner": "Jon Xu (YC page)",
+    "emails": "Engage@salemroboticsinc.com (company website)"
+  },
+  "tags": [
+    "Hard Tech",
+    "Robotics",
+    "Industrial"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-08T04:50:36.055Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 67,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 63,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 37,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 67,
+    "EG": 44,
+    "NR": 43,
+    "PG": 63,
+    "PT": 45,
+    "SL": 49,
+    "VK": 37
+  },
+  "consolidatedAvg": 49.71,
+  "consolidatedRank": 6,
+  "traction": {
+    "tractionRank": 14,
+    "tractionScore": 43,
+    "tractionReason": "5 commercial nuclear plant relationships, DOE partnerships"
+  },
+  "paths": {
+    "memo": "summer2026/memos/salem-robotics-inc.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/salem-robotics-inc.md",
+      "elad-gil": "summer2026/evals/elad-gil/salem-robotics-inc.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/salem-robotics-inc.md",
+      "paul-graham": "summer2026/evals/paul-graham/salem-robotics-inc.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/salem-robotics-inc.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/salem-robotics-inc.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/salem-robotics-inc.md"
+    }
+  }
+}

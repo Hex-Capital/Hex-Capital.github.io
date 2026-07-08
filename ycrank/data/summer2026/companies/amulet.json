@@ -1,0 +1,82 @@
+{
+  "slug": "amulet",
+  "name": "Amulet",
+  "oneLiner": "Agents that drive customer success",
+  "metadata": {
+    "website": "https://amulet.so/",
+    "yc_page": "https://www.ycombinator.com/companies/amulet",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Operations",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "SaaS, B2B, Customer Success, AI Assistant",
+    "yc_partner": "Diana Hu",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "SaaS",
+    "B2B",
+    "Customer Success",
+    "AI Assistant"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-08T04:50:36.172Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 24,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 23,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 22,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 23,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 24,
+    "EG": 32,
+    "NR": 33,
+    "PG": 27,
+    "PT": 23,
+    "SL": 22,
+    "VK": 23
+  },
+  "consolidatedAvg": 26.29,
+  "consolidatedRank": 77,
+  "traction": {
+    "tractionRank": 59,
+    "tractionScore": 4,
+    "tractionReason": "Team of 2, launched 2026, no disclosures"
+  },
+  "paths": {
+    "memo": "summer2026/memos/amulet.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/amulet.md",
+      "elad-gil": "summer2026/evals/elad-gil/amulet.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/amulet.md",
+      "paul-graham": "summer2026/evals/paul-graham/amulet.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/amulet.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/amulet.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/amulet.md"
+    }
+  }
+}

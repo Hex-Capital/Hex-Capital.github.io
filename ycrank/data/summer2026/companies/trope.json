@@ -1,0 +1,81 @@
+{
+  "slug": "trope",
+  "name": "Trope",
+  "oneLiner": "Modernize ERP Implementations with AI",
+  "metadata": {
+    "website": "https://trope.ai",
+    "yc_page": "https://www.ycombinator.com/companies/trope",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, SaaS, B2B",
+    "yc_partner": "Jon Xu (YC company page)",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "SaaS",
+    "B2B"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-08T04:53:17.629Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 27,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 33,
+    "EG": 39,
+    "NR": 33,
+    "PG": 45,
+    "PT": 30,
+    "SL": 27,
+    "VK": 27
+  },
+  "consolidatedAvg": 33.43,
+  "consolidatedRank": 64,
+  "traction": {
+    "tractionRank": 48,
+    "tractionScore": 7,
+    "tractionReason": "Team pedigree only (Tesla/Amazon/Zipline)"
+  },
+  "paths": {
+    "memo": "summer2026/memos/trope.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/trope.md",
+      "elad-gil": "summer2026/evals/elad-gil/trope.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/trope.md",
+      "paul-graham": "summer2026/evals/paul-graham/trope.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/trope.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/trope.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/trope.md"
+    }
+  }
+}

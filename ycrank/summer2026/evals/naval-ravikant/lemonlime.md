@@ -1,0 +1,30 @@
+﻿# LemonLime -- Naval Ravikant Evaluation
+
+LemonLime is a large-market bet built on the wrong leverage stack -- a $999/mo seat-based B2B SaaS pointed at HubSpot and Salesforce tenants, in a category where Gumloop just took $50M from Benchmark and Asana already absorbed Stack AI. That pairing -- big permissioned market, permissionless architecture absent -- is the signature. LemonLime lives on the labor-and-capital side of the four-leverage taxonomy, not the code-and-media side, and the dossier does not name a single mechanism that would move it across.
+
+Twitter (2007) is the rung I use for permissionless leverage: zero marginal cost of replication, anyone can post, the platform charges nothing to the distributor, and the media compounds without gatekeepers. LemonLime is the structural inverse. Distribution runs through a 14-day trial gated by a $999/mo Starter tier with no free layer, integrations that require the customer to already be paying HubSpot, Salesforce, Stripe, and Linear, and a GTM path the dossier itself flags as "[Inferred]: Direct sales via founder network and YC channels." LemonLime is not shipping code into a permissionless commons; it is selling seats into somebody else's enterprise stack. That is capital-and-labor leverage under a no-code wrapper, and it is why I score criterion #1 well below midpoint.
+
+Perplexity is the failure mechanism I want to test against for criterion #2 -- a single-sided app I still funded because permissionless distribution, deep specific knowledge, and pre-consensus timing all cleared at top quartile. LemonLime does not clear those three gates. Its "gets smarter the more you use it" line describes per-tenant learning inside one customer, not the Nth user increasing value for the (N-1) prior users the way Stack Overflow (2008) or Uber (2010) did. Each LemonLime customer is economically independent of the next, and the dossier reports "no public data found" on customer count, retention, or automation-accuracy benchmarks. The Perplexity waiver does not port over because criterion #1 also fails here; the three-of-five gate math never assembles.
+
+Ivan Zhao spent his adolescence rebuilding productivity tools before Notion (2013) -- that is what non-trainable specific knowledge in a builder-tool looks like. Daniela Muñoz brings CMU CS/HCI plus Google and Microsoft SWE internships; Jordan Zietz brings a Stanford affiliation and the 44th Stanford Tree. Their prior venture together, Confetti, was an AI-native consumer social platform for college students. LemonLime is asking me to underwrite a jump from consumer AI social to cross-departmental B2B automation across HubSpot, Salesforce, QuickBooks, and Stripe, with no disclosed enterprise-software operator background and no named advisors. The specific-knowledge filter reads as "smart generalists pivoting into an enterprise category," which is closer to the ex-FAANG-PM pattern I flag as a red flag than to the Atwood-Spolsky template.
+
+On market size, LemonLime is the strongest dimension and the reason this is not a Strong Pass: AI agents $12.06B at 45.5% CAGR, workflow automation $26.01B, and cross-department scope from marketing to finance. Over 18 months, that pivot room is real -- LemonLime can retreat from horizontal-auto-agents into a vertical (RevOps for a specific SaaS-company size) or up-stack into an agent evaluation layer, and the runway math survives it. The Venture Hacks axiom is satisfied. This is the one dimension where LemonLime scores in my upper-mid band.
+
+The Buffett trio reads clean but thin. Muñoz and Zietz co-founded Confetti together, so co-founder authority is not the unresolved Day-1 problem I flag. Nothing in the dossier suggests contested exits, self-promotional ethics claims, or the "smart crook" pattern Epinions taught me to fear. Nothing suggests the ten-year-partner depth either. Silence on integrity is neutral in my framework, not negative -- I default to 7/14 and move on.
+
+The 36-month forecast: LemonLime reaches $500K-$2M ARR by mid-2028 on the $999/$2,499 SMB tier, stalls against Gumloop and Salesforce Agentforce distribution, and gets acqui-hired by a mid-tier workflow platform (HubSpot, Zapier, Notion, or Asana repeating the Stack AI playbook) for team-and-tech at a modest multiple by mid-2029. That trajectory falls directly out of the signature: a big-market, low-leverage entrant in a category that is already consolidating with $70M+ war chests on the other side of the table.
+
+The steel-man is the auto-generation differentiator. If LemonLime's ingestion layer actually studies a tenant's HubSpot-Salesforce-Slack graph and auto-surfaces automations the user did not know to design, that is a product-led wedge that compounds inside each customer -- the Cursor-style "AI writes the workflow the user would have built" motion, applied to ops. It stings because it would be a genuine builder-tool for non-builders, which is my thesis sleeve. It does not survive contact with the dossier: Salesforce Agentforce and Microsoft Copilot Studio ingest the same data with bundled distribution inside seats already sold, LemonLime discloses no accuracy benchmark for its schema-inference across 30+ third-party APIs, and Lindy ($49.9M), Relevance AI ($37M), and Gumloop ($70.6M) have been shipping toward this same wedge for two years. The verifiable condition that would flip my verdict: LemonLime open-sources its ingestion-and-suggestion agent framework, ships a free tier, and shows organic GitHub adoption or company-to-company viral spread inside 12 months. Absent that, this is a pass on the leverage architecture, not on the founders.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Permissionless Leverage Architecture (Code or Media as Primary Distribution) | 8/28 |
+| Marketplace or Network with Compounding User-Added Value | 7/22 |
+| Founder Has Non-Trainable Specific Knowledge in the Domain | 8/20 |
+| Big Market with Room for Multiple Pivots Without Refinancing | 11/16 |
+| Founder Trio (Intelligence + Energy + Integrity) Reads as a 10-Year Partner | 8/14 |
+| **Total** | **42/100** |
+
+**Total Score: 42/100** (Pass)

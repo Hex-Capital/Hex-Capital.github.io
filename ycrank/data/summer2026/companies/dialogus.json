@@ -59,11 +59,11 @@
     "VK": 33
   },
   "consolidatedAvg": 32.14,
-  "consolidatedRank": 51,
+  "consolidatedRank": 69,
   "traction": {
-    "tractionRank": 47,
-    "tractionScore": 3,
-    "tractionReason": "no revenue, users, press, or social data"
+    "tractionRank": 71,
+    "tractionScore": 2,
+    "tractionReason": "YC backing only, no revenue or users"
   },
   "paths": {
     "memo": "summer2026/memos/dialogus.md",

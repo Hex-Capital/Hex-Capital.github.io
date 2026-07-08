@@ -61,11 +61,11 @@
     "VK": 43
   },
   "consolidatedAvg": 37.14,
-  "consolidatedRank": 32,
+  "consolidatedRank": 45,
   "traction": {
     "tractionRank": 37,
-    "tractionScore": 10,
-    "tractionReason": "\"deploying in hospitality\" without counts"
+    "tractionScore": 15,
+    "tractionReason": "\"Already deploying in hospitality\" (no counts)"
   },
   "paths": {
     "memo": "summer2026/memos/os3.md",

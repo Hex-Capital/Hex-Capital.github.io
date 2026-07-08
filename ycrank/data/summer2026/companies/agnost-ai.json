@@ -1,0 +1,81 @@
+{
+  "slug": "agnost-ai",
+  "name": "Agnost AI",
+  "oneLiner": "Product analytics for teams building conversational agents",
+  "metadata": {
+    "website": "https://agnost.ai",
+    "yc_page": "https://www.ycombinator.com/companies/agnost-ai",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Analytics",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Developer Tools, Analytics, Monitoring",
+    "yc_partner": "Tyler Bosmeny",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Developer Tools",
+    "Analytics",
+    "Monitoring"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-08T04:50:53.397Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 28,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 40,
+    "EG": 56,
+    "NR": 50,
+    "PG": 44,
+    "PT": 29,
+    "SL": 32,
+    "VK": 28
+  },
+  "consolidatedAvg": 39.86,
+  "consolidatedRank": 26,
+  "traction": {
+    "tractionRank": 9,
+    "tractionScore": 55,
+    "tractionReason": "Google, Exa customer logos with testimonials"
+  },
+  "paths": {
+    "memo": "summer2026/memos/agnost-ai.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/agnost-ai.md",
+      "elad-gil": "summer2026/evals/elad-gil/agnost-ai.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/agnost-ai.md",
+      "paul-graham": "summer2026/evals/paul-graham/agnost-ai.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/agnost-ai.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/agnost-ai.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/agnost-ai.md"
+    }
+  }
+}

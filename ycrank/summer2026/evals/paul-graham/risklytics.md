@@ -1,0 +1,30 @@
+﻿# Risklytics -- Paul Graham Evaluation
+
+Risklytics is a schlep-zone bet without an organic-idea spine -- Samuel Gold and Alexander Risio, two Harvard CS kids with no insurance biographies I can find, walked toward the ugliest regulated corner of California property risk and shipped an API that scored 13,685,446 homes and hit 91% discrimination on the January 2025 LA fires. That is the signature: highest on schlep, lowest on founder-pain origin. It is the inverse of the Drew Houston pattern at **Dropbox** (2007) -- the artifact exists, but the artifact was not built to scratch the builder's own itch.
+
+Airbnb (2009)'s cereal-box moment is the ceiling for what I mean by "animal" in the pre-funding column, and Risklytics does not have a cereal-box story in the dossier -- no stunt, no unscalable manual op, no rejection-then-Android-wallet like Brian Armstrong at **Coinbase** (2012). What Risklytics does have is a corpus of 131,929 CAL FIRE damage inspections turned into a working scoring API with a validated discrimination number against a real fire that happened this year. That is closer to Houston's Hacker News demo than to a pitch deck -- shipped artifact, external validation event, not a slide. It doesn't clear the animal bar, but it clears the demo-first bar, which is what pulls Risklytics off the floor of this dimension rather than leaving it at the default penalty.
+
+The Pass Example I keep in my head is the two-MBA AI wrapper with the $50B TAM slide and no personal exposure to the problem -- that is the low rung for organic-idea fit, and Risklytics rhymes with it more than I would like. Samuel Gold studied CS & Economics at Harvard and left after a year; Alexander Risio did an AB/SM in CS with "systems, intelligence, biology." Neither founder has been an underwriter, an actuary, a wildfire modeler, a homeowner non-renewed by State Farm, or a CAL FIRE inspector. Risklytics reads as a market Risklytics spotted, not a pain Risklytics lived. The Collisons at **Stripe** (2010) had been hacking commerce since **Auctomatic** (2007); there is no equivalent prior artifact in either Risklytics founder's background pointing at insurance.
+
+Insurance in California in 2026 is a schlep the way bitcoin compliance was a schlep for **Coinbase** (2012) -- CA DOI release 052-2025 has only approved Verisk, Karen Clark, and Moody's for forward-looking rate filings, which means Risklytics cannot enter the filed-rate workflow without walking the same review. Most Summer 2026 YC applicants I see are routing around exactly this kind of regulator-gated enterprise sale. Risklytics is running toward it. That is the one dimension where Risklytics's placement is genuinely high, and it is the reason I did not close the tab immediately.
+
+ZestyAI is the counterfactual on defensibility -- Z-FIRE is already deployed with carriers writing 40% of the California homeowners market, trained on 200B+ datapoints, and $76.97M raised through June 2025. For Risklytics's moat score to flip a tier, the retrofit-path-to-insurability wedge would need at least one named admitted carrier signing on to actually accept the recommended mitigations as underwriting criteria -- the dossier lists zero such carriers. Until that happens, Risklytics is a smaller ZestyAI with a nicer output format, and CAPE Analytics sitting inside Moody's post-January-2025 is the distribution asymmetry that closes the window.
+
+Hacker-genealogy is where Risklytics is thin the way I want it thick. Alexander Risio has a GitHub handle @AlexRisio; the dossier reports no notable star counts. Samuel Gold has no GitHub found and no Twitter presence. No competitive-programming placement, no Lisp prize, no open-source library, no Hacker News post that predates the company. This is the marker I over-index on because of the **Viaweb** (1995) lineage, and Risklytics is missing the trail. On co-founder configuration Risklytics is neutral -- two Harvard CS overlaps is fine, but the dossier does not establish a multi-year prior collaboration the way **Reddit** (2005)'s Huffman/Ohanian dorm-roommate arc did.
+
+My 36-month forecast: Risklytics gets acqui-hired into an incumbent -- Verisk, Moody's, or ZestyAI itself -- for talent and the CAL FIRE-trained model in the $10-30M range, or pivots to a multi-peril national API and raises a modest Series A without ever crossing $2M ARR. The mechanism is distribution asymmetry against Z-FIRE plus the missing organic-idea spine: founders who spotted the market rather than lived it tend to sell when the enterprise sales cycle turns out to be 18 months of underwriter meetings.
+
+The bull case that stings: California's May 2025 forward-looking-model rule is a genuine "why now," Risklytics's 91% discrimination on 30,469 homes in the January 2025 LA fires is a validation number most Summer 2026 batchmates would kill for, and the retrofit-recommendation output actually is differentiated from Z-FIRE's score-only motion. If one admitted carrier signs a pilot in the next twelve months, Risklytics becomes the "Coinbase of wildfire underwriting" -- the schlep is the moat. The reason this doesn't quite land: **Coinbase** (2012) had Armstrong, who had personally built a bitcoin wallet on Android before the check; Risklytics has no equivalent founder-in-the-domain figure, and the dossier surfaces zero insurance advisors, zero board members, zero carrier LOIs. Verifiable flip condition: a named California admitted carrier publicly integrating Ember into underwriting within twelve months. Absent that, Risklytics is clever-idea-soft-founders, which is where I lose money. Pass.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Demonstrates Animal Resourcefulness Pre-Funding | 15/35 |
+| Idea Is Organic to Founders' Own Pain | 6/25 |
+| Problem Sits in a Schlep Zone Mainstream Founders Avoid | 10/15 |
+| Hacker Genealogy in the Founder Team | 5/15 |
+| Co-founder Configuration Is a Strong Pair or Trio, Not Solo | 5/10 |
+| **Total** | **41/100** |
+
+**Total Score: 41/100** (Pass)

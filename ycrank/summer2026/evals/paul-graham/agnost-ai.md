@@ -1,0 +1,30 @@
+﻿# Agnost AI -- Paul Graham Evaluation
+
+Agnost AI is a strong-hacker-lineage bet on a thin-schlep problem -- Shubham Palriwala's GSoC/GSoD/LFX trail and Parth Ajmera's Entrepreneurs First $250K IC are the loudest signal in the dossier, and the loudest counter-signal is that the work itself is a dashboard sitting next to LangSmith's $70M Series B and Braintrust's $800M valuation. The founders are real hackers. The problem is a crowded software category. That pairing is the whole evaluation.
+
+Aaron Swartz co-authored the RSS spec before **Reddit** (2005); that is the HIGH rung for hacker genealogy, and it is the rung Agnost AI is closest to on any dimension in this dossier. Palriwala shipping GSoC on OWASP Juice Shop, GSoD on OpenMined, and LFX on Kyverno is not a resume line -- those are three separate open-source communities that individually vetted him before he was 24. Ajmera won ten hackathons and got the earliest-in-batch $250K IC at EF. Where Agnost AI diverges from the Swartz rung is that neither founder has a canonical artifact the wider hacker world already knows by name -- there is no RSS spec, no Lisp prize, no Hacker News demo video of Agnost AI's product predating the company. Palriwala's LinkedIn ~30K followers and GitHub 213 followers say "competent, connected, not yet legendary."
+
+**Coinbase** (2012) is the schlep archetype: Brian Armstrong ate the bitcoin compliance grind that every other YC S12 applicant unconsciously routed around, and that grind became the moat. Look for that pattern in Agnost AI's dossier and it is not there. OpenTelemetry-native SDK, "2-minute setup," auto-generated PRs against prompts -- this is pure software work that every well-funded incumbent can and will replicate. LangSmith, Braintrust, Arize, Langfuse, and Helicone are all sitting on the same trace data Agnost AI is sitting on, and Braintrust's $80M Series B in February 2026 buys the engineering headcount to ship auto-PR generation as a quarter's feature release. Where is the unpleasant work Agnost AI is doing that Braintrust won't? I do not see it. The MCP protocol angle is a timing bet on Anthropic's tooling standard, not a schlep.
+
+On animal resourcefulness pre-funding, Agnost AI's dossier shows Google, Exa, and Corgi Insurance as landing-page logos and one customer testimonial that "Lopus AI merged 16/18 autonomous PRs." Compounding these signals over 18 months requires converting free-tier logos into $499/mo Pro seats before LangSmith ships the same auto-PR feature; nothing in the dossier tells me Agnost AI has pulled a stunt like Airbnb's cereal boxes or Armstrong's post-rejection wallet build to earn that time. Podcast appearances on The Context in November 2025 and a WorkOS blog feature are distribution hygiene, not the animal signature I fund on -- they read as competent PR, not as evidence that Agnost AI's founders would stay up all night to close Corgi Insurance the way an animal salesperson would.
+
+For the organic-idea test, the score would flip a tier if Palriwala or Ajmera had a sentence in the dossier that said "we were building agents at Formbricks and our own eval tooling kept missing conversation-drop-off patterns, so we shipped this for ourselves." That sentence does not appear. Drew Houston lost his USB stick before **Dropbox** (2007); the Collisons had been hacking commerce APIs since **Auctomatic** (2007) before **Stripe** (2010). Agnost AI's founders come from Formbricks, Onboarding.club, Microsoft, and Cisco -- adjacent to observability, not victims of the specific pain that "my chat agent is silently failing in production and I don't know where." Founder-market fit here is inferred from LinkedIn history, not from a specific agent Palriwala or Ajmera built and watched fail.
+
+Compared to **Twitch** (2007)'s Justin Kan / Emmett Shear pairing coming out of the **Kiko** (2005) failure with three years of shared shipping under their belts, Agnost AI's Palriwala-Ajmera pairing is a shorter clock -- they met in the Entrepreneurs First cohort, which is closer to a founder-matching program than a dorm room. Two founders is the right shape. EF gives them roughly a year of prior working relationship. It's fine; it is not the Kan/Shear signal.
+
+My 36-month forecast on Agnost AI: acquihired by LangSmith or Braintrust for $15-40M, or dead. I do not see an independent path to $10M ARR when Langfuse just got rolled into Clickhouse in January 2026 and Helicone into Mintlify in March 2026 -- the observability layer is consolidating, and Agnost AI's differentiation (auto-PRs) is a feature, not a company. The mechanism is that a $499/mo Pro tier against a Braintrust that can ship the same auto-PR feature by Q3 2026 does not compound; free-tier Google logos do not convert fast enough to outrun a $70M competitor's roadmap.
+
+The strongest case against my forecast on Agnost AI is that MCP is a genuinely new surface with 97M downloads and 10K+ active servers, and if Palriwala's OpenTelemetry lineage lets Agnost AI own MCP observability before LangSmith notices, this is Wufoo-shaped -- a small clean tool in a category everyone underrates. I funded Wufoo. And the hacker signal on Ajmera and Palriwala is real enough that if the dossier surfaced a single Palriwala Hacker News demo of Agnost AI's auto-PR flow generating actual merged commits at Google or Exa -- named engineer, dated PR -- I would reconsider today. That is the verifiable condition that would flip me: not more logos, one specific animal moment on the artifact. Absent it, Agnost AI is a clever idea from clever hackers in the wrong category to beat "Black Swan Farming" (September 2012)'s math.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Demonstrates Animal Resourcefulness Pre-Funding | 13/35 |
+| Idea Is Organic to Founders' Own Pain | 9/25 |
+| Problem Sits in a Schlep Zone Mainstream Founders Avoid | 5/15 |
+| Hacker Genealogy in the Founder Team | 11/15 |
+| Co-founder Configuration Is a Strong Pair or Trio, Not Solo | 6/10 |
+| **Total** | **44/100** |
+
+**Total Score: 44/100** (Pass)

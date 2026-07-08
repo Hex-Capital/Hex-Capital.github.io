@@ -60,11 +60,11 @@
     "VK": 55
   },
   "consolidatedAvg": 50.57,
-  "consolidatedRank": 2,
+  "consolidatedRank": 5,
   "traction": {
-    "tractionRank": 36,
-    "tractionScore": 11,
-    "tractionReason": "founder Doom press only, no company traction"
+    "tractionRank": 53,
+    "tractionScore": 5,
+    "tractionReason": "Founder press in Scientific American, no company revenue"
   },
   "paths": {
     "memo": "summer2026/memos/parasma.md",

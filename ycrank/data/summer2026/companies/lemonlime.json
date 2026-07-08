@@ -1,0 +1,81 @@
+{
+  "slug": "lemonlime",
+  "name": "LemonLime",
+  "oneLiner": "No-code AI that learns your business and self-creates automations.",
+  "metadata": {
+    "website": "https://www.lemonlime.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/lemonlime",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B",
+    "team_size": "5",
+    "location": "San Francisco, CA, USA",
+    "tags": "SaaS, Workflow Automation, AI",
+    "yc_partner": "Diana Hu",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "SaaS",
+    "Workflow Automation",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-08T04:53:02.397Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 25,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 36,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 28,
+    "EG": 41,
+    "NR": 42,
+    "PG": 40,
+    "PT": 26,
+    "SL": 25,
+    "VK": 36
+  },
+  "consolidatedAvg": 34,
+  "consolidatedRank": 58,
+  "traction": {
+    "tractionRank": 27,
+    "tractionScore": 25,
+    "tractionReason": "Public $999/$2,499 tiers live, 30+ integrations"
+  },
+  "paths": {
+    "memo": "summer2026/memos/lemonlime.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/lemonlime.md",
+      "elad-gil": "summer2026/evals/elad-gil/lemonlime.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/lemonlime.md",
+      "paul-graham": "summer2026/evals/paul-graham/lemonlime.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/lemonlime.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/lemonlime.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/lemonlime.md"
+    }
+  }
+}

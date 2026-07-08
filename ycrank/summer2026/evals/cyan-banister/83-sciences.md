@@ -1,0 +1,30 @@
+﻿# 83 Sciences -- Cyan Banister Evaluation
+
+83 Sciences is a real hard-tech domain sitting on a three-founder governance structure with no named CEO -- that is the signature. Eric Riesel is a genuine MIT ML-for-materials practitioner who lead-authored the Crystalyze JACS paper in September 2024, and the domain (chemicals, batteries, semiconductors) is exactly the "too hard, too unsexy" lane I fund. But 83 Sciences ships three co-founders labelled "Founder, Founder, Founder" on the YC page with no tiebreaker disclosed, and two of them -- Ian Naccarella (Stanford ChemE / HBS / BCG) and Yankang Yang (BCG Principal) -- are the exact deck pattern I read as replaceable-operator training.
+
+Anduril's Palmer Luckey shipped Oculus at scale from his parents' garage before pivoting to defense; the biography *put him there* before the pitch existed. 83 Sciences has one Luckey-shaped founder -- Riesel, whose Crystalyze work reached 67% accuracy on RRUFF experimental patterns per MIT News (Sep 2024) and who is embedded in the Freedman Group at MIT. That is authentic lived contact with the materials-ML problem. Where 83 Sciences diverges from Anduril is that the other two-thirds of the cap table are Sila Nano *strategy manager* and BCG Climate & Sustainability consultant -- adjacent to hard tech, never *of* it. Naccarella's Sila stint was strategy, not gloveboxes; Yang's Wyss soft-robotics chapter is a paragraph, not a decade. The founder-market fit here is one authentic polymath sandwiched between two consulting résumés, and the JACS byline is not sufficient to override my reading of the surrounding pattern.
+
+HQ Trivia -- Rus Yusupov and Colin Kroll, no tiebreaker, feud, collapse. That is the failure mechanism that sits closest to 83 Sciences on Day 1: the dossier names three "Founders" with no CEO designation, no equity split, no operating agreement, no reference to how technical disputes between Riesel (chemistry-ML) and Yang (enterprise AI programs) get resolved when the roadmap forks. Add that 83 Sciences will be selling into pharma and semis procurement -- multi-quarter cycles where a founder disagreement doesn't just produce a bad product decision, it burns runway. This is the near-term blow-up risk the persona file explicitly flags, and 83 Sciences shows zero evidence of having had the conversation.
+
+CuspAI raised $130M and is reportedly closing $400M more at $2.6B per SiliconANGLE (Jun 2026); Citrine has $81.3M banked per Tracxn (2025). That is not a "magically weird" category -- it is a consensus AI-materials rush with tier-1 capital already deployed. The 83 Sciences differentiator (on-site capture of unpublished negative results) is a real methodological wedge, but the *category* is where every generalist AI-plus-science fund is currently pointing. Long Journey's edge is finding weird before it becomes consensus. AI-native materials discovery in Summer 2026 is post-consensus.
+
+Counterfactually, 83 Sciences would flip a tier on capital-intensity if the dossier disclosed a signed lab-embed contract with a named counterparty -- BASF, LG Chem, Applied Materials, a national lab. The stated go-to-market is "deploy in-person to labs," which is the right shape for a hard-tech moat: trust-and-access relationships that CuspAI's cloud platform cannot replicate at $2.6B valuation. But the dossier lists zero named partners, zero LOIs, zero disclosed academic collaborations beyond the founders' own alma maters. The frontier-domain thesis is intact; the frontier-*execution* evidence is absent.
+
+Flock Safety -- I sourced it because I could read the founder's Wi-Fi network name at a Four Seasons café. 83 Sciences's "Lab Brain" is a B2B enterprise data platform. I cannot install it, ride it, photograph it, or hand it to a friend. The only tactile artifact 83 Sciences has produced is crystalyze.org, which is Riesel's academic web tool, not the commercial product. This is developer-tools abstraction territory where I have to trust founder testimony that the product works because I cannot observe it in the wild.
+
+Forecast, 36 months: 83 Sciences is acqui-hired by CuspAI or Citrine at $15-40M for the Riesel-anchored ML team, or Riesel returns to academia after a co-founder governance rupture pushes him out. The mechanism is the signature -- a real technical domain (Dim 4 high) resting on three-founder structure with no tiebreaker (Dim 3 low) breaks under enterprise-sales stress, and the well-capitalized incumbents ($130M CuspAI, $81M Citrine) provide the natural landing pad for the one asset that matters, which is Riesel and his negative-results corpus.
+
+The bull case leans on DeepMind as exception -- Hassabis was pedigreed and it worked because polymath cross-domain compounding overrode the outsider-trajectory rule. Riesel is arguably the same profile: chemistry PhD, generative-ML researcher, JACS lead author, Engine Ventures Frontier Year Fellow. If the polymath override applies to 83 Sciences, the two BCG co-founders become distribution-and-capital scaffolding for the one asset that matters. I take the objection seriously: Riesel is genuinely the kind of researcher I would follow into an adjacent round. But DeepMind had Hassabis, Suleyman, *and* Legg -- three polymaths, not one polymath and two consultants -- and it was pre-consensus deep learning in ~2013, not post-consensus AI-materials in 2026. The flip condition is concrete: if 83 Sciences discloses a named lab-embed contract with a top-3 chemicals or battery major inside 12 months and Riesel is named CEO with majority operating authority, I re-open the file.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Surfaced From Lived Experience, Not Market Analysis | 15/32 |
+| Magically Weird, Non-Consensus, Round Likely Underpriced | 9/24 |
+| Single Unambiguous CEO With Identifiable Tiebreaker Authority | 4/16 |
+| Capital-Intensive, Frontier-Hardware or Unsexy-Regulated Swing | 9/15 |
+| Physical-World Verifiability: You Can Touch, Use, Or Observe The Product | 4/13 |
+| **Total** | **41/100** |
+
+**Total Score: 41/100** (Pass)

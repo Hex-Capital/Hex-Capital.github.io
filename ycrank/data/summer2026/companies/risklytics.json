@@ -1,0 +1,83 @@
+{
+  "slug": "risklytics",
+  "name": "Risklytics",
+  "oneLiner": "Property-level natural disaster risk scoring for insurers",
+  "metadata": {
+    "website": "https://www.risklytics.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/risklytics",
+    "batch": "Summer 2026",
+    "industry": "Fintech / Fintech -> Insurance",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Machine Learning, B2B, Climate, Insurance, AI",
+    "yc_partner": "Ankit Gupta",
+    "emails": "hello@risklytics.ai"
+  },
+  "tags": [
+    "Machine Learning",
+    "B2B",
+    "Climate",
+    "Insurance",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-08T04:51:03.361Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 32,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 37,
+    "EG": 46,
+    "NR": 32,
+    "PG": 41,
+    "PT": 33,
+    "SL": 27,
+    "VK": 32
+  },
+  "consolidatedAvg": 35.43,
+  "consolidatedRank": 50,
+  "traction": {
+    "tractionRank": 31,
+    "tractionScore": 21,
+    "tractionReason": "13.6M homes scored, no disclosed paying customers"
+  },
+  "paths": {
+    "memo": "summer2026/memos/risklytics.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/risklytics.md",
+      "elad-gil": "summer2026/evals/elad-gil/risklytics.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/risklytics.md",
+      "paul-graham": "summer2026/evals/paul-graham/risklytics.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/risklytics.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/risklytics.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/risklytics.md"
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "slug": "screenpipe",
+  "name": "screenpipe",
+  "oneLiner": "Help your team find the work worth automating",
+  "metadata": {
+    "website": "https://screenpipe.com",
+    "yc_page": "https://www.ycombinator.com/companies/screenpipe",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Productivity",
+    "team_size": "6",
+    "location": "San Francisco, CA, USA",
+    "tags": "SaaS, B2B, Enterprise, Enterprise Software, AI",
+    "yc_partner": "Gustaf Alstromer (YC company page)",
+    "emails": "louis@screenpi.pe (screenpipe.com homepage)"
+  },
+  "tags": [
+    "SaaS",
+    "B2B",
+    "Enterprise",
+    "Enterprise Software",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-08T04:52:47.869Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 68,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 67,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 36,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 58,
+    "EG": 58,
+    "NR": 68,
+    "PG": 67,
+    "PT": 33,
+    "SL": 49,
+    "VK": 36
+  },
+  "consolidatedAvg": 52.71,
+  "consolidatedRank": 3,
+  "traction": {
+    "tractionRank": 3,
+    "tractionScore": 78,
+    "tractionReason": "250k users, paid $25-150/seat tiers, F500 logos"
+  },
+  "paths": {
+    "memo": "summer2026/memos/screenpipe.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/screenpipe.md",
+      "elad-gil": "summer2026/evals/elad-gil/screenpipe.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/screenpipe.md",
+      "paul-graham": "summer2026/evals/paul-graham/screenpipe.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/screenpipe.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/screenpipe.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/screenpipe.md"
+    }
+  }
+}

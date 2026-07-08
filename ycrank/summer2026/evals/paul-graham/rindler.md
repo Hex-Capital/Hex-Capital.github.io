@@ -1,0 +1,32 @@
+﻿# Rindler -- Paul Graham Evaluation
+
+Rindler is a schlep-zone company without a visible animal to run the schlep — Michael Serrano and Arthur De Los Santos have picked a genuinely unpleasant piece of terrain (auth, 2FA, bot-detection, per-site DOM rot on third-party websites), but the dossier gives me no cereal-box moment, no Hacker News demo video, no revenue stunt, nothing that tells me these two MIT classmates will still be repairing selectors at 2 a.m. eighteen months from now when the sixth Fortune 500 login flow silently changes.
+
+Coinbase (2012) is the ladder rung Rindler is climbing toward on the schlep axis: Brian Armstrong won that batch on his appetite for the regulatory grind nobody else in the room wanted, and the compliance work later became the moat. Rindler's dossier names the equivalent grind explicitly — "robust maintenance when sites change," OAuth 2.0 PKCE session handling, and the unspoken CFAA/ToS exposure around automating logins on sites whose owners did not consent. That is the right kind of unpleasant. Where Rindler diverges from the Coinbase rung is that Armstrong shipped a working Android Bitcoin wallet to rescue his rejected application; Rindler's shipped artifact, per the dossier, is a homepage listing MCP tool names — `extract_content`, `dispatch_action`, `synthesize_schema` — with no coverage count, no customer logo, no waitlist number. The schlep is real. The evidence that Rindler has personally started eating it is not.
+
+The MBA-pair AI wrapper from my standard pass example fails on animal resourcefulness because there is no pre-funding artifact and no unscalable stunt on the table. Rindler is not that team — Serrano and De Los Santos are MIT CSAIL, not Wharton — but the specific tell I look for is missing in the same place: I have a LinkedIn graduation post from Serrano and a YC S26 acceptance, and that is the entire pre-funding record the dossier surfaces. No demo video. No open-source release. No "we ran this middleware against 200 SaaS logins ourselves last weekend" anecdote. Drew Houston at Dropbox (2007) put a screencast on Hacker News before the seed; Chesky and Gebbia sold 1,000 cereal boxes at $40. Rindler's founders may be animals in the interview room, but animals leave tracks in the dossier, and here I see none.
+
+On organic-idea fit, the mechanism I care about is whether the product came from the founder's own workflow pain, and Rindler's public trail gives me an academic interest instead: Serrano's MEng is described as focused on "infrastructure of the future web," which is a topic, not a USB stick left at MIT. Over eighteen months this compounds badly — founders whose idea is topical rather than personal tend to route around the ugly parts when the schlep gets real, because they never actually needed the tool themselves. If Rindler had a paragraph in the dossier explaining that Serrano and De Los Santos tried to build a personal agent last year, hit login walls on every site that mattered, and wrote Rindler for themselves first, this would be a very different evaluation.
+
+Hacker genealogy is where my unstated pattern bites hardest: for both Serrano and De Los Santos, the dossier reports "GitHub: No public repos found." Two MIT CS grads with zero public repos in 2025 is not neutral to me — it is a signal. Patrick Collison had a Young Scientist Lisp prize before Stripe (2010); Aaron Swartz co-authored the RSS spec before Reddit (2005); the hackers I have funded left tribal markers before they pitched. MIT CSAIL and a Telexistence robotics internship are real credentials, but credentials are not the same as a shipped Lisp macro or an npm package. To flip this dimension a tier, I would need to see one of them named in a paper, an open-source project, or a competitive-programming result — anything shipped under their own name before Rindler existed.
+
+On the cofounder axis, Rindler is a clean pair: two MIT classmates who graduated together in 2025, which matches the Huffman/Ohanian Reddit (2005) dorm pattern more than it matches a hackathon-weekend pairing. This is the one dimension where Rindler sits comfortably above default. It does not carry the evaluation.
+
+My 36-month forecast for Rindler: acquihired into Browserbase or Composio for under $15M in a talent-plus-coverage tuck-in, most likely Browserbase, whose $40M Series B at ~$300M valuation from June 2025 gives them the balance sheet and Stagehand gives them the technical adjacency. The mechanism is that a two-person MIT team without a visible pre-funding artifact will run into the site-maintenance treadmill against a competitor with 1,000+ paying customers and 20,000 developers already on-platform, and the natural exit path is to fold the MCP wrapper into Browserbase's SDK surface.
+
+The strongest bull case against my pass is that MCP is a genuinely new distribution surface — Anthropic, OpenAI, Google, and Microsoft all standardized on it across 2024–2025 — and Rindler is positioned agent-agnostically at the exact seam where Browserbase (developer-scripted) and Composio (API-having services only) both leave a gap. Dropbox (2007) also looked crowded when it launched into a market with Box, SugarSync, and Microsoft's Live Mesh; the winner was the one with the cleanest founder-problem fit and the tightest demo. If Serrano and De Los Santos ship an MCP server this quarter that measurably outperforms Stagehand on the top-100 login-gated SaaS apps, and put that benchmark on Hacker News the way Houston did, this evaluation flips. The bear reply is that Rindler's dossier gives me no coverage number, no benchmark, no customer, and — the piece that stings under my own unstated pattern — no GitHub trail for either founder. The verifiable condition that would flip me to invest: a public benchmark or demo, released under one of the founders' own handles, showing Rindler successfully driving 50+ auth-gated production sites end-to-end, before Browserbase ships the equivalent.
+
+Pass, held open. If either founder pushes a repo I can read and the artifact is what the homepage claims it is, I want to be re-pitched.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Demonstrates Animal Resourcefulness Pre-Funding | 11/35 |
+| Idea Is Organic to Founders' Own Pain | 9/25 |
+| Problem Sits in a Schlep Zone Mainstream Founders Avoid | 12/15 |
+| Hacker Genealogy in the Founder Team | 5/15 |
+| Co-founder Configuration Is a Strong Pair or Trio, Not Solo | 6/10 |
+| **Total** | **43/100** |
+
+**Total Score: 43/100** (Pass)

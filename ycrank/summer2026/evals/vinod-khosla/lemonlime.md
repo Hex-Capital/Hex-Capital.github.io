@@ -1,0 +1,30 @@
+﻿# LemonLime -- Vinod Khosla Evaluation
+
+LemonLime is a pivoted-founder pair executing a commodity-stack SaaS wrapper -- Daniela Muñoz and Jordan Zietz went from Confetti (AI-native consumer social) to a $999/mo no-code agent builder that sits directly on top of GPT/Claude/Gemini and 30 third-party APIs. That pairing -- real founder learning rate on top of near-zero technical risk -- is the entire diagnostic. LemonLime is the **Slash** (2024) profile without the Slash distribution wedge, sitting in the Pass Example category I sketched in Fortune 2025-07-01: an "incremental productivity tool," not a labor-cost displacement engine.
+
+**OpenAI** (2019) is where I calibrate consequence, and LemonLime is nowhere near that rung. When I wrote the $50M first VC check, the success-state was a civilizational re-drawing of what "cognition" costs -- that is the frame from my MIT Rose Lecture (2019). LemonLime's stated success-state, per the dossier, is auto-generated agents inside marketing/sales/ops/support/finance seats at $2,499/mo -- a 20-30% efficiency lift inside HubSpot and Salesforce workflows that Salesforce Agentforce and Microsoft Copilot Studio already ship into the same seats. No incumbent regime collapses. The dossier does not name a single labor category LemonLime displaces, and the AI-agents-market $12.06B / workflow-automation $26.01B TAM (Business Research Company; Mordor) is not the $15T labor-displacement variable I referenced in Fortune 2026-03-06. This is the exact opposite of the **Impossible Foods** (2011) pattern where "displaces animal protein production" was the sentence.
+
+The **KiOR** (~2008) lesson was that the capital was the moat -- Mississippi's $75M state loan plus our checks was the deployment scale no consensus VC would touch, and the science required three named falsifiable miracles. LemonLime inverts every element of that pattern. The stack is commodity: LLM function-calling plus MCP-style connectors plus RAG, all matured in 2024-2025 and named as such in YC's own Summer 2026 RFS. Lindy ($49.9M), Relevance AI ($37M, Series B May 2025), and Gumloop ($70.6M, $50M Series B March 2026) already funded four permutations of this idea, and Asana absorbed Stack AI in May 2026 for a fifth. Any Tier-1 generalist funds LemonLime tomorrow -- which by my TechCrunch Disrupt 2013 framing is precisely the signal that this is not my kind of check.
+
+Muñoz's CMU CS/HCI plus Google/Microsoft SWE internships is neither expert-defiance nor expert-continuity -- it is the median CMU-to-YC founder profile. My TED Talk skepticism ("experts extrapolate the past") does not fire here because LemonLime does not claim a defied-expert moment in the dossier. Zietz's "44th Stanford Tree" and the $10,000 Wheel of Fortune anecdote is color, not conviction. There is no instigator-shaped public position, no controversial thesis, no research-PI credential in the shape of Chelsea Finn or Sergey Levine at **Physical Intelligence** (2024). Applying the absent-evidence default: I score conformity.
+
+The Confetti → LemonLime pivot is the one dimension where LemonLime lights up my framework. Muñoz and Zietz co-founded an AI-native consumer social product together, killed it, and pivoted the same co-founder pair into B2B agent orchestration -- that is a documented thesis update in the shape of the **Slash** (2024) Kanye-pivot that justified my $100M Series C. Learning rate above everything else, per the Entrepreneur interview. This is the one signal I would follow into a second meeting.
+
+Counterfactual for the capital dimension: for LemonLime to reach my check-size profile, the roadmap would need to require >$50M to a first commercial milestone -- foundation-model training, fleet deployment, plant, drug pipeline. Instead LemonLime is priced at $999/mo Starter with 14-day self-serve trial and 5-seat SMB land motion. I am over-resourced for this deal by two orders of magnitude, which is the exact anti-pattern to my $115M **Commonwealth Fusion** (2019) Series A lead.
+
+**Forecast, 36 months:** LemonLime does not clear $3M ARR standalone and is acqui-hired by a mid-tier workflow platform (Gumloop, Retool, or a HubSpot/Zapier bolt-on) in the $10-30M range by Q3 2029, or the Muñoz/Zietz pair pivots a third time into vertical finance-ops automation. The mechanism: Salesforce Agentforce and Microsoft Copilot Studio bundle the same auto-generated-agent surface into seats LemonLime's $999 tier competes against, and Gumloop's $50M March 2026 raise funds two years of price-war LemonLime cannot match.
+
+The strongest objection is that LemonLime IS a Slash-shaped exception -- YC-pedigreed, documented Confetti pivot, second-time co-founder pair -- and I have publicly overridden consequence-magnitude for founder learning rate before. That objection stings because the Confetti pivot is real. But **Slash** (2024) had a specific distribution mechanism (a viral Kanye moment converting to consumer-business-banking accounts) that LemonLime does not have, and Slash's fintech surface was not being bundled into every enterprise seat by Salesforce and Microsoft the way LemonLime's automation surface is. The verifiable condition that flips me: LemonLime lands one signed enterprise LOI with a named Fortune-500 counterparty for a workflow displacing >$10M/yr in named labor cost, at >$1M contracted ARR, before the end of the YC batch. Absent that specific evidence, I pass -- and I would rather be wrong on a Slash-shaped exception than write a check that violates the consequence-first order of operations from my MIT Rose Lecture (2019).
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Consequence Magnitude If Company Wins | 7/30 |
+| Technical or Capital Risk That Repels Consensus VCs | 7/25 |
+| Founder Defies Documented Expert Consensus | 8/20 |
+| Founder Learning Rate, Demonstrated By Prior Pivot Or Thesis Update | 10/15 |
+| Required-Capital Profile Matches Khosla Check Size | 4/10 |
+| **Total** | **36/100** |
+
+**Total Score: 36/100** (Pass)

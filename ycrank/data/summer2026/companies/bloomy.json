@@ -62,11 +62,11 @@
     "VK": 26
   },
   "consolidatedAvg": 33.57,
-  "consolidatedRank": 44,
+  "consolidatedRank": 60,
   "traction": {
-    "tractionRank": 14,
-    "tractionScore": 42,
-    "tractionReason": "3 named school testimonials, 700+ lessons"
+    "tractionRank": 20,
+    "tractionScore": 33,
+    "tractionReason": "3 named school testimonials including Baystate Academy"
   },
   "paths": {
     "memo": "summer2026/memos/bloomy.md",

@@ -60,11 +60,11 @@
     "VK": 31
   },
   "consolidatedAvg": 41.14,
-  "consolidatedRank": 14,
+  "consolidatedRank": 21,
   "traction": {
-    "tractionRank": 11,
-    "tractionScore": 48,
-    "tractionReason": "$3K MRR, 60 practices piloting"
+    "tractionRank": 21,
+    "tractionScore": 32,
+    "tractionReason": "$3K MRR realized, 60 practices piloting"
   },
   "paths": {
     "memo": "summer2026/memos/denta.md",

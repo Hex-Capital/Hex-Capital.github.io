@@ -1,0 +1,30 @@
+﻿# Amulet -- Cyan Banister Evaluation
+
+Amulet is two ex-Meta ads-and-web-infra engineers -- Nithik Bala on Core Ads Growth, Varun Puru on Facebook product -- building AI agents to work customer success accounts in a field where Gainsight already sits at $1.2B+ ARR and Staircase AI got tucked in last July for pocket change. That pairing tells me what kind of company Amulet is before I read a single line about the product: it is the consensus-lane Meta-engineer AI-agent bet dressed as a category play, high on unresolved co-founder governance by default, low on any biography that puts these two in front of a churning account before they wrote the deck. I'm never playing the game I seem to be playing, and the game Amulet is *actually* playing is the one my Pass Example was written to describe.
+
+Anduril in 2017 is the HIGH rung on lived-founder experience -- Palmer Luckey shipped Oculus out of his parents' garage before he ever touched a defense contract, so when he walked into the Pentagon he was of the maker world, not visiting it. Amulet's founders shipped Core Ads Growth and Facebook product surfaces at Meta; neither has documented time as a CSM, a RevOps lead, or a post-sales operator carrying a book of accounts. The dossier is explicit -- "no CS or GTM domain background documented in public sources" -- which is not a research gap I forgive at pre-seed, because in this category the VP of CS I'd need to sell this to smells engineer-built product from the parking lot. Nithik interned at Rockset and PagerDuty; Varun interned at Amazon and J.P. Morgan cloud infra. Adjacent to plumbing, not adjacent to the pain.
+
+HQ Trivia is the LOW rung I keep returning to on governance -- Rus Yusupov and Colin Kroll had explosive tactile product-led virality and it still detonated on the co-founder axis in 2020-21. Amulet arrives with two Meta SWEs, no named CEO in the dossier, no documented tiebreaker, no equity split, and none of the HQ Trivia consumer virality that let me override the governance heuristic in 2017. There is nothing here I can literally play in the back of a cab to convince myself the product-led pull will outrun the founder disagreement I have not yet seen. The HQ Trivia override does not extend to a B2B post-sales agent whose value I can only take on founder testimony.
+
+Crusoe in ~2018 was magically weird because burning flare gas to mine Bitcoin sounded like three uninvestable things stapled together and credible VCs had passed on aesthetic grounds -- the pass *was* the signal. Amulet is the inverse: the dossier lists Gainsight, Vitally ($30M Series B in Mar 2023), ChurnZero, Planhat, and Staircase AI ($5M seed, acquired by Gainsight in Jul 2024) as an active bench of competitors already shipping AI copilots and agent features. That is not a lane where I "find them before it becomes consensus" -- that is a lane where consensus arrived, got acquired, and started shipping tuck-ins eighteen months ago.
+
+Amulet's frontier-hardware weighting has to be modeled forward, not backward: an AI-agent SaaS wrapper on CRM, support, product-usage, and comms APIs has no compounding physical moat, so over eighteen months the moat has to come from cross-customer post-sales signal data. At team size 2 with no disclosed customers, that flywheel has not started; Gainsight's channel-and-services revenue plus its Staircase acquisition means the incumbent's data flywheel is already spinning against Amulet on day one. Nothing in the dossier tells me Amulet compounds; everything tells me the incumbents compound faster.
+
+For physical-world verifiability to flip a tier on Amulet, I would need to install the agent in my own workflow inside forty-eight hours and feel it draft a customer-specific outreach message I would actually send. Instead, amulet.so returned HTTP 403 to WebFetch at time of research, no Product Hunt listing surfaced, no customer logos are retrievable, and the name collides with a common English noun that ate the social search results. This is the exact opposite of playing Ingress obsessively in 2012 before writing the Niantic check -- there is nothing to observe in the wild.
+
+My 36-month forecast on Amulet: acqui-hire by Gainsight, Vitally, or a mid-market CSP incumbent for under $15M within 24 months, or quiet shutdown by 2028; the mechanism is the same one that swallowed Staircase AI ($5M seed to Gainsight in Jul 2024) -- the incumbent's distribution eats the agent-native startup before the startup earns distribution of its own, and two Meta ads engineers with no post-sales biography do not out-run that pattern.
+
+The steel-man is the DeepMind override -- Hassabis, Suleyman, Legg arrived with elite credentials rather than outsider trajectories and I wrote the check anyway because the polymath compounding across chess, neuroscience, and game design was the real thesis. Could Amulet's ex-Meta pair be the polymath version of the same override? No. Nithik on Core Ads Growth and Varun on Facebook product are strong FAANG line engineers, not polymaths compounding across three unrelated disciplines, and the domain adjacent to their skill set is ads/growth infra, not post-sales. The DeepMind exception does not extend to a category incumbents already dominate with a tuck-in playbook. The verifiable condition that would flip my verdict: one signed pilot with a named Series B+ SaaS company where an Amulet agent's drafted outreach was sent *unedited* by the customer's CSM for four consecutive weeks -- proof of the reliability threshold the dossier concedes is unproven. Absent that, Amulet is the Pass Example I already wrote.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Surfaced From Lived Experience, Not Market Analysis | 7/32 |
+| Magically Weird, Non-Consensus, Round Likely Underpriced | 6/24 |
+| Single Unambiguous CEO With Identifiable Tiebreaker Authority | 5/16 |
+| Capital-Intensive, Frontier-Hardware or Unsexy-Regulated Swing | 3/15 |
+| Physical-World Verifiability: You Can Touch, Use, Or Observe The Product | 3/13 |
+| **Total** | **24/100** |
+
+**Total Score: 24/100** (Pass)

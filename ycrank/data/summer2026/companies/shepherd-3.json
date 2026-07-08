@@ -60,11 +60,11 @@
     "VK": 32
   },
   "consolidatedAvg": 34.86,
-  "consolidatedRank": 40,
+  "consolidatedRank": 54,
   "traction": {
-    "tractionRank": 39,
-    "tractionScore": 8,
-    "tractionReason": "YC S26 acceptance only, no metrics"
+    "tractionRank": 75,
+    "tractionScore": 1,
+    "tractionReason": "YC $500K only, HS senior founder, no metrics"
   },
   "paths": {
     "memo": "summer2026/memos/shepherd-3.md",

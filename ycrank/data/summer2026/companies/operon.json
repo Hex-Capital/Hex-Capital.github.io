@@ -60,11 +60,11 @@
     "VK": 32
   },
   "consolidatedAvg": 32,
-  "consolidatedRank": 53,
+  "consolidatedRank": 71,
   "traction": {
-    "tractionRank": 40,
+    "tractionRank": 47,
     "tractionScore": 7,
-    "tractionReason": "549 LinkedIn followers, no customers"
+    "tractionReason": "549 LinkedIn followers, 1 founding role open"
   },
   "paths": {
     "memo": "summer2026/memos/operon.md",

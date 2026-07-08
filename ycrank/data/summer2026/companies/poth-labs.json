@@ -62,11 +62,11 @@
     "VK": 29
   },
   "consolidatedAvg": 33,
-  "consolidatedRank": 49,
+  "consolidatedRank": 66,
   "traction": {
-    "tractionRank": 30,
-    "tractionScore": 17,
-    "tractionReason": "German press coverage, no customers"
+    "tractionRank": 45,
+    "tractionScore": 8,
+    "tractionReason": "German press coverage in brutkasten, trendingtopics"
   },
   "paths": {
     "memo": "summer2026/memos/poth-labs.md",

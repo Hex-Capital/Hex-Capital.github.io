@@ -1,0 +1,81 @@
+{
+  "slug": "83-sciences",
+  "name": "83 Sciences",
+  "oneLiner": "AI-native materials discovery powered by unpublished experimental data",
+  "metadata": {
+    "website": "https://83sciences.ai",
+    "yc_page": "https://www.ycombinator.com/companies/83-sciences",
+    "batch": "Summer 2026",
+    "industry": "Industrials / Industrials",
+    "team_size": "3",
+    "location": "Not listed on YC page",
+    "tags": "Hard Tech, Advanced Materials, AI",
+    "yc_partner": "Tyler Bosmeny",
+    "emails": "No public data found (contact form only at /contact per 83sciences.ai)"
+  },
+  "tags": [
+    "Hard Tech",
+    "Advanced Materials",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-08T04:50:49.157Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 35,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 41,
+    "EG": 42,
+    "NR": 43,
+    "PG": 57,
+    "PT": 48,
+    "SL": 37,
+    "VK": 35
+  },
+  "consolidatedAvg": 43.29,
+  "consolidatedRank": 15,
+  "traction": {
+    "tractionRank": 54,
+    "tractionScore": 5,
+    "tractionReason": "Co-founder JACS paper, no product traction"
+  },
+  "paths": {
+    "memo": "summer2026/memos/83-sciences.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/83-sciences.md",
+      "elad-gil": "summer2026/evals/elad-gil/83-sciences.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/83-sciences.md",
+      "paul-graham": "summer2026/evals/paul-graham/83-sciences.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/83-sciences.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/83-sciences.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/83-sciences.md"
+    }
+  }
+}

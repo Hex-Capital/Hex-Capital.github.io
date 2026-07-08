@@ -59,11 +59,11 @@
     "VK": 31
   },
   "consolidatedAvg": 41.43,
-  "consolidatedRank": 12,
+  "consolidatedRank": 19,
   "traction": {
     "tractionRank": 4,
-    "tractionScore": 72,
-    "tractionReason": "250+ paying companies incl. Klarna, Mintlify"
+    "tractionScore": 74,
+    "tractionReason": "5,000+ businesses including Klarna, Mintlify; paid tiers live"
   },
   "paths": {
     "memo": "summer2026/memos/contextdev.md",

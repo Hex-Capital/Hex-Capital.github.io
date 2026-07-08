@@ -1,0 +1,83 @@
+{
+  "slug": "floracene",
+  "name": "Floracene",
+  "oneLiner": "Optimized medical device purchasing for independent providers",
+  "metadata": {
+    "website": "https://www.floracene.com/",
+    "yc_page": "https://www.ycombinator.com/companies/floracene",
+    "batch": "Summer 2026",
+    "industry": "Healthcare / Healthcare",
+    "team_size": "2",
+    "location": "New York City, NY, USA",
+    "tags": "Health Tech, Medical Devices, Digital Health, Procurement, Healthcare IT",
+    "yc_partner": "Harshita Arora",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Health Tech",
+    "Medical Devices",
+    "Digital Health",
+    "Procurement",
+    "Healthcare IT"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-08T04:53:07.943Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 31,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 46,
+    "EG": 39,
+    "NR": 43,
+    "PG": 55,
+    "PT": 37,
+    "SL": 36,
+    "VK": 31
+  },
+  "consolidatedAvg": 41,
+  "consolidatedRank": 22,
+  "traction": {
+    "tractionRank": 72,
+    "tractionScore": 2,
+    "tractionReason": "No public traction data found"
+  },
+  "paths": {
+    "memo": "summer2026/memos/floracene.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/floracene.md",
+      "elad-gil": "summer2026/evals/elad-gil/floracene.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/floracene.md",
+      "paul-graham": "summer2026/evals/paul-graham/floracene.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/floracene.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/floracene.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/floracene.md"
+    }
+  }
+}

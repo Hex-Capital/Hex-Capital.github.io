@@ -60,11 +60,11 @@
     "VK": 47
   },
   "consolidatedAvg": 38,
-  "consolidatedRank": 24,
+  "consolidatedRank": 35,
   "traction": {
-    "tractionRank": 51,
-    "tractionScore": 2,
-    "tractionReason": "investors named, no traction data"
+    "tractionRank": 65,
+    "tractionScore": 3,
+    "tractionReason": "Investors listed (Pear, Glasswing), no product traction"
   },
   "paths": {
     "memo": "summer2026/memos/atlas-discovery.md",

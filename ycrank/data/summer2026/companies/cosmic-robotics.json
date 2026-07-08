@@ -1,0 +1,82 @@
+{
+  "slug": "cosmic-robotics",
+  "name": "Cosmic Robotics",
+  "oneLiner": "Autonomous construction on Earth and beyond",
+  "metadata": {
+    "website": "https://www.cosmicrobotics.com/",
+    "yc_page": "https://www.ycombinator.com/companies/cosmic-robotics",
+    "batch": "Summer 2026",
+    "industry": "Industrials / Industrials",
+    "team_size": "8",
+    "location": "San Francisco, CA, USA",
+    "tags": "Hard Tech, Robotics, Construction, Aerospace",
+    "yc_partner": "Ankit Gupta",
+    "emails": "info@cosmicrobotics.com (company website)"
+  },
+  "tags": [
+    "Hard Tech",
+    "Robotics",
+    "Construction",
+    "Aerospace"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-08T04:50:53.404Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 71,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 70,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 53,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 71,
+    "EG": 53,
+    "NR": 44,
+    "PG": 70,
+    "PT": 49,
+    "SL": 35,
+    "VK": 53
+  },
+  "consolidatedAvg": 53.57,
+  "consolidatedRank": 2,
+  "traction": {
+    "tractionRank": 7,
+    "tractionScore": 63,
+    "tractionReason": "Tens of thousands of panel installs on largest US solar farms"
+  },
+  "paths": {
+    "memo": "summer2026/memos/cosmic-robotics.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/cosmic-robotics.md",
+      "elad-gil": "summer2026/evals/elad-gil/cosmic-robotics.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/cosmic-robotics.md",
+      "paul-graham": "summer2026/evals/paul-graham/cosmic-robotics.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/cosmic-robotics.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/cosmic-robotics.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/cosmic-robotics.md"
+    }
+  }
+}

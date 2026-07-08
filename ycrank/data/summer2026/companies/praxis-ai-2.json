@@ -60,10 +60,10 @@
     "VK": 32
   },
   "consolidatedAvg": 40,
-  "consolidatedRank": 16,
+  "consolidatedRank": 25,
   "traction": {
-    "tractionRank": 12,
-    "tractionScore": 46,
+    "tractionRank": 15,
+    "tractionScore": 41,
     "tractionReason": "60k workers reached across 5 continents"
   },
   "paths": {

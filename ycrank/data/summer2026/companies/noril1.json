@@ -1,0 +1,81 @@
+{
+  "slug": "noril1",
+  "name": "Nori",
+  "oneLiner": "Sub-1500$ robot anyone can program",
+  "metadata": {
+    "website": "http://norirobotics.com",
+    "yc_page": "https://www.ycombinator.com/companies/noril1",
+    "batch": "Summer 2026",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+    "team_size": "4",
+    "location": "New York City, NY, USA",
+    "tags": "Hard Tech, Hardware, Robotics",
+    "yc_partner": "Gustaf Alstromer (YC company page)",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Hard Tech",
+    "Hardware",
+    "Robotics"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-08T04:52:57.108Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 66,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 37,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 66,
+    "EG": 39,
+    "NR": 46,
+    "PG": 50,
+    "PT": 41,
+    "SL": 32,
+    "VK": 37
+  },
+  "consolidatedAvg": 44.43,
+  "consolidatedRank": 11,
+  "traction": {
+    "tractionRank": 32,
+    "tractionScore": 20,
+    "tractionReason": "Pre-orders open at $1,288, 726 X followers, YC promoted"
+  },
+  "paths": {
+    "memo": "summer2026/memos/noril1.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/noril1.md",
+      "elad-gil": "summer2026/evals/elad-gil/noril1.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/noril1.md",
+      "paul-graham": "summer2026/evals/paul-graham/noril1.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/noril1.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/noril1.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/noril1.md"
+    }
+  }
+}

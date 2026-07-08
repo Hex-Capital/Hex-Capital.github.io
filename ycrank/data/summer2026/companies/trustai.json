@@ -1,0 +1,82 @@
+{
+  "slug": "trustai",
+  "name": "TrustAI",
+  "oneLiner": "Suggested cross-tool automations that run in one-click in background",
+  "metadata": {
+    "website": "https://auto.trytrust.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/trustai",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, B2B, Workflow Automation, Productivity",
+    "yc_partner": "Ankit Gupta",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "B2B",
+    "Workflow Automation",
+    "Productivity"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-08T04:53:12.849Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 22,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 26,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 29,
+    "EG": 33,
+    "NR": 42,
+    "PG": 32,
+    "PT": 26,
+    "SL": 22,
+    "VK": 26
+  },
+  "consolidatedAvg": 30,
+  "consolidatedRank": 74,
+  "traction": {
+    "tractionRank": 50,
+    "tractionScore": 6,
+    "tractionReason": "Integration logos displayed, no customer disclosure"
+  },
+  "paths": {
+    "memo": "summer2026/memos/trustai.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/trustai.md",
+      "elad-gil": "summer2026/evals/elad-gil/trustai.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/trustai.md",
+      "paul-graham": "summer2026/evals/paul-graham/trustai.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/trustai.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/trustai.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/trustai.md"
+    }
+  }
+}

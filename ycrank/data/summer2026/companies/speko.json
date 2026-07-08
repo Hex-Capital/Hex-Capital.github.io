@@ -1,0 +1,81 @@
+{
+  "slug": "speko",
+  "name": "Speko",
+  "oneLiner": "OpenRouter for voice AI",
+  "metadata": {
+    "website": "https://speko.ai",
+    "yc_page": "https://www.ycombinator.com/companies/speko",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Developer Tools, Conversational AI",
+    "yc_partner": "Tyler Bosmeny (YC company page)",
+    "emails": "founders@speko.ai (speko.ai website)"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "Conversational AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-08T04:53:27.598Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 34,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 39,
+    "EG": 44,
+    "NR": 53,
+    "PG": 44,
+    "PT": 30,
+    "SL": 33,
+    "VK": 34
+  },
+  "consolidatedAvg": 39.57,
+  "consolidatedRank": 27,
+  "traction": {
+    "tractionRank": 39,
+    "tractionScore": 13,
+    "tractionReason": "SDKs published, latency benchmark claims only"
+  },
+  "paths": {
+    "memo": "summer2026/memos/speko.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/speko.md",
+      "elad-gil": "summer2026/evals/elad-gil/speko.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/speko.md",
+      "paul-graham": "summer2026/evals/paul-graham/speko.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/speko.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/speko.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/speko.md"
+    }
+  }
+}

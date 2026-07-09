@@ -1,6 +1,6 @@
 {
   "batch": "summer2026",
-  "companyCount": 77,
+  "companyCount": 84,
   "personas": [
     {
       "slug": "cyan-banister",
@@ -82,9 +82,9 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-06-29",
-      "tractionRank": 8,
-      "tractionScore": 60,
-      "tractionReason": "Six systems in production, combat-deployed on Ukrainian front"
+      "tractionRank": 9,
+      "tractionScore": 64,
+      "tractionReason": "Six systems in production, combat-deployed Ukraine"
     },
     {
       "rank": 2,
@@ -123,9 +123,9 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-07-08",
-      "tractionRank": 7,
-      "tractionScore": 63,
-      "tractionReason": "Tens of thousands of panel installs on largest US solar farms"
+      "tractionRank": 8,
+      "tractionScore": 66,
+      "tractionReason": "Deployed at \"tens of thousands of panel installs\""
     },
     {
       "rank": 3,
@@ -165,9 +165,9 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-07-08",
-      "tractionRank": 3,
-      "tractionScore": 78,
-      "tractionReason": "250k users, paid $25-150/seat tiers, F500 logos"
+      "tractionRank": 2,
+      "tractionScore": 86,
+      "tractionReason": "250k users, 19k GitHub stars, pricing live"
     },
     {
       "rank": 4,
@@ -207,9 +207,9 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-07-08",
-      "tractionRank": 49,
-      "tractionScore": 7,
-      "tractionReason": "v1 shipped, WorldEvals on PyPI, one pilot"
+      "tractionRank": 41,
+      "tractionScore": 20,
+      "tractionReason": "v1 shipped, first frontier-model robot pilot"
     },
     {
       "rank": 5,
@@ -247,9 +247,9 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-06-29",
-      "tractionRank": 53,
-      "tractionScore": 5,
-      "tractionReason": "Founder press in Scientific American, no company revenue"
+      "tractionRank": 56,
+      "tractionScore": 11,
+      "tractionReason": "Founder press on Doom-on-neurons, no company traction"
     },
     {
       "rank": 6,
@@ -287,9 +287,9 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-07-08",
-      "tractionRank": 14,
-      "tractionScore": 43,
-      "tractionReason": "5 commercial nuclear plant relationships, DOE partnerships"
+      "tractionRank": 29,
+      "tractionScore": 33,
+      "tractionReason": "5 commercial nuclear plant relationships"
     },
     {
       "rank": 7,
@@ -327,9 +327,9 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-06-29",
-      "tractionRank": 40,
-      "tractionScore": 12,
-      "tractionReason": "50M-parameter demo on FPGA, waitlist open"
+      "tractionRank": 52,
+      "tractionScore": 13,
+      "tractionReason": "50M param FPGA demo, private beta waitlist"
     },
     {
       "rank": 8,
@@ -363,9 +363,9 @@
       "tags": [],
       "scoreTips": {},
       "memoDate": "2026-06-29",
-      "tractionRank": 33,
-      "tractionScore": 19,
-      "tractionReason": "$3M pre-seed, $1.25M USAF SBIR (grant, not customer revenue)"
+      "tractionRank": 47,
+      "tractionScore": 15,
+      "tractionReason": "$3M pre-seed + $1.25M SBIR (funding not traction)"
     },
     {
       "rank": 9,
@@ -403,9 +403,9 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-06-29",
-      "tractionRank": 2,
+      "tractionRank": 3,
       "tractionScore": 82,
-      "tractionReason": ">$500M receivables managed from F100"
+      "tractionReason": "$500M F100 receivables managed, Vercel #1/2500"
     },
     {
       "rank": 10,
@@ -441,12 +441,93 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-06-29",
-      "tractionRank": 29,
-      "tractionScore": 23,
+      "tractionRank": 23,
+      "tractionScore": 39,
       "tractionReason": "Product Hunt 176 upvotes, DoorDash integration live"
     },
     {
       "rank": 11,
+      "name": "Torus",
+      "slug": "torus",
+      "scores": {
+        "CB": 48,
+        "EG": 53,
+        "NR": 43,
+        "PG": 46,
+        "PT": 46,
+        "SL": 38,
+        "VK": 43
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Neutral",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 45.29,
+      "revenue": null,
+      "teamSize": 5,
+      "ycPartner": "Gustaf Alstromer",
+      "oneLiner": "Legora for physical engineering firms",
+      "industry": "Industrials / Industrials",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Artificial Intelligence",
+        "Construction",
+        "Energy",
+        "Enterprise Software",
+        "Industrial"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-07-09",
+      "tractionRank": 26,
+      "tractionScore": 36,
+      "tractionReason": "\"Multiple Fortune 500\" claim, no names"
+    },
+    {
+      "rank": 12,
+      "name": "Alloovium",
+      "slug": "alloovium",
+      "scores": {
+        "CB": 60,
+        "EG": 47,
+        "NR": 43,
+        "PG": 66,
+        "PT": 33,
+        "SL": 35,
+        "VK": 29
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": "Pass",
+        "PG": "Invest",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 44.71,
+      "revenue": null,
+      "teamSize": 5,
+      "ycPartner": "Gustaf Alstromer",
+      "oneLiner": "Construction paperwork that finally works for your team",
+      "industry": "Real Estate and Construction / Real Estate and Construction -> Construction",
+      "location": "Brisbane, QLD, Australia (relocating to San Francisco per Startup Daily, Jun 2026)",
+      "tags": [
+        "Artificial Intelligence",
+        "Construction"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-07-09",
+      "tractionRank": 6,
+      "tractionScore": 70,
+      "tractionReason": "$400M+ active construction projects deployed"
+    },
+    {
+      "rank": 13,
       "name": "Nori",
       "slug": "noril1",
       "scores": {
@@ -481,12 +562,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-07-08",
-      "tractionRank": 32,
-      "tractionScore": 20,
-      "tractionReason": "Pre-orders open at $1,288, 726 X followers, YC promoted"
+      "tractionRank": null,
+      "tractionScore": null,
+      "tractionReason": ""
     },
     {
-      "rank": 12,
+      "rank": 14,
       "name": "Experiential Labs",
       "slug": "experiential-labs",
       "scores": {
@@ -520,12 +601,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-06-29",
-      "tractionRank": 52,
-      "tractionScore": 6,
-      "tractionReason": "21+54+8 GitHub stars across three repos"
+      "tractionRank": 54,
+      "tractionScore": 12,
+      "tractionReason": "21 GitHub stars on world-model-harness"
     },
     {
-      "rank": 13,
+      "rank": 15,
       "name": "Rise Reforming",
       "slug": "rise-reforming",
       "scores": {
@@ -562,12 +643,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-07-08",
-      "tractionRank": 11,
-      "tractionScore": 50,
-      "tractionReason": "7 supply MOUs ($14M-$92M pipeline ARR), $1.06M raised"
+      "tractionRank": 7,
+      "tractionScore": 68,
+      "tractionReason": "$14M ARR binding+MOU biogas supply agreements"
     },
     {
-      "rank": 14,
+      "rank": 16,
       "name": "Codag",
       "slug": "codag",
       "scores": {
@@ -600,12 +681,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-06-29",
-      "tractionRank": 34,
-      "tractionScore": 18,
-      "tractionReason": "42 GitHub stars, MCP integrations, paid tiers live"
+      "tractionRank": 42,
+      "tractionScore": 19,
+      "tractionReason": "42 GitHub stars, MCP integrations live"
     },
     {
-      "rank": 15,
+      "rank": 17,
       "name": "83 Sciences",
       "slug": "83-sciences",
       "scores": {
@@ -640,12 +721,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-07-08",
-      "tractionRank": 54,
-      "tractionScore": 5,
-      "tractionReason": "Co-founder JACS paper, no product traction"
+      "tractionRank": 64,
+      "tractionScore": 8,
+      "tractionReason": "JACS paper + Stanford/MIT affiliations only"
     },
     {
-      "rank": 16,
+      "rank": 18,
       "name": "Prescience, Inc.",
       "slug": "prescience-inc",
       "scores": {
@@ -679,12 +760,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-06-29",
-      "tractionRank": 30,
-      "tractionScore": 22,
-      "tractionReason": "Rippling partnership, published dollar case studies"
+      "tractionRank": 24,
+      "tractionScore": 38,
+      "tractionReason": "Anonymous case studies, Rippling partnership referenced"
     },
     {
-      "rank": 17,
+      "rank": 19,
       "name": "machine0",
       "slug": "machine0",
       "scores": {
@@ -718,12 +799,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-06-29",
-      "tractionRank": 43,
-      "tractionScore": 9,
-      "tractionReason": "Show HN launched, per-minute pricing live"
+      "tractionRank": 39,
+      "tractionScore": 22,
+      "tractionReason": "Show HN launched, pricing live, no users disclosed"
     },
     {
-      "rank": 18,
+      "rank": 20,
       "name": "Levocred AI",
       "slug": "levocred-ai",
       "scores": {
@@ -757,12 +838,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-06-29",
-      "tractionRank": 13,
-      "tractionScore": 45,
-      "tractionReason": "$500M capital monitored, 10+ facilities, Pier testimonial"
+      "tractionRank": 11,
+      "tractionScore": 58,
+      "tractionReason": "$500M capital monitored, Pier Asset testimonial"
     },
     {
-      "rank": 19,
+      "rank": 21,
       "name": "Context.dev",
       "slug": "contextdev",
       "scores": {
@@ -797,11 +878,11 @@
       "scoreTips": {},
       "memoDate": "2026-06-29",
       "tractionRank": 4,
-      "tractionScore": 74,
-      "tractionReason": "5,000+ businesses including Klarna, Mintlify; paid tiers live"
+      "tractionScore": 80,
+      "tractionReason": "250+ paying companies incl Klarna, Mintlify"
     },
     {
-      "rank": 20,
+      "rank": 22,
       "name": "Coasty",
       "slug": "coasty",
       "scores": {
@@ -836,12 +917,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-06-29",
-      "tractionRank": 26,
-      "tractionScore": 26,
-      "tractionReason": "Paid tiers $19-$99/mo, #1 OSWorld self-reported"
+      "tractionRank": 18,
+      "tractionScore": 44,
+      "tractionReason": "#1 OSWorld benchmark, pricing live, PH launched"
     },
     {
-      "rank": 21,
+      "rank": 23,
       "name": "Denta",
       "slug": "denta",
       "scores": {
@@ -876,12 +957,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-06-29",
-      "tractionRank": 21,
-      "tractionScore": 32,
-      "tractionReason": "$3K MRR realized, 60 practices piloting"
+      "tractionRank": 14,
+      "tractionScore": 52,
+      "tractionReason": "$3K MRR disclosed, 60 practices piloting"
     },
     {
-      "rank": 22,
+      "rank": 24,
       "name": "Floracene",
       "slug": "floracene",
       "scores": {
@@ -918,12 +999,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-07-08",
-      "tractionRank": 72,
-      "tractionScore": 2,
-      "tractionReason": "No public traction data found"
+      "tractionRank": 77,
+      "tractionScore": 4,
+      "tractionReason": "No public data found, not hiring"
     },
     {
-      "rank": 23,
+      "rank": 25,
       "name": "Pango",
       "slug": "pango",
       "scores": {
@@ -959,12 +1040,52 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-06-29",
-      "tractionRank": 6,
-      "tractionScore": 66,
-      "tractionReason": "6 named brand customers, PMF two months post-launch"
+      "tractionRank": 13,
+      "tractionScore": 54,
+      "tractionReason": "6 named brand customers, \"PMF at million-dollar brands\""
     },
     {
-      "rank": 24,
+      "rank": 26,
+      "name": "Conifer",
+      "slug": "conifer",
+      "scores": {
+        "CB": 46,
+        "EG": 36,
+        "NR": 51,
+        "PG": 57,
+        "PT": 36,
+        "SL": 23,
+        "VK": 35
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 40.57,
+      "revenue": null,
+      "teamSize": 3,
+      "ycPartner": "Gustaf Alstromer",
+      "oneLiner": "Local-first least cost routing system to reduce token spend",
+      "industry": "B2B / B2B",
+      "location": "Not listed on YC page",
+      "tags": [
+        "B2B",
+        "Security",
+        "AI"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-07-09",
+      "tractionRank": 40,
+      "tractionScore": 21,
+      "tractionReason": "303 GitHub stars on Sage repo, 57 org followers"
+    },
+    {
+      "rank": 27,
       "name": "HyperProbe",
       "slug": "hyperprobe",
       "scores": {
@@ -999,12 +1120,50 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-07-08",
-      "tractionRank": 18,
-      "tractionScore": 36,
-      "tractionReason": "2 named customer testimonials (CheQ Digital, Housing.com)"
+      "tractionRank": 21,
+      "tractionScore": 41,
+      "tractionReason": "Two named enterprise customer testimonials"
     },
     {
-      "rank": 25,
+      "rank": 28,
+      "name": "OpenRelay",
+      "slug": "openrelay",
+      "scores": {
+        "CB": 47,
+        "EG": 32,
+        "NR": 57,
+        "PG": 56,
+        "PT": 36,
+        "SL": 24,
+        "VK": 29
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 40.14,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Brad Flora",
+      "oneLiner": "Distributed, hardware-agnostic AI inference",
+      "industry": "B2B / B2B -> Engineering, Product and Design",
+      "location": "Seattle, WA, USA",
+      "tags": [
+        "AI"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-07-09",
+      "tractionRank": 48,
+      "tractionScore": 15,
+      "tractionReason": "Website live with pricing, no user data"
+    },
+    {
+      "rank": 29,
       "name": "Praxis AI",
       "slug": "praxis-ai-2",
       "scores": {
@@ -1039,12 +1198,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-07-02",
-      "tractionRank": 15,
-      "tractionScore": 41,
-      "tractionReason": "60k workers reached across 5 continents"
+      "tractionRank": 17,
+      "tractionScore": 46,
+      "tractionReason": "60k workers reached across \"unicorn conglomerates\""
     },
     {
-      "rank": 26,
+      "rank": 30,
       "name": "Agnost AI",
       "slug": "agnost-ai",
       "scores": {
@@ -1079,12 +1238,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-07-08",
-      "tractionRank": 9,
-      "tractionScore": 55,
-      "tractionReason": "Google, Exa customer logos with testimonials"
+      "tractionRank": 12,
+      "tractionScore": 56,
+      "tractionReason": "Named customers Google, Exa, Klarna, Corgi"
     },
     {
-      "rank": 27,
+      "rank": 31,
       "name": "Speko",
       "slug": "speko",
       "scores": {
@@ -1119,12 +1278,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-07-08",
-      "tractionRank": 39,
-      "tractionScore": 13,
-      "tractionReason": "SDKs published, latency benchmark claims only"
+      "tractionRank": 49,
+      "tractionScore": 14,
+      "tractionReason": "SDKs published, only self-reported latency claims"
     },
     {
-      "rank": 28,
+      "rank": 32,
       "name": "Truffle",
       "slug": "truffle",
       "scores": {
@@ -1159,12 +1318,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-06-29",
-      "tractionRank": 56,
+      "tractionRank": 82,
       "tractionScore": 4,
-      "tractionReason": "Website live only, no disclosed traction"
+      "tractionReason": "No public data, no pricing accessible"
     },
     {
-      "rank": 29,
+      "rank": 33,
       "name": "Edviro",
       "slug": "edviro",
       "scores": {
@@ -1199,12 +1358,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-06-30",
-      "tractionRank": 24,
-      "tractionScore": 28,
-      "tractionReason": "$400K customer savings claimed, 1 district partner"
+      "tractionRank": 25,
+      "tractionScore": 37,
+      "tractionReason": "$400K savings, 1 district / 7 sites / 16 meters"
     },
     {
-      "rank": 30,
+      "rank": 34,
       "name": "Nebula Security",
       "slug": "nebula-security",
       "scores": {
@@ -1239,11 +1398,11 @@
       "scoreTips": {},
       "memoDate": "2026-07-02",
       "tractionRank": 28,
-      "tractionScore": 24,
-      "tractionReason": "$10.5K bounty earned, 729 vulns catalogued"
+      "tractionScore": 34,
+      "tractionReason": "729 CVEs catalogued, $10.5K bounty earned"
     },
     {
-      "rank": 31,
+      "rank": 35,
       "name": "Inkbox",
       "slug": "inkbox",
       "scores": {
@@ -1278,12 +1437,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-07-01",
-      "tractionRank": 42,
-      "tractionScore": 10,
+      "tractionRank": 51,
+      "tractionScore": 13,
       "tractionReason": "18 GitHub stars, third-party SDK exists"
     },
     {
-      "rank": 32,
+      "rank": 36,
       "name": "LATO",
       "slug": "lato",
       "scores": {
@@ -1319,12 +1478,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-06-29",
-      "tractionRank": 10,
-      "tractionScore": 52,
-      "tractionReason": "4 named VC customers including Blume Equity"
+      "tractionRank": 27,
+      "tractionScore": 35,
+      "tractionReason": "4 named VC customers, testimonial from Blume"
     },
     {
-      "rank": 33,
+      "rank": 37,
       "name": "Tsenta",
       "slug": "tsenta",
       "scores": {
@@ -1357,12 +1516,54 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-06-29",
-      "tractionRank": 25,
-      "tractionScore": 27,
-      "tractionReason": "353 Chrome installs, paid tiers $19-$99/mo live"
+      "tractionRank": 20,
+      "tractionScore": 42,
+      "tractionReason": "353 Chrome installs, paid tiers, press coverage"
     },
     {
-      "rank": 34,
+      "rank": 38,
+      "name": "Zomma",
+      "slug": "zomma",
+      "scores": {
+        "CB": 32,
+        "EG": 48,
+        "NR": 42,
+        "PG": 49,
+        "PT": 37,
+        "SL": 26,
+        "VK": 34
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Neutral",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 38.29,
+      "revenue": null,
+      "teamSize": 5,
+      "ycPartner": "Brad Flora",
+      "oneLiner": "Computer Use Agents for back offices in finance",
+      "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Artificial Intelligence",
+        "Robotic Process Automation",
+        "Finance",
+        "B2B",
+        "Workflow Automation"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-07-09",
+      "tractionRank": 46,
+      "tractionScore": 16,
+      "tractionReason": "YC + Vercel AI Accelerator cohort selection"
+    },
+    {
+      "rank": 39,
       "name": "Control Seat",
       "slug": "control-seat",
       "scores": {
@@ -1397,12 +1598,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-06-29",
-      "tractionRank": 69,
-      "tractionScore": 2,
-      "tractionReason": "$500K YC deal, launch video, no customers"
+      "tractionRank": 57,
+      "tractionScore": 10,
+      "tractionReason": "YC + $500K + launch video, no customers"
     },
     {
-      "rank": 35,
+      "rank": 40,
       "name": "Atlas Discovery",
       "slug": "atlas-discovery",
       "scores": {
@@ -1438,11 +1639,11 @@
       "scoreTips": {},
       "memoDate": "2026-06-29",
       "tractionRank": 65,
-      "tractionScore": 3,
-      "tractionReason": "Investors listed (Pear, Glasswing), no product traction"
+      "tractionScore": 8,
+      "tractionReason": "Investors listed + bioRxiv paper only"
     },
     {
-      "rank": 36,
+      "rank": 41,
       "name": "Glen",
       "slug": "glen",
       "scores": {
@@ -1477,12 +1678,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-06-29",
-      "tractionRank": 35,
-      "tractionScore": 17,
-      "tractionReason": "\"In production\" with waitlist waves, MCP live"
+      "tractionRank": 38,
+      "tractionScore": 23,
+      "tractionReason": "\"In production\" with waitlist wave onboarding"
     },
     {
-      "rank": 37,
+      "rank": 42,
       "name": "Care GP",
       "slug": "care-gp",
       "scores": {
@@ -1518,11 +1719,11 @@
       "scoreTips": {},
       "memoDate": "2026-06-29",
       "tractionRank": 1,
-      "tractionScore": 88,
-      "tractionReason": "150+ clinics, profitable, 140% MoM growth"
+      "tractionScore": 92,
+      "tractionReason": "Profitable, 150+ GP clinics, 140% MoM growth"
     },
     {
-      "rank": 38,
+      "rank": 43,
       "name": "Justinian",
       "slug": "justinian",
       "scores": {
@@ -1556,12 +1757,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-07-08",
-      "tractionRank": 60,
-      "tractionScore": 4,
-      "tractionReason": "2 founding roles open, no revenue"
+      "tractionRank": 63,
+      "tractionScore": 8,
+      "tractionReason": "Two founding roles open, no customers"
     },
     {
-      "rank": 39,
+      "rank": 44,
       "name": "Talentpluto",
       "slug": "talentpluto",
       "scores": {
@@ -1597,11 +1798,11 @@
       "scoreTips": {},
       "memoDate": "2026-06-29",
       "tractionRank": 5,
-      "tractionScore": 70,
-      "tractionReason": "100+ partners, 15k+ conversations, 30% MoM"
+      "tractionScore": 76,
+      "tractionReason": "15k conversations, 100+ partners, 30% MoM"
     },
     {
-      "rank": 40,
+      "rank": 45,
       "name": "RealPact",
       "slug": "realpact",
       "scores": {
@@ -1636,12 +1837,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-06-29",
-      "tractionRank": 12,
-      "tractionScore": 48,
-      "tractionReason": "4 named brokerage customers including Sotheby's affiliate"
+      "tractionRank": 15,
+      "tractionScore": 50,
+      "tractionReason": "4 named brokerage customers, Sotheby's included"
     },
     {
-      "rank": 41,
+      "rank": 46,
       "name": "Blueprints",
       "slug": "blueprints",
       "scores": {
@@ -1676,12 +1877,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-06-29",
-      "tractionRank": 17,
-      "tractionScore": 38,
-      "tractionReason": "$500K trading volume, 250+ public beta users"
+      "tractionRank": 19,
+      "tractionScore": 43,
+      "tractionReason": "$500K trading volume, 250+ beta users"
     },
     {
-      "rank": 42,
+      "rank": 47,
       "name": "Markov",
       "slug": "markov",
       "scores": {
@@ -1716,12 +1917,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-06-29",
-      "tractionRank": 51,
-      "tractionScore": 6,
-      "tractionReason": "1,122 X followers, no revenue disclosed"
+      "tractionRank": 45,
+      "tractionScore": 17,
+      "tractionReason": "1,122 X followers, no revenue or customers"
     },
     {
-      "rank": 43,
+      "rank": 48,
       "name": "Mireye",
       "slug": "mireye",
       "scores": {
@@ -1756,12 +1957,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-06-29",
-      "tractionRank": 64,
-      "tractionScore": 3,
-      "tractionReason": "No public revenue, user, or customer data"
+      "tractionRank": 78,
+      "tractionScore": 4,
+      "tractionReason": "No public data found, not hiring"
     },
     {
-      "rank": 44,
+      "rank": 49,
       "name": "Rindler",
       "slug": "rindler",
       "scores": {
@@ -1794,12 +1995,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-07-08",
-      "tractionRank": 58,
-      "tractionScore": 4,
-      "tractionReason": "X account exists, no other public signal"
+      "tractionRank": 59,
+      "tractionScore": 9,
+      "tractionReason": "X account exists, no other public metrics"
     },
     {
-      "rank": 45,
+      "rank": 50,
       "name": "OS3",
       "slug": "os3",
       "scores": {
@@ -1835,12 +2036,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-07-01",
-      "tractionRank": 37,
-      "tractionScore": 15,
-      "tractionReason": "\"Already deploying in hospitality\" (no counts)"
+      "tractionRank": 34,
+      "tractionScore": 27,
+      "tractionReason": "\"Already deploying in hospitality,\" no counts"
     },
     {
-      "rank": 46,
+      "rank": 51,
       "name": "Cova",
       "slug": "cova",
       "scores": {
@@ -1875,12 +2076,51 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-06-29",
-      "tractionRank": 70,
-      "tractionScore": 2,
-      "tractionReason": "Phone/email live, no disclosed metrics"
+      "tractionRank": 79,
+      "tractionScore": 4,
+      "tractionReason": "No public data, only contact channels live"
     },
     {
-      "rank": 47,
+      "rank": 52,
+      "name": "Litmus",
+      "slug": "litmus-build",
+      "scores": {
+        "CB": 38,
+        "EG": 43,
+        "NR": 36,
+        "PG": 48,
+        "PT": 30,
+        "SL": 28,
+        "VK": 32
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 36.43,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Jared Friedman",
+      "oneLiner": "Run an async work trial on every engineer you interview.",
+      "industry": "B2B / B2B -> Recruiting and Talent",
+      "location": "New York City, NY, USA",
+      "tags": [
+        "Recruiting",
+        "Talent Acquisition"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-07-09",
+      "tractionRank": 10,
+      "tractionScore": 62,
+      "tractionReason": "$60K ARR disclosed, 3,000+ assessments"
+    },
+    {
+      "rank": 53,
       "name": "Whitespace",
       "slug": "whitespace",
       "scores": {
@@ -1916,12 +2156,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-06-29",
-      "tractionRank": 19,
-      "tractionScore": 34,
-      "tractionReason": "Three customer logos on site (attribution unclear)"
+      "tractionRank": 50,
+      "tractionScore": 14,
+      "tractionReason": "Unattributed savings claims, no named customers"
     },
     {
-      "rank": 48,
+      "rank": 54,
       "name": "Greypoint Industries",
       "slug": "greypoint-industries",
       "scores": {
@@ -1958,12 +2198,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-06-30",
-      "tractionRank": 46,
-      "tractionScore": 8,
-      "tractionReason": "Defence Tech Hackathon 1st place $5K, UBC cohort"
+      "tractionRank": 31,
+      "tractionScore": 30,
+      "tractionReason": "Defence Tech Hackathon 1st, UBC cohort, YC"
     },
     {
-      "rank": 49,
+      "rank": 55,
       "name": "Molagri",
       "slug": "molagri",
       "scores": {
@@ -2000,12 +2240,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-06-30",
-      "tractionRank": 63,
-      "tractionScore": 3,
-      "tractionReason": "No public traction; site returned 403"
+      "tractionRank": 80,
+      "tractionScore": 4,
+      "tractionReason": "Website 403, no traction data found"
     },
     {
-      "rank": 50,
+      "rank": 56,
       "name": "Risklytics",
       "slug": "risklytics",
       "scores": {
@@ -2042,12 +2282,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-07-08",
-      "tractionRank": 31,
-      "tractionScore": 21,
-      "tractionReason": "13.6M homes scored, no disclosed paying customers"
+      "tractionRank": 16,
+      "tractionScore": 48,
+      "tractionReason": "13.6M CA homes scored, validated on LA fires"
     },
     {
-      "rank": 51,
+      "rank": 57,
       "name": "Florin",
       "slug": "florin",
       "scores": {
@@ -2084,12 +2324,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-06-29",
-      "tractionRank": 73,
-      "tractionScore": 2,
-      "tractionReason": "Team of 3, invite-only, no metrics"
+      "tractionRank": 60,
+      "tractionScore": 9,
+      "tractionReason": "Landing page live, team of 3, no metrics"
     },
     {
-      "rank": 52,
+      "rank": 58,
       "name": "Touchmark",
       "slug": "touchmark",
       "scores": {
@@ -2123,12 +2363,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-06-29",
-      "tractionRank": 76,
-      "tractionScore": 1,
-      "tractionReason": "YC S26 backing only, no other signal"
+      "tractionRank": 70,
+      "tractionScore": 6,
+      "tractionReason": "YC S26 admission, no other public metrics"
     },
     {
-      "rank": 53,
+      "rank": 59,
       "name": "Perceptron ML",
       "slug": "perceptron-ml",
       "scores": {
@@ -2163,12 +2403,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-06-29",
-      "tractionRank": 62,
-      "tractionScore": 3,
-      "tractionReason": "Website gated behind demo/waitlist"
+      "tractionRank": 66,
+      "tractionScore": 7,
+      "tractionReason": "Waitlist/demo gate, no metrics"
     },
     {
-      "rank": 54,
+      "rank": 60,
       "name": "Shepherd",
       "slug": "shepherd-3",
       "scores": {
@@ -2203,12 +2443,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-06-29",
-      "tractionRank": 75,
-      "tractionScore": 1,
-      "tractionReason": "YC $500K only, HS senior founder, no metrics"
+      "tractionRank": 69,
+      "tractionScore": 7,
+      "tractionReason": "YC S26 acceptance only, no other metrics"
     },
     {
-      "rank": 55,
+      "rank": 61,
       "name": "Prized",
       "slug": "prized",
       "scores": {
@@ -2243,12 +2483,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-06-30",
-      "tractionRank": 41,
-      "tractionScore": 11,
-      "tractionReason": "15+ connectors live, YC backing, no disclosed customers"
+      "tractionRank": 33,
+      "tractionScore": 28,
+      "tractionReason": "Live product, 15+ connectors, no real customers"
     },
     {
-      "rank": 56,
+      "rank": 62,
       "name": "Vestris",
       "slug": "vestris",
       "scores": {
@@ -2282,12 +2522,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-07-08",
-      "tractionRank": 38,
-      "tractionScore": 14,
-      "tractionReason": "Live coverage in DC and Montgomery County MD"
+      "tractionRank": 37,
+      "tractionScore": 24,
+      "tractionReason": "Live jurisdictional coverage in DC and Montgomery"
     },
     {
-      "rank": 57,
+      "rank": 63,
       "name": "Archal",
       "slug": "archal",
       "scores": {
@@ -2323,12 +2563,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-06-29",
-      "tractionRank": 67,
-      "tractionScore": 2,
-      "tractionReason": "LinkedIn + X handles exist, no metrics"
+      "tractionRank": 74,
+      "tractionScore": 6,
+      "tractionReason": "YC S26 batch, no Product Hunt or press"
     },
     {
-      "rank": 58,
+      "rank": 64,
       "name": "LemonLime",
       "slug": "lemonlime",
       "scores": {
@@ -2363,12 +2603,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-07-08",
-      "tractionRank": 27,
-      "tractionScore": 25,
-      "tractionReason": "Public $999/$2,499 tiers live, 30+ integrations"
+      "tractionRank": 35,
+      "tractionScore": 26,
+      "tractionReason": "30+ integrations shipped, pricing tiers live"
     },
     {
-      "rank": 59,
+      "rank": 65,
       "name": "Petrarch",
       "slug": "petrarch",
       "scores": {
@@ -2403,12 +2643,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-07-02",
-      "tractionRank": 57,
-      "tractionScore": 4,
-      "tractionReason": "Pre-launch \"Coming 2026\", 1 intern posting"
+      "tractionRank": 76,
+      "tractionScore": 5,
+      "tractionReason": "Pre-launch \"Coming 2026\" landing page"
     },
     {
-      "rank": 60,
+      "rank": 66,
       "name": "Bloomy",
       "slug": "bloomy",
       "scores": {
@@ -2445,12 +2685,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-06-29",
-      "tractionRank": 20,
-      "tractionScore": 33,
-      "tractionReason": "3 named school testimonials including Baystate Academy"
+      "tractionRank": 36,
+      "tractionScore": 25,
+      "tractionReason": "3 named school testimonials, 700+ lessons"
     },
     {
-      "rank": 61,
+      "rank": 67,
       "name": "6thSense",
       "slug": "6thsense",
       "scores": {
@@ -2485,12 +2725,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-06-29",
-      "tractionRank": 66,
-      "tractionScore": 2,
-      "tractionReason": "No public revenue, users, or press"
+      "tractionRank": 81,
+      "tractionScore": 4,
+      "tractionReason": "No public revenue, users, press, or socials"
     },
     {
-      "rank": 62,
+      "rank": 68,
       "name": "Bylaw",
       "slug": "bylaw",
       "scores": {
@@ -2526,12 +2766,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-06-29",
-      "tractionRank": 68,
-      "tractionScore": 2,
-      "tractionReason": "YC backing only, no other signal"
+      "tractionRank": 72,
+      "tractionScore": 6,
+      "tractionReason": "YC S26 backing only, no metrics"
     },
     {
-      "rank": 63,
+      "rank": 69,
       "name": "FlowManual",
       "slug": "flowmanual",
       "scores": {
@@ -2566,12 +2806,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-06-29",
-      "tractionRank": 36,
-      "tractionScore": 16,
-      "tractionReason": "Cedar Ridge Mechanical case study, free trial live"
+      "tractionRank": 30,
+      "tractionScore": 32,
+      "tractionReason": "Cedar Ridge Mechanical customer case study named"
     },
     {
-      "rank": 64,
+      "rank": 70,
       "name": "Trope",
       "slug": "trope",
       "scores": {
@@ -2606,12 +2846,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-07-08",
-      "tractionRank": 48,
-      "tractionScore": 7,
-      "tractionReason": "Team pedigree only (Tesla/Amazon/Zipline)"
+      "tractionRank": 55,
+      "tractionScore": 11,
+      "tractionReason": "Team pedigree only, no customers disclosed"
     },
     {
-      "rank": 65,
+      "rank": 71,
       "name": "GUILD",
       "slug": "guild",
       "scores": {
@@ -2648,12 +2888,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-06-29",
-      "tractionRank": 74,
-      "tractionScore": 2,
-      "tractionReason": "Single-page website, no metrics"
+      "tractionRank": 75,
+      "tractionScore": 5,
+      "tractionReason": "Single-page tagline website, no metrics"
     },
     {
-      "rank": 66,
+      "rank": 72,
       "name": "Poth Labs",
       "slug": "poth-labs",
       "scores": {
@@ -2690,12 +2930,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-06-29",
-      "tractionRank": 45,
-      "tractionScore": 8,
-      "tractionReason": "German press coverage in brutkasten, trendingtopics"
+      "tractionRank": 43,
+      "tractionScore": 18,
+      "tractionReason": "German-language press profile of founder"
     },
     {
-      "rank": 67,
+      "rank": 73,
       "name": "Async",
       "slug": "withasync",
       "scores": {
@@ -2730,11 +2970,11 @@
       "scoreTips": {},
       "memoDate": "2026-07-08",
       "tractionRank": 22,
-      "tractionScore": 30,
-      "tractionReason": "SOC 2 Type I, Clifton Law testimonial, S25 prior"
+      "tractionScore": 40,
+      "tractionReason": "SOC 2, named law-firm customer, prior HN Launch"
     },
     {
-      "rank": 68,
+      "rank": 74,
       "name": "Instance",
       "slug": "instance",
       "scores": {
@@ -2770,12 +3010,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-06-30",
-      "tractionRank": 55,
-      "tractionScore": 5,
-      "tractionReason": "Landing page only after pivot, no metrics"
+      "tractionRank": 58,
+      "tractionScore": 10,
+      "tractionReason": "LinkedIn/X only, recently pivoted to synthetic video"
     },
     {
-      "rank": 69,
+      "rank": 75,
       "name": "Dialogus",
       "slug": "dialogus",
       "scores": {
@@ -2810,11 +3050,11 @@
       "scoreTips": {},
       "memoDate": "2026-06-29",
       "tractionRank": 71,
-      "tractionScore": 2,
-      "tractionReason": "YC backing only, no revenue or users"
+      "tractionScore": 6,
+      "tractionReason": "YC S26 only, no revenue or users found"
     },
     {
-      "rank": 70,
+      "rank": 76,
       "name": "Osmaura",
       "slug": "osmaura",
       "scores": {
@@ -2850,11 +3090,11 @@
       "scoreTips": {},
       "memoDate": "2026-06-29",
       "tractionRank": 44,
-      "tractionScore": 9,
-      "tractionReason": "100+ partner customer-discovery interviews, no revenue"
+      "tractionScore": 17,
+      "tractionReason": "100+ partner customer-discovery interviews only"
     },
     {
-      "rank": 71,
+      "rank": 77,
       "name": "Operon",
       "slug": "operon",
       "scores": {
@@ -2889,12 +3129,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-06-29",
-      "tractionRank": 47,
-      "tractionScore": 7,
-      "tractionReason": "549 LinkedIn followers, 1 founding role open"
+      "tractionRank": 53,
+      "tractionScore": 12,
+      "tractionReason": "549 LinkedIn followers, 1 open founding role"
     },
     {
-      "rank": 72,
+      "rank": 78,
       "name": "Insurf",
       "slug": "insurf",
       "scores": {
@@ -2929,12 +3169,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-06-29",
-      "tractionRank": 23,
-      "tractionScore": 29,
-      "tractionReason": "90-day pilot actively recruiting specialty practices"
+      "tractionRank": null,
+      "tractionScore": null,
+      "tractionReason": ""
     },
     {
-      "rank": 73,
+      "rank": 79,
       "name": "Verdant",
       "slug": "verdant",
       "scores": {
@@ -2967,12 +3207,50 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-06-30",
-      "tractionRank": 77,
-      "tractionScore": 1,
-      "tractionReason": "YC backing only, 0 open positions"
+      "tractionRank": 73,
+      "tractionScore": 6,
+      "tractionReason": "YC S26 batch only, no data"
     },
     {
-      "rank": 74,
+      "rank": 80,
+      "name": "OpenTrade",
+      "slug": "opentrade",
+      "scores": {
+        "CB": 33,
+        "EG": 34,
+        "NR": 37,
+        "PG": 36,
+        "PT": 21,
+        "SL": 28,
+        "VK": 28
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Pass",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 31,
+      "revenue": null,
+      "teamSize": 3,
+      "ycPartner": "Diana Hu",
+      "oneLiner": "Investing for the rest of us",
+      "industry": "Consumer / Consumer",
+      "location": "Seattle, WA, USA",
+      "tags": [
+        "Consumer Finance"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-07-09",
+      "tractionRank": 68,
+      "tractionScore": 7,
+      "tractionReason": "Website live plus hiring, no user metrics"
+    },
+    {
+      "rank": 81,
       "name": "TrustAI",
       "slug": "trustai",
       "scores": {
@@ -3008,12 +3286,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-07-08",
-      "tractionRank": 50,
-      "tractionScore": 6,
-      "tractionReason": "Integration logos displayed, no customer disclosure"
+      "tractionRank": 61,
+      "tractionScore": 9,
+      "tractionReason": "Founder 715 followers, integration logos only"
     },
     {
-      "rank": 75,
+      "rank": 82,
       "name": "Cerenovus",
       "slug": "cerenovus",
       "scores": {
@@ -3046,12 +3324,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-06-29",
-      "tractionRank": 16,
-      "tractionScore": 39,
-      "tractionReason": "Pilot customers live, 2 founding engineer roles open"
+      "tractionRank": 32,
+      "tractionScore": 29,
+      "tractionReason": "\"Pilot customers are live,\" no names disclosed"
     },
     {
-      "rank": 76,
+      "rank": 83,
       "name": "Ekpa",
       "slug": "ekpa",
       "scores": {
@@ -3084,12 +3362,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-07-08",
-      "tractionRank": 61,
-      "tractionScore": 3,
-      "tractionReason": "Pre-launch waitlist, pricing \"forthcoming\""
+      "tractionRank": 67,
+      "tractionScore": 7,
+      "tractionReason": "Pre-launch, read-only waitlist mode"
     },
     {
-      "rank": 77,
+      "rank": 84,
       "name": "Amulet",
       "slug": "amulet",
       "scores": {
@@ -3125,9 +3403,9 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-07-08",
-      "tractionRank": 59,
-      "tractionScore": 4,
-      "tractionReason": "Team of 2, launched 2026, no disclosures"
+      "tractionRank": 62,
+      "tractionScore": 8,
+      "tractionReason": "Team of 2, no public data disclosed"
     }
   ],
   "disagreements": [],
@@ -3144,11 +3422,11 @@
       "values": {
         "CB": null,
         "EG": 0.33,
-        "NR": 0.25,
-        "PG": 0.68,
-        "PT": 0.63,
-        "SL": 0.68,
-        "VK": 0.57
+        "NR": 0.26,
+        "PG": 0.69,
+        "PT": 0.61,
+        "SL": 0.66,
+        "VK": 0.54
       }
     },
     {
@@ -3156,57 +3434,57 @@
       "values": {
         "CB": 0.33,
         "EG": null,
-        "NR": 0.54,
-        "PG": 0.52,
-        "PT": 0.27,
-        "SL": 0.3,
-        "VK": 0.11
+        "NR": 0.47,
+        "PG": 0.49,
+        "PT": 0.29,
+        "SL": 0.32,
+        "VK": 0.14
       }
     },
     {
       "persona": "NR",
       "values": {
-        "CB": 0.25,
-        "EG": 0.54,
+        "CB": 0.26,
+        "EG": 0.47,
         "NR": null,
-        "PG": 0.44,
-        "PT": 0.12,
-        "SL": 0.25,
-        "VK": -0.02
+        "PG": 0.45,
+        "PT": 0.15,
+        "SL": 0.21,
+        "VK": -0.03
       }
     },
     {
       "persona": "PG",
       "values": {
-        "CB": 0.68,
-        "EG": 0.52,
-        "NR": 0.44,
+        "CB": 0.69,
+        "EG": 0.49,
+        "NR": 0.45,
         "PG": null,
         "PT": 0.45,
-        "SL": 0.58,
-        "VK": 0.4
+        "SL": 0.54,
+        "VK": 0.37
       }
     },
     {
       "persona": "PT",
       "values": {
-        "CB": 0.63,
-        "EG": 0.27,
-        "NR": 0.12,
+        "CB": 0.61,
+        "EG": 0.29,
+        "NR": 0.15,
         "PG": 0.45,
         "PT": null,
-        "SL": 0.41,
+        "SL": 0.4,
         "VK": 0.5
       }
     },
     {
       "persona": "SL",
       "values": {
-        "CB": 0.68,
-        "EG": 0.3,
-        "NR": 0.25,
-        "PG": 0.58,
-        "PT": 0.41,
+        "CB": 0.66,
+        "EG": 0.32,
+        "NR": 0.21,
+        "PG": 0.54,
+        "PT": 0.4,
         "SL": null,
         "VK": 0.32
       }
@@ -3214,10 +3492,10 @@
     {
       "persona": "VK",
       "values": {
-        "CB": 0.57,
-        "EG": 0.11,
-        "NR": -0.02,
-        "PG": 0.4,
+        "CB": 0.54,
+        "EG": 0.14,
+        "NR": -0.03,
+        "PG": 0.37,
         "PT": 0.5,
         "SL": 0.32,
         "VK": null

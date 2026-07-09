@@ -60,11 +60,11 @@
     "VK": 31
   },
   "consolidatedAvg": 37.29,
-  "consolidatedRank": 41,
+  "consolidatedRank": 46,
   "traction": {
-    "tractionRank": 17,
-    "tractionScore": 38,
-    "tractionReason": "$500K trading volume, 250+ public beta users"
+    "tractionRank": 19,
+    "tractionScore": 43,
+    "tractionReason": "$500K trading volume, 250+ beta users"
   },
   "paths": {
     "memo": "summer2026/memos/blueprints.md",

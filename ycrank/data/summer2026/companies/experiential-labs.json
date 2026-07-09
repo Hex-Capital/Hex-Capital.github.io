@@ -59,11 +59,11 @@
     "VK": 39
   },
   "consolidatedAvg": 44.14,
-  "consolidatedRank": 12,
+  "consolidatedRank": 14,
   "traction": {
-    "tractionRank": 52,
-    "tractionScore": 6,
-    "tractionReason": "21+54+8 GitHub stars across three repos"
+    "tractionRank": 54,
+    "tractionScore": 12,
+    "tractionReason": "21 GitHub stars on world-model-harness"
   },
   "paths": {
     "memo": "summer2026/memos/experiential-labs.md",

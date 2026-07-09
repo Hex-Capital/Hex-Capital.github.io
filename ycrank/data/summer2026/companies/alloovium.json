@@ -1,0 +1,80 @@
+{
+  "slug": "alloovium",
+  "name": "Alloovium",
+  "oneLiner": "Construction paperwork that finally works for your team",
+  "metadata": {
+    "website": "https://www.alloovium.com/en",
+    "yc_page": "https://www.ycombinator.com/companies/alloovium",
+    "batch": "Summer 2026",
+    "industry": "Real Estate and Construction / Real Estate and Construction -> Construction",
+    "team_size": "5",
+    "location": "Brisbane, QLD, Australia (relocating to San Francisco per Startup Daily, Jun 2026)",
+    "tags": "Artificial Intelligence, Construction",
+    "yc_partner": "Gustaf Alstromer (YC company page)",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Construction"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-09T16:03:28.388Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 60,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 66,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 29,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 60,
+    "EG": 47,
+    "NR": 43,
+    "PG": 66,
+    "PT": 33,
+    "SL": 35,
+    "VK": 29
+  },
+  "consolidatedAvg": 44.71,
+  "consolidatedRank": 12,
+  "traction": {
+    "tractionRank": 6,
+    "tractionScore": 70,
+    "tractionReason": "$400M+ active construction projects deployed"
+  },
+  "paths": {
+    "memo": "summer2026/memos/alloovium.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/alloovium.md",
+      "elad-gil": "summer2026/evals/elad-gil/alloovium.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/alloovium.md",
+      "paul-graham": "summer2026/evals/paul-graham/alloovium.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/alloovium.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/alloovium.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/alloovium.md"
+    }
+  }
+}

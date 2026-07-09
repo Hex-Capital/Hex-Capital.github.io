@@ -62,9 +62,9 @@
   "consolidatedAvg": 46.29,
   "consolidatedRank": 9,
   "traction": {
-    "tractionRank": 2,
+    "tractionRank": 3,
     "tractionScore": 82,
-    "tractionReason": ">$500M receivables managed from F100"
+    "tractionReason": "$500M F100 receivables managed, Vercel #1/2500"
   },
   "paths": {
     "memo": "summer2026/memos/rex-inc.md",

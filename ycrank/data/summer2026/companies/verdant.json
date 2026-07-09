@@ -58,11 +58,11 @@
     "VK": 30
   },
   "consolidatedAvg": 31.14,
-  "consolidatedRank": 73,
+  "consolidatedRank": 79,
   "traction": {
-    "tractionRank": 77,
-    "tractionScore": 1,
-    "tractionReason": "YC backing only, 0 open positions"
+    "tractionRank": 73,
+    "tractionScore": 6,
+    "tractionReason": "YC S26 batch only, no data"
   },
   "paths": {
     "memo": "summer2026/memos/verdant.md",

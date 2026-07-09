@@ -1,0 +1,30 @@
+﻿# Conifer -- Paul Graham Evaluation
+
+Conifer is a schlep-heavy artifact with an unreadable founder — hand-written Metal and CUDA kernels shipped as `ConiferKit/sage` at v1.2.14 with 303 stars, but Michael Jeffords has no confirmable LinkedIn, GitHub, or Twitter I could pull. That pairing — highest on the schlep axis, lowest on organic founder-pain — is Conifer's signature in my mental portfolio, and it is exactly the kind of signature that has burned me before and rewarded me before, so I have to be careful about which pattern is loading.
+
+**Coinbase** (2012) is the load-bearing analogy on Conifer's strongest axis. Brian Armstrong ran toward bitcoin compliance because it was the part of the problem other batchmates were unconsciously routing around, and that grind became the moat. Conifer's version is fused quantized matmul, RMSNorm, RoPE, and flash-style attention hand-written per-model in Metal and CUDA — this is not the work an AI-wrapper team picks up on the way to a Series A. OpenRouter took $113M from Google and NVIDIA in May 2026 for a pure cloud gateway precisely because writing kernels is unpleasant enough that a well-funded team would rather route API calls. Where Conifer diverges from the **Coinbase** rung is that Armstrong publicly owned the schlep as his own thesis; here I have the artifact but no founder voice attached to it, which weakens the "this person will still be writing kernels in year five" conviction that made **Coinbase** cheap at any price.
+
+The AI-wrapper pass example — the two-MBA team with a deck and a $50B TAM slide — fails because no founder in the room had personally suffered the problem, and that same silence sits on Conifer's dossier. Michael Jeffords is not on record anywhere describing his own dozen provider contracts, his own leaked financials, or the moment he decided cloud tokens were a tax he refused to pay. The `sage` README describes kernels, not a person. "How to Get Startup Ideas" (November 2012) said the best ideas are things founders themselves want, and the dossier gives me no evidence Conifer is that; it may be — but absence of the biographical hook is where I have historically lost money in the "clever idea, soft founders" quadrant.
+
+On hacker genealogy, the mechanism to watch over 18 months is whether the private kernel binaries in `sage` compound faster than Ollama's 174K-star open-source runtime can absorb the same tricks. Conifer's Rust plus per-model fused attention is real hacker work — this is not credential-only technical — but with no named GitHub handle behind the org's 57 followers, I cannot tell whether this is one obsessive who will keep going or a contractor build that stalls at v1.2.14. The kernel-writer identity is the whole asset here; anonymity destroys the compound.
+
+On co-founder configuration, the score would flip a tier if the other two of the "Team Size 3" turned out to be a pair Jeffords built with pre-Conifer for two-plus years, ideally the actual kernel authors. Right now the YC page names one person and the dossier names one person, which is functionally a solo signal even if technically a trio. "What We Look for in Founders" (October 2010) is explicit that this is the configuration most correlated with the outcomes I care about, and Conifer has not shown me the team yet.
+
+**Ollama's** 52M monthly downloads in Q1 2026 is the single-anchor parallel for the organic-idea axis. Ollama exists because a small group of developers wanted local inference for themselves and shipped the thing they wanted to use — that is the **Reddit** (2005) origin pattern applied to inference. Conifer's site talks about "a dozen provider contracts" and an "~80% AI bill reduction" claim, which is buyer language, not user language. If Jeffords surfaces a Hacker News post from 2025 explaining why he personally could not stomach sending financials to OpenAI, Conifer moves up a tier on this dimension immediately; today it reads as a market observation dressed as a product.
+
+My 36-month forecast is that Conifer gets acquihired by a cloud-gateway incumbent — OpenRouter is the base case given its May 2026 Google/NVIDIA round — for the kernel IP and the kernel author, at a $20M–$60M outcome, without reaching material ARR. The mechanism is that the schlep is real but the distribution is a `sage` client with 303 stars against an Ollama base at 52M monthly downloads, and OpenRouter needs on-device inference more than Conifer needs OpenRouter's routing. This is the **Kiko** (2005) shape, not the **Twitch** (2007) shape.
+
+The strongest opposing case is that this is **Airbnb** (2009) reversed — an idea that looks dumb (a paid layer over free Ollama) with founders whose animal quality I cannot see because they haven't performed for me yet, and my Known Exception for **Airbnb** was precisely "I mentally rejected the idea and the founders overrode me." A single Jeffords essay or HN demo — the **Dropbox** (2007) move — describing why he wrote the RoPE kernel by hand instead of using llama.cpp would rebuild the animal read and pull Conifer into invest range. The dossier evidence that wins today is the founder-verification gap combined with OpenRouter's $113M war chest and Ollama's 174K stars: two well-capitalized commoditizers on either flank and no visible operator in the middle. The verifiable condition that flips my verdict: Jeffords publishes a technical writeup of the fused-attention kernel under his own name, and the second and third team members turn out to be named GPU-kernel authors he has shipped with before. Until then, Conifer is a schlep looking for its animal.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Demonstrates Animal Resourcefulness Pre-Funding | 22/35 |
+| Idea Is Organic to Founders' Own Pain | 9/25 |
+| Problem Sits in a Schlep Zone Mainstream Founders Avoid | 12/15 |
+| Hacker Genealogy in the Founder Team | 9/15 |
+| Co-founder Configuration Is a Strong Pair or Trio, Not Solo | 5/10 |
+| **Total** | **57/100** |
+
+**Total Score: 57/100** (Neutral)

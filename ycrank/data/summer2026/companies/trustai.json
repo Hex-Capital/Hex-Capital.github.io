@@ -61,11 +61,11 @@
     "VK": 26
   },
   "consolidatedAvg": 30,
-  "consolidatedRank": 74,
+  "consolidatedRank": 81,
   "traction": {
-    "tractionRank": 50,
-    "tractionScore": 6,
-    "tractionReason": "Integration logos displayed, no customer disclosure"
+    "tractionRank": 61,
+    "tractionScore": 9,
+    "tractionReason": "Founder 715 followers, integration logos only"
   },
   "paths": {
     "memo": "summer2026/memos/trustai.md",

@@ -60,11 +60,11 @@
     "VK": 34
   },
   "consolidatedAvg": 39.57,
-  "consolidatedRank": 27,
+  "consolidatedRank": 31,
   "traction": {
-    "tractionRank": 39,
-    "tractionScore": 13,
-    "tractionReason": "SDKs published, latency benchmark claims only"
+    "tractionRank": 49,
+    "tractionScore": 14,
+    "tractionReason": "SDKs published, only self-reported latency claims"
   },
   "paths": {
     "memo": "summer2026/memos/speko.md",

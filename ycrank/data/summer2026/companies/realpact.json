@@ -60,11 +60,11 @@
     "VK": 31
   },
   "consolidatedAvg": 37.71,
-  "consolidatedRank": 40,
+  "consolidatedRank": 45,
   "traction": {
-    "tractionRank": 12,
-    "tractionScore": 48,
-    "tractionReason": "4 named brokerage customers including Sotheby's affiliate"
+    "tractionRank": 15,
+    "tractionScore": 50,
+    "tractionReason": "4 named brokerage customers, Sotheby's included"
   },
   "paths": {
     "memo": "summer2026/memos/realpact.md",

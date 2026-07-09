@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-07-08T05:17:58.207Z",
+  "builtAt": "2026-07-09T16:18:59.633Z",
   "batchName": "summer2026",
-  "companyCount": 77,
-  "evalCount": 539,
+  "companyCount": 84,
+  "evalCount": 588,
   "costs": {
-    "memos": 65.8,
-    "evals": 157.01,
-    "total": 222.81
+    "memos": 71.81,
+    "evals": 170.08,
+    "total": 241.89
   }
 }

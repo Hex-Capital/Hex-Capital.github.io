@@ -60,11 +60,11 @@
     "VK": 28
   },
   "consolidatedAvg": 39.86,
-  "consolidatedRank": 26,
+  "consolidatedRank": 30,
   "traction": {
-    "tractionRank": 9,
-    "tractionScore": 55,
-    "tractionReason": "Google, Exa customer logos with testimonials"
+    "tractionRank": 12,
+    "tractionScore": 56,
+    "tractionReason": "Named customers Google, Exa, Klarna, Corgi"
   },
   "paths": {
     "memo": "summer2026/memos/agnost-ai.md",

@@ -60,11 +60,11 @@
     "VK": 29
   },
   "consolidatedAvg": 38.14,
-  "consolidatedRank": 34,
+  "consolidatedRank": 39,
   "traction": {
-    "tractionRank": 69,
-    "tractionScore": 2,
-    "tractionReason": "$500K YC deal, launch video, no customers"
+    "tractionRank": 57,
+    "tractionScore": 10,
+    "tractionReason": "YC + $500K + launch video, no customers"
   },
   "paths": {
     "memo": "summer2026/memos/control-seat.md",

@@ -1,0 +1,83 @@
+{
+  "slug": "zomma",
+  "name": "Zomma",
+  "oneLiner": "Computer Use Agents for back offices in finance",
+  "metadata": {
+    "website": "https://zommalabs.com",
+    "yc_page": "https://www.ycombinator.com/companies/zomma",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B",
+    "team_size": "5",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Robotic Process Automation, Finance, B2B, Workflow Automation",
+    "yc_partner": "Brad Flora",
+    "emails": "hello@zommalabs.com"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Robotic Process Automation",
+    "Finance",
+    "B2B",
+    "Workflow Automation"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-09T16:03:48.486Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 34,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 32,
+    "EG": 48,
+    "NR": 42,
+    "PG": 49,
+    "PT": 37,
+    "SL": 26,
+    "VK": 34
+  },
+  "consolidatedAvg": 38.29,
+  "consolidatedRank": 38,
+  "traction": {
+    "tractionRank": 46,
+    "tractionScore": 16,
+    "tractionReason": "YC + Vercel AI Accelerator cohort selection"
+  },
+  "paths": {
+    "memo": "summer2026/memos/zomma.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/zomma.md",
+      "elad-gil": "summer2026/evals/elad-gil/zomma.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/zomma.md",
+      "paul-graham": "summer2026/evals/paul-graham/zomma.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/zomma.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/zomma.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/zomma.md"
+    }
+  }
+}

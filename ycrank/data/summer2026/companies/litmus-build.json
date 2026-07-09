@@ -1,0 +1,80 @@
+{
+  "slug": "litmus-build",
+  "name": "Litmus",
+  "oneLiner": "Run an async work trial on every engineer you interview.",
+  "metadata": {
+    "website": "https://litmushiring.com/",
+    "yc_page": "https://www.ycombinator.com/companies/litmus-build",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Recruiting and Talent",
+    "team_size": "2",
+    "location": "New York City, NY, USA",
+    "tags": "Recruiting, Talent Acquisition",
+    "yc_partner": "Jared Friedman (YC company page)",
+    "emails": "founders@litmushiring.com (company website)"
+  },
+  "tags": [
+    "Recruiting",
+    "Talent Acquisition"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-09T16:03:28.788Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 32,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 38,
+    "EG": 43,
+    "NR": 36,
+    "PG": 48,
+    "PT": 30,
+    "SL": 28,
+    "VK": 32
+  },
+  "consolidatedAvg": 36.43,
+  "consolidatedRank": 52,
+  "traction": {
+    "tractionRank": 10,
+    "tractionScore": 62,
+    "tractionReason": "$60K ARR disclosed, 3,000+ assessments"
+  },
+  "paths": {
+    "memo": "summer2026/memos/litmus-build.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/litmus-build.md",
+      "elad-gil": "summer2026/evals/elad-gil/litmus-build.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/litmus-build.md",
+      "paul-graham": "summer2026/evals/paul-graham/litmus-build.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/litmus-build.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/litmus-build.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/litmus-build.md"
+    }
+  }
+}

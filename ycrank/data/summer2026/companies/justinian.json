@@ -59,11 +59,11 @@
     "VK": 28
   },
   "consolidatedAvg": 37.86,
-  "consolidatedRank": 38,
+  "consolidatedRank": 43,
   "traction": {
-    "tractionRank": 60,
-    "tractionScore": 4,
-    "tractionReason": "2 founding roles open, no revenue"
+    "tractionRank": 63,
+    "tractionScore": 8,
+    "tractionReason": "Two founding roles open, no customers"
   },
   "paths": {
     "memo": "summer2026/memos/justinian.md",

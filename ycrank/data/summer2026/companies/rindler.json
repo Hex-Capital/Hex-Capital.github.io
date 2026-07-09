@@ -58,11 +58,11 @@
     "VK": 34
   },
   "consolidatedAvg": 37.29,
-  "consolidatedRank": 44,
+  "consolidatedRank": 49,
   "traction": {
-    "tractionRank": 58,
-    "tractionScore": 4,
-    "tractionReason": "X account exists, no other public signal"
+    "tractionRank": 59,
+    "tractionScore": 9,
+    "tractionReason": "X account exists, no other public metrics"
   },
   "paths": {
     "memo": "summer2026/memos/rindler.md",

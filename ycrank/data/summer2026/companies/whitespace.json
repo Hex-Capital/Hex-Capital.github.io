@@ -61,11 +61,11 @@
     "VK": 29
   },
   "consolidatedAvg": 36.43,
-  "consolidatedRank": 47,
+  "consolidatedRank": 53,
   "traction": {
-    "tractionRank": 19,
-    "tractionScore": 34,
-    "tractionReason": "Three customer logos on site (attribution unclear)"
+    "tractionRank": 50,
+    "tractionScore": 14,
+    "tractionReason": "Unattributed savings claims, no named customers"
   },
   "paths": {
     "memo": "summer2026/memos/whitespace.md",

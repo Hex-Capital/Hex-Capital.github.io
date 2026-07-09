@@ -59,11 +59,11 @@
     "VK": 32
   },
   "consolidatedAvg": 34.29,
-  "consolidatedRank": 56,
+  "consolidatedRank": 62,
   "traction": {
-    "tractionRank": 38,
-    "tractionScore": 14,
-    "tractionReason": "Live coverage in DC and Montgomery County MD"
+    "tractionRank": 37,
+    "tractionScore": 24,
+    "tractionReason": "Live jurisdictional coverage in DC and Montgomery"
   },
   "paths": {
     "memo": "summer2026/memos/vestris.md",

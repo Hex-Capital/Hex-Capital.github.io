@@ -58,11 +58,11 @@
     "VK": 23
   },
   "consolidatedAvg": 27.86,
-  "consolidatedRank": 76,
+  "consolidatedRank": 83,
   "traction": {
-    "tractionRank": 61,
-    "tractionScore": 3,
-    "tractionReason": "Pre-launch waitlist, pricing \"forthcoming\""
+    "tractionRank": 67,
+    "tractionScore": 7,
+    "tractionReason": "Pre-launch, read-only waitlist mode"
   },
   "paths": {
     "memo": "summer2026/memos/ekpa.md",

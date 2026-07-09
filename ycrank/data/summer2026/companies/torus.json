@@ -1,0 +1,83 @@
+{
+  "slug": "torus",
+  "name": "Torus",
+  "oneLiner": "Legora for physical engineering firms",
+  "metadata": {
+    "website": "https://www.usetorus.com",
+    "yc_page": "https://www.ycombinator.com/companies/torus",
+    "batch": "Summer 2026",
+    "industry": "Industrials / Industrials",
+    "team_size": "5",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Construction, Energy, Enterprise Software, Industrial",
+    "yc_partner": "Gustaf Alstromer",
+    "emails": "hello@usetorus.com"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Construction",
+    "Energy",
+    "Enterprise Software",
+    "Industrial"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-09T16:03:28.675Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 43,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 48,
+    "EG": 53,
+    "NR": 43,
+    "PG": 46,
+    "PT": 46,
+    "SL": 38,
+    "VK": 43
+  },
+  "consolidatedAvg": 45.29,
+  "consolidatedRank": 11,
+  "traction": {
+    "tractionRank": 26,
+    "tractionScore": 36,
+    "tractionReason": "\"Multiple Fortune 500\" claim, no names"
+  },
+  "paths": {
+    "memo": "summer2026/memos/torus.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/torus.md",
+      "elad-gil": "summer2026/evals/elad-gil/torus.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/torus.md",
+      "paul-graham": "summer2026/evals/paul-graham/torus.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/torus.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/torus.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/torus.md"
+    }
+  }
+}

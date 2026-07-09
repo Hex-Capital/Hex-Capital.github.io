@@ -64,9 +64,9 @@
   "consolidatedAvg": 52.14,
   "consolidatedRank": 4,
   "traction": {
-    "tractionRank": 49,
-    "tractionScore": 7,
-    "tractionReason": "v1 shipped, WorldEvals on PyPI, one pilot"
+    "tractionRank": 41,
+    "tractionScore": 20,
+    "tractionReason": "v1 shipped, first frontier-model robot pilot"
   },
   "paths": {
     "memo": "summer2026/memos/robocurve.md",

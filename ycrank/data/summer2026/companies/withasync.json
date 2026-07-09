@@ -59,11 +59,11 @@
     "VK": 36
   },
   "consolidatedAvg": 32.71,
-  "consolidatedRank": 67,
+  "consolidatedRank": 73,
   "traction": {
     "tractionRank": 22,
-    "tractionScore": 30,
-    "tractionReason": "SOC 2 Type I, Clifton Law testimonial, S25 prior"
+    "tractionScore": 40,
+    "tractionReason": "SOC 2, named law-firm customer, prior HN Launch"
   },
   "paths": {
     "memo": "summer2026/memos/withasync.md",

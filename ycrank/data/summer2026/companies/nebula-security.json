@@ -59,11 +59,11 @@
     "VK": 36
   },
   "consolidatedAvg": 38.86,
-  "consolidatedRank": 30,
+  "consolidatedRank": 34,
   "traction": {
     "tractionRank": 28,
-    "tractionScore": 24,
-    "tractionReason": "$10.5K bounty earned, 729 vulns catalogued"
+    "tractionScore": 34,
+    "tractionReason": "729 CVEs catalogued, $10.5K bounty earned"
   },
   "paths": {
     "memo": "summer2026/memos/nebula-security.md",

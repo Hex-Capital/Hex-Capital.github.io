@@ -59,11 +59,11 @@
     "VK": 33
   },
   "consolidatedAvg": 42.57,
-  "consolidatedRank": 17,
+  "consolidatedRank": 19,
   "traction": {
-    "tractionRank": 43,
-    "tractionScore": 9,
-    "tractionReason": "Show HN launched, per-minute pricing live"
+    "tractionRank": 39,
+    "tractionScore": 22,
+    "tractionReason": "Show HN launched, pricing live, no users disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/machine0.md",

@@ -62,9 +62,9 @@
   "consolidatedAvg": 50.57,
   "consolidatedRank": 5,
   "traction": {
-    "tractionRank": 53,
-    "tractionScore": 5,
-    "tractionReason": "Founder press in Scientific American, no company revenue"
+    "tractionRank": 56,
+    "tractionScore": 11,
+    "tractionReason": "Founder press on Doom-on-neurons, no company traction"
   },
   "paths": {
     "memo": "summer2026/memos/parasma.md",

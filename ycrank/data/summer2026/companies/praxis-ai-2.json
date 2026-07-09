@@ -60,11 +60,11 @@
     "VK": 32
   },
   "consolidatedAvg": 40,
-  "consolidatedRank": 25,
+  "consolidatedRank": 29,
   "traction": {
-    "tractionRank": 15,
-    "tractionScore": 41,
-    "tractionReason": "60k workers reached across 5 continents"
+    "tractionRank": 17,
+    "tractionScore": 46,
+    "tractionReason": "60k workers reached across \"unicorn conglomerates\""
   },
   "paths": {
     "memo": "summer2026/memos/praxis-ai-2.md",

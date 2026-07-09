@@ -60,11 +60,11 @@
     "VK": 37
   },
   "consolidatedAvg": 40.57,
-  "consolidatedRank": 24,
+  "consolidatedRank": 27,
   "traction": {
-    "tractionRank": 18,
-    "tractionScore": 36,
-    "tractionReason": "2 named customer testimonials (CheQ Digital, Housing.com)"
+    "tractionRank": 21,
+    "tractionScore": 41,
+    "tractionReason": "Two named enterprise customer testimonials"
   },
   "paths": {
     "memo": "summer2026/memos/hyperprobe.md",

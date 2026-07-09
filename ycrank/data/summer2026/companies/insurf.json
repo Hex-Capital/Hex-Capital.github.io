@@ -60,12 +60,8 @@
     "VK": 26
   },
   "consolidatedAvg": 31.29,
-  "consolidatedRank": 72,
-  "traction": {
-    "tractionRank": 23,
-    "tractionScore": 29,
-    "tractionReason": "90-day pilot actively recruiting specialty practices"
-  },
+  "consolidatedRank": 78,
+  "traction": null,
   "paths": {
     "memo": "summer2026/memos/insurf.md",
     "evals": {

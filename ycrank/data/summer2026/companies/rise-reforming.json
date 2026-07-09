@@ -62,11 +62,11 @@
     "VK": 49
   },
   "consolidatedAvg": 43.71,
-  "consolidatedRank": 13,
+  "consolidatedRank": 15,
   "traction": {
-    "tractionRank": 11,
-    "tractionScore": 50,
-    "tractionReason": "7 supply MOUs ($14M-$92M pipeline ARR), $1.06M raised"
+    "tractionRank": 7,
+    "tractionScore": 68,
+    "tractionReason": "$14M ARR binding+MOU biogas supply agreements"
   },
   "paths": {
     "memo": "summer2026/memos/rise-reforming.md",

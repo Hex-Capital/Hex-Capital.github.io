@@ -63,9 +63,9 @@
   "consolidatedAvg": 53.57,
   "consolidatedRank": 2,
   "traction": {
-    "tractionRank": 7,
-    "tractionScore": 63,
-    "tractionReason": "Tens of thousands of panel installs on largest US solar farms"
+    "tractionRank": 8,
+    "tractionScore": 66,
+    "tractionReason": "Deployed at \"tens of thousands of panel installs\""
   },
   "paths": {
     "memo": "summer2026/memos/cosmic-robotics.md",

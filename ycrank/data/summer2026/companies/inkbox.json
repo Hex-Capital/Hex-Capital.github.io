@@ -60,10 +60,10 @@
     "VK": 34
   },
   "consolidatedAvg": 38.71,
-  "consolidatedRank": 31,
+  "consolidatedRank": 35,
   "traction": {
-    "tractionRank": 42,
-    "tractionScore": 10,
+    "tractionRank": 51,
+    "tractionScore": 13,
     "tractionReason": "18 GitHub stars, third-party SDK exists"
   },
   "paths": {

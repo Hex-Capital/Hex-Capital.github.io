@@ -60,11 +60,11 @@
     "VK": 36
   },
   "consolidatedAvg": 34,
-  "consolidatedRank": 58,
+  "consolidatedRank": 64,
   "traction": {
-    "tractionRank": 27,
-    "tractionScore": 25,
-    "tractionReason": "Public $999/$2,499 tiers live, 30+ integrations"
+    "tractionRank": 35,
+    "tractionScore": 26,
+    "tractionReason": "30+ integrations shipped, pricing tiers live"
   },
   "paths": {
     "memo": "summer2026/memos/lemonlime.md",

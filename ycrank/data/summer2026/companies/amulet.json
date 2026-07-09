@@ -61,11 +61,11 @@
     "VK": 23
   },
   "consolidatedAvg": 26.29,
-  "consolidatedRank": 77,
+  "consolidatedRank": 84,
   "traction": {
-    "tractionRank": 59,
-    "tractionScore": 4,
-    "tractionReason": "Team of 2, launched 2026, no disclosures"
+    "tractionRank": 62,
+    "tractionScore": 8,
+    "tractionReason": "Team of 2, no public data disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/amulet.md",

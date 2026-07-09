@@ -61,11 +61,11 @@
     "VK": 25
   },
   "consolidatedAvg": 33.43,
-  "consolidatedRank": 62,
+  "consolidatedRank": 68,
   "traction": {
-    "tractionRank": 68,
-    "tractionScore": 2,
-    "tractionReason": "YC backing only, no other signal"
+    "tractionRank": 72,
+    "tractionScore": 6,
+    "tractionReason": "YC S26 backing only, no metrics"
   },
   "paths": {
     "memo": "summer2026/memos/bylaw.md",

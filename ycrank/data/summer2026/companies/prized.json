@@ -60,11 +60,11 @@
     "VK": 31
   },
   "consolidatedAvg": 34.43,
-  "consolidatedRank": 55,
+  "consolidatedRank": 61,
   "traction": {
-    "tractionRank": 41,
-    "tractionScore": 11,
-    "tractionReason": "15+ connectors live, YC backing, no disclosed customers"
+    "tractionRank": 33,
+    "tractionScore": 28,
+    "tractionReason": "Live product, 15+ connectors, no real customers"
   },
   "paths": {
     "memo": "summer2026/memos/prized.md",

@@ -61,11 +61,11 @@
     "VK": 29
   },
   "consolidatedAvg": 40.71,
-  "consolidatedRank": 23,
+  "consolidatedRank": 25,
   "traction": {
-    "tractionRank": 6,
-    "tractionScore": 66,
-    "tractionReason": "6 named brand customers, PMF two months post-launch"
+    "tractionRank": 13,
+    "tractionScore": 54,
+    "tractionReason": "6 named brand customers, \"PMF at million-dollar brands\""
   },
   "paths": {
     "memo": "summer2026/memos/pango.md",

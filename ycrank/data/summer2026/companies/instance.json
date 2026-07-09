@@ -61,11 +61,11 @@
     "VK": 37
   },
   "consolidatedAvg": 32.43,
-  "consolidatedRank": 68,
+  "consolidatedRank": 74,
   "traction": {
-    "tractionRank": 55,
-    "tractionScore": 5,
-    "tractionReason": "Landing page only after pivot, no metrics"
+    "tractionRank": 58,
+    "tractionScore": 10,
+    "tractionReason": "LinkedIn/X only, recently pivoted to synthetic video"
   },
   "paths": {
     "memo": "summer2026/memos/instance.md",

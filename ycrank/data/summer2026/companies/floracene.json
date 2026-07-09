@@ -62,11 +62,11 @@
     "VK": 31
   },
   "consolidatedAvg": 41,
-  "consolidatedRank": 22,
+  "consolidatedRank": 24,
   "traction": {
-    "tractionRank": 72,
-    "tractionScore": 2,
-    "tractionReason": "No public traction data found"
+    "tractionRank": 77,
+    "tractionScore": 4,
+    "tractionReason": "No public data found, not hiring"
   },
   "paths": {
     "memo": "summer2026/memos/floracene.md",

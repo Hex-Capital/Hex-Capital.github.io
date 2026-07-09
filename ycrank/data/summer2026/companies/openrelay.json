@@ -1,0 +1,79 @@
+{
+  "slug": "openrelay",
+  "name": "OpenRelay",
+  "oneLiner": "Distributed, hardware-agnostic AI inference",
+  "metadata": {
+    "website": "https://www.openrelay.inc",
+    "yc_page": "https://www.ycombinator.com/companies/openrelay",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "2",
+    "location": "Seattle, WA, USA",
+    "tags": "AI",
+    "yc_partner": "Brad Flora (YC company page)",
+    "emails": "hello@openrelay.inc, sales@openrelay.inc (openrelay.inc/contact)"
+  },
+  "tags": [
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-09T16:03:28.285Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 24,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 29,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 47,
+    "EG": 32,
+    "NR": 57,
+    "PG": 56,
+    "PT": 36,
+    "SL": 24,
+    "VK": 29
+  },
+  "consolidatedAvg": 40.14,
+  "consolidatedRank": 28,
+  "traction": {
+    "tractionRank": 48,
+    "tractionScore": 15,
+    "tractionReason": "Website live with pricing, no user data"
+  },
+  "paths": {
+    "memo": "summer2026/memos/openrelay.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/openrelay.md",
+      "elad-gil": "summer2026/evals/elad-gil/openrelay.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/openrelay.md",
+      "paul-graham": "summer2026/evals/paul-graham/openrelay.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/openrelay.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/openrelay.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/openrelay.md"
+    }
+  }
+}

@@ -60,11 +60,11 @@
     "VK": 34
   },
   "consolidatedAvg": 39.14,
-  "consolidatedRank": 28,
+  "consolidatedRank": 32,
   "traction": {
-    "tractionRank": 56,
+    "tractionRank": 82,
     "tractionScore": 4,
-    "tractionReason": "Website live only, no disclosed traction"
+    "tractionReason": "No public data, no pricing accessible"
   },
   "paths": {
     "memo": "summer2026/memos/truffle.md",

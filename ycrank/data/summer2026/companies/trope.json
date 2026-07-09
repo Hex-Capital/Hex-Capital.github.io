@@ -60,11 +60,11 @@
     "VK": 27
   },
   "consolidatedAvg": 33.43,
-  "consolidatedRank": 64,
+  "consolidatedRank": 70,
   "traction": {
-    "tractionRank": 48,
-    "tractionScore": 7,
-    "tractionReason": "Team pedigree only (Tesla/Amazon/Zipline)"
+    "tractionRank": 55,
+    "tractionScore": 11,
+    "tractionReason": "Team pedigree only, no customers disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/trope.md",

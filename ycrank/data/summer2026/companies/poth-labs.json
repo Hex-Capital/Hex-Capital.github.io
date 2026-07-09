@@ -62,11 +62,11 @@
     "VK": 29
   },
   "consolidatedAvg": 33,
-  "consolidatedRank": 66,
+  "consolidatedRank": 72,
   "traction": {
-    "tractionRank": 45,
-    "tractionScore": 8,
-    "tractionReason": "German press coverage in brutkasten, trendingtopics"
+    "tractionRank": 43,
+    "tractionScore": 18,
+    "tractionReason": "German-language press profile of founder"
   },
   "paths": {
     "memo": "summer2026/memos/poth-labs.md",

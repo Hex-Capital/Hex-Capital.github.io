@@ -64,9 +64,9 @@
   "consolidatedAvg": 52.71,
   "consolidatedRank": 3,
   "traction": {
-    "tractionRank": 3,
-    "tractionScore": 78,
-    "tractionReason": "250k users, paid $25-150/seat tiers, F500 logos"
+    "tractionRank": 2,
+    "tractionScore": 86,
+    "tractionReason": "250k users, 19k GitHub stars, pricing live"
   },
   "paths": {
     "memo": "summer2026/memos/screenpipe.md",

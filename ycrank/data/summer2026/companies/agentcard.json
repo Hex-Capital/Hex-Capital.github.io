@@ -60,8 +60,8 @@
   "consolidatedAvg": 46,
   "consolidatedRank": 10,
   "traction": {
-    "tractionRank": 29,
-    "tractionScore": 23,
+    "tractionRank": 23,
+    "tractionScore": 39,
     "tractionReason": "Product Hunt 176 upvotes, DoorDash integration live"
   },
   "paths": {

@@ -1,0 +1,79 @@
+{
+  "slug": "opentrade",
+  "name": "OpenTrade",
+  "oneLiner": "Investing for the rest of us",
+  "metadata": {
+    "website": "https://opentrade.live/",
+    "yc_page": "https://www.ycombinator.com/companies/opentrade",
+    "batch": "Summer 2026 (YC company page)",
+    "industry": "Consumer / Consumer",
+    "team_size": "3",
+    "location": "Seattle, WA, USA",
+    "tags": "Consumer Finance",
+    "yc_partner": "Diana Hu (YC company page)",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Consumer Finance"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-09T16:04:18.618Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 21,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 28,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 33,
+    "EG": 34,
+    "NR": 37,
+    "PG": 36,
+    "PT": 21,
+    "SL": 28,
+    "VK": 28
+  },
+  "consolidatedAvg": 31,
+  "consolidatedRank": 80,
+  "traction": {
+    "tractionRank": 68,
+    "tractionScore": 7,
+    "tractionReason": "Website live plus hiring, no user metrics"
+  },
+  "paths": {
+    "memo": "summer2026/memos/opentrade.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/opentrade.md",
+      "elad-gil": "summer2026/evals/elad-gil/opentrade.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/opentrade.md",
+      "paul-graham": "summer2026/evals/paul-graham/opentrade.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/opentrade.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/opentrade.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/opentrade.md"
+    }
+  }
+}

@@ -60,12 +60,8 @@
     "VK": 37
   },
   "consolidatedAvg": 44.43,
-  "consolidatedRank": 11,
-  "traction": {
-    "tractionRank": 32,
-    "tractionScore": 20,
-    "tractionReason": "Pre-orders open at $1,288, 726 X followers, YC promoted"
-  },
+  "consolidatedRank": 13,
+  "traction": null,
   "paths": {
     "memo": "summer2026/memos/noril1.md",
     "evals": {

@@ -60,11 +60,11 @@
     "VK": 36
   },
   "consolidatedAvg": 33.43,
-  "consolidatedRank": 61,
+  "consolidatedRank": 67,
   "traction": {
-    "tractionRank": 66,
-    "tractionScore": 2,
-    "tractionReason": "No public revenue, users, or press"
+    "tractionRank": 81,
+    "tractionScore": 4,
+    "tractionReason": "No public revenue, users, press, or socials"
   },
   "paths": {
     "memo": "summer2026/memos/6thsense.md",

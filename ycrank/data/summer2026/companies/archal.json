@@ -61,11 +61,11 @@
     "VK": 33
   },
   "consolidatedAvg": 34,
-  "consolidatedRank": 57,
+  "consolidatedRank": 63,
   "traction": {
-    "tractionRank": 67,
-    "tractionScore": 2,
-    "tractionReason": "LinkedIn + X handles exist, no metrics"
+    "tractionRank": 74,
+    "tractionScore": 6,
+    "tractionReason": "YC S26 batch, no Product Hunt or press"
   },
   "paths": {
     "memo": "summer2026/memos/archal.md",

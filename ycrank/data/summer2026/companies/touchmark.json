@@ -59,11 +59,11 @@
     "VK": 25
   },
   "consolidatedAvg": 35.29,
-  "consolidatedRank": 52,
+  "consolidatedRank": 58,
   "traction": {
-    "tractionRank": 76,
-    "tractionScore": 1,
-    "tractionReason": "YC S26 backing only, no other signal"
+    "tractionRank": 70,
+    "tractionScore": 6,
+    "tractionReason": "YC S26 admission, no other public metrics"
   },
   "paths": {
     "memo": "summer2026/memos/touchmark.md",

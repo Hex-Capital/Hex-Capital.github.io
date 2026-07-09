@@ -62,11 +62,11 @@
     "VK": 51
   },
   "consolidatedAvg": 36.14,
-  "consolidatedRank": 49,
+  "consolidatedRank": 55,
   "traction": {
-    "tractionRank": 63,
-    "tractionScore": 3,
-    "tractionReason": "No public traction; site returned 403"
+    "tractionRank": 80,
+    "tractionScore": 4,
+    "tractionReason": "Website 403, no traction data found"
   },
   "paths": {
     "memo": "summer2026/memos/molagri.md",

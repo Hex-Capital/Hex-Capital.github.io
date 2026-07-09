@@ -62,9 +62,9 @@
   "consolidatedAvg": 49.71,
   "consolidatedRank": 6,
   "traction": {
-    "tractionRank": 14,
-    "tractionScore": 43,
-    "tractionReason": "5 commercial nuclear plant relationships, DOE partnerships"
+    "tractionRank": 29,
+    "tractionScore": 33,
+    "tractionReason": "5 commercial nuclear plant relationships"
   },
   "paths": {
     "memo": "summer2026/memos/salem-robotics-inc.md",

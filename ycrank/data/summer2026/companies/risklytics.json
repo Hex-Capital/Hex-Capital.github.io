@@ -62,11 +62,11 @@
     "VK": 32
   },
   "consolidatedAvg": 35.43,
-  "consolidatedRank": 50,
+  "consolidatedRank": 56,
   "traction": {
-    "tractionRank": 31,
-    "tractionScore": 21,
-    "tractionReason": "13.6M homes scored, no disclosed paying customers"
+    "tractionRank": 16,
+    "tractionScore": 48,
+    "tractionReason": "13.6M CA homes scored, validated on LA fires"
   },
   "paths": {
     "memo": "summer2026/memos/risklytics.md",

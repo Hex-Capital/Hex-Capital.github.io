@@ -62,9 +62,9 @@
     "VK": 32
   },
   "consolidatedAvg": 35.43,
-  "consolidatedRank": 56,
+  "consolidatedRank": 54,
   "traction": {
-    "tractionRank": 16,
+    "tractionRank": 15,
     "tractionScore": 48,
     "tractionReason": "13.6M CA homes scored, validated on LA fires"
   },

@@ -58,9 +58,9 @@
     "VK": 34
   },
   "consolidatedAvg": 37.29,
-  "consolidatedRank": 49,
+  "consolidatedRank": 48,
   "traction": {
-    "tractionRank": 59,
+    "tractionRank": 57,
     "tractionScore": 9,
     "tractionReason": "X account exists, no other public metrics"
   },

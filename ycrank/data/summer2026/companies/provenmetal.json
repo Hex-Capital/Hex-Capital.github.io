@@ -1,0 +1,32 @@
+{
+  "slug": "provenmetal",
+  "name": "ProvenMetal",
+  "oneLiner": "Fast-turn, American made PCBs",
+  "metadata": {
+    "website": "https://provenmetal.com",
+    "yc_page": "https://www.ycombinator.com/companies/provenmetal",
+    "batch": "Summer 2026",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "Hardware, Manufacturing, Electronics",
+    "yc_partner": "Vivian Midha Shen",
+    "emails": "johnny@provenmetal.com (company website, Jul 2026)"
+  },
+  "tags": [
+    "Hardware",
+    "Manufacturing",
+    "Electronics"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-12T21:52:20.125Z",
+  "evalScores": {},
+  "consolidatedScores": {},
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
+  "traction": null,
+  "paths": {
+    "memo": "summer2026/memos/provenmetal.md",
+    "evals": {}
+  }
+}

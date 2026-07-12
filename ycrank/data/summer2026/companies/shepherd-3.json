@@ -60,9 +60,9 @@
     "VK": 32
   },
   "consolidatedAvg": 34.86,
-  "consolidatedRank": 60,
+  "consolidatedRank": 58,
   "traction": {
-    "tractionRank": 69,
+    "tractionRank": 67,
     "tractionScore": 7,
     "tractionReason": "YC S26 acceptance only, no other metrics"
   },

@@ -62,7 +62,7 @@
   "consolidatedAvg": 43.29,
   "consolidatedRank": 17,
   "traction": {
-    "tractionRank": 64,
+    "tractionRank": 62,
     "tractionScore": 8,
     "tractionReason": "JACS paper + Stanford/MIT affiliations only"
   },

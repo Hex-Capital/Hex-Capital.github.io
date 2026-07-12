@@ -60,9 +60,9 @@
     "VK": 36
   },
   "consolidatedAvg": 34,
-  "consolidatedRank": 64,
+  "consolidatedRank": 62,
   "traction": {
-    "tractionRank": 35,
+    "tractionRank": 33,
     "tractionScore": 26,
     "tractionReason": "30+ integrations shipped, pricing tiers live"
   },

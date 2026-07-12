@@ -60,9 +60,9 @@
     "VK": 30
   },
   "consolidatedAvg": 34.86,
-  "consolidatedRank": 59,
+  "consolidatedRank": 57,
   "traction": {
-    "tractionRank": 66,
+    "tractionRank": 64,
     "tractionScore": 7,
     "tractionReason": "Waitlist/demo gate, no metrics"
   },

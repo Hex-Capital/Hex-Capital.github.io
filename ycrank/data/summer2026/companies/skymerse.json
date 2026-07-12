@@ -1,0 +1,32 @@
+{
+  "slug": "skymerse",
+  "name": "Skymerse",
+  "oneLiner": "Autopilot for Flight Operations",
+  "metadata": {
+    "website": "https://skymerse.com",
+    "yc_page": "https://www.ycombinator.com/companies/skymerse",
+    "batch": "Summer 2026 (YC company page)",
+    "industry": "Industrials / Industrials -> Aviation and Space",
+    "team_size": "1",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Airlines, Aerospace",
+    "yc_partner": "Gustaf Alstromer (YC company page)",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Airlines",
+    "Aerospace"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-12T21:52:09.893Z",
+  "evalScores": {},
+  "consolidatedScores": {},
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
+  "traction": null,
+  "paths": {
+    "memo": "summer2026/memos/skymerse.md",
+    "evals": {}
+  }
+}

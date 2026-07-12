@@ -61,7 +61,7 @@
   "consolidatedAvg": 38.86,
   "consolidatedRank": 34,
   "traction": {
-    "tractionRank": 28,
+    "tractionRank": 26,
     "tractionScore": 34,
     "tractionReason": "729 CVEs catalogued, $10.5K bounty earned"
   },

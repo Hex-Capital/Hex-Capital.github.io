@@ -1,0 +1,32 @@
+{
+  "slug": "earendil-robotics",
+  "name": "Earendil Robotics",
+  "oneLiner": "Drone swarm defence at a small-unit level",
+  "metadata": {
+    "website": "https://earendil.io",
+    "yc_page": "https://www.ycombinator.com/companies/earendil-robotics",
+    "batch": "Summer 2026",
+    "industry": "Industrials / Industrials -> Defense",
+    "team_size": "7",
+    "location": "San Francisco, CA, USA",
+    "tags": "Drones, Swarm Robotics, AR",
+    "yc_partner": "Vivian Midha Shen (YC company page)",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Drones",
+    "Swarm Robotics",
+    "AR"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-12T21:52:19.771Z",
+  "evalScores": {},
+  "consolidatedScores": {},
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
+  "traction": null,
+  "paths": {
+    "memo": "summer2026/memos/earendil-robotics.md",
+    "evals": {}
+  }
+}

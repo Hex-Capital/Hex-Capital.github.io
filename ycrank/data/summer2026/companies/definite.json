@@ -1,0 +1,33 @@
+{
+  "slug": "definite",
+  "name": "Definite",
+  "oneLiner": "The most accurate financial agents",
+  "metadata": {
+    "website": "https://www.usedefinite.com",
+    "yc_page": "https://www.ycombinator.com/companies/definite",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Fintech, SaaS, Finance",
+    "yc_partner": "Ankit Gupta",
+    "emails": "contact@usedefinite.com"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Fintech",
+    "SaaS",
+    "Finance"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-12T21:52:00.195Z",
+  "evalScores": {},
+  "consolidatedScores": {},
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
+  "traction": null,
+  "paths": {
+    "memo": "summer2026/memos/definite.md",
+    "evals": {}
+  }
+}

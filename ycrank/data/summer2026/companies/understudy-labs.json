@@ -1,0 +1,33 @@
+{
+  "slug": "understudy-labs",
+  "name": "Understudy Labs",
+  "oneLiner": "Effortlessly move to open weight models",
+  "metadata": {
+    "website": "https://understudylabs.com/",
+    "yc_page": "https://www.ycombinator.com/companies/understudy-labs",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Open Source, AI, ML",
+    "yc_partner": "Tyler Bosmeny",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Open Source",
+    "AI",
+    "ML"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-12T21:52:07.997Z",
+  "evalScores": {},
+  "consolidatedScores": {},
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
+  "traction": null,
+  "paths": {
+    "memo": "summer2026/memos/understudy-labs.md",
+    "evals": {}
+  }
+}

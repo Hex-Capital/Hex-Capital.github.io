@@ -1,0 +1,34 @@
+{
+  "slug": "osseus",
+  "name": "Osseus",
+  "oneLiner": "The secure research brain for accelerating R&D",
+  "metadata": {
+    "website": "https://osseus.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/osseus",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Productivity",
+    "team_size": "2",
+    "location": "No public data found (founders based at Imperial College London per LinkedIn)",
+    "tags": "B2B, Enterprise Software, Infrastructure, Operations, AI",
+    "yc_partner": "Jared Friedman (YC company page)",
+    "emails": "hello@osseus.ai (osseus.ai website)"
+  },
+  "tags": [
+    "B2B",
+    "Enterprise Software",
+    "Infrastructure",
+    "Operations",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-12T21:51:49.524Z",
+  "evalScores": {},
+  "consolidatedScores": {},
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
+  "traction": null,
+  "paths": {
+    "memo": "summer2026/memos/osseus.md",
+    "evals": {}
+  }
+}

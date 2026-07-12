@@ -61,9 +61,9 @@
     "VK": 43
   },
   "consolidatedAvg": 37.14,
-  "consolidatedRank": 50,
+  "consolidatedRank": 49,
   "traction": {
-    "tractionRank": 34,
+    "tractionRank": 32,
     "tractionScore": 27,
     "tractionReason": "\"Already deploying in hospitality,\" no counts"
   },

@@ -1,0 +1,34 @@
+{
+  "slug": "onecli",
+  "name": "OneCLI",
+  "oneLiner": "The Identity Gateway for AI Agents",
+  "metadata": {
+    "website": "https://onecli.sh",
+    "yc_page": "https://www.ycombinator.com/companies/onecli",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Security",
+    "team_size": "0",
+    "location": "San Francisco, CA, USA",
+    "tags": "B2B, Security, Open Source, Infrastructure, AI",
+    "yc_partner": "Brad Flora (YC company page)",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "B2B",
+    "Security",
+    "Open Source",
+    "Infrastructure",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-12T21:51:49.535Z",
+  "evalScores": {},
+  "consolidatedScores": {},
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
+  "traction": null,
+  "paths": {
+    "memo": "summer2026/memos/onecli.md",
+    "evals": {}
+  }
+}

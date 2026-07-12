@@ -62,7 +62,7 @@
   "consolidatedAvg": 38.71,
   "consolidatedRank": 35,
   "traction": {
-    "tractionRank": 51,
+    "tractionRank": 49,
     "tractionScore": 13,
     "tractionReason": "18 GitHub stars, third-party SDK exists"
   },

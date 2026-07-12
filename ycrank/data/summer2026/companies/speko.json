@@ -62,7 +62,7 @@
   "consolidatedAvg": 39.57,
   "consolidatedRank": 31,
   "traction": {
-    "tractionRank": 49,
+    "tractionRank": 47,
     "tractionScore": 14,
     "tractionReason": "SDKs published, only self-reported latency claims"
   },

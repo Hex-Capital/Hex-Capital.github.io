@@ -60,7 +60,7 @@
   "consolidatedAvg": 43.57,
   "consolidatedRank": 16,
   "traction": {
-    "tractionRank": 42,
+    "tractionRank": 40,
     "tractionScore": 19,
     "tractionReason": "42 GitHub stars, MCP integrations live"
   },

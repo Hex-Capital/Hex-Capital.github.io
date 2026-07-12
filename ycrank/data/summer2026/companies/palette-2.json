@@ -1,0 +1,32 @@
+{
+  "slug": "palette-2",
+  "name": "Palette",
+  "oneLiner": "An interactive AI video generation and editing platform",
+  "metadata": {
+    "website": "https://palettetechnology.com/",
+    "yc_page": "https://www.ycombinator.com/companies/palette-2",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Generative AI, Video, AI",
+    "yc_partner": "Ankit Gupta",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Generative AI",
+    "Video",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-12T21:52:07.987Z",
+  "evalScores": {},
+  "consolidatedScores": {},
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
+  "traction": null,
+  "paths": {
+    "memo": "summer2026/memos/palette-2.md",
+    "evals": {}
+  }
+}

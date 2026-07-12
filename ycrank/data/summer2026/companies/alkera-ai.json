@@ -1,0 +1,34 @@
+{
+  "slug": "alkera-ai",
+  "name": "Alkera AI",
+  "oneLiner": "Data engineering and data science agents that are reliable and safe",
+  "metadata": {
+    "website": "https://alkera.ai",
+    "yc_page": "https://www.ycombinator.com/companies/alkera-ai",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Developer Tools, Data Science, Data Engineering, Enterprise Software",
+    "yc_partner": "Ankit Gupta (YC company page)",
+    "emails": "contact@alkera.ai (alkera.ai website), andrew@alkera.ai (andrewtrandev.com)"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "Data Science",
+    "Data Engineering",
+    "Enterprise Software"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-12T21:51:51.148Z",
+  "evalScores": {},
+  "consolidatedScores": {},
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
+  "traction": null,
+  "paths": {
+    "memo": "summer2026/memos/alkera-ai.md",
+    "evals": {}
+  }
+}

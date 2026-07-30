@@ -61,9 +61,9 @@
   "consolidatedAvg": 63,
   "consolidatedRank": 9,
   "traction": {
-    "tractionRank": 42,
-    "tractionScore": 55,
-    "tractionReason": "Employer customers with claimed 20% premium reductions"
+    "tractionRank": 81,
+    "tractionScore": 44,
+    "tractionReason": "Employer customers and design partners; count undisclosed"
   },
   "paths": {
     "memo": "summer2026/memos/prescience-inc.md",

@@ -60,11 +60,11 @@
     "VK": 40
   },
   "consolidatedAvg": 52.29,
-  "consolidatedRank": 95,
+  "consolidatedRank": 98,
   "traction": {
-    "tractionRank": 24,
-    "tractionScore": 63,
-    "tractionReason": "600+ workers across 20+ plants"
+    "tractionRank": 25,
+    "tractionScore": 72,
+    "tractionReason": "600+ workers deployed across 20+ plants"
   },
   "paths": {
     "memo": "summer2026/memos/textsidekick.md",

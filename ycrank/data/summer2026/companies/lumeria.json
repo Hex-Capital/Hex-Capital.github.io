@@ -62,10 +62,10 @@
     "VK": 42
   },
   "consolidatedAvg": 56.14,
-  "consolidatedRank": 55,
+  "consolidatedRank": 56,
   "traction": {
-    "tractionRank": 94,
-    "tractionScore": 40,
+    "tractionRank": 101,
+    "tractionScore": 39,
     "tractionReason": "First beta users and two clinical partnerships"
   },
   "paths": {

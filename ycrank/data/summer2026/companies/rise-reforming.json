@@ -62,10 +62,10 @@
     "VK": 72
   },
   "consolidatedAvg": 60.29,
-  "consolidatedRank": 20,
+  "consolidatedRank": 21,
   "traction": {
-    "tractionRank": 58,
-    "tractionScore": 51,
+    "tractionRank": 77,
+    "tractionScore": 46,
     "tractionReason": "Binding supply agreement and conditional offtake"
   },
   "paths": {

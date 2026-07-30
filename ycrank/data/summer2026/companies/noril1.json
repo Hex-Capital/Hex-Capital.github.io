@@ -60,10 +60,10 @@
     "VK": 64
   },
   "consolidatedAvg": 59.86,
-  "consolidatedRank": 25,
+  "consolidatedRank": 26,
   "traction": {
-    "tractionRank": 44,
-    "tractionScore": 54,
+    "tractionRank": 51,
+    "tractionScore": 59,
     "tractionReason": "First production batch reached capacity"
   },
   "paths": {

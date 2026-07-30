@@ -62,11 +62,11 @@
     "VK": 70
   },
   "consolidatedAvg": 49.29,
-  "consolidatedRank": 121,
+  "consolidatedRank": 125,
   "traction": {
-    "tractionRank": 152,
-    "tractionScore": 8,
-    "tractionReason": "Stealth launch; no product usage disclosed"
+    "tractionRank": 159,
+    "tractionScore": 5,
+    "tractionReason": "Stealth launch only; no product metrics"
   },
   "paths": {
     "memo": "summer2026/memos/lamb-labs.md",

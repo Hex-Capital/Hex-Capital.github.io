@@ -61,11 +61,11 @@
     "VK": 43
   },
   "consolidatedAvg": 44.57,
-  "consolidatedRank": 146,
+  "consolidatedRank": 150,
   "traction": {
-    "tractionRank": 149,
-    "tractionScore": 10,
-    "tractionReason": "No disclosed commercial traction"
+    "tractionRank": 158,
+    "tractionScore": 5,
+    "tractionReason": "YC backing and followers only"
   },
   "paths": {
     "memo": "summer2026/memos/orvixo.md",

@@ -61,10 +61,10 @@
     "VK": 48
   },
   "consolidatedAvg": 51.86,
-  "consolidatedRank": 97,
+  "consolidatedRank": 100,
   "traction": {
-    "tractionRank": 76,
-    "tractionScore": 45,
+    "tractionRank": 98,
+    "tractionScore": 40,
     "tractionReason": "Building product with first customers"
   },
   "paths": {

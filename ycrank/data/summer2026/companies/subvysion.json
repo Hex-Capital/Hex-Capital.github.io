@@ -59,10 +59,10 @@
     "VK": 51
   },
   "consolidatedAvg": 54.57,
-  "consolidatedRank": 69,
+  "consolidatedRank": 72,
   "traction": {
-    "tractionRank": 45,
-    "tractionScore": 54,
+    "tractionRank": 54,
+    "tractionScore": 58,
     "tractionReason": "Active contracts on U.S. construction sites"
   },
   "paths": {

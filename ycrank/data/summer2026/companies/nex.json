@@ -59,11 +59,11 @@
     "VK": 38
   },
   "consolidatedAvg": 53.57,
-  "consolidatedRank": 82,
+  "consolidatedRank": 85,
   "traction": {
-    "tractionRank": 77,
-    "tractionScore": 45,
-    "tractionReason": "1,229 GitHub stars and Product Hunt validation"
+    "tractionRank": 68,
+    "tractionScore": 51,
+    "tractionReason": "1,229 GitHub stars and Product Hunt traction"
   },
   "paths": {
     "memo": "summer2026/memos/nex.md",

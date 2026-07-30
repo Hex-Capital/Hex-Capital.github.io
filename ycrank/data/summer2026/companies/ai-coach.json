@@ -62,11 +62,11 @@
     "VK": 39
   },
   "consolidatedAvg": 59,
-  "consolidatedRank": 34,
+  "consolidatedRank": 35,
   "traction": {
-    "tractionRank": 5,
-    "tractionScore": 84,
-    "tractionReason": "$500K ARR after five months; 120% MoM growth"
+    "tractionRank": 4,
+    "tractionScore": 88,
+    "tractionReason": "$500K ARR after five months; 120% monthly growth"
   },
   "paths": {
     "memo": "summer2026/memos/ai-coach.md",

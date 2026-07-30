@@ -60,11 +60,11 @@
     "VK": 76
   },
   "consolidatedAvg": 60.29,
-  "consolidatedRank": 19,
+  "consolidatedRank": 20,
   "traction": {
-    "tractionRank": 116,
-    "tractionScore": 31,
-    "tractionReason": "Model launched; no commercial usage disclosed"
+    "tractionRank": 123,
+    "tractionScore": 32,
+    "tractionReason": "Photon-1 launched; no customers or revenue disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/induction-labs.md",

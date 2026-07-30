@@ -60,11 +60,11 @@
     "VK": 43
   },
   "consolidatedAvg": 52,
-  "consolidatedRank": 96,
+  "consolidatedRank": 99,
   "traction": {
-    "tractionRank": 113,
-    "tractionScore": 32,
-    "tractionReason": "100-person waitlist and 268 GitHub stars"
+    "tractionRank": 70,
+    "tractionScore": 50,
+    "tractionReason": "100+ waitlist developers and 268 GitHub stars"
   },
   "paths": {
     "memo": "summer2026/memos/conifer.md",

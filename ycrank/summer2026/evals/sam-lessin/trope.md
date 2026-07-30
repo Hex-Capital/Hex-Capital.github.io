@@ -1,0 +1,30 @@
+﻿# Trope -- Sam Lessin Evaluation
+
+Trope’s 366-commit desktop-control layer makes Trope a Wizard-of-Oz service-with-software company that has no owned-distribution asset. That pairing is the analytical signature: Trope fits my highest-conviction sleeve because principal consultants still scope projects and approve delivery gates, but Trope bottoms out where Matthew Chow’s roughly 1K X followers, Victor Vannara’s 239, and 547 company LinkedIn followers provide no meaningful community leverage. Software is no longer investible—fine, walk that back: software attached to a labor-replacement system can be investible, but only if distribution or structure prevents the labor business from eating the upside.
+
+Fin is the high rung because its manual operation generated the workflow knowledge that automation later absorbed. Trope shares that mechanism: Trope sells fixed-price implementations, keeps humans at approval gates, and adds managed agents after go-live rather than pretending an autonomous product can swallow an ERP migration on day one. The divergence is load-bearing: Trope’s May workflow-guidance product became a July implementation-partner product and then an end-to-end ERP service, while no deployment volume for Trope’s current product is public. Fin’s manual work was accumulated learning; Trope has not yet proved that its succession of tacks is convergence rather than searching.
+
+Ro’s weak founder-distribution profile shows the low-rung mechanism: when the named founder is not the channel, capitalized operations must manufacture trust and acquisition. Trope displays the same absence without Ro’s prescription-rail exception. Trope has 547 LinkedIn followers, 27 GitHub stars, and no documented newsletter, podcast, customer community, or 10K-person organic audience; white-label sales to SIs and VARs would make Trope even less visible to end customers. Trope may build a good channel business, but no founder-brand asset is sitting on the cap table.
+
+The $16.1B Microsoft Dynamics services market can compound Trope’s non-consensus angle over 18 months if fixed-price delivery lets Trope underbid hourly incumbents and turn VARs into repeat channels. The same period can expose Trope as the canonical hot YC deck—“AI-native ERP systems integrator,” no disclosed round price, and no tier-one investor visibly passing—while Microsoft distributes a custom-agent designer through Business Central itself. Trope is less consensus than DualEntry or Campfire because Trope preserves the incumbent ERP, but without financing terms I apply the price-discipline default: YC plus AI plus SaaS is not evidence of mispricing.
+
+Trope’s fixed-price implementations and separately sold managed agents are the beginnings of a venture-shaped structure, because service revenue could finance reusable mappings, tests, and exception data before another round. Trope flips into Invest territory here if one current-product cohort demonstrates default-alive economics—implementation cash covering delivery while managed-agent revenue produces durable software margins—or if the instrument recognizes the business as a cash-flowing SI through revenue share rather than a generic SAFE. No dollar pricing, current-product revenue, burn, or gross-margin data is disclosed, so Trope remains caught between a capital-efficient consulting operation and a services business being force-fit into venture equity.
+
+Drop.io is the useful founder parallel: builders shipped a working primitive against free incumbents before the market supplied permission. Matthew Chow’s Tesla and Zipline production work, Victor Vannara’s Amazon agent and distributed-systems experience, and Trope’s 366 commits show builder temperament rather than pitch-deck tourism. Trope still lacks Drop.io’s visible category obsession: neither founder has documented years inside ERP implementation, and Trope attributes 200-plus implementations across 20-plus years to unnamed principal consultants. Trope has technical conviction, but the dossier does not yet show asymmetric founder conviction about Business Central itself.
+
+Microsoft’s December 31, 2029 Dynamics GP support deadline gives Trope a real clock, so my falsifiable 36-month forecast is that by July 2029 Trope has pivoted fully into a white-label managed-agent platform for Dynamics partners, produces $3M–$7M in annualized revenue, and has not raised a conventional Series A. Trope’s highest-scoring mechanism—manual delivery crystallizing into repeatable agent workflows—can create a sound niche business; Trope’s lowest-scoring mechanism—no owned audience—means VAR relationships, not founder pull, will set its growth ceiling.
+
+DualEntry, Campfire, and Rillet have each attracted roughly $100M or more, and the strongest bull case is that their ERP-replacement aggression makes Trope’s compatibility wedge enormously valuable: GP migrations are forced, Business Central customers want lower implementation risk, and Trope’s prior tests reported two-to-three-times faster completion with 90% fewer errors. The Pinterest exception could apply if Chow and Vannara’s 366-commit persistence reveals missionary temperament strong enough to override consensus pricing. The dossier fact that wins today is that those performance results belong to Trope’s prior workflow-guidance product, while Microsoft now exposes the same agent runtime to consultants and users. I would flip to Invest if Trope verifies at least ten paying current-product implementations and $1M of recurring managed-agent ARR through named Dynamics partners within twelve months; absent that, I do not write the check.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Round Is Mis-Priced or Non-Consensus, Not the Hot YC Deck | 9/30 |
+| Capital Structure Is Venture-Shaped, Not Founder-Drainage | 15/22 |
+| Founder Has Asymmetric Conviction Visible Pre-Pitch | 11/20 |
+| Founder-as-Brand or Owned Community Is on the Cap Table | 4/15 |
+| Category Lives in a Sleeve You're Already Convicted On | 10/13 |
+| **Total** | **49/100** |
+
+**Total Score: 49/100** (Neutral)

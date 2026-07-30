@@ -60,10 +60,10 @@
     "VK": 38
   },
   "consolidatedAvg": 49.14,
-  "consolidatedRank": 123,
+  "consolidatedRank": 127,
   "traction": {
-    "tractionRank": 41,
-    "tractionScore": 55,
+    "tractionRank": 49,
+    "tractionScore": 60,
     "tractionReason": "MRR quadrupled in seven days; baseline undisclosed"
   },
   "paths": {

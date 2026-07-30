@@ -62,11 +62,11 @@
     "VK": 42
   },
   "consolidatedAvg": 59.43,
-  "consolidatedRank": 29,
+  "consolidatedRank": 30,
   "traction": {
-    "tractionRank": 93,
-    "tractionScore": 40,
-    "tractionReason": "Product shipped and one physical-robot pilot completed"
+    "tractionRank": 104,
+    "tractionScore": 38,
+    "tractionReason": "One physical-robot evaluation pilot completed"
   },
   "paths": {
     "memo": "summer2026/memos/robocurve.md",

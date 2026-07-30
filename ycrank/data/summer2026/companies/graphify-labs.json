@@ -62,9 +62,9 @@
   "consolidatedAvg": 63.29,
   "consolidatedRank": 8,
   "traction": {
-    "tractionRank": 18,
-    "tractionScore": 69,
-    "tractionReason": "4M downloads and 98,805 GitHub stars"
+    "tractionRank": 11,
+    "tractionScore": 81,
+    "tractionReason": "4M+ downloads and 98,805 GitHub stars"
   },
   "paths": {
     "memo": "summer2026/memos/graphify-labs.md",

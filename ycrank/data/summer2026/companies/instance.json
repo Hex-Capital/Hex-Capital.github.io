@@ -60,11 +60,11 @@
     "VK": 48
   },
   "consolidatedAvg": 54.29,
-  "consolidatedRank": 73,
+  "consolidatedRank": 76,
   "traction": {
-    "tractionRank": 95,
-    "tractionScore": 39,
-    "tractionReason": "10K labeled episodes; no commercial adoption disclosed"
+    "tractionRank": 72,
+    "tractionScore": 49,
+    "tractionReason": "10,000+ labeled robot episodes across seven platforms"
   },
   "paths": {
     "memo": "summer2026/memos/instance.md",

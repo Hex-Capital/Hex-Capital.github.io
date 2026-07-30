@@ -61,11 +61,11 @@
     "VK": 40
   },
   "consolidatedAvg": 46,
-  "consolidatedRank": 137,
+  "consolidatedRank": 141,
   "traction": {
-    "tractionRank": 78,
-    "tractionScore": 45,
-    "tractionReason": "Customer case shows 7.5 billable hours recovered"
+    "tractionRank": 76,
+    "tractionScore": 47,
+    "tractionReason": "Customer case shows 38.4 billable hours captured"
   },
   "paths": {
     "memo": "summer2026/memos/perceptron-ml.md",

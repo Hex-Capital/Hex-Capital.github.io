@@ -60,11 +60,11 @@
     "VK": 43
   },
   "consolidatedAvg": 49.14,
-  "consolidatedRank": 122,
+  "consolidatedRank": 126,
   "traction": {
-    "tractionRank": 134,
-    "tractionScore": 25,
-    "tractionReason": "Early partners subsidized with grants; no revenue"
+    "tractionRank": 138,
+    "tractionScore": 26,
+    "tractionReason": "Partner program offers grants; commercial uptake undisclosed"
   },
   "paths": {
     "memo": "summer2026/memos/83-sciences.md",

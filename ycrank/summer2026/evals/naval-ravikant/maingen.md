@@ -1,0 +1,30 @@
+﻿# Maingen -- Naval Ravikant Evaluation
+
+Phillip Yan built energy-trading tools at Axpo while David Yang worked at Scale AI, giving Maingen unusually strong specific knowledge and unusually weak network geometry. Maingen is a domain-rich, network-poor AI data business: the founders understand both sides of the industrial-RL interface, but every new custom dataset appears to require another operator relationship, another legal review, and another contract. Intelligence can create the artifact. Architecture determines whether the artifact compounds.
+
+**Stack Overflow** is the high rung for specific knowledge: developers built a product from years of being developers, then encoded that knowledge into software others could extend. Maingen shares the builder-for-builder mechanism—Yan contributes energy operations context, Yang contributes model evaluation experience, and hundreds of operator-research hours became SolarBench’s eight tasks and expert-authored rubrics. Maingen diverges because Yan and Yang are still students with brief professional exposures, not decade-long industrial operators, and eight simulated solar tasks do not yet establish non-replicable mastery across industrial operations. Specific knowledge is present. Its depth remains unproven.
+
+**Perplexity’s** missing network was a waived failure mechanism: each user did not directly improve the next user’s product, but exceptional founder-model fit and permissionless product distribution overrode it. Maingen has the same missing network without yet earning the exception. Maingen sells inferred custom environments to frontier laboratories while sourcing scenarios through direct relationships with operators, IPPs, and asset managers; neither side automatically attracts or improves the other. Proprietary agent traces could eventually become a data flywheel, but the dossier identifies no shared platform, contributor network, or self-reinforcing exchange today.
+
+SolarBench produced 880 graded weeks and a launch post with 68K views, showing Maingen can turn code into media and media into attention. Over 18 months, Maingen’s leverage improves if public benchmarks become the default language by which frontier laboratories measure industrial agents: one environment can be copied, cited, and run at near-zero marginal cost. Maingen’s leverage collapses if the “request a dataset” workflow means every sale requires consultation, bespoke operator interviews, provenance work, and enterprise data agreements. The unstated builder-product pattern partly passes; the red flag is a code artifact sitting atop a labor-leverage production process. Ten-star repositories and 136 launch-post likes are publication signals, not organic adoption.
+
+The $2.62B training-dataset market is forecast to reach $7.3B by 2029, but Maingen currently occupies one eight-task solar wedge. Maingen moves into a higher tier if solar is merely the first compiler target and the same environment engine can generate evaluations for grid operations, factories, logistics, and energy trading without restarting operator research from zero. If each vertical requires a new expert workforce and governance stack, the “industrial operations” label disguises several niches rather than one large pivotable market. The score flips when Maingen ships two adjacent industrial environments using a common simulator and rubric architecture.
+
+Yan and Yang have known each other since opposing sides of a DOE-sponsored middle-school Science Bowl final, a better partnership signal than a founder-matching introduction. Maingen resembles **Notion** on the long-game axis only in embryo: two technically curious founders have stayed in one another’s orbit and shipped a real artifact before building a large organization. Maingen shows intelligence through SolarBench and energy through hundreds of operator-research hours; Maingen provides no evidence about integrity, prior team stewardship, or a clean completed venture. I apply the neutral default there. Play long-term games with long-term people, but do not infer ten-year character from a long acquaintance alone.
+
+Eight SolarBench tasks are enough for a testable forecast: within 36 months, Maingen will pivot from a solar-benchmark identity into a custom industrial-agent evaluation vendor spanning energy and one adjacent operational vertical, reaching $2M–$5M ARR but remaining services-heavy rather than becoming a compounding network. Maingen can build valuable datasets because its highest attribute is founder-specific knowledge; Maingen is unlikely to produce venture-scale geometry until the lowest attribute—user-added network value—changes structurally.
+
+**Perplexity** is the strongest bull case against that forecast. Maingen could be another single-sided AI product where network effects are unnecessary because pre-consensus timing, technical depth, and permissionless benchmark distribution compound faster than the market expects; 11 models, 880 graded weeks, 68K launch views, Yan’s Axpo experience, and Yang’s Scale AI experience make that precedent sting. Maingen still lacks Perplexity’s frictionless end-user product: industrial records carry governance constraints, Scale AI and Turing can recruit specialists, and the current workflow advertises custom datasets rather than self-service adoption. I would flip from Neutral to Invest upon verifiable evidence that two named frontier laboratories are each paying Maingen for the same reusable environment platform rather than separate bespoke datasets.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Permissionless Leverage Architecture (Code or Media as Primary Distribution) | 16/28 |
+| Marketplace or Network with Compounding User-Added Value | 7/22 |
+| Founder Has Non-Trainable Specific Knowledge in the Domain | 17/20 |
+| Big Market with Room for Multiple Pivots Without Refinancing | 12/16 |
+| Founder Trio (Intelligence + Energy + Integrity) Reads as a 10-Year Partner | 10/14 |
+| **Total** | **62/100** |
+
+**Total Score: 62/100** (Neutral)

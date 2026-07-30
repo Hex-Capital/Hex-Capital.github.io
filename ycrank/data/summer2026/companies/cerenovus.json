@@ -62,11 +62,11 @@
     "VK": 37
   },
   "consolidatedAvg": 41,
-  "consolidatedRank": 157,
+  "consolidatedRank": 161,
   "traction": {
-    "tractionRank": 72,
-    "tractionScore": 47,
-    "tractionReason": "Pilot customers live"
+    "tractionRank": 90,
+    "tractionScore": 41,
+    "tractionReason": "Pilot customers live; counts undisclosed"
   },
   "paths": {
     "memo": "summer2026/memos/cerenovus.md",

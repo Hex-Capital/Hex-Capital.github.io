@@ -60,11 +60,11 @@
     "VK": 39
   },
   "consolidatedAvg": 57.14,
-  "consolidatedRank": 45,
+  "consolidatedRank": 46,
   "traction": {
-    "tractionRank": 28,
-    "tractionScore": 59,
-    "tractionReason": "Live U.S. and Canadian customers; 30+ integrations"
+    "tractionRank": 30,
+    "tractionScore": 69,
+    "tractionReason": "Live U.S. and Canadian customers with 30+ integrations"
   },
   "paths": {
     "memo": "summer2026/memos/rapidfolio.md",

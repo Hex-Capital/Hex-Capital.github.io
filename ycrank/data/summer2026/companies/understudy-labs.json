@@ -61,10 +61,10 @@
     "VK": 40
   },
   "consolidatedAvg": 50.86,
-  "consolidatedRank": 106,
+  "consolidatedRank": 110,
   "traction": {
-    "tractionRank": 96,
-    "tractionScore": 38,
+    "tractionRank": 106,
+    "tractionScore": 37,
     "tractionReason": "Private preview with small design-partner group"
   },
   "paths": {

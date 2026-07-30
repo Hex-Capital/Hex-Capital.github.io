@@ -61,11 +61,11 @@
     "VK": 43
   },
   "consolidatedAvg": 46.57,
-  "consolidatedRank": 134,
+  "consolidatedRank": 138,
   "traction": {
-    "tractionRank": 120,
-    "tractionScore": 30,
-    "tractionReason": "Invited-team access; no deployments disclosed"
+    "tractionRank": 95,
+    "tractionScore": 40,
+    "tractionReason": "Invited teams receiving demo-led onboarding"
   },
   "paths": {
     "memo": "summer2026/memos/osseus.md",

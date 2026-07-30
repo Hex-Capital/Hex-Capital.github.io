@@ -1,7 +1,7 @@
 {
   "slug": "trope",
   "name": "Trope",
-  "oneLiner": "Modernize ERP Implementations with AI",
+  "oneLiner": "The AI-native ERP systems integrator",
   "metadata": {
     "website": "https://trope.ai",
     "yc_page": "https://www.ycombinator.com/companies/trope",
@@ -9,62 +9,62 @@
     "industry": "B2B / B2B",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Artificial Intelligence, SaaS, B2B",
-    "yc_partner": "Jon Xu (YC company page)",
-    "emails": "No public data found"
+    "tags": "SaaS, B2B, AI",
+    "yc_partner": "Jon Xu",
+    "emails": "matthew@trope.ai"
   },
   "tags": [
-    "Artificial Intelligence",
     "SaaS",
-    "B2B"
+    "B2B",
+    "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-08T04:53:17.629Z",
+  "memoGeneratedAt": "2026-07-30T21:24:03.617Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 45,
+      "score": 53,
       "tier": "Neutral"
     },
+    "elad-gil": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 66,
+      "tier": "Invest"
+    },
     "peter-thiel": {
-      "score": 30,
+      "score": 44,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 27,
-      "tier": "Pass"
+      "score": 49,
+      "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 27,
+      "score": 42,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 33,
-    "EG": 39,
-    "NR": 33,
-    "PG": 45,
-    "PT": 30,
-    "SL": 27,
-    "VK": 27
+    "CB": 53,
+    "EG": 59,
+    "NR": 46,
+    "PG": 66,
+    "PT": 44,
+    "SL": 49,
+    "VK": 42
   },
-  "consolidatedAvg": 33.43,
-  "consolidatedRank": 67,
+  "consolidatedAvg": 51.29,
+  "consolidatedRank": 106,
   "traction": {
-    "tractionRank": 53,
-    "tractionScore": 11,
-    "tractionReason": "Team pedigree only, no customers disclosed"
+    "tractionRank": 94,
+    "tractionScore": 40,
+    "tractionReason": "Fixed-price implementations available; current customers undisclosed"
   },
   "paths": {
     "memo": "summer2026/memos/trope.md",

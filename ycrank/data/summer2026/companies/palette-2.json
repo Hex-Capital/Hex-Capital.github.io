@@ -60,11 +60,11 @@
     "VK": 38
   },
   "consolidatedAvg": 42,
-  "consolidatedRank": 155,
+  "consolidatedRank": 159,
   "traction": {
-    "tractionRank": 114,
-    "tractionScore": 31,
-    "tractionReason": "Paid access available; no customers disclosed"
+    "tractionRank": 143,
+    "tractionScore": 24,
+    "tractionReason": "Paid access available; no customer usage disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/palette-2.md",

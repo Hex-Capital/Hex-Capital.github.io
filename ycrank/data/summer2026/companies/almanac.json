@@ -58,10 +58,10 @@
     "VK": 39
   },
   "consolidatedAvg": 50.29,
-  "consolidatedRank": 112,
+  "consolidatedRank": 116,
   "traction": {
-    "tractionRank": 91,
-    "tractionScore": 41,
+    "tractionRank": 69,
+    "tractionScore": 50,
     "tractionReason": "743 GitHub stars and five displayed teams"
   },
   "paths": {

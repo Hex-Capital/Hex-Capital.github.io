@@ -62,11 +62,11 @@
     "VK": 61
   },
   "consolidatedAvg": 56.86,
-  "consolidatedRank": 46,
+  "consolidatedRank": 47,
   "traction": {
-    "tractionRank": 117,
+    "tractionRank": 125,
     "tractionScore": 31,
-    "tractionReason": "4,188 internal experiments; no customer traction"
+    "tractionReason": "4,188 internal experiments; no external users disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/hiloop.md",

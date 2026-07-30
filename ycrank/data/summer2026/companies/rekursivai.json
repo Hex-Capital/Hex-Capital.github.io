@@ -60,11 +60,11 @@
     "VK": 69
   },
   "consolidatedAvg": 59.14,
-  "consolidatedRank": 33,
+  "consolidatedRank": 34,
   "traction": {
-    "tractionRank": 110,
-    "tractionScore": 33,
-    "tractionReason": "Strong benchmarks; no commercial traction disclosed"
+    "tractionRank": 124,
+    "tractionScore": 31,
+    "tractionReason": "Strong benchmark results but no commercial usage disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/rekursivai.md",

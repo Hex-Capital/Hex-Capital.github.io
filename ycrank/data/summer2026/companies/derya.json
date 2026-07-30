@@ -62,10 +62,10 @@
     "VK": 43
   },
   "consolidatedAvg": 62,
-  "consolidatedRank": 12,
+  "consolidatedRank": 13,
   "traction": {
-    "tractionRank": 4,
-    "tractionScore": 87,
+    "tractionRank": 10,
+    "tractionScore": 82,
     "tractionReason": "$80K contracted revenue in first month"
   },
   "paths": {

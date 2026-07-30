@@ -59,11 +59,11 @@
     "VK": 34
   },
   "consolidatedAvg": 45,
-  "consolidatedRank": 143,
+  "consolidatedRank": 147,
   "traction": {
-    "tractionRank": 47,
-    "tractionScore": 54,
-    "tractionReason": "Multiple public games exceed 4,000 plays"
+    "tractionRank": 46,
+    "tractionScore": 61,
+    "tractionReason": "Leading games each recorded roughly 4,500–5,500 plays"
   },
   "paths": {
     "memo": "summer2026/memos/instaplay.md",

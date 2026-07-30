@@ -61,11 +61,11 @@
     "VK": 31
   },
   "consolidatedAvg": 47.29,
-  "consolidatedRank": 132,
+  "consolidatedRank": 136,
   "traction": {
-    "tractionRank": 65,
-    "tractionScore": 49,
-    "tractionReason": "Blume Equity and FoodLabs disclosed as customers"
+    "tractionRank": 63,
+    "tractionScore": 53,
+    "tractionReason": "Two disclosed investment-firm customers"
   },
   "paths": {
     "memo": "summer2026/memos/lato.md",

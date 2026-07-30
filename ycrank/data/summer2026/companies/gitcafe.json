@@ -59,11 +59,11 @@
     "VK": 46
   },
   "consolidatedAvg": 47.86,
-  "consolidatedRank": 129,
+  "consolidatedRank": 133,
   "traction": {
-    "tractionRank": 89,
-    "tractionScore": 42,
-    "tractionReason": "Engineers at eight named organizations"
+    "tractionRank": 55,
+    "tractionScore": 57,
+    "tractionReason": "Live beta used by engineers at eight organizations"
   },
   "paths": {
     "memo": "summer2026/memos/gitcafe.md",

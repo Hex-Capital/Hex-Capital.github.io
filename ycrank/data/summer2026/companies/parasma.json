@@ -62,9 +62,9 @@
   "consolidatedAvg": 63.71,
   "consolidatedRank": 7,
   "traction": {
-    "tractionRank": 145,
-    "tractionScore": 15,
-    "tractionReason": "Founder reported no product and no revenue"
+    "tractionRank": 129,
+    "tractionScore": 30,
+    "tractionReason": "Public demonstrations but explicitly no product or revenue"
   },
   "paths": {
     "memo": "summer2026/memos/parasma.md",

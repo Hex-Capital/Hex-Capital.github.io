@@ -60,11 +60,11 @@
     "VK": 51
   },
   "consolidatedAvg": 50.86,
-  "consolidatedRank": 105,
+  "consolidatedRank": 109,
   "traction": {
-    "tractionRank": 105,
+    "tractionRank": 114,
     "tractionScore": 35,
-    "tractionReason": "Licensed and live as Michigan care provider"
+    "tractionReason": "Licensed and live provider; customer count undisclosed"
   },
   "paths": {
     "memo": "summer2026/memos/cova.md",

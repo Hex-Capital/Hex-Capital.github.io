@@ -60,10 +60,10 @@
     "VK": 41
   },
   "consolidatedAvg": 50.43,
-  "consolidatedRank": 110,
+  "consolidatedRank": 114,
   "traction": {
-    "tractionRank": 79,
-    "tractionScore": 44,
+    "tractionRank": 91,
+    "tractionScore": 41,
     "tractionReason": "Onboarding first customers"
   },
   "paths": {

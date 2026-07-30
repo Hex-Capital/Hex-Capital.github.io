@@ -58,11 +58,11 @@
     "VK": 42
   },
   "consolidatedAvg": 58.57,
-  "consolidatedRank": 36,
+  "consolidatedRank": 37,
   "traction": {
-    "tractionRank": 74,
-    "tractionScore": 46,
-    "tractionReason": "Live agent purchases and $500 monthly promotion"
+    "tractionRank": 83,
+    "tractionScore": 43,
+    "tractionReason": "Live agent purchases and $500 monthly promotional pricing"
   },
   "paths": {
     "memo": "summer2026/memos/agentcard.md",

@@ -61,11 +61,11 @@
     "VK": 73
   },
   "consolidatedAvg": 53,
-  "consolidatedRank": 88,
+  "consolidatedRank": 91,
   "traction": {
-    "tractionRank": 87,
+    "tractionRank": 88,
     "tractionScore": 42,
-    "tractionReason": "Current hospitality deployment claimed"
+    "tractionReason": "Current hospitality deployment; customer and unit counts undisclosed"
   },
   "paths": {
     "memo": "summer2026/memos/os3.md",

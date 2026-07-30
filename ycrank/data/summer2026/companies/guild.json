@@ -62,11 +62,11 @@
     "VK": 43
   },
   "consolidatedAvg": 49.57,
-  "consolidatedRank": 117,
+  "consolidatedRank": 121,
   "traction": {
-    "tractionRank": 151,
-    "tractionScore": 9,
-    "tractionReason": "Funding and followers only"
+    "tractionRank": 147,
+    "tractionScore": 16,
+    "tractionReason": "Funding and followers only; no customers disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/guild.md",

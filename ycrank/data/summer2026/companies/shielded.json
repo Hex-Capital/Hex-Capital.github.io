@@ -62,11 +62,11 @@
     "VK": 37
   },
   "consolidatedAvg": 46.14,
-  "consolidatedRank": 136,
+  "consolidatedRank": 140,
   "traction": {
-    "tractionRank": 51,
-    "tractionScore": 52,
-    "tractionReason": "Three disclosed customer use cases"
+    "tractionRank": 39,
+    "tractionScore": 65,
+    "tractionReason": "Three disclosed customer use cases across operating industries"
   },
   "paths": {
     "memo": "summer2026/memos/shielded.md",

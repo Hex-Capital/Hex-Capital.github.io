@@ -61,11 +61,11 @@
     "VK": 42
   },
   "consolidatedAvg": 59,
-  "consolidatedRank": 35,
+  "consolidatedRank": 36,
   "traction": {
-    "tractionRank": 15,
-    "tractionScore": 72,
-    "tractionReason": "$500M receivables managed; 22K autonomous actions"
+    "tractionRank": 16,
+    "tractionScore": 77,
+    "tractionReason": "$500M+ receivables managed; 22,000 autonomous actions"
   },
   "paths": {
     "memo": "summer2026/memos/rex-inc.md",

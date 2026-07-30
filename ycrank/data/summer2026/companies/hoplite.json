@@ -60,11 +60,11 @@
     "VK": 39
   },
   "consolidatedAvg": 46.71,
-  "consolidatedRank": 133,
+  "consolidatedRank": 137,
   "traction": {
-    "tractionRank": 88,
-    "tractionScore": 42,
-    "tractionReason": "First business installation producing proactive fixes"
+    "tractionRank": 97,
+    "tractionScore": 40,
+    "tractionReason": "One reported business installation"
   },
   "paths": {
     "memo": "summer2026/memos/hoplite.md",

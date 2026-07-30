@@ -1,7 +1,7 @@
 {
   "slug": "baud",
   "name": "Baud",
-  "oneLiner": "AI training chips and developer platform",
+  "oneLiner": "AI chips for ultra-fast model training and inference",
   "metadata": {
     "website": "https://baudlabs.ai",
     "yc_page": "https://www.ycombinator.com/companies/baud",
@@ -9,62 +9,62 @@
     "industry": "Industrials / Industrials",
     "team_size": "3",
     "location": "San Francisco, CA, USA",
-    "tags": "Hard Tech, Hardware, AI",
+    "tags": "Hard Tech, Semiconductors, AI",
     "yc_partner": "Diana Hu",
     "emails": "No public data found"
   },
   "tags": [
     "Hard Tech",
-    "Hardware",
+    "Semiconductors",
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-06-29T06:13:09.728Z",
+  "memoGeneratedAt": "2026-07-30T21:24:33.910Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 61,
-      "tier": "Neutral"
+      "score": 71,
+      "tier": "Invest"
     },
     "elad-gil": {
-      "score": 38,
-      "tier": "Pass"
+      "score": 49,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "paul-graham": {
       "score": 57,
       "tier": "Neutral"
     },
+    "paul-graham": {
+      "score": 68,
+      "tier": "Invest"
+    },
     "peter-thiel": {
-      "score": 59,
-      "tier": "Neutral"
+      "score": 77,
+      "tier": "Invest"
     },
     "sam-lessin": {
-      "score": 21,
+      "score": 38,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 66,
+      "score": 76,
       "tier": "Invest"
     }
   },
   "consolidatedScores": {
-    "CB": 61,
-    "EG": 38,
-    "NR": 43,
-    "PG": 57,
-    "PT": 59,
-    "SL": 21,
-    "VK": 66
+    "CB": 71,
+    "EG": 49,
+    "NR": 57,
+    "PG": 68,
+    "PT": 77,
+    "SL": 38,
+    "VK": 76
   },
-  "consolidatedAvg": 49.29,
-  "consolidatedRank": 7,
+  "consolidatedAvg": 62.29,
+  "consolidatedRank": 12,
   "traction": {
-    "tractionRank": 50,
-    "tractionScore": 13,
-    "tractionReason": "50M param FPGA demo, private beta waitlist"
+    "tractionRank": 128,
+    "tractionScore": 30,
+    "tractionReason": "FPGA proof of concept and open design-partner program"
   },
   "paths": {
     "memo": "summer2026/memos/baud.md",

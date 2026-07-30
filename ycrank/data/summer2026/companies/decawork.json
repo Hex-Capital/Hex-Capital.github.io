@@ -60,11 +60,11 @@
     "VK": 37
   },
   "consolidatedAvg": 50.43,
-  "consolidatedRank": 108,
+  "consolidatedRank": 112,
   "traction": {
-    "tractionRank": 107,
-    "tractionScore": 34,
-    "tractionReason": "Enterprise production usage predates current positioning"
+    "tractionRank": 153,
+    "tractionScore": 11,
+    "tractionReason": "Only prior-product enterprise deployments disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/decawork.md",

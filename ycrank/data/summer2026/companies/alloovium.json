@@ -59,11 +59,11 @@
     "VK": 39
   },
   "consolidatedAvg": 53.29,
-  "consolidatedRank": 84,
+  "consolidatedRank": 87,
   "traction": {
-    "tractionRank": 50,
-    "tractionScore": 53,
-    "tractionReason": "Deployed across A$400M of active projects"
+    "tractionRank": 57,
+    "tractionScore": 56,
+    "tractionReason": "Deployed across A$400M+ of active construction projects"
   },
   "paths": {
     "memo": "summer2026/memos/alloovium.md",

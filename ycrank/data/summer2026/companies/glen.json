@@ -60,11 +60,11 @@
     "VK": 42
   },
   "consolidatedAvg": 53.71,
-  "consolidatedRank": 80,
+  "consolidatedRank": 83,
   "traction": {
-    "tractionRank": 80,
-    "tractionScore": 44,
-    "tractionReason": "Production deployment with teams onboarded from waitlist"
+    "tractionRank": 96,
+    "tractionScore": 40,
+    "tractionReason": "Production deployment onboarding teams from waitlist"
   },
   "paths": {
     "memo": "summer2026/memos/glen.md",

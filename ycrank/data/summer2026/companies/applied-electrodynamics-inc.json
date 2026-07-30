@@ -62,11 +62,11 @@
     "VK": 56
   },
   "consolidatedAvg": 61.29,
-  "consolidatedRank": 13,
+  "consolidatedRank": 14,
   "traction": {
-    "tractionRank": 133,
-    "tractionScore": 25,
-    "tractionReason": "Preorders open; count undisclosed"
+    "tractionRank": 130,
+    "tractionScore": 29,
+    "tractionReason": "Preorders open; order count undisclosed"
   },
   "paths": {
     "memo": "summer2026/memos/applied-electrodynamics-inc.md",

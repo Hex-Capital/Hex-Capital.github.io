@@ -60,11 +60,11 @@
     "VK": 46
   },
   "consolidatedAvg": 47.71,
-  "consolidatedRank": 130,
+  "consolidatedRank": 134,
   "traction": {
-    "tractionRank": 158,
+    "tractionRank": 161,
     "tractionScore": 3,
-    "tractionReason": "No customers, users, pilots, or revenue disclosed"
+    "tractionReason": "No customers, users, pilots, or processing volume"
   },
   "paths": {
     "memo": "summer2026/memos/stratum-industries.md",

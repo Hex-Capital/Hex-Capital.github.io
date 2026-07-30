@@ -59,11 +59,11 @@
     "VK": 46
   },
   "consolidatedAvg": 49.29,
-  "consolidatedRank": 120,
+  "consolidatedRank": 124,
   "traction": {
-    "tractionRank": 21,
-    "tractionScore": 66,
-    "tractionReason": "Thousands of production calls for named enterprises"
+    "tractionRank": 23,
+    "tractionScore": 73,
+    "tractionReason": "Thousands of production calls for named enterprise customers"
   },
   "paths": {
     "memo": "summer2026/memos/dialogus.md",

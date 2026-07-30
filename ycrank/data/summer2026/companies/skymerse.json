@@ -59,11 +59,11 @@
     "VK": 43
   },
   "consolidatedAvg": 61.14,
-  "consolidatedRank": 14,
+  "consolidatedRank": 15,
   "traction": {
-    "tractionRank": 10,
-    "tractionScore": 78,
-    "tractionReason": "Thousands of daily users; LOT Polish Airlines deployed"
+    "tractionRank": 12,
+    "tractionScore": 80,
+    "tractionReason": "3,500+ users and airline customers in production"
   },
   "paths": {
     "memo": "summer2026/memos/skymerse.md",

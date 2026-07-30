@@ -60,11 +60,11 @@
     "VK": 41
   },
   "consolidatedAvg": 43.86,
-  "consolidatedRank": 150,
+  "consolidatedRank": 154,
   "traction": {
-    "tractionRank": 130,
-    "tractionScore": 25,
-    "tractionReason": "Early access; no customer count disclosed"
+    "tractionRank": 136,
+    "tractionScore": 27,
+    "tractionReason": "Early access announced; usage undisclosed"
   },
   "paths": {
     "memo": "summer2026/memos/shepherd-3.md",

@@ -60,11 +60,11 @@
     "VK": 37
   },
   "consolidatedAvg": 54,
-  "consolidatedRank": 77,
+  "consolidatedRank": 80,
   "traction": {
-    "tractionRank": 14,
-    "tractionScore": 73,
-    "tractionReason": "80 properties live; earns 10% of booking revenue"
+    "tractionRank": 17,
+    "tractionScore": 76,
+    "tractionReason": "Live across 80 properties with 10% revenue-share pricing"
   },
   "paths": {
     "memo": "summer2026/memos/atlia.md",

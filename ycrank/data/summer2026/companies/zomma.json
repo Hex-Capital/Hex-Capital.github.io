@@ -62,11 +62,11 @@
     "VK": 41
   },
   "consolidatedAvg": 51.29,
-  "consolidatedRank": 103,
+  "consolidatedRank": 107,
   "traction": {
-    "tractionRank": 66,
-    "tractionScore": 49,
-    "tractionReason": "Multiple finance-sector customers, counts undisclosed"
+    "tractionRank": 89,
+    "tractionScore": 41,
+    "tractionReason": "Unnamed financial firms using production workflows"
   },
   "paths": {
     "memo": "summer2026/memos/zomma.md",

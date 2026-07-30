@@ -59,10 +59,10 @@
     "VK": 37
   },
   "consolidatedAvg": 52.71,
-  "consolidatedRank": 91,
+  "consolidatedRank": 94,
   "traction": {
-    "tractionRank": 126,
-    "tractionScore": 28,
+    "tractionRank": 120,
+    "tractionScore": 33,
     "tractionReason": "Commercial beta with negligible public repository usage"
   },
   "paths": {

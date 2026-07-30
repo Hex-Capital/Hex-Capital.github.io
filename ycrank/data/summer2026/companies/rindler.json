@@ -61,11 +61,11 @@
     "VK": 44
   },
   "consolidatedAvg": 50.43,
-  "consolidatedRank": 111,
+  "consolidatedRank": 115,
   "traction": {
-    "tractionRank": 62,
-    "tractionScore": 50,
-    "tractionReason": "Multiple workflows described as running in production"
+    "tractionRank": 52,
+    "tractionScore": 59,
+    "tractionReason": "Multiple enterprise web workflows running in production"
   },
   "paths": {
     "memo": "summer2026/memos/rindler.md",

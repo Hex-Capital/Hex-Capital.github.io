@@ -61,11 +61,11 @@
     "VK": 48
   },
   "consolidatedAvg": 58.43,
-  "consolidatedRank": 38,
+  "consolidatedRank": 39,
   "traction": {
-    "tractionRank": 104,
-    "tractionScore": 35,
-    "tractionReason": "Inspectors operating across seven Chinese provinces"
+    "tractionRank": 140,
+    "tractionScore": 26,
+    "tractionReason": "Inspectors cover seven provinces; no current customers disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/donkey.md",

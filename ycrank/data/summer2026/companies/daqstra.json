@@ -59,11 +59,11 @@
     "VK": 48
   },
   "consolidatedAvg": 60.57,
-  "consolidatedRank": 17,
+  "consolidatedRank": 18,
   "traction": {
-    "tractionRank": 48,
-    "tractionScore": 54,
-    "tractionReason": "Multiple aerospace deployments and signed industrial pilot"
+    "tractionRank": 58,
+    "tractionScore": 56,
+    "tractionReason": "Active aerospace deployments and signed industrial pilot"
   },
   "paths": {
     "memo": "summer2026/memos/daqstra.md",

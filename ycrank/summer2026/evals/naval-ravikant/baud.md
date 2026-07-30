@@ -1,0 +1,30 @@
+﻿# Baud -- Naval Ravikant Evaluation
+
+Eric Taylor’s four tape-outs and Sarang Zambare’s four patents make Baud a specific-knowledge company trapped inside a non-network architecture. Baud’s highest signal is rare founder-hardware fit; Baud’s lowest is that the next cluster customer does not automatically make the previous customer’s product better. The upside is invention leverage. The constraint is that invention is not distribution. Baud can create extraordinary silicon and still have to win every workload through capital, fabrication, and design-partner sales.
+
+Stack Overflow is the high rung for specific knowledge: developers building for developers after years inside the problem. Baud approaches that rung because Taylor brings more than a decade of ASIC work across NVIDIA, NXP, Arteris, and Enfabrica, while Zambare deployed ML across 100,000+ Peloton Guide devices and built at Caper before its Instacart acquisition. Baud diverges where Stack Overflow had public writing, organic users, and shipped code before the equity story. Baud has no public repositories, and its proof remains a 50M-parameter model trained on only 5M tokens. The knowledge is non-trainable. Its claimed frontier-scale consequence is not yet proven.
+
+Anchorage Digital’s weak network mechanism was tolerable because regulatory permission became a moat: each institutional customer did not improve custody for every other customer, but the OCC charter narrowed the field. Baud inherits the first half without the override. Baud’s unnumbered design-partner program creates workload learning and switching costs, not automatic user-added value; a new capacity reservation does not make an existing reservation more valuable. The model representation could eventually become a standard, but requiring every existing weight set to be retrained makes adoption friction compound before network value does.
+
+GlobalFoundries’ 12 nm process validation exposes Baud’s leverage problem over the next 18 months. Baud’s compiler and multiplier-free representation are permissionless code, but the product reaches users through ASIC tape-outs, operated clusters, reserved capacity, and scarce fabrication. That is capital leverage wearing a software layer. The FPGA service can replicate cheaply only until demand requires silicon. Baud’s unstated-pattern conflict is decisive: there is no open-source adoption, creator distribution, or organic technical community predating the round, while design-partner selling is the primary disclosed channel. Code creates the idea; capital delivers the product.
+
+The $63.22B projected 2030 accelerator market gives Baud genuine pivot-room across pretraining, fine-tuning, RL post-training, inference, compiler licensing, and hardware IP. Baud would fall a tier if its representation proved useful only for small models or required bespoke retraining for every architecture, turning a platform market into a narrow accelerator niche. Baud would rise a tier if the same compiler reliably converted multiple PyTorch model families and demonstrated an adjacent licensing path independent of Baud-operated clusters. The market is large enough for several mistakes. The current financing architecture may not be.
+
+Sarang Zambare’s prior SuperCraft product reportedly reached 20,000 users and 300,000 designs, giving Baud a faint Notion parallel: a founder willing to abandon one product and rebuild around deeper technical conviction. Baud shows intelligence and energy through the integrated compiler, distributed stack, FPGA cluster, and year-end tape-out schedule. Baud does not yet show the ten-year-partner evidence that Notion accumulated through repeated rebuilding: there is no public co-founder history, no account of how the SuperCraft transition treated users or collaborators, and no long-duration behavioral record for the Zambare-Taylor partnership. Integrity reads clean, but mostly because the dossier is silent.
+
+The 1,000+ tokens-per-second demonstration on a single U200 FPGA leads to a falsifiable forecast: by July 2029, Baud will have pivoted away from operating a broad training cloud and toward licensing its multiplier-free compiler and accelerator IP to one semiconductor or cloud partner, with less than $5M in annual recurring revenue. Baud’s specific knowledge can produce valuable intellectual property; Baud’s absent network and capital-heavy deployment make an independent cluster platform much harder. Hardware compounds slowly. Standards compound quickly. Baud must become the latter before financing the former.
+
+Four tape-outs, a working FPGA cluster, GlobalFoundries validation, and a market growing at 24.7% form the strongest bull case against that forecast. Baud could be the Anchorage-style exception: permissioned infrastructure becomes the moat, and requiring retraining becomes defensibility once the performance advantage is large enough. Baud could also resemble Perplexity, where exceptional specific knowledge and category timing overwhelm the missing network. The scale gap wins today: 50M parameters and 5M training tokens do not establish frontier economics, while Cerebras and Groq each report roughly $500M of 2025 revenue and Etched claims more than $1B in customer contracts. I do not write the check yet. I flip to Invest if Baud’s production silicon trains a model above one billion parameters at least five times cheaper per completed training run than H100-class infrastructure and secures reservations from three named AI laboratories.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Permissionless Leverage Architecture (Code or Media as Primary Distribution) | 9/28 |
+| Marketplace or Network with Compounding User-Added Value | 4/22 |
+| Founder Has Non-Trainable Specific Knowledge in the Domain | 19/20 |
+| Big Market with Room for Multiple Pivots Without Refinancing | 14/16 |
+| Founder Trio (Intelligence + Energy + Integrity) Reads as a 10-Year Partner | 11/14 |
+| **Total** | **57/100** |
+
+**Total Score: 57/100** (Neutral)

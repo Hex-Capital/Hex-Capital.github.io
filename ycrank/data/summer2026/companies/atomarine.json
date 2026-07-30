@@ -59,11 +59,11 @@
     "VK": 67
   },
   "consolidatedAvg": 56.43,
-  "consolidatedRank": 48,
+  "consolidatedRank": 49,
   "traction": {
-    "tractionRank": 129,
-    "tractionScore": 27,
-    "tractionReason": "Strong launch engagement; no operating deployment"
+    "tractionRank": 132,
+    "tractionScore": 28,
+    "tractionReason": "Strong launch engagement but no operating deployment"
   },
   "paths": {
     "memo": "summer2026/memos/atomarine.md",

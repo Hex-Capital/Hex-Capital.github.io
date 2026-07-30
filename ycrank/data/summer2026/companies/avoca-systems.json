@@ -60,10 +60,10 @@
     "VK": 40
   },
   "consolidatedAvg": 52.29,
-  "consolidatedRank": 93,
+  "consolidatedRank": 96,
   "traction": {
-    "tractionRank": 11,
-    "tractionScore": 77,
+    "tractionRank": 9,
+    "tractionScore": 83,
     "tractionReason": "Live across 250+ clinics"
   },
   "paths": {

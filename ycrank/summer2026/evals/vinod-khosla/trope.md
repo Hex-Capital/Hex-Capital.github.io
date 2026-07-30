@@ -1,0 +1,30 @@
+﻿# Trope -- Vinod Khosla Evaluation
+
+Trope moved from workflow guidance in May 2026 to implementation partners and then end-to-end ERP services by July. Trope’s highest dimension is founder learning rate; its lowest is capital fit. That pairing describes an agile automation consultancy searching rapidly for product-market fit, not a capital-hostile technology company capable of absorbing a Khosla-sized conviction bet. Trope may build a good business. “Good business” and “too important not to do” are different categories. I pass.
+
+**Slash** (2024) is the high rung for learning rate: a documented customer-driven pivot became the mechanism behind a $100M Series C. Trope shares the willingness to revise its thesis, moving from cross-application workflow guidance to partner tooling and then fixed-price Business Central delivery within roughly two months. Trope diverges where the analogy matters: Slash’s pivot had a public causal event and market validation, while Trope’s prior nonprofit tests—two-to-three-times faster completion and 90% fewer errors—belong to the previous product. Rapid motion is not automatically rapid learning. Without evidence identifying what Trope learned from customers, the transition could be search rather than adaptation.
+
+**DoorDash** (2013) exposed the low-rung capital-fit mechanism: capital-light execution gave me no special underwriting advantage, even though founder ambition ultimately created a $72B outcome. Trope is further down that axis today. Trope sells fixed-price implementations and separately priced managed agents, with no plant, fleet, foundation-model training program, or roadmap requiring even $50M before a commercial milestone. Any competent seed fund can finance the in-house harness and custom Business Central APIs. DoorDash earned its exception by reshaping consumer-commerce flow; Trope has not yet shown an equivalent consequence capable of overriding the weak capital fit.
+
+Trope CUA has 366 commits but only 27 stars and four forks. Over the next 18 months, Trope’s technical position compounds only if implementation mappings, reconciliation failures, tests, and exception histories become proprietary data that measurably lower delivery cost across customers. Trope currently discloses no deployment volume, while Microsoft gives consultants an agent designer using the same runtime and an AI Development Toolkit. That makes the required miracle commercial rather than scientific: Trope must accumulate workflow advantage faster than Microsoft distributes equivalent capabilities. A commodity model wrapped around consultant labor is not **Cognition**; it is a services margin with software vocabulary.
+
+The $16.1B Microsoft Dynamics services market could reach $37.6B by 2034, but Trope currently attacks a $2.3B Business Central consulting segment without threatening the underlying ERP. Trope therefore improves an incumbent implementation regime rather than collapsing one. The consequence score flips a full tier only if Trope proves that autonomous agents can eliminate most of the six-to-eighteen-month ERP implementation labor across SAP, Oracle, NetSuite, and Dynamics—not merely deliver Business Central projects in weeks. “Make a great company and the money takes care of itself” requires naming what economic mechanism breaks. Today Trope compresses consultant hours; it does not yet make the systems-integrator category disappear.
+
+**Physical Intelligence** (2024) paired frontier physical-AI ambition with Stanford’s Chelsea Finn and Berkeley’s Sergey Levine, researchers publicly challenging what robots could learn. Trope has capable outsiders: Matthew Chow shipped firmware at Tesla and Zipline, while Victor Vannara worked on LLM/RAG, MCP tooling, and distributed systems at Amazon. Trope’s lack of inherited ERP orthodoxy may help the founders question hourly implementation practices, but no documented controversial thesis, rejected expert prediction, or public commitment establishes defiance. Unnamed principal consultants with 200-plus implementations supply domain continuity; Trope’s founders have not yet demonstrated that they see something those experts believe impossible.
+
+Microsoft ends Dynamics GP support on December 31, 2029, creating a migration clock that rewards Trope’s learning speed without demanding large capital. By July 2029, I expect Trope to have pivoted primarily into white-label managed-agent tooling for Microsoft Dynamics partners and to generate $2M-$6M in ARR, while abandoning the ambition to become an end-to-end ERP implementation category leader. Trope’s partner program, fixed-price delivery, and rapid May-to-July repositioning point toward a capital-efficient channel product. The probable outcome is useful infrastructure for SIs, not a new economic regime.
+
+The $2.3B Business Central services market supplies the strongest bull mechanism: GP’s 2029 deadline creates forced demand, Trope can underprice hourly partners, and prior paid pilots suggest the founders can turn operational pain into working software. Trope could become another **Slash** exception, where exceptional learning rate overrides modest consequence and capital fit. The evidence that defeats that case today is substitution: Microsoft controls the platform, distributes custom-agent tooling, and can erase Trope’s feature advantage before Trope has disclosed one current-product deployment. I would reverse the pass if Trope reaches $1M ARR from at least ten independent implementation partners, with over 70% recurring managed-agent revenue and documented delivery labor reduced by at least 80%.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Consequence Magnitude If Company Wins | 11/30 |
+| Technical or Capital Risk That Repels Consensus VCs | 8/25 |
+| Founder Defies Documented Expert Consensus | 10/20 |
+| Founder Learning Rate, Demonstrated By Prior Pivot Or Thesis Update | 11/15 |
+| Required-Capital Profile Matches Khosla Check Size | 2/10 |
+| **Total** | **42/100** |
+
+**Total Score: 42/100** (Pass)

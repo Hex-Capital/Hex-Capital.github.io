@@ -61,11 +61,11 @@
     "VK": 40
   },
   "consolidatedAvg": 43,
-  "consolidatedRank": 152,
+  "consolidatedRank": 156,
   "traction": {
-    "tractionRank": 150,
-    "tractionScore": 10,
-    "tractionReason": "Product walkthrough available; no customers disclosed"
+    "tractionRank": 157,
+    "tractionScore": 6,
+    "tractionReason": "Demo booking available; no customers disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/kebra.md",

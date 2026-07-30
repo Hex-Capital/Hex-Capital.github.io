@@ -60,11 +60,11 @@
     "VK": 49
   },
   "consolidatedAvg": 57.86,
-  "consolidatedRank": 42,
+  "consolidatedRank": 43,
   "traction": {
-    "tractionRank": 144,
-    "tractionScore": 16,
-    "tractionReason": "Competition participation and award; no customers"
+    "tractionRank": 148,
+    "tractionScore": 15,
+    "tractionReason": "Competition recognition but no deployments disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/salem-robotics-inc.md",

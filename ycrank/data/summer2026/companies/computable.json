@@ -62,11 +62,11 @@
     "VK": 43
   },
   "consolidatedAvg": 53,
-  "consolidatedRank": 86,
+  "consolidatedRank": 89,
   "traction": {
-    "tractionRank": 118,
-    "tractionScore": 31,
-    "tractionReason": "First GPU auction launched; no completed trades"
+    "tractionRank": 117,
+    "tractionScore": 34,
+    "tractionReason": "First GPU auction opened; completed volume undisclosed"
   },
   "paths": {
     "memo": "summer2026/memos/computable.md",

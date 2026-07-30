@@ -59,10 +59,10 @@
     "VK": 42
   },
   "consolidatedAvg": 55,
-  "consolidatedRank": 62,
+  "consolidatedRank": 65,
   "traction": {
-    "tractionRank": 54,
-    "tractionScore": 52,
+    "tractionRank": 84,
+    "tractionScore": 43,
     "tractionReason": "15+ operators serving four U.S. sites"
   },
   "paths": {

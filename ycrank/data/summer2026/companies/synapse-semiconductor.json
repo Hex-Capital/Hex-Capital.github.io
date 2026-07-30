@@ -62,10 +62,10 @@
     "VK": 69
   },
   "consolidatedAvg": 60.57,
-  "consolidatedRank": 18,
+  "consolidatedRank": 19,
   "traction": {
-    "tractionRank": 109,
-    "tractionScore": 33,
+    "tractionRank": 110,
+    "tractionScore": 36,
     "tractionReason": "Working hardware with potential-partner interest"
   },
   "paths": {

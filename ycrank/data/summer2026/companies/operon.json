@@ -60,10 +60,10 @@
     "VK": 47
   },
   "consolidatedAvg": 53.86,
-  "consolidatedRank": 79,
+  "consolidatedRank": 82,
   "traction": {
-    "tractionRank": 63,
-    "tractionScore": 49,
+    "tractionRank": 73,
+    "tractionScore": 48,
     "tractionReason": "10,000+ industrial diagrams processed"
   },
   "paths": {

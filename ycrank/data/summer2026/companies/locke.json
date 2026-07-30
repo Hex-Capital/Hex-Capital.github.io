@@ -59,11 +59,11 @@
     "VK": 25
   },
   "consolidatedAvg": 45.71,
-  "consolidatedRank": 138,
+  "consolidatedRank": 142,
   "traction": {
-    "tractionRank": 73,
-    "tractionScore": 46,
-    "tractionReason": "First few partners; growing pipeline"
+    "tractionRank": 60,
+    "tractionScore": 55,
+    "tractionReason": "First few partners secured; pipeline growing"
   },
   "paths": {
     "memo": "summer2026/memos/locke.md",

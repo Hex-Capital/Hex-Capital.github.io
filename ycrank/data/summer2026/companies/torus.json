@@ -9,64 +9,64 @@
     "industry": "Industrials / Industrials",
     "team_size": "5",
     "location": "San Francisco, CA, USA",
-    "tags": "Artificial Intelligence, Construction, Energy, Enterprise Software, Industrial",
+    "tags": "Construction, Energy, Enterprise Software, AI, Industrial",
     "yc_partner": "Gustaf Alstromer",
     "emails": "hello@usetorus.com"
   },
   "tags": [
-    "Artificial Intelligence",
     "Construction",
     "Energy",
     "Enterprise Software",
+    "AI",
     "Industrial"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-09T16:03:28.675Z",
+  "memoGeneratedAt": "2026-07-30T21:22:13.645Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 48,
+      "score": 63,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 53,
+      "score": 62,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 46,
+      "score": 51,
       "tier": "Neutral"
     },
+    "paul-graham": {
+      "score": 67,
+      "tier": "Invest"
+    },
     "peter-thiel": {
-      "score": 46,
+      "score": 49,
       "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 38,
-      "tier": "Pass"
+      "score": 46,
+      "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 43,
-      "tier": "Pass"
+      "score": 51,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 48,
-    "EG": 53,
-    "NR": 43,
-    "PG": 46,
-    "PT": 46,
-    "SL": 38,
-    "VK": 43
+    "CB": 63,
+    "EG": 62,
+    "NR": 51,
+    "PG": 67,
+    "PT": 49,
+    "SL": 46,
+    "VK": 51
   },
-  "consolidatedAvg": 45.29,
-  "consolidatedRank": 11,
+  "consolidatedAvg": 55.57,
+  "consolidatedRank": 63,
   "traction": {
-    "tractionRank": 24,
-    "tractionScore": 36,
-    "tractionReason": "\"Multiple Fortune 500\" claim, no names"
+    "tractionRank": 32,
+    "tractionScore": 68,
+    "tractionReason": "Multiple Fortune 500 and major EPC deployments"
   },
   "paths": {
     "memo": "summer2026/memos/torus.md",

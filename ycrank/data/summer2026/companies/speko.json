@@ -60,11 +60,11 @@
     "VK": 34
   },
   "consolidatedAvg": 48.43,
-  "consolidatedRank": 128,
+  "consolidatedRank": 132,
   "traction": {
-    "tractionRank": 101,
-    "tractionScore": 36,
-    "tractionReason": "175 combined weekly package downloads"
+    "tractionRank": 119,
+    "tractionScore": 33,
+    "tractionReason": "Roughly 90 weekly downloads per principal package"
   },
   "paths": {
     "memo": "summer2026/memos/speko.md",

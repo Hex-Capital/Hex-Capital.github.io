@@ -62,11 +62,11 @@
     "VK": 48
   },
   "consolidatedAvg": 52.71,
-  "consolidatedRank": 90,
+  "consolidatedRank": 93,
   "traction": {
-    "tractionRank": 53,
-    "tractionScore": 52,
-    "tractionReason": "Spring pilots across three named schools"
+    "tractionRank": 80,
+    "tractionScore": 45,
+    "tractionReason": "Three named school pilots with strong continuation demand"
   },
   "paths": {
     "memo": "summer2026/memos/bloomy.md",

@@ -59,11 +59,11 @@
     "VK": 63
   },
   "consolidatedAvg": 59.14,
-  "consolidatedRank": 32,
+  "consolidatedRank": 33,
   "traction": {
     "tractionRank": 2,
-    "tractionScore": 95,
-    "tractionReason": "Seven-figure contracts with two leading AI labs"
+    "tractionScore": 96,
+    "tractionReason": "Seven-figure contracts with the two largest AI labs"
   },
   "paths": {
     "memo": "summer2026/memos/ooak-data.md",

@@ -59,11 +59,11 @@
     "VK": 43
   },
   "consolidatedAvg": 46.43,
-  "consolidatedRank": 135,
+  "consolidatedRank": 139,
   "traction": {
-    "tractionRank": 100,
-    "tractionScore": 37,
-    "tractionReason": "Five hotels joined waitlist within 48 hours"
+    "tractionRank": 135,
+    "tractionScore": 27,
+    "tractionReason": "Five hotels joined waitlist in 48 hours"
   },
   "paths": {
     "memo": "summer2026/memos/zaplar.md",

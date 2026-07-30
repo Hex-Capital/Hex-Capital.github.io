@@ -60,11 +60,11 @@
     "VK": 38
   },
   "consolidatedAvg": 48.43,
-  "consolidatedRank": 126,
+  "consolidatedRank": 130,
   "traction": {
-    "tractionRank": 138,
-    "tractionScore": 22,
-    "tractionReason": "Launch post engagement; no usage disclosed"
+    "tractionRank": 152,
+    "tractionScore": 12,
+    "tractionReason": "Launch engagement only; no usage disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/prized.md",

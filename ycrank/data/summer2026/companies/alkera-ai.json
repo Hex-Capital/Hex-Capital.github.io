@@ -62,11 +62,11 @@
     "VK": 42
   },
   "consolidatedAvg": 50.14,
-  "consolidatedRank": 113,
+  "consolidatedRank": 117,
   "traction": {
-    "tractionRank": 121,
-    "tractionScore": 30,
-    "tractionReason": "Benchmark leader; no customer traction disclosed"
+    "tractionRank": 115,
+    "tractionScore": 34,
+    "tractionReason": "Benchmark-leading product launched; no customers disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/alkera-ai.md",

@@ -59,11 +59,11 @@
     "VK": 47
   },
   "consolidatedAvg": 48.57,
-  "consolidatedRank": 125,
+  "consolidatedRank": 129,
   "traction": {
-    "tractionRank": 67,
-    "tractionScore": 49,
-    "tractionReason": "A few initial customers in closed alpha"
+    "tractionRank": 92,
+    "tractionScore": 40,
+    "tractionReason": "Few initial customers in closed alpha"
   },
   "paths": {
     "memo": "summer2026/memos/belvedir.md",

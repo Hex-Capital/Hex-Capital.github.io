@@ -60,11 +60,11 @@
     "VK": 56
   },
   "consolidatedAvg": 54.14,
-  "consolidatedRank": 76,
+  "consolidatedRank": 79,
   "traction": {
-    "tractionRank": 131,
-    "tractionScore": 25,
-    "tractionReason": "Three vulnerability demonstrations; no customers disclosed"
+    "tractionRank": 121,
+    "tractionScore": 32,
+    "tractionReason": "Demonstrated remediation of three named vulnerabilities"
   },
   "paths": {
     "memo": "summer2026/memos/palisade-2.md",

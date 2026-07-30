@@ -60,11 +60,11 @@
     "VK": 32
   },
   "consolidatedAvg": 41.57,
-  "consolidatedRank": 156,
+  "consolidatedRank": 160,
   "traction": {
-    "tractionRank": 64,
-    "tractionScore": 49,
-    "tractionReason": "Customers reportedly use platform daily"
+    "tractionRank": 93,
+    "tractionScore": 40,
+    "tractionReason": "Customers reportedly use platform daily; count undisclosed"
   },
   "paths": {
     "memo": "summer2026/memos/osmaura.md",

@@ -60,11 +60,11 @@
     "VK": 59
   },
   "consolidatedAvg": 59.57,
-  "consolidatedRank": 27,
+  "consolidatedRank": 28,
   "traction": {
-    "tractionRank": 143,
-    "tractionScore": 18,
-    "tractionReason": "Trade-show exhibition; no contracts disclosed"
+    "tractionRank": 149,
+    "tractionScore": 14,
+    "tractionReason": "Exhibition appearance; no contracts or deployments disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/earendil-robotics.md",

@@ -59,11 +59,11 @@
     "VK": 39
   },
   "consolidatedAvg": 56.43,
-  "consolidatedRank": 49,
+  "consolidatedRank": 50,
   "traction": {
-    "tractionRank": 38,
-    "tractionScore": 56,
-    "tractionReason": "40+ tools live across EHR and payer systems"
+    "tractionRank": 33,
+    "tractionScore": 68,
+    "tractionReason": "40+ tools live across EHRs and payers"
   },
   "paths": {
     "memo": "summer2026/memos/hubble-ai.md",

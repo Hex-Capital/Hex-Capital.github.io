@@ -62,11 +62,11 @@
     "VK": 63
   },
   "consolidatedAvg": 60.14,
-  "consolidatedRank": 22,
+  "consolidatedRank": 23,
   "traction": {
-    "tractionRank": 71,
-    "tractionScore": 47,
-    "tractionReason": "Warehouse deployment achieving 150 picks hourly"
+    "tractionRank": 86,
+    "tractionScore": 42,
+    "tractionReason": "One warehouse robot deployed at 150 picks hourly"
   },
   "paths": {
     "memo": "summer2026/memos/manifold-2.md",

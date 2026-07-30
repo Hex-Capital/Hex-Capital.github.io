@@ -64,9 +64,9 @@
   "consolidatedAvg": 62.86,
   "consolidatedRank": 10,
   "traction": {
-    "tractionRank": 31,
-    "tractionScore": 59,
-    "tractionReason": "320K downloads and 4,523 weekly SDK downloads"
+    "tractionRank": 19,
+    "tractionScore": 75,
+    "tractionReason": "320K+ downloads and 4,523 weekly SDK downloads"
   },
   "paths": {
     "memo": "summer2026/memos/onecli.md",

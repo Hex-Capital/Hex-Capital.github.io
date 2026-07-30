@@ -61,10 +61,10 @@
     "VK": 43
   },
   "consolidatedAvg": 54.14,
-  "consolidatedRank": 75,
+  "consolidatedRank": 78,
   "traction": {
-    "tractionRank": 136,
-    "tractionScore": 24,
+    "tractionRank": 118,
+    "tractionScore": 33,
     "tractionReason": "Deprecated CLI records 59 weekly downloads"
   },
   "paths": {

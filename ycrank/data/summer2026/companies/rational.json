@@ -59,11 +59,11 @@
     "VK": 41
   },
   "consolidatedAvg": 49.43,
-  "consolidatedRank": 118,
+  "consolidatedRank": 122,
   "traction": {
-    "tractionRank": 29,
-    "tractionScore": 59,
-    "tractionReason": "Processes 12,000 invoices per cycle for enterprise customer"
+    "tractionRank": 26,
+    "tractionScore": 71,
+    "tractionReason": "Processes 12,000 invoices per cycle for Global 500 customer"
   },
   "paths": {
     "memo": "summer2026/memos/rational.md",

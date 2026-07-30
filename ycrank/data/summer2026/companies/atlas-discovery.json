@@ -60,11 +60,11 @@
     "VK": 66
   },
   "consolidatedAvg": 51.71,
-  "consolidatedRank": 99,
+  "consolidatedRank": 102,
   "traction": {
-    "tractionRank": 108,
-    "tractionScore": 34,
-    "tractionReason": "Strong trial backtests; no customers disclosed"
+    "tractionRank": 122,
+    "tractionScore": 32,
+    "tractionReason": "Clinical-trial backtests; no commercial deployments disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/atlas-discovery.md",

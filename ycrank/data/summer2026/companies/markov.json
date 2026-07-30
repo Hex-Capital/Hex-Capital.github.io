@@ -60,11 +60,11 @@
     "VK": 45
   },
   "consolidatedAvg": 56,
-  "consolidatedRank": 58,
+  "consolidatedRank": 59,
   "traction": {
-    "tractionRank": 34,
-    "tractionScore": 57,
-    "tractionReason": "150K downloads and 10K computer-use hours"
+    "tractionRank": 28,
+    "tractionScore": 70,
+    "tractionReason": "150K+ downloads and 10,000+ computer-use hours"
   },
   "paths": {
     "memo": "summer2026/memos/markov.md",

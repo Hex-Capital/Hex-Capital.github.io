@@ -61,11 +61,11 @@
     "VK": 44
   },
   "consolidatedAvg": 53.71,
-  "consolidatedRank": 81,
+  "consolidatedRank": 84,
   "traction": {
-    "tractionRank": 56,
-    "tractionScore": 51,
-    "tractionReason": "Two named wholesale-distribution customers"
+    "tractionRank": 36,
+    "tractionScore": 66,
+    "tractionReason": "Two named customers with live wholesale workflows"
   },
   "paths": {
     "memo": "summer2026/memos/whitespace.md",

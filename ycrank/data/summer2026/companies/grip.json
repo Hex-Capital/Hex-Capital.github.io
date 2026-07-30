@@ -59,10 +59,10 @@
     "VK": 49
   },
   "consolidatedAvg": 53.43,
-  "consolidatedRank": 83,
+  "consolidatedRank": 86,
   "traction": {
-    "tractionRank": 155,
-    "tractionScore": 6,
+    "tractionRank": 160,
+    "tractionScore": 4,
     "tractionReason": "Team and YC participation only"
   },
   "paths": {

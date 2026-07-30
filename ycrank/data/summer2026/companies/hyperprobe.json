@@ -60,11 +60,11 @@
     "VK": 41
   },
   "consolidatedAvg": 56.14,
-  "consolidatedRank": 54,
+  "consolidatedRank": 55,
   "traction": {
-    "tractionRank": 55,
-    "tractionScore": 51,
-    "tractionReason": "Two current production customer testimonials"
+    "tractionRank": 74,
+    "tractionScore": 48,
+    "tractionReason": "Two named production debugging testimonials"
   },
   "paths": {
     "memo": "summer2026/memos/hyperprobe.md",

@@ -60,11 +60,11 @@
     "VK": 43
   },
   "consolidatedAvg": 50.43,
-  "consolidatedRank": 109,
+  "consolidatedRank": 113,
   "traction": {
-    "tractionRank": 49,
-    "tractionScore": 53,
-    "tractionReason": "Seven paid sign-ups; beta nearly full"
+    "tractionRank": 50,
+    "tractionScore": 60,
+    "tractionReason": "Seven paid sign-ups and beta nearly full"
   },
   "paths": {
     "memo": "summer2026/memos/gutgutgoose.md",

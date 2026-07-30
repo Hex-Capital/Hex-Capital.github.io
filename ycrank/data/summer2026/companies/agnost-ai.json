@@ -61,10 +61,10 @@
     "VK": 34
   },
   "consolidatedAvg": 53.86,
-  "consolidatedRank": 78,
+  "consolidatedRank": 81,
   "traction": {
-    "tractionRank": 30,
-    "tractionScore": 59,
+    "tractionRank": 27,
+    "tractionScore": 71,
     "tractionReason": "Processes 1M+ events daily across multiple teams"
   },
   "paths": {

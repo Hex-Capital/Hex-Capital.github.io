@@ -58,11 +58,11 @@
     "VK": 42
   },
   "consolidatedAvg": 45.29,
-  "consolidatedRank": 142,
+  "consolidatedRank": 146,
   "traction": {
-    "tractionRank": 140,
-    "tractionScore": 21,
-    "tractionReason": "200 interviews; no pilot or customer disclosed"
+    "tractionRank": 137,
+    "tractionScore": 27,
+    "tractionReason": "200 government interviews but no deployments disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/verdant.md",

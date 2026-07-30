@@ -64,9 +64,9 @@
   "consolidatedAvg": 64.71,
   "consolidatedRank": 5,
   "traction": {
-    "tractionRank": 68,
-    "tractionScore": 48,
-    "tractionReason": "Three named launch partners using Deploy"
+    "tractionRank": 56,
+    "tractionScore": 57,
+    "tractionReason": "Three named robotics launch partners"
   },
   "paths": {
     "memo": "summer2026/memos/agency-tool-company.md",

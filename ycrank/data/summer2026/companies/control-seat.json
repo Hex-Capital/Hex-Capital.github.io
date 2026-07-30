@@ -60,11 +60,11 @@
     "VK": 49
   },
   "consolidatedAvg": 58.29,
-  "consolidatedRank": 39,
+  "consolidatedRank": 40,
   "traction": {
-    "tractionRank": 69,
-    "tractionScore": 48,
-    "tractionReason": "Named production deployment at Battex Chile"
+    "tractionRank": 78,
+    "tractionScore": 46,
+    "tractionReason": "Named industrial deployment at Battex Chile"
   },
   "paths": {
     "memo": "summer2026/memos/control-seat.md",

@@ -58,10 +58,10 @@
     "VK": 36
   },
   "consolidatedAvg": 40.29,
-  "consolidatedRank": 158,
+  "consolidatedRank": 162,
   "traction": {
-    "tractionRank": 70,
-    "tractionScore": 48,
+    "tractionRank": 44,
+    "tractionScore": 62,
     "tractionReason": "$3.4M managed assets and 2,400 analyses"
   },
   "paths": {

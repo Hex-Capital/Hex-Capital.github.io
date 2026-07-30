@@ -62,11 +62,11 @@
     "VK": 41
   },
   "consolidatedAvg": 59.29,
-  "consolidatedRank": 30,
+  "consolidatedRank": 31,
   "traction": {
-    "tractionRank": 20,
-    "tractionScore": 67,
-    "tractionReason": "1,500 devices across five enterprises"
+    "tractionRank": 22,
+    "tractionScore": 73,
+    "tractionReason": "1,500+ devices deployed across five enterprises"
   },
   "paths": {
     "memo": "summer2026/memos/traceforce.md",

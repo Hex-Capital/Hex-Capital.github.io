@@ -63,9 +63,9 @@
   "consolidatedAvg": 66.86,
   "consolidatedRank": 2,
   "traction": {
-    "tractionRank": 52,
-    "tractionScore": 52,
-    "tractionReason": "Hardware pilots across four industrial sectors"
+    "tractionRank": 59,
+    "tractionScore": 55,
+    "tractionReason": "Pilot hardware deployed across four industrial sectors"
   },
   "paths": {
     "memo": "summer2026/memos/neuron-industries.md",

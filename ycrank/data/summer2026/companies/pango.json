@@ -61,11 +61,11 @@
     "VK": 34
   },
   "consolidatedAvg": 54.43,
-  "consolidatedRank": 71,
+  "consolidatedRank": 74,
   "traction": {
-    "tractionRank": 12,
-    "tractionScore": 76,
-    "tractionReason": "30 brands signed; 60% month-over-month growth"
+    "tractionRank": 13,
+    "tractionScore": 79,
+    "tractionReason": "30 brands and 60% month-over-month growth"
   },
   "paths": {
     "memo": "summer2026/memos/pango.md",

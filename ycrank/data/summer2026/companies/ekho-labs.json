@@ -58,11 +58,11 @@
     "VK": 40
   },
   "consolidatedAvg": 51.29,
-  "consolidatedRank": 101,
+  "consolidatedRank": 104,
   "traction": {
-    "tractionRank": 123,
-    "tractionScore": 29,
-    "tractionReason": "Seven confirmed forecasts; no customers disclosed"
+    "tractionRank": 139,
+    "tractionScore": 26,
+    "tractionReason": "Seven forecasts confirmed; no customers disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/ekho-labs.md",

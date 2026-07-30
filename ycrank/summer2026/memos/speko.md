@@ -4,79 +4,77 @@
 
 | Field | Value |
 |-------|-------|
-| Website | https://speko.ai |
+| Website | https://speko.ai/?utm_source=ycombinator&utm_medium=profile |
 | YC Page | https://www.ycombinator.com/companies/speko |
 | Batch | Summer 2026 |
 | Industry | B2B / B2B -> Infrastructure |
 | Team Size | 4 |
 | Location | San Francisco, CA, USA |
-| Tags | Artificial Intelligence, Developer Tools, Conversational AI |
-| YC Partner | Tyler Bosmeny (YC company page) |
-| Emails | founders@speko.ai (speko.ai website) |
+| Tags | Developer Tools, AI, Conversational AI |
+| YC Partner | Tyler Bosmeny |
+| Emails | founders@speko.ai, team@speko.ai ([Speko website](https://speko.ai/), [pricing page](https://speko.ai/pricing), Jul 2026) |
 
 ## The Idea
 
-- **Problem:** Voice-AI developers must integrate and maintain separate providers for STT, LLM, and TTS (OpenAI Realtime, ElevenLabs, Deepgram, AssemblyAI, Whisper, Google, Azure, Polly), each with unique APIs, auth, and pricing (speko.ai website; Medium overview of voice router landscape via search snippet).
-- **Approach:** Single unified API that continuously benchmarks 15+ STT/TTS/voice-to-voice providers on accuracy, latency and cost, then routes each call to the best stack per language with automatic failover (speko.ai; YC S26 search snippet).
-- **Differentiation:** vs OpenRouter — OpenRouter is text-focused and only recently added TTS/STT endpoints (openrouter.ai docs via search snippet); vs Inworld Router — Inworld emphasizes its own first-party inference and 220+ LLMs (inworld.ai/router via search snippet), while Speko positions as provider-agnostic routing across the full voice stack (speko.ai); vs Vapi/Retell/Bland — those are voice agent platforms rather than provider-routing gateways (bland.ai comparison via search snippet).
-- **Business Model:** [Inferred]: Usage-based credits with API-key auth and optional bring-your-own-provider-keys (speko.ai website); no public pricing tiers disclosed.
-- **TAM/SAM:** No public TAM/SAM data found for the voice-AI-gateway sub-segment; AgentMarketCap projects "$80B in labor savings by 2026" for voice AI agents replacing call-center work (AgentMarketCap, Apr 2026, via search snippet).
-- **GTM / Distribution:** [Inferred]: Developer-led adoption via TypeScript SDK (@spekoai/sdk), Python SDK (spekoai), MCP server with OAuth, and a LiveKit adapter (speko.ai website).
+- **Problem:** Voice-agent developers compare speech-to-text, language, and text-to-speech vendors through repeated bake-offs, after which subsequent model releases can leave deployed stacks tied to an outdated selection ([Launch YC](https://www.ycombinator.com/launches/SAF-speko-openrouter-for-voice), Jul 2026).
+- **Approach:** Speko benchmarks models by language, accuracy, latency, and cost, then uses those scores to choose each stage’s provider and fail over to ranked runners-up through one API key ([Speko website](https://speko.ai/), Jul 2026).
+- **Differentiation:** Unlike Vapi and Retell’s agent-building and operational platforms or LiveKit’s real-time application stack, Speko emphasizes published benchmark-scored routing across 56 providers and 159 models ([Speko website](https://speko.ai/), [Vapi announcement](https://www.globenewswire.com/news-release/2026/05/12/3292882/0/en/vapi-raises-50m-series-b-as-it-reaches-1-billion-calls-powering-the-next-generation-of-enterprise-voice-ai.html), [Retell announcement](https://www.retellai.com/blog/seed-announcement), [LiveKit](https://livekit.com/blog/livekit-series-c), Jul 2026).
+- **Business Model:** The public-preview pricing offers $100 signup credit, routing at provider cost plus 5%, Speko-hosted infrastructure at $0.09 per minute, and enterprise contracts with committed monthly minimums ([Speko pricing](https://speko.ai/pricing), Jul 2026).
+- **TAM/SAM:** The global AI voice-agent market was estimated at $2.54 billion in 2025 and forecast to reach $35.24 billion by 2033 at a 39.0% CAGR, while no public SAM estimate specific to Speko’s routing layer was found ([Grand View Research](https://www.grandviewresearch.com/industry-analysis/ai-voice-agents-market-report), 2026).
+- **GTM / Distribution:** Speko distributes through self-service API keys, TypeScript and Python SDKs, LiveKit and Pipecat adapters, a hosted MCP server, public benchmarks, and founder-led product demos ([Speko website](https://speko.ai/), [Speko documentation](https://docs.speko.dev/quickstart), Jul 2026).
 
 ## Defensibility
 
-- **Moat today:** Continuous cross-provider benchmarking dataset (accuracy/latency/cost per language) plus a claimed voice-native retrieval at 0.76ms across 100K documents (speko.ai website); SOC 2 and HIPAA compliance in progress (speko.ai).
-- **Future moat:** [Inferred]: Routing dataset compounds with usage — more calls yield more per-language/per-workload performance signal, raising switching costs for teams that tune to Speko's routing SLA.
-- **Market structure:** [Inferred]: Individual providers (Deepgram, ElevenLabs, OpenAI) face channel conflict routing customers to competitors, and voice-agent platforms (Vapi, Retell, Bland) have committed to opinionated stacks (bland.ai comparison, techsy.io via search snippets), leaving room for a neutral gateway.
-- **Commoditization risk:** OpenRouter has already extended into TTS/STT (openrouter.ai docs) and Inworld Router offers a $0-markup multi-model gateway with $117M raised (inworld.ai; BusinessWire, Jun 2026); LiteLLM, Portkey, Vercel AI Gateway are adjacent (inworld.ai comparison via search snippet).
+- **Moat today:** Speko operates seven dated public benchmark boards and integrations spanning 56 providers and 159 models, creating a measurement and integration-maintenance asset tied directly to routing ([Speko website](https://speko.ai/), Jul 2026).
+- **Future moat:** [Inferred]: Broader measurement coverage and accumulated provider-failure observations could improve selection and fallback quality, but neither a proprietary dataset nor a sustained routing advantage has been publicly demonstrated.
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** LiveKit already routes inference among model providers, while Vapi lets customers swap models and providers, demonstrating that funded adjacent platforms can implement overlapping abstraction and routing features ([LiveKit](https://livekit.com/blog/livekit-series-c), [Vapi](https://www.globenewswire.com/news-release/2026/05/12/3292882/0/en/vapi-raises-50m-series-b-as-it-reaches-1-billion-calls-powering-the-next-generation-of-enterprise-voice-ai.html), 2026).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Claimed ~340ms median conversational-turn latency and 0.76ms voice-native retrieval across 100K docs (speko.ai website).
-  - Two developer SDKs published (@spekoai/sdk TypeScript, spekoai Python) and an MCP server with OAuth (speko.ai).
-  - SOC 2 and HIPAA compliance "in progress" (speko.ai).
-  - Featured in "Stealth Startup Spy #353" newsletter (stealthstartupspy.substack.com via search snippet).
-  - No public revenue, customer counts, ARR, Product Hunt launch, press coverage, LinkedIn follower count, or Twitter follower count found.
-- **Competitors (up to 5):**
-  - Inworld Router ($117M+ raised at $500M valuation, revenue unknown; BusinessWire Jun 2026): $0-markup routing across 220+ LLMs with voice pipeline and first-party inference (inworld.ai/router).
-  - Vapi ($72M total, Series B led by Peak XV at ~$500M valuation, revenue unknown; TechCrunch May 2026): voice-agent orchestration platform, won Amazon Ring over 40 rivals (TechCrunch).
-  - Retell AI ($5.1M+ raised, revenue unknown; landbase.com via search snippet): managed low-latency voice agents with opinionated stack.
-  - Bland AI ($100M+ Series C, revenue unknown; bland.ai via search snippet): vertically integrated in-house STT/LLM/TTS for phone calls.
-  - OpenRouter (funding not confirmed in this pass, revenue unknown; openrouter.ai): text-first LLM gateway that added TTS/STT endpoints.
-- **Why now:** [Inferred]: Proliferation of specialized voice providers (OpenAI Realtime, ElevenLabs, Deepgram, AssemblyAI, Whisper, Google, Azure, Polly) crossed a threshold in 2025-2026 where per-language/per-workload performance varies enough that routing outperforms single-provider choice (Medium voice-router overview and inworld.ai comparison via search snippets).
+  - 219 LinkedIn followers and four listed employees ([LinkedIn](https://www.linkedin.com/company/speko-ai), Jul 2026).
+  - 90 weekly downloads for `@spekoai/mcp` ([npm](https://www.npmjs.com/package/%40spekoai/mcp), Jul 2026).
+  - 85 weekly downloads for `@spekoai/sdk` ([npm](https://www.npmjs.com/package/%40spekoai/sdk), Jul 2026).
+  - Two GitHub stars each for the TypeScript and Python SDK repositories ([SpekoAI GitHub](https://github.com/SpekoAI), Jul 2026).
+  - Zero jobs listed on the YC company page ([Y Combinator](https://www.ycombinator.com/companies/speko), Jul 2026).
+- **Competitors:**
+  - Vapi ($72M raised, revenue unknown): builds, deploys, and manages configurable enterprise voice agents, whereas Speko centers routing decisions on published model benchmarks ([Vapi](https://www.globenewswire.com/news-release/2026/05/12/3292882/0/en/vapi-raises-50m-series-b-as-it-reaches-1-billion-calls-powering-the-next-generation-of-enterprise-voice-ai.html), May 2026).
+  - LiveKit ($181.3M raised, revenue unknown): provides an open-source agent framework, global real-time network, and hosted inference layer, versus Speko’s model-gateway focus ([Forge](https://forgeglobal.com/livekit_stock/), [LiveKit](https://livekit.com/blog/livekit-series-c), Jan 2026).
+  - Bland AI (more than $100M raised, revenue unknown): develops its own voice models for complex enterprise calls, versus Speko’s aggregation of external providers ([Bland AI](https://www.bland.ai/blog/series-c), Jun 2026).
+  - Retell AI ($4.6M raised, $3M annualized revenue at announcement): focuses on guarded, monitored contact-center agents, versus Speko’s benchmark-based provider selection ([Retell AI](https://www.retellai.com/blog/seed-announcement)).
+- **Why now:** [Inferred]: Frequent model releases and 2025–2026 advances in real-time speech-to-speech systems increase the cost of static vendor selection and the utility of continuously updated routing ([Launch YC](https://www.ycombinator.com/launches/SAF-speko-openrouter-for-voice), [Speko LinkedIn](https://www.linkedin.com/company/speko-ai), Jul 2026).
 
 ## Founders & Team
 
-- **Beknazar Abdikamalov (Founder):**
-  - Background: MS and BS in Computer Science from UNIST, Korea; prior Software Engineer at Amazon; Co-founder/CTO at Hupo (leadership coaching, Singapore) which raised ~$4M from DST Global, Meta, Goodwater Capital, Collaborative Fund (Pivot.uz; Wisdom Ventures portfolio; balancethegrind.co interview); from Nukus, Uzbekistan; publicly documented "4 attempts to YC" before acceptance (Luma event page).
-  - Twitter/X: No public account found in search results.
-  - LinkedIn: Profile referenced via third-party post ("Beknazar Abdikamalov is the co-founder and CTO at Hupo" — linkedin.com/posts/vladimirnorov activity 7090895718218956800); headline not directly retrievable.
-  - GitHub: @beknazar with 47 repositories listed (github.com/beknazar); no notable star counts surfaced.
-- **Additional team (3 others):** No public data found on the other 3 team members listed in the YC team-size count; YC page lists only Beknazar Abdikamalov as founder.
-- **Co-founder relationship:** No public data on co-founder history — YC page lists a single founder.
-- **Founder-market fit:** Founder previously built and shipped a consumer/coaching product (Hupo) that raised institutional capital from DST Global and Meta, and holds a CS graduate degree plus Amazon engineering tenure (Pivot.uz; balancethegrind.co); no advisors or investors publicly disclosed for Speko.
+- **Beknazar Abdikamalov (Founder and CEO):**
+  - Background: MS and BS in Computer Science from UNIST, former Amazon software engineer, and former co-founder/CTO of Hupo, where he worked on voice-enabled AI products ([Y Combinator](https://www.ycombinator.com/companies/speko), [WEproject](https://weproject.media/articles/detail/it-predprinimatel-iz-uzbekistana-o-tom-kak-zapustil-startap-v-singapure-i-poluchil-investitsii-ot-me/), Jul 2026).
+  - Twitter/X: @beknabdik; count not retrievable ([X profile](https://x.com/beknabdik), Jul 2026).
+  - LinkedIn: “Founder at Speko (YC S26)” ([YC founder profile](https://www.ycombinator.com/companies/speko), Jul 2026).
+  - GitHub: No public personal repos found.
+- **Co-founder relationship:** YC lists one active founder, so no public co-founder history was found ([Y Combinator](https://www.ycombinator.com/companies/speko), Jul 2026).
+- **Founder-market fit:** Abdikamalov reports four years of selecting voice stacks by trial and error and previously served as Hupo’s CTO and an Amazon software engineer ([Launch YC](https://www.ycombinator.com/launches/SAF-speko-openrouter-for-voice), [Y Combinator](https://www.ycombinator.com/companies/speko), Jul 2026).
 
 ## Key Risks
 
-- **Well-funded incumbent gateways:** Inworld Router ($117M raised, $0-markup pricing, voice pipeline; BusinessWire Jun 2026) and OpenRouter's newly added TTS/STT endpoints (openrouter.ai docs) directly overlap Speko's positioning; no public differentiator on pricing or exclusive provider access found.
-- **Provider-platform substitution:** Voice-agent platforms Vapi ($72M, Amazon Ring win per TechCrunch May 2026), Retell, and Bland ($100M+) already bundle STT/LLM/TTS with orchestration, potentially removing the need for a routing layer for many buyers (bland.ai and techsy.io comparisons via search snippets).
-- **Solo-founder execution risk:** YC page lists a single founder for a 4-person team (ycombinator.com/companies/speko); no co-founder or CTO/CRO named in public sources, concentrating technical and GTM leadership on one person.
-- **Unverified performance claims:** The 0.76ms retrieval and ~340ms turn-latency figures are self-reported on the marketing site (speko.ai) with no third-party benchmark or customer reference published.
-- **Compliance gating:** SOC 2 and HIPAA are marked in progress rather than obtained (speko.ai), which can block healthcare and regulated enterprise pipelines that voice competitors (Bland, Vapi) already service.
+- **Overlapping infrastructure:** LiveKit already offers cross-provider inference routing and Vapi supports provider swapping, creating direct feature overlap; Speko’s mitigation is public, dated benchmark scoring across 56 providers ([LiveKit](https://livekit.com/blog/livekit-series-c), [Vapi](https://www.globenewswire.com/news-release/2026/05/12/3292882/0/en/vapi-raises-50m-series-b-as-it-reaches-1-billion-calls-powering-the-next-generation-of-enterprise-voice-ai.html), [Speko](https://speko.ai/), 2026).
+- **Benchmark portability:** Speko acknowledges that public leaderboards may use other users’ audio and conditions, so rankings may not transfer to a customer workload; language- and intent-specific selection plus route preview provide mitigation ([Launch YC](https://www.ycombinator.com/launches/SAF-speko-openrouter-for-voice), [Speko](https://speko.ai/), Jul 2026).
+- **Provider dependency:** Speko’s service aggregates externally hosted models and prices routing against provider rates, exposing it to provider pricing, availability, and API changes; ranked automatic failover reduces outage exposure ([Speko pricing](https://speko.ai/pricing), [Speko website](https://speko.ai/), Jul 2026).
+- **Voice-agent reliability:** A 2026 benchmark found voice agents completed 31–51% of clean-condition tasks and 26–38% under realistic noise and accent conditions, while provider failover does not itself correct behavioral or reasoning failures ([$\tau$-Voice paper](https://arxiv.org/abs/2603.13686), Mar 2026).
+- **Enterprise readiness:** Public-preview plans have no SLA and Speko states that its SOC 2 Type 1 report is in progress, although it reports HIPAA compliance since July 2026 ([Speko pricing](https://speko.ai/pricing), [Speko website](https://speko.ai/), Jul 2026).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | No public data found; adjacent claim of "$80B in labor savings by 2026" for voice AI agents (AgentMarketCap, Apr 2026). |
-| SAM | No public data found. |
-| Traction | ~340ms median turn latency, 0.76ms retrieval across 100K docs (speko.ai, self-reported); TypeScript + Python SDKs published (speko.ai); featured in Stealth Startup Spy #353 (substack, 2026). |
-| Revenue Signal | No public pricing page or revenue figure found; site references usage-based credits and bring-your-own-keys (speko.ai). |
-| Founders | Beknazar Abdikamalov (Founder): ex-Amazon SWE; Co-founder/CTO Hupo ($4M raised, DST Global/Meta/Goodwater/Collaborative Fund); MS/BS CS UNIST Korea. |
-| Competitors | Inworld Router ($117M raised at $500M val, revenue unknown, $0-markup 220+ LLM gateway with voice pipeline); Vapi ($72M raised, ~$500M val, revenue unknown, voice-agent orchestration); Retell AI ($5.1M+ raised, revenue unknown, managed low-latency voice agents); Bland AI ($100M+ Series C, revenue unknown, vertically integrated in-house voice stack); OpenRouter (funding unknown, revenue unknown, text LLM gateway extending into TTS/STT). |
-| Moat Signals | Cross-provider benchmarking dataset across 15+ providers and 10+ languages (speko.ai); 0.76ms voice-native retrieval claim (speko.ai); SOC 2 + HIPAA in progress (speko.ai). |
-| Risk Factors | Well-funded incumbent gateways (Inworld, OpenRouter), voice-agent platform substitution (Vapi/Retell/Bland), single named founder. |
-| Founder Reach | Beknazar Abdikamalov: Twitter no public account found, LinkedIn profile exists (headline not retrievable), GitHub @beknazar 47 repos (github.com). |
-| Distribution Signals | TypeScript SDK @spekoai/sdk and Python SDK spekoai published (speko.ai); MCP server with OAuth and LiveKit adapter shipped (speko.ai); no Product Hunt, Chrome Web Store, or app-store presence found. |
-| Emails | founders@speko.ai (speko.ai website). |
+| TAM | $2.54B global AI voice-agent market in 2025, forecast to $35.24B by 2033 at 39.0% CAGR (Grand View Research, 2026) |
+| SAM | No public data found |
+| Traction | 219 LinkedIn followers; four listed employees (LinkedIn, Jul 2026); 90 weekly MCP-package downloads and 85 weekly SDK downloads (npm, Jul 2026); two stars per principal SDK repository (GitHub, Jul 2026) |
+| Revenue Signal | $100 signup credit; provider rate plus 5% router fee; $0.09/minute hosted infrastructure; custom enterprise contracts (Speko pricing, Jul 2026) |
+| Founders | Beknazar Abdikamalov (Founder/CEO): UNIST MS and BS in Computer Science, former Amazon software engineer, former Hupo co-founder/CTO (Y Combinator, Jul 2026) |
+| Competitors | Vapi ($72M raised, revenue unknown, enterprise agent management); LiveKit ($181.3M raised, revenue unknown, real-time open-source/cloud stack); Bland AI (over $100M raised, revenue unknown, in-house voice models); Retell AI ($4.6M raised, $3M annualized revenue at announcement, contact-center operations) (company announcements and Forge, 2026) |
+| Moat Signals | Seven public benchmark boards covering 56 providers and 159 models, with benchmark-linked routing and failover (Speko website, Jul 2026) |
+| Risk Factors | Cross-provider routing overlap (LiveKit, Jan 2026), provider dependency (Speko pricing, Jul 2026), voice-agent task reliability (τ-Voice, Mar 2026) |
+| Founder Reach | No public data found |
+| Distribution Signals | 219 LinkedIn followers (LinkedIn, Jul 2026); 90 weekly MCP downloads and 85 weekly SDK downloads (npm, Jul 2026); two GitHub stars per principal SDK repository (GitHub, Jul 2026) |
+| Emails | founders@speko.ai, team@speko.ai (Speko website and pricing page, Jul 2026) |

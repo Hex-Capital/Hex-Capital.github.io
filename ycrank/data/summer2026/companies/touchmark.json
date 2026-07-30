@@ -1,7 +1,7 @@
 {
   "slug": "touchmark",
   "name": "Touchmark",
-  "oneLiner": "Prices AI by the value it delivers",
+  "oneLiner": "Solving AI pricing",
   "metadata": {
     "website": "https://touchmark.ai",
     "yc_page": "https://www.ycombinator.com/companies/touchmark",
@@ -10,7 +10,7 @@
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "Artificial Intelligence, Infrastructure",
-    "yc_partner": "Brad Flora (YC company page)",
+    "yc_partner": "Brad Flora",
     "emails": "No public data found"
   },
   "tags": [
@@ -18,52 +18,52 @@
     "Infrastructure"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-06-29T06:07:42.032Z",
+  "memoGeneratedAt": "2026-07-30T17:42:09.036Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 36,
-      "tier": "Pass"
+      "score": 45,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 40,
-      "tier": "Pass"
+      "score": 53,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 40,
-      "tier": "Pass"
+      "score": 54,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 48,
+      "score": 56,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 33,
+      "score": 41,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 25,
+      "score": 32,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 25,
+      "score": 39,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 36,
-    "EG": 40,
-    "NR": 40,
-    "PG": 48,
-    "PT": 33,
-    "SL": 25,
-    "VK": 25
+    "CB": 45,
+    "EG": 53,
+    "NR": 54,
+    "PG": 56,
+    "PT": 41,
+    "SL": 32,
+    "VK": 39
   },
-  "consolidatedAvg": 35.29,
-  "consolidatedRank": 56,
+  "consolidatedAvg": 45.71,
+  "consolidatedRank": 140,
   "traction": {
-    "tractionRank": 68,
-    "tractionScore": 6,
-    "tractionReason": "YC S26 admission, no other public metrics"
+    "tractionRank": 159,
+    "tractionScore": 2,
+    "tractionReason": "Coming soon; no product or traction"
   },
   "paths": {
     "memo": "summer2026/memos/touchmark.md",

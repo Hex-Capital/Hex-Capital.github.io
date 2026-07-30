@@ -1,6 +1,6 @@
 ﻿# Osmaura
 
-> We find new matter opportunities for law firms.
+> AI growth engine for law firms.
 
 | Field | Value |
 |-------|-------|
@@ -12,93 +12,70 @@
 | Location | San Francisco, CA, USA |
 | Tags | Sales Enablement, LegalTech, AI |
 | YC Partner | Jon Xu |
-| Emails | founders@osmaura.com |
+| Emails | founders@osmaura.com, kali@osmaura.com, jity@osmaura.com |
 
 ## The Idea
 
-- **Problem:** Law firm partners are under pressure to originate new work but lack "rainmaker"-level BD support because tracking latent legal-need signals and engaging prospects remains manual and expensive (osmaura.com, YC page).
-- **Approach:** Platform scans the web, news, and a firm's own internal CRM data to surface pitching and cross-sell opportunities, then routes each to the right partner ready to act (osmaura.com).
-- **Differentiation:** Versus Introhive ($99M raised, relationship-intelligence layer on top of CRM/InterAction, Crunchbase via search snippet) and Nexl ($23M Series B Oct 2025, full CRM/growth platform, LawSites Oct 2025), Osmaura positions as a partner-facing opportunity-surfacing tool combining external web/news signals with internal CRM rather than a CRM platform itself (osmaura.com).
-- **Business Model:** No public data found on pricing; [Inferred]: per-seat or per-partner SaaS subscription sold to law firms, consistent with the partner-level workflow described on osmaura.com.
-- **TAM/SAM:** Global legal technology market valued at $33.97B in 2025, projected to reach $77.93B by 2034 at 9.90% CAGR, with law firms holding ~53% revenue share (Grand View Research / Fortune Business Insights, 2025); no SAM published for the BD/matter-origination sub-segment.
-- **GTM / Distribution:** [Inferred]: direct sales to law firm partners and BD/marketing teams, supported by founder customer-discovery base of 100+ partners interviewed (YC page); no public partnerships, channel, or marketing data found.
+- **Problem:** Law-firm partners reportedly spend at least 10 hours each week pursuing new clients, while relying on personal networks and referrals without knowing which companies are approaching a legal need ([Y Combinator](https://www.ycombinator.com/companies/osmaura), Jul 2026).
+- **Approach:** Agents monitor public records, regulatory changes, litigation, hiring, funding, expansion and other company events, match those signals to a firm’s practices and relationships, and brief the appropriate partner on whom to contact and why ([Osmaura](https://www.osmaura.com/), Jul 2026).
+- **Differentiation:** Nexl and Intapp DealCloud center on CRM and relationship intelligence, while Lawmatics centers on intake and marketing automation; Osmaura instead searches for public events that may precede declared legal demand ([Osmaura](https://www.osmaura.com/), [Nexl](https://nexl.cloud/resources/nexl-vs-dealcloud-how-to-choose-between-a-legal-crm-and-deal-management-platform), [Intapp](https://www.intapp.com/dealcloud-legal-ppc/), [Lawmatics](https://www.lawmatics.com/legal-crm), Jul 2026).
+- **Business Model:** [Inferred]: A firm-level software subscription sold through custom demos is the likely monetization path because the website provides a “Book a call” CTA but no public pricing or self-service checkout ([Osmaura](https://www.osmaura.com/), Jul 2026).
+- **TAM/SAM:** The global law-firm CRM software proxy was estimated at $3.8 billion in 2025, including an implied $1.46 billion North American segment based on its 38.5% share, with a projected 10.2% CAGR through 2034 ([Dataintelo](https://dataintelo.com/report/global-law-firm-crm-software-market), 2026).
+- **GTM / Distribution:** [Inferred]: Distribution is founder-led sales to law-firm partners and business-development leaders because the website routes prospects to founder calls and the founders publicly solicit conversations with those roles ([Osmaura](https://www.osmaura.com/), [Jity Woldemichael on LinkedIn](https://www.linkedin.com/posts/tselote_lma-legaltech-activity-7475947824581529600-xgA4), Jul 2026).
 
 ## Defensibility
 
-- **Moat today:** No defensibility signals found in public sources beyond the founders' 100+ partner-interview discovery process (YC page).
-- **Future moat:** [Inferred]: proprietary signal-detection models trained on outcomes (which surfaced opportunities converted to matters) plus integration depth into firm CRMs (e.g., InterAction) could create data and switching-cost moats; unproven at pre-seed because no customer count, retention, or model performance data has been disclosed.
-- **Market structure:** [Inferred]: incumbents like Introhive and Nexl are oriented around CRM extension or replacement and monetize per-seat across BD/marketing teams, which may slow them from rebuilding around a partner-facing, signal-led origination workflow; not a hard structural barrier.
-- **Commoditization risk:** Any well-resourced legal CRM (Nexl, Introhive, Litera) or horizontal AI sales-intelligence vendor (Gong, People.ai, listed as Introhive competitors, LeadIQ via search snippet) could add web/news monitoring and opportunity routing on top of existing law-firm data footprints.
+- **Moat today:** Customer-specific profiles combine practice groups, prior deals, networks and internal firm context, creating a firm-specific data layer, but no patent, exclusive dataset or proprietary-model claim was found ([Y Combinator](https://www.ycombinator.com/companies/osmaura), Jul 2026).
+- **Future moat:** [Inferred]: Feedback on which surfaced opportunities convert into matters could create proprietary training data, but no conversion volume or outcome dataset has been disclosed.
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** Nexl already combines CRM, relationship intelligence and market data, while Intapp DealCloud uses AI to identify pursuits, relationship changes and competitive threats, giving established vendors a path to add event-triggered prospecting ([Nexl](https://nexl.cloud/resources/article-nexl-secures-23m-series-b-funding-to-accelerate-law-firm-growth-platform-innovation), [Intapp](https://www.intapp.com/dealcloud-legal-ppc/), Jul 2026).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Customer discovery: founders spoke with 100+ partners pre-launch (YC page).
-  - Press coverage: none found.
-  - Product Hunt: no listing found in search.
-  - Social: no public Osmaura LinkedIn or Twitter/X follower data retrieved in search.
-  - Hiring: 0 open roles on YC jobs page (YC page).
-  - Revenue / paying customers: no public data found.
-- **Competitors:**
-  - Nexl ($6.6M Series A Dec 2023 led by Shearwater Capital/EVP + $23M Series B Oct 2025 led by Tidemark Capital; >150 law-firm customers; ARR not disclosed; LawSites Oct 2025, Capital Brief): full CRM and growth platform for law firms vs. Osmaura's partner-facing opportunity surfacing.
-  - Introhive ($99M total raised across 8 rounds; latest $99M round Jun 16 2021; ARR not disclosed; Crunchbase / PitchBook via search snippet): relationship-intelligence layer extending CRMs like InterAction vs. Osmaura's external web/news + CRM hybrid.
-  - Litera Matter Management (part of Litera, private-equity backed; raise/ARR not disclosed in this research; Litera site via search snippet): Microsoft 365-native matter management vs. Osmaura's pre-matter origination focus.
-  - LexisNexis InterAction (Thomson Reuters/LexisNexis-owned legacy law-firm CRM; revenue unknown for this product line): incumbent contact/relationship CRM that Introhive and Nexl already extend or replace; Osmaura would sit alongside or on top of it.
-  - Darrow ("Justice Intelligence Platform" using GenAI/NLP on public data to detect violations; funding not captured in this research; Darrow.ai via search snippet): closest adjacent player surfacing legal opportunities, but oriented to plaintiff-side case sourcing rather than law-firm partner BD.
-- **Why now:** [Inferred]: LLM-driven extraction over unstructured web, news, and CRM text has only recently become accurate and cheap enough to reliably link external signals to specific partner practice areas, lowering the cost of "rainmaker-level" BD support the founders cite (YC page).
+  - Customers reportedly log into the platform daily, although no customer count was disclosed ([Y Combinator](https://www.ycombinator.com/companies/osmaura), Jul 2026).
+  - LinkedIn company page: 478 followers ([LinkedIn](https://www.linkedin.com/company/with-osmaura), Jul 2026).
+  - YC job listings: 0 ([Y Combinator](https://www.ycombinator.com/companies/osmaura), Jul 2026).
+- **Competitors (minimum 3, up to 5):**
+  - Nexl ($33 million in disclosed 2023 and 2025 rounds, revenue unknown): combines legal CRM, relationship intelligence, market data and firm-wide growth workflows rather than leading with pre-need public-event detection ([Nexl Series A](https://nexl.cloud/resources/article-nexl-secures-6-6m-series-a-to-modernize-the-business-of-law), [Nexl Series B](https://nexl.cloud/resources/article-nexl-secures-23m-series-b-funding-to-accelerate-law-firm-growth-platform-innovation)).
+  - Lawmatics ($12.5 million in disclosed seed and Series A funding, over $12 million ARR): automates lead intake, marketing and client follow-up after a prospect enters the funnel ([TechCrunch](https://techcrunch.com/2020/10/16/lawmatics-seed-funding/), [Lawmatics](https://www.lawmatics.com/blog/lawmatics-raises-10m-in-series-a-funding), [CEO interview](https://www.youtube.com/watch?v=imyyKi95r0c), Feb 2026).
+  - Intapp DealCloud (approximately $10 million raised before acquisition, revenue unknown): manages relationships, pursuits and opportunities within a broader professional-services CRM rather than specializing in latent legal-need signals ([Axios](https://www.axios.com/local/charlotte/2018/08/23/dealcloud-charlotte-nc-acquired-intapp-138182), [Intapp](https://www.intapp.com/dealcloud-legal-ppc/)).
+- **Why now:** [Inferred]: Law-firm GenAI use rose from 28% in 2025 to 41% in 2026, reducing the organizational novelty of deploying AI inside legal workflows ([Thomson Reuters](https://legal.thomsonreuters.com/blog/how-ai-is-transforming-the-legal-profession/), Jun 2026).
 
 ## Founders & Team
 
-- **Kali Abeje (Co-founder):**
-  - Background: Computer Science with public policy minor at MIT; 2x AWS intern; NLP/ML research with MIT Economics department and MIT GOV/LAB on argument extraction and policy prediction; long-standing interest in law and public institutions via debate and mock trial (search snippet of LinkedIn / founder bio).
-  - Twitter/X: No public account found in search.
-  - LinkedIn: profile referenced in search results; headline not retrieved.
-  - GitHub: No public repos found in search.
-- **Jity (Tselote) Woldemichael (Co-founder):**
-  - Background: CS at MIT; prior roles include SWE intern at Meta (built infra reducing network patching time from 6 hours to 2 minutes), SWE fellow at Jane Street, DRW SWE intern, MIT Senseable City Lab and MIT EAPS research, member of AppDev@MIT (LinkedIn /in/tselote via search snippet; RocketReach; mitappdev.com).
-  - Twitter/X: No public account surfaced; Instagram @thisisjity (Instagram).
-  - LinkedIn: "Co-Founder, Osmaura (YC S26)" at linkedin.com/in/tselote (search snippet).
-  - GitHub: @Jity01, 42 public repositories; no notable star count surfaced (github.com/Jity01).
-- **Co-founder relationship:** Both founders studied CS at MIT, indicating likely shared university origin (LinkedIn / search snippets); no public data on prior shared employer.
-- **Founder-market fit:** Technical CS/AI training at MIT (NLP research for Abeje; production SWE internships at Meta, Jane Street, DRW for Woldemichael) paired with Abeje's documented interest in law and public institutions, plus 100+ partner customer-discovery interviews underpinning the product thesis (YC page; search snippets); no advisors, board members, or named investors beyond YC disclosed publicly.
+- **Yeabkal “Kali” Abeje (Founder):**
+  - Background: Studied computer science and public policy at MIT, completed two AWS internships, and conducted NLP/ML research on argument extraction and policy prediction with MIT Economics and GOV/LAB ([Y Combinator](https://www.ycombinator.com/companies/osmaura), Jul 2026).
+  - Twitter/X: No public account found.
+  - LinkedIn: “Osmaura (YC S26),” with 829 followers ([LinkedIn](https://www.linkedin.com/in/yeabkal-abeje), Jul 2026).
+  - GitHub: @Yebe-Abe; screen-mem, bookmark-brain and NLP_Patios_Research_Codebase each had 1 star ([GitHub](https://github.com/Yebe-Abe), Jul 2026).
+- **Jity Woldemichael (Founder):**
+  - Background: Studied computer science at MIT, interned in software engineering at Meta, completed a Jane Street software-engineering fellowship, and conducted computational astrophysics research at MIT ([Y Combinator](https://www.ycombinator.com/companies/osmaura), Jul 2026).
+  - Twitter/X: No public account found.
+  - LinkedIn: “Osmaura (YC S26),” with approximately 3,000 followers ([LinkedIn](https://www.linkedin.com/in/tselote), Jul 2026).
+  - GitHub: @Jity01; basis had 3 stars ([GitHub](https://github.com/Jity01), Jul 2026).
+- **Co-founder relationship:** The founders describe themselves as friends from MIT who left the university in 2026 to work together full time ([Y Combinator](https://www.ycombinator.com/companies/osmaura), [Jity Woldemichael on LinkedIn](https://www.linkedin.com/posts/tselote_im-excited-to-share-that-osmaura-yc-s26-activity-7475947824581529600-j5BM), Jul 2026).
+- **Founder-market fit:** [Inferred]: Abeje’s policy-focused NLP work, Woldemichael’s infrastructure engineering, and their reported months of interviews with law-firm partners provide technical and customer-research experience relevant to the product ([Y Combinator](https://www.ycombinator.com/companies/osmaura), Jul 2026).
 
 ## Key Risks
 
-- **Incumbent encroachment:** Nexl raised a $23M Series B in October 2025 explicitly to fund AI growth-platform development and acquisitions for law firms (LawSites Oct 2025), and Introhive already integrates with InterAction to surface relationship signals (Introhive site via search snippet), creating direct overlap with Osmaura's opportunity-surfacing thesis with no disclosed Osmaura mitigation.
-- **No domain operator on founding team:** Both co-founders are recent MIT CS graduates without disclosed prior law-firm BD, legal, or enterprise sales experience (LinkedIn / search snippets); selling a partner-facing workflow tool into AmLaw firms typically requires partner-level relationships not evidenced in public sources.
-- **Long enterprise sales cycles to law firms:** Law firms are partnership-governed buyers with slow procurement; Osmaura has 2 people and 0 open hires (YC page), constraining parallel pursuit of multiple firms with no public pipeline or LOI data to mitigate.
-- **Data access dependency:** Product requires connecting to "internal firm CRM" (osmaura.com) such as InterAction or Nexl; vendors of those systems can restrict APIs or bundle competing features, and no public integrations or partnerships are disclosed as mitigation.
-- **Technical/accuracy risk:** Matching latent web/news signals to specific partner practice areas precisely enough to drive partner action is unproven at the required signal-to-noise ratio; no public performance, conversion, or accuracy metrics disclosed by Osmaura.
+- **Signal accuracy and trust:** Woldemichael stated that the underlying signals are noisy and that outputs must be trusted in high-stakes professional relationships; Osmaura mitigates this by matching signals against practice, relationship and firm context ([LinkedIn](https://www.linkedin.com/posts/tselote_im-excited-to-share-that-osmaura-yc-s26-activity-7475947824581529600-j5BM), [Osmaura](https://www.osmaura.com/), Jul 2026).
+- **Confidential-data handling:** The product can incorporate internal CRM and firm context, while the ABA identifies accuracy, reliability and data privacy as continuing concerns for legal AI; no public Osmaura security or compliance documentation was found ([Y Combinator](https://www.ycombinator.com/companies/osmaura), [ABA](https://www.americanbar.org/groups/law_practice/resources/tech-report/2024/2024-artificial-intelligence-techreport/)).
+- **Incumbent feature overlap:** Nexl and Intapp DealCloud already sell legal-specific relationship intelligence and AI-assisted opportunity management, allowing them to bundle overlapping capabilities into existing deployments ([Nexl](https://nexl.cloud/resources/article-nexl-secures-23m-series-b-funding-to-accelerate-law-firm-growth-platform-innovation), [Intapp](https://www.intapp.com/dealcloud-legal-ppc/)).
+- **Enterprise sales-cycle exposure:** The founders reported spending two months negotiating a contract with a major law firm before withdrawing, illustrating the amount of founder time a single procurement process can consume; they said they withdrew rather than commit months of additional attention ([Jity Woldemichael on LinkedIn](https://www.linkedin.com/in/tselote), Jul 2026).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Global legal tech $33.97B in 2025, $77.93B by 2034 at 9.90% CAGR (Grand View Research, 2025); $35.4B in 2025 to $78.1B by 2036 (Future Market Insights, 2025) |
-| SAM | No public data found |
-| Traction | 100+ partner customer-discovery interviews (YC page, 2026); 0 open jobs (YC page, 2026) |
+| TAM | Global law-firm CRM software proxy: $3.8B in 2025, projected 10.2% CAGR through 2034 ([Dataintelo](https://dataintelo.com/report/global-law-firm-crm-software-market), 2026) |
+| SAM | Implied North American law-firm CRM segment: $1.46B in 2025, calculated from a 38.5% regional share of the $3.8B global estimate ([Dataintelo](https://dataintelo.com/report/global-law-firm-crm-software-market), 2026) |
+| Traction | Customers reportedly use the platform daily; customer count undisclosed ([Y Combinator](https://www.ycombinator.com/companies/osmaura), Jul 2026) |
 | Revenue Signal | No public data found |
-| Founders | Kali Abeje (Co-founder): MIT CS + public policy, 2x AWS intern, MIT GOV/LAB NLP research. Jity (Tselote) Woldemichael (Co-founder): MIT CS, SWE intern at Meta, fellow at Jane Street, DRW SWE intern, AppDev@MIT. |
-| Competitors | Nexl ($29.6M+ raised total: $6.6M Series A Dec 2023 + $23M Series B Oct 2025, ARR unknown, 150+ law-firm customers, full CRM/growth platform); Introhive ($99M raised, ARR unknown, relationship-intelligence layer on CRM/InterAction); Litera Matter Management (PE-backed, ARR unknown, Microsoft 365-native matter management); LexisNexis InterAction (Thomson Reuters/LexisNexis-owned, revenue unknown, legacy law-firm CRM); Darrow (funding unknown, GenAI/NLP justice intelligence — adjacent, plaintiff-side). |
-| Moat Signals | No public data found |
-| Risk Factors | Incumbent encroachment (Nexl/Introhive), no domain operator on team, long law-firm sales cycles |
-| Founder Reach | Kali Abeje: Twitter not found, LinkedIn profile referenced but count not retrievable, GitHub not found. Jity Woldemichael: Twitter not found (Instagram @thisisjity), LinkedIn /in/tselote count not retrievable, GitHub @Jity01 42 repos. |
-| Distribution Signals | No public data found |
-| Emails | founders@osmaura.com (osmaura.com) |
-
-Sources:
-- [Osmaura](https://osmaura.com)
-- [Osmaura — Y Combinator](https://www.ycombinator.com/companies/osmaura)
-- [Jity Woldemichael — LinkedIn](https://www.linkedin.com/in/tselote)
-- [Jity01 — GitHub](https://github.com/Jity01)
-- [AppDev@MIT Team](https://www.mitappdev.com/team)
-- [Nexl $23M Series B — LawSites, Oct 2025](https://www.lawnext.com/2025/10/nexl-secures-23m-series-b-funding-to-accelerate-law-firm-growth-platform-innovation.html)
-- [Nexl $6.6M Series A — Capital Brief](https://www.capitalbrief.com/briefing/nexl-secures-66m-series-a-to-expand-crm-for-law-firms-04856192-29a6-41f6-8068-26d00bf812a8/)
-- [Introhive — PitchBook](https://pitchbook.com/profiles/company/55644-13)
-- [Introhive — Crunchbase](https://www.crunchbase.com/organization/introhive)
-- [Legal Technology Market — Grand View Research](https://www.grandviewresearch.com/industry-analysis/legal-technology-market-report)
-- [Legal Technology Market — Fortune Business Insights](https://www.fortunebusinessinsights.com/legal-technology-market-109527)
-- [LegalTech Market — Future Market Insights](https://www.futuremarketinsights.com/reports/legaltech-market)
-- [Nexl vs Introhive](https://nexl.cloud/resources/nexl-vs-introhive-full-crm-vs-client-intelligence)
-- [Darrow](https://www.darrow.ai/resources/ai-tools-for-lawyers)
-- [Litera Matter Management](https://www.litera.com/products/litera-matter-management)
+| Founders | Yeabkal “Kali” Abeje (Founder): MIT CS/public policy, two AWS internships, MIT NLP/ML research; Jity Woldemichael (Founder): MIT CS, Meta internship, Jane Street fellowship ([Y Combinator](https://www.ycombinator.com/companies/osmaura), Jul 2026) |
+| Competitors | Nexl ($33M disclosed rounds, revenue unknown, legal growth CRM); Lawmatics ($12.5M disclosed funding, $12M+ ARR, intake and marketing automation); Intapp DealCloud (~$10M raised before acquisition, revenue unknown, relationship and pursuit CRM) ([Nexl](https://nexl.cloud/resources/article-nexl-secures-23m-series-b-funding-to-accelerate-law-firm-growth-platform-innovation), [Lawmatics](https://www.lawmatics.com/blog/lawmatics-raises-10m-in-series-a-funding), [Axios](https://www.axios.com/local/charlotte/2018/08/23/dealcloud-charlotte-nc-acquired-intapp-138182)) |
+| Moat Signals | Firm-specific profiles combine practice, prior-deal, network and internal-context data ([Y Combinator](https://www.ycombinator.com/companies/osmaura), Jul 2026) |
+| Risk Factors | Noisy-signal accuracy, confidential-data handling, incumbent feature overlap ([LinkedIn](https://www.linkedin.com/posts/tselote_im-excited-to-share-that-osmaura-yc-s26-activity-7475947824581529600-j5BM), [ABA](https://www.americanbar.org/groups/law_practice/resources/tech-report/2024/2024-artificial-intelligence-techreport/), [Intapp](https://www.intapp.com/dealcloud-legal-ppc/)) |
+| Founder Reach | Kali Abeje: LinkedIn 829, GitHub top repo 1 star; Jity Woldemichael: LinkedIn ~3K, GitHub top repo 3 stars ([LinkedIn](https://www.linkedin.com/in/yeabkal-abeje), [GitHub](https://github.com/Yebe-Abe), [LinkedIn](https://www.linkedin.com/in/tselote), [GitHub](https://github.com/Jity01), Jul 2026) |
+| Distribution Signals | LinkedIn company page 478 followers; YC job listings 0 ([LinkedIn](https://www.linkedin.com/company/with-osmaura), [Y Combinator](https://www.ycombinator.com/companies/osmaura), Jul 2026) |
+| Emails | founders@osmaura.com, kali@osmaura.com, jity@osmaura.com ([Osmaura](https://www.osmaura.com/), [LinkedIn](https://www.linkedin.com/posts/tselote_lma-legaltech-activity-7475947824581529600-xgA4), Jul 2026) |

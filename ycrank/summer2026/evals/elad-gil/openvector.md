@@ -1,0 +1,30 @@
+﻿# OpenVector -- Elad Gil Evaluation
+
+$449 per month and a refundable $100 reservation make OpenVector a catalyst-rich but curve-poor physical-AI workflow company. OpenVector’s highest signal is the August 2025 Jetson Thor step-function: fivefold higher generative-model performance makes low-latency edge vision materially more practical. OpenVector’s lowest signal is buying behavior—undisclosed design partners, no reservation count, and no revenue curve distinguishable from a waitlist. That pairing says OpenVector may be skating for the puck technically, but has not shown that customers are skating there too.
+
+**Anduril** is the high rung for market re-opening because Ukraine changed defense procurement, while existing contracts proved the window was commercial rather than merely technical. OpenVector shares the mechanism: Jetson Thor can move real-time VLM inference from an expensive cloud experiment into a $6,499 offline station. OpenVector diverges because the catalyst is inferred, Spot AI and Ambient.ai were already selling camera intelligence before Jetson Thor, and no customer has said edge economics unlocked a previously impossible deployment. This is a credible re-opening below Anduril’s level, not steady-state TAM math—but the $12.63 billion market estimate does less work than OpenVector implies.
+
+**Harvey**-clone failure begins when a hot category already has funded leaders and the entrant substitutes pricing for velocity. OpenVector shows that pattern more than I want: Spot AI has raised $93 million, Coram AI $66 million, and Ambient.ai more than $72 million, while OpenVector discloses neither ARR nor repeat usage. OpenVector’s $100 refundable reservation is a false signal until it converts into shipped stations, retained locations, and expanding workflows. At pre-seed I do not require $1 million ARR, but I do require some evidence that OpenVector is “just working”; undisclosed design partners do not clear that bar.
+
+Andrey Gizdov’s CVPR 2025 work and Vishal Urlam’s MIT Grand Hack 2025 Google Prize can compound over 18 months if OpenVector turns research velocity into weekly customer-visible releases. Gizdov brings compute-efficient vision, Urlam brings IoT and physical-computing experience, and OpenVector already demonstrates camera events operating a POS or DRB SiteWatch rather than merely generating alerts. The missing Perplexity signal is iteration cadence: OpenVector names no sequence of prototypes, customer corrections, or features shipped between design-partner conversations. Technical artifacts put OpenVector above credential-only founders, but shipping history has not yet become an execution curve.
+
+Spot AI, Coram AI, and Ambient.ai make the index test unresolved because OpenVector currently has to win share against established camera-agent vendors rather than automatically benefit from every new camera deployment. OpenVector flips into an investable index position if its plain-English event-to-action layer becomes the integration rail across POS, access control, warehouse, and car-wash systems—something every vision model and camera vendor must touch. Evidence of five or more third-party platforms distributing OpenVector, or net expansion driven by customers adding workflows without founder involvement, would move the score materially. A 20-minute founder-led demonstration and direct station reservation do not yet constitute distribution.
+
+**Color Genomics** is the relevant single-anchor parallel: workflow infrastructure on top of commodity sequencing isolated the bet from the underlying science. OpenVector could similarly sit above increasingly commoditized vision models, using Gizdov’s predictive-coding and attention-driven sampling work to make deployments economical. OpenVector does not yet isolate one miracle cleanly, however: 92% confidence must be safe enough to trigger POS transactions, heterogeneous camera feeds must work reliably, integrations must remain operable, and customers must trust autonomous actions. That is closer to one validated capability plus difficult execution than a science project, but OpenVector still carries an accuracy miracle and a distribution miracle simultaneously.
+
+OpenVector will, by July 2029, narrow from “any camera” to car-wash or restaurant operations and reach $3 million–$7 million ARR, but will not become the horizontal action layer for enterprise video. OpenVector’s Jetson Thor timing and DRB SiteWatch demonstration are sufficient to create a viable vertical product; the absent revenue curve and crowded horizontal market make a Stripe-like index outcome unlikely. The mechanism is straightforward: deployment-specific integrations and error handling create useful vertical switching costs while preventing OpenVector from scaling as generic infrastructure.
+
+Andrey Gizdov’s CVPR publication, Vishal Urlam’s IoT background, and OpenVector’s working POS-action demonstration form the strongest bull case: OpenVector may be the **Color Genomics** exception, architecting workflow infrastructure above a hard technical layer while better-funded competitors remain trapped in security monitoring. That case stings because the camera-to-action distinction is real, and OpenVector could accumulate proprietary corrections before Spot AI or Ambient.ai reorganize around operations. The dossier still loses on the evidence that matters most to me: no named paying customer, no reservation count, no repeat-usage cohort, and no disclosed expansion across workflows. I would flip to Invest if OpenVector reaches $50,000 MRR with at least 20 deployed locations and greater than 20% monthly revenue growth for three consecutive months.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Market Re-Opening Via Specific Recent Catalyst | 18/28 |
+| Revenue Velocity or Usage Curve Already Visible | 8/25 |
+| Founder Ships Iteratively Between Conversations | 13/20 |
+| Index-Like Distribution Position On A Compounding Category | 9/15 |
+| Single-Miracle Architecture Rather Than Multi-Miracle Dependency | 7/12 |
+| **Total** | **55/100** |
+
+**Total Score: 55/100** (Neutral)

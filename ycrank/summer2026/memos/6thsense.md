@@ -8,97 +8,87 @@
 | YC Page | https://www.ycombinator.com/companies/6thsense |
 | Batch | Summer 2026 |
 | Industry | Industrials / Industrials -> Manufacturing and Robotics |
-| Team Size | 0 (4 founders listed on YC page) |
+| Team Size | 0 |
 | Location | San Francisco, CA, USA |
-| Tags | Artificial Intelligence, Robotics, Data Engineering |
+| Tags | Robotics, Big Data, AI |
 | YC Partner | Tyler Bosmeny |
-| Emails | No public data found |
+| Emails | alex@6thsense.dev |
 
 ## The Idea
 
-- **Problem:** Robot learning teams pursuing dexterous manipulation face datasets that "miss touch timing, pressure trends, and subtle adjustments," with standalone sensors and recording scripts failing calibration, synchronization, and dataset reliability requirements (6thsense.dev, 2026).
-- **Approach:** 6thSense integrates hardware, synchronization, calibration, and data packaging into one stack capturing eight aligned modalities — tactile/pressure, egocentric RGB, RGB-D depth, hand pose, IMU/motion, secondary cameras, labeled commentary, and success/failure tags (6thsense.dev, 2026).
-- **Differentiation:** Vs. Human Archive (gig-worker headsets, RGB-D + tactile gloves, India-based collection — TechCrunch, May 2026): 6thSense emphasizes integrated calibration/QC and a tighter eight-modality synchronized stack; vs. AGIBOT G2 open-source pipeline (Robot Report, 2026) and Genesis AI's proprietary tactile glove (Robot Report, 2026): 6thSense sells custom dataset services rather than open-sourcing or vertically integrating into a foundation model.
-- **Business Model:** [Inferred]: Per-engagement custom dataset contracts to robot learning teams, given the site frames the offering as "high-value datasets, not multi-month setup and QC work for each collection effort" (6thsense.dev, 2026); no pricing page is published.
-- **TAM/SAM:** Humanoid robot market sized at USD 6.24B–10.69B in 2026 (Fortune Business Insights; Future Market Insights, 2026); no public TAM/SAM data found for the tactile/egocentric robot-training-data segment specifically.
-- **GTM / Distribution:** [Inferred]: Direct sales to robotics labs and frontier-AI foundation-model teams working on dexterous manipulation, based on the site's targeting of "robot learning teams" for contact-rich tasks (6thsense.dev, 2026); no public GTM data found.
+- **Problem:** Robot-learning teams lack real-world demonstrations containing synchronized pressure, contact, grip, and pose data, while off-the-shelf sensors and recording scripts require teams to build, calibrate, and synchronize their own rigs ([6thSense website, Jul 2026](https://6thsense.dev/)).
+- **Approach:** 6thSense uses internally manufactured wearable tactile rigs and egocentric cameras to capture touch, pressure, RGB, depth, hand pose, IMU, labels, and task outcomes on one clock, then packages the recordings as model-ready episodes ([6thSense website, Jul 2026](https://6thsense.dev/)).
+- **Differentiation:** Unlike standalone sensors and DIY recording stacks, 6thSense supplies synchronized and calibrated episodes, while its sensors are designed as one-to-one analogues of tactile arrays intended for robot hands ([YC company page, Jul 2026](https://www.ycombinator.com/companies/6thsense)).
+- **Business Model:** The company says it sells multimodal data to dexterous-robot developers and is offering fully sensor-skinned robotic hands at cost for $4,000 per pair through a 20-place pilot ([YC company page, Jul 2026](https://www.ycombinator.com/companies/6thsense); [James Baek, LinkedIn, Jul 2026](https://www.linkedin.com/posts/james-baek1_6thsense-is-giving-out-full-hand-tactile-activity-7476595024709775360-NrFM)).
+- **TAM/SAM:** The robotic tactile-sensor market was estimated at $1.50 billion in 2025 and projected to reach $5.08 billion by 2031, a 22.5% CAGR ([LP Information, 2025](https://www.lpinformationdata.com/reports/1791523/robotic-tactile-sensors)).
+- **GTM / Distribution:** The company is contacting manipulation-model and robot developers directly, working with “a handful of teams,” and using an at-cost 20-place robotic-hand pilot to seed compatible hardware ([James Baek, LinkedIn, Jul 2026](https://www.linkedin.com/posts/james-baek1_after-leaving-georgia-tech-in-january-to-activity-7476073924280348672-lJIO); [James Baek, LinkedIn, Jul 2026](https://www.linkedin.com/posts/james-baek1_6thsense-is-giving-out-full-hand-tactile-activity-7476595024709775360-NrFM)).
 
 ## Defensibility
 
-- **Moat today:** No defensibility signals found in public sources beyond the integrated multimodal capture stack described on 6thsense.dev (2026); no IP, contracts, or exclusivity disclosed.
-- **Future moat:** [Inferred]: Proprietary calibrated tactile + egocentric corpus could accrue switching costs if customers fine-tune on 6thSense schemas; unproven because no customer count, dataset hours, or repeat-purchase data is public.
-- **Market structure:** [Inferred]: Vertically integrated foundation-model labs such as Physical Intelligence and Genesis AI have economic incentive to keep data collection in-house (Robot Report, 2026; TechCrunch, Mar 2026), limiting incumbent-substitution but also shrinking the addressable buyer set.
-- **Commoditization risk:** Replicable by adjacent data-services entrants — Human Archive (YC-backed, $8.2M seed, May 2026 — TechCrunch) and AGIBOT (open-source G2 pipeline — Robot Report, 2026) demonstrate that capture rigs and pipelines are being built by multiple teams concurrently.
+- **Moat today:** The company designs and manufactures its tactile devices in-house and integrates hardware, synchronization, calibration, labeling, and packaging into one capture stack ([YC company page, Jul 2026](https://www.ycombinator.com/companies/6thsense); [6thSense website, Jul 2026](https://6thsense.dev/)).
+- **Future moat:** [Inferred]: Repeated customer programs could produce proprietary tactile datasets, calibration knowledge, and hardware-to-model integrations, but no dataset size, repeat purchasing, or performance benchmark is public.
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** Researchers have published open-source tactile gloves and printable tactile sensors, while funded vendors including XELA, GelSight, Touchlab, and Tacta develop overlapping sensors or tactile-intelligence systems ([OSMO paper, Dec 2025](https://arxiv.org/abs/2512.08920); [Tom’s Hardware, Jan 2026](https://www.tomshardware.com/3d-printing/make-your-own-3d-printable-eflesh-scientists-share-plans-for-affordable-easy-to-produce-and-highly-tactile-robot-sensor-grips-can-be-printed-at-home)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - No public revenue, customer, or user counts found.
-  - No press coverage found in named publications.
-  - No Product Hunt, GitHub, Discord, or Slack presence identified.
-  - Twitter/X, LinkedIn company page follower counts: not retrievable.
-  - YC jobs page: hiring flag is False (YC company data, 2026).
-- **Competitors:**
-  - Human Archive ($8.2M seed from Wing VC, NVP, YC, and angels from OpenAI/Nvidia/Google — Pulse2, May 2026; revenue unknown): also targets tactile + egocentric data, uses gig workers and >1,000 deployed headsets vs. 6thSense's integrated capture stack (TechCrunch, May 2026).
-  - Physical Intelligence (~$1.07B raised; in talks for $1B at >$11B valuation — TechCrunch, Mar 2026; revenue unknown): vertically integrated foundation-model lab (pi-0.5, 3B params) that collects its own data rather than buying datasets (Robot Report, 2026).
-  - Genesis AI (funding undisclosed; revenue unknown): proprietary tactile-sensing glove with 1:1:1 glove–hand–robot mapping and in-house dataset generation (Robot Report, 2026).
-  - AGIBOT (revenue unknown; raised funding undisclosed in available sources): open-sourced G2 multi-modal dataset (RGB-D, tactile, lidar, IMU) — competes by giving similar modalities away free (Robot Report, 2026).
-  - Linkerbot (~$217M raised — RAISE Summit, 2026; revenue unknown): hardware-first dexterous-hand manufacturer rather than dataset vendor; adjacent rather than direct.
-- **Why now:** [Inferred]: Frontier robotics labs publicly state that "the next performance gains come from better multimodal demonstrations, not model scale alone" (6thsense.dev, 2026), and Human Archive's May 2026 funding plus Physical Intelligence's $11B March-2026 round indicate capital is flowing into physical-AI data infrastructure within the last 12 months (TechCrunch, May & Mar 2026).
+  - Working with “a handful of teams” ([James Baek, LinkedIn, Jul 2026](https://www.linkedin.com/posts/james-baek1_after-leaving-georgia-tech-in-january-to-activity-7476073924280348672-lJIO)).
+  - Twenty-place pilot for $4,000-per-pair sensor-skinned robotic hands ([James Baek, LinkedIn, Jul 2026](https://www.linkedin.com/posts/james-baek1_6thsense-is-giving-out-full-hand-tactile-activity-7476595024709775360-NrFM)).
+  - 455 LinkedIn company followers and six listed employees ([LinkedIn company page, Jul 2026](https://www.linkedin.com/company/6thsenseai)).
+  - Zero active YC job listings ([YC company page, Jul 2026](https://www.ycombinator.com/companies/6thsense)).
+- **Competitors (minimum 3, up to 5):**
+  - Tacta Systems ($75 million raised, revenue unknown): combines tactile hardware, software, and dexterous-intelligence models rather than primarily selling captured training data ([Tacta Systems, Jun 2025](https://www.tactasystems.com/news/tacta-systems-announces-funding)).
+  - GelSight ($23.2 million raised, revenue unknown): commercializes camera-based tactile sensors and measurement systems rather than wearable multimodal demonstrations ([Owler, Jul 2026](https://www.owler.com/company/gelsight/funding)).
+  - Touchlab ($4.8 million raised, revenue unknown): develops tri-axial electronic skin and remote tactile sensing for robots rather than 6thSense’s aligned human-demonstration episodes ([Touchlab company presentation, 2026](https://www.touchlab.io/_files/ugd/3d73f8_2941d745d9eb44d0b0641cd8eff7d048.pdf?index=true)).
+  - XELA Robotics ($0.1 million disclosed, revenue unknown): sells uSkin high-density three-axis tactile sensors and integration services for robot hands and grippers ([CB Insights, Jul 2026](https://www.cbinsights.com/company/xela-robotics)).
+- **Why now:** [Inferred]: Open-source tactile gloves appeared in late 2025 and robotics companies were scaling real-world training-data collection during 2025, creating both enabling hardware and demand for modalities beyond vision ([OSMO paper, Dec 2025](https://arxiv.org/abs/2512.08920); [TIME, Oct 2025](https://time.com/7324233/figure-03-robot-humanoid-reveal/)).
 
 ## Founders & Team
 
 - **James Baek (Co-Founder & CEO):**
-  - Background: Listed as CEO on YC page (ycombinator.com/companies/6thsense, 2026); no public education, prior-employer, or domain-expertise records were retrievable in searches.
+  - Background: Georgia Tech biomedical engineering and biochemistry studies, founding member at telemedicine company Ibebu, US Army security work, and an exited six-figure content business ([YC company page, Jul 2026](https://www.ycombinator.com/companies/6thsense)).
   - Twitter/X: No public account found.
-  - LinkedIn: No public profile confirmed for this James Baek (multiple unrelated namesakes returned in search).
-  - GitHub: No public repos found tied to this individual.
-- **Ronak Agarwal (Founder):**
-  - Background: Listed as founder on YC page (ycombinator.com/companies/6thsense, 2026); GitHub handle @ronak-agarwal exists in search results but cannot be confirmed as this Ronak Agarwal; no other public records confirmed.
-  - Twitter/X: No public account confirmed.
-  - LinkedIn: No public profile confirmed (multiple unrelated namesakes returned).
-  - GitHub: @ronak-agarwal exists per search results (github.com), confirmation to this founder not retrievable; star count not retrievable.
-- **Alex Hyungwoo Noh (Founder):**
-  - Background: Listed as founder on YC page (ycombinator.com/companies/6thsense, 2026); a "Hyungwoo Noh" LinkedIn profile (Chicago, IL) surfaced but cannot be confirmed as the same individual.
-  - Twitter/X: No public account found.
-  - LinkedIn: "Hyungwoo Noh – Chicago, Illinois" (linkedin.com/in/hyungwoonoh/) — identity match not confirmed.
+  - LinkedIn: “Founder & CEO at 6thSense”; 1,796 followers ([LinkedIn, Jul 2026](https://www.linkedin.com/posts/james-baek1_after-leaving-georgia-tech-in-january-to-activity-7476073924280348672-lJIO)).
   - GitHub: No public repos found.
-- **Matt Wulff (Founder):** Listed as founder on YC page (ycombinator.com/companies/6thsense, 2026); multiple Matt Wulff LinkedIn profiles surfaced (including one at Tesla/Skygauge) but none confirmed as the 6thSense founder; Twitter, GitHub: no public data found.
-- **Co-founder relationship:** No public data on co-founder history.
-- **Founder-market fit:** [Inferred]: No verifiable public background data on the four founders was retrievable, so prior robotics/tactile-sensing credentials cannot be confirmed; no advisors, board members, or named investors beyond YC found.
+- **Ronak Agarwal (Founder):**
+  - Background: Georgia Tech computer science and economics, DoorDash and Amazon software internships, and payment-routing infrastructure work at Qard ([YC company page, Jul 2026](https://www.ycombinator.com/companies/6thsense)).
+  - Twitter/X: No public account found.
+  - LinkedIn: “6thSense (YC S26)”; 2,000 followers and 500+ connections ([LinkedIn, Jul 2026](https://www.linkedin.com/in/ronak-agarwal9)).
+  - GitHub: @ronaks-code, with 11 repositories and two profile stars; `bin-vision` is the first listed repository ([GitHub, Jul 2026](https://github.com/ronaks-code)).
+- **Alex Hyungwoo Noh (Founder):**
+  - Background: University of Chicago computer science and economics, founder of an MCP-security startup, ROK Army HR-AI work, and a Samsung HumanTech research award ([YC company page, Jul 2026](https://www.ycombinator.com/companies/6thsense); [LinkedIn, Jul 2026](https://www.linkedin.com/in/hyungwoonoh)).
+  - Twitter/X: No public account found.
+  - LinkedIn: “6thSense”; 871 followers and 500+ connections ([LinkedIn, Jul 2026](https://www.linkedin.com/in/hyungwoonoh)).
+  - GitHub: No public repos found.
+- **Matt Wulff (Founder):**
+  - Background: Led vision-guided robotics manufacturing engineering at Tesla and tactile-data capture at Mecka AI ([YC company page, Jul 2026](https://www.ycombinator.com/companies/6thsense)).
+  - Twitter/X: Account linked from YC; count not retrievable.
+  - LinkedIn: “Founder of 6thSense (YC S26)” ([YC company page, Jul 2026](https://www.ycombinator.com/companies/6thsense)).
+  - GitHub: No public repos found.
+- **Co-founder relationship:** James Baek described Hyungwoo Noh, Ronak Agarwal, and Matt Wulff as his “best friends,” while Baek and Agarwal both attended Georgia Tech ([James Baek, LinkedIn, Jul 2026](https://www.linkedin.com/posts/james-baek1_after-leaving-georgia-tech-in-january-to-activity-7476073924280348672-lJIO); [YC company page, Jul 2026](https://www.ycombinator.com/companies/6thsense)).
+- **Founder-market fit:** The team’s documented experience spans Tesla vision-guided robotics, Mecka tactile-data capture, Samsung-sponsored bio/ML research, and backend infrastructure at DoorDash and Amazon ([YC company page, Jul 2026](https://www.ycombinator.com/companies/6thsense)).
 
 ## Key Risks
 
-- **Buyer concentration / vertical integration by customers:** Physical Intelligence raised ~$1.07B to date and operates in-house data collection (TechCrunch, Mar 2026); Genesis AI built proprietary tactile gloves (Robot Report, 2026), meaning the largest potential customers may build rather than buy, shrinking 6thSense's addressable market. No mitigation disclosed.
-- **Direct YC-backed competitor with capital lead:** Human Archive (YC + Wing VC + NVP, $8.2M seed, May 2026 — Pulse2) is pursuing the same tactile + egocentric data thesis with >1,000 deployed headsets already (TechCrunch, May 2026); 6thSense has no public funding or deployment numbers to counterweight.
-- **Commoditization via open-source datasets:** AGIBOT World 2026 dataset is open-sourced with overlapping modalities (RGB-D, tactile, IMU — Robot Report, 2026), which can erode willingness to pay for commercial multimodal datasets.
-- **Founder verifiability gap:** Four founders are listed on the YC page but none of their backgrounds (education, prior roles, publications) are confirmable in public search (YC page, 2026; web searches), creating diligence risk that domain expertise in tactile sensing or robotics has not been independently validated.
-- **Technical feasibility — eight-modality calibration at scale:** The product hinges on per-channel calibration, drift documentation, and synchronization across eight modalities (6thsense.dev, 2026); no third-party benchmark, customer reference, or technical publication is public to validate that the stack delivers the claimed reliability.
+- **Transferability:** The company says its data transfers one-to-one to sensor-skinned robot hands, but a prospective user publicly asked for benchmarks on tendon-driven hands and no such benchmark was supplied in the public thread ([James Baek, LinkedIn, Jul 2026](https://www.linkedin.com/posts/james-baek1_6thsense-is-giving-out-full-hand-tactile-activity-7476595024709775360-NrFM)).
+- **Open-source substitution:** OSMO provides an open-source tactile glove for human-to-robot skill transfer, and eFlesh publishes printable tactile-sensor fabrication files and software ([OSMO paper, Dec 2025](https://arxiv.org/abs/2512.08920); [Tom’s Hardware, Jan 2026](https://www.tomshardware.com/3d-printing/make-your-own-3d-printable-eflesh-scientists-share-plans-for-affordable-easy-to-produce-and-highly-tactile-robot-sensor-grips-can-be-printed-at-home)).
+- **Integrated-customer substitution:** Robot developers can collect training data internally; Figure was expanding from thousands to millions of video hours using company-operated environments and human pilots ([TIME, Oct 2025](https://time.com/7324233/figure-03-robot-humanoid-reveal/)).
+- **Calibration limitations:** 6thSense calls its tactile outputs “pressure proxies” and says it documents signals that should not be treated as ground-truth force, limiting uses requiring calibrated force measurements ([6thSense website, Jul 2026](https://6thsense.dev/)).
+- **Name ambiguity:** Search results for “6thSense” overlap with unrelated security, retail, and fishing brands, increasing the risk of misattributed press or metrics; the confirmed company identifiers are the `6thsense.dev` domain and YC S26 affiliation ([YC company page, Jul 2026](https://www.ycombinator.com/companies/6thsense)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Humanoid robot market USD 6.24B (Fortune Business Insights, 2026) to USD 10.69B (Future Market Insights, 2026) for 2026 |
+| TAM | $1.50B robotic tactile-sensor market in 2025, projected to $5.08B by 2031 at 22.5% CAGR (LP Information, 2025) |
 | SAM | No public data found |
-| Traction | No public data found |
-| Revenue Signal | No public data found |
-| Founders | James Baek (Co-Founder & CEO); Ronak Agarwal (Founder); Alex Hyungwoo Noh (Founder); Matt Wulff (Founder) — backgrounds not publicly verifiable (YC page, 2026) |
-| Competitors | Human Archive ($8.2M seed, Wing/NVP/YC, revenue unknown, gig-worker egocentric data collection — Pulse2/TechCrunch May 2026); Physical Intelligence (~$1.07B raised, ~$11B valuation in talks, revenue unknown, vertically integrated foundation model — TechCrunch Mar 2026); Genesis AI (funding undisclosed, revenue unknown, proprietary tactile glove + GENE-26.5 model — Robot Report 2026); AGIBOT (funding undisclosed, revenue unknown, open-source G2 multi-modal dataset — Robot Report 2026); Linkerbot (~$217M raised, revenue unknown, dexterous-hand hardware — RAISE Summit 2026) |
-| Moat Signals | No public data found |
-| Risk Factors | Vertical integration by frontier-AI buyers, direct YC-backed competitor (Human Archive) with capital lead, open-source dataset commoditization |
-| Founder Reach | James Baek: No public data found. Ronak Agarwal: GitHub @ronak-agarwal exists (identity unconfirmed); other channels — no public data found. Alex Hyungwoo Noh: LinkedIn /in/hyungwoonoh/ surfaced (identity unconfirmed); other channels — no public data found. Matt Wulff: No public data found |
-| Distribution Signals | No public data found |
-| Emails | No public data found |
-
-Sources:
-- [6thSense | Tactile Egocentric Datasets for Robotics](https://6thsense.dev/)
-- [6thSense YC Company Page](https://www.ycombinator.com/companies/6thsense)
-- [Human Archive raises $8.2M (TechCrunch, May 2026)](https://techcrunch.com/2026/05/26/human-archive-taps-into-indias-services-startups-to-collect-data-for-physical-ai/)
-- [Human Archive $8.2M Raised (Pulse2)](https://pulse2.com/human-archive-8-2-million-raised-to-build-training-data-infrastructure-for-physical-ai/amp/)
-- [Physical Intelligence in talks to raise $1B (TechCrunch, Mar 2026)](https://techcrunch.com/2026/03/27/physical-intelligence-is-reportedly-in-talks-to-raise-1-billion-again/)
-- [Genesis AI GENE-26.5 (Robot Report)](https://www.therobotreport.com/genesis-ai-introduces-gene-foundation-model-more-dexterous-manipulation/)
-- [AGIBOT World 2026 Dataset (Robot Report)](https://www.therobotreport.com/agibot-world-2026-dataset-open-source-accelerate-embodied-ai-development/)
-- [Humanoid Robot Market (Fortune Business Insights)](https://www.fortunebusinessinsights.com/humanoid-robots-market-110188)
-- [Humanoid Robot Market (Future Market Insights)](https://www.futuremarketinsights.com/reports/humanoid-robot-market)
-- [20 Physical AI Companies to Watch (RAISE Summit)](https://www.raisesummit.com/post/20-physical-ai-companies-to-watch-in-2026)
+| Traction | Working with “a handful of teams” and operating a 20-place hardware pilot (James Baek, LinkedIn, Jul 2026); 455 company followers (LinkedIn, Jul 2026) |
+| Revenue Signal | Sells multimodal data to robot developers; $4,000-per-pair sensor-skinned hands offered at cost during pilot (YC, Jul 2026; James Baek, LinkedIn, Jul 2026) |
+| Founders | James Baek (CEO): Georgia Tech, Ibebu, US Army and prior content-business exit; Ronak Agarwal (Founder): Georgia Tech, DoorDash, Amazon and Qard; Alex Hyungwoo Noh (Founder): UChicago, MCP security and Samsung research award; Matt Wulff (Founder): Tesla vision-guided robotics and Mecka tactile capture (YC, Jul 2026) |
+| Competitors | Tacta Systems ($75M raised, revenue unknown, integrated dexterous intelligence); GelSight ($23.2M raised, revenue unknown, optical tactile sensors); Touchlab ($4.8M raised, revenue unknown, electronic skin); XELA Robotics ($0.1M disclosed, revenue unknown, uSkin sensor modules) (company announcements, Owler and CB Insights, 2025–2026) |
+| Moat Signals | Internally designed and manufactured tactile devices plus integrated synchronization, calibration, labeling, and packaging (YC and 6thSense website, Jul 2026) |
+| Risk Factors | Unpublished transfer benchmarks (James Baek, LinkedIn, Jul 2026), open-source tactile hardware substitution (OSMO, Dec 2025), customer in-house data collection (TIME, Oct 2025) |
+| Founder Reach | James Baek: LinkedIn 1,796; Ronak Agarwal: LinkedIn 2K and GitHub two profile stars; Alex Hyungwoo Noh: LinkedIn 871; Matt Wulff: no retrievable counts (LinkedIn, GitHub and YC, Jul 2026) |
+| Distribution Signals | 455 LinkedIn company followers, 20-place hardware pilot, zero YC job listings (LinkedIn, James Baek and YC, Jul 2026) |
+| Emails | alex@6thsense.dev (Hyungwoo Noh LinkedIn, Jul 2026) |

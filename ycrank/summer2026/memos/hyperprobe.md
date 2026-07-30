@@ -11,87 +11,74 @@
 | Team Size | 8 |
 | Location | San Francisco, CA, USA |
 | Tags | Developer Tools, DevSecOps, SaaS |
-| YC Partner | Brad Flora (YC company page) |
-| Emails | No public data found (demo booking via calendly.com/shailendra-hyperprobe/30min listed on hyperprobe.co) |
+| YC Partner | Brad Flora |
+| Emails | No public data found |
 
 ## The Idea
 
-- **Problem:** Backend engineers shipping code written by AI agents (Cursor, Claude Code, Codex) still debug prod incidents by grepping logs, adding print statements, and redeploying because AI agents lack live runtime evidence (hyperprobe.co, 2026).
-- **Approach:** Coding agents drop non-breaking "live breakpoints"/probes into running services from the IDE that capture and PII-sanitize exact variable state at <1% CPU overhead, then feed evidence back to the agent (hyperprobe.co, 2026).
-- **Differentiation:** vs. Rookout (acquired by Dynatrace July 2023 for $33.9M per SEC/TechCrunch) — HyperProbe is positioned around agent-driven probe insertion from the IDE rather than human-driven debugging; vs. Lightrun ($110M raised, Series B April 2025 per Lightrun blog) — Lightrun also offers dynamic instrumentation with AI-SRE remediation, so overlap is direct; vs. Sentry Seer/Datadog Bits AI SRE — those analyze pre-captured telemetry, while HyperProbe injects new probes on demand (latitude.so 2026 comparison; lightrun.com).
-- **Business Model:** [Inferred]: Usage/seat-based SaaS for backend engineering teams — no public pricing page found; demo-gated GTM via calendly.com/shailendra-hyperprobe/30min (hyperprobe.co).
-- **TAM/SAM:** Global observability tool market est. $3.35–3.40B in 2026 growing at ~11–16% CAGR (Business Research Insights; Coherent Market Insights, 2026); Datadog cites $58–62B observability TAM by 2026 (sergeycyw.substack.com summary of Datadog analyst materials).
-- **GTM / Distribution:** [Inferred]: Bottom-up developer install (60-second install, 10-minute first investigation cited on hyperprobe.co) plus founder-led demo booking; two named early users are engineers at CheQ Digital and Housing.com (hyperprobe.co testimonials).
+- **Problem:** Backend teams using Cursor, Claude Code, or Codex must revert to searching logs, inserting print statements, and redeploying when production failures lack the required runtime context ([HyperProbe website, Jul 2026](https://www.hyperprobe.co/)).
+- **Approach:** An SDK lets coding agents place non-blocking probes in running JVM and Node services, capture variable and stack state without pausing requests, redact PII locally, and return the evidence inside the development workflow ([HyperProbe website, Jul 2026](https://www.hyperprobe.co/)).
+- **Differentiation:** HyperProbe positions itself as complementary to Datadog and conventional logging because it captures previously unlogged variable state, while Lightrun offers broader continuous debugging and Rookout’s technology is embedded in Dynatrace’s observability platform ([HyperProbe website, Jul 2026](https://www.hyperprobe.co/); [Lightrun, May 2021](https://lightrun.com/blog/series-a-funding-pr/); [Dynatrace, Jul 2023](https://www.dynatrace.com/news/press-release/dynatrace-to-acquire-rookout/)).
+- **Business Model:** [Inferred]: “Free to Start” early access, personalized onboarding, and a “Book a Demo” path indicate a free-entry, sales-assisted SaaS model, but no paid tiers or prices are published.
+- **TAM/SAM:** No public TAM/SAM data found for this specific segment.
+- **GTM / Distribution:** [Inferred]: The public setup guide, IDE-centered messaging, free staging trial, and demo booking support developer-led adoption followed by sales-assisted conversion, while the predecessor HyperTest’s existing engineering-team relationships may supply initial leads.
 
 ## Defensibility
 
-- **Moat today:** Two named early customer testimonials (CheQ Digital Tech Lead; Housing.com SDE) and a stated <1% CPU overhead runtime agent (hyperprobe.co) — no revenue, retention, or lock-in data disclosed.
-- **Future moat:** [Inferred]: Data flywheel from probe-captured runtime snapshots training agent root-cause prompts, plus multi-language runtime agents (Node.js, TypeScript, Java, Scala, Kotlin per hyperprobe.co) that raise switching cost once embedded in CI/prod.
-- **Market structure:** [Inferred]: Incumbent APM/observability vendors (Datadog, Dynatrace) can bolt on similar probes — Dynatrace already owns Rookout post-2023 acquisition (TechCrunch, July 2023) — so the structural barrier for HyperProbe is limited to speed of shipping an IDE-native, agent-first workflow before incumbents integrate one.
-- **Commoditization risk:** Lightrun ($110M funded, Series B led by Accel and Insight, April 2025, per lightrun.com) and Dynatrace/Rookout already ship dynamic instrumentation; Sentry Seer and Datadog Bits AI SRE cover AI-driven triage (latitude.so 2026) — the "probe-from-agent" primitive is replicable by any of them.
+- **Moat today:** No defensibility signals found in public sources.
+- **Future moat:** [Inferred]: Repeated investigations could create a proprietary corpus connecting runtime state, failure causes, and accepted fixes, but no evidence shows that HyperProbe currently retains or trains on such data.
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** Lightrun already places production snapshots and logs without redeployment, while Dynatrace and Datadog acquired the overlapping Rookout and Ozcode live-debugging technologies ([Lightrun, May 2021](https://lightrun.com/blog/series-a-funding-pr/); [Dynatrace, Jul 2023](https://www.dynatrace.com/news/press-release/dynatrace-to-acquire-rookout/); [Datadog, Nov 2021](https://www.datadoghq.com/blog/datadog-acquires-ozcode/)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Customer testimonial: Aishwarya Maurya, Tech Lead @ CheQ Digital, quoted on hyperprobe.co (2026).
-  - Customer testimonial: Bhagwan Bansal, SDE @ Housing.com, quoted on hyperprobe.co (2026).
-  - Product-claimed impact: MTTR 3–4 hours → ~9 minutes; redeploys per incident 3–4 → 0; observability cost –40–60% (hyperprobe.co, self-reported, 2026).
-  - LinkedIn company/showcase page for "HyperProbe Project" exists but follower count not retrievable via search (linkedin.com/showcase/hyperprobe/).
-  - Product Hunt / press coverage: No public data found (search returned only unrelated "HyperProbe" EU medical device and Hexagon industrial tool).
-  - Twitter/X company handle: No public data found (@hyperprobe_eu belongs to unrelated EU medical project).
-  - Job postings: Company listed as "Hiring: False" in YC directory (ycombinator.com/companies/hyperprobe).
-- **Competitors:**
-  - Lightrun ($110M total raised incl. $70M Series B April 2025 led by Accel/Insight; ARR not disclosed): AI-SRE dynamic instrumentation platform, enterprise-focused, not agent-IDE-native (lightrun.com; finsmes.com).
-  - Rookout / Dynatrace (acquired by Dynatrace for $33.9M in July 2023 per SEC 8-K; standalone ARR not disclosed): production debugging via on-demand instrumentation, now part of Dynatrace observability suite (TechCrunch, July 2023).
-  - Sentry Seer (Sentry raised $217M total per public filings; ARR not disclosed here): AI debugging agent analyzing existing stack traces/session replays — no live probe injection (latitude.so, 2026).
-  - Datadog Bits AI SRE (Datadog: NASDAQ:DDOG, public; product embedded in Datadog platform): investigates across pre-captured metrics/logs/traces/RUM (latitude.so, 2026).
-  - Ozcode: production debugging, cited as Lightrun peer (canvasbusinessmodel.com competitive landscape) — revenue unknown.
-- **Why now:** [Inferred]: General availability of coding agents (Cursor, Claude Code, Codex) shipping increasing volumes of AI-authored backend code in 2024–2026 created a gap where write-time AI outpaces debug-time AI — HyperProbe's own positioning cites this shift (hyperprobe.co, 2026).
+  - Customer testimonial: CheQ Digital reported that HyperProbe found a production synchronization-data mismatch on the first attempt ([HyperProbe website, Jul 2026](https://www.hyperprobe.co/)).
+  - Customer testimonial: A Housing.com engineer reported using HyperProbe to inspect live memory and fix a race condition within the same hour ([HyperProbe website, Jul 2026](https://www.hyperprobe.co/)).
+  - Prior product—HyperTest: more than 100 product teams and 11,070 LinkedIn followers; these figures concern the integration-testing product before the HyperProbe rebrand/pivot ([HyperTest LinkedIn, Jul 2026](https://www.linkedin.com/company/hyper-test)).
+  - Prior product—HyperTest: $1.5 million total funding and 6,760 estimated monthly web visits; these figures are not current-product traction ([Inc42, Jul 2026](https://inc42.com/company/hypertest/)).
+  - Zero YC job postings ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/hyperprobe)).
+- **Competitors (minimum 3, up to 5):**
+  - Lightrun ($26 million raised, revenue unknown): continuous debugging and production observability with dynamically added logs, metrics, and snapshots ([Lightrun, May 2021](https://lightrun.com/blog/series-a-funding-pr/)).
+  - Rookout ($28.4 million raised, revenue unknown): privacy-aware debugging for Kubernetes-hosted applications, acquired and embedded by Dynatrace ([Sageable market brief, Aug 2023](https://sageable.com/wp-content/uploads/2023/08/Market-Brief-Dynatrace-Rookout-FINAL-2023-08-014b.pdf); [Dynatrace, Jul 2023](https://www.dynatrace.com/news/press-release/dynatrace-to-acquire-rookout/)).
+  - Ozcode ($3.5 million raised, revenue unknown): .NET-oriented live debugging with tracepoints and execution-flow inspection, acquired by Datadog ([Startup Nation Central, Jul 2026](https://finder.startupnationcentral.org/company_page/codevalue?section=financials); [Datadog, Nov 2021](https://www.datadoghq.com/blog/datadog-acquires-ozcode/)).
+- **Why now:** [Inferred]: AI adoption among software-development professionals reached 90% in 2025 while 46% of developers reported distrusting AI-tool accuracy, expanding demand for runtime evidence that can verify agent-generated diagnoses ([Google DORA, Sep 2025](https://blog.google/innovation-and-ai/technology/developers-tools/dora-report-2025/); [Stack Overflow, 2025](https://stackoverflow.co/company/press/archive/stack-overflow-2025-developer-survey/)).
 
 ## Founders & Team
 
-- **Shailendra Singh (Founder / CEO):**
-  - Background: B.Tech Material Science & Engineering, IIT Bombay 2009 (rocketreach.co; contactout.com); tech development at Applied Materials NanoManufacturing Lab 2009; VP Sales at Langoor; VP Products/Business at OYO Rooms; Founder & CEO of Transporter.city 2017–2021; Co-founder & CEO of HyperTest (API testing, founded 2015 with Karan Raina; $2.13M total raised, $1.5M seed led by Better Capital Dec 2022; customers included Urbancompany, Nykaa, Groww) (entrepreneur.com; tracxn.com; theorg.com). HyperTest rebranded/pivoted into HyperProbe upon YC S26 admission (LinkedIn commentary via search snippet).
-  - Twitter/X: No public account confirmed for HyperProbe founder capacity — count not retrievable.
-  - LinkedIn: "Founder at HyperProbe. Also founded HyperTest. Previously headed and scaled engineering and product functions at a unicorn and few small startups" (linkedin.com/in/shailendra-singh-shekhawat/ per YC page).
-  - GitHub: No public repos found under confirmed identity.
-- **Co-founder relationship:** Public YC listing names only Shailendra Singh; Karan Raina was co-founder of prior company HyperTest (tracxn.com) — his role in HyperProbe is not disclosed publicly.
-- **Founder-market fit:** Founder has 10+ years building developer testing/DX products (HyperTest, 2015–2025) with paying B2B customers, and prior engineering leadership at OYO Rooms unicorn (theorg.com; tracxn.com) — background maps to the developer-tools/observability sale HyperProbe is now attempting.
+- **Shailendra Singh (Co-founder and CEO):**
+  - Background: IIT Bombay BTech graduate; former OYO Rooms VP and Senior Operating Partner; previously co-founded logistics startup Transporter.city and HyperTest ([YourStory, May 2021](https://yourstory.com/2021/05/gurugram-saas-startup-automation-software-qa-process)).
+  - Twitter/X: @Shailendra_ht; count not retrievable.
+  - LinkedIn: “Founder, CEO at HyperTest” with approximately 3,000 followers ([LinkedIn, Jul 2026](https://in.linkedin.com/in/shailendra-singh-6540b8b)).
+  - GitHub: No verified public repos found.
+- **Karan Raina (Co-founder and CTO):**
+  - Background: BTech from Guru Gobind Singh Indraprastha University, MS in computer science from Georgia Tech, former LimeTray core engineer, and co-founder of Transporter.city and HyperTest ([YourStory, May 2021](https://yourstory.com/2021/05/gurugram-saas-startup-automation-software-qa-process)).
+  - Twitter/X: No public account found.
+  - LinkedIn: “HYPERTEST” with approximately 2,000 followers ([LinkedIn, Jul 2026](https://in.linkedin.com/in/karanraina)).
+  - GitHub: No verified public repos found.
+- **Co-founder relationship:** Singh and Raina previously built Transporter.city together before founding HyperTest in 2019 ([YourStory, May 2021](https://yourstory.com/2021/05/gurugram-saas-startup-automation-software-qa-process)).
+- **Founder-market fit:** Singh’s product and operating experience and Raina’s engineering background include multiple years jointly building HyperTest’s production-traffic-based testing infrastructure for engineering teams ([YourStory, May 2021](https://yourstory.com/2021/05/gurugram-saas-startup-automation-software-qa-process); [HyperTest LinkedIn, Jul 2026](https://www.linkedin.com/company/hyper-test)).
 
 ## Key Risks
 
-- **Direct incumbent overlap:** Lightrun's $70M Series B in April 2025 for "AI-SRE dynamic instrumentation" (lightrun.com) covers substantially the same problem — probe injection + AI remediation — and Dynatrace already owns Rookout's runtime debugging IP post-2023 (TechCrunch); HyperProbe must ship an agent-native workflow faster than either integrates one. Mitigation not disclosed publicly.
-- **Pivot execution risk:** Company was HyperTest (API testing, $2.13M raised over 10 years, Gurugram-based, per tracxn.com) before rebranding to HyperProbe for YC S26 — prior-product traction (Urbancompany/Nykaa/Groww logos, tracxn.com) does not transfer to the new runtime-debugging product and is scoped to the API testing use case.
-- **Technical feasibility at enterprise scale:** Non-blocking probes with sub-1% CPU and in-memory PII redaction across Node/TS/Java/Scala/Kotlin (hyperprobe.co) is a hard multi-runtime engineering problem; Rookout took ~7 years and ~$28M raised (crunchbase.com) to reach acquisition — no third-party benchmarking of HyperProbe's overhead claim is public.
-- **Name/brand collision:** Two unrelated "HyperProbe" entities exist — an EU Horizon-funded brain-imaging project (hyperprobe.eu, @hyperprobe_eu) and Hexagon's industrial metrology tool (pesmedia.com) — creating search/SEO dilution for the YC company.
-- **Distribution dependency on coding-agent ecosystems:** Value proposition assumes teams have adopted Cursor/Claude Code/Codex (hyperprobe.co); if agent adoption stalls or those platforms ship native runtime-probe features, HyperProbe's wedge narrows. Mitigation not disclosed.
+- **Incumbent substitution:** Dynatrace acquired Rookout for production debugging and Datadog acquired Ozcode for code-level production visibility, allowing observability vendors to bundle overlapping functionality into existing contracts ([Dynatrace, Jul 2023](https://www.dynatrace.com/news/press-release/dynatrace-to-acquire-rookout/); [Datadog, Nov 2021](https://www.datadoghq.com/blog/datadog-acquires-ozcode/)).
+- **Production-agent security:** HyperProbe’s in-process agent observes live variables and code paths, creating data-access and deployment-review requirements; the company says probes are read-only, require approval, redact PII inside customer infrastructure, and auto-disable at 0.5% CPU impact ([HyperProbe website, Jul 2026](https://www.hyperprobe.co/)).
+- **Language coverage:** Current support is limited to Node.js, TypeScript, Java, Scala, and Kotlin, with IntelliJ support still on the roadmap ([HyperProbe website, Jul 2026](https://www.hyperprobe.co/)).
+- **Traction attribution:** Public audience, customer, funding, and traffic figures predominantly describe predecessor product HyperTest, while current-product evidence is limited to two named testimonials and company-published performance claims ([HyperTest LinkedIn, Jul 2026](https://www.linkedin.com/company/hyper-test); [HyperProbe website, Jul 2026](https://www.hyperprobe.co/)).
+- **Name collision:** “HyperProbe” is also used by an unrelated EU-funded neurosurgical-imaging project, creating search and company-database disambiguation risk ([European Commission CORDIS](https://cordis.europa.eu/project/id/101071040/results)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Observability tool market ~$3.35–3.40B in 2026, ~11–16% CAGR (Business Research Insights; Coherent Market Insights, 2026); Datadog-defined observability TAM $58–62B by 2026 (sergeycyw.substack.com summarizing Datadog materials) |
-| SAM | No public data found for AI-agent runtime-debugging sub-segment |
-| Traction | Two named customer testimonials — Aishwarya Maurya @ CheQ Digital, Bhagwan Bansal @ Housing.com (hyperprobe.co, 2026); self-reported MTTR 3–4h → ~9min (hyperprobe.co, 2026); YC S26 admission (ycombinator.com/companies/hyperprobe) |
-| Revenue Signal | No public data found (no pricing page; demo-booking via calendly.com/shailendra-hyperprobe/30min per hyperprobe.co) |
-| Founders | Shailendra Singh (Founder/CEO): IIT Bombay 2009; ex-VP Products OYO Rooms; founder HyperTest (2015, $2.13M raised, Better Capital-led seed 2022) (tracxn.com; theorg.com; entrepreneur.com) |
-| Competitors | Lightrun ($110M raised incl. $70M Series B Apr 2025, ARR undisclosed, enterprise AI-SRE not agent-IDE-native); Rookout/Dynatrace (acquired for $33.9M July 2023, now part of Dynatrace suite); Sentry Seer (analyzes pre-captured traces, no live probes); Datadog Bits AI SRE (queries existing Datadog telemetry) |
-| Moat Signals | No public data found beyond two customer testimonials and self-reported <1% CPU overhead (hyperprobe.co, 2026) |
-| Risk Factors | Direct competition from Lightrun/Dynatrace-Rookout, pivot from HyperTest API-testing product, brand collision with HyperProbe EU medical project |
-| Founder Reach | Shailendra Singh: Twitter count not retrievable, LinkedIn present (linkedin.com/in/shailendra-singh-shekhawat/), GitHub not found |
-| Distribution Signals | YC S26 batch listing (ycombinator.com/companies/hyperprobe); LinkedIn showcase page exists (linkedin.com/showcase/hyperprobe/, follower count not retrievable); no Product Hunt / press coverage found |
-| Emails | No public data found (contact routed via Calendly on hyperprobe.co) |
-
-Sources:
-- [HyperProbe company website](http://hyperprobe.co)
-- [YC company page](https://www.ycombinator.com/companies/hyperprobe)
-- [HyperTest Tracxn profile](https://tracxn.com/d/companies/hypertest/__E7kGW1mxvHqcqujq96C1DQ6YRm7JDLB9_H1x2r_5xWU)
-- [HyperTest $1.5M seed – Entrepreneur India](https://www.entrepreneur.com/en-in/news-and-trends/hypertest-raises-15-million-in-seed-funding/440490)
-- [Shailendra Singh – The Org (HyperTest CEO)](https://theorg.com/org/hypertest/org-chart/shailendra-singh)
-- [Shailendra Singh – Rocketreach background](https://rocketreach.co/shailendra-singh-email_1246898)
-- [Dynatrace acquires Rookout – TechCrunch, July 2023](https://techcrunch.com/2023/07/31/dynatrace-acquires-cloud-native-debugging-platform-rookout/)
-- [Dynatrace–Rookout $33.9M price – SEC 8-K](https://www.sec.gov/Archives/edgar/data/0001773383/000177338323000211/fy24q2-earningsreleaseex991.htm)
-- [Lightrun $70M Series B, April 2025](https://lightrun.com/lightrun-secures-70m-series-b/)
-- [AI observability tools comparison – Latitude, 2026](https://latitude.so/blog/best-ai-agent-observability-tools-2026-comparison)
-- [Observability market size – Business Research Insights](https://www.businessresearchinsights.com/market-reports/observability-tool-market-122304)
-- [Datadog TAM discussion](https://sergeycyw.substack.com/p/datadog-scaling-cloud-observability)
+| TAM | No public data found |
+| SAM | No public data found |
+| Traction | CheQ Digital production-mismatch testimonial and Housing.com same-hour race-condition testimonial (HyperProbe website, Jul 2026); prior-product HyperTest reported 100+ product teams (HyperTest LinkedIn, Jul 2026) |
+| Revenue Signal | “Early Access — Free to Start”; no paid prices published (HyperProbe website, Jul 2026) |
+| Founders | Shailendra Singh (CEO): IIT Bombay, former OYO VP/Senior Operating Partner, Transporter.city co-founder; Karan Raina (CTO): Georgia Tech MS, former LimeTray engineer, Transporter.city co-founder (YourStory, May 2021) |
+| Competitors | Lightrun ($26M raised, revenue unknown, continuous debugging); Rookout ($28.4M raised, revenue unknown, Dynatrace-integrated Kubernetes debugging); Ozcode ($3.5M raised, revenue unknown, Datadog-owned .NET live debugging) (Lightrun, May 2021; Sageable, Aug 2023; Startup Nation Central, Jul 2026) |
+| Moat Signals | No public data found |
+| Risk Factors | Incumbent bundling, production-agent security review, limited language and IDE coverage (HyperProbe website, Jul 2026; Dynatrace, Jul 2023; Datadog, Nov 2021) |
+| Founder Reach | Shailendra Singh: LinkedIn ~3K, Twitter count not retrievable, GitHub stars not found; Karan Raina: LinkedIn ~2K, Twitter and GitHub data not found (LinkedIn, Jul 2026) |
+| Distribution Signals | Prior-product HyperTest LinkedIn: 11,070 followers; HyperProbe YC jobs: 0 (LinkedIn, Jul 2026; Y Combinator, Jul 2026) |
+| Emails | No public data found |

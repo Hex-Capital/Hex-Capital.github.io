@@ -1,6 +1,6 @@
 ﻿# GUILD
 
-> Neoprime Reshaping Defense Supply Chain
+> Making aerospace parts faster and cheaper for defense
 
 | Field | Value |
 |-------|-------|
@@ -9,89 +9,74 @@
 | Batch | Summer 2026 |
 | Industry | Industrials / Industrials -> Defense |
 | Team Size | 2 |
-| Location | New York, NY, USA |
-| Tags | Artificial Intelligence, GovTech, Compliance, Manufacturing, Supply Chain |
+| Location | New York City, NY, USA |
+| Tags | Compliance, Manufacturing, Supply Chain, Defense, AI |
 | YC Partner | Diana Hu |
 | Emails | No public data found |
 
 ## The Idea
 
-- **Problem:** US/NATO defense buyers face fragmented, slow procurement and supplier networks while non-traditional contractors are growing 5-20x faster than legacy primes who still hold ~80% of DoD contract value (techbuzz.ai / Cipher Brief, Oct 2025).
-- **Approach:** GUILD operates as a "Neoprime" contractor that vertically integrates with supplier partners and combines AI, contracting operations, and capital to source, fund, produce, and deliver defense contracts end-to-end (YC company page, 2026).
-- **Differentiation:** [Inferred]: Versus Anduril/Shield AI (build proprietary weapons platforms) and Hadrian (factories-as-a-service), GUILD is positioning as a contracting/integration layer that orchestrates third-party suppliers rather than owning the factory or product (company description, YC page).
-- **Business Model:** [Inferred]: Revenue from prime contract awards executed against supplier network plus margin on integrated production/delivery — consistent with the "Neoprime contractor" framing on the YC page; no pricing page is published on guildai.co.
-- **TAM/SAM:** Top 25 US aerospace & defense primes were obligated >$300B in FY2025, ~40-45% of federal contract spending (fed-spend.com, 2026); defense-tech startups attracted $38B+ VC in 2025 (ainvest.com, Oct 2025).
-- **GTM / Distribution:** [Inferred]: Direct sales to DoD program offices and NATO ministries, leveraging Neoprime-status awards and supplier network integration; company states operations "across the U.S. and NATO markets" (YC company page, 2026).
+- **Problem:** Government and defense companies receive manufacturing requirements through drawings, specifications, clauses, packaging rules, and deadlines that are processed through PDFs, spreadsheets, and email, delaying aerospace-part production ([GUILD website, Jul 2026](https://www.guildai.co/)).
+- **Approach:** GUILD bids on government contracts, converts technical packages into production plans with AI, selects qualified factories, and manages materials, compliance, inspection, packaging, logistics, and delivery ([GUILD website, Jul 2026](https://www.guildai.co/)).
+- **Differentiation:** [Inferred]: Unlike Xometry’s general-purpose manufacturing marketplace, Hadrian’s owned automated factories, and Valinor’s defense-product holding-company model, GUILD acts as the accountable prime contractor while coordinating third-party aerospace precision-metal suppliers.
+- **Business Model:** [Inferred]: GUILD can earn contract margin by pricing and delivering government manufacturing contracts, while GUILD Forge could generate project or service fees for production planning; no public pricing is listed.
+- **TAM/SAM:** No public TAM/SAM data found for this specific segment.
+- **GTM / Distribution:** [Inferred]: GUILD is pursuing government manufacturing solicitations directly while recruiting qualified manufacturing and supplier partners, consistent with its public request for supplier relationships ([GUILD LinkedIn, May 2026](https://www.linkedin.com/company/guildai)).
 
 ## Defensibility
 
-- **Moat today:** No defensibility signals found in public sources beyond company self-description of vertical integration with supplier partners (YC page, 2026).
-- **Future moat:** [Inferred]: Switching costs and data accumulation from integrated supplier contracts plus regulatory/CMMC/ITAR posture as a qualified prime could compound; unproven because no contract awards, supplier relationships, or compliance certifications are publicly disclosed.
-- **Market structure:** [Inferred]: Legacy primes (Lockheed, RTX, Northrop) face cannibalization risk if they automate procurement that today supports billable program offices and a fixed-cost workforce, creating a sales-channel/business-model conflict (fedsavvystrategies.com on neoprime ascendancy, 2025).
-- **Commoditization risk:** Other Neoprimes (Anduril, Hadrian, Shield AI, Mach Industries) and AI-procurement entrants (Procurement Sciences, CG Defense Consulting) are pursuing adjacent layers, and the AI-orchestration component is technically replicable by well-funded entrants (techbuzz.ai, Oct 2025).
+- **Moat today:** GUILD says its system links technical requirements, factory capabilities, pricing history, and delivery results, with each completed contract adding execution data used to plan later jobs ([GUILD website, Jul 2026](https://www.guildai.co/)).
+- **Future moat:** [Inferred]: A proprietary dataset connecting part requirements, compliant suppliers, realized costs, lead times, quality results, and deliveries could improve quoting and supplier selection, but no contract volume or performance evidence is public.
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** Manufacturing marketplaces, automated factory operators, defense primes, and procurement-software vendors could combine document extraction, supplier matching, compliance workflows, and contract execution; Hadrian alone has raised $500 million to expand automated aerospace-and-defense manufacturing ([Aviation Week, Jul 2025](https://aviationweek.com/defense/supply-chain/advanced-defense-manufacturing-startup-hadrian-raises-260-million)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Public website live with single-page "the AI-Native Neoprime" tagline; no metrics, customers, or pricing shown (guildai.co, Jun 2026).
-  - YC Summer 2026 batch participation (YC company page).
-  - No public data found on revenue, contract awards, supplier partners, employee count beyond 2, social follower counts, or press coverage as of Jun 2026.
-- **Competitors:**
-  - Anduril ($30.5B valuation, revenue unknown publicly; CNBC Oct 2025): builds proprietary autonomous weapons hardware rather than orchestrating third-party supplier production.
-  - Hadrian ($476.5M raised total, $260M Series C led by Founders Fund + Lux in Jul 2025, revenue unknown; CNBC Jul 2025): operates its own AI-powered precision-machining factories rather than acting as a contracting integrator.
-  - Shield AI ($5B valuation, revenue unknown; ainvest.com Oct 2025): AI pilots for autonomous aircraft, not supply-chain contracting.
-  - Mach Industries ($185M raised, revenue unknown; ainvest.com Oct 2025): builds munitions and propulsion hardware, not procurement orchestration.
-  - Procurement Sciences (raised data not retrieved): AI-driven federal bid/capture software sold to contractors rather than acting as the prime itself.
-- **Why now:** Specific catalyst — DoD policy shift toward non-traditional contractors and a $38B+ defense-VC funding surge in 2025, with Neoprimes growing 5-20x faster than legacy primes (techbuzz.ai / Cipher Brief, Oct 2025).
+  - 186 LinkedIn company followers ([LinkedIn, Jul 2026](https://www.linkedin.com/company/guildai)).
+  - 0 active jobs ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/guild)).
+  - $500,000 seed financing reported as announced June 1, 2026, with Y Combinator as investor ([Fundup, Jun 2026](https://fundup.ai/recently-funded-startups/company/4003e0527d26549a96a92d5ee60c962a69fa481e8c7abcc223f3851136f5ae2e/guild)).
+- **Competitors (minimum 3, up to 5):**
+  - Hadrian ($500M raised, $3M 2024 revenue): owns and operates automated factories for aerospace-and-defense components, whereas GUILD publicly describes coordinating qualified factories ([Aviation Week, Jul 2025](https://aviationweek.com/defense/supply-chain/advanced-defense-manufacturing-startup-hadrian-raises-260-million)).
+  - Valinor Enterprises ($85M+ raised, revenue unknown): builds and acquires defense product companies supported by centralized procurement, compliance, and government-affairs functions rather than executing outside manufacturing contracts ([Valinor, Jan 2026](https://www.valinor.co/newsroom/series-a-announcement)).
+  - Xometry ($150M raised in its 2021 IPO, $178M Q4 2025 marketplace revenue): operates a broad on-demand manufacturing marketplace rather than presenting itself as the contractor accountable for defense compliance and delivery ([Xometry, Feb 2026](https://investors.xometry.com/news-releases/news-release-details/xometry-reports-record-fourth-quarter-and-strong-full-year-2025/)).
+- **Why now:** The February 2026 America First Arms Transfer Strategy directed the government to build domestic weapons-production capacity, reinforce defense supply chains, and improve delivery speed and accountability ([White House, Feb 2026](https://www.whitehouse.gov/fact-sheets/2026/02/fact-sheet-president-donald-j-trump-establishes-the-america-first-arms-transfer-strategy/)).
 
 ## Founders & Team
 
-- **Kaya Celebi (Co-Founder & CEO):**
-  - Background: MSc Computer Science, Columbia; BSc Computer Science & Statistics, Duke; prior AI Application Developer / AI Tech Lead at Hartree Partners and ML Engineer at Morgan Stanley (LinkedIn headline via search result; ZoomInfo Hartree listing).
-  - Twitter/X: No public account found tied to GUILD founder identity (search snippets returned unrelated "Celebi" accounts).
-  - LinkedIn: "Co-Founder & CEO at GUILD | MSc. Columbia" (linkedin.com/in/kaya-celebi).
-  - GitHub: @kcelebi — top repo star count not retrievable from search snippets (github.com/kcelebi).
-- **Erim Gurlemis (Co-Founder):**
-  - Background: MSc Computer Science, Columbia; BSc Computer Science & Statistics, Duke; prior AI Tech Lead at Hartree Partners and ML Engineer at Morgan Stanley per search snippet; SEC IAPD lists an "Erim Gurlemis" registered as a Morgan Stanley investment adviser in NY (Series 66) — consistent identity (adviserinfo.sec.gov #7710633).
+- **Kaya Celebi (Co-Founder and CEO):**
+  - Background: Former Hartree Partners AI Tech Lead and Morgan Stanley machine-learning engineer, with an MSc in computer science from Columbia and dual BSc degrees in computer science and statistics from Duke ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/guild)).
   - Twitter/X: No public account found.
-  - LinkedIn: No public profile URL captured in search results.
+  - LinkedIn: “Building GUILD, the first AI-native defense contracting agency” with 1K followers ([LinkedIn, Jul 2026](https://www.linkedin.com/in/kaya-celebi)).
+  - GitHub: @kcelebi; flight-analysis has 183 stars, and the profile lists 20 repositories ([GitHub profile mirror, Jul 2026](https://git.hubp.de/kcelebi)).
+- **Erim Gurlemis (Co-Founder):**
+  - Background: Former Morgan Stanley Global Investment Office associate working on wealth-management development and engagement, with a BA in biological studies from Rutgers ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/guild)).
+  - Twitter/X: No public account found.
+  - LinkedIn: “Founder at GUILD” with 788 followers ([LinkedIn, Jun 2026](https://www.linkedin.com/posts/erim-gurlemis-b13b22204_im-excited-to-announce-that-guild-is-joining-activity-7475603878818910209-niIG)).
   - GitHub: No public repos found.
-- **Co-founder relationship:** Both founders list MSc Computer Science from Columbia and dual BSc CS/Statistics from Duke, plus overlapping Hartree Partners / Morgan Stanley experience, indicating shared university and employer history (search snippets via YC bios, 2026).
-- **Founder-market fit:** [Inferred]: Both founders' backgrounds are in AI/ML at a commodities trading firm (Hartree) and a bank (Morgan Stanley) rather than at a defense prime, DoD, or DIU — domain experience in defense procurement, ITAR/CMMC compliance, or supplier qualification is not documented in public sources; YC Group Partner Diana Hu provides batch-level support (YC page).
+- **Co-founder relationship:** Both founders previously worked at Morgan Stanley, but no public source establishes whether they overlapped or met there ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/guild)).
+- **Founder-market fit:** [Inferred]: Celebi’s machine-learning and commodities-trading systems experience supports the automation component, while Gurlemis’s finance and client-engagement background supports contract pricing and capital coordination; neither founder’s public biography documents prior aerospace manufacturing or government-contracting work.
 
 ## Key Risks
 
-- **Defense contracting feasibility risk:** Becoming a qualified prime requires CAGE codes, security clearances, CMMC/ITAR compliance, and past-performance history; no evidence of awards, FSC/NAICS qualifications, or cleared facilities is public, and the founders' prior employers (Hartree, Morgan Stanley) are not defense entities (search results, Jun 2026). Mitigation: YC capital and the "Neoprime" policy tailwind cited by Cipher Brief (2025).
-- **Concentrated competitor capital:** Anduril ($30.5B valuation), Hadrian ($476.5M raised), Shield AI ($5B valuation), and Mach Industries ($185M raised) have already captured the Neoprime category narrative and DoD attention (CNBC Oct 2025, Jul 2025).
-- **Capital intensity mismatch:** Company description states GUILD will "fund" and "produce" contracts end-to-end, implying working-capital and inventory burden inconsistent with a 2-person pre-seed team and the standard YC $500K deal ([Inferred] from YC page + company description).
-- **Two-person team in regulated vertical:** Defense supply-chain execution typically requires program management, compliance, and supplier-quality engineering headcount that 2 founders cannot cover, and the YC page shows hiring is currently False (YC company page, Jun 2026).
-- **Name disambiguation risk:** "Guild" is a common term and overlaps with prior YC company Guild Education, gaming "Yield Guild Games" (cbinsights), and "guildai" ML tooling — likely to create brand and SEO confusion (search results, Jun 2026).
+- **Execution accountability:** GUILD assumes responsibility for pricing, compliance, production coordination, and final delivery while relying on qualified factories, exposing it to supplier quality and schedule failures ([GUILD website, Jul 2026](https://www.guildai.co/)).
+- **Compliance error:** Contract inputs include technical specifications, clauses, testing, inspection, documentation, and packaging requirements, so an extraction or workflow error could produce a nonconforming delivery ([GUILD website, Jul 2026](https://www.guildai.co/)).
+- **Capital intensity:** GUILD describes integrating capital with contracting and production, while its public model requires coordinating materials and manufacturing before final delivery; no working-capital facility is publicly disclosed ([GUILD LinkedIn, Jul 2026](https://www.linkedin.com/company/guildai)).
+- **Incumbent capital disparity:** Hadrian has raised $500 million for owned automated production capacity, while GUILD’s only publicly reported financing is $500,000 ([Aviation Week, Jul 2025](https://aviationweek.com/defense/supply-chain/advanced-defense-manufacturing-startup-hadrian-raises-260-million); [Fundup, Jun 2026](https://fundup.ai/recently-funded-startups/company/4003e0527d26549a96a92d5ee60c962a69fa481e8c7abcc223f3851136f5ae2e/guild)).
+- **Name disambiguation:** Search results for GUILD overlap with Guild Education and the unrelated Guild AI machine-learning platform, which can obscure company discovery ([Guild Education](https://guild.com/guild-for-manufacturing); [Guild AI](https://www.guild.ai/about)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Top 25 US A&D primes obligated >$300B/year, ~40-45% of federal contract spending (fed-spend.com, 2026) |
+| TAM | No public data found |
 | SAM | No public data found |
-| Traction | Website live with single-page tagline (guildai.co, Jun 2026); YC S26 batch (YC page); no revenue, users, customers, or press disclosed |
+| Traction | 186 LinkedIn followers (LinkedIn, Jul 2026); 0 active jobs (Y Combinator, Jul 2026) |
 | Revenue Signal | No public data found |
-| Founders | Kaya Celebi (Co-Founder & CEO): MSc Columbia CS, BSc Duke CS/Stats, Hartree Partners, Morgan Stanley. Erim Gurlemis (Co-Founder): MSc Columbia CS, BSc Duke CS/Stats, Hartree Partners, Morgan Stanley (Series 66 reg.) |
-| Competitors | Anduril ($30.5B valuation, rev unknown, builds own hardware - CNBC Oct 2025); Hadrian ($476.5M raised, rev unknown, owns factories - CNBC Jul 2025); Shield AI ($5B valuation, rev unknown, autonomous pilots - ainvest.com); Mach Industries ($185M raised, rev unknown, munitions hardware - ainvest.com); Procurement Sciences (raised unknown, software-for-contractors not prime - procurementsciences.com) |
-| Moat Signals | No public data found |
-| Risk Factors | Defense-contracting qualification feasibility, well-capitalized Neoprime incumbents, capital intensity vs. 2-person team |
-| Founder Reach | Kaya Celebi: Twitter not found, LinkedIn at /in/kaya-celebi (count not retrievable), GitHub @kcelebi (stars not retrievable). Erim Gurlemis: Twitter not found, LinkedIn not found, GitHub not found |
-| Distribution Signals | No public data found |
+| Founders | Kaya Celebi (Co-Founder and CEO): Hartree AI Tech Lead, Morgan Stanley ML engineer, Columbia MSc and Duke dual BSc (Y Combinator, Jul 2026); Erim Gurlemis (Co-Founder): Morgan Stanley Global Investment Office associate and Rutgers BA (Y Combinator, Jul 2026) |
+| Competitors | Hadrian ($500M raised, $3M 2024 revenue, owned automated factories) (Aviation Week, Jul 2025); Valinor Enterprises ($85M+ raised, revenue unknown, defense-product holding company) (Valinor, Jan 2026); Xometry ($150M 2021 IPO proceeds, $178M Q4 2025 marketplace revenue, general manufacturing marketplace) (Xometry, Feb 2026) |
+| Moat Signals | Contract-linked technical requirements, factory capabilities, pricing history, and delivery-result data (GUILD website, Jul 2026) |
+| Risk Factors | Supplier execution and compliance liability (GUILD website, Jul 2026), production working-capital requirement (GUILD LinkedIn, Jul 2026), competitors with owned manufacturing capacity (Aviation Week, Jul 2025) |
+| Founder Reach | Kaya Celebi: LinkedIn 1K, GitHub top repo 183 stars (LinkedIn and GitHub profile mirror, Jul 2026); Erim Gurlemis: LinkedIn 788, GitHub data unavailable (LinkedIn, Jun 2026) |
+| Distribution Signals | 186 LinkedIn company followers (LinkedIn, Jul 2026); 0 YC job postings (Y Combinator, Jul 2026) |
 | Emails | No public data found |
-
-Sources:
-- [GUILD YC company page](https://www.ycombinator.com/companies/guild)
-- [GUILD website](https://www.guildai.co/)
-- [Kaya Celebi LinkedIn](https://www.linkedin.com/in/kaya-celebi)
-- [kcelebi GitHub](https://github.com/kcelebi)
-- [Erim Gurlemis SEC IAPD #7710633](https://adviserinfo.sec.gov/individual/summary/7710633)
-- [Hadrian $260M Series C — CNBC](https://www.cnbc.com/2025/07/17/hadrian-funding-round-thiel-founders-fund.html)
-- [Silicon Valley defense neoprimes — CNBC](https://www.cnbc.com/2025/10/03/silicon-valley-defense-tech-startups-war-lockheed-boeing-raytheon-anduril-palantir-mva-milvet.html)
-- [Defense Tech Neoprimes — techbuzz.ai](https://www.techbuzz.ai/articles/defense-tech-neoprimes-pull-billions-as-silicon-valley-challenges-pentagon-giants)
-- [Neoprime Club — Cipher Brief](https://www.thecipherbrief.com/defense-neoprime-innovation)
-- [Top 25 Defense Contractors — fed-spend.com](https://fed-spend.com/blog/top-25-defense-contractors-by-revenue-2026)
-- [Neoprimes disruptive force — ainvest.com](https://www.ainvest.com/news/silicon-valley-defense-tech-neoprimes-disruptive-force-national-security-innovation-2510/)

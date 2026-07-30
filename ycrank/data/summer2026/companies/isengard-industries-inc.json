@@ -7,11 +7,11 @@
     "yc_page": "https://www.ycombinator.com/companies/isengard-industries-inc",
     "batch": "Summer 2026",
     "industry": "Industrials / Industrials -> Defense",
-    "team_size": "20",
-    "location": "Florida City, FL, USA",
+    "team_size": "30",
+    "location": "San Francisco, CA, USA",
     "tags": "Artificial Intelligence, Swarm Robotics, Unmanned Vehicle",
     "yc_partner": "Gustaf Alstromer",
-    "emails": "hello@isengardindustries.com (company website)"
+    "emails": "hello@isengardindustries.com"
   },
   "tags": [
     "Artificial Intelligence",
@@ -19,52 +19,52 @@
     "Unmanned Vehicle"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-06-29T06:05:27.652Z",
+  "memoGeneratedAt": "2026-07-30T17:36:28.968Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 69,
+      "score": 83,
       "tier": "Invest"
     },
     "elad-gil": {
-      "score": 58,
-      "tier": "Neutral"
+      "score": 66,
+      "tier": "Invest"
     },
     "naval-ravikant": {
-      "score": 38,
-      "tier": "Pass"
+      "score": 55,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 76,
+      "score": 79,
       "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 53,
-      "tier": "Neutral"
+      "score": 76,
+      "tier": "Invest"
     },
     "sam-lessin": {
-      "score": 49,
+      "score": 57,
       "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 56,
-      "tier": "Neutral"
+      "score": 70,
+      "tier": "Invest"
     }
   },
   "consolidatedScores": {
-    "CB": 69,
-    "EG": 58,
-    "NR": 38,
-    "PG": 76,
-    "PT": 53,
-    "SL": 49,
-    "VK": 56
+    "CB": 83,
+    "EG": 66,
+    "NR": 55,
+    "PG": 79,
+    "PT": 76,
+    "SL": 57,
+    "VK": 70
   },
-  "consolidatedAvg": 57,
+  "consolidatedAvg": 69.43,
   "consolidatedRank": 1,
   "traction": {
-    "tractionRank": 9,
-    "tractionScore": 64,
-    "tractionReason": "Six systems in production, combat-deployed Ukraine"
+    "tractionRank": 40,
+    "tractionScore": 55,
+    "tractionReason": "Operational systems reportedly fielded on Ukrainian front"
   },
   "paths": {
     "memo": "summer2026/memos/isengard-industries-inc.md",

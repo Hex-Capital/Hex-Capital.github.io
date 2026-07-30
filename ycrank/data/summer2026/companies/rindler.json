@@ -1,7 +1,7 @@
 {
   "slug": "rindler",
   "name": "Rindler",
-  "oneLiner": "Middleware making websites readable for AI agents",
+  "oneLiner": "The translation layer between AI agents and the web",
   "metadata": {
     "website": "https://rindler.ai",
     "yc_page": "https://www.ycombinator.com/companies/rindler",
@@ -9,60 +9,63 @@
     "industry": "B2B / B2B -> Infrastructure",
     "team_size": "2",
     "location": "Boston, MA, USA",
-    "tags": "Infrastructure",
+    "tags": "B2B, Workflow Automation, Infrastructure, APIs",
     "yc_partner": "Ankit Gupta",
-    "emails": "No public data found"
+    "emails": "founders@rindler.ai, team@rindler.ai"
   },
   "tags": [
-    "Infrastructure"
+    "B2B",
+    "Workflow Automation",
+    "Infrastructure",
+    "APIs"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-08T04:53:17.737Z",
+  "memoGeneratedAt": "2026-07-30T18:04:44.954Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
       "score": 43,
       "tier": "Pass"
     },
+    "elad-gil": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 66,
+      "tier": "Invest"
+    },
     "peter-thiel": {
-      "score": 26,
-      "tier": "Pass"
+      "score": 55,
+      "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 25,
+      "score": 31,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 34,
+      "score": 44,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 32,
-    "EG": 48,
-    "NR": 53,
-    "PG": 43,
-    "PT": 26,
-    "SL": 25,
-    "VK": 34
+    "CB": 43,
+    "EG": 57,
+    "NR": 57,
+    "PG": 66,
+    "PT": 55,
+    "SL": 31,
+    "VK": 44
   },
-  "consolidatedAvg": 37.29,
-  "consolidatedRank": 48,
+  "consolidatedAvg": 50.43,
+  "consolidatedRank": 111,
   "traction": {
-    "tractionRank": 57,
-    "tractionScore": 9,
-    "tractionReason": "X account exists, no other public metrics"
+    "tractionRank": 62,
+    "tractionScore": 50,
+    "tractionReason": "Multiple workflows described as running in production"
   },
   "paths": {
     "memo": "summer2026/memos/rindler.md",

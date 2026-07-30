@@ -1,0 +1,83 @@
+{
+  "slug": "derya",
+  "name": "Derya",
+  "oneLiner": "AI-Native Logistics Office",
+  "metadata": {
+    "website": "http://usederya.com",
+    "yc_page": "https://www.ycombinator.com/companies/derya",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Supply Chain and Logistics",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "AIOps, Digital Freight Brokerage, Finance, Logistics, Supply Chain",
+    "yc_partner": "Jared Friedman",
+    "emails": "contact@usederya.com, founders@usederya.com"
+  },
+  "tags": [
+    "AIOps",
+    "Digital Freight Brokerage",
+    "Finance",
+    "Logistics",
+    "Supply Chain"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:32:18.932Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 75,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 66,
+      "tier": "Invest"
+    },
+    "naval-ravikant": {
+      "score": 61,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 85,
+      "tier": "Strong Invest"
+    },
+    "peter-thiel": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 43,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 75,
+    "EG": 66,
+    "NR": 61,
+    "PG": 85,
+    "PT": 46,
+    "SL": 58,
+    "VK": 43
+  },
+  "consolidatedAvg": 62,
+  "consolidatedRank": 12,
+  "traction": {
+    "tractionRank": 4,
+    "tractionScore": 87,
+    "tractionReason": "$80K contracted revenue in first month"
+  },
+  "paths": {
+    "memo": "summer2026/memos/derya.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/derya.md",
+      "elad-gil": "summer2026/evals/elad-gil/derya.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/derya.md",
+      "paul-graham": "summer2026/evals/paul-graham/derya.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/derya.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/derya.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/derya.md"
+    }
+  }
+}

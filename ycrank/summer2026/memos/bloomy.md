@@ -10,90 +10,69 @@
 | Industry | Education / Education |
 | Team Size | 1 |
 | Location | San Francisco, CA, USA |
-| Tags | AI-Enhanced Learning, Education, eLearning, Personalization, AI |
-| YC Partner | Tyler Bosmeny (YC company page) |
-| Emails | hello@bloomylearning.com (company website) |
+| Tags | AI-Enhanced Learning, Artificial Intelligence, Education, eLearning, Personalization |
+| YC Partner | Tyler Bosmeny ([Y Combinator](https://www.ycombinator.com/companies/bloomy), Jul 2026) |
+| Emails | hello@bloomylearning.com ([Bloomy website](https://www.bloomylearning.com/), Jul 2026), alex@bloomylearning.com ([Y Combinator](https://www.ycombinator.com/companies/bloomy), Jul 2026) |
 
 ## The Idea
 
-- **Problem:** K-12 students have heterogeneous skill gaps that one-size-fits-all curriculum does not address; Bloomy's site cites educators using it during intervention blocks for "diverse learner groups" currently served by tools like i-Ready and NWEA MAP (bloomylearning.com).
-- **Approach:** Smart diagnostic ingests i-Ready/NWEA MAP data to map gaps across six ELA domains, then routes students through a three-stage lesson (Base Camp instruction → Climb adaptive practice → Summit assessment) gated by 90% mastery, with a Socratic "BloomyBot" AI tutor that asks questions rather than giving answers (bloomylearning.com).
-- **Differentiation:** Vs. IXL/Khan Academy/i-Ready/DreamBox (Brighterly 2026 competitor list), Bloomy claims interoperability by ingesting i-Ready and NWEA MAP scores as inputs and enforces a 90% mastery gate before progression plus a Socratic-questioning AI tutor (bloomylearning.com).
-- **Business Model:** [Inferred]: B2B school/district SaaS — site's only CTA is "Request a demo (30-minute consultation)" with no self-serve pricing, and testimonials are from named schools/educators (e.g., Baystate Academy) (bloomylearning.com).
-- **TAM/SAM:** Global K-12 EdTech market estimates range widely: USD 39.92B in 2026 at 24.8% CAGR (The Business Research Company, 2026) and USD 28.93B in 2026 (market.us, 2026); adaptive/personalized learning segment projected at 17.8% CAGR (Grand View Research, 2026). No public SAM data found for U.S. K-12 ELA + Math adaptive software specifically.
-- **GTM / Distribution:** [Inferred]: Direct school/district sales via demo requests and pilot deployments — site lists three named school testimonials (Baystate Academy and others) and a "Request a demo" CTA, consistent with bottom-up pilots in intervention blocks (bloomylearning.com).
+- **Problem:** K-12 classrooms teach students with different prior knowledge at a common pace, while individualized tutoring is difficult to provide across a class of 30 students ([Y Combinator](https://www.ycombinator.com/companies/bloomy), Jul 2026).
+- **Approach:** Bloomy combines diagnostics, a prerequisite-skill knowledge graph, adaptive lessons, Socratic tutoring, and a 90% mastery gate to determine each student’s next skill and restrict progression until proficiency is demonstrated ([Bloomy website](https://www.bloomylearning.com/); [Y Combinator](https://www.ycombinator.com/companies/bloomy), Jul 2026).
+- **Differentiation:** [Inferred]: Unlike Khanmigo’s AI guidance within Khan Academy content, DreamBox’s adaptive math and reading products, and Ello’s oral-reading focus, Bloomy combines ELA, math, and writing pathways with prerequisite sequencing and a 90% progression gate.
+- **Business Model:** Families pay per student and subject—ELA or Math costs $39 monthly or $279 annually, Writing Studio costs $19 monthly or $139 annually, and school pricing is customized by implementation and enrollment ([Bloomy family pricing](https://www.bloomylearning.com/families/pricing), Jul 2026).
+- **TAM/SAM:** Global EdTech totaled $187.0 billion in 2025 and is forecast to reach $437.5 billion in 2033 at a 10.8% CAGR, with K-12 representing 38.9% of the 2025 market ([Grand View Research](https://www.grandviewresearch.com/industry-analysis/education-technology-market), 2026).
+- **GTM / Distribution:** Bloomy sells through demos to schools and districts and through monthly or annual family subscriptions, including direct payment or reimbursement through qualifying state ESA/EFA programs ([Bloomy website](https://www.bloomylearning.com/); [Y Combinator](https://www.ycombinator.com/companies/bloomy), Jul 2026).
 
 ## Defensibility
 
-- **Moat today:** No defensibility signals found in public sources beyond a stated 700+ standards-aligned lesson library mapped to Common Core/state standards (bloomylearning.com).
-- **Future moat:** [Inferred]: Proprietary student-performance and mastery-progression data tied to i-Ready/NWEA score ingestion could improve adaptive routing over time; unproven now because the company is solo-founder, S26 batch, and shows no disclosed user count (YC page; bloomylearning.com).
-- **Market structure:** [Inferred]: District procurement cycles and standards-alignment certification create switching friction once embedded, but incumbents (IXL, i-Ready) already hold these channel relationships, so the structural barrier favors incumbents rather than Bloomy (Brighterly 2026; NBC News 2024 on i-Ready scale).
-- **Commoditization risk:** Khan Academy's Khanmigo offers a free Socratic AI tutor and IXL/i-Ready already adapt to assessment data, so the Socratic-AI-plus-mastery-gate combination is replicable by well-funded incumbents (khanmigo.ai; Brighterly 2026).
+- **Moat today:** Bloomy reports a proprietary prerequisite-skill knowledge graph, integrations with i-Ready and NWEA MAP data, 1,200-plus standards-aligned skills, and logged student interactions used for personalization and teacher reporting ([Bloomy website](https://www.bloomylearning.com/), Jul 2026).
+- **Future moat:** [Inferred]: Longitudinal diagnostic, usage, misconception, and assessment data could improve sequencing and intervention logic, but no public evidence establishes exclusive data access or measured model improvement.
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** Khan Academy already offers a Socratic AI tutor to 2.0 million users, while curriculum vendors including DreamBox and Amira provide adaptive or AI-supported instruction, demonstrating that funded education platforms can build overlapping functionality ([Khan Academy annual report](https://annualreport.khanacademy.org/), 2025; [Amira Learning](https://amiralearning.com/newsroom/amira-learning-unveils-ai-powered-intelligent-growth-engine), 2025).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - 3 named school testimonials displayed on site, including Kellie Carlucci of Baystate Academy stating "Students are steadily progressing — some now working at 11th or 12th grade level" (bloomylearning.com).
-  - Product features 700+ standards-aligned lessons across six ELA domains (bloomylearning.com).
-  - Company X/Twitter @bloomylearning exists; follower count not retrievable (x.com/bloomylearning).
-  - Company LinkedIn page "bloomy-yc-s26" exists; follower count not retrievable (YC page).
-  - Facebook page exists (ID 61590258284564); follower count not retrievable (YC page).
-  - No Product Hunt launch found (Product Hunt search, June 2026).
-  - No public revenue, paying-customer count, or waitlist figures found.
-- **Competitors:**
-  - IXL Learning ($570M raised, ~$500M–$1B est. revenue range; $99.6M figure also cited): K-12 multi-subject adaptive practice with district sales muscle and the 2026 Rosetta Stone acquisition (Owler 2026; Prospeo 2026).
-  - Curriculum Associates / i-Ready (private-equity-backed, ~$750–800M annual revenue, 2024): incumbent diagnostic + instruction used in 9 of 10 largest U.S. districts (NBC News, 2024).
-  - DreamBox Learning ($150M+ raised pre-2021; acquired by Discovery Education Oct 2023, terms undisclosed): adaptive K-8 math/reading inside Discovery's bundle (GeekWire, 2023; EdWeek MarketBrief, 2023).
-  - Khan Academy / Khanmigo (donor-funded nonprofit, free to families as of May 2026): Socratic AI tutor overlaps directly with BloomyBot positioning (Brighterly 2026; khanmigo.ai).
-  - Carnegie Learning (revenue unknown): AI-supported adaptive K-12 math/ELA (Brighterly 2026).
-- **Why now:** [Inferred]: LLM-based Socratic tutoring became viable post-2023, and incumbents like Khan Academy launched Khanmigo while districts retain large i-Ready/NWEA assessment data sets that new entrants can now ingest (khanmigo.ai; bloomylearning.com).
+  - Students in spring pilots achieved nearly twice their projected NWEA MAP growth ([Y Combinator launch post](https://www.linkedin.com/posts/y-combinator_bloomy-yc-s26-is-helping-kids-learn-faster-activity-7478115276312428544-kAQt), Jul 2026).
+  - More than 90% of surveyed pilot students asked to continue using Bloomy, and 20% used it outside required school time ([Y Combinator launch post](https://www.linkedin.com/posts/y-combinator_bloomy-yc-s26-is-helping-kids-learn-faster-activity-7478115276312428544-kAQt), Jul 2026).
+  - Customer testimonials identify deployments at Baystate Academy Charter Public School, Edna M. Scott Elementary in Leland School District, and Unbound Stockton Community School ([Bloomy website](https://www.bloomylearning.com/), Jul 2026).
+  - Founder Alex Southmayd had approximately 3,000 LinkedIn followers and 500-plus connections ([LinkedIn](https://www.linkedin.com/in/alex-southmayd), Jul 2026).
+  - One Founding Engineer opening offered $175,000–$200,000 salary and 1.5%–2.0% equity ([Y Combinator Jobs](https://www.ycombinator.com/companies/bloomy/jobs/7Kz07Zt-founding-engineer), Jul 2026).
+- **Competitors (minimum 3, up to 5):**
+  - Khan Academy/Khanmigo (at least $16.21M raised, revenue unknown): provides AI tutoring across Khan Academy’s curriculum and reported 2.0 million Khanmigo users, versus Bloomy’s prerequisite graph and explicit mastery gate ([Clay](https://www.clay.com/dossier/khan-academy-funding); [Khan Academy annual report](https://annualreport.khanacademy.org/), 2025).
+  - DreamBox Learning ($175.6M raised, revenue unknown): provides adaptive math and reading software and was acquired by Discovery Education, versus Bloomy’s Socratic tutor and combined ELA, math, and writing offering ([CB Insights](https://www.cbinsights.com/company/dreambox-learning/financials), 2026).
+  - Ello ($15.5M Series A, revenue unknown): focuses on an AI reading tutor that listens to children read aloud, versus Bloomy’s broader standards-aligned skill pathways and independent mastery assessments ([Project A and Goodwater round details via search result](https://en.wikipedia.org/wiki/Catalin_Voss), 2023).
+- **Why now:** [Inferred]: The availability of conversational generative-AI models since 2023 reduced the cost of delivering real-time, individualized hints, while school deployments such as Khanmigo established an institutional channel for AI tutoring ([Axios](https://www.axios.com/2023/04/07/sal-khan-chatgpt-gpt4-tutor), Apr 2023; [TIME](https://time.com/7012801/kristen-dicerbo/), Sep 2024).
 
 ## Founders & Team
 
 - **Alex Southmayd (Founder):**
-  - Background: BA Law/Jurisprudence/Social Thought + French, Amherst College; MA, Amherst; M.Ed., Boston University; MBA, Stanford GSB (co-president VC Club); prior roles as 7th-grade ELA teacher via Teach For America, Manhattan Prep GMAT/GRE instructor, Head of Driver Acquisition Lyft New England, Engagement Manager at McKinsey, and experience at Pear VC (YC company page; Leland coach profile; Stanford GSB search results).
-  - Twitter/X: @alexsouthmayd exists; follower count not retrievable (twitter.com/alexsouthmayd).
-  - LinkedIn: "Alex Southmayd – McKinsey & Company" (linkedin.com/in/alex-southmayd/).
+  - Background: Former Teach For America seventh-grade teacher, Manhattan Prep GMAT/GRE instructor, Lyft New England Head of Driver Acquisition, and McKinsey engagement manager; holds an Amherst College degree, Boston University M.Ed., and Stanford GSB MBA ([Y Combinator](https://www.ycombinator.com/companies/bloomy), Jul 2026).
+  - Twitter/X: No public account found.
+  - LinkedIn: “Founder at Bloomy (YC S26)” with approximately 3,000 followers ([LinkedIn](https://www.linkedin.com/in/alex-southmayd), Jul 2026).
   - GitHub: No public repos found.
-- **Co-founder relationship:** Solo founder per YC page; no co-founder applicable.
-- **Founder-market fit:** Documented K-12 ELA teaching experience (TFA 7th-grade ELA, two years) and test-prep instruction (Manhattan Prep GMAT/GRE) align with Bloomy's K-12 ELA launch focus (YC company page; search results).
+- **Co-founder relationship:** No public data on co-founder history.
+- **Founder-market fit:** Southmayd’s documented experience spans classroom teaching, test-preparation curriculum, user acquisition, and McKinsey AI-transformation work ([Y Combinator](https://www.ycombinator.com/companies/bloomy), Jul 2026).
 
 ## Key Risks
 
-- **Solo-founder execution on multi-discipline product:** YC page lists team size 1 with no CTO; building K-12 curriculum (700+ lessons), adaptive AI engine, and selling to districts simultaneously creates concurrent staffing gaps (YC page; bloomylearning.com).
-- **Direct overlap with free incumbent (Khanmigo):** Khan Academy's Khanmigo offers Socratic AI tutoring K-12 and Khan Academy is "completely free for families" as of May 2026, undercutting any consumer monetization path (Brighterly 2026; khanmigo.ai).
-- **Incumbent distribution lock-in:** i-Ready reaches "nearly one-third of K-12 students" including 9 of 10 largest districts, and IXL holds a multi-thousand-employee sales org with $570M raised — Bloomy must displace tools already procured by the same buyers (NBC News, 2024; Owler 2026).
-- **Dependency on third-party assessment APIs:** Diagnostic ingests i-Ready and NWEA MAP data; both vendors are direct competitors and could restrict data access (bloomylearning.com; Brighterly 2026).
-- **Procurement cycle length:** K-12 district SaaS sales cycles and budget cycles delay revenue ramp; site shows only demo-request CTA with no self-serve revenue mechanism (bloomylearning.com).
+- **Pilot-evidence limitations:** The reported NWEA result comes from early pilots, while Southmayd describes one usage analysis as correlational with a limited sample and says it does not establish causation ([LinkedIn](https://www.linkedin.com/in/alex-southmayd), Jul 2026).
+- **AI tutoring accuracy and learning transfer:** A study of nearly 1,000 secondary students found unrestricted generative-AI assistance improved practice performance but could reduce later unaided test performance, while Bloomy mitigates answer dependence by locking its tutor during mastery assessments ([Axios](https://www.axios.com/local/san-francisco/2024/08/22/ai-tutor-bay-area-classrooms), Aug 2024; [Bloomy safety page](https://www.bloomylearning.com/safety), Jul 2026).
+- **Child-data compliance and safety:** Bloomy processes and logs student tutoring interactions for personalization, progress reporting, safety review, and debugging, creating privacy and safeguarding obligations; it states that it does not sell children’s information or permit third-party AI providers to train on identifiable child data ([Bloomy safety page](https://www.bloomylearning.com/safety), Jul 2026).
+- **Incumbent overlap:** Khanmigo reached 2.0 million users in the 2024–25 school year, including 770,000 students through U.S. district partnerships, giving a competing Socratic tutor an existing institutional footprint ([Khan Academy annual report](https://annualreport.khanacademy.org/), 2025).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Global K-12 EdTech USD 39.92B in 2026, 24.8% CAGR to 2030+ (The Business Research Company, 2026); alternate USD 28.93B 2026 (market.us, 2026) |
-| SAM | No public data found |
-| Traction | 3 named school testimonials including Baystate Academy (bloomylearning.com, 2026); 700+ standards-aligned lessons (bloomylearning.com, 2026); X/LinkedIn/Facebook pages live, follower counts not retrievable (YC page, 2026) |
-| Revenue Signal | No public data found (no pricing page; "Request a demo" CTA only — bloomylearning.com) |
-| Founders | Alex Southmayd (Founder): Stanford GSB MBA, BU M.Ed., Teach For America 7th-grade ELA teacher, ex-McKinsey/Lyft/Manhattan Prep (YC page) |
-| Competitors | IXL Learning ($570M raised, ~$99.6M–$1B revenue range, incumbent K-12 multi-subject adaptive — Owler/Prospeo 2026); Curriculum Associates/i-Ready (~$750–800M revenue, 9 of 10 largest U.S. districts — NBC News 2024); DreamBox Learning ($150M+ raised; acquired by Discovery Education Oct 2023, terms undisclosed — GeekWire 2023); Khan Academy/Khanmigo (donor-funded nonprofit, free to families May 2026, Socratic AI tutor — khanmigo.ai); Carnegie Learning (revenue unknown, adaptive AI K-12 — Brighterly 2026) |
-| Moat Signals | No public data found |
-| Risk Factors | Solo-founder execution; free Khanmigo overlap; incumbent district lock-in (IXL, i-Ready) |
-| Founder Reach | Alex Southmayd: Twitter @alexsouthmayd count not retrievable, LinkedIn alex-southmayd present count not retrievable, GitHub none found |
-| Distribution Signals | Demo-request CTA only (bloomylearning.com); X @bloomylearning, LinkedIn bloomy-yc-s26, Facebook page (YC page, 2026); no Product Hunt launch found (Product Hunt, June 2026) |
-| Emails | hello@bloomylearning.com (bloomylearning.com) |
-
-Sources:
-- [Bloomy YC company page](https://www.ycombinator.com/companies/bloomy)
-- [Bloomy Learning website](https://bloomylearning.com/)
-- [Alex Southmayd LinkedIn](https://www.linkedin.com/in/alex-southmayd/)
-- [Alex Southmayd Twitter](https://twitter.com/alexsouthmayd)
-- [Bloomy X account](https://x.com/bloomylearning)
-- [Brighterly IXL alternatives 2026](https://brighterly.com/blog/ixl-alternatives/)
-- [The Business Research Company K-12 EdTech market](https://www.thebusinessresearchcompany.com/report/k12-education-technology-global-market-report)
-- [Grand View Research EdTech market](https://www.grandviewresearch.com/industry-analysis/education-technology-market)
-- [Owler IXL Learning profile](https://www.owler.com/company/ixl1)
-- [Prospeo IXL Learning revenue](https://prospeo.io/c/ixl-learning-revenue)
-- [NBC News on i-Ready scale](https://www.nbcnews.com/news/education/iready-school-software-faces-parent-teacher-student-fury-rcna342850)
-- [GeekWire Discovery Education acquires DreamBox](https://www.geekwire.com/2023/seattle-area-edtech-company-dreambox-learning-acquired-by-discovery-education/)
-- [Khanmigo](https://www.khanmigo.ai/)
-- [market.us K-12 EdTech](https://market.us/report/primary-edtech-market/)
+| TAM | $187.0B global EdTech market in 2025, forecast to $437.5B by 2033 at 10.8% CAGR (Grand View Research, 2026) |
+| SAM | K-12 represented 38.9% of the $187.0B global EdTech market in 2025 (Grand View Research, 2026) |
+| Traction | Nearly 2x projected NWEA MAP growth in spring pilots; over 90% requested continued use; 20% used Bloomy outside required time (Y Combinator launch post, Jul 2026) |
+| Revenue Signal | ELA and Math each $39/month or $279/year per student; Writing Studio $19/month or $139/year; institutional pricing customized (Bloomy family pricing, Jul 2026) |
+| Founders | Alex Southmayd (Founder): former teacher, Lyft acquisition leader, McKinsey engagement manager, Stanford MBA and BU M.Ed. (Y Combinator, Jul 2026) |
+| Competitors | Khan Academy/Khanmigo (at least $16.21M raised, revenue unknown, existing AI tutor and district reach) (Clay; Khan Academy, 2025); DreamBox ($175.6M raised, revenue unknown, adaptive math and reading) (CB Insights, 2026); Ello ($15.5M Series A, revenue unknown, oral-reading tutor) (Project A and Goodwater round details, 2023) |
+| Moat Signals | Prerequisite knowledge graph, i-Ready and NWEA MAP integrations, 1,200+ standards-aligned skills, and longitudinal interaction logs (Bloomy website, Jul 2026) |
+| Risk Factors | Correlational pilot evidence (LinkedIn, Jul 2026), child-data handling (Bloomy safety page, Jul 2026), Khanmigo institutional competition (Khan Academy, 2025) |
+| Founder Reach | Alex Southmayd: approximately 3K LinkedIn followers; Twitter and GitHub not found (LinkedIn, Jul 2026) |
+| Distribution Signals | Three named school users and one active Founding Engineer posting (Bloomy website; Y Combinator Jobs, Jul 2026) |
+| Emails | hello@bloomylearning.com (Bloomy website, Jul 2026), alex@bloomylearning.com (Y Combinator, Jul 2026) |

@@ -1,0 +1,30 @@
+﻿# HERA -- Paul Graham Evaluation
+
+More than 200 customer-discovery conversations make HERA a strong-pair, high-schlep startup with one conspicuous hole: HERA has not yet left enough animal tracks. Meera Patel and Noelle So met on a bus to a factory tour, became best friends, and now offer to visit factories, review 20 drawings under NDA, and deploy within one week. That configuration is HERA’s strongest signal. But 200 conversations are still conversations. The dossier names no paid contract, accuracy result, or unscalable revenue stunt proving that HERA’s founders will force adoption when manufacturers hesitate.
+
+**Stripe** (2010) is the high rung for cofounder configuration: two brothers with complementary abilities, years of shared hacking, and Auctomatic already behind them. HERA has the important first half of that mechanism. Patel and So studied industrial engineering together, share data-science training, and appear to like each other enough to survive months inside factories. HERA diverges where Stripe became extraordinary: no prior joint artifact, public repository, or multi-year operating result establishes how Patel and So behave when the product breaks and a customer is furious. A best-friend pair is much better than two strangers assembled for an application, but friendship has not yet been converted into evidence.
+
+**Kiko** (2005) exposed the low rung of resourcefulness: clever hackers can ship something and still direct their ingenuity toward escape rather than forcing the product to work. HERA’s 200-plus interviews, founder visits, free 20-drawing reviews, and one-week deployments put HERA above that rung, but only modestly. None is the equivalent of Brian Armstrong building the wallet after rejection or Airbnb selling 1,000 cereal boxes for $40 each. The Airbnb exception therefore does not apply yet; HERA has an offer to do something unscalable, not proof that the founders used it to obtain money or irreplaceable users.
+
+Noelle So built a water-treatment facility adding 40 L/s to her family’s industrial park, while Meera Patel worked on manufacturing projects at Pfizer and TE Connectivity. That gives HERA a plausible organic origin, though the dossier never says either founder personally released a bad drawing or lost a $40,000 part. Over 18 months, this distinction compounds. If HERA’s customer-specific rules grow out of judgments Patel and So already understand, every deployment makes the product sharper. If those rules merely summarize what 200 interviewees described, HERA becomes a consulting service translating other people’s pain into prompts. The red flag is precise: no founder is documented as having personally used HERA to solve her own recurring problem.
+
+ASME Y14.5-2018, BPVC, B31, AWS, ISO, plant-specific rules, drawing confidentiality, and human verification are a magnificent schlep. HERA is running toward work most software founders would unconsciously avoid: maintaining standards, visiting factories, handling proprietary drawings, and explaining every flag to senior engineers. HERA would fall a full tier on this dimension if the claimed evidence chain proved to be a generic vision-model wrapper and customer rules could not survive revisions or audits. The present facts point the other way: under-NDA reviews, source-traced findings, prints that purportedly remain inside customer walls, and founder-led deployment make the unpleasant work part of the product.
+
+**Dropbox** (2007) converted hacker genealogy into visible proof through Drew Houston’s working demo before the check. HERA has relevant technical ingredients—Patel learned PLC programming and C++, conducted healthcare-ML research, and So built physical infrastructure—but HERA has no public repositories, recognized hacker-community footprint, or published precision and recall benchmark. Unquantified manufacturer use shows more than credentials alone, yet it does not reveal whether HERA built a genuinely difficult drawing-analysis system or assembled accessible vision models around standards text. Hackers leave artifacts. The absence of one keeps this score below the founders’ industrial pedigree.
+
+F4, Axial, NexCAD, and RapidDraft already occupy overlapping parts of drawing review, so my 36-month forecast is deliberately narrower: by July 2029, HERA reaches $2 million to $5 million in ARR from roughly 15 to 40 engineer-to-order plants, concentrated in aerospace and pressure vessels, but remains service-heavy rather than becoming the default horizontal CAD-review layer. HERA’s strong founder pair can compound plant-specific rules and trust through factory work. HERA’s weaker animal and hacker evidence makes rapid, product-led domination less likely than a valuable specialist business.
+
+NexCAD’s claimed 1,000-plus engineers and 2,500-plus reviewed drawings make the bear case sting: HERA may be two capable graduates interviewing a fashionable problem while better-integrated competitors accumulate the actual correction data. HERA reports no revenue and no accuracy benchmark, while Axial reports only greater than 60% recall, suggesting the underlying technology may still be too unreliable for release-critical work. The fact that HERA promises one-week, in-factory deployment across multiple standards partially defeats that case because the moat can be accumulated engineering judgment rather than a raw vision model. I would flip to Pass if fewer than five of HERA’s next 20 under-NDA reviews convert into paid annual contracts within 12 months; that would show the schlep is generating demonstrations, not desire.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Demonstrates Animal Resourcefulness Pre-Funding | 19/35 |
+| Idea Is Organic to Founders' Own Pain | 16/25 |
+| Problem Sits in a Schlep Zone Mainstream Founders Avoid | 13/15 |
+| Hacker Genealogy in the Founder Team | 9/15 |
+| Co-founder Configuration Is a Strong Pair or Trio, Not Solo | 9/10 |
+| **Total** | **66/100** |
+
+**Total Score: 66/100** (Invest)

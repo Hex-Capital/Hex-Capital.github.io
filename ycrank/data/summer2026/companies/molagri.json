@@ -1,7 +1,7 @@
 {
   "slug": "molagri",
   "name": "Molagri",
-  "oneLiner": "Biopesticides that are safe for humans and bees.",
+  "oneLiner": "Resistance free pesticides.",
   "metadata": {
     "website": "https://molagri.com",
     "yc_page": "https://www.ycombinator.com/companies/molagri",
@@ -11,7 +11,7 @@
     "location": "Toronto, ON, Canada",
     "tags": "Synthetic Biology, Biotech, Sustainability, Climate, Agriculture",
     "yc_partner": "Tyler Bosmeny",
-    "emails": "No public data found"
+    "emails": "inquiries@molagri.com"
   },
   "tags": [
     "Synthetic Biology",
@@ -21,52 +21,52 @@
     "Agriculture"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-06-30T04:52:35.148Z",
+  "memoGeneratedAt": "2026-07-30T17:41:32.499Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 44,
-      "tier": "Pass"
+      "score": 64,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 28,
+      "score": 36,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 32,
-      "tier": "Pass"
+      "score": 48,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 41,
-      "tier": "Pass"
+      "score": 67,
+      "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 28,
-      "tier": "Pass"
+      "score": 62,
+      "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 29,
-      "tier": "Pass"
+      "score": 48,
+      "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 51,
-      "tier": "Neutral"
+      "score": 65,
+      "tier": "Invest"
     }
   },
   "consolidatedScores": {
-    "CB": 44,
-    "EG": 28,
-    "NR": 32,
-    "PG": 41,
-    "PT": 28,
-    "SL": 29,
-    "VK": 51
+    "CB": 64,
+    "EG": 36,
+    "NR": 48,
+    "PG": 67,
+    "PT": 62,
+    "SL": 48,
+    "VK": 65
   },
-  "consolidatedAvg": 36.14,
-  "consolidatedRank": 53,
+  "consolidatedAvg": 55.71,
+  "consolidatedRank": 59,
   "traction": {
-    "tractionRank": 77,
-    "tractionScore": 4,
-    "tractionReason": "Website 403, no traction data found"
+    "tractionRank": 148,
+    "tractionScore": 11,
+    "tractionReason": "Research hiring and presentations; no customers"
   },
   "paths": {
     "memo": "summer2026/memos/molagri.md",

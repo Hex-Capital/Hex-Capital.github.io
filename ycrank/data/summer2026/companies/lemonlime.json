@@ -11,7 +11,7 @@
     "location": "San Francisco, CA, USA",
     "tags": "SaaS, Workflow Automation, AI",
     "yc_partner": "Diana Hu",
-    "emails": "No public data found"
+    "emails": "hello@lemonlime.ai, founders@lemonlime.ai"
   },
   "tags": [
     "SaaS",
@@ -19,52 +19,52 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-08T04:53:02.397Z",
+  "memoGeneratedAt": "2026-07-30T17:54:50.390Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 28,
-      "tier": "Pass"
+      "score": 46,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 41,
-      "tier": "Pass"
+      "score": 59,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 42,
-      "tier": "Pass"
+      "score": 56,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 40,
-      "tier": "Pass"
+      "score": 69,
+      "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 26,
+      "score": 38,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 25,
+      "score": 38,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 36,
+      "score": 38,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 28,
-    "EG": 41,
-    "NR": 42,
-    "PG": 40,
-    "PT": 26,
-    "SL": 25,
-    "VK": 36
+    "CB": 46,
+    "EG": 59,
+    "NR": 56,
+    "PG": 69,
+    "PT": 38,
+    "SL": 38,
+    "VK": 38
   },
-  "consolidatedAvg": 34,
-  "consolidatedRank": 62,
+  "consolidatedAvg": 49.14,
+  "consolidatedRank": 123,
   "traction": {
-    "tractionRank": 33,
-    "tractionScore": 26,
-    "tractionReason": "30+ integrations shipped, pricing tiers live"
+    "tractionRank": 41,
+    "tractionScore": 55,
+    "tractionReason": "MRR quadrupled in seven days; baseline undisclosed"
   },
   "paths": {
     "memo": "summer2026/memos/lemonlime.md",

@@ -21,52 +21,52 @@
     "Workflow Automation"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-09T16:03:48.486Z",
+  "memoGeneratedAt": "2026-07-30T17:56:08.846Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 32,
-      "tier": "Pass"
+      "score": 56,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 48,
+      "score": 61,
       "tier": "Neutral"
     },
     "naval-ravikant": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 66,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
       "score": 42,
       "tier": "Pass"
     },
-    "paul-graham": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 37,
-      "tier": "Pass"
-    },
     "sam-lessin": {
-      "score": 26,
+      "score": 40,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 34,
+      "score": 41,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 32,
-    "EG": 48,
-    "NR": 42,
-    "PG": 49,
-    "PT": 37,
-    "SL": 26,
-    "VK": 34
+    "CB": 56,
+    "EG": 61,
+    "NR": 53,
+    "PG": 66,
+    "PT": 42,
+    "SL": 40,
+    "VK": 41
   },
-  "consolidatedAvg": 38.29,
-  "consolidatedRank": 38,
+  "consolidatedAvg": 51.29,
+  "consolidatedRank": 103,
   "traction": {
-    "tractionRank": 44,
-    "tractionScore": 16,
-    "tractionReason": "YC + Vercel AI Accelerator cohort selection"
+    "tractionRank": 66,
+    "tractionScore": 49,
+    "tractionReason": "Multiple finance-sector customers, counts undisclosed"
   },
   "paths": {
     "memo": "summer2026/memos/zomma.md",

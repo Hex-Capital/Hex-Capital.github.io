@@ -1,0 +1,30 @@
+﻿# Rational -- Elad Gil Evaluation
+
+Rational’s 300-plus integrations make Rational a technically de-risked workflow company with a weak structural distribution position. The highest signal is single-miracle architecture: frontier models already perform the underlying work, and Rational mainly has to productize firm knowledge, approval gates, and exception routing. The lowest signal is the index test: Basis has raised at least $134 million, Numeric $89 million, and Rational has not shown that accounting workflows must flow through Rational rather than through those platforms or incumbent ledgers. This is skating for the puck in an open accounting-AI market, but Rational is not yet an index on it.
+
+**Color Genomics** is the high rung for single-miracle architecture: workflow and data infrastructure built on commodity sequencing rather than a bet on new chemistry. Rational shares that mechanism because Rational builds firm-specific knowledge, human approvals, and audit trails on top of increasingly capable frontier models; Basis’s production migration from o3 to GPT-5 confirms that the foundational capability has arrived. Rational diverges from Color because reconciliations, tax work, payment actions, security, and 300-plus third-party integrations create several operational failure surfaces. Those are difficult execution problems, but they are not independent scientific miracles, which keeps Rational close to the high rung.
+
+**Lyft** exposed the low-rung failure mechanism on index-like distribution: occupying the second position in a market whose network economics accrue disproportionately to the leader. Rational shows a softer version of that pattern. Basis already sells supervised accounting agents, Numeric owns close workflows, Filed targets tax preparation, and Rational has no structural barrier beyond isolated firm knowledge and integration breadth. Rational could become the orchestration layer spanning accounting, tax, email, Slack, and Teams, but today each additional integration expands Rational’s surface area without proving that category growth automatically accrues to Rational.
+
+Basis’s migration from o3 to GPT-5 in 2025 is the catalyst: model reliability crossed from document assistance toward coordinated accounting work, while labor constraints give firms an immediate reason to buy capacity. Over the next 18 months, that catalyst compounds for Rational if every model improvement increases autonomous task coverage without requiring Rational to retrain customers or replace their systems. Rational therefore has a real re-opening, comparable in form—though not magnitude—to post-API Stripe. The deduction is timing: competitors raised heavily before Rational’s Summer 2026 launch, so Rational is entering an open market whose window has already attracted capital rather than discovering a market peers still consider dead.
+
+Approximately 12,000 invoices per cycle for a Fortune Global 500 customer is meaningful pre-seed usage, but Rational discloses neither revenue nor growth. Rational moves up a full tier on revenue velocity if those invoices represent paid production work, renew across three cycles, and expand at more than 20% month over month into reconciliation or close workflows; Rational moves down if the engagement is an unpaid design partnership with extensive human supervision. The 50 people supported at Tenace International suggests repeat operational value, but without contract value, retention, or expansion data I cannot distinguish “just working” from sophisticated pilot tourism.
+
+**Perplexity** is the single-anchor parallel for founder shipping: Aravind Srinivas repeatedly returned with the discussed product built. Christ Xu’s reported $400,000 prior exit and engineering work at Tencent, Jane Street, and OpenAI show that Rational’s CTO has shipped beyond a résumé-only profile; Jibril Moinuddin’s STEMplicity operation reportedly connected 20,000 students with mentors, and Rational now processes production-scale invoice volume. Rational has credible artifacts, but Rational lacks the decisive longitudinal evidence—specific weekly iterations driven by customer feedback—that made Perplexity’s execution rhythm unmistakable.
+
+Approximately 12,000 invoices per cycle gives Rational enough operational insertion to reach $8 million to $15 million in ARR by July 2029, after which I expect Thomson Reuters to acquire Rational for its cross-system agent layer rather than Rational becoming the independent accounting-AI default. The mechanism is the dimensional signature: Rational’s single miracle has already happened, so Rational can build real revenue, but weak index economics let established accounting distributors capture more of the category’s terminal value. The likely outcome is a useful, sellable workflow asset—not the Stripe-like basket of every accounting transaction.
+
+Basis’s $134 million funding is the strongest bear mechanism: a capitalized leader can reproduce Rational’s accounting agents, while Numeric and Filed squeeze adjacent workflows and frontier-model vendors compress product differentiation. Rational also lacks disclosed revenue, accounting-practitioner founders, retention data, and a public security certification; an AI company without a visible curve is one of my explicit red flags. The opposing evidence that wins narrowly is actual workflow volume—12,000 invoices per cycle, 50 people supported, and a Fortune Global 500 design partner—which is more than an “AI employee” narrative. I would flip from Invest to Pass if Rational cannot show at least $1 million ARR, two paid renewals, and greater than 90% gross revenue retention within 12 months.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Market Re-Opening Via Specific Recent Catalyst | 21/28 |
+| Revenue Velocity or Usage Curve Already Visible | 14/25 |
+| Founder Ships Iteratively Between Conversations | 16/20 |
+| Index-Like Distribution Position On A Compounding Category | 7/15 |
+| Single-Miracle Architecture Rather Than Multi-Miracle Dependency | 10/12 |
+| **Total** | **68/100** |
+
+**Total Score: 68/100** (Invest)

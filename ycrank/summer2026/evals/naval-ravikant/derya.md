@@ -1,0 +1,30 @@
+﻿# Derya -- Naval Ravikant Evaluation
+
+$80,000 of contracted first-month revenue reveals Derya’s signature: unusually strong founder-specific knowledge trapped inside an unusually permissioned operating architecture. Derya knows freight because Oguzhan Karaca worked inside CEVA/CMA CGM and Mert Turna built software running across 30-plus vessels, but Derya still moves value through introductions, carrier coordination, customs work, partner licenses, and financing. The knowledge is proprietary to the founders. The leverage is not yet proprietary to the product.
+
+**Stack Overflow** is the high rung for specific knowledge: developers built for developers, and the shipped artifact turned their obsession into distribution. Derya shares the first half of that mechanism. Turna previously co-founded truck operator Hemut and deployed ship software across $200 million of fleet value; Karaca combines freight legal experience with a prior six-figure-ARR business. Derya diverges because no public repository, technical benchmark, automation rate, or proprietary system shows that Derya has encoded this knowledge into a product others cannot reproduce. Specific knowledge exists. Its conversion into code leverage remains unproven.
+
+**Anchorage Digital** is the low-rung warning on permissionless leverage: licenses and regulation can replace permissionless distribution only when permission itself becomes an owned moat. Derya depends on a partner network for local licenses, connections, and expertise, but Derya has disclosed neither exclusive relationships nor a charter-like asset it controls. Soliciting importer introductions, manually executing freight, and financing bookings above $20,000 combine labor leverage, relationship leverage, and capital leverage. AI may make the freight office faster; making a permissioned operation efficient does not make it permissionless.
+
+$3.2 million of sourced opportunities could seed a network, but Derya has not shown that one participant automatically makes another participant more valuable. Over the next 18 months, Derya’s carrier-performance and lane-pricing data could improve matching, attract more shippers, and produce a genuine liquidity loop. The opposite loop is equally plausible: every new lane adds customs exceptions, partner management, underwriting exposure, and human coordination. Derya currently resembles a digitally assisted broker more than Uber’s self-reinforcing marketplace; $80,000 contracted against $3.2 million sourced suggests sales conversion, not demonstrated network compounding.
+
+$24.5 billion of projected digital-freight-brokerage spending gives Derya real maneuvering room across forwarding, procurement, compliance, operating software, and trade finance. Derya would reach the top market rung if one code base could move among those adjacencies without requiring new licenses, credit facilities, or operating headcount. The counterfactual is measurable: if Derya can sell its agent infrastructure directly to forwarders while preserving its transaction network, the market becomes platform-shaped. If every pivot requires a new balance sheet or jurisdictional partner network, the apparent breadth is several capital-intensive businesses sharing a customer list.
+
+Oguzhan Karaca and Mert Turna have known each other for eight years, earned their first money together, and now combine commercial, legal, and technical freight experience inside Derya. The relevant parallel is **Twitter**: Ev Williams had shipped and exited cleanly before the architecture was proven, making prior execution evidence more valuable than a polished seed narrative. Karaca’s six-figure-ARR Ivy Consultants and Turna’s 30-vessel deployment give Derya intelligence and energy signals; the long co-founder history supports the ten-year-partner test. Derya provides no adverse integrity evidence, but a dossier cannot prove how the founders treat counterparties when cargo fails or financed invoices default.
+
+**Flexport’s** scale demonstrates how readily digital forwarding becomes an operations-and-capital business rather than a pure software business. Within 36 months, Derya will pivot from acting as a full-stack forwarder toward selling an AI operations system to other forwarders, reaching $3 million to $8 million of software ARR while retaining selected shipments as training data. Derya’s founder-specific knowledge makes that product plausible; Derya’s weak permissionless architecture makes the present forwarding model difficult to compound without the pivot. Code should eventually eat the freight office. Owning the freight office is an expensive way to discover the code.
+
+$80,000 contracted in month one and a signed 20-container TVO form the strongest opposing case: Derya may not need to pivot because execution is how Derya acquires proprietary data, trust, and marketplace liquidity. **Anchorage Digital** supplies the precedent—permission can become a moat, while financing and compliance can deepen customer captivity rather than merely consume capital. The objection fails today because Derya’s licenses come from non-exclusive partners, established operators including Flexport and Nuvocargo already integrate software with execution, and no disclosed automation or loss data proves improving economics. I would flip to Invest if Derya demonstrates that more than 50% of bookings execute without human intervention and that partner- or customer-driven referrals generate more than half of new shipment volume for two consecutive quarters.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Permissionless Leverage Architecture (Code or Media as Primary Distribution) | 8/28 |
+| Marketplace or Network with Compounding User-Added Value | 9/22 |
+| Founder Has Non-Trainable Specific Knowledge in the Domain | 18/20 |
+| Big Market with Room for Multiple Pivots Without Refinancing | 14/16 |
+| Founder Trio (Intelligence + Energy + Integrity) Reads as a 10-Year Partner | 12/14 |
+| **Total** | **61/100** |
+
+**Total Score: 61/100** (Neutral)

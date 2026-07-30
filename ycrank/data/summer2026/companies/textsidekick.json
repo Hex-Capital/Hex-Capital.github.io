@@ -1,0 +1,81 @@
+{
+  "slug": "textsidekick",
+  "name": "Sidekick",
+  "oneLiner": "AI-powered SMS assistant for deskless workers.",
+  "metadata": {
+    "website": "https://www.textsidekick.com/",
+    "yc_page": "https://www.ycombinator.com/companies/textsidekick",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Operations",
+    "team_size": "1",
+    "location": "San Francisco, CA, USA",
+    "tags": "SaaS, B2B, AI Assistant",
+    "yc_partner": "Aaron Epstein",
+    "emails": "hello@textsidekick.com"
+  },
+  "tags": [
+    "SaaS",
+    "B2B",
+    "AI Assistant"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T18:07:10.697Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 71,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 66,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 40,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 71,
+    "EG": 55,
+    "NR": 48,
+    "PG": 66,
+    "PT": 41,
+    "SL": 45,
+    "VK": 40
+  },
+  "consolidatedAvg": 52.29,
+  "consolidatedRank": 95,
+  "traction": {
+    "tractionRank": 24,
+    "tractionScore": 63,
+    "tractionReason": "600+ workers across 20+ plants"
+  },
+  "paths": {
+    "memo": "summer2026/memos/textsidekick.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/textsidekick.md",
+      "elad-gil": "summer2026/evals/elad-gil/textsidekick.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/textsidekick.md",
+      "paul-graham": "summer2026/evals/paul-graham/textsidekick.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/textsidekick.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/textsidekick.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/textsidekick.md"
+    }
+  }
+}

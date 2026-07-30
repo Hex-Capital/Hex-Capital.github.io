@@ -5,64 +5,64 @@
   "metadata": {
     "website": "https://goekpa.com/",
     "yc_page": "https://www.ycombinator.com/companies/ekpa",
-    "batch": "Summer 2026 (YC page)",
+    "batch": "Summer 2026",
     "industry": "Fintech / Fintech -> Asset Management",
     "team_size": "2",
     "location": "Boston, MA, USA",
     "tags": "Consumer Finance",
-    "yc_partner": "Ankit Gupta (YC page)",
-    "emails": "No public data found"
+    "yc_partner": "Ankit Gupta ([Y Combinator](https://www.ycombinator.com/companies/ekpa), Jul 2026)",
+    "emails": "founders@goekpa.com ([Ekpa privacy policy](https://goekpa.com/privacy.html), Jul 2026)"
   },
   "tags": [
     "Consumer Finance"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-08T04:53:07.829Z",
+  "memoGeneratedAt": "2026-07-30T18:14:07.595Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 29,
+      "score": 37,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 28,
-      "tier": "Pass"
+      "score": 47,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 34,
-      "tier": "Pass"
+      "score": 49,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 35,
-      "tier": "Pass"
+      "score": 53,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 20,
+      "score": 29,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 26,
+      "score": 31,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 23,
+      "score": 36,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 29,
-    "EG": 28,
-    "NR": 34,
-    "PG": 35,
-    "PT": 20,
-    "SL": 26,
-    "VK": 23
+    "CB": 37,
+    "EG": 47,
+    "NR": 49,
+    "PG": 53,
+    "PT": 29,
+    "SL": 31,
+    "VK": 36
   },
-  "consolidatedAvg": 27.86,
-  "consolidatedRank": 80,
+  "consolidatedAvg": 40.29,
+  "consolidatedRank": 158,
   "traction": {
-    "tractionRank": 65,
-    "tractionScore": 7,
-    "tractionReason": "Pre-launch, read-only waitlist mode"
+    "tractionRank": 70,
+    "tractionScore": 48,
+    "tractionReason": "$3.4M managed assets and 2,400 analyses"
   },
   "paths": {
     "memo": "summer2026/memos/ekpa.md",

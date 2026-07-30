@@ -1,6 +1,6 @@
 ﻿# Rindler
 
-> Middleware making websites readable for AI agents
+> The translation layer between AI agents and the web
 
 | Field | Value |
 |-------|-------|
@@ -10,96 +10,75 @@
 | Industry | B2B / B2B -> Infrastructure |
 | Team Size | 2 |
 | Location | Boston, MA, USA |
-| Tags | Infrastructure |
+| Tags | B2B, Workflow Automation, Infrastructure, APIs |
 | YC Partner | Ankit Gupta |
-| Emails | No public data found |
+| Emails | founders@rindler.ai, team@rindler.ai |
 
 ## The Idea
 
-- **Problem:** AI agents cannot reliably operate websites that lack APIs — they must scrape raw HTML and break on logins, 2FA, and bot detection (YC page, rindler.ai homepage).
-- **Approach:** Rindler exposes an MCP server with tools including `extract_content`, `dispatch_action`, `synthesize_schema`, `start_session`, and OAuth 2.0 PKCE session handling that convert any website into a deterministic API (rindler.ai homepage).
-- **Differentiation:** Browserbase/Stagehand ships browser infrastructure and an SDK for developers to script (browserbase.com); Anon provides an authentication SDK for agents (TechCrunch, Apr 2024); Composio provides 1,000+ pre-built toolkits for API-having services (composio.dev, Jul 2025) — Rindler's stated wedge is agent-agnostic MCP middleware for sites without APIs, including auth/2FA/bot-detection handling (YC page).
-- **Business Model:** [Inferred]: Consumption or per-session pricing to agent builders and operators; no pricing page was visible at rindler.ai at time of research.
-- **TAM/SAM:** No public TAM/SAM data found for this specific segment; Browserbase (adjacent) cites 1,000+ customer companies and 20,000+ developers as of Jun 2025 (Built In SF, Jun 2025).
-- **GTM / Distribution:** [Inferred]: Developer-led distribution via the open MCP standard to any MCP-compatible agent, plus direct sales to "operators" whose teams live inside portals (rindler.ai homepage; YC description).
+- **Problem:** Agent builders and operations teams rely on manual portal work, browser agents that reinterpret each page on every run, or selector-based scripts that can fail when sites add login gates, pop-ups, bot defenses, dynamic controls, or layout changes ([Launch YC](https://www.ycombinator.com/launches/RHN-rindler-turn-any-website-into-an-api-for-ai-agents), Jul 2026).
+- **Approach:** Rindler maps each website into typed screens, actions, and outputs, verifies the mapping against the live site, and exposes it through a hosted MCP endpoint that manages authentication, navigation, retries, and structured records ([Rindler technical description](https://rindler.ai/llms.txt), Jul 2026).
+- **Differentiation:** Rindler says Browser Use and Playwright drive or parse pages during each run and Firecrawl focuses on extraction, whereas Rindler uses pre-mapped, verifier-gated configurations supporting authenticated reads and actions with a stable response shape ([Rindler FAQ](https://rindler.ai/faq), Jul 2026).
+- **Business Model:** Free costs $0, Starter costs $100 monthly for 100 successful-session credits, Teams costs $1,000 monthly for 1,000 credits, and Enterprise uses custom pricing, with each successful session charged as one $1 credit regardless of its number of steps ([Rindler pricing](https://rindler.ai/pricing), Jul 2026).
+- **TAM/SAM:** The broader AI-agents market was estimated at $8.29 billion in 2025 and forecast at $12.06 billion in 2026, a 45.5% increase, but no public estimate was found for authenticated website-agent infrastructure specifically ([Research and Markets](https://www.researchandmarkets.com/reports/6103459/ai-agents-market-report), 2026).
+- **GTM / Distribution:** Rindler distributes through a free chat application and hosted MCP server, converts users into Starter or Teams subscriptions, and directs enterprise buyers to a sales call ([Rindler pricing](https://rindler.ai/pricing), Jul 2026).
 
 ## Defensibility
 
-- **Moat today:** No defensibility signals found in public sources beyond an MCP-standard integration surface (rindler.ai homepage).
-- **Future moat:** [Inferred]: Accumulated site-specific schemas, selector maintenance, and auth/anti-bot workarounds per website could form a data/operational moat as coverage grows; unproven because no coverage counts or customer counts are public.
-- **Market structure:** [Inferred]: No structural barrier identified at this stage — the core capability (headless browser + LLM-driven action + MCP wrapper) is being built by multiple funded competitors (Browserbase, Anon, Composio).
-- **Commoditization risk:** Browserbase ($40M Series B at $300M valuation, Jun 2025, Built In SF), Anon ($13M raised, TechCrunch/Tracxn), and Composio ($79.6M raised, $1M+ ARR, PRNewswire Jul 2025) can extend into the same MCP-for-any-website surface; open-source Stagehand (MIT license, GitHub) lowers the build cost for new entrants.
+- **Moat today:** Company-reported technical complexity includes per-site typed mappings, automated verification, self-healing configurations, authenticated sessions encrypted with AES-256-GCM, and server-side retry and recovery logic ([Rindler technical description](https://rindler.ai/llms.txt), Jul 2026).
+- **Future moat:** [Inferred]: A larger library of verified site mappings and accumulated failure-resolution data could reduce deployment time, but Rindler publishes no mapping count, customer count, or independent reliability history.
+- **Market structure:** [Inferred]: No structural barrier is identified at this stage because cloud-browser, scraping, and browser-agent vendors can add typed outputs, MCP endpoints, verification, and session management.
+- **Commoditization risk:** Browserbase has raised $67.5 million, Browser Use $17 million, Kernel $22 million, and Firecrawl $16.2 million to build overlapping browser, agent, or web-data infrastructure ([Sacra](https://sacra.com/research/browserbase), [Browser Use](https://browser-use.com/posts/seed-round), [Kernel](https://www.kernel.sh/blog/series-a-announcement/), [Firecrawl](https://www.globenewswire.com/news-release/2025/08/19/3135573/0/en/firecrawl-announces-14-5-million-in-series-a-funding-to-put-web-data-on-tap-for-ai-agents.html), 2025).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Company X/Twitter account @RindlerAI exists (x.com/RindlerAI); follower count not retrievable.
-  - Company LinkedIn/press coverage: No public data found.
-  - Product Hunt launch: No public data found.
-  - YC batch acceptance: Summer 2026 (YC page).
-  - Founding year: 2025 (YC page).
-  - Job postings: No public data found (company hiring flag = False per YC data).
-  - Revenue/customers: No public data found.
-- **Competitors:**
-  - Browserbase ($66M+ total raised incl. $40M Series B at ~$300M valuation Jun 2025, revenue unknown; 1,000+ customers, 20K developers per Built In SF Jun 2025): ships browser-infrastructure + Stagehand SDK for developer-scripted automation vs. Rindler's MCP-native "deterministic API" wrapper.
-  - Anon ($13M raised, $8M seed Nov 2024, revenue unknown, TechCrunch/Tracxn): SDK focused on auth/2FA/CAPTCHA/IP proxying for agents vs. Rindler bundling auth plus extraction/actions/schema.
-  - Composio ($79.6M raised, $1M+ ARR, 100K+ developers, PRNewswire Jul 2025): 1,000+ pre-built toolkits for API-having SaaS vs. Rindler's focus on sites without APIs.
-  - MintMCP, TrueFoundry AI Gateway, Obot, Bifrost (funding/revenue unknown, truefoundry.com/mintmcp.com): MCP gateway/registry infrastructure vs. Rindler's per-site middleware.
-- **Why now:** [Inferred]: MCP standardization by Anthropic/OpenAI/Google/Microsoft in 2024–2025 (truefoundry.com/mintmcp.com) plus YC S26's "Software for Agents"/"Dynamic Software Interfaces" thesis (Forbes, Feb 2026; TheNextWeb) created a distribution surface for agent-first middleware.
+  - LinkedIn company page: 306 followers ([LinkedIn](https://www.linkedin.com/company/rindler), Jul 2026).
+  - Production availability: multi-tenant ATS workflows, major-bank read/export workflows, and state business-registry lookups are described as running in production ([Rindler technical description](https://rindler.ai/llms.txt), Jul 2026).
+  - Company benchmark: approximately 3x fewer failed tasks, 4x faster completion, and 6x cheaper execution than tested open-source agents, with no independent validation disclosed ([Rindler website](https://rindler.ai/), Jul 2026).
+  - YC Jobs: 0 active postings ([Y Combinator](https://www.ycombinator.com/companies/rindler), Jul 2026).
+- **Competitors (minimum 3, up to 5):**
+  - Browserbase ($67.5M raised, revenue unknown): supplies programmable cloud browsers and automation primitives, while Rindler supplies pre-mapped typed site actions ([Sacra](https://sacra.com/research/browserbase), Jun 2025).
+  - Browser Use ($17M raised, revenue unknown): provides an open-source browser-agent framework that interprets pages during execution, versus Rindler’s verified site configurations ([Browser Use](https://browser-use.com/posts/seed-round), Mar 2025).
+  - Kernel ($22M raised, revenue unknown): provides managed browser infrastructure and is also a Rindler sub-processor, while Rindler adds mappings, records, authentication flows, and MCP tools ([Kernel](https://www.kernel.sh/blog/series-a-announcement/), [Rindler privacy policy](https://rindler.ai/privacy), 2025–2026).
+  - Firecrawl ($16.2M raised, revenue unknown): converts public web content into AI-ready data, while Rindler targets authenticated workflows and state-changing actions ([Firecrawl](https://www.globenewswire.com/news-release/2025/08/19/3135573/0/en/firecrawl-announces-14-5-million-in-series-a-funding-to-put-web-data-on-tap-for-ai-agents.html), Aug 2025).
+- **Why now:** [Inferred]: MCP’s November 2024 release and subsequent adoption by ChatGPT, Cursor, Gemini, Microsoft Copilot, and more than 10,000 public MCP servers created a common distribution interface for an agent-agnostic web-action service ([Anthropic](https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation), Dec 2025).
 
 ## Founders & Team
 
-- **Michael Serrano (CEO, Co-founder):**
-  - Background: MEng at MIT CSAIL focused on "infrastructure of the future web"; graduated MIT (LinkedIn michael-y-serrano; Michael Serrano LinkedIn post activity-7476291624436662272).
-  - Twitter/X: @m_y_serrano (YC page); count not retrievable.
-  - LinkedIn: "MIT Computer Science and Artificial Intelligence Laboratory (CSAIL)" (linkedin.com/in/michael-y-serrano).
-  - GitHub: No public repos found.
-- **Arthur De Los Santos (Co-founder, CTO):**
-  - Background: MIT CS & AI alum, admitted MEng candidate; Advanced Undergraduate Researcher at MIT CSAIL; Autonomous Robotics Engineering Intern at Telexistence (LinkedIn arthurdelossantos; search snippet).
-  - Twitter/X: @_arthurdls_ (YC page; x.com/_arthurdls_); count not retrievable.
-  - LinkedIn: "Founder @ Rindler (YC S26)" (linkedin.com/in/arthurdelossantos).
-  - GitHub: No public repos found.
-- **Co-founder relationship:** Both graduated from MIT in 2025 and were classmates ("Arthur De Los Santos and I just graduated…" — Michael Serrano LinkedIn post, activity-7476291624436662272).
-- **Founder-market fit:** [Inferred]: MIT CSAIL background plus Serrano's stated focus on "infrastructure of the future web" and De Los Santos's applied ML/robotics work align with building browser-automation middleware (LinkedIn profiles; search snippets); YC Group Partner Ankit Gupta assigned (YC page); no named investors or advisors beyond YC found.
+- **Michael Serrano (Founder and CEO):**
+  - Background: MIT SB and MEng in Physics and Computer Science, former Roblox machine-learning engineer, and former MIT CSAIL LLM researcher ([Y Combinator](https://www.ycombinator.com/companies/rindler), Jul 2026).
+  - Twitter/X: No public account found.
+  - LinkedIn: “Rindler (YC S26),” with 2,175 followers ([LinkedIn](https://www.linkedin.com/in/michael-y-serrano), Jul 2026).
+  - GitHub: @michaelyserrano; `cold-pocket` has 2 stars ([GitHub](https://github.com/michaelyserrano), Jul 2026).
+- **Arthur De Los Santos (Founder):**
+  - Background: MIT ’26 in Computer Science/AI/ML and an MIT CSAIL Super UROP researcher ([Y Combinator](https://www.ycombinator.com/companies/rindler), [MIT CSAIL](https://www.csail.mit.edu/person/arthur-de-los-santos), Apr–Jul 2026).
+  - Twitter/X: No public account found.
+  - LinkedIn: “Rindler (YC S26),” with 617 followers ([LinkedIn](https://www.linkedin.com/in/arthurdelossantos), Jul 2026).
+  - GitHub: @arthurdls; `robust-vision-language-navigation` has 1 star ([GitHub](https://github.com/arthurdls), Jul 2026).
+- **Co-founder relationship:** Serrano and De Los Santos met at MIT in 2022 and both conducted research at MIT CSAIL ([Rindler technical description](https://rindler.ai/llms.txt), Jul 2026).
+- **Founder-market fit:** Their documented work spans machine learning, LLM research, computer vision, vision-language navigation, and production software engineering, which aligns with mapping websites for AI-agent execution ([Y Combinator](https://www.ycombinator.com/companies/rindler), [MIT CSAIL](https://www.csail.mit.edu/person/arthur-de-los-santos), 2026).
 
 ## Key Risks
 
-- **Well-funded direct competition:** Browserbase ($40M Series B at $300M valuation, Jun 2025, Built In SF) and Composio ($79.6M raised, $1M+ ARR, PRNewswire Jul 2025) already serve the "let agents use the web" wedge with SDKs, integrations, and thousands of paying developers; Rindler enters against distribution incumbents.
-- **Site-maintenance treadmill:** The YC description explicitly promises "robust maintenance when sites change" (YC page) — every target site is a moving surface (DOM, auth flows, bot detection) that must be continuously repaired, a scaling constraint for a two-person team; no automation or coverage figures are public.
-- **Legal/ToS exposure on scraping and auth:** Automating logins, 2FA, and bot-detection bypass on third-party sites creates ToS and CFAA-style legal risk that Anon and Browserbase have addressed via user-permissioned auth frameworks (TechCrunch, Apr 2024); Rindler's public materials do not disclose a specific legal/consent posture.
-- **Standard commoditization:** Rindler builds on the open MCP standard (YC page), meaning MCP-gateway players (MintMCP, TrueFoundry, Obot, Bifrost per truefoundry.com/mintmcp.com) can add per-site middleware, and open-source Stagehand (MIT license, GitHub) lowers the floor for new entrants.
-- **No visible revenue or customers:** No pricing page, customer logos, testimonials, waitlist counts, or press coverage were found at time of research (rindler.ai; web search).
+- **Mapping scalability:** Sites are mapped individually, and procurement, healthcare, court, permitting, and several commerce workflows were only mapped on request rather than running in production as of July 2026 ([Rindler technical description](https://rindler.ai/llms.txt), Jul 2026).
+- **Technical coverage:** Rindler states that some sites require deeper mappings and that bot-defended or authenticated sites may require credential or cookie capture ([Launch YC](https://www.ycombinator.com/launches/RHN-rindler-turn-any-website-into-an-api-for-ai-agents), Jul 2026).
+- **Security and certification:** Rindler stores encrypted session cookies and persists chat and tool-call content but was not SOC 2, HIPAA, or PCI certified as of July 2026 ([Rindler privacy policy](https://rindler.ai/privacy), Jul 2026).
+- **Third-party-site restrictions:** Customers are responsible for complying with the terms of websites accessed through Rindler, and some sessions use proxies, browser-profile rotation, or CAPTCHA-solving infrastructure ([Rindler FAQ](https://rindler.ai/faq), Jul 2026).
+- **Infrastructure dependence:** Rindler names Kernel as its managed-browser provider and Browserbase as its fallback, placing core execution partly on suppliers that also sell adjacent browser infrastructure ([Rindler privacy policy](https://rindler.ai/privacy), Jul 2026).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | No public data found |
+| TAM | Broader AI-agents market: $8.29B in 2025 and $12.06B forecast for 2026, 45.5% increase ([Research and Markets](https://www.researchandmarkets.com/reports/6103459/ai-agents-market-report), 2026) |
 | SAM | No public data found |
-| Traction | Company X account @RindlerAI exists (x.com/RindlerAI, count not retrievable); YC S26 accepted (YC page); founded 2025 (YC page) |
-| Revenue Signal | No public data found |
-| Founders | Michael Serrano (CEO): MIT CSAIL MEng focused on future-web infrastructure. Arthur De Los Santos (CTO): MIT CS & AI, MIT CSAIL researcher, ex-Telexistence robotics intern. |
-| Competitors | Browserbase ($66M+ raised incl. $40M Series B Jun 2025 at ~$300M valuation, revenue unknown, browser infrastructure + Stagehand SDK); Anon ($13M raised, revenue unknown, agent auth SDK); Composio ($79.6M raised, $1M+ ARR, 1,000+ prebuilt toolkits for API-having services); MintMCP/TrueFoundry/Obot/Bifrost (funding unknown, MCP gateway infrastructure) |
-| Moat Signals | No public data found |
-| Risk Factors | Well-funded direct competition (Browserbase/Composio/Anon), site-maintenance scaling burden, ToS/legal exposure on auth-bypassing automation |
-| Founder Reach | Michael Serrano: Twitter @m_y_serrano (count not retrievable), LinkedIn michael-y-serrano, GitHub not found. Arthur De Los Santos: Twitter @_arthurdls_ (count not retrievable), LinkedIn arthurdelossantos, GitHub not found. |
-| Distribution Signals | Company X account @RindlerAI (x.com/RindlerAI); no Product Hunt, Chrome Web Store, or press coverage found |
-| Emails | No public data found |
-
-Sources:
-- [Rindler on Y Combinator](https://www.ycombinator.com/companies/rindler)
-- [Rindler homepage](https://rindler.ai/)
-- [Arthur De Los Santos LinkedIn](https://www.linkedin.com/in/arthurdelossantos/)
-- [Michael Serrano LinkedIn](https://www.linkedin.com/in/michael-y-serrano/)
-- [Michael Serrano LinkedIn post on YC/graduation](https://www.linkedin.com/posts/michael-y-serrano_arthur-de-los-santos-and-i-just-graduated-activity-7476291624436662272-Kn-z)
-- [Rindler on X](https://x.com/RindlerAI)
-- [Browserbase Series B — Built In SF, Jun 2025](https://www.builtinsf.com/articles/browserbase-announces-40m-series-b-funding-20250618)
-- [Browserbase $40M raise — Upstarts Media](https://www.upstartsmedia.com/p/browserbase-raises-40m-and-launches-director)
-- [Stagehand GitHub](https://github.com/browserbase/stagehand)
-- [Anon $8M seed — TechCrunch, Apr 2024](https://techcrunch.com/2024/04/24/anon-is-building-an-automated-authentication-layer-for-the-gen-ai-age/)
-- [Anon on Tracxn](https://tracxn.com/d/companies/anon/__tQLrNbg80zRRF7smInFfPVRHW1oSQmcZPPOKmyY2ebU)
-- [Composio $29M Series A — PRNewswire](https://www.prnewswire.com/news-releases/composio-raises-29m-to-solve-ais-learning-problem-building-skills-that-actually-improve-over-time-302510684.html)
-- [Composio $25M — SiliconANGLE, Jul 2025](https://siliconangle.com/2025/07/22/composio-raises-25m-funding-ease-ai-agent-development/)
-- [YC S26 RFS / Software for Agents — Forbes, Feb 2026](https://www.forbes.com/sites/josipamajic/2026/02/04/ycs-2026-roadmap-signals-a-shift-from-human-augmented-to-ai-native-startups/)
-- [MCP gateway landscape — MintMCP](https://www.mintmcp.com/blog/gateways-ai-startups-with-mcp)
-- [MCP alternatives — TrueFoundry](https://www.truefoundry.com/blog/best-mint-mcp-alternatives-for-ai-agent-infrastructure)
+| Traction | 306 LinkedIn followers; ATS, major-bank read/export, and state-registry workflows described as in production; company benchmark reports 3x fewer failures, 4x faster completion, and 6x lower execution cost ([LinkedIn](https://www.linkedin.com/company/rindler), [Rindler technical description](https://rindler.ai/llms.txt), Jul 2026) |
+| Revenue Signal | $0 Free, $100/month Starter with 100 credits, $1,000/month Teams with 1,000 credits, and custom Enterprise pricing; one credit equals one successful $1 session ([Rindler pricing](https://rindler.ai/pricing), Jul 2026) |
+| Founders | Michael Serrano (Founder/CEO): MIT SB/MEng, Roblox ML engineer, MIT CSAIL LLM research; Arthur De Los Santos (Founder): MIT CS/AI/ML ’26, MIT CSAIL Super UROP ([Y Combinator](https://www.ycombinator.com/companies/rindler), [MIT CSAIL](https://www.csail.mit.edu/person/arthur-de-los-santos), 2026) |
+| Competitors | Browserbase ($67.5M raised, revenue unknown, cloud browsers); Browser Use ($17M, revenue unknown, live browser-agent framework); Kernel ($22M, revenue unknown, managed browsers); Firecrawl ($16.2M, revenue unknown, public-web extraction) ([Sacra](https://sacra.com/research/browserbase), [Browser Use](https://browser-use.com/posts/seed-round), [Kernel](https://www.kernel.sh/blog/series-a-announcement/), [Firecrawl](https://www.globenewswire.com/news-release/2025/08/19/3135573/0/en/firecrawl-announces-14-5-million-in-series-a-funding-to-put-web-data-on-tap-for-ai-agents.html), 2025) |
+| Moat Signals | Per-site typed mappings, automated verification, self-healing configurations, encrypted reusable sessions, and production workflows across ATS, banking, and registries ([Rindler technical description](https://rindler.ai/llms.txt), Jul 2026) |
+| Risk Factors | Per-site mapping scalability, incomplete workflow coverage, absent SOC 2/HIPAA/PCI certifications, and managed-browser supplier dependence ([Rindler technical description](https://rindler.ai/llms.txt), [Rindler privacy policy](https://rindler.ai/privacy), Jul 2026) |
+| Founder Reach | Michael Serrano: LinkedIn 2,175, GitHub top repo 2 stars; Arthur De Los Santos: LinkedIn 617, GitHub top repo 1 star ([Michael LinkedIn](https://www.linkedin.com/in/michael-y-serrano), [Michael GitHub](https://github.com/michaelyserrano), [Arthur LinkedIn](https://www.linkedin.com/in/arthurdelossantos), [Arthur GitHub](https://github.com/arthurdls), Jul 2026) |
+| Distribution Signals | LinkedIn company page: 306 followers; X: @RindlerAI, count not retrievable; Launch YC listing published in July 2026 ([LinkedIn](https://www.linkedin.com/company/rindler), [Rindler technical description](https://rindler.ai/llms.txt), [Launch YC](https://www.ycombinator.com/launches/RHN-rindler-turn-any-website-into-an-api-for-ai-agents), Jul 2026) |
+| Emails | founders@rindler.ai, team@rindler.ai ([Rindler technical description](https://rindler.ai/llms.txt), [Rindler GitHub](https://github.com/rindler-ai), Jul 2026) |

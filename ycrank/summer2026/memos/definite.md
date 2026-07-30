@@ -1,104 +1,86 @@
 ﻿# Definite
 
-> The most accurate financial agents
+> Build everyday back-office agents on one live model of your books
 
 | Field | Value |
 |-------|-------|
 | Website | https://www.usedefinite.com |
 | YC Page | https://www.ycombinator.com/companies/definite |
 | Batch | Summer 2026 |
-| Industry | B2B / B2B -> Infrastructure |
+| Industry | B2B / B2B -> Finance and Accounting |
 | Team Size | 3 |
 | Location | San Francisco, CA, USA |
 | Tags | Artificial Intelligence, Fintech, SaaS, Finance |
 | YC Partner | Ankit Gupta |
-| Emails | contact@usedefinite.com |
+| Emails | contact@usedefinite.com, gurshabd@usedefinite.com |
 
 ## The Idea
 
-- **Problem:** Financial back-office AI agent pilots demo well but fail to graduate to production because teams cannot trust the outputs enough to stop re-checking every number (company description, YC page).
-- **Approach:** A verification engine that recomputes agent outputs from source documents (contracts, rate tables, ledger records) and returns wrong outputs to the agent with a compiler-style error before anything ships (usedefinite.com; YC page).
-- **Differentiation:** Vs. LLM-as-judge (misses what agent missed) and hand-written deterministic rules (only cover what someone wrote down) — Definite's verifier is independent of the model doing the work and recomputes rather than grades (YC company description).
-- **Business Model:** [Inferred]: Enterprise SaaS to banks/credit unions with single-tenant VPC or self-hosted deployment tiers, pricing not disclosed on site (usedefinite.com — deployment options page); no public pricing page found.
-- **TAM/SAM:** No public TAM/SAM data found for AI verification for financial back office; adjacent close-management/AI-accounting category reference: Numeric raised $51M Series B to "expand beyond close management" (PR Newswire, 2026).
-- **GTM / Distribution:** [Inferred]: Direct sales into US banks/credit unions given product surface area (Call Reports, NCUA 5300, HMDA, legal lending limits) which are US regulatory artifacts (usedefinite.com feature list).
+- **Problem:** Finance teams manually reconcile data from ERPs, ledgers, payroll, and payment systems because general-purpose automation tools assume that records are already normalized and joined ([YC company page, Jul 2026](https://www.ycombinator.com/companies/definite)).
+- **Approach:** Definite connects read-only to finance systems, normalizes and joins records into canonical transactions, invoices, vendors, and payments, and lets controllers construct agents from plain-English triggers, context, checks, and actions ([company website, Jul 2026](https://www.usedefinite.com/)).
+- **Differentiation:** Unlike n8n and Workato, Definite supplies a finance-specific context layer with source lineage, while unlike Rillet and Puzzle it sits above existing accounting systems without replacing the ledger ([company website, Jul 2026](https://www.usedefinite.com/); [Rillet, Aug 2025](https://www.rillet.com/blog/rillet-raises-70m-series-b-from-andreessen-horowitz-and-iconiq); [Puzzle, Sep 2022](https://puzzle.io/blog/puzzle-launches-smart-accounting-software-for-startups-announces-15m-series-a-led-by-general-catalyst)).
+- **Business Model:** [Inferred]: Definite likely sells organization-level enterprise subscriptions through order forms because its terms place fees, billing periods, and payment terms in customer-specific order forms rather than publishing self-service tiers.
+- **TAM/SAM:** The global accounting and financial-close software market was estimated at $10.84 billion in 2025 with an 8.6% forecast CAGR ([Reports and Data, 2026](https://www.reportsanddata.com/report-detail/accounting-and-financial-close-software-market)); no public SAM was found for Definite’s read-only finance-agent data layer.
+- **GTM / Distribution:** Definite solicits demos from finance teams and introductions to finance or engineering executives at banks, credit unions, fintechs, and insurers ([YC launch, Jul 2026](https://www.ycombinator.com/companies/definite)).
 
 ## Defensibility
 
-- **Moat today:** [Inferred]: Domain-specific verification engine encoding US bank/credit union regulatory edit checks (Call Report, 5300, HMDA) is the primary asset, but no proprietary data, customer count, or contract evidence is public (usedefinite.com).
-- **Future moat:** [Inferred]: Switching costs could accrue once a verifier is embedded as the pre-execution gate for AP, ledger, and regulatory filings ("nothing lands" without it — company positioning on YC page); unproven now because no customers are named publicly.
-- **Market structure:** [Inferred]: Incumbent risk/compliance platforms (Ncontracts, Abrigo) sell workflow modules, not model-independent verification of agent outputs, and re-architecting their stack around "recompute-before-execute" would cannibalize existing review-tool revenue (Ncontracts profile, ncontracts.com; company positioning on YC page).
-- **Commoditization risk:** Any AI-accounting or close-management vendor (Numeric, Trullion, Puzzle) could add a verification layer; Trullion already ships "Financial Statement Validation" that checks statements for math accuracy and cross-statement alignment (trullion.com).
+- **Moat today:** Definite documents normalized cross-system entities, immutable snapshots, per-value source lineage, deterministic verdicts, and hash-chained receipts, but no patents, proprietary dataset scale, or customer switching evidence was found ([company website](https://www.usedefinite.com/); [Definite documentation](https://docs.usedefinite.com/)).
+- **Future moat:** [Inferred]: Reusable source connectors, mapping rules, and historical reconciliation data could reduce onboarding work over time, but no connector volume, mapping-accuracy data, or accumulated-data scale is public.
+- **Market structure:** No structural barrier prevents ERP, close-management, or workflow vendors from adding read-only normalization and agent builders, although reproducing mappings across NetSuite, QuickBooks, Sage, Workday, ADP, Stripe, Bill.com, and Ramp requires multiple maintained integrations ([company website, Jul 2026](https://www.usedefinite.com/)).
+- **Commoditization risk:** Numeric, Rillet, FloQast, n8n, Workato, and incumbent accounting platforms already provide adjacent finance automation, workflow, data, or AI functionality ([Numeric, Nov 2025](https://www.numeric.io/blog/numeric-raises-51m-series-b); [Rillet, Aug 2025](https://www.rillet.com/blog/rillet-raises-70m-series-b-from-andreessen-horowitz-and-iconiq); [FloQast, Apr 2024](https://www.floqast.com/press-releases/floqast-secures-100-million-in-series-e-funding-achieving-1-6-billion-valuation)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Backed by Y Combinator, Summer 2026 batch (YC page).
-  - Company previously listed on YC as "Bylaw" with identical description and founders; now rebranded to "Definite" within the same S26 batch (ycombinator.com/companies/bylaw; ycombinator.com/companies/definite).
-  - No public revenue, customer count, user count, press coverage, Product Hunt listing, or social follower counts found in searches.
-  - Hiring flag: False (company_data).
-- **Competitors:**
-  - Numeric ($89M total raised, $51M Series B led by IVP in 2026, revenue undisclosed): AI close-management platform for controllers, auto-tags GL transactions and surfaces anomalies (PR Newswire, 2026; numeric.io).
-  - Trullion ($34M total raised, $15M Series A co-led by Aleph and Third Point Ventures, revenue undisclosed): AI validation of financial statements plus lease accounting and revenue recognition (trullion.com; Startup Nation Finder).
-  - Puzzle (revenue unknown, private funding not cited in retrieved sources): AI accounting keeping cash and accrual books with human-in-the-loop approval (puzzle.io).
-  - Ncontracts (private, funding not cited in retrieved sources; serves 4,000+ FIs): enterprise risk/compliance and Call Report KPIs for banks and credit unions (ncontracts.com).
-  - Auditoria.AI / Vic.ai / DataSnipper: adjacent agentic-finance vendors named in market roundups (cygnet.one, 2026).
-- **Why now:** [Inferred]: Enterprise deployment of LLM agents in 2024-2026 exposed a systematic "middle" verification gap between deterministic rules and human sampling (company thesis on YC page); no independent analyst citation for the timing found.
+  - Summer 2026 YC participation and one public YC launch ([YC company page, Jul 2026](https://www.ycombinator.com/companies/definite)).
+  - Zero active YC job postings ([YC company page, Jul 2026](https://www.ycombinator.com/companies/definite)).
+- **Competitors (minimum 3, up to 5):**
+  - Numeric ($89 million raised, revenue unknown): automates close management, reporting, and cash management rather than supplying a customer-built agent layer over multiple finance systems ([Numeric, Nov 2025](https://www.prnewswire.com/news-releases/numeric-raises-51m-series-b-expanding-from-close-management-to-comprehensive-finance-platform-302619774.html)).
+  - Rillet (over $100 million raised, revenue unknown): replaces the ERP and accounting ledger, whereas Definite states that it connects read-only without migration or write-back ([Rillet, Aug 2025](https://www.rillet.com/blog/rillet-raises-70m-series-b-from-andreessen-horowitz-and-iconiq); [Definite website](https://www.usedefinite.com/)).
+  - Puzzle (at least $15 million raised, revenue unknown): provides an AI-first accounting system for startups and small businesses, while Definite positions itself as a context and agent layer over existing systems ([Puzzle, Sep 2022](https://puzzle.io/blog/puzzle-launches-smart-accounting-software-for-startups-announces-15m-series-a-led-by-general-catalyst); [Definite website](https://www.usedefinite.com/)).
+- **Why now:** [Inferred]: Finance-agent adoption creates demand for traceable source data because 79% of surveyed executives reported company adoption of agents in 2025, while only 34% reported accounting-and-finance use ([PwC, Jul 2025](https://www.pwc.com/us/en/tech-effect/ai-analytics/ai-agents-for-finance.html)).
 
 ## Founders & Team
 
+- **Mazin Al-Ani (Founder):**
+  - Background: Studied computer science at the University of Waterloo and completed software-engineering internships at Optiver and Boosted.ai involving trading systems and AI for financial analysts ([YC company page, Jul 2026](https://www.ycombinator.com/companies/definite)).
+  - Twitter/X: No public account found.
+  - LinkedIn: No verified public profile found.
+  - GitHub: No public repos found.
+- **Farhan Ur Rehman (Founder):**
+  - Background: Studied statistics at the University of Waterloo and previously worked in software engineering on Instagram Reels recommendations at Meta ([YC company page, Jul 2026](https://www.ycombinator.com/companies/definite)).
+  - Twitter/X: No public account found.
+  - LinkedIn: No verified public profile found.
+  - GitHub: No public repos found.
 - **Gurshabd Singh Varaich (Founder & CEO):**
-  - Background: Studied at University of Waterloo (CS/Statistics per differing sources); prior SWE roles at Meta (Instagram Reels recommendation) and BitGo (pre-execution wallet policy/approval controls); additional intern stints at Ford and theScore (RocketReach; LinkedIn snippet via search).
-  - Twitter/X: No public account found in searches.
-  - LinkedIn: linkedin.com/in/gvaraich/ (headline not retrievable — WebFetch returned 999).
-  - GitHub: No public repos found in searches.
-- **Mazin Al-Ani (Co-founder):**
-  - Background: CS at University of Waterloo; SWE intern at Optiver; additional internships cited in search snippet include Point72 Macro Technology, Wealthsimple, and Amazon; awards include 2021 International Earth Science Olympiad Finalist/Medalist (LinkedIn headline "cs @ uw, swe @ optiver"; search snippet from LinkedIn).
+  - Background: Studied computer science at the University of Waterloo and interned at BitGo on pre-execution wallet policies and approval controls ([YC company page, Jul 2026](https://www.ycombinator.com/companies/definite)).
   - Twitter/X: No public account found.
-  - LinkedIn: "cs @ uw, swe @ optiver" (linkedin.com/in/mazinalani/ via search snippet).
+  - LinkedIn: “Co-Founder & CEO at Definite (YC S26)” ([LinkedIn profile, Jul 2026](https://ca.linkedin.com/in/gvaraich)).
   - GitHub: No public repos found.
-- **Farhan Ur Rehman (Co-founder):**
-  - Background: Bachelor of Statistics, University of Waterloo; prior experience at Meta (Instagram Reels recommendation), AutoTrader.ca, Senso, and Malleum (RocketReach; LinkedIn snippet via search).
-  - Twitter/X: No public account found.
-  - LinkedIn: linkedin.com/in/farhan-ur-rehman/ (headline not retrievable — WebFetch returned 999).
-  - GitHub: No public repos found.
-- **Co-founder relationship:** All three met in first year studying computer science at University of Waterloo (YC company description).
-- **Founder-market fit:** [Inferred]: Prior work at Meta, Optiver, and BitGo — environments where an unverified number moving through a production system has real financial consequences — maps to the verification-before-execution thesis (YC company description; RocketReach snippets); no advisor or investor names beyond YC found.
+- **Co-founder relationship:** The founders met during their first year at the University of Waterloo ([YC company page, Jul 2026](https://www.ycombinator.com/companies/definite)).
+- **Founder-market fit:** Mazin’s Optiver and finance-AI experience, Farhan’s recommendation-system work, and Gurshabd’s BitGo controls work provide documented exposure to financial systems, machine learning, and controlled transaction infrastructure ([YC company page, Jul 2026](https://www.ycombinator.com/companies/definite)).
 
 ## Key Risks
 
-- **Regulated-buyer sales cycle:** Product surface (Call Reports, 5300, HMDA, legal lending limits) targets US banks and credit unions, buyers with long procurement cycles and SOC2/vendor-review gates (usedefinite.com feature list); no signed customer or design partner is publicly named. Mitigation: phased onboarding starts with zero-access analysis of public filings before read-only shadow mode (usedefinite.com).
-- **Positioning volatility mid-batch:** Company appears to have rebranded from "Bylaw" to "Definite" and narrowed messaging from horizontal "AI agent verification" to bank compliance and reporting during the S26 batch (ycombinator.com/companies/bylaw vs. ycombinator.com/companies/definite; usedefinite.com). Mitigation: none identified in public sources.
-- **Technical feasibility of model-independent verification:** Claim is that verification must recompute from source documents rather than grade with a model, but extracting clean, structured facts from heterogeneous contracts and rate tables at bank-audit precision is itself an unsolved parsing problem (YC company description; no benchmark or accuracy figure published).
-- **Incumbent substitution:** Ncontracts already ships Call Report KPIs to 4,000+ financial institutions, and Trullion ships AI financial-statement validation — either could bolt on agent-output verification as a feature (ncontracts.com; trullion.com).
-- **Commoditization by well-funded neighbors:** Numeric ($89M raised) and Trullion ($34M raised) sit adjacent with capital to move into verification (PR Newswire, 2026; Startup Nation Finder).
+- **Product-positioning transition:** The YC launch describes end-to-end regulatory reporting for banks, while the current website describes a broader finance context layer and customer-built agents, creating uncertainty about the current initial use case ([YC launch](https://www.ycombinator.com/companies/definite); [company website](https://www.usedefinite.com/)).
+- **Read-only action boundary:** Agents can flag, draft, and notify but cannot post entries or move money, so workflows requiring execution must continue through another system or a human operator ([company website, Jul 2026](https://www.usedefinite.com/)).
+- **Source-data dependency:** Definite’s terms state that checks depend on the accuracy and completeness of customer source systems, with missing data producing a “Cannot verify” result ([terms, Jul 2026](https://usedefinite.com/legal/terms-conditions)).
+- **Incumbent overlap:** Numeric, Rillet, and FloQast have raised $89 million, over $100 million, and a $100 million Series E respectively to develop overlapping finance-data and automation products ([Numeric, Nov 2025](https://www.prnewswire.com/news-releases/numeric-raises-51m-series-b-expanding-from-close-management-to-comprehensive-finance-platform-302619774.html); [Rillet, Aug 2025](https://www.rillet.com/blog/rillet-raises-70m-series-b-from-andreessen-horowitz-and-iconiq); [FloQast, Apr 2024](https://www.floqast.com/press-releases/floqast-secures-100-million-in-series-e-funding-achieving-1-6-billion-valuation)).
+- **Model trust:** Deloitte reported trust as the main barrier to agentic-AI adoption in finance and accounting; Definite’s stated mitigation is deterministic checks, human review, read-only access, and hash-chained evidence ([Deloitte, Jul 2025](https://www.deloitte.com/us/en/about/press-room/trust-main-barrier-to-agentic-ai-adoption-in-finance-and-accounting.html); [Definite documentation](https://docs.usedefinite.com/)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | No public data found |
+| TAM | $10.84B global accounting and financial-close software market in 2025, 8.6% forecast CAGR (Reports and Data, 2026) |
 | SAM | No public data found |
-| Traction | YC Summer 2026 backing (ycombinator.com/companies/definite); rebrand from Bylaw within S26 (ycombinator.com/companies/bylaw) |
+| Traction | Summer 2026 YC participation and public launch (YC company page, Jul 2026) |
 | Revenue Signal | No public data found |
-| Founders | Gurshabd Singh Varaich (CEO): Waterloo CS, ex-Meta Instagram, ex-BitGo. Mazin Al-Ani: Waterloo CS, ex-Optiver, ex-Point72. Farhan Ur Rehman: Waterloo Statistics, ex-Meta Instagram, ex-AutoTrader.ca. |
-| Competitors | Numeric ($89M raised, revenue unknown, AI close-management for controllers); Trullion ($34M raised, revenue unknown, AI financial-statement validation and lease accounting); Puzzle (funding not cited, revenue unknown, AI accounting with human-in-loop); Ncontracts (funding not cited, 4,000+ FI customers, incumbent risk/Call Report vendor); Auditoria.AI / Vic.ai (adjacent agentic-finance vendors named in cygnet.one 2026 roundup) |
-| Moat Signals | No public data found |
-| Risk Factors | Regulated-buyer sales cycle, mid-batch rebrand/positioning volatility, incumbent substitution by Ncontracts/Trullion |
-| Founder Reach | Gurshabd Varaich: LinkedIn linkedin.com/in/gvaraich/ (count not retrievable), Twitter not found, GitHub not found. Mazin Al-Ani: LinkedIn linkedin.com/in/mazinalani/ (count not retrievable), Twitter not found, GitHub not found. Farhan Ur Rehman: LinkedIn linkedin.com/in/farhan-ur-rehman/ (count not retrievable), Twitter not found, GitHub not found. |
-| Distribution Signals | No public data found |
-| Emails | contact@usedefinite.com (usedefinite.com/contact) |
-
-Sources:
-- [Definite YC page](https://www.ycombinator.com/companies/definite)
-- [Bylaw YC page (prior name)](https://www.ycombinator.com/companies/bylaw)
-- [Definite website](https://www.usedefinite.com)
-- [Numeric $51M Series B (PR Newswire)](https://www.prnewswire.com/news-releases/numeric-raises-51m-series-b-expanding-from-close-management-to-comprehensive-finance-platform-302619774.html)
-- [Trullion Series A funding](https://trullion.com/newsroom/trullion-raises-15m-in-series-a-funding/)
-- [Ncontracts Call Report KPIs](https://www.ncontracts.com/nsight-blog/ncontracts-launches-new-call-report-kpis-for-leading-enterprise-risk-management-software)
-- [Trullion Financial Statement Validation](https://trullion.com/products/financial-statement-validation/)
-- [Best Agentic AI Tools for Finance Teams 2026 (Cygnet)](https://www.cygnet.one/feeds/blog/agentic-ai-tools-finance-teams)
-- [Mazin Al-Ani LinkedIn](https://www.linkedin.com/in/mazinalani/)
-- [Farhan Ur Rehman LinkedIn](https://ca.linkedin.com/in/farhan-ur-rehman)
-- [Gurshabd Varaich LinkedIn](https://www.linkedin.com/in/gvaraich/)
-- [Farhan Rehman RocketReach](https://rocketreach.co/farhan-rehman-email_434949585)
+| Founders | Mazin Al-Ani (Founder): Waterloo CS, Optiver and Boosted.ai; Farhan Ur Rehman (Founder): Waterloo statistics, Meta; Gurshabd Singh Varaich (CEO): Waterloo CS, BitGo (YC company page, Jul 2026) |
+| Competitors | Numeric ($89M raised, revenue unknown, close and reporting platform; PR Newswire, Nov 2025); Rillet (over $100M raised, revenue unknown, AI-native ERP; Rillet, Aug 2025); Puzzle (at least $15M raised, revenue unknown, startup accounting system; Puzzle, Sep 2022) |
+| Moat Signals | Immutable snapshots, deterministic checks, source lineage, and hash-chained receipts (Definite documentation, Jul 2026) |
+| Risk Factors | Product-positioning transition (YC launch and company website, Jul 2026), read-only action boundary (company website, Jul 2026), source-data dependency (Definite terms, Jul 2026) |
+| Founder Reach | No public data found |
+| Distribution Signals | Summer 2026 YC launch; zero YC job postings (YC company page, Jul 2026) |
+| Emails | contact@usedefinite.com (company terms and documentation, Jul 2026); gurshabd@usedefinite.com (YC launch, Jul 2026) |

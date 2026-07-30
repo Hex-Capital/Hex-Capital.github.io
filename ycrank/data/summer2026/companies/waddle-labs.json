@@ -1,0 +1,82 @@
+{
+  "slug": "waddle-labs",
+  "name": "Waddle Labs",
+  "oneLiner": "Agents for robotics control.",
+  "metadata": {
+    "website": "https://www.waddlelabs.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/waddle-labs",
+    "batch": "Summer 2026",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+    "team_size": "2",
+    "location": "Boston, MA, USA",
+    "tags": "Developer Tools, Generative AI, Robotics, Automation",
+    "yc_partner": "Ankit Gupta",
+    "emails": "founders@waddlelabs.ai"
+  },
+  "tags": [
+    "Developer Tools",
+    "Generative AI",
+    "Robotics",
+    "Automation"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T18:17:49.022Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 66,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 72,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 69,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 63,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 66,
+    "EG": 56,
+    "NR": 72,
+    "PG": 69,
+    "PT": 57,
+    "SL": 45,
+    "VK": 63
+  },
+  "consolidatedAvg": 61.14,
+  "consolidatedRank": 15,
+  "traction": {
+    "tractionRank": 119,
+    "tractionScore": 30,
+    "tractionReason": "Preview API and internal robot tests"
+  },
+  "paths": {
+    "memo": "summer2026/memos/waddle-labs.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/waddle-labs.md",
+      "elad-gil": "summer2026/evals/elad-gil/waddle-labs.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/waddle-labs.md",
+      "paul-graham": "summer2026/evals/paul-graham/waddle-labs.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/waddle-labs.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/waddle-labs.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/waddle-labs.md"
+    }
+  }
+}

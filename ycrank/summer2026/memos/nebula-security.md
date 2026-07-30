@@ -1,6 +1,6 @@
 ﻿# Nebula Security
 
-> An AI-native cybersecurity company
+> A security engineer in your team
 
 | Field | Value |
 |-------|-------|
@@ -8,98 +8,89 @@
 | YC Page | https://www.ycombinator.com/companies/nebula-security |
 | Batch | Summer 2026 |
 | Industry | B2B / B2B -> Security |
-| Team Size | 2 |
+| Team Size | 4 |
 | Location | Vancouver, WA, USA; Remote |
-| Tags | Cybersecurity, AI |
-| YC Partner | Ankit Gupta |
-| Emails | root@nebusec.ai, info@nebusec.ai |
+| Tags | Artificial Intelligence, B2B, Security, Cybersecurity, Enterprise |
+| YC Partner | Ankit Gupta ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/nebula-security)) |
+| Emails | info@nebusec.ai, root@nebusec.ai, founders@nebusec.ai ([company website](https://nebusec.ai/), [security-audit page](https://nebusec.ai/security-audit/), [Y Combinator](https://www.ycombinator.com/companies/nebula-security), Jul 2026) |
 
 ## The Idea
 
-- **Problem:** Software teams face rising volumes of code-level and architectural vulnerabilities, and today rely on legacy SAST scanners (Snyk, Semgrep) plus manual pentesting engagements to catch them (nebusec.ai company page).
-- **Approach:** Nebula's VEGA agent performs AI-driven code scanning that has independently discovered production zero-days including Chrome V8 sandbox escape CVE-2026-6307 and V8 RCE CVE-2026-5865, paired with a premium human audit service ("Audited by Nebula Security" mark) (nebusec.ai; nebusec.ai/research/v8-cve-2026-6307-writeup/).
-- **Differentiation:** [Inferred]: Versus Snyk/Semgrep (pattern-based SAST) and XBOW (autonomous pentest), Nebula pairs an AI scanner with a founder-led offensive-research audit brand, signaling deeper-bug discovery than rules-based scanners (based on nebusec.ai product description and XBOW comparison via SecurityWeek, Mar 2026).
-- **Business Model:** No public pricing page found; company description references "premium security auditing" alongside VEGA scanning, and YC S26 companies receive $500K on the YC standard deal in USDC (cryptobriefing.com, Jun 2026); [Inferred]: services-plus-SaaS model.
-- **TAM/SAM:** No public TAM/SAM data found for this specific segment.
-- **GTM / Distribution:** [Inferred]: Distribution to YC portfolio companies first — the WebSearch snippet noted "they launched VEGA within YC companies and received overwhelmingly positive feedback" (via search snippet) — expanding through the "Audited by Nebula Security" trust mark for external buyers.
+- **Problem:** Software teams must detect code-level, architectural, and business-logic vulnerabilities before release, while existing alternatives include rule-based scanners, manual review, and periodic penetration tests that can generate false positives or miss multistep flaws ([Nebula Security audit page](https://nebusec.ai/security-audit/); [Gecko Security launch](https://www.ycombinator.com/companies/gecko-security), Jul 2026).
+- **Approach:** VEGA scans full repositories and pull requests, monitors code changes, analyzes root causes, produces proofs of concept and patches, and combines automated analysis with researcher-led validation ([Nebula Security Vega page](https://nebusec.ai/vega/); [Y Combinator](https://www.ycombinator.com/companies/nebula-security), Jul 2026).
+- **Differentiation:** Nebula pairs its agent with exploit-focused researchers, whereas Gecko uses a compiler-accurate indexer plus LLM threat modeling, ZeroPath combines LLMs with AST analysis and one-click patches, XBOW continuously attacks deployed applications, and Semgrep combines deterministic rules with AI reasoning ([Nebula audit process](https://nebusec.ai/security-audit/); [Gecko](https://www.ycombinator.com/companies/gecko-security); [ZeroPath](https://zeropath.com/blog/introducing-zeropath-v1); [XBOW](https://xbow.com/news/xbow-raises-120m-to-scale); [Semgrep](https://semgrep.dev/blog/2025/series-d-announcement/)).
+- **Business Model:** The Researcher plan is pay-as-you-go with metered features and per-repository subscriptions, while the Enterprise plan uses contact-sales pricing for multiple repositories ([Nebula Security Vega page](https://nebusec.ai/vega/), Jul 2026).
+- **TAM/SAM:** The application-security market was estimated at $33.7 billion in 2024 and projected to reach $55 billion by 2029 at a 10.3% CAGR, while SAST software was estimated at $6.25 billion in 2025 and projected to reach $13.15 billion by 2033 at a 9.74% CAGR ([Research and Markets](https://www.researchandmarkets.com/report/application-security); [Future Market Report](https://www.futuremarketreport.com/industry-report/static-application-security-testing-software-market/)).
+- **GTM / Distribution:** Nebula combines per-repository product access with demo-led enterprise sales and opened VEGA to enterprise customers through a private beta ([Vega page](https://nebusec.ai/vega/); [Nebula LinkedIn](https://www.linkedin.com/company/nebula-security/), Jul 2026).
 
 ## Defensibility
 
-- **Moat today:** Public CVE discoveries (CVE-2026-6307 Chrome V8 sandbox escape; CVE-2026-5865 V8 RCE; CVE-2026-23274 Linux kernel with $10,500 bounty) documented on nebusec.ai/research and NVD serve as credibility evidence for the audit brand.
-- **Future moat:** [Inferred]: A proprietary corpus of exploitation traces and bug-class patterns from VEGA scans could compound into a data moat versus rules-based SAST; unproven because scan volume and customer count are not disclosed.
-- **Market structure:** [Inferred]: No structural barrier identified at this stage — Snyk ($1.32B raised, $8.5B valuation per Tracxn/PitchBook 2026) and Semgrep ($196M raised per Clay 2026) have deeper distribution and resources.
-- **Commoditization risk:** XBOW ($237M raised across Series C + extension, Mar–May 2026 per SecurityWeek/GeekWire) and Semgrep are already shipping AI-native code security; open-source pentest agents (e.g., berylliumsec/nebula on GitHub) exist as free alternatives.
+- **Moat today:** Nebula reports 1,162 validated findings, 98 public CVEs, and a public exploit repository with 1,186 GitHub stars, providing evidence of vulnerability-discovery and exploit-validation capability ([Vega page](https://nebusec.ai/vega/); [GitHub](https://github.com/NebuSec), Jul 2026).
+- **Future moat:** [Inferred]: Repeated scans, exploit validation, patch outcomes, and researcher feedback could create a proprietary vulnerability dataset, but no public evidence shows that customer-derived data currently produces a compounding advantage.
+- **Market structure:** No structural barrier identified at this stage, because competing startups and model providers can sell code scanning or autonomous penetration testing through similar developer and enterprise channels ([Axios](https://www.axios.com/2026/03/06/openai-codex-security-ai-cyber); [Gecko](https://www.ycombinator.com/companies/gecko-security)).
+- **Commoditization risk:** OpenAI, Gecko, ZeroPath, Semgrep, and XBOW offer overlapping automated discovery, validation, remediation, or offensive-testing functions ([Axios](https://www.axios.com/2026/03/06/openai-codex-security-ai-cyber); [ZeroPath](https://zeropath.com/blog/introducing-zeropath-v1); [XBOW](https://xbow.com/news/xbow-raises-120m-to-scale)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - YC standard $500K for Summer 2026 batch in USDC (cryptobriefing.com, Jun 2026).
-  - 729 vulnerabilities catalogued; "$0K+ in bug bounties earned" per company website counter (nebusec.ai, retrieved Jul 2026).
-  - CVE-2026-23274 Linux kernel exploit earned $10,500 bounty (nebusec.ai).
-  - Published technical writeup "Longinus" on CVE-2026-6307 Chrome V8 (nebusec.ai/research, 2026).
-  - LinkedIn company page: 87 followers (linkedin.com/company/nebulasecurity, retrieved Jul 2026); note the page also lists "Founded 2022, Los Angeles, stealth" which conflicts with the YC page — likely a repurposed handle.
-  - X/Twitter: @nebusecurity, account joined Feb 2026; follower count not retrievable (x.com/nebusecurity).
-  - Hiring: company_data field indicates Hiring: False.
-  - No public data on revenue, ARR, or paying customer count.
-- **Competitors:**
-  - Snyk ($1.32B raised, revenue unknown, $8.5B valuation per Tracxn/PitchBook 2026): incumbent SAST/SCA platform with broad enterprise distribution vs. Nebula's boutique offensive-research positioning.
-  - Semgrep ($196M raised, revenue unknown, ~$5B secondary valuation per Clay 2026): pattern-based scanner with OSS core (Opengrep) vs. Nebula's AI agent + human audit combo.
-  - XBOW ($237M raised, revenue unknown, >$1B valuation per Bloomberg Mar 2026 and GeekWire May 2026): autonomous AI pentesting founded by GitHub Copilot creator Oege de Moor vs. Nebula's code-scanning + audit focus.
-  - Socket (funding not retrieved): supply-chain/npm dependency analysis vs. Nebula's code + architecture audit scope (vibe-eval.com, 2026).
-  - Aikido (funding not retrieved): all-in-one SAST/SCA/secrets/cloud with in-app firewall vs. Nebula's research-led auditing (nomadlab.cc, May 2026).
-- **Why now:** [Inferred]: AI-generated code has raised commit volume and vulnerability density, which the Snyk-alternatives cottage industry cites as driving the shift to AI-native scanners (vibe-eval.com and nomadlab.cc reviews, 2026).
+  - More than $400,000 in Google bug-bounty rewards ([Y Combinator](https://www.ycombinator.com/companies/nebula-security), Jul 2026).
+  - 1,162 validated findings, including 1,125 Linux-kernel bugs, eight Chrome zero-days, and 98 public CVEs ([Vega page](https://nebusec.ai/vega/), Jul 2026).
+  - CyberMeowfia exploit repository reached 1,186 GitHub stars ([GitHub](https://github.com/NebuSec), Jul 2026).
+  - 6,000 X followers for @nebusecurity ([TwStalker profile listing](https://twstalker.com/ShadowChasing1), Jul 2026).
+  - 109 LinkedIn followers ([LinkedIn](https://www.linkedin.com/company/nebula-security/), Jul 2026).
+  - Enterprise private beta and zero YC job postings ([LinkedIn](https://www.linkedin.com/company/nebula-security/); [Y Combinator](https://www.ycombinator.com/companies/nebula-security), Jul 2026).
+  - Company and CEO mentioned in Inc. coverage of YC’s 2026 class ([Inc.](https://www.inc.com/lucia-auerbach/y-combinator-requests-for-startups-fall-2026/91379840), Jul 2026).
+- **Competitors (minimum 3, up to 5):**
+  - Gecko Security (funding unknown, $440,000 ARR reported): compiler-indexed AI SAST focused on business-logic flaws ([Latka](https://getlatka.com/companies/gecko.security); [Y Combinator](https://www.ycombinator.com/companies/gecko-security)).
+  - ZeroPath (funding unknown, revenue unknown): LLM-plus-AST SAST with automated patch generation ([ZeroPath](https://zeropath.com/blog/introducing-zeropath-v1)).
+  - XBOW ($120 million Series C, revenue unknown): continuous autonomous penetration testing of deployed applications rather than repository-centered researcher audits ([XBOW](https://xbow.com/news/xbow-raises-120m-to-scale), Mar 2026).
+  - Semgrep ($204 million raised, revenue unknown): open-core, rule-based and AI-assisted application-security platform supporting approximately 40 languages ([Semgrep](https://semgrep.dev/about); [Series D announcement](https://semgrep.dev/blog/2025/series-d-announcement/)).
+- **Why now:** [Inferred]: AI-assisted software output and AI-enabled offensive capabilities are increasing review volume, while OpenAI’s March 2026 launch of Codex Security showed model providers entering automated vulnerability discovery and remediation ([Axios](https://www.axios.com/2026/03/06/openai-codex-security-ai-cyber); [Semgrep](https://semgrep.dev/blog/2025/series-d-announcement/)).
 
 ## Founders & Team
 
-- **Eten Zou (CEO & Founder):**
-  - Background: Listed as CEO & Founder on the YC page (ycombinator.com/companies/nebula-security); YC company description credits the team with "the first nginx RCE" and "first to root Android 17 through a full browser-to-kernel exploit chain"; no independent public CV, education record, or prior-company history retrievable via web search.
-  - Twitter/X: No public individual account found (company account is @nebusecurity).
-  - LinkedIn: No public profile found under this name in search results.
-  - GitHub: No public repos found under this name in search results.
-- **Second co-founder (Role not listed):**
-  - Background: Team Size is 2 per YC page, but the YC page lists only Eten Zou; the second co-founder's name, role, and background were not retrievable in public sources at time of research.
+- **Eten “Xiaochen” Zou (CEO):**
+  - Background: PhD in cybersecurity and MS in computer science from UC Riverside, bachelor’s from UESTC, former Microsoft security researcher, and author of Linux-kernel vulnerability research ([personal CV](https://etenal.me/download/cv_zou_xiaochen.pdf); [USENIX](https://www.usenix.org/conference/usenixsecurity24/presentation/zhang-zheng)).
+  - Twitter/X: @ETenal7, approximately 1,000 followers ([TwStalker listing](https://site.twstalker.com/saksham_gupta__), Jul 2026).
+  - LinkedIn: “Nebula Security,” with 657 followers ([LinkedIn](https://www.linkedin.com/in/xiaochen-zou-phd-29540b168), Jul 2026).
+  - GitHub: @plummm; CVE-2022-27666 had 207 stars ([GitHub](https://github.com/plummm), Jul 2026).
+- **Yuan Tan (CTO):**
+  - Background: Lanzhou University undergraduate, former UC Riverside cybersecurity PhD student, Black Hat USA speaker, Linux contributor, and initial developer of VEGA ([Linux-kernel mailing list](https://www.mail-archive.com/linux-kernel%40vger.kernel.org/msg2642306.html); [Y Combinator](https://www.ycombinator.com/companies/nebula-security)).
   - Twitter/X: No public account found.
-  - LinkedIn: No public profile found.
+  - LinkedIn: No confirmed public profile found.
   - GitHub: No public repos found.
-- **Co-founder relationship:** No public data on co-founder history.
-- **Founder-market fit:** [Inferred]: YC company description asserts the founders originated the nginx RCE and an Android 17 browser-to-kernel chain (ycombinator.com/companies/nebula-security), which aligns offensive-research background with a security-auditing product; independent verification of these attributions was not found in public sources.
+- **Frank “Yifan” Wu (Research Lead):**
+  - Background: UC Riverside PhD dropout, DEF CON finalist, DARPA AIxCC program-repair team lead, Black Hat speaker, and co-author of NDSS security research ([Y Combinator](https://www.ycombinator.com/companies/nebula-security); [NDSS proceedings](https://www.ndss-symposium.org/wp-content/uploads/NDSS2026_Proceedings_Front_Matter.pdf)).
+  - Twitter/X: @FrankOverF1ow, approximately 1,000 followers ([TwStalker listing](https://twstalker.com/hareh4ru), Jul 2026).
+  - LinkedIn: “Nebula Security (YC S26)” ([LinkedIn](https://www.linkedin.com/in/yifan-wu-cs)).
+  - GitHub: No public repos found.
+- **Xiaochuan Yu (Research Lead):**
+  - Background: MS from UC San Diego, former Zellic researcher, three-time DEF CON finalist, Black Hat speaker, and r3kapig member ([Y Combinator](https://www.ycombinator.com/companies/nebula-security)).
+  - Twitter/X: @Nyaaaaa_ovo, approximately 3,000 followers ([TwStalker](https://mobile.twstalker.com/Nyaaaaa_ovo), Jul 2026).
+  - LinkedIn: “Nebula Security (YC S26),” with 75 followers ([LinkedIn](https://www.linkedin.com/in/xiaochuan-yu-3103a5297), Jul 2026).
+  - GitHub: @KpwnZ; Def1nit3lyN0tAJa1lbr3akTool had 412 stars ([GitHub](https://github.com/KpwnZ/Def1nit3lyN0tAJa1lbr3akTool), Jul 2026).
+- **Co-founder relationship:** Eten, Yuan, and Frank conducted research at UC Riverside, while Frank and Xiaochuan competed with r3kapig ([Eten CV](https://etenal.me/download/cv_zou_xiaochen.pdf); [OpenReview](https://openreview.net/profile?id=~Yifan_Wu28); [Y Combinator](https://www.ycombinator.com/companies/nebula-security)).
+- **Founder-market fit:** The founders’ documented work spans kernel exploitation, browser vulnerabilities, program analysis, DARPA automated repair, Pwn2Own, DEF CON, Black Hat, and more than $400,000 in Google bounty awards ([Y Combinator](https://www.ycombinator.com/companies/nebula-security)).
 
 ## Key Risks
 
-- **Founder attribution unverified:** The nginx RCE and "Android 17 browser-to-kernel" claims in the YC description could not be corroborated against a named researcher, conference talk, or CVE credit in public search results; a search for "first nginx RCE" surfaced CVE-2026-42945 credited to "depthfirst" (cybersecuritynews.com), not Nebula.
-- **Competitive density in AI code security:** XBOW closed $120M Series C in Mar 2026 plus $35M extension in May 2026 at >$1B valuation (Bloomberg; SecurityWeek; GeekWire), and Semgrep closed $100M Series D in Feb 2025 (Clay), meaning Nebula enters a category with well-funded incumbents targeting the same "AI-native security" buyer.
-- **Brand/name confusion:** Multiple entities share the "Nebula" security name — the LinkedIn page linkedin.com/company/nebulasecurity resolves to a "stealth" LA company founded 2022 with a nebulasecurity.io URL, distinct from nebusec.ai; there is also a "Nebula iXDR" AI cyber-defense platform (nebulaixdr.com), creating buyer-search collisions.
-- **No disclosed revenue or customer proof:** Company website displays "$0K+ in bug bounties earned" and no pricing page, customer logos, or ARR disclosure (nebusec.ai, retrieved Jul 2026); traction is currently CVE-discovery output, not commercial adoption.
-- **Two-person team scope risk:** Team Size 2 (YC page) versus a category where XBOW's founding team came from GitHub Copilot with dozens of engineers (SecurityWeek, Mar 2026) creates execution-bandwidth risk on shipping both a scanning product and a premium audit service.
+- **Platform commoditization:** OpenAI launched Codex Security with vulnerability finding, validation, and patch proposals, creating overlap with VEGA’s workflow ([Axios](https://www.axios.com/2026/03/06/openai-codex-security-ai-cyber)).
+- **Validation throughput:** Yuan Tan stated that all VEGA reports are human-reviewed and include human-written patches while the system has found hundreds of Linux bugs, creating a potential review bottleneck; the team plans to limit report volume and prioritize maintained code ([Linux-kernel mailing list](https://www.mail-archive.com/linux-kernel%40vger.kernel.org/msg2642306.html), Jul 2026).
+- **Commercial-conversion evidence:** Public metrics concern CVEs, exploit demonstrations, bounties, and social reach, while no public revenue or paying-customer count was found; the published mitigation is pay-as-you-go access and an enterprise private beta ([Vega page](https://nebusec.ai/vega/); [LinkedIn](https://www.linkedin.com/company/nebula-security/)).
+- **Name ambiguity:** Search results also identify an unrelated Los Angeles company at nebulasecurity.io and Zyxel products using “Nebula Security,” which can complicate company discovery ([unrelated LinkedIn page](https://www.linkedin.com/company/nebulasecurity); [Zyxel documentation](https://bulletin.nebula.zyxel.com/online-help/nebula-cc/NCC_UG_v17.10.pdf)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | No public data found |
-| SAM | No public data found |
-| Traction | 729 vulnerabilities catalogued (nebusec.ai, Jul 2026); CVE-2026-6307 Chrome V8 sandbox escape (NVD/nebusec.ai research writeup, 2026); CVE-2026-5865 V8 RCE (nebusec.ai); CVE-2026-23274 Linux kernel exploit, $10,500 bounty (nebusec.ai); LinkedIn 87 followers (linkedin.com/company/nebulasecurity, Jul 2026); X account @nebusecurity joined Feb 2026 (x.com) |
-| Revenue Signal | No public data found (no pricing page; "$0K+ bug bounties earned" counter on nebusec.ai, Jul 2026; YC S26 standard $500K in USDC per cryptobriefing.com Jun 2026) |
-| Founders | Eten Zou (CEO & Founder): credited on YC page with team's nginx RCE and Android 17 browser-to-kernel exploit chain. Second co-founder: name/role not listed on public YC page. |
-| Competitors | Snyk ($1.32B raised, revenue unknown, incumbent SAST/SCA platform); Semgrep ($196M raised, revenue unknown, pattern-based SAST with OSS core); XBOW ($237M raised, revenue unknown, autonomous AI pentest at >$1B valuation); Socket (funding not retrieved, npm supply-chain focus); Aikido (funding not retrieved, all-in-one AppSec) |
-| Moat Signals | Published CVE discoveries: CVE-2026-6307, CVE-2026-5865, CVE-2026-23274 (nebusec.ai/research; NVD, 2026) |
-| Risk Factors | Unverified founder-credit claims, competitive density (XBOW/Semgrep/Snyk), name collision with other Nebula security entities |
-| Founder Reach | Eten Zou: Twitter not found, LinkedIn not found, GitHub not found; Second co-founder: No public data found |
-| Distribution Signals | X @nebusecurity joined Feb 2026 (x.com); LinkedIn 87 followers (linkedin.com/company/nebulasecurity, Jul 2026); no Product Hunt, Chrome Web Store, or app store presence found |
-| Emails | root@nebusec.ai, info@nebusec.ai (nebusec.ai, Jul 2026) |
-
-Sources:
-- [Nebula Security · AI security research lab](https://nebusec.ai/)
-- [Nebula Security research writeup CVE-2026-6307](https://nebusec.ai/research/v8-cve-2026-6307-writeup/)
-- [Y Combinator - Nebula Security](https://www.ycombinator.com/companies/nebula-security)
-- [Nebula Security LinkedIn](https://www.linkedin.com/company/nebulasecurity)
-- [Nebula Security on X](https://x.com/nebusecurity)
-- [Ankit Gupta - YC Partner](https://www.ycombinator.com/people/ankit-gupta)
-- [Snyk on Tracxn](https://tracxn.com/d/companies/snyk/__R962gE3cLhPYE6YfvOOI_C7Ek9zrtlGPOgVeCjDvLBI)
-- [Semgrep funding - Clay](https://www.clay.com/dossier/semgrep-funding)
-- [XBOW $120M Series C - Bloomberg](https://www.bloomberg.com/news/articles/2026-03-18/ai-security-startup-xbow-now-valued-at-more-than-1-billion)
-- [XBOW $35M extension - GeekWire](https://www.geekwire.com/2026/xbow-the-unicorn-with-a-seattle-mailbox-raises-another-35m-for-its-autonomous-hacking-platform/)
-- [YC S26 Demo Day - CryptoBriefing](https://cryptobriefing.com/y-combinator-s26-demo-day-usdc-stablecoin-funding/)
-- [Best AI Code Security Tools 2026 - NomadLab](https://nomadlab.cc/blog/2026/05/best-ai-code-security-tools-2026-snyk-semgrep-endor-labs-socket-aikido)
-- [18-year-old NGINX RCE - Cybersecurity News](https://cybersecuritynews.com/18-year-old-nginx-rce-vulnerability/)
-- [NVD CVE-2026-6307](https://nvd.nist.gov/vuln/detail/CVE-2026-6307)
+| TAM | $33.7B application-security market in 2024, projected to $55B by 2029 at 10.3% CAGR ([Research and Markets](https://www.researchandmarkets.com/report/application-security)) |
+| SAM | $6.25B SAST-software market in 2025, projected to $13.15B by 2033 at 9.74% CAGR ([Future Market Report](https://www.futuremarketreport.com/industry-report/static-application-security-testing-software-market/)) |
+| Traction | $400K+ Google bounties ([YC](https://www.ycombinator.com/companies/nebula-security), Jul 2026); 1,162 validated findings and 98 public CVEs ([Vega](https://nebusec.ai/vega/), Jul 2026); 1,186 GitHub stars ([GitHub](https://github.com/NebuSec), Jul 2026) |
+| Revenue Signal | Pay-as-you-go metered Researcher plan, per-repository subscriptions, and contact-sales Enterprise plan ([Vega pricing](https://nebusec.ai/vega/), Jul 2026) |
+| Founders | Eten Zou (CEO): UCR cybersecurity PhD, Microsoft security researcher; Yuan Tan (CTO): Linux contributor, Black Hat speaker; Frank Wu and Xiaochuan Yu (Research Leads): DEF CON finalists and exploit researchers ([YC](https://www.ycombinator.com/companies/nebula-security)) |
+| Competitors | Gecko Security (funding unknown, $440K ARR reported, compiler-indexed AI SAST) ([Latka](https://getlatka.com/companies/gecko.security)); ZeroPath (funding and revenue unknown, LLM-plus-AST SAST) ([ZeroPath](https://zeropath.com/blog/introducing-zeropath-v1)); XBOW ($120M Series C, revenue unknown, autonomous pentesting) ([XBOW](https://xbow.com/news/xbow-raises-120m-to-scale)); Semgrep ($204M raised, revenue unknown, hybrid rules and AI) ([Semgrep](https://semgrep.dev/about)) |
+| Moat Signals | 1,162 validated findings, 98 public CVEs, $400K+ in Google bounties, and 1,186-star exploit repository ([Vega](https://nebusec.ai/vega/); [YC](https://www.ycombinator.com/companies/nebula-security); [GitHub](https://github.com/NebuSec), Jul 2026) |
+| Risk Factors | Model-provider competition ([Axios](https://www.axios.com/2026/03/06/openai-codex-security-ai-cyber)), human-validation throughput ([Linux mailing list](https://www.mail-archive.com/linux-kernel%40vger.kernel.org/msg2642306.html)), name ambiguity ([LinkedIn](https://www.linkedin.com/company/nebulasecurity)) |
+| Founder Reach | Eten: X 1K, LinkedIn 657, GitHub repo 207 stars ([TwStalker](https://site.twstalker.com/saksham_gupta__), [LinkedIn](https://www.linkedin.com/in/xiaochen-zou-phd-29540b168), [GitHub](https://github.com/plummm)); Yuan: No public data found; Frank: X 1K ([TwStalker](https://twstalker.com/hareh4ru)); Xiaochuan: X 3K, LinkedIn 75, GitHub repo 412 stars ([TwStalker](https://mobile.twstalker.com/Nyaaaaa_ovo), [LinkedIn](https://www.linkedin.com/in/xiaochuan-yu-3103a5297), [GitHub](https://github.com/KpwnZ/Def1nit3lyN0tAJa1lbr3akTool)) |
+| Distribution Signals | X 6K followers ([TwStalker](https://twstalker.com/ShadowChasing1), Jul 2026), LinkedIn 109 followers ([LinkedIn](https://www.linkedin.com/company/nebula-security/), Jul 2026), GitHub repository 1,186 stars ([GitHub](https://github.com/NebuSec), Jul 2026) |
+| Emails | info@nebusec.ai, root@nebusec.ai, founders@nebusec.ai ([company website](https://nebusec.ai/), [audit page](https://nebusec.ai/security-audit/), [YC](https://www.ycombinator.com/companies/nebula-security), Jul 2026) |

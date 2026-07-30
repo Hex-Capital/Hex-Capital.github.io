@@ -1,0 +1,30 @@
+﻿# OpenVector -- Naval Ravikant Evaluation
+
+Andrey Gizdov’s CVPR 2025 work makes OpenVector a specific-knowledge company trapped, for now, inside a low-network architecture. OpenVector has unusually credible vision depth for pre-seed—Harvard, MIT, Weizmann, predictive coding, continuous-time dynamics—but every restaurant installing OpenVector remains economically independent of the next. The intelligence is proprietary. The value is not yet compounding. That high-specific-knowledge and low-network pairing defines OpenVector more than the $71.30 billion market forecast does.
+
+**Stack Overflow** is the high rung for specific knowledge: developers who had lived the problem built a product for developers, then let the artifact prove the knowledge. OpenVector shares the load-bearing mechanism. Gizdov published compute-efficient vision research, while Vishal Urlam worked in IoT, physical computing, and Tata Power substations; OpenVector is not an ex-FAANG-PM market memo. OpenVector diverges from Stack Overflow because no public repository or organically adopted artifact predates the financing, and the Foveal Vision site, bio-inspired hiring brief, and camera-operator product suggest the founders’ knowledge is real but its final commercial expression is unresolved.
+
+**Perplexity** exposes the low rung’s weakness: a single-sided product where the next user does not automatically improve the previous user’s experience. OpenVector has the same structural absence without Perplexity’s escape hatch. OpenVector’s deployment-specific corrections might eventually create a proprietary data flywheel, but no deployment scale or shared workflow network exists; one car wash does not make another car wash’s OpenVector installation more useful. Perplexity earned a known-exception waiver through permissionless product distribution, extreme founder knowledge, and pre-consensus AI timing. OpenVector clearly has founder knowledge, but direct demonstrations and a $449 monthly station do not yet supply the other two legs.
+
+**$449 per month or $6,499 upfront** reveals OpenVector’s leverage mechanism over the next 18 months. The inference engine is code leverage, but distribution requires 20-minute live-stream demonstrations, physical delivery, camera configuration, and integrations with DRB SiteWatch or POS systems. Each new vertical can add integration labor faster than reusable code compounds. OpenVector therefore sits above regulated, permission-dependent **Anchorage Digital** on leverage, but well below Twitter’s permissionless media replication. OpenVector also contradicts my unstated pattern: no public repository, no organic technical community, and no demonstrated product-led adoption precede the round.
+
+**$12.63 billion growing to $71.30 billion by 2033** gives OpenVector genuine pivot-room. OpenVector can move among security, loss prevention, industrial monitoring, workforce operations, edge inference, and vision infrastructure without abandoning its core technical knowledge. The market score would flip into the top rung if OpenVector proved that one horizontal event-to-action engine transfers across those verticals without bespoke integrations. If every deployment instead requires a different POS, camera protocol, liability policy, and operational playbook, OpenVector is not one large software market; OpenVector is several labor-intensive niches sharing a model.
+
+**Notion** is the single-anchor parallel for the 10-year-partner test. Ivan Zhao had obsessive product knowledge before Notion found its final form; Gizdov and Urlam likewise continued together after winning the Google Prize at MIT Grand Hack 2025, and withdrawing from Harvard to ship OpenVector signals energy rather than résumé optimization. OpenVector provides no adverse integrity evidence, but no prior venture, long operating history, or treatment-of-colleagues record establishes the full Buffett trio either. OpenVector earns credit for intelligence and energy. Integrity remains the quiet, neutral leg that cannot be inferred from an 8,000-follower LinkedIn profile.
+
+**Jetson Thor’s August 2025 performance step-change** makes my 36-month forecast specific: by July 2029, OpenVector will have pivoted from a horizontal camera-to-action operator into compute-efficient edge-vision infrastructure or OEM licensing and will produce $1 million–$3 million in ARR. OpenVector’s highest asset is Gizdov’s model architecture, while OpenVector’s weakest asset is user-added network value; infrastructure monetizes the former without pretending the latter exists. The Foveal Vision positioning already points toward that destination.
+
+**Ambient.ai’s existing-camera footprint** supplies the strongest opposing case: OpenVector could become the action layer across millions of installed cameras, accumulating proprietary event corrections and reusable workflows until deployment data becomes a network-like advantage. Spot AI, Coram AI, and Ambient.ai have raised $93 million, $66 million, and more than $72 million respectively, validating demand, while OpenVector’s action-oriented differentiation could make those incumbents distribution partners or acquirers. The case stings, but unnamed design partners, zero disclosed deployments, refundable $100 reservations, and fall-2026 station delivery leave the compounding loop hypothetical. I remain Neutral. I would flip to Invest if OpenVector documents 100 production locations and shows that more than half of new deployments activate without founder-led integration or demonstrations.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Permissionless Leverage Architecture (Code or Media as Primary Distribution) | 13/28 |
+| Marketplace or Network with Compounding User-Added Value | 6/22 |
+| Founder Has Non-Trainable Specific Knowledge in the Domain | 17/20 |
+| Big Market with Room for Multiple Pivots Without Refinancing | 13/16 |
+| Founder Trio (Intelligence + Energy + Integrity) Reads as a 10-Year Partner | 9/14 |
+| **Total** | **58/100** |
+
+**Total Score: 58/100** (Neutral)

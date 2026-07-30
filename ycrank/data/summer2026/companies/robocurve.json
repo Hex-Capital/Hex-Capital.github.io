@@ -1,16 +1,16 @@
 {
   "slug": "robocurve",
   "name": "Robocurve",
-  "oneLiner": "We measure how well robots can do real-world jobs.",
+  "oneLiner": "Evaluating robots in the real world.",
   "metadata": {
     "website": "https://robocurve.org",
     "yc_page": "https://www.ycombinator.com/companies/robocurve",
-    "batch": "Summer 2026 (YC company page)",
+    "batch": "Summer 2026",
     "industry": "Industrials / Industrials -> Manufacturing and Robotics",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "Hard Tech, Hardware, Robotics, Open Source, AI",
-    "yc_partner": "Ankit Gupta (YC company page)",
+    "yc_partner": "Ankit Gupta",
     "emails": "No public data found"
   },
   "tags": [
@@ -21,52 +21,52 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-08T04:50:46.119Z",
+  "memoGeneratedAt": "2026-07-30T17:25:34.132Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 60,
-      "tier": "Neutral"
+      "score": 70,
+      "tier": "Invest"
     },
     "elad-gil": {
-      "score": 53,
+      "score": 58,
       "tier": "Neutral"
     },
     "naval-ravikant": {
+      "score": 68,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 72,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
       "score": 54,
       "tier": "Neutral"
     },
-    "paul-graham": {
-      "score": 63,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 49,
-      "tier": "Neutral"
-    },
     "sam-lessin": {
-      "score": 53,
+      "score": 52,
       "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 33,
+      "score": 42,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 60,
-    "EG": 53,
-    "NR": 54,
-    "PG": 63,
-    "PT": 49,
-    "SL": 53,
-    "VK": 33
+    "CB": 70,
+    "EG": 58,
+    "NR": 68,
+    "PG": 72,
+    "PT": 54,
+    "SL": 52,
+    "VK": 42
   },
-  "consolidatedAvg": 52.14,
-  "consolidatedRank": 4,
+  "consolidatedAvg": 59.43,
+  "consolidatedRank": 29,
   "traction": {
-    "tractionRank": 39,
-    "tractionScore": 20,
-    "tractionReason": "v1 shipped, first frontier-model robot pilot"
+    "tractionRank": 93,
+    "tractionScore": 40,
+    "tractionReason": "Product shipped and one physical-robot pilot completed"
   },
   "paths": {
     "memo": "summer2026/memos/robocurve.md",

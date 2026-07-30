@@ -5,64 +5,61 @@
   "metadata": {
     "website": "https://tsenta.com",
     "yc_page": "https://www.ycombinator.com/companies/tsenta",
-    "batch": "Summer 2026",
+    "batch": "Summer 2026 ([Y Combinator, Jul. 2026](https://www.ycombinator.com/companies/tsenta))",
     "industry": "Consumer / Consumer -> Job and Career Services",
     "team_size": "2",
-    "location": "San Francisco (YC page); Indianapolis listed on StartupHub.ai and Tracxn",
-    "tags": "—",
-    "yc_partner": "Jared Friedman",
-    "emails": "founders@tsenta.com"
+    "location": "San Francisco, CA, USA",
+    "yc_partner": "Jared Friedman ([Y Combinator, Jul. 2026](https://www.ycombinator.com/companies/tsenta))",
+    "emails": "founders@tsenta.com, agnay@tsenta.com, pulkit@tsenta.com ([Tsenta website, Jul. 2026](https://tsenta.com/); [Tsenta privacy policy, May 2026](https://tsenta.com/privacy); [Chrome Web Store, Jul. 2026](https://chromewebstore.google.com/detail/tsenta/momaobilceffibifldnhndcehhdjgaob))"
   },
-  "tags": [
-    "—"
-  ],
+  "tags": [],
   "slideImage": null,
-  "memoGeneratedAt": "2026-06-29T06:12:24.216Z",
+  "memoGeneratedAt": "2026-07-30T18:13:17.095Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 44,
-      "tier": "Pass"
+      "score": 60,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "paul-graham": {
       "score": 64,
       "tier": "Neutral"
     },
+    "naval-ravikant": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 82,
+      "tier": "Invest"
+    },
     "peter-thiel": {
-      "score": 23,
+      "score": 34,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 32,
+      "score": 43,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 33,
+      "score": 40,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 44,
-    "EG": 35,
-    "NR": 39,
-    "PG": 64,
-    "PT": 23,
-    "SL": 32,
-    "VK": 33
+    "CB": 60,
+    "EG": 64,
+    "NR": 58,
+    "PG": 82,
+    "PT": 34,
+    "SL": 43,
+    "VK": 40
   },
-  "consolidatedAvg": 38.57,
-  "consolidatedRank": 37,
+  "consolidatedAvg": 54.43,
+  "consolidatedRank": 72,
   "traction": {
-    "tractionRank": 18,
-    "tractionScore": 42,
-    "tractionReason": "353 Chrome installs, paid tiers, press coverage"
+    "tractionRank": 16,
+    "tractionScore": 71,
+    "tractionReason": "Nearly 8,000 users, up sevenfold in two months"
   },
   "paths": {
     "memo": "summer2026/memos/tsenta.md",

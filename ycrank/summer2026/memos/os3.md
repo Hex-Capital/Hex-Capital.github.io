@@ -12,87 +12,72 @@
 | Location | San Francisco, CA, USA |
 | Tags | Artificial Intelligence, Hardware, Robotics, B2B |
 | YC Partner | Gustaf Alstromer |
-| Emails | hi@os3robotics.com |
+| Emails | hi@os3robotics.com, rishabhchanana8@gmail.com |
 
 ## The Idea
 
-- **Problem:** Hospitality operators face persistent labor shortages for repetitive physical tasks (bussing, cleaning, food/drink prep), and current alternatives are wheeled service robots (e.g., Keenon) or offshore staffing that lack dexterous manipulation ([Interesting Engineering, 2026](https://interestingengineering.com/innovation/china-hotel-deploys-humanoid-service-robots)).
-- **Approach:** OS3 designs custom "semi-humanoid" hardware in-house in SF and trains policies primarily from internet + egocentric human video, then reinforcement-learns on its own hardware in live deployments (os3robotics.com, May 2026; YC page).
-- **Differentiation:** Vs. Figure/Apptronik/1X (full humanoids raising nine-figure rounds — [CNBC, Feb 2026](https://www.cnbc.com/2026/02/11/apptronik-raises-520-million-at-5-billion-valuation-for-apollo-robot.html)) OS3 pursues a "semi-humanoid" form factor scoped to hospitality; vs. Macco Robotics (fixed-base bar/café robots) OS3 targets mobile task performance (YC description).
-- **Business Model:** No pricing disclosed on os3robotics.com (May 2026); [Inferred]: robot-as-a-service or per-deployment contracts to hospitality operators, given YC description referencing "already deploying in hospitality."
-- **TAM/SAM:** Goldman Sachs projects humanoid robot TAM at $38B by 2035 with 1.4M units shipped ([Goldman Sachs, 2024/updated](https://www.goldmansachs.com/insights/articles/the-global-market-for-robots-could-reach-38-billion-by-2035)); no public SAM found for hospitality-specific semi-humanoid segment.
-- **GTM / Distribution:** [Inferred]: Direct sales to SF-Bay hospitality venues used as initial deployment sites, consistent with YC description "already deploying in hospitality" and SF-based lab (os3robotics.com).
+- **Problem:** Hotels face persistent staffing gaps, with 65% of surveyed properties reporting shortages while operators used higher pay and expanded benefits to recruit and retain workers ([AHLA, Feb 2025](https://www.ahla.com/news/65-surveyed-hotels-report-staffing-shortages)).
+- **Approach:** OS3 combines an in-house mobile, two-arm robot with models pretrained on internet and first-person human video, followed by reinforcement learning and limited real-robot data ([OS3 robot page, May 2026](https://os3robotics.com/robot/)).
+- **Differentiation:** OS3 starts with wheeled, dual-arm hospitality deployments, while Figure targets bipedal home and commercial work, 1X targets household chores, and Apptronik targets manufacturing and logistics ([OS3](https://os3robotics.com/deploy/), [Figure](https://www.figure.ai/news/introducing-figure-03), [1X](https://www.1x.tech/neo), [Apptronik](https://apptronik.com/)).
+- **Business Model:** [Inferred]: Direct deployment contracts or robot-as-a-service fees are the likely monetization path because OS3 solicits operating-site details through a deployment form but publishes no pricing ([OS3 deploy page, May 2026](https://os3robotics.com/deploy/)).
+- **TAM/SAM:** The humanoid-robot market was estimated at $2.03B in 2024 and projected to reach $13.25B by 2029 at 45.5% CAGR, while hospitality robots were estimated at $0.7B in 2025 and $0.9B in 2026 at 28.4% CAGR ([MarketsandMarkets, Oct 2024](https://www.prnewswire.com/news-releases/humanoid-robot-market-worth-13-25-billion-by-2029---exclusive-report-by-marketsandmarkets-302271115.html), [Research and Markets, 2026](https://www.researchandmarkets.com/reports/5980584/hospitality-robots-market-report)).
+- **GTM / Distribution:** OS3 uses a founder-led deployment form aimed at hotels, warehouses, and production lines and states that hospitality is its first deployed vertical ([OS3 deploy page, May 2026](https://os3robotics.com/deploy/)).
 
 ## Defensibility
 
-- **Moat today:** No defensibility signals found in public sources beyond in-house hardware design ("designed in our SF lab, not sourced" — os3robotics.com, May 2026).
-- **Future moat:** [Inferred]: Proprietary teleoperation + egocentric human-video training data collected from live hospitality deployments could compound into a task-specific policy dataset, unproven at 2-person team stage.
-- **Market structure:** [Inferred]: No structural barrier identified at this stage; well-funded incumbents (Figure $39B val, Apptronik $5B val — [CNBC, Feb 2026](https://www.cnbc.com/2026/02/11/apptronik-raises-520-million-at-5-billion-valuation-for-apollo-robot.html)) can pursue hospitality if they choose.
-- **Commoditization risk:** Multiple YC-backed humanoid teams (K-Scale Labs, Piggy Robotics, Twolabs) and Chinese entrants (Unitree G1) already ship comparable hardware ([Forbes, Apr 2026](https://www.forbes.com/sites/jonmarkman/2026/04/27/unitree-g1-humanoid-robots-are-reshaping-the-robotics-investment-stack/)).
+- **Moat today:** OS3 describes an owned hardware-deployment-data-model loop in which standardized in-house hardware generates site data that updates both the models and body design ([OS3 robot page, May 2026](https://os3robotics.com/robot/)).
+- **Future moat:** [Inferred]: Repeated deployments could produce task-specific hospitality manipulation data and operating integrations, but no fleet size, proprietary dataset size, or customer retention data are public.
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** Figure also trains from egocentric human video, while NVIDIA released an open humanoid foundation model and synthetic-data tooling that other robotics teams can use ([Figure, Sep 2025](https://www.figure.ai/news/project-go-big), [NVIDIA, Mar 2025](https://nvidianews.nvidia.com/news/nvidia-isaac-gr00t-n1-open-humanoid-robot-foundation-model-simulation-frameworks)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - "Already deploying in hospitality" — no customer count, venue names, or revenue disclosed (YC page, 2026).
-  - Company website at v0.2 last updated May 24, 2026 (os3robotics.com).
-  - LinkedIn/Twitter company page follower counts not retrievable.
-  - Zero open job postings on YC page (YC page, 2026).
-  - No Product Hunt launch, press coverage, or funding announcement found in searches.
-- **Competitors (adjacent since direct hospitality-focused semi-humanoids are rare):**
-  - Figure AI (~$1.6B+ raised, $39B valuation, revenue unknown): full humanoid targeting BMW/logistics, vastly larger capital base ([Forbes/e1ventures, 2026](https://e1ventures.substack.com/p/beyond-the-hype-humanoid-robot-revolution-cd0)).
-  - Apptronik ($520M Series A at $5B val Feb 2026, revenue unknown): Apollo humanoid targeting hospitality among other verticals ([CNBC, Feb 2026](https://www.cnbc.com/2026/02/11/apptronik-raises-520-million-at-5-billion-valuation-for-apollo-robot.html)).
-  - 1X Technologies (~$125M+ raised, NEO priced at $20K / $499/mo, revenue unknown): consumer/home humanoid rather than hospitality B2B ([search snippet, 2025](https://blog.robozaps.com/b/humanoid-robot-companies)).
-  - Physical Intelligence ($400M at $2B val, pre-product, revenue unknown): foundation models for robots, not vertical-specific hardware ([search snippet, 2024](https://blog.robozaps.com/b/humanoid-robot-companies) via search snippet).
-  - Macco Robotics (funding unknown, revenue unknown): fixed-base hospitality robots for bars/cafés — narrower form factor ([search snippet](https://blog.robozaps.com/b/humanoid-robots-in-hospitality) via search snippet).
-- **Why now:** [Inferred]: End-to-end policy learning from egocentric human video crossed a usability threshold in 2024-2025 (Goldman revised humanoid TAM 6× upward citing this — [Goldman Sachs, 2024](https://www.goldmansachs.com/insights/articles/the-global-market-for-robots-could-reach-38-billion-by-2035)), and per-unit humanoid manufacturing cost dropped to $30K-$150K per Goldman.
+  - Current product: Hospitality deployment claimed, with no customer names or unit count disclosed ([OS3 deploy page, May 2026](https://os3robotics.com/deploy/)).
+  - Current product: One active contract opening for a mechanical design engineer, with ₹360K–₹800K compensation ([YC Jobs, Jul 2026](https://www.ycombinator.com/companies/os3/jobs/r2aKeWa-mechanical-design-engineer-robot-parts-enclosures-contract)).
+  - Prior product—Observee: Its MCP software repository has 42 stars and was archived on November 3, 2025 ([GitHub, Jul 2026](https://github.com/observee-ai/observee)).
+  - Prior product—Observee: YC says Chris Hailey turned a hackathon project into a $10K MRR business, and Rishabh Chanana identifies Observee as that hackathon project ([YC](https://www.ycombinator.com/companies/os3), [LinkedIn, 2025](https://www.linkedin.com/posts/risos8200_y-combinator-fall-batch-deadline-is-coming-activity-7356842711724806144-Hxko)).
+  - Named coverage: Founderland published an OS3 profile on July 2, 2026 ([Founderland, Jul 2026](https://www.founderland.ai/articles/yc-backed-os3-deploys-semi-humanoid-robots-in-hotel-kitchens-mr3bit5s)).
+- **Competitors (minimum 3, up to 5):**
+  - Figure AI ($1.745B+ disclosed across Series A–C, revenue unknown): Builds bipedal robots for home and commercial work versus OS3’s wheeled hospitality-first system ([Series A](https://www.prnewswire.com/news-releases/figure-announces-70m-series-a-to-support-commercialization-of-figure-01-humanoid-robot-301832819.html), [Series B](https://www.prnewswire.com/news-releases/figure-raises-675m-at-2-6b-valuation-and-signs-collaboration-agreement-with-openai-302074897.html), [Series C](https://www.figure.ai/news/series-c)).
+  - Apptronik (nearly $1B raised, revenue unknown): Apollo 2 has bipedal and wheeled configurations focused on manufacturing and logistics rather than OS3’s initial hospitality use case ([Apptronik, Feb 2026](https://apptronik.com/news-collection/apptronik-closes-over-935-million-series-a)).
+  - 1X ($125M+ raised, revenue unknown): NEO targets household chores and includes remote human guidance, while OS3 targets commercial physical labor ([1X, Jan 2024](https://www.1x.tech/ja_jp/discover/1x-secures-100m-in-series-b-funding)).
+- **Why now:** [Inferred]: NVIDIA’s March 2025 release of an open humanoid foundation model and synthetic-data frameworks reduced the training-data and software burden for teams pursuing video-first robot learning ([NVIDIA, Mar 2025](https://nvidianews.nvidia.com/news/nvidia-isaac-gr00t-n1-open-humanoid-robot-foundation-model-simulation-frameworks)).
 
 ## Founders & Team
 
 - **Rishabh Chanana (Co-founder):**
-  - Background: UC San Diego robotics background per LinkedIn; holds patent "System And Method For Message Distribution" issued May 6, 2024 (ML-based mobile notification system); prior roles in San Diego, Singapore, and SF Bay Area ([LinkedIn](https://www.linkedin.com/in/risos8200/)).
-  - Twitter/X: @risos8200 (follower count not retrievable — access blocked).
-  - LinkedIn: "Co-Founder at Stealth Robotics" (~8,000+ followers) ([LinkedIn](https://www.linkedin.com/in/risos8200/)).
-  - GitHub: No public repos found under this name.
-- **Chris Hailey (Co-Founder & CTO):**
-  - Background: USC (chaileyUSC GitHub handle); coursework/repos in IoT (RIOT-EE250, GrovePi-EE250), C++, C, Python, embedded systems ([GitHub](https://github.com/chaileyUSC)); LinkedIn listed as "Stealth Startup (YC S26)" per search snippet.
+  - Background: MS in computer science from UC San Diego specializing in NLP and robotics, former ServiceNow ML engineer and CSG Lab researcher, with prior work at TigerGraph, 17Live, NUS, and Wipro ([founder profile](https://risos8200.com/)).
+  - Twitter/X: @risos8200; count not retrievable ([GitHub profile](https://github.com/risos8200)).
+  - LinkedIn: “OS3,” with 8K followers and 500+ connections ([LinkedIn, Jul 2026](https://www.linkedin.com/in/risos8200)).
+  - GitHub: @risos8200; pinned Machine-Translation repository has 0 stars ([GitHub, Jul 2026](https://github.com/risos8200/Machine-Translation)).
+- **Chris Hailey (Co-Founder):**
+  - Background: USC computer-science graduate and Presidential Merit scholar who worked on Coinbase’s asset-addition team associated with more than $19B of trading volume ([YC](https://www.ycombinator.com/companies/os3)).
   - Twitter/X: No public account found.
-  - LinkedIn: "Stealth Startup (YC S26)" ([LinkedIn snippet](https://www.linkedin.com/in/chrishailey8)); follower count not retrievable (profile returned 999 error).
-  - GitHub: @chaileyUSC — 6 repos listed, 0 stars across all ([GitHub](https://github.com/chaileyUSC)).
-- **Co-founder relationship:** No public data on co-founder history (no overlapping employer/university found between UCSD and USC records).
-- **Founder-market fit:** [Inferred]: Chanana brings ML/robotics research exposure (UCSD) and Hailey brings USC embedded-systems training — combined skillset spans the hardware+model integration the company describes ([LinkedIn](https://www.linkedin.com/in/risos8200/); [GitHub](https://github.com/chaileyUSC)); no notable advisors or investors beyond YC found publicly.
+  - LinkedIn: Public headline not exposed; profile has 2K followers and 500+ connections ([LinkedIn, Jul 2026](https://www.linkedin.com/in/chrishailey8)).
+  - GitHub: No public repos found.
+- **Co-founder relationship:** Chanana says he met Hailey outside the YC office at an MCP hackathon, where they built Observee in six hours and won three categories ([LinkedIn, 2025](https://www.linkedin.com/posts/risos8200_y-combinator-fall-batch-deadline-is-coming-activity-7356842711724806144-Hxko)).
+- **Founder-market fit:** Chanana has documented robotics, NLP, reinforcement-learning-adjacent and ML-system experience, while Hailey has production-software experience at Coinbase and the team collectively reports experience at Microsoft and ServiceNow ([Chanana profile](https://risos8200.com/), [OS3 team page](https://os3robotics.com/human/)).
 
 ## Key Risks
 
-- **Capital asymmetry vs. incumbents:** Figure ($39B val), Apptronik ($520M raise Feb 2026), and Physical Intelligence ($400M at $2B) hold >100× the capital of a YC S26 pre-seed ([CNBC, Feb 2026](https://www.cnbc.com/2026/02/11/apptronik-raises-520-million-at-5-billion-valuation-for-apollo-robot.html)); custom hardware development is capital-intensive and no OS3 fundraise has been announced publicly. No mitigation found.
-- **Technical feasibility of video-first training on custom hardware:** Approach relies on learning from internet + egocentric human video then RL-tuning on OS3's own hardware (os3robotics.com); embodiment gap between human video and semi-humanoid morphology is an unsolved research problem cited even by well-funded labs. No published performance benchmarks.
-- **Hospitality deployment safety/regulatory:** Deploying mobile semi-humanoids in customer-facing hospitality venues raises liability and health-code questions; no public regulatory approvals or safety certifications documented on os3robotics.com.
-- **Name collision / brand ambiguity:** "OS3" also refers to Mobilicom's drone/robotics operations platform ([Nasdaq press release](https://www.nasdaq.com/press-release/mobilicom-launches-groundbreaking-os3-operations-system-worlds-first-for-the-drones)) and to a common Robot Operating System reference — search discoverability is compromised.
-- **Two-person team executing hardware+ML+deployment simultaneously:** YC page shows team size 2 with 0 open roles (YC page, 2026) despite the scope requiring mechanical, electrical, ML, and BD functions; execution bandwidth is a specific risk given hospitality customer support demands.
+- **Technical reliability and safety:** Public specifications list nine-hour battery life, approximately 5 kg payload per arm, collision avoidance, automatic cutoff, and an emergency stop, but disclose no task-success, intervention, uptime, or external-certification metrics ([OS3 robot page, May 2026](https://os3robotics.com/robot/)).
+- **Deployment validation:** OS3 says it is deployed in hospitality but identifies no customer, site, robot count, task, contract value, or paid status ([OS3 deploy page, May 2026](https://os3robotics.com/deploy/)).
+- **Competitive resource gap:** Figure has disclosed at least $1.745B across three rounds, Apptronik nearly $1B, and 1X more than $125M, enabling overlapping investments in hardware iteration, training data, deployment, and manufacturing ([Figure](https://www.figure.ai/news/series-c), [Apptronik](https://apptronik.com/news-collection/apptronik-closes-over-935-million-series-a), [1X](https://www.1x.tech/ja_jp/discover/1x-secures-100m-in-series-b-funding)).
+- **Pivot and name ambiguity:** Observee’s software repository was archived in November 2025 before the OS3 site’s May 2026 robotics update, while Mobilicom has marketed a separate robotics cybersecurity product named OS3 since 2024, creating attribution and search-discovery ambiguity ([GitHub](https://github.com/observee-ai/observee), [OS3](https://os3robotics.com/), [Mobilicom](https://mobilicom.com/news-updates/1830/)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Humanoid robots $38B by 2035 (Goldman Sachs, 2024) |
-| SAM | No public data found |
-| Traction | "Already deploying in hospitality" — no counts or names (YC page, 2026); website v0.2 (os3robotics.com, May 24 2026); 0 open roles (YC page) |
+| TAM | $2.03B in 2024, projected to $13.25B by 2029 at 45.5% CAGR ([MarketsandMarkets, Oct 2024](https://www.prnewswire.com/news-releases/humanoid-robot-market-worth-13-25-billion-by-2029---exclusive-report-by-marketsandmarkets-302271115.html)) |
+| SAM | $0.7B hospitality-robot market in 2025, projected at $0.9B in 2026 with 28.4% CAGR ([Research and Markets, 2026](https://www.researchandmarkets.com/reports/5980584/hospitality-robots-market-report)) |
+| Traction | Current product: hospitality deployment claimed ([OS3, May 2026](https://os3robotics.com/deploy/)); prior product Observee: 42 GitHub stars and archived Nov 2025 ([GitHub, Jul 2026](https://github.com/observee-ai/observee)) |
 | Revenue Signal | No public data found |
-| Founders | Rishabh Chanana (Co-founder): UCSD robotics, 2024 ML patent, prior Singapore/SF Bay roles. Chris Hailey (Co-Founder & CTO): USC embedded/IoT background, GitHub @chaileyUSC. |
-| Competitors | Figure AI (~$1.6B+ raised, $39B val, revenue unknown, larger capital + full humanoid); Apptronik ($520M Series A, $5B val Feb 2026, revenue unknown, cross-vertical humanoid); 1X ($125M+ raised, revenue unknown, consumer NEO at $20K); Physical Intelligence ($400M at $2B, pre-product, foundation-model layer); Macco Robotics (funding unknown, revenue unknown, fixed-base hospitality) |
-| Moat Signals | No public data found |
-| Risk Factors | Capital asymmetry vs. Figure/Apptronik, embodiment gap in video-first training, hospitality safety/liability, name collision with Mobilicom OS3 |
-| Founder Reach | Chanana: Twitter @risos8200 count not retrievable, LinkedIn ~8K+, GitHub none found. Hailey: Twitter none found, LinkedIn count not retrievable, GitHub @chaileyUSC 0 stars. |
-| Distribution Signals | No public data found |
-| Emails | hi@os3robotics.com (os3robotics.com) |
-
-Sources:
-- [OS3 Robotics website](https://os3robotics.com/)
-- [YC OS3 profile](https://www.ycombinator.com/companies/os3)
-- [Rishabh Chanana LinkedIn](https://www.linkedin.com/in/risos8200/)
-- [Chris Hailey GitHub](https://github.com/chaileyUSC)
-- [Chris Hailey LinkedIn (stealth YC S26)](https://www.linkedin.com/in/chrishailey8)
-- [Goldman Sachs humanoid TAM](https://www.goldmansachs.com/insights/articles/the-global-market-for-robots-could-reach-38-billion-by-2035)
-- [Apptronik $520M CNBC](https://www.cnbc.com/2026/02/11/apptronik-raises-520-million-at-5-billion-valuation-for-apollo-robot.html)
-- [Humanoid competitor rankings – Robozaps](https://blog.robozaps.com/b/humanoid-robot-companies)
-- [Mobilicom OS3 platform (name collision)](https://www.nasdaq.com/press-release/mobilicom-launches-groundbreaking-os3-operations-system-worlds-first-for-the-drones)
-- [Unitree G1 – Forbes](https://www.forbes.com/sites/jonmarkman/2026/04/27/unitree-g1-humanoid-robots-are-reshaping-the-robotics-investment-stack/)
+| Founders | Rishabh Chanana: UCSD MS, ServiceNow ML, robotics/NLP research ([founder profile](https://risos8200.com/)); Chris Hailey: USC CS, Coinbase engineer, prior hackathon project reached $10K MRR ([YC](https://www.ycombinator.com/companies/os3)) |
+| Competitors | Figure AI ($1.745B+ disclosed, revenue unknown, bipedal home/commercial platform) ([Figure](https://www.figure.ai/news/series-c)); Apptronik (nearly $1B, revenue unknown, manufacturing/logistics) ([Apptronik](https://apptronik.com/news-collection/apptronik-closes-over-935-million-series-a)); 1X ($125M+, revenue unknown, home chores) ([1X](https://www.1x.tech/ja_jp/discover/1x-secures-100m-in-series-b-funding)) |
+| Moat Signals | Owned hardware-deployment-data-model feedback loop ([OS3 robot page, May 2026](https://os3robotics.com/robot/)) |
+| Risk Factors | No public reliability metrics, unnamed hospitality deployments, funded overlapping competitors, OS3 name ambiguity ([OS3](https://os3robotics.com/deploy/), [Mobilicom](https://mobilicom.com/products/os3/)) |
+| Founder Reach | Rishabh Chanana: Twitter count not retrievable, LinkedIn 8K, GitHub top pinned repo 0 stars ([LinkedIn](https://www.linkedin.com/in/risos8200), [GitHub](https://github.com/risos8200/Machine-Translation)); Chris Hailey: LinkedIn 2K ([LinkedIn](https://www.linkedin.com/in/chrishailey8)) |
+| Distribution Signals | Direct deployment inquiry form and one active contract engineering job ([OS3, May 2026](https://os3robotics.com/deploy/), [YC Jobs, Jul 2026](https://www.ycombinator.com/companies/os3/jobs/r2aKeWa-mechanical-design-engineer-robot-parts-enclosures-contract)) |
+| Emails | hi@os3robotics.com ([OS3, May 2026](https://os3robotics.com/)); rishabhchanana8@gmail.com ([founder profile](https://risos8200.com/)) |

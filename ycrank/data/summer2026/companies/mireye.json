@@ -10,7 +10,7 @@
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "Artificial Intelligence, Geographic Information System, Location-based",
-    "yc_partner": "Jon Xu",
+    "yc_partner": "Jon Xu ([Y Combinator](https://www.ycombinator.com/companies/mireye), Jul 2026)",
     "emails": "No public data found"
   },
   "tags": [
@@ -19,52 +19,52 @@
     "Location-based"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-06-29T06:03:03.795Z",
+  "memoGeneratedAt": "2026-07-30T17:31:33.588Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 33,
-      "tier": "Pass"
+      "score": 55,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 44,
-      "tier": "Pass"
+      "score": 59,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 52,
+      "score": 64,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 45,
+      "score": 64,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 28,
+      "score": 43,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 27,
+      "score": 37,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 32,
+      "score": 37,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 33,
-    "EG": 44,
-    "NR": 52,
-    "PG": 45,
-    "PT": 28,
-    "SL": 27,
-    "VK": 32
+    "CB": 55,
+    "EG": 59,
+    "NR": 64,
+    "PG": 64,
+    "PT": 43,
+    "SL": 37,
+    "VK": 37
   },
-  "consolidatedAvg": 37.29,
-  "consolidatedRank": 47,
+  "consolidatedAvg": 51.29,
+  "consolidatedRank": 102,
   "traction": {
-    "tractionRank": 75,
-    "tractionScore": 4,
-    "tractionReason": "No public data found, not hiring"
+    "tractionRank": 98,
+    "tractionScore": 38,
+    "tractionReason": "Free early access with design partners"
   },
   "paths": {
     "memo": "summer2026/memos/mireye.md",

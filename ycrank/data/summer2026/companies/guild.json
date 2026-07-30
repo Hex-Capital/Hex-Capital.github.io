@@ -1,72 +1,72 @@
 {
   "slug": "guild",
   "name": "GUILD",
-  "oneLiner": "Neoprime Reshaping Defense Supply Chain",
+  "oneLiner": "Making aerospace parts faster and cheaper for defense",
   "metadata": {
     "website": "https://www.guildai.co",
     "yc_page": "https://www.ycombinator.com/companies/guild",
     "batch": "Summer 2026",
     "industry": "Industrials / Industrials -> Defense",
     "team_size": "2",
-    "location": "New York, NY, USA",
-    "tags": "Artificial Intelligence, GovTech, Compliance, Manufacturing, Supply Chain",
+    "location": "New York City, NY, USA",
+    "tags": "Compliance, Manufacturing, Supply Chain, Defense, AI",
     "yc_partner": "Diana Hu",
     "emails": "No public data found"
   },
   "tags": [
-    "Artificial Intelligence",
-    "GovTech",
     "Compliance",
     "Manufacturing",
-    "Supply Chain"
+    "Supply Chain",
+    "Defense",
+    "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-06-29T06:08:47.741Z",
+  "memoGeneratedAt": "2026-07-30T17:44:09.370Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 39,
-      "tier": "Pass"
+      "score": 56,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 34,
-      "tier": "Pass"
+      "score": 54,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 33,
+      "score": 44,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 39,
-      "tier": "Pass"
+      "score": 56,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 26,
-      "tier": "Pass"
+      "score": 48,
+      "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 21,
-      "tier": "Pass"
+      "score": 46,
+      "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 41,
+      "score": 43,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 39,
-    "EG": 34,
-    "NR": 33,
-    "PG": 39,
-    "PT": 26,
-    "SL": 21,
-    "VK": 41
+    "CB": 56,
+    "EG": 54,
+    "NR": 44,
+    "PG": 56,
+    "PT": 48,
+    "SL": 46,
+    "VK": 43
   },
-  "consolidatedAvg": 33.29,
-  "consolidatedRank": 68,
+  "consolidatedAvg": 49.57,
+  "consolidatedRank": 117,
   "traction": {
-    "tractionRank": 72,
-    "tractionScore": 5,
-    "tractionReason": "Single-page tagline website, no metrics"
+    "tractionRank": 151,
+    "tractionScore": 9,
+    "tractionReason": "Funding and followers only"
   },
   "paths": {
     "memo": "summer2026/memos/guild.md",

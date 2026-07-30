@@ -8,62 +8,62 @@
     "batch": "Summer 2026",
     "industry": "Real Estate and Construction / Real Estate and Construction -> Construction",
     "team_size": "5",
-    "location": "Brisbane, QLD, Australia (relocating to San Francisco per Startup Daily, Jun 2026)",
+    "location": "Brisbane, QLD, Australia",
     "tags": "Artificial Intelligence, Construction",
-    "yc_partner": "Gustaf Alstromer (YC company page)",
-    "emails": "No public data found"
+    "yc_partner": "Gustaf Alstromer",
+    "emails": "zander@alloovium.com"
   },
   "tags": [
     "Artificial Intelligence",
     "Construction"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-09T16:03:28.388Z",
+  "memoGeneratedAt": "2026-07-30T17:43:26.971Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 60,
+      "score": 62,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 47,
+      "score": 59,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 43,
-      "tier": "Pass"
+      "score": 56,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 66,
+      "score": 68,
       "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 33,
+      "score": 43,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 35,
-      "tier": "Pass"
+      "score": 46,
+      "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 29,
+      "score": 39,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 60,
-    "EG": 47,
-    "NR": 43,
-    "PG": 66,
-    "PT": 33,
-    "SL": 35,
-    "VK": 29
+    "CB": 62,
+    "EG": 59,
+    "NR": 56,
+    "PG": 68,
+    "PT": 43,
+    "SL": 46,
+    "VK": 39
   },
-  "consolidatedAvg": 44.71,
-  "consolidatedRank": 12,
+  "consolidatedAvg": 53.29,
+  "consolidatedRank": 84,
   "traction": {
-    "tractionRank": 6,
-    "tractionScore": 70,
-    "tractionReason": "$400M+ active construction projects deployed"
+    "tractionRank": 50,
+    "tractionScore": 53,
+    "tractionReason": "Deployed across A$400M of active projects"
   },
   "paths": {
     "memo": "summer2026/memos/alloovium.md",

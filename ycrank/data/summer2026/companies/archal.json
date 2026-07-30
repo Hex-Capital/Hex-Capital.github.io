@@ -1,7 +1,7 @@
 {
   "slug": "archal",
   "name": "Archal",
-  "oneLiner": "The eval platform for autonomous software",
+  "oneLiner": "The improvement loop for AI agents",
   "metadata": {
     "website": "https://www.archal.ai/",
     "yc_page": "https://www.ycombinator.com/companies/archal",
@@ -9,63 +9,63 @@
     "industry": "B2B / B2B -> Infrastructure",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Developer Tools, API, Infrastructure, AI",
+    "tags": "Artificial Intelligence, Developer Tools, API, Infrastructure",
     "yc_partner": "Ankit Gupta",
-    "emails": "No public data found"
+    "emails": "founders@archal.ai, support@archal.ai"
   },
   "tags": [
+    "Artificial Intelligence",
     "Developer Tools",
     "API",
-    "Infrastructure",
-    "AI"
+    "Infrastructure"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-06-29T06:12:54.370Z",
+  "memoGeneratedAt": "2026-07-30T18:17:18.088Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 26,
-      "tier": "Pass"
+      "score": 53,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 43,
-      "tier": "Pass"
+      "score": 61,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 43,
-      "tier": "Pass"
+      "score": 67,
+      "tier": "Invest"
     },
     "paul-graham": {
-      "score": 43,
-      "tier": "Pass"
+      "score": 67,
+      "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 31,
-      "tier": "Pass"
+      "score": 52,
+      "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 19,
-      "tier": "Strong Pass"
+      "score": 36,
+      "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 33,
+      "score": 43,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 26,
-    "EG": 43,
-    "NR": 43,
-    "PG": 43,
-    "PT": 31,
-    "SL": 19,
-    "VK": 33
+    "CB": 53,
+    "EG": 61,
+    "NR": 67,
+    "PG": 67,
+    "PT": 52,
+    "SL": 36,
+    "VK": 43
   },
-  "consolidatedAvg": 34,
-  "consolidatedRank": 61,
+  "consolidatedAvg": 54.14,
+  "consolidatedRank": 75,
   "traction": {
-    "tractionRank": 71,
-    "tractionScore": 6,
-    "tractionReason": "YC S26 batch, no Product Hunt or press"
+    "tractionRank": 136,
+    "tractionScore": 24,
+    "tractionReason": "Deprecated CLI records 59 weekly downloads"
   },
   "paths": {
     "memo": "summer2026/memos/archal.md",

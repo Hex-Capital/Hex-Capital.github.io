@@ -1,6 +1,6 @@
 ﻿# Rise Reforming
 
-> We turn waste gases into valuable, supply-secure liquid chemicals 
+> We turn waste gases into valuable supply-secure chemicals 
 
 | Field | Value |
 |-------|-------|
@@ -11,98 +11,85 @@
 | Team Size | 4 |
 | Location | Chicago, IL, USA |
 | Tags | Hard Tech, Smart Waste Management, Alternative Fuels, Renewable Energy, ClimateTech |
-| YC Partner | Jared Friedman (YC company page) |
-| Emails | No public data found |
+| YC Partner | Jared Friedman ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/rise-reforming)) |
+| Emails | contact@rise-reforming.com ([company website, Jul 2026](https://www.rise-reforming.com/)); george@risereforming.xyz, legacy contact ([UChicago portfolio book, May 2025](https://polsky.uchicago.edu/wp-content/uploads/2025/05/UChicago-Tech-Ventures-Demo-Day-Portfolio-Book.pdf)) |
 
 ## The Idea
 
-- **Problem:** The US chemical industry is centralized and fossil-dependent, exposed by shocks like Winter Storm Uri, and ~60% of domestic biogas is flared or used in low-margin applications despite representing $35bn/y of chemical potential (YC company description).
-- **Approach:** A shipping-container-sized modular reforming plant is deployed on-site at biogas producers to convert biogas into syngas and then into dimethyl ether (DME) and methanol, with 1,800+ hours of stable syngas production already demonstrated (search snippet, PitchBook profile 2026).
-- **Differentiation:** Emvolon (MIT spin-off) repurposes car engines as modular biogas-to-methanol reactors; Modular Plant Solutions sells MeOH-To-Go® and DME-To-Go® skids; Topsoe's SynCOR is a large-scale licensed process — Rise's stated edge is a containerized on-site unit sized for individual biogas producers (search snippets; UChicago PME article).
-- **Business Model:** [Inferred]: Sell/operate on-site conversion units and monetize output chemicals via offtake — supported by the disclosed $5M DME offtake agreement and biogas supply contracts (YC company description).
-- **TAM/SAM:** Company cites $35bn/y US chemicals-from-biogas potential (YC company description); no third-party TAM data found for the specific containerized biogas-to-DME/methanol segment.
-- **GTM / Distribution:** Direct agreements with biogas producers (7 commercial supply agreements signed) plus an MOU with a large propane distributor for DME blending and 2 LOIs with global marine companies for methanol (YC company description).
+- **Problem:** Wastewater plants, farms, and landfills produce stranded biogas that is commonly flared, used in combined heat-and-power systems, or converted to renewable natural gas, while Rise says pipeline access and project scale limit the latter option for smaller facilities ([Rise Reforming LinkedIn, Jun 2026](https://www.linkedin.com/company/risereforming)).
+- **Approach:** The shipping-container-sized system combines dry methane reforming of biogas methane and carbon dioxide with steam methane reforming to produce syngas, which is converted into DME, methanol, or dimethyl carbonate on-site ([Launch HN mirror, Jul 2026, via search snippet](https://hnr.adluo.ch/); [company website, Jul 2026](https://www.rise-reforming.com/)).
+- **Differentiation:** M2X also deploys modular methane-to-methanol systems and Oberon produces renewable DME, while Rise targets raw wastewater, farm, and landfill biogas and plans to produce both DME and methanol at the feedstock site ([M2X](https://m2x.energy/); [Oberon Fuels](https://www.oberonfuels.com/); [Rise Reforming](https://www.rise-reforming.com/)).
+- **Business Model:** Rise describes a build-own-operate model in which it pays facilities per unit of biogas, covers plant CAPEX and maintenance, and earns revenue by selling chemicals, but publishes no chemical pricing ([Rise Reforming LinkedIn, Jun 2026](https://www.linkedin.com/company/risereforming)).
+- **TAM/SAM:** The target methanol market was estimated at $41.6B in 2025 with a 9.6% CAGR through 2033, while the renewable-methanol segment was estimated at $2.37B in 2025 with a 56.21% CAGR through 2034 ([Grand View Research, 2026](https://www.grandviewresearch.com/industry-analysis/methanol-market); [Fortune Business Insights, 2026](https://www.fortunebusinessinsights.com/renewable-methanol-market-111393)).
+- **GTM / Distribution:** Rise is pursuing wastewater plants first, dairy farms second, and landfills later while pairing biogas-supply agreements with DME and methanol offtake agreements ([UChicago PME, Jul 2026](https://pme.uchicago.edu/news-events/news/alumni-founded-startup-rise-reforming-joins-y-combinator)).
 
 ## Defensibility
 
-- **Moat today:** "Patent-pending process" for waste-to-DME cited in UChicago PME coverage (Pritzker School of Molecular Engineering article); PitchBook notes process IP filing during the pre-seed (PitchBook, 2026).
-- **Future moat:** [Inferred]: Locked-in exclusive biogas supply contracts at wastewater/agricultural sites could become a moat since each site has a single feedstock source; unproven because only one exclusive supply agreement has been disclosed (YC company description).
-- **Market structure:** [Inferred]: Large chemical incumbents (Topsoe, Thyssenkrupp) design for large centralized plants; on-site modular units at small biogas sites have unit economics and sales-cycle profiles incompatible with their engineering-license model (search snippets on incumbents).
-- **Commoditization risk:** Multiple modular players already exist — Emvolon, Modular Plant Solutions (MeOH-To-Go®/DME-To-Go®), and Advanced Energy Materials LLC all offer modular biogas-to-liquid-fuels units (search snippets, USDA NIFA project page).
+- **Moat today:** Rise reports a patent-pending integrated process, process-IP filings, 1,800+ hours of stable syngas production, and completed pilot designs, although no patent number was found ([company website, Mar 2026](https://www.rise-reforming.com/); [Launch HN mirror, Jul 2026, via search snippet](https://hnr.adluo.ch/)).
+- **Future moat:** [Inferred]: Operating data across biogas feedstocks, repeatable permitting packages, and contracted supplier/offtake networks could create deployment advantages, but the first live-biogas pilot is scheduled for commissioning in 2027 ([UChicago PME, Jul 2026](https://pme.uchicago.edu/news-events/news/alumni-founded-startup-rise-reforming-joins-y-combinator)).
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** M2X already markets modular systems for converting landfill, stranded, and biogas methane into methanol, while Oberon operates renewable-DME technology and Carbon Recycling International licenses industrial-scale methanol plants ([M2X](https://m2x.energy/); [Oberon](https://www.oberonfuels.com/); [CRI](https://carbonrecycling.com/)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - $1.06M total raised, including a $650K pre-seed with LongJump and UChicago Booth (PitchBook profile, 2026).
-  - Prior $400K raised by three UChicago undergrad co-founders (UChicago College news article).
-  - $50,000 First Place at DOE EnergyTech University Prize 2024 (Polsky Center, Apr 2024); 2025 FEA Startup Award (search snippet).
-  - George Rose named 776 Foundation Climate Fellow (776 Foundation X post, Jul 2025).
-  - Search snippet reports "binding supply agreement and six MOUs with biogas producers, locking in $14M in ARR" (PitchBook, 2026) — YC company description states 7 supply agreements totaling "$92 mn ARR worth of chemicals," a discrepancy between the two disclosures.
-  - $5M conditional DME offtake agreement negotiated (YC company description; PitchBook).
-  - MOU with a large propane distributor and 2 LOIs with global marine companies for methanol (YC company description).
-  - Pilot deployment at a Chicagoland wastewater plant (YC company description).
-  - 1,800+ hours of stable syngas production in proof-of-concept (PitchBook profile, 2026).
-  - No public Twitter/X, Product Hunt, or app-store presence found; LinkedIn company page exists at linkedin.com/company/risereforming (follower count not retrievable).
-- **Competitors (min 3):**
-  - Emvolon ($10.5M raised + up to $30M Series A being raised in 2025, revenue unknown): MIT spin-off using repurposed car engines as modular biogas-to-methanol reactors; JV with Montauk Renewables (Axios Pro Apr 2025; BusinessWire Nov 2024).
-  - Modular Plant Solutions (funding unknown, revenue unknown): sells MeOH-To-Go® and DME-To-Go® small-scale modular methanol/DME plants (BC Insight, Jan 2026).
-  - Advanced Energy Materials LLC (USDA-funded project, revenue unknown): modular process units for RNG/biogas producers to make syngas, methanol, ethanol (USDA NIFA project page).
-  - Topsoe (established public-scale licensor, revenue unknown for biogas segment): SynCOR Methanol technology using biogas/captured CO2 as feedstock (Persistence Market Research; search snippet).
-  - Thyssenkrupp Industrial Solutions (large industrials incumbent): modular green methanol plants for renewable feedstocks (search snippet).
-- **Why now:** [Inferred]: Federal RNG/biogas incentives plus IMO 2024 low-carbon marine fuel rules and the shift toward marine methanol are driving demand for distributed low-carbon chemicals (IEA Renewables 2025 biogases outlook; Emvolon marine-methanol coverage).
+  - More than $1.7M raised ([UChicago PME, Jul 13, 2026](https://pme.uchicago.edu/news-events/news/alumni-founded-startup-rise-reforming-joins-y-combinator)).
+  - $650K pre-seed round closed ([company website, Dec 2025](https://www.rise-reforming.com/)).
+  - 1,800+ hours of stable syngas production completed ([company website, Mar 2026](https://www.rise-reforming.com/)).
+  - One binding biogas-supply agreement, multiple supplier MOUs, and one conditional DME offtake agreement signed ([company website, Apr 2026](https://www.rise-reforming.com/)).
+  - Pilot container delivered to a Chicagoland wastewater facility, with commissioning expected in 2027 ([company website, Jul 2026](https://www.rise-reforming.com/); [UChicago PME, Jul 2026](https://pme.uchicago.edu/news-events/news/alumni-founded-startup-rise-reforming-joins-y-combinator)).
+  - $6M round in progress with $750K soft-committed ([JETRO, May 27, 2026](https://www.jetro.go.jp/j-bridge/companies/2026/risereforming.html)).
+  - 721 LinkedIn followers ([LinkedIn, Jul 2026](https://www.linkedin.com/posts/risereforming_rise-reforming-job-opportunity-summer-2025-activity-7305957046443548674-IA3K)).
+  - One active senior chemical-process-engineer opening at $125K+ plus equity, bonus, and benefits ([Y Combinator Jobs, Jul 2026](https://www.ycombinator.com/companies/rise-reforming/jobs/wJ9Q9nv-senior-chemical-process-engineer)).
+  - Prior plastic-waste product: $50K DOE EnergyTech University Prize in April 2024 and the 2025 FEA Startup Award before the 2025 biogas pivot ([Polsky Center, Apr 2024](https://polsky.uchicago.edu/2024/04/12/energy-tech-leaders-take-to-the-national-stage-at-doe-pitch-competition/); [UChicago PME, Jun 2025](https://pme.uchicago.edu/news-events/news/undergraduate-impact-new-startup-tackles-plastic-waste-disaster)).
+  - Website not accessible at time of research at the supplied `/home` URL; current root-domain content was retrievable ([company website, Jul 2026](https://www.rise-reforming.com/)).
+- **Competitors (minimum 3, up to 5):**
+  - M2X Energy ($94.28M raised, revenue unknown): modular systems convert stranded methane from landfills, gas sites, and biogas facilities into methanol, directly overlapping Rise’s methanol pathway ([CB Insights, Mar 2026](https://www.cbinsights.com/company/m2x-energy/financials); [M2X](https://m2x.energy/)).
+  - Oberon Fuels ($3.29M raised, revenue unknown): operates renewable-DME technology, whereas Rise plans an integrated raw-biogas-to-DME-and-methanol system ([CB Insights](https://www.cbinsights.com/company/oberon-fuels/financials); [Oberon](https://www.oberonfuels.com/)).
+  - WasteFuel ($28.72M raised, revenue unknown): develops larger waste-to-biomethanol facilities for shipping rather than shipping-container modules at individual biogas sites ([CB Insights](https://www.cbinsights.com/company/wastefuel/financials); [WasteFuel](https://www.wastefuel.com/ar/newswf/wastefuel-raises-fresh-capital-in-series-b-fundraise-and-announces-collaboration-with-bp-to-advance-sustainable-energy-for-global-shipping-industry)).
+  - Carbon Recycling International ($30M latest financing disclosed, revenue unknown): licenses CO₂-plus-hydrogen methanol plants with over 200,000 tonnes per year of installed capacity, rather than reforming raw biogas on-site ([CRI](https://carbonrecycling.com/); [CRI financing](https://carbonrecycling.com/about/news)).
+- **Why now:** FuelEU Maritime began requiring a 2% reduction in ship-energy GHG intensity in January 2025, while DNV counted more than 450 methanol-capable vessels operating or on order in 2025 ([EUR-Lex](https://eur-lex.europa.eu/eli/reg/2023/1805/oj/eng); [DNV, Nov 2025](https://www.dnv.com/news/2025/dnv-report-methanol-as-marine-fuel-at-high-readiness-level-but-adoption-hurdles-remain/)).
 
 ## Founders & Team
 
-- **George Rose (Co-Founder & CEO):**
-  - Background: B.S. Molecular Engineering, University of Chicago (UChicago PME article); 776 Foundation Climate Fellow (776 Foundation X post, Jul 2025); co-led EnergyTech UP 2024 win (Polsky Center, Apr 2024).
+- **George Rose (Co-Founder and CEO):**
+  - Background: UChicago molecular-engineering SB’25; previously worked at Nexamp, Highland Electric Fleets, Mantel Capture, and GenH and conducted battery research ([Y Combinator](https://www.ycombinator.com/companies/rise-reforming); [UChicago PME](https://pme.uchicago.edu/news/convocation-2025-meet-four-uchicago-engineering-graduates-poised-change-world)).
   - Twitter/X: No public account found.
-  - LinkedIn: "Co-founder/CEO, Rise Reforming (YC S26)" (linkedin.com/in/george-rose25/); follower count not retrievable.
+  - LinkedIn: “Chemical engineer with a passion for scaling climate change-combatting technologies,” with 1K followers ([LinkedIn, Jul 2026](https://www.linkedin.com/in/george-rose25)).
   - GitHub: No public repos found.
-- **Lucas Zubillaga Maharg (Co-Founder & CTO):**
-  - Background: UChicago Molecular Engineering; former research assistant, Gagliardi Group (UChicago); former Argonne National Lab intern (search snippets, UChicago PME article).
+- **Lucas Zubillaga Maharg (Co-Founder and CTO):**
+  - Background: UChicago BSc degrees in molecular engineering and physics; worked on nuclear-waste transmutation at Argonne and offshore wind at Avangrid/Iberdrola and led construction and operation of Rise’s bench-scale reformer ([Y Combinator](https://www.ycombinator.com/companies/rise-reforming)).
   - Twitter/X: No public account found.
-  - LinkedIn: "Co-Founder at Rise Reforming" (linkedin.com/in/lucaszubillagamaharg/); count not retrievable.
+  - LinkedIn: “Engineer/ingeniero with a focus on energy and waste management,” with 2K followers ([LinkedIn, Jul 2026](https://www.linkedin.com/in/lucaszubillagamaharg)).
   - GitHub: No public repos found.
-- **Jona van Oord (Co-Founder & COO):**
-  - Background: UChicago Molecular Engineering; research assistant in Patel Lab (polymers, plastics, clean fuels); Convocation 2025 grad (UChicago PME Patel Group page; PME Convocation 2025 article); spoke at Paris Packaging Week as COO (Paris Packaging Week speaker page).
+- **Jona van Oord (Co-Founder and COO):**
+  - Background: UChicago molecular-engineering SB’26; conducted battery and sustainable-polymer research in the Patel Lab and developed automated electrochemical-analysis equipment ([UChicago PME](https://pme.uchicago.edu/directory/alumni/jona-van-oord?page=2); [Y Combinator](https://www.ycombinator.com/companies/rise-reforming)).
   - Twitter/X: No public account found.
-  - LinkedIn: Profile present via search; headline not retrievable via WebFetch.
+  - LinkedIn: “Co-Founder and COO at Rise Reforming,” with 2K followers ([LinkedIn, Jul 2026](https://www.linkedin.com/in/jonavanoord)).
   - GitHub: No public repos found.
-- **Co-founder relationship:** All three co-founders were UChicago Pritzker School of Molecular Engineering undergraduates and co-founded the company as students (UChicago PME article; UChicago College article).
-- **Founder-market fit:** All three are Molecular Engineering graduates with lab experience directly relevant to catalysis/reforming (Gagliardi Group, Patel Lab, Argonne intern), and George Rose has founder backing from Alexis Ohanian's 776 Foundation Climate Fellowship (UChicago PME article; 776 Foundation X post, Jul 2025).
+- **Co-founder relationship:** All three studied molecular engineering at UChicago, and Rose first discussed the concept with Zubillaga during spring finals week in 2023 before van Oord joined ([UChicago PME, Jul 2026](https://pme.uchicago.edu/news-events/news/alumni-founded-startup-rise-reforming-joins-y-combinator)).
+- **Founder-market fit:** The team combines molecular engineering, bench-scale reformer operation, nuclear-waste, offshore-wind, battery, carbon-capture, and marine exposure, supported by advisors covering process scale-up, permitting, aerosols, biogas, and logistics ([Y Combinator](https://www.ycombinator.com/companies/rise-reforming); [company team page](https://www.rise-reforming.com/team)).
 
 ## Key Risks
 
-- **Prior-product vs. current-product traction conflation:** Earlier UChicago and 776 coverage describe Rise's process as "mixed post-industrial plastic waste into carbon-negative DME" (UChicago PME article; 776 Foundation X, Jul 2025), whereas the YC S26 pitch is biogas-to-DME/methanol — investors should verify which traction numbers ($400K prior raise, EnergyTech UP prize) attach to which product line.
-- **Traction figure inconsistency:** PitchBook search snippet cites "$14M ARR" from 1 binding + 6 MOUs, while the YC company description states 7 supply agreements totaling "$92M ARR worth of chemicals" (PitchBook 2026; YC company description) — the ~6.5× gap needs reconciliation, and MOUs/LOIs are non-binding.
-- **Direct competitor with meaningful funding lead:** Emvolon has raised $10.5M and is raising up to $30M Series A, has DOE grants totaling ~$8.3M, a Montauk Renewables JV, and Pioneer Energy partnership — a direct modular biogas-to-methanol competitor with a multi-year head start (Axios Pro Apr 2025; BusinessWire; Pioneer Energy release Jan 2025).
-- **Technical feasibility at commercial scale:** Proof-of-concept is 1,800 hours of syngas production (PitchBook, 2026); scale-up to a containerized commercial DME/methanol unit at the Chicagoland wastewater pilot is not yet demonstrated, and catalyst deactivation/coking on biogas-derived syngas is a known industry problem (ScienceDirect biogas-to-fuels article).
-- **Offtake conditionality:** The $5M DME offtake is described as "conditional" and the marine methanol commitments are LOIs, not binding contracts (YC company description; PitchBook 2026).
+- **Live-feedstock scale-up:** The 1,800+ hour result used syngas-production equipment, while operation on live wastewater biogas remains scheduled for the 2027 pilot; the delivered pilot container and completed designs are the disclosed mitigation ([company website](https://www.rise-reforming.com/); [UChicago PME, Jul 2026](https://pme.uchicago.edu/news-events/news/alumni-founded-startup-rise-reforming-joins-y-combinator)).
+- **Commercial conversion:** Public disclosures identify supply agreements, MOUs, LOIs, and a conditional DME offtake but no completed chemical sales or revenue; the binding supply agreement provides feedstock for a future commercial unit ([company website, Apr 2026](https://www.rise-reforming.com/)).
+- **Price-parity validation:** Rise states that its process can compete with petrochemical DME and low-cost green methanol, while DNV reported 2025 biomethanol at roughly three times marine-gas-oil cost on an energy-equivalent basis ([Rise Reforming](https://www.rise-reforming.com/); [DNV, Nov 2025](https://www.dnv.com/news/2025/dnv-report-methanol-as-marine-fuel-at-high-readiness-level-but-adoption-hurdles-remain/)).
+- **Competitive scale:** M2X reports commercially validated modular methane-to-methanol systems and has raised $94.28M, while CRI reports more than 200,000 tonnes per year of licensed installed capacity ([M2X financing](https://www.businesswire.com/news/home/20240620634996/en/M2X-Energy-Announces-40-Million-Series-B-Financing-to-Accelerate-Commercial-Operations/); [CB Insights](https://www.cbinsights.com/company/m2x-energy/financials); [CRI](https://carbonrecycling.com/)).
+- **Pivot evidence transfer:** Rise shifted from plastic waste to biogas in 2025, so its 2024 DOE prize, 2025 FEA award, and plastic-supply agreements do not validate the current feedstock; the current-product mitigation is the subsequent biogas proof of concept and wastewater pilot ([UChicago PME, Jul 2026](https://pme.uchicago.edu/news-events/news/alumni-founded-startup-rise-reforming-joins-y-combinator)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Company-cited $35bn/y US biogas-to-chemicals opportunity (YC company description); no third-party TAM found |
-| SAM | No public data found |
-| Traction | $1.06M raised (PitchBook, 2026); $650K pre-seed with LongJump + UChicago Booth (PitchBook, 2026); 1 binding + 6 MOU biogas supply agreements = $14M ARR (PitchBook, 2026) vs. 7 agreements = $92M ARR (YC company description); $5M conditional DME offtake (YC company description); MOU w/ propane distributor + 2 marine methanol LOIs (YC company description); pilot at Chicagoland wastewater plant (YC company description); 1,800+ hrs stable syngas POC (PitchBook, 2026); DOE EnergyTech UP 1st place $50K (Polsky Center, Apr 2024); 776 Foundation Climate Fellow (776 Foundation X, Jul 2025) |
-| Revenue Signal | No public data found on Rise's own realized revenue or pricing |
-| Founders | George Rose (CEO): UChicago B.S. Molecular Engineering, 776 Climate Fellow. Lucas Zubillaga Maharg (CTO): UChicago Molecular Engineering, Gagliardi Group, Argonne intern. Jona van Oord (COO): UChicago Molecular Engineering, Patel Lab research assistant |
-| Competitors | Emvolon ($10.5M raised + $30M Series A being raised, revenue unknown, MIT spin-off using engines as modular biogas-to-methanol reactors); Modular Plant Solutions (funding unknown, revenue unknown, MeOH-To-Go/DME-To-Go modular plants); Advanced Energy Materials LLC (USDA-funded, revenue unknown, modular biogas-to-syngas/methanol/ethanol units); Topsoe (large licensor, revenue unknown for biogas segment, SynCOR Methanol tech); Thyssenkrupp Industrial Solutions (incumbent, revenue unknown for segment, modular green methanol plants) |
-| Moat Signals | Patent-pending reforming process (UChicago PME article); process IP filed during pre-seed (PitchBook, 2026); one exclusive biogas supply agreement (YC company description) |
-| Risk Factors | Prior-product (plastic-to-DME) vs. current-product (biogas-to-DME/methanol) traction conflation; conflicting ARR pipeline figures ($14M vs. $92M); Emvolon competitive lead |
-| Founder Reach | George Rose: LinkedIn present (count not retrievable), no X, no GitHub. Lucas Zubillaga Maharg: LinkedIn present (count not retrievable), no X, no GitHub. Jona van Oord: LinkedIn present (count not retrievable), no X, no GitHub |
-| Distribution Signals | No Product Hunt, Chrome, or app-store presence found; LinkedIn company page linkedin.com/company/risereforming (count not retrievable); 776 Foundation X post (Jul 2025); Paris Packaging Week speaker slot for COO (Paris Packaging Week speaker page) |
-| Emails | No public data found |
-
-Sources:
-- [Rise Reforming YC company page](https://www.ycombinator.com/companies/rise-reforming)
-- [Rise Reforming PitchBook profile](https://pitchbook.com/profiles/company/960737-05)
-- [UChicago PME — Undergraduate impact article](https://pme.uchicago.edu/news/undergraduate-impact-new-startup-tackles-plastic-waste-disaster)
-- [Polsky Center — DOE Pitch Competition](https://polsky.uchicago.edu/2024/04/12/energy-tech-leaders-take-to-the-national-stage-at-doe-pitch-competition/)
-- [776 Foundation X post on George Rose](https://x.com/776foundation/status/1948457524329394259)
-- [Jona van Oord — Paris Packaging Week speaker page](https://www.parispackagingweek.com/en/speaker/jona-van-oord/)
-- [Emvolon Series A raise — Axios Pro](https://www.axios.com/pro/climate-deals/2025/04/03/emvolon-emmnuel-kasseris-biofuels-methanol)
-- [Emvolon–Montauk JV — BusinessWire](https://www.businesswire.com/news/home/20241112512217/en/)
-- [Modular Plant Solutions — BC Insight](https://www.bcinsight.crugroup.com/2026/01/26/redefining-economical-small-scale-methanol-production/)
-- [Advanced Energy Materials LLC — USDA NIFA](https://portal.nifa.usda.gov/web/crisprojectpages/1031745-modular-production-of-liquid-fuels-and-chemicals-from-biogas.html)
+| TAM | $41.6B global methanol market in 2025, 9.6% CAGR through 2033 ([Grand View Research, 2026](https://www.grandviewresearch.com/industry-analysis/methanol-market)) |
+| SAM | $2.37B renewable-methanol market in 2025, 56.21% CAGR through 2034 ([Fortune Business Insights, 2026](https://www.fortunebusinessinsights.com/renewable-methanol-market-111393)) |
+| Traction | More than $1.7M raised ([UChicago PME, Jul 2026](https://pme.uchicago.edu/news-events/news/alumni-founded-startup-rise-reforming-joins-y-combinator)); 1,800+ stable-production hours and binding supply agreement plus conditional DME offtake ([company website, Mar-Apr 2026](https://www.rise-reforming.com/)) |
+| Revenue Signal | No public data found |
+| Founders | George Rose (CEO): UChicago molecular engineering, Nexamp/Highland/Mantel/GenH; Lucas Zubillaga Maharg (CTO): UChicago molecular engineering and physics, Argonne/Avangrid; Jona van Oord (COO): UChicago molecular engineering and Patel Lab research ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/rise-reforming)) |
+| Competitors | M2X ($94.28M raised, revenue unknown, modular methane-to-methanol); Oberon ($3.29M, revenue unknown, renewable DME); WasteFuel ($28.72M, revenue unknown, waste-to-biomethanol); CRI ($30M latest financing disclosed, revenue unknown, licensed CO₂-to-methanol plants) ([CB Insights](https://www.cbinsights.com/company/m2x-energy/financials); [Oberon](https://www.cbinsights.com/company/oberon-fuels/financials); [WasteFuel](https://www.cbinsights.com/company/wastefuel/financials); [CRI](https://carbonrecycling.com/about/news)) |
+| Moat Signals | Patent-pending integrated process, process-IP filing, 1,800+ stable-production hours, completed pilot designs ([company website, Mar 2026](https://www.rise-reforming.com/)) |
+| Risk Factors | Live-biogas scale-up and 2027 commissioning ([UChicago PME, Jul 2026](https://pme.uchicago.edu/news-events/news/alumni-founded-startup-rise-reforming-joins-y-combinator)); no disclosed chemical revenue ([company website](https://www.rise-reforming.com/)); funded modular competitors ([CB Insights](https://www.cbinsights.com/company/m2x-energy/financials)) |
+| Founder Reach | George Rose: LinkedIn 1K; Lucas Zubillaga Maharg: LinkedIn 2K; Jona van Oord: LinkedIn 2K; no public Twitter/X accounts or GitHub repos found ([George LinkedIn](https://www.linkedin.com/in/george-rose25); [Lucas LinkedIn](https://www.linkedin.com/in/lucaszubillagamaharg); [Jona LinkedIn](https://www.linkedin.com/in/jonavanoord)) |
+| Distribution Signals | LinkedIn 721 followers ([LinkedIn, Jul 2026](https://www.linkedin.com/posts/risereforming_rise-reforming-job-opportunity-summer-2025-activity-7305957046443548674-IA3K)); one $125K+ active engineering job ([Y Combinator Jobs, Jul 2026](https://www.ycombinator.com/companies/rise-reforming/jobs/wJ9Q9nv-senior-chemical-process-engineer)) |
+| Emails | contact@rise-reforming.com ([company website, Jul 2026](https://www.rise-reforming.com/)); george@risereforming.xyz, legacy contact ([UChicago portfolio book, May 2025](https://polsky.uchicago.edu/wp-content/uploads/2025/05/UChicago-Tech-Ventures-Demo-Day-Portfolio-Book.pdf)) |

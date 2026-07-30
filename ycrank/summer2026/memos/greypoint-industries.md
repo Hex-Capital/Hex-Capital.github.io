@@ -4,7 +4,7 @@
 
 | Field | Value |
 |-------|-------|
-| Website | https://greypointindustries.ca/ |
+| Website | https://greypointindustries.com/ |
 | YC Page | https://www.ycombinator.com/companies/greypoint-industries |
 | Batch | Summer 2026 |
 | Industry | Industrials / Industrials -> Defense |
@@ -16,93 +16,78 @@
 
 ## The Idea
 
-- **Problem:** Western and allied forces lack low-cost ammunition to defeat mass drone-swarm saturation attacks, where the cost of one incoming drone is a fraction of the missile used to intercept it (YC page company description, 2026).
-- **Approach:** Mass-produced, soldier-deployable, fire-and-forget autonomous interceptors built at a unit cost below that of the target drones (YC page, 2026).
-- **Differentiation:** Anduril's Anvil/Roadrunner and Allen Control Systems' Bullfrog are vehicle/turret-mounted kinetic systems (Anduril counter-UAS page; ACS Series B release, May 2026); Greypoint positions instead as "man-deployable" infantry-carried interceptors (UBC Venture Founder cohort listing, Oct 2025).
-- **Business Model:** No pricing data found; [Inferred]: government/military procurement sales to Western and allied ministries of defense based on YC description "Western and allied forces" and Canadian DND ecosystem origin (Globe and Mail, Sep 2025).
-- **TAM/SAM:** Global anti-drone market USD 4.48B in 2025 → USD 14.51B by 2030, CAGR 26.5% (MarketsandMarkets, 2025); Counter Drone System Market USD 2.60B in 2025 → USD 22.88B by 2035, CAGR 24.33% (SNS Insider via GlobeNewswire, Jun 2026).
-- **GTM / Distribution:** [Inferred]: Direct sales to Canadian DND and US/allied militaries; team won the Icebreaker-hosted Defence Tech Hackathon at TMU's DMZ in Sep 2025, providing initial Canadian DND-ecosystem visibility (SpaceQ, Sep 2025).
+- **Problem:** Western armed forces face mass attacks by low-cost drones, while existing responses can involve aircraft and missiles costing millions of euros against drones collectively costing about €100,000 ([Le Monde](https://www.lemonde.fr/en/international/article/2025/09/12/russia-s-intrusion-into-polish-airspace-exposes-nato-s-vulnerabilities-against-drones_6745340_4.html), Sep 2025).
+- **Approach:** LEGION fuses sensor data into a shared battlefield picture, geolocates emitting threats without alerting them, and cues autonomous ARROW interceptors ([company website](https://greypointindustries.ca/), Jul 2026).
+- **Differentiation:** [Inferred]: Greypoint combines LEGION emitter geolocation with soldier-deployable ARROW interceptors, versus Anduril’s Lattice-cued Anvil, Fortem’s radar-guided net-capture DroneHunter, and Airobotics’ reusable Iron Drone capture system ([Greypoint](https://greypointindustries.ca/); [Anduril](https://www.anduril.com/news/anvil-m-launch); [Fortem](https://fortemtech.com/products/dronehunter-f700/); [Airobotics](https://www.airoboticsdrones.com/iron-drone/)).
+- **Business Model:** [Inferred]: Direct sales and development contracts with military agencies, based on the signed first counter-UAS contract, government-focused briefing request, and absence of public pricing ([Jordan Khoo](https://www.linkedin.com/posts/jordankh00_im-excited-to-announce-my-ai-b2b-saas-startup-activity-7477761858276327426-1DZI), Jul 2026; [company website](https://greypointindustries.ca/), Jul 2026).
+- **TAM/SAM:** The global counter-UAS market is projected to grow from $14.41 billion in 2026 to $55.25 billion in 2034 at a 22.4% CAGR, while no public SAM estimate was found for soldier-deployable autonomous interceptors ([Fortune Business Insights](https://www.fortunebusinessinsights.com/counter-uas-market-111906), 2026).
+- **GTM / Distribution:** Greypoint solicits technical briefings, displays National Defence, Canadian Armed Forces, IDEaS, NVIDIA, TerraSense Analytics, Innovation UBC, and YC as partners, and has started its first counter-UAS contract ([company website](https://greypointindustries.ca/), Jul 2026; [Steven Xu](https://www.linkedin.com/posts/sxu22_excited-to-announce-that-greypoint-industries-activity-7477827440313069569-a4Zf), Jul 2026).
 
 ## Defensibility
 
-- **Moat today:** No defensibility signals found in public sources beyond YC S26 admission and UBC Venture Founder cohort participation (YC page; UBC Innovation, Oct 2025).
-- **Future moat:** [Inferred]: Design-for-manufacturing learning curve and qualified-supplier status with allied militaries; unproven because no product, contract, or production-line evidence is public.
-- **Market structure:** [Inferred]: Defense primes (Raytheon, Lockheed) face unit-economics incompatibility producing sub-target-cost expendable interceptors at infantry scale — a structural cost-floor problem YC partner Tyler Bosmeny cited in framing the S26 counter-swarm RFS (TheNextWeb, 2026).
-- **Commoditization risk:** Direct YC-batch peers (Tenet Industries S26, 9 Mothers Sp26, Surtr, Arlo Industries, Perseus Defense, Seeing Systems) are pursuing overlapping low-cost mass-produced defense hardware theses (YC defense industry page, 2026; Founderland on 9 Mothers, 2026).
+- **Moat today:** No defensibility signals found in public sources.
+- **Future moat:** [Inferred]: Operational threat data, C2 integrations, manufacturing-yield learning, and qualification records could accumulate into barriers, but public sources disclose no deployment volume, patents, performance dataset, or production scale.
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** Anduril, Fortem, Airobotics, and MARSS/EOS already offer autonomous counter-UAS interceptors with integrated detection or command systems ([Anduril](https://www.anduril.com/news/anvil-m-launch); [Fortem](https://fortemtech.com/products/dronehunter-f700/); [Airobotics](https://www.airoboticsdrones.com/iron-drone/); [MARSS](https://marss.com/products/interceptor-mr/)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Defence Tech Hackathon 1st place, $5,000 prize, Sep 20, 2025 at TMU DMZ — only team integrating drone tech with satellite data (SpaceQ; Globe and Mail, Sep 2025).
-  - "Best Presenter" at the 2026 Red Team Hackathon Series (redteamhack.ca/winners, 2026).
-  - Selected for UBC Venture Founder 50th cohort, 16-week program, announced Oct 15, 2025 (UBC Innovation; T-Net News, Oct 2025).
-  - Admitted to Y Combinator Summer 2026 batch (YC company page, 2026).
-  - LinkedIn company page exists (linkedin.com/company/greypoint-industries); follower count not retrievable via search.
-  - No Twitter/X account, Discord, Product Hunt listing, revenue, or paying-customer data found.
-  - Zero open job postings on YC profile (YC page, 2026).
-- **Competitors (3–5):**
-  - Allen Control Systems ($242M+ raised total: $12M seed, $30M Series A Mar 2025, $200M Series B May 2026 at $2.2B post; revenue unknown): turret-mounted autonomous gun (Bullfrog) vs. Greypoint's man-deployable interceptor (BusinessWire, May 2026).
-  - Anduril Industries (Anvil/Roadrunner; $2.5B+ raised, revenue ~$1B+ run-rate per Built In/Contrary Research): vehicle-launched kinetic interceptors at higher unit cost vs. Greypoint's infantry-carried expendable (Anduril counter-UAS page).
-  - Tenet Industries (YC S26; $500K standard YC deal; revenue unknown): kamikaze quadcopter / strike-drone focus vs. Greypoint's interceptor focus — both pursue mass-produced defense hardware (Y Combinator on X; Nordic Defence Sector, 2026).
-  - 9 Mothers Corporation / EDDA (YC Sp26; shipping to US Government and prime contractors; funding undisclosed; revenue unknown): passive-acoustic shotgun turret for 10–100m FPV defense vs. Greypoint's fire-and-forget projectile (Founderland, 2026).
-  - Epirus (Leonidas HPM; $550M+ raised; revenue unknown): non-kinetic directed-energy area defense vs. Greypoint's kinetic point defense (search snippet, 2026).
-- **Why now:** Tyler Bosmeny's S26 RFS explicitly called for "counter-swarm stack: high-capacity interceptors" in response to drone-saturation tactics from Ukraine/Middle East conflicts and the US DoD's >$70B proposed drone/counter-drone spending plan (TheNextWeb, 2026; DigitrendZ, 2026).
+  - Signed first contract for the Arrow counter-drone system ([Jordan Khoo](https://www.linkedin.com/posts/jordankh00_im-excited-to-announce-my-ai_b2b-saas-startup-activity-7477761858276327426-1DZI), Jul 2026).
+  - Won Canada’s first Defence Tech Hackathon for an Arctic-surveillance project ([DMZ](https://www.linkedin.com/posts/dmzhq_defence-hackathon-brings-whizzes-from-across-activity-7376242860771168256-IDSz), Sep 2025).
+  - Won the Sneak-a-Peek People’s Choice Award at Innovation UBC’s Venture Showcase ([Innovation UBC](https://innovation.ubc.ca/news/december-12-2025/our-best-yet-recapping-2025-venture-showcase), Dec 2025).
+  - 582 LinkedIn followers ([Greypoint Industries LinkedIn](https://www.linkedin.com/posts/greypoint-industries_canadaday-defensetech-activity-7478143898394230785-i4Vm), Jul 2026).
+  - Zero active YC job postings ([Y Combinator](https://www.ycombinator.com/companies/greypoint-industries), Jul 2026).
+- **Competitors:**
+  - Anduril Industries (approximately $11 billion raised, $2.2 billion 2025 revenue): Anvil is a Lattice-cued autonomous interceptor with a munitions variant ([Cinco Días](https://cincodias.elpais.com/companias/2026-05-13/anduril-dobla-su-valor-hasta-los-61000-millones-de-dolares-con-el-boom-de-la-inversion-en-defensa.html), May 2026; [Anduril](https://www.anduril.com/news/anvil-m-launch)).
+  - Fortem Technologies ($79.8 million raised, revenue unknown): DroneHunter uses onboard radar and nets, reports more than 4,500 captures, and integrates with third-party C2 systems ([CB Insights](https://www.cbinsights.com/company/fortem-technologies/financials), Apr 2026; [Fortem](https://fortemtech.com/products/dronehunter-f700/)).
+  - Airobotics ($61 million raised, revenue unknown): Iron Drone performs reusable, GPS- and RF-jamming-independent physical capture and was first operationally deployed at an airport in 2025 ([TechCrunch](https://techcrunch.com/2017/09/07/fully-autonomous-drone-maker-airobotics-nabs-32-5m-expands-into-defense/), Sep 2017; [Airobotics](https://www.airoboticsdrones.com/company/)).
+- **Why now:** Canada launched its Defence Drone Initiative in July 2026 with an explicit category for low-cost, low-collateral counter-drone interceptors and a competitive supplier process ([National Defence](https://www.canada.ca/en/department-national-defence/news/2026/07/defence-drone-initiative.html), Jul 2026).
 
 ## Founders & Team
 
 - **Darcy Zhang (Co-Founder, CEO):**
-  - Background: No public data found on education or prior companies; named CEO on YC page but absent from earlier 2025 Greypoint team listings (Globe and Mail Sep 2025; UBC cohort Oct 2025), suggesting he joined as CEO between Oct 2025 and YC S26 admission.
+  - Background: University of Calgary BCom, former president of its Firearms Association, and Canadian Armed Forces infanteer ([Michael Liu](https://www.linkedin.com/posts/michaelshliu_canada-keeps-exporting-founders-to-yc-the-activity-7478492941989138435-aeFb), Jul 2026).
   - Twitter/X: No public account found.
-  - LinkedIn: No public profile found in search results.
+  - LinkedIn: “Co-Founder, CEO at Greypoint Industries,” with 352 followers ([LinkedIn](https://ca.linkedin.com/in/darcy-zhang-021134243), Jul 2026).
   - GitHub: No public repos found.
 - **Nic Chu (Co-Founder, COO):**
-  - Background: UBC Faculty of Applied Science affiliate; Team Greypoint co-presenter at Defence Tech Hackathon, Sep 2025, quoted on Arctic sovereignty solution (Globe and Mail; SpaceQ, Sep 2025).
+  - Background: UBC Applied Science affiliate, former General Dynamics Mission Systems–Canada employee, and former robotics-club mentor ([Innovation UBC](https://innovation.ubc.ca/news/october-10-2025/meet-our-50th-cohort-venture-founder-next-wave-innovators-leading-charge); [LinkedIn](https://ca.linkedin.com/in/nicchu)).
   - Twitter/X: No public account found.
-  - LinkedIn: "Greypoint Industries" (ca.linkedin.com/in/nicchu); count not retrievable.
+  - LinkedIn: No public headline found; follower count not retrievable.
   - GitHub: No public repos found.
 - **Jordan Khoo (Co-Founder, CTO):**
-  - Background: UBC Faculty of Applied Science affiliate; Team Greypoint hackathon winner, Sep 2025; previously associated with Quantcast per separate LinkedIn profile (Globe and Mail, 2025; LinkedIn search snippet).
+  - Background: UBC electrical engineering, General Dynamics systems/software internship, TerraSense control-systems work, and UBC uncrewed-aircraft experience ([Michael Liu](https://www.linkedin.com/posts/michaelshliu_canada-keeps-exporting-founders-to-yc-the-activity-7479942493736693761-77dF), Jul 2026).
   - Twitter/X: No public account found.
-  - LinkedIn: "Greypoint Industries" (linkedin.com/in/jordankh00); count not retrievable.
+  - LinkedIn: “building autonomous drones,” with approximately 4,000 followers ([LinkedIn](https://ca.linkedin.com/in/jordankh00), Jul 2026).
   - GitHub: No public repos found.
-- **Steven Xu (Co-Founder):** UBC-affiliated co-founder per UBC Venture Founder cohort listing, Oct 2025; LinkedIn ca.linkedin.com/in/sxu22 headline "Co-Founder @ Greypoint Industries" (count not retrievable); no Twitter/X or GitHub found.
-- **Co-founder relationship:** Three of four founders (Chu, Khoo, Xu) are co-listed on the UBC Faculty of Applied Science Venture Founder cohort and competed together as Team Greypoint at the Sep 2025 Defence Tech Hackathon (UBC Innovation; Globe and Mail, 2025).
-- **Founder-market fit:** Documented win at Canada's first Defence Tech Hackathon for an Arctic-surveillance drone+satellite solution, and "Best Presenter" at the 2026 Red Team Hackathon Series, establishes early credibility in Canadian defense-tech (SpaceQ, Sep 2025; redteamhack.ca/winners, 2026); no prior defense industry exits, military service, or named advisors/investors beyond YC found in public sources.
+- **Steven Xu (Co-Founder):**
+  - Background: UBC Engineering Physics Presidential Scholar, UBC Sailbot simulator-and-controls lead, former Meta Materials software intern, and former Bosch embedded-systems intern ([UBC](https://give.ubc.ca/impact-stories/steven-xu/); [Michael Liu](https://www.linkedin.com/posts/michaelshliu_canada-keeps-exporting-founders-to-yc-the-activity-7481392044951891968-r-Hb), Jul 2026).
+  - Twitter/X: No public account found.
+  - LinkedIn: “Embedded software for Drones,” with 1,023 followers ([LinkedIn](https://ca.linkedin.com/in/sxu22), Jul 2026).
+  - GitHub: No verified public repos found.
+- **Co-founder relationship:** Jordan Khoo, Nic Chu, and Steven Xu were affiliated with UBC Applied Science and were listed together on Greypoint’s 2025 Innovation UBC founding team ([Innovation UBC](https://innovation.ubc.ca/news/october-10-2025/meet-our-50th-cohort-venture-founder-next-wave-innovators-leading-charge), Oct 2025).
+- **Founder-market fit:** Darcy brings infantry experience, Jordan brings defence systems and UAS engineering, Steven brings embedded controls, and Nic brings General Dynamics experience, while Jozsef Hamari, Tyrel Craig, and Cornell P. Pich are identified as advisers ([Michael Liu](https://www.linkedin.com/posts/michaelshliu_canada-keeps-exporting-founders-to-yc-the-activity-7478492941989138435-aeFb); [Steven Xu](https://www.linkedin.com/posts/sxu22_excited-to-announce-that-greypoint-industries-activity-7477827440313069569-a4Zf), Jul 2026).
 
 ## Key Risks
 
-- **Well-funded direct competitor:** Allen Control Systems closed a $200M Series B at $2.2B post-money in May 2026 to scale Bullfrog manufacturing for US and allied militaries (BusinessWire, May 2026), giving an incumbent a multi-year head start in the counter-UAS kinetic-effector category Greypoint is entering; no public Greypoint funding to compare beyond YC standard deal.
-- **Technical feasibility unproven at target unit-cost:** YC description promises interceptors at "a fraction of the cost of the targets" but no prototype performance data, range, hit rate, or unit-cost figure is public on greypointindustries.ca or YC page (site fetch returned 403; YC page, 2026); achieving sub-target unit cost on a guided autonomous projectile is an open hardware problem.
-- **YC-batch peer crowding:** At least 5+ S26/Sp26 YC peers (Tenet Industries, 9 Mothers, Surtr, Arlo, Perseus Defense, Seeing Systems) are pursuing overlapping low-cost mass-produced defense hardware theses post-Bosmeny RFS (YC defense page, 2026; TheNextWeb, 2026), compressing differentiation and customer-acquisition windows.
-- **Procurement/regulatory drag:** Defense procurement cycles (US DoD, Canadian DND, ITAR/CGP export controls) are multi-year — no public contract, LOI, or prime-contractor partnership is documented for Greypoint, vs. peer 9 Mothers which already reports shipping to US Government and primes (Founderland, 2026).
-- **CEO continuity risk:** Darcy Zhang (named CEO on YC page) does not appear in any pre-YC Greypoint listing (Globe and Mail Sep 2025; UBC Oct 2025); CEO appears to have joined after the founding team formed, and no public background is findable to assess fit.
+- **Technical validation:** The company describes autonomous detection, geolocation, and interception but publishes no range, speed, accuracy, test-volume, or field-deployment results for LEGION or ARROW ([company website](https://greypointindustries.ca/), Jul 2026); the signed first contract provides a customer-development pathway ([Jordan Khoo](https://www.linkedin.com/posts/jordankh00_im-excited-to-announce-my-ai-b2b-saas-startup-activity-7477761858276327426-1DZI), Jul 2026).
+- **Competitive displacement:** Fortem reports more than 4,500 captures, Airobotics reports an operational airport deployment, and Anduril fields Anvil through its Lattice platform, creating alternatives with disclosed deployment histories ([Fortem](https://fortemtech.com/products/dronehunter-f700/); [Airobotics](https://www.airoboticsdrones.com/company/); [Anduril](https://www.anduril.com/news/anvil-m-launch)).
+- **Procurement qualification:** Canada’s Defence Drone Initiative uses competitive qualification, and qualification does not guarantee a contract ([National Defence](https://www.canada.ca/en/department-national-defence/news/2026/07/defence-drone-initiative.html), Jul 2026).
+- **Export and controlled-goods compliance:** Canadian military aircraft, electronic-warfare equipment, targeting systems, software, and technical data generally require export permits, while possession or transfer of controlled goods requires program registration ([Global Affairs Canada](https://international.canada.ca/en/global-affairs/services/controls/export/military-goods), May 2026; [Public Services and Procurement Canada](https://www.canada.ca/en/public-services-procurement/services/industrial-security/controlled-goods/about-program/register/guideline-program-registration.html), 2025).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Global anti-drone market $4.48B (2025) → $14.51B (2030), 26.5% CAGR (MarketsandMarkets, 2025); $2.60B (2025) → $22.88B (2035), 24.33% CAGR (SNS Insider via GlobeNewswire, Jun 2026) |
+| TAM | $14.41B in 2026, projected to reach $55.25B by 2034 at 22.4% CAGR (Fortune Business Insights, 2026) |
 | SAM | No public data found |
-| Traction | Defence Tech Hackathon 1st place, $5,000 (SpaceQ, Sep 2025); Best Presenter, 2026 Red Team Hackathon Series (redteamhack.ca); UBC Venture Founder 50th cohort (UBC Innovation, Oct 2025); YC S26 admission (YC page, 2026) |
+| Traction | First Arrow contract (founder LinkedIn, Jul 2026); Defence Tech Hackathon winner (DMZ, Sep 2025); UBC Venture Showcase People’s Choice winner (Innovation UBC, Dec 2025) |
 | Revenue Signal | No public data found |
-| Founders | Darcy Zhang (CEO): listed on YC page, no public background found. Nic Chu (COO): UBC Applied Science, Defence Tech Hackathon winner. Jordan Khoo (CTO): UBC Applied Science, Defence Tech Hackathon winner. Steven Xu: UBC-affiliated co-founder per UBC Venture Founder cohort. |
-| Competitors | Allen Control Systems ($242M+ raised incl. $200M Series B at $2.2B post-money May 2026, revenue unknown, turret-mounted autonomous gun); Anduril Anvil/Roadrunner ($2.5B+ raised, vehicle-launched kinetic interceptors); Tenet Industries (YC S26, $500K standard YC deal, strike-drone focus); 9 Mothers/EDDA (YC Sp26, shipping to USG/primes, acoustic-shotgun turret); Epirus ($550M+ raised, directed-energy non-kinetic) |
+| Founders | Darcy Zhang (CEO): UCalgary BCom and CAF infanteer; Jordan Khoo (CTO): UBC electrical engineering and General Dynamics/TerraSense; Nic Chu (COO): UBC Applied Science and General Dynamics; Steven Xu: UBC Engineering Physics and embedded controls (YC, UBC, founder profiles, Jul 2026) |
+| Competitors | Anduril (approximately $11B raised, $2.2B 2025 revenue, Lattice-cued Anvil); Fortem ($79.8M raised, revenue unknown, radar/net-capture DroneHunter); Airobotics ($61M raised, revenue unknown, reusable Iron Drone) (Cinco Días, CB Insights, TechCrunch, 2017–2026) |
 | Moat Signals | No public data found |
-| Risk Factors | Well-funded incumbent (ACS $2.2B), unproven technical feasibility at target unit cost, YC-batch peer crowding |
-| Founder Reach | Darcy Zhang: No public data found. Nic Chu: LinkedIn ca.linkedin.com/in/nicchu (count not retrievable). Jordan Khoo: LinkedIn linkedin.com/in/jordankh00 (count not retrievable). Steven Xu: LinkedIn ca.linkedin.com/in/sxu22 (count not retrievable). |
-| Distribution Signals | Defence Tech Hackathon 1st (SpaceQ, Sep 2025); Red Team Hackathon Best Presenter (2026); UBC Venture Founder cohort (Oct 2025); YC S26 (2026); company LinkedIn exists; no Twitter/X, Discord, Product Hunt, or app-store presence found |
-| Emails | No public data found (greypointindustries.ca returned 403 on fetch) |
-
-Sources:
-- [Greypoint Industries — YC company page](https://www.ycombinator.com/companies/greypoint-industries)
-- [Team Greypoint wins first Defence Tech Hackathon — SpaceQ](https://spaceq.ca/team-greypoint-wins-first-defence-tech-hackathon/)
-- [Defence hackathon Arctic surveillance — Globe and Mail](https://www.theglobeandmail.com/business/economy/article-defence-hackathon-arctic-surveillance-engineers/)
-- [UBC Venture Founder 50th cohort — Innovation UBC](https://innovation.ubc.ca/news/october-10-2025/meet-our-50th-cohort-venture-founder-next-wave-innovators-leading-charge)
-- [2026 Red Team Hackathon Winners](https://redteamhack.ca/winners)
-- [YC Summer 2026 RFS — TheNextWeb](https://thenextweb.com/news/yc-summer-2026-rfs-hard-tech-pivot)
-- [Allen Control Systems $200M Series B — BusinessWire](https://www.businesswire.com/news/home/20260526638233/en/Allen-Control-Systems-Raises-$200-Million-Series-B-at-$2.2-Billion-Post-Money-Valuation-to-Scale-Manufacturing-and-Accelerate-Deployment-of-Bullfrog)
-- [Anti-Drone Market Size Report — MarketsandMarkets](https://www.marketsandmarkets.com/Market-Reports/anti-drone-market-177013645.html)
-- [Counter Drone System Market — SNS Insider via GlobeNewswire](https://www.globenewswire.com/news-release/2026/06/04/3306671/0/en/global-counter-drone-system-market-size-to-worth-usd-22-88-billion-by-2035-growing-at-a-cagr-of-24-33-sns-insider.html)
-- [Tenet Industries — YC](https://www.ycombinator.com/companies/tenet-industries)
-- [9 Mothers EDDA — Founderland](https://www.founderland.ai/articles/yc-backed-9-mothers-ships-edda-ai-counter-drone-defense-syst-mpz85xvu)
-- [Anduril Counter-UAS](https://www.anduril.com/counter-uas)
+| Risk Factors | Unpublished performance results, competitive procurement, export-control compliance (company website; National Defence, Jul 2026; Global Affairs Canada, May 2026) |
+| Founder Reach | Darcy Zhang: LinkedIn 352; Jordan Khoo: LinkedIn approximately 4,000; Steven Xu: LinkedIn 1,023; Nic Chu: count not retrievable; no verified founder Twitter/GitHub accounts found (LinkedIn, Jul 2026) |
+| Distribution Signals | LinkedIn 582 followers; zero YC job postings; technical briefing CTA (LinkedIn, YC, and company website, Jul 2026) |
+| Emails | No public data found |

@@ -1,71 +1,71 @@
 {
   "slug": "trustai",
   "name": "TrustAI",
-  "oneLiner": "Suggested cross-tool automations that run in one-click in background",
+  "oneLiner": "Continuous compliance and governance for agents on sensitive systems",
   "metadata": {
-    "website": "https://auto.trytrust.ai/",
+    "website": "https://trytrust.ai",
     "yc_page": "https://www.ycombinator.com/companies/trustai",
     "batch": "Summer 2026",
-    "industry": "B2B / B2B -> Infrastructure",
+    "industry": "B2B / B2B -> Security",
     "team_size": "3",
     "location": "San Francisco, CA, USA",
-    "tags": "Artificial Intelligence, B2B, Workflow Automation, Productivity",
+    "tags": "B2B, Compliance, Security, AI",
     "yc_partner": "Ankit Gupta",
-    "emails": "No public data found"
+    "emails": "hello@trytrust.ai, admin@trytrust.ai, data@trytrust.ai, legals@trytrust.ai"
   },
   "tags": [
-    "Artificial Intelligence",
     "B2B",
-    "Workflow Automation",
-    "Productivity"
+    "Compliance",
+    "Security",
+    "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-08T04:53:12.849Z",
+  "memoGeneratedAt": "2026-07-30T18:17:44.146Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 29,
-      "tier": "Pass"
+      "score": 46,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 33,
-      "tier": "Pass"
+      "score": 51,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 42,
-      "tier": "Pass"
+      "score": 48,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 32,
-      "tier": "Pass"
+      "score": 53,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 26,
+      "score": 41,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 22,
+      "score": 39,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 26,
+      "score": 36,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 29,
-    "EG": 33,
-    "NR": 42,
-    "PG": 32,
-    "PT": 26,
-    "SL": 22,
-    "VK": 26
+    "CB": 46,
+    "EG": 51,
+    "NR": 48,
+    "PG": 53,
+    "PT": 41,
+    "SL": 39,
+    "VK": 36
   },
-  "consolidatedAvg": 30,
-  "consolidatedRank": 78,
+  "consolidatedAvg": 44.86,
+  "consolidatedRank": 145,
   "traction": {
-    "tractionRank": 59,
-    "tractionScore": 9,
-    "tractionReason": "Founder 715 followers, integration logos only"
+    "tractionRank": 137,
+    "tractionScore": 23,
+    "tractionReason": "Launch engagement only; no customers disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/trustai.md",

@@ -6,98 +6,81 @@
 |-------|-------|
 | Website | https://onecli.sh |
 | YC Page | https://www.ycombinator.com/companies/onecli |
-| Batch | Summer 2026 |
+| Batch | Summer 2026 ([Y Combinator](https://www.ycombinator.com/companies/onecli)) |
 | Industry | B2B / B2B -> Security |
 | Team Size | 0 |
 | Location | San Francisco, CA, USA |
-| Tags | B2B, Security, Open Source, Infrastructure, AI |
-| YC Partner | Brad Flora (YC company page) |
-| Emails | No public data found |
+| Tags | Artificial Intelligence, B2B, Security, Open Source, Infrastructure |
+| YC Partner | Brad Flora ([Y Combinator](https://www.ycombinator.com/companies/onecli)) |
+| Emails | jonathan@onecli.sh ([Y Combinator](https://www.ycombinator.com/companies/onecli)); privacy@chartdb.io ([OneCLI Terms](https://onecli.sh/terms)) |
 
 ## The Idea
 
-- **Problem:** AI agents currently receive raw API keys and OAuth tokens directly, so a prompt-injected or compromised agent can exfiltrate credentials the developer team never intended to expose (onecli.sh product page; Infisical blog on prompt-injection-driven leakage, 2026).
-- **Approach:** OneCLI is an HTTPS proxy in Rust that hands agents scoped placeholder tokens; on outbound request it matches host/path patterns, decrypts AES-256-GCM secrets, and injects real credentials into headers or query params so the agent never sees the key (agent-wars.com, Mar 14 2026; onecli.sh/docs).
-- **Differentiation:** Vs. HashiCorp Vault — agent-centric UX with zero-config Docker install rather than infra-team-oriented dynamic secrets (Hacker News commentary, Mar 2026); vs. Infisical Agent Vault — Rust-based proxy with 50+ pre-built app integrations (Gmail, GitHub, Jira, Slack) as advertised (company description); vs. Fly.io tokenizer and BuzzFeed sso-proxy — packaged as a product with dashboard rather than internal tool (Hacker News commentary via search snippet, Mar 2026).
-- **Business Model:** Free tier supports up to 2 agents indefinitely with no credit card, plus a managed cloud option; self-hosted is Apache 2.0 (onecli.sh pricing page). [Inferred]: Paid tier likely priced per-agent or per-seat above the 2-agent free ceiling, though tier pricing is not publicly listed.
-- **TAM/SAM:** No public TAM/SAM data found for this specific segment (agent-credential-gateway); adjacent secrets-management market referenced by Infisical/GitGuardian comparisons for 2026 but no size figure surfaced in searches.
-- **GTM / Distribution:** Open-source repo with bundled dashboard as top-of-funnel — 2.5K+ GitHub stars and 300K+ downloads (company description) — plus embedding partnerships where OneCLI is the default credential layer inside other agent frameworks (NanoClaw v2 adoption, nanoclaw.dev blog; Bitwarden Agent Access SDK integration, LinkedIn post by Jonathan Fishner).
+- **Problem:** Teams deploying coding and autonomous agents currently expose API keys through environment files or custom proxies, allowing prompt injection, compromised dependencies, logs, or commits to leak credentials ([Y Combinator](https://www.ycombinator.com/companies/onecli)).
+- **Approach:** OneCLI routes agent traffic through an HTTPS gateway that matches the host and path, checks policy, replaces a placeholder with the decrypted credential, and forwards the request while keeping the credential outside the agent process ([OneCLI documentation](https://onecli.sh/docs/how-it-works)).
+- **Differentiation:** Unlike 1Password and HashiCorp Vault workflows that deliver credentials to the requesting workload, OneCLI says it injects credentials at the network layer and applies policy to each outbound request ([Y Combinator](https://www.ycombinator.com/companies/onecli)).
+- **Business Model:** Free includes three users, three agents, and 500 monthly integration calls per user; Team costs $199/month for 20 agents, Scale costs $499/month for 50 agents, managed VPC deployment costs $1,499/month, and Enterprise is custom ([OneCLI pricing](https://onecli.sh/pricing), Jul 2026).
+- **TAM/SAM:** MarketsandMarkets estimates the agentic-AI security market at $1.65B in 2026, reaching $13.52B in 2032 at a 42.0% CAGR, while no public OneCLI-specific SAM estimate was found ([MarketsandMarkets](https://www.marketsandmarkets.com/Market-Reports/agentic-ai-security-market-97017233.html), 2026).
+- **GTM / Distribution:** Distribution combines an Apache-2.0 repository, a Hacker News launch, NanoClaw bundling, a free cloud tier, and founder outreach to DevOps and DevSecOps leaders ([GitHub](https://github.com/onecli/onecli); [Hacker News](https://news.ycombinator.com/item?id=47353558); [Y Combinator](https://www.ycombinator.com/companies/onecli)).
 
 ## Defensibility
 
-- **Moat today:** Framework-integration lock-in — NanoClaw v2 ships OneCLI as its default agent vault (nanoclaw.dev/blog/nanoclaw-agent-vault) and Bitwarden integrated the Agent Access SDK with OneCLI (LinkedIn, Fishner), creating dependencies inside downstream products.
-- **Future moat:** [Inferred]: Audit-log and policy dataset from multi-framework agent traffic could power anomaly detection unavailable to single-vendor vaults; unproven because no telemetry/dataset product exists yet in public materials.
-- **Market structure:** [Inferred]: HashiCorp Vault and cloud KMS providers (AWS/GCP/Azure) sell to platform/security teams, so an agent-developer-facing free Docker gateway conflicts with their enterprise sales motion and pricing anchor — but Infisical Agent Vault (infisical.com blog, 2026) already occupies the same open-source niche, weakening this barrier.
-- **Commoditization risk:** Hacker News commenters noted the auth-proxy pattern predates the agent era with prior art in Fly.io tokenizer and BuzzFeed sso-proxy (HN thread, Mar 2026 via search snippet); Infisical shipped a comparable Agent Vault (infisical.com blog, 2026), indicating multiple parties can and have built the same primitive.
+- **Moat today:** Current adoption signals comprise 2.9K GitHub stars, 170 forks, 320K+ claimed downloads, and selection as NanoClaw’s default credential layer ([GitHub](https://github.com/onecli/onecli), Jul 2026; [Y Combinator](https://www.ycombinator.com/companies/onecli), Jul 2026).
+- **Future moat:** [Inferred]: More embedded agent integrations, accumulated organization policies, and audit history could create switching costs, but public retention and OneCLI revenue data are unavailable.
+- **Market structure:** [Inferred]: No structural barrier is identified because secrets-management and non-human-identity vendors already sell through the same security teams.
+- **Commoditization risk:** The core repository is Apache-2.0 licensed, and Infisical’s MIT-licensed Agent Vault already implements a similar HTTP-proxy and credential-injection architecture ([OneCLI GitHub](https://github.com/onecli/onecli); [Infisical](https://infisical.com/blog/agent-vault-the-open-source-credential-proxy-and-vault-for-agents)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - GitHub: 2.4K stars listed on onecli.sh (product page); company description cites 2.5K+ stars and 300K+ downloads.
-  - HN Show HN launch: 160 points, 50 comments on Mar 12 2026 (agent-wars.com summary, Mar 14 2026 via search snippet).
-  - Partnerships: NanoClaw v2 adopted OneCLI as default agent vault (nanoclaw.dev blog); Bitwarden Agent Access SDK integration (Fishner LinkedIn post, activity 7450115494780575744).
-  - Press coverage: Agent Wars (Mar 14 2026), Top AI Product (Mar 14 2026), Founderland, Aitoolnet, DEV Community posts by Fishner.
-  - Endorsements: onecli.sh homepage cites Andrej Karpathy, Guillermo Rauch (Vercel CEO), Kyle Daigle (GitHub COO) as social validation.
-  - Social: Company X/LinkedIn/Discord linked from onecli.sh; follower counts not retrievable via search.
-  - Prior product (ChartDB, same founders): 20K+ GitHub stars (Fishner LinkedIn); pre-dates OneCLI and not current-product traction.
-- **Competitors:**
-  - Infisical (Series A raised ~$16M per PitchBook prior filings, revenue unknown): direct overlap — released Infisical Agent Vault as an open-source credential proxy for AI agents in 2026 (infisical.com blog).
-  - HashiCorp Vault (parent HashiCorp acquired by IBM for $6.4B, Feb 2024, revenue unknown at product level): enterprise-focused dynamic secrets and PKI; lacks agent-native UX (wetheflywheel.com comparison, 2026).
-  - Doppler (~$27M raised per Crunchbase prior filings, revenue unknown): SaaS env-var and API-key sync for developer environments (infisical.com blog, 2026); not an inline proxy.
-  - Akeyless ($80M+ raised per prior Crunchbase filings, revenue unknown): SaaS "vaultless" DFC-based secret manager (wetheflywheel.com, 2026); enterprise sales motion vs. OneCLI's dev free tier.
-  - OpenBao (Linux Foundation project, no funding): MPL-2.0 Vault fork API-compatible with Vault (infisical.com blog, 2026); infra-team-oriented rather than agent-oriented.
-- **Why now:** [Inferred]: Growth of autonomous agent frameworks (OpenClaw, NanoClaw, OpenHands, n8n listed as compatible on onecli.sh/docs) plus documented prompt-injection exfiltration risk (Infisical 2026 blog) drove a 12-month window in which credential-scoping specifically for agents became a distinct product category.
+  - 320K+ downloads and default credential-layer status in NanoClaw, as reported by the company’s YC launch ([Y Combinator](https://www.ycombinator.com/companies/onecli), Jul 2026).
+  - 2.9K GitHub stars and 170 forks ([GitHub](https://github.com/onecli/onecli), Jul 2026).
+  - 4,523 weekly downloads for the official Node SDK ([npm](https://www.npmjs.com/package/%40onecli-sh/sdk), Jul 2026).
+  - 160 Hacker News points and 50 comments on the March 2026 Show HN launch ([Hacker News story statistics](https://news.social-protocols.org/stats?id=47353558), Jul 2026).
+  - 317 LinkedIn followers and two listed employees ([LinkedIn](https://www.linkedin.com/company/onecli), Jul 2026).
+  - Zero open YC job listings ([Y Combinator](https://www.ycombinator.com/companies/onecli), Jul 2026).
+- **Competitors (minimum 3, up to 5):**
+  - Oasis Security ($195M raised, revenue unknown): discovers and governs NHIs and agent access across cloud, SaaS, and on-premises systems, versus OneCLI’s inline agent gateway ([Oasis](https://www.oasis.security/newsroom), Apr 2026).
+  - Astrix Security ($85M raised, revenue unknown): discovers agents, service accounts, tokens, and secrets across existing enterprise environments and provisions scoped access ([Astrix funding announcement](https://www.prnewswire.com/news-releases/astrix-security-raises-45m-series-b-to-redefine-identity-security-for-the-ai-era-302327052.html), Dec 2024).
+  - Entro Security ($24M raised, revenue unknown): emphasizes discovery, classification, observability, ownership, and decommissioning across the NHI lifecycle ([Business Wire](https://www.businesswire.com/news/home/20240618621007/en/Entro-Security-Announces-%2418M-Series-A-Round-to-Enhance-Non-Human-Identity-Lifecycle-Management), Jun 2024).
+  - Infisical ($18.8M in announced seed and Series A financing, revenue unknown): its Agent Vault uses the same outbound HTTP credential-proxy pattern while connecting to Infisical’s existing secrets platform ([Infisical Series A](https://infisical.com/blog/series-a), Jun 2025; [Infisical seed](https://infisical.com/blog/infisical-seed-round), Jul 2023).
+- **Why now:** [Inferred]: The 2025–26 transition from chat interfaces to agents executing code and external API calls created a credential boundary problem, which the founders say prompted OneCLI’s creation in January 2026 ([ChartDB](https://chartdb.io/blog/introducing-onecli), May 2026).
 
 ## Founders & Team
 
-- **Jonathan Haim Fishner (Co-founder & CEO):**
-  - Background: Attended The College of Management Academic Studies (LinkedIn); co-founded ChartDB, which reached 20K+ GitHub stars (LinkedIn headline; dev.to/chartdb "From Zero to 1.5K GitHub Stars in 3 Days"); based Tel Aviv per LinkedIn, GitHub profile lists New York.
-  - Twitter/X: @jonathanfishner (x.com/jonathanfishner); follower count not retrievable via search.
-  - LinkedIn: "Co-Founder & CEO at OneCLI" (linkedin.com/in/jonathanfishner/).
-  - GitHub: @johnnyfish (github.com/johnnyfish); top repo association is ChartDB (20K+ stars per LinkedIn).
-- **Guy Ben-Aharon (Co-founder):**
-  - Background: LinkedIn lists Aqua Security (linkedin.com/in/guy-ben-aharon/); prior product-building tenure at Wix cited in founder interview snippet; co-founded ChartDB with Fishner.
-  - Twitter/X: @gbenaharon (x.com/gbenaharon); follower count not retrievable via search.
-  - LinkedIn: "Aqua Security" (linkedin.com/in/guy-ben-aharon/); a second profile linkedin.com/in/guybenaharon/ lists "Freelance" — same-name disambiguation risk noted.
-  - GitHub: No public handle confirmed via search.
-- **Co-founder relationship:** Fishner and Ben-Aharon previously co-founded ChartDB together (dev.to/chartdb article; Fishner LinkedIn), a database-diagram open-source tool that hit HN front page and 1.5K stars in 3 days (Oct 2024) and grew to 20K+ stars.
-- **Founder-market fit:** Ben-Aharon's Aqua Security tenure (LinkedIn) supplies cloud-security/credential-handling domain background, and the pair's ChartDB launch demonstrated open-source developer-tool distribution execution relevant to OneCLI's OSS-led motion (dev.to/chartdb, 2024). No advisors, board members, or named investors surfaced in public search.
+- **Jonathan Fishner (CEO):**
+  - Background: Previously Principal Security Architect at Axis Security, four years at Fiverr, and founder of IDF Unit 8200’s first Big Data team; no public education data was found ([Y Combinator](https://www.ycombinator.com/companies/onecli)).
+  - Twitter/X: [@jonathanfishner](https://x.com/jonathanfishner), count not retrievable.
+  - LinkedIn: “Co-Founder & CEO at OneCLI - building the Identity Gateway for AI Agents” ([LinkedIn](https://www.linkedin.com/in/jonathanfishner)).
+  - GitHub: [@johnnyfish](https://github.com/johnnyfish), with ChartDB at 22.7K stars and OneCLI at 2.9K stars ([GitHub](https://github.com/johnnyfish), Jul 2026).
+- **Guy Ben-Aharon (CTO):**
+  - Background: BSc Computer Science from Ben-Gurion University; first engineer at Argon Security before its Aqua acquisition, followed by Aqua Security, Wix, and IDF Unit 8200 ([Y Combinator](https://www.ycombinator.com/companies/onecli)).
+  - Twitter/X: [@GuyBenAharon](https://x.com/GuyBenAharon), count not retrievable.
+  - LinkedIn: “Co-Founder & CTO at OneCLI - building the Identity Gateway for AI agents” ([LinkedIn](https://www.linkedin.com/in/guy-ben-aharon)).
+  - GitHub: [@guyb1](https://github.com/guyb1), with ChartDB at 22.7K stars and OneCLI at 2.9K stars ([GitHub](https://github.com/guyb1), Jul 2026).
+- **Co-founder relationship:** Fishner and Ben-Aharon previously built ChartDB together, which reached 22.5K stars and more than $10K MRR before their OneCLI pivot; these are prior-product metrics, not OneCLI traction ([Jonathan Fishner on LinkedIn](https://www.linkedin.com/in/jonathanfishner), Jul 2026).
+- **Founder-market fit:** Their documented experience spans ZTNA, network security, supply-chain security, IDF Unit 8200, and two jointly developed open-source infrastructure products ([Y Combinator](https://www.ycombinator.com/companies/onecli); [GitHub](https://github.com/chartdb/chartdb)).
 
 ## Key Risks
 
-- **Direct incumbent overlap:** Infisical shipped an open-source Agent Vault positioned identically as a credential proxy for AI agents in 2026 (infisical.com blog, 2026) and already commands the OSS secrets-management mindshare; OneCLI's differentiation of Rust implementation and 50+ integrations is not a defensible wedge in public materials.
-- **Commoditized core primitive:** HN commenters flagged the auth-proxy pattern as prior art in Fly.io tokenizer and BuzzFeed sso-proxy (HN thread, Mar 2026 via search snippet); no cited technical barrier prevents cloud KMS providers or Vault from bolting on agent UX.
-- **Concentrated design-partner dependence:** Public traction narrative leans on NanoClaw v2 default-adoption (nanoclaw.dev blog) and Bitwarden SDK integration (Fishner LinkedIn); if NanoClaw stalls or switches, a large share of the "default credential layer" positioning is affected.
-- **Name-collision risk:** "OneCLI" collides with Lenovo XClarity Essentials OneCLI (pubs.lenovo.com/lxce-onecli) and unrelated onecli.com domain, potentially diluting search/SEO reach.
-- **Monetization uncertainty:** Free tier covers up to 2 agents indefinitely (onecli.sh pricing) but paid pricing tiers, contract sizes, and any paying-customer counts are not disclosed in public materials.
+- **Proxy bypass:** Traffic that avoids the configured proxy cannot be intercepted; OneCLI recommends Docker or Kubernetes network policies, or host-level firewall rules, to force proxy use ([OneCLI](https://onecli.sh/blog/credential-vault-ai-agent-security), Mar 2026).
+- **Gateway-host compromise:** Root access to the gateway host can expose credentials while decrypted in memory, with HSM and trusted-execution-environment support described as a longer-term mitigation ([OneCLI](https://onecli.sh/blog/credential-vault-ai-agent-security), Mar 2026).
+- **Permitted-action misuse:** Credential isolation does not prevent damaging calls that existing policy permits, although the current product offers blocking, rate limits, approval requirements, and per-project scoping ([OneCLI](https://onecli.sh/), Jul 2026).
+- **Competitive convergence:** Infisical launched an open-source HTTP credential proxy in April 2026, while funded NHI vendors Oasis, Astrix, and Entro have expanded into agent access controls ([Infisical](https://infisical.com/blog/agent-vault-the-open-source-credential-proxy-and-vault-for-agents); [Oasis](https://www.oasis.security/agentic-access-management)).
+- **Name collision:** Lenovo has long used “OneCLI” for its XClarity server-management utility, producing unrelated search results; the startup distinguishes itself through the onecli.sh domain and AI-agent positioning ([Lenovo Press](https://lenovopress.com/lp1260.pdf)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | No public data found |
+| TAM | $1.65B in 2026, forecast to reach $13.52B by 2032 at a 42.0% CAGR ([MarketsandMarkets](https://www.marketsandmarkets.com/Market-Reports/agentic-ai-security-market-97017233.html), 2026) |
 | SAM | No public data found |
-| Traction | 2.5K+ GitHub stars, 300K+ downloads (company description); HN Show HN 160 points, 50 comments Mar 12 2026 (agent-wars.com, Mar 14 2026); NanoClaw v2 default agent vault (nanoclaw.dev blog); Bitwarden Agent Access SDK integration (Fishner LinkedIn); endorsements from Karpathy, Rauch, Daigle cited on onecli.sh |
-| Revenue Signal | Free tier up to 2 agents, no credit card, plus managed cloud option (onecli.sh); Apache 2.0 self-hosted (agent-wars.com, Mar 14 2026); paid pricing not disclosed |
-| Founders | Jonathan Haim Fishner (Co-founder & CEO): ChartDB co-founder (20K+ stars), College of Management Academic Studies. Guy Ben-Aharon (Co-founder): Aqua Security, prior Wix product experience, ChartDB co-founder. |
-| Competitors | Infisical (~$16M raised prior filings, revenue unknown, direct Agent Vault overlap); HashiCorp Vault (IBM acquired Feb 2024 $6.4B, enterprise dynamic secrets); Doppler (~$27M raised prior filings, revenue unknown, env-var sync SaaS); Akeyless ($80M+ raised prior filings, revenue unknown, vaultless SaaS); OpenBao (no funding, Vault fork) |
-| Moat Signals | NanoClaw v2 default adoption (nanoclaw.dev), Bitwarden SDK integration (Fishner LinkedIn), 2.5K+ GitHub stars and 300K+ downloads (company description) |
-| Risk Factors | Direct Infisical Agent Vault overlap, commoditized proxy primitive, NanoClaw dependence |
-| Founder Reach | Jonathan Fishner: X @jonathanfishner (count not retrievable), LinkedIn present, GitHub @johnnyfish (ChartDB 20K+ stars). Guy Ben-Aharon: X @gbenaharon (count not retrievable), LinkedIn present, GitHub not confirmed. |
-| Distribution Signals | HN Show HN 160 points Mar 12 2026 (agent-wars.com); DEV Community posts by Fishner; press coverage in Agent Wars, Top AI Product, Founderland, Aitoolnet (all Mar 2026) |
-| Emails | No public data found |
-
-Sources:
-- [OneCLI website](https://onecli.sh/)
-- [OneCLI YC page](https://www.ycombinator.com/companies/onecli)
-- [GitHub - onecli/onecli](https://github.com/onecli/onecli)
-- [Agent Wars: OneCLI credential vault (Mar 14 2026)](https://agent-wars.com/news/2026-03-14-onecli-open-source-credential-vault-and-gateway-for-ai-agents-built-in-rust)
-- [Top AI Product: OneCLI security gateway (Mar 14 2026)](https://topaiproduct.com/2026/03/14/onecli-puts-a-security-gateway-between-your-ai-agents-and-your-api-keys/)
-- [NanoClaw Adopts OneCLI Agent Vault](https://nanoclaw.dev/blog/nanoclaw-agent-vault/)
-- [Jonathan Fishner LinkedIn](https://www.linkedin.com/in/jonathanfishner/)
-- [Guy Ben-Aharon LinkedIn](https://www.linkedin.com/in/guy-ben-aharon/)
-- [ChartDB: From Zero to 1.5K GitHub Stars in 3 Days](https://dev.to/chartdb/chartdb-from-zero-to-15k-github-stars-in-3-days-heres-how-50ja)
-- [Jonathan Fishner GitHub](https://github.com/johnnyfish)
-- [Infisical: Best Secret Management Tools 2026](https://infisical.com/blog/best-secret-management-tools)
-- [HashiCorp Vault Alternatives 2026](https://wetheflywheel.com/en/comparisons/hashicorp-vault-alternatives/)
-- [Bitwarden + OneCLI integration (LinkedIn)](https://www.linkedin.com/posts/jonathanfishner_bitwarden-integrates-with-onecli-agent-vault-activity-7450115494780575744--QKG)
+| Traction | 320K+ downloads and NanoClaw default integration ([Y Combinator](https://www.ycombinator.com/companies/onecli), Jul 2026); 2.9K GitHub stars and 170 forks ([GitHub](https://github.com/onecli/onecli), Jul 2026); 4,523 weekly SDK downloads ([npm](https://www.npmjs.com/package/%40onecli-sh/sdk), Jul 2026) |
+| Revenue Signal | $0/month Free, $199/month Team, $499/month Scale, and $1,499/month managed VPC deployment ([OneCLI pricing](https://onecli.sh/pricing), Jul 2026) |
+| Founders | Jonathan Fishner (CEO): Axis Security, Fiverr, IDF Unit 8200; Guy Ben-Aharon (CTO): Argon Security, Aqua Security, Wix, IDF Unit 8200, BSc CS ([Y Combinator](https://www.ycombinator.com/companies/onecli)) |
+| Competitors | Oasis Security ($195M raised, revenue unknown, enterprise NHI governance) ([Oasis](https://www.oasis.security/newsroom)); Astrix ($85M raised, revenue unknown, cross-environment NHI discovery) ([PR Newswire](https://www.prnewswire.com/news-releases/astrix-security-raises-45m-series-b-to-redefine-identity-security-for-the-ai-era-302327052.html)); Entro ($24M raised, revenue unknown, NHI lifecycle management) ([Business Wire](https://www.businesswire.com/news/home/20240618621007/en/Entro-Security-Announces-%2418M-Series-A-Round-to-Enhance-Non-Human-Identity-Lifecycle-Management)); Infisical ($18.8M announced, revenue unknown, competing HTTP credential proxy) ([Infisical](https://infisical.com/blog/series-a)) |
+| Moat Signals | 2.9K GitHub stars, 170 forks, 320K+ claimed downloads, and NanoClaw default integration ([GitHub](https://github.com/onecli/onecli); [Y Combinator](https://www.ycombinator.com/companies/onecli), Jul 2026) |
+| Risk Factors | Proxy bypass and gateway-host compromise ([OneCLI](https://onecli.sh/blog/credential-vault-ai-agent-security), Mar 2026); competing proxy architecture ([Infisical](https://infisical.com/blog/agent-vault-the-open-source-credential-proxy-and-vault-for-agents), Apr 2026); Lenovo name collision ([Lenovo Press](https://lenovopress.com/lp1260.pdf)) |
+| Founder Reach | Jonathan: X count not retrievable, 2K LinkedIn followers, ChartDB 22.7K GitHub stars ([LinkedIn](https://www.linkedin.com/in/jonathanfishner); [GitHub](https://github.com/johnnyfish)); Guy: X count not retrievable, 2K LinkedIn followers, ChartDB 22.7K GitHub stars ([LinkedIn](https://www.linkedin.com/in/guy-ben-aharon); [GitHub](https://github.com/guyb1)) |
+| Distribution Signals | Show HN reached 160 points and 50 comments ([Hacker News statistics](https://news.social-protocols.org/stats?id=47353558), Mar 2026); LinkedIn has 317 followers ([LinkedIn](https://www.linkedin.com/company/onecli), Jul 2026); NanoClaw uses OneCLI by default ([Y Combinator](https://www.ycombinator.com/companies/onecli), Jul 2026) |
+| Emails | jonathan@onecli.sh ([Y Combinator](https://www.ycombinator.com/companies/onecli)); privacy@chartdb.io ([OneCLI Terms](https://onecli.sh/terms)) |

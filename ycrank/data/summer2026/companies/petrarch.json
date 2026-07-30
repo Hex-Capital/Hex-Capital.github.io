@@ -1,7 +1,7 @@
 {
   "slug": "petrarch",
   "name": "Petrarch",
-  "oneLiner": "Marketplace for specialized data assets",
+  "oneLiner": "Unlocking enterprise data for tomorrow's economy",
   "metadata": {
     "website": "https://petrarch.co/",
     "yc_page": "https://www.ycombinator.com/companies/petrarch",
@@ -11,7 +11,7 @@
     "location": "San Francisco, CA, USA",
     "tags": "Marketplace, B2B, Data Engineering",
     "yc_partner": "Vivian Midha Shen",
-    "emails": "founders@petrarch.co"
+    "emails": "founders@petrarch.co, samuel@petrarch.co, ian@petrarch.co"
   },
   "tags": [
     "Marketplace",
@@ -19,52 +19,52 @@
     "Data Engineering"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-02T16:35:23.265Z",
+  "memoGeneratedAt": "2026-07-30T17:28:06.165Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 37,
-      "tier": "Pass"
+      "score": 56,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 34,
-      "tier": "Pass"
+      "score": 57,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 35,
-      "tier": "Pass"
+      "score": 57,
+      "tier": "Neutral"
     },
     "paul-graham": {
+      "score": 65,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
       "score": 39,
       "tier": "Pass"
     },
-    "peter-thiel": {
-      "score": 35,
-      "tier": "Pass"
-    },
     "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
+      "score": 51,
+      "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 28,
+      "score": 41,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 37,
-    "EG": 34,
-    "NR": 35,
-    "PG": 39,
-    "PT": 35,
-    "SL": 30,
-    "VK": 28
+    "CB": 56,
+    "EG": 57,
+    "NR": 57,
+    "PG": 65,
+    "PT": 39,
+    "SL": 51,
+    "VK": 41
   },
-  "consolidatedAvg": 34,
-  "consolidatedRank": 63,
+  "consolidatedAvg": 52.29,
+  "consolidatedRank": 94,
   "traction": {
-    "tractionRank": 73,
-    "tractionScore": 5,
-    "tractionReason": "Pre-launch \"Coming 2026\" landing page"
+    "tractionRank": 60,
+    "tractionScore": 50,
+    "tractionReason": "Completed transactions across three data categories"
   },
   "paths": {
     "memo": "summer2026/memos/petrarch.md",

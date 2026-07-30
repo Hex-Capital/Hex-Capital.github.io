@@ -11,81 +11,66 @@
 | Team Size | 1 |
 | Location | San Francisco, CA, USA |
 | Tags | Artificial Intelligence, Generative AI, B2B |
-| YC Partner | Jared Friedman (YC company page) |
-| Emails | No public data found |
+| YC Partner | Jared Friedman ([Y Combinator](https://www.ycombinator.com/companies/glen), Jul 2026) |
+| Emails | founders@tryglen.com ([Glen Slack page](https://tryglen.com/slack), Jul 2026), nikosdritsakos@gmail.com ([founder website](https://www.nikosdritsakos.com/), Jul 2026) |
 
 ## The Idea
 
-- **Problem:** AI coding/PR/sales agents receive fragmented context — "one Slack thread, a single diff" — and must stitch the rest themselves, leading to repeated mistakes and flagged "deliberate choices as defects" (YC company page, 2026).
-- **Approach:** Glen reads from where work already lives (code, PRs, issues, docs, meetings), reconciles it via a shared learning store, and serves it to any MCP-connected agent so "anything learned by one agent is learned by all" (tryglen.com, 2026).
-- **Differentiation:** Versus Mem0 (vector-first per-agent memory bolt-on), Zep/Graphiti (temporal knowledge graph), and Letta (OS-style self-paging agent runtime), Glen positions as an org-wide, multi-agent shared context source, with access control "applied per observation, automatically, at recall" (tryglen.com; AgentMarketCap, Apr 2026).
-- **Business Model:** No pricing page is published; the product runs production waitlist-based onboarding "in waves" with work-email signup (tryglen.com, 2026). [Inferred]: per-seat or per-org SaaS subscription targeting engineering teams, consistent with MCP-agent peers.
-- **TAM/SAM:** No public TAM/SAM data found for this specific segment; broader agent-memory category context: Mem0 reports 186M API calls in Q3 2025 as the AWS Agent SDK memory provider (mem0.ai blog, 2026).
-- **GTM / Distribution:** [Inferred]: Bottom-up developer adoption via MCP integration with Claude, Cursor, and Codex (tryglen.com, 2026), gated waitlist invites, and founder-led outbound from San Francisco given solo-founder status.
+- **Problem:** Organizational knowledge is fragmented across code, pull requests, issues, documents, meetings, and individual agent sessions, leaving employees and agents to reconstruct decisions from partial context ([Y Combinator](https://www.ycombinator.com/companies/glen), Jul 2026).
+- **Approach:** Agents call Glen each turn to retrieve relevant organizational facts and store new observations in a shared, auditable knowledge record exposed through MCP ([Glen website](https://www.tryglen.com/), Jul 2026).
+- **Differentiation:** Unlike self-managed vector databases or RAG pipelines, Glen determines what to retain and retrieve without customer-managed indexes or retrieval code, while Unblocked concentrates on software-development context and Glean concentrates on enterprise search ([Glen website](https://www.tryglen.com/), Jul 2026; [Unblocked](https://getunblocked.com/blog/series-a/), May 2025; [Glean](https://www.glean.com/press/glean-raises-150m-series-f-at-7-2b-valuation-to-accelerate-enterprise-ai-agent-innovation-globally), Jun 2025).
+- **Business Model:** [Inferred]: Glen could monetize as enterprise SaaS based on organizational usage or connected agents, but its public site currently offers waitlist access and founder calls without disclosed pricing.
+- **TAM/SAM:** The global enterprise-search market was $4.87 billion in 2023 and is projected to reach $8.85 billion by 2030 at an 8.9% CAGR ([Grand View Research](https://www.grandviewresearch.com/industry-analysis/enterprise-search-market), accessed Jul 2026); no public SAM estimate was found for shared organizational memory for agents.
+- **GTM / Distribution:** Glen onboards teams from a work-email waitlist, offers founder-led calls, supports MCP clients, and provides a Slack integration installed through its application dashboard ([Glen website](https://www.tryglen.com/), Jul 2026; [Glen Slack page](https://tryglen.com/slack), Jul 2026).
 
 ## Defensibility
 
-- **Moat today:** No defensibility signals found in public sources beyond OAuth 2.1 access architecture and Postgres-backed encrypted store (tryglen.com, 2026).
-- **Future moat:** [Inferred]: Data network effects — each connected workspace's reconciled observations and "skills … offered back to the next agent" (YC company page, 2026) could compound per-customer, raising switching costs as organizational history accrues inside Glen.
-- **Market structure:** [Inferred]: Incumbent agent-memory vendors (Mem0, Letta, Zep) are oriented around per-agent or per-session memory APIs (AgentMarketCap, Apr 2026); pivoting to an org-wide, multi-source reconciliation product would require re-architecting around source connectors and access-control-per-observation rather than vector stores.
-- **Commoditization risk:** Connector-plus-vector-store architectures are widely available; Mem0 has 48,000+ GitHub stars as an open-source baseline (mem0.ai blog, 2026), and LangChain's LangMem ships natively in a popular agent framework (AgentMarketCap, Apr 2026).
+- **Moat today:** Glen retains decisions, lessons, customer context, and agent tool-use patterns in a shared organizational timeline, while enforcing organization-level isolation and an optional private mode ([Glen website](https://www.tryglen.com/), Jul 2026).
+- **Future moat:** [Inferred]: Repeated agent interactions could create organization-specific stores of decisions and workflows that become costly to recreate elsewhere, but no retention, migration, or usage data publicly demonstrates this effect.
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** Enterprise-search vendors, agent platforms, coding-context products, and companies building internal RAG systems can offer overlapping retrieval and organizational-context functionality, as demonstrated by Glean, Dust, and Unblocked ([Glean](https://www.glean.com/press/glean-raises-150m-series-f-at-7-2b-valuation-to-accelerate-enterprise-ai-agent-innovation-globally), Jun 2025; [Dust](https://www.globenewswire.com/news-release/2026/05/18/3296726/0/en/Dust-raises-40M-to-make-AI-multiplayer-inside-the-enterprise.html), May 2026; [Unblocked](https://getunblocked.com/blog/series-a/), May 2025).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Product is "in production today" with waitlist-based wave onboarding (tryglen.com, 2026).
-  - MCP integration confirmed with Claude, Claude Code, Cursor, Codex, and custom MCP clients (tryglen.com, 2026).
-  - Company X account @try_glen exists; follower count not retrievable (YC company page, 2026).
-  - LinkedIn company page "tryglen" exists; follower count not retrievable (YC company page, 2026).
-  - GitHub org "Glen-Web-App" listed on YC page; star/repo counts not retrievable (YC company page, 2026).
-  - No funding announcement, press coverage, Product Hunt launch, Discord/Slack community size, or revenue figures found in public sources.
+  - Production deployment with teams admitted in waves from a work-email waitlist ([Glen website](https://www.tryglen.com/), Jul 2026).
+  - 0 active job listings ([Y Combinator](https://www.ycombinator.com/companies/glen), Jul 2026).
 - **Competitors (minimum 3, up to 5):**
-  - Mem0 (revenue unknown; $24M total — $3.9M seed + $20M Series A led by Basis Set Ventures, Oct 2025; 48K+ GitHub stars; AWS Agent SDK memory provider): vector-first per-agent memory SDK, not org-wide reconciled context across PRs/docs/meetings (mem0.ai blog, 2026; AgentMarketCap, Apr 2026).
-  - Letta (revenue unknown; $10M seed led by Felicis at ~$70M post, per AgentMarketCap, Apr 2026): OS-style agent runtime with self-managed paging, focused on long-running autonomous agents rather than multi-agent org context.
-  - Zep (revenue unknown; funding not retrieved): temporal knowledge graph (Graphiti) tracking fact validity over time; 63.8% on LongMemEval vs. Mem0's 49.0% (mem0.ai blog, 2026); single-agent memory orientation vs. Glen's multi-agent org store.
-  - LangMem (LangChain's native memory SDK; LangChain funding not retrieved): framework-bundled memory primitives, not a standalone org-context product (AgentMarketCap, Apr 2026).
-  - Glean (enterprise work-graph search; not a memory vendor but adjacent on "emerging agent stack"): enterprise search and agent platform, broader/heavier than Glen's MCP-first developer wedge (glean.com blog, 2026).
-- **Why now:** [Inferred]: Anthropic's Model Context Protocol (MCP) reached broad client adoption across Claude, Cursor, and Codex in 2025, creating a standardized integration surface that lets a small team plug a shared context store into multiple agent runtimes simultaneously (tryglen.com lists MCP clients, 2026).
+  - Glean ($623M raised, $300M ARR): enterprise search and work AI spanning company data, versus Glen’s shared read/write learning layer for MCP agents ([Wing ET30](https://wing-assets.com/Wing-ET30-2025_Report.pdf), 2025; [TechCrunch](https://techcrunch.com/2026/05/28/gleans-top-line-crosses-300m-as-ai-budget-cutting-becomes-its-major-selling-point/), May 2026).
+  - Dust (over $60M raised, revenue unknown): enterprise platform for human-agent collaboration, versus Glen’s cross-agent organizational memory ([Dust](https://www.globenewswire.com/news-release/2026/05/18/3296726/0/en/Dust-raises-40M-to-make-AI-multiplayer-inside-the-enterprise.html), May 2026).
+  - Unblocked ($30M raised, revenue unknown): contextual intelligence focused on understanding codebases, versus Glen’s context across engineering, sales, support, and organizational decisions ([TechCrunch](https://techcrunch.com/2025/05/06/unblocked-raises-20-million-for-its-ai-assistant-to-help-devs-understand-legacy-codebases/), May 2025).
+- **Why now:** [Inferred]: MCP’s November 2024 release and subsequent support from Anthropic, OpenAI, Google, Microsoft, AWS, and other Agentic AI Foundation participants created a common interface through which a shared memory service can reach multiple agent clients ([Anthropic](https://www.anthropic.com/news/model-context-protocol), Nov 2024; [Anthropic](https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation), Dec 2025).
 
 ## Founders & Team
 
-- **Nikos Dritsakos (Founder, solo):**
-  - Background: Computer science at Brock University; ran a growth agency from year one to year three of university and helped scale Bright; co-founded SalesBop (AI sales coaching) with Sarah Simionescu and Jason Huang, acquired by SellWell and rebranded as FliteHouse, where he served as VP of Tech & Product (The Forge / McMaster University article; LinkedIn).
-  - Twitter/X: company handle @try_glen; personal handle — No public account found.
-  - LinkedIn: "Glen | Simply for the love of the game." — 500+ connections, San Francisco (linkedin.com/in/nikos-dritsakos).
-  - GitHub: Company org @Glen-Web-App listed on YC page; personal handle — No public repos found.
-- **Co-founder relationship:** Solo founder per YC company page (team size 1); no co-founder.
-- **Founder-market fit:** [Inferred]: Prior acquired AI-SaaS company (SalesBop → SellWell/FliteHouse) and VP-level product/tech operating experience indicate exposure to multi-agent B2B SaaS workflows; no advisors, board members, or named investors found in public sources beyond YC Group Partner Jared Friedman (YC company page, 2026).
+- **Nikos Dritsakos (Founder):**
+  - Background: BSc Computer Science with First Class Honours from Brock University in 2024; former Composio Head of Special Projects, FliteHouse VP of Technology and Product, and founder of SalesBop, which was sold for $500,000 after 18 months ([founder website](https://www.nikosdritsakos.com/), Jul 2026; [Y Combinator](https://www.ycombinator.com/companies/glen), Jul 2026).
+  - Twitter/X: No public account found.
+  - LinkedIn: “Glen”; 5K followers and 500+ connections ([LinkedIn](https://www.linkedin.com/in/nikos-dritsakos), Jul 2026).
+  - GitHub: No public repos found.
+- **Co-founder relationship:** No public data on co-founder history.
+- **Founder-market fit:** Nikos Dritsakos previously built AI sales-coaching software, managed AI product development at FliteHouse, led SOC 2 compliance, and worked on agent tooling at Composio ([Y Combinator](https://www.ycombinator.com/companies/glen), Jul 2026; [founder website](https://www.nikosdritsakos.com/), Jul 2026).
 
 ## Key Risks
 
-- **Solo-founder execution at platform scope:** Glen's product surface spans connectors to code, PRs, issues, docs, and meetings plus MCP server, access control, and storage (tryglen.com, 2026); a single founder (YC page) carries delivery and GTM concurrently with no co-founder coverage found.
-- **Commoditization by funded memory peers:** Mem0 ($24M raised, 48K+ GitHub stars, AWS Agent SDK distribution; mem0.ai blog, 2026) and Letta ($10M seed at ~$70M post; AgentMarketCap, Apr 2026) hold capital and developer-mindshare leads in adjacent agent-memory positioning.
-- **Distribution dependence on MCP and host agents:** Product value relies on MCP clients (Claude, Cursor, Codex) remaining open and on customers running MCP-based agents (tryglen.com, 2026); host-vendor changes to memory/context APIs could disintermediate the layer.
-- **Enterprise data-access barriers:** Reading from "code and PRs, issues, docs, and meetings" (YC company page, 2026) requires per-source enterprise authorization and security review; no SOC 2 or enterprise certifications were found in public sources.
-- **Unverified traction:** No public users, revenue, customer logos, press, Product Hunt launch, or community-size data found at time of research, leaving traction unverifiable beyond "in production with waitlist waves" (tryglen.com, 2026).
+- **Sensitive-data aggregation:** Glen centralizes decisions, customer information, conversations, and work history for organization-wide retrieval; it mitigates cross-organization access with row-level security, TLS, provider-managed encryption at rest, OAuth 2.1, hashed API keys, and a private mode ([Glen website](https://www.tryglen.com/), Jul 2026).
+- **Permission granularity:** Glen states that everything learned is shared with everyone in the organization unless private mode prevents a chat from being written, creating potential exposure when source-system permissions differ ([Glen website](https://www.tryglen.com/), Jul 2026).
+- **Retrieval accuracy:** Glen selects what to store and what is relevant for agents, so omitted, stale, or incorrectly reconciled context could propagate across users and agents; no public accuracy benchmarks or evaluation results were found ([Glen website](https://www.tryglen.com/), Jul 2026).
+- **Platform competition:** Glean reported $300 million ARR, Dust has raised over $60 million, and Unblocked has raised $30 million, giving adjacent vendors capital and existing enterprise distribution for overlapping context products ([TechCrunch](https://techcrunch.com/2026/05/28/gleans-top-line-crosses-300m-as-ai-budget-cutting-becomes-its-major-selling-point/), May 2026; [Dust](https://www.globenewswire.com/news-release/2026/05/18/3296726/0/en/Dust-raises-40M-to-make-AI-multiplayer-inside-the-enterprise.html), May 2026; [TechCrunch](https://techcrunch.com/2025/05/06/unblocked-raises-20-million-for-its-ai-assistant-to-help-devs-understand-legacy-codebases/), May 2025).
+- **Name ambiguity:** “Glen” is shared by unrelated organizations and products in search results, which can impair discoverability; company-specific results require confirmation against tryglen.com and YC Summer 2026 ([Y Combinator](https://www.ycombinator.com/companies/glen), Jul 2026).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | No public data found |
+| TAM | $4.87B global enterprise-search market in 2023, projected to $8.85B by 2030 at 8.9% CAGR (Grand View Research, accessed Jul 2026) |
 | SAM | No public data found |
-| Traction | "In production today" with waitlist wave onboarding (tryglen.com, 2026); MCP integrations live for Claude, Cursor, Codex (tryglen.com, 2026); company X @try_glen and LinkedIn "tryglen" (YC page, 2026), follower counts not retrievable |
-| Revenue Signal | No public data found (no pricing page; waitlist gated — tryglen.com, 2026) |
-| Founders | Nikos Dritsakos (Founder): Brock University CS; co-founded SalesBop, acquired by SellWell/FliteHouse; former VP Tech & Product at FliteHouse |
-| Competitors | Mem0 ($24M raised, revenue unknown, vector-first per-agent memory SDK with 48K+ GH stars); Letta ($10M seed at ~$70M post, revenue unknown, OS-style agent runtime); Zep (funding not retrieved, revenue unknown, temporal knowledge graph for single-agent memory); LangMem (LangChain-bundled, revenue unknown, framework-native memory primitives); Glean (adjacent enterprise work-graph search, funding not retrieved) |
-| Moat Signals | No public data found beyond per-observation access control and OAuth 2.1 + argon2id key hashing (tryglen.com, 2026) |
-| Risk Factors | Solo-founder platform scope, commoditization by funded memory peers (Mem0/Letta), MCP/host-agent distribution dependence |
-| Founder Reach | Nikos Dritsakos: Twitter not found, LinkedIn 500+ connections (linkedin.com/in/nikos-dritsakos), GitHub personal handle not found |
-| Distribution Signals | Waitlist signup with work email (tryglen.com, 2026); MCP client integrations Claude/Cursor/Codex (tryglen.com, 2026); no Product Hunt, Chrome Web Store, or app-store presence found |
-| Emails | No public data found (booking link glen.cal.com/general/glen-chat — tryglen.com, 2026) |
-
-Sources:
-- [Glen — tryglen.com](https://www.tryglen.com/)
-- [Glen — Y Combinator company page](https://www.ycombinator.com/companies/glen)
-- [Nikos Dritsakos — LinkedIn](https://www.linkedin.com/in/nikos-dritsakos/)
-- [SalesBop acquisition story — The Forge, McMaster University](https://theforge.mcmaster.ca/salesbop-acquired/)
-- [State of AI Agent Memory 2026 — mem0.ai blog](https://mem0.ai/blog/state-of-ai-agent-memory-2026)
-- [Agent Memory at Scale 2026 — AgentMarketCap](https://agentmarketcap.ai/blog/2026/04/10/agent-memory-vendor-landscape-2026-letta-zep-mem0-langmem)
-- [The emerging agent architecture — Glean blog](https://www.glean.com/blog/emerging-agent-stack-2026)
+| Traction | Production deployment with teams onboarded in waves from a waitlist (Glen website, Jul 2026); 0 job listings (Y Combinator, Jul 2026) |
+| Revenue Signal | No public data found |
+| Founders | Nikos Dritsakos (Founder): Brock University CS graduate, former Composio Head of Special Projects, SalesBop founder with a $500K exit (Y Combinator, Jul 2026) |
+| Competitors | Glean ($623M raised, $300M ARR, enterprise search versus shared agent learning) (Wing ET30, 2025; TechCrunch, May 2026); Dust (over $60M raised, revenue unknown, human-agent collaboration platform) (Dust, May 2026); Unblocked ($30M raised, revenue unknown, codebase-focused contextual intelligence) (TechCrunch, May 2025) |
+| Moat Signals | Shared organizational timeline of decisions, lessons, customer context, and tool-use patterns with organization-level isolation (Glen website, Jul 2026) |
+| Risk Factors | Sensitive-data aggregation, organization-wide permission model, retrieval accuracy, funded adjacent competitors (Glen website, Jul 2026; TechCrunch, May 2025–May 2026) |
+| Founder Reach | Nikos Dritsakos: Twitter not found, LinkedIn 5K followers and 500+ connections, GitHub not found (LinkedIn, Jul 2026) |
+| Distribution Signals | Work-email waitlist, founder-led demos, MCP-client compatibility, Slack integration (Glen website, Jul 2026; Glen Slack page, Jul 2026) |
+| Emails | founders@tryglen.com (Glen Slack page, Jul 2026), nikosdritsakos@gmail.com (founder website, Jul 2026) |

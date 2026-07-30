@@ -8,10 +8,10 @@
     "batch": "Summer 2026",
     "industry": "B2B / B2B -> Supply Chain and Logistics",
     "team_size": "2",
-    "location": "London, United Kingdom",
+    "location": "London, England, United Kingdom",
     "tags": "Artificial Intelligence, SaaS, B2B, Supply Chain",
-    "yc_partner": "Jon Xu (YC company page)",
-    "emails": "team@whitespacehq.ai (company website)"
+    "yc_partner": "Jon Xu",
+    "emails": "alex@whitespacehq.ai"
   },
   "tags": [
     "Artificial Intelligence",
@@ -20,52 +20,52 @@
     "Supply Chain"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-06-29T06:06:10.860Z",
+  "memoGeneratedAt": "2026-07-30T17:38:24.356Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 43,
-      "tier": "Pass"
+      "score": 66,
+      "tier": "Invest"
     },
     "elad-gil": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 46,
+      "score": 55,
       "tier": "Neutral"
     },
+    "naval-ravikant": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 78,
+      "tier": "Invest"
+    },
     "peter-thiel": {
-      "score": 29,
+      "score": 36,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 29,
+      "score": 42,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 29,
+      "score": 44,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 43,
-    "EG": 37,
-    "NR": 42,
-    "PG": 46,
-    "PT": 29,
-    "SL": 29,
-    "VK": 29
+    "CB": 66,
+    "EG": 55,
+    "NR": 55,
+    "PG": 78,
+    "PT": 36,
+    "SL": 42,
+    "VK": 44
   },
-  "consolidatedAvg": 36.43,
-  "consolidatedRank": 51,
+  "consolidatedAvg": 53.71,
+  "consolidatedRank": 81,
   "traction": {
-    "tractionRank": 48,
-    "tractionScore": 14,
-    "tractionReason": "Unattributed savings claims, no named customers"
+    "tractionRank": 56,
+    "tractionScore": 51,
+    "tractionReason": "Two named wholesale-distribution customers"
   },
   "paths": {
     "memo": "summer2026/memos/whitespace.md",

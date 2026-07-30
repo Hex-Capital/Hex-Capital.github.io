@@ -9,88 +9,78 @@
 | Batch | Summer 2026 |
 | Industry | B2B / B2B -> Supply Chain and Logistics |
 | Team Size | 2 |
-| Location | London, United Kingdom |
+| Location | London, England, United Kingdom |
 | Tags | Artificial Intelligence, SaaS, B2B, Supply Chain |
-| YC Partner | Jon Xu (YC company page) |
-| Emails | team@whitespacehq.ai (company website) |
+| YC Partner | Jon Xu |
+| Emails | alex@whitespacehq.ai |
 
 ## The Idea
 
-- **Problem:** Wholesale distributors manually process orders arriving via email, PDF, and portals while answering repetitive stock/delivery questions and managing inventory across ERP and spreadsheets (whitespacehq.ai homepage, 2026).
-- **Approach:** Product connects to ERP, spreadsheets, and inbox to build a "living model" of the business, then deploys AI agents for order entry, demand forecasting, customer email replies, weekly margin reports, credit checks, RMA intake, supplier ETA chasing, and price-list updates (whitespacehq.ai feature list, 2026).
-- **Differentiation:** [Inferred]: Versus Proton.ai (sales-rep recommendations layered on distributor CRM, proton.ai) and Pepper (food-distribution end-to-end platform, usepepper.com), Whitespace positions as a horizontal multi-agent OS rather than a single workflow or vertical-only stack; Choco AI focuses on digitising inbound food-supplier orders (choco.com press), narrower than Whitespace's stated scope.
-- **Business Model:** Usage-based pricing tied to volume and workflows automated, undisclosed dollar figures, with "pays for itself within 3 months" claim (whitespacehq.ai pricing copy, 2026).
-- **TAM/SAM:** U.S. wholesale trade sales reached $8.442 trillion in 2025, growing 4.8% YoY (Modern Distribution Management, 2025); no public SAM data found for AI-software spend within wholesale distribution.
-- **GTM / Distribution:** [Inferred]: Direct sales to mid-market distributors via founder networks and YC demo day, given 2-person team, no listed sales hires (YC page, 0 jobs), and London base implying UK/EU initial focus.
+- **Problem:** Wholesale distributors conduct order processing, inventory planning, and customer service through email, spreadsheets, phone calls, and legacy ERPs, with 30–50% of staff at a typical distributor assigned to back-office tasks ([YC company launch, Jul 2026](https://www.ycombinator.com/companies/whitespace)).
+- **Approach:** Whitespace connects to ERP, email, and other data systems, builds a business-specific knowledge model, and deploys agents for demand forecasting, replenishment, order entry, quoting, customer queries, procurement, and accounting workflows ([Whitespace website, Jul 2026](https://www.whitespacehq.ai/)).
+- **Differentiation:** Whitespace spans inventory, sales, service, and finance workflows, while Proton.ai focuses on distributor sales growth, Distro on quoting and sales enablement, and Stockline on food-wholesaler order and stock entry ([Whitespace](https://www.whitespacehq.ai/); [Proton.ai](https://www.proton.ai/); [Distro](https://distro.app/); [Stockline](https://stockline.ai/)).
+- **Business Model:** Pricing varies by usage volume and the workflows automated, with no public tiers or prices displayed ([Whitespace FAQ, Jul 2026](https://www.whitespacehq.ai/)).
+- **TAM/SAM:** Whitespace describes wholesale distribution as a $60 trillion global industry representing one-fifth of global output, but no public growth rate or software-serviceable estimate was provided ([YC company launch, Jul 2026](https://www.ycombinator.com/companies/whitespace)).
+- **GTM / Distribution:** [Inferred]: Founder-led sales targets wholesalers through introductions and booked consultations, based on the YC page’s request for distributor introductions and the website’s “Book a call” funnel.
 
 ## Defensibility
 
-- **Moat today:** No defensibility signals found in public sources beyond the integration depth claim (whitespacehq.ai, 2026).
-- **Future moat:** [Inferred]: Proprietary per-customer "living model" of ERP/inbox data could create switching costs as agents become tuned to that distributor's SKUs, customers, and supplier patterns; unproven because no customer count, retention, or model-improvement metric is published.
-- **Market structure:** [Inferred]: Incumbent distribution ERPs (Epicor, Infor, SAP) face channel conflict re-pricing existing modules as AI agents and lack inbox-native architecture; not a structural barrier — those vendors are actively shipping AI features (Epicor blog, 2025).
-- **Commoditization risk:** Multiple funded competitors (Proton.ai $24M, Pepper $128M, Choco $301M per Crunchbase/PitchBook) and general-purpose LLM agent frameworks make order-entry and email-reply automation reproducible by any team with ERP integrations.
+- **Moat today:** Whitespace states that it builds a customer-specific knowledge base from connected systems and that corrections train each customer’s agents, while customer data remains private and is not used to train models for other companies ([Whitespace website, Jul 2026](https://www.whitespacehq.ai/)).
+- **Future moat:** [Inferred]: Accumulated customer-specific workflow configurations, correction histories, and ERP integrations could create switching costs, but no retention or performance-over-time data are public.
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** Distro, Proton.ai, Stockline, and incumbent ERP vendors already offer overlapping sales, order-entry, inventory, or AI functionality for distributors ([Distro](https://distro.app/); [Proton.ai](https://www.proton.ai/); [Stockline](https://stockline.ai/)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Product claims of "10 hours saved per person per week, 5% order-volume uplift, 1% margin improvement, 2–4 week setup" with no named customer attribution (whitespacehq.ai, 2026).
-  - Customer logos on site (Mercer & Co., Halton Foods, Brightway Retail) appear in demo data context, not confirmed as paying customers (whitespacehq.ai, 2026).
-  - Job postings: 0 active roles on YC page (ycombinator.com/companies/whitespace, 2026).
-  - No press coverage, Product Hunt listing, Twitter/X account, LinkedIn company page follower count, or Discord/Slack community found in public search.
-- **Competitors:**
-  - Proton.ai ($24M raised, $20M Series A led by Felicis Jan 2022, revenue unknown; AI sales-rep recommendations for distributors — narrower workflow scope) (Crunchbase, VentureBeat 2022).
-  - Pepper ($128.1M raised, $50M Series C led by Lead Edge Feb 2026, ~$30B GMV across 500+ distributors served, revenue unknown; vertical food-distribution end-to-end platform) (BusinessWire 2026, usepepper.com).
-  - Choco ($301M raised, $1.2B valuation, Series B-IV $26.6M Feb 2023, revenue unknown; AI order digitisation for food wholesalers) (PitchBook, PRNewswire 2022).
-  - Prospect (raised undisclosed, revenue unknown; "Stock-Aware CRM" for wholesalers/distributors/manufacturers — CRM-focused, not multi-agent OS) (search snippet).
-- **Why now:** [Inferred]: Multi-step LLM agent reliability crossed a usable threshold in 2024–2025 (GPT-4-class function calling, Claude tool use), enabling end-to-end automation of email→ERP order entry that prior NLP/RPA could not close.
+  - Two named current-product customers—Kingfisher Direct and Warwick—are displayed on the company website ([Whitespace customer section, Jul 2026](https://www.whitespacehq.ai/)).
+  - Company-reported implementation metrics are 80%+ productivity gains in selected workflows, a typical three-month payback period, and two-to-four weeks from kickoff to live ([Whitespace website, Jul 2026](https://www.whitespacehq.ai/)).
+  - Current-product deployments include inventory planning, customer service, sales analysis, and order processing ([YC launch, Jul 2026](https://www.ycombinator.com/companies/whitespace)).
+  - The YC directory lists zero active jobs ([YC company page, Jul 2026](https://www.ycombinator.com/companies/whitespace)).
+  - Prior product: Leon Yao launched a private-beta AI slide maker after 30+ consultant interviews approximately three months before the wholesale-distribution launch; no prior-product usage or revenue was disclosed ([Leon Yao launch post via LinkedIn search, Apr 2026](https://uk.linkedin.com/in/aidan-ng-7b1179166)).
+- **Competitors (minimum 3, up to 5):**
+  - Proton.ai ($20M raised, revenue unknown): AI sales and revenue-growth tooling for wholesale distributors rather than Whitespace’s multi-function operating layer ([GlobeNewswire, Jan 2022](https://www.globenewswire.com/news-release/2022/01/18/2368707/0/en/Proton-ai-Raises-20M-Series-A-Led-by-Felicis-Ventures.html)).
+  - Distro (funding amount undisclosed, revenue unknown): quoting, product knowledge, takeoffs, and sales automation for industrial distributors ([Distro](https://distro.app/); [YC](https://www.ycombinator.com/companies/distro)).
+  - Stockline (funding amount undisclosed, revenue unknown): AI-native ERP and order-entry automation specifically for food wholesalers ([Stockline](https://stockline.ai/); [YC](https://www.ycombinator.com/companies/stockline)).
+  - Fresho (A$17M Series B disclosed, revenue unknown): food-wholesale ordering and operations software with AI order entry ([Fresho company summary, 2024](https://en.wikipedia.org/wiki/Fresho)).
+  - Kingpin ($3.5M raised, revenue unknown): an AI-native transaction platform connecting brands, distributors, and wholesalers ([Kingpin, Nov 2025](https://www.kingpin.ai/blog/kingpin-raised-3.5m-to-rebuild-global-distribution)).
+- **Why now:** [Inferred]: Recent agentic models can extract instructions from unstructured emails and documents and write actions into business systems, enabling products that extend beyond forecasting dashboards into order and workflow execution.
 
 ## Founders & Team
 
-- **Alex Tung (Co-founder):**
-  - Background: BSc Business Economics, University of Exeter (LinkedIn snippet); previously Chief of Staff and Head of GTM at Ankar AI, a London-based AI IP platform that raised Series A led by Atomico with Index Ventures (LinkedIn snippet, indexventures.com).
-  - Twitter/X: No public account found.
-  - LinkedIn: "Alex Tung - Ankar AI" headline (uk.linkedin.com/in/alexyctung); follower count not retrievable (status 999).
+- **Alex Tung (Co-Founder & CEO):**
+  - Background: Economics graduate from Cambridge, former BCG consultant advising Fortune 500 manufacturers and distributors, and first non-engineering hire at Ankar, which he helped reach seven-figure ARR within one year ([YC company page, Jul 2026](https://www.ycombinator.com/companies/whitespace)).
+  - Twitter/X: @alexytung; count not retrievable.
+  - LinkedIn: “Building AI for wholesale distributors”; approximately 3K followers ([LinkedIn, Jul 2026](https://www.linkedin.com/in/alexytung)).
   - GitHub: No public repos found.
-- **Leon Yao (Co-founder):**
-  - Background: [Inferred]: Most likely match is the London-based Leon Yao listed as Research Engineer at InstaDeep, UCL background, with NeurIPS and ICLR 2025 papers covering RL, molecular modeling, web automation (LinkedIn snippet via search); identity not definitively confirmed against Whitespace.
+- **Leon Yao (Co-Founder):**
+  - Background: UCL MSc in Machine Learning and BEng in Mechanical Engineering, former InstaDeep research engineer, first author on an IROS reinforcement-learning paper, and former Test and Tutor CTO serving 1,000+ users across three school partnerships ([YC company page](https://www.ycombinator.com/companies/whitespace); [UCL lab](https://rpl-as-ucl.github.io/alumni/)).
   - Twitter/X: No public account found.
-  - LinkedIn: "Leon Yao - InstaDeep" (linkedin.com/in/leon-yao-361984174); follower count not retrievable.
-  - GitHub: No public repos confirmed for this founder.
-- **Co-founder relationship:** No public data on co-founder history.
-- **Founder-market fit:** [Inferred]: Company copy states founders "grew up in families running wholesale distribution businesses" (whitespacehq.ai), supplying domain context; Alex's Ankar AI GTM tenure supplies B2B sales motion experience; no advisors, board members, or angel investors publicly disclosed.
+  - LinkedIn: “Founder at Whitespace”; 686 followers were indexed before the launch ([LinkedIn, May 2026](https://uk.linkedin.com/in/linghong-yao)).
+  - GitHub: @LeonY117; no public repository star count found ([personal site](https://www.leonyao.net/)).
+- **Co-founder relationship:** Tung and Yao have been friends for 12 years since high school and report having lived and worked together ([YC company page, Jul 2026](https://www.ycombinator.com/companies/whitespace)).
+- **Founder-market fit:** Both founders grew up in families operating wholesale-distribution businesses; Tung advised manufacturers and distributors at BCG, while Yao built AI products for logistics-distribution companies at InstaDeep ([YC company page, Jul 2026](https://www.ycombinator.com/companies/whitespace)).
 
 ## Key Risks
 
-- **Name collision / brand ambiguity:** At least three other "Whitespace" entities exist — Whitespace Ventures (London engineering consultancy, $13M raised, founded 2014 by Paul Jenkinson, per Tracxn) and White Space Ventures LLC (defense AI OS at white.space) — risking SEO confusion and trademark friction; no mitigation found.
-- **Unverified traction claims:** The 10-hour, 5%, 1% performance numbers (whitespacehq.ai) carry no customer attribution, sample size, or third-party validation, and the named "customers" (Mercer & Co., Halton Foods, Brightway Retail) appear in demo-data contexts per WebFetch.
-- **Well-capitalised vertical competitors:** Pepper ($128M), Choco ($301M), and Proton.ai ($24M) collectively serve overlapping wholesale-distribution buyer personas with multi-year head starts (Crunchbase, PitchBook, BusinessWire).
-- **ERP integration breadth as technical-feasibility risk:** Building reliable connectors and a "living model" across heterogeneous distributor ERPs (Epicor, SAP, Infor, NetSuite, spreadsheets) is operationally intensive for a 2-person team (YC page) and is the moat thesis simultaneously; no integration count disclosed.
-- **Co-founder identity ambiguity:** Leon Yao's professional background could not be definitively confirmed against the Whitespace founder via public search; due diligence should verify directly with the founders.
+- **Recent product pivot:** Whitespace was presented as an AI slide maker in private beta approximately three months before its wholesale-distribution launch, leaving limited public operating history for the current product ([Leon Yao launch post via LinkedIn search, Apr 2026](https://uk.linkedin.com/in/aidan-ng-7b1179166)).
+- **Integration surface:** The product advertises integrations with SAP, NetSuite, Epicor, Infor, Dynamics, Sage, Salesforce, HubSpot, QuickBooks, Gmail, and Outlook, creating maintenance and data-normalization requirements across multiple systems ([Whitespace website, Jul 2026](https://www.whitespacehq.ai/)).
+- **Execution accuracy:** Agents can create purchase orders and enter transactions into ERPs; Whitespace mitigates errors through pre-deployment calibration, customer-defined approval thresholds, and exception review ([Whitespace FAQ, Jul 2026](https://www.whitespacehq.ai/)).
+- **Competitive overlap:** Proton.ai, Distro, Stockline, and Fresho offer overlapping distributor sales, order-entry, or inventory capabilities, while Whitespace has not published proprietary IP or exclusive distribution agreements ([competitor sources above]).
+- **Name disambiguation:** Multiple unrelated companies use “Whitespace,” including a Belfast sovereign-AI company and an older London consultancy, which can contaminate search and company-profile results ([Belfast Whitespace](https://www.white.space/insights/whitespace-secures-series-a-to-scale-uk-built-sovereign-ai); [unrelated LinkedIn company](https://uk.linkedin.com/company/bewhitespace)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | U.S. wholesale trade sales $8.442T in 2025, +4.8% YoY (Modern Distribution Management, 2025) |
+| TAM | $60T global wholesale-distribution industry; growth rate not provided (YC company launch, Jul 2026) |
 | SAM | No public data found |
-| Traction | Site claims "10 hrs saved/person/week, 5% order volume, 1% margin, 2–4 wk setup" without named customer attribution (whitespacehq.ai, 2026); 0 YC job postings (ycombinator.com, 2026) |
-| Revenue Signal | Usage-based pricing, dollar figures undisclosed; claim "pays for itself in 3 months" (whitespacehq.ai, 2026) |
-| Founders | Alex Tung (Co-founder): ex-Chief of Staff/Head of GTM Ankar AI, BSc Exeter. Leon Yao (Co-founder): likely ex-InstaDeep Research Engineer, UCL (identity not fully verified). |
-| Competitors | Proton.ai ($24M raised, ARR unknown, sales-rep AI for distributors); Pepper ($128.1M raised, ARR unknown, vertical food-distribution platform); Choco ($301M raised, ARR unknown, AI order digitisation for food wholesalers); Prospect (raised unknown, ARR unknown, stock-aware CRM for B2B wholesalers) |
-| Moat Signals | No public data found |
-| Risk Factors | Name collision with other "Whitespace" entities, unverified traction claims, well-funded vertical competitors |
-| Founder Reach | Alex Tung: Twitter none found, LinkedIn count not retrievable, GitHub none found. Leon Yao: Twitter none found, LinkedIn count not retrievable, GitHub none found. |
-| Distribution Signals | No public data found (no Product Hunt, no press, no app store, no Chrome Web Store presence) |
-| Emails | team@whitespacehq.ai (whitespacehq.ai) |
-
-Sources:
-- [Whitespace company page](https://whitespacehq.ai/)
-- [Y Combinator – Whitespace](https://www.ycombinator.com/companies/whitespace)
-- [Alex Tung – LinkedIn](https://uk.linkedin.com/in/alexyctung)
-- [Leon Yao – LinkedIn (InstaDeep)](https://www.linkedin.com/in/leon-yao-361984174/)
-- [Proton.ai Series A – VentureBeat](https://venturebeat.com/business/proton-ai-raises-20m-to-optimize-wholesale-distributors-sales-operations)
-- [Pepper Series C – BusinessWire](https://www.businesswire.com/news/home/20260220742173/en/Pepper-Secures-$50-Million-Series-C-to-Expand-End-to-End-Technology-Platform-for-Independent-Food-Distributors)
-- [Choco unicorn – PRNewswire](https://www.prnewswire.com/news-releases/choco-achieves-unicorn-status-in-quest-to-drive-zero-food-waste-in-supply-chains-301523410.html)
-- [U.S. Wholesale Sales 2025 – MDM](https://www.mdm.com/news/research/economic-trends/u-s-wholesale-sales-top-8-4-trillion-in-2025-ending-with-momentum/)
-- [Whitespace Ventures (name collision) – Tracxn](https://tracxn.com/d/companies/whitespace/__rblcdRHnEijSOvweP5MfmDTyg4JDZgqGmYx-XfU63_A)
-- [Ankar AI – Index Ventures](https://www.indexventures.com/companies/ankarai/)
+| Traction | Kingfisher Direct and Warwick named as customers; 80%+ productivity gains in selected workflows, typical three-month payback, and two-to-four-week implementation claimed (Whitespace website, Jul 2026) |
+| Revenue Signal | Pricing varies by usage and automated workflows; prices and company revenue not disclosed (Whitespace FAQ, Jul 2026) |
+| Founders | Alex Tung (Co-Founder & CEO): Cambridge Economics, BCG, Ankar seven-figure-ARR scaling; Leon Yao (Co-Founder): UCL ML, InstaDeep, IROS author (YC company page, Jul 2026) |
+| Competitors | Proton.ai ($20M raised, revenue unknown, distributor sales platform); Distro (funding undisclosed, revenue unknown, industrial quoting); Stockline (funding undisclosed, revenue unknown, food-wholesale ERP); Fresho (A$17M Series B disclosed, revenue unknown, food ordering) (GlobeNewswire; YC; Fresho, 2022–2026) |
+| Moat Signals | Customer-specific knowledge bases, correction-driven agent learning, and private customer data not used for cross-customer model training (Whitespace website, Jul 2026) |
+| Risk Factors | Recent product pivot, multi-ERP integration burden, agent execution accuracy, overlapping competitors (Whitespace website; YC; LinkedIn, 2026) |
+| Founder Reach | Alex Tung: approximately 3K LinkedIn followers; Leon Yao: 686 LinkedIn followers and GitHub @LeonY117 with no star count found (LinkedIn; LeonYao.net, 2026) |
+| Distribution Signals | Founder-led consultation funnel and YC launch; zero YC job listings (Whitespace website; YC company page, Jul 2026) |
+| Emails | alex@whitespacehq.ai (YC company page, Jul 2026) |

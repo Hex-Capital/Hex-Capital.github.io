@@ -1,68 +1,72 @@
 {
   "slug": "cerenovus",
   "name": "Cerenovus",
-  "oneLiner": "Aggregate company knowledge and make inferences",
+  "oneLiner": "A knowledge company",
   "metadata": {
     "website": "https://www.cerenovus.ai/",
     "yc_page": "https://www.ycombinator.com/companies/cerenovus",
     "batch": "Summer 2026",
     "industry": "B2B / B2B",
-    "team_size": "3",
+    "team_size": "5",
     "location": "San Francisco, CA, USA",
-    "tags": "AI",
-    "yc_partner": "Tyler Bosmeny (YC company page)",
+    "tags": "AIOps, Artificial Intelligence, B2B, Search, AI",
+    "yc_partner": "Tyler Bosmeny",
     "emails": "No public data found"
   },
   "tags": [
+    "AIOps",
+    "Artificial Intelligence",
+    "B2B",
+    "Search",
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-06-29T06:06:26.716Z",
+  "memoGeneratedAt": "2026-07-30T17:40:37.592Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 23,
+      "score": 32,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 29,
-      "tier": "Pass"
+      "score": 51,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
       "score": 33,
       "tier": "Pass"
     },
-    "paul-graham": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 23,
-      "tier": "Pass"
-    },
     "sam-lessin": {
-      "score": 24,
+      "score": 30,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 32,
+      "score": 37,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 23,
-    "EG": 29,
-    "NR": 33,
-    "PG": 39,
-    "PT": 23,
-    "SL": 24,
-    "VK": 32
+    "CB": 32,
+    "EG": 51,
+    "NR": 52,
+    "PG": 52,
+    "PT": 33,
+    "SL": 30,
+    "VK": 37
   },
-  "consolidatedAvg": 29,
-  "consolidatedRank": 79,
+  "consolidatedAvg": 41,
+  "consolidatedRank": 157,
   "traction": {
-    "tractionRank": 30,
-    "tractionScore": 29,
-    "tractionReason": "\"Pilot customers are live,\" no names disclosed"
+    "tractionRank": 72,
+    "tractionScore": 47,
+    "tractionReason": "Pilot customers live"
   },
   "paths": {
     "memo": "summer2026/memos/cerenovus.md",

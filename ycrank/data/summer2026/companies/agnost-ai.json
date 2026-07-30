@@ -9,62 +9,63 @@
     "industry": "B2B / B2B -> Analytics",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Developer Tools, Analytics, Monitoring",
-    "yc_partner": "Tyler Bosmeny",
-    "emails": "No public data found"
+    "tags": "Artificial Intelligence, Developer Tools, Analytics, Monitoring",
+    "yc_partner": "Tyler Bosmeny ([Y Combinator](https://www.ycombinator.com/companies/agnost-ai), Jul 2026)",
+    "emails": "shubham@agnost.ai ([Y Combinator](https://www.ycombinator.com/companies/agnost-ai), Jul 2026)"
   },
   "tags": [
+    "Artificial Intelligence",
     "Developer Tools",
     "Analytics",
     "Monitoring"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-08T04:50:53.397Z",
+  "memoGeneratedAt": "2026-07-30T17:32:21.186Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 40,
-      "tier": "Pass"
+      "score": 46,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 56,
-      "tier": "Neutral"
+      "score": 67,
+      "tier": "Invest"
     },
     "naval-ravikant": {
-      "score": 50,
-      "tier": "Neutral"
+      "score": 66,
+      "tier": "Invest"
     },
     "paul-graham": {
-      "score": 44,
-      "tier": "Pass"
+      "score": 75,
+      "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 29,
+      "score": 42,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 32,
-      "tier": "Pass"
+      "score": 47,
+      "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 28,
+      "score": 34,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 40,
-    "EG": 56,
-    "NR": 50,
-    "PG": 44,
-    "PT": 29,
-    "SL": 32,
-    "VK": 28
+    "CB": 46,
+    "EG": 67,
+    "NR": 66,
+    "PG": 75,
+    "PT": 42,
+    "SL": 47,
+    "VK": 34
   },
-  "consolidatedAvg": 39.86,
-  "consolidatedRank": 30,
+  "consolidatedAvg": 53.86,
+  "consolidatedRank": 78,
   "traction": {
-    "tractionRank": 11,
-    "tractionScore": 56,
-    "tractionReason": "Named customers Google, Exa, Klarna, Corgi"
+    "tractionRank": 30,
+    "tractionScore": 59,
+    "tractionReason": "Processes 1M+ events daily across multiple teams"
   },
   "paths": {
     "memo": "summer2026/memos/agnost-ai.md",

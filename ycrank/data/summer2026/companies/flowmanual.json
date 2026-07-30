@@ -5,12 +5,13 @@
   "metadata": {
     "website": "https://flowmanual.com/",
     "yc_page": "https://www.ycombinator.com/companies/flowmanual",
-    "batch": "Summer 2026 (YC company page)",
+    "batch": "Summer 2026",
     "industry": "Real Estate and Construction / Real Estate and Construction -> Construction",
     "team_size": "2",
+    "location": "San Francisco, CA, USA",
     "tags": "SaaS, Construction, Workflow Automation",
-    "yc_partner": "Gustaf Alstromer (YC company page)",
-    "emails": "founders@flowmanual.com (flowmanual.com), david@flowmanual.com (search snippet)"
+    "yc_partner": "Gustaf Alstromer",
+    "emails": "founders@flowmanual.com, david@flowmanual.com, michael@flowmanual.com, legal@flowmanual.com"
   },
   "tags": [
     "SaaS",
@@ -18,52 +19,52 @@
     "Workflow Automation"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-06-29T06:05:46.763Z",
+  "memoGeneratedAt": "2026-07-30T17:39:46.715Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 35,
+      "score": 42,
       "tier": "Pass"
     },
     "elad-gil": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
       "score": 43,
       "tier": "Pass"
     },
-    "naval-ravikant": {
+    "paul-graham": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
       "score": 33,
       "tier": "Pass"
     },
-    "paul-graham": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 30,
-      "tier": "Pass"
-    },
     "sam-lessin": {
-      "score": 24,
+      "score": 43,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 29,
+      "score": 36,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 35,
-    "EG": 43,
-    "NR": 33,
-    "PG": 40,
-    "PT": 30,
-    "SL": 24,
-    "VK": 29
+    "CB": 42,
+    "EG": 56,
+    "NR": 43,
+    "PG": 54,
+    "PT": 33,
+    "SL": 43,
+    "VK": 36
   },
-  "consolidatedAvg": 33.43,
-  "consolidatedRank": 66,
+  "consolidatedAvg": 43.86,
+  "consolidatedRank": 148,
   "traction": {
-    "tractionRank": 28,
-    "tractionScore": 32,
-    "tractionReason": "Cedar Ridge Mechanical customer case study named"
+    "tractionRank": 141,
+    "tractionScore": 20,
+    "tractionReason": "Hundreds interviewed; no customer traction disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/flowmanual.md",

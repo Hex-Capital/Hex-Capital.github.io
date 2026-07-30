@@ -5,30 +5,79 @@
   "metadata": {
     "website": "https://onecli.sh",
     "yc_page": "https://www.ycombinator.com/companies/onecli",
-    "batch": "Summer 2026",
+    "batch": "Summer 2026 ([Y Combinator](https://www.ycombinator.com/companies/onecli))",
     "industry": "B2B / B2B -> Security",
     "team_size": "0",
     "location": "San Francisco, CA, USA",
-    "tags": "B2B, Security, Open Source, Infrastructure, AI",
-    "yc_partner": "Brad Flora (YC company page)",
-    "emails": "No public data found"
+    "tags": "Artificial Intelligence, B2B, Security, Open Source, Infrastructure",
+    "yc_partner": "Brad Flora ([Y Combinator](https://www.ycombinator.com/companies/onecli))",
+    "emails": "jonathan@onecli.sh ([Y Combinator](https://www.ycombinator.com/companies/onecli)); privacy@chartdb.io ([OneCLI Terms](https://onecli.sh/terms))"
   },
   "tags": [
+    "Artificial Intelligence",
     "B2B",
     "Security",
     "Open Source",
-    "Infrastructure",
-    "AI"
+    "Infrastructure"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-12T21:51:49.535Z",
-  "evalScores": {},
-  "consolidatedScores": {},
-  "consolidatedAvg": null,
-  "consolidatedRank": null,
-  "traction": null,
+  "memoGeneratedAt": "2026-07-30T17:50:52.521Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 65,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 69,
+      "tier": "Invest"
+    },
+    "naval-ravikant": {
+      "score": 72,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 82,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 38,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 65,
+    "EG": 69,
+    "NR": 72,
+    "PG": 82,
+    "PT": 55,
+    "SL": 59,
+    "VK": 38
+  },
+  "consolidatedAvg": 62.86,
+  "consolidatedRank": 10,
+  "traction": {
+    "tractionRank": 31,
+    "tractionScore": 59,
+    "tractionReason": "320K downloads and 4,523 weekly SDK downloads"
+  },
   "paths": {
     "memo": "summer2026/memos/onecli.md",
-    "evals": {}
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/onecli.md",
+      "elad-gil": "summer2026/evals/elad-gil/onecli.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/onecli.md",
+      "paul-graham": "summer2026/evals/paul-graham/onecli.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/onecli.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/onecli.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/onecli.md"
+    }
   }
 }

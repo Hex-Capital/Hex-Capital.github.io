@@ -1,0 +1,81 @@
+{
+  "slug": "decawork",
+  "name": "Decawork",
+  "oneLiner": "The Agent Control Plane for IT teams",
+  "metadata": {
+    "website": "https://decawork.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/decawork",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, B2B, Infrastructure",
+    "yc_partner": "Brad Flora",
+    "emails": "founders@decawork.ai, sarthak@decawork.ai"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "B2B",
+    "Infrastructure"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:32:34.878Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 64,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 72,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 37,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 54,
+    "EG": 64,
+    "NR": 48,
+    "PG": 72,
+    "PT": 40,
+    "SL": 38,
+    "VK": 37
+  },
+  "consolidatedAvg": 50.43,
+  "consolidatedRank": 108,
+  "traction": {
+    "tractionRank": 107,
+    "tractionScore": 34,
+    "tractionReason": "Enterprise production usage predates current positioning"
+  },
+  "paths": {
+    "memo": "summer2026/memos/decawork.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/decawork.md",
+      "elad-gil": "summer2026/evals/elad-gil/decawork.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/decawork.md",
+      "paul-graham": "summer2026/evals/paul-graham/decawork.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/decawork.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/decawork.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/decawork.md"
+    }
+  }
+}

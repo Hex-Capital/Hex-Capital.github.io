@@ -1,0 +1,30 @@
+﻿# Last Accounting Company -- Peter Thiel Evaluation
+
+Riki Karjalainen and Sami Laakkonen built petabyte-scale financial-data infrastructure, while Last Accounting Company has published no multi-year product roadmap. That pairing is the signature: Last Accounting Company is an unusually technical accounting firm with a definite-optimism deficit. The founders may be capable of building the machinery, but the dossier does not establish what permanent future they intend to build. Technical competence without a definite plan often becomes efficient iteration—the sophisticated form of indefinite optimism.
+
+Anduril’s high founder-lineage rung was Palmer Luckey’s proven ability to ship Oculus hardware to a billion-dollar exit before attacking defense. Last Accounting Company shares the narrower operator mechanism: Karjalainen and Laakkonen built financial infrastructure at Token Terminal, while Veikko Pere and Pietari Virkkunen encountered financial workflows through BCG, Intera Partners, private equity, and venture capital. Last Accounting Company diverges where the analogy becomes decisive: none of the four founders has a verified exit, prior scaled company, or evidence of owning an accounting product through regulated production. This is credible adjacent pedigree, not Luckey-style proof.
+
+The low rung on definite planning is the generic lean startup whose roadmap is merely “onboard customers and learn.” Last Accounting Company originated roughly ten weeks before onboarding its first customers, but Last Accounting Company names no two-to-five-year milestones, jurisdiction sequence, automation target, certification plan, or architectural commitment it refuses to abandon. Even the supported Nordic jurisdictions and accountant certifications remain unspecified. Speed is evidence of energy; it is not evidence of a plan. SpaceX knew where it was going before the first rocket worked.
+
+Pilot, Truewind, Bench, and Balance make the secret test unusually unforgiving. Last Accounting Company’s potentially contrarian claim is that the ledger, agents, and accounting firm should become one vertically integrated institution rather than remain separate software and service layers. Over the next 18 months, that mechanism could compound through transaction histories, corrections, and audit trails—but only if proprietary workflow knowledge improves accuracy faster than competitors can copy the interface. Last Accounting Company has named Pilot’s software-supported service model and Truewind’s accounting-team workflow model, yet it has not named the institutional or architectural reason either incumbent cannot vertically integrate. “Agent-native accounting firm” is a direction; a secret requires an enemy who is structurally unable to follow.
+
+Last Accounting Company could move its monopoly score into invest territory if daily accounting evaluations produced a proprietary control system with demonstrably lower error rates, regulatory approval across several Nordic jurisdictions, and switching costs embedded in the general ledger. Last Accounting Company currently provides none of those proofs: no retention, accuracy, data-scale, integration, pricing, or migration results are public, while Balance already combines AI bookkeeping, human review, and flat pricing. The $688.2 billion TAM is irrelevant. Monopoly is the condition of success; a large market populated by mimetic competitors is merely a large battlefield.
+
+Palantir converted regulated-customer complexity into integration depth, institutional trust, and pricing power. Last Accounting Company does touch regulated work—bookkeeping, payroll, VAT, filings, and accountant approval—but Last Accounting Company remains an atoms-light software-and-service operation with no disclosed certification barrier or exclusive regulatory position. Accounting-error liability may eventually force the construction of a real compliance moat. Today it is primarily a risk borne by the service provider, not a barrier imposed on competitors.
+
+Last Accounting Company will, by July 2029, operate as a Nordic AI-enabled managed accounting firm at approximately $2 million to $5 million ARR, with human review still central and the “proprietary ledger” differentiated operationally but not monopolistically. Last Accounting Company can reach that outcome because four founders combine financial-data engineering and finance experience, while fixed pricing and integrated service remove genuine customer pain. The same mechanism caps the result: liability, jurisdiction-by-jurisdiction compliance, and manual approval make service quality scale more readily than monopoly pricing power.
+
+The strongest bull case is the Asana exception: extraordinary builders can outrun an initially weak secret, and Last Accounting Company’s petabyte-scale Token Terminal engineers, middle-school founder relationship, first customers within ten weeks, proprietary ledger, daily error detection, and MCP interface could be the early outline of an accounting operating system. Last Accounting Company could then use the managed firm as a data-acquisition wedge rather than as the final business. The objection fails today because Asana had Dustin Moskovitz’s Facebook-scale proof, whereas Last Accounting Company has no verified shipped-to-scale founder, no accuracy advantage, and no evidence that Pilot, Balance, or Truewind cannot reproduce the architecture. I would flip to Invest if Last Accounting Company reaches at least $3 million ARR with more than 80% of close work completed without human correction across three named jurisdictions.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Contrarian Secret with Named Incumbent Failure Mode | 17/35 |
+| Monopoly Trajectory with Pricing Power Hypothesis | 10/25 |
+| Definite Founder Plan vs Indefinite Iteration | 4/15 |
+| Founder Lineage / Verified Operator Pedigree | 10/15 |
+| Atoms-Heavy or Regulated-Sector Structural Moat | 4/10 |
+| **Total** | **45/100** |
+
+**Total Score: 45/100** (Neutral)

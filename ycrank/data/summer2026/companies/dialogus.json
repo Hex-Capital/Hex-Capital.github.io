@@ -10,60 +10,60 @@
     "team_size": "3",
     "location": "San Francisco, CA, USA",
     "tags": "B2B, Customer Support",
-    "yc_partner": "Ankit Gupta",
-    "emails": "No public data found"
+    "yc_partner": "Ankit Gupta ([Y Combinator](https://www.ycombinator.com/companies/dialogus), Jul 2026)",
+    "emails": "hans@dlgs.ai ([Dialogus careers](https://www.dialoguslabs.com/careers), Jul 2026)"
   },
   "tags": [
     "B2B",
     "Customer Support"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-06-29T06:08:47.494Z",
+  "memoGeneratedAt": "2026-07-30T17:44:32.005Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 32,
+      "score": 42,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 40,
-      "tier": "Pass"
+      "score": 67,
+      "tier": "Invest"
     },
     "naval-ravikant": {
-      "score": 37,
-      "tier": "Pass"
+      "score": 50,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 33,
-      "tier": "Pass"
+      "score": 68,
+      "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 24,
+      "score": 38,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 26,
+      "score": 34,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 33,
-      "tier": "Pass"
+      "score": 46,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 32,
-    "EG": 40,
-    "NR": 37,
-    "PG": 33,
-    "PT": 24,
-    "SL": 26,
-    "VK": 33
+    "CB": 42,
+    "EG": 67,
+    "NR": 50,
+    "PG": 68,
+    "PT": 38,
+    "SL": 34,
+    "VK": 46
   },
-  "consolidatedAvg": 32.14,
-  "consolidatedRank": 72,
+  "consolidatedAvg": 49.29,
+  "consolidatedRank": 120,
   "traction": {
-    "tractionRank": 69,
-    "tractionScore": 6,
-    "tractionReason": "YC S26 only, no revenue or users found"
+    "tractionRank": 21,
+    "tractionScore": 66,
+    "tractionReason": "Thousands of production calls for named enterprises"
   },
   "paths": {
     "memo": "summer2026/memos/dialogus.md",

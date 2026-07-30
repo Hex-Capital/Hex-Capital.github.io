@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://inkbox.ai",
     "yc_page": "https://www.ycombinator.com/companies/inkbox",
-    "batch": "Summer 2026 (S26)",
+    "batch": "Summer 2026",
     "industry": "B2B / B2B -> Infrastructure",
     "team_size": "3",
-    "location": "Boston, MA, USA (website footer lists 313 Potrero Ave, Unit B, San Francisco, CA 94103; inkbox.ai)",
+    "location": "San Francisco, CA, USA",
     "tags": "Developer Tools, Infrastructure, AI",
-    "yc_partner": "Tyler Bosmeny (YC page)",
-    "emails": "hello@inkbox.ai (inkbox.ai)"
+    "yc_partner": "Tyler Bosmeny ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/inkbox))",
+    "emails": "hello@inkbox.ai, ray@inkbox.ai ([Inkbox website](https://inkbox.ai/); [Y Combinator, Jul 2026](https://www.ycombinator.com/companies/inkbox))"
   },
   "tags": [
     "Developer Tools",
@@ -19,52 +19,52 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-01T19:09:06.437Z",
+  "memoGeneratedAt": "2026-07-30T17:34:12.230Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 42,
-      "tier": "Pass"
+      "score": 58,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 44,
-      "tier": "Pass"
+      "score": 63,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 49,
-      "tier": "Neutral"
+      "score": 73,
+      "tier": "Invest"
     },
     "paul-graham": {
-      "score": 47,
-      "tier": "Neutral"
+      "score": 74,
+      "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 28,
-      "tier": "Pass"
+      "score": 46,
+      "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 27,
+      "score": 41,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 34,
+      "score": 39,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 42,
-    "EG": 44,
-    "NR": 49,
-    "PG": 47,
-    "PT": 28,
-    "SL": 27,
-    "VK": 34
+    "CB": 58,
+    "EG": 63,
+    "NR": 73,
+    "PG": 74,
+    "PT": 46,
+    "SL": 41,
+    "VK": 39
   },
-  "consolidatedAvg": 38.71,
-  "consolidatedRank": 35,
+  "consolidatedAvg": 56.29,
+  "consolidatedRank": 52,
   "traction": {
-    "tractionRank": 49,
-    "tractionScore": 13,
-    "tractionReason": "18 GitHub stars, third-party SDK exists"
+    "tractionRank": 85,
+    "tractionScore": 43,
+    "tractionReason": "Five-agent customer deployment at Vendo"
   },
   "paths": {
     "memo": "summer2026/memos/inkbox.md",

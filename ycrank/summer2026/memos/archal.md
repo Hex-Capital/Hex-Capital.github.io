@@ -1,6 +1,6 @@
 ﻿# Archal
 
-> The eval platform for autonomous software
+> The improvement loop for AI agents
 
 | Field | Value |
 |-------|-------|
@@ -10,65 +10,61 @@
 | Industry | B2B / B2B -> Infrastructure |
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
-| Tags | Developer Tools, API, Infrastructure, AI |
+| Tags | Artificial Intelligence, Developer Tools, API, Infrastructure |
 | YC Partner | Ankit Gupta |
-| Emails | No public data found |
+| Emails | founders@archal.ai, support@archal.ai |
 
 ## The Idea
 
-- **Problem:** Teams building autonomous agents that write to databases, trigger payments, and push code have no safe pre-production test environment, so failures are only discovered in production after irreversible damage (archal.ai landing copy, Jun 2026).
-- **Approach:** Archal spins up stateful clones of third-party SaaS APIs (GitHub, Slack, Stripe, Google Workspace, Linear, Supabase) that hold object relationships, rate limits, and errors checked against the live API, and runs markdown-defined scenarios in CI with reset-in-microseconds clones (archal.ai landing copy, Jun 2026).
-- **Differentiation:** Versus LangSmith/Braintrust/Arize (trace-and-score LLM observability platforms), Archal supplies the simulated downstream-SaaS environment the agent acts against rather than only scoring outputs (Latitude comparison, 2026); versus E2B/Modal/Blaxel code-execution sandboxes, Archal targets app-state cloning of SaaS APIs rather than generic code-runtime isolation (Modal blog, Blaxel blog, 2026).
-- **Business Model:** [Inferred]: Usage-based or seat-based developer-tools pricing tied to scenario runs / CI minutes — no pricing page is published on archal.ai (WebFetch archal.ai, Jun 2026).
-- **TAM/SAM:** No public TAM/SAM data found for the agent-sandbox-with-stateful-SaaS-clones segment; adjacent LLM-observability/eval space is contested by platforms collectively valued in the hundreds of millions (Braintrust $800M post, Axios, Feb 2026).
-- **GTM / Distribution:** [Inferred]: Bottom-up developer adoption via framework-agnostic SDKs (LangChain, custom loops, MCP, REST integrations listed on archal.ai, Jun 2026) and YC-network design-partner motion, given the 2-person team and no published sales collateral.
+- **Problem:** Agents that send messages, refund payments, grant access, or modify repositories can fail through stale context, incorrect permissions, ordering errors, and unsafe cross-tool actions that unit tests and mocks miss ([Archal documentation](https://docs.archal.ai/introduction), Jul 2026).
+- **Approach:** Archal runs agents against stateful behavioral copies of services such as GitHub, Slack, Stripe, and Linear, scores the resulting state and trace, reproduces production failures, and can open a fix PR after rerunning the failed scenario ([Archal website](https://archal.ai/), Jul 2026).
+- **Differentiation:** Braintrust centers on traces and evaluations, LangSmith combines observability, evaluation, and deployment, and Patronus evaluates model outputs and security, while Archal adds stateful external-service clones and automated harness-fix PRs ([Braintrust](https://www.braintrust.dev/blog/announcing-series-b), [LangChain](https://www.langchain.com/blog/series-b), [Patronus AI](https://www.patronus.ai/announcements/patronus-ai-raises-17-million-to-detect-llm-mistakes-at-scale), Jul 2026).
+- **Business Model:** [Inferred]: A metered cloud subscription is the likely model because the CLI tracks session-minutes by billing period and plan while CI uses workspace-scoped API keys, but Archal publishes no price list ([Archal debug documentation](https://docs.archal.ai/cli/debug), [quickstart](https://docs.archal.ai/quickstart), Jul 2026).
+- **TAM/SAM:** No public TAM/SAM data found for this specific segment.
+- **GTM / Distribution:** Archal combines self-serve installation through `npx archal`, an early-access CTA, founder outreach, and bookable 30-minute demos ([Archal quickstart](https://docs.archal.ai/quickstart), [contact page](https://archal.ai/contact), Jul 2026).
 
 ## Defensibility
 
-- **Moat today:** No defensibility signals found in public sources beyond the stated engineering claim that clones are "checked against the live API" (archal.ai landing copy, Jun 2026).
-- **Future moat:** [Inferred]: A library of high-fidelity, continuously drift-tested clones for the top SaaS APIs could become a switching-cost asset as customers wire scenarios into CI; unproven now because only six integrations are listed (archal.ai, Jun 2026) and no customer count is disclosed.
-- **Market structure:** [Inferred]: Incumbent observability/eval vendors (LangSmith, Braintrust, Arize) sell trace ingestion and scoring as their core SKU; building and maintaining stateful SaaS clones is a distinct engineering investment that conflicts with their current product surface, though none of those vendors has publicly ruled it out.
-- **Commoditization risk:** Open-source mocking frameworks and existing sandbox platforms (E2B, Modal, Blaxel) could extend toward stateful SaaS fixtures; cloud incumbents already advertise "100x faster" agent sandboxing (Cloudflare blog, 2026).
+- **Moat today:** The technical-complexity signal is a clone runtime that preserves state, referential integrity, service error shapes, and controlled DNS/TLS routing across supported services ([Archal introduction](https://docs.archal.ai/introduction), [route-mode documentation](https://docs.archal.ai/guides/route-mode-safety), Jul 2026).
+- **Future moat:** [Inferred]: Accumulated production-failure scenarios, stored regression benchmarks, clone fidelity, and repository integrations could create workflow switching costs, but no public customer, retention, or dataset-scale evidence establishes this yet.
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** [Inferred]: Funded evaluation platforms could add service simulation or partner with sandbox providers because Braintrust and LangSmith already support agent tracing, evaluation, and production-data feedback loops ([Braintrust](https://www.braintrust.dev/blog/announcing-series-b), [LangChain](https://www.langchain.com/blog/series-b), Jul 2026).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Y Combinator Summer 2026 batch (ycombinator.com/companies/archal, Jun 2026).
-  - LinkedIn page exists at linkedin.com/company/archal-labs; follower count not retrievable (YC page, Jun 2026).
-  - X/Twitter handle @archal_labs; follower count not retrievable (YC page, Jun 2026).
-  - No Product Hunt launch found (WebSearch, Jun 2026).
-  - No press coverage, revenue, customer logos, or user-count disclosures found (archal.ai, WebSearch, Jun 2026).
-  - YC hiring status: not hiring (company_data, Jun 2026).
-- **Competitors:**
-  - Braintrust ($124.3M total raised; $80M Series B led by Iconiq at $800M post, Feb 2026; revenue not publicly disclosed): eval-first observability for LLM apps, no stateful SaaS-API clones (SiliconANGLE, Axios, Feb 2026).
-  - LangSmith / LangChain (Series B backed by Sequoia, Benchmark, IVP; Sandboxes feature launched Mar 2026; revenue not publicly disclosed): trace/eval tied to LangChain ecosystem, sandboxes target code execution rather than SaaS-API state (Latitude blog, 2026).
-  - Arize AI (raised >$60M across rounds per Confident AI comparison, 2026; revenue not publicly disclosed): ML+LLM monitoring with OTel architecture, no SaaS-clone product (Confident AI, 2026).
-  - Langfuse (acquired by ClickHouse, Jan 2026; terms undisclosed): open-source self-hosted observability, no SaaS-clone product (Latitude blog, 2026).
-  - E2B / Modal / Blaxel (Modal raised >$80M per public reporting; E2B and Blaxel funding undisclosed in retrieved sources): generic code-execution sandboxes for agents, not API-state clones (Modal blog, Blaxel blog, 2026).
-- **Why now:** [Inferred]: 2025–2026 production deployment of agents that perform irreversible writes (payments, code pushes, DB writes) — a behavior shift Archal explicitly cites on its landing page (archal.ai, Jun 2026) — combined with Mar 2026 LangSmith Sandboxes launch (Latitude blog, 2026) indicating mainstream pull toward pre-prod agent test environments.
+  - 717 LinkedIn followers ([Archal LinkedIn](https://www.linkedin.com/company/archal-labs), Jul 2026).
+  - 59 weekly downloads and 30 releases for the deprecated `@archal/cli`, which directs users to the renamed `archal` package ([npm](https://www.npmjs.com/package/%40archal/cli), Jul 2026).
+  - 3 weekly downloads for `@archal/vitest` ([npm](https://www.npmjs.com/package/%40archal/vitest), Jul 2026).
+  - 0 YC job postings ([YC company page](https://www.ycombinator.com/companies/archal), Jul 2026).
+- **Competitors (minimum 3, up to 5):**
+  - Braintrust ($125M disclosed funding, revenue unknown): trace, experiment, and observability infrastructure rather than stateful SaaS clones and failure-repair PRs ([Braintrust Series A](https://www.braintrust.dev/blog/announcing-series-a), [Series B](https://www.braintrust.dev/blog/announcing-series-b)).
+  - LangSmith/LangChain ($160M disclosed funding, revenue unknown): an agent-development platform spanning tracing, evaluation, frameworks, and deployment rather than service-clone-based reproduction ([seed](https://www.langchain.com/blog/announcing-our-10m-seed-round-led-by-benchmark), [Series A](https://www.langchain.com/blog/langsmith-ga), [Series B](https://www.langchain.com/blog/series-b)).
+  - Patronus AI ($20M raised, revenue unknown): automated LLM evaluation, adversarial testing, and security rather than cloning external systems and modifying agent harnesses ([Patronus AI](https://www.patronus.ai/announcements/patronus-ai-raises-17-million-to-detect-llm-mistakes-at-scale), May 2024).
+- **Why now:** Archal attributes the catalyst to agents moving from text generation into stateful workflows that modify repositories, payment systems, communications, and access controls, creating failures that post-production observability detects only after an action occurs ([Archal product page](https://archal.ai/product), Jul 2026).
 
 ## Founders & Team
 
-- **Noah Song (Co-founder):**
-  - Background: B.S. from Illinois Institute of Technology; prior role teaching grade-school programming and robotics at Illinois Tech 2017–2020; listed as Co-Founder, Archal Labs (LinkedIn /in/noah-j-song, ZoomInfo, Jun 2026).
-  - Twitter/X: No public account found (WebSearch, Jun 2026).
-  - LinkedIn: "Archal Labs" — headline per LinkedIn snippet (linkedin.com/in/noah-j-song, Jun 2026).
-  - GitHub: No public repos found (WebSearch, Jun 2026).
-- **Aidan Tiruvan (Co-founder):**
-  - Background: CS + Math student, University of Colorado Boulder; prior Undergraduate Research Assistant, CU Boulder College of Engineering; listed as ML Research Engineer & Intern at Scale AI per ZoomInfo; Google Scholar profile exists; interests in randomized algorithms, numerical computing, convex optimization (aidantiruvan.com, scholar.google.com user weutgQUAAAAJ, ZoomInfo, Jun 2026).
-  - Twitter/X: No public account found in retrieved sources (WebSearch, Jun 2026).
-  - LinkedIn: "Archal (YC S26)" (linkedin.com/in/aidantiruvan, Jun 2026).
-  - GitHub: No public repos found in retrieved sources (WebSearch, Jun 2026).
-- **Co-founder relationship:** No public data on co-founder history (WebSearch, Jun 2026).
-- **Founder-market fit:** [Inferred]: Tiruvan's Scale AI ML-research-engineer exposure and CS/math academic profile (ZoomInfo, aidantiruvan.com, Jun 2026) align with the eval/agent-infrastructure problem; no exited-founder or domain-veteran credentials surfaced, and no advisors/investors beyond YC are disclosed (ycombinator.com/companies/archal, Jun 2026).
+- **Noah Song (Founder):**
+  - Background: Noah has CU Boulder mathematics and chemistry departmental awards and public projects involving Hubbard-model simulations, quantum chemistry, normalizing flows, and geometric deep learning, with no prior exit publicly identified ([LinkedIn](https://www.linkedin.com/in/noah-j-song), [GitHub](https://github.com/noahsong-sdg), Jul 2026).
+  - Twitter/X: [@theophorus7](https://x.com/theophorus7), count not retrievable.
+  - LinkedIn: “Cofounder at Archal” ([YC](https://www.ycombinator.com/companies/archal), Jul 2026).
+  - GitHub: [@noahsong-sdg](https://github.com/noahsong-sdg); `hubbard` has 0 stars ([GitHub](https://github.com/noahsong-sdg/hubbard), Jul 2026).
+- **Aidan Tiruvan (Founder):**
+  - Background: Aidan studied computer science and mathematics at CU Boulder, worked on agent red-teaming and synthetic data at Scale AI, and conducted ML research for a NASA mission proposal, with no prior exit publicly identified ([Aidan Tiruvan résumé](https://aidantiruvan.com/Aidan%20Tiruvan%20-%20Resume.pdf), Jul 2026).
+  - Twitter/X: [@AidanTiruvan](https://x.com/AidanTiruvan), count not retrievable.
+  - LinkedIn: “Founder at Archal” with 4K followers ([LinkedIn](https://www.linkedin.com/in/aidantiruvan), Jul 2026).
+  - GitHub: [@AidanTiruvan](https://github.com/AidanTiruvan); `ASM-3D-Game` has 1 star ([GitHub](https://github.com/AidanTiruvan), Jul 2026).
+- **Co-founder relationship:** Both founders have documented CU Boulder ties, but no public source states when or how they met ([Aidan résumé](https://aidantiruvan.com/Aidan%20Tiruvan%20-%20Resume.pdf), [Noah LinkedIn](https://www.linkedin.com/in/noah-j-song), Jul 2026).
+- **Founder-market fit:** [Inferred]: Aidan’s Scale AI agent-red-teaming work and both founders’ stated experience seeking realistic pre-production agent sandboxes connect their prior work to Archal’s evaluation mechanism ([Aidan résumé](https://aidantiruvan.com/Aidan%20Tiruvan%20-%20Resume.pdf), [Archal product page](https://archal.ai/product), Jul 2026).
 
 ## Key Risks
 
-- **Incumbent product expansion:** LangSmith shipped a Sandboxes feature in Mar 2026 (Latitude blog, 2026) and Braintrust raised $80M at $800M post in Feb 2026 (Axios, 2026); either can fund a stateful-API-clone module that subsumes Archal's wedge. No mitigation disclosed.
-- **Clone-fidelity technical risk:** The core claim — clones "checked against the live API" with full state, rate limits, and errors across six named SaaS platforms (archal.ai, Jun 2026) — requires ongoing reverse-engineering and drift-tracking per vendor; degraded fidelity would undermine pre-prod confidence. No mitigation disclosed beyond the marketing claim.
-- **Third-party-API ToS exposure:** Replicating Stripe, Google Workspace, Slack, GitHub, Supabase, and Linear behavior (archal.ai, Jun 2026) may conflict with platform terms; no public legal stance from Archal or named platform-partner program.
-- **No disclosed traction:** No revenue, user count, paying customer, Product Hunt rank, or press citation surfaced (WebSearch, archal.ai, Jun 2026); GTM signal at memo time is YC backing alone.
-- **Founder-experience risk:** Neither founder has a publicly disclosed prior exit, prior startup, or senior industry tenure in agent infrastructure (LinkedIn, aidantiruvan.com, ZoomInfo, Jun 2026); one founder appears to be a current undergraduate (CU Boulder).
+- **Clone coverage and fidelity:** Unsupported services and transports are not intercepted, several runtimes require custom CA handling, and browser fetch is unsupported; Archal mitigates this with Docker or sandbox execution and a live clone catalog ([route-mode documentation](https://docs.archal.ai/guides/route-mode-safety), Jul 2026).
+- **Routed-data exposure:** Archal can see headers and request bodies routed to clones, while its documented controls keep telemetry off by default, isolate clone state, and prevent agent API keys from being sent to Archal servers ([security documentation](https://docs.archal.ai/security), Jul 2026).
+- **Automated patch correctness:** A coding agent can modify prompts, tool wiring, retrieval, and glue code; Archal states that fixes are submitted as ordinary PRs and rerun against the reproduced scenario before merging ([Archal website](https://archal.ai/), Jul 2026).
+- **Competitor expansion:** Braintrust and LangChain have disclosed $125M and $160M in cumulative funding respectively and already operate agent-evaluation platforms, enabling adjacent product development into stateful testing ([Braintrust](https://www.braintrust.dev/blog/announcing-series-b), [LangChain](https://www.langchain.com/blog/series-b), Jul 2026).
+- **Name collision:** “Archal” also appears in search results for a French archaeology school and a Lammhults furniture line, creating company-search ambiguity ([EUR ArChal](https://fr.linkedin.com/company/eur-archal), [Lammhults product PDF](https://www.lammhults.se/Lammhults_Archal_table_productleaflet_2407_3.pdf), Jul 2026).
 
 ## Key Facts
 
@@ -76,28 +72,12 @@
 |-----------|------|
 | TAM | No public data found |
 | SAM | No public data found |
-| Traction | YC S26 batch (YC page, Jun 2026); LinkedIn page archal-labs (YC page, Jun 2026); X handle @archal_labs (YC page, Jun 2026); no Product Hunt, press, or user-count disclosures (WebSearch, Jun 2026) |
+| Traction | 717 LinkedIn followers; deprecated `@archal/cli` records 59 weekly downloads; `@archal/vitest` records 3 weekly downloads; 0 YC jobs ([LinkedIn](https://www.linkedin.com/company/archal-labs), [npm CLI](https://www.npmjs.com/package/%40archal/cli), [npm Vitest](https://www.npmjs.com/package/%40archal/vitest), [YC](https://www.ycombinator.com/companies/archal), Jul 2026) |
 | Revenue Signal | No public data found |
-| Founders | Noah Song (Co-founder): B.S. Illinois Institute of Technology; prior Illinois Tech robotics/programming instructor. Aidan Tiruvan (Co-founder): CS+Math student at CU Boulder; ML Research Engineer & Intern at Scale AI (ZoomInfo); Google Scholar author. |
-| Competitors | Braintrust ($124.3M raised, $800M post Feb 2026, revenue unknown — eval-first LLM observability, no SaaS clones); LangSmith (Series B, revenue unknown — trace/eval + Mar 2026 Sandboxes, LangChain-tied); Arize AI (>$60M raised per Confident AI, revenue unknown — ML+LLM monitoring); Langfuse (acquired by ClickHouse Jan 2026, terms undisclosed — OSS observability); E2B/Modal/Blaxel (Modal >$80M raised, others undisclosed — generic code-execution sandboxes) |
-| Moat Signals | No public data found |
-| Risk Factors | Incumbent expansion (LangSmith Sandboxes, Braintrust capitalization), clone-fidelity engineering burden, third-party-API ToS exposure |
-| Founder Reach | Noah Song: Twitter not found, LinkedIn /in/noah-j-song count not retrievable, GitHub not found. Aidan Tiruvan: Twitter not found, LinkedIn /in/aidantiruvan count not retrievable, GitHub not found. |
-| Distribution Signals | No public data found |
-| Emails | No public data found |
-
-Sources:
-- [Archal | The eval platform for autonomous software](https://www.archal.ai/)
-- [Archal: The eval platform for autonomous software | Y Combinator](https://www.ycombinator.com/companies/archal)
-- [YC S26 Companies — Extruct AI](https://www.extruct.ai/data-room/ycombinator-companies-s26/)
-- [Noah Song — LinkedIn](https://www.linkedin.com/in/noah-j-song/)
-- [Aidan Tiruvan — LinkedIn](https://www.linkedin.com/in/aidantiruvan/)
-- [Aidan Tiruvan — personal site](https://aidantiruvan.com/)
-- [Aidan Tiruvan — Google Scholar](https://scholar.google.com/citations?user=weutgQUAAAAJ&hl=en)
-- [Aidan Tiruvan — ZoomInfo](https://www.zoominfo.com/p/Aidan-Tiruvan/12568853314)
-- [Braintrust $80M Series B at $800M — Axios](https://www.axios.com/pro/enterprise-software-deals/2026/02/17/ai-observability-braintrust-80-million-800-million)
-- [Braintrust $80M Series B — SiliconANGLE](https://siliconangle.com/2026/02/17/braintrust-lands-80m-series-b-funding-round-become-observability-layer-ai/)
-- [LangSmith vs Arize vs Braintrust 2026 — Latitude](https://latitude.so/blog/best-llm-observability-tools-agents-latitude-vs-langfuse-langsmith)
-- [Top Arize AI Alternatives — Confident AI](https://www.confident-ai.com/knowledge-base/compare/top-arize-ai-alternatives-and-competitors-compared)
-- [Best Code Execution Sandboxes — Modal Blog](https://modal.com/resources/best-code-execution-sandboxes-ai-agents)
-- [Best Code Execution Sandboxes — Blaxel Blog](https://blaxel.ai/blog/code-execution-sandboxes-for-ai-agents)
+| Founders | Noah Song (Founder): CU Boulder departmental awards and computational-science projects; Aidan Tiruvan (Founder): CU Boulder CS/mathematics, Scale AI agent red-teaming, NASA research ([YC](https://www.ycombinator.com/companies/archal), [Noah LinkedIn](https://www.linkedin.com/in/noah-j-song), [Aidan résumé](https://aidantiruvan.com/Aidan%20Tiruvan%20-%20Resume.pdf), Jul 2026) |
+| Competitors | Braintrust ($125M disclosed funding, revenue unknown, trace/eval platform); LangSmith/LangChain ($160M disclosed funding, revenue unknown, agent engineering platform); Patronus AI ($20M raised, revenue unknown, model evaluation/security) ([Braintrust](https://www.braintrust.dev/blog/announcing-series-b), [LangChain](https://www.langchain.com/blog/series-b), [Patronus](https://www.patronus.ai/announcements/patronus-ai-raises-17-million-to-detect-llm-mistakes-at-scale)) |
+| Moat Signals | Stateful service clones, referential-integrity enforcement, replicated error shapes, controlled DNS/TLS routing, and stored regression scenarios ([Archal documentation](https://docs.archal.ai/introduction), Jul 2026) |
+| Risk Factors | Clone coverage gaps, routed request-data exposure, automated-patch correctness, funded adjacent platforms, name collision ([Archal route-mode documentation](https://docs.archal.ai/guides/route-mode-safety), [security documentation](https://docs.archal.ai/security), Jul 2026) |
+| Founder Reach | Noah Song: X count not retrievable, LinkedIn 2K, GitHub top cited repo 0 stars; Aidan Tiruvan: X count not retrievable, LinkedIn 4K, GitHub top cited repo 1 star ([Noah LinkedIn](https://www.linkedin.com/in/noah-j-song), [Noah GitHub](https://github.com/noahsong-sdg/hubbard), [Aidan LinkedIn](https://www.linkedin.com/in/aidantiruvan), [Aidan GitHub](https://github.com/AidanTiruvan), Jul 2026) |
+| Distribution Signals | Self-serve `npx archal` installation, early-access CTA, bookable demo, 717 LinkedIn followers, 59 weekly deprecated CLI downloads, and 3 weekly Vitest-package downloads ([quickstart](https://docs.archal.ai/quickstart), [contact](https://archal.ai/contact), [LinkedIn](https://www.linkedin.com/company/archal-labs), [npm](https://www.npmjs.com/package/%40archal/cli), Jul 2026) |
+| Emails | founders@archal.ai, support@archal.ai ([Archal contact page](https://archal.ai/contact), [security documentation](https://docs.archal.ai/security), Jul 2026) |

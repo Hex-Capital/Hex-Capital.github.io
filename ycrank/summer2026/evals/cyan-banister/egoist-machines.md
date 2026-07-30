@@ -1,0 +1,30 @@
+﻿# Egoist Machines -- Cyan Banister Evaluation
+
+Erin Meryl McGurk is the named CEO, while David Khachaturov is explicitly CTO, but Egoist Machines is a clearly fronted founder-and-distribution machine without a demonstrated lived origin in the problem. Egoist Machines has the outline of Biz, Tiz, and Rizz—McGurk’s 1 million-plus audience, Khachaturov’s Cambridge PhD, and a legible chain of command—but neither founder is shown repeatedly suffering from fragmented AI memory before deciding to build a passport. That pairing is the signature: unusually clear human ownership attached to a problem that still reads discovered rather than lived.
+
+SpaceX is the high rung for singular founder authority: everyone knew who commanded the rocket, especially when the rocket exploded. Egoist Machines shares the useful half of that mechanism because McGurk is CEO and Khachaturov is CTO rather than two people hiding behind “co-CEO.” Egoist Machines diverges where it matters: the dossier provides no equity split, founder-vesting arrangement, operating agreement, or exit-conflict protocol. A title is a clue, not a tiebreaker. I see enough structure to avoid the **HQ Trivia** nightmare, but not enough to know who wins when product distribution and technical security pull in opposite directions.
+
+DeepMind is the low rung on autobiographical problem ownership: elite researchers arrived through intellectual compounding, not a life that forced the problem upon them, and only the polymath exception rescued the bet. Egoist Machines shows the same weakness without yet earning the same exception. Khachaturov’s OpenAI PaperBench and FrontierOne security work make Egoist Machines technically credible, while McGurk’s privacy research interests make the direction coherent, but “[Inferred] founder-market fit” is not the physical moment when either founder needed portable memory and found nothing. Caledonian dancing explains how they met; it does not explain why they had to build this. My environmental-signal test—the Wi-Fi name, the dinner-table obsession, the strange artifact built before anyone watched—comes back empty.
+
+Mem0 has raised $24 million, Letta has raised $10 million, and both already occupy the agent-memory conversation, so Egoist Machines is not magically weird merely because it puts “user-owned” in front of memory. Egoist Machines becomes non-consensus only if category-scoped permissions, revocable passes, and receipts compound over the next 18 months into a trust standard that applications adopt despite incumbent incentives. Today, no live integration, retention count, or developer customer is named, while four publications and YC are already amplifying the launch. The idea has a little mysticism in it—your digital self carrying its own passport—but the round is more likely merely early than truly misunderstood and underpriced.
+
+Egoist Machines’ privacy policy contemplates health, fitness, calendar, identity, and preference data while conceding that absolute security cannot be guaranteed. The regulated swing would flip into my invest range if Egoist Machines became the consent and audit substrate for HIPAA, financial, or identity workflows, with liability and certification creating a moat. Egoist Machines currently offers software-only permission controls, claims access to more than 800 connector sources, and names no regulated customer. This is adjacent to ugly, regulated infrastructure, but it has not yet walked through that door; sensitive data alone does not make **Vigil Labs**.
+
+Niantic was physical verification at its purest: I could play Ingress and feel the world changing before a spreadsheet told me so. Egoist Machines offers a consumer waitlist opened July 13, 2026, with general availability promised later in the summer, so Egoist Machines cannot yet be installed, carried between assistants, or observed producing a better conversation. LodeDB’s 89 GitHub stars and 178 commits prove that something gets built, but not that the Passport works or that people return. A receipt page may eventually become a tactile trust artifact; today I cannot touch the passport, only the promise.
+
+The July 13, 2026 waitlist points to a falsifiable outcome: by July 2029, Egoist Machines will have abandoned the universal consumer AI Passport as its primary product, pivoted to B2B consent-and-context infrastructure, and remain below $2 million ARR. Egoist Machines has a CEO capable of creating attention and a CTO capable of building the substrate, but the free-for-life consumer product requires competing applications to surrender control without any disclosed switching cost or integration partner. The passport is the wrapper; permission middleware is the game Egoist Machines is actually playing.
+
+Erin McGurk’s 1 million-plus cross-platform audience is the strongest case against that forecast: Egoist Machines could seed consumer distribution cheaply, while Khachaturov’s 4,700-star BetterJoy repository suggests the polymath-builder exception that justified looking past DeepMind’s non-autobiographical origin. Egoist Machines could make portability viral before OpenAI or Google recognizes that users want sovereignty more than convenience. That case stings, but an audience is not repeated product use, an adjacent repository is not Passport retention, and the dossier names zero live application partners. I would flip to Invest if Egoist Machines demonstrates three unaffiliated AI applications in production and at least 25% 90-day retained Passport users; until then, this is a rebuttal, not yet a hard no.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Surfaced From Lived Experience, Not Market Analysis | 11/32 |
+| Magically Weird, Non-Consensus, Round Likely Underpriced | 14/24 |
+| Single Unambiguous CEO With Identifiable Tiebreaker Authority | 10/16 |
+| Capital-Intensive, Frontier-Hardware or Unsexy-Regulated Swing | 8/15 |
+| Physical-World Verifiability: You Can Touch, Use, Or Observe The Product | 5/13 |
+| **Total** | **48/100** |
+
+**Total Score: 48/100** (Neutral)

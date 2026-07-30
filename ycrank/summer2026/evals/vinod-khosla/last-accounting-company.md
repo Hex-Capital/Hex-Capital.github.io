@@ -1,0 +1,30 @@
+﻿# Last Accounting Company -- Vinod Khosla Evaluation
+
+The **$688.2 billion accounting-services market** makes Last Accounting Company a consequence-seeking labor-automation bet trapped inside a commodity-capital profile. Last Accounting Company attacks the right economic mechanism: eliminate the coordination among accountants, ledgers, payroll systems, banks, and tax workflows rather than make accountants 20% faster. Consequence magnitude is its highest dimension; required capital is its lowest. The ambition is category collapse. The current architecture is still a four-person managed service with Björn doing work and accountants approving it.
+
+**OpenAI** (2019) is the high rung because intelligence at scale breaks the economic assumption that valuable cognitive work requires human labor. Last Accounting Company shares that mechanism narrowly: a proprietary ledger and agents could make bookkeeping labor disappear instead of merely digitizing it. Last Accounting Company diverges where the analogy matters most. OpenAI required foundational technical invention and enormous capital before revenue; Last Accounting Company uses current agents, an MCP server, and human approval to pursue a Nordic slice of a well-served market. Replacing accounting firms and accounting software is consequential, but it is not yet civilizationally distinct.
+
+**DoorDash** (2013) is the low rung on required capital: no scientific plant, foundation-model training program, or $50 million technical milestone justified a Khosla-sized check. DoorDash escaped that weakness through a distribution network that compounded into a $72 billion outcome. Last Accounting Company shows the same low-capital shape without evidence of the compensating network effect. Last Accounting Company publishes no capital roadmap, pricing, retention, or deployment milestone; four founders are onboarding initial customers through direct messages. I am over-resourced for that experiment. “Make a great company and the money takes care of itself” does not mean capital is useful where capital creates no edge.
+
+Riki Karjalainen and Sami Laakkonen built petabyte-scale financial-data infrastructure, but Last Accounting Company has not named a technical miracle. Over 18 months, Last Accounting Company’s proprietary ledger could compound customer corrections, audit trails, and daily error evaluations into better automation. The opposite mechanism is at least as plausible: every accountant approval becomes recurring service labor while Pilot, Truewind, Balance, and incumbent software vendors copy the workflow layer. No published accuracy, integration, or data-scale evidence shows the proprietary stack crossing from software execution risk into technical risk that repels consensus investors.
+
+Riki Karjalainen’s Token Terminal background and Veikko Pere’s BCG and Intera Partners experience read as expert continuity, not defiance of documented consensus. Last Accounting Company would move up a full tier if Last Accounting Company demonstrated that certified-accountant approval can be removed while maintaining auditable accuracy across multiple jurisdictions—that would contradict the profession’s central assumption about liability and judgment. Today the Finnish controller, unspecified certifications, and human approval model preserve accounting orthodoxy. Experts predicted fewer than one million U.S. cellphones by 2000; 109 million existed. I reward a founder who proves experts wrong, not one who quietly automates their existing process.
+
+**Slash** (2024) earned the learning-rate exception through a documented pivot that changed the company’s direction. Last Accounting Company went from a rough idea to onboarding first customers in approximately ten weeks, which is useful execution evidence, but Last Accounting Company discloses no prior pivot, rejected thesis, or “we were wrong” moment. Knowing one another since middle school may improve trust; it does not establish intellectual velocity. No evidence—applying the absent-evidence default.
+
+The **ten-week path to first customers** supports a specific forecast: by July 2029, Last Accounting Company will have pivoted from replacing accountants and ledgers to selling agent-workflow software to Nordic accounting firms, reaching **$3 million to $8 million ARR**. Last Accounting Company’s large consequence target will pull it toward automation, but its low-capital service architecture, jurisdictional complexity, migration burden, and review liability will push distribution back through incumbent accountants. The economic mechanism will bend the product from replacement into enablement.
+
+The **four-founder mix of petabyte-scale engineering, finance, law, private equity, and venture experience** is the strongest case against my forecast. Last Accounting Company could be the DoorDash exception: proprietary infrastructure, founder-led onboarding after ten weeks, fixed pricing, and daily accounting evaluations could create a correction-data flywheel before Pilot or Truewind recognizes that owning the ledger is the decisive move. Last Accounting Company still provides no revenue, repeat-usage, retention, migration-success, or accuracy evidence, and Balance already combines AI bookkeeping with human review. The bull case becomes investable if Last Accounting Company verifies fewer than **0.1% material errors across 100 paying multi-jurisdiction customers while sustaining over 80% gross margin without proportional accountant headcount**. Until then, the ambition is larger than the demonstrated miracle.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Consequence Magnitude If Company Wins | 16/30 |
+| Technical or Capital Risk That Repels Consensus VCs | 8/25 |
+| Founder Defies Documented Expert Consensus | 8/20 |
+| Founder Learning Rate, Demonstrated By Prior Pivot Or Thesis Update | 7/15 |
+| Required-Capital Profile Matches Khosla Check Size | 2/10 |
+| **Total** | **41/100** |
+
+**Total Score: 41/100** (Pass)

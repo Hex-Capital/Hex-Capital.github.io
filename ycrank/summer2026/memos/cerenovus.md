@@ -1,6 +1,6 @@
 ﻿# Cerenovus
 
-> Aggregate company knowledge and make inferences
+> A knowledge company
 
 | Field | Value |
 |-------|-------|
@@ -8,100 +8,81 @@
 | YC Page | https://www.ycombinator.com/companies/cerenovus |
 | Batch | Summer 2026 |
 | Industry | B2B / B2B |
-| Team Size | 3 |
+| Team Size | 5 |
 | Location | San Francisco, CA, USA |
-| Tags | AI |
-| YC Partner | Tyler Bosmeny (YC company page) |
+| Tags | AIOps, Artificial Intelligence, B2B, Search, AI |
+| YC Partner | Tyler Bosmeny |
 | Emails | No public data found |
 
 ## The Idea
 
-- **Problem:** Executives currently rely on consultants, internal analysts, or informal asking-around to answer operational questions (e.g., team restructuring, vendor evaluation, broken handoffs), and those approaches are "slow, partial, and go stale the moment delivered" (YC company page, 2026).
-- **Approach:** Cerenovus ingests documents, PDFs, emails, Slack messages, spreadsheets, and meeting notes, converts them into a single markdown knowledge graph with native AI-agent integration, then maps the company as a system of people/processes/tools to infer inefficiencies (YC company page, 2026).
-- **Differentiation:** [Inferred]: vs. Glean (enterprise search) — Cerenovus emphasizes a markdown knowledge graph that models workflows/systems for inference, not retrieval-focused search; vs. Notion AI / Slack AI — Cerenovus claims cross-source unification rather than ecosystem-native search; differentiation is asserted by the YC description but not benchmarked publicly.
-- **Business Model:** No public data found on pricing; [Inferred]: B2B SaaS targeting executives, likely seat- or enterprise-tier-based given comparable category (Glean, Guru) — no pricing page is published.
-- **TAM/SAM:** No public TAM/SAM data found for this specific segment; closest reference: Glean reached $300M ARR in May 2026 within enterprise AI search ([TechCrunch, May 28 2026](https://techcrunch.com/2026/05/28/gleans-top-line-crosses-300m-as-ai-budget-cutting-becomes-its-major-selling-point/)).
-- **GTM / Distribution:** [Inferred]: Direct founder-led sales to executives in SF given in-person SF requirement in job posts (YC jobs page, 2026); "Pilot customers are live" per search snippet of YC page (via search snippet).
+- **Problem:** Executives seeking answers about restructurings, vendors, and broken handoffs currently rely on consultants, analysts, or informal internal inquiries that produce partial, quickly outdated findings ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/cerenovus)).
+- **Approach:** Cerenovus ingests documents, email, Slack, spreadsheets, CRM, ERP, and accounting records into a markdown knowledge graph, maps organizational workflows and dependencies, and generates evidence-linked answers and operational findings ([Cerenovus LinkedIn, Jul 2026](https://www.linkedin.com/company/cerenovus-ai)).
+- **Differentiation:** [Inferred]: Unlike Glean’s enterprise search, Guru’s curated knowledge base, and Dust’s configurable AI agents, Cerenovus describes a systems map intended to infer workflow inefficiencies and organizational dependencies.
+- **Business Model:** Compendium Pro costs $39.99 per seat monthly, includes $50 of AI usage per seat monthly, offers free personal vaults without AI, and gives new organizations a 14-day trial ([ChatGate summary of Cerenovus terms, Jul 2026](https://chatgate.ai/post/compendium)).
+- **TAM/SAM:** The global knowledge-management software market was $23.2 billion in 2025 and is projected to reach $74.22 billion in 2034 at a 13.8% CAGR ([Fortune Business Insights, Jul 2026](https://www.fortunebusinessinsights.com/knowledge-management-software-market-110376)).
+- **GTM / Distribution:** [Inferred]: The live pilots, public Compendium self-service launch, per-seat trial, Product Hunt listing, and recruitment of founding engineers indicate a pilot-led enterprise motion paired with product-led acquisition for smaller AI-native teams ([Cerenovus LinkedIn, Jun 2026](https://www.linkedin.com/company/cerenovus-ai); [Product Hunt, Jul 2026](https://www.producthunt.com/products/compendium-2)).
 
 ## Defensibility
 
-- **Moat today:** No defensibility signals found in public sources beyond the markdown-graph + agent-integration architecture asserted on the YC page (YC company page, 2026).
-- **Future moat:** [Inferred]: Data network effects could develop as the knowledge graph accumulates company-specific connections that are costly to recreate; unproven now because pilots are recent and no retention/expansion metrics are published.
-- **Market structure:** [Inferred]: No structural barrier identified at this stage — incumbents like Glean ($765M raised, $300M ARR, [Glean press, 2026](https://www.glean.com/press/glean-surpasses-300m-arr-unrivaled-enterprise-context-fuels-ai-adoption)) and Notion AI already index multi-source enterprise data and could extend into systems-inference.
-- **Commoditization risk:** [Inferred]: Multiple well-funded incumbents (Glean, Guru, Notion AI, Slack AI, Microsoft Copilot) operate adjacent retrieval/knowledge layers and could add workflow inference; LLM-based document ingestion is widely available.
+- **Moat today:** Cerenovus says its answers improve as it learns from each new document and decision, creating company-specific accumulated context, but no retention or performance evidence is public ([Cerenovus LinkedIn, Jul 2026](https://www.linkedin.com/company/cerenovus-ai)).
+- **Future moat:** [Inferred]: Longitudinal knowledge graphs linking documents, decisions, employees, and workflows could create switching costs, but the company has not published deployment duration, proprietary-data volume, or accuracy results.
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** Glean already offers an Enterprise Graph and AI agents, while Dust connects company data to configurable multi-user agents, giving funded vendors a pathway to reproduce overlapping ingestion, retrieval, and agent-context functions ([Glean, Jun 2025](https://www.glean.com/press/glean-raises-150m-series-f-at-7-2b-valuation-to-accelerate-enterprise-ai-agent-innovation-globally); [Dust, May 2026](https://www.globenewswire.com/news-release/2026/05/18/3296726/0/en/dust-raises-40m-to-make-ai-multiplayer-inside-the-enterprise.html)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - "Pilot customers are live" (YC company page, via search snippet, 2026)
-  - LinkedIn company page exists at linkedin.com/company/cerenovus-ai (YC page, 2026); follower count not retrievable
-  - Two active "Founding Engineer" job postings on YC jobs page (YC jobs, 2026)
-  - No Product Hunt launch found (WebSearch, 2026)
-  - No press coverage in named publications found (WebSearch, 2026)
-  - No Twitter/X account surfaced in search (WebSearch, 2026)
-- **Competitors:**
-  - Glean ($765M raised across 6 rounds, $300M ARR May 2026, [Glean press release, 2026](https://www.glean.com/press/glean-surpasses-300m-arr-unrivaled-enterprise-context-fuels-ai-adoption); [Sacra, 2026](https://sacra.com/c/glean/)): broad enterprise search indexing 100+ apps vs. Cerenovus's graph + systems-inference framing.
-  - Notion AI (part of Notion; private, revenue unknown for AI add-on; $10/user/month per [Tana blog, 2026](https://tana.inc/blog/best-ai-knowledge-management-software-2026)): ecosystem-native within Notion vs. Cerenovus's cross-source ingestion.
-  - Guru (funding total not retrieved in this research; revenue unknown): curated, human-verified knowledge-card model with MCP integration launched March 2026 ([Coworker AI, 2026](https://coworker.ai/blog/guru-vs-glean)) vs. Cerenovus's auto-generated markdown graph.
-  - Microsoft Copilot (Microsoft-owned, revenue undisclosed for Copilot line): enterprise-distributed via M365 ([GoSearch, 2026](https://www.gosearch.ai/blog/what-are-the-top-3-glean-alternatives-2026/)) vs. Cerenovus's standalone graph.
-  - Slack AI (Salesforce-owned, revenue undisclosed): ecosystem-native search inside Slack ([Coworker AI, 2026](https://coworker.ai/blog/best-enterprise-ai-knowledge-management)).
-- **Why now:** [Inferred]: LLM-based document parsing and agent frameworks (MCP, agent-native graph integrations) crossed enterprise-usability threshold in 2025–2026 — e.g., Guru's MCP launch March 2026 ([Coworker AI, 2026](https://coworker.ai/blog/guru-vs-glean)).
+  - Pilot customers were live by June 2026 ([Cerenovus LinkedIn, Jun 2026](https://www.linkedin.com/company/cerenovus-ai)).
+  - Cerenovus had 338 LinkedIn followers in July 2026 ([LinkedIn, Jul 2026](https://www.linkedin.com/company/cerenovus-ai)).
+  - Compendium reached Product Hunt’s daily rank #16 with 123 points and 127 followers in July 2026 ([Product Hunt, Jul 2026](https://www.producthunt.com/products/compendium-2)).
+  - Two founding-engineer openings were advertised outside YC, although the YC jobs page listed zero jobs ([Standout, Jul 2026](https://standout.work/companies/1ead10c0-39d4-410b-9ade-f59a35fc5db6); [Y Combinator Jobs, Jul 2026](https://www.ycombinator.com/companies/cerenovus/jobs)).
+- **Competitors (minimum 3, up to 5):**
+  - Glean ($623M raised, more than $100M ARR): enterprise search, permissions-aware retrieval, Enterprise Graph, and agents for established organizations ([Glean, Jun 2025](https://www.glean.com/press/glean-raises-150m-series-f-at-7-2b-valuation-to-accelerate-enterprise-ai-agent-innovation-globally); [Wing Venture Capital, 2025](https://wing-assets.com/Wing-ET30-2025_Report.pdf)).
+  - Dust (more than $60M raised, revenue unknown): configurable collaborative AI agents connected to enterprise data rather than an executive-oriented organizational systems map ([Dust, May 2026](https://www.globenewswire.com/news-release/2026/05/18/3296726/0/en/dust-raises-40m-to-make-ai-multiplayer-inside-the-enterprise.html)).
+  - Guru ($30M latest disclosed round, revenue unknown): verified employee knowledge and enterprise AI search rather than workflow inference from a company-wide graph ([Guru, Apr 2020](https://www.getguru.com/tr/blog/guru-closes-30-million-series-c-funding-led-by-accel)).
+- **Why now:** [Inferred]: The May 2025 public launch of Claude Code and subsequent expansion of workplace agents created demand for shared, persistent context across human and agent workflows ([Anthropic funding coverage, Feb 2026](https://www.itpro.com/business/anthropic-series-g-investment-round-claude)).
 
 ## Founders & Team
 
-- **Jonathan Waldorf (Co-founder):**
-  - Background: Studying Physics and Electrical Engineering at Harvard (Harvard sophomore, S26 batch, via search snippet of YC); quantum algorithms intern at QuEra Computing building open-source visualization tools for neutral-atom quantum processors; undergraduate researcher in Prof. Norman Yao's quantum physics lab at Harvard (WebSearch, 2026); LinkedIn headline lists "Harvard Dropout | Cerenovus" ([LinkedIn, 2026](https://www.linkedin.com/in/jonathan-waldorf/)).
+- **Jonathan Waldorf (Founder):**
+  - Background: Harvard Physics and Electrical Engineering student, former QuEra quantum-algorithms intern, and researcher in Norman Yao’s Harvard quantum-metrology and sensing laboratory ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/cerenovus)).
+  - Twitter/X: @jonathan_waldorf; count not retrievable ([Product Hunt, Jul 2026](https://www.producthunt.com/products/compendium-2)).
+  - LinkedIn: “Founder at Cerenovus”; approximately 1,000 followers ([LinkedIn, Jul 2026](https://www.linkedin.com/in/jonathan-waldorf)).
+  - GitHub: No public repos found.
+- **Oliver Moreland (CTO):**
+  - Background: Harvard undergraduate in the 2024–2028 class with coursework including Math 55, Statistics 110, and computer science ([LinkedIn, Jul 2026](https://www.linkedin.com/in/oliver-moreland-64491b36a)).
   - Twitter/X: No public account found.
-  - LinkedIn: "Harvard Dropout | Cerenovus" ([LinkedIn, 2026](https://www.linkedin.com/in/jonathan-waldorf/)).
-  - GitHub: No public repos surfaced in search.
-- **Lucas Baur (Co-founder):**
-  - Background: Harvard College '28; Finance, Economics & related coursework ([LinkedIn, 2026](https://www.linkedin.com/in/lucas-baur-harvard/)); Analyst at Harvard Financial Analysts Club ([LinkedIn, 2026](https://www.linkedin.com/in/lucas-baur-9541b22b3)); Course Assistant at Harvard University (ZoomInfo, 2026); search snippets also conflate him with quantum-lab research — accuracy of that conflation unverified.
+  - LinkedIn: “Cerenovus”; 157 followers ([LinkedIn, Jul 2026](https://www.linkedin.com/in/oliver-moreland-64491b36a)).
+  - GitHub: No public repos found.
+- **Lucas Baur (Founder):**
+  - Background: Harvard student with a reported 3.92 GPA and participation in Harvard Ventures, Harvard Financial Analysts Club, and Point72’s 2025 Academy Spring Sessions ([LinkedIn, Jul 2026](https://www.linkedin.com/in/lucas-baur-harvard)).
   - Twitter/X: No public account found.
-  - LinkedIn: "Harvard College '28 | Finance, Economics" ([LinkedIn, 2026](https://www.linkedin.com/in/lucas-baur-harvard/)).
-  - GitHub: No public repos surfaced in search.
-- **Oliver Moreland (Co-founder):**
-  - Background: Harvard sophomore (S26 batch, via search snippet of YC page); search results conflate his background with the quantum-lab / QuEra Computing description shared across all three founders, so individual specifics are not separately verifiable.
-  - Twitter/X: No public account found.
-  - LinkedIn: No public profile distinctly verified in search.
-  - GitHub: No public repos surfaced in search.
-- **Co-founder relationship:** All three co-founders attended Harvard together (WebSearch snippets, 2026).
-- **Founder-market fit:** [Inferred]: Founders are technical (physics/EE at Harvard, QuEra quantum-software work) but have no documented prior B2B-enterprise-software or operations-consulting experience tied to the executive-decision-making problem Cerenovus targets (WebSearch, 2026).
+  - LinkedIn: “Cerenovus”; approximately 2,000 followers and more than 500 connections ([LinkedIn, Jul 2026](https://www.linkedin.com/in/lucas-baur-harvard)).
+  - GitHub: No public repos found.
+- **Co-founder relationship:** The three founders attended Harvard, and Jonathan Waldorf said he, Oliver Moreland, and Lucas Baur started Cerenovus together in 2026 ([LinkedIn, Jul 2026](https://www.linkedin.com/in/lucas-baur-harvard)).
+- **Founder-market fit:** [Inferred]: The founders’ documented physics, electrical-engineering, mathematics, and computer-science training supports technical product development, while no prior enterprise knowledge-management operating history was found ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/cerenovus); [Oliver Moreland LinkedIn, Jul 2026](https://www.linkedin.com/in/oliver-moreland-64491b36a)).
 
 ## Key Risks
 
-- **Incumbent substitution:** Glean ($300M ARR, [Glean press, 2026](https://www.glean.com/press/glean-surpasses-300m-arr-unrivaled-enterprise-context-fuels-ai-adoption)) and Notion AI / Slack AI already index multi-source enterprise data; Cerenovus must demonstrate that its workflow-inference layer is enough to win against well-distributed alternatives.
-- **Name collision:** "Cerenovus" is also a Johnson & Johnson MedTech neurovascular brand ([J&J MedTech, 2026](https://www.jnjmedtech.com/en-US/companies/cerenovus)), which can complicate SEO, trademark, and enterprise procurement.
-- **Founder domain inexperience:** Public backgrounds (quantum physics research, undergraduate finance club, course-assistant work) do not show prior enterprise-software or operations-consulting work for the C-suite buyer Cerenovus targets (WebSearch, 2026).
-- **Technical feasibility:** [Inferred]: Claim that the product can infer "where operations are inefficient" from unstructured documents and produce "evidence-backed answer in minutes" (YC page, 2026) is a non-trivial reasoning task; no benchmarks, evals, or customer outcomes are published.
-- **No public traction artifacts:** No Product Hunt launch, press coverage, GitHub repos, Twitter presence, or disclosed pilot names were found in this research (WebSearch, 2026).
+- **Enterprise-data exposure:** Compendium sends prompts and relevant vault content to Anthropic and can connect to Google Drive, Notion, and Microsoft services, making connector permissions, retention, and deletion controls part of customer security review ([ChatGate summary of Cerenovus policies, Jul 2026](https://chatgate.ai/post/compendium)).
+- **Output accuracy:** Cerenovus’s terms reportedly state that AI output can be inaccurate, while the product is positioned for executive decisions involving staffing, vendors, and operations ([ChatGate, Jul 2026](https://chatgate.ai/post/compendium); [Y Combinator, Jul 2026](https://www.ycombinator.com/companies/cerenovus)).
+- **Incumbent overlap:** Glean has surpassed $100 million ARR and offers enterprise search, an Enterprise Graph, and agents, placing overlapping functionality inside an existing enterprise distribution channel ([Glean, Jun 2025](https://www.glean.com/press/glean-raises-150m-series-f-at-7-2b-valuation-to-accelerate-enterprise-ai-agent-innovation-globally)).
+- **Product-positioning breadth:** Public materials position Cerenovus both as executive decision infrastructure and Compendium as shared agent context for startups, creating two buyer profiles and product scopes ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/cerenovus); [Product Hunt, Jul 2026](https://www.producthunt.com/products/compendium-2)).
+- **Name ambiguity:** Search results are frequently mixed with Johnson & Johnson MedTech’s unrelated CERENOVUS neurovascular business, which uses the same name ([Johnson & Johnson MedTech, 2026](https://www.jnjmedtech.com/en-US/companies/cerenovus)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | No public data found |
+| TAM | $23.2B global knowledge-management software market in 2025, projected at 13.8% CAGR through 2034 (Fortune Business Insights, Jul 2026) |
 | SAM | No public data found |
-| Traction | "Pilot customers are live" (YC company page snippet, 2026); 2 active Founding Engineer roles (YC jobs page, 2026) |
-| Revenue Signal | No public data found |
-| Founders | Jonathan Waldorf (Co-founder): Harvard Physics/EE, QuEra Computing intern, Yao lab researcher. Lucas Baur (Co-founder): Harvard '28, Finance/Economics, Harvard Financial Analysts Club. Oliver Moreland (Co-founder): Harvard sophomore, S26 batch. |
-| Competitors | Glean ($765M raised, $300M ARR May 2026, Glean press/Sacra) — broader enterprise search; Notion AI (revenue unknown, $10/user/month per Tana blog) — ecosystem-native; Guru (funding unknown, revenue unknown, Coworker AI) — curated knowledge cards w/ MCP; Microsoft Copilot (Microsoft, revenue undisclosed) — M365-distributed; Slack AI (Salesforce, revenue undisclosed) — Slack-native |
-| Moat Signals | No public data found |
-| Risk Factors | Incumbent substitution by Glean/Notion/Microsoft; J&J "Cerenovus" name collision; founder domain inexperience |
-| Founder Reach | Waldorf: Twitter not found, LinkedIn handle jonathan-waldorf (count not retrievable), GitHub not found. Baur: Twitter not found, LinkedIn lucas-baur-harvard (count not retrievable), GitHub not found. Moreland: Twitter not found, LinkedIn not verified, GitHub not found. |
-| Distribution Signals | No public data found (no Product Hunt, press, or Chrome/app-store presence located) |
+| Traction | Pilot customers live (Cerenovus LinkedIn, Jun 2026); Compendium Product Hunt #16 with 123 points and 127 followers (Product Hunt, Jul 2026) |
+| Revenue Signal | $39.99 per seat/month Pro plan including $50 monthly AI usage per seat; 14-day organizational trial (ChatGate summary of Cerenovus terms, Jul 2026) |
+| Founders | Jonathan Waldorf (Founder): Harvard Physics/EE, QuEra quantum-algorithms intern (YC, Jul 2026); Oliver Moreland (CTO): Harvard, Math 55 and CS coursework (LinkedIn, Jul 2026); Lucas Baur (Founder): Harvard, Point72 Academy participant (LinkedIn, Jul 2026) |
+| Competitors | Glean ($623M raised, >$100M ARR, enterprise search and graph) (Glean/Wing, 2025); Dust (>$60M raised, revenue unknown, configurable enterprise agents) (Dust, May 2026); Guru ($30M latest disclosed round, revenue unknown, verified knowledge base) (Guru, Apr 2020) |
+| Moat Signals | Company-specific knowledge graph that learns from new documents and decisions (Cerenovus LinkedIn, Jul 2026) |
+| Risk Factors | Enterprise-data exposure (Cerenovus policies via ChatGate, Jul 2026), AI-output accuracy (Cerenovus policies via ChatGate, Jul 2026), incumbent overlap (Glean, Jun 2025) |
+| Founder Reach | Jonathan Waldorf: Twitter count not retrievable, LinkedIn ~1K, GitHub data unavailable (Product Hunt/LinkedIn, Jul 2026); Oliver Moreland: LinkedIn 157, Twitter and GitHub data unavailable (LinkedIn, Jul 2026); Lucas Baur: LinkedIn ~2K, Twitter and GitHub data unavailable (LinkedIn, Jul 2026) |
+| Distribution Signals | LinkedIn 338 followers (LinkedIn, Jul 2026); Product Hunt #16, 123 points, 127 followers (Product Hunt, Jul 2026); two external job listings (Standout, Jul 2026) |
 | Emails | No public data found |
-
-Sources:
-- [Cerenovus YC company page](https://www.ycombinator.com/companies/cerenovus)
-- [Founding Engineer (Full Time) — YC S26 — Cerenovus](https://www.ycombinator.com/companies/cerenovus/jobs/m5P7ni7-founding-engineer-full-time-sf-in-person-paid-room-board-yc-s26)
-- [Founding Engineer (Summer) — YC S26 — Cerenovus](https://www.ycombinator.com/companies/cerenovus/jobs/xrCY6jf-founding-engineer-summer-sf-in-person-paid-room-board-yc-s26)
-- [Jonathan Waldorf — LinkedIn](https://www.linkedin.com/in/jonathan-waldorf/)
-- [Lucas Baur — LinkedIn (Harvard '28)](https://www.linkedin.com/in/lucas-baur-harvard/)
-- [Lucas Baur — Harvard Financial Analysts Club — LinkedIn](https://www.linkedin.com/in/lucas-baur-9541b22b3)
-- [Glean Surpasses $300M ARR — Glean press](https://www.glean.com/press/glean-surpasses-300m-arr-unrivaled-enterprise-context-fuels-ai-adoption)
-- [Glean revenue, funding & news — Sacra](https://sacra.com/c/glean/)
-- [Glean crosses $300M ARR — TechCrunch](https://techcrunch.com/2026/05/28/gleans-top-line-crosses-300m-as-ai-budget-cutting-becomes-its-major-selling-point/)
-- [Guru vs Glean — Coworker AI](https://coworker.ai/blog/guru-vs-glean)
-- [Best AI knowledge management software 2026 — Tana](https://tana.inc/blog/best-ai-knowledge-management-software-2026)
-- [Top Glean alternatives 2026 — GoSearch](https://www.gosearch.ai/blog/what-are-the-top-3-glean-alternatives-2026/)
-- [CERENOVUS Stroke Solutions — J&J MedTech](https://www.jnjmedtech.com/en-US/companies/cerenovus)

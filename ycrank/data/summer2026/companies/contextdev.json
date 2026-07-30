@@ -8,62 +8,63 @@
     "batch": "Summer 2026",
     "industry": "B2B / B2B -> Infrastructure",
     "team_size": "1",
-    "location": "New York City, NY, USA",
-    "tags": "B2B, APIs",
-    "yc_partner": "Jon Xu",
-    "emails": "No public data found"
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, B2B, APIs",
+    "yc_partner": "Jon Xu ([Y Combinator](https://www.ycombinator.com/companies/contextdev), Jul 2026)",
+    "emails": "hello@context.dev, yahia@context.dev, bakour@hey.com ([Context.dev](https://www.context.dev/), Jul 2026; [Yahia Bakour LinkedIn post](https://www.linkedin.com/posts/yahia-bakour_my-post-on-x-is-blowing-up-300-dms-already-activity-7470179594147348480-zy2-), Jul 2026; [founder website](https://yahiabakour.com/), Jul 2026)"
   },
   "tags": [
+    "Artificial Intelligence",
     "B2B",
     "APIs"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-06-29T06:08:12.191Z",
+  "memoGeneratedAt": "2026-07-30T17:42:48.875Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 39,
-      "tier": "Pass"
+      "score": 56,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 52,
-      "tier": "Neutral"
+      "score": 67,
+      "tier": "Invest"
     },
     "naval-ravikant": {
-      "score": 51,
-      "tier": "Neutral"
+      "score": 69,
+      "tier": "Invest"
     },
     "paul-graham": {
-      "score": 52,
-      "tier": "Neutral"
+      "score": 71,
+      "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 30,
+      "score": 36,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 35,
-      "tier": "Pass"
+      "score": 48,
+      "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 31,
+      "score": 34,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 39,
-    "EG": 52,
-    "NR": 51,
-    "PG": 52,
-    "PT": 30,
-    "SL": 35,
-    "VK": 31
+    "CB": 56,
+    "EG": 67,
+    "NR": 69,
+    "PG": 71,
+    "PT": 36,
+    "SL": 48,
+    "VK": 34
   },
-  "consolidatedAvg": 41.43,
-  "consolidatedRank": 21,
+  "consolidatedAvg": 54.43,
+  "consolidatedRank": 70,
   "traction": {
-    "tractionRank": 4,
-    "tractionScore": 80,
-    "tractionReason": "250+ paying companies incl Klarna, Mintlify"
+    "tractionRank": 9,
+    "tractionScore": 79,
+    "tractionReason": "5,000 developers and 280+ customer companies"
   },
   "paths": {
     "memo": "summer2026/memos/contextdev.md",

@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://caregp.com.au/",
     "yc_page": "https://www.ycombinator.com/companies/care-gp",
-    "batch": "Summer 2026 (S26)",
+    "batch": "Summer 2026",
     "industry": "Healthcare / Healthcare",
     "team_size": "10",
     "location": "Sydney, NSW, Australia",
     "tags": "SaaS, Healthcare, AI",
     "yc_partner": "Tyler Bosmeny",
-    "emails": "melvin@caregp.com.au (company website)"
+    "emails": "melvin@caregp.com.au"
   },
   "tags": [
     "SaaS",
@@ -19,52 +19,52 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-06-29T06:03:19.814Z",
+  "memoGeneratedAt": "2026-07-30T17:33:01.186Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 53,
+      "score": 61,
       "tier": "Neutral"
     },
+    "elad-gil": {
+      "score": 78,
+      "tier": "Invest"
+    },
     "naval-ravikant": {
-      "score": 27,
-      "tier": "Pass"
+      "score": 60,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 41,
-      "tier": "Pass"
+      "score": 66,
+      "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 35,
-      "tier": "Pass"
+      "score": 56,
+      "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 39,
-      "tier": "Pass"
+      "score": 59,
+      "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 29,
+      "score": 41,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 41,
-    "EG": 53,
-    "NR": 27,
-    "PG": 41,
-    "PT": 35,
-    "SL": 39,
-    "VK": 29
+    "CB": 61,
+    "EG": 78,
+    "NR": 60,
+    "PG": 66,
+    "PT": 56,
+    "SL": 59,
+    "VK": 41
   },
-  "consolidatedAvg": 37.86,
-  "consolidatedRank": 42,
+  "consolidatedAvg": 60.14,
+  "consolidatedRank": 21,
   "traction": {
-    "tractionRank": 1,
-    "tractionScore": 92,
-    "tractionReason": "Profitable, 150+ GP clinics, 140% MoM growth"
+    "tractionRank": 6,
+    "tractionScore": 83,
+    "tractionReason": "400+ clinic operators; profitable with zero reported churn"
   },
   "paths": {
     "memo": "summer2026/memos/care-gp.md",

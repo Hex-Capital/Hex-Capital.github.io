@@ -1,0 +1,30 @@
+﻿# hardware intelligence -- Cyan Banister Evaluation
+
+Rishov Sarkar built AMD AI Engine simulators, Siemens EDA compiler flows, and LightningSim before hardware intelligence existed; Athreya Anand worked across AWS Inferentia, Tesla, and Google agent workflows. hardware intelligence is a lived-infrastructure founder bet with a governance hole: the highest signal is that Sarkar has inhabited the exact debugging machinery, while the lowest is that “CEO” and “CTO” titles do not reveal who wins an irreconcilable argument. Biz and Tiz are visible. Rizz and the tiebreaker remain unobserved.
+
+**Anduril** is the high rung because Palmer Luckey shipped frontier hardware before carrying that lived technical identity into defense. hardware intelligence shares the biography-before-market mechanism: Sarkar’s doctoral work in chip simulation and compilation predates Wave, while Anand’s Inferentia and agent experience supplies the adjacent connective tissue. hardware intelligence diverges because neither founder has publicly shipped a comparable product to commercial scale, and no named pilot, benchmark, or repeat user yet proves that their technical intimacy translates into customer pull. They are of the place, not visiting it—but they have not conquered the place.
+
+**HQ Trivia** is the low-rung warning: unclear authority can sit quietly beneath a compelling product until stress turns partnership into fracture. hardware intelligence names Anand as CEO and Sarkar as CTO, but a decade-long friendship beginning in a Georgia Tech dorm is not a documented tiebreaker, founder-vesting agreement, or exit-conflict protocol. The known HQ Trivia exception required tactile, explosive product love strong enough to override governance temporarily; hardware intelligence has only open pilot onboarding and no published usage or revenue. Friendship is love. Governance is plumbing. A bubbe checks both before signing.
+
+**ChipAgents’ $74 million financing** makes the “nobody understands agentic chip design” story impossible, but hardware intelligence may still be magically weird at the wedge. Over the next 18 months, hardware intelligence can compound by becoming the terminal-native memory of every failed signal, proposed fix, resimulation, and waveform difference inside a customer’s verification loop. The opposite mechanism is brutal: Synopsys, Cadence, or Siemens copies the agent interface, and Wave remains Vim styling around commodity reasoning. The narrow waveform-debugging obsession is non-consensus relative to ChipAgents’ full-lifecycle platform, but the category itself is already wearing consensus clothing.
+
+**The $17.53 billion EDA market** sounds like frontier hardware until I touch the actual product and find software running atop other people’s simulators. hardware intelligence earns credit for entering an unsexy, technically hostile semiconductor workflow, but hardware intelligence is not SpaceX building rockets or Crusoe placing machines beside gas flares. The score flips upward if Wave requires proprietary execution infrastructure, produces a verification dataset incumbents cannot reproduce, or becomes essential to regulated or safety-critical chip signoff. Without one of those facts, “AI tools for chips” is adjacent to frontier work rather than frontier work itself.
+
+**Wave’s terminal-native debugger** is more observable than an API: a verification engineer can trace a faulty signal, accept a proposed fix, rerun a simulation, and inspect the waveform difference. **Niantic** was stronger on this axis because I could play Ingress myself and feel the world change; hardware intelligence can be felt only by someone with RTL, multi-gigabyte waveforms, and access to an expensive simulation environment. The DeepMind exception asks whether polymath technical compounding can override abstraction, and Sarkar’s simulator-plus-compiler history gives hardware intelligence a credible version of that argument. It does not make Wave a camera, ride, drone, or game I can encounter in the wild.
+
+**Siemens EDA employed Sarkar before hardware intelligence entered a market controlled by Siemens, Synopsys, and Cadence.** My 36-month forecast is that hardware intelligence reaches $3 million to $7 million in ARR from on-premise Wave deployments, then sells to Siemens EDA after founder disagreement over remaining a waveform debugger versus expanding into a full chip-design agent. hardware intelligence has the domain intimacy to win a narrow workflow, while the missing authority protocol and incumbent distribution make an independent platform outcome less likely than a strategic acquisition.
+
+**Synopsys already offers AI-assisted EDA**, and the bear case stings: hardware intelligence has no moat, no verification benchmark, no named customer, no revenue, and a $74 million competitor collaborating with NVIDIA and Ambiq. hardware intelligence also contradicts my unstated sourcing pattern—I have not found Wave in my own environment—and triggers the red flag that the model may be more defensible than the founders. The DeepMind exception is the strongest rebuttal because Sarkar’s cross-domain simulator and compiler work may constitute genuine polymath compounding; the narrow resimulation loop also gives hardware intelligence a cleaner proving ground than a general agent. I still write a small personal check because lived technical origin beats the current evidence gap, but a head-to-head pilot showing Wave fails to reduce Verdi time-to-root-cause by at least 2× would flip me to Pass.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Surfaced From Lived Experience, Not Market Analysis | 29/32 |
+| Magically Weird, Non-Consensus, Round Likely Underpriced | 16/24 |
+| Single Unambiguous CEO With Identifiable Tiebreaker Authority | 7/16 |
+| Capital-Intensive, Frontier-Hardware or Unsexy-Regulated Swing | 9/15 |
+| Physical-World Verifiability: You Can Touch, Use, Or Observe The Product | 6/13 |
+| **Total** | **67/100** |
+
+**Total Score: 67/100** (Invest)

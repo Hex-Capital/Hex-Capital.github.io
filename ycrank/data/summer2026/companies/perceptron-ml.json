@@ -1,7 +1,7 @@
 {
   "slug": "perceptron-ml",
   "name": "Perceptron ML",
-  "oneLiner": "An event-driven AI engine that turns real-world signals into action.",
+  "oneLiner": "We make law firms AI-native.",
   "metadata": {
     "website": "https://perceptronml.com",
     "yc_page": "https://www.ycombinator.com/companies/perceptron-ml",
@@ -9,62 +9,63 @@
     "industry": "B2B / B2B",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "B2B, Automation, AI",
+    "tags": "Artificial Intelligence, B2B, Legal, Automation",
     "yc_partner": "Jared Friedman",
     "emails": "No public data found"
   },
   "tags": [
+    "Artificial Intelligence",
     "B2B",
-    "Automation",
-    "AI"
+    "Legal",
+    "Automation"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-06-29T06:10:33.327Z",
+  "memoGeneratedAt": "2026-07-30T18:00:18.482Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 37,
+      "score": 38,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 39,
-      "tier": "Pass"
+      "score": 52,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "paul-graham": {
       "score": 43,
       "tier": "Pass"
     },
+    "paul-graham": {
+      "score": 63,
+      "tier": "Neutral"
+    },
     "peter-thiel": {
-      "score": 31,
+      "score": 44,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 25,
+      "score": 42,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 30,
+      "score": 40,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 37,
-    "EG": 39,
-    "NR": 39,
-    "PG": 43,
-    "PT": 31,
-    "SL": 25,
-    "VK": 30
+    "CB": 38,
+    "EG": 52,
+    "NR": 43,
+    "PG": 63,
+    "PT": 44,
+    "SL": 42,
+    "VK": 40
   },
-  "consolidatedAvg": 34.86,
-  "consolidatedRank": 57,
+  "consolidatedAvg": 46,
+  "consolidatedRank": 137,
   "traction": {
-    "tractionRank": 64,
-    "tractionScore": 7,
-    "tractionReason": "Waitlist/demo gate, no metrics"
+    "tractionRank": 78,
+    "tractionScore": 45,
+    "tractionReason": "Customer case shows 7.5 billable hours recovered"
   },
   "paths": {
     "memo": "summer2026/memos/perceptron-ml.md",

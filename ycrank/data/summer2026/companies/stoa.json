@@ -1,0 +1,83 @@
+{
+  "slug": "stoa",
+  "name": "Stoa",
+  "oneLiner": "The market behind AI hardware.",
+  "metadata": {
+    "website": "https://www.stoaexchange.com",
+    "yc_page": "https://www.ycombinator.com/companies/stoa",
+    "batch": "Summer 2026",
+    "industry": "Fintech / Fintech",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Fintech, Hardware, Marketplace, Infrastructure, AI",
+    "yc_partner": "Jon Xu",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Fintech",
+    "Hardware",
+    "Marketplace",
+    "Infrastructure",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:43:52.074Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 35,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 48,
+    "EG": 51,
+    "NR": 52,
+    "PG": 54,
+    "PT": 38,
+    "SL": 42,
+    "VK": 35
+  },
+  "consolidatedAvg": 45.71,
+  "consolidatedRank": 139,
+  "traction": {
+    "tractionRank": 122,
+    "tractionScore": 29,
+    "tractionReason": "Public RFQ marketplace; no completed transactions disclosed"
+  },
+  "paths": {
+    "memo": "summer2026/memos/stoa.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/stoa.md",
+      "elad-gil": "summer2026/evals/elad-gil/stoa.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/stoa.md",
+      "paul-graham": "summer2026/evals/paul-graham/stoa.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/stoa.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/stoa.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/stoa.md"
+    }
+  }
+}

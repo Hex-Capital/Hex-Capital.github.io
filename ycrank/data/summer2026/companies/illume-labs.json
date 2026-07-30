@@ -1,0 +1,83 @@
+{
+  "slug": "illume-labs",
+  "name": "Illume Labs",
+  "oneLiner": "24/7 Personal Health & Longevity Companion",
+  "metadata": {
+    "website": "https://www.illumelabs.ai",
+    "yc_page": "https://www.ycombinator.com/companies/illume-labs",
+    "batch": "Summer 2026 ([Y Combinator](https://www.ycombinator.com/companies/illume-labs), Jul 2026)",
+    "industry": "Healthcare / Healthcare -> Consumer Health and Wellness",
+    "team_size": "3",
+    "location": "Boston, MA, USA",
+    "tags": "Generative AI, Health Tech, Biotech, Health & Wellness, AI",
+    "yc_partner": "Ankit Gupta ([Y Combinator](https://www.ycombinator.com/companies/illume-labs), Jul 2026)",
+    "emails": "founders@illumelabs.ai ([Y Combinator](https://www.ycombinator.com/companies/illume-labs), Jul 2026)"
+  },
+  "tags": [
+    "Generative AI",
+    "Health Tech",
+    "Biotech",
+    "Health & Wellness",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T18:11:16.274Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 34,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 45,
+    "EG": 44,
+    "NR": 57,
+    "PG": 51,
+    "PT": 36,
+    "SL": 39,
+    "VK": 34
+  },
+  "consolidatedAvg": 43.71,
+  "consolidatedRank": 151,
+  "traction": {
+    "tractionRank": 128,
+    "tractionScore": 27,
+    "tractionReason": "Private-beta waitlist and 92 Product Hunt points"
+  },
+  "paths": {
+    "memo": "summer2026/memos/illume-labs.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/illume-labs.md",
+      "elad-gil": "summer2026/evals/elad-gil/illume-labs.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/illume-labs.md",
+      "paul-graham": "summer2026/evals/paul-graham/illume-labs.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/illume-labs.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/illume-labs.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/illume-labs.md"
+    }
+  }
+}

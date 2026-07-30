@@ -1,0 +1,81 @@
+{
+  "slug": "assemble",
+  "name": "Assemble",
+  "oneLiner": "Agents for Enterprise IT",
+  "metadata": {
+    "website": "https://www.assemble.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/assemble",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "SaaS, Enterprise Software, AI",
+    "yc_partner": "Ankit Gupta ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/assemble))",
+    "emails": "founders@assemble.ai ([Assemble website, Jul 2026](https://www.assemble.ai/))"
+  },
+  "tags": [
+    "SaaS",
+    "Enterprise Software",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T18:16:34.640Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 71,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 54,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 37,
+    "EG": 56,
+    "NR": 57,
+    "PG": 71,
+    "PT": 51,
+    "SL": 41,
+    "VK": 54
+  },
+  "consolidatedAvg": 52.43,
+  "consolidatedRank": 92,
+  "traction": {
+    "tractionRank": 139,
+    "tractionScore": 22,
+    "tractionReason": "Internal product benchmark; no customers disclosed"
+  },
+  "paths": {
+    "memo": "summer2026/memos/assemble.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/assemble.md",
+      "elad-gil": "summer2026/evals/elad-gil/assemble.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/assemble.md",
+      "paul-graham": "summer2026/evals/paul-graham/assemble.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/assemble.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/assemble.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/assemble.md"
+    }
+  }
+}

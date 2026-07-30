@@ -1,0 +1,30 @@
+﻿# Applied Electrodynamics, Inc. -- Elad Gil Evaluation
+
+Bilgehan Avser’s 35+ patents and Apple antenna work make **Applied Electrodynamics, Inc.** a proven-hardware-founder bet without an index-like distribution position. **Applied Electrodynamics, Inc.** may have built a genuinely better camera, but direct preorders, fragmented construction procurement, and a $199.95 Walabot alternative mean WaveSight must win each account rather than automatically compound with construction activity. The signature is unusually strong product execution attached to unusually weak distribution leverage.
+
+**Perplexity** is the high rung on founder shipping: Aravind Srinivas repeatedly turned conversations into working product within a week. **Applied Electrodynamics, Inc.** shares the underlying artifact orientation—Brian Huppi co-invented the Nest thermostat, Paul Leutheuser shipped iPhone hardware, and the founders report completed radio hardware plus imaging algorithms. **Applied Electrodynamics, Inc.** diverges because those artifacts were shipped inside Apple, Nest, and Humane; the dossier names no customer-feedback iteration, production deployment, or WaveSight improvement delivered between buyer conversations. This is closer to Perplexity than to a credential-only founder profile, but the startup cadence remains unproven.
+
+**Lyft** exposed the low-rung failure mechanism: occupying the weaker position in a market where distribution advantages accrue elsewhere. **Applied Electrodynamics, Inc.** is not necessarily number two in a winner-take-all network, but it faces the analogous problem of selling a differentiated endpoint against Vayyar’s funded RF platform, Qorvo’s increasingly accessible components, and separate procurement channels across construction, inspection, security, cargo, and defense. **Applied Electrodynamics, Inc.** does not yet look like an index on construction digitization; it looks like hardware that must repeatedly prove why across-room imaging deserves a new budget line.
+
+Qorvo’s March 2025 integrated UWB radar-sensing chip could reduce WaveSight’s integration burden over the next 18 months, but the same component catalyst lowers barriers for competitors. **Applied Electrodynamics, Inc.** can turn that market re-opening into compounding advantage only if portable radio imaging shifts from specialist instrument to routine construction workflow. **Applied Electrodynamics, Inc.** currently has hundreds of Build Expo conversations and an inferred catalyst, not the post-Ukraine procurement reset that made Anduril’s window unmistakable. The catalyst is credible enough to skate toward the puck, but not specific enough to establish that the puck has moved.
+
+WaveSight preorders are open with no count, revenue, repeat usage, or signed counterparty disclosed. **Applied Electrodynamics, Inc.** therefore receives the absent-evidence default on revenue velocity: conference conversations are a classic false signal until they become paid deployments. **Applied Electrodynamics, Inc.** would flip this dimension into invest territory with roughly $25,000–$50,000 of monthly revenue growing above 20% month over month, or paid pilots converting across several named general contractors within 90 days. Pre-seed status excuses a small denominator; it does not transform undisclosed demand into a curve that is “just working.”
+
+**Color Genomics** is the relevant single-anchor parallel: workflow infrastructure succeeded because Color sat on top of commodity sequencing rather than requiring new sequencing physics. **Applied Electrodynamics, Inc.** wants the same architecture—radio hardware plus reconstruction software producing scale-native point clouds—but its 1-mm accuracy and across-room scans remain self-published, material-dependent, and entangled with FCC classification under Sections 15.509–15.510 and coordination under Section 15.525. **Applied Electrodynamics, Inc.** therefore needs more than one result: reliable physics across construction materials, a commercially usable regulatory classification, and buyer behavior that supports a new hardware workflow. That is closer to a science project than Color’s deliberately isolated miracle.
+
+The $457.32 million GPR-market proxy and 7.58% CAGR imply a useful instrument market, not yet a defining platform. Within 36 months, I expect **Applied Electrodynamics, Inc.** to reach approximately $2 million–$6 million ARR and be acquired by Trimble for its construction-mapping stack rather than emerge as a standalone category leader. **Applied Electrodynamics, Inc.** has the founder quality to ship a valuable product, while weak index economics, fragmented procurement, and accessible UWB components make strategic distribution more likely than independent compounding.
+
+The strongest bull case is that 250+ founder patents, eight years of shared work, Apple/Nest shipping history, and a one-minute across-room scan create an Anduril-style Known Exception: hard technology whose risks are already retired by exceptional builders. **Applied Electrodynamics, Inc.** could then accumulate proprietary verified-as-built data and become the default sensing layer every contractor touches, an index on digitized construction rather than another scanner. **Applied Electrodynamics, Inc.** has not yet earned that analogy because patent assignment is unclear, performance lacks independent validation, and no deployment corpus or paid usage is disclosed. I would flip to Invest if 25 named general contractors adopted WaveSight with repeat paid usage and more than 50% of revenue came from recurring mapping software rather than hardware sales.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Market Re-Opening Via Specific Recent Catalyst | 17/28 |
+| Revenue Velocity or Usage Curve Already Visible | 8/25 |
+| Founder Ships Iteratively Between Conversations | 18/20 |
+| Index-Like Distribution Position On A Compounding Category | 4/15 |
+| Single-Miracle Architecture Rather Than Multi-Miracle Dependency | 6/12 |
+| **Total** | **53/100** |
+
+**Total Score: 53/100** (Neutral)

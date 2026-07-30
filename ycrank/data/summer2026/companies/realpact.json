@@ -10,7 +10,7 @@
     "team_size": "3",
     "location": "San Francisco, CA, USA",
     "tags": "Artificial Intelligence, Real Estate, Enterprise Software",
-    "yc_partner": "Jon Xu (YC company page)",
+    "yc_partner": "Jon Xu",
     "emails": "No public data found"
   },
   "tags": [
@@ -19,52 +19,52 @@
     "Enterprise Software"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-06-29T06:08:27.650Z",
+  "memoGeneratedAt": "2026-07-30T17:44:18.942Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 38,
-      "tier": "Pass"
+      "score": 46,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 45,
+      "score": 59,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 35,
+      "score": 39,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 57,
-      "tier": "Neutral"
+      "score": 71,
+      "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 28,
+      "score": 41,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 30,
+      "score": 43,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 31,
+      "score": 40,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 38,
-    "EG": 45,
-    "NR": 35,
-    "PG": 57,
-    "PT": 28,
-    "SL": 30,
-    "VK": 31
+    "CB": 46,
+    "EG": 59,
+    "NR": 39,
+    "PG": 71,
+    "PT": 41,
+    "SL": 43,
+    "VK": 40
   },
-  "consolidatedAvg": 37.71,
-  "consolidatedRank": 45,
+  "consolidatedAvg": 48.43,
+  "consolidatedRank": 127,
   "traction": {
-    "tractionRank": 14,
-    "tractionScore": 50,
-    "tractionReason": "4 named brokerage customers, Sotheby's included"
+    "tractionRank": 27,
+    "tractionScore": 60,
+    "tractionReason": "Paying brokerages and firm-wide Sotheby's pilot"
   },
   "paths": {
     "memo": "summer2026/memos/realpact.md",

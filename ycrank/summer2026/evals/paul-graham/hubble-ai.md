@@ -1,0 +1,30 @@
+﻿# Hubble -- Paul Graham Evaluation
+
+Prabha Dublish and Aaron Leon built Hubble around the sort of schlep most founders unconsciously avoid, yet Hubble leaves surprisingly few tracks of animal resourcefulness. Retrieving medical records through APIs, browser automation, and voice means wrestling with consent, identity, faxes, and brittle portals rather than merely wrapping an AI model. But the dossier contains no cereal boxes, rejection-rescuing prototype, or unscalable customer stunt. Hubble looks like a schlep-heavy company built by qualified insiders, not yet a company whose founders have proved they will crawl through walls.
+
+**Coinbase** (2012) is the high rung for schlep blindness: compliance was not incidental to the product but the unpleasant work that became the asset. Hubble shares that mechanism. Hubble has 40+ live tools spanning Epic, Cerner, athenahealth, UnitedHealthcare, and Aetna, with permissioning, provenance, and per-call audit logs around protected health information. Hubble diverges from Coinbase because Brian Armstrong had already built the wallet that overturned his rejection, while Hubble has not disclosed coverage rates, retrieval reliability, or evidence that customers will pay for the mixed API-browser-voice machinery. The schlep is real; its defensibility is not yet proven.
+
+**Kiko** (2005) exposed the low-rung failure mechanism on resourcefulness: selling the product on eBay could become an exit from the struggle rather than a way through it. Hubble sits well above that rung because Hubble is already live in production across EHR and payer systems, and 40+ integrations are more than a deck. But nothing in Hubble’s dossier resembles Airbnb’s cereal financing, Dropbox’s Hacker News demo, or Armstrong rebuilding his Coinbase application around a working wallet. An oversubscribed financing is evidence that investors said yes. It is not evidence of what Dublish and Leon did when everyone said no.
+
+Dublish and Leon met in college, built Womentum together, and later developed complementary healthcare experience at Grow Therapy and Amazon One Medical. That configuration should compound over the next 18 months: Dublish can translate customer workflows while Leon absorbs the integration failures, permission edge cases, and audit requirements that Hubble will encounter system by system. Stripe remains the high rung because the Collison brothers combined a long relationship with unusually visible hacker output; Hubble has the relationship and complementary coverage, but not evidence that the pair previously survived years of building difficult software together. Hubble nevertheless has the right two-person shape for an integration schlep.
+
+Grow Therapy gave Dublish direct exposure to telehealth, partner integrations, and AI-enabled care, while Amazon One Medical gave Leon experience building EHR and AI infrastructure serving more than 1 million patients. Hubble therefore comes from lived professional pain, but the dossier never says Dublish or Leon personally needed Hubble’s longitudinal record and built it for themselves. The organic-idea score would jump a tier if Hubble began as an internal tool repeatedly used at Grow Therapy or One Medical, or if a named customer were already pulling the same patient histories every week. Without that evidence, Hubble is founder-market fit rather than the stronger Dropbox pattern of founder-problem identity.
+
+**Stripe** (2010) is the useful hacker parallel because its first advantage was not payments expertise on a résumé; it was that the Collisons could make an ugly developer problem feel simple. Leon built healthcare infrastructure serving 1 million-plus patients and led more than 50 engineers, which is substantial evidence that Hubble can construct the machinery. Hubble’s weaker signal is personal technical authorship: no public repository, open-source contribution, benchmark, or hacker-community artifact was retrievable for either founder. Hubble has an experienced technical executive, but the dossier does not yet show the animal programmer who stays up all night because the abstraction offends him.
+
+Hubble’s 40+ live tools make my 36-month forecast concrete: by July 2029, Hubble will remain independent at roughly $6 million to $12 million in annual recurring revenue, concentrated in digital-health and legal record-retrieval workflows, without displacing national networks such as Health Gorilla. Hubble can reach that range by turning every failed portal session, payer call, and provenance exception into another reliable workflow. The same signature limits the forecast: abundant schlep can build a valuable infrastructure business, but absent animal tracks make me unwilling to predict a category-defining outcome yet.
+
+Health Gorilla has raised more than $80 million, 1upHealth serves 75-plus enterprises and 35 million-plus patients, and Hubble reports no public revenue. The strongest bear case is that Hubble’s browser and voice routes are brittle workarounds around networks that already possess regulatory designations, enterprise distribution, and normalized clinical data. It stings because Hubble’s founders also read more like accomplished product and engineering managers than publicly visible hackers. Hubble still earns the check because 40+ live tools, production deployment, source provenance, and the founders’ direct healthcare histories show more artifact than pitch. I would flip to Pass if, by July 2027, Hubble cannot identify at least three paying customers using its retrieval workflows in production.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Demonstrates Animal Resourcefulness Pre-Funding | 19/35 |
+| Idea Is Organic to Founders' Own Pain | 19/25 |
+| Problem Sits in a Schlep Zone Mainstream Founders Avoid | 14/15 |
+| Hacker Genealogy in the Founder Team | 10/15 |
+| Co-founder Configuration Is a Strong Pair or Trio, Not Solo | 9/10 |
+| **Total** | **71/100** |
+
+**Total Score: 71/100** (Invest)

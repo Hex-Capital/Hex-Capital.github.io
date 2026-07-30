@@ -1,0 +1,83 @@
+{
+  "slug": "agency-tool-company",
+  "name": "Agency Tool Company",
+  "oneLiner": "Reliable infrastructure to build, deploy and manage real-world robots.",
+  "metadata": {
+    "website": "https://agencytool.com",
+    "yc_page": "https://www.ycombinator.com/companies/agency-tool-company",
+    "batch": "Summer 2026",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+    "team_size": "3",
+    "location": "Denver, CO, USA",
+    "tags": "Developer Tools, Robotics, Automation, Infrastructure, Self-Driving Vehicles",
+    "yc_partner": "Harshita Arora",
+    "emails": "mailbox@agencytool.com"
+  },
+  "tags": [
+    "Developer Tools",
+    "Robotics",
+    "Automation",
+    "Infrastructure",
+    "Self-Driving Vehicles"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:40:57.767Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 72,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 65,
+      "tier": "Invest"
+    },
+    "naval-ravikant": {
+      "score": 62,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 89,
+      "tier": "Strong Invest"
+    },
+    "peter-thiel": {
+      "score": 66,
+      "tier": "Invest"
+    },
+    "sam-lessin": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 42,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 72,
+    "EG": 65,
+    "NR": 62,
+    "PG": 89,
+    "PT": 66,
+    "SL": 57,
+    "VK": 42
+  },
+  "consolidatedAvg": 64.71,
+  "consolidatedRank": 5,
+  "traction": {
+    "tractionRank": 68,
+    "tractionScore": 48,
+    "tractionReason": "Three named launch partners using Deploy"
+  },
+  "paths": {
+    "memo": "summer2026/memos/agency-tool-company.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/agency-tool-company.md",
+      "elad-gil": "summer2026/evals/elad-gil/agency-tool-company.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/agency-tool-company.md",
+      "paul-graham": "summer2026/evals/paul-graham/agency-tool-company.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/agency-tool-company.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/agency-tool-company.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/agency-tool-company.md"
+    }
+  }
+}

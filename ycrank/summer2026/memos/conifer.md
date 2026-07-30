@@ -1,97 +1,84 @@
 ﻿# Conifer
 
-> Local-first least cost routing system to reduce token spend
+> Local-first least cost routing system to reduce 80%+ token spend
 
 | Field | Value |
 |-------|-------|
 | Website | https://www.conifer.build |
 | YC Page | https://www.ycombinator.com/companies/conifer |
-| Batch | Summer 2026 (YC page) |
+| Batch | Summer 2026 |
 | Industry | B2B / B2B |
 | Team Size | 3 |
-| Location | Not listed on YC page |
-| Tags | B2B, Security, AI |
-| YC Partner | Gustaf Alstromer (YC page) |
-| Emails | contact@conifer.build (GitHub org page, ConiferKit) |
+| Location | San Francisco, CA, USA |
+| Tags | Artificial Intelligence, B2B, Security |
+| YC Partner | Gustaf Alstromer |
+| Emails | contact@conifer.build |
 
 ## The Idea
 
-- **Problem:** Teams pay per-token cloud LLM fees across "a dozen provider contracts" and cannot send sensitive material (financials, user data) to external APIs (YC description; conifer.build).
-- **Approach:** A single Rust-based desktop app runs open models on the user's own hardware using hand-written Metal/CUDA kernels (fused quantized matmul, RMSNorm, RoPE, attention), then routes to cloud only when a local model cannot meet the quality bar per a "live intelligence index" (conifer.build).
-- **Differentiation:** vs. OpenRouter/Portkey/Martian (cloud API gateways) — Conifer executes inference on-device first rather than only routing between cloud APIs (conifer.build; OpenRouter description via Sacra); vs. Ollama/LM Studio (local runtimes) — Conifer bundles cloud fallback and cross-provider billing consolidation (conifer.build).
-- **Business Model:** [Inferred]: Consumption or seat-based pricing on cloud fallback usage since local calls are free to the customer; conifer.build marketplace is marked "Coming soon" and no pricing page is public (WebFetch, conifer.build).
-- **TAM/SAM:** No public TAM/SAM data found for this specific segment; adjacent signal — Ollama reached 52M monthly downloads in Q1 2026 and HuggingFace hosts 135K GGUF local-inference models (sitepoint/programming-helper, 2026).
-- **GTM / Distribution:** [Inferred]: Developer bottom-up via GitHub distribution of the `sage` client (303 stars, ConiferKit GitHub, Jul 2026) and X/LinkedIn @coniferbuild, with an "/agencies" business-inquiry page implied enterprise sales motion (conifer.build).
+- **Problem:** Teams using coding agents, customer-support systems, and other high-volume AI workloads send both simple and complex requests to paid cloud models while managing multiple subscriptions, API keys, and dashboards ([YC company page, Jul 2026](https://www.ycombinator.com/companies/conifer)).
+- **Approach:** Conifer routes each request through local hardware with zero API fees, then an efficient cloud model, and finally a frontier model when required, while its local-only mode disables external routing for sensitive data ([YC launch post, Jul 2026](https://www.ycombinator.com/companies/conifer)).
+- **Differentiation:** Conifer starts inference on users’ hardware, whereas OpenRouter operates a managed network across 400-plus cloud models and Portkey provides a control plane over customer-managed provider accounts ([Conifer YC page, Jul 2026](https://www.ycombinator.com/companies/conifer); [OpenRouter comparison, Jun 2026](https://openrouter.ai/blog/insights/openrouter-vs-portkey/)).
+- **Business Model:** [Inferred]: The business product could charge for routing, centralized governance, or consolidated cloud usage, but the public site does not disclose prices and the initial local product was launched as free and open source.
+- **TAM/SAM:** The global AI-gateway market was estimated at $17.7 million in 2025 and forecast to reach $181 million in 2031, representing a 47.4% CAGR ([LPI/Market Research Reports, 2025](https://www.marketresearchreports.com/lpi/global-ai-gateway-market-growth-status-and-outlook-2025-2031)).
+- **GTM / Distribution:** Conifer is distributing its Juniper application through a direct download and soliciting introductions to teams with high monthly token expenditure ([YC launch post, Jul 2026](https://www.ycombinator.com/companies/conifer)).
 
 ## Defensibility
 
-- **Moat today:** Hand-written Metal + CUDA kernels with fused quantized matmul, RMSNorm, RoPE, and flash-style attention sized per model — described as proprietary compiled binaries in the open-source Sage repo (GitHub ConiferKit/sage, Jul 2026).
-- **Future moat:** [Inferred]: A live routing dataset mapping prompts → cheapest-model-that-works could compound with usage, but no such data corpus is disclosed today (conifer.build "live intelligence index" reference).
-- **Market structure:** [Inferred]: Cloud-provider gateways (OpenRouter, Anthropic, OpenAI) cannibalize per-token revenue if they push customers to local inference, giving a local-first entrant a business-model conflict incumbents avoid (OpenRouter $113M round from Google/NVIDIA, TechTimes May 2026).
-- **Commoditization risk:** Ollama (174K GitHub stars, Jun 2026) and LM Studio already provide free local inference; adding a routing layer over them is a small engineering lift for any well-funded gateway (programming-helper, 2026).
+- **Moat today:** Conifer developed a Rust inference engine whose company-reported Apple Silicon benchmarks reached up to 60% faster decode speeds than llama.cpp, while its public Sage repository had 268 GitHub stars on July 30, 2026 ([YC launch post, Jul 2026](https://www.ycombinator.com/companies/conifer); [Conifer GitHub, Jul 2026](https://github.com/ConiferKit)).
+- **Future moat:** [Inferred]: Request-level routing outcomes could create proprietary data relating task characteristics, model capability, cost, latency, and hardware performance, but no public evidence establishes such a dataset today.
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** OpenRouter already offers per-prompt model selection through NotDiamond, Portkey supports routing and governance across more than 1,600 models, and cloud-model providers can implement routing within their own platforms ([OpenRouter comparison, Jun 2026](https://openrouter.ai/blog/insights/openrouter-vs-portkey/)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - GitHub: `ConiferKit/sage` 303 stars, 12 forks, latest release v1.2.14 Jun 2026 (GitHub, Jul 2026).
-  - GitHub org followers: 57 (GitHub ConiferKit, Jul 2026).
-  - Social handles: X @coniferbuild, LinkedIn /company/coniferbuild — follower counts not retrievable via search (WebFetch, Jul 2026).
-  - Product Hunt / press: No public data found.
-  - Revenue / paying customers: No public data found.
-  - Marketplace: Listed "Coming soon" on conifer.build (WebFetch, Jul 2026).
-- **Competitors:**
-  - OpenRouter ($40M+ raised through $28M Series A led by Menlo Ventures Apr 2025 at $500M valuation; TechTimes reports $113M Series B from Google and NVIDIA May 2026; revenue unknown): Cloud-only API gateway, no on-device inference (Sacra; TechTimes 2026).
-  - Portkey (acquisition intent announced by Palo Alto Networks; funding not disclosed in results): Focused on observability/DevOps for LLM calls, not local execution (portkey.ai; newmarketpitch 2026).
-  - Martian (funding not detailed in results; revenue unknown): Proprietary routing models optimizing quality + cost across cloud providers only (developersdigest 2026).
-  - LiteLLM (open-source, self-hosted; funding not detailed): OpenAI-compatible gateway routing to cloud LLMs, no bundled local runtime (pkgpulse 2026).
-  - Ollama (funding not disclosed; 52M monthly downloads Q1 2026, 174K GitHub stars Jun 2026): Local runtime only, no cross-provider cloud routing or billing consolidation (programming-helper 2026).
-- **Why now:** [Inferred]: Ollama monthly downloads went from ~100K three years earlier to 52M in Q1 2026 and open-weight models reached parity with cloud offerings, making local-first cost arbitrage newly viable (programming-helper via search snippet, 2026).
+  - More than 100 developers joined the Sage waitlist before its public launch ([Charles Muehlberger LinkedIn, Jun 2026](https://www.linkedin.com/in/charlesmuehl)).
+  - The ConiferKit GitHub organization had 57 followers and its Sage repository had 268 stars and 10 forks ([GitHub, Jul 30, 2026](https://github.com/ConiferKit)).
+  - Company-reported benchmarks measured 194.6 tokens per second for LFM2.5-8B-A1B on an M3 with 32GB memory, versus 138.8 for llama.cpp and 170.2 for MLX ([Michael Jeffords LinkedIn, Jul 2026](https://www.linkedin.com/in/michael-bryan-jeffords)).
+  - Conifer’s YC profile listed zero job openings ([YC company page, Jul 2026](https://www.ycombinator.com/companies/conifer)).
+- **Competitors (minimum 3, up to 5):**
+  - OpenRouter ($153 million raised, approximately $50 million annualized revenue): managed access and routing across hundreds of cloud models rather than local-first inference ([OpenRouter, May 2026](https://openrouter.ai/blog/series-b/); [Sacra, Mar 2026](https://sacra.com/c/openrouter/)).
+  - Portkey ($15 million Series A disclosed, revenue unknown): enterprise gateway emphasizing observability, governance, guardrails, and customer-managed provider accounts ([Portkey, Feb 2026](https://portkey.ai/blog/series-a-funding/)).
+  - Martian ($9 million seed disclosed, revenue unknown): routes prompts among cloud models based on performance, cost, and speed rather than beginning on user hardware ([The Information, Nov 2023](https://www.theinformation.com/articles/nea-leads-funding-of-startup-that-helps-customers-cut-ai-costs-a-chinese-startup-seizes-on-metas-open-source-llama-model)).
+  - Not Diamond ($2.3 million disclosed, revenue unknown): supplies prompt-level model routing, including technology used by OpenRouter’s Auto Router ([Axios, Jun 2024](https://www.axios.com/newsletters/axios-pro-rata-b65d1aae-613a-4d5b-85d2-57331654667f); [OpenRouter, Jun 2026](https://openrouter.ai/blog/insights/openrouter-vs-portkey/)).
+- **Why now:** [Inferred]: On-device hardware can now execute smaller language models while cloud-model proliferation creates cost and governance incentives for per-request routing, reflected in Gartner’s 2026 identification of AI gateways for routing, policy enforcement, data protection, and cost visibility ([Gartner, May 2026](https://www.gartner.com/en/documents/7855181)).
 
 ## Founders & Team
 
-- **Michael Jeffords (Founder):**
-  - Background: Listed as sole founder on YC page (Summer 2026, Gustaf Alstromer as Group Partner); no verified education, prior company, or exit data returned across LinkedIn, Twitter, and GitHub searches — multiple unrelated "Michael Jeffords" profiles surfaced but none confirmed to this Conifer.
-  - Twitter/X: No individual account confirmed; company account is @coniferbuild (count not retrievable).
-  - LinkedIn: No public profile confirmed as this founder (multiple namesakes returned).
-  - GitHub: No individual handle confirmed; company org is @ConiferKit with 57 followers and 303-star `sage` repo (GitHub, Jul 2026).
-- **Additional team:** YC page lists Team Size 3 but does not name the other two members; no public bios found (YC page, Jul 2026).
-- **Co-founder relationship:** No public data on co-founder history — only one founder is named on the YC page.
-- **Founder-market fit:** [Inferred]: The product's Rust + Metal/CUDA kernel work implies systems/GPU expertise on the team, but no cited credential for Jeffords was retrievable to substantiate fit (GitHub ConiferKit/sage README, Jul 2026).
+- **Michael Jeffords (Co-Founder):**
+  - Background: Co-founded the HeartCheck Foundation, which delivered hypertension screenings through more than 20 barbershops to over 10,000 people, and previously conducted vascular-surgery and stem-cell research ([YC company page, Jul 2026](https://www.ycombinator.com/companies/conifer)).
+  - Twitter/X: No public account found.
+  - LinkedIn: “Conifer (YC S26)” with 317 followers ([LinkedIn, Jul 2026](https://www.linkedin.com/in/michael-bryan-jeffords)).
+  - GitHub: No public personal repos found.
+- **Charles Muehlberger (Co-Founder):**
+  - Background: Princeton electrical-engineering student and researcher in edge multimodal inference who previously built edge-AI devices for Department of War brain-injury modeling ([YC company page, Jul 2026](https://www.ycombinator.com/companies/conifer); [Princeton AI Lab, Apr 2026](https://ai.princeton.edu/events/2026/boba-x-startups-student-founder-pitch-session)).
+  - Twitter/X: No public personal account found.
+  - LinkedIn: “Princeton University \| Electrical Engineering” with 472 followers ([LinkedIn, Jul 2026](https://www.linkedin.com/in/charlesmuehl)).
+  - GitHub: No public personal repos found.
+- **Co-founder relationship:** No public data on co-founder history.
+- **Founder-market fit:** Michael Jeffords has documented ML and computer-vision development experience, while Charles Muehlberger has documented edge-inference, electrical-engineering, and hardware research experience ([YC company page, Jul 2026](https://www.ycombinator.com/companies/conifer)).
 
 ## Key Risks
 
-- **Cloud-gateway incumbents pivot local:** OpenRouter closed $113M from Google and NVIDIA (TechTimes, May 2026) and could add on-device routing before Conifer establishes distribution; no observed mitigation beyond kernel-level performance work (GitHub sage, Jul 2026).
-- **Open-source local runtime substitution:** Ollama (52M monthly downloads Q1 2026) and LM Studio provide free local inference; Conifer must justify a paid layer on top of a commoditizing base (programming-helper 2026).
-- **Founder verification gap:** Only one founder is named publicly (Michael Jeffords, YC page) and no LinkedIn/GitHub/Twitter profile could be confirmed as his, limiting diligence on domain expertise and past execution.
-- **Product maturity:** Marketplace is "Coming soon," no pricing is public, and the `sage` client releases are only through v1.2.14 (Jun 2026) with distribution scripts making up the public repo while inference binaries remain closed (WebFetch conifer.build; GitHub ConiferKit/sage).
-- **Name confusion:** Multiple active AI companies use "Conifer" — Conifers.ai (agentic SOC, $25M from SYN Ventures per PRNewswire) and Conifer Labs (AI consulting) — which can dilute brand searches and inbound (PRNewswire 2025; coniferlabs.com).
+- **Routing quality:** Cost savings require the router to identify the least expensive model capable of completing each task, but no public routing-accuracy benchmark or customer evaluation was found.
+- **Hardware variability:** Published performance comparisons use Apple Silicon and selected models, leaving performance across Windows, Linux, GPUs, memory configurations, and longer production workloads unverified ([YC launch post, Jul 2026](https://www.ycombinator.com/companies/conifer)).
+- **Platform competition:** OpenRouter, Portkey, Martian, and Not Diamond already provide overlapping gateway or model-selection functions, with OpenRouter offering more than 400 models across over 70 providers ([OpenRouter, Jun 2026](https://openrouter.ai/blog/insights/model-routing/)).
+- **Name ambiguity:** A separate electric-motor company named Conifer operates at conifer.io and raised a $20 million seed round, creating search-result and brand disambiguation risk ([TechCrunch, Apr 2025](https://techcrunch.com/2025/04/14/conifer-locks-down-20m-seed-round-for-its-drop-in-electric-hub-motor/)).
+- **Security-verification gap:** Conifer states that local-only mode prevents external API calls, but no public third-party security audit or certification was found ([YC company page, Jul 2026](https://www.ycombinator.com/companies/conifer)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | No public data found |
-| SAM | No public data found (adjacent: Ollama 52M monthly downloads Q1 2026, programming-helper) |
-| Traction | 303 GitHub stars on `ConiferKit/sage` (GitHub, Jul 2026); 57 GitHub org followers (GitHub, Jul 2026); latest release v1.2.14 (GitHub, Jun 2026); "~80% AI bill reduction" claim (conifer.build, undated) |
-| Revenue Signal | No public data found (marketplace "Coming soon", conifer.build) |
-| Founders | Michael Jeffords (Founder): sole founder listed on YC page, background not publicly verified |
-| Competitors | OpenRouter ($40M+ raised, revenue unknown, cloud-only gateway); Portkey (Palo Alto Networks acquisition intent, observability focus); Martian (funding unknown, proprietary routing models); LiteLLM (OSS self-hosted gateway); Ollama (52M monthly downloads, local runtime only) |
-| Moat Signals | Hand-written Metal + CUDA fused kernels; proprietary Rust inference binaries in otherwise-shell `sage` repo (GitHub ConiferKit/sage, Jul 2026) |
-| Risk Factors | Cloud-gateway incumbent encroachment, OSS local-runtime commoditization, single named founder with unverified public profile |
-| Founder Reach | Michael Jeffords: Twitter No public account found, LinkedIn No public profile confirmed, GitHub No public account confirmed |
-| Distribution Signals | GitHub org ConiferKit 57 followers (Jul 2026); `sage` repo 303 stars (Jul 2026); Company X @coniferbuild, LinkedIn /company/coniferbuild (counts not retrievable) |
-| Emails | contact@conifer.build (GitHub ConiferKit org page, Jul 2026) |
-
-Sources:
-- [Conifer website](https://www.conifer.build/)
-- [Conifer YC page](https://www.ycombinator.com/companies/conifer)
-- [ConiferKit GitHub organization](https://github.com/ConiferKit)
-- [ConiferKit/sage repo](https://github.com/ConiferKit/sage)
-- [OpenRouter revenue, funding — Sacra](https://sacra.com/c/openrouter/)
-- [OpenRouter $113M Series B — TechTimes](https://www.techtimes.com/articles/317353/20260529/ai-gateway-openrouter-raises-113m-google-nvidia-route-between-their-models.htm)
-- [What OpenRouter's $113M Signals — NewMarketPitch](https://newmarketpitch.com/blogs/news/openrouter-series-b-analysis)
-- [LLM router comparison 2026 — Developers Digest](https://www.developersdigest.tech/blog/llm-router-comparison-2026)
-- [Portkey vs LiteLLM vs OpenRouter — PkgPulse](https://www.pkgpulse.com/guides/portkey-vs-litellm-vs-openrouter-llm-gateway-2026)
-- [Local LLM inference 2026 — Programming Helper](https://www.programming-helper.com/tech/local-llm-inference-2026-ollama-python-privacy)
-- [Guide to local LLMs 2026 — SitePoint](https://www.sitepoint.com/definitive-guide-local-llms-2026-privacy-tools-hardware/)
-- [Conifers.ai $25M funding — PRNewswire](https://www.prnewswire.com/news-releases/conifersai-raises-25-million-in-funding-from-syn-ventures-to-transform-security-operations-and-achieve-soc-excellence-using-agentic-ai-302362491.html)
+| TAM | $17.7M global AI-gateway market in 2025, forecast to reach $181M in 2031 at 47.4% CAGR (LPI/Market Research Reports, 2025) |
+| SAM | No public data found |
+| Traction | 100+ Sage waitlist developers (Charles Muehlberger LinkedIn, Jun 2026); 268 Sage GitHub stars and 57 organization followers (GitHub, Jul 2026) |
+| Revenue Signal | No public data found |
+| Founders | Michael Jeffords (Co-Founder): HeartCheck co-founder and ML/clinical researcher; Charles Muehlberger (Co-Founder): Princeton ECE student and edge-inference researcher (YC company page, Jul 2026) |
+| Competitors | OpenRouter ($153M raised, approximately $50M annualized revenue, managed cloud-model network) (OpenRouter/Sacra, 2026); Portkey ($15M Series A disclosed, revenue unknown, governance control plane) (Portkey, Feb 2026); Martian ($9M seed disclosed, revenue unknown, cloud-model router) (The Information, Nov 2023); Not Diamond ($2.3M disclosed, revenue unknown, prompt-level routing) (Axios, Jun 2024) |
+| Moat Signals | Rust inference engine reported up to 60% faster Apple Silicon decoding than llama.cpp; Sage repository had 268 stars (YC company page/GitHub, Jul 2026) |
+| Risk Factors | Routing accuracy unverified (public-source review, Jul 2026), hardware-dependent performance (YC company page, Jul 2026), funded gateway competitors (OpenRouter/Portkey/Martian funding announcements, 2023–2026) |
+| Founder Reach | Michael Jeffords: LinkedIn 317, Twitter and personal GitHub not found; Charles Muehlberger: LinkedIn 472, Twitter and personal GitHub not found (LinkedIn, Jul 2026) |
+| Distribution Signals | 100+ developer waitlist, 268 GitHub stars, 57 GitHub organization followers, zero YC job listings (LinkedIn/GitHub/YC, Jul 2026) |
+| Emails | contact@conifer.build (YC company page/GitHub, Jul 2026) |

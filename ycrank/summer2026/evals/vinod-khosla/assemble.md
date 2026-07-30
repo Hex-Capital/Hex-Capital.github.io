@@ -1,0 +1,30 @@
+﻿# Assemble -- Vinod Khosla Evaluation
+
+Aliyan Ishfaq previously built ParaAI to 100,000 users and $50K ARR, while Assemble now attacks enterprise-system implementation with deterministic rollback infrastructure. Assemble is a high-learning-rate, low-capital-requirement software company: capable founders abandoned a working editor for a harder workflow, but Assemble still resembles an enterprise SaaS business that my capital cannot uniquely enable. The analytical signature is adaptability without capital hostility. That can create a good business. It rarely creates a Khosla-shaped investment.
+
+**Slash** (2024) is the high rung on learning rate because its documented Kanye West pivot exposed founders who changed direction when reality contradicted the plan. Assemble shares the behavioral outline: Ishfaq moved beyond ParaAI despite 100,000 users and $50K ARR, then Assemble produced Salesforce version control, mutation traces, and rollback paths rather than another generic editor. The divergence is load-bearing. Assemble provides no documented “we were wrong about X” thesis update explaining why ParaAI gave way to enterprise IT, so the evidence demonstrates motion but not yet the unusually fast belief revision that made Slash exceptional.
+
+**DoorDash** (2013) failed my required-capital test: consumer logistics did not require a $115M science-scale Series A, and only extraordinary ambition and network effects overrode that mismatch. Assemble displays the same low-rung capital problem without DoorDash’s demonstrated override. Assemble publishes no plant, fleet, proprietary-model training program, or other milestone requiring more than $50M; its likely demo-led enterprise SaaS model, three-person organization, and purpose-built connectors are fundable by any competent generalist. “Make a great company and the money takes care of itself” does not mean every good company needs my money.
+
+The $24.5B forecast enterprise-agentic-AI market understates Assemble’s best consequence case, because the real prize is eliminating years of systems-integrator labor across ERP, CRM, and HRIS transformations. Over 18 months, Assemble’s dependency graphs, execution traces, and rollback histories could compound into a proprietary map of how enterprise systems actually change, allowing Assemble to replace implementation labor rather than merely accelerate it. Today, however, the only quantified proof is 30 Salesforce Superbadges completed in 6.4 recorded hours. No labor-cost figure, named implementation displaced, or production customer shows that an incumbent economic regime has started to break. The consequence is meaningful, but not yet civilizational.
+
+The 93% first-attempt pass rate proves Assemble can operate inside Trailhead’s deterministic environment; it does not prove Assemble can survive undocumented workflows, conflicting permissions, and ten years of customer-specific Salesforce logic. The technical-risk score flips upward only if Assemble demonstrates autonomous changes in several messy production environments while preserving deterministic rollback across Salesforce, NetSuite, and Workday. Assemble would then possess a falsifiable stack-deep problem that SAP’s 200 native agents cannot casually absorb. Without that evidence, production-change safety is difficult software engineering, not a physics, biology, or capital miracle that repels consensus VCs.
+
+**Physical Intelligence** (2024) paired Stanford’s Chelsea Finn and Berkeley’s Sergey Levine with a full-stack robotics thesis that placed respected researchers against the prevailing limits of embodied AI. Assemble has Stanford AI Lab researchers, LangChain experience, a 10.3K-star Open SWE repository, and AWS and Apple engineering credentials, but Assemble presents no controversial technical claim its founders have defended against their field. The dossier instead reads as credential continuity inside the most consensus market of 2026: enterprise agents, where Gartner forecasts adoption in 40% of enterprise applications. Experts often extrapolate the past. Assemble has not yet shown where Ishfaq, Ghosh, or Janarthanan refuses to extrapolate it.
+
+The 629 Salesforce badges lead to a falsifiable forecast: by July 2029, Assemble will have narrowed around Salesforce change management, reached $3M-$8M ARR, and remained an independent enterprise-software vendor rather than becoming a cross-platform autonomous IT layer. Assemble’s strongest current asset is Salesforce-specific execution reliability, while Assemble’s weakest constraint is the absence of science-scale capital requirements; those forces favor a focused, commercially useful product rather than a category-collapsing platform. Probability is respectable. Consequence remains bounded.
+
+**Glean** is the strongest objection because an ex-Google domain expert turned familiar enterprise plumbing into a consequential information layer, proving that consensus credentials and capital-light software can be exceptions. Assemble’s Stanford founders, Ishfaq’s prior $50K ARR, the 10.3K-star repository, and end-to-end implementation scope could similarly compound from a Salesforce wedge into the control plane for enterprise change. The objection stings, but Assemble has no named customer, no revenue, no production rollback record, and no evidence that its execution data outruns SAP, Salesforce, or Tribal. I pass today. Five named Fortune 500 customers permitting autonomous production changes across at least three enterprise platforms, with $2M in contracted ARR, would verify the cross-platform control-plane thesis and flip my verdict.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Consequence Magnitude If Company Wins | 18/30 |
+| Technical or Capital Risk That Repels Consensus VCs | 13/25 |
+| Founder Defies Documented Expert Consensus | 8/20 |
+| Founder Learning Rate, Demonstrated By Prior Pivot Or Thesis Update | 12/15 |
+| Required-Capital Profile Matches Khosla Check Size | 3/10 |
+| **Total** | **54/100** |
+
+**Total Score: 54/100** (Neutral)

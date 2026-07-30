@@ -1,0 +1,30 @@
+﻿# Daqstra -- Vinod Khosla Evaluation
+
+Darell Chua’s live LOX/IPA campaigns and Anchit Kumar’s 10-plus Mojave test campaigns make Daqstra technically serious, while Daqstra’s lowest signal is the capital profile: integrating NI, Siemens, Modbus, and OPC-UA is difficult, but difficulty is not the same as capital-hostile science. Daqstra is therefore a high-consequence engineering tool trapped inside a modest-consequence business model. It may become valuable industrial infrastructure. It does not yet describe an economic mechanism that breaks.
+
+**Commonwealth Fusion** is the high rung because its success requires falsifiable physical miracles and more than $50M before the first commercial milestone. Daqstra shares the unforgiving physical boundary: Daqstra can issue redlines, aborts, and commands during rocket-engine tests, where an integration error destroys hardware rather than corrupting a spreadsheet. That analogy matters. But Daqstra diverges precisely where the check becomes interesting: compatibility across NI, Siemens, Modbus, OPC-UA, and custom TCP is arduous systems engineering, not new physics, and Nominal and Sift have already financed overlapping approaches. I count perhaps one miracle—safe, vendor-independent orchestration that customers trust—not the three independent miracles that made Commonwealth Fusion investable to me. Technical or capital risk sits above conventional SaaS, but well below capital-hostile science.
+
+**DoorDash** is the low rung on required capital because its early technical roadmap did not need a $115M scientific program; its exception was a distribution system that eventually restructured consumer-commerce flow. Daqstra exhibits the same dimensional weakness without evidence of the same override. Daqstra’s dossier names enterprise software, existing hardware, founder-led demos, and no roadmap requiring more than $50M before product-market fit. Nominal’s $155M and Sift’s $67M prove that money can be spent in the category, not that Daqstra must spend it. My own-money advantage is irrelevant when a normal seed syndicate can finance the next eighteen months.
+
+Nominal’s $155M financing exposes the consequence question more sharply than any TAM slide could. Over eighteen months, Daqstra’s configurations, control sequences, event history, and cross-run analyses could compound into a system of record that shortens physical R&D cycles across aerospace, energy, robotics, and biotechnology. That is the bull mechanism. Yet Daqstra currently promises hundreds of engineering hours saved and one palm-oil pilot targeting $100,000-plus in annual savings. Daqstra has not shown that an incumbent regime disappears, that rocket development becomes ten times faster, or that a meaningful fraction of physical R&D labor is displaced. “Make a great company and the money takes care of itself” does not mean every useful workflow becomes a great company.
+
+Darell Chua’s Rivian systems-performance work and Anchit Kumar’s autonomy research give Daqstra authentic founder-market fit, but they also fit my expert-continuity red flag: Daqstra’s founders experienced fragmented test infrastructure and built a better version of that infrastructure. To flip this dimension into an invest signal, Daqstra would need evidence that Chua or Kumar rejected a documented industry consensus—for example, proving that human-approved AI can safely operate closed-loop tests that incumbent engineers insist must remain manually orchestrated. The UC Berkeley study covered 28,000 predictions; credentials are not contrarianism. Daqstra’s UCSD and AIAA credentials establish competence, not defiance.
+
+**Slash** earned its exception through a documented pivot that exposed unusually high founder learning rate. Daqstra has no equivalent evidence. Daqstra’s path from UCSD rocket-engine testing to commercial test orchestration is coherent and impressively direct, but coherence is not learning-rate evidence. The unexplained change from four founders on UCSD’s 2024–2025 page to two founders on YC’s current page could represent a hard organizational update; without the reasoning, it cannot be scored as one. Daqstra receives the absent-evidence default here, not a penalty for being young.
+
+Active aerospace programs and multiple rocket-engine test stands lead to a specific 36-month forecast: by July 2029, Daqstra will reach roughly $3M–$8M ARR in aerospace and industrial testing, remain below $30M in total capital raised, and still sell primarily as a vendor-neutral test-automation platform rather than becoming an autonomous physical-R&D operating system. Daqstra’s integration depth can produce a good enterprise business; Daqstra’s low required-capital profile and incremental success-state make a civilization-scale outcome less likely.
+
+Nominal’s $155M war chest supplies the strongest opposing case: Daqstra may be the **DoorDash** exception, where capital-light infrastructure quietly reorganizes an enormous physical workflow, while daily aerospace use, a signed palm-oil pilot, and founders who personally built liquid rocket engines provide unusually strong pre-seed validation. Daqstra also avoids the commodity-AI-wrapper red flag because its bidirectional control stack touches real hardware. The case still loses today because Daqstra has not shown autonomous closed-loop operation, proprietary data scale, or a consequence beyond faster testing in an already crowded category. I would flip to Invest if Daqstra demonstrates at three named paying industrial customers that autonomous orchestration cuts complete test-and-iteration cycles by at least 10x while maintaining an independently verified safety record.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Consequence Magnitude If Company Wins | 14/30 |
+| Technical or Capital Risk That Repels Consensus VCs | 16/25 |
+| Founder Defies Documented Expert Consensus | 8/20 |
+| Founder Learning Rate, Demonstrated By Prior Pivot Or Thesis Update | 7/15 |
+| Required-Capital Profile Matches Khosla Check Size | 3/10 |
+| **Total** | **48/100** |
+
+**Total Score: 48/100** (Neutral)

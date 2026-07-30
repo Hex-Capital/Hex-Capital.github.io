@@ -1,69 +1,69 @@
 {
   "slug": "vestris",
   "name": "Vestris",
-  "oneLiner": "Replaces title searchers and closes property deals",
+  "oneLiner": "AI native platform for real estate closings",
   "metadata": {
     "website": "https://vestris.ai/",
     "yc_page": "https://www.ycombinator.com/companies/vestris",
     "batch": "Summer 2026",
     "industry": "Real Estate and Construction / Real Estate and Construction -> Housing and Real Estate",
-    "team_size": "0",
+    "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "Workflow Automation, Home Services",
-    "yc_partner": "Jared Friedman (YC company page)",
-    "emails": "founders@vestris.ai (vestris.ai homepage)"
+    "yc_partner": "Jared Friedman ([Y Combinator](https://www.ycombinator.com/companies/vestris), Jul 2026)",
+    "emails": "founders@vestris.ai ([Vestris pricing](https://vestris.ai/pricing), Jul 2026)"
   },
   "tags": [
     "Workflow Automation",
     "Home Services"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-08T04:51:13.368Z",
+  "memoGeneratedAt": "2026-07-30T17:36:23.560Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 42,
-      "tier": "Pass"
+      "score": 61,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 36,
-      "tier": "Pass"
+      "score": 51,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 30,
+      "score": 42,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 35,
-      "tier": "Pass"
+      "score": 64,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 42,
+      "score": 41,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 23,
+      "score": 39,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 32,
-      "tier": "Pass"
+      "score": 48,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 42,
-    "EG": 36,
-    "NR": 30,
-    "PG": 35,
-    "PT": 42,
-    "SL": 23,
-    "VK": 32
+    "CB": 61,
+    "EG": 51,
+    "NR": 42,
+    "PG": 64,
+    "PT": 41,
+    "SL": 39,
+    "VK": 48
   },
-  "consolidatedAvg": 34.29,
-  "consolidatedRank": 60,
+  "consolidatedAvg": 49.43,
+  "consolidatedRank": 119,
   "traction": {
-    "tractionRank": 35,
-    "tractionScore": 24,
-    "tractionReason": "Live jurisdictional coverage in DC and Montgomery"
+    "tractionRank": 125,
+    "tractionScore": 28,
+    "tractionReason": "Preview waitlist across two jurisdictions"
   },
   "paths": {
     "memo": "summer2026/memos/vestris.md",

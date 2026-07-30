@@ -1,0 +1,30 @@
+﻿# Shielded -- Sam Lessin Evaluation
+
+James Simon brings MIT computer-science and economics training, commodities experience at Balyasny, and hundreds of finance-and-procurement interviews to Shielded, making founder conviction Shielded’s strongest dimension. Shielded’s weakest dimension is owned distribution: 954 LinkedIn followers, no public X account, no GitHub footprint, and a $1,000 referral bounty describe founder-led enterprise sales, not a community already sitting on the cap table. Shielded is a domain-shaped operator bet with real “rizz and tizz,” but no distribution asset—and enterprise software without distribution is usually just expensive rowing before the regatta begins.
+
+**Drop.io** is the high rung for asymmetric conviction: I pursued a file-sharing primitive against free incumbents because the problem had become personal before the pitch existed. Shielded shares part of that mechanism—Simon combined commodities work at Balyasny with hundreds of workflow interviews before building Shielded’s ERP-to-margin analysis—but Shielded diverges where it matters. Shielded shows no three-year obsession, opinionated public writing, or non-obvious claim Simon has defended against sustained disagreement. The founder-market fit is credible; the missionary temperament remains inferred rather than demonstrated.
+
+**Fin** exposed the low-rung failure mechanism for founder-owned distribution: a Wizard-of-Oz operation can generate insight without generating an audience, leaving every new customer to be acquired through another sales cycle before the product eventually tacks elsewhere. Shielded shows the same distribution fragility through customized demos, a $1,000 referral payment, and no public community beyond Simon’s 954 LinkedIn followers. Shielded may automate procurement analysis beautifully, but Shielded owns neither the finance audience nor a trusted founder brand that makes adoption compound independently of sales effort.
+
+Shielded’s promised 48-hour ERP deployment is the best structural fact in the dossier because it could keep implementation labor bounded over the next 18 months. Shielded’s restaurant-chain example across 200 SKUs also suggests a narrow, repeatable wedge rather than a five-year digital-transformation project. The problem is that Shielded still looks like a standard negotiated-contract enterprise SaaS cap table with no disclosed revenue, pricing, burn, or unusual financing instrument. If each ERP schema, supplier taxonomy, and regulatory interpretation remains customer-specific, Shielded compounds services obligations faster than software margin; if the 48-hour claim survives ten deployments, Shielded could become default-alive without much capital.
+
+Susa Ventures backing Shielded alongside YC is evidence of institutional legibility, not mispricing. Shielded provides no round size, valuation, tier-one pass, or strategically awkward asset structure, so I apply the absent-evidence default and then discount slightly for an already-legible finance-and-procurement software pitch. The score flips upward if Shielded is raising below the Summer 2026 batch median after supply-chain specialists passed because they view the market as boring; it flips downward if Shielded is priced like a hot AI-risk platform. Price is not a footnote here—it is the product I am buying.
+
+**Sublime Security** is the useful single-anchor parallel for category fit: enterprise software can interest me when the entry precedes a consolidation wave and the wedge is underestimated. Shielded could make that argument around tariff volatility, commodity exposure, and finance ownership of procurement risk. Shielded currently sits behind Interos, which already markets tariff-cost and product-revenue impact analysis after raising $192.35 million, while Altana, Prewave, and Everstream have funded data networks of their own. Supply-chain intelligence is not one of my revealed-preference sleeves—crypto, DTC, prescription rails, creator infrastructure, or structure-first holdcos—and Shielded has not yet shown the illegible asset that would override that mismatch.
+
+Three first-party Shielded examples point toward my 36-month forecast: by July 2029, Shielded will have narrowed from broad supply-chain risk management into tariff-and-commodity margin analytics, reached roughly $1 million to $3 million ARR, and remained below a conventional Series A threshold. Shielded’s founder depth should win a small set of customized CFO deployments, while Shielded’s absent community, incumbent overlap, and sensitive-data integration burden should prevent rapid distribution. That is a respectable business outcome; it is not yet a venture moment.
+
+**Ro** is the strongest objection because regulatory and operational complexity can make capital intensity the moat rather than the defect. Shielded monitors White House, USTR, Federal Register, and CBP changes, claims deployment within 48 hours, and has use cases spanning restaurants, CPG, and manufacturing; Shielded could become the system of record precisely because ERP data, commodity exposure, and regulatory interpretation are painful to unify. The objection stings, but Ro’s prescription rails created structural barriers, while Shielded reports no proprietary dataset, security certification, named customer, revenue, or retention and faces direct Interos overlap. Five named Shielded customers renewing annual contracts after 12 months would flip my verdict by proving the integration burden creates durable workflow ownership rather than bespoke consulting.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Round Is Mis-Priced or Non-Consensus, Not the Hot YC Deck | 8/30 |
+| Capital Structure Is Venture-Shaped, Not Founder-Drainage | 9/22 |
+| Founder Has Asymmetric Conviction Visible Pre-Pitch | 12/20 |
+| Founder-as-Brand or Owned Community Is on the Cap Table | 3/15 |
+| Category Lives in a Sleeve You're Already Convicted On | 4/13 |
+| **Total** | **36/100** |
+
+**Total Score: 36/100** (Pass)

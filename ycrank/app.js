@@ -54,7 +54,8 @@ function app() {
     councilAsking: false,
     councilMessages: [],
     councilPersonas: [],
-    councilModel: 'sonnet',
+    councilProvider: 'codex',
+    councilModel: 'balanced',
     councilCost: 0,
     councilSessionId: '',
 
@@ -130,6 +131,17 @@ function app() {
           this.staticMode = cfg.static === true;
         }
       } catch (e) { /* default false */ }
+
+      if (!this.staticMode) {
+        try {
+          const llmResp = await fetch('/api/llm/config');
+          if (llmResp.ok) {
+            const llmConfig = await llmResp.json();
+            if (llmConfig.provider) this.councilProvider = llmConfig.provider;
+            if (llmConfig.model) this.councilModel = llmConfig.model;
+          }
+        } catch (e) { /* keep local defaults */ }
+      }
 
       // Auth gate in static mode
       if (this.staticMode && !localStorage.getItem('ycrank_auth')) {
@@ -726,7 +738,9 @@ function app() {
       if (!this.companyData || this.staticMode) return;
       const params = new URLSearchParams({
         companySlug: this.companyData.slug,
-        batch: this.currentBatch
+        batch: this.currentBatch,
+        provider: this.councilProvider,
+        model: this.councilModel
       });
       window.open(`/api/email/draft?${params}`, '_blank');
     },
@@ -736,6 +750,7 @@ function app() {
       const params = new URLSearchParams({
         companySlug: this.companyData.slug,
         batch: this.currentBatch,
+        provider: this.councilProvider,
         model: this.councilModel
       });
       window.open(`/api/meetingnotes/generate?${params}`, '_blank');
@@ -807,6 +822,7 @@ function app() {
             companySlug: this.companyData ? this.companyData.slug : null,
             personas: activeList,
             sessionId: this.councilSessionId,
+            provider: this.councilProvider,
             model: this.councilModel,
             batch: this.currentBatch
           })

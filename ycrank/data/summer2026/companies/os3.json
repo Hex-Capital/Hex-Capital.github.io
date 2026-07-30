@@ -11,7 +11,7 @@
     "location": "San Francisco, CA, USA",
     "tags": "Artificial Intelligence, Hardware, Robotics, B2B",
     "yc_partner": "Gustaf Alstromer",
-    "emails": "hi@os3robotics.com"
+    "emails": "hi@os3robotics.com, rishabhchanana8@gmail.com"
   },
   "tags": [
     "Artificial Intelligence",
@@ -20,52 +20,52 @@
     "B2B"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-01T19:08:46.519Z",
+  "memoGeneratedAt": "2026-07-30T18:20:24.271Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 46,
+      "score": 57,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 40,
-      "tier": "Pass"
+      "score": 52,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 34,
+      "score": 43,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 43,
-      "tier": "Pass"
+      "score": 66,
+      "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 31,
+      "score": 43,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 23,
+      "score": 37,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 43,
-      "tier": "Pass"
+      "score": 73,
+      "tier": "Invest"
     }
   },
   "consolidatedScores": {
-    "CB": 46,
-    "EG": 40,
-    "NR": 34,
-    "PG": 43,
-    "PT": 31,
-    "SL": 23,
-    "VK": 43
+    "CB": 57,
+    "EG": 52,
+    "NR": 43,
+    "PG": 66,
+    "PT": 43,
+    "SL": 37,
+    "VK": 73
   },
-  "consolidatedAvg": 37.14,
-  "consolidatedRank": 49,
+  "consolidatedAvg": 53,
+  "consolidatedRank": 88,
   "traction": {
-    "tractionRank": 32,
-    "tractionScore": 27,
-    "tractionReason": "\"Already deploying in hospitality,\" no counts"
+    "tractionRank": 87,
+    "tractionScore": 42,
+    "tractionReason": "Current hospitality deployment claimed"
   },
   "paths": {
     "memo": "summer2026/memos/os3.md",

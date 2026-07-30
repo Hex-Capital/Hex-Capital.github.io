@@ -1,71 +1,72 @@
 {
   "slug": "amulet",
   "name": "Amulet",
-  "oneLiner": "Agents that drive customer success",
+  "oneLiner": "High performance file system for agents",
   "metadata": {
     "website": "https://amulet.so/",
     "yc_page": "https://www.ycombinator.com/companies/amulet",
     "batch": "Summer 2026",
-    "industry": "B2B / B2B -> Operations",
+    "industry": "B2B / B2B -> Infrastructure",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "SaaS, B2B, Customer Success, AI Assistant",
+    "tags": "Developer Tools, Machine Learning, Big Data, Infrastructure, AI",
     "yc_partner": "Diana Hu",
     "emails": "No public data found"
   },
   "tags": [
-    "SaaS",
-    "B2B",
-    "Customer Success",
-    "AI Assistant"
+    "Developer Tools",
+    "Machine Learning",
+    "Big Data",
+    "Infrastructure",
+    "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-08T04:50:36.172Z",
+  "memoGeneratedAt": "2026-07-30T17:28:01.156Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 24,
-      "tier": "Pass"
+      "score": 50,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 32,
-      "tier": "Pass"
+      "score": 55,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 33,
-      "tier": "Pass"
+      "score": 65,
+      "tier": "Invest"
     },
     "paul-graham": {
-      "score": 27,
-      "tier": "Pass"
+      "score": 57,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 23,
+      "score": 44,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 22,
+      "score": 32,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 23,
-      "tier": "Pass"
+      "score": 47,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 24,
-    "EG": 32,
-    "NR": 33,
-    "PG": 27,
-    "PT": 23,
-    "SL": 22,
-    "VK": 23
+    "CB": 50,
+    "EG": 55,
+    "NR": 65,
+    "PG": 57,
+    "PT": 44,
+    "SL": 32,
+    "VK": 47
   },
-  "consolidatedAvg": 26.29,
-  "consolidatedRank": 81,
+  "consolidatedAvg": 50,
+  "consolidatedRank": 114,
   "traction": {
-    "tractionRank": 60,
-    "tractionScore": 8,
-    "tractionReason": "Team of 2, no public data disclosed"
+    "tractionRank": 127,
+    "tractionScore": 28,
+    "tractionReason": "Private beta onboarding partners in small batches"
   },
   "paths": {
     "memo": "summer2026/memos/amulet.md",

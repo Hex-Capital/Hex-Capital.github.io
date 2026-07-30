@@ -11,94 +11,67 @@
 | Team Size | 4 |
 | Location | New York City, NY, USA |
 | Tags | Hard Tech, Hardware, Robotics |
-| YC Partner | Gustaf Alstromer (YC company page) |
+| YC Partner | Gustaf Alstromer |
 | Emails | No public data found |
 
 ## The Idea
 
-- **Problem:** Household robots capable of chores (dishes, laundry, cleaning, coffee) are priced at $16K–$20K+ (1X NEO $20K, Unitree G1 $16K per humanoid market coverage, Jun 2026), pricing out mainstream consumers who currently rely on manual labor or single-task appliances.
-- **Approach:** Nori sells a wheeled bimanual mobile manipulator (dual Z-axis 950mm lift, two arms, wheels) rather than a bipedal humanoid, at $1,288–$1,322 retail, trainable via leader-follower teleoperation that records Z-axis + arm + gripper trajectories synchronously (norirobotics.com, Jul 2026).
-- **Differentiation:** Unitree G1 starts at ~$16K and 1X NEO at $20K/$499 per month (humanoid market roundups, 2026); Nori is ~12× cheaper by using a wheeled cart-based form factor rather than bipedal locomotion (Threads/Robohub coverage, Jun 2026).
-- **Business Model:** Hardware sale at $1,288 (L2, 100cm) and $1,322 (L2 Grande, 130cm), pre-orders open with shipping summer 2026, plus a skill-sharing marketplace where robots learn from each other globally and monthly software updates (norirobotics.com, Jul 2026).
-- **TAM/SAM:** Humanoid robot market estimated at $5.41B in 2026 growing to $50.27B by 2035 at 28.1% CAGR (MarketsandMarkets, 2026); alternative estimate $8.32B in 2026 → $39B by 2030 at 47.1% CAGR (Research and Markets, 2026).
-- **GTM / Distribution:** Direct-to-consumer via norirobotics.com waitlist and pre-orders announced on X on Jun 23, 2026 (@NoriRobotics, explainx.ai coverage); YC promotion via @ycombinator tweet "Small but capable, Nori L2 is coming next week" (x.com/ycombinator, Jun 2026).
+- **Problem:** [Inferred]: Households currently perform recurring chores manually or buy single-purpose appliances, while general-purpose home robots from 1X and Weave are listed at $20,000 and $7,999 respectively ([1X](https://www.1x.tech/discover/neo-home-robot), Oct 2025; [TechRadar](https://www.techradar.com/computing/maybe-robots-dont-need-legs-or-fingers-to-do-laundry-weave-robotics-isaac-1-isnt-pretty-or-super-humanoid-but-it-might-be-ready-to-handle-basic-chores), Jul 2026).
+- **Approach:** Two wheeled, bimanual models use vertical lifts, autonomous task training, downloadable skills, multi-robot coordination, and remote teleoperation to perform chores such as loading dishes, cleaning, and food preparation ([Nori website](https://www.norirobotics.com/), Jul 2026).
+- **Differentiation:** Nori lists the L2 at $1,288 and L2 Grande at $1,322, versus Weave Isaac 1 at $7,999 and 1X NEO at $20,000 or $499 monthly; unlike Sunday’s Memo, Nori also advertises remote teleoperation and a shared skills marketplace ([Nori](https://www.norirobotics.com/), Jul 2026; [1X](https://www.1x.tech/discover/neo-home-robot), Oct 2025; [TechRadar](https://www.techradar.com/computing/maybe-robots-dont-need-legs-or-fingers-to-do-laundry-weave-robotics-isaac-1-isnt-pretty-or-super-humanoid-but-it-might-be-ready-to-handle-basic-chores), Jul 2026; [Sunday](https://www.sunday.ai/), Jul 2026).
+- **Business Model:** Nori takes pre-orders for the 100-centimeter L2 at $1,288 and 130-centimeter L2 Grande at $1,322, with no subscription or marketplace fee disclosed ([Nori website](https://www.norirobotics.com/), Jul 2026).
+- **TAM/SAM:** The global personal and household service-robot market was valued at $18.1 billion in 2025 and projected to reach $90.9 billion by 2033, a 22.4% CAGR from 2026–2033 ([Grand View Research](https://www.grandviewresearch.com/industry-analysis/personal-household-service-robots-market-report), 2026); no public SAM estimate was found.
+- **GTM / Distribution:** Nori sells through direct website pre-orders, links to company LinkedIn, X, and Discord accounts, and promises monthly production updates and Summer 2026 delivery ([Nori website](https://www.norirobotics.com/), Jul 2026).
 
 ## Defensibility
 
-- **Moat today:** No defensibility signals found in public sources beyond a claimed skill-sharing marketplace concept (norirobotics.com, Jul 2026).
-- **Future moat:** [Inferred]: If the skill marketplace achieves scale, cross-robot task data could yield a data flywheel; unproven now because the product has not shipped and there is no cited installed base.
-- **Market structure:** [Inferred]: Bipedal-humanoid incumbents (Figure, 1X, Tesla Optimus) have raised at valuations ($39B for Figure per Series C Sep 2025) predicated on bipedal form factor and enterprise contracts, creating potential unit-economics conflict with a $1,288 consumer wheeled SKU.
-- **Commoditization risk:** Unitree already ships a $16K G1 and $5,900 R1 (Forbes, Apr 2026; humanoid roundups 2026), and academic wheeled bimanual platforms (e.g., "Nori Bot: A Sub-$1,000 Floor-to-Counter Mobile Manipulator," arXiv 2605.16537) exist, indicating BOM-level replication is feasible by well-resourced Chinese manufacturers.
+- **Moat today:** Nori advertises a skills marketplace through which a task trained on one Nori can be transferred to other units, but no marketplace usage or proprietary-data volume is disclosed ([Nori website](https://www.norirobotics.com/), Jul 2026).
+- **Future moat:** [Inferred]: A deployed fleet could accumulate task demonstrations and reusable skills, but this remains unproven because Nori has disclosed neither shipped-unit counts nor marketplace activity.
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** 1X, Weave, and Sunday are building wheeled or humanoid household robots with autonomous manipulation, learned skills, or teleoperation, while Google reported that Gemini Robotics could learn certain new tasks from as few as 100 demonstrations ([1X](https://www.1x.tech/discover/neo-home-robot), Oct 2025; [Weave](https://www.weaverobotics.com/isaac-1), Jul 2026; [Sunday](https://www.sunday.ai/), Jul 2026; [Gemini Robotics paper](https://arxiv.org/abs/2503.20020), Mar 2025).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - X/Twitter @NoriRobotics: 726 followers, following 24, joined June 2026 (x.com/NoriRobotics via search snippet).
-  - Launch teaser Jun 23, 2026: "15.7K views in its first day" (explainx.ai, Jun 2026).
-  - YC official promotion: @ycombinator posted "Small but capable, Nori L2 is coming next week" (x.com/ycombinator/status/2069874722712735880).
-  - Press/blog coverage: Robohub, Digg, Threads, ExplainX, TheresAnAIForThat (Jun–Jul 2026).
-  - Prior product NORI L1 announcement by founder on X (x.com/AntonioSitongLi/status/2046955842121908366).
-  - Pre-orders open with shipping summer 2026 (norirobotics.com); no unit or revenue count disclosed.
-- **Competitors:**
-  - Unitree Robotics (unicorn at $1.3B valuation Jun 2025 led by ByteDance/Alibaba/Tencent, seeking $620M Shanghai STAR listing; revenue unknown publicly, CNBC Jun 2026): sells G1 at ~$16K and R1 at $5,900; differentiator vs. Nori: full bipedal humanoid at 5–12× the price.
-  - 1X Technologies (revenue unknown; NEO consumer pre-orders Oct 2025 at $20K or $499/mo): bipedal humanoid for home; Nori is a wheeled cart-based bimanual at ~1/15 the price.
-  - Figure AI ($675M Series B; $39B post-money Series C Sep 2025 per humanoid roundups): enterprise/industrial bipedal humanoid; Nori targets consumer under $1,500.
-  - Apptronik, Agility Robotics, Tesla Optimus (top-8 humanoid list, EVST 2026): industrial/enterprise bipedal focus; Nori targets consumer home wheeled form factor.
-  - Academic/open-source "Nori Bot" wheeled sub-$1,000 mobile manipulator (arXiv 2605.16537): reference design in same form factor; not commercialized.
-- **Why now:** [Inferred]: 2025–2026 saw a step-change in low-cost mobile manipulator platforms (Unitree R1 at $5,900 Jul 2025, 1X NEO consumer launch Oct 2025), plus VLA/foundation-model adoption cited in the State of Robotics 2026 report (roboticscenter.ai), lowering the training-data cost of teaching household tasks.
+  - The founder said Nori’s first production batch had reached capacity, without disclosing the number of orders or deposits (@AntonioSitongLi, Jul 2026, [via indexed X profile](https://twstalker.com/AntonioSitongLi)).
+  - The founder’s Nori launch post recorded approximately 575 likes, 58 replies, 28 reposts, and 41,000 views (@AntonioSitongLi, Jul 2026, [via indexed X profile](https://twstalker.com/AntonioSitongLi)).
+  - Nori had no active YC job listings ([YC company page](https://www.ycombinator.com/companies/noril1), Jul 2026).
+- **Competitors (minimum 3, up to 5):**
+  - 1X Technologies (at least $123.5M raised, revenue unknown): NEO is a full-height humanoid priced at $20,000 or $499 monthly, compared with Nori’s wheeled $1,288–$1,322 units ([1X](https://www.1x.tech/discover/neo-home-robot), Oct 2025; funding rounds summarized by [1X Technologies](https://en.wikipedia.org/wiki/1X_Technologies)).
+  - Sunday Robotics ($165M Series B disclosed, revenue unknown): Memo is designed to acquire autonomous household skills without in-home human teleoperation, whereas Nori explicitly supports remote operation ([Sunday](https://www.sunday.ai/), Jul 2026; [Series B announcement](https://www.globenewswire.com/news-release/2026/03/12/3254877/0/en/sunday-raises-165m-to-launch-first-autonomous-robots-by-thanksgiving.html), Mar 2026).
+  - Weave Robotics ($0.5M raised, revenue unknown): Isaac 1 costs $7,999 and targets laundry, tidying, and bed-making, while Nori lists two smaller models below $1,400 and a shared skills marketplace ([Sacra](https://sacra.com/c/weave-robotics/), Jul 2026; [Weave](https://www.weaverobotics.com/isaac-1), Jul 2026; [Nori](https://www.norirobotics.com/), Jul 2026).
+- **Why now:** [Inferred]: Robot foundation models lowered task-training requirements during 2025, with Google reporting adaptation to new embodiments and some new tasks from as few as 100 demonstrations, making programmable general-purpose hardware more feasible ([Gemini Robotics paper](https://arxiv.org/abs/2503.20020), Mar 2025).
 
 ## Founders & Team
 
 - **Antonio Sitong Li (Founder):**
-  - Background: BA in Computer Science and Architecture from Columbia University; Research Fellow at Columbia Graphics and UI Lab on VR-demonstrated task goals for robot teams; prior Research Fellow at Columbia Data Science Institute under Prof. Eugene Wu; previously founded "Founders Inc" (anti-interview-cheating software) which reached 1.5M impressions and 2K users (LinkedIn, ResearchGate via search snippets, 2026).
-  - Twitter/X: @AntonioSitongLi (x.com/AntonioSitongLi) — count not retrievable.
-  - LinkedIn: "Columbia University" (linkedin.com/in/antonio-sitong-li via search snippet); full headline not retrievable.
-  - GitHub: No public repos found in search results.
-- Team size is 4 per YC page but only Antonio Sitong Li is listed as founder on the YC company page; no other founders identified in public sources.
-- **Co-founder relationship:** No public data on co-founder history (only one founder listed on YC page).
-- **Founder-market fit:** Founder has documented Columbia robotics research experience (VR-demonstrated task goals for robot teams, Columbia Graphics and UI Lab per ResearchGate) plus a prior consumer-facing software launch reaching 1.5M impressions (LinkedIn snippet); no notable advisors, board members, or investors beyond YC (Gustaf Alstromer, YC S26) found in public sources.
+  - Background: Columbia computer-science and architecture student; research fellow in Columbia’s Graphics and UI Lab on VR-demonstrated goals for robot teams; former Columbia Data Science Institute researcher; and prior founder of anti-interview-cheating software that recorded 1.5 million impressions and 2,000 users ([YC company page](https://www.ycombinator.com/companies/noril1), Jul 2026).
+  - Twitter/X: @AntonioSitongLi, approximately 2.9K followers ([TwitterScore](https://twitterscore.io/twitter/AntonioSitongLi/), Jul 2026).
+  - LinkedIn: “Founder at Nori; Y Combinator” with approximately 4K followers and 500+ connections ([LinkedIn](https://www.linkedin.com/in/antonio-sitong-li), Jul 2026).
+  - GitHub: No public repos found.
+- **Co-founder relationship:** No public data on co-founder history.
+- **Founder-market fit:** Antonio Li has documented research experience involving VR-demonstrated task goals for robot teams, computer science, architecture, and database visualization, while the YC page lists him as Nori’s only active founder ([YC company page](https://www.ycombinator.com/companies/noril1), Jul 2026).
 
 ## Key Risks
 
-- **Technical feasibility risk:** Company promises autonomous dishwashing, laundry folding, coffee-making, and multi-robot bed-making (norirobotics.com; Threads coverage Jun 2026) at $1,288, whereas peer platforms attempting similar tasks (1X NEO, Figure) are priced 12–15× higher; unclear whether the wheeled bimanual BOM at this price can deliver the demoed autonomy. No independent third-party review of on-device autonomy found.
-- **Hardware execution/delivery risk:** Ships summer 2026 per website (Jul 2026), founded 2026 (YC page), team size 4, manufactured in San Francisco — compressed timeline from announcement (Jun 23, 2026) to shipping with no cited manufacturing partners or unit counts.
-- **Competitive substitution from low-cost Chinese OEMs:** Unitree already ships R1 at $5,900 and G1 at $16K (Forbes Apr 2026); further Chinese platforms (AgiBot, UBTECH, Noetix per humanoid roundups 2026) could release a sub-$1,500 wheeled bimanual with greater manufacturing scale.
-- **Solo-founder execution risk:** Only Antonio Sitong Li is listed as founder on the YC page for a team of 4 (ycombinator.com/companies/noril1); no co-founders with distinct hardware, ML, or ops leadership are publicly identified.
-- **Name/prior-product conflation risk:** "NORI L1" was previously marketed at "sub-$1,000" (noril1.com; x.com/AntonioSitongLi/status/2045149378432688308) before the L2 SKU at $1,288 — prior-product user/order counts are not publicly disclosed and should not be conflated with L2 traction.
+- **Delivery and manufacturing risk:** Nori promises two Made-in-San-Francisco robots at $1,288–$1,322 with Summer 2026 shipping, while the founder said the first batch had reached capacity and later orders would ship after production ramped; no delivered-unit count was found ([Nori website](https://www.norirobotics.com/), Jul 2026; @AntonioSitongLi, Jul 2026, [via indexed X profile](https://twstalker.com/AntonioSitongLi)).
+- **Technical reliability risk:** The advertised scope spans dish loading, bed-making, cleaning, food preparation, multi-robot coordination, skill transfer, and remote operation, but Nori publishes no task-success rates, test protocol, payload, runtime, or safety-certification data ([Nori website](https://www.norirobotics.com/), Jul 2026).
+- **Teleoperation privacy risk:** Remote operation permits a third party to see or act through a robot inside a home, while Nori’s public product page does not describe operator access controls, video retention, encryption, or privacy safeguards ([Nori website](https://www.norirobotics.com/), Jul 2026).
+- **Capitalized competition:** Sunday announced a $165 million Series B led by Coatue, and 1X previously disclosed $23.5 million and $100 million rounds, giving competing home-robot programs larger disclosed financing bases ([Sunday announcement](https://www.globenewswire.com/news-release/2026/03/12/3254877/0/en/sunday-raises-165m-to-launch-first-autonomous-robots-by-thanksgiving.html), Mar 2026; [1X funding history](https://en.wikipedia.org/wiki/1X_Technologies)).
+- **Name ambiguity:** YC also lists an unrelated New York health-technology company named Nori from Fall 2025, creating search and brand disambiguation requirements ([YC health-company page](https://www.ycombinator.com/companies/nori), Jul 2026).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Humanoid robot market $5.41B in 2026 → $50.27B by 2035, 28.1% CAGR (MarketsandMarkets, 2026); alt: $8.32B → $39B by 2030, 47.1% CAGR (Research and Markets, 2026) |
+| TAM | $18.1B global personal and household service-robot market in 2025, projected to $90.9B by 2033 at a 22.4% 2026–2033 CAGR (Grand View Research, 2026) |
 | SAM | No public data found |
-| Traction | @NoriRobotics 726 X followers (x.com, Jun 2026); launch teaser 15.7K views day one (explainx.ai, Jun 23, 2026); pre-orders open, shipping summer 2026 (norirobotics.com, Jul 2026); YC official promo tweet (x.com/ycombinator, Jun 2026); press: Robohub, Digg, Threads (Jun–Jul 2026) |
-| Revenue Signal | NORI L2 $1,288, NORI L2 Grande $1,322, pre-orders open (norirobotics.com pricing, Jul 2026); no unit sales disclosed |
-| Founders | Antonio Sitong Li (Founder): Columbia BA CS + Architecture; Columbia Graphics/UI Lab research fellow on VR-taught robot teams; prior founder of Founders Inc (1.5M impressions, 2K users) |
-| Competitors | Unitree Robotics ($1.3B valuation Jun 2025, revenue unknown, bipedal G1 $16K/R1 $5,900 — 5–12× Nori's price); 1X Technologies (funding unknown, revenue unknown, NEO bipedal $20K or $499/mo — ~15× price); Figure AI ($675M Series B, $39B valuation Sep 2025, revenue unknown, enterprise bipedal); Apptronik/Agility Robotics (industrial bipedal); arXiv "Nori Bot" academic sub-$1K wheeled manipulator (non-commercial) |
-| Moat Signals | No public data found (claimed skill-sharing marketplace per norirobotics.com, Jul 2026, but no cited scale) |
-| Risk Factors | Technical feasibility of demoed autonomy at $1,288 price; hardware delivery execution on compressed timeline; substitution by Chinese OEMs (Unitree, AgiBot) |
-| Founder Reach | Antonio Sitong Li: X @AntonioSitongLi (count not retrievable), LinkedIn linkedin.com/in/antonio-sitong-li (count not retrievable), GitHub not found |
-| Distribution Signals | Waitlist/pre-orders at norirobotics.com (Jul 2026); X launch teaser 15.7K views (Jun 23, 2026); YC official tweet (Jun 2026); Robohub, Digg, Threads, ExplainX coverage (Jun–Jul 2026); no Product Hunt launch found |
+| Traction | First production batch reached capacity, order count undisclosed (@AntonioSitongLi via indexed X profile, Jul 2026); launch post received approximately 41K views, 575 likes, 58 replies, and 28 reposts (@AntonioSitongLi via indexed X profile, Jul 2026) |
+| Revenue Signal | L2 pre-order price $1,288; L2 Grande pre-order price $1,322 (Nori website, Jul 2026) |
+| Founders | Antonio Sitong Li (Founder): Columbia computer science and architecture; Columbia robotics and data-visualization research; prior software product reached 1.5M impressions and 2K users (YC company page, Jul 2026) |
+| Competitors | 1X Technologies (at least $123.5M raised, revenue unknown, $20K full-height NEO or $499 monthly); Sunday Robotics ($165M Series B disclosed, revenue unknown, autonomous Memo without in-home teleoperation); Weave Robotics ($0.5M raised, revenue unknown, $7,999 Isaac 1 focused on household chores) (1X, Sunday, Weave and Sacra, 2024–2026) |
+| Moat Signals | Transferable task skills and a shared skills marketplace are advertised, but usage is undisclosed (Nori website, Jul 2026) |
+| Risk Factors | Delivery and manufacturing execution; undisclosed task reliability and safety testing; in-home teleoperation privacy (Nori website, Jul 2026) |
+| Founder Reach | Antonio Sitong Li: approximately 2.9K Twitter/X followers, approximately 4K LinkedIn followers and 500+ connections, GitHub stars not found (TwitterScore and LinkedIn, Jul 2026) |
+| Distribution Signals | Direct pre-orders, company LinkedIn, X, and Discord links; zero YC job listings (Nori website and YC company page, Jul 2026) |
 | Emails | No public data found |
-
-Sources:
-- [Nori YC Company Profile](https://www.ycombinator.com/companies/noril1)
-- [NORI L2 Product Site](https://www.norirobotics.com/)
-- [NORI L1 Site](https://www.noril1.com/)
-- [Nori L2 waitlist coverage](https://explainx.ai/blog/nori-l2-iphone-price-robot-waitlist-2026)
-- [Robohub NORI L2 coverage](https://robohub.org/nori-l2-home-robot-household-tasks-remote-operation-and-skill-marketplace-from-1288/)
-- [Digg — Antonio SitongLi launches Nori L2](https://digg.com/tech/3hvbej1h)
-- [Threads coverage of NORI L2](https://www.threads.com/@kesullkenen/post/DaPluQvjdhI/american-startup-nori-robotics-unveiled-the-two-armed-nori-l-home-robot-priced)
-- [Antonio Sitong Li LinkedIn](https://www.linkedin.com/in/antonio-sitong-li/)
-- [Antonio Sitong Li ResearchGate](https://www.researchgate.net/profile/Antonio-Sitong-Li)
-- [@NoriRobotics on X](https://x.com/NoriRobotics)
-- [@AntonioSitongLi NORI L1 post](https://x.com/AntonioSitongLi/status/2046955842121908366)
-- [YC promo tweet for Nori L2](https://x.com/ycombinator/status/2069874722712735880)
-- [MarketsandMarkets humanoid robot forecast](https://www.marketsandmarkets.com/Market-Reports/humanoid-robot-market-99567653.html)
-- [Research and Markets humanoid robot report](https://www.researchandmarkets.com/reports/5896153/humanoid-robot-market-report)
-- [Forbes: Unitree G1 humanoid](https://www.forbes.com/sites/jonmarkman/2026/04/27/unitree-g1-humanoid-robots-are-reshaping-the-robotics-investment-stack/)
-- [CNBC: Nvidia picks Unitree](https://www.cnbc.com/2026/06/01/nvidia-unitree-humanoid-robotics-system-researchers.html)
-- [Top 8 humanoid robot companies 2026 (EVST)](https://www.evsint.com/top-8-humanoid-robot-companies-2026/)
-- [State of Robotics 2026](https://www.roboticscenter.ai/state-of-robotics-2026)
-- [arXiv: Nori Bot sub-$1000 mobile manipulator](https://arxiv.org/abs/2605.16537)

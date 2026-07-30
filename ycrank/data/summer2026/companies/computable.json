@@ -1,0 +1,83 @@
+{
+  "slug": "computable",
+  "name": "Computable",
+  "oneLiner": "Buy, sell, and redeem GPU hours for any week with instant liquidity",
+  "metadata": {
+    "website": "https://getcomputable.com",
+    "yc_page": "https://www.ycombinator.com/companies/computable",
+    "batch": "Summer 2026",
+    "industry": "Fintech / Fintech",
+    "team_size": "2",
+    "location": "New York City, NY, USA",
+    "tags": "Marketplace, Finance, Cloud Computing, Trading, AI",
+    "yc_partner": "Brad Flora ([Y Combinator](https://www.ycombinator.com/companies/computable), Jul 2026)",
+    "emails": "support@getcomputable.com ([Computable Terms](https://www.getcomputable.com/tos), Jul 2026)"
+  },
+  "tags": [
+    "Marketplace",
+    "Finance",
+    "Cloud Computing",
+    "Trading",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:35:40.591Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 60,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 63,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 43,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 55,
+    "EG": 46,
+    "NR": 60,
+    "PG": 63,
+    "PT": 48,
+    "SL": 56,
+    "VK": 43
+  },
+  "consolidatedAvg": 53,
+  "consolidatedRank": 86,
+  "traction": {
+    "tractionRank": 118,
+    "tractionScore": 31,
+    "tractionReason": "First GPU auction launched; no completed trades"
+  },
+  "paths": {
+    "memo": "summer2026/memos/computable.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/computable.md",
+      "elad-gil": "summer2026/evals/elad-gil/computable.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/computable.md",
+      "paul-graham": "summer2026/evals/paul-graham/computable.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/computable.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/computable.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/computable.md"
+    }
+  }
+}

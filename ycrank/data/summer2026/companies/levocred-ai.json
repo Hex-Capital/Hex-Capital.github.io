@@ -18,52 +18,52 @@
     "Investments"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-06-29T06:03:34.240Z",
+  "memoGeneratedAt": "2026-07-30T17:32:27.232Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 52,
-      "tier": "Neutral"
+      "score": 68,
+      "tier": "Invest"
     },
     "elad-gil": {
-      "score": 47,
-      "tier": "Neutral"
+      "score": 69,
+      "tier": "Invest"
     },
     "naval-ravikant": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 61,
+      "score": 54,
       "tier": "Neutral"
     },
+    "paul-graham": {
+      "score": 82,
+      "tier": "Invest"
+    },
     "peter-thiel": {
-      "score": 30,
-      "tier": "Pass"
+      "score": 53,
+      "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 28,
-      "tier": "Pass"
+      "score": 51,
+      "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 31,
+      "score": 30,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 52,
-    "EG": 47,
-    "NR": 44,
-    "PG": 61,
-    "PT": 30,
-    "SL": 28,
-    "VK": 31
+    "CB": 68,
+    "EG": 69,
+    "NR": 54,
+    "PG": 82,
+    "PT": 53,
+    "SL": 51,
+    "VK": 30
   },
-  "consolidatedAvg": 41.86,
-  "consolidatedRank": 20,
+  "consolidatedAvg": 58.14,
+  "consolidatedRank": 40,
   "traction": {
-    "tractionRank": 10,
-    "tractionScore": 58,
-    "tractionReason": "$500M capital monitored, Pier Asset testimonial"
+    "tractionRank": 25,
+    "tractionScore": 62,
+    "tractionReason": "Paying production customer; $500M monitored"
   },
   "paths": {
     "memo": "summer2026/memos/levocred-ai.md",

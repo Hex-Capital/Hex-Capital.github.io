@@ -1,70 +1,70 @@
 {
   "slug": "conifer",
   "name": "Conifer",
-  "oneLiner": "Local-first least cost routing system to reduce token spend",
+  "oneLiner": "Local-first least cost routing system to reduce 80%+ token spend",
   "metadata": {
     "website": "https://www.conifer.build",
     "yc_page": "https://www.ycombinator.com/companies/conifer",
-    "batch": "Summer 2026 (YC page)",
+    "batch": "Summer 2026",
     "industry": "B2B / B2B",
     "team_size": "3",
-    "location": "Not listed on YC page",
-    "tags": "B2B, Security, AI",
-    "yc_partner": "Gustaf Alstromer (YC page)",
-    "emails": "contact@conifer.build (GitHub org page, ConiferKit)"
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, B2B, Security",
+    "yc_partner": "Gustaf Alstromer",
+    "emails": "contact@conifer.build"
   },
   "tags": [
+    "Artificial Intelligence",
     "B2B",
-    "Security",
-    "AI"
+    "Security"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-09T16:03:48.238Z",
+  "memoGeneratedAt": "2026-07-30T17:25:26.134Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 46,
+      "score": 48,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 51,
+      "score": 54,
       "tier": "Neutral"
     },
+    "naval-ravikant": {
+      "score": 66,
+      "tier": "Invest"
+    },
     "paul-graham": {
-      "score": 57,
+      "score": 58,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 36,
-      "tier": "Pass"
+      "score": 51,
+      "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 23,
+      "score": 44,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 35,
+      "score": 43,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 46,
-    "EG": 36,
-    "NR": 51,
-    "PG": 57,
-    "PT": 36,
-    "SL": 23,
-    "VK": 35
+    "CB": 48,
+    "EG": 54,
+    "NR": 66,
+    "PG": 58,
+    "PT": 51,
+    "SL": 44,
+    "VK": 43
   },
-  "consolidatedAvg": 40.57,
-  "consolidatedRank": 26,
+  "consolidatedAvg": 52,
+  "consolidatedRank": 96,
   "traction": {
-    "tractionRank": 38,
-    "tractionScore": 21,
-    "tractionReason": "303 GitHub stars on Sage repo, 57 org followers"
+    "tractionRank": 113,
+    "tractionScore": 32,
+    "tractionReason": "100-person waitlist and 268 GitHub stars"
   },
   "paths": {
     "memo": "summer2026/memos/conifer.md",

@@ -7,11 +7,11 @@
     "yc_page": "https://www.ycombinator.com/companies/operon",
     "batch": "Summer 2026",
     "industry": "Industrials / Industrials",
-    "team_size": "0 (YC listing); LinkedIn shows ~3 employees",
+    "team_size": "0",
     "location": "San Francisco, CA, USA",
     "tags": "Computer Vision, Manufacturing, Infrastructure",
-    "yc_partner": "Jon Xu",
-    "emails": "anderson@operonsolutions.com (careers page)"
+    "yc_partner": "Not listed",
+    "emails": "anderson@operonsolutions.com"
   },
   "tags": [
     "Computer Vision",
@@ -19,52 +19,52 @@
     "Infrastructure"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-06-29T06:04:04.173Z",
+  "memoGeneratedAt": "2026-07-30T17:33:28.496Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 42,
-      "tier": "Pass"
+      "score": 69,
+      "tier": "Invest"
     },
     "elad-gil": {
-      "score": 32,
-      "tier": "Pass"
+      "score": 56,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 31,
+      "score": 44,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 30,
-      "tier": "Pass"
+      "score": 67,
+      "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 28,
-      "tier": "Pass"
+      "score": 46,
+      "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 29,
-      "tier": "Pass"
+      "score": 48,
+      "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 32,
-      "tier": "Pass"
+      "score": 47,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 42,
-    "EG": 32,
-    "NR": 31,
-    "PG": 30,
-    "PT": 28,
-    "SL": 29,
-    "VK": 32
+    "CB": 69,
+    "EG": 56,
+    "NR": 44,
+    "PG": 67,
+    "PT": 46,
+    "SL": 48,
+    "VK": 47
   },
-  "consolidatedAvg": 32,
-  "consolidatedRank": 74,
+  "consolidatedAvg": 53.86,
+  "consolidatedRank": 79,
   "traction": {
-    "tractionRank": 51,
-    "tractionScore": 12,
-    "tractionReason": "549 LinkedIn followers, 1 open founding role"
+    "tractionRank": 63,
+    "tractionScore": 49,
+    "tractionReason": "10,000+ industrial diagrams processed"
   },
   "paths": {
     "memo": "summer2026/memos/operon.md",

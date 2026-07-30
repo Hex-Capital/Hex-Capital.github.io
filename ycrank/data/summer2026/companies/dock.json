@@ -1,0 +1,80 @@
+{
+  "slug": "dock",
+  "name": "Dock",
+  "oneLiner": "Multiplayer agent workspace that grows your company without growing?",
+  "metadata": {
+    "website": "https://trydock.ai",
+    "yc_page": "https://www.ycombinator.com/companies/dock",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "B2B, AI",
+    "yc_partner": "Brad Flora",
+    "emails": "hello@trydock.ai, security@trydock.ai"
+  },
+  "tags": [
+    "B2B",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:30:31.647Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 69,
+      "tier": "Invest"
+    },
+    "naval-ravikant": {
+      "score": 68,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 62,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 37,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 47,
+    "EG": 69,
+    "NR": 68,
+    "PG": 62,
+    "PT": 42,
+    "SL": 44,
+    "VK": 37
+  },
+  "consolidatedAvg": 52.71,
+  "consolidatedRank": 91,
+  "traction": {
+    "tractionRank": 126,
+    "tractionScore": 28,
+    "tractionReason": "Commercial beta with negligible public repository usage"
+  },
+  "paths": {
+    "memo": "summer2026/memos/dock.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/dock.md",
+      "elad-gil": "summer2026/evals/elad-gil/dock.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/dock.md",
+      "paul-graham": "summer2026/evals/paul-graham/dock.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/dock.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/dock.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/dock.md"
+    }
+  }
+}

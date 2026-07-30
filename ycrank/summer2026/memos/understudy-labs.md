@@ -12,91 +12,73 @@
 | Location | San Francisco, CA, USA |
 | Tags | Artificial Intelligence, Open Source, AI, ML |
 | YC Partner | Tyler Bosmeny |
-| Emails | No public data found |
+| Emails | support@understudylabs.com |
 
 ## The Idea
 
-- **Problem:** Teams running LLM production workflows are locked into expensive closed-model API costs (e.g., Claude Opus at $139.63 for benchmark sentiment analysis workload) and cannot easily migrate to cheaper open-weight models without regression risk (understudylabs.com landing page).
-- **Approach:** Single-install trace capture inside coding agents (Claude Code, Cursor, Codex, OpenCode, Devin), then progressive optimization ladder — prompt tuning → SFT → GRPO — followed by held-out A/B evaluation before deploying a specialist route to Fireworks, Bedrock, Vertex, or custom GPUs (understudylabs.com; GitHub understudylabs/understudy-agent-tools README).
-- **Differentiation:** Vs. LangSmith (closed-source, observability-only) — Understudy is MIT-licensed and covers train-plus-deploy (github.com/understudylabs/understudy-agent-tools); vs. OpenPipe/Predibase — Understudy captures traces locally from inside coding agents rather than via SDK/proxy and defaults to no cloud upload (understudylabs.com landing page).
-- **Business Model:** [Inferred]: Open-source local toolkit as top-of-funnel (MIT license, github.com/understudylabs/understudy-agent-tools) with optional hosted infra for cloud SFT/RL as paid tier — pricing page not published; product in "private preview" (understudylabs.com).
-- **TAM/SAM:** No public TAM/SAM data found for this specific segment; comparable point: Langfuse reports 26M+ SDK installs/month and 2,000+ paying customers in adjacent LLM observability (orrick.com, Jan 2026).
-- **GTM / Distribution:** [Inferred]: Distribution via coding-agent skill library (Claude Code, Cursor, Codex, OpenCode, Hermes, Devin integrations per repo README) and open-source GitHub funnel — no paid marketing signal found.
+- **Problem:** Teams repeatedly using frontier-model APIs face cost or latency pressure but lack a measured process for determining when cheaper open-weight models can replace them without reducing task-specific quality ([Understudy website, Jul 2026](https://understudylabs.com/)).
+- **Approach:** Understudy captures production traces, converts them into evals, optimizes prompts or model weights, tests alternatives against held-out benchmarks, and gradually routes traffic only after the quality bar is met ([Understudy agent tools, Jul 2026](https://github.com/understudylabs/understudy-agent-tools)).
+- **Differentiation:** [Inferred]: Unlike Braintrust’s trace-and-evaluation focus and the hosted training/inference platforms of Fireworks, Baseten, and Together AI, Understudy combines local-first evidence capture, eval construction, optimization, routing, and portable customer-owned weights ([Understudy agent tools, Jul 2026](https://github.com/understudylabs/understudy-agent-tools), [Braintrust, Feb 2026](https://www.braintrust.dev/blog/announcing-series-b), [Baseten, Jun 2026](https://www.baseten.co/blog/announcing-our-series-f/)).
+- **Business Model:** No list pricing is public; paid-service prices, usage limits, and billing terms are set through an order form, invoice, checkout page, or written agreement, while customers pay their upstream model providers separately ([Understudy service terms, May 2026](https://understudylabs.com/terms)).
+- **TAM/SAM:** The global MLOps market was estimated at $2.98 billion in 2025 and projected to reach $89.91 billion by 2034 at a 45.8% CAGR, while no public SAM estimate was found for task-specific open-model replacement ([Fortune Business Insights, Jul 2026](https://www.fortunebusinessinsights.com/mlops-market-108986)).
+- **GTM / Distribution:** Understudy is recruiting production-LLM teams through a private preview, design-partner engagements, demos, and an MIT-licensed toolkit distributed through coding-agent plugins ([Understudy website, Jul 2026](https://understudylabs.com/), [GitHub, Jul 2026](https://github.com/understudylabs/understudy-agent-tools)).
 
 ## Defensibility
 
-- **Moat today:** No defensibility signals found in public sources — repo has 4 stars, 2 forks (github.com/understudylabs/understudy-agent-tools, July 2026).
-- **Future moat:** [Inferred]: Production trace-to-fine-tune feedback loop ("production data feeds back into training and compounds performance," understudylabs.com) could yield proprietary route-optimization heuristics per customer; unproven because no customer deployments are publicly disclosed.
-- **Market structure:** [Inferred]: Closed-model incumbents (OpenAI, Anthropic) have channel conflict — a tool whose explicit purpose is migrating workloads off their APIs to open weights cannibalizes their revenue, so first-party equivalents are unlikely.
-- **Commoditization risk:** OpenPipe, Predibase (acquired by Rubrik, siliconangle.com, June 2025), Langfuse (acquired by ClickHouse, orrick.com, Jan 2026), and Braintrust already ship overlapping trace-capture and fine-tune functionality; the technical components (QLoRA, GRPO) are commodity in 2026 (blog.dailydoseofds.com, 2026).
+- **Moat today:** No defensibility signals found in public sources.
+- **Future moat:** [Inferred]: Customer-specific traces, evals, failure maps, routing rules, and tuned weights could create workflow-level switching costs, although customers own these artifacts and Understudy prohibits cross-customer payload training, limiting a shared-data moat ([Understudy service terms, May 2026](https://understudylabs.com/terms)).
+- **Market structure:** No structural barrier is identified because Baseten, Fireworks, and Together AI already combine post-training with production inference and can extend into trace-driven optimization ([Baseten, Jun 2026](https://www.baseten.co/blog/announcing-our-series-f/), [Fireworks, Jul 2026](https://fireworks.ai/blog/series-d-announcement), [Together AI, Jul 2026](https://www.together.ai/blog/announcing-our-series-c)).
+- **Commoditization risk:** Cloud inference vendors, evaluation platforms, and internal ML teams can assemble overlapping capture, evaluation, fine-tuning, and routing workflows from public models and optimization libraries ([Together AI, Jul 2026](https://www.together.ai/blog/announcing-our-series-c), [Understudy benchmark, Jul 2026](https://understudylabs.com/bench)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - GitHub repo understudylabs/understudy-agent-tools: 4 stars, 2 forks, MIT license (github.com, July 2026)
-  - Understudy Desktop v0.3.2 released July 12, 2026 (github.com/understudylabs/understudy-agent-tools releases)
-  - Product status: "private preview" (understudylabs.com, 2026)
-  - Company-reported benchmark: +13% eval score (0.630 vs 0.557) vs Claude Sonnet 4.6; 5.2x lower latency (369ms vs 1.935s); 50x cost reduction ($2.82 vs $139.63 Opus) — self-reported, workload not third-party audited (understudylabs.com landing page)
-  - No revenue, customer count, press coverage, Product Hunt launch, or funding announcement found in public sources
-- **Competitors:**
-  - OpenPipe ($6.7M seed Mar 2024, revenue unknown, siliconangle.com): SDK/proxy trace capture and hosted fine-tuning; not agent-embedded local-first.
-  - Predibase (~$28M raised pre-acquisition, acquired by Rubrik reportedly $100M+ June 2025, siliconangle.com): declarative fine-tuning platform, now enterprise-owned.
-  - Langfuse ($4M seed, 2,000+ paying customers, acquired by ClickHouse Jan 2026, orrick.com; langfuse.com/blog): open-source observability leader but does not ship fine-tuning/training.
-  - LangSmith (LangChain-owned, revenue unknown): closed-source observability + eval, no self-hosted OSS (openalternative.co, 2026).
-  - Braintrust (revenue unknown, braintrust.dev): eval and prompt iteration, no training/deploy layer.
-- **Why now:** [Inferred]: 2026 threshold-crossing where 8B-parameter open-weight models are fine-tunable on a single 12GB consumer GPU via QLoRA/Unsloth and match GPT-4-class quality on many tasks (blog.dailydoseofds.com; thundercompute.com, July 2026), making migration economically viable for the first time.
+  - Private preview with a small group of design partners ([Understudy website, Jul 2026](https://understudylabs.com/)).
+  - 9 GitHub stars and 5 forks for the public agent-tools repository ([GitHub, Jul 2026](https://github.com/understudylabs/understudy-agent-tools)).
+  - Accepted into Y Combinator Summer 2026 ([YC, Jul 2026](https://www.ycombinator.com/companies/understudy-labs)).
+  - 0 active YC job postings ([YC, Jul 2026](https://www.ycombinator.com/companies/understudy-labs)).
+- **Competitors (minimum 3, up to 5):**
+  - Fireworks AI (more than $1.8 billion raised, more than $1 billion annualized revenue): specializes and serves customer models on its inference platform, while Understudy emphasizes local capture and portable routes ([Fireworks, Jul 2026](https://fireworks.ai/blog/series-d-announcement), [Sacra, Jul 2026](https://sacra.com/c/fireworks-ai/)).
+  - Baseten ($2.085 billion raised, revenue unknown): provides post-training, embedded engineers, and managed inference across cloud, self-hosted, and hybrid deployments ([CB Insights, Jul 2026](https://www.cbinsights.com/company/baseten/financials), [Baseten, Jun 2026](https://www.baseten.co/blog/announcing-our-series-f/)).
+  - Together AI ($1.33 billion raised, revenue unknown): supplies open-model training, evaluation, GPU compute, and production inference rather than an agent-embedded local optimization workflow ([Together AI, Jul 2026](https://www.together.ai/blog/announcing-our-series-c), [funding history, Jul 2026](https://toflow.ai/spotlight/together-ai)).
+  - Braintrust ($124.3 million raised, revenue unknown): concentrates on tracing, evaluation, and production observability rather than training and deploying customer-owned model weights ([CB Insights, Jul 2026](https://www.cbinsights.com/company/braintrust-data/financials), [Braintrust, Feb 2026](https://www.braintrust.dev/blog/announcing-series-b)).
+- **Why now:** [Inferred]: The 2025–2026 arrival of DeepSeek, Qwen, and GPT-OSS models alongside reinforcement-learning and post-training workflows reduced the capability and customization barriers to replacing closed APIs for bounded workloads ([Baseten, Feb 2026](https://www.baseten.co/blog/announcing-baseten-s-300m-series-e/)).
 
 ## Founders & Team
 
 - **Luis Manrique (Co-founder & CEO):**
-  - Background: Santa Clara University, Leavey School of Business (linkedin.com/in/luismanrique); Principal PM at Instacart on Ads and Carrot AI; VP/SVP at VideoAmp (led pivot growing revenue $5M → $50M); employee #2 at Gumloop; joined Google 2013 via Wildfire Interactive acquisition; ten patents in ML/LLM/agent infra (understudylabs.com/team; patents.google.com)
-  - Twitter/X: @lluismanrique (x.com/lluismanrique) — count not retrievable
-  - LinkedIn: "Co-Founder & CEO, Understudy Labs" (linkedin.com/in/luismanrique)
-  - GitHub: @lluisinthedesert (understudylabs.com/team) — no public repos with notable stars found
+  - Background: Studied finance at Santa Clara University and worked at Google, VideoAmp, Instacart, and Gumloop, where he reports closing $1.9 million in ARR and leading GTM, FDE, and data-platform work ([Understudy team, Jul 2026](https://understudylabs.com/team), [LinkedIn, Jul 2026](https://www.linkedin.com/in/luismanrique)).
+  - Twitter/X: @lluismanrique with 497 followers ([TwStalker, Jul 2026](https://w.twstalker.com/lluismanrique)).
+  - LinkedIn: “Understudy Labs (YC S26),” with 5K followers ([LinkedIn, Jul 2026](https://www.linkedin.com/in/luismanrique)).
+  - GitHub: @lluisinthedesert; `moraine` has 0 stars ([GitHub, Jul 2026](https://github.com/lluisinthedesert/moraine)).
 - **Aamir Poonawalla (Co-founder & CTO):**
-  - Background: Georgia Tech MS Computer Science (understudylabs.com/team); 10 years at Instacart as Senior SW Dev Manager leading Ads Serving/Infra and Curbside Pickup ($0 → ~$4B GTV); prior engineering at Pinterest (via URX acquisition), Microsoft (Skype, Yammer); Y Combinator W2012 alum with TapToLearn (understudylabs.com/team)
-  - Twitter/X: @aamirp (twitter.com/aamirp) — count not retrievable
-  - LinkedIn: "Aamir P." (linkedin.com/in/aamir-p-a3575318)
-  - GitHub: @aamir (github.com/aamir) — top repo not enumerated
-- **Co-founder relationship:** Both worked at Instacart — Manrique as Principal PM on Ads/Carrot AI, Poonawalla as Senior SW Dev Manager on Ads Serving/Infra (understudylabs.com/team).
-- **Founder-market fit:** Both founders shipped ML/ads infrastructure at Instacart Ads and Manrique was employee #2 at agent-workflow company Gumloop (understudylabs.com/team; linkedin.com/in/luismanrique), giving direct exposure to both production LLM-agent workloads and cost-sensitive ML serving — the exact stack Understudy targets; Poonawalla is a repeat YC founder (W2012 TapToLearn).
+  - Background: Holds an MS in computer science from Georgia Tech and spent ten years at Instacart building ads-serving, auction, experimentation, and logistics infrastructure after roles at Microsoft and URX ([Understudy team, Jul 2026](https://understudylabs.com/team)).
+  - Twitter/X: No public account found.
+  - LinkedIn: “Understudy Labs,” with 1K followers ([LinkedIn, Jul 2026](https://www.linkedin.com/in/aamir-p-a3575318)).
+  - GitHub: @aamir; `eathquake` has 0 stars and 2 forks ([GitHub, Jul 2026](https://github.com/aamir/eathquake)).
+- **Co-founder relationship:** Manrique described Poonawalla as his longtime partner, and both previously worked at Instacart and co-invented an advertising-campaign pacing patent ([LinkedIn, May 2026](https://www.linkedin.com/pulse/goodbye-gumloop-luis-manrique-4bl4c), [Understudy team, Jul 2026](https://understudylabs.com/team)).
+- **Founder-market fit:** [Inferred]: Manrique’s ML-product and enterprise-GTM work and Poonawalla’s ML-infrastructure and experimentation work map to Understudy’s sales, evaluation, and routing functions, while disclosed backers include Instacart co-founder Max Mullen and Gumloop co-founder Max Brodeur-Urbas ([Understudy team, Jul 2026](https://understudylabs.com/team)).
 
 ## Key Risks
 
-- **Category commoditization by acquired incumbents:** Langfuse (acquired by ClickHouse, orrick.com Jan 2026) and Predibase (acquired by Rubrik, siliconangle.com June 2025) now have distribution and capital to bundle trace-capture-plus-fine-tune into infrastructure suites, compressing standalone-tool pricing; no mitigation disclosed.
-- **Open-source traction not yet demonstrated:** Public repo has 4 stars and 2 forks (github.com/understudylabs/understudy-agent-tools, July 2026) — for reference, Langfuse's OSS-led GTM produced 2,000+ paying customers (orrick.com), so the funnel Understudy relies on has not yet materialized.
-- **Self-reported benchmarks not independently verified:** All performance claims (13% eval delta vs Sonnet, 50x Opus cost reduction) come from the company's own landing page (understudylabs.com) with undisclosed workload, dataset, and methodology — buyer procurement will require third-party or held-out validation.
-- **Closed-model provider countermove:** OpenAI and Anthropic ship first-party distillation, fine-tuning, and cheaper tiers (industry-general, 2026); [Inferred]: if frontier providers keep dropping token prices, the "50x cost reduction" wedge narrows.
-- **Two-person team executing across capture + eval + training + serving:** Team size 2 (ycombinator.com/companies/understudy-labs) covering trace SDK, eval harness, SFT/GRPO training, and multi-cloud serving (Fireworks, Bedrock, Vertex per understudylabs.com) — surface area vs. staffing is wide.
+- **Platform competition:** Fireworks, Baseten, and Together AI offer overlapping post-training and inference products and have collectively disclosed billions of dollars in funding, giving them resources to add trace-driven replacement workflows ([Fireworks, Jul 2026](https://fireworks.ai/blog/series-d-announcement), [Baseten, Jun 2026](https://www.baseten.co/blog/announcing-our-series-f/), [Together AI, Jul 2026](https://www.together.ai/blog/announcing-our-series-c)).
+- **Workload boundary:** Understudy targets repeated, bounded work with measurable outcomes and advises retaining frontier models where premium capability changes the result, constraining applicability to workloads with usable eval criteria ([Understudy website, Jul 2026](https://understudylabs.com/)).
+- **Benchmark generalization:** Published comparisons use task-specific slices with ten-run samples and report that generic adapters did not transfer cleanly; Understudy mitigates this through held-out tests, variance reporting, and task-local optimization ([Understudy benchmark, Jul 2026](https://understudylabs.com/bench)).
+- **Early-access reliability:** The service has no SLA and does not guarantee uninterrupted operation, provider compatibility, output accuracy, or model quality; local tools and customer-selected serving providers reduce dependence on the hosted service ([Understudy service terms, May 2026](https://understudylabs.com/terms)).
+- **Name collision:** An unrelated open-source desktop-agent project also uses the name “Understudy,” creating potential search and developer-discovery confusion ([unrelated Understudy repository, Mar 2026](https://github.com/understudy-ai/understudy)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | No public data found |
+| TAM | $2.98B global MLOps market in 2025, projected to $89.91B by 2034 at 45.8% CAGR (Fortune Business Insights, Jul 2026) |
 | SAM | No public data found |
-| Traction | GitHub repo 4 stars, 2 forks (github.com/understudylabs/understudy-agent-tools, July 2026); Understudy Desktop v0.3.2 released 2026-07-12 (GitHub releases); private preview status (understudylabs.com, 2026) |
-| Revenue Signal | No public data found (product in private preview, no pricing page, understudylabs.com) |
-| Founders | Luis Manrique (CEO): Principal PM Instacart Ads/Carrot AI, VP VideoAmp ($5M→$50M pivot), employee #2 Gumloop, 10 patents (understudylabs.com/team). Aamir Poonawalla (CTO): 10yrs Instacart Sr SW Dev Mgr Ads Infra, Curbside Pickup $0→$4B GTV, YC W2012 alum TapToLearn, Georgia Tech MS CS (understudylabs.com/team). |
-| Competitors | OpenPipe ($6.7M seed Mar 2024, revenue unknown, SDK/proxy fine-tuning, siliconangle.com); Predibase ($28M raised, acquired by Rubrik ~$100M+ June 2025, declarative fine-tuning, siliconangle.com); Langfuse ($4M seed, 2,000+ paying customers, acquired by ClickHouse Jan 2026, OSS observability only, orrick.com); LangSmith (LangChain, revenue unknown, closed-source observability, openalternative.co); Braintrust (revenue unknown, eval/prompt iteration, braintrust.dev) |
+| Traction | Private preview with a small group of design partners (Understudy website, Jul 2026); YC Summer 2026 company (YC, Jul 2026); 9 GitHub stars and 5 forks (GitHub, Jul 2026) |
+| Revenue Signal | No public data found |
+| Founders | Luis Manrique (CEO): Google, VideoAmp, Instacart, Gumloop and ten AI/ML patents; Aamir Poonawalla (CTO): Georgia Tech MS, ten years at Instacart, prior YC founder (Understudy team, Jul 2026) |
+| Competitors | Fireworks AI (more than $1.8B raised, more than $1B annualized revenue, managed specialization/inference); Baseten ($2.085B raised, revenue unknown, post-training and inference); Together AI ($1.33B raised, revenue unknown, open-model cloud); Braintrust ($124.3M raised, revenue unknown, observability/evals) (company announcements and CB Insights, Jul 2026) |
 | Moat Signals | No public data found |
-| Risk Factors | OSS funnel not yet materialized (4 GitHub stars), self-reported benchmarks unverified, incumbents (Langfuse/Predibase) now capitalized via ClickHouse/Rubrik acquisitions |
-| Founder Reach | Luis Manrique: Twitter @lluismanrique (count not retrievable), LinkedIn linkedin.com/in/luismanrique, GitHub @lluisinthedesert. Aamir Poonawalla: Twitter @aamirp (count not retrievable), LinkedIn linkedin.com/in/aamir-p-a3575318, GitHub @aamir |
-| Distribution Signals | Skill library integrated with Claude Code, Cursor, Codex, OpenCode, Hermes Agent, Devin (github.com/understudylabs/understudy-agent-tools README, 2026); no Product Hunt launch found |
-| Emails | No public data found |
-
-Sources:
-- [Understudy Labs website](https://understudylabs.com/)
-- [Understudy Labs team page](https://understudylabs.com/team)
-- [YC company page](https://www.ycombinator.com/companies/understudy-labs)
-- [understudy-agent-tools GitHub](https://github.com/understudylabs/understudy-agent-tools)
-- [Luis Manrique LinkedIn](https://www.linkedin.com/in/luismanrique/)
-- [Luis Manrique X](https://x.com/lluismanrique)
-- [Aamir Poonawalla LinkedIn](https://www.linkedin.com/in/aamir-p-a3575318/)
-- [OpenPipe seed round – SiliconANGLE](https://siliconangle.com/2024/03/26/openpipe-raises-6-7m-help-developers-fine-tune-lightweight-powerful-llms/)
-- [Rubrik acquires Predibase – SiliconANGLE](https://siliconangle.com/2025/06/25/rubrik-acquires-llm-tooling-startup-predibase-reported-100m/)
-- [Langfuse seed round](https://langfuse.com/blog/announcing-our-seed-round)
-- [ClickHouse acquires Langfuse – Orrick](https://www.orrick.com/en/News/2026/01/Open-source-LLM-Observability-Langfuse-Acquired-by-ClickHouse-Inc)
-- [LangSmith alternatives 2026 – OpenAlternative](https://openalternative.co/alternatives/langsmith)
-- [Fine-Tuning LLMs in 2026 – Daily Dose of DS](https://blog.dailydoseofds.com/p/how-to-fine-tune-llms-in-2026)
-- [Best open-source LLMs July 2026 – Thunder Compute](https://www.thundercompute.com/blog/best-open-source-llms)
+| Risk Factors | Platform competition, workload-bound applicability, benchmark transferability, early-access reliability, name collision (Understudy and competitor sources, Jul 2026) |
+| Founder Reach | Luis Manrique: Twitter 497, LinkedIn 5K, GitHub 0 stars; Aamir Poonawalla: no public Twitter account found, LinkedIn 1K, GitHub 0 stars (TwStalker, LinkedIn, GitHub, Jul 2026) |
+| Distribution Signals | 9 GitHub stars and 5 forks; 0 YC job postings; private-preview demo and design-partner intake (GitHub, YC, Understudy website, Jul 2026) |
+| Emails | support@understudylabs.com (Understudy service terms, May 2026) |

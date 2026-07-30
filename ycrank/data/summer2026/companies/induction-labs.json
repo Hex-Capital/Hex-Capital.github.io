@@ -1,0 +1,81 @@
+{
+  "slug": "induction-labs",
+  "name": "Induction Labs",
+  "oneLiner": "Building intellectually curious AI",
+  "metadata": {
+    "website": "https://inductionlabs.com",
+    "yc_page": "https://www.ycombinator.com/companies/induction-labs",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Deep Learning, Hard Tech, AI",
+    "yc_partner": "Harj Taggar ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/induction-labs))",
+    "emails": "team@inductionlabs.com, contact@inductionlabs.com, hiring@inductionlabs.com ([company website, Jul 2026](https://www.inductionlabs.com/); [Axiom-1 announcement, Aug 2025](https://inductionlabs.com/news/axiom-1))"
+  },
+  "tags": [
+    "Deep Learning",
+    "Hard Tech",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T18:19:04.368Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 62,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 67,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 72,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 76,
+      "tier": "Invest"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 62,
+    "EG": 51,
+    "NR": 67,
+    "PG": 72,
+    "PT": 59,
+    "SL": 35,
+    "VK": 76
+  },
+  "consolidatedAvg": 60.29,
+  "consolidatedRank": 19,
+  "traction": {
+    "tractionRank": 116,
+    "tractionScore": 31,
+    "tractionReason": "Model launched; no commercial usage disclosed"
+  },
+  "paths": {
+    "memo": "summer2026/memos/induction-labs.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/induction-labs.md",
+      "elad-gil": "summer2026/evals/elad-gil/induction-labs.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/induction-labs.md",
+      "paul-graham": "summer2026/evals/paul-graham/induction-labs.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/induction-labs.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/induction-labs.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/induction-labs.md"
+    }
+  }
+}

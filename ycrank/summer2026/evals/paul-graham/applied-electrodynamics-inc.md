@@ -1,0 +1,30 @@
+﻿# Applied Electrodynamics, Inc. -- Paul Graham Evaluation
+
+FCC coordination and a radio system that must reconstruct concealed objects to 1 mm make **Applied Electrodynamics, Inc.** a schlep-heavy company whose founders have not shown that the idea arose from their own pain. That pairing is the analytical signature. **Applied Electrodynamics, Inc.** has chosen work most hackers unconsciously avoid—antennas, materials, regulation, job sites—but the dossier never says Bilgehan Avser or another founder personally suffered construction rework. It looks technically organic, but not yet personally organic.
+
+**Coinbase** (2012) is the high rung for schlep blindness: compliance was not incidental to the product; enduring it was the advantage. **Applied Electrodynamics, Inc.** has a comparable knot of unpleasant work in material-dependent radio propagation, FCC §§15.509–15.510 classification, hardware manufacturing, and fragmented construction procurement. The analogy diverges because Coinbase had Brian Armstrong’s working wallet and a commitment to the regulatory grind, while **Applied Electrodynamics, Inc.** has not disclosed a construction deployment, an FCC classification outcome, or independently verified its across-room 1-mm claim. Applied Electrodynamics is standing at the entrance to the schlep. It has not yet proved it will walk through it.
+
+**Kiko** (2005) exposed what happens when technically capable founders build a plausible product without a sufficiently strong fact pulling it out of their own lives: the artifact can be real while the need remains soft. **Applied Electrodynamics, Inc.** is not quite in that position—Avser spent years on UWB and mmWave antennas, Huppi built sensing hardware, and McLean worked on X-ray imagers—but none of those facts says the founders repeatedly drilled into hidden pipes or paid construction rework bills. **Applied Electrodynamics, Inc.** receives more credit than a market-analysis invention because the enabling technology is native to the founders. It receives much less than Dropbox, where Drew Houston was the user before he was the founder.
+
+WaveSight’s completed radio hardware and imaging algorithms are the beginning of the animal test, not the end. Over the next 18 months, resourcefulness will compound only if **Applied Electrodynamics, Inc.** turns conference curiosity into ugly fieldwork: scanning active sites, opening walls to check results, repairing calibration failures, and persuading contractors to use an unfinished device. Hundreds of Nashville Build Expo conversations and an open preorder form are weak tracks; no count, revenue, or repeat usage is disclosed. **Applied Electrodynamics, Inc.** has shipped a difficult artifact before funding, which matters, but there is no cereal-box moment yet.
+
+**Stripe** (2010) is the useful hacker parallel because the Collisons’ advantage was not a GitHub popularity contest; it was the ability to make a technically hostile system feel simple. Avser’s 35-plus patents, Huppi’s work on the first Nest thermostat and early iPhone multitouch, Leutheuser’s shipped iPhone hardware, and McLean’s X-ray-imaging experience give **Applied Electrodynamics, Inc.** unusually deep artifact genealogy. **Applied Electrodynamics, Inc.** lacks Stripe’s public hacker trail—Avser’s visible GitHub repository has zero stars—but shipping antennas, sensors, enclosures, and imaging systems at Apple and Nest is stronger evidence than a decorative open-source profile.
+
+Four founders with an eight-plus-year shared history at Humane put **Applied Electrodynamics, Inc.** outside my preferred pair-or-trio configuration but far from the dangerous version of a four-founder startup assembled for an application. The score would flip downward if the four roles overlapped or if the fifth employee concealed unclear ownership; it would flip upward if the founders showed a history of building side projects together before Humane. **Applied Electrodynamics, Inc.** already has complementary coverage across electromagnetics, sensing, mechanical design, and imaging physics. Four is slightly too many, but eight years is long enough to know who finishes things.
+
+Qorvo’s 2025 integrated UWB chip and the public-safety restriction on through-wall imaging point to a specific 36-month outcome: by July 2029, **Applied Electrodynamics, Inc.** will have shifted its primary focus from general construction imaging to defense or public-safety inspection and reached $1 million–$3 million in annual contracted revenue. **Applied Electrodynamics, Inc.** will make that shift because its strongest asset is willingness to absorb technical and regulatory schleps, while its weakest is an organic attachment to the initial construction user. Founders without personal allegiance to the first workflow follow the application where their machine performs best.
+
+Vayyar’s $199.95 Walabot is the bear case that stings: **Applied Electrodynamics, Inc.** may be an accomplished hardware group mistaking a laboratory improvement for a startup, while cheap UWB components erase the component advantage and unassigned patents erase the paper moat. No disclosed preorder count, no revenue, and no independent validation make that entirely possible. **Applied Electrodynamics, Inc.** nevertheless has four people who repeatedly shipped difficult physical products, not a managerial group planning to hire the builders later; that is the evidence that wins narrowly. I would invest, but I would flip to Pass if an independent test across representative concrete, drywall, and utility configurations showed WaveSight cannot materially outperform Walabot in detection range and actionable accuracy.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Demonstrates Animal Resourcefulness Pre-Funding | 24/35 |
+| Idea Is Organic to Founders' Own Pain | 12/25 |
+| Problem Sits in a Schlep Zone Mainstream Founders Avoid | 15/15 |
+| Hacker Genealogy in the Founder Team | 14/15 |
+| Co-founder Configuration Is a Strong Pair or Trio, Not Solo | 8/10 |
+| **Total** | **73/100** |
+
+**Total Score: 73/100** (Invest)

@@ -1,7 +1,7 @@
 {
   "slug": "osmaura",
   "name": "Osmaura",
-  "oneLiner": "We find new matter opportunities for law firms.",
+  "oneLiner": "AI growth engine for law firms.",
   "metadata": {
     "website": "https://osmaura.com",
     "yc_page": "https://www.ycombinator.com/companies/osmaura",
@@ -11,7 +11,7 @@
     "location": "San Francisco, CA, USA",
     "tags": "Sales Enablement, LegalTech, AI",
     "yc_partner": "Jon Xu",
-    "emails": "founders@osmaura.com"
+    "emails": "founders@osmaura.com, kali@osmaura.com, jity@osmaura.com"
   },
   "tags": [
     "Sales Enablement",
@@ -19,52 +19,52 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-06-29T06:11:08.885Z",
+  "memoGeneratedAt": "2026-07-30T18:06:51.069Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 33,
+      "score": 39,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 36,
-      "tier": "Pass"
+      "score": 52,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 34,
+      "score": 38,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 41,
-      "tier": "Pass"
+      "score": 52,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 27,
+      "score": 39,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 27,
+      "score": 39,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 27,
+      "score": 32,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 33,
-    "EG": 36,
-    "NR": 34,
-    "PG": 41,
-    "PT": 27,
-    "SL": 27,
-    "VK": 27
+    "CB": 39,
+    "EG": 52,
+    "NR": 38,
+    "PG": 52,
+    "PT": 39,
+    "SL": 39,
+    "VK": 32
   },
-  "consolidatedAvg": 32.14,
-  "consolidatedRank": 73,
+  "consolidatedAvg": 41.57,
+  "consolidatedRank": 156,
   "traction": {
-    "tractionRank": 42,
-    "tractionScore": 17,
-    "tractionReason": "100+ partner customer-discovery interviews only"
+    "tractionRank": 64,
+    "tractionScore": 49,
+    "tractionReason": "Customers reportedly use platform daily"
   },
   "paths": {
     "memo": "summer2026/memos/osmaura.md",

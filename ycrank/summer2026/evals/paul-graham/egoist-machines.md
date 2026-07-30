@@ -1,0 +1,30 @@
+﻿# Egoist Machines -- Paul Graham Evaluation
+
+David Khachaturov’s BetterJoy repository has 4,700 GitHub stars, while the dossier never says either founder built AI Passport to solve a recurring personal problem. That makes Egoist Machines a hacker-rich, pain-poor startup. Egoist Machines has more evidence that its founders can build difficult software than that they urgently wanted this particular artifact themselves. That pairing usually produces technically impressive infrastructure before it produces something people want.
+
+**Stripe** is the high rung for hacker genealogy: the Collisons had already built Auctomatic, hacked on commerce, and accumulated technical credibility before they simplified payments. Khachaturov gives Egoist Machines a real version of that signal through a Cambridge computer-science PhD, OpenAI PaperBench work, BetterJoy’s 4,700 stars, and LodeDB’s 178 commits. The divergence is that Stripe’s artifact was already attached to the founders’ own commerce problem. Egoist Machines has only 89 stars on adjacent LodeDB and no published AI Passport usage. The hacker trail is convincing; the product trail is not yet equally convincing.
+
+**Loopt** is the low rung on organic founder pain: force of personality overrode weak evidence that the product’s timing and use were rooted in an urgent founder need. Egoist Machines shows the same gap without Sam Altman’s demonstrated animal intensity. McGurk has privacy research interests, Khachaturov has AI-security experience, and both are intellectually adjacent to portable memory. But the dossier never says McGurk became frustrated repeating context across assistants or that Khachaturov built Passport for his own workflow. Egoist Machines may be an idea the founders believe ought to exist rather than one they could not stop themselves from building. Those are not the same.
+
+Erin McGurk’s audience exceeds 1 million followers, and Khachaturov shipped a 4,700-star open-source project before Egoist Machines. Over the next 18 months, resourcefulness compounds only if Egoist Machines converts those assets into acts that leave tracks: recruiting developers personally, manually importing users’ memories, or persuading early adopters to entrust sensitive data before the integrations are convenient. A waitlist, four regional or business press mentions, and 268 LinkedIn followers are distribution inputs, not animal behavior. Egoist Machines has shipped code and assembled an unusual audience, but there is no cereal-box moment, no rejected-then-rebuilt wallet, and no revenue stunt.
+
+Egoist Machines’ privacy policy contemplates health, calendar, identity, and preference data while admitting absolute security cannot be guaranteed. That is a genuine schlep zone: consent receipts, revocation, scoped access, integration maintenance, and compliance work will repel founders who merely want to wrap a model API. Egoist Machines would move up a full tier on this dimension if named developers were using its permission interface in production and the founders were personally grinding through security reviews. It would move down if the claimed 800-plus connector sources prove to be generic data connectors rather than maintained Passport integrations. The unpleasant work could become the asset, as it did for Coinbase, but Egoist Machines has so far described the schlep more clearly than it has performed it.
+
+McGurk and Khachaturov met at Cambridge through Caledonian dancing, giving Egoist Machines a real two-founder configuration with technical and distribution coverage. **Stripe** is the useful single-anchor parallel here: two founders with complementary ability and a relationship predating the current product can move faster than a collection of hired specialists. Egoist Machines has the right number of founders, but the dossier does not establish that McGurk and Khachaturov built together for years or survived an earlier failure together. Meeting socially before founding is better than startup speed-dating; it is weaker than a long record of shared hacks.
+
+Mem0 has raised $24 million around developer memory infrastructure, while Egoist Machines offers consumers a free-for-life Passport without published developer pricing. My 36-month prediction is that by July 2029 Egoist Machines will have deemphasized the consumer Passport and become B2B consent, audit, and portable-context infrastructure for AI applications, reaching roughly $1 million to $3 million in annual recurring revenue. Egoist Machines has the hacker capacity and appetite for privacy schleps to build that product, but the missing founder-owned consumer pain will pull Egoist Machines toward the developer workflow where Khachaturov’s technical lineage is most useful.
+
+Mem0’s $24 million war chest and OpenAI’s and Google’s native memories make the bear case sting: Egoist Machines could become a technically elegant layer that neither incumbents nor application developers want to depend upon. McGurk’s 1-million-plus audience may nevertheless be an Airbnb-like exception signal—an unconventional distribution stunt hiding in plain sight—and a consumer-owned passport could look dumb precisely because every incumbent prefers captivity. The dossier still gives Egoist Machines no active Passport users, named integrations, revenue, or evidence that McGurk’s audience trusts Egoist Machines with sensitive context. I would invest, but not strongly. Ten production applications collectively bringing 25,000 monthly active Passport users within twelve months would verify the exception and flip me to Strong Invest.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Demonstrates Animal Resourcefulness Pre-Funding | 23/35 |
+| Idea Is Organic to Founders' Own Pain | 10/25 |
+| Problem Sits in a Schlep Zone Mainstream Founders Avoid | 12/15 |
+| Hacker Genealogy in the Founder Team | 14/15 |
+| Co-founder Configuration Is a Strong Pair or Trio, Not Solo | 7/10 |
+| **Total** | **66/100** |
+
+**Total Score: 66/100** (Invest)

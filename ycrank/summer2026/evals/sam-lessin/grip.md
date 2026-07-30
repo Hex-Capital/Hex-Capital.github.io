@@ -1,0 +1,30 @@
+﻿# Grip -- Sam Lessin Evaluation
+
+Jonas Gruetter’s 70% boulder-removal result on a 12-ton excavator makes **Grip** a founder-conviction bet with almost no founder-distribution asset: the robotics obsession predates the pitch, while **Grip** has one LinkedIn launch post, no public founder Twitter, and no visible community. That pairing defines the bet. Grip looks like an unsexy execution machine built by someone who may endure Type 2 fun, but the cap table currently contains technical credibility rather than owned demand.
+
+**Drop.io** is the high rung for asymmetric conviction: I kept building a file-sharing primitive against free incumbents because the operating belief existed before anyone cared about the deck. Gruetter has the comparable raw material—ETH Zürich, Gravis Robotics, the Robotic Systems Lab, and reinforcement-learning work on irregular-object manipulation—so **Grip** is not an opportunistic “AI for waste” wrapper. The divergence is duration and articulation: **Grip** was founded in 2026, Gruetter has published no opinionated category writing, and the dossier provides no evidence that wet-organics sorting has consumed three years of his life. Grip sits below Drop.io but above the merely credentialed robotics founder.
+
+**Fin** is the low rung for founder-owned distribution: an impressive Wizard-of-Oz operation can still lack a customer channel that compounds, leaving every new account dependent on fresh operational effort and eventually forcing a pivot. That pattern is visible in **Grip**—1,110 LinkedIn followers belong to Gruetter, but Grip has no newsletter, operator community, repeat-user network, or organic acquisition loop. Founder-led outreach to composting and biogas facilities is appropriate at pre-seed, yet **Grip** must win every facility through a bespoke industrial sale. The founder is credible; the founder is not presently a distribution asset.
+
+The **$962.3 million** waste-sorting-equipment market is boring enough to be attractive, but non-consensus categories do not automatically produce non-consensus securities. Over the next 18 months, **Grip** could turn wet waste into a proprietary data niche while Recycleye, EverestLabs, and ZenRobotics remain concentrated on drier streams; that would make Grip more legible to later industrial buyers. Yet no round size, valuation, visible investor pass, or pricing discount is disclosed, so the value-seed test has no answer—no evidence, applying the absent-evidence default. Grip earns some credit for avoiding the generic AI-agent regatta, not for proving that its SAFE is mispriced.
+
+**Recycleye’s $24.6 million** of disclosed financing shows the capital trap hiding inside apparently elegant recycling automation. The capital-structure score flips upward if **Grip** can finance robots through equipment leases, charge recurring service fees, and recover deployed hardware cost inside roughly 18 months; it flips downward if Grip must manufacture a fleet on venture equity before validating uptime. No pricing, gross-margin, installation, or financing evidence resolves that counterfactual. Custom hardware plus facility-specific integration can become founder drainage very quickly, so **Grip** is not yet venture-shaped merely because the engineering is difficult.
+
+**Teamshares** is the useful single-anchor parallel: an operationally ugly asset can be investible precisely because software-trained funds dislike underwriting the real-world machinery. **Grip** shares that illegibility—wet compost, custom end effectors, contamination tolerance, and direct operator sales are not a hot SaaS template. Grip nevertheless lacks Teamshares’ structural innovation and misses my revealed Wizard-of-Oz pattern: no manual sorting operation, paid pilot, or six-month facility workflow is documented. “Physical AI” helps **Grip** only when the physical operation produces economic data before the automation story consumes the round.
+
+Gruetter’s **70% field-test success** on a 12-ton excavator supports a falsifiable 36-month forecast: by July 2029, **Grip** will operate five to fifteen paid wet-organics sorting lines producing $1 million to $3 million of annualized revenue, but Grip will still require equipment financing and will not yet be default-alive. The mechanism is founder conviction outrunning distribution—Gruetter can probably make the machine work, while slow facility sales, custom installations, and maintenance constrain fleet compounding. Grip becomes a credible niche industrial supplier before becoming a venture-scale platform.
+
+**Ro** is the strongest objection because regulatory complexity and capital intensity became the moat rather than the failure mode. The bull case says **Grip** has found an analogous venture moment: EU contamination rules create urgency, incumbents emphasize dry waste, and Gruetter’s heavy-machinery research is unusually relevant to the multimodal grasping problem. Grip could own the wet-waste dataset before Terex notices the niche. The objection stings, but Ro had a regulatory rail that rewarded scale; **Grip** currently has an inferred policy tailwind, no deployment, no performance disclosure, and no evidence that wet-feedstock variation produces a defensible platform instead of perpetual integration work. Robinhood’s entry-price exception and Pinterest’s network-sourcing exception do not rescue unknown terms. I would flip to Invest if Grip documents three paid facilities with at least 90% uptime and hardware payback below 18 months on a lease or recurring-service structure.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Round Is Mis-Priced or Non-Consensus, Not the Hot YC Deck | 10/30 |
+| Capital Structure Is Venture-Shaped, Not Founder-Drainage | 9/22 |
+| Founder Has Asymmetric Conviction Visible Pre-Pitch | 15/20 |
+| Founder-as-Brand or Owned Community Is on the Cap Table | 5/15 |
+| Category Lives in a Sleeve You're Already Convicted On | 8/13 |
+| **Total** | **47/100** |
+
+**Total Score: 47/100** (Neutral)

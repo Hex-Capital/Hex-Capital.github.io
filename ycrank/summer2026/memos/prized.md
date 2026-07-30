@@ -1,100 +1,83 @@
 ﻿# Prized
 
-> Internal tools, built by the people who use them.
+> Lovable for internal tools
 
 | Field | Value |
 |-------|-------|
 | Website | https://prized.dev |
 | YC Page | https://www.ycombinator.com/companies/prized |
-| Batch | Summer 2026 (YC page) |
+| Batch | Summer 2026 |
 | Industry | B2B / B2B -> Engineering, Product and Design |
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
 | Tags | Developer Tools, SaaS, Productivity |
-| YC Partner | Ankit Gupta (YC page) |
-| Emails | No public data found |
+| YC Partner | Ankit Gupta |
+| Emails | founders@prized.dev, privacy@prized.dev, legal@prized.dev |
 
 ## The Idea
 
-- **Problem:** Non-engineers (ops, sales, CS) need internal tools but are blocked by engineering bandwidth and increasingly paste company data into Claude Code/Cursor without permission or governance controls (YC description).
-- **Approach:** Plain-English prompts generate tools on top of approved connectors to 15+ systems (Salesforce, Snowflake, Postgres, Slack, HubSpot, Google Sheets), with each tool scoped to explicitly granted tables and workspace-scoped credentials enforcing a governed boundary (prized.dev).
-- **Differentiation:** vs. Retool — natural-language tool creation aimed at non-engineers rather than developer IDE (Retool product docs); vs. Superblocks — Superblocks raised $23M Series A extension in May 2025 explicitly positioning around "vibe coding" security (SiliconANGLE, May 2025), overlapping with Prized's governance pitch; vs. Refine/Vybe/Softr — same AI-prompt-to-app pattern (Vybe blog, 2026 listing).
-- **Business Model:** No pricing page disclosed; site shows "Schedule a call" and "/sign-in" CTAs only (prized.dev). [Inferred]: Per-seat or per-workspace SaaS with sales-led motion, given enterprise-style governance/audit features and call-booking CTA.
-- **TAM/SAM:** Low-code/no-code market projected to reach $52.3B by 2026 (Vybe blog citing industry forecast, 2026); no segment-specific SAM for AI-governed internal tools found.
-- **GTM / Distribution:** [Inferred]: Founder-led outbound and sales-led ("Schedule a call" CTA on every section of prized.dev); no Product Hunt launch, press, or community presence found in searches.
+- **Problem:** Ops, support, finance, and RevOps employees wait for engineering, use spreadsheets, or connect Claude Code and Cursor directly to company data without permissions or audit trails ([YC company page](https://www.ycombinator.com/companies/prized), Jul 2026).
+- **Approach:** Users describe a tool in natural language or bring a coding agent into a sandbox where company data is pre-connected, access is scoped, activity is audited, and deployment sits behind company sign-in ([YC launch](https://www.ycombinator.com/companies/prized), Jul 2026).
+- **Differentiation:** Retool and Superblocks also generate governed internal apps from natural language, Appsmith is open-source and developer-oriented, and Lovable is general-purpose, while Prized specifies per-tool database roles, secret brokering, outbound-call controls, and bring-your-own-agent support ([Retool](https://www.producthunt.com/products/retool), Jul 2026; [Superblocks](https://www.businesswire.com/news/home/20250520713435/en/Superblocks-Raises-%2423M-to-Securely-Generate-Enterprise-Apps-in-the-Era-of-AI-Vibe-Coding), May 2025; [Appsmith](https://www.businesswire.com/news/home/20220622005219/en/Appsmith-Raises-%2441-Million-to-Scale-Open-Source-Platform-that-Speeds-Critical-Internal-App-Development), Jun 2022; [Prized YC page](https://www.ycombinator.com/companies/prized), Jul 2026).
+- **Business Model:** [Inferred]: Workspace SaaS with organization- or usage-based pricing is the likely path because access is workspace-scoped and the site offers sign-in and booked calls, but no public pricing is displayed ([Prized website](https://prized.dev/), Jul 2026; [terms](https://app.prized.dev/legal/terms), Apr 2026).
+- **TAM/SAM:** The global low-code-development-technologies market is projected to reach $58.2B by 2029 at a 14.1% CAGR, while enterprise low-code application platforms were projected to reach $16.5B by 2027 at a 16.3% CAGR ([Gartner](https://www.gartner.com/en/documents/7146430), Nov 2025; [Gartner](https://www.gartner.com/en/documents/5459763), 2024).
+- **GTM / Distribution:** Prized combines self-service sign-in, scheduled demonstrations, founder email outreach, and YC launch distribution ([Prized website](https://prized.dev/), Jul 2026; [YC company page](https://www.ycombinator.com/companies/prized), Jul 2026).
 
 ## Defensibility
 
-- **Moat today:** No defensibility signals found in public sources beyond product-level governance features (workspace-scoped credentials, controlled outbound layer, audit logs) described on prized.dev.
-- **Future moat:** [Inferred]: Library of forked/governed tools per company could create switching costs as employees build a shared catalog (described on prized.dev as "library of governed tools it actually owns"), unproven absent customer count data.
-- **Market structure:** [Inferred]: Retool's developer-first IDE positioning and per-developer pricing model could conflict with a non-engineer-first land motion, but Retool launched AppGen (April 2025) and Agents (May 2025) directly into AI-generation territory (Sacra, Oct 2025), weakening this structural barrier.
-- **Commoditization risk:** Retool ($120M ARR Oct 2025, Sacra), Superblocks ($60M raised, Crunchbase), Refine, Vybe, and Softr all ship "describe-it-in-English" internal-tool builders in 2026 (Vybe blog, 2026); the connector-set and governance layer are replicable by funded incumbents.
+- **Moat today:** No defensibility signals found in public sources.
+- **Future moat:** [Inferred]: Reusable connector configurations, permission mappings, audit history, and an organization-owned tool library could create switching costs, but no retention or adoption evidence is public.
+- **Market structure:** No structural barrier identified at this stage, as Retool and Superblocks publicly offer overlapping natural-language, governed internal-app generation ([Retool](https://www.producthunt.com/products/retool), Jul 2026; [Superblocks](https://www.businesswire.com/news/home/20250520713435/en/Superblocks-Raises-%2423M-to-Securely-Generate-Enterprise-Apps-in-the-Era-of-AI-Vibe-Coding), May 2025).
+- **Commoditization risk:** Retool, Superblocks, Lovable, and Appsmith have existing app-generation, integration, governance, or self-hosting capabilities from which they can extend into Prized’s product scope ([Retool](https://www.producthunt.com/products/retool), Jul 2026; [Lovable](https://lovable.dev/blog/series-b), Dec 2025; [Appsmith](https://www.businesswire.com/news/home/20220622005219/en/Appsmith-Raises-%2441-Million-to-Scale-Open-Source-Platform-that-Speeds-Critical-Internal-App-Development), Jun 2022).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Y Combinator Summer 2026 backing (YC page); standard YC deal implies ~$500K.
-  - Product live with sign-in and connector list of 15+ integrations including Salesforce, Snowflake, Postgres, Slack, HubSpot, Google Sheets (prized.dev).
-  - Example case shown on site: renewal desk tool referencing "$1.2M ARR across 142 accounts" — a demo/fictional "Acme" scenario, not a disclosed customer (prized.dev).
-  - No Product Hunt launch, press coverage, Twitter/LinkedIn follower counts, Discord, or job postings found in searches (WebSearch, June 2026).
-- **Competitors:**
-  - Retool ($350M total raised, $3.2B valuation, $120M ARR as of Oct 2025; Sacra, salestools.io): incumbent developer-first IDE, shipped AppGen + Agents in 2025 to address AI generation.
-  - Superblocks ($60M total raised including $23M Series A extension May 2025; SiliconANGLE, Crunchbase): explicitly positioned on AI app generation + enterprise security/governance — closest functional analogue.
-  - Refine (funding not found): open-source framework with AI-prompt-to-app layer (Refine.dev, 2026).
-  - Vybe (funding not disclosed in Crunchbase profile): AI-native Retool alternative emphasizing post-ship agent operation (Vybe blog).
-  - Softr (revenue unknown, prior $13.5M Series A 2022 per prior coverage): AI Co-Builder positioned for non-coders building business software (softr.io).
-- **Why now:** [Inferred]: LLM tool-use and code-generation reached production reliability in 2024–2025, enabling natural-language internal-tool builders; Retool itself shipped AppGen in April 2025 and Agents in May 2025 (Sacra, Oct 2025), marking category inflection.
+  - Company LinkedIn page: 38 followers ([LinkedIn](https://www.linkedin.com/company/useprized), Jul 2026).
+  - YC LinkedIn launch post: 207 reactions and 21 comments ([LinkedIn](https://www.linkedin.com/posts/y-combinator_prized-yc-s26-lets-anyone-at-your-company-activity-7482795624162058242-cV7i), Jul 2026).
+  - Active YC job listings: 0 ([YC company page](https://www.ycombinator.com/companies/prized), Jul 2026).
+- **Competitors (minimum 3, up to 5):**
+  - Retool ($140.12M raised; latest $45M Series C2 in July 2022; revenue unknown): natural-language internal apps on live data deployed in the customer environment, versus Prized’s per-tool sandbox and bring-your-own-agent workflow ([CB Insights](https://www.cbinsights.com/company/retool/financials), Jul 2026; [Retool](https://retool.com/newsroom/series-c2), Jul 2022).
+  - Superblocks ($60M raised; latest $23M Series A tranche in May 2025; revenue unknown): Clark generates traceable React code while enforcing company policies, versus Prized’s stated database-role, secret-broker, and outbound-proxy controls ([Business Wire](https://www.businesswire.com/news/home/20250520713435/en/Superblocks-Raises-%2423M-to-Securely-Generate-Enterprise-Apps-in-the-Era-of-AI-Vibe-Coding), May 2025).
+  - Appsmith ($51.5M raised; latest $41M Series B led by Insight Partners in June 2022; revenue unknown): open-source low-code construction for developers, versus Prized’s natural-language interface for non-engineers ([Business Wire](https://www.businesswire.com/news/home/20220622005219/en/Appsmith-Raises-%2441-Million-to-Scale-Open-Source-Platform-that-Speeds-Critical-Internal-App-Development), Jun 2022).
+  - Lovable ($545M+ across disclosed 2025 rounds, $200M ARR): general-purpose apps with hosting, authentication, payments, and expanding enterprise governance, versus Prized’s focus on governed internal access to company systems ([Lovable](https://lovable.dev/blog/series-b), Dec 2025; [TechRepublic](https://www.techrepublic.com/article/news-nvidia-google-ai-funding-lovable/), Dec 2025).
+- **Why now:** The stated catalyst is employees’ 2025–2026 adoption of Claude Code and Cursor for company-data workflows before permissions, sharing, and audit controls were added ([YC launch](https://www.ycombinator.com/companies/prized), Jul 2026).
 
 ## Founders & Team
 
 - **Hudson Griffith (Co-founder & CEO):**
-  - Background: B.S. Computer Science (Statistics minor), University of Florida; founding engineer at Gander (YC F24, acquired by Archer per YC description); full-stack engineer at Suno; prior SWE intern at L3Harris Technologies (hudsong.dev, LinkedIn).
-  - Twitter/X: @H_Griffith_2025 (x.com); follower count not retrievable via search.
-  - LinkedIn: "Building something new | Previously Suno" (/in/hudsongri/).
-  - GitHub: No public handle surfaced in search; personal projects hosted on hudsong.dev (KMP visualizer, MCMC visualizer, AI agent pattern detection).
+  - Background: Studied computer science and statistics at the University of Florida, became Gander’s first engineer and built its core architecture plus AI voice and document agents before its acquisition by Archer, then worked as a full-stack engineer at Suno ([personal site](https://www.hudsong.dev/), Jul 2026; [YC company page](https://www.ycombinator.com/companies/prized), Jul 2026).
+  - Twitter/X: @hudson_gri with 176 followers ([Instalker](https://instalker.org/hudson_gri), May 2026).
+  - LinkedIn: “Building Prized (YC S26)” ([LinkedIn](https://www.linkedin.com/in/hudsongri), Jul 2026).
+  - GitHub: @HudsonGri, with `mdarena` at 65 stars ([GitHub](https://github.com/HudsonGri), Jul 2026).
 - **Marinos Eliades (Co-founder):**
-  - Background: Stanford University, studied CS and Mechanical Engineering (YC description; Stanford profile lists B.S. Mechanical Engineering); CS198 Section Leader at Stanford (LinkedIn); same Gander team as Hudson per YC description.
-  - Twitter/X: No public account found in search results.
-  - LinkedIn: "CS198 Section Leader - Stanford University" (/in/marinos-eliades-a36b912a4/).
-  - GitHub: No public repos found in search results.
-- **Co-founder relationship:** Both were on the founding team at Gander (YC F24, acquired by Archer) per the YC company description.
-- **Founder-market fit:** [Inferred]: Both founders have prior YC-startup execution experience together (Gander) and Hudson has shipped consumer AI infrastructure at Suno (LinkedIn) — relevant for the AI tool-generation core; no advisors or named angel investors disclosed publicly.
+  - Background: Studied computer science and mechanical engineering at Stanford, worked at Gander before its Archer acquisition, co-founded AI-onboarding product Loophole, and served in Cyprus’s National Guard ([YC company page](https://www.ycombinator.com/companies/prized), Jul 2026).
+  - Twitter/X: @marinoeliades; count not retrievable ([RankYC outbound profile link](https://www.rankyc.com/s26/prized), Jul 2026).
+  - LinkedIn: “Co-Founder of Prized, a YC S26 company building secure AI infrastructure for internal…” ([LinkedIn](https://www.linkedin.com/in/meliades), Jul 2026).
+  - GitHub: No public repos found.
+- **Co-founder relationship:** Griffith and Eliades worked together at Gander building fleet-management software before its October 2025 acquisition by Archer Aviation ([YC company page](https://www.ycombinator.com/companies/prized), Jul 2026; [Edgehill Group](https://www.edgehillgroup.com/our-clients), Jul 2026).
+- **Founder-market fit:** [Inferred]: Griffith’s internal architecture and AI-agent work at Gander and Eliades’s engineering and AI-onboarding experience document prior work on software, integrations, and company workflows adjacent to Prized’s product ([YC company page](https://www.ycombinator.com/companies/prized), Jul 2026).
 
 ## Key Risks
 
-- **Incumbent encroachment:** Retool — already at $120M ARR with $350M raised and a $3.2B valuation (Sacra, Oct 2025) — shipped AppGen (April 2025) and Agents (May 2025) directly into AI-generation territory, and Superblocks raised $23M in May 2025 explicitly to address governance for AI-generated apps (SiliconANGLE, May 2025), shrinking the wedge.
-- **No disclosed paying customers or revenue:** Site shows only a fictional "Acme" demo with $1.2M ARR / 142 accounts (prized.dev); no real logos, case studies, or revenue figures found in any public source.
-- **Distribution dependency on sales-led motion:** Only CTAs on prized.dev are "Schedule a call" and "/sign-in" with no self-serve pricing, no Product Hunt launch, no press, and no community signal found (WebSearch, June 2026); a 2-person team running a sales-led GTM against funded incumbents is a capacity constraint.
-- **Technical feasibility under governance constraint:** Enforcing per-tool table-level scoping and workspace-scoped credentials across 15+ heterogeneous connectors (Salesforce, Snowflake, Postgres, etc., per prized.dev) while keeping LLM-generated tools reliable is unproven at scale; no benchmarks or reliability data published.
+- **Direct product overlap:** Retool and Superblocks already market natural-language generation of governed internal applications, while Prized’s mitigation is its stated support for external coding agents and infrastructure-level per-tool controls ([Retool](https://www.producthunt.com/products/retool), Jul 2026; [Superblocks](https://www.businesswire.com/news/home/20250520713435/en/Superblocks-Raises-%2423M-to-Securely-Generate-Enterprise-Apps-in-the-Era-of-AI-Vibe-Coding), May 2025; [YC launch](https://www.ycombinator.com/companies/prized), Jul 2026).
+- **Production-data execution:** Generated tools can receive read-and-write integration scopes, creating erroneous-action or data-exposure paths; Prized states that credentials remain in a broker, outbound hosts are allow-listed, writes require activation, and destructive migrations require approval ([YC launch](https://www.ycombinator.com/companies/prized), Jul 2026).
+- **Admin-dependency risk:** [Inferred]: Adoption depends on administrators approving and scoping connectors before employees build, although each approved connector can then be reused by multiple tools ([Prized website](https://prized.dev/), Jul 2026).
+- **Enterprise assurance:** Prized’s terms provide the service “as is” and limit liability to fees paid during the preceding twelve months, while its privacy notice permits administrators to export or purge workspace data ([terms](https://app.prized.dev/legal/terms), Apr 2026; [privacy notice](https://app.prized.dev/legal/privacy), Apr 2026).
+- **Name collision:** [Inferred]: “Prized” is a common-word brand and the company uses `useprized` on LinkedIn, creating search-result disambiguation risk ([LinkedIn company page](https://www.linkedin.com/company/useprized), Jul 2026).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Low-code/no-code platform market projected to reach $52.3B by 2026 (Vybe blog citing industry forecast, 2026) |
-| SAM | No public data found |
-| Traction | YC Summer 2026 backing (YC page); product live with 15+ connectors (prized.dev); fictional "Acme" demo on site references $1.2M ARR / 142 accounts (prized.dev); no real customer counts, revenue, or press found |
-| Revenue Signal | No public pricing page; site shows "Schedule a call" and "/sign-in" only (prized.dev, June 2026) |
-| Founders | Hudson Griffith (CEO): UF CS, founding eng at Gander (YC F24, acquired by Archer), ex-Suno. Marinos Eliades: Stanford CS+ME, CS198 Section Leader, Gander alum. |
-| Competitors | Retool ($350M raised, $3.2B val, $120M ARR Oct 2025; developer-first IDE with AppGen/Agents). Superblocks ($60M raised incl. $23M Series A ext May 2025; AI app-gen + enterprise security). Refine (funding not found; AI-prompt open-source framework). Vybe (funding not disclosed; AI-native Retool alternative). Softr (revenue unknown; AI Co-Builder for non-coders). |
-| Moat Signals | No public data found |
-| Risk Factors | Incumbent encroachment (Retool AppGen/Agents 2025, Superblocks $23M May 2025), no disclosed paying customers, sales-led distribution with 2-person team |
-| Founder Reach | Hudson Griffith: X @H_Griffith_2025 (count not retrievable), LinkedIn /in/hudsongri/, no public GitHub found. Marinos Eliades: no X found, LinkedIn /in/marinos-eliades-a36b912a4/, no public GitHub found. |
-| Distribution Signals | No public data found (no Product Hunt launch, no press, no community presence surfaced in search) |
-| Emails | No public data found |
-
-Sources:
-- [Prized — Company website](https://prized.dev)
-- [Prized — YC Company Page](https://www.ycombinator.com/companies/prized)
-- [Hudson Griffith — hudsong.dev](https://www.hudsong.dev/)
-- [Hudson Griffith — LinkedIn](https://www.linkedin.com/in/hudsongri/)
-- [Hudson Griffith — X](https://x.com/h_griffith_2025?lang=en)
-- [Marinos Eliades — Stanford Profile](https://profiles.stanford.edu/marinos-eliades)
-- [Marinos Eliades — LinkedIn](https://www.linkedin.com/in/marinos-eliades-a36b912a4/)
-- [Retool: $3.20B valuation 2025 — Sacra](https://sacra.com/c/retool/valuation/)
-- [Retool revenue, valuation & funding — Sacra](https://sacra.com/c/retool/)
-- [Retool $200M Series C — salestools.io](https://salestools.io/en/report/retool-200m-series-c)
-- [Superblocks raises $23M Series A extension — SiliconANGLE, May 2025](https://siliconangle.com/2025/05/27/exclusive-superblocks-raises-23m-rein-wild-west-vibe-coding/)
-- [Superblocks — Crunchbase](https://www.crunchbase.com/organization/superblocks-de08)
-- [8 Best Retool Alternatives in 2026 — Vybe](https://www.vybe.build/blog/best-retool-alternatives)
-- [Best Retool Alternatives — Refine](https://refine.dev/alternatives/retool-alternatives/)
+| TAM | $58.2B global low-code-development-technologies market by 2029, 14.1% CAGR ([Gartner](https://www.gartner.com/en/documents/7146430), Nov 2025) |
+| SAM | $16.5B enterprise low-code application platform market by 2027, 16.3% CAGR ([Gartner](https://www.gartner.com/en/documents/5459763), 2024) |
+| Traction | 38 company LinkedIn followers ([LinkedIn](https://www.linkedin.com/company/useprized), Jul 2026); 207 reactions and 21 comments on YC launch post ([LinkedIn](https://www.linkedin.com/posts/y-combinator_prized-yc-s26-lets-anyone-at-your-company-activity-7482795624162058242-cV7i), Jul 2026); 0 jobs ([YC](https://www.ycombinator.com/companies/prized), Jul 2026) |
+| Revenue Signal | No public data found |
+| Founders | Hudson Griffith (CEO): University of Florida CS/statistics, Gander first engineer, Suno engineer; Marinos Eliades (Co-founder): Stanford CS/ME, Gander engineer, Loophole co-founder ([YC](https://www.ycombinator.com/companies/prized), Jul 2026; [Griffith site](https://www.hudsong.dev/), Jul 2026) |
+| Competitors | Retool ($140.12M raised, revenue unknown, customer-environment deployment) ([CB Insights](https://www.cbinsights.com/company/retool/financials), Jul 2026); Superblocks ($60M raised, revenue unknown, traceable React generation) ([Business Wire](https://www.businesswire.com/news/home/20250520713435/en/Superblocks-Raises-%2423M-to-Securely-Generate-Enterprise-Apps-in-the-Era-of-AI-Vibe-Coding), May 2025); Appsmith ($51.5M raised, revenue unknown, open-source developer workflow) ([Business Wire](https://www.businesswire.com/news/home/20220622005219/en/Appsmith-Raises-%2441-Million-to-Scale-Open-Source-Platform-that-Speeds-Critical-Internal-App-Development), Jun 2022); Lovable ($545M+ disclosed in 2025, $200M ARR, general-purpose app generation) ([Lovable](https://lovable.dev/blog/series-b), Dec 2025; [TechRepublic](https://www.techrepublic.com/article/news-nvidia-google-ai-funding-lovable/), Dec 2025) |
+| Moat Signals | Per-tool database roles and integration scopes, secret broker, outbound proxy, access auditing, and organization tool library ([YC](https://www.ycombinator.com/companies/prized), Jul 2026) |
+| Risk Factors | Direct Retool/Superblocks overlap ([Retool](https://www.producthunt.com/products/retool), Jul 2026; [Superblocks](https://www.businesswire.com/news/home/20250520713435/en/Superblocks-Raises-%2423M-to-Securely-Generate-Enterprise-Apps-in-the-Era-of-AI-Vibe-Coding), May 2025), administrator connector dependency ([Prized](https://prized.dev/), Jul 2026), limited contractual warranty and liability ([terms](https://app.prized.dev/legal/terms), Apr 2026) |
+| Founder Reach | Griffith: X 176 followers ([Instalker](https://instalker.org/hudson_gri), May 2026), LinkedIn 1K followers ([LinkedIn](https://www.linkedin.com/in/hudsongri), Jul 2026), GitHub top repo 65 stars ([GitHub](https://github.com/HudsonGri), Jul 2026); Eliades: LinkedIn 958 followers ([LinkedIn](https://www.linkedin.com/in/meliades), Jul 2026), X count not retrievable ([RankYC](https://www.rankyc.com/s26/prized), Jul 2026) |
+| Distribution Signals | 38 LinkedIn followers ([LinkedIn](https://www.linkedin.com/company/useprized), Jul 2026); YC public launch with 207 reactions and 21 comments ([LinkedIn](https://www.linkedin.com/posts/y-combinator_prized-yc-s26-lets-anyone-at-your-company-activity-7482795624162058242-cV7i), Jul 2026) |
+| Emails | founders@prized.dev ([YC](https://www.ycombinator.com/companies/prized), Jul 2026); privacy@prized.dev ([privacy notice](https://app.prized.dev/legal/privacy), Apr 2026); legal@prized.dev ([terms](https://app.prized.dev/legal/terms), Apr 2026) |

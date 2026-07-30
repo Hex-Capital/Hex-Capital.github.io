@@ -1,0 +1,30 @@
+﻿# Osseus -- Peter Thiel Evaluation
+
+**Anish Mariathasan’s Imperial biomedical-engineering background and Ayush Patel’s two Apple internships make Osseus a credentialed-outsider founder bet without a definite founder plan.** That is Osseus’s signature: capable builders facing physical-engineering complexity, but no disclosed two-to-five-year architectural commitment beyond connecting more artifacts and workflows. Intelligence without a definite plan becomes mimetic energy. Osseus has found a difficult problem; Osseus has not yet shown why its particular future must occur.
+
+**Anduril is the high rung for founder lineage: Palmer Luckey had already shipped Oculus to a billion-dollar exit before attacking defense.** Osseus shares the cross-disciplinary instinct—Mariathasan spans biomedical engineering, computer vision, and embedded devices, while Patel has built a self-driving robot and worked on agentic QA at Apple. The divergence is load-bearing: neither Osseus founder has shipped a product to scale, disclosed a prior exit, or demonstrated a technical achievement comparable to Luckey’s. Osseus sits below even the operator-pedigree exception that justified Asana; Imperial and Apple are promising proxies, not verified power-law lineage.
+
+**The generic “AI for X” low rung fails because customer feedback substitutes for a destination.** That pattern appears in Osseus through invited workspaces, scoped demonstrations, custom connectors, and rollout pricing determined around customer requirements. No named technical milestone, fixed product boundary, or five-year robotics roadmap is public. Forward deployment can discover the monopoly, as Palantir demonstrated, but Osseus currently presents forward deployment as the plan itself. Osseus therefore remains in indefinite optimism: connect the next system, satisfy the next pilot, and hope accumulated integrations reveal the destination.
+
+**CoLab’s $72 million Series C exposes the secret test.** Osseus’s strongest contrarian claim is that robotics knowledge should not live inside CAD review or PLM at all; it should form a permission-aware graph across parts, nets, software, tests, suppliers, decisions, and owners. That is more specific than “AI for robotics,” and mirrored permissions plus default-deny memory promotion show architectural thought. Yet Osseus names no institutional reason CoLab, Duro, or Bild cannot extend into the same graph. Over 18 months, Osseus’s connectors may compound into proprietary dependency data—or degrade into bespoke integration labor while Duro’s AI-native PLM absorbs the feature set. A secret must explain not merely what incumbents have not built, but why they cannot build it.
+
+**Osseus’s permissioned, version-aware artifact graph could become a monopoly only if every approved finding makes the graph uniquely harder to replace.** The tier would flip if Osseus demonstrated that a named robotics customer routes design changes, software dependencies, supplier constraints, and validation results through Osseus, with renewal behavior proving that removing Osseus would break the customer’s engineering memory. No deployment scale, retention figure, signed LOI, or pricing-power evidence is public. Customer-cloud and VPC support reduce adoption friction, but they also weaken data aggregation. Osseus may create switching costs inside each account; Osseus has not shown a mechanism for market-wide monopoly.
+
+**Palantir is the relevant single-anchor parallel for structural moat because integration depth can become infrastructure even when the product is software.** Osseus touches atoms through robotics, but Osseus neither manufactures hardware nor sells into a named regulated customer class. Its actual product is enterprise software operating above CAD, electronics, code, simulation, and test systems. VPC deployment and mirrored permissions may create trust, yet those are procurement requirements rather than exclusive regulatory barriers. “We wanted flying cars” does not mean funding the document layer around flying cars; the atoms must constrain competitors, not merely constrain customers.
+
+**Osseus’s invited-team access and absence of disclosed revenue imply that by July 2029, Osseus will have pivoted from robotics-specific design intelligence into a broader enterprise R&D knowledge-and-review product and will remain below $1 million ARR.** The mechanism is the high-founder-lineage/low-definite-plan pairing: smart founders will keep learning, but custom connectors and overlapping demands from CoLab, Duro, and Bild will pull Osseus toward a wider, less monopolistic category. Osseus will likely build useful software. Useful software is not necessarily a power-law company.
+
+**Duro’s $11.5 million of disclosed funding and CoLab’s $72 million Series C create the strongest bull case for Osseus: engineering intelligence is becoming a real category, while Osseus’s cross-domain graph could occupy the layer those CAD- and PLM-centered products structurally miss.** Asana and Quora show that exceptional founder pedigree can override missing atoms or an indefinite roadmap. The objection stings because Mariathasan’s compliance-AI experience and Patel’s Apple agentic-QA work could let Osseus solve permissioned reasoning before incumbents understand the problem. But the known exceptions involved Moskovitz and D’Angelo after Facebook-scale operating experience; Osseus has no comparable override, and competitor activity currently validates a mimetic market more than a proprietary secret. A signed deployment with a named robotics manufacturer, paired with repeat usage and evidence that cross-domain dependency data prevents failures unavailable to CoLab or Duro, would flip my verdict.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Contrarian Secret with Named Incumbent Failure Mode | 14/35 |
+| Monopoly Trajectory with Pricing Power Hypothesis | 11/25 |
+| Definite Founder Plan vs Indefinite Iteration | 4/15 |
+| Founder Lineage / Verified Operator Pedigree | 8/15 |
+| Atoms-Heavy or Regulated-Sector Structural Moat | 4/10 |
+| **Total** | **41/100** |
+
+**Total Score: 41/100** (Pass)

@@ -1,0 +1,30 @@
+﻿# Marble -- Elad Gil Evaluation
+
+Six named restaurant deployments make Marble a domain-matched shipping bet whose strongest dimension is founder execution and whose weakest is the missing revenue curve. Aakar Khanna has operated inside his family’s multi-unit restaurant business, Arjun Chaliha led AI/ML work at Bloomberg, and Marble has converted that combination into a live vision-and-voice product at A&W Restaurants, The Kati Roll Company, and four other brands. Marble looks capable of shipping; Marble has not yet shown that customers are buying and expanding fast enough for the product to be *just working*.
+
+**Perplexity** is the high rung for founder iteration: Aravind Srinivas repeatedly returned a week later with the discussed artifact built. Marble shares the load-bearing mechanism—technical execution joined to direct user feedback—with Chaliha’s production ML background, Khanna’s restaurant operations experience, and Marble’s six live deployments. Marble diverges because the dossier names no product shipped independently by Khanna, no iteration cadence between customer conversations, and no verified sequence of deployments or feature releases. The founders have earned credit beyond credentials, but Marble is not yet at the Perplexity “who does that?” level.
+
+**Lyft** exposed the low-rung failure mechanism: activity without a curve capable of changing market structure is a false signal. Marble reports 40% lower food waste, 30-plus manager hours saved weekly, and eliminated stockouts, but Marble provides no customer attribution, methodology, revenue, retention, or month-over-month expansion. Six logos can represent genuine buying behavior or enterprise-pilot tourism. In an AI market, Marble’s silence on revenue velocity matters even at pre-seed because a product saving 30 manager hours every week should support a legible willingness-to-pay signal.
+
+A July 2026 launch built around mobile vision, voice recognition, forecasting, and LLM agents gives Marble a plausible catalyst, but the dossier labels the “why now” as inferred. Over the next 18 months, that technology stack will become cheaper and easier for Restaurant365, Nory, MarginEdge, and ClearCOGS to reproduce; the catalyst therefore compounds for the category before it compounds for Marble. Marble can capture the reopening only if deployment-generated counts, corrections, and orders create a data and workflow advantage faster than funded incumbents can bundle equivalent automation. Today that is a credible window, not the Stripe-after-merchant-accounts discontinuity.
+
+**Restaurant365**, with $437.9M raised and an existing accounting-and-operations suite, shows why Marble is not yet an index on restaurant digitization. Marble must win each operator away from overlapping systems, then make inventory, procurement, invoices, preparation, scheduling, and menu engineering reliable simultaneously. The index-position score flips upward if Marble becomes the transaction layer through which every supplier order and invoice flows—earning distribution or payments economics as restaurant automation grows—rather than remaining a broader feature bundle. No public pricing, supplier network, or system-of-record position establishes that counterfactual today.
+
+**Color Genomics** is the relevant single-anchor parallel: workflow infrastructure on top of a mature hard technology can be attractive without underwriting science risk. Marble similarly assumes available computer vision, speech recognition, and foundation models rather than new physics, so Marble avoids the capitalization and regulatory problems of a science project. The complication is operational: 99% inventory accuracy, 97% forecast accuracy, autonomous ordering, invoice reconciliation, labor scheduling, and menu engineering create several independent reliability surfaces. Marble needs one commercial miracle—restaurants trusting an automated back office—but the breadth threatens to turn that miracle into a chain of integration and accuracy miracles.
+
+Six live brands lead to a specific 36-month forecast: by July 2029, Marble reaches roughly $1M-$3M ARR and is acquired by **MarginEdge** for product and engineering capability rather than becoming an independent category leader. Marble’s founder-market fit should produce a useful product and real customers, while the absent revenue curve, crowded distribution, and feature exposure constrain breakout velocity. MarginEdge already owns invoice and cost-control workflows at $350 per location monthly; Marble’s vision capture and forecasting would extend that footprint more naturally than Marble building a new distribution system from scratch.
+
+A&W Restaurants is the strongest objection to that forecast: Marble may already have landed inside a scaled brand, and the reported 40% waste reduction plus 30 hours saved could make expansion economics look more like Decagon than a restaurant-software feature acquisition. Khanna’s operator context and Chaliha’s production ML experience also fit the **Color Genomics** known exception—workflow infrastructure on top of a hard layer already solved—so Marble could become the autonomous system of record before incumbents react. The objection loses today because Marble’s outcome claims are unattributed, revenue is undisclosed, and six workflows multiply integration risk while Nory and Restaurant365 already overlap. One verifiable condition flips my verdict to Invest: Marble demonstrating more than 20% month-over-month ARR growth for six consecutive months from paid multi-unit expansions.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Market Re-Opening Via Specific Recent Catalyst | 15/28 |
+| Revenue Velocity or Usage Curve Already Visible | 11/25 |
+| Founder Ships Iteratively Between Conversations | 15/20 |
+| Index-Like Distribution Position On A Compounding Category | 7/15 |
+| Single-Miracle Architecture Rather Than Multi-Miracle Dependency | 8/12 |
+| **Total** | **56/100** |
+
+**Total Score: 56/100** (Neutral)

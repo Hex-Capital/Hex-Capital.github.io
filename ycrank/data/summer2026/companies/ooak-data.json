@@ -1,0 +1,80 @@
+{
+  "slug": "ooak-data",
+  "name": "Ooak Data",
+  "oneLiner": "We build the world's largest library of real-world business workflow?",
+  "metadata": {
+    "website": "https://ooakdata.com/",
+    "yc_page": "https://www.ycombinator.com/companies/ooak-data",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B",
+    "team_size": "5",
+    "location": "Paris, ?le-de-France, France",
+    "tags": "Artificial Intelligence, Reinforcement Learning",
+    "yc_partner": "Not listed",
+    "emails": "contact@ooakdata.com"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Reinforcement Learning"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:51:48.458Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 66,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 71,
+      "tier": "Invest"
+    },
+    "naval-ravikant": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 65,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 63,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 66,
+    "EG": 71,
+    "NR": 48,
+    "PG": 65,
+    "PT": 59,
+    "SL": 42,
+    "VK": 63
+  },
+  "consolidatedAvg": 59.14,
+  "consolidatedRank": 32,
+  "traction": {
+    "tractionRank": 2,
+    "tractionScore": 95,
+    "tractionReason": "Seven-figure contracts with two leading AI labs"
+  },
+  "paths": {
+    "memo": "summer2026/memos/ooak-data.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/ooak-data.md",
+      "elad-gil": "summer2026/evals/elad-gil/ooak-data.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/ooak-data.md",
+      "paul-graham": "summer2026/evals/paul-graham/ooak-data.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/ooak-data.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/ooak-data.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/ooak-data.md"
+    }
+  }
+}

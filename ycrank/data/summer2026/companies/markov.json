@@ -10,8 +10,8 @@
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "Reinforcement Learning, Data Labeling, Data Engineering",
-    "yc_partner": "Harshita Arora (YC company page)",
-    "emails": "No public data found (only cal.com/dev-markov/30min booking link on website)"
+    "yc_partner": "Harshita Arora",
+    "emails": "founders@markovstudios.com"
   },
   "tags": [
     "Reinforcement Learning",
@@ -19,52 +19,52 @@
     "Data Engineering"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-06-29T06:03:24.080Z",
+  "memoGeneratedAt": "2026-07-30T17:34:28.240Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 37,
-      "tier": "Pass"
+      "score": 57,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 49,
-      "tier": "Neutral"
+      "score": 68,
+      "tier": "Invest"
     },
     "naval-ravikant": {
-      "score": 38,
-      "tier": "Pass"
+      "score": 66,
+      "tier": "Invest"
     },
     "paul-graham": {
-      "score": 51,
-      "tier": "Neutral"
+      "score": 69,
+      "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 22,
+      "score": 40,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 29,
-      "tier": "Pass"
+      "score": 47,
+      "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 35,
-      "tier": "Pass"
+      "score": 45,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 37,
-    "EG": 49,
-    "NR": 38,
-    "PG": 51,
-    "PT": 22,
-    "SL": 29,
-    "VK": 35
+    "CB": 57,
+    "EG": 68,
+    "NR": 66,
+    "PG": 69,
+    "PT": 40,
+    "SL": 47,
+    "VK": 45
   },
-  "consolidatedAvg": 37.29,
-  "consolidatedRank": 46,
+  "consolidatedAvg": 56,
+  "consolidatedRank": 58,
   "traction": {
-    "tractionRank": 43,
-    "tractionScore": 17,
-    "tractionReason": "1,122 X followers, no revenue or customers"
+    "tractionRank": 34,
+    "tractionScore": 57,
+    "tractionReason": "150K downloads and 10K computer-use hours"
   },
   "paths": {
     "memo": "summer2026/memos/markov.md",

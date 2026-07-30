@@ -672,10 +672,14 @@
           </template>
         </div>
         <div class="flex items-center gap-2">
+          <select x-model="councilProvider" class="bg-claude-bg border border-claude-border text-claude-orange px-1.5 py-0 text-[10px] rounded-none focus:outline-none">
+            <option value="codex">Codex</option>
+            <option value="claude">Claude</option>
+          </select>
           <select x-model="councilModel" class="bg-claude-bg border border-claude-border text-claude-orange px-1.5 py-0 text-[10px] rounded-none focus:outline-none">
-            <option value="sonnet">Sonnet</option>
-            <option value="opus">Opus</option>
-            <option value="haiku">Haiku</option>
+            <option value="quality">Quality</option>
+            <option value="balanced">Balanced</option>
+            <option value="fast">Fast</option>
           </select>
           <button @click="clearCouncilHistory()" class="text-[10px] text-claude-dim hover:text-claude-red transition-colors">[clear]</button>
         </div>

@@ -1,0 +1,30 @@
+﻿# Ooak Data -- Sam Lessin Evaluation
+
+Seven-figure contracts with the two largest AI labs make **Ooak Data** a revenue-backed procurement machine in a sleeve I fundamentally do not want to own. That is **Ooak Data’s** signature: strongest on capital structure because customers already finance the operation, weakest on category because RL-environment data is precisely the consensus AI infrastructure trade where entry price and differentiation evaporate fastest. A good business can still be a bad venture check; here, the revenue is more convincing than the asset class.
+
+**Teamshares** is the high rung for capital structure because operating cash flows and an unusual ownership model provide downside protection before venture capital enters. **Ooak Data** shares the load-bearing mechanism: seven-figure AI-lab contracts could finance workflow acquisition and make revenue—not the next SAFE—the next tack. **Ooak Data** diverges where it matters: paying up to $300K per ecosystem across a stated target of 300 acquisitions implies as much as $90M of procurement exposure, while reuse rights, exclusivity, and gross margins remain undisclosed. This is venture-shaped only if acquired workflows become reusable inventory; otherwise it is a services business wearing an infrastructure multiple.
+
+**Fin’s** workplace-analytics pivot is the low-rung failure mechanism for category fit: a genuinely strange Wizard-of-Oz operation became legible, ordinary workplace software. **Ooak Data** risks the same compression. Real company workflows sound wonderfully illegible until Scale AI, Surge AI, Mercor, and Snorkel package equivalent environments through existing customer relationships. **Ooak Data** has none of my revealed-preference sleeves—pre-consensus crypto, DTC brand, prescription rails, creator ownership, or employee-equity structures—and “the two largest AI labs” makes it less contrarian, not more. AI data is no longer investible. That is overstated, obviously; the operational point is that I need a spectacular price or proprietary rights before buying the most obvious bottleneck in the hottest market.
+
+No public round price, cap, investor list, or rejected tier-one bid exists for **Ooak Data**, so the value-seed test fails at the information boundary. Seven-figure contracts, YC, six open roles, and an RL-environment narrative are exactly the ingredients that turn **Ooak Data** into the hot deck before the regatta begins. The counterfactual is clean: a SAFE at or below the Summer 2026 batch median, accompanied by evidence that major funds dismissed real-workflow acquisition as unscalable, would move this dimension from the bottom rung toward Sublime Security territory. Without that, I apply a discount rather than inventing non-consensus pricing.
+
+Pierre-Louis Vouteau spent roughly a year navigating a pivot, while Grégoire Lamy brought more than five years of product and data-operations experience and Thomas Aubry brought Samsung and PayLead applied-ML work. The single-anchor parallel is **Drop.io**: persistence through an unfashionable primitive mattered more than polish, and **Ooak Data’s** pivot plus its published argument against synthetic benchmarks suggests some earned conviction. But **Ooak Data** has not shown Pierre-Louis writing a durable, personal thesis before the market moved, and the founders’ relationship was assembled sequentially without a shared operating history. There is missionary evidence here, but not yet the “I will keep turning the crank after everyone leaves” evidence.
+
+566 company followers and roughly 2,000 LinkedIn followers per founder do not constitute owned distribution for **Ooak Data**. Over 18 months, direct relationships with two frontier labs can compound into references and larger contracts, but that is enterprise account concentration, not founder-brand leverage: when one buyer internalizes the work, **Ooak Data** cannot redirect an audience into a new product. No newsletter, channel, community, or pre-existing user base is documented, so the absent-evidence default applies. The APEX Explorer’s 480 tasks do not rescue the score because they are Mercor tasks, not an audience or proprietary Ooak corpus.
+
+The two largest AI labs give **Ooak Data** enough momentum that my 36-month forecast is specific: by July 2029, Scale AI will acquire **Ooak Data** for under $250M after Ooak reaches roughly $12M–$20M ARR but struggles to diversify beyond a handful of frontier-lab buyers. The mechanism is straightforward: real contracts validate the workflow-acquisition machine, procurement costs constrain standalone margins, and Scale buys the anonymization pipeline and data rights more cheaply than rebuilding them while defending against Surge and Mercor. That is a respectable outcome and still not necessarily a good personal angel check at an unspecified YC price.
+
+Up to $300K per acquired ecosystem is the bear case that genuinely stings: **Ooak Data** could spend ahead of reuse, lose one unnamed lab, and discover that anonymization removes the very fidelity customers purchased. Scale, Surge, Mercor, or Snorkel could then reproduce enough of **Ooak Data’s** product to make acquisition unnecessary. Ro is the relevant Known Exception, but Ro’s regulatory capital intensity created a 50-state moat; Ooak Data’s acquisition intensity is not a moat until contracts grant reusable, exclusive rights. The seven-figure contracts keep me from forecasting death, but they do not establish angel alpha. One verifiable condition would flip my verdict to Invest: a SAFE cap at or below the Summer 2026 batch median.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Round Is Mis-Priced or Non-Consensus, Not the Hot YC Deck | 7/30 |
+| Capital Structure Is Venture-Shaped, Not Founder-Drainage | 15/22 |
+| Founder Has Asymmetric Conviction Visible Pre-Pitch | 12/20 |
+| Founder-as-Brand or Owned Community Is on the Cap Table | 5/15 |
+| Category Lives in a Sleeve You're Already Convicted On | 3/13 |
+| **Total** | **42/100** |
+
+**Total Score: 42/100** (Pass)

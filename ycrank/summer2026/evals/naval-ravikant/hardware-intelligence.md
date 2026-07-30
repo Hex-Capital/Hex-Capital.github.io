@@ -1,0 +1,28 @@
+﻿# hardware intelligence -- Naval Ravikant Evaluation
+
+Rishov Sarkar built AMD AI Engine simulators, Siemens EDA LLVM flows, and LightningSim before hardware intelligence existed. hardware intelligence is a specific-knowledge machine trapped, for now, inside a non-networked enterprise tool. **Stack Overflow** is the high rung: builders serving builders, with lived technical pain converted into a product outsiders could not easily invent. Sarkar supplies that same load-bearing mechanism, while Athreya Anand adds AWS Inferentia, Tesla, and agent-workflow experience. hardware intelligence diverges where Stack Overflow compounded through organic community: hardware intelligence has no published benchmark, customer deployment, or meaningful open-source adoption. Specific knowledge is present. Permissionless proof is not.
+
+**Anchorage Digital’s** low-rung mechanism was single-sided custody: adding one institution did not automatically improve custody for the previous institution. hardware intelligence has the same structural weakness without Anchorage’s regulatory moat. One verification engineer using Wave does not make Wave more useful to another unless hardware intelligence can aggregate debugging knowledge across proprietary RTL—and customer-data constraints make that difficult. ChipAgents, Synopsys, and Siemens may learn across broader installed bases first. The Nth customer currently produces revenue, not network value. That is linear SaaS economics, not **Uber** economics.
+
+Wave’s terminal-native agent can replicate at near-zero marginal software cost, but hardware intelligence acquires pilots through booked demos and direct email to ASIC and FPGA engineers. Over 18 months, the code can compound faster than labor only if installation, simulator integration, and security review become self-service. Otherwise every hardware intelligence deployment requires permission from an enterprise buyer, an incumbent license server, and a chip-IP security process. Code is permissionless leverage. Enterprise access is permissioned leverage. hardware intelligence owns the first layer and rents the second.
+
+The $17.53 billion EDA market, projected to reach $42.85 billion by 2035, gives hardware intelligence room beyond waveform debugging: verification planning, RTL repair, simulator orchestration, and eventually broader design optimization. The market score would flip upward if hardware intelligence demonstrated that Wave’s terminal wedge expands into two of those workflows without a new sales motion or a new capital-intensive model-training program. The score would flip downward if waveform inspection remains a narrow feature that Synopsys can bundle into Copilot. A large market is not pivot-room when incumbents own every doorway into it.
+
+Athreya Anand and Rishov Sarkar met in a Georgia Tech freshman dorm and remained close for nearly a decade before launching hardware intelligence. **Notion** is the useful parallel: long-lived founder obsession and willingness to rebuild mattered more than early monetization. hardware intelligence shows intelligence through Anand’s Google agent work and Sarkar’s ECE Ph.D.; it shows energy through a shipped Wave product from two founders with zero open jobs. Integrity has no negative signal, but no public record yet establishes how hardware intelligence’s founders handle customers, employees, or adversity. Play long-term games with long-term people. The friendship clears the first screen, not the ten-year test.
+
+Wave launched in July 2026 with pilot onboarding but no public revenue or accuracy benchmark. By July 2029, I expect hardware intelligence to reach $3 million–$7 million in ARR across roughly 10–30 chip-design organizations while remaining a single-sided verification product rather than a compounding developer network. hardware intelligence’s rare domain knowledge should win technically demanding deployments; its demo-led distribution and proprietary-customer data boundaries should prevent Stack Overflow-style compounding. Specific knowledge creates the product. Network absence caps the geometry.
+
+ChipAgents has raised $74 million, Synopsys already offers an LLM-based Copilot, and hardware intelligence must access customers’ RTL, waveforms, and simulation environments. The bear mechanism stings: incumbent bundling plus founder-led enterprise sales can turn hardware intelligence into a technically elegant feature that dies in procurement. It also activates my red flag—labor leverage before organic adoption—and contradicts my unstated pattern of products distributing through permissionless code or media. Sarkar’s simulator depth and Wave’s terminal-native wedge keep hardware intelligence alive in my funnel, but neither the **Perplexity** network exception nor the **Anchorage Digital** permission-as-moat exception applies because distribution is not top-quartile and no regulatory moat exists. I do not write the check today. Three unaffiliated chip-design organizations adopting Wave without founder-led demos, paying for repeat weekly use, and reporting shorter debug cycles would flip my verdict to Invest.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Permissionless Leverage Architecture (Code or Media as Primary Distribution) | 12/28 |
+| Marketplace or Network with Compounding User-Added Value | 6/22 |
+| Founder Has Non-Trainable Specific Knowledge in the Domain | 18/20 |
+| Big Market with Room for Multiple Pivots Without Refinancing | 13/16 |
+| Founder Trio (Intelligence + Energy + Integrity) Reads as a 10-Year Partner | 11/14 |
+| **Total** | **60/100** |
+
+**Total Score: 60/100** (Neutral)

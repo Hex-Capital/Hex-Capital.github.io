@@ -1,0 +1,30 @@
+﻿# Skymerse -- Paul Graham Evaluation
+
+Damian Szumski is a licensed flight dispatcher who already put Notamify in front of 3,500 registered users, but Skymerse names no cofounder. That pairing is Skymerse’s signature: unusually deep schlep knowledge trapped, for now, in an apparently solo-founder configuration. Skymerse is not an AI idea looking for aviation. Skymerse is an aviation operator turning years of accumulated irritation into software. The question is whether Szumski is enough of an animal to make the organizational weakness temporary.
+
+**Coinbase** is the high rung for schlep blindness: compliance was not an obstacle adjacent to the product; compliance became the product’s advantage. Skymerse has the same structure. Skymerse must continuously reconcile NOTAMs, weather, runway constraints, aircraft limits, manuals, minimum-equipment lists, and company minima—precisely the mess software founders unconsciously route around. Three million processed NOTAMs and a production deployment at LOT Polish Airlines show that Skymerse has entered the mess rather than merely diagrammed it. Skymerse diverges from Coinbase where the Notamify terms prohibit treating its output as authoritative for safety-critical decisions. The schlep is real, but the product has not yet earned permission to carry the full burden.
+
+**Loopt** is the low rung because force of personality had to override everything the surrounding configuration failed to prove, and even then premature infrastructure constrained the outcome. Skymerse currently presents Damian Szumski as a singular founder, with no public cofounder history and no evidence of a pair that has built together for years. Skymerse therefore has the dangerous version of founder mode: one person may understand the entire system, while nobody else can argue with him at sufficient resolution. Szumski’s LOT, FLYR, Lufthansa Systems, and Flightradar24 history is stronger evidence than a blank founder biography, but Skymerse has not shown the Stripe-like pair I would normally want for a system spanning dispatch, integrations, sales, and cockpit support.
+
+Notamify’s 3,500 registered users make resourcefulness compound over the next 18 months because every ugly alert, malformed NOTAM, and operator correction can improve Skymerse’s aeronautical model. Skymerse also claims thousands of daily users and airline customers in production, which is much better than a demo assembled for an application. But Skymerse’s dossier contains no cereal-box moment: no rejected integration Damian Szumski hacked around overnight, no manual dispatch service sold before the software existed, and no named revenue figure. The artifact is impressive. The animal tracks are visible, though not yet as strange as Airbnb’s.
+
+Damian Szumski’s dispatcher license makes Skymerse closer to **Dropbox** on organic origin than most enterprise software. Drew Houston kept losing his USB stick; Szumski spent years inside the systems Skymerse now reconciles, including LOT operations and Flightradar24’s API product. Skymerse is therefore something its founder plausibly wanted for himself, not a market map converted into an AI wrapper. The remaining uncertainty is whether Skymerse began as Szumski’s own operational tool or as a product opportunity observed from his job. The 3,500 Notamify registrations pull the evidence toward the former, but the dossier never identifies the first artifact or the exact moment of personal pain.
+
+The @skymerse GitHub organization contains four public FAA SWIM forks with zero stars, while Skymerse claims custom AIP extraction agents and structured interpretation across three million NOTAMs. That is weak public hacker genealogy attached to meaningful private technical output. Skymerse would flip upward on this dimension if Damian Szumski exposed one non-trivial parser, benchmark, or technical artifact demonstrating that he personally built the hard machinery rather than specifying it as a product owner. Until then, Skymerse receives credit for shipped systems but not for the Lisp-hacker trail that made the Collisons unusually legible before Stripe became Stripe.
+
+Jeppesen’s 2026 Airflow launch makes my 36-month forecast specific: Skymerse reaches $4–8 million in annual recurring revenue across 15–30 airline, cargo, medevac, and business-jet operators, then becomes an acquisition target for Boeing’s Jeppesen rather than an independent flight-operations platform. Skymerse’s regulatory schlep and operator-specific data can produce a valuable wedge quickly; Skymerse’s apparently solo configuration and dependence on incumbent-controlled integrations make the broader platform harder to capture. The likely outcome is a good piece of infrastructure inside a larger aviation system.
+
+LOT Polish Airlines is the strongest objection to that constrained forecast. A founder with dispatcher credentials, a production airline deployment, 3,500 registered users, and three million processed NOTAMs may already have the equivalent of Armstrong’s wallet prototype; perhaps Skymerse is the known exception where one animal makes the missing cofounder temporarily irrelevant. The bear mechanism still stings: most traction belongs to Notamify, Jeppesen controls embedded distribution, public GitHub evidence is thin, and Skymerse’s terms disclaim the authority required for true autopilot. I would nevertheless invest because users and operational scars outweigh genealogy at pre-seed. If Skymerse has not added a second named paying operator for the broader planning-to-cockpit product by July 2027, I would flip to pass.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Demonstrates Animal Resourcefulness Pre-Funding | 29/35 |
+| Idea Is Organic to Founders' Own Pain | 23/25 |
+| Problem Sits in a Schlep Zone Mainstream Founders Avoid | 14/15 |
+| Hacker Genealogy in the Founder Team | 8/15 |
+| Co-founder Configuration Is a Strong Pair or Trio, Not Solo | 4/10 |
+| **Total** | **78/100** |
+
+**Total Score: 78/100** (Invest)

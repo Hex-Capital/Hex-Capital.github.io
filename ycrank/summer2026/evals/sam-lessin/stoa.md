@@ -1,0 +1,30 @@
+﻿# Stoa -- Sam Lessin Evaluation
+
+A 0% platform fee for data partners and only 146 LinkedIn followers make **Stoa** an exchange-shaped machine without an owned crowd. That is **Stoa’s** analytical signature: strongest on venture-shaped capital structure, weakest on founder-brand or community distribution. “AI marketplaces are uninvestible” is the useful overstatement; the walk-back is that transaction fees, settlement records, and proprietary clearing data can turn an illegible physical asset into a very good toll road. The unresolved question is whether Stoa owns that road or has merely built the cleanest booth beside it.
+
+**Teamshares** is the high rung on structure because the unusual ownership mechanism is the business, not financing decoration. **Stoa** shares that load-bearing idea: completed-transaction fees, payment release after confirmed delivery, and a data-partner program exchanging 0% fees for market information could create a venture-shaped clearing layer without SaaS-style founder drainage. **Stoa** diverges because no transaction volume is disclosed, Stoa does not take title or inspect hardware, and the dossier provides no round price or non-standard instrument. This is a promising regatta design, but I cannot yet see a completed tack.
+
+**Fin’s** low-rung failure mechanism was distribution that never compounded strongly enough at the consumer layer, forcing the Wizard-of-Oz assistant into a 2019 workplace-analytics pivot. **Stoa** shows the same weakness before the first gun: 146 company followers, roughly 2,000 LinkedIn followers each for Berat Celik and Eren Berke Saglam, no founder above the 10,000-person owned-audience threshold, and no public category writing. **Stoa** sells institutionally, so it does not need a YouTuber cap table, but exchanges still require a community of repeat counterparties. An access application is a form; it is not owned distribution.
+
+Ornn’s **$33 million** financing and Compute Exchange’s July 2026 launch make the counterfactual on price brutally simple. **Stoa** becomes investable for me if the SAFE is below the S26 median and several tier-one funds passed because physical-GPU settlement looks too niche, regulated, or broker-like. No round terms or visible passes are disclosed, so **Stoa** receives the 9/30 absent-evidence prior, reduced slightly because multiple simultaneous launches make “the market behind AI hardware” look like a consensus narrative. Robinhood is the Known Exception only when entry happens before the markup; without Stoa’s entry price, invoking Robinhood would be storytelling rather than underwriting.
+
+Kaan Yigit’s commodities-desk experience is the mechanism that could compound Stoa’s founder conviction over the next 18 months. If Kaan manually clears RFQs, Eren Berke Saglam applies his Series 7 and 63 background to institutional workflows, and Berat Celik converts each exception into software, **Stoa** could run the Fin playbook correctly: Wizard of Oz first, automation second. **Stoa** has built a public RFQ product spanning A100 through B300 and GB200 NVL hardware, but the dossier shows no three-year obsession, opinionated writing, completed trades, or evidence that the founders endured the manual market before coding it. The credentials are relevant; the missionary proof is still missing.
+
+**Solana** is the single-anchor parallel because both bets attempt to make a difficult technical asset legible through a market infrastructure layer. Solana was pre-consensus at $0.05 per coin; **Stoa** arrives alongside Compute Exchange and a heavily financed Ornn, in AI infrastructure rather than the crypto sleeve where I already have asymmetric conviction. **Stoa** also misses the other revealed-preference sleeves—DTC brand, prescription rails, creator distribution, holdco, and employee equity. Physical-hardware clearing is more interesting than another AI-agent shell, but concurrent competition and zero disclosed on-market activity leave Stoa adjacent to an unstated pattern, not inside one.
+
+No completed transaction count, participant count, or RFQ volume is disclosed, so my 36-month forecast is that **Stoa** will abandon the ambition to be the liquid physical-GPU exchange and pivot into paid GPU price-data plus dealer procurement-and-settlement software, reaching **$1 million to $3 million ARR by July 2029**. **Stoa’s** transaction-derived data can compound even with thin liquidity, while its 146-follower distribution base cannot independently clear a two-sided institutional market. That outcome creates a respectable business; it does not justify pretending today’s generic equity round owns the future exchange.
+
+Compute Exchange already aggregates procurement across more than **100 compute providers**, which makes the strongest bull case for **Stoa** sting: Kaan understands commodity systems, Eren understands regulated financial workflows, and Stoa’s firm quotes, KYB, escrow-like payment release, and data rebates could produce the institutional trust layer before competitors understand physical settlement. Ro is the tempting Known Exception—operational and regulatory complexity can become the moat—but **Stoa** explicitly declines to inspect hardware, take title, guarantee participants, or assume dispute responsibility. Stoa is leaving the hardest complexity with users rather than capitalizing it. I would flip to Invest if Stoa verifies at least **$50 million of quarterly GMV from repeat counterparties** while offering entry below the S26 median price; absent that evidence, I pass.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Round Is Mis-Priced or Non-Consensus, Not the Hot YC Deck | 8/30 |
+| Capital Structure Is Venture-Shaped, Not Founder-Drainage | 15/22 |
+| Founder Has Asymmetric Conviction Visible Pre-Pitch | 10/20 |
+| Founder-as-Brand or Owned Community Is on the Cap Table | 4/15 |
+| Category Lives in a Sleeve You're Already Convicted On | 5/13 |
+| **Total** | **42/100** |
+
+**Total Score: 42/100** (Pass)

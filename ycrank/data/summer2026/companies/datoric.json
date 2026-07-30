@@ -1,0 +1,81 @@
+{
+  "slug": "datoric",
+  "name": "Datoric",
+  "oneLiner": "Security-first training data",
+  "metadata": {
+    "website": "https://www.datoric.com",
+    "yc_page": "https://www.ycombinator.com/companies/datoric",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Data Labeling, ML",
+    "yc_partner": "Harshita Arora",
+    "emails": "founders@datoric.com, service@datoric.com ([YC company page](https://www.ycombinator.com/companies/datoric); [Datoric Privacy Notice](https://www.datoric.com/privacy))"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Data Labeling",
+    "ML"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T18:15:52.841Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 66,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 78,
+      "tier": "Invest"
+    },
+    "naval-ravikant": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 86,
+      "tier": "Strong Invest"
+    },
+    "peter-thiel": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 52,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 66,
+    "EG": 78,
+    "NR": 55,
+    "PG": 86,
+    "PT": 52,
+    "SL": 59,
+    "VK": 52
+  },
+  "consolidatedAvg": 64,
+  "consolidatedRank": 6,
+  "traction": {
+    "tractionRank": 1,
+    "tractionScore": 97,
+    "tractionReason": "Nearly seven figures revenue in 30 days; 300K contributors"
+  },
+  "paths": {
+    "memo": "summer2026/memos/datoric.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/datoric.md",
+      "elad-gil": "summer2026/evals/elad-gil/datoric.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/datoric.md",
+      "paul-graham": "summer2026/evals/paul-graham/datoric.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/datoric.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/datoric.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/datoric.md"
+    }
+  }
+}

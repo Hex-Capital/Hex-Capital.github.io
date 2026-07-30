@@ -11,84 +11,73 @@
 | Team Size | 2 |
 | Location | Seattle, WA, USA |
 | Tags | AI |
-| YC Partner | Brad Flora (YC company page) |
-| Emails | hello@openrelay.inc, sales@openrelay.inc (openrelay.inc/contact) |
+| YC Partner | Brad Flora |
+| Emails | hello@openrelay.inc, sales@openrelay.inc |
 
 ## The Idea
 
-- **Problem:** AI application teams face hyperscaler markups and single-region capacity limits when serving inference; the company frames itself as "The CDN of inference, a distributed GPU cloud for production workloads" (openrelay.inc/contact).
-- **Approach:** Aggregates third-party GPU capacity into a global mesh accessible through a single OpenAI-compatible API with millisecond automatic failover, load balancing across nodes, and Docker container deployment under two minutes (openrelay.inc).
-- **Differentiation:** Versus Together AI/Fireworks/Replicate (token-based managed inference on owned/leased fleets) OpenRelay markets raw hourly GPU rental with an inference-routing layer; versus RunPod/Lambda/CoreWeave it does not own datacenters but aggregates capacity from providers worldwide (search snippet, openrelay.inc/rent-gpu).
-- **Business Model:** Per-hour GPU rental — RTX 4090 $0.29/hr, RTX 5090 $0.39/hr, A100 $0.98/hr, H100 $2.30/hr; $5 deposit yields $10 credit; site claims "up to 90% cheaper than AWS, Azure, and GCP" (openrelay.inc pricing).
-- **TAM/SAM:** No public TAM/SAM data found for this specific segment; adjacent inference-cloud ARR reference points include Together AI ~$1B, Fireworks ~$800M, Baseten ~$600M (TechCrunch/search snippet, 2026).
-- **GTM / Distribution:** [Inferred]: Self-serve developer signup via credit incentive plus a "Dedicated provider program for GPU contributors" that recruits supply-side operators (openrelay.inc).
+- **Problem:** AI developers, researchers, and inference teams face scarce GPU capacity, long-term hyperscaler commitments, and fragmented idle hardware that cannot independently provide reliable production service ([OpenRelay YC announcement, Jun 2026](https://openrelay.inc/blog/openrelay-backed-by-y-combinator)).
+- **Approach:** OpenRelay aggregates third-party GPU nodes through secure tunnels and coordinates them with health checks, scheduling, load balancing, tenant-isolated QEMU virtual machines, and automatic routing around failed inference backends ([OpenRelay provider documentation, Jul 2026](https://openrelay.inc/providers)).
+- **Differentiation:** OpenRelay offers consumer and data-center GPUs with per-second billing and included failover, versus RunPod’s broader GPU selection, Lambda’s data-center-focused AI cloud, Vast.ai’s marketplace model, and AWS’s hyperscaler infrastructure ([OpenRelay comparison, Feb 2026](https://openrelay.inc/blog/runpod-vs-lambda-vs-vectorlay)).
+- **Business Model:** Dedicated GPU VMs are usage-priced from $0.18 per hour, including RTX 4090 at $0.29, A100 40GB at $0.80, and H100 at $2.60, while hosted inference is metered by input and output tokens ([OpenRelay website, Jul 2026](https://openrelay.inc/)).
+- **TAM/SAM:** The global GPU-as-a-service market was estimated at $4.37 billion in 2025 and projected to reach $14.46 billion by 2033 at a 16.0% CAGR, while North America represented 32.6% of 2025 revenue ([Grand View Research, 2026](https://www.grandviewresearch.com/industry-analysis/gpu-as-a-service-gpuaas-market-report)).
+- **GTM / Distribution:** [Inferred]: OpenRelay is pursuing developers through self-service APIs, documentation, free credits, pricing-comparison content, and provider recruitment, while its contact page and founder outreach indicate direct sales to enterprises and data centers.
 
 ## Defensibility
 
-- **Moat today:** No defensibility signals found in public sources beyond price positioning and OpenAI-compatible endpoint (openrelay.inc).
-- **Future moat:** [Inferred]: Two-sided marketplace liquidity between GPU providers and inference customers plus routing/failover software could create switching costs; unproven at team size 2 with no cited customers.
-- **Market structure:** [Inferred]: Hyperscalers (AWS/Azure/GCP) would cannibalize their own margin by matching a 90%-discount aggregation model, and existing token-inference incumbents (Together, Fireworks) have capex sunk into owned fleets that conflict with a hardware-agnostic aggregator (openrelay.inc pricing claim).
-- **Commoditization risk:** GPU aggregation/marketplace is contested by RunPod ($240M ARR, search snippet), Parasail ($42M raised, TechCrunch Apr 2026), Prime Intellect, Vast.ai, and TensorDock (now owned by Voltage Park, BusinessWire Mar 2025) — the founders' former employer.
+- **Moat today:** No defensibility signals found in public sources.
+- **Future moat:** [Inferred]: A larger two-sided network could improve regional capacity, hardware choice, utilization, and failover options, but no public node, provider, customer, or utilization counts establish that effect today.
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** RunPod, Vast.ai, Lambda, hyperscalers, data-center operators, and other infrastructure teams can offer GPU rental, hosted inference, OpenAI-compatible endpoints, or capacity aggregation, although multi-provider scheduling, isolation, and failure handling require distributed-systems engineering ([OpenRelay product documentation, Jul 2026](https://openrelay.inc/)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Website live with pricing calculator and provider program (openrelay.inc, Jul 2026).
-  - $5 deposit → $10 credit signup incentive (openrelay.inc).
-  - No public data found for revenue, user counts, Product Hunt launch, Twitter/LinkedIn follower counts, Discord size, press coverage, or funding announcement (WebSearch, Jul 2026).
-- **Competitors (5):**
-  - RunPod ($122M raised across 4 rounds incl. $100M Summit Partners round at $1B valuation Jun 2026; ~$240M ARR — TechCrunch/Sacra 2026): larger owned/leased GPU fleet with serverless and pod offerings.
-  - Together AI (~$1B ARR, $7.5B valuation talks — search snippet 2026): managed token-based inference plus training on optimized clusters.
-  - Fireworks AI (~$800M ARR, $15B valuation talks — search snippet 2026): OpenAI-compatible token pricing with fine-tuning.
-  - Baseten (~$600M ARR — search snippet 2026): model deployment and serving on managed GPUs.
-  - Parasail ($42M total, $32M Series A co-led Touring Capital + Kindred Ventures Apr 2026; 500B tokens/day — TechCrunch/PRNewswire 2026): pay-per-token distributed inference supercloud.
-- **Why now:** [Inferred]: Inference ARR at incumbents crossed the $500M–$1B threshold in 2026 (search snippet), pulling capacity pricing into a distinct routing/aggregation layer; TensorDock's Mar 2025 acquisition by Voltage Park (BusinessWire) also freed marketplace-model operators to build independently.
+  - Production marketing site, dashboard, control-plane API, and live Stripe billing launched June 8, 2026 ([OpenRelay product updates, Jun 2026](https://openrelay.inc/updates)).
+  - Public API documentation covered 89 customer-facing operations across 16 sections as of June 10, 2026 ([OpenRelay product updates, Jun 2026](https://openrelay.inc/updates)).
+  - OpenRelay entered Y Combinator’s Summer 2026 batch ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/openrelay)).
+  - Zero active jobs were listed on the YC company page as of July 2026 ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/openrelay)).
+- **Competitors (minimum 3, up to 5):**
+  - RunPod ($120 million raised, $120 million annual revenue run rate): operates a developer-oriented GPU cloud across 31 regions with serverless hosting and a broader public customer base ([RunPod, Jul 2026](https://www.runpod.io/blog/one-million-developers); [TechCrunch, Jan 2026](https://techcrunch.com/2026/01/16/ai-cloud-startup-runpod-hits-120m-in-arr-and-it-started-with-a-reddit-post/)).
+  - Lambda (more than $2.0 billion disclosed across identified rounds, revenue unknown): builds data-center-scale AI factories and superclusters rather than primarily aggregating distributed third-party GPUs ([Lambda, Nov 2025](https://lambda.ai/blog/lambda-raises-over-1.5b-from-twg-global-usit-to-build-superintelligence-cloud-infrastructure)).
+  - Vast.ai (funding undisclosed, revenue unknown): provides a marketplace where users select offers from independent GPU hosts, compared with OpenRelay’s emphasis on a unified network and included failover ([OpenRelay comparison page, Jul 2026](https://openrelay.inc/compare/vast-ai)).
+- **Why now:** [Inferred]: The catalyst is the 2025–2026 increase in production inference demand alongside constrained data-center capacity, motivating reuse of idle GPUs and support for inference across consumer and non-NVIDIA hardware ([Grand View Research, 2026](https://www.grandviewresearch.com/industry-analysis/gpu-as-a-service-gpuaas-market-report)).
 
 ## Founders & Team
 
-- **Prashant Patel (Co-founder):**
-  - Background: Staff Engineer at Voltage Park; founding member of Amazon Bedrock at AWS, "managing inference infrastructure for models up to trillions of parameters" (YC company page).
+- **Prashant Patel (Founder and CTO):**
+  - Background: Patel earned an MS in computer science from NYU, productionized AI/ML workloads at IBM, helped build Amazon Bedrock and Custom Model Import at AWS, and later worked on managed inference and orchestration for clusters exceeding 10,000 GPUs at Voltage Park ([AWS author biography, Mar 2025](https://aws.amazon.com/es/blogs/machine-learning/benchmarking-customized-models-on-amazon-bedrock-using-llmperf-and-litellm/); [Y Combinator, Jul 2026](https://www.ycombinator.com/companies/openrelay)).
   - Twitter/X: No public account found.
-  - LinkedIn: No profile confirmed against this specific Prashant Patel via search (multiple namesakes; WebSearch Jul 2026).
+  - LinkedIn: “Founder and CTO at OpenRelay.inc,” with approximately 1,000 followers ([LinkedIn, Jul 2026](https://www.linkedin.com/in/prashant182)).
   - GitHub: No public repos found.
-- **Jaden Wang (Co-founder):**
-  - Background: Voltage Park Engineering; prior TensorDock, where he "advanced to Lead Engineer" following the Voltage Park acquisition in Mar 2025 (search snippet, BusinessWire); previously founded Heaviside Compute (YC company page).
+- **Jaden Wang (Founder):**
+  - Background: Wang attended the University of Washington, worked in HPC engineering at Voltage Park and TensorDock, and founded Heaviside Compute ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/openrelay)).
   - Twitter/X: No public account found.
-  - LinkedIn: No public profile confirmed (WebSearch Jul 2026).
+  - LinkedIn: OpenRelay founder profile with 270 followers and 232 connections ([LinkedIn, Jul 2026](https://www.linkedin.com/in/jaden-wang-b99327177)).
   - GitHub: No public repos found.
-- **Co-founder relationship:** Both worked at Voltage Park prior to founding OpenRelay (YC company page).
-- **Founder-market fit:** Combined experience spans hyperscaler inference infrastructure (Bedrock) and GPU marketplace operations (TensorDock/Voltage Park), matching the company's aggregation + inference-routing thesis (YC company page); no advisors or investors disclosed publicly.
+- **Co-founder relationship:** Both founders previously worked at Voltage Park ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/openrelay)).
+- **Founder-market fit:** Patel’s AWS Bedrock and 10,000-plus-GPU Voltage Park work and Wang’s Voltage Park, TensorDock, and Heaviside Compute experience document prior work in inference orchestration, HPC, and GPU infrastructure ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/openrelay)).
 
 ## Key Risks
 
-- **Incumbent price compression:** RunPod ($240M ARR), Together, and Fireworks operate at scale with owned or long-term-leased capacity (search snippet, 2026); OpenRelay's "90% cheaper" claim depends on sourcing marginal-cost supply that established providers can undercut by amortizing their fleets. No mitigation disclosed.
-- **Supply-side liquidity:** Aggregator model requires recruiting and retaining independent GPU operators via the "Dedicated provider program" (openrelay.inc); at team size 2 there is no disclosed evidence of active provider count. No public data found on onboarded suppliers.
-- **Reliability at aggregator layer:** Product markets "millisecond automatic failover" and "uptime SLA available on dedicated capacity" (openrelay.inc), implying baseline non-dedicated capacity carries no SLA — a barrier to enterprise inference workloads where competitors like Baseten offer managed SLAs.
-- **Founder concentration risk from prior employer:** Both founders come from Voltage Park, which now owns TensorDock, a direct marketplace competitor (BusinessWire Mar 2025); potential IP/non-compete exposure not addressed publicly.
-- **Name collision:** Multiple unrelated projects use "OpenRelay" (VPN, model-aggregator GitHub repo romgX/openrelay, Open WebUI iOS client) which can dilute search-driven discovery (GitHub, WebSearch Jul 2026).
+- **Supply reliability:** OpenRelay depends on independently operated capacity, and its own FAQ states that failed VM capacity is not automatically migrated and must be restarted or replaced ([OpenRelay website, Jul 2026](https://openrelay.inc/)).
+- **Cross-hardware compatibility:** Supporting NVIDIA, AMD, Intel, CPUs, and other accelerators exposes workloads to differing drivers, runtimes, numerical behavior, and model compatibility; OpenRelay mitigates tenant isolation through QEMU, VFIO passthrough, and IOMMU ([OpenRelay provider documentation, Jul 2026](https://openrelay.inc/providers)).
+- **Capacity-market competition:** RunPod serves 500,000 developers across 31 regions and reported a $120 million annual revenue run rate, while Lambda raised more than $1.5 billion in its November 2025 Series E ([TechCrunch, Jan 2026](https://techcrunch.com/2026/01/16/ai-cloud-startup-runpod-hits-120m-in-arr-and-it-started-with-a-reddit-post/); [Lambda, Nov 2025](https://lambda.ai/blog/lambda-raises-over-1.5b-from-twg-global-usit-to-build-superintelligence-cloud-infrastructure)).
+- **Security boundary:** Third-party machines execute customer workloads, making hypervisor isolation, image handling, credential protection, and data deletion core requirements; OpenRelay states that workloads run in QEMU VMs with VFIO/IOMMU isolation and that VM data is wiped at termination ([OpenRelay provider documentation, Jul 2026](https://openrelay.inc/providers)).
+- **Name disambiguation:** A separate blockchain-infrastructure company formerly called OpenRelay now operates as Rivet.cloud, which can contaminate company, funding, and social-search results ([Rivet.cloud LinkedIn, Jul 2026](https://www.linkedin.com/company/open-relay)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | No public data found |
-| SAM | No public data found |
-| Traction | Website live with pricing and provider program (openrelay.inc, Jul 2026); $5→$10 signup credit (openrelay.inc); no revenue, user, or press data found |
-| Revenue Signal | RTX 4090 $0.29/hr, RTX 5090 $0.39/hr, A100 $0.98/hr, H100 $2.30/hr (openrelay.inc pricing, Jul 2026); claim of "up to 90% cheaper than AWS, Azure, GCP" (openrelay.inc) |
-| Founders | Prashant Patel (Co-founder): Staff Engineer at Voltage Park; founding member Amazon Bedrock at AWS (YC page). Jaden Wang (Co-founder): Voltage Park Engineering; former Lead Engineer at TensorDock; founder Heaviside Compute (YC page, BusinessWire Mar 2025) |
-| Competitors | RunPod ($122M raised, ~$240M ARR, larger owned fleet); Together AI (~$1B ARR, token-based managed inference); Fireworks AI (~$800M ARR, fine-tuning + token pricing); Baseten (~$600M ARR, managed model serving); Parasail ($42M raised, pay-per-token distributed supercloud) |
+| TAM | $4.37B global GPU-as-a-service market in 2025, projected to $14.46B by 2033 at 16.0% CAGR (Grand View Research, 2026) |
+| SAM | North America represented 32.6% of global GPU-as-a-service revenue in 2025 (Grand View Research, 2026) |
+| Traction | Production dashboard, API, and Stripe billing live June 8, 2026; 89 documented customer-facing API operations by June 10, 2026 (OpenRelay product updates, Jun 2026) |
+| Revenue Signal | Dedicated GPUs from $0.18/hour; RTX 4090 $0.29/hour, A100 40GB $0.80/hour, H100 $2.60/hour; hosted inference metered by tokens (OpenRelay website, Jul 2026) |
+| Founders | Prashant Patel (Founder/CTO): NYU MS CS, AWS Bedrock founding member, Voltage Park staff engineer; Jaden Wang (Founder): Voltage Park HPC, TensorDock, Heaviside Compute (Y Combinator, Jul 2026) |
+| Competitors | RunPod ($120M raised, $120M annual revenue run rate, developer GPU cloud); Lambda (more than $2.0B disclosed funding, revenue unknown, AI factories); Vast.ai (funding and revenue unknown, host marketplace) (RunPod, Jul 2026; TechCrunch, Jan 2026; Lambda, Nov 2025; OpenRelay comparison, Jul 2026) |
 | Moat Signals | No public data found |
-| Risk Factors | Incumbent price compression, supply-side liquidity, aggregator SLA gap |
-| Founder Reach | Prashant Patel: No public data found. Jaden Wang: No public data found |
-| Distribution Signals | No public data found (no Product Hunt, press, or social presence surfaced via WebSearch, Jul 2026) |
-| Emails | hello@openrelay.inc, sales@openrelay.inc (openrelay.inc/contact) |
-
-Sources:
-- [OpenRelay company site](https://www.openrelay.inc)
-- [OpenRelay contact page](https://www.openrelay.inc/contact)
-- [OpenRelay YC page](https://www.ycombinator.com/companies/openrelay)
-- [Voltage Park acquires TensorDock — BusinessWire, Mar 2025](https://www.businesswire.com/news/home/20250326476295/en/Voltage-Park-Acquires-TensorDock-Expanding-GPU-Cloud-Services-for-AI-and-Machine-Learning)
-- [RunPod hits $120M ARR — TechCrunch, Jan 2026](https://techcrunch.com/2026/01/16/ai-cloud-startup-runpod-hits-120m-in-arr-and-it-started-with-a-reddit-post/)
-- [RunPod $100M Series A — cryptobriefing, Jun 2026](https://cryptobriefing.com/runpod-raises-100m-billion-valuation-rejects-buyout/)
-- [Parasail $32M Series A — TechCrunch, Apr 2026](https://techcrunch.com/2026/04/15/parasail-raises-32m-to-feed-tokenmaxxing-ai-developers/)
-- [Parasail Series A — PRNewswire, Apr 2026](https://www.prnewswire.com/news-releases/parasail-raises-32m-series-a-to-build-the-supercloud-that-puts-developers-in-control-of-their-ai-302742856.html)
+| Risk Factors | Third-party capacity reliability, cross-hardware compatibility, security on provider-operated nodes (OpenRelay website and provider documentation, Jul 2026) |
+| Founder Reach | Prashant Patel: LinkedIn approximately 1K, Twitter and GitHub not found; Jaden Wang: LinkedIn 270, Twitter and GitHub not found (LinkedIn, Jul 2026) |
+| Distribution Signals | Self-service web application, public documentation, pricing calculator, community forum, and zero YC-listed jobs (OpenRelay website; Y Combinator, Jul 2026) |
+| Emails | hello@openrelay.inc, sales@openrelay.inc (OpenRelay contact page, Jul 2026) |

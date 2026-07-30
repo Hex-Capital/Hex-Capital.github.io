@@ -11,7 +11,7 @@
     "location": "San Francisco, CA, USA",
     "tags": "Generative AI, Video, AI",
     "yc_partner": "Ankit Gupta",
-    "emails": "No public data found"
+    "emails": "founders@palettetechnology.com"
   },
   "tags": [
     "Generative AI",
@@ -19,14 +19,63 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-12T21:52:07.987Z",
-  "evalScores": {},
-  "consolidatedScores": {},
-  "consolidatedAvg": null,
-  "consolidatedRank": null,
-  "traction": null,
+  "memoGeneratedAt": "2026-07-30T18:09:15.978Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 63,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 38,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 41,
+    "EG": 52,
+    "NR": 63,
+    "PG": 41,
+    "PT": 30,
+    "SL": 29,
+    "VK": 38
+  },
+  "consolidatedAvg": 42,
+  "consolidatedRank": 155,
+  "traction": {
+    "tractionRank": 114,
+    "tractionScore": 31,
+    "tractionReason": "Paid access available; no customers disclosed"
+  },
   "paths": {
     "memo": "summer2026/memos/palette-2.md",
-    "evals": {}
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/palette-2.md",
+      "elad-gil": "summer2026/evals/elad-gil/palette-2.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/palette-2.md",
+      "paul-graham": "summer2026/evals/paul-graham/palette-2.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/palette-2.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/palette-2.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/palette-2.md"
+    }
   }
 }

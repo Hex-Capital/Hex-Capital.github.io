@@ -6,73 +6,74 @@
 |-------|-------|
 | Website | https://inkbox.ai |
 | YC Page | https://www.ycombinator.com/companies/inkbox |
-| Batch | Summer 2026 (S26) |
+| Batch | Summer 2026 |
 | Industry | B2B / B2B -> Infrastructure |
 | Team Size | 3 |
-| Location | Boston, MA, USA (website footer lists 313 Potrero Ave, Unit B, San Francisco, CA 94103; inkbox.ai) |
+| Location | San Francisco, CA, USA |
 | Tags | Developer Tools, Infrastructure, AI |
-| YC Partner | Tyler Bosmeny (YC page) |
-| Emails | hello@inkbox.ai (inkbox.ai) |
+| YC Partner | Tyler Bosmeny ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/inkbox)) |
+| Emails | hello@inkbox.ai, ray@inkbox.ai ([Inkbox website](https://inkbox.ai/); [Y Combinator, Jul 2026](https://www.ycombinator.com/companies/inkbox)) |
 
 ## The Idea
 
-- **Problem:** AI agents lack their own persistent communication identities (email inbox, phone number, iMessage, public URL), forcing developers to either share the human operator's contacts or bolt together channel-specific APIs (inkbox.ai product page).
-- **Approach:** A single API/SDK issues each agent a mailbox, PSTN phone number with SMS/MMS/voice, iMessage, a public HTTP/2 tunnel URL, an encrypted credential vault, and org-wide contacts/notes — with conversations threaded across channels (github.com/inkbox-ai/inkbox README; inkbox.ai).
-- **Differentiation:** Twilio/SendGrid, Postmark, and Mailgun sell channel-specific APIs that require the developer to stitch identity, threading, and credentials themselves, whereas Inkbox bundles all channels under one agent "identity" object with a shared vault and cross-channel context (mailtrap.io "Best Email APIs for AI Agents" 2026; inkbox.ai).
-- **Business Model:** Freemium SaaS with per-seat/consumption tiers — Free ($0, 3 identities, no phone), Hobbyist ($10/mo, 5 identities, 1 phone), Developer ($25/mo, 15 identities, 3 phones), Enterprise custom; overages billed at $0.03/SMS, $0.03/call minute, $20/mo per 10DLC campaign (inkbox.ai/pricing).
+- **Problem:** Developers building autonomous agents must combine human-oriented services such as Gmail, Twilio, and ngrok for authentication and communication, leaving agent identity and cross-channel context fragmented ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/inkbox)).
+- **Approach:** One API atomically provisions an identity with a mailbox, persistent HTTPS tunnel, optional phone number and iMessage, conversation history, contacts, notes, and scoped credential-vault access ([Inkbox documentation, Jul 2026](https://inkbox.ai/docs/get-started/introduction)).
+- **Differentiation:** Inkbox combines email, phone, iMessage, a public tunnel, and credentials under one identity, whereas AgentMail focuses on agent email and Arcade.dev focuses on agent authentication and authorization ([Inkbox documentation, Jul 2026](https://inkbox.ai/docs/get-started/introduction); [TechCrunch, Mar 2026](https://techcrunch.com/2026/03/10/agentmail-raises-6m-to-build-an-email-service-for-ai-agents/); [Arcade.dev, Jun 2026](https://www.arcade.dev/blog/arcade-series-a/)).
+- **Business Model:** Inkbox offers Free at $0 for three identities, Developer at $30 monthly for 10 identities, Startup at $180–$200 monthly for 100 identities, custom Enterprise pricing, and usage-based messaging, calling, domain, and 10DLC charges ([Inkbox pricing, Jul 2026](https://inkbox.ai/pricing)).
 - **TAM/SAM:** No public TAM/SAM data found for this specific segment.
-- **GTM / Distribution:** SDK/plugin distribution targeting coding-agent developers — Inkbox skills work with Claude Code, Cursor, and framework plugins (Hermes, OpenClaw), plus agent self-signup that lets agents provision themselves without a pre-issued API key (inkbox.ai; github.com/inkbox-ai/inkbox).
+- **GTM / Distribution:** The company distributes through self-service agent signup, an installable skill, open-source SDKs, and plugins for Hermes, OpenClaw, Claude Code, and Codex ([Inkbox website, Jul 2026](https://inkbox.ai/); [Y Combinator, Jul 2026](https://www.ycombinator.com/companies/inkbox)).
 
 ## Defensibility
 
-- **Moat today:** No defensibility signals found in public sources beyond the multi-channel bundle; GitHub repo has 18 stars, 2 forks, 533 commits, MIT-licensed (github.com/inkbox-ai/inkbox).
-- **Future moat:** [Inferred]: Cross-channel conversation history and the encrypted vault (login credentials, API keys, SSH keys, OTP) create switching costs as agents accumulate contacts, notes, and secrets tied to an Inkbox identity — unproven because usage volumes are not disclosed.
-- **Market structure:** [Inferred]: iMessage support requires Apple-side workarounds not offered by Twilio/SendGrid, and 10DLC-registered agent phone numbers create a compliance surface incumbents targeting human users have not productized for agent-native identities (inkbox.ai/pricing lists 10DLC and dedicated iMessage infra as Enterprise features).
-- **Commoditization risk:** Twilio explicitly positions its "next-generation platform" as "an infrastructure layer for every conversation in the agentic era" and already owns SendGrid, SMS, voice, and WhatsApp under one API (investors.twilio.com press release, 2026), meaning an incumbent can bundle equivalent multi-channel agent identity.
+- **Moat today:** Public Inkbox repositories have received more than 20 external pull requests, while its largest pinned repositories have 34 and 28 stars, respectively ([Dima Vremenko on LinkedIn, Jul 2026](https://www.linkedin.com/in/dimavrem); [GitHub, Jul 2026](https://github.com/inkbox-ai)).
+- **Future moat:** [Inferred]: Persisted cross-channel correspondence, contacts, agent-scoped credentials, and integration-specific workflows could create switching costs, but no retention or migration data establish them yet.
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** Anima publicly offers a comparable unified identity containing email, phone, voice, vault access, and policy controls, while AgentMail, Arcade.dev, and existing communications APIs can supply individual components ([Anima website, Jul 2026](https://useanima.sh/); [AgentMail, Mar 2026](https://www.globenewswire.com/news-release/2026/03/10/3253159/0/en/agentmail-raises-6m-led-by-general-catalyst-to-build-the-first-email-provider-for-ai-agents.html)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - GitHub: 18 stars, 2 forks, 533 commits, 1 open issue, 3 open PRs on inkbox-ai/inkbox (github.com/inkbox-ai/inkbox).
-  - YC S26 batch participation (ycombinator.com/companies/inkbox).
-  - Third-party SDK exists: VectorlyApp/inkbox Python & TypeScript SDK (github.com/VectorlyApp/inkbox).
-  - Active job postings: 0 (ycombinator.com/companies/inkbox).
-  - No public data found for user count, paying customers, revenue, ARR, Product Hunt rank, Hacker News launch, press coverage, Twitter/LinkedIn follower counts, or Discord size.
-- **Competitors:**
-  - Twilio (NYSE:TWLO, $1.3B Q3 2025 revenue, +15% YoY; investors.twilio.com): owns SendGrid (acquired 2019 for ~$3B all-stock, mailtoolfinder.com); differentiator vs. Inkbox — unified SMS/voice/email/WhatsApp API but not packaged as per-agent identity with vault + tunnels.
-  - SendGrid (Twilio subsidiary, revenue not broken out; mailtoolfinder.com 2026): processes >100B emails/month; differentiator — pure email API, no phone/iMessage/tunnel bundling.
-  - Postmark (ActiveCampaign subsidiary, revenue unknown; blog.vibecoder.me 2026): transactional-only email deliverability; differentiator — single channel, no identity object.
-  - Mailgun (Sinch subsidiary, revenue unknown; mailtrap.io 2026): email API + validation; differentiator — no phone/iMessage or agent-identity abstraction.
-  - Cloudflare Email Service (Cloudflare NYSE:NET, revenue unknown at product level; mailtrap.io 2026): email routing tied to Workers; differentiator — infrastructure primitive, not multi-channel agent identity.
-- **Why now:** [Inferred]: Widespread adoption of coding-agent frameworks (Claude Code, Cursor) in 2025-2026 has created a population of autonomous agents that need to send/receive outside-world messages, a use case that did not exist at scale before agentic tool-use became a shipping product (inkbox.ai lists Claude Code and Cursor as first-party integrations).
+  - 1,219 LinkedIn company followers ([LinkedIn, Jul 2026](https://www.linkedin.com/company/inkbox-ai)).
+  - 266 company X followers ([TwStalker, Jul 2026](https://www.twstalker.com/dekrypthor)).
+  - Nearly 100 Discord members and more than 20 external pull requests across public repositories ([Dima Vremenko on LinkedIn, Jul 2026](https://www.linkedin.com/in/dimavrem)).
+  - 31 GitHub organization followers; top repositories had 34, 28, and 7 stars ([GitHub, Jul 2026](https://github.com/inkbox-ai)).
+  - Customer case: Vendo assigned Inkbox identities to five agents across engineering, GTM, operations, and founder-assistant functions ([Inkbox blog, Jul 22, 2026](https://inkbox.ai/blog)).
+  - Backed by Y Combinator, NFX, and Night Capital; investment amounts were not disclosed ([Ray Liao on LinkedIn, Jul 2026](https://www.linkedin.com/posts/ruizhi-liao_every-time-i-visit-a-new-place-i-like-to-activity-7470156972340903937-6mxI)).
+  - Zero active YC job postings ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/inkbox)).
+- **Competitors (minimum 3, up to 5):**
+  - AgentMail ($6M raised, revenue unknown): agent-native email inboxes and autonomous onboarding, without Inkbox’s publicly documented phone, iMessage, tunnel, and vault bundle ([TechCrunch, Mar 2026](https://techcrunch.com/2026/03/10/agentmail-raises-6m-to-build-an-email-service-for-ai-agents/)).
+  - Anima (funding undisclosed, revenue unknown): direct unified email, phone, voice, vault, audit, and policy alternative with server-side compliance controls ([Anima website, Jul 2026](https://useanima.sh/)).
+  - Arcade.dev ($72M raised, revenue unknown): agent authorization, governance, and tool execution rather than agent-owned external communication channels ([Arcade.dev, Jun 2026](https://www.arcade.dev/blog/arcade-series-a/)).
+  - Composio ($29M raised, revenue unknown): agent skills and tool integrations rather than persistent email, telephone, iMessage, and internet identities ([Composio, Jul 2025](https://composio.dev/blog/series-a)).
+- **Why now:** [Inferred]: The 2025–2026 spread of coding and persistent local agents created demand for agents to self-register, authenticate, and communicate outside chat interfaces, reflected in Inkbox’s integrations for Codex, Claude Code, OpenClaw, and Hermes ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/inkbox)).
 
 ## Founders & Team
 
-- **Ray Liao (Cofounder & CEO):**
-  - Background: PhD in Computer Science from MIT (2021), advised by Polina Golland at MIT CSAIL; dissertation "Multimodal Representation Learning for Medical Image Analysis"; previously Head of Product and Operations at Tandem (linkedin.com/in/ruizhi-liao; csail.mit.edu/person/ruizhi-liao; ideastream.mit.edu).
-  - Twitter/X: No public account found in search results.
-  - LinkedIn: "Cofounder @ Inkbox | MIT CS PhD" (linkedin.com/in/ruizhi-liao).
-  - GitHub: @RayRuizhiLiao — top repos are academic (medical imaging); star counts not retrievable via search snippet (github.com/RayRuizhiLiao).
-- **Dima Vremenko (Cofounder):**
-  - Background: Based in Greater Boston; 500+ LinkedIn connections; connected to Founders, Inc. community; maintains VectorlyApp organization (VectorlyApp/inkbox SDK, "Vectorly and Reducto" post about scraping Epstein files); PG rejection story cited (linkedin.com/in/dimavrem; linkedin.com/posts/dimavrem_ Epstein Files post).
-  - Twitter/X: @DVremenko (x.com/DVremenko); follower count not retrievable.
-  - LinkedIn: "Cofounder @ inkbox.ai | YC S26" (linkedin.com/in/dimavrem).
-  - GitHub: Maintains VectorlyApp org (github.com/VectorlyApp/inkbox); personal handle and star counts not retrievable from search snippets.
-- **Alex Wilcox (Cofounder & CTO):**
-  - Background: Search results conflated multiple individuals; one result matching Boston context describes an Alex Wilcox with a Master's in CS from Northeastern University working as an ML engineer at MIT-linked startup Empallo — identity match to Inkbox CTO not confirmed by a cited primary source (search snippet, ambiguous).
-  - Twitter/X: No public account confirmed.
-  - LinkedIn: No public profile confirmed as the Inkbox CTO.
-  - GitHub: No public repos confirmed as the Inkbox CTO's.
-- **Co-founder relationship:** No public data on co-founder history; Vremenko and Liao both list Greater Boston area, and Vremenko's LinkedIn post ecosystem references Founders, Inc. (linkedin.com/in/dimavrem; linkedin.com/in/ruizhi-liao).
-- **Founder-market fit:** [Inferred]: Liao's MIT ML PhD provides technical depth for agent tooling but his prior domain was medical imaging rather than communications infrastructure, and no telecom/deliverability/CPaaS background is publicly documented for any of the three founders (linkedin.com/in/ruizhi-liao; linkedin.com/in/dimavrem).
+- **Ray Liao (Cofounder and CEO):**
+  - Background: PhD in computer science from MIT and former cofounder/CTO of cardiovascular virtual-clinic company Empallo ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/inkbox)).
+  - Twitter/X: @rayruizhiliao; count not retrievable ([GitHub profile, Jul 2026](https://github.com/rayruizhiliao)).
+  - LinkedIn: “Inkbox (YC S26),” with 5K followers ([LinkedIn, Jul 2026](https://www.linkedin.com/in/ruizhi-liao)).
+  - GitHub: @rayruizhiliao; joint_chestxray has 26 stars ([GitHub, Jul 2026](https://github.com/rayruizhiliao)).
+- **Alex Wilcox (Cofounder and CTO):**
+  - Background: Northeastern MS in computer science and dual BS in mathematics and economics; formerly Empallo’s founding engineer and a Northeastern computer-networking researcher ([Alex Wilcox website, Jul 2026](https://alexwilcox.io/)).
+  - Twitter/X: No public account found.
+  - LinkedIn: “Inkbox,” with 595 followers ([LinkedIn, Jul 2026](https://www.linkedin.com/in/alxwlcx)).
+  - GitHub: No verified public profile found.
+- **Dima Vremenko (Cofounder and CAIO):**
+  - Background: Northeastern BS in biochemistry and computer science; former Harvard Medical School research associate who built clinical-prediction pipelines, coauthored six publications, and contributed to an NIH R01 grant ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/inkbox)).
+  - Twitter/X: @DVremenko with 351 followers ([Instalker, Jul 2026](https://instalker.org/aidan__pratt)).
+  - LinkedIn: “Inkbox (YC S26),” with 2K followers ([LinkedIn, Jul 2026](https://www.linkedin.com/in/dimavrem)).
+  - GitHub: @dimavrem; no public repositories ([GitHub, Jul 2026](https://github.com/dimavrem)).
+- **Co-founder relationship:** Alex and Dima attended Northeastern, Ray and Alex worked at Empallo, and all three built web-automation agents together before Inkbox ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/inkbox)).
+- **Founder-market fit:** The founders’ documented experience spans ML, networking, telephony infrastructure, web automation, and operating an AI clinic, including Alex’s prior construction of an Asterisk/AWS Chime telephony stack ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/inkbox); [Inkbox blog, Jan 2026](https://inkbox.ai/blog/open-telephony-stack)).
 
 ## Key Risks
 
-- **Incumbent bundling risk:** Twilio has publicly repositioned its stack as "an infrastructure layer for every conversation in the agentic era" and already owns email (SendGrid), SMS, voice, and WhatsApp under one API (investors.twilio.com, 2026), giving it the assets to release an agent-identity SKU that overlaps Inkbox's core bundle. No mitigation publicly disclosed.
-- **Platform dependency (iMessage):** iMessage delivery is not an Apple-sanctioned developer API; Inkbox lists "dedicated iMessage infrastructure" as an Enterprise offering (inkbox.ai/pricing), and Apple has historically restricted third-party iMessage bridges (Beeper Mini shutdown, 2023-2024) — one enforcement action could remove a headline channel. No mitigation disclosed.
-- **10DLC / phone regulatory risk:** Inkbox provisions PSTN numbers to autonomous agents and charges $20/mo per 10DLC campaign (inkbox.ai/pricing); carrier and TCPA rules against automated messaging without human consent create compliance exposure specific to agent-originated SMS. No mitigation disclosed.
-- **Name collision:** "Inkbox" is a widely marketed temporary-tattoo brand (inkbox.com), which will suppress organic search discovery and can complicate trademark scope; the YC page and website use "Inkbox" without a distinguishing suffix.
-- **Traction is unproven:** No revenue, user counts, launch coverage, waitlist, or third-party press was found in public sources; GitHub SDK has 18 stars (github.com/inkbox-ai/inkbox), indicating pre-launch adoption levels.
+- **Direct product substitution:** Anima already markets email, phone, voice, credential vaults, audit trails, and agent identity through one API, overlapping most published Inkbox capabilities ([Anima website, Jul 2026](https://useanima.sh/)).
+- **Carrier and platform constraints:** U.S. messaging requires 10DLC registration, opt-in, and carrier propagation, while shared iMessage plans impose recipient and message caps ([Inkbox pricing, Jul 2026](https://inkbox.ai/pricing); [Inkbox phone documentation, Jul 2026](https://inkbox.ai/docs/capabilities/phone)).
+- **Privacy and compliance exposure:** Inkbox processes email, calls, recordings, transcriptions, texts, credentials, and cross-channel context, while its terms place consent, call-recording, privacy, and telemarketing compliance on customers ([Inkbox terms, Jun 2026](https://inkbox.ai/terms-of-service)).
+- **Identity abuse:** Self-registering agents can initially receive mail from anyone and obtain a public address before human verification, although outbound email is limited to the owner and 10 sends daily until approval ([Inkbox agent-signup documentation, Jul 2026](https://inkbox.ai/docs/get-started/agent-signup)).
+- **Name collision:** Search results for “Inkbox” frequently refer to the unrelated temporary-tattoo company launched in 2015, creating disambiguation requirements in product and company searches ([Product Hunt](https://www.producthunt.com/products/inkbox/)).
 
 ## Key Facts
 
@@ -80,26 +81,12 @@
 |-----------|------|
 | TAM | No public data found |
 | SAM | No public data found |
-| Traction | GitHub 18 stars, 2 forks, 533 commits on inkbox-ai/inkbox (GitHub, 2026); YC S26 (ycombinator.com); third-party SDK VectorlyApp/inkbox exists (GitHub) |
-| Revenue Signal | Free $0/mo, Hobbyist $10/mo, Developer $25/mo, Enterprise custom; overages $0.03/SMS, $0.03/call min, $20/mo per 10DLC campaign (inkbox.ai/pricing, 2026) |
-| Founders | Ray Liao (Cofounder & CEO): MIT CS PhD 2021, ex-Head of Product/Ops Tandem. Dima Vremenko (Cofounder): Boston, VectorlyApp maintainer, Founders Inc. network. Alex Wilcox (Cofounder & CTO): background unverified in public sources. |
-| Competitors | Twilio (NYSE:TWLO, $1.3B Q3 2025 rev, unified CPaaS not agent-identity-native); SendGrid (Twilio sub, >100B emails/mo, email-only); Postmark (revenue unknown, transactional email only); Mailgun (Sinch sub, revenue unknown, email-only); Cloudflare Email (revenue unknown, routing primitive) |
-| Moat Signals | No public data found |
-| Risk Factors | Twilio bundling, iMessage platform dependency, 10DLC/TCPA regulatory exposure |
-| Founder Reach | Ray Liao: Twitter not found, LinkedIn "MIT CS PhD" headline, GitHub @RayRuizhiLiao (stars not retrievable). Dima Vremenko: Twitter @DVremenko (count not retrievable), LinkedIn "Cofounder @ inkbox.ai" (count not retrievable), GitHub VectorlyApp org. Alex Wilcox: No public data found. |
-| Distribution Signals | Claude Code and Cursor integrations listed (inkbox.ai); Hermes and OpenClaw plugins (inkbox.ai/docs); agent self-signup (inkbox.ai) |
-| Emails | hello@inkbox.ai (inkbox.ai) |
-
-Sources:
-- [Inkbox website](https://inkbox.ai/)
-- [Inkbox pricing](https://inkbox.ai/pricing)
-- [Inkbox YC page](https://www.ycombinator.com/companies/inkbox)
-- [inkbox-ai/inkbox GitHub](https://github.com/inkbox-ai/inkbox)
-- [VectorlyApp/inkbox SDK](https://github.com/VectorlyApp/inkbox)
-- [Ray Liao LinkedIn](https://www.linkedin.com/in/ruizhi-liao/)
-- [Ruizhi Liao MIT CSAIL](https://www.csail.mit.edu/person/ruizhi-liao)
-- [Dima Vremenko LinkedIn](https://www.linkedin.com/in/dimavrem/)
-- [Dima Vremenko X](https://x.com/DVremenko)
-- [Best Email APIs for AI Agents 2026 (Mailtrap)](https://mailtrap.io/blog/best-email-api-for-ai-agents/)
-- [Twilio next-gen agentic platform press release](https://investors.twilio.com/news-releases/news-release-details/twilios-next-generation-platform-infrastructure-layer-every)
-- [SendGrid/Twilio acquisition context (MailToolFinder)](https://mailtoolfinder.com/blog/sendgrid-twilio-2026/)
+| Traction | 1,219 LinkedIn followers (LinkedIn, Jul 2026); nearly 100 Discord members and 20+ external pull requests (Dima Vremenko on LinkedIn, Jul 2026); five-agent Vendo deployment (Inkbox blog, Jul 22, 2026) |
+| Revenue Signal | Free $0, Developer $30/month, Startup $180–$200/month, and custom Enterprise tiers (Inkbox pricing, Jul 2026) |
+| Founders | Ray Liao (CEO): MIT CS PhD and former Empallo cofounder/CTO; Alex Wilcox (CTO): Northeastern MS CS and former Empallo founding engineer; Dima Vremenko (CAIO): former Harvard Medical School researcher and six-publication coauthor (Y Combinator, Jul 2026) |
+| Competitors | AgentMail ($6M raised, revenue unknown, email-only focus; TechCrunch, Mar 2026); Anima (funding undisclosed, revenue unknown, unified identity with policy controls; Anima website, Jul 2026); Arcade.dev ($72M raised, revenue unknown, agent authorization focus; Arcade.dev, Jun 2026); Composio ($29M raised, revenue unknown, tool-integration focus; Composio, Jul 2025) |
+| Moat Signals | 20+ external pull requests, nearly 100 Discord members, and 34 stars on the largest public Inkbox repository (LinkedIn and GitHub, Jul 2026) |
+| Risk Factors | Direct Anima overlap (Anima website, Jul 2026), carrier and 10DLC constraints (Inkbox pricing, Jul 2026), communications-compliance exposure (Inkbox terms, Jun 2026) |
+| Founder Reach | Ray Liao: LinkedIn 5K, GitHub top repo 26 stars (LinkedIn and GitHub, Jul 2026); Alex Wilcox: LinkedIn 595 (LinkedIn, Jul 2026); Dima Vremenko: Twitter 351, LinkedIn 2K, no public GitHub repos (Instalker, LinkedIn, and GitHub, Jul 2026) |
+| Distribution Signals | 1,219 LinkedIn followers, 266 X followers, 31 GitHub followers, nearly 100 Discord members, and plugins for four agent harnesses (LinkedIn, TwStalker, GitHub, and Y Combinator, Jul 2026) |
+| Emails | hello@inkbox.ai, ray@inkbox.ai (Inkbox website and Y Combinator, Jul 2026) |

@@ -1,0 +1,30 @@
+﻿# Neuron Industries -- Elad Gil Evaluation
+
+Two live hard-tech pilots make Neuron Industries a shipping-rich but distribution-poor industrial bet: Dennis Ren has built control systems at Tesla and Freeform, yet Neuron Industries must replace Siemens and Rockwell controllers rather than automatically compound with industrial automation. The analytical signature is strong builder evidence paired with a weak index position. Neuron Industries looks capable of making a credible product; the harder question is whether Cortex becomes infrastructure or remains another controller fighting for specifications one machine at a time.
+
+**Perplexity** is the high rung for founder iteration because Aravind repeatedly turned conversations into shipped artifacts within a week. Neuron Industries shares the underlying mechanism: Ren has shipped industrial controls, embedded systems, Vision Pro hardware, and metal-printing production systems, while Kenneth Rhee built and exited WorkIPO; Cortex already integrates an IDE, HMI, historian, fieldbus connectivity, and deterministic control across live pilots. Neuron Industries diverges from Perplexity because the dossier shows prior artifacts and current deployments, but no measured iteration cadence, repeat usage, or examples of customer feedback becoming product within days.
+
+**Lyft’s** low-rung failure mechanism was occupying the weaker position in a market where network structure disproportionately rewarded the leader. Neuron Industries faces the industrial version of that problem: Siemens, Rockwell, Schneider Electric, and ABB own installed workflows, integrator knowledge, procurement trust, and replacement cycles. Neuron Industries is not yet an index on U.S. reindustrialization; at $2,950 for Cortex Mini and $6,450 for Cortex, Neuron Industries must win each controller specification against entrenched vendors. Targeting new modular factories avoids some replacement friction, but greenfield distribution is a wedge, not yet a compounding rail.
+
+U.S. reindustrialization, data-center construction, and a shrinking controls-programmer workforce can reinforce one another over the next 18 months: more facilities create more controls work precisely as experienced labor becomes scarce, increasing the value of Synapse-generated deterministic Python. Neuron Industries has selected the right beachhead—drone production, chemicals, mineral refining, and fuel production—where new equipment can accept a new controller without ripping out a Siemens estate. The limitation is specificity: a market forecast to grow 10.5% annually is attractive, but Neuron Industries has not identified a discrete technological or regulatory break comparable to post-Ukraine defense procurement. This is a credible reopening, not yet a sharp one.
+
+Cortex Mini’s $2,950 price and Cortex’s $6,450 price are catalog evidence, not revenue velocity. Neuron Industries has deployments across chemical processing, electronics manufacturing, wastewater treatment, and small modular reactors, but Neuron Industries discloses neither paid units nor repeat orders, so I cannot distinguish pilot tourism from something that is just working. The score flips into Invest territory if the next two quarters show three named customers expanding from one controller to multiple production systems, with bookings compounding above 20% month over month; until then, two live pilots merit more than the absent-evidence default but not a Harvey-style curve.
+
+**Color Genomics** worked because commodity sequencing supplied the hard layer while Color captured workflow and data around it. Neuron Industries currently attempts both layers: Cortex must meet a stated 0.5-microsecond P99.9 jitter target and pursue SIL 1, while Synapse must translate ambiguous natural language into safe deterministic control. Neuron Industries therefore needs hardware reliability, AI verification, certification, and incumbent displacement to work together. Simulation tests reduce the AI risk, but specifications described as production targets subject to change make Neuron Industries closer to a multi-miracle architecture than the Color template.
+
+Cortex’s integrated hardware-and-software scope leads me to predict that by July 2029 Neuron Industries will generate $2 million to $5 million in annualized hardware revenue from greenfield hard-tech factories but will not be a general PLC replacement. Neuron Industries can win specialized deployments because Ren understands industrial control and Rhee can build the surrounding software stack; one-time hardware pricing with Synapse included, however, limits software compounding while certification and fieldbus support consume engineering capacity. The likely outcome is a useful specialist controller business before it is an index on reindustrialization.
+
+Two live pilots in hard technology form the strongest opposing case: Neuron Industries could be an early **Anduril** pattern, with experienced builders assembling software on physical infrastructure just as reindustrialization reopens a market burdened by obsolete incumbents. That case stings because Ren has direct controls experience, Rhee has an exit, and Neuron Industries already operates in chemical processing and small modular reactor environments. The dossier still loses the comparison on the evidence that made Anduril an exception—validated contracts, a sharply defined procurement catalyst, and a hard layer already proven at scale. I would flip to Invest if Neuron Industries documents three named production customers, repeat multi-controller orders, and a certified deployment with no safety-critical rollback over six months.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Market Re-Opening Via Specific Recent Catalyst | 18/28 |
+| Revenue Velocity or Usage Curve Already Visible | 9/25 |
+| Founder Ships Iteratively Between Conversations | 17/20 |
+| Index-Like Distribution Position On A Compounding Category | 5/15 |
+| Single-Miracle Architecture Rather Than Multi-Miracle Dependency | 6/12 |
+| **Total** | **55/100** |
+
+**Total Score: 55/100** (Neutral)

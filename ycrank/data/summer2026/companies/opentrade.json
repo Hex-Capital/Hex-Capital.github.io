@@ -1,68 +1,72 @@
 {
   "slug": "opentrade",
   "name": "OpenTrade",
-  "oneLiner": "Investing for the rest of us",
+  "oneLiner": "The new interface for investing.",
   "metadata": {
     "website": "https://opentrade.live/",
     "yc_page": "https://www.ycombinator.com/companies/opentrade",
-    "batch": "Summer 2026 (YC company page)",
+    "batch": "Summer 2026 ([Y Combinator](https://www.ycombinator.com/companies/opentrade), Jul 2026)",
     "industry": "Consumer / Consumer",
     "team_size": "3",
     "location": "Seattle, WA, USA",
-    "tags": "Consumer Finance",
-    "yc_partner": "Diana Hu (YC company page)",
-    "emails": "No public data found"
+    "tags": "Finance, Gaming, Investing, Consumer Finance, Stocks",
+    "yc_partner": "Diana Hu ([Y Combinator](https://www.ycombinator.com/companies/opentrade), Jul 2026)",
+    "emails": "suraj@opentrade.live ([OpenTrade LinkedIn](https://www.linkedin.com/company/opentradelive/), Jul 2026)"
   },
   "tags": [
-    "Consumer Finance"
+    "Finance",
+    "Gaming",
+    "Investing",
+    "Consumer Finance",
+    "Stocks"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-09T16:04:18.618Z",
+  "memoGeneratedAt": "2026-07-30T18:02:49.053Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 33,
+      "score": 44,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 34,
-      "tier": "Pass"
+      "score": 49,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 37,
-      "tier": "Pass"
+      "score": 61,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 36,
-      "tier": "Pass"
+      "score": 52,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 21,
+      "score": 23,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 28,
-      "tier": "Pass"
+      "score": 47,
+      "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 28,
+      "score": 31,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 33,
-    "EG": 34,
-    "NR": 37,
-    "PG": 36,
-    "PT": 21,
-    "SL": 28,
-    "VK": 28
+    "CB": 44,
+    "EG": 49,
+    "NR": 61,
+    "PG": 52,
+    "PT": 23,
+    "SL": 47,
+    "VK": 31
   },
-  "consolidatedAvg": 31,
-  "consolidatedRank": 77,
+  "consolidatedAvg": 43.86,
+  "consolidatedRank": 149,
   "traction": {
-    "tractionRank": 66,
-    "tractionScore": 7,
-    "tractionReason": "Website live plus hiring, no user metrics"
+    "tractionRank": 83,
+    "tractionScore": 43,
+    "tractionReason": "User base grew fivefold; absolute baseline undisclosed"
   },
   "paths": {
     "memo": "summer2026/memos/opentrade.md",

@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://pango.ai/",
     "yc_page": "https://www.ycombinator.com/companies/pango",
-    "batch": "Summer 2026 (YC company page)",
+    "batch": "Summer 2026",
     "industry": "B2B / B2B -> Retail",
     "team_size": "5",
     "location": "Stockholm, Stockholm County, Sweden",
     "tags": "Logistics, E-commerce, Retail, AI",
-    "yc_partner": "Gustaf Alstromer (YC company page)",
-    "emails": "No public data found"
+    "yc_partner": "Gustaf Alstromer",
+    "emails": "steve@pango.ai, support@pango.ai, business.pango@gmail.com"
   },
   "tags": [
     "Logistics",
@@ -20,52 +20,52 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-06-29T06:10:48.579Z",
+  "memoGeneratedAt": "2026-07-30T18:02:59.233Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 52,
+      "score": 57,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 48,
-      "tier": "Neutral"
+      "score": 68,
+      "tier": "Invest"
     },
     "naval-ravikant": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 59,
+      "score": 55,
       "tier": "Neutral"
     },
+    "paul-graham": {
+      "score": 78,
+      "tier": "Invest"
+    },
     "peter-thiel": {
-      "score": 30,
+      "score": 38,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
+      "score": 51,
+      "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 29,
+      "score": 34,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 52,
-    "EG": 48,
-    "NR": 37,
-    "PG": 59,
-    "PT": 30,
-    "SL": 30,
-    "VK": 29
+    "CB": 57,
+    "EG": 68,
+    "NR": 55,
+    "PG": 78,
+    "PT": 38,
+    "SL": 51,
+    "VK": 34
   },
-  "consolidatedAvg": 40.71,
-  "consolidatedRank": 25,
+  "consolidatedAvg": 54.43,
+  "consolidatedRank": 71,
   "traction": {
     "tractionRank": 12,
-    "tractionScore": 54,
-    "tractionReason": "6 named brand customers, \"PMF at million-dollar brands\""
+    "tractionScore": 76,
+    "tractionReason": "30 brands signed; 60% month-over-month growth"
   },
   "paths": {
     "memo": "summer2026/memos/pango.md",

@@ -1,0 +1,30 @@
+﻿# Agency Tool Company -- Peter Thiel Evaluation
+
+Davis Foster is a 2019 Thiel Fellow who spent eight years with Jack Morrison shipping hundreds of Scythe robots before its 2026 acquisition by ASI. Agency Tool Company is therefore an operator-pedigree company whose weakest dimension is monopoly trajectory: unusually qualified founders have built infrastructure they personally needed, but Agency Tool Company has not shown why that infrastructure becomes a durable tollbooth rather than a feature. The signature is high lineage, low pricing power—people I would back confronting a market structure I would not yet trust.
+
+Anduril is the high rung for founder lineage: Palmer Luckey had already shipped difficult hardware to a billion-dollar exit before attacking defense. Foster and Morrison share the load-bearing mechanism—Agency Tool Company comes from founders who operated physical fleets across more than 30 states and experienced the deployment problem firsthand. Agency Tool Company diverges because Scythe’s acquisition value is undisclosed and neither founder has demonstrated Luckey-scale distribution, but Foster’s Thiel Fellowship and the pair’s hundreds of shipped robots place them much nearer Anduril than the median YC developer-tools founder. The unstated operator-re-up pattern is present almost perfectly.
+
+Quora is the low rung for monopoly trajectory: Adam D’Angelo’s pedigree overrode a contested category where Stack Overflow and Yahoo Answers already constrained monopoly. Agency Tool Company has less structural protection than Quora had because no network effect appears in Deploy, while Formant, InOrbit, Balena, and internal platform engineers can reproduce adjacent functionality. Deployment histories and device configurations may create switching costs, but Agency Tool Company discloses no patents, proprietary-data scale, regulated certification, or pricing-power hypothesis. The Quora exception only partially applies: Scythe pedigree merits a check, but pedigree does not transmute replaceable software into monopoly.
+
+Three launch partners—Burro, Tempo Works, and Gather AI—support a real contrarian secret: robot deployment is not merely server deployment with wheels. Agency Tool Company identifies Docker pulls, SCP, and SSH as incumbent mechanisms whose architectural blind spot is intermittent connectivity and large heterogeneous artifacts; byte-level deltas, resumability, selective targeting, and rollback attack that blind spot directly. Over 18 months, Agency Tool Company can compound the secret through accumulated failure handling and hardware-specific integrations, turning each deployment into knowledge generic Linux tooling lacks. The missing piece is historical depth: the dossier explains why existing tools fail today, not why Formant or InOrbit have been structurally unable to solve the problem for five years.
+
+ATC Deploy is in beta while Build remains “coming soon,” which is a product sequence rather than a definite multi-year plan. Agency Tool Company has committed to an architecture—delta delivery, embedded-hardware CI, activation histories, approval chains—but Agency Tool Company publishes no two-to-five-year milestones or irreversible technical commitments. The score would move into the upper band if Morrison named a 24-month roadmap tying Build runners, safety validation, and fleet-wide rollout to contracted milestones across the three launch partners. Without that, definite optimism remains plausible but unproven; a roadmap hidden from the dossier cannot receive credit.
+
+SpaceX is the single-anchor contrast on atoms-heavy defensibility. SpaceX owned rockets, factories, launch regulation, and capital intensity; Agency Tool Company owns software delivered onto robots built by customers. Burro’s partner fleet exceeds 750 machines, but those machines create Burro’s capex barrier, not Agency Tool Company’s. Agency Tool Company is atoms-adjacent and operationally safety-sensitive, which is better than generic SaaS, yet no government customer, certification regime, or proprietary hardware anchors the product. The Asana exception applies partially—elite operator lineage can override an atoms-light score—but Asana also possessed Moskovitz’s Facebook-scale pedigree.
+
+Burro’s fleet of more than 750 machines supplies the initial wedge for a falsifiable forecast: within 36 months, Agency Tool Company will reach $3 million–$6 million ARR and be acquired by NVIDIA to fold Deploy into Jetson and Isaac fleet infrastructure. Agency Tool Company’s founders are strong enough to win production deployments, while Agency Tool Company’s weak independent monopoly makes strategic absorption more probable than standalone pricing power. NVIDIA can distribute the deployment layer across embedded hardware more cheaply than Agency Tool Company can construct a proprietary network around it.
+
+Formant has raised $45.25 million, InOrbit has raised a $10 million Series A, and every prospective customer can continue using SSH, Docker, and internal scripts—the strongest bear case is that Agency Tool Company becomes a useful feature surrounded by better-capitalized platforms. Agency Tool Company’s three launch partners may simply reflect eight years of founder relationships, while the ROS launch’s single like and absent revenue provide no independent distribution signal. The evidence that narrowly wins is production use across agriculture, construction, and logistics by founders who already shipped hundreds of robots; that is operating evidence, not a mimetic “AI for X” pitch. If fewer than two launch partners convert into paid, fleet-wide contracts collectively covering 1,000 robots by July 2027, I would flip from Invest to Pass.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Contrarian Secret with Named Incumbent Failure Mode | 27/35 |
+| Monopoly Trajectory with Pricing Power Hypothesis | 11/25 |
+| Definite Founder Plan vs Indefinite Iteration | 8/15 |
+| Founder Lineage / Verified Operator Pedigree | 15/15 |
+| Atoms-Heavy or Regulated-Sector Structural Moat | 5/10 |
+| **Total** | **66/100** |
+
+**Total Score: 66/100** (Invest)

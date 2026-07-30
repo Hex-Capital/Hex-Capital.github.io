@@ -9,64 +9,64 @@
     "industry": "Education / Education",
     "team_size": "1",
     "location": "San Francisco, CA, USA",
-    "tags": "AI-Enhanced Learning, Education, eLearning, Personalization, AI",
-    "yc_partner": "Tyler Bosmeny (YC company page)",
-    "emails": "hello@bloomylearning.com (company website)"
+    "tags": "AI-Enhanced Learning, Artificial Intelligence, Education, eLearning, Personalization",
+    "yc_partner": "Tyler Bosmeny ([Y Combinator](https://www.ycombinator.com/companies/bloomy), Jul 2026)",
+    "emails": "hello@bloomylearning.com ([Bloomy website](https://www.bloomylearning.com/), Jul 2026), alex@bloomylearning.com ([Y Combinator](https://www.ycombinator.com/companies/bloomy), Jul 2026)"
   },
   "tags": [
     "AI-Enhanced Learning",
+    "Artificial Intelligence",
     "Education",
     "eLearning",
-    "Personalization",
-    "AI"
+    "Personalization"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-06-29T06:05:56.197Z",
+  "memoGeneratedAt": "2026-07-30T17:39:51.705Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 43,
-      "tier": "Pass"
+      "score": 67,
+      "tier": "Invest"
     },
     "elad-gil": {
-      "score": 29,
-      "tier": "Pass"
+      "score": 54,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 38,
-      "tier": "Pass"
+      "score": 53,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 41,
-      "tier": "Pass"
+      "score": 57,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 31,
-      "tier": "Pass"
+      "score": 48,
+      "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 27,
+      "score": 42,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 26,
-      "tier": "Pass"
+      "score": 48,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 43,
-    "EG": 29,
-    "NR": 38,
-    "PG": 41,
-    "PT": 31,
-    "SL": 27,
-    "VK": 26
+    "CB": 67,
+    "EG": 54,
+    "NR": 53,
+    "PG": 57,
+    "PT": 48,
+    "SL": 42,
+    "VK": 48
   },
-  "consolidatedAvg": 33.57,
-  "consolidatedRank": 64,
+  "consolidatedAvg": 52.71,
+  "consolidatedRank": 90,
   "traction": {
-    "tractionRank": 34,
-    "tractionScore": 25,
-    "tractionReason": "3 named school testimonials, 700+ lessons"
+    "tractionRank": 53,
+    "tractionScore": 52,
+    "tractionReason": "Spring pilots across three named schools"
   },
   "paths": {
     "memo": "summer2026/memos/bloomy.md",

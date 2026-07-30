@@ -9,96 +9,80 @@
 | Batch | Summer 2026 |
 | Industry | Industrials / Industrials |
 | Team Size | 3 |
-| Location | Not listed on YC page |
+| Location | San Francisco, CA, USA |
 | Tags | Hard Tech, Advanced Materials, AI |
 | YC Partner | Tyler Bosmeny |
-| Emails | No public data found (contact form only at /contact per 83sciences.ai) |
+| Emails | hello@83sciences.ai |
 
 ## The Idea
 
-- **Problem:** ~90% of experimental data generated in materials labs never gets published, leaving R&D teams unable to learn from "failed" experiments across chemicals, batteries, semiconductors and pharma (83sciences.ai, 2026; YC page, 2026).
-- **Approach:** Deploy in-person to labs to capture experimental data at source, structure it into a queryable "Lab Brain," then run AI agents that analyze failed experiments and suggest optimized process conditions (83sciences.ai product page, 2026).
-- **Differentiation:** Uncountable and Citrine Informatics offer cloud R&D informatics platforms that rely on customer-uploaded data (Crunchbase, 2026); [Inferred]: 83 Sciences' differentiator is on-site data capture including negative results, versus platforms that ingest whatever the customer chooses to upload.
-- **Business Model:** No public pricing found; [Inferred]: enterprise SaaS plus data-collaboration contracts with academic and industry partners, per the company's stated "novel collaboration operating models with our academic and industry partners" (YC description, 2026).
-- **TAM/SAM:** Materials informatics market estimated at $251.17M in 2026 growing at 20.22% CAGR to 2035 (Precedence Research, 2026); higher-end estimate $1.9B in 2026 (Worldwide Market Reports, 2026).
-- **GTM / Distribution:** [Inferred]: Direct sales into corporate R&D labs (chemicals, batteries, semis, pharma, CDMOs) and academic/national-lab partnerships, based on industries-served list on 83sciences.ai and founders' networks at Sila Nano, MIT and The Engine.
+- **Problem:** Academic and industrial physical-science labs discard approximately 90% of experimental data, leaving researchers to manually search notebooks, instruments, and repositories for prior results ([83 Sciences website, Jul 2026](https://83sciences.ai/); [Yankang Yang LinkedIn, Jul 2026](https://www.linkedin.com/posts/yankangyang_excited-to-announce-that-ian-eric-and-i-activity-7482490741970186240-6pQR)).
+- **Approach:** 83 Sciences captures inputs from voice notes through instrument output, structures them into a queryable record of experiments, and uses an agent to interpret failures and propose process conditions ([83 Sciences website, Jul 2026](https://83sciences.ai/)).
+- **Differentiation:** [Inferred]: Unlike Citrine’s enterprise materials-development platform, Kebotix’s automated self-driving laboratory, and Orbital Industries’ internally designed and manufactured products, 83 Sciences emphasizes recovering unpublished partner-lab data and converting it into papers, patents, and joint discoveries.
+- **Business Model:** [Inferred]: The public invitation to “partner with us,” joint-publication model, and grants of up to $50,000 for early partners indicate individually negotiated research partnerships rather than published self-service pricing ([83 Sciences website, Jul 2026](https://83sciences.ai/); [Ian Naccarella LinkedIn, Jul 2026](https://www.linkedin.com/in/ian-naccarella)).
+- **TAM/SAM:** The global materials-informatics market was estimated at $170.4 million in 2025 and projected to reach $410.4 million by 2030, representing 19.2% CAGR ([MarketsandMarkets, 2025](https://www.marketsandmarkets.com/Market-Reports/material-informatics-market-237816259.html)); no public SAM estimate was found.
+- **GTM / Distribution:** The founders are soliciting academic and industrial physical-science laboratories directly, while the company offers grants of up to $50,000 to selected early partners for joint discovery and publication ([Yankang Yang LinkedIn, Jul 2026](https://www.linkedin.com/posts/yankangyang_excited-to-announce-that-ian-eric-and-i-activity-7482490741970186240-6pQR); [Ian Naccarella LinkedIn, Jul 2026](https://www.linkedin.com/in/ian-naccarella)).
 
 ## Defensibility
 
-- **Moat today:** Proprietary datasets of unpublished experimental data captured directly from partner labs (YC description, 2026; 83sciences.ai, 2026); no user or dataset counts disclosed publicly.
-- **Future moat:** [Inferred]: Data network effects — each additional lab partner enlarges the negative-results corpus that trains models, which is unproven at pre-seed because no dataset scale is disclosed.
-- **Market structure:** [Inferred]: Structural barrier is the trust/access relationship required for a third party to collect unpublished lab data in-person; incumbent SaaS informatics vendors (Uncountable, Citrine) sell tools rather than embed for data capture, per their product descriptions (Crunchbase profiles, 2026).
-- **Commoditization risk:** [Inferred]: Well-funded rivals like CuspAI ($130M raised, reportedly raising $400M more per SiliconANGLE, Jun 2026) and Citrine ($81.3M raised per Tracxn, 2025) could replicate the on-site capture model given greater capital.
+- **Moat today:** The company says it structures proprietary unpublished datasets and builds an agentic record of each partner’s experiments, creating a potential data asset tied to laboratory histories, although no dataset size, patent, or retention evidence is public ([83 Sciences website, Jul 2026](https://83sciences.ai/); [F4, Jul 2026](https://f4.fund/startups/83sciences)).
+- **Future moat:** [Inferred]: Accumulated experiment histories, including failed trials and subsequent outcomes, could improve recommendations and create workflow switching costs, but the company has not disclosed dataset scale or comparative model performance.
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** Citrine already ingests materials data and generates suggested experiments, Kebotix combines AI with laboratory automation, and MaterialsZone provides data-centric materials R&D workflows ([Citrine, Jul 2026](https://citrine.io/media-post/citrine-launches-catalyst-and-apex-to-make-ai-easier-for-materials-scientists-to-use-and-trust/); [Kebotix website, Jul 2026](https://www.kebotix.com/); [APO Research, 2026](https://www.marketresearch.com/APO-Research-Inc-v4273/AI-driven-Materials-Software-Research-45464722/)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Backed by Y Combinator, Summer 2026 batch (YC page, 2026).
-  - Website lists affiliations to Stanford, Harvard, Columbia and MIT (83sciences.ai, 2026).
-  - Eric Riesel is lead author of Crystalyze crystal-structure paper published in JACS, Sep 2024 (JACS 10.1021/jacs.4c10244; MIT News, Sep 2024).
-  - No revenue, user, customer count, Product Hunt, Twitter/LinkedIn follower, or press coverage data found in public sources.
-  - Job postings: 0 open positions on YC page (YC page, 2026).
-- **Competitors:**
-  - CuspAI ($130M raised across Seed + Series A, reportedly raising $400M at $2.6B valuation, revenue unknown; SiliconANGLE Jun 2026, Sifted 2026): generative AI "search engine for materials," Cambridge UK, competes on scale not on unpublished-data capture.
-  - Citrine Informatics ($81.3M raised, revenue unknown; Tracxn 2025, Finsmes Jan 2023): generative AI materials platform ingesting customer datasets, no in-lab capture offering per product description (CB Insights, 2026).
-  - Uncountable ($32.5M raised incl. $27M Series A led by Sageview, revenue unknown; Crunchbase, 2026): cloud ELN/LIMS for R&D workflows, tool-first vs 83 Sciences' data-capture-first approach.
-  - Kebotix (revenue unknown; CB Insights, 2026): self-driving lab automation for materials discovery — adjacent, focused on autonomous experimentation rather than mining historical unpublished data.
-  - Schrödinger (public, NASDAQ:SDGR): physics-based simulation for materials and drugs; differs by using first-principles simulation rather than empirical unpublished datasets.
-- **Why now:** [Inferred]: Generative-AI methods for materials (e.g., the JACS 2024 Crystalyze work co-authored by founder Eric Riesel, MIT News Sep 2024; DeepMind GNoME, 2023) crossed a performance threshold that makes proprietary experimental datasets — including negative results — the binding constraint on downstream discovery.
+  - One active Founding AI Engineer opening offers $120,000–$250,000 and 0.50%–5.00% equity ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/83-sciences)).
+  - The company claims it can turn a partner’s discarded data into a co-authored manuscript in under two months ([83 Sciences website, Jul 2026](https://83sciences.ai/)).
+  - Grants of up to $50,000 are offered to early partners for joint discovery and publication ([Ian Naccarella LinkedIn, Jul 2026](https://www.linkedin.com/in/ian-naccarella)).
+- **Competitors (minimum 3, up to 5):**
+  - Citrine Informatics ($76.15 million raised, revenue unknown): operates an enterprise materials-and-chemicals platform spanning data management, modeling, and experiment recommendations, versus 83 Sciences’ emphasis on unpublished laboratory data ([CB Insights, Jul 2026](https://www.cbinsights.com/company/citrine-informatics/financials); [Citrine, Jul 2026](https://citrine.io/)).
+  - MaterialsZone ($7 million raised, revenue unknown): provides data-centric materials R&D workflows, while 83 Sciences markets conversion of unused experimental records into papers, patents, and discoveries ([Owler, Jul 2026](https://www.owler.com/company/materialszone/funding); [83 Sciences website, Jul 2026](https://83sciences.ai/)).
+  - Orbital Industries ($71 million raised, revenue unknown): uses AI to design and commercialize its own industrial materials and hardware, whereas 83 Sciences works alongside external laboratories using their data ([MaterialsAtlas, Jul 2026](https://www.materialsatlas.org/seo/resources/items/directory/top-ai-materials-startups-ce382505115b49279484f0193f6f1870/); [Orbital Industries, May 2026](https://www.orbitalindustries.com/news/press/orbital-industries-series-b-50-million)).
+  - Kebotix (funding undisclosed, revenue unknown): combines AI, physical modeling, and laboratory automation in a closed-loop self-driving lab, versus 83 Sciences’ stated focus on existing unpublished data ([Kebotix website, Jul 2026](https://www.kebotix.com/)).
+- **Why now:** [Inferred]: Natural-language agents can now turn research goals into datasets, models, search spaces, and suggested experiments within minutes, as demonstrated by Citrine’s July 2026 Catalyst release, lowering the interface burden for laboratory adoption ([Citrine, Jul 2026](https://citrine.io/media-post/citrine-launches-catalyst-and-apex-to-make-ai-easier-for-materials-scientists-to-use-and-trust/)).
 
 ## Founders & Team
 
 - **Ian Naccarella (Founder):**
-  - Background: BS/MS Chemical Engineering, Stanford; MBA, Harvard Business School; Entrepreneurial Venture Fellow at The Engine (MIT); prior strategy manager at Sila Nanotechnologies and consultant at Boston Consulting Group Climate & Sustainability practice (LinkedIn, 2026; HBS Energy & Environment Club bio; search snippet).
+  - Background: BS and MS in chemical engineering from Stanford, MBA from Harvard Business School, former MIT commercialization fellow, Sila Nanotechnologies strategy manager, and BCG consultant ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/83-sciences)).
   - Twitter/X: No public account found.
-  - LinkedIn: "Entrepreneurial Venture Fellow - The Engine" (linkedin.com/in/ian-naccarella-50977296).
-  - GitHub: No public repos found.
+  - LinkedIn: “AI for Science at 83 Sciences,” with approximately 3,000 followers ([LinkedIn, Jul 2026](https://www.linkedin.com/in/ian-naccarella)).
+  - GitHub: @inaccare; Beer-Type-Prediction and MBTI repositories identified, but star counts were not retrievable ([LinkedIn, Jul 2026](https://www.linkedin.com/in/ian-naccarella)).
 - **Eric Riesel (Founder):**
-  - Background: MIT graduate student in the Freedman Group (chemistry); lead author of "Crystal Structure Determination from Powder Diffraction Patterns with Generative Machine Learning," JACS 2024 (pubs.acs.org 10.1021/jacs.4c10244); Frontier Year Fellow at Engine Ventures (LinkedIn); Columbia University Chemistry affiliation (ResearchGate).
+  - Background: BA in chemistry from Columbia and PhD in inorganic chemistry from MIT, where he developed ML systems for materials-data analysis and a generative method for chemical experimental data ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/83-sciences)).
   - Twitter/X: No public account found.
-  - LinkedIn: "Frontier Year Fellow at Engine Ventures" (linkedin.com/in/eric-riesel).
-  - GitHub: No public repos found; team maintains crystalyze.org web interface (MIT News, Sep 2024).
-- **Yankang Yang (Founder):**
-  - Background: Principal at BCG where he led the firm's internal AI program to 30,000+ users, prior Tech & Digital practice and recruiting dean for BCG Bay Area; earlier soft-robotics research at Harvard Wyss Institute and immunology at Roswell Park Cancer Center (TheOrg; ZoomInfo; search snippet).
-  - Twitter/X: No public account found.
-  - LinkedIn: San Francisco, CA — "Boston Consulting Group (BCG)" (linkedin.com/in/yankangyang; linkedin.com/in/yankang-yang-26a15b107).
+  - LinkedIn: “83 Sciences,” with 403 followers ([LinkedIn, Jul 2026](https://www.linkedin.com/in/eric-riesel)).
   - GitHub: No public repos found.
-- **Co-founder relationship:** [Inferred]: Shared connection through The Engine / MIT ecosystem — Naccarella was Entrepreneurial Venture Fellow at The Engine and Riesel is Frontier Year Fellow at Engine Ventures (LinkedIn profiles, 2026).
-- **Founder-market fit:** Team combines a domain-expert MIT ML-for-materials researcher (Riesel, JACS 2024) with two Stanford ChemE / HBS operators with battery-materials operating experience at Sila Nano (LinkedIn, 2026); no advisors or investors beyond YC disclosed publicly.
+- **Yankang Yang (Founder):**
+  - Background: Harvard computer science and electrical-engineering graduate and former BCG principal who led AI programs deployed to more than 30,000 users, with prior robotics and biosignals research ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/83-sciences)).
+  - Twitter/X: No public account found.
+  - LinkedIn: “83 Sciences,” with approximately 1,000 followers ([LinkedIn, Jul 2026](https://www.linkedin.com/in/yankangyang)).
+  - GitHub: No public repos found.
+- **Co-founder relationship:** Ian Naccarella and Yankang Yang share prior employment at BCG, while the company states all three founders personally encountered the problem of searching old experimental data ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/83-sciences); [Yankang Yang LinkedIn, Jul 2026](https://www.linkedin.com/posts/yankangyang_excited-to-announce-that-ian-eric-and-i-activity-7482490741970186240-6pQR)).
+- **Founder-market fit:** The team combines chemical engineering and materials commercialization, experimental inorganic chemistry and materials ML, and deployment of AI systems to more than 30,000 users ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/83-sciences)).
 
 ## Key Risks
 
-- **Data-access dependency:** Model relies on labs granting access to unpublished (often IP-sensitive) experimental data, per YC description (2026); no signed partners or LOIs disclosed in public sources, and enterprise IP-sharing agreements are typically slow to negotiate.
-- **Well-capitalized incumbents in materials AI:** CuspAI has raised $130M and is reportedly closing a $400M round at $2.6B (SiliconANGLE, Jun 2026); Citrine has raised $81.3M (Tracxn 2025); a 3-person pre-seed team faces asymmetric compute and BD budgets.
-- **Technical feasibility of learning from failed experiments:** [Inferred]: Public benchmarks for AI on unstructured negative experimental results are limited; the Crystalyze model on which co-founder Riesel worked reached 67% accuracy on RRUFF experimental patterns (MIT News, Sep 2024), indicating current accuracy ceilings on real lab data.
-- **Long enterprise sales cycles into R&D:** [Inferred]: Target industries (semiconductors, pharma, aerospace, oil & gas per 83sciences.ai) have multi-quarter procurement cycles that can strain pre-seed runway before revenue conversion.
+- **Data-access risk:** The product depends on laboratories providing proprietary unpublished and failed-experiment records, while the company has not disclosed signed partners, accessible dataset volume, or integration coverage ([83 Sciences website, Jul 2026](https://83sciences.ai/)).
+- **Technical-validation risk:** The company claims manuscript conversion in under two months but publishes no benchmark, validation rate, patent output, or independently verified discovery result ([83 Sciences website, Jul 2026](https://83sciences.ai/)).
+- **Incumbent overlap:** Citrine already combines materials-data infrastructure with AI and reported 550 deployed models, 380 projects, and 70,000 experiment suggestions per month in July 2026 ([Citrine, Jul 2026](https://citrine.io/media-post/citrine-launches-catalyst-and-apex-to-make-ai-easier-for-materials-scientists-to-use-and-trust/)).
+- **Scientific trust risk:** A 2025 review found recurring shortcomings in generalizability, interpretability, transparency, robustness, and stability across materials-discovery ML studies, creating validation requirements for model-generated experimental recommendations ([GIFTERS paper, Dec 2025](https://arxiv.org/abs/2512.01080)).
+- **IP-allocation risk:** The company promises papers, patents, commercialization, and industry-academia partnerships from partner data, but no public terms explain ownership of resulting datasets, models, or inventions ([83 Sciences website, Jul 2026](https://83sciences.ai/)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Materials informatics $251.17M in 2026, 20.22% CAGR through 2035 (Precedence Research, 2026); range up to $1.9B in 2026 (Worldwide Market Reports, 2026) |
+| TAM | $170.4M in 2025, projected to $410.4M by 2030 at 19.2% CAGR (MarketsandMarkets, 2025) |
 | SAM | No public data found |
-| Traction | YC S26 batch (YC page, 2026); 0 open jobs on YC page (YC page, 2026); co-founder JACS paper Sep 2024 (pubs.acs.org 10.1021/jacs.4c10244); no revenue, user, follower, or press data found |
+| Traction | Under two months to convert partner data into a co-authored manuscript; grants up to $50K for early partners (83 Sciences website and Ian Naccarella LinkedIn, Jul 2026) |
 | Revenue Signal | No public data found |
-| Founders | Ian Naccarella (Founder): Stanford BS/MS ChemE, HBS MBA, ex-Sila Nano, ex-BCG, Engine fellow. Eric Riesel (Founder): MIT PhD Freedman Group, lead author Crystalyze JACS 2024. Yankang Yang (Founder): Principal at BCG leading internal AI program to 30K+ users. |
-| Competitors | CuspAI ($130M raised, reportedly $400M more at $2.6B, revenue unknown; generative "search engine for materials"), Citrine Informatics ($81.3M raised, revenue unknown; customer-data-ingest platform), Uncountable ($32.5M raised, revenue unknown; cloud ELN/LIMS), Kebotix (revenue unknown; self-driving lab automation), Schrödinger (public NASDAQ:SDGR; physics-based simulation) |
-| Moat Signals | Proprietary unpublished experimental datasets captured on-site at partner labs (83sciences.ai, 2026; YC description, 2026) |
-| Risk Factors | Data-access/IP-sensitivity dependency, well-capitalized rivals (CuspAI, Citrine), technical feasibility of learning from failed experiments |
-| Founder Reach | Naccarella: Twitter not found, LinkedIn present (count not retrievable), GitHub not found. Riesel: Twitter not found, LinkedIn present (count not retrievable), GitHub not found. Yang: Twitter not found, LinkedIn present (count not retrievable), GitHub not found. |
-| Distribution Signals | No public data found |
-| Emails | No public data found |
-
-Sources:
-- [83 Sciences YC page](https://www.ycombinator.com/companies/83-sciences)
-- [83 Sciences website](https://83sciences.ai)
-- [Ian Naccarella LinkedIn](https://www.linkedin.com/in/ian-naccarella-50977296/)
-- [Eric Riesel LinkedIn](https://www.linkedin.com/in/eric-riesel/)
-- [Yankang Yang LinkedIn](https://www.linkedin.com/in/yankangyang/)
-- [Crystalyze JACS 2024 paper](https://pubs.acs.org/doi/10.1021/jacs.4c10244)
-- [MIT News on Crystalyze, Sep 2024](https://news.mit.edu/2024/ai-model-can-reveal-crystalline-materials-structures-0919)
-- [Precedence Research: Materials Informatics market](https://www.precedenceresearch.com/material-informatics-market)
-- [CuspAI reportedly raising $400M — SiliconANGLE, Jun 2026](https://siliconangle.com/2026/06/17/ai-material-discovery-startup-cuspai-reportedly-raising-400m-round/)
-- [Citrine Informatics Tracxn funding profile](https://tracxn.com/d/companies/citrine-informatics/__OVyUkPfdQiRY9SN1pP739S6CyJuGZZOKcSBuZbZuKgA/funding-and-investors)
-- [Uncountable Crunchbase](https://www.crunchbase.com/organization/uncountable)
-- [Citrine Informatics competitors — CB Insights](https://www.cbinsights.com/company/citrine-informatics/alternatives-competitors)
+| Founders | Ian Naccarella (Founder): Stanford chemical engineering BS/MS, HBS MBA, former Sila and BCG (Y Combinator, Jul 2026); Eric Riesel (Founder): Columbia chemistry BA, MIT inorganic chemistry PhD, materials-ML researcher (Y Combinator, Jul 2026); Yankang Yang (Founder): Harvard CS/EE, former BCG principal and AI-program lead (Y Combinator, Jul 2026) |
+| Competitors | Citrine Informatics ($76.15M raised, revenue unknown, enterprise materials-data and AI platform) (CB Insights, Jul 2026); MaterialsZone ($7M raised, revenue unknown, data-centric R&D workflows) (Owler, Jul 2026); Orbital Industries ($71M raised, revenue unknown, builds AI-designed industrial products) (MaterialsAtlas, Jul 2026); Kebotix (funding and revenue unknown, self-driving laboratory) (Kebotix website, Jul 2026) |
+| Moat Signals | Proprietary partner datasets and structured experiment histories, with no public dataset-size or patent evidence (83 Sciences website, Jul 2026) |
+| Risk Factors | Data access, technical validation, incumbent overlap, scientific trust, and IP allocation (83 Sciences website, Citrine, and GIFTERS paper, Jul 2026) |
+| Founder Reach | Ian Naccarella: LinkedIn 3K, GitHub stars not retrievable; Eric Riesel: LinkedIn 403; Yankang Yang: LinkedIn 1K (LinkedIn, Jul 2026) |
+| Distribution Signals | One Founding AI Engineer opening at $120K–$250K plus 0.50%–5.00% equity; early-partner grants up to $50K (Y Combinator and Ian Naccarella LinkedIn, Jul 2026) |
+| Emails | hello@83sciences.ai (83 Sciences website, Jul 2026) |

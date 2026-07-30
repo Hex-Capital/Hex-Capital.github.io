@@ -21,52 +21,52 @@
     "Neobank"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-06-29T06:03:33.232Z",
+  "memoGeneratedAt": "2026-07-30T17:28:45.621Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 40,
-      "tier": "Pass"
+      "score": 53,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 31,
+      "score": 44,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 33,
-      "tier": "Pass"
+      "score": 46,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 41,
-      "tier": "Pass"
+      "score": 52,
+      "tier": "Neutral"
     },
     "peter-thiel": {
       "score": 44,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 24,
+      "score": 38,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 34,
+      "score": 42,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 40,
-    "EG": 31,
-    "NR": 33,
-    "PG": 41,
+    "CB": 53,
+    "EG": 44,
+    "NR": 46,
+    "PG": 52,
     "PT": 44,
-    "SL": 24,
-    "VK": 34
+    "SL": 38,
+    "VK": 42
   },
-  "consolidatedAvg": 35.29,
-  "consolidatedRank": 55,
+  "consolidatedAvg": 45.57,
+  "consolidatedRank": 141,
   "traction": {
-    "tractionRank": 58,
-    "tractionScore": 9,
-    "tractionReason": "Landing page live, team of 3, no metrics"
+    "tractionRank": 154,
+    "tractionScore": 7,
+    "tractionReason": "YC participation only; no product traction"
   },
   "paths": {
     "memo": "summer2026/memos/florin.md",

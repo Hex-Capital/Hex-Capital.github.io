@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://edviroenergy.com",
     "yc_page": "https://www.ycombinator.com/companies/edviro",
-    "batch": "Summer 2026 (YC company page)",
+    "batch": "Summer 2026",
     "industry": "B2B / B2B -> Infrastructure",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "Deep Learning, B2B, Energy",
-    "yc_partner": "Jared Friedman (YC company page)",
-    "emails": "partnerships@edviroenergy.com (edviroenergy.com)"
+    "yc_partner": "Jared Friedman ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/edviro))",
+    "emails": "founders@edviroenergy.com ([company website, Jul 2026](https://edviroenergy.com))"
   },
   "tags": [
     "Deep Learning",
@@ -19,52 +19,52 @@
     "Energy"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-06-30T17:20:10.798Z",
+  "memoGeneratedAt": "2026-07-30T17:25:57.178Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 59,
+      "score": 61,
       "tier": "Neutral"
     },
+    "elad-gil": {
+      "score": 61,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 76,
+      "tier": "Invest"
+    },
     "peter-thiel": {
-      "score": 31,
-      "tier": "Pass"
+      "score": 48,
+      "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 29,
-      "tier": "Pass"
+      "score": 51,
+      "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 37,
+      "score": 44,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 43,
-    "EG": 40,
-    "NR": 34,
-    "PG": 59,
-    "PT": 31,
-    "SL": 29,
-    "VK": 37
+    "CB": 61,
+    "EG": 61,
+    "NR": 48,
+    "PG": 76,
+    "PT": 48,
+    "SL": 51,
+    "VK": 44
   },
-  "consolidatedAvg": 39,
-  "consolidatedRank": 33,
+  "consolidatedAvg": 55.57,
+  "consolidatedRank": 60,
   "traction": {
-    "tractionRank": 23,
-    "tractionScore": 37,
-    "tractionReason": "$400K savings, 1 district / 7 sites / 16 meters"
+    "tractionRank": 26,
+    "tractionScore": 61,
+    "tractionReason": "$20K ARR; seven sites live and 29 expanding"
   },
   "paths": {
     "memo": "summer2026/memos/edviro.md",

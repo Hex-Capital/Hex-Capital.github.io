@@ -3,7 +3,7 @@
   "name": "Greypoint Industries",
   "oneLiner": "Manufacturing the future of autonomous swarm warfare.",
   "metadata": {
-    "website": "https://greypointindustries.ca/",
+    "website": "https://greypointindustries.com/",
     "yc_page": "https://www.ycombinator.com/companies/greypoint-industries",
     "batch": "Summer 2026",
     "industry": "Industrials / Industrials -> Defense",
@@ -21,52 +21,52 @@
     "Defense"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-06-30T04:52:55.177Z",
+  "memoGeneratedAt": "2026-07-30T17:50:43.983Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 38,
-      "tier": "Pass"
+      "score": 73,
+      "tier": "Invest"
     },
     "elad-gil": {
-      "score": 43,
-      "tier": "Pass"
+      "score": 58,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 27,
-      "tier": "Pass"
+      "score": 47,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 41,
-      "tier": "Pass"
+      "score": 77,
+      "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 29,
-      "tier": "Pass"
+      "score": 49,
+      "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 26,
-      "tier": "Pass"
+      "score": 51,
+      "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 50,
+      "score": 61,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 38,
-    "EG": 43,
-    "NR": 27,
-    "PG": 41,
-    "PT": 29,
-    "SL": 26,
-    "VK": 50
+    "CB": 73,
+    "EG": 58,
+    "NR": 47,
+    "PG": 77,
+    "PT": 49,
+    "SL": 51,
+    "VK": 61
   },
-  "consolidatedAvg": 36.29,
-  "consolidatedRank": 52,
+  "consolidatedAvg": 59.43,
+  "consolidatedRank": 28,
   "traction": {
-    "tractionRank": 29,
-    "tractionScore": 30,
-    "tractionReason": "Defence Tech Hackathon 1st, UBC cohort, YC"
+    "tractionRank": 43,
+    "tractionScore": 55,
+    "tractionReason": "Signed first counter-drone system contract"
   },
   "paths": {
     "memo": "summer2026/memos/greypoint-industries.md",

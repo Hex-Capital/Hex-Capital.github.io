@@ -6,95 +6,79 @@
 |-------|-------|
 | Website | https://www.getprescience.com/ |
 | YC Page | https://www.ycombinator.com/companies/prescience-inc |
-| Batch | Summer 2026 |
+| Batch | Summer 2026 ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/prescience-inc)) |
 | Industry | Healthcare / Healthcare |
 | Team Size | 2 |
 | Location | Boston, MA, USA |
 | Tags | Health Insurance, Insurance |
-| YC Partner | Ankit Gupta |
-| Emails | No public data found |
+| YC Partner | Ankit Gupta ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/prescience-inc)) |
+| Emails | founders@getprescience.com, rishab@getprescience.com, privacy@getprescience.com, legal@getprescience.com, support@getprescience.com ([YC Launch](https://www.ycombinator.com/launches/Rjs-prescience-superintelligence-for-the-american-health-system); [LinkedIn](https://www.linkedin.com/in/rishab-jain-k); [Privacy Policy](https://www.getprescience.com/privacy), Jul 2026) |
 
 ## The Idea
 
-- **Problem:** US employers face traditional PEO health plans averaging $1,213 PMPM / $16,800 per-employee annual cost, and 100-250 employee companies seek lower-cost alternatives without sacrificing benefits (getprescience.com homepage).
-- **Approach:** AI-driven health benefits platform combining "Prescience Time Machine" predictive routing (an "AlphaGo-like system" steering patients toward "Move 37 health trajectories"), 24/7 AI Care Companion with MD support, transparent provider pricing, and just-in-time HSA funding (getprescience.com).
-- **Differentiation:** vs. Sana Benefits (full-stack employer health plan) — Prescience layers AI predictive routing on top; vs. Thatch/SureCo (ICHRA enablement) — Prescience operates the plan itself rather than enabling employee-chosen plans (getprescience.com homepage; thatch.com).
-- **Business Model:** "Diamond Plan" advertised with $0 employee premium, $0 deductible, zero admin fees, $600 PMPM forecast (getprescience.com); [Inferred]: revenue likely from per-employee monthly fees / insurance carrier economics rather than disclosed SaaS tiers.
-- **TAM/SAM:** Company cites "$4.5T healthcare industry" (YC company page); No public TAM/SAM data found for the AI-driven employer health benefits sub-segment specifically.
-- **GTM / Distribution:** Sales via cal.com/prescience/30min demo booking; Rippling partnership referenced on homepage (getprescience.com); [Inferred]: direct outbound to "ambitious" employers (Series D companies, FAANG, MBB consulting, Goldman/JPM, Frontier Labs are named as targets/logos on homepage).
+- **Problem:** U.S. employers use brokered PEO, UnitedHealthcare, Blue Cross, and similar plans while healthcare is often their second-largest P&L expense and costs are rising about 15% annually, according to Prescience ([YC Launch, Jul 2026](https://www.ycombinator.com/launches/Rjs-prescience-superintelligence-for-the-american-health-system)).
+- **Approach:** Time Machine uses reinforcement learning trained on medical histories to search millions of possible patient trajectories, while Crystal provides navigation and a contracted physician network supplies care ([YC Launch, Jul 2026](https://www.ycombinator.com/launches/Rjs-prescience-superintelligence-for-the-american-health-system)).
+- **Differentiation:** Versus United and Blue Cross, Prescience claims direct physician negotiation, savings-linked compensation, and AI-directed preventive care; versus Thatch’s employee-selected ICHRA plans and Angle’s level-funded plan administration, Prescience proposes an integrated payer-provider model driven by patient-trajectory prediction ([YC Launch](https://www.ycombinator.com/launches/Rjs-prescience-superintelligence-for-the-american-health-system); [Thatch](https://thatch.com/blog/how-does-ichra-work); [Angle Health](https://www.anglehealth.com/), Jul 2026).
+- **Business Model:** Prescience says it charges no administrative fee, broker commission, PBM spread, or carrier-margin loading and is paid only when it saves an employer money, but no savings-share percentage is disclosed ([company website](https://www.getprescience.com/); [YC Launch](https://www.ycombinator.com/launches/Rjs-prescience-superintelligence-for-the-american-health-system), Jul 2026).
+- **TAM/SAM:** The U.S. group-health-insurance market was estimated at $1.41 trillion in 2024 with a projected 2.2% CAGR through 2030, while no public SAM data was found for Prescience’s targeted employer cohort ([Grand View Research, 2026](https://www.grandviewresearch.com/industry-analysis/us-group-health-insurance-market-report)).
+- **GTM / Distribution:** Prescience offers quotes and a YC-company deal while requesting introductions to founders, CFOs, Chief People Officers, benefits managers, brokers, and HRIS platforms preparing 2027 benefits ([YC Launch, Jul 2026](https://www.ycombinator.com/launches/Rjs-prescience-superintelligence-for-the-american-health-system)).
 
 ## Defensibility
 
-- **Moat today:** No defensibility signals found in public sources beyond the proprietary "Prescience Time Machine" predictive routing system, which is described but not benchmarked publicly (getprescience.com).
-- **Future moat:** [Inferred]: claims data + outcome data from operated employer plans could compound into a proprietary training corpus for the predictive routing model; unproven now because no customer count, claims volume, or model performance is disclosed.
-- **Market structure:** [Inferred]: traditional PEOs and carriers face channel conflict with broker networks if they replicate transparent-pricing / zero-admin-fee model, but no specific incumbent constraint is documented in public sources.
-- **Commoditization risk:** [Inferred]: ICHRA platforms (Thatch, SureCo, Venteur) and AI-care-navigation startups could converge on the same offering; underlying carrier risk-bearing requires licensed insurance partners that any well-funded competitor can contract.
+- **Moat today:** The website lists California Administrator License #6019366, while the company reports direct physician contracting and partnerships covering banking, HSA, legal, compliance, provider networks, and risk ([company website](https://www.getprescience.com/); [YC Launch](https://www.ycombinator.com/launches/Rjs-prescience-superintelligence-for-the-american-health-system), Jul 2026).
+- **Future moat:** [Inferred]: Longitudinal claims, records, wearable, navigation, and outcome data could improve risk and routing models, but no public data found establishing dataset scale or model-performance improvement.
+- **Market structure:** No structural barrier identified at this stage because Angle already markets a full-stack AI-enabled health plan and Collective Health offers integrated administration, navigation, and a 24/7 AI companion ([Angle Health](https://www.anglehealth.com/); [Collective Health](https://collectivehealth.com/), Jul 2026).
+- **Commoditization risk:** Funded benefits platforms can combine automated quoting, claims administration, navigation, payroll integration, and AI assistance using capabilities already marketed by Angle, Thatch, and Collective Health ([Angle Health](https://www.anglehealth.com/); [Thatch](https://thatch.com/blog/thatch-series-b-announcement); [Collective Health](https://collectivehealth.com/)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Customer testimonial: "$25.7K cost avoided per predicted intervention case study" (getprescience.com).
-  - Customer testimonial: "$875K runway returned in Series B case study" (getprescience.com).
-  - Customer logos referenced (no names): Series D company, FAANG, MBB consulting firm, Goldman/JPM, Frontier Lab (getprescience.com).
-  - Rippling partnership referenced on homepage (getprescience.com).
-  - Job postings: 0 active on YC page (ycombinator.com/companies/prescience).
-  - Founder X following: @RishabJainK 2,761 followers (X profile via search snippet).
-  - No public data found for company X (@getprescience) follower count, LinkedIn follower count, Product Hunt rank, ARR, paying customer count, or press coverage.
+  - Prescience reports serving an undisclosed number of employers and reducing premiums by approximately 20% ([YC Launch, Jul 2026](https://www.ycombinator.com/launches/Rjs-prescience-superintelligence-for-the-american-health-system)).
+  - The member site says design partners currently run its Diamond plan, with exact copays and contributions varying by employer configuration ([Prescience member page, Jul 2026](https://www.presciencemed.com/for-members)).
+  - Rishab Jain reports more than 160,000 YouTube subscribers across several channels and has 20,000 LinkedIn followers ([personal site](https://www.rishabjaink.com/); [LinkedIn](https://www.linkedin.com/in/rishab-jain-k), Jul 2026).
+  - No jobs were posted on YC at the research date ([YC Jobs, Jul 2026](https://www.ycombinator.com/companies/prescience-inc/jobs)).
 - **Competitors:**
-  - Sana Benefits ($111M total raised across 5 rounds, last Series B Jun 2022; revenue unknown): full-stack small-business health plan, no AI predictive routing emphasis (Crunchbase / Tracxn via search snippet).
-  - Sidecar Health ($328M total raised, $1.2B valuation, Series D $165M Jun 2024 led by Koch Disruptive Technologies; revenue unknown): cash-price major medical plans for midsize/large employers (MobiHealthNews; Tracxn).
-  - Thatch ($84.5M total raised, $40M Series B Apr 2025 led by Index Ventures; revenue unknown): ICHRA platform helping employees choose plans rather than operating an employer plan (TechCrunch, Apr 2025).
-  - SureCo (ICHRA enablement platform; funding not retrieved): employer ICHRA distribution via choice-based marketplace (search snippet).
-  - Nayya (benefits-decision platform; funding not retrieved): data-driven benefits-decision tooling, not a health plan operator (search snippet).
-- **Why now:** [Inferred]: ICHRA regulatory expansion since 2020 plus LLM/agent capability gains in 2024-2025 enable AI-driven care routing and plan operation at small employer scale; no company- or analyst-stated catalyst cited.
+  - Thatch ($84.5M raised; latest $40M Series B led by Index Ventures in April 2025; revenue unknown): gives employees employer-funded ICHRA allowances to select individual insurance rather than operating Prescience’s proposed payer-provider plan ([TechCrunch](https://techcrunch.com/2025/04/03/thatch-raises-40m-to-give-employees-more-control-of-their-health-insurance-choices/); [Thatch](https://thatch.com/blog/thatch-series-b-announcement)).
+  - Angle Health ($196.5M raised; latest $134M debt-and-equity Series B led by Portage in December 2025; revenue unknown): offers level-funded plans, automated quotes, and administration across 44 states rather than patient-trajectory routing ([CB Insights](https://www.cbinsights.com/company/angle-health/financials); [Fortune](https://fortune.com/2025/12/03/exclusive-angle-health-raises-134-million-series-b-to-grow-its-ai-driven-healthcare-benefits-offerings/)).
+  - Gravie ($582.6M raised; latest $50M round in June 2026; revenue unknown): targets small and midsize employers with level-funded and ICHRA products whose common services can carry zero member cost ([CB Insights](https://www.cbinsights.com/company/gravie/financials); [Gravie](https://www.gravie.com/)).
+  - Collective Health ($714M raised; latest $280M Series F led by HCSC in May 2021; revenue unknown): administers self-funded employer plans and navigation for more than 800,000 members rather than underwriting an integrated payer-provider product ([CB Insights](https://www.cbinsights.com/company/collective-health/financials); [Collective Health](https://collectivehealth.com/third-party-administrator-benefits-admin/)).
+- **Why now:** Prescience attributes its timing to AI systems becoming capable of modeling behavior, biology, and health risk, while employer-sponsored family premiums rose 6% to $26,993 in 2025 ([Prescience manifesto](https://careers.getprescience.com/manifesto); [KFF, 2025](https://www.kff.org/health-costs/2025-employer-health-benefits-survey/)).
 
 ## Founders & Team
 
 - **Rishab Jain (CEO):**
-  - Background: Harvard neuroscience and computer science; former CEO of Qurios and ICOR Therapeutics (both stated as acquired per YC description and Crunchbase via search snippet); 10+ ML and health research papers (search snippet); TIME 25 Most Influential Teens, Regeneron $50K Young Scientist Award, multiple ISEF wins (search snippet); America's Top Young Scientist for pancreatic cancer detection AI work at age 13 (search snippet).
-  - Twitter/X: @RishabJainK, 2,761 followers (X profile via search snippet).
-  - LinkedIn: "Rishab Jain - Prescience" (linkedin.com/in/rishab-jain-k); headline not retrievable.
-  - GitHub: @RJain12 (github.com/RJain12); top repo / star count not retrievable.
-- **Aditya Jain, M.D. (COO):**
-  - Background: M.D., Harvard Medical School (2021-2025); B.S. Biomedical Engineering, Boston University, Magna Cum Laude (2017-2021); AI researcher at Broad Institute of MIT and Harvard since Oct 2021; prior work at MESH Incubator at Mass General Brigham; Doximity health policy fellow / op-ed author (LinkedIn, Doximity, ResearchGate via search snippet).
-  - Twitter/X: @adityajain_42 (twitter.com/adityajain_42); count not retrievable.
-  - LinkedIn: "M.D. Student at Harvard Medical School" (linkedin.com/in/adityajain2000).
+  - Background: Studied computer science and neuroscience at Harvard, authored more than 10 ML and health papers, founded and exited Qurios, and formerly led acquired ICOR Therapeutics ([Prescience manifesto](https://careers.getprescience.com/manifesto); [personal site](https://www.rishabjaink.com/)).
+  - Twitter/X: @rishabjaink; count not retrievable ([personal site, Jul 2026](https://www.rishabjaink.com/)).
+  - LinkedIn: “Prescience,” with 20,000 followers ([LinkedIn, Jul 2026](https://www.linkedin.com/in/rishab-jain-k)).
+  - GitHub: @RJain12; ICOR codon optimization has 70 stars ([GitHub, Jul 2026](https://github.com/RJain12)).
+- **Aditya Jain, MD (President/COO):**
+  - Background: Earned a biomedical-engineering degree from Boston University and an MD from Harvard Medical School, conducted AI research at the Broad Institute, and served as a Doximity Op-Med Fellow ([Boston University](https://www.bu.edu/eng/files/2022/10/2021_SDP_11_.pdf); [Prescience manifesto](https://careers.getprescience.com/manifesto)).
+  - Twitter/X: No public account found.
+  - LinkedIn: “Prescience,” with 5,000 followers ([LinkedIn, Jul 2026](https://www.linkedin.com/in/adityajain2000)).
   - GitHub: No public repos found.
-- **Co-founder relationship:** Brothers; both affiliated with Harvard (YC company description; getprescience.com manifesto).
-- **Founder-market fit:** Co-founders combine ML/biomedical research output (Rishab: ICOR codon-optimization paper in BMC Bioinformatics) with clinical training (Aditya: HMS M.D., Broad AI research), matching the stated product of an AI-driven employer health plan (search snippets; ycombinator.com/companies/prescience).
+- **Co-founder relationship:** Rishab and Aditya are brothers who report building together for 10 years ([Prescience manifesto, Jul 2026](https://careers.getprescience.com/manifesto)).
+- **Founder-market fit:** Rishab’s ML, computational-neuroscience, and prior-company experience combines with Aditya’s medical training, biomedical engineering, and health-policy work ([YC Launch](https://www.ycombinator.com/launches/Rjs-prescience-superintelligence-for-the-american-health-system); [Prescience manifesto](https://careers.getprescience.com/manifesto), Jul 2026).
 
 ## Key Risks
 
-- **Regulatory / insurance-licensing risk:** Operating an employer health plan (vs. ICHRA enablement or care navigation) requires state insurance licensure or partnership with a licensed carrier; no public disclosure of carrier partner or licensure status (getprescience.com). Mitigation: not documented.
-- **Unproven cost-savings claim:** "20-50% savings" and "$600 PMPM vs. $1,213 market" are company-stated forecasts/claims with no independent actuarial validation or named customer testimonial public (getprescience.com).
-- **Well-funded competitive set:** Sidecar Health ($328M raised, $1.2B valuation) and Thatch ($84.5M raised, Index/a16z/General Catalyst-backed) target the same employer-health-benefits buyer with multi-year head starts (Tracxn; TechCrunch Apr 2025).
-- **Founder execution concentration:** Two-person team with one founder (Aditya) finishing M.D. in 2025 per LinkedIn; building, operating, insuring, and delivering healthcare end-to-end is a wide scope for a 2-person team per YC company page.
-- **Technical feasibility of "Time Machine":** "AlphaGo-like" predictive health-trajectory system is described but no benchmark, dataset disclosure, or peer-reviewed validation has been published (getprescience.com).
+- **Technical validation:** Time Machine is presented as predicting and steering patient trajectories, but no public data found for prospective validation accuracy, clinical outcomes, or realized claims savings ([YC Launch](https://www.ycombinator.com/launches/Rjs-prescience-superintelligence-for-the-american-health-system); [company website](https://www.getprescience.com/)).
+- **Regulatory and data scope:** Prescience processes PHI, claims, financial information, medical records, and optional Gmail data while its website lists one California administrator license; mitigations include encryption, employer-member data separation, BAAs, and HIPAA-oriented controls ([Privacy Policy, Jul 2026](https://www.getprescience.com/privacy)).
+- **Savings-dependent economics:** The company says it is paid only when savings occur while offering approximately 20% lower premiums and $0 deductibles, making compensation and plan economics dependent on underwriting and realized care-cost reductions ([YC Launch, Jul 2026](https://www.ycombinator.com/launches/Rjs-prescience-superintelligence-for-the-american-health-system)).
+- **Competitive overlap:** Angle already serves more than 2,600 employers across 44 states, while Collective Health reports more than 800,000 members and markets overlapping AI navigation and administration ([Fortune](https://fortune.com/2025/12/03/exclusive-angle-health-raises-134-million-series-b-to-grow-its-ai-driven-healthcare-benefits-offerings/); [Collective Health](https://collectivehealth.com/third-party-administrator-benefits-admin/)).
+- **Entity ambiguity:** YC lists Boston while the company LinkedIn page lists San Francisco, and unrelated companies use the Prescience name, including a Chicago security firm ([YC](https://www.ycombinator.com/companies/prescience-inc); [company LinkedIn](https://www.linkedin.com/company/prescienceinc/); [unrelated Prescient](https://www.linkedin.com/company/prescient-edge), Jul 2026).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | "$4.5T healthcare industry" cited by company (YC company description, 2026); no third-party TAM for AI-employer-health-benefits sub-segment found |
+| TAM | $1.41T U.S. group-health-insurance market in 2024, projected 2.2% CAGR through 2030 ([Grand View Research, 2026](https://www.grandviewresearch.com/industry-analysis/us-group-health-insurance-market-report)) |
 | SAM | No public data found |
-| Traction | Customer logos referenced as Series D, FAANG, MBB, Goldman/JPM, Frontier Lab (getprescience.com); 0 YC-listed job postings (ycombinator.com); no user, customer, or revenue counts disclosed |
-| Revenue Signal | Pricing claims: $600 PMPM forecast vs $1,213 market; $7,200 per-employee annual cost vs $16,800 PEO; "$0 employee premium / $0 deductible / zero admin fees" Diamond Plan (getprescience.com homepage, 2026) |
-| Founders | Rishab Jain (CEO): Harvard CS/neuro, former CEO Qurios + ICOR Therapeutics (both acquired per YC), Regeneron $50K, TIME 25 Teens. Aditya Jain (COO): Harvard M.D. 2025, BU BME Magna Cum Laude, Broad Institute AI researcher, Doximity policy fellow |
-| Competitors | Sana Benefits ($111M raised, revenue unknown, full-stack small-business plan w/o AI routing); Sidecar Health ($328M raised, $1.2B val, revenue unknown, cash-price major medical); Thatch ($84.5M raised, revenue unknown, ICHRA enablement not plan operator); SureCo (funding not retrieved, ICHRA marketplace); Nayya (funding not retrieved, benefits-decision tooling) |
-| Moat Signals | No public data found beyond proprietary "Prescience Time Machine" predictive routing system (getprescience.com) |
-| Risk Factors | Insurance licensing/regulatory exposure, unvalidated 20-50% savings claim, well-funded competitive set (Sidecar Health $328M, Thatch $84.5M) |
-| Founder Reach | Rishab Jain: X @RishabJainK 2,761 followers, LinkedIn linkedin.com/in/rishab-jain-k, GitHub @RJain12 star count not retrievable. Aditya Jain: X @adityajain_42 count not retrievable, LinkedIn linkedin.com/in/adityajain2000, no public GitHub repos found |
-| Distribution Signals | Demo booking via cal.com/prescience/30min; Rippling partnership referenced (getprescience.com); no Product Hunt, app store, or Chrome Web Store presence found |
-| Emails | No public data found |
-
-Sources:
-- [Prescience YC page](https://www.ycombinator.com/companies/prescience-inc)
-- [getprescience.com](https://www.getprescience.com/)
-- [Rishab Jain personal site](https://www.rishabjaink.com/)
-- [Aditya Jain LinkedIn](https://www.linkedin.com/in/adityajain2000/)
-- [Aditya Jain Doximity "Contra Residency"](https://opmed.doximity.com/articles/why-i-didn-t-apply-to-residency-and-what-i-m-doing-instead)
-- [Rishab Jain X](https://x.com/RishabJainK)
-- [Thatch Series B - TechCrunch Apr 2025](https://techcrunch.com/2025/04/03/thatch-raises-40m-to-give-employees-more-control-of-their-health-insurance-choices/)
-- [Sidecar Health funding - Tracxn](https://tracxn.com/d/companies/sidecar-health/__qlANqYGGjFq1v22uwiew8R6WwRTOF8N_ZUe28ClpuH4/funding-and-investors)
-- [Sana Benefits Crunchbase](https://www.crunchbase.com/organization/sana-benefits)
-- [Sidecar Health $1B unicorn - MobiHealthNews](https://www.mobihealthnews.com/news/self-pay-insurtech-startup-sidecar-health-hits-unicorn-status-125m-series-c)
+| Traction | Undisclosed employer customers and claimed approximately 20% premium reduction ([YC Launch, Jul 2026](https://www.ycombinator.com/launches/Rjs-prescience-superintelligence-for-the-american-health-system)) |
+| Revenue Signal | Paid only when employer savings occur; website lists $0 administrative fee, broker commission, PBM spread, and carrier-margin loading ([YC Launch](https://www.ycombinator.com/launches/Rjs-prescience-superintelligence-for-the-american-health-system); [company website](https://www.getprescience.com/), Jul 2026) |
+| Founders | Rishab Jain (CEO): Harvard CS/neuroscience, Qurios exit, ML/health research; Aditya Jain, MD (President/COO): Harvard MD, BU biomedical engineering, Broad Institute and Doximity experience ([Prescience manifesto](https://careers.getprescience.com/manifesto); [YC Launch](https://www.ycombinator.com/launches/Rjs-prescience-superintelligence-for-the-american-health-system)) |
+| Competitors | Thatch ($84.5M raised, revenue unknown, ICHRA); Angle Health ($196.5M raised, revenue unknown, level-funded plans); Gravie ($582.6M raised, revenue unknown, zero-cost common care); Collective Health ($714M raised, revenue unknown, self-funded TPA) ([Thatch](https://techcrunch.com/2025/04/03/thatch-raises-40m-to-give-employees-more-control-of-their-health-insurance-choices/); [Angle](https://www.cbinsights.com/company/angle-health/financials); [Gravie](https://www.cbinsights.com/company/gravie/financials); [Collective Health](https://www.cbinsights.com/company/collective-health/financials)) |
+| Moat Signals | California Administrator License #6019366 listed; reinforcement-learning system trained on medical histories; direct physician and operational partnerships ([company website](https://www.getprescience.com/); [YC Launch](https://www.ycombinator.com/launches/Rjs-prescience-superintelligence-for-the-american-health-system), Jul 2026) |
+| Risk Factors | Unpublished clinical validation, multistate regulatory and PHI scope, savings-dependent economics, funded platform competition ([YC Launch](https://www.ycombinator.com/launches/Rjs-prescience-superintelligence-for-the-american-health-system); [Privacy Policy](https://www.getprescience.com/privacy), Jul 2026) |
+| Founder Reach | Rishab: X count not retrievable, LinkedIn 20K followers, GitHub top repo 70 stars; Aditya: LinkedIn 5K followers, no publicly linked X or GitHub account ([Rishab LinkedIn](https://www.linkedin.com/in/rishab-jain-k); [GitHub](https://github.com/RJain12); [Aditya LinkedIn](https://www.linkedin.com/in/adityajain2000), Jul 2026) |
+| Distribution Signals | YC launch in July 2026; Rishab reports 160K+ YouTube subscribers and 20K LinkedIn followers; zero YC job postings ([YC Launch](https://www.ycombinator.com/launches/Rjs-prescience-superintelligence-for-the-american-health-system); [personal site](https://www.rishabjaink.com/); [YC Jobs](https://www.ycombinator.com/companies/prescience-inc/jobs), Jul 2026) |
+| Emails | founders@getprescience.com, rishab@getprescience.com, privacy@getprescience.com, legal@getprescience.com, support@getprescience.com ([YC Launch](https://www.ycombinator.com/launches/Rjs-prescience-superintelligence-for-the-american-health-system); [LinkedIn](https://www.linkedin.com/in/rishab-jain-k); [Privacy Policy](https://www.getprescience.com/privacy), Jul 2026) |

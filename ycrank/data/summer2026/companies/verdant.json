@@ -5,64 +5,64 @@
   "metadata": {
     "website": "https://www.verdantapp.com/",
     "yc_page": "https://www.ycombinator.com/companies/verdant",
-    "batch": "Summer 2026 (YC company page)",
+    "batch": "Summer 2026 ([Y Combinator](https://www.ycombinator.com/companies/verdant), Jul 2026)",
     "industry": "Government / Government",
     "team_size": "2",
-    "location": "Not listed on YC page",
+    "location": "Washington, DC, USA",
     "tags": "GovTech",
-    "yc_partner": "Jared Friedman (YC company page)",
-    "emails": "aidan@verdantapp.com (verdantapp.com)"
+    "yc_partner": "Jared Friedman ([Y Combinator](https://www.ycombinator.com/companies/verdant), Jul 2026)",
+    "emails": "founders@verdantapp.com, privacy@verdantapp.com, security@verdantapp.com ([Y Combinator](https://www.ycombinator.com/companies/verdant); [Verdant privacy policy](https://www.verdantapp.com/privacy); [Verdant terms](https://www.verdantapp.com/terms), Jul 2026)"
   },
   "tags": [
     "GovTech"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-06-30T04:52:15.242Z",
+  "memoGeneratedAt": "2026-07-30T17:50:56.201Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 42,
-      "tier": "Pass"
+      "score": 55,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 31,
-      "tier": "Pass"
+      "score": 51,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 29,
+      "score": 39,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 36,
-      "tier": "Pass"
+      "score": 62,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 25,
+      "score": 34,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 25,
+      "score": 34,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 30,
+      "score": 42,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 42,
-    "EG": 31,
-    "NR": 29,
-    "PG": 36,
-    "PT": 25,
-    "SL": 25,
-    "VK": 30
+    "CB": 55,
+    "EG": 51,
+    "NR": 39,
+    "PG": 62,
+    "PT": 34,
+    "SL": 34,
+    "VK": 42
   },
-  "consolidatedAvg": 31.14,
-  "consolidatedRank": 76,
+  "consolidatedAvg": 45.29,
+  "consolidatedRank": 142,
   "traction": {
-    "tractionRank": 70,
-    "tractionScore": 6,
-    "tractionReason": "YC S26 batch only, no data"
+    "tractionRank": 140,
+    "tractionScore": 21,
+    "tractionReason": "200 interviews; no pilot or customer disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/verdant.md",

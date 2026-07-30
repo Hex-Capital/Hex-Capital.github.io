@@ -1,99 +1,83 @@
 ﻿# TrustAI
 
-> Suggested cross-tool automations that run in one-click in background
+> Continuous compliance and governance for agents on sensitive systems
 
 | Field | Value |
 |-------|-------|
-| Website | https://auto.trytrust.ai/ |
+| Website | https://trytrust.ai |
 | YC Page | https://www.ycombinator.com/companies/trustai |
 | Batch | Summer 2026 |
-| Industry | B2B / B2B -> Infrastructure |
+| Industry | B2B / B2B -> Security |
 | Team Size | 3 |
 | Location | San Francisco, CA, USA |
-| Tags | Artificial Intelligence, B2B, Workflow Automation, Productivity |
+| Tags | B2B, Compliance, Security, AI |
 | YC Partner | Ankit Gupta |
-| Emails | No public data found |
+| Emails | hello@trytrust.ai, admin@trytrust.ai, data@trytrust.ai, legals@trytrust.ai |
 
 ## The Idea
 
-- **Problem:** Knowledge workers repeat cross-tool busywork across CRMs, Slack, GitHub, and internal apps, with current alternatives being manual copy/paste or narrowly-scoped rule builders like Zapier (company website, auto.trytrust.ai, Jul 2026).
-- **Approach:** A background layer "runs quietly alongside your tools," observes browser context across HubSpot/Salesforce/Gmail/Slack/Google Docs/GitHub, and surfaces one-click automation suggestions users can accept, tweak, or ignore (company website, auto.trytrust.ai, Jul 2026).
-- **Differentiation:** Versus Bardeen (Chrome extension for scraping/CRM enrichment, bardeen.ai) and Zapier (rule-based, 8,000+ integrations, per Magical blog): TrustAI claims "no installation required" and suggestion-generation from observed top-performer behavior rather than user-authored triggers (company website, auto.trytrust.ai, Jul 2026).
-- **Business Model:** No pricing page or tier data disclosed on the site; only a Calendly demo booking is exposed (company website, Jul 2026). [Inferred]: Likely per-seat SaaS given B2B org-dashboard framing.
-- **TAM/SAM:** No public TAM/SAM data found for this specific segment.
-- **GTM / Distribution:** [Inferred]: Direct sales via demo-booking Calendly funnel targeting sales/CS orgs already using HubSpot and Salesforce, based on the logo lineup and org-adoption dashboard shown on the site (company website, Jul 2026).
+- **Problem:** Enterprises lack evidence that AI agents accessing ERP systems and private data stay within authorized tasks because initial permissions are broad, access drifts, and relevant activity is dispersed across logs, while legacy GRC, SOC 2, and ISO controls were designed for deterministic systems ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/trustai)).
+- **Approach:** TrustAI connects to an MCP hub without agent code changes, enumerates each agent’s tools, prompts, and authorizations, resolves their ERP reach, runs preregistered controls, and has an analyst sign a go/no-go report ([TrustAI product page, Jul 2026](https://trytrust.ai/how-it-works)).
+- **Differentiation:** Noma and Zenity emphasize discovery and runtime enforcement, WitnessAI applies organization-wide human-and-agent policies, and Patronus AI provides developer evals and simulation, whereas TrustAI centers analyst-reviewed predeployment assessments, ERP blast-radius mapping, and control-mapped evidence reports ([Noma](https://noma.security/), [Zenity](https://zenity.io/platform), [WitnessAI](https://witness.ai/), [Patronus AI](https://docs.patronus.ai/docs), [TrustAI](https://trytrust.ai/)).
+- **Business Model:** Contracts use order-form pricing that may combine annual recurring platform fees, quarterly consumption charges, professional-service fees, and one-time implementation or workshop fees, with amounts undisclosed ([TrustAI Terms, Mar 2026](https://trytrust.ai/legal/terms)).
+- **TAM/SAM:** The global AI-governance market was estimated at $308.3M in 2025 and projected to reach $3.59B in 2033 at a 36.0% CAGR from 2026–2033, but no public SAM estimate was found for agent governance on sensitive enterprise systems ([Grand View Research, May 2026](https://www.marketresearch.com/Grand-View-Research-v4060/AI-Governance-Size-Share-Trends-45393927/)).
+- **GTM / Distribution:** TrustAI uses demo-led enterprise sales, offering an assessment of a prospect’s own agent and listing SAP, Oracle, NetSuite, Jira, and ServiceNow integrations ([TrustAI integrations, Jul 2026](https://trytrust.ai/integrations)).
 
 ## Defensibility
 
-- **Moat today:** No defensibility signals found in public sources; product page describes cross-tool context capture but no proprietary dataset, patents, or exclusive integrations are cited (company website, Jul 2026).
-- **Future moat:** [Inferred]: Behavioral dataset of "how top performers work" across a customer's tool stack could produce personalized suggestions competitors cannot replicate; unproven because no customer-count or data-volume figures are public.
-- **Market structure:** [Inferred]: No structural barrier identified at this stage; incumbents Zapier, Bardeen, and Salesforce Flow all have overlapping distribution and can add suggestion layers.
-- **Commoditization risk:** Bardeen (raised $25.3M, per TechCrunch Aug 2024), Zapier, and Salesforce all ship browser-context or agent features and could add suggestion generation with existing user bases (TechCrunch, Aug 2024; getmagical.com blog).
+- **Moat today:** TrustAI publishes a catalog supporting 51 tests per assessment across six risk categories, maps results to four frameworks, and states that every report receives analyst review ([TrustAI, Jul 2026](https://trytrust.ai/)).
+- **Future moat:** [Inferred]: Repeated assessments could create proprietary agent-behavior, permission-path, and remediation data, but no customer scale or measured outcome dataset is publicly disclosed.
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** SAP embeds identity and authorization services in Joule Studio, Oracle exposes secure NetSuite MCP connectors, and Noma, WitnessAI, and Zenity already offer overlapping agent discovery, governance, and runtime controls ([SAP, Oct 2025](https://news.sap.com/2025/10/sap-connect-business-ai-new-joule-agents-embedded-intelligence/), [Oracle, Oct 2025](https://www.oracle.com/in/news/announcement/sw25-netsuite-expands-suitecloud-platform-new-ai-innovation-2025-10-07/), [Noma](https://noma.security/), [WitnessAI](https://witness.ai/), [Zenity](https://zenity.io/platform)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Company X account @TryTrustAI exists; follower count not retrievable via search (YC page, Jul 2026).
-  - Founder Hannah Chung X account @hannah_chuu: 715 followers (search snippet, Jul 2026).
-  - No Product Hunt launch found for trytrust.ai (WebSearch, Jul 2026).
-  - No press coverage, revenue, user count, or paying-customer figures found in public sources.
-  - Displayed integration logos: HubSpot, Salesforce, Google Sheets, ChatGPT, Gmail, Slack, Google Docs, Google Drive (company website, Jul 2026).
+  - Current governance product: 506 company LinkedIn followers ([LinkedIn, Jul 2026](https://www.linkedin.com/company/agentstrytrustai)).
+  - Current governance-product YC launch post: 679 reactions and 105 comments ([LinkedIn, Jul 2026](https://et.linkedin.com/in/yeabsra-ashebir-8a3a80267)).
+  - 0 jobs posted on YC ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/trustai/jobs)).
 - **Competitors:**
-  - Bardeen ($25.3M raised total incl. $15.3M Series A led by Insight Partners Jun 2022 + $3M from Dropbox/HubSpot Ventures Aug 2024; revenue unknown): browser-extension automation for CRM enrichment; requires install and user-authored playbooks (TechCrunch, Aug 2024; Insight Partners, Jun 2022).
-  - Zapier (bootstrapped, reported ~$300M ARR per prior public reports; revenue unknown for 2026): rule-based cross-app triggers with 8,000+ integrations (Magical blog, 2026).
-  - Magical (raised ~$60M+ per Crunchbase; revenue unknown): text-expansion + automation for sales/CS workflows (getmagical.com blog).
-  - Lindy (funding not disclosed in search; revenue unknown): AI agents that automate multi-step workflows (lindy.ai blog).
-  - n8n (raised ~€60M Series B, per prior reporting; revenue unknown): open-source workflow automation for dev teams (Composio, 2026).
-- **Why now:** [Inferred]: 2024-2026 improvements in browser-agent context capture and LLM tool-use reliability enabled autonomous cross-tool suggestion generation, per the general shift documented in StartupHub.ai's "20 Best AI Agent Workflow Tools 2026" survey.
+  - Noma Security ($132M raised, revenue unknown): discovers models, agents, MCP servers, and data paths and enforces agent access policies at runtime, versus TrustAI’s assessment-and-report workflow ([Reuters, Jul 2025](https://tech.yahoo.com/cybersecurity/articles/israeli-cyber-startup-noma-security-150903560.html), [Noma, Jun 2026](https://noma.security/blog/noma-launches-agentic-access-control-to-govern-ai-agents-and-mcp-servers-across-the-enterprise/)).
+  - WitnessAI ($85.5M raised, revenue unknown): applies intent-based runtime policies and MCP-tool allowlists across employees and agents, versus TrustAI’s preregistered ERP evaluations ([WitnessAI, May 2024](https://witness.ai/resources/witnessai-raises-27-5-million-to-enable-safe-use-of-ai/), [WitnessAI, Jan 2026](https://witness.ai/blog/witnessai-raises-58m-to-help-enterprises-move-faster-with-ai-safely/)).
+  - Zenity ($55M+ raised, revenue unknown): covers agent configuration and execution across SaaS, cloud, and endpoints with inline blocking, versus TrustAI’s analyst-reviewed evidence reports ([Zenity, Oct 2024](https://zenity.io/company-overview/newsroom/company-news/zenity-raises-38m-series-b-funding-round-to-secure-agentic-ai), [Zenity platform](https://zenity.io/platform)).
+  - Patronus AI ($70M raised, revenue unknown): provides automated agent evaluation, monitoring, and simulated digital environments, versus TrustAI’s sensitive-system permission mapping and compliance assessment ([Patronus AI, Jun 2026](https://www.prnewswire.com/news-releases/patronus-ai-raises-50-million-series-b-and-unveils-first-digital-world-models-for-ai-agent-training-and-simulation-302811248.html)).
+- **Why now:** [Inferred]: SAP began releasing Joule agents across enterprise functions in 2025, Oracle introduced NetSuite MCP connectivity in October 2025, and EU AI Act transparency duties begin applying on August 2, 2026 ([SAP, May 2025](https://news.sap.com/2025/05/sap-business-ai-reimagine-how-enterprises-run/), [Oracle, Oct 2025](https://www.oracle.com/in/news/announcement/sw25-netsuite-expands-suitecloud-platform-new-ai-innovation-2025-10-07/), [European Commission, Jul 2026](https://digital-strategy.ec.europa.eu/en/news/commission-publishes-guidelines-transparency-obligations-providers-and-deployers-certain-ai-systems)).
 
 ## Founders & Team
 
-- **Hannah Chung (Co-founder, CEO):**
-  - Background: MIT Washington DC Summer Internship Program 2025 intern; LinkedIn headline lists "Co-founder, CEO @ TrustAI (YC S26)" (LinkedIn, Jul 2026; MIT summerwash.mit.edu, 2025). No prior exits or prior companies found in public sources.
-  - Twitter/X: @hannah_chuu, 715 followers (search snippet, Jul 2026).
-  - LinkedIn: "Co-founder, CEO @ TrustAI (YC S26)" (linkedin.com/in/hannahchung1, Jul 2026).
+- **Hannah Chung (CEO):**
+  - Background: MIT computer science, economics, and data-science student with quantitative-finance work at Virtu Financial and economic and SME-finance research at the World Bank and IFC ([Y Combinator](https://www.ycombinator.com/companies/trustai), [MIT, 2025](https://summerwash.mit.edu/interns/2025/hannah-chung)).
+  - Twitter/X: No public account found.
+  - LinkedIn: “TrustAI,” with 2K followers ([LinkedIn, Jul 2026](https://www.linkedin.com/in/hannahchung1)).
   - GitHub: No public repos found.
-- **Medha Venkatapathy (Co-founder, CTO):**
-  - Background: MIT CS + Physics; USA Physics Team 2021; prior experience at MIT Lincoln Laboratory (LinkedIn linkedin.com/in/medhav, Jul 2026).
-  - Twitter/X: @medha_rv; count not retrievable (YC page, Jul 2026).
-  - LinkedIn: "CS + Physics @ MIT || USA Physics Team '21" (linkedin.com/in/medhav, Jul 2026).
-  - GitHub: No public repos found.
-- **Co-founder relationship:** Both are affiliated with MIT (LinkedIn, MIT summerwash.mit.edu); no public data on shared prior employer.
-- **Founder-market fit:** [Inferred]: Technical MIT CS/Physics background on Medha and product-side leadership on Hannah addresses the technical/agent-reliability side of the problem; no domain-specific enterprise-automation prior experience surfaced in public sources.
+- **Medha Venkatapathy (CTO):**
+  - Background: MIT physics and computer-science student researching LLM post-training and the Muon optimizer with Jacob Andreas, and a U.S. Physics Team qualifier ([MIT SuperUROP, 2025–2026](https://superurop.mit.edu/scholars/medha-venkatapathy/), [Y Combinator](https://www.ycombinator.com/companies/trustai)).
+  - Twitter/X: @medha_rv; count not retrievable ([founder website, Jul 2026](https://medhavenkatapathy.com/)).
+  - LinkedIn: “TrustAI,” with 508 followers ([LinkedIn, Jul 2026](https://www.linkedin.com/in/medhav)).
+  - GitHub: @turtler12; pendulum-seismic-isolation has 0 stars ([GitHub, Jul 2026](https://github.com/turtler12/pendulum-seismic-isolation)).
+- **Co-founder relationship:** Chung and Venkatapathy met at an MIT social event three years ago and report building together since freshman year ([TrustAI](https://trytrust.ai/about), [Y Combinator](https://www.ycombinator.com/companies/trustai)).
+- **Founder-market fit:** [Inferred]: Venkatapathy’s LLM-evaluation research supports the testing layer, while Chung’s quantitative-finance and World Bank work provides exposure to financial controls, data, and regulated decision processes ([MIT SuperUROP](https://superurop.mit.edu/scholars/medha-venkatapathy/), [MIT](https://summerwash.mit.edu/interns/2025/hannah-chung)).
 
 ## Key Risks
 
-- **Incumbent substitution:** Bardeen ($25.3M raised, backed by Dropbox and HubSpot Ventures) already ships a browser-based automation suggestion product with the same integration surface (TechCrunch, Aug 2024); no differentiator with cited defensibility identified in TrustAI's public materials (company website, Jul 2026).
-- **Platform dependency:** Product depends on browser-side observation of HubSpot, Salesforce, Slack, Gmail, and Google Workspace (company website, Jul 2026); a policy or API change (e.g., Salesforce restricting DOM access, Google MV3 changes) could break context capture.
-- **Technical feasibility of "no installation required" context capture:** Site claims cross-tool context observation with no installation (company website, Jul 2026); this typically requires an extension, agent, or OAuth per app — mechanism not documented publicly, raising execution risk on the core promise.
-- **Name/brand disambiguation:** "TrustAI" is shared with an unrelated academic learning-transparency project (learntechlib.org paper), a Singapore-based LinkedIn "TrustAI" company page, and a dentistry brand; brand SEO and enterprise search discoverability may be impaired.
-- **No public traction:** No revenue, user counts, waitlist, Product Hunt launch, or press coverage found (WebSearch, Jul 2026); demand validation is not externally verifiable.
+- **Recent product pivot:** YC lists browser automation as a previous launch and agent governance as the current product, so prior automation claims—including a 47× speed benchmark—do not establish traction for the governance product ([Y Combinator](https://www.ycombinator.com/companies/trustai), [prior-product YC launch, Jul 2026](https://www.linkedin.com/posts/y-combinator_trustai-yc-s26-makes-ai-proactive-by-suggesting-activity-7480251834125668352-lLz6)).
+- **Evaluation transfer:** The sample report states that reconstruction-local results transfer to the live agent only as hypotheses, labels several results as projected, and leaves some domain-specific controls unassessed ([TrustAI sample report, Jul 2026](https://trytrust.ai/report)).
+- **Funded competition:** Noma, WitnessAI, Zenity, and Patronus AI have collectively disclosed more than $342M in funding while offering overlapping discovery, evaluation, policy, or runtime-control functions ([Noma](https://tech.yahoo.com/cybersecurity/articles/israeli-cyber-startup-noma-security-150903560.html), [WitnessAI](https://www.securityweek.com/witnessai-raises-58-million-for-ai-security-platform/), [Zenity](https://zenity.io/company-overview/newsroom/company-news/zenity-raises-38m-series-b-funding-round-to-secure-agentic-ai), [Patronus AI](https://www.prnewswire.com/news-releases/patronus-ai-raises-50-million-series-b-and-unveils-first-digital-world-models-for-ai-agent-training-and-simulation-302811248.html)).
+- **Contract-document consistency:** TrustAI’s terms link to Conduct AI-branded DPA and AI-annex pages and use Conduct AI in U.S. clauses, while the terms and privacy policy list different London registered-office addresses ([TrustAI Terms](https://trytrust.ai/legal/terms), [TrustAI Privacy](https://trytrust.ai/legal/privacy)).
+- **Name collision:** An unrelated Turkish company also operates as TrustAI in AI governance and evaluation, creating search and brand ambiguity that requires domain-level disambiguation ([TrustAI Turkey, Jul 2026](https://trustai.com.tr/en/about)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | No public data found |
+| TAM | $308.3M global AI-governance market in 2025, projected to $3.59B by 2033 at 36.0% CAGR for 2026–2033 ([Grand View Research, May 2026](https://www.marketresearch.com/Grand-View-Research-v4060/AI-Governance-Size-Share-Trends-45393927/)) |
 | SAM | No public data found |
-| Traction | @hannah_chuu 715 X followers (search snippet, Jul 2026); integration logos: HubSpot, Salesforce, Gmail, Slack, Google Workspace, ChatGPT (company website, Jul 2026) |
-| Revenue Signal | No public data found (no pricing page; demo-only Calendly funnel per company website, Jul 2026) |
-| Founders | Hannah Chung (CEO): MIT, MIT Washington DC intern 2025. Medha Venkatapathy (CTO): MIT CS+Physics, USA Physics Team '21, MIT Lincoln Lab. |
-| Competitors | Bardeen ($25.3M raised, revenue unknown, requires Chrome-extension install and user-authored playbooks — TechCrunch Aug 2024); Zapier (bootstrapped, revenue unknown, rule-based multi-app triggers — Magical blog); Magical (~$60M+ raised per Crunchbase, revenue unknown, text-expansion + sales automations); Lindy (funding not disclosed, revenue unknown, AI agents for workflows); n8n (~€60M Series B, revenue unknown, open-source self-hosted automation). |
-| Moat Signals | No public data found |
-| Risk Factors | Incumbent substitution by Bardeen/Zapier, platform/API dependency, unverifiable "no-install" context capture claim |
-| Founder Reach | Hannah Chung: X @hannah_chuu 715 followers, LinkedIn present, GitHub not found. Medha Venkatapathy: X @medha_rv count not retrievable, LinkedIn present, GitHub not found. |
-| Distribution Signals | Company X @TryTrustAI exists (YC page, Jul 2026); no Product Hunt launch found; no Chrome Web Store listing found; no press coverage found |
-| Emails | No public data found |
-
-Sources:
-- [TrustAI YC Company Page](https://www.ycombinator.com/companies/trustai)
-- [TrustAI Product Site](https://auto.trytrust.ai/)
-- [Hannah Chung LinkedIn](https://www.linkedin.com/in/hannahchung1/)
-- [Medha Venkatapathy LinkedIn](https://www.linkedin.com/in/medhav/)
-- [Hannah Chung X (@hannah_chuu)](https://x.com/hannah_chuu)
-- [MIT Washington DC Summer Internship Program 2025 — Hannah Chung](https://summerwash.mit.edu/interns/2025/hannah-chung)
-- [Bardeen Series A — Insight Partners](https://www.insightpartners.com/ideas/bardeen-ai-raises-15-3-million-series-a-to-bring-workflow-automation-to-the-masses/)
-- [Bardeen Dropbox/HubSpot Ventures — TechCrunch](https://techcrunch.com/2024/08/08/ai-business-agent-startup-bardeen-pulls-in-strategic-investment-from-dropbox-and-hubspot/)
-- [Bardeen alternatives — Magical](https://www.getmagical.com/blog/bardeen-alternatives)
-- [Bardeen alternatives — Lindy](https://www.lindy.ai/blog/bardeen-alternatives)
-- [Top AI Workflow Automation Tools 2026 — Composio](https://composio.dev/content/top-ai-workflow-automation-tools-you-must-not-miss-in-2026)
+| Traction | 506 company LinkedIn followers and current YC launch post with 679 reactions and 105 comments ([LinkedIn, Jul 2026](https://www.linkedin.com/company/agentstrytrustai), [YC launch via LinkedIn, Jul 2026](https://et.linkedin.com/in/yeabsra-ashebir-8a3a80267)) |
+| Revenue Signal | Order-form pricing may include annual recurring, quarterly consumption, service, and one-time fees; amounts and company revenue are undisclosed ([TrustAI Terms, Mar 2026](https://trytrust.ai/legal/terms)) |
+| Founders | Hannah Chung (CEO): MIT CS/economics, Virtu Financial, World Bank; Medha Venkatapathy (CTO): MIT physics/CS, MIT CSAIL LLM research, U.S. Physics Team qualifier ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/trustai)) |
+| Competitors | Noma Security ($132M raised, revenue unknown, runtime access control); WitnessAI ($85.5M raised, revenue unknown, unified intent-based governance); Zenity ($55M+ raised, revenue unknown, buildtime/runtime agent security); Patronus AI ($70M raised, revenue unknown, automated evals and simulation) ([Noma](https://tech.yahoo.com/cybersecurity/articles/israeli-cyber-startup-noma-security-150903560.html), [WitnessAI](https://www.securityweek.com/witnessai-raises-58-million-for-ai-security-platform/), [Zenity](https://zenity.io/company-overview/newsroom/company-news/zenity-raises-38m-series-b-funding-round-to-secure-agentic-ai), [Patronus AI](https://www.prnewswire.com/news-releases/patronus-ai-raises-50-million-series-b-and-unveils-first-digital-world-models-for-ai-agent-training-and-simulation-302811248.html)) |
+| Moat Signals | 51 preregistered tests per assessment, six risk categories, four framework mappings, and analyst review of every report ([TrustAI, Jul 2026](https://trytrust.ai/)) |
+| Risk Factors | Recent product pivot ([YC](https://www.ycombinator.com/companies/trustai)), reconstruction-to-production transfer limits ([sample report](https://trytrust.ai/report)), contract-document inconsistencies ([Terms](https://trytrust.ai/legal/terms)) |
+| Founder Reach | Hannah Chung: Twitter not found, LinkedIn 2K followers, GitHub not found ([LinkedIn, Jul 2026](https://www.linkedin.com/in/hannahchung1)); Medha Venkatapathy: Twitter count not retrievable, LinkedIn 508 followers, top GitHub repo 0 stars ([LinkedIn](https://www.linkedin.com/in/medhav), [GitHub, Jul 2026](https://github.com/turtler12/pendulum-seismic-isolation)) |
+| Distribution Signals | 506 LinkedIn followers, YC launch post with 679 reactions and 105 comments, and 0 YC job postings ([LinkedIn, Jul 2026](https://www.linkedin.com/company/agentstrytrustai), [YC launch via LinkedIn](https://et.linkedin.com/in/yeabsra-ashebir-8a3a80267), [YC Jobs](https://www.ycombinator.com/companies/trustai/jobs)) |
+| Emails | hello@trytrust.ai ([YC](https://www.ycombinator.com/companies/trustai)); admin@trytrust.ai ([TrustAI Terms](https://trytrust.ai/legal/terms)); data@trytrust.ai, legals@trytrust.ai ([TrustAI Privacy](https://trytrust.ai/legal/privacy)) |

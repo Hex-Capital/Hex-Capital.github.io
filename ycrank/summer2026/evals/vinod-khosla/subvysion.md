@@ -1,0 +1,28 @@
+﻿# SubVysion -- Vinod Khosla Evaluation
+
+**Commonwealth Fusion** required capital-hostile science; SubVysion’s highest dimension is similarly real technical risk, while its lowest is the capital profile that would make that risk appropriate for my money. SubVysion must fuse autonomous field capture, GPR interpretation, survey positioning, 3D reconstruction, and AR without missing a lethal buried utility. Those are falsifiable miracles. But Commonwealth Fusion needed a $115M Series A before commercial proof; SubVysion faces Exodigo, which has already mapped 86.1 million square feet with more than $200M raised. SubVysion is technically serious field robotics trapped, for now, inside subscale project economics.
+
+**The generic GPT-4 sales-call summarizer** fails because $5-10M can build it and any generalist can fund it; low required capital makes my resources irrelevant. That failure mechanism partly appears in SubVysion: no roadmap requires more than $50M, no manufacturing scale is specified, and project-based contracts may finance deployment rover by rover. SubVysion is not commodity software—the accuracy chain reaches soil conditions, sensor physics, and excavation liability—but Exodigo’s commercial deployment proves that the category no longer repels capital. SubVysion needs money, but the dossier does not show why SubVysion needs Khosla money.
+
+**The $30 billion in annual U.S. strike damage and 20 deaths** give SubVysion a real consequence mechanism: better underground knowledge reduces rework, outages, injuries, and the economic friction of excavation. Over 18 months, every verified scan could compound SubVysion’s sensor-signature library and improve detection across soils and materials. Yet SubVysion presently preserves the excavation regime rather than breaking it. A $1.45B mapping market growing to $2.29B is respectable, not civilizational; SubVysion sounds like a safer workflow inside construction, not the disappearance of utility strikes or the creation of a universal underground data layer. “Make a great company and the money takes care of itself,” but greatness here requires a larger success-state than a better locating service.
+
+**Maxwell Stone built inference SDKs deployed in more than 10,000 pharmacies**, but SubVysion provides no evidence that Stone or Wenson Tang publicly contradicted expert consensus. Dropping out of Penn and turning a $500 LiDAR search-and-rescue project into field robotics shows independence, not yet intellectual defiance. SubVysion would flip this dimension upward if Stone demonstrated that accepted GPR completeness limits are wrong across specified soil, depth, and material classes—not through the website’s “100% visibility” claim, but through blinded strike-detection results. Until SubVysion produces that evidence, the claim looks more promotional than contrarian. Experts are often wrong; unsupported founders are not automatically right.
+
+**Slash** earned an exception because its documented Kanye West pivot exposed extraordinary learning rate. SubVysion has founder-led cold calling that converted one recipient into both the first customer and an investor, which is an encouraging feedback loop. SubVysion also moved from Stone’s railyard mapping and Tang’s LiDAR drone work into underground infrastructure. But the dossier records no specific pivot, discarded thesis, or “we were wrong” moment after Stone and Tang joined forces in January 2026. I will not invent learning-rate evidence merely because SubVysion is young; the absent-evidence default belongs near the middle, not near Slash.
+
+**Exodigo’s $200M-plus capitalization and 100-plus customers** make my 36-month forecast concrete: SubVysion is acquired by Exodigo for less than $50M after reaching roughly $3M-$7M ARR in contractor-led site contracts, rather than becoming an independent category-defining platform. SubVysion’s integrated rover can win deployments because contractors value one accountable workflow, while SubVysion’s weak structural moat, undisclosed validation record, and project-oriented economics make acquisition more probable than independence. The mechanism is technical differentiation without capital differentiation—a useful product that fits inside the incumbent’s underground data layer.
+
+**SubVysion’s first customer also invested**, and that is the strongest objection to my forecast and neutral verdict. The bull case is the **DoorDash** exception: an apparently ordinary operational wedge becomes the default infrastructure for a much larger economic flow. SubVysion could use live U.S. job sites to accumulate the proprietary correspondence between raw sensor signatures, verified utilities, and excavation outcomes; the $30B damage pool would then matter more than the $1.45B mapping category. That case stings because “100% visibility” would be transformative if true. The dossier still gives SubVysion no dataset scale, accuracy standard, patent, or repeat-contract count, while Exodigo already has 86.1 million square feet mapped. I would flip to Invest if SubVysion independently verifies greater than 99% utility-detection recall across named soil and material classes and converts that performance into at least $10M of contracted annual revenue or a national contractor rollout.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Consequence Magnitude If Company Wins | 14/30 |
+| Technical or Capital Risk That Repels Consensus VCs | 17/25 |
+| Founder Defies Documented Expert Consensus | 9/20 |
+| Founder Learning Rate, Demonstrated By Prior Pivot Or Thesis Update | 7/15 |
+| Required-Capital Profile Matches Khosla Check Size | 4/10 |
+| **Total** | **51/100** |
+
+**Total Score: 51/100** (Neutral)

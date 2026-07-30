@@ -11,7 +11,7 @@
     "location": "San Francisco, CA, USA",
     "tags": "Artificial Intelligence, Open Source, AI, ML",
     "yc_partner": "Tyler Bosmeny",
-    "emails": "No public data found"
+    "emails": "support@understudylabs.com"
   },
   "tags": [
     "Artificial Intelligence",
@@ -20,14 +20,63 @@
     "ML"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-12T21:52:07.997Z",
-  "evalScores": {},
-  "consolidatedScores": {},
-  "consolidatedAvg": null,
-  "consolidatedRank": null,
-  "traction": null,
+  "memoGeneratedAt": "2026-07-30T17:55:56.320Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 62,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 66,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 63,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 40,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 50,
+    "EG": 62,
+    "NR": 66,
+    "PG": 63,
+    "PT": 39,
+    "SL": 36,
+    "VK": 40
+  },
+  "consolidatedAvg": 50.86,
+  "consolidatedRank": 106,
+  "traction": {
+    "tractionRank": 96,
+    "tractionScore": 38,
+    "tractionReason": "Private preview with small design-partner group"
+  },
   "paths": {
     "memo": "summer2026/memos/understudy-labs.md",
-    "evals": {}
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/understudy-labs.md",
+      "elad-gil": "summer2026/evals/elad-gil/understudy-labs.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/understudy-labs.md",
+      "paul-graham": "summer2026/evals/paul-graham/understudy-labs.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/understudy-labs.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/understudy-labs.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/understudy-labs.md"
+    }
   }
 }

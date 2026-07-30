@@ -1,0 +1,30 @@
+﻿# Olam Labs -- Elad Gil Evaluation
+
+69,140 Social Poker hands make Olam Labs a shipping-rich, buyer-poor AI-infrastructure bet: founder execution is Olam Labs’s strongest dimension, while revenue velocity is the weakest. The 2025 shift from question-answering models to autonomous agents created a real need to measure negotiation, deception, and long-horizon behavior, but recorded game activity is not yet buying behavior. Olam Labs is skating for the puck in a newly important market, and I would invest at pre-seed—but the current evidence supports an option-sized check, not a conviction-sized one.
+
+**Perplexity** is the high rung for iterative shipping: Aravind Srinivas repeatedly turned conversations into working artifacts within a week. Olam Labs shares that mechanism. Om Buddhdev built Roblox games with roughly 6 million visits, became a staff engineer on AI agents and infrastructure at Latitude, and has now helped Olam Labs produce a replayable evaluation system covering tens of thousands of hands. Olam Labs diverges from Perplexity because the dossier demonstrates prior and current output, not iteration between customer conversations; no frontier lab is named as requesting a feature and then adopting the result. The founders are unusually legible builders, but the feedback loop is still inferred.
+
+**Lyft Series C** exposed the failure mechanism in which visible activity becomes a false signal because it does not prove durable economics. Olam Labs reports 69,140 hands, 86,729 graded table-talk turns, and roughly 32,000 launch-post views, but Olam Labs discloses no revenue, paid evaluation, signed LOI, repeat customer, or even ranked public-arena players. Those counts prove that the machinery runs; they do not show that a model lab values the resulting rankings enough to pay. For an AI company, silence on growth is normally a red flag. Pre-seed calibration keeps that from becoming an automatic pass, but Olam Labs is much closer to an interesting benchmark than to Harvey’s “just working” revenue curve.
+
+Anthropic’s June 2025 agentic-misalignment results and the broader 2025 move toward task-completing agents are the catalyst for Olam Labs. Over the next 18 months, more capable agents should create more high-stakes interactions, which creates more demand for behavioral evaluation; more evaluations could give Olam Labs better longitudinal data, which could improve rankings and attract additional labs. That loop compounds only if poker behavior predicts behavior in deployed environments. Olam Labs currently has one released environment, while other environments remain unreleased or marked “soon,” so the market re-opening is strong but Olam Labs’s capture mechanism remains unproven.
+
+Patronus AI has raised $70 million, Braintrust $80 million, and Galileo $68 million, which makes Olam Labs’s prospective index position the central counterfactual. Olam Labs moves into the Stripe-like range if every frontier lab and agent developer must run models through its neutral behavioral arena before deployment, allowing Olam Labs to become an index on agent proliferation. Olam Labs falls toward thin-tool status if social-game results remain a research curiosity while Patronus owns enterprise simulation and Braintrust or Galileo own production evaluation. A paid API used across multiple model families—or an evaluation standard referenced in model releases—would flip this dimension upward; the current public arena and non-exclusive dataset do not.
+
+**Color Genomics** is the relevant single-anchor parallel: workflow infrastructure on top of a validated hard technology can be attractive without underwriting the underlying science. Olam Labs similarly assumes that foundation models already work and builds evaluation infrastructure above them, so Olam Labs does not require a new model architecture or new physics. The catch is that two independent uncertainties remain: Social Poker rankings must generalize to economically meaningful behavior, and buyers must trust results affected by Pi harness choices and LLM-generated deception labels. That is more than pure GTM execution, but it is still a narrower dependency chain than a science project.
+
+86,729 graded turns point to a specific 36-month outcome: by July 2029, Olam Labs will reach $3 million to $8 million in ARR from custom behavioral evaluations and pre-deployment red-teaming for frontier labs and agent developers, while the public multiplayer arena remains primarily a data-acquisition channel. Olam Labs gets there by converting its replayable traces into proprietary longitudinal comparisons across models and environments, not by monetizing poker players. The founders’ shipping history makes that conversion plausible; the absence of current buyer evidence keeps the forecast below breakout-scale certainty.
+
+General Intuition’s $320 million financing and Patronus AI’s simulation infrastructure form the strongest bear case: funded competitors can reproduce game environments, frontier labs can build evaluations internally, and harness sensitivity may make Olam Labs’s cross-model rankings scientifically fragile. Under that mechanism, Olam Labs becomes a well-executed research demo with impressive counters and no durable budget owner. The evidence that prevents a pass today is Om Buddhdev’s 6-million-visit game history, his Latitude agent-infrastructure experience, and Olam Labs’s already-operational trace corpus. If Olam Labs cannot secure one named frontier-lab paid deployment or repeat enterprise evaluation engagement within 12 months, I would flip the verdict to Pass.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Market Re-Opening Via Specific Recent Catalyst | 21/28 |
+| Revenue Velocity or Usage Curve Already Visible | 10/25 |
+| Founder Ships Iteratively Between Conversations | 18/20 |
+| Index-Like Distribution Position On A Compounding Category | 9/15 |
+| Single-Miracle Architecture Rather Than Multi-Miracle Dependency | 8/12 |
+| **Total** | **66/100** |
+
+**Total Score: 66/100** (Invest)

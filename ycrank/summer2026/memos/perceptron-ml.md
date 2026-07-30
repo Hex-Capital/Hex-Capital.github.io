@@ -1,6 +1,6 @@
 ﻿# Perceptron ML
 
-> An event-driven AI engine that turns real-world signals into action.
+> We make law firms AI-native.
 
 | Field | Value |
 |-------|-------|
@@ -10,88 +10,75 @@
 | Industry | B2B / B2B |
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
-| Tags | B2B, Automation, AI |
+| Tags | Artificial Intelligence, B2B, Legal, Automation |
 | YC Partner | Jared Friedman |
 | Emails | No public data found |
 
 ## The Idea
 
-- **Problem:** Plaintiff/contingency law firms must identify new actionable legal matters (e.g., mass torts, class actions) as they break and outpace rivals in client outreach; the current alternative is manual monitoring plus traditional legal marketing agencies (YC page; Conroy Creative Counsel, 2025).
-- **Approach:** Event-driven engine ingests real-world signals (filings, news, listings), triggers a configurable response, and launches outbound campaigns "in hours, all under human approval" (YC company description; perceptronml.com via search snippet).
-- **Differentiation:** Versus Darrow (class-action signal detection only) and FirmPilot (always-on AI marketing content/ads), Perceptron ML couples signal detection with the campaign-launch action in one loop ([Inferred]: based on positioning language "detects a signal and acts on it fast" from YC description vs. competitor scopes per artificiallawyer.com and firmpilot.com).
-- **Business Model:** No public pricing page found; site routes to "book a demo" / waitlist (perceptronml.com/demo via search snippet); [Inferred]: enterprise SaaS contracts with law-firm customers given demo-led GTM and high-touch positioning.
-- **TAM/SAM:** No public TAM/SAM data found for this specific segment; adjacent reference point — AI adoption in U.S. law firms rose from 19% in 2023 to 79% in 2024 (MyCase via search snippet).
-- **GTM / Distribution:** [Inferred]: direct outbound and YC network to plaintiff/contingency firms first, then horizontal expansion to construction (RFP bidding), investors (listings), and trading desks (filings) — verticals explicitly named in YC description.
+- **Problem:** Law firms rely on manual time reconstruction, repeated docket checks, and general AI systems that can expose confidential information or invent legal authorities, with false citations producing court sanctions ([Perceptron case studies, Jul 2026](https://perceptronml.com/case-studies); [ABA Formal Opinion 512, Jul 2024](https://www.americanbar.org/groups/health_law/news/2024/08/aba-ethics-opinion-use-of-ai/); [Bloomberg Law, Feb 2025](https://news.bloomberglaw.com/us-law-week/morgan-morgan-lawyers-fined-for-hallucinated-ai-citations)).
+- **Approach:** Perceptron builds systems around each firm’s matters and workflows, deploys them in infrastructure controlled by the firm, prohibits shared training, and gates generated claims on verification against primary sources ([company website, Jul 2026](https://perceptronml.com/)).
+- **Differentiation:** Perceptron offers firm-specific, customer-environment deployments, versus Harvey’s unified platform and configurable workflows and Legora’s shared legal operating system with DMS integrations and firm-knowledge layers ([Perceptron](https://perceptronml.com/); [Harvey](https://www.harvey.ai/platform); [Legora](https://legora.com/product/aos)).
+- **Business Model:** [Inferred]: Built-to-order deployments and a “book a call” sales flow indicate implementation fees with possible recurring support or licensing, but current legal-product pricing is not published.
+- **TAM/SAM:** The global legal-AI market was estimated at $1.445 billion in 2024 and projected to reach $3.918 billion by 2030 at a 17.3% CAGR, while no public SAM estimate was found for privately deployed custom systems serving law firms ([Grand View Research, 2025](https://www.grandviewresearch.com/horizon/outlook/legal-ai-market-size/global)).
+- **GTM / Distribution:** [Inferred]: The website’s consultation CTA, bespoke positioning, and deployment case studies indicate founder-led direct sales to law firms rather than self-service acquisition ([company website, Jul 2026](https://perceptronml.com/)).
 
 ## Defensibility
 
-- **Moat today:** No defensibility signals (patents, proprietary data, customer counts, integrations) found in public sources as of June 2026.
-- **Future moat:** [Inferred]: proprietary signal-source coverage and per-vertical response playbooks could compound with customer usage data; unproven now because the company has been public-facing only since the S26 batch and has no disclosed customers.
-- **Market structure:** [Inferred]: no structural barrier identified at this stage — incumbents like FirmPilot ($27.25M raised, prnewswire.com Feb 2026) and Darrow ($60M raised, TechCrunch Sept 2023) operate in adjacent halves of the same loop and could extend.
-- **Commoditization risk:** Well-funded legal AI vendors (EvenUp $385M, lawnext.com Oct 2025; Eve $164M, prnewswire.com Sept 2025; FirmPilot $27.25M, firmpilot.com Feb 2026) plus general agent frameworks could replicate event-trigger-to-campaign workflows for law firms (search results, June 2026).
+- **Moat today:** Firm-controlled deployment, matter-specific customization, no shared training, and auditable source tracing may create integration and switching costs, although no retention, patent, or independent performance data is public ([company website, Jul 2026](https://perceptronml.com/)).
+- **Future moat:** [Inferred]: Repeated deployments could produce reusable legal-workflow components and firm-specific knowledge graphs, but public sources do not establish their scale or exclusivity.
+- **Market structure:** No structural barrier identified at this stage, because Harvey and Legora already offer firm knowledge, configurable workflows, source-grounded research, integrations, audit controls, and data-isolation features ([Harvey](https://www.harvey.ai/platform); [Legora](https://legora.com/product/aos)).
+- **Commoditization risk:** Harvey, Legora, Anthropic, incumbent legal-data vendors, and law firms’ internal engineering teams can build grounded research and workflow agents using commercially available models and legal-content integrations ([Harvey](https://www.harvey.ai/platform); [Legora](https://legora.com/product/aos); [Anthropic Legal plugin](https://claude.com/plugins/legal)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Twitter/X: @PerceptronML (YC page); follower count not retrievable.
-  - LinkedIn company page: linkedin.com/company/perceptron-yc (YC page); follower count not retrievable.
-  - Website returned HTTP 403 on direct fetch (WebFetch, June 2026); product gated behind demo/waitlist (perceptronml.com/demo via search snippet).
-  - No press coverage, Product Hunt launch, revenue, customer count, or funding announcement beyond YC standard deal found in public sources.
+  - Company case-study display: 38.4 billable hours captured and 7.5 hours recovered during one displayed workweek ([Perceptron case studies, Jul 2026](https://perceptronml.com/case-studies)).
+  - 348 LinkedIn followers ([LinkedIn, Jul 2026](https://www.linkedin.com/company/notyfi)).
+  - X handle @PerceptronML; follower count not retrievable ([company-linked X profile, Jul 2026](https://x.com/PerceptronML)).
+  - 0 YC job postings ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/perceptron-ml)).
 - **Competitors:**
-  - FirmPilot ($27.25M raised, revenue unknown, firmpilot.com Feb 2026): AI marketing engine producing SEO/ads content for law firms; lacks event-trigger ingestion.
-  - Darrow ($60M raised, ~$10B in active claims initiated via insights per legal-tech.blog 2023, revenue unknown): "justice intelligence" detecting class-action violations from public documents; does not launch outbound campaigns.
-  - EvenUp ($385M raised, $2B valuation Oct 2025, revenue unknown, lawnext.com): AI for personal-injury demand letters and case docs; post-intake, not pre-matter signal.
-  - Eve ($164M raised, $1B valuation Sept 2025, revenue unknown, prnewswire.com): plaintiff-side end-to-end AI platform; broader workflow scope.
-  - Justpoint Law (funding undisclosed, llamalab.ai July 2025): first AI-native mass-tort firm under Arizona ABS — operates as a firm, not vendor.
-- **Why now:** [Inferred]: convergence of LLM-driven agentic workflows with the documented surge in law-firm AI adoption from 19% (2023) to 79% (2024) (MyCase via search snippet) creates buyer readiness for action-taking agents rather than research tools.
+  - Harvey ($1B+ raised, $300M estimated ARR): unified legal platform used by more than 200,000 professionals, versus Perceptron’s bespoke customer-environment deployments ([Harvey, Mar 2026](https://www.harvey.ai/blog/harvey-raises-at-dollar11-billion-valuation-to-scale-agents-across-law-firms-and-enterprises); [Sacra, May 2026](https://sacra.com/c/harvey/)).
+  - Legora ($850M+ raised, $100M estimated ARR): connected legal operating system with firm-wide integrations and agentic workflows, versus custom systems built separately for each Perceptron client ([Sacra, Apr 2026](https://sacra.com/c/legora/)).
+  - EvenUp ($385M raised, revenue unknown): standardized intake-through-trial platform for personal-injury firms, versus Perceptron’s practice-agnostic bespoke work ([Bloomberg Law, Oct 2025](https://news.bloomberglaw.com/artificial-intelligence/ai-legal-tech-evenup-raises-150-million-at-2-billion-valuation); [EvenUp](https://www.evenuplaw.com/products/)).
+  - Eve ($164M raised, revenue unknown): case-lifecycle platform focused on plaintiff firms, versus Perceptron’s privately deployed systems for multiple law-firm workflows ([Sacra, Sep 2025](https://sacra.com/c/eve/); [Eve](https://www.eve.legal/platform)).
+- **Why now:** [Inferred]: Professional-services AI moved from experimentation toward workflow integration during 2025–2026 while court sanctions and confidentiality duties increased demand for verified, controlled legal-AI deployments ([Thomson Reuters, 2026](https://www.thomsonreuters.com/en-us/posts/technology/ai-in-professional-services-report-2026/); [ABA](https://www.americanbar.org/groups/health_law/news/2024/08/aba-ethics-opinion-use-of-ai/)).
 
 ## Founders & Team
 
 - **Michael Marcotte (Co-Founder):**
-  - Background: BA Mathematics and MS Computer Science, Stanford; previously AI Research at NVIDIA building production AI agents for hardware debugging and formal verification (YC page).
-  - Twitter/X: No public account found via searches.
-  - LinkedIn: "Co-Founder @ Perceptron ML (YC S26)" — 478 followers (linkedin.com/in/marcottemichael, June 2026).
+  - Background: BS in Mathematics and MS in Computer Science from Stanford, followed by NVIDIA AI research building production agents for hardware debugging and formal verification ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/perceptron-ml)).
+  - Twitter/X: No public account found.
+  - LinkedIn: “Co-Founder at Perceptron ML (YC S26),” with 711 followers ([LinkedIn, Jul 2026](https://www.linkedin.com/in/marcottemichael)).
   - GitHub: No public repos found.
 - **Peyton Marcotte (Co-Founder):**
-  - Background: Mechanical Engineering student at Brown; founded PMARC, which built astronaut exercise equipment for long-duration spaceflight with support from NASA, Brown, and the 1517 Fund (YC page).
-  - Twitter/X: No public account found via searches.
-  - LinkedIn: "Co-Founder @ Perceptron ML (YC S26)" (linkedin.com/in/peytonmarcotte, June 2026); count not retrievable (HTTP 999).
-  - GitHub: No public repos found.
-- **Co-founder relationship:** Brothers — Michael's LinkedIn states "Attending YC S26 with my brother" (linkedin.com/in/marcottemichael, June 2026).
-- **Founder-market fit:** [Inferred]: technical depth in production AI agents (Michael at NVIDIA, YC page) maps to the agent-orchestration core; no disclosed legal-domain experience on either founder, and no advisors or investors beyond the standard YC S26 deal found in public sources.
+  - Background: Brown mechanical-engineering student, class of 2027, and founder of PMARC, an astronaut-exercise project supported by NASA, Brown, and 1517 Fund grants ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/perceptron-ml); [Brown University, Jul 2025](https://engineering.brown.edu/news/2025-07-31/summer-research-symposium-2025)).
+  - Twitter/X: No public account found.
+  - LinkedIn: “Notyfi (YC S26),” with 5K followers ([LinkedIn, Jul 2026](https://www.linkedin.com/in/peytonmarcotte)).
+  - GitHub: @peyton-marcotte; OrcaSlicer fork has 1 star ([GitHub, Jul 2026](https://github.com/peyton-marcotte)).
+- **Co-founder relationship:** Michael states that he is attending YC with his brother, identifying the founders as brothers ([Michael Marcotte LinkedIn, Jul 2026](https://www.linkedin.com/in/marcottemichael)).
+- **Founder-market fit:** Michael’s production-agent and formal-verification work supports the technical verification component, while no founder legal-practice background or publicly identified legal advisor was found ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/perceptron-ml)).
 
 ## Key Risks
 
-- **No disclosed legal-domain expertise:** Neither founder has public legal-industry background (YC page founder bios, June 2026); mitigation — pre-seed stage, advisors may be added but none disclosed publicly.
-- **Well-funded incumbents in adjacent halves of the loop:** FirmPilot ($27.25M, firmpilot.com Feb 2026), Darrow ($60M, TechCrunch 2023), EvenUp ($385M at $2B, lawnext.com Oct 2025), and Eve ($164M at $1B, prnewswire.com Sept 2025) could extend into the detect-and-act seam; no mitigation found.
-- **Name collision:** A separately funded "Perceptron AI" (Aghajanyan/Shrivastava, $16M from Bessemer/S32/Foundation per oreateai.com) is unrelated; risk is brand confusion and SEO contamination already visible in search results (search results, June 2026).
-- **Human-in-the-loop throughput ceiling:** Product explicitly requires "human approval" before campaigns launch (YC description); [Inferred]: this caps the speed advantage that is the core value proposition, and no disclosed customer evidence shows the loop runs at promised "hours" SLA.
-- **Vertical sprawl risk:** YC description names law, construction, investors, and trading-desk verticals as targets; [Inferred]: 2-person team pursuing 4 verticals risks focus dilution, and only the legal vertical has any product evidence.
+- **Product transition:** Current YC and website materials focus on law-firm systems, while Notyfi remains live and company social profiles still describe event monitoring, creating product-positioning and traction-attribution ambiguity ([YC](https://www.ycombinator.com/companies/perceptron-ml); [Notyfi](https://notyfi.com/); [LinkedIn](https://www.linkedin.com/company/notyfi)).
+- **Verification performance:** The company promises primary-source verification for every cited fact but publishes no benchmark, error rate, or independent assessment; deployment-level audit trails and source gating are the stated mitigation ([company website, Jul 2026](https://perceptronml.com/)).
+- **Security validation:** Systems process client matters, email, documents, and calendars, but no public SOC 2 or ISO certification was found; deployment inside customer-controlled infrastructure and no shared training are the disclosed mitigations ([company website, Jul 2026](https://perceptronml.com/)).
+- **Implementation scalability:** [Inferred]: Building each system to order inside each client’s environment can increase deployment work and reduce software repeatability relative to standardized platforms.
+- **Name collision:** Another legal-AI business uses the name “Perceptron ML” at perceptron-ml.com, while other AI companies use related Perceptron names, creating search and brand-disambiguation risk ([perceptron-ml.com, Jul 2026](https://www.perceptron-ml.com/); [Perceptron AI, Jul 2026](https://www.perceptronai.org/contact)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | No public data found |
+| TAM | $1.445B in 2024, projected to $3.918B by 2030 at 17.3% CAGR (Grand View Research, 2025) |
 | SAM | No public data found |
-| Traction | No public data found (waitlist/demo gate at perceptronml.com/demo via search snippet, June 2026) |
-| Revenue Signal | No public data found |
-| Founders | Michael Marcotte (Co-Founder): Stanford BA Math + MS CS, ex-NVIDIA AI Research (hardware debugging/formal verification agents). Peyton Marcotte (Co-Founder): Brown ME student, founded PMARC (astronaut exercise equipment, NASA/Brown/1517 Fund support). |
-| Competitors | FirmPilot ($27.25M raised, revenue unknown, AI legal marketing content only); Darrow ($60M raised, revenue unknown, class-action signal detection only); EvenUp ($385M at $2B, revenue unknown, post-intake personal-injury AI); Eve ($164M at $1B, revenue unknown, broader plaintiff workflow platform) |
-| Moat Signals | No public data found |
-| Risk Factors | No disclosed legal-domain expertise, well-funded adjacent incumbents, name collision with separately funded "Perceptron AI" |
-| Founder Reach | Michael Marcotte: Twitter not found, LinkedIn 478 followers, GitHub not found. Peyton Marcotte: Twitter not found, LinkedIn count not retrievable, GitHub not found. |
-| Distribution Signals | No public data found (no Product Hunt launch, no press coverage, no app/extension found) |
+| Traction | 38.4 hours captured and 7.5 recovered in displayed timekeeping case study (Perceptron case studies, Jul 2026); 348 LinkedIn followers (LinkedIn, Jul 2026); 0 YC jobs (Y Combinator, Jul 2026) |
+| Revenue Signal | Current legal product: No public data found; prior Notyfi product: $19/month Pro, $0 Free, and custom Enterprise pricing (Notyfi, Jul 2026) |
+| Founders | Michael Marcotte (Co-Founder): Stanford mathematics BS, computer-science MS, NVIDIA AI research; Peyton Marcotte (Co-Founder): Brown mechanical engineering, PMARC founder, NASA-supported research (Y Combinator, Jul 2026) |
+| Competitors | Harvey ($1B+ raised, $300M estimated ARR, unified platform; Harvey/Sacra, 2026); Legora ($850M+ raised, $100M estimated ARR, legal operating system; Sacra, 2026); EvenUp ($385M raised, revenue unknown, personal-injury workflows; Bloomberg Law, 2025); Eve ($164M raised, revenue unknown, plaintiff-firm case lifecycle; Sacra, 2025) |
+| Moat Signals | Customer-environment deployment, firm-specific matter integration, no shared training, and primary-source audit trails (Perceptron website, Jul 2026) |
+| Risk Factors | Product transition across legal AI and Notyfi positioning (YC/Notyfi, Jul 2026), no public verification benchmark (Perceptron website, Jul 2026), legal-AI name collision (perceptron-ml.com, Jul 2026) |
+| Founder Reach | Michael: LinkedIn 711, Twitter/GitHub no public data found (LinkedIn, Jul 2026); Peyton: LinkedIn 5K, GitHub top repo 1 star, Twitter no public data found (LinkedIn/GitHub, Jul 2026) |
+| Distribution Signals | 348 LinkedIn followers (LinkedIn, Jul 2026); 0 YC jobs (Y Combinator, Jul 2026); @PerceptronML X count not retrievable (X, Jul 2026) |
 | Emails | No public data found |
-
-Sources:
-- [Perceptron ML — Y Combinator](https://www.ycombinator.com/companies/perceptron-ml)
-- [Perceptron ML site](https://perceptronml.com/)
-- [Michael Marcotte LinkedIn](https://www.linkedin.com/in/marcottemichael/)
-- [Peyton Marcotte LinkedIn](https://www.linkedin.com/in/peytonmarcotte)
-- [FirmPilot $22M Series A-1 (PRNewswire, Feb 2026)](https://www.prnewswire.com/news-releases/firmpilot-closes-oversubscribed-22m-series-a-1-to-scale-ai-powered-legal-marketing-platform-302697703.html)
-- [Darrow $35M Series B (TechCrunch, Sept 2023)](https://techcrunch.com/2023/09/19/darrow-legal-tech/)
-- [EvenUp $150M at $2B (LawNext, Oct 2025)](https://www.lawnext.com/2025/10/evenup-ai-platform-for-personal-injury-lawyers-raises-150m-at-2b-valuation.html)
-- [Eve $103M Series B (PRNewswire, Sept 2025)](https://www.prnewswire.com/news-releases/eve-raises-103-million-at-1-billion-valuation-to-help-plaintiff-firms-deliver-justice-through-ai-transformation-302570807.html)
-- [Justpoint AI mass-tort firm (LlamaLab, July 2025)](https://www.llamalab.ai/blog/first-ai-native-mass-tort-firm-arizona-abs)
-- [Conroy Creative Counsel — AI marketing tools for law firms (2025)](https://conroycreativecounsel.com/the-complete-guide-to-ai-marketing-tools-for-law-firms-in-2025/)

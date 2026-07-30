@@ -16,85 +16,68 @@
 
 ## The Idea
 
-- **Problem:** Credit-fund analysts manually grind through borrowing-base reports, covenant monitoring, IC memos, and lender packages across spreadsheets, shared drives, and email (levocred.com, 2026; YC page, 2026).
-- **Approach:** AI "employee" ingests the fund's loan tape, credit agreements, servicer reports, and bank feeds, and produces audit-ready outputs with each figure cited to its underlying source (search snippet on LinkedIn page, 2026; levocred.com, 2026).
-- **Differentiation:** [Inferred]: Versus Finley (debt-capital management primarily for borrowers) and Setpoint (capital-markets OS for asset-backed originators), Levocred targets the credit-fund/lender side with workflow coverage spanning borrowing base, covenants, IC memos, lender packages, and treasury in one workspace (levocred.com feature list, 2026; Finley/Setpoint product pages via search snippets).
-- **Business Model:** No pricing disclosed on levocred.com; [Inferred]: per-seat or per-facility SaaS to credit funds and originators, consistent with the "10+ facilities under surveillance / $500M monitored" framing on the homepage.
-- **TAM/SAM:** Global private credit AUM at US$3.5T (AIMA Alternative Credit Council, 2026 via search snippet); seven of the largest private credit firms project TAM ~$31T on average (PwC Private Credit Survey, 2026 via search snippet); direct lending sized $1.5–2T, projected $3T by 2028 (search snippet, 2026).
-- **GTM / Distribution:** [Inferred]: Direct sales to credit funds and originators; only public customer is Pier Asset Management (levocred.com testimonial, 2026); YC S26 network is a likely channel given batch membership (YC page, 2026).
+- **Problem:** Structured-credit teams manage loan tapes, credit agreements, covenant checks, treasury data, collections, and reporting through spreadsheets, documents, bank portals, and manual reconciliations ([Levocred website, Jul 2026](https://www.levocred.com/)).
+- **Approach:** Levocred imports loan tapes, agreements, servicer reports, and bank feeds into a shared record used by modules for borrowing bases, covenant monitoring, IC memos, lender packages, collections, and treasury reconciliation ([Levocred website, Jul 2026](https://www.levocred.com/); [YC, Jul 2026](https://www.ycombinator.com/companies/levocred-ai)).
+- **Differentiation:** Levocred positions itself against spreadsheets, bolt-on BI tools, and black-box AI by maintaining one portfolio-aware record with source-linked outputs and attributable audit trails, while Finley focuses on credit-facility management, 9fin on debt-market data and analytics, and Hebbia on cross-industry document analysis ([Levocred website, Jul 2026](https://www.levocred.com/); [Finley, Jan 2023](https://www.finleycms.com/blog/announcing-our-series-a-fundraising-led-by-crv); [9fin, Dec 2024](https://9fin.com/insights/9fin-raises-50m-build-generation-debt-capital-markets-technology); [Hebbia, Jul 2024](https://www.hebbia.com/blog/hebbia-raises-usd130m-series-b)).
+- **Business Model:** [Inferred]: The demo-request workflow, work-email qualification, portfolio-AUM calculator, and absence of published tiers indicate negotiated enterprise software contracts based on customer deployment scope.
+- **TAM/SAM:** Global private-credit AUM was nearly $2T by mid-2024, up from $158B in 2010, but no public software-specific SAM was found ([Private Credit Markets survey, Mar 2026](https://arxiv.org/abs/2603.14491)).
+- **GTM / Distribution:** Levocred solicits demos from credit funds, warehouses, and originators’ treasury teams and offers to configure a prospect’s facility structure, loan tape, and covenants during a 30-minute session ([Mohit Gupta launch post, May 2026](https://www.linkedin.com/posts/guptamohit2299_tricolor-blue-owl-jamie-dimons-cockroaches-activity-7455648546252435456-CyZ9); [Levocred website, Jul 2026](https://www.levocred.com/)).
 
 ## Defensibility
 
-- **Moat today:** Models stated to be trained specifically on credit agreements and loan tapes rather than general internet data, with cited/audit-ready outputs (search snippet describing the LinkedIn page, 2026); no patents or proprietary datasets disclosed.
-- **Future moat:** [Inferred]: Switching costs accumulate as the platform becomes system-of-record for facility workspaces, covenant histories, and IC memos; unproven at 10+ facilities (levocred.com, 2026).
-- **Market structure:** [Inferred]: Allvue ($63.9M ARR, bootstrapped per Latka, 2025) and Finley (acquired by Concord Servicing Mar 2026 per Crunchbase) occupy adjacent niches (fund accounting; borrower-side debt mgmt), leaving lender-workflow AI as a structurally distinct wedge; no regulatory barrier identified.
-- **Commoditization risk:** Finley announced "AI-Powered Back Office: Agents for Banks and Funds" covering credit-agreement digitization, loan servicing, and portfolio analysis (finleycms.com blog via search snippet, 2026); Allvue ships AI assistant "Andi" plus Credit Research Solutions (search snippet, 2026); both can extend into Levocred's scope.
+- **Moat today:** Levocred reports that loans, borrowers, covenants, cash, performance history, collections activity, and regulatory contact records share one data layer with attributable audit trails ([Levocred website, Jul 2026](https://www.levocred.com/)).
+- **Future moat:** [Inferred]: Historical facility data, workflow configurations, reconciliations, and user corrections could create proprietary portfolio-level datasets and switching costs, but public sources do not establish their scale or exclusivity.
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** Finley already converts credit agreements into managed workflows, 9fin applies AI to debt-market analytics, and Hebbia supplies document-analysis software to financial institutions, demonstrating that funded vendors can build overlapping components ([Finley, Jan 2023](https://www.finleycms.com/blog/announcing-our-series-a-fundraising-led-by-crv); [9fin, Dec 2024](https://9fin.com/insights/9fin-raises-50m-build-generation-debt-capital-markets-technology); [Hebbia, Jul 2024](https://www.hebbia.com/blog/hebbia-raises-usd130m-series-b)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - $500M in capital monitored (levocred.com, 2026).
-  - 10+ facilities under surveillance (levocred.com, 2026).
-  - Customer testimonial: Jonathan DiBenedetto, Head of Operations & CCO at Pier Asset Management, cited tools as "intuitive" with easy adoption (levocred.com, 2026).
-  - LinkedIn company page exists as "Levocred AI (YC S26)"; follower count not retrievable (linkedin.com/company/levocred-ai).
-  - No Product Hunt launch, press coverage, Twitter/X account, Discord, or job postings located in public search (WebSearch, Jun 2026).
-- **Competitors:**
-  - Finley ($20.1M raised across seed + $17M Series A led by CRV in Jan 2023; revenue unknown; acquired by Concord Servicing Mar 2026, per Crunchbase/TechCrunch): debt-capital management primarily borrower-facing, now adding AI agents for banks and funds.
-  - Setpoint ($76M total raised incl. $31M Series B led by 645 Ventures with Wells Fargo, Citi, a16z, Aug 2024; revenue unknown, per setpoint.io/Crunchbase/PYMNTS): capital-markets OS for asset-backed originators (auto, consumer, SMB, real estate).
-  - Allvue Systems ($63.9M ARR, bootstrapped/no VC, per Latka 2025): enterprise alternative-investments software with Private Credit Intelligence, AI assistant "Andi," and Nexius platform.
-  - Termgrid (revenue unknown): debt-financing workflow for PE/lenders (G2 Setpoint alternatives list via search snippet).
-  - Cascade Debt (revenue unknown): debt-facility automation (G2 list via search snippet, 2026).
-- **Why now:** [Inferred]: Private-credit AUM grew at ~14% CAGR over the past decade and deployment was up 78% YoY in 2024 to $592.8B (AIMA/PwC via search snippet), expanding analyst workload faster than headcount; LLMs trained on structured financial documents now reach extraction quality required for audit-ready citations.
+  - $500M of capital monitored across 10+ facilities ([Levocred website, Jul 2026](https://www.levocred.com/)).
+  - Paying revenue and live production usage, with no amount disclosed ([Mohit Gupta via LinkedIn, Jul 2026](https://www.linkedin.com/posts/gupsak_last-year-i-quit-my-job-to-build-my-own-startup-activity-7475449697017421825-Brcl)).
+  - Pier Asset Management is publicly identified as an early customer, and its operations and compliance head reports reduced portfolio-management time and deeper facility understanding ([Levocred website, Jul 2026](https://www.levocred.com/)).
+  - Company LinkedIn page identifies the launch and lists three associated employees, while YC reports a two-person team ([LinkedIn, Jul 2026](https://www.linkedin.com/company/levocred-ai); [YC, Jul 2026](https://www.ycombinator.com/companies/levocred-ai)).
+- **Competitors (minimum 3, up to 5):**
+  - Finley (over $20M raised, revenue unknown): manages lender and borrower credit facilities, whereas Levocred presents an operating layer spanning monitoring, reporting, collections, and treasury ([Finley, 2026](https://www.finleycms.com/company/about)).
+  - 9fin (over $80M raised, revenue unknown): provides debt-capital-markets data and analytics, whereas Levocred operates against each customer’s internal facility records and workflows ([Axios, Mar 2025](https://www.axios.com/newsletters/axios-pro-rata-26f450e7-1623-4072-8080-00fe52830b20)).
+  - Hebbia (at least $130M raised, revenue unknown): provides document analysis across financial and legal knowledge work, whereas Levocred supplies structured-credit modules tied to loans, covenants, cash, and collections ([Hebbia, Jul 2024](https://www.hebbia.com/blog/hebbia-raises-usd130m-series-b)).
+- **Why now:** [Inferred]: Private-credit lender adoption of AI reportedly increased from roughly 20% to roughly 50% by 2026, while the founders’ launch materials describe continued reliance on Excel, Python scripts, SharePoint, and manually reconciled records ([Lumonic, Jun 2026](https://www.lumonic.com/content/private-credit-s-first-real-cycle); [Saksham Gupta, May 2026](https://www.linkedin.com/posts/gupsak_private-credit-is-a-17t-market-the-infrastructure-activity-7455652032889413632-XAPX)).
 
 ## Founders & Team
 
-- **Mohit Gupta (Co-founder & CEO):**
-  - Background: BA Computer Science IIT Bombay; MA Financial Engineering UC Berkeley Haas; previously Quantitative Researcher at a credit hedge fund where he led AI/ML models enabling $1B in lending and built core trading infrastructure (LinkedIn /in/guptamohit2299 via search snippet, 2026).
+- **Mohit Gupta (Co-founder and CEO):**
+  - Background: BA in Computer Science from IIT Bombay, MA in Financial Engineering from UC Berkeley Haas, and former Edge Focus quantitative researcher who led AI/ML systems associated with $1B of lending and built trading infrastructure ([YC, Jul 2026](https://www.ycombinator.com/companies/levocred-ai)).
   - Twitter/X: No public account found.
-  - LinkedIn: "Building Levocred AI (YC S26)" (linkedin.com/in/guptamohit2299); follower count not retrievable.
-  - GitHub: No account confirmed as belonging to this Mohit Gupta among multiple namesakes (WebSearch, Jun 2026).
-- **Saksham Gupta (Co-founder & CTO):**
-  - Background: BA Electrical & Electronics IIT Kanpur, led the Entrepreneurship Cell; prior roles Samsung R&D India and Software Engineer at Edge Focus where he built and scaled trading/data infrastructure as the fund grew from $150M to $1B+ AUM (LinkedIn /in/gupsak via search snippet, 2026; weekday.works profile via search snippet).
+  - LinkedIn: “Building agentic AI tools for structured credit” with approximately 5K followers ([LinkedIn, Jul 2026](https://www.linkedin.com/in/guptamohit2299)).
+  - GitHub: No public repos found.
+- **Saksham Gupta (Co-founder and CTO):**
+  - Background: BA in Electrical and Electronics from IIT Kanpur and former Edge Focus engineer who built trading and data infrastructure while the fund grew from $150M to more than $1B in AUM ([YC, Jul 2026](https://www.ycombinator.com/companies/levocred-ai)).
   - Twitter/X: No public account found.
-  - LinkedIn: "Co-Founder @ Levocred AI" (linkedin.com/in/gupsak); follower count not retrievable.
-  - GitHub: No account confirmed as belonging to this Saksham Gupta among multiple namesakes (WebSearch, Jun 2026).
-- **Co-founder relationship:** No public data on prior shared employer or university (both attended different IITs — Bombay and Kanpur — per search snippets).
-- **Founder-market fit:** Both founders shipped production AI/ML and data infrastructure inside credit hedge funds enabling ~$1B in lending and supporting an AUM scale from $150M to $1B+ (LinkedIn snippets, 2026), matching Levocred's target buyer of credit funds and originators; no advisors or external investors beyond YC publicly disclosed.
+  - LinkedIn: “Building agentic AI for structured credit” with approximately 2K followers ([LinkedIn, Jul 2026](https://www.linkedin.com/in/gupsak)).
+  - GitHub: No public repos found.
+- **Co-founder relationship:** Mohit Gupta and Saksham Gupta worked together at Edge Focus for approximately three years before founding Levocred ([Saksham Gupta, May 2026](https://www.linkedin.com/posts/gupsak_private-credit-is-a-17t-market-the-infrastructure-activity-7455652032889413632-XAPX)).
+- **Founder-market fit:** Both founders built credit-fund trading, data, or ML infrastructure at Edge Focus, with Mohit reporting four years and Saksham three years inside the workflow category Levocred automates ([YC, Jul 2026](https://www.ycombinator.com/companies/levocred-ai); [Mohit Gupta, May 2026](https://www.linkedin.com/posts/guptamohit2299_tricolor-blue-owl-jamie-dimons-cockroaches-activity-7455648546252435456-CyZ9)).
 
 ## Key Risks
 
-- **Incumbent encroachment / commoditization:** Finley (TechCrunch 2023; finleycms.com 2026) and Allvue (allvuesystems.com 2026) have launched AI agents for the same loan-servicing, credit-agreement, and portfolio-analysis workflows; with Finley acquired by Concord Servicing Mar 2026 (Crunchbase via search snippet), a distribution-equipped incumbent now owns an overlapping product.
-- **Concentrated customer base:** Only one named customer (Pier Asset Management) and $500M monitored across 10+ facilities (levocred.com, 2026) means revenue concentration risk; no mitigation disclosed.
-- **Audit/accuracy liability in regulated workflow:** Borrowing-base and covenant outputs feed regulated reporting to lenders; LLM hallucination or misread credit agreements could create financial liability; mitigation per company is that figures are cited to underlying source documents (search snippet on LinkedIn page, 2026), but no third-party audit or SOC report is referenced.
-- **Name disambiguation:** Multiple unrelated "Mohit Gupta" and "Saksham Gupta" public profiles (academic, GitHub) appear in search; founder data was filtered to entries explicitly tagged Levocred / YC S26 (rocketreach.co, LinkedIn /in/guptamohit2299, /in/gupsak).
+- **Competitive overlap:** Finley, 9fin, Hebbia, Lumonic/PitchBook, and newer AI-credit vendors offer adjacent agreement-management, analytics, document-analysis, and portfolio-monitoring functions, allowing customers to assemble substitutes ([Finley, Jan 2023](https://www.finleycms.com/blog/announcing-our-series-a-fundraising-led-by-crv); [Axios, Mar 2025](https://www.axios.com/newsletters/axios-pro-rata-c101d24c-705a-4989-82a5-ef6e45730cc5)).
+- **Data-integrity exposure:** Levocred generates borrowing bases, covenant alerts, IC memos, lender packages, and treasury reconciliations from customer records, so extraction or reconciliation errors could propagate into credit and reporting workflows; the company describes source-linked outputs and audit trails as controls ([Levocred website, Jul 2026](https://www.levocred.com/)).
+- **Regulatory workflow exposure:** Collections modules track borrower contacts, promises-to-pay, agencies, and recoveries under FDCPA, TCPA, and CFPB-related workflows, creating compliance exposure if records or actions are incomplete; Levocred states that every action is attributable ([Levocred website, Jul 2026](https://www.levocred.com/)).
+- **Customer concentration:** Public traction comprises $500M monitored across 10+ facilities and one named customer, leaving the distribution of capital and facilities among customers undisclosed ([Levocred website, Jul 2026](https://www.levocred.com/)).
+- **Incumbent integration:** PitchBook acquired private-credit monitoring vendor Lumonic in March 2025, giving an established private-markets data platform an overlapping portfolio-management product ([Axios, Mar 2025](https://www.axios.com/newsletters/axios-pro-rata-c101d24c-705a-4989-82a5-ef6e45730cc5)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Global private credit AUM US$3.5T (AIMA Alternative Credit Council, 2026); large-firm projected TAM ~$31T avg (PwC Private Credit Survey, 2026) |
-| SAM | Direct lending $1.5–2T, projected $3T by 2028 (search snippet, 2026); no Levocred-specific SAM published |
-| Traction | $500M capital monitored (levocred.com, 2026); 10+ facilities under surveillance (levocred.com, 2026); Pier Asset Management customer testimonial (levocred.com, 2026) |
-| Revenue Signal | No public data found |
-| Founders | Mohit Gupta (CEO): IIT Bombay CS, UC Berkeley Haas MFE, ex-quant researcher at credit hedge fund. Saksham Gupta (CTO): IIT Kanpur EE, ex-Edge Focus engineer ($150M→$1B+ AUM), ex-Samsung R&D India. |
-| Competitors | Finley ($20.1M raised, revenue unknown, acquired by Concord Servicing Mar 2026; borrower-side debt mgmt + AI agents). Setpoint ($76M raised, revenue unknown; capital-markets OS for asset-backed originators). Allvue Systems ($63.9M ARR, bootstrapped; enterprise alt-investments + AI assistant Andi). Termgrid (revenue unknown; PE/lender debt-financing workflow). Cascade Debt (revenue unknown; debt-facility automation). |
-| Moat Signals | Models trained specifically on credit agreements and loan tapes; outputs cited to source documents for audit-readiness (search snippet on LinkedIn page, 2026) |
-| Risk Factors | Incumbent AI-agent encroachment (Finley/Allvue), customer concentration, audit/accuracy liability |
-| Founder Reach | Mohit Gupta: Twitter not found, LinkedIn count not retrievable, GitHub not confirmed. Saksham Gupta: Twitter not found, LinkedIn count not retrievable, GitHub not confirmed. |
-| Distribution Signals | No public data found |
-| Emails | info@levocred.com (levocred.com, 2026) |
-
-Sources:
-- [Levocred AI YC page](https://www.ycombinator.com/companies/levocred-ai)
-- [Levocred website](https://levocred.com/)
-- [Mohit Gupta LinkedIn](https://www.linkedin.com/in/guptamohit2299/)
-- [Saksham Gupta LinkedIn](https://www.linkedin.com/in/gupsak/)
-- [Levocred AI LinkedIn company](https://www.linkedin.com/company/levocred-ai)
-- [Finley Series A $17M (TechCrunch, Jan 2023)](https://techcrunch.com/2023/01/31/finley-debt-capital-software-series-a/)
-- [Finley Crunchbase](https://www.crunchbase.com/organization/finley-ab4b)
-- [Finley AI back office launch](https://www.finleycms.com/blog/ai-back-office-ai-agent-launch)
-- [Setpoint $31M Series B (PYMNTS)](https://www.pymnts.com/news/investment-tracker/2024/setpoint-raises-31-million-to-shore-up-credit-infrastructure/)
-- [Setpoint Crunchbase](https://www.crunchbase.com/organization/setpoint-io)
-- [Allvue Systems revenue (Latka)](https://getlatka.com/companies/allvuesystems.com)
-- [AIMA $3.5T private credit AUM](https://www.aima.org/article/press-release-strong-growth-sees-private-credit-market-reach-us-3-5-trillion.html)
-- [PwC Private Credit Survey 2026](https://www.pwc.com/gx/en/industries/private-equity/private-credit-survey.html)
+| TAM | Nearly $2T in global private-credit AUM by mid-2024, up from $158B in 2010 (Private Credit Markets survey, Mar 2026) |
+| SAM | No public data found |
+| Traction | $500M capital monitored across 10+ facilities (Levocred website, Jul 2026); live production usage and paying revenue, amount undisclosed (Mohit Gupta via LinkedIn, Jul 2026); Pier Asset Management identified as an early customer (Levocred website, Jul 2026) |
+| Revenue Signal | Paying revenue, amount and pricing undisclosed (Mohit Gupta via LinkedIn, Jul 2026) |
+| Founders | Mohit Gupta (CEO): IIT Bombay CS, Berkeley MFE, former Edge Focus quantitative researcher (YC, Jul 2026); Saksham Gupta (CTO): IIT Kanpur EEE, former Edge Focus infrastructure engineer (YC, Jul 2026) |
+| Competitors | Finley (over $20M raised, revenue unknown, credit-facility management) (Finley, 2026); 9fin (over $80M raised, revenue unknown, debt-market data and analytics) (Axios, Mar 2025); Hebbia (at least $130M raised, revenue unknown, cross-industry document analysis) (Hebbia, Jul 2024) |
+| Moat Signals | Shared portfolio record, historical facility context, source-linked outputs, and attributable audit trails (Levocred website, Jul 2026) |
+| Risk Factors | Funded overlapping vendors (Finley, 2023; 9fin, 2024; Hebbia, 2024), regulated collections workflows (Levocred website, Jul 2026), customer concentration undisclosed across 10+ facilities (Levocred website, Jul 2026) |
+| Founder Reach | Mohit Gupta: LinkedIn approximately 5K, Twitter and GitHub not found (LinkedIn, Jul 2026); Saksham Gupta: LinkedIn approximately 2K, Twitter and GitHub not found (LinkedIn, Jul 2026) |
+| Distribution Signals | Founder-led demo solicitation to credit funds, warehouses, and originator treasury teams (Mohit Gupta via LinkedIn, May 2026); 30-minute customer-data demonstration offered (Levocred website, Jul 2026) |
+| Emails | info@levocred.com (Levocred website, Jul 2026) |

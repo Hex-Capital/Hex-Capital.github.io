@@ -1,0 +1,30 @@
+﻿# Luca IQ -- Vinod Khosla Evaluation
+
+A 57% reduction in administrative preparation time makes **Luca IQ** a technically nontrivial automation business built by conventional experts, not a consequence-first black swan. **Luca IQ** is strongest where deterministic tax computation, IRS-authorized e-filing, and document-level traceability create real implementation risk; it is weakest where Angelo Policicchio’s CPA career and Akash Sadashivapeth’s data-science career merely extend established expertise. The economic mechanism that breaks is tax-preparation labor, but human review of every line means Luca IQ currently compresses that mechanism rather than eliminates it. That is optimization, not **OpenAI**-scale redirection.
+
+**Commonwealth Fusion** is the high rung because its $115M Series A financed a falsifiable scientific cliff that consensus capital would not touch. **Luca IQ** shares the cliff structure in miniature: deterministic 1040 computation must be correct, traceable, integrated, and accepted for e-filing simultaneously. But Luca IQ diverges where the analogy matters most. The tax engine remains in pilot, requires human verification of every line, and faces software incumbents rather than unsolved physics. Luca IQ carries more technical risk than a commodity AI wrapper, but not the capital-hostile risk that creates my investment edge.
+
+**Glean’s** low-rung weakness on founder defiance was expert continuity: an ex-Google search founder building enterprise search. **Luca IQ** repeats that pattern more starkly. Policicchio is a CPA from EY, while Sadashivapeth previously led data science; Luca IQ combines the founders’ existing playbooks in an industry already moving toward automation. Glean overcame that weakness through enterprise-scale information displacement and capital ambition. Luca IQ has not shown the equivalent override. Three hundred CPA interviews demonstrate diligence, not a controversial thesis that experts said was impossible. Experts extrapolate the past, and Luca IQ presently extrapolates the tax stack.
+
+A $600M acquisition of SafeSend shows how the consequence mechanism could compound over the next 18 months: **Luca IQ** could use intake data, reviewer corrections, and completed-return mappings to automate progressively more preparation labor. The 1,100 hours saved during one season is meaningful evidence that Luca IQ has found expensive repetition. Yet the system still terminates at “review-ready,” not autonomously filed, and the proprietary-data flywheel is inferred rather than measured. Unless the deterministic engine removes reviewer labor rather than rearranging it, Luca IQ remains a 57% workflow improvement inside the incumbent regime. “Make a great company and the money takes care of itself” does not mean make tax preparation 30 minutes faster.
+
+More than 300 firm-owner interviews and a completed customer tax season suggest **Luca IQ** can learn quickly, but no documented pivot or explicit “we were wrong about X” moment exists. The counterfactual that moves Luca IQ up a tier is precise: Policicchio must show that field evidence forced Luca IQ from workflow software into an API-first autonomous tax engine, with a materially different architecture and product strategy. Without that thesis update, interviews measure discovery volume rather than learning rate. I apply the absent-evidence prior with a small credit for shipping through a live tax season.
+
+**OpenAI’s** $50M first institutional check was useful because the ambition required capital that ordinary SaaS investors could not provide. **Luca IQ** advertises fixed per-return pricing, employs five people, and discloses no roadmap requiring more than $50M before a commercial milestone. No evidence — applying the absent-evidence default. Luca IQ may need substantial compliance and engineering investment, but Luca IQ currently looks financeable by any strong generalist. I am over-resourced for a business whose binding constraint appears to be distribution into CPA firms, not capital depth.
+
+The tax engine remaining “coming soon” produces my 36-month forecast: **Luca IQ** reaches $3M-$7M ARR in CPA workflow automation and is acquired by Thomson Reuters rather than replacing the tax-software category. Luca IQ can win customers because 30-minute intake-to-review and hundreds of pilot applicants indicate real demand. Thomson Reuters can win the endpoint because SafeSend’s $600M acquisition supplies distribution, incumbent-engine integration, and a demonstrated appetite for buying workflow layers. The likely outcome is a useful product and respectable exit. Probability is not the problem; consequence is.
+
+The 1,100 hours saved is the strongest objection to my pass because **Luca IQ** may be the **DoorDash** exception: little scientific risk, conventional operating mechanics, but a product that compounds from one narrow wedge into control of an enormous transaction flow. Luca IQ also resembles **Slash** in having YC pedigree and an execution signal capable of overriding a weak consequence score. That bull case stings because an API-first deterministic engine could become the tax-computation default while incumbents remain trapped in legacy architectures. The dossier still loses the argument: every-line human review, no production-scale engine, no documented pivot, no proprietary dataset measurement, and five funded competitors leave Luca IQ as an integration-heavy optimization play. Production filing of 100,000 returns with fewer than 1% requiring reviewer correction would flip my verdict.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Consequence Magnitude If Company Wins | 12/30 |
+| Technical or Capital Risk That Repels Consensus VCs | 14/25 |
+| Founder Defies Documented Expert Consensus | 4/20 |
+| Founder Learning Rate, Demonstrated By Prior Pivot Or Thesis Update | 8/15 |
+| Required-Capital Profile Matches Khosla Check Size | 5/10 |
+| **Total** | **43/100** |
+
+**Total Score: 43/100** (Pass)

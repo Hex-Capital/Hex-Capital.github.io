@@ -1,0 +1,30 @@
+﻿# Executor -- Sam Lessin Evaluation
+
+Rhys Sullivan’s 57,245 followers make **Executor** a founder-distributed developer tool in exactly the wrong portfolio sleeve: strongest on owned community, weakest on category fit. **Executor** has 2,800 GitHub stars, 199 forks, and a credible operator behind Answer Overflow’s 1.5 million monthly users, but the asset being distributed is consensus AI plumbing. Software is no longer investible—quick walk-back: software with cheap organic distribution can be investible, but only if the entry price compensates me for competing against Composio, Arcade, Pipedream, Workato, and every open-source MCP gateway arriving behind them.
+
+**John Fish / Bookshelved** is the high rung because the creator’s pre-existing audience was the asset, not merely a launch channel. Sullivan gives **Executor** a real version of that mechanism: 57,245 followers, a 2,800-star repository, and prior community infrastructure reaching 1.5 million monthly users. The analogy stops where conversion begins. Bookshelved could monetize attachment to a named person; **Executor** must turn developer attention into organizational credentials, policies, and recurring execution volume, while 22 trailing-30-day Homebrew installs provide weak evidence that Sullivan’s audience is becoming embedded usage.
+
+**Zapier’s** low-rung mechanism on sleeve fit is commodity workflow software succeeding as a sound business without becoming a pre-consensus crypto, DTC, prescription-rail, creator, or Wizard-of-Oz bet. **Executor** sits even lower because “the open source integration management layer for AI” lands directly inside the foundation-model-adjacent infrastructure I de-rate as more internet, not a fundamentally disruptive asset class. **Executor** does have an MIT-licensed, multi-protocol runtime spanning MCP, OpenAPI, GraphQL, and custom JavaScript, but protocol normalization is a feature battlefield against Composio’s 1,000-plus toolkits and Pipedream’s 3,000-plus connectors, not a revealed-preference sleeve.
+
+**Executor’s** undisclosed round price is the decisive missing number. For the non-consensus score to flip upward, **Executor** would need a below-batch-median entry price or visible evidence that major funds passed because self-hosted integration infrastructure looked too open-source, too niche, or too difficult to monetize. Without that evidence, I apply the price-discipline default, then mark it down slightly because AI infrastructure, SaaS pricing, and YC distribution form the hottest possible 2026 wrapper. A clever architecture cannot rescue a SAFE purchased at a price that already assumes the architecture becomes a standard.
+
+**Executor’s** $150-per-organization Team plan can compound into a capital-efficient business over 18 months: the MIT repository drives discovery, the free tier captures credentials and configurations, and hosted execution converts operational dependence into recurring revenue. **Executor** is still wearing a generic SaaS cap table without demonstrated revenue, retention, or switching costs, so the regatta contains at least three unresolved tacks—community-to-install conversion, install-to-paid conversion, and paid usage surviving incumbent bundling. A solo founder and usage-based overages limit drainage, but 675,842 benchmark tokens versus Caplets’ 236,803 could turn infrastructure cost into the tack that caps margins.
+
+**Drop.io** is the single-anchor parallel for asymmetric conviction: build an unfashionable technical primitive against free incumbents, ship relentlessly, and let operator credibility accumulate before the market understands the endpoint. Sullivan’s Vercel platform work, Answer Overflow’s 1.5 million monthly users, and **Executor’s** 2,800-star repository show that **Executor** was not assembled from a YC trend memo. The missionary evidence is stronger than the market thesis; Sullivan has repeatedly built integration-heavy developer products, but no public writing establishes a non-obvious belief about why credential orchestration and schema discovery remain defensible once Workato, Workday, and agent clients internalize them.
+
+**Executor’s** 22 trailing-30-day Homebrew installs lead to my 36-month forecast: by July 2029, Vercel acquires **Executor** primarily for product and talent after the hosted service reaches roughly $1 million to $3 million in ARR. Sullivan’s distribution and Vercel history can generate enough adoption to make Executor strategically legible, while the low sleeve fit, MIT replication, credential liability, and connector incumbents make an independent category-defining outcome less likely. That is a respectable venture moment only at a restrained entry price; at a hot YC infrastructure price, the acquisition becomes an outcome without angel alpha.
+
+**Pinterest** is the strongest objection because a missionary founder and personal-network distribution overrode consensus concerns, and Sullivan’s 57,245 followers plus Answer Overflow’s scale could give **Executor** the same exception. The bull case is painful: **Executor** could become the neutral execution standard precisely because it imports arbitrary MCP, OpenAPI, and GraphQL sources instead of owning a closed catalog, turning credentials and policy histories into switching costs while incumbents fight over connectors. The dossier still shows attention rather than economic lock-in—no disclosed revenue, only 22 recent Homebrew installs, permissive MIT replication, and nine overlapping platform categories. I would flip to Invest if **Executor** verifies 500 paying Team organizations with greater than 120% net revenue retention by July 2027.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Round Is Mis-Priced or Non-Consensus, Not the Hot YC Deck | 8/30 |
+| Capital Structure Is Venture-Shaped, Not Founder-Drainage | 12/22 |
+| Founder Has Asymmetric Conviction Visible Pre-Pitch | 17/20 |
+| Founder-as-Brand or Owned Community Is on the Cap Table | 13/15 |
+| Category Lives in a Sleeve You're Already Convicted On | 2/13 |
+| **Total** | **52/100** |
+
+**Total Score: 52/100** (Neutral)

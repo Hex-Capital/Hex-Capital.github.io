@@ -1,71 +1,70 @@
 {
   "slug": "instance",
   "name": "Instance",
-  "oneLiner": "A benchmark for synthetic video",
+  "oneLiner": "Automated evals for robot policies",
   "metadata": {
-    "website": "https://tryinstance.app/",
+    "website": "https://www.instancelabs.ai/",
     "yc_page": "https://www.ycombinator.com/companies/instance",
-    "batch": "Summer 2026",
+    "batch": "Summer 2026 ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/instance))",
     "industry": "B2B / B2B",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Generative AI, Robotics, Data Labeling, AI",
-    "yc_partner": "Ankit Gupta",
-    "emails": "claire@tryinstance.app, lucy@tryinstance.app"
+    "tags": "Artificial Intelligence, Robotics, Data Labeling",
+    "yc_partner": "Ankit Gupta ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/instance))",
+    "emails": "founders@instancelabs.ai ([Instance website, Jul 2026](https://www.instancelabs.ai/))"
   },
   "tags": [
-    "Generative AI",
+    "Artificial Intelligence",
     "Robotics",
-    "Data Labeling",
-    "AI"
+    "Data Labeling"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-06-30T04:51:55.347Z",
+  "memoGeneratedAt": "2026-07-30T18:08:51.224Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 32,
-      "tier": "Pass"
+      "score": 69,
+      "tier": "Invest"
     },
     "elad-gil": {
-      "score": 39,
-      "tier": "Pass"
+      "score": 58,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 35,
-      "tier": "Pass"
+      "score": 60,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 39,
-      "tier": "Pass"
+      "score": 68,
+      "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 23,
+      "score": 41,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 22,
+      "score": 36,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 37,
-      "tier": "Pass"
+      "score": 48,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 32,
-    "EG": 39,
-    "NR": 35,
-    "PG": 39,
-    "PT": 23,
-    "SL": 22,
-    "VK": 37
+    "CB": 69,
+    "EG": 58,
+    "NR": 60,
+    "PG": 68,
+    "PT": 41,
+    "SL": 36,
+    "VK": 48
   },
-  "consolidatedAvg": 32.43,
-  "consolidatedRank": 71,
+  "consolidatedAvg": 54.29,
+  "consolidatedRank": 73,
   "traction": {
-    "tractionRank": 56,
-    "tractionScore": 10,
-    "tractionReason": "LinkedIn/X only, recently pivoted to synthetic video"
+    "tractionRank": 95,
+    "tractionScore": 39,
+    "tractionReason": "10K labeled episodes; no commercial adoption disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/instance.md",

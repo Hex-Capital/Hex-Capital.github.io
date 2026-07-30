@@ -3,46 +3,46 @@
   "name": "Speko",
   "oneLiner": "OpenRouter for voice AI",
   "metadata": {
-    "website": "https://speko.ai",
+    "website": "https://speko.ai/?utm_source=ycombinator&utm_medium=profile",
     "yc_page": "https://www.ycombinator.com/companies/speko",
     "batch": "Summer 2026",
     "industry": "B2B / B2B -> Infrastructure",
     "team_size": "4",
     "location": "San Francisco, CA, USA",
-    "tags": "Artificial Intelligence, Developer Tools, Conversational AI",
-    "yc_partner": "Tyler Bosmeny (YC company page)",
-    "emails": "founders@speko.ai (speko.ai website)"
+    "tags": "Developer Tools, AI, Conversational AI",
+    "yc_partner": "Tyler Bosmeny",
+    "emails": "founders@speko.ai, team@speko.ai ([Speko website](https://speko.ai/), [pricing page](https://speko.ai/pricing), Jul 2026)"
   },
   "tags": [
-    "Artificial Intelligence",
     "Developer Tools",
+    "AI",
     "Conversational AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-08T04:53:27.598Z",
+  "memoGeneratedAt": "2026-07-30T17:55:00.953Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 39,
-      "tier": "Pass"
+      "score": 56,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
       "score": 53,
       "tier": "Neutral"
     },
+    "naval-ravikant": {
+      "score": 65,
+      "tier": "Invest"
+    },
     "paul-graham": {
-      "score": 44,
-      "tier": "Pass"
+      "score": 58,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 30,
+      "score": 35,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 33,
+      "score": 38,
       "tier": "Pass"
     },
     "vinod-khosla": {
@@ -51,20 +51,20 @@
     }
   },
   "consolidatedScores": {
-    "CB": 39,
-    "EG": 44,
-    "NR": 53,
-    "PG": 44,
-    "PT": 30,
-    "SL": 33,
+    "CB": 56,
+    "EG": 53,
+    "NR": 65,
+    "PG": 58,
+    "PT": 35,
+    "SL": 38,
     "VK": 34
   },
-  "consolidatedAvg": 39.57,
-  "consolidatedRank": 31,
+  "consolidatedAvg": 48.43,
+  "consolidatedRank": 128,
   "traction": {
-    "tractionRank": 47,
-    "tractionScore": 14,
-    "tractionReason": "SDKs published, only self-reported latency claims"
+    "tractionRank": 101,
+    "tractionScore": 36,
+    "tractionReason": "175 combined weekly package downloads"
   },
   "paths": {
     "memo": "summer2026/memos/speko.md",

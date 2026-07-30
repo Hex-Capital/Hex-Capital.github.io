@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://www.controlseat.com",
     "yc_page": "https://www.ycombinator.com/companies/control-seat",
-    "batch": "Summer 2026",
+    "batch": "Summer 2026 ([Y Combinator](https://www.ycombinator.com/companies/control-seat), Jul 2026)",
     "industry": "Industrials / Industrials",
     "team_size": "2",
-    "location": "San Francisco",
+    "location": "San Francisco, CA, USA",
     "tags": "Workflow Automation, Monitoring, Industrial",
-    "yc_partner": "Jared Friedman",
-    "emails": "founders@controlseat.com"
+    "yc_partner": "Jared Friedman ([Y Combinator](https://www.ycombinator.com/companies/control-seat), Jul 2026)",
+    "emails": "founders@controlseat.com ([Control Seat contact page](https://www.controlseat.com/contact), Jul 2026)"
   },
   "tags": [
     "Workflow Automation",
@@ -19,52 +19,52 @@
     "Industrial"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-06-29T06:11:59.085Z",
+  "memoGeneratedAt": "2026-07-30T18:12:32.078Z",
   "evalScores": {
     "cyan-banister": {
+      "score": 73,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
       "score": 47,
       "tier": "Neutral"
     },
-    "elad-gil": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 34,
-      "tier": "Pass"
-    },
     "paul-graham": {
-      "score": 48,
-      "tier": "Neutral"
+      "score": 71,
+      "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 32,
-      "tier": "Pass"
+      "score": 53,
+      "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 40,
-      "tier": "Pass"
+      "score": 58,
+      "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 29,
-      "tier": "Pass"
+      "score": 49,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 47,
-    "EG": 37,
-    "NR": 34,
-    "PG": 48,
-    "PT": 32,
-    "SL": 40,
-    "VK": 29
+    "CB": 73,
+    "EG": 57,
+    "NR": 47,
+    "PG": 71,
+    "PT": 53,
+    "SL": 58,
+    "VK": 49
   },
-  "consolidatedAvg": 38.14,
+  "consolidatedAvg": 58.29,
   "consolidatedRank": 39,
   "traction": {
-    "tractionRank": 55,
-    "tractionScore": 10,
-    "tractionReason": "YC + $500K + launch video, no customers"
+    "tractionRank": 69,
+    "tractionScore": 48,
+    "tractionReason": "Named production deployment at Battex Chile"
   },
   "paths": {
     "memo": "summer2026/memos/control-seat.md",

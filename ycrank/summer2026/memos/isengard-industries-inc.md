@@ -8,98 +8,77 @@
 | YC Page | https://www.ycombinator.com/companies/isengard-industries-inc |
 | Batch | Summer 2026 |
 | Industry | Industrials / Industrials -> Defense |
-| Team Size | 20 |
-| Location | Florida City, FL, USA |
+| Team Size | 30 |
+| Location | San Francisco, CA, USA |
 | Tags | Artificial Intelligence, Swarm Robotics, Unmanned Vehicle |
 | YC Partner | Gustaf Alstromer |
-| Emails | hello@isengardindustries.com (company website) |
+| Emails | hello@isengardindustries.com |
 
 ## The Idea
 
-- **Problem:** Allied nations (US, EU, Ukraine) cannot procure precision-strike drones and counter-UAS at the volume or price required for attritable warfare, currently relying on legacy primes whose systems are expensive and slow to scale (company website, 2026).
-- **Approach:** Designs six in-house unmanned strike platforms (AQV 114 Manhack, AQ 101 Deleter, XQ 500 Jody, XQ 600 Heretic, AQ 1 Ace, XQ 770 Freedom Fighter) plus an in-house TJ-100 turbojet (TRL 9, 1,000 N thrust) with AES-256 encrypted datalinks for GNSS-denied environments, manufactured in distributed allied facilities (company website, 2026).
-- **Differentiation:** Versus Anduril ($61B valuation, May 2026, dronexl.co) and Helsing ($18B, May 2026, dronexl.co), Isengard targets lower per-unit cost and explicitly "sovereign" local manufacturing rather than centralized US production; versus founders' prior Terminal Autonomy (Ukraine-manufactured AQ-400 Scythe, dronedj.com 2023), Isengard adds counter-UAS and US/EU production footprint (company website).
-- **Business Model:** [Inferred]: Per-unit hardware sales of munitions/interceptors to allied MoDs and primes; company website states "briefings available to allied governments, primes, and qualified partners" but no public pricing.
-- **TAM/SAM:** Counter-UAS market $14.41B in 2026 → $55.25B by 2034 at 22.4% CAGR (Fortune Business Insights); global counter-UAS spending $12.6B in 2026 (Unmanned Airspace).
-- **GTM / Distribution:** [Inferred]: Direct government/MoD sales via founders' prior defense channels (Australian Defence Force, US Army, NATO, Ukrainian Armed Forces relationships built at Terminal Autonomy, theorg.com/uk.linkedin.com).
+- **Problem:** Allied governments need thousands rather than hundreds of precision-strike and counter-drone systems, while the existing defense-industrial base was not designed for rapid, distributed production at this volume ([Isengard website, Jul 2026](https://isengardindustries.com/)).
+- **Approach:** Isengard combines six airframe systems, shared AI targeting and visual navigation, an AES-256 datalink, in-house propulsion, and distributed local assembly cells targeting output of 3,000 systems per month ([Isengard website, Jul 2026](https://isengardindustries.com/)).
+- **Differentiation:** Unlike platform-focused suppliers Anduril, Shield AI, and Helsing, Isengard describes its product as a transferable production stack comprising airframes, autonomy, propulsion, and allied-country manufacturing lines ([Isengard LinkedIn, Jul 2026](https://www.linkedin.com/company/isengard-industries)).
+- **Business Model:** [Inferred]: Revenue would come from government or prime-contractor procurement and sovereign co-production agreements because the company offers private briefings to allied governments, primes, and qualified partners but publishes no pricing.
+- **TAM/SAM:** The global military-drone market was $47.38 billion in 2025 and is forecast to reach $98.24 billion by 2033 at an 8.9% CAGR, while Western counter-UAS demand was estimated above $35 billion with a 19.4% CAGR ([Grand View Research, 2026](https://www.grandviewresearch.com/industry-analysis/military-drone-market-report); [Avascent/ADG, Q1 2025](https://assets.ctfassets.net/xpbu77rkft4z/30kkK9CD23QQs6wZRuejfq/86e14fa58091ef19321d3b46e48f8ad1/ADG_Report_Counter_Drones_with_Arnovia_Q1_2025_FINAL.pdf)).
+- **GTM / Distribution:** The company solicits private briefings from allied governments, defense primes, and qualified partners and identifies production cells in Florida and Warsaw ([Isengard website, Jul 2026](https://isengardindustries.com/)).
 
 ## Defensibility
 
-- **Moat today:** Combat deployment on Ukrainian front lines provides battlefield-validated performance data and operator feedback loops (company website, 2026); founders' prior company Terminal Autonomy scaled to $60M revenue with US Army/NATO/Ukrainian customers (uk.linkedin.com/in James Tennant profile).
-- **Future moat:** [Inferred]: Distributed sovereign manufacturing (St. Petersburg FL Q2 2026, Warsaw Poland operational, company website) could create regulatory/export-control lock-in with allied governments that incumbents structured around centralized US production cannot easily replicate; unproven because facilities are nascent.
-- **Market structure:** [Inferred]: Defense primes face cannibalization risk—shifting to attritable low-cost munitions would compress unit revenue significantly from their existing exquisite-system order books, a known structural constraint cited in Ukraine drone-warfare coverage (MIT Technology Review, Jan 2026).
-- **Commoditization risk:** Ukrainian and Chinese workshops produce low-cost FPV/loitering munitions at scale, and well-funded competitors (Anduril, Shield AI, Helsing, Saronic) are converging on attritable autonomous strike (valueaddvc.com 2026).
+- **Moat today:** The company reports operational systems on the Ukrainian front, combat-tested propulsion, vertically integrated autonomy, and two production cells totaling 18,200 square feet ([Isengard website, Jul 2026](https://isengardindustries.com/)).
+- **Future moat:** [Inferred]: Deployment telemetry, iterative battlefield feedback, qualified local production processes, and government procurement relationships could accumulate into data and switching-cost advantages, but no patents, contracts, or independently verified performance data were found.
+- **Market structure:** Foreign manufacture of U.S.-controlled defense articles can require a Manufacturing License Agreement covering technical data, defense services, and overseas production, creating regulatory complexity but not an incumbent-proof barrier ([U.S. DDTC, accessed Jul 2026](https://www.pmddtc.state.gov/ddtc_public/ddtc_public?id=ddtc_public_portal_faq_detail&sys_id=b8e5cf2f1b6909102dc36311f54bcb9e)).
+- **Commoditization risk:** Ukraine’s defense sector includes more than 2,000 manufacturers and military-technology firms, while competing autonomy and airframe designs are being developed by funded Western companies and Ukrainian producers ([Associated Press, Apr 2026](https://apnews.com/article/a7d2cce367f68caa3598f4e0bd8b50c9)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Six systems in production line; combat-deployed on Ukrainian front against Russian forces (company website, 2026).
-  - Manufacturing footprint: 10,127 sq ft St. Petersburg FL (Q2 2026), 8,073 sq ft Warsaw Poland (operational) (company website).
-  - Target production: thousands per month (company website, unverified).
-  - Backers listed: Y Combinator, Serra-de Estrela Investments Ltd, Balmoral (company website).
-  - Prior-product (Terminal Autonomy, separate company) revenue: $60M with U.S. Army, NATO, Ukrainian Armed Forces customers (uk.linkedin.com/in/jamesjtennant) — not Isengard's revenue.
-  - Founder Francisco Serra-Martins X account @FranciscoSerraM: 101 followers (x.com, search snippet).
-  - No public data found for Isengard's own revenue, LinkedIn follower count, Discord, Product Hunt, or job postings.
-- **Competitors:**
-  - Anduril ($61B valuation post-$5B Series H, May 2026, dronexl.co; revenue unknown publicly): full-stack defense prime with $20B Army counter-drone framework (dronexl.co, Mar 2026) — far larger, US-centric production.
-  - Helsing ($18B valuation post-$1.2B raise, May 2026, dronexl.co; revenue unknown publicly): Europe-focused AI defense with strike drones; criticized as "overpriced" per Bloomberg via militarnyi.com — Isengard positions on lower cost/sovereign production.
-  - Shield AI ($12.7B post-$1.5B Series G + $500M preferred, Mar 2026, valueaddvc.com): AI pilots for aircraft and autonomous drones — software-pilot focus vs. Isengard's munitions production focus.
-  - Saronic Technologies ($4B valuation, valueaddvc.com 2026; revenue unknown): autonomous maritime vessels — adjacent domain.
-  - Terminal Autonomy (funding undisclosed publicly, militarystartups.pro; ~$60M revenue per Tennant LinkedIn): founders' prior company producing AQ-400 Scythe in Ukraine — overlapping product category.
-- **Why now:** Ukraine war demonstrated attritable strike drones decisively in 2022-2026, and Pentagon awarded $500M to Perennial Autonomy for Ukraine-proven counter-drone interceptors (insideunmannedsystems.com), signaling DoD procurement shift toward mass-produced systems.
+  - Six systems are listed, including three described as operational and one as in production ([Isengard website, Jul 2026](https://isengardindustries.com/)).
+  - The company states that its systems operate on the Ukrainian front and that its propulsion is combat-tested, qualified, and fielded ([Isengard website, Jul 2026](https://isengardindustries.com/)).
+  - Production infrastructure includes a 10,127-square-foot Florida cell and an 8,073-square-foot Warsaw cell ([Isengard website, Jul 2026](https://isengardindustries.com/)).
+  - LinkedIn listed 45 company followers and an employee range of 11–50 ([LinkedIn, Jul 2026](https://www.linkedin.com/company/isengard-industries)).
+  - A Kyiv-based UAV Systems Lead vacancy was posted and was no longer accepting applications at research time ([LinkedIn Jobs, Jul 2026](https://ua.linkedin.com/jobs/view/%D1%96%D0%BD%D0%B6%D0%B5%D0%BD%D0%B5%D1%80-%D0%B0%D0%B5%D1%80%D0%BE%D0%BA%D0%BE%D1%81%D0%BC%D1%96%D1%87%D0%BD%D0%B8%D0%BA-%D0%BA%D0%B5%D1%80%D1%96%D0%B2%D0%BD%D0%B8%D0%BA-%D0%BD%D0%B0%D0%BF%D1%80%D1%8F%D0%BC%D0%BA%D1%83-%D0%B1%D0%BF%D0%BB%D0%B0-aerospace-engineer-uav-systems-lead-at-isengard-industries-4397529796)).
+- **Competitors (minimum 3, up to 5):**
+  - Anduril (at least $11.26 billion raised, approximately $2.2 billion 2025 revenue): builds autonomous weapons and hyperscale U.S. manufacturing rather than transferring an entire production stack to allied countries ([Sacra, May 2026](https://sacra-pdfs.s3.us-east-2.amazonaws.com/anduril.pdf); [Axios, Jul 2026](https://www.axios.com/2026/07/24/anduril-defense-100-billion)).
+  - Shield AI ($1.5 billion Series G, approximately $400 million 2025 revenue): centers on Hivemind autonomy software and aircraft rather than sovereign distributed manufacture of six strike systems ([TechCrunch, Mar 2026](https://techcrunch.com/2026/03/26/defense-startup-shield-ai-lands-12-7b-valuation-up-140-after-u-s-air-force-deal/); [CB Insights, Jul 2026](https://www.cbinsights.com/company/shield-ai/financials)).
+  - Helsing ($1.8 billion Series E, revenue unknown): develops autonomous strike drones, underwater systems, and military-aircraft applications, with a European rather than allied-local-production emphasis ([Reuters via Euronext, Jul 2026](https://live.euronext.com/en/financial-news/europes-helsing-raises-18-billion-valuing-defence-group-18-billion)).
+  - Terminal Autonomy ($15 million-plus raised, $60 million revenue reported in its former CEO’s YC biography): manufactures Ukrainian deep-strike drones and overlaps directly with Isengard’s strike portfolio ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/isengard-industries-inc)).
+- **Why now:** [Inferred]: The catalyst is the 2025–2026 shift to high-volume procurement, including the EU’s June 2026 disbursement of €3.9 billion for Ukrainian drone procurement and the UK’s 2025 target increase from 10,000 to 100,000 drones ([European Commission, Jun 2026](https://defence-industry-space.ec.europa.eu/commission-disburses-eur39-billion-drones-under-eur90-billion-ukraine-support-loan-2026-06-30_en); [House of Lords Library, Oct 2025](https://lordslibrary.parliament.uk/ukraine-update-october-2025/)).
 
 ## Founders & Team
 
-- **Francisco Serra-Martins (Co-founder, CEO):**
-  - Background: Combat engineer, Australian Defence Force; University of Sydney; Stanford innovation/entrepreneurship coursework; Forbes 30 Under 30; co-founder/CEO Terminal Autonomy (AQ-400 Scythe in Ukraine); chair Dove Air (muraena.ai; terminalautonomy.com; understandingai.org).
-  - Twitter/X: @FranciscoSerraM, 101 followers (x.com, search snippet).
-  - LinkedIn: "Terminal Autonomy" (linkedin.com/in/franciscoserramartins) — count not retrievable.
-  - GitHub: No public account found.
-- **James Tennant (Co-founder, CIO):**
-  - Background: Engineering, University of Sydney; Australian Army Officer; ~10 years private equity/private credit; ran Balmoral (private credit fund); diligence on defense-tech deals in Australia, Ukraine, Gulf; previously co-founder/CEO Terminal Autonomy scaling to $60M revenue with US Army/NATO/Ukrainian customers (uk.linkedin.com/in/jamesjtennant; theorg.com).
+- **Francisco Serra-Martins (Co-founder and CEO):**
+  - Background: University of Sydney engineering graduate, former Australian Defence Force combat engineer, former Sonder Design CEO, and former Terminal Autonomy co-founder and CEO, where YC reports $60 million in revenue and customers including the U.S. Army, NATO, and Ukrainian forces ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/isengard-industries-inc)).
   - Twitter/X: No public account found.
-  - LinkedIn: uk.linkedin.com/in/jamesjtennant — count not retrievable.
-  - GitHub: No public account found.
-- **Two additional co-founders:** Names redacted on company website (company website, 2026); no public data found.
-- **Co-founder relationship:** Serra-Martins and Tennant previously co-founded Terminal Autonomy together and both studied at University of Sydney (terminalautonomy.com; uk.linkedin.com/in/jamesjtennant).
-- **Founder-market fit:** Both founders served as Australian Defence Force/Army officers and built/scaled a combat-deployed strike drone company (Terminal Autonomy, $60M revenue, customers including US Army/NATO/Ukrainian armed forces) before founding Isengard (uk.linkedin.com/in/jamesjtennant; terminalautonomy.com); listed backer Balmoral is Tennant's prior private credit fund (uk.linkedin.com/in/jamesjtennant).
+  - LinkedIn: “Isengard Industries,” with 21,000 followers and 500+ connections ([LinkedIn, Jul 2026](https://www.linkedin.com/in/franciscoserramartins)).
+  - GitHub: No public repos found.
+- **James Tennant (Co-founder and CIO):**
+  - Background: Former Australian Army officer, former Balmoral private-credit fund operator, defense-technology investor, and PhD candidate researching economic warfare and hybrid threats ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/isengard-industries-inc)).
+  - Twitter/X: No public account found.
+  - LinkedIn: “Partner at BOKA Capital,” with 11,000 followers and 500+ connections ([LinkedIn, Jul 2026](https://ae.linkedin.com/in/jamesjtennant)).
+  - GitHub: No public repos found.
+- **Co-founder relationship:** No public data on co-founder history.
+- **Founder-market fit:** Francisco Serra-Martins previously led a deep-strike-drone supplier serving the U.S. Army, NATO, and Ukrainian forces, while James Tennant combines Australian Army service with defense-financing and procurement diligence ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/isengard-industries-inc)).
 
 ## Key Risks
 
-- **Prior-company overlap and IP/non-compete risk:** Founders previously ran Terminal Autonomy with overlapping products (AQ-400 Scythe vs. Isengard's AQ/XQ line) and overlapping Ukraine manufacturing footprint (terminalautonomy.com; isengardindustries.com); no public data on whether Terminal Autonomy was wound down, sold, or remains operational, creating potential IP and customer-contract entanglement.
-- **Customer concentration on active conflict:** Combat traction is on the Ukrainian front (company website, 2026); a ceasefire, US policy shift on Ukraine aid, or export-control restriction would compress near-term demand pipeline.
-- **Well-funded incumbents converging on the same thesis:** Anduril ($61B, May 2026 dronexl.co), Helsing ($18B, May 2026 dronexl.co), Shield AI ($12.7B, Mar 2026 valueaddvc.com), and Saronic ($4B) all target attritable autonomous defense systems with orders-of-magnitude greater capital.
-- **Technical feasibility at claimed scale:** Company target of "thousands per month" across six platforms plus an in-house TJ-100 turbojet (company website) is unverified against the two stated facilities totaling ~18,200 sq ft (company website); no public data on actual monthly output.
-- **Procurement cycle and DoD access:** Defense procurement typically requires multi-year programs of record; founders' prior US Army/NATO relationships via Terminal Autonomy (uk.linkedin.com/in/jamesjtennant) mitigate but do not eliminate this.
+- **Claim verification:** Combat deployment, target output of 3,000 systems per month, GNSS-denied navigation, and lower comparative cost are company statements for which no independent test results, procurement records, or customer confirmations were found ([Isengard website, Jul 2026](https://isengardindustries.com/)).
+- **Export authorization:** The proposed transfer of production technology to allied countries can require U.S. authorization covering defense articles, technical data, and foreign manufacture ([U.S. DDTC, accessed Jul 2026](https://www.pmddtc.state.gov/ddtc_public/ddtc_public?id=ddtc_public_portal_faq_detail&sys_id=b8e5cf2f1b6909102dc36311f54bcb9e)).
+- **Countermeasure cycle:** Electronic warfare, spoofing, fiber-optic control, camouflage, and rapidly changing adversary tactics can reduce the useful life of fixed drone and targeting configurations ([Australian Army Research Centre, Mar 2026](https://researchcentre.army.gov.au/library/land-power-forum/drone-warfare-ukraine-myths-operational-reality-part-1?page=1); [CSIS, Mar 2025](https://www.csis.org/analysis/ukraines-future-vision-and-current-capabilities-waging-ai-enabled-autonomous-warfare)).
+- **Capitalized competition:** Anduril, Shield AI, and Helsing raised multibillion-dollar rounds and sell overlapping autonomous aircraft, strike, or counter-UAS capabilities ([Axios, Jul 2026](https://www.axios.com/2026/07/24/anduril-defense-100-billion); [TechCrunch, Mar 2026](https://techcrunch.com/2026/03/26/defense-startup-shield-ai-lands-12-7b-valuation-up-140-after-u-s-air-force-deal/); [Reuters via Euronext, Jul 2026](https://live.euronext.com/en/financial-news/europes-helsing-raises-18-billion-valuing-defence-group-18-billion)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Counter-UAS $14.41B in 2026 → $55.25B by 2034, 22.4% CAGR (Fortune Business Insights); global C-UAS spending $12.6B in 2026 (Unmanned Airspace) |
-| SAM | No public data found |
-| Traction | Six systems in production; combat-deployed on Ukrainian front (company website, 2026); 10,127 sq ft St. Petersburg FL facility Q2 2026 + 8,073 sq ft Warsaw Poland operational (company website); 20 employees (YC page, 2026) |
-| Revenue Signal | No public data found (Isengard's own revenue not disclosed; prior-company Terminal Autonomy reported $60M revenue per uk.linkedin.com/in/jamesjtennant, not attributable to Isengard) |
-| Founders | Francisco Serra-Martins (CEO): Australian Defence Force combat engineer, University of Sydney, Forbes 30 Under 30, co-founded Terminal Autonomy. James Tennant (CIO): Australian Army Officer, University of Sydney engineering, ran Balmoral private credit fund, prior Terminal Autonomy CEO ($60M rev). Two additional co-founders undisclosed. |
-| Competitors | Anduril ($61B valuation May 2026, revenue unknown, dronexl.co; US-centric full-stack prime); Helsing ($18B May 2026, revenue unknown, dronexl.co; Europe AI strike); Shield AI ($12.7B Mar 2026, revenue unknown, valueaddvc.com; AI pilots); Saronic ($4B, revenue unknown, valueaddvc.com; maritime autonomy); Terminal Autonomy (funding undisclosed, ~$60M revenue per Tennant LinkedIn; same product category, founders' prior company) |
-| Moat Signals | Combat deployment on Ukrainian front (company website 2026); founders' prior $60M-revenue defense-tech build with US Army/NATO/Ukrainian customers (uk.linkedin.com/in/jamesjtennant); in-house TJ-100 turbojet at TRL 9 (company website) |
-| Risk Factors | Prior-company IP/non-compete overlap with Terminal Autonomy, customer concentration in Ukraine conflict, well-funded incumbents (Anduril/Helsing/Shield AI) converging on thesis |
-| Founder Reach | Francisco Serra-Martins: X @FranciscoSerraM 101 followers (x.com), LinkedIn count not retrievable, no GitHub. James Tennant: no X found, LinkedIn count not retrievable, no GitHub. |
-| Distribution Signals | No public data found (no Product Hunt, no app store, no Chrome installs; company website mentions "briefings to allied governments, primes, and qualified partners") |
-| Emails | hello@isengardindustries.com (company website) |
-
-Sources:
-- [YC company page](https://www.ycombinator.com/companies/isengard-industries-inc)
-- [Isengard Industries website](http://isengardindustries.com/)
-- [Francisco Serra-Martins LinkedIn](https://www.linkedin.com/in/franciscoserramartins/)
-- [James Tennant LinkedIn](https://uk.linkedin.com/in/jamesjtennant)
-- [Terminal Autonomy About](https://www.terminalautonomy.com/about)
-- [Francisco Serra-Martins on X](https://x.com/FranciscoSerraM)
-- [Anduril Series H coverage (dronexl.co)](https://dronexl.co/2026/03/22/army-anduril-20b-ai-counter-drone/)
-- [Helsing $18B valuation (dronexl.co)](https://dronexl.co/2026/05/09/helsing-18-billion-valuation/)
-- [Defense Tech tracker (Value Add VC)](https://valueaddvc.com/defense-tech)
-- [Counter-UAS market (Fortune Business Insights)](https://www.fortunebusinessinsights.com/counter-uas-market-111906)
-- [Global C-UAS spending (Unmanned Airspace)](https://www.unmannedairspace.info/counter-uas-systems-and-policies/global-spending-on-counter-uas-systems-reach-usd12-6-billion-this-year/)
-- [Autonomous warfare in Europe (MIT Technology Review)](https://www.technologyreview.com/2026/01/06/1129737/autonomous-warfare-europe-drones-defense-automated-kill-chains/)
-- [Pentagon counter-drone award (Inside Unmanned Systems)](https://insideunmannedsystems.com/pentagon-awards-500m-to-perennial-autonomy-for-counter-drone-interceptors-proven-in-ukraine/)
-- [AQ-400 Scythe coverage (DroneDJ)](https://dronedj.com/2023/12/20/startup-aids-ukraines-reply-to-russias-loitering-munition-drones/)
+| TAM | $47.38B global military-drone market in 2025, forecast to reach $98.24B by 2033 at 8.9% CAGR (Grand View Research, 2026) |
+| SAM | Western counter-UAS potential market above $35B with 19.4% CAGR (Avascent/ADG, Q1 2025) |
+| Traction | Six systems listed; three described as operational; systems reported operating on the Ukrainian front; 18,200 sq. ft. across Florida and Warsaw production cells (Isengard website, Jul 2026) |
+| Revenue Signal | No public data found |
+| Founders | Francisco Serra-Martins (CEO): former Terminal Autonomy CEO, Australian Army combat engineer, University of Sydney engineering graduate; James Tennant (CIO): former Australian Army officer, defense investor, PhD candidate (Y Combinator, Jul 2026) |
+| Competitors | Anduril (at least $11.26B raised, approximately $2.2B 2025 revenue, hyperscale U.S. autonomous-weapons manufacturing) (Sacra, May 2026; Axios, Jul 2026); Shield AI ($1.5B Series G, approximately $400M 2025 revenue, autonomy software and aircraft) (TechCrunch, Mar 2026; CB Insights, Jul 2026); Helsing ($1.8B Series E, revenue unknown, European autonomous strike systems) (Reuters via Euronext, Jul 2026); Terminal Autonomy ($15M+ raised, $60M revenue, Ukrainian deep-strike drones) (Y Combinator, Jul 2026) |
+| Moat Signals | Combat deployment, vertically integrated autonomy and propulsion, six-system shared platform, and two production cells (Isengard website, Jul 2026) |
+| Risk Factors | Unverified performance and production claims (Isengard website, Jul 2026), foreign-production licensing requirements (U.S. DDTC, Jul 2026), rapidly changing electronic countermeasures (CSIS, Mar 2025) |
+| Founder Reach | Francisco Serra-Martins: LinkedIn 21K, Twitter and GitHub not found; James Tennant: LinkedIn 11K, Twitter and GitHub not found (LinkedIn, Jul 2026) |
+| Distribution Signals | 45 LinkedIn company followers and one closed Kyiv UAV engineering vacancy (LinkedIn, Jul 2026) |
+| Emails | hello@isengardindustries.com (Isengard website, Jul 2026) |

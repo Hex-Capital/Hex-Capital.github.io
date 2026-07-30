@@ -1,17 +1,17 @@
 {
   "slug": "atlas-discovery",
   "name": "Atlas Discovery",
-  "oneLiner": "Discovering the atlas of disease biology using virtual cells.",
+  "oneLiner": "Predicting human response to drugs in clinical trials",
   "metadata": {
     "website": "https://atlasdiscovery.bio",
     "yc_page": "https://www.ycombinator.com/companies/atlas-discovery",
-    "batch": "Summer 2026",
+    "batch": "Summer 2026 ([YC profile](https://www.ycombinator.com/companies/atlas-discovery), Jul 2026)",
     "industry": "Healthcare / Healthcare -> Drug Discovery and Delivery",
-    "team_size": "3",
+    "team_size": "3 ([YC profile](https://www.ycombinator.com/companies/atlas-discovery), Jul 2026)",
     "location": "San Francisco, CA, USA",
     "tags": "AI-powered Drug Discovery, Drug discovery, Biotechnology",
-    "yc_partner": "Ankit Gupta",
-    "emails": "founders@atlasdiscovery.bio, hiring@atlasdiscovery.bio"
+    "yc_partner": "Ankit Gupta ([YC profile](https://www.ycombinator.com/companies/atlas-discovery), Jul 2026)",
+    "emails": "founders@atlasdiscovery.bio ([YC Launch](https://www.ycombinator.com/launches/RqJ-atlas-discovery-foundation-models-that-predict-patient-outcomes), Jul 2026)"
   },
   "tags": [
     "AI-powered Drug Discovery",
@@ -19,52 +19,52 @@
     "Biotechnology"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-06-29T06:10:53.609Z",
+  "memoGeneratedAt": "2026-07-30T18:05:35.622Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 40,
-      "tier": "Pass"
+      "score": 57,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 32,
+      "score": 44,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 43,
-      "tier": "Pass"
+      "score": 51,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 45,
+      "score": 61,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 28,
+      "score": 43,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 31,
+      "score": 40,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 47,
-      "tier": "Neutral"
+      "score": 66,
+      "tier": "Invest"
     }
   },
   "consolidatedScores": {
-    "CB": 40,
-    "EG": 32,
-    "NR": 43,
-    "PG": 45,
-    "PT": 28,
-    "SL": 31,
-    "VK": 47
+    "CB": 57,
+    "EG": 44,
+    "NR": 51,
+    "PG": 61,
+    "PT": 43,
+    "SL": 40,
+    "VK": 66
   },
-  "consolidatedAvg": 38,
-  "consolidatedRank": 40,
+  "consolidatedAvg": 51.71,
+  "consolidatedRank": 99,
   "traction": {
-    "tractionRank": 63,
-    "tractionScore": 8,
-    "tractionReason": "Investors listed + bioRxiv paper only"
+    "tractionRank": 108,
+    "tractionScore": 34,
+    "tractionReason": "Strong trial backtests; no customers disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/atlas-discovery.md",

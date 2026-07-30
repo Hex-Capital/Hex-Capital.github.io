@@ -6,100 +6,79 @@
 |-------|-------|
 | Website | https://salemroboticsinc.com |
 | YC Page | https://www.ycombinator.com/companies/salem-robotics-inc |
-| Batch | Summer 2026 (YC page) |
+| Batch | Summer 2026 |
 | Industry | Industrials / Industrials -> Manufacturing and Robotics |
 | Team Size | 2 |
 | Location | Austin, TX, USA |
 | Tags | Hard Tech, Robotics, Industrial |
-| YC Partner | Jon Xu (YC page) |
-| Emails | Engage@salemroboticsinc.com (company website) |
+| YC Partner | Jon Xu |
+| Emails | Engage@salemroboticsinc.com |
 
 ## The Idea
 
-- **Problem:** U.S. commercial nuclear plants and DOE decommissioning sites rely on humans to walk contaminated areas for radiological surveys, generating hours of manual instrument readings and paper compliance records (salemroboticsinc.com; company description).
-- **Approach:** Hardware-agnostic software layer plans autonomous survey routes, drives an existing quadruped (e.g., Boston Dynamics Spot) through the site, collects radiation instrument measurements, and outputs time-stamped, spatially-linked auditable reports (salemroboticsinc.com).
-- **Differentiation:** vs. Boston Dynamics Spot (bare hardware, no radiological workflow) — Salem provides the mission-planning + compliance-reporting stack; vs. ANYbotics/Gecko Robotics (vertically integrated own-hardware inspection) — Salem is robot-agnostic and specific to radiological survey compliance (salemroboticsinc.com; cbinsights.com competitor page).
-- **Business Model:** [Inferred]: Enterprise software license or per-facility SaaS subscription tied to deployed robots, since website markets a software platform for nuclear operators and no pricing page is disclosed (salemroboticsinc.com).
-- **TAM/SAM:** Nuclear Inspection Robots market USD 570.98M in 2026 growing to USD 1.01B by 2032 at 9.85% CAGR (Research and Markets, 2026); broader Nuclear Robotics market USD 2.59B in 2026 (Intel Market Research, 2026).
-- **GTM / Distribution:** Direct enterprise sales into commercial nuclear plants and DOE facilities, evidenced by "active relationships with five commercial nuclear plants," DOE partnerships, and pilot scoping with Texas nuclear facilities (salemroboticsinc.com).
+- **Problem:** Nuclear and other hazardous-facility technicians manually enter restricted areas, collect instrument readings, annotate maps, and transcribe results, with inspection frequency constrained by exposure limits, access, staffing, and paperwork ([Salem Robotics](https://www.salemroboticsinc.com/)).
+- **Approach:** Salem’s software directs existing robots through inspection routes, associates robot pose with measurement locations, collects visual and instrument data, and produces time-stamped, spatially linked records through an operator dashboard ([Salem Robotics](https://www.salemroboticsinc.com/)).
+- **Differentiation:** Salem supplies a hardware-agnostic autonomy and compliance-data layer for robots already on-site, versus ANYbotics’ integrated ANYmal robot and Energy Robotics’ broader multi-robot and drone fleet-management platform ([Salem Robotics](https://www.salemroboticsinc.com/), [ANYbotics](https://www.anybotics.com/about-us/), [Energy Robotics](https://www.prnewswire.com/news-releases/energy-robotics-secures-13-5-million-series-a-to-scale-critical-infrastructure-inspections-with-ai--robotics-302576293.html)).
+- **Business Model:** [Inferred]: Enterprise software licenses, integration work, and paid deployments following the company’s advertised one-to-two-week validation engagements, with an optional turnkey robot system.
+- **TAM/SAM:** The nuclear-inspection-robot market was estimated at $525.84 million in 2025 and projected to reach $1.02 billion by 2032 at a 9.85% CAGR ([Research and Markets](https://www.researchandmarkets.com/reports/6126738/nuclear-inspection-robots-market-global)).
+- **GTM / Distribution:** Salem solicits pilots and commercial partnerships from commercial and government nuclear facilities, decommissioning sites, and other critical-infrastructure operators through direct demo requests and one-to-two-week validation engagements ([Salem Robotics](https://www.salemroboticsinc.com/)).
 
 ## Defensibility
 
-- **Moat today:** Regulatory/domain expertise — founders have 8+ years combined at Los Alamos National Laboratory and UT Austin's Nuclear and Applied Robotics Group (salemroboticsinc.com; robotics.me.utexas.edu profile of Caleb Horan), plus published peer-reviewed work on multi-robot radiation surveys in active nuclear facilities (arxiv.org 2402.15008).
-- **Future moat:** [Inferred]: Auditable compliance-record dataset from repeated surveys could become the reference layer for NRC/DOE reporting, but unproven because no paying deployments are disclosed.
-- **Market structure:** [Inferred]: Nuclear facilities require vendor qualification, radiological safety clearances, and site-access approvals that raise switching costs, but no signed enterprise contracts are publicly cited yet.
-- **Commoditization risk:** Gecko Robotics, ANYbotics, and any team pairing Spot with a radiation payload could build overlapping capability; Salem's advantage is workflow-specific software tied to nuclear compliance rather than novel hardware (cbinsights.com; anybotics.com).
+- **Moat today:** The company’s public evidence consists of nuclear-domain workflows, founders’ field-deployment experience, and software producing time-stamped, spatially linked inspection records; no patents or proprietary datasets were identified ([Salem Robotics](https://www.salemroboticsinc.com/), [Y Combinator](https://www.ycombinator.com/companies/salem-robotics-inc)).
+- **Future moat:** [Inferred]: Repeated deployments could create facility-specific workflow integrations, validated mission libraries, and historical inspection datasets, but public sources do not establish their present scale or exclusivity.
+- **Market structure:** No structural barrier identified at this stage; hardware-agnostic competitor Energy Robotics already markets autonomous inspection software for heterogeneous robot and drone fleets ([Energy Robotics](https://www.prnewswire.com/news-releases/energy-robotics-secures-13-5-million-series-a-to-scale-critical-infrastructure-inspections-with-ai--robotics-302576293.html)).
+- **Commoditization risk:** Energy Robotics, ANYbotics, Gecko Robotics, Boston Dynamics partners, and nuclear engineering contractors can combine mobile robots, sensors, autonomy software, and reporting systems for overlapping inspection workflows ([Gecko Robotics](https://www.geckorobotics.com/news/naes-and-gecko-announce-100m-deal), [Nuclear Engineering International](https://www.neimagazine.com/news/sellafield-trials-robot-swabbing-tech/)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Active relationships with five commercial nuclear plants (salemroboticsinc.com, 2026).
-  - Partnerships across DOE environments (salemroboticsinc.com, 2026).
-  - Written interest and pilot scoping with Texas nuclear facilities (salemroboticsinc.com, 2026).
-  - End-to-end system demonstrated in high-fidelity simulation (salemroboticsinc.com, 2026).
-  - Peer-reviewed research foundation: "Radiation Surveys in Active Nuclear Facilities with Heterogeneous Collaborative Mobile Robots" (arxiv.org 2402.15008).
-  - Revenue, paying customers, press coverage, social follower counts, Product Hunt, or job postings: No public data found.
-- **Competitors:**
-  - Gecko Robotics ($347M raised, $1.25B valuation Series D Jun 2025, revenue unknown; vertically integrated hardware+software for infrastructure/defense inspection including USAF nuclear missile silos — CNBC Jun 2025, geckorobotics.com).
-  - ANYbotics ($152.35M raised through Series B-III Sep 2025 per Tracxn, revenue unknown; own ANYmal quadruped + inspection software, oil & gas focus with Petrobras and bp contracts — anybotics.com Dec 2024).
-  - Boston Dynamics (subsidiary of Hyundai, not directly comparable financially; Spot is the underlying hardware Salem's software runs on, making it a substitute if BD builds a first-party radiological workflow — cbinsights.com).
-  - [Inferred]: Direct competitive set is small because most quadruped inspection vendors target oil & gas or general industrial; nuclear-specific radiological-survey software is an underserved niche (based on Phase 4 search results).
-- **Why now:** Nuclear Decommissioning Services market at USD 7.38B in 2026 growing 5.65% CAGR to 2035 driven by aging global reactor fleet requiring complex decommissioning (Market Reports World, 2026); [Inferred]: U.S. reactor license renewals and SMR buildout are increasing survey frequency at existing plants concurrently.
+  - Selected for the 2026 Rice Business Plan Competition from approximately 7% of applicants ([Caleb Horan on LinkedIn](https://www.linkedin.com/in/caleb-horan-953646173), 2026).
+  - Won the James D. Pippin Award at the 2026 Jon Brumley Texas Venture Labs Investment Competition ([Salem Robotics on LinkedIn](https://www.linkedin.com/company/salem-robotics), 2026).
+  - 124 company LinkedIn followers ([LinkedIn](https://www.linkedin.com/company/salem-robotics), July 2026).
+  - Zero active YC job postings ([Y Combinator](https://www.ycombinator.com/companies/salem-robotics-inc), July 2026).
+- **Competitors (minimum 3, up to 5):**
+  - ANYbotics (over $130 million raised, revenue unknown): sells its own ANYmal quadruped and inspection software rather than focusing only on an autonomy layer for existing robots ([ANYbotics](https://www.anybotics.com/news/anybotics-raises-additional-60-million-to-drive-u-s-expansion/)).
+  - Gecko Robotics ($173 million disclosed Series C funding, revenue unknown): combines wall-climbing robots, drones, robot dogs, fixed sensors, and its Cantilever asset-health platform ([Gecko Robotics](https://www.geckorobotics.com/news/gecko-robotics-raises-usd100-million-to-extend-its-series-c-funding-enabling)).
+  - Energy Robotics ($18 million raised, revenue unknown): operates a hardware-agnostic fleet platform spanning robots and drones and reports more than one million inspections across five continents ([Energy Robotics](https://www.prnewswire.com/news-releases/energy-robotics-secures-13-5-million-series-a-to-scale-critical-infrastructure-inspections-with-ai--robotics-302576293.html), [Robotics.press](https://robotics.press/news/energy-robotics-company-profile/)).
+  - Boston Dynamics (funding not separately disclosed, revenue unknown): supplies Spot, the robot platform used in nuclear radiation-mapping and remote-swabbing deployments, while Salem states that its software can operate on existing robots ([Nuclear Energy Institute](https://www.nei.org/CorporateSite/media/filefolder/resources/delivering-nuclear-promise/2023/DNP-TIP-2023-06-Combining-Quadruped-Robotics-and-3D-Rad-Mapping-for-Rad-Monitoring.pdf), [Salem Robotics](https://www.salemroboticsinc.com/)).
+- **Why now:** [Inferred]: Nuclear operators’ 2025–2026 trials of Spot-based remote swabbing and radiation inspection show that quadruped platforms and compatible instruments are entering field-validation workflows that Salem can address with an autonomy and reporting layer ([Nuclear Engineering International](https://www.neimagazine.com/news/sellafield-trials-robot-swabbing-tech/)).
 
 ## Founders & Team
 
-- **Caleb Horan (Co-Founder & CEO):**
-  - Background: BS Mechanical Engineering, Colorado State University 2022; PhD student in Mechanical Engineering / Robotics at UT Austin's Nuclear and Applied Robotics Group since Fall 2022; 5 years of year-round research internship at Los Alamos National Laboratory; published research on VLM-based autonomous task planning applied to Boston Dynamics Spot for radiation inspection (robotics.me.utexas.edu; researchgate.net/profile/Caleb-Horan).
+- **Caleb Horan (Co-founder and CEO):**
+  - Background: MS in Robotics from UT Austin, NRC Fellow, former robotics PhD researcher, and Los Alamos Plutonium Division contributor who deployed multi-robot systems ([Y Combinator](https://www.ycombinator.com/companies/salem-robotics-inc)).
   - Twitter/X: No public account found.
-  - LinkedIn: "Robotics Doctoral Student @ UT Austin" (linkedin.com/in/caleb-horan-953646173), follower count not retrievable.
+  - LinkedIn: “Co-founder and CEO of Salem Robotics,” with 197 followers ([LinkedIn](https://www.linkedin.com/in/caleb-horan-953646173)).
   - GitHub: No public repos found.
-- **Janak (Crasun) Panthi (Co-Founder & CTO):**
-  - Background: PhD candidate in Robotics at UT Austin Nuclear and Applied Robotics Group (Dec 2026); 6 years industry experience in quadruped product development and nuclear facility deployments; prior Graduate Student Researcher at Los Alamos National Laboratory; U.S. Army background; co-author "A Closed-Chain Approach to Generating Affordance Joint Trajectories for Robotic Manipulators" with Alambeigi and Pryor (linkedin.com/in/janak-panthi; sites.utexas.edu/nrg).
+- **Janak (Crasun) Panthi (Co-founder and CTO):**
+  - Background: UT Austin robotics PhD candidate with six years of product-development and quadruped-deployment experience in nuclear facilities and U.S. Army service ([Y Combinator](https://www.ycombinator.com/companies/salem-robotics-inc)).
   - Twitter/X: No public account found.
-  - LinkedIn: "Co-founder, Salem Robotics | PhD Student" (linkedin.com/in/janak-panthi), follower count not retrievable.
+  - LinkedIn: Salem Robotics founder deploying legged robots including Boston Dynamics Spot, with 585 followers ([LinkedIn](https://www.linkedin.com/in/janak-panthi)).
   - GitHub: No public repos found.
-- **Co-founder relationship:** Both are PhD researchers in the same UT Austin Nuclear and Applied Robotics Group and both have Los Alamos National Laboratory research experience (robotics.me.utexas.edu; linkedin.com/in/janak-panthi-96362944).
-- **Founder-market fit:** Both founders have direct nuclear-facility robotics deployment experience at LANL and published academic work on autonomous radiation surveys in active nuclear facilities, matching the target buyer's regulatory and technical constraints (arxiv.org 2402.15008; salemroboticsinc.com); no advisors or investors beyond YC are publicly disclosed.
+- **Co-founder relationship:** Both founders conducted robotics work at UT Austin and are co-authors of research on heterogeneous mobile robots for radiation surveys in active nuclear facilities ([arXiv](https://arxiv.org/abs/2402.15008)).
+- **Founder-market fit:** Caleb and Janak have documented experience developing and deploying robotic survey systems in nuclear environments, supported by scientific advisor Mitchell Pryor, whose field programs include DOE-, DARPA-, NASA-, and U.S. Army-funded work ([Salem Robotics](https://www.salemroboticsinc.com/)).
 
 ## Key Risks
 
-- **Sales cycle risk:** Commercial nuclear plants and DOE sites have multi-year vendor qualification and safety-review processes; the five disclosed "active relationships" are unqualified as to stage (pilot vs. paid), so revenue timing is uncertain (salemroboticsinc.com). No mitigation disclosed.
-- **Technical feasibility risk:** Website states the end-to-end system was "demonstrated in high-fidelity simulation" (salemroboticsinc.com), not yet in-facility production; deterministic manipulation and radiation-hardened autonomy at required reliability are unproven at scale in-situ.
-- **Incumbent substitution risk:** Gecko Robotics is already delivering nuclear inspection work under a $1.5M USAF Nuclear Weapons Center contract and reached $1.25B valuation in Jun 2025 (CNBC, Jun 2025); a well-capitalized incumbent could add radiological survey workflows to existing customer footprints.
-- **Hardware dependency risk:** Product depends on third-party quadrupeds (e.g., Boston Dynamics Spot referenced in founder research at robotics.me.utexas.edu); if Boston Dynamics ships first-party radiological survey software, Salem's software layer is substitutable.
-- **Name disambiguation risk:** "Salem Robotics" is uncommon and no conflicting entity was surfaced, but Bizapedia lists the Texas entity (bizapedia.com/tx/salem-robotics-inc.html); no financial confusion detected.
+- **Field reliability:** Autonomous navigation, contact-rich instrument handling, measurement collection, and reporting must operate together in safety-critical facilities, while the company publishes no uptime, mission-completion, or intervention-rate data ([Salem Robotics](https://www.salemroboticsinc.com/)).
+- **Platform dependency:** Salem is designed to run on existing third-party robots, so platform APIs, payload limits, certifications, and vendor commercial terms can constrain deployments ([Salem Robotics](https://www.salemroboticsinc.com/)).
+- **Competitive overlap:** Energy Robotics already offers hardware-agnostic autonomous inspection across robots and drones and reports more than one million completed inspections ([Energy Robotics](https://www.prnewswire.com/news-releases/energy-robotics-secures-13-5-million-series-a-to-scale-critical-infrastructure-inspections-with-ai--robotics-302576293.html)).
+- **Procurement and validation:** Salem targets regulated nuclear and government facilities and advertises initial validation engagements, creating a requirement to convert pilots into approved operating deployments ([Salem Robotics](https://www.salemroboticsinc.com/)).
+- **Name disambiguation:** Search results include unrelated organizations such as Salem Automation and Salem, Oregon-based robotics activity, requiring confirmation against the company domain, founders, Austin location, and YC batch ([Y Combinator](https://www.ycombinator.com/companies/salem-robotics-inc)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Nuclear Robotics USD 2.59B (2026) → USD 7.42B (2034) at 14.2% CAGR (Intel Market Research, 2026); broader Hazardous Environment Robots USD 4.39B at 9.5% CAGR (openpr.com, 2026) |
-| SAM | Nuclear Inspection Robots USD 570.98M (2026) → USD 1.01B (2032) at 9.85% CAGR (Research and Markets, 2026) |
-| Traction | Active relationships with 5 commercial nuclear plants (salemroboticsinc.com, 2026); DOE partnerships (salemroboticsinc.com, 2026); pilot scoping with Texas nuclear facilities (salemroboticsinc.com, 2026); end-to-end demo in high-fidelity simulation (salemroboticsinc.com, 2026) |
+| TAM | $525.84 million in 2025, reaching $1.02 billion by 2032 at 9.85% CAGR (Research and Markets, 2026) |
+| SAM | No public data found |
+| Traction | 2026 Rice Business Plan Competition participant (Caleb Horan LinkedIn, 2026); James D. Pippin Award winner (Salem Robotics LinkedIn, 2026); 124 company followers (LinkedIn, July 2026) |
 | Revenue Signal | No public data found |
-| Founders | Caleb Horan (CEO): UT Austin Robotics PhD student, 5 yrs LANL research, published VLM autonomy work. Janak Panthi (CTO): UT Austin Robotics PhD candidate (Dec 2026), 6 yrs quadruped/nuclear industry, ex-LANL, U.S. Army background. |
-| Competitors | Gecko Robotics ($347M raised, $1.25B valuation Jun 2025, revenue unknown, USAF nuclear silo contracts — vertically integrated hardware+software); ANYbotics ($152.35M raised through Sep 2025, revenue unknown, ANYmal quadruped + oil & gas focus); Boston Dynamics (Hyundai subsidiary, revenue unknown, provides underlying Spot hardware) |
-| Moat Signals | Founders' 8+ years LANL nuclear-robotics research (salemroboticsinc.com; robotics.me.utexas.edu); peer-reviewed radiation-survey work (arxiv.org 2402.15008) |
-| Risk Factors | Long nuclear-facility sales cycles, in-situ technical feasibility unproven (only simulation demonstrated), Gecko Robotics incumbent substitution |
-| Founder Reach | Caleb Horan: Twitter not found, LinkedIn count not retrievable, GitHub not found. Janak Panthi: Twitter not found, LinkedIn count not retrievable, GitHub not found. |
-| Distribution Signals | No public data found |
-| Emails | Engage@salemroboticsinc.com (salemroboticsinc.com) |
-
-Sources:
-- [Salem Robotics website](https://salemroboticsinc.com/)
-- [Salem Robotics YC page](https://www.ycombinator.com/companies/salem-robotics-inc)
-- [Caleb Horan — UT Austin NRG profile](https://robotics.me.utexas.edu/people/15-graduate-students/18-graduate-students/164-caleb-horan)
-- [Caleb Horan LinkedIn](https://www.linkedin.com/in/caleb-horan-953646173/)
-- [Janak Panthi LinkedIn](https://www.linkedin.com/in/janak-panthi/)
-- [Janak Panthi (LANL) LinkedIn](https://www.linkedin.com/in/janak-panthi-96362944/)
-- [Radiation Surveys in Active Nuclear Facilities (arXiv 2402.15008)](https://arxiv.org/html/2402.15008)
-- [Nuclear Inspection Robots Market — Research and Markets](https://www.researchandmarkets.com/reports/6126738/nuclear-inspection-robots-market-global)
-- [Nuclear Robotics Market — Intel Market Research](https://www.intelmarketresearch.com/nuclear-robotics-market-43517)
-- [Hazardous Environment Robots Market — openPR](https://www.openpr.com/news/4553473/market-size-analysis-the-usd-4-39-billion-hazardous)
-- [Nuclear Decommissioning Services — Market Reports World](https://www.marketreportsworld.com/market-reports/nuclear-decommissioning-services-market-14727383)
-- [Gecko Robotics Series D — CNBC](https://www.cnbc.com/2025/06/12/gecko-robotics-raises-125-million-surpassing-billion-dollar-valuation.html)
-- [Gecko Robotics news](https://www.geckorobotics.com/news/gecko-reaches-unicorn-status)
-- [ANYbotics funding — Tracxn](https://tracxn.com/d/companies/anybotics/__Vn7BHz9bBT8R2cLQ_B1B3hHf-47uVwxrlBrVPLPTLUc/funding-and-investors)
-- [ANYbotics $60M raise](https://www.anybotics.com/news/anybotics-raises-additional-60-million-to-drive-u-s-expansion/)
-- [Boston Dynamics competitors — CB Insights](https://www.cbinsights.com/company/boston-dynamics/alternatives-competitors)
-- [Salem Robotics Inc — Bizapedia](https://www.bizapedia.com/tx/salem-robotics-inc.html)
+| Founders | Caleb Horan (CEO): UT Austin robotics MS, NRC Fellow, Los Alamos robotics deployments (Y Combinator, 2026); Janak Panthi (CTO): UT Austin robotics PhD candidate, six years of nuclear quadruped work, U.S. Army (Y Combinator, 2026) |
+| Competitors | ANYbotics (over $130 million raised, revenue unknown, integrated robot and software); Gecko Robotics ($173 million disclosed Series C, revenue unknown, inspection hardware plus asset analytics); Energy Robotics ($18 million raised, revenue unknown, multi-robot and drone fleet software) (ANYbotics, Gecko Robotics, Energy Robotics/Robotics.press, 2023–2026) |
+| Moat Signals | Nuclear workflow specialization, spatially linked compliance records, and founders’ nuclear robotics deployment experience (Salem Robotics and Y Combinator, 2026) |
+| Risk Factors | Field reliability data unavailable (Salem Robotics, 2026), third-party robot dependency (Salem Robotics, 2026), established hardware-agnostic competitor (Energy Robotics, 2025) |
+| Founder Reach | Caleb Horan: LinkedIn 197 followers; Janak Panthi: LinkedIn 585 followers (LinkedIn, 2026) |
+| Distribution Signals | 124 LinkedIn followers and zero YC job postings (LinkedIn and Y Combinator, July 2026) |
+| Emails | Engage@salemroboticsinc.com (Salem Robotics website, July 2026) |

@@ -6,96 +6,75 @@
 |-------|-------|
 | Website | https://skymerse.com |
 | YC Page | https://www.ycombinator.com/companies/skymerse |
-| Batch | Summer 2026 (YC company page) |
+| Batch | Summer 2026 |
 | Industry | Industrials / Industrials -> Aviation and Space |
-| Team Size | 1 |
+| Team Size |  |
 | Location | San Francisco, CA, USA |
-| Tags | Artificial Intelligence, Airlines, Aerospace |
-| YC Partner | Gustaf Alstromer (YC company page) |
-| Emails | No public data found |
+| Tags | Airlines, Aerospace, AI |
+| YC Partner | Gustaf Alstromer |
+| Emails | hello@skymerse.com |
 
 ## The Idea
 
-- **Problem:** Airline flight planning requires dispatchers to manually interpret NOTAMs, weather (METARs/TAFs), performance limits, and company procedures across fragmented tools before every flight (skymerse.com, 2026).
-- **Approach:** Specialized aeronautical models match schedules against live NOTAMs, weather, and operating minima to output flight-ready decisions rather than raw data, claiming "3 hours off flight planning per flight" (skymerse.com, 2026).
-- **Differentiation:** Versus Jeppesen ForeFlight (comprehensive flight-planning/EFB suite, now Thoma Bravo-owned, AeroTime Nov 2025), Sabre AI rCentre, Amadeus Altéa, Lufthansa Systems Lido, and NAVBLUE — Skymerse positions as an AI-native decision layer replacing "fragmented tools and manual interpretation" (YC page, 2026); [Inferred]: incumbents are integrated data/planning suites rather than LLM-driven interpretive agents.
-- **Business Model:** Notamify Pro $24.90/month, free tier at 3 briefings/week, Enterprise at custom pricing with API access requiring Pro (Notamify pricing via search snippet, 2026).
-- **TAM/SAM:** AI in aviation projected $8.83B in 2026 → $36.68B by 2034, 19.48% CAGR, with flight operations at 37.28% share in 2026 (Fortune Business Insights via search snippet); airline flight operations software $11.2B (2025) → $28.5B (2033), 12.80% CAGR (openpr.com via search snippet).
-- **GTM / Distribution:** Land-and-expand from Notamify's self-serve pilot/dispatcher tier into airline Enterprise deals, evidenced by LOT Polish Airlines running "Notamify Operating System" with dashboards and email alerts (skywork.ai review, 2026); [Inferred]: founder's LOT alumni network and Flightradar24 API role support direct airline outreach.
+- **Problem:** Airline dispatchers and flight crews must reconcile NOTAMs, weather, procedures, aircraft limits, and operator requirements across separate systems, with Skymerse stating that flight planning can require three hours per flight ([Skymerse](https://www.skymerse.com/), Jul 2026).
+- **Approach:** Skymerse ingests an operator’s schedule and continuously checks each flight against live NOTAMs, weather, runway constraints, aircraft limits, operating manuals, minimum-equipment lists, and company minima to produce flight-specific verdicts and alerts ([Skymerse](https://www.skymerse.com/), Jul 2026).
+- **Differentiation:** Unlike source-oriented NOTAM, weather, chart, and flight-planning tools, Skymerse is designed to preserve a common operational context from planning and dispatch through monitoring and cockpit support ([Skymerse launch post](https://www.skymerse.com/blog/introducing-skymerse), Jul 2026).
+- **Business Model:** Notamify offers a free Basic plan, a $24.90-per-month Pro subscription with a seven-day trial and 50 included API credits, subsequent credit-based API pricing, and custom Enterprise contracts covering seats, operating volume, data access, integrations, and support ([Notamify pricing](https://www.notamify.com/), Jul 2026).
+- **TAM/SAM:** No public TAM/SAM data found for this specific segment.
+- **GTM / Distribution:** Skymerse solicits demonstrations with airlines, cargo operators, business-jet operators, and medevac providers and pilots the enterprise product against customers’ airports, volumes, feeds, and workflows ([Skymerse introduction](https://notamify.com/introducing-skymerse), Jul 2026; [Notamify Enterprise](https://www.notamify.com/enterprise), Jul 2026).
 
 ## Defensibility
 
-- **Moat today:** Production airline deployment at LOT Polish Airlines with reported "+98% review efficiency" and "<3 minute" monitoring delay (LOT Ops data cited via search snippet, Jan 2026); Notamify API published as developer platform (skymerse.gitbook.io/notamify-api).
-- **Future moat:** [Inferred]: Proprietary aeronautical dataset (NOTAMs, procedures, airline SOPs) plus feedback loops from dispatchers could create data/switching-cost moat; unproven now given single named enterprise customer.
-- **Market structure:** [Inferred]: Airline flight-ops procurement involves safety certification, IT integration, and multi-year contracts, creating switching cost against incumbents but also raising barrier for a solo-founder startup; Jeppesen ForeFlight's Thoma Bravo owners publicly plan AI investment (Thoma Bravo press release, Nov 2025), meaning incumbents are actively closing the AI gap.
-- **Commoditization risk:** Underlying LLMs (product switched to OpenAI o3-mini per founder LinkedIn, Jan 2025) are commodity; competitive advantage rests on aviation-specific data, workflow depth, and regulatory trust rather than model IP.
+- **Moat today:** Skymerse reports a custom aeronautical model, AIP extraction agents, structured NOTAM interpretation, client-specific operating data, and more than three million NOTAMs processed through Notamify ([Skymerse](https://www.skymerse.com/), Jul 2026; [Notamify blog](https://notamify.com/blog), May 2026).
+- **Future moat:** [Inferred]: Repeated processing of operator-specific manuals, flight constraints, corrections, and operational decisions could create proprietary evaluation data, but no public evidence establishes its scale or exclusivity.
+- **Market structure:** No structural barrier identified at this stage, as airline-planning incumbents already control operational integrations and can add decision-oriented data services.
+- **Commoditization risk:** Boeing’s Jeppesen/ForeFlight introduced Airflow for serving aeronautical data to AI agents, while Flightkeys and Air Space Intelligence already apply optimization software or machine learning to airline flight operations ([industry commentary](https://www.linkedin.com/posts/sam-chandra_jeppesen-enters-the-arena-activity-7479668548139704320-u5lP), Jul 2026; [Flightkeys](https://www.flightkeys.com/index.html); [Andreessen Horowitz](https://a16z.com/announcement/investing-in-air-space-intelligence/)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Notamify serves "thousands" of daily pilots/aviation professionals (YC page, 2026; skymerse.com).
-  - LOT Polish Airlines named customer using Notamify Operating System (skywork.ai review of Notamify, 2026).
-  - Customer-reported outcome: "+98% review efficiency, <3 minute monitoring delay" at LOT Ops (LOT Ops data via search snippet, Jan 2026).
-  - Product updates shipped May 2026: Affected Elements V2, profile-aware filtering, Affected Element Timeline (Notamify blog via search snippet).
-  - Notamify migrated to OpenAI o3-mini (founder LinkedIn post, Jan 2025).
-  - Twitter/X @skymerse, LinkedIn "Skymerse", GitHub "skymerse" listed on YC page — follower counts not retrievable.
-  - No Product Hunt launch, TechCrunch, or funding announcement found in public sources.
-- **Competitors:**
-  - Jeppesen ForeFlight (acquired by Thoma Bravo from Boeing for $10.55B, AeroTime Nov 2025; revenue not separately disclosed post-carveout): incumbent full-suite planning + EFB, now investing in AI (Thoma Bravo press release, Nov 2025).
-  - Sabre (public, revenue unknown for flight-ops segment): Sabre AI rCentre integrated airline ops suite (gitnux.org 2026 roundup).
-  - NAVBLUE (Airbus subsidiary, revenue unknown): Airbus-backed flight planning/performance software (gitnux.org 2026).
-  - Lufthansa Systems Lido (Lufthansa subsidiary, revenue unknown): high-precision flight planning and OFP (gitnux.org 2026).
-  - Amadeus Altéa Operations (public, revenue unknown at segment): end-to-end flight ops + disruption management (gitnux.org 2026).
-- **Why now:** LLMs crossed usability threshold for parsing unstructured NOTAM text (FAA NOTAM modernization ongoing per AeroTime 2026), and Boeing's $10.55B carve-out of Jeppesen/ForeFlight to Thoma Bravo (April 2025 announced, Nov 2025 closed, AeroTime) has reset incumbent roadmaps — [Inferred]: creating a temporary window for AI-native entrants.
+  - Notamify had more than 3,500 registered users ([Notamify](https://www.notamify.com/), Jul 2026).
+  - Skymerse states that Notamify serves thousands of users daily and is in production with airline customers ([Skymerse](https://www.skymerse.com/), Jul 2026).
+  - LOT Polish Airlines uses Notamify for network-airport NOTAM monitoring and automated operational alerts ([Notamify for airlines](https://www.notamify.com/enterprise), Jul 2026).
+  - Baldwin Safety and Compliance is displayed as a Notamify partner ([Notamify](https://www.notamify.com/), Jul 2026).
+  - Skymerse’s LinkedIn company page had 134 followers and listed a company-size range of 2–10 employees ([LinkedIn](https://www.linkedin.com/company/skymerse), Jul 2026).
+  - YC listed zero active Skymerse jobs ([Y Combinator](https://www.ycombinator.com/companies/skymerse), Jul 2026).
+- **Competitors (minimum 3, up to 5):**
+  - Air Space Intelligence ($34M raised, revenue unknown): Flyways applies machine learning to route selection using traffic, weather, and airport conditions, while Skymerse also covers NOTAM interpretation, company procedures, and cockpit support ([Aviation Week](https://aviationweek.com/defense/budget-policy-operations/air-space-intel-raises-34m-machine-learning-run-flight-ops), Dec 2023).
+  - Flightkeys (funding amount undisclosed, revenue unknown): its 5D platform concentrates on flight planning, trajectory optimization, cost, emissions, and air-traffic-management integration rather than Skymerse’s stated end-to-end operational decision context ([Flightkeys](https://www.flightkeys.com/index.html); [Insight Partners announcement](https://www.prnewswire.com/news-releases/flightkeys-announces-strategic-growth-investment-from-insight-partners-302253741.html), Sep 2024).
+  - Portside (more than $70M raised, revenue unknown): its platform manages schedules, dispatch, financial, maintenance, and ownership data for business aviation, whereas Skymerse targets aeronautical constraint interpretation across airline flights ([TechCrunch](https://techcrunch.com/2023/02/01/portside-50m-business-aviation-startup/), Feb 2023).
+  - Assaia ($26.6M raised, revenue unknown): its AI platform monitors airport turnaround and apron operations rather than planning-to-cockpit flight decisions ([Assaia](https://www.globenewswire.com/news-release/2025/12/09/3202401/0/en/assaia-raises-26-6-million-in-series-b-funding-to-enhance-global-ai-leadership-in-airport-operations.html), Dec 2025).
+- **Why now:** [Inferred]: Jeppesen’s 2026 Airflow launch and Skymerse’s contemporaneous launch indicate that aeronautical data is being packaged for AI-agent consumption, enabling software to interpret operational inputs rather than only display them ([industry commentary](https://www.linkedin.com/posts/sam-chandra_jeppesen-enters-the-arena-activity-7479668548139704320-u5lP), Jul 2026).
 
 ## Founders & Team
 
-- **Damian Szumski (Founder / solo):**
-  - Background: Mgr in Advanced Analytics – Big Data, SGH Warsaw School of Economics 2020–2023; Product Owner (API) at Flightradar24 since April 2024; prior Delivery Technical Lead / Customer Solutions Engineer at FLYR (Apr 2021–Mar 2024); Navigation Coordinator and Flight Dispatcher Assistant at LOT Polish Airlines; Junior Aeronautical Chart Specialist at Lufthansa Systems (Mar 2019–Jan 2020); Licensed Flight Dispatcher (YC page; theorg.com; rocketreach.co).
-  - Twitter/X: @zaxrev (per YC page), count not retrievable.
-  - LinkedIn: profile at linkedin.com/in/damian-szumski (posts referenced via LinkedIn search snippets); headline not retrievable, count not retrievable.
-  - GitHub: @DamianS21 (github.com/DamianS21); no notable repo star count retrievable.
-- **Co-founder relationship:** Solo founder — no co-founder history applies (YC page team size = 1).
-- **Founder-market fit:** Founder has stacked aviation-industry roles (Lufthansa Systems, LOT Polish Airlines dispatch, FLYR revenue management, Flightradar24 API) plus licensed flight dispatcher certification (YC page; theorg.com), directly mapping to the flight-operations problem; no advisors, investors beyond YC standard deal, or board members disclosed publicly.
+- **Damian Szumski (Founder):**
+  - Background: Szumski is a licensed flight dispatcher who previously owned Flightradar24’s API product and worked at FLYR, LOT Polish Airlines, and Lufthansa Systems; he holds an advanced-analytics master’s from SGH Warsaw School of Economics and an aeronautics and space-technology engineering degree from Rzeszow University of Technology ([Y Combinator](https://www.ycombinator.com/companies/skymerse); [The Org](https://theorg.com/org/flightradar24/org-chart/damian-szumski)).
+  - Twitter/X: No public personal account found; count not retrievable.
+  - LinkedIn: “Founder at Skymerse (YC S26); Licensed Flight Dispatcher; previously Product Owner at Flightradar24 API” ([Y Combinator-linked profile](https://www.linkedin.com/in/damian-szumski/)).
+  - GitHub: No public personal repos found; the @skymerse organization has four public FAA SWIM forks with zero stars each ([GitHub](https://github.com/skymerse), Jul 2026).
+- **Co-founder relationship:** No public data on co-founder history.
+- **Founder-market fit:** Szumski’s dispatcher license, aeronautics education, airline-operations roles at LOT and FLYR, aeronautical-chart work at Lufthansa Systems, and API product role at Flightradar24 document experience across the workflows and data sources Skymerse targets ([Y Combinator](https://www.ycombinator.com/companies/skymerse); [The Org](https://theorg.com/org/flightradar24/org-chart/damian-szumski)).
 
 ## Key Risks
 
-- **Solo-founder execution against enterprise sales:** Team size = 1 (YC page) selling into airline IT/safety procurement, which typically requires multi-stakeholder cycles and 24/7 support commitments; mitigation: existing LOT deployment demonstrates one enterprise close (LOT Ops data via search snippet, Jan 2026).
-- **Incumbent AI response:** Thoma Bravo publicly committed to AI investment in Jeppesen ForeFlight (Thoma Bravo press release Nov 2025; theaircurrent.com "bets big on AI"), meaning the largest incumbent is now capitalized and mandated to close the AI feature gap.
-- **Safety/regulatory liability:** Cockpit and dispatch decisions carry FAA/EASA oversight; [Inferred]: any LLM hallucination in NOTAM interpretation could trigger airworthiness or operator-certificate implications, and no public evidence of regulatory certification pathway was found.
-- **Single-customer concentration:** LOT Polish Airlines is the only publicly named airline customer (skywork.ai review, 2026); loss of this reference account would remove primary enterprise validation.
-- **Model-provider dependency:** Notamify moved to OpenAI o3-mini (founder LinkedIn Jan 2025); pricing/availability changes or airline data-residency constraints on US model providers could disrupt the stack.
+- **Safety-critical output risk:** Notamify’s terms state that its outputs cannot be the sole or authoritative basis for flight planning, navigation, or safety-critical decisions and must be checked against official sources, limiting the scope of unattended automation ([Notamify Terms](https://notamify.com/terms), Jul 2026).
+- **Incumbent overlap:** Jeppesen/ForeFlight launched Airflow for supplying aeronautical data to AI agents, creating product overlap from a provider already embedded in aviation workflows ([industry commentary](https://www.linkedin.com/posts/sam-chandra_jeppesen-enters-the-arena-activity-7479668548139704320-u5lP), Jul 2026).
+- **Data-source dependency:** Skymerse’s decisions depend on third-party and public aeronautical data, while its terms disclaim guaranteed accuracy, completeness, and timeliness because NOTAM information changes dynamically ([Notamify Terms](https://notamify.com/terms), Jul 2026).
+- **Product-transition attribution:** Public traction figures primarily refer to Notamify, the first product, rather than deployments of Skymerse’s broader planning-to-cockpit system ([Skymerse launch post](https://www.skymerse.com/blog/introducing-skymerse), Jul 2026).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | AI in aviation: $8.83B (2026) → $36.68B (2034), 19.48% CAGR (Fortune Business Insights, 2026) |
-| SAM | Airline flight operations software: $11.2B (2025) → $28.5B (2033), 12.80% CAGR (openpr.com, 2026); flight-ops segment is 37.28% of AI-in-aviation in 2026 (Fortune Business Insights) |
-| Traction | "Thousands" of daily Notamify users (YC page, 2026); LOT Polish Airlines enterprise customer (skywork.ai, 2026); customer testimonial: "+98% review efficiency, <3 min monitoring delay" (LOT Ops data, Jan 2026); May 2026 product updates shipped (Notamify blog) |
-| Revenue Signal | Notamify Pro $24.90/month; free tier 3 briefings/week; Enterprise custom pricing; API requires Pro (Notamify pricing via search snippet, 2026) |
-| Founders | Damian Szumski (Founder): Licensed Flight Dispatcher; Product Owner API at Flightradar24; prior FLYR, LOT Polish Airlines, Lufthansa Systems; Mgr Big Data SGH Warsaw |
-| Competitors | Jeppesen ForeFlight ($10.55B sale price to Thoma Bravo Nov 2025, segment revenue undisclosed, incumbent full-stack planning + EFB); Sabre AI rCentre (public, segment revenue unknown, integrated airline ops suite); NAVBLUE (Airbus subsidiary, revenue unknown, planning/performance); Lufthansa Systems Lido (Lufthansa subsidiary, revenue unknown, OFP); Amadeus Altéa Operations (public, segment revenue unknown, end-to-end ops) |
-| Moat Signals | Production deployment at LOT Polish Airlines with quantified efficiency gains (LOT Ops data, Jan 2026); published Notamify API (skymerse.gitbook.io/notamify-api); founder's licensed-dispatcher + Flightradar24/LOT/Lufthansa Systems credentials (theorg.com; YC page) |
-| Risk Factors | Solo-founder execution vs. enterprise sales; incumbent AI response (Thoma Bravo–backed Jeppesen ForeFlight); safety/regulatory liability on LLM outputs |
-| Founder Reach | Damian Szumski: Twitter @zaxrev (count not retrievable), LinkedIn linkedin.com/in/damian-szumski (count not retrievable), GitHub @DamianS21 (star count not retrievable) |
-| Distribution Signals | Notamify self-serve web + API (notamify.com; skymerse.gitbook.io); LOT Polish Airlines enterprise reference (skywork.ai, 2026); No public Product Hunt launch, TechCrunch coverage, or funding announcement found |
-| Emails | No public data found |
-
-Sources:
-- [Skymerse company site](https://skymerse.com)
-- [Skymerse YC page](https://www.ycombinator.com/companies/skymerse)
-- [Notamify blog](https://notamify.com/blog)
-- [Notamify pricing / opentools review](https://opentools.ai/tools/notamify)
-- [Skywork.ai Notamify review](https://skywork.ai/skypage/en/Notamify-An-In-Depth-Review-of-the-AI-Tool-Revolutionizing-Flight-Safety-and-Efficiency/1976555878963933184)
-- [Damian Szumski personal site](https://www.damianszumski.com/)
-- [Damian Szumski at Flightradar24 – The Org](https://theorg.com/org/flightradar24/org-chart/damian-szumski)
-- [RocketReach – Damian Szumski](https://rocketreach.co/damian-szumski-email_360322940)
-- [GitHub DamianS21](https://github.com/DamianS21)
-- [Notamify API docs](https://skymerse.gitbook.io/notamify-api)
-- [AeroTime – Boeing $10.55B Jeppesen/ForeFlight sale closes](https://www.aerotime.aero/articles/boeing-thoma-bravo-jeppesen-sale-closes)
-- [Thoma Bravo – Jeppesen ForeFlight standalone](https://www.thomabravo.com/press-releases/jeppesen-foreflight-launches-as-a-standalone-company-to-redefine-the-future-of-aviation-software)
-- [The Air Current – Jeppesen ForeFlight AI strategy](https://theaircurrent.com/industry-strategy/boeing-jeppesen-foreflight-aviation-ai-software-brad-surak/)
-- [Fortune Business Insights – AI in Aviation](https://www.fortunebusinessinsights.com/ai-in-aviation-market-113289)
-- [OpenPR – Airline Flight Operations Software Market](https://www.openpr.com/news/4496932/airline-flight-operations-software-market-is-going-to-boom)
-- [Gitnux – flight operations software 2026](https://gitnux.org/best/aviation-flight-operations-software/)
+| TAM | No public data found |
+| SAM | No public data found |
+| Traction | 3,500+ registered Notamify users (Notamify, Jul 2026); thousands of daily users and airline customers in production (Skymerse, Jul 2026); LOT Polish Airlines deployment (Notamify Enterprise, Jul 2026) |
+| Revenue Signal | Free Basic plan; Pro at $24.90/month with seven-day trial and 50 API credits; custom Enterprise pricing (Notamify pricing, Jul 2026) |
+| Founders | Damian Szumski (Founder): licensed flight dispatcher, former Flightradar24 API Product Owner, advanced-analytics and aeronautics graduate (Y Combinator; The Org, Jul 2026) |
+| Competitors | Air Space Intelligence ($34M raised, revenue unknown, AI route optimization; Aviation Week, Dec 2023); Flightkeys (funding undisclosed, revenue unknown, trajectory and flight-planning optimization; Insight Partners, Sep 2024); Portside ($70M+ raised, revenue unknown, business-aviation operations platform; TechCrunch, Feb 2023); Assaia ($26.6M raised, revenue unknown, airport-turnaround AI; Assaia, Dec 2025) |
+| Moat Signals | Custom aeronautical model, AIP extraction agents, client-specific operating data, and 3M+ processed NOTAMs (Skymerse; Notamify blog, May–Jul 2026) |
+| Risk Factors | Safety-critical outputs require independent verification (Notamify Terms, Jul 2026), Jeppesen product overlap (LinkedIn industry commentary, Jul 2026), reliance on dynamic third-party data (Notamify Terms, Jul 2026) |
+| Founder Reach | No public data found |
+| Distribution Signals | 134 LinkedIn followers (LinkedIn, Jul 2026); zero active YC job listings (Y Combinator, Jul 2026) |
+| Emails | hello@skymerse.com (Skymerse contact page, Jul 2026) |

@@ -1,0 +1,30 @@
+﻿# Aktoria Robotics -- Paul Graham Evaluation
+
+Fifteen-plus trained operators serving four U.S. sites make **Aktoria Robotics** a schlep-heavy company with an origin-light founder story. The highest signal is the unpleasant machinery already running: recruiting operators in India, training them, scheduling continuous coverage, integrating physical robots, and keeping control latency near a reported 158 milliseconds. The lowest signal is organicity. Shreenabh Agrawal and Jaskaran Singh Walia have excellent robotics credentials, but the dossier never says either personally encountered this problem and built the first version for himself. **Aktoria Robotics** has animal tracks, but not yet the lost-USB-stick story.
+
+**Coinbase** is the high rung for schlep blindness because compliance was not an unfortunate appendage to the product; enduring it became the advantage. **Aktoria Robotics** shares that mechanism. Most robotics founders want to improve autonomy, while Aktoria Robotics is willing to operate the human exception layer autonomy still needs roughly 10% of the time. The divergence is that Coinbase’s regulatory burden could not simply be brought in-house by every customer, whereas 1X, Waymo, and Zoox already maintain remote-assistance capabilities. Aktoria Robotics is embracing a real schlep, but it has not proved ownership of that schlep.
+
+**Loopt** exposed what happens when technical plausibility outruns a founder’s immediate, usable need: force of personality can win the first check, but it cannot fix timing by itself. **Aktoria Robotics** has no evidence that Agrawal or Walia personally needed an outsourced intervention service before deciding to build one, so I apply the absent-evidence default on organicity. The four active U.S. sites prove that someone has the problem, which is better than Loopt’s unusable early infrastructure, but they do not prove why Aktoria Robotics noticed it first. The known-exception precedent matters here: like Loopt, Aktoria Robotics can survive a weak organic-origin score because the founders have already forced a difficult system into operation.
+
+Four U.S. sites and more than 15 operators are the strongest evidence that **Aktoria Robotics** contains relentlessly resourceful founders rather than merely credentialed researchers. Over the next 18 months, that resourcefulness compounds if every intervention becomes a reusable playbook, integration adapter, or training example; the labor operation then teaches Aktoria Robotics how robots fail in the wild. It fails to compound if the onboarding-fee waiver for the next 10 customers merely creates ten bespoke integrations and ten new staffing burdens. The founders have shipped the equivalent of the Dropbox demo, but not yet the equivalent of Airbnb’s cereal boxes because the dossier discloses no paying revenue or similarly improbable sales stunt.
+
+Shreenabh Agrawal’s ICRA, IROS, and RA-L work, combined with Jaskaran Singh Walia’s 25 publications, places **Aktoria Robotics** above technical-by-credential-only founders. Research output is a genuine artifact, and the reported sub-second India-to-U.S. control loop suggests Aktoria Robotics can make difficult systems work. But neither founder has a public repository, open-source contribution, competitive-programming record, or independently inspectable control stack. To flip this dimension into the top tier, Aktoria Robotics would need to release or demonstrate a non-trivial cross-robot adapter that outside roboticists adopt; papers alone do not establish the hacker genealogy that Patrick Collison’s Lisp work did.
+
+**Stripe** is the useful co-founder parallel: two technical founders working on infrastructure that other builders would rather not touch. **Aktoria Robotics** also has two founders with complementary robotics and machine-learning backgrounds, both connected to Carnegie Mellon. But the Collisons had spent their lives building together, while no public evidence establishes when Agrawal and Walia met or whether Aktoria Robotics rests on a durable working relationship. A pair is structurally better than a solo founder, but two résumés placed beside each other are not yet two animals pulling in the same direction.
+
+A reported 158-millisecond control loop and continuous operation at four sites lead me to predict that **Aktoria Robotics** will reach $3 million to $7 million in annual recurring revenue by July 2029, primarily as a managed robot-exception service rather than a pure software platform. The mechanism is simple: unreliable autonomy creates immediate demand, while Aktoria Robotics can sell labor-backed reliability faster than robot manufacturers can solve every edge case. The same high-schlep, low-organicity signature limits the prediction. Aktoria Robotics can build a substantial service business before proving that it has discovered a new software primitive.
+
+**Phantom Auto** raised $95 million, signed customers including Maersk and Serve Robotics, and still shut down. That is the bear case that stings: **Aktoria Robotics** could confuse expensive human redundancy with a scalable product while robot manufacturers internalize the critical intervention layer. No public uptime, jitter, safety, retention, pricing, or gross-margin data disproves that possibility. The bear case does not quite win because Aktoria Robotics already operates 15-plus people across four sites at pre-seed, evidence of founder resourcefulness that Phantom Auto’s financing total cannot substitute for. If fewer than two of those four sites convert into paid annual renewals within 12 months, I would flip from Invest to Pass.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Demonstrates Animal Resourcefulness Pre-Funding | 29/35 |
+| Idea Is Organic to Founders' Own Pain | 10/25 |
+| Problem Sits in a Schlep Zone Mainstream Founders Avoid | 14/15 |
+| Hacker Genealogy in the Founder Team | 11/15 |
+| Co-founder Configuration Is a Strong Pair or Trio, Not Solo | 6/10 |
+| **Total** | **70/100** |
+
+**Total Score: 70/100** (Invest)

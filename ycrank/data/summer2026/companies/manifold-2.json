@@ -1,0 +1,83 @@
+{
+  "slug": "manifold-2",
+  "name": "Manifold",
+  "oneLiner": "Low-cost, deployment-ready robotic labor for warehouses",
+  "metadata": {
+    "website": "https://www.manifoldindustries.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/manifold-2",
+    "batch": "Summer 2026",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+    "team_size": "2",
+    "location": "Los Angeles, CA, USA",
+    "tags": "Hardware, Warehouse Management Tech, Robotics, Logistics, Supply Chain",
+    "yc_partner": "Jon Xu",
+    "emails": "nick@manifoldindustries.ai"
+  },
+  "tags": [
+    "Hardware",
+    "Warehouse Management Tech",
+    "Robotics",
+    "Logistics",
+    "Supply Chain"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:41:33.632Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 73,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 80,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 63,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 73,
+    "EG": 51,
+    "NR": 49,
+    "PG": 80,
+    "PT": 51,
+    "SL": 54,
+    "VK": 63
+  },
+  "consolidatedAvg": 60.14,
+  "consolidatedRank": 22,
+  "traction": {
+    "tractionRank": 71,
+    "tractionScore": 47,
+    "tractionReason": "Warehouse deployment achieving 150 picks hourly"
+  },
+  "paths": {
+    "memo": "summer2026/memos/manifold-2.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/manifold-2.md",
+      "elad-gil": "summer2026/evals/elad-gil/manifold-2.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/manifold-2.md",
+      "paul-graham": "summer2026/evals/paul-graham/manifold-2.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/manifold-2.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/manifold-2.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/manifold-2.md"
+    }
+  }
+}

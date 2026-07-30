@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://www.insurf.io",
     "yc_page": "https://www.ycombinator.com/companies/insurf",
-    "batch": "Summer 2026",
+    "batch": "Summer 2026 ([Y Combinator](https://www.ycombinator.com/companies/insurf))",
     "industry": "Healthcare / Healthcare",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "Artificial Intelligence, Health Tech, Automation",
-    "yc_partner": "Gustaf Alstromer",
-    "emails": "investors@insurf.io (insurf.io homepage)"
+    "yc_partner": "Gustaf Alstromer ([Y Combinator](https://www.ycombinator.com/companies/insurf))",
+    "emails": "founders@insurf.io ([LinkedIn](https://www.linkedin.com/company/insurf)), bryan@insurf.io ([Insurf Security](https://www.insurf.io/security))"
   },
   "tags": [
     "Artificial Intelligence",
@@ -19,49 +19,53 @@
     "Automation"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-06-29T06:08:52.806Z",
+  "memoGeneratedAt": "2026-07-30T17:51:06.400Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 34,
-      "tier": "Pass"
+      "score": 53,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 34,
-      "tier": "Pass"
+      "score": 57,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 33,
-      "tier": "Pass"
+      "score": 49,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 31,
-      "tier": "Pass"
+      "score": 56,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 33,
+      "score": 43,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 28,
+      "score": 41,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 26,
+      "score": 42,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 34,
-    "EG": 34,
-    "NR": 33,
-    "PG": 31,
-    "PT": 33,
-    "SL": 28,
-    "VK": 26
+    "CB": 53,
+    "EG": 57,
+    "NR": 49,
+    "PG": 56,
+    "PT": 43,
+    "SL": 41,
+    "VK": 42
   },
-  "consolidatedAvg": 31.29,
-  "consolidatedRank": 75,
-  "traction": null,
+  "consolidatedAvg": 48.71,
+  "consolidatedRank": 124,
+  "traction": {
+    "tractionRank": 135,
+    "tractionScore": 24,
+    "tractionReason": "Live demo only; customer evidence undisclosed"
+  },
   "paths": {
     "memo": "summer2026/memos/insurf.md",
     "evals": {

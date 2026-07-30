@@ -1,7 +1,7 @@
 {
   "slug": "risklytics",
   "name": "Risklytics",
-  "oneLiner": "Property-level natural disaster risk scoring for insurers",
+  "oneLiner": "Commercial Insurance Brokerage for Frontier Tech",
   "metadata": {
     "website": "https://www.risklytics.ai/",
     "yc_page": "https://www.ycombinator.com/companies/risklytics",
@@ -9,34 +9,34 @@
     "industry": "Fintech / Fintech -> Insurance",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Machine Learning, B2B, Climate, Insurance, AI",
+    "tags": "Machine Learning, Real Estate, BB, Insurance, AI",
     "yc_partner": "Ankit Gupta",
     "emails": "hello@risklytics.ai"
   },
   "tags": [
     "Machine Learning",
-    "B2B",
-    "Climate",
+    "Real Estate",
+    "BB",
     "Insurance",
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-08T04:51:03.361Z",
+  "memoGeneratedAt": "2026-07-30T17:37:03.729Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 37,
-      "tier": "Pass"
+      "score": 48,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 46,
+      "score": 51,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 32,
+      "score": 37,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 41,
+      "score": 43,
       "tier": "Pass"
     },
     "peter-thiel": {
@@ -44,29 +44,29 @@
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 27,
-      "tier": "Pass"
+      "score": 48,
+      "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 32,
+      "score": 37,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 37,
-    "EG": 46,
-    "NR": 32,
-    "PG": 41,
+    "CB": 48,
+    "EG": 51,
+    "NR": 37,
+    "PG": 43,
     "PT": 33,
-    "SL": 27,
-    "VK": 32
+    "SL": 48,
+    "VK": 37
   },
-  "consolidatedAvg": 35.43,
-  "consolidatedRank": 54,
+  "consolidatedAvg": 42.43,
+  "consolidatedRank": 154,
   "traction": {
-    "tractionRank": 15,
-    "tractionScore": 48,
-    "tractionReason": "13.6M CA homes scored, validated on LA fires"
+    "tractionRank": 146,
+    "tractionScore": 13,
+    "tractionReason": "Current brokerage has no disclosed customers"
   },
   "paths": {
     "memo": "summer2026/memos/risklytics.md",

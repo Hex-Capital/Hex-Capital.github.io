@@ -1,0 +1,81 @@
+{
+  "slug": "hoplite",
+  "name": "Hoplite",
+  "oneLiner": "Effortlessly deploy cloud software factories.",
+  "metadata": {
+    "website": "https://hoplite.sh",
+    "yc_page": "https://www.ycombinator.com/companies/hoplite",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Developer Tools, Cloud Computing, AI",
+    "yc_partner": "Vivian Midha Shen",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Developer Tools",
+    "Cloud Computing",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T18:02:39.376Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 62,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 66,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 39,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 43,
+    "EG": 56,
+    "NR": 62,
+    "PG": 66,
+    "PT": 30,
+    "SL": 31,
+    "VK": 39
+  },
+  "consolidatedAvg": 46.71,
+  "consolidatedRank": 133,
+  "traction": {
+    "tractionRank": 88,
+    "tractionScore": 42,
+    "tractionReason": "First business installation producing proactive fixes"
+  },
+  "paths": {
+    "memo": "summer2026/memos/hoplite.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/hoplite.md",
+      "elad-gil": "summer2026/evals/elad-gil/hoplite.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/hoplite.md",
+      "paul-graham": "summer2026/evals/paul-graham/hoplite.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/hoplite.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/hoplite.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/hoplite.md"
+    }
+  }
+}

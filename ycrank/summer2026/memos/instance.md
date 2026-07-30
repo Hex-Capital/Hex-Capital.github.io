@@ -1,74 +1,72 @@
 ﻿# Instance
 
-> A benchmark for synthetic video
+> Automated evals for robot policies
 
 | Field | Value |
 |-------|-------|
-| Website | https://tryinstance.app/ |
+| Website | https://www.instancelabs.ai/ |
 | YC Page | https://www.ycombinator.com/companies/instance |
-| Batch | Summer 2026 |
+| Batch | Summer 2026 ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/instance)) |
 | Industry | B2B / B2B |
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
-| Tags | Generative AI, Robotics, Data Labeling, AI |
-| YC Partner | Ankit Gupta |
-| Emails | claire@tryinstance.app, lucy@tryinstance.app |
+| Tags | Artificial Intelligence, Robotics, Data Labeling |
+| YC Partner | Ankit Gupta ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/instance)) |
+| Emails | founders@instancelabs.ai ([Instance website, Jul 2026](https://www.instancelabs.ai/)) |
 
 ## The Idea
 
-- **Problem:** AI-generated video from world models exhibits physics violations (rigid-body collisions, energy conservation, gravitational dynamics) that visual-only evaluators cannot catch; teams training on synthetic data lack a quality gate (YC company page; arxiv T2VPhysBench, May 2025).
-- **Approach:** A "physics-aware quality layer" that scans synthetic video for physics violations and layers human judgment at scale to benchmark real-vs-fake (YC company page, 2026).
-- **Differentiation:** [Inferred]: Versus academic benchmarks (WorldModelBench, VideoPhy-2, T2VPhysBench — all 2025 arxiv papers), Instance is positioned as a commercial productized quality gate with human-in-the-loop scaling; versus generalist labelers (Encord, Surge), Instance is narrowly scoped to physics correctness in synthetic video.
-- **Business Model:** No public data found — landing page at tryinstance.app shows no pricing tier; [Inferred]: enterprise/usage-based contract to world-model labs and robotics-data teams, given the named customer profile of "teams betting on synthetic data" (YC company page).
-- **TAM/SAM:** No public TAM/SAM data found for this specific segment; adjacent data-labeling infrastructure is sized by comparable plays — Encord raised $60M Series C at $110M total (TechFundingNews, 2025); Surge AI raise targeting >$15B valuation (Sacra/SiliconANGLE, Jul 2025).
-- **GTM / Distribution:** [Inferred]: Direct sales to frontier video-model labs and robotics/autonomy synthetic-data teams; early-demo outreach to "startups and data-driven teams" referenced in founder LinkedIn posts (Lucy Cai LinkedIn, Jan 2026, prior-product era).
+- **Problem:** Robotics teams training and evaluating policies manually watch rollouts, record success or failure in spreadsheets, and reset scenes, while industry teams may run fleets across dozens of policies and thousands of weekly episodes ([YC Launch, Jul 2026](https://www.ycombinator.com/launches/RPi-instance-automated-evaluation-for-robot-policies-starting-with-the-success-detector)).
+- **Approach:** Instance accepts a task description and camera footage through an HTTP API, returns a success, failure, or null verdict, produces grounded subtask captions, and can split a long video into individual attempts ([Instance demo, Jul 2026](https://demo.instancelabs.ai/)).
+- **Differentiation:** Instance judges individual real-camera rollouts, while Robocurve provides independent benchmarks, Bifrost Manifold orchestrates simulated policy evaluations, One Robot builds world-model simulations, and Foxglove provides robotics data and observability tooling ([Robocurve](https://www.ycombinator.com/companies/robocurve); [Bifrost](https://www.bifrost.ai/robotics/); [One Robot](https://www.ycombinator.com/companies/one-robot); [Foxglove](https://foxglove.dev/)).
+- **Business Model:** [Inferred]: The public API and founder-led demo process support usage-based API or enterprise-service monetization, but no pricing is published ([Instance demo, Jul 2026](https://demo.instancelabs.ai/)).
+- **TAM/SAM:** No public TAM/SAM data found for this specific segment.
+- **GTM / Distribution:** The founders solicit robotics teams that train policies, run evaluations, or deploy robots and offer to demonstrate the system at the prospect’s office ([YC Launch, Jul 2026](https://www.ycombinator.com/launches/RPi-instance-automated-evaluation-for-robot-policies-starting-with-the-success-detector)).
 
 ## Defensibility
 
-- **Moat today:** No defensibility signals found in public sources beyond domain expertise of founders (MIT CS/AI, MIT Lincoln Lab robotics — MIT Lincoln Laboratory intern spotlight on Lucy Cai).
-- **Future moat:** [Inferred]: A proprietary labeled dataset of physics violations across world-model outputs could compound into a benchmark standard that model labs measure against; unproven because no customer count, dataset size, or labeling volume is disclosed.
-- **Market structure:** [Inferred]: No structural barrier identified at this stage — incumbents Scale AI (acquired by Meta, 2025, SiliconANGLE), Encord, and Surge AI all operate physical-AI data infrastructure and could add a physics-violation module without channel conflict.
-- **Commoditization risk:** Multiple academic groups have already published physics-violation benchmarks (T2VPhysBench, WorldModelBench, VideoPhy-2, LikePhys — arxiv 2024-2025), and large labelers have the workforce to productize human review on top.
+- **Moat today:** Instance reports a fine-tuned local verifier with 0.76 macro success-class F1 versus 0.53 for Claude Opus 4.8 across eight held-out datasets, with 2.0-second versus 5.2-second per-rollout latency ([Instance demo, Jul 2026](https://demo.instancelabs.ai/)).
+- **Future moat:** [Inferred]: Accumulating customer-approved verdicts across robot types, tasks, and camera configurations could create a cross-platform training corpus and workflow switching costs, but no customer deployments or proprietary-data scale are publicly documented.
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** Robocurve offers MIT-licensed evaluation tooling, Bifrost offers open-source Manifold, and Runway published world-model-based policy evaluation, providing open-source and model-based implementation paths for robotics teams ([Robocurve](https://www.ycombinator.com/companies/robocurve); [Bifrost](https://www.bifrost.ai/robotics/); [Runway, Feb 2026](https://runwayml.com/research/accelerating-robot-policy-evaluation)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - LinkedIn company page exists at linkedin.com/company/tryinstance (company website footer); follower count not retrievable.
-  - Twitter/X handle @tryinstance exists (company website footer); follower count not retrievable.
-  - Product website is a minimal landing page stating "working on world models" with no metrics, customer logos, or pricing (tryinstance.app, fetched Jun 2026).
-  - Prior-product (pre-pivot, "Instance: AI data analyst for databases") opened early demos to "startups and data-driven teams" (Lucy Cai LinkedIn, Jan 2026); no current-product user, revenue, or press data found.
-  - No Product Hunt launch found.
-  - No public press coverage of current synthetic-video product found.
+  - Current-product technical validation: 10,000+ human-labeled episodes across eight benchmarks and seven robot platforms, with 0.76 macro F1 for Instance versus 0.53 for Claude Opus 4.8 ([Instance demo and YC Launch, Jul 2026](https://demo.instancelabs.ai/)).
+  - 393 company LinkedIn followers ([LinkedIn, Jul 30, 2026](https://www.linkedin.com/company/instancelabs)).
+  - 35 votes on the YC launch post ([YC Launch, Jul 2026](https://www.ycombinator.com/launches/RPi-instance-automated-evaluation-for-robot-policies-starting-with-the-success-detector)).
+  - 0 active YC job postings ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/instance)).
+  - Prior product only: the February 2026 announcement for an AI data-analyst product received 118 reactions and 21 comments before Instance pivoted to robotics evaluation ([Claire Mao LinkedIn, Feb 2026](https://www.linkedin.com/in/clairemao-)).
 - **Competitors:**
-  - Encord ($110M total raised, $60M Series C 2025 led by Wellington, revenue unknown, TechFundingNews/PRNewswire): full-lifecycle physical-AI data platform serving 300+ teams including Woven by Toyota, Skydio — broader than physics-violation scanning.
-  - Surge AI (raising up to $1B at >$15B valuation, Sacra/SiliconANGLE Jul 2025, profitable since 2021, revenue undisclosed): expert human-annotator network for text/code/image/video — generalist, not physics-specific.
-  - Scale AI (acquired by Meta 2025, SiliconANGLE): data labeling at hyperscale — generalist incumbent now inside Meta.
-  - SuperAnnotate ($13M raised 2025, SiliconANGLE Jul 2025, revenue unknown): data labeling platform competing with Scale/Surge — generalist.
-  - Academic benchmarks (non-commercial alternatives): WorldModelBench (NeurIPS 2025), VideoPhy-2, T2VPhysBench, LikePhys — free, open-source, lack human-judgment scaling layer.
-- **Why now:** [Inferred]: Video world models (NVIDIA Cosmos, Jan 2025 launch — Spheron blog; Genie/Veo class systems) crossed a usability threshold in 2025 making synthetic video data viable for robotics/autonomy training, creating commercial demand for physics quality gates that previously lived only in academic papers.
+  - Robocurve (funding undisclosed, revenue unknown): open-source evaluation tooling and independently operated real-world benchmarks rather than per-episode verification for a robotics team ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/robocurve)).
+  - One Robot ($0.5M raised, revenue unknown): task-specific world models evaluate policies without consuming physical robot time ([CB Insights, 2026](https://www.cbinsights.com/company/one-robot); [Y Combinator](https://www.ycombinator.com/companies/one-robot)).
+  - Bifrost AI ($8.56M raised, revenue unknown): Manifold runs policies across simulators and benchmarks at up to 1,000 rollouts per run, while Instance judges recorded physical attempts ([CB Insights, 2026](https://www.cbinsights.com/company/bifrost-2/financials); [Bifrost](https://www.bifrost.ai/robotics/)).
+  - Foxglove (at least $58.7M in disclosed rounds, revenue unknown): stores, visualizes, and analyzes multimodal robotics data rather than issuing task-success verdicts ([Foxglove seed](https://foxglove.dev/blog/foxglove-raises-seed-funding-3-7m); [Series A](https://foxglove.dev/blog/foxgloves-15m-series-a-and-the-missing-data-stack-for-robotics); [Series B](https://foxglove.dev/blog/foxglove-series-b)).
+- **Why now:** [Inferred]: Robot foundation-model deployment is increasing evaluation volume while 2026 research demonstrated policy evaluation through learned world models, creating demand for automated alternatives to physical rollout review ([Runway, Feb 2026](https://runwayml.com/research/accelerating-robot-policy-evaluation); [YC Launch, Jul 2026](https://www.ycombinator.com/launches/RPi-instance-automated-evaluation-for-robot-policies-starting-with-the-success-detector)).
 
 ## Founders & Team
 
-- **Lucy Cai (Cofounder, CTO):**
-  - Background: MIT MEng in AI; prior internships at SpaceX and Amazon AWS; MIT Lincoln Laboratory intern researching ML for 2D-to-3D point cloud generation (MIT Lincoln Laboratory news; YC company page).
-  - Twitter/X: No public account found.
-  - LinkedIn: "Building Instance, AI for databases | MIT CS" (linkedin.com/in/lucy-cai/, headline reflects pre-pivot product as of search).
+- **Claire Mao (Co-founder and CEO):**
+  - Background: MIT mathematics and computer science graduate who built planetary-atmosphere simulation software at NASA JPL, researched propulsion at the MIT Media Lab, and previously worked at BCG ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/instance)).
+  - Twitter/X: @clairemao78 with approximately 844 followers ([TwStalker via search snippet, Jul 2026](https://ngntipkolamrenang.twstalker.com/kayoum_)).
+  - LinkedIn: “Instance”; the public profile identifies Instance as her current employer but does not render a separate headline ([LinkedIn, Jul 2026](https://www.linkedin.com/in/clairemao-)).
   - GitHub: No public repos found.
-- **Claire Mao (Cofounder):**
-  - Background: MIT Math + CS; President of MIT Council for Math Majors (engage.mit.edu/cmm); contributor at The Tech (MIT student newspaper, thetech.com/authors/claire-mao).
-  - Twitter/X: No public account found.
-  - LinkedIn: "Building Instance | MIT Math + CS" (linkedin.com/in/clairemao-/).
-  - GitHub: No public repos found.
-- **Co-founder relationship:** Founders met in middle school and both attended MIT (YC company page, 2026).
-- **Founder-market fit:** Lucy Cai's MIT Lincoln Laboratory work on ML-driven 2D-to-3D vision (MIT Lincoln Laboratory) is adjacent to the synthetic-video/world-model domain; no disclosed advisors or named investors beyond YC.
+- **Lucy Cai (Co-founder and CTO):**
+  - Background: MIT computer-science BS/MEng graduate and CSAIL Learning and Intelligent Systems researcher who worked on SpaceX satellite software, Amazon automated unit-test creation, and Blackrock Neurotech brain-computer-interface pipelines ([Lucy Cai profile, Jul 2026](https://lucyc.ai/index.html)).
+  - Twitter/X: @lucyjcai with approximately 2K followers ([TwStalker via search snippet, Jul 2026](https://we.twstalker.com/Jiaxi_Cui)).
+  - LinkedIn: “Instance”; the public profile identifies Instance as her current employer but does not render a separate headline ([LinkedIn, 2026](https://www.linkedin.com/in/lucy-cai)).
+  - GitHub: @lucyjcai; Manipulation-Final-Project has 1 star ([GitHub, Jul 2026](https://github.com/lucyjcai)).
+- **Co-founder relationship:** Mao and Cai have been friends since middle school for more than ten years and later attended MIT together ([Instance website, Jul 2026](https://www.instancelabs.ai/)).
+- **Founder-market fit:** [Inferred]: Cai’s robot-learning research and robot-policy testing experience, combined with Mao’s physical-system simulation and propulsion research, match the product’s robotics-evaluation and video-verification requirements ([YC Launch, Jul 2026](https://www.ycombinator.com/launches/RPi-instance-automated-evaluation-for-robot-policies-starting-with-the-success-detector)).
 
 ## Key Risks
 
-- **Recent pivot risk:** Founders publicly described Instance as "AI data analyst for databases" / text-to-SQL in January 2026 LinkedIn posts (Lucy Cai LinkedIn, Claire Mao LinkedIn, Jan 2026), while the current YC Summer 2026 listing describes a physics-aware synthetic-video quality layer — prior-product traction does not transfer, and the new thesis has no public traction signal yet.
-- **Academic commoditization:** Four published benchmarks (T2VPhysBench, WorldModelBench, VideoPhy-2, LikePhys — arxiv 2024-2025) already cover physics-violation evaluation for video models openly, creating substitution risk for any closed commercial benchmark.
-- **Incumbent encroachment:** Encord explicitly markets to physical-AI customers (Toyota Woven, Skydio — TechFundingNews 2025) and could add a physics module; Meta-owned Scale AI has the labeling workforce to replicate human-judgment scaling.
-- **Customer concentration / TAM compression:** The buyer set is a narrow group of frontier video-world-model labs (NVIDIA Cosmos team, Genie/Veo teams, robotics foundation-model startups), most of whom may build evaluation in-house — no signed customers disclosed.
-- **Technical feasibility:** Reliable automated detection of physics violations across open-domain synthetic video is unsolved in published literature (LikePhys, Oct 2025, frames this as open research); productizing it at commercial reliability is a research-grade challenge.
+- **Generalization and external validation:** Instance claims compatibility with any robot and camera angle, but its published evidence is a company-run benchmark with 0.76 macro F1 and no identified third-party production study ([Instance demo, Jul 2026](https://demo.instancelabs.ai/)).
+- **Partial automation:** The current product automates success judging, while the proposed autonomous rig also requires a second robot to reset the scene, leaving physical reset outside the currently launched product ([YC Launch, Jul 2026](https://www.ycombinator.com/launches/RPi-instance-automated-evaluation-for-robot-policies-starting-with-the-success-detector)).
+- **Open-source and simulated substitutes:** Robocurve and Bifrost distribute open-source evaluation frameworks, while One Robot and Runway evaluate policies through learned simulations, creating alternative implementation paths ([Robocurve](https://www.ycombinator.com/companies/robocurve); [Bifrost](https://www.bifrost.ai/robotics/); [One Robot](https://www.ycombinator.com/companies/one-robot); [Runway](https://runwayml.com/research/accelerating-robot-policy-evaluation)).
+- **Product-transition continuity:** Instance was marketed as an AI data analyst in February 2026 and launched the robot verifier in July 2026, so engagement associated with the prior product does not establish demand for the current product ([Claire Mao LinkedIn](https://www.linkedin.com/in/clairemao-); [YC Launch](https://www.ycombinator.com/launches/RPi-instance-automated-evaluation-for-robot-policies-starting-with-the-success-detector)).
+- **Name collision:** [Inferred]: An unrelated app-building product also uses “Instance,” which may create search and product-discovery ambiguity ([Product Hunt, 2025](https://www.producthunt.com/products/instance)).
 
 ## Key Facts
 
@@ -76,27 +74,12 @@
 |-----------|------|
 | TAM | No public data found |
 | SAM | No public data found |
-| Traction | Landing page live at tryinstance.app (Jun 2026); LinkedIn + Twitter handles registered (company website footer); no users, revenue, press, or launch metrics disclosed |
-| Revenue Signal | No public data found (no pricing page on tryinstance.app, Jun 2026) |
-| Founders | Lucy Cai (Cofounder/CTO): MIT MEng AI, SpaceX intern, Amazon AWS intern, MIT Lincoln Lab. Claire Mao (Cofounder): MIT Math + CS, MIT Council for Math Majors President. |
-| Competitors | Encord ($110M total raised, revenue unknown, broader physical-AI data platform serving 300+ teams); Surge AI (raising up to $1B at >$15B valuation, revenue unknown, generalist annotator network); Scale AI (acquired by Meta 2025, revenue unknown, generalist incumbent); SuperAnnotate ($13M raised 2025, revenue unknown, generalist labeling); academic benchmarks WorldModelBench / VideoPhy-2 / T2VPhysBench (open-source, free) |
-| Moat Signals | No public data found |
-| Risk Factors | Recent pivot from text-to-SQL to synthetic-video QA, academic-benchmark commoditization, incumbent encroachment (Encord/Scale) |
-| Founder Reach | Lucy Cai: Twitter not found, LinkedIn count not retrievable, GitHub not found. Claire Mao: Twitter not found, LinkedIn count not retrievable, GitHub not found. |
-| Distribution Signals | No public data found |
-| Emails | claire@tryinstance.app, lucy@tryinstance.app |
-
-Sources:
-- [Instance YC company page](https://www.ycombinator.com/companies/instance)
-- [tryinstance.app landing page](https://tryinstance.app/)
-- [Lucy Cai LinkedIn](https://www.linkedin.com/in/lucy-cai/)
-- [Claire Mao LinkedIn](https://www.linkedin.com/in/clairemao-/)
-- [MIT Lincoln Laboratory — Lucy Cai intern spotlight](https://www.ll.mit.edu/news/intern-spotlight-lucy-cai-uses-machine-learning-turn-2d-images-3d)
-- [Encord $60M Series C — TechFundingNews](https://techfundingnews.com/encord-scale-ai-rival-60m-physical-ai-data/)
-- [Surge AI funding profile — Sacra](https://sacra.com/c/surge-ai/)
-- [SuperAnnotate $13M — SiliconANGLE](https://siliconangle.com/2025/07/15/superannotate-snags-13m-funding-take-scale-ai-surge-ai/)
-- [T2VPhysBench (arxiv)](https://arxiv.org/html/2505.00337v1)
-- [WorldModelBench (arxiv)](https://arxiv.org/pdf/2502.20694)
-- [VideoPhy-2 (arxiv)](https://arxiv.org/pdf/2503.06800)
-- [LikePhys (arxiv)](https://arxiv.org/pdf/2510.11512)
-- [NVIDIA Cosmos / Spheron blog](https://www.spheron.network/blog/deploy-nvidia-cosmos-gpu-cloud-synthetic-data/)
+| Traction | 10,000+ labeled episodes across eight benchmarks and seven robot platforms; 0.76 macro F1 versus 0.53 for Claude Opus 4.8 ([Instance demo, Jul 2026](https://demo.instancelabs.ai/)); 393 LinkedIn followers ([LinkedIn, Jul 2026](https://www.linkedin.com/company/instancelabs)); 35 YC Launch votes ([YC Launch, Jul 2026](https://www.ycombinator.com/launches/RPi-instance-automated-evaluation-for-robot-policies-starting-with-the-success-detector)) |
+| Revenue Signal | No public data found |
+| Founders | Claire Mao (CEO): MIT math/CS, NASA JPL, MIT Media Lab; Lucy Cai (CTO): MIT CS/MEng, MIT CSAIL robotics, SpaceX and AWS ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/instance)) |
+| Competitors | Robocurve (funding undisclosed, revenue unknown, independent real-world benchmarks) ([YC](https://www.ycombinator.com/companies/robocurve)); One Robot ($0.5M raised, revenue unknown, world-model simulations) ([CB Insights](https://www.cbinsights.com/company/one-robot)); Bifrost AI ($8.56M raised, revenue unknown, simulation evaluation orchestration) ([CB Insights](https://www.cbinsights.com/company/bifrost-2/financials)); Foxglove (at least $58.7M disclosed, revenue unknown, robotics data and observability) ([Foxglove](https://foxglove.dev/about)) |
+| Moat Signals | Fine-tuned local verifier achieved 0.76 macro F1 versus 0.53 for Claude Opus 4.8 and 2.0-second versus 5.2-second latency across eight test sets ([Instance demo, Jul 2026](https://demo.instancelabs.ai/)) |
+| Risk Factors | Company-run benchmark without identified third-party production validation ([Instance demo, Jul 2026](https://demo.instancelabs.ai/)); automated reset not yet launched ([YC Launch, Jul 2026](https://www.ycombinator.com/launches/RPi-instance-automated-evaluation-for-robot-policies-starting-with-the-success-detector)); open-source and simulated substitutes ([Robocurve](https://www.ycombinator.com/companies/robocurve); [Runway](https://runwayml.com/research/accelerating-robot-policy-evaluation)) |
+| Founder Reach | Claire Mao: approximately 844 Twitter/X followers ([TwStalker via search snippet, Jul 2026](https://ngntipkolamrenang.twstalker.com/kayoum_)), 1K LinkedIn followers ([LinkedIn, Jul 2026](https://www.linkedin.com/in/clairemao-)), GitHub data not found; Lucy Cai: approximately 2K Twitter/X followers ([TwStalker via search snippet, Jul 2026](https://we.twstalker.com/Jiaxi_Cui)), 625 LinkedIn followers ([LinkedIn, 2026](https://www.linkedin.com/in/lucy-cai)), 1-star top GitHub repo ([GitHub, Jul 2026](https://github.com/lucyjcai)) |
+| Distribution Signals | 393 company LinkedIn followers ([LinkedIn, Jul 2026](https://www.linkedin.com/company/instancelabs)); 35 YC Launch votes and 0 YC jobs ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/instance)) |
+| Emails | founders@instancelabs.ai ([Instance website, Jul 2026](https://www.instancelabs.ai/)) |

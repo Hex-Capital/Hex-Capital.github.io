@@ -1,0 +1,28 @@
+﻿# Hubble -- Vinod Khosla Evaluation
+
+The $8.57 billion interoperability market makes **Hubble** a consequential healthcare-plumbing bet built by founders who have not defied their industry—the highest dimension is consequence magnitude; the lowest is founder defiance. **OpenAI** is the high rung because abundant machine intelligence could reorganize civilization; **Hubble** shares the infrastructure mechanism by making longitudinal patient information instantly usable instead of trapped in faxes and portals. The analogy breaks at the consequence boundary: Particle Health, Health Gorilla, 1upHealth, and Zus Health already aggregate records, so **Hubble** has described a better access layer, not the economic regime that disappears. “The intelligence layer for patient information” could matter. The dossier’s $8.57 billion ceiling does not yet make it “too important not to do.”
+
+**Glean** is the low rung on founder defiance: Arvind Jain extended an ex-Google search playbook rather than contradicting expert consensus, and exceptional consequence plus capital scale had to override that weakness. **Hubble** repeats the expert-continuity pattern more completely. Prabha Dublish built healthcare products at Grow Therapy; Aaron Leon built EHR and AI infrastructure at Amazon One Medical; **Hubble** now sells healthcare-data infrastructure. Relevant experience reduces execution risk, but my framework does not reward polished extrapolation. **Hubble** offers no controversial thesis, public rejection of accepted interoperability architecture, or evidence that Dublish and Leon discovered their former employers were fundamentally wrong.
+
+Hubble’s 40-plus live tools across Epic, Cerner, athenahealth, UnitedHealthcare, and Aetna can compound technically over 18 months if every retrieval teaches Hubble which source, identifier, and authorization path actually works. Provenance and per-call audit logs could turn reliability into a data advantage. But **Hubble** is combining APIs, browser automation, and voice—not solving a named scientific miracle. Browser breakage, consent handling, and normalization complexity produce operational scar tissue; they do not produce the capital-hostile moat that repelled consensus investors from Commonwealth Fusion. **Hubble** may become difficult software. It is not yet difficult science.
+
+Prabha Dublish launched telehealth, marketplace, mobile, partner-integration, and AI-enabled-care products at Grow Therapy, but **Hubble** provides no documented “we were wrong” moment. The learning-rate score flips upward if Dublish and Aaron Leon can name a specific discarded architecture—for example, abandoning FHIR-only retrieval after production evidence showed patient-mediated browser and voice access achieved materially higher record completeness. Until then, **Hubble** demonstrates execution breadth, not thesis revision. Founders do not earn learning-rate credit merely by having done many things; **Hubble** must show how evidence changed what they believed.
+
+Commonwealth Fusion required a $115 million Series A because the milestone itself demanded uncommon capital. **Hubble** discloses an oversubscribed pre-seed round but no amount, training program, hardware fleet, clinical trial, or deployment milestone requiring more than $50 million. **Hubble** has the opposite capital shape: two founders, software integrations, demo-led enterprise sales, and infrastructure that should reach meaningful revenue before massive financing. That can be an excellent business. It means my money is not differentiated, and “70–80 percent of VCs add negative value” applies most strongly when any capable generalist can finance the roadmap.
+
+Forty-plus live tools make my 36-month forecast specific: **Hubble** reaches $4–7 million ARR from record-retrieval and workflow contracts, then sells to Health Gorilla rather than becoming an independent patient-information intelligence layer. **Hubble** is likely to win integrations because Dublish and Leon know the workflow, yet lose the platform war because Health Gorilla already has $80 million-plus of financing and QHIN/QHIO status. Domain expertise produces a useful acquisition; absent founder defiance, **Hubble** optimizes the existing interoperability regime instead of breaking it.
+
+Aaron Leon’s infrastructure reached more than one million patients at Amazon One Medical, and that is the strongest bull case for **Hubble**: Glean proves expert continuity can be overridden when insiders turn a fragmented workflow into an enterprise intelligence layer, while 40-plus production tools suggest **Hubble** is shipping faster than a normal pre-seed company. The bull case stings because healthcare’s fax-and-portal machinery is genuinely absurd. It still loses today because **Hubble** discloses no customer, revenue, completeness benchmark, proprietary dataset, or structural barrier against four funded platforms. I would flip to Invest if **Hubble** demonstrates ten named enterprise customers replacing manual record-request labor, greater than 90% longitudinal-record completeness, and at least $5 million ARR with 120% net retention. That would show labor displacement rather than another interoperability feature.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Consequence Magnitude If Company Wins | 14/30 |
+| Technical or Capital Risk That Repels Consensus VCs | 11/25 |
+| Founder Defies Documented Expert Consensus | 4/20 |
+| Founder Learning Rate, Demonstrated By Prior Pivot Or Thesis Update | 7/15 |
+| Required-Capital Profile Matches Khosla Check Size | 3/10 |
+| **Total** | **39/100** |
+
+**Total Score: 39/100** (Pass)

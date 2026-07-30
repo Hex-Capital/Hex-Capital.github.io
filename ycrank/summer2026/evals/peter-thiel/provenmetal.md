@@ -1,0 +1,30 @@
+﻿# ProvenMetal -- Peter Thiel Evaluation
+
+Seven-day domestic PCB delivery is ProvenMetal’s strongest signal; the absence of any 2–5-year architectural commitment is ProvenMetal’s weakest. This is an atoms-heavy industrial wedge without a definite monopoly thesis. Doyle and Carkner have correctly noticed that America’s fall from roughly 30% to 4% of global PCB production creates strategic scarcity, but scarcity is not yet a secret. ProvenMetal may rebuild useful capacity. The dossier does not yet show why ProvenMetal must capture the value it creates.
+
+SpaceX is the high rung on the atoms-heavy dimension: owned infrastructure, technical commitments, and capital intensity compounded into a barrier competitors could not rent. ProvenMetal shares the load-bearing insight that physical production matters—domestic sourcing, component traceability, testing, and inspection records cannot be conjured by another AI wrapper. ProvenMetal diverges where the analogy becomes decisive: fabrication and assembly run through vetted partners rather than owned capacity, the 99.8% inspection-confidence claim has no published methodology, and no defense, medical, or other regulatory certification is identified. The atoms are real; ownership of the bottleneck is not.
+
+Quora exposed the failure mode of an indefinite roadmap: the product could evolve indefinitely because no technical destination constrained it. Adam D’Angelo’s Facebook CTO pedigree and a plausible knowledge-graph network effect provided the exception. ProvenMetal shows the same strategic indeterminacy without that override. June coverage described a benchtop X-ray inspection system, while ProvenMetal now sells managed PCB fabrication and assembly. A seven-day service commitment is an operating target, not a definite plan. ProvenMetal names no future factory, certification sequence, inspection breakthrough, or capacity milestone that it refuses to pivot away from.
+
+JLCPCB’s 21 million annual orders reveal the contrarian question ProvenMetal has not fully answered. Over the next 18 months, domestic traceability could compound into a genuine secret if defense and robotics customers value auditable provenance more than overseas price; every repeat revision would then deepen ProvenMetal’s process history and supplier intelligence. But “American-made PCBs should arrive faster” is already believed by MacroFab, Tempo Automation, Washington, and nearly every reshoring advocate. ProvenMetal names incumbents, yet it does not name an architectural reason MacroFab’s network of more than 100 North American factories cannot match seven-day turns or production records. Consensus with good timing is still consensus.
+
+MacroFab’s $82 million financing and existing North American network define the monopoly counterfactual. ProvenMetal would move into the invest tier if its inspection system produced proprietary defect data that materially reduced failures across repeat builds, and if regulated customers then embedded that record into qualification and procurement workflows. ProvenMetal currently offers revision reuse, traceability, and per-order records, but the dossier identifies no structural barrier, retention evidence, or pricing-power hypothesis. Without exclusive capacity or certification depth, ProvenMetal risks becoming a coordination layer whose suppliers and customers retain the leverage.
+
+Anduril is the relevant founder-lineage parallel because Palmer Luckey combined hardware competence with proof that he had already shipped a difficult physical product to a billion-dollar exit. ProvenMetal has authentic but narrower founder-market fit: Doyle built IoT building-management systems, while Carkner operated Lumindt’s PCB-testing pipeline and has built boards since childhood. ProvenMetal therefore deserves more credit than the median YC manufacturing marketplace, but neither founder has yet shipped manufacturing infrastructure at scale, and five LOIs from more than 30 conversations do not substitute for that proof. Domain intimacy is present; the pedigree override is not.
+
+Five LOIs and no disclosed revenue point toward a bounded 36-month outcome: by July 2029, ProvenMetal will reach roughly $3–8 million in annualized revenue as a domestic quick-turn PCBA coordinator and enter acquisition discussions with MacroFab, rather than become an independent manufacturing monopoly. ProvenMetal’s physical-sector positioning can produce a valuable business, while ProvenMetal’s partner-dependent capacity and undefined technical roadmap keep the value concentrated upstream. One year of turnaround advantage is a service; ten years of pricing power would be a company.
+
+America’s decline to 4% of global PCB production supplies the strongest opposing case: geopolitical procurement rules could turn ProvenMetal’s domestic provenance into the regulated-customer moat that venture capital habitually misses. ProvenMetal already has relevant engineers, five LOIs, instant quoting, seven-day delivery, and inspection records—the early ingredients of a Palantir-like integration wedge. The objection stings because defense buyers can make an ordinary supplier strategically scarce. It does not yet win: ProvenMetal names no LOI counterparty, paid order, certification, sole-source contract, or owned production constraint, and none of the Asana, Lyft, or Quora exceptions applies because ProvenMetal lacks prior scaled-operator pedigree and demonstrated network effects. Two named defense customers signing multi-year sole-source agreements at greater than 50% gross margin would flip my verdict.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Contrarian Secret with Named Incumbent Failure Mode | 18/35 |
+| Monopoly Trajectory with Pricing Power Hypothesis | 11/25 |
+| Definite Founder Plan vs Indefinite Iteration | 5/15 |
+| Founder Lineage / Verified Operator Pedigree | 9/15 |
+| Atoms-Heavy or Regulated-Sector Structural Moat | 8/10 |
+| **Total** | **51/100** |
+
+**Total Score: 51/100** (Neutral)

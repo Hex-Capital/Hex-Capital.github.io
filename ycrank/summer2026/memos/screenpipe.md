@@ -1,6 +1,6 @@
 ﻿# screenpipe
 
-> Help your team find the work worth automating
+> AI powered by everything you've seen, said or heard
 
 | Field | Value |
 |-------|-------|
@@ -10,60 +10,59 @@
 | Industry | B2B / B2B -> Productivity |
 | Team Size | 6 |
 | Location | San Francisco, CA, USA |
-| Tags | SaaS, B2B, Enterprise, Enterprise Software, AI |
-| YC Partner | Gustaf Alstromer (YC company page) |
-| Emails | louis@screenpi.pe (screenpipe.com homepage) |
+| Tags | Artificial Intelligence, SaaS, B2B, Enterprise, Enterprise Software |
+| YC Partner | Gustaf Alstromer |
+| Emails | louis@screenpi.pe |
 
 ## The Idea
 
-- **Problem:** Teams cannot identify which repetitive computer-based work processes are worth automating because those processes are undocumented and distributed across screen, audio, and dozens of SaaS apps; the current alternative is manual SOP writing or generic screen-recording tools like Rewind.ai and Microsoft Recall (screenpipe.com homepage; Screenpipe docs).
-- **Approach:** A local-first Rust agent captures screen, audio, and 48+ connected apps (Slack, Gmail, Linear, Zoom, Salesforce, HubSpot) on-device, then converts activity into a searchable memory plus "Pipes" (automations triggered on-device that write back to connected tools) with PII scrubbing via a proprietary on-device model (screenpipe.com homepage).
-- **Differentiation:** vs. Rewind.ai/Limitless (cloud-dependent, disabled desktop app Dec 19, 2025 after Meta acquisition) — screenpipe is source-available and local; vs. Granola (meeting-audio only, cloud) — screenpipe adds screen capture and works across all apps; vs. Microsoft Recall (Copilot+ PC only, Windows-only, no automations) — screenpipe runs on macOS/Windows/Linux and ships agent Pipes (Screenpipe blog "Best AI Screen Recorder 2026"; GeekWire, 2026; TechCrunch, Mar 2026).
-- **Business Model:** Standard $25/mo, Pro $50/seat/mo (5-seat minimum, cloud sync + integrations), Enterprise $150/seat/mo (SSO/SAML, MDM, admin dashboard, sales-led); core is source-available for personal non-commercial use (AISO Tools pricing page, 2026; Screenpipe license-update blog).
+- **Problem:** Knowledge workers and teams must repeatedly supply AI agents with context because the agents cannot recall prior meetings, viewed content, or completed workflows ([YC](https://www.ycombinator.com/companies/screenpipe), Jul 2026).
+- **Approach:** screenpipe captures screen changes and audio, extracts application text through accessibility APIs with OCR fallback, transcribes speech, and stores the resulting searchable history in a local SQLite database ([screenpipe GitHub](https://github.com/screenpipe/screenpipe), Jul 2026).
+- **Differentiation:** Unlike cloud-based Granola and Otter.ai, Windows-only Microsoft Recall, and the discontinued Rewind/Limitless desktop product, screenpipe combines local-default storage, macOS/Windows/Linux support, screen and audio capture, a REST API, MCP access, and programmable “pipes” ([screenpipe GitHub](https://github.com/screenpipe/screenpipe), Jul 2026; [TechCrunch](https://techcrunch.com/2025/12/05/meta-acquires-ai-device-startup-limitless/), Dec 2025).
+- **Business Model:** The signed desktop app costs $25 monthly for Standard, $50 per seat monthly for Pro with a five-seat self-service minimum, and $150 per seat monthly for sales-led Enterprise, while personal non-commercial source use is free ([screenpipe GitHub](https://github.com/screenpipe/screenpipe), Jul 2026).
 - **TAM/SAM:** No public TAM/SAM data found for this specific segment.
-- **GTM / Distribution:** Open-source top-of-funnel via GitHub (19k+ stars) feeding into paid Pro/Enterprise seats, plus founder-led inbound on LinkedIn/X; enterprise motion is sales-led per pricing page (GitHub screenpipe/screenpipe; AISO Tools, 2026).
+- **GTM / Distribution:** Downloads, a public source repository, founder-led LinkedIn distribution, self-service subscriptions, and sales-led enterprise plans are visible distribution channels ([screenpipe GitHub](https://github.com/screenpipe/screenpipe), Jul 2026; [Louis Beaumont on LinkedIn](https://www.linkedin.com/posts/louis030195_welcome-to-y-combinator-summer-26-im-building-activity-7462128628680560640-rcAL), Jun 2026).
 
 ## Defensibility
 
-- **Moat today:** 19k+ GitHub stars and source-available Rust codebase (GitHub screenpipe/screenpipe); reported 250k users create a data/network signal (search snippet, LinkedIn post by Louis Beaumont via search).
-- **Future moat:** [Inferred]: Proprietary on-device PII-scrubbing model plus a library of shared "Pipes" and workflow patterns per company could create switching costs as accumulated screen/audio memory grows; unproven because no public retention or paid-conversion metrics exist.
-- **Market structure:** [Inferred]: Cloud-first incumbents (Rewind/Limitless, Granola) face architectural rewrites and enterprise-privacy repositioning to match a local-first model — Rewind's disabled desktop app after Meta acquisition (GeekWire, 2026) and Recall's repeated security incidents (GeekWire, 2026) illustrate the difficulty of shipping trusted always-on capture.
-- **Commoditization risk:** Microsoft ships Recall natively on Copilot+ PCs at zero marginal cost, and open-source forks of screenpipe already exist on GitHub (atzamis/screen-pipe, EvolvingSoftware/screen-pipe fork listings on GitHub).
+- **Moat today:** The public repository has 18,900 GitHub stars, 1,800 forks, 358 releases, and a locally auditable Rust/TypeScript capture stack ([GitHub](https://github.com/screenpipe/screenpipe), May 2026).
+- **Future moat:** [Inferred]: Deployment-specific workflow history, integrations, policies, and reusable pipes could create switching costs, but no retention or migration evidence is public.
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** Microsoft can bundle Recall with Windows, meeting platforms can extend transcription products, and source-visible competitors can inspect screenpipe’s implementation, although commercial use now requires a paid license ([screenpipe license update](https://screenpipe.com/blog/screenpipe-license-update), Jun 2026).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - 19k+ GitHub stars on screenpipe/screenpipe (screenpipe.com homepage; GitHub, 2026).
-  - 250k users cited (search snippet referencing LinkedIn posts by Louis Beaumont).
-  - Users at Microsoft, Google, NVIDIA, Intel, Shopify, Atlassian, Datadog, Adobe, Salesforce, Thomson Reuters, MIT, Stanford, Harvard (screenpipe.com homepage).
-  - Product Hunt 5.0 rating with 1 review; two Product Hunt appearances (Product Hunt, 2026).
-  - 48+ app integrations shipped including Slack, Gmail, Linear, Zoom, Salesforce, HubSpot (screenpipe.com homepage).
-  - Pricing published across three tiers ($25 / $50 / $150 per seat), indicating monetization live (AISO Tools, 2026).
-  - Louis Beaumont GitHub: 479 followers (search snippet, GitHub louis030195).
-- **Competitors:**
-  - Limitless AI (formerly Rewind.ai) ($80.1M raised, $8.7M ARR 2024, Getlatka; acquired by Meta Dec 2025 per GeekWire 2026): screenpipe differs by remaining local-first and source-available after Rewind's desktop app was disabled Dec 19, 2025.
-  - Granola ($192M total raised, $1.5B valuation Series C Mar 2026, TechCrunch): meetings-audio focus and cloud; screenpipe covers full screen + all apps and stores data locally.
-  - Microsoft Recall (not independently funded — bundled with Copilot+ PCs, launched Apr 2025 per GeekWire): Windows-only and no cross-app automation Pipes; screenpipe supports macOS/Windows/Linux.
-  - Otter.ai (revenue unknown at time of research): meeting transcription only; screenpipe adds continuous screen memory and on-device Pipes (Screenpipe blog comparisons).
-- **Why now:** [Inferred]: The Meta acquisition of Rewind and disabling of its desktop app on Dec 19, 2025 (GeekWire, 2026) plus Recall's repeated security incidents opened a positioning window for a local-first, source-available alternative in the 12 months prior to screenpipe's YC S26 batch.
+  - More than 250,000 users ([Louis Beaumont’s GitHub profile](https://gist.github.com/louis030195), Jul 2026).
+  - Hundreds of thousands of installs ([screenpipe license update](https://screenpipe.com/blog/screenpipe-license-update), Jun 2026).
+  - Active users increased 6× over two months (founder [LinkedIn post](https://www.linkedin.com/posts/louis030195_welcome-to-y-combinator-summer-26-im-building-activity-7462128628680560640-rcAL), Jun 2026).
+  - “Tens of thousands of dollars” in revenue within weeks of the initial launch (founder [LinkedIn post](https://www.linkedin.com/posts/louis030195_i-built-screenpipe-yc-s26-on-a-weekend-activity-7462849679895134208-s7E3), Jun 2026).
+  - 18,900 GitHub stars and 1,800 forks ([GitHub](https://github.com/screenpipe/screenpipe), May 2026).
+  - 124 Product Hunt followers ([Product Hunt](https://www.producthunt.com/products/screenpipe), Jul 2026).
+  - One YC-listed opening offering $130,000–$180,000 salary and 0.50%–1.50% equity ([YC](https://www.ycombinator.com/companies/screenpipe), Jul 2026).
+- **Competitors (minimum 3, up to 5):**
+  - Limitless/Rewind (more than $33M raised, revenue unknown): used cloud processing and a wearable pendant before Meta acquired it and discontinued the service ([TechCrunch](https://techcrunch.com/2025/12/05/meta-acquires-ai-device-startup-limitless/), Dec 2025).
+  - Granola (at least $67.3M raised through May 2025, revenue unknown): concentrates on AI meeting notes and collaborative transcripts rather than continuous cross-application screen history ([TechCrunch](https://techcrunch.com/2025/05/14/ai-note-taking-app-granola-raises-43m-at-250m-valuation-launches-collaborative-features/), May 2025).
+  - Otter.ai (approximately $73M raised, $100M ARR): provides cloud-based meeting transcription and meeting agents rather than local-default continuous screen capture ([Otter.ai](https://otter.ai/blog/otter-ai-caps-transformational-2025-with-100m-arr-milestone-industry-first-ai-meeting-agents-and-global-enterprise-expansion), Dec 2025; [Sacra](https://sacra.com/c/otter/), Jul 2026).
+- **Why now:** [Inferred]: MCP-compatible agents and locally runnable Whisper models now let captured desktop and audio history serve as queryable agent context without requiring all raw data to be centralized ([screenpipe GitHub](https://github.com/screenpipe/screenpipe), Jul 2026).
 
 ## Founders & Team
 
 - **Louis Beaumont (Founder):**
-  - Background: Solo founder listed on YC page; previously co-founded Mediar (2024, with Matt Diakonov) which built automated data entry for legacy software like SAP (Founders Inc portfolio page); Techstars '22 alum and OrangeDAO F1 member; per search snippets, prior work at "French CIA" and built a five-figure video-game bots business at 14 (search snippets from LinkedIn posts).
-  - Twitter/X: @louis030195 — count not retrievable (X.com louis030195).
-  - LinkedIn: "Founder of screenpipe (YC S26)" (linkedin.com/in/louis030195).
-  - GitHub: @louis030195 — 479 followers; top repo is screenpipe/screenpipe with 19k+ stars (GitHub, 2026).
-- **Co-founder relationship:** Solo founder per YC page; prior company Mediar was co-founded with Matt Diakonov, who is not listed on the current screenpipe team (YC page; Founders Inc).
-- **Founder-market fit:** Beaumont's prior Mediar (SAP/legacy-software automation via screen input) directly rehearses screenpipe's screen-capture-to-automation thesis (Founders Inc portfolio page); no advisors, board members, or named investors beyond YC S26 found in public sources.
+  - Background: Beaumont says he previously worked in French intelligence, operated a defense-AI startup, experimented with LLMs and FAISS-based retrieval before the term “AI infra” became common, and created screenpipe in 2024 ([LinkedIn](https://www.linkedin.com/posts/louis030195_i-built-screenpipe-yc-s26-on-a-weekend-activity-7462849679895134208-s7E3), Jun 2026; [screenpipe About](https://screenpipe.com/about), Jul 2026).
+  - Twitter/X: @louis030195; count not retrievable ([GitHub](https://github.com/screenpipe/screenpipe), Jul 2026).
+  - LinkedIn: “Founder of screenpipe (YC S26) \| AI that record your team screen and turn them into agents (hiring),” with approximately 9,000 followers ([LinkedIn](https://www.linkedin.com/in/louis030195), Jul 2026).
+  - GitHub: @louis030195; screenpipe has 18,900 stars ([GitHub](https://github.com/screenpipe/screenpipe), May 2026).
+- **Co-founder relationship:** No public data on co-founder history.
+- **Founder-market fit:** Beaumont’s documented work with retrieval systems, LLMs, defense AI, and the screenpipe codebase since 2024 aligns with building local multimodal capture and agent-context software ([LinkedIn](https://www.linkedin.com/posts/louis030195_i-built-screenpipe-yc-s26-on-a-weekend-activity-7462849679895134208-s7E3), Jun 2026; [screenpipe About](https://screenpipe.com/about), Jul 2026).
 
 ## Key Risks
 
-- **Platform substitution by Microsoft Recall and Apple/Meta:** Recall ships natively on Copilot+ PCs at $0 marginal cost and Meta acquired Rewind Dec 2025 (GeekWire, 2026; The Information/Rewind on X), threatening the paid-seat model; mitigation is local-first + cross-OS + Pipes automation layer, which Recall does not offer today.
-- **Privacy/security incident exposure:** Always-on screen + audio capture is a high-severity target; Microsoft Recall has faced repeated security-researcher disclosures one year post-launch (GeekWire, 2026), and screenpipe's on-device PII scrubbing is proprietary but unaudited in public sources.
-- **Open-source cannibalization:** Source-available forks already exist (atzamis/screen-pipe, EvolvingSoftware/screen-pipe, AllyourBaseBelongToUs/screen-pipe on GitHub); the recent license update from open-source to source-available (Screenpipe blog "license update") is a mitigation but may erode community goodwill that drove 19k+ stars.
-- **Enterprise procurement friction:** Selling always-on screen/audio capture into Fortune 500s requires SSO/SAML, MDM, and legal review; screenpipe lists these on the $150/seat Enterprise tier but has no publicly disclosed signed enterprise contracts (AISO Tools, 2026).
-- **Solo-founder execution risk:** Team of 6 with one founder listed on YC page raises single-point-of-failure and hiring-throughput risk for a product spanning macOS/Windows/Linux + integrations + AI models (YC company page).
+- **Sensitive-data capture:** Continuous screen and audio collection can ingest passwords, financial information, private communications, and regulated data; screenpipe provides application, window, and URL exclusions, on-device redaction, and per-pipe access controls ([security architecture](https://screenpipe.com/security/architecture), Apr 2026).
+- **Cloud and telemetry exposure:** PostHog analytics is enabled by default, Sentry receives diagnostics, and optional cloud transcription, AI, and synchronization send selected data off-device; users can disable analytics and select local processing ([screenpipe GitHub](https://github.com/screenpipe/screenpipe), Jul 2026).
+- **Incumbent substitution:** Microsoft Recall provides local Windows screen history, while Granola and Otter.ai already address meeting memory, leaving screenpipe dependent on cross-platform, programmable, local-first breadth as its documented distinction ([screenpipe GitHub](https://github.com/screenpipe/screenpipe), Jul 2026).
+- **License-transition friction:** The company changed from MIT to a source-available commercial license requiring paid authorization for commercial source use, which can reduce outside commercial adoption while converting such use into licensing demand ([license update](https://screenpipe.com/blog/screenpipe-license-update), Jun 2026).
+- **Device-resource burden:** screenpipe reports typical CPU usage of 5%–10% and storage consumption of approximately 5–10 GB monthly, creating adoption friction on constrained company devices ([screenpipe GitHub](https://github.com/screenpipe/screenpipe), Jul 2026).
 
 ## Key Facts
 
@@ -71,28 +70,12 @@
 |-----------|------|
 | TAM | No public data found |
 | SAM | No public data found |
-| Traction | 19k+ GitHub stars (screenpipe.com, 2026); 250k users (search snippet from Louis Beaumont LinkedIn posts); customer logos include Microsoft, Google, NVIDIA, Intel, Shopify, Atlassian, Datadog, Adobe, Salesforce, Thomson Reuters, MIT, Stanford, Harvard (screenpipe.com homepage); Product Hunt 5.0 rating, 1 review (Product Hunt, 2026) |
-| Revenue Signal | Standard $25/mo, Pro $50/seat/mo (5-seat min), Enterprise $150/seat/mo (AISO Tools pricing, 2026); lifetime licenses discontinued (Screenpipe license-update blog) |
-| Founders | Louis Beaumont (Founder): prior co-founder of Mediar (SAP data-entry automation, 2024); Techstars '22; OrangeDAO F1; @louis030195 on GitHub |
-| Competitors | Limitless AI/Rewind.ai ($80.1M raised, $8.7M ARR 2024, acquired by Meta Dec 2025 — desktop disabled); Granola ($192M raised, $1.5B valuation Mar 2026 — meetings-audio only); Microsoft Recall (bundled with Copilot+ PCs — Windows-only, no automations); Otter.ai (revenue unknown — meeting transcription only) |
-| Moat Signals | 19k+ GitHub stars (GitHub screenpipe/screenpipe); source-available Rust codebase; 48+ app integrations; proprietary on-device PII-scrubbing model (screenpipe.com) |
-| Risk Factors | Microsoft Recall / Meta-Rewind platform substitution, privacy/security incident exposure, open-source forks, solo-founder execution |
-| Founder Reach | Louis Beaumont: Twitter @louis030195 count not retrievable, LinkedIn Founder headline confirmed, GitHub 479 followers / 19k+ stars on screenpipe |
-| Distribution Signals | GitHub 19k+ stars (screenpipe.com, 2026); two Product Hunt appearances (Product Hunt, 2026); YC S26 batch page (ycombinator.com/companies/screenpipe) |
-| Emails | louis@screenpi.pe (screenpipe.com homepage) |
-
-Sources:
-- [screenpipe homepage](https://screenpipe.com/)
-- [YC company page — screenpipe](https://www.ycombinator.com/companies/screenpipe)
-- [GitHub — screenpipe/screenpipe](https://github.com/screenpipe/screenpipe)
-- [Louis Beaumont LinkedIn](https://www.linkedin.com/in/louis030195/)
-- [Louis Beaumont GitHub — louis030195](https://github.com/louis030195)
-- [AISO Tools — Screenpipe Pricing 2026](https://aisotools.com/pricing/screenpipe)
-- [Screenpipe license update blog](https://screenpipe.com/blog/screenpipe-license-update)
-- [Screenpipe — Best AI Screen Recorder 2026](https://screenpipe.com/blog/best-ai-screen-recorder-2026)
-- [Product Hunt — Screenpipe](https://www.producthunt.com/products/screenpipe)
-- [Mediar — Founders Inc portfolio](https://f.inc/portfolio/mediar/)
-- [GeekWire — one year after Recall launch](https://www.geekwire.com/2026/one-year-after-its-rocky-launch-microsofts-windows-recall-still-raises-security-red-flags/)
-- [TechCrunch — Granola $125M Series C](https://techcrunch.com/2026/03/25/granola-raises-125m-hits-1-5b-valuation-as-it-expands-from-meeting-notetaker-to-enterprise-ai-app/)
-- [Crunchbase — Limitless AI (formerly Rewind AI)](https://www.crunchbase.com/organization/rewind-ai)
-- [Getlatka — Rewind revenue $8.7M ARR](https://getlatka.com/companies/rewind)
+| Traction | 250K users (founder GitHub profile, Jul 2026); hundreds of thousands of installs (screenpipe blog, Jun 2026); active users grew 6× in two months (founder LinkedIn, Jun 2026); 18.9K GitHub stars (GitHub, May 2026) |
+| Revenue Signal | Tens of thousands of dollars in early revenue (founder LinkedIn, Jun 2026); Standard $25/month, Pro $50/seat/month, Enterprise $150/seat/month (GitHub pricing, Jul 2026) |
+| Founders | Louis Beaumont (Founder): former defense-AI founder, self-reported French-intelligence experience, screenpipe creator since 2024 (founder LinkedIn and screenpipe About, Jun–Jul 2026) |
+| Competitors | Limitless/Rewind (more than $33M raised, revenue unknown, wearable/cloud model; TechCrunch, Dec 2025); Granola (at least $67.3M raised, revenue unknown, meeting notes; TechCrunch, May 2025); Otter.ai (approximately $73M raised, $100M ARR, meeting transcription; Sacra and Otter.ai, 2025–2026) |
+| Moat Signals | 18.9K GitHub stars, 1.8K forks, 358 releases, local capture engine, REST API, MCP server, and programmable pipes (GitHub, May–Jul 2026) |
+| Risk Factors | Sensitive-data capture (screenpipe security architecture, Apr 2026), default telemetry and optional cloud processing (GitHub, Jul 2026), incumbent substitution (GitHub comparison, Jul 2026) |
+| Founder Reach | Louis Beaumont: approximately 9K LinkedIn followers, Twitter count not retrievable, associated repository 18.9K stars (LinkedIn and GitHub, May–Jul 2026) |
+| Distribution Signals | 124 Product Hunt followers (Product Hunt, Jul 2026), 18.9K GitHub stars (GitHub, May 2026), one active YC job posting (YC, Jul 2026) |
+| Emails | louis@screenpi.pe (GitHub and screenpipe security architecture, Apr–Jul 2026) |

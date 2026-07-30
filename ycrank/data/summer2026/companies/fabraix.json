@@ -1,0 +1,81 @@
+{
+  "slug": "fabraix",
+  "name": "Fabraix",
+  "oneLiner": "The world's frontier hacker for AI agents.",
+  "metadata": {
+    "website": "https://fabraix.com",
+    "yc_page": "https://www.ycombinator.com/companies/fabraix",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Security",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Reinforcement Learning, Cybersecurity, AI",
+    "yc_partner": "Jon Xu",
+    "emails": "founders@fabraix.com"
+  },
+  "tags": [
+    "Reinforcement Learning",
+    "Cybersecurity",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:36:59.314Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 64,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 68,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 71,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 44,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 56,
+    "EG": 64,
+    "NR": 68,
+    "PG": 71,
+    "PT": 46,
+    "SL": 43,
+    "VK": 44
+  },
+  "consolidatedAvg": 56,
+  "consolidatedRank": 56,
+  "traction": {
+    "tractionRank": 32,
+    "tractionScore": 58,
+    "tractionReason": "50K challenge attempts; Fortune 500 vulnerabilities found"
+  },
+  "paths": {
+    "memo": "summer2026/memos/fabraix.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/fabraix.md",
+      "elad-gil": "summer2026/evals/elad-gil/fabraix.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/fabraix.md",
+      "paul-graham": "summer2026/evals/paul-graham/fabraix.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/fabraix.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/fabraix.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/fabraix.md"
+    }
+  }
+}

@@ -1,69 +1,69 @@
 {
   "slug": "withasync",
   "name": "Async",
-  "oneLiner": "AI Agents for Service Businesses",
+  "oneLiner": "Long Horizon Agents for Small Businesses",
   "metadata": {
     "website": "https://withasync.com",
     "yc_page": "https://www.ycombinator.com/companies/withasync",
-    "batch": "Summer 2025 (per Skope YC profile, Launch HN, and founder LinkedIns; the withasync YC page currently lists \"Summer 2026\" but multiple corroborating sources say S25)",
+    "batch": "Summer 2026",
     "industry": "B2B / B2B",
     "team_size": "2",
-    "location": "San Francisco, CA, USA",
+    "location": "New York City, NY, USA",
     "tags": "B2B, AI",
-    "yc_partner": "Brad Flora (withasync YC page)",
-    "emails": "founders@useskope.com (withasync.com), connor@useskope.com (connorpark.dev)"
+    "yc_partner": "Brad Flora",
+    "emails": "ben@useskope.com, connor@useskope.com, careers@useskope.com, security@useskope.com"
   },
   "tags": [
     "B2B",
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-08T04:55:43.683Z",
+  "memoGeneratedAt": "2026-07-30T18:20:54.470Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 36,
+      "score": 42,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 33,
-      "tier": "Pass"
+      "score": 55,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 33,
+      "score": 39,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 41,
-      "tier": "Pass"
+      "score": 57,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 27,
+      "score": 29,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 23,
-      "tier": "Pass"
+      "score": 47,
+      "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 36,
+      "score": 41,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 36,
-    "EG": 33,
-    "NR": 33,
-    "PG": 41,
-    "PT": 27,
-    "SL": 23,
-    "VK": 36
+    "CB": 42,
+    "EG": 55,
+    "NR": 39,
+    "PG": 57,
+    "PT": 29,
+    "SL": 47,
+    "VK": 41
   },
-  "consolidatedAvg": 32.71,
-  "consolidatedRank": 70,
+  "consolidatedAvg": 44.29,
+  "consolidatedRank": 147,
   "traction": {
-    "tractionRank": 20,
-    "tractionScore": 40,
-    "tractionReason": "SOC 2, named law-firm customer, prior HN Launch"
+    "tractionRank": 57,
+    "tractionScore": 51,
+    "tractionReason": "Two named law-firm deployments"
   },
   "paths": {
     "memo": "summer2026/memos/withasync.md",

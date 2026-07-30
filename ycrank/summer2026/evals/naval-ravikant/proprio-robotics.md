@@ -1,0 +1,28 @@
+﻿# Proprio Robotics -- Naval Ravikant Evaluation
+
+Anirudh Pai’s BAIR work in computer vision and dexterous manipulation makes Proprio Robotics a specific-knowledge-rich robotics laboratory attached to a network-poor hardware business. **Stack Overflow** is the high rung: practitioners built for practitioners, converting accumulated domain knowledge into a product outsiders could not easily imitate. Pai’s manipulation research and Raghav Punnam’s work on reinforcement learning and humanoid world models give Proprio Robotics the same founder-problem fit. The divergence is commercial specificity: Stack Overflow’s founders lived the exact user problem, while Proprio Robotics has no documented data-center operating experience and moved from Bubll’s recommendations and web agents into server robotics during the 2025–2026 AI buildout. Specific knowledge is present, but partly in the method rather than the market.
+
+**Perplexity** is the low network rung: a single-sided product whose next user does not automatically improve the previous user’s experience. Proprio Robotics sits below even that profile. Every robot deployment may generate manipulation data, but Proprio Robotics has disclosed no installed base, shared dataset, marketplace, developer ecosystem, or cross-customer network effect. A server operator in Phoenix does not become more valuable because Proprio Robotics signs another operator in Virginia. Perplexity escaped this weakness through permissionless software distribution and exceptional founder knowledge; Proprio Robotics has the founder knowledge without the escape hatch.
+
+Six demonstrated server-manipulation tasks show code leverage inside the machine, but Proprio Robotics distributes through custom hardware, direct enterprise pilots, and deployment contracts. Over the next 18 months, each new Proprio Robotics installation will likely require procurement, integration, safety validation, and physical support. That is labor and capital leverage wearing an AI jacket. The manipulation policy can replicate cheaply only after the expensive machine earns permission to enter the facility. Code compounds; deployments do not—at least not yet.
+
+The $12.3 billion data-center robotics market, projected to reach $51.2 billion by 2032, gives Proprio Robotics genuine pivot-room across assembly, maintenance, decommissioning, and IT asset disposition. The market score would flip into the top tier if one Proprio Robotics manipulation stack transferred across server SKUs and then into adjacent electronics manufacturing without customer-specific retraining. Current evidence points the other way: Proprio Robotics began with disassembly because unused hardware was easier to obtain, while live maintenance introduces different safety and reliability requirements. A large market is not automatically a wide product surface.
+
+Pai and Punnam attended Berkeley, built Bubll together, and survived two prior product identities before founding Proprio Robotics. **Notion** is the relevant single-anchor parallel: Ivan Zhao’s willingness to rebuild showed energy and long-term obsession before the market rewarded either. Proprio Robotics has comparable willingness to discard ideas and ship again, and the office data center plus six working tasks are stronger evidence of energy than academic logos alone. Proprio Robotics has no adverse integrity signal, but no public record yet of treating employees, customers, or prior investors across a difficult cycle. Intelligence reads high. Energy reads high. The ten-year-partner test remains unproven.
+
+Pai said Proprio Robotics started with disassembly because discarded hardware made cross-SKU data collection practical. My 36-month forecast is that by July 2029 Proprio Robotics will have pivoted from autonomous live data centers into robotic server disassembly and refurbishment for IT asset-disposition firms, with less than $3 million ARR and no acquisition. The high specific knowledge will produce a real machine; the low network leverage will narrow Proprio Robotics toward the workflow where reliability is easiest and failure is cheapest.
+
+**Anchorage Digital** is the strongest bull precedent: permission can become the moat when regulation or operational difficulty excludes casual entrants. Proprio Robotics could similarly turn facility access, cross-SKU manipulation data, and delicate-hardware reliability into a compounding deployment moat; the office testbed, six demonstrated tasks, NVIDIA Inception membership, and two research-trained founders make that case sting. The dossier still names no commercial deployment, proprietary dataset, structural barrier, or customer commitment, while Standard Bots has $263 million-plus in disclosed funding and Dexterity has $291.2 million. Those incumbents can finance the long physical-learning curve that Proprio Robotics cannot shortcut with media or open-source distribution. I pass today. Three named commercial sites running Proprio Robotics autonomously at greater than 99.5% task success, producing at least $1 million ARR by July 2027, would flip the verdict.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Permissionless Leverage Architecture (Code or Media as Primary Distribution) | 4/28 |
+| Marketplace or Network with Compounding User-Added Value | 3/22 |
+| Founder Has Non-Trainable Specific Knowledge in the Domain | 16/20 |
+| Big Market with Room for Multiple Pivots Without Refinancing | 11/16 |
+| Founder Trio (Intelligence + Energy + Integrity) Reads as a 10-Year Partner | 8/14 |
+| **Total** | **42/100** |
+
+**Total Score: 42/100** (Pass)

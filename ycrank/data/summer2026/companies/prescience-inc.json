@@ -5,65 +5,65 @@
   "metadata": {
     "website": "https://www.getprescience.com/",
     "yc_page": "https://www.ycombinator.com/companies/prescience-inc",
-    "batch": "Summer 2026",
+    "batch": "Summer 2026 ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/prescience-inc))",
     "industry": "Healthcare / Healthcare",
     "team_size": "2",
     "location": "Boston, MA, USA",
     "tags": "Health Insurance, Insurance",
-    "yc_partner": "Ankit Gupta",
-    "emails": "No public data found"
+    "yc_partner": "Ankit Gupta ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/prescience-inc))",
+    "emails": "founders@getprescience.com, rishab@getprescience.com, privacy@getprescience.com, legal@getprescience.com, support@getprescience.com ([YC Launch](https://www.ycombinator.com/launches/Rjs-prescience-superintelligence-for-the-american-health-system); [LinkedIn](https://www.linkedin.com/in/rishab-jain-k); [Privacy Policy](https://www.getprescience.com/privacy), Jul 2026)"
   },
   "tags": [
     "Health Insurance",
     "Insurance"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-06-29T06:12:49.609Z",
+  "memoGeneratedAt": "2026-07-30T18:18:08.801Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 43,
-      "tier": "Pass"
+      "score": 71,
+      "tier": "Invest"
     },
     "elad-gil": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 53,
+      "score": 49,
       "tier": "Neutral"
     },
+    "naval-ravikant": {
+      "score": 60,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 71,
+      "tier": "Invest"
+    },
     "peter-thiel": {
-      "score": 41,
-      "tier": "Pass"
+      "score": 59,
+      "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 40,
-      "tier": "Pass"
+      "score": 68,
+      "tier": "Invest"
     },
     "vinod-khosla": {
-      "score": 47,
+      "score": 63,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 43,
-    "EG": 38,
-    "NR": 38,
-    "PG": 53,
-    "PT": 41,
-    "SL": 40,
-    "VK": 47
+    "CB": 71,
+    "EG": 49,
+    "NR": 60,
+    "PG": 71,
+    "PT": 59,
+    "SL": 68,
+    "VK": 63
   },
-  "consolidatedAvg": 42.86,
-  "consolidatedRank": 18,
+  "consolidatedAvg": 63,
+  "consolidatedRank": 9,
   "traction": {
-    "tractionRank": 22,
-    "tractionScore": 38,
-    "tractionReason": "Anonymous case studies, Rippling partnership referenced"
+    "tractionRank": 42,
+    "tractionScore": 55,
+    "tractionReason": "Employer customers with claimed 20% premium reductions"
   },
   "paths": {
     "memo": "summer2026/memos/prescience-inc.md",

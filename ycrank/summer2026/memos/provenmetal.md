@@ -12,100 +12,73 @@
 | Location | San Francisco, CA, USA |
 | Tags | Hardware, Manufacturing, Electronics |
 | YC Partner | Vivian Midha Shen |
-| Emails | johnny@provenmetal.com (company website, Jul 2026) |
+| Emails | founders@provenmetal.com |
 
 ## The Idea
 
-- **Problem:** US hardware teams face slow, expensive domestic PCB assembly with multi-week lead times; reshoring demand exists but the supply chain remains underdeveloped (YC company page, 2026).
-- **Approach:** Vertically integrated US assembly line combined with software that automates part procurement, DFM review, and assembly scheduling, delivering standard 7-day turnaround with 100% AI-assisted X-ray inspection at 99.8% defect-detection confidence (provenmetal.com, Jul 2026).
-- **Differentiation:** vs. MacroFab (marketplace routing to partner factories) — ProvenMetal owns and operates its own line (provenmetal.com, Jul 2026); vs. Sierra Circuits (traditional integrated fab-assembly) — instant quoting from BOM/Gerbers rather than manual quote workflow (provenmetal.com, Jul 2026); vs. CircuitHub (software-defined factory scaling in US/EU) — [Inferred]: narrower initial focus on fastest US-only turnaround.
-- **Business Model:** No published pricing; instant-quote generation on submission of BOM and Gerbers (provenmetal.com, Jul 2026). [Inferred]: per-order transactional revenue on assembled boards, likely with tiered pricing by turnaround/complexity.
-- **TAM/SAM:** US PCB market $18.0B in 2025, projected $25.9B by 2033 at 4.7% CAGR (Mark Spark Solutions, 2025); global PCB $95.78B in 2025 (Mordor Intelligence, 2025); US share of global PCB fabrication has fallen from >30% (early 2000s) to <5% today (US Department of Commerce/IPC, via I-Connect007, 2025).
-- **GTM / Distribution:** Currently in private beta with "Ordering now open" via web-based instant quoting portal (provenmetal.com, Jul 2026); [Inferred]: direct-to-engineer self-serve funnel, augmented by 5 letters of intent secured during YC prep (thinkbusiness.ie, Jul 2026).
+- **Problem:** U.S. drone, defense, robotics, and other hardware teams wait weeks for circuit boards because quoting, design review, component procurement, fabrication, and assembly are fragmented, with overseas suppliers serving as the principal alternative ([Y Combinator](https://www.ycombinator.com/companies/provenmetal), Jul 2026).
+- **Approach:** Customers submit BOM and Gerber files for instant quoting, after which ProvenMetal sources domestic components, coordinates fabrication and assembly through vetted U.S. partners, tests each board, and returns it with production and inspection records on a seven-day standard turn ([ProvenMetal](https://provenmetal.com), Jul 2026).
+- **Differentiation:** [Inferred]: ProvenMetal differentiates from China-based JLCPCB through an all-U.S. supply chain, from MacroFab through a stated seven-day standard turn and per-order quality record, and from Sierra Circuits through instant quoting and revision reuse.
+- **Business Model:** [Inferred]: Revenue likely comes from per-order PCB fabrication, component procurement, assembly, and testing charges generated from submitted BOM and Gerber files, but no public price schedule is shown.
+- **TAM/SAM:** The global PCBA market was $98.9 billion in 2025 and is forecast to reach $137.4 billion by 2033 at a 4.3% CAGR, while no public estimate was found for ProvenMetal’s U.S. quick-turn segment ([Grand View Research](https://www.grandviewresearch.com/industry-analysis/printed-circuit-board-assembly-market-report), 2026).
+- **GTM / Distribution:** [Inferred]: The initial motion appears to be founder-led sales to U.S. drone, defense, robotics, medical-device, and industrial-hardware teams, supported by direct website ordering and YC launch distribution.
 
 ## Defensibility
 
-- **Moat today:** Owned domestic assembly line plus in-house AI X-ray inspection (99.8% confidence, 100% board coverage) provides a proprietary hardware+software stack rather than a broker/marketplace model (provenmetal.com, Jul 2026).
-- **Future moat:** [Inferred]: proprietary defect-detection dataset from every board X-rayed could compound into a data moat improving DFM feedback and yield; unproven now given private beta status (provenmetal.com, Jul 2026).
-- **Market structure:** [Inferred]: legacy US PCB shops (Sierra, Advanced Circuits) built quoting and DFM workflows around manual engineering review, so adopting instant-quote/automated-DFM would cannibalize their fixed engineering headcount and margin structure.
-- **Commoditization risk:** MacroFab ($102M raised, Series C, Jan 2023, Foundry-led, engineering.com/finsmes) and CircuitHub ($48M total, $28M Series A May 2026 led by Plural, tech.eu/SiliconANGLE) already operate automated PCBA platforms at scale; large capital gap means the space is contestable by better-funded incumbents.
+- **Moat today:** The company reports domestic sourcing, end-to-end build ownership, component traceability, testing, inspection records for each order, and 99.8% inspection confidence, although it does not publish the measurement methodology ([ProvenMetal](https://provenmetal.com), Jul 2026).
+- **Future moat:** [Inferred]: Repeated builds could create process histories, supplier-performance data, revision-specific manufacturing knowledge, and customer switching costs, but no scale, retention, or proprietary-data evidence is public.
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** MacroFab already operates a digital manufacturing platform across more than 100 North American factories, while JLCPCB integrates digital quoting, parts sourcing, fabrication, and assembly at global scale ([MacroFab](https://www.prnewswire.com/news-releases/macrofab-secures-42m-in-growth-financing-from-foundry-edison-partners-and-bmw-i-ventures-301723440.html), Jan 2023; [JLCPCB](https://jlcpcb.com/about-us), Jul 2026).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - YC Summer 2026 batch, ~$500K standard YC investment (siliconrepublic.com, Jul 2026)
-  - 5 letters of intent secured during YC prep phase (thinkbusiness.ie, Jul 2026)
-  - 30+ conversations with manufacturers and industry experts pre-YC (thinkbusiness.ie, Jul 2026)
-  - Private beta, "Ordering now open" (provenmetal.com, Jul 2026)
-  - Named press coverage: Irish Times, Silicon Republic, Irish Tech News, Trinity College Dublin news, ThinkBusiness (Jul 2026)
-  - Twitter @provenmetal referenced in site footer (count not retrievable)
-  - LinkedIn: linkedin.com/company/provenmetal (count not retrievable)
-  - GitHub org: github.com/orgs/proven-metal (public repo/star data not retrievable)
-  - No Product Hunt launch found; no revenue disclosed; no app store presence (not applicable to product category)
-- **Competitors:**
-  - MacroFab ($102M raised through Series C, revenue undisclosed): marketplace routing to partner factories vs. ProvenMetal's owned line (engineering.com/Crunchbase, 2023).
-  - CircuitHub ($48M raised, $28M Series A May 2026 led by Plural; 2M+ boards delivered, 133M+ components placed, ~20,000 engineer users): software-defined factory across US and EU vs. ProvenMetal's single US line (tech.eu/SiliconANGLE, May 2026).
-  - Sierra Circuits ($162.9M revenue 2026 per ZoomInfo): integrated Silicon Valley fab-plus-assembly with ITAR/AS9100/IPC Class 3 certifications, 1-day proto turn vs. ProvenMetal 7-day standard (medium.com Sharon Maizner ranking, 2025).
-  - Advanced Circuits (~$78.5M net sales FY2011 per SEC 10-K; more recent revenue unknown): long-established quick-turn US fabricator with traditional quoting (SEC filing, 2011).
-  - Bay Area Circuits ($3M revenue 2026 per Owler): 45-year-old low-volume US PCB shop (Owler, 2026).
-- **Why now:** Bipartisan Protecting Circuit Boards and Substrates Act (S.4569) introduced by Sens. Gallego and Justice provides a 25% tax credit for US-made PCBs plus a $3B grant program, alongside CHIPS Act tailwinds — a codified pricing incentive that did not exist 12–24 months ago (I-Connect007, 2025).
+  - Five letters of intent following more than 30 manufacturer and hardware-company conversations ([Trinity College Dublin](https://www.tcd.ie/news_events/articles/2026/provenmetal-y-combinator/), Jun 2026).
+  - Ordering opened with a seven-day standard turnaround and no expedite fee ([ProvenMetal](https://provenmetal.com), Jul 2026).
+  - 501 LinkedIn followers ([LinkedIn](https://www.linkedin.com/company/provenmetal), Jul 2026).
+  - Press coverage from Trinity College Dublin and ThinkBusiness ([Trinity College Dublin](https://www.tcd.ie/news_events/articles/2026/provenmetal-y-combinator/), Jun 2026; [ThinkBusiness](https://www.thinkbusiness.ie/articles/irish-founders-y-combinator-summer-2026-blueprints-provenmetal/), Jun 2026).
+  - Zero jobs listed on the YC company page ([Y Combinator](https://www.ycombinator.com/companies/provenmetal), Jul 2026).
+- **Competitors (minimum 3, up to 5):**
+  - MacroFab ($82M raised, revenue unknown): cloud platform spanning more than 100 North American factories from prototype through production, versus ProvenMetal’s seven-day domestic quick-turn positioning ([MacroFab](https://www.prnewswire.com/news-releases/macrofab-secures-42m-in-growth-financing-from-foundry-edison-partners-and-bmw-i-ventures-301723440.html), Jan 2023).
+  - Tempo Automation ($74.6M raised, revenue unknown): automated San Francisco PCB prototyping with an owned factory footprint, versus ProvenMetal’s coordinated network of vetted U.S. partners ([Axios](https://www.axios.com/2018/04/17/tempo-20-million-manufacturing-sf-san-francisco), Apr 2018).
+  - JLCPCB ($129.1M raised, revenue unknown): vertically integrated China-based fabrication, component sourcing, assembly, and adjacent manufacturing services at 21M orders annually, versus ProvenMetal’s fully domestic supply chain ([JLCPCB](https://jlcpcb.com/about-us), Jul 2026; [Owler](https://www.owler.com/company/jlcpcb/funding), Sep 2022).
+- **Why now:** The company cites U.S. reshoring expenditures and a decline in America’s share of global PCB production from roughly 30% two decades ago to about 4% as the catalyst for rebuilding domestic assembly capacity ([Trinity College Dublin](https://www.tcd.ie/news_events/articles/2026/provenmetal-y-combinator/), Jun 2026).
 
 ## Founders & Team
 
 - **Johnny Doyle (Co-Founder & CEO):**
-  - Background: Trinity College Dublin engineering student (Engineering with Management); previously co-founded Syncra, a building-management IoT company he and Carkner shelved after YC feedback that scope was too small (thinkbusiness.ie/Irish Times, Jul 2026); alumnus of Patch, the OpenAI- and Stripe-backed Dublin community for young technologists at Dogpatch Labs (Irish Tech News, Jul 2026).
-  - Twitter/X: No public account found under his name
-  - LinkedIn: No public profile surfaced in searches
-  - GitHub: No public repos found
+  - Background: Studied Engineering with Management at Trinity College Dublin, previously built IoT building-management systems, and is described by YC as a mechanical and manufacturing engineer ([Y Combinator](https://www.ycombinator.com/companies/provenmetal), Jul 2026).
+  - Twitter/X: @jdoyleirl, 193 followers ([TwStalker via search snippet](https://jilbab.twstalker.com/suzan_works), Jul 2026).
+  - LinkedIn: “Co-Founder & CEO at ProvenMetal (YC S26)” ([Y Combinator](https://www.ycombinator.com/companies/provenmetal), Jul 2026).
+  - GitHub: No public repos found.
 - **Will Carkner (Co-Founder & CTO):**
-  - Background: Trinity College Dublin engineering student; has been building circuit boards since childhood; ran board testing at a San Francisco battery company where he observed PCB-industry dysfunction firsthand (thinkbusiness.ie/tcd.ie, Jul 2026); previously co-founded Syncra with Doyle (Irish Times, Jul 2026).
-  - Twitter/X: No public account found
-  - LinkedIn: ie.linkedin.com/in/will-carkner-518b77228, headline "Syncra" (LinkedIn, via search snippet)
-  - GitHub: No public repos found
-- **Alex McConnell (team member):** Engineering with Management student at Trinity College Dublin, joined to help build the company (thinkbusiness.ie/tcd.ie, Jul 2026); role, Twitter, LinkedIn, and GitHub not publicly detailed.
-- **Co-founder relationship:** Doyle and Carkner met at Trinity College Dublin engineering program and previously co-founded Syncra together at Dogpatch Labs before pivoting to ProvenMetal (Irish Times/thinkbusiness.ie, Jul 2026).
-- **Founder-market fit:** Carkner's hands-on PCB experience since childhood plus prior board-testing role at a San Francisco battery company aligns with the assembly/inspection product surface (thinkbusiness.ie, Jul 2026); YC Group Partner Vivian Midha Shen assigned (YC company page, Jul 2026); no external named advisors or investors beyond YC found.
+  - Background: Studied Electrical Engineering at Trinity College Dublin, researched metagenomics at Imperial College London, and worked at Lumindt on hydrogen-battery systems and its PCB testing pipeline ([Y Combinator](https://www.ycombinator.com/companies/provenmetal), Jul 2026).
+  - Twitter/X: @CarknerWill, 469 followers ([TwStalker via search snippet](https://jilbab.twstalker.com/suzan_works), Jul 2026).
+  - LinkedIn: “Co-Founder at ProvenMetal” ([LinkedIn](https://www.linkedin.com/in/will-carkner-518b77228), Jul 2026).
+  - GitHub: @will-carkner; `yeoty-2023` has 2 stars and the account has 9 public repositories ([GitHub](https://github.com/will-carkner), Jul 2026).
+- **Co-founder relationship:** Doyle and Carkner attended Trinity College Dublin and previously worked together on Syncra before pivoting to ProvenMetal ([Trinity College Dublin](https://www.tcd.ie/news_events/articles/2026/provenmetal-y-combinator/), Jun 2026).
+- **Founder-market fit:** Doyle previously shipped IoT building-management hardware, while Carkner built circuit boards from childhood and operated Lumindt’s PCB-testing pipeline, providing documented manufacturing, electrical-engineering, and board-testing experience ([Y Combinator](https://www.ycombinator.com/companies/provenmetal), Jul 2026; [Trinity College Dublin](https://www.tcd.ie/news_events/articles/2026/provenmetal-y-combinator/), Jun 2026).
 
 ## Key Risks
 
-- **Well-funded incumbent substitution:** CircuitHub ($48M total, $28M Series A May 2026, Plural-led) and MacroFab ($102M through Series C) already run automated cloud-PCBA platforms with production track records (2M+ boards for CircuitHub); ProvenMetal must differentiate on turnaround while these players extend into US fast-turn.
-- **Capital intensity of owned assembly line:** Vertically integrated hardware operations require ongoing capex for SMT lines, X-ray equipment, and floor space, and the site states the line is "owned and operated" (provenmetal.com, Jul 2026); the $500K YC standard deal (siliconrepublic.com, 2026) is a small buffer for scaling physical throughput to meet 7-day SLA at volume.
-- **Unverified performance claims at scale:** The 99.8% defect-detection confidence and 100% X-ray coverage claims are self-reported on the company site with no third-party validation, IPC Class certification, or customer case study currently disclosed (provenmetal.com, Jul 2026).
-- **Recent pivot execution risk:** Team pivoted from Syncra (building-management IoT) to ProvenMetal after YC feedback, then held 30+ manufacturer meetings and built a software prototype between YC interview rounds (thinkbusiness.ie, Jul 2026); execution history on the current product is measured in months, not years.
-- **Regulatory/certification barriers to target verticals:** Aerospace, medical, and defense applications referenced in press coverage (tcd.ie, Jul 2026) typically require AS9100, ISO 13485, and ITAR registrations that competitor Sierra Circuits already holds (medium.com ranking, 2025); no public evidence ProvenMetal has these certifications yet.
+- **Demand conversion:** The five disclosed letters of intent resulted from more than 30 customer and industry conversations, but no paid-customer or converted-order count is public ([Trinity College Dublin](https://www.tcd.ie/news_events/articles/2026/provenmetal-y-combinator/), Jun 2026).
+- **Partner execution:** ProvenMetal states that fabrication and assembly run through vetted U.S. partners, so its seven-day commitment depends partly on supplier capacity, component availability, and partner quality performance ([ProvenMetal](https://provenmetal.com), Jul 2026).
+- **Cost competition:** JLCPCB reports 21 million annual orders, more than 10,000 employees, and automated production infrastructure, creating scale-based price competition for customers without domestic-sourcing requirements ([JLCPCB](https://jlcpcb.com/about-us), Jul 2026).
+- **Quality-claim verification:** The website displays 99.8% inspection confidence but does not disclose sample size, defect definition, validation procedure, or third-party certification ([ProvenMetal](https://provenmetal.com), Jul 2026).
+- **Product-position evolution:** June coverage described a benchtop X-ray inspection system, whereas the current website sells managed domestic PCB fabrication and assembly, creating a risk that earlier inspection-product demand evidence does not transfer to the present service ([ThinkBusiness](https://www.thinkbusiness.ie/articles/irish-founders-y-combinator-summer-2026-blueprints-provenmetal/), Jun 2026; [ProvenMetal](https://provenmetal.com), Jul 2026).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | US PCB market $18.0B in 2025 → $25.9B by 2033 at 4.7% CAGR (Mark Spark Solutions, 2025); global PCB $95.78B in 2025 (Mordor Intelligence, 2025) |
+| TAM | $98.9B global PCBA market in 2025, forecast to reach $137.4B by 2033 at 4.3% CAGR (Grand View Research, 2026) |
 | SAM | No public data found |
-| Traction | YC S26 batch with ~$500K standard deal (siliconrepublic.com, Jul 2026); 5 LOIs pre-YC (thinkbusiness.ie, Jul 2026); private beta with ordering open (provenmetal.com, Jul 2026); press in Irish Times, Silicon Republic, Trinity College Dublin, Irish Tech News (Jul 2026) |
-| Revenue Signal | No public data found — instant quoting via BOM/Gerber submission, no pricing page (provenmetal.com, Jul 2026) |
-| Founders | Johnny Doyle (CEO): Trinity College Dublin Engineering with Management; prior co-founder of Syncra IoT. Will Carkner (CTO): Trinity CD engineering; lifelong PCB builder; prior board-testing at SF battery company. Alex McConnell: Trinity CD Engineering with Management student. |
-| Competitors | MacroFab ($102M raised, Series C Jan 2023, revenue unknown, partner-factory marketplace); CircuitHub ($48M raised incl. $28M Series A May 2026 led by Plural, revenue unknown, 2M+ boards delivered, software-defined factory US+EU); Sierra Circuits ($162.9M revenue 2026 per ZoomInfo, integrated Silicon Valley fab-assembly, ITAR/AS9100); Bay Area Circuits ($3M revenue 2026 per Owler, low-volume US shop); Advanced Circuits ($78.5M net sales FY2011 per SEC, quick-turn US fabricator) |
-| Moat Signals | Owned/operated US assembly line with in-house AI X-ray inspection at 99.8% confidence and 100% coverage (provenmetal.com, Jul 2026) |
-| Risk Factors | Well-funded incumbents (CircuitHub, MacroFab) with automated PCBA at scale; capital intensity of owned assembly line vs. $500K YC funding; no third-party validation of 99.8% inspection claim; missing aerospace/medical/defense certifications |
-| Founder Reach | Johnny Doyle: no public Twitter/LinkedIn/GitHub found. Will Carkner: LinkedIn headline "Syncra" (count not retrievable), no Twitter/GitHub found. Alex McConnell: no public data found. |
-| Distribution Signals | Company Twitter @provenmetal referenced in site footer (count not retrievable); LinkedIn linkedin.com/company/provenmetal (count not retrievable); GitHub org github.com/orgs/proven-metal; Crunchbase profile exists; no Product Hunt launch found |
-| Emails | johnny@provenmetal.com (provenmetal.com, Jul 2026) |
-
-Sources:
-- [ProvenMetal — Y Combinator company page](https://www.ycombinator.com/companies/provenmetal)
-- [ProvenMetal — company website](https://provenmetal.com)
-- [Trinity College Dublin news — ProvenMetal Y Combinator](https://www.tcd.ie/news_events/articles/2026/provenmetal-y-combinator/)
-- [ThinkBusiness — 4 Irish founders join YC Summer 2026](https://www.thinkbusiness.ie/articles/irish-founders-y-combinator-summer-2026-blueprints-provenmetal/)
-- [Silicon Republic — Two Irish start-ups accepted into YC summer batch](https://www.siliconrepublic.com/start-ups/two-irish-start-ups-accepted-into-y-combinators-summer-batch)
-- [Irish Times — Irish start-ups accepted into YC](https://www.irishtimes.com/business/2026/07/04/im-trying-to-build-the-next-stripe-irish-start-ups-accepted-into-top-silicon-valley-programme/)
-- [Irish Tech News — Four Irish Founders in YC Summer 2026](https://irishtechnews.ie/four-irish-founders-accepted-into-y-combinators-summer-2026-batch/)
-- [MacroFab Series B $15M (Finsmes, 2021)](https://www.finsmes.com/2021/05/macrofab-raises-15m-in-series-b-funding.html)
-- [MacroFab Series C $42M (Engineering.com)](https://www.engineering.com/macrofab-gets-15m-more-for-electronics-manufacturing-as-a-service/)
-- [CircuitHub $28M Series A (Tech.eu, May 2026)](https://tech.eu/2026/05/20/circuithub-raises-28m-to-scale-automated-electronics-manufacturing-across-the-us-and-europe/)
-- [CircuitHub $28M — SiliconANGLE](https://siliconangle.com/2026/05/20/circuithub-raises-28m-scale-electronics-production-days-rather-months/)
-- [US PCB market size — Mark Spark Solutions](https://marksparksolutions.com/reports/us-printed-circuit-board-market)
-- [Global PCB market — Mordor Intelligence](https://www.mordorintelligence.com/industry-reports/printed-circuit-board-market)
-- [Protecting Circuit Boards and Substrates Act — I-Connect007](https://iconnect007.com/article/150118/new-senate-bill-supports-reshoring-and-restoring-u-s-printed-circuit-board-manufacturing/150115/milaero)
-- [Sierra Circuits company profile — ZoomInfo](https://www.zoominfo.com/c/sierra-circuits-inc/106627254)
-- [Bay Area Circuits — Owler](https://www.owler.com/company/bacircuits)
-- [Quick-turn PCB assembly ranking — Medium (Sharon Maizner)](https://medium.com/@sharon.maizner/2025-global-ranking-top-10-quick-turn-pcb-assembly-companies-for-rapid-prototyping-with-instant-b10e6a46eba4)
-- [Will Carkner — LinkedIn](https://ie.linkedin.com/in/will-carkner-518b77228)
+| Traction | Five LOIs from more than 30 industry conversations (Trinity College Dublin, Jun 2026); ordering open with seven-day standard turn (ProvenMetal, Jul 2026) |
+| Revenue Signal | No public data found |
+| Founders | Johnny Doyle (CEO): Trinity Engineering with Management, IoT building systems, mechanical/manufacturing engineering; Will Carkner (CTO): Trinity Electrical Engineering, Lumindt PCB-testing pipeline, Imperial College London research (Y Combinator, Jul 2026) |
+| Competitors | MacroFab ($82M raised, revenue unknown, North American factory network); Tempo Automation ($74.6M raised, revenue unknown, owned automated PCB factory); JLCPCB ($129.1M raised, revenue unknown, vertically integrated China-based manufacturing) (MacroFab, Jan 2023; Axios, Apr 2018; Owler, Sep 2022) |
+| Moat Signals | Domestic component traceability, full production records, revision reuse, and claimed 99.8% inspection confidence (ProvenMetal, Jul 2026) |
+| Risk Factors | LOI-to-revenue conversion, partner-dependent turnaround, scale-based overseas price competition (Trinity College Dublin, Jun 2026; ProvenMetal, Jul 2026; JLCPCB, Jul 2026) |
+| Founder Reach | Johnny Doyle: Twitter 193, LinkedIn count not public, GitHub not found; Will Carkner: Twitter 469, LinkedIn count not public, top repo 2 stars (TwStalker via search snippet, Jul 2026; GitHub, Jul 2026) |
+| Distribution Signals | 501 LinkedIn followers and zero YC-listed jobs (LinkedIn, Jul 2026; Y Combinator, Jul 2026) |
+| Emails | founders@provenmetal.com (ProvenMetal, Jul 2026) |

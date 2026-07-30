@@ -16,89 +16,72 @@
 
 ## The Idea
 
-- **Problem:** Hedge funds, asset managers, and fintech firms perform repetitive manual screen work — logging into custodian portals, pulling reports, reconciling books, KYC refresh, filling investor forms — across legacy systems that will never expose APIs (YC page; zommalabs.com).
-- **Approach:** Computer Use Agents that operate the same GUI screens ops teams use today, gated by an "Agent Trust Framework" providing scoped identity, approval chains, and SEC-ready audit trails before any action submits (zommalabs.com).
-- **Differentiation:** Versus traditional RPA (UiPath, Automation Edge) Zomma uses vision-based LLM agents rather than brittle DOM scripts (zommalabs.com); versus finance-native LLM tools like Rogo and Hebbia (research/analysis focused per Hebbia comparison blog, 2026) Zomma targets operational execution across portals rather than document Q&A.
-- **Business Model:** No pricing disclosed on the site — CTA is a "/call" demo request (zommalabs.com). [Inferred]: Enterprise per-agent or per-seat annual contracts, standard for finance ops automation given the SEC-audit-trail positioning targeting regulated buyers.
-- **TAM/SAM:** No public TAM/SAM data found for this specific segment; adjacent RPA-in-banking is cited as a fast-ROI category especially for firms with 30+ ops/compliance staff (AutomationEdge, 2026).
-- **GTM / Distribution:** [Inferred]: Founder-led direct enterprise sales to hedge funds/asset managers, based on the "/call" demo-only funnel, prior JPMorgan/Goldman/Arrowpoint team relationships (zommalabs.com), and inclusion in the 2026 Vercel AI Accelerator Cohort (Vercel blog, 2026) that provides infra distribution.
+- **Problem:** Hedge funds, asset managers, wealth advisers, and fintech firms perform reconciliation, reporting, onboarding, and KYC by transferring data among portals, desktop applications, PDFs, and systems without APIs ([Zomma website, Jul 2026](https://www.zommalabs.com/); [YC, Jul 2026](https://www.ycombinator.com/companies/zomma)).
+- **Approach:** Agents learn workflows demonstrated on a desktop, then click, read, type, download, re-key, and reconcile through existing user interfaces while pausing before final actions for human approval ([Zomma LinkedIn, Jul 2026](https://www.linkedin.com/company/zomma); [Zomma website, Jul 2026](https://www.zommalabs.com/)).
+- **Differentiation:** Zomma focuses on approval-gated investment operations across custodian portals, desktop software, and PDFs, while Zalos addresses broader CFO workflows, Eloquent AI emphasizes regulated customer-service operations, and Stacks provides agents across the enterprise finance stack ([Zomma](https://www.zommalabs.com/); [Zalos](https://www.zalos.ai/); [Eloquent AI](https://www.ycombinator.com/companies/eloquent-ai); [Stacks](https://stacks.ai/resources/stacks-raises-23-million-to-reinvent-finance-operations-with-agentic-ai)).
+- **Business Model:** [Inferred]: The “forward-deployed · enterprise” positioning and workflow-mapping service indicate negotiated enterprise contracts rather than public self-service pricing, but no price or billing metric is disclosed ([Zomma website, Jul 2026](https://www.zommalabs.com/)).
+- **TAM/SAM:** Agentic AI in financial services was estimated at $7.78B in 2026 with a 41.12% CAGR through 2031, while the narrower RPA-in-BFSI segment was forecast at $1.97B in 2026 with a 39.4% CAGR through 2030 ([Mordor Intelligence, 2026](https://www.mordorintelligence.com/industry-reports/agentic-artificial-intelligence-in-financial-services-market); [Grand View Research, 2026](https://www.grandviewresearch.com/industry-analysis/robotic-process-automation-bfsi-market)).
+- **GTM / Distribution:** Zomma uses direct sales calls, forward deployment, finance-operations workshops, demonstrations, and a business-development and partnerships function ([Zomma website, Jul 2026](https://www.zommalabs.com/); [Zomma LinkedIn, Jul 2026](https://www.linkedin.com/company/zomma)).
 
 ## Defensibility
 
-- **Moat today:** No defensibility signals found in public sources beyond a stated "Agent Trust Framework" with scoped permissions and audit trails (zommalabs.com); no customer count, retention, or proprietary data disclosed.
-- **Future moat:** [Inferred]: Workflow-specific training data captured from hedge-fund portal interactions plus embedded human-approval logs could compound into a switching-cost moat, unproven now given no disclosed customers.
-- **Market structure:** [Inferred]: Incumbent fund administrators (SS&C, iCapital, Juniper Square — cited in FundCount, 2026) monetize managed services and would cannibalize outsourced-ops revenue by shipping self-serve agents; classic services-vs-software conflict.
-- **Commoditization risk:** Anthropic shipped 10 ready-to-run finance agent templates including KYC and month-end close in May 2026 and launched a $1.5B JV with Blackstone, Goldman Sachs, H&F to build an AI-native financial services firm (Fortune, May 2026; Anthropic news, May 2026), meaning the foundation model provider is directly competing in this workflow layer.
+- **Moat today:** No defensibility signals found in public sources.
+- **Future moat:** [Inferred]: Customer-specific workflow maps, correction histories, and audit records could create operational switching costs, but public sources do not establish exclusive datasets, patents, or sustained retention.
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** Zalos and Eloquent AI already offer screen-observing, no-API financial-services agents, while Anthropic and OpenAI expose general computer-use capabilities to developers ([Zalos, Mar 2026](https://www.globenewswire.com/news-release/2026/03/24/3261268/0/en/zalos-raises-3-6m-to-build-computer-agents-that-operate-finance-systems-the-way-humans-do.html); [Eloquent AI](https://www.ycombinator.com/companies/eloquent-ai); [Anthropic, Oct 2024](https://www.anthropic.com/news/3-5-models-and-computer-use); [OpenAI, Jan 2025](https://openai.com/index/introducing-operator/)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Backed by Y Combinator, Summer 2026 batch (YC page).
-  - Selected for the 2026 Vercel AI Accelerator Cohort (Vercel blog, 2026).
-  - Team described as ex-Goldman Sachs, JP Morgan, Apple, Arrowpoint, GovTech Singapore, Modern Intelligence (zommalabs.com).
-  - Developer API integrations named for Hermes and Claude (zommalabs.com).
-  - No revenue, customer count, Product Hunt launch, Twitter/LinkedIn follower counts, or press coverage found in public sources.
-- **Competitors (adjacent set — direct GUI-agent-for-finance-ops competitors are few):**
-  - Rogo ($160M Series D, TAMradar 2026; revenue unknown): finance-native agentic platform for investment banking research/deal workflows, not portal operations.
-  - Hebbia (revenue unknown; used by 40%+ of largest asset managers by AUM per Hebbia site, 2026): document-analysis agent using ISD, not GUI operation.
-  - Qurrent (funding unknown): autonomous AI BPO for CFO back-office ops with SLA-backed outcomes (XLR8 AI, 2026), overlaps on outcome delivery.
-  - Anthropic Finance Agents ($1.5B JV, Fortune May 2026): 10 pre-built KYC/close/audit agent templates from the model vendor itself.
-  - UiPath / AutomationEdge (public co / private, revenue unknown): incumbent RPA for KYC and reconciliation using script-based automation.
-- **Why now:** [Inferred]: Vision-capable LLMs (Anthropic Computer Use released late 2024, OpenAI Operator early 2025) crossed the threshold for reliable multi-step GUI navigation, making non-API portal automation feasible for the first time — same catalyst cited by Anthropic's May 2026 finance push (Anthropic news, 2026).
+  - Unnamed hedge funds, asset managers, and fintech firms use Zomma for reconciliation, onboarding, KYC, and investor reporting ([YC, Jul 2026](https://www.ycombinator.com/companies/zomma)).
+  - 188 LinkedIn followers ([LinkedIn, Jul 2026](https://www.linkedin.com/company/zomma)).
+  - NY Tech Week finance-operations workshop with a company-described “long waitlist” and an AI Tinkerers demo ([LinkedIn, Jun 2026](https://www.linkedin.com/company/zomma)).
+  - 0 active YC job postings ([YC, Jul 2026](https://www.ycombinator.com/companies/zomma)).
+- **Competitors (minimum 3, up to 5):**
+  - Zalos ($3.6M raised, revenue unknown): computer agents for CFO workflows across ERP and accounting systems, versus Zomma’s investment-operations focus ([Zalos, Mar 2026](https://www.globenewswire.com/news-release/2026/03/24/3261268/0/en/zalos-raises-3-6m-to-build-computer-agents-that-operate-finance-systems-the-way-humans-do.html)).
+  - Eloquent AI ($7.4M raised, $0.5M ARR): automates regulated financial customer service and reports up to 96% task automation, versus Zomma’s reconciliation and reporting workflows ([YC, Jul 2026](https://www.ycombinator.com/companies/eloquent-ai); [Homebrew, Jun 2026](https://www.homebrew.co/blog-posts/eloquent-ai-raises-usd7-4-million-seed-round-to-power-customer-operations-for-the-financial-service-industry)).
+  - Stacks ($35M raised, revenue unknown): builds an enterprise finance platform and agents across accounting workflows, versus Zomma’s operation of existing portals and desktop applications ([Stacks, Feb 2026](https://stacks.ai/resources/stacks-raises-23-million-to-reinvent-finance-operations-with-agentic-ai)).
+- **Why now:** [Inferred]: Public computer-use releases from Anthropic in October 2024 and OpenAI in January 2025 made screenshot-driven clicking and typing available to application developers within the preceding two years ([Anthropic](https://www.anthropic.com/news/3-5-models-and-computer-use); [OpenAI](https://openai.com/index/introducing-operator/)).
 
 ## Founders & Team
 
-- **Varun Arumugam (Co-founder):**
-  - Background: UT Austin ECE per LinkedIn results; prior YC-backed founder with a stated exit and $10–12M in sales, ex-J.P. Morgan, previously signaled a Google SWE role (LinkedIn search snippet via search snippet).
-  - Twitter/X: No public account found in searches.
-  - LinkedIn: "making work feel less annoying @ …" (linkedin.com/in/varunarumugam, via search snippet).
-  - GitHub: No public repos found.
-- **Cashel Fitzgerald (Co-founder):**
-  - Background: BS Cockrell/UT Austin, Cornell CS Master's, ML Engineer at Modern Intelligence (defense AI, Austin), prior SWE at AffiniPay, Favor, and Voyant (financial planning software) (ZoomInfo/LinkedIn via search snippet).
+- **Jihyun Kim (Co-founder and CEO):**
+  - Background: Kim studied computer science at NYU Abu Dhabi and data science at Cornell Tech, worked at Goldman Sachs and Endowus, and helped launch a $1B multi-strategy hedge fund as Arrowpoint Investment Partners’ founding-team Head of Product ([YC](https://www.ycombinator.com/companies/zomma); [Kim, LinkedIn, 2025](https://www.linkedin.com/posts/kimjihyun_coming-back-full-circle-eight-years-ago-activity-7366522612199456768-u1ss); [Zomma blog](https://www.zommalabs.com/blog/ai-agents-for-financial-advisors)).
   - Twitter/X: No public account found.
-  - LinkedIn: "Modern Intelligence" (linkedin.com/in/cashelfitzgerald, via search snippet).
+  - LinkedIn: No public headline retrievable; profile has 3K+ followers ([LinkedIn, Jul 2026](https://www.linkedin.com/in/kimjihyun)).
   - GitHub: No public repos found.
-- **Jihyun Kim (Co-founder):**
-  - Background: No confirmed public profile disambiguated from other "Jihyun Kim" LinkedIn results; team page attributes ex-Goldman Sachs / Apple / Arrowpoint / GovTech Singapore backgrounds collectively (zommalabs.com).
-  - Twitter/X: count not retrievable.
-  - LinkedIn: No public profile found (disambiguation failed).
+- **Varun Arumugam (Founder):**
+  - Background: Arumugam earned BS and MS degrees in electrical and computer engineering from UT Austin, was a founding ML engineer at Bronco AI, and worked on verification infrastructure at Apple ([YC, Jul 2026](https://www.ycombinator.com/companies/zomma)).
+  - Twitter/X: @varumugam07; count not retrievable ([LinkedIn, Jul 2026](https://www.linkedin.com/in/varunarumugam)).
+  - LinkedIn: “Building Zomma,” with 657 followers ([LinkedIn, Jul 2026](https://www.linkedin.com/in/varunarumugam)).
   - GitHub: No public repos found.
-- **Co-founder relationship:** No public data on co-founder history; Varun and Cashel share UT Austin as an educational connection (LinkedIn snippets via search snippet).
-- **Founder-market fit:** [Inferred]: Ex-JPMorgan (Arumugam) and finance-software SWE background at Voyant (Fitzgerald) provide direct exposure to the reconciliation/onboarding workflows Zomma targets; no advisors, board members, or lead investors beyond YC named in public sources.
+- **Cashel Fitzgerald (Founder):**
+  - Background: Fitzgerald earned a master’s in computer science from Cornell, built aerial-object-detection systems at Modern Intelligence, and worked on 8am systems supporting $300M+ annual revenue and $20B+ annual transaction volume ([YC, Jul 2026](https://www.ycombinator.com/companies/zomma)).
+  - Twitter/X: @CashelFitz with 51 followers ([TwStalker, Jul 2026](https://mobile.twstalker.com/CashelFitz)).
+  - LinkedIn: “Building computer use agents at Zomma,” with 1K followers ([LinkedIn, Jul 2026](https://www.linkedin.com/in/cashelfitzgerald)).
+  - GitHub: No public repos found.
+- **Co-founder relationship:** Kim and Fitzgerald both attended Cornell, but no public source explains how the three founders met ([YC, Jul 2026](https://www.ycombinator.com/companies/zomma)).
+- **Founder-market fit:** [Inferred]: Kim’s hedge-fund and wealth-technology operating history supplies finance-workflow exposure, while Arumugam’s agent and verification work and Fitzgerald’s vision-model work align with screen-based automation ([YC, Jul 2026](https://www.ycombinator.com/companies/zomma)).
 
 ## Key Risks
 
-- **Foundation-model vendor encroachment:** Anthropic — whose Claude is named as a supported agent on Zomma's site (zommalabs.com) — shipped 10 finance agent templates including KYC and month-end close and launched a $1.5B financial-services JV with Goldman/Blackstone/H&F in May 2026 (Fortune, May 2026; Anthropic news, May 2026), directly overlapping Zomma's use cases with no mitigation disclosed.
-- **Regulated-buyer sales cycle:** Hedge funds and asset managers require SEC-grade audit and vendor risk review, and Zomma's "Agent Trust Framework" is marketing copy with no SOC 2, ISO, or customer logos disclosed (zommalabs.com); founder finance backgrounds partially mitigate.
-- **Technical feasibility of unattended GUI reliability:** Every action "stops for human approval before anything submits" (zommalabs.com), which caps labor-savings ROI versus fully-autonomous alternatives and reflects current limits of computer-use agents on legacy custodian portals.
-- **No disclosed traction:** No customers, revenue, waitlist, or press coverage were located in public sources at the time of research, leaving GTM velocity unverified.
-- **Name disambiguation:** "Zomma Group LLP" (Coral Gables CPA firm) and unrelated "Jihyun Kim" LinkedIn profiles surface in searches (LinkedIn results), risking SEO confusion and founder-profile mis-identification.
+- **Execution reliability:** UI-CUBE found that layout changes, pop-ups, and background events can alter computer-agent execution, while Zomma mitigates submission errors through human approval and exception review ([UiPath UI-CUBE, Nov 2025](https://www.uipath.com/ai/research/ui-cube-benchmark); [Zomma website](https://www.zommalabs.com/)).
+- **Agent hijacking and data access:** NIST reports that many agents remain vulnerable to indirect prompt injection, while Zomma states that credentials are vaulted, final actions require approval, data is not retained for training, and SOC 2 remains in progress ([NIST, Jan 2025](https://www.nist.gov/news-events/news/2025/01/technical-blog-strengthening-ai-agent-hijacking-evaluations); [Zomma website](https://www.zommalabs.com/)).
+- **Direct substitution:** Zalos, Eloquent AI, and Stacks have raised capital for overlapping finance-agent products, and general computer-use models are available from frontier-model vendors ([Zalos](https://www.globenewswire.com/news-release/2026/03/24/3261268/0/en/zalos-raises-3-6m-to-build-computer-agents-that-operate-finance-systems-the-way-humans-do.html); [Eloquent AI](https://www.homebrew.co/blog-posts/eloquent-ai-raises-usd7-4-million-seed-round-to-power-customer-operations-for-the-financial-service-industry); [Stacks](https://stacks.ai/resources/stacks-raises-23-million-to-reinvent-finance-operations-with-agentic-ai)).
+- **Name disambiguation:** “Zomma” is also used by an accounting firm and a DeFi protocol, creating search and brand ambiguity outside the `zommalabs.com` and YC S26 identifiers ([ZOMMA Group](https://www.linkedin.com/company/zomma-group-llp); [Zomma Protocol](https://www.linkedin.com/company/zomma-protocol)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | No public data found |
-| SAM | No public data found |
-| Traction | YC Summer 2026 backing (YC page); 2026 Vercel AI Accelerator Cohort (Vercel blog, 2026); team ex-Goldman/JPMorgan/Apple/Arrowpoint/GovTech Singapore/Modern Intelligence (zommalabs.com) |
-| Revenue Signal | No public data found (no pricing page; "/call" demo CTA only, zommalabs.com) |
-| Founders | Varun Arumugam (Co-founder): UT Austin ECE, prior YC founder with exit, ex-JPMorgan. Cashel Fitzgerald (Co-founder): UT Austin BS + Cornell CS MS, ML Engineer at Modern Intelligence, prior Voyant/AffiniPay/Favor SWE. Jihyun Kim (Co-founder): profile not disambiguated in public sources. |
-| Competitors | Rogo ($160M Series D, revenue unknown, IB research agents not GUI ops); Hebbia (funding undisclosed here, revenue unknown, document analysis for 40%+ of largest AMs); Qurrent (funding unknown, revenue unknown, CFO back-office BPO with SLAs); Anthropic Finance Agents ($1.5B JV, revenue unknown, 10 pre-built KYC/close templates); UiPath / AutomationEdge (public/private, revenue unknown, script-based RPA for KYC/reconciliation) |
-| Moat Signals | No public data found beyond stated "Agent Trust Framework" with scoped identity and audit trails (zommalabs.com) |
-| Risk Factors | Foundation-model vendor encroachment (Anthropic finance agents + $1.5B JV, May 2026); regulated-buyer sales cycle with no security certs disclosed; no disclosed customer/revenue traction |
-| Founder Reach | Varun Arumugam: Twitter not found, LinkedIn present (count not retrievable), GitHub not found. Cashel Fitzgerald: Twitter not found, LinkedIn present (count not retrievable), GitHub not found. Jihyun Kim: No public data found. |
-| Distribution Signals | 2026 Vercel AI Accelerator Cohort (Vercel blog, 2026); YC S26 directory listing (YC page); no Product Hunt, Chrome Web Store, or app-store presence found |
-| Emails | hello@zommalabs.com (zommalabs.com) |
-
-Sources:
-- [Zomma company site](https://zommalabs.com/)
-- [Y Combinator — Zomma](https://www.ycombinator.com/companies/zomma)
-- [2026 Vercel AI Accelerator Cohort](https://vercel.com/blog/2026-vercel-ai-accelerator-cohort)
-- [Cashel Fitzgerald LinkedIn](https://www.linkedin.com/in/cashelfitzgerald/)
-- [Varun Arumugam LinkedIn](https://www.linkedin.com/in/varunarumugam/)
-- [Anthropic — Agents for financial services](https://www.anthropic.com/news/finance-agents)
-- [Fortune — Anthropic Wall Street push](https://fortune.com/2026/05/05/anthropic-wall-street-financial-services-agents-jamie-dimon/)
-- [Rogo Series D — TAMradar](https://www.tamradar.com/funding-rounds/rogo-series-d-160m)
-- [Hebbia — Rogo competitors](https://www.hebbia.com/resources/rogo-competitors)
-- [XLR8 AI — Autonomous Agent Platforms for Back-Office Ops](https://tryxlr8.ai/blogs/top-autonomous-ai-agent-platforms-back-office-ops)
-- [AutomationEdge — RPA in banking 2026](https://automationedge.com/blogs/top-rpa-use-cases-in-banking-industry-in-2026/)
+| TAM | $7.78B agentic-AI-in-financial-services market in 2026, 41.12% CAGR through 2031 ([Mordor Intelligence, 2026](https://www.mordorintelligence.com/industry-reports/agentic-artificial-intelligence-in-financial-services-market)) |
+| SAM | $1.97B RPA-in-BFSI market forecast for 2026, 39.4% CAGR through 2030 ([Grand View Research, 2026](https://www.grandviewresearch.com/industry-analysis/robotic-process-automation-bfsi-market)) |
+| Traction | Unnamed hedge funds, asset managers, and fintech firms using Zomma; 188 LinkedIn followers ([YC and LinkedIn, Jul 2026](https://www.ycombinator.com/companies/zomma)) |
+| Revenue Signal | No public data found |
+| Founders | Jihyun Kim (CEO): Arrowpoint founding team, Endowus, Goldman Sachs; Varun Arumugam (Founder): Bronco AI, Apple, UT Austin; Cashel Fitzgerald (Founder): Cornell, Modern Intelligence, 8am ([YC, Jul 2026](https://www.ycombinator.com/companies/zomma)) |
+| Competitors | Zalos ($3.6M raised, revenue unknown, broader CFO workflows) ([Zalos, Mar 2026](https://www.globenewswire.com/news-release/2026/03/24/3261268/0/en/zalos-raises-3-6m-to-build-computer-agents-that-operate-finance-systems-the-way-humans-do.html)); Eloquent AI ($7.4M raised, $0.5M ARR, customer-service operations) ([YC, Jul 2026](https://www.ycombinator.com/companies/eloquent-ai)); Stacks ($35M raised, revenue unknown, enterprise finance platform) ([Stacks, Feb 2026](https://stacks.ai/resources/stacks-raises-23-million-to-reinvent-finance-operations-with-agentic-ai)) |
+| Moat Signals | No public data found |
+| Risk Factors | UI execution variability ([UiPath, Nov 2025](https://www.uipath.com/ai/research/ui-cube-benchmark)), agent hijacking ([NIST, Jan 2025](https://www.nist.gov/news-events/news/2025/01/technical-blog-strengthening-ai-agent-hijacking-evaluations)), direct finance-agent substitutes ([Zalos, Mar 2026](https://www.globenewswire.com/news-release/2026/03/24/3261268/0/en/zalos-raises-3-6m-to-build-computer-agents-that-operate-finance-systems-the-way-humans-do.html)) |
+| Founder Reach | Kim: LinkedIn 3K+ ([LinkedIn, Jul 2026](https://www.linkedin.com/in/kimjihyun)); Arumugam: LinkedIn 657 and X @varumugam07 count unavailable ([LinkedIn, Jul 2026](https://www.linkedin.com/in/varunarumugam)); Fitzgerald: LinkedIn 1K and X 51 ([LinkedIn](https://www.linkedin.com/in/cashelfitzgerald); [TwStalker, Jul 2026](https://mobile.twstalker.com/CashelFitz)) |
+| Distribution Signals | 188 LinkedIn followers, NY Tech Week workshop and AI Tinkerers demo, 0 YC jobs ([LinkedIn and YC, Jul 2026](https://www.linkedin.com/company/zomma)) |
+| Emails | hello@zommalabs.com ([Zomma website, Jul 2026](https://www.zommalabs.com/)) |

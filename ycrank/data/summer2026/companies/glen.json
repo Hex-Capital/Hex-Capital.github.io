@@ -10,8 +10,8 @@
     "team_size": "1",
     "location": "San Francisco, CA, USA",
     "tags": "Artificial Intelligence, Generative AI, B2B",
-    "yc_partner": "Jared Friedman (YC company page)",
-    "emails": "No public data found"
+    "yc_partner": "Jared Friedman ([Y Combinator](https://www.ycombinator.com/companies/glen), Jul 2026)",
+    "emails": "founders@tryglen.com ([Glen Slack page](https://tryglen.com/slack), Jul 2026), nikosdritsakos@gmail.com ([founder website](https://www.nikosdritsakos.com/), Jul 2026)"
   },
   "tags": [
     "Artificial Intelligence",
@@ -19,52 +19,52 @@
     "B2B"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-06-29T06:08:22.306Z",
+  "memoGeneratedAt": "2026-07-30T17:43:51.218Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 42,
-      "tier": "Pass"
+      "score": 57,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 49,
+      "score": 63,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 43,
-      "tier": "Pass"
+      "score": 65,
+      "tier": "Invest"
     },
     "paul-graham": {
-      "score": 41,
-      "tier": "Pass"
+      "score": 66,
+      "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 30,
+      "score": 42,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 26,
+      "score": 41,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 35,
+      "score": 42,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 42,
-    "EG": 49,
-    "NR": 43,
-    "PG": 41,
-    "PT": 30,
-    "SL": 26,
-    "VK": 35
+    "CB": 57,
+    "EG": 63,
+    "NR": 65,
+    "PG": 66,
+    "PT": 42,
+    "SL": 41,
+    "VK": 42
   },
-  "consolidatedAvg": 38,
-  "consolidatedRank": 41,
+  "consolidatedAvg": 53.71,
+  "consolidatedRank": 80,
   "traction": {
-    "tractionRank": 36,
-    "tractionScore": 23,
-    "tractionReason": "\"In production\" with waitlist wave onboarding"
+    "tractionRank": 80,
+    "tractionScore": 44,
+    "tractionReason": "Production deployment with teams onboarded from waitlist"
   },
   "paths": {
     "memo": "summer2026/memos/glen.md",

@@ -10,8 +10,8 @@
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "Artificial Intelligence, SaaS, B2B, Workflow Automation, Market Research",
-    "yc_partner": "Ankit Gupta",
-    "emails": "contact@pothlabs.com"
+    "yc_partner": "Ankit Gupta ([Y Combinator](https://www.ycombinator.com/companies/poth-labs))",
+    "emails": "matthew@pothlabs.com ([YC launch](https://www.ycombinator.com/launches/RpS-ask-poth-ask-anything-about-your-customers))"
   },
   "tags": [
     "Artificial Intelligence",
@@ -21,52 +21,52 @@
     "Market Research"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-06-29T06:11:09.025Z",
+  "memoGeneratedAt": "2026-07-30T18:11:31.700Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 32,
-      "tier": "Pass"
+      "score": 46,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 32,
-      "tier": "Pass"
+      "score": 53,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 37,
-      "tier": "Pass"
+      "score": 52,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 41,
-      "tier": "Pass"
+      "score": 63,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 34,
+      "score": 42,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 26,
+      "score": 36,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 29,
+      "score": 40,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 32,
-    "EG": 32,
-    "NR": 37,
-    "PG": 41,
-    "PT": 34,
-    "SL": 26,
-    "VK": 29
+    "CB": 46,
+    "EG": 53,
+    "NR": 52,
+    "PG": 63,
+    "PT": 42,
+    "SL": 36,
+    "VK": 40
   },
-  "consolidatedAvg": 33,
-  "consolidatedRank": 69,
+  "consolidatedAvg": 47.43,
+  "consolidatedRank": 131,
   "traction": {
-    "tractionRank": 41,
-    "tractionScore": 18,
-    "tractionReason": "German-language press profile of founder"
+    "tractionRank": 59,
+    "tractionScore": 50,
+    "tractionReason": "Five named teams use current product"
   },
   "paths": {
     "memo": "summer2026/memos/poth-labs.md",

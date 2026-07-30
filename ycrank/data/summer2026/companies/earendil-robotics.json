@@ -10,7 +10,7 @@
     "team_size": "7",
     "location": "San Francisco, CA, USA",
     "tags": "Drones, Swarm Robotics, AR",
-    "yc_partner": "Vivian Midha Shen (YC company page)",
+    "yc_partner": "Vivian Midha Shen ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/earendil-robotics))",
     "emails": "No public data found"
   },
   "tags": [
@@ -19,14 +19,63 @@
     "AR"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-12T21:52:19.771Z",
-  "evalScores": {},
-  "consolidatedScores": {},
-  "consolidatedAvg": null,
-  "consolidatedRank": null,
-  "traction": null,
+  "memoGeneratedAt": "2026-07-30T17:29:35.886Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 78,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 76,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 59,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 78,
+    "EG": 54,
+    "NR": 49,
+    "PG": 76,
+    "PT": 56,
+    "SL": 45,
+    "VK": 59
+  },
+  "consolidatedAvg": 59.57,
+  "consolidatedRank": 27,
+  "traction": {
+    "tractionRank": 143,
+    "tractionScore": 18,
+    "tractionReason": "Trade-show exhibition; no contracts disclosed"
+  },
   "paths": {
     "memo": "summer2026/memos/earendil-robotics.md",
-    "evals": {}
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/earendil-robotics.md",
+      "elad-gil": "summer2026/evals/elad-gil/earendil-robotics.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/earendil-robotics.md",
+      "paul-graham": "summer2026/evals/paul-graham/earendil-robotics.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/earendil-robotics.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/earendil-robotics.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/earendil-robotics.md"
+    }
   }
 }

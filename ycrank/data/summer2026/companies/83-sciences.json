@@ -8,10 +8,10 @@
     "batch": "Summer 2026",
     "industry": "Industrials / Industrials",
     "team_size": "3",
-    "location": "Not listed on YC page",
+    "location": "San Francisco, CA, USA",
     "tags": "Hard Tech, Advanced Materials, AI",
     "yc_partner": "Tyler Bosmeny",
-    "emails": "No public data found (contact form only at /contact per 83sciences.ai)"
+    "emails": "hello@83sciences.ai"
   },
   "tags": [
     "Hard Tech",
@@ -19,52 +19,52 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-08T04:50:49.157Z",
+  "memoGeneratedAt": "2026-07-30T17:30:23.406Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 41,
-      "tier": "Pass"
+      "score": 59,
+      "tier": "Neutral"
     },
     "elad-gil": {
       "score": 42,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 43,
-      "tier": "Pass"
+      "score": 47,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 57,
+      "score": 59,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 37,
+      "score": 43,
       "tier": "Pass"
     },
+    "sam-lessin": {
+      "score": 51,
+      "tier": "Neutral"
+    },
     "vinod-khosla": {
-      "score": 35,
+      "score": 43,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 41,
+    "CB": 59,
     "EG": 42,
-    "NR": 43,
-    "PG": 57,
-    "PT": 48,
-    "SL": 37,
-    "VK": 35
+    "NR": 47,
+    "PG": 59,
+    "PT": 43,
+    "SL": 51,
+    "VK": 43
   },
-  "consolidatedAvg": 43.29,
-  "consolidatedRank": 17,
+  "consolidatedAvg": 49.14,
+  "consolidatedRank": 122,
   "traction": {
-    "tractionRank": 62,
-    "tractionScore": 8,
-    "tractionReason": "JACS paper + Stanford/MIT affiliations only"
+    "tractionRank": 134,
+    "tractionScore": 25,
+    "tractionReason": "Early partners subsidized with grants; no revenue"
   },
   "paths": {
     "memo": "summer2026/memos/83-sciences.md",

@@ -1,0 +1,80 @@
+{
+  "slug": "proprio-robotics",
+  "name": "Proprio Robotics",
+  "oneLiner": "Building autonomous data centers",
+  "metadata": {
+    "website": "https://www.propriorobotics.com/",
+    "yc_page": "https://www.ycombinator.com/companies/proprio-robotics",
+    "batch": "Summer 2026",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Robotics",
+    "yc_partner": "Ankit Gupta",
+    "emails": "founders@propriorobotics.com"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Robotics"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T18:05:45.215Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 66,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 66,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 67,
+      "tier": "Invest"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 66,
+    "EG": 56,
+    "NR": 42,
+    "PG": 66,
+    "PT": 49,
+    "SL": 37,
+    "VK": 67
+  },
+  "consolidatedAvg": 54.71,
+  "consolidatedRank": 65,
+  "traction": {
+    "tractionRank": 111,
+    "tractionScore": 33,
+    "tractionReason": "Internal robot deployment; commercial rollout merely planned"
+  },
+  "paths": {
+    "memo": "summer2026/memos/proprio-robotics.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/proprio-robotics.md",
+      "elad-gil": "summer2026/evals/elad-gil/proprio-robotics.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/proprio-robotics.md",
+      "paul-graham": "summer2026/evals/paul-graham/proprio-robotics.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/proprio-robotics.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/proprio-robotics.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/proprio-robotics.md"
+    }
+  }
+}

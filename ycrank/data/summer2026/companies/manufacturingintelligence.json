@@ -1,0 +1,80 @@
+{
+  "slug": "manufacturingintelligence",
+  "name": "HERA",
+  "oneLiner": "Hera catches thousand dollar errors before they hit the shop floor.",
+  "metadata": {
+    "website": "https://www.manufacturingintelligence.org",
+    "yc_page": "https://www.ycombinator.com/companies/manufacturingintelligence",
+    "batch": "Summer 2026",
+    "industry": "Industrials / Industrials",
+    "team_size": "2",
+    "location": "Seattle, WA, USA",
+    "tags": "B2B, Manufacturing",
+    "yc_partner": "Diana Hu",
+    "emails": "founders@manufacturingintelligence.org"
+  },
+  "tags": [
+    "B2B",
+    "Manufacturing"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T18:00:23.539Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 66,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 66,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 39,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 66,
+    "EG": 53,
+    "NR": 50,
+    "PG": 66,
+    "PT": 42,
+    "SL": 44,
+    "VK": 39
+  },
+  "consolidatedAvg": 51.43,
+  "consolidatedRank": 100,
+  "traction": {
+    "tractionRank": 84,
+    "tractionScore": 43,
+    "tractionReason": "Unquantified use by three manufacturing sectors"
+  },
+  "paths": {
+    "memo": "summer2026/memos/manufacturingintelligence.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/manufacturingintelligence.md",
+      "elad-gil": "summer2026/evals/elad-gil/manufacturingintelligence.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/manufacturingintelligence.md",
+      "paul-graham": "summer2026/evals/paul-graham/manufacturingintelligence.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/manufacturingintelligence.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/manufacturingintelligence.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/manufacturingintelligence.md"
+    }
+  }
+}

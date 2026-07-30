@@ -11,57 +11,56 @@
 | Team Size | 1 |
 | Location | San Francisco, CA, USA |
 | Tags | Machine Learning, Neurotechnology, AI |
-| YC Partner | Tyler Bosmeny (YC company page) |
-| Emails | No public data found |
+| YC Partner | Tyler Bosmeny |
+| Emails | careers@parasma.com |
 
 ## The Idea
 
-- **Problem:** AI training/inference workloads consume rising amounts of electricity, and biological-substrate alternatives such as FinalSpark's Neuroplatform claim "one million times less energy" than conventional data centers (thesmallbusinesscybersecurityguy.co.uk, 2025); [Inferred]: Parasma targets AI infrastructure buyers seeking lower-energy compute substrates.
-- **Approach:** Parasma "writes the algorithms to turn brain cells into compute" (YC company page, S26), i.e., software/algorithm layer that programs living human neurons for AI tasks rather than fabricating the wetware itself.
-- **Differentiation:** Cortical Labs sells the CL1 wetware hardware (~$35K/unit) and FinalSpark sells remote Neuroplatform access to organoids (privatemarketsnews.substack.com, 2025; thesmallbusinesscybersecurityguy.co.uk, 2025); [Inferred]: Parasma positions as the algorithm/training layer on top of such platforms rather than a wetware vendor, consistent with founder's Cortical-Cloud-based Doom demo (Scientific American, 2026).
-- **Business Model:** No public pricing data found; [Inferred]: B2B software/API licensing or services to biocomputing-platform operators and research labs, given the algorithm-layer positioning in the YC description.
+- **Problem:** [Inferred]: AI-infrastructure operators rely on GPU-based compute whose energy use, hardware requirements, and operating cost constrain continued scaling ([Parasma About](https://parasma.com/about), Jul 2026).
+- **Approach:** Parasma encodes inputs as electrical stimulation, reads living-neuron spikes through a decoder, and applies outcome-based feedback through a closed reinforcement-learning loop ([Parasma research note](https://parasma.com/research/consciousness-and-suffering), Jun 2026).
+- **Differentiation:** Parasma emphasizes software for training biological substrates and demonstrates token prediction and reinforcement learning, while Cortical Labs supplies the CL1 wetware hardware and API, TBC integrates neurons with existing AI models, and Intactis develops automated biohybrid processing units ([Parasma](https://parasma.com), [Cortical Labs demonstration](https://www.tomshardware.com/tech-industry/artificial-intelligence/200-000-living-human-neurons-on-a-microchip-demonstrated-playing-doom-cortical-labs-cl1-video-shows-the-gameplay-and-explains-how-the-neurons-learn), Mar 2026; [TBC](https://www.datacenterdynamics.com/en/news/the-biological-computing-co-raises-25m-to-support-launch-of-worlds-first-biological-computing-platform/), Feb 2026; [Intactis](https://www.prnewswire.com/news-releases/lab-grown-neurons-say-hello-world-and-perform-matrix-math-on-automated-platform-intactis-bio-corp-raises-250k-from-nucleus-fund-302724652.html), Mar 2026).
+- **Business Model:** [Inferred]: Parasma could license its training stack to biological-hardware operators or sell hosted task-training access, because it describes its product as algorithms and infrastructure rather than a proprietary neuron device ([Parasma About](https://parasma.com/about), Jul 2026).
 - **TAM/SAM:** No public TAM/SAM data found for this specific segment.
-- **GTM / Distribution:** [Inferred]: Direct technical sales / partnerships with existing biocompute platform owners (e.g., Cortical Labs, FinalSpark) and research institutions, given the founder's prior collaboration with Cortical Labs' Cortical Cloud (Scientific American, 2026).
+- **GTM / Distribution:** [Inferred]: Initial distribution is likely through biocomputing-hardware integrations and research collaborations, following Cole’s CL1 collaboration with Cortical Labs and Parasma’s recruitment of a scientist to run biological-training experiments ([Tom’s Hardware](https://www.tomshardware.com/tech-industry/artificial-intelligence/200-000-living-human-neurons-on-a-microchip-demonstrated-playing-doom-cortical-labs-cl1-video-shows-the-gameplay-and-explains-how-the-neurons-learn), Mar 2026; [YC job posting](https://www.ycombinator.com/companies/parasma/jobs/Vg7GVVl-founding-scientist), Jul 2026).
 
 ## Defensibility
 
-- **Moat today:** Founder demonstrated a working algorithm that paired neurons with a learning algorithm and outperformed the algorithm alone in Doom within ~one week of work (Scientific American, 2026; zmescience.com, 2026); no patents, contracts, or proprietary data assets found in public sources.
-- **Future moat:** [Inferred]: Accumulated training/stimulation-protocol data from running neurons across tasks could become proprietary know-how; unproven now because the company is solo-founder, pre-launch with no disclosed datasets.
-- **Market structure:** [Inferred]: No structural barrier identified at this stage; the algorithm layer can in principle be reproduced by hardware vendors (Cortical Labs, FinalSpark) themselves.
-- **Commoditization risk:** Cortical Labs already ships the "Cortical Cloud" Python interface used by the founder for the Doom demo (Scientific American, 2026; tech360.tv, 2026), so the hardware vendor can extend upstream into the algorithm layer.
+- **Moat today:** No defensibility signals found in public sources.
+- **Future moat:** [Inferred]: Repeated wetware experiments could produce proprietary stimulation policies, biological-response datasets, and task benchmarks, but this is unproven because the principal Doom implementation is public and no patent portfolio is disclosed ([GitHub](https://github.com/SeanCole02/doom-neuron), Jul 2026).
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** Cole’s training code is open source, Cortical Labs exposes programmable biological hardware, and funded competitors are developing their own neuron-training and biological-interface stacks ([GitHub](https://github.com/SeanCole02/doom-neuron), [TBC](https://www.datacenterdynamics.com/en/news/the-biological-computing-co-raises-25m-to-support-launch-of-worlds-first-biological-computing-platform/), Feb 2026).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Founder press: Sean Cole's Doom-on-neurons project covered in Scientific American, Tom's Hardware, Popular Science, Interesting Engineering, ZME Science, 80.lv, and 3DVF (Feb–Apr 2026).
-  - University of Sussex Facebook post highlighting Cole's MS project and Doom demo (facebook.com/uniofsussex, 2026).
-  - Founder Twitter: @vytalow active, bio "Made some brain cells play Doom" (x.com/vytalow); follower count not retrievable.
-  - Founder GitHub repo "doom-neuron" — Human brain cells play Doom (github.com/SeanCole02); star count not retrievable via search.
-  - Company revenue, paying customers, Product Hunt, LinkedIn followers, Discord, job postings: No public data found.
-- **Competitors:**
-  - Cortical Labs ($11.6M raised total, Series A Mar 2026, revenue unknown; Crunchbase): sells the CL1 wetware hardware ($35K/unit) and Cortical Cloud Python interface — vertically integrated competitor that could absorb the algorithm layer (privatemarketsnews.substack.com, 2025; Crunchbase).
-  - FinalSpark (Series A, amount undisclosed, revenue unknown; Crunchbase): runs Neuroplatform with 16 brain organoids accessible via Python API to remote researchers (thesmallbusinesscybersecurityguy.co.uk, 2025) — competes as a platform that already exposes its own algorithm interface.
-  - Biological Black Box (U.S.; funding/revenue unknown; webanditnews.com, Mar 2026): listed among biocomputing entrants building biological data-center systems.
-  - DARPA O-CIRCUIT program — government-funded "unconventional biological processing units" research (Data Center Dynamics, 2026) — non-commercial alternative funding biocompute R&D directly.
-- **Why now:** Cortical Labs launched commercial CL1 hardware in March 2025 and the Cortical Cloud Python interface, making programmable wetware accessible without lab access for the first time (privatemarketsnews.substack.com, 2025; Scientific American, 2026).
+  - YC Summer 2026 backing announced June 18, 2026 ([Parasma](https://parasma.com/news/parasma-backed-by-y-combinator), Jun 2026).
+  - Public token-prediction and reinforcement-learning demonstrations ([Parasma](https://parasma.com), Jul 2026).
+  - Founder’s pre-company Doom research used approximately 200,000 neurons and received coverage from The Guardian and Scientific American ([The Guardian](https://www.theguardian.com/games/2026/mar/16/petri-dish-brain-cells-playing-doom-cortical-labs), Mar 2026; [Scientific American](https://www.scientificamerican.com/article/how-human-neurons-on-a-chip-learned-to-play-doom/), Mar 2026).
+  - Founder’s `doom-neuron` repository had 250 GitHub stars ([GitHub](https://github.com/SeanCole02/doom-neuron), Jul 2026).
+  - One active founding-scientist posting offering 1%-3% equity ([Y Combinator](https://www.ycombinator.com/companies/parasma/jobs/Vg7GVVl-founding-scientist), Jul 2026).
+  - Founder reach was approximately 3,000 X followers and 445 LinkedIn followers ([TwStalker](https://www6.twstalker.com/vytalow), Jul 2026; [LinkedIn](https://www.linkedin.com/in/sean-cole-8985a4207), Jul 2026).
+- **Competitors (minimum 3, up to 5):**
+  - Cortical Labs ($11M reported raised, revenue unknown): owns the CL1 biological computer and cloud/API substrate, versus Parasma’s stated focus on training algorithms ([CB Insights](https://www.cbinsights.com/company/cortical-labs/financials), Jul 2026).
+  - The Biological Computing Co. ($25M raised, revenue unknown): integrates living neurons with computer-vision, generative-video, and foundation-model workloads through modular adapters ([Data Center Dynamics](https://www.datacenterdynamics.com/en/news/the-biological-computing-co-raises-25m-to-support-launch-of-worlds-first-biological-computing-platform/), Feb 2026).
+  - Intactis Bio ($0.25M announced round, revenue unknown): develops automated biohybrid processing units and demonstrated matrix operations, versus Parasma’s token-prediction and reinforcement-learning stack ([PR Newswire](https://www.prnewswire.com/news-releases/lab-grown-neurons-say-hello-world-and-perform-matrix-math-on-automated-platform-intactis-bio-corp-raises-250k-from-nucleus-fund-302724652.html), Mar 2026).
+- **Why now:** [Inferred]: Commercial CL1 hardware and Python-accessible biological-compute APIs lowered the wet-lab access barrier sufficiently for an independent developer to implement Doom training in approximately one week ([Tom’s Hardware](https://www.tomshardware.com/tech-industry/artificial-intelligence/200-000-living-human-neurons-on-a-microchip-demonstrated-playing-doom-cortical-labs-cl1-video-shows-the-gameplay-and-explains-how-the-neurons-learn), Mar 2026).
 
 ## Founders & Team
 
 - **Sean Cole (Founder):**
-  - Background: MS in Artificial Intelligence, University of Sussex (YC company page); independent developer who paired 200,000 human neurons with a learning algorithm to play Doom in ~one week using Cortical Labs' CL1/Cortical Cloud (Scientific American, 2026; Tom's Hardware, 2026); described as having "little experience in biological computing" prior to the Doom project (zmescience.com, 2026).
-  - Twitter/X: @vytalow — bio "Made some brain cells play Doom" (x.com/vytalow); follower count not retrievable.
-  - LinkedIn: sean-cole-8985a4207 (linkedin.com); headline not retrievable via search.
-  - GitHub: @SeanCole02 (vytal); notable repo "doom-neuron — Human brain cells play Doom" (github.com/SeanCole02); star count not retrievable.
-- **Co-founder relationship:** Solo founder; no co-founder (YC company page, team size 1).
-- **Founder-market fit:** Founder authored the publicized human-neurons-play-Doom demonstration on Cortical Labs' CL1 and holds an AI MS, directly mapping to Parasma's stated work of writing algorithms that turn brain cells into compute (Scientific American, 2026; YC company page).
+  - Background: Cole skipped a bachelor’s degree, completed an MSc in Artificial Intelligence with distinction at the University of Sussex in 2025, researched diffusion in spiking neural networks, and implemented the Cortical Labs Doom experiment; no prior company exit was found ([YC](https://www.ycombinator.com/companies/parasma), [LinkedIn](https://www.linkedin.com/in/sean-cole-8985a4207), Jul 2026).
+  - Twitter/X: @vytalow, approximately 3,000 followers ([TwStalker](https://www6.twstalker.com/vytalow), Jul 2026).
+  - LinkedIn: “Founder at Parasma (YC S26) Skipped BS, MS in Artificial Intelligence w/ Distinction” ([YC](https://www.ycombinator.com/companies/parasma), Jul 2026).
+  - GitHub: @SeanCole02; `doom-neuron` had 250 stars ([GitHub](https://github.com/SeanCole02/doom-neuron), Jul 2026).
+- **Co-founder relationship:** No public data on co-founder history.
+- **Founder-market fit:** [Inferred]: Cole’s MSc work on spiking neural networks and implementation of closed-loop learning on Cortical Labs’ CL1 provide documented experience in the algorithms Parasma is developing ([LinkedIn](https://www.linkedin.com/in/sean-cole-8985a4207); [Tom’s Hardware](https://www.tomshardware.com/tech-industry/artificial-intelligence/200-000-living-human-neurons-on-a-microchip-demonstrated-playing-doom-cortical-labs-cl1-video-shows-the-gameplay-and-explains-how-the-neurons-learn), Mar 2026).
 
 ## Key Risks
 
-- **Platform/vendor dependency:** The founder's prior work ran on Cortical Labs' CL1 via the Cortical Cloud Python interface (Scientific American, 2026); if Parasma's algorithms continue to depend on third-party wetware, Cortical Labs or FinalSpark can integrate equivalent algorithm layers natively, foreclosing distribution.
-- **Technical feasibility at production scale:** The cited Doom demo describes neurons "stumbling through Doom—badly, but they're learning" (Scientific American, 2026), indicating performance is well below conventional silicon for the same task; no public evidence that the approach reaches commercially useful throughput.
-- **Solo-founder execution risk on hardware-adjacent product:** Team size is 1 (YC company page); biocomputing competitors operate full wet labs (Cortical Labs in Melbourne; FinalSpark in Vevey), and no advisors/investors beyond YC are disclosed in public sources.
-- **Name disambiguation:** "Parasma" returns no direct press hits; multiple similarly-named entities (Parasanti, Parasym, Paramark) surface in search and must be excluded when tracking the company.
-- **No disclosed revenue or customers:** No public data found on pricing, paying customers, LOIs, or pilots as of June 2026.
+- **Technical validation:** Software-only replication found that structured signals improved Doom outcomes but could not establish that living neurons, rather than the surrounding software, performed the learning; the public repository includes random- and zero-signal ablation modes as a mitigation ([R&D World](https://www.rdworldonline.com/we-ran-the-doom-neuron-experiment-601-times/), Mar 2026).
+- **Biological variability and scaling:** Parasma’s job description identifies noise, variability, non-stationarity, and limited observability as core bottlenecks, with the founding-scientist role intended to develop protocols and benchmarks ([YC job posting](https://www.ycombinator.com/companies/parasma/jobs/Vg7GVVl-founding-scientist), Jul 2026).
+- **Hardware dependency:** The published Doom proof ran through Cortical Labs’ CL1 and API, creating dependence on an external biological substrate unless Parasma develops additional hardware integrations ([Tom’s Hardware](https://www.tomshardware.com/tech-industry/artificial-intelligence/200-000-living-human-neurons-on-a-microchip-demonstrated-playing-doom-cortical-labs-cl1-video-shows-the-gameplay-and-explains-how-the-neurons-learn), Mar 2026).
+- **Bioethics governance:** Parasma states that distinguishing intelligence from consciousness may become harder as systems scale; its stated mitigation is conservative stimulation and avoiding architectures it considers capable of consciousness ([Parasma research note](https://parasma.com/research/consciousness-and-suffering), Jun 2026).
 
 ## Key Facts
 
@@ -69,29 +68,12 @@
 |-----------|------|
 | TAM | No public data found |
 | SAM | No public data found |
-| Traction | Founder press: Scientific American, Tom's Hardware, Popular Science, Interesting Engineering, ZME Science, 80.lv (Feb–Apr 2026); GitHub repo "doom-neuron" (github.com/SeanCole02); University of Sussex Facebook feature (2026); company-level revenue/users/Product Hunt: No public data found |
-| Revenue Signal | No public data found |
-| Founders | Sean Cole (Founder): MS AI University of Sussex; built first human-neurons-play-Doom demo on Cortical Labs CL1 (Scientific American, 2026) |
-| Competitors | Cortical Labs ($11.6M raised, revenue unknown, sells CL1 wetware + Cortical Cloud Python interface — Crunchbase; privatemarketsnews.substack.com, 2025); FinalSpark (Series A undisclosed, revenue unknown, Neuroplatform with 16 organoids + Python API — Crunchbase; thesmallbusinesscybersecurityguy.co.uk, 2025); Biological Black Box (funding unknown, revenue unknown, U.S. biocomputing entrant — webanditnews.com, Mar 2026) |
-| Moat Signals | Founder's Doom-on-neurons algorithm reportedly outperformed standalone learning algorithm (Scientific American, 2026); no patents/contracts/proprietary data assets in public sources |
-| Risk Factors | Wetware-vendor dependency on Cortical Labs/FinalSpark; unproven performance at production scale; solo-founder team |
-| Founder Reach | Sean Cole: Twitter @vytalow (count not retrievable), LinkedIn sean-cole-8985a4207 (count not retrievable), GitHub @SeanCole02 repo "doom-neuron" (stars not retrievable) |
-| Distribution Signals | Press: Scientific American, Tom's Hardware, Popular Science (Feb–Apr 2026); no Product Hunt, Chrome Web Store, or app-store data found |
-| Emails | No public data found |
-
-Sources:
-- [Parasma — YC Company Page](https://www.ycombinator.com/companies/parasma)
-- [How human neurons on a chip learned to play Doom — Scientific American](https://www.scientificamerican.com/article/how-human-neurons-on-a-chip-learned-to-play-doom/)
-- [200,000 Living Human Brain Cells Just Learned to Play Doom — ZME Science](https://www.zmescience.com/science/wetware-brain-doom-play/)
-- ['200,000 living human neurons' on a microchip — Tom's Hardware](https://www.tomshardware.com/tech-industry/artificial-intelligence/200-000-living-human-neurons-on-a-microchip-demonstrated-playing-doom-cortical-labs-cl1-video-shows-the-gameplay-and-explains-how-the-neurons-learn-the-game)
-- [Computer run on human brain cells learned to play 'Doom' — Popular Science](https://www.popsci.com/technology/human-brain-cell-computer-plays-doom/)
-- [Biological computer with real human neurons learns to shoot in Doom — Interesting Engineering](https://interestingengineering.com/science/biological-computer-with-human-neurons-play-doom)
-- [Sean Cole (@vytalow) on X](https://x.com/vytalow)
-- [SeanCole02 (vytal) on GitHub](https://github.com/SeanCole02)
-- [University of Sussex Facebook post on Sean Cole](https://www.facebook.com/uniofsussex/posts/a-petri-dish-of-human-brain-cells-is-playing-doom-sean-cole-who-has-just-complet/929367032790257/)
-- [Cortical Labs — Crunchbase](https://www.crunchbase.com/organization/cortical-labs)
-- [FinalSpark — Crunchbase](https://www.crunchbase.com/organization/finalspark)
-- [FinalSpark Neuroplatform deep dive](https://thesmallbusinesscybersecurityguy.co.uk/blog/finalspark-neuroplatform-living-neurons-biocomputing-deep-dive-2025/)
-- [Biological Computing: The First Commercial Brain-on-a-Chip Arrives — Private Markets News](https://privatemarketsnews.substack.com/p/biological-computing-the-first-commercial)
-- [Biological Data Centers — Web And IT News](https://www.webanditnews.com/2026/03/15/biological-data-centers-startups-are-building-computers-powered-by-human-brain-cells/)
-- [DARPA O-CIRCUIT program — Data Center Dynamics](https://www.datacenterdynamics.com/en/news/darpa-o-circuit-program-aims-to-develop-unconventional-biological-processing-units-for-ai-training-and-inference-at-the-edge/)
+| Traction | YC S26 backing and public token-prediction/RL demonstrations ([Parasma](https://parasma.com), Jun-Jul 2026); founder’s pre-company `doom-neuron` repo had 250 stars ([GitHub](https://github.com/SeanCole02/doom-neuron), Jul 2026); one active job posting ([YC](https://www.ycombinator.com/companies/parasma/jobs/Vg7GVVl-founding-scientist), Jul 2026) |
+| Revenue Signal | Founder reported no product and no revenue on May 17, 2026 ([X post archived by Digg](https://digg.com/ai/zqpgicg9), May 2026); no public pricing found |
+| Founders | Sean Cole (Founder): MSc AI with distinction from Sussex, spiking-neural-network research, and Cortical Labs Doom implementation ([YC](https://www.ycombinator.com/companies/parasma); [LinkedIn](https://www.linkedin.com/in/sean-cole-8985a4207), Jul 2026) |
+| Competitors | Cortical Labs ($11M reported raised, revenue unknown, CL1 hardware/API) ([CB Insights](https://www.cbinsights.com/company/cortical-labs/financials), Jul 2026); TBC ($25M raised, revenue unknown, integrated biological-AI platform) ([DCD](https://www.datacenterdynamics.com/en/news/the-biological-computing-co-raises-25m-to-support-launch-of-worlds-first-biological-computing-platform/), Feb 2026); Intactis Bio ($0.25M announced, revenue unknown, automated BPUs) ([PR Newswire](https://www.prnewswire.com/news-releases/lab-grown-neurons-say-hello-world-and-perform-matrix-math-on-automated-platform-intactis-bio-corp-raises-250k-from-nucleus-fund-302724652.html), Mar 2026) |
+| Moat Signals | No public data found |
+| Risk Factors | Live-biological learning not independently isolated ([R&D World](https://www.rdworldonline.com/we-ran-the-doom-neuron-experiment-601-times/), Mar 2026), biological noise and non-stationarity ([YC](https://www.ycombinator.com/companies/parasma/jobs/Vg7GVVl-founding-scientist), Jul 2026), external CL1 dependency ([Tom’s Hardware](https://www.tomshardware.com/tech-industry/artificial-intelligence/200-000-living-human-neurons-on-a-microchip-demonstrated-playing-doom-cortical-labs-cl1-video-shows-the-gameplay-and-explains-how-the-neurons-learn), Mar 2026) |
+| Founder Reach | Sean Cole: Twitter approximately 3K ([TwStalker](https://www6.twstalker.com/vytalow), Jul 2026), LinkedIn 445 ([LinkedIn](https://www.linkedin.com/in/sean-cole-8985a4207), Jul 2026), GitHub 250 stars on top repo ([GitHub](https://github.com/SeanCole02/doom-neuron), Jul 2026) |
+| Distribution Signals | One YC job posting ([YC](https://www.ycombinator.com/companies/parasma/jobs/Vg7GVVl-founding-scientist), Jul 2026); founder X reach approximately 3K ([TwStalker](https://www6.twstalker.com/vytalow), Jul 2026) |
+| Emails | careers@parasma.com ([founder X profile via TwStalker](https://www6.twstalker.com/vytalow), Jul 2026) |

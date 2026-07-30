@@ -9,97 +9,78 @@
 | Batch | Summer 2026 |
 | Industry | B2B / B2B -> Finance and Accounting |
 | Team Size | 2 |
-| Location | London, United Kingdom |
-| Tags | B2B, Enterprise Software, AI |
-| YC Partner | Vivian Midha Shen |
-| Emails | hello@rex.inc (rex.inc website) |
+| Location | San Francisco, CA, USA |
+| Tags | B2B, Enterprise, Enterprise Software, AI |
+| YC Partner | Vivian Midha Shen ([Y Combinator](https://www.ycombinator.com/companies/rex-inc), Jul 2026) |
+| Emails | admin@rex.inc, legal@rex.inc ([Rex privacy policy](https://www.rex.inc/privacy-policy), May 2026; [Rex terms](https://www.rex.inc/terms-of-service)) |
 
 ## The Idea
 
-- **Problem:** Enterprise order-to-cash (invoicing, collections, exceptions) remains heavily manual at scale because work is buried in emails, customer portals, and handoffs — Rex states O2C is a "$60B outsourced function" because traditional automation fails on messy exceptions (YC page; rex.inc).
-- **Approach:** Deploys "a network of AI agents" that continuously triage inboxes, post to supplier portals, monitor payment cadence, and manage exceptions across ERPs (NetSuite, SAP, Dynamics, Workday, Oracle Fusion) with human-in-the-loop oversight (rex.inc product page).
-- **Differentiation:** Rules-based AR suites (HighRadius, BlackLine, Versapay) automate within deterministic workflows; Rex positions as an "AI-native service" replacing labor rather than software augmenting it, priced on outcomes rather than seats (rex.inc; YC page).
-- **Business Model:** "Outcome and SLA-based pricing — pay for outcomes only," no per-seat or per-invoice tier published (rex.inc pricing copy); [Inferred]: Implies enterprise contract billing tied to receivables managed or DSO targets, not headcount displaced.
-- **TAM/SAM:** Company cites "$60B outsourced function" for O2C (YC page, 2026, no third-party source given); broader BPO market reported at $250B–$435B in 2025 with AI-in-BPO subsegment forecast $2.6B (2023) → $49.6B (2033) at 34.3% CAGR (Mixflow/Outsource Accelerator, 2025).
-- **GTM / Distribution:** Direct enterprise sales to pre-IPO tech and Fortune 100 finance teams, with enterprise auth (WorkOS SSO/SCIM) implemented from day one to clear procurement (WorkOS case study, 2026); [Inferred]: founders' Sequence customer network (Cognition, Incident.io referenced as Sequence customers) likely seeds early pipeline.
+- **Problem:** Enterprise finance teams manage collections, invoice submissions, disputes, deductions, and cash application through email, procurement portals, spreadsheets, legacy systems, offshore teams, and BPO providers, leaving cash delayed when contextual exceptions require manual judgment ([YC launch](https://www.ycombinator.com/launches/S1S-rex-turn-enterprise-order-to-cash-into-an-autonomous-operation), Jul 2026).
+- **Approach:** Rex connects to ERP, CRM, billing, email, and procurement systems, converts existing practices into editable agent procedures, executes routine actions continuously, and routes policy exceptions for approval with supporting context ([YC launch](https://www.ycombinator.com/launches/S1S-rex-turn-enterprise-order-to-cash-into-an-autonomous-operation), Jul 2026).
+- **Differentiation:** Rex executes collections, portal work, cash application, and disputes as an autonomous or managed service, while HighRadius supplies a wider credit, treasury, record-to-report, and O2C platform and BPO providers supply headcount-based operations ([Rex comparison](https://www.rex.inc/resources/comparisons/highradius-alternatives), Mar 2026; [Rex website](https://www.rex.inc/)).
+- **Business Model:** Rex uses outcome- and SLA-based pricing and can be deployed as either a managed service or customer-operated platform, but public prices are not listed ([Rex website](https://www.rex.inc/); [YC launch](https://www.ycombinator.com/launches/S1S-rex-turn-enterprise-order-to-cash-into-an-autonomous-operation), Jul 2026).
+- **TAM/SAM:** Global order-to-cash BPO was $37.0 billion in 2025 with a projected 7.8% CAGR through 2033, while accounts-receivable automation was $4.8 billion in 2025 with a projected 13.2% CAGR for 2026–2033 ([Grand View Research—O2C BPO](https://www.grandviewresearch.com/horizon/statistics/business-process-outsourcing-market/finance-accounting/order-to-cash/global); [Grand View Research—AR automation](https://www.grandviewresearch.com/industry-analysis/accounts-receivable-automation-market-report)).
+- **GTM / Distribution:** Rex uses enterprise demo-led sales and participates in NVIDIA and Deloitte’s Adopt 100 program, which matches selected vendors with enterprise deployment opportunities ([Rex website](https://www.rex.inc/); [Rex Adopt 100 announcement](https://www.rex.inc/blog/nvidia-adopt-100-launch), Jun 2026).
 
 ## Defensibility
 
-- **Moat today:** Live deployments managing ">$500M in receivables from F100 companies" with cited 90%+ inbox auto-triage rate, 12-day DSO reduction, and 15 hrs/week saved per AR operator (rex.inc, YC page) — early proprietary workflow data from these accounts.
-- **Future moat:** [Inferred]: Cross-customer exception patterns and ERP/portal integration breadth could compound into a workflow data moat as agents encounter more counterparty edge cases, but unproven at 2-customer-class scale today.
-- **Market structure:** [Inferred]: Incumbents (HighRadius, BlackLine, Versapay) sell per-seat SaaS subscriptions; an "outcome-priced labor replacement" model cannibalizes their seat-based ACV, creating channel/pricing conflict — not an absolute structural barrier, but a real disincentive.
-- **Commoditization risk:** Multiple AI-BPO entrants in adjacent O2C/AP space (e.g., Qurrent processing "$1.5B in annual payments, 2.7M AI agents deployed" per TipRanks 2025); the agent-orchestration layer over LLMs is reproducible by well-funded peers.
+- **Moat today:** Rex reports that account-specific procedures, outcomes, human feedback, and cross-system history accumulate into an auditable institutional-memory layer, although no retention or proprietary-dataset metrics are public ([Rex company page](https://www.rex.inc/company)).
+- **Future moat:** [Inferred]: Repeated operation across customer-specific ERP, inbox, portal, and exception histories could improve procedure coverage and switching costs, but the company has not published cohort, accuracy, or retention evidence.
+- **Market structure:** No structural barrier identified at this stage because HighRadius launched more than 180 finance agents in 2025 and newer vendors already offer overlapping autonomous AR workflows ([HighRadius company overview](https://www.highradius.com/en-gb/about/company-overview/)).
+- **Commoditization risk:** Fazeshift and Monk already automate invoice-to-cash workflows with AI agents, while HighRadius can bundle overlapping functions into its existing enterprise finance suite ([Fazeshift](https://www.fazeshift.com/); [Monk](https://monk.com/); [HighRadius](https://www.highradius.com/en-gb/about/company-overview/)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - >$500M in receivables under management from F100 companies (YC page, 2026).
-  - Live with "pre-IPO tech companies" — specific logos not disclosed (YC page).
-  - Example dashboard on site shows 342 customers / 1,909 invoices / $18.4M receivables managed (rex.inc, 2026) — may be illustrative, not aggregate.
-  - #1 of 2,500 teams in Vercel AI Accelerator, selected by Guillermo Rauch (Vercel blog, "2026 Vercel AI Accelerator recap").
-  - Received Vercel Ventures investment (amount undisclosed) plus Vercel credits (Vercel blog, 2026).
-  - WorkOS published an enterprise-readiness case study on Rex (workos.com blog, 2026).
-  - Twitter: @rexdotinc — follower count not retrievable via search.
-  - LinkedIn: linkedin.com/company/rex-ai-inc/ — follower count not retrievable.
-  - Product Hunt launch: No public data found.
-  - SOC 2 Type II listed as "pending," GDPR-compliant with EU data residency (rex.inc).
-- **Competitors:**
-  - HighRadius ($484M raised, ~$300M ARR 2022, $3.1B valuation; TechCrunch 2021, Latka): incumbent rules-based O2C suite serving 1,300+ finance teams (HighRadius), per-seat SaaS rather than outcome-priced agentic.
-  - BlackLine (NASDAQ:BL, public, revenue unknown vs Rex): unified credit/collections/cash-app under AI-driven platform (G2, 2026) — enterprise-scale incumbent.
-  - Versapay (~$20.6M disclosed, $42M revenue 2024; PitchBook, Latka): B2B AR collaboration workspace, payment network of 1M+ companies (Versapay).
-  - Tesorio ($27–34M raised, $11M ARR 2024; CB Insights, Latka): predictive AI for AR + cash flow forecasting.
-  - Qurrent (revenue unknown; TipRanks 2025): adjacent AI-BPO platform automating P2P/O2C/close/FP&A — closest direct architectural analog.
-- **Why now:** [Inferred]: LLM/agent reliability crossing the threshold for unstructured enterprise workflows in 2024–2025 (long context, tool use, browser agents) plus Sequence's Dec 2025 $20M Series A around AI revenue ops (TechCrunch/Axios, Dec 2025) signaling investor appetite for AI-native finance ops.
+  - More than $500 million in receivables managed for pre-IPO technology companies collecting from Fortune 100 customers ([Y Combinator](https://www.ycombinator.com/companies/rex-inc), Jul 2026).
+  - Customer testimonial: Synthesia went live in under three weeks, completed 22,000 autonomous actions in four months, and used Rex to retrieve purchase orders worth more than $40 million ([Rex Synthesia case study](https://www.rex.inc/customers/synthesia), Jul 2026).
+  - First place among 2,500 Vercel AI Accelerator applicants ([Rex announcement](https://www.rex.inc/blog/rex-wins-vercel-ai-accelerator), Apr 2026).
+  - Selected for NVIDIA and Deloitte’s Adopt 100 Launch initiative ([Rex announcement](https://www.rex.inc/blog/nvidia-adopt-100-launch), Jun 2026).
+  - 532 LinkedIn followers ([LinkedIn](https://www.linkedin.com/company/rex-ai-inc), Jul 2026).
+  - Product Hunt day rank #18, 103 points, and 96 followers ([Product Hunt](https://www.producthunt.com/products/rex-7), Jul 2026).
+  - Zero jobs posted on YC’s jobs platform ([Y Combinator Jobs](https://www.ycombinator.com/companies/rex-inc/jobs), Jul 2026).
+- **Competitors (minimum 3, up to 5):**
+  - Fazeshift ($22M raised, revenue unknown): covers billing, contract review, collections, disputes, and cash application through specialized AR agents, versus Rex’s stated emphasis on enterprise portals, inboxes, collections, and managed execution ([Fazeshift Series A](https://www.fazeshift.com/post/announcing-our-series-a-22m-to-build-the-future-of-accounts-receivable), May 2026).
+  - Monk ($29M raised, revenue unknown): offers invoice-to-cash automation plus AI voice collections, while Rex has not publicly listed voice collection capabilities ([Monk Series A](https://www.prnewswire.com/news-releases/monk-raises-25m-series-a-to-automate-accounts-receivable-with-ai-302748872.html), Apr 2026; [Monk Voice Collections](https://www.prnewswire.com/news-releases/monk-launches-voice-collections-bringing-ai-phone-calls-and-callbacks-to-accounts-receivable-302833768.html), Jul 2026).
+  - HighRadius ($475M raised, revenue unknown): provides credit, O2C, treasury, and record-to-report products, versus Rex’s narrower execution layer for order-to-cash operations ([HighRadius](https://www.highradius.com/en-gb/about/company-overview/)).
+- **Why now:** [Inferred]: The 2025–2026 catalyst is the transition from rule-based automation to agents capable of reading unstructured context and taking actions across email, ERP, CRM, and portals, reflected by Rex’s deployment and HighRadius’s launch of more than 180 finance agents ([Rex company page](https://www.rex.inc/company); [HighRadius](https://www.highradius.com/en-gb/about/company-overview/)).
 
 ## Founders & Team
 
-- **Merlin Kafka (Co-founder, CEO):**
-  - Background: 4 years as CPO/Head of Product at Sequence (a16z-backed, raised total $38M including Dec 2025 $20M Series A; TechCrunch, Axios); prior role building AI security at Tessian (Sequoia-backed, acquired 2023) (LinkedIn via search snippet).
-  - Twitter/X: handle not found in search results — "No public account found."
-  - LinkedIn: "Co-founder/CEO @ Rex | AI operations" (uk.linkedin.com/in/merlinkafka).
-  - GitHub: No public repos found.
-- **Lewis Blackwood (Co-founder, CTO):**
-  - Background: BA Economics, University of Cambridge (2011–2014); Operations Engineer at GoCardless (2015); Co-founder/CTO at Personably (2016); Engineering Lead at Sequence (4 years) (LinkedIn, Crunchbase, TheOrg via search snippet).
-  - Twitter/X: count not retrievable.
-  - LinkedIn: linkedin.com/in/lewisblackwood (headline "Rex.inc").
-  - GitHub: @lewisblackwood — top repo / star counts not retrievable from search.
-- **Co-founder relationship:** Both spent ~4 years building Sequence together (Merlin as Head of Product/CPO, Lewis as Engineering Lead) from zero to Series A (YC description; LinkedIn/TheOrg via search snippet).
-- **Founder-market fit:** Domain match — founders built and scaled a B2B finance-ops platform (Sequence, a16z-backed) and state they "saw firsthand that at-scale, O2C still runs on manual labour" (YC page); backed by Vercel Ventures and selected by Guillermo Rauch (Vercel blog, 2026).
+- **Merlin Kafka (Co-founder & CEO):**
+  - Background: Studied industrial engineering at Cambridge, served as Sequence’s CPO for four years as the prior company reached millions in ARR and hundreds of customers, and previously led product at Tessian before its 2023 Proofpoint acquisition ([Y Combinator](https://www.ycombinator.com/companies/rex-inc); [Rex company page](https://www.rex.inc/company)).
+  - Twitter/X: @merlinkafka; count not retrievable ([personal website](https://merlinkafka.com/)).
+  - LinkedIn: “Rex.inc,” with 5K followers and 500+ connections ([LinkedIn](https://www.linkedin.com/in/merlinkafka), Jul 2026).
+  - GitHub: No public account found.
+- **Lewis Blackwood (Co-founder & CTO):**
+  - Background: Studied economics at Cambridge, was an early GoCardless engineer, co-founded Personably, and later led engineering at Sequence as an early hire ([Rex company page](https://www.rex.inc/company)).
+  - Twitter/X: @lewisblackwood, 48 followers ([X](https://x.com/lewisblackwood), Jul 2026).
+  - LinkedIn: “Rex.inc,” with 1K followers and 500+ connections ([LinkedIn](https://www.linkedin.com/in/lewisblackwood), Jul 2026).
+  - GitHub: @lewisblackwood, with zero public repositories ([GitHub](https://github.com/lewisblackwood)).
+- **Co-founder relationship:** Kafka and Blackwood worked together for four years at Sequence and both attended the University of Cambridge ([Rex company page](https://www.rex.inc/company)).
+- **Founder-market fit:** The founders previously built Sequence’s billing and finance-operations platform across billions in processed receivables, more than 50 ERP integrations, and hundreds of finance teams before founding Rex ([Rex company page](https://www.rex.inc/company)).
 
 ## Key Risks
 
-- **Incumbent + AI-BPO competitive density:** HighRadius ($484M raised, $3.1B valuation), BlackLine (public), Versapay, Tesorio, and AI-native peers like Qurrent target overlapping O2C buyers (TechCrunch 2021; TipRanks 2025); no disclosed structural moat beyond execution speed in current Rex public materials.
-- **Conflict with Sequence (founders' prior company):** Sequence raised $20M Series A in Dec 2025 for "AI agents to automate revenue operations…billing and invoice automation" (Axios/TechCrunch Dec 2025) — adjacent product surface and shared investor (a16z) ecosystem create relationship/non-compete exposure not addressed publicly.
-- **Compliance gating for enterprise close:** SOC 2 Type II is listed as "pending" on rex.inc; F100 procurement typically requires completed Type II, limiting expansion velocity until certification lands (rex.inc security page).
-- **Outcome-based pricing execution risk:** "Pay for outcomes only" model (rex.inc) ties revenue to measurable SLAs across heterogeneous ERP/portal environments; agent failure modes on long-tail exceptions could compress unit economics — no public retention or gross-margin data found.
-- **Disclosure verifiability:** ">$500M receivables managed from F100 companies" (YC page) is self-reported without named logos or third-party verification; the dashboard "342 customers / $18.4M" on the homepage may be illustrative rather than actual aggregate (rex.inc).
+- **Autonomous-action error:** Rex agents send customer communications and update financial systems, so an incorrect action could affect collections or ledger records; Rex mitigates this through supervised procedures, approval thresholds, audit logs, and exception routing ([YC launch](https://www.ycombinator.com/launches/S1S-rex-turn-enterprise-order-to-cash-into-an-autonomous-operation), Jul 2026).
+- **Portal and integration reliability:** Synthesia’s workflow spans 30–40 customer portals with distinct validation rules and failure modes, requiring Rex to maintain execution across changing external systems; the product routes unresolved exceptions to humans ([Synthesia case study](https://www.rex.inc/customers/synthesia)).
+- **Compliance-status inconsistency:** Rex’s privacy policy says it is pursuing SOC 2 Type II certification, while its homepage labels SOC 2 Type II as “monitoring,” creating a diligence item for enterprise procurement ([Rex privacy policy](https://www.rex.inc/privacy-policy), May 2026; [Rex website](https://www.rex.inc/)).
+- **Competitive substitution:** Fazeshift and Monk raised $22 million and $29 million respectively for overlapping AI-native AR products, while HighRadius has $475 million in funding and an existing enterprise suite ([Fazeshift](https://www.fazeshift.com/post/announcing-our-series-a-22m-to-build-the-future-of-accounts-receivable); [Monk](https://www.prnewswire.com/news-releases/monk-raises-25m-series-a-to-automate-accounts-receivable-with-ai-302748872.html); [HighRadius](https://www.highradius.com/en-gb/about/company-overview/)).
+- **Name ambiguity:** “Rex” is also used by unrelated companies, including a formerly venture-backed real-estate technology business, increasing search-result disambiguation requirements; this company identifies itself through rex.inc and “Rex (YC S26)” ([Inman](https://www.inman.com/2019/01/22/tech-startup-rex-raises-45m-plans-expansion-into-new-markets/), Jan 2019; [Y Combinator](https://www.ycombinator.com/companies/rex-inc)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Company-cited "$60B outsourced O2C function" (YC page, 2026, no analyst source); broader AI-in-BPO $2.6B (2023) → $49.6B (2033), 34.3% CAGR (Mixflow, 2025) |
-| SAM | No public data found |
-| Traction | >$500M receivables managed from F100 (YC, 2026); #1/2,500 Vercel AI Accelerator (Vercel blog, 2026); 12-day DSO reduction, 15 hrs/wk saved/operator, 90%+ auto-triage (rex.inc, 2026); Vercel Ventures investment (Vercel blog, 2026); WorkOS case study (workos.com, 2026) |
-| Revenue Signal | "Outcome and SLA-based pricing — Pay for outcomes only" (rex.inc pricing); no dollar figures disclosed |
-| Founders | Merlin Kafka (CEO): ex-CPO Sequence (4y, a16z-backed), ex-Tessian. Lewis Blackwood (CTO): ex-Engineering Lead Sequence (4y), ex-Personably co-founder/CTO, ex-GoCardless, Cambridge Economics |
-| Competitors | HighRadius ($484M raised, ~$300M ARR 2022, $3.1B valuation, rules-based incumbent); BlackLine (public, AI-driven unified I2C); Versapay ($20.6M raised, $42M revenue 2024, AR collaboration); Tesorio ($27–34M raised, $11M ARR 2024, predictive AR); Qurrent (revenue unknown, AI-BPO across P2P/O2C/FP&A) |
-| Moat Signals | Live F100 deployments + >$500M AR under management (YC, 2026); enterprise auth stack (WorkOS SSO/SCIM/Directory Sync) live (workos.com, 2026); SOC 2 Type II pending, GDPR/EU residency (rex.inc) |
-| Risk Factors | Adjacency/conflict with founders' prior company Sequence, incumbent + AI-BPO competitive density, SOC 2 Type II pending |
-| Founder Reach | Merlin Kafka: Twitter not found, LinkedIn uk.linkedin.com/in/merlinkafka (count not retrievable), GitHub not found. Lewis Blackwood: Twitter not found, LinkedIn linkedin.com/in/lewisblackwood (count not retrievable), GitHub @lewisblackwood (stars not retrievable) |
-| Distribution Signals | Vercel AI Accelerator #1/2,500 (Vercel blog, 2026); Vercel Ventures investment (Vercel blog, 2026); WorkOS published case study (workos.com, 2026); Product Hunt — no public data found |
-| Emails | hello@rex.inc (rex.inc) |
-
-Sources:
-- [Rex YC page](https://www.ycombinator.com/companies/rex-inc)
-- [Rex website](https://www.rex.inc/)
-- [Vercel AI Accelerator 2026 recap](https://vercel.com/blog/2026-vercel-ai-accelerator-recap)
-- [WorkOS case study on Rex](https://workos.com/blog/how-rex-went-from-zero-to-enterprise-ready-in-weeks)
-- [Sequence $20M Series A — TechCrunch](https://techcrunch.com/2022/09/19/sequence-orders-up-19m-led-by-a16z-for-a-new-approach-to-b2b-fintech/)
-- [Sequence Series A — Axios](https://www.axios.com/pro/fintech-deals/2025/12/16/sequence-20-million-revenue-ops)
-- [Merlin Kafka LinkedIn](https://uk.linkedin.com/in/merlinkafka)
-- [Lewis Blackwood LinkedIn](https://www.linkedin.com/in/lewisblackwood/)
-- [HighRadius Series C — TechCrunch](https://techcrunch.com/2021/03/30/highradius-raises-300m-triples-valuation-to-3-1b-for-ai-powered-fintech-software/)
-- [Tesorio revenue — Latka](https://getlatka.com/companies/tesorio)
-- [Versapay financials — Latka](https://getlatka.com/companies/versapay)
-- [Qurrent AI BPO — TipRanks](https://www.tipranks.com/news/private-companies/qurrent-launches-ai-bpo-platform-to-automate-mission-critical-finance-operations-for-cfos)
+| TAM | $37.0B global order-to-cash BPO market in 2025, 7.8% projected CAGR through 2033 ([Grand View Research](https://www.grandviewresearch.com/horizon/statistics/business-process-outsourcing-market/finance-accounting/order-to-cash/global)) |
+| SAM | $4.8B global AR-automation market in 2025, 13.2% projected CAGR for 2026–2033 ([Grand View Research](https://www.grandviewresearch.com/industry-analysis/accounts-receivable-automation-market-report)) |
+| Traction | More than $500M in receivables managed ([Y Combinator](https://www.ycombinator.com/companies/rex-inc), Jul 2026); Synthesia completed 22,000 autonomous actions in four months and retrieved more than $40M in purchase orders ([Rex case study](https://www.rex.inc/customers/synthesia), Jul 2026) |
+| Revenue Signal | Outcome- and SLA-based pricing; public prices and company revenue not disclosed ([Rex website](https://www.rex.inc/)) |
+| Founders | Merlin Kafka (CEO): Cambridge, former Sequence CPO and Tessian product lead; Lewis Blackwood (CTO): Cambridge, early GoCardless engineer, Personably co-founder, and former Sequence engineering lead ([Rex company page](https://www.rex.inc/company)) |
+| Competitors | Fazeshift ($22M raised, revenue unknown, specialized agents across billing-to-cash) ([Fazeshift](https://www.fazeshift.com/post/announcing-our-series-a-22m-to-build-the-future-of-accounts-receivable)); Monk ($29M raised, revenue unknown, voice-enabled invoice-to-cash automation) ([Monk](https://www.prnewswire.com/news-releases/monk-raises-25m-series-a-to-automate-accounts-receivable-with-ai-302748872.html)); HighRadius ($475M raised, revenue unknown, wider CFO platform) ([HighRadius](https://www.highradius.com/en-gb/about/company-overview/)) |
+| Moat Signals | Customer-specific procedures, accumulated decision context, cross-system history, and auditable action records ([Rex company page](https://www.rex.inc/company)) |
+| Risk Factors | Autonomous financial-action errors ([YC launch](https://www.ycombinator.com/launches/S1S-rex-turn-enterprise-order-to-cash-into-an-autonomous-operation)); external-portal reliability ([Rex case study](https://www.rex.inc/customers/synthesia)); SOC 2 status inconsistency ([Rex privacy policy](https://www.rex.inc/privacy-policy)) |
+| Founder Reach | Merlin Kafka: X count not retrievable, LinkedIn 5K+, no public GitHub found ([LinkedIn](https://www.linkedin.com/in/merlinkafka)); Lewis Blackwood: X 48, LinkedIn 1K+, GitHub zero public repos ([X](https://x.com/lewisblackwood); [LinkedIn](https://www.linkedin.com/in/lewisblackwood); [GitHub](https://github.com/lewisblackwood)) |
+| Distribution Signals | Vercel AI Accelerator #1 of 2,500 applicants ([Rex](https://www.rex.inc/blog/rex-wins-vercel-ai-accelerator), Apr 2026); Product Hunt #18 with 103 points and 96 followers ([Product Hunt](https://www.producthunt.com/products/rex-7), Jul 2026); LinkedIn 532 followers ([LinkedIn](https://www.linkedin.com/company/rex-ai-inc), Jul 2026) |
+| Emails | admin@rex.inc, legal@rex.inc ([Rex privacy policy](https://www.rex.inc/privacy-policy), May 2026; [Rex terms](https://www.rex.inc/terms-of-service)) |

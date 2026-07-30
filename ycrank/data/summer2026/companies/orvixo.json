@@ -1,0 +1,82 @@
+{
+  "slug": "orvixo",
+  "name": "Orvixo",
+  "oneLiner": "AI advanced planning and optimisation for manufacturers.",
+  "metadata": {
+    "website": "https://www.orvixo.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/orvixo",
+    "batch": "Summer 2026",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+    "team_size": "2",
+    "location": "London, England, United Kingdom",
+    "tags": "Artificial Intelligence, Robotics, Manufacturing, Operations",
+    "yc_partner": "Jon Xu ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/orvixo))",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Robotics",
+    "Manufacturing",
+    "Operations"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:38:54.660Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 43,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 49,
+    "EG": 48,
+    "NR": 43,
+    "PG": 49,
+    "PT": 42,
+    "SL": 38,
+    "VK": 43
+  },
+  "consolidatedAvg": 44.57,
+  "consolidatedRank": 146,
+  "traction": {
+    "tractionRank": 149,
+    "tractionScore": 10,
+    "tractionReason": "No disclosed commercial traction"
+  },
+  "paths": {
+    "memo": "summer2026/memos/orvixo.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/orvixo.md",
+      "elad-gil": "summer2026/evals/elad-gil/orvixo.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/orvixo.md",
+      "paul-graham": "summer2026/evals/paul-graham/orvixo.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/orvixo.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/orvixo.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/orvixo.md"
+    }
+  }
+}

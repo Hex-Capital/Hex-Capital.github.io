@@ -10,8 +10,8 @@
     "team_size": "1",
     "location": "San Francisco, CA, USA",
     "tags": "Machine Learning, Neurotechnology, AI",
-    "yc_partner": "Tyler Bosmeny (YC company page)",
-    "emails": "No public data found"
+    "yc_partner": "Tyler Bosmeny",
+    "emails": "careers@parasma.com"
   },
   "tags": [
     "Machine Learning",
@@ -19,52 +19,52 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-06-29T06:09:47.941Z",
+  "memoGeneratedAt": "2026-07-30T17:59:02.711Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 73,
+      "score": 84,
       "tier": "Invest"
     },
     "elad-gil": {
-      "score": 37,
+      "score": 44,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "paul-graham": {
       "score": 60,
       "tier": "Neutral"
     },
+    "paul-graham": {
+      "score": 71,
+      "tier": "Invest"
+    },
     "peter-thiel": {
-      "score": 27,
-      "tier": "Pass"
+      "score": 56,
+      "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 59,
+      "score": 60,
       "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 55,
-      "tier": "Neutral"
+      "score": 71,
+      "tier": "Invest"
     }
   },
   "consolidatedScores": {
-    "CB": 73,
-    "EG": 37,
-    "NR": 43,
-    "PG": 60,
-    "PT": 27,
-    "SL": 59,
-    "VK": 55
+    "CB": 84,
+    "EG": 44,
+    "NR": 60,
+    "PG": 71,
+    "PT": 56,
+    "SL": 60,
+    "VK": 71
   },
-  "consolidatedAvg": 50.57,
-  "consolidatedRank": 5,
+  "consolidatedAvg": 63.71,
+  "consolidatedRank": 7,
   "traction": {
-    "tractionRank": 54,
-    "tractionScore": 11,
-    "tractionReason": "Founder press on Doom-on-neurons, no company traction"
+    "tractionRank": 145,
+    "tractionScore": 15,
+    "tractionReason": "Founder reported no product and no revenue"
   },
   "paths": {
     "memo": "summer2026/memos/parasma.md",

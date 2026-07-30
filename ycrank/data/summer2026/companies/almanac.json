@@ -1,0 +1,79 @@
+{
+  "slug": "almanac",
+  "name": "Almanac",
+  "oneLiner": "Self updating wiki for your coding agents",
+  "metadata": {
+    "website": "https://codealmanac.com",
+    "yc_page": "https://www.ycombinator.com/companies/almanac",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B",
+    "team_size": "0",
+    "location": "San Francisco, CA, USA",
+    "tags": "Generative AI",
+    "yc_partner": "Harshita Arora ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/almanac))",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Generative AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:38:45.538Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 66,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 68,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 39,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 37,
+    "EG": 58,
+    "NR": 66,
+    "PG": 68,
+    "PT": 43,
+    "SL": 41,
+    "VK": 39
+  },
+  "consolidatedAvg": 50.29,
+  "consolidatedRank": 112,
+  "traction": {
+    "tractionRank": 91,
+    "tractionScore": 41,
+    "tractionReason": "743 GitHub stars and five displayed teams"
+  },
+  "paths": {
+    "memo": "summer2026/memos/almanac.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/almanac.md",
+      "elad-gil": "summer2026/evals/elad-gil/almanac.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/almanac.md",
+      "paul-graham": "summer2026/evals/paul-graham/almanac.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/almanac.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/almanac.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/almanac.md"
+    }
+  }
+}

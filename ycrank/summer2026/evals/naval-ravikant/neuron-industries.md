@@ -1,0 +1,30 @@
+﻿# Neuron Industries -- Naval Ravikant Evaluation
+
+Dennis Ren built industrial controls at Tesla and manufacturing hardware at Freeform, while Neuron Industries has no marketplace or user-added network. That pairing is Neuron Industries’s signature: unusually strong specific knowledge trapped inside a low-compounding business architecture. The founders know what to build. The open question is whether each deployment produces leverage or merely another deployment.
+
+**Stack Overflow** is the high rung for specific knowledge: developers building for developers, with the founders’ public artifacts becoming distribution. Neuron Industries shares the domain-native mechanism through Ren’s controls work and Kenneth Rhee’s experience across Amazon EBS, marketplace systems, and regulated software. Neuron Industries diverges because Ren has no public repositories and Rhee’s 15 repositories have no retrievable adoption signal. The knowledge is specific; the leverage on that knowledge is not yet public. I score the founders near Replit on domain depth, but below Replit on proof that outsiders voluntarily build with their work.
+
+**Perplexity** is the low rung on user-added compounding: each user receives value without automatically making the next user’s product better, and only exceptional founder knowledge and category timing overcame that weakness. Neuron Industries sits at or below that rung. A Cortex sold into chemical processing does not improve a Cortex sold into wastewater treatment unless Neuron Industries turns validated control templates and machine histories into shared infrastructure. The dossier labels that flywheel inferred, with no proprietary dataset or usage scale. Perplexity had permissionless software distribution; Neuron Industries currently has neither the network nor the exception.
+
+Cortex Mini costs $2,950 and Cortex costs $6,450, which makes Neuron Industries a code-enabled hardware seller rather than a permissionless-code business. Over 18 months, every fieldbus integration, safety review, and factory deployment can consume scarce founder hours; Siemens and Rockwell already control the installed channel. Synapse and the browser IDE could eventually replicate at zero marginal cost, but Neuron Industries includes the software without runtime-license fees and targets equipment specified for new factories. The red flag is architectural: code creates the product, while capital, certification, and integration distribute it. Neuron Industries resembles the regulated side of Anchorage Digital without Anchorage’s permission-as-moat.
+
+The $226.8 billion industrial-automation market gives Neuron Industries real pivot-room across drone production, chemicals, mineral refining, fuel production, wastewater, and small modular reactors. The counterfactual that would lower this dimension is a discovery that Cortex’s 0.5-microsecond P99.9 jitter target and fieldbus stack only work economically in one narrow machine category. The counterfactual that would raise Neuron Industries to the full score is evidence that the same controller and Synapse workflow deploy across several verticals without bespoke engineering. Four pilot environments already make Neuron Industries broader than a vertical SaaS wedge, but pilots are not yet proof of portable deployment.
+
+**Twitter’s** founder test was strengthened by Ev Williams having shipped and exited Blogger cleanly; competence and prior conduct were both legible. Neuron Industries has a smaller but positive parallel in Rhee’s bootstrapped WorkIPO exit and Ren’s progression through Tesla, Amazon Go, Apple Vision Pro, and Freeform. Neuron Industries names Ren as CEO, avoiding the unresolved-authority red flag, and nothing suggests contested exits or integrity problems. No public co-founder history or evidence of how Ren and Rhee behave under industrial-safety pressure keeps the 10-year-partner score below the top rung. Intelligence and energy are visible. Integrity remains appropriately unadvertised and largely untested.
+
+Two live hard-technology pilots anchor my forecast: by July 2029, Neuron Industries will generate $3 million to $8 million in annual revenue from greenfield hard-tech factories, but most deployments will still require direct integration and Neuron Industries will not yet exhibit a meaningful network effect. Neuron Industries can win customers because the founders understand the machinery and the incumbent stack is old. Specific knowledge creates the wedge; absent permissionless distribution limits the slope. A good industrial business is not automatically an asymmetric angel business.
+
+Cortex’s stated 0.5-microsecond jitter target is the strongest bull case against that forecast: Neuron Industries could become the operating system for AI-native factories, with Synapse-generated tests and reusable control templates turning every installation into training data for the next. That would echo the Anchorage Digital exception—certification and physical deployment becoming a moat rather than deadweight—and the four pilot environments suggest cross-vertical portability. Neuron Industries has not disclosed a proprietary dataset, patent barrier, reusable-template adoption, or recurring software revenue, while SIL 1 remains only a target and software is bundled free with hardware. The bull case wins if Neuron Industries reaches 25 production sites across at least three verticals with a majority of new deployments reusing customer-independent templates; that verifiable condition would flip my verdict to Invest.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Permissionless Leverage Architecture (Code or Media as Primary Distribution) | 9/28 |
+| Marketplace or Network with Compounding User-Added Value | 4/22 |
+| Founder Has Non-Trainable Specific Knowledge in the Domain | 18/20 |
+| Big Market with Room for Multiple Pivots Without Refinancing | 14/16 |
+| Founder Trio (Intelligence + Energy + Integrity) Reads as a 10-Year Partner | 9/14 |
+| **Total** | **54/100** |
+
+**Total Score: 54/100** (Neutral)

@@ -10,59 +10,59 @@
     "team_size": "2",
     "location": "Seattle, WA, USA",
     "tags": "AI",
-    "yc_partner": "Brad Flora (YC company page)",
-    "emails": "hello@openrelay.inc, sales@openrelay.inc (openrelay.inc/contact)"
+    "yc_partner": "Brad Flora",
+    "emails": "hello@openrelay.inc, sales@openrelay.inc"
   },
   "tags": [
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-09T16:03:28.285Z",
+  "memoGeneratedAt": "2026-07-30T17:29:56.070Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 47,
+      "score": 59,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 32,
-      "tier": "Pass"
+      "score": 53,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 57,
-      "tier": "Neutral"
+      "score": 70,
+      "tier": "Invest"
     },
     "paul-graham": {
-      "score": 56,
-      "tier": "Neutral"
+      "score": 68,
+      "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 36,
-      "tier": "Pass"
+      "score": 47,
+      "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 24,
+      "score": 42,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 29,
+      "score": 41,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 47,
-    "EG": 32,
-    "NR": 57,
-    "PG": 56,
-    "PT": 36,
-    "SL": 24,
-    "VK": 29
+    "CB": 59,
+    "EG": 53,
+    "NR": 70,
+    "PG": 68,
+    "PT": 47,
+    "SL": 42,
+    "VK": 41
   },
-  "consolidatedAvg": 40.14,
-  "consolidatedRank": 28,
+  "consolidatedAvg": 54.29,
+  "consolidatedRank": 74,
   "traction": {
-    "tractionRank": 46,
-    "tractionScore": 15,
-    "tractionReason": "Website live with pricing, no user data"
+    "tractionRank": 97,
+    "tractionScore": 38,
+    "tractionReason": "Production platform and Stripe billing live"
   },
   "paths": {
     "memo": "summer2026/memos/openrelay.md",

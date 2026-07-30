@@ -1,17 +1,17 @@
 {
   "slug": "coasty",
   "name": "Coasty",
-  "oneLiner": "Building the future of knowledge work, RPA and SOPs using computer use",
+  "oneLiner": "The computer-use agent that doesn't break on real software. We will?",
   "metadata": {
     "website": "http://coasty.ai/",
     "yc_page": "https://www.ycombinator.com/companies/coasty",
-    "batch": "Summer 2026 (YC company page)",
+    "batch": "Summer 2026",
     "industry": "B2B / B2B",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "AIOps, Developer Tools, Workflow Automation",
-    "yc_partner": "Brad Flora (YC company page)",
-    "emails": "No public data found"
+    "yc_partner": "Brad Flora ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/coasty))",
+    "emails": "prateekjannu@gmail.com ([Prateek Jannu profile, Jul 2026](https://www.prateekjannu.dev/))"
   },
   "tags": [
     "AIOps",
@@ -19,52 +19,52 @@
     "Workflow Automation"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-06-29T06:03:12.772Z",
+  "memoGeneratedAt": "2026-07-30T17:25:47.408Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 39,
-      "tier": "Pass"
+      "score": 49,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 43,
-      "tier": "Pass"
+      "score": 70,
+      "tier": "Invest"
     },
     "naval-ravikant": {
-      "score": 53,
+      "score": 63,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 65,
+      "score": 73,
       "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 28,
-      "tier": "Pass"
+      "score": 54,
+      "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 28,
+      "score": 44,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 32,
-      "tier": "Pass"
+      "score": 61,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 39,
-    "EG": 43,
-    "NR": 53,
-    "PG": 65,
-    "PT": 28,
-    "SL": 28,
-    "VK": 32
+    "CB": 49,
+    "EG": 70,
+    "NR": 63,
+    "PG": 73,
+    "PT": 54,
+    "SL": 44,
+    "VK": 61
   },
-  "consolidatedAvg": 41.14,
-  "consolidatedRank": 22,
+  "consolidatedAvg": 59.14,
+  "consolidatedRank": 31,
   "traction": {
-    "tractionRank": 17,
-    "tractionScore": 44,
-    "tractionReason": "#1 OSWorld benchmark, pricing live, PH launched"
+    "tractionRank": 7,
+    "tractionScore": 81,
+    "tractionReason": "Thousands of active users and paying customers"
   },
   "paths": {
     "memo": "summer2026/memos/coasty.md",

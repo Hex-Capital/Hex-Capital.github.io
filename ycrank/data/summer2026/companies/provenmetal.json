@@ -11,7 +11,7 @@
     "location": "San Francisco, CA, USA",
     "tags": "Hardware, Manufacturing, Electronics",
     "yc_partner": "Vivian Midha Shen",
-    "emails": "johnny@provenmetal.com (company website, Jul 2026)"
+    "emails": "founders@provenmetal.com"
   },
   "tags": [
     "Hardware",
@@ -19,14 +19,63 @@
     "Electronics"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-12T21:52:20.125Z",
-  "evalScores": {},
-  "consolidatedScores": {},
-  "consolidatedAvg": null,
-  "consolidatedRank": null,
-  "traction": null,
+  "memoGeneratedAt": "2026-07-30T17:33:27.590Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 71,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 68,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 46,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 71,
+    "EG": 56,
+    "NR": 50,
+    "PG": 68,
+    "PT": 51,
+    "SL": 52,
+    "VK": 46
+  },
+  "consolidatedAvg": 56.29,
+  "consolidatedRank": 53,
+  "traction": {
+    "tractionRank": 82,
+    "tractionScore": 43,
+    "tractionReason": "Five signed LOIs; ordering now open"
+  },
   "paths": {
     "memo": "summer2026/memos/provenmetal.md",
-    "evals": {}
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/provenmetal.md",
+      "elad-gil": "summer2026/evals/elad-gil/provenmetal.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/provenmetal.md",
+      "paul-graham": "summer2026/evals/paul-graham/provenmetal.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/provenmetal.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/provenmetal.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/provenmetal.md"
+    }
   }
 }

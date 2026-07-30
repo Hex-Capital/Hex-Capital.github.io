@@ -1,17 +1,17 @@
 {
   "slug": "alkera-ai",
   "name": "Alkera AI",
-  "oneLiner": "Data engineering and data science agents that are reliable and safe",
+  "oneLiner": "Reliable and safe data engineering and data science agents",
   "metadata": {
     "website": "https://alkera.ai",
     "yc_page": "https://www.ycombinator.com/companies/alkera-ai",
     "batch": "Summer 2026",
     "industry": "B2B / B2B -> Engineering, Product and Design",
-    "team_size": "4",
+    "team_size": "3",
     "location": "San Francisco, CA, USA",
     "tags": "Artificial Intelligence, Developer Tools, Data Science, Data Engineering, Enterprise Software",
-    "yc_partner": "Ankit Gupta (YC company page)",
-    "emails": "contact@alkera.ai (alkera.ai website), andrew@alkera.ai (andrewtrandev.com)"
+    "yc_partner": "Ankit Gupta",
+    "emails": "contact@alkera.ai"
   },
   "tags": [
     "Artificial Intelligence",
@@ -21,14 +21,63 @@
     "Enterprise Software"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-12T21:51:51.148Z",
-  "evalScores": {},
-  "consolidatedScores": {},
-  "consolidatedAvg": null,
-  "consolidatedRank": null,
-  "traction": null,
+  "memoGeneratedAt": "2026-07-30T17:42:03.586Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 63,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 64,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 67,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 42,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 47,
+    "EG": 63,
+    "NR": 64,
+    "PG": 67,
+    "PT": 37,
+    "SL": 31,
+    "VK": 42
+  },
+  "consolidatedAvg": 50.14,
+  "consolidatedRank": 113,
+  "traction": {
+    "tractionRank": 121,
+    "tractionScore": 30,
+    "tractionReason": "Benchmark leader; no customer traction disclosed"
+  },
   "paths": {
     "memo": "summer2026/memos/alkera-ai.md",
-    "evals": {}
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/alkera-ai.md",
+      "elad-gil": "summer2026/evals/elad-gil/alkera-ai.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/alkera-ai.md",
+      "paul-graham": "summer2026/evals/paul-graham/alkera-ai.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/alkera-ai.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/alkera-ai.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/alkera-ai.md"
+    }
   }
 }

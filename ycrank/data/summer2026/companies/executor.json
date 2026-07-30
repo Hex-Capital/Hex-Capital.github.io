@@ -1,0 +1,81 @@
+{
+  "slug": "executor",
+  "name": "Executor",
+  "oneLiner": "The open source integration management layer for AI.",
+  "metadata": {
+    "website": "https://executor.sh",
+    "yc_page": "https://www.ycombinator.com/companies/executor",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "1",
+    "location": "San Francisco, CA, USA",
+    "tags": "AIOps, Artificial Intelligence, SaaS",
+    "yc_partner": "Not listed",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "AIOps",
+    "Artificial Intelligence",
+    "SaaS"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:34:54.669Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 69,
+      "tier": "Invest"
+    },
+    "naval-ravikant": {
+      "score": 73,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 72,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 39,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 59,
+    "EG": 69,
+    "NR": 73,
+    "PG": 72,
+    "PT": 41,
+    "SL": 52,
+    "VK": 39
+  },
+  "consolidatedAvg": 57.86,
+  "consolidatedRank": 41,
+  "traction": {
+    "tractionRank": 37,
+    "tractionScore": 56,
+    "tractionReason": "Thousands of users and approximately 2,800 GitHub stars"
+  },
+  "paths": {
+    "memo": "summer2026/memos/executor.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/executor.md",
+      "elad-gil": "summer2026/evals/elad-gil/executor.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/executor.md",
+      "paul-graham": "summer2026/evals/paul-graham/executor.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/executor.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/executor.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/executor.md"
+    }
+  }
+}

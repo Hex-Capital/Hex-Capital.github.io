@@ -6,109 +6,81 @@
 |-------|-------|
 | Website | https://pango.ai/ |
 | YC Page | https://www.ycombinator.com/companies/pango |
-| Batch | Summer 2026 (YC company page) |
+| Batch | Summer 2026 |
 | Industry | B2B / B2B -> Retail |
 | Team Size | 5 |
 | Location | Stockholm, Stockholm County, Sweden |
 | Tags | Logistics, E-commerce, Retail, AI |
-| YC Partner | Gustaf Alstromer (YC company page) |
-| Emails | No public data found |
+| YC Partner | Gustaf Alstromer |
+| Emails | steve@pango.ai, support@pango.ai, business.pango@gmail.com |
 
 ## The Idea
 
-- **Problem:** E-commerce brands run post-purchase operations (deliveries, tracking, returns, transport, customer service) manually across fragmented tools; Pango states this manual workload typically consumes ~50% of operational team time (pango.ai homepage).
-- **Approach:** A unified "Agentic Operating System" with AI agents that orchestrate 100+ carrier integrations, branded tracking, self-service returns, AI-routed TMS, pick & pack, and checkout delivery promise (pango.ai homepage).
-- **Differentiation:** [Inferred]: vs. AfterShip (tracking/returns focus) and Parcel Perform (carrier data/analytics) — Pango bundles tracking + returns + TMS + CS into one agentic layer rather than point tools; vs. ShipBob, Pango is software-only (no fulfillment warehouse network) (pango.ai homepage; clickpost.ai competitor pages).
-- **Business Model:** No public pricing data found on pango.ai; demo-gated sales motion ("Book a Demo" CTA, pango.ai). [Inferred]: SaaS subscription priced per merchant, given the targeted brand-tier customers shown on site.
-- **TAM/SAM:** Global e-commerce platform market estimated USD 9.08B in 2025 growing to USD 16.51B by 2030 at 12.7% CAGR (MarketsandMarkets, 2025); no public TAM/SAM data found specific to "agentic e-commerce ops" segment.
-- **GTM / Distribution:** TINC Fall 2025 alumnus program for U.S. go-to-market (search snippet, thehub.io/Vinnova); Swedish Vinnova grant ("Pango: AI-powered e-commerce logistics", vinnova.se); [Inferred]: direct sales to mid-market European D2C brands first, expanding to U.S. via YC network post-S26 batch.
+- **Problem:** Pango reports that e-commerce brands commonly connect five to seven separate tools through manual administration for shipments, returns, refunds, claims, and customer service, with operational work increasing during geographic or SKU expansion ([YC company page, Jul 2026](https://www.ycombinator.com/companies/pango)).
+- **Approach:** Merchants connect their commerce stack and describe operating rules in natural language, after which Pango creates return portals, delivery options, customer-service processes, and agents that execute those workflows ([YC company page, Jul 2026](https://www.ycombinator.com/companies/pango)).
+- **Differentiation:** Pango positions itself as an agent-operated layer spanning checkout, shipping, tracking, returns, and carriers, versus Loop’s exchange-first operations suite, Narvar’s retailer-focused identity and policy layer, and AfterShip’s tracking-and-returns suite with a 1,300-plus-carrier network ([Pango comparison, Jul 2026](https://pango.ai/resources/best-post-purchase-platform), [Loop](https://www.loopreturns.com/), [Narvar](https://corp.narvar.com/agentic-ai-post-purchase), [AfterShip](https://www.aftership.com/)).
+- **Business Model:** Checkout+ includes free software with return-shipping charges, while paid deployments use custom per-order, tiered, flat-monthly, or hybrid pricing based on order volume, products, and operational complexity ([Pango pricing, Jul 2026](https://pango.ai/pricing)).
+- **TAM/SAM:** The global e-commerce returns-management software market was estimated at $1.799 billion in 2025 and projected to reach $3.197 billion in 2032 at an 8.6% CAGR ([LP Information, May 2026](https://www.marketresearch.com/LP-Information-Inc-v4134/Global-Returns-Management-Software-Ecommerce-44928887/)); no public SAM estimate was found for Pango’s target brand and geography mix.
+- **GTM / Distribution:** Pango requests referrals from Shopify and e-commerce agencies and introductions to fashion, beauty, and home brands, supported by direct demos and a Shopify App Store listing ([YC company page, Jul 2026](https://www.ycombinator.com/companies/pango), [Shopify App Store, Jul 2026](https://apps.shopify.com/pango)).
 
 ## Defensibility
 
-- **Moat today:** 100+ carrier and platform integrations cited on pango.ai homepage; ISO 27001 (in progress), GDPR, and EU AI Act compliance posture (pango.ai homepage).
-- **Future moat:** [Inferred]: Proprietary logistics event/exception dataset across customers could train carrier-routing and CS-resolution models that improve with scale; unproven now given pre-seed stage and ~5-person team (YC page).
-- **Market structure:** [Inferred]: Incumbents like AfterShip ($85M ARR, getlatka.com 2024) and Parcel Perform are point tools with established pricing per module; bundling into a single agentic OS would cannibalize their per-module ARR — structural conflict, not pure speed.
-- **Commoditization risk:** [Inferred]: Carrier integration libraries (EasyPost, ShipEngine) and LLM agent frameworks are commoditized; the integration-and-orchestration layer is replicable by well-funded incumbents (AfterShip, ShipBob) within 12–18 months.
+- **Moat today:** Pango reports more than 100 carrier, commerce, warehouse, and customer-experience integrations plus 12 months embedded with 30 e-commerce brands, although public sources do not establish exclusivity ([Pango integrations](https://pango.ai/integrations), [YC company page, Jul 2026](https://www.ycombinator.com/companies/pango)).
+- **Future moat:** [Inferred]: Executed shipment, exception, return, and refund workflows could create merchant-specific operating data and switching costs, but no retention or proprietary-dataset evidence is public.
+- **Market structure:** No structural barrier identified at this stage, as Narvar, parcelLab, Loop, and AfterShip already market integrated or agent-assisted post-purchase products ([Narvar](https://corp.narvar.com/agentic-ai-post-purchase), [parcelLab](https://parcellab.com/post-purchase-platform/), [Loop](https://www.loopreturns.com/), [AfterShip](https://www.aftership.com/)).
+- **Commoditization risk:** Existing post-purchase vendors can add autonomous workflow execution to their tracking, returns, carrier, and retailer integrations, with Narvar and parcelLab already advertising agents or autonomous actions ([Narvar](https://corp.narvar.com/agentic-ai-post-purchase), [parcelLab](https://parcellab.com/post-purchase-platform/)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Customer logos: Opus Mushrooms, Sundaze, Kallpressen, BAMBAM, Brighteq, Understatement Underwear (pango.ai homepage).
-  - "Just two months after launching, Pango achieved product-market fit and is now powering million-dollar brands" (search snippet attributed to Pango/Vinnova).
-  - Customer testimonial: "30% reduction in return rates, 5–8% increase in checkout conversion" (pango.ai homepage); "70% reduction in CS queries" (pango.ai homepage); "Up to 30% boost to profitability" (pango.ai homepage).
-  - Investors listed on About page: Y Combinator, Heartfelt, Karaoke Club, Stockholm [unclear entity], Wave Ventures (pango.ai/about).
-  - Press: Dagens Industri (Swedish business daily) profile of Steve Rahimi ("Kom som ensamkommande – bygger AI-bolag", facebook.com/Dagensindustri).
-  - Hiring: "Founding Full-stack Software Engineer, Stockholm" and "Senior Software Engineer / Technical Lead" job posts on Hacker News (news.ycombinator.com items 46466215 and 47978164), conflicting with YC page "0 jobs."
-  - Non-dilutive: Vinnova grant program participation (vinnova.se).
-  - TINC Fall 2025 (Nordic Innovation U.S. scaling program) alumnus (search snippet).
-  - No public data found for Twitter/LinkedIn/Discord follower counts, Product Hunt rank, or web traffic.
-- **Competitors:**
-  - AfterShip ($138M raised across 6 rounds, $85M ARR 2024; Crunchbase, getlatka.com): 1,200+ carrier coverage and 100,000+ business customers; tracking/returns leader without bundled TMS+CS agents.
-  - Parcel Perform ($20M Series A Aug 2021, total ~$21M+; Crunchbase): 1,100+ carriers, carrier-data and analytics focus, Singapore HQ.
-  - ShipBob ($333M raised across 8 rounds, $1B valuation Series E June 2021; Crunchbase, FreightWaves): operates physical fulfillment network, not software-only.
-  - Augment ("managing workflows for companies handling $20B in freight"; search snippet, clickpost.ai/competitor list): AI assistant for shippers/brokers, freight-focused not D2C e-commerce.
-  - Ringly.io: AI phone agent for Shopify, resolves ~70% of customer calls (ringly.io); CS-only overlap.
-- **Why now:** [Inferred]: LLM/agent capability crossed the threshold in 2024–2025 to execute multi-step logistics workflows (carrier selection, exception handling, refund decisions) end-to-end, enabling the "digital employee" framing Pango uses (pango.ai positioning; general agent-tooling trend).
+  - 30 global brands signed, with 99% of returns and shipping operations automated and operating costs reduced by 20% on a company-reported basis ([YC launch, Jul 2026](https://www.ycombinator.com/companies/pango)).
+  - 30-plus brands and 60% month-over-month growth before the YC batch ([SSE Business Lab, Jul 2026](https://www.linkedin.com/posts/sse-business-lab_congrats-to-the-pango-yc-s26-team-on-joining-activity-7473648392296894464-wKqa)).
+  - $550,000 pre-seed round from HEARTFELT, SSE Business Lab, Wave Ventures, Karaoke Club, and angels ([Nordic9, Jan 2026](https://nordic9.com/news/pango-in-a-sek-5-million-pre-seed-round-backed-by-heartfelt-sse-business-lab-wave-ventures-karaoke-club-and-angel-investors-in-sweden/)).
+  - Shopify app rating of 5.0 from five reviews ([Shopify App Store, Jul 2026](https://apps.shopify.com/pango)).
+  - 1,615 LinkedIn company followers ([LinkedIn, Jul 2026](https://www.linkedin.com/company/pangoai)).
+  - Five roles listed on Pango’s careers page, despite the supplied company record stating that Pango was not hiring ([Pango careers, Jul 2026](https://pango.ai/careers)).
+  - Customer testimonial: Switch Nails retained 19% of returns as exchanges or store credit after five months and made 99% of returns self-service ([Pango case study, Jul 2026](https://pango.ai/resources/switch-nails-case-study)).
+  - Pango 1.0 launched with HEARTFELT, SSE Business Lab, Wave Ventures, Karaoke Club, and three named angel backers ([Pango, Feb 2026](https://pango.ai/resources/pango-1-0-and-new-investors)).
+- **Competitors (minimum 3, up to 5):**
+  - AfterShip ($67M raised, revenue unknown): offers tracking, returns, shipping, analytics, and 1,300-plus carrier integrations versus Pango’s natural-language workflow and agent-execution positioning ([AfterShip, Jun 2026](https://www.aftership.com/blog/about-aftership)).
+  - parcelLab ($112M raised, revenue unknown): focuses on enterprise post-purchase experience, analytics, messaging, returns, and AI agents versus Pango’s unified logistics-operations positioning ([parcelLab, May 2021](https://parcellab.com/press/operations-experience-management-platform-parcellab-secures-112-million-funding-round/)).
+  - Narvar ($78.4M raised, revenue unknown): applies identity, retailer policy, inventory, delivery, fraud, and return signals to enterprise post-purchase actions versus Pango’s merchant-defined workflows ([CB Insights, Jul 2026](https://www.cbinsights.com/company/narvar/financials), [Narvar](https://corp.narvar.com/agentic-ai-post-purchase)).
+- **Why now:** [Inferred]: Recent agent architectures allow natural-language merchant rules to trigger actions across carrier, storefront, warehouse, and customer-service APIs rather than only generate recommendations ([YC launch, Jul 2026](https://www.ycombinator.com/companies/pango)).
 
 ## Founders & Team
 
-- **Steve Rahimi (CEO & Co-Founder):**
-  - Background: BSc Business and Economics, Stockholm School of Economics; prior roles at Ericsson, Shopstory, 180 Degrees Consulting Stockholm (LinkedIn via se.linkedin.com/in/steve-rahimi, rocketreach.co); profiled by Dagens Industri as unaccompanied-refugee founder building AI company (facebook.com/Dagensindustri).
-  - Twitter/X: @Steve_rahimi (YC page); count not retrievable.
-  - LinkedIn: "CEO & Co-Founder – Pango" (se.linkedin.com/in/steverahimi).
-  - GitHub: No public account found.
-- **Lukasz Reszczynski (Co-Founder):**
-  - Background: BSc Molecular Biology & Chemistry, Umeå University (2022–2026); prior roles at Toptal (developer), Medical University of Vienna, University of Vienna; UK-educated full-stack engineer with patents and a prior SaaS platform that "quoted over $1.5 billion in products" (toptal.com/resume, f6s.com, LinkedIn).
-  - Twitter/X: @_lukres (YC page); count not retrievable.
-  - LinkedIn: "Co-Founder @ Pango (YC S26)" (linkedin.com/in/lukasz-reszczynski-bio).
-  - GitHub: No public handle found in search results.
-- **Co-founder relationship:** No public data on co-founder history; Pango Solutions AB registered in Sweden (krafman.se, org 559502-6039), HQ at SSE Business Lab Stockholm (search snippet).
-- **Founder-market fit:** Rahimi's Shopstory tenure (Swedish e-commerce/content tooling) supplies merchant-side context, while Reszczynski's decade of full-stack/SaaS engineering supplies build capability (LinkedIn/Toptal); investors include Wave Ventures (Nordic student-led VC) and Heartfelt (pango.ai/about).
+- **Steve Rahimi (CEO and Co-founder):**
+  - Background: Stockholm School of Economics graduate and co-author of a 2025 bachelor thesis on reverse-logistics design, with seven years building e-commerce and technology businesses after starting at age 17 ([SSE thesis, 2025](https://arc.hhs.se/download.aspx?MediumId=6375), [YC](https://www.ycombinator.com/companies/pango)).
+  - Twitter/X: No public account found.
+  - LinkedIn: “Building a digital e-commerce employee,” with 3,375 followers ([LinkedIn, Jul 2026](https://se.linkedin.com/in/steve-rahimi)).
+  - GitHub: No public repos found.
+- **Lukasz Reszczynski (CTO and Co-founder):**
+  - Background: Former Partfiniti lead developer who created a patented configurator used for more than $1.5 billion in product quotes, led delivery infrastructure for a UK restaurant chain, earned an MSc in Astrophysics from Liverpool John Moores University, and left a molecular-biology PhD at Universität Wien ([YC](https://www.ycombinator.com/companies/pango)).
+  - Twitter/X: No public account found.
+  - LinkedIn: “Seasoned software developer & CTO; Theoretical Astrophysics MSc; Molecular Biology,” with approximately 1,000 followers ([LinkedIn, Jul 2026](https://www.linkedin.com/in/lukasz-reszczynski-bio)).
+  - GitHub: No public repos found.
+- **Co-founder relationship:** No public data on co-founder history.
+- **Founder-market fit:** [Inferred]: Rahimi’s e-commerce operating history and reverse-logistics research complement Reszczynski’s logistics infrastructure, systems-integration, and workflow-automation experience ([YC](https://www.ycombinator.com/companies/pango), [SSE thesis, 2025](https://arc.hhs.se/download.aspx?MediumId=6375)).
 
 ## Key Risks
 
-- **Incumbent bundling response:** AfterShip ($85M ARR, getlatka.com 2024) and Parcel Perform ($20M Series A, Crunchbase) already cover tracking/returns and can layer agentic features on existing integration footprint, compressing Pango's differentiation window.
-- **Integration/maintenance burden:** Claim of "100+ integrations" (pango.ai) on a 5-person team (YC page) implies high ongoing carrier-API maintenance cost; integration drift is a known failure mode for delivery platforms (Parcel Perform's value prop is precisely event-normalization across 1,100+ carriers, clickpost.ai).
-- **Geographic GTM friction:** Stockholm HQ targeting U.S. expansion via TINC (search snippet) faces enterprise sales-cycle and time-zone overhead vs. U.S.-based competitors like ShipBob (Chicago) and Augment.
-- **Technical feasibility — agent reliability in money-moving workflows:** Returns approvals, carrier rate-shopping, and refund decisions have direct financial and customer-experience consequences; current LLM agents have unresolved reliability/hallucination rates in production e-commerce ops ([Inferred] from general agent-tooling state; Pango cites EU AI Act compliance posture, pango.ai).
-- **Name collision:** "Pango" is a common name (e.g., Pango VPN, Pango education account on Twitter, Pangea.app); brand/SEO disambiguation challenge documented in search results.
+- **Competitive overlap:** AfterShip, parcelLab, Narvar, and Loop already combine tracking, returns, analytics, and AI features, creating substitution options for merchants ([competitor product pages](https://pango.ai/resources/best-post-purchase-platform)).
+- **Autonomous-action errors:** Pango agents can approve returns, issue shipping labels, and coordinate refunds and claims, so incorrect rules or integration data can affect customer funds and shipments; Pango states that edge cases can be flagged for human review ([YC](https://www.ycombinator.com/companies/pango), [Pango website](https://pango.ai/)).
+- **Personal-data exposure:** The service processes names, addresses, order histories, and return details and may transfer data outside the EEA; Pango cites contractual safeguards and says it is working toward ISO 27001 certification ([Pango GDPR policy, Jul 2026](https://pango.ai/gdpr)).
+- **Name ambiguity:** Searches for Pango also surface an unrelated Israeli parking application and the French E-PANGO energy company, requiring the pango.ai domain and YC S26 designation for disambiguation ([Apple App Store](https://apps.apple.com/us/app/%D7%A4%D7%A0%D7%92%D7%95-pango/id434818173), [Euronext](https://live.euronext.com/sites/default/files/company_press_releases/attachments/2026/03/26/cpr07_eqs_WNEJJFNQRNEPQGWGTKCGRBQI_CP_E_PANGO.pdf)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | E-commerce platform market USD 9.08B (2025) → USD 16.51B (2030) at 12.7% CAGR (MarketsandMarkets, 2025) |
+| TAM | $1.799B global e-commerce returns-management software market in 2025, projected to $3.197B by 2032 at 8.6% CAGR (LP Information, May 2026) |
 | SAM | No public data found |
-| Traction | 6 named brand customers (pango.ai, 2026); "PMF two months after launch, powering million-dollar brands" (Pango/Vinnova snippet); Dagens Industri press feature (facebook.com/Dagensindustri); TINC Fall 2025 alumnus; Hacker News job posts (news.ycombinator.com items 46466215, 47978164) |
-| Revenue Signal | No public data found (no pricing page; demo-gated) |
-| Founders | Steve Rahimi (CEO): SSE BSc, ex-Ericsson, ex-Shopstory, ex-180DC. Lukasz Reszczynski (Co-Founder): Umeå BSc, ex-Toptal full-stack engineer with patents. |
-| Competitors | AfterShip ($138M raised, $85M ARR 2024, tracking/returns point tool); Parcel Perform ($20M Series A 2021, revenue unknown, carrier-data platform); ShipBob ($333M raised, $1B valuation, revenue unknown, physical fulfillment network); Augment (revenue unknown, freight-focused AI agent); Ringly.io (revenue unknown, CS-only AI agent for Shopify) |
-| Moat Signals | 100+ carrier/platform integrations (pango.ai); ISO 27001 in progress + GDPR + EU AI Act compliance posture (pango.ai) |
-| Risk Factors | Incumbent bundling response, integration maintenance burden on 5-person team, agent reliability in money-moving workflows |
-| Founder Reach | Steve Rahimi: Twitter @Steve_rahimi (count not retrievable), LinkedIn present, GitHub not found. Lukasz Reszczynski: Twitter @_lukres (count not retrievable), LinkedIn present ("Co-Founder @ Pango (YC S26)"), GitHub not found. |
-| Distribution Signals | TINC Fall 2025 U.S. GTM program alumnus (thehub.io); Vinnova grant participation (vinnova.se); YC S26 batch (ycombinator.com/companies/pango); Dagens Industri press (facebook.com/Dagensindustri) |
-| Emails | No public data found |
-
-Sources:
-- [Pango — Company website](https://pango.ai/)
-- [Pango — About page](https://pango.ai/about)
-- [Pango — YC company page](https://www.ycombinator.com/companies/pango)
-- [Vinnova — Pango: AI-powered e-commerce logistics](https://www.vinnova.se/en/p/pango-ai-powered-e-commerce-logistics)
-- [The Hub — Pango profile](https://thehub.io/startups/pango-1)
-- [Hacker News — Pango Founding Engineer job](https://news.ycombinator.com/item?id=46466215)
-- [Hacker News — Pango Senior Engineer job](https://news.ycombinator.com/item?id=47978164)
-- [Tracxn — Pango profile](https://tracxn.com/d/companies/pango/__l03Lj9yLiMXPimuSGDnfmxOXvWEMhBem9qGCyJtR3PE)
-- [Steve Rahimi — LinkedIn](https://se.linkedin.com/in/steverahimi)
-- [Lukasz Reszczynski — LinkedIn](https://www.linkedin.com/in/lukasz-reszczynski-bio/)
-- [Lukasz Reszczynski — Toptal resume](https://www.toptal.com/resume/lukasz-reszczynski)
-- [Nordic9 — Pango](https://nordic9.com/companies/pango/)
-- [Dagens Industri — Pango feature (Facebook)](https://www.facebook.com/Dagensindustri/posts/ensamkommande-flykting-bygger-ai-bolagdet-nystartade-mjukvarubolaget-pango-som-s/1388525803287301/)
-- [Pango Solutions AB — Swedish registry](https://krafman.se/pango-solutions-ab/5595026039/sammanfattning)
-- [AfterShip — Crunchbase](https://www.crunchbase.com/organization/aftership)
-- [AfterShip ARR — Latka](https://getlatka.com/companies/aftership)
-- [Parcel Perform Series A — Crunchbase](https://www.crunchbase.com/funding_round/parcel-perform-pte-ltd-series-a--cb32085f)
-- [ShipBob — Crunchbase financials](https://www.crunchbase.com/organization/shipbob/company_financials)
-- [ShipBob $1B valuation — FreightWaves](https://www.freightwaves.com/news/shipbob-reaches-1b-valuation-with-new-funding-round)
-- [E-commerce platform market — MarketsandMarkets](https://www.marketsandmarkets.com/Market-Reports/ecommerce-platform-market-144705437.html)
-- [AfterShip alternatives landscape — ClickPost](https://www.clickpost.ai/aftership-alternatives)
-- [Parcel Perform competitors — ClickPost](https://www.clickpost.ai/parcelperform-competitors-alternatives)
+| Traction | 30 global brands, 60% MoM growth, 99% returns/shipping automation, 20% operating-cost reduction (YC and SSE Business Lab, Jul 2026); Shopify rating 5.0 from five reviews (Shopify App Store, Jul 2026) |
+| Revenue Signal | Checkout+ software is free with return-shipping charges; paid plans use customized per-order, tiered, flat, or hybrid pricing (Pango pricing, Jul 2026) |
+| Founders | Steve Rahimi (CEO): SSE graduate, reverse-logistics researcher, seven years in e-commerce (YC and SSE, 2025-2026); Lukasz Reszczynski (CTO): Partfiniti lead developer, patented configurator, logistics-infrastructure experience (YC, Jul 2026) |
+| Competitors | AfterShip ($67M raised, revenue unknown, 1,300-plus-carrier post-purchase suite); parcelLab ($112M raised, revenue unknown, enterprise post-purchase experience platform); Narvar ($78.4M raised, revenue unknown, identity-and-policy-driven agentic retail platform) (company pages and CB Insights, Jul 2026) |
+| Moat Signals | 100-plus integrations and 12 months embedded with 30 brands (Pango integrations and YC, Jul 2026) |
+| Risk Factors | Funded overlapping platforms, autonomous transaction errors, consumer-data handling, shared company name (YC, Pango GDPR policy, competitor product pages, Jul 2026) |
+| Founder Reach | Steve Rahimi: LinkedIn 3,375, Twitter/GitHub no public data; Lukasz Reszczynski: LinkedIn approximately 1,000, Twitter/GitHub no public data (LinkedIn, Jul 2026) |
+| Distribution Signals | Shopify App Store rating 5.0 from five reviews; LinkedIn company page 1,615 followers; five careers listings (Shopify, LinkedIn, and Pango careers, Jul 2026) |
+| Emails | steve@pango.ai (YC, Jul 2026); support@pango.ai and business.pango@gmail.com (Pango legal and privacy pages, Jul 2026) |

@@ -1,0 +1,30 @@
+﻿# Avoca Systems -- Naval Ravikant Evaluation
+
+Avoca Systems serves more than 250 clinics, yet every clinic remains an independent customer rather than a node that makes every other customer more valuable. Avoca Systems is strong operators applying code inside a weak network architecture: the founder-partner signal is the highest dimension, while compounding user-added value is the lowest. Software can remove labor without becoming permissionless leverage. The first creates a valuable enterprise product. The second creates a 10,000x outcome.
+
+Twitter is the high rung for intelligence, energy, integrity, and long-term founder alignment: Jack shipped while Ev Williams brought a clean prior exit and durable operator history. Avoca Systems shares part of that pattern through Max Shand’s Afterpay operating experience and Serenade exit, while Campbell Mercer-Butcher progressed through principal-engineer and tech-lead roles before building Avoca Systems. The divergence matters: no public evidence establishes the founders’ relationship before Avoca, radiology was not their documented lived domain, and Max’s “Founder” title does not fully resolve long-term authority. No volunteered-honesty red flag appears, but the 10-year-partner record is promising rather than complete.
+
+Perplexity is the low network rung: each user receives value without directly increasing value for prior users, and exceptional specific knowledge had to override that missing architecture. Avoca Systems exhibits the same absence without Perplexity’s documented ML-specific founder advantage. Avoca Systems can install customer-specific rules across 250 clinics, but one network’s protocols, rosters, and integrations do not automatically improve another network’s product. Switching costs compound for Avoca; user-added value does not. That is SaaS accumulation, not a network.
+
+Six named healthcare-system integrations expose the leverage mechanism over the next 18 months. Avoca Systems uses code to resolve 86% of calls, but Avoca Systems reaches customers through radiology CEOs, CIOs, negotiated deployments, clinical-rule encoding, and permission from Epic, Oracle Health, and RIS vendors. Each deployment therefore adds implementation and compliance surface instead of distributing the next copy at near-zero acquisition cost. The SDR-before-pull red flag is absent—Avoca lists zero open roles while already operating in 250 clinics—but the unstated portfolio pattern is also absent: no open-source adoption, creator distribution, public technical community, or founder-media channel precedes the round. Code is the product; labor and institutional permission remain the distribution.
+
+Campbell Mercer-Butcher has deep software-building experience, while Max Shand was Afterpay’s first employee and previously served 347 artists through Serenade. Avoca Systems therefore clears the generic-pedigree red flag, but Avoca Systems does not yet demonstrate non-trainable radiology knowledge comparable to a founder who personally operated imaging centers or authored modality-scheduling infrastructure. The score flips into Invest territory if Mercer-Butcher’s encoded clinical engine reflects years of founder-owned workflow discovery—or if proprietary deployment data demonstrably improves exam mapping across customers—rather than competent engineers learning radiology during implementation.
+
+Uber had pivot-room because black cars were an entry point into transportation, logistics, and a global two-sided market. Avoca Systems begins inside a reported $780 million radiology-scheduling market; Avoca Systems can expand from booking into referrals, preparation, results, and broader patient access, but every adjacent move inherits protected-health-data controls, clinical liability, and new incumbent integrations. The market is larger than a scheduling feature but smaller than a platform by default. Pivot-room exists inside healthcare operations, yet reaching it likely requires fresh enterprise sales and capital rather than merely redirecting permissionless code.
+
+AbbaDox already sells radiology-specific VoiceAI, FaxAI, scheduling, results sharing, and referral communications, so my 36-month forecast is that Avoca Systems reaches $8 million–$15 million ARR by July 2029 but remains an integration-heavy radiology workflow vendor rather than becoming a compounding healthcare network. Avoca Systems can grow through the measurable reduction in call abandonment from roughly 30% to 2%, but AbbaDox, OpenDoctor, and broader patient-access incumbents keep the product architecture competitive and customer-by-customer. A good enterprise outcome is not automatically an asymmetric angel outcome.
+
+More than 250 live clinics, greater than 80% eligible-call booking conversion, SOC 2 Type II, ISO 27001, and HIPAA compliance form the strongest case against passing: Avoca Systems may resemble Anchorage Digital, where permission and regulation became the moat rather than the handicap. Avoca Systems could turn six integrations and accumulated clinical rules into an operating standard that incumbents cannot cheaply reproduce. The analogy breaks because Anchorage rode a pre-consensus crypto category with a charter-shaped bottleneck; Avoca faces AbbaDox and OpenDoctor in a $780 million documented category, with no established proprietary-data flywheel. I would flip to Invest if, by July 2027, Avoca Systems shows that cross-network learning measurably improves booking accuracy and that at least 30% of new clinics arrive through product referrals or partner-driven distribution rather than direct executive sales.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Permissionless Leverage Architecture (Code or Media as Primary Distribution) | 7/28 |
+| Marketplace or Network with Compounding User-Added Value | 4/22 |
+| Founder Has Non-Trainable Specific Knowledge in the Domain | 11/20 |
+| Big Market with Room for Multiple Pivots Without Refinancing | 7/16 |
+| Founder Trio (Intelligence + Energy + Integrity) Reads as a 10-Year Partner | 10/14 |
+| **Total** | **39/100** |
+
+**Total Score: 39/100** (Pass)

@@ -1,0 +1,30 @@
+﻿# Litmus -- Peter Thiel Evaluation
+
+**$60K ARR within one month of first sale makes Litmus an execution-rich, moat-poor recruiting company.** Litmus’s highest signal is founder pedigree: Elena Zhao worked as a software engineer at Meta and Two Sigma, while Shaivi Rau brings Columbia CS, startup, and venture experience. Litmus’s lowest signal is structural defensibility: no hardware, regulated customer, certification barrier, or network monopoly protects the product. The signature is talented young operators moving quickly inside a mimetic software market. Speed can build a business; it does not necessarily build a monopoly.
+
+**Anduril is the high rung for founder lineage because Palmer Luckey had already shipped Oculus to a billion-dollar exit before attacking defense.** Litmus shares the mechanism only weakly: Zhao has credible Meta and Two Sigma operating experience, and Rau has direct exposure to technical recruiting, but neither Litmus founder has shipped a product to scale or produced a verified zero-to-one technical achievement. Litmus therefore sits above the credential-only YC archetype but below the operator re-up represented by Anduril, Affirm, or Asana. Columbia, Meta, and Two Sigma are signals. They are not lineage strong enough to override a missing monopoly thesis.
+
+**Asana’s atoms-light failure mechanism was commodity software competition without a regulatory or capex barrier; Dustin Moskovitz’s Facebook pedigree supplied the exceptional override.** Litmus reproduces the exposed side of that pattern without the override. Litmus handles sensitive repositories, candidate recordings, prompts, and code, but privacy review is friction rather than protection: its contracts and data policies do not create Palantir-like institutional entrenchment. HackerRank and CodeSignal already offer repository environments, AI-assisted coding, process analysis, and automated grading. Litmus is pure software in a feature-convergent category, precisely where competitors can copy faster than switching costs can compound.
+
+**HackerRank and CodeSignal expose the weakness in Litmus’s contrarian secret.** Litmus correctly observes that AI-assisted engineering makes interview performance less useful and production-style work more revealing; over 18 months, customer-specific repositories and 3,000 evaluated assessments could improve grading calibration. But the supposed secret—observe candidates completing realistic work with AI—is already being acted upon by both named incumbents. Litmus names incumbent shortcomings, yet not an architectural reason those incumbents cannot respond. A secret shared with the incumbent is a product insight, not a contrarian truth.
+
+**Litmus’s monopoly score would flip only if hiring outcomes produced a proprietary calibration graph that competitors could not reconstruct.** Litmus would need to show that candidate activity predicts twelve-month job performance, that accuracy improves materially with cross-employer scale, and that customers renew because abandoning Litmus destroys accumulated calibration. The dossier establishes none of those conditions: candidate data may improve grading, but no longitudinal validity or retention evidence exists. Litmus’s custom contracts may support near-term pricing, while the $680M North American screening market and reproducible LLM infrastructure imply commodity pricing at maturity. One year of advantage is a feature; ten years is a company.
+
+**SpaceX had a definite fifteen-year reusability roadmap; Litmus currently has founder-led demos, a free first assessment, and ATS integrations.** Litmus has demonstrated commercial urgency through $60K ARR and 3,000 assessments, but Litmus has not disclosed two-to-five-year milestones, irreversible architectural commitments, or a plan beyond better generation and grading. The evidence describes a capable go-to-market loop, not definite optimism. “Build the first assessment free, learn from usage, expand through integrations” is an effective pre-seed tactic, but it remains iteration rather than destiny.
+
+**$60K ARR in Litmus’s first month supports a specific 36-month forecast: by July 2029, Litmus reaches $3M-$7M ARR but is acquired by Ashby for less than $75M rather than becoming an independent category monopoly.** Litmus can sell because employers genuinely dislike coding interviews, and the founders appear capable of converting that pain into contracts. Yet HackerRank and CodeSignal compress product differentiation while ATS distribution pulls value toward the system of record. Litmus therefore looks more like a valuable recruiting feature that Ashby can distribute than a power-law company with autonomous pricing power.
+
+**The 3,000 assessments are the strongest objection to that forecast.** The bull case is that Litmus is quietly constructing a proprietary work-sample dataset before incumbents recognize that prompts, commits, walkthroughs, and eventual hiring outcomes form a new credential graph; the $60K ARR first month suggests customers already value the result. Asana and Quora show that pure software can justify a check when pedigree or network effects override missing atoms. But Litmus has disclosed neither Moskovitz-level shipped-to-scale lineage nor a demonstrated network effect, while CodeSignal and HackerRank entered the same AI-native territory during 2026. I would flip to Invest if Litmus verifies that assessment scores predict twelve-month employee performance and shows at least 120% net revenue retention driven by accumulated company-specific calibration. Until then, competition is for losers—and Litmus is entering competition.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Contrarian Secret with Named Incumbent Failure Mode | 15/35 |
+| Monopoly Trajectory with Pricing Power Hypothesis | 9/25 |
+| Definite Founder Plan vs Indefinite Iteration | 6/15 |
+| Founder Lineage / Verified Operator Pedigree | 10/15 |
+| Atoms-Heavy or Regulated-Sector Structural Moat | 2/10 |
+| **Total** | **42/100** |
+
+**Total Score: 42/100** (Pass)

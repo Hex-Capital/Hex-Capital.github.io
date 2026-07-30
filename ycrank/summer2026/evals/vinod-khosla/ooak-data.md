@@ -1,0 +1,30 @@
+﻿# Ooak Data -- Vinod Khosla Evaluation
+
+Seven-figure contracts with the two largest AI labs make **Ooak Data** an unusually adaptive commercial data supplier, not yet a category-defining technology company. **Ooak Data** scores highest on founder learning rate—the founders secured clients, pivoted, and rebuilt around RL environments—but lowest on defying expert consensus. Pierre-Louis Vouteau, Grégoire Lamy, and Thomas Aubry are executing the direction the entire training-data industry adopted in 2025. They may build a valuable toll road. I do not yet see what economic mechanism they break.
+
+**Slash** is the high rung on learning rate because its documented Kanye West pivot revealed founders willing to discard their original thesis and then compound the lesson into a $100M Series C. **Ooak Data** shares the important mechanism: Pierre-Louis started alone, Grégoire joined before a disclosed pivot, and the founders signed clients across that transition. The divergence is attribution. **Ooak Data** does not disclose what was wrong, what evidence forced the pivot, or whether the seven-figure AI-lab contracts came before or after the current product. A pivot is evidence of motion; a precisely explained pivot is evidence of learning.
+
+**Glean** sits on the low rung for founder defiance because an ex-Google search expert entering enterprise search represented expert continuity, not rebellion; capital scale and consequence overrode that weakness. **Ooak Data** shows the same failure mechanism without Glean’s demonstrated consequence. Thomas Aubry brings Samsung applied ML and PayLead data leadership, while Grégoire Lamy brings Epsor operations experience, but **Ooak Data** identifies no belief these founders held against their own field. Scale AI, Surge AI, Mercor, and Snorkel are already pursuing adjacent RL environments. Following a wave early can be good entrepreneurship. It is not defying consensus.
+
+The proposed acquisition of more than 300 company ecosystems at up to $300,000 each creates an implied procurement envelope approaching $90M, and that makes **Ooak Data** more than commodity SaaS. Over 18 months, **Ooak Data** can compound technically if every acquired workflow becomes reusable across customers, improves model calibration, and lowers the marginal cost of constructing the next environment. The same mechanism reverses if anonymization removes the dates, financial figures, addresses, and identities that encode real organizational causality. No published performance result from Ooak-owned environments establishes that fidelity survives. That is a hard engineering problem, but not yet a named scientific miracle.
+
+The $23.18B projected training-dataset market understates the upside only if **Ooak Data** becomes infrastructure for automating a material portion of the $15T labor economy. For the consequence score to move into my top tier, **Ooak Data** would need to prove that models trained on its environments can replace complete finance, procurement, support, or operations functions—not merely benchmark agents more accurately. Today, **Ooak Data** sells a critical input to AI labs. Inputs can be valuable, but OpenAI mattered because intelligence itself changed the world-state. A library serving the labs is not automatically the library that governs the labor displacement.
+
+**Commonwealth Fusion** required $115M at Series A because capital purchased specific milestones that conventional investors would not finance. **Ooak Data** has a credible but weaker parallel: hundreds of ecosystem acquisitions, payments of up to $300,000 each, regional storage, anonymization infrastructure, and six open roles create a genuine use for concentrated capital. **Ooak Data** still has not disclosed dataset count, exclusivity, reuse rights, or acquisition payback. Without those facts, the capital plan could be a moat-building program or simply expensive inventory procurement. Range Fuels taught me that capital intensity without milestone clarity is not contrarianism; it is underwritten ambiguity.
+
+Two concentrated AI-lab customers lead to my 36-month forecast: **Ooak Data** will reach roughly $15M-$30M in annual recurring revenue and be acquired by **Scale AI**, rather than become an independent platform, by July 2029. **Ooak Data** has already shown enough learning speed and buyer demand to build a meaningful supplier, while its low founder-defiance signal, absent exclusivity, and competitors’ existing lab relationships make consolidation more probable than category control. The economic mechanism is procurement leverage: Scale can monetize Ooak’s workflow rights across a larger customer base and remove a competing source of scarce production data.
+
+Seven-figure contracts at pre-seed are the strongest objection to that forecast. The bull case says **Ooak Data** is repeating the **Slash** exception: YC pedigree, a documented pivot, extraordinary early commercial validation, and a capital-intensive data-acquisition strategy override the absence of civilizational rhetoric. The unstated pattern is real—I have made plenty of money on commercially astute businesses such as DoorDash and Affirm. The objection still loses because **Ooak Data** has disclosed neither one proprietary ecosystem count nor contractual exclusivity, while Scale, Surge, Mercor, and Snorkel can attack the same buyers. The traction-first presentation is also one of my explicit red flags when the consequence remains undefined. I would flip to Invest if **Ooak Data** demonstrates at least 100 exclusive, reusable company ecosystems, measurable frontier-model gains on Ooak-owned environments, and less than 50% of revenue concentrated in its two largest labs.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Consequence Magnitude If Company Wins | 17/30 |
+| Technical or Capital Risk That Repels Consensus VCs | 18/25 |
+| Founder Defies Documented Expert Consensus | 9/20 |
+| Founder Learning Rate, Demonstrated By Prior Pivot Or Thesis Update | 12/15 |
+| Required-Capital Profile Matches Khosla Check Size | 7/10 |
+| **Total** | **63/100** |
+
+**Total Score: 63/100** (Neutral)

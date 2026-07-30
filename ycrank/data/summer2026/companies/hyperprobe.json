@@ -10,8 +10,8 @@
     "team_size": "8",
     "location": "San Francisco, CA, USA",
     "tags": "Developer Tools, DevSecOps, SaaS",
-    "yc_partner": "Brad Flora (YC company page)",
-    "emails": "No public data found (demo booking via calendly.com/shailendra-hyperprobe/30min listed on hyperprobe.co)"
+    "yc_partner": "Brad Flora",
+    "emails": "No public data found"
   },
   "tags": [
     "Developer Tools",
@@ -19,52 +19,52 @@
     "SaaS"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-08T04:51:06.474Z",
+  "memoGeneratedAt": "2026-07-30T17:30:31.759Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 44,
-      "tier": "Pass"
+      "score": 60,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 53,
+      "score": 63,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 44,
-      "tier": "Pass"
+      "score": 68,
+      "tier": "Invest"
     },
     "paul-graham": {
-      "score": 44,
-      "tier": "Pass"
+      "score": 74,
+      "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 34,
+      "score": 42,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 28,
-      "tier": "Pass"
+      "score": 45,
+      "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 37,
+      "score": 41,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 44,
-    "EG": 53,
-    "NR": 44,
-    "PG": 44,
-    "PT": 34,
-    "SL": 28,
-    "VK": 37
+    "CB": 60,
+    "EG": 63,
+    "NR": 68,
+    "PG": 74,
+    "PT": 42,
+    "SL": 45,
+    "VK": 41
   },
-  "consolidatedAvg": 40.57,
-  "consolidatedRank": 27,
+  "consolidatedAvg": 56.14,
+  "consolidatedRank": 54,
   "traction": {
-    "tractionRank": 19,
-    "tractionScore": 41,
-    "tractionReason": "Two named enterprise customer testimonials"
+    "tractionRank": 55,
+    "tractionScore": 51,
+    "tractionReason": "Two current production customer testimonials"
   },
   "paths": {
     "memo": "summer2026/memos/hyperprobe.md",

@@ -1,0 +1,83 @@
+{
+  "slug": "traceforce",
+  "name": "Traceforce",
+  "oneLiner": "Securing AI native apps directly on devices",
+  "metadata": {
+    "website": "https://www.traceforce.ai",
+    "yc_page": "https://www.ycombinator.com/companies/traceforce",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Security",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, SaaS, Security, Cybersecurity, Enterprise",
+    "yc_partner": "Brad Flora ([Y Combinator](https://www.ycombinator.com/companies/traceforce), Jul 2026)",
+    "emails": "info@traceforce.ai ([Traceforce contact page](https://www.traceforce.ai/contact-us), Jul 2026)"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "SaaS",
+    "Security",
+    "Cybersecurity",
+    "Enterprise"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:41:42.851Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 73,
+      "tier": "Invest"
+    },
+    "naval-ravikant": {
+      "score": 61,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 73,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 60,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 41,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 59,
+    "EG": 73,
+    "NR": 61,
+    "PG": 73,
+    "PT": 60,
+    "SL": 48,
+    "VK": 41
+  },
+  "consolidatedAvg": 59.29,
+  "consolidatedRank": 30,
+  "traction": {
+    "tractionRank": 20,
+    "tractionScore": 67,
+    "tractionReason": "1,500 devices across five enterprises"
+  },
+  "paths": {
+    "memo": "summer2026/memos/traceforce.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/traceforce.md",
+      "elad-gil": "summer2026/evals/elad-gil/traceforce.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/traceforce.md",
+      "paul-graham": "summer2026/evals/paul-graham/traceforce.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/traceforce.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/traceforce.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/traceforce.md"
+    }
+  }
+}

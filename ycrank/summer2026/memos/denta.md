@@ -12,83 +12,66 @@
 | Location | San Francisco, CA, USA |
 | Tags | Dental, Healthcare IT, AI |
 | YC Partner | Jared Friedman |
-| Emails | No public data found |
+| Emails | support@trydenta.com, jack@trydenta.com |
 
 ## The Idea
 
-- **Problem:** New and small dental practices currently rely on accounting firms, multiple front-desk hires, and dentists posting insurance payments at night, creating fragmented data across people and agents (YC company page, 2026).
-- **Approach:** Centralizes practice data in a single platform and applies AI-driven automation to back-office workflows (accounting, front desk, insurance payment posting) (trydenta.com, 2026).
-- **Differentiation:** Vs. CareStack/Curve Dental (cloud PMS focused on multi-location clinical/operational workflows) and Adit (PMS + AI Front Desk modules) — Denta positions as "first PMS to automate your back office" rather than a clinical or scheduling-first PMS (trydenta.com, 2026; medixdental.com, 2026).
-- **Business Model:** No pricing page on trydenta.com; only "Request a demo" / "Book a call" CTAs (trydenta.com, 2026); [Inferred]: per-practice or per-location SaaS subscription, consistent with the $3,000 MRR / 60 piloting practices ratio reported on the YC page.
-- **TAM/SAM:** Global dental practice management software market estimated USD 2.15B in 2026, projected to USD 4.87B by 2034 (Fortune Business Insights, 2026); North America held 41% share in 2025 (Precedence Research, 2026).
-- **GTM / Distribution:** [Inferred]: Founder-led sales seeded through father's 10-practice Iowa DSO (Kimball & Beecher Family Dentistry) network, expanding to additional independent practices and DSOs (YC company page, 2026; kimballandbeecher.com).
+- **Problem:** Dental groups add accounting, front-desk, insurance-payment-posting, and other administrative work as they add locations, while operational information remains fragmented across systems ([Y Combinator](https://www.ycombinator.com/companies/denta), Jul 2026).
+- **Approach:** Denta aggregates practice data into dashboards and automates insurance collections, payment posting, mail scanning, phone work, analytics, and other back-office workflows ([Denta privacy policy](https://www.trydenta.com/legal/privacy), Feb 2026; [Y Combinator launch](https://www.ycombinator.com/companies/denta), Jul 2026).
+- **Differentiation:** [Inferred]: Unlike CareStack’s general cloud practice-management suite, NexHealth’s patient-experience and API platform, and Archy’s AI-enabled practice-management platform, Denta presents back-office automation embedded around each dental group’s data and systems as its primary product concept.
+- **Business Model:** [Inferred]: The request-a-demo sales flow and absence of published prices indicate a negotiated software or software-plus-service subscription for dental organizations.
+- **TAM/SAM:** The global dental practice-management software market was estimated at $3.1 billion in 2025 and projected to reach $6.8 billion by 2033 at a 10.6% CAGR, while the U.S. segment was projected to reach $1.55 billion in 2030 at a 9.1% CAGR ([Grand View Research](https://www.grandviewresearch.com/industry-analysis/dental-practice-management-software-market), 2026; [Grand View Research](https://www.grandviewresearch.com/press-release/us-dental-practice-management-software-market-analysis), 2026).
+- **GTM / Distribution:** [Inferred]: Denta appears to sell through founder-led demos to multi-location dental groups, using the founder’s experience operating his father’s ten Iowa practices as the initial industry network and product-development setting ([Y Combinator](https://www.ycombinator.com/companies/denta), Jul 2026).
 
 ## Defensibility
 
-- **Moat today:** Pre-existing access to a 10-practice DSO (founder's father's Iowa practices) provided design partner data for back-office workflows (YC company page, 2026).
-- **Future moat:** [Inferred]: Proprietary structured data layer normalizing fragmented PMS/insurance/accounting feeds could create switching costs as AI agents become dependent on it; unproven because product launched ~two weeks before YC profile capture (YC company page, 2026).
-- **Market structure:** [Inferred]: Incumbent PMS vendors (CareStack, Curve, Dentrix) monetize per-seat SaaS that assumes front-desk staffing; aggressive automation that eliminates those seats could cannibalize their unit economics, slowing direct copy.
-- **Commoditization risk:** Adit already ships an AI Front Desk module natively in its PMS, and HeyGent provides a standalone AI dental receptionist, indicating multiple parties can build overlapping automations (medixdental.com, 2026).
+- **Moat today:** Denta reports deployments across more than 50 locations, giving it access to practice-specific operational workflows and data, but no public evidence establishes proprietary datasets, patents, or network effects ([Y Combinator launch video](https://www.linkedin.com/posts/y-combinator_denta-yc-s26-is-building-the-dental-practice-activity-7480654434939711488-xQQJ), Jul 2026).
+- **Future moat:** [Inferred]: Integrations, workflow histories, and practice-specific automation rules could create switching costs and improve automation coverage, but public sources do not establish their breadth or exclusivity.
+- **Market structure:** No structural barrier identified at this stage, as CareStack and Archy already combine dental practice management, automation, analytics, billing, and patient workflows ([CareStack](https://carestack.com/company), 2026; [Archy funding announcement](https://www.goodwinlaw.com/en/news-and-events/news/2025/10/announcements-technology-goodwin-guides-archy), Oct 2025).
+- **Commoditization risk:** Funded dental-software vendors can add overlapping AI workflows, as Archy introduced agents for insurance verification, clinical notes, patient communications, and billing and CareStack added third-party AI integrations ([Archy company history](https://en.wikipedia.org/wiki/Archy_%28dental_software%29), 2026; [CareStack press page](https://resources.carestack.com/en-GB/press-release), 2026).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - $3,000 MRR at YC profile capture (YC company page, 2026).
-  - 60 practices piloting the platform (YC company page, 2026).
-  - Product launched ~2 weeks prior to YC profile capture (YC company page, 2026).
-  - Company Twitter/X, LinkedIn page, Discord, Product Hunt, press coverage: No public data found.
-  - Job postings on YC: not hiring (YC company page, 2026).
-- **Competitors:**
-  - CareStack (>$145M raised across Series A $16M / B $28M / C $22.5M; revenue unknown; multi-location cloud PMS with FDA-cleared AI imaging via Pearl integration) (Tracxn, 2026; BusinessToday, 2021).
-  - Adit (funding undisclosed in search; revenue unknown; all-in-one PMS with native AI Front Desk + AI Call Intelligence) (medixdental.com, 2026).
-  - Tebra (publicly disclosed funding not found in search; revenue unknown; EHR+PMS with AI notes and workflow automation, broader medical not dental-only) (medixdental.com, 2026).
-  - Curve Dental (funding not surfaced; revenue unknown; cloud-first multi-location PMS priced ~$200–$500/provider) (medixdental.com, 2026).
-  - HeyGent (funding not surfaced; revenue unknown; standalone AI receptionist overlapping Denta's front-desk automation rather than full PMS) (medixdental.com, 2026).
-- **Why now:** [Inferred]: LLM-driven agent reliability crossed a usable threshold in 2024–2025 enabling automation of insurance posting and front-desk calls that previously required human judgment.
+  - More than 50 dental locations using Denta ([Y Combinator launch video](https://www.linkedin.com/posts/y-combinator_denta-yc-s26-is-building-the-dental-practice-activity-7480654434939711488-xQQJ), Jul 2026).
+  - 42 LinkedIn company followers ([LinkedIn](https://www.linkedin.com/company/trydenta), Jul 2026).
+  - 953 founder LinkedIn followers and 500+ connections ([LinkedIn](https://www.linkedin.com/in/jack-beecher-459a13180), Jul 2026).
+  - Zero jobs listed on the YC company page ([Y Combinator](https://www.ycombinator.com/companies/denta), Jul 2026).
+- **Competitors (minimum 3, up to 5):**
+  - Archy ($47M raised, revenue unknown): cloud dental practice management with AI agents spanning insurance, notes, communications, and billing ([Goodwin](https://www.goodwinlaw.com/en/news-and-events/news/2025/10/announcements-technology-goodwin-guides-archy), Oct 2025).
+  - CareStack ($145M raised, revenue unknown): cloud practice-management suite serving more than 3,000 practices, including multi-location groups ([CareStack](https://carestack.com/company), 2026).
+  - NexHealth ($176M raised, revenue unknown): patient-experience platform and universal API managing 68 million patient records, rather than a dental-group back-office system alone ([NexHealth](https://www.nexhealth.com/culture), 2026; [NexHealth Series C](https://www.nexhealth.com/resources/series-c), Jul 2025).
+- **Why now:** [Inferred]: The 2025 introduction of dental-specific AI agents for insurance, notes, communications, and billing demonstrates that recent language-model and workflow tooling can automate tasks previously handled through conventional practice-management interfaces ([Archy company history](https://en.wikipedia.org/wiki/Archy_%28dental_software%29), 2026).
 
 ## Founders & Team
 
-- **Jack Beecher (Founder, solo):**
-  - Background: Dartmouth dropout, formerly studied CS & Math; admitted Dartmouth Class of 2027 (collegeconsulting.us interview); helped operate father Beau Beecher's 10 Iowa dental practices (Kimball & Beecher Family Dentistry) (YC company page, 2026; kimballandbeecher.com).
-  - Twitter/X: @jbeech03 (display name "Jack Beecher 🔜 Orlando, LA, Indy"); follower count not retrievable (x.com, 2026).
-  - LinkedIn: "Denta | YC S26" (linkedin.com/in/jack-beecher-459a13180, 2026).
+- **Jack Beecher (Founder):**
+  - Background: Dartmouth computer science and mathematics dropout who helped operate his father’s ten dental practices in Iowa before building Denta ([Y Combinator](https://www.ycombinator.com/companies/denta), Jul 2026).
+  - Twitter/X: No public account found.
+  - LinkedIn: “Automating the administrative burden of dentistry,” with 953 followers and 500+ connections ([LinkedIn](https://www.linkedin.com/in/jack-beecher-459a13180), Jul 2026).
   - GitHub: No public repos found.
-- **Co-founder relationship:** Solo founder; no co-founder (YC company page, 2026).
-- **Founder-market fit:** Direct operational experience running back-office for father's 10-practice Iowa DSO provided first-hand exposure to the fragmented-data problem Denta is solving (YC company page, 2026; kimballandbeecher.com); no notable advisors, board members, or outside investors beyond the YC standard deal found in public sources.
+- **Co-founder relationship:** No public data on co-founder history.
+- **Founder-market fit:** Jack Beecher’s documented work supporting his father’s ten-practice Iowa dental group gave him operational exposure to fragmented dental data and administrative workflows ([Y Combinator](https://www.ycombinator.com/companies/denta), Jul 2026).
 
 ## Key Risks
 
-- **Solo founder execution risk:** One-person team (YC company page, 2026) must concurrently sell into dental practices, maintain a multi-system data integration layer, and build AI automation; no co-founder mitigation found.
-- **Design-partner concentration:** Founder's father's 10 Iowa practices appear to be the seed customer base (YC company page, 2026; kimballandbeecher.com); generalization to unaffiliated practices is unproven given only ~2 weeks of public market exposure.
-- **Incumbent feature overlap:** Adit already ships AI Front Desk natively (medixdental.com, 2026) and CareStack has $145M+ in capital and FDA-cleared AI partnerships (Tracxn, 2026; BusinessToday, 2021), giving them resources to extend into back-office automation and squeeze a pre-revenue entrant.
-- **Healthcare data/HIPAA technical risk:** [Inferred]: Automating insurance payment posting and unifying PMS data requires HIPAA-compliant integrations with Dentrix/Eaglesoft/Open Dental; no evidence of completed compliance posture or integrations in public sources.
-- **Name disambiguation risk:** "Denta" is a common dental-brand stem (DentaMetrix, Dentacoin, etc.), which may impair search-driven inbound discovery; no public data on SEO or brand-traffic mitigation found.
+- **Competitive overlap:** Archy markets an AI platform that puts dental practices “on autopilot” and has raised $47 million, while CareStack reports $145 million raised and more than 3,000 practices ([Goodwin](https://www.goodwinlaw.com/en/news-and-events/news/2025/10/announcements-technology-goodwin-guides-archy), Oct 2025; [CareStack](https://carestack.com/company), 2026).
+- **Sensitive-data exposure:** Denta processes health and financial data and shares AI-product inputs, outputs, and personal information with Anthropic, creating privacy, vendor-governance, and healthcare-data handling requirements ([Denta privacy policy](https://www.trydenta.com/legal/privacy), Feb 2026).
+- **Integration dependency:** Denta’s automation proposition depends on aggregating fragmented practice data and maintaining context across customer systems, while no public integration catalog identifies the supported practice-management, insurer, phone, accounting, or payment systems ([Denta privacy policy](https://www.trydenta.com/legal/privacy), Feb 2026; [Y Combinator](https://www.ycombinator.com/companies/denta), Jul 2026).
+- **Customer concentration visibility:** Denta reports more than 50 locations but does not disclose the number of customer organizations, so the location count could be concentrated among a smaller number of dental groups ([Y Combinator launch video](https://www.linkedin.com/posts/y-combinator_denta-yc-s26-is-building-the-dental-practice-activity-7480654434939711488-xQQJ), Jul 2026).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | USD 2.15B in 2026 → USD 4.87B by 2034, global dental PMS (Fortune Business Insights, 2026); alternative estimate USD 2.64B in 2026 (Precedence Research, 2026) |
-| SAM | North America = 41% of global market in 2025 (Precedence Research, 2026); implies ~USD 0.88B North America in 2026 |
-| Traction | $3,000 MRR (YC company page, 2026); 60 practices piloting (YC company page, 2026); launched ~2 weeks before YC profile capture (YC company page, 2026) |
-| Revenue Signal | $3,000 MRR (YC company page, 2026); no pricing page on trydenta.com (trydenta.com, 2026) |
-| Founders | Jack Beecher (Founder): Dartmouth CS & Math dropout; operated father's 10-practice Iowa DSO; solo founder |
-| Competitors | CareStack ($145M+ raised, revenue unknown, multi-location cloud PMS); Adit (funding unknown, revenue unknown, native AI Front Desk PMS); Tebra (funding unknown, revenue unknown, EHR+PMS broader than dental); Curve Dental (funding unknown, revenue unknown, cloud-first multi-location PMS); HeyGent (funding unknown, revenue unknown, standalone AI dental receptionist) |
-| Moat Signals | Access to father's 10-practice Iowa DSO as design partners (YC company page, 2026); no IP, network, or regulatory moat disclosed |
-| Risk Factors | Solo-founder execution, design-partner concentration in family DSO, incumbent feature overlap (Adit AI Front Desk; CareStack capitalization) |
-| Founder Reach | Jack Beecher: Twitter @jbeech03 count not retrievable, LinkedIn profile present (headline "Denta \| YC S26"), GitHub No public data found |
-| Distribution Signals | No public data found (no Product Hunt, press, app store, or Chrome Web Store presence surfaced) |
-| Emails | No public data found |
-
-Sources:
-- [Denta — Y Combinator](https://www.ycombinator.com/companies/denta)
-- [Denta — trydenta.com](https://www.trydenta.com/)
-- [Jack Beecher — LinkedIn](https://www.linkedin.com/in/jack-beecher-459a13180/)
-- [Jack Beecher (@jbeech03) — X](https://x.com/jbeech03?lang=en)
-- [Kimball & Beecher Family Dentistry](https://www.kimballandbeecher.com/)
-- [Interview with Dartmouth Class of 2027 Student, Jack Beecher](https://collegeconsulting.us/interview-with-dartmouth-class-of-2027-student-jack-beecher/)
-- [8 Best AI Tools for Dental Practices in 2026 — Medix Dental](https://medixdental.com/ai-tools-for-dental-practices/)
-- [CareStack — Tracxn profile](https://tracxn.com/d/companies/carestack/__y_nu6zWxAt39Usy5aV1BDkEt6FeCxTcuBUe009-c55Q)
-- [CareStack raises $22.5M — BusinessToday](https://www.businesstoday.in/latest/corporate/story/dental-software-start-up-carestack-raises-225-million-to-fund-expansion-294446-2021-04-27)
-- [Dental PMS Market — Fortune Business Insights](https://www.fortunebusinessinsights.com/dental-practice-management-software-market-105115)
-- [Dental PMS Market — Precedence Research](https://www.precedenceresearch.com/dental-practice-management-software-market)
+| TAM | $3.1B global dental practice-management software market in 2025, projected to reach $6.8B by 2033 at 10.6% CAGR (Grand View Research, 2026) |
+| SAM | U.S. dental practice-management software market projected to reach $1.55B by 2030 at 9.1% CAGR (Grand View Research, 2026) |
+| Traction | More than 50 dental locations (Y Combinator launch video, Jul 2026) |
+| Revenue Signal | No public data found |
+| Founders | Jack Beecher (Founder): Dartmouth CS and mathematics dropout; helped operate his father’s ten Iowa dental practices (Y Combinator, Jul 2026) |
+| Competitors | Archy ($47M raised, revenue unknown, AI-agent practice-management suite) (Goodwin, Oct 2025); CareStack ($145M raised, revenue unknown, cloud suite serving 3,000+ practices) (CareStack, 2026); NexHealth ($176M raised, revenue unknown, patient-experience platform and healthcare API) (NexHealth, 2026) |
+| Moat Signals | More than 50 deployed locations providing practice-workflow exposure; no public patent, proprietary-dataset, or network-effect evidence (Y Combinator launch video, Jul 2026) |
+| Risk Factors | Competitive overlap (Goodwin and CareStack, 2025–2026), sensitive-data and Anthropic dependency (Denta privacy policy, Feb 2026), undisclosed integration coverage (Denta privacy policy, Feb 2026) |
+| Founder Reach | Jack Beecher: Twitter not found, LinkedIn 953 followers and 500+ connections, GitHub not found (LinkedIn, Jul 2026) |
+| Distribution Signals | 42 LinkedIn company followers; zero YC-listed jobs (LinkedIn and Y Combinator, Jul 2026) |
+| Emails | support@trydenta.com, jack@trydenta.com (Denta privacy policy and Y Combinator, Feb–Jul 2026) |

@@ -14,52 +14,52 @@
   },
   "tags": [],
   "slideImage": null,
-  "memoGeneratedAt": "2026-06-29T06:03:43.453Z",
+  "memoGeneratedAt": "2026-07-30T17:29:46.025Z",
   "evalScores": {
     "cyan-banister": {
+      "score": 81,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 64,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 85,
+      "tier": "Strong Invest"
+    },
+    "peter-thiel": {
       "score": 62,
       "tier": "Neutral"
     },
-    "elad-gil": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "paul-graham": {
+    "sam-lessin": {
       "score": 49,
       "tier": "Neutral"
     },
-    "peter-thiel": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 39,
-      "tier": "Pass"
-    },
     "vinod-khosla": {
-      "score": 63,
-      "tier": "Neutral"
+      "score": 75,
+      "tier": "Invest"
     }
   },
   "consolidatedScores": {
-    "CB": 62,
-    "EG": 41,
-    "NR": 34,
-    "PG": 49,
-    "PT": 44,
-    "SL": 39,
-    "VK": 63
+    "CB": 81,
+    "EG": 64,
+    "NR": 45,
+    "PG": 85,
+    "PT": 62,
+    "SL": 49,
+    "VK": 75
   },
-  "consolidatedAvg": 47.43,
-  "consolidatedRank": 8,
+  "consolidatedAvg": 65.86,
+  "consolidatedRank": 3,
   "traction": {
-    "tractionRank": 45,
-    "tractionScore": 15,
-    "tractionReason": "$3M pre-seed + $1.25M SBIR (funding not traction)"
+    "tractionRank": 3,
+    "tractionScore": 92,
+    "tractionReason": "$1.25M U.S. Air Force contract"
   },
   "paths": {
     "memo": "summer2026/memos/hop-aero.md",

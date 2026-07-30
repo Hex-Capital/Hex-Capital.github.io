@@ -1,69 +1,72 @@
 {
   "slug": "nebula-security",
   "name": "Nebula Security",
-  "oneLiner": "An AI-native cybersecurity company",
+  "oneLiner": "A security engineer in your team",
   "metadata": {
     "website": "https://nebusec.ai",
     "yc_page": "https://www.ycombinator.com/companies/nebula-security",
     "batch": "Summer 2026",
     "industry": "B2B / B2B -> Security",
-    "team_size": "2",
+    "team_size": "4",
     "location": "Vancouver, WA, USA; Remote",
-    "tags": "Cybersecurity, AI",
-    "yc_partner": "Ankit Gupta",
-    "emails": "root@nebusec.ai, info@nebusec.ai"
+    "tags": "Artificial Intelligence, B2B, Security, Cybersecurity, Enterprise",
+    "yc_partner": "Ankit Gupta ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/nebula-security))",
+    "emails": "info@nebusec.ai, root@nebusec.ai, founders@nebusec.ai ([company website](https://nebusec.ai/), [security-audit page](https://nebusec.ai/security-audit/), [Y Combinator](https://www.ycombinator.com/companies/nebula-security), Jul 2026)"
   },
   "tags": [
+    "Artificial Intelligence",
+    "B2B",
+    "Security",
     "Cybersecurity",
-    "AI"
+    "Enterprise"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-02T16:36:23.572Z",
+  "memoGeneratedAt": "2026-07-30T17:56:58.863Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 34,
-      "tier": "Pass"
+      "score": 62,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 42,
-      "tier": "Pass"
+      "score": 59,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 65,
+      "score": 70,
       "tier": "Invest"
     },
+    "paul-graham": {
+      "score": 89,
+      "tier": "Strong Invest"
+    },
     "peter-thiel": {
-      "score": 26,
+      "score": 44,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 31,
-      "tier": "Pass"
+      "score": 54,
+      "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 36,
+      "score": 43,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 34,
-    "EG": 42,
-    "NR": 38,
-    "PG": 65,
-    "PT": 26,
-    "SL": 31,
-    "VK": 36
+    "CB": 62,
+    "EG": 59,
+    "NR": 70,
+    "PG": 89,
+    "PT": 44,
+    "SL": 54,
+    "VK": 43
   },
-  "consolidatedAvg": 38.86,
-  "consolidatedRank": 34,
+  "consolidatedAvg": 60.14,
+  "consolidatedRank": 23,
   "traction": {
-    "tractionRank": 26,
-    "tractionScore": 34,
-    "tractionReason": "729 CVEs catalogued, $10.5K bounty earned"
+    "tractionRank": 33,
+    "tractionScore": 57,
+    "tractionReason": "$400K Google bounties and 1,162 validated findings"
   },
   "paths": {
     "memo": "summer2026/memos/nebula-security.md",

@@ -1,7 +1,7 @@
 {
   "slug": "screenpipe",
   "name": "screenpipe",
-  "oneLiner": "Help your team find the work worth automating",
+  "oneLiner": "AI powered by everything you've seen, said or heard",
   "metadata": {
     "website": "https://screenpipe.com",
     "yc_page": "https://www.ycombinator.com/companies/screenpipe",
@@ -9,64 +9,64 @@
     "industry": "B2B / B2B -> Productivity",
     "team_size": "6",
     "location": "San Francisco, CA, USA",
-    "tags": "SaaS, B2B, Enterprise, Enterprise Software, AI",
-    "yc_partner": "Gustaf Alstromer (YC company page)",
-    "emails": "louis@screenpi.pe (screenpipe.com homepage)"
+    "tags": "Artificial Intelligence, SaaS, B2B, Enterprise, Enterprise Software",
+    "yc_partner": "Gustaf Alstromer",
+    "emails": "louis@screenpi.pe"
   },
   "tags": [
+    "Artificial Intelligence",
     "SaaS",
     "B2B",
     "Enterprise",
-    "Enterprise Software",
-    "AI"
+    "Enterprise Software"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-08T04:52:47.869Z",
+  "memoGeneratedAt": "2026-07-30T17:41:48.355Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 58,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 58,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
       "score": 68,
       "tier": "Invest"
     },
+    "elad-gil": {
+      "score": 80,
+      "tier": "Invest"
+    },
+    "naval-ravikant": {
+      "score": 76,
+      "tier": "Invest"
+    },
     "paul-graham": {
-      "score": 67,
+      "score": 73,
       "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 33,
-      "tier": "Pass"
+      "score": 55,
+      "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 49,
+      "score": 58,
       "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 36,
-      "tier": "Pass"
+      "score": 49,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 58,
-    "EG": 58,
-    "NR": 68,
-    "PG": 67,
-    "PT": 33,
-    "SL": 49,
-    "VK": 36
+    "CB": 68,
+    "EG": 80,
+    "NR": 76,
+    "PG": 73,
+    "PT": 55,
+    "SL": 58,
+    "VK": 49
   },
-  "consolidatedAvg": 52.71,
-  "consolidatedRank": 3,
+  "consolidatedAvg": 65.57,
+  "consolidatedRank": 4,
   "traction": {
-    "tractionRank": 2,
-    "tractionScore": 86,
-    "tractionReason": "250k users, 19k GitHub stars, pricing live"
+    "tractionRank": 8,
+    "tractionScore": 80,
+    "tractionReason": "Tens of thousands revenue; 250K users"
   },
   "paths": {
     "memo": "summer2026/memos/screenpipe.md",

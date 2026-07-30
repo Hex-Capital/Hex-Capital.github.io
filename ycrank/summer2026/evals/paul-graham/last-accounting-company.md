@@ -1,0 +1,30 @@
+﻿# Last Accounting Company -- Paul Graham Evaluation
+
+Riki Karjalainen and Sami Laakkonen built petabyte-scale financial-data infrastructure, while Last Accounting Company is already onboarding customers roughly ten weeks after the idea began. Last Accounting Company is a schlep-heavy startup with animal evidence missing: the founders chose accounting migrations, filings, human approvals, and error liability, but the dossier contains no cereal-box moment showing what they will do when the obvious path stops working. That pairing usually produces a competent service business before it produces a black swan.
+
+**Coinbase** (2012) is the high rung on the schlep axis because Brian Armstrong ran toward compliance while other hackers pretended regulation was someone else’s problem. Last Accounting Company shares the load-bearing mechanism: its Björn agent must coordinate banks, payroll, tax documents, VAT, filings, and a proprietary ledger while certified accountants remain responsible for approval. Last Accounting Company diverges where Coinbase was strongest. Supported jurisdictions, accountant certifications, migration results, and error rates are not publicly enumerated, so the founders have selected the schlep but have not yet shown they can metabolize it.
+
+**Kiko** (2005)’s eBay exit is the low-rung failure mechanism: when timing turns bad, selling the artifact can look deceptively like resourcefulness while actually revealing insufficient ambition. Last Accounting Company has more substance than that low rung because Riki Karjalainen and Sami Laakkonen built real financial-data systems and Last Accounting Company produced a proprietary ledger quickly enough to begin onboarding customers within ten weeks. But “onboarding first customers” is not an animal story. There is no named customer, revenue figure, manual rescue, rejected application overturned by a prototype, or improbable sale. Animals leave tracks; these tracks are still faint.
+
+Riki Karjalainen and Sami Laakkonen previously worked inside financial-data infrastructure, while Veikko Pere and Pietari Virkkunen encountered finance operations through BCG, Intera Partners, private equity, and venture capital. Over eighteen months, organic founder pain would compound inside Last Accounting Company if every ugly close teaches its agents a reusable correction and every accountant approval improves the ledger. It fails to compound if Last Accounting Company merely observed that accounting is inefficient and hired humans to bridge unreliable automation. The biographies make the idea adjacent to the founders’ lives, but the dossier never says one of them personally suffered through a close and built Björn for himself.
+
+Riki Karjalainen has no public repositories, and Sami Laakkonen has no confirmed GitHub trail despite both having built petabyte-scale infrastructure at Token Terminal. Last Accounting Company would move up a tier on hacker genealogy if the proprietary ledger were accompanied by a working technical artifact—an open-source accounting primitive, a benchmark showing autonomous reconciliation accuracy, or evidence that external agents already use its MCP server. Until then, Last Accounting Company has credible engineering employment rather than the pre-company hacker trail I saw in Patrick Collison’s Lisp work or Aaron Swartz’s RSS work. The BCG, private-equity, and venture-capital backgrounds also create a manager-mode risk that shipped code must overcome.
+
+**Stripe** (2010) had two brothers who had already built together; Last Accounting Company has four founders who reportedly knew one another since middle school. The long relationship is the important parallel because disagreements become lethal before technical problems do. Last Accounting Company is outside my preferred pair-or-trio configuration, but four old friends with complementary engineering, finance, and legal exposure are better than two strangers paired for an application. The unanswered question is whether four founders preserve founder mode or create four management constituencies.
+
+430 LinkedIn followers and first-customer onboarding point toward a specific 36-month outcome: Last Accounting Company reaches $3–7 million in annual recurring revenue as a Nordic technology-enabled accounting firm, but remains labor-bearing rather than becoming the default ledger for agent-native businesses. Last Accounting Company can win customers because the schlep is real; the missing animal artifact and unproven automation ratio make rapid software-like compounding less likely. Human approval will initially conceal agent errors, then become the constraint.
+
+**Balance** already offers AI bookkeeping with human review, while Pilot has raised more than $150 million and attacks much of the same workflow. The strongest opposing case is that Last Accounting Company’s proprietary ledger, MCP server, Token Terminal engineers, and four-founder relationship make the apparent services burden analogous to early Stripe: the manual layer is scaffolding around a new financial primitive. Last Accounting Company could therefore use Nordic regulatory complexity as training data competitors cannot easily reproduce. But the dossier supplies no accuracy rate, revenue, integration list, retention evidence, or public hacker artifact, and none of the **Airbnb**, **Loopt**, or **Stripe** exceptions applies without an overriding founder signal. I would flip to Invest if Last Accounting Company reaches $1 million ARR while serving at least 100 customers per approving accountant, proving that the schlep is becoming software rather than payroll.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Demonstrates Animal Resourcefulness Pre-Funding | 17/35 |
+| Idea Is Organic to Founders' Own Pain | 17/25 |
+| Problem Sits in a Schlep Zone Mainstream Founders Avoid | 13/15 |
+| Hacker Genealogy in the Founder Team | 10/15 |
+| Co-founder Configuration Is a Strong Pair or Trio, Not Solo | 7/10 |
+| **Total** | **64/100** |
+
+**Total Score: 64/100** (Neutral)

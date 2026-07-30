@@ -8,63 +8,64 @@
     "batch": "Summer 2026",
     "industry": "B2B / B2B -> Finance and Accounting",
     "team_size": "2",
-    "location": "London, United Kingdom",
-    "tags": "B2B, Enterprise Software, AI",
-    "yc_partner": "Vivian Midha Shen",
-    "emails": "hello@rex.inc (rex.inc website)"
+    "location": "San Francisco, CA, USA",
+    "tags": "B2B, Enterprise, Enterprise Software, AI",
+    "yc_partner": "Vivian Midha Shen ([Y Combinator](https://www.ycombinator.com/companies/rex-inc), Jul 2026)",
+    "emails": "admin@rex.inc, legal@rex.inc ([Rex privacy policy](https://www.rex.inc/privacy-policy), May 2026; [Rex terms](https://www.rex.inc/terms-of-service))"
   },
   "tags": [
     "B2B",
+    "Enterprise",
     "Enterprise Software",
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-06-29T06:09:52.954Z",
+  "memoGeneratedAt": "2026-07-30T17:55:51.612Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 52,
+      "score": 61,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 53,
-      "tier": "Neutral"
+      "score": 73,
+      "tier": "Invest"
     },
     "naval-ravikant": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 64,
+      "score": 57,
       "tier": "Neutral"
     },
+    "paul-graham": {
+      "score": 79,
+      "tier": "Invest"
+    },
     "peter-thiel": {
-      "score": 40,
-      "tier": "Pass"
+      "score": 49,
+      "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 31,
-      "tier": "Pass"
+      "score": 52,
+      "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 41,
+      "score": 42,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 52,
-    "EG": 53,
-    "NR": 43,
-    "PG": 64,
-    "PT": 40,
-    "SL": 31,
-    "VK": 41
+    "CB": 61,
+    "EG": 73,
+    "NR": 57,
+    "PG": 79,
+    "PT": 49,
+    "SL": 52,
+    "VK": 42
   },
-  "consolidatedAvg": 46.29,
-  "consolidatedRank": 9,
+  "consolidatedAvg": 59,
+  "consolidatedRank": 35,
   "traction": {
-    "tractionRank": 3,
-    "tractionScore": 82,
-    "tractionReason": "$500M F100 receivables managed, Vercel #1/2500"
+    "tractionRank": 15,
+    "tractionScore": 72,
+    "tractionReason": "$500M receivables managed; 22K autonomous actions"
   },
   "paths": {
     "memo": "summer2026/memos/rex-inc.md",

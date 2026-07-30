@@ -1,0 +1,30 @@
+﻿# Donkey -- Elad Gil Evaluation
+
+Prelude OS acquired 31 paying Chinese factories in 39 days and reached cash-flow positive, while Donkey discloses no current-product revenue or repeat usage. That pairing is Donkey’s signature: a founder who has already demonstrated unusually fast shipping and selling, now operating a model that does not yet occupy an index-like position on its category. Donkey can execute, but today Donkey must finance, inspect, import, and deliver each transaction individually rather than automatically compounding with global trade.
+
+**Perplexity** is the high rung on founder iteration: Aravind Srinivas repeatedly returned with the prior week’s discussion built. Benjamin Martindale and Minghao Tan sit below that rung but above a credential-only founder profile. Martindale built Prelude OS, sold 31 factories in 39 days, speaks Mandarin, and advised Sany and Sinoboom; Tan has already built Donkey’s customs parser and factory-versus-forwarder classifier. The divergence is specific: Donkey provides no evidence that Martindale or Tan has iterated Donkey between customer conversations, and the disclosed success belongs to Prelude rather than Donkey. The prior shipping artifact is real, but the current feedback loop remains unobserved.
+
+**Lyft** exposed the low-rung failure mechanism for index position: a business that must win transactions against stronger alternatives rather than benefiting automatically from category growth. Donkey currently resembles that structure more than Stripe’s “index on e-commerce.” Every Donkey order requires supplier identification, inspection, title transfer, customs clearance, working capital, and delivery, while ImportYeti already indexes 70 million bills of lading and Sourcify already reports 3,000-plus factories. Donkey could become a proprietary trade-data layer, but Donkey today is a balance-sheet-intensive trading company using software, not a mandatory rail that every importer must touch.
+
+The temporary February–July 2026 Section 122 surcharge and the November 10 deadline for Section 301 exclusions create a real catalyst: landed-cost calculation and customs execution became more complex inside the relevant 24-month window. Donkey benefits over the next 18 months if each policy change increases demand for a single delivery-duty-paid quote, producing more orders and better factory, defect, and pricing data. The same mechanism can run backward, however: Donkey’s China concentration means tariffs can destroy the underlying sourcing economics rather than merely increase administrative pain. This is a market re-opening, but the catalyst is policy volatility—not the durable technological step-function that opened Stripe or Coinbase.
+
+Prelude OS’s 31 paying customers are not Donkey revenue, and Donkey discloses no GMV, reorder rate, gross margin, or named importer. The revenue score flips into invest territory if Donkey shows five to ten importers reordering within 90 days, with monthly GMV compounding above 20% and positive contribution margin after inspection, freight, credit insurance, and defaults. Without those numbers, Donkey’s seven-province inspector footprint is operating capacity rather than demand. In the AI cycle, Donkey calling itself AI-native does not substitute for a curve that is “just working.”
+
+**Color Genomics** is the useful single-anchor parallel: Color put workflow and data infrastructure on top of commodity sequencing instead of requiring new chemistry. Donkey similarly assumes existing customs records, Chinese manufacturing, inspection, freight, and trade finance; Donkey’s core technical miracle is accurate product-to-factory identification and reliable landed-cost execution. The problem is that Donkey also needs compliant first-sale valuation, affordable working capital, dependable quality control, and importer trust. None requires new science, but the dependencies can compound operationally, leaving Donkey closer to a multi-constraint services business than Color’s cleaner workflow-layer architecture.
+
+Net-45 terms, title ownership, and importer-of-record responsibility point to a specific 36-month outcome: by July 2029, Donkey will have pivoted from principal trading into customs-compliance and landed-cost workflow software, reaching roughly $2–5 million ARR rather than scaling the current balance-sheet model. Donkey’s founders are likely to ship through the problem, but Donkey’s weak index position will push Martindale and Tan toward selling the parser, supplier intelligence, and transaction workflow without financing every container. That is a useful business; it is not yet one of the dozen or two defining infrastructure companies of the decade.
+
+Thirty-one paying factories in 39 days is the strongest objection to that forecast. The bull mechanism is a **Color Genomics**-style known exception: Donkey could use hands-on execution to accumulate product-to-factory, defect, pricing, and delivery records that software-only ImportYeti cannot obtain, then turn transaction density into a data moat. The objection stings because Martindale already demonstrated China-side sales velocity and Donkey already has inspectors across seven provinces. The evidence that still wins is the absence of a single Donkey customer, reorder, or GMV figure alongside first-sale documentation risk and net-45 credit exposure. I would flip to invest if Donkey verifies at least $1 million of monthly GMV, three consecutive months above 20% growth, positive fully loaded contribution margin, and a majority of buyers completing a second order.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Market Re-Opening Via Specific Recent Catalyst | 18/28 |
+| Revenue Velocity or Usage Curve Already Visible | 9/25 |
+| Founder Ships Iteratively Between Conversations | 16/20 |
+| Index-Like Distribution Position On A Compounding Category | 5/15 |
+| Single-Miracle Architecture Rather Than Multi-Miracle Dependency | 7/12 |
+| **Total** | **55/100** |
+
+**Total Score: 55/100** (Neutral)

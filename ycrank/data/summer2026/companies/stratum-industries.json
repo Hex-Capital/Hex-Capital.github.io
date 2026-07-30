@@ -1,0 +1,81 @@
+{
+  "slug": "stratum-industries",
+  "name": "Stratum Industries",
+  "oneLiner": "AI agents that clear the U.S. government backlog.",
+  "metadata": {
+    "website": "https://stratumindustries.co/",
+    "yc_page": "https://www.ycombinator.com/companies/stratum-industries",
+    "batch": "Summer 2026",
+    "industry": "Government / Government",
+    "team_size": "2",
+    "location": "New York City, NY, USA",
+    "tags": "GovTech, Automation, AI",
+    "yc_partner": "Jared Friedman",
+    "emails": "founders@stratumindustries.co, vihaan@jagiasi.com, raj@jagiasi.com"
+  },
+  "tags": [
+    "GovTech",
+    "Automation",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:40:36.968Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 67,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 46,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 41,
+    "EG": 59,
+    "NR": 45,
+    "PG": 67,
+    "PT": 44,
+    "SL": 32,
+    "VK": 46
+  },
+  "consolidatedAvg": 47.71,
+  "consolidatedRank": 130,
+  "traction": {
+    "tractionRank": 158,
+    "tractionScore": 3,
+    "tractionReason": "No customers, users, pilots, or revenue disclosed"
+  },
+  "paths": {
+    "memo": "summer2026/memos/stratum-industries.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/stratum-industries.md",
+      "elad-gil": "summer2026/evals/elad-gil/stratum-industries.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/stratum-industries.md",
+      "paul-graham": "summer2026/evals/paul-graham/stratum-industries.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/stratum-industries.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/stratum-industries.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/stratum-industries.md"
+    }
+  }
+}

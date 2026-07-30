@@ -1,94 +1,82 @@
 ﻿# Amulet
 
-> Agents that drive customer success
+> High performance file system for agents
 
 | Field | Value |
 |-------|-------|
 | Website | https://amulet.so/ |
 | YC Page | https://www.ycombinator.com/companies/amulet |
 | Batch | Summer 2026 |
-| Industry | B2B / B2B -> Operations |
+| Industry | B2B / B2B -> Infrastructure |
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
-| Tags | SaaS, B2B, Customer Success, AI Assistant |
+| Tags | Developer Tools, Machine Learning, Big Data, Infrastructure, AI |
 | YC Partner | Diana Hu |
 | Emails | No public data found |
 
 ## The Idea
 
-- **Problem:** Post-sales teams manually monitor accounts across CRM, support, product usage, and communication tools to detect churn risk and expansion opportunities, and typically staff this with human CSMs or use legacy platforms like Gainsight/ChurnZero (YC company page).
-- **Approach:** AI agents connect to CRM, support, product usage, and communication data sources to flag churn risks, surface upsell opportunities, track adoption, and draft customer-specific outreach messages (YC company page).
-- **Differentiation:** [Inferred]: Positions as agent-native versus legacy Gainsight/ChurnZero (AI features layered on decade-old architectures per Medium market review, Apr 2026) and versus Vitally/Planhat mid-market suites, though public product differentiators are not yet published.
-- **Business Model:** [Inferred]: SaaS subscription for post-sales teams; no pricing page indexed; landing page (amulet.so) returned HTTP 403 to WebFetch and no public pricing tiers were found.
-- **TAM/SAM:** Customer Success Platforms Market valued at USD 3.61B in 2026, projected to USD 8.3B by 2030 at 23.2% CAGR (Research and Markets, 2026); alternative estimate USD 2.68B in 2026 (Mordor Intelligence, 2026).
-- **GTM / Distribution:** No public GTM data found; company reports Hiring: False (YC company page) and no active YC job postings surfaced.
+- **Problem:** Data-intensive AI teams need short-lived agents and training jobs to access and modify large shared datasets without repeatedly copying data or losing work across disposable compute ([Amulet website](https://amulet.so/)).
+- **Approach:** Amulet mounts ordinary Linux workspaces in under 100 ms, creates copy-on-write forks in milliseconds, and records immutable content-addressed commits with conflict-checked publishing and per-run provenance ([Amulet website](https://amulet.so/)).
+- **Differentiation:** Amulet adds zero-copy writable forks, workspace-level version history, and conflict-safe publishing that its company-authored comparisons say are absent from Archil’s bucket-acceleration service, JuiceFS’s general-purpose distributed filesystem, and AWS EFS’s shared NFS model ([Archil comparison](https://amulet.so/compare/amulet-vs-archil), [JuiceFS comparison](https://amulet.so/compare/amulet-vs-juicefs), [AWS EFS comparison](https://amulet.so/compare/amulet-vs-aws-efs)).
+- **Business Model:** Usage-based pricing is $0.20 per GiB-month of actively used data after a free 10 GB, while API calls, transfers, metadata operations, snapshots, and forks are free; committed-use and private-deployment terms are negotiated ([Amulet pricing](https://amulet.so/pricing)).
+- **TAM/SAM:** No public TAM/SAM data found for this specific segment.
+- **GTM / Distribution:** [Inferred]: Private-beta access through a work-email waitlist, demo booking, developer documentation, and a free tier indicates founder-led design partnerships followed by self-service adoption among AI infrastructure teams ([Amulet website](https://amulet.so/), [pricing](https://amulet.so/pricing)).
 
 ## Defensibility
 
-- **Moat today:** No defensibility signals found in public sources; product launched in 2026 (YC page) with no disclosed customer count, integrations list, or proprietary data assets.
-- **Future moat:** [Inferred]: Cross-customer data on post-sales signals (usage + comms + CRM) could yield a proprietary churn/expansion training set, unproven at team size 2 (YC page).
-- **Market structure:** [Inferred]: Gainsight ($1.2B+ ARR per Medium market review, Apr 2026; $1.1B Vista acquisition, TechCrunch, Nov 2020) has channel and services revenue tied to human-in-the-loop CSM workflows, which an agent-first substitute could cannibalize.
-- **Commoditization risk:** Multiple agent-native CS entrants (Staircase AI acquired by Gainsight Jul 2024, Crunchbase; AI copilots inside Vitally per Medium, Apr 2026) show low technical barriers to build churn-risk agents on top of CRM/support APIs.
+- **Moat today:** The disclosed technical layer includes content-addressed commits, byte deduplication, copy-on-write forks, workspace-scoped credentials, conflict-checked publishing, p99 reads of 1.9 ms, and sustained throughput of 8.4 GB/s per mount ([Amulet–Archil comparison](https://amulet.so/compare/amulet-vs-archil)).
+- **Future moat:** [Inferred]: Integration into persistent agent workflows could create switching costs through stored histories, provenance records, workspace APIs, and operational dependencies, but the private beta provides no public retention or adoption evidence.
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** Cloud platforms, agent-sandbox vendors, distributed-filesystem projects, and funded specialists such as Archil can add overlapping caching, snapshots, branching, or provenance primitives ([Amulet comparison index](https://amulet.so/), [Archil Series A](https://archil.com/post/series-a)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Team size 2, active status, launched 2026 (YC company page)
-  - No public revenue, user count, press coverage, Product Hunt listing, or social follower counts found for amulet.so
-  - Website (amulet.so) returned HTTP 403 at time of research; no visible customer logos or testimonials retrievable
-- **Competitors:**
-  - Gainsight ($156M+ raised pre-acquisition, $1.1B Vista acquisition Nov 2020, $1.2B+ ARR per Medium review Apr 2026): incumbent enterprise CSP with Agentforce/Staircase-derived AI layered on legacy architecture.
-  - Vitally ($30M Series B, Next47, Mar 2023, Crunchbase; revenue unknown): mid-market CSP with AI Copilot for account risk and meeting recorder (Medium, Apr 2026).
-  - ChurnZero (revenue unknown, private): direct CSP incumbent focused on SMB/mid-market (techno-pulse.com, May 2026).
-  - Planhat (revenue unknown): CSP for smaller teams managing high accounts-per-CSM ratios (Medium, Apr 2026).
-  - Staircase AI ($5M seed, acquired by Gainsight Jul 2024, Crunchbase): communication-analytics churn-risk agent, now inside Gainsight.
-- **Why now:** [Inferred]: LLM agent capability (tool use + reasoning) reached production reliability in 2024–2025, enabling autonomous multi-source data monitoring and draft messaging that previously required a human CSM per account.
+  - Private beta with partners approved in small batches ([Amulet website](https://amulet.so/), Jul 2026).
+  - 115 LinkedIn followers ([LinkedIn](https://www.linkedin.com/company/amulet-labs), Jul 2026).
+  - Zero YC job postings ([YC company page](https://www.ycombinator.com/companies/amulet), Jul 2026).
+- **Competitors (minimum 3, up to 5):**
+  - Archil ($18M raised, revenue unknown): mounts and accelerates existing object-storage buckets, while Amulet supplies isolated writable forks, commit history, and conflict-safe publishing ([Archil funding announcement](https://archil.com/post/series-a), [Amulet comparison](https://amulet.so/compare/amulet-vs-archil)).
+  - Modal ($465.7M raised, more than $300M annualized revenue): provides a broader AI compute cloud with storage volumes, whereas Amulet is a standalone filesystem for versioned parallel workspaces ([Modal Series C](https://modal.com/blog/modal-series-c), [Forge funding history](https://forgeglobal.com/modal-labs_stock/)).
+  - E2B ($32M raised, revenue unknown): provides complete cloud sandboxes for agents, while Amulet focuses on persistent, forkable data workspaces mountable from different compute environments ([E2B Series A](https://changelog.e2b.dev/blog/series-a), [Amulet website](https://amulet.so/)).
+- **Why now:** [Inferred]: The catalyst is the 2025–2026 adoption of parallel, stateful agent workloads that create many disposable compute environments but require persistent shared data, a workload shift also cited in Archil’s April 2026 financing announcement ([Archil](https://archil.com/post/series-a)).
 
 ## Founders & Team
 
-- **Nithik Bala (Co-founder):**
-  - Background: Georgia Tech alum; former Software Engineer at Meta on Core Ads Growth & Web Infra; prior internships at Rockset (acquired by OpenAI) and PagerDuty (S10) (YC company page via search snippet; LinkedIn profile "Nithik B." SWE @ Meta / GT).
-  - Twitter/X: No public account found tied to Amulet.
-  - LinkedIn: "Nithik B." — SWE @ Meta / Georgia Tech alum (LinkedIn posts, 2023 via search snippet).
+- **Nithik Bala (Founder):**
+  - Background: Georgia Tech computer-science graduate; former Meta software engineer in Core Ads Growth and Web Infrastructure and former Rockset and PagerDuty engineering intern ([YC](https://www.ycombinator.com/companies/amulet), [WayUp](https://www.wayup.com/profile/Nithik-Balachandran-74b5d0ee37/)).
+  - Twitter/X: No public account found.
+  - LinkedIn: “Founder at Amulet (YC S26)” ([YC](https://www.ycombinator.com/companies/amulet)).
   - GitHub: No public repos found.
-- **Varun Puru (Co-founder):**
-  - Background: University of Michigan CS; former Software Engineer at Meta on Facebook product; prior internships at Amazon (backend) and J.P. Morgan (cloud infra) (search snippet, YC-linked results).
-  - Twitter/X: No public account found tied to Amulet.
-  - LinkedIn: No public profile confirmed as this Varun Puru (multiple same-name profiles in results).
+- **Varun Puru (Founder):**
+  - Background: University of Michigan computer-science graduate; former Meta software engineer with backend-systems and cloud-infrastructure internships at Amazon and J.P. Morgan ([YC](https://www.ycombinator.com/companies/amulet)).
+  - Twitter/X: No public account found.
+  - LinkedIn: “Founder at Amulet (S26)” ([YC](https://www.ycombinator.com/companies/amulet)).
   - GitHub: No public repos found.
-- **Co-founder relationship:** [Inferred]: Both founders overlap at Meta as software engineers per search snippets; no confirmed shared university or prior startup.
-- **Founder-market fit:** [Inferred]: Both founders are infrastructure/ads engineers rather than post-sales / customer success operators; no CS or GTM domain background documented in public sources.
+- **Co-founder relationship:** Both founders previously worked as software engineers at Meta ([YC](https://www.ycombinator.com/companies/amulet)).
+- **Founder-market fit:** Nithik Bala’s Rockset and Meta web-infrastructure work and Varun Puru’s Amazon and J.P. Morgan infrastructure internships document experience with databases, backend systems, and cloud infrastructure relevant to the product ([YC](https://www.ycombinator.com/companies/amulet)).
 
 ## Key Risks
 
-- **Founder-market fit gap:** Both founders' documented experience is Meta engineering (Core Ads/Web Infra; Facebook product) with no post-sales or CS operator history (search snippets); category buyers (VP CS, RevOps) typically demand domain-native product judgment, not documented mitigation found.
-- **Crowded, well-funded incumbent field:** Gainsight ($1.1B Vista acquisition, TechCrunch Nov 2020; $1.2B+ ARR per Medium, Apr 2026), Vitally ($30M Series B, Crunchbase Mar 2023), and Planhat/ChurnZero/Totango already ship AI copilots and agent features (Medium market review, Apr 2026).
-- **Incumbent tuck-in substitution:** Gainsight acquired Staircase AI in Jul 2024 (Crunchbase) to add agent-native churn analytics, demonstrating a live pattern of incumbents buying pre-seed agent startups before they reach distribution.
-- **Name ambiguity for discoverability:** "Amulet" is a common English noun and overlaps with unrelated products/entities, which surfaced in Product Hunt and social search results returning no relevant hits for amulet.so.
-- **Technical feasibility of autonomous outreach:** Drafting customer-specific messages that CSMs will send unedited requires high reliability on customer-facing content; no benchmarks, case studies, or pilot data are public.
+- **Recent product pivot:** Amulet’s LinkedIn history and an earlier YC search snapshot described customer-success agents shortly before its website and live YC page changed to an AI filesystem, leaving prior-product activity inapplicable to current-product traction ([LinkedIn](https://www.linkedin.com/company/amulet-labs), [live YC page](https://www.ycombinator.com/companies/amulet)).
+- **Technical scope:** Amulet excludes live same-file multi-writer access and offers partial rather than complete POSIX coverage, so workloads requiring shared writes or locks may remain better suited to JuiceFS or EFS ([JuiceFS comparison](https://amulet.so/compare/amulet-vs-juicefs)).
+- **Performance verification:** The 1.9-ms p99 read latency, 8.4-GB/s throughput, 3-ms forks, and sub-100-ms mounts are company-published figures with no independent benchmark located ([Amulet–JuiceFS comparison](https://amulet.so/compare/amulet-vs-juicefs)).
+- **Competitive financing:** Direct competitor Archil has raised $18M, while adjacent platforms E2B and Modal have raised $32M and $465.7M, respectively ([Archil](https://archil.com/post/series-a), [E2B](https://changelog.e2b.dev/blog/series-a), [Forge](https://forgeglobal.com/modal-labs_stock/)).
+- **Name ambiguity:** Search results include unrelated companies and projects named Amulet in cybersecurity, food-allergy hardware, decentralized finance, and machine-learning research, increasing the risk of misattributed funding or traction data ([Amulet Security LinkedIn](https://www.linkedin.com/company/amulet-sec), [CB Insights allergy-device profile](https://www.cbinsights.com/company/allergy-amulet/financials)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Customer Success Platforms Market $3.61B in 2026 → $8.3B by 2030, 23.2% CAGR (Research and Markets, 2026); alt. $2.68B 2026 (Mordor Intelligence, 2026) |
+| TAM | No public data found |
 | SAM | No public data found |
-| Traction | Launched 2026, team size 2, active status (YC company page); no revenue, users, press, Product Hunt, or social metrics found |
-| Revenue Signal | No public data found (amulet.so returned HTTP 403; no pricing page indexed) |
-| Founders | Nithik Bala (Co-founder): Georgia Tech; ex-Meta Core Ads Growth SWE; interned at Rockset (acq. OpenAI) and PagerDuty. Varun Puru (Co-founder): U-Michigan CS; ex-Meta SWE on Facebook product; interned at Amazon and J.P. Morgan. |
-| Competitors | Gainsight ($1.1B Vista acquisition Nov 2020, $1.2B+ ARR, incumbent CSP); Vitally ($30M Series B Mar 2023, revenue unknown, mid-market AI copilot); ChurnZero (revenue unknown, SMB/mid-market CSP); Planhat (revenue unknown, high-ratio CS teams); Staircase AI ($5M seed, acquired by Gainsight Jul 2024, agent-native churn analytics) |
-| Moat Signals | No public data found |
-| Risk Factors | Founder-market fit gap (engineering not CS), incumbent tuck-in substitution risk (Gainsight/Staircase pattern), crowded AI-CS field |
-| Founder Reach | Nithik Bala: Twitter not found, LinkedIn "Nithik B." SWE @ Meta / GT alum, GitHub not found. Varun Puru: Twitter not found, LinkedIn not disambiguated, GitHub not found. |
-| Distribution Signals | No public data found |
+| Traction | Private beta with partners approved in small batches (Amulet website, Jul 2026); 115 LinkedIn followers (LinkedIn, Jul 2026); zero YC job postings (YC, Jul 2026) |
+| Revenue Signal | $0.20 per GiB-month of active data after 10 GB free; API calls, transfers, metadata, and forks free (Amulet pricing, Jul 2026) |
+| Founders | Nithik Bala (Founder): Georgia Tech, Meta Core Ads Growth/Web Infrastructure, Rockset and PagerDuty internships; Varun Puru (Founder): University of Michigan, Meta, Amazon and J.P. Morgan internships (YC, Jul 2026) |
+| Competitors | Archil ($18M raised, revenue unknown, existing-bucket acceleration); Modal ($465.7M raised, more than $300M annualized revenue, integrated AI compute cloud); E2B ($32M raised, revenue unknown, complete agent sandboxes) (Archil, Modal, Forge, and E2B, 2025–2026) |
+| Moat Signals | Content-addressed history, copy-on-write forks, deduplication, conflict-safe publishing, and per-run provenance (Amulet website, Jul 2026) |
+| Risk Factors | Recent product pivot (LinkedIn and YC, Jul 2026), company-published performance claims without independent benchmarks (Amulet comparison pages, Jul 2026), funded direct and adjacent competitors (Archil, E2B, and Forge, 2025–2026) |
+| Founder Reach | No public data found |
+| Distribution Signals | 115 LinkedIn followers (LinkedIn, Jul 2026); private-beta waitlist and free 10 GB tier (Amulet website and pricing, Jul 2026) |
 | Emails | No public data found |
-
-Sources:
-- [Amulet — Y Combinator](https://www.ycombinator.com/companies/amulet)
-- [Vista acquires Gainsight for $1.1B — TechCrunch](https://techcrunch.com/2020/11/30/vista-acquires-gainsight-for-1-1b-adding-to-its-growing-enterprise-arsenal/)
-- [Vitally Series B — Crunchbase](https://www.crunchbase.com/funding_round/vitally-series-b--b68475a0)
-- [Staircase AI — Crunchbase](https://www.crunchbase.com/organization/staircase-ai)
-- [Customer Success Platforms Market Report — Research and Markets](https://www.researchandmarkets.com/reports/5783011/customer-success-platforms-market-report)
-- [Customer Success Management Market — Mordor Intelligence](https://www.mordorintelligence.com/industry-reports/customer-success-management-market)
-- [Best AI Customer Success Platforms 2026 — Techno-Pulse](https://www.techno-pulse.com/2026/05/best-ai-customer-success-platforms-in.html)
-- [Best Customer Success Platforms in 2026 — Medium](https://medium.com/@talking-tech-with-j/best-customer-success-platforms-in-2026-ive-evaluated-all-the-major-players-most-are-overbuilt-2ccc251bb7c1)

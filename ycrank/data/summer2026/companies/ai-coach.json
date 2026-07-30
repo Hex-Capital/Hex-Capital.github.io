@@ -1,0 +1,83 @@
+{
+  "slug": "ai-coach",
+  "name": "COACH",
+  "oneLiner": "The AI Coach for in person sales reps.",
+  "metadata": {
+    "website": "https://www.getcoach.com/",
+    "yc_page": "https://www.ycombinator.com/companies/ai-coach",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Sales",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, SaaS, B2B, Sales, Sales Enablement",
+    "yc_partner": "Jon Xu",
+    "emails": "nicolas.sebag@ai-coach.fr"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "SaaS",
+    "B2B",
+    "Sales",
+    "Sales Enablement"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:43:56.782Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 65,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 74,
+      "tier": "Invest"
+    },
+    "naval-ravikant": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 82,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 39,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 65,
+    "EG": 74,
+    "NR": 54,
+    "PG": 82,
+    "PT": 45,
+    "SL": 54,
+    "VK": 39
+  },
+  "consolidatedAvg": 59,
+  "consolidatedRank": 34,
+  "traction": {
+    "tractionRank": 5,
+    "tractionScore": 84,
+    "tractionReason": "$500K ARR after five months; 120% MoM growth"
+  },
+  "paths": {
+    "memo": "summer2026/memos/ai-coach.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/ai-coach.md",
+      "elad-gil": "summer2026/evals/elad-gil/ai-coach.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/ai-coach.md",
+      "paul-graham": "summer2026/evals/paul-graham/ai-coach.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/ai-coach.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/ai-coach.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/ai-coach.md"
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "last-accounting-company",
+  "name": "Last Accounting Company",
+  "oneLiner": "Agent-native accounting firm.",
+  "metadata": {
+    "website": "https://lastaccountingcompany.com/",
+    "yc_page": "https://www.ycombinator.com/companies/last-accounting-company",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Finance and Accounting",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Fintech, Finance",
+    "yc_partner": "Gustaf Alstromer ([Y Combinator](https://www.ycombinator.com/companies/last-accounting-company), Jul 2026)",
+    "emails": "hello@lastaccountingcompany.com ([company website](https://lastaccountingcompany.com/), Jul 2026)"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Fintech",
+    "Finance"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:34:55.031Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 64,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 41,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 46,
+    "EG": 56,
+    "NR": 57,
+    "PG": 64,
+    "PT": 45,
+    "SL": 44,
+    "VK": 41
+  },
+  "consolidatedAvg": 50.43,
+  "consolidatedRank": 110,
+  "traction": {
+    "tractionRank": 79,
+    "tractionScore": 44,
+    "tractionReason": "Onboarding first customers"
+  },
+  "paths": {
+    "memo": "summer2026/memos/last-accounting-company.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/last-accounting-company.md",
+      "elad-gil": "summer2026/evals/elad-gil/last-accounting-company.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/last-accounting-company.md",
+      "paul-graham": "summer2026/evals/paul-graham/last-accounting-company.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/last-accounting-company.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/last-accounting-company.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/last-accounting-company.md"
+    }
+  }
+}

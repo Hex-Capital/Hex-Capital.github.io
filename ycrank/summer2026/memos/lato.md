@@ -9,93 +9,74 @@
 | Batch | Summer 2026 |
 | Industry | B2B / B2B |
 | Team Size | 2 |
-| Location | San Francisco (YC page) |
+| Location | San Francisco, CA, USA |
 | Tags | B2B, Investing, Market Research, AI |
-| YC Partner | Gustaf Alstromer (YC page) |
-| Emails | founders@latolabs.io (latolabs.io) |
+| YC Partner | Gustaf Alstromer ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/lato)) |
+| Emails | hi@latolabs.io ([LATO website, Jul 2026](https://www.latolabs.io/)) |
 
 ## The Idea
 
-- **Problem:** Investors performing market diligence rely on commercial studies costing $300k+ (latolabs.io self-reported as "$400k+" on site) that take weeks to source experts and start from scratch each engagement (latolabs.io).
-- **Approach:** LATO runs hundreds of AI-moderated voice interviews with customers/experts/operators, fuses outputs with the fund's own knowledge + public data, and grounds a market simulation that predicts participant behavior (latolabs.io).
-- **Differentiation:** vs. AlphaSense/Tegus (curated expert call transcript library, $600M ARR — AlphaSense press, Mar 2026) LATO conducts new first-hand interviews rather than searching archives; vs. Listen Labs ($69M Series B Jan 2026, VentureBeat) which focuses on consumer brand customer research, LATO targets investor diligence workflow with a market simulation layer (latolabs.io).
-- **Business Model:** No pricing page published; [Inferred]: per-engagement or seat-based SaaS to VC/PE funds given client list (Blume Equity, FoodLabs, Montis VC, Concept Ventures — latolabs.io) and reference to displacing $300k+ commercial studies.
-- **TAM/SAM:** No public TAM/SAM data found for this specific segment; adjacent reference point — PE firms pay $500k–$1M for McKinsey/Bain/BCG customer-interview studies (TechCrunch DiligenceSquared, Mar 2026).
-- **GTM / Distribution:** [Inferred]: Direct sales to VC/PE funds via founder network — Tymek's 6 yrs at Verdane ($11B AUM PE, LinkedIn) likely seeded relationships; supported by named customers Blume Equity, FoodLabs, Montis VC, Concept Ventures (latolabs.io).
+- **Problem:** Investment firms rely on expert outreach and commercial studies that LATO says take weeks, cost more than $300,000, and restart for each market ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/lato)).
+- **Approach:** LATO sources verified experts, conducts and records multilingual voice interviews, combines their transcripts with public and proprietary documents, and uses the resulting study to simulate market-participant behavior ([LATO website, Jul 2026](https://www.latolabs.io/)).
+- **Differentiation:** [Inferred]: Unlike AlphaSense’s premium-content search, Hebbia’s document-analysis workspace, and Rogo’s end-to-end financial workflows, LATO centers primary voice interviews and market simulation alongside secondary research.
+- **Business Model:** [Inferred]: The demo-only website and firm-data integrations indicate negotiated enterprise contracts rather than public self-service pricing.
+- **TAM/SAM:** The commercial-due-diligence market was estimated at $571 million in 2024 and projected to reach $1.223 billion by 2031 at an 11.6% CAGR ([Global Info Research via MarketResearch.com, 2025](https://www.marketresearch.com/GlobalInfoResearch-v4117/Global-Commercial-Due-Diligence-Company-41334942/)).
+- **GTM / Distribution:** LATO solicits demos and direct email inquiries from investors, has disclosed early work with Blume Equity and FoodLabs, and integrates with investor tools including Affinity, Excel, SharePoint, Slack, and Attio ([LATO LinkedIn, Jul 2026](https://www.linkedin.com/company/lato); [LATO website, Jul 2026](https://www.latolabs.io/)).
 
 ## Defensibility
 
-- **Moat today:** Named paying/pilot fund customers (Blume Equity, FoodLabs, Montis VC, Concept Ventures — latolabs.io) and integrations with Gmail, Slack, Excel constitute early workflow embedment (latolabs.io); no other defensibility signals found in public sources.
-- **Future moat:** [Inferred]: Proprietary corpus of investor-conducted interviews + fund-specific "Company Brain" knowledge graph could compound into a switching-cost moat; unproven at 2-person team scale.
-- **Market structure:** [Inferred]: AlphaSense's archive-search model and expert networks (GLG, Third Bridge, AlphaSights, Guidepoint) earn per-call/subscription fees on human experts, so building autonomous AI voice agents that replace billable expert calls cannibalizes existing revenue (IntuitionLabs/Hebbia competitive overviews).
-- **Commoditization risk:** Multiple well-funded entrants execute the same AI-voice-interview thesis — Bridgetown Research ($19M Series A, Accel/Lightspeed, Feb 2026 via TechCrunch), DiligenceSquared ($5M seed, Relentless, Mar 2026 via TechCrunch), Listen Labs ($100M total raised, VentureBeat).
+- **Moat today:** No defensibility signals found in public sources.
+- **Future moat:** [Inferred]: Reusable proprietary interview transcripts, fund knowledge, and scenario results could form a firm-specific data asset, but LATO has not disclosed dataset scale, retention, or measured simulation accuracy.
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** AlphaSense, Rogo, and Hebbia already combine financial-domain AI with proprietary firm data, document research, and enterprise integrations, while production voice-agent APIs are generally available to developers ([AlphaSense, Jun 2026](https://www.alpha-sense.com/press/alphasense-raises-350m-at-7-5b-valuation-and-surpasses-600m-in-annual-recurring-revenue/); [Rogo, Jan 2026](https://rogo.ai/news/scaling-rogo-to-build-the-future-of-investment-banking-our-75m-series-c-and-european-expansion); [OpenAI, Aug 2025](https://openai.com/index/introducing-gpt-realtime/)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Customers named on homepage: Blume Equity, FoodLabs, Montis VC, Concept Ventures (latolabs.io).
-  - Customer testimonial: "brought valuable insights every time" — Tejas Choudhary, Principal, Blume Equity (latolabs.io).
-  - Built in Europe "100 selected founders" feature (Tymek LinkedIn post via search snippet).
-  - SOC 2 and ISO 27001 audits in progress; GDPR compliant (latolabs.io).
-  - Y Combinator Summer 2026 batch (YC page).
-  - Tymek LinkedIn followers: count not retrievable; LinkedIn handle /in/tymeks active.
-  - No Product Hunt launch found; no company Twitter/X account surfaced in search; LinkedIn company page exists at linkedin.com/company/latolabs (search result).
-- **Competitors:**
-  - AlphaSense (~$1.4B+ total raised incl. $650M 2024 + $350M Jun 2026, $600M ARR Q1 2026 — Sacra/PRNewswire): archive of expert call transcripts + filings search; LATO conducts new first-hand interviews.
-  - Tegus (acquired by AlphaSense for $930M, Jul 2024 — PRNewswire): expert transcript library, now integrated into AlphaSense.
-  - Bridgetown Research ($19M Series A, Accel + Lightspeed, Feb 2026 — TechCrunch; revenue unknown): AI diligence agents for investors, closest direct competitor.
-  - DiligenceSquared ($5M seed led by Relentless/Damir Becirovic, Mar 2026 — TechCrunch; revenue unknown): AI voice agents conducting M&A diligence interviews; explicitly PE-focused vs. LATO's VC focus.
-  - Listen Labs ($100M total, $69M Series B Jan 2026 at $500M val, "eight figures" annualized revenue — VentureBeat; customers Microsoft, Sweetgreen, Perplexity): AI customer interviews for consumer brands, not investor diligence.
-- **Why now:** Voice-LLM quality crossed a usability threshold in 2024–2025 enabling autonomous AI interviewers at scale (AssemblyAI 2026 voice AI report; Listen Labs $69M raise Jan 2026); 85% of private-capital dealmakers now use AI in daily workflow vs. 76% a year earlier (TechCrunch via search snippet).
+  - Two disclosed early customers—Blume Equity and FoodLabs—and 70% of use cases described as research-focused (company founder post on [LATO LinkedIn, Jun 2026](https://www.linkedin.com/company/lato)).
+  - 1,058 LinkedIn followers ([LATO LinkedIn, Jul 2026](https://www.linkedin.com/company/lato)).
+  - Zero active YC job listings ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/lato)).
+  - Product expanded from an Excel-based investment-model assistant advertised in March 2026 to expert interviews and market simulations by June 2026 ([LATO LinkedIn, Jul 2026](https://www.linkedin.com/company/lato)).
+- **Competitors (minimum 3, up to 5):**
+  - AlphaSense (well over $1 billion raised, more than $600 million ARR): supplies over 500 million premium business documents and expert-interview content, versus LATO’s automated primary interviews and market simulations ([AlphaSense, Jun 2026](https://www.alpha-sense.com/press/alphasense-raises-350m-at-7-5b-valuation-and-surpasses-600m-in-annual-recurring-revenue/)).
+  - Rogo (more than $165 million raised before a further $160 million financing, revenue unknown): provides bespoke financial agents that generate models, memos, and presentations, versus LATO’s commercial-research study and interview workflow ([Rogo, Jan 2026](https://rogo.ai/news/scaling-rogo-to-build-the-future-of-investment-banking-our-75m-series-c-and-european-expansion); [Rogo, Apr 2026](https://rogo.ai/news/series-d)).
+  - Hebbia ($161.1 million raised, $13 million reported revenue in 2024): analyzes large internal and external document collections through its Matrix interface, versus LATO’s inclusion of newly conducted expert interviews and behavioral simulation ([aVenture, Jul 2026](https://aventure.vc/companies/hebbia-new-york-city-ny-us/fundraising); [TechCrunch, Jul 2024](https://techcrunch.com/2024/07/09/ai-startup-hebbia-rased-130m-at-a-700m-valuation-on-13-million-of-profitable-revenue/)).
+- **Why now:** [Inferred]: Production voice interviews became easier to implement after the August 2025 general availability of low-latency speech-to-speech APIs with multilingual speech, tool calling, and SIP support ([OpenAI, Aug 2025](https://openai.com/index/introducing-gpt-realtime/)).
 
 ## Founders & Team
 
-- **Tymek Staniszewski (Co-founder):**
-  - Background: 6 years in growth and private equity at Verdane (~$11B AUM PE/growth firm) per LinkedIn /in/tymeks and latolabs.io; lived in 7 European countries; brother Mati co-founded ElevenLabs (Tymek LinkedIn post, search snippet).
-  - Twitter/X: @tym3k — account created May 2012, no posts (x.com/tym3k).
-  - LinkedIn: "Co-Founder at LATO" (linkedin.com/in/tymeks).
-  - GitHub: No public account found.
-- **Tien Chu (Co-founder):**
-  - Background: 8 years in AI and software engineering across enterprise R&D, research labs, and early-stage startups (latolabs.io); studied CS, Math, and Philosophy at University of Warsaw (search snippet).
+- **Tymek Staniszewski (Co-founder and CEO):**
+  - Background: Spent six years at Verdane, progressing from investor-relations intern to senior investment associate, and attended BI Norwegian Business School ([LinkedIn, 2026](https://www.linkedin.com/in/tymeks); [Y Combinator, Jul 2026](https://www.ycombinator.com/companies/lato)).
   - Twitter/X: No public account found.
-  - LinkedIn: profile exists; specific headline not retrievable.
-  - GitHub: @chutien, 8 public repos, no repo with notable star count surfaced (github.com/chutien).
-- **Co-founder relationship:** No public data on co-founder history beyond joint LATO YC S26 listing.
-- **Founder-market fit:** Tymek's 6 yrs at Verdane ($11B AUM) gives direct buyer-side exposure to commercial diligence workflows LATO is replacing (LinkedIn /in/tymeks); Tien's 8 yrs in ML/software covers the voice-AI + simulation build (latolabs.io). No advisors, board members, or named investors beyond YC found.
+  - LinkedIn: “LATO is the agent-native research and simulation platform for investors,” with approximately 3,000 followers ([LinkedIn, Jul 2026](https://www.linkedin.com/in/tymeks)).
+  - GitHub: No public repos found.
+- **Tien Chu (Co-founder and CTO):**
+  - Background: Studied computer science, mathematics, and philosophy at the University of Warsaw, worked across machine learning and software engineering, and co-authored research on constant-memory DNN training ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/lato); [arXiv, Dec 2020](https://arxiv.org/abs/2012.11745)).
+  - Twitter/X: No public account found.
+  - LinkedIn: “Co-Founder at LATO (S26), the agent-native research and simulation platform for investors”; count not retrievable ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/lato)).
+  - GitHub: No public repos found.
+- **Co-founder relationship:** The founders reported meeting in high school in Poland more than 11 years before entering YC ([LATO LinkedIn, Jun 2026](https://www.linkedin.com/company/lato)).
+- **Founder-market fit:** Tymek’s six years in growth equity and private equity document experience with the target workflow, while Tien’s machine-learning research and eight years of software-engineering experience support the interview-agent and simulation implementation ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/lato); [LATO website, Jul 2026](https://www.latolabs.io/)).
 
 ## Key Risks
 
-- **Direct competitor density and capital gap:** Bridgetown Research ($19M Series A — TechCrunch, Feb 2026), DiligenceSquared ($5M seed — TechCrunch, Mar 2026), and Listen Labs ($100M total — VentureBeat, Jan 2026) target overlapping AI-interview diligence/research workflows; LATO is at YC default ($500K standard deal) against a Series A-funded direct competitor. No public mitigation found.
-- **Incumbent substitution from AlphaSense+Tegus:** AlphaSense reached $600M ARR (Sacra, Mar 2026) with the acquired Tegus transcript library already serving most major VC/PE funds; an AI-voice-interview module from AlphaSense would directly substitute LATO. No mitigation found.
-- **Technical feasibility of "market simulation" claim:** The simulation/digital-twin layer that "predicts how market participants behave" (latolabs.io) is an unproven research problem at the accuracy investors require for capital allocation; competing approach Aaru ("synthetic populations") is also unvalidated (TechCrunch search snippet).
-- **Sales-cycle concentration on VC/PE buyers:** Named clients are all venture funds (Blume Equity, FoodLabs, Montis VC, Concept Ventures — latolabs.io); VC budgets contract sharply in fundraising downturns, exposing LATO to LP-cycle-driven revenue volatility. No mitigation found.
-- **Name collision risk:** "Lato AI" and other "Lato" entities exist (Facebook reference to "Michael Reynolds, Co-founder/CEO of Lato AI"; latotec.io domain), creating brand/SEO confusion. No mitigation found.
+- **Simulation validation:** LATO markets predictions of market-participant behavior but publishes no back-testing, accuracy measurements, sample sizes, or validation methodology ([LATO website, Jul 2026](https://www.latolabs.io/)).
+- **Competitive overlap:** AlphaSense exceeded $600 million ARR, Rogo reports more than 25,000 daily users, and Hebbia serves over 40% of the largest asset managers by AUM, giving each an installed financial-services customer base for overlapping research workflows ([AlphaSense, Jun 2026](https://www.alpha-sense.com/press/alphasense-raises-350m-at-7-5b-valuation-and-surpasses-600m-in-annual-recurring-revenue/); [Rogo, Jan 2026](https://rogo.ai/news/scaling-rogo-to-build-the-future-of-investment-banking-our-75m-series-c-and-european-expansion); [Hebbia, Aug 2025](https://www.hebbia.com/newsroom/hebbia-integrates-with-microsoft-azure-ai-foundry-to-elevate-financial)).
+- **Security procurement:** The product processes proprietary fund data and interview recordings, while its website states that SOC 2 and ISO 27001 work remains in progress; disclosed mitigations include encryption, no customer-data training, and GDPR compliance ([LATO website, Jul 2026](https://www.latolabs.io/)).
+- **Product-scope transition:** Public positioning moved within approximately three months from Excel-based investment-model checking to end-to-end research, expert interviews, and market simulation, creating execution risk across multiple distinct workflows ([LATO LinkedIn, Jul 2026](https://www.linkedin.com/company/lato)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | No public data found |
-| SAM | No public data found; reference point: PE customer-interview studies cost $500k–$1M each (TechCrunch DiligenceSquared, Mar 2026) |
-| Traction | Customers Blume Equity, FoodLabs, Montis VC, Concept Ventures (latolabs.io); Built in Europe "100 selected founders" (Tymek LinkedIn, search snippet); SOC 2 / ISO 27001 in progress (latolabs.io); YC S26 (YC page) |
-| Revenue Signal | No public data found; no pricing page; site references displacing "$400k+" commercial studies (latolabs.io) |
-| Founders | Tymek Staniszewski (Co-founder): 6 yrs Verdane PE/growth ($11B AUM), brother co-founded ElevenLabs. Tien Chu (Co-founder): 8 yrs ML/SWE, CS+Math+Philosophy U. of Warsaw. |
-| Competitors | AlphaSense (~$1.4B+ raised, $600M ARR — Sacra Mar 2026; transcript archive vs. LATO's first-hand interviews); Bridgetown Research ($19M Series A Feb 2026 — TechCrunch, revenue unknown; AI diligence agents); DiligenceSquared ($5M seed Mar 2026 — TechCrunch, revenue unknown; PE-focused AI voice diligence); Listen Labs ($100M raised, ~8-fig ARR — VentureBeat Jan 2026; consumer brand research not investor diligence) |
-| Moat Signals | Named VC customers + Gmail/Slack/Excel workflow integrations (latolabs.io) |
-| Risk Factors | Direct competitor density (Bridgetown/DiligenceSquared/Listen Labs), AlphaSense+Tegus incumbent substitution, unproven market-simulation accuracy |
-| Founder Reach | Tymek Staniszewski: Twitter @tym3k (no posts, x.com), LinkedIn /in/tymeks (count not retrievable), GitHub no public account found. Tien Chu: Twitter no public account found, LinkedIn count not retrievable, GitHub @chutien (8 repos, no notable stars) |
-| Distribution Signals | No Product Hunt launch found; LinkedIn company page linkedin.com/company/latolabs (search result); no Discord/Slack community found; 0 open YC job postings (YC page) |
-| Emails | founders@latolabs.io (latolabs.io) |
-
-Sources:
-- [LATO – Y Combinator](https://www.ycombinator.com/companies/lato)
-- [LATO website](https://www.latolabs.io/)
-- [Tymek Staniszewski LinkedIn](https://www.linkedin.com/in/tymeks/)
-- [Tien Chu GitHub (@chutien)](https://github.com/chutien)
-- [@tym3k on X](https://x.com/tym3k?lang=en)
-- [DiligenceSquared – TechCrunch (Mar 2026)](https://techcrunch.com/2026/03/05/diligencesquared-uses-ai-voice-agents-to-make-ma-research-affordable/)
-- [Listen Labs $69M Series B – VentureBeat](https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai)
-- [AlphaSense ARR & funding – Sacra](https://sacra.com/c/alphasense/)
-- [AlphaSense surpasses $400M ARR – PRNewswire](https://www.prnewswire.com/news-releases/alphasense-surpasses-400m-in-arr-accelerating-growth-with-private-content-expansion-and-generative-ai-innovation-302399281.html)
-- [AlphaSense completes Tegus acquisition – PRNewswire](https://www.prnewswire.com/news-releases/alphasense-completes-acquisition-of-tegus-302190934.html)
-- [AlphaSense alternatives – Hebbia](https://www.hebbia.com/resources/alphasense-competitors)
+| TAM | $571 million in 2024, projected to $1.223 billion by 2031 at an 11.6% CAGR (Global Info Research via MarketResearch.com, 2025) |
+| SAM | No public data found |
+| Traction | Blume Equity and FoodLabs disclosed as early customers; 70% of use cases research-focused (LATO LinkedIn, Jun 2026) |
+| Revenue Signal | No public data found |
+| Founders | Tymek Staniszewski (CEO): six years at Verdane, former senior investment associate; Tien Chu (CTO): University of Warsaw CS/math/philosophy studies, ML researcher and software engineer (Y Combinator, Jul 2026) |
+| Competitors | AlphaSense (well over $1B raised, $600M+ ARR, premium-content platform); Rogo (more than $165M raised before $160M additional financing, revenue unknown, financial-workflow agents); Hebbia ($161.1M raised, $13M reported 2024 revenue, document-analysis workspace) (AlphaSense, Jun 2026; Rogo, Apr 2026; aVenture, Jul 2026; TechCrunch, Jul 2024) |
+| Moat Signals | No public data found |
+| Risk Factors | Unvalidated simulation accuracy (LATO website, Jul 2026), overlapping funded competitors (AlphaSense, Rogo, and Hebbia, 2024–2026), security certifications in progress (LATO website, Jul 2026) |
+| Founder Reach | Tymek Staniszewski: approximately 3K LinkedIn followers; Tien Chu: LinkedIn count not retrievable (LinkedIn, Jul 2026) |
+| Distribution Signals | 1,058 company LinkedIn followers and zero YC job postings (LinkedIn, Jul 2026; Y Combinator, Jul 2026) |
+| Emails | hi@latolabs.io (LATO website, Jul 2026) |

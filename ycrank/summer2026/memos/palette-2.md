@@ -12,85 +12,72 @@
 | Location | San Francisco, CA, USA |
 | Tags | Generative AI, Video, AI |
 | YC Partner | Ankit Gupta |
-| Emails | No public data found |
+| Emails | founders@palettetechnology.com |
 
 ## The Idea
 
-- **Problem:** Marketing, L&D, product, customer support and internal-comms teams stitch outputs across fragmented image/video tools and manual production workflows to produce multi-format multimedia at scale (palettetechnology.com, 2026).
-- **Approach:** A single canvas that takes prompts, images, documents or references and generates/edits text, images and video via natural language, with automatic routing across underlying models — ByteDance Seedance 2.0, Google Veo 3.1, Kling 3.0 Pro, MiniMax Hailuo 02 and LTX Video — plus character-consistency controls across shots and formats (palettetechnology.com, 2026).
-- **Differentiation:** Versus Runway/Pika/Sora/Kling (single-vendor generators), Palette positions as a model-agnostic router across five named third-party video models on one canvas (palettetechnology.com, 2026); versus Sora specifically, OpenAI announced Sora web/app discontinuation April 26, 2026 and API discontinuation September 24, 2026 (Lovart AI video review, 2026 via search snippet).
-- **Business Model:** Three visible tiers — Individual (pay-as-you-go credits), Teams (shared projects), Enterprise (company-wide licensing with deployment/governance) — with no public dollar figures (palettetechnology.com, 2026).
-- **TAM/SAM:** Global AI video generator market projected $847M in 2026 growing to $3.35B by 2034 at 18.8% CAGR (Fortune Business Insights, 2026); AI video generation & editing software market projected $3.67B in 2026 to $24.89B by 2036 at 21.4% CAGR (Meticulous Research, 2026).
-- **GTM / Distribution:** Website offers a Calendly "Book a call" flow and studio.palettetechnology.com self-serve access (palettetechnology.com, 2026); [Inferred]: sales-assisted enterprise motion alongside PLG self-serve given the enterprise tier listing.
+- **Problem:** Teams producing marketing, entertainment, training, customer-support and product media currently move among fragmented creative tools and manual production workflows ([YC, Jul 2026](https://www.ycombinator.com/companies/palette-2); [Palette website, Jul 2026, via search snippet](https://palettetechnology.com/)).
+- **Approach:** Palette accepts a prompt, image, document or reference, carries its context across video, images, music and structured content, supports natural-language edits, and routes work through selected generation models ([Palette website, Jul 2026, via search snippet](https://palettetechnology.com/)).
+- **Differentiation:** Palette emphasizes source-linked, multi-format generation and cost-gated routing across Seedance, Veo, Kling, MiniMax and LTX, while Runway and Luma train proprietary world models and Higgsfield and Krea combine in-house and third-party models within their own suites ([Palette website, Jul 2026, via search snippet](https://palettetechnology.com/); [Runway, Feb 2026](https://runway.com/news/runway-series-e-funding); [Higgsfield, Jan 2026](https://www.prnewswire.com/news-releases/higgsfield-announces-130m-series-a-and-reports-200m-annual-run-rate-302661805.html); [Krea, May 2026](https://www.krea.ai/blog/on-being-the-underdog)).
+- **Business Model:** Individual access costs $0.01 per credit, with 1,000 credits cited for a character sheet, storyboard and 15 seconds of character-consistent video, while enterprise launch, advertising, UGC and training services use custom quotes ([Palette website, Jul 2026, via search snippet](https://palettetechnology.com/)).
+- **TAM/SAM:** The global AI-video market was $4.6B in 2025 and is forecast to reach $42.3B in 2033 at a 33.7% CAGR, while the U.S. AI-video-generator segment is forecast from $378.7M in 2026 to $807.1M in 2031 at a 16.3% CAGR ([Grand View Research, Jul 2026](https://www.grandviewresearch.com/industry-analysis/artificial-intelligence-ai-video-market-report); [Research and Markets, Feb 2026](https://www.researchandmarkets.com/reports/6232798/united-states-ai-video-generator-market)).
+- **GTM / Distribution:** Palette exposes self-serve “Try now” access, a shared-credit API and a “Book a call” enterprise funnel for managed campaigns and internal-content projects ([Palette website, Jul 2026, via search snippet](https://palettetechnology.com/)).
 
 ## Defensibility
 
-- **Moat today:** Company states backing by Y Combinator and OpenAI on its site (palettetechnology.com, 2026); no other defensibility signals (network effects, proprietary data, IP) found in public sources.
-- **Future moat:** [Inferred]: Multi-model routing logic plus character-consistency layer could accrue proprietary data on which model to invoke for which prompt/audience; unproven because no usage or performance benchmarks are public.
-- **Market structure:** [Inferred]: No structural barrier identified — single-vendor generators (Runway, Pika, Kling, Veo) can add multi-model orchestration, and orchestration wrappers are a common third-party category.
-- **Commoditization risk:** Any team with API access to Veo 3.1, Seedance 2.0, Kling 3.0 Pro, Hailuo 02 and LTX Video can build a router UI; the underlying video models are third-party APIs the incumbents themselves publish (palettetechnology.com model list, 2026).
+- **Moat today:** Palette reports specification, capability and cost gates backed by 130+ automated regression tests, with internal results of 35% faster generation, 50% lower generation cost and 100% task-capable routing ([Palette website, Jul 2026, via search snippet](https://palettetechnology.com/)).
+- **Future moat:** [Inferred]: Generation outcomes, failures, refunds and retained project context could create proprietary routing and workflow data, but no public customer or usage scale establishes this yet.
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** [Inferred]: Model providers and funded aggregators can reproduce routing and connected workflows because Palette publicly relies on models also available through Higgsfield and Krea ([Palette website, Jul 2026, via search snippet](https://palettetechnology.com/); [Higgsfield, Jan 2026](https://www.prnewswire.com/news-releases/higgsfield-announces-130m-series-a-and-reports-200m-annual-run-rate-302661805.html); [Krea, May 2026](https://www.krea.ai/blog/on-being-the-underdog)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Backed by Y Combinator (Summer 2026 batch) and OpenAI per company site (palettetechnology.com, 2026; ycombinator.com/companies/palette-2, 2026).
-  - Studio product live at studio.palettetechnology.com (palettetechnology.com, 2026).
-  - No public revenue, user count, download, Product Hunt, Discord, Twitter/LinkedIn follower or press coverage data found.
-- **Competitors (up to 5):**
-  - Runway ($308M+ raised, revenue unknown): single-vendor Gen-4/Gen-4.5 model with reference-image controls and built-in editor (Lovart/AIViewer AI video reviews, 2026 via search snippet); differentiator vs. Palette — proprietary model rather than multi-model routing.
-  - Pika ($135M+ raised per prior reporting, revenue unknown): 30–90s generation speed positioning for social content (Lovart AI video review, 2026 via search snippet); differentiator — speed and creator-focused UX vs. Palette's multi-format B2B canvas.
-  - OpenAI Sora (part of OpenAI, revenue unknown for Sora line): highest photorealism/longest clips, but web/app discontinued April 26, 2026 and API September 24, 2026 (Lovart AI video review, 2026 via search snippet); differentiator — being sunset creates substitution opening.
-  - Kling (Kuaishou-owned, revenue unknown): 30–40% cheaper than Western competitors on quality-matched output (Lovart AI video review, 2026 via search snippet); differentiator — one of the underlying models Palette routes to.
-  - Google Veo 3.1 (Google, revenue unknown): also one of Palette's routed underlying models (palettetechnology.com, 2026); differentiator — distribution via Google Cloud/consumer surfaces vs. Palette's independent canvas.
-- **Why now:** [Inferred]: Simultaneous availability of multiple production-grade text-to-video models (Veo 3.1, Seedance 2.0, Kling 3.0 Pro, Hailuo 02, LTX) in 2025–2026 makes cross-model routing viable for the first time (model list, palettetechnology.com, 2026).
+  - Funding: $500K pre-seed led by Y Combinator ([Serena Pei profile, Feb 2026](https://spei04.github.io/)).
+  - Current-product paid access: $0.01 per credit, with public image, video, music, asset and model API endpoints ([Palette website, Jul 2026, via search snippet](https://palettetechnology.com/)).
+  - Hiring: 0 jobs posted on YC ([YC Jobs, Jul 2026](https://www.ycombinator.com/companies/palette-2/jobs)).
+- **Competitors (minimum 3, up to 5):**
+  - Runway ($315M Series E, revenue unknown): trains proprietary world models and operates integrated creative and developer products, versus Palette’s multi-provider routing layer ([Runway, Feb 2026](https://runway.com/news/runway-series-e-funding)).
+  - Higgsfield ($130M+ Series A, $200M annual revenue run rate): develops models and aggregates third-party models for commercial-video workflows, versus Palette’s broader source-to-video, image, music and structured-content workflow ([Higgsfield, Jan 2026](https://www.prnewswire.com/news-releases/higgsfield-announces-130m-series-a-and-reports-200m-annual-run-rate-302661805.html)).
+  - Luma AI ($900M Series C, revenue unknown): finances proprietary multimodal world-model training and a 2GW compute partnership, versus Palette’s application and API orchestration layer ([Luma AI, Nov 2025, via search snippet](https://lumalabs.ai/news/series-c)).
+  - Krea ($83M raised, revenue unknown): offers image, video, editing, enhancement and an in-house Krea 2 model alongside third-party models, versus Palette’s source-linked production flow and per-credit pricing ([Krea, May 2026](https://www.krea.ai/blog/on-being-the-underdog)).
+- **Why now:** [Inferred]: Video models added native audio, multi-shot generation, character consistency and editing during 2025–26, enabling an orchestration product to combine specialized models into one production workflow ([TechCrunch, Feb 2026, via search snippet](https://techcrunch.com/2026/02/10/ai-video-startup-runway-raises-315m-at-5-3b-valuation-eyes-more-capable-world-models/)).
 
 ## Founders & Team
 
-- **Yuna Akazawa (Co-founder & CEO):**
-  - Background: LinkedIn lists role "Co-founder & CEO at Palette AI" (linkedin.com/in/yunaakazawa, 2026); no education or prior-company data confirmed in public search results.
-  - Twitter/X: @yunaakazawa (twitter.com/yunaakazawa, 2026); follower count not retrievable.
-  - LinkedIn: "Co-founder & CEO at Palette AI" (linkedin.com/in/yunaakazawa, 2026).
-  - GitHub: No public repos found.
-- **Serena Pei (Co-founder & CTO):**
-  - Background: CS at MIT per YC page (ycombinator.com/companies/palette-2, 2026); MIT profiles indicate involvement with MIT Laboratory for Information and Decision Systems (LIDS) and research interests in ML/computer vision/NLP and human-computer interaction (linkedin.com/in/serena-pei-80ab21215, 2026 via search snippet; futuretech.mit.edu/team/serena-pei via search snippet) — same-name disambiguation not fully verified.
+- **Josephine Lee (CEO):**
+  - Background: Lee studied computer science at MIT from 2022–26, was a 2025–26 E14 VC Fellow, worked on a genetic-prevalence dashboard at the Broad Institute and co-authored genetics research ([LinkedIn, Jul 2026, via search snippet](https://www.linkedin.com/in/josephinelee1234); [E14 Fund](https://www.e14.vc/team); [O’Donnell-Luria Lab](https://odonnell-luria-lab.com/our-team)).
   - Twitter/X: No public account found.
-  - LinkedIn: "MIT Laboratory for Information and Decision Systems (LIDS)" (linkedin.com/in/serena-pei-80ab21215, 2026 via search snippet) — identity match to Palette CTO not confirmed.
+  - LinkedIn: “CEO @ Palette (YC S26) \| CS @ MIT” ([YC, Jul 2026](https://www.ycombinator.com/companies/palette-2)).
   - GitHub: No public repos found.
-- **Co-founder relationship:** No public data on co-founder history.
-- **Founder-market fit:** Company site states the team is "MIT computer science graduates and multimodal AI researchers" (palettetechnology.com, 2026), matching the multimodal-generation product scope; no advisors, board members or named investors beyond YC and OpenAI disclosed.
+- **Serena Pei (CTO):**
+  - Background: Pei earned an MIT B.S. in computer science and engineering in May 2026 and conducted diffusion, computer-vision and multimodal research at CSAIL, Media Lab and LIDS after ML work at Amazon and A*STAR ([Serena Pei profile, Jul 2026](https://spei04.github.io/)).
+  - Twitter/X: No public account found.
+  - LinkedIn: “CTO @ Palette (YC S26) \| CS @ MIT” ([YC, Jul 2026](https://www.ycombinator.com/companies/palette-2)).
+  - GitHub: No public repos found.
+- **Co-founder relationship:** Both founders studied computer science at MIT during 2022–26 ([YC, Jul 2026](https://www.ycombinator.com/companies/palette-2); [LinkedIn, Jul 2026, via search snippet](https://www.linkedin.com/in/josephinelee1234); [Serena Pei profile](https://spei04.github.io/)).
+- **Founder-market fit:** Lee’s software and data-product work and Pei’s diffusion, vision, multimodal-research and production-ML experience document experience relevant to building a multimodal generation and routing platform ([O’Donnell-Luria Lab](https://odonnell-luria-lab.com/our-team); [Serena Pei profile](https://spei04.github.io/)).
 
 ## Key Risks
 
-- **Model dependency:** Product depends on five third-party video models (Seedance 2.0, Veo 3.1, Kling 3.0 Pro, Hailuo 02, LTX Video) per palettetechnology.com (2026); pricing, quota, or terms changes by any provider directly hit unit economics — no mitigation disclosed.
-- **Substitution by underlying-model vendors:** Google (Veo), ByteDance (Seedance), Kuaishou (Kling) and MiniMax already ship their own end-user editors or APIs (Lovart/AIViewer reviews, 2026 via search snippet); they can add multi-format canvases without third-party dependency.
-- **Commoditization of the orchestration layer:** Multi-model routing wrappers require only API keys and a UI, and the same model list is publicly available to any competitor (palettetechnology.com model list, 2026).
-- **Name ambiguity risk:** At least four separate YC-listed or venture-tracked "Palette"/"Ai Palette" entities exist (PaletteHQ sales-commissions, Ai Palette CPG, Palette hardware, and this Palette-2), and third-party trackers conflate them (CB Insights, Tracxn, Wellfound results, 2026); creates SEO and press-attribution friction.
-- **Zero public traction signal:** No revenue, user count, waitlist, Product Hunt launch, follower count or press coverage was retrievable in public sources as of July 2026, seven-plus months into the Summer 2026 batch window.
+- **Product-positioning discontinuity:** An indexed page updated June 29 describes Palette as an HR-agent platform, while the July homepage and YC profile describe multimedia generation, and no public pivot announcement was found ([Responsible AI page, Jun 2026](https://palettetechnology.com/responsible-ai); [Palette website, Jul 2026, via search snippet](https://palettetechnology.com/); [YC](https://www.ycombinator.com/companies/palette-2)).
+- **Upstream-model dependency:** Palette routes third-party models whose owners control availability and pricing, while Higgsfield and Krea provide overlapping aggregation and are also developing in-house models ([Palette website, Jul 2026, via search snippet](https://palettetechnology.com/); [Higgsfield, Jan 2026](https://www.prnewswire.com/news-releases/higgsfield-announces-130m-series-a-and-reports-200m-annual-run-rate-302661805.html); [Krea, May 2026](https://www.krea.ai/blog/on-being-the-underdog)).
+- **Output ownership:** The U.S. Copyright Office says prompts alone do not establish authorship and AI outputs require sufficient human-determined expressive elements for protection, while Palette’s editing and storyboarding controls may support case-specific human contribution ([U.S. Copyright Office, Jan 2025](https://www.copyright.gov/newsnet/2025/1060.html)).
+- **Name and web identity:** Website not accessible at time of research because the YC-listed domain redirected to palettelabs.com, which was indexed as a domain-for-sale page, and search results also contain the unrelated YC S21 company PaletteHQ ([Palette URL](https://palettetechnology.com/); [palettelabs.com listing](https://forsale.godaddy.com/forsale/www.palettelabs.com?traffic_id=binns2&traffic_type=TDFS_BINNS2); [PaletteHQ on YC](https://www.ycombinator.com/companies/palettehq)).
+- **Benchmark validation:** Palette’s routing figures are labeled as an internal benchmark, with no public methodology, customer count, usage count or current-product revenue disclosed ([Palette website, Jul 2026, via search snippet](https://palettetechnology.com/)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $847M in 2026 to $3.35B by 2034 at 18.8% CAGR, AI video generator market (Fortune Business Insights, 2026); alt: $3.67B in 2026 to $24.89B by 2036 at 21.4% CAGR, AI video generation & editing software (Meticulous Research, 2026) |
-| SAM | No public data found |
-| Traction | Backed by Y Combinator S26 (ycombinator.com/companies/palette-2, 2026); backed by OpenAI (palettetechnology.com, 2026); studio live at studio.palettetechnology.com (palettetechnology.com, 2026) |
-| Revenue Signal | Three tiers — Individual (pay-as-you-go credits), Teams, Enterprise — with no dollar figures disclosed (palettetechnology.com pricing, 2026) |
-| Founders | Yuna Akazawa (Co-founder & CEO): LinkedIn-listed role, background details not public. Serena Pei (Co-founder & CTO): CS @ MIT per YC page. |
-| Competitors | Runway ($308M+ raised, revenue unknown, proprietary single-model generator); Pika ($135M+ raised, revenue unknown, speed-focused creator tool); OpenAI Sora (part of OpenAI, revenue unknown, being sunset Apr/Sep 2026); Kling (Kuaishou-owned, revenue unknown, price-quality leader and Palette-routed model); Google Veo 3.1 (Google, revenue unknown, Palette-routed model with Google distribution) |
-| Moat Signals | YC + OpenAI backing per company site (palettetechnology.com, 2026); no defensibility signals beyond backing found |
-| Risk Factors | Third-party model dependency, substitution by model vendors, orchestration-layer commoditization |
-| Founder Reach | Yuna Akazawa: Twitter @yunaakazawa count not retrievable, LinkedIn count not retrievable, GitHub not found. Serena Pei: Twitter not found, LinkedIn count not retrievable, GitHub not found. |
-| Distribution Signals | No public data found |
-| Emails | No public data found |
-
-Sources:
-- [Palette — YC Company Page](https://www.ycombinator.com/companies/palette-2)
-- [Palette Technology — Company Website](https://palettetechnology.com/)
-- [Yuna Akazawa — LinkedIn](https://www.linkedin.com/in/yunaakazawa/)
-- [Yuna Akazawa — Twitter/X](https://twitter.com/yunaakazawa)
-- [Serena Pei — LinkedIn (MIT LIDS)](https://www.linkedin.com/in/serena-pei-80ab21215/)
-- [Serena Pei — MIT FutureTech](https://futuretech.mit.edu/team/serena-pei)
-- [AI Video Generator Market Size — Fortune Business Insights](https://www.fortunebusinessinsights.com/ai-video-generator-market-110060)
-- [AI Video Generation & Editing Software Market — Meticulous Research](https://www.meticulousresearch.com/product/ai-video-generation-and-editing-software-market-forecast-6359)
-- [Best AI Video Generators 2026 — Lovart](https://www.lovart.ai/blog/video-generators-review)
-- [Best AI Video Generators — AIViewer](https://aiviewer.ai/guides/best-ai-video-generators/)
+| TAM | $4.6B global AI-video market in 2025, forecast to $42.3B by 2033 at 33.7% CAGR ([Grand View Research, Jul 2026](https://www.grandviewresearch.com/industry-analysis/artificial-intelligence-ai-video-market-report)) |
+| SAM | $378.7M U.S. AI-video-generator market in 2026, forecast to $807.1M by 2031 at 16.3% CAGR ([Research and Markets, Feb 2026](https://www.researchandmarkets.com/reports/6232798/united-states-ai-video-generator-market)) |
+| Traction | $500K pre-seed led by YC ([Serena Pei profile, Feb 2026](https://spei04.github.io/)); 0 YC job postings ([YC, Jul 2026](https://www.ycombinator.com/companies/palette-2/jobs)) |
+| Revenue Signal | $0.01-per-credit individual pricing and enterprise custom quotes ([Palette website, Jul 2026, via search snippet](https://palettetechnology.com/)) |
+| Founders | Josephine Lee (CEO): MIT CS, E14 VC Fellow, Broad Institute software work; Serena Pei (CTO): MIT CSE, diffusion and multimodal researcher, Amazon and A*STAR ML experience ([YC](https://www.ycombinator.com/companies/palette-2); [E14 Fund](https://www.e14.vc/team); [Serena Pei profile](https://spei04.github.io/)) |
+| Competitors | Runway ($315M Series E, revenue unknown, proprietary models); Higgsfield ($130M+ Series A, $200M annual run rate, commercial-video workflows); Luma AI ($900M Series C, revenue unknown, world models); Krea ($83M raised, revenue unknown, creative suite and in-house model) ([Runway](https://runway.com/news/runway-series-e-funding); [Higgsfield](https://www.prnewswire.com/news-releases/higgsfield-announces-130m-series-a-and-reports-200m-annual-run-rate-302661805.html); [Luma AI](https://lumalabs.ai/news/series-c); [Krea](https://www.krea.ai/blog/on-being-the-underdog)) |
+| Moat Signals | 130+ regression tests; internal benchmark reports 35% faster generation, 50% lower cost and 100% task-capable routing ([Palette website, Jul 2026, via search snippet](https://palettetechnology.com/)) |
+| Risk Factors | Third-party model dependence ([Palette website, Jul 2026](https://palettetechnology.com/)), product-positioning discontinuity ([Responsible AI page, Jun 2026](https://palettetechnology.com/responsible-ai)), AI-output copyright limits ([U.S. Copyright Office, Jan 2025](https://www.copyright.gov/newsnet/2025/1060.html)) |
+| Founder Reach | Josephine Lee: Twitter not found, LinkedIn 3K followers, GitHub profile not found; Serena Pei: Twitter not found, LinkedIn 964 followers, GitHub profile not found ([LinkedIn, Jul 2026, via search snippets](https://www.linkedin.com/in/josephinelee1234)) |
+| Distribution Signals | Self-serve access, public API and enterprise book-a-call funnel; 0 YC job postings ([Palette website, Jul 2026, via search snippet](https://palettetechnology.com/); [YC Jobs, Jul 2026](https://www.ycombinator.com/companies/palette-2/jobs)) |
+| Emails | founders@palettetechnology.com ([Palette Responsible AI page, Jun 2026](https://palettetechnology.com/responsible-ai)) |

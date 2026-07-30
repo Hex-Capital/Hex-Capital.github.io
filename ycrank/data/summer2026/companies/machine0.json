@@ -1,69 +1,69 @@
 {
   "slug": "machine0",
   "name": "machine0",
-  "oneLiner": "Persistent & powerful cloud VMs from your CLI",
+  "oneLiner": "Cloud computers for AI agents",
   "metadata": {
     "website": "https://machine0.io",
     "yc_page": "https://www.ycombinator.com/companies/machine0",
     "batch": "Summer 2026",
     "industry": "B2B / B2B -> Infrastructure",
     "team_size": "1",
-    "location": "San Francisco, CA, USA",
+    "location": "Paris, ?le-de-France, France",
     "tags": "Developer Tools, Cloud Computing",
     "yc_partner": "Brad Flora",
-    "emails": "No public data found"
+    "emails": "barnaby@machine0.io"
   },
   "tags": [
     "Developer Tools",
     "Cloud Computing"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-06-29T06:06:16.352Z",
+  "memoGeneratedAt": "2026-07-30T17:40:21.928Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 48,
-      "tier": "Neutral"
+      "score": 66,
+      "tier": "Invest"
     },
     "elad-gil": {
-      "score": 52,
+      "score": 60,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 52,
-      "tier": "Neutral"
+      "score": 67,
+      "tier": "Invest"
     },
     "paul-graham": {
-      "score": 52,
+      "score": 64,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 33,
+      "score": 44,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 28,
+      "score": 43,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 33,
+      "score": 38,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 48,
-    "EG": 52,
-    "NR": 52,
-    "PG": 52,
-    "PT": 33,
-    "SL": 28,
-    "VK": 33
+    "CB": 66,
+    "EG": 60,
+    "NR": 67,
+    "PG": 64,
+    "PT": 44,
+    "SL": 43,
+    "VK": 38
   },
-  "consolidatedAvg": 42.57,
-  "consolidatedRank": 19,
+  "consolidatedAvg": 54.57,
+  "consolidatedRank": 67,
   "traction": {
-    "tractionRank": 37,
-    "tractionScore": 22,
-    "tractionReason": "Show HN launched, pricing live, no users disclosed"
+    "tractionRank": 103,
+    "tractionScore": 35,
+    "tractionReason": "Show HN earned 96 points and 37 comments"
   },
   "paths": {
     "memo": "summer2026/memos/machine0.md",

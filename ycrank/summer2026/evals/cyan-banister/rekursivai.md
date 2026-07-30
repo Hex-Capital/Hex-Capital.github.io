@@ -1,0 +1,30 @@
+﻿# rekursiv.ai -- Cyan Banister Evaluation
+
+Joshua Dillon spent 13 years inside Google Research and DeepMind, while Dan Kondratyuk led Luma AI’s World Models group; rekursiv.ai is domain-native at its highest dimension and nearly untouchable at its lowest. rekursiv.ai looks like two exceptional AI scientists automating the work they have actually lived, but the artifact remains an abstraction that ordinary humans cannot install, ride, scan, or photograph. That pairing produces a powerful research instrument with a weak path into my physical environment. The Tiz is obvious. The Biz and Rizz remain behind an email gate.
+
+Niantic is the high rung: John Hanke spent a decade building location systems before turning that accumulated instinct into a new kind of world. Dillon’s TensorFlow Probability and Veo work, Kondratyuk’s VideoPoet paper, and their shared Google-and-Luma history give rekursiv.ai the same load-bearing mechanism—people automating a craft they practiced before founding the business. rekursiv.ai diverges because Hanke had one unmistakable founder trajectory and a product I could experience through Ingress; rekursiv.ai has two credentialed specialists, no named CEO, and no autobiographical moment beyond professional proximity. The founders are of machine-learning research, not visiting it, but I still want to know which one could not have avoided building rekursiv.ai.
+
+The consensus YC AI-agent darling fails because model-powered software can become a polished demo without becoming an observable product or a durable company. That low-rung mechanism appears in rekursiv.ai: access is email-gated, GitHub has 14 followers, sagent has 25 stars, and no customer or revenue signal is public. rekursiv.ai does produce inspectable evidence—235 ARC experiments and a 99,768-puzzle Sudoku stress test—but those are research reports, not the visceral pull that let HQ Trivia’s product temporarily override broken co-founder governance. I cannot hand rekursiv.ai to a friend and watch the reaction. I can only read what rekursiv.ai says its agents discovered.
+
+Sakana AI’s open-source scientists and rekursiv.ai’s Apache-2.0 releases define the next 18 months of the magically-weird test. If rekursiv.ai’s fleets repeatedly preserve failed hypotheses, evidence trails, and transferable repair strategies, every experiment can make the next experiment smarter; that is recursive compounding, not another chatbot wrapper. If those methods diffuse through sagent and configgle faster than proprietary deployment data accumulates, rekursiv.ai becomes a talented benchmark shop beside Sakana’s $412 million platform. The 100% Sudoku result failed to transfer literally to ARC, while only the feedback-and-repair mechanism survived. That is a rebuttal, not a hard no—but “AI scientists” is now a heavily financed category, not Crusoe standing alone beside a gas flare.
+
+Joshua Dillon and Dan Kondratyuk are both identified only as co-founders, and rekursiv.ai names no CEO or tiebreaker. The governance score flips a tier if rekursiv.ai documents one CEO with operating authority, founder vesting, and a protocol for an irreconcilable product disagreement. Shared history at both Google and Luma establishes trust, but friendship is not governance. HQ Trivia taught me that extraordinary product pull can buy time around this defect; rekursiv.ai’s 71.4%–75.5% public ARC-AGI-1 result is not yet the kind of user love that earns the exception.
+
+SpaceX required hardware, factories, regulatory endurance, and capital that compounded into barriers; rekursiv.ai currently rents computation to run software experiments lasting as long as 48 hours. rekursiv.ai shares the appetite for expensive technical uncertainty, but not SpaceX’s physical moat or the ugly regulated terrain that keeps conventional investors away. Periodic Labs and Lila Sciences attach AI scientists to laboratories; rekursiv.ai deliberately stays inside software-based ML research. That makes rekursiv.ai easier to start, easier to copy, and less naturally mine.
+
+rekursiv.ai will be acquired by Google DeepMind by July 2029 for under $200 million after failing to exceed $3 million ARR, with rekursiv.ai’s experiment orchestration absorbed into internal model-research tooling. The mechanism is founder quality outrunning standalone distribution: Dillon and Kondratyuk can invent valuable research machinery, while email-gated access, zero disclosed revenue, open components, and heavily capitalized competitors prevent rekursiv.ai from owning a broad commercial channel. My future self at Series B sees an excellent capability seeking its natural laboratory rather than an independent platform.
+
+rekursiv.ai’s strongest bull case is the DeepMind exception: two elite researchers could use 984 experiments in 30 days to create a machine that discovers algorithms humans would not, and the $5 million YC financing buys enough compute to reach escape velocity before larger laboratories move. rekursiv.ai’s evidence tracing, early termination of poor runs, and transferred feedback-and-repair mechanism could become a proprietary scientific memory rather than a feature. The case stings because DeepMind proved that extraordinary technical people can override my outsider bias. It does not yet win: rekursiv.ai reports no paying laboratory, no moat, limited cross-domain transfer, and no clear CEO while competing with Sakana, Edison, Periodic, and Lila. Three independent research organizations collectively paying rekursiv.ai at least $2 million ARR, alongside one agent-discovered method reproduced across two distinct ML domains, would flip me to Invest.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Founder Surfaced From Lived Experience, Not Market Analysis | 28/32 |
+| Magically Weird, Non-Consensus, Round Likely Underpriced | 12/24 |
+| Single Unambiguous CEO With Identifiable Tiebreaker Authority | 5/16 |
+| Capital-Intensive, Frontier-Hardware or Unsexy-Regulated Swing | 5/15 |
+| Physical-World Verifiability: You Can Touch, Use, Or Observe The Product | 3/13 |
+| **Total** | **53/100** |
+
+**Total Score: 53/100** (Neutral)

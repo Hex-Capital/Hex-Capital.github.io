@@ -1,0 +1,81 @@
+{
+  "slug": "buildbox",
+  "name": "Buildbox",
+  "oneLiner": "Understand how users experience your AI agents",
+  "metadata": {
+    "website": "https://heybuildbox.com",
+    "yc_page": "https://www.ycombinator.com/companies/buildbox",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Analytics",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Analytics, Enterprise Software",
+    "yc_partner": "Jon Xu",
+    "emails": "hitrishalajain@gmail.com, marknnour@berkeley.edu"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Analytics",
+    "Enterprise Software"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:44:22.213Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 37,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 32,
+    "EG": 42,
+    "NR": 47,
+    "PG": 44,
+    "PT": 37,
+    "SL": 35,
+    "VK": 37
+  },
+  "consolidatedAvg": 39.14,
+  "consolidatedRank": 159,
+  "traction": {
+    "tractionRank": 156,
+    "tractionScore": 5,
+    "tractionReason": "No public traction data found"
+  },
+  "paths": {
+    "memo": "summer2026/memos/buildbox.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/buildbox.md",
+      "elad-gil": "summer2026/evals/elad-gil/buildbox.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/buildbox.md",
+      "paul-graham": "summer2026/evals/paul-graham/buildbox.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/buildbox.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/buildbox.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/buildbox.md"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "bizmark",
+  "name": "Bizmark",
+  "oneLiner": "The OS for companies that make, move, or sell physical goods",
+  "metadata": {
+    "website": "https://bizmark.ai",
+    "yc_page": "https://www.ycombinator.com/companies/bizmark",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Manufacturing, Automation, AI",
+    "yc_partner": "Jon Xu",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Manufacturing",
+    "Automation",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:44:12.075Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 69,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 48,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 59,
+    "EG": 53,
+    "NR": 52,
+    "PG": 69,
+    "PT": 39,
+    "SL": 43,
+    "VK": 48
+  },
+  "consolidatedAvg": 51.86,
+  "consolidatedRank": 97,
+  "traction": {
+    "tractionRank": 76,
+    "tractionScore": 45,
+    "tractionReason": "Building product with first customers"
+  },
+  "paths": {
+    "memo": "summer2026/memos/bizmark.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/bizmark.md",
+      "elad-gil": "summer2026/evals/elad-gil/bizmark.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/bizmark.md",
+      "paul-graham": "summer2026/evals/paul-graham/bizmark.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/bizmark.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/bizmark.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/bizmark.md"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "neuron-industries",
+  "name": "Neuron Industries",
+  "oneLiner": "Industrial Controllers built for AI",
+  "metadata": {
+    "website": "https://neuronindustries.com",
+    "yc_page": "https://www.ycombinator.com/companies/neuron-industries",
+    "batch": "Summer 2026",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+    "team_size": "2",
+    "location": "Los Angeles, CA, USA",
+    "tags": "Robotic Process Automation, Manufacturing, Automation, Industrial",
+    "yc_partner": "Diana Hu",
+    "emails": "hello@neuronindustries.com"
+  },
+  "tags": [
+    "Robotic Process Automation",
+    "Manufacturing",
+    "Automation",
+    "Industrial"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:37:42.824Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 84,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 79,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 70,
+      "tier": "Invest"
+    },
+    "sam-lessin": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 71,
+      "tier": "Invest"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 84,
+    "EG": 55,
+    "NR": 54,
+    "PG": 79,
+    "PT": 70,
+    "SL": 55,
+    "VK": 71
+  },
+  "consolidatedAvg": 66.86,
+  "consolidatedRank": 2,
+  "traction": {
+    "tractionRank": 52,
+    "tractionScore": 52,
+    "tractionReason": "Hardware pilots across four industrial sectors"
+  },
+  "paths": {
+    "memo": "summer2026/memos/neuron-industries.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/neuron-industries.md",
+      "elad-gil": "summer2026/evals/elad-gil/neuron-industries.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/neuron-industries.md",
+      "paul-graham": "summer2026/evals/paul-graham/neuron-industries.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/neuron-industries.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/neuron-industries.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/neuron-industries.md"
+    }
+  }
+}

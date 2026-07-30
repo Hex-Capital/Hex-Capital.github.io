@@ -1,0 +1,30 @@
+﻿# Applied Electrodynamics, Inc. -- Naval Ravikant Evaluation
+
+Bilgehan Avser brings an electromagnetics PhD, 35+ patents, and antenna work across multiple iPhone generations, while Applied Electrodynamics, Inc. has no marketplace or demonstrated network effect. That pairing is the signature: Applied Electrodynamics, Inc. is an unusually specific-knowledge-rich hardware company whose customers do not make one another more valuable. The founders know how to manipulate atoms and waves. The business still scales through manufactured devices, conferences, contractor introductions, and regulatory permission. Specific knowledge is present; permissionless compounding is not.
+
+**Replit** is the high rung for specific knowledge: Amjad Masad’s decade-long obsession became a publicly used artifact before it became a financing story. Applied Electrodynamics, Inc. shares the load-bearing mechanism—Avser in UWB and mmWave antennas, Brian Huppi in sensing hardware, Paul Leutheuser in hardware-product design, and George McLean in X-ray imaging—but diverges where Replit was strongest. Applied Electrodynamics, Inc. shows corporate shipping history and a claimed 250+ patents, yet no public evidence establishes company ownership of those patents, organic technical adoption, or a working artifact independently validating the claimed one-millimeter reconstruction. Deep knowledge earns almost full credit. Unverified translation from knowledge into product keeps it from the top rung.
+
+**Perplexity** is the low rung on network compounding: each user receives a useful single-sided product without directly increasing every prior user’s value. Applied Electrodynamics, Inc. has the same weakness in a harder form. One contractor buying WaveSight does not improve another contractor’s device, and the inferred labeled-scan flywheel has no disclosed deployment volume or proprietary dataset. Applied Electrodynamics, Inc. therefore lacks the user-added-value geometry behind Uber, Twitter, or AngelList. A software learning loop may eventually appear, but a hypothetical data exhaust is not a network.
+
+Direct preorders, construction conferences, and requested introductions to general contractors and U.S. defense organizations define Applied Electrodynamics, Inc.’s leverage mechanism over the next 18 months. Every additional sale requires hardware production, buyer education, field validation, and potentially FCC coordination under 47 CFR §§15.509–15.510 and §15.525. Applied Electrodynamics, Inc. can embed extraordinary code inside WaveSight, but code inside a permissioned hardware-sales process is not permissionless distribution. Code scales. Atoms queue. Regulators decide who may transmit.
+
+The $457.32 million global ground-penetrating-radar proxy places Applied Electrodynamics, Inc. below the big-market bar, while construction, industrial inspection, security, cargo, and defense offer plausible pivot vectors. Those vectors are not yet one market; they are different buyers with different compliance regimes. Applied Electrodynamics, Inc. would move up a tier if WaveSight proved to be a general radio-imaging platform that could enter those adjacencies through substantially the same device, certification, and distribution channel. Without that common platform, “many applications” means procurement fragmentation, not pivot-room.
+
+Brian Huppi co-invented the first Nest Learning Thermostat, and the four Applied Electrodynamics, Inc. founders have worked together for more than eight years. That resembles **Stack Overflow** on the human axis: domain practitioners building with people whose capabilities are known through years of shared work. Applied Electrodynamics, Inc. also has a named CEO and complementary technical ownership, avoiding the unresolved-authority red flag. Humane’s outcome weakens the execution signal, but nothing in the dossier impugns integrity. Long-term games require long-term people; eight years is evidence rather than branding.
+
+Qorvo’s March 2025 integrated UWB radar chip lowers the component barrier, so my 36-month forecast is that Applied Electrodynamics, Inc. pivots from a broad construction camera into higher-priced defense or industrial inspection and reaches only $1 million–$4 million in annualized revenue rather than becoming a mass-market construction platform. Applied Electrodynamics, Inc. has enough specific knowledge to find a technically demanding niche, but weak network effects, FCC constraints, and Vayyar’s $199.95 Walabot make horizontal construction distribution unlikely. Exceptional builders can produce a valuable instrument without producing a venture-scale network.
+
+The claimed 250+ patents make the strongest opposing case an **Anchorage Digital** exception: regulation could become the moat, rare radio-imaging expertise could overwhelm the weak leverage architecture, and one-millimeter across-room imaging could create an entirely new sensor category. That case stings because Applied Electrodynamics, Inc. has exactly the founder depth that generic hardware startups lack. It still loses today because the patents are not publicly shown to belong to Applied Electrodynamics, Inc., the performance claims lack independent validation, and FCC classification may restrict the construction use case rather than protect it. I would flip to Invest upon one verifiable condition: ten construction customers each complete at least three paid repeat deployments using independently validated across-room imaging under an FCC-cleared commercial classification.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Permissionless Leverage Architecture (Code or Media as Primary Distribution) | 8/28 |
+| Marketplace or Network with Compounding User-Added Value | 4/22 |
+| Founder Has Non-Trainable Specific Knowledge in the Domain | 19/20 |
+| Big Market with Room for Multiple Pivots Without Refinancing | 8/16 |
+| Founder Trio (Intelligence + Energy + Integrity) Reads as a 10-Year Partner | 13/14 |
+| **Total** | **52/100** |
+
+**Total Score: 52/100** (Neutral)

@@ -59,11 +59,11 @@
     "VK": 46
   },
   "consolidatedAvg": 49.29,
-  "consolidatedRank": 124,
+  "consolidatedRank": 125,
   "traction": {
-    "tractionRank": 23,
+    "tractionRank": 20,
     "tractionScore": 73,
-    "tractionReason": "Thousands of production calls for named enterprise customers"
+    "tractionReason": "Thousands of production calls for Papa Johns, KFC, Totalplay"
   },
   "paths": {
     "memo": "summer2026/memos/dialogus.md",

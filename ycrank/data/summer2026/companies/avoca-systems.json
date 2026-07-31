@@ -60,11 +60,11 @@
     "VK": 40
   },
   "consolidatedAvg": 52.29,
-  "consolidatedRank": 96,
+  "consolidatedRank": 97,
   "traction": {
-    "tractionRank": 9,
-    "tractionScore": 83,
-    "tractionReason": "Live across 250+ clinics"
+    "tractionRank": 10,
+    "tractionScore": 82,
+    "tractionReason": "250+ clinics live across radiology networks"
   },
   "paths": {
     "memo": "summer2026/memos/avoca-systems.md",

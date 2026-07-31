@@ -59,11 +59,11 @@
     "VK": 49
   },
   "consolidatedAvg": 57.14,
-  "consolidatedRank": 45,
+  "consolidatedRank": 46,
   "traction": {
-    "tractionRank": 71,
-    "tractionScore": 49,
-    "tractionReason": "Hosted platform live with 216 GitHub stars"
+    "tractionRank": 102,
+    "tractionScore": 40,
+    "tractionReason": "216 GitHub stars; hosted endpoint public"
   },
   "paths": {
     "memo": "summer2026/memos/experiential-labs.md",

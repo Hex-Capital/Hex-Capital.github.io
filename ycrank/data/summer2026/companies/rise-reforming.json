@@ -62,11 +62,11 @@
     "VK": 72
   },
   "consolidatedAvg": 60.29,
-  "consolidatedRank": 21,
+  "consolidatedRank": 22,
   "traction": {
-    "tractionRank": 77,
-    "tractionScore": 46,
-    "tractionReason": "Binding supply agreement and conditional offtake"
+    "tractionRank": 59,
+    "tractionScore": 55,
+    "tractionReason": "1,800 stable-production hours; signed supply and offtake agreements"
   },
   "paths": {
     "memo": "summer2026/memos/rise-reforming.md",

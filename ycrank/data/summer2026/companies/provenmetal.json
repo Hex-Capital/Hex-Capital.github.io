@@ -60,11 +60,11 @@
     "VK": 46
   },
   "consolidatedAvg": 56.29,
-  "consolidatedRank": 54,
+  "consolidatedRank": 55,
   "traction": {
-    "tractionRank": 85,
-    "tractionScore": 43,
-    "tractionReason": "Five signed LOIs; commercial ordering opened"
+    "tractionRank": 65,
+    "tractionScore": 53,
+    "tractionReason": "Five LOIs; ordering now open"
   },
   "paths": {
     "memo": "summer2026/memos/provenmetal.md",

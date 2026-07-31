@@ -60,11 +60,11 @@
     "VK": 61
   },
   "consolidatedAvg": 59.14,
-  "consolidatedRank": 32,
+  "consolidatedRank": 33,
   "traction": {
-    "tractionRank": 8,
-    "tractionScore": 84,
-    "tractionReason": "Thousands of active users and paying customers"
+    "tractionRank": 6,
+    "tractionScore": 86,
+    "tractionReason": "Thousands of paying users across four continents"
   },
   "paths": {
     "memo": "summer2026/memos/coasty.md",

@@ -59,11 +59,11 @@
     "VK": 39
   },
   "consolidatedAvg": 53.29,
-  "consolidatedRank": 87,
+  "consolidatedRank": 88,
   "traction": {
-    "tractionRank": 57,
+    "tractionRank": 56,
     "tractionScore": 56,
-    "tractionReason": "Deployed across A$400M+ of active construction projects"
+    "tractionReason": "Deployed across A$400M+ projects; compliance beta"
   },
   "paths": {
     "memo": "summer2026/memos/alloovium.md",

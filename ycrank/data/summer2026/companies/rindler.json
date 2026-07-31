@@ -61,11 +61,11 @@
     "VK": 44
   },
   "consolidatedAvg": 50.43,
-  "consolidatedRank": 115,
+  "consolidatedRank": 116,
   "traction": {
-    "tractionRank": 52,
-    "tractionScore": 59,
-    "tractionReason": "Multiple enterprise web workflows running in production"
+    "tractionRank": 62,
+    "tractionScore": 54,
+    "tractionReason": "Production workflows; $100-$1,000 monthly tiers"
   },
   "paths": {
     "memo": "summer2026/memos/rindler.md",

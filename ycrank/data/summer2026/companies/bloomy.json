@@ -62,11 +62,11 @@
     "VK": 48
   },
   "consolidatedAvg": 52.71,
-  "consolidatedRank": 93,
+  "consolidatedRank": 94,
   "traction": {
-    "tractionRank": 80,
-    "tractionScore": 45,
-    "tractionReason": "Three named school pilots with strong continuation demand"
+    "tractionRank": 76,
+    "tractionScore": 49,
+    "tractionReason": "Three school pilots; over 90% requested continued use"
   },
   "paths": {
     "memo": "summer2026/memos/bloomy.md",

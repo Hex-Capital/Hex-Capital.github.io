@@ -61,11 +61,11 @@
     "VK": 61
   },
   "consolidatedAvg": 57.71,
-  "consolidatedRank": 44,
+  "consolidatedRank": 45,
   "traction": {
-    "tractionRank": 109,
-    "tractionScore": 36,
-    "tractionReason": "Design partners and refundable hardware reservations"
+    "tractionRank": 118,
+    "tractionScore": 35,
+    "tractionReason": "Design partners and reservations; no units shipped"
   },
   "paths": {
     "memo": "summer2026/memos/openvector.md",

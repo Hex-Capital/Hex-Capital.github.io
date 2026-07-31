@@ -61,11 +61,11 @@
     "VK": 40
   },
   "consolidatedAvg": 50.86,
-  "consolidatedRank": 110,
+  "consolidatedRank": 111,
   "traction": {
-    "tractionRank": 106,
-    "tractionScore": 37,
-    "tractionReason": "Private preview with small design-partner group"
+    "tractionRank": 91,
+    "tractionScore": 44,
+    "tractionReason": "Small private-preview design-partner group"
   },
   "paths": {
     "memo": "summer2026/memos/understudy-labs.md",

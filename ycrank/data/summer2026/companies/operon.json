@@ -60,11 +60,11 @@
     "VK": 47
   },
   "consolidatedAvg": 53.86,
-  "consolidatedRank": 82,
+  "consolidatedRank": 83,
   "traction": {
-    "tractionRank": 73,
-    "tractionScore": 48,
-    "tractionReason": "10,000+ industrial diagrams processed"
+    "tractionRank": 46,
+    "tractionScore": 60,
+    "tractionReason": "10,000+ P&IDs processed; industrial usage claimed"
   },
   "paths": {
     "memo": "summer2026/memos/operon.md",

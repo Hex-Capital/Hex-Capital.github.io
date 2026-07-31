@@ -60,11 +60,11 @@
     "VK": 43
   },
   "consolidatedAvg": 51.86,
-  "consolidatedRank": 101,
+  "consolidatedRank": 102,
   "traction": {
-    "tractionRank": 34,
-    "tractionScore": 67,
-    "tractionReason": "Live at six named restaurant brands"
+    "tractionRank": 38,
+    "tractionScore": 64,
+    "tractionReason": "Six named restaurant deployments"
   },
   "paths": {
     "memo": "summer2026/memos/joinmarble.md",

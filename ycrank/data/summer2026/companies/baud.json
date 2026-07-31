@@ -60,11 +60,11 @@
     "VK": 76
   },
   "consolidatedAvg": 62.29,
-  "consolidatedRank": 12,
+  "consolidatedRank": 13,
   "traction": {
-    "tractionRank": 128,
-    "tractionScore": 30,
-    "tractionReason": "FPGA proof of concept and open design-partner program"
+    "tractionRank": 114,
+    "tractionScore": 36,
+    "tractionReason": "FPGA prototype live; design-partner count undisclosed"
   },
   "paths": {
     "memo": "summer2026/memos/baud.md",

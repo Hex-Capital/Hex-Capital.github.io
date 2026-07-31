@@ -59,11 +59,11 @@
     "VK": 67
   },
   "consolidatedAvg": 54.71,
-  "consolidatedRank": 68,
+  "consolidatedRank": 69,
   "traction": {
-    "tractionRank": 113,
-    "tractionScore": 35,
-    "tractionReason": "Office demonstration; commercial deployments not yet live"
+    "tractionRank": 121,
+    "tractionScore": 34,
+    "tractionReason": "Internal robot demo; commercial deployments merely planned"
   },
   "paths": {
     "memo": "summer2026/memos/proprio-robotics.md",

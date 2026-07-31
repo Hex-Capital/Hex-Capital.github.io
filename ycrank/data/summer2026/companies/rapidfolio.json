@@ -60,10 +60,10 @@
     "VK": 39
   },
   "consolidatedAvg": 57.14,
-  "consolidatedRank": 46,
+  "consolidatedRank": 47,
   "traction": {
-    "tractionRank": 30,
-    "tractionScore": 69,
+    "tractionRank": 25,
+    "tractionScore": 71,
     "tractionReason": "Live U.S. and Canadian customers with 30+ integrations"
   },
   "paths": {

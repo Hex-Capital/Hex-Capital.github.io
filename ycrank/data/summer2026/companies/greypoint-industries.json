@@ -62,11 +62,11 @@
     "VK": 61
   },
   "consolidatedAvg": 59.43,
-  "consolidatedRank": 29,
+  "consolidatedRank": 30,
   "traction": {
-    "tractionRank": 79,
-    "tractionScore": 45,
-    "tractionReason": "Signed first counter-drone contract"
+    "tractionRank": 60,
+    "tractionScore": 54,
+    "tractionReason": "First counter-drone contract signed"
   },
   "paths": {
     "memo": "summer2026/memos/greypoint-industries.md",

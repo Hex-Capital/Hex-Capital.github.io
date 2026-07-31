@@ -62,11 +62,11 @@
     "VK": 42
   },
   "consolidatedAvg": 59.43,
-  "consolidatedRank": 30,
+  "consolidatedRank": 31,
   "traction": {
-    "tractionRank": 104,
-    "tractionScore": 38,
-    "tractionReason": "One physical-robot evaluation pilot completed"
+    "tractionRank": 86,
+    "tractionScore": 46,
+    "tractionReason": "One physical-robot pilot; 96 GitHub stars"
   },
   "paths": {
     "memo": "summer2026/memos/robocurve.md",

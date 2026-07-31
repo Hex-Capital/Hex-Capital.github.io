@@ -59,11 +59,11 @@
     "VK": 37
   },
   "consolidatedAvg": 52.71,
-  "consolidatedRank": 94,
+  "consolidatedRank": 95,
   "traction": {
-    "tractionRank": 120,
+    "tractionRank": 124,
     "tractionScore": 33,
-    "tractionReason": "Commercial beta with negligible public repository usage"
+    "tractionReason": "Commercial beta; negligible repository usage"
   },
   "paths": {
     "memo": "summer2026/memos/dock.md",

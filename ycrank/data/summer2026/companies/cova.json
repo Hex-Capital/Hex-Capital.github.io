@@ -60,11 +60,11 @@
     "VK": 51
   },
   "consolidatedAvg": 50.86,
-  "consolidatedRank": 109,
+  "consolidatedRank": 110,
   "traction": {
-    "tractionRank": 114,
-    "tractionScore": 35,
-    "tractionReason": "Licensed and live provider; customer count undisclosed"
+    "tractionRank": 125,
+    "tractionScore": 33,
+    "tractionReason": "Licensed and live; no clients disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/cova.md",

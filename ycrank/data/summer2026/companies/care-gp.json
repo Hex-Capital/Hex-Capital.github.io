@@ -60,11 +60,11 @@
     "VK": 41
   },
   "consolidatedAvg": 60.14,
-  "consolidatedRank": 22,
+  "consolidatedRank": 23,
   "traction": {
-    "tractionRank": 5,
-    "tractionScore": 87,
-    "tractionReason": "Profitable with 400+ clinic operators and zero reported churn"
+    "tractionRank": 4,
+    "tractionScore": 89,
+    "tractionReason": "400+ clinic operators, profitable, 3M+ documents processed"
   },
   "paths": {
     "memo": "summer2026/memos/care-gp.md",

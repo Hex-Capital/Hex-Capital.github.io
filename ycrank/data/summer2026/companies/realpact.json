@@ -60,11 +60,11 @@
     "VK": 40
   },
   "consolidatedAvg": 48.43,
-  "consolidatedRank": 131,
+  "consolidatedRank": 132,
   "traction": {
-    "tractionRank": 38,
+    "tractionRank": 35,
     "tractionScore": 65,
-    "tractionReason": "Paying brokerages and firm-wide Sotheby's pilot"
+    "tractionReason": "Paying realtors and brokerages; Sotheby's firm-wide pilot"
   },
   "paths": {
     "memo": "summer2026/memos/realpact.md",

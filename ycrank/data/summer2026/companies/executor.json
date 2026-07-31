@@ -60,11 +60,11 @@
     "VK": 39
   },
   "consolidatedAvg": 57.86,
-  "consolidatedRank": 42,
+  "consolidatedRank": 43,
   "traction": {
-    "tractionRank": 18,
-    "tractionScore": 76,
-    "tractionReason": "Thousands of users and approximately 2,800 GitHub stars"
+    "tractionRank": 28,
+    "tractionScore": 69,
+    "tractionReason": "Thousands of users; 2,800 stars; $150 monthly team tier"
   },
   "paths": {
     "memo": "summer2026/memos/executor.md",

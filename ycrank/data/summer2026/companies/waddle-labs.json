@@ -61,11 +61,11 @@
     "VK": 63
   },
   "consolidatedAvg": 61.14,
-  "consolidatedRank": 16,
+  "consolidatedRank": 17,
   "traction": {
-    "tractionRank": 112,
-    "tractionScore": 35,
-    "tractionReason": "Preview API and internal robot-policy tests"
+    "tractionRank": 106,
+    "tractionScore": 39,
+    "tractionReason": "Preview API; 1,000 internal robot repetitions"
   },
   "paths": {
     "memo": "summer2026/memos/waddle-labs.md",

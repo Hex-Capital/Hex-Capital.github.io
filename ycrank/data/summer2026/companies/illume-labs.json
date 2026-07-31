@@ -62,11 +62,11 @@
     "VK": 34
   },
   "consolidatedAvg": 43.71,
-  "consolidatedRank": 155,
+  "consolidatedRank": 156,
   "traction": {
-    "tractionRank": 131,
-    "tractionScore": 29,
-    "tractionReason": "Private-beta waitlist and modest Product Hunt launch"
+    "tractionRank": 132,
+    "tractionScore": 30,
+    "tractionReason": "Private-beta waitlist; Product Hunt #22"
   },
   "paths": {
     "memo": "summer2026/memos/illume-labs.md",

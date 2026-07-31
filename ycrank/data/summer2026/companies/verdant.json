@@ -58,11 +58,11 @@
     "VK": 42
   },
   "consolidatedAvg": 45.29,
-  "consolidatedRank": 146,
+  "consolidatedRank": 147,
   "traction": {
-    "tractionRank": 137,
-    "tractionScore": 27,
-    "tractionReason": "200 government interviews but no deployments disclosed"
+    "tractionRank": 145,
+    "tractionScore": 26,
+    "tractionReason": "200 interviews; product only recently launched"
   },
   "paths": {
     "memo": "summer2026/memos/verdant.md",

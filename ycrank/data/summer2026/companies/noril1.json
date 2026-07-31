@@ -60,11 +60,11 @@
     "VK": 64
   },
   "consolidatedAvg": 59.86,
-  "consolidatedRank": 26,
+  "consolidatedRank": 27,
   "traction": {
-    "tractionRank": 51,
-    "tractionScore": 59,
-    "tractionReason": "First production batch reached capacity"
+    "tractionRank": 41,
+    "tractionScore": 62,
+    "tractionReason": "First production batch filled at $1,288-$1,322 preorder prices"
   },
   "paths": {
     "memo": "summer2026/memos/noril1.md",

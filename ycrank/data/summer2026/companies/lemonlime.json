@@ -60,11 +60,11 @@
     "VK": 38
   },
   "consolidatedAvg": 49.14,
-  "consolidatedRank": 127,
+  "consolidatedRank": 128,
   "traction": {
-    "tractionRank": 49,
-    "tractionScore": 60,
-    "tractionReason": "MRR quadrupled in seven days; baseline undisclosed"
+    "tractionRank": 34,
+    "tractionScore": 66,
+    "tractionReason": "MRR quadrupled in seven days; base undisclosed"
   },
   "paths": {
     "memo": "summer2026/memos/lemonlime.md",

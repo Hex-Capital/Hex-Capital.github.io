@@ -60,11 +60,11 @@
     "VK": 76
   },
   "consolidatedAvg": 60.29,
-  "consolidatedRank": 20,
+  "consolidatedRank": 21,
   "traction": {
-    "tractionRank": 123,
-    "tractionScore": 32,
-    "tractionReason": "Photon-1 launched; no customers or revenue disclosed"
+    "tractionRank": 109,
+    "tractionScore": 38,
+    "tractionReason": "Photon-1 launched; approximately 4,000 X followers"
   },
   "paths": {
     "memo": "summer2026/memos/induction-labs.md",

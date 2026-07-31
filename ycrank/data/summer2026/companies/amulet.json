@@ -62,11 +62,11 @@
     "VK": 47
   },
   "consolidatedAvg": 50,
-  "consolidatedRank": 118,
+  "consolidatedRank": 119,
   "traction": {
-    "tractionRank": 107,
-    "tractionScore": 37,
-    "tractionReason": "Private beta admitting partners in small batches"
+    "tractionRank": 93,
+    "tractionScore": 43,
+    "tractionReason": "Private-beta partners; no paying usage disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/amulet.md",

@@ -61,11 +61,11 @@
     "VK": 53
   },
   "consolidatedAvg": 60.86,
-  "consolidatedRank": 17,
+  "consolidatedRank": 18,
   "traction": {
-    "tractionRank": 47,
-    "tractionScore": 61,
-    "tractionReason": "86,729 graded turns and 69,140 poker hands"
+    "tractionRank": 104,
+    "tractionScore": 40,
+    "tractionReason": "86,729 graded turns; public arena still alpha"
   },
   "paths": {
     "memo": "summer2026/memos/olam-labs.md",

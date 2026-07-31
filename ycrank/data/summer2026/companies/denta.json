@@ -60,11 +60,11 @@
     "VK": 37
   },
   "consolidatedAvg": 53,
-  "consolidatedRank": 90,
+  "consolidatedRank": 91,
   "traction": {
-    "tractionRank": 29,
-    "tractionScore": 70,
-    "tractionReason": "Used by more than 50 dental locations"
+    "tractionRank": 23,
+    "tractionScore": 72,
+    "tractionReason": "More than 50 dental locations live"
   },
   "paths": {
     "memo": "summer2026/memos/denta.md",

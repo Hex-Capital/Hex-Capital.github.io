@@ -61,11 +61,11 @@
     "VK": 36
   },
   "consolidatedAvg": 44.86,
-  "consolidatedRank": 149,
+  "consolidatedRank": 150,
   "traction": {
-    "tractionRank": 151,
-    "tractionScore": 12,
-    "tractionReason": "Launch engagement only; no customers disclosed"
+    "tractionRank": 142,
+    "tractionScore": 27,
+    "tractionReason": "Launch engagement only; no customer evidence"
   },
   "paths": {
     "memo": "summer2026/memos/trustai.md",

@@ -59,11 +59,11 @@
     "VK": 34
   },
   "consolidatedAvg": 45,
-  "consolidatedRank": 147,
+  "consolidatedRank": 148,
   "traction": {
-    "tractionRank": 46,
-    "tractionScore": 61,
-    "tractionReason": "Leading games each recorded roughly 4,500–5,500 plays"
+    "tractionRank": 48,
+    "tractionScore": 59,
+    "tractionReason": "Multiple games recorded roughly 4,500-5,500 plays"
   },
   "paths": {
     "memo": "summer2026/memos/instaplay.md",

@@ -61,11 +61,11 @@
     "VK": 42
   },
   "consolidatedAvg": 59,
-  "consolidatedRank": 36,
+  "consolidatedRank": 37,
   "traction": {
-    "tractionRank": 16,
-    "tractionScore": 77,
-    "tractionReason": "$500M+ receivables managed; 22,000 autonomous actions"
+    "tractionRank": 14,
+    "tractionScore": 78,
+    "tractionReason": "$500M receivables managed; 22,000 actions for Synthesia"
   },
   "paths": {
     "memo": "summer2026/memos/rex-inc.md",

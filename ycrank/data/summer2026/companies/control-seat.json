@@ -60,10 +60,10 @@
     "VK": 49
   },
   "consolidatedAvg": 58.29,
-  "consolidatedRank": 40,
+  "consolidatedRank": 41,
   "traction": {
-    "tractionRank": 78,
-    "tractionScore": 46,
+    "tractionRank": 63,
+    "tractionScore": 53,
     "tractionReason": "Named industrial deployment at Battex Chile"
   },
   "paths": {

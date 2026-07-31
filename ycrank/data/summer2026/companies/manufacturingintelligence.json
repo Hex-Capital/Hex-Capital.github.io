@@ -59,11 +59,11 @@
     "VK": 39
   },
   "consolidatedAvg": 51.43,
-  "consolidatedRank": 103,
+  "consolidatedRank": 104,
   "traction": {
-    "tractionRank": 87,
-    "tractionScore": 42,
-    "tractionReason": "Unquantified use across three manufacturing sectors"
+    "tractionRank": 77,
+    "tractionScore": 49,
+    "tractionReason": "Unquantified use by aerospace and medical-device manufacturers"
   },
   "paths": {
     "memo": "summer2026/memos/manufacturingintelligence.md",

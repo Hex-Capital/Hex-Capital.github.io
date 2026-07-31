@@ -59,11 +59,11 @@
     "VK": 41
   },
   "consolidatedAvg": 49.43,
-  "consolidatedRank": 122,
+  "consolidatedRank": 123,
   "traction": {
-    "tractionRank": 26,
+    "tractionRank": 24,
     "tractionScore": 71,
-    "tractionReason": "Processes 12,000 invoices per cycle for Global 500 customer"
+    "tractionReason": "12,000 invoices per cycle for Fortune Global 500 customer"
   },
   "paths": {
     "memo": "summer2026/memos/rational.md",

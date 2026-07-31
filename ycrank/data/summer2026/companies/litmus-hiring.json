@@ -59,11 +59,11 @@
     "VK": 40
   },
   "consolidatedAvg": 52.86,
-  "consolidatedRank": 92,
+  "consolidatedRank": 93,
   "traction": {
-    "tractionRank": 20,
-    "tractionScore": 74,
-    "tractionReason": "$60K ARR within one month; 3,000 assessments"
+    "tractionRank": 31,
+    "tractionScore": 68,
+    "tractionReason": "$60K ARR in first month; 3,000 assessments"
   },
   "paths": {
     "memo": "summer2026/memos/litmus-hiring.md",

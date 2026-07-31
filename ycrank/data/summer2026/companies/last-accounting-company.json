@@ -60,11 +60,11 @@
     "VK": 41
   },
   "consolidatedAvg": 50.43,
-  "consolidatedRank": 114,
+  "consolidatedRank": 115,
   "traction": {
-    "tractionRank": 91,
-    "tractionScore": 41,
-    "tractionReason": "Onboarding first customers"
+    "tractionRank": 78,
+    "tractionScore": 48,
+    "tractionReason": "Onboarding first customers; count and revenue undisclosed"
   },
   "paths": {
     "memo": "summer2026/memos/last-accounting-company.md",

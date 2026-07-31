@@ -60,11 +60,11 @@
     "VK": 58
   },
   "consolidatedAvg": 54.86,
-  "consolidatedRank": 66,
+  "consolidatedRank": 67,
   "traction": {
-    "tractionRank": 111,
-    "tractionScore": 36,
-    "tractionReason": "Field demonstration before 20+ prospective industry buyers"
+    "tractionRank": 120,
+    "tractionScore": 34,
+    "tractionReason": "Field demonstration; fleet still in development"
   },
   "paths": {
     "memo": "summer2026/memos/libra-robotics.md",

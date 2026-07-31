@@ -61,11 +61,11 @@
     "VK": 43
   },
   "consolidatedAvg": 56.43,
-  "consolidatedRank": 51,
+  "consolidatedRank": 52,
   "traction": {
-    "tractionRank": 37,
-    "tractionScore": 66,
-    "tractionReason": "Completed customer tax season; 1,100 hours saved"
+    "tractionRank": 39,
+    "tractionScore": 63,
+    "tractionReason": "Completed customer tax season; hundreds of pilot applications"
   },
   "paths": {
     "memo": "summer2026/memos/luca-iq.md",

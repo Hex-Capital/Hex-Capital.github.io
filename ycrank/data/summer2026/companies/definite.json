@@ -61,11 +61,11 @@
     "VK": 41
   },
   "consolidatedAvg": 44.86,
-  "consolidatedRank": 148,
+  "consolidatedRank": 149,
   "traction": {
-    "tractionRank": 155,
-    "tractionScore": 7,
-    "tractionReason": "Public launch only; no users or customers disclosed"
+    "tractionRank": 162,
+    "tractionScore": 13,
+    "tractionReason": "YC launch only; no customers disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/definite.md",

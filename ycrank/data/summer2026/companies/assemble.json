@@ -60,11 +60,11 @@
     "VK": 54
   },
   "consolidatedAvg": 52.43,
-  "consolidatedRank": 95,
+  "consolidatedRank": 96,
   "traction": {
-    "tractionRank": 127,
-    "tractionScore": 30,
-    "tractionReason": "Product benchmark only; no customer traction disclosed"
+    "tractionRank": 112,
+    "tractionScore": 37,
+    "tractionReason": "Salesforce benchmark only; no customer evidence"
   },
   "paths": {
     "memo": "summer2026/memos/assemble.md",

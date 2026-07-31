@@ -62,11 +62,11 @@
     "VK": 43
   },
   "consolidatedAvg": 60.14,
-  "consolidatedRank": 24,
+  "consolidatedRank": 25,
   "traction": {
-    "tractionRank": 43,
+    "tractionRank": 40,
     "tractionScore": 63,
-    "tractionReason": "$400K+ bounties and 1,162 validated findings"
+    "tractionReason": "$400K+ bounties; 1,162 findings; enterprise beta"
   },
   "paths": {
     "memo": "summer2026/memos/nebula-security.md",

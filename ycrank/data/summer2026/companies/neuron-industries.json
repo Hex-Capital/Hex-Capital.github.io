@@ -63,9 +63,9 @@
   "consolidatedAvg": 66.86,
   "consolidatedRank": 2,
   "traction": {
-    "tractionRank": 59,
+    "tractionRank": 58,
     "tractionScore": 55,
-    "tractionReason": "Pilot hardware deployed across four industrial sectors"
+    "tractionReason": "Pilots in four industries; hardware priced $2,950-$6,450"
   },
   "paths": {
     "memo": "summer2026/memos/neuron-industries.md",

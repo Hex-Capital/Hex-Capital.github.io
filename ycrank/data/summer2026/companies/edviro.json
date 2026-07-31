@@ -60,11 +60,11 @@
     "VK": 44
   },
   "consolidatedAvg": 55.57,
-  "consolidatedRank": 62,
+  "consolidatedRank": 63,
   "traction": {
-    "tractionRank": 40,
-    "tractionScore": 64,
-    "tractionReason": "$20K ARR; seven sites live and 29 expanding"
+    "tractionRank": 32,
+    "tractionScore": 67,
+    "tractionReason": "$20K ARR; seven sites live, 29 expanding"
   },
   "paths": {
     "memo": "summer2026/memos/edviro.md",

@@ -61,11 +61,11 @@
     "VK": 61
   },
   "consolidatedAvg": 60,
-  "consolidatedRank": 25,
+  "consolidatedRank": 26,
   "traction": {
-    "tractionRank": 102,
-    "tractionScore": 39,
-    "tractionReason": "Clinical trial enrolling after first individualized treatment"
+    "tractionRank": 115,
+    "tractionScore": 36,
+    "tractionReason": "Clinical trial enrolling; one individualized case dosed"
   },
   "paths": {
     "memo": "summer2026/memos/gamgee.md",

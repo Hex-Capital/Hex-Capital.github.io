@@ -60,11 +60,11 @@
     "VK": 43
   },
   "consolidatedAvg": 49.14,
-  "consolidatedRank": 126,
+  "consolidatedRank": 127,
   "traction": {
-    "tractionRank": 138,
-    "tractionScore": 26,
-    "tractionReason": "Partner program offers grants; commercial uptake undisclosed"
+    "tractionRank": 147,
+    "tractionScore": 25,
+    "tractionReason": "Partner grants offered; no revenue or users"
   },
   "paths": {
     "memo": "summer2026/memos/83-sciences.md",

@@ -62,11 +62,11 @@
     "VK": 37
   },
   "consolidatedAvg": 46.14,
-  "consolidatedRank": 140,
+  "consolidatedRank": 141,
   "traction": {
-    "tractionRank": 39,
-    "tractionScore": 65,
-    "tractionReason": "Three disclosed customer use cases across operating industries"
+    "tractionRank": 52,
+    "tractionScore": 57,
+    "tractionReason": "Three customer use cases, including 200-SKU monitoring"
   },
   "paths": {
     "memo": "summer2026/memos/shielded.md",

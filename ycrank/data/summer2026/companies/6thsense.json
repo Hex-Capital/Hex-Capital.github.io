@@ -60,11 +60,11 @@
     "VK": 54
   },
   "consolidatedAvg": 58.43,
-  "consolidatedRank": 38,
+  "consolidatedRank": 39,
   "traction": {
-    "tractionRank": 82,
-    "tractionScore": 44,
-    "tractionReason": "Handful of teams and 20-place hardware pilot"
+    "tractionRank": 84,
+    "tractionScore": 46,
+    "tractionReason": "20-place $4,000-per-pair pilot; handful of teams"
   },
   "paths": {
     "memo": "summer2026/memos/6thsense.md",

@@ -59,11 +59,11 @@
     "VK": 42
   },
   "consolidatedAvg": 55,
-  "consolidatedRank": 65,
+  "consolidatedRank": 66,
   "traction": {
-    "tractionRank": 84,
-    "tractionScore": 43,
-    "tractionReason": "15+ operators serving four U.S. sites"
+    "tractionRank": 64,
+    "tractionScore": 53,
+    "tractionReason": "15+ operators across four U.S. sites"
   },
   "paths": {
     "memo": "summer2026/memos/aktoria-robotics.md",

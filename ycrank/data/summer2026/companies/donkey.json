@@ -61,11 +61,11 @@
     "VK": 48
   },
   "consolidatedAvg": 58.43,
-  "consolidatedRank": 39,
+  "consolidatedRank": 40,
   "traction": {
-    "tractionRank": 140,
-    "tractionScore": 26,
-    "tractionReason": "Inspectors cover seven provinces; no current customers disclosed"
+    "tractionRank": 126,
+    "tractionScore": 32,
+    "tractionReason": "Inspectors in seven provinces; no current customers disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/donkey.md",

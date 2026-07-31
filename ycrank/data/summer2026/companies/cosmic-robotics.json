@@ -63,9 +63,9 @@
   "consolidatedAvg": 62.71,
   "consolidatedRank": 11,
   "traction": {
-    "tractionRank": 21,
-    "tractionScore": 74,
-    "tractionReason": "Tens of thousands of commercial solar-panel installations"
+    "tractionRank": 15,
+    "tractionScore": 77,
+    "tractionReason": "Tens of thousands of solar panels installed"
   },
   "paths": {
     "memo": "summer2026/memos/cosmic-robotics.md",

@@ -62,11 +62,11 @@
     "VK": 43
   },
   "consolidatedAvg": 62,
-  "consolidatedRank": 13,
+  "consolidatedRank": 14,
   "traction": {
-    "tractionRank": 10,
-    "tractionScore": 82,
-    "tractionReason": "$80K contracted revenue in first month"
+    "tractionRank": 16,
+    "tractionScore": 76,
+    "tractionReason": "$80K contracted revenue in month one"
   },
   "paths": {
     "memo": "summer2026/memos/derya.md",

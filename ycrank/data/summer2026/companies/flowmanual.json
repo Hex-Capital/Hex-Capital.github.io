@@ -60,11 +60,11 @@
     "VK": 36
   },
   "consolidatedAvg": 43.86,
-  "consolidatedRank": 152,
+  "consolidatedRank": 153,
   "traction": {
-    "tractionRank": 99,
-    "tractionScore": 39,
-    "tractionReason": "Hundreds of contractor interviews; no customers disclosed"
+    "tractionRank": 146,
+    "tractionScore": 26,
+    "tractionReason": "Hundreds of interviews; free plan, no customers"
   },
   "paths": {
     "memo": "summer2026/memos/flowmanual.md",

@@ -61,11 +61,11 @@
     "VK": 48
   },
   "consolidatedAvg": 51.86,
-  "consolidatedRank": 100,
+  "consolidatedRank": 101,
   "traction": {
-    "tractionRank": 98,
-    "tractionScore": 40,
-    "tractionReason": "Building product with first customers"
+    "tractionRank": 79,
+    "tractionScore": 48,
+    "tractionReason": "Building with first customers; no revenue disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/bizmark.md",

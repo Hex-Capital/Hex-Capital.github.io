@@ -59,11 +59,11 @@
     "VK": 41
   },
   "consolidatedAvg": 44.29,
-  "consolidatedRank": 151,
+  "consolidatedRank": 152,
   "traction": {
-    "tractionRank": 62,
-    "tractionScore": 54,
-    "tractionReason": "Deployed workflows at two named law firms"
+    "tractionRank": 73,
+    "tractionScore": 50,
+    "tractionReason": "Two named law-firm deployments with live workflows"
   },
   "paths": {
     "memo": "summer2026/memos/withasync.md",

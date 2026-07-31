@@ -61,11 +61,11 @@
     "VK": 34
   },
   "consolidatedAvg": 53.86,
-  "consolidatedRank": 81,
+  "consolidatedRank": 82,
   "traction": {
-    "tractionRank": 27,
-    "tractionScore": 71,
-    "tractionReason": "Processes 1M+ events daily across multiple teams"
+    "tractionRank": 29,
+    "tractionScore": 69,
+    "tractionReason": "Over 1M events daily; multiple named teams displayed"
   },
   "paths": {
     "memo": "summer2026/memos/agnost-ai.md",

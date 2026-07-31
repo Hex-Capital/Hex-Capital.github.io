@@ -60,11 +60,11 @@
     "VK": 43
   },
   "consolidatedAvg": 54.57,
-  "consolidatedRank": 71,
+  "consolidatedRank": 72,
   "traction": {
-    "tractionRank": 103,
-    "tractionScore": 38,
-    "tractionReason": "Pharmacy partnership and 40 medication listings"
+    "tractionRank": 95,
+    "tractionScore": 43,
+    "tractionReason": "Pharmacy partnership and 40 preparations; no patient count"
   },
   "paths": {
     "memo": "summer2026/memos/ronanrx-inc.md",

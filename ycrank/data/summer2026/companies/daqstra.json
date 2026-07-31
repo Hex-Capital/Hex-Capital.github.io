@@ -59,11 +59,11 @@
     "VK": 48
   },
   "consolidatedAvg": 60.57,
-  "consolidatedRank": 18,
+  "consolidatedRank": 19,
   "traction": {
-    "tractionRank": 58,
+    "tractionRank": 54,
     "tractionScore": 56,
-    "tractionReason": "Active aerospace deployments and signed industrial pilot"
+    "tractionReason": "Multiple aerospace programs and signed palm-oil pilot"
   },
   "paths": {
     "memo": "summer2026/memos/daqstra.md",

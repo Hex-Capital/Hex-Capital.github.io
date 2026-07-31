@@ -62,11 +62,11 @@
     "VK": 52
   },
   "consolidatedAvg": 55.86,
-  "consolidatedRank": 60,
+  "consolidatedRank": 61,
   "traction": {
-    "tractionRank": 126,
-    "tractionScore": 31,
-    "tractionReason": "Public benchmark launched with 880 graded weeks"
+    "tractionRank": 107,
+    "tractionScore": 39,
+    "tractionReason": "880 graded weeks on public benchmark"
   },
   "paths": {
     "memo": "summer2026/memos/maingen.md",

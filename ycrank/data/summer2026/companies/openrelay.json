@@ -58,11 +58,11 @@
     "VK": 41
   },
   "consolidatedAvg": 54.29,
-  "consolidatedRank": 77,
+  "consolidatedRank": 78,
   "traction": {
-    "tractionRank": 64,
-    "tractionScore": 53,
-    "tractionReason": "Production platform and Stripe billing live"
+    "tractionRank": 97,
+    "tractionScore": 42,
+    "tractionReason": "Stripe billing live; no customers or revenue disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/openrelay.md",

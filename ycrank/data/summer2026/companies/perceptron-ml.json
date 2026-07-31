@@ -61,11 +61,11 @@
     "VK": 40
   },
   "consolidatedAvg": 46,
-  "consolidatedRank": 141,
+  "consolidatedRank": 142,
   "traction": {
-    "tractionRank": 76,
+    "tractionRank": 83,
     "tractionScore": 47,
-    "tractionReason": "Customer case shows 38.4 billable hours captured"
+    "tractionReason": "One displayed timekeeping case study; 7.5 hours recovered"
   },
   "paths": {
     "memo": "summer2026/memos/perceptron-ml.md",

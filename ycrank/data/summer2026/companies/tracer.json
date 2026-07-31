@@ -60,11 +60,11 @@
     "VK": 45
   },
   "consolidatedAvg": 53.14,
-  "consolidatedRank": 88,
+  "consolidatedRank": 89,
   "traction": {
-    "tractionRank": 66,
-    "tractionScore": 52,
-    "tractionReason": "1,000 GitHub stars; paid API available"
+    "tractionRank": 99,
+    "tractionScore": 41,
+    "tractionReason": "1,000 GitHub stars; private-alpha paid API"
   },
   "paths": {
     "memo": "summer2026/memos/tracer.md",

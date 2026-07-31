@@ -60,11 +60,11 @@
     "VK": 37
   },
   "consolidatedAvg": 51.29,
-  "consolidatedRank": 105,
+  "consolidatedRank": 106,
   "traction": {
-    "tractionRank": 105,
-    "tractionScore": 38,
-    "tractionReason": "Free early access with design partners"
+    "tractionRank": 90,
+    "tractionScore": 44,
+    "tractionReason": "Early-access design partners; public API live"
   },
   "paths": {
     "memo": "summer2026/memos/mireye.md",

@@ -60,11 +60,11 @@
     "VK": 42
   },
   "consolidatedAvg": 48.71,
-  "consolidatedRank": 128,
+  "consolidatedRank": 129,
   "traction": {
-    "tractionRank": 141,
-    "tractionScore": 25,
-    "tractionReason": "Live demo available; customer evidence remains undisclosed"
+    "tractionRank": 140,
+    "tractionScore": 28,
+    "tractionReason": "Live demo only; customer evidence kept private"
   },
   "paths": {
     "memo": "summer2026/memos/insurf.md",

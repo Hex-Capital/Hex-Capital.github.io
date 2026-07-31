@@ -58,11 +58,11 @@
     "VK": 39
   },
   "consolidatedAvg": 50.29,
-  "consolidatedRank": 116,
+  "consolidatedRank": 117,
   "traction": {
-    "tractionRank": 69,
-    "tractionScore": 50,
-    "tractionReason": "743 GitHub stars and five displayed teams"
+    "tractionRank": 100,
+    "tractionScore": 41,
+    "tractionReason": "743 GitHub stars and five displayed team users"
   },
   "paths": {
     "memo": "summer2026/memos/almanac.md",

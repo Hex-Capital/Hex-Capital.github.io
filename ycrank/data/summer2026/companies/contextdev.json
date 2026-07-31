@@ -60,11 +60,11 @@
     "VK": 34
   },
   "consolidatedAvg": 54.43,
-  "consolidatedRank": 73,
+  "consolidatedRank": 74,
   "traction": {
-    "tractionRank": 7,
-    "tractionScore": 85,
-    "tractionReason": "280+ companies and 5,000+ developers"
+    "tractionRank": 8,
+    "tractionScore": 84,
+    "tractionReason": "280+ companies and 5,000 developers on priced platform"
   },
   "paths": {
     "memo": "summer2026/memos/contextdev.md",

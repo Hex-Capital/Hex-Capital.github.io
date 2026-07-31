@@ -65,8 +65,8 @@
   "consolidatedRank": 10,
   "traction": {
     "tractionRank": 19,
-    "tractionScore": 75,
-    "tractionReason": "320K+ downloads and 4,523 weekly SDK downloads"
+    "tractionScore": 74,
+    "tractionReason": "320K downloads, 2.9K stars, $199-$1,499 monthly tiers"
   },
   "paths": {
     "memo": "summer2026/memos/onecli.md",

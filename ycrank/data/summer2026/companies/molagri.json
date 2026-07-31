@@ -62,11 +62,11 @@
     "VK": 65
   },
   "consolidatedAvg": 55.71,
-  "consolidatedRank": 61,
+  "consolidatedRank": 62,
   "traction": {
-    "tractionRank": 146,
-    "tractionScore": 17,
-    "tractionReason": "Research-stage company with no product traction disclosed"
+    "tractionRank": 149,
+    "tractionScore": 23,
+    "tractionReason": "YC selection and hiring; no product traction"
   },
   "paths": {
     "memo": "summer2026/memos/molagri.md",

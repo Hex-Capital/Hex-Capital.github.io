@@ -59,11 +59,11 @@
     "VK": 30
   },
   "consolidatedAvg": 58.14,
-  "consolidatedRank": 41,
+  "consolidatedRank": 42,
   "traction": {
-    "tractionRank": 31,
-    "tractionScore": 69,
-    "tractionReason": "Paying production usage across $500M of monitored capital"
+    "tractionRank": 33,
+    "tractionScore": 66,
+    "tractionReason": "Paying production usage; $500M monitored across 10+ facilities"
   },
   "paths": {
     "memo": "summer2026/memos/levocred-ai.md",

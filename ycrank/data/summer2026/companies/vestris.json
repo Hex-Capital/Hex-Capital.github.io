@@ -59,11 +59,11 @@
     "VK": 48
   },
   "consolidatedAvg": 49.43,
-  "consolidatedRank": 123,
+  "consolidatedRank": 124,
   "traction": {
-    "tractionRank": 134,
-    "tractionScore": 28,
-    "tractionReason": "Preview waitlist live across two jurisdictions"
+    "tractionRank": 130,
+    "tractionScore": 31,
+    "tractionReason": "Preview waitlist across two jurisdictions"
   },
   "paths": {
     "memo": "summer2026/memos/vestris.md",

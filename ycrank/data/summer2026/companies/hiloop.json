@@ -62,11 +62,11 @@
     "VK": 61
   },
   "consolidatedAvg": 56.86,
-  "consolidatedRank": 47,
+  "consolidatedRank": 48,
   "traction": {
-    "tractionRank": 125,
-    "tractionScore": 31,
-    "tractionReason": "4,188 internal experiments; no external users disclosed"
+    "tractionRank": 111,
+    "tractionScore": 37,
+    "tractionReason": "4,188 internal experiments; no users disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/hiloop.md",

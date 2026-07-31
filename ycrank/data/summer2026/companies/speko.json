@@ -60,11 +60,11 @@
     "VK": 34
   },
   "consolidatedAvg": 48.43,
-  "consolidatedRank": 132,
+  "consolidatedRank": 133,
   "traction": {
-    "tractionRank": 119,
-    "tractionScore": 33,
-    "tractionReason": "Roughly 90 weekly downloads per principal package"
+    "tractionRank": 103,
+    "tractionScore": 40,
+    "tractionReason": "175 weekly SDK downloads; no customer count"
   },
   "paths": {
     "memo": "summer2026/memos/speko.md",

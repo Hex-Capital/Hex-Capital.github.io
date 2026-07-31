@@ -60,11 +60,11 @@
     "VK": 44
   },
   "consolidatedAvg": 56,
-  "consolidatedRank": 57,
+  "consolidatedRank": 58,
   "traction": {
-    "tractionRank": 42,
-    "tractionScore": 63,
-    "tractionReason": "Fortune 500 vulnerabilities and 50,000+ challenge attempts"
+    "tractionRank": 45,
+    "tractionScore": 60,
+    "tractionReason": "50,000+ challenge attempts; Fortune 500 vulnerabilities found"
   },
   "paths": {
     "memo": "summer2026/memos/fabraix.md",

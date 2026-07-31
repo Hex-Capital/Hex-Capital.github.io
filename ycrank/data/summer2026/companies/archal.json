@@ -61,11 +61,11 @@
     "VK": 43
   },
   "consolidatedAvg": 54.14,
-  "consolidatedRank": 78,
+  "consolidatedRank": 79,
   "traction": {
-    "tractionRank": 118,
-    "tractionScore": 33,
-    "tractionReason": "Deprecated CLI records 59 weekly downloads"
+    "tractionRank": 136,
+    "tractionScore": 29,
+    "tractionReason": "59 weekly downloads on deprecated CLI"
   },
   "paths": {
     "memo": "summer2026/memos/archal.md",

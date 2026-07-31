@@ -59,11 +59,11 @@
     "VK": 43
   },
   "consolidatedAvg": 55.43,
-  "consolidatedRank": 64,
+  "consolidatedRank": 65,
   "traction": {
-    "tractionRank": 35,
-    "tractionScore": 67,
-    "tractionReason": "Live across four continents at premium hotels"
+    "tractionRank": 55,
+    "tractionScore": 56,
+    "tractionReason": "Live across four continents and luxury hotel customers"
   },
   "paths": {
     "memo": "summer2026/memos/axelrod.md",

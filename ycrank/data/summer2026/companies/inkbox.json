@@ -60,11 +60,11 @@
     "VK": 39
   },
   "consolidatedAvg": 56.29,
-  "consolidatedRank": 53,
+  "consolidatedRank": 54,
   "traction": {
-    "tractionRank": 65,
-    "tractionScore": 52,
-    "tractionReason": "Five-agent customer deployment and 20+ external pull requests"
+    "tractionRank": 69,
+    "tractionScore": 51,
+    "tractionReason": "Five-agent customer deployment; $30-$200 monthly tiers"
   },
   "paths": {
     "memo": "summer2026/memos/inkbox.md",

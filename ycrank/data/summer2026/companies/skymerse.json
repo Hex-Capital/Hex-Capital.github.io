@@ -59,11 +59,11 @@
     "VK": 43
   },
   "consolidatedAvg": 61.14,
-  "consolidatedRank": 15,
+  "consolidatedRank": 16,
   "traction": {
     "tractionRank": 12,
     "tractionScore": 80,
-    "tractionReason": "3,500+ users and airline customers in production"
+    "tractionReason": "3,500+ users; airline customers live in production"
   },
   "paths": {
     "memo": "summer2026/memos/skymerse.md",

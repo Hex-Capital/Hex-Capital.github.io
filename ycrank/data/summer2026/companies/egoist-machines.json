@@ -60,11 +60,11 @@
     "VK": 42
   },
   "consolidatedAvg": 54.57,
-  "consolidatedRank": 69,
+  "consolidatedRank": 70,
   "traction": {
     "tractionRank": 133,
-    "tractionScore": 28,
-    "tractionReason": "Waitlist open; general availability not yet reached"
+    "tractionScore": 30,
+    "tractionReason": "Waitlist open; product not generally available"
   },
   "paths": {
     "memo": "summer2026/memos/egoist-machines.md",

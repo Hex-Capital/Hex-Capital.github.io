@@ -59,11 +59,11 @@
     "VK": 38
   },
   "consolidatedAvg": 54.57,
-  "consolidatedRank": 70,
+  "consolidatedRank": 71,
   "traction": {
-    "tractionRank": 116,
-    "tractionScore": 34,
-    "tractionReason": "Show HN earned 96 points; no usage disclosed"
+    "tractionRank": 98,
+    "tractionScore": 42,
+    "tractionReason": "Show HN 96 points; paid compute available"
   },
   "paths": {
     "memo": "summer2026/memos/machine0.md",

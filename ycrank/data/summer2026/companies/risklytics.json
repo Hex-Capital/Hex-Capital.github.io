@@ -62,11 +62,11 @@
     "VK": 37
   },
   "consolidatedAvg": 42.43,
-  "consolidatedRank": 158,
+  "consolidatedRank": 159,
   "traction": {
-    "tractionRank": 150,
-    "tractionScore": 13,
-    "tractionReason": "Current brokerage has no disclosed customers"
+    "tractionRank": 152,
+    "tractionScore": 22,
+    "tractionReason": "91 followers; no current brokerage customers disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/risklytics.md",

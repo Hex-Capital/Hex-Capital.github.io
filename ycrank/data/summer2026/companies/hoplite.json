@@ -60,11 +60,11 @@
     "VK": 39
   },
   "consolidatedAvg": 46.71,
-  "consolidatedRank": 137,
+  "consolidatedRank": 138,
   "traction": {
-    "tractionRank": 97,
-    "tractionScore": 40,
-    "tractionReason": "One reported business installation"
+    "tractionRank": 87,
+    "tractionScore": 45,
+    "tractionReason": "One business installation; prepaid billing live"
   },
   "paths": {
     "memo": "summer2026/memos/hoplite.md",

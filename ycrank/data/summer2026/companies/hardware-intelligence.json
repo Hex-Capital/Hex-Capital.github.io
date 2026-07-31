@@ -62,11 +62,11 @@
     "VK": 45
   },
   "consolidatedAvg": 56,
-  "consolidatedRank": 58,
+  "consolidatedRank": 59,
   "traction": {
-    "tractionRank": 108,
-    "tractionScore": 37,
-    "tractionReason": "Product launched and pilot onboarding opened"
+    "tractionRank": 128,
+    "tractionScore": 32,
+    "tractionReason": "Pilot onboarding open; no pilots disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/hardware-intelligence.md",

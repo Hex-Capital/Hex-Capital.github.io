@@ -60,11 +60,11 @@
     "VK": 42
   },
   "consolidatedAvg": 51.29,
-  "consolidatedRank": 106,
+  "consolidatedRank": 107,
   "traction": {
-    "tractionRank": 94,
-    "tractionScore": 40,
-    "tractionReason": "Fixed-price implementations available; current customers undisclosed"
+    "tractionRank": 135,
+    "tractionScore": 29,
+    "tractionReason": "Current customers undisclosed; prior paid pilots excluded"
   },
   "paths": {
     "memo": "summer2026/memos/trope.md",

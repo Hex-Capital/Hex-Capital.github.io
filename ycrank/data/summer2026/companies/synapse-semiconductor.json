@@ -62,11 +62,11 @@
     "VK": 69
   },
   "consolidatedAvg": 60.57,
-  "consolidatedRank": 19,
+  "consolidatedRank": 20,
   "traction": {
-    "tractionRank": 110,
-    "tractionScore": 36,
-    "tractionReason": "Working hardware with potential-partner interest"
+    "tractionRank": 119,
+    "tractionScore": 35,
+    "tractionReason": "Working hardware; potential-partner interest only"
   },
   "paths": {
     "memo": "summer2026/memos/synapse-semiconductor.md",

@@ -60,11 +60,11 @@
     "VK": 41
   },
   "consolidatedAvg": 52.29,
-  "consolidatedRank": 97,
+  "consolidatedRank": 98,
   "traction": {
-    "tractionRank": 53,
-    "tractionScore": 58,
-    "tractionReason": "Completed transactions across three enterprise-data categories"
+    "tractionRank": 70,
+    "tractionScore": 51,
+    "tractionReason": "Transactions completed across three enterprise-data categories"
   },
   "paths": {
     "memo": "summer2026/memos/petrarch.md",

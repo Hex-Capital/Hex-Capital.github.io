@@ -62,11 +62,11 @@
     "VK": 42
   },
   "consolidatedAvg": 45.57,
-  "consolidatedRank": 145,
+  "consolidatedRank": 146,
   "traction": {
-    "tractionRank": 156,
-    "tractionScore": 6,
-    "tractionReason": "YC participation and team only"
+    "tractionRank": 160,
+    "tractionScore": 15,
+    "tractionReason": "YC participation only; no product traction"
   },
   "paths": {
     "memo": "summer2026/memos/florin.md",

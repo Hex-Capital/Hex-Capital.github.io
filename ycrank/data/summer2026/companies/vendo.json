@@ -61,11 +61,11 @@
     "VK": 49
   },
   "consolidatedAvg": 54.86,
-  "consolidatedRank": 67,
+  "consolidatedRank": 68,
   "traction": {
-    "tractionRank": 48,
-    "tractionScore": 60,
-    "tractionReason": "1,220 weekly downloads and 346 GitHub stars"
+    "tractionRank": 44,
+    "tractionScore": 61,
+    "tractionReason": "1,220 weekly downloads and $49-$499 monthly plans"
   },
   "paths": {
     "memo": "summer2026/memos/vendo.md",

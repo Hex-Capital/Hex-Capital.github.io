@@ -64,9 +64,9 @@
   "consolidatedAvg": 65.57,
   "consolidatedRank": 4,
   "traction": {
-    "tractionRank": 6,
-    "tractionScore": 86,
-    "tractionReason": "Tens of thousands revenue and 250,000 users"
+    "tractionRank": 7,
+    "tractionScore": 85,
+    "tractionReason": "Tens of thousands revenue; 250K users; 6x active-user growth"
   },
   "paths": {
     "memo": "summer2026/memos/screenpipe.md",

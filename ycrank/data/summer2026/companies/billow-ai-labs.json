@@ -61,11 +61,11 @@
     "VK": 43
   },
   "consolidatedAvg": 56.29,
-  "consolidatedRank": 52,
+  "consolidatedRank": 53,
   "traction": {
     "tractionRank": 75,
-    "tractionScore": 47,
-    "tractionReason": "Two customer testimonials showing substantial workflow savings"
+    "tractionScore": 49,
+    "tractionReason": "Two customer testimonials with large time savings"
   },
   "paths": {
     "memo": "summer2026/memos/billow-ai-labs.md",

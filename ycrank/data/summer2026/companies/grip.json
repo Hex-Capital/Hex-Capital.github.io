@@ -59,11 +59,11 @@
     "VK": 49
   },
   "consolidatedAvg": 53.43,
-  "consolidatedRank": 86,
+  "consolidatedRank": 87,
   "traction": {
-    "tractionRank": 160,
-    "tractionScore": 4,
-    "tractionReason": "Team and YC participation only"
+    "tractionRank": 157,
+    "tractionScore": 18,
+    "tractionReason": "Team and YC batch only; website inaccessible"
   },
   "paths": {
     "memo": "summer2026/memos/grip.md",

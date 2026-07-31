@@ -62,11 +62,11 @@
     "VK": 31
   },
   "consolidatedAvg": 43.86,
-  "consolidatedRank": 153,
+  "consolidatedRank": 154,
   "traction": {
-    "tractionRank": 100,
-    "tractionScore": 39,
-    "tractionReason": "User base grew fivefold; absolute baseline undisclosed"
+    "tractionRank": 96,
+    "tractionScore": 42,
+    "tractionReason": "5x user growth and 3x WAU; baselines undisclosed"
   },
   "paths": {
     "memo": "summer2026/memos/opentrade.md",

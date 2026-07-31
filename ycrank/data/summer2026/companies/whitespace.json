@@ -61,11 +61,11 @@
     "VK": 44
   },
   "consolidatedAvg": 53.71,
-  "consolidatedRank": 84,
+  "consolidatedRank": 85,
   "traction": {
-    "tractionRank": 36,
-    "tractionScore": 66,
-    "tractionReason": "Two named customers with live wholesale workflows"
+    "tractionRank": 50,
+    "tractionScore": 58,
+    "tractionReason": "Two named customers; deployments across four workflows"
   },
   "paths": {
     "memo": "summer2026/memos/whitespace.md",

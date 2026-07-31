@@ -62,11 +62,11 @@
     "VK": 51
   },
   "consolidatedAvg": 55.57,
-  "consolidatedRank": 63,
+  "consolidatedRank": 64,
   "traction": {
-    "tractionRank": 32,
-    "tractionScore": 68,
-    "tractionReason": "Multiple Fortune 500 and major EPC deployments"
+    "tractionRank": 37,
+    "tractionScore": 64,
+    "tractionReason": "Multiple Fortune 500 and EPC customers deploying"
   },
   "paths": {
     "memo": "summer2026/memos/torus.md",

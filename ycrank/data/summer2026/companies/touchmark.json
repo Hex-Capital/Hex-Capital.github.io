@@ -59,11 +59,11 @@
     "VK": 39
   },
   "consolidatedAvg": 45.71,
-  "consolidatedRank": 144,
+  "consolidatedRank": 145,
   "traction": {
-    "tractionRank": 154,
-    "tractionScore": 8,
-    "tractionReason": "Website coming soon; no product traction"
+    "tractionRank": 164,
+    "tractionScore": 10,
+    "tractionReason": "Coming soon; no product or traction"
   },
   "paths": {
     "memo": "summer2026/memos/touchmark.md",

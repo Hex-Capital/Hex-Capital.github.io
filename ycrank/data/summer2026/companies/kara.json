@@ -61,11 +61,11 @@
     "VK": 55
   },
   "consolidatedAvg": 56.57,
-  "consolidatedRank": 48,
+  "consolidatedRank": 49,
   "traction": {
-    "tractionRank": 145,
+    "tractionRank": 156,
     "tractionScore": 18,
-    "tractionReason": "721 followers but no commercial traction disclosed"
+    "tractionReason": "YC participation and followers only"
   },
   "paths": {
     "memo": "summer2026/memos/kara.md",

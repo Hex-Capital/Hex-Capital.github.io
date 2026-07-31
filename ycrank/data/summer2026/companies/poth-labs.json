@@ -62,11 +62,11 @@
     "VK": 40
   },
   "consolidatedAvg": 47.43,
-  "consolidatedRank": 135,
+  "consolidatedRank": 136,
   "traction": {
-    "tractionRank": 61,
-    "tractionScore": 54,
-    "tractionReason": "Five named teams using current product"
+    "tractionRank": 67,
+    "tractionScore": 52,
+    "tractionReason": "Five named teams use current product"
   },
   "paths": {
     "memo": "summer2026/memos/poth-labs.md",

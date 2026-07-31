@@ -58,11 +58,11 @@
     "VK": 40
   },
   "consolidatedAvg": 50.43,
-  "consolidatedRank": 111,
+  "consolidatedRank": 112,
   "traction": {
-    "tractionRank": 67,
-    "tractionScore": 51,
-    "tractionReason": "Current log-compression CLI launched with paid tiers"
+    "tractionRank": 122,
+    "tractionScore": 34,
+    "tractionReason": "Current CLI published; usage unreported"
   },
   "paths": {
     "memo": "summer2026/memos/codag.md",
